@@ -51,51 +51,18 @@ A text box is a flexible control with several possible uses.
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><strong>Data input</strong><br/> A single-line, unconstrained text box used to enter or edit short strings.<br/></td>
-<td><img src="images/ctrl-text-boxes-image2.png" alt="Screen shot of a text box with Display name label " /><br/> A single-line, unconstrained text box.<br/></td>
-</tr>
-<tr class="even">
-<td><strong>Formatted data input</strong><br/> A set of short, fixed-sized, single-line text boxes used to enter data with a specific format. <br/></td>
-<td><img src="images/ctrl-text-boxes-image3.png" alt="Screen shot of a Product key text box " /><br/> A text box used for formatted data input.<br/>
-<blockquote>
-[!Note]<br />
-The <a href="glossary.md">auto-exit</a> feature automatically advances the input focus from one text box to the next. One disadvantage to this approach is that the data can't be copied or pasted as a single unit.
-</blockquote>
-<br/> <br/></td>
-</tr>
-<tr class="odd">
-<td><strong>Assisted data input</strong><br/> A single-line, unconstrained text box used to enter or edit strings, combined with a command button that helps users select valid values.<br/></td>
-<td><img src="images/ctrl-text-boxes-image4.png" alt="Screen shot of text box with Browse button" /><br/> In this example, the Browse command helps users select valid values.<br/></td>
-</tr>
-<tr class="even">
-<td><strong>Textual input</strong><br/> A multi-line, unconstrained text box used to enter or edit long strings. <br/></td>
-<td><img src="images/ctrl-text-boxes-image5.png" alt="Screen shot of an Address text box " /><br/> A multi-line, unconstrained text box.<br/></td>
-</tr>
-<tr class="odd">
-<td><strong>Numeric input</strong><br/> A single-line, numeric-only text box used to enter or edit numbers, with an optional <a href="ctrl-spin-controls.md">spin control</a> to facilitate mouse-based input. <br/></td>
-<td><img src="images/ctrl-text-boxes-image6.png" alt="Screen shot of a text box for entering a wait time " /><br/> A text box used for numeric input.<br/> The combination of a text box and its associated spin control is called a <a href="ctrl-spin-controls.md">spin box</a>.<br/></td>
-</tr>
-<tr class="even">
-<td><strong>Password and PIN input</strong><br/> A single-line, unconstrained text box used to enter passwords and PINs securely.<br/></td>
-<td><img src="images/ctrl-text-boxes-image7.png" alt="Screen shot of a Password text box " /><br/> A text box used to enter passwords.<br/></td>
-</tr>
-<tr class="odd">
-<td><strong>Data output</strong><br/> A single-line, read-only text box, always displayed without a border, used to display short strings. <br/></td>
-<td>Unlike static text, data displayed using a text box can be scrolled (useful if the data is wider than the control), selected, and copied.<br/> <img src="images/ctrl-text-boxes-image8.png" alt="Screen shot of a text box showing path to a folder " /><br/> A single-line, read-only text box used to display data.<br/></td>
-</tr>
-<tr class="even">
-<td><strong>Textual output</strong><br/> A multi-line, read-only text box used to display long strings. <br/></td>
-<td><img src="images/ctrl-text-boxes-image9.png" alt="Screen shot of a Privacy information text box " /><br/> A read-only text box used to display data.<br/></td>
-</tr>
-</tbody>
-</table>
+
+| 
+|
+| <strong>Data input</strong><br /> A single-line, unconstrained text box used to enter or edit short strings.<br /> | <img src="images/ctrl-text-boxes-image2.png" alt="Screen shot of a text box with Display name label " /><br /> A single-line, unconstrained text box.<br /> | 
+| <strong>Formatted data input</strong><br /> A set of short, fixed-sized, single-line text boxes used to enter data with a specific format. <br /> | <img src="images/ctrl-text-boxes-image3.png" alt="Screen shot of a Product key text box " /><br /> A text box used for formatted data input.<br /><blockquote>[!Note]<br />The <a href="glossary.md">auto-exit</a> feature automatically advances the input focus from one text box to the next. One disadvantage to this approach is that the data can't be copied or pasted as a single unit.</blockquote><br /><br /> | 
+| <strong>Assisted data input</strong><br /> A single-line, unconstrained text box used to enter or edit strings, combined with a command button that helps users select valid values.<br /> | <img src="images/ctrl-text-boxes-image4.png" alt="Screen shot of text box with Browse button" /><br /> In this example, the Browse command helps users select valid values.<br /> | 
+| <strong>Textual input</strong><br /> A multi-line, unconstrained text box used to enter or edit long strings. <br /> | <img src="images/ctrl-text-boxes-image5.png" alt="Screen shot of an Address text box " /><br /> A multi-line, unconstrained text box.<br /> | 
+| <strong>Numeric input</strong><br /> A single-line, numeric-only text box used to enter or edit numbers, with an optional <a href="ctrl-spin-controls.md">spin control</a> to facilitate mouse-based input. <br /> | <img src="images/ctrl-text-boxes-image6.png" alt="Screen shot of a text box for entering a wait time " /><br /> A text box used for numeric input.<br /> The combination of a text box and its associated spin control is called a <a href="ctrl-spin-controls.md">spin box</a>.<br /> | 
+| <strong>Password and PIN input</strong><br /> A single-line, unconstrained text box used to enter passwords and PINs securely.<br /> | <img src="images/ctrl-text-boxes-image7.png" alt="Screen shot of a Password text box " /><br /> A text box used to enter passwords.<br /> | 
+| <strong>Data output</strong><br /> A single-line, read-only text box, always displayed without a border, used to display short strings. <br /> | Unlike static text, data displayed using a text box can be scrolled (useful if the data is wider than the control), selected, and copied.<br /><img src="images/ctrl-text-boxes-image8.png" alt="Screen shot of a text box showing path to a folder " /><br /> A single-line, read-only text box used to display data.<br /> | 
+| <strong>Textual output</strong><br /> A multi-line, read-only text box used to display long strings. <br /> | <img src="images/ctrl-text-boxes-image9.png" alt="Screen shot of a Privacy information text box " /><br /> A read-only text box used to display data.<br /> | 
+
 
 
 

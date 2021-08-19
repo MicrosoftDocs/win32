@@ -28,65 +28,15 @@ Constructs instances of the [**XMBYTEN2**](/windows/desktop/api/DirectXPackedVec
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;">Constructor</th>
-<th style="text-align: left;">Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;"><a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmbyten2-xmbyten2(constfloat)"><strong>XMBYTEN2 ()</strong></a></td>
-<td style="text-align: left;">Default constructor for <code>XMBYTEN2</code><br/> Default constructor for <a href="/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmbyten2"><strong>XMBYTEN2</strong></a>.<br/>
-<blockquote>
-[!Note]<br />
-This constructor is only available with C++.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmbyten2-xmbyten2(float_float)"><strong>XMBYTEN2 (float,float)</strong></a></td>
-<td style="text-align: left;">Initializes a new instance of <code>XMBYTEN2</code> from two <code>float</code> arguments. <br/> This constructor initializes a new instance of <a href="/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmbyten2"><strong>XMBYTEN2</strong></a> from two <code>float</code> arguments. <br/>
-<blockquote>
-[!Note]<br />
-This constructor is only available with C++.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmbyten2-xmbyten2(constfloat)"><strong>XMBYTEN2 (const float*)</strong></a></td>
-<td style="text-align: left;">Initializes a new instance of <code>XMBYTEN2</code> from a two-element <code>float</code> array argument.<br/> This constructor initializes a new instance of <a href="/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmbyten2"><strong>XMBYTEN2</strong></a> from a two-element <code>float</code> array argument.<br/>
-<blockquote>
-[!Note]<br />
-This constructor is only available with C++.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmbyten2-xmbyten2(constint8_t)"><strong>XMBYTEN2 (const int8_t*)</strong></a></td>
-<td style="text-align: left;">Initializes a new instance of <code>XMBYTE4</code> from a two-element <code>int8_t</code> array argument.<br/> This constructor initializes a new instance of <a href="/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmbyten2"><strong>XMBYTEN2</strong></a> from a two-element <code>int8_t</code> array argument.<br/>
-<blockquote>
-[!Note]<br />
-This constructor is only available with C++.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmbyten2-xmbyten2(int8_t_int8_t)"><strong>XMBYTEN2 (int8_t,int8_t)</strong></a></td>
-<td style="text-align: left;">Initializes a new instance of <code>XMBYTEN2</code> from two <code>int8_t</code> arguments.<br/> This constructor initializes a new instance of <a href="/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmbyten2"><strong>XMBYTEN2</strong></a> from two <code>int8_t</code> arguments.<br/>
-<blockquote>
-[!Note]<br />
-This constructor is only available with C++.
-</blockquote>
-<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Constructor | Description | 
+|-------------|-------------|
+| <a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmbyten2-xmbyten2(constfloat)"><strong>XMBYTEN2 ()</strong></a> | Default constructor for <code>XMBYTEN2</code><br /> Default constructor for <a href="/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmbyten2"><strong>XMBYTEN2</strong></a>.<br /><blockquote>[!Note]<br />This constructor is only available with C++.</blockquote><br /> | 
+| <a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmbyten2-xmbyten2(float_float)"><strong>XMBYTEN2 (float,float)</strong></a> | Initializes a new instance of <code>XMBYTEN2</code> from two <code>float</code> arguments. <br /> This constructor initializes a new instance of <a href="/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmbyten2"><strong>XMBYTEN2</strong></a> from two <code>float</code> arguments. <br /><blockquote>[!Note]<br />This constructor is only available with C++.</blockquote><br /> | 
+| <a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmbyten2-xmbyten2(constfloat)"><strong>XMBYTEN2 (const float*)</strong></a> | Initializes a new instance of <code>XMBYTEN2</code> from a two-element <code>float</code> array argument.<br /> This constructor initializes a new instance of <a href="/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmbyten2"><strong>XMBYTEN2</strong></a> from a two-element <code>float</code> array argument.<br /><blockquote>[!Note]<br />This constructor is only available with C++.</blockquote><br /> | 
+| <a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmbyten2-xmbyten2(constint8_t)"><strong>XMBYTEN2 (const int8_t*)</strong></a> | Initializes a new instance of <code>XMBYTE4</code> from a two-element <code>int8_t</code> array argument.<br /> This constructor initializes a new instance of <a href="/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmbyten2"><strong>XMBYTEN2</strong></a> from a two-element <code>int8_t</code> array argument.<br /><blockquote>[!Note]<br />This constructor is only available with C++.</blockquote><br /> | 
+| <a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmbyten2-xmbyten2(int8_t_int8_t)"><strong>XMBYTEN2 (int8_t,int8_t)</strong></a> | Initializes a new instance of <code>XMBYTEN2</code> from two <code>int8_t</code> arguments.<br /> This constructor initializes a new instance of <a href="/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmbyten2"><strong>XMBYTEN2</strong></a> from two <code>int8_t</code> arguments.<br /><blockquote>[!Note]<br />This constructor is only available with C++.</blockquote><br /> | 
+
 
 
 

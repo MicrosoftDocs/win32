@@ -38,36 +38,11 @@ Contains the content for a Journal page.
 
 
 
-<table>
-<colgroup>
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Attribute</th>
-<th>Type</th>
-<th>Required</th>
-<th>Description</th>
-<th>PossibleValues</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>Type</strong></td>
-<td><a href="contenttype-complex-type.md"><strong>ContentType complexType</strong></a></td>
-<td>Required</td>
-<td>If the type is &quot;Inert&quot;, then the content cannot be modified.<br/></td>
-<td><ul>
-<li>Normal</li>
-<li>Inert</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| Attribute | Type | Required | Description | PossibleValues | 
+|-----------|------|----------|-------------|----------------|
+| <strong>Type</strong> | <a href="contenttype-complex-type.md"><strong>ContentType complexType</strong></a> | Required | If the type is "Inert", then the content cannot be modified.<br /> | <ul><li>Normal</li><li>Inert</li></ul> | 
+
 
 
 

@@ -92,24 +92,11 @@ For more information about this parameter, see the [JET_INDEXCREATE](./jet-index
 
 This function returns the [JET_ERR](./jet-err.md) data type with one of the return codes listed in the following table. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](./extensible-storage-engine-errors.md) and [Error Handling Parameters](./error-handling-parameters.md).
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Return code</p></th>
-<th><p>Meaning</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_errSuccess</p></td>
-<td><p>The operation completed successfully.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Return code</p> | <p>Meaning</p> | 
+|--------------------|----------------|
+| <p>JET_errSuccess</p> | <p>The operation completed successfully.</p> | 
+
 
 
 For a list of additional errors that can be returned by the **JetCreateIndex** function, see [JetCreateIndex2](./jetcreateindex2-function.md).
@@ -122,38 +109,16 @@ Note that **JetCreateIndex** has been superseded by [JetCreateIndex2](./jetcreat
 
 #### Requirements
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Client</p></td>
-<td><p>Requires Windows Vista, Windows XP, or Windows 2000 Professional.</p></td>
-</tr>
-<tr class="even">
-<td><p>Server</p></td>
-<td><p>Requires Windows Server 2008, Windows Server 2003, or Windows 2000 Server.</p></td>
-</tr>
-<tr class="odd">
-<td><p>Header</p></td>
-<td><p>Is declared in Esent.h.</p></td>
-</tr>
-<tr class="even">
-<td><p>Library</p></td>
-<td><p>Uses ESENT.lib.</p></td>
-</tr>
-<tr class="odd">
-<td><p>DLL</p></td>
-<td><p>Requires ESENT.dll.</p></td>
-</tr>
-<tr class="even">
-<td><p>Unicode</p></td>
-<td><p>Is implemented as <strong>JetCreateIndexW</strong> (Unicode) and <strong>JetCreateIndexA</strong> (ANSI).</p></td>
-</tr>
-</tbody>
-</table>
+
+| 
+|
+| <p>Client</p> | <p>Requires Windows Vista, Windows XP, or Windows 2000 Professional.</p> | 
+| <p>Server</p> | <p>Requires Windows Server 2008, Windows Server 2003, or Windows 2000 Server.</p> | 
+| <p>Header</p> | <p>Is declared in Esent.h.</p> | 
+| <p>Library</p> | <p>Uses ESENT.lib.</p> | 
+| <p>DLL</p> | <p>Requires ESENT.dll.</p> | 
+| <p>Unicode</p> | <p>Is implemented as <strong>JetCreateIndexW</strong> (Unicode) and <strong>JetCreateIndexA</strong> (ANSI).</p> | 
+
 
 
 #### See Also

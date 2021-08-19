@@ -18,29 +18,11 @@ Possible values retrieved from [**IMFMediaEvent::GetValue**](/windows/desktop/ap
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VARTYPE</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>VT_BOOL<br/></td>
-<td>Indicates whether thinning has started or stopped.<br/>
-<ul>
-<li>VARIANT_TRUE: Samples delivered after this event are thinned.</li>
-<li>VARIANT_FALSE: Samples delivered after this event are not thinned.</li>
-</ul>
-<br/></td>
-</tr>
-</tbody>
-</table>
+
+| VARTYPE | Description | 
+|---------|-------------|
+| VT_BOOL<br /> | Indicates whether thinning has started or stopped.<br /><ul><li>VARIANT_TRUE: Samples delivered after this event are thinned.</li><li>VARIANT_FALSE: Samples delivered after this event are not thinned.</li></ul><br /> | 
+
 
 
 

@@ -43,30 +43,11 @@ The following table depicts a typical control and content view of the UI Automat
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Control View</th>
-<th>Content View</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><ul>
-<li>TitleBar
-<ul>
-<li>Menu (0 or 1)</li>
-<li>Button (0 or more)</li>
-</ul></li>
-</ul></td>
-<td>(Not applicable; the title bar control has no content)</td>
-</tr>
-</tbody>
-</table>
+
+| Control View | Content View | 
+|--------------|--------------|
+| <ul><li>TitleBar<ul><li>Menu (0 or 1)</li><li>Button (0 or more)</li></ul></li></ul> | (Not applicable; the title bar control has no content) | 
+
 
 
 

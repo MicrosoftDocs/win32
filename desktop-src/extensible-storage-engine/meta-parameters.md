@@ -41,128 +41,37 @@ At this time, there are two supported configurations:
 
 Small Configuration changes the defaults of the following system parameters to the specified values:
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>System Parameter</p></th>
-<th><p>New Default Value</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_paramMaxSessions</p></td>
-<td><p>30000</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_paramMaxOpenTables</p></td>
-<td><p>2147483647</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_paramMaxCursors</p></td>
-<td><p>2147483647</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_paramMaxVerPages</p></td>
-<td><p>2147483647</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_paramMaxTemporaryTables</p></td>
-<td><p>2147483647</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_paramLogFileSize</p></td>
-<td><p>64</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_paramLogBuffers</p></td>
-<td><p>1</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_paramDbExtensionSize</p></td>
-<td><p>16</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_paramPageTempDBMin</p></td>
-<td><p>14</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_paramCacheSizeMax</p></td>
-<td><p>16</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_paramCheckpointDepthMax</p></td>
-<td><p>65536</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_paramLRUKHistoryMax</p></td>
-<td><p>10</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_paramOutstandingIOMax</p></td>
-<td><p>16</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_paramStartFlushThreshold</p></td>
-<td><p>1</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_paramStopFlushThreshold</p></td>
-<td><p>2</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_paramNoInformationEvent</p></td>
-<td><p>1</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_paramCacheSizeMin</p></td>
-<td><p>16</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_paramPreferredVerPages</p></td>
-<td><p>2147483647</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_paramLogFileCreateAsynch</p></td>
-<td><p>0</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_paramGlobalMinVerPages</p></td>
-<td><p>1</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_paramPageHintCacheSize</p></td>
-<td><p>32</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_paramDisablePerfmon</p></td>
-<td><p>1</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_paramEnableFileCache</p></td>
-<td><p>1</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_paramEnableViewCache</p></td>
-<td><p>1</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_paramVerPageSize</p></td>
-<td><p>1024</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_paramEnableAdvanced</p></td>
-<td><p>0</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_paramCheckpointIOMax</p></td>
-<td><p>8</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>System Parameter</p> | <p>New Default Value</p> | 
+|-------------------------|--------------------------|
+| <p>JET_paramMaxSessions</p> | <p>30000</p> | 
+| <p>JET_paramMaxOpenTables</p> | <p>2147483647</p> | 
+| <p>JET_paramMaxCursors</p> | <p>2147483647</p> | 
+| <p>JET_paramMaxVerPages</p> | <p>2147483647</p> | 
+| <p>JET_paramMaxTemporaryTables</p> | <p>2147483647</p> | 
+| <p>JET_paramLogFileSize</p> | <p>64</p> | 
+| <p>JET_paramLogBuffers</p> | <p>1</p> | 
+| <p>JET_paramDbExtensionSize</p> | <p>16</p> | 
+| <p>JET_paramPageTempDBMin</p> | <p>14</p> | 
+| <p>JET_paramCacheSizeMax</p> | <p>16</p> | 
+| <p>JET_paramCheckpointDepthMax</p> | <p>65536</p> | 
+| <p>JET_paramLRUKHistoryMax</p> | <p>10</p> | 
+| <p>JET_paramOutstandingIOMax</p> | <p>16</p> | 
+| <p>JET_paramStartFlushThreshold</p> | <p>1</p> | 
+| <p>JET_paramStopFlushThreshold</p> | <p>2</p> | 
+| <p>JET_paramNoInformationEvent</p> | <p>1</p> | 
+| <p>JET_paramCacheSizeMin</p> | <p>16</p> | 
+| <p>JET_paramPreferredVerPages</p> | <p>2147483647</p> | 
+| <p>JET_paramLogFileCreateAsynch</p> | <p>0</p> | 
+| <p>JET_paramGlobalMinVerPages</p> | <p>1</p> | 
+| <p>JET_paramPageHintCacheSize</p> | <p>32</p> | 
+| <p>JET_paramDisablePerfmon</p> | <p>1</p> | 
+| <p>JET_paramEnableFileCache</p> | <p>1</p> | 
+| <p>JET_paramEnableViewCache</p> | <p>1</p> | 
+| <p>JET_paramVerPageSize</p> | <p>1024</p> | 
+| <p>JET_paramEnableAdvanced</p> | <p>0</p> | 
+| <p>JET_paramCheckpointIOMax</p> | <p>8</p> | 
+
 
 
 Small Configuration also has several other effects on the database engine, including:
@@ -173,58 +82,21 @@ Small Configuration also has several other effects on the database engine, inclu
 
   - Various maintenance activities are scaled back to avoid background thread activity
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Default Value:</p></td>
-<td><p>1 (Legacy)</p></td>
-</tr>
-<tr class="even">
-<td><p>Type:</p></td>
-<td><p>Integer</p></td>
-</tr>
-<tr class="odd">
-<td><p>Valid Range:</p></td>
-<td><p>0 – 1</p></td>
-</tr>
-<tr class="even">
-<td><p>Scope:</p></td>
-<td><p>Instance</p></td>
-</tr>
-<tr class="odd">
-<td><p>Set After <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="even">
-<td><p>Set after <a href="gg294068(v=exchg.10).md">JetInit</a>:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affects Physical Layout:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="even">
-<td><p>Affects Reliability:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affects Performance:</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="even">
-<td><p>Affects Resources:</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="odd">
-<td><p>Availability:</p></td>
-<td><p>Starting with Windows Server 2008 and Windows Vista</p></td>
-</tr>
-</tbody>
-</table>
+
+| 
+|
+| <p>Default Value:</p> | <p>1 (Legacy)</p> | 
+| <p>Type:</p> | <p>Integer</p> | 
+| <p>Valid Range:</p> | <p>0 – 1</p> | 
+| <p>Scope:</p> | <p>Instance</p> | 
+| <p>Set After <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Yes</p> | 
+| <p>Set after <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>No</p> | 
+| <p>Affects Physical Layout:</p> | <p>No</p> | 
+| <p>Affects Reliability:</p> | <p>No</p> | 
+| <p>Affects Performance:</p> | <p>Yes</p> | 
+| <p>Affects Resources:</p> | <p>Yes</p> | 
+| <p>Availability:</p> | <p>Starting with Windows Server 2008 and Windows Vista</p> | 
+
 
 
 JET_paramEnableAdvanced  
@@ -313,82 +185,32 @@ The following system parameters will be protected from being set when this param
 
   - JET_paramCheckpointIOMax
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Default Value:</p></td>
-<td><p>True</p></td>
-</tr>
-<tr class="even">
-<td><p>Type:</p></td>
-<td><p>Boolean</p></td>
-</tr>
-<tr class="odd">
-<td><p>Valid Range:</p></td>
-<td><p>False, True</p></td>
-</tr>
-<tr class="even">
-<td><p>Scope:</p></td>
-<td><p>Instance</p></td>
-</tr>
-<tr class="odd">
-<td><p>Set After <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="even">
-<td><p>Set after <a href="gg294068(v=exchg.10).md">JetInit</a>:</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affects Physical Layout:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="even">
-<td><p>Affects Reliability:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affects Performance:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="even">
-<td><p>Affects Resources:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="odd">
-<td><p>Availability:</p></td>
-<td><p>Starting with Windows Server 2008 and Windows Vista</p></td>
-</tr>
-</tbody>
-</table>
+
+| 
+|
+| <p>Default Value:</p> | <p>True</p> | 
+| <p>Type:</p> | <p>Boolean</p> | 
+| <p>Valid Range:</p> | <p>False, True</p> | 
+| <p>Scope:</p> | <p>Instance</p> | 
+| <p>Set After <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Yes</p> | 
+| <p>Set after <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>Yes</p> | 
+| <p>Affects Physical Layout:</p> | <p>No</p> | 
+| <p>Affects Reliability:</p> | <p>No</p> | 
+| <p>Affects Performance:</p> | <p>No</p> | 
+| <p>Affects Resources:</p> | <p>No</p> | 
+| <p>Availability:</p> | <p>Starting with Windows Server 2008 and Windows Vista</p> | 
+
 
 
 ### Requirements
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Client</strong></p></td>
-<td><p>Requires Windows Vista.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Server</strong></p></td>
-<td><p>Requires Windows Server 2008.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>Header</strong></p></td>
-<td><p>Declared in Esent.h.</p></td>
-</tr>
-</tbody>
-</table>
+
+| 
+|
+| <p><strong>Client</strong></p> | <p>Requires Windows Vista.</p> | 
+| <p><strong>Server</strong></p> | <p>Requires Windows Server 2008.</p> | 
+| <p><strong>Header</strong></p> | <p>Declared in Esent.h.</p> | 
+
 
 
 ### See Also

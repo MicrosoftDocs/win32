@@ -99,56 +99,16 @@ The following table lists the potential threats associated with the [**DsAddSidH
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Potential threat</th>
-<th>Security measure</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Man in the Middle Attack<br/> An unauthorized user intercepts the <em>lookup SID of source object</em> return call, replacing the source object SID with an arbitrary SID for insertion into a target object SIDhistory.<br/></td>
-<td>The <em>lookup SID of source object</em> is an authenticated RPC, using the caller's administrator credentials, with packet integrity message protection. This ensures that the return call cannot be modified without detection. The destination domain controller creates a unique &quot;Add SID History&quot; audit event that reflects the SID added to the destination account <strong>sIDHistory</strong>.<br/></td>
-</tr>
-<tr class="even">
-<td>Trojan Source Domain<br/> An unauthorized user creates a &quot;Trojan Horse&quot; source domain on a private network that has the same domain SID and some of the same account SIDs as the legitimate source domain. The unauthorized user then attempts to run <a href="/windows/desktop/api/Ntdsapi/nf-ntdsapi-dsaddsidhistorya"><strong>DsAddSidHistory</strong></a> in a destination domain to obtain the SID of a source account. This is done without the need for the real source Domain Administrator credentials and without leaving an audit trail in the real source domain. The unauthorized user's method for creating the Trojan Horse source domain could be one of the following:
-<ul>
-<li>Obtain a copy (BDC backup) of the source domain SAM.</li>
-<li>Create a new domain, altering the domain SID on disk to match the legitimate source domain SID, then create enough users to instantiate an account with the desired SID.</li>
-<li>Create a BDC replica. This requires source domain Administrator credentials. Then the unauthorized user takes the replica to a private network to implement the attack.</li>
-</ul>
-<br/></td>
-<td>Although there are many ways for an unauthorized user to retrieve or create a desired source object SID, the unauthorized user cannot use it to update an account's <strong>sIDHistory</strong> without being a member of the destination Domain Administrators group. Because the check, on the destination domain controller, for Domain Administrator membership is hard-coded, on the target DC, there is no method for doing a disk modification to change the access control data protecting this function. An attempt to clone a Trojan Horse source account is audited in the destination domain. This attack is mitigated by reserving membership in the Domain Administrators group for only highly trusted individuals.<br/></td>
-</tr>
-<tr class="odd">
-<td>On-disk Modification of SID History<br/> A sophisticated unauthorized user, with Domain Administrator credentials and with physical access to a DC in the destination domain, could modify an account <strong>sIDHistory</strong> value on disk.<br/></td>
-<td>This attempt is not enabled by use of <a href="/windows/desktop/api/Ntdsapi/nf-ntdsapi-dsaddsidhistorya"><strong>DsAddSidHistory</strong></a>. This attack is mitigated by preventing physical access to domain controllers to all except highly trusted administrators.<br/></td>
-</tr>
-<tr class="even">
-<td>Rogue Code Used to Remove Protections<br/> An unauthorized user or rogue administrator with physical access to the Directory Service code could create rogue code that:
-<ol>
-<li>Removes the check for membership in the Domain Administrators group in the code.</li>
-<li>Changes the calls on the source domain controller that points the SID to a LookupSidFromName that is not audited.</li>
-<li>Removes audit log calls.</li>
-</ol>
-<br/></td>
-<td>Someone with physical access to the DS code and knowledgeable enough to create rogue code has the capability of arbitrarily modifying the <strong>sIDHistory</strong> attribute of an account. The <a href="/windows/desktop/api/Ntdsapi/nf-ntdsapi-dsaddsidhistorya"><strong>DsAddSidHistory</strong></a> API does not increase this security risk.<br/></td>
-</tr>
-<tr class="odd">
-<td>Resources Vulnerable to Stolen SIDs<br/> If an unauthorized user has succeeded in using one of the methods described here to modify an account <strong>sIDHistory</strong>, and if the resource domains of interest trust the unauthorized user account domain, then the unauthorized user can get unauthorized access to the stolen SID's resources, potentially without leaving an audit trail in the account domain from which the SID was stolen.<br/></td>
-<td>Resource domain administrators protect their resources by setting up only those trust relationships that make sense from a security perspective. Use of <a href="/windows/desktop/api/Ntdsapi/nf-ntdsapi-dsaddsidhistorya"><strong>DsAddSidHistory</strong></a> is restricted, in the trusted target domain, to members of the Domain Administrators group who already have broad permissions within the scope of their responsibilities.<br/></td>
-</tr>
-<tr class="even">
-<td>Rogue Target Domain<br/> An unauthorized user creates a Windows 2000 domain with an account whose <strong>sIDHistory</strong> contains a SID that has been stolen from a source domain. The unauthorized user uses this account for unauthorized access to resources.<br/></td>
-<td>The unauthorized user requires Administrator credentials for the source domain in order to use <a href="/windows/desktop/api/Ntdsapi/nf-ntdsapi-dsaddsidhistorya"><strong>DsAddSidHistory</strong></a>, and leaves an audit trail on the source domain controller. The rogue target domain gains unauthorized access only in other domains that trust the rogue domain, which requires Administrator privileges in those resource domains.<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Potential threat | Security measure | 
+|------------------|------------------|
+| Man in the Middle Attack<br /> An unauthorized user intercepts the <em>lookup SID of source object</em> return call, replacing the source object SID with an arbitrary SID for insertion into a target object SIDhistory.<br /> | The <em>lookup SID of source object</em> is an authenticated RPC, using the caller's administrator credentials, with packet integrity message protection. This ensures that the return call cannot be modified without detection. The destination domain controller creates a unique "Add SID History" audit event that reflects the SID added to the destination account <strong>sIDHistory</strong>.<br /> | 
+| Trojan Source Domain<br /> An unauthorized user creates a "Trojan Horse" source domain on a private network that has the same domain SID and some of the same account SIDs as the legitimate source domain. The unauthorized user then attempts to run <a href="/windows/desktop/api/Ntdsapi/nf-ntdsapi-dsaddsidhistorya"><strong>DsAddSidHistory</strong></a> in a destination domain to obtain the SID of a source account. This is done without the need for the real source Domain Administrator credentials and without leaving an audit trail in the real source domain. The unauthorized user's method for creating the Trojan Horse source domain could be one of the following:<ul><li>Obtain a copy (BDC backup) of the source domain SAM.</li><li>Create a new domain, altering the domain SID on disk to match the legitimate source domain SID, then create enough users to instantiate an account with the desired SID.</li><li>Create a BDC replica. This requires source domain Administrator credentials. Then the unauthorized user takes the replica to a private network to implement the attack.</li></ul><br /> | Although there are many ways for an unauthorized user to retrieve or create a desired source object SID, the unauthorized user cannot use it to update an account's <strong>sIDHistory</strong> without being a member of the destination Domain Administrators group. Because the check, on the destination domain controller, for Domain Administrator membership is hard-coded, on the target DC, there is no method for doing a disk modification to change the access control data protecting this function. An attempt to clone a Trojan Horse source account is audited in the destination domain. This attack is mitigated by reserving membership in the Domain Administrators group for only highly trusted individuals.<br /> | 
+| On-disk Modification of SID History<br /> A sophisticated unauthorized user, with Domain Administrator credentials and with physical access to a DC in the destination domain, could modify an account <strong>sIDHistory</strong> value on disk.<br /> | This attempt is not enabled by use of <a href="/windows/desktop/api/Ntdsapi/nf-ntdsapi-dsaddsidhistorya"><strong>DsAddSidHistory</strong></a>. This attack is mitigated by preventing physical access to domain controllers to all except highly trusted administrators.<br /> | 
+| Rogue Code Used to Remove Protections<br /> An unauthorized user or rogue administrator with physical access to the Directory Service code could create rogue code that:<ol><li>Removes the check for membership in the Domain Administrators group in the code.</li><li>Changes the calls on the source domain controller that points the SID to a LookupSidFromName that is not audited.</li><li>Removes audit log calls.</li></ol><br /> | Someone with physical access to the DS code and knowledgeable enough to create rogue code has the capability of arbitrarily modifying the <strong>sIDHistory</strong> attribute of an account. The <a href="/windows/desktop/api/Ntdsapi/nf-ntdsapi-dsaddsidhistorya"><strong>DsAddSidHistory</strong></a> API does not increase this security risk.<br /> | 
+| Resources Vulnerable to Stolen SIDs<br /> If an unauthorized user has succeeded in using one of the methods described here to modify an account <strong>sIDHistory</strong>, and if the resource domains of interest trust the unauthorized user account domain, then the unauthorized user can get unauthorized access to the stolen SID's resources, potentially without leaving an audit trail in the account domain from which the SID was stolen.<br /> | Resource domain administrators protect their resources by setting up only those trust relationships that make sense from a security perspective. Use of <a href="/windows/desktop/api/Ntdsapi/nf-ntdsapi-dsaddsidhistorya"><strong>DsAddSidHistory</strong></a> is restricted, in the trusted target domain, to members of the Domain Administrators group who already have broad permissions within the scope of their responsibilities.<br /> | 
+| Rogue Target Domain<br /> An unauthorized user creates a Windows 2000 domain with an account whose <strong>sIDHistory</strong> contains a SID that has been stolen from a source domain. The unauthorized user uses this account for unauthorized access to resources.<br /> | The unauthorized user requires Administrator credentials for the source domain in order to use <a href="/windows/desktop/api/Ntdsapi/nf-ntdsapi-dsaddsidhistorya"><strong>DsAddSidHistory</strong></a>, and leaves an audit trail on the source domain controller. The rogue target domain gains unauthorized access only in other domains that trust the rogue domain, which requires Administrator privileges in those resource domains.<br /> | 
+
 
 
 

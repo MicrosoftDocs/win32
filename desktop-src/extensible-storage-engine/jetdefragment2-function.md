@@ -103,116 +103,39 @@ Callback function that defragmentation calls regularly to report progress.
 
 A group of bits specifying zero or more of the following options.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Value</p></th>
-<th><p>Meaning</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_bitDefragmentAvailSpaceTreesOnly</p></td>
-<td><p>This option is used to defragment the available space portion of ESE database space allocation. Database space is divided into two types, owned space and available space. Owned space is allocated to a table or index while available space is ready for use within the table or index, respectively. Available space is much more dynamic in behavior and requires online defragmentation more so than owned space or table or index data.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_bitDefragmentBatchStart</p></td>
-<td><p>This option is used to start a new defragmentation task.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_bitDefragmentBatchStop</p></td>
-<td><p>This option is used to stop an existing started defragmentation task.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_bitDefragmentBTree</p></td>
-<td><p>This option is used to defrag a B-Tree, specified by szTableName.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_bitDefragmentBTreeBatch</p></td>
-<td><p>This option is used to call OLD2 on the entire database.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Value</p> | <p>Meaning</p> | 
+|--------------|----------------|
+| <p>JET_bitDefragmentAvailSpaceTreesOnly</p> | <p>This option is used to defragment the available space portion of ESE database space allocation. Database space is divided into two types, owned space and available space. Owned space is allocated to a table or index while available space is ready for use within the table or index, respectively. Available space is much more dynamic in behavior and requires online defragmentation more so than owned space or table or index data.</p> | 
+| <p>JET_bitDefragmentBatchStart</p> | <p>This option is used to start a new defragmentation task.</p> | 
+| <p>JET_bitDefragmentBatchStop</p> | <p>This option is used to stop an existing started defragmentation task.</p> | 
+| <p>JET_bitDefragmentBTree</p> | <p>This option is used to defrag a B-Tree, specified by szTableName.</p> | 
+| <p>JET_bitDefragmentBTreeBatch</p> | <p>This option is used to call OLD2 on the entire database.</p> | 
+
 
 
 ### Return Value
 
 This function returns the [JET_ERR](./jet-err.md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](./extensible-storage-engine-errors.md) and [Error Handling Parameters](./error-handling-parameters.md).
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Return code</p></th>
-<th><p>Description</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_errSuccess</p></td>
-<td><p>The operation completed successfully.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errClientRequestToStopJetService</p></td>
-<td><p>It is not possible to complete the operation because all activity on the instance associated with the session has ceased as a result of a call to <a href="gg269240(v=exchg.10).md">JetStopService</a>.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errDatabaseFileReadOnly</p></td>
-<td><p>The database chosen for defragmentation is read only and cannot be updated in any way, including defragmentation.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errDistributedTransactionAlreadyPreparedToCommit</p></td>
-<td><p>The given session is in the prepared to commit state, and cannot begin new updates until the current transaction is committed or rolled back.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errInstanceUnavailable</p></td>
-<td><p>It is not possible to complete the operation because the instance associated with the session has encountered a fatal error that requires that access to all data be revoked to protect the integrity of that data. This error will only be returned by Windows XP and later releases.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errInvalidDatabaseId</p></td>
-<td><p>The given database ID does not match a known database in the instance.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errNotInitialized</p></td>
-<td><p>It is not possible to complete the operation because the instance associated with the session has not been initialized yet.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errRestoreInProgress</p></td>
-<td><p>It is not possible to complete the operation because a restore operation is in progress on the instance associated with the session.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errSessionSharingViolation</p></td>
-<td><p>The same session cannot be used for more than one thread at the same time. This error will only be returned by Windows XP and later releases.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errTermInProgress</p></td>
-<td><p>It is not possible to complete the operation because the instance associated with the session is being shut down.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errTransReadOnly</p></td>
-<td><p>The given session has read-only privileges only and cannot start a task that may perform an update, including defragmentation.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errVersionStoreOutOfMemory</p></td>
-<td><p>This error will occur when the configured size of the version store is insufficient to hold all outstanding updates.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_wrnDefragAlreadyRunning</p></td>
-<td><p>The JET_bitDefragmentBatchStart option has been passed but a defragmentation task is already running defragmentation on the given database.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_wrnDefragNotRunning</p></td>
-<td><p>The JET_bitDefragmentBatchStop option has been passed, but no defragmentation task is currently running.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Return code</p> | <p>Description</p> | 
+|--------------------|--------------------|
+| <p>JET_errSuccess</p> | <p>The operation completed successfully.</p> | 
+| <p>JET_errClientRequestToStopJetService</p> | <p>It is not possible to complete the operation because all activity on the instance associated with the session has ceased as a result of a call to <a href="gg269240(v=exchg.10).md">JetStopService</a>.</p> | 
+| <p>JET_errDatabaseFileReadOnly</p> | <p>The database chosen for defragmentation is read only and cannot be updated in any way, including defragmentation.</p> | 
+| <p>JET_errDistributedTransactionAlreadyPreparedToCommit</p> | <p>The given session is in the prepared to commit state, and cannot begin new updates until the current transaction is committed or rolled back.</p> | 
+| <p>JET_errInstanceUnavailable</p> | <p>It is not possible to complete the operation because the instance associated with the session has encountered a fatal error that requires that access to all data be revoked to protect the integrity of that data. This error will only be returned by Windows XP and later releases.</p> | 
+| <p>JET_errInvalidDatabaseId</p> | <p>The given database ID does not match a known database in the instance.</p> | 
+| <p>JET_errNotInitialized</p> | <p>It is not possible to complete the operation because the instance associated with the session has not been initialized yet.</p> | 
+| <p>JET_errRestoreInProgress</p> | <p>It is not possible to complete the operation because a restore operation is in progress on the instance associated with the session.</p> | 
+| <p>JET_errSessionSharingViolation</p> | <p>The same session cannot be used for more than one thread at the same time. This error will only be returned by Windows XP and later releases.</p> | 
+| <p>JET_errTermInProgress</p> | <p>It is not possible to complete the operation because the instance associated with the session is being shut down.</p> | 
+| <p>JET_errTransReadOnly</p> | <p>The given session has read-only privileges only and cannot start a task that may perform an update, including defragmentation.</p> | 
+| <p>JET_errVersionStoreOutOfMemory</p> | <p>This error will occur when the configured size of the version store is insufficient to hold all outstanding updates.</p> | 
+| <p>JET_wrnDefragAlreadyRunning</p> | <p>The JET_bitDefragmentBatchStart option has been passed but a defragmentation task is already running defragmentation on the given database.</p> | 
+| <p>JET_wrnDefragNotRunning</p> | <p>The JET_bitDefragmentBatchStop option has been passed, but no defragmentation task is currently running.</p> | 
+
 
 
 On success, the requested action of either starting a defragmentation task for a given data with given options is performed, or the action of stopping an existing defragmentation task is performed.
@@ -229,38 +152,16 @@ The session used to start the online defragmentation task can be subsequently us
 
 #### Requirements
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Client</strong></p></td>
-<td><p>Requires Windows Vista or Windows XP.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Server</strong></p></td>
-<td><p>Requires Windows Server 2008 or Windows Server 2003.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>Header</strong></p></td>
-<td><p>Declared in Esent.h.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Library</strong></p></td>
-<td><p>Use ESENT.lib.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>DLL</strong></p></td>
-<td><p>Requires ESENT.dll.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Unicode</strong></p></td>
-<td><p>Implemented as <strong>JetDefragment2W</strong> (Unicode) and <strong>JetDefragment2A</strong> (ANSI).</p></td>
-</tr>
-</tbody>
-</table>
+
+| 
+|
+| <p><strong>Client</strong></p> | <p>Requires Windows Vista or Windows XP.</p> | 
+| <p><strong>Server</strong></p> | <p>Requires Windows Server 2008 or Windows Server 2003.</p> | 
+| <p><strong>Header</strong></p> | <p>Declared in Esent.h.</p> | 
+| <p><strong>Library</strong></p> | <p>Use ESENT.lib.</p> | 
+| <p><strong>DLL</strong></p> | <p>Requires ESENT.dll.</p> | 
+| <p><strong>Unicode</strong></p> | <p>Implemented as <strong>JetDefragment2W</strong> (Unicode) and <strong>JetDefragment2A</strong> (ANSI).</p> | 
+
 
 
 #### See Also

@@ -85,63 +85,14 @@ Here are the shader targets that Direct3D 9.1, 9.2 and 9.3 [feature levels](/win
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Target</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>ps_4_0_level_9_1</td>
-<td>[Pixel shader](/previous-versions//bb205146(v=vs.85)) for 9.1 and 9.2 (similar limits to ps_2_0)
-<ul>
-<li>64 arithmetic and 32 texture instructions</li>
-<li>12 temporary registers</li>
-<li>4 levels of dependent reads</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>ps_4_0_level_9_3</td>
-<td><a href="/previous-versions//bb205146(v=vs.85)">Pixel shader</a> for 9.3 (similar limits to ps_2_x² with additional shader features)
-<ul>
-<li>512 instructions</li>
-<li>32 temporary registers</li>
-<li>Static flow control (max depth of 4)</li>
-<li>Dynamic flow control (max depth of 24)</li>
-<li>D3DPS20CAPS_ARBITRARYSWIZZLE</li>
-<li>D3DPS20CAPS_GRADIENTINSTRUCTIONS</li>
-<li>D3DPS20CAPS_PREDICATION</li>
-<li>D3DPS20CAPS_NODEPENDENTREADLIMIT</li>
-<li>D3DPS20CAPS_NOTEXINSTRUCTIONLIMIT</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>vs_4_0_level_9_1</td>
-<td><a href="/previous-versions//bb205146(v=vs.85)">Vertex shader</a> for 9.1 and 9.2 (similar to vs_2_0)
-<ul>
-<li>256 instructions</li>
-<li>12 temporary registers</li>
-<li>Static flow control (max depth of 1)</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>vs_4_0_level_9_3</td>
-<td><a href="/previous-versions//bb205146(v=vs.85)">Vertex shader</a> for 9.3 (similar to vs_2_a² with additional shader features and instancing)
-<ul>
-<li>256 instructions</li>
-<li>32 temporary registers</li>
-<li>Static flow control (max depth of 4)</li>
-<li>D3DVS20CAPS_PREDICATION</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| Target | Description | 
+|--------|-------------|
+| ps_4_0_level_9_1 | [Pixel shader](/previous-versions//bb205146(v=vs.85)) for 9.1 and 9.2 (similar limits to ps_2_0)<ul><li>64 arithmetic and 32 texture instructions</li><li>12 temporary registers</li><li>4 levels of dependent reads</li></ul> | 
+| ps_4_0_level_9_3 | <a href="/previous-versions//bb205146(v=vs.85)">Pixel shader</a> for 9.3 (similar limits to ps_2_x² with additional shader features)<ul><li>512 instructions</li><li>32 temporary registers</li><li>Static flow control (max depth of 4)</li><li>Dynamic flow control (max depth of 24)</li><li>D3DPS20CAPS_ARBITRARYSWIZZLE</li><li>D3DPS20CAPS_GRADIENTINSTRUCTIONS</li><li>D3DPS20CAPS_PREDICATION</li><li>D3DPS20CAPS_NODEPENDENTREADLIMIT</li><li>D3DPS20CAPS_NOTEXINSTRUCTIONLIMIT</li></ul> | 
+| vs_4_0_level_9_1 | <a href="/previous-versions//bb205146(v=vs.85)">Vertex shader</a> for 9.1 and 9.2 (similar to vs_2_0)<ul><li>256 instructions</li><li>12 temporary registers</li><li>Static flow control (max depth of 1)</li></ul> | 
+| vs_4_0_level_9_3 | <a href="/previous-versions//bb205146(v=vs.85)">Vertex shader</a> for 9.3 (similar to vs_2_a² with additional shader features and instancing)<ul><li>256 instructions</li><li>32 temporary registers</li><li>Static flow control (max depth of 4)</li><li>D3DVS20CAPS_PREDICATION</li></ul> | 
+
 
 
 

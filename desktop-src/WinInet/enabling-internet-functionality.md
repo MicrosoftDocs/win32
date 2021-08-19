@@ -99,45 +99,15 @@ The server port is the Transmission Control Protocol/Internet Protocol (TCP/IP) 
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>INTERNET_DEFAULT_FTP_PORT</td>
-<td>Use the default port for ftp servers (port 21).</td>
-</tr>
-<tr class="even">
-<td>INTERNET_DEFAULT_GOPHER_PORT</td>
-<td>Use the default port for gopher servers (port 70).
-<blockquote>
-[!Note]<br />
-Windows XP and Windows Server 2003 R2 and earlier only.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="odd">
-<td>INTERNET_DEFAULT_HTTP_PORT</td>
-<td>Use the default port for http servers (port 80).</td>
-</tr>
-<tr class="even">
-<td>INTERNET_DEFAULT_HTTPS_PORT</td>
-<td>Use the default port for https servers (port 443).</td>
-</tr>
-<tr class="odd">
-<td>INTERNET_DEFAULT_SOCKS_PORT</td>
-<td>Use the default port for SOCKS firewall servers (port 1080).</td>
-</tr>
-</tbody>
-</table>
+
+| Value | Meaning | 
+|-------|---------|
+| INTERNET_DEFAULT_FTP_PORT | Use the default port for ftp servers (port 21). | 
+| INTERNET_DEFAULT_GOPHER_PORT | Use the default port for gopher servers (port 70).<blockquote>[!Note]<br />Windows XP and Windows Server 2003 R2 and earlier only.</blockquote><br /> | 
+| INTERNET_DEFAULT_HTTP_PORT | Use the default port for http servers (port 80). | 
+| INTERNET_DEFAULT_HTTPS_PORT | Use the default port for https servers (port 443). | 
+| INTERNET_DEFAULT_SOCKS_PORT | Use the default port for SOCKS firewall servers (port 1080). | 
+
 
 
 

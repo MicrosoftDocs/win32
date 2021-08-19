@@ -416,77 +416,23 @@ If a *Keytip* attribute value is assigned to the [**FontControl**](windowsribbon
 
 The following table lists the keytips defined by the framework. 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Sub-control</th>
-<th>Keytip</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Font family</td>
-<td>F</td>
-</tr>
-<tr class="even">
-<td>Font style</td>
-<td>T</td>
-</tr>
-<tr class="odd">
-<td>Font size</td>
-<td>S</td>
-</tr>
-<tr class="even">
-<td>Grow font</td>
-<td>G</td>
-</tr>
-<tr class="odd">
-<td>Shrink font</td>
-<td>K</td>
-</tr>
-<tr class="even">
-<td>Bold</td>
-<td>B</td>
-</tr>
-<tr class="odd">
-<td>Italic</td>
-<td>I</td>
-</tr>
-<tr class="even">
-<td>Underline</td>
-<td>U</td>
-</tr>
-<tr class="odd">
-<td>Strikethrough</td>
-<td>X</td>
-</tr>
-<tr class="even">
-<td>Superscript</td>
-<td>Y or Z
-<blockquote>
-[!Note]<br />
-If the <em>Keytip</em> attribute is not declared in markup, the default keytip is Y; otherwise, the default keytip is <em>Keytip</em> + Z.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="odd">
-<td>Subscript</td>
-<td>A</td>
-</tr>
-<tr class="even">
-<td>Font color</td>
-<td>C</td>
-</tr>
-<tr class="odd">
-<td>Font highlight</td>
-<td>H</td>
-</tr>
-</tbody>
-</table>
+
+| Sub-control | Keytip | 
+|-------------|--------|
+| Font family | F | 
+| Font style | T | 
+| Font size | S | 
+| Grow font | G | 
+| Shrink font | K | 
+| Bold | B | 
+| Italic | I | 
+| Underline | U | 
+| Strikethrough | X | 
+| Superscript | Y or Z<blockquote>[!Note]<br />If the <em>Keytip</em> attribute is not declared in markup, the default keytip is Y; otherwise, the default keytip is <em>Keytip</em> + Z.</blockquote><br /> | 
+| Subscript | A | 
+| Font color | C | 
+| Font highlight | H | 
+
 
 
 

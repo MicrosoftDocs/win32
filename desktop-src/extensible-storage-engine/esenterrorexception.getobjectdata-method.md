@@ -78,24 +78,11 @@ public override void GetObjectData(
 
 ## Exceptions
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Exception</th>
-<th>Condition</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="/dotnet/api/system.argumentnullexception">ArgumentNullException</a></td>
-<td><p>The info parameter is a null reference (Nothing in Visual Basic).</p></td>
-</tr>
-</tbody>
-</table>
+
+| Exception | Condition | 
+|-----------|-----------|
+| <a href="/dotnet/api/system.argumentnullexception">ArgumentNullException</a> | <p>The info parameter is a null reference (Nothing in Visual Basic).</p> | 
+
 
 
 ## See also

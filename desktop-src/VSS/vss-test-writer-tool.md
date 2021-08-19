@@ -93,49 +93,16 @@ The TestWriter root element contains attributes that determine various behaviors
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Attribute</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><span id="verbosity"></span><span id="VERBOSITY"></span>verbosity<br/></td>
-<td>The writer prints the status to the console as it receives events and processes them. The level of verbosity displayed is specified by the verbosity attribute. There are three verbosity levels to choose from:<br/> <dl> <dt><span id="low"></span><span id="LOW"></span>low</dt> <dd> Only failures in the writer or incorrect behavior from the requester will be printed.<br/> </dd> <dt><span id="medium"></span><span id="MEDIUM"></span>medium</dt> <dd> Everything at the low verbosity level is printed in addition to extra status information such as when events are received. This is the default level.<br/> </dd> <dt><span id="high"></span><span id="HIGH"></span>high</dt> <dd> Detailed status information about the operation of the writer is reported.<br/> </dd> </dl></td>
-</tr>
-<tr class="even">
-<td><span id="deleteFiles"></span><span id="deletefiles"></span><span id="DELETEFILES"></span>deleteFiles<br/></td>
-<td>To perform extra verification, set this attribute to &quot;yes&quot; to cause the writer to delete all of its files immediately after the volume shadow copy is created. The requester must then copy the files from the shadow copy, because they no longer exist on the original volume. <br/>
-<blockquote>
-[!Note]<br />
-In the case of spit writers, the files are deleted from the original location after the spit but before the shadow copy is created. After the shadow copy is created, the files are deleted from the spit directory.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="odd">
-<td><span id="deletePartialFiles"></span><span id="deletepartialfiles"></span><span id="DELETEPARTIALFILES"></span>deletePartialFiles<br/></td>
-<td>To delete partial files, set this attribute to &quot;yes&quot;.<br/></td>
-</tr>
-<tr class="even">
-<td><span id="deleteDifferencedFiles"></span><span id="deletedifferencedfiles"></span><span id="DELETEDIFFERENCEDFILES"></span>deleteDifferencedFiles<br/></td>
-<td>To delete differenced files, set this attribute to &quot;yes&quot;.<br/></td>
-</tr>
-<tr class="odd">
-<td><span id="checkIncludes"></span><span id="checkincludes"></span><span id="CHECKINCLUDES"></span>checkIncludes<br/></td>
-<td>Set this attribute to &quot;yes&quot; to cause the writer to check that every file that has been backed up has been restored to an appropriate location, and that the file has not been corrupted. Partial files and differenced files are also correctly handled.<br/></td>
-</tr>
-<tr class="even">
-<td><span id="checkExcludes"></span><span id="checkexcludes"></span><span id="CHECKEXCLUDES"></span>checkExcludes<br/></td>
-<td>Set this attribute to &quot;yes&quot; to cause the writer to check that files matching a file specification in the exclude list are not restored. For this to function correctly, the restore directories must be emptied prior to restore.<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Attribute | Description | 
+|-----------|-------------|
+| <span id="verbosity"></span><span id="VERBOSITY"></span>verbosity<br /> | The writer prints the status to the console as it receives events and processes them. The level of verbosity displayed is specified by the verbosity attribute. There are three verbosity levels to choose from:<br /><dl><dt><span id="low"></span><span id="LOW"></span>low</dt><dd> Only failures in the writer or incorrect behavior from the requester will be printed.<br /></dd><dt><span id="medium"></span><span id="MEDIUM"></span>medium</dt><dd> Everything at the low verbosity level is printed in addition to extra status information such as when events are received. This is the default level.<br /></dd><dt><span id="high"></span><span id="HIGH"></span>high</dt><dd> Detailed status information about the operation of the writer is reported.<br /></dd></dl> | 
+| <span id="deleteFiles"></span><span id="deletefiles"></span><span id="DELETEFILES"></span>deleteFiles<br /> | To perform extra verification, set this attribute to "yes" to cause the writer to delete all of its files immediately after the volume shadow copy is created. The requester must then copy the files from the shadow copy, because they no longer exist on the original volume. <br /><blockquote>[!Note]<br />In the case of spit writers, the files are deleted from the original location after the spit but before the shadow copy is created. After the shadow copy is created, the files are deleted from the spit directory.</blockquote><br /> | 
+| <span id="deletePartialFiles"></span><span id="deletepartialfiles"></span><span id="DELETEPARTIALFILES"></span>deletePartialFiles<br /> | To delete partial files, set this attribute to "yes".<br /> | 
+| <span id="deleteDifferencedFiles"></span><span id="deletedifferencedfiles"></span><span id="DELETEDIFFERENCEDFILES"></span>deleteDifferencedFiles<br /> | To delete differenced files, set this attribute to "yes".<br /> | 
+| <span id="checkIncludes"></span><span id="checkincludes"></span><span id="CHECKINCLUDES"></span>checkIncludes<br /> | Set this attribute to "yes" to cause the writer to check that every file that has been backed up has been restored to an appropriate location, and that the file has not been corrupted. Partial files and differenced files are also correctly handled.<br /> | 
+| <span id="checkExcludes"></span><span id="checkexcludes"></span><span id="CHECKEXCLUDES"></span>checkExcludes<br /> | Set this attribute to "yes" to cause the writer to check that files matching a file specification in the exclude list are not restored. For this to function correctly, the restore directories must be emptied prior to restore.<br /> | 
+
 
 
 

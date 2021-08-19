@@ -68,97 +68,25 @@ Reserved for future use.
 
 This function returns the [JET_ERR](./jet-err.md) datatype with one of the following return codes. For more information about ESE errors, see [Extensible Storage Engine Errors](./extensible-storage-engine-errors.md) and [Error Handling Parameters](./error-handling-parameters.md).
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Return code</p></th>
-<th><p>Description</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_errSuccess</p></td>
-<td><p>The operation completed successfully.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errClientRequestToStopJetService</p></td>
-<td><p>It is not possible to complete the operation because all activity on the instance associated with the session has ceased as a result of a call to <a href="gg269240(v=exchg.10).md">JetStopService</a>.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errInstanceUnavailable</p></td>
-<td><p>It is not possible to complete the operation because the instance associated with the session has encountered a fatal error that requires that access to all data be revoked to protect the integrity of that data.</p>
-<p><strong>Windows XP:</strong>  This return value is introduced in Windows XP.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errInvalidgrbit</p></td>
-<td><p>One of the options requested was invalid, used incorrectly, or not implemented.</p>
-<p>This error is returned by <strong>JetIntersectIndexes</strong> when:</p>
-<p>The <em>grbit</em> contained in the <a href="gg269335(v=exchg.10).md">JET_IndexRange</a> structure pointed to by any element in the <em>rgindexrange</em> array is not equal to JET_bitRecordInIndex.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errInvalidParameter</p></td>
-<td><p>One of the parameters provided contains an unexpected value or a value that is inconsistent when combined with the value of another parameter.</p>
-<p>This error is returned by <strong>JetIntersectIndexes</strong> for of the following reasons:</p>
-<ul>
-<li><p>The <em>precordlist</em> parameter is NULL.</p></li>
-<li><p>The <strong>cbStruct</strong> member of the <a href="gg269287(v=exchg.10).md">JET_RECORDLIST</a> structure specified in the <em>precordlist</em> parameter is not equal to size of the <a href="gg269287(v=exchg.10).md">JET_RECORDLIST</a> structure.</p></li>
-<li><p>The <em>cindexrange</em> parameter is zero.</p></li>
-<li><p>The <em>cindexrange</em> parameter is greater than 64.</p></li>
-<li><p>The <strong>cbStruct</strong> member for any element in the array specified by the <em>rgindexrange</em> parameter is not equal to the size of the <a href="gg269335(v=exchg.10).md">JET_IndexRange</a> structure.</p></li>
-<li><p>The elements in the <em>rgindexrange</em> array contain <a href="gg269182(v=exchg.10).md">JET_TABLEID</a>s from different tables.</p></li>
-<li><p>An element in the <em>rgindexrange</em> array contains a <a href="gg269182(v=exchg.10).md">JET_TABLEID</a> that is not positioned on a secondary index.</p></li>
-<li><p>One or more of the elements in the <em>rgindexrange</em> array contain <a href="gg269182(v=exchg.10).md">JET_TABLEID</a>s positioned on the same secondary index.</p></li>
-</ul></td>
-</tr>
-<tr class="even">
-<td><p>JET_errInvalidSesid</p></td>
-<td><p>The session handle is invalid or refers to a closed session.</p>
-<p>This error is not returned under all circumstances. Handles are validated on a best effort basis only.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errNotInitialized</p></td>
-<td><p>It is not possible to complete the operation because the instance associated with the session has not been initialized.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errOutOfCursors</p></td>
-<td><p>The operation failed because the engine could not allocate the resources required to open a new cursor. Cursor resources are configured by calling <a href="gg294044(v=exchg.10).md">JetSetSystemParameter</a> with <em>JET_paramMaxCursors</em> specified in the <em>paramid</em> parameter.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errOutOfMemory</p></td>
-<td><p>The operation failed because not enough memory could be allocated to complete it.</p>
-<p><strong>JetIntersectIndexes</strong> can return JET_errOutOfMemory if the address space of the host process becomes too fragmented. The temporary table manager will always allocate a 1MB chunk of address space for every temporary table created regardless of the amount of data to be stored. <strong>JetIntersectIndexes</strong> will create one temporary table for each <a href="gg269335(v=exchg.10).md">JET_IndexRange</a> specified in the <em>rgindexrange</em> parameter, and one temporary table for the output in <a href="gg269287(v=exchg.10).md">JET_RECORDLIST</a>.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errRestoreInProgress</p></td>
-<td><p>It is not possible to complete the operation because a restore operation is in progress on the instance associated with the session.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errSessionSharingViolation</p></td>
-<td><p>It is illegal to use the same session from more than one thread at the same time.</p>
-<p><strong>Windows XP:</strong>  This return value is introduced in Windows XP.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errTermInProgress</p></td>
-<td><p>It is not possible to complete the operation because the instance associated with the session is being shut down.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errTooManyOpenIndexes</p></td>
-<td><p>The operation failed because the engine could not allocate the resources required to cache the indices of the table. The number of indices whose schema can be cached is configured using <a href="gg294044(v=exchg.10).md">JetSetSystemParameter</a> with <em>JET_paramMaxOpenTables</em> specified in the <em>paramid</em> parameter.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errTooManyOpenTables</p></td>
-<td><p>The operation failed because the engine could not allocate the resources required to cache the schema of the table. The number of tables whose schema can be cached is configured using <a href="gg294044(v=exchg.10).md">JetSetSystemParameter</a> with <em>JET_paramMaxOpenTables</em> specified in the <em>paramid</em> parameter.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errTooManySorts</p></td>
-<td><p>The operation failed because the engine could not allocate the resources required to create a temporary table. Temporary table resources are configured using <a href="gg294044(v=exchg.10).md">JetSetSystemParameter</a> with JET_paramMaxTemporaryTables specified in the <em>paramid</em> parameter.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Return code</p> | <p>Description</p> | 
+|--------------------|--------------------|
+| <p>JET_errSuccess</p> | <p>The operation completed successfully.</p> | 
+| <p>JET_errClientRequestToStopJetService</p> | <p>It is not possible to complete the operation because all activity on the instance associated with the session has ceased as a result of a call to <a href="gg269240(v=exchg.10).md">JetStopService</a>.</p> | 
+| <p>JET_errInstanceUnavailable</p> | <p>It is not possible to complete the operation because the instance associated with the session has encountered a fatal error that requires that access to all data be revoked to protect the integrity of that data.</p><p><strong>Windows XP:</strong>  This return value is introduced in Windows XP.</p> | 
+| <p>JET_errInvalidgrbit</p> | <p>One of the options requested was invalid, used incorrectly, or not implemented.</p><p>This error is returned by <strong>JetIntersectIndexes</strong> when:</p><p>The <em>grbit</em> contained in the <a href="gg269335(v=exchg.10).md">JET_IndexRange</a> structure pointed to by any element in the <em>rgindexrange</em> array is not equal to JET_bitRecordInIndex.</p> | 
+| <p>JET_errInvalidParameter</p> | <p>One of the parameters provided contains an unexpected value or a value that is inconsistent when combined with the value of another parameter.</p><p>This error is returned by <strong>JetIntersectIndexes</strong> for of the following reasons:</p><ul><li><p>The <em>precordlist</em> parameter is NULL.</p></li><li><p>The <strong>cbStruct</strong> member of the <a href="gg269287(v=exchg.10).md">JET_RECORDLIST</a> structure specified in the <em>precordlist</em> parameter is not equal to size of the <a href="gg269287(v=exchg.10).md">JET_RECORDLIST</a> structure.</p></li><li><p>The <em>cindexrange</em> parameter is zero.</p></li><li><p>The <em>cindexrange</em> parameter is greater than 64.</p></li><li><p>The <strong>cbStruct</strong> member for any element in the array specified by the <em>rgindexrange</em> parameter is not equal to the size of the <a href="gg269335(v=exchg.10).md">JET_IndexRange</a> structure.</p></li><li><p>The elements in the <em>rgindexrange</em> array contain <a href="gg269182(v=exchg.10).md">JET_TABLEID</a>s from different tables.</p></li><li><p>An element in the <em>rgindexrange</em> array contains a <a href="gg269182(v=exchg.10).md">JET_TABLEID</a> that is not positioned on a secondary index.</p></li><li><p>One or more of the elements in the <em>rgindexrange</em> array contain <a href="gg269182(v=exchg.10).md">JET_TABLEID</a>s positioned on the same secondary index.</p></li></ul> | 
+| <p>JET_errInvalidSesid</p> | <p>The session handle is invalid or refers to a closed session.</p><p>This error is not returned under all circumstances. Handles are validated on a best effort basis only.</p> | 
+| <p>JET_errNotInitialized</p> | <p>It is not possible to complete the operation because the instance associated with the session has not been initialized.</p> | 
+| <p>JET_errOutOfCursors</p> | <p>The operation failed because the engine could not allocate the resources required to open a new cursor. Cursor resources are configured by calling <a href="gg294044(v=exchg.10).md">JetSetSystemParameter</a> with <em>JET_paramMaxCursors</em> specified in the <em>paramid</em> parameter.</p> | 
+| <p>JET_errOutOfMemory</p> | <p>The operation failed because not enough memory could be allocated to complete it.</p><p><strong>JetIntersectIndexes</strong> can return JET_errOutOfMemory if the address space of the host process becomes too fragmented. The temporary table manager will always allocate a 1MB chunk of address space for every temporary table created regardless of the amount of data to be stored. <strong>JetIntersectIndexes</strong> will create one temporary table for each <a href="gg269335(v=exchg.10).md">JET_IndexRange</a> specified in the <em>rgindexrange</em> parameter, and one temporary table for the output in <a href="gg269287(v=exchg.10).md">JET_RECORDLIST</a>.</p> | 
+| <p>JET_errRestoreInProgress</p> | <p>It is not possible to complete the operation because a restore operation is in progress on the instance associated with the session.</p> | 
+| <p>JET_errSessionSharingViolation</p> | <p>It is illegal to use the same session from more than one thread at the same time.</p><p><strong>Windows XP:</strong>  This return value is introduced in Windows XP.</p> | 
+| <p>JET_errTermInProgress</p> | <p>It is not possible to complete the operation because the instance associated with the session is being shut down.</p> | 
+| <p>JET_errTooManyOpenIndexes</p> | <p>The operation failed because the engine could not allocate the resources required to cache the indices of the table. The number of indices whose schema can be cached is configured using <a href="gg294044(v=exchg.10).md">JetSetSystemParameter</a> with <em>JET_paramMaxOpenTables</em> specified in the <em>paramid</em> parameter.</p> | 
+| <p>JET_errTooManyOpenTables</p> | <p>The operation failed because the engine could not allocate the resources required to cache the schema of the table. The number of tables whose schema can be cached is configured using <a href="gg294044(v=exchg.10).md">JetSetSystemParameter</a> with <em>JET_paramMaxOpenTables</em> specified in the <em>paramid</em> parameter.</p> | 
+| <p>JET_errTooManySorts</p> | <p>The operation failed because the engine could not allocate the resources required to create a temporary table. Temporary table resources are configured using <a href="gg294044(v=exchg.10).md">JetSetSystemParameter</a> with JET_paramMaxTemporaryTables specified in the <em>paramid</em> parameter.</p> | 
+
 
 
 On success, a new temporary table is returned that contains the bookmarks of the records that match the criteria represented by each of the input index range descriptions.
@@ -185,34 +113,15 @@ The temporary table returned by **JetIntersectIndexes** can only be scanned in a
 
 #### Requirements
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Client</strong></p></td>
-<td><p>Requires Windows Vista, Windows XP, or Windows 2000 Professional.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Server</strong></p></td>
-<td><p>Requires Windows Server 2008, Windows Server 2003, or Windows 2000 Server.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>Header</strong></p></td>
-<td><p>Declared in Esent.h.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Library</strong></p></td>
-<td><p>Use ESENT.lib.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>DLL</strong></p></td>
-<td><p>Requires ESENT.dll.</p></td>
-</tr>
-</tbody>
-</table>
+
+| 
+|
+| <p><strong>Client</strong></p> | <p>Requires Windows Vista, Windows XP, or Windows 2000 Professional.</p> | 
+| <p><strong>Server</strong></p> | <p>Requires Windows Server 2008, Windows Server 2003, or Windows 2000 Server.</p> | 
+| <p><strong>Header</strong></p> | <p>Declared in Esent.h.</p> | 
+| <p><strong>Library</strong></p> | <p>Use ESENT.lib.</p> | 
+| <p><strong>DLL</strong></p> | <p>Requires ESENT.dll.</p> | 
+
 
 
 #### See Also

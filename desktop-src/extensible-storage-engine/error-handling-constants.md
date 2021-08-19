@@ -27,54 +27,23 @@ _**Applies to:** Windows | Windows Server_
 
 The following constants are used to set the range for the [JET_paramExceptionAction](./error-handling-parameters.md) system parameters.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Constant/value</p></th>
-<th><p>Description</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_ExceptionMsgBox<br />
-0x0001</p></td>
-<td><p>Displays a message box when an exception occurs.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_ExceptionNone<br />
-0x0002</p></td>
-<td><p>Does nothing when an exception occurs.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Constant/value</p> | <p>Description</p> | 
+|-----------------------|--------------------|
+| <p>JET_ExceptionMsgBox<br />0x0001</p> | <p>Displays a message box when an exception occurs.</p> | 
+| <p>JET_ExceptionNone<br />0x0002</p> | <p>Does nothing when an exception occurs.</p> | 
+
 
 
 ### Requirements
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Client</strong></p></td>
-<td><p>Requires Windows Vista, Windows XP, or Windows 2000 Professional.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Server</strong></p></td>
-<td><p>Requires Windows Server 2008, Windows Server 2003, or Windows 2000 Server.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>Header</strong></p></td>
-<td><p>Declared in Esent.h.</p></td>
-</tr>
-</tbody>
-</table>
+
+| 
+|
+| <p><strong>Client</strong></p> | <p>Requires Windows Vista, Windows XP, or Windows 2000 Professional.</p> | 
+| <p><strong>Server</strong></p> | <p>Requires Windows Server 2008, Windows Server 2003, or Windows 2000 Server.</p> | 
+| <p><strong>Header</strong></p> | <p>Declared in Esent.h.</p> | 
+
 
 
 ### See Also

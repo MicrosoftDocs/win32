@@ -59,46 +59,15 @@ The Assessment Toolkit is typically used in these scenarios:
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Scenario</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>&quot;Black box&quot;</td>
-<td>Run a predefined job and examine the results for any unusual values or indications of issues with drivers, memory usage, or other areas that the assessments address.</td>
-</tr>
-<tr class="even">
-<td>Comparing results</td>
-<td><ol>
-<li>Run a single assessment using the recommended settings on any computer that is running a supported operating system.</li>
-<li>Use the Windows AC to package the job to run on another computer.</li>
-<li>Save the results to a share so that you can compare the results.</li>
-<li>Compare the results from any Windows computer with those of any other supported operating system to identify differences.</li>
-</ol>
-<br/></td>
-</tr>
-<tr class="odd">
-<td>Clean computer</td>
-<td>Run assessments on a clean computer that includes only the operating system to establish baseline system results.</td>
-</tr>
-<tr class="even">
-<td>Computer with added hardware or software components</td>
-<td>Add new hardware or software to the clean computer system and then re-run the assessments to compare the results with clean computer results.</td>
-</tr>
-<tr class="odd">
-<td>Creating assessments</td>
-<td>Use public APIs to develop or extend an assessment, or integrate assessments with your tools and infrastructure.</td>
-</tr>
-</tbody>
-</table>
+
+| Scenario | Description | 
+|----------|-------------|
+| "Black box" | Run a predefined job and examine the results for any unusual values or indications of issues with drivers, memory usage, or other areas that the assessments address. | 
+| Comparing results | <ol><li>Run a single assessment using the recommended settings on any computer that is running a supported operating system.</li><li>Use the Windows AC to package the job to run on another computer.</li><li>Save the results to a share so that you can compare the results.</li><li>Compare the results from any Windows computer with those of any other supported operating system to identify differences.</li></ol><br /> | 
+| Clean computer | Run assessments on a clean computer that includes only the operating system to establish baseline system results. | 
+| Computer with added hardware or software components | Add new hardware or software to the clean computer system and then re-run the assessments to compare the results with clean computer results. | 
+| Creating assessments | Use public APIs to develop or extend an assessment, or integrate assessments with your tools and infrastructure. | 
+
 
 
 

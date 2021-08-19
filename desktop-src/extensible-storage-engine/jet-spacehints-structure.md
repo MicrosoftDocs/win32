@@ -60,50 +60,16 @@ The initial size (in bytes) of the object being created. This must be a multiple
 
 A group of bits that contain the options to be used for this structure, which include zero or more of the following.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Value</p></th>
-<th><p>Meaning</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_bitSpaceHintsUtilizeParentSpace<br />
-0x00000001</p></td>
-<td><p>Changes the internal allocation policy to get space heirarchically from the immediate parent of a b-tree.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_bitCreateHintAppendSequential<br />
-0x00000002</p></td>
-<td><p>Enables append split behavior to grow according to the growth dynamics of the table (set by cbMinExtent, ulGrowth, cbMaxExtent).</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_bitCreateHintHotpointSequential<br />
-0x00000004</p></td>
-<td><p>Enables hotpoint split behavior to grow according to the growth dynamics of the table (set by cbMinExtent, ulGrowth, cbMaxExtent).</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_bitRetrieveHintTableScanForward<br />
-0x00000010</p></td>
-<td><p>If set, the client indicates that forward sequential scan is the predominant usage pattern of this table.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_bitRetrieveHintTableScanBackward<br />
-0x00000020</p></td>
-<td><p>If set, the client indicates that backward sequential scan is the predominant usage pattern of this table.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_bitDeleteHintTableSequential<br />
-0x00000100</p></td>
-<td><p>If set, the application expects this table to be cleaned up in sequential order, from lowest key to highest key.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Value</p> | <p>Meaning</p> | 
+|--------------|----------------|
+| <p>JET_bitSpaceHintsUtilizeParentSpace<br />0x00000001</p> | <p>Changes the internal allocation policy to get space heirarchically from the immediate parent of a b-tree.</p> | 
+| <p>JET_bitCreateHintAppendSequential<br />0x00000002</p> | <p>Enables append split behavior to grow according to the growth dynamics of the table (set by cbMinExtent, ulGrowth, cbMaxExtent).</p> | 
+| <p>JET_bitCreateHintHotpointSequential<br />0x00000004</p> | <p>Enables hotpoint split behavior to grow according to the growth dynamics of the table (set by cbMinExtent, ulGrowth, cbMaxExtent).</p> | 
+| <p>JET_bitRetrieveHintTableScanForward<br />0x00000010</p> | <p>If set, the client indicates that forward sequential scan is the predominant usage pattern of this table.</p> | 
+| <p>JET_bitRetrieveHintTableScanBackward<br />0x00000020</p> | <p>If set, the client indicates that backward sequential scan is the predominant usage pattern of this table.</p> | 
+| <p>JET_bitDeleteHintTableSequential<br />0x00000100</p> | <p>If set, the application expects this table to be cleaned up in sequential order, from lowest key to highest key.</p> | 
+
 
 
 **ulMaintDensity**
@@ -136,26 +102,13 @@ The maximum value for growth in bytes. This caps ulGrowth.
 
 ### Requirements
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Client</strong></p></td>
-<td><p>Requires Windows Vista, Windows XP, or Windows 2000 Professional.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Server</strong></p></td>
-<td><p>Requires Windows Server 2008, Windows Server 2003, or Windows 2000 Server.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>Header</strong></p></td>
-<td><p>Declared in Esent.h.</p></td>
-</tr>
-</tbody>
-</table>
+
+| 
+|
+| <p><strong>Client</strong></p> | <p>Requires Windows Vista, Windows XP, or Windows 2000 Professional.</p> | 
+| <p><strong>Server</strong></p> | <p>Requires Windows Server 2008, Windows Server 2003, or Windows 2000 Server.</p> | 
+| <p><strong>Header</strong></p> | <p>Declared in Esent.h.</p> | 
+
 
 
 ### See Also

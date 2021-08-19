@@ -19,29 +19,13 @@ The following table contains information specific to the Overlay Mixer 2. For al
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>Input Pin Media Types</td>
-<td>Format Type: Format_VIDEOINFO2</td>
-</tr>
-<tr class="even">
-<td>Filter CLSID</td>
-<td>CLSID_OverlayMixer2</td>
-</tr>
-<tr class="odd">
-<td><a href="merit.md">Merit</a></td>
-<td><ul>
-<li>MERIT_UNLIKELY</li>
-<li>Windows Vista or later: MERIT_DO_NOT_USE</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| 
+|
+| Input Pin Media Types | Format Type: Format_VIDEOINFO2 | 
+| Filter CLSID | CLSID_OverlayMixer2 | 
+| <a href="merit.md">Merit</a> | <ul><li>MERIT_UNLIKELY</li><li>Windows Vista or later: MERIT_DO_NOT_USE</li></ul> | 
+
 
 
 

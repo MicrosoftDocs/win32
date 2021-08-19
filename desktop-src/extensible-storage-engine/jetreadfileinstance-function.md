@@ -72,73 +72,22 @@ The actual amount of file data retrieved.
 
 This function facilitates the return of any [JET_ERR](./jet-err.md) data types that are defined in the Extensible Storage Engine (ESE) API. For more information about JET errors, see [Extensible Storage Engine Errors](./extensible-storage-engine-errors.md) and [Error Handling Parameters](./error-handling-parameters.md).
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Return code</p></th>
-<th><p>Meaning</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_errSuccess</p></td>
-<td><p>The operation completed successfully.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errBackupAbortByServer</p></td>
-<td><p>The operation failed because the current external backup has been aborted by a call to the <a href="gg269240(v=exchg.10).md">JetStopService</a> function. This error will be returned only by Windows XP and later Windows versions.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errClientRequestToStopJetService</p></td>
-<td><p>It is not possible to complete the operation because all activity on the instance associated with the session has ceased as a result of a call to the <a href="gg269240(v=exchg.10).md">JetStopService</a> function.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errInstanceUnavailable</p></td>
-<td><p>It is not possible to complete the operation because the instance associated with the session has encountered a fatal error requiring that access to all data be revoked to protect the integrity of that data. This error will be returned only by Windows XP and later Windows versions.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errInvalidParameter</p></td>
-<td><p>One of the specified parameters contained either an unexpected value or a value that did not make sense when combined with the value of another parameter. This can happen for the <strong>JetReadFileInstance</strong> function when any of the following occurs:</p>
-<ul>
-<li><p>The specified instance handle is invalid. Windows XP and later Windows versions.</p></li>
-<li><p>The output buffer size is not a multiple of the database page size (<a href="gg269337(v=exchg.10).md">JET_paramDatabasePageSize</a>). Windows XP and later Windows versions.</p></li>
-<li><p>The output buffer size is smaller than three database pages (<a href="gg269337(v=exchg.10).md">JET_paramDatabasePageSize</a>), and this is the first call to the <strong>JetReadFileInstance</strong> function for the specified handle. Windows XP and later Windows versions.</p></li>
-</ul></td>
-</tr>
-<tr class="even">
-<td><p>JET_errLogReadVerifyFailure</p></td>
-<td><p>The operation failed because unrecoverable data corruption was detected while reading a transaction log file. This error will be returned only by Windows XP and later Windows versions.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errNoBackup</p></td>
-<td><p>The operation failed because no external backup is in progress.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errNotInitialized</p></td>
-<td><p>It is not possible to complete the operation because the instance associated with this session has not been initialized yet.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errReadVerifyFailure</p></td>
-<td><p>The operation failed because unrecoverable data corruption was detected while reading a database page from a database file or database patch file.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errRestoreInProgress</p></td>
-<td><p>It is not possible to complete the operation because a restore operation is in progress on the instance associated with this session.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errRunningInMultiInstanceMode</p></td>
-<td><p>The operation failed because an attempt was made to use the engine in legacy mode (Windows 2000 compatibility mode) in a case where only one instance is supported but multiple instances already exist.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errTermInProgress</p></td>
-<td><p>It is not possible to complete the operation because the instance associated with this session is being shut down.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Return code</p> | <p>Meaning</p> | 
+|--------------------|----------------|
+| <p>JET_errSuccess</p> | <p>The operation completed successfully.</p> | 
+| <p>JET_errBackupAbortByServer</p> | <p>The operation failed because the current external backup has been aborted by a call to the <a href="gg269240(v=exchg.10).md">JetStopService</a> function. This error will be returned only by Windows XP and later Windows versions.</p> | 
+| <p>JET_errClientRequestToStopJetService</p> | <p>It is not possible to complete the operation because all activity on the instance associated with the session has ceased as a result of a call to the <a href="gg269240(v=exchg.10).md">JetStopService</a> function.</p> | 
+| <p>JET_errInstanceUnavailable</p> | <p>It is not possible to complete the operation because the instance associated with the session has encountered a fatal error requiring that access to all data be revoked to protect the integrity of that data. This error will be returned only by Windows XP and later Windows versions.</p> | 
+| <p>JET_errInvalidParameter</p> | <p>One of the specified parameters contained either an unexpected value or a value that did not make sense when combined with the value of another parameter. This can happen for the <strong>JetReadFileInstance</strong> function when any of the following occurs:</p><ul><li><p>The specified instance handle is invalid. Windows XP and later Windows versions.</p></li><li><p>The output buffer size is not a multiple of the database page size (<a href="gg269337(v=exchg.10).md">JET_paramDatabasePageSize</a>). Windows XP and later Windows versions.</p></li><li><p>The output buffer size is smaller than three database pages (<a href="gg269337(v=exchg.10).md">JET_paramDatabasePageSize</a>), and this is the first call to the <strong>JetReadFileInstance</strong> function for the specified handle. Windows XP and later Windows versions.</p></li></ul> | 
+| <p>JET_errLogReadVerifyFailure</p> | <p>The operation failed because unrecoverable data corruption was detected while reading a transaction log file. This error will be returned only by Windows XP and later Windows versions.</p> | 
+| <p>JET_errNoBackup</p> | <p>The operation failed because no external backup is in progress.</p> | 
+| <p>JET_errNotInitialized</p> | <p>It is not possible to complete the operation because the instance associated with this session has not been initialized yet.</p> | 
+| <p>JET_errReadVerifyFailure</p> | <p>The operation failed because unrecoverable data corruption was detected while reading a database page from a database file or database patch file.</p> | 
+| <p>JET_errRestoreInProgress</p> | <p>It is not possible to complete the operation because a restore operation is in progress on the instance associated with this session.</p> | 
+| <p>JET_errRunningInMultiInstanceMode</p> | <p>The operation failed because an attempt was made to use the engine in legacy mode (Windows 2000 compatibility mode) in a case where only one instance is supported but multiple instances already exist.</p> | 
+| <p>JET_errTermInProgress</p> | <p>It is not possible to complete the operation because the instance associated with this session is being shut down.</p> | 
+
 
 
 On success, the next chunk of data from the file will be read into the output buffer. The actual number of bytes retrieved will also be returned. The file offset at which the next read will occur will be advanced by this amount.
@@ -163,34 +112,15 @@ Data corruption is detected by the database engine through the use of block chec
 
 #### Requirements
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Client</p></td>
-<td><p>Requires Windows Vista or Windows XP.</p></td>
-</tr>
-<tr class="even">
-<td><p>Server</p></td>
-<td><p>Requires Windows Server 2008 or Windows Server 2003.</p></td>
-</tr>
-<tr class="odd">
-<td><p>Header</p></td>
-<td><p>Is declared in Esent.h.</p></td>
-</tr>
-<tr class="even">
-<td><p>Library</p></td>
-<td><p>Uses ESENT.lib.</p></td>
-</tr>
-<tr class="odd">
-<td><p>DLL</p></td>
-<td><p>Requires ESENT.dll.</p></td>
-</tr>
-</tbody>
-</table>
+
+| 
+|
+| <p>Client</p> | <p>Requires Windows Vista or Windows XP.</p> | 
+| <p>Server</p> | <p>Requires Windows Server 2008 or Windows Server 2003.</p> | 
+| <p>Header</p> | <p>Is declared in Esent.h.</p> | 
+| <p>Library</p> | <p>Uses ESENT.lib.</p> | 
+| <p>DLL</p> | <p>Requires ESENT.dll.</p> | 
+
 
 
 #### See Also

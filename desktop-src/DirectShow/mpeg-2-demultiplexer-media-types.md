@@ -37,32 +37,13 @@ The MPEG-2 Demultiplexer does not validate output types; the downstream filter i
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>Major Type</td>
-<td><strong>MEDIATYPE_MPEG2_SECTIONS</strong></td>
-</tr>
-<tr class="even">
-<td>Subtype</td>
-<td>Any of the following:<br/>
-<ul>
-<li><strong>MEDIASUBTYPE_ATSC_SI</strong>: ATSC Service Information.</li>
-<li><strong>MEDIASUBTYPE_DVB_SI</strong>: DVB Service Information.</li>
-<li><strong>MEDIASUBTYPE_ISDB_SI</strong>: Integrated Services Digital Broadcasting (ISDB) Service Information.</li>
-<li><strong>MEDIASUBTYPE_MPEG2DATA</strong>: MPEG-2 section data.</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>Format Type</td>
-<td>None</td>
-</tr>
-</tbody>
-</table>
+
+| 
+|
+| Major Type | <strong>MEDIATYPE_MPEG2_SECTIONS</strong> | 
+| Subtype | Any of the following:<br /><ul><li><strong>MEDIASUBTYPE_ATSC_SI</strong>: ATSC Service Information.</li><li><strong>MEDIASUBTYPE_DVB_SI</strong>: DVB Service Information.</li><li><strong>MEDIASUBTYPE_ISDB_SI</strong>: Integrated Services Digital Broadcasting (ISDB) Service Information.</li><li><strong>MEDIASUBTYPE_MPEG2DATA</strong>: MPEG-2 section data.</li></ul> | 
+| Format Type | None | 
+
 
 
 

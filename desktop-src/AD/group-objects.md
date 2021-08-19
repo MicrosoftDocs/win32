@@ -13,55 +13,17 @@ A group is represented as a [**group**](/windows/desktop/ADSchema/c-group) objec
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Attribute</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>cn</strong></td>
-<td>The <strong>cn</strong> (or Common-Name) is a single-value attribute that is the object's relative distinguished name. The <strong>cn</strong> is the name of the group in Active Directory Domain Services. As with all other objects, the <strong>cn</strong> of a group must be unique among the sibling objects in the container that contains the group.<br/></td>
-</tr>
-<tr class="even">
-<td><strong>member</strong></td>
-<td>The <strong>member</strong> attribute is a multi-value attribute that contains the list of distinguished names for the user, group, and contact objects that are members of the group. Each item in the list is a linked reference to the object that represents the member; therefore, the Active Directory server automatically updates the distinguished names in the member property when a member object is moved or renamed.<br/></td>
-</tr>
-<tr class="odd">
-<td><strong>groupType</strong></td>
-<td>The <strong>groupType</strong> attribute is a single-value attribute that is an integer that specifies the group type and scope using the following bit flags:
-<ul>
-<li><strong>ADS_GROUP_TYPE_DOMAIN_LOCAL_GROUP</strong></li>
-<li><strong>ADS_GROUP_TYPE_GLOBAL_GROUP</strong></li>
-<li><strong>ADS_GROUP_TYPE_UNIVERSAL_GROUP</strong></li>
-<li><strong>ADS_GROUP_TYPE_SECURITY_ENABLED</strong></li>
-</ul>
-<br/> The first three flags specify the group scope. The <strong>ADS_GROUP_TYPE_SECURITY_ENABLED</strong> flag indicates the group type. If this flag is set, the group is a security group. If this flag is not set, the group is a distribution group. For more information, see <a href="#group-types">Group Types</a>.<br/></td>
-</tr>
-<tr class="even">
-<td><strong>memberOf</strong></td>
-<td>The <strong>memberOf</strong> attribute is a multiple-value attribute that contains the list of distinguished names for groups that contain the group as a member. This attribute lists the groups beneath which the group is directly nested it does not contain the recursive list of nested predecessors. For example, if group D were nested in group C and group B and group B were nested in group A, the <strong>memberOf</strong> attribute of group D would list group C and group B, but not group A.<br/></td>
-</tr>
-<tr class="odd">
-<td><strong>objectGUID</strong></td>
-<td>The <strong>objectGUID</strong> attribute is a single-value attribute that is the unique identifier for the object. This attribute is a Globally Unique Identifier (GUID). When an object is created in the directory, the Active Directory server generates a GUID and assigns it to the object's <strong>objectGUID</strong> attribute. The GUID is unique across the enterprise and anywhere else.<br/> The <strong>objectGUID</strong> is a 128-bit GUID structure stored as an OctetString.<br/></td>
-</tr>
-<tr class="even">
-<td><strong>objectSid</strong></td>
-<td>The <strong>objectSid</strong> attribute is a single-value attribute that specifies the security identifier (SID) of the group. The SID is a unique value used to identify the group as a security principal. It is a binary value that the system sets when the group is created.<br/> Each group has a unique SID that the Windows NT/Windows 2000 Server domain issues that is stored in the <strong>objectSid</strong> attribute of the group object in the directory. Each time a user logs on, the system retrieves the SID for the groups of which the user is a member and places it in the user's access token. The system uses the SIDs in the user's access token to identify the user and his/her group memberships in all subsequent interactions with Windows NT/Windows 2000 security.<br/> When an SID has been used as the unique identifier for a user or group, it cannot ever be used again to identify another user or group.<br/></td>
-</tr>
-<tr class="odd">
-<td><strong>sAMAccountName</strong></td>
-<td>The <strong>sAMAccountName</strong> attribute is a single-value attribute that is the logon name used to support clients and servers from a previous version (Windows 95, Windows 98, and LAN Manager). The <strong>sAMAccountName</strong> should be less than 20 characters to support clients and servers from a previous version.<br/> The <strong>sAMAccountName</strong> must be unique among all security principal objects within a domain.<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Attribute | Description | 
+|-----------|-------------|
+| <strong>cn</strong> | The <strong>cn</strong> (or Common-Name) is a single-value attribute that is the object's relative distinguished name. The <strong>cn</strong> is the name of the group in Active Directory Domain Services. As with all other objects, the <strong>cn</strong> of a group must be unique among the sibling objects in the container that contains the group.<br /> | 
+| <strong>member</strong> | The <strong>member</strong> attribute is a multi-value attribute that contains the list of distinguished names for the user, group, and contact objects that are members of the group. Each item in the list is a linked reference to the object that represents the member; therefore, the Active Directory server automatically updates the distinguished names in the member property when a member object is moved or renamed.<br /> | 
+| <strong>groupType</strong> | The <strong>groupType</strong> attribute is a single-value attribute that is an integer that specifies the group type and scope using the following bit flags:<ul><li><strong>ADS_GROUP_TYPE_DOMAIN_LOCAL_GROUP</strong></li><li><strong>ADS_GROUP_TYPE_GLOBAL_GROUP</strong></li><li><strong>ADS_GROUP_TYPE_UNIVERSAL_GROUP</strong></li><li><strong>ADS_GROUP_TYPE_SECURITY_ENABLED</strong></li></ul><br /> The first three flags specify the group scope. The <strong>ADS_GROUP_TYPE_SECURITY_ENABLED</strong> flag indicates the group type. If this flag is set, the group is a security group. If this flag is not set, the group is a distribution group. For more information, see <a href="#group-types">Group Types</a>.<br /> | 
+| <strong>memberOf</strong> | The <strong>memberOf</strong> attribute is a multiple-value attribute that contains the list of distinguished names for groups that contain the group as a member. This attribute lists the groups beneath which the group is directly nested it does not contain the recursive list of nested predecessors. For example, if group D were nested in group C and group B and group B were nested in group A, the <strong>memberOf</strong> attribute of group D would list group C and group B, but not group A.<br /> | 
+| <strong>objectGUID</strong> | The <strong>objectGUID</strong> attribute is a single-value attribute that is the unique identifier for the object. This attribute is a Globally Unique Identifier (GUID). When an object is created in the directory, the Active Directory server generates a GUID and assigns it to the object's <strong>objectGUID</strong> attribute. The GUID is unique across the enterprise and anywhere else.<br /> The <strong>objectGUID</strong> is a 128-bit GUID structure stored as an OctetString.<br /> | 
+| <strong>objectSid</strong> | The <strong>objectSid</strong> attribute is a single-value attribute that specifies the security identifier (SID) of the group. The SID is a unique value used to identify the group as a security principal. It is a binary value that the system sets when the group is created.<br /> Each group has a unique SID that the Windows NT/Windows 2000 Server domain issues that is stored in the <strong>objectSid</strong> attribute of the group object in the directory. Each time a user logs on, the system retrieves the SID for the groups of which the user is a member and places it in the user's access token. The system uses the SIDs in the user's access token to identify the user and his/her group memberships in all subsequent interactions with Windows NT/Windows 2000 security.<br /> When an SID has been used as the unique identifier for a user or group, it cannot ever be used again to identify another user or group.<br /> | 
+| <strong>sAMAccountName</strong> | The <strong>sAMAccountName</strong> attribute is a single-value attribute that is the logon name used to support clients and servers from a previous version (Windows 95, Windows 98, and LAN Manager). The <strong>sAMAccountName</strong> should be less than 20 characters to support clients and servers from a previous version.<br /> The <strong>sAMAccountName</strong> must be unique among all security principal objects within a domain.<br /> | 
+
 
 
 

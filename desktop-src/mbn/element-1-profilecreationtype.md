@@ -42,24 +42,11 @@ None.
 
 ### <span id="parent_elements"></span><span id="PARENT_ELEMENTS"></span>Parent Elements
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Parent Element</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="element-modemdmconfigprofile.md">ModemDMConfigProfile</a></td>
-<td><p>Modem DM configuration profile.</p></td>
-</tr>
-</tbody>
-</table>
+
+| Parent Element | Description | 
+|----------------|-------------|
+| <a href="element-modemdmconfigprofile.md">ModemDMConfigProfile</a> | <p>Modem DM configuration profile.</p> | 
+
 
  
 
@@ -71,18 +58,11 @@ The following elements have the same name as this one, but different content or 
 
 ## Requirements
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Namespace</p></td>
-<td><p>https://www.microsoft.com/networking/WWAN/profile/v4</p></td>
-</tr>
-</tbody>
-</table>
+
+| 
+|
+| <p>Namespace</p> | <p>https://www.microsoft.com/networking/WWAN/profile/v4</p> | 
+
 
  
 

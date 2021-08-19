@@ -55,43 +55,14 @@ If there are multiple elements, the last one is used. If no [labelInfo]() elemen
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Attribute</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>label</td>
-<td>Public. Optional. The label as it is displayed in the UI (for example, the details column label or preview pane). The syntax allows for a direct display string or an indirect display string reference. Use the indirect display string because it can be localized. <a href="/windows/win32/api/propsys/nf-propsys-ipropertydescription-getdisplayname"><strong>IPropertyDescription::GetDisplayName</strong></a> returns the resolved display name.</td>
-</tr>
-<tr class="even">
-<td>sortDescription</td>
-<td>Optional. Specifies the strings offered as sort options. <a href="/windows/win32/api/propsys/nf-propsys-ipropertydescription-getsortdescription"><strong>IPropertyDescription::GetSortDescription</strong></a> returns this sort description. The following values provide the corresponding UI strings.
-<ul>
-<li>General: &quot;Sort going up&quot; / &quot;Sort going down&quot;</li>
-<li>AToZ: &quot;A on top&quot; / &quot;Z on top&quot;</li>
-<li>LowestHighest: &quot;Lowest on top&quot; / &quot;Highest on top&quot;</li>
-<li>OldestNewest: &quot;Oldest on top&quot; / &quot;Newest on top&quot;</li>
-<li>SmallestLargest: &quot;Smallest on top&quot; / &quot;Largest on top&quot;</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>invitationText</td>
-<td>Optional. The Help string text that is displayed as an instruction to the user for the control or ToolTip (for instance, &quot;Enter author name.&quot;). The syntax allows for a direct display string or an indirect display string reference. Use the indirect display string because it can be localized. <a href="/windows/win32/api/propsys/nf-propsys-ipropertydescription-geteditinvitation"><strong>IPropertyDescription::GetEditInvitation</strong></a> returns the resolved invitation text.</td>
-</tr>
-<tr class="even">
-<td>hideLabel</td>
-<td>Optional. The default is &quot;false&quot;. Indicates whether the label is hidden.</td>
-</tr>
-</tbody>
-</table>
+
+| Attribute | Description | 
+|-----------|-------------|
+| label | Public. Optional. The label as it is displayed in the UI (for example, the details column label or preview pane). The syntax allows for a direct display string or an indirect display string reference. Use the indirect display string because it can be localized. <a href="/windows/win32/api/propsys/nf-propsys-ipropertydescription-getdisplayname"><strong>IPropertyDescription::GetDisplayName</strong></a> returns the resolved display name. | 
+| sortDescription | Optional. Specifies the strings offered as sort options. <a href="/windows/win32/api/propsys/nf-propsys-ipropertydescription-getsortdescription"><strong>IPropertyDescription::GetSortDescription</strong></a> returns this sort description. The following values provide the corresponding UI strings.<ul><li>General: "Sort going up" / "Sort going down"</li><li>AToZ: "A on top" / "Z on top"</li><li>LowestHighest: "Lowest on top" / "Highest on top"</li><li>OldestNewest: "Oldest on top" / "Newest on top"</li><li>SmallestLargest: "Smallest on top" / "Largest on top"</li></ul> | 
+| invitationText | Optional. The Help string text that is displayed as an instruction to the user for the control or ToolTip (for instance, "Enter author name."). The syntax allows for a direct display string or an indirect display string reference. Use the indirect display string because it can be localized. <a href="/windows/win32/api/propsys/nf-propsys-ipropertydescription-geteditinvitation"><strong>IPropertyDescription::GetEditInvitation</strong></a> returns the resolved invitation text. | 
+| hideLabel | Optional. The default is "false". Indicates whether the label is hidden. | 
+
 
 
 

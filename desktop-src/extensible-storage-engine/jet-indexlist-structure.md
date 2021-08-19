@@ -105,35 +105,13 @@ The column identifier of the number of the columns in the index. For more inform
 
 This column is a [JET_coltypLong](./jet-coltyp.md).
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Value</p></th>
-<th><p>Meaning</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>cIndexInfoCols<br />
-15</p></td>
-<td><p>Specifies that 15 columns are allowed.</p></td>
-</tr>
-<tr class="even">
-<td><p>cColumnInfoCols<br />
-14</p></td>
-<td><p>Specifies that 14 columns are allowed.</p></td>
-</tr>
-<tr class="odd">
-<td><p>cObjectInfoCols<br />
-9</p></td>
-<td><p>Specifies that 9 columns are allowed.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Value</p> | <p>Meaning</p> | 
+|--------------|----------------|
+| <p>cIndexInfoCols<br />15</p> | <p>Specifies that 15 columns are allowed.</p> | 
+| <p>cColumnInfoCols<br />14</p> | <p>Specifies that 14 columns are allowed.</p> | 
+| <p>cObjectInfoCols<br />9</p> | <p>Specifies that 9 columns are allowed.</p> | 
+
 
 
 **columnidcolumnid**
@@ -176,28 +154,12 @@ The data for this column can be ordered as JET_bitKeyAscending or JET_bitKeyDesc
 
 The following options are valid for this member.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Value</p></th>
-<th><p>Meaning</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_bitKeyAscending</p></td>
-<td><p>An index segment in ascending order.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_bitKeyDescending</p></td>
-<td><p>An index segment in descending order.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Value</p> | <p>Meaning</p> | 
+|--------------|----------------|
+| <p>JET_bitKeyAscending</p> | <p>An index segment in ascending order.</p> | 
+| <p>JET_bitKeyDescending</p> | <p>An index segment in descending order.</p> | 
+
 
 
 **columnidcolumnname**
@@ -220,60 +182,25 @@ For example, the index "+A\\0+B\\0+C\\0+D\\0+E\\0" is more than five columns, an
 
 The number of keys in a particular index corresponds to the number of unique values for which a caller can seek and get an exact match. The number of entries is the number of rows that an index matches. If an index has a uniqueness constraint, then the number of keys is equal to the number of entries. For example, if a table contains the following information and an index is created over the column named "key", then there are three keys (100, 200, and 500), but there are four entries ("this", "is", "an", and "example").
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Key</p></th>
-<th><p>Entry</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>100</p></td>
-<td><p>&quot;this&quot;</p></td>
-</tr>
-<tr class="even">
-<td><p>100</p></td>
-<td><p>&quot;is&quot;</p></td>
-</tr>
-<tr class="odd">
-<td><p>200</p></td>
-<td><p>&quot;an&quot;</p></td>
-</tr>
-<tr class="even">
-<td><p>500</p></td>
-<td><p>&quot;example&quot;</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Key</p> | <p>Entry</p> | 
+|------------|--------------|
+| <p>100</p> | <p>"this"</p> | 
+| <p>100</p> | <p>"is"</p> | 
+| <p>200</p> | <p>"an"</p> | 
+| <p>500</p> | <p>"example"</p> | 
+
 
 
 ### Requirements
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Client</strong></p></td>
-<td><p>Requires Windows Vista, Windows XP, or Windows 2000 Professional.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Server</strong></p></td>
-<td><p>Requires Windows Server 2008, Windows Server 2003, or Windows 2000 Server.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>Header</strong></p></td>
-<td><p>Declared in Esent.h.</p></td>
-</tr>
-</tbody>
-</table>
+
+| 
+|
+| <p><strong>Client</strong></p> | <p>Requires Windows Vista, Windows XP, or Windows 2000 Professional.</p> | 
+| <p><strong>Server</strong></p> | <p>Requires Windows Server 2008, Windows Server 2003, or Windows 2000 Server.</p> | 
+| <p><strong>Header</strong></p> | <p>Declared in Esent.h.</p> | 
+
 
 
 ### See Also

@@ -140,32 +140,12 @@ The following AP peer method registry values are optional.
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Constant Value</th>
-<th>PeerInvokeUsernameDialog</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Type</td>
-<td>REG_DWORD</td>
-</tr>
-<tr class="even">
-<td>Description</td>
-<td><ul>
-<li>1 - to get credentials using the generic EAPHost user name dialog box.</li>
-<li>0- to use a custom dialog box.</li>
-</ul>
-If the generic dialog box is used, credentials are set by the [<strong>EapPeerSetCredentials</strong>](/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeersetcredentials) method.</td>
-</tr>
-</tbody>
-</table>
+
+| Constant Value | PeerInvokeUsernameDialog | 
+|----------------|--------------------------|
+| Type | REG_DWORD | 
+| Description | <ul><li>1 - to get credentials using the generic EAPHost user name dialog box.</li><li>0- to use a custom dialog box.</li></ul>If the generic dialog box is used, credentials are set by the [<strong>EapPeerSetCredentials</strong>](/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeersetcredentials) method. | 
+
 
 
 

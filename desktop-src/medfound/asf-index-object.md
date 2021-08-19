@@ -14,42 +14,13 @@ An application can use the indexer to perform seeking based on presentation time
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Index type</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Presentation time-based Index</td>
-<td>Provides presentation time-based indexing for audio and video streams in index blocks to make indexing more space efficient. Each index block references index entries that contain a byte offset. <br/> The offset is the position of the data packet being seeked, relative to the start of the ASF Data Object.<br/> GUID_NULL must be used as the GUID type for the index identifier. For more information; see <a href="using-the-indexer-to-write-a-new-index.md">Using the Indexer to Write a New Index</a>.<br/></td>
-</tr>
-<tr class="even">
-<td>Timecode Index</td>
-<td>Facilitates seeking by timecode in streams which contain timecode metadata. The timecodes conform to a SMPTE format (<em>Hours:Minutes:Seconds:Frames</em>). Each index block references index entries that contain a byte offset. <br/> The offset is the position of the data packet being seeked, relative to the start of the ASF Data Object.<br/>
-<blockquote>
-[!Note]<br />
-Timecode index objects are not currently supported.
-</blockquote>
-<br/> <br/></td>
-</tr>
-<tr class="odd">
-<td>Frame-based Index</td>
-<td>Provides frame-based indexing for video streams. Indexes into the frame-based index are in terms of frame numbers, with the first frame for a stream in the ASF file corresponding to entry 0 in the frame-based index object. Each index block references index entries that contain a byte offset.<br/>
-<blockquote>
-[!Note]<br />
-Frame-based index objects are not currently supported.
-</blockquote>
-<br/> <br/></td>
-</tr>
-</tbody>
-</table>
+
+| Index type | Description | 
+|------------|-------------|
+| Presentation time-based Index | Provides presentation time-based indexing for audio and video streams in index blocks to make indexing more space efficient. Each index block references index entries that contain a byte offset. <br /> The offset is the position of the data packet being seeked, relative to the start of the ASF Data Object.<br /> GUID_NULL must be used as the GUID type for the index identifier. For more information; see <a href="using-the-indexer-to-write-a-new-index.md">Using the Indexer to Write a New Index</a>.<br /> | 
+| Timecode Index | Facilitates seeking by timecode in streams which contain timecode metadata. The timecodes conform to a SMPTE format (<em>Hours:Minutes:Seconds:Frames</em>). Each index block references index entries that contain a byte offset. <br /> The offset is the position of the data packet being seeked, relative to the start of the ASF Data Object.<br /><blockquote>[!Note]<br />Timecode index objects are not currently supported.</blockquote><br /><br /> | 
+| Frame-based Index | Provides frame-based indexing for video streams. Indexes into the frame-based index are in terms of frame numbers, with the first frame for a stream in the ASF file corresponding to entry 0 in the frame-based index object. Each index block references index entries that contain a byte offset.<br /><blockquote>[!Note]<br />Frame-based index objects are not currently supported.</blockquote><br /><br /> | 
+
 
 
 

@@ -192,35 +192,11 @@ HRESULT Player::LoadMediaFile(PCWSTR pwszFile)
 
 <span codelanguage="ManagedCPlusPlus"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>C++</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>            if (FAILED(hr))
-            {
-                goto done;
-            }
-            hr = RenderOutputPins(pGraph, m_pReader);
-    }
-    else
-    {
-        // Not a Windows Media file, so just render the standard way.
-        hr = pGraph->RenderFile(pwszFile, NULL);
-    }
 
-done:
-    return hr;
-}</code></pre></td>
-</tr>
-</tbody>
-</table>
+| C++ | 
+|-----|
+| <pre><code>            if (FAILED(hr))            {                goto done;            }            hr = RenderOutputPins(pGraph, m_pReader);    }    else    {        // Not a Windows Media file, so just render the standard way.        hr = pGraph-&gt;RenderFile(pwszFile, NULL);    }done:    return hr;}</code></pre> | 
+
 
 
 

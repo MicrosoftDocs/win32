@@ -38,43 +38,13 @@ The following table lists the elements that may be parents of this element, the 
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Category</th>
-<th>Details</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Parent elements<br/></td>
-<td>PrintCapabilities <br/> PrintTicket <br/> Feature<br/></td>
-</tr>
-<tr class="even">
-<td>Child elements<br/></td>
-<td>One of the following groups:<br/>
-<ul>
-<li><em>Feature</em> (zero or more)<br/></li>
-<li><em>Option</em> (one or more)<br/></li>
-<li><em>Property</em> (zero or more)<br/></li>
-</ul>
-or <br/>
-<ul>
-<li><em>Feature</em> (one or more)<br/></li>
-<li><em>Option</em> (zero or more)<br/></li>
-<li><em>Property</em> (zero or more)<br/></li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>This element<br/></td>
-<td>No character data is permitted.<br/> Duplicate child Option elements that are siblings are permitted. Duplicate name attribute shortcuts permitted. <br/></td>
-</tr>
-</tbody>
-</table>
+
+| Category | Details | 
+|----------|---------|
+| Parent elements<br /> | PrintCapabilities <br /> PrintTicket <br /> Feature<br /> | 
+| Child elements<br /> | One of the following groups:<br /><ul><li><em>Feature</em> (zero or more)<br /></li><li><em>Option</em> (one or more)<br /></li><li><em>Property</em> (zero or more)<br /></li></ul>or <br /><ul><li><em>Feature</em> (one or more)<br /></li><li><em>Option</em> (zero or more)<br /></li><li><em>Property</em> (zero or more)<br /></li></ul> | 
+| This element<br /> | No character data is permitted.<br /> Duplicate child Option elements that are siblings are permitted. Duplicate name attribute shortcuts permitted. <br /> | 
+
 
 
 

@@ -45,40 +45,13 @@ For more user information about Remote Desktop connection, See [Remote Desktop C
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Shortcut key</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>CTRL+ALT+HOME<br/></td>
-<td>Activates the <strong>connection</strong> bar.<br/></td>
-</tr>
-<tr class="even">
-<td>CTRL+ALT+BREAK or one of these shortcuts:<br/>
-<ul>
-<li>CTRL+ALT+PAUSE<br/></li>
-<li>CTRL+ALT+PRTSCN<br/></li>
-<li>CTRL+ALT+FN+SCRLK<br/></li>
-</ul></td>
-<td>Switches the client between full-screen mode and window mode.<br/> If these shortcuts don't work, or the keys aren't available, you can try the following alternative:<br/>
-<ul>
-<li>Press CTRL+ALT+HOME, TAB, TAB, TAB, TAB, TAB, ENTER. This activates the <strong>connection</strong> bar, and then presses the <strong>Restore down</strong> button.<br/></li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>CTRL+ALT+END<br/></td>
-<td>Brings up the <strong>Windows Security</strong> dialog box for the Remote Desktop Session Host (RD Session Host) (provides the same functionality as pressing CTRL+ALT+DEL on the local computer).<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Shortcut key | Description | 
+|--------------|-------------|
+| CTRL+ALT+HOME<br /> | Activates the <strong>connection</strong> bar.<br /> | 
+| CTRL+ALT+BREAK or one of these shortcuts:<br /><ul><li>CTRL+ALT+PAUSE<br /></li><li>CTRL+ALT+PRTSCN<br /></li><li>CTRL+ALT+FN+SCRLK<br /></li></ul> | Switches the client between full-screen mode and window mode.<br /> If these shortcuts don't work, or the keys aren't available, you can try the following alternative:<br /><ul><li>Press CTRL+ALT+HOME, TAB, TAB, TAB, TAB, TAB, ENTER. This activates the <strong>connection</strong> bar, and then presses the <strong>Restore down</strong> button.<br /></li></ul> | 
+| CTRL+ALT+END<br /> | Brings up the <strong>Windows Security</strong> dialog box for the Remote Desktop Session Host (RD Session Host) (provides the same functionality as pressing CTRL+ALT+DEL on the local computer).<br /> | 
+
 
 
 

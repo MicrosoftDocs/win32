@@ -13,41 +13,12 @@ Every object in Active Directory Domain Services has two attributes whose values
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Attribute</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>structuralObjectClass</strong></td>
-<td>Identifies the structural and abstract classes of which the object is an instance. For example, the values for a user object can be:
-<ul>
-<li><strong>top</strong></li>
-<li><strong>person</strong></li>
-<li><strong>organizationalPerson</strong></li>
-<li><strong>user</strong></li>
-</ul></td>
-</tr>
-<tr class="even">
-<td><strong>objectClass</strong></td>
-<td>Identifies the classes included in <strong>structuralObjectClass</strong>, plus any auxiliary classes that are dynamically attached. For example, if a &quot;vehicle&quot; auxiliary class is attached to a user object, the values can be:
-<ul>
-<li><strong>top</strong></li>
-<li><strong>vehicle</strong></li>
-<li><strong>person</strong></li>
-<li><strong>organizationalPerson</strong></li>
-<li><strong>user</strong></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| Attribute | Description | 
+|-----------|-------------|
+| <strong>structuralObjectClass</strong> | Identifies the structural and abstract classes of which the object is an instance. For example, the values for a user object can be:<ul><li><strong>top</strong></li><li><strong>person</strong></li><li><strong>organizationalPerson</strong></li><li><strong>user</strong></li></ul> | 
+| <strong>objectClass</strong> | Identifies the classes included in <strong>structuralObjectClass</strong>, plus any auxiliary classes that are dynamically attached. For example, if a "vehicle" auxiliary class is attached to a user object, the values can be:<ul><li><strong>top</strong></li><li><strong>vehicle</strong></li><li><strong>person</strong></li><li><strong>organizationalPerson</strong></li><li><strong>user</strong></li></ul> | 
+
 
 
 

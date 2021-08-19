@@ -14,59 +14,20 @@ Video capture or authoring applications can use this filter to save files to dis
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>Filter Interfaces</td>
-<td><a href="/windows/desktop/api/Strmif/nn-strmif-ibasefilter"><strong>IBaseFilter</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-iconfigavimux"><strong>IConfigAviMux</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-iconfiginterleaving"><strong>IConfigInterleaving</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-imediaseeking"><strong>IMediaSeeking</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-ipersistmediapropertybag"><strong>IPersistMediaPropertyBag</strong></a>, ISpecifyPropertyPages</td>
-</tr>
-<tr class="even">
-<td>Input Pin Media Types</td>
-<td>Any major type that corresponds to an old-style FOURCC, or MEDIATYPE_AUXLine21Data. (For more information, see <a href="fourccmap.md"><strong>FOURCCMap Class</strong></a>.)
-<ul>
-<li>If the major type is MEDIATYPE_Audio, the format must be FORMAT_WaveFormatEx.</li>
-<li>If the major type is MEDIATYPE_Video, the format must be FORMAT_VideoInfo or FORMAT_DvInfo.</li>
-<li>If the major type is MEDIATYPE_Interleaved, the format must be FORMAT_DvInfo.</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>Input Pin Interfaces</td>
-<td><a href="/windows/desktop/api/Strmif/nn-strmif-iamstreamcontrol"><strong>IAMStreamControl</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-imeminputpin"><strong>IMemInputPin</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-ipin"><strong>IPin</strong></a>, IPropertyBag, <a href="/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol"><strong>IQualityControl</strong></a></td>
-</tr>
-<tr class="even">
-<td>Output Pin Media Types</td>
-<td>MEDIATYPE_Stream, MEDIASUBTYPE_Avi</td>
-</tr>
-<tr class="odd">
-<td>Output Pin Interfaces</td>
-<td><a href="/windows/desktop/api/Strmif/nn-strmif-ipin"><strong>IPin</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol"><strong>IQualityControl</strong></a></td>
-</tr>
-<tr class="even">
-<td>Filter CLSID</td>
-<td>CLSID_AviDest</td>
-</tr>
-<tr class="odd">
-<td>Property Page CLSID</td>
-<td>CLSID_AviMuxProptyPage, CLSID_AviMuxProptyPage1</td>
-</tr>
-<tr class="even">
-<td>Executable</td>
-<td>qcap.dll</td>
-</tr>
-<tr class="odd">
-<td><a href="merit.md">Merit</a></td>
-<td>MERIT_DO_NOT_USE</td>
-</tr>
-<tr class="even">
-<td><a href="filter-categories.md">Filter Category</a></td>
-<td>CLSID_LegacyAmFilterCategory</td>
-</tr>
-</tbody>
-</table>
+
+| 
+|
+| Filter Interfaces | <a href="/windows/desktop/api/Strmif/nn-strmif-ibasefilter"><strong>IBaseFilter</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-iconfigavimux"><strong>IConfigAviMux</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-iconfiginterleaving"><strong>IConfigInterleaving</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-imediaseeking"><strong>IMediaSeeking</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-ipersistmediapropertybag"><strong>IPersistMediaPropertyBag</strong></a>, ISpecifyPropertyPages | 
+| Input Pin Media Types | Any major type that corresponds to an old-style FOURCC, or MEDIATYPE_AUXLine21Data. (For more information, see <a href="fourccmap.md"><strong>FOURCCMap Class</strong></a>.)<ul><li>If the major type is MEDIATYPE_Audio, the format must be FORMAT_WaveFormatEx.</li><li>If the major type is MEDIATYPE_Video, the format must be FORMAT_VideoInfo or FORMAT_DvInfo.</li><li>If the major type is MEDIATYPE_Interleaved, the format must be FORMAT_DvInfo.</li></ul> | 
+| Input Pin Interfaces | <a href="/windows/desktop/api/Strmif/nn-strmif-iamstreamcontrol"><strong>IAMStreamControl</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-imeminputpin"><strong>IMemInputPin</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-ipin"><strong>IPin</strong></a>, IPropertyBag, <a href="/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol"><strong>IQualityControl</strong></a> | 
+| Output Pin Media Types | MEDIATYPE_Stream, MEDIASUBTYPE_Avi | 
+| Output Pin Interfaces | <a href="/windows/desktop/api/Strmif/nn-strmif-ipin"><strong>IPin</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol"><strong>IQualityControl</strong></a> | 
+| Filter CLSID | CLSID_AviDest | 
+| Property Page CLSID | CLSID_AviMuxProptyPage, CLSID_AviMuxProptyPage1 | 
+| Executable | qcap.dll | 
+| <a href="merit.md">Merit</a> | MERIT_DO_NOT_USE | 
+| <a href="filter-categories.md">Filter Category</a> | CLSID_LegacyAmFilterCategory | 
+
 
 
 

@@ -452,42 +452,16 @@ For more information and examples, see [Icons](vis-icons.md).
 
 -   **Choose the commit buttons based on the design pattern:**
 
-    <table>
-    <colgroup>
-    <col style="width: 50%" />
-    <col style="width: 50%" />
-    </colgroup>
-    <tbody>
-    <tr class="odd">
-    <td><strong>Pattern</strong><br/></td>
-    <td><strong>Commit buttons</strong><br/></td>
-    </tr>
-    <tr class="even">
-    <td><strong>Question dialogs (using buttons)</strong><br/></td>
-    <td>One of the following sets of concise commands: Yes/No, Yes/No/Cancel, [Do it]/Cancel, [Do it]/[Don't do it], [Do it]/[Don't do it]/Cancel.<br/></td>
-    </tr>
-    <tr class="odd">
-    <td><strong>Question dialogs (using links)</strong><br/></td>
-    <td>Cancel.<br/></td>
-    </tr>
-    <tr class="even">
-    <td><strong>Choice dialogs</strong><br/></td>
-    <td><ul>
-    <li>Modal dialogs: OK/Cancel or [Do it]/Cancel</li>
-    <li>Modeless dialogs: Close button on dialog box and title bar</li>
-    <li>Task pane: Close button on title bar</li>
-    </ul></td>
-    </tr>
-    <tr class="odd">
-    <td><strong>Progress dialogs</strong><br/></td>
-    <td>Use Cancel if returns the environment to its previous state (leaving no side effect); otherwise, use Stop.<br/></td>
-    </tr>
-    <tr class="even">
-    <td><strong>Informational dialogs</strong><br/></td>
-    <td>Close.<br/></td>
-    </tr>
-    </tbody>
-    </table>
+    
+| 
+|
+| <strong>Pattern</strong><br /> | <strong>Commit buttons</strong><br /> | 
+| <strong>Question dialogs (using buttons)</strong><br /> | One of the following sets of concise commands: Yes/No, Yes/No/Cancel, [Do it]/Cancel, [Do it]/[Don't do it], [Do it]/[Don't do it]/Cancel.<br /> | 
+| <strong>Question dialogs (using links)</strong><br /> | Cancel.<br /> | 
+| <strong>Choice dialogs</strong><br /> | <ul><li>Modal dialogs: OK/Cancel or [Do it]/Cancel</li><li>Modeless dialogs: Close button on dialog box and title bar</li><li>Task pane: Close button on title bar</li></ul> | 
+| <strong>Progress dialogs</strong><br /> | Use Cancel if returns the environment to its previous state (leaving no side effect); otherwise, use Stop.<br /> | 
+| <strong>Informational dialogs</strong><br /> | Close.<br /> | 
+
 
     
 

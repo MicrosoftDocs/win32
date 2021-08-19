@@ -101,66 +101,19 @@ The **Msvm\_VirtualSystemSnapshotService** class has these methods.
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;">Method</th>
-<th style="text-align: left;">Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;"><a href="applysnapshot-msvm-virtualsystemsnapshotservice.md"><strong>ApplySnapshot</strong></a></td>
-<td style="text-align: left;">Applies a virtual machine snapshot to the virtual machine that it was created from.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="clearsnapshotstate-msvm-virtualsystemsnapshotservice.md"><strong>ClearSnapshotState</strong></a></td>
-<td style="text-align: left;">Clears save state from an existing snapshot.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="msvm-virtualsystemsnapshotservice-converttoreferencepoint.md"><strong>ConvertToReferencePoint</strong></a></td>
-<td style="text-align: left;">Convert an existing virtual system snapshot to a reference point. The snapshot gets deleted as a side effect. Only recovery snapshots can be converted to reference points.<br/>
-<blockquote>
-[!Note]<br />
-Support for this method was added in Windows 10.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="createsnapshot-msvm-virtualsystemsnapshotservice.md"><strong>CreateSnapshot</strong></a></td>
-<td style="text-align: left;">Creates a snapshot of a virtual machine.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="destroysnapshot-msvm-virtualsystemsnapshotservice.md"><strong>DestroySnapshot</strong></a></td>
-<td style="text-align: left;">Destroy an existing virtual machine snapshot. This method may, as a side effect, destroy other snapshots that are dependent on the affected snapshot.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="destroysnapshottree-msvm-virtualsystemsnapshotservice.md"><strong>DestroySnapshotTree</strong></a></td>
-<td style="text-align: left;">Removes an existing snapshot, and all its children, of a virtual machine.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="msvm-virtualsystemsnapshotservice-requeststatechange.md"><strong>RequestStateChange</strong></a></td>
-<td style="text-align: left;">Requests a state change for the element.<br/>
-<blockquote>
-[!Note]<br />
-Support for this method was added in Windows 10.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><strong>StartService</strong></td>
-<td style="text-align: left;">This method is not supported.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><strong>StopService</strong></td>
-<td style="text-align: left;">This method is not supported.<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Method | Description | 
+|--------|-------------|
+| <a href="applysnapshot-msvm-virtualsystemsnapshotservice.md"><strong>ApplySnapshot</strong></a> | Applies a virtual machine snapshot to the virtual machine that it was created from.<br /> | 
+| <a href="clearsnapshotstate-msvm-virtualsystemsnapshotservice.md"><strong>ClearSnapshotState</strong></a> | Clears save state from an existing snapshot.<br /> | 
+| <a href="msvm-virtualsystemsnapshotservice-converttoreferencepoint.md"><strong>ConvertToReferencePoint</strong></a> | Convert an existing virtual system snapshot to a reference point. The snapshot gets deleted as a side effect. Only recovery snapshots can be converted to reference points.<br /><blockquote>[!Note]<br />Support for this method was added in Windows 10.</blockquote><br /> | 
+| <a href="createsnapshot-msvm-virtualsystemsnapshotservice.md"><strong>CreateSnapshot</strong></a> | Creates a snapshot of a virtual machine.<br /> | 
+| <a href="destroysnapshot-msvm-virtualsystemsnapshotservice.md"><strong>DestroySnapshot</strong></a> | Destroy an existing virtual machine snapshot. This method may, as a side effect, destroy other snapshots that are dependent on the affected snapshot.<br /> | 
+| <a href="destroysnapshottree-msvm-virtualsystemsnapshotservice.md"><strong>DestroySnapshotTree</strong></a> | Removes an existing snapshot, and all its children, of a virtual machine.<br /> | 
+| <a href="msvm-virtualsystemsnapshotservice-requeststatechange.md"><strong>RequestStateChange</strong></a> | Requests a state change for the element.<br /><blockquote>[!Note]<br />Support for this method was added in Windows 10.</blockquote><br /> | 
+| <strong>StartService</strong> | This method is not supported.<br /> | 
+| <strong>StopService</strong> | This method is not supported.<br /> | 
+
 
 
 

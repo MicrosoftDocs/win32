@@ -18,77 +18,21 @@ MFTrace uses the Detours library to hook into Media Foundation API calls and gen
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Command-line arguments</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><span id="-a_Process_ID_or_Process_Name"></span><span id="-a_process_id_or_process_name"></span><span id="-A_PROCESS_ID_OR_PROCESS_NAME"></span><strong>-a</strong> <strong></strong> <em>Process ID or Process Name</em><br/></td>
-<td>Attach to a running process.<br/></td>
-</tr>
-<tr class="even">
-<td><span id="-c_Configuration_File"></span><span id="-c_configuration_file"></span><span id="-C_CONFIGURATION_FILE"></span><strong>-c</strong> <strong></strong> <em>Configuration File</em><br/></td>
-<td>Read settings from the specified configuration file. See <a href="mftrace-configuration-file.md">MFTrace Configuration File</a>.<br/></td>
-</tr>
-<tr class="odd">
-<td><span id="-dc"></span><span id="-DC"></span><strong>-dc</strong><br/></td>
-<td>Disable tracing for child processes. By default, tracing is enabled for child processes.<br/></td>
-</tr>
-<tr class="even">
-<td><span id="-es"></span><span id="-ES"></span><strong>-es</strong><br/></td>
-<td>Enable public symbols.<br/></td>
-</tr>
-<tr class="odd">
-<td><span id="-k_Keywords"></span><span id="-k_keywords"></span><span id="-K_KEYWORDS"></span><strong>-k</strong> <strong></strong> <em>Keywords</em><br/></td>
-<td>A comma-separated list of keywords. See <a href="mftrace-keywords.md">MFTrace Keywords</a>.<br/></td>
-</tr>
-<tr class="even">
-<td><span id="-l_Level"></span><span id="-l_level"></span><span id="-L_LEVEL"></span><strong>-l</strong> <strong></strong> <em>Level</em><br/></td>
-<td>The trace level.<br/>
-<ul>
-<li>0: None</li>
-<li>1: Critical</li>
-<li>2: Error</li>
-<li>3: Warning</li>
-<li>4: Informative</li>
-<li>5: Verbose</li>
-<li>16: Debug</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td><span id="-o_Output_File"></span><span id="-o_output_file"></span><span id="-O_OUTPUT_FILE"></span><strong>-o</strong> <strong></strong> <em>Output File</em><br/></td>
-<td>Write the trace output to the specified file. By default, output goes to <strong>stdout</strong>.<br/> If an output file is specified, the file name extension must be one of the following:<br/>
-<ul>
-<li>.etl: Event trace log (ETL) file.</li>
-<li>.log or .txt: Text file.</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td><span id="-v"></span><span id="-V"></span><strong>-v</strong><br/></td>
-<td>Enable verbose mode.<br/></td>
-</tr>
-<tr class="odd">
-<td><span id="-_"></span><strong>-?</strong><br/></td>
-<td>Display usage information.<br/></td>
-</tr>
-<tr class="even">
-<td><span id="COMMAND"></span><span id="command"></span><em>COMMAND</em><br/></td>
-<td>Command-line arguments to create a new process.<br/></td>
-</tr>
-<tr class="odd">
-<td><span id="ETL_FILE"></span><span id="etl_file"></span><em>ETL_FILE</em><br/></td>
-<td>The name of an existing ETL file. If this argument is provided, the ETL file is converted to text output.<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Command-line arguments | Description | 
+|------------------------|-------------|
+| <span id="-a_Process_ID_or_Process_Name"></span><span id="-a_process_id_or_process_name"></span><span id="-A_PROCESS_ID_OR_PROCESS_NAME"></span><strong>-a</strong><strong></strong><em>Process ID or Process Name</em><br /> | Attach to a running process.<br /> | 
+| <span id="-c_Configuration_File"></span><span id="-c_configuration_file"></span><span id="-C_CONFIGURATION_FILE"></span><strong>-c</strong><strong></strong><em>Configuration File</em><br /> | Read settings from the specified configuration file. See <a href="mftrace-configuration-file.md">MFTrace Configuration File</a>.<br /> | 
+| <span id="-dc"></span><span id="-DC"></span><strong>-dc</strong><br /> | Disable tracing for child processes. By default, tracing is enabled for child processes.<br /> | 
+| <span id="-es"></span><span id="-ES"></span><strong>-es</strong><br /> | Enable public symbols.<br /> | 
+| <span id="-k_Keywords"></span><span id="-k_keywords"></span><span id="-K_KEYWORDS"></span><strong>-k</strong><strong></strong><em>Keywords</em><br /> | A comma-separated list of keywords. See <a href="mftrace-keywords.md">MFTrace Keywords</a>.<br /> | 
+| <span id="-l_Level"></span><span id="-l_level"></span><span id="-L_LEVEL"></span><strong>-l</strong><strong></strong><em>Level</em><br /> | The trace level.<br /><ul><li>0: None</li><li>1: Critical</li><li>2: Error</li><li>3: Warning</li><li>4: Informative</li><li>5: Verbose</li><li>16: Debug</li></ul> | 
+| <span id="-o_Output_File"></span><span id="-o_output_file"></span><span id="-O_OUTPUT_FILE"></span><strong>-o</strong><strong></strong><em>Output File</em><br /> | Write the trace output to the specified file. By default, output goes to <strong>stdout</strong>.<br /> If an output file is specified, the file name extension must be one of the following:<br /><ul><li>.etl: Event trace log (ETL) file.</li><li>.log or .txt: Text file.</li></ul> | 
+| <span id="-v"></span><span id="-V"></span><strong>-v</strong><br /> | Enable verbose mode.<br /> | 
+| <span id="-_"></span><strong>-?</strong><br /> | Display usage information.<br /> | 
+| <span id="COMMAND"></span><span id="command"></span><em>COMMAND</em><br /> | Command-line arguments to create a new process.<br /> | 
+| <span id="ETL_FILE"></span><span id="etl_file"></span><em>ETL_FILE</em><br /> | The name of an existing ETL file. If this argument is provided, the ETL file is converted to text output.<br /> | 
+
 
 
 
@@ -178,97 +122,28 @@ You can use MFTrace to answer questions about what happens inside your Media Fou
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Question</th>
-<th>Search strings</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Did an error occur?</td>
-<td>&quot;0xc00d&quot;</td>
-</tr>
-<tr class="even">
-<td>Did the topology resolve correctly?</td>
-<td>&quot;CTopologyHelpers::Trace&quot;</td>
-</tr>
-<tr class="odd">
-<td>Did the Media Session start?</td>
-<td>&quot;MESessionStarted&quot;</td>
-</tr>
-<tr class="even">
-<td>Which file was played?</td>
-<td>&quot;CMFSourceResolverDetours&quot;</td>
-</tr>
-<tr class="odd">
-<td>What are the media types for the source streams?</td>
-<td>&quot;New stream&quot;, &quot;MENewStream&quot;, &quot;CMFMediaSourceDetours::TracePD&quot;</td>
-</tr>
-<tr class="even">
-<td>Did the source streams generate samples?</td>
-<td>&quot;CMFMediaStreamDetours::HandleEvent&quot;, &quot;MEMediaSample&quot;</td>
-</tr>
-<tr class="odd">
-<td>Did playback reach the end of the data?</td>
-<td>&quot;MEEndOfStream&quot;, &quot;MEEndOfPresentation&quot;</td>
-</tr>
-<tr class="even">
-<td>Did the format change?</td>
-<td>&quot;MEStreamFormatChanged&quot; (media sources), &quot;New format&quot;, &quot;MESessionStreamSinkFormatChanged&quot; (media sinks)</td>
-</tr>
-<tr class="odd">
-<td>What objects were created?</td>
-<td>&quot;COle32ExportDetours::CoCreateInstance&quot;</td>
-</tr>
-<tr class="even">
-<td>Did the Media Foundation Transforms (MFTs) in the pipeline process any data?</td>
-<td>&quot;CMFTransformDetours::ProcessOutput&quot;, &quot;CMFTransformDetours::ProcessInput&quot;</td>
-</tr>
-<tr class="odd">
-<td>What states were set on the MFTs?</td>
-<td>&quot;CMFTransformDetours::ProcessMessage&quot;</td>
-</tr>
-<tr class="even">
-<td>Did an MFT request input data?</td>
-<td>&quot;MF_E_TRANSFORM_NEED_MORE_INPUT&quot; (synchronous MFT), &quot;METransformNeedInput&quot; (asynchronous MFT).</td>
-</tr>
-<tr class="odd">
-<td>Did an asynchronous MFT produce output data?</td>
-<td>&quot;ProcessOutputs available&quot;</td>
-</tr>
-<tr class="even">
-<td>Did a media sink request samples?</td>
-<td>&quot;MEStreamSinkRequestSample&quot;</td>
-</tr>
-<tr class="odd">
-<td>Did a media sink receive samples?</td>
-<td>&quot;CMFStreamSinkDetours::ProcessSample&quot;</td>
-</tr>
-<tr class="even">
-<td>DirectShow: Which samples were processed?</td>
-<td>&quot;sample&quot;, &quot;CMemInputPinDetours&quot;</td>
-</tr>
-<tr class="odd">
-<td>DirectShow: What filter graph was used?</td>
-<td>&quot;CGraphHelpers::Trace&quot;</td>
-</tr>
-<tr class="even">
-<td>Were there multiple processes?</td>
-<td>&quot;CreateProcess&quot;
-<blockquote>
-[!Note]<br />
-Also look for the process identifier, which appears at the start of every trace line.
-</blockquote>
-<br/> <br/></td>
-</tr>
-</tbody>
-</table>
+
+| Question | Search strings | 
+|----------|----------------|
+| Did an error occur? | "0xc00d" | 
+| Did the topology resolve correctly? | "CTopologyHelpers::Trace" | 
+| Did the Media Session start? | "MESessionStarted" | 
+| Which file was played? | "CMFSourceResolverDetours" | 
+| What are the media types for the source streams? | "New stream", "MENewStream", "CMFMediaSourceDetours::TracePD" | 
+| Did the source streams generate samples? | "CMFMediaStreamDetours::HandleEvent", "MEMediaSample" | 
+| Did playback reach the end of the data? | "MEEndOfStream", "MEEndOfPresentation" | 
+| Did the format change? | "MEStreamFormatChanged" (media sources), "New format", "MESessionStreamSinkFormatChanged" (media sinks) | 
+| What objects were created? | "COle32ExportDetours::CoCreateInstance" | 
+| Did the Media Foundation Transforms (MFTs) in the pipeline process any data? | "CMFTransformDetours::ProcessOutput", "CMFTransformDetours::ProcessInput" | 
+| What states were set on the MFTs? | "CMFTransformDetours::ProcessMessage" | 
+| Did an MFT request input data? | "MF_E_TRANSFORM_NEED_MORE_INPUT" (synchronous MFT), "METransformNeedInput" (asynchronous MFT). | 
+| Did an asynchronous MFT produce output data? | "ProcessOutputs available" | 
+| Did a media sink request samples? | "MEStreamSinkRequestSample" | 
+| Did a media sink receive samples? | "CMFStreamSinkDetours::ProcessSample" | 
+| DirectShow: Which samples were processed? | "sample", "CMemInputPinDetours" | 
+| DirectShow: What filter graph was used? | "CGraphHelpers::Trace" | 
+| Were there multiple processes? | "CreateProcess"<blockquote>[!Note]<br />Also look for the process identifier, which appears at the start of every trace line.</blockquote><br /><br /> | 
+
 
 
 

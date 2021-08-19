@@ -87,96 +87,33 @@ Specifies which type of information to retrieve for the specified object. It aff
 
 The following options are available to set for this parameter.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Value</p></th>
-<th><p>Meaning</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_ObjInfo</p></td>
-<td><p><em>pvResult</em> is interpreted as a <a href="gg269353(v=exchg.10).md">JET_OBJECTINFO</a> structure.</p>
-<p>The <a href="gg269353(v=exchg.10).md">JET_OBJECTINFO</a> structure is populated with information pertaining to the object that is named in <em>szObjectName</em>.</p>
-<p>If the caller does not want to know the number of records and pages for the object, consider using JET_ObjInfoNoStats information level, which might be faster since statistics are not included.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_ObjInfoList</p></td>
-<td><p><em>pvResult</em> is interpreted as a <a href="gg269348(v=exchg.10).md">JET_OBJECTLIST</a> structure. Information about all objects is retrieved. A temporary table will be created, and the information that is necessary to traverse the temporary table is described in the <a href="gg269348(v=exchg.10).md">JET_OBJECTLIST</a> structure. For more information, see <a href="gg269348(v=exchg.10).md">JET_OBJECTLIST</a>. If the caller does not want to know the number of records and pages for the object, consider using JET_ObjInfoListNoStats, which might be faster.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_ObjInfoListACM</p></td>
-<td><p>Deprecated and not currently supported.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_ObjInfoListNoStats</p></td>
-<td><p><em>pvResult</em> is interpreted as a <a href="gg269348(v=exchg.10).md">JET_OBJECTLIST</a> structure. Information about all objects is retrieved. A temporary table will be created, and the information that is necessary to traverse the temporary table is described in the <a href="gg269348(v=exchg.10).md">JET_OBJECTLIST</a> structure. For more information, see <a href="gg269348(v=exchg.10).md">JET_OBJECTLIST</a>. JET_ObjInfoListNoStats is identical to JET_ObjInfoList, except that the columns that report the number of records (<em>columnidcRecord</em>) and pages (<em>columnidcPage</em>) will not be updated.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_ObjInfoMax</p></td>
-<td><p><em>pvResult</em> is interpreted as a <a href="gg269353(v=exchg.10).md">JET_OBJECTINFO</a>. The maximum size of the object is in pages. Currently only tables will be returned.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_ObjInfoNoStats</p></td>
-<td><p><em>pvResult</em> is interpreted as a <a href="gg269353(v=exchg.10).md">JET_OBJECTINFO</a>. Information about only the object given in <em>szObjectName</em> will be retrieved.</p>
-<p>The <a href="gg269353(v=exchg.10).md">JET_OBJECTINFO</a> structure will be populated with information pertaining to the object that is named in <em>szObjectName</em>.</p>
-<p>JET_ObjInfoNoStats is identical to JET_ObjInfo, except that the fields that report the number of records and pages are set to zero.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_ObjInfoRulesLoaded</p></td>
-<td><p>Deprecated and not currently supported.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_ObjInfoSysTabCursor</p></td>
-<td><p>Deprecated and not currently supported.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_ObjInfoSysTabReadOnly</p></td>
-<td><p>Deprecated and not currently supported.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Value</p> | <p>Meaning</p> | 
+|--------------|----------------|
+| <p>JET_ObjInfo</p> | <p><em>pvResult</em> is interpreted as a <a href="gg269353(v=exchg.10).md">JET_OBJECTINFO</a> structure.</p><p>The <a href="gg269353(v=exchg.10).md">JET_OBJECTINFO</a> structure is populated with information pertaining to the object that is named in <em>szObjectName</em>.</p><p>If the caller does not want to know the number of records and pages for the object, consider using JET_ObjInfoNoStats information level, which might be faster since statistics are not included.</p> | 
+| <p>JET_ObjInfoList</p> | <p><em>pvResult</em> is interpreted as a <a href="gg269348(v=exchg.10).md">JET_OBJECTLIST</a> structure. Information about all objects is retrieved. A temporary table will be created, and the information that is necessary to traverse the temporary table is described in the <a href="gg269348(v=exchg.10).md">JET_OBJECTLIST</a> structure. For more information, see <a href="gg269348(v=exchg.10).md">JET_OBJECTLIST</a>. If the caller does not want to know the number of records and pages for the object, consider using JET_ObjInfoListNoStats, which might be faster.</p> | 
+| <p>JET_ObjInfoListACM</p> | <p>Deprecated and not currently supported.</p> | 
+| <p>JET_ObjInfoListNoStats</p> | <p><em>pvResult</em> is interpreted as a <a href="gg269348(v=exchg.10).md">JET_OBJECTLIST</a> structure. Information about all objects is retrieved. A temporary table will be created, and the information that is necessary to traverse the temporary table is described in the <a href="gg269348(v=exchg.10).md">JET_OBJECTLIST</a> structure. For more information, see <a href="gg269348(v=exchg.10).md">JET_OBJECTLIST</a>. JET_ObjInfoListNoStats is identical to JET_ObjInfoList, except that the columns that report the number of records (<em>columnidcRecord</em>) and pages (<em>columnidcPage</em>) will not be updated.</p> | 
+| <p>JET_ObjInfoMax</p> | <p><em>pvResult</em> is interpreted as a <a href="gg269353(v=exchg.10).md">JET_OBJECTINFO</a>. The maximum size of the object is in pages. Currently only tables will be returned.</p> | 
+| <p>JET_ObjInfoNoStats</p> | <p><em>pvResult</em> is interpreted as a <a href="gg269353(v=exchg.10).md">JET_OBJECTINFO</a>. Information about only the object given in <em>szObjectName</em> will be retrieved.</p><p>The <a href="gg269353(v=exchg.10).md">JET_OBJECTINFO</a> structure will be populated with information pertaining to the object that is named in <em>szObjectName</em>.</p><p>JET_ObjInfoNoStats is identical to JET_ObjInfo, except that the fields that report the number of records and pages are set to zero.</p> | 
+| <p>JET_ObjInfoRulesLoaded</p> | <p>Deprecated and not currently supported.</p> | 
+| <p>JET_ObjInfoSysTabCursor</p> | <p>Deprecated and not currently supported.</p> | 
+| <p>JET_ObjInfoSysTabReadOnly</p> | <p>Deprecated and not currently supported.</p> | 
+
 
 
 ### Return Value
 
 This function returns the [JET_ERR](./jet-err.md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](./extensible-storage-engine-errors.md) and [Error Handling Parameters](./error-handling-parameters.md).
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Return code</p></th>
-<th><p>Description</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_errSuccess</p></td>
-<td><p>The operation completed successfully.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errBufferTooSmall</p></td>
-<td><p>The size of the buffer given in <em>cbMax</em> was too small to hold the desired information.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errInvalidName</p></td>
-<td><p>An invalid name was given in <em>szObjectName</em> or <em>szContainerName</em>.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errInvalidParameter</p></td>
-<td><p>A bad parameter was given. It is possible that a bad level was passed in to <em>InfoLevel</em>.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Return code</p> | <p>Description</p> | 
+|--------------------|--------------------|
+| <p>JET_errSuccess</p> | <p>The operation completed successfully.</p> | 
+| <p>JET_errBufferTooSmall</p> | <p>The size of the buffer given in <em>cbMax</em> was too small to hold the desired information.</p> | 
+| <p>JET_errInvalidName</p> | <p>An invalid name was given in <em>szObjectName</em> or <em>szContainerName</em>.</p> | 
+| <p>JET_errInvalidParameter</p> | <p>A bad parameter was given. It is possible that a bad level was passed in to <em>InfoLevel</em>.</p> | 
+
 
 
 #### Remarks
@@ -187,38 +124,16 @@ If **JetGetObjectInfo** successfully creates a temporary table (for example, JET
 
 #### Requirements
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Client</strong></p></td>
-<td><p>Requires Windows Vista, Windows XP, or Windows 2000 Professional.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Server</strong></p></td>
-<td><p>Requires Windows Server 2008, Windows Server 2003, or Windows 2000 Server.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>Header</strong></p></td>
-<td><p>Declared in Esent.h.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Library</strong></p></td>
-<td><p>Use ESENT.lib.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>DLL</strong></p></td>
-<td><p>Requires ESENT.dll.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Unicode</strong></p></td>
-<td><p>Implemented as <strong>JetGetObjectInfoW</strong> (Unicode) and <strong>JetGetObjectInfoA</strong> (ANSI).</p></td>
-</tr>
-</tbody>
-</table>
+
+| 
+|
+| <p><strong>Client</strong></p> | <p>Requires Windows Vista, Windows XP, or Windows 2000 Professional.</p> | 
+| <p><strong>Server</strong></p> | <p>Requires Windows Server 2008, Windows Server 2003, or Windows 2000 Server.</p> | 
+| <p><strong>Header</strong></p> | <p>Declared in Esent.h.</p> | 
+| <p><strong>Library</strong></p> | <p>Use ESENT.lib.</p> | 
+| <p><strong>DLL</strong></p> | <p>Requires ESENT.dll.</p> | 
+| <p><strong>Unicode</strong></p> | <p>Implemented as <strong>JetGetObjectInfoW</strong> (Unicode) and <strong>JetGetObjectInfoA</strong> (ANSI).</p> | 
+
 
 
 #### See Also

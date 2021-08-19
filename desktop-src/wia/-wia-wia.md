@@ -68,32 +68,11 @@ The **Wia** object has these properties.
 
 
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;">Property</th>
-<th style="text-align: left;">Access type</th>
-<th style="text-align: left;">Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;"><a href="-wia-iwia-devices.md"><strong>Devices</strong></a><br/></td>
-<td style="text-align: left;">Read-only<br/></td>
-<td style="text-align: left;">Collection of <a href="-wia-deviceinfo.md"><strong>DeviceInfo</strong></a> objects that represents all of the devices installed on the computer. Read-only. <br/>
-<blockquote>
-[!Note]<br />
-This collection is 0-based.
-</blockquote>
-<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Property | Access type | Description | 
+|----------|-------------|-------------|
+| <a href="-wia-iwia-devices.md"><strong>Devices</strong></a><br /> | Read-only<br /> | Collection of <a href="-wia-deviceinfo.md"><strong>DeviceInfo</strong></a> objects that represents all of the devices installed on the computer. Read-only. <br /><blockquote>[!Note]<br />This collection is 0-based.</blockquote><br /> | 
+
 
 
 

@@ -88,80 +88,19 @@ The [**RealTimeStylus**](realtimestylus-class.md) object receives data about sys
 
 
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><a href="/previous-versions/ms827134(v=msdn.10)">SystemGesture</a></th>
-<th>Objects that precede the <a href="/previous-versions/ms824019(v=msdn.10)">SystemGestureData</a> object</th>
-<th>Objects that come after the <a href="/previous-versions/ms824019(v=msdn.10)">SystemGestureData</a> object</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>Tap</strong></td>
-<td>The <a href="/previous-versions/ms824107(v=msdn.10)">StylusDownData</a> object.<br/></td>
-<td>The [StylusUpData](/previous-versions/ms824057(v=msdn.10)) object.<br/></td>
-</tr>
-<tr class="even">
-<td><strong>DoubleTap</strong></td>
-<td>The <a href="/previous-versions/ms824107(v=msdn.10)">StylusDownData</a> object, the <a href="/previous-versions/ms824019(v=msdn.10)">SystemGestureData</a> object for the <strong>Tap</strong> system gesture and the [StylusUpData](/previous-versions/ms824057(v=msdn.10)) objects.<br/></td>
-<td>The second <a href="/previous-versions/ms824107(v=msdn.10)">StylusDownData</a> object.<br/></td>
-</tr>
-<tr class="odd">
-<td><strong>RightTap</strong></td>
-<td>The <a href="/previous-versions/ms824107(v=msdn.10)">StylusDownData</a> object and the <a href="/previous-versions/ms824019(v=msdn.10)">SystemGestureData</a> object for the <strong>HoldEnter</strong> member of the <a href="/previous-versions/ms827134(v=msdn.10)">SystemGesure</a> enumeration.<br/></td>
-<td>The [StylusUpData](/previous-versions/ms824057(v=msdn.10)) object.<br/></td>
-</tr>
-<tr class="even">
-<td><strong>Drag</strong></td>
-<td>The <a href="/previous-versions/ms824107(v=msdn.10)">StylusDownData</a> object.<br/></td>
-<td>The [StylusUpData](/previous-versions/ms824057(v=msdn.10)) object.<br/></td>
-</tr>
-<tr class="odd">
-<td><strong>RightDrag</strong></td>
-<td>The <a href="/previous-versions/ms824107(v=msdn.10)">StylusDownData</a> object.<br/></td>
-<td>The [StylusUpData](/previous-versions/ms824057(v=msdn.10)) object.<br/></td>
-</tr>
-<tr class="even">
-<td><strong>HoldEnter</strong></td>
-<td>The <a href="/previous-versions/ms824107(v=msdn.10)">StylusDownData</a> object.<br/></td>
-<td>The [StylusUpData](/previous-versions/ms824057(v=msdn.10)) object.<br/>
-<blockquote>
-[!Note]<br />
-This system gesture isn't recognized if the user begins a <strong>Drag</strong> or <strong>RightDrag</strong> system gesture.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="odd">
-<td><strong>HoldLeave</strong></td>
-<td>Not implemented.<br/></td>
-<td>Not implemented.<br/></td>
-</tr>
-<tr class="even">
-<td><strong>HoverEnter</strong></td>
-<td>Several <a href="/previous-versions/ms824592(v=msdn.10)">InAirPacketsData</a> objects of low average velocity.<br/></td>
-<td><blockquote>
-[!Note]<br />
-There may be noticeable delay before receiving the <strong>HoverEnter</strong> system gesture. The <a href="realtimestylus-class.md"><strong>RealTimeStylus</strong></a> object only receives this data if the <strong>RealTimeStylus</strong> object is attached to the window or control that is directly under the pen at the time of the system gesture.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="odd">
-<td><strong>HoverLeave</strong></td>
-<td>The <a href="/previous-versions/ms824019(v=msdn.10)">SystemGestureData</a> object for the <strong>HoverEnter</strong> system gesture and several <a href="/previous-versions/ms824592(v=msdn.10)">InAirPacketsData</a> objects of sufficient average velocity.<br/></td>
-<td><blockquote>
-[!Note]<br />
-There may be noticeable delay before receiving the <strong>HoverLeave</strong> system gesture. The <a href="realtimestylus-class.md"><strong>RealTimeStylus</strong></a> object only receives this data if the <strong>RealTimeStylus</strong> object is attached to the window or control that is directly under the pen at the time of the system gesture.
-</blockquote>
-<br/></td>
-</tr>
-</tbody>
-</table>
+
+| <a href="/previous-versions/ms827134(v=msdn.10)">SystemGesture</a> | Objects that precede the <a href="/previous-versions/ms824019(v=msdn.10)">SystemGestureData</a> object | Objects that come after the <a href="/previous-versions/ms824019(v=msdn.10)">SystemGestureData</a> object | 
+|--------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|
+| <strong>Tap</strong> | The <a href="/previous-versions/ms824107(v=msdn.10)">StylusDownData</a> object.<br /> | The [StylusUpData](/previous-versions/ms824057(v=msdn.10)) object.<br /> | 
+| <strong>DoubleTap</strong> | The <a href="/previous-versions/ms824107(v=msdn.10)">StylusDownData</a> object, the <a href="/previous-versions/ms824019(v=msdn.10)">SystemGestureData</a> object for the <strong>Tap</strong> system gesture and the [StylusUpData](/previous-versions/ms824057(v=msdn.10)) objects.<br /> | The second <a href="/previous-versions/ms824107(v=msdn.10)">StylusDownData</a> object.<br /> | 
+| <strong>RightTap</strong> | The <a href="/previous-versions/ms824107(v=msdn.10)">StylusDownData</a> object and the <a href="/previous-versions/ms824019(v=msdn.10)">SystemGestureData</a> object for the <strong>HoldEnter</strong> member of the <a href="/previous-versions/ms827134(v=msdn.10)">SystemGesure</a> enumeration.<br /> | The [StylusUpData](/previous-versions/ms824057(v=msdn.10)) object.<br /> | 
+| <strong>Drag</strong> | The <a href="/previous-versions/ms824107(v=msdn.10)">StylusDownData</a> object.<br /> | The [StylusUpData](/previous-versions/ms824057(v=msdn.10)) object.<br /> | 
+| <strong>RightDrag</strong> | The <a href="/previous-versions/ms824107(v=msdn.10)">StylusDownData</a> object.<br /> | The [StylusUpData](/previous-versions/ms824057(v=msdn.10)) object.<br /> | 
+| <strong>HoldEnter</strong> | The <a href="/previous-versions/ms824107(v=msdn.10)">StylusDownData</a> object.<br /> | The [StylusUpData](/previous-versions/ms824057(v=msdn.10)) object.<br /><blockquote>[!Note]<br />This system gesture isn't recognized if the user begins a <strong>Drag</strong> or <strong>RightDrag</strong> system gesture.</blockquote><br /> | 
+| <strong>HoldLeave</strong> | Not implemented.<br /> | Not implemented.<br /> | 
+| <strong>HoverEnter</strong> | Several <a href="/previous-versions/ms824592(v=msdn.10)">InAirPacketsData</a> objects of low average velocity.<br /> | <blockquote>[!Note]<br />There may be noticeable delay before receiving the <strong>HoverEnter</strong> system gesture. The <a href="realtimestylus-class.md"><strong>RealTimeStylus</strong></a> object only receives this data if the <strong>RealTimeStylus</strong> object is attached to the window or control that is directly under the pen at the time of the system gesture.</blockquote><br /> | 
+| <strong>HoverLeave</strong> | The <a href="/previous-versions/ms824019(v=msdn.10)">SystemGestureData</a> object for the <strong>HoverEnter</strong> system gesture and several <a href="/previous-versions/ms824592(v=msdn.10)">InAirPacketsData</a> objects of sufficient average velocity.<br /> | <blockquote>[!Note]<br />There may be noticeable delay before receiving the <strong>HoverLeave</strong> system gesture. The <a href="realtimestylus-class.md"><strong>RealTimeStylus</strong></a> object only receives this data if the <strong>RealTimeStylus</strong> object is attached to the window or control that is directly under the pen at the time of the system gesture.</blockquote><br /> | 
+
 
 
 

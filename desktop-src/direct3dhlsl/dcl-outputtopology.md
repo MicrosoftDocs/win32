@@ -26,29 +26,11 @@ Declares the primitive type geometry-shader output data.
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Item</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><span id="Type"></span><span id="type"></span><span id="TYPE"></span><em>Type</em><br/></td>
-<td>[in] An output primitive topology, which is one of the following values: <br/>
-<ul>
-<li><em>pointlist</em></li>
-<li><em>linestrip</em></li>
-<li><em>trianglestrip</em></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| Item | Description | 
+|------|-------------|
+| <span id="Type"></span><span id="type"></span><span id="TYPE"></span><em>Type</em><br /> | [in] An output primitive topology, which is one of the following values: <br /><ul><li><em>pointlist</em></li><li><em>linestrip</em></li><li><em>trianglestrip</em></li></ul> | 
+
 
 
 

@@ -49,68 +49,27 @@ The identifier of the snapshot session.
 
 The options for this call. This parameter can have a combination of the following values.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Value</p></th>
-<th><p>Meaning</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>0</p></td>
-<td><p>The successful end of the snapshot session.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_bitAbortSnapshot</p></td>
-<td><p>The snapshot session aborted.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Value</p> | <p>Meaning</p> | 
+|--------------|----------------|
+| <p>0</p> | <p>The successful end of the snapshot session.</p> | 
+| <p>JET_bitAbortSnapshot</p> | <p>The snapshot session aborted.</p> | 
+
 
 
 ### Return Value
 
 This function returns the [JET_ERR](./jet-err.md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](./extensible-storage-engine-errors.md) and [Error Handling Parameters](./error-handling-parameters.md).
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Return code</p></th>
-<th><p>Description</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_errSuccess</p></td>
-<td><p>The operation completed successfully.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errInvalidGrbit</p></td>
-<td><p>One of the options requested is invalid, used incorrectly, or not implemented.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errOSSnapshotInvalidSequence</p></td>
-<td><p>A snapshot session is already in progress. This is not allowed.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errOSSnapshotInvalidSnapId</p></td>
-<td><p>The identifier for the snapshot session is not valid.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errOSSnapshotTimeOut</p></td>
-<td><p>The snapshot session had an internal timeout before this call occurred. As a result, the IO operations returned to normal before this call was made.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Return code</p> | <p>Description</p> | 
+|--------------------|--------------------|
+| <p>JET_errSuccess</p> | <p>The operation completed successfully.</p> | 
+| <p>JET_errInvalidGrbit</p> | <p>One of the options requested is invalid, used incorrectly, or not implemented.</p> | 
+| <p>JET_errOSSnapshotInvalidSequence</p> | <p>A snapshot session is already in progress. This is not allowed.</p> | 
+| <p>JET_errOSSnapshotInvalidSnapId</p> | <p>The identifier for the snapshot session is not valid.</p> | 
+| <p>JET_errOSSnapshotTimeOut</p> | <p>The snapshot session had an internal timeout before this call occurred. As a result, the IO operations returned to normal before this call was made.</p> | 
+
 
 
 If this function succeeds, a snapshot session will complete and the normal engine behavior will resume. A new snapshot session can be started later.
@@ -125,34 +84,15 @@ The snapshot session must complete for the snapshot verification and log truncat
 
 #### Requirements
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Client</strong></p></td>
-<td><p>Requires Windows Vista.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Server</strong></p></td>
-<td><p>Requires Windows Server 2008.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>Header</strong></p></td>
-<td><p>Declared in Esent.h.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Library</strong></p></td>
-<td><p>Use ESENT.lib.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>DLL</strong></p></td>
-<td><p>Requires ESENT.dll.</p></td>
-</tr>
-</tbody>
-</table>
+
+| 
+|
+| <p><strong>Client</strong></p> | <p>Requires Windows Vista.</p> | 
+| <p><strong>Server</strong></p> | <p>Requires Windows Server 2008.</p> | 
+| <p><strong>Header</strong></p> | <p>Declared in Esent.h.</p> | 
+| <p><strong>Library</strong></p> | <p>Use ESENT.lib.</p> | 
+| <p><strong>DLL</strong></p> | <p>Requires ESENT.dll.</p> | 
+
 
 
 #### See Also

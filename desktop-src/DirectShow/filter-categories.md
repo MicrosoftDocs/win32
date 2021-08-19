@@ -24,112 +24,27 @@ The following categories are declared in Uuids.h. Include the header file Dshow.
 
 
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Friendly Name</th>
-<th>CLSID</th>
-<th>Merit</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Audio Capture Sources</td>
-<td><strong>CLSID_AudioInputDeviceCategory</strong></td>
-<td><strong>MERIT_DO_NOT_USE</strong></td>
-</tr>
-<tr class="even">
-<td>Audio Compressors</td>
-<td><strong>CLSID_AudioCompressorCategory</strong></td>
-<td><strong>MERIT_DO_NOT_USE</strong></td>
-</tr>
-<tr class="odd">
-<td>Audio Renderers</td>
-<td><strong>CLSID_AudioRendererCategory</strong></td>
-<td><strong>MERIT_NORMAL</strong></td>
-</tr>
-<tr class="even">
-<td>Device Control Filters</td>
-<td><strong>CLSID_DeviceControlCategory</strong></td>
-<td><strong>MERIT_DO_NOT_USE</strong></td>
-</tr>
-<tr class="odd">
-<td>DirectShow Filters</td>
-<td><strong>CLSID_LegacyAmFilterCategory</strong></td>
-<td><strong>MERIT_NORMAL</strong></td>
-</tr>
-<tr class="even">
-<td>External Renderers</td>
-<td><strong>CLSID_TransmitCategory</strong></td>
-<td><strong>MERIT_DO_NOT_USE</strong></td>
-</tr>
-<tr class="odd">
-<td>Midi Renderers</td>
-<td><strong>CLSID_MidiRendererCategory</strong></td>
-<td><strong>MERIT_NORMAL</strong></td>
-</tr>
-<tr class="even">
-<td>Video Capture Sources</td>
-<td><strong>CLSID_VideoInputDeviceCategory</strong></td>
-<td><strong>MERIT_DO_NOT_USE</strong></td>
-</tr>
-<tr class="odd">
-<td>Video Compressors</td>
-<td><strong>CLSID_VideoCompressorCategory</strong></td>
-<td><strong>MERIT_DO_NOT_USE</strong></td>
-</tr>
-<tr class="even">
-<td>WDM Stream Decompression Devices</td>
-<td><strong>CLSID_DVDHWDecodersCategory</strong>
-<blockquote>
-[!Note]<br />
-This category contains hardware DVD decoders.
-</blockquote>
-<br/></td>
-<td><strong>MERIT_DO_NOT_USE</strong></td>
-</tr>
-<tr class="odd">
-<td>WDM Streaming Capture Devices</td>
-<td><strong>AM_KSCATEGORY_CAPTURE</strong></td>
-<td><strong>MERIT_DO_NOT_USE</strong></td>
-</tr>
-<tr class="even">
-<td>WDM Streaming Crossbar Devices</td>
-<td><strong>AM_KSCATEGORY_CROSSBAR</strong></td>
-<td><strong>MERIT_DO_NOT_USE</strong></td>
-</tr>
-<tr class="odd">
-<td>WDM Streaming Rendering Devices</td>
-<td><strong>AM_KSCATEGORY_RENDER</strong></td>
-<td><strong>MERIT_DO_NOT_USE</strong></td>
-</tr>
-<tr class="even">
-<td>WDM Streaming Tee/Splitter Devices</td>
-<td><strong>AM_KSCATEGORY_SPLITTER</strong></td>
-<td><strong>MERIT_DO_NOT_USE</strong></td>
-</tr>
-<tr class="odd">
-<td>WDM Streaming TV Audio Devices</td>
-<td><strong>AM_KSCATEGORY_TVAUDIO</strong></td>
-<td><strong>MERIT_DO_NOT_USE</strong></td>
-</tr>
-<tr class="even">
-<td>WDM Streaming TV Tuner Devices</td>
-<td><strong>AM_KSCATEGORY_TVTUNER</strong></td>
-<td><strong>MERIT_DO_NOT_USE</strong></td>
-</tr>
-<tr class="odd">
-<td>WDM Streaming VBI Codecs</td>
-<td><strong>AM_KSCATEGORY_VBICODEC</strong></td>
-<td><strong>MERIT_DO_NOT_USE</strong></td>
-</tr>
-</tbody>
-</table>
+
+| Friendly Name | CLSID | Merit | 
+|---------------|-------|-------|
+| Audio Capture Sources | <strong>CLSID_AudioInputDeviceCategory</strong> | <strong>MERIT_DO_NOT_USE</strong> | 
+| Audio Compressors | <strong>CLSID_AudioCompressorCategory</strong> | <strong>MERIT_DO_NOT_USE</strong> | 
+| Audio Renderers | <strong>CLSID_AudioRendererCategory</strong> | <strong>MERIT_NORMAL</strong> | 
+| Device Control Filters | <strong>CLSID_DeviceControlCategory</strong> | <strong>MERIT_DO_NOT_USE</strong> | 
+| DirectShow Filters | <strong>CLSID_LegacyAmFilterCategory</strong> | <strong>MERIT_NORMAL</strong> | 
+| External Renderers | <strong>CLSID_TransmitCategory</strong> | <strong>MERIT_DO_NOT_USE</strong> | 
+| Midi Renderers | <strong>CLSID_MidiRendererCategory</strong> | <strong>MERIT_NORMAL</strong> | 
+| Video Capture Sources | <strong>CLSID_VideoInputDeviceCategory</strong> | <strong>MERIT_DO_NOT_USE</strong> | 
+| Video Compressors | <strong>CLSID_VideoCompressorCategory</strong> | <strong>MERIT_DO_NOT_USE</strong> | 
+| WDM Stream Decompression Devices | <strong>CLSID_DVDHWDecodersCategory</strong><blockquote>[!Note]<br />This category contains hardware DVD decoders.</blockquote><br /> | <strong>MERIT_DO_NOT_USE</strong> | 
+| WDM Streaming Capture Devices | <strong>AM_KSCATEGORY_CAPTURE</strong> | <strong>MERIT_DO_NOT_USE</strong> | 
+| WDM Streaming Crossbar Devices | <strong>AM_KSCATEGORY_CROSSBAR</strong> | <strong>MERIT_DO_NOT_USE</strong> | 
+| WDM Streaming Rendering Devices | <strong>AM_KSCATEGORY_RENDER</strong> | <strong>MERIT_DO_NOT_USE</strong> | 
+| WDM Streaming Tee/Splitter Devices | <strong>AM_KSCATEGORY_SPLITTER</strong> | <strong>MERIT_DO_NOT_USE</strong> | 
+| WDM Streaming TV Audio Devices | <strong>AM_KSCATEGORY_TVAUDIO</strong> | <strong>MERIT_DO_NOT_USE</strong> | 
+| WDM Streaming TV Tuner Devices | <strong>AM_KSCATEGORY_TVTUNER</strong> | <strong>MERIT_DO_NOT_USE</strong> | 
+| WDM Streaming VBI Codecs | <strong>AM_KSCATEGORY_VBICODEC</strong> | <strong>MERIT_DO_NOT_USE</strong> | 
+
 
 
 

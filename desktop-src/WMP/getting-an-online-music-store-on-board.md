@@ -14,33 +14,12 @@ This topic describes the process of bringing an online digital media store on bo
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Stage</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Pending</td>
-<td><ul>
-<li>You send Microsoft the required contact information, startup information, and validation accounts.</li>
-<li>Microsoft sends you a test key and a production key.</li>
-<li>You test your online store with Windows Media Player.</li>
-<li>You submit signed agreements and contracts to Microsoft.</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>Validation</td>
-<td>Microsoft validates your online store.</td>
-</tr>
-</tbody>
-</table>
+
+| Stage | Description | 
+|-------|-------------|
+| Pending | <ul><li>You send Microsoft the required contact information, startup information, and validation accounts.</li><li>Microsoft sends you a test key and a production key.</li><li>You test your online store with Windows Media Player.</li><li>You submit signed agreements and contracts to Microsoft.</li></ul> | 
+| Validation | Microsoft validates your online store. | 
+
 
 
 

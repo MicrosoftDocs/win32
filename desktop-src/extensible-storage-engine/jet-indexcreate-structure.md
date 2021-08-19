@@ -92,96 +92,27 @@ The length, in bytes, of **szKey** including the two terminating nulls.
 
 A group of bits that includes zero or more of the values listed in the following table.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Value</p></th>
-<th><p>Meaning</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_bitIndexUnique</p></td>
-<td><p>Duplicate index entries (keys) are not allowed. This is enforced when <a href="gg269288(v=exchg.10).md">JetUpdate</a> is called, not when <a href="gg294137(v=exchg.10).md">JetSetColumn</a> is called.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_bitIndexPrimary</p></td>
-<td><p>The index is a primary (clustered) index. Every table must have exactly one primary index. If no primary index is explicitly defined over a table, the database engine will create its own primary index.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_bitIndexDisallowNull</p></td>
-<td><p>None of the columns over which the index is created can contain a <strong>NULL</strong> value.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_bitIndexIgnoreNull</p></td>
-<td><p>Do not add an index entry for a row if all of the columns being indexed are <strong>NULL</strong>.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_bitIndexIgnoreAnyNull</p></td>
-<td><p>Do not add an index entry for a row if any of the columns being indexed are <strong>NULL</strong>.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_bitIndexIgnoreFirstNull</p></td>
-<td><p>Do not add an index entry for a row if the first column being indexed is <strong>NULL</strong>.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_bitIndexLazyFlush</p></td>
-<td><p>Index operations will be logged lazily.</p>
-<p>JET_bitIndexLazyFlush does not affect the laziness of data updates. If the indexing operation is interrupted by process termination, Soft Recovery will still be able to able to get the database to a consistent state, but the index might not be present.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_bitIndexEmpty</p></td>
-<td><p>Do not attempt to build the index, because all entries would evaluate to <strong>NULL</strong>. <strong>grbit</strong> must also specify JET_bitIgnoreAnyNull when JET_bitIndexEmpty is passed. This is a performance enhancement. For example, if a new column is added to a table, an index is created over this newly added column, and all the records in the table are scanned even though they are not added to the index. Specifying JET_bitIndexEmpty skips the scanning of the table, which could potentially take a long time.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_bitIndexUnversioned</p></td>
-<td><p>Causes index creation to be visible to other transactions. Typically a session in a transaction will not be able to see an index creation operation in another session. This flag can be useful if another transaction is likely to create the same index. The second index-create will fail instead of potentially causing many unnecessary database operations. The second transaction might not be able to use the index immediately. The index creation operation has to complete before it is usable. The session must not currently be in a transaction to create an index without version information.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_bitIndexSortNullsHigh</p></td>
-<td><p>Specifying this flag causes <strong>NULL</strong> values to be sorted after data for all columns in the index.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_bitIndexUnicode</p></td>
-<td><p>Specifying this flag affects the interpretation of the lcid/pidxunicde union field in the structure. Setting the bit means that the <strong>pidxunicode</strong> field actually points to a <a href="gg294097(v=exchg.10).md">JET_UNICODEINDEX</a> structure. JET_bitIndexUnicode is not required in order to index Unicode data. It is only used to customize the normalization of Unicode data.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_bitIndexTuples</p></td>
-<td><p>Specifies that the index is a tuple index. See <a href="gg269207(v=exchg.10).md">JET_TUPLELIMITS</a> for a description of a tuple index.</p>
-<p>JET_bitIndexTuples was introduced in the Windows XP operating system.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_bitIndexTupleLimits</p></td>
-<td><p>Specifying this flag affects the interpretation of the <strong>cbVarSegMac/ptuplelimits</strong> union field in the structure. Setting this bit means that the <strong>ptuplelimits</strong> field actually points to a <a href="gg269207(v=exchg.10).md">JET_TUPLELIMITS</a> structure to allow custom tuple index limits (implies JET_bitIndexTuples).</p>
-<p>JET_bitIndexTupleLimits was introduced in the Windows Server 2003 operating system.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_bitIndexCrossProduct 0x00004000</p></td>
-<td><p>Specifying this flag for an index that has more than one key column that is a multivalued column will result in an index entry being created for each result of a cross product of all the values in those key columns. Otherwise, the index would only have one entry for each multivalue in the most significant key column that is a multivalued column and each of those index entries would use the first multivalue from any other key columns that are multivalued columns.</p>
-<p>For example, if you specified this flag for an index over column A that has the values &quot;red&quot; and &quot;blue&quot; and over column B that has the values &quot;1&quot; and &quot;2&quot; then the following index entries would be created: &quot;red&quot;, &quot;1&quot;; &quot;red&quot;, &quot;2&quot;; &quot;blue&quot;, &quot;1&quot;; &quot;blue&quot;, &quot;2&quot;. Otherwise, the following index entries would be created: &quot;red&quot;, &quot;1&quot;; &quot;blue&quot;, &quot;1&quot;.</p>
-<p>JET_bitIndexCrossProduct was introduced in the Windows Vista operating system.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_bitIndexKeyMost 0x00008000</p></td>
-<td><p>Specifying this flag will cause the index to use the maximum key size specified in the <strong>cbKeyMost</strong> field in the structure. Otherwise, the index will use JET_cbKeyMost (255) as its maximum key size.</p>
-<p>JET_bitIndexKeyMost was introduced in Windows Vista.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_bitIndexDisallowTruncation 0x00010000</p></td>
-<td><p>Specifying this flag will cause any update to the index that would result in a truncated key to fail with JET_errKeyTruncated. Otherwise, keys will be silently truncated. For more information on key truncation, see the <a href="gg269329(v=exchg.10).md">JetMakeKey</a> function.</p>
-<p><strong>Windows Vista:  JET_bitIndexDisallowTruncation</strong> is introduced in Windows Vista.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_bitIndexNestedTable 0x00020000</p></td>
-<td><p>Specifying this flag will cause update the index over multiple multivalued columns but only with values of same <strong>itagSequence</strong>.</p>
-<p>JET_bitIndexNestedTable was introduced in Windows Vista.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Value</p> | <p>Meaning</p> | 
+|--------------|----------------|
+| <p>JET_bitIndexUnique</p> | <p>Duplicate index entries (keys) are not allowed. This is enforced when <a href="gg269288(v=exchg.10).md">JetUpdate</a> is called, not when <a href="gg294137(v=exchg.10).md">JetSetColumn</a> is called.</p> | 
+| <p>JET_bitIndexPrimary</p> | <p>The index is a primary (clustered) index. Every table must have exactly one primary index. If no primary index is explicitly defined over a table, the database engine will create its own primary index.</p> | 
+| <p>JET_bitIndexDisallowNull</p> | <p>None of the columns over which the index is created can contain a <strong>NULL</strong> value.</p> | 
+| <p>JET_bitIndexIgnoreNull</p> | <p>Do not add an index entry for a row if all of the columns being indexed are <strong>NULL</strong>.</p> | 
+| <p>JET_bitIndexIgnoreAnyNull</p> | <p>Do not add an index entry for a row if any of the columns being indexed are <strong>NULL</strong>.</p> | 
+| <p>JET_bitIndexIgnoreFirstNull</p> | <p>Do not add an index entry for a row if the first column being indexed is <strong>NULL</strong>.</p> | 
+| <p>JET_bitIndexLazyFlush</p> | <p>Index operations will be logged lazily.</p><p>JET_bitIndexLazyFlush does not affect the laziness of data updates. If the indexing operation is interrupted by process termination, Soft Recovery will still be able to able to get the database to a consistent state, but the index might not be present.</p> | 
+| <p>JET_bitIndexEmpty</p> | <p>Do not attempt to build the index, because all entries would evaluate to <strong>NULL</strong>. <strong>grbit</strong> must also specify JET_bitIgnoreAnyNull when JET_bitIndexEmpty is passed. This is a performance enhancement. For example, if a new column is added to a table, an index is created over this newly added column, and all the records in the table are scanned even though they are not added to the index. Specifying JET_bitIndexEmpty skips the scanning of the table, which could potentially take a long time.</p> | 
+| <p>JET_bitIndexUnversioned</p> | <p>Causes index creation to be visible to other transactions. Typically a session in a transaction will not be able to see an index creation operation in another session. This flag can be useful if another transaction is likely to create the same index. The second index-create will fail instead of potentially causing many unnecessary database operations. The second transaction might not be able to use the index immediately. The index creation operation has to complete before it is usable. The session must not currently be in a transaction to create an index without version information.</p> | 
+| <p>JET_bitIndexSortNullsHigh</p> | <p>Specifying this flag causes <strong>NULL</strong> values to be sorted after data for all columns in the index.</p> | 
+| <p>JET_bitIndexUnicode</p> | <p>Specifying this flag affects the interpretation of the lcid/pidxunicde union field in the structure. Setting the bit means that the <strong>pidxunicode</strong> field actually points to a <a href="gg294097(v=exchg.10).md">JET_UNICODEINDEX</a> structure. JET_bitIndexUnicode is not required in order to index Unicode data. It is only used to customize the normalization of Unicode data.</p> | 
+| <p>JET_bitIndexTuples</p> | <p>Specifies that the index is a tuple index. See <a href="gg269207(v=exchg.10).md">JET_TUPLELIMITS</a> for a description of a tuple index.</p><p>JET_bitIndexTuples was introduced in the Windows XP operating system.</p> | 
+| <p>JET_bitIndexTupleLimits</p> | <p>Specifying this flag affects the interpretation of the <strong>cbVarSegMac/ptuplelimits</strong> union field in the structure. Setting this bit means that the <strong>ptuplelimits</strong> field actually points to a <a href="gg269207(v=exchg.10).md">JET_TUPLELIMITS</a> structure to allow custom tuple index limits (implies JET_bitIndexTuples).</p><p>JET_bitIndexTupleLimits was introduced in the Windows Server 2003 operating system.</p> | 
+| <p>JET_bitIndexCrossProduct 0x00004000</p> | <p>Specifying this flag for an index that has more than one key column that is a multivalued column will result in an index entry being created for each result of a cross product of all the values in those key columns. Otherwise, the index would only have one entry for each multivalue in the most significant key column that is a multivalued column and each of those index entries would use the first multivalue from any other key columns that are multivalued columns.</p><p>For example, if you specified this flag for an index over column A that has the values "red" and "blue" and over column B that has the values "1" and "2" then the following index entries would be created: "red", "1"; "red", "2"; "blue", "1"; "blue", "2". Otherwise, the following index entries would be created: "red", "1"; "blue", "1".</p><p>JET_bitIndexCrossProduct was introduced in the Windows Vista operating system.</p> | 
+| <p>JET_bitIndexKeyMost 0x00008000</p> | <p>Specifying this flag will cause the index to use the maximum key size specified in the <strong>cbKeyMost</strong> field in the structure. Otherwise, the index will use JET_cbKeyMost (255) as its maximum key size.</p><p>JET_bitIndexKeyMost was introduced in Windows Vista.</p> | 
+| <p>JET_bitIndexDisallowTruncation 0x00010000</p> | <p>Specifying this flag will cause any update to the index that would result in a truncated key to fail with JET_errKeyTruncated. Otherwise, keys will be silently truncated. For more information on key truncation, see the <a href="gg269329(v=exchg.10).md">JetMakeKey</a> function.</p><p><strong>Windows Vista:  JET_bitIndexDisallowTruncation</strong> is introduced in Windows Vista.</p> | 
+| <p>JET_bitIndexNestedTable 0x00020000</p> | <p>Specifying this flag will cause update the index over multiple multivalued columns but only with values of same <strong>itagSequence</strong>.</p><p>JET_bitIndexNestedTable was introduced in Windows Vista.</p> | 
+
 
 
 **ulDensity**
@@ -248,43 +179,12 @@ ESE supports indexing over key columns containing multiple values. To use this f
 
 Assuming the following rows exist in a table (column Alpha is not multivalued, while columns Beta, Gamma, and Delta are multivalued), and an index is created as "+Alpha\\0+Beta\\0+Gamma\\0+Delta\\0\\0":
 
-<table>
-<colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Alpha</p></th>
-<th><p>Beta</p></th>
-<th><p>Gamma</p></th>
-<th><p>Delta</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>1</p></td>
-<td><p>ABC<br />
-GHI<br />
-JKL</p></td>
-<td><p>MNO<br />
-PQR<br />
-STU</p></td>
-<td><p>VWX<br />
-YZ</p></td>
-</tr>
-<tr class="even">
-<td><p>2</p></td>
-<td><p>THE</p></td>
-<td><p>RAIN<br />
-SPAIN</p></td>
-<td><p>IN<br />
-FALLS</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Alpha</p> | <p>Beta</p> | <p>Gamma</p> | <p>Delta</p> | 
+|--------------|-------------|--------------|--------------|
+| <p>1</p> | <p>ABC<br />GHI<br />JKL</p> | <p>MNO<br />PQR<br />STU</p> | <p>VWX<br />YZ</p> | 
+| <p>2</p> | <p>THE</p> | <p>RAIN<br />SPAIN</p> | <p>IN<br />FALLS</p> | 
+
 
 
 The falling index-tuples will be stored:
@@ -300,30 +200,14 @@ In versions of Windows starting with Windows Vista, all multivalued columns can
 
 ### Requirements
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Client</strong></p></td>
-<td><p>Requires Windows Vista, Windows XP, or Windows 2000 Professional.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Server</strong></p></td>
-<td><p>Requires Windows Server 2008, Windows Server 2003, or Windows 2000 Server.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>Header</strong></p></td>
-<td><p>Declared in Esent.h.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Unicode</strong></p></td>
-<td><p>Implemented as <strong>JET_ INDEXCREATE_W</strong> (Unicode) and <strong>JET_ INDEXCREATE_A</strong> (ANSI).</p></td>
-</tr>
-</tbody>
-</table>
+
+| 
+|
+| <p><strong>Client</strong></p> | <p>Requires Windows Vista, Windows XP, or Windows 2000 Professional.</p> | 
+| <p><strong>Server</strong></p> | <p>Requires Windows Server 2008, Windows Server 2003, or Windows 2000 Server.</p> | 
+| <p><strong>Header</strong></p> | <p>Declared in Esent.h.</p> | 
+| <p><strong>Unicode</strong></p> | <p>Implemented as <strong>JET_ INDEXCREATE_W</strong> (Unicode) and <strong>JET_ INDEXCREATE_A</strong> (ANSI).</p> | 
+
 
 
 ### See also

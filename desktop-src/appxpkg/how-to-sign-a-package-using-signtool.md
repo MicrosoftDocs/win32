@@ -132,42 +132,13 @@ More commonly, the error is 0x8007000b (ERROR\_BAD\_FORMAT). In this case, you c
 
 The internal error usually corresponds to one of these:
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Event ID</th>
-<th>Example event string</th>
-<th>Suggestion</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>150</td>
-<td>error 0x8007000B: The app manifest publisher name (CN=Contoso) must match the subject name of the signing certificate (CN=Contoso, C=US).</td>
-<td>The app manifest publisher name must exactly match the subject name of the signing.
-<blockquote>
-[!Note]<br />
-These names are specified in quotes and are both case and whitespace sensitive.
-</blockquote>
-<br/> You can update the <strong>Publisher</strong> attribute string that is defined for the <a href="/uwp/schemas/appxpackage/appxmanifestschema/element-identity"><strong>Identity</strong></a> element in the AppxManifest.xml file to match the subject name of the intended signing certificate. Or, select a different signing certificate with a subject name that matches the app manifest publisher name. The manifest publisher name and the certificate subject name are both listed in the event message.</td>
-</tr>
-<tr class="even">
-<td>151</td>
-<td>error 0x8007000B: The signature hash method specified (SHA512) must match the hash method used in the app package block map (SHA256).</td>
-<td>The hashAlgorithm specified in the /fd parameter is incorrect (see Step 1: Determine the hash algorithm to use). Rerun <a href="/windows-hardware/drivers/devtest/signtool"><strong>SignTool</strong></a> with the hashAlgorithm that matches the app package block map.</td>
-</tr>
-<tr class="odd">
-<td>152</td>
-<td>error 0x8007000B: The app package contents must validate against its block map.</td>
-<td>The app package is corrupt and needs to be rebuilt to generate a new block map. For more info about creating an app package, see creating an app package with <a href="make-appx-package--makeappx-exe-.md">app packager</a> or <a href="/previous-versions/hh975357(v=vs.110)">Creating an app package with Visual Studio 2012</a>.</td>
-</tr>
-</tbody>
-</table>
+
+| Event ID | Example event string | Suggestion | 
+|----------|----------------------|------------|
+| 150 | error 0x8007000B: The app manifest publisher name (CN=Contoso) must match the subject name of the signing certificate (CN=Contoso, C=US). | The app manifest publisher name must exactly match the subject name of the signing.<blockquote>[!Note]<br />These names are specified in quotes and are both case and whitespace sensitive.</blockquote><br /> You can update the <strong>Publisher</strong> attribute string that is defined for the <a href="/uwp/schemas/appxpackage/appxmanifestschema/element-identity"><strong>Identity</strong></a> element in the AppxManifest.xml file to match the subject name of the intended signing certificate. Or, select a different signing certificate with a subject name that matches the app manifest publisher name. The manifest publisher name and the certificate subject name are both listed in the event message. | 
+| 151 | error 0x8007000B: The signature hash method specified (SHA512) must match the hash method used in the app package block map (SHA256). | The hashAlgorithm specified in the /fd parameter is incorrect (see Step 1: Determine the hash algorithm to use). Rerun <a href="/windows-hardware/drivers/devtest/signtool"><strong>SignTool</strong></a> with the hashAlgorithm that matches the app package block map. | 
+| 152 | error 0x8007000B: The app package contents must validate against its block map. | The app package is corrupt and needs to be rebuilt to generate a new block map. For more info about creating an app package, see creating an app package with <a href="make-appx-package--makeappx-exe-.md">app packager</a> or <a href="/previous-versions/hh975357(v=vs.110)">Creating an app package with Visual Studio 2012</a>. | 
+
 
 
 

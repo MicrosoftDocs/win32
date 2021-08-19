@@ -104,46 +104,14 @@ Converting programs written to use the Direct3D 10 or 10.1 API is a straight-for
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>10/10.1 Solution</th>
-<th>11 Solution</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>HLSL Complier (D3D10Compile*, D3DX10Compile*) and shader reflection APIs</td>
-<td>D3DCompiler (see D3DCompiler.h)
-<blockquote>
-[!Note]<br />
-For Windows Store apps, the <a href="/windows/desktop/direct3dhlsl/dx-graphics-d3dcompiler-reference">D3DCompiler APIs</a> are supported only for development, not deployment.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td>Effects 10</td>
-<td><a href="https://github.com/Microsoft/FX11">Effects 11</a> is available as shared source online.
-<blockquote>
-[!Note]<br />
-This solution is not suited to Windows Store apps because it requires the <a href="/windows/desktop/direct3dhlsl/dx-graphics-d3dcompiler-reference">D3DCompiler APIs</a> at runtime (deployment).
-</blockquote>
-<br/></td>
-</tr>
-<tr class="odd">
-<td>D3DX9/D3DX10 Math</td>
-<td><a href="/windows/desktop/dxmath/directxmath-portal">DirectXMath</a></td>
-</tr>
-<tr class="even">
-<td>D3DX10</td>
-<td>D3DX11 in the legacy DirectX SDK <a href="https://github.com/Microsoft/DirectXTex">DirectXTex</a>, <a href="https://github.com/Microsoft/DirectXTK">DirectXTK</a>, and <a href="https://github.com/Microsoft/DirectXMesh">DirectXMesh</a> offer alternatives to many technologies in the legacy D3DX10 and D3DX11 libraries.<br/> <a href="/windows/desktop/Direct2D/direct2d-portal">Direct2D</a> and <a href="/windows/desktop/DirectWrite/direct-write-portal">DirectWrite</a> offer high-quality support for rendering styled lines and fonts.<br/></td>
-</tr>
-</tbody>
-</table>
+
+| 10/10.1 Solution | 11 Solution | 
+|------------------|-------------|
+| HLSL Complier (D3D10Compile*, D3DX10Compile*) and shader reflection APIs | D3DCompiler (see D3DCompiler.h)<blockquote>[!Note]<br />For Windows Store apps, the <a href="/windows/desktop/direct3dhlsl/dx-graphics-d3dcompiler-reference">D3DCompiler APIs</a> are supported only for development, not deployment.</blockquote><br /> | 
+| Effects 10 | <a href="https://github.com/Microsoft/FX11">Effects 11</a> is available as shared source online.<blockquote>[!Note]<br />This solution is not suited to Windows Store apps because it requires the <a href="/windows/desktop/direct3dhlsl/dx-graphics-d3dcompiler-reference">D3DCompiler APIs</a> at runtime (deployment).</blockquote><br /> | 
+| D3DX9/D3DX10 Math | <a href="/windows/desktop/dxmath/directxmath-portal">DirectXMath</a> | 
+| D3DX10 | D3DX11 in the legacy DirectX SDK <a href="https://github.com/Microsoft/DirectXTex">DirectXTex</a>, <a href="https://github.com/Microsoft/DirectXTK">DirectXTK</a>, and <a href="https://github.com/Microsoft/DirectXMesh">DirectXMesh</a> offer alternatives to many technologies in the legacy D3DX10 and D3DX11 libraries.<br /><a href="/windows/desktop/Direct2D/direct2d-portal">Direct2D</a> and <a href="/windows/desktop/DirectWrite/direct-write-portal">DirectWrite</a> offer high-quality support for rendering styled lines and fonts.<br /> | 
+
 
 
 

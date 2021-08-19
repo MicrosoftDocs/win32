@@ -115,92 +115,33 @@ Describes the type of callback function designated by **szCallback**. For more i
 
 This bitfield is composed of one or more of the bit values listed in the following table.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Value</p></th>
-<th><p>Meaning</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_cbtypFinalize</p></td>
-<td><p>The callback function will be called when a column that can be finalized has gone to zero.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_cbtypBeforeInsert</p></td>
-<td><p>The callback function will be called prior to record insertion.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_cbtypAfterInsert</p></td>
-<td><p>The callback function will be called after the database engine has finished inserting a record.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_cbtypBeforeReplace</p></td>
-<td><p>The callback function will be called prior to the modification of a record.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_cbtypAfterReplace</p></td>
-<td><p>The callback function will be called after finishing the modification of a record.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_cbtypBeforeDelete</p></td>
-<td><p>The callback function will be called prior to the deletion of a record.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_cbtypAfterDelete</p></td>
-<td><p>The callback function will be called after a record has been deleted.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_cbtypUserDefinedDefaultValue</p></td>
-<td><p>The callback function will be called to calculate a user-defined default.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_cbtypFreeCursorLS</p></td>
-<td><p>The callback function will be called when the local storage that is associated with a cursor must be freed.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_cbtypFreeTableLS</p></td>
-<td><p>The callback function will be called when the local storage that is associated with a table must be freed.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Value</p> | <p>Meaning</p> | 
+|--------------|----------------|
+| <p>JET_cbtypFinalize</p> | <p>The callback function will be called when a column that can be finalized has gone to zero.</p> | 
+| <p>JET_cbtypBeforeInsert</p> | <p>The callback function will be called prior to record insertion.</p> | 
+| <p>JET_cbtypAfterInsert</p> | <p>The callback function will be called after the database engine has finished inserting a record.</p> | 
+| <p>JET_cbtypBeforeReplace</p> | <p>The callback function will be called prior to the modification of a record.</p> | 
+| <p>JET_cbtypAfterReplace</p> | <p>The callback function will be called after finishing the modification of a record.</p> | 
+| <p>JET_cbtypBeforeDelete</p> | <p>The callback function will be called prior to the deletion of a record.</p> | 
+| <p>JET_cbtypAfterDelete</p> | <p>The callback function will be called after a record has been deleted.</p> | 
+| <p>JET_cbtypUserDefinedDefaultValue</p> | <p>The callback function will be called to calculate a user-defined default.</p> | 
+| <p>JET_cbtypFreeCursorLS</p> | <p>The callback function will be called when the local storage that is associated with a cursor must be freed.</p> | 
+| <p>JET_cbtypFreeTableLS</p> | <p>The callback function will be called when the local storage that is associated with a table must be freed.</p> | 
+
 
 
 **grbit**
 
 A group of bits that contains zero or more of the call option values listed in the following table.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Value</p></th>
-<th><p>Meaning</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_bitTableCreateFixedDDL</p></td>
-<td><p>Prevents DDL operations on the table (such as adding or removing columns).</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_bitTableCreateTemplateTable</p></td>
-<td><p>Causes the table to be a template table. New tables can then specify the name of this table as their template table. Setting JET_bitTableCreateTemplateTable implies JET_bitTableCreateFixedDDL.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_bitTableCreateNoFixedVarColumnsInDerivedTables</p></td>
-<td><p>Must be used in conjunction with JET_bitTableCreateTemplateTable. Deprecated. Do not use.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Value</p> | <p>Meaning</p> | 
+|--------------|----------------|
+| <p>JET_bitTableCreateFixedDDL</p> | <p>Prevents DDL operations on the table (such as adding or removing columns).</p> | 
+| <p>JET_bitTableCreateTemplateTable</p> | <p>Causes the table to be a template table. New tables can then specify the name of this table as their template table. Setting JET_bitTableCreateTemplateTable implies JET_bitTableCreateFixedDDL.</p> | 
+| <p>JET_bitTableCreateNoFixedVarColumnsInDerivedTables</p> | <p>Must be used in conjunction with JET_bitTableCreateTemplateTable. Deprecated. Do not use.</p> | 
+
 
 
 **pSeqSpacehints**
@@ -233,30 +174,14 @@ The count of objects that are created is equal to the sum of columns, tables, an
 
 ### Requirements
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Client</strong></p></td>
-<td><p>Requires Windows Vista or Windows XP.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Server</strong></p></td>
-<td><p>Requires Windows Server 2008 or Windows Server 2003.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>Header</strong></p></td>
-<td><p>Declared in Esent.h.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Unicode</strong></p></td>
-<td><p>Implemented as <strong>JET_TABLECREATE3_W</strong> (Unicode) and <strong>JET_TABLECREATE3_A</strong> (ANSI).</p></td>
-</tr>
-</tbody>
-</table>
+
+| 
+|
+| <p><strong>Client</strong></p> | <p>Requires Windows Vista or Windows XP.</p> | 
+| <p><strong>Server</strong></p> | <p>Requires Windows Server 2008 or Windows Server 2003.</p> | 
+| <p><strong>Header</strong></p> | <p>Declared in Esent.h.</p> | 
+| <p><strong>Unicode</strong></p> | <p>Implemented as <strong>JET_TABLECREATE3_W</strong> (Unicode) and <strong>JET_TABLECREATE3_A</strong> (ANSI).</p> | 
+
 
 
 ### See also

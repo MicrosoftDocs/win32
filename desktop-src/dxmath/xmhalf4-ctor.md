@@ -28,65 +28,15 @@ Constructs instances of the [**XMHALF4**](/windows/desktop/api/DirectXPackedVect
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;">Constructor</th>
-<th style="text-align: left;">Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;"><a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmhalf4-xmhalf4(constfloat)"><strong>XMHALF4 ()</strong></a></td>
-<td style="text-align: left;">Default constructor for <code>XMHALF4</code>. <br/> Default constructor for <a href="/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmhalf4"><strong>XMHALF4</strong></a>. <br/>
-<blockquote>
-[!Note]<br />
-This constructor is only available under C++.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmhalf4-xmhalf4(consthalf)"><strong>XMHALF4 (const HALF*)</strong></a></td>
-<td style="text-align: left;">Initializes a new instance of <code>XMHALF4</code> from a four element <code>HALF</code> array argument. <br/> This constructor initializes a new instance of <a href="/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmhalf4"><strong>XMHALF4</strong></a> from a from a four element <code>HALF</code> array argument. <br/>
-<blockquote>
-[!Note]<br />
-This constructor is only available under C++.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmhalf4-xmhalf4(constfloat)"><strong>XMHALF4 (const float*)</strong></a></td>
-<td style="text-align: left;">Initializes a new instance of <code>XMHALF4</code> from a four element <code>float</code> array argument. <br/> This constructor initializes a new instance of <a href="/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmhalf4"><strong>XMHALF4</strong></a> from a four element <code>float</code> array argument. <br/>
-<blockquote>
-[!Note]<br />
-This constructor is only available under C++.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmhalf4-xmhalf4(half_half_half_half)"><strong>XMHALF4 (HALF,HALF,HALF,HALF)</strong></a></td>
-<td style="text-align: left;">Initializes a new instance of <code>XMHALF4</code> from four <code>HALF</code> arguments.<br/> This constructor initializes a new instance of <a href="/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmhalf4"><strong>XMHALF4</strong></a> from four <code>HALF</code> arguments.<br/>
-<blockquote>
-[!Note]<br />
-This constructor is only available under C++.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmhalf4-xmhalf4(float_float_float_float)"><strong>XMHALF4 (float,float,float,float)</strong></a></td>
-<td style="text-align: left;">Initializes a new instance of <code>XMHALF4</code> from four <code>float</code> arguments. <br/> This constructor initializes a new instance of <a href="/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmhalf4"><strong>XMHALF4</strong></a> from four <code>float</code> arguments. <br/>
-<blockquote>
-[!Note]<br />
-This constructor is only available under C++.
-</blockquote>
-<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Constructor | Description | 
+|-------------|-------------|
+| <a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmhalf4-xmhalf4(constfloat)"><strong>XMHALF4 ()</strong></a> | Default constructor for <code>XMHALF4</code>. <br /> Default constructor for <a href="/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmhalf4"><strong>XMHALF4</strong></a>. <br /><blockquote>[!Note]<br />This constructor is only available under C++.</blockquote><br /> | 
+| <a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmhalf4-xmhalf4(consthalf)"><strong>XMHALF4 (const HALF*)</strong></a> | Initializes a new instance of <code>XMHALF4</code> from a four element <code>HALF</code> array argument. <br /> This constructor initializes a new instance of <a href="/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmhalf4"><strong>XMHALF4</strong></a> from a from a four element <code>HALF</code> array argument. <br /><blockquote>[!Note]<br />This constructor is only available under C++.</blockquote><br /> | 
+| <a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmhalf4-xmhalf4(constfloat)"><strong>XMHALF4 (const float*)</strong></a> | Initializes a new instance of <code>XMHALF4</code> from a four element <code>float</code> array argument. <br /> This constructor initializes a new instance of <a href="/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmhalf4"><strong>XMHALF4</strong></a> from a four element <code>float</code> array argument. <br /><blockquote>[!Note]<br />This constructor is only available under C++.</blockquote><br /> | 
+| <a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmhalf4-xmhalf4(half_half_half_half)"><strong>XMHALF4 (HALF,HALF,HALF,HALF)</strong></a> | Initializes a new instance of <code>XMHALF4</code> from four <code>HALF</code> arguments.<br /> This constructor initializes a new instance of <a href="/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmhalf4"><strong>XMHALF4</strong></a> from four <code>HALF</code> arguments.<br /><blockquote>[!Note]<br />This constructor is only available under C++.</blockquote><br /> | 
+| <a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmhalf4-xmhalf4(float_float_float_float)"><strong>XMHALF4 (float,float,float,float)</strong></a> | Initializes a new instance of <code>XMHALF4</code> from four <code>float</code> arguments. <br /> This constructor initializes a new instance of <a href="/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmhalf4"><strong>XMHALF4</strong></a> from four <code>float</code> arguments. <br /><blockquote>[!Note]<br />This constructor is only available under C++.</blockquote><br /> | 
+
 
 
 

@@ -37,58 +37,21 @@ This topic contains parameters that are used for transaction logs.
 
 This parameter sets the three letter prefix used for many of the files used by the database engine. For example, the checkpoint file is called EDB.CHK by default because EDB is the default base name. The base name can be used to easily distinguish between sets of files that belong to different instances or to different applications.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Default Value:</p></td>
-<td><p>&quot;edb&quot;</p></td>
-</tr>
-<tr class="even">
-<td><p>Type:</p></td>
-<td><p>String</p></td>
-</tr>
-<tr class="odd">
-<td><p>Valid Range:</p></td>
-<td><p>3 characters</p></td>
-</tr>
-<tr class="even">
-<td><p>Scope:</p></td>
-<td><p>Instance</p></td>
-</tr>
-<tr class="odd">
-<td><p>Set After <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="even">
-<td><p>Set after <a href="gg294068(v=exchg.10).md">JetInit</a>:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affects Physical Layout:</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="even">
-<td><p>Affects Reliability:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affects Performance:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="even">
-<td><p>Affects Resources:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="odd">
-<td><p>Availability:</p></td>
-<td><p>All</p></td>
-</tr>
-</tbody>
-</table>
+
+| 
+|
+| <p>Default Value:</p> | <p>"edb"</p> | 
+| <p>Type:</p> | <p>String</p> | 
+| <p>Valid Range:</p> | <p>3 characters</p> | 
+| <p>Scope:</p> | <p>Instance</p> | 
+| <p>Set After <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Yes</p> | 
+| <p>Set after <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>No</p> | 
+| <p>Affects Physical Layout:</p> | <p>Yes</p> | 
+| <p>Affects Reliability:</p> | <p>No</p> | 
+| <p>Affects Performance:</p> | <p>No</p> | 
+| <p>Affects Resources:</p> | <p>No</p> | 
+| <p>Availability:</p> | <p>All</p> | 
+
 
 
 *JET_paramCircularLog*  
@@ -100,58 +63,21 @@ When circular logging is off, all transaction log files that are generated are r
 
 When circular logging is on, only transaction log files that are younger than the current checkpoint are retained on disk. The benefit of this mode is that backups are not required to retire old transaction log files. The tradeoff is that a zero data loss restore is no longer possible.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Default Value:</p></td>
-<td><p>False</p></td>
-</tr>
-<tr class="even">
-<td><p>Type:</p></td>
-<td><p>Boolean</p></td>
-</tr>
-<tr class="odd">
-<td><p>Valid Range:</p></td>
-<td><p>False, True</p></td>
-</tr>
-<tr class="even">
-<td><p>Scope:</p></td>
-<td><p>Instance</p></td>
-</tr>
-<tr class="odd">
-<td><p>Set After <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="even">
-<td><p>Set after <a href="gg294068(v=exchg.10).md">JetInit</a>:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affects Physical Layout:</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="even">
-<td><p>Affects Reliability:</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affects Performance:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="even">
-<td><p>Affects Resources:</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="odd">
-<td><p>Availability:</p></td>
-<td><p>All</p></td>
-</tr>
-</tbody>
-</table>
+
+| 
+|
+| <p>Default Value:</p> | <p>False</p> | 
+| <p>Type:</p> | <p>Boolean</p> | 
+| <p>Valid Range:</p> | <p>False, True</p> | 
+| <p>Scope:</p> | <p>Instance</p> | 
+| <p>Set After <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Yes</p> | 
+| <p>Set after <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>No</p> | 
+| <p>Affects Physical Layout:</p> | <p>Yes</p> | 
+| <p>Affects Reliability:</p> | <p>Yes</p> | 
+| <p>Affects Performance:</p> | <p>No</p> | 
+| <p>Affects Resources:</p> | <p>Yes</p> | 
+| <p>Availability:</p> | <p>All</p> | 
+
 
 
 *JET_paramCommitDefault*  
@@ -161,58 +87,21 @@ This parameter controls the default action taken when the outermost transaction 
 
 This parameter has an impact on the reliability and performance of transactions. Please see [JetCommitTransaction](./jetcommittransaction-function.md) for more details.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Default Value:</p></td>
-<td><p>0</p></td>
-</tr>
-<tr class="even">
-<td><p>Type:</p></td>
-<td><p>JET_GRBIT (integer)</p></td>
-</tr>
-<tr class="odd">
-<td><p>Valid Range:</p></td>
-<td><p>A valid option for JetCommitTransaction</p></td>
-</tr>
-<tr class="even">
-<td><p>Scope:</p></td>
-<td><p>Instance or Session</p></td>
-</tr>
-<tr class="odd">
-<td><p>Set After <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="even">
-<td><p>Set after <a href="gg294068(v=exchg.10).md">JetInit</a>:</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affects Physical Layout:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="even">
-<td><p>Affects Reliability:</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affects Performance:</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="even">
-<td><p>Affects Resources:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="odd">
-<td><p>Availability:</p></td>
-<td><p>All</p></td>
-</tr>
-</tbody>
-</table>
+
+| 
+|
+| <p>Default Value:</p> | <p>0</p> | 
+| <p>Type:</p> | <p>JET_GRBIT (integer)</p> | 
+| <p>Valid Range:</p> | <p>A valid option for JetCommitTransaction</p> | 
+| <p>Scope:</p> | <p>Instance or Session</p> | 
+| <p>Set After <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Yes</p> | 
+| <p>Set after <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>Yes</p> | 
+| <p>Affects Physical Layout:</p> | <p>No</p> | 
+| <p>Affects Reliability:</p> | <p>Yes</p> | 
+| <p>Affects Performance:</p> | <p>Yes</p> | 
+| <p>Affects Resources:</p> | <p>No</p> | 
+| <p>Availability:</p> | <p>All</p> | 
+
 
 
 *JET_paramDeleteOldLogs*  
@@ -222,59 +111,21 @@ When this parameter is true and the transaction log files pointed to by the log 
 
 **Windows 2000:**  Care must be taken with the use of this parameter when upgrading a database from Windows NT to Windows 2000. If the database is not in a consistent state and the old log files are deleted then the contents of the database will be lost.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Default Value:</p></td>
-<td><p><strong>Windows 2000:</strong>  False</p>
-<p><strong>Windows XP:</strong>  True</p></td>
-</tr>
-<tr class="even">
-<td><p>Type:</p></td>
-<td><p>Boolean</p></td>
-</tr>
-<tr class="odd">
-<td><p>Valid Range:</p></td>
-<td><p>False, True</p></td>
-</tr>
-<tr class="even">
-<td><p>Scope:</p></td>
-<td><p>Instance</p></td>
-</tr>
-<tr class="odd">
-<td><p>Set After <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="even">
-<td><p>Set after <a href="gg294068(v=exchg.10).md">JetInit</a>:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affects Physical Layout:</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="even">
-<td><p>Affects Reliability:</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affects Performance:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="even">
-<td><p>Affects Resources:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="odd">
-<td><p>Availability:</p></td>
-<td><p>All</p></td>
-</tr>
-</tbody>
-</table>
+
+| 
+|
+| <p>Default Value:</p> | <p><strong>Windows 2000:</strong>  False</p><p><strong>Windows XP:</strong>  True</p> | 
+| <p>Type:</p> | <p>Boolean</p> | 
+| <p>Valid Range:</p> | <p>False, True</p> | 
+| <p>Scope:</p> | <p>Instance</p> | 
+| <p>Set After <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Yes</p> | 
+| <p>Set after <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>No</p> | 
+| <p>Affects Physical Layout:</p> | <p>Yes</p> | 
+| <p>Affects Reliability:</p> | <p>Yes</p> | 
+| <p>Affects Performance:</p> | <p>No</p> | 
+| <p>Affects Resources:</p> | <p>No</p> | 
+| <p>Availability:</p> | <p>All</p> | 
+
 
 
 *JET_paramIgnoreLogVersion*  
@@ -284,58 +135,21 @@ If this parameter is true then the database engine will not validate the transac
 
 **Windows XP:**  As of Windows XP, this parameter is obsolete and does not affect the operation of the database engine.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Default Value:</p></td>
-<td><p>False</p></td>
-</tr>
-<tr class="even">
-<td><p>Type:</p></td>
-<td><p>Boolean</p></td>
-</tr>
-<tr class="odd">
-<td><p>Valid Range:</p></td>
-<td><p>False, True</p></td>
-</tr>
-<tr class="even">
-<td><p>Scope:</p></td>
-<td><p>Instance</p></td>
-</tr>
-<tr class="odd">
-<td><p>Set After <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="even">
-<td><p>Set after <a href="gg294068(v=exchg.10).md">JetInit</a>:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affects Physical Layout:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="even">
-<td><p>Affects Reliability:</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affects Performance:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="even">
-<td><p>Affects Resources:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="odd">
-<td><p>Availability:</p></td>
-<td><p>All</p></td>
-</tr>
-</tbody>
-</table>
+
+| 
+|
+| <p>Default Value:</p> | <p>False</p> | 
+| <p>Type:</p> | <p>Boolean</p> | 
+| <p>Valid Range:</p> | <p>False, True</p> | 
+| <p>Scope:</p> | <p>Instance</p> | 
+| <p>Set After <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Yes</p> | 
+| <p>Set after <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>No</p> | 
+| <p>Affects Physical Layout:</p> | <p>No</p> | 
+| <p>Affects Reliability:</p> | <p>Yes</p> | 
+| <p>Affects Performance:</p> | <p>No</p> | 
+| <p>Affects Resources:</p> | <p>No</p> | 
+| <p>Availability:</p> | <p>All</p> | 
+
 
 
 *JET_paramLegacyFileNames*  
@@ -353,58 +167,21 @@ When this option is present then the database engine will use the following nami
 
   - Checkpoint files will use .CHK for their file extension
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Default Value:</p></td>
-<td><p>JET_bitESE98FileNames</p></td>
-</tr>
-<tr class="even">
-<td><p>Type:</p></td>
-<td><p>JET_GRBIT (integer)</p></td>
-</tr>
-<tr class="odd">
-<td><p>Valid Range:</p></td>
-<td><p>0, JET_bitESE98FileNames</p></td>
-</tr>
-<tr class="even">
-<td><p>Scope:</p></td>
-<td><p>Instance</p></td>
-</tr>
-<tr class="odd">
-<td><p>Set After <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="even">
-<td><p>Set after <a href="gg294068(v=exchg.10).md">JetInit</a>:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affects Physical Layout:</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="even">
-<td><p>Affects Reliability:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affects Performance:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="even">
-<td><p>Affects Resources:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="odd">
-<td><p>Availability:</p></td>
-<td><p>Windows Vista and later releases</p></td>
-</tr>
-</tbody>
-</table>
+
+| 
+|
+| <p>Default Value:</p> | <p>JET_bitESE98FileNames</p> | 
+| <p>Type:</p> | <p>JET_GRBIT (integer)</p> | 
+| <p>Valid Range:</p> | <p>0, JET_bitESE98FileNames</p> | 
+| <p>Scope:</p> | <p>Instance</p> | 
+| <p>Set After <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Yes</p> | 
+| <p>Set after <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>No</p> | 
+| <p>Affects Physical Layout:</p> | <p>Yes</p> | 
+| <p>Affects Reliability:</p> | <p>No</p> | 
+| <p>Affects Performance:</p> | <p>No</p> | 
+| <p>Affects Resources:</p> | <p>No</p> | 
+| <p>Availability:</p> | <p>Windows Vista and later releases</p> | 
+
 
 
 *JET_paramLogBuffers*  
@@ -416,60 +193,21 @@ This parameter has an impact on performance. When the database engine is under h
 
 **Windows XP and Windows 2000:**  On Windows XP and previous releases, it is not recommended to set this parameter to a number of buffers that is larger (in bytes) than half the size of a transaction log file.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Default Value:</p></td>
-<td><p><strong>Windows 2000, Windows XP, and Windows Server 2003:</strong>  80</p>
-<p><strong>Windows Vista:</strong>  126</p></td>
-</tr>
-<tr class="even">
-<td><p>Type:</p></td>
-<td><p>Integer</p></td>
-</tr>
-<tr class="odd">
-<td><p>Valid Range:</p></td>
-<td><p><strong>Windows 2000, Windows XP, and Windows Server 2003:</strong>  80 – 2147483647</p>
-<p><strong>Windows Vista:</strong>  1 – 2147483647</p></td>
-</tr>
-<tr class="even">
-<td><p>Scope:</p></td>
-<td><p>Instance</p></td>
-</tr>
-<tr class="odd">
-<td><p>Set After <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="even">
-<td><p>Set after <a href="gg294068(v=exchg.10).md">JetInit</a>:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affects Physical Layout:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="even">
-<td><p>Affects Reliability:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affects Performance:</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="even">
-<td><p>Affects Resources:</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="odd">
-<td><p>Availability:</p></td>
-<td><p>All</p></td>
-</tr>
-</tbody>
-</table>
+
+| 
+|
+| <p>Default Value:</p> | <p><strong>Windows 2000, Windows XP, and Windows Server 2003:</strong>  80</p><p><strong>Windows Vista:</strong>  126</p> | 
+| <p>Type:</p> | <p>Integer</p> | 
+| <p>Valid Range:</p> | <p><strong>Windows 2000, Windows XP, and Windows Server 2003:</strong>  80 – 2147483647</p><p><strong>Windows Vista:</strong>  1 – 2147483647</p> | 
+| <p>Scope:</p> | <p>Instance</p> | 
+| <p>Set After <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Yes</p> | 
+| <p>Set after <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>No</p> | 
+| <p>Affects Physical Layout:</p> | <p>No</p> | 
+| <p>Affects Reliability:</p> | <p>No</p> | 
+| <p>Affects Performance:</p> | <p>Yes</p> | 
+| <p>Affects Resources:</p> | <p>Yes</p> | 
+| <p>Availability:</p> | <p>All</p> | 
+
 
 
 *JET_paramLogCheckpointPeriod*  
@@ -479,58 +217,21 @@ This parameter configures the database engine to take a checkpoint when the spec
 
 **Windows XP:**  As of Windows XP, this parameter is obsolete and does not affect the operation of the database engine.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Default Value:</p></td>
-<td><p>1024</p></td>
-</tr>
-<tr class="even">
-<td><p>Type:</p></td>
-<td><p>Integer</p></td>
-</tr>
-<tr class="odd">
-<td><p>Valid Range:</p></td>
-<td><p>0 – 2147483647</p></td>
-</tr>
-<tr class="even">
-<td><p>Scope:</p></td>
-<td><p>Instance</p></td>
-</tr>
-<tr class="odd">
-<td><p>Set After <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="even">
-<td><p>Set after <a href="gg294068(v=exchg.10).md">JetInit</a>:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affects Physical Layout:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="even">
-<td><p>Affects Reliability:</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affects Performance:</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="even">
-<td><p>Affects Resources:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="odd">
-<td><p>Availability:</p></td>
-<td><p>All</p></td>
-</tr>
-</tbody>
-</table>
+
+| 
+|
+| <p>Default Value:</p> | <p>1024</p> | 
+| <p>Type:</p> | <p>Integer</p> | 
+| <p>Valid Range:</p> | <p>0 – 2147483647</p> | 
+| <p>Scope:</p> | <p>Instance</p> | 
+| <p>Set After <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Yes</p> | 
+| <p>Set after <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>No</p> | 
+| <p>Affects Physical Layout:</p> | <p>No</p> | 
+| <p>Affects Reliability:</p> | <p>Yes</p> | 
+| <p>Affects Performance:</p> | <p>Yes</p> | 
+| <p>Affects Resources:</p> | <p>No</p> | 
+| <p>Availability:</p> | <p>All</p> | 
+
 
 
 *JET_paramLogFileCreateAsynch*  
@@ -538,58 +239,21 @@ This parameter configures the database engine to take a checkpoint when the spec
 
 When this parameter is set to true, the database engine will create the next transaction log file as the current transaction log file is consumed. The intent is to minimize the time spent switching from one transaction log file to the next under a heavy update load.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Default Value:</p></td>
-<td><p>True</p></td>
-</tr>
-<tr class="even">
-<td><p>Type:</p></td>
-<td><p>Boolean</p></td>
-</tr>
-<tr class="odd">
-<td><p>Valid Range:</p></td>
-<td><p>False, True</p></td>
-</tr>
-<tr class="even">
-<td><p>Scope:</p></td>
-<td><p>Instance</p></td>
-</tr>
-<tr class="odd">
-<td><p>Set After <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="even">
-<td><p>Set after <a href="gg294068(v=exchg.10).md">JetInit</a>:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affects Physical Layout:</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="even">
-<td><p>Affects Reliability:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affects Performance:</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="even">
-<td><p>Affects Resources:</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="odd">
-<td><p>Availability:</p></td>
-<td><p>Windows XP and later releases</p></td>
-</tr>
-</tbody>
-</table>
+
+| 
+|
+| <p>Default Value:</p> | <p>True</p> | 
+| <p>Type:</p> | <p>Boolean</p> | 
+| <p>Valid Range:</p> | <p>False, True</p> | 
+| <p>Scope:</p> | <p>Instance</p> | 
+| <p>Set After <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Yes</p> | 
+| <p>Set after <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>No</p> | 
+| <p>Affects Physical Layout:</p> | <p>Yes</p> | 
+| <p>Affects Reliability:</p> | <p>No</p> | 
+| <p>Affects Performance:</p> | <p>Yes</p> | 
+| <p>Affects Resources:</p> | <p>Yes</p> | 
+| <p>Availability:</p> | <p>Windows XP and later releases</p> | 
+
 
 
 *JET_paramLogFilePath*  
@@ -603,58 +267,21 @@ The properties of the host volume of the transaction log files and their placeme
 
 **Note**  If a relative path is specified then it will be relative to the current working directory of the process that hosts the application that is using the database engine.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Default Value:</p></td>
-<td><p>&quot;.\&quot;</p></td>
-</tr>
-<tr class="even">
-<td><p>Type:</p></td>
-<td><p>Folder Path (string)</p></td>
-</tr>
-<tr class="odd">
-<td><p>Valid Range:</p></td>
-<td><p>0 – 246 characters</p></td>
-</tr>
-<tr class="even">
-<td><p>Scope:</p></td>
-<td><p>Instance</p></td>
-</tr>
-<tr class="odd">
-<td><p>Set After <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="even">
-<td><p>Set after <a href="gg294068(v=exchg.10).md">JetInit</a>:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affects Physical Layout:</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="even">
-<td><p>Affects Reliability:</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affects Performance:</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="even">
-<td><p>Affects Resources:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="odd">
-<td><p>Availability:</p></td>
-<td><p>All</p></td>
-</tr>
-</tbody>
-</table>
+
+| 
+|
+| <p>Default Value:</p> | <p>".\"</p> | 
+| <p>Type:</p> | <p>Folder Path (string)</p> | 
+| <p>Valid Range:</p> | <p>0 – 246 characters</p> | 
+| <p>Scope:</p> | <p>Instance</p> | 
+| <p>Set After <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Yes</p> | 
+| <p>Set after <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>No</p> | 
+| <p>Affects Physical Layout:</p> | <p>Yes</p> | 
+| <p>Affects Reliability:</p> | <p>Yes</p> | 
+| <p>Affects Performance:</p> | <p>Yes</p> | 
+| <p>Affects Resources:</p> | <p>No</p> | 
+| <p>Availability:</p> | <p>All</p> | 
+
 
 
 *JET_paramLogFileSize*  
@@ -666,59 +293,21 @@ This parameter has an impact on reliability. If the setting is too small then th
 
 This parameter has an impact on performance. If the setting is very large then [JetInit](./jetinit-function.md) will be slow because the database engine must read the youngest log file (at a minimum) when it initializes. If the setting is very large then it will also take longer to switch between log files. If the setting is very small then more log files will need to be created for a given number of updates which will add more overhead.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Default Value:</p></td>
-<td><p>5120</p></td>
-</tr>
-<tr class="even">
-<td><p>Type:</p></td>
-<td><p>Integer</p></td>
-</tr>
-<tr class="odd">
-<td><p>Valid Range:</p></td>
-<td><p><strong>Windows 2000, Windows XP, and Windows Server 2003:</strong>  128 – 32768</p>
-<p><strong>Windows Vista:</strong>  64 – 32768</p></td>
-</tr>
-<tr class="even">
-<td><p>Scope:</p></td>
-<td><p>Instance</p></td>
-</tr>
-<tr class="odd">
-<td><p>Set After <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="even">
-<td><p>Set after <a href="gg294068(v=exchg.10).md">JetInit</a>:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affects Physical Layout:</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="even">
-<td><p>Affects Reliability:</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affects Performance:</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="even">
-<td><p>Affects Resources:</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="odd">
-<td><p>Availability:</p></td>
-<td><p>All</p></td>
-</tr>
-</tbody>
-</table>
+
+| 
+|
+| <p>Default Value:</p> | <p>5120</p> | 
+| <p>Type:</p> | <p>Integer</p> | 
+| <p>Valid Range:</p> | <p><strong>Windows 2000, Windows XP, and Windows Server 2003:</strong>  128 – 32768</p><p><strong>Windows Vista:</strong>  64 – 32768</p> | 
+| <p>Scope:</p> | <p>Instance</p> | 
+| <p>Set After <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Yes</p> | 
+| <p>Set after <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>No</p> | 
+| <p>Affects Physical Layout:</p> | <p>Yes</p> | 
+| <p>Affects Reliability:</p> | <p>Yes</p> | 
+| <p>Affects Performance:</p> | <p>Yes</p> | 
+| <p>Affects Resources:</p> | <p>Yes</p> | 
+| <p>Availability:</p> | <p>All</p> | 
+
 
 
 *JET_paramLogWaitingUserMax*  
@@ -728,58 +317,21 @@ This parameter attempts to optimize the flush of the log buffer caused by a dura
 
 **Windows XP:**  As of Windows XP, this parameter is obsolete and does not affect the operation of the database engine.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Default Value:</p></td>
-<td><p>3</p></td>
-</tr>
-<tr class="even">
-<td><p>Type:</p></td>
-<td><p>Integer</p></td>
-</tr>
-<tr class="odd">
-<td><p>Valid Range:</p></td>
-<td><p>0 – 2147483647</p></td>
-</tr>
-<tr class="even">
-<td><p>Scope:</p></td>
-<td><p>Instance</p></td>
-</tr>
-<tr class="odd">
-<td><p>Set After <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="even">
-<td><p>Set after <a href="gg294068(v=exchg.10).md">JetInit</a>:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affects Physical Layout:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="even">
-<td><p>Affects Reliability:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affects Performance:</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="even">
-<td><p>Affects Resources:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="odd">
-<td><p>Availability:</p></td>
-<td><p>All</p></td>
-</tr>
-</tbody>
-</table>
+
+| 
+|
+| <p>Default Value:</p> | <p>3</p> | 
+| <p>Type:</p> | <p>Integer</p> | 
+| <p>Valid Range:</p> | <p>0 – 2147483647</p> | 
+| <p>Scope:</p> | <p>Instance</p> | 
+| <p>Set After <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Yes</p> | 
+| <p>Set after <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>No</p> | 
+| <p>Affects Physical Layout:</p> | <p>No</p> | 
+| <p>Affects Reliability:</p> | <p>No</p> | 
+| <p>Affects Performance:</p> | <p>Yes</p> | 
+| <p>Affects Resources:</p> | <p>No</p> | 
+| <p>Availability:</p> | <p>All</p> | 
+
 
 
 *JET_paramRecovery*  
@@ -789,58 +341,21 @@ This parameter is the master switch that controls crash recovery for an instance
 
 Disabling recovery is useful in special circumstances where it is known that the contents of a database are not useful in the event of a crash. Recovery should be enabled for all other cases.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Default Value:</p></td>
-<td><p>&quot;On&quot;</p></td>
-</tr>
-<tr class="even">
-<td><p>Type:</p></td>
-<td><p>String</p></td>
-</tr>
-<tr class="odd">
-<td><p>Valid Range:</p></td>
-<td><p>0 – 259 characters</p></td>
-</tr>
-<tr class="even">
-<td><p>Scope:</p></td>
-<td><p>Instance</p></td>
-</tr>
-<tr class="odd">
-<td><p>Set After <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="even">
-<td><p>Set after <a href="gg294068(v=exchg.10).md">JetInit</a>:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affects Physical Layout:</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="even">
-<td><p>Affects Reliability:</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affects Performance:</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="even">
-<td><p>Affects Resources:</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="odd">
-<td><p>Availability:</p></td>
-<td><p>All</p></td>
-</tr>
-</tbody>
-</table>
+
+| 
+|
+| <p>Default Value:</p> | <p>"On"</p> | 
+| <p>Type:</p> | <p>String</p> | 
+| <p>Valid Range:</p> | <p>0 – 259 characters</p> | 
+| <p>Scope:</p> | <p>Instance</p> | 
+| <p>Set After <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Yes</p> | 
+| <p>Set after <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>No</p> | 
+| <p>Affects Physical Layout:</p> | <p>Yes</p> | 
+| <p>Affects Reliability:</p> | <p>Yes</p> | 
+| <p>Affects Performance:</p> | <p>Yes</p> | 
+| <p>Affects Resources:</p> | <p>Yes</p> | 
+| <p>Availability:</p> | <p>All</p> | 
+
 
 
 *JET_paramSystemPath*  
@@ -850,58 +365,21 @@ This parameter indicates the relative or absolute file system path of the folder
 
 **Note**  If a relative path is specified then it will be relative to the current working directory of the process that hosts the application that is using the database engine.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Default Value:</p></td>
-<td><p>&quot;.\&quot;</p></td>
-</tr>
-<tr class="even">
-<td><p>Type:</p></td>
-<td><p>Folder Path (string)</p></td>
-</tr>
-<tr class="odd">
-<td><p>Valid Range:</p></td>
-<td><p>0 – 246 characters</p></td>
-</tr>
-<tr class="even">
-<td><p>Scope:</p></td>
-<td><p>Instance</p></td>
-</tr>
-<tr class="odd">
-<td><p>Set After <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="even">
-<td><p>Set after <a href="gg294068(v=exchg.10).md">JetInit</a>:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affects Physical Layout:</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="even">
-<td><p>Affects Reliability:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affects Performance:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="even">
-<td><p>Affects Resources:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="odd">
-<td><p>Availability:</p></td>
-<td><p>All</p></td>
-</tr>
-</tbody>
-</table>
+
+| 
+|
+| <p>Default Value:</p> | <p>".\"</p> | 
+| <p>Type:</p> | <p>Folder Path (string)</p> | 
+| <p>Valid Range:</p> | <p>0 – 246 characters</p> | 
+| <p>Scope:</p> | <p>Instance</p> | 
+| <p>Set After <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Yes</p> | 
+| <p>Set after <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>No</p> | 
+| <p>Affects Physical Layout:</p> | <p>Yes</p> | 
+| <p>Affects Reliability:</p> | <p>No</p> | 
+| <p>Affects Performance:</p> | <p>No</p> | 
+| <p>Affects Resources:</p> | <p>No</p> | 
+| <p>Availability:</p> | <p>All</p> | 
+
 
 
 *JET_paramWaitLogFlush*  
@@ -911,58 +389,21 @@ This parameter attempts to optimize the flush of the log buffer caused by a dura
 
 **Windows XP:**  As of Windows XP, this parameter is obsolete and does not affect the operation of the database engine.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Default Value:</p></td>
-<td><p>0</p></td>
-</tr>
-<tr class="even">
-<td><p>Type:</p></td>
-<td><p>Integer</p></td>
-</tr>
-<tr class="odd">
-<td><p>Valid Range:</p></td>
-<td><p>0 – 2147483647</p></td>
-</tr>
-<tr class="even">
-<td><p>Scope:</p></td>
-<td><p>Instance or Session</p></td>
-</tr>
-<tr class="odd">
-<td><p>Set After <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="even">
-<td><p>Set after <a href="gg294068(v=exchg.10).md">JetInit</a>:</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affects Physical Layout:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="even">
-<td><p>Affects Reliability:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affects Performance:</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="even">
-<td><p>Affects Resources:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="odd">
-<td><p>Availability:</p></td>
-<td><p>All</p></td>
-</tr>
-</tbody>
-</table>
+
+| 
+|
+| <p>Default Value:</p> | <p>0</p> | 
+| <p>Type:</p> | <p>Integer</p> | 
+| <p>Valid Range:</p> | <p>0 – 2147483647</p> | 
+| <p>Scope:</p> | <p>Instance or Session</p> | 
+| <p>Set After <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Yes</p> | 
+| <p>Set after <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>Yes</p> | 
+| <p>Affects Physical Layout:</p> | <p>No</p> | 
+| <p>Affects Reliability:</p> | <p>No</p> | 
+| <p>Affects Performance:</p> | <p>Yes</p> | 
+| <p>Affects Resources:</p> | <p>No</p> | 
+| <p>Availability:</p> | <p>All</p> | 
+
 
 
 *JET_paramLegacyFileNames*  
@@ -974,82 +415,32 @@ The JET_bitESE98FileNames ensures the file extension used on the transaction log
 
 **Note**  To set a bit, the value should first be retrieved, and then "or" in the desired compatibility bit.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Default Value:</p></td>
-<td><p>JET_bitESE98FileNames</p></td>
-</tr>
-<tr class="even">
-<td><p>Type:</p></td>
-<td><p>JET_GRBIT (integer)</p></td>
-</tr>
-<tr class="odd">
-<td><p>Valid Range:</p></td>
-<td><p>JET_bitESE98FileNames</p></td>
-</tr>
-<tr class="even">
-<td><p>Scope:</p></td>
-<td><p>Instance</p></td>
-</tr>
-<tr class="odd">
-<td><p>Set After <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="even">
-<td><p>Set after <a href="gg294068(v=exchg.10).md">JetInit</a>:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affects Physical Layout:</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="even">
-<td><p>Affects Reliability:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affects Performance:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="even">
-<td><p>Affects Resources:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="odd">
-<td><p>Availability:</p></td>
-<td><p>Starting with Windows Server 2008 and Windows Vista</p></td>
-</tr>
-</tbody>
-</table>
+
+| 
+|
+| <p>Default Value:</p> | <p>JET_bitESE98FileNames</p> | 
+| <p>Type:</p> | <p>JET_GRBIT (integer)</p> | 
+| <p>Valid Range:</p> | <p>JET_bitESE98FileNames</p> | 
+| <p>Scope:</p> | <p>Instance</p> | 
+| <p>Set After <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Yes</p> | 
+| <p>Set after <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>No</p> | 
+| <p>Affects Physical Layout:</p> | <p>Yes</p> | 
+| <p>Affects Reliability:</p> | <p>No</p> | 
+| <p>Affects Performance:</p> | <p>No</p> | 
+| <p>Affects Resources:</p> | <p>No</p> | 
+| <p>Availability:</p> | <p>Starting with Windows Server 2008 and Windows Vista</p> | 
+
 
 
 ## Requirements
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Client</strong></p></td>
-<td><p>Requires Windows Vista, Windows XP, or Windows 2000 Professional.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Server</strong></p></td>
-<td><p>Requires Windows Server 2008, Windows Server 2003, or Windows 2000 Server.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>Header</strong></p></td>
-<td><p>Declared in Esent.h.</p></td>
-</tr>
-</tbody>
-</table>
+
+| 
+|
+| <p><strong>Client</strong></p> | <p>Requires Windows Vista, Windows XP, or Windows 2000 Professional.</p> | 
+| <p><strong>Server</strong></p> | <p>Requires Windows Server 2008, Windows Server 2003, or Windows 2000 Server.</p> | 
+| <p><strong>Header</strong></p> | <p>Declared in Esent.h.</p> | 
+
 
 
 ## See Also

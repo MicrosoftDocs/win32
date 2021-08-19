@@ -12,66 +12,20 @@ The AVI Draw filter is pulled automatically into a playback graph instead of the
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>Filter Interfaces</td>
-<td><a href="/windows/desktop/api/Strmif/nn-strmif-ibasefilter"><strong>IBaseFilter</strong></a></td>
-</tr>
-<tr class="even">
-<td>Input Pin Media Types</td>
-<td>Major Type: MEDIATYPE_VideoSubtypes:<br/>
-<ul>
-<li>MEDIASUBTYPE_MJPG</li>
-<li>MEDIASUBTYPE_TVMJ</li>
-<li>MEDIASUBTYPE_WAKE</li>
-<li>MEDIASUBTYPE_CFCC</li>
-<li>MEDIASUBTYPE_IJPG</li>
-<li>MEDIASUBTYPE_Plum</li>
-<li>MEDIASUBTYPE_DVCS</li>
-<li>MEDIASUBTYPE_DVSD</li>
-<li>MEDIASUBTYPE_MDVF</li>
-<li>Format type: FORMAT_VideoInfo</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>Input Pin Interfaces</td>
-<td><a href="/windows/desktop/api/Strmif/nn-strmif-imeminputpin"><strong>IMemInputPin</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-ipin"><strong>IPin</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol"><strong>IQualityControl</strong></a></td>
-</tr>
-<tr class="even">
-<td>Output Pin Media Types</td>
-<td>MEDIATYPE_Video, MEDIASUBTYPE_NULL</td>
-</tr>
-<tr class="odd">
-<td>Output Pin Interfaces</td>
-<td><a href="/windows/desktop/api/Control/nn-control-imediaposition"><strong>IMediaPosition</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-imediaseeking"><strong>IMediaSeeking</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-ioverlaynotify"><strong>IOverlayNotify</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-ipin"><strong>IPin</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol"><strong>IQualityControl</strong></a></td>
-</tr>
-<tr class="even">
-<td>Filter CLSID</td>
-<td>CLSID_AVIDraw</td>
-</tr>
-<tr class="odd">
-<td>Property Page CLSID</td>
-<td>No property page.</td>
-</tr>
-<tr class="even">
-<td>Executable</td>
-<td>quartz.dll</td>
-</tr>
-<tr class="odd">
-<td><a href="merit.md">Merit</a></td>
-<td>MERIT_NORMAL + 100</td>
-</tr>
-<tr class="even">
-<td><a href="filter-categories.md">Filter Category</a></td>
-<td>CLSID_LegacyAmFilterCategory</td>
-</tr>
-</tbody>
-</table>
+
+| 
+|
+| Filter Interfaces | <a href="/windows/desktop/api/Strmif/nn-strmif-ibasefilter"><strong>IBaseFilter</strong></a> | 
+| Input Pin Media Types | Major Type: MEDIATYPE_VideoSubtypes:<br /><ul><li>MEDIASUBTYPE_MJPG</li><li>MEDIASUBTYPE_TVMJ</li><li>MEDIASUBTYPE_WAKE</li><li>MEDIASUBTYPE_CFCC</li><li>MEDIASUBTYPE_IJPG</li><li>MEDIASUBTYPE_Plum</li><li>MEDIASUBTYPE_DVCS</li><li>MEDIASUBTYPE_DVSD</li><li>MEDIASUBTYPE_MDVF</li><li>Format type: FORMAT_VideoInfo</li></ul> | 
+| Input Pin Interfaces | <a href="/windows/desktop/api/Strmif/nn-strmif-imeminputpin"><strong>IMemInputPin</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-ipin"><strong>IPin</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol"><strong>IQualityControl</strong></a> | 
+| Output Pin Media Types | MEDIATYPE_Video, MEDIASUBTYPE_NULL | 
+| Output Pin Interfaces | <a href="/windows/desktop/api/Control/nn-control-imediaposition"><strong>IMediaPosition</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-imediaseeking"><strong>IMediaSeeking</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-ioverlaynotify"><strong>IOverlayNotify</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-ipin"><strong>IPin</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol"><strong>IQualityControl</strong></a> | 
+| Filter CLSID | CLSID_AVIDraw | 
+| Property Page CLSID | No property page. | 
+| Executable | quartz.dll | 
+| <a href="merit.md">Merit</a> | MERIT_NORMAL + 100 | 
+| <a href="filter-categories.md">Filter Category</a> | CLSID_LegacyAmFilterCategory | 
+
 
 
 

@@ -72,62 +72,23 @@ This column contains a bit flag that specifies options for remote execution. Add
 
 
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Bit flag</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><dl> <dt><strong>msidbComponentAttributesLocalOnly</strong></dt> <dt>0</dt> <dt>0x0000</dt> </dl> Component cannot be run from source. Set this bit for all components belonging to a feature to prevent the feature from being run-from-network or run-from-source. Note that if a feature has no components, the feature always shows run-from-source and run-from-my-computer as valid options.<br/></td>
-</tr>
-<tr class="even">
-<td><dl> <dt><strong>msidbComponentAttributesSourceOnly</strong></dt> <dt>1</dt> <dt>0x0001</dt> </dl> Component can only be run from source. Set this bit for all components belonging to a feature to prevent the feature from being run-from-my-computer. Note that if a feature has no components, the feature always shows run-from-source and run-from-my-computer as valid options.<br/></td>
-</tr>
-<tr class="odd">
-<td><dl> <dt><strong>msidbComponentAttributesOptional</strong></dt> <dt>2</dt> <dt>0x0002</dt> </dl> Component can run locally or from source.<br/></td>
-</tr>
-<tr class="even">
-<td><dl> <dt><strong>msidbComponentAttributesRegistryKeyPath</strong></dt> <dt>4</dt> <dt>0x0004</dt> </dl> If this bit is set, the value in the KeyPath column is used as a key into the <a href="registry-table.md">Registry table</a>. If the Value field of the corresponding record in the Registry table is null, the Name field in that record must not contain &quot;+&quot;, &quot;-&quot;, or &quot;*&quot;. For more information, see the description of the Name field in <a href="registry-table.md">Registry table</a>.<br/> Setting this bit is recommended for registry entries written to the HKCU hive. This ensures the installer writes the necessary HKCU registry entries when there are multiple users on the same machine.<br/></td>
-</tr>
-<tr class="odd">
-<td><dl> <dt><strong>msidbComponentAttributesSharedDllRefCount</strong></dt> <dt>8</dt> <dt>0x0008</dt> </dl> If this bit is set, the installer increments the reference count in the shared DLL registry of the component's key file. If this bit is not set, the installer increments the reference count only if the reference count already exists.<br/></td>
-</tr>
-<tr class="even">
-<td><dl> <dt><strong>msidbComponentAttributesPermanent</strong></dt> <dt>16</dt> <dt>0x0010</dt> </dl> If this bit is set, the installer does not remove the component during an uninstall. The installer registers an extra system client for the component in the Windows Installer registry settings.<br/></td>
-</tr>
-<tr class="odd">
-<td><dl> <dt><strong>msidbComponentAttributesODBCDataSource</strong></dt> <dt>32</dt> <dt>0x0020</dt> </dl> If this bit is set, the value in the KeyPath column is a key into the <a href="odbcdatasource-table.md">ODBCDataSource table</a>.<br/></td>
-</tr>
-<tr class="even">
-<td><dl> <dt><strong>msidbComponentAttributesTransitive</strong></dt> <dt>64</dt> <dt>0x0040</dt> </dl> If this bit is set, the installer reevaluates the value of the statement in the Condition column upon a reinstall. If the value was previously False and has changed to True, the installer installs the component. If the value was previously True and has changed to False, the installer removes the component even if the component has other products as clients.<br/> This bit should only be set for transitive components. See <a href="using-transitive-components.md">Using Transitive Components</a>.<br/></td>
-</tr>
-<tr class="odd">
-<td><dl> <dt><strong>msidbComponentAttributesNeverOverwrite</strong></dt> <dt>128</dt> <dt>0x0080</dt> </dl> If this bit is set, the installer does not install or reinstall the component if a key path file or a key path registry entry for the component already exists. The application does register itself as a client of the component.<br/> Use this flag only for components that are being registered by the Registry table. Do not use this flag for components registered by the <a href="appid-table.md">AppId</a>, <a href="class-table.md">Class</a>, <a href="extension-table.md">Extension</a>, <a href="progid-table.md">ProgId</a>, <a href="mime-table.md">MIME</a>, and <a href="verb-table.md">Verb tables</a>.<br/></td>
-</tr>
-<tr class="even">
-<td><dl> <dt><strong>msidbComponentAttributes64bit</strong></dt> <dt>256</dt> <dt>0x0100</dt> </dl> Set this bit to mark this as a 64-bit component. This attribute facilitates the installation of packages that include both 32-bit and 64-bit components. If this bit is not set, the component is registered as a 32-bit component.<br/> If this is a 64-bit component replacing a 32-bit component, set this bit and assign a new GUID in the ComponentId column.<br/></td>
-</tr>
-<tr class="odd">
-<td><dl> <dt><strong>msidbComponentAttributesDisableRegistryReflection</strong></dt> <dt>512</dt> <dt>0x0200</dt> </dl> Set this bit to disable <a href="/windows/desktop/WinProg64/registry-reflection">Registry Reflection</a> on all existing and new registry keys affected by this component. If this bit is set, the Windows Installer calls the <a href="/windows/desktop/api/winreg/nf-winreg-regdisablereflectionkey"><strong>RegDisableReflectionKey</strong></a> on each key being accessed by the component. This bit is available with Windows Installer version 4.0. This bit is ignored on 32-bit systems. This bit is ignored on the 64-bit versions of Windows XP.<br/>
-<blockquote>
-[!Note]<br />
-32-bit Windows applications running on the 64-bit Windows emulator (WOW64) refer to a different view of the registry than 64-bit applications. Registry reflection copies some registry values between these two registry views.
-</blockquote>
-<br/> <br/></td>
-</tr>
-<tr class="even">
-<td><dl> <dt><strong>msidbComponentAttributesUninstallOnSupersedence</strong></dt> <dt>1024</dt> <dt>0x0400</dt> </dl> Set this bit for a component in a patch package to prevent leaving orphan components on the computer. If a subsequent patch is installed, marked with the <strong>msidbPatchSequenceSupersedeEarlier</strong> value in its <a href="msipatchsequence-table.md">MsiPatchSequence</a> table to supersede the first patch, Windows Installer 4.5 and later can unregister and uninstall components marked with the <strong>msidbComponentAttributesUninstallOnSupersedence</strong> value. If the component is not marked with this bit, installation of a superseding patch can leave behind an unused component on the computer.<br/> Setting the <strong>MSIUNINSTALLSUPERSEDEDCOMPONENTS</strong> property has the same effect as setting this bit for all components.<br/> <strong><a href="not-supported-in-windows-installer-4-0.md">Windows Installer 4.0 and earlier</a>:</strong> The <strong>msidbComponentAttributesUninstallOnSupersedence</strong> value is not supported and is ignored.<br/> <br/></td>
-</tr>
-<tr class="odd">
-<td><dl> <dt><strong>msidbComponentAttributesShared</strong></dt> <dt>2048</dt> <dt>0x0800</dt> </dl> If a component is marked with this attribute value in at least one package installed on the system, the installer treats the component as marked in all packages. If a package that shares the marked component is uninstalled, Windows Installer 4.5 can continue to share the highest version of the component on the system, even if that highest version was installed by the package that is being uninstalled. <br/> If the DisableSharedComponent policy is set to 1, no package gets the shared component functionality enabled by this bit.<br/> <strong><a href="not-supported-in-windows-installer-4-0.md">Windows Installer 4.0 and earlier</a>:</strong> The <strong>msidbComponentAttributesShared</strong> value is not supported and is ignored.<br/> <br/></td>
-</tr>
-</tbody>
-</table>
+
+| Bit flag | 
+|----------|
+| <dl><dt><strong>msidbComponentAttributesLocalOnly</strong></dt><dt>0</dt><dt>0x0000</dt></dl> Component cannot be run from source. Set this bit for all components belonging to a feature to prevent the feature from being run-from-network or run-from-source. Note that if a feature has no components, the feature always shows run-from-source and run-from-my-computer as valid options.<br /> | 
+| <dl><dt><strong>msidbComponentAttributesSourceOnly</strong></dt><dt>1</dt><dt>0x0001</dt></dl> Component can only be run from source. Set this bit for all components belonging to a feature to prevent the feature from being run-from-my-computer. Note that if a feature has no components, the feature always shows run-from-source and run-from-my-computer as valid options.<br /> | 
+| <dl><dt><strong>msidbComponentAttributesOptional</strong></dt><dt>2</dt><dt>0x0002</dt></dl> Component can run locally or from source.<br /> | 
+| <dl><dt><strong>msidbComponentAttributesRegistryKeyPath</strong></dt><dt>4</dt><dt>0x0004</dt></dl> If this bit is set, the value in the KeyPath column is used as a key into the <a href="registry-table.md">Registry table</a>. If the Value field of the corresponding record in the Registry table is null, the Name field in that record must not contain "+", "-", or "*". For more information, see the description of the Name field in <a href="registry-table.md">Registry table</a>.<br /> Setting this bit is recommended for registry entries written to the HKCU hive. This ensures the installer writes the necessary HKCU registry entries when there are multiple users on the same machine.<br /> | 
+| <dl><dt><strong>msidbComponentAttributesSharedDllRefCount</strong></dt><dt>8</dt><dt>0x0008</dt></dl> If this bit is set, the installer increments the reference count in the shared DLL registry of the component's key file. If this bit is not set, the installer increments the reference count only if the reference count already exists.<br /> | 
+| <dl><dt><strong>msidbComponentAttributesPermanent</strong></dt><dt>16</dt><dt>0x0010</dt></dl> If this bit is set, the installer does not remove the component during an uninstall. The installer registers an extra system client for the component in the Windows Installer registry settings.<br /> | 
+| <dl><dt><strong>msidbComponentAttributesODBCDataSource</strong></dt><dt>32</dt><dt>0x0020</dt></dl> If this bit is set, the value in the KeyPath column is a key into the <a href="odbcdatasource-table.md">ODBCDataSource table</a>.<br /> | 
+| <dl><dt><strong>msidbComponentAttributesTransitive</strong></dt><dt>64</dt><dt>0x0040</dt></dl> If this bit is set, the installer reevaluates the value of the statement in the Condition column upon a reinstall. If the value was previously False and has changed to True, the installer installs the component. If the value was previously True and has changed to False, the installer removes the component even if the component has other products as clients.<br /> This bit should only be set for transitive components. See <a href="using-transitive-components.md">Using Transitive Components</a>.<br /> | 
+| <dl><dt><strong>msidbComponentAttributesNeverOverwrite</strong></dt><dt>128</dt><dt>0x0080</dt></dl> If this bit is set, the installer does not install or reinstall the component if a key path file or a key path registry entry for the component already exists. The application does register itself as a client of the component.<br /> Use this flag only for components that are being registered by the Registry table. Do not use this flag for components registered by the <a href="appid-table.md">AppId</a>, <a href="class-table.md">Class</a>, <a href="extension-table.md">Extension</a>, <a href="progid-table.md">ProgId</a>, <a href="mime-table.md">MIME</a>, and <a href="verb-table.md">Verb tables</a>.<br /> | 
+| <dl><dt><strong>msidbComponentAttributes64bit</strong></dt><dt>256</dt><dt>0x0100</dt></dl> Set this bit to mark this as a 64-bit component. This attribute facilitates the installation of packages that include both 32-bit and 64-bit components. If this bit is not set, the component is registered as a 32-bit component.<br /> If this is a 64-bit component replacing a 32-bit component, set this bit and assign a new GUID in the ComponentId column.<br /> | 
+| <dl><dt><strong>msidbComponentAttributesDisableRegistryReflection</strong></dt><dt>512</dt><dt>0x0200</dt></dl> Set this bit to disable <a href="/windows/desktop/WinProg64/registry-reflection">Registry Reflection</a> on all existing and new registry keys affected by this component. If this bit is set, the Windows Installer calls the <a href="/windows/desktop/api/winreg/nf-winreg-regdisablereflectionkey"><strong>RegDisableReflectionKey</strong></a> on each key being accessed by the component. This bit is available with Windows Installer version 4.0. This bit is ignored on 32-bit systems. This bit is ignored on the 64-bit versions of Windows XP.<br /><blockquote>[!Note]<br />32-bit Windows applications running on the 64-bit Windows emulator (WOW64) refer to a different view of the registry than 64-bit applications. Registry reflection copies some registry values between these two registry views.</blockquote><br /><br /> | 
+| <dl><dt><strong>msidbComponentAttributesUninstallOnSupersedence</strong></dt><dt>1024</dt><dt>0x0400</dt></dl> Set this bit for a component in a patch package to prevent leaving orphan components on the computer. If a subsequent patch is installed, marked with the <strong>msidbPatchSequenceSupersedeEarlier</strong> value in its <a href="msipatchsequence-table.md">MsiPatchSequence</a> table to supersede the first patch, Windows Installer 4.5 and later can unregister and uninstall components marked with the <strong>msidbComponentAttributesUninstallOnSupersedence</strong> value. If the component is not marked with this bit, installation of a superseding patch can leave behind an unused component on the computer.<br /> Setting the <strong>MSIUNINSTALLSUPERSEDEDCOMPONENTS</strong> property has the same effect as setting this bit for all components.<br /><strong><a href="not-supported-in-windows-installer-4-0.md">Windows Installer 4.0 and earlier</a>:</strong> The <strong>msidbComponentAttributesUninstallOnSupersedence</strong> value is not supported and is ignored.<br /><br /> | 
+| <dl><dt><strong>msidbComponentAttributesShared</strong></dt><dt>2048</dt><dt>0x0800</dt></dl> If a component is marked with this attribute value in at least one package installed on the system, the installer treats the component as marked in all packages. If a package that shares the marked component is uninstalled, Windows Installer 4.5 can continue to share the highest version of the component on the system, even if that highest version was installed by the package that is being uninstalled. <br /> If the DisableSharedComponent policy is set to 1, no package gets the shared component functionality enabled by this bit.<br /><strong><a href="not-supported-in-windows-installer-4-0.md">Windows Installer 4.0 and earlier</a>:</strong> The <strong>msidbComponentAttributesShared</strong> value is not supported and is ignored.<br /><br /> | 
+
 
 
 

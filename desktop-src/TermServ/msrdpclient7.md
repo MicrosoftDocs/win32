@@ -110,377 +110,80 @@ The **MsRdpClient7** class has these properties.
 
 
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;">Property</th>
-<th style="text-align: left;">Access type</th>
-<th style="text-align: left;">Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;"><a href="imstscax-advancedsettings.md"><strong>AdvancedSettings</strong></a><br/></td>
-<td style="text-align: left;">Read-only<br/></td>
-<td style="text-align: left;">An <a href="imstscadvancedsettings-interface.md"><strong>IMsTscAdvancedSettings</strong></a> interface pointer.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="imsrdpclient-advancedsettings2.md"><strong>AdvancedSettings2</strong></a><br/></td>
-<td style="text-align: left;">Read-only<br/></td>
-<td style="text-align: left;">Pointer to the <a href="imsrdpclientadvancedsettings-interface.md"><strong>IMsRdpClientAdvancedSettings</strong></a> interface, used to set advanced settings for the client control.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="imsrdpclient2-advancedsettings3.md"><strong>AdvancedSettings3</strong></a><br/></td>
-<td style="text-align: left;">Read-only<br/></td>
-<td style="text-align: left;">Pointer to the <a href="imsrdpclientadvancedsettings2.md"><strong>IMsRdpClientAdvancedSettings2</strong></a> interface, used to set advanced settings for the client control.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="imsrdpclient3-advancedsettings4.md"><strong>AdvancedSettings4</strong></a><br/></td>
-<td style="text-align: left;">Read-only<br/></td>
-<td style="text-align: left;">Pointer to the <a href="imsrdpclientadvancedsettings3.md"><strong>IMsRdpClientAdvancedSettings3</strong></a> interface, used to set advanced settings for the client control.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="imsrdpclient4-advancedsettings5.md"><strong>AdvancedSettings5</strong></a><br/></td>
-<td style="text-align: left;">Read-only<br/></td>
-<td style="text-align: left;">An <a href="imsrdpclientadvancedsettings4.md"><strong>IMsRdpClientAdvancedSettings4</strong></a> interface pointer.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="imsrdpclient5-advancedsettings6.md"><strong>AdvancedSettings6</strong></a><br/></td>
-<td style="text-align: left;">Read-only<br/></td>
-<td style="text-align: left;">The interface to <a href="imsrdpclientadvancedsettings5.md"><strong>IMsRdpClientAdvancedSettings5</strong></a>.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="imsrdpclient6-advancedsettings7.md"><strong>AdvancedSettings7</strong></a><br/></td>
-<td style="text-align: left;">Read-only<br/></td>
-<td style="text-align: left;">The interface to <a href="imsrdpclientadvancedsettings6.md"><strong>IMsRdpClientAdvancedSettings6</strong></a>.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="imsrdpclient7-advancedsettings8.md"><strong>AdvancedSettings8</strong></a><br/></td>
-<td style="text-align: left;">Read-only<br/></td>
-<td style="text-align: left;">An object that supports the <a href="imsrdpclientadvancedsettings7.md"><strong>IMsRdpClientAdvancedSettings7</strong></a> interface.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="imsrdpclientnonscriptable4-allowcredentialsaving.md"><strong>AllowCredentialSaving</strong></a><br/></td>
-<td style="text-align: left;">Read/write<br/></td>
-<td style="text-align: left;">Specifies whether the credentials dialog box displays a check box to enable the saving of credentials.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="imsrdpclientnonscriptable5-allowpromptingforcredentials.md"><strong>AllowPromptingForCredentials</strong></a><br/></td>
-<td style="text-align: left;">Read/write<br/></td>
-<td style="text-align: left;">Specifies whether the Remote Desktop ActiveX control can prompt the user for credentials.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="imstscnonscriptable-binarypassword.md"><strong>BinaryPassword</strong></a><br/></td>
-<td style="text-align: left;">Read/write<br/></td>
-<td style="text-align: left;">This property is not supported.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="imstscnonscriptable-binarysalt.md"><strong>BinarySalt</strong></a><br/></td>
-<td style="text-align: left;">Read/write<br/></td>
-<td style="text-align: left;">This property is not supported.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="imstscax-cipherstrength.md"><strong>CipherStrength</strong></a><br/></td>
-<td style="text-align: left;">Read-only<br/></td>
-<td style="text-align: left;">The maximum encryption strength of the current control.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="imstscnonscriptable-cleartextpassword.md"><strong>ClearTextPassword</strong></a><br/></td>
-<td style="text-align: left;">Write-only<br/></td>
-<td style="text-align: left;">The Remote Desktop ActiveX control password, in plaintext format.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="imsrdpclient-colordepth.md"><strong>ColorDepth</strong></a><br/></td>
-<td style="text-align: left;">Read/write<br/></td>
-<td style="text-align: left;">Color depth of the current control.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="imstscax-connected.md"><strong>Connected</strong></a><br/></td>
-<td style="text-align: left;">Read-only<br/></td>
-<td style="text-align: left;">The connection state of the current control.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="imsrdpclient2-connectedstatustext.md"><strong>ConnectedStatusText</strong></a><br/></td>
-<td style="text-align: left;">Read/write<br/></td>
-<td style="text-align: left;">Text that is displayed in the client area of the control while the control is in the connected state.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="imstscax-connectingtext.md"><strong>ConnectingText</strong></a><br/></td>
-<td style="text-align: left;">Read/write<br/></td>
-<td style="text-align: left;">The text that appears centered in the control while the control is connecting.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="imsrdpclientnonscriptable3-connectionbartext.md"><strong>ConnectionBarText</strong></a><br/></td>
-<td style="text-align: left;">Read/write<br/></td>
-<td style="text-align: left;">The text string to display for the connection bar.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="imstscax-desktopheight.md"><strong>DesktopHeight</strong></a><br/></td>
-<td style="text-align: left;">Read/write<br/></td>
-<td style="text-align: left;">The current control's height, in pixels, on the initial remote desktop.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="imstscax-desktopwidth.md"><strong>DesktopWidth</strong></a><br/></td>
-<td style="text-align: left;">Read/write<br/></td>
-<td style="text-align: left;">The current control's width, in pixels, on the initial remote desktop.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="imsrdpclientnonscriptable3-devicecollection.md"><strong>DeviceCollection</strong></a><br/></td>
-<td style="text-align: left;">Read-only<br/></td>
-<td style="text-align: left;">The collection of PnP devices that are available for redirection.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="imsrdpclientnonscriptable5-disableconnectionbar.md"><strong>DisableConnectionBar</strong></a><br/></td>
-<td style="text-align: left;">Write-only<br/></td>
-<td style="text-align: left;">Specifies whether the Remote Desktop ActiveX control should disable the connection bar.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="imsrdpclientnonscriptable5-disableremoteappcapscheck.md"><strong>DisableRemoteAppCapsCheck</strong></a><br/></td>
-<td style="text-align: left;">Read/write<br/></td>
-<td style="text-align: left;">Specifies whether the Remote Desktop ActiveX control should not check the server for RemoteApp capabilities.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="imstscax-disconnectedtext.md"><strong>DisconnectedText</strong></a><br/></td>
-<td style="text-align: left;">Read/write<br/></td>
-<td style="text-align: left;">The text that appears centered in the control before a connection is terminated.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="imstscax-domain.md"><strong>Domain</strong></a><br/></td>
-<td style="text-align: left;">Read/write<br/></td>
-<td style="text-align: left;">The domain to which the current user logs on.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="imsrdpclientnonscriptable3-drivecollection.md"><strong>DriveCollection</strong></a><br/></td>
-<td style="text-align: left;">Read-only<br/></td>
-<td style="text-align: left;">The collection of disk drives that is available for redirection.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="imsrdpclientnonscriptable3-enablecredsspsupport.md"><strong>EnableCredSspSupport</strong></a><br/></td>
-<td style="text-align: left;">Read/write<br/></td>
-<td style="text-align: left;">Specifies whether CredSSP is enabled for this connection.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="imsrdpclient-extendeddisconnectreason.md"><strong>ExtendedDisconnectReason</strong></a><br/></td>
-<td style="text-align: left;">Read-only<br/></td>
-<td style="text-align: left;">Extended information about the client control's reason for disconnection.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="imsrdpclient-fullscreen.md"><strong>FullScreen</strong></a><br/></td>
-<td style="text-align: left;">Read/write<br/></td>
-<td style="text-align: left;">Indicates whether the control is in full-screen mode.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="imstscax-fullscreentitle.md"><strong>FullScreenTitle</strong></a><br/></td>
-<td style="text-align: left;">Write-only<br/></td>
-<td style="text-align: left;">The window title displayed when the control is in full-screen mode.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="imsrdpclientnonscriptable5-getremotemonitorsboundingbox.md"><strong>GetRemoteMonitorsBoundingBox</strong></a><br/></td>
-<td style="text-align: left;">Read-only<br/></td>
-<td style="text-align: left;">Specifies the bounding rectangle of the remote monitor.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="imstscax-horizontalscrollbarvisible.md"><strong>HorizontalScrollBarVisible</strong></a><br/></td>
-<td style="text-align: left;">Read-only<br/></td>
-<td style="text-align: left;">Indicates whether the control has displayed a horizontal scroll bar.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="imsrdpclientnonscriptable4-launchedviaclientshellinterface.md"><strong>LaunchedViaClientShellInterface</strong></a><br/></td>
-<td style="text-align: left;">Read/write<br/></td>
-<td style="text-align: left;">Specifies whether the user launched the client control by using the RD Web Access interface.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="imsrdpclientnonscriptable4-markrdpsettingssecure.md"><strong>MarkRdpSettingsSecure</strong></a><br/></td>
-<td style="text-align: left;">Read/write<br/></td>
-<td style="text-align: left;">Specifies whether RDP settings are marked as secure.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="imsrdpclient5-msrdpclientshell.md"><strong>MsRdpClientShell</strong></a><br/></td>
-<td style="text-align: left;">Read-only<br/></td>
-<td style="text-align: left;">The client settings for the web portal launcher.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="imsrdpclientnonscriptable3-negotiatesecuritylayer.md"><strong>NegotiateSecurityLayer</strong></a><br/></td>
-<td style="text-align: left;">Read/write<br/></td>
-<td style="text-align: left;">Specifies whether the NegotiateSecurityLayer setting is supported for this connection.<br/>
-<blockquote>
-[!Note]<br />
-When <a href="imsrdpclientnonscriptable3-enablecredsspsupport.md"><strong>CredSspSupport</strong></a> is enabled and present on the client, or when Secure Sockets Layer (SSL) is enabled with user authentication, NegotiateSecurityLayer is ignored.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="imstscnonscriptable-portablepassword.md"><strong>PortablePassword</strong></a><br/></td>
-<td style="text-align: left;">Read/write<br/></td>
-<td style="text-align: left;">This property is not supported.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="imstscnonscriptable-portablesalt.md"><strong>PortableSalt</strong></a><br/></td>
-<td style="text-align: left;">Read/write<br/></td>
-<td style="text-align: left;">This property is not supported.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="imsrdpclientnonscriptable3-promptforcredentials.md"><strong>PromptForCredentials</strong></a><br/></td>
-<td style="text-align: left;">Read/write<br/></td>
-<td style="text-align: left;">Specifies whether the prompt for credentials dialog box should be shown.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="imsrdpclientnonscriptable4-promptforcredsonclient.md"><strong>PromptForCredsOnClient</strong></a><br/></td>
-<td style="text-align: left;">Read/write<br/></td>
-<td style="text-align: left;">Specifies whether the client control displays a dialog box that prompts for credentials.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="imsrdpclientnonscriptable4-publishercertificatechain.md"><strong>PublisherCertificateChain</strong></a><br/></td>
-<td style="text-align: left;">Read/write<br/></td>
-<td style="text-align: left;">Specifies the publisher certificate chain. The chain is stored in a variant of type VT_BYREF that contains a pointer to a <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_chain_context"><strong>CERT_CHAIN_CONTEXT</strong></a> structure.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="imsrdpclientnonscriptable3-redirectdynamicdevices.md"><strong>RedirectDynamicDevices</strong></a><br/></td>
-<td style="text-align: left;">Read/write<br/></td>
-<td style="text-align: left;">Specifies whether dynamically attached PnP devices that are enumerated while in a session are available for redirection.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="imsrdpclientnonscriptable3-redirectdynamicdrives.md"><strong>RedirectDynamicDrives</strong></a><br/></td>
-<td style="text-align: left;">Read/write<br/></td>
-<td style="text-align: left;">Specifies whether dynamically attached PnP drives that are enumerated while in a session are available for redirection.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="imsrdpclientnonscriptable4-redirectionwarningtype.md"><strong>RedirectionWarningType</strong></a><br/></td>
-<td style="text-align: left;">Read/write<br/></td>
-<td style="text-align: left;">Controls the presence and appearance of the redirection dialog box.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="imsrdpclientnonscriptable5-remotemonitorcount.md"><strong>RemoteMonitorCount</strong></a><br/></td>
-<td style="text-align: left;">Read-only<br/></td>
-<td style="text-align: left;">Specifies the number of remote monitors.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="imsrdpclientnonscriptable5-remotemonitorlayoutmatcheslocal.md"><strong>RemoteMonitorLayoutMatchesLocal</strong></a><br/></td>
-<td style="text-align: left;">Read-only<br/></td>
-<td style="text-align: left;">Specifies if the remote monitor layout is identical to the local monitor layout.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="imsrdpclient5-remoteprogram.md"><strong>RemoteProgram</strong></a><br/></td>
-<td style="text-align: left;">Read-only<br/></td>
-<td style="text-align: left;">The client RemoteApp setting.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="imsrdpclient7-remoteprogram2.md"><strong>RemoteProgram2</strong></a><br/></td>
-<td style="text-align: left;">Read-only<br/></td>
-<td style="text-align: left;">An object that supports the <a href="itsremoteprogram2.md"><strong>ITSRemoteProgram2</strong></a> interface.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="imstscax-securedsettings.md"><strong>SecuredSettings</strong></a><br/></td>
-<td style="text-align: left;">Read-only<br/></td>
-<td style="text-align: left;">A <a href="imstscsecuredsettings-interface.md"><strong>IMsTscSecuredSettings</strong></a> interface pointer.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="imsrdpclient-securedsettings2.md"><strong>SecuredSettings2</strong></a><br/></td>
-<td style="text-align: left;">Read-only<br/></td>
-<td style="text-align: left;">Pointer to the <a href="imsrdpclientsecuredsettings-interface.md"><strong>IMsRdpClientSecuredSettings</strong></a> interface, used to set secured settings for the client control.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="imsrdpclient7-securedsettings3.md"><strong>SecuredSettings3</strong></a><br/></td>
-<td style="text-align: left;">Read-only<br/></td>
-<td style="text-align: left;">An object that supports the <a href="imsrdpclientsecuredsettings2.md"><strong>IMsRdpClientSecuredSettings2</strong></a> interface.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="imstscax-securedsettingsenabled.md"><strong>SecuredSettingsEnabled</strong></a><br/></td>
-<td style="text-align: left;">Read-only<br/></td>
-<td style="text-align: left;">Indicates whether the <a href="imstscsecuredsettings-interface.md"><strong>IMsTscSecuredSettings</strong></a> interface is available.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="imstscax-server.md"><strong>Server</strong></a><br/></td>
-<td style="text-align: left;">Read/write<br/></td>
-<td style="text-align: left;">The name of the server to which the current control is connected.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="imsrdpclientnonscriptable3-showredirectionwarningdialog.md"><strong>ShowRedirectionWarningDialog</strong></a><br/></td>
-<td style="text-align: left;">Read/write<br/></td>
-<td style="text-align: left;">Specifies whether the redirection security warning dialog box should be shown before starting a session.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="imstscax-startconnected.md"><strong>StartConnected</strong></a><br/></td>
-<td style="text-align: left;">Read/write<br/></td>
-<td style="text-align: left;">Indicates whether the control will establish the RD Session Host server connection immediately upon startup.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="imsrdpclient5-transportsettings.md"><strong>TransportSettings</strong></a><br/></td>
-<td style="text-align: left;">Read-only<br/></td>
-<td style="text-align: left;">The client RD Gateway setting.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="imsrdpclient6-transportsettings2.md"><strong>TransportSettings2</strong></a><br/></td>
-<td style="text-align: left;">Read-only<br/></td>
-<td style="text-align: left;">The interface to <a href="imsrdpclienttransportsettings2.md"><strong>IMsRdpClientTransportSettings2</strong></a>.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="imsrdpclient7-transportsettings3.md"><strong>TransportSettings3</strong></a><br/></td>
-<td style="text-align: left;">Read-only<br/></td>
-<td style="text-align: left;">An object that supports the <a href="imsrdpclienttransportsettings3.md"><strong>IMsRdpClientTransportSettings3</strong></a> interface.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="imsrdpclientnonscriptable4-trustedzonesite.md"><strong>TrustedZoneSite</strong></a><br/></td>
-<td style="text-align: left;">Read/write<br/></td>
-<td style="text-align: left;">Specifies whether the website from which the user launched the connection is in the trusted sites list of the client computer.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="imsrdpclientnonscriptable2-uiparentwindowhandle.md"><strong>UIParentWindowHandle</strong></a><br/></td>
-<td style="text-align: left;">Read/write<br/></td>
-<td style="text-align: left;">The window handle to be the parent window for the control. This allows any windows displayed by the control to be properly modal with respect to any windows displayed by the parent application.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="imsrdpclientnonscriptable5-usemultimon.md"><strong>UseMultimon</strong></a><br/></td>
-<td style="text-align: left;">Read/write<br/></td>
-<td style="text-align: left;">Specifies whether the Remote Desktop ActiveX control should use multiple monitors.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="imsrdppreferredredirectioninfo-useredirectionservername.md"><strong>UseRedirectionServerName</strong></a><br/></td>
-<td style="text-align: left;">Read/write<br/></td>
-<td style="text-align: left;">Whether to use the redirection server name.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="imstscax-username.md"><strong>UserName</strong></a><br/></td>
-<td style="text-align: left;">Read/write<br/></td>
-<td style="text-align: left;">The user name logon credential.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="imstscax-version.md"><strong>Version</strong></a><br/></td>
-<td style="text-align: left;">Read-only<br/></td>
-<td style="text-align: left;">The version number of the current control.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="imstscax-verticalscrollbarvisible.md"><strong>VerticalScrollBarVisible</strong></a><br/></td>
-<td style="text-align: left;">Read-only<br/></td>
-<td style="text-align: left;">Indicates whether the control displays a vertical scroll bar.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="imsrdpclientnonscriptable3-warnaboutclipboardredirection.md"><strong>WarnAboutClipboardRedirection</strong></a><br/></td>
-<td style="text-align: left;">Read/write<br/></td>
-<td style="text-align: left;">Specifies whether the security warning dialog box should include a warning about clipboard redirection before starting a session.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="imsrdpclientnonscriptable5-warnaboutdirectxredirection.md"><strong>WarnAboutDirectXRedirection</strong></a><br/></td>
-<td style="text-align: left;">Read/write<br/></td>
-<td style="text-align: left;">This property is not used.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="imsrdpclientnonscriptable4-warnaboutprinterredirection.md"><strong>WarnAboutPrinterRedirection</strong></a><br/></td>
-<td style="text-align: left;">Read/write<br/></td>
-<td style="text-align: left;">Specifies whether the redirection dialog box displays a message about printer redirection before starting a session.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="imsrdpclientnonscriptable3-warnaboutsendingcredentials.md"><strong>WarnAboutSendingCredentials</strong></a><br/></td>
-<td style="text-align: left;">Read/write<br/></td>
-<td style="text-align: left;">Specifies whether the security warning should include a warning about sending credentials to the remote server before starting a session.<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Property | Access type | Description | 
+|----------|-------------|-------------|
+| <a href="imstscax-advancedsettings.md"><strong>AdvancedSettings</strong></a><br /> | Read-only<br /> | An <a href="imstscadvancedsettings-interface.md"><strong>IMsTscAdvancedSettings</strong></a> interface pointer.<br /> | 
+| <a href="imsrdpclient-advancedsettings2.md"><strong>AdvancedSettings2</strong></a><br /> | Read-only<br /> | Pointer to the <a href="imsrdpclientadvancedsettings-interface.md"><strong>IMsRdpClientAdvancedSettings</strong></a> interface, used to set advanced settings for the client control.<br /> | 
+| <a href="imsrdpclient2-advancedsettings3.md"><strong>AdvancedSettings3</strong></a><br /> | Read-only<br /> | Pointer to the <a href="imsrdpclientadvancedsettings2.md"><strong>IMsRdpClientAdvancedSettings2</strong></a> interface, used to set advanced settings for the client control.<br /> | 
+| <a href="imsrdpclient3-advancedsettings4.md"><strong>AdvancedSettings4</strong></a><br /> | Read-only<br /> | Pointer to the <a href="imsrdpclientadvancedsettings3.md"><strong>IMsRdpClientAdvancedSettings3</strong></a> interface, used to set advanced settings for the client control.<br /> | 
+| <a href="imsrdpclient4-advancedsettings5.md"><strong>AdvancedSettings5</strong></a><br /> | Read-only<br /> | An <a href="imsrdpclientadvancedsettings4.md"><strong>IMsRdpClientAdvancedSettings4</strong></a> interface pointer.<br /> | 
+| <a href="imsrdpclient5-advancedsettings6.md"><strong>AdvancedSettings6</strong></a><br /> | Read-only<br /> | The interface to <a href="imsrdpclientadvancedsettings5.md"><strong>IMsRdpClientAdvancedSettings5</strong></a>.<br /> | 
+| <a href="imsrdpclient6-advancedsettings7.md"><strong>AdvancedSettings7</strong></a><br /> | Read-only<br /> | The interface to <a href="imsrdpclientadvancedsettings6.md"><strong>IMsRdpClientAdvancedSettings6</strong></a>.<br /> | 
+| <a href="imsrdpclient7-advancedsettings8.md"><strong>AdvancedSettings8</strong></a><br /> | Read-only<br /> | An object that supports the <a href="imsrdpclientadvancedsettings7.md"><strong>IMsRdpClientAdvancedSettings7</strong></a> interface.<br /> | 
+| <a href="imsrdpclientnonscriptable4-allowcredentialsaving.md"><strong>AllowCredentialSaving</strong></a><br /> | Read/write<br /> | Specifies whether the credentials dialog box displays a check box to enable the saving of credentials.<br /> | 
+| <a href="imsrdpclientnonscriptable5-allowpromptingforcredentials.md"><strong>AllowPromptingForCredentials</strong></a><br /> | Read/write<br /> | Specifies whether the Remote Desktop ActiveX control can prompt the user for credentials.<br /> | 
+| <a href="imstscnonscriptable-binarypassword.md"><strong>BinaryPassword</strong></a><br /> | Read/write<br /> | This property is not supported.<br /> | 
+| <a href="imstscnonscriptable-binarysalt.md"><strong>BinarySalt</strong></a><br /> | Read/write<br /> | This property is not supported.<br /> | 
+| <a href="imstscax-cipherstrength.md"><strong>CipherStrength</strong></a><br /> | Read-only<br /> | The maximum encryption strength of the current control.<br /> | 
+| <a href="imstscnonscriptable-cleartextpassword.md"><strong>ClearTextPassword</strong></a><br /> | Write-only<br /> | The Remote Desktop ActiveX control password, in plaintext format.<br /> | 
+| <a href="imsrdpclient-colordepth.md"><strong>ColorDepth</strong></a><br /> | Read/write<br /> | Color depth of the current control.<br /> | 
+| <a href="imstscax-connected.md"><strong>Connected</strong></a><br /> | Read-only<br /> | The connection state of the current control.<br /> | 
+| <a href="imsrdpclient2-connectedstatustext.md"><strong>ConnectedStatusText</strong></a><br /> | Read/write<br /> | Text that is displayed in the client area of the control while the control is in the connected state.<br /> | 
+| <a href="imstscax-connectingtext.md"><strong>ConnectingText</strong></a><br /> | Read/write<br /> | The text that appears centered in the control while the control is connecting.<br /> | 
+| <a href="imsrdpclientnonscriptable3-connectionbartext.md"><strong>ConnectionBarText</strong></a><br /> | Read/write<br /> | The text string to display for the connection bar.<br /> | 
+| <a href="imstscax-desktopheight.md"><strong>DesktopHeight</strong></a><br /> | Read/write<br /> | The current control's height, in pixels, on the initial remote desktop.<br /> | 
+| <a href="imstscax-desktopwidth.md"><strong>DesktopWidth</strong></a><br /> | Read/write<br /> | The current control's width, in pixels, on the initial remote desktop.<br /> | 
+| <a href="imsrdpclientnonscriptable3-devicecollection.md"><strong>DeviceCollection</strong></a><br /> | Read-only<br /> | The collection of PnP devices that are available for redirection.<br /> | 
+| <a href="imsrdpclientnonscriptable5-disableconnectionbar.md"><strong>DisableConnectionBar</strong></a><br /> | Write-only<br /> | Specifies whether the Remote Desktop ActiveX control should disable the connection bar.<br /> | 
+| <a href="imsrdpclientnonscriptable5-disableremoteappcapscheck.md"><strong>DisableRemoteAppCapsCheck</strong></a><br /> | Read/write<br /> | Specifies whether the Remote Desktop ActiveX control should not check the server for RemoteApp capabilities.<br /> | 
+| <a href="imstscax-disconnectedtext.md"><strong>DisconnectedText</strong></a><br /> | Read/write<br /> | The text that appears centered in the control before a connection is terminated.<br /> | 
+| <a href="imstscax-domain.md"><strong>Domain</strong></a><br /> | Read/write<br /> | The domain to which the current user logs on.<br /> | 
+| <a href="imsrdpclientnonscriptable3-drivecollection.md"><strong>DriveCollection</strong></a><br /> | Read-only<br /> | The collection of disk drives that is available for redirection.<br /> | 
+| <a href="imsrdpclientnonscriptable3-enablecredsspsupport.md"><strong>EnableCredSspSupport</strong></a><br /> | Read/write<br /> | Specifies whether CredSSP is enabled for this connection.<br /> | 
+| <a href="imsrdpclient-extendeddisconnectreason.md"><strong>ExtendedDisconnectReason</strong></a><br /> | Read-only<br /> | Extended information about the client control's reason for disconnection.<br /> | 
+| <a href="imsrdpclient-fullscreen.md"><strong>FullScreen</strong></a><br /> | Read/write<br /> | Indicates whether the control is in full-screen mode.<br /> | 
+| <a href="imstscax-fullscreentitle.md"><strong>FullScreenTitle</strong></a><br /> | Write-only<br /> | The window title displayed when the control is in full-screen mode.<br /> | 
+| <a href="imsrdpclientnonscriptable5-getremotemonitorsboundingbox.md"><strong>GetRemoteMonitorsBoundingBox</strong></a><br /> | Read-only<br /> | Specifies the bounding rectangle of the remote monitor.<br /> | 
+| <a href="imstscax-horizontalscrollbarvisible.md"><strong>HorizontalScrollBarVisible</strong></a><br /> | Read-only<br /> | Indicates whether the control has displayed a horizontal scroll bar.<br /> | 
+| <a href="imsrdpclientnonscriptable4-launchedviaclientshellinterface.md"><strong>LaunchedViaClientShellInterface</strong></a><br /> | Read/write<br /> | Specifies whether the user launched the client control by using the RD Web Access interface.<br /> | 
+| <a href="imsrdpclientnonscriptable4-markrdpsettingssecure.md"><strong>MarkRdpSettingsSecure</strong></a><br /> | Read/write<br /> | Specifies whether RDP settings are marked as secure.<br /> | 
+| <a href="imsrdpclient5-msrdpclientshell.md"><strong>MsRdpClientShell</strong></a><br /> | Read-only<br /> | The client settings for the web portal launcher.<br /> | 
+| <a href="imsrdpclientnonscriptable3-negotiatesecuritylayer.md"><strong>NegotiateSecurityLayer</strong></a><br /> | Read/write<br /> | Specifies whether the NegotiateSecurityLayer setting is supported for this connection.<br /><blockquote>[!Note]<br />When <a href="imsrdpclientnonscriptable3-enablecredsspsupport.md"><strong>CredSspSupport</strong></a> is enabled and present on the client, or when Secure Sockets Layer (SSL) is enabled with user authentication, NegotiateSecurityLayer is ignored.</blockquote><br /> | 
+| <a href="imstscnonscriptable-portablepassword.md"><strong>PortablePassword</strong></a><br /> | Read/write<br /> | This property is not supported.<br /> | 
+| <a href="imstscnonscriptable-portablesalt.md"><strong>PortableSalt</strong></a><br /> | Read/write<br /> | This property is not supported.<br /> | 
+| <a href="imsrdpclientnonscriptable3-promptforcredentials.md"><strong>PromptForCredentials</strong></a><br /> | Read/write<br /> | Specifies whether the prompt for credentials dialog box should be shown.<br /> | 
+| <a href="imsrdpclientnonscriptable4-promptforcredsonclient.md"><strong>PromptForCredsOnClient</strong></a><br /> | Read/write<br /> | Specifies whether the client control displays a dialog box that prompts for credentials.<br /> | 
+| <a href="imsrdpclientnonscriptable4-publishercertificatechain.md"><strong>PublisherCertificateChain</strong></a><br /> | Read/write<br /> | Specifies the publisher certificate chain. The chain is stored in a variant of type VT_BYREF that contains a pointer to a <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_chain_context"><strong>CERT_CHAIN_CONTEXT</strong></a> structure.<br /> | 
+| <a href="imsrdpclientnonscriptable3-redirectdynamicdevices.md"><strong>RedirectDynamicDevices</strong></a><br /> | Read/write<br /> | Specifies whether dynamically attached PnP devices that are enumerated while in a session are available for redirection.<br /> | 
+| <a href="imsrdpclientnonscriptable3-redirectdynamicdrives.md"><strong>RedirectDynamicDrives</strong></a><br /> | Read/write<br /> | Specifies whether dynamically attached PnP drives that are enumerated while in a session are available for redirection.<br /> | 
+| <a href="imsrdpclientnonscriptable4-redirectionwarningtype.md"><strong>RedirectionWarningType</strong></a><br /> | Read/write<br /> | Controls the presence and appearance of the redirection dialog box.<br /> | 
+| <a href="imsrdpclientnonscriptable5-remotemonitorcount.md"><strong>RemoteMonitorCount</strong></a><br /> | Read-only<br /> | Specifies the number of remote monitors.<br /> | 
+| <a href="imsrdpclientnonscriptable5-remotemonitorlayoutmatcheslocal.md"><strong>RemoteMonitorLayoutMatchesLocal</strong></a><br /> | Read-only<br /> | Specifies if the remote monitor layout is identical to the local monitor layout.<br /> | 
+| <a href="imsrdpclient5-remoteprogram.md"><strong>RemoteProgram</strong></a><br /> | Read-only<br /> | The client RemoteApp setting.<br /> | 
+| <a href="imsrdpclient7-remoteprogram2.md"><strong>RemoteProgram2</strong></a><br /> | Read-only<br /> | An object that supports the <a href="itsremoteprogram2.md"><strong>ITSRemoteProgram2</strong></a> interface.<br /> | 
+| <a href="imstscax-securedsettings.md"><strong>SecuredSettings</strong></a><br /> | Read-only<br /> | A <a href="imstscsecuredsettings-interface.md"><strong>IMsTscSecuredSettings</strong></a> interface pointer.<br /> | 
+| <a href="imsrdpclient-securedsettings2.md"><strong>SecuredSettings2</strong></a><br /> | Read-only<br /> | Pointer to the <a href="imsrdpclientsecuredsettings-interface.md"><strong>IMsRdpClientSecuredSettings</strong></a> interface, used to set secured settings for the client control.<br /> | 
+| <a href="imsrdpclient7-securedsettings3.md"><strong>SecuredSettings3</strong></a><br /> | Read-only<br /> | An object that supports the <a href="imsrdpclientsecuredsettings2.md"><strong>IMsRdpClientSecuredSettings2</strong></a> interface.<br /> | 
+| <a href="imstscax-securedsettingsenabled.md"><strong>SecuredSettingsEnabled</strong></a><br /> | Read-only<br /> | Indicates whether the <a href="imstscsecuredsettings-interface.md"><strong>IMsTscSecuredSettings</strong></a> interface is available.<br /> | 
+| <a href="imstscax-server.md"><strong>Server</strong></a><br /> | Read/write<br /> | The name of the server to which the current control is connected.<br /> | 
+| <a href="imsrdpclientnonscriptable3-showredirectionwarningdialog.md"><strong>ShowRedirectionWarningDialog</strong></a><br /> | Read/write<br /> | Specifies whether the redirection security warning dialog box should be shown before starting a session.<br /> | 
+| <a href="imstscax-startconnected.md"><strong>StartConnected</strong></a><br /> | Read/write<br /> | Indicates whether the control will establish the RD Session Host server connection immediately upon startup.<br /> | 
+| <a href="imsrdpclient5-transportsettings.md"><strong>TransportSettings</strong></a><br /> | Read-only<br /> | The client RD Gateway setting.<br /> | 
+| <a href="imsrdpclient6-transportsettings2.md"><strong>TransportSettings2</strong></a><br /> | Read-only<br /> | The interface to <a href="imsrdpclienttransportsettings2.md"><strong>IMsRdpClientTransportSettings2</strong></a>.<br /> | 
+| <a href="imsrdpclient7-transportsettings3.md"><strong>TransportSettings3</strong></a><br /> | Read-only<br /> | An object that supports the <a href="imsrdpclienttransportsettings3.md"><strong>IMsRdpClientTransportSettings3</strong></a> interface.<br /> | 
+| <a href="imsrdpclientnonscriptable4-trustedzonesite.md"><strong>TrustedZoneSite</strong></a><br /> | Read/write<br /> | Specifies whether the website from which the user launched the connection is in the trusted sites list of the client computer.<br /> | 
+| <a href="imsrdpclientnonscriptable2-uiparentwindowhandle.md"><strong>UIParentWindowHandle</strong></a><br /> | Read/write<br /> | The window handle to be the parent window for the control. This allows any windows displayed by the control to be properly modal with respect to any windows displayed by the parent application.<br /> | 
+| <a href="imsrdpclientnonscriptable5-usemultimon.md"><strong>UseMultimon</strong></a><br /> | Read/write<br /> | Specifies whether the Remote Desktop ActiveX control should use multiple monitors.<br /> | 
+| <a href="imsrdppreferredredirectioninfo-useredirectionservername.md"><strong>UseRedirectionServerName</strong></a><br /> | Read/write<br /> | Whether to use the redirection server name.<br /> | 
+| <a href="imstscax-username.md"><strong>UserName</strong></a><br /> | Read/write<br /> | The user name logon credential.<br /> | 
+| <a href="imstscax-version.md"><strong>Version</strong></a><br /> | Read-only<br /> | The version number of the current control.<br /> | 
+| <a href="imstscax-verticalscrollbarvisible.md"><strong>VerticalScrollBarVisible</strong></a><br /> | Read-only<br /> | Indicates whether the control displays a vertical scroll bar.<br /> | 
+| <a href="imsrdpclientnonscriptable3-warnaboutclipboardredirection.md"><strong>WarnAboutClipboardRedirection</strong></a><br /> | Read/write<br /> | Specifies whether the security warning dialog box should include a warning about clipboard redirection before starting a session.<br /> | 
+| <a href="imsrdpclientnonscriptable5-warnaboutdirectxredirection.md"><strong>WarnAboutDirectXRedirection</strong></a><br /> | Read/write<br /> | This property is not used.<br /> | 
+| <a href="imsrdpclientnonscriptable4-warnaboutprinterredirection.md"><strong>WarnAboutPrinterRedirection</strong></a><br /> | Read/write<br /> | Specifies whether the redirection dialog box displays a message about printer redirection before starting a session.<br /> | 
+| <a href="imsrdpclientnonscriptable3-warnaboutsendingcredentials.md"><strong>WarnAboutSendingCredentials</strong></a><br /> | Read/write<br /> | Specifies whether the security warning should include a warning about sending credentials to the remote server before starting a session.<br /> | 
+
 
 
 

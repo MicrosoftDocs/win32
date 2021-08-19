@@ -54,79 +54,14 @@ The **MDM\_WindowsLicensing** class has these methods.
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;">Method</th>
-<th style="text-align: left;">Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;"><a href="mdm-windowslicensing-changeproductkeymethod.md"><strong>ChangeProductKeyMethod</strong></a></td>
-<td style="text-align: left;">Installs a product key for Windows 10 desktop devices. Does not reboot.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="mdm-windowslicensing-checkapplicabilitymethod.md"><strong>CheckApplicabilityMethod</strong></a></td>
-<td style="text-align: left;">Method to check if the entered product key can be used for an edition upgrade, activation or changing a product key of Windows 10 for desktop devices.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="mdm-windowslicensing-upgradeeditionwithlicensemethod.md"><strong>UpgradeEditionWithLicenseMethod</strong></a></td>
-<td style="text-align: left;">Provide a license for an edition upgrade of Windows 10 mobile devices.<br/>
-<blockquote>
-[!Note]<br />
-This upgrade process does not require a system restart.
-</blockquote>
-<br/> <br/> The date type is XML.<br/> The supported operation is Execute.<br/>
-<blockquote>
-[!Important]<br />
-The XML license file contents must be properly escaped (that is, it should not simply be a copied XML), otherwise the edition upgrade on Windows 10 mobile devices will fail. For more information on proper escaping of the XML license file, see Section 2.4 of the <a href="https://www.w3.org/TR/xml/">W3C XML spec</a>. The XML license file is acquired from the Microsoft Volume Licensing Service Center. Your organization must have a Volume Licensing contract with Microsoft to access the portal.
-</blockquote>
-<br/> The following are valid edition upgrade paths when using this node through an MDM or provisioning package:
-<ul>
-<li>Windows 10 Mobileto Windows 10 Mobile Enterprise<br/></li>
-</ul>
-<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="mdm-windowslicensing-upgradeeditionwithproductkeymethod.md"><strong>UpgradeEditionWithProductKeyMethod</strong></a></td>
-<td style="text-align: left;">Triggers the device to take the product key and upgrade the edition of the client.
-<blockquote>
-[!Note]<br />
-This upgrade process requires a system restart.
-</blockquote>
-<br/> <br/> The supported operation is Execute.<br/> When a product key is pushed from an MDM server to a user's device, <strong>changepk.exe</strong> runs using the product key. After it completes, a notification is shown to the user that a new edition of Windows 10 is available. The user can then restart their system manually or, after two hours, the device will restart automatically to complete the upgrade. The user will receive a reminder notification 10 minutes before the automatic restart.<br/> After the device restarts, the edition upgrade process completes. The user will receive a notification of the successful upgrade.
-<blockquote>
-[!Important]<br />
-If another policy requires a system reboot that occurs when <strong>changepk.exe</strong> is running, the edition upgrade will fail.
-</blockquote>
-<br/> <br/> If a product key is entered in a provisioning package and the user begins installation of the package, a notification is shown to the user that their system will restart to complete the package installation. Upon explicit consent from the user to proceed, the package continues installation and <strong>changepk.exe</strong> runs using the product key. The user will receive a reminder notification 30 seconds before the automatic restart. <br/> After the device restarts, the edition upgrade process completes. The user will receive a notification of the successful upgrade. <br/> This node can also be used to activate or change a product key on a particular edition of Windows 10 desktop device by entering a product key. Activation or changing a product key does not require a reboot and is a silent process for the user.<br/>
-<blockquote>
-[!Important]<br />
-The product key entered must be 29 characters (that is, it should include dashes), otherwise the activation, edition upgrade, or product key change on Windows 10 desktop devices will fail. The product key is acquired from Microsoft Volume Licensing Service Center. Your organization must have a Volume Licensing contract with Microsoft to access the portal.
-</blockquote>
-<br/> The following are valid edition upgrade paths when using this node through an MDM:
-<ul>
-<li>Windows 10 Enterprise to Windows 10 Education</li>
-<li>Windows 10 Home to Windows 10 Education</li>
-<li>Windows 10 Pro to Windows 10 Education</li>
-<li>Windows 10 Pro to Windows 10 Enterprise</li>
-</ul>
-<br/> Activation or changing a product key can be carried out on the following editions:
-<ul>
-<li>Windows 10 Education</li>
-<li>Windows 10 Enterprise</li>
-<li>Windows 10 Home</li>
-<li>Windows 10 Pro</li>
-</ul>
-<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Method | Description | 
+|--------|-------------|
+| <a href="mdm-windowslicensing-changeproductkeymethod.md"><strong>ChangeProductKeyMethod</strong></a> | Installs a product key for Windows 10 desktop devices. Does not reboot.<br /> | 
+| <a href="mdm-windowslicensing-checkapplicabilitymethod.md"><strong>CheckApplicabilityMethod</strong></a> | Method to check if the entered product key can be used for an edition upgrade, activation or changing a product key of Windows 10 for desktop devices.<br /> | 
+| <a href="mdm-windowslicensing-upgradeeditionwithlicensemethod.md"><strong>UpgradeEditionWithLicenseMethod</strong></a> | Provide a license for an edition upgrade of Windows 10 mobile devices.<br /><blockquote>[!Note]<br />This upgrade process does not require a system restart.</blockquote><br /><br /> The date type is XML.<br /> The supported operation is Execute.<br /><blockquote>[!Important]<br />The XML license file contents must be properly escaped (that is, it should not simply be a copied XML), otherwise the edition upgrade on Windows 10 mobile devices will fail. For more information on proper escaping of the XML license file, see Section 2.4 of the <a href="https://www.w3.org/TR/xml/">W3C XML spec</a>. The XML license file is acquired from the Microsoft Volume Licensing Service Center. Your organization must have a Volume Licensing contract with Microsoft to access the portal.</blockquote><br /> The following are valid edition upgrade paths when using this node through an MDM or provisioning package:<ul><li>Windows 10 Mobileto Windows 10 Mobile Enterprise<br /></li></ul><br /> | 
+| <a href="mdm-windowslicensing-upgradeeditionwithproductkeymethod.md"><strong>UpgradeEditionWithProductKeyMethod</strong></a> | Triggers the device to take the product key and upgrade the edition of the client.<blockquote>[!Note]<br />This upgrade process requires a system restart.</blockquote><br /><br /> The supported operation is Execute.<br /> When a product key is pushed from an MDM server to a user's device, <strong>changepk.exe</strong> runs using the product key. After it completes, a notification is shown to the user that a new edition of Windows 10 is available. The user can then restart their system manually or, after two hours, the device will restart automatically to complete the upgrade. The user will receive a reminder notification 10 minutes before the automatic restart.<br /> After the device restarts, the edition upgrade process completes. The user will receive a notification of the successful upgrade.<blockquote>[!Important]<br />If another policy requires a system reboot that occurs when <strong>changepk.exe</strong> is running, the edition upgrade will fail.</blockquote><br /><br /> If a product key is entered in a provisioning package and the user begins installation of the package, a notification is shown to the user that their system will restart to complete the package installation. Upon explicit consent from the user to proceed, the package continues installation and <strong>changepk.exe</strong> runs using the product key. The user will receive a reminder notification 30 seconds before the automatic restart. <br /> After the device restarts, the edition upgrade process completes. The user will receive a notification of the successful upgrade. <br /> This node can also be used to activate or change a product key on a particular edition of Windows 10 desktop device by entering a product key. Activation or changing a product key does not require a reboot and is a silent process for the user.<br /><blockquote>[!Important]<br />The product key entered must be 29 characters (that is, it should include dashes), otherwise the activation, edition upgrade, or product key change on Windows 10 desktop devices will fail. The product key is acquired from Microsoft Volume Licensing Service Center. Your organization must have a Volume Licensing contract with Microsoft to access the portal.</blockquote><br /> The following are valid edition upgrade paths when using this node through an MDM:<ul><li>Windows 10 Enterprise to Windows 10 Education</li><li>Windows 10 Home to Windows 10 Education</li><li>Windows 10 Pro to Windows 10 Education</li><li>Windows 10 Pro to Windows 10 Enterprise</li></ul><br /> Activation or changing a product key can be carried out on the following editions:<ul><li>Windows 10 Education</li><li>Windows 10 Enterprise</li><li>Windows 10 Home</li><li>Windows 10 Pro</li></ul><br /> | 
+
 
 
 

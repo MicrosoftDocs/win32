@@ -26,46 +26,14 @@ The following table describes the parameters used by this transition and lists t
 
 
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Parameter</th>
-<th>Structure member</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Center X</td>
-<td><strong>fEffectPara0</strong></td>
-<td>X-coordinate, relative to the video frame, of the center of the star.</td>
-</tr>
-<tr class="even">
-<td>Center Y</td>
-<td><strong>fEffectPara1</strong></td>
-<td>Y-coordinate, relative to the video frame, of the center of the star.</td>
-</tr>
-<tr class="odd">
-<td>Radius</td>
-<td><strong>fEffectPara2</strong></td>
-<td>Radius, in pixels, of the circle defined by the points of the star.</td>
-</tr>
-<tr class="even">
-<td>Composition</td>
-<td><strong>fEffectPara3</strong></td>
-<td>Set to one of the following values:
-<ul>
-<li>0 - Specifies normal composition, in which the previous image is the background, and the current image is the foreground.</li>
-<li>1 - Specifies reversed composition, in which the current image is the background image, and the previous image is the foreground.</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| Parameter | Structure member | Description | 
+|-----------|------------------|-------------|
+| Center X | <strong>fEffectPara0</strong> | X-coordinate, relative to the video frame, of the center of the star. | 
+| Center Y | <strong>fEffectPara1</strong> | Y-coordinate, relative to the video frame, of the center of the star. | 
+| Radius | <strong>fEffectPara2</strong> | Radius, in pixels, of the circle defined by the points of the star. | 
+| Composition | <strong>fEffectPara3</strong> | Set to one of the following values:<ul><li>0 - Specifies normal composition, in which the previous image is the background, and the current image is the foreground.</li><li>1 - Specifies reversed composition, in which the current image is the background image, and the previous image is the foreground.</li></ul> | 
+
 
 
 

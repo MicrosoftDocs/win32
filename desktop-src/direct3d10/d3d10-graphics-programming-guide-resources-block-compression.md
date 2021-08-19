@@ -154,20 +154,11 @@ color_3 = 0;
 
 
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>Differences between Direct3D 9 and Direct3D 10:<br/> This format exists in both Direct3D 9 and 10.<br/>
-<ul>
-<li>In Direct3D 9, the BC1 format is called D3DFMT_DXT1.</li>
-<li>In Direct3D 10, the BC1 format is represented by DXGI_FORMAT_BC1_UNORM or DXGI_FORMAT_BC1_UNORM_SRGB.</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| 
+|
+| Differences between Direct3D 9 and Direct3D 10:<br /> This format exists in both Direct3D 9 and 10.<br /><ul><li>In Direct3D 9, the BC1 format is called D3DFMT_DXT1.</li><li>In Direct3D 10, the BC1 format is represented by DXGI_FORMAT_BC1_UNORM or DXGI_FORMAT_BC1_UNORM_SRGB.</li></ul> | 
+
 
 
 
@@ -181,20 +172,11 @@ The BC2 format stores colors with the same number of bits and data layout as the
 
 ![diagram of the layout for bc2 compression](images/d3d10-compression-bc2.png)
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>Differences between Direct3D 9 and Direct3D 10:<br/> This format exists in both Direct3D 9 and 10.<br/>
-<ul>
-<li>In Direct3D 9, the BC2 format is called D3DFMT_DXT2 and D3DFMT_DXT3.</li>
-<li>In Direct3D 10, the BC2 format is represented by DXGI_FORMAT_BC2_UNORM or DXGI_FORMAT_BC2_UNORM_SRGB.</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| 
+|
+| Differences between Direct3D 9 and Direct3D 10:<br /> This format exists in both Direct3D 9 and 10.<br /><ul><li>In Direct3D 9, the BC2 format is called D3DFMT_DXT2 and D3DFMT_DXT3.</li><li>In Direct3D 10, the BC2 format is represented by DXGI_FORMAT_BC2_UNORM or DXGI_FORMAT_BC2_UNORM_SRGB.</li></ul> | 
+
 
 
 
@@ -242,20 +224,11 @@ else
 
 
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>Differences between Direct3D 9 and Direct3D 10:<br/>
-<ul>
-<li>In Direct3D 9, the BC3 format is called D3DFMT_DXT4 and D3DFMT_DXT5.</li>
-<li>In Direct3D 10, the BC3 format is represented by DXGI_FORMAT_BC3_UNORM or DXGI_FORMAT_BC3_UNORM_SRGB.</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| 
+|
+| Differences between Direct3D 9 and Direct3D 10:<br /><ul><li>In Direct3D 9, the BC3 format is called D3DFMT_DXT4 and D3DFMT_DXT5.</li><li>In Direct3D 10, the BC3 format is represented by DXGI_FORMAT_BC3_UNORM or DXGI_FORMAT_BC3_UNORM_SRGB.</li></ul> | 
+
 
 
 

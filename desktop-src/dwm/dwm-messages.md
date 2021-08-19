@@ -19,49 +19,16 @@ This section contains information about the Desktop Window Manager (DWM) message
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Topic</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="wm-dwmcolorizationcolorchanged.md"><strong>WM_DWMCOLORIZATIONCOLORCHANGED</strong></a><br/></td>
-<td>Informs all top-level windows that the colorization color has changed.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="wm-dwmcompositionchanged.md"><strong>WM_DWMCOMPOSITIONCHANGED</strong></a><br/></td>
-<td>Informs all top-level windows that DWM composition has been enabled or disabled. <br/>
-<blockquote>
-[!Note]<br />
-As of Windows 8, DWM composition is always enabled, so this message is not sent regardless of video mode changes.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="wm-dwmncrenderingchanged.md"><strong>WM_DWMNCRENDERINGCHANGED</strong></a><br/></td>
-<td>Sent when the non-client area rendering policy has changed.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="wm-dwmsendiconiclivepreviewbitmap.md"><strong>WM_DWMSENDICONICLIVEPREVIEWBITMAP</strong></a><br/></td>
-<td>Instructs a window to provide a static bitmap to use as a <em>live preview</em> (also known as a <em>Peek preview</em>) of that window.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="wm-dwmsendiconicthumbnail.md"><strong>WM_DWMSENDICONICTHUMBNAIL</strong></a><br/></td>
-<td>Instructs a window to provide a static bitmap to use as a thumbnail representation of that window.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="wm-dwmwindowmaximizedchange.md"><strong>WM_DWMWINDOWMAXIMIZEDCHANGE</strong></a><br/></td>
-<td>Sent when a DWM composed window is maximized.<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Topic | Description | 
+|-------|-------------|
+| <a href="wm-dwmcolorizationcolorchanged.md"><strong>WM_DWMCOLORIZATIONCOLORCHANGED</strong></a><br /> | Informs all top-level windows that the colorization color has changed.<br /> | 
+| <a href="wm-dwmcompositionchanged.md"><strong>WM_DWMCOMPOSITIONCHANGED</strong></a><br /> | Informs all top-level windows that DWM composition has been enabled or disabled. <br /><blockquote>[!Note]<br />As of Windows 8, DWM composition is always enabled, so this message is not sent regardless of video mode changes.</blockquote><br /> | 
+| <a href="wm-dwmncrenderingchanged.md"><strong>WM_DWMNCRENDERINGCHANGED</strong></a><br /> | Sent when the non-client area rendering policy has changed.<br /> | 
+| <a href="wm-dwmsendiconiclivepreviewbitmap.md"><strong>WM_DWMSENDICONICLIVEPREVIEWBITMAP</strong></a><br /> | Instructs a window to provide a static bitmap to use as a <em>live preview</em> (also known as a <em>Peek preview</em>) of that window.<br /> | 
+| <a href="wm-dwmsendiconicthumbnail.md"><strong>WM_DWMSENDICONICTHUMBNAIL</strong></a><br /> | Instructs a window to provide a static bitmap to use as a thumbnail representation of that window.<br /> | 
+| <a href="wm-dwmwindowmaximizedchange.md"><strong>WM_DWMWINDOWMAXIMIZEDCHANGE</strong></a><br /> | Sent when a DWM composed window is maximized.<br /> | 
+
 
 
 

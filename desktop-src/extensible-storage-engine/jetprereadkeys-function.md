@@ -80,63 +80,25 @@ This function returns the [JET_ERR](./jet-err.md) datatype with one of the follo
 
 Various I/O errors can be returned along with these API usage errors:
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Return code</p></th>
-<th><p>Description</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_errInvalidGrbit</p></td>
-<td><p>Grbit was neither JET_bitPrereadForward nor JET_bitPrereadBackward.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errInvalidBufferSize</p></td>
-<td><p>An incorrect key size has been passed in. Keys can neither be 0 nor longer than the maximum key length for the table.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errInvalidParameter</p></td>
-<td><p>An invalid parameter has been passed in. This can be caused by a null value for a required parameter or can indicate that the key array is not sorted properly.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Return code</p> | <p>Description</p> | 
+|--------------------|--------------------|
+| <p>JET_errInvalidGrbit</p> | <p>Grbit was neither JET_bitPrereadForward nor JET_bitPrereadBackward.</p> | 
+| <p>JET_errInvalidBufferSize</p> | <p>An incorrect key size has been passed in. Keys can neither be 0 nor longer than the maximum key length for the table.</p> | 
+| <p>JET_errInvalidParameter</p> | <p>An invalid parameter has been passed in. This can be caused by a null value for a required parameter or can indicate that the key array is not sorted properly.</p> | 
+
 
 
 **JetPrereadKeys** traverses the internal pages of the b-tree to determine which leaf pages contain the keys specified by rgpvKeys/rgcbKeys. The list of leaf pages is sorted and then prereads are issued for the ranges of pages. The number of pages that can be preread is limited so it is possible that not all keys may be preread. In that case, the number of keys actually preread is returned in pckeysPreread.
 
 #### Requirements
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Client</strong></p></td>
-<td><p>Requires Windows 7.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Server</strong></p></td>
-<td><p>Requires Windows Server 2008 R2.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>Header</strong></p></td>
-<td><p>Declared in Esent.h.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Library</strong></p></td>
-<td><p>Use ESENT.lib.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>DLL</strong></p></td>
-<td><p>Requires ESENT.dll.</p></td>
-</tr>
-</tbody>
-</table>
+
+| 
+|
+| <p><strong>Client</strong></p> | <p>Requires Windows 7.</p> | 
+| <p><strong>Server</strong></p> | <p>Requires Windows Server 2008 R2.</p> | 
+| <p><strong>Header</strong></p> | <p>Declared in Esent.h.</p> | 
+| <p><strong>Library</strong></p> | <p>Use ESENT.lib.</p> | 
+| <p><strong>DLL</strong></p> | <p>Requires ESENT.dll.</p> | 
+

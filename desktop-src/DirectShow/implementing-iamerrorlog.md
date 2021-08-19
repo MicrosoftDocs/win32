@@ -62,16 +62,11 @@ if( pExtraInfo )    // Report extra information, if any.
 >
 > <span codelanguage=""></span>
 >
-> <table>
-> <colgroup>
-> <col style="width: 100%" />
-> </colgroup>
-> <tbody>
-> <tr class="odd">
-> <td><pre><code>pExtraInfo</code></pre></td>
-> </tr>
-> </tbody>
-> </table>
+> 
+| 
+|
+| <pre><code>pExtraInfo</code></pre> | 
+
 >
 > 
 >

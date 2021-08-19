@@ -13,45 +13,15 @@ The Server Data Objects (SDO) API exposes the following interfaces.
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Interface</th>
-<th>Purpose</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="/windows/desktop/api/sdoias/nn-sdoias-isdo"><strong>ISdo</strong></a></td>
-<td>Manipulate an SDO object.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/sdoias/nn-sdoias-isdocollection"><strong>ISdoCollection</strong></a></td>
-<td>Manipulate a collection of SDO objects.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/sdoias/nn-sdoias-isdodictionaryold"><strong>ISdoDictionaryOld</strong></a></td>
-<td>Manipulate the attribute dictionary.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/sdoias/nn-sdoias-isdomachine"><strong>ISdoMachine</strong></a></td>
-<td>Manage the SDO computer, and retrieve SDO objects.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/sdoias/nn-sdoias-isdoservicecontrol"><strong>ISdoServiceControl</strong></a></td>
-<td>Manage the service being administered through SDO, that is, either Internet Authentication Service (IAS) or Remote Access Server (RAS).<br/>
-<blockquote>
-[!Note]<br />
-Internet Authentication Service (IAS) was renamed Network Policy Server (NPS) starting with Windows Server 2008.
-</blockquote>
-<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Interface | Purpose | 
+|-----------|---------|
+| <a href="/windows/desktop/api/sdoias/nn-sdoias-isdo"><strong>ISdo</strong></a> | Manipulate an SDO object.<br /> | 
+| <a href="/windows/desktop/api/sdoias/nn-sdoias-isdocollection"><strong>ISdoCollection</strong></a> | Manipulate a collection of SDO objects.<br /> | 
+| <a href="/windows/desktop/api/sdoias/nn-sdoias-isdodictionaryold"><strong>ISdoDictionaryOld</strong></a> | Manipulate the attribute dictionary.<br /> | 
+| <a href="/windows/desktop/api/sdoias/nn-sdoias-isdomachine"><strong>ISdoMachine</strong></a> | Manage the SDO computer, and retrieve SDO objects.<br /> | 
+| <a href="/windows/desktop/api/sdoias/nn-sdoias-isdoservicecontrol"><strong>ISdoServiceControl</strong></a> | Manage the service being administered through SDO, that is, either Internet Authentication Service (IAS) or Remote Access Server (RAS).<br /><blockquote>[!Note]<br />Internet Authentication Service (IAS) was renamed Network Policy Server (NPS) starting with Windows Server 2008.</blockquote><br /> | 
+
 
 
 
