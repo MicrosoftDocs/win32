@@ -49,7 +49,7 @@ As part of these changes to the OS, a number of NUMA APIs have changed to suppor
 Because the removal of node splitting can potentially impact existing applications, a registry value is available to allow opting back into the legacy node splitting behavior. Node splitting can be re-enabled by creating a **REG_DWORD** value named "SplitLargeNodes" with value 1 underneath HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\NUMA. Changes to this setting require a reboot to take effect.
 
 ```powershell
-reg add "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\NUMA" /v SplitLargeNumaNodes /t REG_DWORD /v 1
+reg add "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\NUMA" /v SplitLargeNodes /t REG_DWORD /d 1
 ```
 
 > [!NOTE]
