@@ -30,53 +30,17 @@ You can also set other attributes. The following user attributes are set with de
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Attribute</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="/windows/desktop/ADSchema/a-accountexpires"><strong>accountExpires</strong></a></td>
-<td>Specifies when the account will expire. The default is <strong>TIMEQ_FOREVER</strong>, which indicates that the account will never expire.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/ADSchema/a-ntsecuritydescriptor"><strong>nTSecurityDescriptor</strong></a></td>
-<td>A security descriptor is created based on specific rules. For more information, see <a href="how-security-descriptors-are-set-on-new-directory-objects.md">How Security Descriptors are Set on New Directory Objects</a>.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/ADSchema/a-objectcategory"><strong>objectCategory</strong></a></td>
-<td>Specifies the user category. The default is &quot;Person&quot;.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/ADSchema/a-name"><strong>name</strong></a></td>
-<td>Specifies the user name. The default is the value set for <a href="/windows/desktop/ADSchema/a-cn"><strong>cn</strong></a>.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/ADSchema/a-pwdlastset"><strong>pwdLastSet</strong></a></td>
-<td>Specifies when the user last set the password. The default is zero, which indicates that the user must change the password at next logon.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/ADSchema/a-useraccountcontrol"><strong>userAccountControl</strong></a></td>
-<td>Contains values that determine several logon and account features for the user.<br/> By default, the following flags are set:<br/>
-<ul>
-<li><strong>UF_ACCOUNTDISABLE</strong> - The account is disabled.</li>
-<li><strong>UF_PASSWD_NOTREQD</strong> - No password is required.</li>
-<li><strong>UF_NORMAL_ACCOUNT</strong> - Default account type that represents a typical user.</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/ADSchema/a-memberof"><strong>memberOf</strong></a></td>
-<td>Specifies the group or groups that the user is a direct member of. The default is &quot;Domain Users&quot;.<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Attribute | Description | 
+|-----------|-------------|
+| <a href="/windows/desktop/ADSchema/a-accountexpires"><strong>accountExpires</strong></a> | Specifies when the account will expire. The default is <strong>TIMEQ_FOREVER</strong>, which indicates that the account will never expire.<br /> | 
+| <a href="/windows/desktop/ADSchema/a-ntsecuritydescriptor"><strong>nTSecurityDescriptor</strong></a> | A security descriptor is created based on specific rules. For more information, see <a href="how-security-descriptors-are-set-on-new-directory-objects.md">How Security Descriptors are Set on New Directory Objects</a>.<br /> | 
+| <a href="/windows/desktop/ADSchema/a-objectcategory"><strong>objectCategory</strong></a> | Specifies the user category. The default is "Person".<br /> | 
+| <a href="/windows/desktop/ADSchema/a-name"><strong>name</strong></a> | Specifies the user name. The default is the value set for <a href="/windows/desktop/ADSchema/a-cn"><strong>cn</strong></a>.<br /> | 
+| <a href="/windows/desktop/ADSchema/a-pwdlastset"><strong>pwdLastSet</strong></a> | Specifies when the user last set the password. The default is zero, which indicates that the user must change the password at next logon.<br /> | 
+| <a href="/windows/desktop/ADSchema/a-useraccountcontrol"><strong>userAccountControl</strong></a> | Contains values that determine several logon and account features for the user.<br /> By default, the following flags are set:<br /><ul><li><strong>UF_ACCOUNTDISABLE</strong> - The account is disabled.</li><li><strong>UF_PASSWD_NOTREQD</strong> - No password is required.</li><li><strong>UF_NORMAL_ACCOUNT</strong> - Default account type that represents a typical user.</li></ul> | 
+| <a href="/windows/desktop/ADSchema/a-memberof"><strong>memberOf</strong></a> | Specifies the group or groups that the user is a direct member of. The default is "Domain Users".<br /> | 
+
 
 
 

@@ -76,34 +76,12 @@ Set the following flags on the EVR mixer by calling the [**IMFVideoMixerControl2
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Flags</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><ul>
-<li><strong>MFVideoMixPrefs_ForceHalfInterlace</strong></li>
-<li><strong>MFVideoMixPrefs_AllowDropToHalfInterlace</strong></li>
-</ul></td>
-<td>Skip the second field of every interlaced frame.</td>
-</tr>
-<tr class="even">
-<td><ul>
-<li><strong>MFVideoMixPrefs_AllowDropToBob</strong></li>
-<li><strong>MFVideoMixPrefs_ForceBob</strong></li>
-</ul></td>
-<td>Use bob deinterlacing, even if the driver supports a higher-quality deinterlace mode.</td>
-</tr>
-</tbody>
-</table>
+
+| Flags | Description | 
+|-------|-------------|
+| <ul><li><strong>MFVideoMixPrefs_ForceHalfInterlace</strong></li><li><strong>MFVideoMixPrefs_AllowDropToHalfInterlace</strong></li></ul> | Skip the second field of every interlaced frame. | 
+| <ul><li><strong>MFVideoMixPrefs_AllowDropToBob</strong></li><li><strong>MFVideoMixPrefs_ForceBob</strong></li></ul> | Use bob deinterlacing, even if the driver supports a higher-quality deinterlace mode. | 
+
 
 
 
@@ -113,41 +91,13 @@ Set the following flags on the EVR presenter by calling the [**IMFVideoDisplayCo
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Flags</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><ul>
-<li><strong>MFVideoRenderPrefs_ForceOutputThrottling</strong></li>
-<li><strong>MFVideoRenderPrefs_AllowOutputThrottling</strong></li>
-</ul></td>
-<td>Throttle output to match GPU bandwidth.</td>
-</tr>
-<tr class="even">
-<td><ul>
-<li><strong>MFVideoRenderPrefs_ForceBatching</strong></li>
-<li><strong>MFVideoRenderPrefs_AllowBatching</strong></li>
-</ul></td>
-<td>Batch Direct3D Present calls. This optimization enables the system to enter into idle states more frequently, which can reduce power consumption.</td>
-</tr>
-<tr class="odd">
-<td><ul>
-<li>MFVideoRenderPrefs_ForceScaling</li>
-<li>MFVideoRenderPrefs_AllowScaling</li>
-</ul></td>
-<td>Perform video mixing using a rectangle smaller than the output rectangle. Scale the result to the correct output size.</td>
-</tr>
-</tbody>
-</table>
+
+| Flags | Description | 
+|-------|-------------|
+| <ul><li><strong>MFVideoRenderPrefs_ForceOutputThrottling</strong></li><li><strong>MFVideoRenderPrefs_AllowOutputThrottling</strong></li></ul> | Throttle output to match GPU bandwidth. | 
+| <ul><li><strong>MFVideoRenderPrefs_ForceBatching</strong></li><li><strong>MFVideoRenderPrefs_AllowBatching</strong></li></ul> | Batch Direct3D Present calls. This optimization enables the system to enter into idle states more frequently, which can reduce power consumption. | 
+| <ul><li>MFVideoRenderPrefs_ForceScaling</li><li>MFVideoRenderPrefs_AllowScaling</li></ul> | Perform video mixing using a rectangle smaller than the output rectangle. Scale the result to the correct output size. | 
+
 
 
 

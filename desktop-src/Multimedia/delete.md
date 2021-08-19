@@ -48,39 +48,12 @@ Flag that identifies a data segment to delete. The following table lists device 
 
 
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Value</th>
-<th>Meaning</th>
-<th>Meaning</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>digitalvideo</td>
-<td><ul>
-<li>at <em>rectangle</em></li>
-<li>audio stream <em>stream</em></li>
-<li>from <em>position</em></li>
-</ul></td>
-<td><ul>
-<li>to <em>position</em></li>
-<li>video stream <em>stream</em></li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>waveaudio</td>
-<td>from <em>position</em></td>
-<td>to <em>position</em></td>
-</tr>
-</tbody>
-</table>
+
+| Value | Meaning | Meaning | 
+|-------|---------|---------|
+| digitalvideo | <ul><li>at <em>rectangle</em></li><li>audio stream <em>stream</em></li><li>from <em>position</em></li></ul> | <ul><li>to <em>position</em></li><li>video stream <em>stream</em></li></ul> | 
+| waveaudio | from <em>position</em> | to <em>position</em> | 
+
 
 
 

@@ -48,29 +48,12 @@ The running instance to use for the API call.
 
 This function returns the [JET_ERR](./jet-err.md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](./extensible-storage-engine-errors.md) and [Error Handling Parameters](./error-handling-parameters.md).
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Return code</p></th>
-<th><p>Description</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_errSuccess</p></td>
-<td><p>The operation completed successfully.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errInvalidParameter</p></td>
-<td><p>The specified instance parameter has an invalid value (not an instance that is currently running).</p>
-<p><strong>Windows XP:</strong>  This return value is introduced in Windows XP.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Return code</p> | <p>Description</p> | 
+|--------------------|--------------------|
+| <p>JET_errSuccess</p> | <p>The operation completed successfully.</p> | 
+| <p>JET_errInvalidParameter</p> | <p>The specified instance parameter has an invalid value (not an instance that is currently running).</p><p><strong>Windows XP:</strong>  This return value is introduced in Windows XP.</p> | 
+
 
 
 If this function succeeds, it prepares for a future termination. The steps taken to prepare for a termination include the following:
@@ -91,34 +74,15 @@ This function will reduce the work the instance will have to do when terminated 
 
 #### Requirements
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Client</strong></p></td>
-<td><p>Requires Windows Vista or Windows XP.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Server</strong></p></td>
-<td><p>Requires Windows Server 2008 or Windows Server 2003.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>Header</strong></p></td>
-<td><p>Declared in Esent.h.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Library</strong></p></td>
-<td><p>Use ESENT.lib.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>DLL</strong></p></td>
-<td><p>Requires ESENT.dll.</p></td>
-</tr>
-</tbody>
-</table>
+
+| 
+|
+| <p><strong>Client</strong></p> | <p>Requires Windows Vista or Windows XP.</p> | 
+| <p><strong>Server</strong></p> | <p>Requires Windows Server 2008 or Windows Server 2003.</p> | 
+| <p><strong>Header</strong></p> | <p>Declared in Esent.h.</p> | 
+| <p><strong>Library</strong></p> | <p>Use ESENT.lib.</p> | 
+| <p><strong>DLL</strong></p> | <p>Requires ESENT.dll.</p> | 
+
 
 
 #### See Also

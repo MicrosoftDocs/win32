@@ -45,44 +45,13 @@ Specifies whether the volume and the encryption key (if any) are secured.
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><span id="Unprotected"></span><span id="unprotected"></span><span id="UNPROTECTED"></span><dl> <dt><strong>Unprotected</strong></dt> <dt>0</dt> </dl></td>
-<td>PROTECTION OFF<br/> For a standard HDD:<br/> The volume is unencrypted, partially encrypted, or the volume's encryption key is available in the clear on the hard disk. The encryption key is available in the clear on the hard disk if key protectors have been disabled by using the <a href="disablekeyprotectors-win32-encryptablevolume.md"><strong>DisableKeyProtectors</strong></a> method or if no key protectors have been specified by using the following methods:
-<ul>
-<li><a href="protectkeywithcertificatefile-win32-encryptablevolume.md"><strong>ProtectKeyWithCertificateFile</strong></a></li>
-<li><a href="protectkeywithcertificatethumbprint-win32-encryptablevolume.md"><strong>ProtectKeyWithCertificateThumbprint</strong></a></li>
-<li><a href="protectkeywithexternalkey-win32-encryptablevolume.md"><strong>ProtectKeyWithExternalKey</strong></a></li>
-<li><a href="protectkeywithnumericalpassword-win32-encryptablevolume.md"><strong>ProtectKeyWithNumericalPassword</strong></a></li>
-<li><a href="protectkeywithpassphrase-win32-encryptablevolume.md"><strong>ProtectKeyWithPassphrase</strong></a></li>
-<li><a href="protectkeywithtpm-win32-encryptablevolume.md"><strong>ProtectKeyWithTPM</strong></a></li>
-<li><a href="protectkeywithtpmandpin-win32-encryptablevolume.md"><strong>ProtectKeyWithTPMAndPIN</strong></a></li>
-<li><a href="protectkeywithtpmandpinandstartupkey-win32-encryptablevolume.md"><strong>ProtectKeyWithTPMAndPINAndStartupKey</strong></a></li>
-<li><a href="protectkeywithtpmandstartupkey-win32-encryptablevolume.md"><strong>ProtectKeyWithTPMAndStartupKey</strong></a></li>
-</ul>
-<br/> For an EHDD:<br/> The band for the volume is perpetually unlocked, has no key manager, or is managed by a third party key manager.<br/> This can also mean that the band is managed by BitLocker but the <a href="disablekeyprotectors-win32-encryptablevolume.md"><strong>DisableKeyProtectors</strong></a> method has been called and the drive is suspended.<br/></td>
-</tr>
-<tr class="even">
-<td><span id="Protected"></span><span id="protected"></span><span id="PROTECTED"></span><dl> <dt><strong>Protected</strong></dt> <dt>1</dt> </dl></td>
-<td>PROTECTION ON<br/> For a standard HDD:<br/> The volume is fully encrypted and the encryption key for the volume is not available in the clear on the hard disk.<br/> For an EHDD:<br/> BitLocker is the key manager for the band. The drive can be locked or unlocked but cannot be perpetually unlocked.<br/></td>
-</tr>
-<tr class="odd">
-<td><span id="Unknown"></span><span id="unknown"></span><span id="UNKNOWN"></span><dl> <dt><strong>Unknown</strong></dt> <dt>2</dt> </dl></td>
-<td>The volume protection status cannot be determined. This can be caused by the volume being in a locked state.<br/> <strong>Windows Vista Ultimate, Windows Vista Enterprise and Windows Server 2008:</strong> This value is not supported. This value is supported beginning with Windows 7 and Windows Server 2008 R2.<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Value | Meaning | 
+|-------|---------|
+| <span id="Unprotected"></span><span id="unprotected"></span><span id="UNPROTECTED"></span><dl><dt><strong>Unprotected</strong></dt><dt>0</dt></dl> | PROTECTION OFF<br /> For a standard HDD:<br /> The volume is unencrypted, partially encrypted, or the volume's encryption key is available in the clear on the hard disk. The encryption key is available in the clear on the hard disk if key protectors have been disabled by using the <a href="disablekeyprotectors-win32-encryptablevolume.md"><strong>DisableKeyProtectors</strong></a> method or if no key protectors have been specified by using the following methods:<ul><li><a href="protectkeywithcertificatefile-win32-encryptablevolume.md"><strong>ProtectKeyWithCertificateFile</strong></a></li><li><a href="protectkeywithcertificatethumbprint-win32-encryptablevolume.md"><strong>ProtectKeyWithCertificateThumbprint</strong></a></li><li><a href="protectkeywithexternalkey-win32-encryptablevolume.md"><strong>ProtectKeyWithExternalKey</strong></a></li><li><a href="protectkeywithnumericalpassword-win32-encryptablevolume.md"><strong>ProtectKeyWithNumericalPassword</strong></a></li><li><a href="protectkeywithpassphrase-win32-encryptablevolume.md"><strong>ProtectKeyWithPassphrase</strong></a></li><li><a href="protectkeywithtpm-win32-encryptablevolume.md"><strong>ProtectKeyWithTPM</strong></a></li><li><a href="protectkeywithtpmandpin-win32-encryptablevolume.md"><strong>ProtectKeyWithTPMAndPIN</strong></a></li><li><a href="protectkeywithtpmandpinandstartupkey-win32-encryptablevolume.md"><strong>ProtectKeyWithTPMAndPINAndStartupKey</strong></a></li><li><a href="protectkeywithtpmandstartupkey-win32-encryptablevolume.md"><strong>ProtectKeyWithTPMAndStartupKey</strong></a></li></ul><br /> For an EHDD:<br /> The band for the volume is perpetually unlocked, has no key manager, or is managed by a third party key manager.<br /> This can also mean that the band is managed by BitLocker but the <a href="disablekeyprotectors-win32-encryptablevolume.md"><strong>DisableKeyProtectors</strong></a> method has been called and the drive is suspended.<br /> | 
+| <span id="Protected"></span><span id="protected"></span><span id="PROTECTED"></span><dl><dt><strong>Protected</strong></dt><dt>1</dt></dl> | PROTECTION ON<br /> For a standard HDD:<br /> The volume is fully encrypted and the encryption key for the volume is not available in the clear on the hard disk.<br /> For an EHDD:<br /> BitLocker is the key manager for the band. The drive can be locked or unlocked but cannot be perpetually unlocked.<br /> | 
+| <span id="Unknown"></span><span id="unknown"></span><span id="UNKNOWN"></span><dl><dt><strong>Unknown</strong></dt><dt>2</dt></dl> | The volume protection status cannot be determined. This can be caused by the volume being in a locked state.<br /><strong>Windows Vista Ultimate, Windows Vista Enterprise and Windows Server 2008:</strong> This value is not supported. This value is supported beginning with Windows 7 and Windows Server 2008 R2.<br /> | 
+
 
 
 

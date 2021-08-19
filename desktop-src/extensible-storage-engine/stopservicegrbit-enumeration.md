@@ -61,43 +61,14 @@ public enum StopServiceGrbit
 
 ## Members
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th></th>
-<th>Member name</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td></td>
-<td>All</td>
-<td>Stops all ESE services for the specified instance.</td>
-</tr>
-<tr class="even">
-<td></td>
-<td>BackgroundUserTasks</td>
-<td>Stops restartable client specificed background maintenance tasks (B+ Tree Defrag).</td>
-</tr>
-<tr class="odd">
-<td></td>
-<td>QuiesceCaches</td>
-<td>Quiesces all dirty caches to disk. Asynchronous. Quiescing is cancelled if the Resume bit is called subsequently.</td>
-</tr>
-<tr class="even">
-<td></td>
-<td>Resume</td>
-<td>Resumes previously issued StopService operations, i.e. &quot;restarts service&quot;. Can be combined with above grbits to Resume specific services, or with 0x0 Resumes all previous stopped services.
-<p>Warning: This bit can only be used to resume JET_bitStopServiceBackground and JET_bitStopServiceQuiesceCaches, if you did a JET_bitStopServiceAll or JET_bitStopServiceAPI, attempting to use JET_bitStopServiceResume will fail.</p></td>
-</tr>
-</tbody>
-</table>
+
+|  | Member name | Description | 
+|--|-------------|-------------|
+|  | All | Stops all ESE services for the specified instance. | 
+|  | BackgroundUserTasks | Stops restartable client specificed background maintenance tasks (B+ Tree Defrag). | 
+|  | QuiesceCaches | Quiesces all dirty caches to disk. Asynchronous. Quiescing is cancelled if the Resume bit is called subsequently. | 
+|  | Resume | Resumes previously issued StopService operations, i.e. "restarts service". Can be combined with above grbits to Resume specific services, or with 0x0 Resumes all previous stopped services.<p>Warning: This bit can only be used to resume JET_bitStopServiceBackground and JET_bitStopServiceQuiesceCaches, if you did a JET_bitStopServiceAll or JET_bitStopServiceAPI, attempting to use JET_bitStopServiceResume will fail.</p> | 
+
 
 
 ## See also

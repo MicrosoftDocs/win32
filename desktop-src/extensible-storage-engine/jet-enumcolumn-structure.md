@@ -54,44 +54,16 @@ The column ID that was enumerated.
 
 The column status code that results from the enumeration of the column.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Error Codes</p></th>
-<th><p>Meaning</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_errBadColumnId</p></td>
-<td><p>The column ID is outside the legal limits of a column ID.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errColumnNotFound</p></td>
-<td><p>The column described by the column ID does not exist in the table.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_wrnColumnNull</p></td>
-<td><p>All values for this column are NULL.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_wrnColumnPresent</p></td>
-<td><p>JET_bitEnumeratePresenceOnly was specified and at least one non-NULL column value would have been returned for this column.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_wrnColumnSingleValue</p></td>
-<td><p>JET_bitEnumerateCompressOutput was specified and exactly one non-NULL column value has been returned for this column. As a result, the compressed form of <strong>JET_ENUMCOLUMN</strong> has been returned. See <strong>JET_ENUMCOLUMN</strong> for more information.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_wrnColumnSkipped</p></td>
-<td><p>The column ID in the <a href="gg269251(v=exchg.10).md">JET_ENUMCOLUMNID</a> struct corresponding to this <strong>JET_ENUMCOLUMN</strong> struct was zero.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Error Codes</p> | <p>Meaning</p> | 
+|--------------------|----------------|
+| <p>JET_errBadColumnId</p> | <p>The column ID is outside the legal limits of a column ID.</p> | 
+| <p>JET_errColumnNotFound</p> | <p>The column described by the column ID does not exist in the table.</p> | 
+| <p>JET_wrnColumnNull</p> | <p>All values for this column are NULL.</p> | 
+| <p>JET_wrnColumnPresent</p> | <p>JET_bitEnumeratePresenceOnly was specified and at least one non-NULL column value would have been returned for this column.</p> | 
+| <p>JET_wrnColumnSingleValue</p> | <p>JET_bitEnumerateCompressOutput was specified and exactly one non-NULL column value has been returned for this column. As a result, the compressed form of <strong>JET_ENUMCOLUMN</strong> has been returned. See <strong>JET_ENUMCOLUMN</strong> for more information.</p> | 
+| <p>JET_wrnColumnSkipped</p> | <p>The column ID in the <a href="gg269251(v=exchg.10).md">JET_ENUMCOLUMNID</a> struct corresponding to this <strong>JET_ENUMCOLUMN</strong> struct was zero.</p> | 
+
 
 
 **cEnumColumnValue**
@@ -132,26 +104,13 @@ This is returned if "err == JET_wrnColumnSingleValue".
 
 ### Requirements
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Client</strong></p></td>
-<td><p>Requires Windows Vista, Windows XP, or Windows 2000 Professional.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Server</strong></p></td>
-<td><p>Requires Windows Server 2008, Windows Server 2003, or Windows 2000 Server.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>Header</strong></p></td>
-<td><p>Declared in Esent.h.</p></td>
-</tr>
-</tbody>
-</table>
+
+| 
+|
+| <p><strong>Client</strong></p> | <p>Requires Windows Vista, Windows XP, or Windows 2000 Professional.</p> | 
+| <p><strong>Server</strong></p> | <p>Requires Windows Server 2008, Windows Server 2003, or Windows 2000 Server.</p> | 
+| <p><strong>Header</strong></p> | <p>Declared in Esent.h.</p> | 
+
 
 
 ### See Also

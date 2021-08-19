@@ -12,33 +12,12 @@ The following table identifies what is new for each release of the Image Masteri
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Version</th>
-<th>Description of features</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Version 2.0</td>
-<td>Much of the API has been redesigned. Most of the version 1.0 functionality is still available in version 2.0. Those writing image mastering applications or performing new device and format development are encouraged to use version 2.0 instead of version 1.0.<br/> IMAPI 2.0 is included in Windows Vista. Enabling the same functionality for Windows XP and Windows Server 2003 requires the installation of the <a href="https://support.microsoft.com/kb/932716">KB932716</a> update package.<br/> Point-Release Notes:<br/>
-<ul>
-<li>An update offering multi-boot support via the <a href="/windows/desktop/api/imapi2fs/nn-imapi2fs-ifilesystemimage2"><strong>IFileSystemImage2</strong></a> interface was introduced in Windows Vista with Service Pack 1 (SP1) and Windows Server 2008.<br/></li>
-<li>A feature update offering mastering support for the BD-R\BD-RE format, RAW CD Disc-at-Once image creation, as well as burn verification was included in the <a href="https://www.microsoft.com/downloads/details.aspx?FamilyID=63ab51ea-99c9-45c0-980a-c556746fcf05">Windows Feature Pack for Storage</a>. This feature update is supported on Windows Vista with SP1, Windows XP with Service Pack 2 (SP2) and later, and Windows Server 2003 with Service Pack 1 (SP1) and later. Additionally, these features are included in Windows 7 and Windows Server 2008.<br/></li>
-<li>IMAPI 2.0 features native to Windows 7 and Windows Server 2008 include 'Gapless Burning' for audio cds and the elimination of 'Double Stashing' during burn operations. Double Stashing is a process, within the larger burn operation, in which every file is stashed before being burned to disc. With the latest version of IMAPI 2.0, files are selectively choosen for stashing, leaving the remaining files (mostly large files) non-stashed. The end result is saved disk space and operation time.<br/></li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>Version 1.0</td>
-<td>Initial release. Lets an application stage and burn a simple audio or data image to CD-R and CD-RW devices. The API supports the Joliet and ISO 9660 format for Redbook audio and data discs. For information on version 1.0, see <a href="imapiv1.md">IMAPIv1 Support</a>.Included in Windows XP.<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Version | Description of features | 
+|---------|-------------------------|
+| Version 2.0 | Much of the API has been redesigned. Most of the version 1.0 functionality is still available in version 2.0. Those writing image mastering applications or performing new device and format development are encouraged to use version 2.0 instead of version 1.0.<br /> IMAPI 2.0 is included in Windows Vista. Enabling the same functionality for Windows XP and Windows Server 2003 requires the installation of the <a href="https://support.microsoft.com/kb/932716">KB932716</a> update package.<br /> Point-Release Notes:<br /><ul><li>An update offering multi-boot support via the <a href="/windows/desktop/api/imapi2fs/nn-imapi2fs-ifilesystemimage2"><strong>IFileSystemImage2</strong></a> interface was introduced in Windows Vista with Service Pack 1 (SP1) and Windows Server 2008.<br /></li><li>A feature update offering mastering support for the BD-R\BD-RE format, RAW CD Disc-at-Once image creation, as well as burn verification was included in the <a href="https://www.microsoft.com/downloads/details.aspx?FamilyID=63ab51ea-99c9-45c0-980a-c556746fcf05">Windows Feature Pack for Storage</a>. This feature update is supported on Windows Vista with SP1, Windows XP with Service Pack 2 (SP2) and later, and Windows Server 2003 with Service Pack 1 (SP1) and later. Additionally, these features are included in Windows 7 and Windows Server 2008.<br /></li><li>IMAPI 2.0 features native to Windows 7 and Windows Server 2008 include 'Gapless Burning' for audio cds and the elimination of 'Double Stashing' during burn operations. Double Stashing is a process, within the larger burn operation, in which every file is stashed before being burned to disc. With the latest version of IMAPI 2.0, files are selectively choosen for stashing, leaving the remaining files (mostly large files) non-stashed. The end result is saved disk space and operation time.<br /></li></ul> | 
+| Version 1.0 | Initial release. Lets an application stage and burn a simple audio or data image to CD-R and CD-RW devices. The API supports the Joliet and ISO 9660 format for Redbook audio and data discs. For information on version 1.0, see <a href="imapiv1.md">IMAPIv1 Support</a>.Included in Windows XP.<br /> | 
+
 
 
 

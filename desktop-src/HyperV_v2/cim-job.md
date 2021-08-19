@@ -83,29 +83,11 @@ The **CIM\_Job** class has these methods.
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;">Method</th>
-<th style="text-align: left;">Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;"><a href="cim-job-killjob.md"><strong>KillJob</strong></a></td>
-<td style="text-align: left;">This method is deprecated. Instead, use the <strong>RequestStateChange</strong> method.<br/>
-<blockquote>
-[!Note]<br />
-Deprecated description: Shuts down a job.
-</blockquote>
-<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Method | Description | 
+|--------|-------------|
+| <a href="cim-job-killjob.md"><strong>KillJob</strong></a> | This method is deprecated. Instead, use the <strong>RequestStateChange</strong> method.<br /><blockquote>[!Note]<br />Deprecated description: Shuts down a job.</blockquote><br /> | 
+
 
 
 

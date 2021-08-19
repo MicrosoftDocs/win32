@@ -54,41 +54,14 @@ UI Automation has four main components, as shown in the following table.
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Component</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Provider API</td>
-<td>A set of COM interfaces that are implemented by UI Automation providers. UI Automation providers are objects that provide information about UI elements and respond to programmatic input.</td>
-</tr>
-<tr class="even">
-<td>Client API</td>
-<td>A set of COM interfaces that enable client applications to obtain information about the UI and to send input to controls.
-<blockquote>
-[!Note]<br />
-The functions described in <a href="uiauto-entry-cpfunctions.md">Deprecated Control Pattern Functions</a> and <a href="uiauto-entry-uianodefunctions.md">Deprecated Node Functions</a> are deprecated. Instead, client applications should use the UI Automation COM interfaces described in <a href="uiauto-entry-uiautoclientinterfaces.md">UI Automation Element Interfaces for Clients</a>.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="odd">
-<td>UIAutomationCore.dll</td>
-<td>The run-time library, sometimes called the UI Automation core, that handles communication between providers and clients.</td>
-</tr>
-<tr class="even">
-<td>Oleacc.dll</td>
-<td>The run-time library for Microsoft Active Accessibility and the proxy objects. The library also provides proxy objects used by the Microsoft Microsoft Active Accessibility to UI Automation Proxy to support Win32 controls.</td>
-</tr>
-</tbody>
-</table>
+
+| Component | Description | 
+|-----------|-------------|
+| Provider API | A set of COM interfaces that are implemented by UI Automation providers. UI Automation providers are objects that provide information about UI elements and respond to programmatic input. | 
+| Client API | A set of COM interfaces that enable client applications to obtain information about the UI and to send input to controls.<blockquote>[!Note]<br />The functions described in <a href="uiauto-entry-cpfunctions.md">Deprecated Control Pattern Functions</a> and <a href="uiauto-entry-uianodefunctions.md">Deprecated Node Functions</a> are deprecated. Instead, client applications should use the UI Automation COM interfaces described in <a href="uiauto-entry-uiautoclientinterfaces.md">UI Automation Element Interfaces for Clients</a>.</blockquote><br /> | 
+| UIAutomationCore.dll | The run-time library, sometimes called the UI Automation core, that handles communication between providers and clients. | 
+| Oleacc.dll | The run-time library for Microsoft Active Accessibility and the proxy objects. The library also provides proxy objects used by the Microsoft Microsoft Active Accessibility to UI Automation Proxy to support Win32 controls. | 
+
 
 
 

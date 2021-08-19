@@ -28,43 +28,12 @@ Contains the background for a [**JournalDocument**](journaldocument-element.md) 
 
 
 
-<table>
-<colgroup>
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Attribute</th>
-<th>Type</th>
-<th>Required</th>
-<th>Description</th>
-<th>Possible Values</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>Style</strong></td>
-<td><strong>xs:string</strong></td>
-<td>Required</td>
-<td>Specifies the style of the background.</td>
-<td><ul>
-<li>None</li>
-<li>Solid</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td><strong>Color</strong></td>
-<td><a href="colortype-simple-type.md"><strong>ColorType</strong></a> simpleType</td>
-<td>Optional</td>
-<td>Specifies the color of the background.</td>
-<td>See <a href="colortype-simple-type.md"><strong>ColorType</strong></a> simpleType.</td>
-</tr>
-</tbody>
-</table>
+
+| Attribute | Type | Required | Description | Possible Values | 
+|-----------|------|----------|-------------|-----------------|
+| <strong>Style</strong> | <strong>xs:string</strong> | Required | Specifies the style of the background. | <ul><li>None</li><li>Solid</li></ul> | 
+| <strong>Color</strong> | <a href="colortype-simple-type.md"><strong>ColorType</strong></a> simpleType | Optional | Specifies the color of the background. | See <a href="colortype-simple-type.md"><strong>ColorType</strong></a> simpleType. | 
+
 
 
 

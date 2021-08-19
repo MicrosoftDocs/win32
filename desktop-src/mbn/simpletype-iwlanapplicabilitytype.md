@@ -35,32 +35,13 @@ Enumeration that describes the kind of network connection where a profile is app
 
 The **iwlanApplicabilityType** simple type defines the following values.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Value</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>CellularOnly</td>
-<td><p>Profile is valid for cellular network connections only.</p></td>
-</tr>
-<tr class="even">
-<td>CellularAndIwlan</td>
-<td><p>Profile is valid for cellular or Wi-Fi offloaded connections.</p></td>
-</tr>
-<tr class="odd">
-<td>IwlanOnly</td>
-<td><p>Profile is valid for Wi-Fi offloaded connections only.</p></td>
-</tr>
-</tbody>
-</table>
+
+| Value | Description | 
+|-------|-------------|
+| CellularOnly | <p>Profile is valid for cellular network connections only.</p> | 
+| CellularAndIwlan | <p>Profile is valid for cellular or Wi-Fi offloaded connections.</p> | 
+| IwlanOnly | <p>Profile is valid for Wi-Fi offloaded connections only.</p> | 
+
 
  
 

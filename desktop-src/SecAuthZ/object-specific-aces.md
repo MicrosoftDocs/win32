@@ -12,34 +12,12 @@ Object-specific [*ACEs*](/windows/desktop/SecGloss/a-gly) are supported for dire
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>GUID</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>ObjectType</strong></td>
-<td>Identifies one of the following:
-<ul>
-<li>A type of child object. The ACE controls the right to create a specified type of child object. For more information, see <a href="controlling-child-object-creation-in-c--.md">Controlling Child Object Creation in C++</a>.</li>
-<li>A property set or property. The ACE controls the right to read or write the property or property set. For more information, see <a href="aces-to-control-access-to-an-object-s-properties.md">ACEs to Control Access to an Object's Properties</a>.</li>
-<li>An extended right. The ACE controls the right to perform the operation associated with the extended right.</li>
-<li>A validated write. The ACE controls the right to perform certain write operations. These validated write permissions, defined and exposed in the ACL Editor, provide permissions for validated writes of properties rather than unchecked low-level writes of any value to a property that is granted with a &quot;write property&quot; permission.</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td><strong>InheritedObjectType</strong></td>
-<td>Indicates the type of child object that can inherit the ACE. Inheritance is also controlled by the inheritance flags in the <a href="/windows/desktop/api/Winnt/ns-winnt-ace_header"><strong>ACE_HEADER</strong></a>, as well as by any protection against inheritance placed on the child objects. For more information, see <a href="ace-inheritance.md">ACE Inheritance</a>.</td>
-</tr>
-</tbody>
-</table>
+
+| GUID | Description | 
+|------|-------------|
+| <strong>ObjectType</strong> | Identifies one of the following:<ul><li>A type of child object. The ACE controls the right to create a specified type of child object. For more information, see <a href="controlling-child-object-creation-in-c--.md">Controlling Child Object Creation in C++</a>.</li><li>A property set or property. The ACE controls the right to read or write the property or property set. For more information, see <a href="aces-to-control-access-to-an-object-s-properties.md">ACEs to Control Access to an Object's Properties</a>.</li><li>An extended right. The ACE controls the right to perform the operation associated with the extended right.</li><li>A validated write. The ACE controls the right to perform certain write operations. These validated write permissions, defined and exposed in the ACL Editor, provide permissions for validated writes of properties rather than unchecked low-level writes of any value to a property that is granted with a "write property" permission.</li></ul> | 
+| <strong>InheritedObjectType</strong> | Indicates the type of child object that can inherit the ACE. Inheritance is also controlled by the inheritance flags in the <a href="/windows/desktop/api/Winnt/ns-winnt-ace_header"><strong>ACE_HEADER</strong></a>, as well as by any protection against inheritance placed on the child objects. For more information, see <a href="ace-inheritance.md">ACE Inheritance</a>. | 
+
 
 
 

@@ -54,43 +54,21 @@ None.
 
 ### <span id="parent_elements"></span><span id="PARENT_ELEMENTS"></span>Parent Elements
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Parent Element</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="element-purposegroups.md">PurposeGroups</a></td>
-<td><p>An optional list of groups of profiles, where each group includes profiles used for a common purpose.</p>
-<p>This element is new for v4 of the schema.</p>
-<p>One profile can be listed in multiple groups.</p></td>
-</tr>
-</tbody>
-</table>
+
+| Parent Element | Description | 
+|----------------|-------------|
+| <a href="element-purposegroups.md">PurposeGroups</a> | <p>An optional list of groups of profiles, where each group includes profiles used for a common purpose.</p><p>This element is new for v4 of the schema.</p><p>One profile can be listed in multiple groups.</p> | 
+
 
  
 
 ## Requirements
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Namespace</p></td>
-<td><p>https://www.microsoft.com/networking/WWAN/profile/v4</p></td>
-</tr>
-</tbody>
-</table>
+
+| 
+|
+| <p>Namespace</p> | <p>https://www.microsoft.com/networking/WWAN/profile/v4</p> | 
+
 
  
 

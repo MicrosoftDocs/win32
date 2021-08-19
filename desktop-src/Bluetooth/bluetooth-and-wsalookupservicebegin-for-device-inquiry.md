@@ -18,40 +18,14 @@ The following table lists restrictions that apply to the [**WSAQUERYSET**](/wind
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>WSAQUERYSET member</th>
-<th>Restriction</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>dwSize</strong></td>
-<td>Set to <strong>sizeof</strong>(<a href="/windows/desktop/api/winsock2/ns-winsock2-wsaquerysetw"><strong>WSAQUERYSET</strong></a>).</td>
-</tr>
-<tr class="even">
-<td><strong>lpBlob</strong></td>
-<td>This member contains an optional pointer to a <a href="/windows/desktop/api/nspapi/ns-nspapi-blob"><strong>BLOB</strong></a> structure. If this member is specified, the valid device inquire parameters for <strong>LUP_FLUSHCACHE</strong> are as follows:
-<ul>
-<li>The <strong>cbSize</strong> member of the <a href="/windows/desktop/api/nspapi/ns-nspapi-blob"><strong>BLOB</strong></a> structure must be <strong>sizeof</strong>(<strong>BTH_QUERY_DEVICE</strong>).</li>
-<li>The <strong>pBlobData</strong> member is a pointer to a <a href="/windows/desktop/api/Ws2bth/ns-ws2bth-bth_query_device"><strong>BTH_QUERY_DEVICE</strong></a> structure, for which the <strong>LAP</strong> member is the Bluetooth inquiry access code, and the <strong>length</strong> member is the length, in seconds, of the inquiry.</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td><strong>dwNameSpace</strong></td>
-<td>Set to <strong>NS_BTH</strong>.</td>
-</tr>
-<tr class="even">
-<td>Other members</td>
-<td>Other members of the <a href="/windows/desktop/api/winsock2/ns-winsock2-wsaquerysetw"><strong>WSAQUERYSET</strong></a> structure are ignored.</td>
-</tr>
-</tbody>
-</table>
+
+| WSAQUERYSET member | Restriction | 
+|--------------------|-------------|
+| <strong>dwSize</strong> | Set to <strong>sizeof</strong>(<a href="/windows/desktop/api/winsock2/ns-winsock2-wsaquerysetw"><strong>WSAQUERYSET</strong></a>). | 
+| <strong>lpBlob</strong> | This member contains an optional pointer to a <a href="/windows/desktop/api/nspapi/ns-nspapi-blob"><strong>BLOB</strong></a> structure. If this member is specified, the valid device inquire parameters for <strong>LUP_FLUSHCACHE</strong> are as follows:<ul><li>The <strong>cbSize</strong> member of the <a href="/windows/desktop/api/nspapi/ns-nspapi-blob"><strong>BLOB</strong></a> structure must be <strong>sizeof</strong>(<strong>BTH_QUERY_DEVICE</strong>).</li><li>The <strong>pBlobData</strong> member is a pointer to a <a href="/windows/desktop/api/Ws2bth/ns-ws2bth-bth_query_device"><strong>BTH_QUERY_DEVICE</strong></a> structure, for which the <strong>LAP</strong> member is the Bluetooth inquiry access code, and the <strong>length</strong> member is the length, in seconds, of the inquiry.</li></ul> | 
+| <strong>dwNameSpace</strong> | Set to <strong>NS_BTH</strong>. | 
+| Other members | Other members of the <a href="/windows/desktop/api/winsock2/ns-winsock2-wsaquerysetw"><strong>WSAQUERYSET</strong></a> structure are ignored. | 
+
 
 
 

@@ -47,74 +47,22 @@ To obtain the location of the default user's directory, call the [**GetDefaultUs
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Directory</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Application Data</td>
-<td>Application-specific data.</td>
-</tr>
-<tr class="even">
-<td>Cookies</td>
-<td>Windows Internet Explorer cookies.</td>
-</tr>
-<tr class="odd">
-<td>Desktop</td>
-<td>Shortcuts to display on the desktop.</td>
-</tr>
-<tr class="even">
-<td>Favorites</td>
-<td>Links to favorite websites.</td>
-</tr>
-<tr class="odd">
-<td>Local Settings</td>
-<td>Application settings and data that do not roam with the profile. Usually the settings or data in this directory are computer-specific, or they are too large to roam effectively. This directory contains the following subfolders:
-<ul>
-<li>Application Data</li>
-<li>History</li>
-<li>Temp</li>
-<li>Temporary Internet Files</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>My Documents</td>
-<td>The default location for documents that the user creates. Applications should save document files to this directory by default.</td>
-</tr>
-<tr class="odd">
-<td><em>NetHood</em></td>
-<td>Shortcuts to Network Neighborhood items.</td>
-</tr>
-<tr class="even">
-<td><em>PrintHood</em></td>
-<td>Shortcuts to printer folder items.</td>
-</tr>
-<tr class="odd">
-<td><em>Recent</em></td>
-<td>Shortcuts to the most recently used documents.</td>
-</tr>
-<tr class="even">
-<td>SendTo</td>
-<td>Shortcuts to locations to which the user often sends files.</td>
-</tr>
-<tr class="odd">
-<td>Start Menu</td>
-<td>Menu items for the <strong>Start</strong> menu.</td>
-</tr>
-<tr class="even">
-<td><em>Templates</em></td>
-<td>Shortcuts to template items.</td>
-</tr>
-</tbody>
-</table>
+
+| Directory | Description | 
+|-----------|-------------|
+| Application Data | Application-specific data. | 
+| Cookies | Windows Internet Explorer cookies. | 
+| Desktop | Shortcuts to display on the desktop. | 
+| Favorites | Links to favorite websites. | 
+| Local Settings | Application settings and data that do not roam with the profile. Usually the settings or data in this directory are computer-specific, or they are too large to roam effectively. This directory contains the following subfolders:<ul><li>Application Data</li><li>History</li><li>Temp</li><li>Temporary Internet Files</li></ul> | 
+| My Documents | The default location for documents that the user creates. Applications should save document files to this directory by default. | 
+| <em>NetHood</em> | Shortcuts to Network Neighborhood items. | 
+| <em>PrintHood</em> | Shortcuts to printer folder items. | 
+| <em>Recent</em> | Shortcuts to the most recently used documents. | 
+| SendTo | Shortcuts to locations to which the user often sends files. | 
+| Start Menu | Menu items for the <strong>Start</strong> menu. | 
+| <em>Templates</em> | Shortcuts to template items. | 
+
 
 
 

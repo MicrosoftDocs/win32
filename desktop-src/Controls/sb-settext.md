@@ -37,49 +37,16 @@ The high-order word of *wParam* is ignored.
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><span id="0"></span><dl> <dt><strong>0</strong></dt> </dl></td>
-<td>The text is drawn with a border to appear lower than the plane of the window.<br/></td>
-</tr>
-<tr class="even">
-<td><span id="SBT_NOBORDERS"></span><span id="sbt_noborders"></span><dl> <dt><strong>SBT_NOBORDERS</strong></dt> </dl></td>
-<td>The text is drawn without borders.<br/></td>
-</tr>
-<tr class="odd">
-<td><span id="SBT_OWNERDRAW"></span><span id="sbt_ownerdraw"></span><dl> <dt><strong>SBT_OWNERDRAW</strong></dt> </dl></td>
-<td>The text is drawn by the parent window. <br/>
-<blockquote>
-[!Note]<br />
-A simple mode status bar does not support owner drawing.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td><span id="SBT_POPOUT"></span><span id="sbt_popout"></span><dl> <dt><strong>SBT_POPOUT</strong></dt> </dl></td>
-<td>The text is drawn with a border to appear higher than the plane of the window.<br/></td>
-</tr>
-<tr class="odd">
-<td><span id="SBT_RTLREADING"></span><span id="sbt_rtlreading"></span><dl> <dt><strong>SBT_RTLREADING</strong></dt> </dl></td>
-<td>The text will be displayed in the opposite direction to the text in the parent window.<br/></td>
-</tr>
-<tr class="even">
-<td><span id="SBT_NOTABPARSING"></span><span id="sbt_notabparsing"></span><dl> <dt><strong>SBT_NOTABPARSING</strong></dt> </dl></td>
-<td>Tab characters are ignored.<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Value | Meaning | 
+|-------|---------|
+| <span id="0"></span><dl><dt><strong>0</strong></dt></dl> | The text is drawn with a border to appear lower than the plane of the window.<br /> | 
+| <span id="SBT_NOBORDERS"></span><span id="sbt_noborders"></span><dl><dt><strong>SBT_NOBORDERS</strong></dt></dl> | The text is drawn without borders.<br /> | 
+| <span id="SBT_OWNERDRAW"></span><span id="sbt_ownerdraw"></span><dl><dt><strong>SBT_OWNERDRAW</strong></dt></dl> | The text is drawn by the parent window. <br /><blockquote>[!Note]<br />A simple mode status bar does not support owner drawing.</blockquote><br /> | 
+| <span id="SBT_POPOUT"></span><span id="sbt_popout"></span><dl><dt><strong>SBT_POPOUT</strong></dt></dl> | The text is drawn with a border to appear higher than the plane of the window.<br /> | 
+| <span id="SBT_RTLREADING"></span><span id="sbt_rtlreading"></span><dl><dt><strong>SBT_RTLREADING</strong></dt></dl> | The text will be displayed in the opposite direction to the text in the parent window.<br /> | 
+| <span id="SBT_NOTABPARSING"></span><span id="sbt_notabparsing"></span><dl><dt><strong>SBT_NOTABPARSING</strong></dt></dl> | Tab characters are ignored.<br /> | 
+
 
 
 

@@ -20,19 +20,11 @@ This section contains reference information for the functions that you need to u
 - [**DebugSetMute**](debugsetmute.md)
 - [**Direct3DCreate9**](/windows/win32/api/d3d9/nf-d3d9-direct3dcreate9)
 
-    <table>
-    <colgroup>
-    <col style="width: 100%" />
-    </colgroup>
-    <tbody>
-    <tr class="odd">
-    <td>Differences between Direct3D 9 and Direct3D 9Ex:<br/> This function is available in Direct3D 9Ex only.<br/>
-    <ul>
-    <li><a href="/windows/desktop/api/D3D9/nf-d3d9-direct3dcreate9ex"><strong>Direct3DCreate9Ex</strong></a></li>
-    </ul></td>
-    </tr>
-    </tbody>
-    </table>
+    
+| 
+|
+| Differences between Direct3D 9 and Direct3D 9Ex:<br /> This function is available in Direct3D 9Ex only.<br /><ul><li><a href="/windows/desktop/api/D3D9/nf-d3d9-direct3dcreate9ex"><strong>Direct3DCreate9Ex</strong></a></li></ul> | 
+
 
 - [**Direct3DShaderValidatorCreate9**](direct3dshadervalidatorcreate9.md)
 

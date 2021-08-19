@@ -21,62 +21,15 @@ The following syntax applies to the Windows Desktop Search 2.x command-line inte
 
 
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Options</th>
-<th>Parameter</th>
-<th>Meaning</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>/startup</td>
 
-<td>Initializes Windows Desktop Search</td>
-</tr>
-<tr class="even">
-<td>/indexnow</td>
+| Options | Parameter | Meaning | 
+|---------|-----------|---------|
+| /startup | Initializes Windows Desktop Search | 
+| /indexnow | Turns off indexing back-off and rescans all index locations | 
+| /showstatus | Shows the indexing status window | 
+| /launchsearchwindow or /url | Opens a WDS window with an empty query | 
+| /url | search:[store|show|query] query string | Opens a WDS window with a query and filter based on the following parameters:<ul><li><p>store - Specifies the data source to query: files, outlook, outlookexpress. If not specified all stores will be searched. <br /></p><blockquote>[!Note]<br />While Advanced Query Syntax supports referencing Microsoft Outlook as 'oe', the store parameter on the command line must be 'outlookexpress'.</blockquote><p><br /></p></li><li><p>show - Specifies which perceived type of results to return. See <a href="-search-2x-wds-perceivedtype.md">Perceived Types</a> for a complete list of types. If not specified, all types will be returned. <br /></p><blockquote>[!Note]<br />There are three differences between the perceived type values and the values for show. For <code>show</code>, use 'documents' instead of 'doc', 'pictures' instead of 'pics', and 'textdocuments' instead of 'text'.</blockquote><p><br /></p></li><li>query - Specifies the search criteria. This value supports <a href="-search-2x-wds-aqsreference.md">Advanced Query Syntax</a> parameters to refine the results. The query parameter must be the last parameter in the URL.</li></ul> | 
 
-<td>Turns off indexing back-off and rescans all index locations</td>
-</tr>
-<tr class="odd">
-<td>/showstatus</td>
-
-<td>Shows the indexing status window</td>
-</tr>
-<tr class="even">
-<td>/launchsearchwindow or /url</td>
-
-<td>Opens a WDS window with an empty query</td>
-</tr>
-<tr class="odd">
-<td>/url</td>
-<td>search:[store|show|query] query string</td>
-<td>Opens a WDS window with a query and filter based on the following parameters:
-<ul>
-<li><p>store - Specifies the data source to query: files, outlook, outlookexpress. If not specified all stores will be searched. <br/></p>
-<blockquote>
-[!Note]<br />
-While Advanced Query Syntax supports referencing Microsoft Outlook as 'oe', the store parameter on the command line must be 'outlookexpress'.
-</blockquote>
-<p><br/></p></li>
-<li><p>show - Specifies which perceived type of results to return. See <a href="-search-2x-wds-perceivedtype.md">Perceived Types</a> for a complete list of types. If not specified, all types will be returned. <br/></p>
-<blockquote>
-[!Note]<br />
-There are three differences between the perceived type values and the values for show. For <code>show</code>, use 'documents' instead of 'doc', 'pictures' instead of 'pics', and 'textdocuments' instead of 'text'.
-</blockquote>
-<p><br/></p></li>
-<li>query - Specifies the search criteria. This value supports <a href="-search-2x-wds-aqsreference.md">Advanced Query Syntax</a> parameters to refine the results. The query parameter must be the last parameter in the URL.</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
 
 
 

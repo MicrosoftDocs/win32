@@ -27,33 +27,12 @@ This section contains information about the programming elements used with toolb
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Topic</th>
-<th>Contents</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Commctrl/nf-commctrl-createmappedbitmap"><strong>CreateMappedBitmap</strong></a></td>
-<td>Creates a bitmap for use in a toolbar. <br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Commctrl/nf-commctrl-createtoolbarex"><strong>CreateToolbarEx</strong></a></td>
-<td>Creates a toolbar window and adds the specified buttons to the toolbar.
-<blockquote>
-[!Note]<br />
-This function is deprecated, because it does not support all features of toolbars. Use <a href="/windows/desktop/api/winuser/nf-winuser-createwindowexa"><strong>CreateWindowEx</strong></a> instead. For examples, see <a href="using-toolbar-controls.md">Using Toolbar Controls</a>.
-</blockquote>
-<br/> <br/></td>
-</tr>
-</tbody>
-</table>
+
+| Topic | Contents | 
+|-------|----------|
+| <a href="/windows/desktop/api/Commctrl/nf-commctrl-createmappedbitmap"><strong>CreateMappedBitmap</strong></a> | Creates a bitmap for use in a toolbar. <br /> | 
+| <a href="/windows/desktop/api/Commctrl/nf-commctrl-createtoolbarex"><strong>CreateToolbarEx</strong></a> | Creates a toolbar window and adds the specified buttons to the toolbar.<blockquote>[!Note]<br />This function is deprecated, because it does not support all features of toolbars. Use <a href="/windows/desktop/api/winuser/nf-winuser-createwindowexa"><strong>CreateWindowEx</strong></a> instead. For examples, see <a href="using-toolbar-controls.md">Using Toolbar Controls</a>.</blockquote><br /><br /> | 
+
 
 
 
@@ -240,41 +219,14 @@ This function is deprecated, because it does not support all features of toolbar
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Topic</th>
-<th>Contents</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="toolbar-button-states.md">Toolbar Button States</a></td>
-<td>This section lists the states a toolbar button can have. <br/></td>
-</tr>
-<tr class="even">
-<td><a href="toolbar-control-and-button-styles.md">Toolbar Control and Button Styles</a></td>
-<td>The following window styles are specific to toolbars. They are combined with other window styles when the toolbar is created.<br/> <strong>Note</strong> For Common Controls <a href="common-control-versions.md">version 6.00</a>, if a <a href="themes-overview.md">visual style</a> is being used with the toolbar, buttons are always transparent regardless of the style setting. Otherwise, transparency behavior is normal as indicated by the use of the <a href="toolbar-control-and-button-styles.md"><strong>TBSTYLE_FLAT</strong></a> or <a href="toolbar-control-and-button-styles.md"><strong>TBSTYLE_TRANSPARENT</strong></a> style.
-<blockquote>
-[!Note]<br />
-Comctl32.dll version 6 is not redistributable but it is included in Windows or later. To use Comctl32.dll version 6, specify it in a manifest. For more information on manifests, see <a href="cookbook-overview.md">Enabling Visual Styles</a>.
-</blockquote>
-<br/> <br/></td>
-</tr>
-<tr class="odd">
-<td><a href="toolbar-extended-styles.md">Toolbar Extended Styles</a></td>
-<td>This section lists the extended styles supported by toolbar controls.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="toolbar-standard-button-image-index-values.md">Toolbar Standard Button Image Index Values</a></td>
-<td>This section specifies index values of images within standard bitmaps.<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Topic | Contents | 
+|-------|----------|
+| <a href="toolbar-button-states.md">Toolbar Button States</a> | This section lists the states a toolbar button can have. <br /> | 
+| <a href="toolbar-control-and-button-styles.md">Toolbar Control and Button Styles</a> | The following window styles are specific to toolbars. They are combined with other window styles when the toolbar is created.<br /><strong>Note</strong> For Common Controls <a href="common-control-versions.md">version 6.00</a>, if a <a href="themes-overview.md">visual style</a> is being used with the toolbar, buttons are always transparent regardless of the style setting. Otherwise, transparency behavior is normal as indicated by the use of the <a href="toolbar-control-and-button-styles.md"><strong>TBSTYLE_FLAT</strong></a> or <a href="toolbar-control-and-button-styles.md"><strong>TBSTYLE_TRANSPARENT</strong></a> style.<blockquote>[!Note]<br />Comctl32.dll version 6 is not redistributable but it is included in Windows or later. To use Comctl32.dll version 6, specify it in a manifest. For more information on manifests, see <a href="cookbook-overview.md">Enabling Visual Styles</a>.</blockquote><br /><br /> | 
+| <a href="toolbar-extended-styles.md">Toolbar Extended Styles</a> | This section lists the extended styles supported by toolbar controls.<br /> | 
+| <a href="toolbar-standard-button-image-index-values.md">Toolbar Standard Button Image Index Values</a> | This section specifies index values of images within standard bitmaps.<br /> | 
+
 
 
 

@@ -58,64 +58,18 @@ A shader profile specifies the assembly shader version to use and the capabiliti
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Shader Profile</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>ps_1_1</td>
-<td>Compile to ps_1_1 version.</td>
-</tr>
-<tr class="even">
-<td>ps_1_2</td>
-<td>Compile to ps_1_2 version.</td>
-</tr>
-<tr class="odd">
-<td>ps_1_3</td>
-<td>Compile to ps_1_3 version.</td>
-</tr>
-<tr class="even">
-<td>ps_1_4</td>
-<td>Compile to ps_1_4 version.</td>
-</tr>
-<tr class="odd">
-<td>ps_2_0</td>
-<td>Compile to ps_2_0 version.</td>
-</tr>
-<tr class="even">
-<td>ps_2_a</td>
-<td>Same as the ps_2_0 profile, with the following additional capabilities available for the compiler to target:
-<ul>
-<li>Number of Temporary Registers (r#) is greater than or equal to 22.</li>
-<li>Arbitrary source swizzle.</li>
-<li>Gradient instructions: dsx, dsy.</li>
-<li>Predication.</li>
-<li>No dependent texture read limit.</li>
-<li>No limit for the number of texture instructions.</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>ps_2_b</td>
-<td>Same as the ps_2_0 profile, with the following additional capabilities available for the compiler to target:
-<ul>
-<li>Number of Temporary Registers (r#) is greater than or equal to 32.</li>
-<li>No limit for the number of texture instructions.</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>ps_3_0</td>
-<td>Compile to ps_3_0 version.</td>
-</tr>
-</tbody>
-</table>
+
+| Shader Profile | Description | 
+|----------------|-------------|
+| ps_1_1 | Compile to ps_1_1 version. | 
+| ps_1_2 | Compile to ps_1_2 version. | 
+| ps_1_3 | Compile to ps_1_3 version. | 
+| ps_1_4 | Compile to ps_1_4 version. | 
+| ps_2_0 | Compile to ps_2_0 version. | 
+| ps_2_a | Same as the ps_2_0 profile, with the following additional capabilities available for the compiler to target:<ul><li>Number of Temporary Registers (r#) is greater than or equal to 22.</li><li>Arbitrary source swizzle.</li><li>Gradient instructions: dsx, dsy.</li><li>Predication.</li><li>No dependent texture read limit.</li><li>No limit for the number of texture instructions.</li></ul> | 
+| ps_2_b | Same as the ps_2_0 profile, with the following additional capabilities available for the compiler to target:<ul><li>Number of Temporary Registers (r#) is greater than or equal to 32.</li><li>No limit for the number of texture instructions.</li></ul> | 
+| ps_3_0 | Compile to ps_3_0 version. | 
+
 
 
 

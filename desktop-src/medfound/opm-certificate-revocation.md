@@ -12,57 +12,16 @@ An output protection manager (OPM) certificate can be revoked by Microsoft. The 
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Section</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Header</td>
-<td>A <a href="grl-header.md"><strong>GRL_HEADER</strong></a> structure.</td>
-</tr>
-<tr class="even">
-<td>Core</td>
-<td>Contains the following revocation lists:
-<ul>
-<li>Kernel binary revocations</li>
-<li>User-mode binary revocations</li>
-<li>Certificate revocations</li>
-<li>Trusted roots (reserved)</li>
-</ul>
-The list of trusted roots is currently not used, and is reserved for future use.</td>
-</tr>
-<tr class="odd">
-<td>Extensible entries</td>
-<td>Contains information used by other components. This section is not relevant to OPM.</td>
-</tr>
-<tr class="even">
-<td>Renewals:</td>
-<td>Contains GUIDs that define Windows Update identifiers. This section contains identifiers for the following lists:
-<ul>
-<li>Kernel binary revocations</li>
-<li>User-mode binary revocations</li>
-<li>Certificate revocations</li>
-</ul>
-An application can use these identifiers to request a renewed version of a revoked binary, if one is available.</td>
-</tr>
-<tr class="odd">
-<td>Signature: Core section</td>
-<td>Signs the header and core sections.</td>
-</tr>
-<tr class="even">
-<td>Signature: Extensible section</td>
-<td>Signs the header and extensible sections.</td>
-</tr>
-</tbody>
-</table>
+
+| Section | Description | 
+|---------|-------------|
+| Header | A <a href="grl-header.md"><strong>GRL_HEADER</strong></a> structure. | 
+| Core | Contains the following revocation lists:<ul><li>Kernel binary revocations</li><li>User-mode binary revocations</li><li>Certificate revocations</li><li>Trusted roots (reserved)</li></ul>The list of trusted roots is currently not used, and is reserved for future use. | 
+| Extensible entries | Contains information used by other components. This section is not relevant to OPM. | 
+| Renewals: | Contains GUIDs that define Windows Update identifiers. This section contains identifiers for the following lists:<ul><li>Kernel binary revocations</li><li>User-mode binary revocations</li><li>Certificate revocations</li></ul>An application can use these identifiers to request a renewed version of a revoked binary, if one is available. | 
+| Signature: Core section | Signs the header and core sections. | 
+| Signature: Extensible section | Signs the header and extensible sections. | 
+
 
 
 

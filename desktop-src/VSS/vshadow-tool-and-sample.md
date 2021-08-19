@@ -44,151 +44,29 @@ This command creates a new shadow copy set.
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Optional Flag Value</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><span id="-ad"></span><span id="-AD"></span><strong>-ad</strong><br/></td>
-<td>This optional flag specifies differential hardware shadow copies. This flag and the <strong>-ap</strong> flag are mutually exclusive.<br/>
-<blockquote>
-[!Note]<br />
-This flag is supported only on Windows server operating systems.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td><span id="-ap"></span><span id="-AP"></span><strong>-ap</strong><br/></td>
-<td>This optional flag specifies plex hardware shadow copies. This flag and the <strong>-ad</strong> flag are mutually exclusive.<br/>
-<blockquote>
-[!Note]<br />
-This flag is supported only on Windows server operating systems.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="odd">
-<td><span id="_-bc_File.xml"></span><span id="_-bc_file.xml"></span><span id="_-BC_FILE.XML"></span> <strong></strong> <strong>-bc=</strong><em>File</em><strong>.xml</strong><br/></td>
-<td>This optional flag specifies non-transportable shadow copies and stores the Backup Components Document into the specified file. This file can be used in a subsequent restore operation. This flag and the <strong>-t</strong> flag are mutually exclusive.<br/>
-<blockquote>
-[!Note]<br />
-This flag is supported only on Windows server operating systems.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td><span id="-exec_Command"></span><span id="-exec_command"></span><span id="-EXEC_COMMAND"></span><strong>-exec=</strong><em>Command</em><br/></td>
-<td>This optional flag executes a command or script after the shadow copies are created but before the VShadow tool exits. <em>Command</em> can specify an executable shell command or a CMD file. If it specifies a shell command, no command parameters can be specified.<br/>
-<blockquote>
-[!Note]<br />
-For security reasons and to keep the implementation simple, the <strong>-exec</strong> optional flag will not accept parameters to be passed to the command or script. The entire string passed to the <strong>-exec</strong> optional flag is treated as a single CMD or EXE file. For more information about this limitation, see the VShadow source code.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="odd">
-<td><span id="-forcerevert"></span><span id="-FORCEREVERT"></span><strong>-forcerevert</strong><br/></td>
-<td>This optional flag specifies that the shadow copy operation should be completed only if all disk signatures can be reverted.<br/>
-<blockquote>
-[!Note]<br />
-This flag is supported only on Windows server operating systems.
-</blockquote>
-<br/> <strong>Windows Server 2003:</strong> Not supported.<br/></td>
-</tr>
-<tr class="even">
-<td><span id="-mask"></span><span id="-MASK"></span><strong>-mask</strong><br/></td>
-<td>This optional flag specifies that the shadow copy LUNs should be masked from the computer when the shadow copy set is broken.<br/>
-<blockquote>
-[!Note]<br />
-This flag is supported only on Windows server operating systems.
-</blockquote>
-<br/> <strong>Windows Server 2003:</strong> Not supported.<br/></td>
-</tr>
-<tr class="odd">
-<td><span id="-nar"></span><span id="-NAR"></span><strong>-nar</strong><br/></td>
-<td>This optional flag specifies shadow copies without auto-recovery. For more information about this option, see the documentation for the VSS_VOLSNAP_ATTR_NO_AUTORECOVERY flag of the <a href="/windows/desktop/api/Vss/ne-vss-vss_volume_snapshot_attributes"><strong>_VSS_VOLUME_SNAPSHOT_ATTRIBUTES</strong></a> enumeration.<br/></td>
-</tr>
-<tr class="even">
-<td><span id="-norevert"></span><span id="-NOREVERT"></span><strong>-norevert</strong><br/></td>
-<td>This optional flag specifies that disk signatures should not be reverted.<br/>
-<blockquote>
-[!Note]<br />
-This flag is supported only on Windows server operating systems.
-</blockquote>
-<br/> <strong>Windows Server 2003:</strong> Not supported.<br/></td>
-</tr>
-<tr class="odd">
-<td><span id="-nw"></span><span id="-NW"></span><strong>-nw</strong><br/></td>
-<td>This optional flag specifies shadow copies without involving writers. For more information about shadow copies without writer participation, see <a href="shadow-copy-creation-details.md">Shadow Copy Creation Details</a>. This flag and the <strong>-wi</strong> and <strong>-wx</strong> flags are mutually exclusive.<br/></td>
-</tr>
-<tr class="even">
-<td><span id="-p"></span><span id="-P"></span><strong>-p</strong><br/></td>
-<td>This optional flag specifies <a href="vssgloss-p.md"><em>persistent shadow copies</em></a>.<br/>
-<blockquote>
-[!Note]<br />
-This flag is supported only on Windows server operating systems.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="odd">
-<td><span id="-rw"></span><span id="-RW"></span><strong>-rw</strong><br/></td>
-<td>This optional flag specifies that the shadow copy LUNs should be made read/write when the shadow copy set is broken.<br/>
-<blockquote>
-[!Note]<br />
-This flag is supported only on Windows server operating systems.
-</blockquote>
-<br/> <strong>Windows Server 2003:</strong> Not supported.<br/></td>
-</tr>
-<tr class="even">
-<td><span id="-scsf"></span><span id="-SCSF"></span><strong>-scsf</strong><br/></td>
-<td>This optional flag specifies <a href="vssgloss-c.md"><em>client-accessible shadow copies</em></a>.<br/>
-<blockquote>
-[!Note]<br />
-This flag is supported only on Windows server operating systems.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="odd">
-<td><span id="-script_File.cmd"></span><span id="-script_file.cmd"></span><span id="-SCRIPT_FILE.CMD"></span><strong>-script=</strong><em>File</em><strong>.cmd</strong><br/></td>
-<td>This optional flag generates a CMD file containing environment variables related to the created shadow copies, such as shadow copy IDs and shadow copy set IDs.<br/></td>
-</tr>
-<tr class="even">
-<td><span id="-t_File.xml"></span><span id="-t_file.xml"></span><span id="-T_FILE.XML"></span><strong>-t=</strong><em>File</em><strong>.xml</strong><br/></td>
-<td>This optional flag specifies transportable shadow copies and stores the Backup Components Document into the file specified by the <em>File.xml</em> parameter. This file can be used in a subsequent import and/or restore operation. This flag and the <strong>-bc</strong> flag are mutually exclusive.<br/> <strong>Windows Server 2003, Standard Edition and Windows Server 2003, Web Edition:</strong> Transportable shadow copies are not supported. All editions of Windows Server 2003 with Service Pack 1 (SP1) support transportable shadow copies.<br/></td>
-</tr>
-<tr class="odd">
-<td><span id="-tr"></span><span id="-TR"></span><strong>-tr</strong><br/></td>
-<td>This optional flag specifies that TxF recovery should be enforced during shadow copy creation.<br/>
-<blockquote>
-[!Note]<br />
-This flag is supported only on Windows server operating systems.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td><span id="-tracing"></span><span id="-TRACING"></span><strong>-tracing</strong><br/></td>
-<td>This optional flag generates verbose output that can be used for troubleshooting.<br/></td>
-</tr>
-<tr class="odd">
-<td><span id="-wait"></span><span id="-WAIT"></span><strong>-wait</strong><br/></td>
-<td>This optional flag causes the VShadow tool to wait for user confirmation before exiting.<br/></td>
-</tr>
-<tr class="even">
-<td><span id="-wi_Writer"></span><span id="-wi_writer"></span><span id="-WI_WRITER"></span><strong>-wi=</strong><em>Writer</em><br/></td>
-<td>This optional flag verifies that the specified writer or component is included in the shadow copy. <em>Writer</em> can specify a component path, writer name, writer ID, or writer instance ID. This flag and the <strong>-nw</strong> flag are mutually exclusive.<br/></td>
-</tr>
-<tr class="odd">
-<td><span id="-wx_Writer"></span><span id="-wx_writer"></span><span id="-WX_WRITER"></span><strong>-wx=</strong><em>Writer</em><br/></td>
-<td>This optional flag verifies that the specified writer or component is excluded from the shadow copy. <em>Writer</em> can specify a component path, writer name, writer ID, or writer instance ID. This flag and the <strong>-nw</strong> flag are mutually exclusive.<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Optional Flag Value | Description | 
+|---------------------|-------------|
+| <span id="-ad"></span><span id="-AD"></span><strong>-ad</strong><br /> | This optional flag specifies differential hardware shadow copies. This flag and the <strong>-ap</strong> flag are mutually exclusive.<br /><blockquote>[!Note]<br />This flag is supported only on Windows server operating systems.</blockquote><br /> | 
+| <span id="-ap"></span><span id="-AP"></span><strong>-ap</strong><br /> | This optional flag specifies plex hardware shadow copies. This flag and the <strong>-ad</strong> flag are mutually exclusive.<br /><blockquote>[!Note]<br />This flag is supported only on Windows server operating systems.</blockquote><br /> | 
+| <span id="_-bc_File.xml"></span><span id="_-bc_file.xml"></span><span id="_-BC_FILE.XML"></span><strong></strong><strong>-bc=</strong><em>File</em><strong>.xml</strong><br /> | This optional flag specifies non-transportable shadow copies and stores the Backup Components Document into the specified file. This file can be used in a subsequent restore operation. This flag and the <strong>-t</strong> flag are mutually exclusive.<br /><blockquote>[!Note]<br />This flag is supported only on Windows server operating systems.</blockquote><br /> | 
+| <span id="-exec_Command"></span><span id="-exec_command"></span><span id="-EXEC_COMMAND"></span><strong>-exec=</strong><em>Command</em><br /> | This optional flag executes a command or script after the shadow copies are created but before the VShadow tool exits. <em>Command</em> can specify an executable shell command or a CMD file. If it specifies a shell command, no command parameters can be specified.<br /><blockquote>[!Note]<br />For security reasons and to keep the implementation simple, the <strong>-exec</strong> optional flag will not accept parameters to be passed to the command or script. The entire string passed to the <strong>-exec</strong> optional flag is treated as a single CMD or EXE file. For more information about this limitation, see the VShadow source code.</blockquote><br /> | 
+| <span id="-forcerevert"></span><span id="-FORCEREVERT"></span><strong>-forcerevert</strong><br /> | This optional flag specifies that the shadow copy operation should be completed only if all disk signatures can be reverted.<br /><blockquote>[!Note]<br />This flag is supported only on Windows server operating systems.</blockquote><br /><strong>Windows Server 2003:</strong> Not supported.<br /> | 
+| <span id="-mask"></span><span id="-MASK"></span><strong>-mask</strong><br /> | This optional flag specifies that the shadow copy LUNs should be masked from the computer when the shadow copy set is broken.<br /><blockquote>[!Note]<br />This flag is supported only on Windows server operating systems.</blockquote><br /><strong>Windows Server 2003:</strong> Not supported.<br /> | 
+| <span id="-nar"></span><span id="-NAR"></span><strong>-nar</strong><br /> | This optional flag specifies shadow copies without auto-recovery. For more information about this option, see the documentation for the VSS_VOLSNAP_ATTR_NO_AUTORECOVERY flag of the <a href="/windows/desktop/api/Vss/ne-vss-vss_volume_snapshot_attributes"><strong>_VSS_VOLUME_SNAPSHOT_ATTRIBUTES</strong></a> enumeration.<br /> | 
+| <span id="-norevert"></span><span id="-NOREVERT"></span><strong>-norevert</strong><br /> | This optional flag specifies that disk signatures should not be reverted.<br /><blockquote>[!Note]<br />This flag is supported only on Windows server operating systems.</blockquote><br /><strong>Windows Server 2003:</strong> Not supported.<br /> | 
+| <span id="-nw"></span><span id="-NW"></span><strong>-nw</strong><br /> | This optional flag specifies shadow copies without involving writers. For more information about shadow copies without writer participation, see <a href="shadow-copy-creation-details.md">Shadow Copy Creation Details</a>. This flag and the <strong>-wi</strong> and <strong>-wx</strong> flags are mutually exclusive.<br /> | 
+| <span id="-p"></span><span id="-P"></span><strong>-p</strong><br /> | This optional flag specifies <a href="vssgloss-p.md"><em>persistent shadow copies</em></a>.<br /><blockquote>[!Note]<br />This flag is supported only on Windows server operating systems.</blockquote><br /> | 
+| <span id="-rw"></span><span id="-RW"></span><strong>-rw</strong><br /> | This optional flag specifies that the shadow copy LUNs should be made read/write when the shadow copy set is broken.<br /><blockquote>[!Note]<br />This flag is supported only on Windows server operating systems.</blockquote><br /><strong>Windows Server 2003:</strong> Not supported.<br /> | 
+| <span id="-scsf"></span><span id="-SCSF"></span><strong>-scsf</strong><br /> | This optional flag specifies <a href="vssgloss-c.md"><em>client-accessible shadow copies</em></a>.<br /><blockquote>[!Note]<br />This flag is supported only on Windows server operating systems.</blockquote><br /> | 
+| <span id="-script_File.cmd"></span><span id="-script_file.cmd"></span><span id="-SCRIPT_FILE.CMD"></span><strong>-script=</strong><em>File</em><strong>.cmd</strong><br /> | This optional flag generates a CMD file containing environment variables related to the created shadow copies, such as shadow copy IDs and shadow copy set IDs.<br /> | 
+| <span id="-t_File.xml"></span><span id="-t_file.xml"></span><span id="-T_FILE.XML"></span><strong>-t=</strong><em>File</em><strong>.xml</strong><br /> | This optional flag specifies transportable shadow copies and stores the Backup Components Document into the file specified by the <em>File.xml</em> parameter. This file can be used in a subsequent import and/or restore operation. This flag and the <strong>-bc</strong> flag are mutually exclusive.<br /><strong>Windows Server 2003, Standard Edition and Windows Server 2003, Web Edition:</strong> Transportable shadow copies are not supported. All editions of Windows Server 2003 with Service Pack 1 (SP1) support transportable shadow copies.<br /> | 
+| <span id="-tr"></span><span id="-TR"></span><strong>-tr</strong><br /> | This optional flag specifies that TxF recovery should be enforced during shadow copy creation.<br /><blockquote>[!Note]<br />This flag is supported only on Windows server operating systems.</blockquote><br /> | 
+| <span id="-tracing"></span><span id="-TRACING"></span><strong>-tracing</strong><br /> | This optional flag generates verbose output that can be used for troubleshooting.<br /> | 
+| <span id="-wait"></span><span id="-WAIT"></span><strong>-wait</strong><br /> | This optional flag causes the VShadow tool to wait for user confirmation before exiting.<br /> | 
+| <span id="-wi_Writer"></span><span id="-wi_writer"></span><span id="-WI_WRITER"></span><strong>-wi=</strong><em>Writer</em><br /> | This optional flag verifies that the specified writer or component is included in the shadow copy. <em>Writer</em> can specify a component path, writer name, writer ID, or writer instance ID. This flag and the <strong>-nw</strong> flag are mutually exclusive.<br /> | 
+| <span id="-wx_Writer"></span><span id="-wx_writer"></span><span id="-WX_WRITER"></span><strong>-wx=</strong><em>Writer</em><br /> | This optional flag verifies that the specified writer or component is excluded from the shadow copy. <em>Writer</em> can specify a component path, writer name, writer ID, or writer instance ID. This flag and the <strong>-nw</strong> flag are mutually exclusive.<br /> | 
+
 
 
 
@@ -464,38 +342,12 @@ The **-resync** command-line option initiates a LUN resynchronization operation.
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Optional flag value</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><span id="-revertsig"></span><span id="-REVERTSIG"></span><strong>-revertsig</strong><br/></td>
-<td>This optional flag specifies that after the operation is complete, the signature of each target LUN should be identical to that of the original LUN that was used to create the shadow copy, not the target volume LUN.<br/>
-<blockquote>
-[!Note]<br />
-The <strong>-revertsig</strong> flag is supported only on Windows server operating systems.
-</blockquote>
-<br/> <strong>Windows Server 2008 and Windows Server 2003:</strong> Not supported.<br/></td>
-</tr>
-<tr class="even">
-<td><span id="-novolcheck"></span><span id="-NOVOLCHECK"></span><strong>-novolcheck</strong><br/></td>
-<td>This optional flag specifies that the VSS service should not check for unselected volumes that would be overwritten by the LUN resynchronization operation.<br/>
-<blockquote>
-[!Note]<br />
-The <strong>-novolcheck</strong> flag is supported only on Windows server operating systems.
-</blockquote>
-<br/> <strong>Windows Server 2008 and Windows Server 2003:</strong> Not supported.<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Optional flag value | Description | 
+|---------------------|-------------|
+| <span id="-revertsig"></span><span id="-REVERTSIG"></span><strong>-revertsig</strong><br /> | This optional flag specifies that after the operation is complete, the signature of each target LUN should be identical to that of the original LUN that was used to create the shadow copy, not the target volume LUN.<br /><blockquote>[!Note]<br />The <strong>-revertsig</strong> flag is supported only on Windows server operating systems.</blockquote><br /><strong>Windows Server 2008 and Windows Server 2003:</strong> Not supported.<br /> | 
+| <span id="-novolcheck"></span><span id="-NOVOLCHECK"></span><strong>-novolcheck</strong><br /> | This optional flag specifies that the VSS service should not check for unselected volumes that would be overwritten by the LUN resynchronization operation.<br /><blockquote>[!Note]<br />The <strong>-novolcheck</strong> flag is supported only on Windows server operating systems.</blockquote><br /><strong>Windows Server 2008 and Windows Server 2003:</strong> Not supported.<br /> | 
+
 
 
 

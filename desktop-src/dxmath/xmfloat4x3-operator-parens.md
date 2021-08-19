@@ -23,38 +23,12 @@ Accesses specific matrix elements referenced by row and column from the current 
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;">Operator</th>
-<th style="text-align: left;">Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;"><a href="/windows/desktop/api/directxmath/nf-directxmath-xmfloat4x3-operator-function-call(size_t_size_t)"><strong>XMFLOAT4X3::operator () (size_t,size_t)</strong></a></td>
-<td style="text-align: left;">Returns a <code>reference</code> to a matrix element of an instance <code>XMFLOAT4X3</code> as specified by row and column arguments.<br/> This operator returns a <code>reference</code> to a matrix element of an instance <a href="/windows/desktop/api/directxmath/ns-directxmath-xmfloat4x3"><strong>XMFLOAT4X3</strong></a> as specified by row and column arguments.<br/>
-<blockquote>
-[!Note]<br />
-This operator is only available under C++.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="/windows/desktop/api/directxmath/nf-directxmath-xmfloat4x3-operator-function-call(size_t_size_t)"><strong>XMFLOAT4X3::operator () (size_t,size_t)</strong></a></td>
-<td style="text-align: left;">Return the value of a matrix element in an instance <code>XMFLOAT4X3</code> as specified by row and column arguments. <br/> This operator returns the value of a matrix element of an instance <a href="/windows/desktop/api/directxmath/ns-directxmath-xmfloat4x3"><strong>XMFLOAT4X3</strong></a> as specified by row and column arguments. <br/>
-<blockquote>
-[!Note]<br />
-This operator is only available when developing with C++.
-</blockquote>
-<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Operator | Description | 
+|----------|-------------|
+| <a href="/windows/desktop/api/directxmath/nf-directxmath-xmfloat4x3-operator-function-call(size_t_size_t)"><strong>XMFLOAT4X3::operator () (size_t,size_t)</strong></a> | Returns a <code>reference</code> to a matrix element of an instance <code>XMFLOAT4X3</code> as specified by row and column arguments.<br /> This operator returns a <code>reference</code> to a matrix element of an instance <a href="/windows/desktop/api/directxmath/ns-directxmath-xmfloat4x3"><strong>XMFLOAT4X3</strong></a> as specified by row and column arguments.<br /><blockquote>[!Note]<br />This operator is only available under C++.</blockquote><br /> | 
+| <a href="/windows/desktop/api/directxmath/nf-directxmath-xmfloat4x3-operator-function-call(size_t_size_t)"><strong>XMFLOAT4X3::operator () (size_t,size_t)</strong></a> | Return the value of a matrix element in an instance <code>XMFLOAT4X3</code> as specified by row and column arguments. <br /> This operator returns the value of a matrix element of an instance <a href="/windows/desktop/api/directxmath/ns-directxmath-xmfloat4x3"><strong>XMFLOAT4X3</strong></a> as specified by row and column arguments. <br /><blockquote>[!Note]<br />This operator is only available when developing with C++.</blockquote><br /> | 
+
 
 
 

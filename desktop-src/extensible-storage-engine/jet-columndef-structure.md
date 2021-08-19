@@ -79,121 +79,36 @@ The maximum length, in bytes, of a variable-length column, or the length of a fi
 
 A group of bits that contain the options to be used for this call, which include zero or more of the following values.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Value</p></th>
-<th><p>Meaning</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_bitColumnFixed</p></td>
-<td><p>The column will be fixed. It will always use the same amount of space in a row, regardless of how much data is being stored in the column. JET_bitColumnFixed cannot be used with JET_bitColumnTagged. This bit cannot be used with long values (that is <strong>JET_coltypLongText</strong> and <strong>JET_coltypLongBinary</strong>).</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_bitColumnTagged</p></td>
-<td><p>The column will be tagged. Tagged columns do not take up any space in the database if they do not contain data. This bit cannot be used with JET_bitColumnFixed.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_bitColumnNotNULL</p></td>
-<td><p>The column must never be set to a NULL value.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_bitColumnVersion</p></td>
-<td><p>The column is a version column that specifies the version of the row. The value of this column starts at zero and will be automatically incremented for each update on the row.</p>
-<p>This bit can only be applied to <strong>JET_coltypLong</strong> columns. This bit cannot be used with JET_bitColumnAutoincrement, JET_bitColumnEscrowUpdate, or JET_bitColumnTagged.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_bitColumnAutoincrement</p></td>
-<td><p>The column will automatically be incremented. The number is an increasing number, and is guaranteed to be unique within a table. The numbers, however, might not be continuous. For example, if five rows are inserted into a table, the &quot;autoincrement&quot; column could contain the values { 1, 2, 6, 7, 8 }. This bit can only be used on columns of type <strong>JET_coltypLong</strong> or <strong>JET_coltypCurrency</strong>.</p>
-<p><strong>Windows 2000:  </strong>In Windows 2000, this bit can only be used on columns of type <strong>JET_coltypLong</strong>.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_bitColumnUpdatable</p></td>
-<td><p>This bit is valid only on calls to <a href="gg269215(v=exchg.10).md">JetGetColumnInfo</a>.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_bitColumnTTKey</p></td>
-<td><p>This bit is valid only on calls to <a href="gg294118(v=exchg.10).md">JetOpenTable</a>.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_bitColumnTTDescending</p></td>
-<td><p>This bit is valid only on calls to <a href="gg269211(v=exchg.10).md">JetOpenTempTable</a>.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_bitColumnMultiValued</p></td>
-<td><p>The column can be multi-valued. A multi-valued column can have zero, one, or more values associated with it. The various values in a multi-valued column are identified by a number called the <strong>itagSequence</strong> member, which belongs to various structures, including: <a href="gg294049(v=exchg.10).md">JET_RETINFO</a>, <a href="gg294090(v=exchg.10).md">JET_SETINFO</a>, <a href="gg269233(v=exchg.10).md">JET_SETCOLUMN</a>, <a href="gg269334(v=exchg.10).md">JET_RETRIEVECOLUMN</a>, and <a href="gg294052(v=exchg.10).md">JET_ENUMCOLUMNVALUE</a>. Multi-valued columns must be tagged columns; that is, they cannot be fixed-length or variable-length columns.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_bitColumnEscrowUpdate</p></td>
-<td><p>Specifies that a column is an escrow update column. An escrow update column can be updated concurrently by different sessions with <a href="gg294125(v=exchg.10).md">JetEscrowUpdate</a> and will maintain transactional consistency. An escrow update column must also meet the following conditions:</p>
-<ul>
-<li><p>An escrow update column can be created only when the table is empty.</p></li>
-</ul>
-<ul>
-<li><p>An escrow update column must be of type <strong>JET_coltypLong</strong>.</p></li>
-</ul>
-<ul>
-<li><p>An escrow update column must have a default value (that is <strong>cbDefault</strong> must be positive).</p></li>
-</ul>
-<ul>
-<li><p>JET_bitColumnEscrowUpdate cannot be used in conjunction with JET_bitColumnTagged, JET_bitColumnVersion, or JET_bitColumnAutoincrement.</p></li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td><p>JET_bitColumnUnversioned</p></td>
-<td><p>The column will be created in an without version information. This means that other transactions that attempt to add a column with the same name will fail. This bit is only useful with <a href="gg294122(v=exchg.10).md">JetAddColumn</a>. It cannot be used within a transaction.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_bitColumnMaybeNull</p></td>
-<td><p>Reserved for future use.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_bitColumnFinalize</p></td>
-<td><p>Use JET_bitColumnDeleteOnZero instead of JET_bitColumnFinalize. JET_bitColumnFinalize that a column can be finalized. When a column that can be finalized has an escrow update column that reaches zero, the row will be deleted. Future versions might invoke a callback function instead (For more information, see <a href="gg294098(v=exchg.10).md">JET_CALLBACK</a>). A column that can be finalized must be an escrow update column. JET_bitColumnFinalize cannot be used with JET_bitColumnUserDefinedDefault.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_bitColumnUserDefinedDefault</p></td>
-<td><p>The default value for a column will be provided by a callback function. See <a href="gg294098(v=exchg.10).md">JET_CALLBACK</a>. A column that has a user-defined default must be a tagged column. Specifying JET_bitColumnUserDefinedDefault means that <strong>pvDefault</strong> must point to a <a href="gg269200(v=exchg.10).md">JET_USERDEFINEDDEFAULT</a> structure, and <strong>cbDefault</strong> must be set to sizeof( <a href="gg269200(v=exchg.10).md">JET_USERDEFINEDDEFAULT</a> ).</p>
-<ul>
-<li><p>JET_bitColumnUserDefinedDefault cannot be used in conjunction with JET_bitColumnFixed, JET_bitColumnNotNULL, JET_bitColumnVersion, JET_bitColumnAutoincrement, JET_bitColumnUpdatable, JET_bitColumnEscrowUpdate, JET_bitColumnFinalize, JET_bitColumnDeleteOnZero, or JET_bitColumnMaybeNull.</p></li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td><p>JET_bitColumnDeleteOnZero</p></td>
-<td><p>The column is an escrow update column, and when it reaches zero, the record will be deleted. A common use for a column that can be finalized is to use it as a reference count field, and when the field reaches zero the record gets deleted. JET_bitColumnDeleteOnZero is related to JET_bitColumnFinalize. A Delete-on-zero column must be an escrow update column. JET_bitColumnDeleteOnZero cannot be used with JET_bitColumnFinalize. JET_bitColumnDeleteOnZero cannot be used with user defined default columns.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Value</p> | <p>Meaning</p> | 
+|--------------|----------------|
+| <p>JET_bitColumnFixed</p> | <p>The column will be fixed. It will always use the same amount of space in a row, regardless of how much data is being stored in the column. JET_bitColumnFixed cannot be used with JET_bitColumnTagged. This bit cannot be used with long values (that is <strong>JET_coltypLongText</strong> and <strong>JET_coltypLongBinary</strong>).</p> | 
+| <p>JET_bitColumnTagged</p> | <p>The column will be tagged. Tagged columns do not take up any space in the database if they do not contain data. This bit cannot be used with JET_bitColumnFixed.</p> | 
+| <p>JET_bitColumnNotNULL</p> | <p>The column must never be set to a NULL value.</p> | 
+| <p>JET_bitColumnVersion</p> | <p>The column is a version column that specifies the version of the row. The value of this column starts at zero and will be automatically incremented for each update on the row.</p><p>This bit can only be applied to <strong>JET_coltypLong</strong> columns. This bit cannot be used with JET_bitColumnAutoincrement, JET_bitColumnEscrowUpdate, or JET_bitColumnTagged.</p> | 
+| <p>JET_bitColumnAutoincrement</p> | <p>The column will automatically be incremented. The number is an increasing number, and is guaranteed to be unique within a table. The numbers, however, might not be continuous. For example, if five rows are inserted into a table, the "autoincrement" column could contain the values { 1, 2, 6, 7, 8 }. This bit can only be used on columns of type <strong>JET_coltypLong</strong> or <strong>JET_coltypCurrency</strong>.</p><p><strong>Windows 2000:  </strong>In Windows 2000, this bit can only be used on columns of type <strong>JET_coltypLong</strong>.</p> | 
+| <p>JET_bitColumnUpdatable</p> | <p>This bit is valid only on calls to <a href="gg269215(v=exchg.10).md">JetGetColumnInfo</a>.</p> | 
+| <p>JET_bitColumnTTKey</p> | <p>This bit is valid only on calls to <a href="gg294118(v=exchg.10).md">JetOpenTable</a>.</p> | 
+| <p>JET_bitColumnTTDescending</p> | <p>This bit is valid only on calls to <a href="gg269211(v=exchg.10).md">JetOpenTempTable</a>.</p> | 
+| <p>JET_bitColumnMultiValued</p> | <p>The column can be multi-valued. A multi-valued column can have zero, one, or more values associated with it. The various values in a multi-valued column are identified by a number called the <strong>itagSequence</strong> member, which belongs to various structures, including: <a href="gg294049(v=exchg.10).md">JET_RETINFO</a>, <a href="gg294090(v=exchg.10).md">JET_SETINFO</a>, <a href="gg269233(v=exchg.10).md">JET_SETCOLUMN</a>, <a href="gg269334(v=exchg.10).md">JET_RETRIEVECOLUMN</a>, and <a href="gg294052(v=exchg.10).md">JET_ENUMCOLUMNVALUE</a>. Multi-valued columns must be tagged columns; that is, they cannot be fixed-length or variable-length columns.</p> | 
+| <p>JET_bitColumnEscrowUpdate</p> | <p>Specifies that a column is an escrow update column. An escrow update column can be updated concurrently by different sessions with <a href="gg294125(v=exchg.10).md">JetEscrowUpdate</a> and will maintain transactional consistency. An escrow update column must also meet the following conditions:</p><ul><li><p>An escrow update column can be created only when the table is empty.</p></li></ul><ul><li><p>An escrow update column must be of type <strong>JET_coltypLong</strong>.</p></li></ul><ul><li><p>An escrow update column must have a default value (that is <strong>cbDefault</strong> must be positive).</p></li></ul><ul><li><p>JET_bitColumnEscrowUpdate cannot be used in conjunction with JET_bitColumnTagged, JET_bitColumnVersion, or JET_bitColumnAutoincrement.</p></li></ul> | 
+| <p>JET_bitColumnUnversioned</p> | <p>The column will be created in an without version information. This means that other transactions that attempt to add a column with the same name will fail. This bit is only useful with <a href="gg294122(v=exchg.10).md">JetAddColumn</a>. It cannot be used within a transaction.</p> | 
+| <p>JET_bitColumnMaybeNull</p> | <p>Reserved for future use.</p> | 
+| <p>JET_bitColumnFinalize</p> | <p>Use JET_bitColumnDeleteOnZero instead of JET_bitColumnFinalize. JET_bitColumnFinalize that a column can be finalized. When a column that can be finalized has an escrow update column that reaches zero, the row will be deleted. Future versions might invoke a callback function instead (For more information, see <a href="gg294098(v=exchg.10).md">JET_CALLBACK</a>). A column that can be finalized must be an escrow update column. JET_bitColumnFinalize cannot be used with JET_bitColumnUserDefinedDefault.</p> | 
+| <p>JET_bitColumnUserDefinedDefault</p> | <p>The default value for a column will be provided by a callback function. See <a href="gg294098(v=exchg.10).md">JET_CALLBACK</a>. A column that has a user-defined default must be a tagged column. Specifying JET_bitColumnUserDefinedDefault means that <strong>pvDefault</strong> must point to a <a href="gg269200(v=exchg.10).md">JET_USERDEFINEDDEFAULT</a> structure, and <strong>cbDefault</strong> must be set to sizeof( <a href="gg269200(v=exchg.10).md">JET_USERDEFINEDDEFAULT</a> ).</p><ul><li><p>JET_bitColumnUserDefinedDefault cannot be used in conjunction with JET_bitColumnFixed, JET_bitColumnNotNULL, JET_bitColumnVersion, JET_bitColumnAutoincrement, JET_bitColumnUpdatable, JET_bitColumnEscrowUpdate, JET_bitColumnFinalize, JET_bitColumnDeleteOnZero, or JET_bitColumnMaybeNull.</p></li></ul> | 
+| <p>JET_bitColumnDeleteOnZero</p> | <p>The column is an escrow update column, and when it reaches zero, the record will be deleted. A common use for a column that can be finalized is to use it as a reference count field, and when the field reaches zero the record gets deleted. JET_bitColumnDeleteOnZero is related to JET_bitColumnFinalize. A Delete-on-zero column must be an escrow update column. JET_bitColumnDeleteOnZero cannot be used with JET_bitColumnFinalize. JET_bitColumnDeleteOnZero cannot be used with user defined default columns.</p> | 
+
 
 
 ### Requirements
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Client</strong></p></td>
-<td><p>Requires Windows Vista, Windows XP, or Windows 2000 Professional.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Server</strong></p></td>
-<td><p>Requires Windows Server 2008, Windows Server 2003, or Windows 2000 Server.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>Header</strong></p></td>
-<td><p>Declared in Esent.h.</p></td>
-</tr>
-</tbody>
-</table>
+
+| 
+|
+| <p><strong>Client</strong></p> | <p>Requires Windows Vista, Windows XP, or Windows 2000 Professional.</p> | 
+| <p><strong>Server</strong></p> | <p>Requires Windows Server 2008, Windows Server 2003, or Windows 2000 Server.</p> | 
+| <p><strong>Header</strong></p> | <p>Declared in Esent.h.</p> | 
+
 
 
 ### See Also

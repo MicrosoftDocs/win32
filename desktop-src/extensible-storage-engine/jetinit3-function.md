@@ -56,49 +56,17 @@ Additional recovery parameters used for remapping databases during recovery, for
 
 A group of bits that specifies zero or more of the options listed and defined in the following table.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Value</p></th>
-<th><p>Meaning</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_bitReplayReplicatedLogFiles</p></td>
-<td><p>This value is reserved for future use.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_bitCreateSFSVolumeIfNotExist</p></td>
-<td><p>This value is reserved for future use.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_bitReplayIgnoreMissingDB</p></td>
-<td><p>This value enables the user to run recovery on a set of log files, even in the absence of the databases that were attached to the log file set at some point.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_bitRecoveryWithoutUndo</p></td>
-<td><p>This value enables the user to perform recovery, but only up to (and not including) the Undo phase. Using this value, additional transaction logs can be copied in and applied.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_bitTruncateLogsAfterRecovery</p></td>
-<td><p>This value causes log files to be truncated during a successful soft recovery.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_bitReplayMissingMapEntryDB</p></td>
-<td><p>This value causes a missing database map entry to default to the same location.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_bitReplayIgnoreLostLogs</p></td>
-<td><p>This value causes logs lost from the end of the log stream to be ignored during a recovery.</p>
-<p><strong>Windows 7:JET_bitReplayIgnoreLostLogs</strong> is introduced in Windows 7.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Value</p> | <p>Meaning</p> | 
+|--------------|----------------|
+| <p>JET_bitReplayReplicatedLogFiles</p> | <p>This value is reserved for future use.</p> | 
+| <p>JET_bitCreateSFSVolumeIfNotExist</p> | <p>This value is reserved for future use.</p> | 
+| <p>JET_bitReplayIgnoreMissingDB</p> | <p>This value enables the user to run recovery on a set of log files, even in the absence of the databases that were attached to the log file set at some point.</p> | 
+| <p>JET_bitRecoveryWithoutUndo</p> | <p>This value enables the user to perform recovery, but only up to (and not including) the Undo phase. Using this value, additional transaction logs can be copied in and applied.</p> | 
+| <p>JET_bitTruncateLogsAfterRecovery</p> | <p>This value causes log files to be truncated during a successful soft recovery.</p> | 
+| <p>JET_bitReplayMissingMapEntryDB</p> | <p>This value causes a missing database map entry to default to the same location.</p> | 
+| <p>JET_bitReplayIgnoreLostLogs</p> | <p>This value causes logs lost from the end of the log stream to be ignored during a recovery.</p><p><strong>Windows 7:JET_bitReplayIgnoreLostLogs</strong> is introduced in Windows 7.</p> | 
+
 
 
 ### Return Value
@@ -122,38 +90,16 @@ For more information, see the "Remarks" section in the [JetInit](./jetinit-funct
 
 #### Requirements
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Client</p></td>
-<td><p>Requires Windows Vista.</p></td>
-</tr>
-<tr class="even">
-<td><p>Server</p></td>
-<td><p>Requires Windows Server 2008.</p></td>
-</tr>
-<tr class="odd">
-<td><p>Header</p></td>
-<td><p>Declared in Esent.h.</p></td>
-</tr>
-<tr class="even">
-<td><p>Library</p></td>
-<td><p>Uses ESENT.lib.</p></td>
-</tr>
-<tr class="odd">
-<td><p>DLL</p></td>
-<td><p>Requires ESENT.dll.</p></td>
-</tr>
-<tr class="even">
-<td><p>Unicode</p></td>
-<td><p>Implemented as <strong>JetInit3W</strong> (Unicode) and <strong>JetInit3A</strong> (ANSI).</p></td>
-</tr>
-</tbody>
-</table>
+
+| 
+|
+| <p>Client</p> | <p>Requires Windows Vista.</p> | 
+| <p>Server</p> | <p>Requires Windows Server 2008.</p> | 
+| <p>Header</p> | <p>Declared in Esent.h.</p> | 
+| <p>Library</p> | <p>Uses ESENT.lib.</p> | 
+| <p>DLL</p> | <p>Requires ESENT.dll.</p> | 
+| <p>Unicode</p> | <p>Implemented as <strong>JetInit3W</strong> (Unicode) and <strong>JetInit3A</strong> (ANSI).</p> | 
+
 
 
 #### See Also

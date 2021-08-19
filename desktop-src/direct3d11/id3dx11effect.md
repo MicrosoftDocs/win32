@@ -74,17 +74,11 @@ The effect system groups the information required for rendering into an effect w
 >
 > <span codelanguage=""></span>
 >
-> <table>
-> <colgroup>
-> <col style="width: 100%" />
-> </colgroup>
-> <tbody>
-> <tr class="odd">
-> <td><pre><code>    IUnknown* pIUnknown = (IUnknown*)pEffect;
->     pIUnknown->AddRef();</code></pre></td>
-> </tr>
-> </tbody>
-> </table>
+> 
+| 
+|
+| <pre><code>    IUnknown* pIUnknown = (IUnknown*)pEffect;&gt;     pIUnknown-&gt;AddRef();</code></pre> | 
+
 >
 > 
 >

@@ -61,55 +61,18 @@ JET_paramX
 
 Description of the JET_paramX system parameter.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Default Value:</p></td>
-<td><p>The default value of the parameter.</p></td>
-</tr>
-<tr class="even">
-<td><p>Type:</p></td>
-<td><p>The data type of the parameter.</p></td>
-</tr>
-<tr class="odd">
-<td><p>Valid Range:</p></td>
-<td><p>The legal values for the parameter.</p></td>
-</tr>
-<tr class="even">
-<td><p>Scope:</p></td>
-<td><p>Is the parameter Global or per Instance?</p></td>
-</tr>
-<tr class="odd">
-<td><p>Set After <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p></td>
-<td><p>Can the parameter be set if any instances exist?</p></td>
-</tr>
-<tr class="even">
-<td><p>Set after <a href="gg294068(v=exchg.10).md">JetInit</a>:</p></td>
-<td><p>Can the parameter be set when initialized?</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affects Physical Layout:</p></td>
-<td><p>Does the parameter affect the files on disk?</p></td>
-</tr>
-<tr class="even">
-<td><p>Affects Reliability:</p></td>
-<td><p>Does the parameter affect engine reliability?</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affects Performance:</p></td>
-<td><p>Does the parameter affect engine performance?</p></td>
-</tr>
-<tr class="even">
-<td><p>Affects Resources:</p></td>
-<td><p>Does the parameter affect engine resources?</p></td>
-</tr>
-<tr class="odd">
-<td><p>Availability:</p></td>
-<td><p>Releases of Windows that support the parameter.</p></td>
-</tr>
-</tbody>
-</table>
+
+| 
+|
+| <p>Default Value:</p> | <p>The default value of the parameter.</p> | 
+| <p>Type:</p> | <p>The data type of the parameter.</p> | 
+| <p>Valid Range:</p> | <p>The legal values for the parameter.</p> | 
+| <p>Scope:</p> | <p>Is the parameter Global or per Instance?</p> | 
+| <p>Set After <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Can the parameter be set if any instances exist?</p> | 
+| <p>Set after <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>Can the parameter be set when initialized?</p> | 
+| <p>Affects Physical Layout:</p> | <p>Does the parameter affect the files on disk?</p> | 
+| <p>Affects Reliability:</p> | <p>Does the parameter affect engine reliability?</p> | 
+| <p>Affects Performance:</p> | <p>Does the parameter affect engine performance?</p> | 
+| <p>Affects Resources:</p> | <p>Does the parameter affect engine resources?</p> | 
+| <p>Availability:</p> | <p>Releases of Windows that support the parameter.</p> | 
+

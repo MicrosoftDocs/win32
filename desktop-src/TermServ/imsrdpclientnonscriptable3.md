@@ -34,82 +34,21 @@ The **IMsRdpClientNonScriptable3** interface has these properties.
 
 
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;">Property</th>
-<th style="text-align: left;">Access type</th>
-<th style="text-align: left;">Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;"><a href="imsrdpclientnonscriptable3-connectionbartext.md"><strong>ConnectionBarText</strong></a><br/></td>
-<td style="text-align: left;">Read/write<br/></td>
-<td style="text-align: left;">The text string to display for the connection bar.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="imsrdpclientnonscriptable3-devicecollection.md"><strong>DeviceCollection</strong></a><br/></td>
-<td style="text-align: left;">Read-only<br/></td>
-<td style="text-align: left;">The collection of PnP devices that are available for redirection.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="imsrdpclientnonscriptable3-drivecollection.md"><strong>DriveCollection</strong></a><br/></td>
-<td style="text-align: left;">Read-only<br/></td>
-<td style="text-align: left;">The collection of disk drives that is available for redirection.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="imsrdpclientnonscriptable3-enablecredsspsupport.md"><strong>EnableCredSspSupport</strong></a><br/></td>
-<td style="text-align: left;">Read/write<br/></td>
-<td style="text-align: left;">Specifies whether CredSSP is enabled for this connection.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="imsrdpclientnonscriptable3-negotiatesecuritylayer.md"><strong>NegotiateSecurityLayer</strong></a><br/></td>
-<td style="text-align: left;">Read/write<br/></td>
-<td style="text-align: left;">Specifies whether the NegotiateSecurityLayer setting is supported for this connection.<br/>
-<blockquote>
-[!Note]<br />
-When <a href="imsrdpclientnonscriptable3-enablecredsspsupport.md"><strong>CredSspSupport</strong></a> is enabled and present on the client, or when Secure Sockets Layer (SSL) is enabled with user authentication, NegotiateSecurityLayer is ignored.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="imsrdpclientnonscriptable3-promptforcredentials.md"><strong>PromptForCredentials</strong></a><br/></td>
-<td style="text-align: left;">Read/write<br/></td>
-<td style="text-align: left;">Specifies whether the prompt for credentials dialog box should be shown.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="imsrdpclientnonscriptable3-redirectdynamicdevices.md"><strong>RedirectDynamicDevices</strong></a><br/></td>
-<td style="text-align: left;">Read/write<br/></td>
-<td style="text-align: left;">Specifies whether dynamically attached PnP devices that are enumerated while in a session are available for redirection.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="imsrdpclientnonscriptable3-redirectdynamicdrives.md"><strong>RedirectDynamicDrives</strong></a><br/></td>
-<td style="text-align: left;">Read/write<br/></td>
-<td style="text-align: left;">Specifies whether dynamically attached PnP drives that are enumerated while in a session are available for redirection.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="imsrdpclientnonscriptable3-showredirectionwarningdialog.md"><strong>ShowRedirectionWarningDialog</strong></a><br/></td>
-<td style="text-align: left;">Read/write<br/></td>
-<td style="text-align: left;">Specifies whether the redirection security warning dialog box should be shown before starting a session.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="imsrdpclientnonscriptable3-warnaboutclipboardredirection.md"><strong>WarnAboutClipboardRedirection</strong></a><br/></td>
-<td style="text-align: left;">Read/write<br/></td>
-<td style="text-align: left;">Specifies whether the security warning dialog box should include a warning about clipboard redirection before starting a session.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="imsrdpclientnonscriptable3-warnaboutsendingcredentials.md"><strong>WarnAboutSendingCredentials</strong></a><br/></td>
-<td style="text-align: left;">Read/write<br/></td>
-<td style="text-align: left;">Specifies whether the security warning should include a warning about sending credentials to the remote server before starting a session.<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Property | Access type | Description | 
+|----------|-------------|-------------|
+| <a href="imsrdpclientnonscriptable3-connectionbartext.md"><strong>ConnectionBarText</strong></a><br /> | Read/write<br /> | The text string to display for the connection bar.<br /> | 
+| <a href="imsrdpclientnonscriptable3-devicecollection.md"><strong>DeviceCollection</strong></a><br /> | Read-only<br /> | The collection of PnP devices that are available for redirection.<br /> | 
+| <a href="imsrdpclientnonscriptable3-drivecollection.md"><strong>DriveCollection</strong></a><br /> | Read-only<br /> | The collection of disk drives that is available for redirection.<br /> | 
+| <a href="imsrdpclientnonscriptable3-enablecredsspsupport.md"><strong>EnableCredSspSupport</strong></a><br /> | Read/write<br /> | Specifies whether CredSSP is enabled for this connection.<br /> | 
+| <a href="imsrdpclientnonscriptable3-negotiatesecuritylayer.md"><strong>NegotiateSecurityLayer</strong></a><br /> | Read/write<br /> | Specifies whether the NegotiateSecurityLayer setting is supported for this connection.<br /><blockquote>[!Note]<br />When <a href="imsrdpclientnonscriptable3-enablecredsspsupport.md"><strong>CredSspSupport</strong></a> is enabled and present on the client, or when Secure Sockets Layer (SSL) is enabled with user authentication, NegotiateSecurityLayer is ignored.</blockquote><br /> | 
+| <a href="imsrdpclientnonscriptable3-promptforcredentials.md"><strong>PromptForCredentials</strong></a><br /> | Read/write<br /> | Specifies whether the prompt for credentials dialog box should be shown.<br /> | 
+| <a href="imsrdpclientnonscriptable3-redirectdynamicdevices.md"><strong>RedirectDynamicDevices</strong></a><br /> | Read/write<br /> | Specifies whether dynamically attached PnP devices that are enumerated while in a session are available for redirection.<br /> | 
+| <a href="imsrdpclientnonscriptable3-redirectdynamicdrives.md"><strong>RedirectDynamicDrives</strong></a><br /> | Read/write<br /> | Specifies whether dynamically attached PnP drives that are enumerated while in a session are available for redirection.<br /> | 
+| <a href="imsrdpclientnonscriptable3-showredirectionwarningdialog.md"><strong>ShowRedirectionWarningDialog</strong></a><br /> | Read/write<br /> | Specifies whether the redirection security warning dialog box should be shown before starting a session.<br /> | 
+| <a href="imsrdpclientnonscriptable3-warnaboutclipboardredirection.md"><strong>WarnAboutClipboardRedirection</strong></a><br /> | Read/write<br /> | Specifies whether the security warning dialog box should include a warning about clipboard redirection before starting a session.<br /> | 
+| <a href="imsrdpclientnonscriptable3-warnaboutsendingcredentials.md"><strong>WarnAboutSendingCredentials</strong></a><br /> | Read/write<br /> | Specifies whether the security warning should include a warning about sending credentials to the remote server before starting a session.<br /> | 
+
 
 
 

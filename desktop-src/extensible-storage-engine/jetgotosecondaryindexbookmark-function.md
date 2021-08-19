@@ -74,90 +74,31 @@ The size of the primary key bookmark in the buffer.
 
 A group of bits that specifies zero or more of the following options.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Value</p></th>
-<th><p>Meaning</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_bitBookmarkPermitVirtualCurrency</p></td>
-<td><p>In the event that the index entry can no longer be found, the cursor will be left positioned where that index entry was previously found. The operation will still fail with JET_errRecordDeleted; however, it will be possible to move to the next or previous index entry relative to the index entry that is now missing.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Value</p> | <p>Meaning</p> | 
+|--------------|----------------|
+| <p>JET_bitBookmarkPermitVirtualCurrency</p> | <p>In the event that the index entry can no longer be found, the cursor will be left positioned where that index entry was previously found. The operation will still fail with JET_errRecordDeleted; however, it will be possible to move to the next or previous index entry relative to the index entry that is now missing.</p> | 
+
 
 
 ### Return Value
 
 This function returns the [JET_ERR](./jet-err.md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](./extensible-storage-engine-errors.md) and [Error Handling Parameters](./error-handling-parameters.md).
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Return code</p></th>
-<th><p>Description</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_errSuccess</p></td>
-<td><p>The operation completed successfully.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errClientRequestToStopJetService</p></td>
-<td><p>The operation cannot complete because all activity on the instance that is associated with the session has ceased as a result of a call to <a href="gg269240(v=exchg.10).md">JetStopService</a>.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errInstanceUnavailable</p></td>
-<td><p>The operation cannot complete because is because the instance that is associated with the session has encountered a fatal error that requires that access to all data be revoked to protect the integrity of that data.</p>
-<p><strong>Windows XP:</strong>  This return value is introduced in Windows XP.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errInvalidBookmark</p></td>
-<td><p>The secondary index bookmark that was provided was invalid. This error might have occurred because the secondary key is zero or the secondary key buffer pointer is <strong>NULL</strong>. This error occurs because</p>
-<ul>
-<li><p>The current secondary index does not have a uniqueness constraint and the size of the provided bookmark is zero.</p></li>
-<li><p>The bookmark buffer pointer is <strong>NULL</strong>.</p></li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errNoCurrentIndex</p></td>
-<td><p>The cursor is not currently on a secondary index. It is not meaningful to go to a secondary index bookmark when the cursor is not currently using a secondary index. <a href="gg294053(v=exchg.10).md">JetGotoBookmark</a> should be used when the cursor is not on a secondary index.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errNotInitialized</p></td>
-<td><p>The operation cannot complete because the instance that is associated with the session has not yet been initialized.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errRecordDeleted</p></td>
-<td><p>The index entry that is associated with the secondary index bookmark could not be found.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errRestoreInProgress</p></td>
-<td><p>The operation cannot complete because a restore operation is in progress on the instance that is associated with the session.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errSessionSharingViolation</p></td>
-<td><p>The same session cannot be used for more than one thread at the same time.</p>
-<p><strong>Windows XP:</strong>  This return value is introduced in Windows XP.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errTermInProgress</p></td>
-<td><p>The operation cannot complete because the instance that is associated with the session is being shut down.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Return code</p> | <p>Description</p> | 
+|--------------------|--------------------|
+| <p>JET_errSuccess</p> | <p>The operation completed successfully.</p> | 
+| <p>JET_errClientRequestToStopJetService</p> | <p>The operation cannot complete because all activity on the instance that is associated with the session has ceased as a result of a call to <a href="gg269240(v=exchg.10).md">JetStopService</a>.</p> | 
+| <p>JET_errInstanceUnavailable</p> | <p>The operation cannot complete because is because the instance that is associated with the session has encountered a fatal error that requires that access to all data be revoked to protect the integrity of that data.</p><p><strong>Windows XP:</strong>  This return value is introduced in Windows XP.</p> | 
+| <p>JET_errInvalidBookmark</p> | <p>The secondary index bookmark that was provided was invalid. This error might have occurred because the secondary key is zero or the secondary key buffer pointer is <strong>NULL</strong>. This error occurs because</p><ul><li><p>The current secondary index does not have a uniqueness constraint and the size of the provided bookmark is zero.</p></li><li><p>The bookmark buffer pointer is <strong>NULL</strong>.</p></li></ul> | 
+| <p>JET_errNoCurrentIndex</p> | <p>The cursor is not currently on a secondary index. It is not meaningful to go to a secondary index bookmark when the cursor is not currently using a secondary index. <a href="gg294053(v=exchg.10).md">JetGotoBookmark</a> should be used when the cursor is not on a secondary index.</p> | 
+| <p>JET_errNotInitialized</p> | <p>The operation cannot complete because the instance that is associated with the session has not yet been initialized.</p> | 
+| <p>JET_errRecordDeleted</p> | <p>The index entry that is associated with the secondary index bookmark could not be found.</p> | 
+| <p>JET_errRestoreInProgress</p> | <p>The operation cannot complete because a restore operation is in progress on the instance that is associated with the session.</p> | 
+| <p>JET_errSessionSharingViolation</p> | <p>The same session cannot be used for more than one thread at the same time.</p><p><strong>Windows XP:</strong>  This return value is introduced in Windows XP.</p> | 
+| <p>JET_errTermInProgress</p> | <p>The operation cannot complete because the instance that is associated with the session is being shut down.</p> | 
+
 
 
 If this function succeeds, the cursor will be positioned at an index entry that is associated with the specified secondary index bookmark. If a record has been prepared for update, that update will be canceled. If an index range is in effect, that index range will be canceled. If a search key has been constructed for the cursor to use, that search key will be deleted. No change to the database state will occur.
@@ -168,34 +109,15 @@ If a record has been prepared for update, that update will be canceled. If an in
 
 #### Requirements
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Client</strong></p></td>
-<td><p>Requires Windows Vista or Windows XP.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Server</strong></p></td>
-<td><p>Requires Windows Server 2008 or Windows Server 2003.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>Header</strong></p></td>
-<td><p>Declared in Esent.h.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Library</strong></p></td>
-<td><p>Use ESENT.lib.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>DLL</strong></p></td>
-<td><p>Requires ESENT.dll.</p></td>
-</tr>
-</tbody>
-</table>
+
+| 
+|
+| <p><strong>Client</strong></p> | <p>Requires Windows Vista or Windows XP.</p> | 
+| <p><strong>Server</strong></p> | <p>Requires Windows Server 2008 or Windows Server 2003.</p> | 
+| <p><strong>Header</strong></p> | <p>Declared in Esent.h.</p> | 
+| <p><strong>Library</strong></p> | <p>Use ESENT.lib.</p> | 
+| <p><strong>DLL</strong></p> | <p>Requires ESENT.dll.</p> | 
+
 
 
 #### See Also

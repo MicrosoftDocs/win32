@@ -56,44 +56,16 @@ The precise meaning of "partner" varies based upon the network, but it represent
 
 The **roamApplicabilityType** simple type defines the following values.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Value</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>NonPartnerOnly</td>
-<td><p>This profile is used only when roaming on a non-partner network</p></td>
-</tr>
-<tr class="even">
-<td>PartnerOnly</td>
-<td><p>This profile is used only when roaming on a partner network</p></td>
-</tr>
-<tr class="odd">
-<td>HomeOnly</td>
-<td><p>This profile is used only when on the home network</p></td>
-</tr>
-<tr class="even">
-<td>HomeAndPartner</td>
-<td><p>This profile is used only when at home or on a partner network</p></td>
-</tr>
-<tr class="odd">
-<td>PartnerAndNonpartner</td>
-<td><p>This profile is used when not at home (roaming on any network)</p></td>
-</tr>
-<tr class="even">
-<td>AllRoaming</td>
-<td><p>This profile is used on all networks</p></td>
-</tr>
-</tbody>
-</table>
+
+| Value | Description | 
+|-------|-------------|
+| NonPartnerOnly | <p>This profile is used only when roaming on a non-partner network</p> | 
+| PartnerOnly | <p>This profile is used only when roaming on a partner network</p> | 
+| HomeOnly | <p>This profile is used only when on the home network</p> | 
+| HomeAndPartner | <p>This profile is used only when at home or on a partner network</p> | 
+| PartnerAndNonpartner | <p>This profile is used when not at home (roaming on any network)</p> | 
+| AllRoaming | <p>This profile is used on all networks</p> | 
+
 
  
 

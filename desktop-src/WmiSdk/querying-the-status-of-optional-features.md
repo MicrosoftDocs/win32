@@ -16,42 +16,22 @@ You can use Windows PowerShell cmdlets to query the status of optional features.
 **To retrieve all instances of optional features present on a computer**
 
 -   <span codelanguage="PowerShell"></span>
-    <table>
-    <colgroup>
-    <col style="width: 100%" />
-    </colgroup>
-    <thead>
-    <tr class="header">
-    <th>PowerShell</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td><pre><code>Get-WmiObject Win32_OptionalFeature</code></pre></td>
-    </tr>
-    </tbody>
-    </table>
+    
+| PowerShell | 
+|------------|
+| <pre><code>Get-WmiObject Win32_OptionalFeature</code></pre> | 
+
 
     
 
 **To query for an optional feature by specifying the feature name**
 
 -   <span codelanguage="PowerShell"></span>
-    <table>
-    <colgroup>
-    <col style="width: 100%" />
-    </colgroup>
-    <thead>
-    <tr class="header">
-    <th>PowerShell</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td><pre><code>Get-WmiObject -query &quot;select * from Win32_OptionalFeature where name = &#39;TelnetClient&#39;&quot;</code></pre></td>
-    </tr>
-    </tbody>
-    </table>
+    
+| PowerShell | 
+|------------|
+| <pre><code>Get-WmiObject -query "select * from Win32_OptionalFeature where name = 'TelnetClient'"</code></pre> | 
+
 
     
 
@@ -63,21 +43,11 @@ You can use Windows PowerShell cmdlets to query the status of optional features.
 **To query for optional features by specifying the install state**
 
 -   <span codelanguage="PowerShell"></span>
-    <table>
-    <colgroup>
-    <col style="width: 100%" />
-    </colgroup>
-    <thead>
-    <tr class="header">
-    <th>PowerShell</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td><pre><code>Get-WmiObject -query &quot;select * from win32_optionalfeature where installstate= 1&quot;</code></pre></td>
-    </tr>
-    </tbody>
-    </table>
+    
+| PowerShell | 
+|------------|
+| <pre><code>Get-WmiObject -query "select * from win32_optionalfeature where installstate= 1"</code></pre> | 
+
 
     
 

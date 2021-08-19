@@ -32,58 +32,21 @@ This topic contains parameters that are used for the temporary database.
 
 This parameter controls the use of transactions in temporary tables. When this parameter is false, temporary tables will be faster but it will not be possible to rollback any updates made in a transaction.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Default Value:</p></td>
-<td><p>True</p></td>
-</tr>
-<tr class="even">
-<td><p>Type:</p></td>
-<td><p>Boolean</p></td>
-</tr>
-<tr class="odd">
-<td><p>Valid Range:</p></td>
-<td><p>False, True</p></td>
-</tr>
-<tr class="even">
-<td><p>Scope:</p></td>
-<td><p>Instance</p></td>
-</tr>
-<tr class="odd">
-<td><p>Set After <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="even">
-<td><p>Set after <a href="gg294068(v=exchg.10).md">JetInit</a>:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affects Physical Layout:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="even">
-<td><p>Affects Reliability:</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affects Performance:</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="even">
-<td><p>Affects Resources:</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="odd">
-<td><p>Availability:</p></td>
-<td><p>All</p></td>
-</tr>
-</tbody>
-</table>
+
+| 
+|
+| <p>Default Value:</p> | <p>True</p> | 
+| <p>Type:</p> | <p>Boolean</p> | 
+| <p>Valid Range:</p> | <p>False, True</p> | 
+| <p>Scope:</p> | <p>Instance</p> | 
+| <p>Set After <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Yes</p> | 
+| <p>Set after <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>No</p> | 
+| <p>Affects Physical Layout:</p> | <p>No</p> | 
+| <p>Affects Reliability:</p> | <p>Yes</p> | 
+| <p>Affects Performance:</p> | <p>Yes</p> | 
+| <p>Affects Resources:</p> | <p>Yes</p> | 
+| <p>Availability:</p> | <p>All</p> | 
+
 
 
 *JET_paramPageTempDBMin*  
@@ -93,58 +56,21 @@ This parameter controls the initial size of the temporary database. The size is 
 
 It is often desirable for small applications to configure the temporary database to be as small as possible. Setting this parameter to 14 will achieve the smallest temporary database possible. Note that one can also entirely eliminate the temporary database by setting **JET_paramMaxTemporaryTables** to zero.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Default Value:</p></td>
-<td><p>0</p></td>
-</tr>
-<tr class="even">
-<td><p>Type:</p></td>
-<td><p>Integer</p></td>
-</tr>
-<tr class="odd">
-<td><p>Valid Range:</p></td>
-<td><p>0 – 2147483647</p></td>
-</tr>
-<tr class="even">
-<td><p>Scope:</p></td>
-<td><p>Instance</p></td>
-</tr>
-<tr class="odd">
-<td><p>Set After <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="even">
-<td><p>Set after <a href="gg294068(v=exchg.10).md">JetInit</a>:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affects Physical Layout:</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="even">
-<td><p>Affects Reliability:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affects Performance:</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="even">
-<td><p>Affects Resources:</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="odd">
-<td><p>Availability:</p></td>
-<td><p>All</p></td>
-</tr>
-</tbody>
-</table>
+
+| 
+|
+| <p>Default Value:</p> | <p>0</p> | 
+| <p>Type:</p> | <p>Integer</p> | 
+| <p>Valid Range:</p> | <p>0 – 2147483647</p> | 
+| <p>Scope:</p> | <p>Instance</p> | 
+| <p>Set After <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Yes</p> | 
+| <p>Set after <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>No</p> | 
+| <p>Affects Physical Layout:</p> | <p>Yes</p> | 
+| <p>Affects Reliability:</p> | <p>No</p> | 
+| <p>Affects Performance:</p> | <p>Yes</p> | 
+| <p>Affects Resources:</p> | <p>Yes</p> | 
+| <p>Availability:</p> | <p>All</p> | 
+
 
 
 *JET_paramTempPath*  
@@ -154,82 +80,32 @@ This parameter indicates the relative or absolute file system path of the folder
 
 **Note**  If a relative path is specified then it will be relative to the current working directory of the process that hosts the application that is using the database engine.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Default Value:</p></td>
-<td><p>&quot;tmp.edb&quot;</p></td>
-</tr>
-<tr class="even">
-<td><p>Type:</p></td>
-<td><p>Path (string)</p></td>
-</tr>
-<tr class="odd">
-<td><p>Valid Range:</p></td>
-<td><p>0 – 247 characters</p></td>
-</tr>
-<tr class="even">
-<td><p>Scope:</p></td>
-<td><p>Instance</p></td>
-</tr>
-<tr class="odd">
-<td><p>Set After <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="even">
-<td><p>Set after <a href="gg294068(v=exchg.10).md">JetInit</a>:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affects Physical Layout:</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="even">
-<td><p>Affects Reliability:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affects Performance:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="even">
-<td><p>Affects Resources:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="odd">
-<td><p>Availability:</p></td>
-<td><p>All</p></td>
-</tr>
-</tbody>
-</table>
+
+| 
+|
+| <p>Default Value:</p> | <p>"tmp.edb"</p> | 
+| <p>Type:</p> | <p>Path (string)</p> | 
+| <p>Valid Range:</p> | <p>0 – 247 characters</p> | 
+| <p>Scope:</p> | <p>Instance</p> | 
+| <p>Set After <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Yes</p> | 
+| <p>Set after <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>No</p> | 
+| <p>Affects Physical Layout:</p> | <p>Yes</p> | 
+| <p>Affects Reliability:</p> | <p>No</p> | 
+| <p>Affects Performance:</p> | <p>No</p> | 
+| <p>Affects Resources:</p> | <p>No</p> | 
+| <p>Availability:</p> | <p>All</p> | 
+
 
 
 ### Requirements
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Client</strong></p></td>
-<td><p>Requires Windows Vista, Windows XP, or Windows 2000 Professional.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Server</strong></p></td>
-<td><p>Requires Windows Server 2008, Windows Server 2003, or Windows 2000 Server.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>Header</strong></p></td>
-<td><p>Declared in Esent.h.</p></td>
-</tr>
-</tbody>
-</table>
+
+| 
+|
+| <p><strong>Client</strong></p> | <p>Requires Windows Vista, Windows XP, or Windows 2000 Professional.</p> | 
+| <p><strong>Server</strong></p> | <p>Requires Windows Server 2008, Windows Server 2003, or Windows 2000 Server.</p> | 
+| <p><strong>Header</strong></p> | <p>Declared in Esent.h.</p> | 
+
 
 
 ### See Also

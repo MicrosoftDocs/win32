@@ -21,58 +21,20 @@ For program and transport streams delivered in push-mode, use the [MPEG-2 Demult
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>Filter Interfaces</td>
-<td><a href="/windows/desktop/api/Strmif/nn-strmif-ibasefilter"><strong>IBaseFilter</strong></a>, <strong>ISpecifyPropertyPages</strong>, <a href="/previous-versions/windows/desktop/api/Amparse/nn-amparse-iamparse"><strong>IAMParse</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-iamstreamselect"><strong>IAMStreamSelect</strong></a></td>
-</tr>
-<tr class="even">
-<td>Input Pin Media Types</td>
-<td><ul>
-<li>MEDIATYPE_Stream, MEDIASUBTYPE_MPEG2_PROGRAM</li>
-<li>MEDIATYPE_Stream, MEDIASUBTYPE_MPEG1_Video</li>
-<li>MEDIATYPE_Stream, MEDIASUBTYPE_NULL</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>Input Pin Interfaces</td>
-<td><a href="/windows/desktop/api/Strmif/nn-strmif-ipin"><strong>IPin</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol"><strong>IQualityControl</strong></a></td>
-</tr>
-<tr class="even">
-<td>Output Pin Media Types</td>
-<td>Depends on the stream type. See <a href="mpeg-2-splitter-media-types.md">MPEG-2 Splitter Media Types</a></td>
-</tr>
-<tr class="odd">
-<td>Output Pin Interfaces</td>
-<td><a href="/windows/desktop/api/Strmif/nn-strmif-ipin"><strong>IPin</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-imediaseeking"><strong>IMediaSeeking</strong></a></td>
-</tr>
-<tr class="even">
-<td>Filter CLSID</td>
-<td>CLSID_MMSPLITTER</td>
-</tr>
-<tr class="odd">
-<td>Property Page CLSID</td>
-<td>Not applicable</td>
-</tr>
-<tr class="even">
-<td>Executable</td>
-<td>mpg2splt.ax</td>
-</tr>
-<tr class="odd">
-<td><a href="merit.md">Merit</a></td>
-<td>MERIT_NORMAL + 1</td>
-</tr>
-<tr class="even">
-<td><a href="filter-categories.md">Filter Category</a></td>
-<td>CLSID_AudioInputDeviceCategory</td>
-</tr>
-</tbody>
-</table>
+
+| 
+|
+| Filter Interfaces | <a href="/windows/desktop/api/Strmif/nn-strmif-ibasefilter"><strong>IBaseFilter</strong></a>, <strong>ISpecifyPropertyPages</strong>, <a href="/previous-versions/windows/desktop/api/Amparse/nn-amparse-iamparse"><strong>IAMParse</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-iamstreamselect"><strong>IAMStreamSelect</strong></a> | 
+| Input Pin Media Types | <ul><li>MEDIATYPE_Stream, MEDIASUBTYPE_MPEG2_PROGRAM</li><li>MEDIATYPE_Stream, MEDIASUBTYPE_MPEG1_Video</li><li>MEDIATYPE_Stream, MEDIASUBTYPE_NULL</li></ul> | 
+| Input Pin Interfaces | <a href="/windows/desktop/api/Strmif/nn-strmif-ipin"><strong>IPin</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol"><strong>IQualityControl</strong></a> | 
+| Output Pin Media Types | Depends on the stream type. See <a href="mpeg-2-splitter-media-types.md">MPEG-2 Splitter Media Types</a> | 
+| Output Pin Interfaces | <a href="/windows/desktop/api/Strmif/nn-strmif-ipin"><strong>IPin</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-imediaseeking"><strong>IMediaSeeking</strong></a> | 
+| Filter CLSID | CLSID_MMSPLITTER | 
+| Property Page CLSID | Not applicable | 
+| Executable | mpg2splt.ax | 
+| <a href="merit.md">Merit</a> | MERIT_NORMAL + 1 | 
+| <a href="filter-categories.md">Filter Category</a> | CLSID_AudioInputDeviceCategory | 
+
 
 
 

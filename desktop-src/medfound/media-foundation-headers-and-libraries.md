@@ -64,39 +64,12 @@ An application that uses any of these functions must link to a different set of 
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>SDK Version</th>
-<th>Libraries</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Windows SDK for Windows Vista<br/> Windows SDK for Windows Server 2008<br/></td>
-<td>evr.lib<br/> mf.lib<br/> mfplat.lib<br/></td>
-</tr>
-<tr class="even">
-<td>Windows SDK for Windows 7</td>
-<td>If the target platform is Windows Vista or Windows Server 2008, link the following libraries:<br/>
-<ul>
-<li>evr_vista.lib</li>
-<li>mf_vista.lib</li>
-<li>mfplat_vista.lib</li>
-</ul>
-If the target platform is Windows 7 or later, link the following libraries:<br/>
-<ul>
-<li>evr.lib</li>
-<li>mf.lib</li>
-<li>mfplat.lib</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| SDK Version | Libraries | 
+|-------------|-----------|
+| Windows SDK for Windows Vista<br /> Windows SDK for Windows Server 2008<br /> | evr.lib<br /> mf.lib<br /> mfplat.lib<br /> | 
+| Windows SDK for Windows 7 | If the target platform is Windows Vista or Windows Server 2008, link the following libraries:<br /><ul><li>evr_vista.lib</li><li>mf_vista.lib</li><li>mfplat_vista.lib</li></ul>If the target platform is Windows 7 or later, link the following libraries:<br /><ul><li>evr.lib</li><li>mf.lib</li><li>mfplat.lib</li></ul> | 
+
 
 
 

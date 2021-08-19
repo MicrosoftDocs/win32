@@ -32,41 +32,14 @@ The **ShellUIHelper** object has these methods.
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;">Method</th>
-<th style="text-align: left;">Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;"><a href="shelluihelper-addchannel.md"><strong>AddChannel</strong></a></td>
-<td style="text-align: left;">Adds a new channel to the list of channels in the Internet Explorer <strong>Favorites</strong> menu and to the <strong>Channel</strong> bar on the desktop.<br/>
-<blockquote>
-[!Note]<br />
-This method is no longer supported under Windows Vista. Under that operating system, it returns E_NOTIMPL.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="shelluihelper-adddesktopcomponent.md"><strong>AddDesktopComponent</strong></a></td>
-<td style="text-align: left;">Adds an item to the Active Desktop.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="shelluihelper-addfavorite.md"><strong>AddFavorite</strong></a></td>
-<td style="text-align: left;">Displays the default user interface for creating a favorite item. The user interface is initialized to the specified parameters.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="shelluihelper-issubscribed.md"><strong>IsSubscribed</strong></a></td>
-<td style="text-align: left;">Indicates whether a specified URL is subscribed to.<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Method | Description | 
+|--------|-------------|
+| <a href="shelluihelper-addchannel.md"><strong>AddChannel</strong></a> | Adds a new channel to the list of channels in the Internet Explorer <strong>Favorites</strong> menu and to the <strong>Channel</strong> bar on the desktop.<br /><blockquote>[!Note]<br />This method is no longer supported under Windows Vista. Under that operating system, it returns E_NOTIMPL.</blockquote><br /> | 
+| <a href="shelluihelper-adddesktopcomponent.md"><strong>AddDesktopComponent</strong></a> | Adds an item to the Active Desktop.<br /> | 
+| <a href="shelluihelper-addfavorite.md"><strong>AddFavorite</strong></a> | Displays the default user interface for creating a favorite item. The user interface is initialized to the specified parameters.<br /> | 
+| <a href="shelluihelper-issubscribed.md"><strong>IsSubscribed</strong></a> | Indicates whether a specified URL is subscribed to.<br /> | 
+
 
 
 

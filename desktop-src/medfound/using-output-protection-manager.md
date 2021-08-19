@@ -154,43 +154,14 @@ The following flags are defined for **ulStatusFlags**.
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Flag</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>OPM_STATUS_LINK_LOST</strong></td>
-<td>Output protection stopped working for some reason; for example, the display device might be unplugged from the conntector. Stop playback and turn off all output protection mechanisms.</td>
-</tr>
-<tr class="even">
-<td><strong>OPM_STATUS_RENEGOTIATION_REQUIRED</strong></td>
-<td>The application must reestablish the OPM session. Respond as follows:
-<ol>
-<li>Stop playback.</li>
-<li>Turn off all protection mechanisms.</li>
-<li>Release the <a href="/windows/desktop/api/opmapi/nn-opmapi-iopmvideooutput"><strong>IOPMVideoOutput</strong></a> interface.</li>
-<li>Recreate all video surfaces.</li>
-<li>Create a new OPM object and attempt to reestablish content protection. If this fails, display an error message to the user. Do not play any more video content.</li>
-</ol></td>
-</tr>
-<tr class="odd">
-<td><strong>OPM_STATUS_REVOKED_HDCP_DEVICE_ATTACHED</strong></td>
-<td>This flag applies only when HDCP is used, and indicates the presence of a revoked HDCP device. Stop playback and turn off all protection mechanisms on this video output. When this flag is set, the <strong>OPM_STATUS_LINK_LOST</strong> flag is also set.</td>
-</tr>
-<tr class="even">
-<td><strong>OPM_STATUS_REVOKED_HDCP_DEVICE_ATTACHED</strong></td>
-<td>The driver has detected tampering. Stop playback, and do not play any more video using this video output. It is also a good idea to stop using any other video outputs, because the system might be compromised.</td>
-</tr>
-</tbody>
-</table>
+
+| Flag | Description | 
+|------|-------------|
+| <strong>OPM_STATUS_LINK_LOST</strong> | Output protection stopped working for some reason; for example, the display device might be unplugged from the conntector. Stop playback and turn off all output protection mechanisms. | 
+| <strong>OPM_STATUS_RENEGOTIATION_REQUIRED</strong> | The application must reestablish the OPM session. Respond as follows:<ol><li>Stop playback.</li><li>Turn off all protection mechanisms.</li><li>Release the <a href="/windows/desktop/api/opmapi/nn-opmapi-iopmvideooutput"><strong>IOPMVideoOutput</strong></a> interface.</li><li>Recreate all video surfaces.</li><li>Create a new OPM object and attempt to reestablish content protection. If this fails, display an error message to the user. Do not play any more video content.</li></ol> | 
+| <strong>OPM_STATUS_REVOKED_HDCP_DEVICE_ATTACHED</strong> | This flag applies only when HDCP is used, and indicates the presence of a revoked HDCP device. Stop playback and turn off all protection mechanisms on this video output. When this flag is set, the <strong>OPM_STATUS_LINK_LOST</strong> flag is also set. | 
+| <strong>OPM_STATUS_REVOKED_HDCP_DEVICE_ATTACHED</strong> | The driver has detected tampering. Stop playback, and do not play any more video using this video output. It is also a good idea to stop using any other video outputs, because the system might be compromised. | 
+
 
 
 

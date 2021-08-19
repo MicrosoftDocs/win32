@@ -34,49 +34,16 @@ The following procedure describes how to obtain data from WMI by writing a scrip
 
     
 
-    <table>
-    <colgroup>
-    <col style="width: 50%" />
-    <col style="width: 50%" />
-    </colgroup>
-    <thead>
-    <tr class="header">
-    <th>Application language</th>
-    <th>Topic</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Scripts written in Microsoft ActiveX script hosting, including Visual Basic Scripting Edition (VBScript) and Perl<br/></td>
-    <td><a href="scripting-api-for-wmi.md">Scripting API for WMI</a>.<br/> Start with <a href="creating-a-wmi-script.md">Creating a WMI Script</a>.<br/> For script code examples, see <a href="wmi-tasks-for-scripts-and-applications.md">WMI Tasks for Scripts and Applications</a> and the TechNet <a href="https://www.microsoft.com/technet/scriptcenter">ScriptCenter</a> Script Repository.<br/></td>
-    </tr>
-    <tr class="even">
-    <td>Windows PowerShell<br/></td>
-    <td><a href="/powershell/scripting/getting-started/getting-started-with-windows-powershell?view=powershell-7">Getting Started with Windows PowerShell</a><br/> WMI PowerShell Cmdlets, such as <a href="/previous-versions//dd315295(v=technet.10)">Get-WmiObject</a>.<br/></td>
-    </tr>
-    <tr class="odd">
-    <td>Visual Basic applications<br/></td>
-    <td><a href="scripting-api-for-wmi.md">Scripting API for WMI</a>.<br/></td>
-    </tr>
-    <tr class="even">
-    <td>Active Server Pages<br/></td>
-    <td><a href="scripting-api-for-wmi.md">Scripting API for WMI</a>.<br/> Start with <a href="creating-active-server-pages-for-wmi.md">Creating Active Server Pages for WMI</a>.<br/></td>
-    </tr>
-    <tr class="odd">
-    <td>C++ applications<br/></td>
-    <td><a href="com-api-for-wmi.md">COM API for WMI</a>.<br/> Start with <a href="creating-a-wmi-application-using-c-.md">Creating a WMI Application Using C++</a> and <a href="wmi-c---application-examples.md">WMI C++ Application Examples</a> (contains examples).<br/></td>
-    </tr>
-    <tr class="even">
-    <td>.NET Framework applications written in C#, Visual Basic .NET, or J#<br/></td>
-    <td>Classes in the <a href="/previous-versions//hh872326(v=vs.85)"><strong>Microsoft.Management.Infrastructure</strong></a> namespace.<br/>
-    <blockquote>
-    [!Note]<br />
-    <strong>System.Management</strong> was the original namespace that covered managed code for WMI. However, the underlying technology for <strong>System.Management</strong> is generally slower than, and does not scale as well as, <a href="/previous-versions//hh872326(v=vs.85)"><strong>Microsoft.Management.Infrastructure</strong></a>. As such, it is not recommended that you use <strong>System.Management</strong> for new projects. (For more information on <strong>System.Management</strong>, see <a href="/previous-versions/bb404655(v=vs.90)">WMI .NET Overview</a>.)
-    </blockquote>
-    <br/></td>
-    </tr>
-    </tbody>
-    </table>
+    
+| Application language | Topic | 
+|----------------------|-------|
+| Scripts written in Microsoft ActiveX script hosting, including Visual Basic Scripting Edition (VBScript) and Perl<br /> | <a href="scripting-api-for-wmi.md">Scripting API for WMI</a>.<br /> Start with <a href="creating-a-wmi-script.md">Creating a WMI Script</a>.<br /> For script code examples, see <a href="wmi-tasks-for-scripts-and-applications.md">WMI Tasks for Scripts and Applications</a> and the TechNet <a href="https://www.microsoft.com/technet/scriptcenter">ScriptCenter</a> Script Repository.<br /> | 
+| Windows PowerShell<br /> | <a href="/powershell/scripting/getting-started/getting-started-with-windows-powershell?view=powershell-7">Getting Started with Windows PowerShell</a><br /> WMI PowerShell Cmdlets, such as <a href="/previous-versions//dd315295(v=technet.10)">Get-WmiObject</a>.<br /> | 
+| Visual Basic applications<br /> | <a href="scripting-api-for-wmi.md">Scripting API for WMI</a>.<br /> | 
+| Active Server Pages<br /> | <a href="scripting-api-for-wmi.md">Scripting API for WMI</a>.<br /> Start with <a href="creating-active-server-pages-for-wmi.md">Creating Active Server Pages for WMI</a>.<br /> | 
+| C++ applications<br /> | <a href="com-api-for-wmi.md">COM API for WMI</a>.<br /> Start with <a href="creating-a-wmi-application-using-c-.md">Creating a WMI Application Using C++</a> and <a href="wmi-c---application-examples.md">WMI C++ Application Examples</a> (contains examples).<br /> | 
+| .NET Framework applications written in C#, Visual Basic .NET, or J#<br /> | Classes in the <a href="/previous-versions//hh872326(v=vs.85)"><strong>Microsoft.Management.Infrastructure</strong></a> namespace.<br /><blockquote>    [!Note]<br /><strong>System.Management</strong> was the original namespace that covered managed code for WMI. However, the underlying technology for <strong>System.Management</strong> is generally slower than, and does not scale as well as, <a href="/previous-versions//hh872326(v=vs.85)"><strong>Microsoft.Management.Infrastructure</strong></a>. As such, it is not recommended that you use <strong>System.Management</strong> for new projects. (For more information on <strong>System.Management</strong>, see <a href="/previous-versions/bb404655(v=vs.90)">WMI .NET Overview</a>.)    </blockquote><br /> | 
+
 
     
 

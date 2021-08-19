@@ -46,121 +46,40 @@ The backup will be fuzzy, in that the backup will be consistent to a single poin
 
 A group of bits that specify zero or more of the following options.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Value</p></th>
-<th><p>Meaning</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_bitBackupAtomic</p></td>
-<td><p>This flag is deprecated. Usage of this bit will result in JET_errInvalidgrbit being returned.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_bitBackupIncremental</p></td>
-<td><p>Creates an incremental backup as opposed to a full backup. This means that only the log files since the last full or incremental backup will be backed up.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_bitBackupSnapshot</p></td>
-<td><p>Reserved for future use. Defined for Windows XP.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Value</p> | <p>Meaning</p> | 
+|--------------|----------------|
+| <p>JET_bitBackupAtomic</p> | <p>This flag is deprecated. Usage of this bit will result in JET_errInvalidgrbit being returned.</p> | 
+| <p>JET_bitBackupIncremental</p> | <p>Creates an incremental backup as opposed to a full backup. This means that only the log files since the last full or incremental backup will be backed up.</p> | 
+| <p>JET_bitBackupSnapshot</p> | <p>Reserved for future use. Defined for Windows XP.</p> | 
+
 
 
 ### Return Value
 
 This function returns the [JET_ERR](./jet-err.md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](./extensible-storage-engine-errors.md) and [Error Handling Parameters](./error-handling-parameters.md).
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Return code</p></th>
-<th><p>Description</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_errSuccess</p></td>
-<td><p>The operation completed successfully.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errBackupInProgress</p></td>
-<td><p>If an external backup or snapshot backup is already in process, this error will be returned, until <strong>JetBeginExternalBackup</strong> (or one of the variants of it) is called. ESE allows only one online backup at a time.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errBackupNotAllowedYet</p></td>
-<td><p>The instance or database engine is either in recovery or in a shutdown or termination phase.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errCheckpointCorrupt</p></td>
-<td><p>On a full backup, the checkpoint file could not be read, or the file could not be verified.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errCheckpointFileNotFound</p></td>
-<td><p>On a full backup, the checkpoint file could not be found.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errClientRequestToStopJetService</p></td>
-<td><p>The operation cannot complete because all activity on the instance that is associated with the session has ceased as a result of a call to <a href="gg269240(v=exchg.10).md">JetStopService</a>.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errInstanceUnavailable</p></td>
-<td><p>The operation cannot complete because the instance that is associated with the session has encountered a fatal error that requires that access to all data be revoked to protect the integrity of that data.</p>
-<p><strong>Windows XP:  </strong>This return value is introduced in Windows XP.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errInvalidBackup</p></td>
-<td><p>Circular logging is enabled and the backup type specified is JET_bitBackupIncremental. See <a href="gg269235(v=exchg.10).md">JET_paramCircularLog</a> in the <strong>Transaction Log Errors</strong> for information about how to control circular or non-circular logging.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errInvalidgrbit</p></td>
-<td><p>One or more of the <em>grbit</em> members was invalid.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errLoggingDisabled</p></td>
-<td><p>Recovery or logging is disabled. You cannot do an online backup if logging is disabled. For more information about logging and recovery, see <a href="gg269235(v=exchg.10).md">JET_paramRecovery</a>.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errLogWriteFail</p></td>
-<td><p>The engine has stopped writing to the log drive, due to log being full or disk IO errors.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errMissingFullBackup</p></td>
-<td><p>The incremental backup was specified (with JET_bitBackupIncremental), and never was a full backup taken for one of the attached databases for the logging set.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errNotInitialized</p></td>
-<td><p>The operation cannot complete because the instance that is associated with the session has not yet been initialized.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errOutOfMemory</p></td>
-<td><p>The operation failed because not enough memory could be allocated to complete it.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errRestoreInProgress</p></td>
-<td><p>The operation cannot complete because a restore operation is in progress on the instance associated with the session.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errRunningInMultiInstanceMode</p></td>
-<td><p>The operation failed because an attempt was made to use the engine in legacy mode (Windows 2000 compatibility mode) where only one instance is supported when in fact multiple instances already exist.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errTermInProgress</p></td>
-<td><p>The operation cannot complete because the instance that is associated with the session is being shut down.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Return code</p> | <p>Description</p> | 
+|--------------------|--------------------|
+| <p>JET_errSuccess</p> | <p>The operation completed successfully.</p> | 
+| <p>JET_errBackupInProgress</p> | <p>If an external backup or snapshot backup is already in process, this error will be returned, until <strong>JetBeginExternalBackup</strong> (or one of the variants of it) is called. ESE allows only one online backup at a time.</p> | 
+| <p>JET_errBackupNotAllowedYet</p> | <p>The instance or database engine is either in recovery or in a shutdown or termination phase.</p> | 
+| <p>JET_errCheckpointCorrupt</p> | <p>On a full backup, the checkpoint file could not be read, or the file could not be verified.</p> | 
+| <p>JET_errCheckpointFileNotFound</p> | <p>On a full backup, the checkpoint file could not be found.</p> | 
+| <p>JET_errClientRequestToStopJetService</p> | <p>The operation cannot complete because all activity on the instance that is associated with the session has ceased as a result of a call to <a href="gg269240(v=exchg.10).md">JetStopService</a>.</p> | 
+| <p>JET_errInstanceUnavailable</p> | <p>The operation cannot complete because the instance that is associated with the session has encountered a fatal error that requires that access to all data be revoked to protect the integrity of that data.</p><p><strong>Windows XP:  </strong>This return value is introduced in Windows XP.</p> | 
+| <p>JET_errInvalidBackup</p> | <p>Circular logging is enabled and the backup type specified is JET_bitBackupIncremental. See <a href="gg269235(v=exchg.10).md">JET_paramCircularLog</a> in the <strong>Transaction Log Errors</strong> for information about how to control circular or non-circular logging.</p> | 
+| <p>JET_errInvalidgrbit</p> | <p>One or more of the <em>grbit</em> members was invalid.</p> | 
+| <p>JET_errLoggingDisabled</p> | <p>Recovery or logging is disabled. You cannot do an online backup if logging is disabled. For more information about logging and recovery, see <a href="gg269235(v=exchg.10).md">JET_paramRecovery</a>.</p> | 
+| <p>JET_errLogWriteFail</p> | <p>The engine has stopped writing to the log drive, due to log being full or disk IO errors.</p> | 
+| <p>JET_errMissingFullBackup</p> | <p>The incremental backup was specified (with JET_bitBackupIncremental), and never was a full backup taken for one of the attached databases for the logging set.</p> | 
+| <p>JET_errNotInitialized</p> | <p>The operation cannot complete because the instance that is associated with the session has not yet been initialized.</p> | 
+| <p>JET_errOutOfMemory</p> | <p>The operation failed because not enough memory could be allocated to complete it.</p> | 
+| <p>JET_errRestoreInProgress</p> | <p>The operation cannot complete because a restore operation is in progress on the instance associated with the session.</p> | 
+| <p>JET_errRunningInMultiInstanceMode</p> | <p>The operation failed because an attempt was made to use the engine in legacy mode (Windows 2000 compatibility mode) where only one instance is supported when in fact multiple instances already exist.</p> | 
+| <p>JET_errTermInProgress</p> | <p>The operation cannot complete because the instance that is associated with the session is being shut down.</p> | 
+
 
 
 If the function succeeds, an external backup is initiated and the backup state engine is initialized. Subsequent APIs can now be called to complete the external backup sequence and stream or read off the database file, the database patch file (if supported), and the log file. An event can be logged that an external backup has begun.
@@ -181,34 +100,15 @@ The database patch file is a special auxiliary file that is used to store databa
 
 #### Requirements
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Client</strong></p></td>
-<td><p>Requires Windows Vista, Windows XP, or Windows 2000 Professional.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Server</strong></p></td>
-<td><p>Requires Windows Server 2008, Windows Server 2003, or Windows 2000 Server.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>Header</strong></p></td>
-<td><p>Declared in Esent.h.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Library</strong></p></td>
-<td><p>Use ESENT.lib.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>DLL</strong></p></td>
-<td><p>Requires ESENT.dll.</p></td>
-</tr>
-</tbody>
-</table>
+
+| 
+|
+| <p><strong>Client</strong></p> | <p>Requires Windows Vista, Windows XP, or Windows 2000 Professional.</p> | 
+| <p><strong>Server</strong></p> | <p>Requires Windows Server 2008, Windows Server 2003, or Windows 2000 Server.</p> | 
+| <p><strong>Header</strong></p> | <p>Declared in Esent.h.</p> | 
+| <p><strong>Library</strong></p> | <p>Use ESENT.lib.</p> | 
+| <p><strong>DLL</strong></p> | <p>Requires ESENT.dll.</p> | 
+
 
 
 #### See Also

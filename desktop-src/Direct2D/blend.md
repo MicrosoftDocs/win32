@@ -97,129 +97,36 @@ Some of the blend modes require conversion to and from the hue, saturation, lumi
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Enumeration</th>
-<th>Equation</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>D2D1_BLEND_MODE_DARKEN</td>
-<td>Basic blend formula for alpha only. <img src="images/blend-mode-darken-1.png" alt="mathematical formula for a darken effect." /></td>
-</tr>
-<tr class="even">
-<td>D2D1_BLEND_MODE_MULTIPLY</td>
-<td>Basic blend formula for alpha only. <img src="images/blend-mode-multiply-1.png" alt="Mathematical formula for a mutiply effect." /></td>
-</tr>
-<tr class="odd">
-<td>D2D1_BLEND_MODE_COLOR_BURN</td>
-<td>Basic blend formulas with <em>f</em>(F<sub>RGB</sub>, B<sub>RGB</sub>) = <img src="images/blend-mode-colorburn-1.png" alt="Mathematical formula for a coor burn effect." /></td>
-</tr>
-<tr class="even">
-<td>D2D1_BLEND_MODE_LINEAR_BURN</td>
-<td>Basic blend formulas with <em>f</em>(F<sub>RGB</sub>, B<sub>RGB</sub>) = <img src="images/blend-mode-linearburn-1.png" alt="Mathematical formula for a linear burn effect." /></td>
-</tr>
-<tr class="odd">
-<td>D2D1_BLEND_MODE_DARKER_COLOR</td>
-<td>Basic blend formula for alpha only. <img src="images/blend-mode-darkencolor-1.png" alt="Mathematical formla for a darken color effect." /></td>
-</tr>
-<tr class="even">
-<td>D2D1_BLEND_MODE_LIGHTEN</td>
-<td>Basic blend formula for alpha only. <img src="images/blend-mode-lighten-1.png" alt="Mathematical formula for a lighten effect." /></td>
-</tr>
-<tr class="odd">
-<td>D2D1_BLEND_MODE_SCREEN</td>
-<td>Basic blend formula for alpha only. <img src="images/blend-mode-screen-1.png" alt="Mathematical formula for a screen effect." /></td>
-</tr>
-<tr class="even">
-<td>D2D1_BLEND_MODE_COLOR_DODGE</td>
-<td>Basic blend formulas with <em>f</em>(F<sub>RGB</sub>, B<sub>RGB</sub>) = <img src="images/blend-mode-colordodge-1.png" alt="Mathematical formula for a color dodge effect." /></td>
-</tr>
-<tr class="odd">
-<td>D2D1_BLEND_MODE_LINEAR_DODGE</td>
-<td>Basic blend formulas with <em>f</em>(F<sub>RGB</sub>, B<sub>RGB</sub>) = <img src="images/blend-mode-lineardodge-1.png" alt="Mathematical formula for a linear dodge effect." /></td>
-</tr>
-<tr class="even">
-<td>D2D1_BLEND_MODE_LIGHTER_COLOR</td>
-<td>Basic blend formula for alpha only. <img src="images/blend-mode-lightercolor-1.png" alt="Mathematical formula for a lighter color effect." /></td>
-</tr>
-<tr class="odd">
-<td>D2D1_BLEND_MODE_OVERLAY</td>
-<td>Basic blend formulas with <em>f</em>(F<sub>RGB</sub>, B<sub>RGB</sub>) = <img src="images/blend-mode-overlay-1.png" alt="Mathematical formula for an overlay effect." /></td>
-</tr>
-<tr class="even">
-<td>D2D1_BLEND_MODE_SOFT_LIGHT</td>
-<td>Basic blend formulas with <em>f</em>(F<sub>RGB</sub>, B<sub>RGB</sub>) = <img src="images/blend-mode-softlight-1.png" alt="Mathematical formula for a soft light effect." /></td>
-</tr>
-<tr class="odd">
-<td>D2D1_BLEND_MODE_HARD_LIGHT</td>
-<td>Basic blend formulas with <em>f</em>(F<sub>RGB</sub>, B<sub>RGB</sub>) = <img src="images/blend-mode-hardlight-1.png" alt="Mathematical formula for a hard light effect." /></td>
-</tr>
-<tr class="even">
-<td>D2D1_BLEND_MODE_VIVID_LIGHT</td>
-<td>Basic blend formulas with <em>f</em>(F<sub>RGB</sub>, B<sub>RGB</sub>) = <img src="images/blend-mode-vividlight-1.png" alt="Mathematical formula for a vivid light effect." /></td>
-</tr>
-<tr class="odd">
-<td>D2D1_BLEND_MODE_LINEAR_LIGHT</td>
-<td>Basic blend formulas with <em>f</em>(F<sub>RGB</sub>, B<sub>RGB</sub>) = <img src="images/blend-mode-linearlight-1.png" alt="Mathematical formula for a linear light effect." /></td>
-</tr>
-<tr class="even">
-<td>D2D1_BLEND_MODE_PIN_LIGHT</td>
-<td>Basic blend formulas with <em>f</em>(F<sub>RGB</sub>, B<sub>RGB</sub>) = <img src="images/blend-mode-pinlight-1.png" alt="Mathematical formula for a pin light effect." /></td>
-</tr>
-<tr class="odd">
-<td>D2D1_BLEND_MODE_HARD_MIX</td>
-<td>Basic blend formulas with <em>f</em>(F<sub>RGB</sub>, B<sub>RGB</sub>) = <img src="images/blend-mode-hardmix-1.png" alt="Mathematical formula for a hard mix effect." /></td>
-</tr>
-<tr class="even">
-<td>D2D1_BLEND_MODE_DIFFERENCE</td>
-<td>Basic blend formulas with <em>f</em>(F<sub>RGB</sub>, B<sub>RGB</sub>) = abs(F<sub>RGB</sub> - B<sub>RGB</sub>)</td>
-</tr>
-<tr class="odd">
-<td>D2D1_BLEND_MODE_EXCLUSION</td>
-<td>Basic blend formulas with <em>f</em>(F<sub>RGB</sub>, B<sub>RGB</sub>) = F<sub>RGB</sub> + B<sub>RGB</sub>   2 * F<sub>RGB</sub> * B<sub>RGB</sub></td>
-</tr>
-<tr class="even">
-<td>D2D1_BLEND_MODE_HUE</td>
-<td>Basic blend formula for alpha only. <img src="images/blend-mode-hue-1.png" alt="Mathematical formula for a hue blend effect." /></td>
-</tr>
-<tr class="odd">
-<td>D2D1_BLEND_MODE_SATURATION</td>
-<td>Basic blend formula for alpha only. <img src="images/blend-mode-saturation-1.png" alt="Mathematical formula for a sturation blend effect." /></td>
-</tr>
-<tr class="even">
-<td>D2D1_BLEND_MODE_COLOR</td>
-<td>Basic blend formula for alpha only. <img src="images/blend-mode-color-1.png" alt="Mathematical formula for a color blend effect." /></td>
-</tr>
-<tr class="odd">
-<td>D2D1_BLEND_MODE_LUMINOSITY</td>
-<td>Basic blend formula for alpha only. <img src="images/blend-mode-luminosity-1.png" alt="Mathematical formula for a luminosity blend effect." /></td>
-</tr>
-<tr class="even">
-<td>D2D1_BLEND_MODE_DISSOLVE</td>
-<td>Given:
-<ul>
-<li>A scene coordinate XY for the current pixel</li>
-<li>A deterministic pseudo-random number generator rand(XY) based on seed coordinate XY, with unbiased distribution of values from [0, 1]</li>
-</ul>
-<br/> <img src="images/blend-mode-dissolve-1.png" alt="Mathematical formula for a dissolve blend effect." /><br/></td>
-</tr>
-<tr class="odd">
-<td>D2D1_BLEND_MODE_SUBTRACT</td>
-<td>Basic blend formula for alpha only. <img src="images/blend-mode-subtract-1.png" alt="Mathematical formula for a subtract blend effect." /></td>
-</tr>
-<tr class="even">
-<td>D2D1_BLEND_MODE_DIVISION</td>
-<td>Basic blend formula for alpha only. <img src="images/blend-mode-division-1.png" alt="Mathematical formula for a division blend effect." /></td>
-</tr>
-</tbody>
-</table>
+
+| Enumeration | Equation | 
+|-------------|----------|
+| D2D1_BLEND_MODE_DARKEN | Basic blend formula for alpha only. <img src="images/blend-mode-darken-1.png" alt="mathematical formula for a darken effect." /> | 
+| D2D1_BLEND_MODE_MULTIPLY | Basic blend formula for alpha only. <img src="images/blend-mode-multiply-1.png" alt="Mathematical formula for a mutiply effect." /> | 
+| D2D1_BLEND_MODE_COLOR_BURN | Basic blend formulas with <em>f</em>(F<sub>RGB</sub>, B<sub>RGB</sub>) = <img src="images/blend-mode-colorburn-1.png" alt="Mathematical formula for a coor burn effect." /> | 
+| D2D1_BLEND_MODE_LINEAR_BURN | Basic blend formulas with <em>f</em>(F<sub>RGB</sub>, B<sub>RGB</sub>) = <img src="images/blend-mode-linearburn-1.png" alt="Mathematical formula for a linear burn effect." /> | 
+| D2D1_BLEND_MODE_DARKER_COLOR | Basic blend formula for alpha only. <img src="images/blend-mode-darkencolor-1.png" alt="Mathematical formla for a darken color effect." /> | 
+| D2D1_BLEND_MODE_LIGHTEN | Basic blend formula for alpha only. <img src="images/blend-mode-lighten-1.png" alt="Mathematical formula for a lighten effect." /> | 
+| D2D1_BLEND_MODE_SCREEN | Basic blend formula for alpha only. <img src="images/blend-mode-screen-1.png" alt="Mathematical formula for a screen effect." /> | 
+| D2D1_BLEND_MODE_COLOR_DODGE | Basic blend formulas with <em>f</em>(F<sub>RGB</sub>, B<sub>RGB</sub>) = <img src="images/blend-mode-colordodge-1.png" alt="Mathematical formula for a color dodge effect." /> | 
+| D2D1_BLEND_MODE_LINEAR_DODGE | Basic blend formulas with <em>f</em>(F<sub>RGB</sub>, B<sub>RGB</sub>) = <img src="images/blend-mode-lineardodge-1.png" alt="Mathematical formula for a linear dodge effect." /> | 
+| D2D1_BLEND_MODE_LIGHTER_COLOR | Basic blend formula for alpha only. <img src="images/blend-mode-lightercolor-1.png" alt="Mathematical formula for a lighter color effect." /> | 
+| D2D1_BLEND_MODE_OVERLAY | Basic blend formulas with <em>f</em>(F<sub>RGB</sub>, B<sub>RGB</sub>) = <img src="images/blend-mode-overlay-1.png" alt="Mathematical formula for an overlay effect." /> | 
+| D2D1_BLEND_MODE_SOFT_LIGHT | Basic blend formulas with <em>f</em>(F<sub>RGB</sub>, B<sub>RGB</sub>) = <img src="images/blend-mode-softlight-1.png" alt="Mathematical formula for a soft light effect." /> | 
+| D2D1_BLEND_MODE_HARD_LIGHT | Basic blend formulas with <em>f</em>(F<sub>RGB</sub>, B<sub>RGB</sub>) = <img src="images/blend-mode-hardlight-1.png" alt="Mathematical formula for a hard light effect." /> | 
+| D2D1_BLEND_MODE_VIVID_LIGHT | Basic blend formulas with <em>f</em>(F<sub>RGB</sub>, B<sub>RGB</sub>) = <img src="images/blend-mode-vividlight-1.png" alt="Mathematical formula for a vivid light effect." /> | 
+| D2D1_BLEND_MODE_LINEAR_LIGHT | Basic blend formulas with <em>f</em>(F<sub>RGB</sub>, B<sub>RGB</sub>) = <img src="images/blend-mode-linearlight-1.png" alt="Mathematical formula for a linear light effect." /> | 
+| D2D1_BLEND_MODE_PIN_LIGHT | Basic blend formulas with <em>f</em>(F<sub>RGB</sub>, B<sub>RGB</sub>) = <img src="images/blend-mode-pinlight-1.png" alt="Mathematical formula for a pin light effect." /> | 
+| D2D1_BLEND_MODE_HARD_MIX | Basic blend formulas with <em>f</em>(F<sub>RGB</sub>, B<sub>RGB</sub>) = <img src="images/blend-mode-hardmix-1.png" alt="Mathematical formula for a hard mix effect." /> | 
+| D2D1_BLEND_MODE_DIFFERENCE | Basic blend formulas with <em>f</em>(F<sub>RGB</sub>, B<sub>RGB</sub>) = abs(F<sub>RGB</sub> - B<sub>RGB</sub>) | 
+| D2D1_BLEND_MODE_EXCLUSION | Basic blend formulas with <em>f</em>(F<sub>RGB</sub>, B<sub>RGB</sub>) = F<sub>RGB</sub> + B<sub>RGB</sub>   2 * F<sub>RGB</sub> * B<sub>RGB</sub> | 
+| D2D1_BLEND_MODE_HUE | Basic blend formula for alpha only. <img src="images/blend-mode-hue-1.png" alt="Mathematical formula for a hue blend effect." /> | 
+| D2D1_BLEND_MODE_SATURATION | Basic blend formula for alpha only. <img src="images/blend-mode-saturation-1.png" alt="Mathematical formula for a sturation blend effect." /> | 
+| D2D1_BLEND_MODE_COLOR | Basic blend formula for alpha only. <img src="images/blend-mode-color-1.png" alt="Mathematical formula for a color blend effect." /> | 
+| D2D1_BLEND_MODE_LUMINOSITY | Basic blend formula for alpha only. <img src="images/blend-mode-luminosity-1.png" alt="Mathematical formula for a luminosity blend effect." /> | 
+| D2D1_BLEND_MODE_DISSOLVE | Given:<ul><li>A scene coordinate XY for the current pixel</li><li>A deterministic pseudo-random number generator rand(XY) based on seed coordinate XY, with unbiased distribution of values from [0, 1]</li></ul><br /><img src="images/blend-mode-dissolve-1.png" alt="Mathematical formula for a dissolve blend effect." /><br /> | 
+| D2D1_BLEND_MODE_SUBTRACT | Basic blend formula for alpha only. <img src="images/blend-mode-subtract-1.png" alt="Mathematical formula for a subtract blend effect." /> | 
+| D2D1_BLEND_MODE_DIVISION | Basic blend formula for alpha only. <img src="images/blend-mode-division-1.png" alt="Mathematical formula for a division blend effect." /> | 
+
 
 
 

@@ -14,121 +14,18 @@ The audited events are as follows.
 
 
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Auditing category</th>
-<th>Auditing subcategory</th>
-<th>Audited events</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Policy Change<br/> {6997984D-797A-11D9-BED3-505054503030}<br/></td>
-<td>Filtering Platform Policy Change<br/> {0CCE9233-69AE-11D9-BED3-505054503030}<br/></td>
-<td><blockquote>
-[!Note]<br />
-The numbers represent the Event IDs as displayed by Event Viewer (eventvwr.exe).
-</blockquote>
-<br/> WFP object addition and removal:<br/>
-<ul>
-<li>5440 Persistent callout added</li>
-<li>5441 Boot-time or persistent filter added</li>
-<li>5442 Persistent provider added</li>
-<li>5443 Persistent provider context added</li>
-<li>5444 Persistent sub-layer added</li>
-<li>5446 Run-time callout added or removed</li>
-<li>5447 Run-time filter added or removed</li>
-<li>5448 Run-time provider added or removed</li>
-<li>5449 Run-time provider context added or removed</li>
-<li>5450 Run-time sub-layer added or removed</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>Object Access<br/> {6997984A-797A-11D9-BED3-505054503030}<br/></td>
-<td>Filtering Platform Packet Drop <br/> {0CCE9225-69AE-11D9-BED3-505054503030}<br/></td>
-<td>Packets dropped by WFP:<br/>
-<ul>
-<li>5152 Packet dropped</li>
-<li>5153 Packet vetoed</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>Object Access<br/></td>
-<td>Filtering Platform Connection <br/> {0CCE9226-69AE-11D9-BED3-505054503030}<br/></td>
-<td>Allowed and blocked connections:<br/>
-<ul>
-<li>5154 Listen permitted</li>
-<li>5155 Listen blocked</li>
-<li>5156 Connection permitted</li>
-<li>5157 Connection blocked</li>
-<li>5158 Bind permitted</li>
-<li>5159 Bind blocked</li>
-</ul>
-<blockquote>
-[!Note]<br />
-Permitted connections do not always audit the ID of the associated filter. The FilterID for TCP will be 0 unless a subset of these filtering conditions are used: UserID, AppID, Protocol, Remote Port.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td>Object Access<br/></td>
-<td>Other Object Access Events<br/> {0CCE9227-69AE-11D9-BED3-505054503030}<br/></td>
-<td><blockquote>
-[!Note]<br />
-This subcategory enables many audits. WFP specific audits are listed below.
-</blockquote>
-<br/> Denial of Service prevention status:<br/>
-<ul>
-<li>5148 WFP DoS prevention mode started</li>
-<li>5149 WFP DoS prevention mode stopped</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>Logon/Logoff<br/> {69979849-797A-11D9-BED3-505054503030}<br/></td>
-<td>IPsec Main Mode<br/> {0CCE9218-69AE-11D9-BED3-505054503030}<br/></td>
-<td>IKE and AuthIP Main Mode negotiation:<br/>
-<ul>
-<li>4650, 4651 Security association established</li>
-<li>4652, 4653 Negotiation failed</li>
-<li>4655 Security association ended</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>Logon/Logoff<br/></td>
-<td>IPsec Quick Mode <br/> {0CCE9219-69AE-11D9-BED3-505054503030}<br/></td>
-<td>IKE and AuthIP Quick Mode negotiation:<br/>
-<ul>
-<li>5451 Security association established</li>
-<li>5452 Security association ended</li>
-<li>4654 Negotiation failed</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>Logon/Logoff <br/></td>
-<td>IPsec Extended Mode<br/> {0CCE921A-69AE-11D9-BED3-505054503030}<br/></td>
-<td>AuthIP Extended Mode negotiation:<br/>
-<ul>
-<li>4978 Invalid negotiation packet</li>
-<li>4979, 4980, 4981, 4982 Security association established</li>
-<li>4983, 4984 Negotiation failed</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>System<br/> {69979848-797A-11D9-BED3-505054503030}<br/></td>
-<td>IPsec Driver<br/> {0CCE9213-69AE-11D9-BED3-505054503030}<br/></td>
-<td>Packets dropped by the IPsec driver:<br/>
-<ul>
-<li>4963 Inbound clear text packet dropped</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| Auditing category | Auditing subcategory | Audited events | 
+|-------------------|----------------------|----------------|
+| Policy Change<br /> {6997984D-797A-11D9-BED3-505054503030}<br /> | Filtering Platform Policy Change<br /> {0CCE9233-69AE-11D9-BED3-505054503030}<br /> | <blockquote>[!Note]<br />The numbers represent the Event IDs as displayed by Event Viewer (eventvwr.exe).</blockquote><br /> WFP object addition and removal:<br /><ul><li>5440 Persistent callout added</li><li>5441 Boot-time or persistent filter added</li><li>5442 Persistent provider added</li><li>5443 Persistent provider context added</li><li>5444 Persistent sub-layer added</li><li>5446 Run-time callout added or removed</li><li>5447 Run-time filter added or removed</li><li>5448 Run-time provider added or removed</li><li>5449 Run-time provider context added or removed</li><li>5450 Run-time sub-layer added or removed</li></ul> | 
+| Object Access<br /> {6997984A-797A-11D9-BED3-505054503030}<br /> | Filtering Platform Packet Drop <br /> {0CCE9225-69AE-11D9-BED3-505054503030}<br /> | Packets dropped by WFP:<br /><ul><li>5152 Packet dropped</li><li>5153 Packet vetoed</li></ul> | 
+| Object Access<br /> | Filtering Platform Connection <br /> {0CCE9226-69AE-11D9-BED3-505054503030}<br /> | Allowed and blocked connections:<br /><ul><li>5154 Listen permitted</li><li>5155 Listen blocked</li><li>5156 Connection permitted</li><li>5157 Connection blocked</li><li>5158 Bind permitted</li><li>5159 Bind blocked</li></ul><blockquote>[!Note]<br />Permitted connections do not always audit the ID of the associated filter. The FilterID for TCP will be 0 unless a subset of these filtering conditions are used: UserID, AppID, Protocol, Remote Port.</blockquote><br /> | 
+| Object Access<br /> | Other Object Access Events<br /> {0CCE9227-69AE-11D9-BED3-505054503030}<br /> | <blockquote>[!Note]<br />This subcategory enables many audits. WFP specific audits are listed below.</blockquote><br /> Denial of Service prevention status:<br /><ul><li>5148 WFP DoS prevention mode started</li><li>5149 WFP DoS prevention mode stopped</li></ul> | 
+| Logon/Logoff<br /> {69979849-797A-11D9-BED3-505054503030}<br /> | IPsec Main Mode<br /> {0CCE9218-69AE-11D9-BED3-505054503030}<br /> | IKE and AuthIP Main Mode negotiation:<br /><ul><li>4650, 4651 Security association established</li><li>4652, 4653 Negotiation failed</li><li>4655 Security association ended</li></ul> | 
+| Logon/Logoff<br /> | IPsec Quick Mode <br /> {0CCE9219-69AE-11D9-BED3-505054503030}<br /> | IKE and AuthIP Quick Mode negotiation:<br /><ul><li>5451 Security association established</li><li>5452 Security association ended</li><li>4654 Negotiation failed</li></ul> | 
+| Logon/Logoff <br /> | IPsec Extended Mode<br /> {0CCE921A-69AE-11D9-BED3-505054503030}<br /> | AuthIP Extended Mode negotiation:<br /><ul><li>4978 Invalid negotiation packet</li><li>4979, 4980, 4981, 4982 Security association established</li><li>4983, 4984 Negotiation failed</li></ul> | 
+| System<br /> {69979848-797A-11D9-BED3-505054503030}<br /> | IPsec Driver<br /> {0CCE9213-69AE-11D9-BED3-505054503030}<br /> | Packets dropped by the IPsec driver:<br /><ul><li>4963 Inbound clear text packet dropped</li></ul> | 
+
 
 
 

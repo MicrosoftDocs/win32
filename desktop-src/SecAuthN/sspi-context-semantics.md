@@ -16,37 +16,13 @@ The SSPI model supports three types of security contexts.
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Type</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="connection-oriented-contexts.md">Connection</a></td>
-<td>A connection-oriented <a href="/windows/desktop/SecGloss/c-gly"><em>context</em></a> is the most common security context, and the simplest to use. The caller is responsible for the overall message format and for the location of the data in the message. The caller is also responsible for the location of the security-relevant fields within a message, such as the location of the signature data.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="datagram-contexts.md">Datagram</a></td>
-<td>A <a href="/windows/desktop/SecGloss/d-gly"><em>datagram</em></a>-oriented context has extra support for DCE-style datagram communication. It can also be used generically for a datagram-oriented transport application.<br/>
-<blockquote>
-<p>[!Important]</p>
-<p>The <a href="microsoft-kerberos.md">Microsoft Kerberos</a> package does not support datagram contexts in user-to-user mode.<br/></p>
-</blockquote>
-<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="stream-contexts.md">Stream</a></td>
-<td>A stream-oriented context is responsible for the blocking and message formatting within the security package. The caller is not interested in formatting, but rather a raw stream of data.<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Type | Description | 
+|------|-------------|
+| <a href="connection-oriented-contexts.md">Connection</a> | A connection-oriented <a href="/windows/desktop/SecGloss/c-gly"><em>context</em></a> is the most common security context, and the simplest to use. The caller is responsible for the overall message format and for the location of the data in the message. The caller is also responsible for the location of the security-relevant fields within a message, such as the location of the signature data.<br /> | 
+| <a href="datagram-contexts.md">Datagram</a> | A <a href="/windows/desktop/SecGloss/d-gly"><em>datagram</em></a>-oriented context has extra support for DCE-style datagram communication. It can also be used generically for a datagram-oriented transport application.<br /><blockquote><p>[!Important]</p><p>The <a href="microsoft-kerberos.md">Microsoft Kerberos</a> package does not support datagram contexts in user-to-user mode.<br /></p></blockquote><br /> | 
+| <a href="stream-contexts.md">Stream</a> | A stream-oriented context is responsible for the blocking and message formatting within the security package. The caller is not interested in formatting, but rather a raw stream of data.<br /> | 
+
 
 
 

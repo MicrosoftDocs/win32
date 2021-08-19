@@ -47,60 +47,25 @@ The context handle can be explicitly disassociated from the **JET_LS** data type
 
 The following flags are associated with the JET_LS data type.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Term</p></th>
-<th><p>Description</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_bitLSReset</p></td>
-<td><p>The context handle is disassociated from the object.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_bitLSCursor</p></td>
-<td><p>Set or retrieve the local storage associated with a table cursor.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_bitLSTable</p></td>
-<td><p>Set or retrieve the local storage associated with a table.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_LSNil</p></td>
-<td><p>The context handle is invalid.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Term</p> | <p>Description</p> | 
+|-------------|--------------------|
+| <p>JET_bitLSReset</p> | <p>The context handle is disassociated from the object.</p> | 
+| <p>JET_bitLSCursor</p> | <p>Set or retrieve the local storage associated with a table cursor.</p> | 
+| <p>JET_bitLSTable</p> | <p>Set or retrieve the local storage associated with a table.</p> | 
+| <p>JET_LSNil</p> | <p>The context handle is invalid.</p> | 
+
 
 
 ### Requirements
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Client</strong></p></td>
-<td><p>Requires Windows Vista or Windows XP.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Server</strong></p></td>
-<td><p>Requires Windows Server 2008 or Windows Server 2003.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>Header</strong></p></td>
-<td><p>Declared in Esent.h.</p></td>
-</tr>
-</tbody>
-</table>
+
+| 
+|
+| <p><strong>Client</strong></p> | <p>Requires Windows Vista or Windows XP.</p> | 
+| <p><strong>Server</strong></p> | <p>Requires Windows Server 2008 or Windows Server 2003.</p> | 
+| <p><strong>Header</strong></p> | <p>Declared in Esent.h.</p> | 
+
 
 
 ### See Also

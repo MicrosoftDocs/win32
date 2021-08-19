@@ -37,71 +37,17 @@ The Code Entries field is an array of structures. The following table shows the 
 
 
 
-<table>
-<colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Codec List Object field</th>
-<th>Data type</th>
-<th>Size</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Type</td>
-<td><strong>DWORD</strong></td>
-<td>4 bytes</td>
-<td>Codec type. This can be one of the following values:<br/>
-<ul>
-<li>0x0001: Audio codec</li>
-<li>0x0002: Video codec</li>
-<li>0xFFFF: Unknown</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>Codec Name Length</td>
-<td><strong>DWORD</strong></td>
-<td>4 bytes</td>
-<td>Size of the Codec Name string, in bytes, including the <strong>NULL</strong> character.</td>
-</tr>
-<tr class="odd">
-<td>Codec Name</td>
-<td><strong>WCHAR</strong>[]</td>
-<td>Varies</td>
-<td>Null-terminated Unicode string that contains the name of the codec, such as &quot;Windows Media Video 9&quot;.</td>
-</tr>
-<tr class="even">
-<td>Codec Description Length</td>
-<td><strong>DWORD</strong></td>
-<td>4 bytes</td>
-<td>Size of the Codec Description string, in bytes, including the <strong>NULL</strong> character.</td>
-</tr>
-<tr class="odd">
-<td>Codec Description</td>
-<td><strong>WCHAR</strong>[]</td>
-<td>Varies</td>
-<td>A null-terminated Unicode string that contains a description of the codec.</td>
-</tr>
-<tr class="even">
-<td>Codec Information Length</td>
-<td><strong>DWORD</strong></td>
-<td>4 bytes</td>
-<td>Size of the Codec Information field, in bytes.</td>
-</tr>
-<tr class="odd">
-<td>Codec Information</td>
-<td><strong>BYTE</strong>[]</td>
-<td>Varies</td>
-<td>Codec data. The meaning of this data depends on the codec. Typically, this data indicates the format.</td>
-</tr>
-</tbody>
-</table>
+
+| Codec List Object field | Data type | Size | Description | 
+|-------------------------|-----------|------|-------------|
+| Type | <strong>DWORD</strong> | 4 bytes | Codec type. This can be one of the following values:<br /><ul><li>0x0001: Audio codec</li><li>0x0002: Video codec</li><li>0xFFFF: Unknown</li></ul> | 
+| Codec Name Length | <strong>DWORD</strong> | 4 bytes | Size of the Codec Name string, in bytes, including the <strong>NULL</strong> character. | 
+| Codec Name | <strong>WCHAR</strong>[] | Varies | Null-terminated Unicode string that contains the name of the codec, such as "Windows Media Video 9". | 
+| Codec Description Length | <strong>DWORD</strong> | 4 bytes | Size of the Codec Description string, in bytes, including the <strong>NULL</strong> character. | 
+| Codec Description | <strong>WCHAR</strong>[] | Varies | A null-terminated Unicode string that contains a description of the codec. | 
+| Codec Information Length | <strong>DWORD</strong> | 4 bytes | Size of the Codec Information field, in bytes. | 
+| Codec Information | <strong>BYTE</strong>[] | Varies | Codec data. The meaning of this data depends on the codec. Typically, this data indicates the format. | 
+
 
 
 

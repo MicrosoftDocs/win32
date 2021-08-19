@@ -67,67 +67,21 @@ Pointer to the output buffer that receives the actual amount of string data.
 
 This function returns the [JET_ERR](./jet-err.md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](./extensible-storage-engine-errors.md) and [Error Handling Parameters](./error-handling-parameters.md).
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Return code</p></th>
-<th><p>Description</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_errSuccess</p></td>
-<td><p>The operation completed successfully.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errInvalidParameter</p></td>
-<td><p>One of the provided parameters contained an unexpected value or the combination of several parameter values resulted in an unexpected result.</p>
-<p><strong>Windows XP and later:</strong>  This can happen for <strong>JetGetTruncateLogInfoInstance</strong> when the specified instance handle is invalid.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errNotInitialized</p></td>
-<td><p>The operation cannot complete because the instance that is associated with the session has not been initialized yet.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errClientRequestToStopJetService</p></td>
-<td><p>The operation cannot complete because all activity on the instance that is associated with the session has ceased as a result of a call to <a href="gg269240(v=exchg.10).md">JetStopService</a>.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errInstanceUnavailable</p></td>
-<td><p>The operation cannot complete because the instance that is associated with the session encountered a fatal error that requires that access to all data be revoked to protect the integrity of that data.</p>
-<p><strong>Windows XP:</strong>  This return value was introduced in Windows XP.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errBackupAbortByServer</p></td>
-<td><p>The operation failed because the current external backup has been aborted by a call to <a href="gg294067(v=exchg.10).md">JetStopBackup</a>.</p>
-<p><strong>Windows XP:</strong>  This return value was introduced in Windows XP.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errInvalidBackupSequence</p></td>
-<td><p>The backup operation failed because it was called out of sequence.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errNoBackup</p></td>
-<td><p>The operation failed because no external backup is in progress.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errRestoreInProgress</p></td>
-<td><p>The operation cannot complete because a restore operation is in progress on the instance that is associated with the session.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errTermInProgress</p></td>
-<td><p>The operation cannot complete because the instance that is associated with the session is being shut down.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>JetGetTruncateLogInfoInstance</strong></p></td>
-<td><p>There are outstanding file handles that were created using <a href="gg269249(v=exchg.10).md">JetOpenFile</a> for the instance.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Return code</p> | <p>Description</p> | 
+|--------------------|--------------------|
+| <p>JET_errSuccess</p> | <p>The operation completed successfully.</p> | 
+| <p>JET_errInvalidParameter</p> | <p>One of the provided parameters contained an unexpected value or the combination of several parameter values resulted in an unexpected result.</p><p><strong>Windows XP and later:</strong>  This can happen for <strong>JetGetTruncateLogInfoInstance</strong> when the specified instance handle is invalid.</p> | 
+| <p>JET_errNotInitialized</p> | <p>The operation cannot complete because the instance that is associated with the session has not been initialized yet.</p> | 
+| <p>JET_errClientRequestToStopJetService</p> | <p>The operation cannot complete because all activity on the instance that is associated with the session has ceased as a result of a call to <a href="gg269240(v=exchg.10).md">JetStopService</a>.</p> | 
+| <p>JET_errInstanceUnavailable</p> | <p>The operation cannot complete because the instance that is associated with the session encountered a fatal error that requires that access to all data be revoked to protect the integrity of that data.</p><p><strong>Windows XP:</strong>  This return value was introduced in Windows XP.</p> | 
+| <p>JET_errBackupAbortByServer</p> | <p>The operation failed because the current external backup has been aborted by a call to <a href="gg294067(v=exchg.10).md">JetStopBackup</a>.</p><p><strong>Windows XP:</strong>  This return value was introduced in Windows XP.</p> | 
+| <p>JET_errInvalidBackupSequence</p> | <p>The backup operation failed because it was called out of sequence.</p> | 
+| <p>JET_errNoBackup</p> | <p>The operation failed because no external backup is in progress.</p> | 
+| <p>JET_errRestoreInProgress</p> | <p>The operation cannot complete because a restore operation is in progress on the instance that is associated with the session.</p> | 
+| <p>JET_errTermInProgress</p> | <p>The operation cannot complete because the instance that is associated with the session is being shut down.</p> | 
+| <p><strong>JetGetTruncateLogInfoInstance</strong></p> | <p>There are outstanding file handles that were created using <a href="gg269249(v=exchg.10).md">JetOpenFile</a> for the instance.</p> | 
+
 
 
 If this function succeeds, the requested information about the set of transaction log files that can be safely deleted after the backup has been completed successfully will be placed in the output buffers where they are provided. The backup state machine will be advanced such that the backup of database files is no longer allowed. Only database patch files and transaction log files can be opened for backup beyond this point.
@@ -140,38 +94,16 @@ This API does not return an error or warning if the output buffer is too small t
 
 #### Requirements
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Client</strong></p></td>
-<td><p>Requires Windows Vista or Windows XP.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Server</strong></p></td>
-<td><p>Requires Windows Server 2008 or Windows Server 2003.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>Header</strong></p></td>
-<td><p>Declared in Esent.h.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Library</strong></p></td>
-<td><p>Use ESENT.lib.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>DLL</strong></p></td>
-<td><p>Requires ESENT.dll.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Unicode</strong></p></td>
-<td><p>Implemented as <strong>JetGetTruncateLogInfoInstanceW</strong> (Unicode) and <strong>JetGetTruncateLogInfoInstanceA</strong> (ANSI).</p></td>
-</tr>
-</tbody>
-</table>
+
+| 
+|
+| <p><strong>Client</strong></p> | <p>Requires Windows Vista or Windows XP.</p> | 
+| <p><strong>Server</strong></p> | <p>Requires Windows Server 2008 or Windows Server 2003.</p> | 
+| <p><strong>Header</strong></p> | <p>Declared in Esent.h.</p> | 
+| <p><strong>Library</strong></p> | <p>Use ESENT.lib.</p> | 
+| <p><strong>DLL</strong></p> | <p>Requires ESENT.dll.</p> | 
+| <p><strong>Unicode</strong></p> | <p>Implemented as <strong>JetGetTruncateLogInfoInstanceW</strong> (Unicode) and <strong>JetGetTruncateLogInfoInstanceA</strong> (ANSI).</p> | 
+
 
 
 #### See Also

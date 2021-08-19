@@ -58,106 +58,18 @@ Each of the function keys F1 through F8 switches to a mode in which the arrow ke
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Key</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>F1</td>
-<td>Adjust the alpha values.<br/>
-<ul>
-<li>UP: Increase the planar alpha of both streams.</li>
-<li>DOWN: Decrease the planar alpha of both streams.</li>
-<li>RIGHT: Increase the pixel alpha of the substream.</li>
-<li>LEFT: Decrease the pixel alpha of the substream.</li>
-</ul>
-Substream color: White<br/></td>
-</tr>
-<tr class="even">
-<td>F2</td>
-<td>Adjust the primary stream's source area (zoom).<br/>
-<ul>
-<li>UP: Increase vertically (zoom in).</li>
-<li>DOWN: Decrease vertically (zoom out).</li>
-<li>RIGHT: Increase horizontally (zoom in).</li>
-<li>LEFT: Decrease horizontally (zoom out).</li>
-</ul>
-Substream color: Red<br/></td>
-</tr>
-<tr class="odd">
-<td>F3</td>
-<td>Move the primary stream's source area.<br/>
-<ul>
-<li>UP: Move up.</li>
-<li>DOWN: Move down.</li>
-<li>RIGHT: Move right.</li>
-<li>LEFT: Move left.</li>
-</ul>
-Substream color: Yellow<br/></td>
-</tr>
-<tr class="even">
-<td>F4</td>
-<td>Adjust the primary stream's destination area.<br/>
-<ul>
-<li>UP: Increase vertically.</li>
-<li>DOWN: Decrease vertically.</li>
-<li>RIGHT: Increase horizontally.</li>
-<li>LEFT: Decrease horizontally.</li>
-</ul>
-Substream color: Green<br/></td>
-</tr>
-<tr class="odd">
-<td>F5</td>
-<td>Move the primary stream's destination area.<br/>
-<ul>
-<li>UP: Move up.</li>
-<li>DOWN: Move down.</li>
-<li>RIGHT: Move right.</li>
-<li>LEFT: Move left.</li>
-</ul>
-Substream color: Cyan<br/></td>
-</tr>
-<tr class="even">
-<td>F6</td>
-<td>Change background color or color space.<br/>
-<ul>
-<li>UP, DOWN: Cycle through color spaces.</li>
-<li>RIGHT, LEFT: Cycle through background colors.</li>
-</ul>
-Substream color: Blue<br/></td>
-</tr>
-<tr class="odd">
-<td>F7</td>
-<td>Adjust brightness and contrast.<br/>
-<ul>
-<li>UP: Increase brightness.</li>
-<li>DOWN: Decrease brightness.</li>
-<li>RIGHT: Increase contrast.</li>
-<li>LEFT: Decrease contrast.</li>
-</ul>
-Substream color: Magenta<br/></td>
-</tr>
-<tr class="even">
-<td>F8</td>
-<td>Adjust hue and saturation.<br/>
-<ul>
-<li>UP: Increase hue.</li>
-<li>DOWN: Decrease hue.</li>
-<li>RIGHT: Increase saturation.</li>
-<li>LEFT: Decrease saturation.</li>
-</ul>
-Substream color: Black<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Key | Description | 
+|-----|-------------|
+| F1 | Adjust the alpha values.<br /><ul><li>UP: Increase the planar alpha of both streams.</li><li>DOWN: Decrease the planar alpha of both streams.</li><li>RIGHT: Increase the pixel alpha of the substream.</li><li>LEFT: Decrease the pixel alpha of the substream.</li></ul>Substream color: White<br /> | 
+| F2 | Adjust the primary stream's source area (zoom).<br /><ul><li>UP: Increase vertically (zoom in).</li><li>DOWN: Decrease vertically (zoom out).</li><li>RIGHT: Increase horizontally (zoom in).</li><li>LEFT: Decrease horizontally (zoom out).</li></ul>Substream color: Red<br /> | 
+| F3 | Move the primary stream's source area.<br /><ul><li>UP: Move up.</li><li>DOWN: Move down.</li><li>RIGHT: Move right.</li><li>LEFT: Move left.</li></ul>Substream color: Yellow<br /> | 
+| F4 | Adjust the primary stream's destination area.<br /><ul><li>UP: Increase vertically.</li><li>DOWN: Decrease vertically.</li><li>RIGHT: Increase horizontally.</li><li>LEFT: Decrease horizontally.</li></ul>Substream color: Green<br /> | 
+| F5 | Move the primary stream's destination area.<br /><ul><li>UP: Move up.</li><li>DOWN: Move down.</li><li>RIGHT: Move right.</li><li>LEFT: Move left.</li></ul>Substream color: Cyan<br /> | 
+| F6 | Change background color or color space.<br /><ul><li>UP, DOWN: Cycle through color spaces.</li><li>RIGHT, LEFT: Cycle through background colors.</li></ul>Substream color: Blue<br /> | 
+| F7 | Adjust brightness and contrast.<br /><ul><li>UP: Increase brightness.</li><li>DOWN: Decrease brightness.</li><li>RIGHT: Increase contrast.</li><li>LEFT: Decrease contrast.</li></ul>Substream color: Magenta<br /> | 
+| F8 | Adjust hue and saturation.<br /><ul><li>UP: Increase hue.</li><li>DOWN: Decrease hue.</li><li>RIGHT: Increase saturation.</li><li>LEFT: Decrease saturation.</li></ul>Substream color: Black<br /> | 
+
 
 
 

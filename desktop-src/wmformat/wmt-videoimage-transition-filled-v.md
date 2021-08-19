@@ -26,52 +26,14 @@ The following table describes the parameters used by this transition and lists t
 
 
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Parameter</th>
-<th>Structure member</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Width</td>
-<td><strong>fEffectPara0</strong></td>
-<td>Width of the filled V in pixels.</td>
-</tr>
-<tr class="even">
-<td>Height</td>
-<td><strong>fEffectPara1</strong></td>
-<td>Height of the filled V in pixels.</td>
-</tr>
-<tr class="odd">
-<td>Direction</td>
-<td><strong>fEffectPara2</strong></td>
-<td>Direction from which the filled V originates.Set to one of the following values:<br/>
-<ul>
-<li>0 - Enters from the left side of the frame.</li>
-<li>1 - Enters from the right side of the frame.</li>
-<li>2 - Enters from the bottom of the frame.</li>
-<li>3 - Enters from the top of the frame.</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>Composition</td>
-<td><strong>fEffectPara3</strong></td>
-<td>Set to one of the following values:
-<ul>
-<li>0 - Specifies normal composition, in which the previous image is the background, and the current image is the foreground.</li>
-<li>1 - Specifies reversed composition, in which the current image is the background image, and the previous image is the foreground</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| Parameter | Structure member | Description | 
+|-----------|------------------|-------------|
+| Width | <strong>fEffectPara0</strong> | Width of the filled V in pixels. | 
+| Height | <strong>fEffectPara1</strong> | Height of the filled V in pixels. | 
+| Direction | <strong>fEffectPara2</strong> | Direction from which the filled V originates.Set to one of the following values:<br /><ul><li>0 - Enters from the left side of the frame.</li><li>1 - Enters from the right side of the frame.</li><li>2 - Enters from the bottom of the frame.</li><li>3 - Enters from the top of the frame.</li></ul> | 
+| Composition | <strong>fEffectPara3</strong> | Set to one of the following values:<ul><li>0 - Specifies normal composition, in which the previous image is the background, and the current image is the foreground.</li><li>1 - Specifies reversed composition, in which the current image is the background image, and the previous image is the foreground</li></ul> | 
+
 
 
 

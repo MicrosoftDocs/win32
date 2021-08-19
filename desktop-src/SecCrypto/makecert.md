@@ -35,122 +35,34 @@ Options given in the following tables can be used only with Internet Explorer 4.
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Basic option</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>-a</strong> <strong></strong> <em>Algorithm</em></td>
-<td><a href="/windows/desktop/SecGloss/h-gly"><em>Hash</em></a> algorithm. Must be set to either <strong>SHA-1</strong> or <strong>MD5</strong> (default). For information about MD5, see <a href="/windows/desktop/SecGloss/m-gly"><em>MD5</em></a>.</td>
-</tr>
-<tr class="even">
-<td><strong>-b</strong> <strong></strong> <em>DateStart</em></td>
-<td>Date the certificate first becomes valid. The default is when the certificate is created. The format of <em>DateStart</em> is mm/dd/yyyy.</td>
-</tr>
-<tr class="odd">
-<td><strong>-cy</strong> <strong></strong> <em>CertificateTypes</em></td>
-<td>Certificate type. <em>CertificateTypes</em> can be <strong>end</strong> for end-entity, or <strong>authority</strong> for <a href="/windows/desktop/SecGloss/c-gly"><em>certification authority</em></a>.</td>
-</tr>
-<tr class="even">
-<td><strong>-e</strong> <strong></strong> <em>DateEnd</em></td>
-<td>Date when the validity period ends. The default is the year 2039.</td>
-</tr>
-<tr class="odd">
-<td><strong>-eku</strong> <strong></strong> <em>OID1</em><strong>,</strong> <em>OID2</em> …</td>
-<td>Inserts a list of one or more comma-separated, <a href="/windows/desktop/SecGloss/e-gly"><em>enhanced key usage</em></a> <a href="/windows/desktop/SecGloss/o-gly"><em>object identifiers</em></a> (OIDs) into the certificate. For example, <strong>-eku 1.3.6.1.5.5.7.3.2</strong> inserts the client authentication OID. For definitions of allowable OIDs, see the Wincrypt.h file in CryptoAPI 2.0.</td>
-</tr>
-<tr class="even">
-<td><strong>-h</strong> <strong></strong> <em>NumChildren</em></td>
-<td>Maximum height of the tree below this certificate.</td>
-</tr>
-<tr class="odd">
-<td><strong>-l</strong> <strong></strong> <em>PolicyLink</em></td>
-<td>Link to SPC agency policy information (for example, a URL).</td>
-</tr>
-<tr class="even">
-<td><strong>-m</strong> <strong></strong> <em>nMonths</em></td>
-<td>Duration of the validity period.</td>
-</tr>
-<tr class="odd">
-<td><strong>-n</strong> <strong>&quot;</strong><em>Name</em><strong>&quot;</strong></td>
-<td>Name for the publisher's certificate. This name must conform to the <a href="/windows/desktop/SecGloss/x-gly"><em>X.500</em></a> standard. The simplest method is to use the &quot;CN=<em>MyName</em>&quot; format. For example: <strong>-n &quot;CN=Test&quot;</strong>.</td>
-</tr>
-<tr class="even">
-<td><strong>-nscp</strong></td>
-<td>The Netscape client authentication extension should be included.</td>
-</tr>
-<tr class="odd">
-<td><strong>-pe</strong></td>
-<td>Marks the private key as exportable.</td>
-</tr>
-<tr class="even">
-<td><strong>-r</strong></td>
-<td>Creates a self-signed certificate.</td>
-</tr>
-<tr class="odd">
-<td><strong>-sc</strong> <strong></strong> <em>SubjectCertFile</em></td>
-<td>Certificate file name with the existing subject public key to be used.</td>
-</tr>
-<tr class="even">
-<td><strong>-sk</strong> <strong></strong> <em>SubjectKey</em></td>
-<td>Location of the subject's key container which holds the <a href="/windows/desktop/SecGloss/p-gly"><em>private key</em></a>. If a key container does not exist, one is created. If neither the <strong>-sk</strong> or <strong>-sv</strong> option is used, a default key container is created and used by default.</td>
-</tr>
-<tr class="odd">
-<td><strong>-sky</strong> <strong></strong> <em>SubjectKeySpec</em></td>
-<td>Subject's key specification. <em>SubjectKeySpec</em> must be one of three possible values:<br/>
-<ul>
-<li><strong>Signature</strong> (AT_SIGNATURE key specification)</li>
-<li><strong>Exchange</strong> (AT_KEYEXCHANGE key specification)</li>
-<li>An integer, such as <strong>3</strong></li>
-</ul>
-For more information, see the Note that follows this table.<br/></td>
-</tr>
-<tr class="even">
-<td><strong>-sp</strong> <strong></strong> <em>SubjectProviderName</em></td>
-<td>CryptoAPI provider for subject. The default is the user's provider. For information about CryptoAPI providers, see the CryptoAPI 2.0 documentation.</td>
-</tr>
-<tr class="odd">
-<td><strong>-sr</strong> <strong></strong> <em>SubjectCertStoreLocation</em></td>
-<td>Registry location of the subject's certificate store. <em>SubjectCertStoreLocation</em> must be either <strong>LocalMachine</strong> (registry key HKEY_LOCAL_MACHINE) or <strong>CurrentUser</strong> (registry key HKEY_CURRENT_USER). <strong>CurrentUser</strong> is the default.</td>
-</tr>
-<tr class="even">
-<td><strong>-ss</strong> <strong></strong> <em>SubjectCertStoreName</em></td>
-<td>Name of the subject's certificate store where the generated certificate will be stored.</td>
-</tr>
-<tr class="odd">
-<td><strong>-sv</strong> <strong></strong> <em>SubjectKeyFile</em></td>
-<td>Name of the subject's .pvk file. If neither the <strong>-sk</strong> or <strong>-sv</strong> option is used, a default key container is created and used by default.</td>
-</tr>
-<tr class="even">
-<td><strong>-sy</strong> <strong></strong> <em>nSubjectProviderType</em></td>
-<td>CryptoAPI provider type for subject. The default is <a href="/windows/desktop/SecGloss/p-gly"><em>PROV_RSA_FULL</em></a>. For information about CryptoAPI provider types, see the CryptoAPI 2.0 documentation.</td>
-</tr>
-<tr class="odd">
-<td><strong>-#</strong> <strong></strong> <em>SerialNumber</em></td>
-<td>Serial number of the certificate. The maximum value is 2^31. The default is a value generated by the tool that is guaranteed to be unique.</td>
-</tr>
-<tr class="even">
-<td><strong>-$</strong> <strong></strong> <em>CertificateAuthority</em></td>
-<td>Type of <a href="/windows/desktop/SecGloss/c-gly"><em>certification authority</em></a>. <em>CertificateAuthority</em> must be set to either <strong>commercial</strong> (for certificates to be used by commercial software publishers) or <strong>individual</strong> (for certificates to be used by individual software publishers).</td>
-</tr>
-<tr class="odd">
-<td><strong>-?</strong></td>
-<td>Displays the basic options.</td>
-</tr>
-<tr class="even">
-<td><strong>-!</strong></td>
-<td>Displays the extended options.</td>
-</tr>
-</tbody>
-</table>
+
+| Basic option | Description | 
+|--------------|-------------|
+| <strong>-a</strong><strong></strong><em>Algorithm</em> | <a href="/windows/desktop/SecGloss/h-gly"><em>Hash</em></a> algorithm. Must be set to either <strong>SHA-1</strong> or <strong>MD5</strong> (default). For information about MD5, see <a href="/windows/desktop/SecGloss/m-gly"><em>MD5</em></a>. | 
+| <strong>-b</strong><strong></strong><em>DateStart</em> | Date the certificate first becomes valid. The default is when the certificate is created. The format of <em>DateStart</em> is mm/dd/yyyy. | 
+| <strong>-cy</strong><strong></strong><em>CertificateTypes</em> | Certificate type. <em>CertificateTypes</em> can be <strong>end</strong> for end-entity, or <strong>authority</strong> for <a href="/windows/desktop/SecGloss/c-gly"><em>certification authority</em></a>. | 
+| <strong>-e</strong><strong></strong><em>DateEnd</em> | Date when the validity period ends. The default is the year 2039. | 
+| <strong>-eku</strong><strong></strong><em>OID1</em><strong>,</strong><em>OID2</em> … | Inserts a list of one or more comma-separated, <a href="/windows/desktop/SecGloss/e-gly"><em>enhanced key usage</em></a><a href="/windows/desktop/SecGloss/o-gly"><em>object identifiers</em></a> (OIDs) into the certificate. For example, <strong>-eku 1.3.6.1.5.5.7.3.2</strong> inserts the client authentication OID. For definitions of allowable OIDs, see the Wincrypt.h file in CryptoAPI 2.0. | 
+| <strong>-h</strong><strong></strong><em>NumChildren</em> | Maximum height of the tree below this certificate. | 
+| <strong>-l</strong><strong></strong><em>PolicyLink</em> | Link to SPC agency policy information (for example, a URL). | 
+| <strong>-m</strong><strong></strong><em>nMonths</em> | Duration of the validity period. | 
+| <strong>-n</strong><strong>"</strong><em>Name</em><strong>"</strong> | Name for the publisher's certificate. This name must conform to the <a href="/windows/desktop/SecGloss/x-gly"><em>X.500</em></a> standard. The simplest method is to use the "CN=<em>MyName</em>" format. For example: <strong>-n "CN=Test"</strong>. | 
+| <strong>-nscp</strong> | The Netscape client authentication extension should be included. | 
+| <strong>-pe</strong> | Marks the private key as exportable. | 
+| <strong>-r</strong> | Creates a self-signed certificate. | 
+| <strong>-sc</strong><strong></strong><em>SubjectCertFile</em> | Certificate file name with the existing subject public key to be used. | 
+| <strong>-sk</strong><strong></strong><em>SubjectKey</em> | Location of the subject's key container which holds the <a href="/windows/desktop/SecGloss/p-gly"><em>private key</em></a>. If a key container does not exist, one is created. If neither the <strong>-sk</strong> or <strong>-sv</strong> option is used, a default key container is created and used by default. | 
+| <strong>-sky</strong><strong></strong><em>SubjectKeySpec</em> | Subject's key specification. <em>SubjectKeySpec</em> must be one of three possible values:<br /><ul><li><strong>Signature</strong> (AT_SIGNATURE key specification)</li><li><strong>Exchange</strong> (AT_KEYEXCHANGE key specification)</li><li>An integer, such as <strong>3</strong></li></ul>For more information, see the Note that follows this table.<br /> | 
+| <strong>-sp</strong><strong></strong><em>SubjectProviderName</em> | CryptoAPI provider for subject. The default is the user's provider. For information about CryptoAPI providers, see the CryptoAPI 2.0 documentation. | 
+| <strong>-sr</strong><strong></strong><em>SubjectCertStoreLocation</em> | Registry location of the subject's certificate store. <em>SubjectCertStoreLocation</em> must be either <strong>LocalMachine</strong> (registry key HKEY_LOCAL_MACHINE) or <strong>CurrentUser</strong> (registry key HKEY_CURRENT_USER). <strong>CurrentUser</strong> is the default. | 
+| <strong>-ss</strong><strong></strong><em>SubjectCertStoreName</em> | Name of the subject's certificate store where the generated certificate will be stored. | 
+| <strong>-sv</strong><strong></strong><em>SubjectKeyFile</em> | Name of the subject's .pvk file. If neither the <strong>-sk</strong> or <strong>-sv</strong> option is used, a default key container is created and used by default. | 
+| <strong>-sy</strong><strong></strong><em>nSubjectProviderType</em> | CryptoAPI provider type for subject. The default is <a href="/windows/desktop/SecGloss/p-gly"><em>PROV_RSA_FULL</em></a>. For information about CryptoAPI provider types, see the CryptoAPI 2.0 documentation. | 
+| <strong>-#</strong><strong></strong><em>SerialNumber</em> | Serial number of the certificate. The maximum value is 2^31. The default is a value generated by the tool that is guaranteed to be unique. | 
+| <strong>-$</strong><strong></strong><em>CertificateAuthority</em> | Type of <a href="/windows/desktop/SecGloss/c-gly"><em>certification authority</em></a>. <em>CertificateAuthority</em> must be set to either <strong>commercial</strong> (for certificates to be used by commercial software publishers) or <strong>individual</strong> (for certificates to be used by individual software publishers). | 
+| <strong>-?</strong> | Displays the basic options. | 
+| <strong>-!</strong> | Displays the extended options. | 
+
 
 
 
@@ -165,50 +77,16 @@ The following options are only for [*Software Publisher Certificate*](../secglos
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>SPC and private key option</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>-ic</strong> <strong></strong> <em>IssuerCertFile</em></td>
-<td>Location of the issuer's certificate.</td>
-</tr>
-<tr class="even">
-<td><strong>-ik</strong> <strong></strong> <em>IssuerKey</em></td>
-<td>Location of the issuer's key container. The default is the test root key.</td>
-</tr>
-<tr class="odd">
-<td><strong>-iky</strong> <strong></strong> <em>IssuerKeySpec</em></td>
-<td>Issuer's key specification, which must be one of three possible values:<br/>
-<ul>
-<li><strong>Signature</strong> (AT_SIGNATURE key specification)</li>
-<li><strong>Exchange</strong> (AT_KEYEXCHANGE key specification)</li>
-<li>An integer, such as <strong>3</strong></li>
-</ul>
-For more information, see the Note that follows this table.<br/></td>
-</tr>
-<tr class="even">
-<td><strong>-ip</strong> <strong></strong> <em>IssuerProviderName</em></td>
-<td>CryptoAPI provider for issuer. The default is the user's provider. For information about CryptoAPI providers, see the CryptoAPI 2.0 documentation.</td>
-</tr>
-<tr class="odd">
-<td><strong>-iv</strong> <strong></strong> <em>IssuerKeyFile</em></td>
-<td>Issuer's private key file. The default is the test root.</td>
-</tr>
-<tr class="even">
-<td><strong>-iy</strong> <strong></strong> <em>nIssuerProviderType</em></td>
-<td>CryptoAPI provider type for issuer. The default is <a href="/windows/desktop/SecGloss/p-gly"><em>PROV_RSA_FULL</em></a>. For information about CryptoAPI provider types, see the CryptoAPI 2.0 documentation.</td>
-</tr>
-</tbody>
-</table>
+
+| SPC and private key option | Description | 
+|----------------------------|-------------|
+| <strong>-ic</strong><strong></strong><em>IssuerCertFile</em> | Location of the issuer's certificate. | 
+| <strong>-ik</strong><strong></strong><em>IssuerKey</em> | Location of the issuer's key container. The default is the test root key. | 
+| <strong>-iky</strong><strong></strong><em>IssuerKeySpec</em> | Issuer's key specification, which must be one of three possible values:<br /><ul><li><strong>Signature</strong> (AT_SIGNATURE key specification)</li><li><strong>Exchange</strong> (AT_KEYEXCHANGE key specification)</li><li>An integer, such as <strong>3</strong></li></ul>For more information, see the Note that follows this table.<br /> | 
+| <strong>-ip</strong><strong></strong><em>IssuerProviderName</em> | CryptoAPI provider for issuer. The default is the user's provider. For information about CryptoAPI providers, see the CryptoAPI 2.0 documentation. | 
+| <strong>-iv</strong><strong></strong><em>IssuerKeyFile</em> | Issuer's private key file. The default is the test root. | 
+| <strong>-iy</strong><strong></strong><em>nIssuerProviderType</em> | CryptoAPI provider type for issuer. The default is <a href="/windows/desktop/SecGloss/p-gly"><em>PROV_RSA_FULL</em></a>. For information about CryptoAPI provider types, see the CryptoAPI 2.0 documentation. | 
+
 
 
 

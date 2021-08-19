@@ -46,45 +46,11 @@ The following table depicts a typical control and content view of the UI Automat
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Control View</th>
-<th>Content View</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><ul>
-<li>SplitButton
-<ul>
-<li>Image (0 or 1)</li>
-<li>Text (0 or 1)</li>
-<li>Button (1 or 2)
-<ul>
-<li>Menu (0 or 1; appears as a child of a sub-button that supports the ExpandCollapse pattern)
-<ul>
-<li>MenuItem (1 to many)</li>
-</ul></li>
-</ul></li>
-</ul></li>
-</ul></td>
-<td><ul>
-<li>SplitButton
-<ul>
-<li>Button (1 or 2)
-<ul>
-<li>MenuItem (1 to many)</li>
-</ul></li>
-</ul></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| Control View | Content View | 
+|--------------|--------------|
+| <ul><li>SplitButton<ul><li>Image (0 or 1)</li><li>Text (0 or 1)</li><li>Button (1 or 2)<ul><li>Menu (0 or 1; appears as a child of a sub-button that supports the ExpandCollapse pattern)<ul><li>MenuItem (1 to many)</li></ul></li></ul></li></ul></li></ul> | <ul><li>SplitButton<ul><li>Button (1 or 2)<ul><li>MenuItem (1 to many)</li></ul></li></ul></li></ul> | 
+
 
 
 
@@ -157,48 +123,11 @@ The following image illustrates a control that implements the **SplitButton** co
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>UI Automation Tree—Control View</th>
-<th>UI Automation Tree—Content View</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><ul>
-<li>SplitButton &quot;Name&quot; (Invoke, ExpandCollapse)
-<ul>
-<li>Button &quot;More option&quot; (Invoke)
-<ul>
-<li>Menu
-<ul>
-<li>MenuItem</li>
-<li>...</li>
-</ul></li>
-</ul></li>
-</ul></li>
-</ul></td>
-<td><ul>
-<li>SplitButton &quot;Name&quot; (Invoke, ExpandCollapse)
-<ul>
-<li>Button &quot;More option&quot; (Invoke)
-<ul>
-<li>Menu
-<ul>
-<li>MenuItem</li>
-<li>...</li>
-</ul></li>
-</ul></li>
-</ul></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| UI Automation Tree—Control View | UI Automation Tree—Content View | 
+|-----------------------------------|-----------------------------------|
+| <ul><li>SplitButton "Name" (Invoke, ExpandCollapse)<ul><li>Button "More option" (Invoke)<ul><li>Menu<ul><li>MenuItem</li><li>...</li></ul></li></ul></li></ul></li></ul> | <ul><li>SplitButton "Name" (Invoke, ExpandCollapse)<ul><li>Button "More option" (Invoke)<ul><li>Menu<ul><li>MenuItem</li><li>...</li></ul></li></ul></li></ul></li></ul> | 
+
 
 
 

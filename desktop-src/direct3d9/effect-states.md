@@ -126,169 +126,39 @@ Effect file render states have names similar to the fixed function pipeline stat
 
 
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>Render State</td>
-<td>Type</td>
-<td>Values</td>
-</tr>
-<tr class="even">
-<td>AlphaBlendEnable</td>
-<td>bool</td>
-<td>True or False. Same values as D3DRS_ALPHABLENDENABLE in <a href="/windows/desktop/direct3d9/d3drenderstatetype"><strong>D3DRENDERSTATETYPE</strong></a>.</td>
-</tr>
-<tr class="odd">
-<td>AlphaFunc</td>
-<td>dword</td>
-<td>Same values as <a href="/windows/desktop/direct3d9/d3dcmpfunc"><strong>D3DCMPFUNC</strong></a> without the D3DCMP_ prefix. See D3DRS_ALPHAFUNC.</td>
-</tr>
-<tr class="even">
-<td>AlphaRef</td>
-<td>dword</td>
-<td>Same values as D3DRS_ALPHAREF.</td>
-</tr>
-<tr class="odd">
-<td>AlphaTestEnable</td>
-<td>dword</td>
-<td>True or False. See D3DRS_ALPHATESTENABLE.</td>
-</tr>
-<tr class="even">
-<td>BlendOp</td>
-<td>dword</td>
-<td>Same values as <a href="/windows/desktop/direct3d9/d3dblendop"><strong>D3DBLENDOP</strong></a> without the D3DBLENDOP_ prefix.</td>
-</tr>
-<tr class="odd">
-<td>ColorWriteEnable</td>
-<td>dword</td>
-<td>Bitwise combination of RED|GREEN|BLUE|ALPHA. See D3DRS_COLORWRITEENABLE.</td>
-</tr>
-<tr class="even">
-<td>DepthBias</td>
-<td>float</td>
-<td>Same values as D3DRS_DEPTHBIAS.</td>
-</tr>
-<tr class="odd">
-<td>DestBlend</td>
-<td>dword</td>
-<td>Same values as <a href="/windows/desktop/direct3d9/d3dblend"><strong>D3DBLEND</strong></a> without the D3DBLEND_ prefix.</td>
-</tr>
-<tr class="even">
-<td>DitherEnable</td>
-<td>bool</td>
-<td>True or False. Same values as D3DRS_DITHERENABLE.</td>
-</tr>
-<tr class="odd">
-<td>FillMode</td>
-<td>dword</td>
-<td>Same values as <a href="/windows/desktop/direct3d9/d3dfillmode"><strong>D3DFILLMODE</strong></a> without the D3DFILL_ prefix.</td>
-</tr>
-<tr class="even">
-<td>LastPixel</td>
-<td>dword</td>
-<td>True or False. See D3DRS_LASTPIXEL.</td>
-</tr>
-<tr class="odd">
-<td>ShadeMode</td>
-<td>dword</td>
-<td>Same values as <a href="/windows/desktop/direct3d9/d3dshademode"><strong>D3DSHADEMODE</strong></a> without the D3DSHADE_ prefix.</td>
-</tr>
-<tr class="even">
-<td>SlopeScaleDepthBias</td>
-<td>float</td>
-<td>Same values as D3DRS_SLOPESCALEDEPTHBIAS.</td>
-</tr>
-<tr class="odd">
-<td>SrcBlend</td>
-<td>dword</td>
-<td>Same values as <a href="/windows/desktop/direct3d9/d3dblend"><strong>D3DBLEND</strong></a> without the D3DBLEND_ prefix.</td>
-</tr>
-<tr class="even">
-<td>SRGBWriteEnable</td>
-<td>bool</td>
-<td>True or False. Same values as D3DRS_SRGBWRITEENABLE.</td>
-</tr>
-<tr class="odd">
-<td>StencilEnable</td>
-<td>bool</td>
-<td>True or False. Same values as D3DRS_STENCILENABLE.</td>
-</tr>
-<tr class="even">
-<td>StencilFail</td>
-<td>dword</td>
-<td>Same values as <a href="d3dstencilcaps.md">D3DSTENCILCAPS</a> without the D3DSTENCILCAP_ prefix. See D3DRS_STENCILFAIL.</td>
-</tr>
-<tr class="odd">
-<td>StencilFunc</td>
-<td>dword</td>
-<td>Same values as <a href="/windows/desktop/direct3d9/d3dcmpfunc"><strong>D3DCMPFUNC</strong></a> without the D3DCMP_ prefix. See D3DRS_STENCILFUNC.</td>
-</tr>
-<tr class="even">
-<td>StencilMask</td>
-<td>dword</td>
-<td>Same values as D3DRS_STENCILMASK.</td>
-</tr>
-<tr class="odd">
-<td>StencilPass</td>
-<td>dword</td>
-<td>Same values as <a href="d3dstencilcaps.md">D3DSTENCILCAPS</a> without the D3DSTENCILCAP_ prefix. See D3DRS_STENCILPASS.</td>
-</tr>
-<tr class="even">
-<td>StencilRef</td>
-<td>int</td>
-<td>Same values as D3DRS_STENCILREF.</td>
-</tr>
-<tr class="odd">
-<td>StencilWriteMask</td>
-<td>dword</td>
-<td>Same values as D3DRS_STENCILWRITEMASK.</td>
-</tr>
-<tr class="even">
-<td>StencilZFail</td>
-<td>dword</td>
-<td>Same values as <a href="d3dstencilcaps.md">D3DSTENCILCAPS</a> without the D3DSTENCILCAP_ prefix. See D3DRS_STENCILZFAIL.</td>
-</tr>
-<tr class="odd">
-<td>TextureFactor</td>
-<td>dword</td>
-<td>Same values as <a href="d3dcolor.md"><strong>D3DCOLOR</strong></a>. Same values as D3DRS_TEXTUREFACTOR.</td>
-</tr>
-<tr class="even">
-<td>Wrap0 - Wrap15</td>
-<td>dword</td>
-<td>Values are the same as the values used by D3DRS_WRAP0. Valid values are:
-<ul>
-<li>COORD0 (which corresponds to D3DWRAPCOORD_0)</li>
-<li>COORD1 (which corresponds to D3DWRAPCOORD_1)</li>
-<li>COORD2 (which corresponds to D3DWRAPCOORD_2)</li>
-<li>COORD3 (which corresponds to D3DWRAPCOORD_3)</li>
-<li>U (which corresponds to D3DWRAP_U)</li>
-<li>V (which corresponds to D3DWRAP_V)</li>
-<li>W (which corresponds to D3DWRAP_W)</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>ZEnable</td>
-<td>dword</td>
-<td>Same values as <a href="/windows/desktop/direct3d9/d3dzbuffertype"><strong>D3DZBUFFERTYPE</strong></a> without the D3DZB_ prefix.</td>
-</tr>
-<tr class="even">
-<td>ZFunc</td>
-<td>dword</td>
-<td>Same values as <a href="/windows/desktop/direct3d9/d3dcmpfunc"><strong>D3DCMPFUNC</strong></a> without the D3DCMP_ prefix. See D3DRS_ZFUNC.</td>
-</tr>
-<tr class="odd">
-<td>ZWriteEnable</td>
-<td>bool</td>
-<td>True or False. See D3DRS_ZWRITEENABLE.</td>
-</tr>
-</tbody>
-</table>
+
+| 
+|
+| Render State | Type | Values | 
+| AlphaBlendEnable | bool | True or False. Same values as D3DRS_ALPHABLENDENABLE in <a href="/windows/desktop/direct3d9/d3drenderstatetype"><strong>D3DRENDERSTATETYPE</strong></a>. | 
+| AlphaFunc | dword | Same values as <a href="/windows/desktop/direct3d9/d3dcmpfunc"><strong>D3DCMPFUNC</strong></a> without the D3DCMP_ prefix. See D3DRS_ALPHAFUNC. | 
+| AlphaRef | dword | Same values as D3DRS_ALPHAREF. | 
+| AlphaTestEnable | dword | True or False. See D3DRS_ALPHATESTENABLE. | 
+| BlendOp | dword | Same values as <a href="/windows/desktop/direct3d9/d3dblendop"><strong>D3DBLENDOP</strong></a> without the D3DBLENDOP_ prefix. | 
+| ColorWriteEnable | dword | Bitwise combination of RED|GREEN|BLUE|ALPHA. See D3DRS_COLORWRITEENABLE. | 
+| DepthBias | float | Same values as D3DRS_DEPTHBIAS. | 
+| DestBlend | dword | Same values as <a href="/windows/desktop/direct3d9/d3dblend"><strong>D3DBLEND</strong></a> without the D3DBLEND_ prefix. | 
+| DitherEnable | bool | True or False. Same values as D3DRS_DITHERENABLE. | 
+| FillMode | dword | Same values as <a href="/windows/desktop/direct3d9/d3dfillmode"><strong>D3DFILLMODE</strong></a> without the D3DFILL_ prefix. | 
+| LastPixel | dword | True or False. See D3DRS_LASTPIXEL. | 
+| ShadeMode | dword | Same values as <a href="/windows/desktop/direct3d9/d3dshademode"><strong>D3DSHADEMODE</strong></a> without the D3DSHADE_ prefix. | 
+| SlopeScaleDepthBias | float | Same values as D3DRS_SLOPESCALEDEPTHBIAS. | 
+| SrcBlend | dword | Same values as <a href="/windows/desktop/direct3d9/d3dblend"><strong>D3DBLEND</strong></a> without the D3DBLEND_ prefix. | 
+| SRGBWriteEnable | bool | True or False. Same values as D3DRS_SRGBWRITEENABLE. | 
+| StencilEnable | bool | True or False. Same values as D3DRS_STENCILENABLE. | 
+| StencilFail | dword | Same values as <a href="d3dstencilcaps.md">D3DSTENCILCAPS</a> without the D3DSTENCILCAP_ prefix. See D3DRS_STENCILFAIL. | 
+| StencilFunc | dword | Same values as <a href="/windows/desktop/direct3d9/d3dcmpfunc"><strong>D3DCMPFUNC</strong></a> without the D3DCMP_ prefix. See D3DRS_STENCILFUNC. | 
+| StencilMask | dword | Same values as D3DRS_STENCILMASK. | 
+| StencilPass | dword | Same values as <a href="d3dstencilcaps.md">D3DSTENCILCAPS</a> without the D3DSTENCILCAP_ prefix. See D3DRS_STENCILPASS. | 
+| StencilRef | int | Same values as D3DRS_STENCILREF. | 
+| StencilWriteMask | dword | Same values as D3DRS_STENCILWRITEMASK. | 
+| StencilZFail | dword | Same values as <a href="d3dstencilcaps.md">D3DSTENCILCAPS</a> without the D3DSTENCILCAP_ prefix. See D3DRS_STENCILZFAIL. | 
+| TextureFactor | dword | Same values as <a href="d3dcolor.md"><strong>D3DCOLOR</strong></a>. Same values as D3DRS_TEXTUREFACTOR. | 
+| Wrap0 - Wrap15 | dword | Values are the same as the values used by D3DRS_WRAP0. Valid values are:<ul><li>COORD0 (which corresponds to D3DWRAPCOORD_0)</li><li>COORD1 (which corresponds to D3DWRAPCOORD_1)</li><li>COORD2 (which corresponds to D3DWRAPCOORD_2)</li><li>COORD3 (which corresponds to D3DWRAPCOORD_3)</li><li>U (which corresponds to D3DWRAP_U)</li><li>V (which corresponds to D3DWRAP_V)</li><li>W (which corresponds to D3DWRAP_W)</li></ul> | 
+| ZEnable | dword | Same values as <a href="/windows/desktop/direct3d9/d3dzbuffertype"><strong>D3DZBUFFERTYPE</strong></a> without the D3DZB_ prefix. | 
+| ZFunc | dword | Same values as <a href="/windows/desktop/direct3d9/d3dcmpfunc"><strong>D3DCMPFUNC</strong></a> without the D3DCMP_ prefix. See D3DRS_ZFUNC. | 
+| ZWriteEnable | bool | True or False. See D3DRS_ZWRITEENABLE. | 
+
 
 
 

@@ -58,48 +58,17 @@ The name of the index to be deleted.
 
 This function returns the [JET_ERR](./jet-err.md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](./extensible-storage-engine-errors.md) and [Error Handling Parameters](./error-handling-parameters.md).
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Return code</p></th>
-<th><p>Description</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_errSuccess</p></td>
-<td><p>The operation completed successfully.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errFixedDDL</p></td>
-<td><p>An attempt was made to delete an index from a fixed table (for example, one created with JET_bitTableCreateFixedDDL).</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errFixedInheritedDDL</p></td>
-<td><p>An attempt was made to delete an index from a template table. A template table has fixed DDL.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errIndexNotFound</p></td>
-<td><p>The index named in <em>szIndexName</em> was not found.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errPermissionDenied</p></td>
-<td><p>The table cannot be updated because it was opened read-only.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errSessionSharingViolation</p></td>
-<td><p>Multiple threads attempted to use the same database session.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errTransReadOnly</p></td>
-<td><p>The transaction was opened as a read-only transaction.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Return code</p> | <p>Description</p> | 
+|--------------------|--------------------|
+| <p>JET_errSuccess</p> | <p>The operation completed successfully.</p> | 
+| <p>JET_errFixedDDL</p> | <p>An attempt was made to delete an index from a fixed table (for example, one created with JET_bitTableCreateFixedDDL).</p> | 
+| <p>JET_errFixedInheritedDDL</p> | <p>An attempt was made to delete an index from a template table. A template table has fixed DDL.</p> | 
+| <p>JET_errIndexNotFound</p> | <p>The index named in <em>szIndexName</em> was not found.</p> | 
+| <p>JET_errPermissionDenied</p> | <p>The table cannot be updated because it was opened read-only.</p> | 
+| <p>JET_errSessionSharingViolation</p> | <p>Multiple threads attempted to use the same database session.</p> | 
+| <p>JET_errTransReadOnly</p> | <p>The transaction was opened as a read-only transaction.</p> | 
+
 
 
 #### Remarks
@@ -110,38 +79,16 @@ On success, the currency is set before the first record.
 
 #### Requirements
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Client</strong></p></td>
-<td><p>Requires Windows Vista, Windows XP, or Windows 2000 Professional.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Server</strong></p></td>
-<td><p>Requires Windows Server 2008, Windows Server 2003, or Windows 2000 Server.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>Header</strong></p></td>
-<td><p>Declared in Esent.h.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Library</strong></p></td>
-<td><p>Use ESENT.lib.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>DLL</strong></p></td>
-<td><p>Requires ESENT.dll.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Unicode</strong></p></td>
-<td><p>Implemented as <strong>JetDeleteIndexW</strong> (Unicode) and <strong>JetDeleteIndexA</strong> (ANSI).</p></td>
-</tr>
-</tbody>
-</table>
+
+| 
+|
+| <p><strong>Client</strong></p> | <p>Requires Windows Vista, Windows XP, or Windows 2000 Professional.</p> | 
+| <p><strong>Server</strong></p> | <p>Requires Windows Server 2008, Windows Server 2003, or Windows 2000 Server.</p> | 
+| <p><strong>Header</strong></p> | <p>Declared in Esent.h.</p> | 
+| <p><strong>Library</strong></p> | <p>Use ESENT.lib.</p> | 
+| <p><strong>DLL</strong></p> | <p>Requires ESENT.dll.</p> | 
+| <p><strong>Unicode</strong></p> | <p>Implemented as <strong>JetDeleteIndexW</strong> (Unicode) and <strong>JetDeleteIndexA</strong> (ANSI).</p> | 
+
 
 
 #### See Also

@@ -16,81 +16,21 @@ Because the Windows SDK is the primary developer SDK for Windows, DirectX is now
 
 The following technologies and tools, formerly part of the DirectX SDK, are now part of the Windows SDK.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Technology or tool</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><span id="Windows_Graphics_Components"></span><span id="windows_graphics_components"></span><span id="WINDOWS_GRAPHICS_COMPONENTS"></span>Windows Graphics Components<br/></td>
-<td>The headers and libraries for <a href="/windows/desktop/direct3d">Direct3D</a> and other Windows graphics APIs, like <a href="/windows/desktop/Direct2D/direct2d-portal">Direct2D</a>, are available in the Windows SDK. <br/>
-<blockquote>
-[!Note]<br />
-The deprecated D3DX9/D3DX10/D3DX11 utility libraries are available via <a href="https://www.nuget.org/packages/Microsoft.DXSDK.D3DX">NuGet</a>, but there are also a number of <a href="https://walbourn.github.io/living-without-d3dx/">open source alternatives</a>. The D3DCSX DirectCompute utility library and redistributable DLL is available in the Windows SDK. D3DX12 is available on <a href="https://github.com/microsoft/DirectX-Headers">GitHub</a>.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td><span id="HLSL_compiler__FXC.EXE_"></span><span id="hlsl_compiler__fxc.exe_"></span><span id="HLSL_COMPILER__FXC.EXE_"></span>HLSL compiler (FXC.EXE)<br/></td>
-<td>The <a href="/windows/desktop/direct3dhlsl/dx-graphics-hlsl">HLSL</a> compiler is a tool in the appropriate architecture subdirectory under the bin folder in the Windows SDK.<br/>
-<blockquote>
-[!Note]<br />
-The D3DCompiler API and redistributable DLL is available in the Windows SDK.
-</blockquote>
-<br/><br/>For DirectX 12 development, use the DXCompiler in the Windows SDK and hosted on [GitHub](https://github.com/Microsoft/DirectXShaderCompiler).
-<br/></td>
-</tr>
-<tr class="odd">
-<td><span id="PIX_for_"></span><span id="pix_for_"></span><span id="PIX_FOR_"></span>PIX for Windows<br/></td>
-<td>A replacement for the PIX for Windows tool is now a feature in Microsoft Visual Studio, called Visual Studio Graphics Debugger. This feature has greatly improved usability, support for Windows 8, and Direct3D 11.1, and integration with traditional Microsoft Visual Studio features such as call stacks and debugging windows for <a href="/windows/desktop/direct3dhlsl/dx-graphics-hlsl">HLSL</a> debugging. For more info about this new feature, see <a href="/visualstudio/debugger/visual-studio-graphics-diagnostics?view=vs-2015">Debugging DirectX Graphics</a>.<br/><br/>For DirectX 12 development, see the latest generation of <a href="https://devblogs.microsoft.com/pix/">PIX on Windows</a><br/></td>
-</tr>
-<tr class="even">
-<td><span id="XAudio2_for_"></span><span id="xaudio2_for_"></span><span id="XAUDIO2_FOR_"></span><a href="/windows/desktop/xaudio2/xaudio2-apis-portal">XAudio2</a> for Windows<br/></td>
-<td>The <a href="/windows/desktop/xaudio2/xaudio2-apis-portal">XAudio2</a> API is now a system component in Windows 8.x and Windows 10. The headers and libraries for XAudio2 are available in the Windows SDK. For Windows 7 support, see <a href="/windows/win32/xaudio2/xaudio2-redistributable">XAudio2Redist</a>.<br/></td>
-</tr>
-<tr class="odd">
-<td><span id="XInput_for_"></span><span id="xinput_for_"></span><span id="XINPUT_FOR_"></span><a href="/windows/desktop/xinput/xinput-game-controller-apis-portal">XInput</a> for Windows<br/></td>
-<td>The <a href="/windows/desktop/xinput/xinput-game-controller-apis-portal">XInput</a> 1.4 API is now a system component in Windows 8.x and Windows 10. The headers and libraries for XInput are available in the Windows SDK.<br/>
-<blockquote>
-[!Note]<br />
-Legacy XInput 9.1.0 is also available as part of Windows 7 or later.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td><span id="XNAMATH"></span><span id="xnamath"></span>XNAMATH<br/></td>
-<td>The most recent version of XNAMATH, which is updated for new instruction sets as well as ARM/ARM64, is now <a href="/windows/desktop/dxmath/directxmath-portal">DirectXMath</a>. The headers for DirectXMath are available in the Windows SDK and on <a href="https://github.com/Microsoft/DirectXMath">GitHub</a>.<br/></td>
-</tr>
-<tr class="odd">
-<td><span id="DirectX_Control_Panel_and_DirectX_Capabilities_Viewer"></span><span id="directx_control_panel_and_directx_capabilities_viewer"></span><span id="DIRECTX_CONTROL_PANEL_AND_DIRECTX_CAPABILITIES_VIEWER"></span>DirectX Control Panel and DirectX Capabilities Viewer<br/></td>
-<td>The DirectX Control Panel and DirectX Capabilities Viewer utilities are included in the appropriate architecture subdirectory under the bin folder in the Windows SDK. DirectX Capabilities Viewer is also available on <a href="https://github.com/microsoft/DxCapsViewer">GitHub</a>.<br/></td>
-</tr>
-<tr class="even">
-<td><span id="XACT"></span><span id="xact"></span>XACT<br/></td>
-<td>The Xbox Audio Cross Platform Tool (XACT) is no longer supported for use on Windows.<br/></td>
-</tr>
-<tr class="odd">
-<td><span id="Games_Explorer_and_GDFMAKER"></span><span id="games_explorer_and_gdfmaker"></span><span id="GAMES_EXPLORER_AND_GDFMAKER"></span><a href="/previous-versions/windows/desktop/legacy/hh437965(v=vs.85)">Games Explorer</a> and GDFMAKER<br/></td>
-<td>The <a href="/previous-versions/windows/desktop/legacy/hh437965(v=vs.85)">Games Explorer</a> API presents games to users of Windows. The Games Explorer API is supported only on Windows Vista and Windows 7. Use the Games Definition File Maker tool (GDFMAKER.EXE) to declare game ratings for Windows Store apps. <br/> The Game Definition File Maker tool (GDFMaker.exe) is included in the x86 subdirectory under the bin folder in the Windows SDK, and supports both Windows Store apps and Win32 desktop applications.<br/>
-<br/></td>
-</tr>
-<tr class="even">
-<td><span id="Samples"></span><span id="samples"></span><span id="SAMPLES"></span>Samples<br/></td>
-<td>You can find sample applications that highlight DirectX 12 technologies on Windows in the <a href="https://github.com/Microsoft/DirectX-Graphics-Samples">DirectX samples</a> repo. Most samples for older versions of Direct3D are also available online. For more info about these samples, see <a href="https://walbourn.github.io/directx-sdk-samples-catalog/">DirectX SDK Samples Catalog</a>.<br/></td>
-</tr>
-<tr class="odd">
-<td><span id="Managed_DirectX_1.1"></span><span id="managed_directx_1.1"></span><span id="MANAGED_DIRECTX_1.1"></span>Managed DirectX 1.1<br/></td>
-<td>The .NET DirectX assemblies are deprecated and are not recommended for use by new applications. There are a number of alternatives available. See <a href="https://walbourn.github.io/directx-and-net/">DirectX and .NET</a>. <br/></td>
-</tr>
-</tbody>
-</table>
+
+| Technology or tool | Description | 
+|--------------------|-------------|
+| <span id="Windows_Graphics_Components"></span><span id="windows_graphics_components"></span><span id="WINDOWS_GRAPHICS_COMPONENTS"></span>Windows Graphics Components<br /> | The headers and libraries for <a href="/windows/desktop/direct3d">Direct3D</a> and other Windows graphics APIs, like <a href="/windows/desktop/Direct2D/direct2d-portal">Direct2D</a>, are available in the Windows SDK. <br /><blockquote>[!Note]<br />The deprecated D3DX9/D3DX10/D3DX11 utility libraries are available via <a href="https://www.nuget.org/packages/Microsoft.DXSDK.D3DX">NuGet</a>, but there are also a number of <a href="https://walbourn.github.io/living-without-d3dx/">open source alternatives</a>. The D3DCSX DirectCompute utility library and redistributable DLL is available in the Windows SDK. D3DX12 is available on <a href="https://github.com/microsoft/DirectX-Headers">GitHub</a>.</blockquote><br /> | 
+| <span id="HLSL_compiler__FXC.EXE_"></span><span id="hlsl_compiler__fxc.exe_"></span><span id="HLSL_COMPILER__FXC.EXE_"></span>HLSL compiler (FXC.EXE)<br /> | The <a href="/windows/desktop/direct3dhlsl/dx-graphics-hlsl">HLSL</a> compiler is a tool in the appropriate architecture subdirectory under the bin folder in the Windows SDK.<br /><blockquote>[!Note]<br />The D3DCompiler API and redistributable DLL is available in the Windows SDK.</blockquote><br /><br />For DirectX 12 development, use the DXCompiler in the Windows SDK and hosted on [GitHub](https://github.com/Microsoft/DirectXShaderCompiler).<br /> | 
+| <span id="PIX_for_"></span><span id="pix_for_"></span><span id="PIX_FOR_"></span>PIX for Windows<br /> | A replacement for the PIX for Windows tool is now a feature in Microsoft Visual Studio, called Visual Studio Graphics Debugger. This feature has greatly improved usability, support for Windows 8, and Direct3D 11.1, and integration with traditional Microsoft Visual Studio features such as call stacks and debugging windows for <a href="/windows/desktop/direct3dhlsl/dx-graphics-hlsl">HLSL</a> debugging. For more info about this new feature, see <a href="/visualstudio/debugger/visual-studio-graphics-diagnostics?view=vs-2015">Debugging DirectX Graphics</a>.<br /><br />For DirectX 12 development, see the latest generation of <a href="https://devblogs.microsoft.com/pix/">PIX on Windows</a><br /> | 
+| <span id="XAudio2_for_"></span><span id="xaudio2_for_"></span><span id="XAUDIO2_FOR_"></span><a href="/windows/desktop/xaudio2/xaudio2-apis-portal">XAudio2</a> for Windows<br /> | The <a href="/windows/desktop/xaudio2/xaudio2-apis-portal">XAudio2</a> API is now a system component in Windows 8.x and Windows 10. The headers and libraries for XAudio2 are available in the Windows SDK. For Windows 7 support, see <a href="/windows/win32/xaudio2/xaudio2-redistributable">XAudio2Redist</a>.<br /> | 
+| <span id="XInput_for_"></span><span id="xinput_for_"></span><span id="XINPUT_FOR_"></span><a href="/windows/desktop/xinput/xinput-game-controller-apis-portal">XInput</a> for Windows<br /> | The <a href="/windows/desktop/xinput/xinput-game-controller-apis-portal">XInput</a> 1.4 API is now a system component in Windows 8.x and Windows 10. The headers and libraries for XInput are available in the Windows SDK.<br /><blockquote>[!Note]<br />Legacy XInput 9.1.0 is also available as part of Windows 7 or later.</blockquote><br /> | 
+| <span id="XNAMATH"></span><span id="xnamath"></span>XNAMATH<br /> | The most recent version of XNAMATH, which is updated for new instruction sets as well as ARM/ARM64, is now <a href="/windows/desktop/dxmath/directxmath-portal">DirectXMath</a>. The headers for DirectXMath are available in the Windows SDK and on <a href="https://github.com/Microsoft/DirectXMath">GitHub</a>.<br /> | 
+| <span id="DirectX_Control_Panel_and_DirectX_Capabilities_Viewer"></span><span id="directx_control_panel_and_directx_capabilities_viewer"></span><span id="DIRECTX_CONTROL_PANEL_AND_DIRECTX_CAPABILITIES_VIEWER"></span>DirectX Control Panel and DirectX Capabilities Viewer<br /> | The DirectX Control Panel and DirectX Capabilities Viewer utilities are included in the appropriate architecture subdirectory under the bin folder in the Windows SDK. DirectX Capabilities Viewer is also available on <a href="https://github.com/microsoft/DxCapsViewer">GitHub</a>.<br /> | 
+| <span id="XACT"></span><span id="xact"></span>XACT<br /> | The Xbox Audio Cross Platform Tool (XACT) is no longer supported for use on Windows.<br /> | 
+| <span id="Games_Explorer_and_GDFMAKER"></span><span id="games_explorer_and_gdfmaker"></span><span id="GAMES_EXPLORER_AND_GDFMAKER"></span><a href="/previous-versions/windows/desktop/legacy/hh437965(v=vs.85)">Games Explorer</a> and GDFMAKER<br /> | The <a href="/previous-versions/windows/desktop/legacy/hh437965(v=vs.85)">Games Explorer</a> API presents games to users of Windows. The Games Explorer API is supported only on Windows Vista and Windows 7. Use the Games Definition File Maker tool (GDFMAKER.EXE) to declare game ratings for Windows Store apps. <br /> The Game Definition File Maker tool (GDFMaker.exe) is included in the x86 subdirectory under the bin folder in the Windows SDK, and supports both Windows Store apps and Win32 desktop applications.<br /><br /> | 
+| <span id="Samples"></span><span id="samples"></span><span id="SAMPLES"></span>Samples<br /> | You can find sample applications that highlight DirectX 12 technologies on Windows in the <a href="https://github.com/Microsoft/DirectX-Graphics-Samples">DirectX samples</a> repo. Most samples for older versions of Direct3D are also available online. For more info about these samples, see <a href="https://walbourn.github.io/directx-sdk-samples-catalog/">DirectX SDK Samples Catalog</a>.<br /> | 
+| <span id="Managed_DirectX_1.1"></span><span id="managed_directx_1.1"></span><span id="MANAGED_DIRECTX_1.1"></span>Managed DirectX 1.1<br /> | The .NET DirectX assemblies are deprecated and are not recommended for use by new applications. There are a number of alternatives available. See <a href="https://walbourn.github.io/directx-and-net/">DirectX and .NET</a>. <br /> | 
+
 
 
 

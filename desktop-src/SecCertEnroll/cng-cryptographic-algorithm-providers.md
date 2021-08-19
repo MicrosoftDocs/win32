@@ -68,42 +68,13 @@ Unlike Cryptography API (CryptoAPI), Cryptography API: Next Generation (CNG) sep
 
 
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Algorithm name</th>
-<th>Notes</th>
-<th>Key size in bits (Default/Min/Max)</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Diffie-Hellman Key Exchange Algorithm</td>
 
-<td>512 to 4096, in 64-bit increments</td>
-</tr>
-<tr class="even">
-<td>Elliptic Curve Diffie-Hellman (ECDH)</td>
-<td>Includes curves that use 256, 384 and 521 bit public keys as specified in SP800-56A.</td>
-<td>256/384/521</td>
-</tr>
-<tr class="odd">
-<td>Elliptic Curve Digital Signature Algorithm (ECDSA)</td>
-<td>Includes curves that use 256, 384 and 521 bit public keys as specified in FIPS 186-3.
-<blockquote>
-[!Note]<br />
-To display all named elliptic curves, use <strong>certutil  displayEccCurve</strong>.
-</blockquote>
-<br/></td>
-<td>256/384/521</td>
-</tr>
-</tbody>
-</table>
+| Algorithm name | Notes | Key size in bits (Default/Min/Max) | 
+|----------------|-------|------------------------------------|
+| Diffie-Hellman Key Exchange Algorithm | 512 to 4096, in 64-bit increments | 
+| Elliptic Curve Diffie-Hellman (ECDH) | Includes curves that use 256, 384 and 521 bit public keys as specified in SP800-56A. | 256/384/521 | 
+| Elliptic Curve Digital Signature Algorithm (ECDSA) | Includes curves that use 256, 384 and 521 bit public keys as specified in FIPS 186-3.<blockquote>[!Note]<br />To display all named elliptic curves, use <strong>certutil  displayEccCurve</strong>.</blockquote><br /> | 256/384/521 | 
+
 
 
 

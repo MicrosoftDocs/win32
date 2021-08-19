@@ -35,82 +35,19 @@ A ParameterDef element is composed of the following Property elements. All must 
 
 
 
-<table>
-<colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Property Name</th>
-<th>Values</th>
-<th>Description</th>
-<th>Immutable?</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>DataType <br/></td>
-<td>integer <br/> decimal<br/> string<br/> No default value.<br/></td>
-<td>Specifies whether the parameter value is an integer, or floating point number, or a text string. The value of a parameter is expressed in the same format as the corresponding XSD basic data type; that is, as an integer, decimal, or string. <br/></td>
-<td>Yes<br/></td>
-</tr>
-<tr class="even">
-<td>DefaultValue <br/></td>
-<td>The type specified by the DataType Property.<br/> No default value.<br/></td>
-<td>Specifies the value with which to initialize a user interface (UI) control.<br/>
-<ul>
-<li>or <br/></li>
-</ul>
-Specifies the value to use if the relevant parameter element is missing from the PrintTicket.<br/></td>
-<td>No<br/></td>
-</tr>
-<tr class="odd">
-<td>Mandatory <br/></td>
-<td>Unconditional: the ParameterInit element must always be supplied. <br/> Conditional: the ParameterInit element is required only if the parameter is referenced within an Option element in a PrintTicket.<br/> DefaultValue: Conditional.<br/></td>
-<td>Indicates when a ParameterInit element must appear explicitly. If Conditional, the ParameterInit must be initialized if the PrintTicket contains an Option that references the parameter.<br/> Used by UI Clients and PrintCapabilities or PrintTicket providers. Note that in any constraint, the Mandatory Property of the ParameterDef element must be set to Unconditional. The ParameterDef must have a defined Value, otherwise the dependent Value or constraint could not be evaluated.<br/></td>
-<td>No<br/></td>
-</tr>
-<tr class="even">
-<td>MaxLength <br/></td>
-<td>integer if DataType Property specifies string.<br/> DefaultValue: No maximum value is enforced.<br/></td>
-<td>For string-valued parameters, specifies the longest allowed string. UI and PrintCapabilities or PrintTicket providers use this Property to validate the ParameterDef element.<br/></td>
-<td>No<br/></td>
-</tr>
-<tr class="odd">
-<td>MaxValue <br/></td>
-<td>integer if DataType Property specifies integer.<br/> decimal if DataType Property specifies decimal.<br/> DefaultValue: No maximum value is enforced.<br/></td>
-<td>For integer-or decimal-valued ParameterDef elements, defines the largest allowed value.<br/></td>
-<td>No<br/></td>
-</tr>
-<tr class="even">
-<td>MinLength <br/></td>
-<td>integer if DataType Property specifies string. <br/> DefaultValue: No minimum value is enforced.<br/></td>
-<td>For string values, defines the shortest allowed string. UI and PrintCapabilities or PrintTicket providers use this Property to validate the ParameterDef element.<br/></td>
-<td>No<br/></td>
-</tr>
-<tr class="odd">
-<td>MinValue <br/></td>
-<td>integer if DataType Property specifies integer.<br/> decimal if DataType Property specifies decimal.<br/> DefaultValue: No minimum value is enforced.<br/></td>
-<td>For integer- or decimal-valued parameters, defines the smallest allowed value. <br/></td>
-<td>No<br/></td>
-</tr>
-<tr class="even">
-<td>Multiple <br/></td>
-<td>integer if DataType Property specifies integer.<br/> decimal if DataType Property specifies decimal.<br/> DefaultValue: 1<br/></td>
-<td>For integer- or decimal-valued parameters, the value of the parameter should be a multiple of this number. For more information, see <a href="#notes-on-multiple">Notes on Multiple</a> following this table.<br/></td>
-<td>No<br/></td>
-</tr>
-<tr class="odd">
-<td>UnitType <br/></td>
-<td>string value indicating the units used for the parameter.<br/> No default value.<br/></td>
-<td>Indicates the units in which the parameter is expressed. For example, angles in tenths of degrees, lengths in microns, and so on.<br/></td>
-<td>Yes<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Property Name | Values | Description | Immutable? | 
+|---------------|--------|-------------|------------|
+| DataType <br /> | integer <br /> decimal<br /> string<br /> No default value.<br /> | Specifies whether the parameter value is an integer, or floating point number, or a text string. The value of a parameter is expressed in the same format as the corresponding XSD basic data type; that is, as an integer, decimal, or string. <br /> | Yes<br /> | 
+| DefaultValue <br /> | The type specified by the DataType Property.<br /> No default value.<br /> | Specifies the value with which to initialize a user interface (UI) control.<br /><ul><li>or <br /></li></ul>Specifies the value to use if the relevant parameter element is missing from the PrintTicket.<br /> | No<br /> | 
+| Mandatory <br /> | Unconditional: the ParameterInit element must always be supplied. <br /> Conditional: the ParameterInit element is required only if the parameter is referenced within an Option element in a PrintTicket.<br /> DefaultValue: Conditional.<br /> | Indicates when a ParameterInit element must appear explicitly. If Conditional, the ParameterInit must be initialized if the PrintTicket contains an Option that references the parameter.<br /> Used by UI Clients and PrintCapabilities or PrintTicket providers. Note that in any constraint, the Mandatory Property of the ParameterDef element must be set to Unconditional. The ParameterDef must have a defined Value, otherwise the dependent Value or constraint could not be evaluated.<br /> | No<br /> | 
+| MaxLength <br /> | integer if DataType Property specifies string.<br /> DefaultValue: No maximum value is enforced.<br /> | For string-valued parameters, specifies the longest allowed string. UI and PrintCapabilities or PrintTicket providers use this Property to validate the ParameterDef element.<br /> | No<br /> | 
+| MaxValue <br /> | integer if DataType Property specifies integer.<br /> decimal if DataType Property specifies decimal.<br /> DefaultValue: No maximum value is enforced.<br /> | For integer-or decimal-valued ParameterDef elements, defines the largest allowed value.<br /> | No<br /> | 
+| MinLength <br /> | integer if DataType Property specifies string. <br /> DefaultValue: No minimum value is enforced.<br /> | For string values, defines the shortest allowed string. UI and PrintCapabilities or PrintTicket providers use this Property to validate the ParameterDef element.<br /> | No<br /> | 
+| MinValue <br /> | integer if DataType Property specifies integer.<br /> decimal if DataType Property specifies decimal.<br /> DefaultValue: No minimum value is enforced.<br /> | For integer- or decimal-valued parameters, defines the smallest allowed value. <br /> | No<br /> | 
+| Multiple <br /> | integer if DataType Property specifies integer.<br /> decimal if DataType Property specifies decimal.<br /> DefaultValue: 1<br /> | For integer- or decimal-valued parameters, the value of the parameter should be a multiple of this number. For more information, see <a href="#notes-on-multiple">Notes on Multiple</a> following this table.<br /> | No<br /> | 
+| UnitType <br /> | string value indicating the units used for the parameter.<br /> No default value.<br /> | Indicates the units in which the parameter is expressed. For example, angles in tenths of degrees, lengths in microns, and so on.<br /> | Yes<br /> | 
+
 
 
 

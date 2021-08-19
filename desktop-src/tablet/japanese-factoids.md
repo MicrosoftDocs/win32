@@ -40,26 +40,11 @@ The following tables list formats that are available for each factoid used in Ja
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Factoid</th>
-<th><strong>JapaneseCommon</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Description<br/></td>
-<td>All <strong>KanjiCommon</strong>, <strong>Hiragana</strong>, and <strong>Katakana</strong> characters. In addition, common alphanumeric characters, standard punctuation, and symbols are included.<br/><br />
-The <strong>JapaneseCommon</strong> factoid is useful for standard text entry where infrequently used characters are not needed.
-</td>
-</tr>
-</tbody>
-</table>
+
+| Factoid | <strong>JapaneseCommon</strong> | 
+|---------|---------------------------------|
+| Description<br /> | All <strong>KanjiCommon</strong>, <strong>Hiragana</strong>, and <strong>Katakana</strong> characters. In addition, common alphanumeric characters, standard punctuation, and symbols are included.<br /><br />The <strong>JapaneseCommon</strong> factoid is useful for standard text entry where infrequently used characters are not needed. | 
+
 
 
 

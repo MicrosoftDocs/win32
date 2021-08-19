@@ -31,41 +31,14 @@ Action flag. This parameter can be one of the following values:
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><span id="TVGN_CARET"></span><span id="tvgn_caret"></span><dl> <dt><strong>TVGN_CARET</strong></dt> </dl></td>
-<td>Sets the selection to the specified item. The tree-view control's parent window receives the <a href="tvn-selchanging.md">TVN_SELCHANGING</a> and <a href="tvn-selchanged.md">TVN_SELCHANGED</a> notification codes. <br/></td>
-</tr>
-<tr class="even">
-<td><span id="TVGN_DROPHILITE"></span><span id="tvgn_drophilite"></span><dl> <dt><strong>TVGN_DROPHILITE</strong></dt> </dl></td>
-<td>Redraws the specified item in the style used to indicate the target of a drag-and-drop operation.<br/></td>
-</tr>
-<tr class="odd">
-<td><span id="TVGN_FIRSTVISIBLE"></span><span id="tvgn_firstvisible"></span><dl> <dt><strong>TVGN_FIRSTVISIBLE</strong></dt> </dl></td>
-<td>Ensures that the specified item is visible, and, if possible, displays it at the top of the control's window. Tree-view controls display as many items as will fit in the window. If the specified item is near the bottom of the control's hierarchy of items, it might not become the first visible item, depending on how many items fit in the window.<br/></td>
-</tr>
-<tr class="even">
-<td><span id="TVSI_NOSINGLEEXPAND"></span><span id="tvsi_nosingleexpand"></span><dl> <dt><strong>TVSI_NOSINGLEEXPAND</strong></dt> </dl></td>
-<td>When a single item is selected, ensures that the treeview does not expand the children of that item. This is valid only if used with the TVGN_CARET flag. <br/>
-<blockquote>
-[!Note]<br />
-To use this flag, you must provide a manifest specifying Comclt32.dll version 6.0. For more information on manifests, see <a href="cookbook-overview.md">Enabling Visual Styles</a>.
-</blockquote>
-<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Value | Meaning | 
+|-------|---------|
+| <span id="TVGN_CARET"></span><span id="tvgn_caret"></span><dl><dt><strong>TVGN_CARET</strong></dt></dl> | Sets the selection to the specified item. The tree-view control's parent window receives the <a href="tvn-selchanging.md">TVN_SELCHANGING</a> and <a href="tvn-selchanged.md">TVN_SELCHANGED</a> notification codes. <br /> | 
+| <span id="TVGN_DROPHILITE"></span><span id="tvgn_drophilite"></span><dl><dt><strong>TVGN_DROPHILITE</strong></dt></dl> | Redraws the specified item in the style used to indicate the target of a drag-and-drop operation.<br /> | 
+| <span id="TVGN_FIRSTVISIBLE"></span><span id="tvgn_firstvisible"></span><dl><dt><strong>TVGN_FIRSTVISIBLE</strong></dt></dl> | Ensures that the specified item is visible, and, if possible, displays it at the top of the control's window. Tree-view controls display as many items as will fit in the window. If the specified item is near the bottom of the control's hierarchy of items, it might not become the first visible item, depending on how many items fit in the window.<br /> | 
+| <span id="TVSI_NOSINGLEEXPAND"></span><span id="tvsi_nosingleexpand"></span><dl><dt><strong>TVSI_NOSINGLEEXPAND</strong></dt></dl> | When a single item is selected, ensures that the treeview does not expand the children of that item. This is valid only if used with the TVGN_CARET flag. <br /><blockquote>[!Note]<br />To use this flag, you must provide a manifest specifying Comclt32.dll version 6.0. For more information on manifests, see <a href="cookbook-overview.md">Enabling Visual Styles</a>.</blockquote><br /> | 
+
 
 
 

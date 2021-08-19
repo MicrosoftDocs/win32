@@ -60,19 +60,11 @@ To build the sample using Microsoft Visual Studio (preferred):
 >
 > <span codelanguage=""></span>
 >
-> <table>
-> <colgroup>
-> <col style="width: 100%" />
-> </colgroup>
-> <tbody>
-> <tr class="odd">
-> <td><pre><code>LinkIncremental=&quot;1&quot;
-> AdditionalLibraryDirectories=&quot;&quot;c:\Program Files\Microsoft SDKs\Windows\v6.0\Lib\x64&quot;&quot;
-> ModuleDefinitionFile=&quot;ExplorerDataProvider.def&quot;
-> GenerateDebugInformation=&quot;true&quot;</code></pre></td>
-> </tr>
-> </tbody>
-> </table>
+> 
+| 
+|
+| <pre><code>LinkIncremental="1"&gt; AdditionalLibraryDirectories=""c:\Program Files\Microsoft SDKs\Windows\v6.0\Lib\x64""&gt; ModuleDefinitionFile="ExplorerDataProvider.def"&gt; GenerateDebugInformation="true"</code></pre> | 
+
 >
 > 
 >

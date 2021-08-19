@@ -49,28 +49,12 @@ A cursor that has previously had an index range set with [JetSetIndexRange](./je
 
 A bitmask composed of exactly one of the following.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Value</p></th>
-<th><p>Meaning</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_bitRecordInIndex</p></td>
-<td><p>Specifies that the index range should be treated normally.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_bitRecordNotInIndex</p></td>
-<td><p>Reserved for future use. Do not use.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Value</p> | <p>Meaning</p> | 
+|--------------|----------------|
+| <p>JET_bitRecordInIndex</p> | <p>Specifies that the index range should be treated normally.</p> | 
+| <p>JET_bitRecordNotInIndex</p> | <p>Reserved for future use. Do not use.</p> | 
+
 
 
 ### Remarks
@@ -79,26 +63,13 @@ Each **JET_INDEXRANGE** structure that is passed to [JetIntersectIndexes](./jeti
 
 ### Requirements
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Client</strong></p></td>
-<td><p>Requires Windows Vista, Windows XP, or Windows 2000 Professional.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Server</strong></p></td>
-<td><p>Requires Windows Server 2008, Windows Server 2003, or Windows 2000 Server.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>Header</strong></p></td>
-<td><p>Declared in Esent.h.</p></td>
-</tr>
-</tbody>
-</table>
+
+| 
+|
+| <p><strong>Client</strong></p> | <p>Requires Windows Vista, Windows XP, or Windows 2000 Professional.</p> | 
+| <p><strong>Server</strong></p> | <p>Requires Windows Server 2008, Windows Server 2003, or Windows 2000 Server.</p> | 
+| <p><strong>Header</strong></p> | <p>Declared in Esent.h.</p> | 
+
 
 
 ### See Also

@@ -80,45 +80,15 @@ If the Connect method fails, you can collect the error identifier to find the me
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Error Identifier</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>0x80070005</td>
-<td>Access is denied to connect to the Task Scheduler service.</td>
-</tr>
-<tr class="even">
-<td>0x80041315</td>
-<td>The Task Scheduler service is not running.</td>
-</tr>
-<tr class="odd">
-<td>0x8007000e</td>
-<td>The application does not have enough memory to complete the operation or the <em>user</em>, <em>password</em>, or <em>domain</em> has at least one null and one non-null value.</td>
-</tr>
-<tr class="even">
-<td>53</td>
-<td>This error is returned in the following situations:
-<ul>
-<li>The computer name specified in the <em>serverName</em> parameter does not exist.</li>
-<li>When you are trying to connect to a Windows Server 2003 or Windows XP computer, and the remote computer does not have the File and Printer Sharing firewall exception enabled or the Remote Registry service is not running.</li>
-<li>When you are trying to connect to a Windows Vista computer, and the remote computer does not have the Remote Scheduled Tasks Management firewall exception enabled and the File and Printer Sharing firewall exception enabled, or the Remote Registry service is not running.</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>50</td>
-<td>The <em>user</em>, <em>password</em>, or <em>domain</em> parameters cannot be specified when connecting to a remote Windows XP or Windows Server 2003 computer from a Windows Vista computer.</td>
-</tr>
-</tbody>
-</table>
+
+| Error Identifier | Description | 
+|------------------|-------------|
+| 0x80070005 | Access is denied to connect to the Task Scheduler service. | 
+| 0x80041315 | The Task Scheduler service is not running. | 
+| 0x8007000e | The application does not have enough memory to complete the operation or the <em>user</em>, <em>password</em>, or <em>domain</em> has at least one null and one non-null value. | 
+| 53 | This error is returned in the following situations:<ul><li>The computer name specified in the <em>serverName</em> parameter does not exist.</li><li>When you are trying to connect to a Windows Server 2003 or Windows XP computer, and the remote computer does not have the File and Printer Sharing firewall exception enabled or the Remote Registry service is not running.</li><li>When you are trying to connect to a Windows Vista computer, and the remote computer does not have the Remote Scheduled Tasks Management firewall exception enabled and the File and Printer Sharing firewall exception enabled, or the Remote Registry service is not running.</li></ul> | 
+| 50 | The <em>user</em>, <em>password</em>, or <em>domain</em> parameters cannot be specified when connecting to a remote Windows XP or Windows Server 2003 computer from a Windows Vista computer. | 
+
 
 
 

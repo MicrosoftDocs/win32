@@ -248,63 +248,14 @@ The GDF for a game provider typically contains no rating information, and it is 
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Operating System</th>
-<th>Supported rating systems</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Windows Vista</td>
-<td><ul>
-<li>CERO (Japan)</li>
-<li>ESRB (USA)</li>
-<li>OFLC (Australia)</li>
-<li>PEGI (Europe)</li>
-<li>PEGI Finland (deprecated)</li>
-<li>PEGI Portugal</li>
-<li>PEGI/BBFC (United Kingdom)</li>
-<li>USK (Germany)</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>Windows Vista with a service pack</td>
-<td>Service packs for Windows Vista add support for the following:<br/>
-<ul>
-<li>GRB (South Korea)</li>
-<li>ESRB &quot;Mild&quot; variant content descriptors</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>Windows 7</td>
-<td>Windows 7 supports the ratings systems supported by Windows Vista and adds support for the following: <br/>
-<ul>
-<li>CSRR (Taiwan)</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>Windows 8</td>
-<td>Windows 8 supports the previous ratings systems and adds support for the following:<br/>
-<ul>
-<li>COB-AU (Australia)</li>
-<li>DJCTQ (Brazil)</li>
-<li>PFB (South Africa)</li>
-<li>OFLC-NZ (New Zealand)</li>
-</ul>
-Windows 8 retires support for the following now deprecated systems:<br/>
-<ul>
-<li>PEGI-FI (Finland)</li>
-<li>OFLC (Australia)</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| Operating System | Supported rating systems | 
+|------------------|--------------------------|
+| Windows Vista | <ul><li>CERO (Japan)</li><li>ESRB (USA)</li><li>OFLC (Australia)</li><li>PEGI (Europe)</li><li>PEGI Finland (deprecated)</li><li>PEGI Portugal</li><li>PEGI/BBFC (United Kingdom)</li><li>USK (Germany)</li></ul> | 
+| Windows Vista with a service pack | Service packs for Windows Vista add support for the following:<br /><ul><li>GRB (South Korea)</li><li>ESRB "Mild" variant content descriptors</li></ul> | 
+| Windows 7 | Windows 7 supports the ratings systems supported by Windows Vista and adds support for the following: <br /><ul><li>CSRR (Taiwan)</li></ul> | 
+| Windows 8 | Windows 8 supports the previous ratings systems and adds support for the following:<br /><ul><li>COB-AU (Australia)</li><li>DJCTQ (Brazil)</li><li>PFB (South Africa)</li><li>OFLC-NZ (New Zealand)</li></ul>Windows 8 retires support for the following now deprecated systems:<br /><ul><li>PEGI-FI (Finland)</li><li>OFLC (Australia)</li></ul> | 
+
 
 
 

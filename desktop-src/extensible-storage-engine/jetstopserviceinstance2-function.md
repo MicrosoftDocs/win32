@@ -48,60 +48,25 @@ The target instance. The **JET_INSTANCE** data type is a handle to the instance 
 
 A group of bits that specifies one or more of the values listed and defined in the following table.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Value</p></th>
-<th><p>Description</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_bitStopServiceAll</p></td>
-<td><p>Stops all Extensible Storage Engine (ESE) services for the specified instance.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_bitStopServiceBackgroundUserTasks</p></td>
-<td><p>Stops restartable client-specified background maintenance tasks (B+ Tree Defrag, for example).</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_bitStopServiceQuiesceCaches</p></td>
-<td><p>Quiesces all dirty caches to disk. This value is asynchronous and can be canceled.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_bitStopServiceResume</p></td>
-<td><p>Resumes previously issued StopService operations; that is, it restarts the service. This value can be combined with the <em>grbits</em> parameter to resume specific services, or with JET_bitStopServiceAll to Resume all previously stopped services. This bit can only be used to resume StopServiceBackgroundUserTasks and JET_bitStopServiceQuiesceCaches. If you previously called with JET_bitStopServiceAll, an attempt to use JET_bitStopServiceResume will fail. If the second resume step does not get called, the application will have degraded performance. In this situation the checkpoint is kept at zero.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Value</p> | <p>Description</p> | 
+|--------------|--------------------|
+| <p>JET_bitStopServiceAll</p> | <p>Stops all Extensible Storage Engine (ESE) services for the specified instance.</p> | 
+| <p>JET_bitStopServiceBackgroundUserTasks</p> | <p>Stops restartable client-specified background maintenance tasks (B+ Tree Defrag, for example).</p> | 
+| <p>JET_bitStopServiceQuiesceCaches</p> | <p>Quiesces all dirty caches to disk. This value is asynchronous and can be canceled.</p> | 
+| <p>JET_bitStopServiceResume</p> | <p>Resumes previously issued StopService operations; that is, it restarts the service. This value can be combined with the <em>grbits</em> parameter to resume specific services, or with JET_bitStopServiceAll to Resume all previously stopped services. This bit can only be used to resume StopServiceBackgroundUserTasks and JET_bitStopServiceQuiesceCaches. If you previously called with JET_bitStopServiceAll, an attempt to use JET_bitStopServiceResume will fail. If the second resume step does not get called, the application will have degraded performance. In this situation the checkpoint is kept at zero.</p> | 
+
 
 
 ### Return value
 
 This function returns the [JET_ERR](./jet-err.md) data type with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](./extensible-storage-engine-errors.md) and [Error Handling Parameters](./error-handling-parameters.md).
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Return code</p></th>
-<th><p>Description</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_errSuccess</p></td>
-<td><p>The operation completed successfully.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Return code</p> | <p>Description</p> | 
+|--------------------|--------------------|
+| <p>JET_errSuccess</p> | <p>The operation completed successfully.</p> | 
+
 
 
 #### Remarks
@@ -118,34 +83,15 @@ When Resumed: JET_ERR JET_API JetStopServiceInstance2( instance, JET_bitStopServ
 
 #### Requirements
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Client</strong></p></td>
-<td><p>Requires Windows 8.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Server</strong></p></td>
-<td><p>Requires Windows Server 2012.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>Header</strong></p></td>
-<td><p>Declared in Esent.h.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Library</strong></p></td>
-<td><p>Use ESENT.lib.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>DLL</strong></p></td>
-<td><p>Requires ESENT.dll.</p></td>
-</tr>
-</tbody>
-</table>
+
+| 
+|
+| <p><strong>Client</strong></p> | <p>Requires Windows 8.</p> | 
+| <p><strong>Server</strong></p> | <p>Requires Windows Server 2012.</p> | 
+| <p><strong>Header</strong></p> | <p>Declared in Esent.h.</p> | 
+| <p><strong>Library</strong></p> | <p>Use ESENT.lib.</p> | 
+| <p><strong>DLL</strong></p> | <p>Requires ESENT.dll.</p> | 
+
 
 
 #### See also
