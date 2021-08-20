@@ -73,8 +73,8 @@ If there are multiple elements, the last one is used. If no [dateTimeFormat]() e
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">

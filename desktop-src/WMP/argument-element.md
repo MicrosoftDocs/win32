@@ -55,8 +55,8 @@ When the **name** attribute of a **fragment** element is a media item characteri
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -90,8 +90,8 @@ When the **name** attribute of a **fragment** element is "Limit Total Size To" o
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -130,8 +130,8 @@ When the **name** attribute of a **fragment** element is "Limit Number of Items"
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">

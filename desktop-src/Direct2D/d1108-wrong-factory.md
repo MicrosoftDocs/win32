@@ -95,7 +95,7 @@ The following example first creates two debug-enabled [**ID2D1Factory**](/window
 
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -118,7 +118,7 @@ The following example first creates two debug-enabled [**ID2D1Factory**](/window
 
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -142,7 +142,7 @@ The following example first creates two debug-enabled [**ID2D1Factory**](/window
 
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">

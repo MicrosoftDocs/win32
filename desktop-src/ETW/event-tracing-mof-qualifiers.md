@@ -65,8 +65,8 @@ The following table lists the qualifiers you can specify on a property.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">

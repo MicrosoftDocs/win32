@@ -58,8 +58,8 @@ For the preceding command to work, three files must be located in the current wo
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">

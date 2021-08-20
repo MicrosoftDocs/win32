@@ -69,7 +69,7 @@ if( FAILED (hr = D3D11CreateDeviceAndSwapChain( NULL,
 >
 > <table>
 > <colgroup>
-> <col style="width: 100%" />
+> <col  />
 > </colgroup>
 > <tbody>
 > <tr class="odd">
@@ -105,7 +105,7 @@ if( FAILED (hr = D3D11CreateDeviceAndSwapChain( NULL,
 >
 > <table>
 > <colgroup>
-> <col style="width: 100%" />
+> <col  />
 > </colgroup>
 > <tbody>
 > <tr class="odd">
@@ -133,7 +133,7 @@ if( FAILED (hr = D3D11CreateDeviceAndSwapChain( NULL,
 >
 > <table>
 > <colgroup>
-> <col style="width: 100%" />
+> <col  />
 > </colgroup>
 > <thead>
 > <tr class="header">

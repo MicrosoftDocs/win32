@@ -41,10 +41,10 @@ Represents a [Font Control](windowsribbon-controls-fontcontrol.md), which is a s
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col  />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">

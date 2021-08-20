@@ -108,8 +108,8 @@ When constructing your [**SWbemNamedValueSet**](swbemnamedvalueset.md), only the
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">

@@ -36,8 +36,8 @@ To find the available biometric subtypes for a particular biometric type, use th
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">

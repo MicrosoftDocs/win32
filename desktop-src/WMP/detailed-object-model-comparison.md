@@ -24,8 +24,8 @@ The following table compares the Windows Media Player 6.4 object model propertie
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -532,8 +532,8 @@ The following table compares the Windows Media Player version 6.4 object model m
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">

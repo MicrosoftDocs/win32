@@ -38,53 +38,53 @@ The **IMsRdpClientAdvancedSettings5** interface has these properties.
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
-<th style="text-align: left;">Property</th>
-<th style="text-align: left;">Access type</th>
-<th style="text-align: left;">Description</th>
+<th >Property</th>
+<th >Access type</th>
+<th >Description</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;"><a href="imsrdpclientadvancedsettings5-audioredirectionmode.md"><strong>AudioRedirectionMode</strong></a><br/></td>
-<td style="text-align: left;">Read/write<br/></td>
-<td style="text-align: left;">The audio redirection mode. The <a href="imsrdpclientadvancedsettings5-audioredirectionmode.md"><strong>AudioRedirectionMode</strong></a> property has the following possible values.<br/>
+<td ><a href="imsrdpclientadvancedsettings5-audioredirectionmode.md"><strong>AudioRedirectionMode</strong></a><br/></td>
+<td >Read/write<br/></td>
+<td >The audio redirection mode. The <a href="imsrdpclientadvancedsettings5-audioredirectionmode.md"><strong>AudioRedirectionMode</strong></a> property has the following possible values.<br/>
 <dt><span id="AUDIO_MODE_REDIRECT___0"></span><span id="audio_mode_redirect___0"></span><strong>AUDIO_MODE_REDIRECT 0</strong> (Audio redirection is enabled and the option for redirection is &quot;Bring to this computer&quot;. This is the default mode.)<br/> </dt> <dd></dd> <dt><span id="AUDIO_MODE_PLAY_ON_SERVER_1"></span><span id="audio_mode_play_on_server_1"></span><strong>AUDIO_MODE_PLAY_ON_SERVER 1</strong> (Audio redirection is enabled and the option is &quot;Leave at remote computer&quot;. The &quot;Leave at remote computer&quot; option is supported only when connecting remotely to a host computer that is running Windows Vista. If the connection is to a host computer that is running Windows Server 2008, the option &quot;Leave at remote computer&quot; is changed to &quot;Do not play&quot;.)<br/> </dt> <dd></dd> <dt><span id="AUDIO_MODE_NONE_2"></span><span id="audio_mode_none_2"></span><strong>AUDIO_MODE_NONE 2</strong> (Audio redirection is enabled and the mode is &quot;Do not play&quot;.)<br/> </dt> <dd></dd> </dl></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><a href="imsrdpclientadvancedsettings5-bitmapvirtualcache32bppsize.md"><strong>BitmapVirtualCache32BppSize</strong></a><br/></td>
-<td style="text-align: left;">Read/write<br/></td>
-<td style="text-align: left;">Specifies the virtual cache file size for 32 bits per pixel (bpp) bitmaps. The maximum value is 48 megabytes (MB).<br/></td>
+<td ><a href="imsrdpclientadvancedsettings5-bitmapvirtualcache32bppsize.md"><strong>BitmapVirtualCache32BppSize</strong></a><br/></td>
+<td >Read/write<br/></td>
+<td >Specifies the virtual cache file size for 32 bits per pixel (bpp) bitmaps. The maximum value is 48 megabytes (MB).<br/></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><a href="imsrdpclientadvancedsettings5-connectionbarshowpinbutton.md"><strong>ConnectionBarShowPinButton</strong></a><br/></td>
-<td style="text-align: left;">Read/write<br/></td>
-<td style="text-align: left;">Specifies whether the pin button should be shown on the connection bar. By default, the value is <strong>TRUE</strong>.<br/></td>
+<td ><a href="imsrdpclientadvancedsettings5-connectionbarshowpinbutton.md"><strong>ConnectionBarShowPinButton</strong></a><br/></td>
+<td >Read/write<br/></td>
+<td >Specifies whether the pin button should be shown on the connection bar. By default, the value is <strong>TRUE</strong>.<br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><a href="imsrdpclientadvancedsettings5-publicmode.md"><strong>PublicMode</strong></a><br/></td>
-<td style="text-align: left;">Read/write<br/></td>
-<td style="text-align: left;">Specifies whether public mode should be enabled or disabled. By default, public mode is set to <strong>FALSE</strong>.<br/></td>
+<td ><a href="imsrdpclientadvancedsettings5-publicmode.md"><strong>PublicMode</strong></a><br/></td>
+<td >Read/write<br/></td>
+<td >Specifies whether public mode should be enabled or disabled. By default, public mode is set to <strong>FALSE</strong>.<br/></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><a href="imsrdpclientadvancedsettings5-redirectclipboard.md"><strong>RedirectClipboard</strong></a><br/></td>
-<td style="text-align: left;">Read/write<br/></td>
-<td style="text-align: left;">Specifies whether clipboard redirection should be enabled or disabled. By default, clipboard redirection mode is set to <strong>TRUE</strong> (enabled).<br/></td>
+<td ><a href="imsrdpclientadvancedsettings5-redirectclipboard.md"><strong>RedirectClipboard</strong></a><br/></td>
+<td >Read/write<br/></td>
+<td >Specifies whether clipboard redirection should be enabled or disabled. By default, clipboard redirection mode is set to <strong>TRUE</strong> (enabled).<br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><a href="imsrdpclientadvancedsettings5-redirectdevices.md"><strong>RedirectDevices</strong></a><br/></td>
-<td style="text-align: left;">Read/write<br/></td>
-<td style="text-align: left;">Specifies whether redirected devices should be enabled or disabled. By default, redirected devices mode is set to <strong>FALSE</strong>.<br/></td>
+<td ><a href="imsrdpclientadvancedsettings5-redirectdevices.md"><strong>RedirectDevices</strong></a><br/></td>
+<td >Read/write<br/></td>
+<td >Specifies whether redirected devices should be enabled or disabled. By default, redirected devices mode is set to <strong>FALSE</strong>.<br/></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><a href="imsrdpclientadvancedsettings5-redirectposdevices.md"><strong>RedirectPOSDevices</strong></a><br/></td>
-<td style="text-align: left;">Read/write<br/></td>
-<td style="text-align: left;">Specifies whether Point of Service redirected devices should be enabled or disabled. By default, Point of Service redirected devices mode is set to <strong>FALSE</strong>.<br/></td>
+<td ><a href="imsrdpclientadvancedsettings5-redirectposdevices.md"><strong>RedirectPOSDevices</strong></a><br/></td>
+<td >Read/write<br/></td>
+<td >Specifies whether Point of Service redirected devices should be enabled or disabled. By default, Point of Service redirected devices mode is set to <strong>FALSE</strong>.<br/></td>
 </tr>
 </tbody>
 </table>

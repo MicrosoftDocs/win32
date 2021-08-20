@@ -14,9 +14,9 @@ Constants used by [**D3DPRESENT\_PARAMETERS**](d3dpresent-parameters.md).
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">

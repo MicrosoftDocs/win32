@@ -22,7 +22,7 @@ This section covers APIs for the Direct3D graphics diagnostics capture interface
 
 ## <span id="in_this_section"></span>In this section
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><thead><tr class="header"><th>Topic</th><th>Description</th></tr></thead><tbody><tr class="odd"><td><p><a href="vspixengine-interfaces.md">Direct3D Diagnostics Capture Interface Interfaces</a></p></td><td><p>The following interfaces are declared in vspixengine.h.</p></td></tr><tr class="even"><td><p><a href="vspixengine-structures.md">Direct3D Diagnostics Capture Interface Structures</a></p></td><td><p>The following structures are declared in vspixengine.h.</p></td></tr><tr class="odd"><td><p><a href="vspixengine-enumerations.md">Direct3D Diagnostics Capture Interface Enumerations</a></p></td><td><p>The following enumerations are declared in vspixengine.h.</p></td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><thead><tr class="header"><th>Topic</th><th>Description</th></tr></thead><tbody><tr class="odd"><td><p><a href="vspixengine-interfaces.md">Direct3D Diagnostics Capture Interface Interfaces</a></p></td><td><p>The following interfaces are declared in vspixengine.h.</p></td></tr><tr class="even"><td><p><a href="vspixengine-structures.md">Direct3D Diagnostics Capture Interface Structures</a></p></td><td><p>The following structures are declared in vspixengine.h.</p></td></tr><tr class="odd"><td><p><a href="vspixengine-enumerations.md">Direct3D Diagnostics Capture Interface Enumerations</a></p></td><td><p>The following enumerations are declared in vspixengine.h.</p></td></tr></tbody></table>
 
  
 
