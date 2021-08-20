@@ -221,8 +221,8 @@ Thank you again for joining in our commitment to delivering great customer exper
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">

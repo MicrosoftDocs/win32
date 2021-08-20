@@ -242,9 +242,9 @@ The values in the table are under the following key:
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -270,7 +270,7 @@ The values in the table are under the following key:
 <td><span data-codelanguage="XML"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -322,9 +322,9 @@ If the application provides both a screen reader and a screen magnifier in a sin
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -350,7 +350,7 @@ If the application provides both a screen reader and a screen magnifier in a sin
 <td><span data-codelanguage="XML"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -399,9 +399,9 @@ The values for the magnifier component would be in the following key:
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -427,7 +427,7 @@ The values for the magnifier component would be in the following key:
 <td><span data-codelanguage="XML"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">

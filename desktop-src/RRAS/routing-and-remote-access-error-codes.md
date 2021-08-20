@@ -21,8 +21,8 @@ The following Routing and Remote Access (RRAS) API error codes are defined in ra
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -1588,8 +1588,8 @@ The following Routing and Remote Access (RRAS) API error codes are defined in mp
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">

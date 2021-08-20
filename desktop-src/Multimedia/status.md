@@ -58,8 +58,8 @@ Flag for requesting status information. The following table lists device types t
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -305,8 +305,8 @@ The following table lists the flags that can be specified in the **lpszRequest**
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">

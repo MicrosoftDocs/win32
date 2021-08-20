@@ -35,10 +35,10 @@ Represents a [core](windowsribbon-controls-tab.md) or [contextual](windowsribbon
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col  />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">

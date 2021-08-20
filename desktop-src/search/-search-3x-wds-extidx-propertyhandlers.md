@@ -84,8 +84,8 @@ For each of these properties, you need to determine what attributes it should ha
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">

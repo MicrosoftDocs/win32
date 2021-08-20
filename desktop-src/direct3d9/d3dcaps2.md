@@ -14,9 +14,9 @@ Driver capability flags.
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">

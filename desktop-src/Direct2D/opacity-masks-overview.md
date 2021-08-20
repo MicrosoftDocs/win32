@@ -174,7 +174,7 @@ The steps that follow describe how to re-create this effect.
     <span codelanguage="ManagedCPlusPlus"></span>
     <table>
     <colgroup>
-    <col style="width: 100%" />
+    <col  />
     </colgroup>
     <thead>
     <tr class="header">
@@ -198,7 +198,7 @@ The steps that follow describe how to re-create this effect.
     <span codelanguage="ManagedCPlusPlus"></span>
     <table>
     <colgroup>
-    <col style="width: 100%" />
+    <col  />
     </colgroup>
     <thead>
     <tr class="header">
@@ -303,7 +303,7 @@ The first example creates an [**ID2D1BitmapBrush**](/windows/win32/api/d2d1/nn-d
 
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -328,7 +328,7 @@ The first example creates an [**ID2D1BitmapBrush**](/windows/win32/api/d2d1/nn-d
 
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">

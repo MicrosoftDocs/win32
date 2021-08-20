@@ -94,8 +94,8 @@ Keeping that code in mind, consider that a geometry shader looks much like a ver
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -109,7 +109,7 @@ Keeping that code in mind, consider that a geometry shader looks much like a ver
 <td>The function return type does one thing, declares the maximum number of vertices that can be output by the shader. In this case, <span data-codelanguage=""></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -127,7 +127,7 @@ defines the output to be a maximum of 12 vertices.</td>
 <span data-codelanguage=""></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">

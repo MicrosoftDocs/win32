@@ -34,13 +34,13 @@ The **IUpdateObject** interface inherits from the [**IUnknown**](/windows/deskto
 
 The **IUpdateObject** interface has these methods.
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><thead><tr class="header"><th style="text-align: left;">Method</th><th style="text-align: left;">Description</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;"><a href="/windows/desktop/direct3dtools/iupdateobject-updateobject-uint-dword-byte-arr-iupdateobjectcallback-ptr"><strong>UpdateObject</strong></a></td><td style="text-align: left;"><p>A request to update the initial state of an object; for example, a texture or shader.</p></td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><thead><tr class="header"><th style="text-align: left;">Method</th><th style="text-align: left;">Description</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;"><a href="/windows/desktop/direct3dtools/iupdateobject-updateobject-uint-dword-byte-arr-iupdateobjectcallback-ptr"><strong>UpdateObject</strong></a></td><td style="text-align: left;"><p>A request to update the initial state of an object; for example, a texture or shader.</p></td></tr></tbody></table>
 
  
 
 ## Requirements
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><tbody><tr class="odd"><td><p>Header</p></td><td>Vspixengine.h</td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><tbody><tr class="odd"><td><p>Header</p></td><td>Vspixengine.h</td></tr></tbody></table>
 
  
 

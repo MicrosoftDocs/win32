@@ -34,8 +34,8 @@ Pragma directive that modifies the behavior of compiler warning messages.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">

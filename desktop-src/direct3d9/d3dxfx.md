@@ -16,8 +16,8 @@ The constants in the following table are defined in d3dx9effect.h.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -49,7 +49,7 @@ The constants in the following table are defined in d3dx9effect.h.
 <td>Enables the allocation of an effect resource into the uppder address space of a machine. One important limitation is that you cannot use strings and handles interchangeably. For example, the following would no longer work. <span data-codelanguage=""></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">

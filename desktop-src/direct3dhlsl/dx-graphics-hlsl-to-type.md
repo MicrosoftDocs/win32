@@ -55,8 +55,8 @@ Multisampled objects (Texture2DMS and Texture2DMSArray) require the texture size
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">

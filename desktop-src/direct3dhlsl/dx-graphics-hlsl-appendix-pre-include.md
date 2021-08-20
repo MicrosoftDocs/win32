@@ -41,8 +41,8 @@ The difference between the two syntax forms is the order in which the preprocess
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">

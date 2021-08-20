@@ -30,8 +30,8 @@ A number of registry keys and values define the level and type of logging curren
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">

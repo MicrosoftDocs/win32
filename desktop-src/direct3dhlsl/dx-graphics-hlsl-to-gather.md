@@ -27,8 +27,8 @@ Gets the four samples (red component only) that would be used for bilinear inter
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">

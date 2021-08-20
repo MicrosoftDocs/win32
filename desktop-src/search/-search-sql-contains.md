@@ -43,9 +43,9 @@ The following table describes the types of content search terms.
 <!-- markdownlint-disable MD033 -->
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -61,7 +61,7 @@ The following table describes the types of content search terms.
 <td><span data-codelanguage=""></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -78,7 +78,7 @@ The following table describes the types of content search terms.
 <span data-codelanguage=""></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -102,7 +102,7 @@ Or, to use a double quote mark:
 <span data-codelanguage=""></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -124,7 +124,7 @@ Matches &quot;computer&quot;, &quot;computers&quot;,
 <span data-codelanguage=""></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -142,7 +142,7 @@ Matches &quot;computer&quot;, &quot;computers&quot;,
 <span data-codelanguage=""></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -171,7 +171,7 @@ Matches &quot;computer&quot;, &quot;computers&quot;,
 <span data-codelanguage=""></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -190,7 +190,7 @@ Matches &quot;computer&quot;, &quot;computers&quot;,
 <span data-codelanguage=""></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -213,7 +213,7 @@ Matches &quot;happy&quot;, &quot;happier&quot;,
 <span data-codelanguage=""></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">

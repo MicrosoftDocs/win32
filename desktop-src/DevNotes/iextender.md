@@ -81,22 +81,22 @@ The **IExtender** interface has these properties.
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
-<th style="text-align: left;">Property</th>
-<th style="text-align: left;">Access type</th>
-<th style="text-align: left;">Description</th>
+<th >Property</th>
+<th >Access type</th>
+<th >Description</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">Align<br/></td>
-<td style="text-align: left;">Read/write<br/></td>
-<td style="text-align: left;">Returns or sets a value that determines whether an object is displayed in any size anywhere on a form or whether it is displayed at the top, bottom, left, or right of the form and is automatically sized to fit the width of the form.<br/> 
+<td >Align<br/></td>
+<td >Read/write<br/></td>
+<td >Returns or sets a value that determines whether an object is displayed in any size anywhere on a form or whether it is displayed at the top, bottom, left, or right of the form and is automatically sized to fit the width of the form.<br/> 
 <table>
 <thead>
 <tr class="header">
@@ -131,59 +131,59 @@ The **IExtender** interface has these properties.
 <p> </p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><p>Container</p></td>
-<td style="text-align: left;"><p>Read-only</p></td>
-<td style="text-align: left;"><p>Returns the container of a control on a form.</p></td>
+<td ><p>Container</p></td>
+<td ><p>Read-only</p></td>
+<td ><p>Returns the container of a control on a form.</p></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><p>Enabled</p></td>
-<td style="text-align: left;"><p>Read/write</p></td>
-<td style="text-align: left;"><p>Returns or sets a value that determines whether a form or control can respond to user-generated events.</p></td>
+<td ><p>Enabled</p></td>
+<td ><p>Read/write</p></td>
+<td ><p>Returns or sets a value that determines whether a form or control can respond to user-generated events.</p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><p>Height</p></td>
-<td style="text-align: left;"><p>Read/write</p></td>
-<td style="text-align: left;"><p>Returns or sets the height of an object.</p></td>
+<td ><p>Height</p></td>
+<td ><p>Read/write</p></td>
+<td ><p>Returns or sets the height of an object.</p></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><p>Hwnd</p></td>
-<td style="text-align: left;"><p>Read-only</p></td>
-<td style="text-align: left;"><p>Returns a handle to a form or control.</p></td>
+<td ><p>Hwnd</p></td>
+<td ><p>Read-only</p></td>
+<td ><p>Returns a handle to a form or control.</p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><p>Left</p></td>
-<td style="text-align: left;"><p>Read/write</p></td>
-<td style="text-align: left;"><p>Returns or sets the distance between the internal left edge of an object and the left edge of its container.</p></td>
+<td ><p>Left</p></td>
+<td ><p>Read/write</p></td>
+<td ><p>Returns or sets the distance between the internal left edge of an object and the left edge of its container.</p></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><p>Name</p></td>
-<td style="text-align: left;"><p>Read-only</p></td>
-<td style="text-align: left;"><p>Returns the name used in code to identify a form, control, or data access object.</p></td>
+<td ><p>Name</p></td>
+<td ><p>Read-only</p></td>
+<td ><p>Returns the name used in code to identify a form, control, or data access object.</p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><p>Parent</p></td>
-<td style="text-align: left;"><p>Read-only</p></td>
-<td style="text-align: left;"><p>Returns the form, object, or collection that contains a control or another object or collection.</p></td>
+<td ><p>Parent</p></td>
+<td ><p>Read-only</p></td>
+<td ><p>Returns the form, object, or collection that contains a control or another object or collection.</p></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><p>TabStop</p></td>
-<td style="text-align: left;"><p>Read/write</p></td>
-<td style="text-align: left;"><p>Returns or sets a value that indicates whether a user can use the <strong>Tab</strong> key to give the focus to an object.</p></td>
+<td ><p>TabStop</p></td>
+<td ><p>Read/write</p></td>
+<td ><p>Returns or sets a value that indicates whether a user can use the <strong>Tab</strong> key to give the focus to an object.</p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><p>Top</p></td>
-<td style="text-align: left;"><p>Read/write</p></td>
-<td style="text-align: left;"><p>Returns or sets the distance between the internal top edge of an object and the top edge of its container.</p></td>
+<td ><p>Top</p></td>
+<td ><p>Read/write</p></td>
+<td ><p>Returns or sets the distance between the internal top edge of an object and the top edge of its container.</p></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><p>Visible</p></td>
-<td style="text-align: left;"><p>Read/write</p></td>
-<td style="text-align: left;"><p>Returns or sets a value that indicates whether an object is visible or hidden.</p></td>
+<td ><p>Visible</p></td>
+<td ><p>Read/write</p></td>
+<td ><p>Returns or sets a value that indicates whether an object is visible or hidden.</p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><p>Width</p></td>
-<td style="text-align: left;"><p>Read/write</p></td>
-<td style="text-align: left;"><p>Returns or sets the width of an object.</p></td>
+<td ><p>Width</p></td>
+<td ><p>Read/write</p></td>
+<td ><p>Returns or sets the width of an object.</p></td>
 </tr>
 </tbody>
 </table>

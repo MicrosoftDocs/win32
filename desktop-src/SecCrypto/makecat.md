@@ -83,8 +83,8 @@ The \[CatalogFiles\] section defines each member of the catalog file with files 
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">

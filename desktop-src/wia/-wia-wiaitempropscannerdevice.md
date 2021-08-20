@@ -59,35 +59,35 @@ The prefix "WIA\_DPS\_" indicates a Device Property for Scanner devices and is t
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
-<th style="text-align: left;">Constant/value</th>
-<th style="text-align: left;">Description</th>
+<th >Constant/value</th>
+<th >Description</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;"><span id="WIA_DPS_DEVICE_ID"></span><span id="wia_dps_device_id"></span><dl> <dt><strong>WIA_DPS_DEVICE_ID</strong></dt> <dt>ScannerDeviceDeviceId</dt> </dl></td>
-<td style="text-align: left;"><blockquote>
+<td ><span id="WIA_DPS_DEVICE_ID"></span><span id="wia_dps_device_id"></span><dl> <dt><strong>WIA_DPS_DEVICE_ID</strong></dt> <dt>ScannerDeviceDeviceId</dt> </dl></td>
+<td ><blockquote>
 [!Note]<br />
 This property is supported only on Windows Vista and later.
 </blockquote>
 <br/> Contains a unique function instance identifier for a web services scanner device. This identifier represents the web service on the scanner device with which the WIA mini-driver is communicating. No assumptions about the form of this identifier should be made. The WIA mini-driver creates and maintains this property. <br/> WIA applications can use the value of WIA_DPS_DEVICE_ID to find, using the Function Discovery API, the function instance object representing the web services scanner device used in the current WIA 2.0 session.<br/> Type: <strong>VT_BSTR</strong>, Access: Read Only, Valid values: <a href="-wia-property-attributes.md">WIA_PROP_NONE</a><br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><span id="WIA_DPS_DITHER_PATTERN_DATA"></span><span id="wia_dps_dither_pattern_data"></span><dl> <dt><strong>WIA_DPS_DITHER_PATTERN_DATA</strong></dt> </dl></td>
-<td style="text-align: left;">Reserved, do not use.<br/> Type: <strong>VT_I4</strong>, Access: Read Only, Valid values: <a href="-wia-property-attributes.md">WIA_PROP_NONE</a><br/></td>
+<td ><span id="WIA_DPS_DITHER_PATTERN_DATA"></span><span id="wia_dps_dither_pattern_data"></span><dl> <dt><strong>WIA_DPS_DITHER_PATTERN_DATA</strong></dt> </dl></td>
+<td >Reserved, do not use.<br/> Type: <strong>VT_I4</strong>, Access: Read Only, Valid values: <a href="-wia-property-attributes.md">WIA_PROP_NONE</a><br/></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><span id="WIA_DPS_DITHER_SELECT"></span><span id="wia_dps_dither_select"></span><dl> <dt><strong>WIA_DPS_DITHER_SELECT</strong></dt> </dl></td>
-<td style="text-align: left;">Reserved, do not use.<br/> Type: <strong>VT_I4</strong>, Access: Read Only, Valid values: <a href="-wia-property-attributes.md">WIA_PROP_NONE</a><br/></td>
+<td ><span id="WIA_DPS_DITHER_SELECT"></span><span id="wia_dps_dither_select"></span><dl> <dt><strong>WIA_DPS_DITHER_SELECT</strong></dt> </dl></td>
+<td >Reserved, do not use.<br/> Type: <strong>VT_I4</strong>, Access: Read Only, Valid values: <a href="-wia-property-attributes.md">WIA_PROP_NONE</a><br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><span id="WIA_DPS_DOCUMENT_HANDLING_CAPABILITIES"></span><span id="wia_dps_document_handling_capabilities"></span><dl> <dt><strong>WIA_DPS_DOCUMENT_HANDLING_CAPABILITIES</strong></dt> <dt>ScannerDeviceDocumentHandlingCapabilities</dt> </dl></td>
-<td style="text-align: left;">Contains the capabilities of the scanner. The minidriver creates and maintains this property. <br/> An application reads this property to determine whether the scanner has a flatbed, document feeder, or duplexer installed. This property is also used to further define the installed features.<br/> Type: <strong>VT_I4</strong>, Access: Read Only, Valid values: <a href="-wia-property-attributes.md">WIA_PROP_NONE</a><br/> The following table describes the constants that are valid with Windows 7 only.<br/> 
+<td ><span id="WIA_DPS_DOCUMENT_HANDLING_CAPABILITIES"></span><span id="wia_dps_document_handling_capabilities"></span><dl> <dt><strong>WIA_DPS_DOCUMENT_HANDLING_CAPABILITIES</strong></dt> <dt>ScannerDeviceDocumentHandlingCapabilities</dt> </dl></td>
+<td >Contains the capabilities of the scanner. The minidriver creates and maintains this property. <br/> An application reads this property to determine whether the scanner has a flatbed, document feeder, or duplexer installed. This property is also used to further define the installed features.<br/> Type: <strong>VT_I4</strong>, Access: Read Only, Valid values: <a href="-wia-property-attributes.md">WIA_PROP_NONE</a><br/> The following table describes the constants that are valid with Windows 7 only.<br/> 
 <table>
 <thead>
 <tr class="header">
@@ -204,8 +204,8 @@ This property is supported only on Windows Vista and later.
 <p> </p></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><span id="WIA_DPS_DOCUMENT_HANDLING_SELECT"></span><span id="wia_dps_document_handling_select"></span><dl> <dt><strong>WIA_DPS_DOCUMENT_HANDLING_SELECT</strong></dt> <dt>ScannerDeviceDocumentHandlingSelect</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_DPS_DOCUMENT_HANDLING_SELECT"></span><span id="wia_dps_document_handling_select"></span><dl> <dt><strong>WIA_DPS_DOCUMENT_HANDLING_SELECT</strong></dt> <dt>ScannerDeviceDocumentHandlingSelect</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
 This property is not supported in Windows Vista and later. Use <a href="-wia-wiaitempropscanneritem.md"><strong>WIA_IPS_DOCUMENT_HANDLING_SELECT</strong></a>.
@@ -272,8 +272,8 @@ This property is not supported in Windows Vista and later. Use <a href="-wia-wi
 <p> </p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><span id="WIA_DPS_DOCUMENT_HANDLING_STATUS"></span><span id="wia_dps_document_handling_status"></span><dl> <dt><strong>WIA_DPS_DOCUMENT_HANDLING_STATUS</strong></dt> <dt>ScannerDeviceDocumentHandlingStatus</dt> </dl></td>
-<td style="text-align: left;"><p>Contains current state of the scanner's installed flatbed, document feeder, or duplexer. The minidriver creates and maintains this property.</p>
+<td ><span id="WIA_DPS_DOCUMENT_HANDLING_STATUS"></span><span id="wia_dps_document_handling_status"></span><dl> <dt><strong>WIA_DPS_DOCUMENT_HANDLING_STATUS</strong></dt> <dt>ScannerDeviceDocumentHandlingStatus</dt> </dl></td>
+<td ><p>Contains current state of the scanner's installed flatbed, document feeder, or duplexer. The minidriver creates and maintains this property.</p>
 <p>An application reads this property to determine whether the scanner device is ready to be used. This is an ideal way to check whether paper is in the feeder prior to acquiring an image.</p>
 <p>Type: <strong>VT_I4</strong>, Access: Read Only, Valid values: <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p>
 <p>The following table has the constants that are valid with this property.An asterisk * indicates that the flag is not supported in Windows Vista or later. The <strong>V</strong> symbol indicates that the flag is supported only in Windows Vista and later. </p>
@@ -339,13 +339,13 @@ This property is not supported in Windows Vista and later. Use <a href="-wia-wi
 <p> </p></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><span id="WIA_DPS_ENDORSER_CHARACTERS"></span><span id="wia_dps_endorser_characters"></span><dl> <dt><strong>WIA_DPS_ENDORSER_CHARACTERS</strong></dt> <dt>ScannerDeviceEndorserCharacters</dt> </dl></td>
-<td style="text-align: left;"><p>Contains all the valid characters that an application can use to create valid endorser strings. An endorser is a printer installed on a scanner that imprints a text message on every page scanned. The minidriver should validate the setting of the <strong>WIA_DPS_ENDORSER_STRING</strong> property against the valid character set in this property. The minidriver creates and maintains this property.</p>
+<td ><span id="WIA_DPS_ENDORSER_CHARACTERS"></span><span id="wia_dps_endorser_characters"></span><dl> <dt><strong>WIA_DPS_ENDORSER_CHARACTERS</strong></dt> <dt>ScannerDeviceEndorserCharacters</dt> </dl></td>
+<td ><p>Contains all the valid characters that an application can use to create valid endorser strings. An endorser is a printer installed on a scanner that imprints a text message on every page scanned. The minidriver should validate the setting of the <strong>WIA_DPS_ENDORSER_STRING</strong> property against the valid character set in this property. The minidriver creates and maintains this property.</p>
 <p>Type: <strong>VT_BSTR</strong>, Access: Read Only, Valid values: <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><span id="WIA_DPS_ENDORSER_STRING"></span><span id="wia_dps_endorser_string"></span><dl> <dt><strong>WIA_DPS_ENDORSER_STRING</strong></dt> <dt>ScannerDeviceEndorserString</dt> </dl></td>
-<td style="text-align: left;"><p>Contains a string that is to be endorsed (in other words, printed) on each page that the minidriver scans. An application sets this property using the valid character set that is reported in the <strong>WIA_DPS_ENDORSER_CHARACTERS</strong> property. The minidriver should endorse documents only if a string is set in this property. An empty string means that the endorser functionality is disabled.</p>
+<td ><span id="WIA_DPS_ENDORSER_STRING"></span><span id="wia_dps_endorser_string"></span><dl> <dt><strong>WIA_DPS_ENDORSER_STRING</strong></dt> <dt>ScannerDeviceEndorserString</dt> </dl></td>
+<td ><p>Contains a string that is to be endorsed (in other words, printed) on each page that the minidriver scans. An application sets this property using the valid character set that is reported in the <strong>WIA_DPS_ENDORSER_CHARACTERS</strong> property. The minidriver should endorse documents only if a string is set in this property. An empty string means that the endorser functionality is disabled.</p>
 <p>Because it is the driver's responsibility to interpret the endorser string, your driver can use special characters in <strong>WIA_DPS_ENDORSER_STRING</strong>. However, only your applications would understand these characters.</p>
 <p>Type: <strong>VT_BSTR</strong>, Access: Read/Write, Valid values: <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p>
 <p>A driver supporting the <strong>WIA_DPS_ENDORSER_STRING</strong> property must support the following list of tokens. </p>
@@ -387,13 +387,13 @@ This property is not supported in Windows Vista and later. Use <a href="-wia-wi
 <p> </p></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><span id="WIA_DPS_FILTER_SELECT"></span><span id="wia_dps_filter_select"></span><dl> <dt><strong>WIA_DPS_FILTER_SELECT</strong></dt> </dl></td>
-<td style="text-align: left;"><p>Reserved, do not use.</p>
+<td ><span id="WIA_DPS_FILTER_SELECT"></span><span id="wia_dps_filter_select"></span><dl> <dt><strong>WIA_DPS_FILTER_SELECT</strong></dt> </dl></td>
+<td ><p>Reserved, do not use.</p>
 <p>Type: <strong>VT_I4</strong>, Access: Read Only, Valid values: <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><span id="WIA_DPS_GLOBAL_IDENTITY"></span><span id="wia_dps_global_identity"></span><dl> <dt><strong>WIA_DPS_GLOBAL_IDENTITY</strong></dt> <dt>ScannerDeviceGlobalIdentity</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_DPS_GLOBAL_IDENTITY"></span><span id="wia_dps_global_identity"></span><dl> <dt><strong>WIA_DPS_GLOBAL_IDENTITY</strong></dt> <dt>ScannerDeviceGlobalIdentity</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
 This property is supported only on Windows Vista and later.
@@ -406,8 +406,8 @@ This property is supported only on Windows Vista and later.
 <p>Type: <strong>VT_BSTR</strong>, Access: Read Only, Valid values: <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><span id="WIA_DPS_HORIZONTAL_BED_REGISTRATION"></span><span id="wia_dps_horizontal_bed_registration"></span><dl> <dt><strong>WIA_DPS_HORIZONTAL_BED_REGISTRATION</strong></dt> <dt>ScannerDeviceHorizontalBedRegistration</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_DPS_HORIZONTAL_BED_REGISTRATION"></span><span id="wia_dps_horizontal_bed_registration"></span><dl> <dt><strong>WIA_DPS_HORIZONTAL_BED_REGISTRATION</strong></dt> <dt>ScannerDeviceHorizontalBedRegistration</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
 This property is not supported with Windows Vista and later.
@@ -448,8 +448,8 @@ This property is not supported with Windows Vista and later.
 <p><strong>WIA_DPS_VERTICAL_BED_REGISTRATION</strong></p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><span id="WIA_DPS_HORIZONTAL_BED_SIZE"></span><span id="wia_dps_horizontal_bed_size"></span><dl> <dt><strong>WIA_DPS_HORIZONTAL_BED_SIZE</strong></dt> <dt>ScannerDeviceHorizontalBedSize</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_DPS_HORIZONTAL_BED_SIZE"></span><span id="wia_dps_horizontal_bed_size"></span><dl> <dt><strong>WIA_DPS_HORIZONTAL_BED_SIZE</strong></dt> <dt>ScannerDeviceHorizontalBedSize</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
 This property is not supported with Windows Vista and later. Use <a href="-wia-wiaitempropscanneritem.md"><strong>WIA_IPS_MAX_HORIZONTAL_SIZE</strong></a>.
@@ -462,8 +462,8 @@ This property is not supported with Windows Vista and later. Use <a href="-wia-
 <p>Type: <strong>VT_I4</strong>, Access: Read Only, Valid values: <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><span id="WIA_DPS_HORIZONTAL_SHEET_FEED_SIZE"></span><span id="wia_dps_horizontal_sheet_feed_size"></span><dl> <dt><strong>WIA_DPS_HORIZONTAL_SHEET_FEED_SIZE</strong></dt> <dt>ScannerDeviceHorizontalSheetFeedSize</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_DPS_HORIZONTAL_SHEET_FEED_SIZE"></span><span id="wia_dps_horizontal_sheet_feed_size"></span><dl> <dt><strong>WIA_DPS_HORIZONTAL_SHEET_FEED_SIZE</strong></dt> <dt>ScannerDeviceHorizontalSheetFeedSize</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
 This property is not supported with Windows Vista and later. Use <a href="-wia-wiaitempropscanneritem.md"><strong>WIA_IPS_MAX_HORIZONTAL_SIZE</strong></a>.
@@ -476,13 +476,13 @@ This property is not supported with Windows Vista and later. Use <a href="-wia-
 <p>Type: <strong>VT_I4</strong>, Access: Read Only, Valid values: <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><span id="WIA_DPS_MAX_SCAN_TIME"></span><span id="wia_dps_max_scan_time"></span><dl> <dt><strong>WIA_DPS_MAX_SCAN_TIME</strong></dt> <dt>ScannerDeviceMaxScanTime</dt> </dl></td>
-<td style="text-align: left;"><p>Contains the maximum time to scan a single page with the current property settings, in milliseconds. An application reads this property to estimate the time it will take to scan a page. This is helpful when determining the conditions of a device that has stopped responding. The minidriver creates and maintains this property. This property is required for all scanners.</p>
+<td ><span id="WIA_DPS_MAX_SCAN_TIME"></span><span id="wia_dps_max_scan_time"></span><dl> <dt><strong>WIA_DPS_MAX_SCAN_TIME</strong></dt> <dt>ScannerDeviceMaxScanTime</dt> </dl></td>
+<td ><p>Contains the maximum time to scan a single page with the current property settings, in milliseconds. An application reads this property to estimate the time it will take to scan a page. This is helpful when determining the conditions of a device that has stopped responding. The minidriver creates and maintains this property. This property is required for all scanners.</p>
 <p>Type: <strong>VT_I4</strong>, Access: Read Only, Valid values: <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><span id="WIA_DPS_MIN_HORIZONTAL_SHEET_FEED_SIZE"></span><span id="wia_dps_min_horizontal_sheet_feed_size"></span><dl> <dt><strong>WIA_DPS_MIN_HORIZONTAL_SHEET_FEED_SIZE</strong></dt> <dt>ScannerDeviceMinHorizontalSheetFeedSize</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_DPS_MIN_HORIZONTAL_SHEET_FEED_SIZE"></span><span id="wia_dps_min_horizontal_sheet_feed_size"></span><dl> <dt><strong>WIA_DPS_MIN_HORIZONTAL_SHEET_FEED_SIZE</strong></dt> <dt>ScannerDeviceMinHorizontalSheetFeedSize</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
 This property is not supported with Windows Vista and later. Use <a href="-wia-wiaitempropscanneritem.md"><strong>WIA_IPS_MIN_HORIZONTAL_SIZE</strong></a>.
@@ -497,8 +497,8 @@ This property is not supported with Windows Vista and later. Use <a href="-wia-
 <p><strong>WIA_DPS_MIN_VERTICAL_SHEET_FEED_SIZE</strong></p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><span id="WIA_DPS_MIN_VERTICAL_SHEET_FEED_SIZE"></span><span id="wia_dps_min_vertical_sheet_feed_size"></span><dl> <dt><strong>WIA_DPS_MIN_VERTICAL_SHEET_FEED_SIZE</strong></dt> <dt>ScannerDeviceMinVerticalSheetFeedSize</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_DPS_MIN_VERTICAL_SHEET_FEED_SIZE"></span><span id="wia_dps_min_vertical_sheet_feed_size"></span><dl> <dt><strong>WIA_DPS_MIN_VERTICAL_SHEET_FEED_SIZE</strong></dt> <dt>ScannerDeviceMinVerticalSheetFeedSize</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
 This property is not supported with Windows Vista and later. Use <a href="-wia-wiaitempropscanneritem.md"><strong>WIA_IPS_MIN_VERTICAL_SIZE</strong></a>.
@@ -513,8 +513,8 @@ This property is not supported with Windows Vista and later. Use <a href="-wia-
 <p><strong>WIA_DPS_MIN_HORIZONTAL_SHEET_FEED_SIZE</strong></p></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><span id="WIA_DPS_OPTICAL_XRES"></span><span id="wia_dps_optical_xres"></span><dl> <dt><strong>WIA_DPS_OPTICAL_XRES</strong></dt> <dt>ScannerDeviceOpticalXres</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_DPS_OPTICAL_XRES"></span><span id="wia_dps_optical_xres"></span><dl> <dt><strong>WIA_DPS_OPTICAL_XRES</strong></dt> <dt>ScannerDeviceOpticalXres</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
 This property is not supported by Windows Vista. Use <a href="-wia-wiaitempropscanneritem.md"><strong>WIA_IPS_OPTICAL_XRES</strong></a>.
@@ -527,8 +527,8 @@ This property is not supported by Windows Vista. Use <a href="-wia-wiaitemprops
 <p>Type: <strong>VT_I4</strong>, Access: Read Only, Valid values: <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><span id="WIA_DPS_OPTICAL_YRES"></span><span id="wia_dps_optical_yres"></span><dl> <dt><strong>WIA_DPS_OPTICAL_YRES</strong></dt> <dt>ScannerDeviceOpticalYres</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_DPS_OPTICAL_YRES"></span><span id="wia_dps_optical_yres"></span><dl> <dt><strong>WIA_DPS_OPTICAL_YRES</strong></dt> <dt>ScannerDeviceOpticalYres</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
 This property is not supported by Windows Vista. Use <a href="-wia-wiaitempropscanneritem.md"><strong>WIA_IPS_OPTICAL_YRES</strong></a>.
@@ -541,8 +541,8 @@ This property is not supported by Windows Vista. Use <a href="-wia-wiaitemprops
 <p>Type: <strong>VT_I4</strong>, Access: Read Only, Valid values: <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><span id="WIA_DPS_ORIENTATION"></span><span id="wia_dps_orientation"></span><dl> <dt><strong>WIA_DPS_ORIENTATION</strong></dt> <dt>ScannerDeviceOrientation</dt> </dl></td>
-<td style="text-align: left;"><p>Contains the current orientation setting.The minidriver creates and maintains this property.</p>
+<td ><span id="WIA_DPS_ORIENTATION"></span><span id="wia_dps_orientation"></span><dl> <dt><strong>WIA_DPS_ORIENTATION</strong></dt> <dt>ScannerDeviceOrientation</dt> </dl></td>
+<td ><p>Contains the current orientation setting.The minidriver creates and maintains this property.</p>
 <p>An application sets the <strong>WIA_DPS_ORIENTATION</strong> property to define the original orientation of a page or image to be acquired. For information on how to use WIA_DPS_ORIENTATION, see <strong>WIA_DPS_PAGE_SIZE</strong></p>
 <p>Type: <strong>VT_I4</strong>, Access: Read/Write, Valid values: <a href="-wia-property-attributes.md">WIA_PROP_LIST</a></p>
 <p>The following table has the four constants that are valid with this property.</p>
@@ -579,14 +579,14 @@ This property is not supported by Windows Vista. Use <a href="-wia-wiaitemprops
 <p><a href="-wia-wiaitempropscanneritem.md"><strong>WIA_IPS_ROTATION</strong></a></p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><span id="WIA_DPS_PAD_COLOR"></span><span id="wia_dps_pad_color"></span><dl> <dt><strong>WIA_DPS_PAD_COLOR</strong></dt> <dt>ScannerDevicePadColor</dt> </dl></td>
-<td style="text-align: left;"><p>Color used to pad when there is not enough image data to fill a requested buffer. This property is implemented for scanners that pad the buffer. This property is optional for all scanners. The minidriver creates and maintains this property.</p>
+<td ><span id="WIA_DPS_PAD_COLOR"></span><span id="wia_dps_pad_color"></span><dl> <dt><strong>WIA_DPS_PAD_COLOR</strong></dt> <dt>ScannerDevicePadColor</dt> </dl></td>
+<td ><p>Color used to pad when there is not enough image data to fill a requested buffer. This property is implemented for scanners that pad the buffer. This property is optional for all scanners. The minidriver creates and maintains this property.</p>
 <p>Type: <strong>VT_UI1</strong> | <strong>VT_VECTOR</strong>, Access: Read Only, Valid values: <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p>
 <p>The format of the color information is <a href="/windows/win32/api/wingdi/ns-wingdi-rgbquad">RGBQUAD</a>.</p></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><span id="WIA_DPS_PAGE_HEIGHT"></span><span id="wia_dps_page_height"></span><dl> <dt><strong>WIA_DPS_PAGE_HEIGHT</strong></dt> <dt>ScannerDevicePageHeight</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_DPS_PAGE_HEIGHT"></span><span id="wia_dps_page_height"></span><dl> <dt><strong>WIA_DPS_PAGE_HEIGHT</strong></dt> <dt>ScannerDevicePageHeight</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
 This property is not supported by Windows Vista. Use <a href="-wia-wiaitempropscanneritem.md"><strong>WIA_IPS_PAGE_HEIGHT</strong></a>.
@@ -599,8 +599,8 @@ This property is not supported by Windows Vista. Use <a href="-wia-wiaitemprops
 <p>Type: <strong>VT_I4</strong>, Access: Read Only, Valid values: <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><span id="WIA_DPS_PAGE_SIZE"></span><span id="wia_dps_page_size"></span><dl> <dt><strong>WIA_DPS_PAGE_SIZE</strong></dt> <dt>ScannerDevicePageSize</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_DPS_PAGE_SIZE"></span><span id="wia_dps_page_size"></span><dl> <dt><strong>WIA_DPS_PAGE_SIZE</strong></dt> <dt>ScannerDevicePageSize</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
 This property is not supported by Windows Vista. Use <a href="-wia-wiaitempropscanneritem.md"><strong>WIA_IPS_PAGE_SIZE</strong></a>.
@@ -655,7 +655,7 @@ This property is not supported by Windows Vista. Use <a href="-wia-wiaitemprops
 <span data-codelanguage=""></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -679,7 +679,7 @@ WIA_IPS_YRES = 100</code></pre></td>
 <span data-codelanguage=""></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -704,7 +704,7 @@ WIA_IPS_YRES = 100</code></pre></td>
 <span data-codelanguage=""></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -729,7 +729,7 @@ WIA_IPS_YRES = 100</code></pre></td>
 <span data-codelanguage=""></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -750,8 +750,8 @@ WIA_IPS_YRES = 100</code></pre></td>
 </div></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><span id="WIA_DPS_PAGE_WIDTH"></span><span id="wia_dps_page_width"></span><dl> <dt><strong>WIA_DPS_PAGE_WIDTH</strong></dt> <dt>ScannerDevicePageWidth</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_DPS_PAGE_WIDTH"></span><span id="wia_dps_page_width"></span><dl> <dt><strong>WIA_DPS_PAGE_WIDTH</strong></dt> <dt>ScannerDevicePageWidth</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
 This property is not supported by Windows Vista. Use <a href="-wia-wiaitempropscanneritem.md"><strong>WIA_IPS_PAGE_WIDTH</strong></a>.
@@ -764,8 +764,8 @@ This property is not supported by Windows Vista. Use <a href="-wia-wiaitemprops
 <p>Type: <strong>VT_I4</strong>, Access: Read Only, Valid values: <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><span id="WIA_DPS_PAGES"></span><span id="wia_dps_pages"></span><dl> <dt><strong>WIA_DPS_PAGES</strong></dt> <dt>ScannerDevicePages</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_DPS_PAGES"></span><span id="wia_dps_pages"></span><dl> <dt><strong>WIA_DPS_PAGES</strong></dt> <dt>ScannerDevicePages</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
 This property is not supported by Windows Vista. Use <a href="-wia-wiaitempropscanneritem.md"><strong>WIA_IPS_PAGES</strong></a>.
@@ -790,14 +790,14 @@ If duplex mode is enabled (<strong>WIA_DPS_DOCUMENT_HANDLING_SELECT</strong> is 
 <p>Setting <strong>WIA_DPS_PAGES</strong> to 1 causes a scanner to process one of the sides of the page. It is recommended that if a scanner is unable to scan only one side of a page while in duplex mode, the <strong>WIA_DPS_PAGES</strong> valid value for the Inc member of the WIA_PROPERTY_INFO structure should be changed to 2. This value signals the application that it must request pages in multiples of two. A value of zero means that <em>all</em> pages that are currently loaded into the document feeder are to be scanned.</p></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><span id="WIA_DPS_PLATEN_COLOR"></span><span id="wia_dps_platen_color"></span><dl> <dt><strong>WIA_DPS_PLATEN_COLOR</strong></dt> <dt>ScannerDevicePlatenColor</dt> </dl></td>
-<td style="text-align: left;"><p>Specifies the color of the platen in back of the sheet to be scanned. This property is optional for scanners that have a platen. The minidriver creates and maintains this property.</p>
+<td ><span id="WIA_DPS_PLATEN_COLOR"></span><span id="wia_dps_platen_color"></span><dl> <dt><strong>WIA_DPS_PLATEN_COLOR</strong></dt> <dt>ScannerDevicePlatenColor</dt> </dl></td>
+<td ><p>Specifies the color of the platen in back of the sheet to be scanned. This property is optional for scanners that have a platen. The minidriver creates and maintains this property.</p>
 <p>Type: <strong>VT_UI1</strong> | <strong>VT_VECTOR</strong>, Access: Read Only, Valid values: <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p>
 <p>The format of the color information is <a href="/windows/win32/api/wingdi/ns-wingdi-rgbquad">RGBQUAD</a>.</p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><span id="WIA_DPS_PREVIEW"></span><span id="wia_dps_preview"></span><dl> <dt><strong>WIA_DPS_PREVIEW</strong></dt> <dt>ScannerDevicePreview</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_DPS_PREVIEW"></span><span id="wia_dps_preview"></span><dl> <dt><strong>WIA_DPS_PREVIEW</strong></dt> <dt>ScannerDevicePreview</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
 This property is not supported by Windows Vista. Use <a href="-wia-wiaitempropscanneritem.md"><strong>WIA_IPS_PREVIEW</strong></a>.
@@ -831,14 +831,14 @@ This property is not supported by Windows Vista. Use <a href="-wia-wiaitemprops
 <p> </p></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><span id="WIA_DPS_SCAN_AHEAD_PAGES"></span><span id="wia_dps_scan_ahead_pages"></span><dl> <dt><strong>WIA_DPS_SCAN_AHEAD_PAGES</strong></dt> <dt>ScannerDeviceScanAheadPages</dt> </dl></td>
-<td style="text-align: left;"><p>Contains a value that indicates whether the scanner will cache pages in a scanner buffer before sending them to the application.</p>
+<td ><span id="WIA_DPS_SCAN_AHEAD_PAGES"></span><span id="wia_dps_scan_ahead_pages"></span><dl> <dt><strong>WIA_DPS_SCAN_AHEAD_PAGES</strong></dt> <dt>ScannerDeviceScanAheadPages</dt> </dl></td>
+<td ><p>Contains a value that indicates whether the scanner will cache pages in a scanner buffer before sending them to the application.</p>
 <p>A value of zero disables scan ahead and no pages will be scanned ahead. Doing normal data transfers on the buffered scan-ahead item retrieves the buffered pages. WIA properties cannot be changed during a scan-ahead operation. This property is optional.</p>
 <p>Type: <strong>VT_I4</strong>, Access: Read/Write, Valid values: <a href="-wia-property-attributes.md">WIA_PROP_RANGE</a> of zero to the maximum number of pages that the document feeder can hold.</p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><span id="WIA_DPS_SCAN_AVAILABLE_ITEM"></span><span id="wia_dps_scan_available_item"></span><dl> <dt><strong>WIA_DPS_SCAN_AVAILABLE_ITEM</strong></dt> <dt>ScannerDeviceScanAvailableItem</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_DPS_SCAN_AVAILABLE_ITEM"></span><span id="wia_dps_scan_available_item"></span><dl> <dt><strong>WIA_DPS_SCAN_AVAILABLE_ITEM</strong></dt> <dt>ScannerDeviceScanAvailableItem</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
 This property is supported only by Windows 7 and later.
@@ -852,8 +852,8 @@ This property is supported only by Windows 7 and later.
 <p>Type: <strong>VT_I4</strong>, Access: Read/Write, Valid values: <a href="-wia-property-attributes.md">WIA_PROP_RANGE</a> of zero to the maximum number of pages that the document feeder can hold.</p></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><span id="WIA_DPS_SERVICE_ID"></span><span id="wia_dps_service_id"></span><dl> <dt><strong>WIA_DPS_SERVICE_ID</strong></dt> <dt>ScannerDeviceServiceId</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_DPS_SERVICE_ID"></span><span id="wia_dps_service_id"></span><dl> <dt><strong>WIA_DPS_SERVICE_ID</strong></dt> <dt>ScannerDeviceServiceId</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
 This property is supported only by Windows Vista and later.
@@ -866,8 +866,8 @@ This property is supported only by Windows Vista and later.
 <p>Type: <strong>VT_BSTR</strong>, Access: Read Only, Valid values: <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><span id="WIA_DPS_SHEET_FEEDER_REGISTRATION"></span><span id="wia_dps_sheet_feeder_registration"></span><dl> <dt><strong>WIA_DPS_SHEET_FEEDER_REGISTRATION</strong></dt> <dt>ScannerDeviceSheetFeederRegistration</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_DPS_SHEET_FEEDER_REGISTRATION"></span><span id="wia_dps_sheet_feeder_registration"></span><dl> <dt><strong>WIA_DPS_SHEET_FEEDER_REGISTRATION</strong></dt> <dt>ScannerDeviceSheetFeederRegistration</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
 This property is not supported with Windows Vista and later. Use <a href="-wia-wiaitempropscanneritem.md"><strong>WIA_IPS_SHEET_FEEDER_REGISTRATION</strong></a>.
@@ -907,8 +907,8 @@ This property is not supported with Windows Vista and later. Use <a href="-wia-
 <p> </p></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><span id="WIA_DPS_SHOW_PREVIEW_CONTROL"></span><span id="wia_dps_show_preview_control"></span><dl> <dt><strong>WIA_DPS_SHOW_PREVIEW_CONTROL</strong></dt> <dt>ScannerDeviceShowPreviewControl</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_DPS_SHOW_PREVIEW_CONTROL"></span><span id="wia_dps_show_preview_control"></span><dl> <dt><strong>WIA_DPS_SHOW_PREVIEW_CONTROL</strong></dt> <dt>ScannerDeviceShowPreviewControl</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
 This property is not supported by Windows Vista. Use <a href="-wia-wiaitempropscanneritem.md"><strong>WIA_IPS_SHOW_PREVIEW_CONTROL</strong></a>.
@@ -942,8 +942,8 @@ This property is not supported by Windows Vista. Use <a href="-wia-wiaitemprops
 <p> </p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><span id="WIA_DPS_USER_NAME"></span><span id="wia_dps_user_name"></span><dl> <dt><strong>WIA_DPS_USER_NAME</strong></dt> <dt>ScannerDeviceUserName</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_DPS_USER_NAME"></span><span id="wia_dps_user_name"></span><dl> <dt><strong>WIA_DPS_USER_NAME</strong></dt> <dt>ScannerDeviceUserName</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
 This property is supported only by Windows Vista and later.
@@ -957,8 +957,8 @@ This property is supported only by Windows Vista and later.
 <p>Type: <strong>VT_BSTR</strong>, Access: Read Only, Valid values: <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><span id="WIA_DPS_VERTICAL_BED_REGISTRATION"></span><span id="wia_dps_vertical_bed_registration"></span><dl> <dt><strong>WIA_DPS_VERTICAL_BED_REGISTRATION</strong></dt> <dt>ScannerDeviceVerticalBedRegistration</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_DPS_VERTICAL_BED_REGISTRATION"></span><span id="wia_dps_vertical_bed_registration"></span><dl> <dt><strong>WIA_DPS_VERTICAL_BED_REGISTRATION</strong></dt> <dt>ScannerDeviceVerticalBedRegistration</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
 This property is not supported with Windows Vista and later.
@@ -998,8 +998,8 @@ This property is not supported with Windows Vista and later.
 <p><strong>WIA_DPS_HORIZONTAL_BED_REGISTRATION</strong></p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><span id="WIA_DPS_VERTICAL_BED_SIZE"></span><span id="wia_dps_vertical_bed_size"></span><dl> <dt><strong>WIA_DPS_VERTICAL_BED_SIZE</strong></dt> <dt>ScannerDeviceVerticalBedSize</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_DPS_VERTICAL_BED_SIZE"></span><span id="wia_dps_vertical_bed_size"></span><dl> <dt><strong>WIA_DPS_VERTICAL_BED_SIZE</strong></dt> <dt>ScannerDeviceVerticalBedSize</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
 This property is not supported with Windows Vista and later. Use <a href="-wia-wiaitempropscanneritem.md"><strong>WIA_IPS_MAX_VERTICAL_SIZE</strong></a>.
@@ -1012,8 +1012,8 @@ This property is not supported with Windows Vista and later. Use <a href="-wia-
 <p>Type: <strong>VT_I4</strong>, Access: Read Only, Valid values: <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><span id="WIA_DPS_VERTICAL_SHEET_FEED_SIZE"></span><span id="wia_dps_vertical_sheet_feed_size"></span><dl> <dt><strong>WIA_DPS_VERTICAL_SHEET_FEED_SIZE</strong></dt> <dt>ScannerDeviceVerticalSheetFeedSize</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_DPS_VERTICAL_SHEET_FEED_SIZE"></span><span id="wia_dps_vertical_sheet_feed_size"></span><dl> <dt><strong>WIA_DPS_VERTICAL_SHEET_FEED_SIZE</strong></dt> <dt>ScannerDeviceVerticalSheetFeedSize</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
 This property is not supported with Windows Vista and later. Use <a href="-wia-wiaitempropscanneritem.md"><strong>WIA_IPS_MAX_VERTICAL_SIZE</strong></a>.

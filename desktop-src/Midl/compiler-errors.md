@@ -23,8 +23,8 @@ The following error messages are generated during MIDL compilation:
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
