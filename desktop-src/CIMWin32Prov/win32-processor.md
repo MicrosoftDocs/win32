@@ -630,6 +630,7 @@ This property is inherited from [<b>CIM_Processor</b>](cim-processor.md).
       <dt><b>z/Architectur base</b> (204)</dt>
       <dt><b>Intel(R) Core(TM) i5 processor</b> (205)</dt>
       <dt><b>Intel(R) Core(TM) i3 processor</b> (206)</dt>
+      <dt><b>Intel(R) Core(TM) i9 processor</b> (207)</dt>
       <dt><b>VIA C7(TM)-M Processor Family</b> (210)</dt>
       <dt><b>VIA C7(TM)-D Processor Family</b> (211)</dt>
       <dt><b>VIA C7(TM) Processor Family</b> (212)</dt>
