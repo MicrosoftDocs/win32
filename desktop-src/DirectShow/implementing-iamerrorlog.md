@@ -60,7 +60,7 @@ if( pExtraInfo )    // Report extra information, if any.
 > [!Note]  
 > Do not free the VARIANT pointed to by
 >
-> <span codelanguage=""></span>
+> 
 >
 > 
 | 
