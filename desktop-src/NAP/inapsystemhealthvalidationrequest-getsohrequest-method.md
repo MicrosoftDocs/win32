@@ -79,9 +79,9 @@ The *sohRequest* parameter may return **NULL** if the client did not send an [**
 
 If the *napSystemGenerated* parameter is **TRUE**, the format of *SoHRequest* is as follows:
 
--   [**sohAttributeTypeSystemHealthId**](sohattributetype-enum.md)= <id>
+-   [**sohAttributeTypeSystemHealthId**](sohattributetype-enum.md)= &lt;id&gt;
 -   [**sohAttributeTypeFailureCategory**](sohattributetype-enum.md)= [**failureCategoryClientComponent**](/windows/win32/api/naptypes/ne-naptypes-failurecategory)
--   [**sohAttributeTypeErrorCodes**](sohattributetype-enum.md) = [**<sha-failure-error-code>**](nap-error-constants.md)
+-   [**sohAttributeTypeErrorCodes**](sohattributetype-enum.md) = [**&lt;sha-failure-error-code&gt;**](nap-error-constants.md)
 
 ## Requirements
 

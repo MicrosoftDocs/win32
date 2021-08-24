@@ -179,7 +179,7 @@ The following table describes the methods of [**ISearchCrawlScopeManager**](/win
 
  
 
-If you believe that a file path should be excluded, but it is listed as included, be sure that exclusion rules end with "<path>\\\*". If you believe that a file or file path should be included but it is not, be sure to check the FANCI bit setting for the file or path. You can do this by right-clicking the file or file path and selecting **Properties**, then be sure the **For fast searching, allow Indexing Service to index this folder** checkbox is selected. If the file or file path is not marked for indexing here, it will not be indexed even if it is in an inclusion rule.
+If you believe that a file path should be excluded, but it is listed as included, be sure that exclusion rules end with "&lt;path&gt;\\\*". If you believe that a file or file path should be included but it is not, be sure to check the FANCI bit setting for the file or path. You can do this by right-clicking the file or file path and selecting **Properties**, then be sure the **For fast searching, allow Indexing Service to index this folder** checkbox is selected. If the file or file path is not marked for indexing here, it will not be indexed even if it is in an inclusion rule.
 
 ## Related topics
 

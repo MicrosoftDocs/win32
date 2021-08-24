@@ -45,7 +45,7 @@ where grouping ranges are defined as follows:
 
 
 
-The GROUP ON <column> can be a regular or delimited [identifier](-search-sql-identifiers.md) for a property in the property store.
+The GROUP ON &lt;column&gt; can be a regular or delimited [identifier](-search-sql-identifiers.md) for a property in the property store.
 
 The optional <group ranges> is a list of one or more values (number, date, or string) used for dividing the results into groups. The <range limit> identifies a division point in the returned result set, and the <label> identifies a user-friendly label for a group. You can divide the result set into as many groups as you need.
 
@@ -61,7 +61,7 @@ The following table demonstrates how results are divided into groups based the r
 
 
 
-| Example (<column> \[group ranges\])        | Result                                                                                                                                                                                                                                                                         |
+| Example (&lt;column&gt; \[group ranges\])        | Result                                                                                                                                                                                                                                                                         |
 |--------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | System.Size \[1000, 5000\]                       | Results are grouped into four buckets: **MINVALUE**: Size < 1000<br/> **1000:** 1000 <= Size < 5000<br/> **5000:** Size >= 5000<br/> **NULL:** No value for Size<br/>                                                                      |
 | System.Author \[BEFORE('m'),AFTER('r')\]         | Results are grouped into four buckets: **MINVALUE:** Author < character before "m"<br/> **m:** character before "m" <= Author < character after "r"<br/> **r:** character after "r" <= Author<br/> **NULL:** No value for Author<br/>      |

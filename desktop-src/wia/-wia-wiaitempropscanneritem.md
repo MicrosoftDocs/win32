@@ -303,7 +303,7 @@ This property is supported only by Windows Vista and later.
 <p>Enables specification of a particular film scanning attachment when there is more than one.</p>
 <p>This property is required for the WIA_CATEGORY_FILM items when there are multiple film scan items. If the device supports only one root scanner film item then this property is optional.</p>
 <p>Type: <strong>VT_BSTR</strong>, Access: Read Only, Valid Values: <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p>
-<p>Allowed values: The BSTR should be in the form of @ResourceBinary,-<ResourceID> to allow localization as this string would be exposed to the user through the film scanning UI.</p></td>
+<p>Allowed values: The BSTR should be in the form of @ResourceBinary,-&lt;ResourceID&gt; to allow localization as this string would be exposed to the user through the film scanning UI.</p></td>
 </tr>
 <tr class="odd">
 <td ><span id="WIA_IPS_FILM_SCAN_MODE"></span><span id="wia_ips_film_scan_mode"></span><dl> <dt><strong>WIA_IPS_FILM_SCAN_MODE</strong></dt> <dt>ScannerPictureFilmScanMode</dt> </dl></td>

@@ -35,7 +35,7 @@ or
 
 
 
-The <protocol> segment must be followed by two (2) forward slashes ('/') unless it is the file: protocol, which requires three slashes (file:///). The <site or SID> segment represents either a content store or a user security identifier if the search root is meant to be specific to the user. The <path> segment is a set of containers, like directories or folders, and can include the wildcard character '\*'. The <item> segment is optional and can also include the wildcard character '\*'. If you do not include an item, be sure to finish your path segment with a slash or the indexer will assume that the last subcontainer is an item.
+The &lt;protocol&gt; segment must be followed by two (2) forward slashes ('/') unless it is the file: protocol, which requires three slashes (file:///). The <site or SID> segment represents either a content store or a user security identifier if the search root is meant to be specific to the user. The &lt;path&gt; segment is a set of containers, like directories or folders, and can include the wildcard character '\*'. The &lt;item&gt; segment is optional and can also include the wildcard character '\*'. If you do not include an item, be sure to finish your path segment with a slash or the indexer will assume that the last subcontainer is an item.
 
 For example, suppose you have implemented a protocol handler (myPH) to handle files of type \*.myext for a custom application. All of these files will be located in the folder WorkteamA\\ProjectFiles on a local computer. The search root for that might look like this:
 

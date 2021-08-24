@@ -10,11 +10,11 @@ ms.date: 05/31/2018
 
 This temporary table enables the [Custom Action Patch Uninstall Option](custom-action-patch-uninstall-option.md) for custom actions added or updated by a patch.
 
-If a patch adds or updates a custom action having the **msidbCustomActionTypePatchUninstall** attribute, Windows Installer runs the new or updated custom action when the patch is uninstalled. Windows Installer makes the updates within the patch being uninstalled available to the patch uninstall custom action. The patch must include a MsiTransformView*<PatchGUID>* table to provide this information to Windows Installer. The information in this table is available to any immediate custom action, and is unavailable to deferred custom actions.
+If a patch adds or updates a custom action having the **msidbCustomActionTypePatchUninstall** attribute, Windows Installer runs the new or updated custom action when the patch is uninstalled. Windows Installer makes the updates within the patch being uninstalled available to the patch uninstall custom action. The patch must include a MsiTransformView*&lt;PatchGUID&gt;* table to provide this information to Windows Installer. The information in this table is available to any immediate custom action, and is unavailable to deferred custom actions.
 
 **[Windows Installer 4.0 and earlier](not-supported-in-windows-installer-4-0.md):** Not supported. The [Custom Action Patch Uninstall Option](custom-action-patch-uninstall-option.md) is available beginning with Windows Installer 4.5.
 
-This table should be named MsiTransformView*<PatchGUID>* Table, where *<PatchGUID>* is the GUID that uniquely identifies the patch. The MsiTransformView*<PatchGUID>* Table has the following columns.
+This table should be named MsiTransformView*&lt;PatchGUID&gt;* Table, where *&lt;PatchGUID&gt;* is the GUID that uniquely identifies the patch. The MsiTransformView*&lt;PatchGUID&gt;* Table has the following columns.
 
 
 

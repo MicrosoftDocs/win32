@@ -55,7 +55,7 @@ Set to one of the following [**TASK\_LOGON TYPE**](/windows/desktop/api/taskschd
 
 This property is valid only when a user identifier is specified by the [**UserId**](principal-userid.md) property.
 
-When reading or writing XML for a task, the logon type is specified in the [**<LogonType>**](taskschedulerschema-logontype-principaltype-element.md) element of the Task Scheduler schema.
+When reading or writing XML for a task, the logon type is specified in the [**&lt;LogonType&gt;**](taskschedulerschema-logontype-principaltype-element.md) element of the Task Scheduler schema.
 
 For a task, that contains a message box action, the message box will be displayed if the task is activated and the task has an interactive logon type. To set the task logon type to interactive, specify 3 (**TASK\_LOGON\_INTERACTIVE\_TOKEN**) or 4 (**TASK\_LOGON\_GROUP**) in the **LogonType** property of the task principal, or in the *logonType* parameter of [**TaskFolder.RegisterTask**](taskfolder-registertask.md) or [**TaskFolder.RegisterTaskDefinition**](taskfolder-registertaskdefinition.md).
 

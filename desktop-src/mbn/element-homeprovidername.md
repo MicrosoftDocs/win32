@@ -25,8 +25,8 @@ The name of the home provider for the given SIM/Device. For more information, se
 
 ## Element hierarchy
 
-[<MBNProfileExt>](element-mbnprofileext.md)  
-**<HomeProviderName>**
+[&lt;MBNProfileExt&gt;](element-mbnprofileext.md)  
+**&lt;HomeProviderName&gt;**
 
 ## Syntax
 

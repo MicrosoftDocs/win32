@@ -25,7 +25,7 @@ AccChecker Console (AccCheckConsole.exe) is a command-line tool for verifying th
 
 AccChecker Console has the following command-line syntax.
 
-**AccCheckConsole \[options\] (-hwnd <hwnd> \| -process <name>) \[<dlls>\]**
+**AccCheckConsole \[options\] (-hwnd &lt;hwnd&gt; \| -process &lt;name&gt;) \[&lt;dlls&gt;\]**
 
 The command-line options are as follows.
 
@@ -33,15 +33,15 @@ The command-line options are as follows.
 
 | Options                                                                                                                                                         | Description                                                                                                                  |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------|
-| <span id="-hwnd__hwnd_"></span><span id="-HWND__HWND_"></span>-hwnd <hwnd><br/>                                                                     | Validates the window that has the specified handle (HWND). The handle can be specified in hexidecimal or decimal.<br/> |
-| <span id="-window__title_"></span><span id="-WINDOW__TITLE_"></span>-window <title><br/>                                                            | Validates the window that has the specified title.<br/>                                                                |
-| <span id="__________________-process__name_"></span><span id="__________________-PROCESS__NAME_"></span> -process <name><br/>                       | Validates the main window of the process that has the specified name.<br/>                                             |
+| <span id="-hwnd__hwnd_"></span><span id="-HWND__HWND_"></span>-hwnd &lt;hwnd&gt;<br/>                                                                     | Validates the window that has the specified handle (HWND). The handle can be specified in hexidecimal or decimal.<br/> |
+| <span id="-window__title_"></span><span id="-WINDOW__TITLE_"></span>-window &lt;title&gt;<br/>                                                            | Validates the window that has the specified title.<br/>                                                                |
+| <span id="__________________-process__name_"></span><span id="__________________-PROCESS__NAME_"></span> -process &lt;name&gt;<br/>                       | Validates the main window of the process that has the specified name.<br/>                                             |
 | <span id="____________________________-list"></span><span id="____________________________-LIST"></span> -list<br/>                                       | Lists all of the available verification routines.<br/>                                                                 |
-| <span id="__________________-enable__name_"></span><span id="__________________-ENABLE__NAME_"></span> -enable <name><br/>                          | Runs the specified verification routine. This option can be specified more than once.<br/>                             |
-| <span id="_____________________________-disable__name_"></span><span id="_____________________________-DISABLE__NAME_"></span> -disable <name><br/> | Runs all but the specified verification routine. This option can be specified more than once.<br/>                     |
+| <span id="__________________-enable__name_"></span><span id="__________________-ENABLE__NAME_"></span> -enable &lt;name&gt;<br/>                          | Runs the specified verification routine. This option can be specified more than once.<br/>                             |
+| <span id="_____________________________-disable__name_"></span><span id="_____________________________-DISABLE__NAME_"></span> -disable &lt;name&gt;<br/> | Runs all but the specified verification routine. This option can be specified more than once.<br/>                     |
 | <span id="___________-log__info_warn_err_"></span><span id="___________-LOG__INFO_WARN_ERR_"></span> -log (info\|warn\|err)<br/>                          | The lowest event rating that will be logged.<br/>                                                                      |
-| <span id="__________________-logfile__file_"></span><span id="__________________-LOGFILE__FILE_"></span> -logfile <file><br/>                       | Write the output to the specified log file. This option can be specified more than once.<br/>                          |
-| <span id="-suppress__file_"></span><span id="-SUPPRESS__FILE_"></span>-suppress <file><br/>                                                         | Use the specified XML file to suppress errors. <br/>                                                                   |
+| <span id="__________________-logfile__file_"></span><span id="__________________-LOGFILE__FILE_"></span> -logfile &lt;file&gt;<br/>                       | Write the output to the specified log file. This option can be specified more than once.<br/>                          |
+| <span id="-suppress__file_"></span><span id="-SUPPRESS__FILE_"></span>-suppress &lt;file&gt;<br/>                                                         | Use the specified XML file to suppress errors. <br/>                                                                   |
 | <span id="-quiet"></span><span id="-QUIET"></span>-quiet<br/>                                                                                             | Do not write logging output to stdout.<br/>                                                                            |
 | <span id="-help__________________________________"></span><span id="-HELP__________________________________"></span>-help <br/>                           | Displays quick help. <br/>                                                                                             |
 

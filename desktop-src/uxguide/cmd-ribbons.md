@@ -352,7 +352,7 @@ Generally, having fewer tabs is better, so remove tabs that don't help achieve t
 
 - **Use a modal tab to display a collection of commands that apply with a particular temporary mode, and none of the core tabs apply.** If some of the core tabs apply, use a contextual tab instead, and disable the commands that don't apply. Because modal tabs are very limiting, they should be used only when there isn't a better alternative.
 - ![screen shot of print preview tab ](images/cmd-ribbons-image31.png)<br/>Print preview is a commonly used modal tab.
-- **To close a modal tab, put the Close <mode> command as the last command on the tab.** Use the Close icon to make the command easy to find. Give the mode in the command to prevent confusion about what is being closed.
+- **To close a modal tab, put the Close &lt;mode&gt; command as the last command on the tab.** Use the Close icon to make the command easy to find. Give the mode in the command to prevent confusion about what is being closed.
 - ![screen shot of close print preview button ](images/cmd-ribbons-image32.png)<br/>In this example, explicitly labeling the Close command with the mode removes any doubt about what is being closed.
 - **To close a modal tab, also redefine the Close button on the window's title bar to close the mode instead of the program.** User testing has shown that many users expect this behavior.
 

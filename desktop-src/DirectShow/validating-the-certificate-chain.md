@@ -60,7 +60,7 @@ To validate a certificate in the chain, perform the following steps:
 5.  If this certificate is not the leaf certificate, verify the following:
     -   The modulus and exponent from the Data/PublicKey element exactly match the modulus and exponent from the Signature/KeyInfo element of the previous certificate.
     -   The KeyUsage element contains a SignCertificate element, with the value 1.
-6.  Use the SHA-1 hash algorithm to hash every byte in the certificate's Data element. Every byte from the first character in the <Data> tag to the last character in the closing </Data> tag should be hashed. The hash value is used to check the certificate against the certificate revocation list (CRL), as described in [Certificate Revocation Lists](certificate-revocation-lists.md)
+6.  Use the SHA-1 hash algorithm to hash every byte in the certificate's Data element. Every byte from the first character in the &lt;Data&gt; tag to the last character in the closing &lt;/Data&gt; tag should be hashed. The hash value is used to check the certificate against the certificate revocation list (CRL), as described in [Certificate Revocation Lists](certificate-revocation-lists.md)
 7.  Compare the hash value from step 6 with the base64-decoded value of the Signature/SignedInfo/Reference/DigestValue element. These values must match.
 8.  Perform the Verify Signature procedure, described below.
 9.  If this certificate is not the final certificate in the chain, save the Signature/KeyInfo/KeyValue/RSAKeyValue value for the next iteration of the loop.
@@ -82,7 +82,7 @@ The value of the SignatureValue element is computed over the Data element accord
 For the RSASSA-PSS-Verify operation, use the following inputs:
 
 -   (*n*,*e*) is the public key from step 1.
--   *M* is all of the bytes in the Data element, including the <Data> and </Data> tags that enclose the element.
+-   *M* is all of the bytes in the Data element, including the &lt;Data&gt; and &lt;/Data&gt; tags that enclose the element.
 -   *S* is the decoded signature value from step 2.
 
 The RSASSA-PSS-Verify operation uses the EMSA-PSS-ENCODE operation, defined in section 9.1.1. of PKCS. For this operation, COPP uses the following options:

@@ -22,11 +22,11 @@ The following table lists the functions and methods implemented in Parse.cpp.
 
 | Item                      | Description                                                                                                                                                            |
 |---------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **ADsObject**             | Parses the ADspath passed to it. This function follows the following grammar rules: <ADsObject> -> <ProviderName> <SampleDSObject><br/>     |
-| **SampleDSObject**        | Parses the following grammar rules: <SampleDSObject> -> "\\\\" <identifier> "\\" <Pathname><br/>                                            |
+| **ADsObject**             | Parses the ADspath passed to it. This function follows the following grammar rules: &lt;ADsObject&gt; -> &lt;ProviderName&gt; &lt;SampleDSObject&gt;<br/>     |
+| **SampleDSObject**        | Parses the following grammar rules: &lt;SampleDSObject&gt; -> "\\\\" &lt;identifier&gt; "\\" &lt;Pathname&gt;<br/>                                            |
 | **ProviderName**          | Adds in the syntactically correct provider name if not there.                                                                                                          |
-| **PathName**              | Parses the following grammar rules: <Pathname> -> <Component> "\\\\" <Pathname> OR<br/> <Pathname> -> <Component><br/> |
-| **Component**             | Parses the following grammar rules: <Identifier> OR<br/> <Identifier> "=" <Identifier><br/>                                              |
+| **PathName**              | Parses the following grammar rules: &lt;Pathname&gt; -> &lt;Component&gt; "\\\\" &lt;Pathname&gt; OR<br/> &lt;Pathname&gt; -> &lt;Component&gt;<br/> |
+| **Component**             | Parses the following grammar rules: &lt;Identifier&gt; OR<br/> &lt;Identifier&gt; "=" &lt;Identifier&gt;<br/>                                              |
 | **CLexer::CLexer**        | Standard constructor.                                                                                                                                                  |
 | **CLexer::~CLexer**       | Standard destructor.                                                                                                                                                   |
 | **CLexer::GetNextToken**  | Tokenizer.                                                                                                                                                             |

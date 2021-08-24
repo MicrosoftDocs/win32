@@ -46,7 +46,7 @@ In Windows Vista or later, they are located under the following path:
 
 For third-party filters, the location depends on which version of the [DirectShow Base Classes](directshow-base-classes.md) was used to build the filter. The version included in the Windows SDK for Windows Vista uses the newer path. Previous versions used the older path.
 
-In the remarks that follow, the label *<DebugRoot>* is used to indicate these two paths. Substitute the correct path, depending on the version of Windows or the version of the base classes.
+In the remarks that follow, the label *&lt;DebugRoot&gt;* is used to indicate these two paths. Substitute the correct path, depending on the version of Windows or the version of the base classes.
 
 **Debug Logging**
 
@@ -77,7 +77,7 @@ DbgLog((LOG_TRACE, 3, TEXT("This is a debug message")));
 
 Every module can set its own debugging level for each message type. (A *module* is a DLL or executable that can be loaded using the **LoadLibrary** function.) A module's debugging levels appear in the registry under the following key:
 
-**HKEY\_LOCAL\_MACHINE**\\**<DebugRoot>**\\**<ModuleName>**\\**<MessageType>**
+**HKEY\_LOCAL\_MACHINE**\\**&lt;DebugRoot&gt;**\\**&lt;ModuleName&gt;**\\**&lt;MessageType&gt;**
 
 where *<Message Type>* is the message type minus the initial "LOG\_"; for example, **LOCKING** for LOG\_LOCKING messages. When a module is loaded, the debug library finds the module's logging levels in the registry. If the registry keys do not exist, the debug library creates them.
 
@@ -98,7 +98,7 @@ The debug library uses whichever level is greater, the global level or the modul
 
 The debug output location is determined by another registry key:
 
-**HKEY\_LOCAL\_MACHINE**\\**<DebugRoot>**\\**<Modile Name>**\\**LogToFile**
+**HKEY\_LOCAL\_MACHINE**\\**&lt;DebugRoot&gt;**\\**<Modile Name>**\\**LogToFile**
 
 If the value of this key is `Console`, the output goes to the console window. If the value is `Deb`, `Debug`, `Debugger`, or an empty string, the output goes to the debugger window. Otherwise, the output is written to a file specified by the registry key.
 

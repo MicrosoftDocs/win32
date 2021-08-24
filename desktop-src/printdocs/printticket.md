@@ -14,7 +14,7 @@ A PrintTicket element is the root element of the PrintTicket document. A PrintTi
 
 ## Element Tag
 
-<PrintTicket>
+&lt;PrintTicket&gt;
 
 ## XML Attributes
 

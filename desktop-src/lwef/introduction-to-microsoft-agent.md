@@ -18,7 +18,7 @@ Microsoft Agent enables software developers and Web authors to incorporate a new
 
 The conversational interface approach facilitated by the Microsoft Agent services does not replace conventional graphical user interface (GUI) design. Instead, character interaction can be easily blended with the conventional interface components such as windows, menus, and controls to extend and enhance your application's interface.
 
-Microsoft Agent's programming interfaces make it easy to animate a character to respond to user input. Animated characters appear in their own window, providing maximum flexibility for where they can be displayed on the screen. Microsoft Agent includes an ActiveX control that makes its services accessible to programming languages that support ActiveX, including Web scripting languages such as Visual Basic Scripting Edition (VBScript). This means that character interaction can be programmed even from HTML pages using the <OBJECT> tag.
+Microsoft Agent's programming interfaces make it easy to animate a character to respond to user input. Animated characters appear in their own window, providing maximum flexibility for where they can be displayed on the screen. Microsoft Agent includes an ActiveX control that makes its services accessible to programming languages that support ActiveX, including Web scripting languages such as Visual Basic Scripting Edition (VBScript). This means that character interaction can be programmed even from HTML pages using the &lt;OBJECT&gt; tag.
 
 Look for changes in Microsoft Agent speech and speech recognition features for Windows Vista at the following link.
 

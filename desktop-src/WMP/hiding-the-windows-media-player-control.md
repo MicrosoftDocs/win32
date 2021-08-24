@@ -32,7 +32,7 @@ ms.date: 05/31/2018
 
 # Hiding the Windows Media Player Control
 
-The Windows Media Player ActiveX object is embedded in a webpage using the OBJECT element. Unlike earlier versions, the OBJECT element that defines Windows Media Player must be placed in the BODY section of a webpage, between the <BODY> and </BODY> tags. Placing the Windows Media Player ActiveX object in the HEAD section of a webpage to hide the user interface can produce unexpected results.
+The Windows Media Player ActiveX object is embedded in a webpage using the OBJECT element. Unlike earlier versions, the OBJECT element that defines Windows Media Player must be placed in the BODY section of a webpage, between the &lt;BODY&gt; and </BODY> tags. Placing the Windows Media Player ActiveX object in the HEAD section of a webpage to hide the user interface can produce unexpected results.
 
 If you put the Windows Media Player ActiveX control in the BODY section of a webpage, the control user interface will be displayed. If you do not want it to be displayed, and wish to create your own user interface, set the height and width attributes of the OBJECT element to zero.
 

@@ -18,7 +18,7 @@ The version of Mt.exe provided in recent versions of the Windows SDK can also be
 
 ## Syntax
 
-**mt.exe \[-manifest***<component1.manifest><component2.manifest>***\] \[-identity:** *<identity string>***\] \[-rgs:***<file1.rgs>***\] \[-tlb:***<file2.tlb>***\] \[-dll:***<file3.dll>***\] \[-replacements:***<XML filename>***\] \[-managedassemblyname:***<managed assembly>***\] \[-nodependency\] \[-category\] \[-out:***<output manifest name>***\] \[-inputresource:***<file4>***;\[\#\]***<resource\_id>***\] \[-outputresource:***<file5>***;\[\#\]***<resource\_id>***\] \[-updateresource:***<file6>***;\[\#\]***<resource\_id>***\] \[-hashupdate\[:***<path to files>***\]\] \[-makecdfs\] \[-validate\_manifest\] \[-validate\_file\_hashes:***<path to files>***\] \[-canonicalize\] \[-check\_for\_duplicates\] \[-nologo\] \[-verbose\]**
+**mt.exe \[-manifest***<component1.manifest><component2.manifest>***\] \[-identity:** *<identity string>***\] \[-rgs:***<file1.rgs>***\] \[-tlb:***<file2.tlb>***\] \[-dll:***<file3.dll>***\] \[-replacements:***<XML filename>***\] \[-managedassemblyname:***<managed assembly>***\] \[-nodependency\] \[-category\] \[-out:***<output manifest name>***\] \[-inputresource:***&lt;file4&gt;***;\[\#\]***<resource\_id>***\] \[-outputresource:***&lt;file5&gt;***;\[\#\]***<resource\_id>***\] \[-updateresource:***&lt;file6&gt;***;\[\#\]***<resource\_id>***\] \[-hashupdate\[:***<path to files>***\]\] \[-makecdfs\] \[-validate\_manifest\] \[-validate\_file\_hashes:***<path to files>***\] \[-canonicalize\] \[-check\_for\_duplicates\] \[-nologo\] \[-verbose\]**
 
 ## Command Line Options
 

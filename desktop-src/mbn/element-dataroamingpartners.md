@@ -27,8 +27,8 @@ For details, see the documentation for the v1 [**DataRoamingPartners**](./schema
 
 ## Element hierarchy
 
-[<MBNProfileExt>](element-mbnprofileext.md)  
-**<DataRoamingPartners>**
+[&lt;MBNProfileExt&gt;](element-mbnprofileext.md)  
+**&lt;DataRoamingPartners&gt;**
 
 ## Syntax
 

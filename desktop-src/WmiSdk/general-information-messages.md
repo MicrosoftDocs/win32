@@ -141,7 +141,7 @@ This indicates failure of the **/n** or **/ni** switch because the specified fil
 
 </dd> <dt>
 
-<span id="smi2smir__Processed__number__files_successfully"></span><span id="smi2smir__processed__number__files_successfully"></span><span id="SMI2SMIR__PROCESSED__NUMBER__FILES_SUCCESSFULLY"></span>**smi2smir: Processed <number> files successfully**
+<span id="smi2smir__Processed__number__files_successfully"></span><span id="smi2smir__processed__number__files_successfully"></span><span id="SMI2SMIR__PROCESSED__NUMBER__FILES_SUCCESSFULLY"></span>**smi2smir: Processed &lt;number&gt; files successfully**
 </dt> <dd>
 
 This specifies the number of files that were successfully parsed when the **/r** or the **/auto** switch were used.

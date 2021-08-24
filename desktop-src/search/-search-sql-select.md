@@ -39,7 +39,7 @@ The column specifier(s) must be valid property name columns, separated by commas
 
 When the query returns a document that does not have the requested column, the value of that column for the document is **NULL**.
 
-You must provide at least one column name in a SELECT statement. In the Structured Query Language (SQL) query, you are allowed to use the asterisk (\*) to specify that all columns in a table are to be returned. However, no defined and fixed set of properties applies to all documents. For this reason, the SQL asterisk is not permitted in the <columns> specifier of the SELECT statement.
+You must provide at least one column name in a SELECT statement. In the Structured Query Language (SQL) query, you are allowed to use the asterisk (\*) to specify that all columns in a table are to be returned. However, no defined and fixed set of properties applies to all documents. For this reason, the SQL asterisk is not permitted in the &lt;columns&gt; specifier of the SELECT statement.
 
 ## Getting the Top n Results
 

@@ -116,7 +116,7 @@ Access type: Read-only
 Qualifiers: **Key**, **MaxLen** (256)
 </dt> </dl>
 
-The WMI instance ID, which identifies the provider. This property is inherited from [**CIM\_ManagedElement**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement). The format of this property is "Microsoft:<host-machine-name>\\ReplicationProvider\\<provider-Name>."
+The WMI instance ID, which identifies the provider. This property is inherited from [**CIM\_ManagedElement**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement). The format of this property is "Microsoft:&lt;host-machine-name&gt;\\ReplicationProvider\\&lt;provider-Name&gt;."
 
 </dd> <dt>
 

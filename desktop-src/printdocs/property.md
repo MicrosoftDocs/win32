@@ -16,7 +16,7 @@ A Property can be complex, possibly containing multiple subproperties. Subproper
 
 ## Element Tag
 
-<Property>
+&lt;Property&gt;
 
 ## XML Attributes
 
@@ -58,7 +58,7 @@ A Property may have configuration dependencies, except when it appears within a 
 
 In addition to appearing within Feature and Option elements, Property elements can appear at the root level of the respective underlying technologies. The Print Schema defines a set of Property elements that can be used to describe a device in a portable manner. However, if these properties are insufficient to your needs as a PrintCapabilities provider (typically because the device being supported has novel aspects not anticipated by the Print Schema), you may introduce your own private Property elements. You can enhance or elaborate the information provided by a public Property by adding one or more private subproperties as element content of the public Property.
 
-Property elements are defined by using an XML element tag, <Property>. Each Property is assigned a name by means of its name attribute. The name must be an XML QName and must conform to the Namespace Convention. For details, see [XML Attributes](xml-attributes.md). The Property name attribute and its location within the hierarchy of parent Property elements (if it is a subproperty) uniquely identify the Property within the PrintCapabilities document or PrintTicket.
+Property elements are defined by using an XML element tag, &lt;Property&gt;. Each Property is assigned a name by means of its name attribute. The name must be an XML QName and must conform to the Namespace Convention. For details, see [XML Attributes](xml-attributes.md). The Property name attribute and its location within the hierarchy of parent Property elements (if it is a subproperty) uniquely identify the Property within the PrintCapabilities document or PrintTicket.
 
 A Property may contain one or more Value elements, or one or more child Property elements (called subproperties), or a combination of both. Subproperties are useful when the Property itself is composed of multiple components. For example, a "ConsumableColor" Property might have "C", "M", and "Y" components.
 

@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 Defines values that specify the packet properties. The Tablet PCAPI uses globally unique identifiers (GUIDs) to identify packet properties, which in COM are constant strings.
 
-In C++, you can access these constants in the Msinkaut.h header file, which is located in the <systemdrive>:\\Program Files\\Microsoft SDKs\\Windows\\v6.0\\Include directory if you installed the SDK in the default location. In C++, these constants are WCHARs, not BSTRs. Convert them into BSTRs before use. For more information about the BSTR data type, see [Using the COM Library](using-the-com-library.md).
+In C++, you can access these constants in the Msinkaut.h header file, which is located in the &lt;systemdrive&gt;:\\Program Files\\Microsoft SDKs\\Windows\\v6.0\\Include directory if you installed the SDK in the default location. In C++, these constants are WCHARs, not BSTRs. Convert them into BSTRs before use. For more information about the BSTR data type, see [Using the COM Library](using-the-com-library.md).
 
 The following table lists the available packet property globally unique identifier (GUID) fields. Use these GUIDs to specify which properties the packet contains when you create the tablet context. To determine the range and resolution of a property, call the [**GetPropertyMetrics**](/windows/desktop/api/msinkaut/nf-msinkaut-iinktablet-getpropertymetrics) method. The constants in the table below beginning with "STR\_" are string representations of the corresponding binary constants shown in the same table cell.
 

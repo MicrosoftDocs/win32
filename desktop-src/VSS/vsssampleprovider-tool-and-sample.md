@@ -94,7 +94,7 @@ The VssSampleProvider sample includes the following installation and uninstallat
 
     
 
-    *<drive>* represents the drive letter of the virtual LUN.
+    *&lt;drive&gt;* represents the drive letter of the virtual LUN.
 
 7.  To uninstall the VSS sample provider, in the command prompt window, type the following command:
 

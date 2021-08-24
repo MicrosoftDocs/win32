@@ -15,7 +15,7 @@ The **IsPurchaseProfile** element contains a **boolean** that is **true** if thi
 
 ## Element hierarchy
 
-**<IsPurchaseProfile>**
+**&lt;IsPurchaseProfile&gt;**
 
 ## Syntax
 

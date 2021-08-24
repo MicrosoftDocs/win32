@@ -44,10 +44,10 @@ The URL syntax is described in the following table.
 
 | Syntax           | Description                                                                                                                                                                                                        |
 |------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <protocol> | Identifies which protocol handler to invoke for the URL.                                                                                                                                                           |
+| &lt;protocol&gt; | Identifies which protocol handler to invoke for the URL.                                                                                                                                                           |
 | {user SID}       | Identifies the user security context under which the protocol handler is called. If no user security identifier (SID) is identified, the protocol handler is called in the security context of the system service. |
-| <path>     | Defines the hierarchy of the store, where each forward slash ('/') is a separator between folder names.                                                                                                            |
-| <ItemID>   | Represents a unique string that identifies the child item (for example, the file name).                                                                                                                            |
+| &lt;path&gt;     | Defines the hierarchy of the store, where each forward slash ('/') is a separator between folder names.                                                                                                            |
+| &lt;ItemID&gt;   | Represents a unique string that identifies the child item (for example, the file name).                                                                                                                            |
 
 
 

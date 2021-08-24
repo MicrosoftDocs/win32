@@ -15,16 +15,16 @@ The \[ [user\_marshal](/windows/desktop/Midl/user-marshal)\] attribute is an ACF
 
 Your application-specific type can be a simple, composite, or pointer type. The main restriction is that the type instance must have a fixed, well-defined memory size. If the size of your type instance needs to change, use a pointer field rather than a conformant array. Alternatively, you can define a pointer to the changeable type.
 
-As with the **\[wire\_marshal\]** attribute, you supply routines for the sizing, marshaling, unmarshaling, and freeing passes. The following table describes the four user-supplied routine names. The <type> is the userm-*type* specified in the **\[user\_marshal\]** type definition.
+As with the **\[wire\_marshal\]** attribute, you supply routines for the sizing, marshaling, unmarshaling, and freeing passes. The following table describes the four user-supplied routine names. The &lt;type&gt; is the userm-*type* specified in the **\[user\_marshal\]** type definition.
 
 
 
 | Routine                                                            | Description                                                               |
 |--------------------------------------------------------------------|---------------------------------------------------------------------------|
-| [<type>\_UserSize](the-type-usersize-function.md)           | Sizes the RPC data buffer before marshaling on the client or server side. |
-| [<type>\_UserMarshal](the-type-usermarshal-function.md)     | Marshals the data on the client or server side.                           |
-| [<type>\_UserUnmarshal](the-type-userunmarshal-function.md) | Unmarshals the data on the client or server side.                         |
-| [<type>\_UserFree](the-type-userfree-function.md)           | Frees the data on the server side.                                        |
+| [&lt;type&gt;\_UserSize](the-type-usersize-function.md)           | Sizes the RPC data buffer before marshaling on the client or server side. |
+| [&lt;type&gt;\_UserMarshal](the-type-usermarshal-function.md)     | Marshals the data on the client or server side.                           |
+| [&lt;type&gt;\_UserUnmarshal](the-type-userunmarshal-function.md) | Unmarshals the data on the client or server side.                         |
+| [&lt;type&gt;\_UserFree](the-type-userfree-function.md)           | Frees the data on the server side.                                        |
 
 
 
@@ -32,9 +32,9 @@ As with the **\[wire\_marshal\]** attribute, you supply routines for the sizing,
 
 These user-supplied routines are provided by either the client or the server application, based on the directional attributes.
 
-If the parameter is \[ [in](/windows/desktop/Midl/in)\] only, the client transmits to the server. The client needs the **<type>\_UserSize** and **<type>\_UserMarshal** functions. The server needs the **<type>\_UserUnmarshal** and **<type>\_UserFree** functions.
+If the parameter is \[ [in](/windows/desktop/Midl/in)\] only, the client transmits to the server. The client needs the **&lt;type&gt;\_UserSize** and **&lt;type&gt;\_UserMarshal** functions. The server needs the **&lt;type&gt;\_UserUnmarshal** and **&lt;type&gt;\_UserFree** functions.
 
-For an \[ [out](/windows/desktop/Midl/out-idl)\]-only parameter, the server transmits to the client. The server needs the **<type>\_UserSize** and **<type>\_UserMarshal** functions, while the client needs the **<type>\_UserMarshal** function.
+For an \[ [out](/windows/desktop/Midl/out-idl)\]-only parameter, the server transmits to the client. The server needs the **&lt;type&gt;\_UserSize** and **&lt;type&gt;\_UserMarshal** functions, while the client needs the **&lt;type&gt;\_UserMarshal** function.
 
 ## Related topics
 

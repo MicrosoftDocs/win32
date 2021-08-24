@@ -14,7 +14,7 @@ A ParameterDef element defines the valid characteristics of parameter input. The
 
 ## Element Tag
 
-<ParameterDef>
+&lt;ParameterDef&gt;
 
 ## XML Attributes
 

@@ -23,9 +23,9 @@ Both of the following options for allowing a desktop search will execute the sea
 
 The Registry includes a list of "allowed" domain URLs from which WDS can be called. To include your webpage(s), you need to list your domain URL(s) as REG\_SZ in the Registry as follows:
 
-**HKEY\_LOCAL\_MACHINE**\\**Software**\\**Microsoft**\\**Windows Desktop Search**\\**DSW**\\**Allowed**\\*<number>* = <domainURL>
+**HKEY\_LOCAL\_MACHINE**\\**Software**\\**Microsoft**\\**Windows Desktop Search**\\**DSW**\\**Allowed**\\*&lt;number&gt;* = &lt;domainURL&gt;
 
-Where **<number>** is sequentially numbered, and **<domainURL>** is the URL of the Web Page you want to allow WDS searches from. This URL string can include the wildcard asterisk \* at the beginning or end of the URL. For example, if the string is "\*.mydomain.com", then you can start a WDS search from both https://www.mydomain.com and https://mydomain.com.
+Where **&lt;number&gt;** is sequentially numbered, and **&lt;domainURL&gt;** is the URL of the Web Page you want to allow WDS searches from. This URL string can include the wildcard asterisk \* at the beginning or end of the URL. For example, if the string is "\*.mydomain.com", then you can start a WDS search from both https://www.mydomain.com and https://mydomain.com.
 
 ## Enabling Desktop Search by URL
 

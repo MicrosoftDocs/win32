@@ -97,7 +97,7 @@ The equivalent Windows Installer command line has <a href="rebootprompt.md"><str
 </tr>
 <tr class="odd">
 <td><strong>/uninstall</strong></td>
-<td><em><Package.msi|ProductCode></em></td>
+<td><em>&lt;Package.msi|ProductCode></em></td>
 <td>Uninstall product option. Uninstalls a product.<br/>
 <blockquote>
 [!Note]<br />
@@ -107,7 +107,7 @@ The equivalent Windows Installer <a href="command-line-options.md">Command-Line 
 </tr>
 <tr class="even">
 <td><strong>/uninstall</strong></td>
-<td><em>/package <Package.msi | ProductCode> /uninstall <Update1.msp | PatchGUID1>[;Update2.msp | PatchGUID2]</em></td>
+<td><em>/package &lt;Package.msi | ProductCode> /uninstall <Update1.msp | PatchGUID1>[;Update2.msp | PatchGUID2]</em></td>
 <td>Uninstall update option. Uninstalls an update patch.<br/>
 <blockquote>
 [!Note]<br />
@@ -144,7 +144,7 @@ For more information about all the methods that are available for setting the lo
 </tr>
 <tr class="even">
 <td><strong>/package</strong></td>
-<td><em><Package.msi|ProductCode></em></td>
+<td><em>&lt;Package.msi|ProductCode></em></td>
 <td>Install product option. Installs or configures a product.<br/>
 <blockquote>
 [!Note]<br />

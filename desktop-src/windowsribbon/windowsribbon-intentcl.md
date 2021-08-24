@@ -67,8 +67,8 @@ The arguments and options for this tool are described in the following table.
 </thead>
 <tbody>
 <tr class="odd">
-<td>/header:<headerFile></td>
-<td>Generate a header file called <headerFile> that contains the markup Command ID resource symbols. If omitted, a header file is not generated.</td>
+<td>/header:&lt;headerFile&gt;</td>
+<td>Generate a header file called &lt;headerFile&gt; that contains the markup Command ID resource symbols. If omitted, a header file is not generated.</td>
 </tr>
 <tr class="even">
 <td>/res:<resourceFile></td>

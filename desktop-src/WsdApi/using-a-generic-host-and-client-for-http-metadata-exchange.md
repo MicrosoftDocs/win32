@@ -33,7 +33,7 @@ If either the host or client is an application running on a PC, the generic host
     Host metadata>
     ```
 
-3.  Run the following command: **WSDDebug\_client.exe /mode metadata /hello off /resolve** *<id>*. Replace *<id>* with the device ID identified in step 2.
+3.  Run the following command: **WSDDebug\_client.exe /mode metadata /hello off /resolve** *&lt;id&gt;*. Replace *&lt;id&gt;* with the device ID identified in step 2.
     > [!Note]  
     > A **Windows Security Alert** dialog box may appear. If so, click **Unblock** to allow the WSD Debug Client to run.
 
@@ -93,7 +93,7 @@ End of metadata
 Client metadata>
 ```
 
-The WSD Debug Client may generate a lot of output on a network with many DPWS devices. The output can be redirected to a file for easier analysis. Type **log tee** *<filename>* at the WSD Debug Client prompt to redirect output to a file. Output redirection can be stopped by typing **log tee stop** at the WSD Debug Client prompt.
+The WSD Debug Client may generate a lot of output on a network with many DPWS devices. The output can be redirected to a file for easier analysis. Type **log tee** *&lt;filename&gt;* at the WSD Debug Client prompt to redirect output to a file. Output redirection can be stopped by typing **log tee stop** at the WSD Debug Client prompt.
 
 Make a note of the endpoint reference (EPR) address. This EPR address should match the device ID identified in step 2 above. Also, verify that the WSD Debug Client completely printed the metadata for the device. The device metadata begins with `Metadata for host` and ends with `End of metadata`.
 

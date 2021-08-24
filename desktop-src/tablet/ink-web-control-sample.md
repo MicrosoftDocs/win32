@@ -28,7 +28,7 @@ This sample consists of a solution that includes two projects and an HTML file. 
 
 ## Referencing the Control in HTML
 
-The solution includes an HTML file, default.htm. This file is the page that the browser navigates to in order to load the control. The file contains an <object> tag that references the control. It also includes a script that is called when the page unloads, as indicated by the presence of the onload=" `OnUnload()` " attribute in the <body> tag. This function calls the `DisposeResources` method on the control to make sure that all resources are properly released at shutdown.
+The solution includes an HTML file, default.htm. This file is the page that the browser navigates to in order to load the control. The file contains an &lt;object&gt; tag that references the control. It also includes a script that is called when the page unloads, as indicated by the presence of the onload=" `OnUnload()` " attribute in the &lt;body&gt; tag. This function calls the `DisposeResources` method on the control to make sure that all resources are properly released at shutdown.
 
 
 ```C++
@@ -54,7 +54,7 @@ The solution includes an HTML file, default.htm. This file is the page that the 
 
 
 
-Notice the format of the classid attribute value for the <object> tag. It names the assembly, followed with a \# sign separator, and then the namespace that contains the control and then the class name of the control.
+Notice the format of the classid attribute value for the &lt;object&gt; tag. It names the assembly, followed with a \# sign separator, and then the namespace that contains the control and then the class name of the control.
 
 A real-world user control would likely include additional methods used to persist or send the data collected in the application.
 

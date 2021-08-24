@@ -1,5 +1,5 @@
 ---
-description: The <propertyStore> element specifies a set of one or more properties used by this library. This element is optional and has no attributes.
+description: The &lt;propertyStore&gt; element specifies a set of one or more properties used by this library. This element is optional and has no attributes.
 ms.assetid: 19532C1F-686F-4c14-8BA8-0043E77BE594
 title: propertyStore Element (Library Schema)
 ms.topic: article
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # propertyStore Element (Library Schema)
 
-The <propertyStore> element specifies a set of one or more properties used by this library. This element is optional and has no attributes.
+The &lt;propertyStore&gt; element specifies a set of one or more properties used by this library. This element is optional and has no attributes.
 
 ## Syntax
 
@@ -38,7 +38,7 @@ The <propertyStore> element specifies a set of one or more properties used by th
 
 ## Remarks
 
-The <propertyStore> element can have one or more <property> child elements.
+The &lt;propertyStore&gt; element can have one or more &lt;property&gt; child elements.
 
 ## Related topics
 

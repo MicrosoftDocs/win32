@@ -24,7 +24,7 @@ The following procedure describes how to start the WMI service.
 
 **To start Winmgmt Service**
 
-1.  At a command prompt, enter **net** **start** **winmgmt** \[*/<switch>*\].
+1.  At a command prompt, enter **net** **start** **winmgmt** \[*/&lt;switch&gt;*\].
 
     For more information about the switches that are available, see [winmgmt](winmgmt.md). You use the built-in Administrator account or an account in the Administrators group running with elevated rights to start the WMI service. For more information, see [User Account Control and WMI](user-account-control-and-wmi.md).
 

@@ -22,21 +22,21 @@ This section describes file placement for a MUI application targeted only at Win
 
 ### Place the LN File
 
-A typical LN file for a MUI application is an .exe file or a .dll file, for example, BakerDelta.dll. You should place this file in the root folder where your application is installed, for example, X:\\\\<somepath>\\BakerDelta.dll.
+A typical LN file for a MUI application is an .exe file or a .dll file, for example, BakerDelta.dll. You should place this file in the root folder where your application is installed, for example, X:\\\\&lt;somepath&gt;\\BakerDelta.dll.
 
 ### Place Language-Specific Resource Files
 
 Your language-specific resource files must have predictable names formed by appending ".mui" to the full name of the LN file, for example, BakerDelta.dll.mui. These files must be placed in subfolders named after the appropriate [language names](language-names.md). The following example shows placement of resources for the BakerDelta.dll LN file, with language-specific resource files for English (United Kingdom), English (United States), neutral English, Spanish (Spain), Spanish (Mexico), and neutral Spanish:
 
--   X:\\\\<somepath>\\BakerDelta.dll
--   X:\\\\<somepath>\\en-GB\\BakerDelta.dll.mui
--   X:\\\\<somepath>\\en-US\\BakerDelta.dll.mui
--   X:\\\\<somepath>\\en\\BakerDelta.dll.mui
--   X:\\\\<somepath>\\es-ES\\BakerDelta.dll.mui
--   X:\\\\<somepath>\\es-MX\\BakerDelta.dll.mui
--   X:\\\\<somepath>\\es\\BakerDelta.dll.mui
+-   X:\\\\&lt;somepath&gt;\\BakerDelta.dll
+-   X:\\\\&lt;somepath&gt;\\en-GB\\BakerDelta.dll.mui
+-   X:\\\\&lt;somepath&gt;\\en-US\\BakerDelta.dll.mui
+-   X:\\\\&lt;somepath&gt;\\en\\BakerDelta.dll.mui
+-   X:\\\\&lt;somepath&gt;\\es-ES\\BakerDelta.dll.mui
+-   X:\\\\&lt;somepath&gt;\\es-MX\\BakerDelta.dll.mui
+-   X:\\\\&lt;somepath&gt;\\es\\BakerDelta.dll.mui
 
-The resource files must be placed in their correct locations during installation of the MUI application or a language package. It is important to place each file in the correct folder, as the resource loader cannot operate properly otherwise. Using the example above, the resource loader examines X:\\<somepath>\\en-US\\BakerDelta.dll.mui for English (United States) resources. If the loader looks in that file and encounters only Spanish-language resources, it fails.
+The resource files must be placed in their correct locations during installation of the MUI application or a language package. It is important to place each file in the correct folder, as the resource loader cannot operate properly otherwise. Using the example above, the resource loader examines X:\\&lt;somepath&gt;\\en-US\\BakerDelta.dll.mui for English (United States) resources. If the loader looks in that file and encounters only Spanish-language resources, it fails.
 
 ## File Placement on a Pre-Windows Vista Operating System
 
@@ -44,16 +44,16 @@ An application to run on a pre-Windows Vista operating system can use the Windo
 
 For example, consider an LN file called BakerDelta.dll, with language-specific resource files for English (United Kingdom), English (United States), neutral English, Spanish (Spain), Spanish (Mexico), and neutral Spanish. An installation on a pre-Windows Vista operating system might place these files as follows:
 
--   X:\\\\<somepath>\\BakerDelta.dll
--   X:\\\\<somepath>\\BakerDelta.dll.mui (optional .mui file containing resources in the language of the operating system as the ultimate fallback)
--   X:\\\\<somepath>\\MUI\\0809\\BakerDelta.dll.mui
--   X:\\\\<somepath>\\MUI\\0409\\BakerDelta.dll.mui
--   X:\\\\<somepath>\\MUI\\0209\\BakerDelta.dll.mui
--   X:\\\\<somepath>\\MUI\\040a\\BakerDelta.dll.mui
--   X:\\\\<somepath>\\MUI\\080a\\BakerDelta.dll.mui
--   X:\\\\<somepath>\\MUI\\0209\\BakerDelta.dll.mui
+-   X:\\\\&lt;somepath&gt;\\BakerDelta.dll
+-   X:\\\\&lt;somepath&gt;\\BakerDelta.dll.mui (optional .mui file containing resources in the language of the operating system as the ultimate fallback)
+-   X:\\\\&lt;somepath&gt;\\MUI\\0809\\BakerDelta.dll.mui
+-   X:\\\\&lt;somepath&gt;\\MUI\\0409\\BakerDelta.dll.mui
+-   X:\\\\&lt;somepath&gt;\\MUI\\0209\\BakerDelta.dll.mui
+-   X:\\\\&lt;somepath&gt;\\MUI\\040a\\BakerDelta.dll.mui
+-   X:\\\\&lt;somepath&gt;\\MUI\\080a\\BakerDelta.dll.mui
+-   X:\\\\&lt;somepath&gt;\\MUI\\0209\\BakerDelta.dll.mui
 
-In addition to these files, the application can set up an ultimate fallback language-specific resource file, to reside in the same folder as the application itself. For the above example, this file is X:\\<somepath>\\BakerDelta.dll.mui.
+In addition to these files, the application can set up an ultimate fallback language-specific resource file, to reside in the same folder as the application itself. For the above example, this file is X:\\&lt;somepath&gt;\\BakerDelta.dll.mui.
 
 ## Installation
 

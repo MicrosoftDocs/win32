@@ -53,7 +53,7 @@ Defines constant string values that are used to increase recognition accuracy by
 
 ## Remarks
 
-In C++, you can access these constants in the Msinkaut.h header file, which is located in the <systemdrive>:\\Program Files\\Microsoft Tablet PC Platform SDK\\Include directory if you installed the SDK in the default location.
+In C++, you can access these constants in the Msinkaut.h header file, which is located in the &lt;systemdrive&gt;:\\Program Files\\Microsoft Tablet PC Platform SDK\\Include directory if you installed the SDK in the default location.
 
 > [!Note]  
 > These constants are WCHARs, not BSTRs. They must be converted into BSTRs before use as parameters to object methods. For more information about the BSTR data type, see [Using the COM Library](using-the-com-library.md).

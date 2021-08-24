@@ -1,5 +1,5 @@
 ---
-description: The <url> element specifies a URL that represents the scope of the search connector. This element has no child elements and no attributes.
+description: The &lt;url&gt; element specifies a URL that represents the scope of the search connector. This element has no child elements and no attributes.
 ms.assetid: 5afd84aa-98e3-4118-845a-d4efad19a488
 title: scopeItem url Element (Search Connector Schema)
 ms.topic: article
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # scopeItem url Element (Search Connector Schema)
 
-The <url> element specifies a URL that represents the scope of the search connector. This element has no child elements and no attributes.
+The &lt;url&gt; element specifies a URL that represents the scope of the search connector. This element has no child elements and no attributes.
 
 ## Syntax
 

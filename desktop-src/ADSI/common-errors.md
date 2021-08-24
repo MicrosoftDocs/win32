@@ -46,7 +46,7 @@ See [Generic COM Error Codes](generic-com-error-codes.md) for a few more example
 
 Any error code of the hexadecimal form 8007xxxx is a standard Win32 error code. If you convert the last four digits from hexadecimal to decimal, you can access the error from the Windows 2000 command line:
 
-**net helpmsg <number>**
+**net helpmsg &lt;number&gt;**
 
 In the command line above, "&lt;number&gt;" is the decimal number obtained by converting the last four digits of the error code from hexadecimal. This command line will provide a more useful description of the Win32 error, which can be of great help in debugging your script.
 

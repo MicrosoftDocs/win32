@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 # The type\_UserSize Function
 
-The **<type>\_UserSize** function is a helper function for the \[ [wire\_marshal](/windows/desktop/Midl/wire-marshal)\] and \[ [user\_marshal](/windows/desktop/Midl/user-marshal)\] attributes. The stubs call this function to size the RPC data buffer for the user data object before the data is marshaled on the client or server side. The function is defined as:
+The **&lt;type&gt;\_UserSize** function is a helper function for the \[ [wire\_marshal](/windows/desktop/Midl/wire-marshal)\] and \[ [user\_marshal](/windows/desktop/Midl/user-marshal)\] attributes. The stubs call this function to size the RPC data buffer for the user data object before the data is marshaled on the client or server side. The function is defined as:
 
 ``` syntax
 unsigned long __RPC_USER  <type>_UserSize(
@@ -19,7 +19,7 @@ unsigned long __RPC_USER  <type>_UserSize(
     <type>  __RPC_FAR *pMyObj);
 ```
 
-The <type> in the function name means the userm-type, as specified in the **\[wire\_marshal\]** or **\[user\_marshal\]** type definition. This type may be untransmittable or even—when used with the **\[user\_marshal\]** attribute— unknown to the MIDL compiler. The wire type name (the name of the type transmitted across the network) is not used in the function prototype. Note, however, that the wire type defines the layout for the data as specified by OSF DCE. All data must be converted to network data representation (NDR) format.
+The &lt;type&gt; in the function name means the userm-type, as specified in the **\[wire\_marshal\]** or **\[user\_marshal\]** type definition. This type may be untransmittable or even—when used with the **\[user\_marshal\]** attribute— unknown to the MIDL compiler. The wire type name (the name of the type transmitted across the network) is not used in the function prototype. Note, however, that the wire type defines the layout for the data as specified by OSF DCE. All data must be converted to network data representation (NDR) format.
 
 The *pFlags* parameter is a pointer to an **unsigned long** flag field. The upper word of the flag contains NDR format flags as defined by OSF DCE for floating point, byte order, and character representations. The lower word contains a marshaling context flag as defined by the COM channel. The exact layout of the flags within the field is shown in the following table.
 
@@ -49,9 +49,9 @@ The *pMyObj* parameter is a pointer to a user type object.
 
 The return value is the new offset or buffer position. The function should return the cumulative size, which is the starting size plus possible padding plus the data size.
 
-The **<type>\_UserSize** function can return an overestimate of the size needed. The actual size of the sent buffer is defined by the data size, not by the buffer allocation size.
+The **&lt;type&gt;\_UserSize** function can return an overestimate of the size needed. The actual size of the sent buffer is defined by the data size, not by the buffer allocation size.
 
-The **<type>\_UserSize** function is not called if the wire size can be computed at compile time. Note that for most unions, even if there are no pointers, the actual size of the wire representation can be determined only at run time.
+The **&lt;type&gt;\_UserSize** function is not called if the wire size can be computed at compile time. Note that for most unions, even if there are no pointers, the actual size of the wire representation can be determined only at run time.
 
 ## Related topics
 
