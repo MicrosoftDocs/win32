@@ -190,7 +190,7 @@ HRESULT Player::LoadMediaFile(PCWSTR pwszFile)
             hr = m_pFileSource->Load(pwszFile, NULL);
 ```
 
-<span codelanguage="ManagedCPlusPlus"></span>
+
 
 
 | C++ | 

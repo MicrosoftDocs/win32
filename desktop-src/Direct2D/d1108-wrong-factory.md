@@ -91,7 +91,7 @@ The following example first creates two debug-enabled [**ID2D1Factory**](/window
 
 
 
-<span codelanguage="ManagedCPlusPlus"></span>
+
 
 <table>
 <colgroup>
@@ -114,7 +114,7 @@ The following example first creates two debug-enabled [**ID2D1Factory**](/window
 </tbody>
 </table>
 
-<span codelanguage="ManagedCPlusPlus"></span>
+
 
 <table>
 <colgroup>
@@ -138,7 +138,7 @@ The following example first creates two debug-enabled [**ID2D1Factory**](/window
 </tbody>
 </table>
 
-<span codelanguage="ManagedCPlusPlus"></span>
+
 
 <table>
 <colgroup>

@@ -12,7 +12,7 @@ Provides information to the [**IQueryAssociations**](/windows/win32/api/shlwapi/
 
 ## Syntax
 
-<span codelanguage="ManagedCPlusPlus"></span>
+
 
 
 | C++ | 

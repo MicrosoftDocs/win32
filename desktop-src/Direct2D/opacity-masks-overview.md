@@ -171,7 +171,7 @@ The steps that follow describe how to re-create this effect.
                 );
     ```
 
-    <span codelanguage="ManagedCPlusPlus"></span>
+    
     <table>
     <colgroup>
     <col  />
@@ -195,7 +195,7 @@ The steps that follow describe how to re-create this effect.
     </tbody>
     </table>
 
-    <span codelanguage="ManagedCPlusPlus"></span>
+    
     <table>
     <colgroup>
     <col  />
@@ -299,7 +299,7 @@ The first example creates an [**ID2D1BitmapBrush**](/windows/win32/api/d2d1/nn-d
 
 
 
-<span codelanguage="ManagedCPlusPlus"></span>
+
 
 <table>
 <colgroup>
@@ -324,7 +324,7 @@ The first example creates an [**ID2D1BitmapBrush**](/windows/win32/api/d2d1/nn-d
 </tbody>
 </table>
 
-<span codelanguage="ManagedCPlusPlus"></span>
+
 
 <table>
 <colgroup>

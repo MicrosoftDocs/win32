@@ -129,7 +129,7 @@ if( FAILED (hr = D3D11CreateDeviceAndSwapChain( NULL,
 >
 > Create a viewport to define which parts of the render target will be visible. Define the viewport using the [**D3D11\_VIEWPORT**](/windows/desktop/api/D3D11/ns-d3d11-d3d11_viewport) structure and set the viewport using the [**ID3D11DeviceContext::RSSetViewports**](/windows/desktop/api/D3D11/nf-d3d11-id3d11devicecontext-rssetviewports) method.
 >
-> <span codelanguage="ManagedCPlusPlus"></span>
+> 
 >
 > <table>
 > <colgroup>
