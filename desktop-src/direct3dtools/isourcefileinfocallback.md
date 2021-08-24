@@ -34,7 +34,7 @@ The **ISourceFileInfoCallback** interface inherits from the [**IUnknown**](/wind
 
 The **ISourceFileInfoCallback** interface has these methods.
 
-<table><colgroup><col  /><col  /></colgroup><thead><tr class="header"><th style="text-align: left;">Method</th><th style="text-align: left;">Description</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;"><a href="/windows/desktop/direct3dtools/isourcefileinfocallback-resultcallback-dword-sourcefileinfo-arr"><strong>ResultCallback</strong></a></td><td style="text-align: left;"><p>A callback function used to notify the host of information about source files associated with the callstack.</p></td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><thead><tr class="header"><th >Method</th><th >Description</th></tr></thead><tbody><tr class="odd"><td ><a href="/windows/desktop/direct3dtools/isourcefileinfocallback-resultcallback-dword-sourcefileinfo-arr"><strong>ResultCallback</strong></a></td><td ><p>A callback function used to notify the host of information about source files associated with the callstack.</p></td></tr></tbody></table>
 
  
 

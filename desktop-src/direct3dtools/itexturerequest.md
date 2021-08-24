@@ -34,7 +34,7 @@ The **ITextureRequest** interface inherits from the [**IUnknown**](/windows/desk
 
 The **ITextureRequest** interface has these methods.
 
-<table><colgroup><col  /><col  /></colgroup><thead><tr class="header"><th style="text-align: left;">Method</th><th style="text-align: left;">Description</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;"><a href="/windows/desktop/direct3dtools/itexturerequest-requestasync-eventid-dword-bstr-itexturecallback-ptr-dword-dword"><strong>RequestAsync</strong></a></td><td style="text-align: left;"><p>Requests to get the contents of a texture as a .DDS (DirectDraw Surface) file.</p></td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><thead><tr class="header"><th >Method</th><th >Description</th></tr></thead><tbody><tr class="odd"><td ><a href="/windows/desktop/direct3dtools/itexturerequest-requestasync-eventid-dword-bstr-itexturecallback-ptr-dword-dword"><strong>RequestAsync</strong></a></td><td ><p>Requests to get the contents of a texture as a .DDS (DirectDraw Surface) file.</p></td></tr></tbody></table>
 
  
 

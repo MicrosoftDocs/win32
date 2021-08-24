@@ -34,7 +34,7 @@ The **ICallStackCallback** interface inherits from the [**IUnknown**](/windows/d
 
 The **ICallStackCallback** interface has these methods.
 
-<table><colgroup><col  /><col  /></colgroup><thead><tr class="header"><th style="text-align: left;">Method</th><th style="text-align: left;">Description</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;"><a href="/windows/desktop/direct3dtools/icallstackcallback-resultcallback-dword-callstackframe-arr"><strong>ResultCallback</strong></a></td><td style="text-align: left;"><p>A callback function used to notify the host of call stack information.</p></td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><thead><tr class="header"><th >Method</th><th >Description</th></tr></thead><tbody><tr class="odd"><td ><a href="/windows/desktop/direct3dtools/icallstackcallback-resultcallback-dword-callstackframe-arr"><strong>ResultCallback</strong></a></td><td ><p>A callback function used to notify the host of call stack information.</p></td></tr></tbody></table>
 
  
 

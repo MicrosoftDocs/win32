@@ -34,7 +34,7 @@ The **IPixEngine6** interface inherits from the [**IUnknown**](/windows/desktop/
 
 The **IPixEngine6** interface has these methods.
 
-<table><colgroup><col  /><col  /></colgroup><thead><tr class="header"><th style="text-align: left;">Method</th><th style="text-align: left;">Description</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;"><a href="/windows/desktop/direct3dtools/ipixengine6-getremotingversion-remotingversion-ptr"><strong>GetRemotingVersion</strong></a></td><td style="text-align: left;"><p>Gets the remoting version of the engine.</p></td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><thead><tr class="header"><th >Method</th><th >Description</th></tr></thead><tbody><tr class="odd"><td ><a href="/windows/desktop/direct3dtools/ipixengine6-getremotingversion-remotingversion-ptr"><strong>GetRemotingVersion</strong></a></td><td ><p>Gets the remoting version of the engine.</p></td></tr></tbody></table>
 
  
 
