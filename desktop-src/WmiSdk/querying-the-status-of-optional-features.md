@@ -15,7 +15,7 @@ You can use Windows PowerShell cmdlets to query the status of optional features.
 
 **To retrieve all instances of optional features present on a computer**
 
--   <span codelanguage="PowerShell"></span>
+
     
 | PowerShell | 
 |------------|
@@ -26,7 +26,7 @@ You can use Windows PowerShell cmdlets to query the status of optional features.
 
 **To query for an optional feature by specifying the feature name**
 
--   <span codelanguage="PowerShell"></span>
+
     
 | PowerShell | 
 |------------|
@@ -42,7 +42,7 @@ You can use Windows PowerShell cmdlets to query the status of optional features.
 
 **To query for optional features by specifying the install state**
 
--   <span codelanguage="PowerShell"></span>
+
     
 | PowerShell | 
 |------------|

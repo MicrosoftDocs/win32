@@ -34,7 +34,7 @@ The **IPixEngine4** interface inherits from the [**IUnknown**](/windows/desktop/
 
 The **IPixEngine4** interface has these methods.
 
-<table><colgroup><col  /><col  /></colgroup><thead><tr class="header"><th style="text-align: left;">Method</th><th style="text-align: left;">Description</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;"><a href="/windows/desktop/direct3dtools/ipixengine4-updateobject-uint-dword-byte-arr"><strong>UpdateObject</strong></a></td><td style="text-align: left;"><p>Updates the initial state of an object; for example, a texture or shader.</p></td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><thead><tr class="header"><th >Method</th><th >Description</th></tr></thead><tbody><tr class="odd"><td ><a href="/windows/desktop/direct3dtools/ipixengine4-updateobject-uint-dword-byte-arr"><strong>UpdateObject</strong></a></td><td ><p>Updates the initial state of an object; for example, a texture or shader.</p></td></tr></tbody></table>
 
  
 

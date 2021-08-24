@@ -34,7 +34,7 @@ The **ITextureCallback** interface inherits from the [**IUnknown**](/windows/des
 
 The **ITextureCallback** interface has these methods.
 
-<table><colgroup><col  /><col  /></colgroup><thead><tr class="header"><th style="text-align: left;">Method</th><th style="text-align: left;">Description</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;"><a href="/windows/desktop/direct3dtools/itexturecallback-resultcallback"><strong>ResultCallback</strong></a></td><td style="text-align: left;"><p>A callback that notifies the host that the .DDS (DirectDraw Surface) file containing results from the associated request are ready.</p></td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><thead><tr class="header"><th >Method</th><th >Description</th></tr></thead><tbody><tr class="odd"><td ><a href="/windows/desktop/direct3dtools/itexturecallback-resultcallback"><strong>ResultCallback</strong></a></td><td ><p>A callback that notifies the host that the .DDS (DirectDraw Surface) file containing results from the associated request are ready.</p></td></tr></tbody></table>
 
  
 

@@ -34,7 +34,7 @@ The **IBufferObjectDataCallback** interface inherits from the [**IUnknown**](/wi
 
 The **IBufferObjectDataCallback** interface has these methods.
 
-<table><colgroup><col  /><col  /></colgroup><thead><tr class="header"><th style="text-align: left;">Method</th><th style="text-align: left;">Description</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;"><a href="/windows/desktop/direct3dtools/ibufferobjectdatacallback-resultcallback-bstr"><strong>ResultCallback</strong></a></td><td style="text-align: left;"><p>A callback that notifies the host of buffer information written to a file by the assocaited request.</p></td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><thead><tr class="header"><th >Method</th><th >Description</th></tr></thead><tbody><tr class="odd"><td ><a href="/windows/desktop/direct3dtools/ibufferobjectdatacallback-resultcallback-bstr"><strong>ResultCallback</strong></a></td><td ><p>A callback that notifies the host of buffer information written to a file by the assocaited request.</p></td></tr></tbody></table>
 
  
 

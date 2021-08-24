@@ -34,7 +34,7 @@ The **IDebugShaderRequest** interface inherits from the [**IUnknown**](/windows/
 
 The **IDebugShaderRequest** interface has these methods.
 
-<table><colgroup><col  /><col  /></colgroup><thead><tr class="header"><th style="text-align: left;">Method</th><th style="text-align: left;">Description</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;"><a href="/windows/desktop/direct3dtools/idebugshaderrequest-begindebugshader-ipixerrorcallback-ptr-eventid-dword-dword-point2d-pipelinestages-pixelhistoryoperation-ptr-dword-ptr"><strong>BeginDebugShader</strong></a></td><td style="text-align: left;"><p>Requests to start a shader debugging session for the specified pipeline stage, pixel/vertex if applicable, event, and frame.</p></td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><thead><tr class="header"><th >Method</th><th >Description</th></tr></thead><tbody><tr class="odd"><td ><a href="/windows/desktop/direct3dtools/idebugshaderrequest-begindebugshader-ipixerrorcallback-ptr-eventid-dword-dword-point2d-pipelinestages-pixelhistoryoperation-ptr-dword-ptr"><strong>BeginDebugShader</strong></a></td><td ><p>Requests to start a shader debugging session for the specified pipeline stage, pixel/vertex if applicable, event, and frame.</p></td></tr></tbody></table>
 
  
 

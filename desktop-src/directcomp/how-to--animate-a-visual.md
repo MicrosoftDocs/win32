@@ -89,7 +89,7 @@ hr = m_pDevice->CreateEffectGroup(&m_pEffectGroup);
 
 
 
-<span codelanguage="ManagedCPlusPlus"></span>
+
 
 
 | C++ | 
@@ -97,7 +97,7 @@ hr = m_pDevice->CreateEffectGroup(&m_pEffectGroup);
 | <pre><code>if (SUCCEEDED(hr)){    hr = m_pEffectGroup-&gt;SetOpacity(m_pFadeInAnimation);}</code></pre> | 
 
 
-<span codelanguage="ManagedCPlusPlus"></span>
+
 
 
 | C++ | 

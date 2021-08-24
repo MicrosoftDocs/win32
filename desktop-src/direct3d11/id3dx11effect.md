@@ -72,7 +72,7 @@ The effect system groups the information required for rendering into an effect w
 >
 > If you call [**QueryInterface**](/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)) on an **ID3DX11Effect** object to retrieve the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface, **QueryInterface** returns E\_NOINTERFACE. To work around this issue, use the following code:
 >
-> <span codelanguage=""></span>
+> 
 >
 > 
 | 
