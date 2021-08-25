@@ -17,8 +17,8 @@ For more detail on this element, see the v1 documentation for [**IsDefault**](./
 
 ## Element hierarchy
 
-[<MBNProfileExt>](element-mbnprofileext.md)  
-**<IsDefault>**
+[&lt;MBNProfileExt&gt;](element-mbnprofileext.md)  
+**&lt;IsDefault&gt;**
 
 ## Syntax
 

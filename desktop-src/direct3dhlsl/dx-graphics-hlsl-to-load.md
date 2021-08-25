@@ -119,7 +119,7 @@ For example, to access a 2D texture, supply UV coordinates for the first two com
 
 ## Return Value
 
-The return type matches the type in the *Object* declaration. For example, a Texture2D object that was declared as "Texture2d<uint4> myTexture;" has a return value of type **uint4**.
+The return type matches the type in the *Object* declaration. For example, a Texture2D object that was declared as "Texture2d&lt;uint4&gt; myTexture;" has a return value of type **uint4**.
 
 ## Minimum Shader Model
 

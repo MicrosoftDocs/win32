@@ -49,14 +49,14 @@ The AppId column of the [Class table](class-table.md) is a foreign key into this
 <span id="RemoteServerName"></span><span id="remoteservername"></span><span id="REMOTESERVERNAME"></span>RemoteServerName
 </dt> <dd>
 
-This column contains the value of "RemoteServerName"=<xxxx> that will be written under HKCR\\AppID\\{AppID}\\ .
+This column contains the value of "RemoteServerName"=&lt;xxxx&gt; that will be written under HKCR\\AppID\\{AppID}\\ .
 
 </dd> <dt>
 
 <span id="LocalService"></span><span id="localservice"></span><span id="LOCALSERVICE"></span>LocalService
 </dt> <dd>
 
-This column contains the value of LocalService that will be written under HKCR\\AppID\\{<appid>} "LocalService"=<xxx>.
+This column contains the value of LocalService that will be written under HKCR\\AppID\\{&lt;appid&gt;} "LocalService"=&lt;xxx&gt;.
 
 </dd> <dt>
 
@@ -70,14 +70,14 @@ This column contains the value of ServiceParameters that will be written under H
 <span id="DllSurrogate"></span><span id="dllsurrogate"></span><span id="DLLSURROGATE"></span>DllSurrogate
 </dt> <dd>
 
-This column contains the value of DllSurrogate that will be written under HKCR\\AppId\\{<appid>} "DllSurrogate"=<xxx>. If this column is present it will typically be an empty string.
+This column contains the value of DllSurrogate that will be written under HKCR\\AppId\\{&lt;appid&gt;} "DllSurrogate"=&lt;xxx&gt;. If this column is present it will typically be an empty string.
 
 </dd> <dt>
 
 <span id="ActivateAtStorage"></span><span id="activateatstorage"></span><span id="ACTIVATEATSTORAGE"></span>ActivateAtStorage
 </dt> <dd>
 
-A non-zero integer value in this field causes Windows Installer to write HKCR\\AppID\\{<appid>} "ActivateAtStorage"="Y" into the registry. If the field is left empty, or has a value of zero, no value will be written.
+A non-zero integer value in this field causes Windows Installer to write HKCR\\AppID\\{&lt;appid&gt;} "ActivateAtStorage"="Y" into the registry. If the field is left empty, or has a value of zero, no value will be written.
 
 </dd> <dt>
 

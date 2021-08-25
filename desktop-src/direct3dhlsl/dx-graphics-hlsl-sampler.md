@@ -158,7 +158,7 @@ When you implement an effect, sampler state is one of several types of state tha
 <td><pre><code>sampler MeshTextureSampler = 
 sampler_state
 {
-    Texture = <g_MeshTexture>;
+    Texture = &lt;g_MeshTexture&gt;;
     MipFilter = LINEAR;
     MinFilter = LINEAR;
     MagFilter = LINEAR;

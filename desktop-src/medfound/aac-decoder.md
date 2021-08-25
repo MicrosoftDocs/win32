@@ -104,11 +104,11 @@ Sampling rates above 48 kHz are not supported.
 
 The decoder supports up to 6 audio channels. For each speaker configuration, the decoder expects the AAC syntactic elements to appear in a certain order. The following table lists the supported speaker configurations. The third column of the table lists the expected syntactic elements and their order, using the following notation:
 
--   <SCE1>: The single_channel_element (SCE) associated with the front center speaker.
--   <SCE2>: The SCE associated with the back center speaker.
--   <CPE1>: The channel_pair_element (CPE) associated with the front speakers.
--   <CPE2>: The CPE associated with the back (or side) speakers
--   <LFE>: The lfe_channel_element (LFE).
+-   &lt;SCE1&gt;: The single_channel_element (SCE) associated with the front center speaker.
+-   &lt;SCE2&gt;: The SCE associated with the back center speaker.
+-   &lt;CPE1&gt;: The channel_pair_element (CPE) associated with the front speakers.
+-   &lt;CPE2&gt;: The CPE associated with the back (or side) speakers
+-   &lt;LFE&gt;: The lfe_channel_element (LFE).
 
 For more information about these syntactic elements, refer to ISO/IEC 13818-7.
 
@@ -116,14 +116,14 @@ For more information about these syntactic elements, refer to ISO/IEC 13818-7.
 
 | Configuration       | Channel Mask                                                                                                                                                              | AAC Syntactic Elements                          |
 |---------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------|
-| Mono                | **SPEAKER_FRONT_CENTER**                                                                                                                                                | <SCE1>                                    |
-| Stereo or dual mono | **SPEAKER_FRONT_LEFT** \| **SPEAKER_FRONT_RIGHT**                                                                                                                     | <CPE1>                                    |
-| 2/1                 | **SPEAKER_FRONT_LEFT** \| **SPEAKER_FRONT_RIGHT** \| **SPEAKER_BACK_CENTER**                                                                                        | <CPE1><SCE1>                        |
-| 2/2                 | **SPEAKER_FRONT_LEFT** \| **SPEAKER_FRONT_RIGHT** \| **SPEAKER_BACK_LEFT** \| **SPEAKER_BACK_RIGHT**                                                              | <CPE1><CPE2>                        |
-| 3/0                 | **SPEAKER_FRONT_LEFT** \| **SPEAKER_FRONT_RIGHT** \| **SPEAKER_FRONT_CENTER**                                                                                       | <SCE1><CPE1>                        |
-| 3/1                 | **SPEAKER_FRONT_LEFT** \| **SPEAKER_FRONT_RIGHT** \| **SPEAKER_FRONT_CENTER** \| **SPEAKER_BACK_CENTER**                                                          | <SCE1><CPE1><SCE2>            |
-| 3/2                 | **SPEAKER_FRONT_LEFT** \| **SPEAKER_FRONT_RIGHT** \| **SPEAKER_FRONT_CENTER** \| **SPEAKER_BACK_LEFT** \| **SPEAKER_BACK_RIGHT**                                | <SCE1><CPE1><CPE2>            |
-| 3/2 + LFE           | **SPEAKER_FRONT_LEFT** \| **SPEAKER_FRONT_RIGHT** \| **SPEAKER_FRONT_CENTER** \| **SPEAKER_LOW_FREQUENCY** \| **SPEAKER_BACK_LEFT** \| **SPEAKER_BACK_RIGHT** | <SCE1><CPE1><CPE2><LFE> |
+| Mono                | **SPEAKER_FRONT_CENTER**                                                                                                                                                | &lt;SCE1&gt;                                    |
+| Stereo or dual mono | **SPEAKER_FRONT_LEFT** \| **SPEAKER_FRONT_RIGHT**                                                                                                                     | &lt;CPE1&gt;                                    |
+| 2/1                 | **SPEAKER_FRONT_LEFT** \| **SPEAKER_FRONT_RIGHT** \| **SPEAKER_BACK_CENTER**                                                                                        | &lt;CPE1&gt;&lt;SCE1&gt;                        |
+| 2/2                 | **SPEAKER_FRONT_LEFT** \| **SPEAKER_FRONT_RIGHT** \| **SPEAKER_BACK_LEFT** \| **SPEAKER_BACK_RIGHT**                                                              | &lt;CPE1&gt;&lt;CPE2&gt;                        |
+| 3/0                 | **SPEAKER_FRONT_LEFT** \| **SPEAKER_FRONT_RIGHT** \| **SPEAKER_FRONT_CENTER**                                                                                       | &lt;SCE1&gt;&lt;CPE1&gt;                        |
+| 3/1                 | **SPEAKER_FRONT_LEFT** \| **SPEAKER_FRONT_RIGHT** \| **SPEAKER_FRONT_CENTER** \| **SPEAKER_BACK_CENTER**                                                          | &lt;SCE1&gt;&lt;CPE1&gt;&lt;SCE2&gt;            |
+| 3/2                 | **SPEAKER_FRONT_LEFT** \| **SPEAKER_FRONT_RIGHT** \| **SPEAKER_FRONT_CENTER** \| **SPEAKER_BACK_LEFT** \| **SPEAKER_BACK_RIGHT**                                | &lt;SCE1&gt;&lt;CPE1&gt;&lt;CPE2&gt;            |
+| 3/2 + LFE           | **SPEAKER_FRONT_LEFT** \| **SPEAKER_FRONT_RIGHT** \| **SPEAKER_FRONT_CENTER** \| **SPEAKER_LOW_FREQUENCY** \| **SPEAKER_BACK_LEFT** \| **SPEAKER_BACK_RIGHT** | &lt;SCE1&gt;&lt;CPE1&gt;&lt;CPE2&gt;&lt;LFE&gt; |
 
 
 

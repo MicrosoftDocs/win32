@@ -28,7 +28,7 @@ Returns the name used in code to identify the control. This property is read-onl
 
 ## Remarks
 
-In some programming environments such as Visual Basic, adding the control automatically generates a default name for the control that can be changed at design time. For HTML scripts, you can define the name in the <OBJECT> tag. If you define the name, follow the conventions of the programming language for defining object names.
+In some programming environments such as Visual Basic, adding the control automatically generates a default name for the control that can be changed at design time. For HTML scripts, you can define the name in the &lt;OBJECT&gt; tag. If you define the name, follow the conventions of the programming language for defining object names.
 
  
 

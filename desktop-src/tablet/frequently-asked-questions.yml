@@ -72,7 +72,7 @@ sections:
           
           - [Mobile PC and Tablet PC Samples](mobile-pc-and-tablet-pc-samples.md)
           - [Digital Ink Samples, Windows Presentation Foundation (WPF)](/previous-versions/dotnet/netframework-3.0/aa972145(v=vs.85))
-          - <systemdrive>:\\Program Files\\Microsoft SDKs\\Windows\\v6.0\\Samples\\TabletPC
+          - &lt;systemdrive&gt;:\\Program Files\\Microsoft SDKs\\Windows\\v6.0\\Samples\\TabletPC
           
       - question: |
           What's the base level of Tablet hardware that I should develop for?

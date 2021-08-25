@@ -13,7 +13,7 @@ The WMI command-line (WMIC) utility provides a command-line interface for Window
 
 ## Alias
 
-An alias is a friendly renaming of a class, property, or method that makes WMI easier to use and read. You can determine what aliases are available for WMIC through the **/?** command. You can also determine the aliases for a specific class using the **<className> /?** command. For more information, see [WMIC Aliases](/previous-versions/windows/it-pro/windows-server-2003/cc736307(v=ws.10)).
+An alias is a friendly renaming of a class, property, or method that makes WMI easier to use and read. You can determine what aliases are available for WMIC through the **/?** command. You can also determine the aliases for a specific class using the **&lt;className&gt; /?** command. For more information, see [WMIC Aliases](/previous-versions/windows/it-pro/windows-server-2003/cc736307(v=ws.10)).
 
 ## Switch
 
@@ -38,9 +38,9 @@ The ASSOC verb has the following switches.
 
 | Switch                         | Description                                                                                                       |
 |--------------------------------|-------------------------------------------------------------------------------------------------------------------|
-| /RESULTCLASS:<classname> | Returned endpoints associated with the source object must belong to, or be derived from the specified class.      |
-| /RESULTROLE:<rolename>   | Returned endpoints must play a specific role in associations with the source object.                              |
-| /ASSOCCLASS:<assocclass> | Returned endpoints must be associated with the source through the specified class, or one of its derived classes. |
+| /RESULTCLASS:&lt;classname&gt; | Returned endpoints associated with the source object must belong to, or be derived from the specified class.      |
+| /RESULTROLE:&lt;rolename&gt;   | Returned endpoints must play a specific role in associations with the source object.                              |
+| /ASSOCCLASS:&lt;assocclass&gt; | Returned endpoints must be associated with the source through the specified class, or one of its derived classes. |
 
 
 
@@ -96,7 +96,7 @@ GET has the following switches.
 | /VALUE                               | Output is formatted with each value listed on a separate line and with the name of the property.                                           |
 | /ALL                                 | Output is formatted as a table.                                                                                                            |
 | /TRANSLATE:<translation table> | Translate the output using the translation table named by the command. The translation tables BasicXml and NoComma are included with WMIC. |
-| /EVERY:<interval>              | Repeat the command every <interval> seconds.                                                                                         |
+| /EVERY:&lt;interval&gt;              | Repeat the command every &lt;interval&gt; seconds.                                                                                         |
 | /FORMAT:<format specifier>     | Specifies a key word or XSL file name to format the data.                                                                                  |
 
 
@@ -135,7 +135,7 @@ LIST has the following switches.
 | Switch                               | Description                                                                                                                                |
 |--------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
 | /TRANSLATE:<translation table> | Translate the output using the translation table named by the command. The translation tables BasicXml and NoComma are included with WMIC. |
-| /EVERY:<interval>              | Repeat the command every <interval> seconds.                                                                                         |
+| /EVERY:&lt;interval&gt;              | Repeat the command every &lt;interval&gt; seconds.                                                                                         |
 | /FORMAT:<format specifier>     | Specifies a key word or XSL file name to format the data.                                                                                  |
 
 

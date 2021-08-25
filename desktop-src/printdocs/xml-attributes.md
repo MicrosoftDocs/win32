@@ -53,7 +53,7 @@ The following example shows how to identify an Option instance using a 'name' at
     <psf:ScoredProperty name=&quot;psk:SheetCapacity&quot; >
       <psf:Value xsi:type=&quot;xs:integer&quot;>_Undefined_</psf:Value>
     </psf:ScoredProperty>
-  </psf:Option></code></pre></td>
+  &lt;/psf:Option&gt;</code></pre></td>
 </tr>
 <tr class="even">
 <td>propagate <br/></td>

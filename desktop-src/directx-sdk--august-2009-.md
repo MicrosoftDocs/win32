@@ -97,7 +97,7 @@ These steps also apply to your own projects that are dependent on the DirectX SD
 
     2.  Invoking run-time compilation through the legacy D3DX DLL will use the incorrect older version of the HLSL compiler. Replace all references to D3DXCompile\*, D3DX10Compile\*, and D3DX11Compile\* APIs in your code with the D3DCompile function in D3DCOMPILER\_46.DLL or D3DCOMPILER\_47.DLL.
 
-    3.  Any project that uses run-time shader compilation must have D3DCOMPILER\_xx.DLL copied to the local executable path for the project. This DLL is available in this sub-directory of the Windows SDK installation under **%ProgramFiles(x86)%\\Windows Kits\\8.0\\Redist\\D3D\\<arch>** or **%ProgramFiles(x86)%\\Windows Kits\\8.1\\Redist\\D3D\\<arch>** where **<arch>** is **x86** and **x64**.
+    3.  Any project that uses run-time shader compilation must have D3DCOMPILER\_xx.DLL copied to the local executable path for the project. This DLL is available in this sub-directory of the Windows SDK installation under **%ProgramFiles(x86)%\\Windows Kits\\8.0\\Redist\\D3D\\&lt;arch&gt;** or **%ProgramFiles(x86)%\\Windows Kits\\8.1\\Redist\\D3D\\&lt;arch&gt;** where **&lt;arch&gt;** is **x86** and **x64**.
 
         The D3DCOMPILER\_46.DLL or D3DCOMPILER\_47.DLL from the Windows SDK is not a system component and should not be copied to the Windows system directory. You can redistribute this DLL to other computers with your application as a side-by-side DLL.
 
@@ -109,7 +109,7 @@ These steps also apply to your own projects that are dependent on the DirectX SD
 
     ...and in your linker options for Additional Dependencies, link directly to the DirectX SDK XInput library:
 
-    **%DXSDK\_DIR%Include\\<arch>\\xinput.lib**
+    **%DXSDK\_DIR%Include\\&lt;arch&gt;\\xinput.lib**
 
     The XINPUT1\_3.DLL binary is installed to the Windows system directories by the DirectX SDK installation on your development computer. You will need to redistribute this binary with your application using the DirectX Setup installation from the DirectX SDK.
 
@@ -121,11 +121,11 @@ These steps also apply to your own projects that are dependent on the DirectX SD
 
     ...and in your linker options for Additional Dependencies, link directly to the DirectX SDK XAudio2 library:
 
-    **%DXSDK\_DIR%Include\\<arch>\\xaudio2.lib**
+    **%DXSDK\_DIR%Include\\&lt;arch&gt;\\xaudio2.lib**
 
     The XAUDIO2\_7.DLL binary is installed to the Windows system directories by the DirectX SDK installation on your development computer. You need to redistribute these libraries with your application using the DirectX Setup installation from the DirectX SDK.
 
-9.  If you’ve used the DirectX SDK with past versions of Visual Studio, the Visual Studio 2010 upgrade might have migrated the DirectX SDK path into your default project settings. It is recommended that you remove these settings to prevent future build errors. In the **%USERPROFILE%\\AppData\\Local\\Microsoft\\MSBuild\\v4.0** directory, modify the **Microsoft.Cpp.Win32.user** and **Microsoft.Cpp.x64.user** files to remove all references to DXSDK\_DIR paths. Alternatively, you can remove the entire <PropertyGroup> node that contains the Path entries such as <ExecutablePath> and <IncludePath> to revert to standard defaults. If you don’t see references to DXSDK\_DIR in these files, no changes are necessary.
+9.  If you’ve used the DirectX SDK with past versions of Visual Studio, the Visual Studio 2010 upgrade might have migrated the DirectX SDK path into your default project settings. It is recommended that you remove these settings to prevent future build errors. In the **%USERPROFILE%\\AppData\\Local\\Microsoft\\MSBuild\\v4.0** directory, modify the **Microsoft.Cpp.Win32.user** and **Microsoft.Cpp.x64.user** files to remove all references to DXSDK\_DIR paths. Alternatively, you can remove the entire &lt;PropertyGroup&gt; node that contains the Path entries such as &lt;ExecutablePath&gt; and &lt;IncludePath&gt; to revert to standard defaults. If you don’t see references to DXSDK\_DIR in these files, no changes are necessary.
 
 10. If the resulting app supports Windows Vista with Service Pack 2 (SP2) as well as Windows 7 and Windows 8 and later, set the Preprocessor Definition named **\_WIN32\_WINNT** to 0x600. If it only supports Windows 7 and Windows 8 and later, set it to 0x601.
 

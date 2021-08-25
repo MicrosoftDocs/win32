@@ -142,7 +142,7 @@ The following table shows where it is valid to use the feature and component ope
 
 
 
-| Operator <state> | Where this syntax is valid                                                                                                                                         |
+| Operator &lt;state&gt; | Where this syntax is valid                                                                                                                                         |
 |------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | $component-action      | In the [Condition](condition-table.md) table, and in the [sequence](using-a-sequence-table.md) tables, after the [CostFinalize](costfinalize-action.md) action. |
 | &feature-action        | In the [Condition](condition-table.md) table, and in the [sequence](using-a-sequence-table.md) tables, after the [CostFinalize](costfinalize-action.md) action. |

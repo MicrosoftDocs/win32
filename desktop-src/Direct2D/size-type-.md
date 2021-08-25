@@ -16,7 +16,7 @@ ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# Size<Type> Function
+# Size&lt;Type&gt; Function
 
 Creates a size structure that stores its width and height using the specified data type.
 

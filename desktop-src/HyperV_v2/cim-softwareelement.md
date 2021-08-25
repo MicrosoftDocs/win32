@@ -1069,7 +1069,7 @@ Access type: Read-only
 Qualifiers: [**Key**](/windows/desktop/WmiSdk/key-qualifier), [**MaxLen**](/windows/desktop/WmiSdk/standard-qualifiers) (64), [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("MIF.DMTF\|SubComponent Software \|001.4")
 </dt> </dl>
 
-The software version in the format *<Major>*.*<Minor>*.*<Revision>* or *<Major>*.*<Minor><letter><revision>*.
+The software version in the format *&lt;Major&gt;*.*&lt;Minor&gt;*.*&lt;Revision&gt;* or *&lt;Major&gt;*.*&lt;Minor&gt;&lt;letter&gt;&lt;revision&gt;*.
 
 </dd> </dl>
 

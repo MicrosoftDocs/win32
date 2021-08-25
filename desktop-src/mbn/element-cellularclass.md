@@ -15,9 +15,9 @@ Specifies that this profile is active only when the current cellular class is th
 
 ## Element hierarchy
 
-[<MBNProfileExt>](element-mbnprofileext.md)  
-[<ProfileConditionedOn>](element-profileconditionedon.md)  
-**<CellularClass>**
+[&lt;MBNProfileExt&gt;](element-mbnprofileext.md)  
+[&lt;ProfileConditionedOn&gt;](element-profileconditionedon.md)  
+**&lt;CellularClass&gt;**
 
 ## Syntax
 

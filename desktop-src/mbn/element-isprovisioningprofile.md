@@ -17,8 +17,8 @@ If **IsProvisioningProfile** is true, [**IsDefault**](element-isdefault.md) must
 
 ## Element hierarchy
 
-[<MBNProfileExt>](element-mbnprofileext.md)  
-**<IsProvisioningProfile>**
+[&lt;MBNProfileExt&gt;](element-mbnprofileext.md)  
+**&lt;IsProvisioningProfile&gt;**
 
 ## Syntax
 

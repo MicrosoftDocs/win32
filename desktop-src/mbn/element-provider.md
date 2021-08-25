@@ -27,9 +27,9 @@ The value of this element is an instance of the v1 [**providerType**](./schema-p
 
 ## Element hierarchy
 
-[<MBNProfileExt>](element-mbnprofileext.md)  
-[<DataRoamingPartners>](element-dataroamingpartners.md)  
-**<Provider>**
+[&lt;MBNProfileExt&gt;](element-mbnprofileext.md)  
+[&lt;DataRoamingPartners&gt;](element-dataroamingpartners.md)  
+**&lt;Provider&gt;**
 
 ## Syntax
 

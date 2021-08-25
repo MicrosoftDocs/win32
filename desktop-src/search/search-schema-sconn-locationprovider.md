@@ -1,5 +1,5 @@
 ---
-description: The optional <locationProvider> element specifies the search provider to be used by the web service provider search connector. This element contains one mandatory attribute and an optional child element.
+description: The optional &lt;locationProvider&gt; element specifies the search provider to be used by the web service provider search connector. This element contains one mandatory attribute and an optional child element.
 ms.assetid: 5481b1ae-e166-4f09-bf0d-d6b7f7c8a331
 title: locationProvider Element (Search Connector Schema)
 ms.topic: article
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # locationProvider Element (Search Connector Schema)
 
-The optional <locationProvider> element specifies the search provider to be used by the web service provider search connector. This element contains one mandatory attribute and an optional child element.
+The optional &lt;locationProvider&gt; element specifies the search provider to be used by the web service provider search connector. This element contains one mandatory attribute and an optional child element.
 
 ## Syntax
 
@@ -64,7 +64,7 @@ The optional <locationProvider> element specifies the search provider to be used
 
 The @clsid attribute value for the OpenSearch provider is {48E277F6-4E74-4cd6-BA6F-FA4F42898223}.
 
-File system and protocol handler based search connectors can use the [<simpleLocation>](search-schema-sconn-simplelocation.md) element instead. If <locationProvider> is present, there MUST NOT be a <simpleLocation> element in the Search Connector description.
+File system and protocol handler based search connectors can use the [&lt;simpleLocation&gt;](search-schema-sconn-simplelocation.md) element instead. If &lt;locationProvider&gt; is present, there MUST NOT be a &lt;simpleLocation&gt; element in the Search Connector description.
 
 ## Example of a locationProvider Element
 

@@ -38,7 +38,7 @@ Adjusting a phoneme label's boundary changes the timing of a phoneme when the au
 
 You can also replace a phoneme assignment by selecting the phoneme label and choosing **Replace Phoneme** from the **Edit** menu, or right-clicking the phoneme label and choosing **Replace Phoneme** from the pop-up menu. The editor displays the **Replace Phoneme** dialog box and highlights the label's current phoneme assignment. You can choose a replacement phoneme by selecting one in the **IPA** list or by choosing another entry in the **Name** list. If more than one IPA translation is available for that name, choose an item in the **IPA** list. To enter an IPA designation for a phoneme that may not be directly included in the language, type in its hex value or multiple hex values, concatenated with a plus (+) character. Once you have selected the replacement phoneme information, choose **OK**, and the editor replaces the phoneme label you selected.
 
-![Screenshot that shows the 'Replace Phoneme' dialog, with '<SIL>' selected as the descriptive label.](images/f5listphone.gif)
+![Screenshot that shows the 'Replace Phoneme' dialog, with '&lt;SIL&gt;' selected as the descriptive label.](images/f5listphone.gif)
 
 Similarly, you can replace a word label by clicking the label's box and choosing **Replace Word**, or by right-clicking the label's box and choosing **Replace Word** from the pop-up menu. The editor displays the **Replace Word** dialog box. Enter the replacement word and choose **OK**.
 

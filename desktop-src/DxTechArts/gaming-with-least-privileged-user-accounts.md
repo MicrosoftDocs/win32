@@ -35,10 +35,10 @@ The following table lists the default location of these folders and their permis
 
 | Path                                               | Folder Contents              | Read | Write | Create/Delete |
 |----------------------------------------------------|------------------------------|------|-------|---------------|
-| <Drive>:\\Windows                            | The Windows operating system | X    |       |               |
-| <Drive>:\\Program Files                      | Executable application files | X    |       |               |
-| <Drive>:\\Documents and Settings\\Username\* | Each user's files            | X    | X     | X             |
-| <Drive>:\\Documents and Settings\\All Users  | All user files               | X    | X     | X             |
+| &lt;Drive&gt;:\\Windows                            | The Windows operating system | X    |       |               |
+| &lt;Drive&gt;:\\Program Files                      | Executable application files | X    |       |               |
+| &lt;Drive&gt;:\\Documents and Settings\\Username\* | Each user's files            | X    | X     | X             |
+| &lt;Drive&gt;:\\Documents and Settings\\All Users  | All user files               | X    | X     | X             |
 
 
 

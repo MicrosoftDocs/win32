@@ -14,8 +14,8 @@ To build Tablet PC applications in C\# and Visual Basic .NET, your project in Mi
 
 In Windows Vista, the Tablet PC managed library assemblies are installed by default in two directories:
 
--   <systemdrive>:\\Program Files\\Common Files\\Microsoft Shared\\Ink directory
--   <systemdrive>:\\Program Files\\Microsoft SDKs\\Windows\\v6.0\\Bin
+-   &lt;systemdrive&gt;:\\Program Files\\Common Files\\Microsoft Shared\\Ink directory
+-   &lt;systemdrive&gt;:\\Program Files\\Microsoft SDKs\\Windows\\v6.0\\Bin
 
 To add a reference to the Tablet PC platform managed libraries in Microsoft Visual Studio .NET:
 

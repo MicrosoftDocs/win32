@@ -65,7 +65,7 @@ array <data-type> <name>[<dimension-size>];
 
 
 
-<dimension-size> can either be an integer or a named reference to another template member whose value is then substituted. Arrays can be n-dimensional, where n is determined by the number of paired square brackets trailing the statement, as in the following example.
+&lt;dimension-size&gt; can either be an integer or a named reference to another template member whose value is then substituted. Arrays can be n-dimensional, where n is determined by the number of paired square brackets trailing the statement, as in the following example.
 
 
 ```

@@ -19,8 +19,8 @@ For more information, see the documentation for the v1 [**SubscriberID**](./sche
 
 ## Element hierarchy
 
-[<MBNProfileExt>](element-mbnprofileext.md)  
-**<SubscriberID>**
+[&lt;MBNProfileExt&gt;](element-mbnprofileext.md)  
+**&lt;SubscriberID&gt;**
 
 ## Syntax
 

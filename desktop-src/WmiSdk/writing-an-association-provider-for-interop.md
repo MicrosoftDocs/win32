@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 An association provider provides a mechanism to register profiles and associate them with profiles that are implemented in different namespaces.
 
-Association providers are used to expose standard profiles, like a power profile. This is accomplished by writing an association provider in the root/interop namespace that exposes association instances by implementing a class, which is derived from [**CIM\_RegisteredProfile**](/previous-versions//ee309375(v=vs.85)). The provider must be registered in both the root/interop and the root/<implemented> namespace to support cross namespace traversal.
+Association providers are used to expose standard profiles, like a power profile. This is accomplished by writing an association provider in the root/interop namespace that exposes association instances by implementing a class, which is derived from [**CIM\_RegisteredProfile**](/previous-versions//ee309375(v=vs.85)). The provider must be registered in both the root/interop and the root/&lt;implemented&gt; namespace to support cross namespace traversal.
 
 Windows Management Instrumentation (WMI) loads the association provider whenever an association query is run in the root/interop namespace.
 
@@ -50,7 +50,7 @@ Windows Management Instrumentation (WMI) loads the association provider whenever
 
 2.  Create a provider that returns association instances of [**CIM\_ElementConformsToProfile**](/previous-versions/windows/desktop/iscsitarg/cim-elementconformstoprofile). This is a two-step process.
 
-    1.  Create a class that is derived from [**CIM\_ElementConformsToProfile**](/previous-versions/windows/desktop/iscsitarg/cim-elementconformstoprofile) in both the interop and implementation namespaces. Because the same profile can be implemented by different vendors, the name of the class should be unique. The recommended naming convention is "<Organization>\_<ProductName>\_<ClassName>\_<Version>". Either the **ConformantStandard** or the **ManagedElement** property must specify the **MSFT\_TargetNamespace** qualifier that contains the namespace to which this class belongs.
+    1.  Create a class that is derived from [**CIM\_ElementConformsToProfile**](/previous-versions/windows/desktop/iscsitarg/cim-elementconformstoprofile) in both the interop and implementation namespaces. Because the same profile can be implemented by different vendors, the name of the class should be unique. The recommended naming convention is "&lt;Organization&gt;\_&lt;ProductName&gt;\_&lt;ClassName&gt;\_&lt;Version&gt;". Either the **ConformantStandard** or the **ManagedElement** property must specify the **MSFT\_TargetNamespace** qualifier that contains the namespace to which this class belongs.
 
         The following code example describes the syntax for deriving the Microsoft\_Process\_ElementConformsToProfile\_v1 class from [**CIM\_ElementConformsToProfile**](/previous-versions/windows/desktop/iscsitarg/cim-elementconformstoprofile) in the root\\interop namespace. In this example, the Win32\_Process managed element references the root\\cimv2 namespace by using the **MSFT\_TargetNamespace** qualifier.
 
@@ -78,13 +78,13 @@ Windows Management Instrumentation (WMI) loads the association provider whenever
 
         If the **MSFT\_TargetNamespace** qualifier is not specified on the property that is referencing the implemented namespace, the **ResultClass** filter of "Associators of" statement will not work. For example, if the **MSFT\_TargetNamespace** qualifier is not specified, the following Windows PowerShell command-line will not return an object: **get-wmiobject -query "associators of {ProcessProfile.InstanceID='Process'} where resultclass='Win32\_Process'"**.
 
-        The **MSFT\_TargetNamespace** qualifier cannot point to a namespace on a remote computer. For example, the following namespace is not supported: MSFT\_TargetNamespace(\\\\\\\\<RemoteMachine>\\\\root\\\\interop).
+        The **MSFT\_TargetNamespace** qualifier cannot point to a namespace on a remote computer. For example, the following namespace is not supported: MSFT\_TargetNamespace(\\\\\\\\&lt;RemoteMachine&gt;\\\\root\\\\interop).
 
     2.  Write a provider that returns instances of the created derived class. For more information, see [Writing an Instance Provider](writing-an-instance-provider.md). When you access cross-namespace instances, you might have to access the security levels for the client. For more information, see [Impersonating a Client](impersonating-a-client.md).
 
-        The association provider should implement both the [**IWbemServices.CreateInstanceEnumAsync**](/windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-createinstanceenumasync) and [**IWbemServices.GetObjectAsync**](/windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-getobjectasync) methods. Implementing the [**IWbemServices.ExecQueryAsync**](/windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-execqueryasync) method is optional. Because this provider can be accessed from both the root\\interop and the root\\<implemented> namespaces, there should not be an explicit dependency on a namespace inside the provider.
+        The association provider should implement both the [**IWbemServices.CreateInstanceEnumAsync**](/windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-createinstanceenumasync) and [**IWbemServices.GetObjectAsync**](/windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-getobjectasync) methods. Implementing the [**IWbemServices.ExecQueryAsync**](/windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-execqueryasync) method is optional. Because this provider can be accessed from both the root\\interop and the root\\&lt;implemented&gt; namespaces, there should not be an explicit dependency on a namespace inside the provider.
 
-3.  Register the association provider in both the root\\interop and the root\\<implemented> namespaces. For more information, see [Registering an Instance Provider](registering-an-instance-provider.md).
+3.  Register the association provider in both the root\\interop and the root\\&lt;implemented&gt; namespaces. For more information, see [Registering an Instance Provider](registering-an-instance-provider.md).
 
     The following code example describes the syntax to register the association provider in the root\\interop namespace.
 

@@ -95,9 +95,9 @@ The columns of the file are as follows:
 
 Enabling ETW tracing for WWSAPI
 
-**logman start wstrace -bs 64 -ft 1 -rt -p Microsoft-Windows-WebServices \[flags \[level\]\] \[-o <EtlLogFileName>\] -ets**
+**logman start wstrace -bs 64 -ft 1 -rt -p Microsoft-Windows-WebServices \[flags \[level\]\] \[-o &lt;EtlLogFileName&gt;\] -ets**
 
-to create and start the ETW tracing session. Logman.exe is an in-box ETW tool available on all supported platforms. Note that you need to use Microsoft\_Windows\_WebServices as the provider name on XPSP2 and W2K3. You can run logman query providers to see the list of registered providers. Microsoft-Windows-WebServices (or Microsoft\_Windows\_WebServices) provider should be listed unless it is not registered. The provider is normally registered during setup. However it can also be manually registered by running wevtutil.exe im <ManifestFileName> (on Windows Vista and Later) or mofcomp.exe <MofFileName> (on XPSP2 and W2K3).
+to create and start the ETW tracing session. Logman.exe is an in-box ETW tool available on all supported platforms. Note that you need to use Microsoft\_Windows\_WebServices as the provider name on XPSP2 and W2K3. You can run logman query providers to see the list of registered providers. Microsoft-Windows-WebServices (or Microsoft\_Windows\_WebServices) provider should be listed unless it is not registered. The provider is normally registered during setup. However it can also be manually registered by running wevtutil.exe im &lt;ManifestFileName&gt; (on Windows Vista and Later) or mofcomp.exe &lt;MofFileName&gt; (on XPSP2 and W2K3).
 
 Flags can be used to filter the traces by their kind. It can be OR'd value of the following trace kinds. If not supplied, all trace kinds are enabled.
 
@@ -149,7 +149,7 @@ Tracerpt.exe is the tool to view the content of an ETW event log file and availa
 
 -   Run
 
-    **tracerpt <EtlLogFileName> -o <OutputXMLFileName>**
+    **tracerpt &lt;EtlLogFileName&gt; -o &lt;OutputXMLFileName&gt;**
 
     to create an XML dump from the binary ETL file (tracerpt.exe creates the output file in XML format by default. Run tracerpt -? To see other available formats).
 

@@ -297,7 +297,7 @@ This requirement has been retired.
 <li>Set the system to DPI 150%: <br/> Windows Vista: Control Panel: Personalization, Adjust font size (DPI), Custom DPI. Set to 150%.<br/> Windows 7: Control Panel: Display, Set to Larger - 150%.<br/></li>
 <li>Run the installation process and game to verify there are no problems with clipped screens or dialog boxes.</li>
 </ol>
-</dd> <dt><span id="Automated_Test"></span><span id="automated_test"></span><span id="AUTOMATED_TEST"></span>Automated Test</dt> <dd> Verify that element <dpiAware>true</dpiAware> is contained in the embedded manifest.<br/> Use tool: Mt.exe <br/> </dd> </dl></td>
+</dd> <dt><span id="Automated_Test"></span><span id="automated_test"></span><span id="AUTOMATED_TEST"></span>Automated Test</dt> <dd> Verify that element &lt;dpiAware&gt;true</dpiAware> is contained in the embedded manifest.<br/> Use tool: Mt.exe <br/> </dd> </dl></td>
 </tr>
 </tbody>
 </table>

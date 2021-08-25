@@ -45,11 +45,11 @@ The registry values of Application Name and Description need to be localizable t
 
 These strings are in the following format, where angle brackets signify required elements and square brackets signify an optional element.
 
-*@<ResDllPath\\ResDLLFilename>,-<resID>\[;<comment>\]*
+*@<ResDllPath\\ResDLLFilename>,-&lt;resID&gt;\[;&lt;comment&gt;\]*
 
 *<ResDllPath\\ResDLLFilename>* is the path to the resource DLL. The path can contain environmental variables.
 
-*<resID>* is the resource ID for the string.
+*&lt;resID&gt;* is the resource ID for the string.
 
 *\[comment\]* contains any optional comments.
 
@@ -279,11 +279,11 @@ The values in the table are under the following key:
 </thead>
 <tbody>
 <tr class="odd">
-<td><pre><code><HCIModel>
+<td><pre><code>&lt;HCIModel&gt;
    <Accommodation type=&quot;low vision&quot; />
    <Accommodation type=&quot;severe vision&quot; />
    <Accommodation type=&quot;mild cognitive&quot; />
-</HCIModel></code></pre></td>
+&lt;/HCIModel&gt;</code></pre></td>
 </tr>
 </tbody>
 </table>
@@ -359,11 +359,11 @@ If the application provides both a screen reader and a screen magnifier in a sin
 </thead>
 <tbody>
 <tr class="odd">
-<td><pre><code><HCIModel>
+<td><pre><code>&lt;HCIModel&gt;
    <Accommodation type=&quot;low vision&quot; />
    <Accommodation type=&quot;severe vision&quot; />
    <Accommodation type=&quot;mild cognitive&quot; />
-</HCIModel></code></pre></td>
+&lt;/HCIModel&gt;</code></pre></td>
 </tr>
 </tbody>
 </table>
@@ -436,9 +436,9 @@ The values for the magnifier component would be in the following key:
 </thead>
 <tbody>
 <tr class="odd">
-<td><pre><code><HCIModel>
+<td><pre><code>&lt;HCIModel&gt;
    <Accommodation type=&quot;mild vision&quot; />
-</HCIModel></code></pre></td>
+&lt;/HCIModel&gt;</code></pre></td>
 </tr>
 </tbody>
 </table>

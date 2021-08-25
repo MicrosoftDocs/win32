@@ -23,8 +23,8 @@ Developers still need to be educated in how high-contrast mode can affect their 
 
 ## Manifestations
 
--   Theming is not enabled in the client area of apps that do not contain a Windows 8 <supportedOS> tag in their app manifest. Therefore, the apps must render the client area, using the code path required to render in high-contrast mode of the classic theme.
--   Theming is not enabled in both the non-client and client areas of apps in high-contrast themes. It is also not enabled in apps that do not contain a Windows 8 <supportedOS> tag in their app manifest and that draw in the non-client area of a window using the DwnIsCompositionEnabled() API. The entire app renders in the high-contrast mode of the classic theme.
+-   Theming is not enabled in the client area of apps that do not contain a Windows 8 &lt;supportedOS&gt; tag in their app manifest. Therefore, the apps must render the client area, using the code path required to render in high-contrast mode of the classic theme.
+-   Theming is not enabled in both the non-client and client areas of apps in high-contrast themes. It is also not enabled in apps that do not contain a Windows 8 &lt;supportedOS&gt; tag in their app manifest and that draw in the non-client area of a window using the DwnIsCompositionEnabled() API. The entire app renders in the high-contrast mode of the classic theme.
 -   Apps that add support for Windows 8 in their manifest, but do not use visual styles for rendering, that is, they hardcode colors or images in their apps, might not render correctly in high-contrast themes. Text might be difficult to read or images might not appear as they should in high contrast mode.
 
 ## Mitigation
@@ -48,7 +48,7 @@ If unexpected behavior is seen in apps in high-contrast themes, one of these sol
 
 -   **Manifesting an app for Windows 8:**
 
-    Apps that don’t contain the Windows 8 <supportedOS> tag in the app manifest will have their client areas rendered without a theme. In-box apps should all contain this entry in the app manifest. Add the 4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38 GUID value for Windows 8.
+    Apps that don’t contain the Windows 8 &lt;supportedOS&gt; tag in the app manifest will have their client areas rendered without a theme. In-box apps should all contain this entry in the app manifest. Add the 4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38 GUID value for Windows 8.
 
 -   **Using visual styles with owner-drawn UIs:**
 

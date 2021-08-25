@@ -17,8 +17,8 @@ For more information, see the documentation for the v1 [**ConnectionMode**](./sc
 
 ## Element hierarchy
 
-[<MBNProfileExt>](element-mbnprofileext.md)  
-**<ConnectionMode>**
+[&lt;MBNProfileExt&gt;](element-mbnprofileext.md)  
+**&lt;ConnectionMode&gt;**
 
 ## Syntax
 

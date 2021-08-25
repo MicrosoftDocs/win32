@@ -16,7 +16,7 @@ This tool is only available in the [Windows SDK Components for Windows Installer
 
 ## Syntax
 
-**wilogutl.exe** *\[<options>\]\[<source file>\]\[<options>\]\[<report file directory>\]*
+**wilogutl.exe** *\[&lt;options&gt;\]\[<source file>\]\[&lt;options&gt;\]\[<report file directory>\]*
 
 You can use the following command lines to run in quiet mode.
 

@@ -504,7 +504,7 @@ pure
 
 
 
-If the element <pure/> appears in a color value, it is a hint that the color should not be approximated by a dither pattern. This is a level 1 feature, and a conforming implementation need not honor it. The designation is important for graphics displayed on medium-resolution devices, such as video displays, where small features (such as lines) may cause bad aliasing with dithered colors. On devices such as printers, which normally dither all colors except for the few fully saturated colors, the dithering is normally sufficiently fine to avoid this problem.
+If the element &lt;pure/&gt; appears in a color value, it is a hint that the color should not be approximated by a dither pattern. This is a level 1 feature, and a conforming implementation need not honor it. The designation is important for graphics displayed on medium-resolution devices, such as video displays, where small features (such as lines) may cause bad aliasing with dithered colors. On devices such as printers, which normally dither all colors except for the few fully saturated colors, the dithering is normally sufficiently fine to avoid this problem.
 
 [![back to top](images/top.gif) Back to top](#top)
 
@@ -549,7 +549,7 @@ color.adj
 
 The parameter of the first six operations is a single integral numeric value in the range 0 to 255. The adjustment is performed on the 3x8bit RGB value as follows:
 
-1.  If <gray/> is specified, the RGB value is replaced by yyy, where y is the luminance (y') value calculated from the sRGB value in following the ITU-r BT.709. This calculation is:
+1.  If &lt;gray/&gt; is specified, the RGB value is replaced by yyy, where y is the luminance (y') value calculated from the sRGB value in following the ITU-r BT.709. This calculation is:
     ```HTML
     y = 0 2125xr + 0 7154xg + 0 0721xb
     ```
@@ -573,7 +573,7 @@ The parameter of the first six operations is a single integral numeric value in 
 
     In each case, if the calculated component value, c, exceeds 255, then 255 is used, and if it is less than 0, then 0 is used.
 
-3.  If <INVERT128/> is given, the value 128 is subtracted or added to each component according to whether the component is less than 128 or not.
+3.  If &lt;INVERT128/&gt; is given, the value 128 is subtracted or added to each component according to whether the component is less than 128 or not.
     ```HTML
     if c < 128
         then
@@ -584,7 +584,7 @@ The parameter of the first six operations is a single integral numeric value in 
 
     
 
-4.  If <invert/> is given, each component is replaced by 255 minus the value of the component.
+4.  If &lt;invert/&gt; is given, each component is replaced by 255 minus the value of the component.
     ```HTML
     c := 255-c
     ```

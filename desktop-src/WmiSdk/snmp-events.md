@@ -50,7 +50,7 @@ A number of registry keys and values define the level and type of logging curren
 </tr>
 <tr class="odd">
 <td>File</td>
-<td><strong>REG_SZ</strong><br/> Defines the name of the file to which the debugging output is sent when the logging type is set to 'File'. The default value is '<WBEMLOGS>\wbemsnmp.log.' If the <WBEMLOGS> directory cannot be determined from the WMI registry section, the value defaults to 'c:\wbemsnmp.log'. If a share is used, such as \\machine\share\wbemsnmp.log or M:\wbemsnmp.log where M: is \\machine\share, the local SYSTEM account on which WMI runs must have read/write access rights to the \\machine\share.<br/></td>
+<td><strong>REG_SZ</strong><br/> Defines the name of the file to which the debugging output is sent when the logging type is set to 'File'. The default value is '&lt;WBEMLOGS&gt;\wbemsnmp.log.' If the &lt;WBEMLOGS&gt; directory cannot be determined from the WMI registry section, the value defaults to 'c:\wbemsnmp.log'. If a share is used, such as \\machine\share\wbemsnmp.log or M:\wbemsnmp.log where M: is \\machine\share, the local SYSTEM account on which WMI runs must have read/write access rights to the \\machine\share.<br/></td>
 </tr>
 <tr class="even">
 <td>Level</td>

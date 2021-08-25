@@ -29,12 +29,12 @@ There are two manifest settings that enable you to specify the process default D
 The table below shows how to specify different process-default DPI awareness modes using the two manifest settings:
 
 
-| Process default DPI awareness mode | <dpiAware> setting | <dpiAwareness> setting (Windows 10, version 1607 and later) | 
+| Process default DPI awareness mode | &lt;dpiAware&gt; setting | &lt;dpiAwareness&gt; setting (Windows 10, version 1607 and later) | 
 |------------------------------------|--------------------|--------------------------------------------------------------|
-| unaware | <p>N/A (no dpiAware setting in manifest)</p><p>or</p><p>&lt;dpiAware&gt;false&lt;/dpiAware&gt;</p> | <dpiAwareness>unaware</dpiAwareness> | 
-| System aware | <dpiAware>true</dpiAware> | <dpiAwareness>system</dpiAwareness> | 
-| Per Monitor | <dpiAware>true/pm<dpiAware> | <dpiAwareness>PerMonitor</dpiAwareness> | 
-| Per Monitor V2 | Not supported | <dpiAwareness>PerMonitorV2</dpiAwareness> | 
+| unaware | <p>N/A (no dpiAware setting in manifest)</p><p>or</p><p>&lt;dpiAware&gt;false&lt;/dpiAware&gt;</p> | &lt;dpiAwareness&gt;unaware&lt;/dpiAwareness&gt; | 
+| System aware | &lt;dpiAware&gt;true&lt;/dpiAware&gt; | &lt;dpiAwareness&gt;system&lt;/dpiAwareness&gt; | 
+| Per Monitor | &lt;dpiAware&gt;true/pm&lt;dpiAware&gt; | &lt;dpiAwareness&gt;PerMonitor&lt;/dpiAwareness&gt; | 
+| Per Monitor V2 | Not supported | &lt;dpiAwareness&gt;PerMonitorV2&lt;/dpiAwareness&gt; | 
 
 
  

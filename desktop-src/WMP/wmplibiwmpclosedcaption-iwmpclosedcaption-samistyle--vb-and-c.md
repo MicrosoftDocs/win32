@@ -45,7 +45,7 @@ The **System.String** that is the name specified in the style identifier of a SA
 
 ## Remarks
 
-A SAMI file can contain several format style definitions. SAMI styles are defined between the <STYLE> and </STYLE> tags in the SAMI file. A style is defined with a text string preceded by a \# character. For example:
+A SAMI file can contain several format style definitions. SAMI styles are defined between the &lt;STYLE&gt; and </STYLE> tags in the SAMI file. A style is defined with a text string preceded by a \# character. For example:
 
 
 ```

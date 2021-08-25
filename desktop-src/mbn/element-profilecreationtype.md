@@ -17,8 +17,8 @@ For more information about this element, see the documentation for the v1 [**Pro
 
 ## Element hierarchy
 
-[<MBNProfileExt>](element-mbnprofileext.md)  
-**<ProfileCreationType>**
+[&lt;MBNProfileExt&gt;](element-mbnprofileext.md)  
+**&lt;ProfileCreationType&gt;**
 
 ## Syntax
 

@@ -149,9 +149,9 @@ Check boxes have several usage patterns:
     -   Display other windows, such as a dialog box to gather more input.
     -   Dynamically display other controls related to the selected control (screen readers cannot detect such events).
 
-### Don't show this <item> again
+### Don't show this &lt;item&gt; again
 
--   **Consider using a Don't show this <item> again option to allow users to suppress a recurring dialog box only if there isn't a better alternative.** Try to determine beforehand if users really need the dialog; if they do, always show the dialog, and if they don't, eliminate the dialog.
+-   **Consider using a Don't show this &lt;item&gt; again option to allow users to suppress a recurring dialog box only if there isn't a better alternative.** Try to determine beforehand if users really need the dialog; if they do, always show the dialog, and if they don't, eliminate the dialog.
 
 For more guidelines and examples, see [Dialog Boxes](win-dialog-box.md).
 
@@ -225,7 +225,7 @@ Recommended sizing and spacing for check boxes.
 -   For a group of check boxes, focus the label text on the differences among the options. If all the options have the same introductory text, move that text to the group label.
 -   Use positive phrasing. Don't phrase a label so that selecting a check box means not to perform an action.
 
-    -   **Exception:Don't show this <item> again** check boxes.
+    -   **Exception:Don't show this &lt;item&gt; again** check boxes.
 
     **Incorrect:**
 

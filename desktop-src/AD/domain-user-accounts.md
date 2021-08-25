@@ -21,7 +21,7 @@ A service's user account should not be a member of any administrators groups tha
 
 A service instance that uses a domain user account requires periodic administrative action to maintain the account password. The service control manager (SCM) on the host computer of a service instance caches the account password for use in logging on the service. When you change the account password, you must also update the cached password on the host computer where the service is installed. For more information and a code example, see [Changing the Password on a Service's User Account](changing-the-password-on-a-serviceampaposs-user-account.md). You could avoid the regular maintenance by leaving the password unchanged, but that would increase the likelihood of a password attack on the service account. Be aware that even though the SCM stores the password in a secure portion of the registry, it is nevertheless subject to attack.
 
-A domain user account has two name formats: the distinguished name of the user object in the directory and the "<domain>\\<username>" format used by the local service control manager. For more information and a code example that converts from one format to the other, see [Converting Domain Account Name Formats](converting-domain-account-name-formats.md).
+A domain user account has two name formats: the distinguished name of the user object in the directory and the "&lt;domain&gt;\\&lt;username&gt;" format used by the local service control manager. For more information and a code example that converts from one format to the other, see [Converting Domain Account Name Formats](converting-domain-account-name-formats.md).
 
  
 

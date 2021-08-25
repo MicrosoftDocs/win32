@@ -397,7 +397,7 @@ Use of versions of Direct3D newer than Direct3D 9 is strongly encouraged. See th
 
 Games and their installers must run correctly without visual problems when dots-per-inch (DPI) scaling is enabled (tested with 144 DPI for 150% scaling at display resolution of 1600 1200) on Windows Vista and Windows 7.
 
-This typically requires the game executable to declare being DPI-aware. This is accomplished by embedding a manifest element: <dpiAware>true<dpiAware> .
+This typically requires the game executable to declare being DPI-aware. This is accomplished by embedding a manifest element: &lt;dpiAware&gt;true&lt;dpiAware&gt; .
 
 </dd> <dt>
 

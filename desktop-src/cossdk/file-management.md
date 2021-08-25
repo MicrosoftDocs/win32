@@ -16,7 +16,7 @@ To enable the transfer of application files, COMREPL automatically manages sets 
 
 | Folder                   | Purpose                                                                                                                                                                                                                                                                                                                                                                                                               |
 |--------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| ReplicaSource<br/> | Applications exported during the prepare phase are stored here.<br/> This folder is overwritten each time the prepare phase is executed against a given source computer. This folder is never explicitly deleted, so replication to targets can take place at any time after the source is prepared.<br/> Each application is stored in its own subfolder named <appName>+<appID>.<br/> |
+| ReplicaSource<br/> | Applications exported during the prepare phase are stored here.<br/> This folder is overwritten each time the prepare phase is executed against a given source computer. This folder is never explicitly deleted, so replication to targets can take place at any time after the source is prepared.<br/> Each application is stored in its own subfolder named &lt;appName&gt;+&lt;appID&gt;.<br/> |
 
 
 

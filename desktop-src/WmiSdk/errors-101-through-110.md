@@ -38,13 +38,13 @@ Describes WMI SNMP provider errors 101 through 110.
 <span id="_101__Fatal____Usage_"></span><span id="_101__fatal____usage_"></span><span id="_101__FATAL____USAGE_"></span>**<101, Fatal>: "Usage:**
 </dt> <dd></dd> <dt>
 
-<span id="smi2smir__DiagnosticArgs___VersionArgs___CommandArgs_"></span><span id="smi2smir__diagnosticargs___versionargs___commandargs_"></span><span id="SMI2SMIR__DIAGNOSTICARGS___VERSIONARGS___COMMANDARGS_"></span>**smi2smir <DiagnosticArgs> <VersionArgs> <CommandArgs>**
+<span id="smi2smir__DiagnosticArgs___VersionArgs___CommandArgs_"></span><span id="smi2smir__diagnosticargs___versionargs___commandargs_"></span><span id="SMI2SMIR__DIAGNOSTICARGS___VERSIONARGS___COMMANDARGS_"></span>**smi2smir &lt;DiagnosticArgs&gt; &lt;VersionArgs&gt; &lt;CommandArgs&gt;**
 </dt> <dd></dd> <dt>
 
-<span id="smi2smir__DiagnosticArgs___RegistryArgs_"></span><span id="smi2smir__diagnosticargs___registryargs_"></span><span id="SMI2SMIR__DIAGNOSTICARGS___REGISTRYARGS_"></span>**smi2smir <DiagnosticArgs> <RegistryArgs>**
+<span id="smi2smir__DiagnosticArgs___RegistryArgs_"></span><span id="smi2smir__diagnosticargs___registryargs_"></span><span id="SMI2SMIR__DIAGNOSTICARGS___REGISTRYARGS_"></span>**smi2smir &lt;DiagnosticArgs&gt; &lt;RegistryArgs&gt;**
 </dt> <dd></dd> <dt>
 
-<span id="smi2smir__HelpArgs__"></span><span id="smi2smir__helpargs__"></span><span id="SMI2SMIR__HELPARGS__"></span>**smi2smir <HelpArgs>"**
+<span id="smi2smir__HelpArgs__"></span><span id="smi2smir__helpargs__"></span><span id="SMI2SMIR__HELPARGS__"></span>**smi2smir &lt;HelpArgs&gt;"**
 </dt> <dd>
 
 Command-line syntax error. This is followed by an explanation of the switches.
@@ -99,7 +99,7 @@ Command-line syntax error. If you specify the **/c** switch, you must also speci
 
 <dl> <dt>
 
-<span id="_106__Fatal_____argument__is_not_a_valid_diagnostic_count_"></span><span id="_106__fatal_____argument__is_not_a_valid_diagnostic_count_"></span><span id="_106__FATAL_____ARGUMENT__IS_NOT_A_VALID_DIAGNOSTIC_COUNT_"></span>**<106, Fatal>: "<argument> is not a valid diagnostic count"**
+<span id="_106__Fatal_____argument__is_not_a_valid_diagnostic_count_"></span><span id="_106__fatal_____argument__is_not_a_valid_diagnostic_count_"></span><span id="_106__FATAL_____ARGUMENT__IS_NOT_A_VALID_DIAGNOSTIC_COUNT_"></span>**<106, Fatal>: "&lt;argument&gt; is not a valid diagnostic count"**
 </dt> <dd>
 
 Command-line syntax error. If you specify the **/c** switch, you must also specify a non-negative integer as the maximum count.

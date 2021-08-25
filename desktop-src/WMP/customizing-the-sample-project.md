@@ -34,7 +34,7 @@ The **allowPlay** method provides a pointer to the **IWMPMedia** interface as a 
 
 The **allowCDBurn** and **allowPDATransfer** methods provide a pointer to the **IWMPPlaylist** interface as a parameter. This interface is the Windows Media Player interface that represents playlist objects. By calling the methods on this interface, you can work with the attributes and properties of a playlist, add items to a playlist, or remove items from a playlist.
 
-To learn how to remove an item from a playlist programmatically, see the implementation of **CAllowBaseDialog<T>::OnRemoveMediaFromPlaylist**. To learn more about working with media and playlist objects, see [Player Object Model for Scripting Languages](player-object-model-for-scripting-languages.md).
+To learn how to remove an item from a playlist programmatically, see the implementation of **CAllowBaseDialog&lt;T&gt;::OnRemoveMediaFromPlaylist**. To learn more about working with media and playlist objects, see [Player Object Model for Scripting Languages](player-object-model-for-scripting-languages.md).
 
 ## Code That Can Be Removed
 
@@ -46,8 +46,8 @@ You will probably want to remove the code that opens dialog boxes because it is 
 
 From YourProject.cpp, remove the following code:
 
--   The implementation of **CAllowBaseDialog<T>::OnInitDialog**.
--   The implementation of **CAllowBaseDialog<T>::OnRemoveMediaFromPlaylist**.
+-   The implementation of **CAllowBaseDialog&lt;T&gt;::OnInitDialog**.
+-   The implementation of **CAllowBaseDialog&lt;T&gt;::OnRemoveMediaFromPlaylist**.
 
 ## Related topics
 

@@ -1,5 +1,5 @@
 ---
-description: The <folderType> element specifies a GUID for the folder type. This element is required if the <templateInfo> element exists, otherwise it is optional. This element has no attributes and no child elements.
+description: The &lt;folderType&gt; element specifies a GUID for the folder type. This element is required if the &lt;templateInfo&gt; element exists, otherwise it is optional. This element has no attributes and no child elements.
 title: folderType Element (Library Schema)
 ms.topic: article
 ms.date: 05/31/2018
@@ -14,7 +14,7 @@ topic_type:
 
 # folderType Element (Library Schema)
 
-The <folderType> element specifies a GUID for the folder type. This element is required if the <templateInfo> element exists, otherwise it is optional. This element has no attributes and no child elements.
+The &lt;folderType&gt; element specifies a GUID for the folder type. This element is required if the &lt;templateInfo&gt; element exists, otherwise it is optional. This element has no attributes and no child elements.
 
 ## Syntax
 

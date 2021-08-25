@@ -196,7 +196,7 @@ There is information about adminSDholder exclusion bits available on the Microso
 
 ## Remarks
 
-Each Active Directory forest contains a DS-Heuristics attribute that contains settings for the entire forest. The DS-Heuristics attribute is an attribute of the "CN=Directory Service,CN=Windows NT,CN=Services,CN=Configuration,<Domain>" object.
+Each Active Directory forest contains a DS-Heuristics attribute that contains settings for the entire forest. The DS-Heuristics attribute is an attribute of the "CN=Directory Service,CN=Windows NT,CN=Services,CN=Configuration,&lt;Domain&gt;" object.
 
 DS-Heuristics is a Unicode string in which each character contains a value for a single domain-wide setting. The DS-Heuristics string takes the following format.
 

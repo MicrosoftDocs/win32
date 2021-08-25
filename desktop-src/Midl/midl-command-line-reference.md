@@ -78,7 +78,7 @@ This section contains reference information for each command-line switch and swi
 [**/savePP**](-savepp.md)  
 [**/sstub**](-sstub.md)  
 [**/syntax\_check**](-syntax-check.md)  
-[**/<system>**](-system-.md)  
+[**/&lt;system&gt;**](-system-.md)  
 [**/target**](-target.md)  
 [**/tlb**](-tlb.md)  
 [**/U**](-u.md)  

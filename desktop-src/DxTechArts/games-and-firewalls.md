@@ -97,7 +97,7 @@ Again, most games only need to be added to the firewall exception list if they c
 |             | File                                                                             |
 |-------------|------------------------------------------------------------------------------|
 | **Source:**     | (SDK root)\\Samples\\C++\\Misc\\FirewallInstallHelper                        |
-| **Executable:** | (SDK root)\\Samples\\C++\\Misc\\Bin\\<arch>\\FirewallInstallHelper.dll |
+| **Executable:** | (SDK root)\\Samples\\C++\\Misc\\Bin\\&lt;arch&gt;\\FirewallInstallHelper.dll |
 
 
 

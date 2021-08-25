@@ -117,7 +117,7 @@ Identifies replication relationship. This property is inherited from [**CIM\_Man
 
 This property has this format:
 
-**Microsoft:<vmid>\\HVR\\<0/1>**
+**Microsoft:&lt;vmid&gt;\\HVR\\<0/1>**
 
 0 indicates primary and 1 indicates [extended replication](#extended-replication).
 

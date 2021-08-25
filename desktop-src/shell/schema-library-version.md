@@ -1,5 +1,5 @@
 ---
-description: The <version> element specifies the content version of this library. This element has no attributes and no child elements.
+description: The &lt;version&gt; element specifies the content version of this library. This element has no attributes and no child elements.
 ms.assetid: 77FD5EF6-6B6F-48e1-973F-AC069F729613
 title: version Element (Library Schema)
 ms.topic: article
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # version Element (Library Schema)
 
-The <version> element specifies the content version of this library. This element has no attributes and no child elements.
+The &lt;version&gt; element specifies the content version of this library. This element has no attributes and no child elements.
 
 ## Syntax
 

@@ -24,8 +24,8 @@ In addition to setting the configuration elements within this element, an MMS pr
 
 ## Element hierarchy
 
-[<MBNProfileExt>](element-mbnprofileext.md)  
-**<MmsConfiguration>**
+[&lt;MBNProfileExt&gt;](element-mbnprofileext.md)  
+**&lt;MmsConfiguration&gt;**
 
 ## Syntax
 

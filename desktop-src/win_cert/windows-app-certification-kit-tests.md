@@ -62,7 +62,7 @@ Verifies that the app writes its program and data files to the correct folders.
     -   **Note:** Windows provides file virtualization to improve app compatibility and eliminate problems when apps run as a standard user on Windows. Your app should not rely on virtualization being present in future versions of Windows.
 -   User-specific app data folders
     -   In “per-machine” installations, the app must not write user-specific data during the installation. User-specific installation data should only be written when a user starts the app for the first time. This is because there is no correct user location at which to store data at time of installation. Attempts by an app to modify default association behaviors at a machine level after installation will be unsuccessful. Instead, defaults must be claimed on a per-user level, which prevents multiple users from overwriting each other's defaults.
-    -   All app data exclusive to a specific user and not to be shared with other users of the computer must be stored in Users\\<username>\\AppData.
+    -   All app data exclusive to a specific user and not to be shared with other users of the computer must be stored in Users\\&lt;username&gt;\\AppData.
     -   All app data that must be shared among users on the computer should be stored within ProgramData.
 -   Other system folders and registry keys
     -   The app should never write directly to the Windows directory and or subdirectories. Use the correct methods for installing files, such as fonts or drivers, to these directories.

@@ -352,59 +352,59 @@ These commands mirror the commands found in standard menu bars, so they should b
 <dl> File <dl> NewCtrl+N  
 Open...Ctrl+O  
 Close  
-<separator>  
+&lt;separator&gt;  
 SaveCtrl+S  
 Save as...  
-<separator>  
+&lt;separator&gt;  
 Send to  
-<separator>  
+&lt;separator&gt;  
 Print...Ctrl+P  
 Print preview  
 Page setup  
-<separator>  
+&lt;separator&gt;  
 ExitAlt+F4(shortcut usually not given)  
 </dl> </dd> Edit(menu button) <dl> UndoCtrl+Z  
 RedoCtrl+Y  
-<separator>  
+&lt;separator&gt;  
 CutCtrl+X  
 CopyCtrl+C  
 PasteCtrl+V  
-<separator>  
+&lt;separator&gt;  
 Select allCtrl+A  
-<separator>  
+&lt;separator&gt;  
 DeleteDel(shortcut usually not given)  
 Rename...  
-<separator>  
+&lt;separator&gt;  
 Find...Ctrl+F  
 Find nextF3(command usually not given)  
 Replace...Ctrl+H  
 Go to...Ctrl+G  
 </dl> </dd> <dd>Print(split button) <dl> Print...Ctrl+P  
 Print preview  
-<separator>  
+&lt;separator&gt;  
 Page setup  
 </dl> </dd> View(menu button) <dl> Menu bar(check if visible)  
 Details pane(check if visible)  
 Preview pane(check if visible)  
 Status bar(check if visible)  
-<separator>  
+&lt;separator&gt;  
 Zoom  
 Zoom inCtrl++  
 Zoom outCtrl+-  
-<separator>  
+&lt;separator&gt;  
 Text size(selected setting has bullet) <dl> Largest  
 Larger  
 Medium  
 Smaller  
 Smallest  
-</dl> </dd> <separator>  
+</dl> </dd> &lt;separator&gt;  
 Full screenF11  
 RefreshF5  
 </dl> </dd> Tools(menu button) <dl> ...  
-<separator>  
+&lt;separator&gt;  
 Options  
 </dl>> </dd> Help(split button, use the Help icon) <dl> <program name> helpF1  
-<separator>  
+&lt;separator&gt;  
 About <program name>  
 </dl> </dd> </dl>
 

@@ -41,7 +41,7 @@ Library files in Windows 7 are stored in the known folder, FOLDERID\_Libraries.
 
 Versions of the Library Description file format (\*.library-ms) are tracked by changing the namespace. For Windows 7, the file format has the following default namespace: https://schemas.microsoft.com/windows/2009/library.
 
-Versions of the library contents, however, are tracked by using the [<version>](schema-library-version.md) element in a specific Library Description file.
+Versions of the library contents, however, are tracked by using the [&lt;version&gt;](schema-library-version.md) element in a specific Library Description file.
 
 ## Example of a Library Description File
 

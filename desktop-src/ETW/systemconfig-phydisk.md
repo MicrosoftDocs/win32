@@ -83,7 +83,7 @@ Access type: Read-only
 Qualifiers: **WmiDataId** (14), **Max** (3), **Format("s")**
 </dt> </dl>
 
-Drive letter of the boot drive in the form, "<letter>:".
+Drive letter of the boot drive in the form, "&lt;letter&gt;:".
 
 </dd> <dt>
 

@@ -30,7 +30,7 @@ Potential use cases include: stream compaction, reductions, block transpose, bit
 
 Most of the intrinsics appear in pixel shaders and compute shaders, though there are some exceptions (noted for each function). The functions have been added to the requirements for DirectX Feature Level 12.0, under API level 12.
 
-The *<type>* parameter and return value for these functions implies the type of the expression, the supported types are those from the following list that are *also* present in the target shader model for your app:
+The *&lt;type&gt;* parameter and return value for these functions implies the type of the expression, the supported types are those from the following list that are *also* present in the target shader model for your app:
 
 - half, half2, half3, half4
 - float, float2, float3, float4
