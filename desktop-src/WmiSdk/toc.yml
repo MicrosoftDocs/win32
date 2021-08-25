@@ -925,6 +925,14 @@
         href: wmiperfclass-provider.md
       - name: "WmiPerfInst Provider"
         href: wmiperfinst-provider.md
+      - name: "Application Inventory Classes"
+        href: applicationanddeviceinventory-portal.md
+      - name: "Win32_InstalledWin32Program class"
+        href: win32-installedwin32program.md
+      - name: "Win32_InstalledStoreProgram class"
+        href: win32-installedstoreprogram.md
+      - name: "Win32_InstalledProgramFramework class"
+        href: win32-installedprogramframework.md
     - name: "WMI Provider Framework C++ Classes"
       href: wmi-c-classes.md
       items: 
