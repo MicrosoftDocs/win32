@@ -83,8 +83,8 @@ Small Configuration also has several other effects on the database engine, inclu
   - Various maintenance activities are scaled back to avoid background thread activity
 
 
-| 
-|
+| Label | Value |
+|--------|-------|
 | <p>Default Value:</p> | <p>1 (Legacy)</p> | 
 | <p>Type:</p> | <p>Integer</p> | 
 | <p>Valid Range:</p> | <p>0 – 1</p> | 
@@ -186,8 +186,8 @@ The following system parameters will be protected from being set when this param
   - JET_paramCheckpointIOMax
 
 
-| 
-|
+| Label | Value |
+|--------|-------|
 | <p>Default Value:</p> | <p>True</p> | 
 | <p>Type:</p> | <p>Boolean</p> | 
 | <p>Valid Range:</p> | <p>False, True</p> | 

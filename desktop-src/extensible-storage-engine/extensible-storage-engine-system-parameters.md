@@ -62,8 +62,8 @@ JET_paramX
 Description of the JET_paramX system parameter.
 
 
-| 
-|
+| Label | Value |
+|--------|-------|
 | <p>Default Value:</p> | <p>The default value of the parameter.</p> | 
 | <p>Type:</p> | <p>The data type of the parameter.</p> | 
 | <p>Valid Range:</p> | <p>The legal values for the parameter.</p> | 

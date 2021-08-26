@@ -33,8 +33,8 @@ This topic contains parameters that are used for backup and restore.
 The full path to each database is persisted in the transaction logs at run time. Ordinarily, these databases must remain at the original location for transaction replay to function correctly. This parameter can be used to force crash recovery or a restore operation to look for the databases referenced in the transaction log in the specified folder.
 
 
-| 
-|
+| Label | Value |
+|--------|-------|
 | <p>Default Value:</p> | <p>""</p> | 
 | <p>Type:</p> | <p>Folder Path (string)</p> | 
 | <p>Valid Range:</p> | <p>0 – 246 characters</p> | 
@@ -57,8 +57,8 @@ This parameter controls the outcome of [JetInit](./jetinit-function.md) when the
 This parameter is useful when the application wishes to transparently change its transaction log file size yet still work transparently in upgrade and restore scenarios.
 
 
-| 
-|
+| Label | Value |
+|--------|-------|
 | <p>Default Value:</p> | <p>False</p> | 
 | <p>Type:</p> | <p>Boolean</p> | 
 | <p>Valid Range:</p> | <p>False, True</p> | 
@@ -81,8 +81,8 @@ When this parameter is true, then any transaction log files found on disk that a
 **Windows XP:**  Introduced in Windows XP.
 
 
-| 
-|
+| Label | Value |
+|--------|-------|
 | <p>Default Value:</p> | <p>False</p> | 
 | <p>Type:</p> | <p>Boolean</p> | 
 | <p>Valid Range:</p> | <p>False, True</p> | 
@@ -103,8 +103,8 @@ When this parameter is true, then any transaction log files found on disk that a
 This parameter configures the amount of time allowed between a call to [JetOSSnapshotFreeze](./jetossnapshotfreeze-function.md) and [JetOSSnapshotThaw](./jetossnapshotthaw-function.md) before a timeout occurs. Please see [JetOSSnapshotFreeze](./jetossnapshotfreeze-function.md) and [JetOSSnapshotThaw](./jetossnapshotthaw-function.md) for more information. The timeout is in milliseconds.
 
 
-| 
-|
+| Label | Value |
+|--------|-------|
 | <p>Default Value:</p> | <p>20000 (Windows XP and Windows Server 2003);</p><p>70000 (Windows Server 2003 SP1)</p> | 
 | <p>Type:</p> | <p>Integer</p> | 
 | <p>Valid Range:</p> | <p>0 – 2147483647</p> | 
@@ -125,8 +125,8 @@ This parameter configures the amount of time allowed between a call to [JetOSSna
 When this parameter is true then every page in a database that is undergoing a streaming backup will be scrubbed of deleted data. It is important to note that the database pages that are being scrubbed are on disk. The full data set is backed up prior to the scrub process.
 
 
-| 
-|
+| Label | Value |
+|--------|-------|
 | <p>Default Value:</p> | <p>False</p> | 
 | <p>Type:</p> | <p>Boolean</p> | 
 | <p>Valid Range:</p> | <p>False, True</p> | 

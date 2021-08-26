@@ -35,8 +35,8 @@ This parameter controls the size of an auxiliary part of the database page cache
 **Windows XP and later:**  This parameter is obsolete and does not affect the operation of the database engine.
 
 
-| 
-|
+| Label | Value |
+|--------|-------|
 | <p>Default Value:</p> | <p>256</p> | 
 | <p>Type:</p> | <p>Integer</p> | 
 | <p>Valid Range:</p> | <p>0, 2 – 2147483647</p> | 
@@ -61,8 +61,8 @@ This parameter can be used to control the size of the database page cache at run
 When this parameter is read, the actual size of the cache in database pages is returned. This size can be used by the application as an input to drive its manual adjustment of the cache size.
 
 
-| 
-|
+| Label | Value |
+|--------|-------|
 | <p>Default Value:</p> | <p>Special</p> | 
 | <p>Type:</p> | <p>Integer</p> | 
 | <p>Valid Range:</p> | <p><strong>Windows 2000:</strong>  1 – 1048575</p><p><strong>Windows XP:</strong>  1 – 4294967295</p> | 
@@ -89,8 +89,8 @@ By default, the database cache will automatically adjust its size between the li
 **Windows XP and later:**  The cache manager will automatically set its own minimum cache size to avoid deadlocks.
 
 
-| 
-|
+| Label | Value |
+|--------|-------|
 | <p>Default Value:</p> | <p><strong>Windows 2000:</strong>  64</p><p><strong>Windows XP:</strong>  1</p> | 
 | <p>Type:</p> | <p>Integer</p> | 
 | <p>Valid Range:</p> | <p><strong>Windows 2000:</strong>  1 – 1048575</p><p><strong>Windows XP:</strong>  1 – 4294967295</p> | 
@@ -117,8 +117,8 @@ By default, the database cache will automatically adjust its size between the li
 **Windows Vista:**  As of Windows Vista, the default value of this parameter was changed to clarify this behavior.
 
 
-| 
-|
+| Label | Value |
+|--------|-------|
 | <p>Default Value:</p> | <p><strong>Windows 2000, Windows XP and Windows Server 2003:</strong>  512</p><p><strong>Windows Vista:</strong>  2000000000</p> | 
 | <p>Type:</p> | <p>Integer</p> | 
 | <p>Valid Range:</p> | <p><strong>Windows 2000:</strong>  1 – 1048575</p><p><strong>Windows XP:</strong>  1 – 4294967295</p> | 
@@ -143,8 +143,8 @@ If circular logging is enabled using [JET_paramCircularLog](./transaction-log-pa
 It is important that this parameter not be set too low. As the value of this parameter approaches zero, the cache will become more and more aggressive when flushing database pages to disk. This not only results in an increased number of writes to the database files but it also indirectly causes an increased number of reads to those files as well. This can cause very significant performance problems in some cases. Unfortunately, setting the smallest optimal value for this parameter can only be done using experimentation with the target application.
 
 
-| 
-|
+| Label | Value |
+|--------|-------|
 | <p>Default Value:</p> | <p>20971520</p> | 
 | <p>Type:</p> | <p>Integer</p> | 
 | <p>Valid Range:</p> | <p><strong>Windows 2000, Windows XP and Windows Server 2003:</strong>  0 – 2147483647</p><p><strong>Windows Vista:</strong>  All Values</p> | 
@@ -165,8 +165,8 @@ It is important that this parameter not be set too low. As the value of this par
 This parameter controls the maximum number of concurrent writes that the database engine will use to flush modified database pages for the purpose of advancing the checkpoint. The value of this parameter can be used to balance the speed with which the checkpoint can be advanced versus the negative impact this process will have on the response time for other I/O operations to the disks holding the database.
 
 
-| 
-|
+| Label | Value |
+|--------|-------|
 | <p>Default Value:</p> | <p>96</p> | 
 | <p>Type:</p> | <p>Integer</p> | 
 | <p>Valid Range:</p> | <p>8 – 1024</p> | 
@@ -191,8 +191,8 @@ The intent of this mode is to further reduce the amount of private memory used b
 The view cache may only be used if the use of the Windows file cache is enabled by setting JET_paramEnableFileCache to **True**.
 
 
-| 
-|
+| Label | Value |
+|--------|-------|
 | <p>Default Value:</p> | <p>False</p> | 
 | <p>Type:</p> | <p>Boolean</p> | 
 | <p>Valid Range:</p> | <p>False, True</p> | 
@@ -213,8 +213,8 @@ The view cache may only be used if the use of the Windows file cache is enabled 
 This parameter sets the time interval in microseconds over which two database page accesses are considered to be correlated. This correlation interval controls the sensitivity of the cache's page replacement algorithm (LRU-K) to successive page accesses. This in turn will affect which pages it chooses to keep cached.
 
 
-| 
-|
+| Label | Value |
+|--------|-------|
 | <p>Default Value:</p> | <p>128000</p> | 
 | <p>Type:</p> | <p>Integer</p> | 
 | <p>Valid Range:</p> | <p><strong>Windows 2000, Windows XP and Windows Server 2003: </strong>    0 – 2147483647</p><p><strong>Windows Vista:</strong>  All Values</p> | 
@@ -237,8 +237,8 @@ This parameter sets the maximum number of non cached database pages for which da
 **Windows XP and Windows Server 2003:**  This parameter is ignored on Windows XP and Windows Server 2003 and does not affect the operation of the database engine.
 
 
-| 
-|
+| Label | Value |
+|--------|-------|
 | <p>Default Value:</p> | <p><strong>Windows 2000:</strong>  1024</p><p><strong>Windows Vista:</strong>  100000</p> | 
 | <p>Type:</p> | <p>Integer</p> | 
 | <p>Valid Range:</p> | <p><strong>Windows 2000:</strong>  0 – 4194303</p><p><strong>Windows Vista:</strong>  All Values</p> | 
@@ -259,8 +259,8 @@ This parameter sets the maximum number of non cached database pages for which da
 This parameter configures the number of database page accesses that are considered for determining the usefulness of the page. This parameter is essentially the K in LRU-K, the database page cache's page replacement algorithm.
 
 
-| 
-|
+| Label | Value |
+|--------|-------|
 | <p>Default Value:</p> | <p>2</p> | 
 | <p>Type:</p> | <p>Integer</p> | 
 | <p>Valid Range:</p> | <p>1-2</p> | 
@@ -281,8 +281,8 @@ This parameter configures the number of database page accesses that are consider
 This parameter indicates the period of time in seconds after which a page in the database page cache is considered to have lost a page access for the purpose of considering the usefulness of the page.
 
 
-| 
-|
+| Label | Value |
+|--------|-------|
 | <p>Default Value:</p> | <p>100</p> | 
 | <p>Type:</p> | <p>Integer</p> | 
 | <p>Valid Range:</p> | <p><strong>Windows 2000, Windows XP and Windows Server 2003:</strong>  1 – 2147483647</p><p><strong>Windows Vista:</strong>   1 – 4294967295</p> | 
@@ -310,8 +310,8 @@ This parameter controls when the database page cache begins evicting pages from 
 The distance height of the start threshold will determine the response time that the database page cache must have to produce available buffers before the application needs them. A high start threshold will give the background process more time to react. However, a high start threshold implies a higher stop threshold and that will reduce the effective size of the database page cache for modified pages (Windows 2000) or for all pages (Windows XP and later).
 
 
-| 
-|
+| Label | Value |
+|--------|-------|
 | <p>Default Value:</p> | <p><strong>Windows 2000, Windows XP and Windows Server 2003:</strong>  5 (1%)</p><p><strong>Windows Vista:</strong>  20000000 (1%)</p> | 
 | <p>Type:</p> | <p>Integer</p> | 
 | <p>Valid Range:</p> | <p><strong>Windows 2000:</strong>  1 – 1048575</p><p><strong>Windows XP:</strong>  1 – 4294967295</p><p><strong>Windows Vista:</strong>  All Values</p> | 
@@ -334,8 +334,8 @@ This parameter controls when the database page cache ends evicting pages from th
 The distance between the start threshold and the stop threshold affects the efficiency with which database pages are flushed by the background process. A larger gap will make it more likely that writes to neighboring pages may be combined. However, a high stop threshold will reduce the effective size of the database page cache for modified pages (Windows 2000) or for all pages (Windows XP and later).
 
 
-| 
-|
+| Label | Value |
+|--------|-------|
 | <p>Default Value:</p> | <p><strong>Windows 2000, Windows XP and Windows Server 2003:</strong>  10 (2%)</p><p><strong>Windows Vista:</strong>  40000000 (2%)</p> | 
 | <p>Type:</p> | <p>Integer</p> | 
 | <p>Valid Range:</p> | <p><strong>Windows 2000:</strong>  1 – 1048575</p><p><strong>Windows XP:</strong>  1 – 4294967295</p><p><strong>Windows Vista:</strong>  All Values</p> | 

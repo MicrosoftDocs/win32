@@ -33,8 +33,8 @@ This topic contains parameters that are used for the temporary database.
 This parameter controls the use of transactions in temporary tables. When this parameter is false, temporary tables will be faster but it will not be possible to rollback any updates made in a transaction.
 
 
-| 
-|
+| Label | Value |
+|--------|-------|
 | <p>Default Value:</p> | <p>True</p> | 
 | <p>Type:</p> | <p>Boolean</p> | 
 | <p>Valid Range:</p> | <p>False, True</p> | 
@@ -57,8 +57,8 @@ This parameter controls the initial size of the temporary database. The size is 
 It is often desirable for small applications to configure the temporary database to be as small as possible. Setting this parameter to 14 will achieve the smallest temporary database possible. Note that one can also entirely eliminate the temporary database by setting **JET_paramMaxTemporaryTables** to zero.
 
 
-| 
-|
+| Label | Value |
+|--------|-------|
 | <p>Default Value:</p> | <p>0</p> | 
 | <p>Type:</p> | <p>Integer</p> | 
 | <p>Valid Range:</p> | <p>0 – 2147483647</p> | 
@@ -81,8 +81,8 @@ This parameter indicates the relative or absolute file system path of the folder
 **Note**  If a relative path is specified then it will be relative to the current working directory of the process that hosts the application that is using the database engine.
 
 
-| 
-|
+| Label | Value |
+|--------|-------|
 | <p>Default Value:</p> | <p>"tmp.edb"</p> | 
 | <p>Type:</p> | <p>Path (string)</p> | 
 | <p>Valid Range:</p> | <p>0 – 247 characters</p> | 

@@ -33,8 +33,8 @@ This topic contains parameters that are used for the index.
 This parameter specifies the default for the offset increment used to step through the source column value while generating each tuple. For more information, see the [JET_TUPLELIMITS](./jet-tuplelimits-structure.md) structure.
 
 
-| 
-|
+| Label | Value |
+|--------|-------|
 | <p>Default Value:</p> | <p>1</p> | 
 | <p>Type:</p> | <p>Integer</p> | 
 | <p>Valid Range:</p> | <p>0 - 32767</p> | 
@@ -55,8 +55,8 @@ This parameter specifies the default for the offset increment used to step throu
 This parameter specifies the default for the offset in the source column value at which tuple generation will start. For more information, see the [JET_TUPLELIMITS](./jet-tuplelimits-structure.md) structure.
 
 
-| 
-|
+| Label | Value |
+|--------|-------|
 | <p>Default Value:</p> | <p>0</p> | 
 | <p>Type:</p> | <p>Integer</p> | 
 | <p>Valid Range:</p> | <p>0 - 32767</p> | 
@@ -79,8 +79,8 @@ This parameter specifies the default for the maximum tuple length in a tuple ind
 **Windows Vista:**  Prior to Windows Vista, setting this parameter to zero would set it back to its default value. For Windows Vista, this is no longer supported.
 
 
-| 
-|
+| Label | Value |
+|--------|-------|
 | <p>Default Value:</p> | <p>10</p> | 
 | <p>Type:</p> | <p>Integer</p> | 
 | <p>Valid Range:</p> | <p><strong>Windows 2000, Windows XP and Windows Server 2003: </strong>  0, 2-255</p><p><strong>Windows Vista:</strong>  2-255</p> | 
@@ -103,8 +103,8 @@ This parameter specifies the default for the minimum tuple length in a tuple ind
 **Windows Vista:**  Prior to Windows Vista, setting this parameter to zero would set it back to its default value. For Windows Vista, this is no longer supported.
 
 
-| 
-|
+| Label | Value |
+|--------|-------|
 | <p>Default Value:</p> | <p>3</p> | 
 | <p>Type:</p> | <p>Integer</p> | 
 | <p>Valid Range:</p> | <p><strong>Windows 2000, Windows XP and Windows Server 2003: </strong>  0, 2-255</p><p><strong>Windows Vista:</strong>  2-255</p> | 
@@ -127,8 +127,8 @@ This parameter specifies the default for the maximum length of a source string t
 **Windows Vista:**  Prior to Windows Vista, setting this parameter to zero would set it back to its default value. For Windows Vista, this is no longer supported.
 
 
-| 
-|
+| Label | Value |
+|--------|-------|
 | <p>Default Value:</p> | <p>32767</p> | 
 | <p>Type:</p> | <p>Integer</p> | 
 | <p>Valid Range:</p> | <p><strong>Windows 2000, Windows XP and Windows Server 2003:</strong>  0 – 32767</p><p><strong>Windows Vista:</strong>  1 – 32767</p> | 
@@ -157,8 +157,8 @@ The default value of this parameter contains an LCID for the U.S. English locale
 **Note**  If your application wishes to store Unicode data, then it is strongly recommended that you do not rely on the default Unicode parameters for your indexes. The use of U.S. English is tantamount to using the invariant locale and the default [LCMapStringW](/windows/win32/api/winnls/nf-winnls-lcmapstringa)flags are known to seriously interfere with some languages. You should always specify your own settings for the Unicode parameters to JetCreateIndex2 using [JET_INDEXCREATE](./jet-indexcreate-structure.md).
 
 
-| 
-|
+| Label | Value |
+|--------|-------|
 | <p>Default Value:</p> | <p>Special</p> | 
 | <p>Type:</p> | <p>JET_UNICODEINDEX* (JET_UNICODEINDEX)</p> | 
 | <p>Valid Range:</p> | <p>Special</p> | 

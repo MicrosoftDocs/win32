@@ -35,8 +35,8 @@ This parameter controls the number of B+ Tree resources cached by the instance a
 Large values for this parameter will cause the database engine to use more memory but will increase the speed with which a large number of tables can be opened randomly by the application. This is useful for applications that have a schema with a very large number of tables.
 
 
-| 
-|
+| Label | Value |
+|--------|-------|
 | <p>Default Value:</p> | <p>64</p> | 
 | <p>Type:</p> | <p>Integer</p> | 
 | <p>Valid Range:</p> | <p>1 – 2147483647</p> | 
@@ -57,8 +57,8 @@ Large values for this parameter will cause the database engine to use more memor
 This parameter can be used to prevent the database engine from publishing data about its performance to Windows. This can be done to reduce the service thread activity of the database engine.
 
 
-| 
-|
+| Label | Value |
+|--------|-------|
 | <p>Default Value:</p> | <p>False</p> | 
 | <p>Type:</p> | <p>Boolean</p> | 
 | <p>Valid Range:</p> | <p>False, True</p> | 
@@ -83,8 +83,8 @@ This parameter allows applications that operate in multi-instance mode to pre-al
 **Windows XP:**  As of Windows XP, this is still true when in single instance mode. However, version page memory is dynamically allocated when in multi-instance mode.
 
 
-| 
-|
+| Label | Value |
+|--------|-------|
 | <p>Default Value:</p> | <p>64</p> | 
 | <p>Type:</p> | <p>Integer</p> | 
 | <p>Valid Range:</p> | <p>1 – 2147483647</p> | 
@@ -107,8 +107,8 @@ This parameter reserves the requested number of cursor resources for use by an i
 **Windows 2000, Windows XP and Windows Server 2003:**  Large values for this parameter will consume address space and may increase memory usage.
 
 
-| 
-|
+| Label | Value |
+|--------|-------|
 | <p>Default Value:</p> | <p>1024</p> | 
 | <p>Type:</p> | <p>Integer</p> | 
 | <p>Valid Range:</p> | <p>0 – 2147483647</p> | 
@@ -129,8 +129,8 @@ This parameter reserves the requested number of cursor resources for use by an i
 This parameter controls the maximum number of instances that can be created in a single process.
 
 
-| 
-|
+| Label | Value |
+|--------|-------|
 | <p>Default Value:</p> | <p>16</p> | 
 | <p>Type:</p> | <p>Integer</p> | 
 | <p>Valid Range:</p> | <p>1-1024</p> | 
@@ -155,8 +155,8 @@ In general, you will need two resources plus one resource per secondary index pe
 **Windows 2000, Windows XP and Windows Server 2003:**  Large values for this parameter will consume address space and may increase memory usage.
 
 
-| 
-|
+| Label | Value |
+|--------|-------|
 | <p>Default Value:</p> | <p>300</p> | 
 | <p>Type:</p> | <p>Integer</p> | 
 | <p>Valid Range:</p> | <p>0 – 2147483647</p> | 
@@ -179,8 +179,8 @@ This parameter reserves the requested number of session resources for use by an 
 **Windows 2000, Windows XP and Windows Server 2003:**  Large values for this parameter will consume address space and may increase memory usage.
 
 
-| 
-|
+| Label | Value |
+|--------|-------|
 | <p>Default Value:</p> | <p>16</p> | 
 | <p>Type:</p> | <p>Integer</p> | 
 | <p>Valid Range:</p> | <p>0 – 30000</p> | 
@@ -207,8 +207,8 @@ This parameter reserves the requested number of temporary table resources for us
 **Note**  The use of a temporary table also requires a cursor resource.
 
 
-| 
-|
+| Label | Value |
+|--------|-------|
 | <p>Default Value:</p> | <p>20</p> | 
 | <p>Type:</p> | <p>Integer</p> | 
 | <p>Valid Range:</p> | <p>0 – 2147483647</p> | 
@@ -237,8 +237,8 @@ Each version store page as configured by this parameter is 16KB in size on 32-bi
 **Note**  This is by far the most common resource to be exhausted by the database engine. Careful attention must be paid to the setting of the system parameter and to the transactional load of the application to avoid exhausting this resource under normal operation. When this resource is exhausted, updates to the database will be rejected with JET_errVersionStoreOutOfMemory. To release some of these resources, the oldest outstanding transaction must be aborted.
 
 
-| 
-|
+| Label | Value |
+|--------|-------|
 | <p>Default Value:</p> | <p>64</p> | 
 | <p>Type:</p> | <p>Integer</p> | 
 | <p>Valid Range:</p> | <p>1 – 2147483647</p> | 
@@ -259,8 +259,8 @@ Each version store page as configured by this parameter is 16KB in size on 32-bi
 This parameter controls the size of a special cache used to accelerate the lookup of B+ Tree child page pointers in the database page cache. The size of the cache is in bytes.
 
 
-| 
-|
+| Label | Value |
+|--------|-------|
 | <p>Default Value:</p> | <p>262144</p> | 
 | <p>Type:</p> | <p>Integer</p> | 
 | <p>Valid Range:</p> | <p>0 – 2147483647</p> | 
@@ -285,8 +285,8 @@ If this parameter is set to zero then it will default to 100% of **JET_paramMaxO
 **Windows Vista and later:**  This parameter is obsolete and does not affect the operation of the database engine. Applications should use JET_paramMaxCachedClosedTables instead.
 
 
-| 
-|
+| Label | Value |
+|--------|-------|
 | <p>Default Value:</p> | <p>0 (100% of <strong>JET_paramMaxOpenTables</strong>)</p> | 
 | <p>Type:</p> | <p>Integer</p> | 
 | <p>Valid Range:</p> | <p>0 – 2147483647</p> | 
@@ -317,8 +317,8 @@ Each version store page as configured by this parameter is 16KB in size on 32-bi
 **Note**  If the database engine operates above this threshold too often then it is possible for the database to degrade in performance. This happens because the background processes that clean up the database cannot function without the optional information that is thrown away in this scenario. Online or offline defragmentation will counteract this effect.
 
 
-| 
-|
+| Label | Value |
+|--------|-------|
 | <p>Default Value:</p> | <p><strong>Windows 2000, Windows XP and Windows Server 2003:</strong>  0 (90% of JET_paramMaxVerPages)</p><p><strong>Windows Vista:</strong>  58</p> | 
 | <p>Type:</p> | <p>Integer</p> | 
 | <p>Valid Range:</p> | <p>1 – 2147483647</p> | 
@@ -341,8 +341,8 @@ This parameter controls the size of the version store pages used by the database
 The database engine may choose to use a larger version store page size than requested.
 
 
-| 
-|
+| Label | Value |
+|--------|-------|
 | <p>Default Value:</p> | <p>16384</p> | 
 | <p>Type:</p> | <p>Integer</p> | 
 | <p>Valid Range:</p> | <p>1024, 2048, 4096, 8192, 16384, 32768, 65536</p> | 
@@ -363,8 +363,8 @@ The database engine may choose to use a larger version store page size than requ
 This parameter controls the number of background cleanup work items that can be queued to the database engine thread pool at any one time.
 
 
-| 
-|
+| Label | Value |
+|--------|-------|
 | <p>Default Value:</p> | <p>32</p> | 
 | <p>Type:</p> | <p>Integer</p> | 
 | <p>Valid Range:</p> | <p><strong>Windows XP and Windows Server 2003:  </strong>  1 – 63</p><p><strong>Windows Vista:</strong>  1 – 127</p> | 
