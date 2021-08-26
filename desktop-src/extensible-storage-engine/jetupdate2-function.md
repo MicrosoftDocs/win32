@@ -119,8 +119,8 @@ See the Remarks section in [JetUpdate](./jetupdate-function.md) for more informa
 #### Requirements
 
 
-| 
-|
+| Requirement | Value |
+|------------|----------|
 | <p><strong>Client</strong></p> | <p>Requires Windows Vista.</p> | 
 | <p><strong>Server</strong></p> | <p>Requires Windows Server 2008 or Windows Server 2003.</p> | 
 | <p><strong>Header</strong></p> | <p>Declared in Esent.h.</p> | 

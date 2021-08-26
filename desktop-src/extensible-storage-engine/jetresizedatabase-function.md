@@ -94,8 +94,8 @@ The file size might not match the number of pages that are returned in the *pcpg
 #### Requirements
 
 
-| 
-|
+| Requirement | Value |
+|------------|----------|
 | <p><strong>Client</strong></p> | <p>Requires Windows 8.</p> | 
 | <p><strong>Server</strong></p> | <p>Requires Windows Server 2012.</p> | 
 | <p><strong>Header</strong></p> | <p>Declared in Esent.h.</p> | 

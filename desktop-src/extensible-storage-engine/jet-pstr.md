@@ -41,8 +41,8 @@ Null-terminated, ASCII string (char \*).
 ### Requirements
 
 
-| 
-|
+| Requirement | Value |
+|------------|----------|
 | <p><strong>Client</strong></p> | <p>Requires Windows Vista.</p> | 
 | <p><strong>Server</strong></p> | <p>Requires Windows Server 2008.</p> | 
 | <p><strong>Header</strong></p> | <p>Declared in Esent.h.</p> | 

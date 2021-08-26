@@ -89,8 +89,8 @@ For more information about how transactions work, see [JetBeginTransaction](./je
 #### Requirements
 
 
-| 
-|
+| Requirement | Value |
+|------------|----------|
 | <p><strong>Client</strong></p> | <p>Requires Windows 8.</p> | 
 | <p><strong>Server</strong></p> | <p>Requires Windows Server 2012.</p> | 
 | <p><strong>Header</strong></p> | <p>Declared in Esent.h.</p> | 

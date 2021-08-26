@@ -94,8 +94,8 @@ Note that "IN " occurs twice, and that the last entry ("N\!") is shorter than 3 
 ### Requirements
 
 
-| 
-|
+| Requirement | Value |
+|------------|----------|
 | <p><strong>Client</strong></p> | <p>Requires Windows Vista.</p> | 
 | <p><strong>Server</strong></p> | <p>Requires Windows Server 2008, Windows Server 2003.</p> | 
 | <p><strong>Header</strong></p> | <p>Declared in Esent.h.</p> | 

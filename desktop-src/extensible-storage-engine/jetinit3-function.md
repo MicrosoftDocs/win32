@@ -91,8 +91,8 @@ For more information, see the "Remarks" section in the [JetInit](./jetinit-funct
 #### Requirements
 
 
-| 
-|
+| Requirement | Value |
+|------------|----------|
 | <p>Client</p> | <p>Requires Windows Vista.</p> | 
 | <p>Server</p> | <p>Requires Windows Server 2008.</p> | 
 | <p>Header</p> | <p>Declared in Esent.h.</p> | 

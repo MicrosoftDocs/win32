@@ -51,8 +51,8 @@ This outermost (document) element may not be contained by any other elements.
 ## Requirements
 
 
-| 
-|
+| Requirement | Value |
+|------------|----------|
 | <p>Namespace</p> | <p>https://www.microsoft.com/networking/WWAN/profile/v3</p> | 
 
 

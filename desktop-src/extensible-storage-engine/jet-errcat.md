@@ -53,8 +53,8 @@ The following table lists the **JET_ERRCAT** constants and provides a descriptio
 ### Requirements
 
 
-| 
-|
+| Requirement | Value |
+|------------|----------|
 | <p><strong>Client</strong></p> | <p>Requires Windows 8.</p> | 
 | <p><strong>Server</strong></p> | <p>Requires Windows 8 Server.</p> | 
 | <p><strong>Header</strong></p> | <p>Declared in Esent.h.</p> | 

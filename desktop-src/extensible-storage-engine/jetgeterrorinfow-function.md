@@ -95,8 +95,8 @@ The [JET_ERRINFOBASIC_W](./jet-errinfobasic-w-structure.md) function and [JET_ER
 ### Requirements
 
 
-| 
-|
+| Requirement | Value |
+|------------|----------|
 | <p><strong>Client</strong></p> | <p>Requires Windows 8.</p> | 
 | <p><strong>Server</strong></p> | <p>Requires Windows 8 Server.</p> | 
 | <p><strong>Header</strong></p> | <p>Declared in Esent.h.</p> | 

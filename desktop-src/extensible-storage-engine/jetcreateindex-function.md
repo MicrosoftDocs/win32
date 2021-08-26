@@ -110,8 +110,8 @@ Note that **JetCreateIndex** has been superseded by [JetCreateIndex2](./jetcreat
 #### Requirements
 
 
-| 
-|
+| Requirement | Value |
+|------------|----------|
 | <p>Client</p> | <p>Requires Windows Vista, Windows XP, or Windows 2000 Professional.</p> | 
 | <p>Server</p> | <p>Requires Windows Server 2008, Windows Server 2003, or Windows 2000 Server.</p> | 
 | <p>Header</p> | <p>Is declared in Esent.h.</p> | 

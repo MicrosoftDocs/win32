@@ -83,8 +83,8 @@ The different steps of the recovery will have Event Log entries generated includ
 #### Requirements
 
 
-| 
-|
+| Requirement | Value |
+|------------|----------|
 | <p><strong>Client</strong></p> | <p>Requires Windows Vista, Windows XP, or Windows 2000 Professional.</p> | 
 | <p><strong>Server</strong></p> | <p>Requires Windows Server 2008, Windows Server 2003, or Windows 2000 Server.</p> | 
 | <p><strong>Header</strong></p> | <p>Declared in Esent.h.</p> | 
