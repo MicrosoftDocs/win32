@@ -33,8 +33,8 @@ This topic contains parameters that are used for callbacks.
 This parameter disables all database engine callbacks to application provided functions. It is primarily intended to support the database engine utilities and is not intended to be used in your application.
 
 
-| 
-|
+| Label | Value |
+|--------|-------|
 | <p>Default Value:</p> | <p>False</p> | 
 | <p>Type:</p> | <p>Boolean</p> | 
 | <p>Valid Range:</p> | <p>False, True</p> | 
@@ -55,8 +55,8 @@ This parameter disables all database engine callbacks to application provided fu
 This parameter enables the use of persistent callbacks in the database. In releases prior to Windows Vista, the use of persistent callbacks was enabled by default. Applications must now explicitly enable the use of persistent callbacks at runtime using this parameter. If this parameter is not set, then any database operation that requires the invocation of a callback will fail with JET_errCallbackFailed. This parameter does not affect any callbacks that are specified at runtime with the following mechanisms: JET_paramRuntimeCallback, [JetRegisterCallback](./jetregistercallback-function.md), or an explicit callback parameter to a JET API. It is still possible to create schema elements that contain persistent callbacks even when the use of those persistent callbacks is disallowed. When this parameter is set to false it overrides JET_paramDisableCallbacks.
 
 
-| 
-|
+| Label | Value |
+|--------|-------|
 | <p>Default Value:</p> | <p>False</p> | 
 | <p>Type:</p> | <p>Boolean</p> | 
 | <p>Valid Range:</p> | <p>False, True</p> | 
@@ -77,8 +77,8 @@ This parameter enables the use of persistent callbacks in the database. In relea
 This parameter configures the engine with a runtime callback function implementing the [JET_CALLBACK](./jet-callback-callback-function.md) interface. This callback may be called for the following reasons: [JET_cbtypFreeCursorLS](./jet-cbtyp.md), [JET_cbtypFreeTableLS](./jet-cbtyp.md), or [JET_cbtypNull](./jet-cbtyp.md). Please see [JetSetLS](./jetsetls-function.md) for more information.
 
 
-| 
-|
+| Label | Value |
+|--------|-------|
 | <p>Default Value:</p> | <p>NULL</p> | 
 | <p>Type:</p> | <p>Function Pointer (JET_API_PTR)</p> | 
 | <p>Valid Range:</p> | <p>NULL, <a href="gg294098(v=exchg.10).md">JET_CALLBACK</a>*</p> | 

@@ -44,8 +44,8 @@ This parameter, when set, will cause [JetInit](./jetinit-function.md) to return 
 **Windows Vista:**  For Windows Vista and later, this parameter is obsolete and does not affect the operation of the database engine.
 
 
-| 
-|
+| Label | Value |
+|--------|-------|
 | <p>Default Value:</p> | <p>True</p> | 
 | <p>Type:</p> | <p>Boolean</p> | 
 | <p>Valid Range:</p> | <p>False, True</p> | 
@@ -68,8 +68,8 @@ This parameter configures the page size for the database. The page size is the s
 **Note** Only one database page size is supported per process at this time. This means that if you are in a single process that contains different applications that use the database engine then they must all agree on a database page size.
 
 
-| 
-|
+| Label | Value |
+|--------|-------|
 | <p>Default Value:</p> | <p>4096</p> | 
 | <p>Type:</p> | <p>Integer</p> | 
 | <p>Valid Range:</p> | <p>2048, 4096, 8192</p> | 
@@ -90,8 +90,8 @@ This parameter configures the page size for the database. The page size is the s
 This parameter controls the amount of space that is added to a database file each time it needs to grow to accommodate more data. The size is in database pages.
 
 
-| 
-|
+| Label | Value |
+|--------|-------|
 | <p>Default Value:</p> | <p>256</p> | 
 | <p>Type:</p> | <p>Integer</p> | 
 | <p>Valid Range:</p> | <p>1 – 2147483647</p> | 
@@ -120,8 +120,8 @@ If any secondary indexes are detected to be in this state then there are two pos
 **Note** It is very strongly recommended that applications avoid the use of Unicode key columns in their primary key (clustered) indexes.
 
 
-| 
-|
+| Label | Value |
+|--------|-------|
 | <p>Default Value:</p> | <p>False</p> | 
 | <p>Type:</p> | <p>Boolean</p> | 
 | <p>Valid Range:</p> | <p>False, True</p> | 
@@ -146,8 +146,8 @@ It is important to realize that it is possible for the changes to the index to b
 **Note** It is strongly recommended that this parameter and **JET_paramEnableIndexChecking** be set to **True** by your application.
 
 
-| 
-|
+| Label | Value |
+|--------|-------|
 | <p>Default Value:</p> | <p>True</p> | 
 | <p>Type:</p> | <p>Boolean</p> | 
 | <p>Valid Range:</p> | <p>False, True</p> | 
@@ -174,8 +174,8 @@ When this parameter is true then only one database is allowed to be opened using
 **Note**  This parameter is write only.
 
 
-| 
-|
+| Label | Value |
+|--------|-------|
 | <p>Default Value:</p> | <p>False</p> | 
 | <p>Type:</p> | <p>Boolean</p> | 
 | <p>Valid Range:</p> | <p>False, True</p> | 
@@ -212,8 +212,8 @@ Windows 2000:  On Windows 2000, this parameter was a simple Boolean that wou
 
 
 
-| 
-|
+| Label | Value |
+|--------|-------|
 | <p>Default Value:</p> | <p><strong>Windows 2000:</strong>  True</p><p><strong>Windows XP:  For Windows XP and later:</strong> JET_OnlineDefragAll</p> | 
 | <p>Type:</p> | <p><strong>Windows 2000:</strong>  Boolean</p><p><strong>Windows XP and later:</strong>  JET_GRBIT (integer)</p> | 
 | <p>Valid Range:</p> | <p><strong>Windows 2000:</strong>  False, True</p><p><strong>Windows XP and later:</strong>  0 – JET_OnlineDefragAll</p> | 
@@ -234,8 +234,8 @@ Windows 2000:  On Windows 2000, this parameter was a simple Boolean that wou
 This parameter is the threshold that the database engine uses to control free space fragmentation. The size is in database pages.
 
 
-| 
-|
+| Label | Value |
+|--------|-------|
 | <p>Default Value:</p> | <p>8</p> | 
 | <p>Type:</p> | <p>Integer</p> | 
 | <p>Valid Range:</p> | <p>0 – 2147483647</p> | 
@@ -256,8 +256,8 @@ This parameter is the threshold that the database engine uses to control free sp
 This parameter controls how aggressively the database page cache manager will write a database page that has undergone an in place format conversion. These format conversions occur on the fly as pages are loaded from a database that was created with the Windows 2000 database engine but used by a Windows XP or later release of the database engine.
 
 
-| 
-|
+| Label | Value |
+|--------|-------|
 | <p>Default Value:</p> | <p>1</p> | 
 | <p>Type:</p> | <p>Integer</p> | 
 | <p>Valid Range:</p> | <p>0-3</p> | 
@@ -278,8 +278,8 @@ This parameter controls how aggressively the database page cache manager will wr
 The latency (in logs) behind the tip / highest committed log to defer database page flushes. Enabling this latency can allow database recovery in the case of catastrophic loss of the most recent logfile. See JET_bitReplayIgnoreLostLogs.
 
 
-| 
-|
+| Label | Value |
+|--------|-------|
 | <p>Default Value:</p> | <p>0</p> | 
 | <p>Type:</p> | <p>Integer</p> | 
 | <p>Valid Range:</p> | <p>0-1023</p> | 
@@ -300,8 +300,8 @@ The latency (in logs) behind the tip / highest committed log to defer database p
 Turn on/off automatic sequential B-tree defragmentation.
 
 
-| 
-|
+| Label | Value |
+|--------|-------|
 | <p>Default Value:</p> | <p>1</p> | 
 | <p>Type:</p> | <p>Boolean</p> | 
 | <p>Valid Range:</p> | <p>0-1</p> | 
@@ -322,8 +322,8 @@ Turn on/off automatic sequential B-tree defragmentation.
 Determines how frequently B-tree density is checked.
 
 
-| 
-|
+| Label | Value |
+|--------|-------|
 | <p>Default Value:</p> | <p>10</p> | 
 | <p>Type:</p> | <p>Integer</p> | 
 | <p>Valid Range:</p> | <p>0-Max Integer</p> | 
@@ -344,8 +344,8 @@ Determines how frequently B-tree density is checked.
 Max time, in milliseconds, that the I/O throttling mechanism gives a task to run for it to be considered 'completed'.
 
 
-| 
-|
+| Label | Value |
+|--------|-------|
 | <p>Default Value:</p> | <p>125</p> | 
 | <p>Type:</p> | <p>Integer</p> | 
 | <p>Valid Range:</p> | <p>0-10000</p> | 

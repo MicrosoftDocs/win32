@@ -35,8 +35,8 @@ This topic contains parameters that are used for input and output (I/O).
 **Note**  As a result of the above retry logic, any attempt to attach to a database or use a log file that is already in use by the database engine will result in a delay of this size before the API call returns a (legitimate) failure. This parameter can be used to turn down that delay in case this is a common scenario.
 
 
-| 
-|
+| Label | Value |
+|--------|-------|
 | <p>Default Value:</p> | <p>10000</p> | 
 | <p>Type:</p> | <p>Integer</p> | 
 | <p>Valid Range:</p> | <p>0 – 4294967295</p> | 
@@ -57,8 +57,8 @@ This topic contains parameters that are used for input and output (I/O).
 When this parameter is set to true then any folder that is missing in a file system path in use by the database engine will be silently created. Otherwise, the operation that uses the missing file system path will fail with JET_errInvalidPath.
 
 
-| 
-|
+| Label | Value |
+|--------|-------|
 | <p>Default Value:</p> | <p>False</p> | 
 | <p>Type:</p> | <p>Boolean</p> | 
 | <p>Valid Range:</p> | <p>False, True</p> | 
@@ -81,8 +81,8 @@ When this parameter is **True**, the database engine will use the Windows file c
 It is important to note that the use of the Windows file cache will add a second layering of caching for database files. The database cache will still use its own memory to cache the database files. The intent of this mode is to allow the application to configure the database engine with a small dedicated cache and to allow Windows to donate spare memory to further improve the caching of database data.
 
 
-| 
-|
+| Label | Value |
+|--------|-------|
 | <p>Default Value:</p> | <p>False</p> | 
 | <p>Type:</p> | <p>Boolean</p> | 
 | <p>Valid Range:</p> | <p>False, True</p> | 
@@ -105,8 +105,8 @@ This parameter controls how ESE handles I/O operations. The values can be set to
 **Windows Vista:**  JET_paramIOPriority is introduced in Windows Vista.
 
 
-| 
-|
+| Label | Value |
+|--------|-------|
 | <p>Default Value:</p> | <p>0</p> | 
 | <p>Type:</p> | <p>Integer</p> | 
 | <p>Valid Range:</p> | <p>0 - 1</p> | 
@@ -131,8 +131,8 @@ A larger value for this parameter can significantly help the performance of a la
 **Windows XP and Windows Server 2003:**  This parameter is ignored on Windows XP and Windows Server 2003 and does not affect the operation of the database engine.
 
 
-| 
-|
+| Label | Value |
+|--------|-------|
 | <p>Default Value:</p> | <p><strong>Windows 2000: </strong>  64</p><p><strong>Windows Vista:</strong>   1024</p> | 
 | <p>Type:</p> | <p>Integer</p> | 
 | <p>Valid Range:</p> | <p><strong>Windows 2000:</strong>  8 – 2147483647</p><p><strong>Windows Vista:</strong>  0 – 65536</p> | 
@@ -153,8 +153,8 @@ A larger value for this parameter can significantly help the performance of a la
 Maximum number of bytes that can be grouped for a coalesced read operation.
 
 
-| 
-|
+| Label | Value |
+|--------|-------|
 | <p>Default Value:</p> | <p>262144</p> | 
 | <p>Type:</p> | <p>Integer</p> | 
 | <p>Valid Range:</p> | <p>0-1073741824</p> | 
@@ -175,8 +175,8 @@ Maximum number of bytes that can be grouped for a coalesced read operation.
 Maximum number of bytes that can be grouped for a coalesced write operation.
 
 
-| 
-|
+| Label | Value |
+|--------|-------|
 | <p>Default Value:</p> | <p>393216</p> | 
 | <p>Type:</p> | <p>Integer</p> | 
 | <p>Valid Range:</p> | <p>0-1073741824</p> | 
@@ -197,8 +197,8 @@ Maximum number of bytes that can be grouped for a coalesced write operation.
 Maximum number of bytes that can be gapped for a coalesced write I/O operation.
 
 
-| 
-|
+| Label | Value |
+|--------|-------|
 | <p>Default Value:</p> | <p>262144</p> | 
 | <p>Type:</p> | <p>Integer</p> | 
 | <p>Valid Range:</p> | <p>0-1073741824</p> | 
@@ -219,8 +219,8 @@ Maximum number of bytes that can be gapped for a coalesced write I/O operation.
 Max number of bytes that can be gapped for a coalesced read I/O operation.
 
 
-| 
-|
+| Label | Value |
+|--------|-------|
 | <p>Default Value:</p> | <p>393216</p> | 
 | <p>Type:</p> | <p>Integer</p> | 
 | <p>Valid Range:</p> | <p>0-1073741824</p> | 
