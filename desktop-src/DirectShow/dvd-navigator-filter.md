@@ -15,8 +15,8 @@ The DVD Navigator filter also implements the [**IDvdControl2**](/windows/desktop
 
 
 
-| 
-|
+| Label | Value |
+|--------|-------|
 | Filter Interfaces | <a href="/windows/desktop/api/Strmif/nn-strmif-ibasefilter"><strong>IBaseFilter</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-idvdcontrol2"><strong>IDvdControl2</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-idvdinfo2"><strong>IDvdInfo2</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-ifilesourcefilter"><strong>IFileSourceFilter</strong></a>, <strong>ISpecifyPropertyPages</strong> | 
 | Input Pin Media Types | MEDIATYPE_Stream, MEDIASUBTYPE_MPEG2_PROGRAM | 
 | Input Pin Interfaces | Not applicable. | 

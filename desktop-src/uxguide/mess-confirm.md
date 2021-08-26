@@ -439,8 +439,8 @@ In this example, "permanently" indicates that the action can't be undone.
 -   **The supplemental instruction for a confirmation is based on its design pattern:**
 
     
-| 
-|
+| Label | Value |
+|--------|-------|
 | <strong>Pattern</strong><br /> | <strong>Supplemental instruction</strong><br /> | 
 | Unintended consequence confirmations <br /> | Ask a single question to determine if the user wants to proceed. <br /> | 
 | All others <br /> | Explain any non-obvious reasons why the user might not want to proceed. Such reasons include: <br /><ul><li>Potential loss of one or more of the following:    <ul><li>A valuable asset, such as data loss or financial loss.</li><li>System access or integrity.</li><li>Privacy or control over confidential information.</li></ul></li><li>Actions that are irreversible.</li></ul> | 

@@ -56,8 +56,8 @@ A **BSTR** variable that contains the farm name.
 
 
 
-| 
-|
+| Requirement | Value |
+|--------|-------|
 | Minimum supported client<br /> | None supported<br /> | 
 | Minimum supported server<br /> | Windows Server 2012<br /> | 
 | IDL<br /> | <dl><dt>Sbtsv.idl</dt></dl> | 

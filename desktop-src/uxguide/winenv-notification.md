@@ -125,8 +125,8 @@ Notification area icons have several usage patterns:
 
 
 
-| 
-|
+| Label | Value |
+|--------|-------|
 | <strong>System status and access</strong><br /> Displayed continuously to show important but not critical system status, and to provide access to relevant features and settings. <br /> | System features that need notification area icons have no persistent desktop presence. Can also be used as a notification source. <br /><img src="images/winenv-notification-image8.png" alt="Screenshot that shows a notification area and icons for system status." /><br /> In this example, the battery, network, and volume icons are displayed continuously when applicable.<br /> | 
 | <strong>Background task status and access</strong><br /> Displayed while a background task is running to show status and provide access to features and settings. <br /> | Background processes need notification area icons when they have no desktop presence. Can also be used as a notification source. <br /><img src="images/winenv-notification-image9.png" alt="Screenshot that shows notification area and icon for background task status." /><br /> In this example, the Action Center icon allows users to check its status even when it has no desktop presence.<br /> | 
 | <strong>Temporary event status</strong><br /> Programs with desktop presence can display icons temporarily to show important events or changes in status. <br /> | <img src="images/winenv-notification-image10.png" alt="Screenshot that shows notification area and icons for a temporary event status." /><br /> In this example, icons for printing and installing updates are displayed temporarily to show important events or changes in status.<br /> | 

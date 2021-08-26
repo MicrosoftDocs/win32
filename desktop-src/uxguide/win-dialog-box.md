@@ -453,8 +453,8 @@ For more information and examples, see [Icons](vis-icons.md).
 -   **Choose the commit buttons based on the design pattern:**
 
     
-| 
-|
+| Label | Value |
+|--------|-------|
 | <strong>Pattern</strong><br /> | <strong>Commit buttons</strong><br /> | 
 | <strong>Question dialogs (using buttons)</strong><br /> | One of the following sets of concise commands: Yes/No, Yes/No/Cancel, [Do it]/Cancel, [Do it]/[Don't do it], [Do it]/[Don't do it]/Cancel.<br /> | 
 | <strong>Question dialogs (using links)</strong><br /> | Cancel.<br /> | 

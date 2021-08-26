@@ -65,8 +65,8 @@ Progress bars have several usage patterns:
 
 
 
-| 
-|
+| Label | Value |
+|--------|-------|
 | <strong>Modal determinate progress bars</strong><br /> Indicate an operation's progress by filling from left to right and filling completely when the operation is complete. <br /> | Because this feedback is <a href="glossary.md">modal</a>, users cannot perform other tasks in the window (or its parent if displayed in a modal dialog box) until the operation is complete. <br /><img src="images/progress-bars-image3.png" alt="Screen shot of progress bar in modal window " /><br /> In this example, the progress bar gives feedback during configuration. <br /> | 
 | <strong>Modal determinate progress bars with a Cancel or Stop button</strong><br /> Allow users to halt the operation, perhaps because the operation is taking too long or isn't worth the wait.<br /> | <img src="images/progress-bars-image4.png" alt="Screen shot of progress bar with Stop button " /><br /> In this example, users can click Stop to halt the operation and leave the environment in its current state.<br /> | 
 | <strong>Modal determinate progress bars with a Cancel or Stop button and animation</strong><br /> Allow users to halt the operation, and include an animation to help users visualize the effect of an operation.<br /> | <img src="images/progress-bars-image5.png" alt="Screen shot of progress bar with animation " /><br /> In this example, users can click Stop to halt the operation and leave the environment in its current state.<br /> | 

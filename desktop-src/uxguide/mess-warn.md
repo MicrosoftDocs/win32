@@ -164,8 +164,8 @@ Warnings have several usage patterns:
 
 
 
-| 
-|
+| Label | Value |
+|--------|-------|
 | <strong>Awareness</strong><br /> Make user aware of a condition or potential problem, but user may not have to do anything now. <br /> | <img src="images/mess-warn-image13.png" alt="Screen shot of warning of network problems " /><br /><img src="images/mess-warn-image14.png" alt="Screen shot of low-battery warning " /><br /><img src="images/mess-warn-image15.png" alt="Screen shot of 'caps-lock-is-on' warning " /><br /><img src="images/mess-warn-image16.png" alt="Screen shot of 'TPM-not-found' warning " /><br /> Examples of awareness warnings.<br /> Awareness warnings have the following presentation: <br /><ul><li><strong>Main instruction:</strong> Describe the condition or potential problem.</li><li><strong>Supplemental instruction:</strong> Explain the implication and why it is important.</li><li><strong>Commit buttons:</strong> Close.</li></ul> | 
 | <strong>Error prevention</strong><br /> Make user aware of information that might prevent a problem, especially when making choices. <br /> | Error prevention warnings are best presented using an in-place warning icon and explanatory text. <br /><img src="images/mess-warn-image17.png" alt="Screen shot of Not-enough-free-space warning " /><br /><img src="images/mess-warn-image18.png" alt="Screen shot of Use-installation-CD warning " /><br /> Examples of error prevention warnings.<br /> | 
 | <strong>Imminent problem</strong><br /> The user needs to do something now to prevent an imminent problem. <br /> | <img src="images/mess-warn-image19.png" alt="Screen shot of Close-programs warning " /><br /> An example of an imminent problem warning.<br /> Imminent problem warnings have the following presentation: <br /><ul><li><strong>Main instruction:</strong> Describe what the user needs to do now.</li><li><strong>Supplemental instruction:</strong> Explain the condition and why it is important.</li><li><strong>Commit buttons:</strong> A command button or command link for each option, or OK if the action occurs outside the dialog box.</li></ul> | 
