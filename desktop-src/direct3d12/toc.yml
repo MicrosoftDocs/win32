@@ -720,6 +720,11 @@
           items: 
           - name: "GetRootSignatureDesc"
             href: /windows/win32/api/d3d12/nf-d3d12-id3d12rootsignaturedeserializer-getrootsignaturedesc
+        - name: "ID3D12SDKConfiguration"
+          href: /windows/win32/api/d3d12/nn-d3d12-id3d12sdkconfiguration
+          items: 
+          - name: "SetSDKVersion"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12sdkconfiguration-setsdkversion
         - name: "ID3D12ShaderCacheSession"
           href: /windows/win32/api/d3d12/nn-d3d12-id3d12shadercachesession
           items: 
@@ -771,6 +776,8 @@
           href: /windows/win32/api/d3d12/nf-d3d12-d3d12enableexperimentalfeatures
         - name: "D3D12GetDebugInterface"
           href: /windows/win32/api/d3d12/nf-d3d12-d3d12getdebuginterface
+        - name: "D3D12GetInterface"
+          href: /windows/win32/api/d3d12/nf-d3d12-d3d12getinterface
         - name: "D3D12SerializeRootSignature"
           href: /windows/win32/api/d3d12/nf-d3d12-d3d12serializerootsignature
         - name: "D3D12SerializeVersionedRootSignature"
