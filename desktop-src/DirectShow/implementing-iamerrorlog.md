@@ -63,8 +63,8 @@ if( pExtraInfo )    // Report extra information, if any.
 > 
 >
 > 
-| 
-|
+| Label | Value |
+|--------|-------|
 | <pre><code>pExtraInfo</code></pre> | 
 
 >

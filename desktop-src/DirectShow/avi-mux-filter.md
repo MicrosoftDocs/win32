@@ -15,8 +15,8 @@ Video capture or authoring applications can use this filter to save files to dis
 
 
 
-| 
-|
+| Label | Value |
+|--------|-------|
 | Filter Interfaces | <a href="/windows/desktop/api/Strmif/nn-strmif-ibasefilter"><strong>IBaseFilter</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-iconfigavimux"><strong>IConfigAviMux</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-iconfiginterleaving"><strong>IConfigInterleaving</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-imediaseeking"><strong>IMediaSeeking</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-ipersistmediapropertybag"><strong>IPersistMediaPropertyBag</strong></a>, ISpecifyPropertyPages | 
 | Input Pin Media Types | Any major type that corresponds to an old-style FOURCC, or MEDIATYPE_AUXLine21Data. (For more information, see <a href="fourccmap.md"><strong>FOURCCMap Class</strong></a>.)<ul><li>If the major type is MEDIATYPE_Audio, the format must be FORMAT_WaveFormatEx.</li><li>If the major type is MEDIATYPE_Video, the format must be FORMAT_VideoInfo or FORMAT_DvInfo.</li><li>If the major type is MEDIATYPE_Interleaved, the format must be FORMAT_DvInfo.</li></ul> | 
 | Input Pin Interfaces | <a href="/windows/desktop/api/Strmif/nn-strmif-iamstreamcontrol"><strong>IAMStreamControl</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-imeminputpin"><strong>IMemInputPin</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-ipin"><strong>IPin</strong></a>, IPropertyBag, <a href="/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol"><strong>IQualityControl</strong></a> | 

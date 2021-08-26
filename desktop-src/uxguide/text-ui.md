@@ -496,8 +496,8 @@ The following table shows the most common commit button labels and their usage.
 
 
 
-| 
-|
+| Label | Value |
+|--------|-------|
 | <strong>Button label</strong><br /> | <strong>Meaning</strong><br /> | <strong>When to use</strong><br /> | <strong>Access key</strong><br /> | 
 | <strong>OK</strong><br /> | <ul><li>In dialog boxes: apply the changes or commit to the task and close the window.</li><li>In owner property windows: apply the pending changes (made since the window was opened or the last Apply) and close the window.</li><li>In owned property windows: keep the changes, close the window, and apply the changes when the owner window's changes are applied.</li></ul> | <ul><li>Use with windows that aren't task specific, such as property sheets.</li><li>For windows used to perform one specific task, use a specific label instead that starts with a verb (example: Print).</li><li>For windows in which users can't make changes, use Close.</li></ul> | Enter<br /> | 
 | <strong>Yes/No</strong><br /> | Yes is the affirmative response to a yes or no question, whereas No is the negative response.<br /> | <ul><li>Use Yes and No buttons only to respond to yes or no questions. Never use OK and Cancel for yes or no questions.</li><li>Prefer specific responses over Yes and No buttons. While there's nothing wrong with using Yes and No, specific responses can be understood more quickly, resulting in efficient decision making.</li><li>However, consider using Yes and No responses if the phrasing of specific responses turns out to be long or awkward.</li><li>Don't use Yes and No buttons if the meaning of the No response is unclear. If so, use specific responses instead.</li><li>Yes and No must always be used as a pair.</li></ul> | Y and N<br /> | 

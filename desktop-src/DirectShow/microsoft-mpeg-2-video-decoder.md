@@ -131,8 +131,8 @@ For MPEG-1 and MPEG-2, the decoder supports the following formats:
 
 
 
-| 
-|
+| Label | Value |
+|--------|-------|
 | Profiles/Levels | Any combination of the following profiles and levels:<br /><ul><li>Profiles: Simple, Main</li><li>Levels: Low, Main, High, High 1440</li></ul> | 
 | Chroma Formats | 4:2:0 chroma | 
 | Maximum Resolution | 1920 × 1088 pixels | 

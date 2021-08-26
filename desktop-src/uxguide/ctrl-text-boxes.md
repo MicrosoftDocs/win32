@@ -52,8 +52,8 @@ A text box is a flexible control with several possible uses.
 
 
 
-| 
-|
+| Label | Value |
+|--------|-------|
 | <strong>Data input</strong><br /> A single-line, unconstrained text box used to enter or edit short strings.<br /> | <img src="images/ctrl-text-boxes-image2.png" alt="Screen shot of a text box with Display name label " /><br /> A single-line, unconstrained text box.<br /> | 
 | <strong>Formatted data input</strong><br /> A set of short, fixed-sized, single-line text boxes used to enter data with a specific format. <br /> | <img src="images/ctrl-text-boxes-image3.png" alt="Screen shot of a Product key text box " /><br /> A text box used for formatted data input.<br /><blockquote>[!Note]<br />The <a href="glossary.md">auto-exit</a> feature automatically advances the input focus from one text box to the next. One disadvantage to this approach is that the data can't be copied or pasted as a single unit.</blockquote><br /><br /> | 
 | <strong>Assisted data input</strong><br /> A single-line, unconstrained text box used to enter or edit strings, combined with a command button that helps users select valid values.<br /> | <img src="images/ctrl-text-boxes-image4.png" alt="Screen shot of text box with Browse button" /><br /> In this example, the Browse command helps users select valid values.<br /> | 

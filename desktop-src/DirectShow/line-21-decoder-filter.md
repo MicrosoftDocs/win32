@@ -36,8 +36,8 @@ The information in the following table applies to both versions of the filter:
 
 
 
-| 
-|
+| Label | Value |
+|--------|-------|
 | Filter Interfaces | <a href="/previous-versions/windows/desktop/api/il21dec/nn-il21dec-iamline21decoder"><strong>IAMLine21Decoder</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-ibasefilter"><strong>IBaseFilter</strong></a> | 
 | Input Pin Media Types | Major Type: MEDIATYPE_AUXLine21DataSubtype:<br /><ul><li>MEDIASUBTYPE_Line21_BytePair (standard line 21)</li><li>MEDIASUBTYPE_Line21_GOPPacket (DVD line 21)</li></ul>Format Type: FORMAT_VideoInfo or GUID_NULL<br /> | 
 | Input Pin Interfaces | <a href="/windows/desktop/api/Strmif/nn-strmif-imeminputpin"><strong>IMemInputPin</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-ipin"><strong>IPin</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol"><strong>IQualityControl</strong></a> | 

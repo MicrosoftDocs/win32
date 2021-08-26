@@ -13,8 +13,8 @@ The Filter Mapper searches the registry for registered filters. The Filter Graph
 
 
 
-| 
-|
+| Label | Value |
+|--------|-------|
 | Class Identifier | CLSID_FilterMapper2 | 
 | Interfaces | <ul><li><a href="/windows/desktop/api/Strmif/nn-strmif-ifiltermapper2"><strong>IFilterMapper2</strong></a></li><li><a href="iamfilterdata.md"><strong>IAMFilterData</strong></a> (deprecated)</li><li><a href="/windows/desktop/api/Strmif/nn-strmif-ifiltermapper3"><strong>IFilterMapper3</strong></a> (deprecated)</li></ul> | 
 

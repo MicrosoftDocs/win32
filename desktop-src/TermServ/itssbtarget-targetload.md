@@ -56,8 +56,8 @@ This property is available on Windows Server 2012 R2 with [KB3091411](https://su
 
 
 
-| 
-|
+| Requirement | Value |
+|--------|-------|
 | Minimum supported client<br /> | None supported<br /> | 
 | Minimum supported server<br /> | Windows Server 2016<br /> | 
 | IDL<br /> | <dl><dt>Sbtsv.idl</dt></dl> | 

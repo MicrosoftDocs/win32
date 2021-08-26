@@ -20,8 +20,8 @@ The following table contains information specific to the Overlay Mixer 2. For al
 
 
 
-| 
-|
+| Label | Value |
+|--------|-------|
 | Input Pin Media Types | Format Type: Format_VIDEOINFO2 | 
 | Filter CLSID | CLSID_OverlayMixer2 | 
 | <a href="merit.md">Merit</a> | <ul><li>MERIT_UNLIKELY</li><li>Windows Vista or later: MERIT_DO_NOT_USE</li></ul> | 

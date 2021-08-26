@@ -24,8 +24,8 @@ The use of this filter is deprecated. To render multiple files within the same f
 
 
 
-| 
-|
+| Label | Value |
+|--------|-------|
 | Filter interfaces | <a href="/windows/desktop/api/Strmif/nn-strmif-ibasefilter"><strong>IBaseFilter</strong></a> | 
 | Input pin media types | <ul><li>Major type: MEDIATYPE_Stream</li><li>Subtype: CLSID_MultFile</li><li>Format type: GUID_NULL</li></ul> | 
 | Input pin interfaces | <a href="/windows/desktop/api/Strmif/nn-strmif-ipin"><strong>IPin</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol"><strong>IQualityControl</strong></a> | 
