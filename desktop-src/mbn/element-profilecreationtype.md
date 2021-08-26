@@ -59,8 +59,8 @@ The following elements have the same name as this one, but different content or 
 ## Requirements
 
 
-| 
-|
+| Requirement | Value |
+|------------|----------|
 | <p>Namespace</p> | <p>https://www.microsoft.com/networking/WWAN/profile/v4</p> | 
 
 

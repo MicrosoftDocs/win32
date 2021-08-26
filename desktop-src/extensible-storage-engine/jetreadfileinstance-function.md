@@ -113,8 +113,8 @@ Data corruption is detected by the database engine through the use of block chec
 #### Requirements
 
 
-| 
-|
+| Requirement | Value |
+|------------|----------|
 | <p>Client</p> | <p>Requires Windows Vista or Windows XP.</p> | 
 | <p>Server</p> | <p>Requires Windows Server 2008 or Windows Server 2003.</p> | 
 | <p>Header</p> | <p>Is declared in Esent.h.</p> | 

@@ -99,8 +99,8 @@ Before Windows Vista, if the log truncation was not done, the engine considered
 #### Requirements
 
 
-| 
-|
+| Requirement | Value |
+|------------|----------|
 | <p><strong>Client</strong></p> | <p>Requires Windows Vista or Windows XP.</p> | 
 | <p><strong>Server</strong></p> | <p>Requires Windows Server 2008 or Windows Server 2003.</p> | 
 | <p><strong>Header</strong></p> | <p>Declared in Esent.h.</p> | 

@@ -84,8 +84,8 @@ When Resumed: JET_ERR JET_API JetStopServiceInstance2( instance, JET_bitStopServ
 #### Requirements
 
 
-| 
-|
+| Requirement | Value |
+|------------|----------|
 | <p><strong>Client</strong></p> | <p>Requires Windows 8.</p> | 
 | <p><strong>Server</strong></p> | <p>Requires Windows Server 2012.</p> | 
 | <p><strong>Header</strong></p> | <p>Declared in Esent.h.</p> | 
