@@ -10,8 +10,10 @@ ms.date: 05/31/2018
 
 The following topics demonstrate how an application can use the symbol handler functions.
 
+-   [Calling the DbgHelp Library](calling-the-dbghelp-library.md)
 -   [Initializing the Symbol Handler](initializing-the-symbol-handler.md)
 -   [Loading a Symbol Module](loading-a-symbol-module.md)
+-   [Getting Notifications](getting-notifications.md)
 -   [Enumerating Symbol Modules](enumerating-symbol-modules.md)
 -   [Enumerating Symbols](enumerating-symbols.md)
 -   [Retrieving Symbol Information by Name](retrieving-symbol-information-by-name.md)
