@@ -16,11 +16,11 @@ When the **Compression** member of the bitmap information header structure is BI
 
 
 
-| Value | Meaning                                                                                                                                                     |
-|-------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 0     | End of line.                                                                                                                                                |
-| 1     | End of bitmap.                                                                                                                                              |
-| 2     | Delta. The 2 bytes following the escape contain unsigned values indicating the horizontal and vertical offsets of the next pixel from the current position. |
+| Value | Meaning                                                                                                                                                |
+|-------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 0     | End of line.                                                                                                                                           |
+| 1     | End of bitmap.                                                                                                                                         |
+| 2     | Delta. The 2 bytes following the escape contain unsigned values indicating the offset to the right and up of the next pixel from the current position. |
 
 
 
@@ -46,7 +46,7 @@ The bitmap expands as follows (two-digit values represent a color index for a si
 06 06 06 06 06 
 45 56 67 
 78 78 
-move current position 5 right and 1 down 
+move current position 5 right and 1 up 
 78 78 
 end of line 
 1E 1E 1E 1E 1E 1E 1E 1E 1E 
@@ -78,7 +78,7 @@ The bitmap expands as follows (single-digit values represent a color index for a
 0 6 0 6 0 
 4 5 5 6 6 7 
 7 8 7 8 
-move current position 5 right and 1 down 
+move current position 5 right and 1 up 
 7 8 7 8 
 end of line 
 1 E 1 E 1 E 1 E 1 
