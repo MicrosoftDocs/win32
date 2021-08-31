@@ -38,7 +38,7 @@ The following table displays the Microsoft Schannel Provider support of TLS prot
 | Windows 10, version 20H2                              | Enabled        | Enabled        | Enabled        | Enabled        | Enabled        | Enabled        | Not supported  | Not supported  |
 | Windows 10, version 21H1                              | Enabled        | Enabled        | Enabled        | Enabled        | Enabled        | Enabled        | Not supported  | Not supported  |
 | Windows Server 2022                                   | Enabled        | Enabled        | Enabled        | Enabled        | Enabled        | Enabled        | Enabled        | Enabled        |
-
+| Windows 11                                            | Enabled        | Enabled        | Enabled        | Enabled        | Enabled        | Enabled        | Enabled        | Enabled        |
 
 ## DTLS protocol version support
 
@@ -64,6 +64,8 @@ The following lists the Microsoft Schannel Provider support of DTLS protocol ver
 | Windows 10, version 2004                              | Enabled         | Enabled         | Enabled         | Enabled         |
 | Windows 10, version 20H2                              | Enabled         | Enabled         | Enabled         | Enabled         |
 | Windows 10, version 21H1                              | Enabled         | Enabled         | Enabled         | Enabled         |
+| Windows Server 2022                                   | Enabled         | Enabled         | Enabled         | Enabled         |
+| Windows 11                                            | Enabled         | Enabled         | Enabled         | Enabled         |
 
 ## Pre-TLS standard protocols support
 
@@ -89,6 +91,8 @@ The following lists the Microsoft Schannel Provider support of pre-TLS standard 
 | Windows 10, version 2004                              | Not supported | Not supported | Not supported | Disabled    | Disabled    |
 | Windows 10, version 20H2                              | Not supported | Not supported | Not supported | Disabled    | Disabled    |
 | Windows 10, version 21H1                              | Not supported | Not supported | Not supported | Disabled    | Disabled    |
+| Windows Server 2022                                   | Not supported | Not supported | Not supported | Disabled    | Disabled    |
+| Windows 11                                            | Not supported | Not supported | Not supported | Disabled    | Disabled    |
 
 
 > [!IMPORTANT]
