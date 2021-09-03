@@ -13,7 +13,7 @@ The key to resource binding in DirectX 12 are the concepts of a *descriptor*, *d
 
 -   [Resources and the Graphics Pipeline](#resources-and-the-graphics-pipeline)
 -   [Resource types and views](#resource-types-and-views)
--   [Resource Binding Flow of Control](#resource-binding-overview)
+-   [Resource Binding Flow of Control](#Resource-Binding-Flow-of-Control)
 -   [Suballocation](#suballocation)
 -   [Freeing Resources](#freeing-resources)
 -   [Related topics](#related-topics)
