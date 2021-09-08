@@ -260,6 +260,29 @@ This notification is sent only to user-mode applications running in an interacti
  
 
 </dl> </dd> <dt>
+ 
+<span id="GUID_LIDSWITCH_STATE_CHANGE"></span><span id="guid_lidswitch_state_change"></span>**GUID\_LIDSWITCH\_STATE\_CHANGE**
+</dt> <dd> <dl> <dt>
+
+BA3E0F4D-B817-4094-A2D1-D56379E6A0F3
+</dt> <dt>
+
+
+
+Lid state changes.
+
+
+Specifies the current state of the lid (open or closed). The callback won't be called at all until a lid device is found and its current state is known.
+
+<dl> <dt>
+
+0x0 - closed.
+</dt> <dt>
+
+0x1 - opened.
+</dt> <dt>
+
+</dl> </dd> <dt>
 
 <span id="GUID_SYSTEM_AWAYMODE"></span><span id="guid_system_awaymode"></span>**GUID\_SYSTEM\_AWAYMODE**
 </dt> <dd> <dl> <dt>
