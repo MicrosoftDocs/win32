@@ -267,19 +267,14 @@ This notification is sent only to user-mode applications running in an interacti
 BA3E0F4D-B817-4094-A2D1-D56379E6A0F3
 </dt> <dt>
 
-
-
-Lid state changes.
-
-
-Specifies the current state of the lid (open or closed). The callback won't be called at all until a lid device is found and its current state is known.
+The state of the lid has changed (open or closed). The callback won't be called until a lid device is found and its current state is known.
 
 <dl> <dt>
 
-0x0 - closed.
+0x0 - The lid is closed.
 </dt> <dt>
 
-0x1 - opened.
+0x1 - The lid is opened.
 </dt> <dt>
 
 </dl> </dd> <dt>
