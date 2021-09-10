@@ -20,7 +20,7 @@ For this series, it is assumed that you have a good working knowledge of C++ pro
 
 | Topic                                                                                                     | Description                                                                                                          |
 |-----------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|
-| [Introduction to Windows Programming in C++](introduction-to-windows-programming-in-c--.md)<br/>   | This section describes some of the basic terminology and coding conventions used in Windows programming.<br/>  |
+| [Intro to Win32 programming in C++](introduction-to-windows-programming-in-c--.md)<br/>   | This section describes some of the basic terminology and coding conventions used in Windows programming.<br/>  |
 | [Module 1. Your First Windows Program](your-first-windows-program.md)<br/>                         | In this module, you will create a simple Windows program that shows a blank window.<br/>                       |
 | [Module 2. Using COM in Your Windows Program](module-2--using-com-in-your-windows-program.md)<br/> | This module introduces the Component Object Model (COM), which underlies many of the modern Windows APIs.<br/> |
 | [Module 3. Windows Graphics](module-3---windows-graphics.md)<br/>                                  | This module introduces the Windows graphics architecture, with a focus on Direct2D.<br/>                       |
