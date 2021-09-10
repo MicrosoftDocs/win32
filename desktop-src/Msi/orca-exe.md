@@ -3,7 +3,7 @@ description: Orca.exe is a database table editor for creating and editing Window
 ms.assetid: 4dddc262-1271-4e00-a986-53380b957b17
 title: Orca.exe
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 09/10/2021
 ---
 
 # Orca.exe
