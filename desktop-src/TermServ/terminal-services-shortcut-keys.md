@@ -7,7 +7,7 @@ keywords:
 - Remote Desktop Services Remote Desktop Services , shortcut keys
 - Remote Desktop Services Remote Desktop Services , keyboard shortcuts
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 09/10/2021
 ---
 
 # Remote Desktop Services Shortcut Keys
@@ -16,32 +16,15 @@ The following is a list of the Remote Desktop Services shortcut keys.
 
 A note regarding missing keys: Many compact keyboards do not contain some keys. For example, many laptops do not have a dedicated BREAK key. However, they usually have keyboard shortcuts that replace dedicated keys. These key replacements are specified by the manufacturer of the keyboard, so you may need to look up key replacements in the documentation provided by your keyboard or laptop manufacturer.
 
-There are two possible shortcut key combinations you can use on a remote desktop connection: the default Windows shortcut keys, or the shortcut keys originally designed for the remote desktop. You can set which shortcut keys you use on the local and remote machine through the Remote Desktop Connection client (ie, the dialog that appears when you click on the **Remote Desktop Connection** icon). From there, click **Show Options** (if you cannot see the options), and then click the **Local Resources** tab. In the **Apply Windows key combinations** drop-down, you have three options:
+There are two different sets of shortcut key combinations you can use on a remote desktop connection: the default Windows shortcut keys, or the shortcut keys originally designed for the remote desktop. You can set which shortcut keys you use on the local and remote machine through the Remote Desktop Connection client (ie, the dialog that appears when you click on the **Remote Desktop Connection** icon). From there, click **Show Options** (if you cannot see the options), and then click the **Local Resources** tab. In the **Apply Windows key combinations** drop-down, you have three options:
 
-<dl> <dt>
+| Option | Description |
+|--------|-------------|
+| **On this computer** | The default key combinations will work on your local machine only. You must use the alternate combinations on the remote desktop.|
+| **On the remote computer** | The default key combinations will work only on the remote desktop. You must use the alternate combinations on the local machine. Note that once you close down the Remote Desktop Connection, your local machine will once again use the default windows shortcuts. |
+| **Only when using the full screen** | The default key combinations will work on whichever machine has the full desktop; functionally, this means that the default key combinations work for the local machine, unless you have the Remote Desktop Connection window in full-screen mode. |
 
-<span id="On_this_computer"></span><span id="on_this_computer"></span><span id="ON_THIS_COMPUTER"></span>On this computer
-</dt> <dd>
-
-the default key combinations will work on your local machine only. You must use the alternate combinations on the remote desktop.
-
-</dd> <dt>
-
-<span id="On_the_remote_computer"></span><span id="on_the_remote_computer"></span><span id="ON_THE_REMOTE_COMPUTER"></span>On the remote computer
-</dt> <dd>
-
-The default key combinations will work only on the remote desktop. You must use the alternate combinations on the local machine. Note that once you close down the Remote Desktop Connection, your local machine will once again use the default windows shortcuts.
-
-</dd> <dt>
-
-<span id="Only_when_using_the_full_screen"></span><span id="only_when_using_the_full_screen"></span><span id="ONLY_WHEN_USING_THE_FULL_SCREEN"></span>Only when using the full screen
-</dt> <dd>
-
-The default key combinations will work on whichever machine has the full desktop; functionally, this means that the default key combinations work for the local machine, unless you have the Remote Desktop Connection window in full-screen mode.
-
-</dd> </dl>
-
-For more user information about Remote Desktop connection, See [Remote Desktop Connection: frequently asked questions](https://windows.microsoft.com/windows/remote-desktop-connection-faq#1TC=windows-8).
+For more user information about Remote Desktop connection, See [How to use Remote Desktop](https://windows.microsoft.com/windows/remote-desktop-connection-faq#1TC=windows-8).
 
 
 
