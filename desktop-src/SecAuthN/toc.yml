@@ -242,6 +242,8 @@
           - name: "Cipher Suites in TLS/SSL (Schannel SSP)"
             href: cipher-suites-in-schannel.md
             items: 
+            - name: "TLS Cipher Suites in Windows 11"
+              href: tls-cipher-suites-in-windows-11.md
             - name: "TLS Cipher Suites in Windows 10 v20H2 and v21H1"
               href: tls-cipher-suites-in-windows-10-v20H2.md
             - name: "TLS Cipher Suites in Windows Server 2022"
