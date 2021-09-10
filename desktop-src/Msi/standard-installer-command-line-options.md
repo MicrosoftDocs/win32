@@ -1,5 +1,5 @@
 ---
-description: Here are standard command-line options for the Windows Installer (Msiexec.exe), the executable used for interpreting packages and installing programs. 
+description: Here are standard command-line options for the Microsoft Standard Installer (Msiexec.exe), the executable used for interpreting packages and installing programs. 
 ms.assetid: b1707c88-1cca-45ab-bb23-6002bfd5204e
 title: Microsoft Standard Installer Command-Line Options
 ms.topic: article
