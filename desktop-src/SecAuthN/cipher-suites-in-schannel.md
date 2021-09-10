@@ -3,7 +3,7 @@ description: A cipher suite is a set of cryptographic algorithms.
 ms.assetid: 513e5e73-12f8-4b64-86e4-179518c3582d
 title: Cipher Suites in TLS/SSL (Schannel SSP)
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 09/10/2021
 ---
 
 # Cipher Suites in TLS/SSL (Schannel SSP)
@@ -56,14 +56,11 @@ Different Windows versions support different TLS cipher suites and priority orde
 
 **Windows Server 2003 and Windows XP:** For information about supported cipher suites, see the following topics.
 
-| Topic                                                                         | Description                                                                                                                        |
-|-------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------|
-| [TLS Cipher Suites](tls-cipher-suites.md)<br/>                         | Information about the cipher suites available with the TLS protocol in Windows Server 2003 and Windows XP.<br/>              |
-| [Secure Sockets Layer Protocol](secure-sockets-layer-protocol.md)<br/> | General information about SSL 2.0 and 3.0, including the available cipher suites in Windows Server 2003 and Windows XP.<br/> |
+| Topic | Description |
+| ----- | ----- |
+| [TLS Cipher Suites](tls-cipher-suites.md) | Information about the cipher suites available with the TLS protocol in Windows Server 2003 and Windows XP. |
+| [Secure Sockets Layer Protocol](secure-sockets-layer-protocol.md) | General information about SSL 2.0 and 3.0, including the available cipher suites in Windows Server 2003 and Windows XP. |
 
-
-
- 
 
 > [!Note]  
 > Prior to Windows 10, cipher suite strings were appended with the elliptic curve to determine the curve priority. Windows 10 supports an elliptic curve priority order setting so the elliptic curve suffix is not required and is overridden by the new elliptic curve priority order, when provided, to allow organizations to use group policy to configure different versions of Windows with the same cipher suites.
