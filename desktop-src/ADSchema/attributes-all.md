@@ -4,7 +4,7 @@ description: The following attributes are defined by Active Directory.
 ms.assetid: 3df1ed0a-8c92-41cf-9478-95e59b50c471
 ms.tgt_platform: multiple
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 09/10/2021
 ---
 
 # All Attributes
