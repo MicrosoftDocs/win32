@@ -8,7 +8,7 @@ keywords:
 - Developing with Task Scheduler
 - Task Scheduler, portal page
 ms.topic: article
-ms.date: 10/18/2019
+ms.date: 09/09/2021
 ---
 
 # Task Scheduler for developers
