@@ -3,7 +3,7 @@ description: Direct3D is a low-level API for drawing primitives with the renderi
 ms.assetid: 193640FE-7E88-4BC4-B4CD-867169375F2B
 title: Direct3D
 ms.topic: article
-ms.date: 02/07/2020
+ms.date: 09/10/2021
 ---
 
 # Direct3D
