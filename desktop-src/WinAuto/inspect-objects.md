@@ -6,7 +6,7 @@ keywords:
 - Inspect Tool
 - Accessibility
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 09/10/2021
 ---
 
 # Accessibility tools - Inspect
@@ -14,7 +14,7 @@ ms.date: 05/31/2018
 > [!Important]
 > **Inspect** is a legacy tool. We recommend using [Accessibility Insights](https://accessibilityinsights.io/) instead.
 
-**Inspect** (Inspect.exe) is a Windows-based tool that enables you select any UI element and view the element's accessibility data. You can view Microsoft UI Automation properties and control patterns, as well as Microsoft Active Accessibility properties. **Inspect** also enables you to test the navigational structure of the automation elements in the UI Automation tree, and the accessible objects in the Microsoft Active Accessibility hierarchy.
+**Inspect** (Inspect.exe) is a Windows-based tool that enables you select any UI element and view the element's accessibility data. You can view Microsoft UI Automation properties and control patterns, as well as Microsoft Active Accessibility (MSAA) properties. **Inspect** also enables you to test the navigational structure of the automation elements in the UI Automation tree, and the accessible objects in the Microsoft Active Accessibility hierarchy.
 
 ## Requirements
 
@@ -49,11 +49,11 @@ When you start **Inspect**, the **Tree** view shows the location of the currentl
 
 To navigate among UI elements, you can use any of the following:
 
-- The mouse
-- The keyboard
-- The tree-view control in the **Tree** view
-- The navigation options in the **Navigation** menu
-- The navigation options in the toolbar
+- The mouse.
+- The keyboard.
+- The tree-view control in the **Tree** view.
+- The navigation options in the **Navigation** menu.
+- The navigation options in the toolbar.
 
 The last three options enable you to navigate the tree hierarchy of the UI. The structure of this tree may differ slightly between UI Automation and Microsoft Active Accessibility modes.
 
