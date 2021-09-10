@@ -7,7 +7,7 @@ keywords:
 - Windows Remote Management (WinRM), Start Page
 - WS-Management
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 09/10/2021
 topic_type: 
 - kbOrient
 api_name: 
@@ -17,13 +17,13 @@ api_location:
 
 # Windows Remote Management
 
-## Purpose
+## What is WinRM?
 
 Windows Remote Management (WinRM) is the Microsoft implementation of [WS-Management Protocol](ws-management-protocol.md), a standard Simple Object Access Protocol (SOAP)-based, firewall-friendly protocol that allows hardware and operating systems, from different vendors, to interoperate.
 
-The WS-Management protocol specification provides a common way for systems to access and exchange management information across an IT infrastructure. WinRM and [*Intelligent Platform Management Interface (IPMI)*](windows-remote-management-glossary.md), along with the [Event Collector](/previous-versions/windows/it-pro/windows-server-2003/cc785056(v=ws.10)) are components of the [Windows Hardware Management](/previous-versions/windows/it-pro/windows-server-2003/cc785056(v=ws.10)) features.
+The WS-Management protocol specification provides a common way for systems to access and exchange management information across an IT infrastructure. WinRM and [*Intelligent Platform Management Interface (IPMI)*](windows-remote-management-glossary.md#i), along with the [Event Collector](/previous-versions/windows/it-pro/windows-server-2003/cc785056(v=ws.10)#event-collector) are components of the [Windows Hardware Management](/previous-versions/windows/it-pro/windows-server-2003/cc785056(v=ws.10)) features.
 
-## Where applicable
+## Where can I use WinRM?
 
 You can use WinRM scripting objects, the WinRM command-line tool, or the Windows Remote Shell command line tool WinRS to obtain management data from local and remote computers that may have [*baseboard management controllers (BMCs)*](windows-remote-management-glossary.md). If the computer runs a Windows-based operating system version that includes WinRM, the management data is supplied by [Windows Management Instrumentation (WMI)](/windows/desktop/WmiSdk/wmi-start-page).
 
@@ -31,39 +31,24 @@ You can also obtain hardware and system data from WS-Management protocol impleme
 
 The [Intelligent Platform Management Interface (IPMI)](/previous-versions/windows/desktop/ipmiprv/ipmi-provider) WMI provider is a standard WMI provider with classes that obtain BMC sensor data from computers with appropriate hardware. IPMI data can be accessed using the WinRM scripting API, the WMI [Scripting](/windows/desktop/WmiSdk/scripting-api-for-wmi), or [COM](/windows/desktop/WmiSdk/com-api-for-wmi) APIs.
 
-## Developer audience
+## Who is this for?
 
-The developer audience is the IT Pro who writes scripts to automate the management of servers or the ISV developer obtaining data for management applications.
+The intended audience for Windows Remote Management is IT Pros, who write scripts to automate the management of servers, and ISV (Independent Software Vendor) developers, who want to obtain data for management applications.
 
 ## Run-time requirements
 
 WinRM is part of the operating system. However, to obtain data from remote computers, you must configure a WinRM [*listener*](windows-remote-management-glossary.md#l). For more information, see [Installation and Configuration for Windows Remote Management](installation-and-configuration-for-windows-remote-management.md). If a BMC is detected at system startup, then the IPMI provider loads; otherwise, the WinRM scripting objects and the WinRM command-line tool are still available.
 
-## In this section
-
-<dl> <dt>
+## Learn more
 
 [About Windows Remote Management](about-windows-remote-management.md)
-</dt> <dd>
 
 Link to public WS-Management protocol specification, WinRM architecture, relationship to WMI, hardware management with the IPMI provider, configuration and installation.
 
-</dd> <dt>
-
 [Using Windows Remote Management](using-windows-remote-management.md)
-</dt> <dd>
 
 Getting started using the WinRM scripting API and hardware management.
 
-</dd> <dt>
-
 [Windows Remote Management Reference](windows-remote-management-reference.md)
-</dt> <dd>
 
 List of scripting interfaces defined by Microsoft Web Services for Management (WS-Management) Automation and class definitions of the WMI classes created by the IPMI provider and classes that communicate with the IPMI driver to obtain [baseboard management controller (BMC)](windows-remote-management-glossary.md) data.
-
-</dd> </dl>
-
- 
-
- 
