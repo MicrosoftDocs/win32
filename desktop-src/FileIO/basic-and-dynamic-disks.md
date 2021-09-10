@@ -3,7 +3,7 @@ description: Describes two disk storage types and discusses partition styles.
 ms.assetid: 5d511654-92e0-4236-80e7-bb2417403186
 title: Basic and Dynamic Disks
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 09/10/2021
 ---
 
 # Basic and Dynamic Disks
