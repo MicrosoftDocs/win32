@@ -33,7 +33,7 @@ The [Intelligent Platform Management Interface (IPMI)](/previous-versions/window
 
 ## Who is this for?
 
-The target audience for Windows Remote Management are IT Pros, who write scripts to automate the management of servers, or ISV (Independent Software Vendor) developers, who want to obtain data for management applications.
+The intended audience for Windows Remote Management is IT Pros, who write scripts to automate the management of servers, and ISV (Independent Software Vendor) developers, who want to obtain data for management applications.
 
 ## Run-time requirements
 
