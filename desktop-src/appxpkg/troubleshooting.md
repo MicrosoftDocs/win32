@@ -3,7 +3,7 @@ title: Troubleshooting packaging, deployment, and query of Windows apps
 description: Use these suggestions to troubleshoot problems you experience when packaging, deploying, or querying an app package.
 ms.assetid: 38E327C6-0345-4FA6-BCDB-5FA2FCD421FB
 ms.topic: article
-ms.date: 02/20/2020
+ms.date: 09/10/2021
 manager: dcscontentpm
 ms.custom: 
 - CI 111497
@@ -58,7 +58,7 @@ This table lists some of the most common error codes. If you need further help w
 |------------|-------|---------------------------------|
 | <strong>E_FILENOTFOUND</strong> | 0x80070002 | File or path is not found. This can occur during a COM  typelib validation requires that the path for the directory actually exist within your MSIX package.<br /> | 
 | <strong>ERROR_BAD_FORMAT</strong> | 0x8007000B | The package isn't correctly formatted and needs to be re-built or re-signed.<br /> You may get this error if there is a mismatch between the signing certificate subject name and the AppxManifest.xml publisher name.<br /> See <a href="how-to-sign-a-package-using-signtool.md">How to sign an app package using SignTool</a>.<br /> | 
-| <strong>E_INVALIDARG</strong> | 0x80070057 | One or more arguments are not valid. If you check the AppXDeployment-Server event log and see the following event: "While installing the package, the system failed to register the windows.repositoryExtension extension due to the following error: The parameter is incorrect." <br /> You may get this error if the manifest elements DisplayName or Description contain characters disallowed by Windows firewall; namely  |  and  all , due to which Windows fails to create the AppContainer profile for the package. Please remove these characters from the manifest and try installing the package. <br /> | 
+| <strong>E_INVALIDARG</strong> | 0x80070057 | One or more arguments are not valid. If you check the AppXDeployment-Server event log and see the following event: "While installing the package, the system failed to register the windows.repositoryExtension extension due to the following error: The parameter is incorrect." <br /> You may get this error if the manifest elements DisplayName or Description contain characters disallowed by Windows firewall such as `|`, due to which Windows fails to create the AppContainer profile for the package. Please remove these characters from the manifest and try installing the package. <br /> | 
 | <strong>ERROR_INSTALL_OPEN_</strong><br /><strong>PACKAGE_FAILED</strong><br /> | 0x80073CF0 | The package couldn't be opened.<br /> Possible causes:<br /><ul><li>The package is unsigned.</li><li>The publisher name doesn't match the signing certificate subject.</li><li>The file:// prefix is missing or the package couldn't be found at the specified location.</li></ul>For more information, check the <strong>AppxPackagingOM</strong> event log.<br /> | 
 | <strong>ERROR_INSTALL_PACKAGE_</strong><br /><strong>NOT_FOUND</strong><br /> | 0x80073CF1 | The package couldn't be found.<br /> You may get this error while removing a package that isn't installed for the current user.<br /> | 
 | <strong>ERROR_INSTALL_INVALID_</strong><br /><strong>PACKAGE</strong><br /> | 0x80073CF2 | The package data isn't valid.<br /> | 
@@ -153,7 +153,7 @@ This table lists some of the most common error codes. If you need further help w
 
 ## Applications don't start and their names are dimmed
 
-On a Windows 10-based computer, you cannot start some applications, and the application names appear dimmed.
+On a computer running Windows 10 or later, you can't start some applications, and the application names appear dimmed.
 
 ![Some application names appear dimmed in the Start menu](./images/app-names-dimmed.png)
 
