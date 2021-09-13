@@ -2989,6 +2989,24 @@
           href: mf-mt-compressed-attribute.md
         - name: "MF_MT_CUSTOM_VIDEO_PRIMARIES"
           href: mf-mt-custom-video-primaries-attribute.md
+        - name: MF_MT_D3D_RESOURCE_VERSION
+          href: mf-mt-d3d-resource-version.md
+        - name: MF_MT_D3D12_CPU_READBACK
+          href: mf-mt-d3d12-cpu-readback.md
+        - name: MF_MT_D3D12_RESOURCE_FLAG_ALLOW_CROSS_ADAPTER
+          href: mf-mt-d3d12-resource-flag-allow-cross-adapter.md
+        - name: MF_MT_D3D12_RESOURCE_FLAG_ALLOW_DEPTH_STENCIL
+          href: mf-mt-d3d12-resource-flag-allow-depth-stencil.md
+        - name: MF_MT_D3D12_RESOURCE_FLAG_ALLOW_RENDER_TARGET
+          href: mf-mt-d3d12-resource-flag-allow-render-target.md
+        - name: MF_MT_D3D12_RESOURCE_FLAG_ALLOW_SIMULTANEOUS_ACCESS
+          href: mf-mt-d3d12-resource-flag-allow-simultaneous-access.md
+        - name: MF_MT_D3D12_RESOURCE_FLAG_ALLOW_UNORDERED_ACCESS
+          href: mf-mt-d3d12-resource-flag-allow-unordered-access.md
+        - name: MF_MT_D3D12_RESOURCE_FLAG_DENY_SHADER_RESOURCE
+          href: mf-mt-d3d12-resource-flag-deny-shader-resource.md
+        - name: MF_MT_D3D12_TEXTURE_LAYOUT
+          href: mf-mt-d3d12-texture-layout.md
         - name: "MF_MT_DEFAULT_STRIDE"
           href: mf-mt-default-stride-attribute.md
         - name: "MF_MT_DEPTH_MEASUREMENT"
@@ -3271,6 +3289,12 @@
           href: mf-sa-d3d11-shared-without-mutex.md
         - name: "MF_SA_D3D11_USAGE"
           href: mf-sa-d3d11-usage.md
+        - name: MF_SA_D3D12_CLEAR_VALUE
+          href: mf-sa-d3d12-clear-value.md
+        - name: MF_SA_D3D12_HEAP_FLAGS
+          href: mf-sa-d3d12-heap-flags.md
+        - name: MF_SA_D3D12_HEAP_TYPE
+          href: mf-sa-d3d12-heap-type.md
         - name: "MF_SA_MINIMUM_OUTPUT_SAMPLE_COUNT"
           href: mf-sa-minimum-output-sample-count.md
         - name: "MF_SA_MINIMUM_OUTPUT_SAMPLE_COUNT_PROGRESSIVE"
@@ -3659,6 +3683,8 @@
         href: capture-device-attributes.md
       - name: "Capture Engine Attributes"
         href: capture-engine-attributes.md
+      - name: "Direct3D 12 Attributes"
+        href: d3d12-attributes.md
       - name: "Event Attributes"
         href: event-attributes.md
       - name: "EVR Attributes"
@@ -3716,6 +3742,8 @@
         href: imftexttrack-data-formats.md
       - name: "Content Decryption Module (CDM) GUIDs"
         href: content-decryption-module-guids.md
+      - name: "Direct3D 12 Media Foundation GUIDs"
+        href: d3d12-mf-guids.md
     - name: "Media Foundation Datatypes"
       href: media-foundation-datatypes.md
       items: 
