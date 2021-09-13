@@ -13,7 +13,7 @@ This topic describes recording command lists and bundles in Direct3D 12 apps. C
 
 Beyond command lists, the API exploits functionality present in GPU hardware by adding a second level of command lists, which are referred to as *bundles*. The purpose of bundles is to allow apps to group a small number of API commands together for later execution. At bundle creation time, the driver will perform as much pre-processing as is possible to make these cheap to execute later. Bundles are designed to be used and re-used any number of times. Command lists, on the other hand, are typically executed only a single time. However, a command list *can* be executed multiple times (as long as the application ensures that the previous executions have completed before submitting new executions).
 
-Typically though, the build up of API calls into bundles, and API calls and bundles into command lists, and command lists into a single frame, is shown in the following diagram, noting the reuse of **Bundle 1** in**Command list 1** and **Command list 2**, and that the API method names in the diagram are just as examples, many different API calls can be used.
+Typically though, the build up of API calls into bundles, and API calls and bundles into command lists, and command lists into a single frame, is shown in the following diagram, noting the reuse of **Bundle 1** in **Command list 1** and **Command list 2**, and that the API method names in the diagram are just as examples, many different API calls can be used.
 
 ![building commands, bundles and command lists into frames](images/gpu-workitems.png)
 
