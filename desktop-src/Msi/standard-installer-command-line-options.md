@@ -1,172 +1,143 @@
 ---
-description: Standard command-line options for msiexec.exe for Windows Installer 3.0 and later. Provides a table showing options, parameters, and descriptions.
+description: Here are standard command-line options for the Microsoft Standard Installer (Msiexec.exe), the executable used for interpreting packages and installing programs. 
 ms.assetid: b1707c88-1cca-45ab-bb23-6002bfd5204e
-title: Standard Installer Command-Line Options
+title: Microsoft Standard Installer Command-Line Options
 ms.topic: article
 ms.date: 09/10/2021
 ---
 
-# Standard Installer Command-Line Options
+# Microsoft Standard Installer Command-Line Options
 
-The executable program that interprets packages and installs products is Msiexec.exe.
+Here are standard command-line options for the Microsoft Standard Installer (Msiexec.exe), the executable used to interpret packages and install products.
 
-> [!Note]  
-> Msiexec also sets an error level on return that corresponds to [System Error Codes](../debug/system-error-codes.md).
+Command-line options are case insensitive.
 
- 
+Msiexec  sets an error level on return that corresponds to [System Error Codes](../debug/system-error-codes.md).
 
-The following table identifies the standard command-line options for this program. Command-line options are case insensitive.
+> [!NOTE]
+> The command-line options that are identified in this topic are available beginning with Windows Installer 3.0. The Windows Installer [Command-Line Options](command-line-options.md) are available with Windows Installer 3.0 and earlier versions.
 
-**Windows Installer 2.0:** The command-line options that are identified in this topic are available beginning with Windows Installer 3.0. The Windows Installer [Command-Line Options](command-line-options.md) are available with Windows Installer 3.0 and earlier versions.
+## /help
 
-<table>
-<colgroup>
-<col  />
-<col  />
-<col  />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Option</th>
-<th>Parameters</th>
-<th>Meaning</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>/help</strong></td>
-<td> </td>
-<td>Help and quick reference option. Displays the correct usage of the setup command including a list of all switches and behavior. The description of usage can be displayed in the user interface. Incorrect use of any option invokes this help option.<br/> Example: <strong>msiexec /help</strong><br/>
-<blockquote>
-[!Note]<br />
-The equivalent Windows Installer <a href="command-line-options.md">Command-Line Option</a> is <strong>/?</strong>.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td><strong>/quiet</strong></td>
-<td> </td>
-<td>Quiet display option. The installer runs an installation without displaying a user interface. No prompts, messages, or dialog boxes are displayed to the user. The user cannot cancel the installation. Use the <strong>/norestart</strong> or <strong>/forcerestart</strong> standard command-line options to control reboots. If no reboot options are specified, the installer restarts the computer whenever necessary without displaying any prompt or warning to the user.<br/> Examples: <br/> <strong>msiexec /package Application.msi /quiet</strong><br/> <strong>Msiexec /uninstall Application.msi /quiet</strong><br/> <strong>Msiexec /update msipatch.msp /quiet</strong><br/> <strong>Msiexec /uninstall msipatch.msp /package Application.msi / quiet</strong><br/>
-<blockquote>
-[!Note]<br />
-The equivalent Windows Installer <a href="command-line-options.md">Command-Line Option</a> is <strong>/qn</strong>.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="odd">
-<td><strong>/passive</strong></td>
-<td> </td>
-<td>Passive display option. The installer displays a progress bar to the user that indicates that an installation is in progress but no prompts or error messages are displayed to the user. The user cannot cancel the installation. Use the <strong>/norestart</strong> or <strong>/forcerestart</strong> standard command-line options to control reboots. If no reboot option is specified, the installer restarts the computer whenever necessary without displaying any prompt or warning to the user. <br/> Example: <strong>msiexec /package Application.msi /passive</strong> <br/>
-<blockquote>
-[!Note]<br />
-The equivalent Windows Installer <a href="command-line-options.md">Command-Line Option</a> is <strong>/qb!-</strong> with <a href="rebootprompt.md"><strong>REBOOTPROMPT</strong></a>=S set on the command line.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td><strong>/norestart</strong></td>
-<td> </td>
-<td>Never restart option. The installer never restarts the computer after the installation.<br/> Example: msiexec /package Application.msi <strong>/norestart</strong><br/>
-<blockquote>
-[!Note]<br />
-The equivalent Windows Installer command line has <a href="reboot.md"><strong>REBOOT</strong></a>=ReallySuppress set on the command line.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="odd">
-<td><strong>/forcerestart</strong></td>
-<td> </td>
-<td>Always restart option. The installer always restarts the computer after every installation.<br/> Example: msiexec /package Application.msi <strong>/forcerestart</strong><br/>
-<blockquote>
-[!Note]<br />
-The equivalent Windows Installer command line has <a href="reboot.md"><strong>REBOOT</strong></a>=Force set on the command line.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td><strong>/promptrestart</strong></td>
-<td> </td>
-<td>Prompt before restarting option. Displays a message that a restart is required to complete the installation and asks the user whether to restart the system now. This option cannot be used together with the <strong>/quiet</strong> option.<br/>
-<blockquote>
-[!Note]<br />
-The equivalent Windows Installer command line has <a href="rebootprompt.md"><strong>REBOOTPROMPT</strong></a> = &quot;&quot; set on the command line.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="odd">
-<td><strong>/uninstall</strong></td>
-<td><em>&lt;Package.msi|ProductCode></em></td>
-<td>Uninstall product option. Uninstalls a product.<br/>
-<blockquote>
-[!Note]<br />
-The equivalent Windows Installer <a href="command-line-options.md">Command-Line Option</a> is <strong>/x</strong>.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td><strong>/uninstall</strong></td>
-<td><em>/package &lt;Package.msi | ProductCode> /uninstall <Update1.msp | PatchGUID1>[;Update2.msp | PatchGUID2]</em></td>
-<td>Uninstall update option. Uninstalls an update patch.<br/>
-<blockquote>
-[!Note]<br />
-The equivalent Windows Installer <a href="command-line-options.md">Command-Line Option</a> is <strong>/I</strong> with <a href="msipatchremove.md"><strong>MSIPATCHREMOVE</strong></a>=Update1.msp | PatchGUID1[;Update2.msp | PatchGUID2] set on the command line.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="odd">
-<td><strong>/log</strong></td>
-<td><em><logfile></em></td>
-<td>Log option. Writes logging information into a log file at the specified existing path. The path to the log file location must already exist. The installer does not create the directory structure for the logfile.<br/> The following information is entered into the log:<br/>
-<ul>
-<li>Status messages</li>
-<li>Nonfatal warnings</li>
-<li>All error messages</li>
-<li>Start up of actions</li>
-<li>Action-specific records</li>
-<li>User requests</li>
-<li>Initial UI parameters</li>
-<li>Out-of-memory or fatal exit information</li>
-<li>Out-of-disk-space messages</li>
-<li>Terminal properties</li>
-</ul>
-<blockquote>
-[!Note]<br />
-The equivalent Windows Installer <a href="command-line-options.md">Command-Line Option</a> is <strong>/L*</strong>.
-</blockquote>
-<br/>
-<blockquote>
-[!Note]<br />
-For more information about all the methods that are available for setting the logging mode, see <a href="normal-logging.md">Normal Logging</a> in the <a href="windows-installer-logging.md">Windows Installer Logging</a> section.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td><strong>/package</strong></td>
-<td><em>&lt;Package.msi|ProductCode></em></td>
-<td>Install product option. Installs or configures a product.<br/>
-<blockquote>
-[!Note]<br />
-The equivalent Windows Installer <a href="command-line-options.md">Command-Line Option</a> is <strong>/I</strong>.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="odd">
-<td><strong>/update</strong></td>
-<td><em><Update1.msp>[;Update2.msp]</em></td>
-<td>Install patches option. Installs one or multiple patches. <br/>
-<blockquote>
-[!Note]<br />
-The equivalent Windows Installer command line has <a href="patch.md"><strong>PATCH</strong></a> = [msipatch.msp]<;PatchGuid2> set on the command line.
-</blockquote>
-<br/></td>
-</tr>
-</tbody>
-</table>
+Help and quick reference option. Displays the correct usage of the setup command including a list of all switches and behavior. The description of usage can be displayed in the user interface. Incorrect use of any option invokes this help option.
+
+The equivalent Windows Installer Command-Line Option is: `/?`.
+
+### Examples
+
+`Msiexec /help`.
+
+## /quiet
+
+Quiet display option. The installer runs an installation without displaying a user interface. No prompts, messages, or dialog boxes are displayed to the user. The user cannot cancel the installation.
+
+Use the `/norestart` or `/forcerestart` standard command-line options to control reboots. If no reboot options are specified, the installer restarts the computer whenever necessary without displaying any prompt or warning to the user.
+
+The equivalent Windows Installer Command-Line Option is: `/qn`.
+
+### Examples
+
+`Msiexec /package Application.msi /quiet`
+
+`Msiexec /uninstall Application.msi /quiet`
+
+`Msiexec /update msipatch.msp /quiet`
+
+`Msiexec /uninstall msipatch.msp /package  Application.msi / quiet`
+
+## /passive
+
+Passive display option. The installer displays a progress bar to the user that indicates that an installation is in progress but no prompts or error messages are displayed to the user. The user cannot cancel the installation.
+
+Use the `/norestart` or `/forcerestart` standard command-line options to control reboots. If no reboot option is specified, the installer restarts the computer whenever necessary without displaying any prompt or warning to the user.
+
+ The equivalent Windows Installer Command-Line Option is: `/qb!`- with `REBOOTPROMPT=S` set on the command line.
+
+### Examples
+`msiexec /package Application.msi /passive`
+
+## /norestart
+Never restart option. The installer never restarts the computer after the installation.
+
+The equivalent Windows Installer command line has `REBOOT=ReallySuppress` set on the command line.
+
+### Examples
+`msiexec /package Application.msi /norestart`.
+
+## /forcerestart
+
+Always restart option. The installer always restarts the computer after every installation.
+
+The equivalent Windows Installer command line has `REBOOT=Force` set on the command line.
+
+### Examples
+
+`msiexec /package Application.msi /forcerestart`
+
+## /promptrestart
+
+Prompt before restarting option. Displays a message that a restart is required to complete the installation and asks the user whether to restart the system now. This option cannot be used together with the `/quiet` option.
+
+The equivalent Windows Installer command line has `REBOOTPROMPT = ""` set on the command line.
+
+## /uninstall (product)
+
+Uninstall product option. Uninstalls a product.
+
+The equivalent Windows Installer Command-Line Option is `/x.`
+
+### Parameters
+
+*<Package.msi|ProductCode>*
 
 
+## /uninstall (patch)
 
- 
+Uninstall update option. Uninstalls an update patch.
 
- 
+The equivalent Windows Installer Command-Line Option is: `/I` with `MSIPATCHREMOVE=Update1.msp | PatchGUID1[;Update2.msp | PatchGUID2]` set on the command line.
 
- 
+### Parameters
+
+*/package <Package.msi | ProductCode> /uninstall [;Update2.msp | PatchGUID2]*
+
+## /log
+
+Log option. Writes logging information into a log file at the specified existing path. The path to the log file location must already exist. The installer does not create the directory structure for the logfile.
+
+For more information about all the methods that are available for setting the logging mode, see [Normal Logging](normal-logging.md)  Windows Installer.
+
+The equivalent Windows Installer Command-Line Option is: `/L*`.
+
+The following information is entered into the log:
+
+- Status messages
+- Nonfatal warnings
+- All error messages
+- Start up of actions
+- Action-specific records
+- User requests
+- Initial UI parameters
+- Out-of-memory or fatal exit information
+- Out-of-disk-space messages
+- Terminal properties
+
+## /package
+
+Install product option. Installs or configures a product.
+
+The equivalent Windows Installer Command-Line Option is: `/I`.
+
+### Parameters
+
+*<Package.msi|ProductCode>*
+
+## /update
+
+Install patches option. Installs one or multiple patches.
+
+The equivalent Windows Installer command line has PATCH = [msipatch.msp]<;PatchGuid2> set on the command line.
+
+### Parameters
+
+*[;Update2.msp]*
