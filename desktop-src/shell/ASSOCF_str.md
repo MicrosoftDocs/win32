@@ -15,9 +15,35 @@ Provides information to the [**IQueryAssociations**](/windows/win32/api/shlwapi/
 
 
 
-| C++ | 
-|-----|
-| <pre><code>typedef enum  {   ASSOCF_NONE                  = 0x00000000,  ASSOCF_INIT_NOREMAPCLSID     = 0x00000001,  ASSOCF_INIT_BYEXENAME        = 0x00000002,  ASSOCF_OPEN_BYEXENAME        = 0x00000002,  ASSOCF_INIT_DEFAULTTOSTAR    = 0x00000004,  ASSOCF_INIT_DEFAULTTOFOLDER  = 0x00000008,  ASSOCF_NOUSERSETTINGS        = 0x00000010,  ASSOCF_NOTRUNCATE            = 0x00000020,  ASSOCF_VERIFY                = 0x00000040,  ASSOCF_REMAPRUNDLL           = 0x00000080,  ASSOCF_NOFIXUPS              = 0x00000100,  ASSOCF_IGNOREBASECLASS       = 0x00000200,  ASSOCF_INIT_IGNOREUNKNOWN    = 0x00000400,  ASSOCF_INIT_FIXED_PROGID     = 0x00000800,  ASSOCF_IS_PROTOCOL           = 0x00001000,  ASSOCF_INIT_FOR_FILE         = 0x00002000} ASSOCF;</code></pre> | 
+<table>
+ <tr><th>C++</th></tr>
+ <tr>
+   <td>
+
+```c
+typedef enum  {
+    ASSOCF_NONE                  = 0x00000000,  
+    ASSOCF_INIT_NOREMAPCLSID     = 0x00000001,  
+    ASSOCF_INIT_BYEXENAME        = 0x00000002,  
+    ASSOCF_OPEN_BYEXENAME        = 0x00000002,  
+    ASSOCF_INIT_DEFAULTTOSTAR    = 0x00000004,  
+    ASSOCF_INIT_DEFAULTTOFOLDER  = 0x00000008,  
+    ASSOCF_NOUSERSETTINGS        = 0x00000010,  
+    ASSOCF_NOTRUNCATE            = 0x00000020,  
+    ASSOCF_VERIFY                = 0x00000040,  
+    ASSOCF_REMAPRUNDLL           = 0x00000080,  
+    ASSOCF_NOFIXUPS              = 0x00000100,  
+    ASSOCF_IGNOREBASECLASS       = 0x00000200,  
+    ASSOCF_INIT_IGNOREUNKNOWN    = 0x00000400,  
+    ASSOCF_INIT_FIXED_PROGID     = 0x00000800,  
+    ASSOCF_IS_PROTOCOL           = 0x00001000,  
+    ASSOCF_INIT_FOR_FILE         = 0x00002000
+} ASSOCF;
+```
+    
+   </td>
+ </tr>
+</table>
 
 
 
