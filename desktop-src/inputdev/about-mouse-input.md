@@ -157,8 +157,6 @@ The *lParam* parameter of a client area mouse message indicates the position of 
 
 The *wParam* parameter contains flags that indicate the status of the other mouse buttons and the CTRL and SHIFT keys at the time of the mouse event. You can check for these flags when mouse-message processing depends on the state of another mouse button or of the CTRL or SHIFT key. The *wParam* parameter can be a combination of the following values.
 
-
-
 | Value            | Description                      |
 |------------------|----------------------------------|
 | **MK\_CONTROL**  | The CTRL key is down.            |
@@ -168,10 +166,6 @@ The *wParam* parameter contains flags that indicate the status of the other mous
 | **MK\_SHIFT**    | The SHIFT key is down.           |
 | **MK\_XBUTTON1** | The first X button is down.      |
 | **MK\_XBUTTON2** | The second X button is down.     |
-
-
-
- 
 
 ### Double-Click Messages
 
@@ -206,42 +200,34 @@ The *wParam* parameter contains a hit-test value, a value that indicates where i
 
 Whenever a mouse event occurs, the system sends a [**WM\_NCHITTEST**](wm-nchittest.md) message to either the window that contains the cursor hot spot or the window that has captured the mouse. The system uses this message to determine whether to send a client area or nonclient area mouse message. An application that must receive mouse movement and mouse button messages must pass the **WM\_NCHITTEST** message to the [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) function.
 
-The *lParam* parameter of the [**WM\_NCHITTEST**](wm-nchittest.md) message contains the screen coordinates of the cursor hot spot. The [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) function examines the coordinates and returns a hit-test value that indicates the location of the hot spot. The hit-test value can be one of the following values.
+The *lParam* parameter of the [**WM\_NCHITTEST**](wm-nchittest.md) message contains the screen coordinates of the cursor hot spot. The [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) function examines the coordinates and returns a hit-test value that indicates the location of the hot spot. Possible hit-test values are [listed here](wm-nchittest.md).
 
-
-
-| Value             | Location of hot spot                                                                                                                                                                                |
-|-------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **HTBORDER**      | In the border of a window that does not have a sizing border.                                                                                                                                       |
-| **HTBOTTOM**      | In the lower-horizontal border of a window.                                                                                                                                                         |
-| **HTBOTTOMLEFT**  | In the lower-left corner of a window border.                                                                                                                                                        |
-| **HTBOTTOMRIGHT** | In the lower-right corner of a window border.                                                                                                                                                       |
-| **HTCAPTION**     | In a title bar.                                                                                                                                                                                     |
-| **HTCLIENT**      | In a client area.                                                                                                                                                                                   |
-| **HTCLOSE**       | In a **Close** button.                                                                                                                                                                              |
-| **HTERROR**       | On the screen background or on a dividing line between windows (same as HTNOWHERE, except that the [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) function produces a system beep to indicate an error). |
-| **HTGROWBOX**     | In a size box (same as **HTSIZE**).                                                                                                                                                                 |
-| **HTHELP**        | In a **Help** button.                                                                                                                                                                               |
-| **HTHSCROLL**     | In a horizontal scroll bar.                                                                                                                                                                         |
-| **HTLEFT**        | In the left border of a window.                                                                                                                                                                     |
-| **HTMENU**        | In a menu.                                                                                                                                                                                          |
-| **HTMAXBUTTON**   | In a **Maximize** button.                                                                                                                                                                           |
-| **HTMINBUTTON**   | In a **Minimize** button.                                                                                                                                                                           |
-| **HTNOWHERE**     | On the screen background or on a dividing line between windows.                                                                                                                                     |
-| **HTREDUCE**      | In a **Minimize** button.                                                                                                                                                                           |
-| **HTRIGHT**       | In the right border of a window.                                                                                                                                                                    |
-| **HTSIZE**        | In a size box (same as **HTGROWBOX**).                                                                                                                                                              |
-| **HTSYSMENU**     | In a **System** menu or in a **Close** button in a child window.                                                                                                                                    |
-| **HTTOP**         | In the upper-horizontal border of a window.                                                                                                                                                         |
-| **HTTOPLEFT**     | In the upper-left corner of a window border.                                                                                                                                                        |
-| **HTTOPRIGHT**    | In the upper-right corner of a window border.                                                                                                                                                       |
-| **HTTRANSPARENT** | In a window currently covered by another window in the same thread.                                                                                                                                 |
-| **HTVSCROLL**     | In the vertical scroll bar.                                                                                                                                                                         |
-| **HTZOOM**        | In a **Maximize** button.                                                                                                                                                                           |
-
-
-
- 
+| Return code/value | Description |
+|-------------------|-------------|
+| **HTERROR**</br>-2 | On the screen background or on a dividing line between windows (same as **HTNOWHERE**, except that the [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) function produces a system beep to indicate an error). |
+| **HTTRANSPARENT**</br>-1 | In a window currently covered by another window in the same thread (the message will be sent to underlying windows in the same thread until one of them returns a code that is not **HTTRANSPARENT**). |
+| **HTNOWHERE**</br>0 | On the screen background or on a dividing line between windows. |
+| **HTCLIENT**</br>1 | In a client area. |
+| **HTCAPTION**</br>2 | In a title bar. |
+| **HTSYSMENU**</br>3 | In a window menu or in a **Close** button in a child window. |
+| **HTSIZE**</br>**HTGROWBOX**</br>4 | In a size box. |
+| **HTMENU**</br>5 | In a menu. |
+| **HTHSCROLL**</br>6 | In a horizontal scroll bar. |
+| **HTVSCROLL**</br>7 | In the vertical scroll bar. |
+| **HTREDUCE**</br>**HTMINBUTTON**</br>8 | In a **Minimize** button. |
+| **HTZOOM**</br>**HTMAXBUTTON**</br>9 | In a **Maximize** button. |
+| **HTLEFT**</br>**HTSIZEFIRST**</br>10 | In the left border of a resizable window (the user can click the mouse to resize the window horizontally). |
+| **HTRIGHT**</br>11 | In the right border of a resizable window (the user can click the mouse to resize the window horizontally). |
+| **HTTOP**</br>12 | In the upper-horizontal border of a window. |
+| **HTTOPLEFT**</br>13 | In the upper-left corner of a window border. |
+| **HTTOPRIGHT**</br>14 | In the upper-right corner of a window border. |
+| **HTBOTTOM**</br>15 | In the lower-horizontal border of a resizable window (the user can click the mouse to resize the window vertically). |
+| **HTBOTTOMLEFT**</br>16 | In the lower-left corner of a border of a resizable window (the user can click the mouse to resize the window diagonally). |
+| **HTBOTTOMRIGHT**</br>**HTSIZELAST**</br>17 | In the lower-right corner of a border of a resizable window (the user can click the mouse to resize the window diagonally). |
+| **HTBORDER**</br>18 | In the border of a window that does not have a sizing border. |
+| **HTOBJECT**</br>19 | Not implemented. Do not use. |
+| **HTCLOSE**</br>20 | In a **Close** button. |
+| **HTHELP**</br>21 | In a **Help** button. |
 
 If the cursor is in the client area of a window, [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) returns the **HTCLIENT** hit-test value to the window procedure. When the window procedure returns this code to the system, the system converts the screen coordinates of the cursor hot spot to client coordinates, and then posts the appropriate client area mouse message.
 
@@ -275,12 +261,9 @@ Rotating the mouse sends the [**WM\_MOUSEWHEEL**](wm-mousewheel.md) message to t
 
 Applications should use the [**SystemParametersInfo**](/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa) function to retrieve the number of lines a document scrolls for each scroll operation (wheel notch). To retrieve the number of lines, an application makes the following call:
 
-
-```
+```cpp
 SystemParametersInfo(SPI_GETWHEELSCROLLLINES, 0, pulScrollLines, 0)
 ```
-
-
 
 The variable "pulScrollLines" points to an unsigned integer value that receives the suggested number of lines to scroll when the mouse wheel is rotated without modifier keys:
 
@@ -290,12 +273,9 @@ The variable "pulScrollLines" points to an unsigned integer value that receives 
 
 The default value for the number of scroll lines will be 3. If a user changes the number of scroll lines, by using the Mouse Properties sheet in Control Panel, the operating system broadcasts a [**WM\_SETTINGCHANGE**](../winmsg/wm-settingchange.md) message to all top-level windows with **SPI\_SETWHEELSCROLLLINES** specified. When an application receives the **WM\_SETTINGCHANGE** message, it can then get the new number of scroll lines by calling:
 
-
-```
+```cpp
 SystemParametersInfo(SPI_GETWHEELSCROLLLINES, 0, pulScrollLines, 0)
 ```
-
-
 
 ### Controls that Scroll
 
@@ -314,18 +294,13 @@ The table below lists the controls with scrolling functionality (including scrol
 | Microsoft Rich Edit 1.0 | Vertical. Note, the Exchange client has its own versions of the list view and tree view controls that do not have wheel support.                                        |
 | Microsoft Rich Edit 2.0 | Vertical.                                                                                                                                                               |
 
-
-
- 
-
 ### Detecting a Mouse with a Wheel
 
 To determine if a mouse with a wheel is connected, call [**GetSystemMetrics**](/windows/desktop/api/winuser/nf-winuser-getsystemmetrics) with **SM\_MOUSEWHEELPRESENT**. A return value of **TRUE** indicates that the mouse is connected.
 
 The following example is from the window procedure for a multiline edit control:
 
-
-```
+```cpp
 BOOL ScrollLines(
      PWNDDATA pwndData,   //scrolls the window indicated
      int cLinesToScroll); //number of times
@@ -374,15 +349,11 @@ case WM_MOUSEWHEEL:
     break;
 ```
 
-
-
 ## Window Activation
 
 When the user clicks an inactive top-level window or the child window of an inactive top-level window, the system sends the [**WM\_MOUSEACTIVATE**](wm-mouseactivate.md) message (among others) to the top-level or child window. The system sends this message after posting the [**WM\_NCHITTEST**](wm-nchittest.md) message to the window, but before posting the button-down message. When **WM\_MOUSEACTIVATE** is passed to the [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) function, the system activates the top-level window and then posts the button-down message to the top-level or child window.
 
 By processing [**WM\_MOUSEACTIVATE**](wm-mouseactivate.md), a window can control whether the top-level window becomes the active window as a result of a mouse click, and whether the window that was clicked receives the subsequent button-down message. It does so by returning one of the following values after processing **WM\_MOUSEACTIVATE**.
-
-
 
 | Value                    | Meaning                                                              |
 |--------------------------|----------------------------------------------------------------------|
