@@ -12,15 +12,7 @@ Provides information to the [**IQueryAssociations**](/windows/win32/api/shlwapi/
 
 ## Syntax
 
-
-
-
-<table>
- <tr><th>C++</th></tr>
- <tr>
-   <td>
-
-```c
+```cpp
 typedef enum  {
     ASSOCF_NONE                  = 0x00000000,  
     ASSOCF_INIT_NOREMAPCLSID     = 0x00000001,  
@@ -40,13 +32,6 @@ typedef enum  {
     ASSOCF_INIT_FOR_FILE         = 0x00002000
 } ASSOCF;
 ```
-    
-   </td>
- </tr>
-</table>
-
-
-
 
 ## Constants
 
