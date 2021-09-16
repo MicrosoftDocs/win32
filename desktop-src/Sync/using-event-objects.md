@@ -12,7 +12,7 @@ Applications can use [event objects](event-objects.md) in a number of situations
 
 The following example uses event objects to prevent several threads from reading from a shared memory buffer while a master thread is writing to that buffer. First, the master thread uses the [**CreateEvent**](/windows/win32/api/synchapi/nf-synchapi-createeventa) function to create a manual-reset event object whose initial state is nonsignaled. Then it creates several reader threads. The master thread performs a write operation and then sets the event object to the signaled state when it has finished writing.
 
-Before starting a read operation, each reader thread uses [**WaitForSingleObject**](/windows/win32/api/winbase/nf-winbase-registerwaitforsingleobject) to wait for the manual-reset event object to be signaled. When **WaitForSingleObject** returns, this indicates that the main thread is ready for it to begin its read operation.
+Before starting a read operation, each reader thread uses [**WaitForSingleObject**](/windows/win32/api/synchapi/nf-synchapi-waitforsingleobject) to wait for the manual-reset event object to be signaled. When **WaitForSingleObject** returns, this indicates that the main thread is ready for it to begin its read operation.
 
 
 ```C++
