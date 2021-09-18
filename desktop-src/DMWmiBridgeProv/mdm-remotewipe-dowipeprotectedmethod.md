@@ -1,7 +1,6 @@
 ---
 title: doWipeProtectedMethod method of the MDM_RemoteWipe class
-description: was backed up will be restored and applied to the device when it resumes.
-ms.assetid: dc25dc09-6a74-4c08-b452-b1d83085bb41
+description: Triggers the device to start the remote wipe on the device, and fully clean the internal drive. In some device configurations, this command might leave the device unable to boot.
 keywords:
 - doWipeProtectedMethod method
 - doWipeProtectedMethod method, MDM_RemoteWipe class
@@ -15,25 +14,23 @@ api_location:
 api_type:
 - COM
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 09/17/2021
 ---
 
-# doWipeProtectedMethod method of the MDM\_RemoteWipe class
+# doWipeProtectedMethod method of the MDM_RemoteWipe class
 
-\[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.\]
+> [!NOTE]
+> **Some information relates to pre-released product, which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.**
 
-Triggers the device to start the remote wipe on the device and fully clean the internal drive. In some device configurations, this command may leave the device unable to boot. See also, [doWipePersistProvisionedDataMethod](/windows/client-management/mdm/remotewipe-csp).
+Triggers the device to start the remote wipe on the device, and fully clean the internal drive. In some device configurations, this command might leave the device unable to boot. Also see [doWipePersistProvisionedDataMethod](/windows/client-management/mdm/remotewipe-csp).
 
 ## Syntax
-
 
 ```mof
 uint32 doWipeProtectedMethod(
   [in] string param
 );
 ```
-
-
 
 ## Parameters
 
@@ -44,8 +41,6 @@ uint32 doWipeProtectedMethod(
 
 ## Requirements
 
-
-
 | Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                    |
@@ -53,8 +48,6 @@ uint32 doWipeProtectedMethod(
 | Namespace<br/>                | Root\\CIMv2\\MDM\\DMMap<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>DMWmiBridgeProv.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DMWmiBridgeProv.dll</dt> </dl> |
-
-
 
 ## See also
 
@@ -65,6 +58,3 @@ uint32 doWipeProtectedMethod(
 
 [Using PowerShell scripting with the WMI Bridge Provider](/windows/client-management/mdm/using-powershell-scripting-with-the-wmi-bridge-provider)
 </dt> </dl>
-
- 
-
