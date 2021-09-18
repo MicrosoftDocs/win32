@@ -21,7 +21,8 @@ ms.date: 05/31/2018
 
 # MDM\_RemoteWipe class
 
-\[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.\]
+> [!NOTE]
+> **Some information relates to pre-released product, which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.**
 
 The **MDM\_RemoteWipe** class allows a remote wipe of a device.
 
@@ -49,15 +50,12 @@ The **MDM\_RemoteWipe** class has these types of members:
 
 The **MDM\_RemoteWipe** class has these methods.
 
-
-
 | Method                                              | Description                                              |
 |:----------------------------------------------------|:---------------------------------------------------------|
-| [**doWipeMethod**](mdm-remotewipe-dowipemethod.md) | Triggers the device to start the remote wipe.<br/> |
-
-
-
- 
+| [**doWipeMethod**](mdm-remotewipe-dowipemethod.md) | Triggers the device to start the remote wipe. |
+| [**doWipePersistProvisionedDataMethod**](mdm-remotewipe-dowipepersistprovisioneddatamethod.md) | Triggers the device to back up provisioning data to a persistent location, and perform a remote wipe on the device. The information that was backed up will be restored and applied to the device when it resumes. |
+| [**doWipePersistUserDataMethod**](mdm-remotewipe-dowipepersistuserdatamethod.md) | Triggers the device to start the remote wipe while persisting user accounts and data. |
+| [**doWipeProtectedMethod**](mdm-remotewipe-dowipeprotectedmethod.md) | Triggers the device to start the remote wipe on the device, and fully clean the internal drive. In some device configurations, this command might leave the device unable to boot. |
 
 ### Properties
 
@@ -104,8 +102,6 @@ The following example demonstrates how to use the RemoteWipe and invoke the doWi
 > [!Note]  
 > This example must be executed under local system user. To do that, download the psexec tool from <https://technet.microsoft.com/sysinternals/bb897553.aspx> and run `psexec.exe -i -s cmd.exe` from an elevated admin command prompt.
 
- 
-
 ``` syntax
 $namespaceName = "root\cimv2\mdm\dmmap"
 $className = "MDM_RemoteWipe"
@@ -130,17 +126,13 @@ catch [Exception]
 
 ## Requirements
 
-
-
 | Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                    |
-| Minimum supported server<br/> | None supported<br/>                                                                      |
-| Namespace<br/>                | Root\\CIMv2\\MDM\\DMMap<br/>                                                             |
-| MOF<br/>                      | <dl> <dt>DMWmiBridgeProv.mof</dt> </dl> |
-| DLL<br/>                      | <dl> <dt>DMWmiBridgeProv.dll</dt> </dl> |
-
-
+| Minimum supported client | Windows 10 \[desktop apps only\]                                                    |
+| Minimum supported server | None supported                                                                      |
+| Namespace                | Root\\CIMv2\\MDM\\DMMap                                                             |
+| MOF                      | <dl> <dt>DMWmiBridgeProv.mof</dt> </dl> |
+| DLL                      | <dl> <dt>DMWmiBridgeProv.dll</dt> </dl> |
 
 ## See also
 
@@ -148,6 +140,3 @@ catch [Exception]
 
 [Using PowerShell scripting with the WMI Bridge Provider](/windows/client-management/mdm/using-powershell-scripting-with-the-wmi-bridge-provider)
 </dt> </dl>
-
- 
-
