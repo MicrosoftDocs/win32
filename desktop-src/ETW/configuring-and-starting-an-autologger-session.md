@@ -85,6 +85,7 @@ The following table describes the values that you can define for each AutoLogger
 | <strong>MinimumBuffers</strong> | <strong>REG_DWORD</strong> | The minimum number of buffers to allocate at startup. The minimum number of buffers that you can specify is two buffers per processor. For example, on a single processor computer, the minimum number of buffers is two.<br /> | 
 | <strong>Start</strong> | <strong>REG_DWORD</strong> | To have the AutoLogger session start the next time the computer is restarted, set this value to 1; otherwise, set this value to 0.<br /> | 
 | <strong>Status</strong> | <strong>REG_DWORD</strong> | The startup status of the AutoLogger. If the AutoLogger failed to start, the value of this key is the appropriate Win32 error code. If the AutoLogger successfully started, the value of this key is <strong>ERROR_SUCCESS</strong> (0).<br /> | 
+| <strong>Boot</strong> | <strong>REG_DWORD</strong> | This feature should not be used outside of debugging scenarios.<br /> If this registry key is set to 1, the autologger will be started earlier than normal during kernel initialization, allowing it to capture events during the initialization of many important kernel subsystems. However, <b>enabling this option has a negative impact on boot times</b> and imposes additional restrictions on the autologger. If this feature is enabled, the autologger session GUID <b>must</b> be populated, and many other autologger settings may not work. <br /> |
 
 
 
