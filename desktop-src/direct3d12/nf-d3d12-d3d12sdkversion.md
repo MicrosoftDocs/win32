@@ -30,7 +30,7 @@ extern "C" { _declspec(dllexport) extern const UINT D3D12SDKVersion = n;}
 
 ## Return value
 
-A [UINT](/windows/win32/winprog/windows-data-types) containing the Direct3D 12 SDK version number.
+A [UINT](../winprog/windows-data-types.md) containing the Direct3D 12 SDK version number.
 
 ## Remarks
 

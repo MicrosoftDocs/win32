@@ -25,13 +25,13 @@ To enhance portability and optimize data layout, you need to use the appropriate
 
 **For 32-bit Windows**
 
-For 32-bit Windows, there are two calling conventions available for efficient passing of [\_\_m128](/cpp/cpp/m128) values (which implements [**XMVECTOR**](xmvector-data-type.md) on that platform). The standard is [\_\_fastcall](https://docs.microsoft.com/cpp/cpp/fastcall), which can pass the first three [\_\_m128](/cpp/cpp/m128) values (**XMVECTOR** instances) as arguments to a function in a *SSE/SSE2* register. [\_\_fastcall](https://docs.microsoft.com/cpp/cpp/fastcall) passes remaining arguments via the stack.
+For 32-bit Windows, there are two calling conventions available for efficient passing of [\_\_m128](/cpp/cpp/m128) values (which implements [**XMVECTOR**](xmvector-data-type.md) on that platform). The standard is [\_\_fastcall](/cpp/cpp/fastcall), which can pass the first three [\_\_m128](/cpp/cpp/m128) values (**XMVECTOR** instances) as arguments to a function in a *SSE/SSE2* register. [\_\_fastcall](/cpp/cpp/fastcall) passes remaining arguments via the stack.
 
 Newer Microsoft Visual Studio compilers support a new calling convention, \_\_vectorcall, which can pass up to six [\_\_m128](/cpp/cpp/m128) values ([**XMVECTOR**](xmvector-data-type.md) instances) as arguments to a function in a *SSE/SSE2* register. It can also pass heterogeneous vector aggregates (also known as [**XMMATRIX**](/windows/win32/api/directxmath/ns-directxmath-xmmatrix)) via *SSE/SSE2* registers if there is sufficient room.
 
 **For 64-bit editions of Windows**
 
-For 64-bit Windows, there are two calling conventions available for efficient passing of [\_\_m128](/cpp/cpp/m128) values. The standard is [\_\_fastcall](https://docs.microsoft.com/cpp/cpp/fastcall), which passes all [\_\_m128](/cpp/cpp/m128) values on the stack.
+For 64-bit Windows, there are two calling conventions available for efficient passing of [\_\_m128](/cpp/cpp/m128) values. The standard is [\_\_fastcall](/cpp/cpp/fastcall), which passes all [\_\_m128](/cpp/cpp/m128) values on the stack.
 
 Newer Visual Studio compilers support the \_\_vectorcall calling convention, which can pass up to six [\_\_m128](/cpp/cpp/m128) values ([**XMVECTOR**](xmvector-data-type.md) instances) as arguments to a function in a *SSE/SSE2* register. It can also pass heterogeneous vector aggregates (also known as [**XMMATRIX**](/windows/win32/api/directxmath/ns-directxmath-xmmatrix)) via *SSE/SSE2* registers if there is sufficient room.
 
@@ -354,7 +354,3 @@ For more info about platform-specific extensions, see:
 
 [DirectXMath Programming Guide](ovw-xnamath-progguide.md)
 </dt> </dl>
-
- 
-
- 

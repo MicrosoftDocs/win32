@@ -27,7 +27,6 @@ See [CD3DX12_PIPELINE_STATE_STREAM2](cd3dx12-pipeline-state-stream2.md) for supp
 
 ## Syntax
 
-
 ```C++
 struct CD3DX12_PIPELINE_STATE_STREAM1 {
   CD3DX12_PIPELINE_STATE_STREAM1                      CD3DX12_PIPELINE_STATE_STREAM1();
@@ -58,8 +57,6 @@ struct CD3DX12_PIPELINE_STATE_STREAM1 {
   CD3DX12_PIPELINE_STATE_STREAM_CACHED_PSO            CachedPSO;
 };
 ```
-
-
 
 ## Members
 
@@ -251,7 +248,7 @@ Describes a cached PSO.
 
 [CD3DX12_PIPELINE_STATE_STREAM](cd3dx12-pipeline-state-stream.md) supports the Windows 10 Fall Creators Update, but doesn't support subobject types added in Windows 10 Fall Creators update, such as for view instancing. To support the new subobject types, use **CD3DX12_PIPELINE_STATE_STREAM1** instead.
 
-The accessible member variables of this structure are all typedefs of the [**CD3DX12_PIPELINE_STATE_STREAM_SUBOBJECT**](/windows/win32/direct3d12/cd3dx12-pipeline-state-stream-subobject) template, which combines the subobject type-marker and subobject data into a single object suitable for a stream description.
+The accessible member variables of this structure are all typedefs of the [**CD3DX12_PIPELINE_STATE_STREAM_SUBOBJECT**](./cd3dx12-pipeline-state-stream-subobject.md) template, which combines the subobject type-marker and subobject data into a single object suitable for a stream description.
 
 ## Requirements
 

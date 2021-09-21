@@ -82,7 +82,7 @@ Describes the blend state.
 
 `SampleMask`
 
-Type: **[UINT](/windows/win32/winprog/windows-data-types)**
+Type: **[UINT](../winprog/windows-data-types.md)**
 
 The sample mask for the blend state.
 
@@ -106,7 +106,7 @@ Describes the type and ordering of the primitive data.
 
 `NumRenderTargets`
 
-Type: **[UINT](/windows/win32/winprog/windows-data-types)**
+Type: **[UINT](../winprog/windows-data-types.md)**
 
 The number of render target formats in the *RTVFormats* member.
 
