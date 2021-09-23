@@ -592,7 +592,12 @@
     },
     {
       "source_path": "desktop-src/directcomp/index.md",
-      "redirect_url": "/windows/desktop/directcomp/directcomposition-portal",
+      "redirect_url": "/windows/win32/directcomp/directcomposition-portal",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "desktop-src/comp_swapchain/index.md",
+      "redirect_url": "/windows/win32/comp_swapchain/comp-swapchain-portal",
       "redirect_document_id": false
     },
     {

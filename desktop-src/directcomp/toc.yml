@@ -1068,3 +1068,5 @@
     href: directcomposition-code-samples.md
   - name: "DirectComposition glossary"
     href: directcomposition-glossary.md
+  - name: "Compositor clock"
+    href: compositor-clock/compositor-clock.md

@@ -331,6 +331,8 @@
             href: ./xinput/xinput-game-controller-apis-portal.md
         - name: "DirectComposition"
           href: ./directcomp/directcomposition-portal.md
+        - name: "Composition swapchain"
+          href: ./comp_swapchain/comp-swapchain-portal.md
         - name: "GDI+"
           href: ./gdiplus/-gdiplus-gdi-start.md
         - name: "Windows GDI"
