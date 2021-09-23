@@ -53,7 +53,7 @@ The length of the range, in bytes. Do not specify a zero byte length. To indicat
 
 ## Remarks
 
-The range must exist in the file or DO generates an **DO_E_INVALID_RANGE** error.
+The range must exist in the file or Delivery Optimization generates an **DO_E_INVALID_RANGE** error.
 
 ## Requirements
 

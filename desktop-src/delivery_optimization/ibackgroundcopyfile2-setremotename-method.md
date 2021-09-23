@@ -66,7 +66,7 @@ Typically, you call this method if you want to change the URL used to transfer t
 
 This method does not serialize when it returns. To serialize the change, [**suspend**](ibackgroundcopyjob-suspend.md) the job, call this method (if changing multiple files in the job, use a loop), and [**resume**](ibackgroundcopyjob-resume.md) the job. Calling the **IBackgroundCopyJob::Resume** method serializes the change.
 
-If the time stamp or file size of the new remote name is different from the previous remote name or the new server does not support checkpoint resume (for HTTP remote names), DO restarts the download. Otherwise, the transfer resumes from the same position on the new server. DO does not restart already transferred files.
+If the time stamp or file size of the new remote name is different from the previous remote name or the new server does not support checkpoint resume (for HTTP remote names), Delivery Optimization restarts the download. Otherwise, the transfer resumes from the same position on the new server. Delivery Optimization does not restart already transferred files.
 
 ## Requirements
 

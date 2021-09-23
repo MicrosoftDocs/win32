@@ -1,6 +1,6 @@
 ---
 title: IBackgroundCopyCallback JobTransferred method (Deliveryoptimization.h)
-description: Delivery Optimization (DO) calls your implementation of the JobTransferred method when all of the files in the job have been successfully transferred.
+description: Delivery Optimization calls your implementation of the JobTransferred method when all of the files in the job have been successfully transferred.
 ms.assetid: D3088279-2D26-4707-9BA2-19D2758EA1CC
 keywords:
 - JobTransferred method
@@ -21,7 +21,7 @@ ROBOTS: INDEX,FOLLOW
 
 # IBackgroundCopyCallback::JobTransferred method
 
-Delivery Optimization (DO) calls your implementation of the **JobTransferred** method when all of the files in the job have been successfully transferred.
+Delivery Optimization calls your implementation of the **JobTransferred** method when all of the files in the job have been successfully transferred.
 
 ## Syntax
 
@@ -41,7 +41,7 @@ HRESULT JobTransferred(
 *pJob* \[in\]
 </dt> <dd>
 
-Contains job-related information, such as the time the job completed, the number of bytes transferred, and the number of files transferred. Do not release *pJob*; DO releases the interface when the method returns.
+Contains job-related information, such as the time the job completed, the number of bytes transferred, and the number of files transferred. Do not release *pJob*; Delivery Optimization releases the interface when the method returns.
 
 </dd> </dl>
 
@@ -51,9 +51,9 @@ This method should return S_OK.
 
 ## Remarks
 
-Typically, your implementation should call the [**IBackgroundCopyJob::Complete**](ibackgroundcopyjob-complete.md) method to acknowledge that DO successfully transferred the files. Download files and the reply file are not available on the client until you call the **Complete** method.
+Typically, your implementation should call the [**IBackgroundCopyJob::Complete**](ibackgroundcopyjob-complete.md) method to acknowledge that Delivery Optimization successfully transferred the files. Download files and the reply file are not available on the client until you call the **Complete** method.
 
-If you do not call the [**Complete**](ibackgroundcopyjob-complete.md) method or the [**IBackgroundCopyJob::Cancel**](ibackgroundcopyjob-cancel.md) method DO cancels the job after 30 days and deletes the incomplete files.
+If you do not call the [**Complete**](ibackgroundcopyjob-complete.md) method or the [**IBackgroundCopyJob::Cancel**](ibackgroundcopyjob-cancel.md) method Delivery Optimization cancels the job after 30 days and deletes the incomplete files.
 
 ## Requirements
 

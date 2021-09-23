@@ -1,6 +1,6 @@
 ---
 title: IBackgroundCopyCallback JobError method (Deliveryoptimization.h)
-description: Delivery Optimization (DO) calls your implementation of the JobError method when the state of the job changes to BG_JOB_STATE_ERROR.
+description: Delivery Optimization calls your implementation of the JobError method when the state of the job changes to BG_JOB_STATE_ERROR.
 ms.assetid: 121712A5-98EB-4B2F-A004-A3BDF9C1332B
 keywords:
 - JobError method
@@ -21,7 +21,7 @@ ROBOTS: INDEX,FOLLOW
 
 # IBackgroundCopyCallback::JobError method
 
-Delivery Optimization (DO) calls your implementation of the [**JobError**](https://www.bing.com/search?q=**JobError**) method when the state of the job changes to BG_JOB_STATE_ERROR.
+Delivery Optimization calls your implementation of the [**JobError**](https://www.bing.com/search?q=**JobError**) method when the state of the job changes to BG_JOB_STATE_ERROR.
 
 ## Syntax
 
@@ -42,20 +42,20 @@ HRESULT JobError(
 *pJob* \[in\]
 </dt> <dd>
 
-Contains job-related information, such as the number of bytes and files transferred before the error occurred. It also contains the methods to resume and cancel the job. Do not release *pJob*; DO releases the interface when the [**JobError**](https://www.bing.com/search?q=**JobError**) method returns.
+Contains job-related information, such as the number of bytes and files transferred before the error occurred. It also contains the methods to resume and cancel the job. Do not release *pJob*; Delivery Optimization releases the interface when the [**JobError**](https://www.bing.com/search?q=**JobError**) method returns.
 
 </dd> <dt>
 
 *pError* \[in\]
 </dt> <dd>
 
-Contains error information, such as the file being processed at the time the fatal error occurred and a description of the error. Do not release *pError*; DO releases the interface when the [**JobError**](https://www.bing.com/search?q=**JobError**) method returns.
+Contains error information, such as the file being processed at the time the fatal error occurred and a description of the error. Do not release *pError*; Delivery Optimization releases the interface when the [**JobError**](https://www.bing.com/search?q=**JobError**) method returns.
 
 </dd> </dl>
 
 ## Return value
 
-This method should return **S_OK**; otherwise, DO continues to call this method until **S_OK** is returned. For performance reasons, you should limit the number of times you return a value other than **S_OK** to a few times. As an alternative to returning an error code, consider always returning **S_OK** and handling the error internally. The interval at which this method is called is arbitrary.
+This method should return **S_OK**; otherwise, Delivery Optimization continues to call this method until **S_OK** is returned. For performance reasons, you should limit the number of times you return a value other than **S_OK** to a few times. As an alternative to returning an error code, consider always returning **S_OK** and handling the error internally. The interval at which this method is called is arbitrary.
 
 ## Remarks
 
@@ -67,7 +67,7 @@ After you determine the cause of the error, perform one of the following options
 
 Transient errors do not generate calls to the [**JobError**](https://www.bing.com/search?q=**JobError**) method.
 
-DO returns BG_ERROR_CONTEXT_REMOTE_FILE if the job hit a HTTP 403 error, BG_ERROR_CONTEXT_NONE otherwise.
+Delivery Optimization returns BG_ERROR_CONTEXT_REMOTE_FILE if the job hit a HTTP 403 error, BG_ERROR_CONTEXT_NONE otherwise.
 
 ## Requirements
 

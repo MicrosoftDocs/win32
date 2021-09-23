@@ -23,7 +23,7 @@ ROBOTS: INDEX,FOLLOW
 
 Retrieves the error interface after an error occurs.
 
-Delivery Optimization (DO) generates an error object when the state of the job is BG_JOB_STATE_ERROR or BG_JOB_STATE_TRANSIENT_ERROR. The service does not create an error object when a call to an **IBackgroundCopyXXXX** interface method fails. The error object is available until DO begins transferring data (the state of the job changes to BG_JOB_STATE_TRANSFERRING) for the job or until your application exits.
+Delivery Optimization generates an error object when the state of the job is BG_JOB_STATE_ERROR or BG_JOB_STATE_TRANSIENT_ERROR. The service does not create an error object when a call to an **IBackgroundCopyXXXX** interface method fails. The error object is available until Delivery Optimization begins transferring data (the state of the job changes to BG_JOB_STATE_TRANSFERRING) for the job or until your application exits.
 
 ## Syntax
 
@@ -56,7 +56,7 @@ This method returns the following **HRESULT** values, as well as others.
 | Return code                                                                                                           | Description                                                                                                                                                                                               |
 |-----------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>****S_OK****</dt> </dl>                              | Successfully generated the error object.<br/>                                                                                                                                                       |
-| <dl> <dt>**DO_E_ERROR_INFORMATION_UNAVAILABLE**</dt> </dl> | The error interface is available only after an error occurs (BG_JOB_STATE_ERROR or BG_JOB_STATE_TRANSIENT_ERROR) and before DO begins transferring data (BG_JOB_STATE_TRANSFERRING).<br/> |
+| <dl> <dt>**DO_E_ERROR_INFORMATION_UNAVAILABLE**</dt> </dl> | The error interface is available only after an error occurs (BG_JOB_STATE_ERROR or BG_JOB_STATE_TRANSIENT_ERROR) and before Delivery Optimization begins transferring data (BG_JOB_STATE_TRANSFERRING).<br/> |
 
 
 

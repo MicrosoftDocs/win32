@@ -1,6 +1,6 @@
 ---
 title: IBackgroundCopyFile5 GetProperty method (Deliveryoptimization.h)
-description: Gets a generic property of a Delivery Optimization (DO) file transfer.
+description: Gets a generic property of a Delivery Optimization file transfer.
 ms.assetid: E2E96A0F-5670-4DE7-9DF8-A215AFAD0E8A
 keywords:
 - GetProperty method
@@ -21,7 +21,7 @@ ROBOTS: INDEX,FOLLOW
 
 # IBackgroundCopyFile5::GetProperty method
 
-Gets a generic property of a Delivery Optimization (DO) file transfer.
+Gets a generic property of a Delivery Optimization file transfer.
 
 ## Syntax
 

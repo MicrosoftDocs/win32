@@ -1,6 +1,6 @@
 ---
 title: IDODownloadStatusCallback::OnStatusChange method
-description: DO calls your implementation of this method any time a download status has changed.
+description: Delivery Optimization calls your implementation of this method any time a download status has changed.
 keywords:
 - IDODownloadStatusCallback::OnStatusChange method
 topic_type:
@@ -18,7 +18,7 @@ ms.date: 07/03/2019
 
 # IDODownloadStatusCallback::OnStatusChange method
 
-DO calls your implementation of this method any time a download status has changed.
+Delivery Optimization calls your implementation of this method any time a download status has changed.
 
 ## Syntax
 

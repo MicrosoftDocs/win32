@@ -55,9 +55,9 @@ This method returns the following **HRESULT** values. The method can also return
 
 All of the files have been successfully transferred if the job's state is **BG_JOB_STATE_TRANSFERRED**. To check the state of the job, call the [**IBackgroundCopyJob::GetState**](ibackgroundcopyjob-getstate.md) method. You can also implement the [**IBackgroundCopyCallback**](ibackgroundcopycallback.md) interface to receive notification when all of the files have been transferred to the client.
 
-DO retains jobs that are less than 30 days only. All older jobs will be removed. DO does not support the [JobInactivityTimeout](https://www.bing.com/search?q=JobInactivityTimeout) Group Policy.
+Delivery Optimization retains jobs that are less than 30 days only. All older jobs will be removed. Delivery Optimization does not support the [JobInactivityTimeout](https://www.bing.com/search?q=JobInactivityTimeout) Group Policy.
 
-For download jobs, you can call the **Complete** method at anytime during the transfer process; however, only files that were successfully transferred to the client before calling this method are saved. For example, if you call the **Complete** method while DO is processing the third of five files, only the first two files are saved. To determine which files have been transferred, call the [**IBackgroundCopyFile::GetProgress**](ibackgroundcopyfile-getprogress-method.md) method and compare the **BytesTransferred** member to the **BytesTotal** member of the [**BG_FILE_PROGRESS**](bg-file-progress.md) structure.
+For download jobs, you can call the **Complete** method at anytime during the transfer process; however, only files that were successfully transferred to the client before calling this method are saved. For example, if you call the **Complete** method while Delivery Optimization is processing the third of five files, only the first two files are saved. To determine which files have been transferred, call the [**IBackgroundCopyFile::GetProgress**](ibackgroundcopyfile-getprogress-method.md) method and compare the **BytesTransferred** member to the **BytesTotal** member of the [**BG_FILE_PROGRESS**](bg-file-progress.md) structure.
 
 For upload jobs, you can call the **Complete** method only when the job's state is **BG_JOB_STATE_TRANSFERRED**.
 
