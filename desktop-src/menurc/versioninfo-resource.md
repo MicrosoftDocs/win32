@@ -20,13 +20,13 @@ Defines a version-information resource. The resource contains such information a
 
 There are two ways to format a **VERSIONINFO** statement:
 
-``` syntax
+```c
 versionID VERSIONINFO fixed-info  { block-statement . . . }
 ```
 
 \- or -
 
-``` syntax
+```c
 versionID VERSIONINFO 
 fixed-info
 BEGIN
