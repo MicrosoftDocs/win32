@@ -14,15 +14,15 @@ ms.date: 05/31/2018
 
 The version of the **HTTP\_RESPONSE** structure is dependent on the version of the request queue used as follows:
 
--   HTTP Server API Version 1.0 request queue: This is an [**HTTP\_REQUEST\_V1**](/windows/desktop/api/Http/ns-http-http_request_v1) structure.
--   HTTP Server API Version 2.0 request queue: This is an [**HTTP\_REQUEST\_V2**](/windows/desktop/api/Http/ns-http-http_request_v2) structure.
+-   HTTP Server API Version 1.0: [**HTTP\_RESPONSE\_V1**](/windows/win32/api/http/ns-http-http_response_v1) structure.
+-   HTTP Server API Version 2.0: [**HTTP\_RESPONSE\_V2**](/windows/win32/api/http/ns-http-http_response_v2) structure.
 
-Do not use [**HTTP\_REQUEST\_V1**](/windows/desktop/api/Http/ns-http-http_request_v1) and [**HTTP\_REQUEST\_V2**](/windows/desktop/api/Http/ns-http-http_request_v2) directly in your code; using **HTTP\_RESPONSE** instead ensures the proper version of the structure is used based on the version of the request queue.
+Do not use [**HTTP\_RESPONSE\_V1**](/windows/win32/api/http/ns-http-http_response_v1) and [**HTTP\_RESPONSE\_V2**](/windows/win32/api/http/ns-http-http_response_v2) directly in your code; using **HTTP\_RESPONSE** instead ensures the proper version of the structure is used based on the version of the request queue.
 
 
 ```C++
-typedef HTTP_REQUEST_V1 HTTP_RESPONSE;
-typedef HTTP_REQUEST_V2 HTTP_RESPONSE;
+typedef HTTP_RESPONSE_V1 HTTP_RESPONSE;
+typedef HTTP_RESPONSE_V2 HTTP_RESPONSE;
 typedef HTTP_RESPONSE* PHTTP_RESPONSE;
 ```
 
@@ -30,14 +30,14 @@ typedef HTTP_RESPONSE* PHTTP_RESPONSE;
 
 <dl> <dt>
 
-**HTTP\_RESPONSE**
+**HTTP\_RESPONSE_V1**
 </dt> <dd>
 
 Request was from a v1 request queue.
 
 </dd> <dt>
 
-**HTTP\_RESPONSE**
+**HTTP\_RESPONSE_V2**
 </dt> <dd>
 
 Request was from a v2 request queue.
