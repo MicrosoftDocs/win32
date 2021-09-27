@@ -226,8 +226,8 @@ The following table specifies the limits on physical memory for Windows Server 
 
 | Version                                                                      | Limit on X86                                 | Limit on X64        | Limit on IA64   |
 |------------------------------------------------------------------------------|----------------------------------------------|---------------------|-----------------|
-| Windows Server 2003 with Service Pack 1 (SP1), Datacenter Edition<br/> | 64 GB<br/> (16 GB with 4GT)<br/> | X64 1 TB<br/> | 1 TB<br/> |
-| Windows Server 2003 with Service Pack 1 (SP1), Enterprise Edition<br/> | 64 GB<br/> (16 GB with 4GT)<br/> | X64 1 TB<br/> | 1 TB<br/> |
+| Windows Server 2003 with Service Pack 1 (SP1), Datacenter Edition<br/> | 64 GB<br/> (16 GB with 4GT)<br/> | 1 TB<br/> | 1 TB<br/> |
+| Windows Server 2003 with Service Pack 1 (SP1), Enterprise Edition<br/> | 64 GB<br/> (16 GB with 4GT)<br/> | 1 TB<br/> | 1 TB<br/> |
 | Windows Server 2003 with Service Pack 1 (SP1), Standard Edition<br/>   | 4 GB<br/>                              | 32 GB<br/>    |                 |
 
 
