@@ -1,6 +1,16 @@
 {
   "redirections": [
       {
+            "source_path": "desktop-src/SecAuthN/tls-cipher-suites.md",
+            "redirect_url": "/windows/win32/secauthn/cipher-suites-in-schannel",
+            "redirect_document_id": false
+      },
+      {
+            "source_path": "desktop-src/SecAuthN/private-communications-technology.md",
+            "redirect_url": "/windows/win32/secauthn/protocols-in-tls-ssl--schannel-ssp-",
+            "redirect_document_id": false
+      },
+      {
             "source_path": "desktop-src/SensorsAPI/for-more-information.md",
             "redirect_url": "/windows/win32/SensorsAPI/introduction-to-the-sensor-and-location-platform-in-windows",
             "redirect_document_id": false
