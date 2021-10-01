@@ -1,5 +1,5 @@
 ---
-description: The <ownerSID> element specifies the security identifier (SID) of the library's creator. This element is optional and has no attributes or child elements.
+description: The &lt;ownerSID&gt; element specifies the security identifier (SID) of the library's creator. This element is optional and has no attributes or child elements.
 ms.assetid: 03FBE499-7920-4991-B9EF-2D3721803A01
 title: ownerSID Element (Library Schema)
 ms.topic: article
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # ownerSID Element (Library Schema)
 
-The <ownerSID> element specifies the security identifier (SID) of the library's creator. This element is optional and has no attributes or child elements.
+The &lt;ownerSID&gt; element specifies the security identifier (SID) of the library's creator. This element is optional and has no attributes or child elements.
 
 ## Syntax
 

@@ -43,92 +43,15 @@ The following table lists some of the subclasses that Windows Vista defines.
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Class</th>
-<th>Subclasses</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>ComboBox</td>
-<td><ul>
-<li>Address</li>
-<li>AddressComposited</li>
-<li>InactiveAddress</li>
-<li>InactiveAddressComposited</li>
-<li>MaxAddress</li>
-<li>MaxAddressComposited</li>
-<li>MaxInactiveAddress</li>
-<li>MaxInactiveAddressComposited</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>Edit</td>
-<td><ul>
-<li>Address</li>
-<li>AddressComposited</li>
-<li>InactiveAddress</li>
-<li>InactiveAddressComposited</li>
-<li>InactiveSearchBoxEdit</li>
-<li>InactiveSearchBoxEditComposited</li>
-<li>MaxAddress</li>
-<li>MaxAddressComposited</li>
-<li>MaxInactiveAddress</li>
-<li>MaxInactiveAddressComposited</li>
-<li>MaxInactiveSearchBoxEdit</li>
-<li>MaxInactiveSearchBoxEditComposited</li>
-<li>MaxSearchBoxEdit</li>
-<li>MaxSearchBoxEditComposited</li>
-<li>SearchBoxEdit</li>
-<li>SearchBoxEditComposited</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>Rebar</td>
-<td><ul>
-<li>BrowserTabBar</li>
-<li>InactiveNavbar</li>
-<li>InactiveNavbarComposited</li>
-<li>MaxInactiveNavbar</li>
-<li>MaxInactiveNavbarComposited</li>
-<li>MaxNavbar</li>
-<li>MaxNavbarComposited</li>
-<li>Navbar</li>
-<li>NavbarComposited</li>
-<li>NavbarNonTopmost</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>Tab</td>
-<td><ul>
-<li>BrowserTab</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>Toolbar</td>
-<td><ul>
-<li>Go</li>
-<li>GoComposited</li>
-<li>InactiveGo</li>
-<li>InactiveGoComposited</li>
-<li>MaxGo</li>
-<li>MaxGoComposited</li>
-<li>MaxInactiveGo</li>
-<li>MaxInactiveGoComposited</li>
-<li>SearchButton</li>
-<li>SearchButtonComposited</li>
-<li>Travel</li>
-<li>TravelComposited</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| Class | Subclasses | 
+|-------|------------|
+| ComboBox | <ul><li>Address</li><li>AddressComposited</li><li>InactiveAddress</li><li>InactiveAddressComposited</li><li>MaxAddress</li><li>MaxAddressComposited</li><li>MaxInactiveAddress</li><li>MaxInactiveAddressComposited</li></ul> | 
+| Edit | <ul><li>Address</li><li>AddressComposited</li><li>InactiveAddress</li><li>InactiveAddressComposited</li><li>InactiveSearchBoxEdit</li><li>InactiveSearchBoxEditComposited</li><li>MaxAddress</li><li>MaxAddressComposited</li><li>MaxInactiveAddress</li><li>MaxInactiveAddressComposited</li><li>MaxInactiveSearchBoxEdit</li><li>MaxInactiveSearchBoxEditComposited</li><li>MaxSearchBoxEdit</li><li>MaxSearchBoxEditComposited</li><li>SearchBoxEdit</li><li>SearchBoxEditComposited</li></ul> | 
+| Rebar | <ul><li>BrowserTabBar</li><li>InactiveNavbar</li><li>InactiveNavbarComposited</li><li>MaxInactiveNavbar</li><li>MaxInactiveNavbarComposited</li><li>MaxNavbar</li><li>MaxNavbarComposited</li><li>Navbar</li><li>NavbarComposited</li><li>NavbarNonTopmost</li></ul> | 
+| Tab | <ul><li>BrowserTab</li></ul> | 
+| Toolbar | <ul><li>Go</li><li>GoComposited</li><li>InactiveGo</li><li>InactiveGoComposited</li><li>MaxGo</li><li>MaxGoComposited</li><li>MaxInactiveGo</li><li>MaxInactiveGoComposited</li><li>SearchButton</li><li>SearchButtonComposited</li><li>Travel</li><li>TravelComposited</li></ul> | 
+
 
 
 
@@ -140,38 +63,12 @@ In Windows Vista, the subclasses of certain classes internal to Windows Interne
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>AddressBand</td>
-<td><ul>
-<li>AB</li>
-<li>ABGreen</li>
-<li>ABGreenComposited</li>
-<li>ABRed</li>
-<li>ABRedComposited</li>
-<li>ABYellow</li>
-<li>ABYellowComposited</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>SearchBox</td>
-<td><ul>
-<li>InactiveSearchBox</li>
-<li>InactiveSearchBoxComposited</li>
-<li>MaxInactiveSearchBox</li>
-<li>MaxInactiveSearchBoxComposited</li>
-<li>MaxSearchBox</li>
-<li>MaxSearchBoxComposited</li>
-<li>SearchBoxComposited</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| 
+|
+| AddressBand | <ul><li>AB</li><li>ABGreen</li><li>ABGreenComposited</li><li>ABRed</li><li>ABRedComposited</li><li>ABYellow</li><li>ABYellowComposited</li></ul> | 
+| SearchBox | <ul><li>InactiveSearchBox</li><li>InactiveSearchBoxComposited</li><li>MaxInactiveSearchBox</li><li>MaxInactiveSearchBoxComposited</li><li>MaxSearchBox</li><li>MaxSearchBoxComposited</li><li>SearchBoxComposited</li></ul> | 
+
 
 
 

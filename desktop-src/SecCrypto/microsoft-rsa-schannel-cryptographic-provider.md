@@ -12,10 +12,10 @@ The Microsoft [*RSA*](../secgloss/r-gly.md)/[*Schannel*](../secgloss/s-gly.md) C
 
 
 
-|                |                                  |
-|----------------|----------------------------------|
-| Provider type: | **PROV\_RSA\_SCHANNEL**          |
-| Provider name: | **MS\_DEF\_RSA\_SCHANNEL\_PROV** |
+|                   | Value                         |
+|-------------------|-------------------------------|
+| **Provider type** | PROV\_RSA\_SCHANNEL           |
+| **Provider name** | MS\_DEF\_RSA\_SCHANNEL\_PROV  |
 
 
 

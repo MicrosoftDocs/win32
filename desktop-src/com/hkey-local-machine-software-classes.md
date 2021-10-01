@@ -19,7 +19,7 @@ The subkeys and registry values associated with the **HKEY\_LOCAL\_MACHINE\\SOFT
 | [**<file\_extension>**](-file-extension--key.md)                        | Associates a file name extension with a ProgID.                                                                   |
 | [**FileType**](filetype-key.md)                                               | Used by [**GetClassFile**](/windows/desktop/api/Objbase/nf-objbase-getclassfile) to match patterns against various file bytes in a non-compound file. |
 | [**Interface**](interface-key.md)                                             | Associates an interface name with an interface ID (IID).                                                          |
-| [**<ProgID>**](-progid--key.md)                                         | Identifies a class. Note that the ProgID is not guaranteed to be globally unique, unlike a CLSID.                 |
+| [**&lt;ProgID&gt;**](-progid--key.md)                                         | Identifies a class. Note that the ProgID is not guaranteed to be globally unique, unlike a CLSID.                 |
 | [**<version-independent ProgID>**](-version-independent-progid--key.md) | Used to determine the latest version of an object application.                                                    |
 
 

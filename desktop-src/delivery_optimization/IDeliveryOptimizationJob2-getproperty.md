@@ -1,6 +1,6 @@
 ---
 title: IDeliveryOptimizationJob2::GetProperty method
-description: Returns a single property of the DO job.
+description: Returns a single property of the Delivery Optimization job.
 keywords:
 - GetProperty method
 - GetProperty method, IDeliveryOptimizationJob2 interface
@@ -20,7 +20,7 @@ ROBOTS: INDEX,FOLLOW
 
 # IDeliveryOptimizationJob2::GetProperty method
 
-This method returns a single property of the DO job.
+This method returns a single property of the Delivery Optimization job.
 
 ## Syntax
 

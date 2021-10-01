@@ -1,5 +1,5 @@
 ---
-description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: Learn about supporting PrintTicket deltas. This topic isn't current. For the most current information, see the Print Schema Specification.
 ms.assetid: 80fdc8f1-4fda-4102-9b27-16d9acb4d077
 title: Supporting PrintTicket Deltas
 ms.topic: article

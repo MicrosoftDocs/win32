@@ -59,45 +59,15 @@ m_d2dContext->EndDraw();
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Display name and index enumeration</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Scale<br/> D2D1_SCALE_PROP_SCALE<br/></td>
-<td>The scale amount in the X and Y direction as a ratio of the output size to the input size. This property a D2D1_VECTOR_2Fdefined as: (X scale, Y scale). The scale amounts are FLOAT, unitless, and must be positive or 0.<br/> The type is D2D1_VECTOR_2F.<br/> The default value is {1.0f, 1.0f}.<br/></td>
-</tr>
-<tr class="even">
-<td>CenterPoint<br/> D2D1_SCALE_PROP_CENTER_POINT<br/></td>
-<td>The image scaling center point. This property is a D2D1_VECTOR_2F defined as: (point X, point Y). The units are in DIPs.<br/> Use the center point property to scale around a point other than the upper-left corner.<br/> The type is D2D1_VECTOR_2F.<br/> The default value is {0.0f, 0.0f}.<br/></td>
-</tr>
-<tr class="odd">
-<td>BorderMode<br/> D2D1_SCALE_PROP_BORDER_MODE<br/></td>
-<td>The mode used to calculate the border of the image, soft or hard. See <a href="#border-modes">Border modes</a> for more info. <br/> The type is D2D1_BORDER_MODE.<br/> The default value is D2D1_BORDER_MODE_SOFT.<br/></td>
-</tr>
-<tr class="even">
-<td>Sharpness<br/> D2D1_SCALE_PROP_SHARPNESS<br/></td>
-<td>In the high quality cubic interpolation mode, the sharpness level of the scaling filter as a float between 0 and 1. The values are unitless. You can use sharpness to adjust the quality of an image when you scale the image down.<br/> The sharpness factor affects the shape of the kernel. The higher the sharpness factor, the smaller the kernel.<br/>
-<blockquote>
-[!Note]<br />
-This property affects only the high quality cubic interpolation mode.
-</blockquote>
-<br/> The type is FLOAT.<br/> The default value is 0.0f.<br/></td>
-</tr>
-<tr class="odd">
-<td>InterpolationMode<br/> D2D1_SCALE_PROP_INTERPOLATION_MODE<br/></td>
-<td>The interpolation mode the effect uses to scale the image. There are 6 scale modes that range in quality and speed. See <a href="#interpolation-modes">Interpolation modes</a> for more info. <br/> The type is D2D1_SCALE_INTERPOLATION_MODE.<br/> The default value is D2D1_SCALE_INTERPOLATION_MODE_LINEAR.<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Display name and index enumeration | Description | 
+|------------------------------------|-------------|
+| Scale<br /> D2D1_SCALE_PROP_SCALE<br /> | The scale amount in the X and Y direction as a ratio of the output size to the input size. This property a D2D1_VECTOR_2Fdefined as: (X scale, Y scale). The scale amounts are FLOAT, unitless, and must be positive or 0.<br /> The type is D2D1_VECTOR_2F.<br /> The default value is {1.0f, 1.0f}.<br /> | 
+| CenterPoint<br /> D2D1_SCALE_PROP_CENTER_POINT<br /> | The image scaling center point. This property is a D2D1_VECTOR_2F defined as: (point X, point Y). The units are in DIPs.<br /> Use the center point property to scale around a point other than the upper-left corner.<br /> The type is D2D1_VECTOR_2F.<br /> The default value is {0.0f, 0.0f}.<br /> | 
+| BorderMode<br /> D2D1_SCALE_PROP_BORDER_MODE<br /> | The mode used to calculate the border of the image, soft or hard. See <a href="#border-modes">Border modes</a> for more info. <br /> The type is D2D1_BORDER_MODE.<br /> The default value is D2D1_BORDER_MODE_SOFT.<br /> | 
+| Sharpness<br /> D2D1_SCALE_PROP_SHARPNESS<br /> | In the high quality cubic interpolation mode, the sharpness level of the scaling filter as a float between 0 and 1. The values are unitless. You can use sharpness to adjust the quality of an image when you scale the image down.<br /> The sharpness factor affects the shape of the kernel. The higher the sharpness factor, the smaller the kernel.<br /><blockquote>[!Note]<br />This property affects only the high quality cubic interpolation mode.</blockquote><br /> The type is FLOAT.<br /> The default value is 0.0f.<br /> | 
+| InterpolationMode<br /> D2D1_SCALE_PROP_INTERPOLATION_MODE<br /> | The interpolation mode the effect uses to scale the image. There are 6 scale modes that range in quality and speed. See <a href="#interpolation-modes">Interpolation modes</a> for more info. <br /> The type is D2D1_SCALE_INTERPOLATION_MODE.<br /> The default value is D2D1_SCALE_INTERPOLATION_MODE_LINEAR.<br /> | 
+
 
 
 

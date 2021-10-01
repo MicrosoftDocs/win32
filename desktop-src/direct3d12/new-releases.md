@@ -84,7 +84,7 @@ These topics have been added to the Direct3D documentation for Windows 10, vers
 
 -   Revision of the remarks for [**ID3D12GraphicsCommandList::DiscardResource**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-discardresource).
 -   Clarification of "State decay to common" (see [Using Resource Barriers to Synchronize Resource States in Direct3D 12](using-resource-barriers-to-synchronize-resource-states-in-direct3d-12.md)).
--   The D3dx12.h header file, referred to in [Helper Structures and Functions for D3D12](helper-structures-and-functions-for-d3d12.md), can be downloaded directly from [The D3D12 Helper Library](https://github.com/Microsoft/DirectX-Graphics-Samples/tree/master/Libraries/D3DX12).
+-   The D3dx12.h header file, referred to in [Helper Structures and Functions for D3D12](helper-structures-and-functions-for-d3d12.md), can be downloaded directly from [The D3D12 Helper Library](https://github.com/microsoft/DirectX-Headers/blob/main/include/directx/d3dx12.h).
 
 ## August 2016 documentation update 2
 

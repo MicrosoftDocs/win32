@@ -45,43 +45,12 @@ The following table depicts a typical control and content view of the UI Automat
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Control View</th>
-<th>Content View</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Contains the elements that correspond to controls.</td>
-<td>Removes redundant information from the tree so that assistive technologies work with the smallest set of information that is meaningful to the end user.</td>
-</tr>
-<tr class="even">
-<td><ul>
-<li>List
-<ul>
-<li>DataItem (0 or more)</li>
-<li>ListItem (0 or more)</li>
-<li>Group (0 or more)</li>
-<li>ScrollBar (0, 1 or 2)</li>
-</ul></li>
-</ul></td>
-<td><ul>
-<li>List
-<ul>
-<li>DataItem (0 or more)</li>
-<li>ListItem (0 or more)</li>
-<li>Group (0 or more)</li>
-</ul></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| Control View | Content View | 
+|--------------|--------------|
+| Contains the elements that correspond to controls. | Removes redundant information from the tree so that assistive technologies work with the smallest set of information that is meaningful to the end user. | 
+| <ul><li>List<ul><li>DataItem (0 or more)</li><li>ListItem (0 or more)</li><li>Group (0 or more)</li><li>ScrollBar (0, 1 or 2)</li></ul></li></ul> | <ul><li>List<ul><li>DataItem (0 or more)</li><li>ListItem (0 or more)</li><li>Group (0 or more)</li></ul></li></ul> | 
+
 
 
 

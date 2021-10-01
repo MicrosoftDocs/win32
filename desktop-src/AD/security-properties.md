@@ -28,7 +28,7 @@ The [**accountExpires**](/windows/desktop/ADSchema/a-accountexpires) attribute s
 
 The [**altSecurityIdentities**](/windows/desktop/ADSchema/a-altsecurityidentities) attribute is a multi-valued attribute that contains mappings for X.509 certificates or external Kerberos user accounts to this user for the purpose of authentication. Various security packages, including Public Key authentication package and Kerberos, use this data to authenticate users when they present the alternative form of identification such as certificate, UNIX Kerberos ticket, and so on. Build a Windows 2000 token based on the corresponding user account such that they can access system resources.
 
-For X.509 certificates, the values should be the Issuer and Subject names in 509v3 certificates, issued by an external public certification authority, that map to the user account used to find an account for authentication. The SSL (Schannel) package uses the following syntax: X509:<somecertinfotype>somecertinfo. For example, the following value specifies the issuer DN "\<I\>" with the DN "C=US,O=InternetCA,CN=APublicCertificateAuthority" and the subject DN "\<S\>" with the DN "C=US,O=Fabrikam,OU=Sales,CN=Jeff Smith".
+For X.509 certificates, the values should be the Issuer and Subject names in 509v3 certificates, issued by an external public certification authority, that map to the user account used to find an account for authentication. The SSL (Schannel) package uses the following syntax: X509:&lt;somecertinfotype&gt;somecertinfo. For example, the following value specifies the issuer DN "\<I\>" with the DN "C=US,O=InternetCA,CN=APublicCertificateAuthority" and the subject DN "\<S\>" with the DN "C=US,O=Fabrikam,OU=Sales,CN=Jeff Smith".
 
 
 ```C++

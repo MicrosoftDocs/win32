@@ -60,54 +60,15 @@ The Catalog Manager can be used to get the status of the catalog for application
 
 The following table describes the methods of ISearchCatalogManager used for managing catalog status.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Method</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Searchapi/nf-searchapi-isearchcatalogmanager-urlbeingindexed"><strong>URLBeingIndexed</strong></a></td>
-<td>Gets the URL that is currently being indexed. This method would be useful if you were trying to identify whether the indexer was &quot;stuck&quot; on an item.</td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Searchapi/nf-searchapi-isearchcatalogmanager-numberofitems"><strong>NumberOfItems</strong></a></td>
-<td>Gets the number of items in the catalog.</td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Searchapi/nf-searchapi-isearchcatalogmanager-numberofitemstoindex"><strong>NumberOfItemsToIndex</strong></a></td>
-<td>Retrieves the following information about items to be indexed:
-<ul>
-<li>plIncrementalCount - the number of items to be indexed in the next incremental index</li>
-<li>plNotificationQueue - the number of items in the notification queue. This information would be useful to a notification application that needed to check whether the indexer is receiving the notifications that the application is sending.</li>
-<li>plHighPriorityQueue - the number of items in the high-priority queue. Items in the plHighPriorityQueue are indexed first.</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Searchapi/nf-searchapi-isearchcatalogmanager-getcatalogstatus"><strong>GetCatalogStatus</strong></a></td>
-<td>Gets the status of the catalog and returns an enumeration value that gives the current status. The following are possible catalog states:
-<ul>
-<li>Idle: No indexing is needed.</li>
-<li>Paused: Indexing is paused (due to low battery or high CPU usage, for example).</li>
-<li>Recovering: Indexing is recovering.</li>
-<li>Full crawl: Indexer is performing a full crawl of the crawl scope.</li>
-<li>Incremental crawl: Indexer is performing an incremental crawl.</li>
-<li>Processing notifications: Indexer is processing notifications.</li>
-<li>Shutting down: Indexer is shutting down.</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Searchapi/nf-searchapi-isearchcatalogmanager-get_name"><strong>get_Name</strong></a></td>
-<td>Gets the name of the current catalog that is specified in the <a href="/windows/desktop/api/Searchapi/nf-searchapi-isearchmanager-getcatalog"><strong>ISearchManager::GetCatalog</strong></a> method. Currently, the only catalog supported is SystemIndex.</td>
-</tr>
-</tbody>
-</table>
+
+| Method | Description | 
+|--------|-------------|
+| <a href="/windows/desktop/api/Searchapi/nf-searchapi-isearchcatalogmanager-urlbeingindexed"><strong>URLBeingIndexed</strong></a> | Gets the URL that is currently being indexed. This method would be useful if you were trying to identify whether the indexer was "stuck" on an item. | 
+| <a href="/windows/desktop/api/Searchapi/nf-searchapi-isearchcatalogmanager-numberofitems"><strong>NumberOfItems</strong></a> | Gets the number of items in the catalog. | 
+| <a href="/windows/desktop/api/Searchapi/nf-searchapi-isearchcatalogmanager-numberofitemstoindex"><strong>NumberOfItemsToIndex</strong></a> | Retrieves the following information about items to be indexed:<ul><li>plIncrementalCount - the number of items to be indexed in the next incremental index</li><li>plNotificationQueue - the number of items in the notification queue. This information would be useful to a notification application that needed to check whether the indexer is receiving the notifications that the application is sending.</li><li>plHighPriorityQueue - the number of items in the high-priority queue. Items in the plHighPriorityQueue are indexed first.</li></ul> | 
+| <a href="/windows/desktop/api/Searchapi/nf-searchapi-isearchcatalogmanager-getcatalogstatus"><strong>GetCatalogStatus</strong></a> | Gets the status of the catalog and returns an enumeration value that gives the current status. The following are possible catalog states:<ul><li>Idle: No indexing is needed.</li><li>Paused: Indexing is paused (due to low battery or high CPU usage, for example).</li><li>Recovering: Indexing is recovering.</li><li>Full crawl: Indexer is performing a full crawl of the crawl scope.</li><li>Incremental crawl: Indexer is performing an incremental crawl.</li><li>Processing notifications: Indexer is processing notifications.</li><li>Shutting down: Indexer is shutting down.</li></ul> | 
+| <a href="/windows/desktop/api/Searchapi/nf-searchapi-isearchcatalogmanager-get_name"><strong>get_Name</strong></a> | Gets the name of the current catalog that is specified in the <a href="/windows/desktop/api/Searchapi/nf-searchapi-isearchmanager-getcatalog"><strong>ISearchManager::GetCatalog</strong></a> method. Currently, the only catalog supported is SystemIndex. | 
+
 
 ## Managing Catalog Properties
 

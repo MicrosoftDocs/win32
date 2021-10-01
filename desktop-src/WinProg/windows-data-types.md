@@ -196,8 +196,8 @@ For more information about handling 64-bit integers, see [Large Integers](large-
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -279,7 +279,7 @@ For more information about handling 64-bit integers, see [Large Integers](large-
 <td>Half the size of a pointer. Use within a structure that contains a pointer and two small fields.<br/> This type is declared in BaseTsd.h as follows:<br/> <span data-codelanguage="ManagedCPlusPlus"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -524,7 +524,7 @@ For more information about handling 64-bit integers, see [Large Integers](large-
 <span data-codelanguage="ManagedCPlusPlus"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -606,7 +606,7 @@ For more information about handling 64-bit integers, see [Large Integers](large-
 <span data-codelanguage="ManagedCPlusPlus"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -634,7 +634,7 @@ For more information about handling 64-bit integers, see [Large Integers](large-
 <span data-codelanguage="ManagedCPlusPlus"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -704,7 +704,7 @@ For more information about handling 64-bit integers, see [Large Integers](large-
 <span data-codelanguage="ManagedCPlusPlus"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -774,7 +774,7 @@ For more information about handling 64-bit integers, see [Large Integers](large-
 <span data-codelanguage="ManagedCPlusPlus"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -856,7 +856,7 @@ For more information about handling 64-bit integers, see [Large Integers](large-
 <span data-codelanguage="ManagedCPlusPlus"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -926,7 +926,7 @@ For more information about handling 64-bit integers, see [Large Integers](large-
 <span data-codelanguage="ManagedCPlusPlus"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -1038,7 +1038,7 @@ For more information about handling 64-bit integers, see [Large Integers](large-
 <span data-codelanguage="ManagedCPlusPlus"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -1067,7 +1067,7 @@ For more information about handling 64-bit integers, see [Large Integers](large-
 <span data-codelanguage="ManagedCPlusPlus"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -1143,7 +1143,7 @@ For more information about handling 64-bit integers, see [Large Integers](large-
 <span data-codelanguage="ManagedCPlusPlus"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -1176,7 +1176,7 @@ For more information about handling 64-bit integers, see [Large Integers](large-
 <span data-codelanguage="ManagedCPlusPlus"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -1342,7 +1342,7 @@ For more information about handling 64-bit integers, see [Large Integers](large-
 <span data-codelanguage="ManagedCPlusPlus"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -1370,7 +1370,7 @@ For more information about handling 64-bit integers, see [Large Integers](large-
 <span data-codelanguage="ManagedCPlusPlus"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -1404,7 +1404,7 @@ For more information about handling 64-bit integers, see [Large Integers](large-
 <span data-codelanguage="ManagedCPlusPlus"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -1438,7 +1438,7 @@ For more information about handling 64-bit integers, see [Large Integers](large-
 <span data-codelanguage="ManagedCPlusPlus"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -1496,7 +1496,7 @@ For more information about handling 64-bit integers, see [Large Integers](large-
 <span data-codelanguage="ManagedCPlusPlus"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -1524,7 +1524,7 @@ For more information about handling 64-bit integers, see [Large Integers](large-
 <span data-codelanguage="ManagedCPlusPlus"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -1564,7 +1564,7 @@ For more information about handling 64-bit integers, see [Large Integers](large-
 <span data-codelanguage="ManagedCPlusPlus"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">

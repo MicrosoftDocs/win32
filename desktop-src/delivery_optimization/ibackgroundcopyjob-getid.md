@@ -41,7 +41,7 @@ HRESULT GetId(
 *pJobID* \[out\]
 </dt> <dd>
 
-GUID that identifies the job within the DO queue.
+GUID that identifies the job within the Delivery Optimization queue.
 
 </dd> </dl>
 

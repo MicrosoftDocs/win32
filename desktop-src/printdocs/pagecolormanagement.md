@@ -1,5 +1,5 @@
 ---
-description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: Learn about the PageColorManagement user-configurable element. This topic isn't current. For the most current information, see the Print Schema Specification.
 ms.assetid: 27408582-9c39-4d39-8314-a495d1c7766d
 title: PageColorManagement
 ms.topic: article

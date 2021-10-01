@@ -50,34 +50,11 @@ The following table depicts a typical control and content view of the UI Automat
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Control View</th>
-<th>Content View</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><ul>
-<li>DataItem
-<ul>
-<li>Varies (0 or more; can be structured in hierarchy)</li>
-</ul></li>
-</ul></td>
-<td><ul>
-<li>DataItem
-<ul>
-<li>Varies (0 or more; can be structured in hierarchy)</li>
-</ul></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| Control View | Content View | 
+|--------------|--------------|
+| <ul><li>DataItem<ul><li>Varies (0 or more; can be structured in hierarchy)</li></ul></li></ul> | <ul><li>DataItem<ul><li>Varies (0 or more; can be structured in hierarchy)</li></ul></li></ul> | 
+
 
 
 
@@ -173,54 +150,11 @@ The control view and the content view of the UI Automation tree that pertains to
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>UI Automation Tree - Control View</th>
-<th>UI Automation Tree - Content View</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><ul>
-<li>Group &quot;Contoso&quot; (Table, Grid)
-<ul>
-<li>DataItem &quot;Accounts Receivable.doc&quot; (TableItem, GridItem, SelectionItem, Invoke)
-<ul>
-<li>Image &quot;Accounts Receivable.doc&quot;</li>
-<li>Edit &quot;Name&quot; (TableItem, GridItem, Value &quot;Accounts Receivable.doc&quot;)</li>
-<li>Edit &quot;Date modified&quot; (TableItem, GridItem, Value &quot;8/25/2006 3:29 PM&quot;)</li>
-<li>Edit &quot;Size&quot; (GridItem, TableItem, Value &quot;11.0 KB&quot;)</li>
-</ul></li>
-<li>DataItem &quot;Accounts Payable.doc&quot; (TableItem, GridItem, SelectionItem, Invoke)
-<ul>
-<li>...</li>
-</ul></li>
-</ul></li>
-</ul></td>
-<td><ul>
-<li>Group &quot;Contoso&quot; (Table, Grid)
-<ul>
-<li>DataItem &quot;Accounts Receivable.doc&quot; (TableItem, GridItem, SelectionItem, Invoke)
-<ul>
-<li>Image &quot;Accounts Receivable.doc&quot;</li>
-<li>Edit &quot;Name&quot; (TableItem, GridItem, Value &quot;Accounts Receivable.doc&quot;)</li>
-<li>Edit &quot;Date modified&quot; (TableItem, GridItem, Value &quot;8/25/2006 3:29 PM&quot;)</li>
-<li>Edit &quot;Size&quot; (GridItem, TableItem, Value &quot;11.0 KB&quot;)</li>
-</ul></li>
-<li>DataItem &quot;Accounts Payable.doc&quot; (TableItem, GridItem, SelectionItem, Invoke)
-<ul>
-<li>...</li>
-</ul></li>
-</ul></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| UI Automation Tree - Control View | UI Automation Tree - Content View | 
+|-----------------------------------|-----------------------------------|
+| <ul><li>Group "Contoso" (Table, Grid)<ul><li>DataItem "Accounts Receivable.doc" (TableItem, GridItem, SelectionItem, Invoke)<ul><li>Image "Accounts Receivable.doc"</li><li>Edit "Name" (TableItem, GridItem, Value "Accounts Receivable.doc")</li><li>Edit "Date modified" (TableItem, GridItem, Value "8/25/2006 3:29 PM")</li><li>Edit "Size" (GridItem, TableItem, Value "11.0 KB")</li></ul></li><li>DataItem "Accounts Payable.doc" (TableItem, GridItem, SelectionItem, Invoke)<ul><li>...</li></ul></li></ul></li></ul> | <ul><li>Group "Contoso" (Table, Grid)<ul><li>DataItem "Accounts Receivable.doc" (TableItem, GridItem, SelectionItem, Invoke)<ul><li>Image "Accounts Receivable.doc"</li><li>Edit "Name" (TableItem, GridItem, Value "Accounts Receivable.doc")</li><li>Edit "Date modified" (TableItem, GridItem, Value "8/25/2006 3:29 PM")</li><li>Edit "Size" (GridItem, TableItem, Value "11.0 KB")</li></ul></li><li>DataItem "Accounts Payable.doc" (TableItem, GridItem, SelectionItem, Invoke)<ul><li>...</li></ul></li></ul></li></ul> | 
+
 
 
 

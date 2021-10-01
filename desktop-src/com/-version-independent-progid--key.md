@@ -53,7 +53,7 @@ HKEY_CLASSES_ROOT\CLSID\{00000402-0000-0000-C000-000000000046}
 [**ProgIDFromCLSID**](/windows/desktop/api/combaseapi/nf-combaseapi-progidfromclsid)
 </dt> <dt>
 
-[<ProgID> Key](-progid--key.md)
+[&lt;ProgID&gt; Key](-progid--key.md)
 </dt> </dl>
 
  

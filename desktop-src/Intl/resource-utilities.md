@@ -56,84 +56,25 @@ source_filename [language_neutral_filename] [mui_filename]
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>-h|-?</td>
-<td>Shows help screen.</td>
-</tr>
-<tr class="even">
-<td>-c</td>
-<td>Specifies the input checksum_file from which to extract or calculate the resource checksum. Checksum_file must be a Win32 binary file containing localizable resources. If checksum_file contains resources for more than one language, the -b switch must be used to specify which of these should be used otherwise MUIRCT fails. <br/></td>
-</tr>
-<tr class="odd">
-<td>-b</td>
-<td>Specifies the language to be used when the checksum_file specified with -c contains resources in multiple languages. This switch can only be used in conjunction with the -c switch. The language identifier can be in decimal or hexadecimal format. MUIRCT fails if the checksum_file contains resources in multiple language and the -b is not specified or if the language specified by the -b switch cannot be found in the checksum_file. <br/></td>
-</tr>
-<tr class="even">
-<td>-g</td>
-<td>Specifies the language ID to be included as the ultimate fallback language in the resource configuration data section of the LN file. If the resource loader fails to load a requested .mui file from the thread preferred UI languages, it uses the ultimate fallback language as its last attempt. The LangID value can be specified in decimal or hexadecimal format. For example English (United States) can be specified by -g 0x409 or -g 1033. <br/></td>
-</tr>
-<tr class="odd">
-<td>-q</td>
-<td>Specifies that the source_file is to be split into the output_LN_file and the output_MUI_file according to the rc_config file layout. The rc_config file is an XML formatted file that specifies which resources will be extracted to the .mui file and which will be left in the LN file. The rc_config can specify the distribution of resource types and individual named items between the output_LN_file and output_MUI_file. The source_file must be a Win32 binary that contains resources in a single language otherwise MUIRCT fails. MUIRCT does not split the file if it is language neutral which is indicated by having only language ID value 0 in the file. The output_LN_file and output_mui_file are the names of the language neutral and .mui file into which the source_file is split. These file names are optional. If they are not specified, MUIRCT appends the extensions .ln and .mui to source_file. Typically you should remove the &quot;.ln&quot; extension before deploying the file. MUIRCT associates the output_LN_file and output_MUI_file by calculating a checksum based on the source_file name and file version and inserting the result into the resource configuration section of each output file. When used in conjunction with the -c switch, the -q switch takes precedence. If the rc_config file supplied with the -q switch contains a checksum MUIRCT ignores the -c switch and inserts the checksum value from the value, rc_config file into the LN and.mui files. If no checksum value is found in the rc_config, MUIRCT calculates the resource checksum based on the behavior of the -c switch. <br/></td>
-</tr>
-<tr class="even">
-<td>-v</td>
-<td>Specifies the level of verboseness for logging. Specify 1 to print all basic error messages and operation results. Specify 2 to also include the resource information (type, name, language identifier) included in the .mui file and LN file. The default is -v 1 <br/></td>
-</tr>
-<tr class="odd">
-<td>-x</td>
-<td>Specifies the language ID with which MUIRCT marks all resource types added to the resource section of the .mui file. The LangID value can be specified in decimal or hexadecimal format. For example English (United States) can be specified by -x 0x409 or -x 1033. <br/></td>
-</tr>
-<tr class="even">
-<td>-e</td>
-<td>Extracts the resource checksum contained in the checksum_file provided with the -c switch and inserts it in the specified output_file. When -e is specified, MUIRCT ignores all switches other than the -c switch. In this case the checksum_file must be a Win32 binary file that contains a resource configuration data section with a checksum value. The output_file must be an existing LN file or .mui file. <br/></td>
-</tr>
-<tr class="odd">
-<td>-z</td>
-<td>Calculates and inserts resource checksum data in the specified output file. MUIRCT bases checksum calculation on the input provided with the -c switch, and the optional -b switch. If you specify an output file for the -z switch that does not exist, MUIRCT exits with a failure.<br/> Example: Calculates the checksum based on localizable resources in Notepad.exe and inserts the checksum into the output file Notepad2.exe.<br/> <code>muirct -c notepad.exe -q myprog.rcconfig -z notepad2.exe</code><br/></td>
-</tr>
-<tr class="even">
-<td>-f</td>
-<td>Enables creating a .mui file with the version resource being the only localizable resource. By default, MUIRCT does not allow this.<br/></td>
-</tr>
-<tr class="odd">
-<td>-d</td>
-<td>Locates and displays embedded resource configuration data in the source file. When you specify this switch, MUIRCT ignores all other command line options.<br/></td>
-</tr>
-<tr class="even">
-<td>-m</td>
-<td>Specifies the version number to use when calculating the checksum for associating the output_LN_file and output_MUI_file. <br/></td>
-</tr>
-<tr class="odd">
-<td>source_filename</td>
-<td>Name of the localized binary source file; wildcards cannot be used. This file can only contain resources in one language. If there are resources in multiple languages in the file, MUIRCT fails, unless the -b switch is used. If the file contains resources with language identifiers having value 0 only, MUIRCT does not split the file because a language identifier of 0 indicates a neutral language.<br/> For the -d switch, source_filename is either an LN file or a language-specific resource file for which MUIRCT is to display resource configuration data. <br/></td>
-</tr>
-<tr class="even">
-<td>language_neutral_filename</td>
-<td>Optional. Name of LN file. If you do not specify the name of this file, MUIRCT appends a second extension &quot;.ln&quot; to the source file name to use as the language-neutral file name. Typically you should remove the &quot;.ln&quot; extension before deploying the file.
-<blockquote>
-[!Note]<br />
-The LN file should not contain strings or menus. You should remove them manually.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="odd">
-<td>mui_filename</td>
-<td>Optional. Name of language-specific resource file. If you do not specify a name, MUIRCT appends a second extension &quot;.mui&quot; to the source file name to use as the file name.Normally, MUIRCT creates a language-specific resource file. However, it does not create a resource file if any of the following conditions exist:<br/>
-<ul>
-<li>No localizable resources are in the original binary file.</li>
-<li>The only resource language found in the original binary file is the neutral language.</li>
-<li>The original binary file has resources for more than one language, not counting the neutral language. If the binary file contains resources for two languages, and one of them is the neutral language, the utility considers the file to be monolingual and creates a language-specific resource file if there are localizable resources.</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| 
+|
+| -h|-? | Shows help screen. | 
+| -c | Specifies the input checksum_file from which to extract or calculate the resource checksum. Checksum_file must be a Win32 binary file containing localizable resources. If checksum_file contains resources for more than one language, the -b switch must be used to specify which of these should be used otherwise MUIRCT fails. <br /> | 
+| -b | Specifies the language to be used when the checksum_file specified with -c contains resources in multiple languages. This switch can only be used in conjunction with the -c switch. The language identifier can be in decimal or hexadecimal format. MUIRCT fails if the checksum_file contains resources in multiple language and the -b is not specified or if the language specified by the -b switch cannot be found in the checksum_file. <br /> | 
+| -g | Specifies the language ID to be included as the ultimate fallback language in the resource configuration data section of the LN file. If the resource loader fails to load a requested .mui file from the thread preferred UI languages, it uses the ultimate fallback language as its last attempt. The LangID value can be specified in decimal or hexadecimal format. For example English (United States) can be specified by -g 0x409 or -g 1033. <br /> | 
+| -q | Specifies that the source_file is to be split into the output_LN_file and the output_MUI_file according to the rc_config file layout. The rc_config file is an XML formatted file that specifies which resources will be extracted to the .mui file and which will be left in the LN file. The rc_config can specify the distribution of resource types and individual named items between the output_LN_file and output_MUI_file. The source_file must be a Win32 binary that contains resources in a single language otherwise MUIRCT fails. MUIRCT does not split the file if it is language neutral which is indicated by having only language ID value 0 in the file. The output_LN_file and output_mui_file are the names of the language neutral and .mui file into which the source_file is split. These file names are optional. If they are not specified, MUIRCT appends the extensions .ln and .mui to source_file. Typically you should remove the ".ln" extension before deploying the file. MUIRCT associates the output_LN_file and output_MUI_file by calculating a checksum based on the source_file name and file version and inserting the result into the resource configuration section of each output file. When used in conjunction with the -c switch, the -q switch takes precedence. If the rc_config file supplied with the -q switch contains a checksum MUIRCT ignores the -c switch and inserts the checksum value from the value, rc_config file into the LN and.mui files. If no checksum value is found in the rc_config, MUIRCT calculates the resource checksum based on the behavior of the -c switch. <br /> | 
+| -v | Specifies the level of verboseness for logging. Specify 1 to print all basic error messages and operation results. Specify 2 to also include the resource information (type, name, language identifier) included in the .mui file and LN file. The default is -v 1 <br /> | 
+| -x | Specifies the language ID with which MUIRCT marks all resource types added to the resource section of the .mui file. The LangID value can be specified in decimal or hexadecimal format. For example English (United States) can be specified by -x 0x409 or -x 1033. <br /> | 
+| -e | Extracts the resource checksum contained in the checksum_file provided with the -c switch and inserts it in the specified output_file. When -e is specified, MUIRCT ignores all switches other than the -c switch. In this case the checksum_file must be a Win32 binary file that contains a resource configuration data section with a checksum value. The output_file must be an existing LN file or .mui file. <br /> | 
+| -z | Calculates and inserts resource checksum data in the specified output file. MUIRCT bases checksum calculation on the input provided with the -c switch, and the optional -b switch. If you specify an output file for the -z switch that does not exist, MUIRCT exits with a failure.<br /> Example: Calculates the checksum based on localizable resources in Notepad.exe and inserts the checksum into the output file Notepad2.exe.<br /><code>muirct -c notepad.exe -q myprog.rcconfig -z notepad2.exe</code><br /> | 
+| -f | Enables creating a .mui file with the version resource being the only localizable resource. By default, MUIRCT does not allow this.<br /> | 
+| -d | Locates and displays embedded resource configuration data in the source file. When you specify this switch, MUIRCT ignores all other command line options.<br /> | 
+| -m | Specifies the version number to use when calculating the checksum for associating the output_LN_file and output_MUI_file. <br /> | 
+| source_filename | Name of the localized binary source file; wildcards cannot be used. This file can only contain resources in one language. If there are resources in multiple languages in the file, MUIRCT fails, unless the -b switch is used. If the file contains resources with language identifiers having value 0 only, MUIRCT does not split the file because a language identifier of 0 indicates a neutral language.<br /> For the -d switch, source_filename is either an LN file or a language-specific resource file for which MUIRCT is to display resource configuration data. <br /> | 
+| language_neutral_filename | Optional. Name of LN file. If you do not specify the name of this file, MUIRCT appends a second extension ".ln" to the source file name to use as the language-neutral file name. Typically you should remove the ".ln" extension before deploying the file.<blockquote>[!Note]<br />The LN file should not contain strings or menus. You should remove them manually.</blockquote><br /> | 
+| mui_filename | Optional. Name of language-specific resource file. If you do not specify a name, MUIRCT appends a second extension ".mui" to the source file name to use as the file name.Normally, MUIRCT creates a language-specific resource file. However, it does not create a resource file if any of the following conditions exist:<br /><ul><li>No localizable resources are in the original binary file.</li><li>The only resource language found in the original binary file is the neutral language.</li><li>The original binary file has resources for more than one language, not counting the neutral language. If the binary file contains resources for two languages, and one of them is the neutral language, the utility considers the file to be monolingual and creates a language-specific resource file if there are localizable resources.</li></ul> | 
+
 
 
 
@@ -260,64 +201,20 @@ rc [-h|-?] -fm mui_res_name [-q rc_config_file_name] [-g langid] [-g1 ] [-g2 ver
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>-h|-?</td>
-<td>Shows help screen.</td>
-</tr>
-<tr class="even">
-<td>-fm</td>
-<td>Uses the specified resource file for language-specific resources. Normally the resource compiler creates a language-specific resource file. However, it does not create the file if any of the following conditions exist:<br/>
-<ul>
-<li>There are no localizable resources in the .rc file.</li>
-<li>The only resource language found in the .rc file is the neutral language.</li>
-<li>The .rc file has resources for more than one language, not counting the neutral language. If the .rc file contains resources for two languages, and one of them is the neutral language, the compiler considers the file to be monolingual. If there are any localizable resources, the compiler creates a language-specific resource file.</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>-q</td>
-<td>Uses the specified resource configuration file to obtain the resource types to place in the language-specific resource file and the LN file. For more information, see <a href="preparing-a-resource-configuration-file.md">Preparing a Resource Configuration File</a>. As an alternative to this switch, you can use the -j and -k switches, but it is preferred to use a resource configuration file. <br/> By using the -q switch with a resource configuration file, you can implement an item-based split and provide attributes that will end up with the binary resource configuration in the LN and language-specific resource file. This split is not possible using the -j and -k switches.
-<blockquote>
-[!Note]<br />
-The RC Compiler split process does not work properly if you store resources and version information in different resource configuration files. In this case, RC Compiler does not split the version information. Therefore a linker error occurs during linking of the language-specific resource file because the file does not have version resources.
-</blockquote>
-<br/> <br/></td>
-</tr>
-<tr class="even">
-<td>-g</td>
-<td>Specifies the ultimate <a href="language-identifiers.md">fallback language</a> identifier in hexadecimal.<br/></td>
-</tr>
-<tr class="odd">
-<td>-g1</td>
-<td>Creates a MUI .res file even if the VERSION resource is the only localizable content. By default, RC Compiler does not produce a .res file if VERSION is the only localizable resource.<br/></td>
-</tr>
-<tr class="even">
-<td>-g2</td>
-<td>Specifies the custom version number to use when calculating the checksum.<br/></td>
-</tr>
-<tr class="odd">
-<td>mui_res_name</td>
-<td>Resource file for language-specific resources.<br/></td>
-</tr>
-<tr class="even">
-<td>rc_config_file_name</td>
-<td>Resource configuration file.<br/></td>
-</tr>
-<tr class="odd">
-<td>langid</td>
-<td>Language identifier.<br/></td>
-</tr>
-<tr class="even">
-<td>version</td>
-<td>Custom version number, in a format such as &quot;6.2.0.0&quot;.<br/></td>
-</tr>
-</tbody>
-</table>
+
+| 
+|
+| -h|-? | Shows help screen. | 
+| -fm | Uses the specified resource file for language-specific resources. Normally the resource compiler creates a language-specific resource file. However, it does not create the file if any of the following conditions exist:<br /><ul><li>There are no localizable resources in the .rc file.</li><li>The only resource language found in the .rc file is the neutral language.</li><li>The .rc file has resources for more than one language, not counting the neutral language. If the .rc file contains resources for two languages, and one of them is the neutral language, the compiler considers the file to be monolingual. If there are any localizable resources, the compiler creates a language-specific resource file.</li></ul> | 
+| -q | Uses the specified resource configuration file to obtain the resource types to place in the language-specific resource file and the LN file. For more information, see <a href="preparing-a-resource-configuration-file.md">Preparing a Resource Configuration File</a>. As an alternative to this switch, you can use the -j and -k switches, but it is preferred to use a resource configuration file. <br /> By using the -q switch with a resource configuration file, you can implement an item-based split and provide attributes that will end up with the binary resource configuration in the LN and language-specific resource file. This split is not possible using the -j and -k switches.<blockquote>[!Note]<br />The RC Compiler split process does not work properly if you store resources and version information in different resource configuration files. In this case, RC Compiler does not split the version information. Therefore a linker error occurs during linking of the language-specific resource file because the file does not have version resources.</blockquote><br /><br /> | 
+| -g | Specifies the ultimate <a href="language-identifiers.md">fallback language</a> identifier in hexadecimal.<br /> | 
+| -g1 | Creates a MUI .res file even if the VERSION resource is the only localizable content. By default, RC Compiler does not produce a .res file if VERSION is the only localizable resource.<br /> | 
+| -g2 | Specifies the custom version number to use when calculating the checksum.<br /> | 
+| mui_res_name | Resource file for language-specific resources.<br /> | 
+| rc_config_file_name | Resource configuration file.<br /> | 
+| langid | Language identifier.<br /> | 
+| version | Custom version number, in a format such as "6.2.0.0".<br /> | 
+
 
 
 

@@ -27,11 +27,11 @@ This section provides some guidance on porting from a custom Direct3D 11 graphic
 
 ## Device creation
 
-Both Direct3D 11 and Direct3D 12 share a simliar device creation pattern. Existing Direct3D 12 drivers are all **D3D_FEATURE_LEVEL_11_0** or better, so you can ignore the older feature levels and associated lmitations.
+Both Direct3D 11 and Direct3D 12 share a similar device creation pattern. Existing Direct3D 12 drivers are all **D3D_FEATURE_LEVEL_11_0** or better, so you can ignore the older feature levels and associated limitations.
 
 Also keep in mind that with Direct3D 12, you should explicitly enumerate device information using DXGI interfaces. In Direct3D 11, you could *chain back* to the DXGI device from the Direct3D device, and this is not supported for Direct3D 12.
 
-Creating a WARP software device on Direct3D 12 is done by providing an explicit adapter obtained from **IDXGIFcatory4::EnumWarpAdapter**. The WARP device for Direct3D 12 is available only on systems with the **Graphics Tools** optional feature enabled.
+Creating a WARP software device on Direct3D 12 is done by providing an explicit adapter obtained from **IDXGIFactory4::EnumWarpAdapter**. The WARP device for Direct3D 12 is available only on systems with the **Graphics Tools** optional feature enabled.
 
 > [!NOTE]
 > There is no equivalent to **D3D11CreateDeviceAndSwapChain**. Even with Direct3D 11, we discourage the use of this function as it's often better to create the device and swapchain in distinct steps.
@@ -122,7 +122,7 @@ In Direct3D 11 CPU/GPU synchronization was largely automatic, and there was no n
 
 in Direct3D 12 the app must manage the two timelines (CPU and GPU) explicitly. This requires that information needs to be maintained, by the app, on what resources are required by the GPU, and for how long. This also means that the app is responsible for ensuring the contents of resources (committed resources, heaps, command allocators, for example) do not change until the GPU has finished using them.
 
-The main object for synchronizing the timelines is the [**ID3D12Fence**](/windows/win32/api/d3d12/nn-d3d12-id3d12fence) object. The operation of fences is failry simple, they enable the GPU to signal when it has completed a task. The GPU and CPU can both signal, and can both wait on fences.
+The main object for synchronizing the timelines is the [**ID3D12Fence**](/windows/win32/api/d3d12/nn-d3d12-id3d12fence) object. The operation of fences is fairly simple, they enable the GPU to signal when it has completed a task. The GPU and CPU can both signal, and can both wait on fences.
 
 Typically the approach is that when submitting a command list for execution, a fence signal is transmitted by the GPU on completion (when it has finished reading the data), enabling the CPU to reuse or destroy the resources.
 

@@ -24,7 +24,7 @@ keywords:
 - Windows Ribbon,security
 - Ribbon,security
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 07/13/2021
 ---
 
 # Windows Ribbon Framework
@@ -54,14 +54,14 @@ The Windows Ribbon framework is designed for use by C/C++ developers and UI desi
 
 Recommended proficiencies:
 
--   COM programming
--   Windows API programming
--   XML/XAML programming
+- COM programming
+- Windows API programming
+- XML/XAML programming
 
 Recommended foundational knowledge:
 
--   UI programming concepts
--   General UI concepts
+- UI programming concepts
+- General UI concepts
 
 ## Minimum Requirements
 

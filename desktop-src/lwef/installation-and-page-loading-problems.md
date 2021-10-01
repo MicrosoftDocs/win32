@@ -31,7 +31,7 @@ This can occur if one of the following conditions exists:
 
 -   Check your browser's security options. Your browser must be set to enable the loading of ActiveX scripts and playing of ActiveX controls.
 -   If you are accessing pages scripted with Microsoft Agent and using Microsoft Internet Explorer, you must have version 3.02 or later (download the latest version of Internet Explorer at [https://www.microsoft.com/windows/ie/](https://www.microsoft.com/windows/internet-explorer/default.aspx)<https://www.microsoft.com/windows/ie/>). In Microsoft Internet Explorer, open the View menu, choose Options, click the Security tab, and select all the Active Content check boxes.
--   A Java applet on the page can also cause this error. To run Microsoft Agent on the same page as a Java applet requires version 2.0 of the Microsoft Virtual Machine (VM). For more information, see the [Programming/Scripting FAQ](programming-scripting-faq.md).
+-   A Java applet on the page can also cause this error. To run Microsoft Agent on the same page as a Java applet requires version 2.0 of the Microsoft Virtual Machine (VM). For more information, see the [Programming/Scripting FAQ](programming-scripting-faq.yml).
 
 ### When I attempt to load a page scripted for Microsoft Agent, I get the message, "Unable to initialize Microsoft Agent."
 

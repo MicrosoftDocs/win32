@@ -54,9 +54,8 @@ Note that non-client areas of a child window, such as non-client scroll bars of 
 -   Several frequently-used APIs such as [**GetSystemMetrics**](/windows/desktop/api/winuser/nf-winuser-getsystemmetrics) do not have any context of an HWND and therefore have no way of deducing the proper DPI awareness for their return values. Calling these APIs from a thread that is running in a different DPI awareness mode or context may return values that are not scaled for the context of the calling thread. [****GetSystemMetricForDpi****](/windows/desktop/api/Winuser/nf-winuser-getsystemmetricsfordpi), [****SystemParametersInfoForDpi****](/windows/desktop/api/Winuser/nf-winuser-systemparametersinfofordpi), and [****AdjustWindowRectExForDpi****](/windows/desktop/api/Winuser/nf-winuser-adjustwindowrectexfordpi) will perform the same functionality as their DPI unaware counterparts, but take a DPI as an argument and infer the dpi awareness from the current thread's context.
 -   **GetSystemMetricForDpi** and **SystemParametersInfoForDpi** will return DPI-scaled system metric values and system parameter values in accordance to this equation:
 
-    |                                                                 |
-    |-----------------------------------------------------------------|
-    | GetSystemMetrics(...) @ dpi == GetSystemMetricsForDpi(..., dpi) |
+    
+    GetSystemMetrics(...) @ dpi == GetSystemMetricsForDpi(..., dpi)
 
     
 

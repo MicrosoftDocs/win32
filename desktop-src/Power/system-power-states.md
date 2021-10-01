@@ -19,57 +19,16 @@ The following table lists the ACPI power states from highest to lowest power con
 
 
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Power state</th>
-<th>ACPI state</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Working<br/></td>
-<td>S0<br/></td>
-<td>The system is fully usable. Hardware components that are not in use can save power by entering a lower power state.<br/></td>
-</tr>
-<tr class="even">
-<td>Sleep<br/> (Modern Standby)<br/></td>
-<td>S0 low-power idle<br/></td>
-<td>Some SoC systems support a low-power idle state known as <a href="/windows-hardware/design/device-experiences/modern-standby">Modern Standby</a>. In this state, the system can very quickly switch from a low-power state to high-power state, so that it can respond quickly to hardware and network events. Systems that support Modern Standby do not use S1-S3.<br/></td>
-</tr>
-<tr class="odd">
-<td>Sleep<br/></td>
-<td>S1<br/> S2<br/> S3<br/></td>
-<td>The system appears to be off. Power consumed in these states (S1-S3) is less than S0 and more than S4; S3 consumes less power than S2, and S2 consumes less power than S1. Systems typically support one of these three states, not all three.<br/> In these states (S1-S3), volatile memory is kept refreshed to maintain the system state. Some components remain powered so the computer can wake from input from the keyboard, LAN, or a USB device.<br/> <em>Hybrid sleep</em>, used on desktops, is where a system uses a hibernation file with S1-S3. The hibernation file saves the system state in case the system loses power while in sleep.<br/>
-<blockquote>
-[!Note]<br />
-SoC systems that support modern standby (the low-power idle state) do not use S1-S3.
-</blockquote>
-<br/> <br/></td>
-</tr>
-<tr class="even">
-<td>Hibernate<br/></td>
-<td>S4<br/></td>
-<td>The system appears to be off. Power consumption is reduced to the lowest level. The system saves the contents of volatile memory to a hibernation file to preserve system state. Some components remain powered so the computer can wake from input from the keyboard, LAN, or a USB device. The working context can be restored if it is stored on nonvolatile media. <br/> <em>Fast startup</em> is where the user is logged off before the hibernation file is created. This allows for a smaller hibernation file, more appropriate for systems with less storage capabilities.<br/></td>
-</tr>
-<tr class="odd">
-<td>Soft Off<br/></td>
-<td>S5<br/></td>
-<td>The system appears to be off. This state is comprised of a full shutdown and boot cycle.<br/></td>
-</tr>
-<tr class="even">
-<td>Mechanical Off<br/></td>
-<td>G3<br/></td>
-<td>The system is completely off and consumes no power. The system returns to the working state only after a full reboot.<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Power state | ACPI state | Description | 
+|-------------|------------|-------------|
+| Working<br /> | S0<br /> | The system is fully usable. Hardware components that are not in use can save power by entering a lower power state.<br /> | 
+| Sleep<br /> (Modern Standby)<br /> | S0 low-power idle<br /> | Some SoC systems support a low-power idle state known as <a href="/windows-hardware/design/device-experiences/modern-standby">Modern Standby</a>. In this state, the system can very quickly switch from a low-power state to high-power state, so that it can respond quickly to hardware and network events. Systems that support Modern Standby do not use S1-S3.<br /> | 
+| Sleep<br /> | S1<br /> S2<br /> S3<br /> | The system appears to be off. Power consumed in these states (S1-S3) is less than S0 and more than S4; S3 consumes less power than S2, and S2 consumes less power than S1. Systems typically support one of these three states, not all three.<br /> In these states (S1-S3), volatile memory is kept refreshed to maintain the system state. Some components remain powered so the computer can wake from input from the keyboard, LAN, or a USB device.<br /><em>Hybrid sleep</em>, used on desktops, is where a system uses a hibernation file with S1-S3. The hibernation file saves the system state in case the system loses power while in sleep.<br /><blockquote>[!Note]<br />SoC systems that support modern standby (the low-power idle state) do not use S1-S3.</blockquote><br /><br /> | 
+| Hibernate<br /> | S4<br /> | The system appears to be off. Power consumption is reduced to the lowest level. The system saves the contents of volatile memory to a hibernation file to preserve system state. Some components remain powered so the computer can wake from input from the keyboard, LAN, or a USB device. The working context can be restored if it is stored on nonvolatile media. <br /><em>Fast startup</em> is where the user is logged off before the hibernation file is created. This allows for a smaller hibernation file, more appropriate for systems with less storage capabilities.<br /> | 
+| Soft Off<br /> | S5<br /> | The system appears to be off. This state is comprised of a full shutdown and boot cycle.<br /> | 
+| Mechanical Off<br /> | G3<br /> | The system is completely off and consumes no power. The system returns to the working state only after a full reboot.<br /> | 
+
 
 
 
@@ -190,9 +149,8 @@ To verify or change the type of hibernation file used, run the **powercfg.exe** 
 
 
 
-|                                                                         |                                                                                                                                                                                                                                                                                                                                                    |
+| Example                                                                        | Description                                                                                                                                                                                                                                                                                                                                                   |
 |-------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Example                                                                 | Description                                                                                                                                                                                                                                                                                                                                        |
 | `powercfg /a`<br/>                                                | **Verify the hibernation file type.** When a full hibernation file is used, the results state that hibernation is an available option. When a reduced hibernation file is used, the results will say hibernation is not supported. If the system has no hibernation file at all, the results will say hibernation has not been enabled.<br/> |
 | `powercfg /h /type full`<br/>                                     | **Change the hibernation file type to full.** This is not recommended on systems with less than 32GB of storage.<br/>                                                                                                                                                                                                                        |
 | `powercfg /h /type reduced`<br/>                                  | **Change the hibernation file type to reduced.** If the command returns "the parameter is incorrect", see the following example.<br/>                                                                                                                                                                                                        |

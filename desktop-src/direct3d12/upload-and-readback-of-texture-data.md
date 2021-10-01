@@ -1,5 +1,5 @@
 ---
-title: Uploading Texture Data Through Buffers
+title: Uploading texture data through buffers
 description: Uploading 2D or 3D texture data is similar to uploading 1D data, except that applications need to pay closer attention to data alignment related to row pitch.
 ms.assetid: 22A25A94-A45C-482D-853A-FA6860EE7E4E
 ms.localizationpriority: high
@@ -7,7 +7,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Uploading Texture Data Through Buffers
+# Uploading texture data through buffers
 
 Uploading 2D or 3D texture data is similar to uploading 1D data, except that applications need to pay closer attention to data alignment related to row pitch. Buffers can be used orthogonally and concurrently from multiple parts of the graphics pipeline, and are very flexible.
 
@@ -23,7 +23,7 @@ Applications must upload data via [**ID3D12GraphicsCommandList::CopyTextureRegio
 
 The sample highlights where the application simply flattens 2D data into 1D before placing it in the buffer. For the mipmap 2D scenario, the application can either flatten each sub-resource discretely and quickly use a 1D sub-allocation algorithm, or, use a more complicated 2D sub-allocation technique to minimize video memory utilization. The first technique is expected to be used more often as it is simpler. The second technique may be useful when packing data onto a disk or across a network. In either case, the application must still call the copy APIs for each sub-resource.
 
-``` syntax
+```cpp
 // Prepare a pBitmap in memory, with bitmapWidth, bitmapHeight, and pixel format of DXGI_FORMAT_B8G8R8A8_UNORM. 
 //
 // Sub-allocate from the buffer for texture data.
@@ -96,7 +96,7 @@ D3D12 methods enable applications to replace D3D11 [**UpdateSubresource**](/wind
 
 Note the following two constants:
 
-``` syntax
+```cpp
 const UINT D3D12_TEXTURE_DATA_PITCH_ALIGNMENT = 256;
 const UINT D3D12_TEXTURE_DATA_PLACEMENT_ALIGNMENT = 512;
 ```
@@ -133,11 +133,4 @@ Buffer alignment restrictions:
 
 ## Related topics
 
-<dl> <dt>
-
-[Suballocation Within Buffers](large-buffers.md)
-</dt> </dl>
-
- 
-
- 
+* [Suballocation Within Buffers](large-buffers.md)

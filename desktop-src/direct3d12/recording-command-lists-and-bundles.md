@@ -13,7 +13,7 @@ This topic describes recording command lists and bundles in Direct3D 12 apps. C
 
 Beyond command lists, the API exploits functionality present in GPU hardware by adding a second level of command lists, which are referred to as *bundles*. The purpose of bundles is to allow apps to group a small number of API commands together for later execution. At bundle creation time, the driver will perform as much pre-processing as is possible to make these cheap to execute later. Bundles are designed to be used and re-used any number of times. Command lists, on the other hand, are typically executed only a single time. However, a command list *can* be executed multiple times (as long as the application ensures that the previous executions have completed before submitting new executions).
 
-Typically though, the build up of API calls into bundles, and API calls and bundles into command lists, and command lists into a single frame, is shown in the following diagram, noting the reuse of **Bundle 1** in**Command list 1** and **Command list 2**, and that the API method names in the diagram are just as examples, many different API calls can be used.
+Typically though, the build up of API calls into bundles, and API calls and bundles into command lists, and command lists into a single frame, is shown in the following diagram, noting the reuse of **Bundle 1** in **Command list 1** and **Command list 2**, and that the API method names in the diagram are just as examples, many different API calls can be used.
 
 ![building commands, bundles and command lists into frames](images/gpu-workitems.png)
 
@@ -47,7 +47,7 @@ If this parameter is NULL, a default state is used.
 
 ## Recording command lists
 
-Immediately after being created, command lists are in the recording state. You can also re-use an existing command list by calling I[**D3D12GraphicsCommandList::Reset**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-reset), which also leaves the command list in the recording state. Unlike [**ID3D12CommandAllocator::Reset**](/windows/win32/api/d3d12/nf-d3d12-id3d12commandallocator-reset), you can call **Reset** while the command list is still being executed. A typical pattern is to submit a command list and then immediately reset it to reuse the allocated memory for another command list. Note that only one command list associated with each command allocator may be in a recording state at one time.
+Immediately after being created, command lists are in the recording state. You can also re-use an existing command list by calling [**ID3D12GraphicsCommandList::Reset**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-reset), which also leaves the command list in the recording state. Unlike [**ID3D12CommandAllocator::Reset**](/windows/win32/api/d3d12/nf-d3d12-id3d12commandallocator-reset), you can call **Reset** while the command list is still being executed. A typical pattern is to submit a command list and then immediately reset it to reuse the allocated memory for another command list. Note that only one command list associated with each command allocator may be in a recording state at one time.
 
 Once a command list is in the recording state, you simply call methods of the [**ID3D12GraphicsCommandList**](/windows/win32/api/d3d12/nn-d3d12-id3d12graphicscommandlist) interface to add commands to the list. Many of these methods enable common Direct3D functionality that will be familiar to Microsoft Direct3D 11 developers; other APIs are new for Direct3D 12.
 

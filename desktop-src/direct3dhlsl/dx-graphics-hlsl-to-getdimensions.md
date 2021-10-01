@@ -15,11 +15,7 @@ api_location:
 
 Gets texture size information. The syntax block shows all the parameters that are possible in the method declaration. The table in the Remarks section shows which parameters are implemented for each texture-object type.
 
-
-
-|                                                                                                                                                  |
-|--------------------------------------------------------------------------------------------------------------------------------------------------|
-| void Object.GetDimensions( UINT MipLevel, typeX Width, typeX Height, typeX Elements, typeX Depth, typeX NumberOfLevels, typeX NumberOfSamples ); |
+void Object.GetDimensions( UINT MipLevel, typeX Width, typeX Height, typeX Elements, typeX Depth, typeX NumberOfLevels, typeX NumberOfSamples );
 
 
 

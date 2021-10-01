@@ -17,11 +17,7 @@ Declare the association between vertex shader output and pixel shader input.
 
 ## Syntax
 
-
-
-|                                                   |
-|---------------------------------------------------|
-| dcl\_semantics \[\_centroid\] dst\[.write\_mask\] |
+dcl\_semantics \[\_centroid\] dst\[.write\_mask\]
 
 
 

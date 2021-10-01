@@ -27,9 +27,9 @@ The value of this element is an instance of the v1 [**providerType**](./schema-p
 
 ## Element hierarchy
 
-[<MBNProfileExt>](element-mbnprofileext.md)  
-[<DataRoamingPartners>](element-dataroamingpartners.md)  
-**<Provider>**
+[&lt;MBNProfileExt&gt;](element-mbnprofileext.md)  
+[&lt;DataRoamingPartners&gt;](element-dataroamingpartners.md)  
+**&lt;Provider&gt;**
 
 ## Syntax
 
@@ -53,42 +53,21 @@ None.
 
 ### <span id="parent_elements"></span><span id="PARENT_ELEMENTS"></span>Parent Elements
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Parent Element</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="element-dataroamingpartners.md">DataRoamingPartners</a></td>
-<td><p>Specifies a list of preferred network providers when roaming.</p>
-<p>For details, see the documentation for the v1 <a href="../mbn/schema-dataroamingpartners-mbnprofile-element.md"><strong>DataRoamingPartners</strong></a> element.</p></td>
-</tr>
-</tbody>
-</table>
+
+| Parent Element | Description | 
+|----------------|-------------|
+| <a href="element-dataroamingpartners.md">DataRoamingPartners</a> | <p>Specifies a list of preferred network providers when roaming.</p><p>For details, see the documentation for the v1 <a href="../mbn/schema-dataroamingpartners-mbnprofile-element.md"><strong>DataRoamingPartners</strong></a> element.</p> | 
+
 
  
 
 ## Requirements
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Namespace</p></td>
-<td><p>https://www.microsoft.com/networking/WWAN/profile/v4</p></td>
-</tr>
-</tbody>
-</table>
+
+| Requirement | Value |
+|------------|----------|
+| <p>Namespace</p> | <p>https://www.microsoft.com/networking/WWAN/profile/v4</p> | 
+
 
  
 

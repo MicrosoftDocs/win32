@@ -21,47 +21,13 @@ Constructs instances of the [**XMUINT2**](/windows/win32/api/directxmath/ns-dire
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;">Constructor</th>
-<th style="text-align: left;">Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;">[<strong>XMUINT2 ()</strong>](/windows/win32/api/directxmath/nf-directxmath-xmuint2-xmuint2(constuint32_t))</td>
-<td style="text-align: left;">Default constructor for <code>XMUINT2</code>. <br/> Default constructor for [<strong>XMUINT2</strong>](/windows/win32/api/directxmath/ns-directxmath-xmuint2). <br/>
-<blockquote>
-[!Note]<br />
-This constructor is only available under C++.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">[<strong>XMUINT2 (const uint32_t*)</strong>](/windows/win32/api/directxmath/nf-directxmath-xmuint2-xmuint2(constuint32_t))</td>
-<td style="text-align: left;">Initializes a new instance of <code>XMUINT2</code> from a two element <code>uint32_t</code> array argument. <br/> This constructor initializes a new instance of [<strong>XMUINT2</strong>](/windows/win32/api/directxmath/ns-directxmath-xmuint2) from a from a two element <code>uint32_t</code> array argument. <br/>
-<blockquote>
-[!Note]<br />
-This constructor is only available under C++.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">[<strong>XMUINT2 (uint32_t,uint32_t)</strong>](/windows/win32/api/directxmath/nf-directxmath-xmuint2-xmuint2(uint32_t_uint32_t))</td>
-<td style="text-align: left;">Initializes a new instance of <code>XMUINT2</code> from two <code>uint32_t</code> arguments. <br/> This constructor initializes a new instance of [<strong>XMUINT2</strong>](/windows/win32/api/directxmath/ns-directxmath-xmuint2) from two <code>uint32_t</code> arguments. <br/>
-<blockquote>
-[!Note]<br />
-This constructor is only available under C++.
-</blockquote>
-<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Constructor | Description | 
+|-------------|-------------|
+| [<strong>XMUINT2 ()</strong>](/windows/win32/api/directxmath/nf-directxmath-xmuint2-xmuint2(constuint32_t)) | Default constructor for <code>XMUINT2</code>. <br /> Default constructor for [<strong>XMUINT2</strong>](/windows/win32/api/directxmath/ns-directxmath-xmuint2). <br /><blockquote>[!Note]<br />This constructor is only available under C++.</blockquote><br /> | 
+| [<strong>XMUINT2 (const uint32_t*)</strong>](/windows/win32/api/directxmath/nf-directxmath-xmuint2-xmuint2(constuint32_t)) | Initializes a new instance of <code>XMUINT2</code> from a two element <code>uint32_t</code> array argument. <br /> This constructor initializes a new instance of [<strong>XMUINT2</strong>](/windows/win32/api/directxmath/ns-directxmath-xmuint2) from a from a two element <code>uint32_t</code> array argument. <br /><blockquote>[!Note]<br />This constructor is only available under C++.</blockquote><br /> | 
+| [<strong>XMUINT2 (uint32_t,uint32_t)</strong>](/windows/win32/api/directxmath/nf-directxmath-xmuint2-xmuint2(uint32_t_uint32_t)) | Initializes a new instance of <code>XMUINT2</code> from two <code>uint32_t</code> arguments. <br /> This constructor initializes a new instance of [<strong>XMUINT2</strong>](/windows/win32/api/directxmath/ns-directxmath-xmuint2) from two <code>uint32_t</code> arguments. <br /><blockquote>[!Note]<br />This constructor is only available under C++.</blockquote><br /> | 
+
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: DODownloadPropertyEx enumeration
-description: Specifies the ID of extended properties for the DO download operation.
+description: Specifies the ID of extended properties for the Delivery Optimization download operation.
 keywords:
 - DODownloadPropertyEx enumeration, DODownloadPropertyEx
 topic_type:
@@ -21,7 +21,7 @@ ms.date: 07/29/2019
 > [!IMPORTANT]
 > The **DODownloadPropertyEx** enumeration is deprecated. Instead, use the [DODownloadProperty](../deliveryoptimizationdownloadtypes/ne-deliveryoptimizationdownloadtypes-dodownloadproperty.md) enumeration with [IDODownload::GetProperty](../do/nf-do-idodownload-getproperty.md) and [IDODownload::SetProperty](../do/nf-do-idodownload-setproperty.md).
 
-The **DODownloadPropertyEx** enumeration specifies the ID of extended properties for the DO download operation. This enumeration is used by the **IDODownloadInternal** interface, and a **VARIANT** value is used to get and set the property value.
+The **DODownloadPropertyEx** enumeration specifies the ID of extended properties for the Delivery Optimization download operation. This enumeration is used by the **IDODownloadInternal** interface, and a **VARIANT** value is used to get and set the property value.
 
 ## Syntax
 
@@ -44,7 +44,7 @@ typedef enum _DODownloadPropertyEx
 | DODownloadPropertyEx_UpdateId | Reserved. Do not use. |
 | DODownloadPropertyEx_CorrelationVector | Optional. Sets a specific correlation vector for telemetry purposes. VARIANT type is VT_BSTR. |
 | DODownloadPropertyEx_DecryptionInfo | Reserved. Do not use. |
-| DODownloadPropertyEx_IntegrityCheckInfo | Optional write-only. Sets the piece hash file (PHF) location, which is used by DO to perform runtime integrity checks on the downloaded content. VARIANT type is VT_BSTR. |
+| DODownloadPropertyEx_IntegrityCheckInfo | Optional write-only. Sets the piece hash file (PHF) location, which is used by Delivery Optimization to perform runtime integrity checks on the downloaded content. VARIANT type is VT_BSTR. |
 | DODownloadPropertyEx_IntegrityCheckMandatory | Optional. Sets a boolean flag indicating whether usage of the piece hash file (PHF) is mandatory. If VARIANT_TRUE, the download will be aborted once the integrity check is failed. VARIANT type is VT_BOOL. |
 | DODownloadPropertyEx_TotalSizeBytes | Reserved. Do not use. |
 | DODownloadPropertyEx_TempLocalFileUsage | Reserved. Do not use. |

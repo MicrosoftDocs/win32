@@ -31,108 +31,24 @@ The following table describes the commands in the Visual UIA Verify menu.
 
 
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Menu</th>
-<th>Command</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>File</strong></td>
-<td><strong>Exit</strong></td>
-<td>Exit Visual UIA Verify.</td>
-</tr>
-<tr class="even">
-<td><strong>View</strong></td>
-<td><strong>Highlighting</strong></td>
-<td>Highlight the bounding rectangle of the selected element in the <strong>Automation Elements Tree</strong> pane. The following options are available.
-<ul>
-<li><strong>Rectangle</strong>—A solid red line.</li>
-<li><strong>Fading Rectangle</strong>—A solid red line that disappears after a few seconds.</li>
-<li><strong>Rays and Rectangle</strong>—A solid red line with additional blue highlight lines that radiate from each corner of the bounding rectangle.</li>
-<li><strong>None</strong>—No visible highlight.</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td rowspan="2"><strong>Automation Elements Tree</strong>${REMOVE}$<br />
-</td>
-<td><strong>Refresh Selected Element</strong></td>
-<td>Refresh the children of the selected element in the <strong>Automation Elements Tree</strong> pane. The list of elements is static and does not refresh dynamically (automatically) if the element tree changes.</td>
-</tr>
-<tr class="even">
-<td><strong>Navigation</strong></td>
-<td>Navigate through the element tree hierarchy to one of the following elements.
-<ul>
-<li><strong>Parent</strong>—Go to parent element.</li>
-<li><strong>First Child</strong>—Go to first child element.</li>
-<li><strong>Next Sibling</strong>—Go to first sibling element.</li>
-<li><strong>Previous Sibling</strong>—Go to previous sibling element.</li>
-<li><strong>Last Child</strong>—Go to last child element.</li>
-</ul></td>
 
-</tr>
-<tr class="odd">
-<td rowspan="3"><strong>Mode</strong>${REMOVE}$<br />
-</td>
-<td><strong>Always On Top</strong></td>
-<td>The Visual UIA Verify window remains at the top of the desktop z-order.</td>
-</tr>
-<tr class="even">
-<td><strong>Hover Mode (Use Ctrl)</strong></td>
-<td>When the Ctrl key is pressed, the element under the mouse cursor is identified as the element of interest. The <strong>Automation Elements Tree</strong> pane is refreshed and the corresponding item in the element list is highlighted.</td>
+| Menu | Command | Description | 
+|------|---------|-------------|
+| <strong>File</strong> | <strong>Exit</strong> | Exit Visual UIA Verify. | 
+| <strong>View</strong> | <strong>Highlighting</strong> | Highlight the bounding rectangle of the selected element in the <strong>Automation Elements Tree</strong> pane. The following options are available.<ul><li><strong>Rectangle</strong>—A solid red line.</li><li><strong>Fading Rectangle</strong>—A solid red line that disappears after a few seconds.</li><li><strong>Rays and Rectangle</strong>—A solid red line with additional blue highlight lines that radiate from each corner of the bounding rectangle.</li><li><strong>None</strong>—No visible highlight.</li></ul> | 
+| <strong>Automation Elements Tree</strong>${REMOVE}$<br /> | <strong>Refresh Selected Element</strong> | Refresh the children of the selected element in the <strong>Automation Elements Tree</strong> pane. The list of elements is static and does not refresh dynamically (automatically) if the element tree changes. | 
+| <strong>Navigation</strong> | Navigate through the element tree hierarchy to one of the following elements.<ul><li><strong>Parent</strong>—Go to parent element.</li><li><strong>First Child</strong>—Go to first child element.</li><li><strong>Next Sibling</strong>—Go to first sibling element.</li><li><strong>Previous Sibling</strong>—Go to previous sibling element.</li><li><strong>Last Child</strong>—Go to last child element.</li></ul> | 
+| <strong>Mode</strong>${REMOVE}$<br /> | <strong>Always On Top</strong> | The Visual UIA Verify window remains at the top of the desktop z-order. | 
+| <strong>Hover Mode (Use Ctrl)</strong> | When the Ctrl key is pressed, the element under the mouse cursor is identified as the element of interest. The <strong>Automation Elements Tree</strong> pane is refreshed and the corresponding item in the element list is highlighted. | 
+| <strong>Focus Tracking</strong> | As the focus changes, the element with the focus is identified as the element of interest. The <strong>Automation Elements Tree</strong> pane is refreshed and the corresponding item in the element list is highlighted. | 
+| <strong>Tests</strong>${REMOVE}$<br /> | <strong>Go Left</strong> | Move one node left in the <strong>Tests</strong> tree. | 
+| <strong>Go Up</strong> | Move one node up in the <strong>Tests</strong> tree. | 
+| <strong>Go Down</strong> | Move one node down in the <strong>Tests</strong> tree. | 
+| <strong>Go Right</strong> | Move one node right in the <strong>Tests</strong> tree. | 
+| <strong>Run Selected Test(s) On Selected Element</strong> | Run the selected tests from the <strong>Tests</strong> tree on the selected element. | 
+| <strong>Filter Known Problems</strong> | Filter known UI Automation bugs from the test results. | 
+| <strong>Help</strong> | <strong>About Visual UI Automation Verify</strong> | Display the software version and copyright information for Visual UIA Verify. | 
 
-</tr>
-<tr class="odd">
-<td><strong>Focus Tracking</strong></td>
-<td>As the focus changes, the element with the focus is identified as the element of interest. The <strong>Automation Elements Tree</strong> pane is refreshed and the corresponding item in the element list is highlighted.</td>
-
-</tr>
-<tr class="even">
-<td rowspan="6"><strong>Tests</strong>${REMOVE}$<br />
-</td>
-<td><strong>Go Left</strong></td>
-<td>Move one node left in the <strong>Tests</strong> tree.</td>
-</tr>
-<tr class="odd">
-<td><strong>Go Up</strong></td>
-<td>Move one node up in the <strong>Tests</strong> tree.</td>
-
-</tr>
-<tr class="even">
-<td><strong>Go Down</strong></td>
-<td>Move one node down in the <strong>Tests</strong> tree.</td>
-
-</tr>
-<tr class="odd">
-<td><strong>Go Right</strong></td>
-<td>Move one node right in the <strong>Tests</strong> tree.</td>
-
-</tr>
-<tr class="even">
-<td><strong>Run Selected Test(s) On Selected Element</strong></td>
-<td>Run the selected tests from the <strong>Tests</strong> tree on the selected element.</td>
-
-</tr>
-<tr class="odd">
-<td><strong>Filter Known Problems</strong></td>
-<td>Filter known UI Automation bugs from the test results.</td>
-
-</tr>
-<tr class="even">
-<td><strong>Help</strong></td>
-<td><strong>About Visual UI Automation Verify</strong></td>
-<td>Display the software version and copyright information for Visual UIA Verify.</td>
-</tr>
-</tbody>
-</table>
 
 
 

@@ -108,8 +108,8 @@ When constructing your [**SWbemNamedValueSet**](swbemnamedvalueset.md), only the
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -130,7 +130,7 @@ When constructing your [**SWbemNamedValueSet**](swbemnamedvalueset.md), only the
 <td>PathLevel</td>
 <td><strong>VT-I4</strong><br/> Default is 0 (zero). Possible values are:<br/>
 <ul>
-<li>0: A <CLASS> or <INSTANCE> element is created depending on whether the object is a class or instance.</li>
+<li>0: A &lt;CLASS&gt; or <INSTANCE> element is created depending on whether the object is a class or instance.</li>
 <li>1: A <VALUE.NAMEDOBJECT> element is generated.</li>
 <li>2: A <VALUE.OBJECTWITHLOCALPATH> element is generated.</li>
 <li>3: A <VALUE.OBJECTWITHPATH> element is generated.</li>

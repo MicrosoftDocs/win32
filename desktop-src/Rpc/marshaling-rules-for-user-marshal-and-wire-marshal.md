@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Marshaling Rules for user\_marshal and wire\_marshal
 
-The OSF-DCE specification for marshaling embedded pointer types requires that you observe the following restrictions when implementing the <type>\_UserSize, <type>\_UserMarshal, and <type>\_UserUnMarshal functions. (The rules and examples given here are for marshaling. However, your sizing and unmarshaling routines must follow the same restrictions):
+The OSF-DCE specification for marshaling embedded pointer types requires that you observe the following restrictions when implementing the &lt;type&gt;\_UserSize, &lt;type&gt;\_UserMarshal, and &lt;type&gt;\_UserUnMarshal functions. (The rules and examples given here are for marshaling. However, your sizing and unmarshaling routines must follow the same restrictions):
 
 -   If the wire-type is a flat type with no pointers, your marshaling routine for the corresponding userm-type should simply marshal the data according to the layout of the wire-type. For example:
 

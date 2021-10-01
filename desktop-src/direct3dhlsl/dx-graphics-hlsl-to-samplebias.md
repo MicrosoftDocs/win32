@@ -27,8 +27,8 @@ Samples a texture, after applying the input bias to the mipmap level.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">

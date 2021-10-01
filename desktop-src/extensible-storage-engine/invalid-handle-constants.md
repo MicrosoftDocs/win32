@@ -27,73 +27,25 @@ _**Applies to:** Windows | Windows Server_
 
 The following constants indicate invalid handles for different aspects of ESE.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Constant/value</p></th>
-<th><p>Description</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_instanceNil<br />
-(~(JET_INSTANCE)0)</p></td>
-<td><p>An invalid handle for a database instance.<br />
-<strong>Windows XP:</strong> Introduced in Windows XP.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_sesidNil<br />
-(~(JET_SESID)0)</p></td>
-<td><p>An invalid handle for a session ID.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_tableidNil<br />
-(~(JET_TABLEID)0)</p></td>
-<td><p>An invalid handle for a table ID.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_bitNil<br />
-((JET_GRBIT)0)</p></td>
-<td><p>An invalid handle for a group of bits.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_LSNil<br />
-(~(JET_LS)0)</p></td>
-<td><p>An invalid handle for the Local Storage.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_dbidNil<br />
-((JET_DBID) 0xFFFFFFFF)</p></td>
-<td><p>An invalid handle for the database ID.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Constant/value</p> | <p>Description</p> | 
+|-----------------------|--------------------|
+| <p>JET_instanceNil<br />(~(JET_INSTANCE)0)</p> | <p>An invalid handle for a database instance.<br /><strong>Windows XP:</strong> Introduced in Windows XP.</p> | 
+| <p>JET_sesidNil<br />(~(JET_SESID)0)</p> | <p>An invalid handle for a session ID.</p> | 
+| <p>JET_tableidNil<br />(~(JET_TABLEID)0)</p> | <p>An invalid handle for a table ID.</p> | 
+| <p>JET_bitNil<br />((JET_GRBIT)0)</p> | <p>An invalid handle for a group of bits.</p> | 
+| <p>JET_LSNil<br />(~(JET_LS)0)</p> | <p>An invalid handle for the Local Storage.</p> | 
+| <p>JET_dbidNil<br />((JET_DBID) 0xFFFFFFFF)</p> | <p>An invalid handle for the database ID.</p> | 
+
 
 
 ### Requirements
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Client</strong></p></td>
-<td><p>Requires Windows Vista, Windows XP, or Windows 2000 Professional.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Server</strong></p></td>
-<td><p>Requires Windows Server 2008, Windows Server 2003, or Windows 2000 Server.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>Header</strong></p></td>
-<td><p>Declared in Esent.h.</p></td>
-</tr>
-</tbody>
-</table>
+
+| Requirement | Value |
+|------------|----------|
+| <p><strong>Client</strong></p> | <p>Requires Windows Vista, Windows XP, or Windows 2000 Professional.</p> | 
+| <p><strong>Server</strong></p> | <p>Requires Windows Server 2008, Windows Server 2003, or Windows 2000 Server.</p> | 
+| <p><strong>Header</strong></p> | <p>Declared in Esent.h.</p> | 
+
 

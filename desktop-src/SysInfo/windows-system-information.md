@@ -29,7 +29,7 @@ The following overviews describe the types of system information available.
 
 
 
-|                                                                                                                                   |                                                                                                                   |
+| Item                                                                                                                              | Description                                                                                                       |
 |-----------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|
 | [General Windows Development Issues Forum](https://social.msdn.microsoft.com/Forums/windowsdesktop/home?forum=windowsgeneraldevelopmentissues) | Discuss Windows System Information and other general issues about developing applications for Windows.<br/> |
 

@@ -68,7 +68,7 @@ Secondary streams do not provide a robust solution in which properties are guara
 [Registering and Distributing Property Handlers](./prophand-reg-dist.md)
 </dt> <dt>
 
-[Property Handler Best Practices and FAQ](./prophand-bestprac-faq.md)
+[Property Handler Best Practices and FAQ](./prophand-bestprac-faq.yml)
 </dt> </dl>
 
  

@@ -38,7 +38,7 @@ Returns or sets whether the current control is connected to the Microsoft Agent 
 
 ## Remarks
 
-In many situations, specifying the control automatically creates a connection with the Microsoft Agent server. For example, specifying the Microsoft Agent control's CLSID in the <OBJECT> tag in a webpage automatically opens a server connection and exiting the page closes the connection. Similarly, for Visual Basic or other languages that enable you to drop a control on a form, running the program automatically opens a connection and exiting the program closes the connection. If the server isn't currently running, it automatically starts.
+In many situations, specifying the control automatically creates a connection with the Microsoft Agent server. For example, specifying the Microsoft Agent control's CLSID in the &lt;OBJECT&gt; tag in a webpage automatically opens a server connection and exiting the page closes the connection. Similarly, for Visual Basic or other languages that enable you to drop a control on a form, running the program automatically opens a connection and exiting the program closes the connection. If the server isn't currently running, it automatically starts.
 
 However, if you want to create an Agent control at run time, you may also need to explicitly open a new connection to the server using the **Connected** property. For example, in Visual Basic you can create an ActiveX object at run time using the Set statement with the **New** keyword (or CreateObject function). While this creates the object, it may not create the connection to the server. You can use the **Connected** property before any code that calls into Microsoft Agent's programming interface, as shown in the following example:
 
@@ -115,7 +115,7 @@ You can close your connection to the server by releasing all references you crea
 
 
 > [!Note]  
-> You cannot close your connection to the server by releasing references where the component has been added. For example, you cannot close your connection to the server on webpages where you use the <OBJECT> tag to declare the control or in a Visual Basic application where you drop the control on a form. While releasing all Agent references will reduce Agent's working set, the connection remains until you navigate to the next page or exit the application.
+> You cannot close your connection to the server by releasing references where the component has been added. For example, you cannot close your connection to the server on webpages where you use the &lt;OBJECT&gt; tag to declare the control or in a Visual Basic application where you drop the control on a form. While releasing all Agent references will reduce Agent's working set, the connection remains until you navigate to the next page or exit the application.
 
  
 

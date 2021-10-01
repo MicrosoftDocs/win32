@@ -42,32 +42,13 @@ Note that [**roamApplicabilityType**](simpletype-roamapplicabilitytype.md) is a 
 
 The **roamControlType** simple type defines the following values.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Value</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>AllRoamAllowed</td>
-<td><p>Roaming is allowed on Partner and Non-Partner networks.</p></td>
-</tr>
-<tr class="even">
-<td>PartnerRoamAllowed</td>
-<td><p>Roaming is allowed only on Partner networks.</p></td>
-</tr>
-<tr class="odd">
-<td>NoRoamAllowed</td>
-<td><p>No roaming is allowed.</p></td>
-</tr>
-</tbody>
-</table>
+
+| Value | Description | 
+|-------|-------------|
+| AllRoamAllowed | <p>Roaming is allowed on Partner and Non-Partner networks.</p> | 
+| PartnerRoamAllowed | <p>Roaming is allowed only on Partner networks.</p> | 
+| NoRoamAllowed | <p>No roaming is allowed.</p> | 
+
 
  
 

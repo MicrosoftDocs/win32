@@ -8,7 +8,7 @@ ms.date: 10/12/2020
 
 # SignTool
 
-SignTool is a command-line tool that digitally signs files, verifies the signatures in files, and timestamps files. For information about why signing files is important, see [Introduction to Code Signing](cryptography-tools.md). The tool is installed in the \\Bin folder of the Microsoft Windows Software Development Kit (SDK) installation path.
+SignTool is a command-line tool that digitally signs files, verifies the signatures in files, and timestamps files. For information about why signing files is important, see [Introduction to Code Signing](cryptography-tools.md). The tool is installed in the \\Bin folder of the Microsoft Windows Software Development Kit (SDK) installation path (Example: C:\Program Files (x86)\Windows Kits\10\bin\10.0.19041.0\x64\signtool.exe).
 
 SignTool is available as part of the Windows SDK, which you can download from <https://developer.microsoft.com/windows/downloads/windows-10-sdk/>.
 

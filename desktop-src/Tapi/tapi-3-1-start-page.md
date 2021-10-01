@@ -36,7 +36,7 @@ TAPI version 3.1 enables development of communications applications for Windows 
 
 
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><thead><tr class="header"><th>Topic</th><th>Description</th></tr></thead><tbody><tr class="odd"><td><a href="tapi-3-1-overview.md">Overview</a><br/></td><td>General information about TAPI architecture and components.<br/></td></tr><tr class="even"><td>Reference<br/></td><td>Documentation for:<br/><ul><li><a href="call-and-media-controls-reference.md">Call and Media Controls Reference</a></li><li><a href="call-center-controls-reference.md">Call Center Controls Reference</a></li><li><a href="rendezvous-ip-telephony-conferencing-reference.md">Rendezvous Reference</a></li></ul></td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><thead><tr class="header"><th>Topic</th><th>Description</th></tr></thead><tbody><tr class="odd"><td><a href="tapi-3-1-overview.md">Overview</a><br/></td><td>General information about TAPI architecture and components.<br/></td></tr><tr class="even"><td>Reference<br/></td><td>Documentation for:<br/><ul><li><a href="call-and-media-controls-reference.md">Call and Media Controls Reference</a></li><li><a href="call-center-controls-reference.md">Call Center Controls Reference</a></li><li><a href="rendezvous-ip-telephony-conferencing-reference.md">Rendezvous Reference</a></li></ul></td></tr></tbody></table>
 
 
 

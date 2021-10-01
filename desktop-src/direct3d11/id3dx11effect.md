@@ -72,19 +72,13 @@ The effect system groups the information required for rendering into an effect w
 >
 > If you call [**QueryInterface**](/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)) on an **ID3DX11Effect** object to retrieve the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface, **QueryInterface** returns E\_NOINTERFACE. To work around this issue, use the following code:
 >
-> <span codelanguage=""></span>
+> 
 >
-> <table>
-> <colgroup>
-> <col style="width: 100%" />
-> </colgroup>
-> <tbody>
-> <tr class="odd">
-> <td><pre><code>    IUnknown* pIUnknown = (IUnknown*)pEffect;
->     pIUnknown->AddRef();</code></pre></td>
-> </tr>
-> </tbody>
-> </table>
+> 
+| 
+|
+| <pre><code>    IUnknown* pIUnknown = (IUnknown*)pEffect;&gt;     pIUnknown-&gt;AddRef();</code></pre> | 
+
 >
 > 
 >

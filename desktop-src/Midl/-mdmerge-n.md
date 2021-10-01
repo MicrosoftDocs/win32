@@ -43,8 +43,8 @@ Here are the possible value formats that you can specify with the **/n** switch.
 |--------------------------------|---------------------------------------------------------------------------------|
 | Int32 > 0                   | Compose all types at the namespace depth specified in the switch.               |
 | -1                             | Compose all types into one IDL file per namespace.                              |
-| <namespace>:Int32 > 0 | Compose all types with matching namespace at the depth specified in the switch. |
-| <namespace>:-1           | Compose all types with matching namespace into one file per namespace.          |
+| &lt;namespace&gt;:Int32 > 0 | Compose all types with matching namespace at the depth specified in the switch. |
+| &lt;namespace&gt;:-1           | Compose all types with matching namespace into one file per namespace.          |
 
 
 

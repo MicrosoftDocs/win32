@@ -22,7 +22,7 @@ Note that if this element is set to true, then the following must also be true.
 
 ## Element hierarchy
 
-**<IsAdditionalPdpContextProfile>**
+**&lt;IsAdditionalPdpContextProfile&gt;**
 
 ## Syntax
 
@@ -50,18 +50,11 @@ This outermost (document) element may not be contained by any other elements.
 
 ## Requirements
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Namespace</p></td>
-<td><p>https://www.microsoft.com/networking/WWAN/profile/v3</p></td>
-</tr>
-</tbody>
-</table>
+
+| Requirement | Value |
+|------------|----------|
+| <p>Namespace</p> | <p>https://www.microsoft.com/networking/WWAN/profile/v3</p> | 
+
 
  
 

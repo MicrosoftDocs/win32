@@ -21,57 +21,20 @@ For an example of how to use this filter, see [SAMI (CC) Parser](sami--cc--parse
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>Filter Interfaces</td>
-<td><a href="/windows/desktop/api/Strmif/nn-strmif-ibasefilter"><strong>IBaseFilter</strong></a>, <a href="/windows/desktop/api/Control/nn-control-imediaposition"><strong>IMediaPosition</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-imediaseeking"><strong>IMediaSeeking</strong></a></td>
-</tr>
-<tr class="even">
-<td>Input Pin Media Types</td>
-<td><ul>
-<li>MEDIATYPE_ScriptCommand, MEDIASUBTYPE_NULL</li>
-<li>MEDIATYPE_Text, MEDIASUBTYPE_NULL</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>Input Pin Interfaces</td>
-<td><a href="/windows/desktop/api/Strmif/nn-strmif-imeminputpin"><strong>IMemInputPin</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-ipin"><strong>IPin</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol"><strong>IQualityControl</strong></a></td>
-</tr>
-<tr class="even">
-<td>Output Pin Media Types</td>
-<td>Not applicable</td>
-</tr>
-<tr class="odd">
-<td>Output Pin Interfaces</td>
-<td>Not applicable</td>
-</tr>
-<tr class="even">
-<td>Filter CLSID</td>
-<td>{48025243-2D39-11CE-875D-00608CB78066}</td>
-</tr>
-<tr class="odd">
-<td>Property Page CLSID</td>
-<td>No property page</td>
-</tr>
-<tr class="even">
-<td>Executable</td>
-<td>Quartz.dll</td>
-</tr>
-<tr class="odd">
-<td><a href="merit.md">Merit</a></td>
-<td>MERIT_PREFERRED + 1</td>
-</tr>
-<tr class="even">
-<td><a href="filter-categories.md">Filter Category</a></td>
-<td>CLSID_LegacyAmFilterCategory</td>
-</tr>
-</tbody>
-</table>
+
+| Label | Value |
+|--------|-------|
+| Filter Interfaces | <a href="/windows/desktop/api/Strmif/nn-strmif-ibasefilter"><strong>IBaseFilter</strong></a>, <a href="/windows/desktop/api/Control/nn-control-imediaposition"><strong>IMediaPosition</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-imediaseeking"><strong>IMediaSeeking</strong></a> | 
+| Input Pin Media Types | <ul><li>MEDIATYPE_ScriptCommand, MEDIASUBTYPE_NULL</li><li>MEDIATYPE_Text, MEDIASUBTYPE_NULL</li></ul> | 
+| Input Pin Interfaces | <a href="/windows/desktop/api/Strmif/nn-strmif-imeminputpin"><strong>IMemInputPin</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-ipin"><strong>IPin</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol"><strong>IQualityControl</strong></a> | 
+| Output Pin Media Types | Not applicable | 
+| Output Pin Interfaces | Not applicable | 
+| Filter CLSID | {48025243-2D39-11CE-875D-00608CB78066} | 
+| Property Page CLSID | No property page | 
+| Executable | Quartz.dll | 
+| <a href="merit.md">Merit</a> | MERIT_PREFERRED + 1 | 
+| <a href="filter-categories.md">Filter Category</a> | CLSID_LegacyAmFilterCategory | 
+
 
 
 

@@ -28,44 +28,14 @@ There are two manifest settings that enable you to specify the process default D
 
 The table below shows how to specify different process-default DPI awareness modes using the two manifest settings:
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Process default DPI awareness mode</th>
-<th>&lt;dpiAware&gt; setting</th>
-<th>&lt;dpiAwareness&gt; setting (Windows 10, version 1607 and later)</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>unaware</td>
-<td><p>N/A (no dpiAware setting in manifest)</p>
-<p>or</p>
-<p>&lt;dpiAware&gt;false&lt;/dpiAware&gt;</p></td>
-<td>&lt;dpiAwareness&gt;unaware&lt;/dpiAwareness&gt;</td>
-</tr>
-<tr class="even">
-<td>System aware</td>
-<td>&lt;dpiAware&gt;true&lt;/dpiAware&gt;</td>
-<td>&lt;dpiAwareness&gt;system&lt;/dpiAwareness&gt;</td>
-</tr>
-<tr class="odd">
-<td>Per Monitor</td>
-<td>&lt;dpiAware&gt;true/pm&lt;dpiAware&gt;</td>
-<td>&lt;dpiAwareness&gt;PerMonitor&lt;/dpiAwareness&gt;</td>
-</tr>
-<tr class="even">
-<td>Per Monitor V2</td>
-<td>Not supported</td>
-<td>&lt;dpiAwareness&gt;PerMonitorV2&lt;/dpiAwareness&gt;</td>
-</tr>
-</tbody>
-</table>
+
+| Process default DPI awareness mode | &lt;dpiAware&gt; setting | &lt;dpiAwareness&gt; setting (Windows 10, version 1607 and later) | 
+|------------------------------------|--------------------|--------------------------------------------------------------|
+| unaware | <p>N/A (no dpiAware setting in manifest)</p><p>or</p><p>&lt;dpiAware&gt;false&lt;/dpiAware&gt;</p> | &lt;dpiAwareness&gt;unaware&lt;/dpiAwareness&gt; | 
+| System aware | &lt;dpiAware&gt;true&lt;/dpiAware&gt; | &lt;dpiAwareness&gt;system&lt;/dpiAwareness&gt; | 
+| Per Monitor | &lt;dpiAware&gt;true/pm&lt;dpiAware&gt; | &lt;dpiAwareness&gt;PerMonitor&lt;/dpiAwareness&gt; | 
+| Per Monitor V2 | Not supported | &lt;dpiAwareness&gt;PerMonitorV2&lt;/dpiAwareness&gt; | 
+
 
  
 
@@ -91,48 +61,13 @@ There are multiple APIs that let you specify the default DPI awareness for your 
 
  
 
-<table>
-<colgroup>
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>API</th>
-<th>Minimum version of Windows</th>
-<th>DPI Unaware</th>
-<th>System DPI Aware</th>
-<th>Per Monitor DPI Aware</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="/windows/win32/api/winuser/nf-winuser-setprocessdpiaware">SetProcessDpiAware</a></td>
-<td>Windows Vista</td>
-<td>N/A</td>
-<td>SetProcessDpiAware()</td>
-<td>N/A</td>
-</tr>
-<tr class="even">
-<td><a href="/windows/win32/api/shellscalingapi/nf-shellscalingapi-setprocessdpiawareness"><strong>SetProcessDpiAwareness</strong></a></td>
-<td>Windows 8.1</td>
-<td>SetProcessDpiAwareness(PROCESS_DPI_UNAWARE)</td>
-<td>SetProcessDpiAwareness(PROCESS_DPI_SYSTEM_DPI_AWARE)</td>
-<td>SetProcessDpiAwareness(PROCESS_DPI_PER_MONITOR_DPI_AWARE)</td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/win32/api/winuser/nf-winuser-setprocessdpiawarenesscontext"><strong>SetProcessDpiAwarenessContext</strong></a></td>
-<td>Windows 10, version 1607</td>
-<td>SetProcessDpiAwarenessContext(DPI_AWARENESS_CONTEXT_UNAWARE)</td>
-<td>SetProcessDpiAwarenessContext(DPI_AWARENESS_CONTEXT_SYSTEM_AWARE)</td>
-<td><p>SetProcessDpiAwarenessContext(DPI_AWARENESS_CONTEXT_PER_MONITOR_AWARE)</p>
-<p>SetProcessDpiAwarenessContext(DPI_AWARENESS_CONTEXT_PER_MONITOR_AWARE_V2)</p></td>
-</tr>
-</tbody>
-</table>
+
+| API | Minimum version of Windows | DPI Unaware | System DPI Aware | Per Monitor DPI Aware | 
+|-----|----------------------------|-------------|------------------|-----------------------|
+| <a href="/windows/win32/api/winuser/nf-winuser-setprocessdpiaware">SetProcessDPIAware</a> | Windows Vista | N/A | SetProcessDPIAware() | N/A | 
+| <a href="/windows/win32/api/shellscalingapi/nf-shellscalingapi-setprocessdpiawareness"><strong>SetProcessDpiAwareness</strong></a> | Windows 8.1 | SetProcessDpiAwareness(PROCESS_DPI_UNAWARE) | SetProcessDpiAwareness(PROCESS_SYSTEM_DPI_AWARE) | SetProcessDpiAwareness(PROCESS_PER_MONITOR_DPI_AWARE) | 
+| <a href="/windows/win32/api/winuser/nf-winuser-setprocessdpiawarenesscontext"><strong>SetProcessDpiAwarenessContext</strong></a> | Windows 10, version 1607 | SetProcessDpiAwarenessContext(DPI_AWARENESS_CONTEXT_UNAWARE) | SetProcessDpiAwarenessContext(DPI_AWARENESS_CONTEXT_SYSTEM_AWARE) | <p>SetProcessDpiAwarenessContext(DPI_AWARENESS_CONTEXT_PER_MONITOR_AWARE)</p><p>SetProcessDpiAwarenessContext(DPI_AWARENESS_CONTEXT_PER_MONITOR_AWARE_V2)</p> | 
+
 
  
 

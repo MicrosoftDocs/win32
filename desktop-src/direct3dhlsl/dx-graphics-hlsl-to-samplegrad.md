@@ -27,8 +27,8 @@ Samples a texture using a gradient to influence the way the sample location is c
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">

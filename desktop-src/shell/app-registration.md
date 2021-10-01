@@ -85,49 +85,16 @@ Using the DropTarget entry avoids these potential issues by providing access to 
 
 2.  See the following table for details of the **App Paths** subkey entries. 
 
-    <table>
-    <colgroup>
-    <col style="width: 50%" />
-    <col style="width: 50%" />
-    </colgroup>
-    <thead>
-    <tr class="header">
-    <th>Registry entry</th>
-    <th>Details</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>(Default)</td>
-    <td>Is the fully qualified path to the application. The application name provided in the (Default) entry can be stated with or without its .exe extension. If necessary, the <a href="/windows/desktop/api/Shellapi/nf-shellapi-shellexecuteexa"><strong>ShellExecuteEx</strong></a> function adds the extension when searching <strong>App Paths</strong> subkey. The entry is of the <strong>REG_SZ</strong> type.</td>
-    </tr>
-    <tr class="even">
-    <td>DontUseDesktopChangeRouter</td>
-    <td>Is mandatory for debugger applications to avoid file dialog deadlocks when debugging the Windows Explorer process. Setting the DontUseDesktopChangeRouter entry produces a slightly less efficient handling of the change notifications, however. The entry is of the <strong>REG_DWORD</strong> type and the value is 0x1.</td>
-    </tr>
-    <tr class="odd">
-    <td>DropTarget</td>
-    <td>Is a class identifier (CLSID). The DropTarget entry contains the CLSID of an object (usually a local server rather than an in-process server) that implements <a href="/windows/desktop/api/oleidl/nn-oleidl-idroptarget"><strong>IDropTarget</strong></a>. By default, when the drop target is an executable file, and no DropTarget value is provided, the Shell converts the list of dropped files into a command-line parameter and passes it to <a href="/windows/desktop/api/Shellapi/nf-shellapi-shellexecuteexa"><strong>ShellExecuteEx</strong></a> through <em>lpParameters</em>.</td>
-    </tr>
-    <tr class="even">
-    <td>Path</td>
-    <td>Supplies a string (in the form of a semicolon-separated list of directories) to append to the PATH environment variable when an application is launched by calling <a href="/windows/desktop/api/Shellapi/nf-shellapi-shellexecuteexa"><strong>ShellExecuteEx</strong></a>. It is the fully qualified path to the .exe. It is of <strong>REG_SZ</strong>. In <strong>Windows 7 and later</strong>, the type can be <strong>REG_EXPAND_SZ</strong>, and is commonly <strong>REG_EXPAND_SZ</strong> %ProgramFiles%.
-    <blockquote>
-    [!Note]<br />
-    In addition to the (Default), Path, and DropTarget entries recognized by the Shell, an application can also add custom values to its executable file's <strong>App Paths</strong> subkey. We encourage application developers to use the <strong>App Paths</strong> subkey to provide an application-specific path instead of making additions to the global system path.
-    </blockquote>
-    <br/></td>
-    </tr>
-    <tr class="odd">
-    <td>SupportedProtocols</td>
-    <td>Creates a string that contains the URL protocol schemes for a given key. This can contain multiple registry values to indicate which schemes are supported. This string follows the format of <strong>scheme1:scheme2</strong>. If this list is not empty, <strong>file:</strong> will be added to the string. This protocol is implicitly supported when <em>SupportedProtocols</em> is defined. <br/></td>
-    </tr>
-    <tr class="even">
-    <td>UseUrl</td>
-    <td>Indicates that your application can accept a URL (instead of a file name) on the command line. Applications that can open documents directly from the internet, like web browsers and media players, should set this entry. <br/> When the <a href="/windows/desktop/api/Shellapi/nf-shellapi-shellexecuteexa"><strong>ShellExecuteEx</strong></a> function starts an application and the UseUrl=1 value is not set, <strong>ShellExecuteEx</strong> downloads the document to a local file and invokes the handler on the local copy.<br/> For example, if the application has this entry set and a user right-clicks on a file stored on a web server, the Open verb will be made available. If not, the user will have to download the file and open the local copy. <br/> The UseUrl entry is of <strong>REG_DWORD</strong> type, and the value is 0x1.<br/> In Windows Vista and earlier, this entry indicated that the URL should be passed to the application along with a local file name, when called via ShellExecuteEx. In Windows 7, it indicates that the application can understand any http or https url that is passed to it, without having to supply the cache file name as well. This registry key is associated with the <em>SupportedProtocols</em> key.<br/></td>
-    </tr>
-    </tbody>
-    </table>
+    
+| Registry entry | Details | 
+|----------------|---------|
+| (Default) | Is the fully qualified path to the application. The application name provided in the (Default) entry can be stated with or without its .exe extension. If necessary, the <a href="/windows/desktop/api/Shellapi/nf-shellapi-shellexecuteexa"><strong>ShellExecuteEx</strong></a> function adds the extension when searching <strong>App Paths</strong> subkey. The entry is of the <strong>REG_SZ</strong> type. | 
+| DontUseDesktopChangeRouter | Is mandatory for debugger applications to avoid file dialog deadlocks when debugging the Windows Explorer process. Setting the DontUseDesktopChangeRouter entry produces a slightly less efficient handling of the change notifications, however. The entry is of the <strong>REG_DWORD</strong> type and the value is 0x1. | 
+| DropTarget | Is a class identifier (CLSID). The DropTarget entry contains the CLSID of an object (usually a local server rather than an in-process server) that implements <a href="/windows/desktop/api/oleidl/nn-oleidl-idroptarget"><strong>IDropTarget</strong></a>. By default, when the drop target is an executable file, and no DropTarget value is provided, the Shell converts the list of dropped files into a command-line parameter and passes it to <a href="/windows/desktop/api/Shellapi/nf-shellapi-shellexecuteexa"><strong>ShellExecuteEx</strong></a> through <em>lpParameters</em>. | 
+| Path | Supplies a string (in the form of a semicolon-separated list of directories) to append to the PATH environment variable when an application is launched by calling <a href="/windows/desktop/api/Shellapi/nf-shellapi-shellexecuteexa"><strong>ShellExecuteEx</strong></a>. It is the fully qualified path to the .exe. It is of <strong>REG_SZ</strong>. In <strong>Windows 7 and later</strong>, the type can be <strong>REG_EXPAND_SZ</strong>, and is commonly <strong>REG_EXPAND_SZ</strong> %ProgramFiles%.    <blockquote>    [!Note]<br />    In addition to the (Default), Path, and DropTarget entries recognized by the Shell, an application can also add custom values to its executable file's <strong>App Paths</strong> subkey. We encourage application developers to use the <strong>App Paths</strong> subkey to provide an application-specific path instead of making additions to the global system path.    </blockquote><br /> | 
+| SupportedProtocols | Creates a string that contains the URL protocol schemes for a given key. This can contain multiple registry values to indicate which schemes are supported. This string follows the format of <strong>scheme1:scheme2</strong>. If this list is not empty, <strong>file:</strong> will be added to the string. This protocol is implicitly supported when <em>SupportedProtocols</em> is defined. <br /> | 
+| UseUrl | Indicates that your application can accept a URL (instead of a file name) on the command line. Applications that can open documents directly from the internet, like web browsers and media players, should set this entry. <br /> When the <a href="/windows/desktop/api/Shellapi/nf-shellapi-shellexecuteexa"><strong>ShellExecuteEx</strong></a> function starts an application and the UseUrl=1 value is not set, <strong>ShellExecuteEx</strong> downloads the document to a local file and invokes the handler on the local copy.<br /> For example, if the application has this entry set and a user right-clicks on a file stored on a web server, the Open verb will be made available. If not, the user will have to download the file and open the local copy. <br /> The UseUrl entry is of <strong>REG_DWORD</strong> type, and the value is 0x1.<br /> In Windows Vista and earlier, this entry indicated that the URL should be passed to the application along with a local file name, when called via ShellExecuteEx. In Windows 7, it indicates that the application can understand any http or https url that is passed to it, without having to supply the cache file name as well. This registry key is associated with the <em>SupportedProtocols</em> key.<br /> | 
+
 
     
 

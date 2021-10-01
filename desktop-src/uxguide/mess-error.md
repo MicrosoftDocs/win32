@@ -399,40 +399,15 @@ For more guidelines and examples on overcommunicating, see [User Interface Text]
 
 Error messages have several usage patterns:
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><strong>System problems</strong><br/> The operating system, hardware device, network, or program has failed or is not in the state required to perform a task. <br/></td>
-<td>Many system problems can be solved by the user: <br/>
-<ul>
-<li>Device problems can be solved by turning the device on, reconnecting the device, and inserting media.</li>
-<li>Network problems can be solved by checking the physical network connect, and running <strong>Network diagnose and repair</strong>.</li>
-<li>Program problems can be solved by changing program options or restarting the program.</li>
-</ul>
-<img src="images/mess-error-image25.png" alt="Screen shot of message: Can&#39;t find a camera " /><br/> In this example, the program can't find a camera to perform a user task.<br/> <img src="images/mess-error-image26.png" alt="Screen shot of message Network discovery off " /><br/> In this example, a feature required to perform a task needs to be turned on.<br/></td>
-</tr>
-<tr class="even">
-<td><strong>File problems</strong><br/> A file or folder required for a task initiated by the user was not found, is already in use, or doesn't have the expected format. <br/></td>
-<td><img src="images/mess-error-image27.png" alt="Screen shot of message: Can&#39;t delete file " /><br/> In this example, the file or folder can't be deleted because it wasn't found.<br/> <img src="images/mess-error-image28.png" alt="Screen shot of message: Can&#39;t play this file " /><br/> In this example, the program doesn't support the given file format.<br/></td>
-</tr>
-<tr class="odd">
-<td><strong>Security problems</strong><br/> The user doesn't have permission to access a resource, or sufficient privilege to perform a task initiated by the user. <br/></td>
-<td><img src="images/mess-error-image29.png" alt="Screen shot of message: You don&#39;t have permission " /><br/> In this example, the user doesn't have permission to access a resource.<br/> <img src="images/mess-error-image30.png" alt="Screen shot of message: You don&#39;t have privilege " /><br/> In this example, the user doesn't have the privilege to perform a task.<br/></td>
-</tr>
-<tr class="even">
-<td><strong>Task problems</strong><br/> There is a specific problem performing a task initiated by the user (other than a system, file not found, file format, or security problem). <br/></td>
-<td><img src="images/mess-error-image31.png" alt="Screen shot of message: Data can&#39;t be pasted " /><br/> In this example, the Clipboard data can't be pasted into Paint.<br/> <img src="images/mess-error-image32.png" alt="Screen shot of message: Upgrade can&#39;t be installed " /><br/> In this example, the user can't install a software upgrade.<br/></td>
-</tr>
-<tr class="odd">
-<td><strong>User input problems</strong><br/> The user entered a value that is incorrect or inconsistent with other user input. <br/></td>
-<td><img src="images/mess-error-image33.png" alt="Screen shot of message: Incorrect time value " /><br/> In this example, the user entered an incorrect time value.<br/> <img src="images/mess-error-image34.png" alt="Screen shot of message: Incorrect input format " /><br/> In this example, user input is not in the correct format.<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Label | Value |
+|--------|-------|
+| <strong>System problems</strong><br /> The operating system, hardware device, network, or program has failed or is not in the state required to perform a task. <br /> | Many system problems can be solved by the user: <br /><ul><li>Device problems can be solved by turning the device on, reconnecting the device, and inserting media.</li><li>Network problems can be solved by checking the physical network connect, and running <strong>Network diagnose and repair</strong>.</li><li>Program problems can be solved by changing program options or restarting the program.</li></ul><img src="images/mess-error-image25.png" alt="Screen shot of message: Can't find a camera " /><br /> In this example, the program can't find a camera to perform a user task.<br /><img src="images/mess-error-image26.png" alt="Screen shot of message Network discovery off " /><br /> In this example, a feature required to perform a task needs to be turned on.<br /> | 
+| <strong>File problems</strong><br /> A file or folder required for a task initiated by the user was not found, is already in use, or doesn't have the expected format. <br /> | <img src="images/mess-error-image27.png" alt="Screen shot of message: Can't delete file " /><br /> In this example, the file or folder can't be deleted because it wasn't found.<br /><img src="images/mess-error-image28.png" alt="Screen shot of message: Can't play this file " /><br /> In this example, the program doesn't support the given file format.<br /> | 
+| <strong>Security problems</strong><br /> The user doesn't have permission to access a resource, or sufficient privilege to perform a task initiated by the user. <br /> | <img src="images/mess-error-image29.png" alt="Screen shot of message: You don't have permission " /><br /> In this example, the user doesn't have permission to access a resource.<br /><img src="images/mess-error-image30.png" alt="Screen shot of message: You don't have privilege " /><br /> In this example, the user doesn't have the privilege to perform a task.<br /> | 
+| <strong>Task problems</strong><br /> There is a specific problem performing a task initiated by the user (other than a system, file not found, file format, or security problem). <br /> | <img src="images/mess-error-image31.png" alt="Screen shot of message: Data can't be pasted " /><br /> In this example, the Clipboard data can't be pasted into Paint.<br /><img src="images/mess-error-image32.png" alt="Screen shot of message: Upgrade can't be installed " /><br /> In this example, the user can't install a software upgrade.<br /> | 
+| <strong>User input problems</strong><br /> The user entered a value that is incorrect or inconsistent with other user input. <br /> | <img src="images/mess-error-image33.png" alt="Screen shot of message: Incorrect time value " /><br /> In this example, the user entered an incorrect time value.<br /><img src="images/mess-error-image34.png" alt="Screen shot of message: Incorrect input format " /><br /> In this example, user input is not in the correct format.<br /> | 
+
 
 ## Guidelines
 

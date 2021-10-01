@@ -120,7 +120,7 @@ Keep in mind the following guidelines as you are developing and testing your pro
 [Initializing Property Handlers](./building-property-handlers-property-handlers.md)
 </dt> <dt>
 
-[Property Handler Best Practices and FAQ](./prophand-bestprac-faq.md)
+[Property Handler Best Practices and FAQ](./prophand-bestprac-faq.yml)
 </dt> </dl>
 
  

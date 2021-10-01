@@ -15,8 +15,8 @@ The WMI Query Language (WQL) is a subset of the American National Standards Inst
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">

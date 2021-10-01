@@ -46,39 +46,11 @@ The following table depicts a typical control and content view of the UI Automat
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Control View</th>
-<th>Content View</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><ul>
-<li>MenuItem &quot;Help&quot;
-<ul>
-<li>Menu (submenu of Help menu item)
-<ul>
-<li>MenuItem &quot;Help Topics&quot;</li>
-<li>MenuItem &quot;About Notepad&quot;</li>
-</ul></li>
-</ul></li>
-</ul></td>
-<td><ul>
-<li>MenuItem &quot;Help&quot;
-<ul>
-<li>MenuItem &quot;Help Topics&quot;</li>
-<li>MenuItem &quot;About Notepad&quot;</li>
-</ul></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| Control View | Content View | 
+|--------------|--------------|
+| <ul><li>MenuItem "Help"<ul><li>Menu (submenu of Help menu item)<ul><li>MenuItem "Help Topics"</li><li>MenuItem "About Notepad"</li></ul></li></ul></li></ul> | <ul><li>MenuItem "Help"<ul><li>MenuItem "Help Topics"</li><li>MenuItem "About Notepad"</li></ul></li></ul> | 
+
 
 
 

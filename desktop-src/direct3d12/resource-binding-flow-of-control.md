@@ -1,24 +1,17 @@
 ---
-title: Resource Binding Overview
-description: The key to resource binding in DirectX 12 are the concepts of a descriptor, descriptor tables, descriptor heaps, and a root signature.
+title: Resource binding overview
+description: The keys to understanding resource binding in DirectX 12 are the concepts of descriptors, descriptor tables, descriptor heaps, and root signatures.
 ms.assetid: 92E100CA-822D-46B1-BD37-FF57C3FB703D
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Resource Binding Overview
+# Resource binding overview
 
-The key to resource binding in DirectX 12 are the concepts of a *descriptor*, *descriptor tables*, *descriptor heaps*, and a *root signature*.
+The keys to understanding resource binding in DirectX 12 are the concepts of descriptors, descriptor tables, descriptor heaps, and root signatures.
 
--   [Resources and the Graphics Pipeline](#resources-and-the-graphics-pipeline)
--   [Resource types and views](#resource-types-and-views)
--   [Resource Binding Flow of Control](#resource-binding-overview)
--   [Suballocation](#suballocation)
--   [Freeing Resources](#freeing-resources)
--   [Related topics](#related-topics)
-
-## Resources and the Graphics Pipeline
+## Resources and the graphics pipeline
 
 Shader resources (such as textures, constant tables, images, buffers and so on) are not bound directly to the shader pipeline; instead, they are referenced through a *descriptor*. A descriptor is a small object that contains information about one resource.
 
@@ -68,7 +61,7 @@ Resource views are similar but slightly different from Direct3D 11, vertex and i
 
 Only the first four of these views are actually visible to shaders, refer to [Shader Visible Descriptor Heaps](shader-visible-descriptor-heaps.md) and [Non Shader Visible Descriptor Heaps](non-shader-visible-descriptor-heaps.md).
 
-## Resource Binding Flow of Control
+## Resource binding flow-of-control
 
 Focusing just on root signatures, root descriptors, root constants, descriptor tables, and descriptor heaps, the flow of rendering logic for an app should be similar to the following:
 
@@ -97,7 +90,7 @@ Note that other descriptor types, render target views (RTVs), depth stencil view
 
 In Direct3D 12, the app has low-level control over memory management. In earlier versions of Direct3D, including Direct3D 11, there would be one allocation per resource. In Direct3D 12, the app can use the API to allocate a large block of memory, larger than any single object would need. After this is done, the app can create descriptors to point to sections of that large memory block. This process of deciding what to put where (smaller blocks inside the large block) is known as *suballocation*. Enabling the app to do this can yield gains in efficient use of computation and memory. For example, resource renaming is rendered obsolete. In place of this, apps can use fences to determine when a particular resource is being used and when it's not by fencing on command list executions where the command list requires the use of that particular resource.
 
-## Freeing Resources
+## Freeing resources
 
 Before any memory that has been bound to the pipeline can be freed, the GPU must be finished with it.
 
@@ -105,15 +98,4 @@ Waiting for frame rendering is probably the coarsest way to be certain that the 
 
 ## Related topics
 
-<dl> <dt>
-
-[Resource Binding](resource-binding.md)
-</dt> </dl>
-
- 
-
- 
-
-
-
-
+* [Resource Binding](resource-binding.md)

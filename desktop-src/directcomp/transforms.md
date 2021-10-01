@@ -31,31 +31,38 @@ A 2D transform enables you to alter the position, size, or nature of a visual in
 
 A 2D transform is achieved by mapping the points of a visual from one position to another within the same coordinate space, or from one coordinate space to another. This mapping is described by a table of values called a transformation matrix, defined as a collection of three rows with three columns of floating-point values as shown in the following table.
 
-
-
-|                 |                 |     |
-|-----------------|-----------------|-----|
-| M11Default: 1.0 | M12Default: 0.0 | 0.0 |
-| M21Default: 0.0 | M22Default: 1.0 | 0.0 |
-| M31OffsetX: 0.0 | M32OffsetY: 0.0 | 1.0 |
-
-
-
- 
+:::row:::
+    :::column:::
+        M11Default: 1.0<br/>
+        M21Default: 0.0<br/>
+        M31OffsetX: 0.0
+    :::column-end:::
+    :::column:::
+        M12Default: 0.0<br/>
+        M22Default: 1.0<br/>
+        M32OffsetY: 0.0
+    :::column-end:::
+    :::column:::
+        0.0<br/>
+        0.0<br/>
+        1.0
+    :::column-end:::
+:::row-end:::
 
 The transformation matrix for affine 2D transforms is a 3-by-2 matrix that omits the third column from the previous transformation matrix. The following table shows the layout of this matrix.
 
-
-
-|                 |                 |
-|-----------------|-----------------|
-| M11Default: 1.0 | M12Default: 0.0 |
-| M21Default: 0.0 | M22Default: 1.0 |
-| M31OffsetX: 0.0 | M32OffsetY: 0.0 |
-
-
-
- 
+:::row:::
+    :::column:::
+        M11Default: 1.0<br/>
+        M21Default: 0.0<br/>
+        M31OffsetX: 0.0
+    :::column-end:::
+    :::column:::
+        M12Default: 0.0<br/>
+        M22Default: 1.0<br/>
+        M32OffsetY: 0.0
+    :::column-end:::
+:::row-end:::
 
 > [!Note]  
 > DirectComposition does no special processing when applying 2D transforms to stereo content. This means the 3D content might appear distorted when a 2D transform is applied to it.

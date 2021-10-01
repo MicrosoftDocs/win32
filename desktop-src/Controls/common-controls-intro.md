@@ -15,8 +15,8 @@ This topic discusses the common controls, a set of windows that are implemented 
 -   [Common Control Versions](common-control-versions.md)
 -   [Creating Common Controls](creating-common-controls.md)
 -   [Unicode Support for Common Controls](unicode-support.md)
--   [Localization Support for Common Controls](cc-faq-localization.md)
--   [Common Controls FAQ](cc-faq.md)
+-   [Localization Support for Common Controls](cc-faq-localization.yml)
+-   [Common Controls FAQ](cc-faq.yml)
 
 ## Related topics
 

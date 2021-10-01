@@ -368,14 +368,33 @@ The data in a matrix is loaded into shader constant registers before a shader ru
 
 A row-major matrix is laid out like the following:
 
+:::row:::
+    :::column:::
+        11<br/>
+        21<br/>
+        31<br/>
+        41<br/>
+    :::column-end:::
+    :::column:::
+        12<br/>
+        22<br/>
+        32<br/>
+        42<br/>
+    :::column-end:::
+    :::column:::
+        13<br/>
+        23<br/>
+        33<br/>
+        43<br/>
+    :::column-end:::
+    :::column:::
+        14<br/>
+        24<br/>
+        34<br/>
+        44<br/>
+    :::column-end:::
+:::row-end:::
 
-
-|     |     |     |     |
-|-----|-----|-----|-----|
-| 11  | 12  | 13  | 14  |
-| 21  | 22  | 23  | 24  |
-| 31  | 32  | 33  | 34  |
-| 41  | 42  | 43  | 44  |
 
 
 
@@ -384,13 +403,33 @@ A row-major matrix is laid out like the following:
 A column-major matrix is laid out like the following:
 
 
+:::row:::
+    :::column:::
+        11<br/>
+        12<br/>
+        13<br/>
+        14<br/>
+    :::column-end:::
+    :::column:::
+        21<br/>
+        22<br/>
+        23<br/>
+        24<br/>
+    :::column-end:::
+    :::column:::
+        31<br/>
+        32<br/>
+        33<br/>
+        34<br/>
+    :::column-end:::
+    :::column:::
+        41<br/>
+        42<br/>
+        43<br/>
+        44<br/>
+    :::column-end:::
+:::row-end:::
 
-|     |     |     |     |
-|-----|-----|-----|-----|
-| 11  | 21  | 31  | 41  |
-| 12  | 22  | 32  | 42  |
-| 13  | 23  | 33  | 43  |
-| 14  | 24  | 34  | 44  |
 
 
 

@@ -1,7 +1,7 @@
 ---
-title: Installation and Configuration for Windows Remote Management
+title: Installation and configuration for Windows Remote Management
 description: For Windows Remote Management (WinRM) scripts to run, and for the **Winrm** command-line tool to perform data operations, Windows Remote Management (WinRM) has to be both installed and configured.
-ms.date: 08/31/2020
+ms.date: 09/10/2021
 ms.assetid: 81c40456-0003-46d0-8695-83bf77432056
 ms.topic: article
 ms.custom: contperf-fy21q1
@@ -25,11 +25,11 @@ WinRM is automatically installed with all currently-supported versions of the Wi
 
 These WinRM and [Intelligent Platform Management Interface (IPMI)](./windows-remote-management-glossary.md#i) [WMI provider](/previous-versions/windows/desktop/ipmiprv/ipmi-provider) components are installed with the operating system.
 
-- The WinRM service starts automatically on Windows Server 2008 and on wards (on Windows Vista, you need to start the service manually).
-- By default, no WinRM [listener](./windows-remote-management-glossary.md#l) is configured. Even if the WinRM service is running, WS-Management protocol [messages](./windows-remote-management-glossary.md#m) that request data can't be received nor sent.
+- The WinRM service starts automatically on Windows Server 2008 and onwards (on Windows Vista, you need to start the service manually).
+- By default, no WinRM [listener](./windows-remote-management-glossary.md#l) is configured. Even if the WinRM service is running, WS-Management protocol [messages](./windows-remote-management-glossary.md#m) that request data can't be received or sent.
 - Internet Connection Firewall (ICF) blocks access to ports.
 
-Use the **Winrm** command to locate listeners and the addresses by typing the following command at a command prompt.
+Use the `Winrm` command to locate listeners and the addresses by typing the following command at a command prompt.
 
 ```console
 winrm e winrm/config/listener
@@ -52,7 +52,7 @@ The `winrm quickconfig` command (or the abbreviated version `winrm qc`) performs
 - Defines ICF exceptions for the WinRM service, and opens the ports for HTTP and HTTPS.
 
 > [!NOTE]
-> The `winrm quickconfig` command creates a firewall exception only for the current user profile. If the firewall profile is changed for any reason, you should run `winrm quickconfig` to enable the firewall exception for the new profile; otherwise, the exception might not be enabled.
+> The `winrm quickconfig` command creates a firewall exception only for the current user profile. If the firewall profile is changed for any reason, then you should run `winrm quickconfig` to enable the firewall exception for the new profile; otherwise, the exception might not be enabled.
 
 To retrieve information about customizing a configuration, type `winrm help config` at a command prompt.
 
@@ -110,7 +110,7 @@ Specifies whether the listener is enabled or disabled. The default value is *Tru
 
 ### URLPrefix
 
-Specifies a URL prefix on which to accept HTTP or HTTPS requests. This is a string containing only the characters a-z, A-Z, 9-0, underscore (\_), and slash (/). The string must not start with or end with a slash (/). For example, if the computer name is SampleMachine, then the WinRM client would specify https://SampleMachine/<*URLPrefix*> in the destination address. The default URL prefix is "wsman".
+Specifies a URL prefix on which to accept HTTP or HTTPS requests. This is a string containing only the characters a-z, A-Z, 9-0, underscore (\_), and slash (/). The string must not start with or end with a slash (/). For example, if the computer name is *SampleMachine*, then the WinRM client would specify `https://SampleMachine/<*URLPrefix*>` in the destination address. The default URL prefix is "wsman".
 
 ### CertificateThumbprint
 
@@ -122,14 +122,14 @@ Specifies the IPv4 and IPv6 addresses that the listener uses. For example: "111.
 
 ## Protocol default settings
 
-Many of the configuration settings, such as MaxEnvelopeSizekb or SoapTraceEnabled, determine how the WinRM client and server components interact with the WS-Management protocol. The following list describes the available configuration settings.
+Many of the configuration settings, such as *MaxEnvelopeSizekb* or *SoapTraceEnabled*, determine how the WinRM client and server components interact with the WS-Management protocol. The following list describes the available configuration settings.
 
 ### MaxEnvelopeSizekb
 
 Specifies the maximum Simple Object Access Protocol (SOAP) data in kilobytes. The default is 150 kilobytes.
 
 > [!NOTE]  
-> The behavior is unsupported if MaxEnvelopeSizekb is set to a value greater than 1039440.
+> The behavior is unsupported if *MaxEnvelopeSizekb* is set to a value greater than 1039440.
 
 ### MaxTimeoutms
 

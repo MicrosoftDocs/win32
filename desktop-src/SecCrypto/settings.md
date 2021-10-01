@@ -32,37 +32,12 @@ The **Settings** object has these properties.
 
 
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;">Property</th>
-<th style="text-align: left;">Access type</th>
-<th style="text-align: left;">Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;"><a href="settings-activedirectorysearchlocation.md"><strong>ActiveDirectorySearchLocation</strong></a><br/></td>
-<td style="text-align: left;">Read/write<br/></td>
-<td style="text-align: left;">Sets or retrieves the Active Directory search location. The initial location is unspecified by default. When the location is unspecified, the global catalog is searched, then the default domain is searched. The search determines whether the user certificate attribute is published at that location.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="settings-enablepromptforcertificateui.md"><strong>EnablePromptForCertificateUI</strong></a><br/></td>
-<td style="text-align: left;">Read/write<br/></td>
-<td style="text-align: left;">Sets or retrieves a Boolean value that indicates whether user interface prompts for a signer or sender's identity can be used. <br/>
-<blockquote>
-[!Note]<br />
-Setting this property does not disable warnings that are generated before any private key usage is done from a web-based application.
-</blockquote>
-<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Property | Access type | Description | 
+|----------|-------------|-------------|
+| <a href="settings-activedirectorysearchlocation.md"><strong>ActiveDirectorySearchLocation</strong></a><br /> | Read/write<br /> | Sets or retrieves the Active Directory search location. The initial location is unspecified by default. When the location is unspecified, the global catalog is searched, then the default domain is searched. The search determines whether the user certificate attribute is published at that location.<br /> | 
+| <a href="settings-enablepromptforcertificateui.md"><strong>EnablePromptForCertificateUI</strong></a><br /> | Read/write<br /> | Sets or retrieves a Boolean value that indicates whether user interface prompts for a signer or sender's identity can be used. <br /><blockquote>[!Note]<br />Setting this property does not disable warnings that are generated before any private key usage is done from a web-based application.</blockquote><br /> | 
+
 
 
 

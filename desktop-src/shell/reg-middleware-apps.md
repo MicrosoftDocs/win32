@@ -247,53 +247,14 @@ The feature by which the user selects per-machine default programs is named and 
 
 
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Operating System</th>
-<th>Title</th>
-<th>Access Location</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Windows 7</td>
-<td>Set Program Access and Computer Defaults</td>
-<td><ul>
-<li><strong>Start</strong> menu <strong>Default Programs</strong> option</li>
-<li><strong>Default Programs</strong> Control Panel item</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>Windows Vista</td>
-<td>Set Program Access and Computer Defaults</td>
-<td><ul>
-<li><strong>Start</strong> menu <strong>Default Programs</strong> option</li>
-<li><strong>Default Programs</strong> Control Panel item</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>Windows XP SP2</td>
-<td>Set Program Access and Defaults</td>
-<td><ul>
-<li><strong>Start</strong> menu</li>
-<li><strong>Add or Remove Programs</strong> Control Panel item</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>Windows XP SP1</td>
-<td>Configure Programs</td>
-<td><ul>
-<li><strong>Add or Remove Programs</strong> Control Panel item</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| Operating System | Title | Access Location | 
+|------------------|-------|-----------------|
+| Windows 7 | Set Program Access and Computer Defaults | <ul><li><strong>Start</strong> menu <strong>Default Programs</strong> option</li><li><strong>Default Programs</strong> Control Panel item</li></ul> | 
+| Windows Vista | Set Program Access and Computer Defaults | <ul><li><strong>Start</strong> menu <strong>Default Programs</strong> option</li><li><strong>Default Programs</strong> Control Panel item</li></ul> | 
+| Windows XP SP2 | Set Program Access and Defaults | <ul><li><strong>Start</strong> menu</li><li><strong>Add or Remove Programs</strong> Control Panel item</li></ul> | 
+| Windows XP SP1 | Configure Programs | <ul><li><strong>Add or Remove Programs</strong> Control Panel item</li></ul> | 
+
 
 
 

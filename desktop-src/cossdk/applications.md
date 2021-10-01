@@ -228,7 +228,7 @@ For more information, see "Side-by-Side Assemblies" in [Changes in COM+ Services
 | Description    | A GUID representing the application partition ID. |
 | Access         | ReadOnly                                          |
 | Type           | String                                            |
-| Default        | <Generated>                                 |
+| Default        | &lt;Generated&gt;                                 |
 | Minimum system | Windows Server 2003                               |
 
 
@@ -499,7 +499,7 @@ For more information, see "Side-by-Side Assemblies" in [Changes in COM+ Services
 | Description    | A GUID representing the application. This property is returned when the [**Key**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogobject-get_key) property method is called on an object of this collection. |
 | Access         | WriteOnce                                                                                                                                                            |
 | Type           | String                                                                                                                                                               |
-| Default        | <Generated>                                                                                                                                                    |
+| Default        | &lt;Generated&gt;                                                                                                                                                    |
 | Minimum system | Windows 2000                                                                                                                                                         |
 
 

@@ -174,7 +174,7 @@ return false;
 
 
 
-Windows Media metafiles can contain custom parameter elements, which you specify by using the **<PARAM>** tag. When using the version 6.4 object model, you can retrieve the name of a particular parameter with the *Player6*.**GetMediaParameterName** method. The following JScript example retrieves the name of the first parameter in the first entry of an .asx playlist:
+Windows Media metafiles can contain custom parameter elements, which you specify by using the **&lt;PARAM&gt;** tag. When using the version 6.4 object model, you can retrieve the name of a particular parameter with the *Player6*.**GetMediaParameterName** method. The following JScript example retrieves the name of the first parameter in the first entry of an .asx playlist:
 
 
 ```C++

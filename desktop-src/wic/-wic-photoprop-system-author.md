@@ -44,7 +44,7 @@ Values from different schemas are reconciled.
 |-------|----------------------------------|----------------|
 | 1     | /app1/ifd/{ushort=315}           | ascii          |
 | 2     | /app13/irb/8bimiptc/iptc/by-line |                |
-| 3     | /xmp/<xmpseq>dc:creator    | unicode        |
+| 3     | /xmp/&lt;xmpseq&gt;dc:creator    | unicode        |
 | 4     | /app13/irb/8bimiptc/iptc/by-line |                |
 | 5     | /app1/ifd/{ushort=40093}         | unicode\_bytes |
 | 6     | /xmp/tiff:artist                 | unicode        |
@@ -59,7 +59,7 @@ Values from different schemas are reconciled.
 
 | Order | Path                             | Disk Format    |
 |-------|----------------------------------|----------------|
-| 1     | /xmp/<xmpseq>dc:creator    | unicode        |
+| 1     | /xmp/&lt;xmpseq&gt;dc:creator    | unicode        |
 | 2     | /xmp/tiff:artist                 | unicode        |
 | 3     | /app13/irb/8bimiptc/iptc/by-line |                |
 | 4     | /app1/ifd/{ushort=315}           | ascii          |
@@ -95,7 +95,7 @@ Values from different schemas are reconciled.
 |-------|-----------------------------------|----------------|
 | 1     | /ifd/{ushort=315}                 | ascii          |
 | 2     | /ifd/iptc/by-line                 |                |
-| 3     | /ifd/xmp/<xmpseq>dc:creator | unicode        |
+| 3     | /ifd/xmp/&lt;xmpseq&gt;dc:creator | unicode        |
 | 4     | /ifd/iptc/by-line                 |                |
 | 5     | /ifd/{ushort=40093}               | unicode\_bytes |
 | 6     | /ifd/irb/8bimiptc/iptc/by-line    |                |
@@ -111,7 +111,7 @@ Values from different schemas are reconciled.
 
 | Order | Path                              | Disk Format    |
 |-------|-----------------------------------|----------------|
-| 1     | /ifd/xmp/<xmpseq>dc:creator | unicode        |
+| 1     | /ifd/xmp/&lt;xmpseq&gt;dc:creator | unicode        |
 | 2     | /ifd/xmp/tiff:artist              | unicode        |
 | 3     | /ifd/iptc/by-line                 |                |
 | 4     | /ifd/{ushort=315}                 | ascii\_vector  |

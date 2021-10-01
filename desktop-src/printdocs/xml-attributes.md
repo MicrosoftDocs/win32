@@ -1,5 +1,5 @@
 ---
-description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: Learn about XML attributes in the Print Schema Framework. This topic isn't current. For the most current information, see the Print Schema Specification.
 ms.assetid: 41bc10fe-6c00-44c5-ba9a-10414b31cbdf
 title: XML Attributes
 ms.topic: article
@@ -18,10 +18,10 @@ Although private parties are not permitted to introduce new definitions into ano
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col  />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -53,7 +53,7 @@ The following example shows how to identify an Option instance using a 'name' at
     <psf:ScoredProperty name=&quot;psk:SheetCapacity&quot; >
       <psf:Value xsi:type=&quot;xs:integer&quot;>_Undefined_</psf:Value>
     </psf:ScoredProperty>
-  </psf:Option></code></pre></td>
+  &lt;/psf:Option&gt;</code></pre></td>
 </tr>
 <tr class="even">
 <td>propagate <br/></td>

@@ -38,7 +38,7 @@ The SDK provides both 32-bit and 64-bit versions of MFTrace. MFTrace does not su
 
 sdk-root on 32 bit systems: \Program Files\Windows Kits\10 
 sdk-root on 64 bit system: \Program Files (x86)\Windows Kits\10
-You will find mftrace at <sdk-root>\bin\<sdk-version>\<architecture>\mftrace.exe
+You will find mftrace at &lt;sdk-root&gt;\bin\<sdk-version>\<architecture>\mftrace.exe
 
 ## Related topics
 

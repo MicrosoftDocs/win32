@@ -25,63 +25,14 @@ If a key is missing or if it contains an invalid value, the entire configuration
 
 
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Port key</th>
-<th>Data type</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre data-space="preserve"><code>HKEY_LOCAL_MACHINE
-   Software
-      Microsoft
-         Rpc
-            Internet
-               Ports</code></pre></td>
-<td><strong>REG_MULTI_SZ</strong></td>
-<td>Specifies a set of IP port ranges consisting of either all the ports available from the Internet or all the ports not available from the Internet. Each string represents a single port or an inclusive set of ports (for example,1000-1050, 1984). If any entries are outside the range 0 to 65535, or if any string cannot be interpreted, the RPC run time will treat the entire configuration as invalid.</td>
-</tr>
-<tr class="even">
-<td><pre data-space="preserve"><code>HKEY_LOCAL_MACHINE
-   Software
-      Microsoft
-         Rpc
-            Internet
-               PortsInternetAvailable</code></pre></td>
-<td><strong>REG_SZ</strong></td>
-<td>Y or N (not case-sensitive). If Y, the ports listed in the Ports key are all the Internet-available ports on that computer. If N, the ports listed in the Ports key are all those ports that are not Internet-available.</td>
-</tr>
-<tr class="odd">
-<td><pre data-space="preserve"><code>HKEY_LOCAL_MACHINE
-   Software
-      Microsoft
-         Rpc
-            Internet
-               UseInternetPorts</code></pre></td>
-<td><strong>REG_SZ</strong></td>
-<td>Y or N (not case-sensitive). Specifies the system default policy. If Y, the processes using the default will be assigned ports from the set of Internet-available ports, as defined above. If N, processes using the default will be assigned ports from the set of intranet-only ports.</td>
-</tr>
-<tr class="even">
-<td><pre data-space="preserve"><code>HKEY_LOCAL_MACHINE
-   System
-      CurrentControlSet
-         Services
-            Rpc
-               Linkage
-                  Bind</code></pre></td>
-<td><strong>REG_MULTI_SZ</strong></td>
-<td>Lists the device names of all the NICs on which to bind by default (for example, \Device\AMDPCN1). If the key does not exist, the server will bind to all NICs. If the key does exist, the server will bind to the NICs specified in the key, unless the NICFlags field is set to RPC_C_BIND_TO_ALL_NICS. If the key has a null (&quot;&quot;) value, the configuration will be marked as invalid and all calls to <strong>RpcServerUseProtseq*</strong> over <a href="/windows/desktop/Midl/ncacn-ip-tcp"><strong>ncacn_ip_tcp</strong></a> or <a href="/windows/desktop/Midl/ncadg-ip-udp"><strong>ncadg_ip_udp</strong></a> will fail.</td>
-</tr>
-</tbody>
-</table>
+
+| Port key | Data type | Description | 
+|----------|-----------|-------------|
+| <pre data-space="preserve"><code>HKEY_LOCAL_MACHINE   Software      Microsoft         Rpc            Internet               Ports</code></pre> | <strong>REG_MULTI_SZ</strong> | Specifies a set of IP port ranges consisting of either all the ports available from the Internet or all the ports not available from the Internet. Each string represents a single port or an inclusive set of ports (for example,1000-1050, 1984). If any entries are outside the range 0 to 65535, or if any string cannot be interpreted, the RPC run time will treat the entire configuration as invalid. | 
+| <pre data-space="preserve"><code>HKEY_LOCAL_MACHINE   Software      Microsoft         Rpc            Internet               PortsInternetAvailable</code></pre> | <strong>REG_SZ</strong> | Y or N (not case-sensitive). If Y, the ports listed in the Ports key are all the Internet-available ports on that computer. If N, the ports listed in the Ports key are all those ports that are not Internet-available. | 
+| <pre data-space="preserve"><code>HKEY_LOCAL_MACHINE   Software      Microsoft         Rpc            Internet               UseInternetPorts</code></pre> | <strong>REG_SZ</strong> | Y or N (not case-sensitive). Specifies the system default policy. If Y, the processes using the default will be assigned ports from the set of Internet-available ports, as defined above. If N, processes using the default will be assigned ports from the set of intranet-only ports. | 
+| <pre data-space="preserve"><code>HKEY_LOCAL_MACHINE   System      CurrentControlSet         Services            Rpc               Linkage                  Bind</code></pre> | <strong>REG_MULTI_SZ</strong> | Lists the device names of all the NICs on which to bind by default (for example, \Device\AMDPCN1). If the key does not exist, the server will bind to all NICs. If the key does exist, the server will bind to the NICs specified in the key, unless the NICFlags field is set to RPC_C_BIND_TO_ALL_NICS. If the key has a null ("") value, the configuration will be marked as invalid and all calls to <strong>RpcServerUseProtseq*</strong> over <a href="/windows/desktop/Midl/ncacn-ip-tcp"><strong>ncacn_ip_tcp</strong></a> or <a href="/windows/desktop/Midl/ncadg-ip-udp"><strong>ncadg_ip_udp</strong></a> will fail. | 
+
 
 
 

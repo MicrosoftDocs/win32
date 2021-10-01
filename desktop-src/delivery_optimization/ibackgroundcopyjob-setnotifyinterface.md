@@ -1,6 +1,6 @@
 ---
 title: IBackgroundCopyJob SetNotifyInterface method (Deliveryoptimization.h)
-description: Identifies your implementation of the IBackgroundCopyCallback interface to DO. Use the IBackgroundCopyCallback interface to receive notification of job-related events.
+description: Identifies your implementation of the IBackgroundCopyCallback interface to Delivery Optimization. Use the IBackgroundCopyCallback interface to receive notification of job-related events.
 ms.assetid: 792211FC-440E-4D2C-A6C7-CE9EFB86571C
 keywords:
 - SetNotifyInterface method
@@ -21,7 +21,7 @@ ROBOTS: INDEX,FOLLOW
 
 # IBackgroundCopyJob::SetNotifyInterface method
 
-Identifies your implementation of the [**IBackgroundCopyCallback**](ibackgroundcopycallback.md) interface to DO. Use the **IBackgroundCopyCallback** interface to receive notification of job-related events.
+Identifies your implementation of the [**IBackgroundCopyCallback**](ibackgroundcopycallback.md) interface to Delivery Optimization. Use the **IBackgroundCopyCallback** interface to receive notification of job-related events.
 
 ## Syntax
 
@@ -63,7 +63,7 @@ This method returns the following **HRESULT** values, as well as others.
 
 Call this method only if you implement the [**IBackgroundCopyCallback**](ibackgroundcopycallback.md) interface. Use the **SetNotifyInterface** method in conjunction with the [**SetNotifyFlags**](ibackgroundcopyjob-setnotifyflags.md) method to specify the type of notification that you want to receive.
 
-The notification interface becomes invalid when your application terminates; DO does not persist the notify interface. As a result, your application's initialization process should call the **SetNotifyInterface** method on those existing jobs for which you want to receive notification. If you need to capture state and progress information that occurred since the last time your application was run, poll for state and progress information during application initialization.
+The notification interface becomes invalid when your application terminates; Delivery Optimization does not persist the notify interface. As a result, your application's initialization process should call the **SetNotifyInterface** method on those existing jobs for which you want to receive notification. If you need to capture state and progress information that occurred since the last time your application was run, poll for state and progress information during application initialization.
 
 Only the job owner/creator or an administrator can register for notifications.
 

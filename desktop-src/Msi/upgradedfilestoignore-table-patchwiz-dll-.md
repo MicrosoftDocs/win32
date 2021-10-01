@@ -37,7 +37,7 @@ Foreign key to the Upgraded column of the [UpgradedImages Table (Patchwiz.dll)](
 <span id="FTK"></span><span id="ftk"></span>FTK
 </dt> <dd>
 
-Foreign key into the [File table](file-table.md) of the upgraded image. A value of the form "<prefix>\*" matches all file table keys in the File table that begin with that prefix. No text can follow the asterisk.
+Foreign key into the [File table](file-table.md) of the upgraded image. A value of the form "&lt;prefix&gt;\*" matches all file table keys in the File table that begin with that prefix. No text can follow the asterisk.
 
 </dd> </dl>
 

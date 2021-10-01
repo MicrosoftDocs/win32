@@ -67,8 +67,8 @@ If the *pvResult* buffer provided is too small, either JET_errInvalidBufferSize 
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -126,8 +126,8 @@ If the *pvResult* buffer provided is too small, either JET_errInvalidBufferSize 
 <div class="tableSection">
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -171,8 +171,8 @@ This function returns the [JET_ERR](./jet-err.md) datatype with one of the follo
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -213,8 +213,8 @@ If this function fails, the output buffer will be in an undefined state.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">

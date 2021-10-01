@@ -24,8 +24,8 @@ In addition to setting the configuration elements within this element, an MMS pr
 
 ## Element hierarchy
 
-[<MBNProfileExt>](element-mbnprofileext.md)  
-**<MmsConfiguration>**
+[&lt;MBNProfileExt&gt;](element-mbnprofileext.md)  
+**&lt;MmsConfiguration&gt;**
 
 ## Syntax
 
@@ -52,73 +52,33 @@ None.
 
 ### <span id="Child_Elements"></span><span id="child_elements"></span><span id="CHILD_ELEMENTS"></span>Child Elements
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Child Element</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="element-mmsmaximummessagesize.md">MmsMaximumMessageSize</a></td>
-<td><p>Specifies the maximum size of MMS messages, in kilobytes. Optional.</p></td>
-</tr>
-<tr class="even">
-<td><a href="element-mmscport.md">MmscPort</a></td>
-<td><p>Specifies the port number of the MMSC server for the device. Specify 0 to indicate that no specific port is specified. Optional.</p></td>
-</tr>
-<tr class="odd">
-<td><a href="element-mmscurl.md">MmscUrl</a></td>
-<td><p>Specifies the URL of the MMSC server for the device. Optional.</p></td>
-</tr>
-</tbody>
-</table>
+
+| Child Element | Description | 
+|---------------|-------------|
+| <a href="element-mmsmaximummessagesize.md">MmsMaximumMessageSize</a> | <p>Specifies the maximum size of MMS messages, in kilobytes. Optional.</p> | 
+| <a href="element-mmscport.md">MmscPort</a> | <p>Specifies the port number of the MMSC server for the device. Specify 0 to indicate that no specific port is specified. Optional.</p> | 
+| <a href="element-mmscurl.md">MmscUrl</a> | <p>Specifies the URL of the MMSC server for the device. Optional.</p> | 
+
 
  
 
 ### <span id="parent_elements"></span><span id="PARENT_ELEMENTS"></span>Parent Elements
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Parent Element</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="element-mbnprofileext.md">MBNProfileExt</a></td>
-<td><p>The <strong>MBNProfileExt</strong> element is an extension of the earlier MBNProfile element. It identifies a Mobile Broadband profile with a richer set of options than the MBNProfile element.</p>
-<p>There can be more than one MbnProfileExt element in a profile, describing profile settings for a particular set of operating conditions. Use the <a href="element-profileconditionedon.md"><strong>ProfileConditionedOn</strong></a> child element of <strong>MBNProfileExt</strong> to specify which operating conditions make a particular profile the active profile.</p></td>
-</tr>
-</tbody>
-</table>
+
+| Parent Element | Description | 
+|----------------|-------------|
+| <a href="element-mbnprofileext.md">MBNProfileExt</a> | <p>The <strong>MBNProfileExt</strong> element is an extension of the earlier MBNProfile element. It identifies a Mobile Broadband profile with a richer set of options than the MBNProfile element.</p><p>There can be more than one MbnProfileExt element in a profile, describing profile settings for a particular set of operating conditions. Use the <a href="element-profileconditionedon.md"><strong>ProfileConditionedOn</strong></a> child element of <strong>MBNProfileExt</strong> to specify which operating conditions make a particular profile the active profile.</p> | 
+
 
  
 
 ## Requirements
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Namespace</p></td>
-<td><p>https://www.microsoft.com/networking/WWAN/profile/v4</p></td>
-</tr>
-</tbody>
-</table>
+
+| Requirement | Value |
+|------------|----------|
+| <p>Namespace</p> | <p>https://www.microsoft.com/networking/WWAN/profile/v4</p> | 
+
 
  
 

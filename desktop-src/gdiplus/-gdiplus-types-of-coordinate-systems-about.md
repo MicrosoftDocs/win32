@@ -22,7 +22,7 @@ The coordinates of the endpoints of your line in the three coordinate spaces are
 
 
 
-|        |                         |
+| Space       |  Endpoint coordinates                       |
 |--------|-------------------------|
 | World  | (0, 0) to (160, 80)     |
 | Page   | (100, 50) to (260, 130) |
@@ -69,7 +69,7 @@ If we assume that the display device has 96 dots per inch in the horizontal dire
 
 
 
-|        |                     |
+| Space       | Endpoint coordinates                    |
 |--------|---------------------|
 | World  | (0, 0) to (2, 1)    |
 | Page   | (0, 0) to (2, 1)    |
@@ -98,7 +98,7 @@ If we assume that the display device has 96 dots per inch in the horizontal dire
 
 
 
-|        |                         |
+| Space       | Endpoint coordinates                        |
 |--------|-------------------------|
 | World  | (0, 0) to (2, 1)        |
 | Page   | (2, 0.5) to (4, 1.5)    |

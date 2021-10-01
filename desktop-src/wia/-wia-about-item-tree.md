@@ -58,84 +58,15 @@ The following table shows WIA category grouping with item flags and WIA items. T
 
 
 
-<table>
-<colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>WIA Category</th>
-<th>Valid WIA Item Flags</th>
-<th>WIA Property Set</th>
-<th>WIA Items</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>WIA_CATEGORY_AUTO</td>
-<td><ul>
-<li><a href="-wia-wia-item-type-flags.md"><strong>WiaItemTypeProgrammableDataSource</strong></a></li>
-<li><a href="-wia-wia-item-type-flags.md"><strong>WiaItemTypeImage</strong></a></li>
-<li><a href="-wia-wia-item-type-flags.md"><strong>WiaItemTypeTransfer</strong></a></li>
-<li><a href="-wia-wia-item-type-flags.md"><strong>WiaItemTypeFile</strong></a></li>
-</ul></td>
-<td>Property set includes auto-configured scanner properties.</td>
-<td>WIA auto item that represents the scanner's auto-configured scanning settings.</td>
-</tr>
-<tr class="even">
-<td>WIA_CATEGORY_FEEDER</td>
-<td><ul>
-<li><a href="-wia-wia-item-type-flags.md"><strong>WiaItemTypeProgrammableDataSource</strong></a></li>
-<li><a href="-wia-wia-item-type-flags.md"><strong>WiaItemTypeImage</strong></a></li>
-<li><a href="-wia-wia-item-type-flags.md"><strong>WiaItemTypeDocument</strong></a></li>
-<li><a href="-wia-wia-item-type-flags.md"><strong>WiaItemTypeTransfer</strong></a></li>
-<li><a href="-wia-wia-item-type-flags.md"><strong>WiaItemTypeFolder</strong></a></li>
-</ul></td>
-<td>Property set includes feeder scanner control properties (usually image and document specific property set).</td>
-<td>WIA Feeder items, including child items that represent the front and back pages of a document.</td>
-</tr>
-<tr class="odd">
-<td>WIA_CATEGORY_FILM</td>
-<td><ul>
-<li><a href="-wia-wia-item-type-flags.md"><strong>WiaItemTypeProgrammableDataSource</strong></a></li>
-<li><a href="-wia-wia-item-type-flags.md"><strong>WiaItemTypeImage</strong></a></li>
-<li><a href="-wia-wia-item-type-flags.md"><strong>WiaItemTypeTransfer</strong></a></li>
-<li><a href="-wia-wia-item-type-flags.md"><strong>WiaItemTypeFolder</strong></a></li>
-</ul></td>
-<td>Property set includes film scanner control properties (usually image and document specific property set).</td>
-<td>WIA Film items, including child items that represent the individual scanning frames.</td>
-</tr>
-<tr class="even">
-<td>WIA_CATEGORY_FINISHED_FILE</td>
-<td><ul>
-<li><a href="-wia-wia-item-type-flags.md"><strong>WiaItemTypeFolder</strong></a></li>
-<li><a href="-wia-wia-item-type-flags.md"><strong>WiaItemTypeImage</strong></a></li>
-<li><a href="-wia-wia-item-type-flags.md"><strong>WiaItemTypeAudio</strong></a></li>
-<li><a href="-wia-wia-item-type-flags.md"><strong>WiaItemTypeVideo</strong></a></li>
-<li><a href="-wia-wia-item-type-flags.md"><strong>WiaItemTypeDocument</strong></a></li>
-<li><a href="-wia-wia-item-type-flags.md"><strong>WiaItemTypeTransfer</strong></a></li>
-</ul></td>
-<td>The property set on this item depends on the item type reported. For example, <a href="-wia-wia-item-type-flags.md"><strong>WiaItemTypeImage</strong></a> should include some image item properties, like bits per pixel and so forth.</td>
-<td>WIA storage items, including child items that represent finished file content (data files like JPEG, HTML, TXT, and so forth).</td>
-</tr>
-<tr class="odd">
-<td>WIA_CATEGORY_FLATBED</td>
-<td><ul>
-<li><a href="-wia-wia-item-type-flags.md"><strong>WiaItemTypeProgrammableDataSource</strong></a></li>
-<li><a href="-wia-wia-item-type-flags.md"><strong>WiaItemTypeImage</strong></a></li>
-<li><a href="-wia-wia-item-type-flags.md"><strong>WiaItemTypeDocument</strong></a></li>
-<li><a href="-wia-wia-item-type-flags.md"><strong>WiaItemTypeTransfer</strong></a></li>
-<li><a href="-wia-wia-item-type-flags.md"><strong>WiaItemTypeFolder</strong></a>—may be present if the scanner supports multi-item scanning.</li>
-<li><a href="-wia-wia-item-type-flags.md"><strong>WiaItemTypeGenerated</strong></a>—may be present if the application generates a WIA item during a multi-item scanning session.</li>
-</ul></td>
-<td>The property set includes flatbed scanner control properties (usually image and document specific property set).</td>
-<td>WIA flatbed items, including child items that represent regions being scanned on the scanner's flatbed platen.</td>
-</tr>
-</tbody>
-</table>
+
+| WIA Category | Valid WIA Item Flags | WIA Property Set | WIA Items | 
+|--------------|----------------------|------------------|-----------|
+| WIA_CATEGORY_AUTO | <ul><li><a href="-wia-wia-item-type-flags.md"><strong>WiaItemTypeProgrammableDataSource</strong></a></li><li><a href="-wia-wia-item-type-flags.md"><strong>WiaItemTypeImage</strong></a></li><li><a href="-wia-wia-item-type-flags.md"><strong>WiaItemTypeTransfer</strong></a></li><li><a href="-wia-wia-item-type-flags.md"><strong>WiaItemTypeFile</strong></a></li></ul> | Property set includes auto-configured scanner properties. | WIA auto item that represents the scanner's auto-configured scanning settings. | 
+| WIA_CATEGORY_FEEDER | <ul><li><a href="-wia-wia-item-type-flags.md"><strong>WiaItemTypeProgrammableDataSource</strong></a></li><li><a href="-wia-wia-item-type-flags.md"><strong>WiaItemTypeImage</strong></a></li><li><a href="-wia-wia-item-type-flags.md"><strong>WiaItemTypeDocument</strong></a></li><li><a href="-wia-wia-item-type-flags.md"><strong>WiaItemTypeTransfer</strong></a></li><li><a href="-wia-wia-item-type-flags.md"><strong>WiaItemTypeFolder</strong></a></li></ul> | Property set includes feeder scanner control properties (usually image and document specific property set). | WIA Feeder items, including child items that represent the front and back pages of a document. | 
+| WIA_CATEGORY_FILM | <ul><li><a href="-wia-wia-item-type-flags.md"><strong>WiaItemTypeProgrammableDataSource</strong></a></li><li><a href="-wia-wia-item-type-flags.md"><strong>WiaItemTypeImage</strong></a></li><li><a href="-wia-wia-item-type-flags.md"><strong>WiaItemTypeTransfer</strong></a></li><li><a href="-wia-wia-item-type-flags.md"><strong>WiaItemTypeFolder</strong></a></li></ul> | Property set includes film scanner control properties (usually image and document specific property set). | WIA Film items, including child items that represent the individual scanning frames. | 
+| WIA_CATEGORY_FINISHED_FILE | <ul><li><a href="-wia-wia-item-type-flags.md"><strong>WiaItemTypeFolder</strong></a></li><li><a href="-wia-wia-item-type-flags.md"><strong>WiaItemTypeImage</strong></a></li><li><a href="-wia-wia-item-type-flags.md"><strong>WiaItemTypeAudio</strong></a></li><li><a href="-wia-wia-item-type-flags.md"><strong>WiaItemTypeVideo</strong></a></li><li><a href="-wia-wia-item-type-flags.md"><strong>WiaItemTypeDocument</strong></a></li><li><a href="-wia-wia-item-type-flags.md"><strong>WiaItemTypeTransfer</strong></a></li></ul> | The property set on this item depends on the item type reported. For example, <a href="-wia-wia-item-type-flags.md"><strong>WiaItemTypeImage</strong></a> should include some image item properties, like bits per pixel and so forth. | WIA storage items, including child items that represent finished file content (data files like JPEG, HTML, TXT, and so forth). | 
+| WIA_CATEGORY_FLATBED | <ul><li><a href="-wia-wia-item-type-flags.md"><strong>WiaItemTypeProgrammableDataSource</strong></a></li><li><a href="-wia-wia-item-type-flags.md"><strong>WiaItemTypeImage</strong></a></li><li><a href="-wia-wia-item-type-flags.md"><strong>WiaItemTypeDocument</strong></a></li><li><a href="-wia-wia-item-type-flags.md"><strong>WiaItemTypeTransfer</strong></a></li><li><a href="-wia-wia-item-type-flags.md"><strong>WiaItemTypeFolder</strong></a>—may be present if the scanner supports multi-item scanning.</li><li><a href="-wia-wia-item-type-flags.md"><strong>WiaItemTypeGenerated</strong></a>—may be present if the application generates a WIA item during a multi-item scanning session.</li></ul> | The property set includes flatbed scanner control properties (usually image and document specific property set). | WIA flatbed items, including child items that represent regions being scanned on the scanner's flatbed platen. | 
+
 
 
 

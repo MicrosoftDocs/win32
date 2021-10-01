@@ -23,7 +23,7 @@ The Windows Projected File System (ProjFS) allows a user-mode application called
 
 ## Additional Resources
 
-|                                                                                                              |                                                                                   |
+| Topic                                                                                                             | Description                                                                                  |
 |--------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [RegFS Sample](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/ProjectedFileSystem) | A sample ProjFS provider that projects the Windows registry into the file system. |
 <!--

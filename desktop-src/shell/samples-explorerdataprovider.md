@@ -58,21 +58,13 @@ To build the sample using Microsoft Visual Studio (preferred):
 > [!Note]  
 > In the version of this sample included in the Windows SDK, the configuration for the 64-bit Release build does not include the ExplorerDataProvider.def file in the linker's **Module Definition File** option. You must specify that file yourself before building in a 64-bit environment. Add the line `ModuleDefinitionFile="ExplorerDataProvider.def"` to the VCLinkerTool section (begins at line 329) of the ExplorerDataProvider.vcproj file as shown here:
 >
-> <span codelanguage=""></span>
+> 
 >
-> <table>
-> <colgroup>
-> <col style="width: 100%" />
-> </colgroup>
-> <tbody>
-> <tr class="odd">
-> <td><pre><code>LinkIncremental=&quot;1&quot;
-> AdditionalLibraryDirectories=&quot;&quot;c:\Program Files\Microsoft SDKs\Windows\v6.0\Lib\x64&quot;&quot;
-> ModuleDefinitionFile=&quot;ExplorerDataProvider.def&quot;
-> GenerateDebugInformation=&quot;true&quot;</code></pre></td>
-> </tr>
-> </tbody>
-> </table>
+> 
+| 
+|
+| <pre><code>LinkIncremental="1"&gt; AdditionalLibraryDirectories=""c:\Program Files\Microsoft SDKs\Windows\v6.0\Lib\x64""&gt; ModuleDefinitionFile="ExplorerDataProvider.def"&gt; GenerateDebugInformation="true"</code></pre> | 
+
 >
 > 
 >

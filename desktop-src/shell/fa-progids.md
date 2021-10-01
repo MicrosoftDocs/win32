@@ -26,57 +26,18 @@ A ProgID subkey should include the following elements. Note that some string dat
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Element</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>(Default)</strong></td>
-<td>Set the default entry of the ProgID subkey to a friendly name for that ProgID, suitable to display to the user. The use of this entry to hold the friendly name is deprecated by the FriendlyTypeName entry on systems running Windows 2000 or later. However, you should set this value for backward compatibility.<br/></td>
-</tr>
-<tr class="even">
-<td><strong>AllowSilentDefaultTakeOver</strong> (introduced in Windows 8)</td>
-<td>Set this optional entry to signal that Windows should ignore this ProgID when determining a default handler for a public file type. Regardless of whether this value is set, the ProgID continues to appear in the OpenWith shortcut menu and dialog. This is a REG_NONE value.</td>
-</tr>
-<tr class="odd">
-<td><strong>AppUserModelID</strong> (introduced in Windows 7)</td>
-<td>Set this optional entry to the application's explicit Application User Model ID (AppUserModelID) if the application uses an explicit AppUserModelID and uses either the system's automatically generated <strong>Recent</strong> or <strong>Frequent</strong> Jump Lists or provides a custom Jump List. If an application uses an explicit AppUserModelID and does not set this value, items will not appear in that application's Jump Lists. This is a REG_SZ string. For more information, see <a href="appids.md">Application User Model IDs (AppUserModelIDs)</a>.<br/></td>
-</tr>
-<tr class="even">
-<td><strong>EditFlags</strong></td>
-<td>Set this optional entry using flags from the <a href="/windows/desktop/api/Shlwapi/ne-shlwapi-filetypeattributeflags"><strong>FILETYPEATTRIBUTEFLAGS</strong></a> enumeration. The EditFlags entry controls some aspects of the Shell's handling of the file types linked to this ProgID. You can also use the EditFlags entry to limit how much the user can modify certain aspects of these file types using a file's property sheet. The <strong>FILETYPEATTRIBUTEFLAGS</strong> values used for EditFlags are binary values designed so that you can combine multiple attributes into a single value in a bitwise OR operation. This is a REG_DWORD or REG_BINARY value.<br/></td>
-</tr>
-<tr class="odd">
-<td><strong>FriendlyTypeName</strong></td>
-<td>Set this entry to a friendly name for the ProgID, suitable to display to the user. For consistency, this string should contain the same data as the Default entry for this ProgID key. This entry can be either a REG_SZ or REG_EXPAND_SZ string, but it must be formatted as an indirect string (a fully qualified file name and resource value preceded by the @ symbol), for instance <em>@%SystemRoot%\shell32.dll,-154</em>.<br/></td>
-</tr>
-<tr class="even">
-<td><strong>InfoTip</strong></td>
-<td>Set this entry to a brief help message that the Shell displays for this ProgID. The InfoTip entry displays in a mouse-over dialog box. This value can be either a REG_SZ or REG_EXPAND_SZ string but, like FriendlyTypeName, it must be formatted as an indirect string.<br/></td>
-</tr>
-<tr class="odd">
-<td><strong>CurVer</strong></td>
-<td>Set the (Default) entry of this subkey to the most current version of this ProgID.<br/>
-<blockquote>
-[!Note]<br />
-Unless you have side-by-side application versions, that is, multiple versions installed on the same system, you should avoid using <strong>CurVer</strong>.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td><strong>DefaultIcon</strong>.</td>
-<td>Set the (Default) entry of this subkey to the default icon that you want to display for file types associated with this ProgID. This value can be either a REG_SZ or REG_EXPAND_SZ string, but it must be provided as a fully qualified file name with its attendant resource value, for instance <em>%SystemRoot%\shell32.dll,-154</em>.<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Element | Description | 
+|---------|-------------|
+| <strong>(Default)</strong> | Set the default entry of the ProgID subkey to a friendly name for that ProgID, suitable to display to the user. The use of this entry to hold the friendly name is deprecated by the FriendlyTypeName entry on systems running Windows 2000 or later. However, you should set this value for backward compatibility.<br /> | 
+| <strong>AllowSilentDefaultTakeOver</strong> (introduced in Windows 8) | Set this optional entry to signal that Windows should ignore this ProgID when determining a default handler for a public file type. Regardless of whether this value is set, the ProgID continues to appear in the OpenWith shortcut menu and dialog. This is a REG_NONE value. | 
+| <strong>AppUserModelID</strong> (introduced in Windows 7) | Set this optional entry to the application's explicit Application User Model ID (AppUserModelID) if the application uses an explicit AppUserModelID and uses either the system's automatically generated <strong>Recent</strong> or <strong>Frequent</strong> Jump Lists or provides a custom Jump List. If an application uses an explicit AppUserModelID and does not set this value, items will not appear in that application's Jump Lists. This is a REG_SZ string. For more information, see <a href="appids.md">Application User Model IDs (AppUserModelIDs)</a>.<br /> | 
+| <strong>EditFlags</strong> | Set this optional entry using flags from the <a href="/windows/desktop/api/Shlwapi/ne-shlwapi-filetypeattributeflags"><strong>FILETYPEATTRIBUTEFLAGS</strong></a> enumeration. The EditFlags entry controls some aspects of the Shell's handling of the file types linked to this ProgID. You can also use the EditFlags entry to limit how much the user can modify certain aspects of these file types using a file's property sheet. The <strong>FILETYPEATTRIBUTEFLAGS</strong> values used for EditFlags are binary values designed so that you can combine multiple attributes into a single value in a bitwise OR operation. This is a REG_DWORD or REG_BINARY value.<br /> | 
+| <strong>FriendlyTypeName</strong> | Set this entry to a friendly name for the ProgID, suitable to display to the user. For consistency, this string should contain the same data as the Default entry for this ProgID key. This entry can be either a REG_SZ or REG_EXPAND_SZ string, but it must be formatted as an indirect string (a fully qualified file name and resource value preceded by the @ symbol), for instance <em>@%SystemRoot%\shell32.dll,-154</em>.<br /> | 
+| <strong>InfoTip</strong> | Set this entry to a brief help message that the Shell displays for this ProgID. The InfoTip entry displays in a mouse-over dialog box. This value can be either a REG_SZ or REG_EXPAND_SZ string but, like FriendlyTypeName, it must be formatted as an indirect string.<br /> | 
+| <strong>CurVer</strong> | Set the (Default) entry of this subkey to the most current version of this ProgID.<br /><blockquote>[!Note]<br />Unless you have side-by-side application versions, that is, multiple versions installed on the same system, you should avoid using <strong>CurVer</strong>.</blockquote><br /> | 
+| <strong>DefaultIcon</strong>. | Set the (Default) entry of this subkey to the default icon that you want to display for file types associated with this ProgID. This value can be either a REG_SZ or REG_EXPAND_SZ string, but it must be provided as a fully qualified file name with its attendant resource value, for instance <em>%SystemRoot%\shell32.dll,-154</em>.<br /> | 
+
 
 
 

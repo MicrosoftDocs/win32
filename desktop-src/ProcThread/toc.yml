@@ -139,6 +139,8 @@
             href: /windows/desktop/api/RTWorkQ/nf-rtworkq-rtwqunregisterplatformfrommmcss
       - name: "Processor Groups"
         href: processor-groups.md
+      - name: "Quality of Service"
+        href: quality-of-service.md
     - name: "Multiple Threads"
       href: multiple-threads.md
       items: 

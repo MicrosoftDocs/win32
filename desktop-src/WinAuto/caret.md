@@ -28,40 +28,14 @@ The caret supports the following [**IAccessible**](/windows/desktop/api/oleacc/n
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Property</th>
-<th>Comments</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-get_accchildcount"><strong>get_accChildCount</strong></a></td>
-<td>The <strong>ChildCount</strong> property is zero.</td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-get_accname"><strong>get_accName</strong></a></td>
-<td>The <strong>Name</strong> property is &quot;Edit&quot;.</td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-get_accrole"><strong>get_accRole</strong></a></td>
-<td>The <strong>Role</strong> property is <strong>[ROLE_SYSTEM_CARET](object-roles.md)</strong>.</td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-get_accstate"><strong>get_accState</strong></a></td>
-<td>Possible values for the <strong>State</strong> property include:
-<ul>
-<li>Zero, which means the caret is visible</li>
-<li><strong>[STATE_SYSTEM_INVISIBLE](object-state-constants.md)</strong></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| Property | Comments | 
+|----------|----------|
+| <a href="/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-get_accchildcount"><strong>get_accChildCount</strong></a> | The <strong>ChildCount</strong> property is zero. | 
+| <a href="/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-get_accname"><strong>get_accName</strong></a> | The <strong>Name</strong> property is "Edit". | 
+| <a href="/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-get_accrole"><strong>get_accRole</strong></a> | The <strong>Role</strong> property is <strong>[ROLE_SYSTEM_CARET](object-roles.md)</strong>. | 
+| <a href="/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-get_accstate"><strong>get_accState</strong></a> | Possible values for the <strong>State</strong> property include:<ul><li>Zero, which means the caret is visible</li><li><strong>[STATE_SYSTEM_INVISIBLE](object-state-constants.md)</strong></li></ul> | 
+
 
 
 

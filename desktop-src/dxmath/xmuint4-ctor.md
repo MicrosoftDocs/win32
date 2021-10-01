@@ -21,47 +21,13 @@ Constructs instances of the [**XMUINT4**](/windows/win32/api/directxmath/ns-dire
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;">Constructor</th>
-<th style="text-align: left;">Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;">[<strong>XMUINT4 ()</strong>](/windows/win32/api/directxmath/nf-directxmath-xmuint4-xmuint4(constuint32_t))</td>
-<td style="text-align: left;">Default constructor for <code>XMUINT4</code>. <br/> Default constructor for [<strong>XMUINT4</strong>](/windows/win32/api/directxmath/ns-directxmath-xmuint4). <br/>
-<blockquote>
-[!Note]<br />
-This constructor is only available under C++.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">[<strong>XMUINT4 (const uint32_t*)</strong>](/windows/win32/api/directxmath/nf-directxmath-xmuint4-xmuint4(constuint32_t))</td>
-<td style="text-align: left;">Initializes a new instance of <code>XMUINT4</code> from a four element <code>uint32_t</code> array argument. <br/> This constructor initializes a new instance of [<strong>XMUINT4</strong>](/windows/win32/api/directxmath/ns-directxmath-xmuint4) from a from a four element <code>uint32_t</code> array argument. <br/>
-<blockquote>
-[!Note]<br />
-This constructor is only available under C++.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">[<strong>XMUINT4 (uint32_t,uint32_t,uint32_t,uint32_t)</strong>](/windows/win32/api/directxmath/nf-directxmath-xmuint4-xmuint4(uint32_t_uint32_t_uint32_t_uint32_t))</td>
-<td style="text-align: left;">Initializes a new instance of <code>XMUINT4</code> from four <code>uint32_t</code> arguments. <br/> This constructor initializes a new instance of [<strong>XMUINT4</strong>](/windows/win32/api/directxmath/ns-directxmath-xmuint4) from four <code>uint32_t</code> arguments. <br/>
-<blockquote>
-[!Note]<br />
-This constructor is only available under C++.
-</blockquote>
-<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Constructor | Description | 
+|-------------|-------------|
+| [<strong>XMUINT4 ()</strong>](/windows/win32/api/directxmath/nf-directxmath-xmuint4-xmuint4(constuint32_t)) | Default constructor for <code>XMUINT4</code>. <br /> Default constructor for [<strong>XMUINT4</strong>](/windows/win32/api/directxmath/ns-directxmath-xmuint4). <br /><blockquote>[!Note]<br />This constructor is only available under C++.</blockquote><br /> | 
+| [<strong>XMUINT4 (const uint32_t*)</strong>](/windows/win32/api/directxmath/nf-directxmath-xmuint4-xmuint4(constuint32_t)) | Initializes a new instance of <code>XMUINT4</code> from a four element <code>uint32_t</code> array argument. <br /> This constructor initializes a new instance of [<strong>XMUINT4</strong>](/windows/win32/api/directxmath/ns-directxmath-xmuint4) from a from a four element <code>uint32_t</code> array argument. <br /><blockquote>[!Note]<br />This constructor is only available under C++.</blockquote><br /> | 
+| [<strong>XMUINT4 (uint32_t,uint32_t,uint32_t,uint32_t)</strong>](/windows/win32/api/directxmath/nf-directxmath-xmuint4-xmuint4(uint32_t_uint32_t_uint32_t_uint32_t)) | Initializes a new instance of <code>XMUINT4</code> from four <code>uint32_t</code> arguments. <br /> This constructor initializes a new instance of [<strong>XMUINT4</strong>](/windows/win32/api/directxmath/ns-directxmath-xmuint4) from four <code>uint32_t</code> arguments. <br /><blockquote>[!Note]<br />This constructor is only available under C++.</blockquote><br /> | 
+
 
 
 

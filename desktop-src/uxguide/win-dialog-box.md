@@ -29,7 +29,7 @@ Dialog boxes have two fundamental types:
 -   A **title bar** to identify the application or system feature where the dialog box came from.
 -   A **main instruction**, with an optional icon, to identify the user's objective with the dialog.
 -   A **content area** for descriptive information and controls.
--   A **command area** for commit buttons, including a Cancel button, and optional More options and Don't show this <item> again controls.
+-   A **command area** for commit buttons, including a Cancel button, and optional More options and Don't show this &lt;item&gt; again controls.
 -   A **footnote area** for optional additional explanations and help, typically targeted at less experienced users.
 
 ![screen shot of a typical task dialog box ](images/win-dialog-box-image2.png)
@@ -103,7 +103,7 @@ To design effective dialog boxes, use the following elements effectively:
 
 -   Dialog box text
 -   Main instructions
--   Don't show this <item> again option
+-   Don't show this &lt;item&gt; again option
 
 **If you do only one thing...**
 
@@ -452,42 +452,16 @@ For more information and examples, see [Icons](vis-icons.md).
 
 -   **Choose the commit buttons based on the design pattern:**
 
-    <table>
-    <colgroup>
-    <col style="width: 50%" />
-    <col style="width: 50%" />
-    </colgroup>
-    <tbody>
-    <tr class="odd">
-    <td><strong>Pattern</strong><br/></td>
-    <td><strong>Commit buttons</strong><br/></td>
-    </tr>
-    <tr class="even">
-    <td><strong>Question dialogs (using buttons)</strong><br/></td>
-    <td>One of the following sets of concise commands: Yes/No, Yes/No/Cancel, [Do it]/Cancel, [Do it]/[Don't do it], [Do it]/[Don't do it]/Cancel.<br/></td>
-    </tr>
-    <tr class="odd">
-    <td><strong>Question dialogs (using links)</strong><br/></td>
-    <td>Cancel.<br/></td>
-    </tr>
-    <tr class="even">
-    <td><strong>Choice dialogs</strong><br/></td>
-    <td><ul>
-    <li>Modal dialogs: OK/Cancel or [Do it]/Cancel</li>
-    <li>Modeless dialogs: Close button on dialog box and title bar</li>
-    <li>Task pane: Close button on title bar</li>
-    </ul></td>
-    </tr>
-    <tr class="odd">
-    <td><strong>Progress dialogs</strong><br/></td>
-    <td>Use Cancel if returns the environment to its previous state (leaving no side effect); otherwise, use Stop.<br/></td>
-    </tr>
-    <tr class="even">
-    <td><strong>Informational dialogs</strong><br/></td>
-    <td>Close.<br/></td>
-    </tr>
-    </tbody>
-    </table>
+    
+| Label | Value |
+|--------|-------|
+| <strong>Pattern</strong><br /> | <strong>Commit buttons</strong><br /> | 
+| <strong>Question dialogs (using buttons)</strong><br /> | One of the following sets of concise commands: Yes/No, Yes/No/Cancel, [Do it]/Cancel, [Do it]/[Don't do it], [Do it]/[Don't do it]/Cancel.<br /> | 
+| <strong>Question dialogs (using links)</strong><br /> | Cancel.<br /> | 
+| <strong>Choice dialogs</strong><br /> | <ul><li>Modal dialogs: OK/Cancel or [Do it]/Cancel</li><li>Modeless dialogs: Close button on dialog box and title bar</li><li>Task pane: Close button on title bar</li></ul> | 
+| <strong>Progress dialogs</strong><br /> | Use Cancel if returns the environment to its previous state (leaving no side effect); otherwise, use Stop.<br /> | 
+| <strong>Informational dialogs</strong><br /> | Close.<br /> | 
+
 
     
 
@@ -699,10 +673,10 @@ In this example, the dialog box uses a command link instead of a Cancel button.
 
 For more information and examples, see [Command Links](ctrl-command-links.md).
 
-### Don't show this <item> again
+### Don't show this &lt;item&gt; again
 
--   **Consider using a Don't show this <item> again option to allow users to suppress a recurring dialog box, only if there isn't a better alternative.** It is better always to show the dialog if users really need it, or simply eliminate it if they don't.
--   **Use this specific phrasing replace <item> with the specific item.** For example, Don't show this reminder again. When referring to a dialog box in general, use Don't show this message again.
+-   **Consider using a Don't show this &lt;item&gt; again option to allow users to suppress a recurring dialog box, only if there isn't a better alternative.** It is better always to show the dialog if users really need it, or simply eliminate it if they don't.
+-   **Use this specific phrasing replace &lt;item&gt; with the specific item.** For example, Don't show this reminder again. When referring to a dialog box in general, use Don't show this message again.
 -   **Clearly indicate when user input will be used for future default values** by adding the following sentence under the option: Your selections will be used by default in the future.
 -   **Don't select the option by default. If the dialog box really should be displayed only once, do so without asking.** Don't use this option as an excuse to annoy users make sure the default behavior isn't annoying.
 
@@ -738,7 +712,7 @@ In this example, rarely used options are hidden by default.
 
 -   **Don't use More/Fewer controls unless there really is more detail to show.** Don't just restate the same information in a different format.
 -   **Don't use More/Fewer controls to show Help.** Use Help links or footnotes instead.
--   **With task dialogs, avoid combining More/Fewer controls with Don't show this <item> again.** This combination has an awkward appearance.
+-   **With task dialogs, avoid combining More/Fewer controls with Don't show this &lt;item&gt; again.** This combination has an awkward appearance.
 -   For labeling guidelines, see [Progressive Disclosure](ctrl-progressive-disclosure-controls.md).
 
 ### Footnotes

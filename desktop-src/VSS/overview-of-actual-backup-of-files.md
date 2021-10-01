@@ -14,57 +14,16 @@ The following table shows the sequence of actions and events that are required f
 
 
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Requester action</th>
-<th>Event</th>
-<th>Writer action</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Access files on the shadow-copied volume (see <a href="/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-getsnapshotproperties"><strong>IVssBackupComponents::GetSnapshotProperties</strong></a>, <a href="/windows/desktop/api/Vss/ns-vss-vss_snapshot_prop"><strong>VSS_SNAPSHOT_PROP</strong></a>)</td>
-<td>None</td>
-<td>None</td>
-</tr>
-<tr class="even">
-<td>Generate the list of files to back up, and copy file data to backup media.</td>
-<td>None</td>
-<td>None</td>
-</tr>
-<tr class="odd">
-<td>Indicate the success or failure of the backup with <a href="/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-setbackupsucceeded"><strong>IVssBackupComponents::SetBackupSucceeded</strong></a>.</td>
-<td>None</td>
-<td>None</td>
-</tr>
-<tr class="even">
-<td>The requester indicates that the backup has completed by calling <a href="/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-backupcomplete"><strong>IVssBackupComponents::BackupComplete</strong></a>.</td>
-<td><a href="vssgloss-b.md"><em>BackupComplete</em></a></td>
-<td>Perform any post-backup cleanup (see <a href="/windows/desktop/api/VsWriter/nf-vswriter-cvsswriter-onbackupcomplete"><strong>CVssWriter::OnBackupComplete</strong></a>, <a href="/windows/desktop/api/VsWriter/nl-vswriter-ivsswritercomponents"><strong>IVssWriterComponents</strong></a>, <a href="/windows/desktop/api/VsWriter/nl-vswriter-ivsscomponent"><strong>IVssComponent</strong></a>).</td>
-</tr>
-<tr class="odd">
-<td>The requester waits for all writers to acknowledge receipt of the <a href="/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-backupcomplete"><strong>IVssBackupComponents::BackupComplete</strong></a> event using <a href="/windows/desktop/api/Vss/nn-vss-ivssasync"><strong>IVssAsync</strong></a>. It should also verify writer status (see <a href="/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-gatherwriterstatus"><strong>IVssBackupComponents::GatherWriterStatus</strong></a>, <a href="/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-getwriterstatus"><strong>IVssBackupComponents::GetWriterStatus</strong></a>). The requester must call <strong>GatherWriterStatus</strong> at this time to cause the writer session to be set to a completed state.
-<blockquote>
-[!Note]<br />
-This is only necessary on Windows Server 2008 with Service Pack 2 (SP2) and earlier.
-</blockquote>
-<br/></td>
-<td>None</td>
-<td>None</td>
-</tr>
-<tr class="even">
-<td>Save the Backup Components Document and each Writer Metadata Document to XML documents, which can be written to the backup media (see <a href="/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-saveasxml"><strong>IVssBackupComponents::SaveAsXML</strong></a> and <a href="/windows/desktop/api/VsBackup/nf-vsbackup-ivssexaminewritermetadata-saveasxml"><strong>IVssExamineWriterMetadata::SaveAsXML</strong></a>).</td>
-<td>None</td>
-<td>None</td>
-</tr>
-</tbody>
-</table>
+
+| Requester action | Event | Writer action | 
+|------------------|-------|---------------|
+| Access files on the shadow-copied volume (see <a href="/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-getsnapshotproperties"><strong>IVssBackupComponents::GetSnapshotProperties</strong></a>, <a href="/windows/desktop/api/Vss/ns-vss-vss_snapshot_prop"><strong>VSS_SNAPSHOT_PROP</strong></a>) | None | None | 
+| Generate the list of files to back up, and copy file data to backup media. | None | None | 
+| Indicate the success or failure of the backup with <a href="/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-setbackupsucceeded"><strong>IVssBackupComponents::SetBackupSucceeded</strong></a>. | None | None | 
+| The requester indicates that the backup has completed by calling <a href="/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-backupcomplete"><strong>IVssBackupComponents::BackupComplete</strong></a>. | <a href="vssgloss-b.md"><em>BackupComplete</em></a> | Perform any post-backup cleanup (see <a href="/windows/desktop/api/VsWriter/nf-vswriter-cvsswriter-onbackupcomplete"><strong>CVssWriter::OnBackupComplete</strong></a>, <a href="/windows/desktop/api/VsWriter/nl-vswriter-ivsswritercomponents"><strong>IVssWriterComponents</strong></a>, <a href="/windows/desktop/api/VsWriter/nl-vswriter-ivsscomponent"><strong>IVssComponent</strong></a>). | 
+| The requester waits for all writers to acknowledge receipt of the <a href="/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-backupcomplete"><strong>IVssBackupComponents::BackupComplete</strong></a> event using <a href="/windows/desktop/api/Vss/nn-vss-ivssasync"><strong>IVssAsync</strong></a>. It should also verify writer status (see <a href="/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-gatherwriterstatus"><strong>IVssBackupComponents::GatherWriterStatus</strong></a>, <a href="/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-getwriterstatus"><strong>IVssBackupComponents::GetWriterStatus</strong></a>). The requester must call <strong>GatherWriterStatus</strong> at this time to cause the writer session to be set to a completed state.<blockquote>[!Note]<br />This is only necessary on Windows Server 2008 with Service Pack 2 (SP2) and earlier.</blockquote><br /> | None | None | 
+| Save the Backup Components Document and each Writer Metadata Document to XML documents, which can be written to the backup media (see <a href="/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-saveasxml"><strong>IVssBackupComponents::SaveAsXML</strong></a> and <a href="/windows/desktop/api/VsBackup/nf-vsbackup-ivssexaminewritermetadata-saveasxml"><strong>IVssExamineWriterMetadata::SaveAsXML</strong></a>). | None | None | 
+
 
 
 

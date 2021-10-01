@@ -63,52 +63,16 @@ Pointer to a number that receives the size of the database, in pages, after the 
 
 This function returns the [JET_ERR](./jet-err.md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](./extensible-storage-engine-errors.md) and [Error Handling Parameters](./error-handling-parameters.md).
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Return code</p></th>
-<th><p>Description</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_errSuccess</p></td>
-<td><p>The operation completed successfully.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errDatabaseInconsistent<br />
-JET_errDatabaseDirtyShutdown</p></td>
-<td><p>JET_errDatabaseInconsistent and JET_errDatabaseDirtyShutdown are the same numeric value. The database whose size is to be adjusted must be in a clean shutdown, known as a consistent state. An inconsistent database is not corrupted, but it requires log files to be replayed.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errDatabaseInvalidPath</p></td>
-<td><p><em>szDatabaseName</em> must not be an empty, non-NULL string.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errDiskFull</p></td>
-<td><p>There is insufficient free space on the volume to perform the grow operation. <strong>JetSetDatabaseSize</strong> may also return many file-related errors, including, but not limited to:</p>
-<ul>
-<li><p>JET_errDiskIO</p></li>
-<li><p>JET_errFileNotFound</p></li>
-<li><p>JET_errInvalidPath</p></li>
-<li><p>JET_errFileAccessDenied</p></li>
-<li><p>JET_errOutOfFileHandles</p></li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errInvalidParameter</p></td>
-<td><p>One of the reasons this error may be returned is if <em>cpg</em> does meet the minimum database size. The current minimum database size is 256 pages.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errOutOfMemory</p></td>
-<td><p>The system is low on memory resources.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Return code</p> | <p>Description</p> | 
+|--------------------|--------------------|
+| <p>JET_errSuccess</p> | <p>The operation completed successfully.</p> | 
+| <p>JET_errDatabaseInconsistent<br />JET_errDatabaseDirtyShutdown</p> | <p>JET_errDatabaseInconsistent and JET_errDatabaseDirtyShutdown are the same numeric value. The database whose size is to be adjusted must be in a clean shutdown, known as a consistent state. An inconsistent database is not corrupted, but it requires log files to be replayed.</p> | 
+| <p>JET_errDatabaseInvalidPath</p> | <p><em>szDatabaseName</em> must not be an empty, non-NULL string.</p> | 
+| <p>JET_errDiskFull</p> | <p>There is insufficient free space on the volume to perform the grow operation. <strong>JetSetDatabaseSize</strong> may also return many file-related errors, including, but not limited to:</p><ul><li><p>JET_errDiskIO</p></li><li><p>JET_errFileNotFound</p></li><li><p>JET_errInvalidPath</p></li><li><p>JET_errFileAccessDenied</p></li><li><p>JET_errOutOfFileHandles</p></li></ul> | 
+| <p>JET_errInvalidParameter</p> | <p>One of the reasons this error may be returned is if <em>cpg</em> does meet the minimum database size. The current minimum database size is 256 pages.</p> | 
+| <p>JET_errOutOfMemory</p> | <p>The system is low on memory resources.</p> | 
+
 
 
 #### Remarks
@@ -125,38 +89,16 @@ The file size may not match the number of pages returned in *pcpgReal*. There ar
 
 #### Requirements
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Client</strong></p></td>
-<td><p>Requires Windows Vista, Windows XP, or Windows 2000 Professional.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Server</strong></p></td>
-<td><p>Requires Windows Server 2008, Windows Server 2003, or Windows 2000 Server.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>Header</strong></p></td>
-<td><p>Declared in Esent.h.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Library</strong></p></td>
-<td><p>Use ESENT.lib.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>DLL</strong></p></td>
-<td><p>Requires ESENT.dll.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Unicode</strong></p></td>
-<td><p>Implemented as <strong>JetSetDatabaseSizeW</strong> (Unicode) and <strong>JetSetDatabaseSizeA</strong> (ANSI).</p></td>
-</tr>
-</tbody>
-</table>
+
+| Requirement | Value |
+|------------|----------|
+| <p><strong>Client</strong></p> | <p>Requires Windows Vista, Windows XP, or Windows 2000 Professional.</p> | 
+| <p><strong>Server</strong></p> | <p>Requires Windows Server 2008, Windows Server 2003, or Windows 2000 Server.</p> | 
+| <p><strong>Header</strong></p> | <p>Declared in Esent.h.</p> | 
+| <p><strong>Library</strong></p> | <p>Use ESENT.lib.</p> | 
+| <p><strong>DLL</strong></p> | <p>Requires ESENT.dll.</p> | 
+| <p><strong>Unicode</strong></p> | <p>Implemented as <strong>JetSetDatabaseSizeW</strong> (Unicode) and <strong>JetSetDatabaseSizeA</strong> (ANSI).</p> | 
+
 
 
 #### See Also

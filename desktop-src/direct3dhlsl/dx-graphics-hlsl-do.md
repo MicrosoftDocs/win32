@@ -20,11 +20,7 @@ ms.date: 05/31/2018
 
 Execute a series of statements continuously until the conditional expression fails.
 
-
-
-|                                                                     |
-|---------------------------------------------------------------------|
-| \[*Attribute*\] do {   *Statement Block*; } while( *Conditional* ); |
+\[*Attribute*\] do {   *Statement Block*; } while( *Conditional* );
 
 
 

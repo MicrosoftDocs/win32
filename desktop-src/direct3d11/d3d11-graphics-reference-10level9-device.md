@@ -42,29 +42,13 @@ This section lists the differences between each 10Level9 feature level and the D
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th>Feature Level</th>
-<th>Behavior Differences</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_1</td>
-<td rowspan="3">Device-dependent counters are optionally supported. Use <a href="/windows/desktop/api/D3D11/nf-d3d11-id3d11device-checkcounterinfo"><strong>ID3D11Device::CheckCounterInfo</strong></a> to determine support.${REMOVE}$<br />
-</td>
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_9_2</td>
 
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_3</td>
+| Feature Level | Behavior Differences | 
+|---------------|----------------------|
+| D3D_FEATURE_LEVEL_9_1 | Device-dependent counters are optionally supported. Use <a href="/windows/desktop/api/D3D11/nf-d3d11-id3d11device-checkcounterinfo"><strong>ID3D11Device::CheckCounterInfo</strong></a> to determine support.${REMOVE}$<br /> | 
+| D3D_FEATURE_LEVEL_9_2 | 
+| D3D_FEATURE_LEVEL_9_3 | 
 
-</tr>
-</tbody>
-</table>
 
 
 
@@ -74,29 +58,13 @@ This section lists the differences between each 10Level9 feature level and the D
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th>Feature Level</th>
-<th>Behavior Differences</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_1</td>
-<td rowspan="3">See format support by <a href="overviews-direct3d-11-devices-downlevel-intro.md">feature level</a>${REMOVE}$<br />
-</td>
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_9_2</td>
 
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_3</td>
+| Feature Level | Behavior Differences | 
+|---------------|----------------------|
+| D3D_FEATURE_LEVEL_9_1 | See format support by <a href="overviews-direct3d-11-devices-downlevel-intro.md">feature level</a>${REMOVE}$<br /> | 
+| D3D_FEATURE_LEVEL_9_2 | 
+| D3D_FEATURE_LEVEL_9_3 | 
 
-</tr>
-</tbody>
-</table>
 
 
 
@@ -106,29 +74,13 @@ This section lists the differences between each 10Level9 feature level and the D
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th>Feature Level</th>
-<th>Behavior Differences</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_1</td>
-<td rowspan="3">Feature levels make no guarantees concerning MSAA support.${REMOVE}$<br />
-</td>
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_9_2</td>
 
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_3</td>
+| Feature Level | Behavior Differences | 
+|---------------|----------------------|
+| D3D_FEATURE_LEVEL_9_1 | Feature levels make no guarantees concerning MSAA support.${REMOVE}$<br /> | 
+| D3D_FEATURE_LEVEL_9_2 | 
+| D3D_FEATURE_LEVEL_9_3 | 
 
-</tr>
-</tbody>
-</table>
 
 
 
@@ -168,29 +120,13 @@ This section lists the differences between each 10Level9 feature level and the D
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th>Feature Level</th>
-<th>Behavior Differences</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_1</td>
-<td>Buffers can't have render target views.<br/> Buffers must have exactly one of D3D11_BIND_VERTEX_BUFFER, D3D11_BIND_INDEX_BUFFER, or D3D11_BIND_CONSTANT_BUFFER.<br/> Only allows index buffers with the DXGI_FORMAT_R16_UINT format. <br/></td>
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_9_2</td>
-<td rowspan="2"> Buffers can't have render target views.<br/> Buffers must have exactly one of D3D11_BIND_VERTEX_BUFFER, D3D11_BIND_INDEX_BUFFER, or D3D11_BIND_CONSTANT_BUFFER.<br/> Allows index buffers with the DXGI_FORMAT_R16_UINT and DXGI_FORMAT_R32_UINT formats like D3D_FEATURE_LEVEL_10_0 and higher. <br/> ${REMOVE}$<br />
-</td>
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_3</td>
 
-</tr>
-</tbody>
-</table>
+| Feature Level | Behavior Differences | 
+|---------------|----------------------|
+| D3D_FEATURE_LEVEL_9_1 | Buffers can't have render target views.<br /> Buffers must have exactly one of D3D11_BIND_VERTEX_BUFFER, D3D11_BIND_INDEX_BUFFER, or D3D11_BIND_CONSTANT_BUFFER.<br /> Only allows index buffers with the DXGI_FORMAT_R16_UINT format. <br /> | 
+| D3D_FEATURE_LEVEL_9_2 |  Buffers can't have render target views.<br /> Buffers must have exactly one of D3D11_BIND_VERTEX_BUFFER, D3D11_BIND_INDEX_BUFFER, or D3D11_BIND_CONSTANT_BUFFER.<br /> Allows index buffers with the DXGI_FORMAT_R16_UINT and DXGI_FORMAT_R32_UINT formats like D3D_FEATURE_LEVEL_10_0 and higher. <br /> ${REMOVE}$<br /> | 
+| D3D_FEATURE_LEVEL_9_3 | 
+
 
 
 
@@ -200,29 +136,13 @@ This section lists the differences between each 10Level9 feature level and the D
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th>Feature Level</th>
-<th>Behavior Differences</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_1</td>
-<td rowspan="3">Not supported on any 9.* feature level.${REMOVE}$<br />
-</td>
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_9_2</td>
 
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_3</td>
+| Feature Level | Behavior Differences | 
+|---------------|----------------------|
+| D3D_FEATURE_LEVEL_9_1 | Not supported on any 9.* feature level.${REMOVE}$<br /> | 
+| D3D_FEATURE_LEVEL_9_2 | 
+| D3D_FEATURE_LEVEL_9_3 | 
 
-</tr>
-</tbody>
-</table>
 
 
 
@@ -232,29 +152,13 @@ This section lists the differences between each 10Level9 feature level and the D
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th>Feature Level</th>
-<th>Behavior Differences</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_1</td>
-<td rowspan="3">Does not support two-sided stencil.${REMOVE}$<br />
-</td>
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_9_2</td>
 
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_3</td>
+| Feature Level | Behavior Differences | 
+|---------------|----------------------|
+| D3D_FEATURE_LEVEL_9_1 | Does not support two-sided stencil.${REMOVE}$<br /> | 
+| D3D_FEATURE_LEVEL_9_2 | 
+| D3D_FEATURE_LEVEL_9_3 | 
 
-</tr>
-</tbody>
-</table>
 
 
 
@@ -264,37 +168,15 @@ This section lists the differences between each 10Level9 feature level and the D
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th>Feature Level</th>
-<th>Behavior Differences</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_1</td>
-<td rowspan="5">Not supported on any 9.* or 10.* feature level. ${REMOVE}$<br />
-</td>
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_9_2</td>
 
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_3</td>
+| Feature Level | Behavior Differences | 
+|---------------|----------------------|
+| D3D_FEATURE_LEVEL_9_1 | Not supported on any 9.* or 10.* feature level. ${REMOVE}$<br /> | 
+| D3D_FEATURE_LEVEL_9_2 | 
+| D3D_FEATURE_LEVEL_9_3 | 
+| D3D_FEATURE_LEVEL_10_0 | 
+| D3D_FEATURE_LEVEL_10_1 | 
 
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_10_0</td>
-
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_10_1</td>
-
-</tr>
-</tbody>
-</table>
 
 
 
@@ -304,29 +186,13 @@ This section lists the differences between each 10Level9 feature level and the D
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th>Feature Level</th>
-<th>Behavior Differences</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_1</td>
-<td rowspan="3">Not supported on any 9.* feature level.${REMOVE}$<br />
-</td>
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_9_2</td>
 
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_3</td>
+| Feature Level | Behavior Differences | 
+|---------------|----------------------|
+| D3D_FEATURE_LEVEL_9_1 | Not supported on any 9.* feature level.${REMOVE}$<br /> | 
+| D3D_FEATURE_LEVEL_9_2 | 
+| D3D_FEATURE_LEVEL_9_3 | 
 
-</tr>
-</tbody>
-</table>
 
 
 
@@ -336,29 +202,13 @@ This section lists the differences between each 10Level9 feature level and the D
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th>Feature Level</th>
-<th>Behavior Differences</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_1</td>
-<td rowspan="3">Not supported on any 9.* feature level.${REMOVE}$<br />
-</td>
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_9_2</td>
 
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_3</td>
+| Feature Level | Behavior Differences | 
+|---------------|----------------------|
+| D3D_FEATURE_LEVEL_9_1 | Not supported on any 9.* feature level.${REMOVE}$<br /> | 
+| D3D_FEATURE_LEVEL_9_2 | 
+| D3D_FEATURE_LEVEL_9_3 | 
 
-</tr>
-</tbody>
-</table>
 
 
 
@@ -368,37 +218,15 @@ This section lists the differences between each 10Level9 feature level and the D
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th>Feature Level</th>
-<th>Behavior Differences</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_1</td>
-<td rowspan="5">Not supported on any 9.* or 10.* feature level.${REMOVE}$<br />
-</td>
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_9_2</td>
 
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_3</td>
+| Feature Level | Behavior Differences | 
+|---------------|----------------------|
+| D3D_FEATURE_LEVEL_9_1 | Not supported on any 9.* or 10.* feature level.${REMOVE}$<br /> | 
+| D3D_FEATURE_LEVEL_9_2 | 
+| D3D_FEATURE_LEVEL_9_3 | 
+| D3D_FEATURE_LEVEL_10_0 | 
+| D3D_FEATURE_LEVEL_10_1 | 
 
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_10_0</td>
-
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_10_1</td>
-
-</tr>
-</tbody>
-</table>
 
 
 
@@ -438,29 +266,13 @@ See the format support by [feature level chart](overviews-direct3d-11-devices-do
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th>Feature Level</th>
-<th>Behavior Differences</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_1</td>
-<td rowspan="3">Not supported on any 9.* feature level.${REMOVE}$<br />
-</td>
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_9_2</td>
 
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_3</td>
+| Feature Level | Behavior Differences | 
+|---------------|----------------------|
+| D3D_FEATURE_LEVEL_9_1 | Not supported on any 9.* feature level.${REMOVE}$<br /> | 
+| D3D_FEATURE_LEVEL_9_2 | 
+| D3D_FEATURE_LEVEL_9_3 | 
 
-</tr>
-</tbody>
-</table>
 
 
 
@@ -484,29 +296,13 @@ See the format support by [feature level chart](overviews-direct3d-11-devices-do
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th>Feature Level</th>
-<th>Behavior Differences</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_1</td>
-<td rowspan="3">DepthClipEnable must be <strong>TRUE</strong>. DepthBiasClamp must be set to 0.${REMOVE}$<br />
-</td>
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_9_2</td>
 
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_3</td>
+| Feature Level | Behavior Differences | 
+|---------------|----------------------|
+| D3D_FEATURE_LEVEL_9_1 | DepthClipEnable must be <strong>TRUE</strong>. DepthBiasClamp must be set to 0.${REMOVE}$<br /> | 
+| D3D_FEATURE_LEVEL_9_2 | 
+| D3D_FEATURE_LEVEL_9_3 | 
 
-</tr>
-</tbody>
-</table>
 
 
 
@@ -516,29 +312,13 @@ See the format support by [feature level chart](overviews-direct3d-11-devices-do
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th>Feature Level</th>
-<th>Behavior Differences</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_1</td>
-<td rowspan="3">Can only support render target views of Texture2D objects.${REMOVE}$<br />
-</td>
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_9_2</td>
 
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_3</td>
+| Feature Level | Behavior Differences | 
+|---------------|----------------------|
+| D3D_FEATURE_LEVEL_9_1 | Can only support render target views of Texture2D objects.${REMOVE}$<br /> | 
+| D3D_FEATURE_LEVEL_9_2 | 
+| D3D_FEATURE_LEVEL_9_3 | 
 
-</tr>
-</tbody>
-</table>
 
 
 
@@ -548,29 +328,13 @@ See the format support by [feature level chart](overviews-direct3d-11-devices-do
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th>Feature Level</th>
-<th>Behavior Differences</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_1</td>
-<td>Comparison filter is not supported.<br/> Border color must be within [0,1]<br/> Min LOD cannot be fractional<br/> Max LOD must be FLT_MAX<br/> Maximum anisotropy is 2.<br/> D3D11_TEXTURE_ADDRESS_MIRRORONCE not supported.<br/></td>
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_9_2</td>
-<td rowspan="2"> Comparison filter is not supported.<br/> Border color must be within [0,1]<br/> Min LOD cannot be fractional<br/> Max LOD must be FLT_MAX<br/> Maximum anisotropy is 16.<br/> ${REMOVE}$<br />
-</td>
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_3</td>
 
-</tr>
-</tbody>
-</table>
+| Feature Level | Behavior Differences | 
+|---------------|----------------------|
+| D3D_FEATURE_LEVEL_9_1 | Comparison filter is not supported.<br /> Border color must be within [0,1]<br /> Min LOD cannot be fractional<br /> Max LOD must be FLT_MAX<br /> Maximum anisotropy is 2.<br /> D3D11_TEXTURE_ADDRESS_MIRRORONCE not supported.<br /> | 
+| D3D_FEATURE_LEVEL_9_2 |  Comparison filter is not supported.<br /> Border color must be within [0,1]<br /> Min LOD cannot be fractional<br /> Max LOD must be FLT_MAX<br /> Maximum anisotropy is 16.<br /> ${REMOVE}$<br /> | 
+| D3D_FEATURE_LEVEL_9_3 | 
+
 
 
 
@@ -594,29 +358,13 @@ See the format support by [feature level chart](overviews-direct3d-11-devices-do
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th>Feature Level</th>
-<th>Behavior Differences</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_1</td>
-<td rowspan="3">Not supported on any 9.* feature level.${REMOVE}$<br />
-</td>
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_9_2</td>
 
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_3</td>
+| Feature Level | Behavior Differences | 
+|---------------|----------------------|
+| D3D_FEATURE_LEVEL_9_1 | Not supported on any 9.* feature level.${REMOVE}$<br /> | 
+| D3D_FEATURE_LEVEL_9_2 | 
+| D3D_FEATURE_LEVEL_9_3 | 
 
-</tr>
-</tbody>
-</table>
 
 
 
@@ -668,29 +416,13 @@ If resource is D3D11\_USAGE\_DEFAULT or D3D11\_USAGE\_IMMUTABLE, BindFlags canno
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th>Feature Level</th>
-<th>Behavior Differences</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_1</td>
-<td rowspan="3">Not supported on any 9.* feature level.${REMOVE}$<br />
-</td>
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_9_2</td>
 
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_3</td>
+| Feature Level | Behavior Differences | 
+|---------------|----------------------|
+| D3D_FEATURE_LEVEL_9_1 | Not supported on any 9.* feature level.${REMOVE}$<br /> | 
+| D3D_FEATURE_LEVEL_9_2 | 
+| D3D_FEATURE_LEVEL_9_3 | 
 
-</tr>
-</tbody>
-</table>
 
 
 
@@ -714,38 +446,13 @@ If resource is D3D11\_USAGE\_DEFAULT or D3D11\_USAGE\_IMMUTABLE, BindFlags canno
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Feature Level</th>
-<th>Behavior Differences</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_1</td>
-<td rowspan="3"> Use <a href="/windows/desktop/api/D3D11/nf-d3d11-id3d11device-checkfeaturesupport"><strong>ID3D11Device::CheckFeatureSupport</strong></a> with the <a href="/windows/desktop/api/D3D11/ne-d3d11-d3d11_feature"><strong>D3D11_FEATURE_FORMAT_SUPPORT2</strong></a> value and the <a href="/windows/desktop/api/D3D11/ns-d3d11-d3d11_feature_data_format_support2"><strong>D3D11_FEATURE_DATA_FORMAT_SUPPORT2</strong></a> structure to determine if a format can be shared. If the format can be shared, <strong>CheckFeatureSupport</strong> returns the <a href="/windows/desktop/api/D3D11/ne-d3d11-d3d11_format_support2"><strong>D3D11_FORMAT_SUPPORT2_SHAREABLE</strong></a> flag.<br/>
-<blockquote>
-[!Note]<br />
-[<strong>DXGI_FORMAT_R8G8B8A8_UNORM</strong>](/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format) and <strong>DXGI_FORMAT_R8G8B8A8_UNORM_SRGB</strong> are never shareable when using feature level 9, even if the device indicates optional feature support for <strong>D3D11_FORMAT_SUPPORT_SHAREABLE</strong>. Attempting to create shared resources with DXGI formats <strong>DXGI_FORMAT_R8G8B8A8_UNORM</strong> and <strong>DXGI_FORMAT_R8G8B8A8_UNORM_SRGB</strong> will always fail unless the feature level is 10_0 or higher.
-</blockquote>
-<br/> ${REMOVE}$<br />
-</td>
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_9_2</td>
 
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_3</td>
+| Feature Level | Behavior Differences | 
+|---------------|----------------------|
+| D3D_FEATURE_LEVEL_9_1 |  Use <a href="/windows/desktop/api/D3D11/nf-d3d11-id3d11device-checkfeaturesupport"><strong>ID3D11Device::CheckFeatureSupport</strong></a> with the <a href="/windows/desktop/api/D3D11/ne-d3d11-d3d11_feature"><strong>D3D11_FEATURE_FORMAT_SUPPORT2</strong></a> value and the <a href="/windows/desktop/api/D3D11/ns-d3d11-d3d11_feature_data_format_support2"><strong>D3D11_FEATURE_DATA_FORMAT_SUPPORT2</strong></a> structure to determine if a format can be shared. If the format can be shared, <strong>CheckFeatureSupport</strong> returns the <a href="/windows/desktop/api/D3D11/ne-d3d11-d3d11_format_support2"><strong>D3D11_FORMAT_SUPPORT2_SHAREABLE</strong></a> flag.<br /><blockquote>[!Note]<br />[<strong>DXGI_FORMAT_R8G8B8A8_UNORM</strong>](/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format) and <strong>DXGI_FORMAT_R8G8B8A8_UNORM_SRGB</strong> are never shareable when using feature level 9, even if the device indicates optional feature support for <strong>D3D11_FORMAT_SUPPORT_SHAREABLE</strong>. Attempting to create shared resources with DXGI formats <strong>DXGI_FORMAT_R8G8B8A8_UNORM</strong> and <strong>DXGI_FORMAT_R8G8B8A8_UNORM_SRGB</strong> will always fail unless the feature level is 10_0 or higher.</blockquote><br /> ${REMOVE}$<br /> | 
+| D3D_FEATURE_LEVEL_9_2 | 
+| D3D_FEATURE_LEVEL_9_3 | 
 
-</tr>
-</tbody>
-</table>
 
 
 

@@ -28,62 +28,14 @@ None.
 
 
 
-<table>
-<colgroup>
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Attribute</th>
-<th>Type</th>
-<th>Required</th>
-<th>Description</th>
-<th>Possible Values</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>Style</strong></td>
-<td><a href="linelayoutstyletype-simple-type.md"><strong>LineLayoutStyleType</strong></a> simpleType</td>
-<td>Required</td>
-<td>Specifies the type of line to be drawn.</td>
-<td><ul>
-<li>None</li>
-<li>Solid</li>
-<li>Dash</li>
-<li>Dot</li>
-<li>DashDot</li>
-<li>DashDotDot</li>
-<li>Double</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td><strong>Color</strong></td>
-<td><a href="colortype-simple-type.md"><strong>ColorType</strong></a> simpleType</td>
-<td>Optional</td>
-<td>Color of the element.</td>
-<td>A hexadecimal RGB value. Matches the following regular expression: #[0-9a-zA-Z]{6}. For example, #4a79B5.<br/></td>
-</tr>
-<tr class="odd">
-<td><strong>SpacingBefore</strong></td>
-<td><strong>xs:nonNegativeInteger</strong></td>
-<td>Optional</td>
-<td>Spacing before the element.</td>
-<td>Any non-negative integer.</td>
-</tr>
-<tr class="even">
-<td><strong>SpacingBetween</strong></td>
-<td><strong>xs:nonNegativeInteger</strong></td>
-<td>Optional</td>
-<td>Spacing between this element and surrounding elements.</td>
-<td>Any non-negative integer.</td>
-</tr>
-</tbody>
-</table>
+
+| Attribute | Type | Required | Description | Possible Values | 
+|-----------|------|----------|-------------|-----------------|
+| <strong>Style</strong> | <a href="linelayoutstyletype-simple-type.md"><strong>LineLayoutStyleType</strong></a> simpleType | Required | Specifies the type of line to be drawn. | <ul><li>None</li><li>Solid</li><li>Dash</li><li>Dot</li><li>DashDot</li><li>DashDotDot</li><li>Double</li></ul> | 
+| <strong>Color</strong> | <a href="colortype-simple-type.md"><strong>ColorType</strong></a> simpleType | Optional | Color of the element. | A hexadecimal RGB value. Matches the following regular expression: #[0-9a-zA-Z]{6}. For example, #4a79B5.<br /> | 
+| <strong>SpacingBefore</strong> | <strong>xs:nonNegativeInteger</strong> | Optional | Spacing before the element. | Any non-negative integer. | 
+| <strong>SpacingBetween</strong> | <strong>xs:nonNegativeInteger</strong> | Optional | Spacing between this element and surrounding elements. | Any non-negative integer. | 
+
 
 
 

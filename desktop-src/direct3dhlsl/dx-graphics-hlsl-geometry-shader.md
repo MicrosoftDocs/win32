@@ -17,11 +17,7 @@ api_location:
 
 A geometry-shader object processes entire primitives. Use the following syntax to declare a geometry-shader object.
 
-
-
-|                                                                                                                                        |
-|----------------------------------------------------------------------------------------------------------------------------------------|
-| \[maxvertexcount(*NumVerts*)\] void *ShaderName* (   *PrimitiveType DataType Name \[ NumElements \]*,   inout *StreamOutputObject*  ); |
+\[maxvertexcount(*NumVerts*)\] void *ShaderName* (   *PrimitiveType DataType Name \[ NumElements \]*,   inout *StreamOutputObject*  );
 
 
 

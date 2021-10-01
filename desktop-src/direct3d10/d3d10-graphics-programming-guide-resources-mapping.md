@@ -71,53 +71,15 @@ So if an application wants to map a resource that originates in video memory and
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Frame</th>
-<th>GPU/CPU Status</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>N</td>
-<td><ul>
-<li>CPU issues render calls for current frame.</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>N+1</td>
-<td><ul>
-<li>GPU executing calls sent from CPU during frame N.</li>
-<li>CPU issues render calls for current frame.</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>N+2</td>
-<td><ul>
-<li>GPU finished executing calls sent from CPU during frame N. Results ready.</li>
-<li>GPU executing calls sent from CPU during frame N+1.</li>
-<li>CPU issues render calls for current frame.</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>N+3</td>
-<td><ul>
-<li>GPU finished executing calls sent from CPU during frame N+1. Results ready.</li>
-<li>GPU executing calls sent from CPU during frame N+2.</li>
-<li>CPU issues render calls for current frame.</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>N+4</td>
-<td>...</td>
-</tr>
-</tbody>
-</table>
+
+| Frame | GPU/CPU Status | 
+|-------|----------------|
+| N | <ul><li>CPU issues render calls for current frame.</li></ul> | 
+| N+1 | <ul><li>GPU executing calls sent from CPU during frame N.</li><li>CPU issues render calls for current frame.</li></ul> | 
+| N+2 | <ul><li>GPU finished executing calls sent from CPU during frame N. Results ready.</li><li>GPU executing calls sent from CPU during frame N+1.</li><li>CPU issues render calls for current frame.</li></ul> | 
+| N+3 | <ul><li>GPU finished executing calls sent from CPU during frame N+1. Results ready.</li><li>GPU executing calls sent from CPU during frame N+2.</li><li>CPU issues render calls for current frame.</li></ul> | 
+| N+4 | ... | 
+
 
 
 

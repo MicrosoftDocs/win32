@@ -16,7 +16,7 @@ api_location:
 
 WMI uses several types of constants in the *iflags* parameter of method calls in the [Scripting API for WMI](scripting-api-for-wmi.md).
 
-Visual Basic applications can include the type library for the scripting API, Wbemdisp.tlb. Scripts are unable to access constants in the type library unless they use the <REFERENCE> or <OBJECT> tags from the Windows Script Host (WSH) XML file format as described in [Using the WMI Scripting Type Library](using-the-wmi-scripting-type-library.md). Otherwise, a script must use the value of the constant.
+Visual Basic applications can include the type library for the scripting API, Wbemdisp.tlb. Scripts are unable to access constants in the type library unless they use the &lt;REFERENCE&gt; or &lt;OBJECT&gt; tags from the Windows Script Host (WSH) XML file format as described in [Using the WMI Scripting Type Library](using-the-wmi-scripting-type-library.md). Otherwise, a script must use the value of the constant.
 
 ## Constants
 

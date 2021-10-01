@@ -3,7 +3,7 @@ description: A registry value can store data in various formats.
 ms.assetid: 5fd828d6-4d62-4823-a2f1-15782b5cd28c
 title: Registry Value Types
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 09/10/2021
 ---
 
 # Registry Value Types
@@ -12,25 +12,19 @@ A registry value can store data in various formats. When you store data under a 
 
 The following registry value types are defined in Winnt.h.
 
-
-
-| Value                                 | Type                                                                                                                                                                                                                                                                                                                                                                                                                                    |
-|---------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| REG\_BINARY<br/>                | Binary data in any form.<br/>                                                                                                                                                                                                                                                                                                                                                                                                     |
-| REG\_DWORD<br/>                 | A 32-bit number.<br/>                                                                                                                                                                                                                                                                                                                                                                                                             |
-| REG\_DWORD\_LITTLE\_ENDIAN<br/> | A 32-bit number in little-endian format.<br/> Windows is designed to run on little-endian computer architectures. Therefore, this value is defined as REG\_DWORD in the Windows header files.<br/>                                                                                                                                                                                                                          |
-| REG\_DWORD\_BIG\_ENDIAN<br/>    | A 32-bit number in big-endian format.<br/> Some UNIX systems support big-endian architectures.<br/>                                                                                                                                                                                                                                                                                                                         |
-| REG\_EXPAND\_SZ<br/>            | A null-terminated string that contains unexpanded references to environment variables (for example, "%PATH%"). It will be a Unicode or ANSI string depending on whether you use the Unicode or ANSI functions. To expand the environment variable references, use the [**ExpandEnvironmentStrings**](/windows/win32/api/processenv/nf-processenv-expandenvironmentstringsa) function.<br/>                                                                                 |
-| REG\_LINK<br/>                  | A null-terminated Unicode string that contains the target path of a symbolic link that was created by calling the [**RegCreateKeyEx**](/windows/desktop/api/Winreg/nf-winreg-regcreatekeyexa) function with REG\_OPTION\_CREATE\_LINK.<br/>                                                                                                                                                                                                                          |
-| REG\_MULTI\_SZ<br/>             | A sequence of null-terminated strings, terminated by an empty string (\\0).<br/> The following is an example:<br/> *String1*\\0*String2*\\0*String3*\\0*LastString*\\0\\0<br/> The first \\0 terminates the first string, the second to the last \\0 terminates the last string, and the final \\0 terminates the sequence. Note that the final terminator must be factored into the length of the string.<br/> |
-| REG\_NONE<br/>                  | No defined value type.<br/>                                                                                                                                                                                                                                                                                                                                                                                                       |
-| REG\_QWORD<br/>                 | A 64-bit number.<br/>                                                                                                                                                                                                                                                                                                                                                                                                             |
-| REG\_QWORD\_LITTLE\_ENDIAN<br/> | A 64-bit number in little-endian format.<br/> Windows is designed to run on little-endian computer architectures. Therefore, this value is defined as REG\_QWORD in the Windows header files.<br/>                                                                                                                                                                                                                          |
-| REG\_SZ<br/>                    | A null-terminated string. This will be either a Unicode or an ANSI string, depending on whether you use the Unicode or ANSI functions.<br/>                                                                                                                                                                                                                                                                                       |
-
-
-
- 
+| Value | Type |
+|--|--|
+| REG\_BINARY | Binary data in any form. |
+| REG\_DWORD | A 32-bit number. |
+| REG\_DWORD\_LITTLE\_ENDIAN | A 32-bit number in little-endian format. Windows is designed to run on little-endian computer architectures. Therefore, this value is defined as REG\_DWORD in the Windows header files. |
+| REG\_DWORD\_BIG\_ENDIAN | A 32-bit number in big-endian format. Some UNIX systems support big-endian architectures. |
+| REG\_EXPAND\_SZ | A null-terminated string that contains unexpanded references to environment variables (for example, "%PATH%"). It will be a Unicode or ANSI string depending on whether you use the Unicode or ANSI functions. To expand the environment variable references, use the [**ExpandEnvironmentStrings**](/windows/win32/api/processenv/nf-processenv-expandenvironmentstringsa) function. |
+| REG\_LINK | A null-terminated Unicode string that contains the target path of a symbolic link that was created by calling the [**RegCreateKeyEx**](/windows/desktop/api/Winreg/nf-winreg-regcreatekeyexa) function with REG\_OPTION\_CREATE\_LINK. |
+| REG\_MULTI\_SZ | A sequence of null-terminated strings, terminated by an empty string (\\0). The following is an example: *String1*\\0*String2*\\0*String3*\\0*LastString*\\0\\0 The first \\0 terminates the first string, the second to the last \\0 terminates the last string, and the final \\0 terminates the sequence. Note that the final terminator must be factored into the length of the string. |
+| REG\_NONE | No defined value type. |
+| REG\_QWORD | A 64-bit number. |
+| REG\_QWORD\_LITTLE\_ENDIAN | A 64-bit number in little-endian format. Windows is designed to run on little-endian computer architectures. Therefore, this value is defined as REG\_QWORD in the Windows header files. |
+| REG\_SZ | A null-terminated string. This will be either a Unicode or an ANSI string, depending on whether you use the Unicode or ANSI functions. |
 
 ## String Values
 
@@ -41,7 +35,6 @@ When writing a string to the registry, you must specify the length of the string
 A REG\_MULTI\_SZ string ends with a string of length 0. Therefore, it is not possible to include a zero-length string in the sequence. An empty sequence would be defined as follows: \\0.
 
 The following example walks a REG\_MULTI\_SZ string.
-
 
 ```C++
 #include <windows.h>
@@ -74,13 +67,8 @@ int __cdecl main(int argc, char **argv)
 }
 ```
 
-
-
 ## Byte Formats
 
 In *little-endian format*, a multi-byte value is stored in memory from the lowest byte (the "little end") to the highest byte. For example, the value 0x12345678 is stored as (0x78 0x56 0x34 0x12) in little-endian format.
 
 In *big-endian format*, a multi-byte value is stored in memory from the highest byte (the "big end") to the lowest byte. For example, the value 0x12345678 is stored as (0x12 0x34 0x56 0x78) in big-endian format.
-
- 
-

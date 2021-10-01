@@ -12,52 +12,15 @@ A number of factoids describe input that is common to all language recognizers a
 
 
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Factoid</th>
-<th>Definition</th>
-<th>Examples</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>Digit</strong></td>
-<td>Sets bias for a single digit. The recognizer is biased toward returning only single digits when this factoid is set.<br/></td>
-<td>0-9<br/></td>
-</tr>
-<tr class="even">
-<td><strong>Email</strong></td>
-<td>Sets bias for an email address.<br/></td>
-<td>someone@example.com<br/></td>
-</tr>
-<tr class="odd">
-<td><strong>Web</strong></td>
-<td>Sets bias for various URL formats.<br/>
-<blockquote>
-[!Note]<br />
-The default settings for the recognizer include the <strong>Web</strong> factoid. Because of this, you may not notice a large difference between the <strong>Web</strong> factoid and the default setting. However, the <strong>Web</strong> factoid does help eliminate spaces between words in a URL.
-</blockquote>
-<br/></td>
-<td>http:\\microsoft.net<br/> https://microsoft.us/<br/> https:\\www.microsoft.au\<br/> https://microsoft.com<br/> www.microsoft_world.com<br/> www.microsoft.us\<br/> http:\\www.microsoft.com\myfile.htm<br/> http:\\www.microsoft.com\myfile.html<br/> http:\\www.microsoft.com\myfile.asp<br/> http:\\www.microsoft.uk<br/> http:\\www.microsoft.info<br/> www.microsoft.biz<br/></td>
-</tr>
-<tr class="even">
-<td><strong>Default</strong></td>
-<td>Returns the recognizer to its default settings.<br/></td>
-<td>The default setting for factoids for western languages includes the system dictionary, user dictionary, various punctuations, and the <strong>Web</strong> and <strong>Number</strong> factoids.<br/> The default setting for factoids for East Asian languages includes all characters supported by the recognizer.<br/></td>
-</tr>
-<tr class="odd">
-<td><strong>None</strong></td>
-<td>Disables all factoids, dictionaries, and the language model.<br/></td>
-<td>This factoid should be used only when you do not want the recognizer to use any grammar rules or dictionaries, including the system dictionary. This factoid is useful for input of random strings such as product codes. Do not use the Coerce flag with this factoid.<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Factoid | Definition | Examples | 
+|---------|------------|----------|
+| <strong>Digit</strong> | Sets bias for a single digit. The recognizer is biased toward returning only single digits when this factoid is set.<br /> | 0-9<br /> | 
+| <strong>Email</strong> | Sets bias for an email address.<br /> | someone@example.com<br /> | 
+| <strong>Web</strong> | Sets bias for various URL formats.<br /><blockquote>[!Note]<br />The default settings for the recognizer include the <strong>Web</strong> factoid. Because of this, you may not notice a large difference between the <strong>Web</strong> factoid and the default setting. However, the <strong>Web</strong> factoid does help eliminate spaces between words in a URL.</blockquote><br /> | http:\\microsoft.net<br /> https://microsoft.us/<br /> https:\\www.microsoft.au\<br /> https://microsoft.com<br /> www.microsoft_world.com<br /> www.microsoft.us\<br /> http:\\www.microsoft.com\myfile.htm<br /> http:\\www.microsoft.com\myfile.html<br /> http:\\www.microsoft.com\myfile.asp<br /> http:\\www.microsoft.uk<br /> http:\\www.microsoft.info<br /> www.microsoft.biz<br /> | 
+| <strong>Default</strong> | Returns the recognizer to its default settings.<br /> | The default setting for factoids for western languages includes the system dictionary, user dictionary, various punctuations, and the <strong>Web</strong> and <strong>Number</strong> factoids.<br /> The default setting for factoids for East Asian languages includes all characters supported by the recognizer.<br /> | 
+| <strong>None</strong> | Disables all factoids, dictionaries, and the language model.<br /> | This factoid should be used only when you do not want the recognizer to use any grammar rules or dictionaries, including the system dictionary. This factoid is useful for input of random strings such as product codes. Do not use the Coerce flag with this factoid.<br /> | 
+
 
 
 

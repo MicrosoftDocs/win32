@@ -15,7 +15,7 @@ To set the scene for auto-breadcrumbs, let's first mention the manual variety. I
 
 This is a reasonable approach if you want to create a custom, low-overhead implementation. But it may lack some of the versatility of a standardized solution, such as debugger extensions, or reporting via [Windows Error Reporting (WER)](/windows/desktop/wer/windows-error-reporting) (also known as Watson).
 
-So, DRED's auto-breadcrumbs call **WriteBufferImmediate** to place progress counters into the GPU command stream. DRED inserts a breadcrumb after each *render op*&mdash;which means every operation that results in GPU work (for example, **Draw**, **Dispatch**, **Copy**, **Resolve**, and others). If the device is removed in the middle of a GPU workload, then the DRED breadcrumb value is essentially a collection of the render ops that completed before the error.
+So, DRED's auto-breadcrumbs call **WriteBufferImmediate** to place progress counters into the GPU command stream. DRED inserts a breadcrumb after each *render op*&mdash;which means every operation that results in GPU work (for example, **Draw**, **Dispatch**, **Copy**, **Resolve**, and others). If the device is removed in the middle of a GPU workload, then the DRED breadcrumb value is essentially a collection of the render ops that completed before the error.
 
 The breadcrumb history ring buffer retains up to 64KiB operations in a given command list. If there are more than 65536 operations in a command list, then only the last 64KiB operations are stored&mdash;overwriting the oldest operations first. However, the breadcrumb counter value continues to count up to `UINT_MAX`. Therefore, LastOpIndex = (BreadcrumbCount - 1) % 65536.
 
@@ -38,7 +38,7 @@ A feature that's new for DRED 1.1 is DRED GPU page fault reporting. A GPU page f
 DRED attempts to address some of these scenarios by reporting the names and types of any existing or recently freed API objects that match the virtual address (VA) of the GPU-reported page fault.
 
 ### Caveat
-Not all GPUs support page faults (although, many do). Some GPUs respond to memory faults by: bit-bucket writes; reading simulated data (for example, zeros); or by simply hanging. Unfortunately, in cases where the GPU doesn't immediately hang, a [Timeout Detection and Recovery (TDR)](/windows-hardware/drivers/display/timeout-detection-and-recovery) can happen later in the pipe, making it even harder to locate the root cause.
+Not all GPUs support page faults (although, many do). Some GPUs respond to memory faults by: bit-bucket writes; reading simulated data (for example, zeros); or by simply hanging. Unfortunately, in cases where the GPU doesn't immediately hang, a [Timeout Detection and Recovery (TDR)](/windows-hardware/drivers/display/timeout-detection-and-recovery) can happen later in the pipe, making it even harder to locate the root cause.
 
 ### Performance
 The Direct3D 12 runtime must actively curate a collection of existing and recently-deleted API objects indexable by virtual address (VA). This increases the system memory overhead, and introduces a small performance hit to object creation and destruction. For that reason, this behavior is off by default.

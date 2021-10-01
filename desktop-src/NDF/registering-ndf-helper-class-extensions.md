@@ -43,7 +43,7 @@ The following procedure shows how to add helper class extensions to the registry
     | Value         | Type       | Meaning                                                                                                                                                                 |
     |---------------|------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
     | **CLSID**     | REG\_SZ    | A string that contains the COM class ID of the helper class.                                                                                                            |
-    | **Version**   | REG\_SZ    | A string the contains the major and minor versions of the helper class in the format <major><minor>.                                                        |
+    | **Version**   | REG\_SZ    | A string the contains the major and minor versions of the helper class in the format &lt;major&gt;&lt;minor&gt;.                                                        |
     | **Published** | REG\_DWORD | A value of 1 means that this helper class is expected to be directly invoked from the Diagnostics client. 0 means that it can be called only from another helper class. |
     | **Parent**    | REG\_SZ    | A string that names the Microsoft extensible helper class that is being extended.                                                                                       |
 

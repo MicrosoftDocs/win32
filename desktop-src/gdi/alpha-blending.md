@@ -28,16 +28,35 @@ typedef struct {
 
 This is represented in memory as shown in the following table.
 
+:::row:::
+    :::column:::
+        31:24
+    :::column-end:::
+    :::column:::
+        23:16
+    :::column-end:::
+    :::column:::
+        15:08
+    :::column-end:::
+    :::column:::
+        07:00
+    :::column-end:::
+:::row-end:::
 
-
-|       |       |       |       |
-|-------|-------|-------|-------|
-| 31:24 | 23:16 | 15:08 | 07:00 |
-| Alpha | Red   | Green | Blue  |
-
-
-
- 
+:::row:::
+    :::column:::
+        Alpha
+    :::column-end:::
+    :::column:::
+        Red
+    :::column-end:::
+    :::column:::
+        Green
+    :::column-end:::
+    :::column:::
+        Blue
+    :::column-end:::
+:::row-end:::
 
 Bitmaps may also be displayed with a transparency factor applied to the entire bitmap. Any bitmap format can be displayed with a global constant alpha value by setting **SourceConstantAlpha** in the [**BLENDFUNCTION**](/windows/desktop/api/Wingdi/ns-wingdi-blendfunction) structure. The global constant alpha value has 256 levels of transparency, from 0 (entire bitmap is completely transparent) to 255 (entire bitmap is completely opaque). The global constant alpha value is combined with the per-pixel alpha value.
 

@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # How to customize the UI elements
 
-A web page customizes the user interface (UI) with the title, icon, and header color by using metadata tags defined on the web page. Web developers can use HTML <meta> tags to display the provider's personality and brand in the Web Authentication Broker UI. In addition, developers can direct more intricate user actions, for example signing up and recovering passwords. The concept is very similar to Pinned Sites feature of the Windows Internet Explorer 9 and Windows 7.
+A web page customizes the user interface (UI) with the title, icon, and header color by using metadata tags defined on the web page. Web developers can use HTML &lt;meta&gt; tags to display the provider's personality and brand in the Web Authentication Broker UI. In addition, developers can direct more intricate user actions, for example signing up and recovering passwords. The concept is very similar to Pinned Sites feature of the Windows Internet Explorer 9 and Windows 7.
 
 In addition to customizing the user interface around the web page area, the web page should also take advantage of the Windows 8 controls’ styles, be enabled for touch, and enable links to be opened in the browser where appropriate.
 

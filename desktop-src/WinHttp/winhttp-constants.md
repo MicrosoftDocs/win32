@@ -10,7 +10,9 @@ ms.date: 05/31/2018
 
 WinHTTP uses the following constants:
 
-<dl> <dt>
+<dl>
+
+<dt>
 
 [**Error Messages**](error-messages.md)
 </dt> <dd>
@@ -45,18 +47,33 @@ A WORD value indicating the port.
 
 Internet schemes supported by WinHTTP.
 
-</dd> <dt>
+</dd>
+
+<dt>
 
 [**Query Info Flags**](query-info-flags.md)
-</dt> <dd>
+</dt>
+<dd>
 
 Attributes and modifiers used by [**WinHttpQueryHeaders**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpqueryheaders).
+</dd>
 
-</dd> </dl>
+<dt>
 
- 
+**WINHTTP_EXTENDED_HEADER_FLAG_UNICODE**
+</dt>
+<dd>
 
- 
+Has a value of 0x00000001. Indicates to [WinHttpAddRequestHeadersEx](/windows/win32/api/winhttp/nf-winhttp-winhttpaddrequestheadersex) that the strings passed in are Unicode strings.
+</dd>
 
+<dt>
 
+**WINHTTP_READ_DATA_EX_FLAG_FILL_BUFFER**
+</dt>
+<dd>
 
+Has a value of 0x0000000000000001ull. Instructs [WinHttpReadDataEx](/windows/win32/api/winhttp/nf-winhttp-winhttpreaddataex) not to complete the call until the provided data buffer has been filled, or the response is complete. Passing this flag makes the behavior of **WinHttpReadDataEx** equivalent to that of [WinHttpReadData](/windows/win32/api/winhttp/nf-winhttp-winhttpreaddata).
+</dd>
+
+</dl>

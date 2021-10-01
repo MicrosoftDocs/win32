@@ -29,253 +29,67 @@ The following CALTYPE constants are mutually exclusive and cannot be used in com
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Constant</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>CAL_ICALINTVALUE</td>
-<td>An integer value indicating the calendar type of the alternate calendar.</td>
-</tr>
-<tr class="even">
-<td>CAL_ITWODIGITYEARMAX</td>
-<td><strong>Windows Me/98, Windows 2000:</strong> An integer value indicating the upper boundary of the two-digit year range.</td>
-</tr>
-<tr class="odd">
-<td>CAL_IYEAROFFSETRANGE</td>
-<td>One or more null-terminated strings that specify the year offsets for each of the era ranges. The last string has an extra terminating null character. This value varies in format depending on the type of optional calendar.</td>
-</tr>
-<tr class="even">
-<td>CAL_SABBREVDAYNAME1</td>
-<td>Abbreviated native name of the first day of the week.</td>
-</tr>
-<tr class="odd">
-<td>CAL_SABBREVDAYNAME2</td>
-<td>Abbreviated native name of the second day of the week.</td>
-</tr>
-<tr class="even">
-<td>CAL_SABBREVDAYNAME3</td>
-<td>Abbreviated native name of the third day of the week.</td>
-</tr>
-<tr class="odd">
-<td>CAL_SABBREVDAYNAME4</td>
-<td>Abbreviated native name of the fourth day of the week.</td>
-</tr>
-<tr class="even">
-<td>CAL_SABBREVDAYNAME5</td>
-<td>Abbreviated native name of the fifth day of the week.</td>
-</tr>
-<tr class="odd">
-<td>CAL_SABBREVDAYNAME6</td>
-<td>Abbreviated native name of the sixth day of the week.</td>
-</tr>
-<tr class="even">
-<td>CAL_SABBREVDAYNAME7</td>
-<td>Abbreviated native name of the seventh day of the week.</td>
-</tr>
-<tr class="odd">
-<td>CAL_SABBREVERASTRING</td>
-<td><strong>Windows 7 and later:</strong> Abbreviated native name of an era. The full era is represented by the CAL_SERASTRING constant.</td>
-</tr>
-<tr class="even">
-<td>CAL_SABBREVMONTHNAME1</td>
-<td>Abbreviated native name of the first month of the year.</td>
-</tr>
-<tr class="odd">
-<td>CAL_SABBREVMONTHNAME2</td>
-<td>Abbreviated native name of the second month of the year.</td>
-</tr>
-<tr class="even">
-<td>CAL_SABBREVMONTHNAME3</td>
-<td>Abbreviated native name of the third month of the year.</td>
-</tr>
-<tr class="odd">
-<td>CAL_SABBREVMONTHNAME4</td>
-<td>Abbreviated native name of the fourth month of the year.</td>
-</tr>
-<tr class="even">
-<td>CAL_SABBREVMONTHNAME5</td>
-<td>Abbreviated native name of the fifth month of the year.</td>
-</tr>
-<tr class="odd">
-<td>CAL_SABBREVMONTHNAME6</td>
-<td>Abbreviated native name of the sixth month of the year.</td>
-</tr>
-<tr class="even">
-<td>CAL_SABBREVMONTHNAME7</td>
-<td>Abbreviated native name of the seventh month of the year.</td>
-</tr>
-<tr class="odd">
-<td>CAL_SABBREVMONTHNAME8</td>
-<td>Abbreviated native name of the eighth month of the year.</td>
-</tr>
-<tr class="even">
-<td>CAL_SABBREVMONTHNAME9</td>
-<td>Abbreviated native name of the ninth month of the year.</td>
-</tr>
-<tr class="odd">
-<td>CAL_SABBREVMONTHNAME10</td>
-<td>Abbreviated native name of the tenth month of the year.</td>
-</tr>
-<tr class="even">
-<td>CAL_SABBREVMONTHNAME11</td>
-<td>Abbreviated native name of the eleventh month of the year.</td>
-</tr>
-<tr class="odd">
-<td>CAL_SABBREVMONTHNAME12</td>
-<td>Abbreviated native name of the twelfth month of the year.</td>
-</tr>
-<tr class="even">
-<td>CAL_SABBREVMONTHNAME13</td>
-<td>Abbreviated native name of the thirteenth month of the year, if it exists.</td>
-</tr>
-<tr class="odd">
-<td>CAL_SCALNAME</td>
-<td>Native name of the alternate calendar.</td>
-</tr>
-<tr class="even">
-<td>CAL_SDAYNAME1</td>
-<td>Native name of the first day of the week.</td>
-</tr>
-<tr class="odd">
-<td>CAL_SDAYNAME2</td>
-<td>Native name of the second day of the week.</td>
-</tr>
-<tr class="even">
-<td>CAL_SDAYNAME3</td>
-<td>Native name of the third day of the week.</td>
-</tr>
-<tr class="odd">
-<td>CAL_SDAYNAME4</td>
-<td>Native name of the fourth day of the week.</td>
-</tr>
-<tr class="even">
-<td>CAL_SDAYNAME5</td>
-<td>Native name of the fifth day of the week.</td>
-</tr>
-<tr class="odd">
-<td>CAL_SDAYNAME6</td>
-<td>Native name of the sixth day of the week.</td>
-</tr>
-<tr class="even">
-<td>CAL_SDAYNAME7</td>
-<td>Native name of the seventh day of the week.</td>
-</tr>
-<tr class="odd">
-<td>CAL_SERASTRING</td>
-<td>One or more null-terminated strings that specify each of the Unicode code points specifying the era associated with CAL_IYEAROFFSETRANGE. The last string has an extra terminating null character. This value varies in format depending on the type of optional calendar.</td>
-</tr>
-<tr class="even">
-<td>CAL_SLONGDATE</td>
-<td>Long date formats for the calendar type.</td>
-</tr>
-<tr class="odd">
-<td>CAL_SMONTHDAY</td>
-<td><strong>Windows 7 and later:</strong> Format of the month and day for the calendar type. The formatting is similar to that for CAL_SLONGDATE. For example, if the Month/Day pattern is the full month name followed by the day number with leading zeros, for example, &quot;September 03&quot;, the format is &quot;MMMM dd&quot;. Single quotation marks can be used to insert non-format characters, for example, 'de' in Spanish.
-<blockquote>
-[!Note]<br />
-This calendar type supports only one format.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td>CAL_SMONTHNAME1</td>
-<td>Native name of the first month of the year.</td>
-</tr>
-<tr class="odd">
-<td>CAL_SMONTHNAME2</td>
-<td>Native name of the second month of the year.</td>
-</tr>
-<tr class="even">
-<td>CAL_SMONTHNAME3</td>
-<td>Native name of the third month of the year.</td>
-</tr>
-<tr class="odd">
-<td>CAL_SMONTHNAME4</td>
-<td>Native name of the fourth month of the year.</td>
-</tr>
-<tr class="even">
-<td>CAL_SMONTHNAME5</td>
-<td>Native name of the fifth month of the year.</td>
-</tr>
-<tr class="odd">
-<td>CAL_SMONTHNAME6</td>
-<td>Native name of the sixth month of the year.</td>
-</tr>
-<tr class="even">
-<td>CAL_SMONTHNAME7</td>
-<td>Native name of the seventh month of the year.</td>
-</tr>
-<tr class="odd">
-<td>CAL_SMONTHNAME8</td>
-<td>Native name of the eighth month of the year.</td>
-</tr>
-<tr class="even">
-<td>CAL_SMONTHNAME9</td>
-<td>Native name of the ninth month of the year.</td>
-</tr>
-<tr class="odd">
-<td>CAL_SMONTHNAME10</td>
-<td>Native name of the tenth month of the year.</td>
-</tr>
-<tr class="even">
-<td>CAL_SMONTHNAME11</td>
-<td>Native name of the eleventh month of the year.</td>
-</tr>
-<tr class="odd">
-<td>CAL_SMONTHNAME12</td>
-<td>Native name of the twelfth month of the year.</td>
-</tr>
-<tr class="even">
-<td>CAL_SMONTHNAME13</td>
-<td>Native name of the thirteenth month of the year, if it exists.</td>
-</tr>
-<tr class="odd">
-<td>CAL_SSHORTDATE</td>
-<td>Short date formats for the calendar type.</td>
-</tr>
-<tr class="even">
-<td>CAL_SSHORTESTDAYNAME1</td>
-<td><strong>Windows Vista and later:</strong> Short native name of the first day of the week.</td>
-</tr>
-<tr class="odd">
-<td>CAL_SSHORTESTDAYNAME2</td>
-<td><strong>Windows Vista and later:</strong> Short native name of the second day of the week.</td>
-</tr>
-<tr class="even">
-<td>CAL_SSHORTESTDAYNAME3</td>
-<td><strong>Windows Vista and later:</strong> Short native name of the third day of the week.</td>
-</tr>
-<tr class="odd">
-<td>CAL_SSHORTESTDAYNAME4</td>
-<td><strong>Windows Vista and later:</strong> Short native name of the fourth day of the week.</td>
-</tr>
-<tr class="even">
-<td>CAL_SSHORTESTDAYNAME5</td>
-<td><strong>Windows Vista and later:</strong> Short native name of the fifth day of the week.</td>
-</tr>
-<tr class="odd">
-<td>CAL_SSHORTESTDAYNAME6</td>
-<td><strong>Windows Vista and later:</strong> Short native name of the sixth day of the week.</td>
-</tr>
-<tr class="even">
-<td>CAL_SSHORTESTDAYNAME7</td>
-<td><strong>Windows Vista and later:</strong> Short native name of the seventh day of the week.</td>
-</tr>
-<tr class="odd">
-<td>CAL_SYEARMONTH</td>
-<td><strong>Windows Me/98, Windows 2000:</strong> The year/month formats for the specified calendars.</td>
-</tr>
-</tbody>
-</table>
+
+| Constant | Description | 
+|----------|-------------|
+| CAL_ICALINTVALUE | An integer value indicating the calendar type of the alternate calendar. | 
+| CAL_ITWODIGITYEARMAX | <strong>Windows Me/98, Windows 2000:</strong> An integer value indicating the upper boundary of the two-digit year range. | 
+| CAL_IYEAROFFSETRANGE | One or more null-terminated strings that specify the year offsets for each of the era ranges. The last string has an extra terminating null character. This value varies in format depending on the type of optional calendar. | 
+| CAL_SABBREVDAYNAME1 | Abbreviated native name of the first day of the week. | 
+| CAL_SABBREVDAYNAME2 | Abbreviated native name of the second day of the week. | 
+| CAL_SABBREVDAYNAME3 | Abbreviated native name of the third day of the week. | 
+| CAL_SABBREVDAYNAME4 | Abbreviated native name of the fourth day of the week. | 
+| CAL_SABBREVDAYNAME5 | Abbreviated native name of the fifth day of the week. | 
+| CAL_SABBREVDAYNAME6 | Abbreviated native name of the sixth day of the week. | 
+| CAL_SABBREVDAYNAME7 | Abbreviated native name of the seventh day of the week. | 
+| CAL_SABBREVERASTRING | <strong>Windows 7 and later:</strong> Abbreviated native name of an era. The full era is represented by the CAL_SERASTRING constant. | 
+| CAL_SABBREVMONTHNAME1 | Abbreviated native name of the first month of the year. | 
+| CAL_SABBREVMONTHNAME2 | Abbreviated native name of the second month of the year. | 
+| CAL_SABBREVMONTHNAME3 | Abbreviated native name of the third month of the year. | 
+| CAL_SABBREVMONTHNAME4 | Abbreviated native name of the fourth month of the year. | 
+| CAL_SABBREVMONTHNAME5 | Abbreviated native name of the fifth month of the year. | 
+| CAL_SABBREVMONTHNAME6 | Abbreviated native name of the sixth month of the year. | 
+| CAL_SABBREVMONTHNAME7 | Abbreviated native name of the seventh month of the year. | 
+| CAL_SABBREVMONTHNAME8 | Abbreviated native name of the eighth month of the year. | 
+| CAL_SABBREVMONTHNAME9 | Abbreviated native name of the ninth month of the year. | 
+| CAL_SABBREVMONTHNAME10 | Abbreviated native name of the tenth month of the year. | 
+| CAL_SABBREVMONTHNAME11 | Abbreviated native name of the eleventh month of the year. | 
+| CAL_SABBREVMONTHNAME12 | Abbreviated native name of the twelfth month of the year. | 
+| CAL_SABBREVMONTHNAME13 | Abbreviated native name of the thirteenth month of the year, if it exists. | 
+| CAL_SCALNAME | Native name of the alternate calendar. | 
+| CAL_SDAYNAME1 | Native name of the first day of the week. | 
+| CAL_SDAYNAME2 | Native name of the second day of the week. | 
+| CAL_SDAYNAME3 | Native name of the third day of the week. | 
+| CAL_SDAYNAME4 | Native name of the fourth day of the week. | 
+| CAL_SDAYNAME5 | Native name of the fifth day of the week. | 
+| CAL_SDAYNAME6 | Native name of the sixth day of the week. | 
+| CAL_SDAYNAME7 | Native name of the seventh day of the week. | 
+| CAL_SERASTRING | One or more null-terminated strings that specify each of the Unicode code points specifying the era associated with CAL_IYEAROFFSETRANGE. The last string has an extra terminating null character. This value varies in format depending on the type of optional calendar. | 
+| CAL_SLONGDATE | Long date formats for the calendar type. | 
+| CAL_SMONTHDAY | <strong>Windows 7 and later:</strong> Format of the month and day for the calendar type. The formatting is similar to that for CAL_SLONGDATE. For example, if the Month/Day pattern is the full month name followed by the day number with leading zeros, for example, "September 03", the format is "MMMM dd". Single quotation marks can be used to insert non-format characters, for example, 'de' in Spanish.<blockquote>[!Note]<br />This calendar type supports only one format.</blockquote><br /> | 
+| CAL_SMONTHNAME1 | Native name of the first month of the year. | 
+| CAL_SMONTHNAME2 | Native name of the second month of the year. | 
+| CAL_SMONTHNAME3 | Native name of the third month of the year. | 
+| CAL_SMONTHNAME4 | Native name of the fourth month of the year. | 
+| CAL_SMONTHNAME5 | Native name of the fifth month of the year. | 
+| CAL_SMONTHNAME6 | Native name of the sixth month of the year. | 
+| CAL_SMONTHNAME7 | Native name of the seventh month of the year. | 
+| CAL_SMONTHNAME8 | Native name of the eighth month of the year. | 
+| CAL_SMONTHNAME9 | Native name of the ninth month of the year. | 
+| CAL_SMONTHNAME10 | Native name of the tenth month of the year. | 
+| CAL_SMONTHNAME11 | Native name of the eleventh month of the year. | 
+| CAL_SMONTHNAME12 | Native name of the twelfth month of the year. | 
+| CAL_SMONTHNAME13 | Native name of the thirteenth month of the year, if it exists. | 
+| CAL_SSHORTDATE | Short date formats for the calendar type. | 
+| CAL_SSHORTESTDAYNAME1 | <strong>Windows Vista and later:</strong> Short native name of the first day of the week. | 
+| CAL_SSHORTESTDAYNAME2 | <strong>Windows Vista and later:</strong> Short native name of the second day of the week. | 
+| CAL_SSHORTESTDAYNAME3 | <strong>Windows Vista and later:</strong> Short native name of the third day of the week. | 
+| CAL_SSHORTESTDAYNAME4 | <strong>Windows Vista and later:</strong> Short native name of the fourth day of the week. | 
+| CAL_SSHORTESTDAYNAME5 | <strong>Windows Vista and later:</strong> Short native name of the fifth day of the week. | 
+| CAL_SSHORTESTDAYNAME6 | <strong>Windows Vista and later:</strong> Short native name of the sixth day of the week. | 
+| CAL_SSHORTESTDAYNAME7 | <strong>Windows Vista and later:</strong> Short native name of the seventh day of the week. | 
+| CAL_SYEARMONTH | <strong>Windows Me/98, Windows 2000:</strong> The year/month formats for the specified calendars. | 
+
 
 
 

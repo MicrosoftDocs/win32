@@ -43,7 +43,7 @@ You can use the following general-use APIs to access NVMe drives in Windows 10.
 -   [**STORAGE\_PROPERTY\_QUERY**](/windows/desktop/api/WinIoCtl/ns-winioctl-storage_property_query) : This structure includes the **PropertyId** and **AdditionalParameters** fields to specify the data to be queried. In the **PropertyId** filed, use the **STORAGE\_PROPERTY\_ID** enumeration to specify the type of data. Use the **AdditionalParameters** field to specify more details, depending on the type of data. For protocol-specific data, use the **STORAGE\_PROTOCOL\_SPECIFIC\_DATA** structure in the **AdditionalParameters** field. For temperature data, use the **STORAGE\_TEMPERATURE\_INFO** structure in the **AdditionalParameters** field.
 -   [**STORAGE\_PROPERTY\_ID**](/windows/win32/api/winioctl/ne-winioctl-storage_property_id) : This enumeration includes new values that allow **IOCTL\_STORAGE\_QUERY\_PROPERTY** to retrieve protocol-specific and temperature information.
 
-    -   **StorageAdapterProtocolSpecificProperty**
+    -   **StorageAdapterProtocolSpecificProperty**: If ProtocolType = ProtocolTypeNvme and DataType = NVMeDataTypeLogPage, callers should request 512 byte chunks of data.
     -   **StorageDeviceProtocolSpecificProperty**
 
     Use one of these protocol-specific property IDs in combination with **STORAGE\_PROTOCOL\_SPECIFIC\_DATA** to retrieve protocol-specific data in the [**STORAGE\_PROTOCOL\_DATA\_DESCRIPTOR**](/windows/desktop/api/WinIoCtl/ns-winioctl-storage_protocol_data_descriptor) structure.
@@ -298,6 +298,10 @@ To specify a type of NVMe protocol-specific information, configure the [**STORAG
 
 When **ProtocolTypeNVMe** is used as the **ProtocolType**, queries for protocol-specific information can be retrieved in parallel with other I/O on the NVMe drive.
 
+> [!IMPORTANT]
+> For an [**IOCTL_STORAGE_QUERY_PROPERTY**](/windows/win32/api/winioctl/ni-winioctl-ioctl_storage_query_property) that uses a **STORAGE_PROPERTY_ID** of [**StorageAdapterProtocolSpecificProperty**](/windows/win32/api/winioctl/ne-winioctl-storage_property_id), and whose [**STORAGE_PROTOCOL_SPECIFIC_DATA**](/windows/win32/api/winioctl/ns-winioctl-storage_protocol_specific_data) or [**STORAGE_PROTOCOL_SPECIFIC_DATA_EXT**](/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-storage_protocol_specific_data_ext) structure is set to `ProtocolType=ProtocolTypeNvme` and `DataType=NVMeDataTypeLogPage`, set the ProtocolDataLength member of that same structure to a minimum value of 512 (bytes).
+
+
 The following examples demonstrate NVMe protocol-specific queries.
 
 ### Example: NVMe Identify query
@@ -421,6 +425,8 @@ In this example, the **Identify** request is sent to an NVMe drive. The followin
   
 ```
 
+> [!IMPORTANT]
+> For an [**IOCTL_STORAGE_QUERY_PROPERTY**](/windows/win32/api/winioctl/ni-winioctl-ioctl_storage_query_property) that uses a **STORAGE_PROPERTY_ID** of [**StorageAdapterProtocolSpecificProperty**](/windows/win32/api/winioctl/ne-winioctl-storage_property_id), and whose [**STORAGE_PROTOCOL_SPECIFIC_DATA**](/windows/win32/api/winioctl/ns-winioctl-storage_protocol_specific_data) or [**STORAGE_PROTOCOL_SPECIFIC_DATA_EXT**](/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-storage_protocol_specific_data_ext) structure is set to `ProtocolType=ProtocolTypeNvme` and `DataType=NVMeDataTypeLogPage`, set the ProtocolDataLength member of that same structure to a minimum value of 512 (bytes).
 
 
 Note that the caller needs to allocate a single buffer containing STORAGE\_PROPERTY\_QUERY and the size of STORAGE\_PROTOCOL\_SPECIFIC\_DATA. In this example, it’s using the same buffer for input and output from the property query. That’s why the buffer that was allocated has a size of “FIELD\_OFFSET(STORAGE\_PROPERTY\_QUERY, AdditionalParameters) + sizeof(STORAGE\_PROTOCOL\_SPECIFIC\_DATA) + NVME\_MAX\_LOG\_SIZE”. Although separate buffers could be allocated for both input and output, we recommend using a single buffer to query NVMe related-information.

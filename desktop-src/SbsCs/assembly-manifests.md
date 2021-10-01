@@ -218,7 +218,7 @@ The **comClass** element has the following attributes.
 
  
 
-The **comClass** element can have <progid>...</progid> elements as children, which list the version dependent progids.
+The **comClass** element can have &lt;progid&gt;...</progid> elements as children, which list the version dependent progids.
 
 The following example shows a **comClass** element included in a **file** element.
 

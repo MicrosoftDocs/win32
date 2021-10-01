@@ -20,9 +20,10 @@ topic_type:
 - apiref
 - kbSyntax
 api_type: 
-- Managed
+- DllExport
 api_location: 
 - Microsoft.Isam.Esent.Interop.dll
+- esent.dll
 ROBOTS: INDEX,FOLLOW
 
 ---

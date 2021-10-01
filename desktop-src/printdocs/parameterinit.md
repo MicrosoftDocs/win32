@@ -14,7 +14,7 @@ Defines a value for an instance of a ParameterDef element. A ParameterInit eleme
 
 ## Element Tag
 
-<ParameterInit>
+&lt;ParameterInit&gt;
 
 ## XML Attributes
 
@@ -38,7 +38,7 @@ The following table lists the elements that may be parents of this element, the 
 
 
 
-| Category                   |                                                                                                   |
+| Category                   | Name or restriction                                                                                                  |
 |----------------------------|---------------------------------------------------------------------------------------------------|
 | Parent elements<br/> | PrintTicket (PrintTicket root)<br/>                                                         |
 | Child elements<br/>  | Value (one)<br/>                                                                            |

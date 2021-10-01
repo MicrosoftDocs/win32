@@ -21,8 +21,8 @@ The following Routing and Remote Access (RRAS) API error codes are defined in ra
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -328,7 +328,7 @@ Deprecated in Windows Vista and later versions of Windows.
 </tr>
 <tr class="even">
 <td><span id="ERROR_MESSAGE_MACRO_NOT_FOUND"></span><span id="error_message_macro_not_found"></span><dl> <dt><strong>ERROR_MESSAGE_MACRO_NOT_FOUND</strong></dt> <dt>655</dt> </dl></td>
-<td>The <message> macro was not found in the device .INF file section.<br/></td>
+<td>The &lt;message&gt; macro was not found in the device .INF file section.<br/></td>
 </tr>
 <tr class="odd">
 <td><span id="ERROR_DEFAULTOFF_MACRO_NOT_FOUND"></span><span id="error_defaultoff_macro_not_found"></span><dl> <dt><strong>ERROR_DEFAULTOFF_MACRO_NOT_FOUND</strong></dt> <dt>656</dt> </dl></td>
@@ -1588,8 +1588,8 @@ The following Routing and Remote Access (RRAS) API error codes are defined in mp
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">

@@ -1,5 +1,5 @@
 ---
-description: The <simpleLocation> element specifies the location for search connectors that are file-system based or protocol-handler based. This element has two child elements and no attributes.
+description: The &lt;simpleLocation&gt; element specifies the location for search connectors that are file-system based or protocol-handler based. This element has two child elements and no attributes.
 ms.assetid: 04ffc178-0a76-4870-a075-a2ecd31937a1
 title: simpleLocation Element (Search Connector Schema)
 ms.topic: article
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # simpleLocation Element (Search Connector Schema)
 
-The <simpleLocation> element specifies the location for search connectors that are file-system based or protocol-handler based. This element has two child elements and no attributes.
+The &lt;simpleLocation&gt; element specifies the location for search connectors that are file-system based or protocol-handler based. This element has two child elements and no attributes.
 
 ## Syntax
 
@@ -41,7 +41,7 @@ The <simpleLocation> element specifies the location for search connectors that a
 | Parent Element                                                                                                   | Child Elements                                                                                                                                                                                                                                                                                                     |
 |------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [searchConnectorDescriptionType Element (Search Connector Schema)](search-schema-searchconnectordescription.md) | [simpleLocation url Element (Search Connector Schema)](search-schema-sconn-url.md)                                                                                                                                                                                                                                |
-|                                                                                                                  | serialized: This element contains the base64-encoded ShellLink pointing to the location defined in the <url> element. Windows 7 creates the ShellLink from the value of the <url> element and properly updates this field on the first load of this library, so it should be left empty by the author. |
+|                                                                                                                  | serialized: This element contains the base64-encoded ShellLink pointing to the location defined in the &lt;url&gt; element. Windows 7 creates the ShellLink from the value of the &lt;url&gt; element and properly updates this field on the first load of this library, so it should be left empty by the author. |
 
 
 
@@ -49,7 +49,7 @@ The <simpleLocation> element specifies the location for search connectors that a
 
 ## Remarks
 
-This element can be used instead of <locationProvider> when the location is on the file system or the connector is a known protocol handler (like mapi:). If <simpleLocation> is present, there MUST NOT be a <locationProvider> element. For web service provider search connectors, use the [<locationProvider>](search-schema-sconn-locationprovider.md) element instead.
+This element can be used instead of &lt;locationProvider&gt; when the location is on the file system or the connector is a known protocol handler (like mapi:). If &lt;simpleLocation&gt; is present, there MUST NOT be a &lt;locationProvider&gt; element. For web service provider search connectors, use the [&lt;locationProvider&gt;](search-schema-sconn-locationprovider.md) element instead.
 
 ## Examples
 

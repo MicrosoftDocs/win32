@@ -99,7 +99,7 @@ A swap chain is set up to draw in full-screen or windowed mode, this eliminates 
 
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">

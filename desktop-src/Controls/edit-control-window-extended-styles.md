@@ -24,40 +24,15 @@ This section lists extended styles used when creating edit controls. The value o
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;">Constant</th>
-<th style="text-align: left;">Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;"><span id="ES_EX_ALLOWEOL_CR"></span><span id="es_ex_alloweol_cr"></span><dl> <dt><strong>ES_EX_ALLOWEOL_CR</strong></dt> </dl></td>
-<td style="text-align: left;">[Windows Vista and later](common-control-versions.md). Enables support for carriage return (CR) end-of-line characters to break lines.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><span id="ES_EX_ALLOWEOL_LF"></span><span id="es_ex_alloweol_lf"></span><dl> <dt><strong>ES_EX_ALLOWEOL_LF</strong></dt> </dl></td>
-<td style="text-align: left;">[Windows Vista and later](common-control-versions.md). Enables support for linefeed (LF) end-of-line characters to break lines.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><span id="ES_EX_ALLOWEOL_ALL"></span><span id="es_ex_alloweol_all"></span><dl> <dt><strong>ES_EX_ALLOWEOL_ALL</strong></dt> </dl></td>
-<td style="text-align: left;">[Windows Vista and later](common-control-versions.md). Enables support for both carriage return (CR) and linefeed (LF) end-of-line characters to break lines.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><span id="ES_EX_CONVERT_EOL_ON_PASTE"></span><span id="es_ex_convert_eol_on_paste"></span><dl> <dt><strong>ES_EX_CONVERT_EOL_ON_PASTE</strong></dt> </dl></td>
-<td style="text-align: left;">[Windows Vista and later](common-control-versions.md). Converts end-of-line characters enabled for this edit control in pasted content to match the end-of-line character used by the current document.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><span id="ES_EX_ZOOMABLE"></span><span id="es_ex_zoomable"></span><dl> <dt><strong>ES_EX_ZOOMABLE</strong></dt> </dl></td>
-<td style="text-align: left;">[Windows Vista and later](common-control-versions.md). Enables zooming using Ctrl+MouseWheel and the [**EM\_GETZOOM**](em-getzoom.md)/[**EM\_SETZOOM**](em-setzoom.md) messages.<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Constant | Description | 
+|----------|-------------|
+| <span id="ES_EX_ALLOWEOL_CR"></span><span id="es_ex_alloweol_cr"></span><dl><dt><strong>ES_EX_ALLOWEOL_CR</strong></dt></dl> | [Windows Vista and later](common-control-versions.md). Enables support for carriage return (CR) end-of-line characters to break lines.<br /> | 
+| <span id="ES_EX_ALLOWEOL_LF"></span><span id="es_ex_alloweol_lf"></span><dl><dt><strong>ES_EX_ALLOWEOL_LF</strong></dt></dl> | [Windows Vista and later](common-control-versions.md). Enables support for linefeed (LF) end-of-line characters to break lines.<br /> | 
+| <span id="ES_EX_ALLOWEOL_ALL"></span><span id="es_ex_alloweol_all"></span><dl><dt><strong>ES_EX_ALLOWEOL_ALL</strong></dt></dl> | [Windows Vista and later](common-control-versions.md). Enables support for both carriage return (CR) and linefeed (LF) end-of-line characters to break lines.<br /> | 
+| <span id="ES_EX_CONVERT_EOL_ON_PASTE"></span><span id="es_ex_convert_eol_on_paste"></span><dl><dt><strong>ES_EX_CONVERT_EOL_ON_PASTE</strong></dt></dl> | [Windows Vista and later](common-control-versions.md). Converts end-of-line characters enabled for this edit control in pasted content to match the end-of-line character used by the current document.<br /> | 
+| <span id="ES_EX_ZOOMABLE"></span><span id="es_ex_zoomable"></span><dl><dt><strong>ES_EX_ZOOMABLE</strong></dt></dl> | [Windows Vista and later](common-control-versions.md). Enables zooming using Ctrl+MouseWheel and the [**EM\_GETZOOM**](em-getzoom.md)/[**EM\_SETZOOM**](em-setzoom.md) messages.<br /> | 
+
 
 
 

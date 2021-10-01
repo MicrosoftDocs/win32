@@ -273,7 +273,7 @@ Access type: Read-only
 Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier), [**MaxLen**](/windows/desktop/WmiSdk/standard-qualifiers) (260), [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("Win32Registry\|System\\\\CurrentControlSet\\\\Control\\\\Session Manager\\\\Environment")
 </dt> </dl>
 
-Name of the owner of the environment setting. It is set to <SYSTEM> for settings that are specific to the Windows-based system (as opposed to a specific user) and <DEFAULT> for default user settings.
+Name of the owner of the environment setting. It is set to &lt;SYSTEM&gt; for settings that are specific to the Windows-based system (as opposed to a specific user) and &lt;DEFAULT&gt; for default user settings.
 
 Example: "JSmith"
 

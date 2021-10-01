@@ -229,16 +229,16 @@ In this example, a menu drop-down button is used to make a context menu visible.
 Run  
 Play  
 Print  
-<separator>  
-</dl> </dd> <dd>Secondary commands supported by the object<dl> <separator>  
+&lt;separator&gt;  
+</dl> </dd> <dd>Secondary commands supported by the object<dl> &lt;separator&gt;  
 </dl> </dd> Transfer commands<dl> Cut  
 Copy  
 Paste  
-<separator>  
-</dl> </dd> <dd>Object settings<dl> <separator>  
+&lt;separator&gt;  
+</dl> </dd> <dd>Object settings<dl> &lt;separator&gt;  
 </dl> </dd> Object commands<dl> Delete  
 Rename  
-<separator>  
+&lt;separator&gt;  
 Properties  
 </dl> </dd> </dl>
 
@@ -331,50 +331,50 @@ The standard menu bar structure is as follows. This list shows the menu category
 <dl> File<dl> New Ctrl+N  
 Open... Ctrl+O  
 Close  
-<separator>  
+&lt;separator&gt;  
 Save Ctrl+S  
 Save as...  
-<separator>  
+&lt;separator&gt;  
 Send to  
-<separator>  
+&lt;separator&gt;  
 Print... Ctrl+P  
 Print preview  
 Page setup  
-<separator>  
+&lt;separator&gt;  
 1 <filename>  
 2 <filename>  
 3 <filename>  
 ...  
-<separator>  
+&lt;separator&gt;  
 Exit Alt+F4 (shortcut usually not given)  
 </dl> </dd> Edit<dl> Undo Ctrl+Z  
 Redo Ctrl+Y  
-<separator>  
+&lt;separator&gt;  
 Cut Ctrl+X  
 Copy Ctrl+C  
 Paste Ctrl+V  
-<separator>  
+&lt;separator&gt;  
 Select all Ctrl+A  
-<separator>  
+&lt;separator&gt;  
 Delete Del (shortcut usually not given)  
-<separator>  
+&lt;separator&gt;  
 Find... Ctrl+F  
 Find next F3 (command usually not given)  
 Replace... Ctrl+H  
 Go to... Ctrl+G  
 </dl> </dd> View<dl> Toolbars  
 Status bar  
-<separator>  
+&lt;separator&gt;  
 </dl> </dd> Zoom<dl> Zoom in Ctrl++  
 Zoom out Ctrl+-  
-<separator>  
+&lt;separator&gt;  
 Full screen F11  
 Refresh F5  
 </dl> </dd> <dd>Tools<dl> ...  
-<separator>  
+&lt;separator&gt;  
 Options  
 </dl> </dd> Help<dl> <program name> help F1  
-<separator>  
+&lt;separator&gt;  
 About <program name>  
 </dl> </dd> </dl>
 
@@ -384,28 +384,28 @@ The standard toolbar menu buttons are as follows. This list shows the menu categ
 
 <dl> Tools<dl> Full screenF11(Reassign access key if Find is also used.)  
 Toolbars(Note that the Menu bar command goes here.)  
-<separator>  
+&lt;separator&gt;  
 Print...  
 Find...  
-<separator>  
+&lt;separator&gt;  
 Zoom  
 Text size  
-<separator>  
+&lt;separator&gt;  
 Options  
 </dl> </dd> Organize<dl> New folderCtrl+N  
-<separator>  
+&lt;separator&gt;  
 CutCtrl+X  
 CopyCtrl+C  
 PasteCtrl+V  
-<separator>  
+&lt;separator&gt;  
 Select allCtrl+A  
-<separator>  
+&lt;separator&gt;  
 DeleteDel(shortcut usually not given)  
 Rename  
-<separator>  
+&lt;separator&gt;  
 Options  
 </dl> </dd> Page<dl> New windowCtrl+N  
-<separator>  
+&lt;separator&gt;  
 Zoom  
 Text size  
 </dl> </dd> </dl>
@@ -419,14 +419,14 @@ Run
 Play  
 Edit  
 Print...  
-<separator>  
+&lt;separator&gt;  
 Cut  
 Copy  
 Paste  
-<separator>  
+&lt;separator&gt;  
 Delete  
 Rename  
-<separator>  
+&lt;separator&gt;  
 Lock the <object name>(checkmark)  
 Properties  
 </dl>

@@ -56,72 +56,28 @@ The name of the database to detach. If *szFilename* is **NULL** or an empty stri
 
 A group of bits specifying zero or more of the following options.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Value</p></th>
-<th><p>Meaning</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_bitForceCloseAndDetach</p></td>
-<td><p>Forces the database to be closed and detached. If JET_bitForceCloseAndDetach is not supported, JET_errForceDetachNotAllowed will be returned.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_bitForceDetach</p></td>
-<td><p>Forces the database to be detached. If JET_bitForceDetach is not supported, JET_errForceDetachNotAllowed will be returned.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Value</p> | <p>Meaning</p> | 
+|--------------|----------------|
+| <p>JET_bitForceCloseAndDetach</p> | <p>Forces the database to be closed and detached. If JET_bitForceCloseAndDetach is not supported, JET_errForceDetachNotAllowed will be returned.</p> | 
+| <p>JET_bitForceDetach</p> | <p>Forces the database to be detached. If JET_bitForceDetach is not supported, JET_errForceDetachNotAllowed will be returned.</p> | 
+
 
 
 ### Return Value
 
 This function returns the [JET_ERR](./jet-err.md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](./extensible-storage-engine-errors.md) and [Error Handling Parameters](./error-handling-parameters.md).
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Return code</p></th>
-<th><p>Description</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_errSuccess</p></td>
-<td><p>The operation completed successfully.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errBackupInProgress</p></td>
-<td><p>The database is being backed up, and cannot be detached.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errDatabaseInUse</p></td>
-<td><p>The database has been opened by <a href="gg269299(v=exchg.10).md">JetOpenDatabase</a>. Databases must be closed prior to detaching.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errDatabaseNotFound</p></td>
-<td><p>The database was not previously attached (See <a href="gg294074(v=exchg.10).md">JetAttachDatabase</a> or <a href="gg269322(v=exchg.10).md">JetAttachDatabase2</a>).</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errForceDetachNotAllowed</p></td>
-<td><p>JET_bitForceDetach is not supported.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errInTransaction</p></td>
-<td><p>An attempt was made to detach a database while in a transaction.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Return code</p> | <p>Description</p> | 
+|--------------------|--------------------|
+| <p>JET_errSuccess</p> | <p>The operation completed successfully.</p> | 
+| <p>JET_errBackupInProgress</p> | <p>The database is being backed up, and cannot be detached.</p> | 
+| <p>JET_errDatabaseInUse</p> | <p>The database has been opened by <a href="gg269299(v=exchg.10).md">JetOpenDatabase</a>. Databases must be closed prior to detaching.</p> | 
+| <p>JET_errDatabaseNotFound</p> | <p>The database was not previously attached (See <a href="gg294074(v=exchg.10).md">JetAttachDatabase</a> or <a href="gg269322(v=exchg.10).md">JetAttachDatabase2</a>).</p> | 
+| <p>JET_errForceDetachNotAllowed</p> | <p>JET_bitForceDetach is not supported.</p> | 
+| <p>JET_errInTransaction</p> | <p>An attempt was made to detach a database while in a transaction.</p> | 
+
 
 
 #### Remarks
@@ -132,38 +88,16 @@ Windows 2000 only: Databases which have not been detached prior to calling [Jet
 
 #### Requirements
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Client</strong></p></td>
-<td><p>Requires Windows Vista or Windows XP.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Server</strong></p></td>
-<td><p>Requires Windows Server 2008 or Windows Server 2003.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>Header</strong></p></td>
-<td><p>Declared in Esent.h.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Library</strong></p></td>
-<td><p>Use ESENT.lib.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>DLL</strong></p></td>
-<td><p>Requires ESENT.dll.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Unicode</strong></p></td>
-<td><p>Implemented as <strong>JetDetachDatabase2W</strong> (Unicode) and <strong>JetDetachDatabase2A</strong> (ANSI).</p></td>
-</tr>
-</tbody>
-</table>
+
+| Requirement | Value |
+|------------|----------|
+| <p><strong>Client</strong></p> | <p>Requires Windows Vista or Windows XP.</p> | 
+| <p><strong>Server</strong></p> | <p>Requires Windows Server 2008 or Windows Server 2003.</p> | 
+| <p><strong>Header</strong></p> | <p>Declared in Esent.h.</p> | 
+| <p><strong>Library</strong></p> | <p>Use ESENT.lib.</p> | 
+| <p><strong>DLL</strong></p> | <p>Requires ESENT.dll.</p> | 
+| <p><strong>Unicode</strong></p> | <p>Implemented as <strong>JetDetachDatabase2W</strong> (Unicode) and <strong>JetDetachDatabase2A</strong> (ANSI).</p> | 
+
 
 
 #### See Also

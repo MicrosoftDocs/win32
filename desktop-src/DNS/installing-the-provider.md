@@ -17,7 +17,7 @@ The procedure for installing the DNS WMI Provider differs based on the version o
 **To install the DNS WMI Provider on Windows 2000 Server**
 
 1.  Obtain the DNS WMI Provider for Windows 2000 from the Windows 2000 Server Resource Kit, or download the file, Dnsprov.zip, from: ftp://ftp.microsoft.com/reskit/win2000/
-2.  Copy the DNS WMI Provider (Dnsprov.dll) and Dnsschema.mof files to the <winntdir>\\system32\\wbem directory.
+2.  Copy the DNS WMI Provider (Dnsprov.dll) and Dnsschema.mof files to the &lt;winntdir&gt;\\system32\\wbem directory.
 3.  Compile the MOF file. Doing so customizes the schema to match the server.
 
     **mofcomp dnsschema.mof**

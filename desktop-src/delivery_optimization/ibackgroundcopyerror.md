@@ -22,7 +22,7 @@ ROBOTS: INDEX,FOLLOW
 
 Use the **IBackgroundCopyError** interface to determine the cause of an error and if the transfer process can proceed.
 
-DO creates an error object only when the state of the job is BG_JOB_STATE_ERROR or BG_JOB_STATE_TRANSIENT_ERROR. DO does not create an error object when an **IBackgroundCopyXXXX** interface method fails. The error object is available until DO begins transferring data (the state of the job changes to BG_JOB_STATE_TRANSFERRING) for the job.
+Delivery Optimization creates an error object only when the state of the job is BG_JOB_STATE_ERROR or BG_JOB_STATE_TRANSIENT_ERROR. Delivery Optimization does not create an error object when an **IBackgroundCopyXXXX** interface method fails. The error object is available until Delivery Optimization begins transferring data (the state of the job changes to BG_JOB_STATE_TRANSFERRING) for the job.
 
 To get an **IBackgroundCopyError** object, call the [**IBackgroundCopyJob::GetError**](ibackgroundcopyjob-geterror.md) method.
 

@@ -1,6 +1,6 @@
 ---
 title: IBackgroundCopyJob SetNoProgressTimeout method (Deliveryoptimization.h)
-description: Sets the length of time that Delivery Optimization (DO) tries to transfer the file after a transient error condition occurs. If there is progress, the timer is reset.
+description: Sets the length of time that Delivery Optimization tries to transfer the file after a transient error condition occurs. If there is progress, the timer is reset.
 ms.assetid: DC86F74F-8429-4D78-B425-CAF19867B05E
 keywords:
 - SetNoProgressTimeout method
@@ -21,7 +21,7 @@ ROBOTS: INDEX,FOLLOW
 
 # IBackgroundCopyJob::SetNoProgressTimeout method
 
-Sets the length of time that Delivery Optimization (DO) tries to transfer the file after a transient error condition occurs. If there is progress, the timer is reset.
+Sets the length of time that Delivery Optimization tries to transfer the file after a transient error condition occurs. If there is progress, the timer is reset.
 
 ## Syntax
 
@@ -41,7 +41,7 @@ HRESULT SetNoProgressTimeout(
 *RetryPeriod* \[in\]
 </dt> <dd>
 
-Length of time, in seconds, that DO tries to transfer the file after there has been no progress made. The default retry period for high priority job is 3600 seconds (1 hour) and for low priority job is 86400 seconds (24 hours).
+Length of time, in seconds, that Delivery Optimization tries to transfer the file after there has been no progress made. The default retry period for high priority job is 3600 seconds (1 hour) and for low priority job is 86400 seconds (24 hours).
 
 </dd> </dl>
 
@@ -62,7 +62,7 @@ This method returns the following **HRESULT** values, as well as others.
 
 ## Remarks
 
-If DO does not make progress during the retry period, it moves the state of the job from BG_JOB_STATE_TRANSIENT_ERROR to BG_JOB_STATE_ERROR. If you request error notification, DO then calls your [**JobError**](https://www.bing.com/search?q=**JobError**) callback.
+If Delivery Optimization does not make progress during the retry period, it moves the state of the job from BG_JOB_STATE_TRANSIENT_ERROR to BG_JOB_STATE_ERROR. If you request error notification, Delivery Optimization then calls your [**JobError**](https://www.bing.com/search?q=**JobError**) callback.
 
 ## Requirements
 

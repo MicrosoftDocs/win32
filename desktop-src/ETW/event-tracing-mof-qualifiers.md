@@ -36,7 +36,7 @@ The following table lists the qualifiers you can specify on an event class (the 
 | Qualifier        | Data type   | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 |------------------|-------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Guid**         | **String**  | Required. String Guid that identifies a class of events. For example, Guid("{3F92E6E0-9886-434e-85DB-0D11D3904C0A}"). Event providers use the Guid to set the [**EVENT\_TRACE\_HEADER.Guid**](/windows/win32/api/evntrace/ns-evntrace-event_trace_header) member, so that consumers can determine the class of events they are receiving.                                                                                                                                                                                                                                                                                  |
-| **EventVersion** | **Integer** | This qualifier is optional for the latest version of an event trace class and is required for all older versions of the class. The latest version of the class either does not specify the **EventVersion** qualifier or has the highest version number. Version numbers begin with 0, for example, EventVersion(0).Typically, when you create a new version of the class, you also rename the previous version to <classname>\_Vn, where n is an incremental number starting at 0. For an example, see [**FileIo**](fileio.md) and [**FileIo\_V0**](fileio-v0.md).<br/> |
+| **EventVersion** | **Integer** | This qualifier is optional for the latest version of an event trace class and is required for all older versions of the class. The latest version of the class either does not specify the **EventVersion** qualifier or has the highest version number. Version numbers begin with 0, for example, EventVersion(0).Typically, when you create a new version of the class, you also rename the previous version to &lt;classname&gt;\_Vn, where n is an incremental number starting at 0. For an example, see [**FileIo**](fileio.md) and [**FileIo\_V0**](fileio-v0.md).<br/> |
 
 
 
@@ -65,8 +65,8 @@ The following table lists the qualifiers you can specify on a property.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">

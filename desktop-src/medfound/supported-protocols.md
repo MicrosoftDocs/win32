@@ -34,56 +34,15 @@ The following table lists the rollover order.
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Schemes allowed</th>
-<th>Protocol rollover order</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>mms:// or rtsp://</td>
-<td>Fast Cache enabled:<br/>
-<ol>
-<li>RTSP with TCP (RTSPT)<br/></li>
-<li>RTSP with UDP (RTSPU)<br/></li>
-<li>HTTP Streaming<br/></li>
-<li>HTTP download (HTTPD)<br/></li>
-</ol>
-Fast Cache disabled:<br/>
-<ol>
-<li>RTSPU<br/></li>
-<li>RTSPT<br/></li>
-<li>HTTP Streaming<br/></li>
-<li>HTTP Download<br/></li>
-</ol></td>
-</tr>
-<tr class="even">
-<td>rtspu://</td>
-<td>RTSPU</td>
-</tr>
-<tr class="odd">
-<td>rtspt://</td>
-<td>RTSPT</td>
-</tr>
-<tr class="even">
-<td>https://</td>
-<td><ol>
-<li>HTTP<br/></li>
-<li>HTTPD<br/></li>
-</ol></td>
-</tr>
-<tr class="odd">
-<td>httpd://</td>
-<td>HTTPD</td>
-</tr>
-</tbody>
-</table>
+
+| Schemes allowed | Protocol rollover order | 
+|-----------------|-------------------------|
+| mms:// or rtsp:// | Fast Cache enabled:<br /><ol><li>RTSP with TCP (RTSPT)<br /></li><li>RTSP with UDP (RTSPU)<br /></li><li>HTTP Streaming<br /></li><li>HTTP download (HTTPD)<br /></li></ol>Fast Cache disabled:<br /><ol><li>RTSPU<br /></li><li>RTSPT<br /></li><li>HTTP Streaming<br /></li><li>HTTP Download<br /></li></ol> | 
+| rtspu:// | RTSPU | 
+| rtspt:// | RTSPT | 
+| https:// | <ol><li>HTTP<br /></li><li>HTTPD<br /></li></ol> | 
+| httpd:// | HTTPD | 
+
 
 
 

@@ -159,77 +159,23 @@ The following list identifies the hardware properties that the Windows Installer
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Property</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="alpha.md"><strong>Alpha</strong></a><br/></td>
-<td>The numeric processor level when running on an Alpha processor.<br/>
-<blockquote>
-[!Note]<br />
-This property is obsolete, the Alpha platform is not supported by Windows Installer.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td><a href="borderside.md"><strong>BorderSide</strong></a><br/></td>
-<td>The width of the window borders, in pixels.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="bordertop.md"><strong>BorderTop</strong></a><br/></td>
-<td>The height of the window borders, in pixels.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="captionheight.md"><strong>CaptionHeight</strong></a><br/></td>
-<td>The height of normal caption area, in pixels.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="colorbits.md"><strong>ColorBits</strong></a><br/></td>
-<td>The number of adjacent color bits for each pixel.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="intel.md"><strong>Intel</strong></a><br/></td>
-<td>The numeric processor level when running on an Intel processor.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="intel64.md"><strong>Intel64</strong></a><br/></td>
-<td>The numeric processor level when running on an Itanium processor.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="msix64.md"><strong>Msix64</strong></a><br/></td>
-<td>The numeric processor level when running on an x64 processor.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="physicalmemory.md"><strong>PhysicalMemory</strong></a><br/></td>
-<td>The size of the installed RAM, in megabytes.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="screenx.md"><strong>ScreenX</strong></a><br/></td>
-<td>The width of the screen, in pixels.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="screeny.md"><strong>ScreenY</strong></a><br/></td>
-<td>The height of the screen, in pixels.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="textheight.md"><strong>TextHeight</strong></a><br/></td>
-<td>The height of characters, in logical units.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="virtualmemory.md"><strong>VirtualMemory</strong></a><br/></td>
-<td>The amount of available page file space, in megabytes.<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Property | Description | 
+|----------|-------------|
+| <a href="alpha.md"><strong>Alpha</strong></a><br /> | The numeric processor level when running on an Alpha processor.<br /><blockquote>[!Note]<br />This property is obsolete, the Alpha platform is not supported by Windows Installer.</blockquote><br /> | 
+| <a href="borderside.md"><strong>BorderSide</strong></a><br /> | The width of the window borders, in pixels.<br /> | 
+| <a href="bordertop.md"><strong>BorderTop</strong></a><br /> | The height of the window borders, in pixels.<br /> | 
+| <a href="captionheight.md"><strong>CaptionHeight</strong></a><br /> | The height of normal caption area, in pixels.<br /> | 
+| <a href="colorbits.md"><strong>ColorBits</strong></a><br /> | The number of adjacent color bits for each pixel.<br /> | 
+| <a href="intel.md"><strong>Intel</strong></a><br /> | The numeric processor level when running on an Intel processor.<br /> | 
+| <a href="intel64.md"><strong>Intel64</strong></a><br /> | The numeric processor level when running on an Itanium processor.<br /> | 
+| <a href="msix64.md"><strong>Msix64</strong></a><br /> | The numeric processor level when running on an x64 processor.<br /> | 
+| <a href="physicalmemory.md"><strong>PhysicalMemory</strong></a><br /> | The size of the installed RAM, in megabytes.<br /> | 
+| <a href="screenx.md"><strong>ScreenX</strong></a><br /> | The width of the screen, in pixels.<br /> | 
+| <a href="screeny.md"><strong>ScreenY</strong></a><br /> | The height of the screen, in pixels.<br /> | 
+| <a href="textheight.md"><strong>TextHeight</strong></a><br /> | The height of characters, in logical units.<br /> | 
+| <a href="virtualmemory.md"><strong>VirtualMemory</strong></a><br /> | The amount of available page file space, in megabytes.<br /> | 
+
 
 
 

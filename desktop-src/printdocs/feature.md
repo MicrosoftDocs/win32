@@ -1,5 +1,5 @@
 ---
-description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: Review Feature elements, which contain a list of Option and Property elements describing a device attribute, job formatting setting, or other relevant characteristic.
 ms.assetid: 5a6553c2-f322-47e2-bbc8-44f6541f1288
 title: Feature
 ms.topic: article
@@ -14,7 +14,7 @@ A Feature element contains a complete list of the Option and Property elements t
 
 ## Element Tag
 
-<Feature>
+&lt;Feature&gt;
 
 ## XML Attributes
 
@@ -38,43 +38,13 @@ The following table lists the elements that may be parents of this element, the 
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Category</th>
-<th>Details</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Parent elements<br/></td>
-<td>PrintCapabilities <br/> PrintTicket <br/> Feature<br/></td>
-</tr>
-<tr class="even">
-<td>Child elements<br/></td>
-<td>One of the following groups:<br/>
-<ul>
-<li><em>Feature</em> (zero or more)<br/></li>
-<li><em>Option</em> (one or more)<br/></li>
-<li><em>Property</em> (zero or more)<br/></li>
-</ul>
-or <br/>
-<ul>
-<li><em>Feature</em> (one or more)<br/></li>
-<li><em>Option</em> (zero or more)<br/></li>
-<li><em>Property</em> (zero or more)<br/></li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>This element<br/></td>
-<td>No character data is permitted.<br/> Duplicate child Option elements that are siblings are permitted. Duplicate name attribute shortcuts permitted. <br/></td>
-</tr>
-</tbody>
-</table>
+
+| Category | Details | 
+|----------|---------|
+| Parent elements<br /> | PrintCapabilities <br /> PrintTicket <br /> Feature<br /> | 
+| Child elements<br /> | One of the following groups:<br /><ul><li><em>Feature</em> (zero or more)<br /></li><li><em>Option</em> (one or more)<br /></li><li><em>Property</em> (zero or more)<br /></li></ul>or <br /><ul><li><em>Feature</em> (one or more)<br /></li><li><em>Option</em> (zero or more)<br /></li><li><em>Property</em> (zero or more)<br /></li></ul> | 
+| This element<br /> | No character data is permitted.<br /> Duplicate child Option elements that are siblings are permitted. Duplicate name attribute shortcuts permitted. <br /> | 
+
 
 
 

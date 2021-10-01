@@ -37,9 +37,8 @@ The Full Screen Renderer supports a static set of display modes. The video card 
 
 
 
-| Label | Value |
+| Mode | Width | Height | Bit depth |
 |------|-------|--------|-----------|
-| Mode | Width | Height | Bit Depth |
 | 0    | 320   | 200    | 16        |
 | 1    | 320   | 200    | 8         |
 | 2    | 320   | 240    | 16        |

@@ -32,11 +32,11 @@ None
 
 
 
-|              |                                                                           |
-|--------------|---------------------------------------------------------------------------|
-| Element type | [**AlternatesListType**](alternateslisttype-complex-type.md) complexType |
-| Namespace    | urn:schemas-microsoft-com:tabletpc:richink                                |
-| Schema name  | Journal Reader                                                            |
+|                 | Value                                                                     |
+|-----------------|---------------------------------------------------------------------------|
+| **Element type**| [**AlternatesListType**](alternateslisttype-complex-type.md) complexType |
+| **Namespace**   | urn:schemas-microsoft-com:tabletpc:richink                                |
+| **Schema name** | Journal Reader                                                            |
 
 
 

@@ -62,7 +62,7 @@ Not supported.
 <span id="BG_JOB_STATE_TRANSFERRING"></span><span id="bg_job_state_transferring"></span>**BG_JOB_STATE_TRANSFERRING**
 </dt> <dd>
 
-Specifies that DO is transferring data for the job.
+Specifies that Delivery Optimization is transferring data for the job.
 
 </dd> <dt>
 
@@ -83,7 +83,7 @@ Specifies that a nonrecoverable error occurred (the service is unable to transfe
 <span id="BG_JOB_STATE_TRANSIENT_ERROR"></span><span id="bg_job_state_transient_error"></span>**BG_JOB_STATE_TRANSIENT_ERROR**
 </dt> <dd>
 
-Specifies that a recoverable error occurred. DO will retry jobs in the transient error state based on the internal retry configuration. The state of the job changes to **BG_JOB_STATE_ERROR** if the job fails to make progress (see [**IBackgroundCopyJob::SetNoProgressTimeout**](ibackgroundcopyjob-setnoprogresstimeout.md)).
+Specifies that a recoverable error occurred. Delivery Optimization will retry jobs in the transient error state based on the internal retry configuration. The state of the job changes to **BG_JOB_STATE_ERROR** if the job fails to make progress (see [**IBackgroundCopyJob::SetNoProgressTimeout**](ibackgroundcopyjob-setnoprogresstimeout.md)).
 
 </dd> <dt>
 

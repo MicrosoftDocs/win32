@@ -19,11 +19,7 @@ api_location:
 
 Iteratively executes a series of statements, based on the evaluation of the conditional expression.
 
-
-
-|                                                                                       |
-|---------------------------------------------------------------------------------------|
-| \[*Attribute*\] for ( *Initializer; Conditional; Iterator* ) {   *Statement Block*; } |
+\[*Attribute*\] for ( *Initializer; Conditional; Iterator* ) {   *Statement Block*; }
 
 
 

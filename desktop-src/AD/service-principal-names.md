@@ -9,7 +9,7 @@ keywords:
 - service principal name AD
 - service principal name AD , about
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 09/10/2021
 ---
 
 # Service Principal Names

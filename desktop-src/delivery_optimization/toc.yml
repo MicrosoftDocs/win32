@@ -1,10 +1,10 @@
-- name: "Delivery Optimization (DO)"
+- name: "Delivery Optimization"
   href: delivery-optimization-portal.md
   items: 
-  - name: "DO reference"
+  - name: "Delivery Optimization reference"
     href: do-reference.md
     items: 
-    - name: "DO enumerations"
+    - name: "Delivery Optimization enumerations"
       href: do-enumerations.md
       items: 
       - name: "BG_ERROR_CONTEXT"
@@ -35,7 +35,7 @@
         href: downloadmode.md
       - name: "SwarmStatus"
         href: swarmstatus.md
-    - name: "DO interfaces"
+    - name: "Delivery Optimization interfaces"
       href: do-interfaces.md
       items: 
       - name: "IBackgroundCopyCallback"
@@ -240,9 +240,9 @@
           href: ./do/nf-do-idomanager-createdownload.md
         - name: "EnumDownloads method"
           href: ./do/nf-do-idomanager-enumdownloads.md
-    - name: "DO return values"
+    - name: "Delivery Optimization return values"
       href: do-return-values.md
-    - name: "DO structures and unions"
+    - name: "Delivery Optimization structures and unions"
       href: do-structures-and-unions.md
       items: 
       - name: "BG_FILE_PROGRESS"

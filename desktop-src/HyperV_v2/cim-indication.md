@@ -86,10 +86,10 @@ Qualifiers: [**ModelCorrespondence**](/windows/desktop/WmiSdk/standard-qualifier
 
 The identifier of the indication filter that processes the indication. The sending service sets this property. This property correlates with the **Name** property of the **CIM\_IndicationFilter** object. The value of **IndicationFilterName** should use the following format:
 
--   *<OrgID>*:*<LocalID>*
--   *<OrgID>* must include a copyrighted, trademarked, or unique name that is owned by the business entity that owns the object.
--   *<OrgID>* must not contain a colon (:)
--   *<LocalID>* a unique identifier chosen by the business entity that owns the object.
+-   *&lt;OrgID&gt;*:*&lt;LocalID&gt;*
+-   *&lt;OrgID&gt;* must include a copyrighted, trademarked, or unique name that is owned by the business entity that owns the object.
+-   *&lt;OrgID&gt;* must not contain a colon (:)
+-   *&lt;LocalID&gt;* a unique identifier chosen by the business entity that owns the object.
 
 </dd> <dt>
 
@@ -109,11 +109,11 @@ An identifier of the indication. This property can be used as a key value in the
 
 To ensure that **IndicationIdentifier** is unique, it should use the following format:
 
--   *<OrgID>*:*<LocalID>*
--   *<OrgID>* must include a copyrighted, trademarked, or unique name that is owned by the business entity that owns the object.
--   *<OrgID>* must not contain a colon (:)
--   *<LocalID>* a unique identifier chosen by the business entity that owns the object.
--   For DMTF-defined instances, *<OrgID>* should be set to "CIM".
+-   *&lt;OrgID&gt;*:*&lt;LocalID&gt;*
+-   *&lt;OrgID&gt;* must include a copyrighted, trademarked, or unique name that is owned by the business entity that owns the object.
+-   *&lt;OrgID&gt;* must not contain a colon (:)
+-   *&lt;LocalID&gt;* a unique identifier chosen by the business entity that owns the object.
+-   For DMTF-defined instances, *&lt;OrgID&gt;* should be set to "CIM".
 
 </dd> <dt>
 

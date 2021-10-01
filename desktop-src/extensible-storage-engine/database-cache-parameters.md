@@ -34,58 +34,21 @@ This parameter controls the size of an auxiliary part of the database page cache
 
 **Windows XP and later:**  This parameter is obsolete and does not affect the operation of the database engine.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Default Value:</p></td>
-<td><p>256</p></td>
-</tr>
-<tr class="even">
-<td><p>Type:</p></td>
-<td><p>Integer</p></td>
-</tr>
-<tr class="odd">
-<td><p>Valid Range:</p></td>
-<td><p>0, 2 – 2147483647</p></td>
-</tr>
-<tr class="even">
-<td><p>Scope:</p></td>
-<td><p>Global</p></td>
-</tr>
-<tr class="odd">
-<td><p>Set After <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="even">
-<td><p>Set after <a href="gg294068(v=exchg.10).md">JetInit</a>:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affects Physical Layout:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="even">
-<td><p>Affects Reliability:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affects Performance:</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="even">
-<td><p>Affects Resources:</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="odd">
-<td><p>Availability:</p></td>
-<td><p>All</p></td>
-</tr>
-</tbody>
-</table>
+
+| Label | Value |
+|--------|-------|
+| <p>Default Value:</p> | <p>256</p> | 
+| <p>Type:</p> | <p>Integer</p> | 
+| <p>Valid Range:</p> | <p>0, 2 – 2147483647</p> | 
+| <p>Scope:</p> | <p>Global</p> | 
+| <p>Set After <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>No</p> | 
+| <p>Set after <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>No</p> | 
+| <p>Affects Physical Layout:</p> | <p>No</p> | 
+| <p>Affects Reliability:</p> | <p>No</p> | 
+| <p>Affects Performance:</p> | <p>Yes</p> | 
+| <p>Affects Resources:</p> | <p>Yes</p> | 
+| <p>Availability:</p> | <p>All</p> | 
+
 
 
 *JET_paramCacheSize*  
@@ -97,59 +60,21 @@ This parameter can be used to control the size of the database page cache at run
 
 When this parameter is read, the actual size of the cache in database pages is returned. This size can be used by the application as an input to drive its manual adjustment of the cache size.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Default Value:</p></td>
-<td><p>Special</p></td>
-</tr>
-<tr class="even">
-<td><p>Type:</p></td>
-<td><p>Integer</p></td>
-</tr>
-<tr class="odd">
-<td><p>Valid Range:</p></td>
-<td><p><strong>Windows 2000:</strong>  1 – 1048575</p>
-<p><strong>Windows XP:</strong>  1 – 4294967295</p></td>
-</tr>
-<tr class="even">
-<td><p>Scope:</p></td>
-<td><p>Global</p></td>
-</tr>
-<tr class="odd">
-<td><p>Set After <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="even">
-<td><p>Set after <a href="gg294068(v=exchg.10).md">JetInit</a>:</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affects Physical Layout:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="even">
-<td><p>Affects Reliability:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affects Performance:</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="even">
-<td><p>Affects Resources:</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="odd">
-<td><p>Availability:</p></td>
-<td><p>All</p></td>
-</tr>
-</tbody>
-</table>
+
+| Label | Value |
+|--------|-------|
+| <p>Default Value:</p> | <p>Special</p> | 
+| <p>Type:</p> | <p>Integer</p> | 
+| <p>Valid Range:</p> | <p><strong>Windows 2000:</strong>  1 – 1048575</p><p><strong>Windows XP:</strong>  1 – 4294967295</p> | 
+| <p>Scope:</p> | <p>Global</p> | 
+| <p>Set After <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Yes</p> | 
+| <p>Set after <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>Yes</p> | 
+| <p>Affects Physical Layout:</p> | <p>No</p> | 
+| <p>Affects Reliability:</p> | <p>No</p> | 
+| <p>Affects Performance:</p> | <p>Yes</p> | 
+| <p>Affects Resources:</p> | <p>Yes</p> | 
+| <p>Availability:</p> | <p>All</p> | 
+
 
 
 *JET_paramCacheSizeMin*  
@@ -163,62 +88,21 @@ By default, the database cache will automatically adjust its size between the li
 
 **Windows XP and later:**  The cache manager will automatically set its own minimum cache size to avoid deadlocks.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Default Value:</p></td>
-<td><p><strong>Windows 2000:</strong>  64</p>
-<p><strong>Windows XP:</strong>  1</p></td>
-</tr>
-<tr class="even">
-<td><p>Type:</p></td>
-<td><p>Integer</p></td>
-</tr>
-<tr class="odd">
-<td><p>Valid Range:</p></td>
-<td><p><strong>Windows 2000:</strong>  1 – 1048575</p>
-<p><strong>Windows XP:</strong>  1 – 4294967295</p></td>
-</tr>
-<tr class="even">
-<td><p>Scope:</p></td>
-<td><p>Global</p></td>
-</tr>
-<tr class="odd">
-<td><p>Set After <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p></td>
-<td><p><strong>Windows 2000:</strong>  No</p>
-<p><strong>Windows XP:</strong>  Yes</p></td>
-</tr>
-<tr class="even">
-<td><p>Set after <a href="gg294068(v=exchg.10).md">JetInit</a>:</p></td>
-<td><p><strong>Windows 2000:</strong>  No</p>
-<p><strong>Windows XP:</strong>  Yes</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affects Physical Layout:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="even">
-<td><p>Affects Reliability:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affects Performance:</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="even">
-<td><p>Affects Resources:</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="odd">
-<td><p>Availability:</p></td>
-<td><p>All</p></td>
-</tr>
-</tbody>
-</table>
+
+| Label | Value |
+|--------|-------|
+| <p>Default Value:</p> | <p><strong>Windows 2000:</strong>  64</p><p><strong>Windows XP:</strong>  1</p> | 
+| <p>Type:</p> | <p>Integer</p> | 
+| <p>Valid Range:</p> | <p><strong>Windows 2000:</strong>  1 – 1048575</p><p><strong>Windows XP:</strong>  1 – 4294967295</p> | 
+| <p>Scope:</p> | <p>Global</p> | 
+| <p>Set After <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p><strong>Windows 2000:</strong>  No</p><p><strong>Windows XP:</strong>  Yes</p> | 
+| <p>Set after <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p><strong>Windows 2000:</strong>  No</p><p><strong>Windows XP:</strong>  Yes</p> | 
+| <p>Affects Physical Layout:</p> | <p>No</p> | 
+| <p>Affects Reliability:</p> | <p>No</p> | 
+| <p>Affects Performance:</p> | <p>Yes</p> | 
+| <p>Affects Resources:</p> | <p>Yes</p> | 
+| <p>Availability:</p> | <p>All</p> | 
+
 
 
 *JET_paramCacheSizeMax*  
@@ -232,62 +116,21 @@ By default, the database cache will automatically adjust its size between the li
 
 **Windows Vista:**  As of Windows Vista, the default value of this parameter was changed to clarify this behavior.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Default Value:</p></td>
-<td><p><strong>Windows 2000, Windows XP and Windows Server 2003:</strong>  512</p>
-<p><strong>Windows Vista:</strong>  2000000000</p></td>
-</tr>
-<tr class="even">
-<td><p>Type:</p></td>
-<td><p>Integer</p></td>
-</tr>
-<tr class="odd">
-<td><p>Valid Range:</p></td>
-<td><p><strong>Windows 2000:</strong>  1 – 1048575</p>
-<p><strong>Windows XP:</strong>  1 – 4294967295</p></td>
-</tr>
-<tr class="even">
-<td><p>Scope:</p></td>
-<td><p>Global</p></td>
-</tr>
-<tr class="odd">
-<td><p>Set After <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p></td>
-<td><p><strong>Windows 2000:</strong>  No</p>
-<p><strong>Windows XP:</strong>  Yes</p></td>
-</tr>
-<tr class="even">
-<td><p>Set after <a href="gg294068(v=exchg.10).md">JetInit</a>:</p></td>
-<td><p><strong>Windows XP and Windows 2000:</strong>  No</p>
-<p><strong>Windows Vista and Windows Server 2003:</strong>  Yes</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affects Physical Layout:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="even">
-<td><p>Affects Reliability:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affects Performance:</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="even">
-<td><p>Affects Resources:</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="odd">
-<td><p>Availability:</p></td>
-<td><p>All</p></td>
-</tr>
-</tbody>
-</table>
+
+| Label | Value |
+|--------|-------|
+| <p>Default Value:</p> | <p><strong>Windows 2000, Windows XP and Windows Server 2003:</strong>  512</p><p><strong>Windows Vista:</strong>  2000000000</p> | 
+| <p>Type:</p> | <p>Integer</p> | 
+| <p>Valid Range:</p> | <p><strong>Windows 2000:</strong>  1 – 1048575</p><p><strong>Windows XP:</strong>  1 – 4294967295</p> | 
+| <p>Scope:</p> | <p>Global</p> | 
+| <p>Set After <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p><strong>Windows 2000:</strong>  No</p><p><strong>Windows XP:</strong>  Yes</p> | 
+| <p>Set after <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p><strong>Windows XP and Windows 2000:</strong>  No</p><p><strong>Windows Vista and Windows Server 2003:</strong>  Yes</p> | 
+| <p>Affects Physical Layout:</p> | <p>No</p> | 
+| <p>Affects Reliability:</p> | <p>No</p> | 
+| <p>Affects Performance:</p> | <p>Yes</p> | 
+| <p>Affects Resources:</p> | <p>Yes</p> | 
+| <p>Availability:</p> | <p>All</p> | 
+
 
 
 *JET_paramCheckpointDepthMax*  
@@ -299,60 +142,21 @@ If circular logging is enabled using [JET_paramCircularLog](./transaction-log-pa
 
 It is important that this parameter not be set too low. As the value of this parameter approaches zero, the cache will become more and more aggressive when flushing database pages to disk. This not only results in an increased number of writes to the database files but it also indirectly causes an increased number of reads to those files as well. This can cause very significant performance problems in some cases. Unfortunately, setting the smallest optimal value for this parameter can only be done using experimentation with the target application.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Default Value:</p></td>
-<td><p>20971520</p></td>
-</tr>
-<tr class="even">
-<td><p>Type:</p></td>
-<td><p>Integer</p></td>
-</tr>
-<tr class="odd">
-<td><p>Valid Range:</p></td>
-<td><p><strong>Windows 2000, Windows XP and Windows Server 2003:</strong>  0 – 2147483647</p>
-<p><strong>Windows Vista:</strong>  All Values</p></td>
-</tr>
-<tr class="even">
-<td><p>Scope:</p></td>
-<td><p><strong>Windows 2000, Windows XP and Windows Server 2003:</strong> This parameter is global.</p>
-<p><strong>Windows Vista:</strong>  This parameter is per instance.</p></td>
-</tr>
-<tr class="odd">
-<td><p>Set After <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="even">
-<td><p>Set after <a href="gg294068(v=exchg.10).md">JetInit</a>:</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affects Physical Layout:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="even">
-<td><p>Affects Reliability:</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affects Performance:</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="even">
-<td><p>Affects Resources:</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="odd">
-<td><p>Availability:</p></td>
-<td><p>All</p></td>
-</tr>
-</tbody>
-</table>
+
+| Label | Value |
+|--------|-------|
+| <p>Default Value:</p> | <p>20971520</p> | 
+| <p>Type:</p> | <p>Integer</p> | 
+| <p>Valid Range:</p> | <p><strong>Windows 2000, Windows XP and Windows Server 2003:</strong>  0 – 2147483647</p><p><strong>Windows Vista:</strong>  All Values</p> | 
+| <p>Scope:</p> | <p><strong>Windows 2000, Windows XP and Windows Server 2003:</strong> This parameter is global.</p><p><strong>Windows Vista:</strong>  This parameter is per instance.</p> | 
+| <p>Set After <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Yes</p> | 
+| <p>Set after <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>Yes</p> | 
+| <p>Affects Physical Layout:</p> | <p>No</p> | 
+| <p>Affects Reliability:</p> | <p>Yes</p> | 
+| <p>Affects Performance:</p> | <p>Yes</p> | 
+| <p>Affects Resources:</p> | <p>Yes</p> | 
+| <p>Availability:</p> | <p>All</p> | 
+
 
 
 *JET_paramCheckpointIOMax*  
@@ -360,58 +164,21 @@ It is important that this parameter not be set too low. As the value of this par
 
 This parameter controls the maximum number of concurrent writes that the database engine will use to flush modified database pages for the purpose of advancing the checkpoint. The value of this parameter can be used to balance the speed with which the checkpoint can be advanced versus the negative impact this process will have on the response time for other I/O operations to the disks holding the database.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Default Value:</p></td>
-<td><p>96</p></td>
-</tr>
-<tr class="even">
-<td><p>Type:</p></td>
-<td><p>Integer</p></td>
-</tr>
-<tr class="odd">
-<td><p>Valid Range:</p></td>
-<td><p>8 – 1024</p></td>
-</tr>
-<tr class="even">
-<td><p>Scope:</p></td>
-<td><p>Global</p></td>
-</tr>
-<tr class="odd">
-<td><p>Set After <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="even">
-<td><p>Set after <a href="gg294068(v=exchg.10).md">JetInit</a>:</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affects Physical Layout:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="even">
-<td><p>Affects Reliability:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affects Performance:</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="even">
-<td><p>Affects Resources:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="odd">
-<td><p>Availability:</p></td>
-<td><p>Windows Vista and later</p></td>
-</tr>
-</tbody>
-</table>
+
+| Label | Value |
+|--------|-------|
+| <p>Default Value:</p> | <p>96</p> | 
+| <p>Type:</p> | <p>Integer</p> | 
+| <p>Valid Range:</p> | <p>8 – 1024</p> | 
+| <p>Scope:</p> | <p>Global</p> | 
+| <p>Set After <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Yes</p> | 
+| <p>Set after <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>Yes</p> | 
+| <p>Affects Physical Layout:</p> | <p>No</p> | 
+| <p>Affects Reliability:</p> | <p>No</p> | 
+| <p>Affects Performance:</p> | <p>Yes</p> | 
+| <p>Affects Resources:</p> | <p>No</p> | 
+| <p>Availability:</p> | <p>Windows Vista and later</p> | 
+
 
 
 *JET_paramEnableViewCache*  
@@ -423,58 +190,21 @@ The intent of this mode is to further reduce the amount of private memory used b
 
 The view cache may only be used if the use of the Windows file cache is enabled by setting JET_paramEnableFileCache to **True**.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Default Value:</p></td>
-<td><p>False</p></td>
-</tr>
-<tr class="even">
-<td><p>Type:</p></td>
-<td><p>Boolean</p></td>
-</tr>
-<tr class="odd">
-<td><p>Valid Range:</p></td>
-<td><p>False, True</p></td>
-</tr>
-<tr class="even">
-<td><p>Scope:</p></td>
-<td><p>Global</p></td>
-</tr>
-<tr class="odd">
-<td><p>Set After <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="even">
-<td><p>Set after <a href="gg294068(v=exchg.10).md">JetInit</a>:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affects Physical Layout:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="even">
-<td><p>Affects Reliability:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affects Performance:</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="even">
-<td><p>Affects Resources:</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="odd">
-<td><p>Availability:</p></td>
-<td><p>Windows Vista and later</p></td>
-</tr>
-</tbody>
-</table>
+
+| Label | Value |
+|--------|-------|
+| <p>Default Value:</p> | <p>False</p> | 
+| <p>Type:</p> | <p>Boolean</p> | 
+| <p>Valid Range:</p> | <p>False, True</p> | 
+| <p>Scope:</p> | <p>Global</p> | 
+| <p>Set After <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>No</p> | 
+| <p>Set after <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>No</p> | 
+| <p>Affects Physical Layout:</p> | <p>No</p> | 
+| <p>Affects Reliability:</p> | <p>No</p> | 
+| <p>Affects Performance:</p> | <p>Yes</p> | 
+| <p>Affects Resources:</p> | <p>Yes</p> | 
+| <p>Availability:</p> | <p>Windows Vista and later</p> | 
+
 
 
 *JET_paramLRUKCorrInterval*  
@@ -482,59 +212,21 @@ The view cache may only be used if the use of the Windows file cache is enabled 
 
 This parameter sets the time interval in microseconds over which two database page accesses are considered to be correlated. This correlation interval controls the sensitivity of the cache's page replacement algorithm (LRU-K) to successive page accesses. This in turn will affect which pages it chooses to keep cached.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Default Value:</p></td>
-<td><p>128000</p></td>
-</tr>
-<tr class="even">
-<td><p>Type:</p></td>
-<td><p>Integer</p></td>
-</tr>
-<tr class="odd">
-<td><p>Valid Range:</p></td>
-<td><p><strong>Windows 2000, Windows XP and Windows Server 2003: </strong>    0 – 2147483647</p>
-<p><strong>Windows Vista:</strong>  All Values</p></td>
-</tr>
-<tr class="even">
-<td><p>Scope:</p></td>
-<td><p>Global</p></td>
-</tr>
-<tr class="odd">
-<td><p>Set After <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="even">
-<td><p>Set after <a href="gg294068(v=exchg.10).md">JetInit</a>:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affects Physical Layout:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="even">
-<td><p>Affects Reliability:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affects Performance:</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="even">
-<td><p>Affects Resources:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="odd">
-<td><p>Availability:</p></td>
-<td><p>All</p></td>
-</tr>
-</tbody>
-</table>
+
+| Label | Value |
+|--------|-------|
+| <p>Default Value:</p> | <p>128000</p> | 
+| <p>Type:</p> | <p>Integer</p> | 
+| <p>Valid Range:</p> | <p><strong>Windows 2000, Windows XP and Windows Server 2003: </strong>    0 – 2147483647</p><p><strong>Windows Vista:</strong>  All Values</p> | 
+| <p>Scope:</p> | <p>Global</p> | 
+| <p>Set After <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>No</p> | 
+| <p>Set after <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>No</p> | 
+| <p>Affects Physical Layout:</p> | <p>No</p> | 
+| <p>Affects Reliability:</p> | <p>No</p> | 
+| <p>Affects Performance:</p> | <p>Yes</p> | 
+| <p>Affects Resources:</p> | <p>No</p> | 
+| <p>Availability:</p> | <p>All</p> | 
+
 
 
 *JET_paramLRUKHistoryMax*  
@@ -544,60 +236,21 @@ This parameter sets the maximum number of non cached database pages for which da
 
 **Windows XP and Windows Server 2003:**  This parameter is ignored on Windows XP and Windows Server 2003 and does not affect the operation of the database engine.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Default Value:</p></td>
-<td><p><strong>Windows 2000:</strong>  1024</p>
-<p><strong>Windows Vista:</strong>  100000</p></td>
-</tr>
-<tr class="even">
-<td><p>Type:</p></td>
-<td><p>Integer</p></td>
-</tr>
-<tr class="odd">
-<td><p>Valid Range:</p></td>
-<td><p><strong>Windows 2000:</strong>  0 – 4194303</p>
-<p><strong>Windows Vista:</strong>  All Values</p></td>
-</tr>
-<tr class="even">
-<td><p>Scope:</p></td>
-<td><p>Global</p></td>
-</tr>
-<tr class="odd">
-<td><p>Set After <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="even">
-<td><p>Set after <a href="gg294068(v=exchg.10).md">JetInit</a>:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affects Physical Layout:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="even">
-<td><p>Affects Reliability:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affects Performance:</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="even">
-<td><p>Affects Resources:</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="odd">
-<td><p>Availability:</p></td>
-<td><p>All</p></td>
-</tr>
-</tbody>
-</table>
+
+| Label | Value |
+|--------|-------|
+| <p>Default Value:</p> | <p><strong>Windows 2000:</strong>  1024</p><p><strong>Windows Vista:</strong>  100000</p> | 
+| <p>Type:</p> | <p>Integer</p> | 
+| <p>Valid Range:</p> | <p><strong>Windows 2000:</strong>  0 – 4194303</p><p><strong>Windows Vista:</strong>  All Values</p> | 
+| <p>Scope:</p> | <p>Global</p> | 
+| <p>Set After <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>No</p> | 
+| <p>Set after <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>No</p> | 
+| <p>Affects Physical Layout:</p> | <p>No</p> | 
+| <p>Affects Reliability:</p> | <p>No</p> | 
+| <p>Affects Performance:</p> | <p>Yes</p> | 
+| <p>Affects Resources:</p> | <p>Yes</p> | 
+| <p>Availability:</p> | <p>All</p> | 
+
 
 
 *JET_paramLRUKPolicy*  
@@ -605,58 +258,21 @@ This parameter sets the maximum number of non cached database pages for which da
 
 This parameter configures the number of database page accesses that are considered for determining the usefulness of the page. This parameter is essentially the K in LRU-K, the database page cache's page replacement algorithm.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Default Value:</p></td>
-<td><p>2</p></td>
-</tr>
-<tr class="even">
-<td><p>Type:</p></td>
-<td><p>Integer</p></td>
-</tr>
-<tr class="odd">
-<td><p>Valid Range:</p></td>
-<td><p>1-2</p></td>
-</tr>
-<tr class="even">
-<td><p>Scope:</p></td>
-<td><p>Global</p></td>
-</tr>
-<tr class="odd">
-<td><p>Set After <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="even">
-<td><p>Set after <a href="gg294068(v=exchg.10).md">JetInit</a>:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affects Physical Layout:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="even">
-<td><p>Affects Reliability:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affects Performance:</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="even">
-<td><p>Affects Resources:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="odd">
-<td><p>Availability:</p></td>
-<td><p>All</p></td>
-</tr>
-</tbody>
-</table>
+
+| Label | Value |
+|--------|-------|
+| <p>Default Value:</p> | <p>2</p> | 
+| <p>Type:</p> | <p>Integer</p> | 
+| <p>Valid Range:</p> | <p>1-2</p> | 
+| <p>Scope:</p> | <p>Global</p> | 
+| <p>Set After <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>No</p> | 
+| <p>Set after <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>No</p> | 
+| <p>Affects Physical Layout:</p> | <p>No</p> | 
+| <p>Affects Reliability:</p> | <p>No</p> | 
+| <p>Affects Performance:</p> | <p>Yes</p> | 
+| <p>Affects Resources:</p> | <p>No</p> | 
+| <p>Availability:</p> | <p>All</p> | 
+
 
 
 *JET_paramLRUKTimeout*  
@@ -664,59 +280,21 @@ This parameter configures the number of database page accesses that are consider
 
 This parameter indicates the period of time in seconds after which a page in the database page cache is considered to have lost a page access for the purpose of considering the usefulness of the page.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Default Value:</p></td>
-<td><p>100</p></td>
-</tr>
-<tr class="even">
-<td><p>Type:</p></td>
-<td><p>Integer</p></td>
-</tr>
-<tr class="odd">
-<td><p>Valid Range:</p></td>
-<td><p><strong>Windows 2000, Windows XP and Windows Server 2003:</strong>  1 – 2147483647</p>
-<p><strong>Windows Vista:</strong>   1 – 4294967295</p></td>
-</tr>
-<tr class="even">
-<td><p>Scope:</p></td>
-<td><p>Global</p></td>
-</tr>
-<tr class="odd">
-<td><p>Set After <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="even">
-<td><p>Set after <a href="gg294068(v=exchg.10).md">JetInit</a>:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affects Physical Layout:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="even">
-<td><p>Affects Reliability:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affects Performance:</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="even">
-<td><p>Affects Resources:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="odd">
-<td><p>Availability:</p></td>
-<td><p>All</p></td>
-</tr>
-</tbody>
-</table>
+
+| Label | Value |
+|--------|-------|
+| <p>Default Value:</p> | <p>100</p> | 
+| <p>Type:</p> | <p>Integer</p> | 
+| <p>Valid Range:</p> | <p><strong>Windows 2000, Windows XP and Windows Server 2003:</strong>  1 – 2147483647</p><p><strong>Windows Vista:</strong>   1 – 4294967295</p> | 
+| <p>Scope:</p> | <p>Global</p> | 
+| <p>Set After <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>No</p> | 
+| <p>Set after <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>No</p> | 
+| <p>Affects Physical Layout:</p> | <p>No</p> | 
+| <p>Affects Reliability:</p> | <p>No</p> | 
+| <p>Affects Performance:</p> | <p>Yes</p> | 
+| <p>Affects Resources:</p> | <p>No</p> | 
+| <p>Availability:</p> | <p>All</p> | 
+
 
 
 *JET_paramLRUKTrxCorrInterval*  
@@ -731,61 +309,21 @@ This parameter controls when the database page cache begins evicting pages from 
 
 The distance height of the start threshold will determine the response time that the database page cache must have to produce available buffers before the application needs them. A high start threshold will give the background process more time to react. However, a high start threshold implies a higher stop threshold and that will reduce the effective size of the database page cache for modified pages (Windows 2000) or for all pages (Windows XP and later).
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Default Value:</p></td>
-<td><p><strong>Windows 2000, Windows XP and Windows Server 2003:</strong>  5 (1%)</p>
-<p><strong>Windows Vista:</strong>  20000000 (1%)</p></td>
-</tr>
-<tr class="even">
-<td><p>Type:</p></td>
-<td><p>Integer</p></td>
-</tr>
-<tr class="odd">
-<td><p>Valid Range:</p></td>
-<td><p><strong>Windows 2000:</strong>  1 – 1048575</p>
-<p><strong>Windows XP:</strong>  1 – 4294967295</p>
-<p><strong>Windows Vista:</strong>  All Values</p></td>
-</tr>
-<tr class="even">
-<td><p>Scope:</p></td>
-<td><p>Global</p></td>
-</tr>
-<tr class="odd">
-<td><p>Set After <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="even">
-<td><p>Set after <a href="gg294068(v=exchg.10).md">JetInit</a>:</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affects Physical Layout:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="even">
-<td><p>Affects Reliability:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affects Performance:</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="even">
-<td><p>Affects Resources:</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="odd">
-<td><p>Availability:</p></td>
-<td><p>All</p></td>
-</tr>
-</tbody>
-</table>
+
+| Label | Value |
+|--------|-------|
+| <p>Default Value:</p> | <p><strong>Windows 2000, Windows XP and Windows Server 2003:</strong>  5 (1%)</p><p><strong>Windows Vista:</strong>  20000000 (1%)</p> | 
+| <p>Type:</p> | <p>Integer</p> | 
+| <p>Valid Range:</p> | <p><strong>Windows 2000:</strong>  1 – 1048575</p><p><strong>Windows XP:</strong>  1 – 4294967295</p><p><strong>Windows Vista:</strong>  All Values</p> | 
+| <p>Scope:</p> | <p>Global</p> | 
+| <p>Set After <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Yes</p> | 
+| <p>Set after <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>Yes</p> | 
+| <p>Affects Physical Layout:</p> | <p>No</p> | 
+| <p>Affects Reliability:</p> | <p>No</p> | 
+| <p>Affects Performance:</p> | <p>Yes</p> | 
+| <p>Affects Resources:</p> | <p>Yes</p> | 
+| <p>Availability:</p> | <p>All</p> | 
+
 
 
 *JET_paramStopFlushThreshold*  
@@ -795,85 +333,32 @@ This parameter controls when the database page cache ends evicting pages from th
 
 The distance between the start threshold and the stop threshold affects the efficiency with which database pages are flushed by the background process. A larger gap will make it more likely that writes to neighboring pages may be combined. However, a high stop threshold will reduce the effective size of the database page cache for modified pages (Windows 2000) or for all pages (Windows XP and later).
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Default Value:</p></td>
-<td><p><strong>Windows 2000, Windows XP and Windows Server 2003:</strong>  10 (2%)</p>
-<p><strong>Windows Vista:</strong>  40000000 (2%)</p></td>
-</tr>
-<tr class="even">
-<td><p>Type:</p></td>
-<td><p>Integer</p></td>
-</tr>
-<tr class="odd">
-<td><p>Valid Range:</p></td>
-<td><p><strong>Windows 2000:</strong>  1 – 1048575</p>
-<p><strong>Windows XP:</strong>  1 – 4294967295</p>
-<p><strong>Windows Vista:</strong>  All Values</p></td>
-</tr>
-<tr class="even">
-<td><p>Scope:</p></td>
-<td><p>Global</p></td>
-</tr>
-<tr class="odd">
-<td><p>Set After <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="even">
-<td><p>Set after <a href="gg294068(v=exchg.10).md">JetInit</a>:</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affects Physical Layout:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="even">
-<td><p>Affects Reliability:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affects Performance:</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="even">
-<td><p>Affects Resources:</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="odd">
-<td><p>Availability:</p></td>
-<td><p>All</p></td>
-</tr>
-</tbody>
-</table>
+
+| Label | Value |
+|--------|-------|
+| <p>Default Value:</p> | <p><strong>Windows 2000, Windows XP and Windows Server 2003:</strong>  10 (2%)</p><p><strong>Windows Vista:</strong>  40000000 (2%)</p> | 
+| <p>Type:</p> | <p>Integer</p> | 
+| <p>Valid Range:</p> | <p><strong>Windows 2000:</strong>  1 – 1048575</p><p><strong>Windows XP:</strong>  1 – 4294967295</p><p><strong>Windows Vista:</strong>  All Values</p> | 
+| <p>Scope:</p> | <p>Global</p> | 
+| <p>Set After <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Yes</p> | 
+| <p>Set after <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>Yes</p> | 
+| <p>Affects Physical Layout:</p> | <p>No</p> | 
+| <p>Affects Reliability:</p> | <p>No</p> | 
+| <p>Affects Performance:</p> | <p>Yes</p> | 
+| <p>Affects Resources:</p> | <p>Yes</p> | 
+| <p>Availability:</p> | <p>All</p> | 
+
 
 
 ### Requirements
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Client</strong></p></td>
-<td><p>Requires Windows Vista, Windows XP, or Windows 2000 Professional.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Server</strong></p></td>
-<td><p>Requires Windows Server 2008, Windows Server 2003, or Windows 2000 Server.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>Header</strong></p></td>
-<td><p>Declared in Esent.h.</p></td>
-</tr>
-</tbody>
-</table>
+
+| Requirement | Value |
+|------------|----------|
+| <p><strong>Client</strong></p> | <p>Requires Windows Vista, Windows XP, or Windows 2000 Professional.</p> | 
+| <p><strong>Server</strong></p> | <p>Requires Windows Server 2008, Windows Server 2003, or Windows 2000 Server.</p> | 
+| <p><strong>Header</strong></p> | <p>Declared in Esent.h.</p> | 
+
 
 
 ### See Also

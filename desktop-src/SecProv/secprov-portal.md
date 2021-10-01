@@ -39,9 +39,9 @@ The following are additional resources.
 
 
 
-|                    |                                                                                                                                                                        |
-|--------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Classes<br/> | For more information about the Security WMI providers, see [**Win32\_EncryptableVolume**](win32-encryptablevolume.md) and [**Win32\_Tpm**](win32-tpm.md).<br/> |
+| Resource     | Description                                                                                                                                               |
+|--------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Classes      | For more information about the Security WMI providers, see [**Win32\_EncryptableVolume**](win32-encryptablevolume.md) and [**Win32\_Tpm**](win32-tpm.md). |
 
 
 

@@ -42,7 +42,7 @@ For more information about scalar literals, see [Grammar](dx-graphics-hlsl-appen
 
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -54,7 +54,7 @@ For more information about scalar literals, see [Grammar](dx-graphics-hlsl-appen
 For example, here is a 4-component signed-normalized float-variable declaration.<br/> <span data-codelanguage=""></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">

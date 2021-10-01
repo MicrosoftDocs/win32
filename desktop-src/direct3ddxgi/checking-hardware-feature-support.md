@@ -16,9 +16,9 @@ For D3D11, use [**ID3D11Device::CheckFormatSupport**](/windows/desktop/api/d3d11
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">

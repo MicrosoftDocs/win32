@@ -1,6 +1,6 @@
 ---
 title: BITS_JOB_PROPERTY_ID enumeration (Deliveryoptimization.h)
-description: The BITS_JOB_PROPERTY_ID enumeration specifies the ID of the property for the DO job. This enumeration is used in the BITS_JOB_PROPERTY_VALUE union to determine the type of value contained in the union.
+description: The BITS_JOB_PROPERTY_ID enumeration specifies the ID of the property for the Delivery Optimization job. This enumeration is used in the BITS_JOB_PROPERTY_VALUE union to determine the type of value contained in the union.
 ms.assetid: B0F3C6C2-474F-4FD8-990A-770FAA993550
 keywords:
 - BITS_JOB_PROPERTY_ID enumeration
@@ -19,7 +19,7 @@ ROBOTS: INDEX,FOLLOW
 
 # BITS_JOB_PROPERTY_ID enumeration
 
-The **BITS_JOB_PROPERTY_ID** enumeration specifies the ID of the property for the DO job. This enumeration is used in the [**BITS_JOB_PROPERTY_VALUE**](bits-job-property-value-.md) union to determine the type of value contained in the union.
+The **BITS_JOB_PROPERTY_ID** enumeration specifies the ID of the property for the Delivery Optimization job. This enumeration is used in the [**BITS_JOB_PROPERTY_VALUE**](bits-job-property-value-.md) union to determine the type of value contained in the union.
 
 ## Syntax
 
@@ -55,7 +55,7 @@ This property uses the **BITS_JOB_PROPERTY_VALUE** s **Dword** field.
 <span id="BITS_JOB_PROPERTY_NOTIFICATION_CLSID"></span><span id="bits_job_property_notification_clsid"></span>**BITS_JOB_PROPERTY_NOTIFICATION_CLSID**
 </dt> <dd>
 
-The ID that is used to [register a COM callback](https://www.bing.com/search?q=register+a+COM+callback) by CLSID to receive notifications about the progress and completion of a DO job. The CLSID must refer to a class associated with a registered out-of-process COM server. It may also be set to **GUID_NULL** to clear a previously set notification CLSID.
+The ID that is used to [register a COM callback](https://www.bing.com/search?q=register+a+COM+callback) by CLSID to receive notifications about the progress and completion of a Delivery Optimization job. The CLSID must refer to a class associated with a registered out-of-process COM server. It may also be set to **GUID_NULL** to clear a previously set notification CLSID.
 
 This property uses the **BITS_JOB_PROPERTY_VALUE** s **CLsID** field.
 

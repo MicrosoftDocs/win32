@@ -1,5 +1,5 @@
 ---
-description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: Learn about the PageScaling element. This element describes the scaling characteristics of the output.
 ms.assetid: cf35bb37-bf67-4e86-bfef-9838606982a5
 title: PageScaling
 ms.topic: article
@@ -14,7 +14,7 @@ Describes the scaling characteristics of the output. Certain Options of this Fea
 
 
 
-|                          |                                                                                                                                                                                                                                                       |
+| Scaling characteristic                         | Description                                                                                                                                                                                                                                                      |
 |--------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Application Media Size   | The dimensions of the media defined by the application layout. The application media size may or may not correspond to a PageMediaSize supported by the consumer.<br/>                                                                          |
 | Application Content Size | The dimensions of the media defined by the application layout. The application media size may or may not correspond to a PageMediaSize supported by the consumer.<br/>                                                                          |

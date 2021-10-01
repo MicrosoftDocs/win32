@@ -373,7 +373,7 @@ Data type: **string**
 
 Applies to: references
 
-Type of location of an instance. Its value is <namespacetype>. The default is **NULL**.
+Type of location of an instance. Its value is &lt;namespacetype&gt;. The default is **NULL**.
 
 Usage: This qualifier cannot be used with the **Nonlocal** qualifier.
 

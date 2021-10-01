@@ -65,7 +65,7 @@ The following values are only used during an installation.
 |------------------------------------|-------------|---------|------------------------------------------------------------------------------------|
 | **msidbServiceControlEventStart**  | 0x001       | 1       | Starts the service during the [StartServices action](startservices-action.md).    |
 | **msidbServiceControlEventStop**   | 0x002       | 2       | Stops the service during the [StopServices action](stopservices-action.md).       |
-| (none)                             | 0x004       | 4       | <reserved>                                                                   |
+| (none)                             | 0x004       | 4       | &lt;reserved&gt;                                                                   |
 | **msidbServiceControlEventDelete** | 0x008       | 8       | Deletes the service during the [DeleteServices action](deleteservices-action.md). |
 
 
@@ -80,7 +80,7 @@ The following values are only used during an uninstall.
 |---------------------------------------------|-------------|---------|------------------------------------------------------------------------------------|
 | **msidbServiceControlEventUninstallStart**  | 0x010       | 16      | Starts the service during the [StartServices action](startservices-action.md).    |
 | **msidbServiceControlEventUninstallStop**   | 0x020       | 32      | Stops the service during the [StopServices action](stopservices-action.md).       |
-| (none)                                      | 0x040       | 64      | <reserved>                                                                   |
+| (none)                                      | 0x040       | 64      | &lt;reserved&gt;                                                                   |
 | **msidbServiceControlEventUninstallDelete** | 0x080       | 128     | Deletes the service during the [DeleteServices action](deleteservices-action.md). |
 
 

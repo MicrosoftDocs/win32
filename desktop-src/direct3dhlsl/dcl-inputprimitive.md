@@ -26,31 +26,11 @@ Declares the primitive type for geometry-shader inputs.
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Item</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><span id="type"></span><span id="TYPE"></span><em>type</em><br/></td>
-<td>[in] Input-data primitive type, which is one of the following: <br/>
-<ul>
-<li><em>point</em> - point list</li>
-<li><em>line</em> - line list</li>
-<li><em>triangle</em> - triangle list</li>
-<li><em>line_adj</em> - line list with adjacency data</li>
-<li><em>triangle_adj</em> - triangle list with adjacency data</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| Item | Description | 
+|------|-------------|
+| <span id="type"></span><span id="TYPE"></span><em>type</em><br /> | [in] Input-data primitive type, which is one of the following: <br /><ul><li><em>point</em> - point list</li><li><em>line</em> - line list</li><li><em>triangle</em> - triangle list</li><li><em>line_adj</em> - line list with adjacency data</li><li><em>triangle_adj</em> - triangle list with adjacency data</li></ul> | 
+
 
 
 

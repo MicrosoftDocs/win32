@@ -68,98 +68,24 @@ The following table describes the values that you can define for each AutoLogger
 
 
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Value</th>
-<th>Type</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>BufferSize</strong></td>
-<td><strong>REG_DWORD</strong></td>
-<td>The size of each buffer, in kilobytes. Should be less than one megabyte. ETW uses the size of physical memory to calculate this value.<br/></td>
-</tr>
-<tr class="even">
-<td><strong>ClockType</strong></td>
-<td><strong>REG_DWORD</strong></td>
-<td>The timer to use when logging the time stamp for each event.
-<ul>
-<li>1 = Performance counter value (high resolution)</li>
-<li>2 = System timer</li>
-<li>3 = CPU cycle counter</li>
-</ul>
-For a description of each clock type, see the <strong>ClientContext</strong> member of <a href="wnode-header.md"><strong>WNODE_HEADER</strong></a>.<br/> The default value is 1 (performance counter value) on Windows Vista and later. Prior to Windows Vista, the default value is 2 (system timer).<br/></td>
-</tr>
-<tr class="odd">
-<td><strong>DisableRealtimePersistence</strong></td>
-<td><strong>REG_DWORD</strong></td>
-<td>To disable real time persistence, set this value to 1. The default is 0 (enabled) for real time sessions.<br/> If real time persistence is enabled, real-time events that were not delivered by the time the computer was shutdown will be persisted. The events will then be delivered to the consumer the next time the consumer connects to the session. <br/></td>
-</tr>
-<tr class="even">
-<td><strong>FileCounter</strong></td>
-<td><strong>REG_DWORD</strong></td>
-<td>Do not set or modify this value. This value is the serial number used to increment the log file name if <strong>FileMax</strong> is specified. If the value is not valid, 1 will be assumed.<br/></td>
-</tr>
-<tr class="odd">
-<td><strong>FileName</strong></td>
-<td><strong>REG_SZ</strong></td>
-<td>The fully qualified path of the log file. The path to this file must exist. The log file is a sequential log file. The path is limited to 1024 characters.<br/> If <strong>FileName</strong> is not specified, events are written to %SystemRoot%\System32\LogFiles\WMI\<sessionname>.etl. <br/></td>
-</tr>
-<tr class="even">
-<td><strong>FileMax</strong></td>
-<td><strong>REG_DWORD</strong></td>
-<td>The maximum number of instances of the log file that ETW creates. If the log file specified in <strong>FileName</strong> exists, ETW appends the <strong>FileCounter</strong> value to the file name. For example, if the default log file name is used, the form is %SystemRoot%\System32\LogFiles\WMI\<sessionname>.etl.NNNN. <br/> The first time the computer is started, the file name is <sessionname>.etl.0001, the second time the file name is <sessionname>.etl.0002, and so on. If <strong>FileMax</strong> is 3, on the fourth restart of the computer, ETW resets the counter to 1 and overwrites <sessionname>.etl.0001, if it exists.<br/> The maximum number of instances of the log file that are supported is 16.<br/> Do not use this feature with the <a href="logging-mode-constants.md">EVENT_TRACE_FILE_MODE_NEWFILE</a> log file mode.<br/></td>
-</tr>
-<tr class="odd">
-<td><strong>FlushTimer</strong></td>
-<td><strong>REG_DWORD</strong></td>
-<td>How often, in seconds, the trace buffers are forcibly flushed. The minimum flush time is 1 second. This forced flush is in addition to the automatic flush that occurs when a buffer is full and when the trace session stops. <br/> For the case of a real-time logger, a value of zero (the default value) means that the flush time will be set to 1 second. A real-time logger is when <strong>LogFileMode</strong> is set to <strong>EVENT_TRACE_REAL_TIME_MODE</strong>.<br/> The default value is 0. By default, buffers are flushed only when they are full. <br/></td>
-</tr>
-<tr class="even">
-<td><strong>Guid</strong></td>
-<td><strong>REG_SZ</strong></td>
-<td>A string that contains a GUID that uniquely identifies the session. This value is required.</td>
-</tr>
-<tr class="odd">
-<td><strong>LogFileMode</strong></td>
-<td><strong>REG_DWORD</strong></td>
-<td>Specify one or more log modes. For possible values, see <a href="logging-mode-constants.md">Logging Mode Constants</a>. The default is <strong>EVENT_TRACE_FILE_MODE_SEQUENTIAL</strong>. Instead of writing to a log file, you can specify either <strong>EVENT_TRACE_BUFFERING_MODE</strong> or <strong>EVENT_TRACE_REAL_TIME_MODE</strong>.<br/> Specifying <strong>EVENT_TRACE_BUFFERING_MODE</strong> avoids the cost of flushing the contents of the session to disk when the file system becomes available. <br/> Note that using <strong>EVENT_TRACE_BUFFERING_MODE</strong> will cause the system to ignore the <strong>MaximumBuffers</strong> value, as the buffer size is instead the product of <strong>MinimumBuffers</strong> and <strong>BufferSize</strong>.<br/> AutoLogger sessions do not support the <strong>EVENT_TRACE_FILE_MODE_NEWFILE</strong> logging mode.<br/> If <strong>EVENT_TRACE_FILE_MODE_APPEND</strong> is specified, <strong>BufferSize</strong> must be explicitly provided and must be the same in both the logger and the file being appended.<br/></td>
-</tr>
-<tr class="even">
-<td><strong>MaxFileSize</strong></td>
-<td><strong>REG_DWORD</strong></td>
-<td>The maximum file size of the log file, in megabytes. The session is closed when the maximum size is reached, unless you are in circular log file mode. To specify no limit, set value to 0. The default is 100 MB, if not set. The behavior that occurs when the maximum file size is reached depends on the value of <strong>LogFileMode</strong>.<br/></td>
-</tr>
-<tr class="odd">
-<td><strong>MaximumBuffers</strong></td>
-<td><strong>REG_DWORD</strong></td>
-<td>The maximum number of buffers to allocate. Typically, this value is the minimum number of buffers plus twenty. ETW uses the buffer size and the size of physical memory to calculate this value. This value must be greater than or equal to the value for <strong>MinimumBuffers</strong>.<br/></td>
-</tr>
-<tr class="even">
-<td><strong>MinimumBuffers</strong></td>
-<td><strong>REG_DWORD</strong></td>
-<td>The minimum number of buffers to allocate at startup. The minimum number of buffers that you can specify is two buffers per processor. For example, on a single processor computer, the minimum number of buffers is two.<br/></td>
-</tr>
-<tr class="odd">
-<td><strong>Start</strong></td>
-<td><strong>REG_DWORD</strong></td>
-<td>To have the AutoLogger session start the next time the computer is restarted, set this value to 1; otherwise, set this value to 0.<br/></td>
-</tr>
-<tr class="even">
-<td><strong>Status</strong></td>
-<td><strong>REG_DWORD</strong></td>
-<td>The startup status of the AutoLogger. If the AutoLogger failed to start, the value of this key is the appropriate Win32 error code. If the AutoLogger successfully started, the value of this key is <strong>ERROR_SUCCESS</strong> (0).<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Value | Type | Description | 
+|-------|------|-------------|
+| <strong>BufferSize</strong> | <strong>REG_DWORD</strong> | The size of each buffer, in kilobytes. Should be less than one megabyte. ETW uses the size of physical memory to calculate this value.<br /> | 
+| <strong>ClockType</strong> | <strong>REG_DWORD</strong> | The timer to use when logging the time stamp for each event.<ul><li>1 = Performance counter value (high resolution)</li><li>2 = System timer</li><li>3 = CPU cycle counter</li></ul>For a description of each clock type, see the <strong>ClientContext</strong> member of <a href="wnode-header.md"><strong>WNODE_HEADER</strong></a>.<br /> The default value is 1 (performance counter value) on Windows Vista and later. Prior to Windows Vista, the default value is 2 (system timer).<br /> | 
+| <strong>DisableRealtimePersistence</strong> | <strong>REG_DWORD</strong> | To disable real time persistence, set this value to 1. The default is 0 (enabled) for real time sessions.<br /> If real time persistence is enabled, real-time events that were not delivered by the time the computer was shutdown will be persisted. The events will then be delivered to the consumer the next time the consumer connects to the session. <br /> | 
+| <strong>FileCounter</strong> | <strong>REG_DWORD</strong> | Do not set or modify this value. This value is the serial number used to increment the log file name if <strong>FileMax</strong> is specified. If the value is not valid, 1 will be assumed.<br /> | 
+| <strong>FileName</strong> | <strong>REG_SZ</strong> | The fully qualified path of the log file. The path to this file must exist. The log file is a sequential log file. The path is limited to 1024 characters.<br /> If <strong>FileName</strong> is not specified, events are written to %SystemRoot%\System32\LogFiles\WMI\&lt;sessionname&gt;.etl. <br /> | 
+| <strong>FileMax</strong> | <strong>REG_DWORD</strong> | The maximum number of instances of the log file that ETW creates. If the log file specified in <strong>FileName</strong> exists, ETW appends the <strong>FileCounter</strong> value to the file name. For example, if the default log file name is used, the form is %SystemRoot%\System32\LogFiles\WMI\&lt;sessionname&gt;.etl.NNNN. <br /> The first time the computer is started, the file name is &lt;sessionname&gt;.etl.0001, the second time the file name is &lt;sessionname&gt;.etl.0002, and so on. If <strong>FileMax</strong> is 3, on the fourth restart of the computer, ETW resets the counter to 1 and overwrites &lt;sessionname&gt;.etl.0001, if it exists.<br /> The maximum number of instances of the log file that are supported is 16.<br /> Do not use this feature with the <a href="logging-mode-constants.md">EVENT_TRACE_FILE_MODE_NEWFILE</a> log file mode.<br /> | 
+| <strong>FlushTimer</strong> | <strong>REG_DWORD</strong> | How often, in seconds, the trace buffers are forcibly flushed. The minimum flush time is 1 second. This forced flush is in addition to the automatic flush that occurs when a buffer is full and when the trace session stops. <br /> For the case of a real-time logger, a value of zero (the default value) means that the flush time will be set to 1 second. A real-time logger is when <strong>LogFileMode</strong> is set to <strong>EVENT_TRACE_REAL_TIME_MODE</strong>.<br /> The default value is 0. By default, buffers are flushed only when they are full. <br /> | 
+| <strong>Guid</strong> | <strong>REG_SZ</strong> | A string that contains a GUID that uniquely identifies the session. This value is required. | 
+| <strong>LogFileMode</strong> | <strong>REG_DWORD</strong> | Specify one or more log modes. For possible values, see <a href="logging-mode-constants.md">Logging Mode Constants</a>. The default is <strong>EVENT_TRACE_FILE_MODE_SEQUENTIAL</strong>. Instead of writing to a log file, you can specify either <strong>EVENT_TRACE_BUFFERING_MODE</strong> or <strong>EVENT_TRACE_REAL_TIME_MODE</strong>.<br /> Specifying <strong>EVENT_TRACE_BUFFERING_MODE</strong> avoids the cost of flushing the contents of the session to disk when the file system becomes available. <br /> Note that using <strong>EVENT_TRACE_BUFFERING_MODE</strong> will cause the system to ignore the <strong>MaximumBuffers</strong> value, as the buffer size is instead the product of <strong>MinimumBuffers</strong> and <strong>BufferSize</strong>.<br /> AutoLogger sessions do not support the <strong>EVENT_TRACE_FILE_MODE_NEWFILE</strong> logging mode.<br /> If <strong>EVENT_TRACE_FILE_MODE_APPEND</strong> is specified, <strong>BufferSize</strong> must be explicitly provided and must be the same in both the logger and the file being appended.<br /> | 
+| <strong>MaxFileSize</strong> | <strong>REG_DWORD</strong> | The maximum file size of the log file, in megabytes. The session is closed when the maximum size is reached, unless you are in circular log file mode. To specify no limit, set value to 0. The default is 100 MB, if not set. The behavior that occurs when the maximum file size is reached depends on the value of <strong>LogFileMode</strong>.<br /> | 
+| <strong>MaximumBuffers</strong> | <strong>REG_DWORD</strong> | The maximum number of buffers to allocate. Typically, this value is the minimum number of buffers plus twenty. ETW uses the buffer size and the size of physical memory to calculate this value. This value must be greater than or equal to the value for <strong>MinimumBuffers</strong>.<br /> | 
+| <strong>MinimumBuffers</strong> | <strong>REG_DWORD</strong> | The minimum number of buffers to allocate at startup. The minimum number of buffers that you can specify is two buffers per processor. For example, on a single processor computer, the minimum number of buffers is two.<br /> | 
+| <strong>Start</strong> | <strong>REG_DWORD</strong> | To have the AutoLogger session start the next time the computer is restarted, set this value to 1; otherwise, set this value to 0.<br /> | 
+| <strong>Status</strong> | <strong>REG_DWORD</strong> | The startup status of the AutoLogger. If the AutoLogger failed to start, the value of this key is the appropriate Win32 error code. If the AutoLogger successfully started, the value of this key is <strong>ERROR_SUCCESS</strong> (0).<br /> | 
+
 
 
 
@@ -169,63 +95,16 @@ The following table describes the values that you can define for each provider t
 
 
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Value</th>
-<th>Type</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>Enabled</strong></td>
-<td><strong>REG_DWORD</strong></td>
-<td>Determines if the provider is enabled. To enable the provider, set this value to 1. To disable the provider, set this value to 0. The default is 0.</td>
-</tr>
-<tr class="even">
-<td><strong>EnableFlags</strong></td>
-<td><strong>REG_DWORD</strong></td>
-<td>Provider-defined value that specifies the class of events for which the provider generates events. For details, see the <em>EnableFlags</em> parameter of the <a href="/windows/win32/api/evntrace/nf-evntrace-enabletrace"><strong>EnableTrace</strong></a> function. Specify this value name if the provider does not support <strong>MatchAnyKeyword</strong> or <strong>MatchAllKeyword</strong>.</td>
-</tr>
-<tr class="odd">
-<td><strong>EnableLevel</strong></td>
-<td><strong>REG_DWORD</strong></td>
-<td>Provider-defined value that specifies the level of detail included in the event. For example, you can use this value to indicate the severity level of the events (informational, warning, error) that the provider generates. For a list of predefined levels, see the <em>level</em> parameter of the <a href="/windows/win32/api/evntrace/nf-evntrace-enabletraceex"><strong>EnableTraceEx</strong></a> function.</td>
-</tr>
-<tr class="even">
-<td><strong>EnableProperty</strong></td>
-<td><strong>REG_DWORD</strong></td>
-<td>Use this value to include one or more of the following items in the log file:
-<ul>
-<li><strong>EVENT_ENABLE_PROPERTY_SID</strong> (0x00000001) = Include in the extended data the security identifier (SID) of the user.</li>
-<li><strong>EVENT_ENABLE_PROPERTY_TS_ID</strong> (0x00000002) = Include in the extended data the terminal session identifier.</li>
-<li><strong>EVENT_ENABLE_PROPERTY_STACK_TRACE</strong> (0x00000004) = Include in the extended data a call stack trace for events written using <a href="/windows/desktop/api/Evntprov/nf-evntprov-eventwrite"><strong>EventWrite</strong></a>.</li>
-<li><strong>EVENT_ENABLE_PROPERTY_IGNORE_KEYWORD_0</strong> (0x00000010) = Filters out all events that do not have a non-zero keyword specified.</li>
-<li><strong>EVENT_ENABLE_PROPERTY_PROVIDER_GROUP</strong> (0x00000020) = Indicates that this call to <a href="/windows/win32/api/evntrace/nf-evntrace-enabletraceex2"><strong>EnableTraceEx2</strong></a> should enable a <a href="provider-traits.md">Provider Group</a> rather than an individual Event Provider.</li>
-<li><strong>EVENT_ENABLE_PROPERTY_PROCESS_START_KEY</strong> (0x00000080) = Include the Process Start Key in the extended data.</li>
-<li><strong>EVENT_ENABLE_PROPERTY_EVENT_KEY</strong> (0x00000100) = Include the Event Key in the extended data.</li>
-<li><strong>EVENT_ENABLE_PROPERTY_EXCLUDE_INPRIVATE</strong> (0x00000200) = Filters out all events that are either marked as an InPrivate event or come from a process that is marked as InPrivate.</li>
-</ul>
-For more information about these items, see the <strong>EnableProperty</strong> of the <a href="/windows/win32/api/evntrace/ns-evntrace-enable_trace_parameters"><strong>ENABLE_TRACE_PARAMETERS</strong></a> structure.<br/></td>
-</tr>
-<tr class="odd">
-<td><strong>MatchAnyKeyword</strong></td>
-<td><strong>REG_QWORD</strong></td>
-<td>Bitmask of keywords that determine the category of events that you want the provider to write. The provider writes the event if any of the event's keyword bits match any of the bits set in this mask. To specify that the provider write all events, set this value to zero. For an example, see the Remarks section of the <a href="/windows/win32/api/evntrace/nf-evntrace-enabletraceex"><strong>EnableTraceEx</strong></a> function.</td>
-</tr>
-<tr class="even">
-<td><strong>MatchAllKeyword</strong></td>
-<td><strong>REG_QWORD</strong></td>
-<td>This bitmask is optional. This mask further restricts the category of events that you want the provider to write. If the event's keyword meets the <em>MatchAnyKeyword</em> condition, the provider will write the event only if all of the bits in this mask exist in the event's keyword. This mask is not used if <em>MatchAnyKeyword</em> is zero. For an example, see the Remarks section of the <a href="/windows/win32/api/evntrace/nf-evntrace-enabletraceex"><strong>EnableTraceEx</strong></a> function.</td>
-</tr>
-</tbody>
-</table>
+
+| Value | Type | Description | 
+|-------|------|-------------|
+| <strong>Enabled</strong> | <strong>REG_DWORD</strong> | Determines if the provider is enabled. To enable the provider, set this value to 1. To disable the provider, set this value to 0. The default is 0. | 
+| <strong>EnableFlags</strong> | <strong>REG_DWORD</strong> | Provider-defined value that specifies the class of events for which the provider generates events. For details, see the <em>EnableFlags</em> parameter of the <a href="/windows/win32/api/evntrace/nf-evntrace-enabletrace"><strong>EnableTrace</strong></a> function. Specify this value name if the provider does not support <strong>MatchAnyKeyword</strong> or <strong>MatchAllKeyword</strong>. | 
+| <strong>EnableLevel</strong> | <strong>REG_DWORD</strong> | Provider-defined value that specifies the level of detail included in the event. For example, you can use this value to indicate the severity level of the events (informational, warning, error) that the provider generates. For a list of predefined levels, see the <em>level</em> parameter of the <a href="/windows/win32/api/evntrace/nf-evntrace-enabletraceex"><strong>EnableTraceEx</strong></a> function. | 
+| <strong>EnableProperty</strong> | <strong>REG_DWORD</strong> | Use this value to include one or more of the following items in the log file:<ul><li><strong>EVENT_ENABLE_PROPERTY_SID</strong> (0x00000001) = Include in the extended data the security identifier (SID) of the user.</li><li><strong>EVENT_ENABLE_PROPERTY_TS_ID</strong> (0x00000002) = Include in the extended data the terminal session identifier.</li><li><strong>EVENT_ENABLE_PROPERTY_STACK_TRACE</strong> (0x00000004) = Include in the extended data a call stack trace for events written using <a href="/windows/desktop/api/Evntprov/nf-evntprov-eventwrite"><strong>EventWrite</strong></a>.</li><li><strong>EVENT_ENABLE_PROPERTY_IGNORE_KEYWORD_0</strong> (0x00000010) = Filters out all events that do not have a non-zero keyword specified.</li><li><strong>EVENT_ENABLE_PROPERTY_PROVIDER_GROUP</strong> (0x00000020) = Indicates that this call to <a href="/windows/win32/api/evntrace/nf-evntrace-enabletraceex2"><strong>EnableTraceEx2</strong></a> should enable a <a href="provider-traits.md">Provider Group</a> rather than an individual Event Provider.</li><li><strong>EVENT_ENABLE_PROPERTY_PROCESS_START_KEY</strong> (0x00000080) = Include the Process Start Key in the extended data.</li><li><strong>EVENT_ENABLE_PROPERTY_EVENT_KEY</strong> (0x00000100) = Include the Event Key in the extended data.</li><li><strong>EVENT_ENABLE_PROPERTY_EXCLUDE_INPRIVATE</strong> (0x00000200) = Filters out all events that are either marked as an InPrivate event or come from a process that is marked as InPrivate.</li></ul>For more information about these items, see the <strong>EnableProperty</strong> of the <a href="/windows/win32/api/evntrace/ns-evntrace-enable_trace_parameters"><strong>ENABLE_TRACE_PARAMETERS</strong></a> structure.<br /> | 
+| <strong>MatchAnyKeyword</strong> | <strong>REG_QWORD</strong> | Bitmask of keywords that determine the category of events that you want the provider to write. The provider writes the event if any of the event's keyword bits match any of the bits set in this mask. To specify that the provider write all events, set this value to zero. For an example, see the Remarks section of the <a href="/windows/win32/api/evntrace/nf-evntrace-enabletraceex"><strong>EnableTraceEx</strong></a> function. | 
+| <strong>MatchAllKeyword</strong> | <strong>REG_QWORD</strong> | This bitmask is optional. This mask further restricts the category of events that you want the provider to write. If the event's keyword meets the <em>MatchAnyKeyword</em> condition, the provider will write the event only if all of the bits in this mask exist in the event's keyword. This mask is not used if <em>MatchAnyKeyword</em> is zero. For an example, see the Remarks section of the <a href="/windows/win32/api/evntrace/nf-evntrace-enabletraceex"><strong>EnableTraceEx</strong></a> function. | 
+
 
 
 

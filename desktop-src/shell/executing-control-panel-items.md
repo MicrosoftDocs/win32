@@ -134,51 +134,18 @@ When you use the [**WinExec**](/windows/win32/api/winbase/nf-winbase-winexec) fu
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>control.exe desktop</td>
-<td>Launches the <strong>Display Properties</strong> window.
-<blockquote>
-[!Note]<br />
-Starter and Basic Editions do not support this command.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td>control.exe color</td>
-<td>Launches the <strong>Display Properties</strong> window with the <strong>Appearance</strong> tab preselected.</td>
-</tr>
-<tr class="odd">
-<td>control.exe date/time</td>
-<td>Launches the <strong>Date and Time Properties</strong> window.</td>
-</tr>
-<tr class="even">
-<td>control.exe international</td>
-<td>Launches the <strong>Regional and Language Options</strong> window.</td>
-</tr>
-<tr class="odd">
-<td>control.exe mouse</td>
-<td>Launches the <strong>Mouse Properties</strong> window.</td>
-</tr>
-<tr class="even">
-<td>control.exe keyboard</td>
-<td>Launches the <strong>Keyboard Properties</strong> window.</td>
-</tr>
-<tr class="odd">
-<td>control.exe printers</td>
-<td>Displays the <strong>Printers and Faxes</strong> folder.</td>
-</tr>
-<tr class="even">
-<td>control.exe fonts</td>
-<td>Displays the <strong>Fonts</strong> folder.</td>
-</tr>
-</tbody>
-</table>
+
+| 
+|
+| control.exe desktop | Launches the <strong>Display Properties</strong> window.<blockquote>[!Note]<br />Starter and Basic Editions do not support this command.</blockquote><br /> | 
+| control.exe color | Launches the <strong>Display Properties</strong> window with the <strong>Appearance</strong> tab preselected. | 
+| control.exe date/time | Launches the <strong>Date and Time Properties</strong> window. | 
+| control.exe international | Launches the <strong>Regional and Language Options</strong> window. | 
+| control.exe mouse | Launches the <strong>Mouse Properties</strong> window. | 
+| control.exe keyboard | Launches the <strong>Keyboard Properties</strong> window. | 
+| control.exe printers | Displays the <strong>Printers and Faxes</strong> folder. | 
+| control.exe fonts | Displays the <strong>Fonts</strong> folder. | 
+
 
 
 
@@ -188,7 +155,7 @@ For Windows 2000 and later systems:
 
 
 
-|                            |                                                          |
+| Command                    | Description                                              |
 |----------------------------|----------------------------------------------------------|
 | control.exe folders        | Launches the **Folder Options** window.                  |
 | control.exe netware        | Launches the **Novell NetWare** window (if installed).   |

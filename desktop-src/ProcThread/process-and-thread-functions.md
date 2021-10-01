@@ -127,9 +127,8 @@ The following functions are used with process wide policy.
 
 
 
-|                                                      |                                                       |
+|  Function                                                    |  Description                                                     |
 |------------------------------------------------------|-------------------------------------------------------|
-| Function                                             | Description                                           |
 | [**QueryProtectedPolicy**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-queryprotectedpolicy) | Queries the value associated with a protected policy. |
 | [**SetProtectedPolicy**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-setprotectedpolicy)     | Sets a protected policy.                              |
 

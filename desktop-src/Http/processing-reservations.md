@@ -14,8 +14,8 @@ Reservations for portions of the URL namespace are made by the system administra
 
 | Namespace reserved                 | Reserved for              |
 |------------------------------------|---------------------------|
-| https://<host>:<port>/  | LocalSystem Administrator |
-| https://<host>:<port>/ | LocalSystem Administrator |
+| https://&lt;host&gt;:&lt;port&gt;/  | LocalSystem Administrator |
+| https://&lt;host&gt;:&lt;port&gt;/ | LocalSystem Administrator |
 
 
 

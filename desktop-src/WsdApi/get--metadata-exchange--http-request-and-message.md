@@ -37,9 +37,9 @@ A Get HTTP request has the following focus points.
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -104,9 +104,9 @@ A Get message has the following focus points.
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -118,14 +118,14 @@ A Get message has the following focus points.
 <tbody>
 <tr class="odd">
 <td>To</td>
-<td><pre class="syntax" data-space="preserve"><code><wsa:To>
+<td><pre class="syntax" data-space="preserve"><code>&lt;wsa:To&gt;
     urn:uuid:37f86d35-e6ac-4241-964f-1d9ae46fb366
-</wsa:To></code></pre></td>
+&lt;/wsa:To&gt;</code></pre></td>
 <td>The identifier of the device being asked for metadata.</td>
 </tr>
 <tr class="even">
 <td>Get</td>
-<td><pre class="syntax" data-space="preserve"><code><wsa:Action>
+<td><pre class="syntax" data-space="preserve"><code>&lt;wsa:Action&gt;
     https://schemas.xmlsoap.org/ws/2004/09/transfer/Get
 </wsa:Action</code></pre></td>
 <td>The Get SOAP action identifies the message as a Get message.</td>

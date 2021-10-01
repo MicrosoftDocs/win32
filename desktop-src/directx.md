@@ -10,6 +10,9 @@ ms.date: 05/31/2018
 
 This content focuses on using DirectX in a Win32 application. For information on using DirectX in a UWP application, see the [Windows 10 game development guide (UWP)](/windows/uwp/gaming/e2e).
 
+> [!TIP]
+> For descriptions of and links to DirectX components in active development, see the blog post [DirectX Landing Page](https://devblogs.microsoft.com/directx/landing-page/).
+
 ## In this section
 
 | Topic | Description |
@@ -21,6 +24,7 @@ This content focuses on using DirectX in a Win32 application. For information on
 | [DXCore](./dxcore/dxcore.md) | DXCore is an adapter enumeration API for graphics and compute devices, so some of its facilities overlap with those of DXGI. |
 | [DirectWrite](./directwrite/direct-write-portal.md) | DirectWrite supports high-quality text rendering, resolution-independent outline fonts, and full Unicode text and layouts. |
 | [DirectXMath](./dxmath/directxmath-portal.md) | DirectXMath provides an optimal and portable interface for arithmetic and linear algebra operations on single-precision floating-point vectors (2D, 3D, and 4D) or matrices (3×3 and 4×4). |
+| [Direct Machine Learning (DirectML)](/windows/ai/directml/dml) | Direct Machine Learning (DirectML) is a low-level API for machine learning. It has a familiar (native C++, nano-COM) programming interface and workflow in the style of DirectX 12. You can integrate machine learning inferencing workloads into your game, engine, middleware, backend, or other application. DirectML is supported by all DirectX 12-compatible hardware. |
 | [windowsnumerics.h APIs](./numerics_h/windowsnumerics-h-apis-portal.md) | The `windowsnumerics.h` header file defines C++ vector and matrix types in the Windows.Foundation.Numerics namespace. |
 | [Classic DirectX Graphics](./classic-directx-graphics.md) | Microsoft DirectX graphics technologies that are currently minimally used. We do not recommend using these classic DirectX graphics technologies for new apps. |
 | [Tools for DirectX Graphics](./direct3dtools/dx-graphics-tools.md) | Describes tools for DirectX Graphics. |

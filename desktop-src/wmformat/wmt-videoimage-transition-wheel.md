@@ -26,46 +26,14 @@ The following table describes the parameters used by this transition and lists t
 
 
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Parameter</th>
-<th>Structure member</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Center X</td>
-<td><strong>fEffectPara0</strong></td>
-<td>X-coordinate, relative to the video frame, of the center of the wheel effect.</td>
-</tr>
-<tr class="even">
-<td>Center Y</td>
-<td><strong>fEffectPara1</strong></td>
-<td>Y-coordinate, relative to the video frame, of the center of the wheel effect.</td>
-</tr>
-<tr class="odd">
-<td>Angle</td>
-<td><strong>fEffectPara2</strong></td>
-<td>Angle of rotation, in degrees, of the spokes of the wheel effect. A value of 0.0 indicates the old image without any of the new image revealed. A value of 90.0 indicates the new image fully revealed.Movement from 0.0 to 90.0 appears as clockwise rotation of the spokes.<br/></td>
-</tr>
-<tr class="even">
-<td>Composition</td>
-<td><strong>fEffectPara3</strong></td>
-<td>Set to one of the following values:
-<ul>
-<li>0 - Specifies normal composition, in which the previous image is the background, and the current image is the foreground.</li>
-<li>1 - Specifies reversed composition, in which the current image is the background image, and the previous image is the foreground</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| Parameter | Structure member | Description | 
+|-----------|------------------|-------------|
+| Center X | <strong>fEffectPara0</strong> | X-coordinate, relative to the video frame, of the center of the wheel effect. | 
+| Center Y | <strong>fEffectPara1</strong> | Y-coordinate, relative to the video frame, of the center of the wheel effect. | 
+| Angle | <strong>fEffectPara2</strong> | Angle of rotation, in degrees, of the spokes of the wheel effect. A value of 0.0 indicates the old image without any of the new image revealed. A value of 90.0 indicates the new image fully revealed.Movement from 0.0 to 90.0 appears as clockwise rotation of the spokes.<br /> | 
+| Composition | <strong>fEffectPara3</strong> | Set to one of the following values:<ul><li>0 - Specifies normal composition, in which the previous image is the background, and the current image is the foreground.</li><li>1 - Specifies reversed composition, in which the current image is the background image, and the previous image is the foreground</li></ul> | 
+
 
 
 

@@ -20,126 +20,22 @@ To register a Control Panel item in one or more categories, add values as explai
 
 
 
-<table>
-<colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Category ID</th>
-<th>Category Name (Windows 7)</th>
-<th>Category Name (Windows Vista)</th>
-<th>Category Name (Windows XP)</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>0</td>
-<td>&quot;All Control Panel Items&quot;</td>
-<td>&quot;Additional Options&quot;
-<blockquote>
-[!Note]<br />
-Any Control Panel item that does not specify a category ID appears in this category.
-</blockquote>
-<br/></td>
-<td>&quot;Other Control Panel Options&quot;
-<blockquote>
-[!Note]<br />
-Any Control Panel item that does not specify a category ID appears in this category.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td>1</td>
-<td>&quot;Appearance and Personalization&quot;</td>
-<td>&quot;Appearance and Personalization&quot;</td>
-<td>&quot;Appearance and Themes&quot;</td>
-</tr>
-<tr class="odd">
-<td>2</td>
-<td>&quot;Hardware and Sound&quot;</td>
-<td>&quot;Hardware and Sound&quot;</td>
-<td>&quot;Printers and Other Hardware&quot;</td>
-</tr>
-<tr class="even">
-<td>3</td>
-<td>&quot;Network and Internet&quot;</td>
-<td>&quot;Network and Internet&quot;</td>
-<td>&quot;Network and Internet Connections&quot;</td>
-</tr>
-<tr class="odd">
-<td>4</td>
-<td>No longer used. Any item that adds itself only to category 4 appears in category 2 (Hardware and Sound).</td>
-<td>No longer used. Any item that adds itself only to category 4 appears in category 2 (Hardware and Sound).</td>
-<td>&quot;Sounds, Speech, and Audio Devices&quot;</td>
-</tr>
-<tr class="even">
-<td>5</td>
-<td>&quot;System and Security&quot;</td>
-<td>&quot;System and Maintenance&quot;</td>
-<td>&quot;Performance and Maintenance&quot;</td>
-</tr>
-<tr class="odd">
-<td>6</td>
-<td>&quot;Clock, Language, and Region&quot;</td>
-<td>&quot;Clock, Language, and Region&quot;</td>
-<td>&quot;Date, Time, Language, and Regional Options&quot;</td>
-</tr>
-<tr class="even">
-<td>7</td>
-<td>&quot;Ease of Access&quot;</td>
-<td>&quot;Ease of Access&quot;</td>
-<td>&quot;Accessibility Options&quot;</td>
-</tr>
-<tr class="odd">
-<td>8</td>
-<td>&quot;Programs&quot;</td>
-<td>&quot;Programs&quot;</td>
-<td>&quot;Add or Remove Programs&quot;</td>
-</tr>
-<tr class="even">
-<td>9</td>
-<td>&quot;User Accounts&quot;
-<blockquote>
-[!Note]<br />
-When not connected to a domain, this is called &quot;User Accounts and Family Safety&quot;.
-</blockquote>
-<br/></td>
-<td>&quot;User Accounts&quot;
-<blockquote>
-[!Note]<br />
-When not connected to a domain, this is called &quot;User Accounts and Family Safety&quot;.
-</blockquote>
-<br/></td>
-<td>&quot;User Accounts&quot;</td>
-</tr>
-<tr class="odd">
-<td>10</td>
-<td>No longer used. Items registered in this category appear in category 5 (System and Security).</td>
-<td>&quot;Security&quot;</td>
-<td>&quot;Security Center&quot;
-<blockquote>
-[!Note]<br />
-Available only in Windows XP Service Pack 2 (SP2) or later.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td>11</td>
-<td>No longer used. Items registered in this category appear in category 0 (All Control Panel Items).</td>
-<td>&quot;Mobile PC&quot;
-<blockquote>
-[!Note]<br />
-This category is only visible on mobile PCs.
-</blockquote>
-<br/></td>
-<td>Not used.</td>
-</tr>
-</tbody>
-</table>
+
+| Category ID | Category Name (Windows 7) | Category Name (Windows Vista) | Category Name (Windows XP) | 
+|-------------|---------------------------|-------------------------------|----------------------------|
+| 0 | "All Control Panel Items" | "Additional Options"<blockquote>[!Note]<br />Any Control Panel item that does not specify a category ID appears in this category.</blockquote><br /> | "Other Control Panel Options"<blockquote>[!Note]<br />Any Control Panel item that does not specify a category ID appears in this category.</blockquote><br /> | 
+| 1 | "Appearance and Personalization" | "Appearance and Personalization" | "Appearance and Themes" | 
+| 2 | "Hardware and Sound" | "Hardware and Sound" | "Printers and Other Hardware" | 
+| 3 | "Network and Internet" | "Network and Internet" | "Network and Internet Connections" | 
+| 4 | No longer used. Any item that adds itself only to category 4 appears in category 2 (Hardware and Sound). | No longer used. Any item that adds itself only to category 4 appears in category 2 (Hardware and Sound). | "Sounds, Speech, and Audio Devices" | 
+| 5 | "System and Security" | "System and Maintenance" | "Performance and Maintenance" | 
+| 6 | "Clock, Language, and Region" | "Clock, Language, and Region" | "Date, Time, Language, and Regional Options" | 
+| 7 | "Ease of Access" | "Ease of Access" | "Accessibility Options" | 
+| 8 | "Programs" | "Programs" | "Add or Remove Programs" | 
+| 9 | "User Accounts"<blockquote>[!Note]<br />When not connected to a domain, this is called "User Accounts and Family Safety".</blockquote><br /> | "User Accounts"<blockquote>[!Note]<br />When not connected to a domain, this is called "User Accounts and Family Safety".</blockquote><br /> | "User Accounts" | 
+| 10 | No longer used. Items registered in this category appear in category 5 (System and Security). | "Security" | "Security Center"<blockquote>[!Note]<br />Available only in Windows XP Service Pack 2 (SP2) or later.</blockquote><br /> | 
+| 11 | No longer used. Items registered in this category appear in category 0 (All Control Panel Items). | "Mobile PC"<blockquote>[!Note]<br />This category is only visible on mobile PCs.</blockquote><br /> | Not used. | 
+
 
 
 

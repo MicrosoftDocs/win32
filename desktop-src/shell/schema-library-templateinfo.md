@@ -1,5 +1,5 @@
 ---
-description: The <templateInfo> element is a container for the folderType element, which specifies a folder type for displaying the results from a query over this library. This element is optional and has no attributes.
+description: The &lt;templateInfo&gt; element is a container for the folderType element, which specifies a folder type for displaying the results from a query over this library. This element is optional and has no attributes.
 ms.assetid: C555097A-E7B8-45ef-8CFA-19CFBC5E9D5A
 title: templateInfo Element (Library Schema)
 ms.topic: article
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # templateInfo Element (Library Schema)
 
-The <templateInfo> element is a container for the [folderType](schema-library-foldertype.md) element, which specifies a folder type for displaying the results from a query over this library. This element is optional and has no attributes.
+The &lt;templateInfo&gt; element is a container for the [folderType](schema-library-foldertype.md) element, which specifies a folder type for displaying the results from a query over this library. This element is optional and has no attributes.
 
 ## Syntax
 

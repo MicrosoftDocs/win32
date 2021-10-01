@@ -42,7 +42,7 @@ HKEY_LOCAL_MACHINE
                   {00000000-0000-0000-0000-000000000000} = REG_SZ
 ```
 
-where *<scheme>* is the URL scheme that the handler is designed to parse. The scheme includes the trailing ':' character; for example, "http:".
+where *&lt;scheme&gt;* is the URL scheme that the handler is designed to parse. The scheme includes the trailing ':' character; for example, "http:".
 
 To register a new scheme handler, add an entry whose name is the CLSID of the scheme handler, in canonical string form: `{xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx}`. The value of the entry is a string (REG\_SZ) containing a brief description of the handler, such as "My Scheme Handler." The important part of the entry is the CLSID. The source resolver creates the handler by calling **CoCreateInstance** with this CLSID.
 
@@ -79,7 +79,7 @@ HKEY_LOCAL_MACHINE
                   {00000000-0000-0000-0000-000000000000} = REG_SZ
 ```
 
-where *<ExtensionOrMimeType>* is the file name extension or MIME type. File extensions include the initial '.' character; for example, ".wmv".
+where *&lt;ExtensionOrMimeType&gt;* is the file name extension or MIME type. File extensions include the initial '.' character; for example, ".wmv".
 
 The file name extension is part of the URL, provided by the application. The MIME type might be available through the [**MF\_BYTESTREAM\_CONTENT\_TYPE**](mf-bytestream-content-type-attribute.md) attribute on the byte stream.
 

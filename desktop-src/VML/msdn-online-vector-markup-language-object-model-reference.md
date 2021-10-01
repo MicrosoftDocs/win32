@@ -87,7 +87,7 @@ In the above example, a shape is created by using the Document Object Model meth
 
 One implementation of VML is through Microsoft Internet Explorer 5.0 or greater. To set up the rendering object correctly in a Web page, the following additions must be made:
 
-1.  The schema must be set up in the initial <HTML> tag as follows:
+1.  The schema must be set up in the initial &lt;HTML&gt; tag as follows:
     ```HTML
     <HTML xmlns:v="urn:schemas-microsoft-com:vml">
     ```
@@ -246,8 +246,8 @@ Describes a 3-D extrusion of the shape.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -413,8 +413,8 @@ Describes how a path should be filled for fills more complex than a solid color.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -588,8 +588,8 @@ Defines the path that makes up the shape, using a string that contains a rich se
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -711,8 +711,8 @@ Describes a shadow effect on a shape.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -795,8 +795,8 @@ Describes how to draw the path if something beyond a solid line with a solid col
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -1115,8 +1115,8 @@ Specifies a color.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -1188,8 +1188,8 @@ Equations used for formulas.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -1467,8 +1467,8 @@ Specifies the offset of the skew.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -1528,8 +1528,8 @@ Specifies a two-dimensional vector consisting of two **Double** numbers.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -1576,8 +1576,8 @@ Specifies a three-dimensional vector consisting of three **Double** numbers.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">

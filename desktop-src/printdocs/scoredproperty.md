@@ -1,5 +1,5 @@
 ---
-description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: Find information about the ScoredProperty element. This topic isn't current. For the most current information, see the Print Schema Specification.
 ms.assetid: 0552d301-5105-490f-962b-135c8c2e936b
 title: ScoredProperty
 ms.topic: article
@@ -14,7 +14,7 @@ A ScoredProperty element declares a property that is intrinsic to an Option defi
 
 ## Element Tag
 
-<ScoredProperty>
+&lt;ScoredProperty&gt;
 
 ## XML Attributes
 

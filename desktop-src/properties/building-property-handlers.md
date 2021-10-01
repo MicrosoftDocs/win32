@@ -17,7 +17,7 @@ The following topics discuss the requirements and strategies involved in definin
 -   [Using Property Lists](./building-property-handlers-property-lists.md)
 -   [Initializing Property Handlers](./building-property-handlers-property-handlers.md)
 -   [Registering and Distributing Property Handlers](./prophand-reg-dist.md)
--   [Property Handler Best Practices and FAQ](./prophand-bestprac-faq.md)
+-   [Property Handler Best Practices and FAQ](./prophand-bestprac-faq.yml)
 
 ## Related topics
 

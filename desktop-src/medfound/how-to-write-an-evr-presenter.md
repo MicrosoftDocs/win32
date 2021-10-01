@@ -421,45 +421,15 @@ Here are some guidelines for implementing the methods in this interface. All of 
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><a href="/windows/desktop/api/mfidl/nf-mfidl-imfclockstatesink-onclockstart"><strong>OnClockStart</strong></a></td>
-<td><ol>
-<li>Set the presenter state to started.</li>
-<li>If the <em>llClockStartOffset</em> is not <strong>PRESENTATION_CURRENT_POSITION</strong>, flush the presenter's queue of samples. (This is equivalent to receiving an <strong>MFVP_MESSAGE_FLUSH</strong> message.)</li>
-<li>If a previous frame-step request is still pending, process the request (see <a href="#frame-stepping">Frame Stepping</a>). Otherwise, try to process output from the mixer (see <a href="#processing-output">Processing Output</a>.</li>
-</ol></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/mfidl/nf-mfidl-imfclockstatesink-onclockstop"><strong>OnClockStop</strong></a></td>
-<td><ol>
-<li>Set the presenter state to stopped.</li>
-<li>Flush the presenter's queue of samples.</li>
-<li>Cancel any pending frame-step operation.</li>
-</ol></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/mfidl/nf-mfidl-imfclockstatesink-onclockpause"><strong>OnClockPause</strong></a></td>
-<td>Set the presenter state to paused.</td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/mfidl/nf-mfidl-imfclockstatesink-onclockrestart"><strong>OnClockRestart</strong></a></td>
-<td>Treat the same as <a href="/windows/desktop/api/mfidl/nf-mfidl-imfclockstatesink-onclockstart"><strong>OnClockStart</strong></a> but do not flush the queue of samples.</td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/mfidl/nf-mfidl-imfclockstatesink-onclocksetrate"><strong>OnClockSetRate</strong></a></td>
-<td><ol>
-<li>If the rate is changing from zero to nonzero, cancel frame stepping.</li>
-<li>Store the new clock rate. The clock rate affects when samples are presented. For more information, see <a href="#scheduling-samples">Scheduling Samples</a>.</li>
-</ol></td>
-</tr>
-</tbody>
-</table>
+
+| 
+|
+| <a href="/windows/desktop/api/mfidl/nf-mfidl-imfclockstatesink-onclockstart"><strong>OnClockStart</strong></a> | <ol><li>Set the presenter state to started.</li><li>If the <em>llClockStartOffset</em> is not <strong>PRESENTATION_CURRENT_POSITION</strong>, flush the presenter's queue of samples. (This is equivalent to receiving an <strong>MFVP_MESSAGE_FLUSH</strong> message.)</li><li>If a previous frame-step request is still pending, process the request (see <a href="#frame-stepping">Frame Stepping</a>). Otherwise, try to process output from the mixer (see <a href="#processing-output">Processing Output</a>.</li></ol> | 
+| <a href="/windows/desktop/api/mfidl/nf-mfidl-imfclockstatesink-onclockstop"><strong>OnClockStop</strong></a> | <ol><li>Set the presenter state to stopped.</li><li>Flush the presenter's queue of samples.</li><li>Cancel any pending frame-step operation.</li></ol> | 
+| <a href="/windows/desktop/api/mfidl/nf-mfidl-imfclockstatesink-onclockpause"><strong>OnClockPause</strong></a> | Set the presenter state to paused. | 
+| <a href="/windows/desktop/api/mfidl/nf-mfidl-imfclockstatesink-onclockrestart"><strong>OnClockRestart</strong></a> | Treat the same as <a href="/windows/desktop/api/mfidl/nf-mfidl-imfclockstatesink-onclockstart"><strong>OnClockStart</strong></a> but do not flush the queue of samples. | 
+| <a href="/windows/desktop/api/mfidl/nf-mfidl-imfclockstatesink-onclocksetrate"><strong>OnClockSetRate</strong></a> | <ol><li>If the rate is changing from zero to nonzero, cancel frame stepping.</li><li>Store the new clock rate. The clock rate affects when samples are presented. For more information, see <a href="#scheduling-samples">Scheduling Samples</a>.</li></ol> | 
+
 
 
 
@@ -471,7 +441,7 @@ To support playback rates other than 1× speed, the presenter must implement the
 
 
 
-|                                                           |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| Value                                                          | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 |-----------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**GetSlowestRate**](/windows/desktop/api/mfidl/nf-mfidl-imfratesupport-getslowestrate)   | Return zero to indicate no minimum playback rate.                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 | [**GetFastestRate**](/windows/desktop/api/mfidl/nf-mfidl-imfratesupport-getfastestrate)   | For non-thinned playback, the playback rate should not exceed the refresh rate of the monitor: *maximum rate* = *refresh rate* (Hz) / *video frame rate* (fps). The video frame rate is specified in the presenter's media type. <br/> For thinned playback, the playback rate is unbounded; return the value **FLT_MAX**. In practice, the source and the decoder will be the limiting factors during thinned playback. <br/> For reverse playback, return the negative of the maximum rate.<br/> |
@@ -594,86 +564,17 @@ The following table lists the events that the presenter sends, along with the ev
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Event</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="/windows/desktop/DirectShow/ec-complete"><strong>EC_COMPLETE</strong></a></td>
-<td>The presenter has finished rendering all frames after the MFVP_MESSAGE_ENDOFSTREAM message.<br/>
-<ul>
-<li><em>Param1</em>: HRESULT indicating the status of the operation.</li>
-<li><em>Param2</em>: Not used.</li>
-</ul>
-For more information, see <a href="#end-of-stream">End of Stream</a>.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/DirectShow/ec-display-changed"><strong>EC_DISPLAY_CHANGED</strong></a></td>
-<td>The Direct3D device has changed.<br/>
-<ul>
-<li><em>Param1</em>: Not used.</li>
-<li><em>Param2</em>: Not used.</li>
-</ul>
-For more information, see <a href="#managing-the-direct3d-device">Managing the Direct3D Device</a>.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/DirectShow/ec-errorabort"><strong>EC_ERRORABORT</strong></a></td>
-<td>An error has occurred that requires streaming to stop.<br/>
-<ul>
-<li><em>Param1</em>: <strong>HRESULT</strong> indicating the error that occurred.</li>
-<li><em>Param2</em>: Not used.</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/DirectShow/ec-processing-latency"><strong>EC_PROCESSING_LATENCY</strong></a></td>
-<td>Specifies the amount of time that the presenter is taking to render each frame. (Optional.)<br/>
-<ul>
-<li><em>Param1</em>: Pointer to a constant <strong>LONGLONG</strong> value that contains the amount of time to process the frame, in 100-nanosecond units.</li>
-<li><em>Param2</em>: Not used.</li>
-</ul>
-For more information, see <a href="#processing-output">Processing Output</a>.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/DirectShow/ec-sample-latency"><strong>EC_SAMPLE_LATENCY</strong></a></td>
-<td>Specifies the current lag time in rendering samples. If the value is positive, samples are behind schedule. If the value is negative, samples are ahead of schedule. (Optional.)<br/>
-<ul>
-<li><em>Param1</em>: Pointer to a constant <strong>LONGLONG</strong> value that contains the lag time, in 100-nanosecond units.</li>
-<li><em>Param2</em>: Not used.</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/DirectShow/ec-scrub-time"><strong>EC_SCRUB_TIME</strong></a></td>
-<td>Sent immediately after <strong>EC_STEP_COMPLETE</strong> if the playback rate is zero. This event contains the time stamp of the frame that was displayed.<br/>
-<ul>
-<li><em>Param1</em>: Lower 32 bits of the time stamp.</li>
-<li><em>Param2</em>: Upper 32 bits of the time stamp.</li>
-</ul>
-For more information, see <a href="#frame-stepping">Frame Stepping</a>.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/DirectShow/ec-step-complete"><strong>EC_STEP_COMPLETE</strong></a></td>
-<td>The presenter has completed or canceled a frame step.<br/>
-<ul>
-<li><em>Param1</em>: Not used.</li>
-<li><em>Param2</em>: Not used.</li>
-</ul>
-For more information, see <a href="#frame-stepping">Frame Stepping</a>.<br/>
-<blockquote>
-[!Note]<br />
-A previous version of the documentation described <em>Param1</em> incorrectly. This parameter is not used for this event.
-</blockquote>
-<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Event | Description | 
+|-------|-------------|
+| <a href="/windows/desktop/DirectShow/ec-complete"><strong>EC_COMPLETE</strong></a> | The presenter has finished rendering all frames after the MFVP_MESSAGE_ENDOFSTREAM message.<br /><ul><li><em>Param1</em>: HRESULT indicating the status of the operation.</li><li><em>Param2</em>: Not used.</li></ul>For more information, see <a href="#end-of-stream">End of Stream</a>.<br /> | 
+| <a href="/windows/desktop/DirectShow/ec-display-changed"><strong>EC_DISPLAY_CHANGED</strong></a> | The Direct3D device has changed.<br /><ul><li><em>Param1</em>: Not used.</li><li><em>Param2</em>: Not used.</li></ul>For more information, see <a href="#managing-the-direct3d-device">Managing the Direct3D Device</a>.<br /> | 
+| <a href="/windows/desktop/DirectShow/ec-errorabort"><strong>EC_ERRORABORT</strong></a> | An error has occurred that requires streaming to stop.<br /><ul><li><em>Param1</em>: <strong>HRESULT</strong> indicating the error that occurred.</li><li><em>Param2</em>: Not used.</li></ul> | 
+| <a href="/windows/desktop/DirectShow/ec-processing-latency"><strong>EC_PROCESSING_LATENCY</strong></a> | Specifies the amount of time that the presenter is taking to render each frame. (Optional.)<br /><ul><li><em>Param1</em>: Pointer to a constant <strong>LONGLONG</strong> value that contains the amount of time to process the frame, in 100-nanosecond units.</li><li><em>Param2</em>: Not used.</li></ul>For more information, see <a href="#processing-output">Processing Output</a>.<br /> | 
+| <a href="/windows/desktop/DirectShow/ec-sample-latency"><strong>EC_SAMPLE_LATENCY</strong></a> | Specifies the current lag time in rendering samples. If the value is positive, samples are behind schedule. If the value is negative, samples are ahead of schedule. (Optional.)<br /><ul><li><em>Param1</em>: Pointer to a constant <strong>LONGLONG</strong> value that contains the lag time, in 100-nanosecond units.</li><li><em>Param2</em>: Not used.</li></ul> | 
+| <a href="/windows/desktop/DirectShow/ec-scrub-time"><strong>EC_SCRUB_TIME</strong></a> | Sent immediately after <strong>EC_STEP_COMPLETE</strong> if the playback rate is zero. This event contains the time stamp of the frame that was displayed.<br /><ul><li><em>Param1</em>: Lower 32 bits of the time stamp.</li><li><em>Param2</em>: Upper 32 bits of the time stamp.</li></ul>For more information, see <a href="#frame-stepping">Frame Stepping</a>.<br /> | 
+| <a href="/windows/desktop/DirectShow/ec-step-complete"><strong>EC_STEP_COMPLETE</strong></a> | The presenter has completed or canceled a frame step.<br /><ul><li><em>Param1</em>: Not used.</li><li><em>Param2</em>: Not used.</li></ul>For more information, see <a href="#frame-stepping">Frame Stepping</a>.<br /><blockquote>[!Note]<br />A previous version of the documentation described <em>Param1</em> incorrectly. This parameter is not used for this event.</blockquote><br /> | 
+
 
 
 

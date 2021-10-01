@@ -49,7 +49,7 @@ Pointer\_attributes<1> can have any of the flags shown in the following table.
 
 
 
-| Flag | Description              |                                                                                                                                                                                                                                       |
+| Attribute | Flag              | Description                                                                                                                                                                                                                                      |
 |------|--------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 01   | FC\_ALLOCATE\_ALL\_NODES | The pointer is a part of an allocate(all\_nodes) allocation scheme.                                                                                                                                                                   |
 | 02   | FC\_DONT\_FREE           | An allocate(dont\_free) pointer.                                                                                                                                                                                                      |

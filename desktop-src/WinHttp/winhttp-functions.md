@@ -19,6 +19,13 @@ Adds one or more HTTP request headers to the HTTP request handle.
 
 </dd> <dt>
 
+[**WinHttpAddRequestHeadersEx**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpaddrequestheadersex)
+</dt> <dd>
+
+Adds one or more HTTP request headers to an HTTP request handle, allowing you to use separate name/value strings.
+
+</dd> <dt>
+
 [**WinHttpCheckPlatform**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpcheckplatform)
 </dt> <dd>
 
@@ -159,6 +166,13 @@ Retrieves header information associated with an HTTP request.
 
 </dd> <dt>
 
+[**WinHttpQueryHeadersEx**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpqueryheadersex)
+</dt> <dd>
+
+Retrieves header information associated with an HTTP request; offers a way to retrieve parsed header name and value strings.
+
+</dd> <dt>
+
 [**WinHttpQueryOption**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpqueryoption)
 </dt> <dd>
 
@@ -167,6 +181,13 @@ Queries an Internet option on the specified handle.
 </dd> <dt>
 
 [**WinHttpReadData**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpreaddata)
+</dt> <dd>
+
+Reads data from a handle opened by the [**WinHttpOpenRequest**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpopenrequest) function.
+
+</dd> <dt>
+
+[**WinHttpReadDataEx**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpreaddataex)
 </dt> <dd>
 
 Reads data from a handle opened by the [**WinHttpOpenRequest**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpopenrequest) function.
@@ -292,6 +313,4 @@ Sends a close frame to a WebSocket connection.
 
 </dd> </dl>
 
- 
 
- 

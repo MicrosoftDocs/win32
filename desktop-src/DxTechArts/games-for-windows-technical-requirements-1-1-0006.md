@@ -248,63 +248,14 @@ The GDF for a game provider typically contains no rating information, and it is 
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Operating System</th>
-<th>Supported rating systems</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Windows Vista</td>
-<td><ul>
-<li>CERO (Japan)</li>
-<li>ESRB (USA)</li>
-<li>OFLC (Australia)</li>
-<li>PEGI (Europe)</li>
-<li>PEGI Finland (deprecated)</li>
-<li>PEGI Portugal</li>
-<li>PEGI/BBFC (United Kingdom)</li>
-<li>USK (Germany)</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>Windows Vista with a service pack</td>
-<td>Service packs for Windows Vista add support for the following:<br/>
-<ul>
-<li>GRB (South Korea)</li>
-<li>ESRB &quot;Mild&quot; variant content descriptors</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>Windows 7</td>
-<td>Windows 7 supports the ratings systems supported by Windows Vista and adds support for the following: <br/>
-<ul>
-<li>CSRR (Taiwan)</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>Windows 8</td>
-<td>Windows 8 supports the previous ratings systems and adds support for the following:<br/>
-<ul>
-<li>COB-AU (Australia)</li>
-<li>DJCTQ (Brazil)</li>
-<li>PFB (South Africa)</li>
-<li>OFLC-NZ (New Zealand)</li>
-</ul>
-Windows 8 retires support for the following now deprecated systems:<br/>
-<ul>
-<li>PEGI-FI (Finland)</li>
-<li>OFLC (Australia)</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| Operating System | Supported rating systems | 
+|------------------|--------------------------|
+| Windows Vista | <ul><li>CERO (Japan)</li><li>ESRB (USA)</li><li>OFLC (Australia)</li><li>PEGI (Europe)</li><li>PEGI Finland (deprecated)</li><li>PEGI Portugal</li><li>PEGI/BBFC (United Kingdom)</li><li>USK (Germany)</li></ul> | 
+| Windows Vista with a service pack | Service packs for Windows Vista add support for the following:<br /><ul><li>GRB (South Korea)</li><li>ESRB "Mild" variant content descriptors</li></ul> | 
+| Windows 7 | Windows 7 supports the ratings systems supported by Windows Vista and adds support for the following: <br /><ul><li>CSRR (Taiwan)</li></ul> | 
+| Windows 8 | Windows 8 supports the previous ratings systems and adds support for the following:<br /><ul><li>COB-AU (Australia)</li><li>DJCTQ (Brazil)</li><li>PFB (South Africa)</li><li>OFLC-NZ (New Zealand)</li></ul>Windows 8 retires support for the following now deprecated systems:<br /><ul><li>PEGI-FI (Finland)</li><li>OFLC (Australia)</li></ul> | 
+
 
 
 
@@ -446,7 +397,7 @@ Use of versions of Direct3D newer than Direct3D 9 is strongly encouraged. See th
 
 Games and their installers must run correctly without visual problems when dots-per-inch (DPI) scaling is enabled (tested with 144 DPI for 150% scaling at display resolution of 1600 1200) on Windows Vista and Windows 7.
 
-This typically requires the game executable to declare being DPI-aware. This is accomplished by embedding a manifest element: <dpiAware>true<dpiAware> .
+This typically requires the game executable to declare being DPI-aware. This is accomplished by embedding a manifest element: &lt;dpiAware&gt;true&lt;dpiAware&gt; .
 
 </dd> <dt>
 
@@ -1124,26 +1075,26 @@ For more information about the Windows Error Reporting APIs, and how to analyze 
 
 
 
-|                                          |                                                                                                  |
+| Name                                          | Description                                                                                                 |
 |------------------------------------------|--------------------------------------------------------------------------------------------------|
-| A                                        | The A button                                                                                     |
-| B                                        | The B button                                                                                     |
-| BACK                                     | The Back button                                                                                  |
+| A                                        | The A button.                                                                                     |
+| B                                        | The B button.                                                                                     |
+| BACK                                     | The Back button.                                                                                  |
 | (right/left) bumper                      | The button at the top right and left edge of the controller. Equivalent to a shoulder button.    |
-| directional pad                          | The controller directional pad                                                                   |
-| D-pad                                    | Accepted abbreviation of directional pad                                                         |
-| DP                                       | Directional pad abbreviation and controller label                                                |
-| RB, LB                                   | Right and left bumper abbreviations and controller labels                                        |
-| RS, LS                                   | Right and left stick abbreviations and controller labels                                         |
-| RT, LT                                   | Right and left trigger abbreviations and controller labels                                       |
-| RSB, LSB                                 | Right and left stick abbreviations and controller labels                                         |
-| START                                    | The Start button                                                                                 |
+| directional pad                          | The controller directional pad.                                                                   |
+| D-pad                                    | Accepted abbreviation of directional pad.                                                         |
+| DP                                       | Directional pad abbreviation and controller label.                                                |
+| RB, LB                                   | Right and left bumper abbreviations and controller labels.                                        |
+| RS, LS                                   | Right and left stick abbreviations and controller labels.                                         |
+| RT, LT                                   | Right and left trigger abbreviations and controller labels.                                       |
+| RSB, LSB                                 | Right and left stick abbreviations and controller labels.                                         |
+| START                                    | The Start button.                                                                                 |
 | (right/left) stick                       | The controller stick. Formerly thumbstick.                                                       |
 | (right/left) stick button                | The controller stick button. Formerly thumbstick button.                                         |
 | (right/left) trigger                     | The controller trigger.                                                                          |
 | Vibration                                | Gameplay feedback produced by the controller motor. Do not use rumble.                           |
-| X                                        | The X button                                                                                     |
-| Y                                        | The Y button                                                                                     |
+| X                                        | The X button.                                                                                     |
+| Y                                        | The Y button.                                                                                     |
 | Xbox 360 Controller for Windows          | The Xbox 360 gamepad sold as a PC hardware SKU, including a Windows device driver disc.          |
 | Xbox 360 Wireless Controller for Windows | The Xbox 360 wireless gamepad sold as a PC hardware SKU, including a Windows device driver disc. |
 

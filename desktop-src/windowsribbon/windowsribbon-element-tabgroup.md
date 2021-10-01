@@ -34,10 +34,10 @@ Represents a contextual set of [Tab](windowsribbon-controls-tabgroup.md) control
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col  />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">

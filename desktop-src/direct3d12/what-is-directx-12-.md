@@ -19,7 +19,7 @@ Direct3D 12, and Direct3D 11.3, introduce a set of new features for the renderi
 
 - [Conservative rasterization](../direct3d11/conservative-rasterization.md) to enable reliable hit detection.
 - [Volume tiled resources](../direct3d11/volume-tiled-resources.md) to enable streamed three-dimensional resources to be treated as if they were all in video memory.
-- [Rasterizer-ordered views](../direct3d11/volume-tiled-resources.md) to enable reliable transparency rendering.
+- [Rasterizer-ordered views](../direct3d11/rasterizer-order-views.md) to enable reliable transparency rendering.
 - Setting the stencil reference within a shader to enable special shadowing and other effects.
 - Improved texture mapping and typed unordered access view (UAV) loads.
 

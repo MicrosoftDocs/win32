@@ -43,61 +43,19 @@ Set the following attributes on the output media type.
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Attribute</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="mf-mt-major-type-attribute.md"><strong>MF_MT_MAJOR_TYPE</strong></a></td>
-<td>Major type. Must be <strong>MFMediaType_Video</strong>.</td>
-</tr>
-<tr class="even">
-<td><a href="mf-mt-subtype-attribute.md"><strong>MF_MT_SUBTYPE</strong></a></td>
-<td>Video subtype. Must be <strong>MFVideoFormat_H264</strong>.</td>
-</tr>
-<tr class="odd">
-<td><a href="mf-mt-avg-bitrate-attribute.md"><strong>MF_MT_AVG_BITRATE</strong></a></td>
-<td>Average encoded bit rate, in bits per second. Must be greater than zero.</td>
-</tr>
-<tr class="even">
-<td><a href="mf-mt-frame-rate-attribute.md"><strong>MF_MT_FRAME_RATE</strong></a></td>
-<td>Frame rate.</td>
-</tr>
-<tr class="odd">
-<td><a href="mf-mt-frame-size-attribute.md"><strong>MF_MT_FRAME_SIZE</strong></a></td>
-<td>Frame size.</td>
-</tr>
-<tr class="even">
-<td><a href="mf-mt-interlace-mode-attribute.md"><strong>MF_MT_INTERLACE_MODE</strong></a></td>
-<td>Interlace mode.</td>
-</tr>
-<tr class="odd">
-<td><a href="mf-mt-mpeg2-profile-attribute.md"><strong>MF_MT_MPEG2_PROFILE</strong></a></td>
-<td>H.264 encoding profile.<br/> The supported values are:<br/>
-<ul>
-<li><strong>eAVEncH264VProfile_Base</strong> (default)</li>
-<li><strong>eAVEncH264VProfile_Main</strong></li>
-<li><strong>eAVEncH264VProfile_High</strong> (requires Windows 8)</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td><a href="mf-mt-mpeg2-level-attribute.md"><strong>MF_MT_MPEG2_LEVEL</strong></a></td>
-<td>Optional. Specifies the H.264 encoding level.<br/> The default value is –1, indicating that the encoder will select the encoding level.<br/> It is recommended not to set the level in the media type, and allow the encoder to select the level. The encoder can derive the proper level for a given video stream, taking into account the format constraints and the characteristics of the video. For more information about profile and level constraints, refer to Annex A of ITU-T H.264.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="mf-mt-pixel-aspect-ratio-attribute.md"><strong>MF_MT_PIXEL_ASPECT_RATIO</strong></a></td>
-<td>Optional. Specifies the pixel aspect ratio. The default value is 1:1.</td>
-</tr>
-</tbody>
-</table>
+
+| Attribute | Description | 
+|-----------|-------------|
+| <a href="mf-mt-major-type-attribute.md"><strong>MF_MT_MAJOR_TYPE</strong></a> | Major type. Must be <strong>MFMediaType_Video</strong>. | 
+| <a href="mf-mt-subtype-attribute.md"><strong>MF_MT_SUBTYPE</strong></a> | Video subtype. Must be <strong>MFVideoFormat_H264</strong>. | 
+| <a href="mf-mt-avg-bitrate-attribute.md"><strong>MF_MT_AVG_BITRATE</strong></a> | Average encoded bit rate, in bits per second. Must be greater than zero. | 
+| <a href="mf-mt-frame-rate-attribute.md"><strong>MF_MT_FRAME_RATE</strong></a> | Frame rate. | 
+| <a href="mf-mt-frame-size-attribute.md"><strong>MF_MT_FRAME_SIZE</strong></a> | Frame size. | 
+| <a href="mf-mt-interlace-mode-attribute.md"><strong>MF_MT_INTERLACE_MODE</strong></a> | Interlace mode. | 
+| <a href="mf-mt-mpeg2-profile-attribute.md"><strong>MF_MT_MPEG2_PROFILE</strong></a> | H.264 encoding profile.<br /> The supported values are:<br /><ul><li><strong>eAVEncH264VProfile_Base</strong> (default)</li><li><strong>eAVEncH264VProfile_Main</strong></li><li><strong>eAVEncH264VProfile_High</strong> (requires Windows 8)</li></ul> | 
+| <a href="mf-mt-mpeg2-level-attribute.md"><strong>MF_MT_MPEG2_LEVEL</strong></a> | Optional. Specifies the H.264 encoding level.<br /> The default value is –1, indicating that the encoder will select the encoding level.<br /> It is recommended not to set the level in the media type, and allow the encoder to select the level. The encoder can derive the proper level for a given video stream, taking into account the format constraints and the characteristics of the video. For more information about profile and level constraints, refer to Annex A of ITU-T H.264.<br /> | 
+| <a href="mf-mt-pixel-aspect-ratio-attribute.md"><strong>MF_MT_PIXEL_ASPECT_RATIO</strong></a> | Optional. Specifies the pixel aspect ratio. The default value is 1:1. | 
+
 
 
 
@@ -128,97 +86,25 @@ The following properties require Windows 8.
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Property</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="codecapi-avencadaptivemode.md">CODECAPI_AVEncAdaptiveMode</a></td>
-<td>Sets the adaptive encoding mode. The H.264 encoder supports the following modes in Windows 8:
-<ul>
-<li><strong>eAVEncAdaptiveMode_None</strong>. No adaptive encoding. (Default.)</li>
-<li><strong>eAVEncAdaptiveMode_FrameRate</strong>. Adaptively change the frame rate.</li>
-</ul>
-<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/DirectShow/avenccommonbuffersize-property">CODECAPI_AVEncCommonBufferSize</a></td>
-<td>Sets the buffer size, in bytes, for constant bit rate (CBR) encoding.<br/> The valid range is [1 ... 2³²–1]. <br/> Requires Windows 8. <br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/DirectShow/avenccommonmaxbitrate-property">CODECAPI_AVEncCommonMaxBitRate</a></td>
-<td>For constrained VBR encoding, specifies the rate at which the &quot;leaky bucket&quot; is drained, in bits per second. This property applies when the rate control mode is <strong>eAVEncCommonRateControlMode_PeakConstrainedVBR</strong>. <br/> The valid range is [1 ... 2³²–1]. <br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/DirectShow/avenccommonmeanbitrate-property">CODECAPI_AVEncCommonMeanBitRate</a></td>
-<td>Sets the average bit rate for the encoded bit stream, in bits per second. This property is ignored if the rate control mode is <strong>eAVEncCommonRateControlMode_Quality</strong>. <br/> The valid range is [1 ... 2³²–1]. <br/> In CBR and unconstrained VBR modes, the average bit rate determines the final size of the file. In CBR mode, the average bit rate is also the rate at which compressed bits are drained from the &quot;leaky bucket.&quot; (For more information, see <a href="the-leaky-bucket-buffer-model.md">The Leaky Bucket Buffer Model</a>.) <br/> In Windows 7, the average bit rate is specified by the <a href="mf-mt-avg-bitrate-attribute.md">MF_MT_AVG_BITRATE</a> attribute on the media type. <br/> In Windows 8, you can set the average bit rate using either the <a href="mf-mt-avg-bitrate-attribute.md">MF_MT_AVG_BITRATE</a> attribute or the <a href="/windows/desktop/DirectShow/avenccommonmeanbitrate-property">CODECAPI_AVEncCommonMeanBitRate</a> property. If both are set, CODECAPI_AVEncCommonMeanBitRate overrides. In Windows 8, you can set the average bit rate during encoding. If the bit rate changes, the encoder uses adaptive encoding.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/DirectShow/avenccommonqualityvsspeed-property">CODECAPI_AVEncCommonQualityVsSpeed</a></td>
-<td>Sets the quality/speed tradeoff. Valid range:
-<ul>
-<li>0–33: Low complexity</li>
-<li>34–66: Medium complexity (default)</li>
-<li>67–100: High complexity</li>
-</ul>
-<br/> This value affects how the encoder performs various encoding operations, such as motion compensation. At higher complexity levels, the encoder runs more slowly but produces better quality at the same bit rate.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="codecapi-avench264cabacenable.md">CODECAPI_AVEncH264CABACEnable</a></td>
-<td>Enables or disables CABAC (context-adaptive binary arithmetic coding) for H.264 entropy coding. The default value is <strong>VARIANT_FALSE</strong>. <br/> CABAC is not used for Baseline profile.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="codecapi-avench264spsid.md">CODECAPI_AVEncH264SPSID</a></td>
-<td>Sets the value of <strong>seq_parameter_set_id</strong> in the SPS NAL unit of the H.264 bitstream. <br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/DirectShow/avencmpvdefaultbpicturecount-property">CODECAPI_AVEncMPVDefaultBPictureCount</a></td>
-<td>Sets the maximum number of consecutive B frames in the output bitstream. Valid values are:
-<ul>
-<li>0: Do not use B frames (default).</li>
-<li>1: Use one B frame.</li>
-<li>2: Use two B frames.</li>
-</ul>
-To set this parameter, set the property before calling <a href="/windows/desktop/api/mftransform/nf-mftransform-imftransform-setoutputtype"><strong>IMFTransform::SetOutputType</strong></a>. <br/> For Baseline profile, the number of B frames is always zero. The encoder will override nonzero values.<br/> For other H.264 profiles, if this property is nonzero, the encoding pattern is IBBPBBP, where the maximum number of consecutive B frames is equal to <a href="/windows/desktop/DirectShow/avencmpvdefaultbpicturecount-property">CODECAPI_AVEncMPVDefaultBPictureCount</a>. <br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/DirectShow/avencmpvgopsize-property">CODECAPI_AVEncMPVGOPSize</a></td>
-<td>Sets the number of pictures from one GOP header to the next, including the leading anchor but not the following one. <br/> The valid range is [0 ... 2³²–1]. If zero, the encoder selects the GOP size. The default value is zero. <br/></td>
-</tr>
-<tr class="even">
-<td><a href="codecapi-avencnumworkerthreads.md">CODECAPI_AVEncNumWorkerThreads</a></td>
-<td>Sets the number of worker threads used by a encoder.<br/> The valid range is 0–16. If zero, the encoder selects the number of threads. <br/></td>
-</tr>
-<tr class="odd">
-<td><a href="codecapi-avencvideocontenttype.md">CODECAPI_AVEncVideoContentType</a></td>
-<td>Indicates the type of video content.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="codecapi-avencvideoencodeqp.md">CODECAPI_AVEncVideoEncodeQP</a></td>
-<td>Valid range: 16–51. The default value is 24. <br/> This property applies when the rate control mode is <strong>eAVEncCommonRateControlMode_Quality</strong>. <br/> This property configures the same encoding setting as <a href="/windows/desktop/DirectShow/avenccommonquality-property"><strong>AVEncCommonQuality</strong></a>. However, <a href="codecapi-avencvideoencodeqp.md">AVEncVideoEncodeQP</a> enables the application to specify the value of QP directly. If both properties are set, AVEncVideoEncodeQP overrides. <br/> The default value of 24 corresponds to the default value of 70 for the <a href="/windows/desktop/DirectShow/avenccommonquality-property"><strong>AVEncCommonQuality</strong></a> setting.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="codecapi-avencvideoforcekeyframe.md">CODECAPI_AVEncVideoForceKeyFrame</a></td>
-<td>Forces the encoder to code the next frame as a key frame.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="codecapi-avencvideominqp.md">CODECAPI_AVEncVideoMinQP</a></td>
-<td>Valid range: 0–51. The default value is 0. <br/> This property applies to all rate control modes. The encoder should not produce a QP value lower than what is specified by the <a href="codecapi-avencvideominqp.md">CODECAPI_AVEncVideoMinQP</a> property.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="codecapi-avlowlatencymode.md">CODECAPI_AVLowLatencyMode</a></td>
-<td>Enables or disables low-latency mode. See &quot;Multithreading&quot; in the Remarks section.<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Property | Description | 
+|----------|-------------|
+| <a href="codecapi-avencadaptivemode.md">CODECAPI_AVEncAdaptiveMode</a> | Sets the adaptive encoding mode. The H.264 encoder supports the following modes in Windows 8:<ul><li><strong>eAVEncAdaptiveMode_None</strong>. No adaptive encoding. (Default.)</li><li><strong>eAVEncAdaptiveMode_FrameRate</strong>. Adaptively change the frame rate.</li></ul><br /> | 
+| <a href="/windows/desktop/DirectShow/avenccommonbuffersize-property">CODECAPI_AVEncCommonBufferSize</a> | Sets the buffer size, in bytes, for constant bit rate (CBR) encoding.<br /> The valid range is [1 ... 2³²–1]. <br /> Requires Windows 8. <br /> | 
+| <a href="/windows/desktop/DirectShow/avenccommonmaxbitrate-property">CODECAPI_AVEncCommonMaxBitRate</a> | For constrained VBR encoding, specifies the rate at which the "leaky bucket" is drained, in bits per second. This property applies when the rate control mode is <strong>eAVEncCommonRateControlMode_PeakConstrainedVBR</strong>. <br /> The valid range is [1 ... 2³²–1]. <br /> | 
+| <a href="/windows/desktop/DirectShow/avenccommonmeanbitrate-property">CODECAPI_AVEncCommonMeanBitRate</a> | Sets the average bit rate for the encoded bit stream, in bits per second. This property is ignored if the rate control mode is <strong>eAVEncCommonRateControlMode_Quality</strong>. <br /> The valid range is [1 ... 2³²–1]. <br /> In CBR and unconstrained VBR modes, the average bit rate determines the final size of the file. In CBR mode, the average bit rate is also the rate at which compressed bits are drained from the "leaky bucket." (For more information, see <a href="the-leaky-bucket-buffer-model.md">The Leaky Bucket Buffer Model</a>.) <br /> In Windows 7, the average bit rate is specified by the <a href="mf-mt-avg-bitrate-attribute.md">MF_MT_AVG_BITRATE</a> attribute on the media type. <br /> In Windows 8, you can set the average bit rate using either the <a href="mf-mt-avg-bitrate-attribute.md">MF_MT_AVG_BITRATE</a> attribute or the <a href="/windows/desktop/DirectShow/avenccommonmeanbitrate-property">CODECAPI_AVEncCommonMeanBitRate</a> property. If both are set, CODECAPI_AVEncCommonMeanBitRate overrides. In Windows 8, you can set the average bit rate during encoding. If the bit rate changes, the encoder uses adaptive encoding.<br /> | 
+| <a href="/windows/desktop/DirectShow/avenccommonqualityvsspeed-property">CODECAPI_AVEncCommonQualityVsSpeed</a> | Sets the quality/speed tradeoff. Valid range:<ul><li>0–33: Low complexity</li><li>34–66: Medium complexity (default)</li><li>67–100: High complexity</li></ul><br /> This value affects how the encoder performs various encoding operations, such as motion compensation. At higher complexity levels, the encoder runs more slowly but produces better quality at the same bit rate.<br /> | 
+| <a href="codecapi-avench264cabacenable.md">CODECAPI_AVEncH264CABACEnable</a> | Enables or disables CABAC (context-adaptive binary arithmetic coding) for H.264 entropy coding. The default value is <strong>VARIANT_FALSE</strong>. <br /> CABAC is not used for Baseline profile.<br /> | 
+| <a href="codecapi-avench264spsid.md">CODECAPI_AVEncH264SPSID</a> | Sets the value of <strong>seq_parameter_set_id</strong> in the SPS NAL unit of the H.264 bitstream. <br /> | 
+| <a href="/windows/desktop/DirectShow/avencmpvdefaultbpicturecount-property">CODECAPI_AVEncMPVDefaultBPictureCount</a> | Sets the maximum number of consecutive B frames in the output bitstream. Valid values are:<ul><li>0: Do not use B frames (default).</li><li>1: Use one B frame.</li><li>2: Use two B frames.</li></ul>To set this parameter, set the property before calling <a href="/windows/desktop/api/mftransform/nf-mftransform-imftransform-setoutputtype"><strong>IMFTransform::SetOutputType</strong></a>. <br /> For Baseline profile, the number of B frames is always zero. The encoder will override nonzero values.<br /> For other H.264 profiles, if this property is nonzero, the encoding pattern is IBBPBBP, where the maximum number of consecutive B frames is equal to <a href="/windows/desktop/DirectShow/avencmpvdefaultbpicturecount-property">CODECAPI_AVEncMPVDefaultBPictureCount</a>. <br /> | 
+| <a href="/windows/desktop/DirectShow/avencmpvgopsize-property">CODECAPI_AVEncMPVGOPSize</a> | Sets the number of pictures from one GOP header to the next, including the leading anchor but not the following one. <br /> The valid range is [0 ... 2³²–1]. If zero, the encoder selects the GOP size. The default value is zero. <br /> | 
+| <a href="codecapi-avencnumworkerthreads.md">CODECAPI_AVEncNumWorkerThreads</a> | Sets the number of worker threads used by a encoder.<br /> The valid range is 0–16. If zero, the encoder selects the number of threads. <br /> | 
+| <a href="codecapi-avencvideocontenttype.md">CODECAPI_AVEncVideoContentType</a> | Indicates the type of video content.<br /> | 
+| <a href="codecapi-avencvideoencodeqp.md">CODECAPI_AVEncVideoEncodeQP</a> | Valid range: 16–51. The default value is 24. <br /> This property applies when the rate control mode is <strong>eAVEncCommonRateControlMode_Quality</strong>. <br /> This property configures the same encoding setting as <a href="/windows/desktop/DirectShow/avenccommonquality-property"><strong>AVEncCommonQuality</strong></a>. However, <a href="codecapi-avencvideoencodeqp.md">AVEncVideoEncodeQP</a> enables the application to specify the value of QP directly. If both properties are set, AVEncVideoEncodeQP overrides. <br /> The default value of 24 corresponds to the default value of 70 for the <a href="/windows/desktop/DirectShow/avenccommonquality-property"><strong>AVEncCommonQuality</strong></a> setting.<br /> | 
+| <a href="codecapi-avencvideoforcekeyframe.md">CODECAPI_AVEncVideoForceKeyFrame</a> | Forces the encoder to code the next frame as a key frame.<br /> | 
+| <a href="codecapi-avencvideominqp.md">CODECAPI_AVEncVideoMinQP</a> | Valid range: 0–51. The default value is 0. <br /> This property applies to all rate control modes. The encoder should not produce a QP value lower than what is specified by the <a href="codecapi-avencvideominqp.md">CODECAPI_AVEncVideoMinQP</a> property.<br /> | 
+| <a href="codecapi-avlowlatencymode.md">CODECAPI_AVLowLatencyMode</a> | Enables or disables low-latency mode. See "Multithreading" in the Remarks section.<br /> | 
+
 
 
 

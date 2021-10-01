@@ -75,37 +75,13 @@ The following table lists registry configuration values.
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Registry Value</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>EnableKernelSSL</td>
-<td><strong>Windows Server 2008 and Windows Vista:</strong> This registry value is obsolete.<br/></td>
-</tr>
-<tr class="even">
-<td>EnableSslCloseNotify</td>
-<td>A <strong>DWORD</strong> value that is set to <strong>TRUE</strong> to enable close-notify, or <strong>FALSE</strong> to disable the close-notify requirement. Close-notify is disabled by default.<br/> When close-notify is enabled, the client application is required to send a close-notify message before closing TCP connections. The HTTP Server API also sends a close-notify before closing the connection.<br/> When close-notify is enabled, and the client sends a close-notify message, the HTTP Server API will reuse the SSL session on future connections to the client. If the client does not send a close-notify, the HTTP Server API will not reuse the same SSL session on future connections. Thus, a full SSL handshake is triggered on the new connection thereby reducing performance. <br/>
-<blockquote>
-[!Note]<br />
-Enabling close-notify helps mitigate truncation attacks against the HTTPS requests and responses.
-</blockquote>
-<br/> <br/> When close-notify is disabled, the HTTP Server API reuses the SSL session for future connections.<br/></td>
-</tr>
-<tr class="odd">
-<td>DisableSslCertChainCacheOnlyUrlRetrieval</td>
-<td>A <strong>DWORD</strong> value that is set to <strong>TRUE</strong> to enable the HTTP Server API to retrieve intermediate certificates from either the Internet, or the local store, or <strong>FALSE</strong> to retrieve intermediate certificates from the local store only. The default registry value is <strong>FALSE</strong>.<br/> By default, the HTTP Server API builds a client certificate chain by retrieving the intermediate certificates from the Intermediate Certificate Authority store under the local machine account. Setting this value to <strong>TRUE</strong> enables the HTTP Server API to retrieve the intermediate certificates not only from the local store, but also from the Intermediate Certificate Authority on the Internet.<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Registry Value | Description | 
+|----------------|-------------|
+| EnableKernelSSL | <strong>Windows Server 2008 and Windows Vista:</strong> This registry value is obsolete.<br /> | 
+| EnableSslCloseNotify | A <strong>DWORD</strong> value that is set to <strong>TRUE</strong> to enable close-notify, or <strong>FALSE</strong> to disable the close-notify requirement. Close-notify is disabled by default.<br /> When close-notify is enabled, the client application is required to send a close-notify message before closing TCP connections. The HTTP Server API also sends a close-notify before closing the connection.<br /> When close-notify is enabled, and the client sends a close-notify message, the HTTP Server API will reuse the SSL session on future connections to the client. If the client does not send a close-notify, the HTTP Server API will not reuse the same SSL session on future connections. Thus, a full SSL handshake is triggered on the new connection thereby reducing performance. <br /><blockquote>[!Note]<br />Enabling close-notify helps mitigate truncation attacks against the HTTPS requests and responses.</blockquote><br /><br /> When close-notify is disabled, the HTTP Server API reuses the SSL session for future connections.<br /> | 
+| DisableSslCertChainCacheOnlyUrlRetrieval | A <strong>DWORD</strong> value that is set to <strong>TRUE</strong> to enable the HTTP Server API to retrieve intermediate certificates from either the Internet, or the local store, or <strong>FALSE</strong> to retrieve intermediate certificates from the local store only. The default registry value is <strong>FALSE</strong>.<br /> By default, the HTTP Server API builds a client certificate chain by retrieving the intermediate certificates from the Intermediate Certificate Authority store under the local machine account. Setting this value to <strong>TRUE</strong> enables the HTTP Server API to retrieve the intermediate certificates not only from the local store, but also from the Intermediate Certificate Authority on the Internet.<br /> | 
+
 
 
 

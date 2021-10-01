@@ -19,7 +19,7 @@ To support [serialization](serialization.md), the compiler generates headers for
 
 Usage
 
-**WsUtil.exe \[command-line-switches \[switch-options\]:\]<filename>**
+**WsUtil.exe \[command-line-switches \[switch-options\]:\]&lt;filename&gt;**
 
 command-line-switches
 
@@ -28,14 +28,14 @@ Specifies WsUtil.exe compiler options. Switches can appear in any order. Dash ('
 List of command line options
 
 -   @filename Specifies that the input file should be treated as a response file. This option can be used multiple times, in any places in the argument list.
--   /wsdl:<filename>:<optional\_url> Specifies that the input file should be treated as a wsdl file. Multiple wsdl inputs are allowed and all specified wsdl files are processed. The optional\_url specifies the location where the metadata was retrieved from. If no optional\_url is specified, Wsutil generates a unique url internally. See also [Policy Support](policy-support.md).
--   /xsd:<filename> Specifies that the input filename should be treated as a schema file. Multiple xsd inputs are allowed and all specified schema files are processed.
--   /wsp:<filename>:<optional\_url> Specifies that the input filename should be treated as policy metadata. Multiple wsp inputs are allowed and all specified policy files are processed. The optional\_url specifies the location where the metadata was retrieved from. If no optional\_url is specified, Wsutil generates a unique url internally. Policy files are ignored if /nopolicy flag is specified. See also [Policy Support](policy-support.md).
+-   /wsdl:&lt;filename&gt;:<optional\_url> Specifies that the input file should be treated as a wsdl file. Multiple wsdl inputs are allowed and all specified wsdl files are processed. The optional\_url specifies the location where the metadata was retrieved from. If no optional\_url is specified, Wsutil generates a unique url internally. See also [Policy Support](policy-support.md).
+-   /xsd:&lt;filename&gt; Specifies that the input filename should be treated as a schema file. Multiple xsd inputs are allowed and all specified schema files are processed.
+-   /wsp:&lt;filename&gt;:<optional\_url> Specifies that the input filename should be treated as policy metadata. Multiple wsp inputs are allowed and all specified policy files are processed. The optional\_url specifies the location where the metadata was retrieved from. If no optional\_url is specified, Wsutil generates a unique url internally. Policy files are ignored if /nopolicy flag is specified. See also [Policy Support](policy-support.md).
 -   /nopolicy Disable policy processing.
--   /out:<dirname> Specifies directory name for output files
+-   /out:&lt;dirname&gt; Specifies directory name for output files
 -   /noclient Do not generate the client side stub.
 -   /noservice Do not generate the service side stub.
--   /prefix:<string> Prepend specified string to all generated identifiers.
+-   /prefix:&lt;string&gt; Prepend specified string to all generated identifiers.
 -   /fullname Prepend normalized filename to generated identifiers. By default only name specified in "name" attribute will be used to generate identifiers for related descriptions.
 -   /string:<WS\_STRING>\|<WCHAR\*> By default, wsutil generates WCHAR\* for xsd:string type. Application can use this flag to overwrite that behavior, and generates WS\_STRING for xsd:type instead.
 -   /help Display help message

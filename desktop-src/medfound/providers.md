@@ -48,13 +48,14 @@ There are no parent elements.
 
 ## Element information
 
-
-
-|              |     |
-|--------------|-----|
-| Can be empty | Yes |
-
-
+:::row:::
+    :::column:::
+        Can be empty
+    :::column-end:::
+    :::column span="2":::
+        Yes
+    :::column-end:::
+:::row-end:::
 
 ## See also
 

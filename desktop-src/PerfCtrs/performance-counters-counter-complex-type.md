@@ -286,115 +286,25 @@ Defines a counter.
 
 
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Name</th>
-<th>Type</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>aggregate</td>
 
-<td>The aggregation function to apply if the <strong>instances</strong> attribute of <a href="performance-counters-counterset-complex-type.md"><strong>counterSet</strong></a> is globalAggregate, multipleAggregate, or globalAggregateHistory. The following are the possible aggregation functions that you can apply:<br/> <dl> <dt><span id="max"></span><span id="MAX"></span>max</dt> <dd> The maximum counter value is returned.<br/> </dd> <dt><span id="min"></span><span id="MIN"></span>min</dt> <dd> The minimum counter value is returned.<br/> </dd> <dt><span id="avg"></span><span id="AVG"></span>avg</dt> <dd> The average counter value is returned.<br/> </dd> <dt><span id="sum"></span><span id="SUM"></span>sum</dt> <dd> The sum of the counter values is returned.<br/> </dd> <dt><span id="undefined"></span><span id="UNDEFINED"></span>undefined</dt> <dd> Do not aggregate this counter.<br/> </dd> </dl></td>
-</tr>
-<tr class="even">
-<td>baseID</td>
-<td><a href="performance-counters-uint32type-simple-type.md"><strong>man:UInt32Type</strong></a></td>
-<td>The identifier of another counter within the same counter set, whose value is used to calculate this counter's value. The following counter types require a base counter:<br/> <dl> <dt><span id="PERF_AVERAGE_TIMER"></span><span id="perf_average_timer"></span>PERF_AVERAGE_TIMER</dt> <dd> Requires the PERF_AVERAGE_BASE base counter.<br/> </dd> <dt><span id="PERF_AVERAGE_BULK"></span><span id="perf_average_bulk"></span>PERF_AVERAGE_BULK</dt> <dd> Requires the PERF_AVERAGE_BASE base counter.<br/> </dd> <dt><span id="PERF_COUNTER_MULTI_TIMER_INV"></span><span id="perf_counter_multi_timer_inv"></span>PERF_COUNTER_MULTI_TIMER_INV</dt> <dd> Requires the PERF_COUNTER_MULTI_BASE base counter.<br/> </dd> <dt><span id="PERF_LARGE_RAW_FRACTION"></span><span id="perf_large_raw_fraction"></span>PERF_LARGE_RAW_FRACTION</dt> <dd> Requires the PERF_LARGE_RAW_BASE base counter.<br/> </dd> <dt><span id="PERF_PRECISION_100NS_TIMER"></span><span id="perf_precision_100ns_timer"></span>PERF_PRECISION_100NS_TIMER</dt> <dd> Requires the PERF_LARGE_RAW_BASE base counter.<br/> </dd> <dt><span id="PERF_RAW_FRACTION"></span><span id="perf_raw_fraction"></span>PERF_RAW_FRACTION</dt> <dd> Requires the PERF_RAW_BASE base counter.<br/> </dd> <dt><span id="PERF_SAMPLE_FRACTION"></span><span id="perf_sample_fraction"></span>PERF_SAMPLE_FRACTION</dt> <dd> Requires the PERF_SAMPLE_BASE base counter.<br/> </dd> </dl></td>
-</tr>
-<tr class="odd">
-<td>defaultScale</td>
+| Name | Type | Description | 
+|------|------|-------------|
+| aggregate | The aggregation function to apply if the <strong>instances</strong> attribute of <a href="performance-counters-counterset-complex-type.md"><strong>counterSet</strong></a> is globalAggregate, multipleAggregate, or globalAggregateHistory. The following are the possible aggregation functions that you can apply:<br /><dl><dt><span id="max"></span><span id="MAX"></span>max</dt><dd> The maximum counter value is returned.<br /></dd><dt><span id="min"></span><span id="MIN"></span>min</dt><dd> The minimum counter value is returned.<br /></dd><dt><span id="avg"></span><span id="AVG"></span>avg</dt><dd> The average counter value is returned.<br /></dd><dt><span id="sum"></span><span id="SUM"></span>sum</dt><dd> The sum of the counter values is returned.<br /></dd><dt><span id="undefined"></span><span id="UNDEFINED"></span>undefined</dt><dd> Do not aggregate this counter.<br /></dd></dl> | 
+| baseID | <a href="performance-counters-uint32type-simple-type.md"><strong>man:UInt32Type</strong></a> | The identifier of another counter within the same counter set, whose value is used to calculate this counter's value. The following counter types require a base counter:<br /><dl><dt><span id="PERF_AVERAGE_TIMER"></span><span id="perf_average_timer"></span>PERF_AVERAGE_TIMER</dt><dd> Requires the PERF_AVERAGE_BASE base counter.<br /></dd><dt><span id="PERF_AVERAGE_BULK"></span><span id="perf_average_bulk"></span>PERF_AVERAGE_BULK</dt><dd> Requires the PERF_AVERAGE_BASE base counter.<br /></dd><dt><span id="PERF_COUNTER_MULTI_TIMER_INV"></span><span id="perf_counter_multi_timer_inv"></span>PERF_COUNTER_MULTI_TIMER_INV</dt><dd> Requires the PERF_COUNTER_MULTI_BASE base counter.<br /></dd><dt><span id="PERF_LARGE_RAW_FRACTION"></span><span id="perf_large_raw_fraction"></span>PERF_LARGE_RAW_FRACTION</dt><dd> Requires the PERF_LARGE_RAW_BASE base counter.<br /></dd><dt><span id="PERF_PRECISION_100NS_TIMER"></span><span id="perf_precision_100ns_timer"></span>PERF_PRECISION_100NS_TIMER</dt><dd> Requires the PERF_LARGE_RAW_BASE base counter.<br /></dd><dt><span id="PERF_RAW_FRACTION"></span><span id="perf_raw_fraction"></span>PERF_RAW_FRACTION</dt><dd> Requires the PERF_RAW_BASE base counter.<br /></dd><dt><span id="PERF_SAMPLE_FRACTION"></span><span id="perf_sample_fraction"></span>PERF_SAMPLE_FRACTION</dt><dd> Requires the PERF_SAMPLE_BASE base counter.<br /></dd></dl> | 
+| defaultScale | The scale factor to apply to the counter value (factor * counter value). The default is zero if no scale is applied. Valid values range from  10 to 10 (0.0000000001 to 1000000000). If this value is zero, the scale value is 1; if this value is 1, the scale value is 10; if this value is  1, the scale value is .10; and so on.<br /> | 
+| description | <strong>xs:string</strong> | A short description of the counter. You do not have to specify this attribute if the counter includes the <a href="performance-counters-counterattribute-complex-type.md"><strong>noDisplay</strong></a> attribute.<br /> | 
+| detailLevel | Specifies the target audience for the counter details. The following are the possible values:<br /><dl><dt><span id="standard"></span><span id="STANDARD"></span>standard</dt><dd> Display details about the counter that a typical user would understand.<br /></dd><dt><span id="advanced"></span><span id="ADVANCED"></span>advanced</dt><dd> Display details about the counter that only an advanced user would understand.<br /></dd></dl> | 
+| field | <a href="performance-counters-csymboltype-simple-type.md"><strong>man:CSymbolType</strong></a> | The name of a field within the struct that contains the counter value. This attribute is not allowed for user-mode providers.<br /> | 
+| id | <a href="performance-counters-uint32type-simple-type.md"><strong>man:UInt32Type</strong></a> | A unique number that identifies the counter within the counter set.<br /> | 
+| multiCounterID | <a href="performance-counters-uint32type-simple-type.md"><strong>man:UInt32Type</strong></a> | The identifier of another counter within the same counter set, whose multiplier value is used to calculate this counter's value. The following counter types require a multiplier value. The referenced counter must be of type PERF_COUNTER_RAWCOUNT.<br /><ul><li>PERF_COUNTER_MULTI_TIMER</li><li>PERF_COUNTER_MULTI_TIMER_INV</li><li>PERF_100NSEC_MULTI_TIMER</li><li>PERF_100NSEC_MULTI_TIMER_INV</li></ul> | 
+| name | The name of the counter. The name must be unique and less than 1,024 characters. The name is case-sensitive. You do not have to specify this attribute if the counter includes the <a href="performance-counters-counterattribute-complex-type.md"><strong>noDisplay</strong></a> attribute.<br /> | 
+| perfFreqID | <a href="performance-counters-uint32type-simple-type.md"><strong>man:UInt32Type</strong></a> | The identifier of another counter within the same counter set, whose frequency value is used to calculate this counter's value. The following counter types require a frequency. The PERF_COUNTER_LARGE_RAWCOUNT counter type contains the time stamp value.<br /><ul><li>PERF_COUNTER_OBJECT_TIME_QUEUELEN_TYPE</li><li>PERF_ELAPSED_TIME</li><li>PERF_OBJ_TIME_TIMER</li><li>PERF_PRECISION_OBJECT_TIMER</li></ul> | 
+| perfTimeID | <a href="performance-counters-uint32type-simple-type.md"><strong>man:UInt32Type</strong></a> | The identifier of another counter within the same counter set, whose time stamp value is used to calculate this counter's value. The following counter types require a time stamp. The PERF_COUNTER_LARGE_RAWCOUNT counter type contains the time stamp value.<br /><ul><li>PERF_COUNTER_OBJECT_TIME_QUEUELEN_TYPE</li><li>PERF_ELAPSED_TIME</li><li>PERF_OBJ_TIME_TIMER</li><li>PERF_PRECISION_OBJECT_TIMER</li></ul> | 
+| struct | <a href="performance-counters-csymboltype-simple-type.md"><strong>man:CSymbolType</strong></a> | The name of a struct element that contains this counter value. This attribute is not allowed for user-mode providers.<br /> | 
+| symbol | <a href="performance-counters-csymboltype-simple-type.md"><strong>man:CSymbolType</strong></a> | A symbolic name that identifies the counter. The <a href="ctrpp.md">CTRPP</a> tool creates a constant that you can use when calling functions that require a counter identifier (for example, <a href="/windows/desktop/api/Perflib/nf-perflib-perfincrementulongcountervalue"><strong>PerfIncrementULongCounterValue</strong></a>). The name of the constant is the symbolic name.<br /> | 
+| type | The name of the counter type. For possible values, see the above syntax block. For details of each type, see <a href="/previous-versions/windows/it-pro/windows-server-2003/cc776490(v=ws.10)">Counter Types</a> in the Windows 2003 Deployment Guide. The name is case-sensitive use lowercase. <br /> | 
+| uri | <strong>xs:anyURI</strong> | A unique uniform resource identifier that lets users retrieve counter values from any location.<br /> | 
 
-<td>The scale factor to apply to the counter value (factor * counter value). The default is zero if no scale is applied. Valid values range from  10 to 10 (0.0000000001 to 1000000000). If this value is zero, the scale value is 1; if this value is 1, the scale value is 10; if this value is  1, the scale value is .10; and so on.<br/></td>
-</tr>
-<tr class="even">
-<td>description</td>
-<td><strong>xs:string</strong></td>
-<td>A short description of the counter. You do not have to specify this attribute if the counter includes the <a href="performance-counters-counterattribute-complex-type.md"><strong>noDisplay</strong></a> attribute.<br/></td>
-</tr>
-<tr class="odd">
-<td>detailLevel</td>
-
-<td>Specifies the target audience for the counter details. The following are the possible values:<br/> <dl> <dt><span id="standard"></span><span id="STANDARD"></span>standard</dt> <dd> Display details about the counter that a typical user would understand.<br/> </dd> <dt><span id="advanced"></span><span id="ADVANCED"></span>advanced</dt> <dd> Display details about the counter that only an advanced user would understand.<br/> </dd> </dl></td>
-</tr>
-<tr class="even">
-<td>field</td>
-<td><a href="performance-counters-csymboltype-simple-type.md"><strong>man:CSymbolType</strong></a></td>
-<td>The name of a field within the struct that contains the counter value. This attribute is not allowed for user-mode providers.<br/></td>
-</tr>
-<tr class="odd">
-<td>id</td>
-<td><a href="performance-counters-uint32type-simple-type.md"><strong>man:UInt32Type</strong></a></td>
-<td>A unique number that identifies the counter within the counter set.<br/></td>
-</tr>
-<tr class="even">
-<td>multiCounterID</td>
-<td><a href="performance-counters-uint32type-simple-type.md"><strong>man:UInt32Type</strong></a></td>
-<td>The identifier of another counter within the same counter set, whose multiplier value is used to calculate this counter's value. The following counter types require a multiplier value. The referenced counter must be of type PERF_COUNTER_RAWCOUNT.<br/>
-<ul>
-<li>PERF_COUNTER_MULTI_TIMER</li>
-<li>PERF_COUNTER_MULTI_TIMER_INV</li>
-<li>PERF_100NSEC_MULTI_TIMER</li>
-<li>PERF_100NSEC_MULTI_TIMER_INV</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>name</td>
-
-<td>The name of the counter. The name must be unique and less than 1,024 characters. The name is case-sensitive. You do not have to specify this attribute if the counter includes the <a href="performance-counters-counterattribute-complex-type.md"><strong>noDisplay</strong></a> attribute.<br/></td>
-</tr>
-<tr class="even">
-<td>perfFreqID</td>
-<td><a href="performance-counters-uint32type-simple-type.md"><strong>man:UInt32Type</strong></a></td>
-<td>The identifier of another counter within the same counter set, whose frequency value is used to calculate this counter's value. The following counter types require a frequency. The PERF_COUNTER_LARGE_RAWCOUNT counter type contains the time stamp value.<br/>
-<ul>
-<li>PERF_COUNTER_OBJECT_TIME_QUEUELEN_TYPE</li>
-<li>PERF_ELAPSED_TIME</li>
-<li>PERF_OBJ_TIME_TIMER</li>
-<li>PERF_PRECISION_OBJECT_TIMER</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>perfTimeID</td>
-<td><a href="performance-counters-uint32type-simple-type.md"><strong>man:UInt32Type</strong></a></td>
-<td>The identifier of another counter within the same counter set, whose time stamp value is used to calculate this counter's value. The following counter types require a time stamp. The PERF_COUNTER_LARGE_RAWCOUNT counter type contains the time stamp value.<br/>
-<ul>
-<li>PERF_COUNTER_OBJECT_TIME_QUEUELEN_TYPE</li>
-<li>PERF_ELAPSED_TIME</li>
-<li>PERF_OBJ_TIME_TIMER</li>
-<li>PERF_PRECISION_OBJECT_TIMER</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>struct</td>
-<td><a href="performance-counters-csymboltype-simple-type.md"><strong>man:CSymbolType</strong></a></td>
-<td>The name of a struct element that contains this counter value. This attribute is not allowed for user-mode providers.<br/></td>
-</tr>
-<tr class="odd">
-<td>symbol</td>
-<td><a href="performance-counters-csymboltype-simple-type.md"><strong>man:CSymbolType</strong></a></td>
-<td>A symbolic name that identifies the counter. The <a href="ctrpp.md">CTRPP</a> tool creates a constant that you can use when calling functions that require a counter identifier (for example, <a href="/windows/desktop/api/Perflib/nf-perflib-perfincrementulongcountervalue"><strong>PerfIncrementULongCounterValue</strong></a>). The name of the constant is the symbolic name.<br/></td>
-</tr>
-<tr class="even">
-<td>type</td>
-
-<td>The name of the counter type. For possible values, see the above syntax block. For details of each type, see <a href="/previous-versions/windows/it-pro/windows-server-2003/cc776490(v=ws.10)">Counter Types</a> in the Windows 2003 Deployment Guide. The name is case-sensitive use lowercase. <br/></td>
-</tr>
-<tr class="odd">
-<td>uri</td>
-<td><strong>xs:anyURI</strong></td>
-<td>A unique uniform resource identifier that lets users retrieve counter values from any location.<br/></td>
-</tr>
-</tbody>
-</table>
 
 
 

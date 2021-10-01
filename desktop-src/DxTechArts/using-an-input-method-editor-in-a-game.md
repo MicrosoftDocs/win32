@@ -92,8 +92,8 @@ An IME needs to get the reading string, hide the reading window, and get the ori
 
 |                    | Getting reading string                                                | Hiding reading window                       | Orientation of reading window                              |
 |--------------------|-----------------------------------------------------------------------|---------------------------------------------|------------------------------------------------------------|
-| Before version 6.0 | A. Reading Window Access IME private data directly. See "4 Structure" | Trap IME private messages. See "3 Messages" | Examine registry information. See "5 Registry Information" |
-| After version 6.0  | [GetReadingString](#getreadingstring)                                 | [ShowReadingWindow](#showreadingwindow)     | [GetReadingString](#getreadingstring)                      |
+| **Before version 6.0** | A. Reading Window Access IME private data directly. See "4 Structure" | Trap IME private messages. See "3 Messages" | Examine registry information. See "5 Registry Information" |
+| **After version 6.0**  | [GetReadingString](#getreadingstring)                                 | [ShowReadingWindow](#showreadingwindow)     | [GetReadingString](#getreadingstring)                      |
 
 
 
@@ -118,11 +118,11 @@ The following examples illustrate how to get reading string information from old
 
 
 
-|              |                                                                                       |
+| Output              | Description                                                                                      |
 |--------------|---------------------------------------------------------------------------------------|
-| DWORD dwlen  | Length of the reading string                                                          |
-| DWORD dwerr  | Index of error char                                                                   |
-| LPWSTR wstr  | Pointer to the reading string                                                         |
+| DWORD dwlen  | Length of the reading string.                                                          |
+| DWORD dwerr  | Index of the error character.                                                                   |
+| LPWSTR wstr  | Pointer to the reading string.                                                         |
 | BOOL unicode | If true, the reading string is in Unicode format. Otherwise it's in multibyte format. |
 
 
@@ -269,48 +269,14 @@ The IMM sends a WM\_IME\_NOTIFY message to the application whenever an IME windo
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>IME Command</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="/windows/desktop/Intl/imn-setopenstatus">IMN_SETOPENSTATUS</a></td>
-<td>This attribute contains information such as the status of each character in the composition string (for example, converted or non-converted). This information is needed because CDXUTIMEEditBox colors the composition string characters differently based upon their attributes.</td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/Intl/imn-opencandidate">IMN_OPENCANDIDATE</a> / <a href="/windows/desktop/Intl/imn-changecandidate">IMN_CHANGECANDIDATE</a></td>
-<td>Sent to the application when the candidate window is about to be opened or updated, respectively. The candidate window opens when a user wishes to change the converted text choice. The window is updated when a user moves the selection indicator or changes the page. CDXUTIMEEditBox uses one message handler for both of these commands because the tasks required are exactly the same:<br/>
-<ol>
-<li>CDXUTIMEEditBox sets the bShowWindow member of the candidate list structure s_CandList to TRUE to indicate that the candidate window needs to be drawn during frame rendering.</li>
-<li>CDXUTIMEEditBox retrieves the candidate list by calling <a href="/windows/desktop/api/imm/nf-imm-immgetcandidatelista"><strong>ImmGetCandidateList</strong></a>, first to get the required buffer size, and then again to get the actual data.</li>
-<li>The private candidate list structure s_CandList is initialized with the retrieved candidate data.</li>
-<li>The candidate strings are stored as an array of strings.</li>
-<li>The index of the selected entry, as well as the page index, is saved.</li>
-<li>CDXUTIMEEditBox checks whether the candidate window style is vertical or horizontal. If the window style is horizontal, an additional string buffer, the HoriCand member of s_CandList, must be initialized with all of the candidate strings, with space characters inserted between all adjacent strings. When rendering a vertical candidate window, the individual candidate strings are drawn one at a time, with the y coordinates incremented for each string. However, this HoriCand string should be used when rendering a horizontal candidate window, because the space character is the best way to separate two adjacent strings on the same line.</li>
-</ol></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/Intl/imn-closecandidate">IMN_CLOSECANDIDATE</a></td>
-<td>Sent to the application when a candidate window is about to close. This happens when a user has made a selection from the candidate list. CDXUTIMEEditBox handles this command by setting the visible flag of the candidate window to FALSE and then clearing the candidate string buffer.</td>
-</tr>
-<tr class="even">
-<td>IMN_PRIVATE</td>
-<td>Sent to the application when the IME has updated its reading string as a result of the user typing or removing characters. The application should retrieve the reading string and save it for rendering. CDXUTIMEEditBox has two methods to retrieve the reading string, based upon how reading strings are supported in the IME: <br/>
-<ul>
-<li>If the IME supports the GetReadingString function, GetReadingString is called to retrieve the reading string.</li>
-<li>If the IME does not implement GetReadingString, CDXUTIMEEditBox retrieves the reading string from the input context content.</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| IME Command | Description | 
+|-------------|-------------|
+| <a href="/windows/desktop/Intl/imn-setopenstatus">IMN_SETOPENSTATUS</a> | This attribute contains information such as the status of each character in the composition string (for example, converted or non-converted). This information is needed because CDXUTIMEEditBox colors the composition string characters differently based upon their attributes. | 
+| <a href="/windows/desktop/Intl/imn-opencandidate">IMN_OPENCANDIDATE</a> / <a href="/windows/desktop/Intl/imn-changecandidate">IMN_CHANGECANDIDATE</a> | Sent to the application when the candidate window is about to be opened or updated, respectively. The candidate window opens when a user wishes to change the converted text choice. The window is updated when a user moves the selection indicator or changes the page. CDXUTIMEEditBox uses one message handler for both of these commands because the tasks required are exactly the same:<br /><ol><li>CDXUTIMEEditBox sets the bShowWindow member of the candidate list structure s_CandList to TRUE to indicate that the candidate window needs to be drawn during frame rendering.</li><li>CDXUTIMEEditBox retrieves the candidate list by calling <a href="/windows/desktop/api/imm/nf-imm-immgetcandidatelista"><strong>ImmGetCandidateList</strong></a>, first to get the required buffer size, and then again to get the actual data.</li><li>The private candidate list structure s_CandList is initialized with the retrieved candidate data.</li><li>The candidate strings are stored as an array of strings.</li><li>The index of the selected entry, as well as the page index, is saved.</li><li>CDXUTIMEEditBox checks whether the candidate window style is vertical or horizontal. If the window style is horizontal, an additional string buffer, the HoriCand member of s_CandList, must be initialized with all of the candidate strings, with space characters inserted between all adjacent strings. When rendering a vertical candidate window, the individual candidate strings are drawn one at a time, with the y coordinates incremented for each string. However, this HoriCand string should be used when rendering a horizontal candidate window, because the space character is the best way to separate two adjacent strings on the same line.</li></ol> | 
+| <a href="/windows/desktop/Intl/imn-closecandidate">IMN_CLOSECANDIDATE</a> | Sent to the application when a candidate window is about to close. This happens when a user has made a selection from the candidate list. CDXUTIMEEditBox handles this command by setting the visible flag of the candidate window to FALSE and then clearing the candidate string buffer. | 
+| IMN_PRIVATE | Sent to the application when the IME has updated its reading string as a result of the user typing or removing characters. The application should retrieve the reading string and save it for rendering. CDXUTIMEEditBox has two methods to retrieve the reading string, based upon how reading strings are supported in the IME: <br /><ul><li>If the IME supports the GetReadingString function, GetReadingString is called to retrieve the reading string.</li><li>If the IME does not implement GetReadingString, CDXUTIMEEditBox retrieves the reading string from the input context content.</li></ul> | 
+
 
 
 

@@ -70,8 +70,8 @@ The following flags describe a variety of flags used by the fixed-function pipel
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -87,7 +87,7 @@ The following flags describe a variety of flags used by the fixed-function pipel
 <td>The last beta field in the vertex position data will be of type UBYTE4. The data in the beta fields are used with matrix palette skinning to specify matrix indices. <span data-codelanguage=""></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -118,7 +118,7 @@ struct VERTEXPOSITION
 <span data-codelanguage=""></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">

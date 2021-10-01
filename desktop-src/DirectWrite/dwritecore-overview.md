@@ -29,17 +29,17 @@ The primary value that DWriteCore gives you, as a developer, in Windows App SDK 
 
 ## The DWriteCore demo app&mdash;DWriteCoreGallery
 
-DWriteCore is demonstrated by way of the [DWriteCoreGallery](https://github.com/microsoft/Project-Reunion-Samples/tree/main/DWriteCore/DWriteCoreGallery) sample app, which is available for you now to download and study.
+DWriteCore is demonstrated by way of the [DWriteCoreGallery](https://github.com/microsoft/WindowsAppSDK-Samples/tree/main/Samples/TextRendering) sample app, which is available for you now to download and study.
 
 ## Get started with DWriteCore
 
-DWriteCore is part of [Windows App SDK 0.8](https://github.com/microsoft/ProjectReunion/releases/tag/0.8.0). This section describes how to set up your development environment for programming with DWriteCore.
+DWriteCore is part of [Windows App SDK 0.8](https://github.com/microsoft/ProjectReunion/releases/tag/v0.8.0). This section describes how to set up your development environment for programming with DWriteCore.
 
 ### Install the Windows App SDK 0.8 VSIX
 
 In Visual Studio, click **Extensions** > **Manage Extensions**, search for *Windows App SDK*, and download the Windows App SDK extension. Close and reopen Visual Studio, and follow the prompts to install the extension.
 
-For more info, see [Windows App SDK 0.8](https://github.com/microsoft/ProjectReunion/releases/tag/0.8.0), and [Build desktop Windows apps with Windows App SDK 0.8](/windows/apps/windows-app-sdk/#set-up-your-development-environment).
+For more info, see [Windows App SDK 0.8](https://github.com/microsoft/ProjectReunion/releases/tag/v0.8.0) and [Set up your development environment](/windows/apps/windows-app-sdk/set-up-your-development-environment#3-install-the-windows-app-sdk-extension-for-visual-studio).
 
 ### Create a new project
 
@@ -53,7 +53,7 @@ In Visual Studio, click **Project** \> **Manage NuGet Packages...** \> **Browse*
 
 ### Alternatively, begin with the DWriteCoreGallery sample app
 
-Alternatively, you can program with DWriteCore by beginning with the [DWriteCoreGallery](https://github.com/microsoft/Project-Reunion-Samples/tree/main/DWriteCore/DWriteCoreGallery) sample app project, and base your development on that project. You can then feel free to remove any existing source code (or files) from that sample project, and to add any new source code (or files) to the project.
+Alternatively, you can program with DWriteCore by beginning with the [DWriteCoreGallery](https://github.com/microsoft/WindowsAppSDK-Samples/tree/main/Samples/TextRendering) sample app project, and base your development on that project. You can then feel free to remove any existing source code (or files) from that sample project, and to add any new source code (or files) to the project.
 
 ### Use DWriteCore in your project
 
@@ -65,7 +65,7 @@ Porting DirectWrite to DWriteCore is a sufficiently large project to span multip
 
 ### Features in the current release of DWriteCore
 
-The version of DWriteCore currently available is part of [Windows App SDK 0.8](https://github.com/microsoft/ProjectReunion/releases/tag/0.8.0). It contains the basic tools that you, as a developer, need to consume DWriteCore, including the following features.
+The version of DWriteCore currently available is part of [Windows App SDK 0.8](https://github.com/microsoft/ProjectReunion/releases/tag/v0.8.0). It contains the basic tools that you, as a developer, need to consume DWriteCore, including the following features.
 
 - Font enumeration.
 - Font API.
@@ -78,7 +78,7 @@ The version of DWriteCore currently available is part of [Windows App SDK 0.8](h
 - Miscellaneous optimizations (font cache cleanup, in-memory font loader, and so on).
 - Support for underline&mdash;see [**IDWriteTextLayout::GetUnderline**](/windows/win32/api/dwrite/nf-dwrite-idwritetextlayout-getunderline) and [**IDWriteTextLayout::SetUnderline**](/windows/win32/api/dwrite/nf-dwrite-idwritetextlayout-setunderline).
 - Support for strikethrough&mdash;see [**IDWriteTextLayout::GetStrikethrough**](/windows/win32/api/dwrite/nf-dwrite-idwritetextlayout-getstrikethrough) and [**IDWriteTextLayout::SetStrikethrough**](/windows/win32/api/dwrite/nf-dwrite-idwritetextlayout-setstrikethrough).
-- Support for vertical text via [**IDWriteTextLayout**](/windows/win32/api/dwrite/nn-dwrite-idwritetextlayout)&mdash;see [Vertical text](/windows/win32/directwrite/vertical-text).
+- Support for vertical text via [**IDWriteTextLayout**](/windows/win32/api/dwrite/nn-dwrite-idwritetextlayout)&mdash;see [Vertical text](./vertical-text.md).
 - All of the methods of the [**IDWriteTextAnalyzer**](/windows/win32/api/dwrite/nn-dwrite-idwritetextanalyzer) and [**IDWriteTextAnalyzer1**](/windows/win32/api/dwrite_1/nn-dwrite_1-idwritetextanalyzer1) interfaces are implemented.
 
 A banner feature is color fonts. Color fonts enable you to render your fonts with more sophisticated color functionality beyond simple single colors. For example, color fonts is what powers the ability to render emoji and toolbar icon fonts (the latter of which is used by Office, for example). Color fonts were first introduced in Windows 8.1, but the feature was heavily expanded upon in Windows 10, version 1607 (Anniversary Update).

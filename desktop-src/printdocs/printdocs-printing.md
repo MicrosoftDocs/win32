@@ -16,41 +16,14 @@ Windows programmers can select from several different technologies to print from
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Technology</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="/windows/desktop/printdocs/tailored-app-printing-api">Print Document Package API</a><br/></td>
-<td>Provides an interface that allows an application to access and manage the print document package. This API is available with Windows 8 and later versions of Windows.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="print-spooler-api.md">Print Spooler API</a><br/></td>
-<td>Provides an interface to the print spooler so that applications can manage printers and print jobs.<br/> Applications use the <a href="print-spooler-api.md">Print Spooler API</a> to start, stop, control, and configure print jobs managed by the print spooler whether they use the <a href="/windows/desktop/printdocs/tailored-app-printing-api">Print Document Package API</a> or the <a href="gdi-printing.md">GDI Print API</a> to print the content.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="print-ticket-api.md">Print Ticket API</a><br/></td>
-<td>Provides applications with functions to manage and convert print tickets.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="gdi-printing.md">GDI Print API</a><br/></td>
-<td>Provides applications with a device-independent printing interface. <br/>
-<blockquote>
-[!Note]<br />
-Developers who are writing applications for Windows Vista and later versions of Windows should consider using the <a href="/previous-versions/windows/desktop/dd316976(v=vs.85)">XPS Document API</a> in their application.
-</blockquote>
-<br/> The <a href="gdi-printing.md">GDI Print API</a> is suitable for applications that must run on Windows XP and earlier versions of Windows.<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Technology | Description | 
+|------------|-------------|
+| <a href="/windows/desktop/printdocs/tailored-app-printing-api">Print Document Package API</a><br /> | Provides an interface that allows an application to access and manage the print document package. This API is available with Windows 8 and later versions of Windows.<br /> | 
+| <a href="print-spooler-api.md">Print Spooler API</a><br /> | Provides an interface to the print spooler so that applications can manage printers and print jobs.<br /> Applications use the <a href="print-spooler-api.md">Print Spooler API</a> to start, stop, control, and configure print jobs managed by the print spooler whether they use the <a href="/windows/desktop/printdocs/tailored-app-printing-api">Print Document Package API</a> or the <a href="gdi-printing.md">GDI Print API</a> to print the content.<br /> | 
+| <a href="print-ticket-api.md">Print Ticket API</a><br /> | Provides applications with functions to manage and convert print tickets.<br /> | 
+| <a href="gdi-printing.md">GDI Print API</a><br /> | Provides applications with a device-independent printing interface. <br /><blockquote>[!Note]<br />Developers who are writing applications for Windows Vista and later versions of Windows should consider using the <a href="/previous-versions/windows/desktop/dd316976(v=vs.85)">XPS Document API</a> in their application.</blockquote><br /> The <a href="gdi-printing.md">GDI Print API</a> is suitable for applications that must run on Windows XP and earlier versions of Windows.<br /> | 
+
 
 
 

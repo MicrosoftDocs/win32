@@ -20,9 +20,9 @@ search:query=from:paolo&syntax=AQS
 
 
 
-|                          |                                         |
-|--------------------------|-----------------------------------------|
-| Minimum Operating System | Windows Vista with Service Pack 1 (SP1) |
+|                              | Value                                   |
+|------------------------------|-----------------------------------------|
+| **Minimum Operating System** | Windows Vista with Service Pack 1 (SP1) |
 
 
 

@@ -14,792 +14,152 @@ This section contains reference topics for the Cfgmgr32.h header.
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Topic</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="/windows/win32/api/cfgmgr32/ns-cfgmgr32-busnumber_des"><strong>BUSNUMBER_DES</strong></a><br/></td>
-<td>The BUSNUMBER_DES structure is used for specifying either a resource list or a resource requirements list that describes bus number usage for a device instance. For more information about resource lists and resource requirements lists, see <a href="/windows-hardware/drivers/kernel/hardware-resources">Hardware Resources</a>.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/win32/api/cfgmgr32/ns-cfgmgr32-busnumber_range"><strong>BUSNUMBER_RANGE</strong></a><br/></td>
-<td>The BUSNUMBER_RANGE structure specifies a resource requirements list that describes bus number usage for a device instance. For more information about resource requirements lists, see <a href="/windows-hardware/drivers/kernel/hardware-resources">Hardware Resources</a>.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/win32/api/cfgmgr32/ns-cfgmgr32-busnumber_resource"><strong>BUSNUMBER_RESOURCE</strong></a><br/></td>
-<td>The BUSNUMBER_RESOURCE structure specifies either a resource list or a resource requirements list that describes bus number usage for a device instance. For more information about resource lists and resource requirements lists, see <a href="/windows-hardware/drivers/kernel/hardware-resources">Hardware Resources</a>.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_add_empty_log_conf"><strong>CM_Add_Empty_Log_Conf</strong></a><br/></td>
-<td>The <strong>CM_Add_Empty_Log_Conf</strong> function creates an empty <a href="/windows-hardware/drivers/kernel/hardware-resources">logical configuration</a>, for a specified configuration type and a specified device instance, on the local machine.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_add_empty_log_conf_ex"><strong>CM_Add_Empty_Log_Conf_Ex</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
-Beginning with Windows 8 and Windows Server 2012, this function has been deprecated. Please use <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_add_empty_log_conf"><strong>CM_Add_Empty_Log_Conf</strong></a> instead.
-</blockquote>
-<br/> The <strong>CM_Add_Empty_Log_Conf_Ex</strong> function creates an empty <a href="/windows-hardware/drivers/kernel/hardware-resources">logical configuration</a>, for a specified configuration type and a specified device instance, on either the local or a remote machine.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_add_idw"><strong>CM_Add_ID</strong></a><br/></td>
-<td>The <strong>CM_Add_ID</strong> function appends a specified <a href="/windows-hardware/drivers/install/device-ids">device ID</a> (if not already present) to a <a href="/windows-hardware/drivers/">device instance's</a> <a href="/windows-hardware/drivers/install/hardware-ids">hardware ID</a> list or <a href="/windows-hardware/drivers/install/compatible-ids">compatible ID</a> list.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_add_id_exw"><strong>CM_Add_ID_Ex</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
-Beginning with Windows 8 and Windows Server 2012, this function has been deprecated. Please use <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_add_idw"><strong>CM_Add_ID</strong></a> instead.
-</blockquote>
-<br/> The <strong>CM_Add_ID_Ex</strong> function appends a <a href="/windows-hardware/drivers/install/device-ids">device ID</a> (if not already present) to a device instance's <a href="/windows-hardware/drivers/install/hardware-ids">hardware ID</a> list or <a href="/windows-hardware/drivers/install/compatible-ids">compatible ID</a> list, on either the local or a remote machine.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_add_res_des"><strong>CM_Add_Res_Des</strong></a><br/></td>
-<td>The <strong>CM_Add_Res_Des</strong> function adds a <a href="/windows-hardware/drivers/">resource descriptor</a> to a <a href="/windows-hardware/drivers/kernel/hardware-resources">logical configuration</a>.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_add_res_des_ex"><strong>CM_Add_Res_Des_Ex</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
-Beginning with Windows 8 and Windows Server 2012, this function has been deprecated. Please use <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_add_res_des"><strong>CM_Add_Res_Des</strong></a> instead.
-</blockquote>
-<br/> The <strong>CM_Add_Res_Des_Ex</strong> function adds a <a href="/windows-hardware/drivers/">resource descriptor</a> to a <a href="/windows-hardware/drivers/kernel/hardware-resources">logical configuration</a>. The logical configuration can be on either the local or a remote machine.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_connect_machinew"><strong>CM_Connect_Machine</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
-Beginning in Windows 8 and Windows Server 2012 functionality to access remote machines has been removed. You cannot access remote machines when running on these versions of Windows.
-</blockquote>
-<br/> The <strong>CM_Connect_Machine</strong> function creates a connection to a remote machine.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_delete_class_key"><strong>CM_Delete_Class_Key</strong></a><br/></td>
-<td>The <strong>CM_Delete_Class_Key</strong> function removes the specified installed <a href="/windows-hardware/drivers/">device class</a> from the system.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_delete_device_interface_keyw"><strong>CM_Delete_Device_Interface_Key</strong></a><br/></td>
-<td>The <strong>CM_Delete_Device_Interface_Key</strong> function deletes the registry subkey that is used by applications and drivers to store interface-specific information.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_delete_device_interface_key_exa"><strong>CM_Delete_Device_Interface_Key_ExA</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
-Beginning with Windows 8 and Windows Server 2012, this function has been deprecated. Please use <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_delete_device_interface_keyw"><strong>CM_Delete_Device_Interface_Key</strong></a> instead.
-</blockquote>
-<br/> The <strong>CM_Delete_Device_Interface_Key_ExA</strong> function deletes the registry subkey that is used by applications and drivers to store interface-specific information.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_delete_device_interface_key_exw"><strong>CM_Delete_Device_Interface_Key_ExW</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
-Beginning with Windows 8 and Windows Server 2012, this function has been deprecated. Please use <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_delete_device_interface_keyw"><strong>CM_Delete_Device_Interface_Key</strong></a> instead.
-</blockquote>
-<br/> The <strong>CM_Delete_Device_Interface_Key_ExW</strong> function deletes the registry subkey that is used by applications and drivers to store interface-specific information.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_delete_devnode_key"><strong>CM_Delete_DevNode_Key</strong></a><br/></td>
-<td>The <strong>CM_Delete_DevNode_Key</strong> function deletes the specified user-accessible registry keys that are associated with a device.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_disable_devnode"><strong>CM_Disable_DevNode</strong></a><br/></td>
-<td>The <strong>CM_Disable_DevNode</strong> function disables a device.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_disconnect_machine"><strong>CM_Disconnect_Machine</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
-Beginning in Windows 8 and Windows Server 2012 functionality to access remote machines has been removed. You cannot access remote machines when running on these versions of Windows.
-</blockquote>
-<br/> The <strong>CM_Disconnect_Machine</strong> function removes a connection to a remote machine.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_enable_devnode"><strong>CM_Enable_DevNode</strong></a><br/></td>
-<td>The <strong>CM_Enable_DevNode</strong> function enables a device.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_enumerate_classes"><strong>CM_Enumerate_Classes</strong></a><br/></td>
-<td>The <strong>CM_Enumerate_Classes</strong> function, when called repeatedly, enumerates the local machine's installed <a href="/windows-hardware/drivers/">device classes</a> by supplying each class's GUID.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_enumerate_classes_ex"><strong>CM_Enumerate_Classes_Ex</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
-Beginning with Windows 8 and Windows Server 2012, this function has been deprecated. Please use <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_enumerate_classes"><strong>CM_Enumerate_Classes</strong></a> instead.
-</blockquote>
-<br/> The <strong>CM_Enumerate_Classes_Ex</strong> function, when called repeatedly, enumerates a local or a remote machine's installed <a href="/windows-hardware/drivers/">device classes</a>, by supplying each class's GUID.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_enumerate_enumeratorsw"><strong>CM_Enumerate_Enumerators</strong></a><br/></td>
-<td>The <strong>CM_Enumerate_Enumerators</strong> function enumerates the local machine's device enumerators by supplying each enumerator's name.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_enumerate_enumerators_exw"><strong>CM_Enumerate_Enumerators_Ex</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
-Beginning with Windows 8 and Windows Server 2012, this function has been deprecated. Please use <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_enumerate_enumeratorsw"><strong>CM_Enumerate_Enumerators</strong></a> instead.
-</blockquote>
-<br/> The <strong>CM_Enumerate_Enumerators_Ex</strong> function enumerates a local or a remote machine's device enumerators, by supplying each enumerator's name.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_free_log_conf"><strong>CM_Free_Log_Conf</strong></a><br/></td>
-<td>The <strong>CM_Free_Log_Conf</strong> function removes a <a href="/windows-hardware/drivers/kernel/hardware-resources">logical configuration</a> and all associated <a href="/windows-hardware/drivers/">resource descriptors</a> from the local machine.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_free_log_conf_ex"><strong>CM_Free_Log_Conf_Ex</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
-Beginning with Windows 8 and Windows Server 2012, this function has been deprecated. Please use <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_free_log_conf"><strong>CM_Free_Log_Conf</strong></a> instead.
-</blockquote>
-<br/> The <strong>CM_Free_Log_Conf_Ex</strong> function removes a <a href="/windows-hardware/drivers/kernel/hardware-resources">logical configuration</a> and all associated <a href="/windows-hardware/drivers/">resource descriptors</a> from either a local or a remote machine.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_free_log_conf_handle"><strong>CM_Free_Log_Conf_Handle</strong></a><br/></td>
-<td>The <strong>CM_Free_Log_Conf_Handle</strong> function invalidates a logical configuration handle and frees its associated memory allocation.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_free_res_des"><strong>CM_Free_Res_Des</strong></a><br/></td>
-<td>The <strong>CM_Free_Res_Des</strong> function removes a <a href="/windows-hardware/drivers/">resource descriptor</a> from a <a href="/windows-hardware/drivers/kernel/hardware-resources">logical configuration</a> on the local machine.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_free_res_des_ex"><strong>CM_Free_Res_Des_Ex</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
-Beginning with Windows 8 and Windows Server 2012, this function has been deprecated. Please use <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_free_res_des"><strong>CM_Free_Res_Des</strong></a> instead.
-</blockquote>
-<br/> The <strong>CM_Free_Res_Des_Ex</strong> function removes a <a href="/windows-hardware/drivers/">resource descriptor</a> from a <a href="/windows-hardware/drivers/kernel/hardware-resources">logical configuration</a> on either a local or a remote machine.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_free_res_des_handle"><strong>CM_Free_Res_Des_Handle</strong></a><br/></td>
-<td>The <strong>CM_Free_Res_Des_Handle</strong> function invalidates a resource description handle and frees its associated memory allocation.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_free_resource_conflict_handle"><strong>CM_Free_Resource_Conflict_Handle</strong></a><br/></td>
-<td>The <strong>CM_Free_Resource_Conflict_Handle</strong> function invalidates a handle to a resource conflict list, and frees the handle's associated memory allocation.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_child"><strong>CM_Get_Child</strong></a><br/></td>
-<td>The <strong>CM_Get_Child</strong> function is used to retrieve a device instance handle to the first child node of a specified device node (<a href="/windows-hardware/drivers/">devnode</a>) in the local machine's <a href="/windows-hardware/drivers/kernel/device-tree">device tree</a>.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_child_ex"><strong>CM_Get_Child_Ex</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
-Beginning with Windows 8 and Windows Server 2012, this function has been deprecated. Please use <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_child"><strong>CM_Get_Child</strong></a> instead.
-</blockquote>
-<br/> The <strong>CM_Get_Child_Ex</strong> function is used to retrieve a device instance handle to the first child node of a specified device node (<a href="/windows-hardware/drivers/">devnode</a>) in a local or a remote machine's <a href="/windows-hardware/drivers/kernel/device-tree">device tree</a>.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_class_propertyw"><strong>CM_Get_Class_Property</strong></a><br/></td>
-<td>The <strong>CM_Get_Class_Property</strong> function retrieves a device property that is set for a <a href="/windows-hardware/drivers/install/device-interface-classes">device interface class</a> or <a href="/windows-hardware/drivers/install/device-setup-classes">device setup class</a>.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_class_property_exw"><strong>CM_Get_Class_Property_ExW</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
-Beginning with Windows 8 and Windows Server 2012, this function has been deprecated. Please use <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_class_propertyw"><strong>CM_Get_Class_Property</strong></a> instead.
-</blockquote>
-<br/> The <strong>CM_Get_Class_Property_ExW</strong> function retrieves a device property that is set for a <a href="/windows-hardware/drivers/install/device-interface-classes">device interface class</a> or <a href="/windows-hardware/drivers/install/device-setup-classes">device setup class</a>.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_class_property_keys"><strong>CM_Get_Class_Property_Keys</strong></a><br/></td>
-<td>The <strong>CM_Get_Class_Property_Keys</strong> function retrieves an array of the device property keys that represent the device properties that are set for a <a href="/windows-hardware/drivers/install/device-interface-classes">device interface class</a> or <a href="/windows-hardware/drivers/install/device-setup-classes">device setup class</a>.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_class_property_keys_ex"><strong>CM_Get_Class_Property_Keys_Ex</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
-Beginning with Windows 8 and Windows Server 2012, this function has been deprecated. Please use <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_class_property_keys"><strong>CM_Get_Class_Property_Keys</strong></a> instead.
-</blockquote>
-<br/> The <strong>CM_Get_Class_Property_Keys_Ex</strong> function retrieves an array of the device property keys that represent the device properties that are set for a <a href="/windows-hardware/drivers/install/device-interface-classes">device interface class</a> or <a href="/windows-hardware/drivers/install/device-setup-classes">device setup class</a>.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_class_registry_propertyw"><strong>CM_Get_Class_Registry_Property</strong></a><br/></td>
-<td>The <strong>CM_Get_Class_Registry_Property</strong> function retrieves a <a href="/windows-hardware/drivers/install/accessing-device-setup-class-properties">device setup class property</a>.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_depth"><strong>CM_Get_Depth</strong></a><br/></td>
-<td>The <strong>CM_Get_Depth</strong> function is used to obtain the depth of a specified device node (<a href="/windows-hardware/drivers/">devnode</a>) within the local machine's <a href="/windows-hardware/drivers/kernel/device-tree">device tree</a>.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_depth_ex"><strong>CM_Get_Depth_Ex</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
-Beginning with Windows 8 and Windows Server 2012, this function has been deprecated. Please use <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_depth"><strong>CM_Get_Depth</strong></a> instead.
-</blockquote>
-<br/> The <strong>CM_Get_Depth_Ex</strong> function is used to obtain the depth of a specified device node (<a href="/windows-hardware/drivers/">devnode</a>) within a local or a remote machine's <a href="/windows-hardware/drivers/kernel/device-tree">device tree</a>.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_device_idw"><strong>CM_Get_Device_ID</strong></a><br/></td>
-<td>The <strong>CM_Get_Device_ID</strong> function retrieves the <a href="/windows-hardware/drivers/install/device-instance-ids">device instance ID</a> for a specified <a href="/windows-hardware/drivers/">device instance</a> on the local machine.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_device_id_exw"><strong>CM_Get_Device_ID_Ex</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
-Beginning with Windows 8 and Windows Server 2012, this function has been deprecated. Please use <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_device_idw"><strong>CM_Get_Device_ID</strong></a> instead.
-</blockquote>
-<br/> The <strong>CM_Get_Device_ID_Ex</strong> function retrieves the <a href="/windows-hardware/drivers/install/device-instance-ids">device instance ID</a> for a specified <a href="/windows-hardware/drivers/">device instance</a> on a local or a remote machine.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_device_id_lista"><strong>CM_Get_Device_ID_List</strong></a><br/></td>
-<td>The <strong>CM_Get_Device_ID_List</strong> function retrieves a list of <a href="/windows-hardware/drivers/install/device-instance-ids">device instance IDs</a> for the local computer's <a href="/windows-hardware/drivers/">device instances</a>.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_device_id_list_exw"><strong>CM_Get_Device_ID_List_Ex</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
-Beginning with Windows 8 and Windows Server 2012, this function has been deprecated. Please use <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_device_id_lista"><strong>CM_Get_Device_ID_List</strong></a> instead.
-</blockquote>
-<br/> The <strong>CM_Get_Device_ID_List_Ex</strong> function retrieves a list of <a href="/windows-hardware/drivers/install/device-instance-ids">device instance IDs</a> for the <a href="/windows-hardware/drivers/">device instances</a> on a local or a remote machine.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_device_id_list_sizea"><strong>CM_Get_Device_ID_List_Size</strong></a><br/></td>
-<td>The <strong>CM_Get_Device_ID_List_Size</strong> function retrieves the buffer size required to hold a list of <a href="/windows-hardware/drivers/install/device-instance-ids">device instance IDs</a> for the local machine's <a href="/windows-hardware/drivers/">device instances</a>.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_device_id_list_size_exw"><strong>CM_Get_Device_ID_List_Size_Ex</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
-Beginning with Windows 8 and Windows Server 2012, this function has been deprecated. Please use <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_device_id_list_sizea"><strong>CM_Get_Device_ID_List_Size</strong></a> instead.
-</blockquote>
-<br/> The <strong>CM_Get_Device_ID_List_Size_Ex</strong> function retrieves the buffer size required to hold a list of <a href="/windows-hardware/drivers/install/device-instance-ids">device instance IDs</a> for a local or a remote machine's <a href="/windows-hardware/drivers/">device instances</a>.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_device_id_size"><strong>CM_Get_Device_ID_Size</strong></a><br/></td>
-<td>The <strong>CM_Get_Device_ID_Size</strong> function retrieves the buffer size required to hold a <a href="/windows-hardware/drivers/install/device-instance-ids">device instance ID</a> for a <a href="/windows-hardware/drivers/">device instance</a> on the local machine.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_device_id_size_ex"><strong>CM_Get_Device_ID_Size_Ex</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
-Beginning with Windows 8 and Windows Server 2012, this function has been deprecated. Please use <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_device_id_size"><strong>CM_Get_Device_ID_Size</strong></a> instead.
-</blockquote>
-<br/> The <strong>CM_Get_Device_ID_Size_Ex</strong> function retrieves the buffer size required to hold a <a href="/windows-hardware/drivers/install/device-instance-ids">device instance ID</a> for a <a href="/windows-hardware/drivers/">device instance</a> on a local or a remote machine.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_device_interface_aliasw"><strong>CM_Get_Device_Interface_Alias</strong></a><br/></td>
-<td>The <strong>CM_Get_Device_Interface_Alias</strong> function returns the alias of the specified device interface instance, if the alias exists.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_device_interface_lista"><strong>CM_Get_Device_Interface_List</strong></a><br/></td>
-<td>The <strong>CM_Get_Device_Interface_List</strong> function retrieves a list of device interface instances that belong to a specified <a href="/windows-hardware/drivers/install/device-interface-classes">device interface class</a>.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_device_interface_list_sizea"><strong>CM_Get_Device_Interface_List_Size</strong></a><br/></td>
-<td>The <strong>CM_Get_Device_Interface_List_Size</strong> function retrieves the buffer size that must be passed to the <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_device_interface_lista"><strong>CM_Get_Device_Interface_List</strong></a> function.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_device_interface_propertyw"><strong>CM_Get_Device_Interface_Property</strong></a><br/></td>
-<td>The <strong>CM_Get_Device_Interface_Property</strong> function retrieves a device property that is set for a device interface.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_device_interface_property_exw"><strong>CM_Get_Device_Interface_Property_ExW</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
-Beginning with Windows 8 and Windows Server 2012, this function has been deprecated. Please use <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_device_interface_propertyw"><strong>CM_Get_Device_Interface_Property</strong></a> instead.
-</blockquote>
-<br/> The <strong>CM_Get_Device_Interface_Property_ExW</strong> function retrieves a device property that is set for a device interface.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_device_interface_property_keysw"><strong>CM_Get_Device_Interface_Property_Keys</strong></a><br/></td>
-<td>The <strong>CM_Get_Device_Interface_Property_Keys</strong> function retrieves an array of device property keys that represent the device properties that are set for a device interface.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_device_interface_property_keys_exw"><strong>CM_Get_Device_Interface_Property_Keys_ExW</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
-Beginning with Windows 8 and Windows Server 2012, this function has been deprecated. Please use <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_device_interface_property_keysw"><strong>CM_Get_Device_Interface_Property_Keys</strong></a> instead.
-</blockquote>
-<br/> The <strong>CM_Get_Device_Interface_Property_Keys_ExW</strong> function retrieves an array of device property keys that represent the device properties that are set for a device interface.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_devnode_propertyw"><strong>CM_Get_DevNode_Property</strong></a><br/></td>
-<td>The <strong>CM_Get_DevNode_Property</strong> function retrieves a device instance property.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_devnode_property_exw"><strong>CM_Get_DevNode_Property_ExW</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
-Beginning with Windows 8 and Windows Server 2012, this function has been deprecated. Please use <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_devnode_propertyw"><strong>CM_Get_DevNode_Property</strong></a> instead.
-</blockquote>
-<br/> The <strong>CM_Get_DevNode_Property_ExW</strong> function retrieves a device instance property.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_devnode_property_keys"><strong>CM_Get_DevNode_Property_Keys</strong></a><br/></td>
-<td>The <strong>CM_Get_DevNode_Property_Keys</strong> function retrieves an array of the device property keys that represent the device properties that are set for a device instance.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_devnode_property_keys_ex"><strong>CM_Get_DevNode_Property_Keys_Ex</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
-Beginning with Windows 8 and Windows Server 2012, this function has been deprecated. Please use <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_devnode_property_keys"><strong>CM_Get_DevNode_Property_Keys</strong></a> instead.
-</blockquote>
-<br/> The <strong>CM_Get_DevNode_Property_Keys_Ex</strong> function retrieves an array of the device property keys that represent the device properties that are set for a device instance.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_devnode_registry_propertyw"><strong>CM_Get_DevNode_Registry_Property</strong></a><br/></td>
-<td>The <strong>CM_Get_DevNode_Registry_Property</strong> function retrieves a specified device property from the registry.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_devnode_status"><strong>CM_Get_DevNode_Status</strong></a><br/></td>
-<td>The <strong>CM_Get_DevNode_Status</strong> function obtains the status of a device instance from its device node (<a href="/windows-hardware/drivers/">devnode</a>) in the local machine's <a href="/windows-hardware/drivers/kernel/device-tree">device tree</a>.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_devnode_status_ex"><strong>CM_Get_DevNode_Status_Ex</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
-Beginning with Windows 8 and Windows Server 2012, this function has been deprecated. Please use <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_devnode_status"><strong>CM_Get_DevNode_Status</strong></a> instead.
-</blockquote>
-<br/> The <strong>CM_Get_DevNode_Status_Ex</strong> function obtains the status of a device instance from its device node (<a href="/windows-hardware/drivers/">devnode</a>) on a local or a remote machine's <a href="/windows-hardware/drivers/kernel/device-tree">device tree</a>.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_first_log_conf"><strong>CM_Get_First_Log_Conf</strong></a><br/></td>
-<td>The <strong>CM_Get_First_Log_Conf</strong> function obtains the first <a href="/windows-hardware/drivers/kernel/hardware-resources">logical configuration</a>, of a specified configuration type, associated with a specified <a href="/windows-hardware/drivers/">device instance</a> on the local machine.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_first_log_conf_ex"><strong>CM_Get_First_Log_Conf_Ex</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
-Beginning with Windows 8 and Windows Server 2012, this function has been deprecated. Please use <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_first_log_conf"><strong>CM_Get_First_Log_Conf</strong></a> instead.
-</blockquote>
-<br/> The <strong>CM_Get_First_Log_Conf_Ex</strong> function obtains the first <a href="/windows-hardware/drivers/kernel/hardware-resources">logical configuration</a> associated with a specified <a href="/windows-hardware/drivers/">device instance</a> on a local or a remote machine.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_hw_prof_flagsa"><strong>CM_Get_HW_Prof_Flags</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
-Beginning with Windows 8 and Windows Server 2012, this function has been deprecated and should not be used.
-</blockquote>
-<br/> The <strong>CM_Get_HW_Prof_Flags</strong> function retrieves the <a href="/windows-hardware/drivers/">hardware profile</a>-specific configuration flags for a <a href="/windows-hardware/drivers/">device instance</a> on a local machine.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_hw_prof_flags_exa"><strong>CM_Get_HW_Prof_Flags_Ex</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
-This function has been deprecated and should not be used.
-</blockquote>
-<br/> The <strong>CM_Get_HW_Prof_Flags_Ex</strong> function retrieves the <a href="/windows-hardware/drivers/">hardware profile</a>-specific configuration flags for a <a href="/windows-hardware/drivers/">device instance</a> on a remote machine or a local machine.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_log_conf_priority"><strong>CM_Get_Log_Conf_Priority</strong></a><br/></td>
-<td>The <strong>CM_Get_Log_Conf_Priority</strong> function obtains the configuration priority of a specified <a href="/windows-hardware/drivers/kernel/hardware-resources">logical configuration</a> on the local machine.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_log_conf_priority_ex"><strong>CM_Get_Log_Conf_Priority_Ex</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
-Beginning with Windows 8 and Windows Server 2012, this function has been deprecated. Please use <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_log_conf_priority"><strong>CM_Get_Log_Conf_Priority</strong></a> instead.
-</blockquote>
-<br/> The <strong>CM_Get_Log_Conf_Priority_Ex</strong> function obtains the configuration priority of a specified <a href="/windows-hardware/drivers/kernel/hardware-resources">logical configuration</a> on a local or a remote machine.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_next_log_conf"><strong>CM_Get_Next_Log_Conf</strong></a><br/></td>
-<td>The <strong>CM_Get_Next_Log_Conf</strong> function obtains the next <a href="/windows-hardware/drivers/kernel/hardware-resources">logical configuration</a> associated with a specific <a href="/windows-hardware/drivers/">device instance</a> on the local machine.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_next_log_conf_ex"><strong>CM_Get_Next_Log_Conf_Ex</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
-Beginning with Windows 8 and Windows Server 2012, this function has been deprecated. Please use <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_next_log_conf"><strong>CM_Get_Next_Log_Conf</strong></a> instead.
-</blockquote>
-<br/> The <strong>CM_Get_Next_Log_Conf_Ex</strong> function obtains the next <a href="/windows-hardware/drivers/kernel/hardware-resources">logical configuration</a> associated with a specific <a href="/windows-hardware/drivers/">device instance</a> on a local or a remote machine.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_next_res_des"><strong>CM_Get_Next_Res_Des</strong></a><br/></td>
-<td>The <strong>CM_Get_Next_Res_Des</strong> function obtains a handle to the next <a href="/windows-hardware/drivers/">resource descriptor</a>, of a specified resource type, for a <a href="/windows-hardware/drivers/kernel/hardware-resources">logical configuration</a> on the local machine.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_next_res_des_ex"><strong>CM_Get_Next_Res_Des_Ex</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
-Beginning with Windows 8 and Windows Server 2012, this function has been deprecated. Please use <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_next_res_des"><strong>CM_Get_Next_Res_Des</strong></a> instead.
-</blockquote>
-<br/> The <strong>CM_Get_Next_Res_Des_Ex</strong> function obtains a handle to the next <a href="/windows-hardware/drivers/">resource descriptor</a>, of a specified resource type, for a <a href="/windows-hardware/drivers/kernel/hardware-resources">logical configuration</a> on a local or a remote machine.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_parent"><strong>CM_Get_Parent</strong></a><br/></td>
-<td>The <strong>CM_Get_Parent</strong> function obtains a device instance handle to the parent node of a specified device node (<a href="/windows-hardware/drivers/">devnode</a>) in the local machine's device tree.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_parent_ex"><strong>CM_Get_Parent_Ex</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
-Beginning with Windows 8 and Windows Server 2012, this function has been deprecated. Please use <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_parent"><strong>CM_Get_Parent</strong></a> instead.
-</blockquote>
-<br/> The <strong>CM_Get_Parent_Ex</strong> function obtains a device instance handle to the parent node of a specified device node (<a href="/windows-hardware/drivers/">devnode</a>) in a local or a remote machine's <a href="/windows-hardware/drivers/kernel/device-tree">device tree</a>.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_res_des_data"><strong>CM_Get_Res_Des_Data</strong></a><br/></td>
-<td>The <strong>CM_Get_Res_Des_Data</strong> function retrieves the information stored in a <a href="/windows-hardware/drivers/">resource descriptor</a> on the local machine.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_res_des_data_ex"><strong>CM_Get_Res_Des_Data_Ex</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
-Beginning with Windows 8 and Windows Server 2012, this function has been deprecated. Please use <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_res_des_data"><strong>CM_Get_Res_Des_Data</strong></a> instead.
-</blockquote>
-<br/> The <strong>CM_Get_Res_Des_Data_Ex</strong> function retrieves the information stored in a <a href="/windows-hardware/drivers/">resource descriptor</a> on a local or a remote machine.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_res_des_data_size"><strong>CM_Get_Res_Des_Data_Size</strong></a><br/></td>
-<td>The <strong>CM_Get_Res_Des_Data_Size</strong> function obtains the buffer size required to hold the information contained in a specified <a href="/windows-hardware/drivers/">resource descriptor</a> on the local machine.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_res_des_data_size_ex"><strong>CM_Get_Res_Des_Data_Size_Ex</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
-Beginning with Windows 8 and Windows Server 2012, this function has been deprecated. Please use <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_res_des_data_size"><strong>CM_Get_Res_Des_Data_Size</strong></a> instead.
-</blockquote>
-<br/> The <strong>CM_Get_Res_Des_Data_Size_Ex</strong> function obtains the buffer size required to hold the information contained in a specified <a href="/windows-hardware/drivers/">resource descriptor</a> on a local or a remote machine.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_resource_conflict_count"><strong>CM_Get_Resource_Conflict_Count</strong></a><br/></td>
-<td>The <strong>CM_Get_Resource_Conflict_Count</strong> function obtains the number of conflicts contained in a specified resource conflict list.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_resource_conflict_detailsw"><strong>CM_Get_Resource_Conflict_Details</strong></a><br/></td>
-<td>The <strong>CM_Get_Resource_Conflict_Details</strong> function obtains the details about one of the resource conflicts in a conflict list.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_sibling"><strong>CM_Get_Sibling</strong></a><br/></td>
-<td>The <strong>CM_Get_Sibling</strong> function obtains a device instance handle to the next sibling node of a specified device node (<a href="/windows-hardware/drivers/">devnode</a>) in the local machine's <a href="/windows-hardware/drivers/kernel/device-tree">device tree</a>.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_sibling_ex"><strong>CM_Get_Sibling_Ex</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
-Beginning with Windows 8 and Windows Server 2012, this function has been deprecated. Please use <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_sibling"><strong>CM_Get_Sibling</strong></a> instead.
-</blockquote>
-<br/> The <strong>CM_Get_Sibling_Ex</strong> function obtains a device instance handle to the next sibling node of a specified device node, in a local or a remote machine's <a href="/windows-hardware/drivers/kernel/device-tree">device tree</a>.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_version"><strong>CM_Get_Version</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
-Beginning with Windows 8 and Windows Server 2012, this function has been deprecated and should not be used.
-</blockquote>
-<br/> The <strong>CM_Get_Version</strong> function returns version 4.0 of the Plug and Play (PnP) Configuration Manager <a href="/windows-hardware/drivers/">DLL</a> (<em>Cfgmgr32.dll</em>) for a local machine. <br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_version_ex"><strong>CM_Get_Version_Ex</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
-Beginning with Windows 8 and Windows Server 2012, this function has been deprecated and should not be used.
-</blockquote>
-<br/> The <strong>CM_Get_Version_Ex</strong> function returns version 4.0 of the Plug and Play (PnP) Configuration Manager <a href="/windows-hardware/drivers/">DLL</a> (<em>Cfgmgr32.dll</em>) for a local or a remote machine. <br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_is_dock_station_present"><strong>CM_Is_Dock_Station_Present</strong></a><br/></td>
-<td>The <strong>CM_Is_Dock_Station_Present</strong> function identifies whether a <a href="/windows-hardware/drivers/">docking station</a> is present in a local machine.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_is_dock_station_present_ex"><strong>CM_Is_Dock_Station_Present_Ex</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
-Beginning with Windows 8 and Windows Server 2012, this function has been deprecated. Please use <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_is_dock_station_present"><strong>CM_Is_Dock_Station_Present</strong></a> instead.
-</blockquote>
-<br/> The <strong>CM_Is_Dock_Station_Present_Ex</strong> function identifies whether a <a href="/windows-hardware/drivers/">docking station</a> is present in a local or a remote machine.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_is_version_available"><strong>CM_Is_Version_Available</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
-Beginning with Windows 8 and Windows Server 2012, this function has been deprecated and should not be used.
-</blockquote>
-<br/> The <strong>CM_Is_Version_Available</strong> function indicates whether a specified version of the Plug and Play (PnP) Configuration Manager <a href="/windows-hardware/drivers/">DLL</a> (<em>Cfgmgr32.dll</em>) is supported by a local machine.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_is_version_available_ex"><strong>CM_Is_Version_Available_Ex</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
-Beginning with Windows 8 and Windows Server 2012, this function has been deprecated and should not be used.
-</blockquote>
-<br/> The <strong>CM_Is_Version_Available_Ex</strong> function indicates whether a specified version of the Plug and Play (PNP) Configuration Manager <a href="/windows-hardware/drivers/">DLL</a> (<em>Cfgmgr32.dll</em>) is supported by a local or a remote machine.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_locate_devnodea"><strong>CM_Locate_DevNode</strong></a><br/></td>
-<td>The <strong>CM_Locate_DevNode</strong> function obtains a device instance handle to the device node that is associated with a specified <a href="/windows-hardware/drivers/install/device-instance-ids">device instance ID</a> on the local machine.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_locate_devnode_exw"><strong>CM_Locate_DevNode_Ex</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
-Beginning with Windows 8 and Windows Server 2012, this function has been deprecated. Please use <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_locate_devnodea"><strong>CM_Locate_DevNode</strong></a> instead.
-</blockquote>
-<br/> The <strong>CM_Locate_DevNode_Ex</strong> function obtains a device instance handle to the device node that is associated with a specified <a href="/windows-hardware/drivers/install/device-instance-ids">device instance ID</a>, on a local machine or a remote machine.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_mapcrtowin32err"><strong>CM_MapCrToWin32Err</strong></a><br/></td>
-<td>Converts a specified <strong>CONFIGRET</strong> code to its equivalent system error code.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_modify_res_des"><strong>CM_Modify_Res_Des</strong></a><br/></td>
-<td>The <strong>CM_Modify_Res_Des</strong> function modifies a specified resource descriptor on the local machine.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_modify_res_des_ex"><strong>CM_Modify_Res_Des_Ex</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
-Beginning with Windows 8 and Windows Server 2012, this function has been deprecated. Please use <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_modify_res_des"><strong>CM_Modify_Res_Des</strong></a> instead.
-</blockquote>
-<br/> The <strong>CM_Modify_Res_Des_Ex</strong> function modifies a specified resource descriptor on a local or a remote machine.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Cfgmgr32/ne-cfgmgr32-cm_notify_action"><strong>CM_NOTIFY_ACTION</strong></a><br/></td>
-<td>This enumeration identifies Plug and Play device event types.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Cfgmgr32/ns-cfgmgr32-cm_notify_event_data"><strong>CM_NOTIFY_EVENT_DATA</strong></a><br/></td>
-<td>This is a device notification event data structure.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Cfgmgr32/ns-cfgmgr32-cm_notify_filter"><strong>CM_NOTIFY_FILTER</strong></a><br/></td>
-<td>Device notification filter structure<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_open_class_keyw"><strong>CM_Open_Class_Key</strong></a><br/></td>
-<td>The <strong>CM_Open_Class_Key</strong> function opens the device setup class registry key, the device interface class registry key, or a specific subkey of a class.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_open_device_interface_keyw"><strong>CM_Open_Device_Interface_Key</strong></a><br/></td>
-<td>The <strong>CM_Open_Device_Interface_Key</strong> function opens the registry subkey that is used by applications and drivers to store information that is specific to a device interface.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_open_device_interface_keya"><strong>CM_Open_Device_Interface_Key_ExA</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
-Beginning with Windows 8 and Windows Server 2012, this function has been deprecated. Please use <a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_open_device_interface_keyw"><strong>CM_Open_Device_Interface_Key</strong></a> instead.
-</blockquote>
-<br/> The <strong>CM_Open_Device_Interface_Key_ExA</strong> function opens the registry subkey that is used by applications and drivers to store information that is specific to a device interface.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_open_device_interface_key_exw"><strong>CM_Open_Device_Interface_Key_ExW</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
-Beginning with Windows 8 and Windows Server 2012, this function has been deprecated. Please use <a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_open_device_interface_keyw"><strong>CM_Open_Device_Interface_Key</strong></a> instead.
-</blockquote>
-<br/> The <strong>CM_Open_Device_Interface_Key_ExW</strong> function opens the registry subkey that is used by applications and drivers to store information that is specific to a device interface.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_open_devnode_key"><strong>CM_Open_DevNode_Key</strong></a><br/></td>
-<td>The <strong>CM_Open_DevNode_Key</strong> function opens a registry key for device-specific configuration information.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_query_and_remove_subtreew"><strong>CM_Query_And_Remove_SubTree</strong></a><br/></td>
-<td>The <strong>CM_Query_And_Remove_SubTree</strong> function checks whether a device instance and its children can be removed and, if so, it removes them.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_query_and_remove_subtree_exw"><strong>CM_Query_And_Remove_SubTree_Ex</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
-Beginning with Windows 8 and Windows Server 2012, this function has been deprecated. Please use <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_query_and_remove_subtreew"><strong>CM_Query_And_Remove_SubTree</strong></a> instead.
-</blockquote>
-<br/> The <strong>CM_Query_And_Remove_SubTree_Ex</strong> function checks whether a device instance and its children can be removed and, if so, it removes them.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_query_resource_conflict_list"><strong>CM_Query_Resource_Conflict_List</strong></a><br/></td>
-<td>The <strong>CM_Query_Resource_Conflict_List</strong> function identifies device instances having resource requirements that conflict with a specified device instance's resource description.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_reenumerate_devnode"><strong>CM_Reenumerate_DevNode</strong></a><br/></td>
-<td>The <strong>CM_Reenumerate_DevNode</strong> function enumerates the devices identified by a specified device node and all of its children.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_reenumerate_devnode_ex"><strong>CM_Reenumerate_DevNode_Ex</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
-Beginning with Windows 8 and Windows Server 2012, this function has been deprecated. Please use <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_reenumerate_devnode"><strong>CM_Reenumerate_DevNode</strong></a> instead.
-</blockquote>
-<br/> The <strong>CM_Reenumerate_DevNode_Ex</strong> function enumerates the devices identified by a specified device node and all of its children.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_register_notification"><strong>CM_Register_Notification</strong></a><br/></td>
-<td>Use <a href="/windows/desktop/api/winuser/nf-winuser-registerdevicenotificationa"><strong>RegisterDeviceNotification</strong></a> instead of <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_register_notification"><strong>CM_Register_Notification</strong></a> if your code targets Windows 7 or earlier versions of Windows. Kernel mode callers should use <a href="/windows-hardware/drivers/ddi/content/wdm/nf-wdm-ioregisterplugplaynotification"><strong>IoRegisterPlugPlayNotification</strong></a> instead.<br/> The <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_register_notification"><strong>CM_Register_Notification</strong></a> function registers an application callback routine to be called when a PnP event of the specified type occurs.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_request_device_ejectw"><strong>CM_Request_Device_Eject</strong></a><br/></td>
-<td>The <strong>CM_Request_Device_Eject</strong> function prepares a local device instance for safe removal, if the device is removable. If the device can be physically ejected, it will be.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_request_device_eject_exw"><strong>CM_Request_Device_Eject_Ex</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
-Beginning with Windows 8 and Windows Server 2012, this function has been deprecated. Please use <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_request_device_ejectw"><strong>CM_Request_Device_Eject</strong></a> instead.
-</blockquote>
-<br/> The <strong>CM_Request_Device_Eject_Ex</strong> function prepares a local or a remote device instance for safe removal, if the device is removable. If the device can be physically ejected, it will be.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_request_eject_pc"><strong>CM_Request_Eject_PC</strong></a><br/></td>
-<td>The <strong>CM_Request_Eject_PC</strong> function requests that a portable PC, which is inserted in a local <a href="/windows-hardware/drivers/">docking station</a>, be ejected.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_request_eject_pc_ex"><strong>CM_Request_Eject_PC_Ex</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
-Beginning with Windows 8 and Windows Server 2012, this function has been deprecated. Please use <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_request_eject_pc"><strong>CM_Request_Eject_PC</strong></a> instead.
-</blockquote>
-<br/> The <strong>CM_Request_Eject_PC_Ex</strong> function requests that a portable PC, which is inserted in a local or a remote <a href="/windows-hardware/drivers/">docking station</a>, be ejected.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_set_class_propertyw"><strong>CM_Set_Class_Property</strong></a><br/></td>
-<td>The <strong>CM_Set_Class_Property</strong> function sets a class property for a device setup class or a device interface class.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_set_class_property_exw"><strong>CM_Set_Class_Property_ExW</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
-Beginning with Windows 8 and Windows Server 2012, this function has been deprecated. Please use <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_set_class_propertyw"><strong>CM_Set_Class_Property</strong></a> instead.
-</blockquote>
-<br/> The <strong>CM_Set_Class_Property_ExW</strong> function sets a class property for a device setup class or a device interface class.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_set_class_registry_propertyw"><strong>CM_Set_Class_Registry_Property</strong></a><br/></td>
-<td>The <strong>CM_Set_Class_Registry_Property</strong> function sets or deletes a property of a <a href="/windows-hardware/drivers/install/device-setup-classes">device setup class</a>.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_set_device_interface_propertyw"><strong>CM_Set_Device_Interface_Property</strong></a><br/></td>
-<td>The <strong>CM_Set_Device_Interface_Property</strong> function sets a device property of a device interface.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_set_device_interface_property_exw"><strong>CM_Set_Device_Interface_Property_ExW</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
-Beginning with Windows 8 and Windows Server 2012, this function has been deprecated. Please use <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_set_device_interface_propertyw"><strong>CM_Set_Device_Interface_Property</strong></a> instead.
-</blockquote>
-<br/> The <strong>CM_Set_Device_Interface_Property_ExW</strong> function sets a device property of a device interface.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_set_devnode_problem"><strong>CM_Set_DevNode_Problem</strong></a><br/></td>
-<td>The <strong>CM_Set_DevNode_Problem</strong> function sets a problem code for a device that is installed in a local machine.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_set_devnode_problem_ex"><strong>CM_Set_DevNode_Problem_Ex</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
-Beginning with Windows 8 and Windows Server 2012, this function has been deprecated. Please use <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_set_devnode_problem"><strong>CM_Set_DevNode_Problem</strong></a> instead.
-</blockquote>
-<br/> The <strong>CM_Set_DevNode_Problem_Ex</strong> function sets a problem code for a device that is installed in a local or a remote machine.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_set_devnode_propertyw"><strong>CM_Set_DevNode_Property</strong></a><br/></td>
-<td>The <strong>CM_Set_DevNode_Property</strong> function sets a device instance property.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_set_devnode_property_exw"><strong>CM_Set_DevNode_Property_ExW</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
-Beginning with Windows 8 and Windows Server 2012, this function has been deprecated. Please use <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_set_devnode_propertyw"><strong>CM_Set_DevNode_Property</strong></a> instead.
-</blockquote>
-<br/> The <strong>CM_Set_DevNode_Property_ExW</strong> function sets a device instance property.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_set_devnode_registry_propertyw"><strong>CM_Set_DevNode_Registry_Property</strong></a><br/></td>
-<td>The <strong>CM_Set_DevNode_Registry_Property</strong> function sets a specified device property in the registry.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_setup_devnode"><strong>CM_Setup_DevNode</strong></a><br/></td>
-<td>The <strong>CM_Setup_DevNode</strong> function restarts a device instance that is not running because there is a problem with the device configuration.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_uninstall_devnode"><strong>CM_Uninstall_DevNode</strong></a><br/></td>
-<td>The <strong>CM_Uninstall_DevNode</strong> function removes all persistent state associated with a device instance.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_unregister_notification"><strong>CM_Unregister_Notification</strong></a><br/></td>
-<td>Use <a href="/windows/desktop/api/winuser/nf-winuser-unregisterdevicenotification"><strong>UnregisterDeviceNotification</strong></a> instead of <strong>CM_Unregister_Notification</strong> if your code targets Windows 7 or earlier versions of Windows.<br/> The <strong>CM_Unregister_Notification</strong> function closes the specified HCMNOTIFICATION handle.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_waitnopendinginstallevents"><strong>CMP_WaitNoPendingInstallEvents</strong></a><br/></td>
-<td>The <strong>CMP_WaitNoPendingInstallEvents</strong> function waits until there are no pending device installation activities for the PnP manager to perform.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/cfgmgr32/ns-cfgmgr32-conflict_details_a"><strong>CONFLICT_DETAILS</strong></a><br/></td>
-<td>The CONFLICT_DETAILS structure is used as a parameter to the <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_resource_conflict_detailsw"><strong>CM_Get_Resource_Conflict_Details</strong></a> function.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/win32/api/cfgmgr32/ns-cfgmgr32-cs_des"><strong>CS_DES</strong></a><br/></td>
-<td>The CS_DES structure is used for specifying a resource list that describes device class-specific resource usage for a device instance. For more information about resource lists, see <a href="/windows-hardware/drivers/kernel/hardware-resources">Hardware Resources</a>.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/win32/api/cfgmgr32/ns-cfgmgr32-cs_resource"><strong>CS_RESOURCE</strong></a><br/></td>
-<td>The CS_RESOURCE structure is used for specifying a resource list that describes device class-specific resource usage for a device instance. For more information about resource lists, see <a href="/windows-hardware/drivers/kernel/hardware-resources">Hardware Resources</a>.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/win32/api/cfgmgr32/ns-cfgmgr32-dma_des"><strong>DMA_DES</strong></a><br/></td>
-<td>The DMA_DES structure is used for specifying either a resource list or a resource requirements list that describes direct memory access (DMA) channel usage for a device instance. For more information about resource lists and resource requirements lists, see <a href="/windows-hardware/drivers/kernel/hardware-resources">Hardware Resources</a>.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/win32/api/cfgmgr32/ns-cfgmgr32-dma_range"><strong>DMA_RANGE</strong></a><br/></td>
-<td>The DMA_RANGE structure specifies a resource requirements list that describes DMA channel usage for a device instance. For more information about resource requirements lists, see <a href="/windows-hardware/drivers/kernel/hardware-resources">Hardware Resources</a>.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/win32/api/cfgmgr32/ns-cfgmgr32-dma_resource"><strong>DMA_RESOURCE</strong></a><br/></td>
-<td>The DMA_RESOURCE structure is used for specifying either a resource list or a resource requirements list that describes DMA channel usage for a device instance. For more information about resource list and resource requirements lists, see <a href="/windows-hardware/drivers/kernel/hardware-resources">Hardware Resources</a>.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/win32/api/cfgmgr32/ns-cfgmgr32-io_des"><strong>IO_DES</strong></a><br/></td>
-<td>The IO_DES structure is used for specifying either a resource list or a resource requirements list that describes I/O port usage for a device instance. For more information about resource lists and resource requirements lists, see <a href="/windows-hardware/drivers/kernel/hardware-resources">Hardware Resources</a>.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/win32/api/cfgmgr32/ns-cfgmgr32-io_range"><strong>IO_RANGE</strong></a><br/></td>
-<td>The IO_RANGE structure specifies a resource requirements list that describes I/O port usage for a device instance. For more information about resource requirements lists, see <a href="/windows-hardware/drivers/kernel/hardware-resources">Hardware Resources</a>.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/win32/api/cfgmgr32/ns-cfgmgr32-io_resource"><strong>IO_RESOURCE</strong></a><br/></td>
-<td>The IO_RESOURCE structure is used for specifying either a resource list or a resource requirements list that describes I/O port usage for a device instance. For more information about resource lists and resource requirements lists, see <a href="/windows-hardware/drivers/kernel/hardware-resources">Hardware Resources</a>.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/win32/api/cfgmgr32/ns-cfgmgr32-irq_des_64"><strong>IRQ_DES</strong></a><br/></td>
-<td>The IRQ_DES structure is used for specifying either a resource list or a resource requirements list that describes IRQ line usage for a device instance. For more information about resource lists and resource requirements lists, see <a href="/windows-hardware/drivers/kernel/hardware-resources">Hardware Resources</a>.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/win32/api/cfgmgr32/ns-cfgmgr32-irq_range"><strong>IRQ_RANGE</strong></a><br/></td>
-<td>The IRQ_RANGE structure specifies a resource requirements list that describes IRQ line usage for a device instance. For more information about resource requirements lists, see <a href="/windows-hardware/drivers/kernel/hardware-resources">Hardware Resources</a>.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/win32/api/cfgmgr32/ns-cfgmgr32-irq_resource_64"><strong>IRQ_RESOURCE</strong></a><br/></td>
-<td>The IRQ_RESOURCE structure is used for specifying either a resource list or a resource requirements list that describes IRQ line usage for a device instance. For more information about resource lists and resource requirements lists, see <a href="/windows-hardware/drivers/kernel/hardware-resources">Hardware Resources</a>.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/win32/api/cfgmgr32/ns-cfgmgr32-mem_des"><strong>MEM_DES</strong></a><br/></td>
-<td>The MEM_DES structure is used for specifying either a resource list or a resource requirements list that describes memory usage for a device instance. For more information about resource lists and resource requirements lists, see <a href="/windows-hardware/drivers/kernel/hardware-resources">Hardware Resources</a>.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/win32/api/cfgmgr32/ns-cfgmgr32-mem_range"><strong>MEM_RANGE</strong></a><br/></td>
-<td>The MEM_RANGE structure specifies a resource requirements list that describes memory usage for a device instance. For more information about resource requirements lists, see <a href="/windows-hardware/drivers/kernel/hardware-resources">Hardware Resources</a>.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/win32/api/cfgmgr32/ns-cfgmgr32-mem_resource"><strong>MEM_RESOURCE</strong></a><br/></td>
-<td>The MEM_RESOURCE structure is used for specifying either a resource list or a resource requirements list that describes memory usage for a device instance. For more information about resource lists and resource requirements lists, see <a href="/windows-hardware/drivers/kernel/hardware-resources">Hardware Resources</a>.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/win32/api/cfgmgr32/ns-cfgmgr32-mfcard_des"><strong>MFCARD_DES</strong></a><br/></td>
-<td>The MFCARD_DES structure is used for specifying either a resource list or a resource requirements list that describes resource usage by <em>one</em> of the hardware functions provided by an instance of a multifunction device. For more information about resource lists and resource requirements lists, see <a href="/windows-hardware/drivers/kernel/hardware-resources">Hardware Resources</a>.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/win32/api/cfgmgr32/ns-cfgmgr32-mfcard_resource"><strong>MFCARD_RESOURCE</strong></a><br/></td>
-<td>The MFCARD_RESOURCE structure is used for specifying either a resource list or a resource requirements list that describes resource usage by <em>one</em> of the hardware functions provided by an instance of a multifunction device. For more information about resource lists and resource requirements lists, see <a href="/windows-hardware/drivers/kernel/hardware-resources">Hardware Resources</a>.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/win32/api/cfgmgr32/ns-cfgmgr32-pccard_des"><strong>PCCARD_DES</strong></a><br/></td>
-<td>The PCCARD_DES structure is used for specifying either a resource list or a resource requirements list that describes resource usage by a PC Card instance. For more information about resource lists and resource requirements lists, see <a href="/windows-hardware/drivers/kernel/hardware-resources">Hardware Resources</a>.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/win32/api/cfgmgr32/ns-cfgmgr32-pccard_resource"><strong>PCCARD_RESOURCE</strong></a><br/></td>
-<td>The PCCARD_RESOURCE structure is used for specifying either a resource list or a resource requirements list that describes resource usage by a PC Card instance. For more information about resource lists and resource requirements lists, see <a href="/windows-hardware/drivers/kernel/hardware-resources">Hardware Resources</a>.<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Topic | Description | 
+|-------|-------------|
+| <a href="/windows/win32/api/cfgmgr32/ns-cfgmgr32-busnumber_des"><strong>BUSNUMBER_DES</strong></a><br /> | The BUSNUMBER_DES structure is used for specifying either a resource list or a resource requirements list that describes bus number usage for a device instance. For more information about resource lists and resource requirements lists, see <a href="/windows-hardware/drivers/kernel/hardware-resources">Hardware Resources</a>.<br /> | 
+| <a href="/windows/win32/api/cfgmgr32/ns-cfgmgr32-busnumber_range"><strong>BUSNUMBER_RANGE</strong></a><br /> | The BUSNUMBER_RANGE structure specifies a resource requirements list that describes bus number usage for a device instance. For more information about resource requirements lists, see <a href="/windows-hardware/drivers/kernel/hardware-resources">Hardware Resources</a>.<br /> | 
+| <a href="/windows/win32/api/cfgmgr32/ns-cfgmgr32-busnumber_resource"><strong>BUSNUMBER_RESOURCE</strong></a><br /> | The BUSNUMBER_RESOURCE structure specifies either a resource list or a resource requirements list that describes bus number usage for a device instance. For more information about resource lists and resource requirements lists, see <a href="/windows-hardware/drivers/kernel/hardware-resources">Hardware Resources</a>.<br /> | 
+| <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_add_empty_log_conf"><strong>CM_Add_Empty_Log_Conf</strong></a><br /> | The <strong>CM_Add_Empty_Log_Conf</strong> function creates an empty <a href="/windows-hardware/drivers/kernel/hardware-resources">logical configuration</a>, for a specified configuration type and a specified device instance, on the local machine.<br /> | 
+| <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_add_empty_log_conf_ex"><strong>CM_Add_Empty_Log_Conf_Ex</strong></a><br /> | <blockquote>[!Note]<br />Beginning with Windows 8 and Windows Server 2012, this function has been deprecated. Please use <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_add_empty_log_conf"><strong>CM_Add_Empty_Log_Conf</strong></a> instead.</blockquote><br /> The <strong>CM_Add_Empty_Log_Conf_Ex</strong> function creates an empty <a href="/windows-hardware/drivers/kernel/hardware-resources">logical configuration</a>, for a specified configuration type and a specified device instance, on either the local or a remote machine.<br /> | 
+| <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_add_idw"><strong>CM_Add_ID</strong></a><br /> | The <strong>CM_Add_ID</strong> function appends a specified <a href="/windows-hardware/drivers/install/device-ids">device ID</a> (if not already present) to a <a href="/windows-hardware/drivers/">device instance's</a><a href="/windows-hardware/drivers/install/hardware-ids">hardware ID</a> list or <a href="/windows-hardware/drivers/install/compatible-ids">compatible ID</a> list.<br /> | 
+| <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_add_id_exw"><strong>CM_Add_ID_Ex</strong></a><br /> | <blockquote>[!Note]<br />Beginning with Windows 8 and Windows Server 2012, this function has been deprecated. Please use <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_add_idw"><strong>CM_Add_ID</strong></a> instead.</blockquote><br /> The <strong>CM_Add_ID_Ex</strong> function appends a <a href="/windows-hardware/drivers/install/device-ids">device ID</a> (if not already present) to a device instance's <a href="/windows-hardware/drivers/install/hardware-ids">hardware ID</a> list or <a href="/windows-hardware/drivers/install/compatible-ids">compatible ID</a> list, on either the local or a remote machine.<br /> | 
+| <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_add_res_des"><strong>CM_Add_Res_Des</strong></a><br /> | The <strong>CM_Add_Res_Des</strong> function adds a <a href="/windows-hardware/drivers/">resource descriptor</a> to a <a href="/windows-hardware/drivers/kernel/hardware-resources">logical configuration</a>.<br /> | 
+| <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_add_res_des_ex"><strong>CM_Add_Res_Des_Ex</strong></a><br /> | <blockquote>[!Note]<br />Beginning with Windows 8 and Windows Server 2012, this function has been deprecated. Please use <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_add_res_des"><strong>CM_Add_Res_Des</strong></a> instead.</blockquote><br /> The <strong>CM_Add_Res_Des_Ex</strong> function adds a <a href="/windows-hardware/drivers/">resource descriptor</a> to a <a href="/windows-hardware/drivers/kernel/hardware-resources">logical configuration</a>. The logical configuration can be on either the local or a remote machine.<br /> | 
+| <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_connect_machinew"><strong>CM_Connect_Machine</strong></a><br /> | <blockquote>[!Note]<br />Beginning in Windows 8 and Windows Server 2012 functionality to access remote machines has been removed. You cannot access remote machines when running on these versions of Windows.</blockquote><br /> The <strong>CM_Connect_Machine</strong> function creates a connection to a remote machine.<br /> | 
+| <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_delete_class_key"><strong>CM_Delete_Class_Key</strong></a><br /> | The <strong>CM_Delete_Class_Key</strong> function removes the specified installed <a href="/windows-hardware/drivers/">device class</a> from the system.<br /> | 
+| <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_delete_device_interface_keyw"><strong>CM_Delete_Device_Interface_Key</strong></a><br /> | The <strong>CM_Delete_Device_Interface_Key</strong> function deletes the registry subkey that is used by applications and drivers to store interface-specific information.<br /> | 
+| <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_delete_device_interface_key_exa"><strong>CM_Delete_Device_Interface_Key_ExA</strong></a><br /> | <blockquote>[!Note]<br />Beginning with Windows 8 and Windows Server 2012, this function has been deprecated. Please use <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_delete_device_interface_keyw"><strong>CM_Delete_Device_Interface_Key</strong></a> instead.</blockquote><br /> The <strong>CM_Delete_Device_Interface_Key_ExA</strong> function deletes the registry subkey that is used by applications and drivers to store interface-specific information.<br /> | 
+| <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_delete_device_interface_key_exw"><strong>CM_Delete_Device_Interface_Key_ExW</strong></a><br /> | <blockquote>[!Note]<br />Beginning with Windows 8 and Windows Server 2012, this function has been deprecated. Please use <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_delete_device_interface_keyw"><strong>CM_Delete_Device_Interface_Key</strong></a> instead.</blockquote><br /> The <strong>CM_Delete_Device_Interface_Key_ExW</strong> function deletes the registry subkey that is used by applications and drivers to store interface-specific information.<br /> | 
+| <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_delete_devnode_key"><strong>CM_Delete_DevNode_Key</strong></a><br /> | The <strong>CM_Delete_DevNode_Key</strong> function deletes the specified user-accessible registry keys that are associated with a device.<br /> | 
+| <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_disable_devnode"><strong>CM_Disable_DevNode</strong></a><br /> | The <strong>CM_Disable_DevNode</strong> function disables a device.<br /> | 
+| <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_disconnect_machine"><strong>CM_Disconnect_Machine</strong></a><br /> | <blockquote>[!Note]<br />Beginning in Windows 8 and Windows Server 2012 functionality to access remote machines has been removed. You cannot access remote machines when running on these versions of Windows.</blockquote><br /> The <strong>CM_Disconnect_Machine</strong> function removes a connection to a remote machine.<br /> | 
+| <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_enable_devnode"><strong>CM_Enable_DevNode</strong></a><br /> | The <strong>CM_Enable_DevNode</strong> function enables a device.<br /> | 
+| <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_enumerate_classes"><strong>CM_Enumerate_Classes</strong></a><br /> | The <strong>CM_Enumerate_Classes</strong> function, when called repeatedly, enumerates the local machine's installed <a href="/windows-hardware/drivers/">device classes</a> by supplying each class's GUID.<br /> | 
+| <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_enumerate_classes_ex"><strong>CM_Enumerate_Classes_Ex</strong></a><br /> | <blockquote>[!Note]<br />Beginning with Windows 8 and Windows Server 2012, this function has been deprecated. Please use <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_enumerate_classes"><strong>CM_Enumerate_Classes</strong></a> instead.</blockquote><br /> The <strong>CM_Enumerate_Classes_Ex</strong> function, when called repeatedly, enumerates a local or a remote machine's installed <a href="/windows-hardware/drivers/">device classes</a>, by supplying each class's GUID.<br /> | 
+| <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_enumerate_enumeratorsw"><strong>CM_Enumerate_Enumerators</strong></a><br /> | The <strong>CM_Enumerate_Enumerators</strong> function enumerates the local machine's device enumerators by supplying each enumerator's name.<br /> | 
+| <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_enumerate_enumerators_exw"><strong>CM_Enumerate_Enumerators_Ex</strong></a><br /> | <blockquote>[!Note]<br />Beginning with Windows 8 and Windows Server 2012, this function has been deprecated. Please use <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_enumerate_enumeratorsw"><strong>CM_Enumerate_Enumerators</strong></a> instead.</blockquote><br /> The <strong>CM_Enumerate_Enumerators_Ex</strong> function enumerates a local or a remote machine's device enumerators, by supplying each enumerator's name.<br /> | 
+| <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_free_log_conf"><strong>CM_Free_Log_Conf</strong></a><br /> | The <strong>CM_Free_Log_Conf</strong> function removes a <a href="/windows-hardware/drivers/kernel/hardware-resources">logical configuration</a> and all associated <a href="/windows-hardware/drivers/">resource descriptors</a> from the local machine.<br /> | 
+| <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_free_log_conf_ex"><strong>CM_Free_Log_Conf_Ex</strong></a><br /> | <blockquote>[!Note]<br />Beginning with Windows 8 and Windows Server 2012, this function has been deprecated. Please use <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_free_log_conf"><strong>CM_Free_Log_Conf</strong></a> instead.</blockquote><br /> The <strong>CM_Free_Log_Conf_Ex</strong> function removes a <a href="/windows-hardware/drivers/kernel/hardware-resources">logical configuration</a> and all associated <a href="/windows-hardware/drivers/">resource descriptors</a> from either a local or a remote machine.<br /> | 
+| <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_free_log_conf_handle"><strong>CM_Free_Log_Conf_Handle</strong></a><br /> | The <strong>CM_Free_Log_Conf_Handle</strong> function invalidates a logical configuration handle and frees its associated memory allocation.<br /> | 
+| <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_free_res_des"><strong>CM_Free_Res_Des</strong></a><br /> | The <strong>CM_Free_Res_Des</strong> function removes a <a href="/windows-hardware/drivers/">resource descriptor</a> from a <a href="/windows-hardware/drivers/kernel/hardware-resources">logical configuration</a> on the local machine.<br /> | 
+| <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_free_res_des_ex"><strong>CM_Free_Res_Des_Ex</strong></a><br /> | <blockquote>[!Note]<br />Beginning with Windows 8 and Windows Server 2012, this function has been deprecated. Please use <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_free_res_des"><strong>CM_Free_Res_Des</strong></a> instead.</blockquote><br /> The <strong>CM_Free_Res_Des_Ex</strong> function removes a <a href="/windows-hardware/drivers/">resource descriptor</a> from a <a href="/windows-hardware/drivers/kernel/hardware-resources">logical configuration</a> on either a local or a remote machine.<br /> | 
+| <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_free_res_des_handle"><strong>CM_Free_Res_Des_Handle</strong></a><br /> | The <strong>CM_Free_Res_Des_Handle</strong> function invalidates a resource description handle and frees its associated memory allocation.<br /> | 
+| <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_free_resource_conflict_handle"><strong>CM_Free_Resource_Conflict_Handle</strong></a><br /> | The <strong>CM_Free_Resource_Conflict_Handle</strong> function invalidates a handle to a resource conflict list, and frees the handle's associated memory allocation.<br /> | 
+| <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_child"><strong>CM_Get_Child</strong></a><br /> | The <strong>CM_Get_Child</strong> function is used to retrieve a device instance handle to the first child node of a specified device node (<a href="/windows-hardware/drivers/">devnode</a>) in the local machine's <a href="/windows-hardware/drivers/kernel/device-tree">device tree</a>.<br /> | 
+| <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_child_ex"><strong>CM_Get_Child_Ex</strong></a><br /> | <blockquote>[!Note]<br />Beginning with Windows 8 and Windows Server 2012, this function has been deprecated. Please use <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_child"><strong>CM_Get_Child</strong></a> instead.</blockquote><br /> The <strong>CM_Get_Child_Ex</strong> function is used to retrieve a device instance handle to the first child node of a specified device node (<a href="/windows-hardware/drivers/">devnode</a>) in a local or a remote machine's <a href="/windows-hardware/drivers/kernel/device-tree">device tree</a>.<br /> | 
+| <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_class_propertyw"><strong>CM_Get_Class_Property</strong></a><br /> | The <strong>CM_Get_Class_Property</strong> function retrieves a device property that is set for a <a href="/windows-hardware/drivers/install/device-interface-classes">device interface class</a> or <a href="/windows-hardware/drivers/install/device-setup-classes">device setup class</a>.<br /> | 
+| <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_class_property_exw"><strong>CM_Get_Class_Property_ExW</strong></a><br /> | <blockquote>[!Note]<br />Beginning with Windows 8 and Windows Server 2012, this function has been deprecated. Please use <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_class_propertyw"><strong>CM_Get_Class_Property</strong></a> instead.</blockquote><br /> The <strong>CM_Get_Class_Property_ExW</strong> function retrieves a device property that is set for a <a href="/windows-hardware/drivers/install/device-interface-classes">device interface class</a> or <a href="/windows-hardware/drivers/install/device-setup-classes">device setup class</a>.<br /> | 
+| <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_class_property_keys"><strong>CM_Get_Class_Property_Keys</strong></a><br /> | The <strong>CM_Get_Class_Property_Keys</strong> function retrieves an array of the device property keys that represent the device properties that are set for a <a href="/windows-hardware/drivers/install/device-interface-classes">device interface class</a> or <a href="/windows-hardware/drivers/install/device-setup-classes">device setup class</a>.<br /> | 
+| <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_class_property_keys_ex"><strong>CM_Get_Class_Property_Keys_Ex</strong></a><br /> | <blockquote>[!Note]<br />Beginning with Windows 8 and Windows Server 2012, this function has been deprecated. Please use <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_class_property_keys"><strong>CM_Get_Class_Property_Keys</strong></a> instead.</blockquote><br /> The <strong>CM_Get_Class_Property_Keys_Ex</strong> function retrieves an array of the device property keys that represent the device properties that are set for a <a href="/windows-hardware/drivers/install/device-interface-classes">device interface class</a> or <a href="/windows-hardware/drivers/install/device-setup-classes">device setup class</a>.<br /> | 
+| <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_class_registry_propertyw"><strong>CM_Get_Class_Registry_Property</strong></a><br /> | The <strong>CM_Get_Class_Registry_Property</strong> function retrieves a <a href="/windows-hardware/drivers/install/accessing-device-setup-class-properties">device setup class property</a>.<br /> | 
+| <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_depth"><strong>CM_Get_Depth</strong></a><br /> | The <strong>CM_Get_Depth</strong> function is used to obtain the depth of a specified device node (<a href="/windows-hardware/drivers/">devnode</a>) within the local machine's <a href="/windows-hardware/drivers/kernel/device-tree">device tree</a>.<br /> | 
+| <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_depth_ex"><strong>CM_Get_Depth_Ex</strong></a><br /> | <blockquote>[!Note]<br />Beginning with Windows 8 and Windows Server 2012, this function has been deprecated. Please use <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_depth"><strong>CM_Get_Depth</strong></a> instead.</blockquote><br /> The <strong>CM_Get_Depth_Ex</strong> function is used to obtain the depth of a specified device node (<a href="/windows-hardware/drivers/">devnode</a>) within a local or a remote machine's <a href="/windows-hardware/drivers/kernel/device-tree">device tree</a>.<br /> | 
+| <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_device_idw"><strong>CM_Get_Device_ID</strong></a><br /> | The <strong>CM_Get_Device_ID</strong> function retrieves the <a href="/windows-hardware/drivers/install/device-instance-ids">device instance ID</a> for a specified <a href="/windows-hardware/drivers/">device instance</a> on the local machine.<br /> | 
+| <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_device_id_exw"><strong>CM_Get_Device_ID_Ex</strong></a><br /> | <blockquote>[!Note]<br />Beginning with Windows 8 and Windows Server 2012, this function has been deprecated. Please use <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_device_idw"><strong>CM_Get_Device_ID</strong></a> instead.</blockquote><br /> The <strong>CM_Get_Device_ID_Ex</strong> function retrieves the <a href="/windows-hardware/drivers/install/device-instance-ids">device instance ID</a> for a specified <a href="/windows-hardware/drivers/">device instance</a> on a local or a remote machine.<br /> | 
+| <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_device_id_lista"><strong>CM_Get_Device_ID_List</strong></a><br /> | The <strong>CM_Get_Device_ID_List</strong> function retrieves a list of <a href="/windows-hardware/drivers/install/device-instance-ids">device instance IDs</a> for the local computer's <a href="/windows-hardware/drivers/">device instances</a>.<br /> | 
+| <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_device_id_list_exw"><strong>CM_Get_Device_ID_List_Ex</strong></a><br /> | <blockquote>[!Note]<br />Beginning with Windows 8 and Windows Server 2012, this function has been deprecated. Please use <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_device_id_lista"><strong>CM_Get_Device_ID_List</strong></a> instead.</blockquote><br /> The <strong>CM_Get_Device_ID_List_Ex</strong> function retrieves a list of <a href="/windows-hardware/drivers/install/device-instance-ids">device instance IDs</a> for the <a href="/windows-hardware/drivers/">device instances</a> on a local or a remote machine.<br /> | 
+| <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_device_id_list_sizea"><strong>CM_Get_Device_ID_List_Size</strong></a><br /> | The <strong>CM_Get_Device_ID_List_Size</strong> function retrieves the buffer size required to hold a list of <a href="/windows-hardware/drivers/install/device-instance-ids">device instance IDs</a> for the local machine's <a href="/windows-hardware/drivers/">device instances</a>.<br /> | 
+| <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_device_id_list_size_exw"><strong>CM_Get_Device_ID_List_Size_Ex</strong></a><br /> | <blockquote>[!Note]<br />Beginning with Windows 8 and Windows Server 2012, this function has been deprecated. Please use <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_device_id_list_sizea"><strong>CM_Get_Device_ID_List_Size</strong></a> instead.</blockquote><br /> The <strong>CM_Get_Device_ID_List_Size_Ex</strong> function retrieves the buffer size required to hold a list of <a href="/windows-hardware/drivers/install/device-instance-ids">device instance IDs</a> for a local or a remote machine's <a href="/windows-hardware/drivers/">device instances</a>.<br /> | 
+| <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_device_id_size"><strong>CM_Get_Device_ID_Size</strong></a><br /> | The <strong>CM_Get_Device_ID_Size</strong> function retrieves the buffer size required to hold a <a href="/windows-hardware/drivers/install/device-instance-ids">device instance ID</a> for a <a href="/windows-hardware/drivers/">device instance</a> on the local machine.<br /> | 
+| <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_device_id_size_ex"><strong>CM_Get_Device_ID_Size_Ex</strong></a><br /> | <blockquote>[!Note]<br />Beginning with Windows 8 and Windows Server 2012, this function has been deprecated. Please use <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_device_id_size"><strong>CM_Get_Device_ID_Size</strong></a> instead.</blockquote><br /> The <strong>CM_Get_Device_ID_Size_Ex</strong> function retrieves the buffer size required to hold a <a href="/windows-hardware/drivers/install/device-instance-ids">device instance ID</a> for a <a href="/windows-hardware/drivers/">device instance</a> on a local or a remote machine.<br /> | 
+| <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_device_interface_aliasw"><strong>CM_Get_Device_Interface_Alias</strong></a><br /> | The <strong>CM_Get_Device_Interface_Alias</strong> function returns the alias of the specified device interface instance, if the alias exists.<br /> | 
+| <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_device_interface_lista"><strong>CM_Get_Device_Interface_List</strong></a><br /> | The <strong>CM_Get_Device_Interface_List</strong> function retrieves a list of device interface instances that belong to a specified <a href="/windows-hardware/drivers/install/device-interface-classes">device interface class</a>.<br /> | 
+| <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_device_interface_list_sizea"><strong>CM_Get_Device_Interface_List_Size</strong></a><br /> | The <strong>CM_Get_Device_Interface_List_Size</strong> function retrieves the buffer size that must be passed to the <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_device_interface_lista"><strong>CM_Get_Device_Interface_List</strong></a> function.<br /> | 
+| <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_device_interface_propertyw"><strong>CM_Get_Device_Interface_Property</strong></a><br /> | The <strong>CM_Get_Device_Interface_Property</strong> function retrieves a device property that is set for a device interface.<br /> | 
+| <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_device_interface_property_exw"><strong>CM_Get_Device_Interface_Property_ExW</strong></a><br /> | <blockquote>[!Note]<br />Beginning with Windows 8 and Windows Server 2012, this function has been deprecated. Please use <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_device_interface_propertyw"><strong>CM_Get_Device_Interface_Property</strong></a> instead.</blockquote><br /> The <strong>CM_Get_Device_Interface_Property_ExW</strong> function retrieves a device property that is set for a device interface.<br /> | 
+| <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_device_interface_property_keysw"><strong>CM_Get_Device_Interface_Property_Keys</strong></a><br /> | The <strong>CM_Get_Device_Interface_Property_Keys</strong> function retrieves an array of device property keys that represent the device properties that are set for a device interface.<br /> | 
+| <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_device_interface_property_keys_exw"><strong>CM_Get_Device_Interface_Property_Keys_ExW</strong></a><br /> | <blockquote>[!Note]<br />Beginning with Windows 8 and Windows Server 2012, this function has been deprecated. Please use <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_device_interface_property_keysw"><strong>CM_Get_Device_Interface_Property_Keys</strong></a> instead.</blockquote><br /> The <strong>CM_Get_Device_Interface_Property_Keys_ExW</strong> function retrieves an array of device property keys that represent the device properties that are set for a device interface.<br /> | 
+| <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_devnode_propertyw"><strong>CM_Get_DevNode_Property</strong></a><br /> | The <strong>CM_Get_DevNode_Property</strong> function retrieves a device instance property.<br /> | 
+| <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_devnode_property_exw"><strong>CM_Get_DevNode_Property_ExW</strong></a><br /> | <blockquote>[!Note]<br />Beginning with Windows 8 and Windows Server 2012, this function has been deprecated. Please use <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_devnode_propertyw"><strong>CM_Get_DevNode_Property</strong></a> instead.</blockquote><br /> The <strong>CM_Get_DevNode_Property_ExW</strong> function retrieves a device instance property.<br /> | 
+| <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_devnode_property_keys"><strong>CM_Get_DevNode_Property_Keys</strong></a><br /> | The <strong>CM_Get_DevNode_Property_Keys</strong> function retrieves an array of the device property keys that represent the device properties that are set for a device instance.<br /> | 
+| <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_devnode_property_keys_ex"><strong>CM_Get_DevNode_Property_Keys_Ex</strong></a><br /> | <blockquote>[!Note]<br />Beginning with Windows 8 and Windows Server 2012, this function has been deprecated. Please use <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_devnode_property_keys"><strong>CM_Get_DevNode_Property_Keys</strong></a> instead.</blockquote><br /> The <strong>CM_Get_DevNode_Property_Keys_Ex</strong> function retrieves an array of the device property keys that represent the device properties that are set for a device instance.<br /> | 
+| <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_devnode_registry_propertyw"><strong>CM_Get_DevNode_Registry_Property</strong></a><br /> | The <strong>CM_Get_DevNode_Registry_Property</strong> function retrieves a specified device property from the registry.<br /> | 
+| <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_devnode_status"><strong>CM_Get_DevNode_Status</strong></a><br /> | The <strong>CM_Get_DevNode_Status</strong> function obtains the status of a device instance from its device node (<a href="/windows-hardware/drivers/">devnode</a>) in the local machine's <a href="/windows-hardware/drivers/kernel/device-tree">device tree</a>.<br /> | 
+| <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_devnode_status_ex"><strong>CM_Get_DevNode_Status_Ex</strong></a><br /> | <blockquote>[!Note]<br />Beginning with Windows 8 and Windows Server 2012, this function has been deprecated. Please use <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_devnode_status"><strong>CM_Get_DevNode_Status</strong></a> instead.</blockquote><br /> The <strong>CM_Get_DevNode_Status_Ex</strong> function obtains the status of a device instance from its device node (<a href="/windows-hardware/drivers/">devnode</a>) on a local or a remote machine's <a href="/windows-hardware/drivers/kernel/device-tree">device tree</a>.<br /> | 
+| <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_first_log_conf"><strong>CM_Get_First_Log_Conf</strong></a><br /> | The <strong>CM_Get_First_Log_Conf</strong> function obtains the first <a href="/windows-hardware/drivers/kernel/hardware-resources">logical configuration</a>, of a specified configuration type, associated with a specified <a href="/windows-hardware/drivers/">device instance</a> on the local machine.<br /> | 
+| <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_first_log_conf_ex"><strong>CM_Get_First_Log_Conf_Ex</strong></a><br /> | <blockquote>[!Note]<br />Beginning with Windows 8 and Windows Server 2012, this function has been deprecated. Please use <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_first_log_conf"><strong>CM_Get_First_Log_Conf</strong></a> instead.</blockquote><br /> The <strong>CM_Get_First_Log_Conf_Ex</strong> function obtains the first <a href="/windows-hardware/drivers/kernel/hardware-resources">logical configuration</a> associated with a specified <a href="/windows-hardware/drivers/">device instance</a> on a local or a remote machine.<br /> | 
+| <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_hw_prof_flagsa"><strong>CM_Get_HW_Prof_Flags</strong></a><br /> | <blockquote>[!Note]<br />Beginning with Windows 8 and Windows Server 2012, this function has been deprecated and should not be used.</blockquote><br /> The <strong>CM_Get_HW_Prof_Flags</strong> function retrieves the <a href="/windows-hardware/drivers/">hardware profile</a>-specific configuration flags for a <a href="/windows-hardware/drivers/">device instance</a> on a local machine.<br /> | 
+| <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_hw_prof_flags_exa"><strong>CM_Get_HW_Prof_Flags_Ex</strong></a><br /> | <blockquote>[!Note]<br />This function has been deprecated and should not be used.</blockquote><br /> The <strong>CM_Get_HW_Prof_Flags_Ex</strong> function retrieves the <a href="/windows-hardware/drivers/">hardware profile</a>-specific configuration flags for a <a href="/windows-hardware/drivers/">device instance</a> on a remote machine or a local machine.<br /> | 
+| <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_log_conf_priority"><strong>CM_Get_Log_Conf_Priority</strong></a><br /> | The <strong>CM_Get_Log_Conf_Priority</strong> function obtains the configuration priority of a specified <a href="/windows-hardware/drivers/kernel/hardware-resources">logical configuration</a> on the local machine.<br /> | 
+| <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_log_conf_priority_ex"><strong>CM_Get_Log_Conf_Priority_Ex</strong></a><br /> | <blockquote>[!Note]<br />Beginning with Windows 8 and Windows Server 2012, this function has been deprecated. Please use <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_log_conf_priority"><strong>CM_Get_Log_Conf_Priority</strong></a> instead.</blockquote><br /> The <strong>CM_Get_Log_Conf_Priority_Ex</strong> function obtains the configuration priority of a specified <a href="/windows-hardware/drivers/kernel/hardware-resources">logical configuration</a> on a local or a remote machine.<br /> | 
+| <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_next_log_conf"><strong>CM_Get_Next_Log_Conf</strong></a><br /> | The <strong>CM_Get_Next_Log_Conf</strong> function obtains the next <a href="/windows-hardware/drivers/kernel/hardware-resources">logical configuration</a> associated with a specific <a href="/windows-hardware/drivers/">device instance</a> on the local machine.<br /> | 
+| <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_next_log_conf_ex"><strong>CM_Get_Next_Log_Conf_Ex</strong></a><br /> | <blockquote>[!Note]<br />Beginning with Windows 8 and Windows Server 2012, this function has been deprecated. Please use <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_next_log_conf"><strong>CM_Get_Next_Log_Conf</strong></a> instead.</blockquote><br /> The <strong>CM_Get_Next_Log_Conf_Ex</strong> function obtains the next <a href="/windows-hardware/drivers/kernel/hardware-resources">logical configuration</a> associated with a specific <a href="/windows-hardware/drivers/">device instance</a> on a local or a remote machine.<br /> | 
+| <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_next_res_des"><strong>CM_Get_Next_Res_Des</strong></a><br /> | The <strong>CM_Get_Next_Res_Des</strong> function obtains a handle to the next <a href="/windows-hardware/drivers/">resource descriptor</a>, of a specified resource type, for a <a href="/windows-hardware/drivers/kernel/hardware-resources">logical configuration</a> on the local machine.<br /> | 
+| <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_next_res_des_ex"><strong>CM_Get_Next_Res_Des_Ex</strong></a><br /> | <blockquote>[!Note]<br />Beginning with Windows 8 and Windows Server 2012, this function has been deprecated. Please use <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_next_res_des"><strong>CM_Get_Next_Res_Des</strong></a> instead.</blockquote><br /> The <strong>CM_Get_Next_Res_Des_Ex</strong> function obtains a handle to the next <a href="/windows-hardware/drivers/">resource descriptor</a>, of a specified resource type, for a <a href="/windows-hardware/drivers/kernel/hardware-resources">logical configuration</a> on a local or a remote machine.<br /> | 
+| <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_parent"><strong>CM_Get_Parent</strong></a><br /> | The <strong>CM_Get_Parent</strong> function obtains a device instance handle to the parent node of a specified device node (<a href="/windows-hardware/drivers/">devnode</a>) in the local machine's device tree.<br /> | 
+| <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_parent_ex"><strong>CM_Get_Parent_Ex</strong></a><br /> | <blockquote>[!Note]<br />Beginning with Windows 8 and Windows Server 2012, this function has been deprecated. Please use <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_parent"><strong>CM_Get_Parent</strong></a> instead.</blockquote><br /> The <strong>CM_Get_Parent_Ex</strong> function obtains a device instance handle to the parent node of a specified device node (<a href="/windows-hardware/drivers/">devnode</a>) in a local or a remote machine's <a href="/windows-hardware/drivers/kernel/device-tree">device tree</a>.<br /> | 
+| <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_res_des_data"><strong>CM_Get_Res_Des_Data</strong></a><br /> | The <strong>CM_Get_Res_Des_Data</strong> function retrieves the information stored in a <a href="/windows-hardware/drivers/">resource descriptor</a> on the local machine.<br /> | 
+| <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_res_des_data_ex"><strong>CM_Get_Res_Des_Data_Ex</strong></a><br /> | <blockquote>[!Note]<br />Beginning with Windows 8 and Windows Server 2012, this function has been deprecated. Please use <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_res_des_data"><strong>CM_Get_Res_Des_Data</strong></a> instead.</blockquote><br /> The <strong>CM_Get_Res_Des_Data_Ex</strong> function retrieves the information stored in a <a href="/windows-hardware/drivers/">resource descriptor</a> on a local or a remote machine.<br /> | 
+| <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_res_des_data_size"><strong>CM_Get_Res_Des_Data_Size</strong></a><br /> | The <strong>CM_Get_Res_Des_Data_Size</strong> function obtains the buffer size required to hold the information contained in a specified <a href="/windows-hardware/drivers/">resource descriptor</a> on the local machine.<br /> | 
+| <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_res_des_data_size_ex"><strong>CM_Get_Res_Des_Data_Size_Ex</strong></a><br /> | <blockquote>[!Note]<br />Beginning with Windows 8 and Windows Server 2012, this function has been deprecated. Please use <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_res_des_data_size"><strong>CM_Get_Res_Des_Data_Size</strong></a> instead.</blockquote><br /> The <strong>CM_Get_Res_Des_Data_Size_Ex</strong> function obtains the buffer size required to hold the information contained in a specified <a href="/windows-hardware/drivers/">resource descriptor</a> on a local or a remote machine.<br /> | 
+| <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_resource_conflict_count"><strong>CM_Get_Resource_Conflict_Count</strong></a><br /> | The <strong>CM_Get_Resource_Conflict_Count</strong> function obtains the number of conflicts contained in a specified resource conflict list.<br /> | 
+| <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_resource_conflict_detailsw"><strong>CM_Get_Resource_Conflict_Details</strong></a><br /> | The <strong>CM_Get_Resource_Conflict_Details</strong> function obtains the details about one of the resource conflicts in a conflict list.<br /> | 
+| <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_sibling"><strong>CM_Get_Sibling</strong></a><br /> | The <strong>CM_Get_Sibling</strong> function obtains a device instance handle to the next sibling node of a specified device node (<a href="/windows-hardware/drivers/">devnode</a>) in the local machine's <a href="/windows-hardware/drivers/kernel/device-tree">device tree</a>.<br /> | 
+| <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_sibling_ex"><strong>CM_Get_Sibling_Ex</strong></a><br /> | <blockquote>[!Note]<br />Beginning with Windows 8 and Windows Server 2012, this function has been deprecated. Please use <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_sibling"><strong>CM_Get_Sibling</strong></a> instead.</blockquote><br /> The <strong>CM_Get_Sibling_Ex</strong> function obtains a device instance handle to the next sibling node of a specified device node, in a local or a remote machine's <a href="/windows-hardware/drivers/kernel/device-tree">device tree</a>.<br /> | 
+| <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_version"><strong>CM_Get_Version</strong></a><br /> | <blockquote>[!Note]<br />Beginning with Windows 8 and Windows Server 2012, this function has been deprecated and should not be used.</blockquote><br /> The <strong>CM_Get_Version</strong> function returns version 4.0 of the Plug and Play (PnP) Configuration Manager <a href="/windows-hardware/drivers/">DLL</a> (<em>Cfgmgr32.dll</em>) for a local machine. <br /> | 
+| <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_version_ex"><strong>CM_Get_Version_Ex</strong></a><br /> | <blockquote>[!Note]<br />Beginning with Windows 8 and Windows Server 2012, this function has been deprecated and should not be used.</blockquote><br /> The <strong>CM_Get_Version_Ex</strong> function returns version 4.0 of the Plug and Play (PnP) Configuration Manager <a href="/windows-hardware/drivers/">DLL</a> (<em>Cfgmgr32.dll</em>) for a local or a remote machine. <br /> | 
+| <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_is_dock_station_present"><strong>CM_Is_Dock_Station_Present</strong></a><br /> | The <strong>CM_Is_Dock_Station_Present</strong> function identifies whether a <a href="/windows-hardware/drivers/">docking station</a> is present in a local machine.<br /> | 
+| <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_is_dock_station_present_ex"><strong>CM_Is_Dock_Station_Present_Ex</strong></a><br /> | <blockquote>[!Note]<br />Beginning with Windows 8 and Windows Server 2012, this function has been deprecated. Please use <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_is_dock_station_present"><strong>CM_Is_Dock_Station_Present</strong></a> instead.</blockquote><br /> The <strong>CM_Is_Dock_Station_Present_Ex</strong> function identifies whether a <a href="/windows-hardware/drivers/">docking station</a> is present in a local or a remote machine.<br /> | 
+| <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_is_version_available"><strong>CM_Is_Version_Available</strong></a><br /> | <blockquote>[!Note]<br />Beginning with Windows 8 and Windows Server 2012, this function has been deprecated and should not be used.</blockquote><br /> The <strong>CM_Is_Version_Available</strong> function indicates whether a specified version of the Plug and Play (PnP) Configuration Manager <a href="/windows-hardware/drivers/">DLL</a> (<em>Cfgmgr32.dll</em>) is supported by a local machine.<br /> | 
+| <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_is_version_available_ex"><strong>CM_Is_Version_Available_Ex</strong></a><br /> | <blockquote>[!Note]<br />Beginning with Windows 8 and Windows Server 2012, this function has been deprecated and should not be used.</blockquote><br /> The <strong>CM_Is_Version_Available_Ex</strong> function indicates whether a specified version of the Plug and Play (PNP) Configuration Manager <a href="/windows-hardware/drivers/">DLL</a> (<em>Cfgmgr32.dll</em>) is supported by a local or a remote machine.<br /> | 
+| <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_locate_devnodea"><strong>CM_Locate_DevNode</strong></a><br /> | The <strong>CM_Locate_DevNode</strong> function obtains a device instance handle to the device node that is associated with a specified <a href="/windows-hardware/drivers/install/device-instance-ids">device instance ID</a> on the local machine.<br /> | 
+| <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_locate_devnode_exw"><strong>CM_Locate_DevNode_Ex</strong></a><br /> | <blockquote>[!Note]<br />Beginning with Windows 8 and Windows Server 2012, this function has been deprecated. Please use <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_locate_devnodea"><strong>CM_Locate_DevNode</strong></a> instead.</blockquote><br /> The <strong>CM_Locate_DevNode_Ex</strong> function obtains a device instance handle to the device node that is associated with a specified <a href="/windows-hardware/drivers/install/device-instance-ids">device instance ID</a>, on a local machine or a remote machine.<br /> | 
+| <a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_mapcrtowin32err"><strong>CM_MapCrToWin32Err</strong></a><br /> | Converts a specified <strong>CONFIGRET</strong> code to its equivalent system error code.<br /> | 
+| <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_modify_res_des"><strong>CM_Modify_Res_Des</strong></a><br /> | The <strong>CM_Modify_Res_Des</strong> function modifies a specified resource descriptor on the local machine.<br /> | 
+| <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_modify_res_des_ex"><strong>CM_Modify_Res_Des_Ex</strong></a><br /> | <blockquote>[!Note]<br />Beginning with Windows 8 and Windows Server 2012, this function has been deprecated. Please use <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_modify_res_des"><strong>CM_Modify_Res_Des</strong></a> instead.</blockquote><br /> The <strong>CM_Modify_Res_Des_Ex</strong> function modifies a specified resource descriptor on a local or a remote machine.<br /> | 
+| <a href="/windows/desktop/api/Cfgmgr32/ne-cfgmgr32-cm_notify_action"><strong>CM_NOTIFY_ACTION</strong></a><br /> | This enumeration identifies Plug and Play device event types.<br /> | 
+| <a href="/windows/desktop/api/Cfgmgr32/ns-cfgmgr32-cm_notify_event_data"><strong>CM_NOTIFY_EVENT_DATA</strong></a><br /> | This is a device notification event data structure.<br /> | 
+| <a href="/windows/desktop/api/Cfgmgr32/ns-cfgmgr32-cm_notify_filter"><strong>CM_NOTIFY_FILTER</strong></a><br /> | Device notification filter structure<br /> | 
+| <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_open_class_keyw"><strong>CM_Open_Class_Key</strong></a><br /> | The <strong>CM_Open_Class_Key</strong> function opens the device setup class registry key, the device interface class registry key, or a specific subkey of a class.<br /> | 
+| <a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_open_device_interface_keyw"><strong>CM_Open_Device_Interface_Key</strong></a><br /> | The <strong>CM_Open_Device_Interface_Key</strong> function opens the registry subkey that is used by applications and drivers to store information that is specific to a device interface.<br /> | 
+| <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_open_device_interface_keya"><strong>CM_Open_Device_Interface_Key_ExA</strong></a><br /> | <blockquote>[!Note]<br />Beginning with Windows 8 and Windows Server 2012, this function has been deprecated. Please use <a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_open_device_interface_keyw"><strong>CM_Open_Device_Interface_Key</strong></a> instead.</blockquote><br /> The <strong>CM_Open_Device_Interface_Key_ExA</strong> function opens the registry subkey that is used by applications and drivers to store information that is specific to a device interface.<br /> | 
+| <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_open_device_interface_key_exw"><strong>CM_Open_Device_Interface_Key_ExW</strong></a><br /> | <blockquote>[!Note]<br />Beginning with Windows 8 and Windows Server 2012, this function has been deprecated. Please use <a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_open_device_interface_keyw"><strong>CM_Open_Device_Interface_Key</strong></a> instead.</blockquote><br /> The <strong>CM_Open_Device_Interface_Key_ExW</strong> function opens the registry subkey that is used by applications and drivers to store information that is specific to a device interface.<br /> | 
+| <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_open_devnode_key"><strong>CM_Open_DevNode_Key</strong></a><br /> | The <strong>CM_Open_DevNode_Key</strong> function opens a registry key for device-specific configuration information.<br /> | 
+| <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_query_and_remove_subtreew"><strong>CM_Query_And_Remove_SubTree</strong></a><br /> | The <strong>CM_Query_And_Remove_SubTree</strong> function checks whether a device instance and its children can be removed and, if so, it removes them.<br /> | 
+| <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_query_and_remove_subtree_exw"><strong>CM_Query_And_Remove_SubTree_Ex</strong></a><br /> | <blockquote>[!Note]<br />Beginning with Windows 8 and Windows Server 2012, this function has been deprecated. Please use <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_query_and_remove_subtreew"><strong>CM_Query_And_Remove_SubTree</strong></a> instead.</blockquote><br /> The <strong>CM_Query_And_Remove_SubTree_Ex</strong> function checks whether a device instance and its children can be removed and, if so, it removes them.<br /> | 
+| <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_query_resource_conflict_list"><strong>CM_Query_Resource_Conflict_List</strong></a><br /> | The <strong>CM_Query_Resource_Conflict_List</strong> function identifies device instances having resource requirements that conflict with a specified device instance's resource description.<br /> | 
+| <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_reenumerate_devnode"><strong>CM_Reenumerate_DevNode</strong></a><br /> | The <strong>CM_Reenumerate_DevNode</strong> function enumerates the devices identified by a specified device node and all of its children.<br /> | 
+| <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_reenumerate_devnode_ex"><strong>CM_Reenumerate_DevNode_Ex</strong></a><br /> | <blockquote>[!Note]<br />Beginning with Windows 8 and Windows Server 2012, this function has been deprecated. Please use <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_reenumerate_devnode"><strong>CM_Reenumerate_DevNode</strong></a> instead.</blockquote><br /> The <strong>CM_Reenumerate_DevNode_Ex</strong> function enumerates the devices identified by a specified device node and all of its children.<br /> | 
+| <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_register_notification"><strong>CM_Register_Notification</strong></a><br /> | Use <a href="/windows/desktop/api/winuser/nf-winuser-registerdevicenotificationa"><strong>RegisterDeviceNotification</strong></a> instead of <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_register_notification"><strong>CM_Register_Notification</strong></a> if your code targets Windows 7 or earlier versions of Windows. Kernel mode callers should use <a href="/windows-hardware/drivers/ddi/content/wdm/nf-wdm-ioregisterplugplaynotification"><strong>IoRegisterPlugPlayNotification</strong></a> instead.<br /> The <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_register_notification"><strong>CM_Register_Notification</strong></a> function registers an application callback routine to be called when a PnP event of the specified type occurs.<br /> | 
+| <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_request_device_ejectw"><strong>CM_Request_Device_Eject</strong></a><br /> | The <strong>CM_Request_Device_Eject</strong> function prepares a local device instance for safe removal, if the device is removable. If the device can be physically ejected, it will be.<br /> | 
+| <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_request_device_eject_exw"><strong>CM_Request_Device_Eject_Ex</strong></a><br /> | <blockquote>[!Note]<br />Beginning with Windows 8 and Windows Server 2012, this function has been deprecated. Please use <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_request_device_ejectw"><strong>CM_Request_Device_Eject</strong></a> instead.</blockquote><br /> The <strong>CM_Request_Device_Eject_Ex</strong> function prepares a local or a remote device instance for safe removal, if the device is removable. If the device can be physically ejected, it will be.<br /> | 
+| <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_request_eject_pc"><strong>CM_Request_Eject_PC</strong></a><br /> | The <strong>CM_Request_Eject_PC</strong> function requests that a portable PC, which is inserted in a local <a href="/windows-hardware/drivers/">docking station</a>, be ejected.<br /> | 
+| <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_request_eject_pc_ex"><strong>CM_Request_Eject_PC_Ex</strong></a><br /> | <blockquote>[!Note]<br />Beginning with Windows 8 and Windows Server 2012, this function has been deprecated. Please use <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_request_eject_pc"><strong>CM_Request_Eject_PC</strong></a> instead.</blockquote><br /> The <strong>CM_Request_Eject_PC_Ex</strong> function requests that a portable PC, which is inserted in a local or a remote <a href="/windows-hardware/drivers/">docking station</a>, be ejected.<br /> | 
+| <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_set_class_propertyw"><strong>CM_Set_Class_Property</strong></a><br /> | The <strong>CM_Set_Class_Property</strong> function sets a class property for a device setup class or a device interface class.<br /> | 
+| <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_set_class_property_exw"><strong>CM_Set_Class_Property_ExW</strong></a><br /> | <blockquote>[!Note]<br />Beginning with Windows 8 and Windows Server 2012, this function has been deprecated. Please use <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_set_class_propertyw"><strong>CM_Set_Class_Property</strong></a> instead.</blockquote><br /> The <strong>CM_Set_Class_Property_ExW</strong> function sets a class property for a device setup class or a device interface class.<br /> | 
+| <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_set_class_registry_propertyw"><strong>CM_Set_Class_Registry_Property</strong></a><br /> | The <strong>CM_Set_Class_Registry_Property</strong> function sets or deletes a property of a <a href="/windows-hardware/drivers/install/device-setup-classes">device setup class</a>.<br /> | 
+| <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_set_device_interface_propertyw"><strong>CM_Set_Device_Interface_Property</strong></a><br /> | The <strong>CM_Set_Device_Interface_Property</strong> function sets a device property of a device interface.<br /> | 
+| <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_set_device_interface_property_exw"><strong>CM_Set_Device_Interface_Property_ExW</strong></a><br /> | <blockquote>[!Note]<br />Beginning with Windows 8 and Windows Server 2012, this function has been deprecated. Please use <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_set_device_interface_propertyw"><strong>CM_Set_Device_Interface_Property</strong></a> instead.</blockquote><br /> The <strong>CM_Set_Device_Interface_Property_ExW</strong> function sets a device property of a device interface.<br /> | 
+| <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_set_devnode_problem"><strong>CM_Set_DevNode_Problem</strong></a><br /> | The <strong>CM_Set_DevNode_Problem</strong> function sets a problem code for a device that is installed in a local machine.<br /> | 
+| <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_set_devnode_problem_ex"><strong>CM_Set_DevNode_Problem_Ex</strong></a><br /> | <blockquote>[!Note]<br />Beginning with Windows 8 and Windows Server 2012, this function has been deprecated. Please use <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_set_devnode_problem"><strong>CM_Set_DevNode_Problem</strong></a> instead.</blockquote><br /> The <strong>CM_Set_DevNode_Problem_Ex</strong> function sets a problem code for a device that is installed in a local or a remote machine.<br /> | 
+| <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_set_devnode_propertyw"><strong>CM_Set_DevNode_Property</strong></a><br /> | The <strong>CM_Set_DevNode_Property</strong> function sets a device instance property.<br /> | 
+| <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_set_devnode_property_exw"><strong>CM_Set_DevNode_Property_ExW</strong></a><br /> | <blockquote>[!Note]<br />Beginning with Windows 8 and Windows Server 2012, this function has been deprecated. Please use <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_set_devnode_propertyw"><strong>CM_Set_DevNode_Property</strong></a> instead.</blockquote><br /> The <strong>CM_Set_DevNode_Property_ExW</strong> function sets a device instance property.<br /> | 
+| <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_set_devnode_registry_propertyw"><strong>CM_Set_DevNode_Registry_Property</strong></a><br /> | The <strong>CM_Set_DevNode_Registry_Property</strong> function sets a specified device property in the registry.<br /> | 
+| <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_setup_devnode"><strong>CM_Setup_DevNode</strong></a><br /> | The <strong>CM_Setup_DevNode</strong> function restarts a device instance that is not running because there is a problem with the device configuration.<br /> | 
+| <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_uninstall_devnode"><strong>CM_Uninstall_DevNode</strong></a><br /> | The <strong>CM_Uninstall_DevNode</strong> function removes all persistent state associated with a device instance.<br /> | 
+| <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_unregister_notification"><strong>CM_Unregister_Notification</strong></a><br /> | Use <a href="/windows/desktop/api/winuser/nf-winuser-unregisterdevicenotification"><strong>UnregisterDeviceNotification</strong></a> instead of <strong>CM_Unregister_Notification</strong> if your code targets Windows 7 or earlier versions of Windows.<br /> The <strong>CM_Unregister_Notification</strong> function closes the specified HCMNOTIFICATION handle.<br /> | 
+| <a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_waitnopendinginstallevents"><strong>CMP_WaitNoPendingInstallEvents</strong></a><br /> | The <strong>CMP_WaitNoPendingInstallEvents</strong> function waits until there are no pending device installation activities for the PnP manager to perform.<br /> | 
+| <a href="/windows/desktop/api/cfgmgr32/ns-cfgmgr32-conflict_details_a"><strong>CONFLICT_DETAILS</strong></a><br /> | The CONFLICT_DETAILS structure is used as a parameter to the <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_resource_conflict_detailsw"><strong>CM_Get_Resource_Conflict_Details</strong></a> function.<br /> | 
+| <a href="/windows/win32/api/cfgmgr32/ns-cfgmgr32-cs_des"><strong>CS_DES</strong></a><br /> | The CS_DES structure is used for specifying a resource list that describes device class-specific resource usage for a device instance. For more information about resource lists, see <a href="/windows-hardware/drivers/kernel/hardware-resources">Hardware Resources</a>.<br /> | 
+| <a href="/windows/win32/api/cfgmgr32/ns-cfgmgr32-cs_resource"><strong>CS_RESOURCE</strong></a><br /> | The CS_RESOURCE structure is used for specifying a resource list that describes device class-specific resource usage for a device instance. For more information about resource lists, see <a href="/windows-hardware/drivers/kernel/hardware-resources">Hardware Resources</a>.<br /> | 
+| <a href="/windows/win32/api/cfgmgr32/ns-cfgmgr32-dma_des"><strong>DMA_DES</strong></a><br /> | The DMA_DES structure is used for specifying either a resource list or a resource requirements list that describes direct memory access (DMA) channel usage for a device instance. For more information about resource lists and resource requirements lists, see <a href="/windows-hardware/drivers/kernel/hardware-resources">Hardware Resources</a>.<br /> | 
+| <a href="/windows/win32/api/cfgmgr32/ns-cfgmgr32-dma_range"><strong>DMA_RANGE</strong></a><br /> | The DMA_RANGE structure specifies a resource requirements list that describes DMA channel usage for a device instance. For more information about resource requirements lists, see <a href="/windows-hardware/drivers/kernel/hardware-resources">Hardware Resources</a>.<br /> | 
+| <a href="/windows/win32/api/cfgmgr32/ns-cfgmgr32-dma_resource"><strong>DMA_RESOURCE</strong></a><br /> | The DMA_RESOURCE structure is used for specifying either a resource list or a resource requirements list that describes DMA channel usage for a device instance. For more information about resource list and resource requirements lists, see <a href="/windows-hardware/drivers/kernel/hardware-resources">Hardware Resources</a>.<br /> | 
+| <a href="/windows/win32/api/cfgmgr32/ns-cfgmgr32-io_des"><strong>IO_DES</strong></a><br /> | The IO_DES structure is used for specifying either a resource list or a resource requirements list that describes I/O port usage for a device instance. For more information about resource lists and resource requirements lists, see <a href="/windows-hardware/drivers/kernel/hardware-resources">Hardware Resources</a>.<br /> | 
+| <a href="/windows/win32/api/cfgmgr32/ns-cfgmgr32-io_range"><strong>IO_RANGE</strong></a><br /> | The IO_RANGE structure specifies a resource requirements list that describes I/O port usage for a device instance. For more information about resource requirements lists, see <a href="/windows-hardware/drivers/kernel/hardware-resources">Hardware Resources</a>.<br /> | 
+| <a href="/windows/win32/api/cfgmgr32/ns-cfgmgr32-io_resource"><strong>IO_RESOURCE</strong></a><br /> | The IO_RESOURCE structure is used for specifying either a resource list or a resource requirements list that describes I/O port usage for a device instance. For more information about resource lists and resource requirements lists, see <a href="/windows-hardware/drivers/kernel/hardware-resources">Hardware Resources</a>.<br /> | 
+| <a href="/windows/win32/api/cfgmgr32/ns-cfgmgr32-irq_des_64"><strong>IRQ_DES</strong></a><br /> | The IRQ_DES structure is used for specifying either a resource list or a resource requirements list that describes IRQ line usage for a device instance. For more information about resource lists and resource requirements lists, see <a href="/windows-hardware/drivers/kernel/hardware-resources">Hardware Resources</a>.<br /> | 
+| <a href="/windows/win32/api/cfgmgr32/ns-cfgmgr32-irq_range"><strong>IRQ_RANGE</strong></a><br /> | The IRQ_RANGE structure specifies a resource requirements list that describes IRQ line usage for a device instance. For more information about resource requirements lists, see <a href="/windows-hardware/drivers/kernel/hardware-resources">Hardware Resources</a>.<br /> | 
+| <a href="/windows/win32/api/cfgmgr32/ns-cfgmgr32-irq_resource_64"><strong>IRQ_RESOURCE</strong></a><br /> | The IRQ_RESOURCE structure is used for specifying either a resource list or a resource requirements list that describes IRQ line usage for a device instance. For more information about resource lists and resource requirements lists, see <a href="/windows-hardware/drivers/kernel/hardware-resources">Hardware Resources</a>.<br /> | 
+| <a href="/windows/win32/api/cfgmgr32/ns-cfgmgr32-mem_des"><strong>MEM_DES</strong></a><br /> | The MEM_DES structure is used for specifying either a resource list or a resource requirements list that describes memory usage for a device instance. For more information about resource lists and resource requirements lists, see <a href="/windows-hardware/drivers/kernel/hardware-resources">Hardware Resources</a>.<br /> | 
+| <a href="/windows/win32/api/cfgmgr32/ns-cfgmgr32-mem_range"><strong>MEM_RANGE</strong></a><br /> | The MEM_RANGE structure specifies a resource requirements list that describes memory usage for a device instance. For more information about resource requirements lists, see <a href="/windows-hardware/drivers/kernel/hardware-resources">Hardware Resources</a>.<br /> | 
+| <a href="/windows/win32/api/cfgmgr32/ns-cfgmgr32-mem_resource"><strong>MEM_RESOURCE</strong></a><br /> | The MEM_RESOURCE structure is used for specifying either a resource list or a resource requirements list that describes memory usage for a device instance. For more information about resource lists and resource requirements lists, see <a href="/windows-hardware/drivers/kernel/hardware-resources">Hardware Resources</a>.<br /> | 
+| <a href="/windows/win32/api/cfgmgr32/ns-cfgmgr32-mfcard_des"><strong>MFCARD_DES</strong></a><br /> | The MFCARD_DES structure is used for specifying either a resource list or a resource requirements list that describes resource usage by <em>one</em> of the hardware functions provided by an instance of a multifunction device. For more information about resource lists and resource requirements lists, see <a href="/windows-hardware/drivers/kernel/hardware-resources">Hardware Resources</a>.<br /> | 
+| <a href="/windows/win32/api/cfgmgr32/ns-cfgmgr32-mfcard_resource"><strong>MFCARD_RESOURCE</strong></a><br /> | The MFCARD_RESOURCE structure is used for specifying either a resource list or a resource requirements list that describes resource usage by <em>one</em> of the hardware functions provided by an instance of a multifunction device. For more information about resource lists and resource requirements lists, see <a href="/windows-hardware/drivers/kernel/hardware-resources">Hardware Resources</a>.<br /> | 
+| <a href="/windows/win32/api/cfgmgr32/ns-cfgmgr32-pccard_des"><strong>PCCARD_DES</strong></a><br /> | The PCCARD_DES structure is used for specifying either a resource list or a resource requirements list that describes resource usage by a PC Card instance. For more information about resource lists and resource requirements lists, see <a href="/windows-hardware/drivers/kernel/hardware-resources">Hardware Resources</a>.<br /> | 
+| <a href="/windows/win32/api/cfgmgr32/ns-cfgmgr32-pccard_resource"><strong>PCCARD_RESOURCE</strong></a><br /> | The PCCARD_RESOURCE structure is used for specifying either a resource list or a resource requirements list that describes resource usage by a PC Card instance. For more information about resource lists and resource requirements lists, see <a href="/windows-hardware/drivers/kernel/hardware-resources">Hardware Resources</a>.<br /> | 
+
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: Apply a Technique (Direct3D 11)
-description: With the constants, textures, and shader state declared and initialized, the only thing left to do is to set the effect state in the device.
+description: Learn how to set the effect state in the device for Direct3D 11 after the constants, textures, and shader state are declared and initialized.
 ms.assetid: 16001913-7ae2-4629-a625-eb850e29fc77
 ms.topic: article
 ms.date: 05/31/2018

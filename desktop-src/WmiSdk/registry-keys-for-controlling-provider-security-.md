@@ -137,7 +137,7 @@ The following procedures illustrate how to manage secure and compatible mode set
 
     **Compatible Mode:  HKEY\_LOCAL\_MACHINE**\\**SOFTWARE**\\**Microsoft**\\**WBEM**\\**CIMOM**\\**CompatibleHostProviders**
 
-8.  In the **name** field, enter the name of the provider you want to add to this key. The provider name must be in the following format: <namespace>:<\_\_RELPATH>. For example, root\\cimv2:\_\_win32provider.name="MyProvider".
+8.  In the **name** field, enter the name of the provider you want to add to this key. The provider name must be in the following format: &lt;namespace&gt;:<\_\_RELPATH>. For example, root\\cimv2:\_\_win32provider.name="MyProvider".
 9.  In the **data** field, enter 0.
 10. Click OK.
 

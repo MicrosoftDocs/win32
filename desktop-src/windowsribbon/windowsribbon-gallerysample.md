@@ -3,30 +3,29 @@ title: Gallery Sample
 description: This code sample demonstrates the markup and code required to use the different types of Gallery controls included in the Windows Ribbon framework.
 ms.assetid: 1a462f4e-e75a-40cf-9c52-0bad0a645d57
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 07/13/2021
 ---
 
 # Gallery Sample
 
 This code sample demonstrates the markup and code required to use the different types of Gallery controls included in the Windows Ribbon framework. The sample includes code that can be used to dynamically populate items into the Galleries, and handle special Gallery previewing events that support results-oriented UI.
 
--   [Usage](#usage)
-    -   [Building the Sample](#building-the-sample)
-    -   [Running the Sample](#running-the-sample)
--   [Support](#support)
--   [Minimum Requirements](#minimum-requirements)
--   [Related topics](#related-topics)
+- [Usage](#usage)
+  - [Building the Sample](#building-the-sample)
+  - [Running the Sample](#running-the-sample)
+- [Support](#support)
+- [Minimum Requirements](#minimum-requirements)
+- [Related topics](#related-topics)
 
 ## Usage
 
-The Gallery Sample can be downloaded as a standalone Microsoft Visual Studio project from the [Microsoft Download Center](https://www.microsoft.com/DOWNLOADS/en/default.aspx) or installed as part of the [Windows Software Development Kit (SDK)](https://msdn.microsoft.com/windows/bb980924.aspx).
+The Windows Ribbon framework samples can be downloaded as standalone Microsoft Visual Studio projects from the [Microsoft Download Center](https://www.microsoft.com/download/details.aspx?id=9620) or installed as part of the [Windows Software Development Kit (SDK)](https://developer.microsoft.com/windows/downloads/sdk-archive/).
 
--   Microsoft Download Center: [Windows Ribbon Samples](https://www.microsoft.com/downloads/details.aspx?familyid=141e13e8-b10b-4356-aaa5-609b2981574a&displaylang=en)
--   Windows Software Development Kit (SDK) (standard installation path): %ProgramFiles%\\Microsoft SDKs\\Windows\\\[version number\]\\Samples\\winui\\WindowsRibbon\\Gallery
+- Windows Software Development Kit (SDK) (standard installation path): %ProgramFiles%\\Microsoft SDKs\\Windows\\\[version number\]\\Samples\\winui\\WindowsRibbon\\Gallery
 
 ### Building the Sample
 
-Download the sample to your hard disk.
+Download the sample.
 
 Install the Windows SDK for Windows 7 and open its build environment command window. On the Start menu, point to All Programs, Microsoft Windows SDK, and then click CMD Shell.
 

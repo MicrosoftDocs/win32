@@ -42,7 +42,7 @@ Execute the following command for more usage options for the server:
 
 Then on computer A, start the TCP client by executing the following in a Command Prompt:
 
-**stcpclient.exe <fully-qualified-DNS-name-for-machine-B>**
+**stcpclient.exe &lt;fully-qualified-DNS-name-for-machine-B&gt;**
 
 At this point the connection should get established securely.
 

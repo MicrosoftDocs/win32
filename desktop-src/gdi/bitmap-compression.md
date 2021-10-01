@@ -16,23 +16,23 @@ When the **Compression** member of the bitmap information header structure is BI
 
 
 
-| Value | Meaning                                                                                                                                                     |
-|-------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 0     | End of line.                                                                                                                                                |
-| 1     | End of bitmap.                                                                                                                                              |
-| 2     | Delta. The 2 bytes following the escape contain unsigned values indicating the horizontal and vertical offsets of the next pixel from the current position. |
+| Value | Meaning                                                                                                                                                |
+|-------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 0     | End of line.                                                                                                                                           |
+| 1     | End of bitmap.                                                                                                                                         |
+| 2     | Delta. The 2 bytes following the escape contain unsigned values indicating the offset to the right and up of the next pixel from the current position. |
 
 
 
  
 
--   In *absolute mode*, the first byte is zero and the second byte is a value in the range 03H through FFH. The second byte represents the number of bytes that follow, each of which contains the color index of a single pixel. When the second byte is two or less, the escape has the same meaning as encoded mode. In absolute mode, each run must be aligned on a word boundary.
+-   In *absolute mode*, the first byte is zero and the second byte is a value in the range 03H through FFH. The second byte represents the number of bytes that follow, each of which contains the color index of a single pixel. When the second byte is two or less, the escape has the same meaning as encoded mode. In absolute mode, each run must be zero-padded to end on a 16-bit word boundary.
 
 The following example shows the hexadecimal values of an 8-bit compressed bitmap:
 
 
 ```C++
-[03 04] [05 06] [00 03 45 56 67] [02 78] [00 02 05 01] 
+[03 04] [05 06] [00 03 45 56 67 00] [02 78] [00 02 05 01] 
 [02 78] [00 00] [09 1E] [00 01] 
 ```
 
@@ -46,7 +46,7 @@ The bitmap expands as follows (two-digit values represent a color index for a si
 06 06 06 06 06 
 45 56 67 
 78 78 
-move current position 5 right and 1 down 
+move current position 5 right and 1 up 
 78 78 
 end of line 
 1E 1E 1E 1E 1E 1E 1E 1E 1E 
@@ -78,7 +78,7 @@ The bitmap expands as follows (single-digit values represent a color index for a
 0 6 0 6 0 
 4 5 5 6 6 7 
 7 8 7 8 
-move current position 5 right and 1 down 
+move current position 5 right and 1 up 
 7 8 7 8 
 end of line 
 1 E 1 E 1 E 1 E 1 

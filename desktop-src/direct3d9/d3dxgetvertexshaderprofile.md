@@ -58,41 +58,14 @@ A shader profile specifies the assembly shader version to use and the capabiliti
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Shader Profile</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>vs_1_1</td>
-<td>Compile to vs_1_1 version.</td>
-</tr>
-<tr class="even">
-<td>vs_2_0</td>
-<td>Compile to vs_2_0 version.</td>
-</tr>
-<tr class="odd">
-<td>vs_2_a</td>
-<td>Same as the vs_2_0 profile, with the following additional capabilities available for the compiler to target:
-<ul>
-<li>Number of Temporary Registers (r#) is greater than or equal to 13.</li>
-<li>Dynamic flow control instruction.</li>
-<li>Predication.</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>vs_3_0</td>
-<td>Compile to vs_3_0 version.</td>
-</tr>
-</tbody>
-</table>
+
+| Shader Profile | Description | 
+|----------------|-------------|
+| vs_1_1 | Compile to vs_1_1 version. | 
+| vs_2_0 | Compile to vs_2_0 version. | 
+| vs_2_a | Same as the vs_2_0 profile, with the following additional capabilities available for the compiler to target:<ul><li>Number of Temporary Registers (r#) is greater than or equal to 13.</li><li>Dynamic flow control instruction.</li><li>Predication.</li></ul> | 
+| vs_3_0 | Compile to vs_3_0 version. | 
+
 
 
 

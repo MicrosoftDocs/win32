@@ -52,7 +52,7 @@ The Peer Infrastructure is supported in Windows Vista, Windows XP with Service P
 
 Further information regarding Peer-to-Peer technologies can be found at the following locations:
 
-|                                                                                                           |                                                                                                                |
+| Topic                                                                                                          | Description                                                                                                               |
 |-----------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------|
 | [Windows Peer Networking Resources](https://www.microsoft.com/p2p)                       | Access published white-papers, samples, and presentations detailing the Peer Networking technology.<br/> |
 | [Microsoft Peer Networking Blog](/archive/blogs/p2p/)                          | Read the latest blog entries from Microsoft's Peer Networking Team.<br/>                                 |

@@ -108,7 +108,7 @@ Type: **[**DWORD**](/windows/desktop/WinProg/windows-data-types)**
 
 </dd> <dd>
 
-Red (or lumiannce or Y) mask for reading color data. For instance, given the A8R8G8B8 format, the red mask would be 0x00ff0000.
+Red (or luminance or Y) mask for reading color data. For instance, given the A8R8G8B8 format, the red mask would be 0x00ff0000.
 
 </dd> <dt>
 
