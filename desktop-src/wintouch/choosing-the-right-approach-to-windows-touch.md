@@ -62,7 +62,7 @@ If you want to interpret multiple touch points in your application, you should c
 >
 > **Bluetooth & devices > Touch > "Three- and four-finger touch gestures"**
 >
-> When set to "On" (default), the system will handle all three- and four-finger interactions (apps will not be able to support them). This might also add a slight delay to some single- or two-finger touch interactions.
+> When set to "On" (default), the system will handle all three- and four-finger interactions (apps will not be able to support them).
 >
 > When set to "Off", three- and four-finger interactions can be supported by apps (they will not be handled by the system).
 >
