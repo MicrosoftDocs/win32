@@ -7,9 +7,6 @@ ms.date: 09/10/2021
 
 # Composition swapchain programming guide
 
-> [!NOTE]
-> **Some information relates to pre-released product, which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.**
-
 The composition swapchain API is a spiritual successor to the DXGI swapchain, which allows applications to render and present content to the screen. There are several benefits to using this API over the DXGI swapchain. More fine-grained control is given to your application regarding the state of the swapchain, and more freedom is provided when it comes to how the swapchain is used. Additionally, the API provides a better story for precise present timing.
 
 ## What is presentation?
