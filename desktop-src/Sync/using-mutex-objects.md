@@ -76,7 +76,7 @@ int main( void )
     for( i=0; i < THREADCOUNT; i++ )
         CloseHandle(aThread[i]);
 
-    CloseHandle(ghMutex);
+    CloseHandle(ghMutex); //Not necessary here. Because  The system closes the handle automatically when the process terminates.
 
     return 0;
 }
