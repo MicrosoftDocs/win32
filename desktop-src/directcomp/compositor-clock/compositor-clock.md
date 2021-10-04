@@ -7,9 +7,6 @@ ms.date: 09/10/2021
 
 # Compositor clock
 
-> [!NOTE]
-> **Some information relates to pre-released product, which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.**
-
 ## Overview
 
 The compositor clock API offers statistics and frame rate control for presenting on-screen content smoothly, at the fastest possible cadence, and on a variety of hardware configurations. Traditionally, this has been handled by DirectX APIs. But those have strong ties to fixed refresh rate and single display configurations. For example, here's a simplified piece of pseudo-code showing how apps are typically authored to draw at the display refresh rate.
