@@ -49,9 +49,9 @@ HRESULT hr = S_OK;
     wcex.hInstance      = HINST_THISCOMPONENT;
     wcex.hIcon          = NULL;
     wcex.hCursor        = LoadCursor(NULL, IDC_ARROW);
-    wcex.hbrBackground  = (HBRUSH) GetStockObject (GRAY_BRUSH);
+    wcex.hbrBackground  = (HBRUSH) GetStockObject(GRAY_BRUSH);
     wcex.lpszMenuName   = NULL;
-    wcex.lpszClassName  = L&quot;DCompLayeredChildWindow&quot;;
+    wcex.lpszClassName  = L"DCompLayeredChildWindow";
     wcex.hIconSm        = NULL;
 
     if (!RegisterClassExW(&wcex))
@@ -60,17 +60,17 @@ HRESULT hr = S_OK;
     }
 
     m_hwndLayeredChild = CreateWindowEx(WS_EX_LAYERED,
-        L&quot;DCompLayeredChildWindow&quot;,                
-        NULL,                                    
-        WS_CHILD | WS_CLIPSIBLINGS,             
-        0, 
-        0, 
+        L"DCompLayeredChildWindow",
+        NULL,
+        WS_CHILD | WS_CLIPSIBLINGS,
+        0,
+        0,
         static_cast<UINT>(ceil(640.0f * m_dpiX / 96.0f)),
-        static_cast<UINT>(ceil(480.0f * m_dpiY / 96.0f)),                                  
-        m_hwndMain,                               
-        NULL,                                     
-        HINST_THISCOMPONENT,                    
-        this);                                   
+        static_cast<UINT>(ceil(480.0f * m_dpiY / 96.0f)),
+        m_hwndMain,
+        NULL,
+        HINST_THISCOMPONENT,
+        this);
 ```
 
 
@@ -392,7 +392,7 @@ private:
 //
 // AnimateLayeredChildWindow.cpp
 //
-// THIS CODE AND INFORMATION IS PROVIDED &quot;AS IS&quot; WITHOUT WARRANTY OF
+// THIS CODE AND INFORMATION IS PROVIDED "AS IS" WITHOUT WARRANTY OF
 // ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING BUT NOT LIMITED TO
 // THE IMPLIED WARRANTIES OF MERCHANTABILITY AND/OR FITNESS FOR A
 // PARTICULAR PURPOSE.
@@ -403,7 +403,7 @@ private:
 //   of the child window from thumbsize to fullsize. Click the child
 //   window again to reset.
 
-#include &quot;AnimateLayeredChildWindow.h&quot;
+#include "AnimateLayeredChildWindow.h"
 
 #define TIMER_ID 100
 
@@ -501,10 +501,10 @@ HRESULT DemoApp::InitializeMainWindow()
         wcex.cbClsExtra    = 0;
         wcex.cbWndExtra    = sizeof(LONG_PTR);
         wcex.hInstance     = HINST_THISCOMPONENT;
-        wcex.hbrBackground = (HBRUSH)(COLOR_WINDOW+1);;
+        wcex.hbrBackground = (HBRUSH)(COLOR_WINDOW + 1);
         wcex.lpszMenuName  = NULL;
         wcex.hCursor       = LoadCursor(NULL, IDC_ARROW);
-        wcex.lpszClassName = L&quot;DirectCompDemoApp&quot;;
+        wcex.lpszClassName = L"DirectCompDemoApp";
 
         RegisterClassEx(&wcex);
 
@@ -529,8 +529,8 @@ HRESULT DemoApp::InitializeMainWindow()
         float height = static_cast<float>(rect.bottom - rect.top);
 
         m_hwndMain = CreateWindow(
-            L&quot;DirectCompDemoApp&quot;,
-            L&quot;DirectComposition Demo Application&quot;,
+            L"DirectCompDemoApp",
+            L"DirectComposition Demo Application",
             WS_OVERLAPPED | WS_SYSMENU,
             CW_USEDEFAULT,
             CW_USEDEFAULT,
@@ -583,7 +583,7 @@ HRESULT DemoApp::InitializeLayeredChildWindow()
     wcex.hCursor        = LoadCursor(NULL, IDC_ARROW);
     wcex.hbrBackground  = (HBRUSH) GetStockObject (GRAY_BRUSH);
     wcex.lpszMenuName   = NULL;
-    wcex.lpszClassName  = L&quot;DCompLayeredChildWindow&quot;;
+    wcex.lpszClassName  = L"DCompLayeredChildWindow";
     wcex.hIconSm        = NULL;
     
     if (!RegisterClassExW(&wcex))
@@ -592,17 +592,17 @@ HRESULT DemoApp::InitializeLayeredChildWindow()
     }
 
     m_hwndLayeredChild = CreateWindowEx(WS_EX_LAYERED,
-        L&quot;DCompLayeredChildWindow&quot;,                
-        NULL,                                    
-        WS_CHILD | WS_CLIPSIBLINGS,             
-        0, 
-        0, 
+        L"DCompLayeredChildWindow",
+        NULL,
+        WS_CHILD | WS_CLIPSIBLINGS,
+        0,
+        0,
         static_cast<UINT>(ceil(640.0f * m_dpiX / 96.0f)),
-        static_cast<UINT>(ceil(480.0f * m_dpiY / 96.0f)),                                  
-        m_hwndMain,                               
-        NULL,                                     
-        HINST_THISCOMPONENT,                    
-        this);                                   
+        static_cast<UINT>(ceil(480.0f * m_dpiY / 96.0f)),
+        m_hwndMain,
+        NULL,
+        HINST_THISCOMPONENT,
+        this);
 
     hr = m_hwndLayeredChild ? S_OK : E_FAIL;
     if (SUCCEEDED(hr))
@@ -720,8 +720,8 @@ HRESULT DemoApp::CreateDeviceResources()
         hr = LoadResourceD2DBitmap(
             m_pRenderTarget,
             m_pWICFactory,
-            L&quot;WhiteFlowers&quot;,
-            L&quot;Image&quot;,
+            L"WhiteFlowers",
+            L"Image",
             &m_pBitmap
             );
     }
