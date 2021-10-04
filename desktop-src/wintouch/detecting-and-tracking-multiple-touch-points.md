@@ -200,7 +200,7 @@ int GetContactIndex(int dwID){
 >
 > When set to "Off", three- and four-finger interactions can be supported by apps (they will not be handled by the system).
 >
-> If your application must support these interactions, we recommend that you inform users of this setting.
+> If your application must support these interactions, we recommend that you inform users of this setting and provide a link that launches the Settings app to the relevant page (ms-settings:devices-touch). For more details, see [Launcher.LaunchUriAsync Method](/uwp/api/windows.system.launcher.launchuriasync).
 
 ## Draw the Points
 
