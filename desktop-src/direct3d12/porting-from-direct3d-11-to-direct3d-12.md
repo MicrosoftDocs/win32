@@ -75,7 +75,7 @@ In Direct3D 12 this setting of pipeline state has been combined into a single ob
 
 These calls replace all the individual calls to set shaders, input layout, blend state, rasterizer state, depth stencil state, and so on, in Direct3D 11
 
-- Device 11 methods: ``CreateInputLayout``, ``CreateXShader``, ``CreateDepthStencilState``, andD ``CreateRasterizerState``.
+- Device 11 methods: ``CreateInputLayout``, ``CreateXShader``, ``CreateDepthStencilState``, and ``CreateRasterizerState``.
 - Device Context 11 methods:  ``IASetInputLayout``, ``xxSetShader``, ``OMSetBlendState``, ``OMSetDepthStencilState``, and ``RSSetState``.
 
 While Direct3D 12 can support older compiled shader blobs, shaders should be built using either Shader Model 5.1 with the FXC/D3DCompile APIs, or using Shader Model 6 using the DXIL DXC compiler. You should validate Shader Model 6 support with [**CheckFeatureSupport**](/windows/win32/api/d3d12/nf-d3d12-id3d12device-checkfeaturesupport) and **D3D12_FEATURE_SHADER_MODEL**.
