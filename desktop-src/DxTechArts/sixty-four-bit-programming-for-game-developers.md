@@ -144,7 +144,9 @@ The x87, MMX, and 3DNow! instruction sets are deprecated in 64-bit modes. The in
 
 Some older DirectX APIs have been dropped for 64-bit native applications: DirectPlay 4 and earlier, DirectDraw 6 and earlier, Direct3D 8 and earlier, and DirectInput 7 and earlier. Also, the core API of DirectMusic is available to native 64-bit applications, but the performance layer and DirectMusic Producer are deprecated.
 
-Visual Studio issues deprecation warnings, and these changes are not an issue for developers who usedl>
+Visual Studio issues deprecation warnings, and these changes are not an issue for developers who use the latest APIs.
+
+</dd> </dl>
 
 ## Profiling and Optimization of Ported Applications
 
