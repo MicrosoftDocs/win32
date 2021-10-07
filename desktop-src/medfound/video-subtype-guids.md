@@ -176,7 +176,7 @@ The **D3DFORMAT** enumeration is defined in the header file d3d9types.h. The fol
 | 32-bit RGB with alpha channel                                           | **D3DFMT\_A8R8G8B8**    |
 | 24-bit RGB                                                              | **D3DFMT\_R8G8B8**      |
 | RGB 555 (16-bit RGB)                                                    | **D3DFMT\_X1R5G5B5**    |
-| RGB 555 with alpha channel                                              | **D3DFMT\_A4R4G4B4**    |
+| RGB 555 with alpha channel                                              | **D3DFMT\_A1R5G5B5**    |
 | RGB 565 (16-bit RGB)                                                    | **D3DFMT\_R5G6B5**      |
 | 8-bit palettized RGB                                                    | **D3DFMT\_P8**          |
 | A2 R10 G10 B10 (32-bit RGB with alpha channel; 10 bits per RGB channel) | **D3DFMT\_A2R10G10B10** |
