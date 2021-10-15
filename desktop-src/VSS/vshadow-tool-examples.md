@@ -25,9 +25,9 @@ For a complete list of command-line options and their use, see [VShadow Tool and
 
 If you use the **-script** optional flag when you create shadow copies, VShadow creates a CMD script file containing environment variables related to the newly created shadow copies, such as the following:
 
--   The shadow copy set ID, which is stored in the %VSHADOW\_SET\_ID% environment variable
--   The shadow copy IDs, which are stored in variables of the form %VSHADOW\_ID\_*NNN*%, where *NNN* represents the index of the source volume in the VShadow command line
--   The shadow copy device names, which are stored in variables of the form %VSHADOW\_DEVICE\_*NNN*%, where *NNN* is the index of the source volume in the VShadow command line
+-   The shadow copy set ID, which is stored in the %SHADOW\_SET\_ID% environment variable
+-   The shadow copy IDs, which are stored in variables of the form %SHADOW\_ID\_*NNN*%, where *NNN* represents the index of the source volume in the VShadow command line
+-   The shadow copy device names, which are stored in variables of the form %SHADOW\_DEVICE\_*NNN*%, where *NNN* is the index of the source volume in the VShadow command line
 
 You can use the generated CMD file to perform limited management operations on the shadow copies.
 
@@ -40,7 +40,7 @@ The following example shows how to create a persistent shadow copy from the comm
 
 1.  **vshadow -p -nw -script=SETVAR1.cmd c:**
 2.  **call SETVAR1.cmd**
-3.  **C:\\>vshadow -el=%VSHADOW\_ID\_1%,c:\\directory1**
+3.  **C:\\>vshadow -el=%SHADOW\_ID\_1%,c:\\directory1**
 
 ## Accessing Nonpersistent Shadow Copies
 
@@ -50,13 +50,13 @@ The following example shows how to use the -exec command-line option to run a sc
 
 **vshadow -nw -exec=enum.cmd c:**
 
-In the executed script, you can also run the generated SETVAR script in this custom command. This allows the script to access the contents of the shadow copies directly. Remember that the shadow device can be retrieved from the VSHADOW\_DEVICE\_NNN environment variable.
+In the executed script, you can also run the generated SETVAR script in this custom command. This allows the script to access the contents of the shadow copies directly. Remember that the shadow device can be retrieved from the SHADOW\_DEVICE\_NNN environment variable.
 
 Here is an example enum.cmd script:
 
 ``` syntax
 call SETVAR1.cmd
-for /R %VSHADOW_DEVICE_1%\ %%i in (*.*) do @echo %%i
+for /R %SHADOW_DEVICE_1%\ %%i in (*.*) do @echo %%i
 ```
 
 Here is the command line to execute the enum.cmd script:
@@ -70,7 +70,7 @@ The following example shows how to copy a file from a shadow copy.
 1.  **dir > c:\\somefile.txt**
 2.  **vshadow -p -nw -script=SETVAR1.cmd c:**
 3.  **call SETVAR1.cmd**
-4.  **copy %VSHADOW\_DEVICE\_1%\\somefile.txt c:\\somefile\_bak.txt**
+4.  **copy %SHADOW\_DEVICE\_1%\\somefile.txt c:\\somefile\_bak.txt**
 
 ## Enumerating All Files on a Shadow Copy Device
 
@@ -79,7 +79,7 @@ The following example shows how to enumerate all files on a shadow copy device f
 1.  **dir > c:\\somefile.txt**
 2.  **vshadow -p -nw -script=SETVAR1.cmd c:**
 3.  **call SETVAR1.cmd**
-4.  **for /R %VSHADOW\_DEVICE\_1%\\ %%i in (\*) do @echo %%i**
+4.  **for /R %SHADOW\_DEVICE\_1%\\ %%i in (\*) do @echo %%i**
 
 ## Importing a Transportable Shadow Copy
 
@@ -126,10 +126,10 @@ The following example shows how to create, expose, and break transportable shado
 5.  Expose the shadow copies on computer B by typing the following commands:
     1.  **rmdir /s c:\\mount\_point**
     2.  **mkdir c:\\mount\_point**
-    3.  **vshadow –el=%VSHADOW\_ID\_1%,c:\\mount\_point**
+    3.  **vshadow –el=%SHADOW\_ID\_1%,c:\\mount\_point**
 
     This will surface the created shadow copy devices on computer B.
-6.  Break the shadow copy set to make the volumes writable by typing the following command:**C:\\>vshadow –bw=%VSHADOW\_SET\_ID%**
+6.  Break the shadow copy set to make the volumes writable by typing the following command:**C:\\>vshadow –bw=%SHADOW\_SET\_ID%**
 
 Note that nonpersistent transportable shadow copies can also be imported, but they are automatically deleted when the **vshadow** **-i** process exits. To import the shadow copies before they are deleted, you must use the **-exec** command-line option as described in Access Nonpersistent Shadow Copies.
 
