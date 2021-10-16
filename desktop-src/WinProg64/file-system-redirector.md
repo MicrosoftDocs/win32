@@ -49,7 +49,7 @@ Certain subdirectories are exempt from redirection. Access to these subdirectori
 
 To retrieve the name of the 32-bit system directory, 64-bit applications should use the [**GetSystemWow64Directory2**](/windows/desktop/api/wow64apiset/nf-wow64apiset-getsystemwow64directory2a) function (Windows 10, version 1511) or the [**GetSystemWow64Directory**](/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetknownfolderpath) function.
 
-Applications should use the [**SHGetKnownFolderPath**](https://www.bing.com/search?q=**SHGetKnownFolderPath**) function to determine the %ProgramFiles% directory name.
+Applications should use the [**SHGetKnownFolderPath**](/windows/win32/api/shlobj_core/nf-shlobj_core-shgetknownfolderpath) function to determine the %ProgramFiles% directory name.
 
 **Windows Server 2003 and Windows XP:** Applications should use the [**SHGetSpecialFolderPath**](/windows/win32/api/shlobj_core/nf-shlobj_core-shgetspecialfolderpatha) function to determine the %ProgramFiles% directory name.
 
