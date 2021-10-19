@@ -12,7 +12,7 @@ The aim of this Get Started series is to teach you how to write a desktop progra
 
 In the first module, you'll learn step-by-step how to create and show a window. Later modules will introduce the Component Object Model (COM), graphics and text, and user input.
 
-For this series, it is assumed that you have a good working knowledge of C++ programming. No previous experience with Windows programming is assumed. If you are new to C++, learning material is availavble in the [C++ language documentation](https://msdn.microsoft.com/vstudio//default.aspx).
+For this series, it is assumed that you have a good working knowledge of C++ programming. No previous experience with Windows programming is assumed. If you are new to C++, learning material is available in the [C++ language documentation](https://msdn.microsoft.com/vstudio//default.aspx).
 
 ## In this section
 
