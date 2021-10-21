@@ -58,12 +58,10 @@ Different Windows versions support different TLS cipher suites and priority orde
 
 | Topic | Description |
 | ----- | ----- |
-| [TLS Cipher Suites](tls-cipher-suites.md) | Information about the cipher suites available with the TLS protocol in Windows Server 2003 and Windows XP. |
+| [TLS Cipher Suites](/windows/win32/secauthn/cipher-suites-in-schannel) | Information about the cipher suites available with the TLS protocol in Windows Server 2003 and Windows XP. |
 | [Secure Sockets Layer Protocol](secure-sockets-layer-protocol.md) | General information about SSL 2.0 and 3.0, including the available cipher suites in Windows Server 2003 and Windows XP. |
 
 
 > [!Note]  
 > Prior to Windows 10, cipher suite strings were appended with the elliptic curve to determine the curve priority. Windows 10 supports an elliptic curve priority order setting so the elliptic curve suffix is not required and is overridden by the new elliptic curve priority order, when provided, to allow organizations to use group policy to configure different versions of Windows with the same cipher suites.
-
- 
 
