@@ -13,10 +13,8 @@ ms.date: 05/31/2018
 
 # Microsoft Interface Definition Language
 
->[!NOTE]
->This topic is about the "classic MIDL" used for creating RPC and COM interfaces.
->For the "modern MIDL" used to create Windows Runtime (WinRT) types,
->see [Microsoft Interface Definition Language 3.0 reference](/uwp/midl-3/).
+> [!NOTE]
+> This topic is about the *classic* MIDL used for creating RPC and COM interfaces. For MIDL 3.0, which is used to create Windows Runtime (WinRT) types, see [Microsoft Interface Definition Language 3.0 reference](/uwp/midl-3/).
 
 ## Purpose
 
