@@ -14,6 +14,7 @@ When you verify the signature of a cosigned message, you use the [**CryptGetMess
 
 The following example shows how to sign a message by more than one person (cosign the message), verify all signatures, and decode the message.
 
+<b>Note</b> This function may return a count of duplicate signers and therefore may not be sufficient to avert attacks. We recommend using the sid (SignerIdentifier) field from SignerInfo to identify duplicate signers in a message.  
 
 ```C++
 //-------------------------------------------------------------------
