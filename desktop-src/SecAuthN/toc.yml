@@ -223,7 +223,7 @@
             href: protocols-in-tls-ssl--schannel-ssp-.md
             items: 
             - name: "Private Communications Technology"
-              href: private-communications-technology.md
+              href: /windows/win32/secauthn/protocols-in-tls-ssl--schannel-ssp-
             - name: "Secure Sockets Layer Protocol"
               href: secure-sockets-layer-protocol.md
             - name: "Transport Layer Security Protocol"
@@ -234,7 +234,7 @@
               - name: "TLS Record Protocol"
                 href: tls-record-protocol.md
               - name: "TLS Cipher Suites"
-                href: tls-cipher-suites.md
+                href: /windows/win32/secauthn/cipher-suites-in-schannel
               - name: "TLS vs. SSL"
                 href: tls-versus-ssl.md
           - name: "Message Authentication Codes in Schannel"

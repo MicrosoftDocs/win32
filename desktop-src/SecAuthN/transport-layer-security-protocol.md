@@ -44,7 +44,7 @@ For details about the SSPI functions and SSP functions, see [Authentication Func
 
 <dl> <dt>
 
-[TLS Cipher Suites](tls-cipher-suites.md)
+[TLS Cipher Suites](/windows/win32/secauthn/cipher-suites-in-schannel)
 </dt> <dt>
 
 [TLS vs. SSL](tls-versus-ssl.md)
