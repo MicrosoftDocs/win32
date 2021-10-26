@@ -94,7 +94,7 @@ Describes the rasterizer state.
 
 `DepthStencilState`
 
-Type: **[D3D12_DEPTH_STENCIL_DESC](/windows/win32/api/d3d12/ns-d3d12-d3d12_rasterizer_desc)**
+Type: **[D3D12_DEPTH_STENCIL_DESC](/windows/win32/api/d3d12/ns-d3d12-d3d12_depth_stencil_desc)**
 
 Describes the depth-stencil state.
 
