@@ -3,7 +3,7 @@ description: The Microsoft XPS Document Writer (MXDW) is a print-to-file driver 
 ms.assetid: cb431700-f10f-4c53-9944-d6769895595d
 title: Microsoft XPS Document Writer (MXDW)
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 10/26/2021
 ---
 
 # Microsoft XPS Document Writer (MXDW)
@@ -30,26 +30,13 @@ When installed, the MXDW appears as an available print queue in the Print dialog
 
 The following image shows the MXDW being selected as the printer in the Windows Vista common print dialog box.
 
-![an image of the print dialog box that shows the selection of the microsoft xps document writer (mxdw)](images/choosingmxdwinvista.gif)
+:::image type="content" source="images/choosingmxdwinvista.gif" alt-text="An image of the print dialog box that shows the selection of the microsoft xps document writer (mxdw).":::
 
 Application developers can customize the output of MXDW using the [MXDW configuration settings](mxdw-configuration-settings.md).
 
 ## Related topics
 
-<dl> <dt>
-
-[XML Paper Specification](https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf)
-</dt> <dt>
-
-[XPS Specification and License Downloads](https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf)
-</dt> <dt>
-
-[isXPS Conformance Tool](/previous-versions/dotnet/netframework-3.0/aa348104(v=vs.85))
-</dt> <dt>
-
-[MXDW configuration settings](mxdw-configuration-settings.md)
-</dt> </dl>
-
- 
-
- 
+- [XML Paper Specification](https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf)
+- [XPS Specification and License Downloads](https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf)
+- [isXPS Conformance Tool](/previous-versions/dotnet/netframework-3.0/aa348104(v=vs.85))
+- [MXDW configuration settings](mxdw-configuration-settings.md)
