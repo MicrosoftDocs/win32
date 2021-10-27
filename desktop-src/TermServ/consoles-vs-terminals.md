@@ -8,13 +8,14 @@ ms.date: 10/26/2021
 
 # Remote vs. Console terminals/sessions
 
+A  `console` is a terminal session that is connected to a remote host.
 The point of this document is to explain the differences between console and remote sessions. As well as go into some of the implications underneath.
 
 ## What is a Terminal?
 
 A terminal is a concept that Remote Desktop Services introduces that’s basically a group of input/output devices and configuration. There are different types of Terminals, but the two most common ones are “Remote” and “Console”. 
 
-## What do you do with a Terminal? 
+## What do you do with a Terminal?
 
 A terminal’s purpose in life is to be attached to a Session. If it’s not attached to a Session, it will be attached shortly or it’s in the process of being destroyed. This document won’t cover in detail what a session is, but it’s essentially the element that holds the user’s processes, data identity and runs it’s own win32k instance under csrss.exe. 
 
