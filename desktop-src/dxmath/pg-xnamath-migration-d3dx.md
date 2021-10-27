@@ -226,7 +226,7 @@ When working with Direct3D 10.x or Direct3D 11, you will typically use DirectXMa
  
 
 > [!Note]  
-> [Spherical Harmonics](https://github.com/Microsoft/DirectXMath/tree/master/SHMath) functions for DirectXMath are available separately. There is no DirectXMath equivalent to **ID3DXMatrixStack**.
+> [Spherical Harmonics](https://github.com/Microsoft/DirectXMath/tree/master/SHMath) functions for DirectXMath are available separately. A DirectXMath equivalent to [ID3DXMatrixStack](https://github.com/microsoft/DirectXMath/blob/master/MatrixStack/DirectXMatrixStack.h) is also available.
 
  
 
