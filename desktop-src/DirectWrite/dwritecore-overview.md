@@ -33,13 +33,13 @@ DWriteCore is demonstrated by way of the [DWriteCoreGallery](https://github.com/
 
 ## Get started with DWriteCore
 
-DWriteCore is part of [Windows App SDK 0.8](https://github.com/microsoft/ProjectReunion/releases/tag/v0.8.0). This section describes how to set up your development environment for programming with DWriteCore.
+DWriteCore is part of the [Windows App SDK](https://github.com/microsoft/WindowsAppSDK). This section describes how to set up your development environment for programming with DWriteCore.
 
-### Install the Windows App SDK 0.8 VSIX
+### Install the Windows App SDK VSIX
 
 In Visual Studio, click **Extensions** > **Manage Extensions**, search for *Windows App SDK*, and download the Windows App SDK extension. Close and reopen Visual Studio, and follow the prompts to install the extension.
 
-For more info, see [Windows App SDK 0.8](https://github.com/microsoft/ProjectReunion/releases/tag/v0.8.0) and [Set up your development environment](/windows/apps/windows-app-sdk/set-up-your-development-environment#3-install-the-windows-app-sdk-extension-for-visual-studio).
+For more info, see [Get started with the Windows App SDK](/windows/apps/windows-app-sdk/#get-started-with-the-windows-app-sdk) and [Install the Windows App SDK extension for Visual Studio](/windows/apps/windows-app-sdk/set-up-your-development-environment#4-install-the-windows-app-sdk-extension-for-visual-studio).
 
 ### Create a new project
 
@@ -65,7 +65,7 @@ Porting DirectWrite to DWriteCore is a sufficiently large project to span multip
 
 ### Features in the current release of DWriteCore
 
-The version of DWriteCore currently available is part of [Windows App SDK 0.8](https://github.com/microsoft/ProjectReunion/releases/tag/v0.8.0). It contains the basic tools that you, as a developer, need to consume DWriteCore, including the following features.
+DWriteCore is part of the [Windows App SDK](https://github.com/microsoft/WindowsAppSDK). It contains the basic tools that you, as a developer, need to consume DWriteCore, including the following features.
 
 - Font enumeration.
 - Font API.
@@ -206,3 +206,4 @@ int __stdcall wWinMain(HINSTANCE, HINSTANCE, LPWSTR, int)
 There are a few APIs that are either stubs only, or they behave somewhat differently on non-Windows platforms. For example, [IDWriteGdiInterop::CreateFontFaceFromHdc](/windows/win32/api/dwrite/nf-dwrite-idwritegdiinterop-createfontfacefromhdc) returns **E_NOTIMPL** on non-Windows platforms, since there's no such thing as an **HDC** without [GDI](../gdi/windows-gdi.md).
 
 And, finally, there are certain other Windows APIs that are typically used together with DirectWrite (Direct2D being a notable example). However, currently, Direct2D and DWriteCore don't interoperate. For example, if you create an [**IDWriteTextLayout**](/windows/win32/api/dwrite/nn-dwrite-idwritetextlayout) using DWriteCore, and pass it to [**D2D1RenderTarget::DrawTextLayout**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-drawtextlayout), then that call will fail.
+

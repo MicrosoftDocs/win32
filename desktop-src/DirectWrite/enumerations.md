@@ -14,7 +14,6 @@ DirectWrite defines the following enumerations.
 
 ## In this section
 
-
 | Topic | Description | 
 |-------|-------------|
 | <a href="/windows/win32/api/dwrite_3/ne-dwrite_3-dwrite_automatic_font_axes"><strong>DWRITE_AUTOMATIC_FONT_AXES</strong></a> | Defines constants that specify certain axes that can be applied automatically in layout during font selection. | 
@@ -84,17 +83,3 @@ DirectWrite defines the following enumerations.
 | <a href="/windows/win32/api/dwrite/ne-dwrite-dwrite_trimming_granularity"><strong>DWRITE_TRIMMING_GRANULARITY</strong></a> | Specifies the text granularity used to trim text overflowing the layout box. | 
 | <a href="/windows/win32/api/Dwrite_1/ne-dwrite_1-dwrite_vertical_glyph_orientation"><strong>DWRITE_VERTICAL_GLYPH_ORIENTATION</strong></a> | The <a href="/windows/win32/api/Dwrite_1/ne-dwrite_1-dwrite_vertical_glyph_orientation"><strong>DWRITE_VERTICAL_GLYPH_ORIENTATION</strong></a> enumeration contains values that specify the desired kind of glyph orientation for the text. | 
 | <a href="/windows/win32/api/dwrite/ne-dwrite-dwrite_word_wrapping"><strong>DWRITE_WORD_WRAPPING</strong></a> | Specifies the word wrapping to be used in a particular multiline paragraph. <blockquote>[!Note]<br /><strong>DWRITE_WORD_WRAPPING_EMERGENCY_BREAK</strong>, <strong>DWRITE_WORD_WRAPPING_WHOLE _WORD</strong>, and <strong>DWRITE_WORD_WRAPPING_CHARACTER</strong> are available in Windows 8.1 and later, only.</blockquote> | 
-
-
-
-
- 
-
- 
-
- 
-
-
-
-
-

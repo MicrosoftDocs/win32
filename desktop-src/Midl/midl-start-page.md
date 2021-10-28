@@ -13,6 +13,9 @@ ms.date: 05/31/2018
 
 # Microsoft Interface Definition Language
 
+> [!NOTE]
+> This topic is about the *classic* MIDL used for creating RPC and COM interfaces. For MIDL 3.0, which is used to create Windows Runtime (WinRT) types, see [Microsoft Interface Definition Language 3.0 reference](/uwp/midl-3/).
+
 ## Purpose
 
 The Microsoft Interface Definition Language (MIDL) defines interfaces between client and server programs. Microsoft includes the MIDL compiler with the Platform Software Development Kit (SDK) to enable developers to create the interface definition language (IDL) files and application configuration files (ACF) required for remote procedure call (RPC) interfaces and COM/DCOM interfaces. MIDL also supports the generation of type libraries for OLE Automation.

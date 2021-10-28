@@ -79,7 +79,7 @@ The following cipher suites are supported by Schannel; however, they are not pre
 
 | Topic                                                                         | Description                                                                                                                        |
 |-------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------|
-| [TLS Cipher Suites](tls-cipher-suites.md)<br/>                         | Information about the cipher suites available with the TLS protocol in Windows Server 2003 and Windows XP.<br/>              |
+| [TLS Cipher Suites](/windows/win32/secauthn/cipher-suites-in-schannel)<br/>                         | Information about the cipher suites available with the TLS protocol in Windows Server 2003 and Windows XP.<br/>              |
 | [Secure Sockets Layer Protocol](secure-sockets-layer-protocol.md)<br/> | General information about SSL 2.0 and 3.0, including the available cipher suites in Windows Server 2003 and Windows XP.<br/> |
 
 

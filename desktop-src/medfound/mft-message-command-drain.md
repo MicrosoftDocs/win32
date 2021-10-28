@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # MFT\_MESSAGE\_COMMAND\_DRAIN
 
-Requests a Media Foundation transform (MFT) to flush all stored data.
+Requests a Media Foundation transform (MFT) to drain all stored data.
 
 ## Message Parameter
 

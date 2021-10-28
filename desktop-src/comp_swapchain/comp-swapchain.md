@@ -7,9 +7,6 @@ ms.date: 09/10/2021
 
 # Composition swapchain programming guide
 
-> [!NOTE]
-> **Some information relates to pre-released product, which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.**
-
 The composition swapchain API is a spiritual successor to the DXGI swapchain, which allows applications to render and present content to the screen. There are several benefits to using this API over the DXGI swapchain. More fine-grained control is given to your application regarding the state of the swapchain, and more freedom is provided when it comes to how the swapchain is used. Additionally, the API provides a better story for precise present timing.
 
 ## What is presentation?
@@ -38,7 +35,7 @@ The first object that your application will use out of the composition swapchain
 
 The presentation factory exposes methods to check whether or not the current system and graphics device are capable of using the composition swapchain API. You can use capability methods such as [**IPresentationFactory::IsPresentationSupported**](/windows/win32/api/presentation/nf-presentation-ipresentationfactory-ispresentationsupported) to check system support. If capability methods indicate system support for the API, then you can use the presentation factory to create a *presentation manager*. This presentation manager is the object you use to perform presentation functions, and is bound to the same Direct3D device and video adapter as that presentation factory that was used to create it.
 
-Currently, the system requirements for using the composition swapchain API at all are GPU drivers supporting WDDM (Windows Device Driver Model) 2.0. To utilize the composition swapchain API in the most performant way (direct scanout and independent flip, or *iflip*), systems will need GPU drivers supporting WDDM 3.0.
+Currently, the system requirements for using the composition swapchain API at all are GPU drivers supporting WDDM (Windows Device Driver Model) 2.0, and Windows 11 (Build 10.0.22000.194) or greater. To use the composition swapchain API in the most performant way (direct scanout and independent flip, or *iflip*), systems will need GPU drivers supporting WDDM 3.0.
 
 If the system is not capable of using the composition swapchain API, then your application will need to have a separate codepath to handle presentation using older methods, such as a DXGI swapchain.
 

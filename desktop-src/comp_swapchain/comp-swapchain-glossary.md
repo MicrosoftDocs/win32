@@ -7,9 +7,6 @@ ms.date: 09/10/2021
 
 # Composition swapchain glossary
 
-> [!NOTE]
-> **Some information relates to pre-released product, which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.**
-
 |Term|Meaning|
 |-|-|
 |**Available (presentation buffer)**|A buffer that's safe for your application to render to without corrupting any previous presents. To be available, a buffer must have no previous presents that reference it that haven't entered into the retiring or retired state. A present may implicitly reference a buffer from a previous present if your application didn't update a surface, as is shown in the example in [Diagram of buffers, surfaces, and presents](comp-swapchain.md#diagram-of-buffers-surfaces-and-presents).|
