@@ -3,7 +3,7 @@ description: You can use the CryptSignMessage function to cosign a message.
 ms.assetid: b400436f-a71f-426a-ac8a-7fdcfa6d7575
 title: 'Example C Program: Cosigning and Decoding a Message'
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 10/24/2021
 ---
 
 # Example C Program: Cosigning and Decoding a Message
@@ -14,7 +14,8 @@ When you verify the signature of a cosigned message, you use the [**CryptGetMess
 
 The following example shows how to sign a message by more than one person (cosign the message), verify all signatures, and decode the message.
 
-<b>Note</b> This function may return a count of duplicate signers and therefore may not be sufficient to avert attacks. We recommend using the sid (SignerIdentifier) field from SignerInfo to identify duplicate signers in a message.  
+> [!NOTE]
+> This function may return a count of duplicate signers and therefore may not be sufficient to avert attacks. We recommend using the sid (SignerIdentifier) field from SignerInfo to identify duplicate signers in a message.  
 
 ```C++
 //-------------------------------------------------------------------
