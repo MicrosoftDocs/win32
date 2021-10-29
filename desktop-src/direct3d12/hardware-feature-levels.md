@@ -56,7 +56,7 @@ The headings across the top row are Direct3D feature levels. The headings in the
 
 | Feature \\ Feature Level                                                                                                 | 12\_1⁰                    | 12\_0⁰                    | 11\_1¹                   | 11\_0                    |
 |--------------------------------------------------------------------------------------------------------------------------|---------------------------|---------------------------|--------------------------|--------------------------|
-| Shader Model                                                                                                             | 5.1                       | 5.1                       | 5.1²                     | 5.1²                     |
+| Shader Model                                                                                                             | 6.0                       | 6.0                       | 6.0/5.1²                  | 6.0/5.1²                  |
 | [Resource Binding Tier](hardware-support.md)                                                                            | Tier2³                    | Tier2³                    | Tier1³                   | Tier1³                   |
 | [Tiled Resources](/windows/desktop/api/d3d12/ne-d3d12-d3d12_tiled_resources_tier)                                                                        | Tier2³                    | Tier2³                    | Optional                 | Optional                 |
 | [Conservative Rasterization](conservative-rasterization.md)                                                             | Tier1³                    | Optional                  | Optional                 | No                       |
