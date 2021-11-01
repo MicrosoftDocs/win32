@@ -39,7 +39,7 @@ To reclaim the memory allocated by a command allocator, an app calls [**ID3D12Co
 
 ### ID3D12PipelineState
 
-The initial pipeline state for the command list. In Microsoft Direct3D 12, most graphics pipeline state is set within a command list using the [**ID3D12PipelineState**](/windows/win32/api/d3d12/nn-d3d12-id3d12pipelinestate) object. An app will create a large number of these, typically during app initialization, and then the state is updated by changing the currently bound state object using [**ID3D12GraphicsCommandList::SetPipelineState**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-setpipelinestate). For more information about pipeline state objects, see [Managing graphics pipeline state in Direct3D 12](managing-graphics-pipeline-state-in-direct3d-12.md).
+The initial pipeline state for the command list. In Microsoft Direct3D 12, most of the graphics pipeline state is set within a command list using the [**ID3D12PipelineState**](/windows/win32/api/d3d12/nn-d3d12-id3d12pipelinestate) object. An app will create a large number of these, typically during app initialization, and then the state is updated by changing the currently bound state object using [**ID3D12GraphicsCommandList::SetPipelineState**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-setpipelinestate). For more information about pipeline state objects, see [Managing graphics pipeline state in Direct3D 12](managing-graphics-pipeline-state-in-direct3d-12.md).
 
 Note that bundles don't inherit the pipeline state set by previous calls in direct command lists that are their parents.
 
