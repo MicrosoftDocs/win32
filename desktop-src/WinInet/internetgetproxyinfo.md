@@ -18,6 +18,8 @@ ms.date: 05/31/2018
 
 # InternetGetProxyInfo function
 
+The InternetGetProxyInfo function is no longer available on Windows 11.
+
 > [!NOTE]
 > This function is deprecated. For autoproxy support, use HTTP Services (WinHTTP) version 5.1 instead. For more information, see [WinHTTP AutoProxy Support](../winhttp/winhttp-autoproxy-support.md).
 
