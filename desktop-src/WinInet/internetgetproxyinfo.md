@@ -19,7 +19,7 @@ ms.date: 05/31/2018
 # InternetGetProxyInfo function
 
 > [!IMPORTANT]
-> This function is deprecated on Windows 10, and it is not supported on Windows 11. For autoproxy support, use HTTP Services (WinHTTP) version 5.1 instead. For more information, see [WinHTTP AutoProxy Support](../winhttp/winhttp-autoproxy-support.md).
+> This function is deprecated on Windows 10, and it is unsupported as of Windows 11. For autoproxy support, use HTTP Services (WinHTTP) version 5.1 instead. For more information, see [WinHTTP AutoProxy Support](../winhttp/winhttp-autoproxy-support.md).
 
 Retrieves proxy data for accessing specified resources. This function can be called only by explicitly loading `JSProxy.dll`.
 
@@ -122,9 +122,9 @@ Like all other aspects of the WinINet API, this function can't be safely called 
 ## Requirements
 
 | Requirement | Value |
-|-------------------------------------|--------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>Unsupported on Windows 11  |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+|-------------------------------------|-----------------------------------------------------------------------------|
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>Unsupported as of Windows 11  |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
 | DLL<br/>                      | <dl> <dt>JSProxy.dll</dt> </dl> |
 
 ## See also
