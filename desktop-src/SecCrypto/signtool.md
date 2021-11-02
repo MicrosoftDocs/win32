@@ -13,7 +13,7 @@ SignTool is a command-line tool that digitally signs files, verifies the signatu
 SignTool is available as part of the Windows SDK, which you can download from <https://developer.microsoft.com/windows/downloads/windows-10-sdk/>.
 
 > [!Note]  
-> A warning (error code 0, initially) will be thrown if /fd is not specified during signing and if /td is not specified during timestamping. In later versions of SignTool, the warning will become an error. " --> An error (error code 1) will be thrown if /fd is not specified during signing and if /td is not specified during timestamping  
+> The Windows 10 SDK, Windows 10 HLK, Windows 10 WDK and Windows 10 ADK **builds 20236 and later** require specifying the digest algorithm. The SignTool `sign` command requires the `/fd` **file digest algorithm** and the `/td` **timestamp digest algorithm** option to be specified during signing and timestamping, respectively. A warning (error code 0, initially) will be thrown if `/fd` is not specified during signing and if `/td` is not specified during timestamping. In later versions of SignTool, the warning will become an error. SHA256 is recommended and considered to be more secure than SHA1 by the industry.   
 
 
 ## Syntax  
