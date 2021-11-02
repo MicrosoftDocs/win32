@@ -93,9 +93,9 @@ The table below shows the level of per-monitor DPI awareness support offered by 
 | Framework / Technology | Support | OS Version | DPI Scaling handled by | Further Reading | 
 |------------------------|---------|------------|------------------------|-----------------|
 | Universal Windows Platform (UWP) | Full | 1607 | UI framework | <a href="/windows/uwp/get-started/whats-a-uwp">Universal Windows Platform (UWP)</a> | 
-| Raw Win32/Common Controls V6 (comctl32.dll) | <ul><li>DPI change notification messages sent to all HWNDs</li><li>Theme-drawn assets render correctly in common controls</li><li>Automatic DPI scaling for dialogs</li></ul> | 1703 | Application | <a href="https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/DPIAwarenessPerWindow">GitHub Sample</a> | 
+| Raw Win32/Common Controls V6 (comctl32.dll) | <ul><li>DPI change notification messages sent to all HWNDs</li><li>Theme-drawn assets render correctly in common controls</li><li>Automatic DPI scaling for dialogs</li></ul> | 1703 | Application | <a href="https://github.com/Microsoft/Windows-classic-samples/tree/main/Samples/DPIAwarenessPerWindow">GitHub Sample</a> | 
 | Windows Forms | Limited automatic per-monitor DPI scaling for some controls | 1703 | UI framework | <a href="/dotnet/framework/winforms/high-dpi-support-in-windows-forms">High DPI Support in Windows Forms</a> | 
-| Windows Presentation Framework (WPF) | Native WPF applications will DPI scale WPF hosted in other frameworks and other frameworks hosted in WPF do not automatically scale | 1607 | UI framework | <a href="https://github.com/Microsoft/WPF-Samples/tree/master/PerMonitorDPI">GitHub Sample</a> | 
+| Windows Presentation Framework (WPF) | Native WPF applications will DPI scale WPF hosted in other frameworks and other frameworks hosted in WPF do not automatically scale | 1607 | UI framework | <a href="https://github.com/Microsoft/WPF-Samples/tree/main/PerMonitorDPI">GitHub Sample</a> | 
 | GDI | None | N/A | Application | See <a href="https://blogs.windows.com/buildingapps/2017/05/19/improving-high-dpi-experience-gdi-based-desktop-apps/">GDI High-DPI Scaling</a> | 
 | GDI+ | None | N/A | Application | See <a href="https://blogs.windows.com/buildingapps/2017/05/19/improving-high-dpi-experience-gdi-based-desktop-apps/">GDI High-DPI Scaling</a> | 
 | MFC | None | N/A | Application | N/A | 
