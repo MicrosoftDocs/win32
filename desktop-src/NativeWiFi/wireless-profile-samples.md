@@ -1,7 +1,7 @@
 ---
 description: Show sample XML profiles for various wireless configurations.
 ms.assetid: fa4ad793-3211-4949-9b90-21779a19803f
-title: Wireless Profile Samples
+title: Wireless profile samples
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -11,7 +11,7 @@ api_type:
 api_location: 
 ---
 
-# Wireless Profile Samples
+# Wireless profile samples
 
 The following topics show sample XML profiles for various wireless configurations. These XML profiles use [WLAN\_profile schema elements](wlan-profileschema-elements.md) and [OneX schema elements](onexschema-elements.md).
 
@@ -27,18 +27,10 @@ You can add a wireless profile to the profile store programmatically by calling 
 -   [WPA2-Enterprise with PEAP-MSCHAPv2 Profile Sample](wpa2-enterprise-with-peap-mschapv2-profile-sample.md)
 -   [WPA2-Enterprise with TLS Profile Sample](wpa2-enterprise-with-tls-profile-sample.md)
 -   [WPA2-Personal Profile Sample](wpa2-personal-profile-sample.md)
--   [EAP-AKA Profile Sample](eap-aka-profile-sample.md)
+-   [EAP-AKA profile sample](eap-aka-profile-sample.md)
 
 ## Related topics
 
-<dl> <dt>
-
-[WLAN\_profile schema elements](wlan-profileschema-elements.md)
-</dt> <dt>
-
-[OneX schema elements](onexschema-elements.md)
-</dt> </dl>
-
- 
-
- 
+* [WLAN_profile schema elements](wlan-profileschema-elements.md)
+* [OneX schema elements](onexschema-elements.md)
+* 
