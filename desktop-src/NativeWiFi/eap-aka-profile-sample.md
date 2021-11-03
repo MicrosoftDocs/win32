@@ -10,7 +10,7 @@ ms.date: 11/02/2021
 
 This sample profile uses EAP-AKA, which will rely on a SIM card to authenticate to the network.
 
-The EAP host configuration used in this wireless profile sample was derived from the [EapAkaConnectionPropertiesV1 Schema](https://docs.microsoft.com/en-us/openspecs/windows_protocols/ms-gpwl/6ce02b66-0cbd-47cf-bc34-0903b163aab0).
+The EAP host configuration used in this wireless profile sample was derived from the [EapAkaConnectionPropertiesV1 Schema](/openspecs/windows_protocols/ms-gpwl/6ce02b66-0cbd-47cf-bc34-0903b163aab0).
 
 ``` syntax
 <?xml version="1.0"?>
