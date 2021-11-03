@@ -27,6 +27,7 @@ You can add a wireless profile to the profile store programmatically by calling 
 -   [WPA2-Enterprise with PEAP-MSCHAPv2 Profile Sample](wpa2-enterprise-with-peap-mschapv2-profile-sample.md)
 -   [WPA2-Enterprise with TLS Profile Sample](wpa2-enterprise-with-tls-profile-sample.md)
 -   [WPA2-Personal Profile Sample](wpa2-personal-profile-sample.md)
+-   [EAP-AKA Profile Sample](eap-aka-profile-sample.md)
 
 ## Related topics
 
