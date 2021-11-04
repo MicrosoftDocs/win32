@@ -1,6 +1,6 @@
 ---
 title: ID3DX11EffectVariable GetParentConstantBuffer method (D3dx11effect.h)
-description: Get a constant buffer.
+description: Get a constant buffer. | ID3DX11EffectVariable GetParentConstantBuffer method (D3dx11effect.h)
 ms.assetid: 43b46b05-951e-4c52-8bc7-4bb5f657ea78
 keywords:
 - GetParentConstantBuffer method Direct3D 11
@@ -55,7 +55,7 @@ Effect variables are read-from or written-to a constant buffer.
 
 
 
-|                    |                                                                                                                                              |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx11effect.h</dt> </dl>                                                    |
 | Library<br/> | <dl> <dt>N/A (An Effects 11 library is available online as shared source.)</dt> </dl> |

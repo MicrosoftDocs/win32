@@ -1,6 +1,6 @@
 ---
 title: call - vs
-description: Performs a function call to the instruction marked with the provided label.
+description: Performs a function call to the instruction marked with the provided label. | call - vs
 ms.assetid: 3c1ec529-1ee4-40d9-8ce5-f8e7a61fde9c
 ms.topic: reference
 ms.date: 05/31/2018

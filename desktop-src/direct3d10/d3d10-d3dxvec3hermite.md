@@ -1,5 +1,5 @@
 ---
-description: Performs a Hermite spline interpolation, using the specified 3D vectors.
+description: D3DXVec3Hermite function (D3DX10Math.h) - Performs a Hermite spline interpolation, using the specified 3D vectors.
 ms.assetid: d2212299-0478-48a6-b303-60c212528058
 title: D3DXVec3Hermite function (D3DX10Math.h)
 ms.topic: reference
@@ -153,7 +153,7 @@ The return value for this function is the same value returned in the pOut parame
 
 
 
-|                   |                                                                                         |
+| Requirement | Value |
 |-------------------|-----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3DX10Math.h</dt> </dl> |
 

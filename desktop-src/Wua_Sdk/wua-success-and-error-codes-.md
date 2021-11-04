@@ -113,7 +113,7 @@ The Windows Update Agent (WUA) API can return the following success or error cod
 
 
 
-|                   |                                                                                      |
+| Requirement | Value |
 |-------------------|--------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Wuerror.h</dt> </dl> |
 

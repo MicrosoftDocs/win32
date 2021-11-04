@@ -1,5 +1,5 @@
 ---
-description: .
+description: System.Music.Artist
 ms.assetid: 99094e2f-e3be-4561-b0a5-4ad3934cd1d8
 title: System.Music.Artist
 ms.topic: article

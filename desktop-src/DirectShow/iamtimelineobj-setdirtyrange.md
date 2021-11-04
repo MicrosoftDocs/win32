@@ -1,5 +1,5 @@
 ---
-description: Not implemented.
+description: IAMTimelineObj::SetDirtyRange method - Not implemented.
 ms.assetid: f3be3b5a-7ab9-44ca-8a03-33fb905d3aea
 title: IAMTimelineObj::SetDirtyRange method (Qedit.h)
 ms.topic: reference
@@ -75,7 +75,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

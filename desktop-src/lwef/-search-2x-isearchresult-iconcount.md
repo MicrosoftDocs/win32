@@ -1,6 +1,6 @@
 ---
 title: ISearchResult IconCount method
-description: Reserved.
+description: Reserved. | ISearchResult IconCount method
 ms.assetid: b77d2cb7-426c-4570-a6eb-1c301c1632a9
 keywords:
 - IconCount method Legacy Windows Environment Features

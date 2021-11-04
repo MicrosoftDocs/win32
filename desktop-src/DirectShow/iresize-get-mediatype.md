@@ -1,5 +1,5 @@
 ---
-Description: The get\_MediaType method returns the resizer filter's current output media type.
+description: The get\_MediaType method returns the resizer filter's current output media type.
 ms.assetid: b9900f7c-05f6-47e4-9cb0-683df2aea404
 title: IResize::get_MediaType method (Qedit.h)
 ms.topic: reference
@@ -69,7 +69,7 @@ If the output media type has not been set, return a default media type. The filt
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Version<br/> | DirectX 9.0 or later<br/>                                                         |
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |

@@ -1,5 +1,5 @@
 ---
-description: Sets an array of Boolean values.
+description: ID3DXBaseEffect::SetBoolArray method - Sets an array of Boolean values.
 ms.assetid: 920b3482-cc30-4ab2-bfce-59f03afe11da
 title: ID3DXBaseEffect::SetBoolArray method (D3DX9Shader.h)
 ms.topic: reference
@@ -74,7 +74,7 @@ If the method succeeds, the return value is D3D\_OK. If the method fails, the re
 
 
 
-|                    |                                                                                          |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Shader.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>     |

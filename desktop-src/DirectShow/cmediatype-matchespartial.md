@@ -1,5 +1,5 @@
 ---
-Description: The MatchesPartial method determines if this media type matches a partially specified media type.
+description: The MatchesPartial method determines if this media type matches a partially specified media type.
 ms.assetid: 62d531f3-5aa2-4af2-b951-584a49a849fc
 title: CMediaType.MatchesPartial method (Mtype.h)
 ms.topic: reference
@@ -56,7 +56,7 @@ The media type specified by *ppartial* can have a value of GUID\_NULL for the ma
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Mtype.h (include Streams.h)</dt> </dl>                                                                                     |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

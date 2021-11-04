@@ -29,7 +29,7 @@ This topic lists the AddCurve methods of the [**GraphicsPath**](/windows/win32/a
 
 
 
-|                   |                                                                                          |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Gdipluspath.h</dt> </dl> |
 

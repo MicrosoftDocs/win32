@@ -40,7 +40,7 @@ MIDI message that was received. The message is packed into a doubleword value as
 
 
 
-| Requirement | Value |
+| Requirement | Value | Description |
 |-----------|-----------------|-----------------------------------------------------|
 | High word | High-order byte | Not used.                                           |
 |           | Low-order byte  | Contains a second byte of MIDI data (when needed).  |

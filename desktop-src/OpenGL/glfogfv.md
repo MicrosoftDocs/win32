@@ -1,6 +1,6 @@
 ---
 title: glFogfv function (Gl.h)
-description: The glFogfv function specifies fog parameters.
+description: The glFogfv function specifies fog parameters. | glFogfv function (Gl.h)
 ms.assetid: a2243ff4-4f3a-4b8c-b4fb-ce2cd74815e4
 keywords:
 - glFogfv function OpenGL
@@ -92,23 +92,23 @@ The **glFogfv** function assigns the value or values in *params* to the fog para
 
 Fog blends a fog color with each rasterized pixel fragment's posttexturing color using a blending factor *f*. Factor *f* is computed in one of three ways, depending on the fog mode. Let *z* be the distance in eye coordinates from the origin to the fragment being fogged. The equation for GL\_LINEAR fog is:
 
-![](images/fog01.png)
+![Equation showing the value of GL_LINEAR fog.](images/fog01.png)
 
 The equation for GL\_EXP fog is:
 
-![](images/fog02.png)
+![Equation showing the value of the blending factor in GL_EXP fog mode.](images/fog02.png)
 
 The equation for GL\_EXP2 fog is:
 
-![](images/fog03.png)
+![Equation showing the value of the blending factor in GL_EXP2 fog mode.](images/fog03.png)
 
 Regardless of the fog mode, *f* is clamped to the range \[0,1\] after it is computed. Then, if OpenGL is in RGBA color mode, the fragment's color *C*<sub>r</sub> is replaced by
 
-![](images/fog04.png)
+![Equation showing the fogged fragment's color as a function of blending factor and fog color.](images/fog04.png)
 
 In color-index mode, the fragment's color index *i*<sub>r</sub> is replaced by
 
-![](images/fog05.png)
+![Equation showing the fogged fragment's color index as a function of blending factor and indexed color.](images/fog05.png)
 
 The following functions retrieve information related to the **glFog** functions:
 

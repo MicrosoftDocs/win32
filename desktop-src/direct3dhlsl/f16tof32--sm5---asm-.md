@@ -1,6 +1,6 @@
 ---
 title: f16tof32 (sm5 - asm)
-description: Component-wise float16 to float32 conversion.
+description: Component-wise float16 to float32 conversion. | f16tof32 (sm5 - asm)
 ms.assetid: CFAA1350-DA7F-4105-A90A-72052C5E2FB3
 ms.topic: reference
 ms.date: 05/31/2018

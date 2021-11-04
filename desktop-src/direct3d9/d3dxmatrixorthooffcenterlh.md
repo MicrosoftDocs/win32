@@ -1,5 +1,5 @@
 ---
-description: Builds a customized, left-handed orthographic projection matrix.
+description: D3DXMatrixOrthoOffCenterLH function (D3dx9math.h) - Builds a customized, left-handed orthographic projection matrix.
 ms.assetid: e4f087e5-63d9-49ca-9d8e-3a25070e1a51
 title: D3DXMatrixOrthoOffCenterLH function (D3dx9math.h)
 ms.topic: reference
@@ -134,7 +134,7 @@ This function uses the following formula to compute the returned matrix.
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9math.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

@@ -9,7 +9,7 @@ ms.date: 10/20/2020
 # Warning Messages
 
 > [!NOTE]
-> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](https://docs.microsoft.com/windows/uwp/design/).
+> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](/windows/uwp/design/).
 
 A warning message is a modal dialog box, in-place message, notification, or balloon that alerts the user of a condition that might cause a problem in the future.
 
@@ -163,46 +163,14 @@ Warnings have several usage patterns:
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><strong>Awareness</strong><br/> Make user aware of a condition or potential problem, but user may not have to do anything now. <br/></td>
-<td><img src="images/mess-warn-image13.png" alt="Screen shot of warning of network problems " /><br/> <img src="images/mess-warn-image14.png" alt="Screen shot of low-battery warning " /><br/> <img src="images/mess-warn-image15.png" alt="Screen shot of &#39;caps-lock-is-on&#39; warning " /><br/> <img src="images/mess-warn-image16.png" alt="Screen shot of &#39;TPM-not-found&#39; warning " /><br/> Examples of awareness warnings.<br/> Awareness warnings have the following presentation: <br/>
-<ul>
-<li><strong>Main instruction:</strong> Describe the condition or potential problem.</li>
-<li><strong>Supplemental instruction:</strong> Explain the implication and why it is important.</li>
-<li><strong>Commit buttons:</strong> Close.</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td><strong>Error prevention</strong><br/> Make user aware of information that might prevent a problem, especially when making choices. <br/></td>
-<td>Error prevention warnings are best presented using an in-place warning icon and explanatory text. <br/> <img src="images/mess-warn-image17.png" alt="Screen shot of Not-enough-free-space warning " /><br/> <img src="images/mess-warn-image18.png" alt="Screen shot of Use-installation-CD warning " /><br/> Examples of error prevention warnings.<br/></td>
-</tr>
-<tr class="odd">
-<td><strong>Imminent problem</strong><br/> The user needs to do something now to prevent an imminent problem. <br/></td>
-<td><img src="images/mess-warn-image19.png" alt="Screen shot of Close-programs warning " /><br/> An example of an imminent problem warning.<br/> Imminent problem warnings have the following presentation: <br/>
-<ul>
-<li><strong>Main instruction:</strong> Describe what the user needs to do now.</li>
-<li><strong>Supplemental instruction:</strong> Explain the condition and why it is important.</li>
-<li><strong>Commit buttons:</strong> A command button or command link for each option, or OK if the action occurs outside the dialog box.</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td><strong>Risky action confirmation</strong><br/> Confirm that the user wants to proceed with an action that has some risk and can't be easily undone. <br/></td>
-<td><img src="images/mess-warn-image20.png" alt="Screen shot of Formatting-will-erase-data warning " /><br/> An example of risky action confirmation.<br/> Risky action confirmations have the following presentation: <br/>
-<ul>
-<li><strong>Main instruction:</strong> Ask a question to determine if the user wants to proceed.</li>
-<li><strong>Supplemental instruction:</strong> Explain any non-obvious reasons why the user might not want to proceed.</li>
-<li><strong>Commit buttons:</strong> Yes, No.</li>
-</ul>
-For guidelines on this pattern, see <a href="mess-confirm.md">Confirmations</a>. <br/></td>
-</tr>
-</tbody>
-</table>
+
+| Label | Value |
+|--------|-------|
+| <strong>Awareness</strong><br /> Make user aware of a condition or potential problem, but user may not have to do anything now. <br /> | <img src="images/mess-warn-image13.png" alt="Screen shot of warning of network problems " /><br /><img src="images/mess-warn-image14.png" alt="Screen shot of low-battery warning " /><br /><img src="images/mess-warn-image15.png" alt="Screen shot of 'caps-lock-is-on' warning " /><br /><img src="images/mess-warn-image16.png" alt="Screen shot of 'TPM-not-found' warning " /><br /> Examples of awareness warnings.<br /> Awareness warnings have the following presentation: <br /><ul><li><strong>Main instruction:</strong> Describe the condition or potential problem.</li><li><strong>Supplemental instruction:</strong> Explain the implication and why it is important.</li><li><strong>Commit buttons:</strong> Close.</li></ul> | 
+| <strong>Error prevention</strong><br /> Make user aware of information that might prevent a problem, especially when making choices. <br /> | Error prevention warnings are best presented using an in-place warning icon and explanatory text. <br /><img src="images/mess-warn-image17.png" alt="Screen shot of Not-enough-free-space warning " /><br /><img src="images/mess-warn-image18.png" alt="Screen shot of Use-installation-CD warning " /><br /> Examples of error prevention warnings.<br /> | 
+| <strong>Imminent problem</strong><br /> The user needs to do something now to prevent an imminent problem. <br /> | <img src="images/mess-warn-image19.png" alt="Screen shot of Close-programs warning " /><br /> An example of an imminent problem warning.<br /> Imminent problem warnings have the following presentation: <br /><ul><li><strong>Main instruction:</strong> Describe what the user needs to do now.</li><li><strong>Supplemental instruction:</strong> Explain the condition and why it is important.</li><li><strong>Commit buttons:</strong> A command button or command link for each option, or OK if the action occurs outside the dialog box.</li></ul> | 
+| <strong>Risky action confirmation</strong><br /> Confirm that the user wants to proceed with an action that has some risk and can't be easily undone. <br /> | <img src="images/mess-warn-image20.png" alt="Screen shot of Formatting-will-erase-data warning " /><br /> An example of risky action confirmation.<br /> Risky action confirmations have the following presentation: <br /><ul><li><strong>Main instruction:</strong> Ask a question to determine if the user wants to proceed.</li><li><strong>Supplemental instruction:</strong> Explain any non-obvious reasons why the user might not want to proceed.</li><li><strong>Commit buttons:</strong> Yes, No.</li></ul>For guidelines on this pattern, see <a href="mess-confirm.md">Confirmations</a>. <br /> | 
+
 
 
 
@@ -216,9 +184,8 @@ For guidelines on this pattern, see <a href="mess-confirm.md">Confirmations</a>.
 
 
 
-|                               |                                                                                                                                        |
+| User interface  | Best used for |
 |-------------------------------|----------------------------------------------------------------------------------------------------------------------------------------|
-| **User interface**<br/> | **Best used for**<br/>                                                                                                           |
 | Modal dialog boxes<br/> | Critical warnings (including confirmations) that users must respond to now.<br/>                                                 |
 | In-place<br/>           | Information that might prevent a problem, especially when users are making choices.<br/>                                         |
 | Banners<br/>            | Information that might prevent a problem, especially when related to completing a task.<br/>                                     |
@@ -309,9 +276,8 @@ In this example, "Security Warning" doesn't identify the command or feature wher
 
 
 
-|                                      |                                                                      |
+| Pattern                        | Main instruction                                               |
 |--------------------------------------|----------------------------------------------------------------------|
-| **Pattern**<br/>               | **Main instruction**<br/>                                      |
 | Awareness<br/>                 | Describe the condition or potential problem.<br/>              |
 | Imminent problem<br/>          | Describe what the user needs to do now.<br/>                   |
 | Risky action confirmation<br/> | Ask a question to determine if the user wants to proceed.<br/> |
@@ -335,9 +301,8 @@ In this example, "Security Warning" doesn't identify the command or feature wher
 
 
 
-|                                      |                                                                                    |
+| Pattern            | Supplemental instruction                                            |
 |--------------------------------------|------------------------------------------------------------------------------------|
-| **Pattern**<br/>               | **Supplemental instruction**<br/>                                            |
 | Awareness<br/>                 | Explain the implication and why it is important.<br/>                        |
 | Imminent problem<br/>          | Explain the condition and why it is important.<br/>                          |
 | Risky action confirmation<br/> | Explain any non-obvious reasons why the user might not want to proceed.<br/> |
@@ -355,9 +320,8 @@ In this example, "Security Warning" doesn't identify the command or feature wher
 
 
 
-|                                      |                                                                                                                 |
+| Pattern               | Commit buttons        |
 |--------------------------------------|-----------------------------------------------------------------------------------------------------------------|
-| **Pattern**<br/>               | **Commit buttons**<br/>                                                                                   |
 | Awareness<br/>                 | Close. Don't use OK because it suggests that potential problems are OK.<br/>                              |
 | Imminent problem<br/>          | A command button or command link for each option, or OK if the action occurs outside the dialog box.<br/> |
 | Risky action confirmation<br/> | Yes, No.<br/>                                                                                             |
@@ -381,10 +345,4 @@ When referring to warnings:
 Example: In the **Do you want to display the nonsecure items?** message, click Yes.
 
  
-
- 
-
-
-
-
 

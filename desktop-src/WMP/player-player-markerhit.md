@@ -1,6 +1,6 @@
 ---
 title: Player.MarkerHit event
-description: The MarkerHit event occurs when a marker is reached.
+description: The MarkerHit event occurs when a marker is reached. | Player.MarkerHit event
 ms.assetid: c97aff61-6f06-4589-a75b-ac2af340cb1d
 keywords:
 - MarkerHit event Windows Media Player
@@ -56,7 +56,7 @@ The value of event parameters is specified by Windows Media Player, and can be a
 
 
 
-|                    |                                                                                    |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------|
 | Version<br/> | Windows Media Player version 7.0 or later.<br/>                              |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |

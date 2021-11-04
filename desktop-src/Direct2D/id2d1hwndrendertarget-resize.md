@@ -37,7 +37,7 @@ After this method is called, the contents of the render target's back-buffer are
 
 
 
-|                    |                                                                                     |
+| Requirement | Value |
 |--------------------|-------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D2d1.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>D2d1.lib</dt> </dl> |

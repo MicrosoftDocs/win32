@@ -1,5 +1,5 @@
 ---
-description: This class is the event type class for CPU configuration events.
+description: SystemConfig_V0_CPU class - This class is the event type class for CPU configuration events.
 ms.assetid: 9ca77676-ff0e-4c47-ae4e-f8192376d3ca
 title: SystemConfig_V0_CPU class
 ms.topic: reference

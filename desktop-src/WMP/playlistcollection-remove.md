@@ -1,6 +1,6 @@
 ---
 title: PlaylistCollection.remove method
-description: The remove method removes a playlist from the library.
+description: The remove method removes a playlist from the library. | PlaylistCollection.remove method
 ms.assetid: '3327ba59-5f46-4df0-ba95-c338b019277d'
 keywords:
 - remove method Windows Media Player
@@ -56,7 +56,7 @@ To use this method, full access to the library is required. For more information
 
 
 
-|                    |                                                                                    |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------|
 | Version<br/> | Windows Media Player version 7.0 or later.<br/>                              |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |

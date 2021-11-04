@@ -78,7 +78,7 @@ If the function succeeds, the function returns **ERROR\_SUCCESS**. If the functi
 
 
 
-|                                   |                                                                                                       |
+| Requirement | Value |
 |-----------------------------------|-------------------------------------------------------------------------------------------------------|
 | Library<br/>                | <dl> <dt>Kernel32.lib</dt> </dl>               |
 | DLL<br/>                    | <dl> <dt>Kernel32.dll</dt> </dl>               |

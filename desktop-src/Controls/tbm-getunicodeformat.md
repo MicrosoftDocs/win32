@@ -1,6 +1,6 @@
 ---
 title: TBM_GETUNICODEFORMAT message (Commctrl.h)
-description: Retrieves the Unicode character format flag for the control.
+description: TBM_GETUNICODEFORMAT message - Retrieves the Unicode character format flag for the control.
 ms.assetid: cecd7e55-f482-4381-bde8-a60b8c5173eb
 keywords:
 - TBM_GETUNICODEFORMAT message Windows Controls

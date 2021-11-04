@@ -17,7 +17,7 @@ The connectable object is only one piece of the overall architecture of connecta
 
 The relationships between client, connectable object, a connection point, and a sink are illustrated in the following diagram:
 
-![](images/1cd44fec-5d2c-4427-846b-ccab7ec0b08a.png)
+![Diagram that shows the connection points between the Client and Connectable Object.](images/1cd44fec-5d2c-4427-846b-ccab7ec0b08a.png)
 
 Before the connection point object calls methods in the sink interface in step 3 in the preceding diagram, it must [**QueryInterface**](/windows/desktop/api/Unknwn/nf-unknwn-iunknown-queryinterface(q)) for the specific interface required, even if the pointer was already passed in the step 2 call to the [**Advise**](/windows/desktop/api/OCIdl/nf-ocidl-iconnectionpoint-advise) method.
 

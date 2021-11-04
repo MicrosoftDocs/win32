@@ -1,5 +1,5 @@
 ---
-description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: See how the author of a PrintTicket client can use element types to create a PrintTicket that describes intents for a device.
 ms.assetid: ed53d1a8-d302-4855-9858-0f37dfbbd1d3
 title: PrintTicket Construction Checklists
 ms.topic: article
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # PrintTicket Construction Checklists
 
-This topic is not current. For the most current information, see the [Print Schema Specification](https://www.microsoft.com/whdc/xps/printschema.mspx).
+This topic is not current. For the most current information, see the [Print Schema Specification](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip).
 
 This section demonstrates how the author of a PrintTicket client can use the element types defined in the Print Schema Framework to create a PrintTicket that describes intents for a device. The PrintTicket can be generic (not tied to a specific device), or it can be device-specific. The semantics of the PrintTicket are presented in greater detail. In addition, this section contains an overview of concepts and terminology that are covered in more depth in subsequent sections.
 
@@ -26,7 +26,7 @@ There are two fundamentally different approaches to constructing a PrintTicket. 
 
 <dl> <dt>
 
-[Print Schema Specification](https://www.microsoft.com/whdc/xps/printschema.mspx)
+[Print Schema Specification](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip)
 </dt> </dl>
 
  

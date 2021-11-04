@@ -1,5 +1,5 @@
 ---
-description: Pointer to the owning filter.
+description: CTransformOutputPin::m_pTransformFilter member - Pointer to the owning filter.
 ms.assetid: b70c4c25-ee2a-4667-964e-70db0f46f0ae
 title: CTransformOutputPin::m_pTransformFilter member (Transfrm.h)
 ms.topic: reference
@@ -35,7 +35,7 @@ CTransformOutputPin *m_pTransformFilter;
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Transfrm.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

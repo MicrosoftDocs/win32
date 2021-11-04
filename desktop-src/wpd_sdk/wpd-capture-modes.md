@@ -73,7 +73,7 @@ This enumeration is used by the [WPD\_STILL\_IMAGE\_CAPTURE\_MODE](still-image-p
 
 
 
-|                   |                                                                                             |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>PortableDevice.h</dt> </dl> |
 

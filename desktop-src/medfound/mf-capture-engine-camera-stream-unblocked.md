@@ -16,7 +16,7 @@ Signals that video capture is restored after being blocked.
 
 
 
-|                   |                                                                                              |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Mfcaptureengine.h</dt> </dl> |
 

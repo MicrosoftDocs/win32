@@ -43,7 +43,7 @@ Then execute the following command:
 
 
 
-|                                 |                       |
+|         Flag                        |         Value              |
 |---------------------------------|-----------------------|
 | **DEBUG\_SCHEMA**<br/>    | 0x00000001<br/> |
 | **DEBUG\_CHANGEPWD**<br/> | 0x00000002<br/> |
@@ -58,71 +58,14 @@ These flags determine which [ADSI](active-directory-service-interfaces-adsi.md) 
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><strong>DEBUG_SCHEMA</strong><br/></td>
-<td><ul>
-<li>LdapGetSchema</li>
-<li>GetSchemaInfoTime</li>
-<li>LdapReadSchemaInfoFromServer</li>
-<li>ProcessSchemaInfo</li>
-<li>HelperReadLdapSchemaInfo</li>
-<li>ProcessClassInfoArray</li>
-<li>ReadSchemaInfoFromRegistry</li>
-<li>StoreSchemaInfoFromRegistry</li>
-<li>AttributeTypeDescription</li>
-<li>ObjectClassDescription</li>
-<li>DITContentRuleDescription</li>
-<li>DirectoryString</li>
-<li>DirectoryStrings</li>
-<li>DITContentRuleDescription</li>
-</ul>
-<br/></td>
-</tr>
-<tr class="even">
-<td><strong>DEBUG_CHANGEPWD</strong><br/></td>
-<td><ul>
-<li>CADsUser::ChangePassword</li>
-</ul>
-<br/></td>
-</tr>
-<tr class="odd">
-<td><strong>DEBUG_SETPWD</strong><br/></td>
-<td><ul>
-<li>CADsUser::SetPassword</li>
-</ul>
-<br/></td>
-</tr>
-<tr class="even">
-<td><strong>DEBUG_BINDCACHE</strong><br/></td>
-<td><ul>
-<li>GetServerBasedObject</li>
-<li>GetServerLessBasedObject</li>
-<li>GetGCDomainName</li>
-<li>GetDefaultDomainName</li>
-<li>GetUserDomainFlatName</li>
-<li>BindCacheLookup</li>
-<li>EquivalentPortNumbers</li>
-<li>CanCredentialsBeReused</li>
-<li>BindCacheAdd</li>
-<li>BindCacheAddRef</li>
-<li>AddReferralLink</li>
-<li>CommonRemoveEntry</li>
-<li>BindCacheDerefHelper</li>
-<li>NotifyNewConnection</li>
-<li>QueryForConnection</li>
-<li>LdapOpenBindWithCredentials</li>
-<li>LdapOpenBindWithDefaultCredentials</li>
-</ul>
-<br/></td>
-</tr>
-</tbody>
-</table>
+
+| 
+|
+| <strong>DEBUG_SCHEMA</strong><br /> | <ul><li>LdapGetSchema</li><li>GetSchemaInfoTime</li><li>LdapReadSchemaInfoFromServer</li><li>ProcessSchemaInfo</li><li>HelperReadLdapSchemaInfo</li><li>ProcessClassInfoArray</li><li>ReadSchemaInfoFromRegistry</li><li>StoreSchemaInfoFromRegistry</li><li>AttributeTypeDescription</li><li>ObjectClassDescription</li><li>DITContentRuleDescription</li><li>DirectoryString</li><li>DirectoryStrings</li><li>DITContentRuleDescription</li></ul><br /> | 
+| <strong>DEBUG_CHANGEPWD</strong><br /> | <ul><li>CADsUser::ChangePassword</li></ul><br /> | 
+| <strong>DEBUG_SETPWD</strong><br /> | <ul><li>CADsUser::SetPassword</li></ul><br /> | 
+| <strong>DEBUG_BINDCACHE</strong><br /> | <ul><li>GetServerBasedObject</li><li>GetServerLessBasedObject</li><li>GetGCDomainName</li><li>GetDefaultDomainName</li><li>GetUserDomainFlatName</li><li>BindCacheLookup</li><li>EquivalentPortNumbers</li><li>CanCredentialsBeReused</li><li>BindCacheAdd</li><li>BindCacheAddRef</li><li>AddReferralLink</li><li>CommonRemoveEntry</li><li>BindCacheDerefHelper</li><li>NotifyNewConnection</li><li>QueryForConnection</li><li>LdapOpenBindWithCredentials</li><li>LdapOpenBindWithDefaultCredentials</li></ul><br /> | 
+
 
 
 
@@ -134,7 +77,7 @@ Finally, the *traceLevel* flag should be one of the following values:
 
 
 
-|                                          |                       |
+|      Flag                                    |       Value                |
 |------------------------------------------|-----------------------|
 | **TRACE\_LEVEL\_ERROR**<br/>       | 0x00000002<br/> |
 | **TRACE\_LEVEL\_INFORMATION**<br/> | 0x00000004<br/> |

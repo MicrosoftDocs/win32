@@ -1,6 +1,6 @@
 ---
 title: Configuring the Server Session
-description: .
+description: Configuring the Server Session
 ms.assetid: 1e4e9440-8d70-44df-90a7-2d5e25b2f680
 ms.topic: article
 ms.date: 05/31/2018

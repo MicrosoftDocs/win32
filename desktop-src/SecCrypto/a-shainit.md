@@ -53,7 +53,7 @@ This function is very similar to SHAInit, but is called directly from the librar
 
 
 
-|                    |                                                                                      |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Sha.h</dt> </dl>     |
 | Library<br/> | <dl> <dt>Ntdll.dll</dt> </dl> |

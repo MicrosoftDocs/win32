@@ -18,7 +18,7 @@ This topic explains how to register a program in the Windows registry as one of 
 
 > [!Note]  
 > This information applies to the following operating systems:
->
+> 
 > -   Windows 2000 Service Pack 3 (SP3)
 > -   Windows 2000 Service Pack 4 (SP4)
 > -   Windows XP Service Pack 1 (SP1)
@@ -247,53 +247,14 @@ The feature by which the user selects per-machine default programs is named and 
 
 
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Operating System</th>
-<th>Title</th>
-<th>Access Location</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Windows 7</td>
-<td>Set Program Access and Computer Defaults</td>
-<td><ul>
-<li><strong>Start</strong> menu <strong>Default Programs</strong> option</li>
-<li><strong>Default Programs</strong> Control Panel item</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>Windows Vista</td>
-<td>Set Program Access and Computer Defaults</td>
-<td><ul>
-<li><strong>Start</strong> menu <strong>Default Programs</strong> option</li>
-<li><strong>Default Programs</strong> Control Panel item</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>Windows XP SP2</td>
-<td>Set Program Access and Defaults</td>
-<td><ul>
-<li><strong>Start</strong> menu</li>
-<li><strong>Add or Remove Programs</strong> Control Panel item</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>Windows XP SP1</td>
-<td>Configure Programs</td>
-<td><ul>
-<li><strong>Add or Remove Programs</strong> Control Panel item</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| Operating System | Title | Access Location | 
+|------------------|-------|-----------------|
+| Windows 7 | Set Program Access and Computer Defaults | <ul><li><strong>Start</strong> menu <strong>Default Programs</strong> option</li><li><strong>Default Programs</strong> Control Panel item</li></ul> | 
+| Windows Vista | Set Program Access and Computer Defaults | <ul><li><strong>Start</strong> menu <strong>Default Programs</strong> option</li><li><strong>Default Programs</strong> Control Panel item</li></ul> | 
+| Windows XP SP2 | Set Program Access and Defaults | <ul><li><strong>Start</strong> menu</li><li><strong>Add or Remove Programs</strong> Control Panel item</li></ul> | 
+| Windows XP SP1 | Configure Programs | <ul><li><strong>Add or Remove Programs</strong> Control Panel item</li></ul> | 
+
 
 
 
@@ -566,19 +527,21 @@ HKEY_LOCAL_MACHINE
             (Default) = CanonicalName
 ```
 
-> [!Note]**: The following information applies to Windows XP only.**
->
+> [!Note]
+> 
+> **The following information applies to Windows XP only.**
+> 
 > If the registration of the computer-level default under HKEY\_LOCAL\_MACHINE as shown above is successful, the application should delete the value assigned to the Default entry under the following subkey:
->
+> 
 > ```
 > HKEY_CURRENT_USER
 >    SOFTWARE
 >       Clients
 >          ClientTypeName
 > ```
->
+> 
 > If the registration of the computer-level default under HKEY\_LOCAL\_MACHINE as shown above fails, usually because the user does not have write permission to the subkey, the application should set the following value:
->
+> 
 > ```
 > HKEY_CURRENT_USER
 >    SOFTWARE
@@ -586,7 +549,7 @@ HKEY_LOCAL_MACHINE
 >          ClientTypeName
 >             (Default) = CanonicalName
 > ```
->
+> 
 > This registers the canonical name only for the current user, not for all users.
 
  

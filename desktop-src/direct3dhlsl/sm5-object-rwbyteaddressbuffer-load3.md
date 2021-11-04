@@ -1,6 +1,6 @@
 ---
 title: RWByteAddressBuffer::Load3(uint) function
-description: Gets three values.
+description: Gets three values. | RWByteAddressBuffer::Load3(uint) function
 ms.assetid: cf8c4c5d-4748-43d7-896e-33ed07c94b9e
 keywords:
 - Load3 function HLSL

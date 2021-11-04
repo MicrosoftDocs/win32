@@ -1,6 +1,6 @@
 ---
 title: vs_3_0
-description: A programmable vertex shader is made up of a set of instructions that operate on vertex data. Registers transfer data in and out of the ALU. Additional control can be applied to modify the instruction, the results, or what data gets written out.
+description: Learn about vs_3_0, a programmable vertex shader, which is made up of a set of instructions that operate on vertex data.
 ms.assetid: 0f40f946-3525-4203-bfe2-1cd941d8e2ec
 ms.topic: article
 ms.date: 05/31/2018
@@ -73,71 +73,19 @@ If Vertex Shader 3\_0 is supported, the following caps are supported in hardware
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Cap</th>
-<th>Capability</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Shader caps</td>
-<td><ul>
-<li>DynamicFlowControlDepth is 24</li>
-<li>NumTemps is 32</li>
-<li>StaticFlowControlDepth is 4</li>
-<li>Predication is supported.</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>GuardBandLeft, GuardBandTop, GuardBandRight, GuardBandBottom</td>
-<td>8K</td>
-</tr>
-<tr class="odd">
-<td>VertexShaderVersion</td>
-<td>3_0</td>
-</tr>
-<tr class="even">
-<td>MaxVertexShaderConst</td>
-<td>256</td>
-</tr>
-<tr class="odd">
-<td>MaxVertexShader30InstructionSlots</td>
-<td>512</td>
-</tr>
-<tr class="even">
-<td>Fog support</td>
-<td>D3DPRASTERCAPS_FOGVERTEX</td>
-</tr>
-<tr class="odd">
-<td>VertexTextureFilterCaps</td>
-<td><ul>
-<li><a href="/windows/desktop/direct3d9/d3dptfiltercaps">D3DPTFILTERCAPS_MINFPOINT</a></li>
-<li><a href="/windows/desktop/direct3d9/d3dptfiltercaps">D3DPTFILTERCAPS_MAGFPOINT</a></li>
-</ul></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/direct3d9/d3ddevcaps2">D3DDEVCAPS2_VERTEXELEMENTSCANSHARESTREAMOFFSET</a></td>
-<td>Vertex elements in a vertex declaration can share the same stream offset.</td>
-</tr>
-<tr class="odd">
-<td>Vertex formats</td>
-<td><ul>
-<li>D3DDECLTYPE_UBYTE4</li>
-<li>D3DDECLTYPE_UBYTE4N</li>
-<li>D3DDECLTYPE_SHORT2N</li>
-<li>D3DDECLTYPE_SHORT4N</li>
-<li>D3DDECLTYPE_FLOAT16_2</li>
-<li>D3DDECLTYPE_FLOAT16_4</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| Cap | Capability | 
+|-----|------------|
+| Shader caps | <ul><li>DynamicFlowControlDepth is 24</li><li>NumTemps is 32</li><li>StaticFlowControlDepth is 4</li><li>Predication is supported.</li></ul> | 
+| GuardBandLeft, GuardBandTop, GuardBandRight, GuardBandBottom | 8K | 
+| VertexShaderVersion | 3_0 | 
+| MaxVertexShaderConst | 256 | 
+| MaxVertexShader30InstructionSlots | 512 | 
+| Fog support | D3DPRASTERCAPS_FOGVERTEX | 
+| VertexTextureFilterCaps | <ul><li><a href="/windows/desktop/direct3d9/d3dptfiltercaps">D3DPTFILTERCAPS_MINFPOINT</a></li><li><a href="/windows/desktop/direct3d9/d3dptfiltercaps">D3DPTFILTERCAPS_MAGFPOINT</a></li></ul> | 
+| <a href="/windows/desktop/direct3d9/d3ddevcaps2">D3DDEVCAPS2_VERTEXELEMENTSCANSHARESTREAMOFFSET</a> | Vertex elements in a vertex declaration can share the same stream offset. | 
+| Vertex formats | <ul><li>D3DDECLTYPE_UBYTE4</li><li>D3DDECLTYPE_UBYTE4N</li><li>D3DDECLTYPE_SHORT2N</li><li>D3DDECLTYPE_SHORT4N</li><li>D3DDECLTYPE_FLOAT16_2</li><li>D3DDECLTYPE_FLOAT16_4</li></ul> | 
+
 
 
 

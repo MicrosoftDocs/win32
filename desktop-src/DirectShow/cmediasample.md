@@ -1,5 +1,5 @@
 ---
-Description: The CMediaSample class defines a media sample that supports the IMediaSample2 interface. The media sample contains a pointer to a memory buffer, and various properties stored as protected member variables.
+description: The CMediaSample class defines a media sample that supports the IMediaSample2 interface. The media sample contains a pointer to a memory buffer, and various properties stored as protected member variables.
 ms.assetid: 1e609c7c-3200-4540-904e-7659976df0da
 title: CMediaSample class (Amfilter.h)
 ms.topic: reference
@@ -84,7 +84,7 @@ The life cycle of a media sample differs from that of most COM objects:
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Amfilter.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

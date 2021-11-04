@@ -1,5 +1,5 @@
 ---
-description: Requests a reset.
+description: Reset method of the Msvm_SyntheticEthernetPort class - Requests a reset.
 ms.assetid: ebe8e9f6-4110-4c69-8924-49e346be93a4
 title: Reset method of the Msvm_SyntheticEthernetPort class
 ms.topic: reference

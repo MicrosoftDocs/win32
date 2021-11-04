@@ -44,23 +44,23 @@ The following functions are useful for writing device calibration and characteri
 |-|-|
 | [**CloseColorProfile**](/windows/win32/api/icm/nf-icm-closecolorprofile) | Closes an open profile handle. |
 | [**CreateDeviceLinkProfile**](/windows/win32/api/icm/nf-icm-createdevicelinkprofile) | Creates an International Color Consortium (ICC) *device link profile* from a set of color profiles, using the specified intents. |
-| [**GetColorProfileElement**](getcolorprofileelement.md)                     | Retrieves data from a given profile element.                                      |
-| [**GetColorProfileElementTag**](getcolorprofileelementtag.md)               | Retrieves the tag name from a profile element.                                    |
-| [**GetColorProfileFromHandle**](getcolorprofilefromhandle.md)               | Retrieves the color profile contents given a handle to an open color profile.     |
-| [**GetColorProfileHeader**](getcolorprofileheader.md)                       | Retrieves the header from a profile.                                              |
-| [**GetCountColorProfileElements**](getcountcolorprofileelements.md)         | Counts the tagged elements in a profile.                                          |
-| [**GetPS2ColorRenderingDictionary**](getps2colorrenderingdictionary.md)     | Gets a PostScript color rendering dictionary.                                     |
-| [**GetPS2ColorRenderingIntent**](getps2colorrenderingintent.md)             | Gets a PostScript color rendering intents.                                        |
-| [**GetPS2ColorSpaceArray**](getps2colorspacearray.md)                       | Gets a PostScript color space from a profile.                                     |
-| [**IsColorProfileTagPresent**](iscolorprofiletagpresent.md)                 | Checks that a given tag is present in a profile.                                  |
-| [**IsColorProfileValid**](iscolorprofilevalid.md)                           | Checks that a profile is a valid ICC profile.                                     |
-| [**OpenColorProfile**](opencolorprofile.md)                                 | Opens a profile and returns a handle to it.                                       |
-| [**SetColorProfileElement**](setcolorprofileelement.md)                     | Writes data for a given profile element.                                          |
-| [**SetColorProfileElementReference**](setcolorprofileelementreference.md)   | Creates a tag that refers to existing tag data.                                   |
-| [**SetColorProfileElementSize**](setcolorprofileelementsize.md)             | Sets the size of a given profile element.                                         |
-| [**SetColorProfileHeader**](setcolorprofileheader.md)                       | Sets the header information in a given profile.                                   |
-| [**WcsGetCalibrationManagementState**](wcsgetcalibrationmanagementstate.md) | Determines whether system management of the display calibration state is enabled. |
-| [**WcsSetCalibrationManagementState**](wcssetcalibrationmanagementstate.md) | Determines whether system management of the display calibration state is enabled. |
+| [**GetColorProfileElement**](/windows/win32/api/icm/nf-icm-getcolorprofileelement) | Copies data from a specified tagged profile element of a specified color profile into a buffer. |
+| [**GetColorProfileElementTag**](/windows/win32/api/icm/nf-icm-getcolorprofileelementtag) | Retrieves the tag name specified by *dwIndex* in the tag table of a given International Color Consortium (ICC) color profile, where *dwIndex* is a one-based index into that table. |
+| [**GetColorProfileFromHandle**](/windows/win32/api/icm/nf-icm-getcolorprofilefromhandle)| Retrieves the color profile contents given a handle to an open color profile.     |
+| [**GetColorProfileHeader**](/windows/win32/api/icm/nf-icm-getcolorprofileheader) | Retrieves or derives ICC header structure from either ICC color profile or WCS XML profile. Drivers and applications should assume returning **TRUE** only indicates that a properly structured header is returned. Each tag will still need to be validated independently using either legacy ICM2 APIs or XML schema APIs. |
+| [**GetCountColorProfileElements**](/windows/win32/api/icm/nf-icm-getcountcolorprofileelements) | Retrieves the number of tagged elements in a given color profile. |
+| [**GetPS2ColorRenderingDictionary**](/windows/win32/api/icm/nf-icm-getps2colorrenderingdictionary) | Retrieves the PostScript Level 2 color rendering dictionary from the specified ICC color profile. |
+| [**GetPS2ColorRenderingIntent**](/windows/win32/api/icm/nf-icm-getps2colorrenderingintent) | Retrieves the PostScript Level 2 color [rendering intent](r.md) from an ICC color profile. |
+| [**GetPS2ColorSpaceArray**](/windows/win32/api/icm/nf-icm-getps2colorspacearray) | Retrieves the PostScript Level 2 [color space](c.md) array from an ICC color profile. |
+| [**IsColorProfileTagPresent**](/windows/win32/api/icm/nf-icm-iscolorprofiletagpresent) | Reports whether a specified International Color Consortium (ICC) tag is present in the specified color profile. |
+| [**IsColorProfileValid**](/windows/win32/api/icm/nf-icm-iscolorprofilevalid) | Allows you to determine whether the specified profile is a valid International Color Consortium (ICC) profile, or a valid Windows Color System (WCS) profile handle that can be used for color management. |
+| [**OpenColorProfileW**](/windows/win32/api/icm/nf-icm-opencolorprofilew) | Creates a handle to a specified color profile. The handle can then be used in other profile management functions. |
+| [**SetColorProfileElement**](/windows/win32/api/icm/nf-icm-setcolorprofileelement) | Sets the element data for a tagged profile element in an ICC color profile. |
+| [**SetColorProfileElementReference**](/windows/win32/api/icm/nf-icm-setcolorprofileelementreference) | Creates in a specified ICC color profile a new tag that references the same data as an existing tag. |
+| [**SetColorProfileElementSize**](/windows/win32/api/icm/nf-icm-setcolorprofileelementsize) | Sets the size of a tagged element in an ICC color profile. |
+| [**SetColorProfileHeader**](/windows/win32/api/icm/nf-icm-setcolorprofileheader) | Sets the header data in a specified ICC color profile. |
+| [**WcsGetCalibrationManagementState**](/windows/win32/api/icm/nf-icm-wcsgetcalibrationmanagementstate) | Determines whether system management of the display calibration state is enabled. |
+| [**WcsSetCalibrationManagementState**](/windows/win32/api/icm/nf-icm-wcssetcalibrationmanagementstate) | Determines whether system management of the display calibration state is enabled. |
 
 
 

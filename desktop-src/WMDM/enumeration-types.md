@@ -1,6 +1,6 @@
 ---
 title: WMDM enumerations
-description: Enumeration Types
+description: Learn about the enumerations that Windows Media Device Manager defines, such as WMDM_ENUM_PROP_VALID_VALUES_FORM and WMDM_FIND_SCOPE.
 ms.assetid: 205fe651-a712-4d9a-9ebf-bf7e8ec05ed0
 keywords:
 - Windows Media Device Manager,enumerations

@@ -1,5 +1,5 @@
 ---
-description: Transforms a 2D vector by a given matrix.
+description: D3DXVec2Transform function (D3dx9math.h) - Transforms a 2D vector by a given matrix.
 ms.assetid: ccde9e34-2d99-4112-a8ed-3820d018b547
 title: D3DXVec2Transform function (D3dx9math.h)
 ms.topic: reference
@@ -80,7 +80,7 @@ The return value for this function is the same value returned in the *pOut* para
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9math.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

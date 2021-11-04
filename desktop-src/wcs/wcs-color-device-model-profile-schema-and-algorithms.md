@@ -95,7 +95,7 @@ In addition, the device profile provides specific information on the targeted de
 
 ## Color Device Model Profile Architecture
 
-![](images/cdmp-image002new.png)
+![Diagram that shows the information that makes up a Device Model Profile.](images/cdmp-image002new.png)
 
 ## The CDMP Schema
 
@@ -898,33 +898,33 @@ The process of building the tristimulus matrix consists of two steps. First, est
 
 Each of these steps contains detailed procedures. The starting point is the ramps (17 steps in our example) for each of R, G, and B channels. When the XYZ measurements are plotted on the chromaticity *xy* -plane, a typical situation is shown in Figure 1. Step one consists of solving a nonlinear optimization problem to find the "best fit" black point that will minimize the drift in chromaticity as one traverses along the R, G, and B channels. Based on Berns\[3\], we seek ( *X<sub>K</sub>*,*Y<sub>K</sub>*,*Z<sub>K</sub>* ) that minimizes the following objective function:
 
-![](images/cdmp-formula1.png)
+![Shows the objective function where Sr, Sg, and Sb are the set of data points on the R, G, and B channels.](images/cdmp-formula1.png)
 
 where *S<sub>R</sub>*,*S<sub>G</sub>*, and *S<sub>B</sub>* are the set of data points corresponding to the points on the R, G, and B channels. For any set *S*, define:
 
-![](images/cdmp-formula2.png)
+![Shows a formula for defining any set S.](images/cdmp-formula2.png)
 
-In the preceding, \| *S* \| is the cardinality of *S*, i.e., the number of points in the set *S*. ![](images/cdmp-formula3.png) is the chromaticity coordinates of the point ![](images/cdmp-formula4.png) , so ![](images/cdmp-formula5.png) , is the average, or center of mass, of all the points in the set *S* in the chromaticity plane. Thus, ![](images/cdmp-formula6.png) is the sum of second moments of the points about the center of mass and is a measure of how spread out the points are about it. Finally, ![](images/cdmp-formula7.png) is a total measure of how spread out the three clusters of points are about their respective centers of mass.
+In the preceding, \| *S* \| is the cardinality of *S*, i.e., the number of points in the set *S*. ![Shows a formula for the chromaticity of a point.](images/cdmp-formula3.png) is the chromaticity coordinates of the point ![Shows a formaula for a point.](images/cdmp-formula4.png) , so ![Shows a formula for the average or center of mass.](images/cdmp-formula5.png), is the average, or center of mass, of all the points in the set *S* in the chromaticity plane. Thus, ![Shows a formula for the sum of a second moments of points.](images/cdmp-formula6.png) is the sum of second moments of the points about the center of mass and is a measure of how spread out the points are about it. Finally, ![Shows a formula for the total measure of the spread of three clusters of points.](images/cdmp-formula7.png) is a total measure of how spread out the three clusters of points are about their respective centers of mass.
 
-In the calculation of ![](images/cdmp-formula8.png) , if ![](images/cdmp-formula9.png) , then the calculation is skipped, and the cardinality of *S* is adjusted accordingly.
+In the calculation of ![Shows a formula of f(X,Y,Z; Xk, Yk, Zk).](images/cdmp-formula8.png) , if ![Shows a formula for X.](images/cdmp-formula9.png) , then the calculation is skipped, and the cardinality of *S* is adjusted accordingly.
 
 Despite the apparent complexity of the objective function, it is a sum of the squares of many differentiable functions in *X<sub>K</sub>*,*Y<sub>K</sub>Z<sub>K</sub>* (17 points   2*xy* -components   3 channels = 102, in the example), and, therefore, is amenable to standard nonlinear least squares techniques, such as the Levenberg-Marquardt algorithm, which is the algorithm used in WCS. Note that the preceding objective function is different from the one suggested in Berns\[3\] in that the latter function measures the variance of the distances from the center of mass, so that the variance is zero when the points are equidistant from the center of mass, even though they may spread out quite a bit about it. In the example, the dispersion of points is contolled directly using the second moments.
 
 As with any iterative algorithm for the nonlinear least squares problem, Levenberg-Marquardt requires an initial guess. There are two obvious candidates. One is (0, 0, 0); the other is the measured black point. For the CTE, the measured black point is first used as the initial guess. If a maximum of 100 iterations is exceeded without achieving a threshold of an average distance of 0.001 of each point from its center of mass (which corresponds to a threshold value of (0.001)    17   3 = 0.000051 for the objective function), then another round of iterations with the initial guess of (0, 0, 0) is performed. The resulting estimate of the black point is XYZ compared with the best estimate from the previous round of iterations (with the measured black point as the initial guess). Use the estimate that gives the smallest value for the objective function. The choice of 100 iterations and the error distance of 0.001 were each selected empirically. In future versions, it might be reasonable to parameterize the error distance.
 
-The result of step one is the estimated black point ( *X<sub>K</sub>*,*Y<sub>K</sub>*,*Z<sub>K</sub>* ). Step two consists of determining the tristimulus matrix by averaging the chromaticity of the points in the three clusters obtained in step one. For CRTs, this is done primarily to minimize the effects of measurement errors. The points used in averaging the chromaticity must be the same points used in the optimization in step one. In other words, if the first point (digital count 15, in the example) in each ramp is discarded in the optimization step, then the same must be done in the averaging. If ![](images/cdmp-formula10.png) , and ![](images/cdmp-formula11.png) are the averaged chromaticity coordinates of the red, green, and blue channels, then the following procedure determines the tristimulus matrix. First, solve the 3?3 linear system:
+The result of step one is the estimated black point ( *X<sub>K</sub>*,*Y<sub>K</sub>*,*Z<sub>K</sub>* ). Step two consists of determining the tristimulus matrix by averaging the chromaticity of the points in the three clusters obtained in step one. For CRTs, this is done primarily to minimize the effects of measurement errors. The points used in averaging the chromaticity must be the same points used in the optimization in step one. In other words, if the first point (digital count 15, in the example) in each ramp is discarded in the optimization step, then the same must be done in the averaging. If ![Shows formulas of averaged chromaticity for coordinates in the red and green channels.](images/cdmp-formula10.png) , and ![Shows a formula of averaged chromaticity for coordinates in the blue channel.](images/cdmp-formula11.png) are the averaged chromaticity coordinates of the red, green, and blue channels, then the following procedure determines the tristimulus matrix. First, solve the 3?3 linear system:
 
-![](images/cdmp-formula12.png)
+![Shows the first part of the procedure to solve a 3?3 linear system.](images/cdmp-formula12.png)
 
-![](images/cdmp-formula13.gif)![](images/cdmp-formula14.gif)
+![Shows the second part of the 3?3 linear system.](images/cdmp-formula13.gif)![Show the t subscript b value at the end of the second part of the 3?3 linear system.](images/cdmp-formula14.gif)
 
 *X<sub>W</sub>*,*Y<sub>W</sub>*,*Z<sub>W</sub>*
 
-![](images/cdmp-formula15.png)
+![Shows the final part of the procedure to solve a 3?3 linear system.](images/cdmp-formula15.png)
 
 After the tristimulus matrix is determined, the determination of tone curves follows the standard approach. For CRT displays, the individual channels are assumed to follow the "GOG" model:
 
-![](images/cdmp-formula16.png)
+![Shows the formula for the 'G O G' model.](images/cdmp-formula16.png)
 
 where *k<sub>g</sub>* is the "gain",1 -*k<sub>g</sub>* is the "offset", and ? is the "gamma." The inverse matrix of the tristimulus matrix is applied to the XYZ data of the neutrals to obtain the linear RGB data, which is then correlated with the digital RGB values using nonlinear regression on the GOG model. These characteristics do not have to be the same for the R, G, and B channels, and generally are not the same.
 
@@ -956,13 +956,13 @@ Neutrals: R = G = B = 0, 15, 30, 45, 60, 75, 90, 105, 120, 135, 150, 165, 180, 1
 
 The process of averaging measured color chromaticies to obtain the chromaticities for the device primaries is more critical for LCDs than it is for CRTs. When XYZ measurements are plotted on the chromaticity *xy* -plane, a typical situation is shown in Figure 1. Notice how the chromaticity drifts toward the black point. This is because all LCDs have a certain amount of light leakage.
 
-![](images/cdmp-lcd-dmp-figure1.png)
+![Diagram that shows a graph of the chromaticity using raw data with no correction.](images/cdmp-lcd-dmp-figure1.png)
 
 **Figure 1** : The chromaticity diagram using raw data with no correction
 
 When this is subtracted from the raw XYZ measurements, a typical situation is depicted in Figure 2. Tthe points are now clustered about three centers, although they don't fall identically on them. The averaging process described for CRTs greatly improves the results for LCDs.
 
-![](images/cdmp-lcd-dmp-figure2.png)
+![Diagram that shows a graph of the chromaticity using raw data with an adjusted black point.](images/cdmp-lcd-dmp-figure2.png)
 
 **Figure 2** : The chromaticity diagram using data with adjusted black point
 
@@ -972,7 +972,7 @@ The baseline RGB capture device model is a subclass of the IDeviceModel class. I
 
 Such a mathematical transformation can be modeled reasonably by polynomials of low degrees. This procedure is detailed in the literature, for example Kang\[92\], Kang\[97\]. In Kang\[97\], an approach is reported that uses a set of three polynomials with 3, 6, 8, 9, 11, 14 or 20 terms in the R, G, and B variables, while the three polynomials regress respectively into the X, Y, Z components of the CIEXYZ space. For the 20-term polynomial, the form is:
 
-![](images/cdmp-formula20.png)
+![Shows the 20-term polynomial.](images/cdmp-formula20.png)
 
 There are similar expressions for Y and Z. The mathematical technique for fitting the polynomials falls within "Multivariate Linear Regression" and is described in any elementary text in Statistics.
 
@@ -980,31 +980,31 @@ This method of linear regression suffers from not minimizing the "right" objecti
 
 In the new engine, Lab to XYZ is the CIE color space that is regressed into, and the 20-term cubic polynomial is used as the model for the capture device, or coefficients ls,as,bs such that the following polynomials minimize the sum of squares of ?E <sub>CIE94</sub> s.
 
-![](images/cdmp-formula21.png)
+![Shows a set of polynomial formulas.](images/cdmp-formula21.png)
 
 The solution ( *l<sub>i</sub>*, *a<sub>i</sub>*, *b<sub>i</sub>* ) in the 60-dimensional real numeric space **R**203 must be such that the following total error is minimized:
 
-![](images/cdmp-formula22.png)
+![Shows the total error to be minimized.](images/cdmp-formula22.png)
 
 where the summation is through all the data point pairs (*R<sub>i</sub>*,*G<sub>i</sub>*,*B<sub>i</sub>*;*L<sub>i</sub>*,*u<sub>i</sub>*,*v<sub>i</sub>* ) in the sampled data set plus additional control points to be detailed in the following. This is a nonlinear regression problem because the parameters *?<sub>i</sub>*, *a<sub>i</sub>*, * <sub>i</sub>* enter into the objective function in a nonlinear way (not quadratically).
 
 Because the objective function ? is a nonlinear (and nonquadratic) function of the parameters *?<sub>i</sub>*, *a<sub>i</sub>* and * <sub>i</sub>*, you must resort to iterative techniques to solve the optimization problem. Because the form of the objective function is a sum of squares, a standard optimization technique called the Levenberg-Marquardt algorithm is used. It is considered the method of choice for nonlinear least squares problems. For iterative algorithms such as Levenberg-Marquardt, you must supply an initial guess. A good initial guess is usually critical in finding the correct minimum value. In this case, one good candidate for the initial guess is the solution of the linear regression problem. First, minimize the sum of the square of Euclidean distances in Lab space, by defining a quadratic objective function:
 
-![](images/cdmp-formula23.png)
+![Shows a defined quadratic objective function.](images/cdmp-formula23.png)
 
 The mathematical solution to such "linear least squares" problem is well known. Because *?<sub>i</sub>* only appears in the *L* modeling, *a<sub>i</sub>* only appears in the *u* modeling, and * <sub>i</sub>* only appears in the *v* modeling; the optimization problem can be decomposed into three subproblems: one for *L*, one for *u* and one for *v*. Consider the *L* equations. (The *u* equations and the *v* equations follow exactly the same argument.) The problem of minimizing the sum of squares of errors in *L* can be stated as solving the following matrix equation in the least squares sense:
 
-![](images/cdmp-formula24.png)
+![Shows a matrix equation for L.](images/cdmp-formula24.png)
 
 where *N* is the total number of data points (original sampled points plus control points created in a manner described below). Typically, *N* is much larger than 20, so the preceding equation is over-determined, requiring a least squares solution. A closed form solution for **?** is available:
 
-![](images/cdmp-formula25.png)
+![Shows a closed form solution.](images/cdmp-formula25.png)
 
 In practice, direct evaluation using the closed form solution is not used because it has poor numerical properties. Instead, some kind of matrix factorization algorithm is applied to the coefficient matrix which reduces the system of equations to a canonical form. In the current implementation, Singular Value Decomposition (SVD) is applied to the matrix **R** and then the resulting decomposed system is solved.
 
-The solution to the linear regression problem, denoted by ![](images/cdmp-formula26.png) , is used as the starting point of the Levenberg-Marquardt algorithm. In this algorithm, a trial step is computed that should move the point closer to the optimal solution. The trial step satisfies a set of linear equations dependent on the functional value and values of the derivatives at the current point. For this reason, the derivatives of the objective function ? with respect to the parameters *?<sub>i</sub>*, *a<sub>i</sub> <sub>i</sub>* are required inputs to the Levenberg-Marquardt algorithm. Although there are 60 parameters, there is a shortcut that allows you to compute a lot less. By the Chain Rule of Calculus,
+The solution to the linear regression problem, denoted by ![Shows the solution to the linear regression problem.](images/cdmp-formula26.png) , is used as the starting point of the Levenberg-Marquardt algorithm. In this algorithm, a trial step is computed that should move the point closer to the optimal solution. The trial step satisfies a set of linear equations dependent on the functional value and values of the derivatives at the current point. For this reason, the derivatives of the objective function ? with respect to the parameters *?<sub>i</sub>*, *a<sub>i</sub> <sub>i</sub>* are required inputs to the Levenberg-Marquardt algorithm. Although there are 60 parameters, there is a shortcut that allows you to compute a lot less. By the Chain Rule of Calculus,
 
-![](images/cdmp-formula27.png)
+![Shows an equation that allows a shortcut using the Chain Rule of Calculus.](images/cdmp-formula27.png)
 
 where *j* = 1, 2,  , 20, *L<sub>i</sub>*,*u<sub>i</sub>*,*v<sub>i</sub>* are the CIELAB value of the *i* th sample point, and *R<sub>ij</sub>* is the (*i*,*j* )th entry of the matrix **R** defined above. So instead of computing derivatives for 60 parameters, you can compute derivatives for *L*,*a*, and *b* using numerical forward differencing.
 
@@ -1036,47 +1036,47 @@ Artificial control points are introduced to control the behavior of the polynomi
 
 Except for the white *R* =*G* =*B* = 1, which is associated with a CIELAB value of *L* = 100, *u* =*v* = 0, the following extrapolation algorithm is used to determine the appropriate CIELAB value to be associated with. Generally, for a given (*R*,*G*,*B* ), a weight is associated with each of the (*R<sub>i</sub>*,*G<sub>i</sub>*,*B<sub>i</sub>* ) in the sampled data set. There are two goals to assigning the weight. First, the weight is inversely proportional to the distance between (*R*,*G*,*B* ) and (*R<sub>i</sub>*,*G<sub>i</sub>*,*B<sub>i</sub>* ). Second, you want to discard, or assign weight 0 to, points that have a different hue than the given point (*R*,*G*,*B* ). To take the hue into account, consider points that lie within a cone whose vertex is at (0, 0, 0), whose axis coincides with the line joining (0, 0, 0) to (*R*,*G*,*B* ), and whose semi-vertical angle ? satisfies cos ? = 0.9. See Figure 3 for an illustration of this cone.
 
-![](images/cdmp-lcd-dmp-figure3.png)
+![Diagram that shows the shape of the neighborhood.](images/cdmp-lcd-dmp-figure3.png)
 
 **Figure 3** : Filtering the sample points by angle and distance. The shape of the neighborhood depicted is for illustration purpose only. The actual shape depends on the distance used; it is a diamond-shaped neighborhood if the 1-norm is used.
 
 Within this cone, a second filtering is performed that is based on the RGB distance, which uses the 1-norm, defined by
 
-![](images/cdmp-formula28.png)
+![Shows the formula for the second filtering within the cone.](images/cdmp-formula28.png)
 
 With the current cone, the initial search is for points that are within a distance of 0.1 from (*R*,*G*,*B* ). If no point is found within this radius, the radius is increased by 0.1, and the search is restarted. If the next round nets no point either, the radius is increased by 0.1. This process continues until the radius exceeds MaxDist/5, where MaxDist = 3, in the case of 1-norm. If no point is found, the cone is enlarged by decreasing the cos ? by 0.05, that is, increasing the angle ? and restarting the whole process with an increasing radius. This process continues until a non-empty set of points is found, or cos ? reaches 0, that is, the cone has opened up to become a plane. At this point, the search is restarted by increasing the radius, except that the search continues until the radius reaches MaxDist. This guarantees that in the worst-case scenario, a non-empty set of points will be found. The algorithm is summarized in the flow diagram in Figure 4.
 
-![](images/cdmp-lcd-dmp-figure4.png)
+![Diagram that shows the flow of the algorithm.](images/cdmp-lcd-dmp-figure4.png)
 
 **Figure 4** : Flow diagram for determining the set S of sample points used in the extrapolation for an input RGB value
 
 Assuming that the preceding process yields a non-empty set *S* of points (*R<sub>i</sub>*,*G<sub>i</sub>*,*B<sub>i</sub>* ) and corresponding (*L<sub>i</sub>*,*a<sub>i</sub>*,*b<sub>i</sub>* ), then for each such point, a weight *w<sub>i</sub>* is assigned, given by
 
-![](images/cdmp-formula29.png)
+![Shows the formula for a weight for each point.](images/cdmp-formula29.png)
 
 Finally, the extrapolant is defined by
 
-![](images/cdmp-formula30.png)
+![Shows the definition for the extrapolant.](images/cdmp-formula30.png)
 
 The preceding equations constitute an instance of the "inverse-distance weighted methods," commonly called the Shepard methods. By running each of the eight points from eq (6) through the algorithm, eight control points are obtained, each with *R*,*G*,*B* and *L*,*a*,*b* values, which are put into the pool with the original sample data.
 
 To ensure that the model always produces valid color values and for system integrity and stability down the whole color processing pipeline, you must perform a final clipping to the output of the polynomial model. The CIE visual gamut is described by the achromatic component (*Y* or *L* ) and the chromatic component (*xy* or *a'b'*, which are related to the XYZ space by a projective transformation). In the current implementation, the *a'b'* chromaticity is used because it is directly related to the CIELUV space. For any *CIELAB* value, first clip *L* to a non-negative value:
 
-![](images/cdmp-formula31.png)
+![Shows the clipping of L to a non-negative value.](images/cdmp-formula31.png)
 
 To allow extrapolation for specular highlights, *L* is not clipped at 100, the "conventional" upper bound for *L* in Lab space.
 
 Next, if *L* = 0, then *a* and *b* are clipped such that a*= b =* 0. If *L* ? 0, calculate
 
-![](images/cdmp-formula32.png)
+![Shows the formula if L=0.](images/cdmp-formula32.png)
 
 These are the components of a vector in the *a'b'* diagram from the white point (*u?'*,*v?'* ) to the color in question. Define the CIE spectral locus as the convex hull of all the points (*a'*,*b'* ), parameterized by the wavelength ?:
 
-![](images/cdmp-formula33.png)
+![Shows the formula for the wavelength.](images/cdmp-formula33.png)
 
-where ![](images/cdmp-formula34.png) are the CIE color-matching functions for the 2-degree observer. If the vector lies outside the CIE locus, the color is clipped to the point on the CIE locus that is the intersection of the locus and the line defined by the vector. See Figure 5. If clipping has occurred, the *a* and *b* value is reconstructed by first subtracting *a?'* and *b?'* from the clipped *a'* and *b'*, and then multiplying by 13 *L*.
+where ![Shows the functions for CIE color-matching.](images/cdmp-formula34.png) are the CIE color-matching functions for the 2-degree observer. If the vector lies outside the CIE locus, the color is clipped to the point on the CIE locus that is the intersection of the locus and the line defined by the vector. See Figure 5. If clipping has occurred, the *a* and *b* value is reconstructed by first subtracting *a?'* and *b?'* from the clipped *a'* and *b'*, and then multiplying by 13 *L*.
 
-![](images/cdmp-lcd-dmp-figure5.png)
+![Diagram that shows the graph for the clipping algorithm.](images/cdmp-lcd-dmp-figure5.png)
 
 **Figure 5** : Clipping algorithm for Lab values that are outside the CIE visual gamut
 
@@ -1094,15 +1094,15 @@ The empirical model is directly used in the source map. It first maps a given RG
 
 After generating a 3-D LUT from RGB to CieLUV, the map from RGB to LUV is built using tetrahedral interpolation on RGB. This map is denoted by the following equations:
 
-![](images/cdmp-image125.png)
+![Shows the equations for the map from R G B to L U V.](images/cdmp-image125.png)
 
-Inversion of the map consists of solving, for any color ![](images/cdmp-image127.png) , the following system of nonlinear equations:
+Inversion of the map consists of solving, for any color ![Shows L U V.](images/cdmp-image127.png) , the following system of nonlinear equations:
 
-![](images/cdmp-image129.png)
+![Shows the nonlinear equations for lolving any color L U V.](images/cdmp-image129.png)
 
-A nonlinear equation that is based on the classical Newton-Raphson method is used in the new CTE. An initial guess, or *a priori* see, s <sub>prior</sub> -(R 0, G 0, B 0 ) is obtained by searching through a "seed matrix" consisting of a uniform 8x8x8 grid of pre-computed (RGB,Luv) pairs. The RGB corresponding Luv that is closest to the L\*u\*v\* is chosen. Each point in the seed matrix corresponds to the center of a cell so that the iterations don't start with a point on the boundary face of the RGB cube. In other words, the RGB of the seeds is defined by: STEP = 1/8 s <sub>ijk</sub> = (STEP/2 + (i-1) STEP, STEP/2+(j-1)STEP, STEP/2+(k-1)STEP) with i,j,k = 1...8 At the *i* th step of Newton-Raphson, the next estimate ![](images/cdmp-image133.png) is obtained by the formula:
+A nonlinear equation that is based on the classical Newton-Raphson method is used in the new CTE. An initial guess, or *a priori* see, s <sub>prior</sub> -(R 0, G 0, B 0 ) is obtained by searching through a "seed matrix" consisting of a uniform 8x8x8 grid of pre-computed (RGB,Luv) pairs. The RGB corresponding Luv that is closest to the L\*u\*v\* is chosen. Each point in the seed matrix corresponds to the center of a cell so that the iterations don't start with a point on the boundary face of the RGB cube. In other words, the RGB of the seeds is defined by: STEP = 1/8 s <sub>ijk</sub> = (STEP/2 + (i-1) STEP, STEP/2+(j-1)STEP, STEP/2+(k-1)STEP) with i,j,k = 1...8 At the *i* th step of Newton-Raphson, the next estimate ![Shows the variables for the next estimate.](images/cdmp-image133.png) is obtained by the formula:
 
-![](images/cdmp-image135.png)
+![Shows the formula for the estimate.](images/cdmp-image135.png)
 
 Iteration stops when the error (distance in the CIELUV space) is less than a pre-set tolerance level (0.1 in the CTE), or when the number of iterations has exceeded the maximum allowed number of iterations (10 in the CTE). The values for the tolerance and the number of iterations were empirically determined to be effective. In future versions, the tolerance value may be changed.
 
@@ -1112,7 +1112,7 @@ At the end of the iterations, convergence still might not be achieved because Ne
 
 For example, the best solution obtained so far is (r, g, b). From this solution, N a posteriori seeds are derived, where N = 4. Intuitively, the solution is moved "toward the center" in a step size that depends on N. See Figure 6.
 
-![](images/cdmp-image136.png)
+![Diagram that shows perturbation directions of the solution.](images/cdmp-image136.png)
 
 **Figure 6** : Perturbation direction of the solution depends on which octant it is in.
 
@@ -1128,7 +1128,7 @@ Try the first s ???? and if it gives a new solution within error tolerance, you 
 
 The schematics of the whole algorithm is shown in Figure 7.
 
-![](images/cdmp-image138.png)
+![Diagram that shows the flow for inverting the device model.](images/cdmp-image138.png)
 
 **Figure 7** : Schematics of inverting the device model
 
@@ -1142,14 +1142,13 @@ ICC parametricCurveType function type encoding and corresponding support in IRGB
 
 
 
-|                                          |                           |                                      |                                            |
+| Function type                                         | Parameters                          | Type                                     | Note                                           |
 |------------------------------------------|---------------------------|--------------------------------------|--------------------------------------------|
-| **Function type**<br/>             | **Parameters**<br/> | **Type**<br/>                  | **Note**<br/>                        |
-| ![](images/cdmp-image154.png)<br/> | g<br/>              | GammaType<br/>                 | Common implementation<br/>           |
-| ![](images/cdmp-image156.png)<br/> | ga b<br/>           | GammaOffsetGainType<br/>       | CIE 122-1966<br/>                    |
-| ![](images/cdmp-image158.png)<br/> | ga b c<br/>         | GammaOffsetGainOffsetType<br/> | IEC 61966-3<br/>                     |
-| ![](images/cdmp-image160.png)<br/> | ga b c d<br/>       | GammaOffsetGainGainType<br/>   | IEC 61966-2.1<br/> (sRGB)<br/> |
-| ![](images/cdmp-image162.png)<br/> | ga b c d e f<br/>   | N/A<br/>                       | Not supported in WCS<br/>            |
+| ![Shows the 'GammaType' function.](images/cdmp-image154.png)<br/> | g<br/>              | GammaType<br/>                 | Common implementation<br/>           |
+| ![Shows the 'GammaOffsetGainType' function.](images/cdmp-image156.png)<br/> | ga b<br/>           | GammaOffsetGainType<br/>       | CIE 122-1966<br/>                    |
+| ![Shows the 'GammaOffsetGainOffsetType' function.](images/cdmp-image158.png)<br/> | ga b c<br/>         | GammaOffsetGainOffsetType<br/> | IEC 61966-3<br/>                     |
+| ![Shows the 'GammaOffsetGainGainType' function.](images/cdmp-image160.png)<br/> | ga b c d<br/>       | GammaOffsetGainGainType<br/>   | IEC 61966-2.1<br/> (sRGB)<br/> |
+| ![Shows a function for 'g a b c d e f' parameters.](images/cdmp-image162.png)<br/> | ga b c d e f<br/>   | N/A<br/>                       | Not supported in WCS<br/>            |
 
 
 
@@ -1204,7 +1203,7 @@ Steps 1 and 2, which are standard procedures, are performed by a profiling progr
 
 Step 3, construction of the forward map from CMYK to Luv, can be achieved by applying any known interpolation technique, such as tetrahedral or multilinear method, on the rectangular grid in CMYK space. In the new CTE, a 4-dimensional tetrahedral interpolation is used. Because the CMY sampling grids are generally different on each level of K, however, we use a technique of super-sampling, as detailed below. For a given CMYK point, the sandwiching K levels are first determined based on the K value. Then introduce a "super-grid" on each K level that is a union of the CMY grids on each of the two K levels. On each K level, the Luv value of any newly introduced grid point is obtained by a 3-dimensional tetrahedral interpolation within that K level. Finally, a 4-dimensional tetrahedral interpolation for the specific CMYK point is performed on this new grid.
 
-![](images/cdmp-image163.png)
+![Diagram that shows supersampling.](images/cdmp-image163.png)
 
 **Figure 8** : Supersampling
 
@@ -1218,7 +1217,7 @@ CIELUV space is used in the printer model instead of CIEJab because the device m
 
 Note: Many RGB projectors have more than one operating mode. In one mode, which is often the default and might be called something like "presentation," the color response of the projector is optimized for maximum brightness. However, in this mode, the projector loses the ability to reproduce light, slightly chromatic colors such as pale yellows and some flesh tones. In another mode, often called "film," "video," or "sRGB," the projector is optimized for reproduction of realistic images and natural scenes. In this mode, maximum brightness is traded off to improve the overall quality of the color reproduction. To obtain satisfactory color reproduction with RGB projectors, it is necessary to place the projector in a mode where a smooth gamut of colors can be reproduced.
 
-![](images/cdmp-image167.png)
+![Diagram that shows a D L P device model.](images/cdmp-image167.png)
 
 **Figure 9** : DLP device model
 
@@ -1230,7 +1229,7 @@ Since projectors are display devices, they also support the inversion of the mod
 
 The CITE ICC workflow interoperability is enabled by creating a special ICC device baseline device model profile that stores the profile object and creates a ICC transform using a no-op XYZ profile. This transform is then used to translate between device and CIEXYZ colors.
 
-![](images/cdmp-image168.png)
+![Diagram that shows the C I T E I C C Workflow Interoperability.](images/cdmp-image168.png)
 
 **Figure 10** : CITE ICC Workflow Interoperability
 
@@ -1238,7 +1237,7 @@ The CITE ICC workflow interoperability is enabled by creating a special ICC devi
 
 <dl> <dt>
 
-[Basic Color Management Concepts](basic-color-management-concepts.md)
+[Basic color management concepts](basic-color-management-concepts.md)
 </dt> <dt>
 
 [Windows Color System Schemas and Algorithms](windows-color-system-schemas-and-algorithms.md)

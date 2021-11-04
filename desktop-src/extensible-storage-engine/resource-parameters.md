@@ -34,58 +34,21 @@ This parameter controls the number of B+ Tree resources cached by the instance a
 
 Large values for this parameter will cause the database engine to use more memory but will increase the speed with which a large number of tables can be opened randomly by the application. This is useful for applications that have a schema with a very large number of tables.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Default Value:</p></td>
-<td><p>64</p></td>
-</tr>
-<tr class="even">
-<td><p>Type:</p></td>
-<td><p>Integer</p></td>
-</tr>
-<tr class="odd">
-<td><p>Valid Range:</p></td>
-<td><p>1 – 2147483647</p></td>
-</tr>
-<tr class="even">
-<td><p>Scope:</p></td>
-<td><p>Instance</p></td>
-</tr>
-<tr class="odd">
-<td><p>Set After <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="even">
-<td><p>Set after <a href="gg294068(v=exchg.10).md">JetInit</a>:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affects Physical Layout:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="even">
-<td><p>Affects Reliability:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affects Performance:</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="even">
-<td><p>Affects Resources:</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="odd">
-<td><p>Availability:</p></td>
-<td><p>Windows Vista and later releases</p></td>
-</tr>
-</tbody>
-</table>
+
+| Label | Value |
+|--------|-------|
+| <p>Default Value:</p> | <p>64</p> | 
+| <p>Type:</p> | <p>Integer</p> | 
+| <p>Valid Range:</p> | <p>1 – 2147483647</p> | 
+| <p>Scope:</p> | <p>Instance</p> | 
+| <p>Set After <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Yes</p> | 
+| <p>Set after <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>No</p> | 
+| <p>Affects Physical Layout:</p> | <p>No</p> | 
+| <p>Affects Reliability:</p> | <p>No</p> | 
+| <p>Affects Performance:</p> | <p>Yes</p> | 
+| <p>Affects Resources:</p> | <p>Yes</p> | 
+| <p>Availability:</p> | <p>Windows Vista and later releases</p> | 
+
 
 
 *JET_paramDisablePerfmon*  
@@ -93,58 +56,21 @@ Large values for this parameter will cause the database engine to use more memor
 
 This parameter can be used to prevent the database engine from publishing data about its performance to Windows. This can be done to reduce the service thread activity of the database engine.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Default Value:</p></td>
-<td><p>False</p></td>
-</tr>
-<tr class="even">
-<td><p>Type:</p></td>
-<td><p>Boolean</p></td>
-</tr>
-<tr class="odd">
-<td><p>Valid Range:</p></td>
-<td><p>False, True</p></td>
-</tr>
-<tr class="even">
-<td><p>Scope:</p></td>
-<td><p>Global</p></td>
-</tr>
-<tr class="odd">
-<td><p>Set After <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="even">
-<td><p>Set after <a href="gg294068(v=exchg.10).md">JetInit</a>:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affects Physical Layout:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="even">
-<td><p>Affects Reliability:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affects Performance:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="even">
-<td><p>Affects Resources:</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="odd">
-<td><p>Availability:</p></td>
-<td><p>Windows Vista and later releases</p></td>
-</tr>
-</tbody>
-</table>
+
+| Label | Value |
+|--------|-------|
+| <p>Default Value:</p> | <p>False</p> | 
+| <p>Type:</p> | <p>Boolean</p> | 
+| <p>Valid Range:</p> | <p>False, True</p> | 
+| <p>Scope:</p> | <p>Global</p> | 
+| <p>Set After <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>No</p> | 
+| <p>Set after <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>No</p> | 
+| <p>Affects Physical Layout:</p> | <p>No</p> | 
+| <p>Affects Reliability:</p> | <p>No</p> | 
+| <p>Affects Performance:</p> | <p>No</p> | 
+| <p>Affects Resources:</p> | <p>Yes</p> | 
+| <p>Availability:</p> | <p>Windows Vista and later releases</p> | 
+
 
 
 *JET_paramGlobalMinVerPages*  
@@ -156,58 +82,21 @@ This parameter allows applications that operate in multi-instance mode to pre-al
 
 **Windows XP:**  As of Windows XP, this is still true when in single instance mode. However, version page memory is dynamically allocated when in multi-instance mode.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Default Value:</p></td>
-<td><p>64</p></td>
-</tr>
-<tr class="even">
-<td><p>Type:</p></td>
-<td><p>Integer</p></td>
-</tr>
-<tr class="odd">
-<td><p>Valid Range:</p></td>
-<td><p>1 – 2147483647</p></td>
-</tr>
-<tr class="even">
-<td><p>Scope:</p></td>
-<td><p>Global</p></td>
-</tr>
-<tr class="odd">
-<td><p>Set After <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="even">
-<td><p>Set after <a href="gg294068(v=exchg.10).md">JetInit</a>:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affects Physical Layout:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="even">
-<td><p>Affects Reliability:</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affects Performance:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="even">
-<td><p>Affects Resources:</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="odd">
-<td><p>Availability:</p></td>
-<td><p>Windows XP and later releases</p></td>
-</tr>
-</tbody>
-</table>
+
+| Label | Value |
+|--------|-------|
+| <p>Default Value:</p> | <p>64</p> | 
+| <p>Type:</p> | <p>Integer</p> | 
+| <p>Valid Range:</p> | <p>1 – 2147483647</p> | 
+| <p>Scope:</p> | <p>Global</p> | 
+| <p>Set After <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>No</p> | 
+| <p>Set after <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>No</p> | 
+| <p>Affects Physical Layout:</p> | <p>No</p> | 
+| <p>Affects Reliability:</p> | <p>Yes</p> | 
+| <p>Affects Performance:</p> | <p>No</p> | 
+| <p>Affects Resources:</p> | <p>Yes</p> | 
+| <p>Availability:</p> | <p>Windows XP and later releases</p> | 
+
 
 
 *JET_paramMaxCursors*  
@@ -217,58 +106,21 @@ This parameter reserves the requested number of cursor resources for use by an i
 
 **Windows 2000, Windows XP and Windows Server 2003:**  Large values for this parameter will consume address space and may increase memory usage.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Default Value:</p></td>
-<td><p>1024</p></td>
-</tr>
-<tr class="even">
-<td><p>Type:</p></td>
-<td><p>Integer</p></td>
-</tr>
-<tr class="odd">
-<td><p>Valid Range:</p></td>
-<td><p>0 – 2147483647</p></td>
-</tr>
-<tr class="even">
-<td><p>Scope:</p></td>
-<td><p>Instance</p></td>
-</tr>
-<tr class="odd">
-<td><p>Set After <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="even">
-<td><p>Set after <a href="gg294068(v=exchg.10).md">JetInit</a>:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affects Physical Layout:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="even">
-<td><p>Affects Reliability:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affects Performance:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="even">
-<td><p>Affects Resources:</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="odd">
-<td><p>Availability:</p></td>
-<td><p>All</p></td>
-</tr>
-</tbody>
-</table>
+
+| Label | Value |
+|--------|-------|
+| <p>Default Value:</p> | <p>1024</p> | 
+| <p>Type:</p> | <p>Integer</p> | 
+| <p>Valid Range:</p> | <p>0 – 2147483647</p> | 
+| <p>Scope:</p> | <p>Instance</p> | 
+| <p>Set After <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Yes</p> | 
+| <p>Set after <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>No</p> | 
+| <p>Affects Physical Layout:</p> | <p>No</p> | 
+| <p>Affects Reliability:</p> | <p>No</p> | 
+| <p>Affects Performance:</p> | <p>No</p> | 
+| <p>Affects Resources:</p> | <p>Yes</p> | 
+| <p>Availability:</p> | <p>All</p> | 
+
 
 
 *JET_paramMaxInstances*  
@@ -276,58 +128,21 @@ This parameter reserves the requested number of cursor resources for use by an i
 
 This parameter controls the maximum number of instances that can be created in a single process.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Default Value:</p></td>
-<td><p>16</p></td>
-</tr>
-<tr class="even">
-<td><p>Type:</p></td>
-<td><p>Integer</p></td>
-</tr>
-<tr class="odd">
-<td><p>Valid Range:</p></td>
-<td><p>1-1024</p></td>
-</tr>
-<tr class="even">
-<td><p>Scope:</p></td>
-<td><p>Global</p></td>
-</tr>
-<tr class="odd">
-<td><p>Set After <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="even">
-<td><p>Set after <a href="gg294068(v=exchg.10).md">JetInit</a>:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affects Physical Layout:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="even">
-<td><p>Affects Reliability:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affects Performance:</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="even">
-<td><p>Affects Resources:</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="odd">
-<td><p>Availability:</p></td>
-<td><p>Windows XP and later releases</p></td>
-</tr>
-</tbody>
-</table>
+
+| Label | Value |
+|--------|-------|
+| <p>Default Value:</p> | <p>16</p> | 
+| <p>Type:</p> | <p>Integer</p> | 
+| <p>Valid Range:</p> | <p>1-1024</p> | 
+| <p>Scope:</p> | <p>Global</p> | 
+| <p>Set After <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>No</p> | 
+| <p>Set after <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>No</p> | 
+| <p>Affects Physical Layout:</p> | <p>No</p> | 
+| <p>Affects Reliability:</p> | <p>No</p> | 
+| <p>Affects Performance:</p> | <p>Yes</p> | 
+| <p>Affects Resources:</p> | <p>Yes</p> | 
+| <p>Availability:</p> | <p>Windows XP and later releases</p> | 
+
 
 
 *JET_paramMaxOpenTables*  
@@ -339,58 +154,21 @@ In general, you will need two resources plus one resource per secondary index pe
 
 **Windows 2000, Windows XP and Windows Server 2003:**  Large values for this parameter will consume address space and may increase memory usage.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Default Value:</p></td>
-<td><p>300</p></td>
-</tr>
-<tr class="even">
-<td><p>Type:</p></td>
-<td><p>Integer</p></td>
-</tr>
-<tr class="odd">
-<td><p>Valid Range:</p></td>
-<td><p>0 – 2147483647</p></td>
-</tr>
-<tr class="even">
-<td><p>Scope:</p></td>
-<td><p>Instance</p></td>
-</tr>
-<tr class="odd">
-<td><p>Set After <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="even">
-<td><p>Set after <a href="gg294068(v=exchg.10).md">JetInit</a>:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affects Physical Layout:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="even">
-<td><p>Affects Reliability:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affects Performance:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="even">
-<td><p>Affects Resources:</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="odd">
-<td><p>Availability:</p></td>
-<td><p>All</p></td>
-</tr>
-</tbody>
-</table>
+
+| Label | Value |
+|--------|-------|
+| <p>Default Value:</p> | <p>300</p> | 
+| <p>Type:</p> | <p>Integer</p> | 
+| <p>Valid Range:</p> | <p>0 – 2147483647</p> | 
+| <p>Scope:</p> | <p>Instance</p> | 
+| <p>Set After <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Yes</p> | 
+| <p>Set after <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>No</p> | 
+| <p>Affects Physical Layout:</p> | <p>No</p> | 
+| <p>Affects Reliability:</p> | <p>No</p> | 
+| <p>Affects Performance:</p> | <p>No</p> | 
+| <p>Affects Resources:</p> | <p>Yes</p> | 
+| <p>Availability:</p> | <p>All</p> | 
+
 
 
 *JET_paramMaxSessions*  
@@ -400,58 +178,21 @@ This parameter reserves the requested number of session resources for use by an 
 
 **Windows 2000, Windows XP and Windows Server 2003:**  Large values for this parameter will consume address space and may increase memory usage.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Default Value:</p></td>
-<td><p>16</p></td>
-</tr>
-<tr class="even">
-<td><p>Type:</p></td>
-<td><p>Integer</p></td>
-</tr>
-<tr class="odd">
-<td><p>Valid Range:</p></td>
-<td><p>0 – 30000</p></td>
-</tr>
-<tr class="even">
-<td><p>Scope:</p></td>
-<td><p>Instance</p></td>
-</tr>
-<tr class="odd">
-<td><p>Set After <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="even">
-<td><p>Set after <a href="gg294068(v=exchg.10).md">JetInit</a>:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affects Physical Layout:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="even">
-<td><p>Affects Reliability:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affects Performance:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="even">
-<td><p>Affects Resources:</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="odd">
-<td><p>Availability:</p></td>
-<td><p>All</p></td>
-</tr>
-</tbody>
-</table>
+
+| Label | Value |
+|--------|-------|
+| <p>Default Value:</p> | <p>16</p> | 
+| <p>Type:</p> | <p>Integer</p> | 
+| <p>Valid Range:</p> | <p>0 – 30000</p> | 
+| <p>Scope:</p> | <p>Instance</p> | 
+| <p>Set After <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Yes</p> | 
+| <p>Set after <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>No</p> | 
+| <p>Affects Physical Layout:</p> | <p>No</p> | 
+| <p>Affects Reliability:</p> | <p>No</p> | 
+| <p>Affects Performance:</p> | <p>No</p> | 
+| <p>Affects Resources:</p> | <p>Yes</p> | 
+| <p>Availability:</p> | <p>All</p> | 
+
 
 
 *JET_paramMaxTemporaryTables*  
@@ -465,58 +206,21 @@ This parameter reserves the requested number of temporary table resources for us
 
 **Note**  The use of a temporary table also requires a cursor resource.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Default Value:</p></td>
-<td><p>20</p></td>
-</tr>
-<tr class="even">
-<td><p>Type:</p></td>
-<td><p>Integer</p></td>
-</tr>
-<tr class="odd">
-<td><p>Valid Range:</p></td>
-<td><p>0 – 2147483647</p></td>
-</tr>
-<tr class="even">
-<td><p>Scope:</p></td>
-<td><p>Instance</p></td>
-</tr>
-<tr class="odd">
-<td><p>Set After <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="even">
-<td><p>Set after <a href="gg294068(v=exchg.10).md">JetInit</a>:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affects Physical Layout:</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="even">
-<td><p>Affects Reliability:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affects Performance:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="even">
-<td><p>Affects Resources:</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="odd">
-<td><p>Availability:</p></td>
-<td><p>All</p></td>
-</tr>
-</tbody>
-</table>
+
+| Label | Value |
+|--------|-------|
+| <p>Default Value:</p> | <p>20</p> | 
+| <p>Type:</p> | <p>Integer</p> | 
+| <p>Valid Range:</p> | <p>0 – 2147483647</p> | 
+| <p>Scope:</p> | <p>Instance</p> | 
+| <p>Set After <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Yes</p> | 
+| <p>Set after <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>No</p> | 
+| <p>Affects Physical Layout:</p> | <p>Yes</p> | 
+| <p>Affects Reliability:</p> | <p>No</p> | 
+| <p>Affects Performance:</p> | <p>No</p> | 
+| <p>Affects Resources:</p> | <p>Yes</p> | 
+| <p>Availability:</p> | <p>All</p> | 
+
 
 
 *JET_paramMaxVerPages*  
@@ -532,58 +236,21 @@ Each version store page as configured by this parameter is 16KB in size on 32-bi
 
 **Note**  This is by far the most common resource to be exhausted by the database engine. Careful attention must be paid to the setting of the system parameter and to the transactional load of the application to avoid exhausting this resource under normal operation. When this resource is exhausted, updates to the database will be rejected with JET_errVersionStoreOutOfMemory. To release some of these resources, the oldest outstanding transaction must be aborted.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Default Value:</p></td>
-<td><p>64</p></td>
-</tr>
-<tr class="even">
-<td><p>Type:</p></td>
-<td><p>Integer</p></td>
-</tr>
-<tr class="odd">
-<td><p>Valid Range:</p></td>
-<td><p>1 – 2147483647</p></td>
-</tr>
-<tr class="even">
-<td><p>Scope:</p></td>
-<td><p>Instance</p></td>
-</tr>
-<tr class="odd">
-<td><p>Set After <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="even">
-<td><p>Set after <a href="gg294068(v=exchg.10).md">JetInit</a>:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affects Physical Layout:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="even">
-<td><p>Affects Reliability:</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affects Performance:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="even">
-<td><p>Affects Resources:</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="odd">
-<td><p>Availability:</p></td>
-<td><p>All</p></td>
-</tr>
-</tbody>
-</table>
+
+| Label | Value |
+|--------|-------|
+| <p>Default Value:</p> | <p>64</p> | 
+| <p>Type:</p> | <p>Integer</p> | 
+| <p>Valid Range:</p> | <p>1 – 2147483647</p> | 
+| <p>Scope:</p> | <p>Instance</p> | 
+| <p>Set After <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Yes</p> | 
+| <p>Set after <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>No</p> | 
+| <p>Affects Physical Layout:</p> | <p>No</p> | 
+| <p>Affects Reliability:</p> | <p>Yes</p> | 
+| <p>Affects Performance:</p> | <p>No</p> | 
+| <p>Affects Resources:</p> | <p>Yes</p> | 
+| <p>Availability:</p> | <p>All</p> | 
+
 
 
 *JET_paramPageHintCacheSize*  
@@ -591,58 +258,21 @@ Each version store page as configured by this parameter is 16KB in size on 32-bi
 
 This parameter controls the size of a special cache used to accelerate the lookup of B+ Tree child page pointers in the database page cache. The size of the cache is in bytes.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Default Value:</p></td>
-<td><p>262144</p></td>
-</tr>
-<tr class="even">
-<td><p>Type:</p></td>
-<td><p>Integer</p></td>
-</tr>
-<tr class="odd">
-<td><p>Valid Range:</p></td>
-<td><p>0 – 2147483647</p></td>
-</tr>
-<tr class="even">
-<td><p>Scope:</p></td>
-<td><p>Global</p></td>
-</tr>
-<tr class="odd">
-<td><p>Set After <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="even">
-<td><p>Set after <a href="gg294068(v=exchg.10).md">JetInit</a>:</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affects Physical Layout:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="even">
-<td><p>Affects Reliability:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affects Performance:</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="even">
-<td><p>Affects Resources:</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="odd">
-<td><p>Availability:</p></td>
-<td><p>Windows XP and later releases</p></td>
-</tr>
-</tbody>
-</table>
+
+| Label | Value |
+|--------|-------|
+| <p>Default Value:</p> | <p>262144</p> | 
+| <p>Type:</p> | <p>Integer</p> | 
+| <p>Valid Range:</p> | <p>0 – 2147483647</p> | 
+| <p>Scope:</p> | <p>Global</p> | 
+| <p>Set After <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Yes</p> | 
+| <p>Set after <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>Yes</p> | 
+| <p>Affects Physical Layout:</p> | <p>No</p> | 
+| <p>Affects Reliability:</p> | <p>No</p> | 
+| <p>Affects Performance:</p> | <p>Yes</p> | 
+| <p>Affects Resources:</p> | <p>Yes</p> | 
+| <p>Availability:</p> | <p>Windows XP and later releases</p> | 
+
 
 
 *JET_paramPreferredMaxOpenTables*  
@@ -654,58 +284,21 @@ If this parameter is set to zero then it will default to 100% of **JET_paramMaxO
 
 **Windows Vista and later:**  This parameter is obsolete and does not affect the operation of the database engine. Applications should use JET_paramMaxCachedClosedTables instead.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Default Value:</p></td>
-<td><p>0 (100% of <strong>JET_paramMaxOpenTables</strong>)</p></td>
-</tr>
-<tr class="even">
-<td><p>Type:</p></td>
-<td><p>Integer</p></td>
-</tr>
-<tr class="odd">
-<td><p>Valid Range:</p></td>
-<td><p>0 – 2147483647</p></td>
-</tr>
-<tr class="even">
-<td><p>Scope:</p></td>
-<td><p>Instance</p></td>
-</tr>
-<tr class="odd">
-<td><p>Set After <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="even">
-<td><p>Set after <a href="gg294068(v=exchg.10).md">JetInit</a>:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affects Physical Layout:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="even">
-<td><p>Affects Reliability:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affects Performance:</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="even">
-<td><p>Affects Resources:</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="odd">
-<td><p>Availability:</p></td>
-<td><p>All</p></td>
-</tr>
-</tbody>
-</table>
+
+| Label | Value |
+|--------|-------|
+| <p>Default Value:</p> | <p>0 (100% of <strong>JET_paramMaxOpenTables</strong>)</p> | 
+| <p>Type:</p> | <p>Integer</p> | 
+| <p>Valid Range:</p> | <p>0 – 2147483647</p> | 
+| <p>Scope:</p> | <p>Instance</p> | 
+| <p>Set After <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Yes</p> | 
+| <p>Set after <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>No</p> | 
+| <p>Affects Physical Layout:</p> | <p>No</p> | 
+| <p>Affects Reliability:</p> | <p>No</p> | 
+| <p>Affects Performance:</p> | <p>Yes</p> | 
+| <p>Affects Resources:</p> | <p>Yes</p> | 
+| <p>Availability:</p> | <p>All</p> | 
+
 
 
 *JET_paramPreferredVerPages*  
@@ -723,59 +316,21 @@ Each version store page as configured by this parameter is 16KB in size on 32-bi
 
 **Note**  If the database engine operates above this threshold too often then it is possible for the database to degrade in performance. This happens because the background processes that clean up the database cannot function without the optional information that is thrown away in this scenario. Online or offline defragmentation will counteract this effect.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Default Value:</p></td>
-<td><p><strong>Windows 2000, Windows XP and Windows Server 2003:</strong>  0 (90% of JET_paramMaxVerPages)</p>
-<p><strong>Windows Vista:</strong>  58</p></td>
-</tr>
-<tr class="even">
-<td><p>Type:</p></td>
-<td><p>Integer</p></td>
-</tr>
-<tr class="odd">
-<td><p>Valid Range:</p></td>
-<td><p>1 – 2147483647</p></td>
-</tr>
-<tr class="even">
-<td><p>Scope:</p></td>
-<td><p>Instance</p></td>
-</tr>
-<tr class="odd">
-<td><p>Set After <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="even">
-<td><p>Set after <a href="gg294068(v=exchg.10).md">JetInit</a>:</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affects Physical Layout:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="even">
-<td><p>Affects Reliability:</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affects Performance:</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="even">
-<td><p>Affects Resources:</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="odd">
-<td><p>Availability:</p></td>
-<td><p>All</p></td>
-</tr>
-</tbody>
-</table>
+
+| Label | Value |
+|--------|-------|
+| <p>Default Value:</p> | <p><strong>Windows 2000, Windows XP and Windows Server 2003:</strong>  0 (90% of JET_paramMaxVerPages)</p><p><strong>Windows Vista:</strong>  58</p> | 
+| <p>Type:</p> | <p>Integer</p> | 
+| <p>Valid Range:</p> | <p>1 – 2147483647</p> | 
+| <p>Scope:</p> | <p>Instance</p> | 
+| <p>Set After <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Yes</p> | 
+| <p>Set after <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>Yes</p> | 
+| <p>Affects Physical Layout:</p> | <p>No</p> | 
+| <p>Affects Reliability:</p> | <p>Yes</p> | 
+| <p>Affects Performance:</p> | <p>Yes</p> | 
+| <p>Affects Resources:</p> | <p>Yes</p> | 
+| <p>Availability:</p> | <p>All</p> | 
+
 
 
 *JET_paramVerPageSize*  
@@ -785,58 +340,21 @@ This parameter controls the size of the version store pages used by the database
 
 The database engine may choose to use a larger version store page size than requested.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Default Value:</p></td>
-<td><p>16384</p></td>
-</tr>
-<tr class="even">
-<td><p>Type:</p></td>
-<td><p>Integer</p></td>
-</tr>
-<tr class="odd">
-<td><p>Valid Range:</p></td>
-<td><p>1024, 2048, 4096, 8192, 16384, 32768, 65536</p></td>
-</tr>
-<tr class="even">
-<td><p>Scope:</p></td>
-<td><p>Global</p></td>
-</tr>
-<tr class="odd">
-<td><p>Set After <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="even">
-<td><p>Set after <a href="gg294068(v=exchg.10).md">JetInit</a>:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affects Physical Layout:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="even">
-<td><p>Affects Reliability:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affects Performance:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="even">
-<td><p>Affects Resources:</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="odd">
-<td><p>Availability:</p></td>
-<td><p>Windows Vista and later</p></td>
-</tr>
-</tbody>
-</table>
+
+| Label | Value |
+|--------|-------|
+| <p>Default Value:</p> | <p>16384</p> | 
+| <p>Type:</p> | <p>Integer</p> | 
+| <p>Valid Range:</p> | <p>1024, 2048, 4096, 8192, 16384, 32768, 65536</p> | 
+| <p>Scope:</p> | <p>Global</p> | 
+| <p>Set After <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>No</p> | 
+| <p>Set after <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>No</p> | 
+| <p>Affects Physical Layout:</p> | <p>No</p> | 
+| <p>Affects Reliability:</p> | <p>No</p> | 
+| <p>Affects Performance:</p> | <p>No</p> | 
+| <p>Affects Resources:</p> | <p>Yes</p> | 
+| <p>Availability:</p> | <p>Windows Vista and later</p> | 
+
 
 
 *JET_paramVersionStoreTaskQueueMax*  
@@ -844,84 +362,32 @@ The database engine may choose to use a larger version store page size than requ
 
 This parameter controls the number of background cleanup work items that can be queued to the database engine thread pool at any one time.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Default Value:</p></td>
-<td><p>32</p></td>
-</tr>
-<tr class="even">
-<td><p>Type:</p></td>
-<td><p>Integer</p></td>
-</tr>
-<tr class="odd">
-<td><p>Valid Range:</p></td>
-<td><p><strong>Windows XP and Windows Server 2003:  </strong>  1 – 63</p>
-<p><strong>Windows Vista:</strong>  1 – 127</p></td>
-</tr>
-<tr class="even">
-<td><p>Scope:</p></td>
-<td><p>Instance</p></td>
-</tr>
-<tr class="odd">
-<td><p>Set After <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="even">
-<td><p>Set after <a href="gg294068(v=exchg.10).md">JetInit</a>:</p></td>
-<td><p><strong>Windows XP and Windows Server 2003:  </strong>  No</p>
-<p><strong>Windows Vista:</strong>  Yes</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affects Physical Layout:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="even">
-<td><p>Affects Reliability:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affects Performance:</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="even">
-<td><p>Affects Resources:</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="odd">
-<td><p>Availability:</p></td>
-<td><p>Windows XP and later releases</p></td>
-</tr>
-</tbody>
-</table>
+
+| Label | Value |
+|--------|-------|
+| <p>Default Value:</p> | <p>32</p> | 
+| <p>Type:</p> | <p>Integer</p> | 
+| <p>Valid Range:</p> | <p><strong>Windows XP and Windows Server 2003:  </strong>  1 – 63</p><p><strong>Windows Vista:</strong>  1 – 127</p> | 
+| <p>Scope:</p> | <p>Instance</p> | 
+| <p>Set After <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Yes</p> | 
+| <p>Set after <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p><strong>Windows XP and Windows Server 2003:  </strong>  No</p><p><strong>Windows Vista:</strong>  Yes</p> | 
+| <p>Affects Physical Layout:</p> | <p>No</p> | 
+| <p>Affects Reliability:</p> | <p>No</p> | 
+| <p>Affects Performance:</p> | <p>Yes</p> | 
+| <p>Affects Resources:</p> | <p>Yes</p> | 
+| <p>Availability:</p> | <p>Windows XP and later releases</p> | 
+
 
 
 ### Requirements
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Client</strong></p></td>
-<td><p>Requires Windows Vista, Windows XP, or Windows 2000 Professional.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Server</strong></p></td>
-<td><p>Requires Windows Server 2008, Windows Server 2003, or Windows 2000 Server.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>Header</strong></p></td>
-<td><p>Declared in Esent.h.</p></td>
-</tr>
-</tbody>
-</table>
+
+| Requirement | Value |
+|------------|----------|
+| <p><strong>Client</strong></p> | <p>Requires Windows Vista, Windows XP, or Windows 2000 Professional.</p> | 
+| <p><strong>Server</strong></p> | <p>Requires Windows Server 2008, Windows Server 2003, or Windows 2000 Server.</p> | 
+| <p><strong>Header</strong></p> | <p>Declared in Esent.h.</p> | 
+
 
 
 ### See Also

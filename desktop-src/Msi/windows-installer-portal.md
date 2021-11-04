@@ -3,7 +3,7 @@ description: Installer engine used to install applications or updates or service
 ms.assetid: c90b8cbe-d7a1-44ad-ae65-80115bd55e4f
 title: Windows Installer
 ms.topic: article
-ms.date: 05/19/2020
+ms.date: 09/10/2021
 ---
 
 # Windows Installer

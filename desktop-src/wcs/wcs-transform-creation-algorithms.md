@@ -20,7 +20,7 @@ ms.date: 05/31/2018
 
 # WCS Transform Creation Algorithms
 
-[Creation of Transforms](#creationoftransforms)
+[Creation of Transforms](#creation-of-transforms)
 
  
 
@@ -82,9 +82,9 @@ The mode must be one of the following.
 
 ## Transform execution
 
-The ICM 2.0 API [**TranslateColors**](translatecolors.md) function translates an array of colors from the source color space to the destination color space as defined by a color transform. This function internally checks against an array of cached colors to enable immediate matching of commonly transformed colors. This transform supports 8-bit per channel byte arrays and 32-bit per channel float arrays. All other formats will be converted prior to passing off to the new CTE.
+The ICM 2.0 API [**TranslateColors**](/windows/win32/api/icm/nf-icm-translatecolors) function translates an array of colors from the source [color space](c.md) to the destination color space as defined by a color transform. This function internally checks against an array of cached colors to enable immediate matching of commonly transformed colors. This transform supports 8-bit per channel byte arrays and 32-bit per channel float arrays. All other formats will be converted prior to passing off to the new CTE.
 
-The ICM 2.0 API [**TranslateBitmapBits**](translatebitmapbits.md) function translates the colors of a bitmap having a defined format to produce another bitmap in a requested format. This function internally checks against an array of cached colors to enable immediate matching of commonly transformed colors. To avoid too many code paths, support, and testing complexity, only a limited number of bitmap formats are actually supported in the transform and interpolation engine. This function must translate the non-native incoming and outgoing bitmap formats into natively supported formats for processing. This transform only supports 8-bit per channel byte bitmaps and 32-bit per channel float bitmaps. All other formats will be converted prior to passing off to the new CTE.
+The ICM 2.0 API [**TranslateBitmapBits**](/windows/win32/api/icm/nf-icm-translatebitmapbits) function translates the colors of a bitmap having a defined format to produce another bitmap in a requested format. This function internally checks against an array of cached colors to enable immediate matching of commonly transformed colors. To avoid too many code paths, support, and testing complexity, only a limited number of bitmap formats are actually supported in the transform and interpolation engine. This function must translate the non-native incoming and outgoing bitmap formats into natively supported formats for processing. This transform only supports 8-bit per channel byte bitmaps and 32-bit per channel float bitmaps. All other formats will be converted prior to passing off to the new CTE.
 
  
 
@@ -104,7 +104,7 @@ Although printers are output devices, they also perform the color conversion fro
 
 The conventional approach to implementing such color conversion is by using a uniform LUT. For example, in an ICC profile for a CMYKOG printer, the ICC specification mandates an A2B1 tag that stores a uniform LUT representing a uniform sampling in the CMYKOG device space of the forward model, which goes from CMYKOG to the ICC profile connection space (either CIELAB or CIEXYZ). The ICC device link profile enables a direct transformation from CMYKOG device space to any color space including a device space, also in the form of a LUT sampled uniformly in CMYKOG space. Sampling is never done with 256 levels (bit depth 8) because of the huge LUT resulting, except in the case of monochrome devices (1 channel). Instead, sampling with lower bit depth is used; some typical choices are 9 (bit depth 3), 17 (bit depth 4), 33 (bit depth 5). With the number of levels less than 256 in each channel, the LUT is used in conjunction with an interpolation algorithm to produce the result if a level is between two sampled levels.
 
-While a uniform LUT is conceptually simple to implement, and interpolation on a uniform LUT is generally efficient, the LUT size increases exponentially with the input dimension. In fact, if *d* is the number of steps used in the uniform LUT, and *n* is the number of channels in the source color space, then the number of nodes in the LUT is ![](images/transformcreation-image002.gif) . Clearly, the number of nodes quickly demands so much storage in memory that even top-of-the-line computing systems have difficulty handling the demand. For devices with six or eight channels, an ICC implementation of the device profile requires using few steps in the LUT, sometimes even down to five steps in the A2B1 table to keep the profile within megabytes instead of gigabytes. Clearly, using a smaller number of steps increases interpolation error, because there are now fewer samples. Because the LUT must be uniform, accuracy over the whole color space is degraded even in those regions of the space where a significant color difference can be caused by small change in the device value.
+While a uniform LUT is conceptually simple to implement, and interpolation on a uniform LUT is generally efficient, the LUT size increases exponentially with the input dimension. In fact, if *d* is the number of steps used in the uniform LUT, and *n* is the number of channels in the source color space, then the number of nodes in the LUT is ![Shows the variable for the number of nodes in an LUT.](images/transformcreation-image002.gif). Clearly, the number of nodes quickly demands so much storage in memory that even top-of-the-line computing systems have difficulty handling the demand. For devices with six or eight channels, an ICC implementation of the device profile requires using few steps in the LUT, sometimes even down to five steps in the A2B1 table to keep the profile within megabytes instead of gigabytes. Clearly, using a smaller number of steps increases interpolation error, because there are now fewer samples. Because the LUT must be uniform, accuracy over the whole color space is degraded even in those regions of the space where a significant color difference can be caused by small change in the device value.
 
 In devices with more than four colorants, certain subspaces of the whole device space are more important than others. For example, in CMYKOG space, cyan and green inks are seldom used together because their hues largely overlap each other. Similarly, yellow and orange inks largely overlap each other. A uniform reduction in the number of steps can be viewed as an overall degradation in quality across the whole color space, which is something you can afford for the improbable ink combinations, but not for the likely or important combinations.
 
@@ -112,35 +112,35 @@ While a uniformly sampled LUT is simple and efficient for interpolation, it impo
 
 Therefore, the approach is to stratify the whole device space into subspaces of various dimensions. And because lower dimensions (those combining three or four colorants) are more important, by stratifying the space, you can also apply different sampling rates; that is, a different number of steps, to the pieces; increasing sampling rates for lower dimensions, reducing them for higher dimensions.
 
-To fix notations, *n* is the number of channels in the source color space of the color transformation that you want to sample. You can also refer to *n* as the input dimension, and ![](images/transformcreation-image004.gif) , unless otherwise specified.
+To fix notations, *n* is the number of channels in the source color space of the color transformation that you want to sample. You can also refer to *n* as the input dimension, and ![Shows n greater than or equal to 5.](images/transformcreation-image004.gif) , unless otherwise specified.
 
-The basic building blocks are LUTs of various input *dimensions* and sizes, instead of one uniform LUT with input dimension *n*. To be more precise, a*LUT* is a rectangular lattice imposed on a unit cube; that is, all the device coordinates are normalized to the range \[0, 1\]). if   is the input dimension of the lut (note that   does not have to be equal to *n*, although ![](images/transformcreation-image006.gif) is required), then it consists of ν one-dimensional sampling grids:
+The basic building blocks are LUTs of various input *dimensions* and sizes, instead of one uniform LUT with input dimension *n*. To be more precise, a*LUT* is a rectangular lattice imposed on a unit cube; that is, all the device coordinates are normalized to the range \[0, 1\]). if   is the input dimension of the lut (note that   does not have to be equal to *n*, although ![Shows V less than or equal to n.](images/transformcreation-image006.gif) is required), then it consists of ν one-dimensional sampling grids:
 
-Samp *i*: ![](images/transformcreation-image008.gif)
+Samp *i*: ![Shows a one-dimensional sampling grid.](images/transformcreation-image008.gif)
 
-where all the *x<sub>j</sub>s* must lie in the range \[0, 1\], ![](images/transformcreation-image010.gif) is the number of steps for the *i* th channel sampling which must be at least 1, and ![](images/transformcreation-image012.gif) must be 1. On the other hand, ![](images/transformcreation-image014.gif) is not required to be 0.
+where all the *x<sub>j</sub>s* must lie in the range \[0, 1\], ![Shows a superscript d(i).](images/transformcreation-image010.gif) is the number of steps for the *i* th channel sampling which must be at least 1, and ![Shows a spuperscript of X (subscript) d(i).](images/transformcreation-image012.gif) must be 1. On the other hand, ![Shows a superscript X (subscript 1).](images/transformcreation-image014.gif) is not required to be 0.
 
 Only the following two special cases of LUT will be defined.
 
-*Closed LUT*: This is a LUT with the additional requirement that for each Samp*<sub>i</sub>*, ![](images/transformcreation-image016.gif) , and ![](images/transformcreation-image018.gif) . A uniform closed LUT is a closed LUT that has the same ![](images/transformcreation-image010.gif) for each channel, and the nodes are uniformly spaced between 0 and 1.
+*Closed LUT*: This is a LUT with the additional requirement that for each Samp*<sub>i</sub>*, ![Shows a superscript X (subscript 1) equals 0.](images/transformcreation-image016.gif) , and ![Shows a superscript d(i) greater than or equal to 2.](images/transformcreation-image018.gif) . A uniform closed LUT is a closed LUT that has the same ![Shows a superscript d(i).](images/transformcreation-image010.gif) for each channel, and the nodes are uniformly spaced between 0 and 1.
 
-*Open LUT*: This is a LUT with the additional requirement that for each Samp *i*, ![](images/transformcreation-image020.gif) . It is OK to have ![](images/transformcreation-image022.gif) .
+*Open LUT*: This is a LUT with the additional requirement that for each Samp *i*, ![SHows a superscript X (subscript 1) greater than 0.](images/transformcreation-image020.gif) . It is OK to have ![Shows a superscript d(i) equal to 1.](images/transformcreation-image022.gif) .
 
 The goal is to stratify the unit cube \[0, 1\] *n* into a collection of closed LUTs and open LUTs, such that the whole collection will cover the unit cube. It is conceptually simpler to organize these "LUT strata" by their dimensions, so that on the top level:
 
-![](images/transformcreation-image024.png)
+![Shows the top level for organizing L U T strata by their dimensions.](images/transformcreation-image024.png)
 
-where ![](images/transformcreation-image026.gif) is the "*k* -dimensional strata collection." Note that the strata dimension starts from 3 instead of 0; that is, points, because interpolation of three-colorant combinations can be handled without too much memory requirement.
+where ![Shows sigma subscript k.](images/transformcreation-image026.gif) is the "*k* -dimensional strata collection." Note that the strata dimension starts from 3 instead of 0; that is, points, because interpolation of three-colorant combinations can be handled without too much memory requirement.
 
 ## Description of the LUT strata
 
 In this implementation:
 
-1. ![](images/transformcreation-image028.gif) consists of closed LUTs with three inputs, one from every possible combination of three colorants chosen out of the *n* colorants.
+1. ![Shows sigma subscript 3.](images/transformcreation-image028.gif) consists of closed LUTs with three inputs, one from every possible combination of three colorants chosen out of the *n* colorants.
 
-2. ![](images/transformcreation-image030.gif) consists of one closed LUT for the combination CMYK (or the first four colorants), together with ![](images/transformcreation-image032.png) open LUTs for all other four-colorant combinations. By singling out the CMYK combination, you acknowledge that it is an important combination.
+2. ![Shows sigma subscript 4.](images/transformcreation-image030.gif) consists of one closed LUT for the combination CMYK (or the first four colorants), together with ![Shows (n over 4) minus 1.](images/transformcreation-image032.png) open LUTs for all other four-colorant combinations. By singling out the CMYK combination, you acknowledge that it is an important combination.
 
-3. For ![](images/transformcreation-image034.gif) , ![](images/transformcreation-image026.gif) consists of ![](images/transformcreation-image037.gif) open LUTs, one for each possible combination of choosing *k* colorants from the total of *n* colorants.
+3. For ![Shows k equal to 5, ..., n.](images/transformcreation-image034.gif) , ![Shows sigma subscript k.](images/transformcreation-image026.gif) consists of ![Shows (n over k).](images/transformcreation-image037.gif) open LUTs, one for each possible combination of choosing *k* colorants from the total of *n* colorants.
 
 It remains to specify the sizes of the LUTs. The key difference between open and closed LUTs is that open LUTs don't overlap, and closed LUTs might overlap at the boundary faces. The fact that the one-dimensional sampling in an open LUT does not contain 0, essentially means that an open LUT is missing half of the boundary faces, hence the name "open." If two LUTs don't overlap, you can use a different number of steps or node locations in each channel. The same is not true if two LUTs overlap. In that case, if the number of steps or the node locations are different, a point lying in the intersection of the two LUTs will receive a different interpolation value depending on which LUT is used in the interpolation. A simple solution to this problem is to use uniform sampling with the same number of steps whenever two LUTs overlap. In other words:
 
@@ -154,9 +154,9 @@ This algorithm does not require external input.
 
 All the closed LUTs will be uniform with *d* number of steps.
 
-All the open LUTs of dimension *k* will have same number of steps ![](images/transformcreation-image039.gif) in each input channel, and the nodes are equally spaced; that is, for each ![](images/transformcreation-image041.gif) .
+All the open LUTs of dimension *k* will have same number of steps ![Shows d(k).](images/transformcreation-image039.gif) in each input channel, and the nodes are equally spaced; that is, for each ![Shows i equal to 1, 2, ..., k.](images/transformcreation-image041.gif) .
 
-Samp *i*: ![](images/transformcreation-image043.png)
+Samp *i*: ![Shows samp i algorithm.](images/transformcreation-image043.png)
 
 Finally, specify *d* and *d* (*k* ) in the following Table 1. The three modes, "proof," "normal," and "best" are the ICM 2.0 quality settings. In this implementation, the proof mode has the smallest memory footprint, and best mode has the largest memory footprint.
 
@@ -200,49 +200,49 @@ All the closed LUTs will be uniform with *d* number of steps as described in Alg
 
 **Table 1:** LUT sizes used in the algorithm
 
-Each open LUT can have a different number of steps in each input channel, and the sampling locations do not have to be equally spaced. For a given open LUT stratum, there is an associated colorant combination, for example, ![](images/transformcreation-image045.gif) , where the ![](images/transformcreation-image047.gif) s are distinct integers between 1 and *n*. They are the channel indices corresponding to the "active" colorants in this strata.
+Each open LUT can have a different number of steps in each input channel, and the sampling locations do not have to be equally spaced. For a given open LUT stratum, there is an associated colorant combination, for example, ![Shows C subscript 1, ..., C subscript k.](images/transformcreation-image045.gif) , where the ![Shows C subscript i.](images/transformcreation-image047.gif) s are distinct integers between 1 and *n*. They are the channel indices corresponding to the "active" colorants in this strata.
 
-STEP 1: Filter out the inputted array of device values that are not contained in this strata. A device value ![](images/transformcreation-image049.gif) is contained in the strata, if and only if ![](images/transformcreation-image051.gif) and all other channels are 0. If the filtered set has *N* entries, let
+STEP 1: Filter out the inputted array of device values that are not contained in this strata. A device value ![Shows X subscript 1, X subscript 2, ..., X subscript n.](images/transformcreation-image049.gif) is contained in the strata, if and only if ![Shows a set of values for a channel.](images/transformcreation-image051.gif) and all other channels are 0. If the filtered set has *N* entries, let
 
-![](images/transformcreation-image053.png)
+![Shows an equation to use if the filtered set has N entries.](images/transformcreation-image053.png)
 
-For each ![](images/transformcreation-image041.gif) , iterate the following steps 2-5:
+For each ![Shows i equal to 1, 2, ..., k.](images/transformcreation-image041.gif) , iterate the following steps 2-5:
 
-STEP 2: If ![](images/transformcreation-image055.gif) , Samp *i* has only 1 point, which must be 1.0. Move on to the next *i*. Otherwise, continue to STEP 3.
+STEP 2: If ![Shows d subscript tentative (k) equal to 1.](images/transformcreation-image055.gif) , Samp *i* has only 1 point, which must be 1.0. Move on to the next *i*. Otherwise, continue to STEP 3.
 
-STEP 3: Sort the filtered samples in ascending order in the ![](images/transformcreation-image047.gif) channel.
+STEP 3: Sort the filtered samples in ascending order in the ![Shows C subscript i.](images/transformcreation-image047.gif) channel.
 
 STEP 4: Define the "tentative" sampling grid using the nodes
 
-![](images/transformcreation-image057.png)
+![Shows the nodes used to define the "tentative" sampling grid.](images/transformcreation-image057.png)
 
-where ![](images/transformcreation-image059.gif) .
+where ![Shows j equal to 1, 2, ..., d subscript tentative (k).](images/transformcreation-image059.gif) .
 
 STEP 5: Regularize the tentative grid to ensure that it conforms with strict monotonicity and also that it ends with 1.0. Because the array is already sorted, the nodes in the tentative grid are already monotonic nondecreasing. However, adjacent nodes might be identical. You can fix this by removing identical nodes, if necessary. Finally, after this procedure, if the end point is less than 1.0, replace it with 1.0.
 
-Note that STEP 5 is the reason that the LUT strata may have a different number of steps in each channel. After the regularization, the number of steps in a channel may be less than ![](images/transformcreation-image061.gif) .
+Note that STEP 5 is the reason that the LUT strata may have a different number of steps in each channel. After the regularization, the number of steps in a channel may be less than ![Shows d subscript tentative (k).](images/transformcreation-image061.gif) .
 
 ## Interpolation
 
-You can construct the stratification of the unit cube by open LUT strata and closed LUT strata. To perform interpolation using this "sparse LUT structure," follow these steps. Assume a given input device value ![](images/transformcreation-image049.gif) .
+You can construct the stratification of the unit cube by open LUT strata and closed LUT strata. To perform interpolation using this "sparse LUT structure," follow these steps. Assume a given input device value ![Shows (X subscript 1, X subscript 2, ..., X subscript n).](images/transformcreation-image049.gif) .
 
-STEP 1: Determine the number of "active" channels. This is the number of non-zero channels. This determines the strata dimension *k* to search for the containing stratum. More precisely, the strata dimension is 3 if the number of active channels is ![](images/transformcreation-image063.gif) , otherwise, the strata dimension is the same as the number of active channels.
+STEP 1: Determine the number of "active" channels. This is the number of non-zero channels. This determines the strata dimension *k* to search for the containing stratum. More precisely, the strata dimension is 3 if the number of active channels is ![Shows less than or equal to 3.](images/transformcreation-image063.gif) , otherwise, the strata dimension is the same as the number of active channels.
 
-STEP 2: Within ![](images/transformcreation-image026.gif) , search for the containing stratum. A device value is contained in an open stratum if all the channels corresponding to the stratum have non-zero value, and all other channels are zero. A device value is contained in a closed stratum if every channel not represented by the stratum is zero. If no containing stratum is found, there is an error condition. Cancel and report failure. If a containing stratum is found, proceed to the next step.
+STEP 2: Within ![Shows sigma subscript k.](images/transformcreation-image026.gif) , search for the containing stratum. A device value is contained in an open stratum if all the channels corresponding to the stratum have non-zero value, and all other channels are zero. A device value is contained in a closed stratum if every channel not represented by the stratum is zero. If no containing stratum is found, there is an error condition. Cancel and report failure. If a containing stratum is found, proceed to the next step.
 
 STEP 3: If the containing stratum is closed, then interpolation within the stratum can be done by any known interpolation algorithm. In this implementation, the choice of algorithm is tetrahedral interpolation. If the containing stratum is open, and the device value lies strictly within the stratum, that is,
 
-![](images/transformcreation-image065.gif) first node in *i* th channel
+![Shows X subscript i greater than or equal to...](images/transformcreation-image065.gif) first node in *i* th channel
 
 where *i* is a channel index for the stratum, then standard interpolation algorithm, such as tetrahedral interpolation, works.
 
-If ![](images/transformcreation-image067.gif) first node in *i* th channel for some *i*, then the device value falls into the "gap" between the stratum and the lower dimensional subspaces. This MOI is not concerned with an interpolation algorithm per se, so any interpolation algorithm can be used to interpolate within this "gap," although the preferred algorithm is the following transfinite interpolation.
+If ![Shows X subscript i less than...](images/transformcreation-image067.gif) first node in *i* th channel for some *i*, then the device value falls into the "gap" between the stratum and the lower dimensional subspaces. This MOI is not concerned with an interpolation algorithm per se, so any interpolation algorithm can be used to interpolate within this "gap," although the preferred algorithm is the following transfinite interpolation.
 
 The architecture of the interpolation module is illustrated in the two parts of Figure 1.
 
-![](images/transformcreation-image068.png)
+![Diagram that shows part one of the interpolation module architecture.](images/transformcreation-image068.png)
 
-![](images/transformcreation-image070.png)
+![Diagram that shows part two of the interpolation module architecture.](images/transformcreation-image070.png)
 
 **Figure 1:** Intepolation module architecture
 
@@ -281,37 +281,37 @@ You can refer to a discrete boundary condition as finite data, and a continuous 
 
 First, review the standard tetrahedral interpolation (such as that used in Sakamoto's patent) which helps set the notations for this particular formulation of the problem. It is known that the unit cube \[0,1\]n can be subdivided into n! tetrahedra, parameterized by the set of permutations on n symbols. More specifically, each such tetrahedron is defined by inequalities
 
-![](images/transformcreation-image073.gif)
+![Shows the formula for the inequalites of the tetrahedrons.](images/transformcreation-image073.gif)
 
 where σ:{1,2,..,n}→{1,2,…,n} is a permutation of "symbols" 1, 2, …, n, that is, it is a bijective mapping of the set of n symbols. For example, if n = 3 and σ = (3, 2, 1), meaning σ(1)=3, σ(2)=2, σ(3)=1, then the corresponding tetrahedron is defined by z≥y≥x, where the common notation x, y, z is used for x1, x2, x3. Note that these tetrahedrons are not disjoint from each other. For the purpose of interpolation, points lying on a common face of two distinct tetrahedrons will have the same interpolation value regardless of which tetrahedron is used in the interpolation. Still, in the standard scenario of interpolating on finite points, for a given input point (x1, …, xn), first determine which tetrahedron it lies in, or equivalently, the corresponding permutation σ, then the tetrahedral interpolant is defined as
 
-![](images/transformcreation-image075.png)
+![Shows the equation that defines the tetrahedral interpolant.](images/transformcreation-image075.png)
 
-where ![](images/transformcreation-image077.png) for i=1, …, n, and e1, …, en are the standard basis vectors. Before moving on to the generalization, note that v0, v1, …, vn are the vertices of the tetrahedron, and ![](images/transformcreation-image079.png) are the "barycentric coordinates."
+where ![Shows the equation for the standard basis vectors.](images/transformcreation-image077.png) for i=1, …, n, and e1, …, en are the standard basis vectors. Before moving on to the generalization, note that v0, v1, …, vn are the vertices of the tetrahedron, and ![Shows the barycentric coordinates.](images/transformcreation-image079.png) are the "barycentric coordinates."
 
-For the general case of BCs on boundary faces, you can use the concept of barycentric projection. As before, for a given input point (x1, …, xn), first determine in which tetrahedron it lies, or equivalently, the corresponding permutation σ. Then perform a series of barycentric projections, as follows. The first projection ![](images/transformcreation-image081.gif) sends the point to the plane ![](images/transformcreation-image083.gif) unless ![](images/transformcreation-image085.gif) in which case it is not changed. The precise definition of the map BProj is defined as follows:
+For the general case of BCs on boundary faces, you can use the concept of barycentric projection. As before, for a given input point (x1, …, xn), first determine in which tetrahedron it lies, or equivalently, the corresponding permutation σ. Then perform a series of barycentric projections, as follows. The first projection ![Shows BProj subscript 1 (x).](images/transformcreation-image081.gif) sends the point to the plane ![Shows X subscript delta (1) equal to 0.](images/transformcreation-image083.gif) unless ![Shows X equal to V subscript n.](images/transformcreation-image085.gif) in which case it is not changed. The precise definition of the map BProj is defined as follows:
 
-![](images/transformcreation-image087.png)
+![Shows the equation for the precise definition of the map BProj.](images/transformcreation-image087.png)
 
-with ![](images/transformcreation-image089.png) and k = 1, 2, …, n.
+with ![Shows the equation for P subscript k.](images/transformcreation-image089.png) and k = 1, 2, …, n.
 
-In the case ![](images/transformcreation-image085.gif) , you can stop, because BC is defined at vn by Assumption (a). In the case ![](images/transformcreation-image091.gif) , it is clear that ![](images/transformcreation-image081.gif) has the σ(1)th component annihilated. In other words, it is on one of boundary faces. Either it is on a face on which BC is defined, in which case you can stop, or you perform another barycentric projection ![](images/transformcreation-image093.gif) where ![](images/transformcreation-image095.gif) . And if ![](images/transformcreation-image097.gif) is on a face on which BC is defined, you can stop; otherwise, perform yet another projection ![](images/transformcreation-image099.gif) . Because every projection annihilates one component, the effective dimension decreases, so you know the process must eventually stop. In the worst case scenario, you perform n projections down to dimension 0, that is, vertices on the cube, which according to Assumption (c), you know BC will be defined on.
+In the case ![Shows X is equal to V subscript n.](images/transformcreation-image085.gif) , you can stop, because BC is defined at vn by Assumption (a). In the case ![Shows X is not equal to V subscript n.](images/transformcreation-image091.gif) , it is clear that ![Shows BProj subscript 1 (X).](images/transformcreation-image081.gif) has the σ(1)th component annihilated. In other words, it is on one of boundary faces. Either it is on a face on which BC is defined, in which case you can stop, or you perform another barycentric projection ![Shows BProj subscript 2 (X').](images/transformcreation-image093.gif) where ![Shows X' equal to BProj subscript 1 (X).](images/transformcreation-image095.gif) . And if ![Shows X''= Bproj subscript 1 (X').](images/transformcreation-image097.gif) is on a face on which BC is defined, you can stop; otherwise, perform yet another projection ![Shows BProj subscript 3 (X'').](images/transformcreation-image099.gif) . Because every projection annihilates one component, the effective dimension decreases, so you know the process must eventually stop. In the worst case scenario, you perform n projections down to dimension 0, that is, vertices on the cube, which according to Assumption (c), you know BC will be defined on.
 
 Assuming that K projections have been performed, with
 
-![](images/transformcreation-image101.png)
+![Shows an equation to use assuming K projection have been performed.](images/transformcreation-image101.png)
 
 x(0)= x, the input point, and BC is defined at x(k). Then unwind the projections by defining a series of output vectors:
 
-![](images/transformcreation-image103.png)
+![Shows equations for a series of output vectors.](images/transformcreation-image103.png)
 
-where ![](images/transformcreation-image105.gif) , and you finally obtain the answer
+where ![Shows the equation for Y superscript (K).](images/transformcreation-image105.gif) , and you finally obtain the answer
 
-![](images/transformcreation-image107.gif)
+![Shows Interp(x) equal to y superscript (0).](images/transformcreation-image107.gif)
 
 ## Worked example
 
-![](images/transformcreation-image108.png)
+![Diagram that shows a worked example of interpolation with a unit cube.](images/transformcreation-image108.png)
 
 **Figure 2:** Worked example
 
@@ -331,29 +331,29 @@ Consider the situation depicted in Figure 2, where n = 3, m = 1, and you have th
 
 Computation \#1: Input point x = (0.8, 0.5, 0.2). The enclosing tetrahedron is associated with the permutation &lt;1, 2, 3&gt;.
 
-1st projection: ![](images/transformcreation-image110.png)
+1st projection: ![Shows the equation for the first projection.](images/transformcreation-image110.png)
 
 This is already on the face x3=0, so you can stop. Backward substitution then gives
 
-![](images/transformcreation-image112.png) which is the answer.
+![Shows the answer for the first projection.](images/transformcreation-image112.png) which is the answer.
 
 Computation \#2 : Input point x = (0.2, 0.5, 0.8). The enclosing tetrahedron is associated with the permutation &lt;3, 2, 1&gt;.
 
-1st projection: ![](images/transformcreation-image113.png)
+1st projection: ![Shows the equation for the first projection of computation 2.](images/transformcreation-image113.png)
 
-2nd projection: ![](images/transformcreation-image115.png)
+2nd projection: ![Shows the equation for the second projection of computation 2.](images/transformcreation-image115.png)
 
-3rd projection: ![](images/transformcreation-image117.png) , which is on the face x3=0. Backward substitution then gives
+3rd projection: ![Shows the equation for the third projection of computation 2.](images/transformcreation-image117.png) , which is on the face x3=0. Backward substitution then gives
 
-![](images/transformcreation-image119.png)
+![Shows the first two equations for the backward substitution.](images/transformcreation-image119.png)
 
-![](images/transformcreation-image123.png), which is the final answer.
+![Shows the third equation for the backward substitution.](images/transformcreation-image123.png), which is the final answer.
 
 ## Applications
 
 *(a) Sequential Tetrahedral Interpolation*
 
-![](images/transformcreation-image124.png)
+![Diagram that shows sequential tetrahedral interpolation.](images/transformcreation-image124.png)
 
 **Figure 3:** Sequential tetrahedral interpolation
 
@@ -363,7 +363,7 @@ It is also clear that the algorithm has reduced the dimension of the interpolati
 
 *(b) Gap Interpolation*
 
-![](images/transformcreation-image126.jpg)
+![Diagram that shows gap interpolation.](images/transformcreation-image126.jpg)
 
 **Figure 4:** Gap interpolation
 
@@ -403,7 +403,7 @@ The WCS profile and its associated CAM are provided as parameters. There are two
 
 You might have to perform some gamut mapping, if the gamut of the device is larger than the gamut of the PCS. The baseline GMMs can be used for this purpose. Note that a properly created ICC profile has lookup tables for the Relative Colorimetric, Perceptual, and Saturation intents, although these may all point to the same LUT internally.
 
-![](images/transformcreation-image128.png)
+![Diagram that shows the creation of an A T o B L U T.](images/transformcreation-image128.png)
 
 **Figure 5:** Creation of an AToB LUT
 
@@ -413,7 +413,7 @@ Next, use data from the reference PCS measurement profile to create a gamut boun
 
 Use the two gamut boundaries just created to initialize a GMM. Then, use the device model, the GMM, and the PCS device model to create a transform. Run a sampling of device space through the transform to create an AToB LUT.
 
-![](images/transformcreation-image130.png)
+![Diagram that shows the creation of an A T o B L U T using a sampling of P C S space.](images/transformcreation-image130.png)
 
 **Figure 6:** Creation of a BToA LUT
 
@@ -460,21 +460,21 @@ The mapping for the BToA LUTs is a little different. The colorimetric intents ar
 
 The conversion of monitor profiles does not involving building LUTs, but instead consists of building a matrix or TRC model. The model used in ICC is slightly different from the one used in the WCS CRT or LCD modeling in that the "black correction" term is missing. Specifically,
 
-WCS model: ![](images/transformcreation-image132.png)
+WCS model: ![Shows a W C S model.](images/transformcreation-image132.png)
 
-ICC model: ![](images/transformcreation-image134.png)
+ICC model: ![Shows an I C C model.](images/transformcreation-image134.png)
 
 The conversion from WCS model to ICC model is done as follows.
 
 Define new curves:
 
-![](images/transformcreation-image136.png)
+![Shows a matrix to define new curves.](images/transformcreation-image136.png)
 
 These are not tone reproduction curves because they do not map 1 to 1. A normalization will achieve that. The final definitions of the ICC model are:
 
-![](images/transformcreation-image138.png)
+![Shows the final definitions of the I C C model.](images/transformcreation-image138.png)
 
-![](images/transformcreation-image140.png)
+![Shows final matrix for the I C C model.](images/transformcreation-image140.png)
 
 For non-HDR RGB virtual devices, you are also generating a display ICC profile for space efficiency. In that case, the tristimulus matrix *M ICC* can be obtained directly from the primaries of the WCS profile without the above model conversion. One final, but important, note is that this tristimulus matrix must be chromatically adapted to D50 to conform with the ICC specification of the PCS. In other words, the entries on each row of the matrix to be encoded in the ICC profile must sum respectively to 96.42, 100, and 82.49. In the current implementation, the chromatic adaptation is done by CAT02, which is also the chromatic adaptation transform used in CAM02.
 
@@ -516,7 +516,7 @@ The meaning of CheckGamut is clear when there are only two device profiles in th
 
 <dl> <dt>
 
-[Basic Color Management Concepts](basic-color-management-concepts.md)
+[Basic color management concepts](basic-color-management-concepts.md)
 </dt> <dt>
 
 [Windows Color System Schemas and Algorithms](windows-color-system-schemas-and-algorithms.md)

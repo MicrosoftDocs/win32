@@ -1,5 +1,5 @@
 ---
-description: Creates an effect compiler from an ASCII effect description.
+description: D3DXCreateEffectCompilerFromFile function - Creates an effect compiler from an ASCII effect description.
 ms.assetid: 87438a1e-4149-42ef-aa7a-9f0549eb7982
 title: D3DXCreateEffectCompilerFromFile function (D3DX9Effect.h)
 ms.topic: reference
@@ -110,7 +110,7 @@ The compiler setting also determines the function version. If Unicode is defined
 
 
 
-|                    |                                                                                          |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Effect.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>     |

@@ -1,5 +1,5 @@
 ---
-Description: Constructor method.
+description: CMediaControl.CMediaControl constructor - Constructor method.
 ms.assetid: 00549dfe-5dd4-445e-bad3-eb6bcfea8f5f
 title: CMediaControl.CMediaControl constructor (Ctlutil.h)
 ms.topic: reference
@@ -60,7 +60,7 @@ Allocate the *pName* parameter in static memory. This name appears on the debugg
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Ctlutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

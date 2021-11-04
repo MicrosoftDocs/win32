@@ -1,12 +1,12 @@
 ---
-title: IBackgroundCopyJob Methods (DO)
-description: The IBackgroundCopyJob interface exposes the following methods.
+title: IBackgroundCopyJob Methods (Delivery Optimization)
+description: The IBackgroundCopyJob interface exposes the following methods. | IBackgroundCopyJob Methods (Delivery Optimization)
 ms.assetid: 393EF1F1-940A-489E-826D-E125C2B3D8BF
 ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# IBackgroundCopyJob Methods (DO)
+# IBackgroundCopyJob Methods (Delivery Optimization)
 
 The [**IBackgroundCopyJob**](https://www.bing.com/search?q=**IBackgroundCopyJob**) interface exposes the following methods.
 

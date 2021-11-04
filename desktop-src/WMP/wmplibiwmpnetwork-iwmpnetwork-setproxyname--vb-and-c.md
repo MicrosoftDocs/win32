@@ -1,6 +1,6 @@
 ---
 title: IWMPNetwork setProxyName method
-description: The setProxyName method specifies the name of the proxy server to use.
+description: The setProxyName method specifies the name of the proxy server to use. | IWMPNetwork setProxyName method
 ms.assetid: a3b0f53a-d81a-4e6d-9cac-7047433246ae
 keywords:
 - setProxyName method Windows Media Player
@@ -131,7 +131,7 @@ End Sub
 
 
 
-|                      |                                                                                                                        |
+| Requirement | Value |
 |----------------------|------------------------------------------------------------------------------------------------------------------------|
 | Version<br/>   | Windows Media Player 9 Series or later<br/>                                                                      |
 | Namespace<br/> | **WMPLib**<br/>                                                                                                  |

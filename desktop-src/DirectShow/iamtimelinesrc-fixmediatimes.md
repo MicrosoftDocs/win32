@@ -1,5 +1,5 @@
 ---
-Description: The FixMediaTimes method rounds the specified time values to the nearest frame boundary, as defined by the output frame rate. In general, applications do not need to call this method.
+description: The FixMediaTimes method rounds the specified time values to the nearest frame boundary, as defined by the output frame rate. In general, applications do not need to call this method.
 ms.assetid: 11537715-3be1-4a3c-8700-50b13835ffe9
 title: IAMTimelineSrc::FixMediaTimes method (Qedit.h)
 ms.topic: reference
@@ -77,7 +77,7 @@ This method is similar to the [**IAMTimelineObj::FixTimes**](iamtimelineobj-fixt
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

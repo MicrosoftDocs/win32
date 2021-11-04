@@ -9,7 +9,7 @@ ms.date: 10/20/2020
 # List Boxes
 
 > [!NOTE]
-> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](https://docs.microsoft.com/windows/uwp/design/).
+> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](/windows/uwp/design/).
 
 With a list box, users can select from a set of values presented in a list that is always visible. With a single-selection list box, users select one item from a list of mutually exclusive values. With a multiple-selection list box, users select zero or more items from a list of values.
 
@@ -79,48 +79,16 @@ List boxes have several usage patterns:
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><strong>Single-selection lists</strong> Allow users to select one item at a time. <br/></td>
-<td><img src="images/ctrl-list-boxes-image4.png" alt="Screen shot of list box with one item selected " /><br/> In this example, users can select only one display item.<br/></td>
-</tr>
-<tr class="even">
-<td><strong>Standard multiple-selection lists</strong> Allow users to select any number of items, including none.<br/></td>
-<td>Standard multiple-selection lists have exactly the same appearance as single-selection lists, so there is no visual clue that a list box supports multiple selection. Because users have to discover this ability, this list pattern is best used for tasks where multiple selection isn't essential and is rarely used. <br/> There are two different multiple-selection modes: <a href="glossary.md">multiple</a> and <a href="glossary.md">extended</a>. <strong>Extended selection mode</strong> is by far the more common, where the selection can be extended by dragging or with Shift+click and Ctrl+click to select groups of contiguous and non-adjacent values, respectively. In the <strong>multiple-selection mode</strong>, clicking any item toggles its selection state regardless of the Shift and Ctrl keys. Given this unusual behavior, multiple-selection mode is deprecated and you should use check box lists instead.<br/> <img src="images/ctrl-list-boxes-image5.png" alt="Screen shot of list box with several items selected " /><br/> In this example, users can select any number of items using the multiple-selection mode.<br/></td>
-</tr>
-<tr class="odd">
-<td><strong>Check box lists</strong> Like standard multiple-selection list boxes, check box lists allow users to select any number of items, including none.<br/></td>
-<td>Unlike standard multiple-selection lists, the check boxes clearly indicate that multiple selection is possible. Use this list pattern for tasks where multiple selection is essential or commonly used. <br/> <img src="images/ctrl-list-boxes-image6.png" alt="Screen shot of Toolbars check-box list " /><br/> In this example, users typically select more than one item so a check box list is used.<br/> Given this clear indication of multiple selection, you might assume that check box lists are preferable to standard multiple-selection lists. In practice, few tasks require multiple selection or use it heavily; using a check box list in such cases draws too much attention to selection. Consequently, <strong>standard multiple-selection lists are far more common.</strong><br/></td>
-</tr>
-<tr class="even">
-<td><strong>Preview lists</strong> Can be single or multiple selection, but they show a preview of the effect of the selection rather than just text.<br/></td>
-<td><img src="images/ctrl-list-boxes-image7.png" alt="Screen shot of Window Color options preview " /><br/> In this example, a preview of each option clearly shows the effect of the choice, which is more effective than using text alone.<br/></td>
-</tr>
-<tr class="odd">
-<td><strong>List builders</strong> Allow users to create a list of choices by adding one item at a time, and optionally setting the list order.<br/></td>
-<td>A list builder consists of two single-selection lists: the list on the left is a fixed set of options and the list on the right is the list being built. There are two command buttons between the lists: <br/>
-<ul>
-<li>An <strong>Add</strong> button that moves the currently selected option to the list being built, inserted before the selected item. (Double-clicking on an option item has the same effect.)</li>
-<li>A <strong>Remove</strong> button that removes the selected item from the built list and returns it to the option list. (Double-clicking on an item in the built list has the same effect.) The built list may optionally have <strong>Move Up</strong> and <strong>Move Down</strong> commands to order the list items.</li>
-</ul>
-<img src="images/ctrl-list-boxes-image8.png" alt="Screen shot of Toolbar buttons list builder " /><br/> In this example, a list builder is used to create a toolbar by selecting items from a set of available options and setting their order.<br/></td>
-</tr>
-<tr class="even">
-<td><strong>Add/remove lists</strong> Allow users to create a list of choices by adding one or more items at a time, and optionally setting the list order (like list builders).<br/></td>
-<td>Unlike a list builder, clicking <strong>Add</strong> displays a dialog box to select items to add to the list. Using a separate dialog box allows for significant flexibility in choosing items you can use a specialized object picker or even a common dialog. Compared to the list builder, this variation is more compact but requires slightly more effort to add items. <br/> <img src="images/ctrl-list-boxes-image9.png" alt="Screen shot of Menu contents list " /><br/> In this example, users can add or remove tools from a menu, as well as set order.<br/> While the list builder and add/remove list patterns are significantly heavier than the other multiple-selection lists, they offer two unique advantages:<br/>
-<ul>
-<li>Users have control over the list order, both while building the list and after.</li>
-<li>Users can review a summary of the selected items, which can be a significant benefit if the number of choices is large.</li>
-</ul>
-Their disadvantages are that they require much more screen space and can be difficult to use when creating a large list of items from scratch. Consequently, they are best used to create short lists or modify lists that already exist.<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Label | Value |
+|--------|-------|
+| <strong>Single-selection lists</strong> Allow users to select one item at a time. <br /> | <img src="images/ctrl-list-boxes-image4.png" alt="Screen shot of list box with one item selected " /><br /> In this example, users can select only one display item.<br /> | 
+| <strong>Standard multiple-selection lists</strong> Allow users to select any number of items, including none.<br /> | Standard multiple-selection lists have exactly the same appearance as single-selection lists, so there is no visual clue that a list box supports multiple selection. Because users have to discover this ability, this list pattern is best used for tasks where multiple selection isn't essential and is rarely used. <br /> There are two different multiple-selection modes: <a href="glossary.md">multiple</a> and <a href="glossary.md">extended</a>. <strong>Extended selection mode</strong> is by far the more common, where the selection can be extended by dragging or with Shift+click and Ctrl+click to select groups of contiguous and non-adjacent values, respectively. In the <strong>multiple-selection mode</strong>, clicking any item toggles its selection state regardless of the Shift and Ctrl keys. Given this unusual behavior, multiple-selection mode is deprecated and you should use check box lists instead.<br /><img src="images/ctrl-list-boxes-image5.png" alt="Screen shot of list box with several items selected " /><br /> In this example, users can select any number of items using the multiple-selection mode.<br /> | 
+| <strong>Check box lists</strong> Like standard multiple-selection list boxes, check box lists allow users to select any number of items, including none.<br /> | Unlike standard multiple-selection lists, the check boxes clearly indicate that multiple selection is possible. Use this list pattern for tasks where multiple selection is essential or commonly used. <br /><img src="images/ctrl-list-boxes-image6.png" alt="Screen shot of Toolbars check-box list " /><br /> In this example, users typically select more than one item so a check box list is used.<br /> Given this clear indication of multiple selection, you might assume that check box lists are preferable to standard multiple-selection lists. In practice, few tasks require multiple selection or use it heavily; using a check box list in such cases draws too much attention to selection. Consequently, <strong>standard multiple-selection lists are far more common.</strong><br /> | 
+| <strong>Preview lists</strong> Can be single or multiple selection, but they show a preview of the effect of the selection rather than just text.<br /> | <img src="images/ctrl-list-boxes-image7.png" alt="Screen shot of Window Color options preview " /><br /> In this example, a preview of each option clearly shows the effect of the choice, which is more effective than using text alone.<br /> | 
+| <strong>List builders</strong> Allow users to create a list of choices by adding one item at a time, and optionally setting the list order.<br /> | A list builder consists of two single-selection lists: the list on the left is a fixed set of options and the list on the right is the list being built. There are two command buttons between the lists: <br /><ul><li>An <strong>Add</strong> button that moves the currently selected option to the list being built, inserted before the selected item. (Double-clicking on an option item has the same effect.)</li><li>A <strong>Remove</strong> button that removes the selected item from the built list and returns it to the option list. (Double-clicking on an item in the built list has the same effect.) The built list may optionally have <strong>Move Up</strong> and <strong>Move Down</strong> commands to order the list items.</li></ul><img src="images/ctrl-list-boxes-image8.png" alt="Screen shot of Toolbar buttons list builder " /><br /> In this example, a list builder is used to create a toolbar by selecting items from a set of available options and setting their order.<br /> | 
+| <strong>Add/remove lists</strong> Allow users to create a list of choices by adding one or more items at a time, and optionally setting the list order (like list builders).<br /> | Unlike a list builder, clicking <strong>Add</strong> displays a dialog box to select items to add to the list. Using a separate dialog box allows for significant flexibility in choosing items you can use a specialized object picker or even a common dialog. Compared to the list builder, this variation is more compact but requires slightly more effort to add items. <br /><img src="images/ctrl-list-boxes-image9.png" alt="Screen shot of Menu contents list " /><br /> In this example, users can add or remove tools from a menu, as well as set order.<br /> While the list builder and add/remove list patterns are significantly heavier than the other multiple-selection lists, they offer two unique advantages:<br /><ul><li>Users have control over the list order, both while building the list and after.</li><li>Users can review a summary of the selected items, which can be a significant benefit if the number of choices is large.</li></ul>Their disadvantages are that they require much more screen space and can be difficult to use when creating a large list of items from scratch. Consequently, they are best used to create short lists or modify lists that already exist.<br /> | 
+
 
 
 
@@ -301,6 +269,4 @@ When referring to list boxes:
 -   When possible, format the label and list items using bold text. Otherwise, put the label and items in quotation marks only if required to prevent confusion.
 
 Example: In the **Go to what** list, select **Bookmark**.
-
- 
 

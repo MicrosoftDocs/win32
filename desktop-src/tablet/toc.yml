@@ -22,7 +22,7 @@
       - name: "COM Library and ActiveX Controls (Tablet PC)"
         href: com-library-and-activex-controls--tablet-pc.md
     - name: "Frequently Asked Questions"
-      href: frequently-asked-questions.md
+      href: frequently-asked-questions.yml
   - name: "Programming Tablet PC"
     href: programming-the-tablet-pc.md
     items: 

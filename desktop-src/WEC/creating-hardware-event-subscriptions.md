@@ -38,7 +38,7 @@ The following procedure defines how to create the SEL event subscription to retr
 
 2.  Create an event subscription by executing the following command in a command prompt window (the Wecutil.exe program is located in the %SYSTEMROOT%\\System32 directory.):
 
-    **Wecutil cs** *<path>\\wsmanselrg.xml*
+    **Wecutil cs** *&lt;path&gt;\\wsmanselrg.xml*
 
 3.  Ensure that the subscription is active by executing the following command in a command prompt window:
 

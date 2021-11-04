@@ -1,5 +1,5 @@
 ---
-description: Constructor method.
+description: CTransInPlaceFilter.CTransInPlaceFilter constructor - Constructor method.
 ms.assetid: f0d30125-5d16-470c-a5fb-a7df96814dad
 title: CTransInPlaceFilter.CTransInPlaceFilter constructor (Transip.h)
 ms.topic: reference
@@ -80,7 +80,7 @@ Boolean value that specifies whether the filter modifies the input data. If **TR
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Transip.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

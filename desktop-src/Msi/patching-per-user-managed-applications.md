@@ -21,15 +21,14 @@ Privileges are required to install an application in the per-user-managed contex
 
 Beginning with Windows Installer 3.0, you can apply a patch to a per-user managed application after the patch has been registered as having elevated privileges. To register a patch as having elevated privileges, use the [**MsiSourceListAddSourceEx**](/windows/desktop/api/Msi/nf-msi-msisourcelistaddsourceexa) function or the [**SourceListAddSource**](patch-sourcelistaddsource.md) method of the [**Patch**](patch-object.md) object, with elevated privileges. After registering the patch, you can apply the patch using the [**MsiApplyPatch**](/windows/desktop/api/Msi/nf-msi-msiapplypatcha) or [**MsiApplyMultiplePatches**](/windows/desktop/api/Msi/nf-msi-msiapplymultiplepatchesa) functions, [**ApplyPatch**](installer-applypatch.md) or [**ApplyMultiplePatches**](installer-applymultiplepatches.md) methods of the [**Installer Object**](installer-object.md), or the /p [command-line option](command-line-options.md).
 
-> [!Note]A patch can be registered as having elevated privileges before the application is installed. When a patch has been registered, it remains registered until the last registered application for this patch is removed.
->
+> [!Note]
+> A patch can be registered as having elevated privileges before the application is installed. When a patch has been registered, it remains registered until the last registered application for this patch is removed.
+> 
 > Patches that have been applied to a per-user managed application cannot be removed without removing the entire application. The patch registrations for a per-user managed application are removed on the removal of the application.
-
- 
 
 You can also use this method to enable a non-administrator to patch a per-machine application, or you can use least-privilege patching described in [User Account Control (UAC) Patching](user-account-control--uac--patching.md).
 
-## Example
+## Example 1
 
 The following scripting sample uses the [**SourceListAddSource**](patch-sourcelistaddsource.md) method to register a patch package located at \\\\server\\share\\products\\patches\\example.msp as having elevated privileges. That patch is then ready to be applied to a per-user managed product.
 
@@ -52,7 +51,7 @@ patch.SourceListAddSource msiInstallSourceTypeNetwork, PatchPath, 0
 patch.SourceListInfo("PackageName") = PatchPackageName
 ```
 
-## Example
+## Example 2
 
 The following code sample uses the [**MsiSourceListAddSourceEx**](/windows/desktop/api/Msi/nf-msi-msisourcelistaddsourceexa) function to register a patch package located at \\\\server\\share\\products\\patches\\example.msp as having elevated privileges. That patch is then ready to be applied to a per-user managed product.
 

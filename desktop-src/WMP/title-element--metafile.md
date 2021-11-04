@@ -71,7 +71,7 @@ Each parent **ASX** and **ENTRY** element should contain at most one child **TIT
 
 
 
-|                    |                                                     |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------|
 | Version<br/> | Windows Media Player version 70 or later<br/> |
 

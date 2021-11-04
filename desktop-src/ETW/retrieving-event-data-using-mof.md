@@ -1,5 +1,5 @@
 ---
-description: To consume event specific data, the consumer must know the format of the event data.
+description: Retrieve event data with Managed Object Format (MOF) while consuming events. To consume event specific data, the consumer must know the format of the event data.
 ms.assetid: 13512236-c416-43ba-bf36-b05c5c08d6c9
 title: Retrieving Event Data Using MOF
 ms.topic: article
@@ -595,7 +595,7 @@ BOOL GetPropertyList(IWbemClassObject* pClass, PROPERTY_LIST** ppProperties, DWO
 
     // Retrieve the property names.
 
-    hr = pClass->GetNames(NULL, WBEM_FLAG_LOCAL_ONLY, NULL, &pNames);
+    hr = pClass->GetNames(NULL, WBEM_FLAG_NONSYSTEM_ONLY, NULL, &pNames);
     if (pNames)
     {
         *pPropertyCount = pNames->rgsabound->cElements;
@@ -649,6 +649,10 @@ BOOL GetPropertyList(IWbemClassObject* pClass, PROPERTY_LIST** ppProperties, DWO
                 j = var.intVal - 1;
                 VariantClear(&var);
                 *(*ppPropertyIndex+j) = i;
+            }
+            else if (WBEM_E_NOT_FOUND == hr)
+            {
+                continue; // Ignore property without WmiDataId
             }
             else
             {

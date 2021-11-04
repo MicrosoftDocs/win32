@@ -27,7 +27,7 @@ This topic lists the AddLine methods of the [**GraphicsPath**](/windows/win32/ap
 
 
 
-|                   |                                                                                          |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Gdipluspath.h</dt> </dl> |
 

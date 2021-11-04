@@ -1,6 +1,6 @@
 ---
 title: WebViewFolderContents.SelectedItems method (Shldisp.h)
-description: Gets a FolderItems object that represents all of the selected items in the view.
+description: WebViewFolderContents.SelectedItems method - Gets a FolderItems object that represents all of the selected items in the view.
 ms.assetid: 683acac4-f157-4a75-a3f8-c693887c1ea5
 keywords:
 - SelectedItems method Legacy Windows Environment Features

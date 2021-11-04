@@ -35,8 +35,9 @@ A reinstallation of the product is necessary to switch the transitive components
 
 The bit should only be used with conditions based on computer states. Do not use with conditions based on user states or properties set on the command line because this can cause the installer to require a reinstallation of the product on each use by a different user.
 
-> [!Note]Unless the Transitive bit in the Attributes column is set for a component, the component remains enabled once installed even if the conditional statement in the Condition column evaluates to False on a subsequent maintenance installation of the product.
->
+> [!Note]
+> Unless the Transitive bit in the Attributes column is set for a component, the component remains enabled once installed even if the conditional statement in the Condition column evaluates to False on a subsequent maintenance installation of the product.
+> 
 > In most cases, if an application includes transitive components, Windows Installer requires the application's source to repair or upgrade the application. In these cases, the system restoration CD-ROM shipped by an original equipment manufacturer does not work and an actual installation source for the application needs to be provided.
 
  

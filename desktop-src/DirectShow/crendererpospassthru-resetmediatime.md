@@ -1,5 +1,5 @@
 ---
-Description: The ResetMediaTime method resets the cached time stamps to zero.
+description: The ResetMediaTime method resets the cached time stamps to zero.
 ms.assetid: 80dd2ae3-0a83-4017-8860-a089bef9a919
 title: CRendererPosPassThru.ResetMediaTime method (Ctlutil.h)
 ms.topic: reference
@@ -49,7 +49,7 @@ After this method is called, the [**CRendererPosPassThru::GetMediaTime**](crende
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Ctlutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

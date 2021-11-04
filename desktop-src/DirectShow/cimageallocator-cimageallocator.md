@@ -1,5 +1,5 @@
 ---
-description: Constructor method.
+description: CImageAllocator.CImageAllocator constructor - Constructor method.
 ms.assetid: 8c215b16-98e5-42fb-a95b-b6df1ade180e
 title: CImageAllocator.CImageAllocator constructor (Winutil.h)
 ms.topic: reference
@@ -64,7 +64,7 @@ Pointer to an **HRESULT** value. Set the value to S\_OK before creating the obje
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Winutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

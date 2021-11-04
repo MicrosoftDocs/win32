@@ -80,7 +80,7 @@ This function is supported in the following shader models.
 
 
 
-|                   |                                                                                            |
+| Requirement | Value |
 |-------------------|--------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Corecrt\_math.h</dt> </dl> |
 

@@ -9,11 +9,11 @@ ms.date: 10/20/2020
 # Confirmations
 
 > [!NOTE]
-> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](https://docs.microsoft.com/windows/uwp/design/).
+> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](/windows/uwp/design/).
 
 A confirmation is a modal dialog box that asks if the user wants to proceed with an action.
 
-![screen shot of 'do you want to save changes?' ](images/mess-confirm-image1.png)
+![Screenshot that shows a Notepad 'do you want to save changes?' dialog box.](images/mess-confirm-image1.png)
 
 A typical confirmation.
 
@@ -86,7 +86,7 @@ Here are some design alternatives that eliminate the need for routine confirmati
 
 For a confirmation to have value, users need to understand the reason not to proceed. Sometimes the reason is obvious, as when users are closing a document with changes that haven't been saved:
 
-![screen shot of 'do you want to save changes?' ](images/mess-confirm-image3.png)
+![Screenshot that shows a Paint 'Do you want to save changes?' message.](images/mess-confirm-image3.png)
 
 In this example, the reason for the confirmation is obvious.
 
@@ -181,10 +181,10 @@ Confirmations have several usage patterns:
 
 
 
-|                                                                                                                                                                       |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+|   Usage                                                                                                                                                                    |    Example                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Routine confirmations**<br/> confirm that the user wants to proceed with a routine, low risk action. <br/>                                              | These confirmations are usually phrased "are you sure...?" and often have a don't show this message again check box to minimize their annoyance. <br/> ![screen shot of 'move folder to recycle bin?' ](images/mess-confirm-image11.png)<br/> ![screen shot of 'don't show message again' ](images/mess-confirm-image12.png)<br/> Examples of routine confirmations.<br/> **Note:** This pattern is usually unnecessary and should be avoided.<br/>                                                                                                                                                                                                                                                                                        |
-| **Risky action confirmations**<br/> confirm that the user wants to proceed with an action that has some risk and can't be easily undone. <br/>            | Because they have risk, these confirmations usually have a warning icon. <br/> ![screen shot of volume-formatting confirmation ](images/mess-confirm-image13.png)<br/> ![screen shot of permanent deletion confirmation ](images/mess-confirm-image14.png)<br/> Examples of risky action confirmations.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| **Risky action confirmations**<br/> confirm that the user wants to proceed with an action that has some risk and can't be easily undone. <br/>            | Because they have risk, these confirmations usually have a warning icon. <br/> ![Screenshot that shows an example of volume-formatting confirmation.](images/mess-confirm-image13.png)<br/> ![Screenshot that shows an example of permanent deletion confirmation.](images/mess-confirm-image14.png)<br/> Examples of risky action confirmations.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 | **Unintended consequence confirmations**<br/> confirm that the user wants to proceed with an action that has unexpected or unintended consequences. <br/> | In addition to asking a question, these confirmations point out the unintended consequences. because they have unintended consequences, these confirmations usually have a warning icon. <br/> ![screen shot of 'close all tabs?' confirmation ](images/mess-confirm-image15.png)<br/> ![screen shot of 'cancel installation?' confirmation ](images/mess-confirm-image16.png)<br/> examples of unintended consequence confirmations.<br/> however, this pattern requires that the consequences are truly unintended. <br/> **incorrect:**<br/> ![screen shot of 'turn off key logger?' confirmation ](images/mess-confirm-image17.png)<br/> The consequences are intended here, so this is a routine confirmation.<br/> |
 | **Clarifications**<br/> clarify how the user wants to proceed with an action that has potentially ambiguous or unexpected consequences. <br/>             | Drag-and-drop operations can result in clarifications if the effect of the operation can be misinterpreted. <br/> ![screen shot of 'change only this occurrence?'](images/mess-confirm-image18.png)<br/> ![screen shot of 'always save on exit?' confirmation ](images/mess-confirm-image19.png)<br/> Examples of clarifications.<br/> **Note:** This pattern should be avoided because it is better to design actions without ambiguous consequences and assume the most likely desired result. <br/>                                                                                                                                                                                                                                     |
 | **Security confirmations**<br/> confirm that the user wants to proceed with an action with security consequences. <br/>                                   | ![screen shot of 'do you want to run this software?' ](images/mess-confirm-image20.png)<br/> ![screen shot of 'remember password?' confirmation ](images/mess-confirm-image21.png)<br/> Examples of security confirmations.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
@@ -202,7 +202,7 @@ Confirmations have several usage patterns:
 
 **Incorrect:**
 
-![screen shot of 'do you want to save changes?' ](images/mess-confirm-image23.png)
+![Screenshot that shows a Microsoft Office Outlook 'do you want to save changes?' dialog box.](images/mess-confirm-image23.png)
 
 This example is incorrect when used for an empty e-mail or document that wasn't changed by the user.
 
@@ -213,15 +213,14 @@ This example is incorrect when used for an empty e-mail or document that wasn't 
 
 
 
-|                                                  |                                                                                                                                              |
-|--------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------|
-| **Pattern**<br/>                           | **Icon**<br/>                                                                                                                          |
-| Routine confirmations <br/>                | No icon. <br/>                                                                                                                         |
-| Risky action confirmations <br/>           | Warning icon. <br/>                                                                                                                    |
-| Unintended consequence confirmations <br/> | Use a warning icon if there is risk, the feature icon if available; otherwise, no icon. <br/>                                          |
-| Clarifications <br/>                       | If the confirmation involves a document, use the document's thumbnail; otherwise, use the feature icon if available, or no icon. <br/> |
-| Security confirmations <br/>               | Warning icon. <br/>                                                                                                                    |
-| Ulterior motive confirmations <br/>        | No icon. <br/>                                                                                                                         |
+    | Pattern                                                | Icon                                                                                                                                             |
+    |--------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------|
+    | Routine confirmations <br/>                | No icon. <br/>                                                                                                                         |
+    | Risky action confirmations <br/>           | Warning icon. <br/>                                                                                                                    |
+    | Unintended consequence confirmations <br/> | Use a warning icon if there is risk, the feature icon if available; otherwise, no icon. <br/>                                          |
+    | Clarifications <br/>                       | If the confirmation involves a document, use the document's thumbnail; otherwise, use the feature icon if available, or no icon. <br/> |
+    | Security confirmations <br/>               | Warning icon. <br/>                                                                                                                    |
+    | Ulterior motive confirmations <br/>        | No icon. <br/>                                                                                                                         |
 
 
 
@@ -294,15 +293,14 @@ For more guidelines and examples, see [Command Links](ctrl-command-links.md).
 
 
 
-|                                                  |                                                                                 |
-|--------------------------------------------------|---------------------------------------------------------------------------------|
-| **Pattern**<br/>                           | **Default response**<br/>                                                 |
-| Routine confirmations <br/>                | Proceed. <br/>                                                            |
-| Risky action confirmations <br/>           | Don't proceed (or the safe choice). <br/>                                 |
-| Unintended consequence confirmations <br/> | If consequences are significant, don't proceed; otherwise, proceed. <br/> |
-| Clarifications <br/>                       | The most likely response. <br/>                                           |
-| Security confirmations <br/>               | Don't proceed. <br/>                                                      |
-| Ulterior motive confirmations <br/>        | Proceed. <br/>                                                            |
+    | Pattern                                                 | Default response                                                                                |
+    |--------------------------------------------------|---------------------------------------------------------------------------------|
+    | Routine confirmations <br/>                | Proceed. <br/>                                                            |
+    | Risky action confirmations <br/>           | Don't proceed (or the safe choice). <br/>                                 |
+    | Unintended consequence confirmations <br/> | If consequences are significant, don't proceed; otherwise, proceed. <br/> |
+    | Clarifications <br/>                       | The most likely response. <br/>                                           |
+    | Security confirmations <br/>               | Don't proceed. <br/>                                                      |
+    | Ulterior motive confirmations <br/>        | Proceed. <br/>                                                            |
 
 
 
@@ -390,11 +388,10 @@ In this example, the drive to be formatted is included in the title.
 
 
 
-|                                                  |                                                                                                                                                                                                                                                                                                                                                                                                           |
-|--------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Pattern**<br/>                           | **Main instruction**<br/>                                                                                                                                                                                                                                                                                                                                                                           |
-| Unintended consequence confirmations <br/> | state the unintended consequence.<br/> **exception:** if a question asking if the user wants to proceed clearly implies the unintended consequence, ask the question instead. <br/> ![screen shot of 'close all tabs?' confirmation ](images/mess-confirm-image15.png)<br/> In this example, asking the user to proceed sufficiently conveys the consequences of the action.<br/> |
-| All others <br/>                           | Ask a single question to determine if the user wants to proceed. <br/>                                                                                                                                                                                                                                                                                                                              |
+    | Pattern                                                 | Main instruction                                                                                                                                                                                                                                                                                                                                                                                                          |
+    |--------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+    | Unintended consequence confirmations <br/> | state the unintended consequence.<br/> **exception:** if a question asking if the user wants to proceed clearly implies the unintended consequence, ask the question instead. <br/> ![screen shot of 'close all tabs?' confirmation ](images/mess-confirm-image15.png)<br/> In this example, asking the user to proceed sufficiently conveys the consequences of the action.<br/> |
+    | All others <br/>                           | Ask a single question to determine if the user wants to proceed. <br/>                                                                                                                                                                                                                                                                                                                              |
 
 
 
@@ -418,13 +415,12 @@ However, phrasing must match the associated command, even if the command is nega
 
 
 
-|                                                             |                                                             |
-|-------------------------------------------------------------|-------------------------------------------------------------|
-| **Phrase**<br/>                                       | **Connotation**<br/>                                  |
-| Are you sure you want to \[perform an action\]? <br/> | Confirming the direct result of a user request. <br/> |
-| Do you want to \[perform an action\]? <br/>           | Confirming a side effect of a user request. <br/>     |
-| Would you like to \[select a result\]? <br/>          | Need a clarification. <br/>                           |
-| \[Perform an action\]? <br/>                          | No connotation. <br/>                                 |
+    | Phrase                                                            | Connotation                                                            |
+    |-------------------------------------------------------------|-------------------------------------------------------------|
+    | Are you sure you want to \[perform an action\]? <br/> | Confirming the direct result of a user request. <br/> |
+    | Do you want to \[perform an action\]? <br/>           | Confirming a side effect of a user request. <br/>     |
+    | Would you like to \[select a result\]? <br/>          | Need a clarification. <br/>                           |
+    | \[Perform an action\]? <br/>                          | No connotation. <br/>                                 |
 
 
 
@@ -442,35 +438,13 @@ In this example, "permanently" indicates that the action can't be undone.
 
 -   **The supplemental instruction for a confirmation is based on its design pattern:**
 
-    <table>
-    <colgroup>
-    <col style="width: 50%" />
-    <col style="width: 50%" />
-    </colgroup>
-    <tbody>
-    <tr class="odd">
-    <td><strong>Pattern</strong><br/></td>
-    <td><strong>Supplemental instruction</strong><br/></td>
-    </tr>
-    <tr class="even">
-    <td>Unintended consequence confirmations <br/></td>
-    <td>Ask a single question to determine if the user wants to proceed. <br/></td>
-    </tr>
-    <tr class="odd">
-    <td>All others <br/></td>
-    <td>Explain any non-obvious reasons why the user might not want to proceed. Such reasons include: <br/>
-    <ul>
-    <li>Potential loss of one or more of the following:
-    <ul>
-    <li>A valuable asset, such as data loss or financial loss.</li>
-    <li>System access or integrity.</li>
-    <li>Privacy or control over confidential information.</li>
-    </ul></li>
-    <li>Actions that are irreversible.</li>
-    </ul></td>
-    </tr>
-    </tbody>
-    </table>
+    
+| Label | Value |
+|--------|-------|
+| <strong>Pattern</strong><br /> | <strong>Supplemental instruction</strong><br /> | 
+| Unintended consequence confirmations <br /> | Ask a single question to determine if the user wants to proceed. <br /> | 
+| All others <br /> | Explain any non-obvious reasons why the user might not want to proceed. Such reasons include: <br /><ul><li>Potential loss of one or more of the following:    <ul><li>A valuable asset, such as data loss or financial loss.</li><li>System access or integrity.</li><li>Privacy or control over confidential information.</li></ul></li><li>Actions that are irreversible.</li></ul> | 
+
 
     
 
@@ -490,6 +464,4 @@ When referring to confirmations:
 -   When possible, format the text using bold. Otherwise, put the text in quotation marks only if required to prevent confusion.
 
 Example: In the **Copy File** message, click the newer file.
-
- 
 

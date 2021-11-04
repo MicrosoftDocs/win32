@@ -1,5 +1,5 @@
 ---
-description: Describes a plane.
+description: D3DXPLANE structure (D3dx9math.h) - Describes a plane.
 ms.assetid: ffca4650-9788-4559-8f6b-a4e5db29ce55
 title: D3DXPLANE structure (D3dx9math.h)
 ms.topic: reference
@@ -91,7 +91,7 @@ C++ programmers can take advantage of operator overloading and type casting with
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3dx9math.h</dt> </dl> |
 

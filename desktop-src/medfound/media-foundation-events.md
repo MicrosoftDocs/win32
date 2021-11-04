@@ -1,5 +1,5 @@
 ---
-Description: Media Foundation Events
+description: Media Foundation Events
 ms.assetid: d925f63d-3359-4ba1-802f-0c2b11a3f973
 title: Media Foundation Events
 ms.topic: article

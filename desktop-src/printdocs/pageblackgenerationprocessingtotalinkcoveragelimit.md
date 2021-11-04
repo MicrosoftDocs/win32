@@ -1,5 +1,5 @@
 ---
-description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: Learn about the PageBlackGenerationProcessingTotalInkCoverageLimit element, which specifies the maximum allowed sum of the four ink coverage anywhere in an image.
 ms.assetid: 7ccd02c2-7cec-4d9d-83c1-512f25f4045c
 title: PageBlackGenerationProcessingTotalInkCoverageLimit
 ms.topic: article
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # PageBlackGenerationProcessingTotalInkCoverageLimit
 
-This topic is not current. For the most current information, see the [Print Schema Specification](https://www.microsoft.com/whdc/xps/printschema.mspx).
+This topic is not current. For the most current information, see the [Print Schema Specification](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip).
 
 Specifies the maximum allowed sum of the four ink coverage anywhere in an image.
 
@@ -19,7 +19,7 @@ Specifies the maximum allowed sum of the four ink coverage anywhere in an image.
 
 
 
-| Name                       |                                                            |
+| Name | Value |
 |----------------------------|------------------------------------------------------------|
 | Element Type <br/>   | ParameterDef<br/>                                    |
 | Scoping Prefix <br/> | Page<br/>                                            |
@@ -83,7 +83,7 @@ The following table outlines the characteristics of the variables defined in the
 
 <dl> <dt>
 
-[Print Schema Specification](https://www.microsoft.com/whdc/xps/printschema.mspx)
+[Print Schema Specification](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip)
 </dt> </dl>
 
  

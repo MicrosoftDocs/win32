@@ -1,5 +1,5 @@
 ---
-description: Sets an array of nontransposed matrices.
+description: ID3DXConstantTable::SetMatrixArray method - Sets an array of nontransposed matrices.
 ms.assetid: f36b8e8a-c22f-41e6-acb1-6298291b002f
 title: ID3DXConstantTable::SetMatrixArray method (D3DX9Shader.h)
 ms.topic: reference
@@ -84,7 +84,7 @@ If the method succeeds, the return value is D3D\_OK. If the method fails, the re
 
 
 
-|                    |                                                                                          |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Shader.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>     |

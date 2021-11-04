@@ -46,7 +46,7 @@ Possible values are 1 (events included) and 0 (default, events excluded).
 
 
 
-|                                     |               |
+| Label | Value |
 |-------------------------------------|---------------|
 | Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |

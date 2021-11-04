@@ -1,5 +1,5 @@
 ---
-Description: The CEnumMediaTypes class implements an enumerator for preferred media types.
+description: The CEnumMediaTypes class implements an enumerator for preferred media types.
 ms.assetid: 50a90926-0bc7-4204-8000-81894bd154ac
 title: CEnumMediaTypes class (Amfilter.h)
 ms.topic: reference
@@ -51,7 +51,7 @@ Whenever a pin alters its list of preferred media types, the pin increments the 
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Amfilter.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

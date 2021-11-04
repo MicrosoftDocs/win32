@@ -1,6 +1,6 @@
 ---
 title: RequestReplyTcpServerExample
-description: This example shows a TCP server that accepts a channel and receives and replies to messages.
+description: See a request and reply to TCP server example that uses the Windows Web Services API (WWSAPI). This example accepts a channel and receives and replies to messages.
 ms.assetid: da9a507b-952d-4378-a37f-c2c4407335e8
 keywords:
 - RequestReplyTcpServerExample Native-Web-Services

@@ -1,6 +1,6 @@
 ---
 title: DataDefinitionType Complex Type
-description: Defines a data item that you want to include with the event.
+description: Defines a data item that you want to include with the event. | DataDefinitionType Complex Type
 ms.assetid: f4234e54-a5a8-48e4-941f-05107dcd3f88
 keywords:
 - DataDefinitionType complex type EventLog
@@ -64,57 +64,16 @@ Defines a data item that you want to include with the event.
 
 
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Name</th>
-<th>Type</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>count</td>
-<td><a href="eventmanifestschema-counttype-simpletype.md"><strong>CountType</strong></a></td>
-<td>The number of elements in the array if the data item is an array. You can specify the actual count or the name of another data item that contains the count. <br/></td>
-</tr>
-<tr class="even">
-<td>inType</td>
-<td><strong>QName</strong></td>
-<td>The data type for this data item. For a list of predefined input data types, see the <a href="eventmanifestschema-inputtype-complextype.md"><strong>InputType</strong></a> complex type.<br/></td>
-</tr>
-<tr class="odd">
-<td>length</td>
-<td><a href="eventmanifestschema-lengthtype-simpletype.md"><strong>LengthType</strong></a></td>
-<td>The length of a variable length data item, such as a binary blob. For binary data, specify the length in bytes and for string data, specify the length in characters. You can specify the actual length or the name of another data item that contains the length.<br/> If you use the length attribute to specify a fixed length string, you must pad the string to its fixed length allowing for the null-terminator character at the end (for example, if the length is 5, the string &quot;abc&quot; must be padded as &quot;abc &quot;. The string length must include the null-terminator character.<br/></td>
-</tr>
-<tr class="even">
-<td>map</td>
-<td>string</td>
-<td>The name of the name/value map to use to map integer values to strings. The data type of the data item must be of one of the following types:<br/>
-<ul>
-<li>win:UInt8</li>
-<li>win:UInt16</li>
-<li>win:UInt32</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>name</td>
-<td>string</td>
-<td>The name of the data item. You can use the name to reference this data item in your XML fragment if you specify a <a href="eventmanifestschema-userdata-templateitemtype-element.md"><strong>UserData</strong></a> section in your template. You can also reference this name in a length or count attribute of another data item if this data item contains its length or count value.<br/> <strong>Windows Vista:</strong> This attribute is optional.<br/></td>
-</tr>
-<tr class="even">
-<td>outType</td>
-<td><strong>QName</strong></td>
-<td>The data type to use when rendering this data item. For a list of predefined output data types, see the <a href="eventmanifestschema-outputtype-complextype.md"><strong>OutputType</strong></a> complex type.<br/> <strong>Windows Vista:</strong> The output type is ignored, and the service determines the type based on the input type.<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Name | Type | Description | 
+|------|------|-------------|
+| count | <a href="eventmanifestschema-counttype-simpletype.md"><strong>CountType</strong></a> | The number of elements in the array if the data item is an array. You can specify the actual count or the name of another data item that contains the count. <br /> | 
+| inType | <strong>QName</strong> | The data type for this data item. For a list of predefined input data types, see the <a href="eventmanifestschema-inputtype-complextype.md"><strong>InputType</strong></a> complex type.<br /> | 
+| length | <a href="eventmanifestschema-lengthtype-simpletype.md"><strong>LengthType</strong></a> | The length of a variable length data item, such as a binary blob. For binary data, specify the length in bytes and for string data, specify the length in characters. You can specify the actual length or the name of another data item that contains the length.<br /> If you use the length attribute to specify a fixed length string, you must pad the string to its fixed length allowing for the null-terminator character at the end (for example, if the length is 5, the string "abc" must be padded as "abc ". The string length must include the null-terminator character.<br /> | 
+| map | string | The name of the name/value map to use to map integer values to strings. The data type of the data item must be of one of the following types:<br /><ul><li>win:UInt8</li><li>win:UInt16</li><li>win:UInt32</li></ul> | 
+| name | string | The name of the data item. You can use the name to reference this data item in your XML fragment if you specify a <a href="eventmanifestschema-userdata-templateitemtype-element.md"><strong>UserData</strong></a> section in your template. You can also reference this name in a length or count attribute of another data item if this data item contains its length or count value.<br /><strong>Windows Vista:</strong> This attribute is optional.<br /> | 
+| outType | <strong>QName</strong> | The data type to use when rendering this data item. For a list of predefined output data types, see the <a href="eventmanifestschema-outputtype-complextype.md"><strong>OutputType</strong></a> complex type.<br /><strong>Windows Vista:</strong> The output type is ignored, and the service determines the type based on the input type.<br /> | 
+
 
 
 

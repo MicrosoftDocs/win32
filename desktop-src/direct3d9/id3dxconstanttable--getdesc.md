@@ -1,5 +1,5 @@
 ---
-description: Gets a description of the constant table.
+description: ID3DXConstantTable::GetDesc method - Gets a description of the constant table.
 ms.assetid: 3a7396c6-3a3e-44c2-96b7-60339015b376
 title: ID3DXConstantTable::GetDesc method (D3DX9Shader.h)
 ms.topic: reference
@@ -54,7 +54,7 @@ If the method succeeds, the return value is D3D\_OK. If the method fails, the re
 
 
 
-|                    |                                                                                          |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Shader.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>     |

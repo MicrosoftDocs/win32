@@ -1,6 +1,6 @@
 ---
 title: glColor3s function (Gl.h)
-description: Sets the current color.
+description: Sets the current color. | glColor3s function (Gl.h)
 ms.assetid: 6d4308c7-d640-447d-8efc-1fd547975516
 keywords:
 - glColor3s function OpenGL

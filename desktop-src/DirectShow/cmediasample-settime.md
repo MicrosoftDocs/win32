@@ -1,5 +1,5 @@
 ---
-Description: The SetTime method sets the stream times when this sample should begin and finish. This method implements the IMediaSample::SetTime method.
+description: The SetTime method sets the stream times when this sample should begin and finish. This method implements the IMediaSample::SetTime method.
 ms.assetid: cab4907f-eb6f-4444-9b41-1f95a6ecffed
 title: CMediaSample.SetTime method (Amfilter.h)
 ms.topic: reference
@@ -66,7 +66,7 @@ For information about time stamps, see [Time and Clocks in DirectShow](time-and-
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Amfilter.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

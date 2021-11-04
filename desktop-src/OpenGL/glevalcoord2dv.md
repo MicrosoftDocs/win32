@@ -56,11 +56,11 @@ OpenGL uses evaluated values instead of current values for those evaluations tha
 
 If automatic normal generation is enabled, **glEvalCoord2dv** calls [**glEnable**](glenable.md) with argument GL\_AUTO\_NORMAL to generate surface normals analytically, regardless of the contents or enabling of the GL\_MAP2\_NORMAL map. Let
 
-![](images/evlcrd01.png)
+![Equation showing a cross-product value for a map m.](images/evlcrd01.png)
 
 The generated normal **n** is
 
-![](images/evlcrd02.png)
+![Equation showing the generated normal n for the map.](images/evlcrd02.png)
 
 The following functions retrieve information related to the **glEvalCoord2dv** function:
 

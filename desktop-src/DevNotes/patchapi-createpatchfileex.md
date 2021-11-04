@@ -83,7 +83,7 @@ This function returns **TRUE** if it succeeds; otherwise, it returns **FALSE**.
 
 ## Requirements
 
-|                |                                                                                       |
+| Requirement | Value |
 |----------------|---------------------------------------------------------------------------------------|
 | Header | patchapi.h |
 | DLL | mspatchc.dll |

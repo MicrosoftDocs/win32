@@ -70,8 +70,8 @@ The return value is one of the following.
 
 | Return value                                                                  | Description                                                                             |
 |-------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|
-| <dl> <dt>-1</dt> </dl> | The function is unsuccessful the hot key is invalid.<br/>                         |
-| <dl> <dt>0</dt> </dl>  | The function is unsuccessful the window is invalid.<br/>                          |
+| <dl> <dt>-1</dt> </dl> | The function is unsuccessful; the hot key is invalid.<br/>                        |
+| <dl> <dt>0</dt> </dl>  | The function is unsuccessful; the window is invalid.<br/>                         |
 | <dl> <dt>1</dt> </dl>  | The function is successful, and no other window has the same hot key.<br/>        |
 | <dl> <dt>2</dt> </dl>  | The function is successful, but another window already has the same hot key.<br/> |
 

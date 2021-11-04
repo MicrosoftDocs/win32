@@ -1,6 +1,6 @@
 ---
 title: glMultMatrixd function (Gl.h)
-description: The glMultMatrixd and glMultMatrixf functions multiply the current matrix by an arbitrary matrix.
+description: The glMultMatrixd function multiplies the current matrix by an arbitrary matrix. | glMultMatrixd function (Gl.h)
 ms.assetid: 1f6cf4e4-e7bd-470c-b1f4-b9ccc1fb756e
 keywords:
 - glMultMatrixd function OpenGL
@@ -66,7 +66,7 @@ The current matrix is the projection matrix, modelview matrix, or texture matrix
 
 The *m* parameter points to a 4x4 matrix of single-precision or double-precision floating-point values stored in column-major order. That is, the matrix is stored as shown in the following image.
 
-![](images/multi01.png)
+![![Diagram showing the 4x4 matrix that the m parameter points to.]](images/multi01.png)
 
 The following functions retrieve information related to **glMultMatrix**:
 

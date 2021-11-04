@@ -1,5 +1,5 @@
 ---
-description: Represents a collection of Certificate objects.
+description: Recipients object - Represents a collection of Certificate objects.
 ms.assetid: '11d294b5-0a8a-4970-be10-a3b22389d96e'
 title: Recipients object
 ms.topic: reference
@@ -77,7 +77,7 @@ The **Recipients** object cannot be created.
 
 
 
-|                            |                                                                                        |
+| Requirement | Value |
 |----------------------------|----------------------------------------------------------------------------------------|
 | Redistributable<br/> | CAPICOM 2.0 or later on Windows Server 2003 and Windows XP<br/>                  |
 | DLL<br/>             | <dl> <dt>Capicom.dll</dt> </dl> |

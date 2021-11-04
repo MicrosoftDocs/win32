@@ -1,6 +1,6 @@
 ---
 title: Player.OpenStateChange event
-description: The OpenStateChange event occurs when the openState property changes value.
+description: The OpenStateChange event occurs when the openState property changes value. | Player.OpenStateChange event
 ms.assetid: b6b840ab-72c7-4150-a259-1e7d8afcec81
 keywords:
 - OpenStateChange event Windows Media Player
@@ -60,7 +60,7 @@ Windows Media Player states are not guaranteed to occur in any particular order.
 
 
 
-|                    |                                                                                    |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------|
 | Version<br/> | Windows Media Player version 7.0 or later.<br/>                              |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |

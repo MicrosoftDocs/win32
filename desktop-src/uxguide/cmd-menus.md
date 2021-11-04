@@ -9,7 +9,7 @@ ms.date: 10/20/2020
 # Menus (Design basics)
 
 > [!NOTE]
-> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](https://docs.microsoft.com/windows/uwp/design/).
+> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](/windows/uwp/design/).
 
 Menus are hierarchical lists of commands or options available to users in the current context.
 
@@ -32,7 +32,7 @@ Menus have several usage patterns:
 
 
 
-|                                                                                                                                                 |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| Usage                                                                                                                                                |    Example                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 |-------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Menu bars**<br/> a menu bar displays commands and options in drop-down menus. <br/>                                               | menu bars are very common and easy to find, as well as an efficient use of space. <br/> ![screen shot of menu bar with drop-down menu ](images/cmd-menus-image2.png)<br/> A menu bar from Windows Mail.<br/>                                                                                                                                                                                                                                                                                                                                                                                                          |
 | **Toolbar menus**<br/> a menu bar implemented as a toolbar. <br/>                                                                   | toolbar menus are toolbars consisting primarily of commands in [menu buttons](ctrl-command-buttons.md) and split buttons, with only a few direct commands, if any. <br/> ![screen shot of toolbar menu with drop-down menu ](images/cmd-menus-image3.png)<br/> A toolbar menu in Windows Photo Gallery.<br/> For guidelines on this pattern, see [Toolbars](cmd-toolbars.md).<br/>                                                                                                                                                                                                             |
@@ -229,16 +229,16 @@ In this example, a menu drop-down button is used to make a context menu visible.
 Run  
 Play  
 Print  
-<separator>  
-</dl> </dd> <dd>Secondary commands supported by the object<dl> <separator>  
+&lt;separator&gt;  
+</dl> </dd> <dd>Secondary commands supported by the object<dl> &lt;separator&gt;  
 </dl> </dd> Transfer commands<dl> Cut  
 Copy  
 Paste  
-<separator>  
-</dl> </dd> <dd>Object settings<dl> <separator>  
+&lt;separator&gt;  
+</dl> </dd> <dd>Object settings<dl> &lt;separator&gt;  
 </dl> </dd> Object commands<dl> Delete  
 Rename  
-<separator>  
+&lt;separator&gt;  
 Properties  
 </dl> </dd> </dl>
 
@@ -331,50 +331,50 @@ The standard menu bar structure is as follows. This list shows the menu category
 <dl> File<dl> New Ctrl+N  
 Open... Ctrl+O  
 Close  
-<separator>  
+&lt;separator&gt;  
 Save Ctrl+S  
 Save as...  
-<separator>  
+&lt;separator&gt;  
 Send to  
-<separator>  
+&lt;separator&gt;  
 Print... Ctrl+P  
 Print preview  
 Page setup  
-<separator>  
+&lt;separator&gt;  
 1 <filename>  
 2 <filename>  
 3 <filename>  
 ...  
-<separator>  
+&lt;separator&gt;  
 Exit Alt+F4 (shortcut usually not given)  
 </dl> </dd> Edit<dl> Undo Ctrl+Z  
 Redo Ctrl+Y  
-<separator>  
+&lt;separator&gt;  
 Cut Ctrl+X  
 Copy Ctrl+C  
 Paste Ctrl+V  
-<separator>  
+&lt;separator&gt;  
 Select all Ctrl+A  
-<separator>  
+&lt;separator&gt;  
 Delete Del (shortcut usually not given)  
-<separator>  
+&lt;separator&gt;  
 Find... Ctrl+F  
 Find next F3 (command usually not given)  
 Replace... Ctrl+H  
 Go to... Ctrl+G  
 </dl> </dd> View<dl> Toolbars  
 Status bar  
-<separator>  
+&lt;separator&gt;  
 </dl> </dd> Zoom<dl> Zoom in Ctrl++  
 Zoom out Ctrl+-  
-<separator>  
+&lt;separator&gt;  
 Full screen F11  
 Refresh F5  
 </dl> </dd> <dd>Tools<dl> ...  
-<separator>  
+&lt;separator&gt;  
 Options  
 </dl> </dd> Help<dl> <program name> help F1  
-<separator>  
+&lt;separator&gt;  
 About <program name>  
 </dl> </dd> </dl>
 
@@ -384,28 +384,28 @@ The standard toolbar menu buttons are as follows. This list shows the menu categ
 
 <dl> Tools<dl> Full screenF11(Reassign access key if Find is also used.)  
 Toolbars(Note that the Menu bar command goes here.)  
-<separator>  
+&lt;separator&gt;  
 Print...  
 Find...  
-<separator>  
+&lt;separator&gt;  
 Zoom  
 Text size  
-<separator>  
+&lt;separator&gt;  
 Options  
 </dl> </dd> Organize<dl> New folderCtrl+N  
-<separator>  
+&lt;separator&gt;  
 CutCtrl+X  
 CopyCtrl+C  
 PasteCtrl+V  
-<separator>  
+&lt;separator&gt;  
 Select allCtrl+A  
-<separator>  
+&lt;separator&gt;  
 DeleteDel(shortcut usually not given)  
 Rename  
-<separator>  
+&lt;separator&gt;  
 Options  
 </dl> </dd> Page<dl> New windowCtrl+N  
-<separator>  
+&lt;separator&gt;  
 Zoom  
 Text size  
 </dl> </dd> </dl>
@@ -419,14 +419,14 @@ Run
 Play  
 Edit  
 Print...  
-<separator>  
+&lt;separator&gt;  
 Cut  
 Copy  
 Paste  
-<separator>  
+&lt;separator&gt;  
 Delete  
 Rename  
-<separator>  
+&lt;separator&gt;  
 Lock the <object name>(checkmark)  
 Properties  
 </dl>
@@ -540,10 +540,4 @@ Examples:
 -   On the **View** menu, point to **Toolbars**, and then click **Formatting**.
 
  
-
- 
-
-
-
-
 

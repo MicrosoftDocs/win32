@@ -1,5 +1,5 @@
 ---
-description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: This article lists and defines terms that are specific to the Print Schema and related technologies.
 ms.assetid: ab441a37-3a4e-4dd3-85e9-a50e08618d72
 title: Terms Used in the Print Schema
 ms.topic: article
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Terms Used in the Print Schema
 
-This topic is not current. For the most current information, see the [Print Schema Specification](https://www.microsoft.com/whdc/xps/printschema.mspx).
+This topic is not current. For the most current information, see the [Print Schema Specification](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip).
 
 The following list contains terms that are specific to the Print Schema and related technologies.
 
@@ -58,7 +58,7 @@ The following list contains terms that are specific to the Print Schema and rela
 
 <dl> <dt>
 
-[Print Schema Specification](https://www.microsoft.com/whdc/xps/printschema.mspx)
+[Print Schema Specification](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip)
 </dt> </dl>
 
  

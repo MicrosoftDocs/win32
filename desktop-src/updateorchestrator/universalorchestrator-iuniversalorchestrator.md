@@ -1,8 +1,8 @@
 ---
 title: IUniversalOrchestrator interface
 description: A COM interface that provides methods to allow a client to communicate with the Universal Orchestrator.
-ms.date: 01/29/2020
-ms.topic: interface
+ms.date: 01/14/2021
+ms.topic: reference
 ---
 
 # IUniversalOrchestrator interface

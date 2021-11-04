@@ -1,6 +1,6 @@
 ---
 title: Player.KeyDown event
-description: The KeyDown event occurs when a key is pressed.
+description: The KeyDown event occurs when a key is pressed. | Player.KeyDown event
 ms.assetid: a34dafca-5db2-4065-bcfe-d66e633b26fb
 keywords:
 - KeyDown event Windows Media Player
@@ -134,7 +134,7 @@ The value of event parameters is specified by Windows Media Player, and can be a
 
 
 
-|                    |                                                                                    |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------|
 | Version<br/> | Windows Media Player 9 Series or later.<br/>                                 |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |

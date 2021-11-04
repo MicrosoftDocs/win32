@@ -1,6 +1,6 @@
 ---
 title: IWTSServerChannelManager interface
-description: This interface is not supported.
+description: This interface is not supported. | IWTSServerChannelManager interface
 ms.assetid: 2c6b2706-4140-4c61-9f67-12f925e94165
 ms.tgt_platform: multiple
 keywords:

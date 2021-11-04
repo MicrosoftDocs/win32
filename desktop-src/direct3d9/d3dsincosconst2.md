@@ -31,7 +31,7 @@ Returns the second constant needed by [sincos - ps](../direct3dhlsl/sincos---ps.
 
 
 
-|                   |                                                                                         |
+| Requirement | Value |
 |-------------------|-----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3dx9types.h</dt> </dl> |
 

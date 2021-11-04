@@ -27,32 +27,12 @@ The attribute can have the following values:
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Value</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>TRUE</strong></td>
-<td>When the Media Session switches to a new topology or clears the current topology, it does not shut down the object that belongs to this topology node.</td>
-</tr>
-<tr class="even">
-<td><strong>FALSE</strong></td>
-<td>When the Media Session switches to a new topology or clears the current topology, it shuts down the node object, as follows:
-<ul>
-<li>Output nodes: The session calls <a href="/windows/desktop/api/mfidl/nf-mfidl-imfmediasink-shutdown"><strong>IMFMediaSink::Shutdown</strong></a> on the media sink.</li>
-<li>Transform nodes: The session calls <a href="/windows/desktop/api/mfidl/nf-mfidl-imfshutdown-shutdown"><strong>IMFShutdown::Shutdown</strong></a> on the MFT.</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| Value | Description | 
+|-------|-------------|
+| <strong>TRUE</strong> | When the Media Session switches to a new topology or clears the current topology, it does not shut down the object that belongs to this topology node. | 
+| <strong>FALSE</strong> | When the Media Session switches to a new topology or clears the current topology, it shuts down the node object, as follows:<ul><li>Output nodes: The session calls <a href="/windows/desktop/api/mfidl/nf-mfidl-imfmediasink-shutdown"><strong>IMFMediaSink::Shutdown</strong></a> on the media sink.</li><li>Transform nodes: The session calls <a href="/windows/desktop/api/mfidl/nf-mfidl-imfshutdown-shutdown"><strong>IMFShutdown::Shutdown</strong></a> on the MFT.</li></ul> | 
+
 
 
 

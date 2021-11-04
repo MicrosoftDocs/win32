@@ -54,7 +54,7 @@ Consumers will periodically collect and record the data from a provider's counte
 Instance names should normally be unique within a sample, i.e. a provider should not return two instances with the same name as part of a single sample. Some older providers do not follow this rule, so [consumers must be able to tolerate non-unique instance names](handling-duplicate-instance-names.md). Instance names are not case-sensitive, so instances should not have names that differ only in case.
 
 > [!NOTE]
-> For backwards-compatibility reasons, the "Process" counterset returns non-unique instance names based on the EXE filename. This can cause confusing results, especially when a process with a non-unique name starts up or shuts down, as this will typically result in data glitches due to incorrect matching of instance names between samples. Consumers of of the "Process" counterset must be able to tolerate these non-unique instance names and the resulting data glitches.
+> For backwards-compatibility reasons, the "Process" counterset returns non-unique instance names based on the EXE filename. This can cause confusing results, especially when a process with a non-unique name starts up or shuts down, as this will typically result in data glitches due to incorrect matching of instance names between samples. Consumers of the "Process" counterset must be able to tolerate these non-unique instance names and the resulting data glitches.
 
 Instance names must be stable across samples, i.e. a provider should use the same instance name for the same entity each time the counterset is collected.
 

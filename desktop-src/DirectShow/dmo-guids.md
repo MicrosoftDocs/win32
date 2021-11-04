@@ -30,7 +30,7 @@ To enumerate the DMOs registered in a category, pass the corresponding GUID to t
 
 
 
-|                   |                                                                                     |
+| Requirement | Value |
 |-------------------|-------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Dmoreg.h</dt> </dl> |
 

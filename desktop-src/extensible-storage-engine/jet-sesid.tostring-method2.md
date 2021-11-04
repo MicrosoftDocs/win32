@@ -1,6 +1,6 @@
 ---
 description: "Learn more about: JET_SESID.ToString method overload list"
-title: JET_SESID.ToString method 
+title: JET_SESID.ToString method overload list
 TOCTitle: 'ToString method '
 ms:assetid: Overload:Microsoft.Isam.Esent.Interop.JET_SESID.ToString
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.jet_sesid.tostring(v=EXCHG.10)

@@ -44,15 +44,4 @@ This function can be called from the following raytracing shader types:
 
 ## See also
 
-<dl> <dt>
-
-[Direct3D 12 Raytracing HLSL Reference](direct3d-12-raytracing-hlsl-reference.md)
-</dt> </dl>
-
- 
-
- 
-
-
-
-
+* [Direct3D 12 raytracing HLSL reference](direct3d-12-raytracing-hlsl-reference.md)

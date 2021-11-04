@@ -1,5 +1,5 @@
 ---
-description: .
+description: System.StartDate
 ms.assetid: 26208e02-6119-47be-86d6-5432723e4b1f
 title: System.StartDate
 ms.topic: article

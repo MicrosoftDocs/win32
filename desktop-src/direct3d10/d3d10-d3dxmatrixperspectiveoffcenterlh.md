@@ -1,5 +1,5 @@
 ---
-description: Builds a customized, left-handed perspective projection matrix.
+description: D3DXMatrixPerspectiveOffCenterLH function (D3DX10Math.h) - Builds a customized, left-handed perspective projection matrix.
 ms.assetid: 73616fcc-1799-4e65-92b9-2d8f500c326e
 title: D3DXMatrixPerspectiveOffCenterLH function (D3DX10Math.h)
 ms.topic: reference
@@ -132,7 +132,7 @@ This function uses the following formula to compute the returned matrix.
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10Math.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl>   |

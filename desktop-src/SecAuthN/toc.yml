@@ -223,7 +223,7 @@
             href: protocols-in-tls-ssl--schannel-ssp-.md
             items: 
             - name: "Private Communications Technology"
-              href: private-communications-technology.md
+              href: /windows/win32/secauthn/protocols-in-tls-ssl--schannel-ssp-
             - name: "Secure Sockets Layer Protocol"
               href: secure-sockets-layer-protocol.md
             - name: "Transport Layer Security Protocol"
@@ -234,7 +234,7 @@
               - name: "TLS Record Protocol"
                 href: tls-record-protocol.md
               - name: "TLS Cipher Suites"
-                href: tls-cipher-suites.md
+                href: /windows/win32/secauthn/cipher-suites-in-schannel
               - name: "TLS vs. SSL"
                 href: tls-versus-ssl.md
           - name: "Message Authentication Codes in Schannel"
@@ -242,8 +242,14 @@
           - name: "Cipher Suites in TLS/SSL (Schannel SSP)"
             href: cipher-suites-in-schannel.md
             items: 
-            - name: "TLS Cipher Suites in Windows 10 v21H1"
-              href: tls-cipher-suites-in-windows-10-v21H1.md
+            - name: "Prioritizing Schannel Cipher Suites"
+              href: prioritizing-schannel-cipher-suites.md
+            - name: "TLS Cipher Suites in Windows 11"
+              href: tls-cipher-suites-in-windows-11.md
+            - name: "TLS Cipher Suites in Windows Server 2022"
+              href: tls-cipher-suites-in-windows-server-2022.md
+            - name: "TLS Cipher Suites in Windows 10 v20H2 and v21H1"
+              href: tls-cipher-suites-in-windows-10-v20H2.md
             - name: "TLS Cipher Suites in Windows 10 v1903"
               href: tls-cipher-suites-in-windows-10-v1903.md
             - name: "TLS Cipher Suites in Windows 10 v1809"
@@ -268,8 +274,6 @@
               href: tls-cipher-suites-in-windows-7.md
             - name: "TLS Cipher Suites in Windows Vista"
               href: schannel-cipher-suites-in-windows-vista.md
-            - name: "Prioritizing Schannel Cipher Suites"
-              href: prioritizing-schannel-cipher-suites.md
           - name: "Elliptic Curves in TLS (Schannel SSP)"
             items:
             - name: "TLS Elliptic Curves in Windows 10, versions 1607 and later"
@@ -393,7 +397,7 @@
       - name: "Web authentication problems"
         href: web-authentication-problems.md
       - name: "FAQ for Web Authentication Broker"
-        href: faq-for-web-authentication-broker.md
+        href: faq-for-web-authentication-broker.yml
     - name: "Using Network Provider API"
       href: using-network-provider-api.md
       items: 
@@ -1434,11 +1438,6 @@
             href: ibytebuffer-unlockregion.md
           - name: "Write Method"
             href: ibytebuffer-write.md
-      - name: "ICcgDomainAuthCredentials"
-        href: iccgdomainauthcredentials.md
-        items: 
-        - name: "GetPasswordCredentials Method"
-          href: iccgdomainauthcredentials-getpasswordcredentials.md
       - name: "IConnectedIdentityProvider"
         href: /windows/desktop/api/Identityprovider/nn-identityprovider-iconnectedidentityprovider
         items: 

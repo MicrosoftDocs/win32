@@ -53,6 +53,7 @@ api_location:
 api_type:
 - HeaderDef
 ms.topic: reference
+ms.custom: snippet-project
 ms.date: 05/31/2018
 ---
 

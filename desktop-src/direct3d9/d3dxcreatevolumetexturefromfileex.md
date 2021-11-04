@@ -1,5 +1,5 @@
 ---
-description: Creates a volume texture from a file.
+description: D3DXCreateVolumeTextureFromFileEx function - Creates a volume texture from a file.
 ms.assetid: fa11706a-83cc-4795-957d-6d0e1faf2a8f
 title: D3DXCreateVolumeTextureFromFileEx function (D3dx9tex.h)
 ms.topic: reference
@@ -204,7 +204,7 @@ When skipping mipmap levels while loading a .dds file, use the D3DX\_SKIP\_DDS\_
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9tex.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>  |

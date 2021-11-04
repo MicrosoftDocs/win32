@@ -1,5 +1,5 @@
 ---
-description: Compile a shader file.
+description: D3DXCompileShader function - Compile a shader file.
 ms.assetid: 9b19ab67-d5d5-482d-b3fe-ce20b64d7ad8
 title: D3DXCompileShader function (D3DX9Shader.h)
 ms.topic: reference
@@ -149,7 +149,7 @@ If the function succeeds, the return value is D3D\_OK. If the function fails, th
 
 
 
-|                    |                                                                                          |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Shader.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>     |

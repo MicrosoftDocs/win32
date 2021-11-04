@@ -12,7 +12,7 @@ The [WDM Video Capture](wdm-video-capture-filter.md) filter exposes three interf
 
 
 
-|                                                |                                                 |
+| Label | Value |
 |------------------------------------------------|-------------------------------------------------|
 | [**IAMExtDevice**](/windows/desktop/api/Strmif/nn-strmif-iamextdevice)           | The base interface for external device control. |
 | [**IAMExtTransport**](/windows/desktop/api/Strmif/nn-strmif-iamexttransport)     | Controls the VCR functions.                     |

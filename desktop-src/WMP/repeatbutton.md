@@ -1,6 +1,6 @@
 ---
 title: REPEATBUTTON
-description: This is a predefined BUTTON with the following default values.
+description: This is a predefined BUTTON with the following default values. | REPEATBUTTON
 ms.assetid: 4322ee45-c2b2-4fa0-aa9c-624be5d464ea
 keywords:
 - REPEATBUTTON Windows Media Player
@@ -35,7 +35,7 @@ This creates a **BUTTON** control that toggles Repeat on and off. The ToolTips a
 
 
 
-|                    |                                              |
+| Requirement | Value |
 |--------------------|----------------------------------------------|
 | Version<br/> | Windows Media Player 7.0 or later<br/> |
 

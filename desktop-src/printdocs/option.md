@@ -1,5 +1,5 @@
 ---
-description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: Get information about the Option element. This topic isn't current. For the most current information, see the Print Schema Specification.
 ms.assetid: feda78d9-58e7-4668-8a25-40e5fd8ad456
 title: Option
 ms.topic: article
@@ -8,13 +8,13 @@ ms.date: 05/31/2018
 
 # Option
 
-This topic is not current. For the most current information, see the [Print Schema Specification](https://www.microsoft.com/whdc/xps/printschema.mspx).
+This topic is not current. For the most current information, see the [Print Schema Specification](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip).
 
 An Option element contains all of the Property and ScoredProperty elements associated with this option.
 
 ## Element Tag
 
-<Option>
+&lt;Option&gt;
 
 ## XML Attributes
 
@@ -69,7 +69,7 @@ The following example defines a name for the Option.
 
 <dl> <dt>
 
-[Print Schema Specification](https://www.microsoft.com/whdc/xps/printschema.mspx)
+[Print Schema Specification](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip)
 </dt> </dl>
 
  

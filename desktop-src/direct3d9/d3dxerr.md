@@ -1,5 +1,5 @@
 ---
-description: Errors are represented by negative values and cannot be combined.
+description: D3DXERR enumeration - Errors are represented by negative values and cannot be combined.
 ms.assetid: 2318278e-e1e1-4cd8-a5ce-5c99f3bc47ba
 title: D3DXERR enumeration (D3dx9.h)
 ms.topic: reference
@@ -127,7 +127,7 @@ enum _D3DXERR {
 
 
 
-|                   |                                                                                    |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3dx9.h</dt> </dl> |
 

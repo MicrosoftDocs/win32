@@ -1,5 +1,5 @@
 ---
-description: Requests a reset.
+description: Reset method of the Msvm_IDEController class - Requests a reset.
 ms.assetid: 1d72bd1a-d0b2-482c-8ba7-8ccee056a5c9
 title: Reset method of the Msvm_IDEController class
 ms.topic: reference

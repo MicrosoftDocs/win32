@@ -69,7 +69,7 @@ Get an **IWMPControls3** interface by casting the value returned by the [**AxWin
 
 
 
-|                   |                                                                                  |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Wmp.h</dt> </dl> |
 

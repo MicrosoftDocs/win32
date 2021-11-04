@@ -1,5 +1,5 @@
 ---
-description: Generates a new mesh with reordered faces and vertices to optimize drawing performance.
+description: ID3DX10Mesh::Optimize method - Generates a new mesh with reordered faces and vertices to optimize drawing performance.
 ms.assetid: c03e112a-7c9b-4082-9afe-42e1c20b5f4d
 title: ID3DX10Mesh::Optimize method (D3DX10.h)
 ms.topic: reference
@@ -80,7 +80,7 @@ This method is very similar to the [**ID3DX10Mesh::CloneMesh**](id3dx10mesh-clon
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl> |

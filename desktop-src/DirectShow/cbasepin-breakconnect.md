@@ -1,5 +1,5 @@
 ---
-description: The BreakConnect method releases the pin from a connection.
+description: CBasePin.BreakConnect method - The BreakConnect method releases the pin from a connection.
 ms.assetid: a1f299e1-30bf-4d55-84cf-73acccf38151
 title: CBasePin.BreakConnect method (Amfilter.h)
 ms.topic: reference
@@ -51,7 +51,7 @@ Note that `BreakConnect` can be called without a corresponding call to **Complet
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Amfilter.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

@@ -15,11 +15,7 @@ api_location:
 
 Calculates the level of detail.
 
-
-
-|                                                                 |
-|-----------------------------------------------------------------|
-| ret Object.CalculateLevelOfDetail( sampler\_state S, float x ); |
+ret Object.CalculateLevelOfDetail( sampler\_state S, float x );
 
 
 
@@ -31,8 +27,8 @@ Calculates the level of detail.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">

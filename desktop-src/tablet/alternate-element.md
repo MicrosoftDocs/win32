@@ -32,11 +32,11 @@ None.
 
 
 
-|              |                                            |
-|--------------|--------------------------------------------|
-| Element type | **xs:string**                              |
-| Namespace    | urn:schemas-microsoft-com:tabletpc:richink |
-| Schema name  | Journal Reader                             |
+|                  | Value                                      |
+|------------------|--------------------------------------------|
+| **Element type** | xs:string                                  |
+| **Namespace**    | urn:schemas-microsoft-com:tabletpc:richink |
+| **Schema name**  | Journal Reader                             |
 
 
 
@@ -46,7 +46,7 @@ None.
 
 
 
-|                   |                                                                                     |
+| Requirement | Value |
 |-------------------|-------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Wingdi.h</dt> </dl> |
 

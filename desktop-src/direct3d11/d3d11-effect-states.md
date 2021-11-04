@@ -24,7 +24,7 @@ Effect states are name value pairs in the form of an expression.
 
 
 
-|                                                                                                                       |                                                           |
+| Effect state                                                                                                                      | Group                                                          |
 |-----------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------|
 | ALPHATOCOVERAGEENABLEBLENDENABLESRCBLENDDESTBLENDBLENDOP SRCBLENDALPHADESTBLENDALPHABLENDOPALPHARENDERTARGETWRITEMASK | Members of [**D3D11\_BLEND\_DESC**](/windows/desktop/api/D3D11/ns-d3d11-d3d11_blend_desc) |
 
@@ -36,7 +36,7 @@ Effect states are name value pairs in the form of an expression.
 
 
 
-|                                                                                                                                                                |                                                                               |
+|  Effect state                                                                                                                                                              | Group                                                                              |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------|
 | DEPTHENABLEDEPTHWRITEMASKDEPTHFUNCSTENCILENABLESTENCILREADMASKSTENCILWRITEMASK                                                                                 | Members of [**D3D11\_DEPTH\_STENCIL\_DESC**](/windows/desktop/api/D3D11/ns-d3d11-d3d11_depth_stencil_desc)    |
 | FRONTFACESTENCILFAILFRONTFACESTENCILZFAILFRONTFACESTENCILPASSFRONTFACESTENCILFUNCBACKFACESTENCILFAILBACKFACESTENCILZFAILBACKFACESTENCILPASSBACKFACESTENCILFUNC | Member of [**D3D11\_DEPTH\_STENCILOP\_DESC**](/windows/desktop/api/D3D11/ns-d3d11-d3d11_depth_stencilop_desc) |
@@ -49,7 +49,7 @@ Effect states are name value pairs in the form of an expression.
 
 
 
-|                                                                                                                                 |                                                                     |
+| Effect state                                                                                                                                | Group                                                                    |
 |---------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------|
 | FILLMODE                                                                                                                        | [**D3D11\_FILL\_MODE**](/windows/desktop/api/D3D11/ne-d3d11-d3d11_fill_mode)                        |
 | CULLMODE                                                                                                                        | [**D3D11\_CULL\_MODE**](/windows/desktop/api/D3D11/ne-d3d11-d3d11_cull_mode)                        |
@@ -63,7 +63,7 @@ Effect states are name value pairs in the form of an expression.
 
 
 
-|                                                                                                     |                                                               |
+| Effect state                                                                                                    | Group                                                              |
 |-----------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
 | Filter AddressU AddressV AddressW MipLODBias MaxAnisotropy ComparisonFunc BorderColor MinLOD MaxLOD | Members of [**D3D11\_SAMPLER\_DESC**](/windows/desktop/api/D3D11/ns-d3d11-d3d11_sampler_desc) |
 

@@ -491,7 +491,7 @@ L"Use Count"
 
 
 
-A [**ULARGE\_INTEGER**](https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-ularge_integer~r1) variable that contains the number of operations that the specified [*private key*](/windows/desktop/SecGloss/p-gly) has performed. This property is optional and may not be supported by all providers. Providers that support this property on keys should also support the **NCRYPT\_USE\_COUNT\_ENABLED\_PROPERTY** property on the provider handle. The Microsoft key storage provider does not support this property. This property only applies to persistent keys.
+A [**ULARGE\_INTEGER**](/windows/win32/api/winnt/ns-winnt-ularge_integer~r1) variable that contains the number of operations that the specified [*private key*](/windows/desktop/SecGloss/p-gly) has performed. This property is optional and may not be supported by all providers. Providers that support this property on keys should also support the **NCRYPT\_USE\_COUNT\_ENABLED\_PROPERTY** property on the provider handle. The Microsoft key storage provider does not support this property. This property only applies to persistent keys.
 
 
 </dt> </dl> </dd> <dt>
@@ -569,6 +569,4 @@ The following values are used to define limits of property data.
 
 [**NCryptSetProperty**](/windows/desktop/api/Ncrypt/nf-ncrypt-ncryptsetproperty)
 </dt> </dl>
-
- 
 

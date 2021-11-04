@@ -1,6 +1,6 @@
 ---
 title: UInt32Type Simple Type (Windows Event Log)
-description: Defines an unsigned integer type.
+description: UInt32Type Simple Type (Windows Event Log) - Defines an unsigned integer type.
 ms.assetid: 11e99c26-3be7-4fac-b3e1-97cb0428a886
 keywords:
 - UInt32Type simple type EventLog

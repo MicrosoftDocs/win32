@@ -1,5 +1,5 @@
 ---
-description: The CheckConnect method determines whether a pin connection is suitable.
+description: CBasePin.CheckConnect method - The CheckConnect method determines whether a pin connection is suitable.
 ms.assetid: 511a1594-f3f8-4725-afcd-f14f3a4ebf20
 title: CBasePin.CheckConnect method (Amfilter.h)
 ms.topic: reference
@@ -71,7 +71,7 @@ If this method fails, the connection fails and the pin calls the [**CBasePin::Br
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Amfilter.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

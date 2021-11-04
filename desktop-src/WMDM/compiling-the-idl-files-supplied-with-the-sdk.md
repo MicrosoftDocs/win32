@@ -39,9 +39,8 @@ Several of the provided IDL files have build dependencies. If you plan to compil
 
 
 
-|                            |                                                                                  |
+|   IDL                      |   Dependencies                                                                   |
 |----------------------------|----------------------------------------------------------------------------------|
-| **IDL**                    | **Dependencies**                                                                 |
 | icomponentauthenticate.idl | import "oaidl.idl";<br/> \#include "icomponentauthenticate.idl"<br/> |
 | WMDM.idl                   | No external dependencies                                                         |
 | WmdmLog.idl                | No external dependencies                                                         |

@@ -1,5 +1,5 @@
 ---
-Description: Microsoft Media Foundation supports audio and video capture.
+description: Microsoft Media Foundation supports audio and video capture.
 ms.assetid: 8a9d96f8-1096-4b66-a2ec-8a95d754ea72
 title: Audio/Video Capture in Media Foundation
 ms.topic: article

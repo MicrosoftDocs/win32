@@ -1,23 +1,19 @@
 ---
 title: WER Settings
-description: Settings to customize the problem reporting experience. All of these settings can be set using Group Policy. Some can also be changed in Action Center for Windows 7, Windows 8, or Problem Reports and Solutions for Windows Vista.
+description: Settings to customize the problem reporting experience. All of these settings can be set using Group Policy. Some can also be changed in Action Center for Windows 7 and Windows 8. For Windows 10, use the search function in Settings to locate View advanced system settings.
 ms.assetid: 031c5591-31b0-42f1-9a98-ecf10a5d5571
 keywords:
 - Windows error reporting Windows Error Reporting , settings
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 03/12/2021
 ---
 
 # WER Settings
 
-Windows Error Reporting (WER) provides many settings to customize the problem reporting experience. All of these settings can be set using Group Policy. Some can also be changed in **Action Center** for Windows 7, Windows 8, or **Problem Reports and Solutions** for Windows Vista. WER settings are located in one of the following registry subkeys:
+Windows Error Reporting (WER) provides many settings to customize the problem reporting experience. All of these settings can be set using Group Policy. Some can also be changed in **Action Center** for Windows 7 and Windows 8. For Windows 10, use the search function in Settings to locate **View advanced system settings**. WER settings are located in one of the following registry subkeys:
 
 -   **HKEY\_CURRENT\_USER**\\**Software**\\**Microsoft**\\**Windows**\\**Windows Error Reporting**
 -   **HKEY\_LOCAL\_MACHINE**\\**Software**\\**Microsoft**\\**Windows**\\**Windows Error Reporting**
-
-Additionally, some settings for WER's Live Kernel Reports feature can be modified under the following registry subkey:
-
--   **HKEY\_LOCAL\_MACHINE**\\**SYSTEM**\\**CurrentControlSet**\\**Control**\\**CrashControl**
 
 ## Windows Error Reporting subkey
 
@@ -355,7 +351,13 @@ The name of the value is used to fetch the pwszOutOfProcessCallbackDll value.
 
 </dd> </dl>
 
-## CrashControl\\FullLiveKernelReports subkey
+## WER Live Kernel Reports Settings
+
+WER's Live Kernel Reports settings, which are described next, are both located under the following registry subkey:
+
+-   **HKEY\_LOCAL\_MACHINE**\\**SYSTEM**\\**CurrentControlSet**\\**Control**\\**CrashControl**
+
+## FullLiveKernelReports subkey
 
 <dl> <dt>
 
@@ -395,7 +397,7 @@ The threshold (in hours) of how often any component on the system can create a f
 
 </dd> </dl>
 
-## CrashControl\\LiveKernelReports subkey
+## LiveKernelReports subkey
 
 <dl> <dt>
 
@@ -404,9 +406,8 @@ The threshold (in hours) of how often any component on the system can create a f
 
 **REG\_SZ**
 
-The redirected storage location of live kernel reports. The default location is %systemroot%\\LiveKernelReports. This value must be a valid path.
 
-This setting is not supported in the **HKEY\_CURRENT\_USER** registry hive.
+The redirected storage location of live kernel reports. The default location is %systemroot%\LiveKernelReports. This value must be a valid path. The path must be in NT path format. For example, \??\C:\LiveDumpsFolder.  For more information on path formats, see  [File path formats on Windows systems](/dotnet/standard/io/file-path-formats).
 
 </dd> </dl>
 

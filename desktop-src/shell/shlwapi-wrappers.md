@@ -187,7 +187,7 @@ The wrapper functions in the following table do not perform any character set co
 |------------------------------|---------|---------------------------------------------------------------------------------|----------|--------------------------------------------------------------------------------|
 | MLGetUILanguage              | 376     | [**GetUserDefaultUILanguage**](/windows/win32/api/winnls/nf-winnls-getuserdefaultuilanguage)                   | KERNEL32 | [(h)](#shlwapi-wrapper-functions)                                              |
 | SHCancelTimerQueueTimer      | 265     | [**DeleteTimerQueueTimer**](/windows/win32/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-deletetimerqueuetimer)                         | KERNEL32 | [(h)](#shlwapi-wrapper-functions)                                              |
-| SHDeleteTimerQueue           | 262     | [**DeleteTimerQueue**](/windows/win32/api/winbase/nf-winbase-deletetimerqueue)                                   | KERNEL32 | [(h)](#shlwapi-wrapper-functions)                                              |
+| SHDeleteTimerQueue           | 262     | [**DeleteTimerQueue**](/windows/win32/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-deletetimerqueue)                                   | KERNEL32 | [(h)](#shlwapi-wrapper-functions)                                              |
 | SHInterlockedCompareExchange | 342     | [**InterlockedCompareExchangePointer**](/windows/win32/api/winnt/nf-winnt-interlockedcompareexchangepointer) | KERNEL32 | [(CompareExchange)](#compareexchange)                                          |
 | SHQueueUserWorkItem          | 260     | [**QueueUserWorkItem**](/windows/win32/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-queueuserworkitem)                                 | KERNEL32 | [(QueueUserWorkItem)](#queueuserworkitem), [(h)](#shlwapi-wrapper-functions)   |
 | SHSetTimerQueueTimer         | 263     | [**CreateTimerQueueTimer**](/windows/win32/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-createtimerqueuetimer)                         | KERNEL32 | [(SetTimerQueueTimer)](#settimerqueuetimer), [(h)](#shlwapi-wrapper-functions) |
@@ -391,7 +391,7 @@ The MSLU does not have these limitations.
 
 
 
-|                      |                                                                                                           |
+| Message              | Description                                                                                               |
 |----------------------|-----------------------------------------------------------------------------------------------------------|
 | CB\_ADDSTRING        | (b) (f) (c)                                                                                               |
 | CB\_FINDSTRING       | (b) (f) (c)                                                                                               |

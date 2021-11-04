@@ -31,7 +31,7 @@ The status code from the event may contain one of the following values.
 
 
 
-|                                      |                                                                                                                                                                                 |
+| Value                                     | Description                                                                                                                                                                                |
 |--------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **S\_OK**                            | The operation succeeded.                                                                                                                                                        |
 | **NS\_E\_DRM\_LICENSE\_NOTACQUIRED** | The DRM license was not acquired. If the previous attempt used [**AutomaticEnable**](/windows/desktop/api/mfidl/nf-mfidl-imfcontentenabler-automaticenable), the application should try non-silent acquisition. |

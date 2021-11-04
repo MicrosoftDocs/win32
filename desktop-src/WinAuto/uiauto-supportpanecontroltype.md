@@ -46,28 +46,11 @@ The following table depicts a typical control and content view of the UI Automat
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Control View</th>
-<th>Content View</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><ul>
-<li>Pane</li>
-</ul></td>
-<td><ul>
-<li>Pane</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| Control View | Content View | 
+|--------------|--------------|
+| <ul><li>Pane</li></ul> | <ul><li>Pane</li></ul> | 
+
 
 
 
@@ -149,50 +132,11 @@ The following image illustrates a control that implements the **Pane** control t
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>UI Automation Tree—Control View</th>
-<th>UI Automation Tree—Content View</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><ul>
-<li>Pane
-<ul>
-<li>Tree (Scroll Pattern)
-<ul>
-<li>TreeItem</li>
-<li>...</li>
-</ul></li>
-</ul></li>
-<li>Pane
-<ul>
-<li>Edit (Scroll Pattern)</li>
-</ul></li>
-</ul></td>
-<td><ul>
-<li>Pane
-<ul>
-<li>Tree (Scroll Pattern)
-<ul>
-<li>TreeItem</li>
-<li>...</li>
-</ul></li>
-<li>Pane
-<ul>
-<li>Edit (Scroll Pattern)</li>
-</ul></li>
-</ul></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| UI Automation Tree—Control View | UI Automation Tree—Content View | 
+|-----------------------------------|-----------------------------------|
+| <ul><li>Pane<ul><li>Tree (Scroll Pattern)<ul><li>TreeItem</li><li>...</li></ul></li></ul></li><li>Pane<ul><li>Edit (Scroll Pattern)</li></ul></li></ul> | <ul><li>Pane<ul><li>Tree (Scroll Pattern)<ul><li>TreeItem</li><li>...</li></ul></li><li>Pane<ul><li>Edit (Scroll Pattern)</li></ul></li></ul></li></ul> | 
+
 
 
 

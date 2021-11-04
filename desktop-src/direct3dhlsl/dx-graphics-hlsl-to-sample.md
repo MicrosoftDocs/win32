@@ -1,6 +1,6 @@
 ---
 title: Sample (DirectX HLSL Texture Object)
-description: Samples a texture.
+description: Samples a texture. | Sample (DirectX HLSL Texture Object)
 ms.assetid: 788ba4b4-8013-411f-9a19-fb9983386fa0
 ms.topic: reference
 ms.date: 05/31/2018
@@ -15,16 +15,14 @@ api_location:
 
 Samples a texture.
 
-|                                                                                  |
-|----------------------------------------------------------------------------------|
-| &lt;Template Type&gt; Object.Sample( sampler\_state S, float Location \[, int Offset\] ); |
+&lt;Template Type&gt; Object.Sample( sampler\_state S, float Location \[, int Offset\] );
 
 ## Parameters
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">

@@ -70,7 +70,7 @@ DLNA Digital Media Player
 
 
 
-|                |                                                                                                                                                |
+| Requirement | Value |
 |----------------|------------------------------------------------------------------------------------------------------------------------------------------------|
 | IDL<br/> | <dl> <dt>Windows.Media.Streaming.idl (reference Windows.Media.Streaming.idl)</dt> </dl> |
 

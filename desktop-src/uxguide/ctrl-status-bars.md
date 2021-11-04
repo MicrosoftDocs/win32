@@ -9,7 +9,7 @@ ms.date: 10/20/2020
 # Status Bars (Design basics)
 
 > [!NOTE]
-> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](https://docs.microsoft.com/windows/uwp/design/).
+> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](/windows/uwp/design/).
 
 A status bar is an area at the bottom of a primary window that displays information about the current window's state (such as what is being viewed and how), background tasks (such as printing, scanning, and formatting), or other contextual information (such as selection and keyboard state).
 
@@ -61,7 +61,7 @@ Status bars have several usage patterns:
 
 
 
-|                                                                                                                                    |                                                                                                                                                                                                                                 |
+|   Usage                                                                                                                                 |    Example                                                                                                                                                                                                                             |
 |------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Current window status**<br/> Show the source of what is being displayed along with any view modes <br/>              | ![screen shot of a 'location' status bar ](images/ctrl-status-bars-image3.png)<br/> In this example, the status bar displays the path to the document.<br/>                                                         |
 | **Progress**<br/> Show the progress of background tasks, either with a determinate progress bar or an animation. <br/> | ![screen shot of status bar with progress bar ](images/ctrl-status-bars-image4.png)<br/> In this example, the status bar includes a progress bar to show the Web page loading into a Internet Explorer window.<br/> |
@@ -101,9 +101,8 @@ Status bars have several usage patterns:
 
 -   Use icon variations or overlays to indicate status or status changes. Use icon variations to show changes in quantities or strengths. For other types of status, use these standard overlays: 
 
-    |                                                                                               |                                  |
+    | Overlay                 | Status            |
     |-----------------------------------------------------------------------------------------------|----------------------------------|
-    | **Overlay**<br/>                                                                        | **Status**<br/>            |
     | ![screen shot of warning icon ](images/ctrl-status-bars-image8.png)<br/>                | Warning<br/>               |
     | ![screen shot of error icon ](images/ctrl-status-bars-image9.png)<br/>                  | Error<br/>                 |
     | ![screen shot of disabled/disconnected icon ](images/ctrl-status-bars-image10.png)<br/> | Disabled/Disconnected<br/> |
@@ -140,10 +139,4 @@ For more information, see [Icons](vis-icons.md).
 Refer to status bars as status bars, not status lines or other variations. Example: "The current page number is displayed on the status bar."
 
  
-
- 
-
-
-
-
 

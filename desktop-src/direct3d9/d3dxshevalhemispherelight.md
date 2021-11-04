@@ -1,5 +1,5 @@
 ---
-description: Evaluates a light that is a linear interpolation between two colors over the sphere.
+description: D3DXSHEvalHemisphereLight function (D3dx9math.h) - Evaluates a light that is a linear interpolation between two colors over the sphere.
 ms.assetid: c5815f12-f706-40f6-bf5e-78a211cfbbea
 title: D3DXSHEvalHemisphereLight function (D3dx9math.h)
 ms.topic: reference
@@ -126,7 +126,7 @@ The following equations show the relationship between Cartesian (x, y, z) and sp
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9math.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

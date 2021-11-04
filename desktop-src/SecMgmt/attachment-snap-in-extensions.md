@@ -20,8 +20,9 @@ This architecture is illustrated in the following diagram.
 
 When you create an attachment snap-in extension, you must install it and register it with the Security Configuration snap-ins. You do this by adding keys to the registry, as explained in [Registering an Attachment Snap-in Extension](registering-an-attachment-snap-in-extension.md). When a Security Configuration snap-in starts, it checks the registry and loads any registered snap-in extensions. The extensions appear as nodes under the security area for each service in the Security Configuration snap-in.
 
-> [!Note]An attachment snap-in extension can only extend Services nodes. The Services node is the MMC snap-in that contains tools to administer services installed on the system. The attachment snap-in extension declares itself as being a subordinate to a specific Services node type, and then for each occurrence of that Services node type, the MMC console automatically adds the related snap-in extensions.
->
+> [!Note]
+> An attachment snap-in extension can only extend Services nodes. The Services node is the MMC snap-in that contains tools to administer services installed on the system. The attachment snap-in extension declares itself as being a subordinate to a specific Services node type, and then for each occurrence of that Services node type, the MMC console automatically adds the related snap-in extensions.
+> 
 > Each attachment snap-in extension owns one scope pane node and the related result pane in MMC.
 
  

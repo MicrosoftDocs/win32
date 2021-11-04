@@ -1,5 +1,5 @@
 ---
-description: Specifies tolerance values for each vertex component when comparing vertices to determine if they are similar enough to be welded together.
+description: D3DXWELDEPSILONS structure - Specifies tolerance values for each vertex component when comparing vertices to determine if they are similar enough to be welded together.
 ms.assetid: 534903da-ff65-4629-9be9-66c9daed6ef5
 title: D3DXWELDEPSILONS structure (D3dx9mesh.h)
 ms.topic: reference
@@ -168,7 +168,7 @@ typedef D3DXWELDEPSILONS *LPD3DXWELDEPSILONS;
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3dx9mesh.h</dt> </dl> |
 

@@ -15,11 +15,7 @@ api_location:
 
 Append geometry-shader-output data to an existing stream.
 
-
-
-|                            |
-|----------------------------|
-| Append( *StreamDataType*); |
+Append( *StreamDataType*);
 
 
 

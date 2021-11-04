@@ -1,5 +1,5 @@
 ---
-description: Pointer to a function that creates an instance of the object.
+description: CFactoryTemplate::m_lpfnNew member - Pointer to a function that creates an instance of the object.
 ms.assetid: 86859bf9-e16a-4494-bf1b-1d8ddbc1c805
 title: CFactoryTemplate::m_lpfnNew member (Combase.h)
 ms.topic: reference
@@ -60,7 +60,7 @@ CUnknown * WINAPI CMyComponent::CreateInstance(LPUNKNOWN pUnk, HRESULT *pHr)
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Combase.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

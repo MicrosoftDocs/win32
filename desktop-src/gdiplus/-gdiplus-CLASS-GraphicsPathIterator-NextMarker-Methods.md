@@ -25,7 +25,7 @@ This topic lists the NextMarker methods of the [**GraphicsPathIterator**](/windo
 
 
 
-|                   |                                                                                          |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Gdipluspath.h</dt> </dl> |
 

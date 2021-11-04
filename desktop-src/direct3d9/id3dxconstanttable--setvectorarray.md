@@ -1,5 +1,5 @@
 ---
-description: Sets an array of 4D vectors.
+description: ID3DXConstantTable::SetVectorArray method - Sets an array of 4D vectors.
 ms.assetid: bd453384-4f38-4017-a9a5-cac605919940
 title: ID3DXConstantTable::SetVectorArray method (D3DX9Shader.h)
 ms.topic: reference
@@ -84,7 +84,7 @@ If the method succeeds, the return value is D3D\_OK. If the method fails, the re
 
 
 
-|                    |                                                                                          |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Shader.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>     |

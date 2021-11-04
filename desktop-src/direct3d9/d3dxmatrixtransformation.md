@@ -1,5 +1,5 @@
 ---
-description: Builds a transformation matrix. NULL arguments are treated as identity transformations.
+description: D3DXMatrixTransformation function (D3dx9math.h) - Builds a transformation matrix. NULL arguments are treated as identity transformations.
 ms.assetid: 39042fc6-f489-4e44-ad3f-858ca395575d
 title: D3DXMatrixTransformation function (D3dx9math.h)
 ms.topic: reference
@@ -140,7 +140,7 @@ For 2D transformations, use [**D3DXMatrixTransformation2D**](d3dxmatrixtransform
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9math.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

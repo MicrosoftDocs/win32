@@ -1,6 +1,6 @@
 ---
 title: DaysOfWeek (monthlyDayOfWeekScheduleType) Element
-description: Specifies the days of the week in which the task runs.
+description: Specifies the days of the week in which the task runs. | DaysOfWeek (monthlyDayOfWeekScheduleType) Element
 ms.assetid: d84f0019-1369-465f-9054-0fb5a83cad6d
 keywords:
 - DaysOfWeek element Task Scheduler

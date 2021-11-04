@@ -1,5 +1,5 @@
 ---
-description: Specifies tolerance values for each vertex component when comparing vertices to determine if they are similar enough to be welded together.
+description: D3DX10_WELD_EPSILONS structure - Specifies tolerance values for each vertex component when comparing vertices to determine if they are similar enough to be welded together.
 ms.assetid: b28a17bd-5d5b-41b3-86d9-327f5497fc94
 title: D3DX10_WELD_EPSILONS structure (D3DX10.h)
 ms.topic: reference
@@ -168,7 +168,7 @@ typedef D3DX_WELD_EPSILONS *LPD3DX_WELD_EPSILONS;
 
 
 
-|                   |                                                                                     |
+| Requirement | Value |
 |-------------------|-------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3DX10.h</dt> </dl> |
 

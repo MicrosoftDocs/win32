@@ -36,7 +36,7 @@ Because JPGs are lossy and therefore subject to unexpected color change, they ar
 
 
 
-|                    |                                                      |
+| Requirement | Value |
 |--------------------|------------------------------------------------------|
 | Version<br/> | Windows Media Player version 7.0 or later<br/> |
 

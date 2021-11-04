@@ -1,5 +1,5 @@
 ---
-description: Computes a bounding sphere for the mesh.
+description: D3DXComputeBoundingSphere function (D3DX10math.h) - Computes a bounding sphere for the mesh.
 ms.assetid: 54f486d2-45e9-4fc1-90a3-97488ed4d900
 title: D3DXComputeBoundingSphere function (D3DX10math.h)
 ms.topic: reference
@@ -94,7 +94,7 @@ If the function succeeds, the return value is D3D\_OK. If the function fails, th
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10math.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl>   |

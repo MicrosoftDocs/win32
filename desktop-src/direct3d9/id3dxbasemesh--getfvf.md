@@ -1,5 +1,5 @@
 ---
-description: Gets the fixed function vertex value.
+description: ID3DXBaseMesh::GetFVF method - Gets the fixed function vertex value.
 ms.assetid: ed56ff2d-0366-426c-9f9a-7d1a7c5d1a7c
 title: ID3DXBaseMesh::GetFVF method (D3DX9Mesh.h)
 ms.topic: reference
@@ -47,7 +47,7 @@ This method can return 0 if the vertex format cannot be mapped directly to an FV
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

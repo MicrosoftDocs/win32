@@ -23,7 +23,7 @@ The following tables list formats that are available for each factoid used in Ko
 
  
 
-## Korean Factoids, continued
+## Korean Factoids, part 2
 
 
 
@@ -36,7 +36,7 @@ The following tables list formats that are available for each factoid used in Ko
 
  
 
-## Korean Factoids, continued
+## Korean Factoids, part 3
 
 
 

@@ -1,5 +1,5 @@
 ---
-Description: Reference time that corresponds to stream time 0.
+description: CBaseMediaFilter::m_tStart member - Reference time that corresponds to stream time 0.
 ms.assetid: e80d2fe0-48fb-494e-9450-b5cae2ec9c9f
 title: CBaseMediaFilter::m_tStart member (Amfilter.h)
 ms.topic: reference
@@ -35,7 +35,7 @@ CRefTime m_tStart;
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Amfilter.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

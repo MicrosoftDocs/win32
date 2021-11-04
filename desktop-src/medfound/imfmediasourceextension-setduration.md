@@ -1,5 +1,5 @@
 ---
-Description: Sets the duration of the media source in 100-nanosecond units.
+description: Sets the duration of the media source in 100-nanosecond units.
 ms.assetid: dc3dc600-ca81-40da-9edb-0af283ba9221
 title: IMFMediaSourceExtension::SetDuration method
 ms.topic: reference

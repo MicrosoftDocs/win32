@@ -1,8 +1,9 @@
 ---
-description: Sent as a signal that a window or an application should terminate.
+Description: Sent as a signal that a window or an application should terminate.
 ms.assetid: 19500baf-e0ad-4dfa-804f-6a6e0652cffb
 title: WM_CLOSE message (Winuser.h)
 ms.topic: reference
+ms.custom: snippet-project
 ms.date: 05/31/2018
 ---
 

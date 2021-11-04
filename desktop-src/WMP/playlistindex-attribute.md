@@ -35,7 +35,7 @@ Media items can be playlist elements. This attribute is the zero-based index tha
 
 
 
-|                    |                                    |
+| Requirement | Value |
 |--------------------|------------------------------------|
 | Version<br/> | Windows Media Player 11<br/> |
 

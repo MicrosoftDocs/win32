@@ -53,7 +53,7 @@ The **windowlessVideo** property is not supported for Netscape Navigator. Settin
 
 
 
-|                    |                                                                                    |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------|
 | Version<br/> | Windows Media Player for Windows XP or later.<br/>                           |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |

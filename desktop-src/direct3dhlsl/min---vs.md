@@ -1,6 +1,6 @@
 ---
 title: min - vs
-description: Calculates the minimum of the sources.
+description: Calculates the minimum of the sources. | min - vs
 ms.assetid: cecfe98b-8efd-4fbf-a7b5-d228de724e71
 ms.topic: reference
 ms.date: 05/31/2018

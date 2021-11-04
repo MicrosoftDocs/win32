@@ -1,6 +1,6 @@
 ---
 title: WeeklyTrigger.RandomDelay property
-description: For scripting, gets or sets a delay time that is randomly added to the start time of the trigger.
+description: For scripting, gets or sets a delay time that is randomly added to the start time of the trigger. | WeeklyTrigger.RandomDelay property
 ms.assetid: '711b188d-b283-4c99-b43d-644f39a31cdc'
 keywords:
 - RandomDelay property Task Scheduler
@@ -33,7 +33,7 @@ WeeklyTrigger.RandomDelay As String
 
 ## Property value
 
-The delay time that is randomly added to the start time of the trigger. The format for this string is P<days>DT<hours>H<minutes>M<seconds>S (for example, P2DT5S is a 2 day, 5 second delay).
+The delay time that is randomly added to the start time of the trigger. The format for this string is `P<days>DT<hours>H<minutes>M<seconds>S` (for example, P2DT5S is a 2 day, 5 second delay).
 
 ## Requirements
 

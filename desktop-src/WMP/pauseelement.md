@@ -1,6 +1,6 @@
 ---
 title: PAUSEELEMENT
-description: This is a predefined BUTTONELEMENT with the following default values.
+description: This is a predefined BUTTONELEMENT with the following default values. | PAUSEELEMENT
 ms.assetid: 9472ea68-daab-4969-b407-287aedb00fbf
 keywords:
 - PAUSEELEMENT Windows Media Player
@@ -34,7 +34,7 @@ All properties of this **BUTTONELEMENT** can be overridden by explicitly specify
 
 
 
-|                    |                                                      |
+| Requirement | Value |
 |--------------------|------------------------------------------------------|
 | Version<br/> | Windows Media Player version 7.0 or later<br/> |
 

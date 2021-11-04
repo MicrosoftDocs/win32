@@ -1,5 +1,5 @@
 ---
-description: The GetPin method retrieves a pin.
+description: CBaseRenderer.GetPin method - The GetPin method retrieves a pin.
 ms.assetid: 665e1aaf-4491-4241-94c6-6ea356d7a665
 title: CBaseRenderer.GetPin method (Renbase.h)
 ms.topic: reference
@@ -56,7 +56,7 @@ This method implements the [**CBaseFilter::GetPin**](cbasefilter-getpin.md) meth
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Renbase.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

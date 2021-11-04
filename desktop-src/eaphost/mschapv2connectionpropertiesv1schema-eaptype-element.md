@@ -1,5 +1,5 @@
 ---
-title: EapType Element
+title: EapType Element (mschapv2connectionpropertiesv1schema)
 description: Is a derived type of the EapType element from the baseeapconnectionpropertiesv1 schema. This is the top element that appears inside the Config element of the EapHostConfig schema.
 ms.assetid: dbd63387-f8ed-4308-903f-7a555f3410f7
 keywords:
@@ -16,7 +16,7 @@ api_location:
 ROBOTS: INDEX,FOLLOW
 ---
 
-# EapType Element
+# EapType Element (mschapv2connectionpropertiesv1schema)
 
 The **EapType** element is a derived type of the [EapType](baseeapconnectionpropertiesv1schema-eaptype-element.md) element from the [baseeapconnectionpropertiesv1](baseeapconnectionpropertiesv1schema-schema.md) schema. This is the top element that appears inside the Config element of the [EapHostConfig](eaphostconfigschema-elements.md) schema
 

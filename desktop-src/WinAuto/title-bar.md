@@ -32,63 +32,17 @@ Title bars support the following [**IAccessible**](/windows/desktop/api/oleacc/n
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Property</th>
-<th>Comments</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-get_accchildcount"><strong>get_accChildCount</strong></a></td>
-<td>The <strong>ChildCount</strong> property is five. The <strong>ChildCount</strong> property includes the IME and context-sensitive Help buttons even when they are not displayed. Buttons that are not displayed have the <strong>State</strong> property <a href="object-state-constants.md"><strong>STATE_SYSTEM_INVISIBLE</strong></a>.</td>
-</tr>
-<tr class="even">
-<td><strong>get_accDescription</strong></td>
-<td>The <strong>Description</strong> property of the title bar itself is: &quot;Displays the name of the window and contains controls to manipulate it.&quot; The child buttons in the title bar have the following descriptions:<br/>
-<ul>
-<li>&quot;Moves the window out of</li>
-<li>&quot;Makes the window full</li>
-<li>&quot;Puts a minimized or</li>
-<li>&quot;Closes the window&quot;</li>
-<li>&quot;Enters or leaves context-</li>
-<li>&quot;Brings up the keyboard when pressed&quot;</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td><strong>get_accName</strong></td>
-<td>The title bar itself does not support the <strong>Name</strong> property. The child buttons in the title bar have the following names:
-<ul>
-<li>&quot;Minimize&quot;</li>
-<li>&quot;Maximize&quot; or &quot;Restore&quot;,</li>
-<li>&quot;Close&quot;</li>
-<li>&quot;Context help&quot;</li>
-<li>&quot;IME&quot;</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td><strong>get_accParent</strong></td>
-<td>The <strong>Parent</strong> property of the title bar is the main application window ( <a href="object-roles.md"><strong>ROLE_SYSTEM_WINDOW</strong></a> ) that has the same application-defined window class name as the title bar.</td>
-</tr>
-<tr class="odd">
-<td><strong>get_accRole</strong></td>
-<td>The <strong>Role</strong> property is <a href="object-roles.md"><strong>ROLE_SYSTEM_TITLEBAR</strong></a>. The child buttons in the title bar have the <strong>Role</strong> property <a href="object-roles.md"><strong>ROLE_SYSTEM_PUSHBUTTON</strong></a>.</td>
-</tr>
-<tr class="even">
-<td><strong>get_accState</strong></td>
-<td>The <strong>State</strong> property for the title bar and the child buttons can be a combination of one or more of the following <a href="object-state-constants.md">values</a>: <a href="object-state-constants.md"><strong>STATE_SYSTEM_FOCUSABLE</strong></a> | <a href="object-state-constants.md"><strong>STATE_SYSTEM_INVISIBLE</strong></a> | <a href="object-state-constants.md"><strong>STATE_SYSTEM_OFFSCREEN</strong></a> | <a href="object-state-constants.md"><strong>STATE_SYSTEM_UNAVAILABLE</strong></a> | <a href="object-state-constants.md"><strong>STATE_SYSTEM_PRESSED</strong></a><br/></td>
-</tr>
-<tr class="odd">
-<td><strong>get_accValue</strong></td>
-<td>The <strong>Value</strong> property is a string that is the same as the text displayed in the title bar.</td>
-</tr>
-</tbody>
-</table>
+
+| Property | Comments | 
+|----------|----------|
+| <a href="/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-get_accchildcount"><strong>get_accChildCount</strong></a> | The <strong>ChildCount</strong> property is five. The <strong>ChildCount</strong> property includes the IME and context-sensitive Help buttons even when they are not displayed. Buttons that are not displayed have the <strong>State</strong> property <a href="object-state-constants.md"><strong>STATE_SYSTEM_INVISIBLE</strong></a>. | 
+| <strong>get_accDescription</strong> | The <strong>Description</strong> property of the title bar itself is: "Displays the name of the window and contains controls to manipulate it." The child buttons in the title bar have the following descriptions:<br /><ul><li>"Moves the window out of</li><li>"Makes the window full</li><li>"Puts a minimized or</li><li>"Closes the window"</li><li>"Enters or leaves context-</li><li>"Brings up the keyboard when pressed"</li></ul> | 
+| <strong>get_accName</strong> | The title bar itself does not support the <strong>Name</strong> property. The child buttons in the title bar have the following names:<ul><li>"Minimize"</li><li>"Maximize" or "Restore",</li><li>"Close"</li><li>"Context help"</li><li>"IME"</li></ul> | 
+| <strong>get_accParent</strong> | The <strong>Parent</strong> property of the title bar is the main application window ( <a href="object-roles.md"><strong>ROLE_SYSTEM_WINDOW</strong></a> ) that has the same application-defined window class name as the title bar. | 
+| <strong>get_accRole</strong> | The <strong>Role</strong> property is <a href="object-roles.md"><strong>ROLE_SYSTEM_TITLEBAR</strong></a>. The child buttons in the title bar have the <strong>Role</strong> property <a href="object-roles.md"><strong>ROLE_SYSTEM_PUSHBUTTON</strong></a>. | 
+| <strong>get_accState</strong> | The <strong>State</strong> property for the title bar and the child buttons can be a combination of one or more of the following <a href="object-state-constants.md">values</a>: <a href="object-state-constants.md"><strong>STATE_SYSTEM_FOCUSABLE</strong></a> | <a href="object-state-constants.md"><strong>STATE_SYSTEM_INVISIBLE</strong></a> | <a href="object-state-constants.md"><strong>STATE_SYSTEM_OFFSCREEN</strong></a> | <a href="object-state-constants.md"><strong>STATE_SYSTEM_UNAVAILABLE</strong></a> | <a href="object-state-constants.md"><strong>STATE_SYSTEM_PRESSED</strong></a><br /> | 
+| <strong>get_accValue</strong> | The <strong>Value</strong> property is a string that is the same as the text displayed in the title bar. | 
+
 
 
 

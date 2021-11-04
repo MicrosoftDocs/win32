@@ -61,104 +61,31 @@ The number of [JET_SETCOLUMN](./jet-setcolumn-structure.md) structures in the ar
 
 This function returns the [JET_ERR](./jet-err.md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](./extensible-storage-engine-errors.md) and [Error Handling Parameters](./error-handling-parameters.md).
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Return code</p></th>
-<th><p>Description</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_errBadColumnId</p></td>
-<td><p>The column ID given is outside the legal limits of a column ID.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errClientRequestToStopJetService</p></td>
-<td><p>It is not possible to complete the operation because all activity on the instance associated with the session has ceased as a result of a call to <a href="gg269240(v=exchg.10).md">JetStopService</a>.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errColumnIllegalNull</p></td>
-<td><p>Same as JET_errNullInvalid.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errColumnNotFound</p></td>
-<td><p>The column described by the given <em>columnid</em> does not exist in the table.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errColumnNotUpdatable</p></td>
-<td><p>An illegal attempt was made to update a long value during a insert copy delete original update operation.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errColumnTooBig</p></td>
-<td><p>The given column value data given in the input buffer exceeds the size limitation either natural for a fixed length column or configured for fixed length text or binary columns. This error is also returned when passing more than 1024 bytes of data for a long column and setting the JET_bitSetIntrinsicLV flag.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errInstanceUnavailable</p></td>
-<td><p>It is not possible to complete the operation because the instance associated with the session has encountered a fatal error that requires that access to all data be revoked to protect the integrity of that data. This error will only be returned by Windows XP and later releases.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errInvalidBufferSize</p></td>
-<td><p>The given column value data size does not match what is natural for the fixed length data type.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errInvalidColumnType</p></td>
-<td><p>An illegal attempt was made to update an auto-increment column either during an insert or update operation, or to update a version column during a replace operation.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errInvalidgrbit</p></td>
-<td><p>The options supplied are unknown or an illegal combination of known bit settings.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errInvalidParameter</p></td>
-<td><p>The given psetinfo-&gt;cbStruct is not a valid size for the <a href="gg294090(v=exchg.10).md">JET_SETINFO</a> structure.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errMultiValuedDuplicate</p></td>
-<td><p>The set column operation attempted to create a duplicate value and specified either JET_bitSetUniqueMultiValues or JET_bitSetUniqueNormalizedMultiValues.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errNotInitialized</p></td>
-<td><p>It is not possible to complete the operation because the instance associated with the session has not been initialized yet.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errNotInTransaction</p></td>
-<td><p>An illegal attempt was made to update a long column value when the calling session was not in a transaction.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errNullInvalid</p></td>
-<td><p>An illegal attempt was made to set a non-NULL column to NULL.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errRecordTooBig</p></td>
-<td><p>The column value could not be set to the value in the input buffer because it would have caused the record to exceed its page size related size limitation. Columns of type <a href="gg269213(v=exchg.10).md">JET_coltypLongText</a> or <a href="gg269213(v=exchg.10).md">JET_coltypLongBinary</a> can be stored separately from the remaining record data. However, other columns must be stored with the record and can cause the record size limitation to be exceeded. Even long columns require 5-bytes of space within the record as a linkage and this too can lead to JET_errRecordTooBig being returned.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errRestoreInProgress</p></td>
-<td><p>It is not possible to complete the operation because a restore operation is in progress on the instance associated with the session.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errSessionSharingViolation</p></td>
-<td><p>The same session cannot be used for more than one thread at the same time. This error will only be returned by Windows XP and later releases.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errTermInProgress</p></td>
-<td><p>It is not possible to complete the operation because the instance associated with the session is being shut down.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errUpdateNotPrepared</p></td>
-<td><p>The cursor is not currently in the process of either inserting a new record or updating an existing record.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_wrnColumnMaxTruncated</p></td>
-<td><p>The column value in the input buffer exceeded the maximum configured length for a variable length column and was truncated.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Return code</p> | <p>Description</p> | 
+|--------------------|--------------------|
+| <p>JET_errBadColumnId</p> | <p>The column ID given is outside the legal limits of a column ID.</p> | 
+| <p>JET_errClientRequestToStopJetService</p> | <p>It is not possible to complete the operation because all activity on the instance associated with the session has ceased as a result of a call to <a href="gg269240(v=exchg.10).md">JetStopService</a>.</p> | 
+| <p>JET_errColumnIllegalNull</p> | <p>Same as JET_errNullInvalid.</p> | 
+| <p>JET_errColumnNotFound</p> | <p>The column described by the given <em>columnid</em> does not exist in the table.</p> | 
+| <p>JET_errColumnNotUpdatable</p> | <p>An illegal attempt was made to update a long value during a insert copy delete original update operation.</p> | 
+| <p>JET_errColumnTooBig</p> | <p>The given column value data given in the input buffer exceeds the size limitation either natural for a fixed length column or configured for fixed length text or binary columns. This error is also returned when passing more than 1024 bytes of data for a long column and setting the JET_bitSetIntrinsicLV flag.</p> | 
+| <p>JET_errInstanceUnavailable</p> | <p>It is not possible to complete the operation because the instance associated with the session has encountered a fatal error that requires that access to all data be revoked to protect the integrity of that data. This error will only be returned by Windows XP and later releases.</p> | 
+| <p>JET_errInvalidBufferSize</p> | <p>The given column value data size does not match what is natural for the fixed length data type.</p> | 
+| <p>JET_errInvalidColumnType</p> | <p>An illegal attempt was made to update an auto-increment column either during an insert or update operation, or to update a version column during a replace operation.</p> | 
+| <p>JET_errInvalidgrbit</p> | <p>The options supplied are unknown or an illegal combination of known bit settings.</p> | 
+| <p>JET_errInvalidParameter</p> | <p>The given psetinfo-&gt;cbStruct is not a valid size for the <a href="gg294090(v=exchg.10).md">JET_SETINFO</a> structure.</p> | 
+| <p>JET_errMultiValuedDuplicate</p> | <p>The set column operation attempted to create a duplicate value and specified either JET_bitSetUniqueMultiValues or JET_bitSetUniqueNormalizedMultiValues.</p> | 
+| <p>JET_errNotInitialized</p> | <p>It is not possible to complete the operation because the instance associated with the session has not been initialized yet.</p> | 
+| <p>JET_errNotInTransaction</p> | <p>An illegal attempt was made to update a long column value when the calling session was not in a transaction.</p> | 
+| <p>JET_errNullInvalid</p> | <p>An illegal attempt was made to set a non-NULL column to NULL.</p> | 
+| <p>JET_errRecordTooBig</p> | <p>The column value could not be set to the value in the input buffer because it would have caused the record to exceed its page size related size limitation. Columns of type <a href="gg269213(v=exchg.10).md">JET_coltypLongText</a> or <a href="gg269213(v=exchg.10).md">JET_coltypLongBinary</a> can be stored separately from the remaining record data. However, other columns must be stored with the record and can cause the record size limitation to be exceeded. Even long columns require 5-bytes of space within the record as a linkage and this too can lead to JET_errRecordTooBig being returned.</p> | 
+| <p>JET_errRestoreInProgress</p> | <p>It is not possible to complete the operation because a restore operation is in progress on the instance associated with the session.</p> | 
+| <p>JET_errSessionSharingViolation</p> | <p>The same session cannot be used for more than one thread at the same time. This error will only be returned by Windows XP and later releases.</p> | 
+| <p>JET_errTermInProgress</p> | <p>It is not possible to complete the operation because the instance associated with the session is being shut down.</p> | 
+| <p>JET_errUpdateNotPrepared</p> | <p>The cursor is not currently in the process of either inserting a new record or updating an existing record.</p> | 
+| <p>JET_wrnColumnMaxTruncated</p> | <p>The column value in the input buffer exceeded the maximum configured length for a variable length column and was truncated.</p> | 
+
 
 
 On success, for each column described in the psetcolumns, the desired portion of the column value is set with data copied from the input buffer. The column data set may have been truncated if it exceeded the maximum length specified for a variable length column.
@@ -171,34 +98,15 @@ If any individual set column operation returns an error then the whole **JetSetC
 
 #### Requirements
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Client</strong></p></td>
-<td><p>Requires Windows Vista, Windows XP, or Windows 2000 Professional.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Server</strong></p></td>
-<td><p>Requires Windows Server 2008, Windows Server 2003, or Windows 2000 Server.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>Header</strong></p></td>
-<td><p>Declared in Esent.h.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Library</strong></p></td>
-<td><p>Use ESENT.lib.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>DLL</strong></p></td>
-<td><p>Requires ESENT.dll.</p></td>
-</tr>
-</tbody>
-</table>
+
+| Requirement | Value |
+|------------|----------|
+| <p><strong>Client</strong></p> | <p>Requires Windows Vista, Windows XP, or Windows 2000 Professional.</p> | 
+| <p><strong>Server</strong></p> | <p>Requires Windows Server 2008, Windows Server 2003, or Windows 2000 Server.</p> | 
+| <p><strong>Header</strong></p> | <p>Declared in Esent.h.</p> | 
+| <p><strong>Library</strong></p> | <p>Use ESENT.lib.</p> | 
+| <p><strong>DLL</strong></p> | <p>Requires ESENT.dll.</p> | 
+
 
 
 #### See Also

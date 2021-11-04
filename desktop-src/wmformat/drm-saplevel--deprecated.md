@@ -36,7 +36,7 @@ This is a write-only property that is set by calling [**IWMDRMReader::SetDRMProp
 
 
 
-|                                  |                                |
+| Requirement | Value |
 |----------------------------------|--------------------------------|
 | End of client support<br/> | Windows XP<br/>          |
 | End of server support<br/> | Windows Server 2003<br/> |

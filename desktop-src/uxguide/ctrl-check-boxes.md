@@ -9,7 +9,7 @@ ms.date: 10/20/2020
 # Check Boxes
 
 > [!NOTE]
-> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](https://docs.microsoft.com/windows/uwp/design/).
+> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](/windows/uwp/design/).
 
 With a check box, users make a decision between two clearly opposite choices. The check box label indicates the selected state, whereas the meaning of the cleared state must be the unambiguous opposite of the selected state. Consequently, **check boxes should be used only to toggle an option on or off or to select or deselect an item.**
 
@@ -70,7 +70,7 @@ Check boxes have several usage patterns:
 
 
 
-|                                                                                                                                                                                                             |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+|    Usage                                                                          |         Example                                                                                             |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **An individual choice** A single check box is used to select an individual choice. <br/>                                                                                                             | ![screen shot of one check box with remind me label ](images/ctrl-check-boxes-image6.png)<br/> A single check box is used for an individual choice.<br/>                                                                                                                                                                                                                                                                                                                        |
 | **Independent choices (zero or more)** A group of check boxes is used to select from a set of zero or more choices.<br/>                                                                              | unlike single-selection controls such as [radio buttons](ctrl-radio-buttons.md), users can select any combination of options in a group of check boxes.<br/> ![screen shot of two of three check boxes selected ](images/ctrl-check-boxes-image7.png)<br/> A group of check boxes is used for independent choices.<br/>                                                                                                                                                  |
@@ -149,9 +149,9 @@ Check boxes have several usage patterns:
     -   Display other windows, such as a dialog box to gather more input.
     -   Dynamically display other controls related to the selected control (screen readers cannot detect such events).
 
-### Don't show this <item> again
+### Don't show this &lt;item&gt; again
 
--   **Consider using a Don't show this <item> again option to allow users to suppress a recurring dialog box only if there isn't a better alternative.** Try to determine beforehand if users really need the dialog; if they do, always show the dialog, and if they don't, eliminate the dialog.
+-   **Consider using a Don't show this &lt;item&gt; again option to allow users to suppress a recurring dialog box only if there isn't a better alternative.** Try to determine beforehand if users really need the dialog; if they do, always show the dialog, and if they don't, eliminate the dialog.
 
 For more guidelines and examples, see [Dialog Boxes](win-dialog-box.md).
 
@@ -225,7 +225,7 @@ Recommended sizing and spacing for check boxes.
 -   For a group of check boxes, focus the label text on the differences among the options. If all the options have the same introductory text, move that text to the group label.
 -   Use positive phrasing. Don't phrase a label so that selecting a check box means not to perform an action.
 
-    -   **Exception:Don't show this <item> again** check boxes.
+    -   **Exception:Don't show this &lt;item&gt; again** check boxes.
 
     **Incorrect:**
 
@@ -284,6 +284,4 @@ When referring to check boxes:
 -   When possible, format the label using bold text. Otherwise, put the label in quotation marks only if required to prevent confusion.
 
     Example: Select the **Underline** check box.
-
- 
 

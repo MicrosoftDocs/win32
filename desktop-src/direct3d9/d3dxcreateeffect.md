@@ -1,5 +1,5 @@
 ---
-description: Create an effect from an ASCII or binary effect description.
+description: D3DXCreateEffect function - Create an effect from an ASCII or binary effect description.
 ms.assetid: 1cbd91f2-3cda-4770-a3c5-b1e6702628d1
 title: D3DXCreateEffect function (D3DX9Effect.h)
 ms.topic: reference
@@ -134,7 +134,7 @@ If the function succeeds, the return value is D3D\_OK. If the function fails, th
 
 
 
-|                    |                                                                                          |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Effect.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>     |

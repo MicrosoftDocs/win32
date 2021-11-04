@@ -13,15 +13,6 @@ api_type:
 api_location: 
 - Wfext.h
 ms.assetid: 210168c6-d83b-4ffd-93d4-d22fa748cef2
-api_name: 
- - FM_REFRESH_WINDOWS
-api_type: 
- - HeaderDef
-api_location: 
- - Wfext.h
-topic_type: 
- - APIRef
- - kbSyntax
 
 ---
 

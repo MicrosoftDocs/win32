@@ -35,67 +35,20 @@ The information in the following table applies to both versions of the filter:
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>Filter Interfaces</td>
-<td><a href="/previous-versions/windows/desktop/api/il21dec/nn-il21dec-iamline21decoder"><strong>IAMLine21Decoder</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-ibasefilter"><strong>IBaseFilter</strong></a></td>
-</tr>
-<tr class="even">
-<td>Input Pin Media Types</td>
-<td>Major Type: MEDIATYPE_AUXLine21DataSubtype:<br/>
-<ul>
-<li>MEDIASUBTYPE_Line21_BytePair (standard line 21)</li>
-<li>MEDIASUBTYPE_Line21_GOPPacket (DVD line 21)</li>
-</ul>
-Format Type: FORMAT_VideoInfo or GUID_NULL<br/></td>
-</tr>
-<tr class="odd">
-<td>Input Pin Interfaces</td>
-<td><a href="/windows/desktop/api/Strmif/nn-strmif-imeminputpin"><strong>IMemInputPin</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-ipin"><strong>IPin</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol"><strong>IQualityControl</strong></a></td>
-</tr>
-<tr class="even">
-<td>Output Pin Media Types</td>
-<td>Major type: MEDIATYPE_VideoSubtype:<br/>
-<ul>
-<li>MEDIASUBTYPE_RGB8</li>
-<li>MEDIASUBTYPE_RGB555</li>
-<li>MEDIASUBTYPE_RGB565</li>
-<li>MEDIASUBTYPE_RGB24</li>
-<li>MEDIASUBTYPE_RGB32</li>
-</ul>
-Format Type: FORMAT_VideoInfo<br/></td>
-</tr>
-<tr class="odd">
-<td>Output Pin Interfaces</td>
-<td><a href="/windows/desktop/api/Control/nn-control-imediaposition"><strong>IMediaPosition</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-imediaseeking"><strong>IMediaSeeking</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-ipin"><strong>IPin</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol"><strong>IQualityControl</strong></a></td>
-</tr>
-<tr class="even">
-<td>Filter CLSID</td>
-<td>See previous table</td>
-</tr>
-<tr class="odd">
-<td>Property Page CLSID</td>
-<td>None</td>
-</tr>
-<tr class="even">
-<td>Executable</td>
-<td>qdvd.dll</td>
-</tr>
-<tr class="odd">
-<td><a href="merit.md">Merit</a></td>
-<td>Line 21 Decoder: MERIT_NORMALLine 21 Decoder 2: MERIT_NORMAL + 2<br/></td>
-</tr>
-<tr class="even">
-<td><a href="filter-categories.md">Filter Category</a></td>
-<td>CLSID_LegacyAmFilterCategory</td>
-</tr>
-</tbody>
-</table>
+
+| Label | Value |
+|--------|-------|
+| Filter Interfaces | <a href="/previous-versions/windows/desktop/api/il21dec/nn-il21dec-iamline21decoder"><strong>IAMLine21Decoder</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-ibasefilter"><strong>IBaseFilter</strong></a> | 
+| Input Pin Media Types | Major Type: MEDIATYPE_AUXLine21DataSubtype:<br /><ul><li>MEDIASUBTYPE_Line21_BytePair (standard line 21)</li><li>MEDIASUBTYPE_Line21_GOPPacket (DVD line 21)</li></ul>Format Type: FORMAT_VideoInfo or GUID_NULL<br /> | 
+| Input Pin Interfaces | <a href="/windows/desktop/api/Strmif/nn-strmif-imeminputpin"><strong>IMemInputPin</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-ipin"><strong>IPin</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol"><strong>IQualityControl</strong></a> | 
+| Output Pin Media Types | Major type: MEDIATYPE_VideoSubtype:<br /><ul><li>MEDIASUBTYPE_RGB8</li><li>MEDIASUBTYPE_RGB555</li><li>MEDIASUBTYPE_RGB565</li><li>MEDIASUBTYPE_RGB24</li><li>MEDIASUBTYPE_RGB32</li></ul>Format Type: FORMAT_VideoInfo<br /> | 
+| Output Pin Interfaces | <a href="/windows/desktop/api/Control/nn-control-imediaposition"><strong>IMediaPosition</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-imediaseeking"><strong>IMediaSeeking</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-ipin"><strong>IPin</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol"><strong>IQualityControl</strong></a> | 
+| Filter CLSID | See previous table | 
+| Property Page CLSID | None | 
+| Executable | qdvd.dll | 
+| <a href="merit.md">Merit</a> | Line 21 Decoder: MERIT_NORMALLine 21 Decoder 2: MERIT_NORMAL + 2<br /> | 
+| <a href="filter-categories.md">Filter Category</a> | CLSID_LegacyAmFilterCategory | 
+
 
 
 

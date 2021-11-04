@@ -1,5 +1,5 @@
 ---
-description: An enum used to communicate between the capture engine and a host (such as Visual Studio Graphics Diagnostics).
+description: <span id="vspixengine.callbackcommandtype"></span>CallbackCommandType enumeration - An enum used to communicate between the capture engine and a host (such as Visual Studio Graphics Diagnostics).
 MS-HAID: vspixengine.CallbackCommandType
 MSHAttr:
 - PreferredSiteName:MSDN
@@ -62,7 +62,7 @@ Result from RunExperiementProgress.
 
 ## Requirements
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><tbody><tr class="odd"><td><p>Header</p></td><td>Vspixengine.h</td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><tbody><tr class="odd"><td><p>Header</p></td><td>Vspixengine.h</td></tr></tbody></table>
 
  
 

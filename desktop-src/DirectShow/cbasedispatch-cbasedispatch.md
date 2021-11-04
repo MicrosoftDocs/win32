@@ -1,5 +1,5 @@
 ---
-description: Constructor method.
+description: CBaseDispatch.CBaseDispatch constructor - Constructor method.
 ms.assetid: c88638ca-929e-4135-b15c-110229f4a4de
 title: CBaseDispatch.CBaseDispatch constructor (Ctlutil.h)
 ms.topic: reference
@@ -39,7 +39,7 @@ This constructor has no parameters.
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Ctlutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

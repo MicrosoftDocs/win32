@@ -1,5 +1,5 @@
 ---
-description: The <mode> element specifies whether the URL should be included or excluded from the scope of the search connector. The allowed values are Include and Exclude. This element has no child elements and no attributes.
+description: The &lt;mode&gt; element specifies whether the URL should be included or excluded from the scope of the search connector. The allowed values are Include and Exclude. This element has no child elements and no attributes.
 ms.assetid: 7654c04a-31c4-4260-a51c-0600804e62a9
 title: mode Element (Search Connector Schema)
 ms.topic: article
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # mode Element (Search Connector Schema)
 
-The <mode> element specifies whether the URL should be included or excluded from the scope of the search connector. The allowed values are `Include` and `Exclude`. This element has no child elements and no attributes.
+The &lt;mode&gt; element specifies whether the URL should be included or excluded from the scope of the search connector. The allowed values are `Include` and `Exclude`. This element has no child elements and no attributes.
 
 ## Syntax
 

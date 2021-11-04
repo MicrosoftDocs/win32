@@ -41,7 +41,7 @@ typedef struct _BG_FILE_PROGRESS {
 **BytesTotal**
 </dt> <dd>
 
-Size of the file in bytes. If DO cannot determine the size of the file (for example, if the file or server does not exist), the value is DO_UNKNOWN_FILE_SIZE.
+Size of the file in bytes. If Delivery Optimization cannot determine the size of the file (for example, if the file or server does not exist), the value is DO_UNKNOWN_FILE_SIZE.
 
 If you are downloading ranges from a file, **BytesTotal** reflects the total number of bytes you want to download from the file.
 
@@ -63,7 +63,7 @@ For downloads, the value is **TRUE** if the file is available to the user; other
 
 ## Remarks
 
-To determine if DO transferred the file, you can:
+To determine if Delivery Optimization transferred the file, you can:
 
 -   Compare **BytesTransferred** to **BytesTotal**.
 

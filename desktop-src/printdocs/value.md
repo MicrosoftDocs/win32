@@ -1,5 +1,5 @@
 ---
-description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: Learn about the Value element, which associates a literal with a type. The data type of Value must be string, integer, decimal, or QName. 
 ms.assetid: 933528f6-8f34-4509-887c-c7c223c79367
 title: Value
 ms.topic: article
@@ -8,13 +8,13 @@ ms.date: 05/31/2018
 
 # Value
 
-This topic is not current. For the most current information, see the [Print Schema Specification](https://www.microsoft.com/whdc/xps/printschema.mspx).
+This topic is not current. For the most current information, see the [Print Schema Specification](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip).
 
 A Value element associates a literal with a type.
 
 ## Element Tag
 
-<Value>
+&lt;Value&gt;
 
 ## XML Attributes
 
@@ -61,7 +61,7 @@ A Value element may appear within a Property or ScoredProperty element. The purp
 
  
 
-To conform to the Print Schema Framework, which requires either a Value element or subelements be present in the elements that support values, an absent or undefined value should be represented by presenting the Value element as an empty element; that is, as <Value></Value>.
+To conform to the Print Schema Framework, which requires either a Value element or subelements be present in the elements that support values, an absent or undefined value should be represented by presenting the Value element as an empty element; that is, as &lt;Value&gt;&lt;/Value&gt;.
 
 ## Example
 
@@ -75,7 +75,7 @@ Define a Value of type decimal and initialize it to "128.5".
 
 <dl> <dt>
 
-[Print Schema Specification](https://www.microsoft.com/whdc/xps/printschema.mspx)
+[Print Schema Specification](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip)
 </dt> </dl>
 
  

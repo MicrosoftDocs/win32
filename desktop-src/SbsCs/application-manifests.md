@@ -111,7 +111,7 @@ The **assemblyIdentity** element has the following attributes. It has no subelem
 | **type**                  | Specifies the application or assembly type. The value must be Win32 and all in lower case. Required.                                                                                                                                                                                                                                                                                                                              |
 | **name**                  | Uniquely names the application or assembly. Use the following format for the name: Organization.Division.Name. For example Microsoft.Windows.mysampleApp. Required.                                                                                                                                                                                                                                                               |
 | **language**              | Identifies the language of the application or assembly. Optional. If the application or assembly is language-specific, specify the DHTML language code. In the **assemblyIdentity** of an application intended for worldwide use (language neutral) omit the language attribute.<br/> In an **assemblyIdentity** of an assembly intended for worldwide use (language neutral) set the value of language to "\*".<br/> |
-| **processorArchitecture** | Specifies the processor. The valid values are x86 for 32-bit Windows and ia64 for 64-bit Windows. Optional.                                                                                                                                                                                                                                                                                                                       |
+| **processorArchitecture** | Specifies the processor. Valid values include `x86`, `amd64`, `arm` and `arm64`. Optional.                                                                                                                                                                                                                                                                                                                       |
 | **version**               | Specifies the application or assembly version. Use the four-part version format: mmmmm.nnnnn.ooooo.ppppp. Each of the parts separated by periods can be 0-65535 inclusive. For more information, see [Assembly Versions](assembly-versions.md). Required.                                                                                                                                                                        |
 | **publicKeyToken**        | A 16-character hexadecimal string representing the last 8 bytes of the SHA-1 hash of the public key under which the application or assembly is signed. The public key used to sign the catalog must be 2048 bits or greater. Required for all shared side-by-side assemblies.                                                                                                                                                     |
 
@@ -141,7 +141,7 @@ The **supportedOS** element has the following attribute. It has no subelements.
 
 ### maxversiontested
 
-The **maxversiontested** element specifies the maximum version of Windows that the application was tested against. This is intended to be used by desktop applications that use [XAML Islands](/windows/apps/desktop/modernize/xaml-islands) and that are not deployed in an MSIX package. This element is supported in Windows 10, version 1903, and later versions.
+The **maxversiontested** element specifies the versions of Windows that the application was tested against starting with the minimum OS version the application supports up to the maximum version. The complete set of versions can be found [here](https://developer.microsoft.com/windows/downloads/sdk-archive/). This is intended to be used by desktop applications that use [XAML Islands](/windows/apps/desktop/modernize/xaml-islands) and that are not deployed in an MSIX package. This element is supported in Windows 10, version 1903, and later versions.
 
 The **maxversiontested** element has the following attribute. It has no subelements.
 
@@ -181,11 +181,16 @@ The **file** element has the attributes shown in the following table.
 
 ### activeCodePage
 
-Force a process to use UTF-8 as the process code page.
+On Windows 10, this element forces a process to use UTF-8 as the process code page. For more information, see [Use the UTF-8 code page](/windows/uwp/design/globalizing/use-utf8-code-page). On Windows 10, the only valid value for **activeCodePage** is **UTF-8**.
 
-**activeCodePage** was added in Windows Version 1903 (May 2019 Update). You can declare this property and target/run on earlier Windows builds, but you must handle legacy code page detection and conversion as usual. See [Use the UTF-8 code page](/windows/uwp/design/globalizing/use-utf8-code-page) for details.
+Starting in Windows 11, this element also allows selection of either the legacy non-UTF-8 code page, or code pages for a specific locale for legacy application compatibility. Modern applications are strongly encouraged to use Unicode. On Windows 11, **activeCodePage** may also be set to the value **Legacy** or a locale name such as **en-US** or **ja-JP**.
 
-This element has no attributes. **UTF-8** is only valid value for **activeCodePage** element.
+- On machines configured to a UTF-8 system active code page, **Legacy** will revert the process to the system locale code pages. If the system locale does not have defined code pages, then Windows-1252/437 will be used. The **Legacy** codepage setting is only supported in Fusion manifests and only beginning with Windows 11.
+- When a locale name such as **en-US** is supplied, then the process code page will be set appropriately for that locale code page. For example, Windows-1252 and 437 for en-US, or 932 for ja-JP.
+
+This element was first added in Windows 10 version 1903 (May 2019 Update). You can declare this property and target/run on earlier Windows builds, but you must handle legacy code page detection and conversion as usual. This element has no attributes. 
+
+The following example demonstrates how to use this element to force the current process to use UTF-8 as the process code page.
 
 ```XML
 <assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3">

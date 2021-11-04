@@ -1,5 +1,5 @@
 ---
-Description: Exports the reference point of the virtual system.
+description: Exports the reference point of the virtual system.
 ms.assetid: e4d80404-6b1b-4153-9ab2-aebab18c331a
 title: ExportReferencePoint method of the Msvm_VirtualSystemReferencePointService class
 ms.topic: reference

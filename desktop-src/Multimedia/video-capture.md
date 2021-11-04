@@ -1,6 +1,6 @@
 ---
 title: Video Capture (Windows Multimedia)
-description: Video Capture
+description: Learn how to incorporate video capture capabilities into your application by using the AVICap window class, which uses a simple, message-based interface.
 ms.assetid: 'c93ecc51-e2c5-4b69-8625-c8385d53fab2'
 keywords:
 - Video for Windows (VFW),video capture

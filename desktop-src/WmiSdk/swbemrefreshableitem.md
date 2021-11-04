@@ -1,5 +1,5 @@
 ---
-Description: Represents a single item in an SWbemRefresher object.
+description: Represents a single item in an SWbemRefresher object.
 ms.assetid: 6a12c8eb-3ef9-4292-810c-6954294fc8c7
 ms.tgt_platform: multiple
 title: SWbemRefreshableItem object (Wbemdisp.h)

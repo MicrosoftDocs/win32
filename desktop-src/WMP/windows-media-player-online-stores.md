@@ -71,106 +71,22 @@ The following table shows the features available to the different types of onlin
 
 
 
-<table>
-<colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Feature</th>
-<th>Type 2 commerce store</th>
-<th>Type 2 music store</th>
-<th>Type 1 store</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Create service task panes
-<blockquote>
-[!Note]<br />
-Windows Media Player 10 has up to three service task panes. Windows Media Player 11 has only one.
-</blockquote>
-<br/></td>
-<td>Yes</td>
-<td>Yes</td>
-<td>Yes</td>
-</tr>
-<tr class="even">
-<td>Change the appearance of the store by changing attributes like button color, taskbar color, and button text.</td>
-<td>Yes</td>
-<td>Yes</td>
-<td>Yes</td>
-</tr>
-<tr class="odd">
-<td>Add logo images to the Windows Media Player online store menu and taskbar.</td>
-<td>Yes</td>
-<td>Yes</td>
-<td>Yes</td>
-</tr>
-<tr class="even">
-<td>Navigate from HTMLView to the online store.</td>
-<td>Yes</td>
-<td>Yes</td>
-<td>Yes</td>
-</tr>
-<tr class="odd">
-<td>Handle Windows Media Player requests to purchase a CD or DVD.</td>
-<td>No</td>
-<td>Yes</td>
-<td>Yes</td>
-</tr>
-<tr class="even">
-<td>Handle Windows Media Player requests to provide rich album information.</td>
-<td>No</td>
-<td>Yes</td>
-<td>Yes</td>
-</tr>
-<tr class="odd">
-<td>Provide the Info Center View webpage.</td>
-<td>No</td>
-<td>Yes</td>
-<td>Yes</td>
-</tr>
-<tr class="even">
-<td>Customize Windows Media Player setup to specify an initial online store.</td>
-<td>No</td>
-<td>Yes</td>
-<td>Yes</td>
-</tr>
-<tr class="odd">
-<td>Provide a plug-in that implements <a href="/previous-versions/windows/desktop/api/subscriptionservices/nn-subscriptionservices-iwmpsubscriptionservice"><strong>IWMPSubscriptionService</strong></a>.
-<blockquote>
-[!Note]<br />
-In Windows Media Player 10 and later, this plug-in can also implement <a href="/previous-versions/windows/desktop/api/subscriptionservices/nn-subscriptionservices-iwmpsubscriptionservice2"><strong>IWMPSubscriptionService2</strong></a>.
-</blockquote>
-<br/></td>
-<td>No</td>
-<td>Yes</td>
-<td>No</td>
-</tr>
-<tr class="even">
-<td>Provide a music catalog that is downloaded by Windows Media Player</td>
-<td>No</td>
-<td>No</td>
-<td>Yes</td>
-</tr>
-<tr class="odd">
-<td>Provide customized webpages and context menus based on the user's navigation throughout the Player's user interface.</td>
-<td>No</td>
-<td>No</td>
-<td>Yes</td>
-</tr>
-<tr class="even">
-<td>Provide a plug-in that implements <a href="/previous-versions/windows/desktop/api/contentpartner/nn-contentpartner-iwmpcontentpartner"><strong>IWMPContentPartner</strong></a>.</td>
-<td>No</td>
-<td>No</td>
-<td>Yes</td>
-</tr>
-</tbody>
-</table>
+
+| Feature | Type 2 commerce store | Type 2 music store | Type 1 store | 
+|---------|-----------------------|--------------------|--------------|
+| Create service task panes<blockquote>[!Note]<br />Windows Media Player 10 has up to three service task panes. Windows Media Player 11 has only one.</blockquote><br /> | Yes | Yes | Yes | 
+| Change the appearance of the store by changing attributes like button color, taskbar color, and button text. | Yes | Yes | Yes | 
+| Add logo images to the Windows Media Player online store menu and taskbar. | Yes | Yes | Yes | 
+| Navigate from HTMLView to the online store. | Yes | Yes | Yes | 
+| Handle Windows Media Player requests to purchase a CD or DVD. | No | Yes | Yes | 
+| Handle Windows Media Player requests to provide rich album information. | No | Yes | Yes | 
+| Provide the Info Center View webpage. | No | Yes | Yes | 
+| Customize Windows Media Player setup to specify an initial online store. | No | Yes | Yes | 
+| Provide a plug-in that implements <a href="/previous-versions/windows/desktop/api/subscriptionservices/nn-subscriptionservices-iwmpsubscriptionservice"><strong>IWMPSubscriptionService</strong></a>.<blockquote>[!Note]<br />In Windows Media Player 10 and later, this plug-in can also implement <a href="/previous-versions/windows/desktop/api/subscriptionservices/nn-subscriptionservices-iwmpsubscriptionservice2"><strong>IWMPSubscriptionService2</strong></a>.</blockquote><br /> | No | Yes | No | 
+| Provide a music catalog that is downloaded by Windows Media Player | No | No | Yes | 
+| Provide customized webpages and context menus based on the user's navigation throughout the Player's user interface. | No | No | Yes | 
+| Provide a plug-in that implements <a href="/previous-versions/windows/desktop/api/contentpartner/nn-contentpartner-iwmpcontentpartner"><strong>IWMPContentPartner</strong></a>. | No | No | Yes | 
+
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: Date and Time Picker Notifications
-description: .
+description: Date and Time Picker Notifications
 ms.assetid: 2b3eaf5b-11f7-4e95-8d8d-1808d447da81
 ms.topic: article
 ms.date: 05/31/2018

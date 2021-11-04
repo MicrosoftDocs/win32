@@ -13,15 +13,6 @@ api_type:
 api_location: 
 - Shell32.dll
 ms.assetid: b62e6e82-429a-4d41-96d4-cba639b611f5
-api_name: 
- - ShellUIHelper.AddChannel
-api_type: 
- - COM
-api_location: 
- - Shell32.dll
-topic_type: 
- - APIRef
- - kbSyntax
 
 ---
 

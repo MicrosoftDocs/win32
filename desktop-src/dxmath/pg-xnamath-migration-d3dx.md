@@ -42,61 +42,19 @@ When working with Direct3D 10.x or Direct3D 11, you will typically use DirectXMa
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>D3DXMath Type</th>
-<th>DirectXMath Equivalent</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>D3DXFLOAT16</td>
-<td><a href="half-data-type.md"><strong>HALF</strong></a></td>
-</tr>
-<tr class="even">
-<td>D3DXMATRIX</td>
-<td><a href="/windows/desktop/api/directxmath/ns-directxmath-xmfloat4x4"><strong>XMFLOAT4X4</strong></a></td>
-</tr>
-<tr class="odd">
-<td>D3DXMATRIXA16</td>
-<td><a href="/windows/desktop/api/directxmath/ns-directxmath-xmmatrix"><strong>XMMATRIX</strong></a> or <a href="/previous-versions/windows/desktop/legacy/ee419623(v=vs.85)"><strong>XMFLOAT4X4A</strong></a></td>
-</tr>
-<tr class="even">
-<td>D3DXQUATERNION<br/> D3DXPLANE<br/> D3DXCOLOR<br/></td>
-<td><a href="xmvector-data-type.md"><strong>XMVECTOR</strong></a> is used rather than having unique types, so you will likely need to use an <a href="/windows/desktop/api/directxmath/ns-directxmath-xmfloat4"><strong>XMFLOAT4</strong></a>
-<blockquote>
-[!Note]<br />
-[<strong>D3DXQUATERNION::operator *</strong>](../direct3d9/d3dxquaternion-extensions.md) calls the <a href="/windows/desktop/direct3d9/d3dxquaternionmultiply"><strong>D3DXQuaternionMultiply</strong></a> function, which multiplies two quaternions. But, unless you explicitly use the <a href="/windows/desktop/api/directxmath/nf-directxmath-xmquaternionmultiply"><strong>XMQuaternionMultiply</strong></a> function, you get an incorrect answer when you use <a href="xmvector-operator-mul.md"><strong>XMVECTOR::operator *</strong></a> on a quaternion.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="odd">
-<td>D3DXVECTOR2</td>
-<td><a href="/windows/desktop/api/directxmath/ns-directxmath-xmfloat2"><strong>XMFLOAT2</strong></a></td>
-</tr>
-<tr class="even">
-<td>D3DXVECTOR2_16F</td>
-<td><a href="/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmhalf2"><strong>XMHALF2</strong></a></td>
-</tr>
-<tr class="odd">
-<td>D3DXVECTOR3</td>
-<td><a href="/windows/desktop/api/directxmath/ns-directxmath-xmfloat3"><strong>XMFLOAT3</strong></a></td>
-</tr>
-<tr class="even">
-<td>D3DXVECTOR4</td>
-<td><a href="/windows/desktop/api/directxmath/ns-directxmath-xmfloat4"><strong>XMFLOAT4</strong></a>(or if you can guarantee the data is 16-byte aligned, <a href="xmvector-data-type.md"><strong>XMVECTOR</strong></a> or <a href="/previous-versions/windows/desktop/legacy/ee419609(v=vs.85)"><strong>XMFLOAT4A</strong></a> )<br/></td>
-</tr>
-<tr class="odd">
-<td>D3DXVECTOR4_16F</td>
-<td><a href="/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmhalf4"><strong>XMHALF4</strong></a></td>
-</tr>
-</tbody>
-</table>
+
+| D3DXMath Type | DirectXMath Equivalent | 
+|---------------|------------------------|
+| D3DXFLOAT16 | <a href="half-data-type.md"><strong>HALF</strong></a> | 
+| D3DXMATRIX | <a href="/windows/desktop/api/directxmath/ns-directxmath-xmfloat4x4"><strong>XMFLOAT4X4</strong></a> | 
+| D3DXMATRIXA16 | <a href="/windows/desktop/api/directxmath/ns-directxmath-xmmatrix"><strong>XMMATRIX</strong></a> or <a href="/previous-versions/windows/desktop/legacy/ee419623(v=vs.85)"><strong>XMFLOAT4X4A</strong></a> | 
+| D3DXQUATERNION<br /> D3DXPLANE<br /> D3DXCOLOR<br /> | <a href="xmvector-data-type.md"><strong>XMVECTOR</strong></a> is used rather than having unique types, so you will likely need to use an <a href="/windows/desktop/api/directxmath/ns-directxmath-xmfloat4"><strong>XMFLOAT4</strong></a><blockquote>[!Note]<br />[<strong>D3DXQUATERNION::operator *</strong>](../direct3d9/d3dxquaternion-extensions.md) calls the <a href="/windows/desktop/direct3d9/d3dxquaternionmultiply"><strong>D3DXQuaternionMultiply</strong></a> function, which multiplies two quaternions. But, unless you explicitly use the <a href="/windows/desktop/api/directxmath/nf-directxmath-xmquaternionmultiply"><strong>XMQuaternionMultiply</strong></a> function, you get an incorrect answer when you use <a href="xmvector-operator-mul.md"><strong>XMVECTOR::operator *</strong></a> on a quaternion.</blockquote><br /> | 
+| D3DXVECTOR2 | <a href="/windows/desktop/api/directxmath/ns-directxmath-xmfloat2"><strong>XMFLOAT2</strong></a> | 
+| D3DXVECTOR2_16F | <a href="/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmhalf2"><strong>XMHALF2</strong></a> | 
+| D3DXVECTOR3 | <a href="/windows/desktop/api/directxmath/ns-directxmath-xmfloat3"><strong>XMFLOAT3</strong></a> | 
+| D3DXVECTOR4 | <a href="/windows/desktop/api/directxmath/ns-directxmath-xmfloat4"><strong>XMFLOAT4</strong></a>(or if you can guarantee the data is 16-byte aligned, <a href="xmvector-data-type.md"><strong>XMVECTOR</strong></a> or <a href="/previous-versions/windows/desktop/legacy/ee419609(v=vs.85)"><strong>XMFLOAT4A</strong></a> )<br /> | 
+| D3DXVECTOR4_16F | <a href="/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmhalf4"><strong>XMHALF4</strong></a> | 
+
 
 
 
@@ -268,7 +226,7 @@ When working with Direct3D 10.x or Direct3D 11, you will typically use DirectXMa
  
 
 > [!Note]  
-> [Spherical Harmonics](https://github.com/Microsoft/DirectXMath/tree/master/SHMath) functions for DirectXMath are available separately. There is no DirectXMath equivalent to **ID3DXMatrixStack**.
+> [Spherical Harmonics](https://github.com/Microsoft/DirectXMath/tree/master/SHMath) functions for DirectXMath are available separately. A DirectXMath equivalent to [ID3DXMatrixStack](https://github.com/microsoft/DirectXMath/blob/master/MatrixStack/DirectXMatrixStack.h) is also available.
 
  
 

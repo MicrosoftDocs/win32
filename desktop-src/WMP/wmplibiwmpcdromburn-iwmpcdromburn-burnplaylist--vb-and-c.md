@@ -50,7 +50,7 @@ The **WMPLib.IWMPPlaylist** interface of the playlist to burn.
 
 
 
-|                      |                                                                                                                        |
+| Requirement | Value |
 |----------------------|------------------------------------------------------------------------------------------------------------------------|
 | Version<br/>   | Windows Media Player 11<br/>                                                                                     |
 | Namespace<br/> | **WMPLib**<br/>                                                                                                  |

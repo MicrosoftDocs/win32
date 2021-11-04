@@ -143,8 +143,9 @@ interface IUPnPService_scpd : IUnknown
 };
 ```
 
-> [!Note]The return value is the first \[out\] parameter in the list of arguments in the service description; however, it is listed as the last parameter after translation.
->
+> [!Note]
+> The return value is the first \[out\] parameter in the list of arguments in the service description; however, it is listed as the last parameter after translation.
+> 
 > All other parameters remain in the same order.
 
  

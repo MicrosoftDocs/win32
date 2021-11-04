@@ -48,7 +48,7 @@ You can use the following template for the Button section of your skin definitio
 
 
 
-Again, note that these should be typed as single lines, the first starting with "// <Function>" and ending with "&lt;Push 2 Image Src&gt;". The second line starts with "// ----------" and ends with "------------------."
+Again, note that these should be typed as single lines, the first starting with "// &lt;Function&gt;" and ending with "&lt;Push 2 Image Src&gt;". The second line starts with "// ----------" and ends with "------------------."
 
 Button information for each line in the Button section must appear in the following order. Only the first six parts of the line are required. Secondary images are not included unless they are needed.
 

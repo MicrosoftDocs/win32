@@ -1,5 +1,5 @@
 ---
-description: Constructor method.
+description: CBaseList.CBaseList constructor - Constructor method.
 ms.assetid: 2982f53a-c222-4a9d-812a-42897ca4cb5c
 title: CBaseList.CBaseList constructor (Wxlist.h)
 ms.topic: reference
@@ -52,7 +52,7 @@ For efficiency, the `CBaseList` class maintains a cache of list nodes. This vers
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Wxlist.h (include Streams.h)</dt> </dl>                                                                                    |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

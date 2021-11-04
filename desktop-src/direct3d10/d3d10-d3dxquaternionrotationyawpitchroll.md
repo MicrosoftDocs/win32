@@ -1,5 +1,5 @@
 ---
-description: Builds a quaternion with the given yaw, pitch, and roll.
+description: D3DXQuaternionRotationYawPitchRoll function (D3DX10Math.h) - Builds a quaternion with the given yaw, pitch, and roll.
 ms.assetid: c929d9d4-b9cb-4de6-86c1-26fec3617846
 title: D3DXQuaternionRotationYawPitchRoll function (D3DX10Math.h)
 ms.topic: reference
@@ -90,7 +90,7 @@ Use [**D3DXQuaternionNormalize**](d3d10-d3dxquaternionnormalize.md) for any quat
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10Math.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl>   |

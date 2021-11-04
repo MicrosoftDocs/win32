@@ -47,7 +47,7 @@ This parameter is not used and must be zero.
 
 ## Return value
 
-This message does not return a value.
+Returns nonzero value on success, else zero.
 
 ## Remarks
 

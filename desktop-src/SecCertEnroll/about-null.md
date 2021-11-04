@@ -1,7 +1,7 @@
 ---
 description: The NULL value is encoded into a TLV triplet that begins with a Tag value of 0x05, a Length of 0x00, and no Value byte as shown by the following illustration.
 ms.assetid: f712f84a-c4d3-41bb-b151-62b0f86046af
-title: 
+title: 'NULL'
 ms.topic: article
 ms.date: 05/31/2018
 ---

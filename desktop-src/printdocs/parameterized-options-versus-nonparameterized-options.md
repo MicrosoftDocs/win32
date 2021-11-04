@@ -1,5 +1,5 @@
 ---
-description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: Learn how PrintTicket and PrintCapabilities handle parameterized and non-parameterized options.
 ms.assetid: 92438df1-afde-4038-853e-9b98f7e589ea
 title: Parameterized Options versus Nonparameterized Options
 ms.topic: article
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Parameterized Options versus Nonparameterized Options
 
-This topic is not current. For the most current information, see the [Print Schema Specification](https://www.microsoft.com/whdc/xps/printschema.mspx).
+This topic is not current. For the most current information, see the [Print Schema Specification](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip).
 
 PrintCapabilities and PrintTicket providers must correctly handle parameterized Option instances during the PrintTicket validation process. As discussed in [Option Definitions](option-definitions.md), one step performed in PrintTicket validation is to find the Option in the current device's PrintCapabilities document (the candidate Option) that best matches the Option specified in the PrintTicket (the reference Option). When one or both of the Option instances is parameterized, there are three possible cases that must be handled by the device driver defined scoring process: the case where both Option instances are parameterized, and the two cases where one Option is parameterized and the other is not. In the following cases it is assumed that there is a correspondence between the parameterized ScoredProperty instances in the PrintTicket Option and a particular ScoredProperty in the PrintCapabilities Option. If there is no correspondence, the scoring process can treat these ScoredProperty instances in the same way that it treats any other noncorresponding ScoredProperty instances.
 
@@ -32,7 +32,7 @@ It should be emphasized that you make the determination of how closely two Optio
 
 <dl> <dt>
 
-[Print Schema Specification](https://www.microsoft.com/whdc/xps/printschema.mspx)
+[Print Schema Specification](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip)
 </dt> </dl>
 
  

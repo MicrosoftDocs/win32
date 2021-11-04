@@ -34,7 +34,7 @@ The **backgroundEndColor** is used in conjunction with a **backgroundColor**. Th
 
 
 
-|                    |                                                      |
+| Requirement | Value |
 |--------------------|------------------------------------------------------|
 | Version<br/> | Windows Media Player version 7.0 or later<br/> |
 

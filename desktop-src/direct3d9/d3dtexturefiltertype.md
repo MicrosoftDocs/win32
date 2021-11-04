@@ -88,11 +88,9 @@ A 4-sample Gaussian filter used as a texture magnification or minification filte
 
 Convolution filter for monochrome textures. See [D3DFMT\_A1](d3dformat.md).
 
+Differences between Direct3D 9 and Direct3D 9Ex:
 
-
-|                                                                                                                     |
-|---------------------------------------------------------------------------------------------------------------------|
-| Differences between Direct3D 9 and Direct3D 9Ex:<br/> This flag is available in Direct3D 9Ex only.<br/> |
+- This flag is available in Direct3D 9Ex only.
 
 
 
@@ -127,7 +125,7 @@ Not all valid filtering modes for a device will apply to volume maps. In general
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3D9Types.h</dt> </dl> |
 

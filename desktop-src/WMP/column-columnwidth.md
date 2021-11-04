@@ -34,7 +34,7 @@ The **columnResizeMode** property must be set to "fixed" for this property to wo
 
 
 
-|                    |                                                   |
+| Requirement | Value |
 |--------------------|---------------------------------------------------|
 | Version<br/> | Windows Media Player 9 Series or later<br/> |
 

@@ -1,5 +1,5 @@
 ---
-Description: The GetMediaLength method retrieves the media length of this source object.
+description: The GetMediaLength method retrieves the media length of this source object.
 ms.assetid: 70298d8f-67e7-4774-a7ae-f0b48e4afda7
 title: IAMTimelineSrc::GetMediaLength method (Qedit.h)
 ms.topic: reference
@@ -79,7 +79,7 @@ Returns one of the following **HRESULT** values:
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

@@ -1,5 +1,5 @@
 ---
-title: StopService method of the Win32_Service class (Sdoias.h)
+title: StopService method of the Win32_Service class (Sdoias.h) (Terminal Service)
 description: Places the service, represented by the Win32\_TerminalService object, in the stopped state.
 ms.assetid: 228711DC-369B-48B6-96EE-DF4026904E26
 ms.tgt_platform: multiple
@@ -19,7 +19,7 @@ ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# StopService method of the Win32_Service class (Sdoias.h)
+# StopService method of the Win32_Service class (Sdoias.h) for the Terminal service
 
 The **StopService** [WMI class](/windows/desktop/WmiSdk/retrieving-a-class) method places the service, represented by the [**Win32\_TerminalService**](win32-terminalservice.md) object, in the stopped state.
 

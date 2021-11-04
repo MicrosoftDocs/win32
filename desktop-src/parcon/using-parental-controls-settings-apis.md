@@ -88,17 +88,17 @@ This feature is not supported on Windows 8.
 
 **Windows 7 and Windows Vista:** This feature is supported.
 
-<WebAddresses>
+&lt;WebAddresses&gt;
 
-<URL AllowBlock="1">https://alloweddomain.com/</URL>
+<URL AllowBlock="1">https://alloweddomain.com/&lt;/URL&gt;
 
-<URL AllowBlock="1">https://allowedurl.com/allowed/default.html</URL>
+<URL AllowBlock="1">https://allowedurl.com/allowed/default.html&lt;/URL&gt;
 
-<URL AllowBlock="2">https://blockeddomain.com/</URL>
+<URL AllowBlock="2">https://blockeddomain.com/&lt;/URL&gt;
 
-<URL AllowBlock="2">https://blockedurl.com/blocked/default.html</URL>
+<URL AllowBlock="2">https://blockedurl.com/blocked/default.html&lt;/URL&gt;
 
-</WebAddresses>
+&lt;/WebAddresses&gt;
 
 ## Application Restrictions Override Notes
 

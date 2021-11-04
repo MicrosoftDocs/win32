@@ -111,9 +111,9 @@ A GetResponse message has the following focus points.
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -125,23 +125,23 @@ A GetResponse message has the following focus points.
 <tbody>
 <tr class="odd">
 <td>GetResponse</td>
-<td><pre class="syntax" data-space="preserve"><code><wsa:Action>
+<td><pre class="syntax" data-space="preserve"><code>&lt;wsa:Action&gt;
     https://schemas.xmlsoap.org/ws/2004/09/transfer/GetResponse
-</wsa:Action></code></pre></td>
+&lt;/wsa:Action&gt;</code></pre></td>
 <td>The GetResponse SOAP action identifies the message as a GetResponse message.</td>
 </tr>
 <tr class="even">
 <td>RelatesTo</td>
-<td><pre class="syntax" data-space="preserve"><code><wsa:RelatesTo>
+<td><pre class="syntax" data-space="preserve"><code>&lt;wsa:RelatesTo&gt;
     urn:uuid:027bec45-c37c-466c-936c-68f648abe2bb
-</wsa:RelatesTo></code></pre></td>
+&lt;/wsa:RelatesTo&gt;</code></pre></td>
 <td>The identifier of the message to which the device is responding. This header matches the MessageID in the <a href="get--metadata-exchange--http-request-and-message.md">Get</a> message.</td>
 </tr>
 <tr class="odd">
 <td>Address</td>
-<td><pre class="syntax" data-space="preserve"><code><wsa:Address>
+<td><pre class="syntax" data-space="preserve"><code>&lt;wsa:Address&gt;
     https://192.168.0.2:5357/37f86d35-e6ac-4241-964f-1d9ae46fb366
-</wsa:Address></code></pre></td>
+&lt;/wsa:Address&gt;</code></pre></td>
 <td>Contains the endpoint address of the services hosted on this device.</td>
 </tr>
 </tbody>

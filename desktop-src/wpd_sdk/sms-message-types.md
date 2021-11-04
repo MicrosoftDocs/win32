@@ -57,7 +57,7 @@ This enumeration is used by the [**WPD\_COMMAND\_SMS\_SEND Command**](wpd-comman
 
 
 
-|                   |                                                                                             |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>PortableDevice.h</dt> </dl> |
 

@@ -1,5 +1,5 @@
 ---
-description: In Windows Vista and later, metadata became central as a method of organizing items such as files, e-mail, or contacts.
+description: Learn how to create a property handler that reads and writes properties to and from a file stream. Each handlers is associated with a given file type.
 ms.assetid: 9dacd399-2cf3-40dd-9501-f26f0281500d
 title: Implementing Property Handlers
 ms.topic: article
@@ -17,7 +17,7 @@ The following topics discuss the requirements and strategies involved in definin
 -   [Using Property Lists](./building-property-handlers-property-lists.md)
 -   [Initializing Property Handlers](./building-property-handlers-property-handlers.md)
 -   [Registering and Distributing Property Handlers](./prophand-reg-dist.md)
--   [Property Handler Best Practices and FAQ](./prophand-bestprac-faq.md)
+-   [Property Handler Best Practices and FAQ](./prophand-bestprac-faq.yml)
 
 ## Related topics
 

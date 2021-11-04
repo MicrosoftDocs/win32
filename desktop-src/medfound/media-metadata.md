@@ -1,5 +1,5 @@
 ---
-Description: Media Metadata
+description: Media Metadata
 ms.assetid: dd7c4bc9-e2a6-49cd-8f29-865a44d5b5c9
 title: Media Metadata
 ms.topic: article
@@ -25,49 +25,16 @@ The following table compares the features and limitations of each metadata API.
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Media Foundation v1 Metadata</th>
-<th>Shell Metadata</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Requires Windows Vista or later.</td>
-<td>Requires Windows 7.
-<blockquote>
-[!Note]<br />
-Shell metadata in general does not require Windows 7, but Media Foundation did not support Shell metadata prior to Windows 7.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td>Properties are not compatible with Shell property system.</td>
-<td>Properties are compatible with the Shell property system.</td>
-</tr>
-<tr class="odd">
-<td>Properties can apply to the entire file, or at the stream level.</td>
-<td>Only file-level properties are supported. Stream-level properties are not supported.</td>
-</tr>
-<tr class="even">
-<td>Properties can have values in multiple languages.</td>
-<td>Values in multiple languages are not supported.</td>
-</tr>
-<tr class="odd">
-<td>Property keys are wide-character strings.</td>
-<td>Property keys are <a href="/windows/desktop/api/wtypes/ns-wtypes-propertykey"><strong>PROPERTYKEY</strong></a> values.</td>
-</tr>
-<tr class="even">
-<td>Property values are <a href="/windows/win32/api/propidl/ns-propidl-propvariant"><strong>PROPVARIANT</strong></a> values.</td>
-<td>Property values are <a href="/windows/win32/api/propidl/ns-propidl-propvariant"><strong>PROPVARIANT</strong></a> values.</td>
-</tr>
-</tbody>
-</table>
+
+| Media Foundation v1 Metadata | Shell Metadata | 
+|------------------------------|----------------|
+| Requires Windows Vista or later. | Requires Windows 7.<blockquote>[!Note]<br />Shell metadata in general does not require Windows 7, but Media Foundation did not support Shell metadata prior to Windows 7.</blockquote><br /> | 
+| Properties are not compatible with Shell property system. | Properties are compatible with the Shell property system. | 
+| Properties can apply to the entire file, or at the stream level. | Only file-level properties are supported. Stream-level properties are not supported. | 
+| Properties can have values in multiple languages. | Values in multiple languages are not supported. | 
+| Property keys are wide-character strings. | Property keys are <a href="/windows/desktop/api/wtypes/ns-wtypes-propertykey"><strong>PROPERTYKEY</strong></a> values. | 
+| Property values are <a href="/windows/win32/api/propidl/ns-propidl-propvariant"><strong>PROPVARIANT</strong></a> values. | Property values are <a href="/windows/win32/api/propidl/ns-propidl-propvariant"><strong>PROPVARIANT</strong></a> values. | 
+
 
 
 

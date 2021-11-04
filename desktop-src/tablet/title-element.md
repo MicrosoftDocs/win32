@@ -28,57 +28,13 @@ Contains title information about the Journal note.
 
 
 
-<table>
-<colgroup>
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Attribute</th>
-<th>Type</th>
-<th>Required</th>
-<th>Description</th>
-<th>Possible Values</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>Style</strong></td>
-<td><strong>xs:string</strong></td>
-<td>Required</td>
-<td>Specifies the type of border surrounding the title of the note.</td>
-<td><ul>
-<li>None</li>
-<li>SolidSquare</li>
-<li>OutlineSquare</li>
-<li>SolidRoundRect</li>
-<li>OutlineRoundRect</li>
-<li>SolidRoundRectDottedBaseline</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td><strong>DateStyle</strong></td>
-<td><strong>xs:string</strong></td>
-<td>Required</td>
-<td>Defines whether the title includes a date or not.</td>
-<td><ul>
-<li>None</li>
-<li>Short</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td><strong>Color</strong></td>
-<td><a href="colortype-simple-type.md"><strong>ColorType simpleType</strong></a></td>
-<td>Optional</td>
-<td>Specifies the color of the background.</td>
-<td>See <a href="colortype-simple-type.md"><strong>ColorType simpleType</strong></a>.</td>
-</tr>
-</tbody>
-</table>
+
+| Attribute | Type | Required | Description | Possible Values | 
+|-----------|------|----------|-------------|-----------------|
+| <strong>Style</strong> | <strong>xs:string</strong> | Required | Specifies the type of border surrounding the title of the note. | <ul><li>None</li><li>SolidSquare</li><li>OutlineSquare</li><li>SolidRoundRect</li><li>OutlineRoundRect</li><li>SolidRoundRectDottedBaseline</li></ul> | 
+| <strong>DateStyle</strong> | <strong>xs:string</strong> | Required | Defines whether the title includes a date or not. | <ul><li>None</li><li>Short</li></ul> | 
+| <strong>Color</strong> | <a href="colortype-simple-type.md"><strong>ColorType simpleType</strong></a> | Optional | Specifies the color of the background. | See <a href="colortype-simple-type.md"><strong>ColorType simpleType</strong></a>. | 
+
 
 
 
@@ -88,7 +44,7 @@ Contains title information about the Journal note.
 
 
 
-|              |                                                         |
+| Element      | Value                                                   |
 |--------------|---------------------------------------------------------|
 | Element type | [**TitleType**](titletype-complex-type.md) complexType |
 | Namespace    | urn:schemas-microsoft-com:tabletpc:richink              |

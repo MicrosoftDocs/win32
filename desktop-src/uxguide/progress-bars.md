@@ -9,7 +9,7 @@ ms.date: 10/20/2020
 # Progress Bars
 
 > [!NOTE]
-> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](https://docs.microsoft.com/windows/uwp/design/).
+> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](/windows/uwp/design/).
 
 With a progress bar, users can follow the progress of a lengthy operation. A progress bar may either show an approximate percentage of completion (determinate), or indicate that an operation is ongoing (indeterminate).
 
@@ -64,39 +64,15 @@ Progress bars have several usage patterns:
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><strong>Modal determinate progress bars</strong><br/> Indicate an operation's progress by filling from left to right and filling completely when the operation is complete. <br/></td>
-<td>Because this feedback is <a href="glossary.md">modal</a>, users cannot perform other tasks in the window (or its parent if displayed in a modal dialog box) until the operation is complete. <br/> <img src="images/progress-bars-image3.png" alt="Screen shot of progress bar in modal window " /><br/> In this example, the progress bar gives feedback during configuration. <br/></td>
-</tr>
-<tr class="even">
-<td><strong>Modal determinate progress bars with a Cancel or Stop button</strong><br/> Allow users to halt the operation, perhaps because the operation is taking too long or isn't worth the wait.<br/></td>
-<td><img src="images/progress-bars-image4.png" alt="Screen shot of progress bar with Stop button " /><br/> In this example, users can click Stop to halt the operation and leave the environment in its current state.<br/></td>
-</tr>
-<tr class="odd">
-<td><strong>Modal determinate progress bars with a Cancel or Stop button and animation</strong><br/> Allow users to halt the operation, and include an animation to help users visualize the effect of an operation.<br/></td>
-<td><img src="images/progress-bars-image5.png" alt="Screen shot of progress bar with animation " /><br/> In this example, users can click Stop to halt the operation and leave the environment in its current state.<br/></td>
-</tr>
-<tr class="even">
-<td><strong>Modal determinate double progress bars</strong><br/> Indicate the progress of a multi-step operation by showing the progress of the current step in the first progress bar, and the overall progress in the second bar.<br/></td>
-<td>Because the first progress bar provides little additional information and can be quite distracting, this pattern is not recommended. Instead, have all the steps in the operation share a portion of the progress and have a single progress bar go to completion once. <br/> <img src="images/progress-bars-image6.png" alt="Screen shot of current and overall progress bars " /><br/> In this example, the first progress bar shows the progress of the current step and the second progress bar shows the overall progress.<br/>
-<blockquote>
-[!Note]<br />
-This pattern is usually unnecessary and should be avoided.
-</blockquote>
-<br/> <br/></td>
-</tr>
-<tr class="odd">
-<td><strong>Modeless determinate progress bars</strong><br/> Indicate an operation's progress by filling from left to right and filling completely when the operation is complete.<br/></td>
-<td>Unlike with modal progress bars, users can perform other tasks while the operation is in progress. These progress bars can be displayed in context or on a status bar. <br/> <img src="images/progress-bars-image7.png" alt="Screen shot of progress bar on status bar " /><br/> In this example, Windows Internet ExplorerWindows Internet Explorer displays its progress for loading a Web page on the status bar. Users can perform other tasks while the page is loading.<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Label | Value |
+|--------|-------|
+| <strong>Modal determinate progress bars</strong><br /> Indicate an operation's progress by filling from left to right and filling completely when the operation is complete. <br /> | Because this feedback is <a href="glossary.md">modal</a>, users cannot perform other tasks in the window (or its parent if displayed in a modal dialog box) until the operation is complete. <br /><img src="images/progress-bars-image3.png" alt="Screen shot of progress bar in modal window " /><br /> In this example, the progress bar gives feedback during configuration. <br /> | 
+| <strong>Modal determinate progress bars with a Cancel or Stop button</strong><br /> Allow users to halt the operation, perhaps because the operation is taking too long or isn't worth the wait.<br /> | <img src="images/progress-bars-image4.png" alt="Screen shot of progress bar with Stop button " /><br /> In this example, users can click Stop to halt the operation and leave the environment in its current state.<br /> | 
+| <strong>Modal determinate progress bars with a Cancel or Stop button and animation</strong><br /> Allow users to halt the operation, and include an animation to help users visualize the effect of an operation.<br /> | <img src="images/progress-bars-image5.png" alt="Screen shot of progress bar with animation " /><br /> In this example, users can click Stop to halt the operation and leave the environment in its current state.<br /> | 
+| <strong>Modal determinate double progress bars</strong><br /> Indicate the progress of a multi-step operation by showing the progress of the current step in the first progress bar, and the overall progress in the second bar.<br /> | Because the first progress bar provides little additional information and can be quite distracting, this pattern is not recommended. Instead, have all the steps in the operation share a portion of the progress and have a single progress bar go to completion once. <br /><img src="images/progress-bars-image6.png" alt="Screen shot of current and overall progress bars " /><br /> In this example, the first progress bar shows the progress of the current step and the second progress bar shows the overall progress.<br /><blockquote>[!Note]<br />This pattern is usually unnecessary and should be avoided.</blockquote><br /><br /> | 
+| <strong>Modeless determinate progress bars</strong><br /> Indicate an operation's progress by filling from left to right and filling completely when the operation is complete.<br /> | Unlike with modal progress bars, users can perform other tasks while the operation is in progress. These progress bars can be displayed in context or on a status bar. <br /><img src="images/progress-bars-image7.png" alt="Screen shot of progress bar on status bar " /><br /> In this example, Windows Internet ExplorerWindows Internet Explorer displays its progress for loading a Web page on the status bar. Users can perform other tasks while the page is loading.<br /> | 
+
 
 
 
@@ -106,7 +82,7 @@ This pattern is usually unnecessary and should be avoided.
 
 
 
-|                                                                                                                                                                                         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+|   Progress Bar Type  | Description             |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Modal indeterminate progress bars**<br/> indicate an operation is in progress by showing an animation that continuously cycles across the bar from left to right. <br/>   | Used only for operations whose overall progress cannot be determined, so there is no notion of completeness. determinate progress bars are preferable because they indicate the approximate percentage of the operation that has been completed, and help users determine if the operation is worth continuing to wait. they are also less visually distracting. <br/> ![screen shot of modal, indeterminate progress bar](images/progress-bars-image8.png)<br/> In this example, Windows Update uses a modal indeterminate progress bar to indicate progress while it looks for updates.<br/> |
 | **Modeless indeterminate progress bars**<br/> indicate an operation is in progress by showing an animation that continuously cycles across the bar from left to right.<br/> | Unlike modal progress bars, users can perform other tasks while the processing is in progress. these progress bars can be displayed in context or on a status bar. <br/> ![screen shot of thin progress bar in outlook window ](images/progress-bars-image9.png)<br/> In this example, Microsoft Outlook uses a modeless indeterminate progress bar while filling in contact properties. Users can continue to use the property window while this work is in progress.<br/>                                                                                                                    |
@@ -119,7 +95,7 @@ This pattern is usually unnecessary and should be avoided.
 
 
 
-|                                                                                          |                                                                                                                                                                                                                                                                                                                                                                    |
+|   Type                                                                                       |   Description                                                                                                                                                                                                                                                                                                                                                                 |
 |------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Meters**<br/> indicate a percentage that is not related to progress. <br/> | This pattern isn't a progress bar, but it is implemented using the progress bar control. meters have a distinct look to differentiate them from true progress bars. <br/> ![screen shot of meter showing free disk space ](images/progress-bars-image10.png)<br/> In this example, the meter shows the percentage of disk drive space used.<br/> |
 
@@ -395,10 +371,4 @@ Recommended sizing and spacing for progress bars.
 -   If the progress bar is displayed in a modeless dialog box, optimize the title for display on the taskbar by concisely placing the distinguishing information first. Example: "66% Complete."
 
  
-
- 
-
-
-
-
 

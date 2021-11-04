@@ -27,7 +27,7 @@ This topic lists the FillClosedCurve methods of the [**Graphics**](/windows/win3
 
 
 
-|                   |                                                                                              |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Gdiplusgraphics.h</dt> </dl> |
 

@@ -1,6 +1,6 @@
 ---
 title: Using Video Codec Private Data (Windows Media Format 11 SDK)
-description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs.
+description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs. | Using Video Codec Private Data (Windows Media Format 11 SDK)
 ms.assetid: 75dda656-8f5e-4677-9a9b-a80b34aea507
 keywords:
 - Using Video Codec Private Data windows Media Format

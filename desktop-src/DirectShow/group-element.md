@@ -23,7 +23,7 @@ The **group** element defines a group, the top-level object in a timeline.
 
 
 
-|          |                                                                                                          |
+| Label | Value |
 |----------|----------------------------------------------------------------------------------------------------------|
 | Parent   | [**timeline**](timeline-element.md)                                                                     |
 | Children | [**composite**](composite-element.md), [**effect**](effect-element.md), [**track**](track-element.md) |

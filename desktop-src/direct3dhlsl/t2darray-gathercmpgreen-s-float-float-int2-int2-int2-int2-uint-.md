@@ -1,6 +1,6 @@
 ---
 title: Texture2DArray::GatherCmpGreen(S,float,float,int2,int2,int2,int2,uint) function
-description: Samples a texture, tests the samples against a compare value, and returns the green component along with status about the operation.
+description: For four texel values that would be used in a bi-linear filtering operation, returns a comparison of their green component against a compare value along with tile-mapping status. | Texture2DArray::GatherCmpGreen(S,float,float,int2,int2,int2,int2,uint) function
 ms.assetid: 53AC1FE7-ECC8-489B-8FEF-5028009BC080
 keywords:
 - GatherCmpGreen function HLSL
@@ -17,7 +17,7 @@ api_location:
 
 # Texture2DArray::GatherCmpGreen(S,float,float,int2,int2,int2,int2,uint) function
 
-Samples a texture, tests the samples against a compare value, and returns the green component along with status about the operation.
+For four texel values that would be used in a bi-linear filtering operation, returns a comparison of their green component against a compare value along with tile-mapping status.
 
 ## Syntax
 

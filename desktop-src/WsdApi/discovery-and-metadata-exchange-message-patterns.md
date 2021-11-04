@@ -12,7 +12,7 @@ Device Profile for Web Services (DPWS) hosts and clients communicate over the ne
 
 The following diagram shows an overview of the expected UDP and HTTP traffic between a DPWS host and client.
 
-![](images/ws-discovery-and-metadata-exchange-message-patterns.png)
+![Diagram showing UDP and HTTP traffic between a DPWS host and client.](images/ws-discovery-and-metadata-exchange-message-patterns.png)
 
 [Hello](hello-message.md), [Bye](bye-message.md), [Probe](probe-message.md), [Resolve](resolve-message.md), and [Get](get--metadata-exchange--http-request-and-message.md) messages are all generated without network solicitation; these messages are used to announce device state or to issue a search request. [ProbeMatches](probematches-message.md), [ResolveMatches](resolvematches-message.md), and [GetResponse](getresponse--metadata-exchange--message.md) messages are generated in response to Probe, Resolve and Get messages.
 

@@ -12,7 +12,7 @@ The DVD Navigator uses this property to inform the decoder that the Navigator is
 
 
 
-|                   |                               |
+| Label | Value |
 |-------------------|-------------------------------|
 | Property Set GUID | AM\_KSPROPSETID\_TSRateChange |
 | Property ID       | AM\_RATE\_CorrectTS           |
@@ -32,7 +32,7 @@ These problems have been corrected in the current version of the DVD Navigator. 
 
 
 
-|                   |                                                                                       |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Dvdmedia.h</dt> </dl> |
 

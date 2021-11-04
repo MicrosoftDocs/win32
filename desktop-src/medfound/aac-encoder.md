@@ -26,56 +26,15 @@ Set the following attributes on the input media type.
 
 
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Attribute</th>
-<th>Description</th>
-<th>Remarks</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="mf-mt-major-type-attribute.md"><strong>MF_MT_MAJOR_TYPE</strong></a></td>
-<td>Major type.</td>
-<td>Must be <strong>MFMediaType_Audio</strong>.</td>
-</tr>
-<tr class="even">
-<td><a href="mf-mt-subtype-attribute.md"><strong>MF_MT_SUBTYPE</strong></a></td>
-<td>Subtype.</td>
-<td>Must be <strong>MFAudioFormat_PCM</strong>.</td>
-</tr>
-<tr class="odd">
-<td><a href="mf-mt-audio-bits-per-sample-attribute.md"><strong>MF_MT_AUDIO_BITS_PER_SAMPLE</strong></a></td>
-<td>Bits per sample.</td>
-<td>Must be 16.</td>
-</tr>
-<tr class="even">
-<td><a href="mf-mt-audio-samples-per-second-attribute.md"><strong>MF_MT_AUDIO_SAMPLES_PER_SECOND</strong></a></td>
-<td>Samples per second.</td>
-<td>The following values are supported:
-<ul>
-<li>44100 (44.1 KHz)</li>
-<li>48000 (48 KHz)</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td><a href="mf-mt-audio-num-channels-attribute.md"><strong>MF_MT_AUDIO_NUM_CHANNELS</strong></a></td>
-<td>Number of channels.</td>
-<td>Must be 1 (mono) or 2 (stereo), or 6 (5.1).
-<blockquote>
-[!Note]<br />
-Support for 6 audio channels was introduced with Windows 10 and is not available for earlier versions of Windows.
-</blockquote>
-<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Attribute | Description | Remarks | 
+|-----------|-------------|---------|
+| <a href="mf-mt-major-type-attribute.md"><strong>MF_MT_MAJOR_TYPE</strong></a> | Major type. | Must be <strong>MFMediaType_Audio</strong>. | 
+| <a href="mf-mt-subtype-attribute.md"><strong>MF_MT_SUBTYPE</strong></a> | Subtype. | Must be <strong>MFAudioFormat_PCM</strong>. | 
+| <a href="mf-mt-audio-bits-per-sample-attribute.md"><strong>MF_MT_AUDIO_BITS_PER_SAMPLE</strong></a> | Bits per sample. | Must be 16. | 
+| <a href="mf-mt-audio-samples-per-second-attribute.md"><strong>MF_MT_AUDIO_SAMPLES_PER_SECOND</strong></a> | Samples per second. | The following values are supported:<ul><li>44100 (44.1 KHz)</li><li>48000 (48 KHz)</li></ul> | 
+| <a href="mf-mt-audio-num-channels-attribute.md"><strong>MF_MT_AUDIO_NUM_CHANNELS</strong></a> | Number of channels. | Must be 1 (mono) or 2 (stereo), or 6 (5.1).<blockquote>[!Note]<br />Support for 6 audio channels was introduced with Windows 10 and is not available for earlier versions of Windows.</blockquote><br /> | 
+
 
 
 
@@ -93,81 +52,18 @@ Set the following attributes on the output media type.
 
 
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Attribute</th>
-<th>Description</th>
-<th>Remarks</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="mf-mt-major-type-attribute.md"><strong>MF_MT_MAJOR_TYPE</strong></a></td>
-<td>Major type.</td>
-<td>Must be <strong>MFMediaType_Audio</strong>.</td>
-</tr>
-<tr class="even">
-<td><a href="mf-mt-subtype-attribute.md"><strong>MF_MT_SUBTYPE</strong></a></td>
-<td>Audio subtype.</td>
-<td>Must be <strong>MFAudioFormat_AAC</strong>.</td>
-</tr>
-<tr class="odd">
-<td><a href="mf-mt-audio-bits-per-sample-attribute.md"><strong>MF_MT_AUDIO_BITS_PER_SAMPLE</strong></a></td>
-<td>Bits per sample.</td>
-<td>Must be 16.</td>
-</tr>
-<tr class="even">
-<td><a href="mf-mt-audio-samples-per-second-attribute.md"><strong>MF_MT_AUDIO_SAMPLES_PER_SECOND</strong></a></td>
-<td>Samples per second.</td>
-<td>Must match the input type.</td>
-</tr>
-<tr class="odd">
-<td><a href="mf-mt-audio-num-channels-attribute.md"><strong>MF_MT_AUDIO_NUM_CHANNELS</strong></a></td>
-<td>Number of channels.</td>
-<td>Must match the input type.</td>
-</tr>
-<tr class="even">
-<td><a href="mf-mt-audio-avg-bytes-per-second-attribute.md"><strong>MF_MT_AUDIO_AVG_BYTES_PER_SECOND</strong></a></td>
-<td>Bit rate of the encoded AAC stream, in bytes per second.</td>
-<td>The following values are supported:
-<ul>
-<li>12000</li>
-<li>16000</li>
-<li>20000</li>
-<li>24000</li>
-</ul>
-The default value for both mono and stereo is 12000 (96 Kbps).<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="mf-mt-aac-payload-type.md">MF_MT_AAC_PAYLOAD_TYPE</a></td>
-<td>The AAC payload type.</td>
-<td>Optional. If set, the value must be zero, indicating that the stream contains raw_data_block elements only.<br/> Optional. If the attribute is not set, the default value is zero, indicating that the stream contains raw_data_block elements only (raw AAC). <br/> In Windows 7, if this attribute is set, the value must be zero.<br/> Starting in Windows 8, the value can be 0 (raw AAC) or 1 (ADTS AAC). <br/></td>
-</tr>
-<tr class="even">
-<td><a href="mf-mt-aac-audio-profile-level-indication.md">MF_MT_AAC_AUDIO_PROFILE_LEVEL_INDICATION</a></td>
-<td>The AAC audio profile and level.</td>
-<td>Optional. The following values are supported:
-<ul>
-<li>0x29 (default)</li>
-<li>0x2A</li>
-<li>0x2B</li>
-<li>0x2C</li>
-<li>0x2E</li>
-<li>0x2F</li>
-<li>0x30</li>
-<li>0x31</li>
-<li>0x32</li>
-<li>0x33</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| Attribute | Description | Remarks | 
+|-----------|-------------|---------|
+| <a href="mf-mt-major-type-attribute.md"><strong>MF_MT_MAJOR_TYPE</strong></a> | Major type. | Must be <strong>MFMediaType_Audio</strong>. | 
+| <a href="mf-mt-subtype-attribute.md"><strong>MF_MT_SUBTYPE</strong></a> | Audio subtype. | Must be <strong>MFAudioFormat_AAC</strong>. | 
+| <a href="mf-mt-audio-bits-per-sample-attribute.md"><strong>MF_MT_AUDIO_BITS_PER_SAMPLE</strong></a> | Bits per sample. | Must be 16. | 
+| <a href="mf-mt-audio-samples-per-second-attribute.md"><strong>MF_MT_AUDIO_SAMPLES_PER_SECOND</strong></a> | Samples per second. | Must match the input type. | 
+| <a href="mf-mt-audio-num-channels-attribute.md"><strong>MF_MT_AUDIO_NUM_CHANNELS</strong></a> | Number of channels. | Must match the input type. | 
+| <a href="mf-mt-audio-avg-bytes-per-second-attribute.md"><strong>MF_MT_AUDIO_AVG_BYTES_PER_SECOND</strong></a> | Bit rate of the encoded AAC stream, in bytes per second. | The following values are supported:<ul><li>12000</li><li>16000</li><li>20000</li><li>24000</li></ul>The default value for both mono and stereo is 12000 (96 Kbps).<br /> | 
+| <a href="mf-mt-aac-payload-type.md">MF_MT_AAC_PAYLOAD_TYPE</a> | The AAC payload type. | Optional. If set, the value must be zero, indicating that the stream contains raw_data_block elements only.<br /> Optional. If the attribute is not set, the default value is zero, indicating that the stream contains raw_data_block elements only (raw AAC). <br /> In Windows 7, if this attribute is set, the value must be zero.<br /> Starting in Windows 8, the value can be 0 (raw AAC) or 1 (ADTS AAC). <br /> | 
+| <a href="mf-mt-aac-audio-profile-level-indication.md">MF_MT_AAC_AUDIO_PROFILE_LEVEL_INDICATION</a> | The AAC audio profile and level. | Optional. The following values are supported:<ul><li>0x29 (default)</li><li>0x2A</li><li>0x2B</li><li>0x2C</li><li>0x2E</li><li>0x2F</li><li>0x30</li><li>0x31</li><li>0x32</li><li>0x33</li></ul> | 
+
 
 The following table lists the values that can be used for the MF_MT_AAC_PROFILE_LEVEL_INDICATION attribute.
 

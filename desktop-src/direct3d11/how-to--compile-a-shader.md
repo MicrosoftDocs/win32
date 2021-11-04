@@ -37,7 +37,7 @@ You typically use the [fxc.exe](/windows/desktop/direct3dtools/fxc) HLSL code co
 The following code example shows how to compile various shaders.
 
 > [!Note]  
-> For this example code, you need the Windows SDK 8.0 and the d3dcompiler\_44.dll file from the %PROGRAM\_FILE%\\Windows Kits\\8.0\\Redist\\D3D\\<arch> folder in your path. Windows Store apps support run time compilation for development but not for deployment.
+> For this example code, you need the Windows SDK 8.0 and the d3dcompiler\_44.dll file from the %PROGRAM\_FILE%\\Windows Kits\\8.0\\Redist\\D3D\\&lt;arch&gt; folder in your path. Windows Store apps support run time compilation for development but not for deployment.
 
  
 

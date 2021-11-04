@@ -1,5 +1,5 @@
 ---
-description: Sets a BOOL value.
+description: ID3DXBaseEffect::SetBool method - Sets a BOOL value.
 ms.assetid: bb7c4860-50a0-416a-b9e0-5a2bec113e3c
 title: ID3DXBaseEffect::SetBool method (D3DX9Shader.h)
 ms.topic: reference
@@ -64,7 +64,7 @@ If the method succeeds, the return value is D3D\_OK. If the method fails, the re
 
 
 
-|                    |                                                                                          |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Shader.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>     |

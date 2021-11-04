@@ -45,7 +45,7 @@ If no width or height is specified, this attribute is ignored.
 
 
 
-|                    |                                                      |
+| Requirement | Value |
 |--------------------|------------------------------------------------------|
 | Version<br/> | Windows Media Player version 7.0 or later<br/> |
 

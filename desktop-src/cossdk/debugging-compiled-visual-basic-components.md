@@ -41,7 +41,7 @@ Given that in many cases you will be able to debug only a portion of your compon
 
 12. In the **Project Settings** dialog box, on the **Debug** tab, select **General** in the **Category** box.
 
-13. In the **Executable for debug session** box, enter the fully qualified path for Dllhost.exe, followed by an argument specifying the process ID of the COM+ application containing the component. You will find the process ID on the **General** tab of the COM+ application's **Properties** dialog box. Following is an example: C:\\Winnt\\System32\\Dllhost.exe /ProcessID:{<processID>}.
+13. In the **Executable for debug session** box, enter the fully qualified path for Dllhost.exe, followed by an argument specifying the process ID of the COM+ application containing the component. You will find the process ID on the **General** tab of the COM+ application's **Properties** dialog box. Following is an example: C:\\Winnt\\System32\\Dllhost.exe /ProcessID:{&lt;processID&gt;}.
 
 14. Click **OK**.
 

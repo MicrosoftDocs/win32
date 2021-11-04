@@ -1,5 +1,5 @@
 ---
-description: Not supported.
+description: EC_EXTDEVICE_MODE_CHANGE - Not supported.
 ms.assetid: d5f7da6a-f559-4ad3-af1d-3e6a8edb9b9b
 title: EC_EXTDEVICE_MODE_CHANGE (Evcode.h)
 ms.topic: reference
@@ -14,7 +14,7 @@ Not supported.
 
 
 
-|                   |                                                                                     |
+| Requirement | Value |
 |-------------------|-------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Evcode.h</dt> </dl> |
 

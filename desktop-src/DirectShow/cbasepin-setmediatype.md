@@ -1,5 +1,5 @@
 ---
-Description: The SetMediaType method sets the media type for the connection.
+description: CBasePin.SetMediaType method - The SetMediaType method sets the media type for the connection.
 ms.assetid: db32b33b-df71-4f46-b53f-d7e647f5f559
 title: CBasePin.SetMediaType method (Amfilter.h)
 ms.topic: reference
@@ -58,7 +58,7 @@ In the base class, this method sets the [**CBasePin::m\_mt**](cbasepin-m-mt.md) 
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Amfilter.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

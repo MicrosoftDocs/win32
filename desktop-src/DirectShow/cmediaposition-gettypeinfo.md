@@ -1,5 +1,5 @@
 ---
-Description: The GetTypeInfo method retrieves the type information for the object, which can then be used to get the type information for an interface.
+description: CMediaPosition.GetTypeInfo method - The GetTypeInfo method retrieves the type information for the object, which can then be used to get the type information for an interface.
 ms.assetid: 0a04c43d-8b4b-4780-b02f-04053c405c77
 title: CMediaPosition.GetTypeInfo method (Ctlutil.h)
 ms.topic: reference
@@ -80,7 +80,7 @@ Returns an **HRESULT** value. Possible values include the following.
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Ctlutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

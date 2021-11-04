@@ -19,6 +19,13 @@ Adds one or more HTTP request headers to the HTTP request handle.
 
 </dd> <dt>
 
+[**WinHttpAddRequestHeadersEx**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpaddrequestheadersex)
+</dt> <dd>
+
+Adds one or more HTTP request headers to an HTTP request handle, allowing you to use separate name/value strings.
+
+</dd> <dt>
+
 [**WinHttpCheckPlatform**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpcheckplatform)
 </dt> <dd>
 
@@ -72,6 +79,13 @@ Finds the URL for the Proxy Auto-Configuration (PAC) file. This function reports
 </dt> <dd>
 
 Frees the data retrieved from a previous call to [**WinHttpGetProxyResult**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpgetproxyresult).
+
+</dd> <dt>
+
+[**WinHttpFreeQueryConnectionGroupResult**](/windows/win32/api/Winhttp/nf-winhttp-winhttpfreequeryconnectiongroupresult)
+</dt> <dd>
+
+Frees the memory allocated by a previous call to [WinHttpQueryConnectionGroup](/windows/win32/api/Winhttp/nf-winhttp-winhttpqueryconnectiongroup).
 
 </dd> <dt>
 
@@ -131,6 +145,13 @@ Returns the authorization schemes that the server supports.
 
 </dd> <dt>
 
+[**WinHttpQueryConnectionGroup**](/windows/win32/api/Winhttp/nf-winhttp-winhttpqueryconnectiongroup)
+</dt> <dd>
+
+Retrieves a description of the current state of WinHttp's connections.
+
+</dd> <dt>
+
 [**WinHttpQueryDataAvailable**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpquerydataavailable)
 </dt> <dd>
 
@@ -145,6 +166,13 @@ Retrieves header information associated with an HTTP request.
 
 </dd> <dt>
 
+[**WinHttpQueryHeadersEx**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpqueryheadersex)
+</dt> <dd>
+
+Retrieves header information associated with an HTTP request; offers a way to retrieve parsed header name and value strings.
+
+</dd> <dt>
+
 [**WinHttpQueryOption**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpqueryoption)
 </dt> <dd>
 
@@ -153,6 +181,13 @@ Queries an Internet option on the specified handle.
 </dd> <dt>
 
 [**WinHttpReadData**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpreaddata)
+</dt> <dd>
+
+Reads data from a handle opened by the [**WinHttpOpenRequest**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpopenrequest) function.
+
+</dd> <dt>
+
+[**WinHttpReadDataEx**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpreaddataex)
 </dt> <dd>
 
 Reads data from a handle opened by the [**WinHttpOpenRequest**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpopenrequest) function.
@@ -278,6 +313,4 @@ Sends a close frame to a WebSocket connection.
 
 </dd> </dl>
 
- 
 
- 

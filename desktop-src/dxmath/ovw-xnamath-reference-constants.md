@@ -14,8 +14,8 @@ The following constants are provided by the DirectXMath Library.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">

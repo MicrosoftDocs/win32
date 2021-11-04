@@ -1,5 +1,5 @@
 ---
-description: The <libraryDescription> element is the top-level container for the library definition. This element is required.
+description: The &lt;libraryDescription&gt; element is the top-level container for the library definition. This element is required.
 ms.assetid: 62098944-E1B2-46e8-AC87-314C55F96B62
 title: libraryDescription Element (Library Schema)
 ms.topic: article
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # libraryDescription Element (Library Schema)
 
-The <libraryDescription> element is the top-level container for the library definition. This element is required.
+The &lt;libraryDescription&gt; element is the top-level container for the library definition. This element is required.
 
 ## Syntax
 
@@ -78,9 +78,9 @@ The <libraryDescription> element is the top-level container for the library defi
 
 ## Remarks
 
-Each library can contain one or more locations that can be browsed or searched by a user using Windows Explorer. The locations are defined by search connectors using [<searchConnectorDescription>](schema-library-searchconnectordescription.md) elements in a [<searchConnectorDescriptionList>](schema-library-searchconnectordescriptionlist.md) container element.
+Each library can contain one or more locations that can be browsed or searched by a user using Windows Explorer. The locations are defined by search connectors using [&lt;searchConnectorDescription&gt;](schema-library-searchconnectordescription.md) elements in a [&lt;searchConnectorDescriptionList&gt;](schema-library-searchconnectordescriptionlist.md) container element.
 
-A library can have a unique set of properties, and locations in the library can also have unique sets of properties. These properties are defined in [<property>](schema-library-property.md) elements within a [<propertyStore>](schema-library-propertystore.md) container element.
+A library can have a unique set of properties, and locations in the library can also have unique sets of properties. These properties are defined in [&lt;property&gt;](schema-library-property.md) elements within a [&lt;propertyStore&gt;](schema-library-propertystore.md) container element.
 
 ## Example
 

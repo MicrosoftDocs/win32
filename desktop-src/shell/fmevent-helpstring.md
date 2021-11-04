@@ -13,15 +13,6 @@ api_type:
 api_location: 
 - Wfext.h
 ms.assetid: 55fb5bfe-2889-40e5-9798-85f63727e31f
-api_name: 
- - FMEVENT_HELPSTRING
-api_type: 
- - HeaderDef
-api_location: 
- - Wfext.h
-topic_type: 
- - APIRef
- - kbSyntax
 
 ---
 

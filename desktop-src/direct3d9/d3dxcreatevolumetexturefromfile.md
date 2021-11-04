@@ -1,5 +1,5 @@
 ---
-description: Creates a volume texture from a file.
+description: D3DXCreateVolumeTextureFromFile function - Creates a volume texture from a file.
 ms.assetid: e68ac4bb-a89a-41a1-b2ba-40a1ac519e3d
 title: D3DXCreateVolumeTextureFromFile function (D3dx9tex.h)
 ms.topic: reference
@@ -90,7 +90,7 @@ Filtering is automatically applied to a texture created using this method. The f
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9tex.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>  |

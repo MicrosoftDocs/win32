@@ -16,20 +16,20 @@ ms.custom: contperf-fy21q3
 
 HLSL is the C-like high-level shader language that you use with programmable shaders in DirectX.
 
-For example, you can use HLSL to write a [vertex shader](/windows/win32/direct3d11/vertex-shader-stage), or a [pixel shader](/windows/win32/direct3d11/pixel-shader-stage), and use those shaders in the implementation of the renderer in your [Direct3D](/windows/win32/direct3d12/directx-12-programming-guide) application.
+For example, you can use HLSL to write a [vertex shader](../direct3d11/vertex-shader-stage.md), or a [pixel shader](../direct3d11/pixel-shader-stage.md), and use those shaders in the implementation of the renderer in your [Direct3D](../direct3d12/directx-12-programming-guide.md) application.
 
-Or you could use HLSL to write a compute shader, perhaps to implement a physics simulation. However, if for example you're inclined to write your own convolution operator (for image processing) as HLSL in a compute shader, then you'll get better performance in that scenario if you use [Direct Machine Learning (DirectML)](/windows/win32/direct3d12/dml) instead.
+Or you could use HLSL to write a compute shader, perhaps to implement a physics simulation. However, if for example you're inclined to write your own convolution operator (for image processing) as HLSL in a compute shader, then you'll get better performance in that scenario if you use [Direct Machine Learning (DirectML)](/windows/ai/directml/dml) instead.
 
-HLSL was created (starting with DirectX 9) to set up the programmable 3D [pipeline](/windows/win32/direct3d11/overviews-direct3d-11-graphics-pipeline). You can program the entire pipeline with HLSL instructions.
+HLSL was created (starting with DirectX 9) to set up the programmable 3D [pipeline](../direct3d11/overviews-direct3d-11-graphics-pipeline.md). You can program the entire pipeline with HLSL instructions.
 
 ## Where to go next
 
-* [Programming guide for HLSL](/windows/win32/direct3dhlsl/dx-graphics-hlsl-pguide)
-* [Reference for HLSL](/windows/win32/direct3dhlsl/dx-graphics-hlsl-reference)
+* [Programming guide for HLSL](./dx-graphics-hlsl-pguide.md)
+* [Reference for HLSL](./dx-graphics-hlsl-reference.md)
 
 ### Programming guide for HLSL
 
-For a conceptual introduction to HLSL, see the [Programming guide for HLSL](/windows/win32/direct3dhlsl/dx-graphics-hlsl-pguide).
+For a conceptual introduction to HLSL, see the [Programming guide for HLSL](./dx-graphics-hlsl-pguide.md).
 
 The programming guide discusses the different kinds of shader stages, and how to create, compile, optimize, bind, and link shaders.
 
@@ -37,7 +37,7 @@ There you'll also find overviews of, and release notes about, the successive gen
 
 ### Reference for HLSL
 
-For HLSL reference documentation, see the [Reference for HLSL](/windows/win32/direct3dhlsl/dx-graphics-hlsl-reference).
+For HLSL reference documentation, see the [Reference for HLSL](./dx-graphics-hlsl-reference.md).
 
 The reference section has a complete listing of the language syntax and of the intrinsic functions that are built into HLSL in order to simplify your coding requirements.
 

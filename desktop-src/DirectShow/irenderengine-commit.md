@@ -1,5 +1,5 @@
 ---
-description: Not implemented.
+description: IRenderEngine::Commit method - Not implemented.
 ms.assetid: 4d52d11c-9629-4080-9c3e-7c11cf3842ed
 title: IRenderEngine::Commit method
 ms.topic: reference

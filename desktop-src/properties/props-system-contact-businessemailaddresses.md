@@ -1,5 +1,5 @@
 ---
-description: .
+description: System.Contact.BusinessEmailAddresses
 ms.assetid: f8566b9a-0b21-4ff1-80d4-6423b4b67e6d
 title: System.Contact.BusinessEmailAddresses
 ms.topic: article

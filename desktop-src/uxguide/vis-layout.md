@@ -9,7 +9,7 @@ ms.date: 10/20/2020
 # Layout
 
 > [!NOTE]
-> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](https://docs.microsoft.com/windows/uwp/design/).
+> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](/windows/uwp/design/).
 
 Layout is the sizing, spacing, and placement of content within a window or page. Effective layout is crucial in helping users find what they are looking for quickly, as well as making the appearance visually appealing. Effective layout can make the difference between designs that users immediately understand and those that leave users feeling puzzled and overwhelmed.
 
@@ -686,9 +686,8 @@ The following table lists the recommended sizes (width x height, or height if a 
 
 
 
-|                                                                                                 |                            |                                                                                                   |                                                                                                            |
+| Example | Control | Dialog units | Relative pixels |
 |-------------------------------------------------------------------------------------------------|----------------------------|---------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|
-|                                                                                                 | **Control**<br/>     | **Dialog units**<br/>                                                                       | **Relative pixels**<br/>                                                                             |
 | ![screen shot of check boxes and their labels ](images/vis-layout-image45.png)<br/>       | Check boxes<br/>     | 10<br/>                                                                                     | 17<br/>                                                                                              |
 | ![screen shot of combo box ](images/vis-layout-image46.png)<br/>                          | Combo boxes<br/>     | width of longest item + 30% x 14<br/>                                                       | width of longest item + 30% x 23<br/>                                                                |
 | ![screen shot of a command button ](images/vis-layout-image47.png)<br/>                   | Command buttons<br/> | 50 x 14<br/>                                                                                | 75 x 23<br/>                                                                                         |
@@ -713,9 +712,8 @@ The following table lists the recommended spacing between common UI elements (fo
 
 
 
-|                                                                                                   |                                                                                                       |                                                                                           |                                                                                           |
+|   &nbsp; | Element | Dialog units | Relative pixels |
 |---------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|
-|                                                                                                   | **Element**<br/>                                                                                | **Dialog units**<br/>                                                               | **Relative pixels**<br/>                                                            |
 | ![Image showing spacing in dialog box margins ](images/vis_layout_image58.jpeg)<br/>        | Dialog box margins<br/>                                                                         | 7 on all sides<br/>                                                                 | 11 on all sides<br/>                                                                |
 | ![Image showing spacing between labels and controls ](images/vis_layout_image59.jpeg)<br/>  | Between text labels and their associated controls (for example, text boxes and list boxes)<br/> | 3<br/>                                                                              | 5<br/>                                                                              |
 | ![Image showing spacing between related controls ](images/vis_layout_image60.jpeg)<br/>     | Between related controls<br/>                                                                   | 4<br/>                                                                              | 7<br/>                                                                              |
@@ -735,10 +733,4 @@ The following table lists the recommended spacing between common UI elements (fo
  
 
  
-
- 
-
-
-
-
 

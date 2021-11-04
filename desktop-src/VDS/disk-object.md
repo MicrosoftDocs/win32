@@ -24,17 +24,17 @@ The description that follows is general in nature. It shows the typical relation
 
     A partition on a basic disk maps directly to a volume, in most cases, and can be styled as an MBR or GPT partition. The following illustration shows the mapping for both versions of MBR partitions. In the first case, partitions (P1 through P4) map directly to volumes (V1 through V4). An extended partition (Ext) replaces P4 in the second MBR style. The number of logical drives inside the extended partition that map to volumes is unlimited.
 
-    ![](images/vdsbasicmapping.png)
+    ![Shows two mapping options for M B R partitions.](images/vdsbasicmapping.png)
 
     The GPT partitions (P1 through P128) in the next illustration map directly to volumes (V1 through V128), if all available partitions are in use. A GPT disk does not make use of an extended partition as a way to enhance usability.
 
-    ![](images/vdsbasicmappinggpt.png)
+    ![Shows a GPT partition.](images/vdsbasicmappinggpt.png)
 
 -   Dynamic disks
 
     A special partition type on a dynamic disk maps to a large number of volumes. For an estimated limit that is imposed by the dynamic provider, see the [pack object](pack-object.md). As the following illustration shows, there can be any number of extents inside P1 that map to volumes.
 
-    ![](images/vdsdynamicmapping.png)
+    ![Shows a special partition type on a dynamic disk.](images/vdsdynamicmapping.png)
 
 Regardless of the disk type, a disk can contain one or more disk extents. A disk extent is a contiguous range of logical blocks exposed by the disk. For example, a disk extent can represent an entire volume, one portion of a spanned volume, one member of a striped volume, or one plex of a mirrored volume.
 

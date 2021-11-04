@@ -9,7 +9,7 @@ ms.date: 10/20/2020
 # Window Frames
 
 > [!NOTE]
-> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](https://docs.microsoft.com/windows/uwp/design/).
+> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](/windows/uwp/design/).
 
 Most programs should use standard window frames. Immersive applications can have a full screen mode that hides the window frame. Consider using glass strategically for a simpler, lighter, more cohesive look.
 
@@ -41,7 +41,7 @@ In this example, glass is used in the client area to make it look like part of t
 
 Sometimes the best window frame is no frame at all. This is often the case for the [primary window](glossary.md) of immersive [full screen](glossary.md) applications that aren't used in conjunction with other programs, such as media players, games, and kiosk applications.
 
-Content viewers often benefit from having the option to show content full screen. Examples include Windows Internet Explorer , Windows Live Photo Gallery, Windows Movie Maker HD, Microsoft PowerPoint , and Microsoft Word.
+Content viewers often benefit from having the option to show content full screen. Examples include Windows Internet Explorer , Windows Live Photo Gallery, Windows Movie Maker HD, Microsoft PowerPoint, and Microsoft Word.
 
 ![screen shot of media player in full-screen view ](images/win-window-frames-image4.png)
 
@@ -126,7 +126,3 @@ In this incorrect example, the use of glass is distracting. A plain window backg
  
 
  
-
-
-
-

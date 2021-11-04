@@ -1,5 +1,5 @@
 ---
-description: Requests a reset.
+description: Reset method of the Msvm_Processor class - Requests a reset.
 ms.assetid: c69b5c65-8f00-48ed-8602-7e0c5a76653d
 title: Reset method of the Msvm_Processor class
 ms.topic: reference

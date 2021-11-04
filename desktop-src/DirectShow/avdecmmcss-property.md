@@ -36,7 +36,7 @@ If the MMCSS service is not available or the specified MMCSS class does not exis
 
 
 
-|                   |                                                                                    |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Uuids.h</dt> </dl> |
 

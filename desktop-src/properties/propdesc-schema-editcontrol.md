@@ -60,8 +60,8 @@ If <typeInfo isInnate="true">, this element is ignored because an innate propert
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -75,8 +75,8 @@ If <typeInfo isInnate="true">, this element is ignored because an innate propert
 <td>Public. Optional. Default is &quot;Default&quot;. The following are valid values. 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">

@@ -60,27 +60,11 @@ The total output of the geometry shader is limited to 1024 scalars. When multipl
 
 
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>Differences between shader model 4 and shader model 5:<br/> Shader model 4:<br/>
-<ul>
-<li>Maximum number of scalars for stream output is 64.</li>
-<li>The per-component register mask must match across the index range.</li>
-</ul>
-Shader model 5:<br/>
-<ul>
-<li>Maximum number of scalars for stream output is 128.</li>
-<li>The per-component register mask does not need to match across the index range.</li>
-<li>Dynamic indexing of outputs must be legal across all streams.</li>
-<li>Interpolation modes do not need to match for the streams.</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| 
+|
+| Differences between shader model 4 and shader model 5:<br /> Shader model 4:<br /><ul><li>Maximum number of scalars for stream output is 64.</li><li>The per-component register mask must match across the index range.</li></ul>Shader model 5:<br /><ul><li>Maximum number of scalars for stream output is 128.</li><li>The per-component register mask does not need to match across the index range.</li><li>Dynamic indexing of outputs must be legal across all streams.</li><li>Interpolation modes do not need to match for the streams.</li></ul> | 
+
 
 
 

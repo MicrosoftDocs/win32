@@ -65,7 +65,7 @@ When a **seq** element only contains **media** elements that reference specific 
 
 
 
-|                    |                                                    |
+| Requirement | Value |
 |--------------------|----------------------------------------------------|
 | Version<br/> | Windows Media Player 9 Series or later.<br/> |
 

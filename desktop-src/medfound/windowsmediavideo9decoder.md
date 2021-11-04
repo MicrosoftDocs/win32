@@ -1,5 +1,5 @@
 ---
-Description: The Windows Media Video 9 decoder decodes video streams that were encoded by the Windows Media Video Encoder.
+description: The Windows Media Video 9 decoder decodes video streams that were encoded by the Windows Media Video Encoder.
 ms.assetid: 08f68d1c-c226-4bf6-abd0-fce0f9ddbc05
 title: Windows Media Video 9 Decoder (Wmcodecdsp.h)
 ms.topic: reference
@@ -91,80 +91,18 @@ The Windows Media Video decoder supports the following properties.
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Property</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="mfpkey-decoder-deinterlacingproperty.md">MFPKEY_DECODER_DEINTERLACING</a></td>
-<td>Specifies whether the codec decodes interlaced video frames from the compressed stream as progressive frames.<br/> <dl> Windows XP and later.<br />
-Simple Profile, Main Profile, Advanced Profile.<br />
-Read/write.<br />
-</dl></td>
-</tr>
-<tr class="even">
-<td><a href="mfpkey-dxva-enabledproperty.md">MFPKEY_DXVA_ENABLED</a></td>
-<td>Specifies whether the decoder will use DirectX video acceleration hardware, if available.<br/> <dl> Windows XP and later.<br />
-Simple Profile, Main Profile, Advanced Profile.<br />
-Write-only.<br />
-</dl></td>
-</tr>
-<tr class="odd">
-<td><a href="mfpkey-avdecvideoswpowerlevelproperty.md">MFPKEY_AVDecVideoSWPowerLevel</a></td>
-<td>Specifies the power level for the decoder.<br/> <dl> Windows 7.<br />
-Simple Profile, Main Profile, Advanced Profile, Image.<br />
-Read/write.<br />
-</dl></td>
-</tr>
-<tr class="even">
-<td><a href="mfpkey-fi-enabledproperty.md">MFPKEY_FI_ENABLED</a></td>
-<td>Specifies whether the decoder should use frame interpolation.<br/> <dl> Windows XP and later.<br />
-Simple Profile, Main Profile, Advanced Profile, Image.<br />
-Write-only.<br />
-</dl></td>
-</tr>
-<tr class="odd">
-<td><a href="mfpkey-fi-supportedproperty.md">MFPKEY_FI_SUPPORTED</a></td>
-<td>Specifies whether the decoder supports frame interpolation.<br/> <dl> Windows XP and later.<br />
-Simple Profile, Main Profile, Advanced Profile, Image<br />
-Read-only.<br />
-</dl></td>
-</tr>
-<tr class="even">
-<td><a href="mfpkey-numthreadsdecproperty.md">MFPKEY_NUMTHREADSDEC</a></td>
-<td>Specifies the number of threads that the decoder will use.<br/> <dl> Windows Vista and later.<br />
-Simple Profile, Main Profile, Advanced Profile, Image.<br />
-Read/write.<br />
-</dl></td>
-</tr>
-<tr class="odd">
-<td><a href="mfpkey-postprocessmodeproperty.md">MFPKEY_POSTPROCESSMODE</a></td>
-<td>Specifies the post processing mode for the decoder.<br/> <dl> Windows Vista and later.<br />
-Simple Profile, Main Profile, Advanced Profile, Image.<br />
-Write-only.<br />
-</dl></td>
-</tr>
-<tr class="even">
-<td><strong>g_wszWMVCNeedsDrain</strong></td>
-<td>Specifies whether the decoder should be drained.<br/> <dl> Windows 8<br />
-Read-only.<br />
-</dl> This property is used by the Windows Media Format runtime. The property type is <strong>VARIANT_BOOL</strong>. If the value is <strong>VARIANT_TRUE</strong>, the decoder should be drained after a discontinuity. For more information about draining an MFT, see <a href="basic-mft-processing-model.md">Basic MFT Processing Model</a>.<br/>
-<blockquote>
-[!Note]<br />
-To query this property, use the <a href="/windows/desktop/com/ipropertybag-and-ipersistpropertybag"><strong>IPropertyBag</strong></a> interface.
-</blockquote>
-<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Property | Description | 
+|----------|-------------|
+| <a href="mfpkey-decoder-deinterlacingproperty.md">MFPKEY_DECODER_DEINTERLACING</a> | Specifies whether the codec decodes interlaced video frames from the compressed stream as progressive frames.<br /><dl> Windows XP and later.<br />Simple Profile, Main Profile, Advanced Profile.<br />Read/write.<br /></dl> | 
+| <a href="mfpkey-dxva-enabledproperty.md">MFPKEY_DXVA_ENABLED</a> | Specifies whether the decoder will use DirectX video acceleration hardware, if available.<br /><dl> Windows XP and later.<br />Simple Profile, Main Profile, Advanced Profile.<br />Write-only.<br /></dl> | 
+| <a href="mfpkey-avdecvideoswpowerlevelproperty.md">MFPKEY_AVDecVideoSWPowerLevel</a> | Specifies the power level for the decoder.<br /><dl> Windows 7.<br />Simple Profile, Main Profile, Advanced Profile, Image.<br />Read/write.<br /></dl> | 
+| <a href="mfpkey-fi-enabledproperty.md">MFPKEY_FI_ENABLED</a> | Specifies whether the decoder should use frame interpolation.<br /><dl> Windows XP and later.<br />Simple Profile, Main Profile, Advanced Profile, Image.<br />Write-only.<br /></dl> | 
+| <a href="mfpkey-fi-supportedproperty.md">MFPKEY_FI_SUPPORTED</a> | Specifies whether the decoder supports frame interpolation.<br /><dl> Windows XP and later.<br />Simple Profile, Main Profile, Advanced Profile, Image<br />Read-only.<br /></dl> | 
+| <a href="mfpkey-numthreadsdecproperty.md">MFPKEY_NUMTHREADSDEC</a> | Specifies the number of threads that the decoder will use.<br /><dl> Windows Vista and later.<br />Simple Profile, Main Profile, Advanced Profile, Image.<br />Read/write.<br /></dl> | 
+| <a href="mfpkey-postprocessmodeproperty.md">MFPKEY_POSTPROCESSMODE</a> | Specifies the post processing mode for the decoder.<br /><dl> Windows Vista and later.<br />Simple Profile, Main Profile, Advanced Profile, Image.<br />Write-only.<br /></dl> | 
+| <strong>g_wszWMVCNeedsDrain</strong> | Specifies whether the decoder should be drained.<br /><dl> Windows 8<br />Read-only.<br /></dl> This property is used by the Windows Media Format runtime. The property type is <strong>VARIANT_BOOL</strong>. If the value is <strong>VARIANT_TRUE</strong>, the decoder should be drained after a discontinuity. For more information about draining an MFT, see <a href="basic-mft-processing-model.md">Basic MFT Processing Model</a>.<br /><blockquote>[!Note]<br />To query this property, use the <a href="/windows/desktop/com/ipropertybag-and-ipersistpropertybag"><strong>IPropertyBag</strong></a> interface.</blockquote><br /> | 
+
 
 
 
@@ -178,7 +116,7 @@ The maximum resolution allowed by the Windows Media Video 9 decoder is 4096x4096
 
 
 
-|                   |                                                                                         |
+| Requirement | Value |
 |-------------------|-----------------------------------------------------------------------------------------|
 | Client<br/> | Windows XP, Windows Vista or Windows 7<br/>                                       |
 | Header<br/> | <dl> <dt>Wmcodecdsp.h</dt> </dl> |

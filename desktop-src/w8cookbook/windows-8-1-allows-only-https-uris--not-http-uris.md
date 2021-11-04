@@ -32,7 +32,7 @@ When running an app built for Windows 8 on Windows 8.1, the use of http URIs in 
 
 ## Mitigations
 
-We recommend that WWA developers switch from [<iframe>](https://msdn.microsoft.com/library/windows/apps/hh465955.aspx) to the [WebView](/uwp/api/Windows.UI.Xaml.Controls.WebView?view=winrt-19041) control (<x-ms-webview>). However, if you need support for AppCache, IndexedDB, geolocation, or programmatic clipboard access, you will need to continue using <iframe> for Windows 8.1.
+We recommend that WWA developers switch from [<iframe>](https://msdn.microsoft.com/library/windows/apps/hh465955.aspx) to the [WebView](/uwp/api/Windows.UI.Xaml.Controls.WebView?view=winrt-19041) control (&lt;x-ms-webview&gt;). However, if you need support for AppCache, IndexedDB, geolocation, or programmatic clipboard access, you will need to continue using <iframe> for Windows 8.1.
 
 Continued usage of <iframe> for remote content will require a new entry in the ApplicationContentUriRules for the app. Apps with WebView require new entries in the ApplicationContentUriRules if the web content needs to invoke window.external.notify for generating a [ScriptNotify](/uwp/api/Windows.UI.Xaml.Controls.WebView?view=winrt-19041) event. If you do not have Visual Studio, you can update the app manifest by adding the following XML, including wildcards for subdomains (e.g. https://\*.microsoft.com):
 

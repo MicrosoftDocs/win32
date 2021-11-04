@@ -33,6 +33,8 @@
       href: using-hosted-network-and-internet-connection-sharing.md
     - name: "Provision a Wi-Fi profile via a website"
       href: prov-wifi-profile-via-website.md
+    - name: "Dual-STA query and configuration"
+      href: dual-sta-query-config.md
     - name: "Wireless Hosted Network Sample"
       href: wireless-hosted-network-sample.md
     - name: "Wired Profile Samples"

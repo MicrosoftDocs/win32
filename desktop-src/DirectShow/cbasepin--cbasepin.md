@@ -1,5 +1,5 @@
 ---
-description: Destructor method.
+description: CBasePin.~CBasePin destructor - Destructor method.
 ms.assetid: b903bec6-e944-48bb-aa0c-7072a843a9cd
 title: CBasePin.~CBasePin destructor (Amfilter.h)
 ms.topic: reference
@@ -35,7 +35,7 @@ Destructor method.
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Amfilter.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

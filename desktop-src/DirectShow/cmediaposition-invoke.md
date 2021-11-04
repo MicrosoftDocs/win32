@@ -1,5 +1,5 @@
 ---
-Description: The Invoke method provides access to properties and methods exposed by the object.
+description: The Invoke method provides access to properties and methods exposed by the object.
 ms.assetid: 3c03751d-239b-4cc5-bfab-8d1aed1074b8
 title: CMediaPosition.Invoke method (Ctlutil.h)
 ms.topic: reference
@@ -119,7 +119,7 @@ Returns an **HRESULT** value. Possible values include the following.
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Ctlutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

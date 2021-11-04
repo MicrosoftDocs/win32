@@ -1,7 +1,7 @@
 ---
-description: The = operator assigns a new reference time.
+description: The = operator assigns a new reference time. This method uses the *ll* parameter.
 ms.assetid: 556c2e8a-4726-42ab-949d-9a028ebb1b95
-title: CRefTime.operator= method (Reftime.h)
+title: CRefTime.operator= method (Reftime.h) - ll parameter
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
@@ -18,7 +18,7 @@ api_location:
 - Strmbasd.dll
 ---
 
-# CRefTime.operator= method (Reftime.h)
+# CRefTime.operator= method (Reftime.h) - ll parameter
 
 The = operator assigns a new reference time.
 
@@ -52,10 +52,10 @@ Returns a reference to the object.
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Reftime.h (include Streams.h)</dt> </dl>                                                                                   |
-| Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |
+| Header  | Reftime.h (include Streams.h)                                                                                   |
+| Library | Strmbase.lib (retail builds); Strmbasd.lib (debug builds) |
 
 
 

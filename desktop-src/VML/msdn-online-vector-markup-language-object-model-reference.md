@@ -87,7 +87,7 @@ In the above example, a shape is created by using the Document Object Model meth
 
 One implementation of VML is through Microsoft Internet Explorer 5.0 or greater. To set up the rendering object correctly in a Web page, the following additions must be made:
 
-1.  The schema must be set up in the initial <HTML> tag as follows:
+1.  The schema must be set up in the initial &lt;HTML&gt; tag as follows:
     ```HTML
     <HTML xmlns:v="urn:schemas-microsoft-com:vml">
     ```
@@ -157,7 +157,7 @@ VML provides predefined shapes:
 
 
 
-|              |                                                                                                                                                                                                                                                                                                                                                                                  |
+|   Subelement           |    Description                                                                                                                                                                                                                                                                                                                                                                              |
 |--------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Adj          | [IVgAdjustments](msdn-online-vml-ivgadjustments-data-type.md). A comma-delimited list of numbers that are the parameters for the guide formulas that define the path of the shape. Values may be omitted to allow for using defaults. There can be up to 8 adjustment values.                                                                                                   |
 | Alt          | String. Alternative text associated with shape. Used for non-graphical browsing.                                                                                                                                                                                                                                                                                                 |
@@ -223,11 +223,8 @@ The following subelements are part of the VML object model.
 
 Describes the fill of the background of a page using VML fills.
 
-**Attributes**
 
-
-
-|           |                                                                                                                                                                                         |
+|   Attribute        |   Description                                                                                                                                                                                      |
 |-----------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | BWMode    | [VgBlackWhiteMode](msdn-online-vml-vgblackwhitemode.md). Determines how shape will render in black-and-white view in applications or when printed.                                     |
 | BWNormal  | [VgBlackWhiteMode](msdn-online-vml-vgblackwhitemode.md). When BWMode is Auto, this property is consulted for how to render the shape in normal black and white.                        |
@@ -249,8 +246,8 @@ Describes a 3-D extrusion of the shape.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -416,8 +413,8 @@ Describes how a path should be filled for fills more complex than a solid color.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -549,7 +546,7 @@ A group is a collection of individual shapes that can be positioned and transfor
 
 
 
-|        |                                                                                              |
+|   Attribute        |   Description                                                                                                                                                                                      |
 |--------|----------------------------------------------------------------------------------------------|
 | Item   | [IVgShape](#data-types-used-in-the-vml-object-model). Specified item in the array of shapes. |
 | Length | [Integer](#data-types-used-in-the-vml-object-model). Number of shapes in this group.         |
@@ -564,7 +561,7 @@ Describes a picture to be rendered on top of a shape.
 
 
 
-|             |                                                                                                                                                                                                                                                                                                                                                                 |
+|   Attribute        |   Description                                                                                                                                                                                      |
 |-------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | BiLevel     | [VgTriState](msdn-online-vml-vgtristate.md). Display picture in only two colors (usually black and white).                                                                                                                                                                                                                                                     |
 | BlackLevel  | [VgFraction](msdn-online-vml-vgfraction-data-type.md). Allows adjustment to set the level so that blacks appear as true blacks, and all other colors are visible as shades above black.                                                                                                                                                                        |
@@ -591,8 +588,8 @@ Defines the path that makes up the shape, using a string that contains a rich se
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -714,8 +711,8 @@ Describes a shadow effect on a shape.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -779,7 +776,7 @@ Describes a perspective skew effect on a shape. The skew is applied to vector gr
 
 
 
-|        |                                                                                                                                                                                                                                                                                    |
+|   Attribute        |   Description                                                                                                                                                                                      |
 |--------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Matrix | [IVgSkewMatrix](#data-types-used-in-the-vml-object-model). A perspective transform matrix in the form, "sxx,sxy,syx,syy,px,py" \[ s=scale, p=perspective\]. If offset is in absolute units then px,py are in emu ^ -1 units; otherwise they are an inverse fraction of shape size. |
 | Offset | [IvgSkewOffset](#data-types-used-in-the-vml-object-model). Amount of x,y offset from the shape's location. Default is "2pt,2pt".                                                                                                                                                   |
@@ -798,8 +795,8 @@ Describes how to draw the path if something beyond a solid line with a solid col
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -1041,7 +1038,7 @@ Describes a vector path based on the text data, font, and styles supplied. The t
 
 
 
-|          |                                                                                                                               |
+|   Attribute        |   Description                                                                                                                                                                                      |
 |----------|-------------------------------------------------------------------------------------------------------------------------------|
 | FitPath  | [VgTriState](msdn-online-vml-vgtristate.md). Sizes the text to fill the path it lies out on.                                 |
 | FitShape | [VgTriState](msdn-online-vml-vgtristate.md). Stretches the text path out to the edges of the shape box.                      |
@@ -1099,7 +1096,7 @@ Collection of adjustments to a shape that can be used to change the dimensions o
 
 
 
-| Attributes | Description                                                                                                                                                                                                                                                                                                                                                                    |
+| Attribute | Description                                                                                                                                                                                                                                                                                                                                                                    |
 |------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Exists     | [IVgTriState](msdn-online-vml-vgtristate.md). Determines whether a specified adjustment exists. Note that an index must be used; that is, exists( item ) must be used to retrieve the existence of an item.                                                                                                                                                                   |
 | Item       | [Long](#data-types-used-in-the-vml-object-model). Array of adjustments indexed from 0 to 7. Note that adjustments may be sparcely specified; that is, intermediate array values may not always be filled. For example, item 1, 3, and 5 could have values for a length of 3, with item(0), item(2), and item(4) specified. To see if an item exists, use the Exists attribute. |
@@ -1118,8 +1115,8 @@ Specifies a color.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -1191,8 +1188,8 @@ Equations used for formulas.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -1344,7 +1341,7 @@ Specifies a fixed rectangle.
 
 
 
-| Attributes | Description                                                                                 |
+| Attribute | Description                                                                                 |
 |------------|---------------------------------------------------------------------------------------------|
 | Value      | [String](#data-types-used-in-the-vml-object-model). Text value specifying the path.         |
 | Left       | [Double](#data-types-used-in-the-vml-object-model). Leftmost coordinate of the rectangle.   |
@@ -1362,7 +1359,7 @@ Array of fixed rectangles.
 
 
 
-| Attributes | Description                                                                                                 |
+| Attribute | Description                                                                                                 |
 |------------|-------------------------------------------------------------------------------------------------------------|
 | Value      | [String](#data-types-used-in-the-vml-object-model). Text representation of array.                           |
 | Length     | [Integer](#data-types-used-in-the-vml-object-model). Number of rectangles in this array.                    |
@@ -1378,7 +1375,7 @@ Definitions for formulas that can vary the path of a shape or be used for other 
 
 
 
-| Attributes | Description                                                                                                                                                                                                                                                                                                                                                                                          |
+| Attribute| Description                                           |
 |------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Eqn        | [IVgEquation](#data-types-used-in-the-vml-object-model). Each formula defines a single value as the result of the evaluation of the expression. The expression is defined by this attribute and has the general form of an operation followed by up to three arguments, which may be adjustment values (e.g., \#2), the results of earlier formulas (e.g., @2), fixed numbers, or predefined values. |
 
@@ -1392,7 +1389,7 @@ A collection of formula objects.
 
 
 
-| Attributes | Description                                                                                                                                  |
+| Attribute | Description                                                                                                                                  |
 |------------|----------------------------------------------------------------------------------------------------------------------------------------------|
 | Length     | [Integer](#data-types-used-in-the-vml-object-model). Number of formula objects in collection.                                                |
 | Item       | [IVgFormula](#data-types-used-in-the-vml-object-model). A specific formula. Note that the formula array may be inherited fom the shape type. |
@@ -1407,7 +1404,7 @@ An array of colors that define a gradient (blended range of colors).
 
 
 
-| Attributes | Description                                                                                                                  |
+| Attribute | Description                                                                                                                  |
 |------------|------------------------------------------------------------------------------------------------------------------------------|
 | Value      | [String](#data-types-used-in-the-vml-object-model). Specifies the array of colors; for example, "red .2; green .4; black .7" |
 | Length     | [Integer](#data-types-used-in-the-vml-object-model). Number of colors in the array.                                          |
@@ -1418,7 +1415,7 @@ An array of colors that define a gradient (blended range of colors).
 
 
 
-| Methods     | Description                                                                                                                                                                                                      |
+| Method     | Description                                                                                                                                                                                                      |
 |-------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | AddColor    | [VgFraction](msdn-online-vml-vgfraction-data-type.md). Adds new color at endpoint specified by fraction. The new color is white by default and is the return value. The color can then be changed by reference. |
 | RemoveColor | [VgFraction](msdn-online-vml-vgfraction-data-type.md). Removes a color at endpoint specified by fraction. Note: if 0.0 or 1.0 does not exist, it is implied and the color white is used at that point.          |
@@ -1433,7 +1430,7 @@ Array of points that define a shape.
 
 
 
-| Attributes | Description                                                                                 |
+| Attribute | Description                                                                                 |
 |------------|---------------------------------------------------------------------------------------------|
 | Value      | [String](#data-types-used-in-the-vml-object-model). Text representation of array.           |
 | Length     | [Integer](#data-types-used-in-the-vml-object-model). Number of points in this array.        |
@@ -1449,7 +1446,7 @@ A matrix used for skewing shapes, a perspective transform matrix in the form, "*
 
 
 
-| Attributes   | Description                                         |
+| Attribute   | Description                                         |
 |--------------|-----------------------------------------------------|
 | XtoX         | [Double](#data-types-used-in-the-vml-object-model). |
 | YtoX         | [Double](#data-types-used-in-the-vml-object-model). |
@@ -1470,8 +1467,8 @@ Specifies the offset of the skew.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -1531,8 +1528,8 @@ Specifies a two-dimensional vector consisting of two **Double** numbers.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -1579,8 +1576,8 @@ Specifies a three-dimensional vector consisting of three **Double** numbers.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">

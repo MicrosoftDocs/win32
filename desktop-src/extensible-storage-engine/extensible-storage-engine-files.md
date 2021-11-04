@@ -34,184 +34,11 @@ The Extensible Storage Engine uses the following types of files:
 
 This table contains an overview of the data file names that are managed by ESE. For Windows Vista and later, the JET_paramLegacyNames setting impacts the file names that are used.
 
-<table xmlns="https://www.w3.org/1999/xhtml">
-  <tr>
-    <th>
-      <p>Operating System</p>
-    </th>
-    <th>
-      <p>Windows Server 2003 and earlier<br /><br /></p>
-    </th>
-    <th colspan="2">
-      <p></p>
-      <p>Windows Vista and later (client) <br />
-Windows Server 2008 and later (server)
-</p>
-    </th>
-    <th>
-      <p>Windows 10 Anniversary Update and later (client) <br />
-Windows Server 2016 and later (server)
-</p>
-    </th>
-  </tr>
-  <tr>
-    <td>
-      <p>
-        <strong>JET_paramLegacyNames setting</strong>
-      </p>
-    </td>
-    <td>
-      <p>
-        <strong>N/A</strong>
-      </p>
-    </td>
-    <td>
-      <p>
-        <strong>None</strong>
-      </p>
-    </td>
-    <td>
-      <p>
-        <strong>JET_bitESE98FileNames</strong>
-      </p>
-    </td>
-    <td>
-      <p>
-        <strong>Same as Windows Vista/Server 2008</strong>
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <p>Current Log</p>
-    </td>
-    <td>
-      <p>&lt;inst&gt;.log</p>
-    </td>
-    <td>
-      <p>&lt;inst&gt;.jtx</p>
-    </td>
-    <td>
-      <p>&lt;inst&gt;.log</p>
-    </td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>
-      <p>Pre-Init Log</p>
-    </td>
-    <td>
-      <p>&lt;inst&gt;tmp.log</p>
-    </td>
-    <td>
-      <p>&lt;inst&gt;tmp.jtx</p>
-    </td>
-    <td>
-      <p>&lt;inst&gt;tmp.log</p>
-    </td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>
-      <p>Rotated Logs</p>
-    </td>
-    <td>
-      <p>&lt;inst&gt;XXXXX.log</p>
-    </td>
-    <td>
-      <p>&lt;inst&gt;XXXXX.jtx after FFFFF switch to &lt;inst&gt;XXXXXXXX.jtx</p>
-    </td>
-    <td>
-      <p>&lt;inst&gt;XXXXX.log after FFFFF switch to &lt;inst&gt;XXXXXXXX.log.</p>
-    </td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>
-      <p>
-        <a href="gg294069(v=exchg.10).md">Checkpoint Files</a>
-      </p>
-    </td>
-    <td>
-      <p>&lt;inst&gt;.chk</p>
-    </td>
-    <td>
-      <p>&lt;inst&gt;.jcp</p>
-    </td>
-    <td>
-      <p>&lt;inst&gt;.chk</p>
-    </td>
-    <td rowspan="2"></td>
-  </tr>
-  <tr>
-    <td>
-      <p>
-        <a href="gg294069(v=exchg.10).md">Temporary Databases</a>
-      </p>
-    </td>
-    <td>
-      <p>&lt;temp db file name&gt; Default: tmp.edb</p>
-    </td>
-    <td>
-      <p>&lt;temp db file name&gt; Default: tmp.edb</p>
-    </td>
-    <td>
-      <p>&lt;temp db file name&gt; Default: tmp.edb</p>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <p>
-        <a href="gg294069(v=exchg.10).md">Reserved Transaction Log Files</a>
-      </p>
-    </td>
-    <td>
-      <p>res1.log &amp; res2.log</p>
-    </td>
-    <td>
-      <p>&lt;inst&gt;RESXXXXX.jrs</p>
-    </td>
-    <td colspan="2">
-      <p>&lt;inst&gt;RESXXXXX.jrs</p>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <p>
-        <a href="gg294069(v=exchg.10).md">Database Files</a>
-      </p>
-    </td>
-    <td>
-      <p>&lt;db file name&gt;</p>
-    </td>
-    <td>
-      <p>&lt;db file name&gt;</p>
-    </td>
-    <td>
-      <p>&lt;db file name&gt;</p>
-    </td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>
-      <p>
-        <a href="gg294069(v=exchg.10).md">Flush Map Files</a>
-      </p>
-    </td>
-    <td>
-      <p>N/A</p>
-    </td>
-    <td>
-      <p>N/A</p>
-    </td>
-    <td>
-      <p>N/A</p>
-    </td>
-    <td>
-      <p>&lt;db file name without extension&gt;.jfm</p>
-    </td>
-  </tr>
-</table>
+
+| Label | Value |
+|--------|-------|
+|  | 
+
 
 
 ### Transaction Log Files
@@ -316,13 +143,13 @@ When you manually copy or move a database file, its corresponding flush map file
 
 The size of a flush map file is directly proportional to its associated database file and approximately equal to (all sizes in bytes, result must be rounded up to the next multiple of 8,192):
 
-    8,192 + ((<database file size> / <database page size>) / 4)
+`8,192 + ((<database file size> / <database page size>) / 4)`
 
 For example: for a 1.5GB database using a 32KB page size, the approximate size of the flush map is 24,576 bytes (or 24KB).
 
 The flush map file needs to be refreshed as database pages are flushed. If transactional logging is enabled (for example, [JET_paramRecovery](./transaction-log-parameters.md) set to "on", the default), refreshing the flush map is performed as the client application makes modifications to the database. On average, the entire flush map is written to the non-volatile media once for every 20% of [JET_paramCheckpointDepthMax](./database-cache-parameters.md) -worth (in bytes) of transactional logs generated. The number of write operations depends on how distributed throughout the database the modifications are. But it is at most, approximately (all sizes in bytes):
 
-    <flush map file size> / JET_paramMaxCoalesceWriteSize
+`<flush map file size> / JET_paramMaxCoalesceWriteSize`
 
 If transactional logging is disabled (for example, [JET_paramRecovery](./transaction-log-parameters.md) set to "off"), the flush map gets refreshed only once when the database is explicitly detached cleanly (via [JetDetachDatabase](./jetdetachdatabase-function.md), or implicitly detached cleanly by terminating its associated ESE instance (via any of the [JetTerm](./jetterm-function.md) functions, as long as [JET_bitTermDirty](./jetterm2-function.md) is not passed).
 

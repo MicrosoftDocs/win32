@@ -15,11 +15,7 @@ api_location:
 
 Samples a texture using a mipmap-level offset.
 
-
-
-|                                                                                                  |
-|--------------------------------------------------------------------------------------------------|
-| &lt;Template Type&gt; Object.SampleLevel( sampler\_state S, float Location, float LOD \[, int Offset\] ); |
+&lt;Template Type&gt; Object.SampleLevel( sampler\_state S, float Location, float LOD \[, int Offset\] );
 
 
 
@@ -33,8 +29,8 @@ This function is similar to [Sample](dx-graphics-hlsl-to-sample.md) except that 
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">

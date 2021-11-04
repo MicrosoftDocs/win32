@@ -1,5 +1,5 @@
 ---
-description: The GetTimeFormat method retrieves the current time format. This method implements the IMediaSeeking::GetTimeFormat method.
+description: CSourceSeeking.GetTimeFormat method - The GetTimeFormat method retrieves the current time format. This method implements the IMediaSeeking::GetTimeFormat method.
 ms.assetid: c90804f7-9a0a-423c-8b26-87abf15eddc5
 title: CSourceSeeking.GetTimeFormat method (Ctlutil.h)
 ms.topic: reference
@@ -67,7 +67,7 @@ The only time format supported by the base class is TIME\_FORMAT\_MEDIA\_TIME (1
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Ctlutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

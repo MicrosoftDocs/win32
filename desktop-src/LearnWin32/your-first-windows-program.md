@@ -1,9 +1,9 @@
 ---
 title: Module 1. Your First Windows Program
-description: .
+description: Module 1. Your First Windows Program
 ms.assetid: 73848144-bf02-4382-a476-7f5a35447727
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 09/10/2021
 ---
 
 # Module 1. Your First Windows Program
@@ -26,7 +26,7 @@ Here is the complete code for the program:
 
 LRESULT CALLBACK WindowProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam);
 
-int WINAPI wWinMain(HINSTANCE hInstance, HINSTANCE, PWSTR pCmdLine, int nCmdShow)
+int WINAPI wWinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, PWSTR pCmdLine, int nCmdShow)
 {
     // Register the window class.
     const wchar_t CLASS_NAME[]  = L"Sample Window Class";

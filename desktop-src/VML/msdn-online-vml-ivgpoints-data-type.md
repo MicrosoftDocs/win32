@@ -19,7 +19,7 @@ Array of points that define a shape.
 
 
 
-|        |                                                |
+| &nbsp; |  &nbsp;                                        |
 |--------|------------------------------------------------|
 | Value  | String. Text representation of array.          |
 | Length | Integer. Number of points in this array.       |

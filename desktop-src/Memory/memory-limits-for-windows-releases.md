@@ -3,31 +3,12 @@ description: This topic describes the memory limits for supported Windows and Wi
 ms.assetid: de09c8af-0ed8-4fd4-b8e8-2c921aafe6f2
 title: Memory Limits for Windows and Windows Server Releases
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 09/10/2021
 ---
 
 # Memory Limits for Windows and Windows Server Releases
 
 This topic describes the memory limits for supported Windows and Windows Server releases.
-
--   [Memory and Address Space Limits](#memory-limits-for-windows-and-windows-server-releases)
--   [Physical Memory Limits: Windows 10](#physical-memory-limits-windows-10)
--   [Physical Memory Limits: Windows Server 2016](#physical-memory-limits-windows-server-2016)
--   [Physical Memory Limits: Windows 8](#physical-memory-limits-windows-8)
--   [Physical Memory Limits: Windows Server 2012](#physical-memory-limits-windows-server-2012)
--   [Physical Memory Limits: Windows 7](#physical-memory-limits-windows-7)
--   [Physical Memory Limits: Windows Server 2008 R2](#physical-memory-limits-windows-server-2008-r2)
--   [Physical Memory Limits: Windows Server 2008](#physical-memory-limits-windows-server-2008-r2)
--   [Physical Memory Limits: Windows Vista](#physical-memory-limits-windows-vista)
--   [Physical Memory Limits: Windows Home Server](#physical-memory-limits-windows-home-server)
--   [Physical Memory Limits: Windows Server 2003 R2](#physical-memory-limits-windows-server-2003-r2)
--   [Physical Memory Limits: Windows Server 2003 with Service Pack 2 (SP2)](#physical-memory-limits-windows-server-2003-with-service-pack-2-sp2)
--   [Physical Memory Limits: Windows Server 2003 with Service Pack 1 (SP1)](#physical-memory-limits-windows-server-2003-with-service-pack-1-sp1)
--   [Physical Memory Limits: Windows Server 2003](#physical-memory-limits-windows-server-2003-r2)
--   [Physical Memory Limits: Windows XP](#physical-memory-limits-windows-xp)
--   [Physical Memory Limits: Windows Embedded](#physical-memory-limits-windows-embedded)
--   [How graphics cards and other devices affect memory limits](#how-graphics-cards-and-other-devices-affect-memory-limits)
--   [Related topics](#related-topics)
 
 Limits on memory and address space vary by platform, operating system, and by whether the **IMAGE\_FILE\_LARGE\_ADDRESS\_AWARE** value of the [**LOADED\_IMAGE**](/windows/win32/api/dbghelp/ns-dbghelp-loaded_image) structure and [4-gigabyte tuning](4-gigabyte-tuning.md) (4GT) are in use. **IMAGE\_FILE\_LARGE\_ADDRESS\_AWARE** is set or cleared by using the [/LARGEADDRESSAWARE](/cpp/build/reference/largeaddressaware-handle-large-addresses?view=vs-2019) linker option.
 
@@ -245,8 +226,8 @@ The following table specifies the limits on physical memory for Windows Server 
 
 | Version                                                                      | Limit on X86                                 | Limit on X64        | Limit on IA64   |
 |------------------------------------------------------------------------------|----------------------------------------------|---------------------|-----------------|
-| Windows Server 2003 with Service Pack 1 (SP1), Datacenter Edition<br/> | 64 GB<br/> (16 GB with 4GT)<br/> | X64 1 TB<br/> | 1 TB<br/> |
-| Windows Server 2003 with Service Pack 1 (SP1), Enterprise Edition<br/> | 64 GB<br/> (16 GB with 4GT)<br/> | X64 1 TB<br/> | 1 TB<br/> |
+| Windows Server 2003 with Service Pack 1 (SP1), Datacenter Edition<br/> | 64 GB<br/> (16 GB with 4GT)<br/> | 1 TB<br/> | 1 TB<br/> |
+| Windows Server 2003 with Service Pack 1 (SP1), Enterprise Edition<br/> | 64 GB<br/> (16 GB with 4GT)<br/> | 1 TB<br/> | 1 TB<br/> |
 | Windows Server 2003 with Service Pack 1 (SP1), Standard Edition<br/>   | 4 GB<br/>                              | 32 GB<br/>    |                 |
 
 

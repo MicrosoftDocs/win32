@@ -15,11 +15,7 @@ api_location:
 
 Samples a texture, after applying the input bias to the mipmap level.
 
-
-
-|                                                                                                  |
-|--------------------------------------------------------------------------------------------------|
-| &lt;Template Type&gt; Object.SampleBias( sampler\_state S, float Location, float Bias \[, int Offset\] ); |
+&lt;Template Type&gt; Object.SampleBias( sampler\_state S, float Location, float Bias \[, int Offset\] );
 
 
 
@@ -31,8 +27,8 @@ Samples a texture, after applying the input bias to the mipmap level.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">

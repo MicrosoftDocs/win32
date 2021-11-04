@@ -1,5 +1,5 @@
 ---
-Description: The SetSyncPoint method specifies whether the beginning of this sample is a synchronization point. This method implements the IMediaSample::SetSyncPoint method.
+description: The SetSyncPoint method specifies whether the beginning of this sample is a synchronization point. This method implements the IMediaSample::SetSyncPoint method.
 ms.assetid: 48fc5145-7cce-4e76-860d-45a0d5b43b67
 title: CMediaSample.SetSyncPoint method (Amfilter.h)
 ms.topic: reference
@@ -56,7 +56,7 @@ This method updates the [**CMediaSample::m\_dwFlags**](cmediasample-m-dwflags.md
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Amfilter.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

@@ -1,6 +1,6 @@
 ---
 title: External.OnChangeViewOnlineListError Event
-description: Note This topic describes functionality designed for use by online stores.
+description: Note This topic describes functionality designed for use by online stores. | External.OnChangeViewOnlineListError Event
 ms.assetid: f53dfc80-a7d7-42b1-b390-e90aa108145f
 keywords:
 - External.OnChangeViewOnlineListError Event Windows Media Player
@@ -92,7 +92,7 @@ The same string that was passed in the **ViewMode** parameter of **changeViewOnl
 
 
 
-|                    |                                                                                    |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------|
 | Version<br/> | Windows Media Player 11<br/>                                                 |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |

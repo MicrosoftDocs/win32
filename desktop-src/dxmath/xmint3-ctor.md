@@ -21,47 +21,13 @@ Constructs instances of the [**XMINT3**](/windows/win32/api/directxmath/ns-direc
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;">Constructor</th>
-<th style="text-align: left;">Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;">[<strong>XMINT3 (const int32_t*)</strong>](/windows/win32/api/directxmath/nf-directxmath-xmint3-xmint3(constint32_t))</td>
-<td style="text-align: left;">Initializes a new instance of <code>XMINT3</code> from a three element <code>int32_t</code> array argument.<br/> This constructor initializes a new instance of [<strong>XMINT3</strong>](/windows/win32/api/directxmath/ns-directxmath-xmint3) from a from a three element <code>int32_t</code> array argument.<br/>
-<blockquote>
-[!Note]<br />
-This constructor is only available under C++.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">[<strong>XMINT3 (int32_t,int32_t,int32_t)</strong>](/windows/win32/api/directxmath/nf-directxmath-xmint3-xmint3(int32_t_int32_t_int32_t))</td>
-<td style="text-align: left;">Initializes a new instance of <code>XMINT3</code> from three <code>int32_t</code> arguments.<br/> This constructor initializes a new instance of [<strong>XMINT3</strong>](/windows/win32/api/directxmath/ns-directxmath-xmint3) from three <code>int32_t</code> arguments.<br/>
-<blockquote>
-[!Note]<br />
-This constructor is only available under C++.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">[<strong>XMINT3 ()</strong>](/windows/win32/api/directxmath/nf-directxmath-xmint3-xmint3(constxmint3_))</td>
-<td style="text-align: left;">Default constructor for <code>XMINT3</code>.<br/> Default constructor for [<strong>XMINT3</strong>](/windows/win32/api/directxmath/ns-directxmath-xmint3).<br/>
-<blockquote>
-[!Note]<br />
-This constructor is only available under C++.
-</blockquote>
-<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Constructor | Description | 
+|-------------|-------------|
+| [<strong>XMINT3 (const int32_t*)</strong>](/windows/win32/api/directxmath/nf-directxmath-xmint3-xmint3(constint32_t)) | Initializes a new instance of <code>XMINT3</code> from a three element <code>int32_t</code> array argument.<br /> This constructor initializes a new instance of [<strong>XMINT3</strong>](/windows/win32/api/directxmath/ns-directxmath-xmint3) from a from a three element <code>int32_t</code> array argument.<br /><blockquote>[!Note]<br />This constructor is only available under C++.</blockquote><br /> | 
+| [<strong>XMINT3 (int32_t,int32_t,int32_t)</strong>](/windows/win32/api/directxmath/nf-directxmath-xmint3-xmint3(int32_t_int32_t_int32_t)) | Initializes a new instance of <code>XMINT3</code> from three <code>int32_t</code> arguments.<br /> This constructor initializes a new instance of [<strong>XMINT3</strong>](/windows/win32/api/directxmath/ns-directxmath-xmint3) from three <code>int32_t</code> arguments.<br /><blockquote>[!Note]<br />This constructor is only available under C++.</blockquote><br /> | 
+| [<strong>XMINT3 ()</strong>](/windows/win32/api/directxmath/nf-directxmath-xmint3-xmint3(constxmint3_)) | Default constructor for <code>XMINT3</code>.<br /> Default constructor for [<strong>XMINT3</strong>](/windows/win32/api/directxmath/ns-directxmath-xmint3).<br /><blockquote>[!Note]<br />This constructor is only available under C++.</blockquote><br /> | 
+
 
 
 
@@ -69,7 +35,7 @@ This constructor is only available under C++.
 
 
 
-|                   |                                                                                          |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Directxmath.h</dt> </dl> |
 

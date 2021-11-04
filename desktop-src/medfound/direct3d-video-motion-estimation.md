@@ -138,15 +138,5 @@ Use [ID3D12VideoMotionEstimator::GetProtectedResourceSession](/windows/win32/api
 
 ## Related topics
 
-<dl> <dt>
-[Direct3D 12 Video APIs](direct3d-12-video-apis.md)
-[Media Foundation Programming Guide](media-foundation-programming-guide.md)
-</dt> </dl>
-
- 
-
- 
-
-
-
-
+* [Direct3D 12 Video APIs](direct3d-12-video-apis.md)
+* [Media Foundation Programming Guide](media-foundation-programming-guide.md)

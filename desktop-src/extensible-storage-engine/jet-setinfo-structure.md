@@ -27,11 +27,13 @@ _**Applies to:** Windows | Windows Server_
 
 The **JET_SETINFO** structure contains optional input parameters for [JetSetColumn](./jetsetcolumn-function.md). A **NULL** pointer can be passed where a pointer to this structure would otherwise be passed. The meaning of passing a **NULL** is the same as passing **JET_SETINFO** with **cbStruct** set to sizeof(JET_SETINFO), **ibLongValue** set to 0 (zero) and **itagSequence** set to 1.
 
-    typedef struct {
-      unsigned long cbStruct;
-      unsigned long ibLongValue;
-      unsigned long itagSequence;
-    } JET_SETINFO;
+```cpp
+typedef struct {
+  unsigned long cbStruct;
+  unsigned long ibLongValue;
+  unsigned long itagSequence;
+} JET_SETINFO;
+```
 
 ### Members
 
@@ -51,26 +53,13 @@ With a column that can contain multiple values, it is only possible to use a seq
 
 ### Requirements
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Client</strong></p></td>
-<td><p>Requires Windows Vista, Windows XP, or Windows 2000 Professional.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Server</strong></p></td>
-<td><p>Requires Windows Server 2008, Windows Server 2003, or Windows 2000 Server.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>Header</strong></p></td>
-<td><p>Declared in Esent.h.</p></td>
-</tr>
-</tbody>
-</table>
+
+| Requirement | Value |
+|------------|----------|
+| <p><strong>Client</strong></p> | <p>Requires Windows Vista, Windows XP, or Windows 2000 Professional.</p> | 
+| <p><strong>Server</strong></p> | <p>Requires Windows Server 2008, Windows Server 2003, or Windows 2000 Server.</p> | 
+| <p><strong>Header</strong></p> | <p>Declared in Esent.h.</p> | 
+
 
 
 ### See Also

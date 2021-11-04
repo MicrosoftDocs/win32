@@ -27,7 +27,7 @@ DWORD ORSetValue(
   _In_     ORHKEY Handle,
   _In_opt_ PCWSTR lpValueName,
   _In_     DWORD  dwType,
-  _In_opt_ BYTE   lpData,
+  _In_opt_ const BYTE *lpData,
   _In_     DWORD  cbData
 );
 ```
@@ -95,7 +95,7 @@ Value sizes are limited by available memory. Long values (more than 2048 bytes) 
 
 
 
-|                            |                                                                                       |
+| Requirement | Value |
 |----------------------------|---------------------------------------------------------------------------------------|
 | Redistributable<br/> | Windows Offline Registry library version 1.0 or later<br/>                      |
 | Header<br/>          | <dl> <dt>Offreg.h</dt> </dl>   |

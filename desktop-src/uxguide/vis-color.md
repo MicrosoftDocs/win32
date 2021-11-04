@@ -9,7 +9,7 @@ ms.date: 10/20/2020
 # Color
 
 > [!NOTE]
-> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](https://docs.microsoft.com/windows/uwp/design/).
+> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](/windows/uwp/design/).
 
 Color is an important visual element of most user interfaces. Beyond pure aesthetics, color has associated meanings and elicits emotional responses. To prevent confusion in meaning, color must be used consistently. To obtain the desired emotional responses, color must be used appropriately.
 
@@ -212,9 +212,8 @@ All the screen elements should be legible and appear as expected, even immediate
 
 
 
-|                                      |                                                                               |                                                                                                                                                                 |
+| Hue | Meaning | Use in Windows  |
 |--------------------------------------|-------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Hue**<br/>                   | **Meaning**<br/>                                                        | **Use in Windows**<br/>                                                                                                                                   |
 | blue/green<br/>                | Windows brand<br/>                                                      | Background: Windows branding.<br/>                                                                                                                        |
 | glass, black, gray, white<br/> | neutral<br/>                                                            | Background: standard window frames, Start menu, taskbar, Sidebar.<br/> Foreground: normal text.<br/>                                                |
 | blue<br/>                      | start, commit<br/>                                                      | Background: default command buttons, search, log on.<br/> Icons: information, Help.<br/> Foreground: main instructions, links.<br/>           |
@@ -272,6 +271,4 @@ In this example, there are three different shades of yellow, but only the highly
 ![screen shot of message containing 'gold bar' ](images/vis-color-image18.png)
 
 In the incorrect example, the message refers to the Windows Internet Explorer information bar by its color instead of its name.
-
- 
 

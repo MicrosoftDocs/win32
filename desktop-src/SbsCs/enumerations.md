@@ -1,5 +1,5 @@
 ---
-description: The side-by-side assembly API uses the following enumerations.
+description: Learn about the enumerations that are used in the side-by-side assembly API, such as ASM_CMP_FLAGS and CREATE_ASM_NAME_OBJ_FLAGS.
 ms.assetid: e73c37e3-7879-4754-b39c-91be64fc8d73
 title: Side-by-Side Assembly Enumerations
 ms.topic: article

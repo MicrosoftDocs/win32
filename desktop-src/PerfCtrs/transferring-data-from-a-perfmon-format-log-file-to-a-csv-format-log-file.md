@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Converting Data from a Binary-format Log File to a CSV-format Log File
 
-The following example transfers data from a counter log file created by the Performance tool to a comma separated format (.csv). The example transfers Processor Time counter data collected from the local computer. To specify another type of counter data, change the szCounterPath variable. If the collected counter data is from a specific computer, add the computer name to the path (for example, "\\\\\\\\<computername>\\\\Processor(0)\\\\% Processor Time").
+The following example transfers data from a counter log file created by the Performance tool to a comma separated format (.csv). The example transfers Processor Time counter data collected from the local computer. To specify another type of counter data, change the szCounterPath variable. If the collected counter data is from a specific computer, add the computer name to the path (for example, "\\\\\\\\&lt;computername&gt;\\\\Processor(0)\\\\% Processor Time").
 
 
 ```C++

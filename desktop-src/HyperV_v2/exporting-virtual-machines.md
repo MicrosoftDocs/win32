@@ -151,56 +151,56 @@ const wmiSuccessful = 0
 Main()
 
 
-&#39;-----------------------------------------------------------------
-&#39; Main
-&#39;-----------------------------------------------------------------
+'-----------------------------------------------------------------
+' Main
+'-----------------------------------------------------------------
 Sub Main()
 
     dim computer, objArgs, vmName, vm, exportDirectory
     
-    set fileSystem = Wscript.CreateObject(&quot;Scripting.FileSystemObject&quot;)
-    computer = &quot;.&quot;
-    set objWMIService = GetObject(&quot;winmgmts:\\&quot; & computer & &quot;\root\virtualization\v2&quot;)
-    set managementService = objWMIService.ExecQuery(&quot;select * from Msvm_VirtualSystemManagementService&quot;).ItemIndex(0)
+    set fileSystem = Wscript.CreateObject("Scripting.FileSystemObject")
+    computer = "."
+    set objWMIService = GetObject("winmgmts:\\" & computer & "\root\virtualization\v2")
+    set managementService = objWMIService.ExecQuery("select * from Msvm_VirtualSystemManagementService").ItemIndex(0)
     
     set objArgs = WScript.Arguments
     if WScript.Arguments.Count = 2 then
         vmName = objArgs.Unnamed.Item(0)
         exportDirectory = objArgs.Unnamed.Item(1)
     else
-        WScript.Echo &quot;usage: cscript ExportSystemDefinitionSnapshots.vbs vmName exportDirectoryName&quot;
+        WScript.Echo "usage: cscript ExportSystemDefinitionSnapshots.vbs vmName exportDirectoryName"
         WScript.Quit(1)
     end if
     
     set vm = GetComputerSystem(vmName)
 
     if ExportSystemDefinitionSnapshots(vm, exportDirectory) then
-        WriteLog &quot;Done&quot;
+        WriteLog "Done"
         WScript.Quit(0)
     else
-        WriteLog &quot;ExportSystemDefinitionSnapshots Failed.&quot;
+        WriteLog "ExportSystemDefinitionSnapshots Failed."
         WScript.Quit(1)
     end if
 End Sub
 
-&#39;-----------------------------------------------------------------
-&#39; Retrieve Msvm_VirtualComputerSystem from base on its ElementName
-&#39;-----------------------------------------------------------------
+'-----------------------------------------------------------------
+' Retrieve Msvm_VirtualComputerSystem from base on its ElementName
+'-----------------------------------------------------------------
 Function GetComputerSystem(vmElementName)
     On Error Resume Next
     dim query
-    query = Format1(&quot;select * from Msvm_ComputerSystem where ElementName = &#39;{0}&#39;&quot;, vmElementName)
+    query = Format1("select * from Msvm_ComputerSystem where ElementName = '{0}'", vmElementName)
     set GetComputerSystem = objWMIService.ExecQuery(query).ItemIndex(0)
     if (Err.Number <> 0) then
-        WriteLog Format1(&quot;Err.Number: {0}&quot;, Err.Number)
-        WriteLog Format1(&quot;Err.Description:{0}&quot;,Err.Description)
+        WriteLog Format1("Err.Number: {0}", Err.Number)
+        WriteLog Format1("Err.Description:{0}",Err.Description)
         WScript.Quit(1)
     end if
 End Function
 
-&#39;-----------------------------------------------------------------
-&#39; Get Last Snapshot of a Virtual System
-&#39;-----------------------------------------------------------------
+'-----------------------------------------------------------------
+' Get Last Snapshot of a Virtual System
+'-----------------------------------------------------------------
 Function GetLastVirtualSystemSnapshot(computerSystem, snapshot)
 
     dim objVSSDs, vssd
@@ -208,20 +208,20 @@ Function GetLastVirtualSystemSnapshot(computerSystem, snapshot)
 
     GetLastVirtualSystemSnapshot = false
 
-    query = Format1(&quot;ASSOCIATORS OF {{0}} WHERE resultClass = Msvm_VirtualSystemsettingData&quot;, computerSystem.Path_.Path)
+    query = Format1("ASSOCIATORS OF {{0}} WHERE resultClass = Msvm_VirtualSystemsettingData", computerSystem.Path_.Path)
     set objVSSDs = objWMIService.ExecQuery(query)
     
     for each vssd in objVSSDs
-    if vssd.SettingType = 5 then &#39;SettingType = 5 means it is a snapshot
+    if vssd.SettingType = 5 then 'SettingType = 5 means it is a snapshot
             GetLastVirtualSystemSnapshot = true
         set snapshot = vssd
     end if
     next
 End Function
 
-&#39;-----------------------------------------------------------------
-&#39; Export a virtual system
-&#39;-----------------------------------------------------------------
+'-----------------------------------------------------------------
+' Export a virtual system
+'-----------------------------------------------------------------
 Function ExportSystemDefinitionSnapshots(computerSystem, exportDirectory)
 
     dim objInParam, objOutParams 
@@ -237,10 +237,10 @@ Function ExportSystemDefinitionSnapshots(computerSystem, exportDirectory)
         fileSystem.CreateFolder(exportDirectory)
     end if
     
-    set objInParam = managementService.Methods_(&quot;ExportSystemDefinition&quot;).InParameters.SpawnInstance_()
+    set objInParam = managementService.Methods_("ExportSystemDefinition").InParameters.SpawnInstance_()
     objInParam.ComputerSystem = computerSystem.Path_.Path
 
-    query = Format1(&quot;ASSOCIATORS OF {{0}} WHERE resultClass = Msvm_VirtualSystemExportSettingData&quot;, computerSystem.Path_.Path)
+    query = Format1("ASSOCIATORS OF {{0}} WHERE resultClass = Msvm_VirtualSystemExportSettingData", computerSystem.Path_.Path)
     set exportSettingData = objWMIService.ExecQuery(query).ItemIndex(0)
     exportSettingData.CopyVmStorage = true
     exportSettingData.CopyVmRuntimeInformation = true
@@ -248,7 +248,7 @@ Function ExportSystemDefinitionSnapshots(computerSystem, exportDirectory)
     exportSettingData.CopySnapshotConfiguration = 2
     isSnapshotPresent = GetLastVirtualSystemSnapshot(computerSystem, lastSnapshot)
     if isSnapshotPresent = false then
-        WriteLog &quot;No snapshots were found on the VM when trying to export snapshot as VM.&quot;
+        WriteLog "No snapshots were found on the VM when trying to export snapshot as VM."
         ExportSystemDefinitionSnapshots = false
     Exit Function
     end if
@@ -258,7 +258,7 @@ Function ExportSystemDefinitionSnapshots(computerSystem, exportDirectory)
 
     objInParam.ExportDirectory = exportDirectory
     
-    set objOutParams = managementService.ExecMethod_(&quot;ExportSystemDefinition&quot;, objInParam)
+    set objOutParams = managementService.ExecMethod_("ExportSystemDefinition", objInParam)
 
     if objOutParams.ReturnValue = wmiStarted then
         if (WMIJobCompleted(objOutParams)) then
@@ -267,14 +267,14 @@ Function ExportSystemDefinitionSnapshots(computerSystem, exportDirectory)
     elseif (objOutParams.ReturnValue = wmiSuccessful) then
         ExportSystemDefinitionSnapshots = true
     else
-        WriteLog Format1(&quot;ExportSystemDefinitionSnapshots failed with ReturnValue {0}&quot;, objOutParams.ReturnValue)
+        WriteLog Format1("ExportSystemDefinitionSnapshots failed with ReturnValue {0}", objOutParams.ReturnValue)
     end if
 
 End Function
 
-&#39;-----------------------------------------------------------------
-&#39; Handle wmi Job object
-&#39;-----------------------------------------------------------------
+'-----------------------------------------------------------------
+' Handle wmi Job object
+'-----------------------------------------------------------------
 Function WMIJobCompleted(outParam)
     
     dim WMIJob, jobState
@@ -286,45 +286,45 @@ Function WMIJobCompleted(outParam)
     jobState = WMIJob.JobState
 
     while jobState = JobRunning or jobState = JobStarting
-        WriteLog Format1(&quot;In progress... {0}% completed.&quot;,WMIJob.PercentComplete)
+        WriteLog Format1("In progress... {0}% completed.",WMIJob.PercentComplete)
         WScript.Sleep(1000)
         set WMIJob = objWMIService.Get(outParam.Job)
         jobState = WMIJob.JobState
     wend
 
     if (jobState <> JobCompleted) then
-        WriteLog Format1(&quot;ErrorCode:{0}&quot;, WMIJob.ErrorCode)
-        WriteLog Format1(&quot;ErrorDescription:{0}&quot;, WMIJob.ErrorDescription)
+        WriteLog Format1("ErrorCode:{0}", WMIJob.ErrorCode)
+        WriteLog Format1("ErrorDescription:{0}", WMIJob.ErrorDescription)
         WMIJobCompleted = false
     end if
 
 End Function
 
-&#39;-----------------------------------------------------------------
-&#39; Create the console log files.
-&#39;-----------------------------------------------------------------
+'-----------------------------------------------------------------
+' Create the console log files.
+'-----------------------------------------------------------------
 Sub WriteLog(line)
     dim fileStream
-    set fileStream = fileSystem.OpenTextFile(&quot;.\ExportSystemDefinition-ExportSnapshot.log&quot;, 8, true)
+    set fileStream = fileSystem.OpenTextFile(".\ExportSystemDefinition-ExportSnapshot.log", 8, true)
     WScript.Echo line
     fileStream.WriteLine line
     fileStream.Close
 
 End Sub
 
-&#39;------------------------------------------------------------------------------
-&#39; The string formatting functions to avoid string concatenation.
-&#39;------------------------------------------------------------------------------
+'------------------------------------------------------------------------------
+' The string formatting functions to avoid string concatenation.
+'------------------------------------------------------------------------------
 Function Format2(myString, arg0, arg1)
     Format2 = Format1(myString, arg0)
-    Format2 = Replace(Format2, &quot;{1}&quot;, arg1)
+    Format2 = Replace(Format2, "{1}", arg1)
 End Function
 
-&#39;------------------------------------------------------------------------------
-&#39; The string formatting functions to avoid string concatenation.
-&#39;------------------------------------------------------------------------------
+'------------------------------------------------------------------------------
+' The string formatting functions to avoid string concatenation.
+'------------------------------------------------------------------------------
 Function Format1(myString, arg0)
-    Format1 = Replace(myString, &quot;{0}&quot;, arg0)
+    Format1 = Replace(myString, "{0}", arg0)
 End Function
 ```
 
@@ -334,17 +334,6 @@ End Function
 
 ## Related topics
 
-<dl> <dt>
-
 [Exporting the configuration of a virtual machine](exporting-the-configuration-of-a-virtual-machine.md)
-</dt> <dt>
 
 [**ExportSystemDefinition**](exportsystemdefinition-msvm-virtualsystemmanagementservice.md)
-</dt> </dl>
-
- 
-
- 
-
-
-

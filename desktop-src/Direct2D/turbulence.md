@@ -31,7 +31,7 @@ The Turbulence effect computes the sum of one or more octaves of the Perlin nois
 
 If you select the D2D1\_TURBULENCE\_NOISE\_FRACTAL\_SUM noise mode the effect uses this equation.
 
-![the turbulence function used to generate a bitmap.](images/turbulence-equation1.png)
+![Screenshot that shows the turbulence function used to generate a bitmap.](images/turbulence-equation1.png)
 
 If you select the D2D1\_TURBULENCE\_NOISE\_TURBULENCE noise mode the effect uses this equation.
 
@@ -48,59 +48,17 @@ This effect outputs pixel values in premultiplied alpha.
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Display name and index enumeration</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Offset<br/> D2D1_TURBULENCE_PROP_OFFSET<br/></td>
-<td>The coordinates where the turbulence output is generated.<br/> The algorithm used to generate the Perlin noise is position dependent, so a different offset results in a different output. This property is not bounded and the units are specified in DIPs <br/>
-<blockquote>
-[!Note]<br />
-The offset does not have the same effect as a translation because the noise function output is infinite and the function will wrap around the tile.
-</blockquote>
-<br/> The type is D2D1_VECTOR_2F.<br/> The default value is {0.0f, 0.0f}.<br/></td>
-</tr>
-<tr class="even">
-<td>Size<br/> D2D1_TURBULENCE_PROP_SIZE<br/></td>
-<td>The size of the turbulence output.<br/> This property is not bounded and the units are specified in DIPs <br/>
-<br/> The type is D2D1_VECTOR_2F.<br/> The default value is {0.0f, 0.0f}.<br/></td>
-</tr>
-<tr class="odd">
-<td>BaseFrequency<br/> D2D1_TURBULENCE_PROP_BASE_FREQUENCY<br/></td>
-<td>The base frequencies in the X and Y direction. This property is a float and must be greater than 0. The units are specified in 1/DIPs. <br/> A value of 1 (1/DIPs) for the base frequency results in the Perlin noise completing an entire cycle between two pixels. The ease interpolation for these pixels results in completely random pixels, since there is no correlation between the pixels.<br/> A value of 0.1(1/DIPs) for the base frequency, the Perlin noise function repeats every 10 DIPs. This results in correlation between pixels and the typical turbulence effect is visible.<br/> The type is D2D1_VECTOR_2F.<br/> The default value is {0.01f, 0.01f}.<br/></td>
-</tr>
-<tr class="even">
-<td>NumOctaves<br/> D2D1_TURBULENCE_PROP_NUM_OCTAVES<br/></td>
-<td>The number of octaves for the noise function. This property is a UINT32 and must be greater than 0.<br/> The type is UINT32.<br/> The default value is 1.<br/></td>
-</tr>
-<tr class="odd">
-<td>Seed<br/> D2D1_TURBULENCE_PROP_SEED<br/></td>
-<td>The seed for the pseudo random generator. This property is unbounded.<br/> The type is UINT32.<br/> The default value is 0.<br/></td>
-</tr>
-<tr class="even">
-<td>Noise<br/> D2D1_TURBULENCE_PROP_NOISE<br/></td>
-<td>The turbulence noise mode. This property can be either <em>fractal sum</em> or <em>turbulence</em>. Indicates whether to generate a bitmap based on Fractal Noise or the Turbulence function. See <a href="#noise-modes">Noise modes</a> for more info. <br/> The type is D2D1_TURBULENCE_NOISE.<br/> The default value is D2D1_TURBULENCE_NOISE_FRACTAL_SUM.<br/></td>
-</tr>
-<tr class="odd">
-<td>Stitchable<br/> D2D1_TURBULENCE_PROP_STITCHABLE<br/></td>
-<td>Turns stitching on or off. The base frequency is adjusted so that output bitmap can be stitched. This is useful if you want to tile multiple copies of the turbulence effect output.
-<ul>
-<li>True   The output bitmap can be tiled (using the tile effect) without the appearance of seams. The base frequency is adjusted so that output bitmap can be stitched.</li>
-<li>False   The base frequency is not adjusted, so seams may appear between tiles if the bitmap is tiled.</li>
-</ul>
-<br/> The type is BOOL.<br/> The default value is FALSE.<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Display name and index enumeration | Description | 
+|------------------------------------|-------------|
+| Offset<br /> D2D1_TURBULENCE_PROP_OFFSET<br /> | The coordinates where the turbulence output is generated.<br /> The algorithm used to generate the Perlin noise is position dependent, so a different offset results in a different output. This property is not bounded and the units are specified in DIPs <br /><blockquote>[!Note]<br />The offset does not have the same effect as a translation because the noise function output is infinite and the function will wrap around the tile.</blockquote><br /> The type is D2D1_VECTOR_2F.<br /> The default value is {0.0f, 0.0f}.<br /> | 
+| Size<br /> D2D1_TURBULENCE_PROP_SIZE<br /> | The size of the turbulence output.<br /> This property is not bounded and the units are specified in DIPs <br /><br /> The type is D2D1_VECTOR_2F.<br /> The default value is {0.0f, 0.0f}.<br /> | 
+| BaseFrequency<br /> D2D1_TURBULENCE_PROP_BASE_FREQUENCY<br /> | The base frequencies in the X and Y direction. This property is a float and must be greater than 0. The units are specified in 1/DIPs. <br /> A value of 1 (1/DIPs) for the base frequency results in the Perlin noise completing an entire cycle between two pixels. The ease interpolation for these pixels results in completely random pixels, since there is no correlation between the pixels.<br /> A value of 0.1(1/DIPs) for the base frequency, the Perlin noise function repeats every 10 DIPs. This results in correlation between pixels and the typical turbulence effect is visible.<br /> The type is D2D1_VECTOR_2F.<br /> The default value is {0.01f, 0.01f}.<br /> | 
+| NumOctaves<br /> D2D1_TURBULENCE_PROP_NUM_OCTAVES<br /> | The number of octaves for the noise function. This property is a UINT32 and must be greater than 0.<br /> The type is UINT32.<br /> The default value is 1.<br /> | 
+| Seed<br /> D2D1_TURBULENCE_PROP_SEED<br /> | The seed for the pseudo random generator. This property is unbounded.<br /> The type is UINT32.<br /> The default value is 0.<br /> | 
+| Noise<br /> D2D1_TURBULENCE_PROP_NOISE<br /> | The turbulence noise mode. This property can be either <em>fractal sum</em> or <em>turbulence</em>. Indicates whether to generate a bitmap based on Fractal Noise or the Turbulence function. See <a href="#noise-modes">Noise modes</a> for more info. <br /> The type is D2D1_TURBULENCE_NOISE.<br /> The default value is D2D1_TURBULENCE_NOISE_FRACTAL_SUM.<br /> | 
+| Stitchable<br /> D2D1_TURBULENCE_PROP_STITCHABLE<br /> | Turns stitching on or off. The base frequency is adjusted so that output bitmap can be stitched. This is useful if you want to tile multiple copies of the turbulence effect output.<ul><li>True   The output bitmap can be tiled (using the tile effect) without the appearance of seams. The base frequency is adjusted so that output bitmap can be stitched.</li><li>False   The base frequency is not adjusted, so seams may appear between tiles if the bitmap is tiled.</li></ul><br /> The type is BOOL.<br /> The default value is FALSE.<br /> | 
+
 
 
 

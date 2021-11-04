@@ -129,7 +129,7 @@ For dynamic textures, it is sometimes desirable to use a pair of video memory an
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3D9Types.h</dt> </dl> |
 

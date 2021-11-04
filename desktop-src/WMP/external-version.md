@@ -1,6 +1,6 @@
 ---
 title: External.version
-description: Note This topic describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The version property retrieves the current version of Windows Media Player.
+description: Note This topic describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The version property retrieves the current version of Windows Media Player. | External.version
 ms.assetid: c6747a33-d62c-44e3-98b5-1d74607b998d
 keywords:
 - External.version Windows Media Player
@@ -39,7 +39,7 @@ This property is a read-only **String**.
 
 
 
-|                    |                                                                                    |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------|
 | Version<br/> | Windows Media Player 9 Series or later<br/>                                  |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |

@@ -1,6 +1,16 @@
 {
   "redirections": [
       {
+            "source_path": "desktop-src/SecAuthN/tls-cipher-suites.md",
+            "redirect_url": "/windows/win32/secauthn/cipher-suites-in-schannel",
+            "redirect_document_id": false
+      },
+      {
+            "source_path": "desktop-src/SecAuthN/private-communications-technology.md",
+            "redirect_url": "/windows/win32/secauthn/protocols-in-tls-ssl--schannel-ssp-",
+            "redirect_document_id": false
+      },
+      {
             "source_path": "desktop-src/SensorsAPI/for-more-information.md",
             "redirect_url": "/windows/win32/SensorsAPI/introduction-to-the-sensor-and-location-platform-in-windows",
             "redirect_document_id": false
@@ -592,7 +602,12 @@
     },
     {
       "source_path": "desktop-src/directcomp/index.md",
-      "redirect_url": "/windows/desktop/directcomp/directcomposition-portal",
+      "redirect_url": "/windows/win32/directcomp/directcomposition-portal",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "desktop-src/comp_swapchain/index.md",
+      "redirect_url": "/windows/win32/comp_swapchain/comp-swapchain-portal",
       "redirect_document_id": false
     },
     {
@@ -721,6 +736,11 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "desktop-src/ics/index.md",
+      "redirect_url": "/windows/win32/ics/firewall-dynamic-keywords",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "desktop-src/imapi/index.md",
       "redirect_url": "/windows/desktop/imapi/portal",
       "redirect_document_id": false
@@ -763,11 +783,6 @@
     {
       "source_path": "desktop-src/lwef/index.md",
       "redirect_url": "/windows/desktop/lwef/legacy-windows-environment",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "desktop-src/MachineLearning/index.md",
-      "redirect_url": "/windows/desktop/MachineLearning/machine-learning-portal",
       "redirect_document_id": false
     },
     {
@@ -886,6 +901,26 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "desktop-src/ProcThread/getprocessdefaultcpusets.md",
+      "redirect_url": "/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getprocessdefaultcpusetmasks",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "desktop-src/ProcThread/getthreadselectedcpusets.md",
+      "redirect_url": "/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getthreadselectedcpusets",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "desktop-src/ProcThread/setprocessdefaultcpusets.md",
+      "redirect_url": "/windows/desktop/api/processthreadsapi/nf-processthreadsapi-setprocessdefaultcpusets",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "desktop-src/ProcThread/setthreadselectedcpusets.md",
+      "redirect_url": "/windows/desktop/api/processthreadsapi/nf-processthreadsapi-setthreadselectedcpusets",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "desktop-src/ProjFS/index.md",
       "redirect_url": "/windows/desktop/projfs/projected-file-system",
       "redirect_document_id": false
@@ -933,6 +968,11 @@
     {
       "source_path": "desktop-src/SecAuthN/index.md",
       "redirect_url": "/windows/desktop/SecAuthN/authentication-portal",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "desktop-src/SecAuthN/tls-cipher-suites-in-windows-10-v21H1.md",
+      "redirect_url": "/windows/desktop/SecAuthN/tls-cipher-suites-in-windows-server-2022",
       "redirect_document_id": false
     },
     {
@@ -1213,6 +1253,11 @@
     {
       "source_path": "desktop-src/windowsribbon/windowsribbon-hol.md",
       "redirect_url": "/windows/desktop/windowsribbon/windowsribbon-samples-entry",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "desktop-src/windowsribbon/windowsribbon-element-dynamicui.md",
+      "redirect_url": "/windows/desktop/windowsribbon/-uiplat-windowsribbon-entry",
       "redirect_document_id": false
     },
     {
@@ -42488,6 +42533,111 @@
 {
       "source_path": "desktop-src/search/-search-new-for-win7.md",
       "redirect_url": "/windows/win32/search/-search-3x-wds-overview",
+      "redirect_document_id": false
+},
+{
+      "source_path": "desktop-src/SecAuthN/iccgdomainauthcredentials-getpasswordcredentials.md",
+      "redirect_url": "/windows/win32/api/ccgplugins/nf-ccgplugins-iccgdomainauthcredentials-getpasswordcredentials",
+      "redirect_document_id": false
+},
+{
+      "source_path": "desktop-src/SecAuthN/-iccgdomainauthcredentials.md",
+      "redirect_url": "/windows/win32/api/ccgplugins/nn-ccgplugins-iccgdomainauthcredentials",
+      "redirect_document_id": false
+},
+{
+      "source_path": "desktop-src/direct3d12/dml-barriers.md",
+      "redirect_url": "/windows/ai/directml/dml-barriers",
+      "redirect_document_id": false
+},
+{
+      "source_path": "desktop-src/direct3d12/dml-binding.md",
+      "redirect_url": "/windows/ai/directml/dml-binding",
+      "redirect_document_id": false
+},
+{
+      "source_path": "desktop-src/direct3d12/dml-debug-layer.md",
+      "redirect_url": "/windows/ai/directml/dml-debug-layer",
+      "redirect_document_id": false
+},
+{
+      "source_path": "desktop-src/direct3d12/dml-directmlx.md",
+      "redirect_url": "/windows/ai/directml/dml-directmlx",
+      "redirect_document_id": false
+},
+{
+      "source_path": "desktop-src/direct3d12/dml-errors.md",
+      "redirect_url": "/windows/ai/directml/dml-errors",
+      "redirect_document_id": false
+},
+{
+      "source_path": "desktop-src/direct3d12/dml-feature-level-history.md",
+      "redirect_url": "/windows/ai/directml/dml-feature-level-history",
+      "redirect_document_id": false
+},
+{
+      "source_path": "desktop-src/direct3d12/dml-fused-activations.md",
+      "redirect_url": "/windows/ai/directml/dml-fused-activations",
+      "redirect_document_id": false
+},
+{
+      "source_path": "desktop-src/direct3d12/dml-helper-functions.md",
+      "redirect_url": "/windows/ai/directml/dml-helper-functions",
+      "redirect_document_id": false
+},
+{
+      "source_path": "desktop-src/direct3d12/dml-intro.md",
+      "redirect_url": "/windows/ai/directml/dml-intro",
+      "redirect_document_id": false
+},
+{
+      "source_path": "desktop-src/direct3d12/dml-min-app.md",
+      "redirect_url": "/windows/ai/directml/dml-min-app",
+      "redirect_document_id": false
+},
+{
+      "source_path": "desktop-src/direct3d12/dml-resource-lifetime.md",
+      "redirect_url": "/windows/ai/directml/dml-resource-lifetime",
+      "redirect_document_id": false
+},
+{
+      "source_path": "desktop-src/direct3d12/dml-strides.md",
+      "redirect_url": "/windows/ai/directml/dml-strides",
+      "redirect_document_id": false
+},
+{
+      "source_path": "desktop-src/direct3d12/dml-version-history.md",
+      "redirect_url": "/windows/ai/directml/dml-version-history",
+      "redirect_document_id": false
+},
+{
+      "source_path": "desktop-src/direct3d12/dml.md",
+      "redirect_url": "/windows/ai/directml/dml",
+      "redirect_document_id": false
+},
+{
+      "source_path": "desktop-src/direct3d12/gpu-accelerated-training.md",
+      "redirect_url": "/windows/ai/directml/gpu-accelerated-training",
+      "redirect_document_id": false
+},
+{
+      "source_path": "desktop-src/direct3d12/gpu-cuda-in-wsl.md",
+      "redirect_url": "/windows/ai/directml/gpu-cuda-in-wsl",
+      "redirect_document_id": false
+},
+{
+      "source_path": "desktop-src/direct3d12/gpu-faq.yml",
+      "redirect_url": "/windows/ai/directml/gpu-faq",
+      "redirect_document_id": false
+},
+{
+      "source_path": "desktop-src/direct3d12/gpu-tensorflow-windows.md",
+      "redirect_url": "/windows/ai/directml/gpu-tensorflow-windows",
+      "redirect_document_id": false
+},
+{
+      "source_path": "desktop-src/direct3d12/gpu-tensorflow-wsl.md",
+      "redirect_url": "/windows/ai/directml/gpu-tensorflow-wsl",
       "redirect_document_id": false
 }
   ]

@@ -1,5 +1,5 @@
 ---
-description: Sets an array of transposed matrices.
+description: ID3DXTextureShader::SetMatrixTransposeArray method - Sets an array of transposed matrices.
 ms.assetid: 100288f2-44f0-4e75-bffb-78732c50a55c
 title: ID3DXTextureShader::SetMatrixTransposeArray method (D3DX9Shader.h)
 ms.topic: reference
@@ -78,7 +78,7 @@ A transposed matrix contains column-major data; that is, each vector is containe
 
 
 
-|                    |                                                                                          |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Shader.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>     |

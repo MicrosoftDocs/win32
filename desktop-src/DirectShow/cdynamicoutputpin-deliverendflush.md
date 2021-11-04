@@ -1,5 +1,5 @@
 ---
-description: The DeliverEndFlush method requests the connected input pin to end a flush operation.
+description: CDynamicOutputPin.DeliverEndFlush method - The DeliverEndFlush method requests the connected input pin to end a flush operation.
 ms.assetid: e37bf06a-6cdc-4f14-bf2e-7a7d7004cff6
 title: CDynamicOutputPin.DeliverEndFlush method (Amfilter.h)
 ms.topic: reference
@@ -47,7 +47,7 @@ This method overrides the [**CBaseOutputPin::DeliverEndFlush**](cbaseoutputpin-d
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Amfilter.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

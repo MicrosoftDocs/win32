@@ -9,7 +9,7 @@ ms.date: 10/20/2020
 # Animations and Transitions
 
 > [!NOTE]
-> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](https://docs.microsoft.com/windows/uwp/design/).
+> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](/windows/uwp/design/).
 
 Strategic use of animations and transitions can make your program easier to understand, feel smoother, more natural, and of higher quality, and be more engaging. But the gratuitous use of animations and transitions can make your program distracting and even annoying.
 
@@ -21,7 +21,7 @@ Microsoft Windows uses a background flash animation to give feedback that the ob
 
 Transitions are animations used to keep users oriented during user interface (UI) state changes and object manipulations, and make those changes feel smooth instead of jarring. Good transitions feel natural, often giving the illusion that users are interacting with real-world objects.
 
-![screen shot of three sizes of weather gadgets ](images/vis-animations-image2.png)
+![Screenshot that shows three sizes of weather gadgets.](images/vis-animations-image2.png)
 
 Windows Desktop Gadgets use smooth transitions between their concise and details states.
 
@@ -363,7 +363,7 @@ Animations have several usage patterns:
 
 
 
-|                                                                                                                  |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+|   Usage                                                                                                               |   Description                                     |
 |------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Hover feedback**<br/> to show where the interaction point is. <br/>                                | Indicates that the interaction point is active. hover can be shown through a static effect as well.<br/> windows vocabulary: display hover effect (bounding rectangle, highlight, enlargement) with a fade in/fade out effect for smoothness. <br/> ![screen shot of one of six album covers highlighted ](images/vis-animations-image24.png)<br/> In the Zune digital media player, album covers highlight and add playback controls on hover.<br/>                                                                                                                                                                                                                 |
 | **Click feedback**<br/> to show that a clickable object is responsive and received a click. <br/>    | Indicates that an object has been clicked.<br/> windows vocabulary: flash object background on click down event. to show touch contact, use a ripple effect. <br/> ![photo of finger on touch screen showing ripples ](images/vis-animations-image25.png)<br/> Touch displays a ripple animation so that the user knows the interaction was recognized.<br/>                                                                                                                                                                                                                                                                                                         |
@@ -381,7 +381,7 @@ Transitions have several usage patterns:
 
 
 
-|                                                                                                                                                                                                            |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+|      Usage                                                                                                                                                                                                      |    Description                                                                                                                                                                                                                |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Object grow/shrink/appear**<br/> to change an object's size or state smoothly. <br/>                                                                                                         | Object changes between states, possibly while moving. transition keeps users oriented during changes.<br/> windows vocabulary: morph, change size, object slides in or out. <br/> ![screen shot of three sizes of weather gadgets ](images/vis-animations-image31.png)<br/> In this example, the Weather Gadget morphs from its concise state to display its Options dialog box.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 | **Content show/hide/change**<br/> to show, hide, or change content smoothly, typically for progressive disclosure. <br/>                                                                       | Window interior reshapes to display more, less, or different content. transition keeps users oriented during changes.<br/> windows vocabulary: pane slides in or out. flyout windows fade in and out. different content fades or rolls in. <br/> ![screen shot of three sizes of calculator ](images/vis-animations-image32.png)<br/> The Windows Calculator has a smooth transition between view modes.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
@@ -516,13 +516,12 @@ Transitions have several usage patterns:
 
 
 
-|                           |                                      |
-|---------------------------|--------------------------------------|
-| **Transition**<br/> | **Meaning**<br/>               |
-| From left<br/>      | Move back in task flow<br/>    |
-| From right<br/>     | Move forward in task flow<br/> |
-| From top<br/>       | Move up task hierarchy<br/>    |
-| From bottom<br/>    | Move down task hierarchy<br/>  |
+    | Transition                          | Meaning                                     |
+    |---------------------------|--------------------------------------|
+    | From left<br/>      | Move back in task flow<br/>    |
+    | From right<br/>     | Move forward in task flow<br/> |
+    | From top<br/>       | Move up task hierarchy<br/>    |
+    | From bottom<br/>    | Move down task hierarchy<br/>  |
 
 
 
@@ -647,6 +646,4 @@ Examples:
 -   You'll know that an item needs your attention when its icon starts bouncing.
 -   First, select the photos that you would like to print (note that the photos are enlarged upon selection).
 -   Use a cross-fade transition to change an object's state seamlessly.
-
- 
 

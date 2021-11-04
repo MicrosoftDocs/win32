@@ -1,12 +1,12 @@
 ---
 description: The topics in this section provide the reference specifications for Input Source Identification enumerations.
 ms.assetid: 0DED867D-75FF-4343-BBB7-D71E7FF7D217
-title: Enumerations
+title: Input Source Identification enumerations
 ms.topic: article
 ms.date: 02/05/2020
 ---
 
-# Enumerations
+# Input Source Identification enumerations
 
 The topics in this section provide the reference specifications for [Input Source Identification](input-source-identification-portal.md) enumerations.
 

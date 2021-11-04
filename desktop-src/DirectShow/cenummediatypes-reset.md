@@ -1,5 +1,5 @@
 ---
-Description: The Reset method resets the enumeration sequence to the beginning. This method implements the IEnumMediaTypes::Reset method.
+description: The Reset method resets the enumeration sequence to the beginning. This method implements the IEnumMediaTypes::Reset method.
 ms.assetid: 3a5388d5-eaab-47af-b45e-c75199a22f02
 title: CEnumMediaTypes.Reset method (Amfilter.h)
 ms.topic: reference
@@ -43,7 +43,7 @@ Returns S\_OK.
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Amfilter.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

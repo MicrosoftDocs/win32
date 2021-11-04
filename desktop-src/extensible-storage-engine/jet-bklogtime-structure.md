@@ -100,28 +100,12 @@ This field should be ignored.
 
 If this event is a backup, this flag contains one of the following possible values:
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Name</p></th>
-<th><p>Value</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>streaming backup</p></td>
-<td><p>0 (zero)</p></td>
-</tr>
-<tr class="even">
-<td><p>snapshot backup</p></td>
-<td><p>1</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Name</p> | <p>Value</p> | 
+|-------------|--------------|
+| <p>streaming backup</p> | <p>0 (zero)</p> | 
+| <p>snapshot backup</p> | <p>1</p> | 
+
 
 
 **fReserved**
@@ -134,26 +118,13 @@ This structure is used when debugging.
 
 ### Requirements
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Client</strong></p></td>
-<td><p>Requires Windows Vista.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Server</strong></p></td>
-<td><p>Requires Windows Server 2008.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>Header</strong></p></td>
-<td><p>Declared in Esent.h.</p></td>
-</tr>
-</tbody>
-</table>
+
+| Requirement | Value |
+|------------|----------|
+| <p><strong>Client</strong></p> | <p>Requires Windows Vista.</p> | 
+| <p><strong>Server</strong></p> | <p>Requires Windows Server 2008.</p> | 
+| <p><strong>Header</strong></p> | <p>Declared in Esent.h.</p> | 
+
 
 
 ### See Also

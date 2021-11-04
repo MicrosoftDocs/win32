@@ -63,72 +63,23 @@ The native version of the database engine that created the database. See [JetGet
 
 Tracks incremental database format updates that are backward compatible.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>ulVersion, ulUpdate =</p></th>
-<th><p>Meaning</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>0x620,0</p></td>
-<td><p>Original operating system Beta format (4/22/97).</p></td>
-</tr>
-<tr class="even">
-<td><p>0x620,1</p></td>
-<td><p>Add columns in the catalog for conditional indexing and OLD (5/29/97).</p></td>
-</tr>
-<tr class="odd">
-<td><p>0x620,2</p></td>
-<td><p>Add the fLocalizedText flag in IDB (6/5/97).</p></td>
-</tr>
-<tr class="even">
-<td><p>0x620,3</p></td>
-<td><p>Add SPLIT_BUFFER to space tree root pages (10/30/97).</p></td>
-</tr>
-<tr class="odd">
-<td><p>0x620,2</p></td>
-<td><p>Revert revision in order for ESE97 to remain forward-compatible (1/28/98).</p></td>
-</tr>
-<tr class="even">
-<td><p>0x620,3</p></td>
-<td><p>Add new tagged columns to catalog (&quot;CallbackData&quot; and &quot;CallbackDependencies&quot;).</p></td>
-</tr>
-<tr class="odd">
-<td><p>0x620,4</p></td>
-<td><p>SLV support: signSLV, fSLVExists in db header (5/5/98).</p></td>
-</tr>
-<tr class="even">
-<td><p>0x620,5</p></td>
-<td><p>New SLV space tree (5/29/98).</p></td>
-</tr>
-<tr class="odd">
-<td><p>0x620,6</p></td>
-<td><p>SLV space map (10/12/98).</p></td>
-</tr>
-<tr class="even">
-<td><p>0x620,7</p></td>
-<td><p>4-byte IDXSEG (12/10/98).</p></td>
-</tr>
-<tr class="odd">
-<td><p>0x620,8</p></td>
-<td><p>New template column format (1/25/99).</p></td>
-</tr>
-<tr class="even">
-<td><p>0x620,9</p></td>
-<td><p>Sorted template columns (6/24/99).</p></td>
-</tr>
-<tr class="odd">
-<td><p>0x623,0</p></td>
-<td><p>New Space Manager (5/15/99).</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>ulVersion, ulUpdate =</p> | <p>Meaning</p> | 
+|------------------------------|----------------|
+| <p>0x620,0</p> | <p>Original operating system Beta format (4/22/97).</p> | 
+| <p>0x620,1</p> | <p>Add columns in the catalog for conditional indexing and OLD (5/29/97).</p> | 
+| <p>0x620,2</p> | <p>Add the fLocalizedText flag in IDB (6/5/97).</p> | 
+| <p>0x620,3</p> | <p>Add SPLIT_BUFFER to space tree root pages (10/30/97).</p> | 
+| <p>0x620,2</p> | <p>Revert revision in order for ESE97 to remain forward-compatible (1/28/98).</p> | 
+| <p>0x620,3</p> | <p>Add new tagged columns to catalog ("CallbackData" and "CallbackDependencies").</p> | 
+| <p>0x620,4</p> | <p>SLV support: signSLV, fSLVExists in db header (5/5/98).</p> | 
+| <p>0x620,5</p> | <p>New SLV space tree (5/29/98).</p> | 
+| <p>0x620,6</p> | <p>SLV space map (10/12/98).</p> | 
+| <p>0x620,7</p> | <p>4-byte IDXSEG (12/10/98).</p> | 
+| <p>0x620,8</p> | <p>New template column format (1/25/99).</p> | 
+| <p>0x620,9</p> | <p>Sorted template columns (6/24/99).</p> | 
+| <p>0x623,0</p> | <p>New Space Manager (5/15/99).</p> | 
+
 
 
 **signDb**
@@ -141,45 +92,15 @@ This is the database state.
 
 The following options are available for this member.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Value</p></th>
-<th><p>Meaning</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_dbstateJustCreated<br />
-1</p></td>
-<td><p>The database was just created.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_dbstateDirtyShutdown<br />
-2</p></td>
-<td><p>The database requires hard or soft recovery to be run in order to become usable or moveable. One should not try to move databases in this state.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_dbstateCleanShutdown<br />
-3</p></td>
-<td><p>The database is in a clean state. The database can be attached without any log files.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_dbstateBeingConverted<br />
-4</p></td>
-<td><p>The database is being upgraded.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_dbstateForceDetach<br />
-5</p></td>
-<td><p>Internal.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Value</p> | <p>Meaning</p> | 
+|--------------|----------------|
+| <p>JET_dbstateJustCreated<br />1</p> | <p>The database was just created.</p> | 
+| <p>JET_dbstateDirtyShutdown<br />2</p> | <p>The database requires hard or soft recovery to be run in order to become usable or moveable. One should not try to move databases in this state.</p> | 
+| <p>JET_dbstateCleanShutdown<br />3</p> | <p>The database is in a clean state. The database can be attached without any log files.</p> | 
+| <p>JET_dbstateBeingConverted<br />4</p> | <p>The database is being upgraded.</p> | 
+| <p>JET_dbstateForceDetach<br />5</p> | <p>Internal.</p> | 
+
 
 
 **lgposConsistent**
@@ -254,26 +175,13 @@ This value is retrieved only if JET_DbInfoMisc was passed to [JetGetDatabaseInfo
 
 ### Requirements
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Client</strong></p></td>
-<td><p>Requires Windows Vista, Windows XP, or Windows 2000 Professional.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Server</strong></p></td>
-<td><p>Requires Windows Server 2008, Windows Server 2003, or Windows 2000 Server.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>Header</strong></p></td>
-<td><p>Declared in Esent.h.</p></td>
-</tr>
-</tbody>
-</table>
+
+| Requirement | Value |
+|------------|----------|
+| <p><strong>Client</strong></p> | <p>Requires Windows Vista, Windows XP, or Windows 2000 Professional.</p> | 
+| <p><strong>Server</strong></p> | <p>Requires Windows Server 2008, Windows Server 2003, or Windows 2000 Server.</p> | 
+| <p><strong>Header</strong></p> | <p>Declared in Esent.h.</p> | 
+
 
 
 ### See Also

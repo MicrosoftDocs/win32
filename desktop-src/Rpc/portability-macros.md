@@ -22,7 +22,7 @@ The RPC tools achieve model, calling, and naming-convention independence by asso
 
 The following figure shows the macro definitions that the MIDL compiler applies to function calls between RPC components:
 
-![](images/prog-a29.png)
+![Diagram showing the macro definitions MIDL applies to function calls.](images/prog-a29.png)
 
 RPC macros are defined as follows.
 

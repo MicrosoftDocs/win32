@@ -16,7 +16,7 @@ This property is read-only.
 
 
 
-|                   |                                    |
+| Label | Value |
 |-------------------|------------------------------------|
 | Property Set GUID | AM\_KSPROPSETID\_TSRateChange      |
 | Property ID       | AM\_RATE\_MaxFullDataRate          |
@@ -30,7 +30,7 @@ This property is read-only.
 
 
 
-|                   |                                                                                       |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Dvdmedia.h</dt> </dl> |
 

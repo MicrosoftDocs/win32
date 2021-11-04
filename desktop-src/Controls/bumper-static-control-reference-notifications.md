@@ -1,6 +1,6 @@
 ---
 title: Static Control Notifications
-description: .
+description: Static Control Notifications
 ms.assetid: 359f7855-85e9-49d9-b73d-a82d441ba957
 ms.topic: article
 ms.date: 05/31/2018

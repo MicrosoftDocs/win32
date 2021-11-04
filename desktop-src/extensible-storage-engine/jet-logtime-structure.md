@@ -27,22 +27,24 @@ _**Applies to:** Windows | Windows Server_
 
 The **JET_LOGTIME** structure holds elements of the date and time of an event.
 
-    typedef struct {
-      char bSeconds;
-      char bMinutes;
-      char bHours;
-      char bDay;
-      char bMonth;
-      char bYear;
-      union {
-        char bFiller1;
-        struct {
-            unsigned char fTimeIsUTC: 1;
-            unsigned char fUnused: 7;
-        };
-      };
-      char bFiller2;
-    } JET_LOGTIME;
+```cpp
+typedef struct {
+  char bSeconds;
+  char bMinutes;
+  char bHours;
+  char bDay;
+  char bMonth;
+  char bYear;
+  union {
+    char bFiller1;
+    struct {
+        unsigned char fTimeIsUTC: 1;
+        unsigned char fUnused: 7;
+    };
+  };
+  char bFiller2;
+} JET_LOGTIME;
+```
 
 ### Members
 
@@ -92,26 +94,13 @@ This structure is meant primarily for usage in debugging.
 
 ### Requirements
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Client</strong></p></td>
-<td><p>Requires Windows Vista, Windows XP, or Windows 2000 Professional.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Server</strong></p></td>
-<td><p>Requires Windows Server 2008, Windows Server 2003, or Windows 2000 Server.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>Header</strong></p></td>
-<td><p>Declared in Esent.h.</p></td>
-</tr>
-</tbody>
-</table>
+
+| Requirement | Value |
+|------------|----------|
+| <p><strong>Client</strong></p> | <p>Requires Windows Vista, Windows XP, or Windows 2000 Professional.</p> | 
+| <p><strong>Server</strong></p> | <p>Requires Windows Server 2008, Windows Server 2003, or Windows 2000 Server.</p> | 
+| <p><strong>Header</strong></p> | <p>Declared in Esent.h.</p> | 
+
 
 
 ### See Also

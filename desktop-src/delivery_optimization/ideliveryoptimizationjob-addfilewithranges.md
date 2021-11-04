@@ -91,49 +91,16 @@ This method returns the following return values, as well as others.
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Return code</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><dl> <dt><strong><strong>S_OK</strong></strong></dt> </dl></td>
-<td>Success.<br/></td>
-</tr>
-<tr class="even">
-<td><dl> <dt><strong>E_INVALIDARG</strong></dt> </dl></td>
-<td>The local file name is NULL or empty string. <br/></td>
-</tr>
-<tr class="odd">
-<td><dl> <dt><strong>E_ACCESSDENIED</strong></dt> </dl></td>
-<td>User does not have permission to write to the specified directory on the client.<br/></td>
-</tr>
-<tr class="even">
-<td><dl> <dt><strong>DO_E_INVALID_RANGE</strong></dt> </dl></td>
-<td>One of the ranges is invalid. For example, InitialOffset is set to <strong>BG_LENGTH_TO_EOF</strong>.<br/></td>
-</tr>
-<tr class="odd">
-<td><dl> <dt><strong>DO_E_OVERLAPPING_RANGES</strong></dt> </dl></td>
-<td>You cannot specify duplicate or overlapping ranges. <br/>
-<blockquote>
-[!Note]<br />
-The ranges are sorted by the offset of the value, not the length. If ranges are entered that have the same offset, but are in reverse order, then this error will be returned. For example, if 100.5 and 100.0 are entered in that order, then you will not be able to add the file to the job.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td><dl> <dt><strong>DO_E_INVALID_STATE</strong></dt> </dl></td>
-<td>The state of the job cannot be <strong>BG_JOB_STATE_CANCELLED</strong> or <strong>BG_JOB_STATE_ACKNOWLEDGED</strong>.<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Return code | Description | 
+|-------------|-------------|
+| <dl><dt><strong><strong>S_OK</strong></strong></dt></dl> | Success.<br /> | 
+| <dl><dt><strong>E_INVALIDARG</strong></dt></dl> | The local file name is NULL or empty string. <br /> | 
+| <dl><dt><strong>E_ACCESSDENIED</strong></dt></dl> | User does not have permission to write to the specified directory on the client.<br /> | 
+| <dl><dt><strong>DO_E_INVALID_RANGE</strong></dt></dl> | One of the ranges is invalid. For example, InitialOffset is set to <strong>BG_LENGTH_TO_EOF</strong>.<br /> | 
+| <dl><dt><strong>DO_E_OVERLAPPING_RANGES</strong></dt></dl> | You cannot specify duplicate or overlapping ranges. <br /><blockquote>[!Note]<br />The ranges are sorted by the offset of the value, not the length. If ranges are entered that have the same offset, but are in reverse order, then this error will be returned. For example, if 100.5 and 100.0 are entered in that order, then you will not be able to add the file to the job.</blockquote><br /> | 
+| <dl><dt><strong>DO_E_INVALID_STATE</strong></dt></dl> | The state of the job cannot be <strong>BG_JOB_STATE_CANCELLED</strong> or <strong>BG_JOB_STATE_ACKNOWLEDGED</strong>.<br /> | 
+
 
 
 

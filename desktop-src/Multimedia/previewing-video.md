@@ -1,6 +1,6 @@
 ---
 title: Previewing Video (Windows Multimedia)
-description: Previewing Video
+description: This example in Windows Multimedia uses capPreviewRate to set the frame display rate for preview mode and capPreview to put the capture window in preview mode.
 ms.assetid: 33ae7d07-5fea-47d7-b60d-4ee412e91dec
 keywords:
 - capPreview macro

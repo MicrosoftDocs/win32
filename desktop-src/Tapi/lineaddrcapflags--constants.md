@@ -27,7 +27,7 @@ The **LINEADDRCAPFLAGS**\_ bit-flag constants are used in the **dwAddrCapFlags**
 
 
 
-The address supports [ACD Groups](../tapi3/about_call_center_controls.md) in connection with call center operations. See [About Call Center Controls](./about-call-center-controls.md) for additional information on ACD groups.
+The address supports [ACD Groups](about-call-center-controls.md#acd-group-object) in connection with call center operations. See [About Call Center Controls](./about-call-center-controls.md) for additional information on ACD groups.
 
 
 </dt> </dl> </dd> <dt>
@@ -340,7 +340,7 @@ No extensibility. All 32 bits are reserved.
 
 
 
-|                         |                                                                                   |
+| Requirement | Value |
 |-------------------------|-----------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 2.0 or later<br/>                                             |
 | Header<br/>       | <dl> <dt>Tapi.h</dt> </dl> |

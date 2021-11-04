@@ -1,5 +1,5 @@
 ---
-description: Contains the number of items in the collection.
+description: ShellWindows.Count property - Contains the number of items in the collection.
 ms.assetid: 0113cc32-2197-4004-99a1-89fe10828e5f
 title: ShellWindows.Count property (Exdisp.h)
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: Learn about the ParameterDef element, which defines the valid characteristics of parameter input. The value is entered by means of a ParameterInit element.
 ms.assetid: cb00edc9-2c8a-446d-989b-a4429ee8f544
 title: ParameterDef
 ms.topic: article
@@ -8,13 +8,13 @@ ms.date: 05/31/2018
 
 # ParameterDef
 
-This topic is not current. For the most current information, see the [Print Schema Specification](https://www.microsoft.com/whdc/xps/printschema.mspx).
+This topic is not current. For the most current information, see the [Print Schema Specification](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip).
 
 A ParameterDef element defines the valid characteristics of parameter input. The value is entered by means of a ParameterInit element.
 
 ## Element Tag
 
-<ParameterDef>
+&lt;ParameterDef&gt;
 
 ## XML Attributes
 
@@ -38,41 +38,13 @@ The following table lists the elements that may be parents of this element, the 
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Category</th>
-<th>Details</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Parent elements<br/></td>
-<td>PrintCapabilities <br/></td>
-</tr>
-<tr class="even">
-<td>Child elements<br/></td>
-<td>Property (one or more)<br/> The following standard Property elements must appear as the content of a ParameterDef element. <br/>
-<ul>
-<li>DataType <br/></li>
-<li>DefaultValue <br/></li>
-<li>Mandatory <br/></li>
-<li>MaxLength or MaxValue<br/></li>
-<li>MinLength or MinValue<br/></li>
-<li>Multiple* <br/></li>
-<li>UnitType <br/></li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>This element<br/></td>
-<td>No character data is permitted.<br/> Duplicate child siblings are not permitted.<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Category | Details | 
+|----------|---------|
+| Parent elements<br /> | PrintCapabilities <br /> | 
+| Child elements<br /> | Property (one or more)<br /> The following standard Property elements must appear as the content of a ParameterDef element. <br /><ul><li>DataType <br /></li><li>DefaultValue <br /></li><li>Mandatory <br /></li><li>MaxLength or MaxValue<br /></li><li>MinLength or MinValue<br /></li><li>Multiple* <br /></li><li>UnitType <br /></li></ul> | 
+| This element<br /> | No character data is permitted.<br /> Duplicate child siblings are not permitted.<br /> | 
+
 
 
 
@@ -118,7 +90,7 @@ The following example sets all of the required Property elements for this parame
 
 <dl> <dt>
 
-[Print Schema Specification](https://www.microsoft.com/whdc/xps/printschema.mspx)
+[Print Schema Specification](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip)
 </dt> </dl>
 
  

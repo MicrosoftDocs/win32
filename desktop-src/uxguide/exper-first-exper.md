@@ -9,7 +9,7 @@ ms.date: 10/20/2020
 # First Experience
 
 > [!NOTE]
-> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](https://docs.microsoft.com/windows/uwp/design/).
+> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](/windows/uwp/design/).
 
 In the ideal first experience, users install your program and use it productively immediately, without answering a bunch of questions or learning a bunch of things.
 
@@ -84,9 +84,8 @@ Present settings and tasks to users during the first experiences when you must, 
 
 
 
-|                                             |                                                                                                                                                    |
+| First experience  | Alternatives       |
 |---------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|
-| **First experience**<br/>             | **Alternatives**<br/>                                                                                                                        |
 | Setup questions<br/>                  | Select appropriate defaults.<br/> Allow users to change from program options.<br/> Provide typical vs. custom setup paths. <br/> |
 | First use questions<br/>              | Select appropriate defaults, and allow users to change from program options.<br/>                                                            |
 | First use tasks<br/>                  | Present contextually instead.<br/>                                                                                                           |
@@ -185,10 +184,4 @@ Windows asks users for the computer name and choice of background during setup b
 -   **Don't use any notifications during the initial Windows experience.** To improve its first experience, Windows 7 suppresses all notifications displayed during the first few hours of usage. Design your program assuming users won't see any such notifications.
 
  
-
- 
-
-
-
-
 

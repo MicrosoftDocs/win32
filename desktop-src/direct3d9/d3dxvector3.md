@@ -1,5 +1,5 @@
 ---
-description: Describes a three-component vector including operator overloads and type casts.
+description: D3DXVECTOR3 structure (D3dx9math.h) - Describes a three-component vector including operator overloads and type casts.
 ms.assetid: 4d73de4b-82fe-452a-8a1e-17208f172a03
 title: D3DXVECTOR3 structure (D3dx9math.h)
 ms.topic: reference
@@ -150,7 +150,7 @@ public:
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3dx9math.h</dt> </dl> |
 

@@ -9,7 +9,7 @@ ms.date: 10/20/2020
 # Control Panels
 
 > [!NOTE]
-> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](https://docs.microsoft.com/windows/uwp/design/).
+> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](/windows/uwp/design/).
 
 Use control panel items to help users configure system-level features and perform related tasks. Programs that have a user interface should be configured directly from their UI instead.
 
@@ -516,12 +516,9 @@ The following guidelines apply to links to task pages, such as Category page tas
 
 -   **Retain similar language between task links and the pages they point to.** Users shouldn't be surprised by the page that is displayed by a link.
 -   **For task pages, design the main instruction, commit buttons, and task links as a related set of text.**
-
-    **Examples:**
-
     
 
-    |                              |                                                       |
+    | Example                             |    Instruction                                                   |
     |------------------------------|-------------------------------------------------------|
     | Task link:<br/>        | Connect to a wireless network<br/>              |
     | Main instruction:<br/> | Choose a network to connect to<br/>             |
@@ -725,6 +722,4 @@ Examples:
 
 -   In Control Panel, open **Parental Controls**.
 -   Return to the main **Parental Controls** page.
-
- 
 

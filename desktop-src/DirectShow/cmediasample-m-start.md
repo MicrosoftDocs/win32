@@ -1,5 +1,5 @@
 ---
-Description: Sample start time. This value is valid only if the CMediaSample::m\_dwFlags member variable contains the AM\_SAMPLE\_TIMEVALID flag.
+description: Sample start time. This value is valid only if the CMediaSample::m\_dwFlags member variable contains the AM\_SAMPLE\_TIMEVALID flag.
 ms.assetid: 31af979b-4c10-4f15-aa8a-90807b5cc156
 title: CMediaSample::m_Start member (Amfilter.h)
 ms.topic: reference
@@ -35,7 +35,7 @@ REFERENCE_TIME m_Start;
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Amfilter.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

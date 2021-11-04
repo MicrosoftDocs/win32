@@ -1,5 +1,5 @@
 ---
-description: The component code of the component in question.
+description: Component.ComponentCode property - The component code of the component in question.
 ms.assetid: 0370660f-b809-4b18-b52d-857605e59e12
 title: Component.ComponentCode property
 ms.topic: reference
@@ -29,7 +29,7 @@ The component code of the component in question. This property calls the [**MsiE
 
 
 
-|                    |                                                                                    |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5.0 or later.<br/>                                         |
 | DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl> |

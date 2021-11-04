@@ -1,5 +1,5 @@
 ---
-description: This topic explains how to create and register property handlers to work with the Windows property system.
+description: This article explains how to initialize property handlers to work with the Windows property system.
 ms.assetid: 3b54dd65-b7db-4e6a-bc3d-1008fdabcfa9
 title: Initializing Property Handlers
 ms.topic: article
@@ -830,7 +830,7 @@ With the property handler implemented, it must be registered and its file name e
 [Registering and Distributing Property Handlers](./prophand-reg-dist.md)
 </dt> <dt>
 
-[Property Handler Best Practices and FAQ](./prophand-bestprac-faq.md)
+[Property Handler Best Practices and FAQ](./prophand-bestprac-faq.yml)
 </dt> </dl>
 
  

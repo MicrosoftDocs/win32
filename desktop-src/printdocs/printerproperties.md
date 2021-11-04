@@ -13,6 +13,7 @@ api_type:
 - DllExport
 api_location: 
 - plotui.dll
+- winspool.drv
 ---
 
 # PrinterProperties function
@@ -72,7 +73,7 @@ If the function fails, the return value is zero.
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
 | Header<br/>                   | <dl> <dt>Winspool.h (include Windows.h)</dt> </dl> |
 | Library<br/>                  | <dl> <dt>Winspool.lib</dt> </dl>                   |
-| DLL<br/>                      | <dl> <dt>Plotui.dll</dt> </dl>                     |
+| DLL<br/>                      | <dl> <dt>winspool.drv</dt> </dl>                     |
 
 
 

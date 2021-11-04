@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 
 
-|               |                           |
+| Type              | Extension                          |
 |---------------|---------------------------|
 | Derived type: | \*LPD3DXMATRIX Extensions |
 

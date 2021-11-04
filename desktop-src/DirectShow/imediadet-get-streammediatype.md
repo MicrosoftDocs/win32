@@ -1,5 +1,5 @@
 ---
-Description: The get\_StreamMediaType method retrieves the media type of the current stream. All video streams are converted to VIDEOINFOHEADER types, and all audio streams are converted to WAVEFORMATEX types.
+description: The get\_StreamMediaType method retrieves the media type of the current stream. All video streams are converted to VIDEOINFOHEADER types, and all audio streams are converted to WAVEFORMATEX types.
 ms.assetid: 7fc15cb3-af77-42c1-b5eb-d1d88bf9cd1d
 title: IMediaDet::get_StreamMediaType method (Qedit.h)
 ms.topic: reference
@@ -71,7 +71,7 @@ If the media detector is in bitmap grab mode, this method returns E\_INVALIDARG.
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

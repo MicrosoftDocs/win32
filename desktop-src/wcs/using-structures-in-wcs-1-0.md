@@ -19,18 +19,18 @@ ms.date: 05/31/2018
 
 Most of the structures used by WCS 1.0 are very straightforward and require little explanation. They are documented in the WCS 1.0 Reference section entitled [Structures](structures.md).
 
-Exceptions are the [**COLORMATCHSETUP**](colormatchsetup.md) structure used by the [**SetupColorMatching**](setupcolormatching.md) function, and the following Windows structures defined in Wingdi.h:
+Exceptions are the [**COLORMATCHSETUPW**](/windows/win32/api/icm/ns-icm-colormatchsetupw) structure used by the [**SetupColorMatchingW**](/windows/win32/api/icm/nf-icm-setupcolormatchingw) function, and the following Windows structures defined in Wingdi.h:
 
--   [BITMAPV5HEADER](#-color-windows-bitmap-header-structures)
+-   [BITMAPV5HEADER](#windows-bitmap-header-structures)
 -   [**LOGCOLORSPACE**](/windows/desktop/api/Wingdi/ns-wingdi-taglogcolorspacea)
 -   [**CIEXYZ**](/windows/desktop/api/Wingdi/ns-wingdi-tagciexyz)
 -   [**CIEXYZTRIPLE**](/windows/desktop/api/Wingdi/ns-wingdi-tagicexyztriple)
 
 The following topics are discussed at greater length:
 
--   [Windows Bitmap Header Structures](#-color-windows-bitmap-header-structures)
--   [Differences Between V4 and V5 Headers](#-color-differences-between-v4-and-v5-headers)
--   [Bitmap.exe: a Command-Line Utility for Converting Bitmap Headers](#-color-bitmap-exe-a-command-line-utility-for-converting-bitmap-headers)
+-   [Windows Bitmap Header Structures](#windows-bitmap-header-structures)
+-   [Differences Between V4 and V5 Headers](#differences-between-v4-and-v5-headers)
+-   [Bitmap.exe: a Command-Line Utility for Converting Bitmap Headers](#bitmapexe-a-command-line-utility-for-converting-bitmap-headers)
 
 ## Windows Bitmap Header Structures
 

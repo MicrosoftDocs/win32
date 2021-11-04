@@ -1,6 +1,6 @@
 ---
 title: TDM_UPDATE_ELEMENT_TEXT message (Commctrl.h)
-description: Updates a text element in a task dialog.
+description: TDM_UPDATE_ELEMENT_TEXT message - Updates a text element in a task dialog.
 ms.assetid: 2df446c8-db87-42b5-b5bd-40fadbf9d45b
 keywords:
 - TDM_UPDATE_ELEMENT_TEXT message Windows Controls

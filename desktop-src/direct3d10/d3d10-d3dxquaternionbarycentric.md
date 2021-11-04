@@ -1,5 +1,5 @@
 ---
-description: Returns a quaternion in barycentric coordinates.
+description: D3DXQuaternionBaryCentric function (D3DX10Math.h) - Returns a quaternion in barycentric coordinates.
 ms.assetid: 0a8d8d5a-f486-4457-86e9-27e76eaf1bc4
 title: D3DXQuaternionBaryCentric function (D3DX10Math.h)
 ms.topic: reference
@@ -121,7 +121,7 @@ Barycentric coordinates define a point inside a triangle in terms of the triangl
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10Math.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl>   |

@@ -1,6 +1,6 @@
 ---
 title: opcodes (MetadataType) Element
-description: Defines a list of opcodes that you can use to group events within a task.
+description: Defines a list of opcodes that you can use to group events within a task. | opcodes (MetadataType) Element
 ms.assetid: 2dd4719b-8f02-4f0b-91b5-ee892a425a00
 keywords:
 - opcodes element EventLog

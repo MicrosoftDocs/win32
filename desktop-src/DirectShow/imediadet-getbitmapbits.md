@@ -1,5 +1,5 @@
 ---
-Description: The GetBitmapBits method retrieves a video frame at the specified media time. The returned frame is always in 24-bit RGB format.
+description: The GetBitmapBits method retrieves a video frame at the specified media time. The returned frame is always in 24-bit RGB format.
 ms.assetid: b51df9d1-9c54-41bd-b0f8-ec290525deca
 title: IMediaDet::GetBitmapBits method (Qedit.h)
 ms.topic: reference
@@ -165,7 +165,7 @@ if (SUCCEEDED(hr))
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

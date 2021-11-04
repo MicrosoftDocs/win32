@@ -1,5 +1,5 @@
 ---
-description: Fills an array with callback key data used for key frame animation.
+description: ID3DXCompressedAnimationSet::GetCallbackKeys method - Fills an array with callback key data used for key frame animation.
 ms.assetid: 0dc30c1f-9ffb-42ec-8074-84293f16c344
 title: ID3DXCompressedAnimationSet::GetCallbackKeys method (D3dx9anim.h)
 ms.topic: reference
@@ -54,7 +54,7 @@ If the method succeeds, the return value is S\_OK. If the method fails, the foll
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9anim.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

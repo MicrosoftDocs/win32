@@ -1,5 +1,5 @@
 ---
-description: Verify that the version of D3DX you compiled with is the version that you are running.
+description: D3DXCheckVersion function - Verify that the version of D3DX you compiled with is the version that you are running.
 ms.assetid: a4e745dd-d573-4e8f-9516-f6a7475f5cc5
 title: D3DXCheckVersion function (D3dx9core.h)
 ms.topic: reference
@@ -86,7 +86,7 @@ Use [**Direct3DCreate9**](/windows/win32/api/d3d9/nf-d3d9-direct3dcreate9) to ve
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9core.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

@@ -9,11 +9,6 @@ api_name:
 api_type: 
 api_location: 
 ms.assetid: 235106cc-ac49-4824-84ec-f7ea867cc028
-api_name: 
-api_type: 
-api_location: 
-topic_type: 
- - kbSyntax
 
 ---
 

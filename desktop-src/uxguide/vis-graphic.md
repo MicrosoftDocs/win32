@@ -9,7 +9,7 @@ ms.date: 10/20/2020
 # Graphic Elements
 
 > [!NOTE]
-> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](https://docs.microsoft.com/windows/uwp/design/).
+> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](/windows/uwp/design/).
 
 *Graphic elements* show relationships, hierarchy, and emphasis visually. They include backgrounds, banners, glass, aggregators, separators, shadows, and handles.
 
@@ -44,7 +44,7 @@ Graphic elements have several usage patterns:
 
 
 
-|                                                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| Element                                                                                                              |   Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 |---------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Graphic illustrations**<br/> use to communicate an idea visually. <br/>                         | Graphic illustrations are similar to icons except that they can be any size and usually aren't interactive. <br/> ![screen shot cpu usage history graph ](images/vis-graphic-image3.png)<br/> In this example, a graphic illustration is used to suggest the nature of a feature.<br/>                                                                                                                                                                                                        |
 | **Backgrounds**<br/> use to emphasize or de-emphasize different types of content. <br/>           | Backgrounds can be used to emphasize important content. <br/> ![screen shot of virus message on red background ](images/vis-graphic-image4.png)<br/> in this example, a background is used to emphasize an important task.<br/> backgrounds can also be used to de-emphasize secondary content. <br/> ![screen shot of control panel items ](images/vis-graphic-image5.png)<br/> In this example, secondary tasks are de-emphasized by locating them in a task pane.<br/>   |
@@ -109,7 +109,7 @@ Graphic elements have several usage patterns:
 -   **Use vertical and horizontal lines for separators.** Be sure to have sufficient space between the separators and the content being separated.
 -   For separators between sizable content (splitters), display the resize pointer on hover.
 
-![screen shot of splitter with resize pointer ](images/vis-graphic-image17.png)
+![Screenshot that shows a splitter with resize pointer.](images/vis-graphic-image17.png)
 
 ![screen shot of splitter with resize pointer ](images/vis-graphic-image18.png)
 
@@ -135,10 +135,4 @@ In these examples, resize pointers are shown on hover.
 -   **For accessibility and localization, don't use any text in graphics.** Make exceptions only to represent [branding](exper-branding.md) and text as an abstract concept.
 
  
-
- 
-
-
-
-
 

@@ -24,7 +24,7 @@ This topic describes VML, a feature that is deprecated as of Windows Internet Ex
 > [!NOTE]
 > As of December 2011, this topic has been archived. As a result, it is no longer actively maintained. For more information, see [Archived Content](/previous-versions/windows/internet-explorer/ie-developer/). For information, recommendations, and guidance regarding the current version of Windows Internet Explorer, see [Internet Explorer Developer Center](https://msdn.microsoft.com/ie/).
 
-Vector Markup Language (VML) is an XML-based exchange, editing, and delivery format for high-quality vector graphics on the Web that meets the needs of both productivity users and graphic design professionals. XML is an emerging simple, flexible, and open text-based language that complements HTML. (See the [XML section](https://msdn.microsoft.com/library?frame=true) of the MSDN Library for detailed information on XML.)
+Vector Markup Language (VML) is an XML-based exchange, editing, and delivery format for high-quality vector graphics on the Web that meets the needs of both productivity users and graphic design professionals. XML is an emerging simple, flexible, and open text-based language that complements HTML. (See the [XML section](/documentation/?frame=true) of the MSDN Library for detailed information on XML.)
 
 VML is currently supported by Microsoft Internet Explorer version 5.0 or later.
 
@@ -67,7 +67,7 @@ Finally, add VML elements to define visuals effects. For example, the following 
 
 See the links below:
 
--   For answers to frequently asked questions about VML, see the [VML FAQ](frequently-asked-questions-about-vml.md).
+-   For answers to frequently asked questions about VML, see the [VML FAQ](frequently-asked-questions-about-vml.yml).
 -   For a tutorial on using VML on Web pages, see [How to Use VML on Web Pages](web-workshop---specs---standards----how-to-use-vml-on-web-pages.md), which complements the [VML specification](https://www.w3.org/TR/NOTE-datetime.html) submitted to the W3C.
 -   For information on VML data types, see the [Basic VML Types](basic-vml-types.md) document.
 -   For the complete reference on VML, including information on how to use VML with tags as well as scripting, see the [VML Reference](msdn-online-vml-introduction.md).

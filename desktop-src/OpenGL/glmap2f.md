@@ -1,6 +1,6 @@
 ---
 title: glMap2f function (Gl.h)
-description: The glMap2d and glMap2f functions define a two-dimensional evaluator.
+description: The glMap2f function defines a two-dimensional evaluator. | glMap2f function (Gl.h)
 ms.assetid: 804fbf65-98a8-41af-8c39-5b83f3d341b0
 keywords:
 - glMap2f function OpenGL
@@ -160,29 +160,29 @@ All polynomial or rational polynomial splines of any degree (up to the maximum d
 
 Evaluators define surfaces based on bivariate Bernstein polynomials. Define **p** (*u*^,*v*^) as
 
-![](images/map05.png)
+![Equation showing the definition of p ().](images/map05.png)
 
 where **R** *ij* is a control point, () is the *i*th Bernstein polynomial of degree
 
 *n* (*uorder* = *n* + 1)
 
-![](images/map06.png)
+![Equation showing the Bernstein polynomial of degree n.](images/map06.png)
 
 and () is the *j*th Bernstein polynomial of degree *m* (*vorder* = *m* + 1)
 
-![](images/map07.png)
+![Equation showing the Bernstein polynomial of degree m.](images/map07.png)
 
 Recall that
 
-![](images/map08.png)
+![Equations showing equivalence to 1.](images/map08.png)
 
 The **glMap2** function is used to define the basis and to specify what kind of values are produced. Once defined, a map can be enabled and disabled by calling [**glEnable**](glenable.md) and **glDisable** with the map name, one of the nine predefined values for *target*, described above. When [**glEvalCoord2**](glevalcoord-functions.md) presents values *u* and *v*, the bivariate Bernstein polynomials are evaluated using *u*^ and *v*^, where
 
-![](images/map09.png)
+![Equation showing the definition of u^.](images/map09.png)
 
 and
 
-![](images/map10.png)
+![Equation showing the definition of v^.](images/map10.png)
 
 The *target* parameter is a symbolic constant that indicates what kind of control points are provided in *points*, and what output is generated when the map is evaluated.
 

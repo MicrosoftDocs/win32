@@ -75,7 +75,7 @@ To modify the pixels of a bitmap source
     {
        hr = m_pIWICFactory->CreateBitmapFromSource(
           pIDecoderFrame,          // Create a bitmap from the image frame
-          WICBitmapCacheOnDemand,  // Cache metadata when needed
+          WICBitmapCacheOnDemand,  // Cache bitmap pixels on first access
           &pIBitmap);              // Pointer to the bitmap
     }
     ```

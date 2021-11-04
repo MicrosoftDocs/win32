@@ -1,5 +1,5 @@
 ---
-description: Constructor method.
+description: CRendererPosPassThru.CRendererPosPassThru constructor - Constructor method.
 ms.assetid: 9d6f40ee-31bf-4334-bee5-4be834f1f269
 title: CRendererPosPassThru.CRendererPosPassThru constructor (Ctlutil.h)
 ms.topic: reference
@@ -72,7 +72,7 @@ Pointer to the [**IPin**](/windows/desktop/api/Strmif/nn-strmif-ipin) interface 
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Ctlutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

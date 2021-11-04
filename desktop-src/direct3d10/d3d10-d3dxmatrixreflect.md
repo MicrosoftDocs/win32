@@ -1,5 +1,5 @@
 ---
-description: Builds a matrix that reflects the coordinate system about a plane.
+description: D3DXMatrixReflect function (D3DX10Math.h) - Builds a matrix that reflects the coordinate system about a plane.
 ms.assetid: bd2c5905-780e-4fac-a848-d7dbcfc390c6
 title: D3DXMatrixReflect function (D3DX10Math.h)
 ms.topic: reference
@@ -84,7 +84,7 @@ P = normalize(Plane);
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10Math.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl>   |

@@ -1,6 +1,6 @@
 ---
 title: PLAYBUTTON
-description: This is a predefined BUTTON with the following default values.
+description: This is a predefined BUTTON with the following default values. | PLAYBUTTON
 ms.assetid: 0d144f34-d536-4138-a7b2-e36a9f85e105
 keywords:
 - PLAYBUTTON Windows Media Player
@@ -34,7 +34,7 @@ All properties of this **BUTTON** can be overridden by explicitly specifying the
 
 
 
-|                    |                                                      |
+| Requirement | Value |
 |--------------------|------------------------------------------------------|
 | Version<br/> | Windows Media Player version 7.0 or later<br/> |
 

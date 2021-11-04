@@ -1,5 +1,5 @@
 ---
-Description: Constructor method.
+description: CMediaSample.CMediaSample constructor - Constructor method.
 ms.assetid: 3ee67cfd-a968-4b7c-9c7b-1c28ddb9c343
 title: CMediaSample.CMediaSample constructor (Amfilter.h)
 ms.topic: reference
@@ -84,7 +84,7 @@ The base class does not modify the **HRESULT** value passed in the *phr* paramet
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Amfilter.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

@@ -1,5 +1,5 @@
 ---
-description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: Learn about the PageBlackGenerationProcessingGrayComponentReplacementStart element, which describes the point where GCR should start.
 ms.assetid: 28ea95a2-e602-4f71-9488-48525e995814
 title: PageBlackGenerationProcessingGrayComponentReplacementStart
 ms.topic: article
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # PageBlackGenerationProcessingGrayComponentReplacementStart
 
-This topic is not current. For the most current information, see the [Print Schema Specification](https://www.microsoft.com/whdc/xps/printschema.mspx).
+This topic is not current. For the most current information, see the [Print Schema Specification](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip).
 
 Describes the point in the "highlight to shadow" range where GCR should start (100% darkest shadow).
 
@@ -19,7 +19,7 @@ Describes the point in the "highlight to shadow" range where GCR should start (1
 
 
 
-| Name                       |                                                            |
+| Name | Value |
 |----------------------------|------------------------------------------------------------|
 | Element Type <br/>   | ParameterDef<br/>                                    |
 | Scoping Prefix <br/> | Page<br/>                                            |
@@ -83,7 +83,7 @@ The following table outlines the characteristics of the variables defined in the
 
 <dl> <dt>
 
-[Print Schema Specification](https://www.microsoft.com/whdc/xps/printschema.mspx)
+[Print Schema Specification](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip)
 </dt> </dl>
 
  

@@ -1,5 +1,5 @@
 ---
-description: .
+description: System.Music.Conductor
 ms.assetid: cb04c41f-35e3-4483-9bc5-5e4f2e45042f
 title: System.Music.Conductor
 ms.topic: article

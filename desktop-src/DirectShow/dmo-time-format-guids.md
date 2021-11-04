@@ -24,7 +24,7 @@ The following table lists the globally unique identifiers (GUIDs) defined for me
 
 
 
-|                   |                                                                                       |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Medparam.h</dt> </dl> |
 

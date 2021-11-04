@@ -1,6 +1,6 @@
 ---
 title: IVMUSBDeviceCollection _NewEnum property (VPCCOMInterfaces.h)
-description: Retrieves an enumerator for the collection.
+description: Retrieves an enumerator for the collection. | IVMUSBDeviceCollection _NewEnum property (VPCCOMInterfaces.h)
 ms.assetid: f14f64a0-e65a-44d6-b053-54bbcb9ea804
 keywords:
 - _NewEnum property Virtual PC

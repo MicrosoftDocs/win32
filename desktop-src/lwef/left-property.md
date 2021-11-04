@@ -1,6 +1,6 @@
 ---
 title: Left Property (Characters Object)
-description: Left Property
+description: Learn about the Left Characters object property. Microsoft Agent is deprecated as of Windows 7.
 ms.assetid: f496f075-6430-4806-a237-1c7b626d355e
 ms.topic: article
 ms.date: 05/31/2018

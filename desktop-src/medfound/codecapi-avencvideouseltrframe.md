@@ -24,33 +24,12 @@ The value of this control includes two fields, where each field has 16 bits.
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><span id="The_first_field"></span><span id="the_first_field"></span><span id="THE_FIRST_FIELD"></span><dl> <dt><strong>The first field</strong></dt> <dt>Bits[0..15]</dt> </dl></td>
-<td>Indicates which LTR frame(s) are allowed for encoding the current frame. <br/> <strong>H.264/AVC encoders:</strong><br/> This is a bitmap that indicates which LTR frames can be used as a reference for this frame. The least significant bit corresponds to LTR index 0, the second least significant bit corresponds to LTR index 1, etc.<br/> This value shall not be 0.<br/> The highest index specified by this value shall not be greater than the maximum number of LTR frames specified in the <a href="codecapi-avencvideoltrbuffercontrol.md">CODECAPI_AVEncVideoLTRBufferControl</a> property less one.<br/></td>
-</tr>
-<tr class="even">
-<td><span id="The_second_field"></span><span id="the_second_field"></span><span id="THE_SECOND_FIELD"></span><dl> <dt><strong>The second field</strong></dt> <dt>Bits[16..31]</dt> </dl></td>
-<td>Flag that indicates whether additional limitations are required for encoding subsequent frames. <br/> <strong>H.264/AVC encoders:</strong><br/> 1 is on the only valid value for this field. All other values are invalid and reserved for future use.<br/> When the flag is 1, the encoder shall encode subsequent frames in encoding order subject to the following constraints:<br/>
-<ul>
-<li>It shall not use short term reference frames in encoding order older than the current frame or future encoding in encoding order.</li>
-<li>It shall not use LTR frames not described by the most recent CODECAPI_AVEncVideoUseLTRFrame control.</li>
-<li>It may use LTR frames updated after the current frame.</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| Value | Meaning | 
+|-------|---------|
+| <span id="The_first_field"></span><span id="the_first_field"></span><span id="THE_FIRST_FIELD"></span><dl><dt><strong>The first field</strong></dt><dt>Bits[0..15]</dt></dl> | Indicates which LTR frame(s) are allowed for encoding the current frame. <br /><strong>H.264/AVC encoders:</strong><br /> This is a bitmap that indicates which LTR frames can be used as a reference for this frame. The least significant bit corresponds to LTR index 0, the second least significant bit corresponds to LTR index 1, etc.<br /> This value shall not be 0.<br /> The highest index specified by this value shall not be greater than the maximum number of LTR frames specified in the <a href="codecapi-avencvideoltrbuffercontrol.md">CODECAPI_AVEncVideoLTRBufferControl</a> property less one.<br /> | 
+| <span id="The_second_field"></span><span id="the_second_field"></span><span id="THE_SECOND_FIELD"></span><dl><dt><strong>The second field</strong></dt><dt>Bits[16..31]</dt></dl> | Flag that indicates whether additional limitations are required for encoding subsequent frames. <br /><strong>H.264/AVC encoders:</strong><br /> 1 is on the only valid value for this field. All other values are invalid and reserved for future use.<br /> When the flag is 1, the encoder shall encode subsequent frames in encoding order subject to the following constraints:<br /><ul><li>It shall not use short term reference frames in encoding order older than the current frame or future encoding in encoding order.</li><li>It shall not use LTR frames not described by the most recent CODECAPI_AVEncVideoUseLTRFrame control.</li><li>It may use LTR frames updated after the current frame.</li></ul> | 
+
 
 
 

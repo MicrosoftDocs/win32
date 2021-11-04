@@ -1,5 +1,5 @@
 ---
-description: Retrieves the current matrix at the top of the stack.
+description: ID3DXMATRIXStack::GetTop method (D3dx9math.h) - Retrieves the current matrix at the top of the stack.
 ms.assetid: 0e20af0a-a332-4cb5-bf87-2ec75aa170ab
 title: ID3DXMATRIXStack::GetTop method (D3dx9math.h)
 ms.topic: reference
@@ -49,7 +49,7 @@ Note that this method does not remove the current matrix from the top of the sta
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9math.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

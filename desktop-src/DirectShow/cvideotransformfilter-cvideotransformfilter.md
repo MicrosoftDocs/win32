@@ -1,5 +1,5 @@
 ---
-description: Constructor method.
+description: CVideoTransformFilter.CVideoTransformFilter constructor - Constructor method.
 ms.assetid: 4dad635f-4637-4f40-9f02-a91b59d05278
 title: CVideoTransformFilter.CVideoTransformFilter constructor (Vtrans.h)
 ms.topic: reference
@@ -64,7 +64,7 @@ Class identifier of the filter.
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Vtrans.h (include Streams.h)</dt> </dl>                                                                                    |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

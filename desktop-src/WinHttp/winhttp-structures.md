@@ -47,6 +47,13 @@ Contains certificate information returned from the server. This structure is use
 
 </dd> <dt>
 
+[**WINHTTP_CONNECTION_GROUP**](/windows/win32/api/Winhttp/ns-winhttp-winhttp_connection_group)
+</dt> <dd>
+
+Represents a connection group.
+
+</dd> <dt>
+
 [**WINHTTP_CONNECTION_INFO**](/windows/desktop/api/Winhttp/ns-winhttp-winhttp_connection_info)
 </dt> <dd>
 
@@ -78,6 +85,34 @@ Contains the Internet Explorer proxy configuration information.
 
 </dd> <dt>
 
+[**WINHTTP_EXTENDED_HEADER**](/windows/win32/api/winhttp/ns-winhttp-winhttp_extended_header)
+</dt> <dd>
+
+Represents an HTTP request header as a name/value string pair.
+
+</dd> <dt>
+
+[**WINHTTP_HEADER_NAME**](/windows/win32/api/winhttp/ns-winhttp-winhttp_header_name)
+</dt> <dd>
+
+Represents an HTTP request header name.
+
+</dd> <dt>
+
+[**WINHTTP_HOST_CONNECTION_GROUP**](/windows/win32/api/Winhttp/ns-winhttp-winhttp_host_connection_group)
+</dt> <dd>
+
+Represents a collection of connection groups.
+
+</dd> <dt>
+
+[**WINHTTP_MATCH_CONNECTION_GUID**](/windows/win32/api/Winhttp/ns-winhttp-winhttp_match_connection_group)
+</dt> <dd>
+
+Represents the GUID of a connection, for purposes of connection-matching.
+
+</dd> <dt>
+
 [**WINHTTP_PROXY_INFO**](/windows/win32/api/winhttp/ns-winhttp-winhttp_proxy_info)
 </dt> <dd>
 
@@ -96,6 +131,13 @@ A collection of proxy result entries provided by [**WinHttpGetProxyResult**](/wi
 </dt> <dd>
 
 A result entry from a call to [**WinHttpGetProxyResult**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpgetproxyresult).
+
+</dd> <dt>
+
+[**WINHTTP_QUERY_CONNECTION_GROUP_RESULT**](/windows/win32/api/Winhttp/ns-winhttp-winhttp_query_connection_group_result)
+</dt> <dd>
+
+Represents a description of the current state of WinHttp's connections.
 
 </dd> <dt>
 

@@ -1,6 +1,6 @@
 ---
 title: Texture2D::GatherCmpBlue(S,float,float,int2,int2,int2,int2,uint) function
-description: Samples a texture, tests the samples against a compare value, and returns the blue component along with status about the operation.
+description: For four texel values that would be used in a bi-linear filtering operation, returns a comparison of their blue component against a compare value along with tile-mapping status. | Texture2D::GatherCmpBlue(S,float,float,int2,int2,int2,int2,uint) function
 ms.assetid: 77051550-B2AC-4C51-9EA2-D803BDB2B153
 keywords:
 - GatherCmpBlue function HLSL
@@ -17,7 +17,7 @@ api_location:
 
 # Texture2D::GatherCmpBlue(S,float,float,int2,int2,int2,int2,uint) function
 
-Samples a texture, tests the samples against a compare value, and returns the blue component along with status about the operation.
+For four texel values that would be used in a bi-linear filtering operation, returns a comparison of their blue component against a compare value along with tile-mapping status.
 
 ## Syntax
 

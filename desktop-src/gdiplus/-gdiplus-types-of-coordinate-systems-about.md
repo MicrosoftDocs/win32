@@ -22,7 +22,7 @@ The coordinates of the endpoints of your line in the three coordinate spaces are
 
 
 
-|        |                         |
+| Space       |  Endpoint coordinates                       |
 |--------|-------------------------|
 | World  | (0, 0) to (160, 80)     |
 | Page   | (100, 50) to (260, 130) |
@@ -58,7 +58,8 @@ myGraphics.DrawLine(&myPen, 0, 0, 2, 1);
 
 
 
-> [!Note] If you don't specify a pen width when you construct your pen, the previous example will draw a line that is one inch wide. You can specify the pen width in the second argument to the [**Pen**](/windows/desktop/api/gdipluspen/nl-gdipluspen-pen) constructor:
+> [!Note]
+> If you don't specify a pen width when you construct your pen, the previous example will draw a line that is one inch wide. You can specify the pen width in the second argument to the [**Pen**](/windows/desktop/api/gdipluspen/nl-gdipluspen-pen) constructor:
 > <br/><br/>
 > `Pen myPen(Color(255, 0, 0, 0), 1/myGraphics.GetDpiX())`.
 
@@ -68,7 +69,7 @@ If we assume that the display device has 96 dots per inch in the horizontal dire
 
 
 
-|        |                     |
+| Space       | Endpoint coordinates                    |
 |--------|---------------------|
 | World  | (0, 0) to (2, 1)    |
 | Page   | (0, 0) to (2, 1)    |
@@ -97,7 +98,7 @@ If we assume that the display device has 96 dots per inch in the horizontal dire
 
 
 
-|        |                         |
+| Space       | Endpoint coordinates                        |
 |--------|-------------------------|
 | World  | (0, 0) to (2, 1)        |
 | Page   | (2, 0.5) to (4, 1.5)    |

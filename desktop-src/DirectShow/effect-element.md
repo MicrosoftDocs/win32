@@ -23,7 +23,7 @@ The `effect` element defines an audio or video effect object. An effect is appli
 
 
 
-|          |                                                                                                                                      |
+| Label | Value |
 |----------|--------------------------------------------------------------------------------------------------------------------------------------|
 | Parent   | [**composite**](composite-element.md), [**group**](group-element.md), [**clip**](clip-element.md), [**track**](track-element.md) |
 | Children | [**param**](param-element.md)                                                                                                       |
@@ -49,7 +49,7 @@ The **clsid** attribute specifies the subobject that creates the effect.
 
 
 
-|                   |                                                                                             |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Gdipluseffects.h</dt> </dl> |
 

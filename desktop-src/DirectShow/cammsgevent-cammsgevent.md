@@ -1,5 +1,5 @@
 ---
-description: Constructor method.
+description: CAMMsgEvent.CAMMsgEvent constructor - Constructor method.
 ms.assetid: 7871a624-70c0-4f21-b62a-2c4c2eaa762b
 title: CAMMsgEvent.CAMMsgEvent constructor (Wxutil.h)
 ms.topic: reference
@@ -50,7 +50,7 @@ For backward compatibility with earlier versions of strmbase.lib, this parameter
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Wxutil.h (include Streams.h)</dt> </dl>                                                                                    |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

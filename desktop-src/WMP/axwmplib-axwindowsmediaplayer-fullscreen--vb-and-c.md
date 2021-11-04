@@ -99,7 +99,7 @@ End Sub
 
 
 
-|                      |                                                                                                                    |
+| Requirement | Value |
 |----------------------|--------------------------------------------------------------------------------------------------------------------|
 | Version<br/>   | Windows Media Player 9 Series or later<br/>                                                                  |
 | Namespace<br/> | **AxWMPLib**<br/>                                                                                            |

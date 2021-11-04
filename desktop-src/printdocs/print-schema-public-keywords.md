@@ -1,5 +1,5 @@
 ---
-description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: This article specifies the public keywords which are defined for the Print Schema, and their usage for PrintCapabilities and PrintTicket.
 ms.assetid: ff966475-626d-4a48-9349-e60454d47c57
 title: Print Schema Public Keywords
 ms.topic: article
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Print Schema Public Keywords
 
-This topic is not current. For the most current information, see the [Print Schema Specification](https://www.microsoft.com/whdc/xps/printschema.mspx).
+This topic is not current. For the most current information, see the [Print Schema Specification](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip).
 
 The following section specifies the public keywords which are defined for the Print Schema.
 
@@ -28,7 +28,7 @@ Keywords specified under PrintCapabilities Public Keywords MAY appear in a Print
 
 <dl> <dt>
 
-[Print Schema Specification](https://www.microsoft.com/whdc/xps/printschema.mspx)
+[Print Schema Specification](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip)
 </dt> </dl>
 
  

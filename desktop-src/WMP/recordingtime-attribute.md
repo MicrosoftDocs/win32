@@ -34,7 +34,7 @@ To determine whether you can change the value of this attribute, use the [Media.
 
 
 
-|                    |                                                                                                                          |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------|
 | Version<br/> | Windows Media Player 9 Series or later (The photo item is supported only in Windows Media Player 10 or later)<br/> |
 

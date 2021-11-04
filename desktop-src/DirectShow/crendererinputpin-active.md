@@ -1,5 +1,5 @@
 ---
-description: The Active method notifies the pin that the filter is now active. This method overrides the CBasePin::Active method.
+description: CRendererInputPin.Active method - The Active method notifies the pin that the filter is now active. This method overrides the CBasePin::Active method.
 ms.assetid: 2e0c773a-1165-4da2-8acc-fe553663408d
 title: CRendererInputPin.Active method (Renbase.h)
 ms.topic: reference
@@ -43,7 +43,7 @@ Returns an **HRESULT** value.
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Renbase.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

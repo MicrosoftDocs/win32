@@ -48,7 +48,7 @@ This method has been replaced by **getNextCheckedItem2**, which supports nested 
 
 
 
-|                    |                                                      |
+| Requirement | Value |
 |--------------------|------------------------------------------------------|
 | Version<br/> | Windows Media Player version 7.0 or later<br/> |
 

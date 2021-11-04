@@ -1,5 +1,5 @@
 ---
-description: The crumb argument supports full Advanced Query Syntax (AQS) statements and is especially useful as a means of controlling the scope of a search.
+description: Understand how to use the CRUMB argument in Windows Search as a means of controlling the scope of a search.
 ms.assetid: b0b974ae-0573-45e4-888e-07138604b62e
 title: CRUMB Argument (Windows Search)
 ms.topic: article
@@ -34,7 +34,7 @@ crumb=<column>:<value>[,<label>][,<column>:<value>[,<label>]]&
 
 
 
-The <column> portion is any property in the property system, and the <value> portion is a valid value for that property. The <label> portion is an optional alias for the property that displays as a user interface hint.
+The &lt;column&gt; portion is any property in the property system, and the &lt;value&gt; portion is a valid value for that property. The <label> portion is an optional alias for the property that displays as a user interface hint.
 
 ### General Examples
 
@@ -62,7 +62,7 @@ When you specify a `location` property, two additional parameters are supported 
 | Parameter | Values                  | Description                                                                                                                                                                       |
 |-----------|-------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | inclusion | include, exclude        | Specifies whether the query should include or exclude items from that path. "Include" is the default. Windows Vista does not support exclusions without inclusions. (See example) |
-| recursion | recursive, nonrecursive | Specifies whether the search should recurse all subfolders starting from the value defined in the location:<value>. "Recursive" is the default.                             |
+| recursion | recursive, nonrecursive | Specifies whether the search should recurse all subfolders starting from the value defined in the location:&lt;value&gt;. "Recursive" is the default.                             |
 
 
 

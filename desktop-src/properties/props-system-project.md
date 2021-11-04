@@ -1,5 +1,5 @@
 ---
-description: .
+description: System.Project
 ms.assetid: c3fbe1ac-eaf6-49d1-92d1-a7115ebbbeba
 title: System.Project
 ms.topic: article

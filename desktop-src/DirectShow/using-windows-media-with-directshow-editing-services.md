@@ -1,5 +1,5 @@
 ---
-Description: Using Windows Media With DirectShow Editing Services
+description: Using Windows Media With DirectShow Editing Services
 ms.assetid: 26a88197-ec80-4443-9d50-e11df40dd1eb
 title: Using Windows Media With DirectShow Editing Services
 ms.topic: article

@@ -14,52 +14,15 @@ This page describes the Asynchronous Call State for RPC calls.
 
 
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>State</th>
-<th>State name</th>
-<th>Action</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>C</td>
-<td>Make the call</td>
-<td>Make the RPC
-<ul>
-<li>On success go to state WComp</li>
-<li>On exception go to End</li>
-</ul>
-To fail: go to Can<br/></td>
-</tr>
-<tr class="even">
-<td>Can</td>
-<td>Cancel the call</td>
-<td>Call <a href="/windows/desktop/api/Rpcasync/nf-rpcasync-rpcasynccancelcall"><strong>RpcAsyncCancelCall</strong></a>Go to WComp<br/></td>
-</tr>
-<tr class="odd">
-<td>WComp</td>
-<td>Wait for completion</td>
-<td>Wait for notificationCall-complete notification should be received<br/> Go to Comp<br/></td>
-</tr>
-<tr class="even">
-<td>Comp</td>
-<td>Completion</td>
-<td>Issue <a href="/windows/desktop/api/Rpcasync/nf-rpcasync-rpcasynccompletecall"><strong>RpcAsyncCompleteCall</strong></a>Go to End<br/></td>
-</tr>
-<tr class="odd">
-<td>End</td>
 
+| State | State name | Action | 
+|-------|------------|--------|
+| C | Make the call | Make the RPC<ul><li>On success go to state WComp</li><li>On exception go to End</li></ul>To fail: go to Can<br /> | 
+| Can | Cancel the call | Call <a href="/windows/desktop/api/Rpcasync/nf-rpcasync-rpcasynccancelcall"><strong>RpcAsyncCancelCall</strong></a>Go to WComp<br /> | 
+| WComp | Wait for completion | Wait for notificationCall-complete notification should be received<br /> Go to Comp<br /> | 
+| Comp | Completion | Issue <a href="/windows/desktop/api/Rpcasync/nf-rpcasync-rpcasynccompletecall"><strong>RpcAsyncCompleteCall</strong></a>Go to End<br /> | 
+| End | 
 
-</tr>
-</tbody>
-</table>
 
 
 

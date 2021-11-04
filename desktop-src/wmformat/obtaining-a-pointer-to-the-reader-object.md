@@ -1,6 +1,6 @@
 ---
 title: Obtaining a Pointer to the Reader Object (Windows Media Format 11 SDK)
-description: Obtaining a Pointer to the Reader Object
+description: Learn about obtaining a Pointer to the Reader Object of the Windows Media Format SDK using the IWMReaderAdvanced2 interface.
 ms.assetid: 70696ffc-2612-460d-b445-f200ba85d3c7
 keywords:
 - Windows Media Format SDK,DirectShow

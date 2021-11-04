@@ -1,5 +1,5 @@
 ---
-description: Note  This interface has been deprecated.
+description: Learn about the IAMFilterData::ParseFilterData method, unpacks the binary registry data for a filter. This interface has been deprecated.
 ms.assetid: 86095fcf-3364-42a0-95db-08223fa3cc20
 title: IAMFilterData::ParseFilterData method (Fil\_data.h)
 ms.topic: reference
@@ -79,7 +79,7 @@ If the method succeeds, it returns S\_OK. If it fails, it returns an error code.
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Fil\_data.h</dt> </dl> |
 | DLL<br/>    | <dl> <dt>Quartz.dll</dt> </dl>  |

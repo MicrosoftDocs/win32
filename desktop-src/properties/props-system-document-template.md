@@ -1,5 +1,5 @@
 ---
-description: .
+description: System.Document.Template
 ms.assetid: 68a68689-e65c-4080-849f-e8a9ef457931
 title: System.Document.Template
 ms.topic: article

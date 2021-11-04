@@ -9,7 +9,7 @@ ms.date: 10/20/2020
 # Progressive Disclosure Controls
 
 > [!NOTE]
-> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](https://docs.microsoft.com/windows/uwp/design/).
+> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](/windows/uwp/design/).
 
 With a progressive disclosure control, users can show or hide additional information including data, options, or commands. Progressive disclosure promotes simplicity by focusing on the essential, yet revealing additional detail as needed.
 
@@ -28,7 +28,7 @@ To decide, consider these questions:
 
 -   **Do users need to see the information in some but not all scenarios, or some but not all of the time?** If so, displaying the information using progressive disclosure simplifies the baseline experience, yet allows users to access the information easily.
 
-    ![screen shot of security center status display ](images/progressive-disclosure-controls-image2.png)
+    ![Screenshot that shows the security center status display.](images/progressive-disclosure-controls-image2.png)
 
     In this example, Security Center displays the important security status all the time, but uses progressive disclosure to display details on demand.
 
@@ -60,7 +60,7 @@ The goals of progressive disclosure are to:
 Both goals can be achieved by using progressive disclosure controls, where users click to see more detail. However, you can achieve the second goal of simplifying the appearance without using explicit progressive disclosure controls by:
 
 -   **Showing contextual detail only in context.** For example, you can show contextual commands or toolbars automatically when relevant to the selected object or mode.
--   **Reducing the weight of affordances for secondary UI.**[Affordances](glossary.md) are visual properties that suggest how objects are used. The trend is to have UI that users can interact with in place, but to have all such UI drawn to scream "click me!" leads to too much visual clutter. For secondary UI, it is often better to use subtle affordances and give the full effects on mouse over.
+-   **Reducing the weight of affordances for secondary UI.** [Affordances](glossary.md) are visual properties that suggest how objects are used. The trend is to have UI that users can interact with in place, but to have all such UI drawn to scream "click me!" leads to too much visual clutter. For secondary UI, it is often better to use subtle affordances and give the full effects on mouse over.
 
     ![screen shot of star icons used to rate photos ](images/progressive-disclosure-controls-image5.png)
 
@@ -88,13 +88,12 @@ Progressive disclosure controls are usually displayed without direct labels that
 
 While users can determine the above by trial and error, you should try to make such experimentation unnecessary.
 
-Progressive disclosure controls have a fairly weak [affordances](glossary.md), which means their visual properties suggest how they are used, albeit weakly. The following table compares the appearance of the common progressive disclosure controls:
+Progressive disclosure controls have a fairly weak [affordance](glossary.md), which means their visual properties suggest how they are used, albeit weakly. The following table compares the appearance of the common progressive disclosure controls:
 
 
 
-|                                                                                                                                                          |                                                                                                                                                                                                             |                                                                                                                                |                                |
+| Control | Purpose  | Appearance | Glyph indicates |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------|--------------------------------|
-| **Control**<br/>                                                                                                                                   | **Purpose**<br/>                                                                                                                                                                                      | **Appearance**<br/>                                                                                                      | **Glyph indicates**<br/> |
 | **Chevrons**<br/> ![screen shot of left/right and up/down chevrons ](images/progressive-disclosure-controls-image7.png)<br/>                 | **Show all:** Show or hide the remaining items in completely or partially hidden content. Items are either shown in place (using a single chevron) or in a pop-up menu (using a double chevron).<br/> | Chevrons point in the direction where the action will occur.<br/>                                                        | Future state<br/>        |
 | **Arrows**<br/> ![screen shot of left/right and up/down arrows ](images/progressive-disclosure-controls-image8.png)<br/>                     | **Show options:** Show a pop-up command menu.<br/>                                                                                                                                                    | Arrows point in the direction where the action will occur.<br/>                                                          | Future state<br/>        |
 | **Plus and minus controls**<br/> ![screen shot of two small plus and minus buttons ](images/progressive-disclosure-controls-image9.png)<br/> | **Expand containers:** Expand or collapse container content in place when navigating through a hierarchy.<br/>                                                                                        | Plus and minus symbols don't point, but the action always occurs to their right.<br/>                                    | Future state<br/>        |
@@ -120,7 +119,7 @@ Chevrons are used in the following ways:
 
 
 
-|                                                                                                                                                                |                                                                                                                                                                                                                                                                                                                 |
+|      Usage                                                                                                                                                          |    Example                                                                                                                                                                                                                                                                                                             |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **In-place UI**<br/> the associated object receives input focus and the single chevron is activated with the space bar.<br/>                       | ![screen shot of security center status display ](images/progressive-disclosure-controls-image11.png)<br/> In these examples, the in-place single chevrons are positioned to the right of their associated control.<br/>                                                                            |
 | **Command buttons with external labels**<br/> the command button receives input focus and the single chevron is activated with the space bar.<br/> | ![screen shot of chevron with 'more options' label ](images/progressive-disclosure-controls-image12.png)<br/> In this example, the single chevron button is labeled and positioned to the left of the label. With this pattern, the button would be difficult to understand without its label.<br/> |
@@ -140,7 +139,7 @@ Arrows are used in the following ways:
 
 
 
-|                                                                                       |                                                                                                                                                                                                                                       |
+|    Usage                                                                                   |    Example                                                                                                                                                                                                                                   |
 |---------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Separate buttons**<br/> the arrow is in a separate button control.<br/> | ![screen shot of arrows to the right of controls ](images/progressive-disclosure-controls-image14.png)<br/> In these examples, separate arrow buttons positioned to the right indicate a command menu.<br/>               |
 | **Command buttons**<br/> the arrow is part of a command button.<br/>      | ![screen shot of label and arrow on command button ](images/progressive-disclosure-controls-image15.png)<br/> In these examples, menu buttons and split buttons have the arrows positioned to the right of the text.<br/> |
@@ -159,9 +158,9 @@ Plus and minus controls are used in the following ways:
 
 
 
-|                                                                                                |                                                                                                                                                                                                                                      |
+|       Usage                                                                                         |       Example                                                                                                                                                                                                                               |
 |------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Collapsible trees**<br/> a multi-level hierarchy to show container content.<br/> | ![screen shot of windows explorer folder tree ](images/progressive-disclosure-controls-image16.png)<br/> In this example, the plus and minus controls are positioned to the left of the associated container.<br/>       |
+| **Collapsible trees**<br/> a multi-level hierarchy to show container content.<br/> | ![Screenshot that shows a Windows Explorer folder tree with 'Behavior' selected.](images/progressive-disclosure-controls-image16.png)<br/> In this example, the plus and minus controls are positioned to the left of the associated container.<br/>       |
 | **Collapsible lists**<br/> a two-level hierarchy to show container content.<br/>   | ![screen shot of list expanded to show two levels ](images/progressive-disclosure-controls-image17.png)<br/> In this example, the plus and minus controls are positioned to the left of the associated list header.<br/> |
 
 
@@ -178,7 +177,7 @@ Rotating triangles are used in the following ways:
 
 
 
-|                                                                                                            |                                                                                                                                                                                                                                 |
+|     Usage                                                                                                       |    Example                                                                                                                                                                                                                             |
 |------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Collapsible trees**<br/> a multi-level hierarchy to show container content.<br/>             | ![screen shot of windows explorer folder tree ](images/progressive-disclosure-controls-image18.png)<br/> In this example, the rotating triangles are positioned to the left of the associated container.<br/>       |
 | **Collapsible lists**<br/> a two-level hierarchy to show additional information in place.<br/> | ![screen shot of list displaying additional data ](images/progressive-disclosure-controls-image19.png)<br/> In this example, the rotating triangles are positioned to the left of their associated list items.<br/> |
@@ -243,7 +242,7 @@ Preview arrows are best reserved for situations where a standard chevron doesn't
 
     ![screen shot of label with right-pointing triangle ](images/progressive-disclosure-controls-image26.png)
 
-    Although this example isn't a progressive disclosure pattern, using an arrow here suggests that commands will be shown in a popup window.
+    Although this example isn't a progressive disclosure pattern, using an arrow here suggests that commands will be shown in a pop-up window.
 
     **Correct:**
 
@@ -358,6 +357,4 @@ Examples:
 -   (For a chevron) To determine the file size, click **Details**.
 -   (For an arrow) To see all the options, click the arrow next to the **Search** box.
 -   (For plus/minus) To view your picture, click **Pictures**.
-
- 
 

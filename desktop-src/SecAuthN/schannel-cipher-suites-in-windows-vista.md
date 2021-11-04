@@ -33,30 +33,30 @@ Schannel supports the following cipher suites. The suites are listed in the defa
 
 | Cipher suite                                                 | FIPS mode enabled | Exchange              | Encryption      | Hash            | Protocols                   |
 |--------------------------------------------------------------|-------------------|-----------------------|-----------------|-----------------|-----------------------------|
-| TLS\_RSA\_WITH\_AES\_128\_CBC\_SHA<br/>                | Yes<br/>    | RSA<br/>        | AES<br/>  | SHA1<br/> | TLS 1.0<br/>          |
-| TLS\_RSA\_WITH\_AES\_256\_CBC\_SHA<br/>                | Yes<br/>    | RSA<br/>        | AES<br/>  | SHA1<br/> | TLS 1.0<br/>          |
-| TLS\_RSA\_WITH\_RC4\_128\_SHA<br/>                     | No<br/>     | RSA<br/>        | RC4<br/>  | SHA1<br/> | TLS 1.0, SSL 3.0<br/> |
-| TLS\_RSA\_WITH\_3DES\_EDE\_CBC\_SHA<br/>               | Yes<br/>    | RSA<br/>        | 3DES<br/> | SHA1<br/> | TLS 1.0<br/>          |
-| TLS\_ECDHE\_ECDSA\_WITH\_AES\_128\_CBC\_SHA\_P256<br/> | Yes<br/>    | ECDH\_P256<br/> | AES<br/>  | SHA1<br/> | TLS 1.0<br/>          |
-| TLS\_ECDHE\_ECDSA\_WITH\_AES\_128\_CBC\_SHA\_P384<br/> | Yes<br/>    | ECDH\_P384<br/> | AES<br/>  | SHA1<br/> | TLS 1.0<br/>          |
-| TLS\_ECDHE\_ECDSA\_WITH\_AES\_128\_CBC\_SHA\_P521<br/> | Yes<br/>    | ECDH\_P521<br/> | AES<br/>  | SHA1<br/> | TLS 1.0<br/>          |
-| TLS\_ECDHE\_ECDSA\_WITH\_AES\_256\_CBC\_SHA\_P256<br/> | Yes<br/>    | ECDH\_P256<br/> | AES<br/>  | SHA1<br/> | TLS 1.0<br/>          |
-| TLS\_ECDHE\_ECDSA\_WITH\_AES\_256\_CBC\_SHA\_P384<br/> | Yes<br/>    | ECDH\_P384<br/> | AES<br/>  | SHA1<br/> | TLS 1.0<br/>          |
-| TLS\_ECDHE\_ECDSA\_WITH\_AES\_256\_CBC\_SHA\_P521<br/> | Yes<br/>    | ECDH\_P521<br/> | AES<br/>  | SHA1<br/> | TLS 1.0<br/>          |
-| TLS\_ECDHE\_RSA\_WITH\_AES\_128\_CBC\_SHA\_P256<br/>   | Yes<br/>    | ECDH\_P256<br/> | AES<br/>  | SHA1<br/> | TLS 1.0<br/>          |
-| TLS\_ECDHE\_RSA\_WITH\_AES\_128\_CBC\_SHA\_P384<br/>   | Yes<br/>    | ECDH\_P384<br/> | AES<br/>  | SHA1<br/> | TLS 1.0<br/>          |
-| TLS\_ECDHE\_RSA\_WITH\_AES\_128\_CBC\_SHA\_P521<br/>   | Yes<br/>    | ECDH\_P521<br/> | AES<br/>  | SHA1<br/> | TLS 1.0<br/>          |
-| TLS\_ECDHE\_RSA\_WITH\_AES\_256\_CBC\_SHA\_P256<br/>   | Yes<br/>    | ECDH\_P256<br/> | AES<br/>  | SHA1<br/> | TLS 1.0<br/>          |
-| TLS\_ECDHE\_RSA\_WITH\_AES\_256\_CBC\_SHA\_P384<br/>   | Yes<br/>    | ECDH\_P384<br/> | AES<br/>  | SHA1<br/> | TLS 1.0<br/>          |
-| TLS\_ECDHE\_RSA\_WITH\_AES\_256\_CBC\_SHA\_P521<br/>   | Yes<br/>    | ECDH\_P521<br/> | AES<br/>  | SHA1<br/> | TLS 1.0<br/>          |
-| TLS\_DHE\_DSS\_WITH\_AES\_128\_CBC\_SHA<br/>           | Yes<br/>    | DH<br/>         | AES<br/>  | SHA1<br/> | TLS 1.0<br/>          |
-| TLS\_DHE\_DSS\_WITH\_AES\_256\_CBC\_SHA<br/>           | Yes<br/>    | DH<br/>         | AES<br/>  | SHA1<br/> | TLS 1.0<br/>          |
-| TLS\_DHE\_DSS\_WITH\_3DES\_EDE\_CBC\_SHA<br/>          | Yes<br/>    | DH<br/>         | 3DES<br/> | SHA1<br/> | TLS 1.0, SSL 3.0<br/> |
-| TLS\_RSA\_WITH\_RC4\_128\_MD5<br/>                     | No<br/>     | RSA<br/>        | RC4<br/>  | MD5<br/>  | TLS 1.0, SSL 3.0<br/> |
+| TLS\_RSA\_WITH\_AES\_128\_CBC\_SHA<br/>                | Yes<br/>    | RSA<br/>        | AES<br/>  | SHA1<br/> | TLS 1.2, TLS 1.1, TLS 1.0<br/>          |
+| TLS\_RSA\_WITH\_AES\_256\_CBC\_SHA<br/>                | Yes<br/>    | RSA<br/>        | AES<br/>  | SHA1<br/> | TLS 1.2, TLS 1.1, TLS 1.0<br/>          |
+| TLS\_RSA\_WITH\_RC4\_128\_SHA<br/>                     | No<br/>     | RSA<br/>        | RC4<br/>  | SHA1<br/> | TLS 1.2, TLS 1.1, TLS 1.0, SSL 3.0<br/> |
+| TLS\_RSA\_WITH\_3DES\_EDE\_CBC\_SHA<br/>               | Yes<br/>    | RSA<br/>        | 3DES<br/> | SHA1<br/> | TLS 1.2, TLS 1.1, TLS 1.0<br/>          |
+| TLS\_ECDHE\_ECDSA\_WITH\_AES\_128\_CBC\_SHA\_P256<br/> | Yes<br/>    | ECDH\_P256<br/> | AES<br/>  | SHA1<br/> | TLS 1.2, TLS 1.1, TLS 1.0<br/>          |
+| TLS\_ECDHE\_ECDSA\_WITH\_AES\_128\_CBC\_SHA\_P384<br/> | Yes<br/>    | ECDH\_P384<br/> | AES<br/>  | SHA1<br/> | TLS 1.2, TLS 1.1, TLS 1.0<br/>          |
+| TLS\_ECDHE\_ECDSA\_WITH\_AES\_128\_CBC\_SHA\_P521<br/> | Yes<br/>    | ECDH\_P521<br/> | AES<br/>  | SHA1<br/> | TLS 1.2, TLS 1.1, TLS 1.0<br/>          |
+| TLS\_ECDHE\_ECDSA\_WITH\_AES\_256\_CBC\_SHA\_P256<br/> | Yes<br/>    | ECDH\_P256<br/> | AES<br/>  | SHA1<br/> | TLS 1.2, TLS 1.1, TLS 1.0<br/>          |
+| TLS\_ECDHE\_ECDSA\_WITH\_AES\_256\_CBC\_SHA\_P384<br/> | Yes<br/>    | ECDH\_P384<br/> | AES<br/>  | SHA1<br/> | TLS 1.2, TLS 1.1, TLS 1.0<br/>          |
+| TLS\_ECDHE\_ECDSA\_WITH\_AES\_256\_CBC\_SHA\_P521<br/> | Yes<br/>    | ECDH\_P521<br/> | AES<br/>  | SHA1<br/> | TLS 1.2, TLS 1.1, TLS 1.0<br/>          |
+| TLS\_ECDHE\_RSA\_WITH\_AES\_128\_CBC\_SHA\_P256<br/>   | Yes<br/>    | ECDH\_P256<br/> | AES<br/>  | SHA1<br/> | TLS 1.2, TLS 1.1, TLS 1.0<br/>          |
+| TLS\_ECDHE\_RSA\_WITH\_AES\_128\_CBC\_SHA\_P384<br/>   | Yes<br/>    | ECDH\_P384<br/> | AES<br/>  | SHA1<br/> | TLS 1.2, TLS 1.1, TLS 1.0<br/>          |
+| TLS\_ECDHE\_RSA\_WITH\_AES\_128\_CBC\_SHA\_P521<br/>   | Yes<br/>    | ECDH\_P521<br/> | AES<br/>  | SHA1<br/> | TLS 1.2, TLS 1.1, TLS 1.0<br/>          |
+| TLS\_ECDHE\_RSA\_WITH\_AES\_256\_CBC\_SHA\_P256<br/>   | Yes<br/>    | ECDH\_P256<br/> | AES<br/>  | SHA1<br/> | TLS 1.2, TLS 1.1, TLS 1.0<br/>          |
+| TLS\_ECDHE\_RSA\_WITH\_AES\_256\_CBC\_SHA\_P384<br/>   | Yes<br/>    | ECDH\_P384<br/> | AES<br/>  | SHA1<br/> | TLS 1.2, TLS 1.1, TLS 1.0<br/>          |
+| TLS\_ECDHE\_RSA\_WITH\_AES\_256\_CBC\_SHA\_P521<br/>   | Yes<br/>    | ECDH\_P521<br/> | AES<br/>  | SHA1<br/> | TLS 1.2, TLS 1.1, TLS 1.0<br/>          |
+| TLS\_DHE\_DSS\_WITH\_AES\_128\_CBC\_SHA<br/>           | Yes<br/>    | DH<br/>         | AES<br/>  | SHA1<br/> | TLS 1.2, TLS 1.1, TLS 1.0<br/>          |
+| TLS\_DHE\_DSS\_WITH\_AES\_256\_CBC\_SHA<br/>           | Yes<br/>    | DH<br/>         | AES<br/>  | SHA1<br/> | TLS 1.2, TLS 1.1, TLS 1.0<br/>          |
+| TLS\_DHE\_DSS\_WITH\_3DES\_EDE\_CBC\_SHA<br/>          | Yes<br/>    | DH<br/>         | 3DES<br/> | SHA1<br/> | TLS 1.2, TLS 1.1, TLS 1.0, SSL 3.0<br/> |
+| TLS\_RSA\_WITH\_RC4\_128\_MD5<br/>                     | No<br/>     | RSA<br/>        | RC4<br/>  | MD5<br/>  | TLS 1.2, TLS 1.1, TLS 1.0, SSL 3.0<br/> |
 | SSL\_CK\_RC4\_128\_WITH\_MD5<br/>                      | No<br/>     | RSA<br/>        | RC4<br/>  | MD5<br/>  | SSL 2.0<br/>          |
 | SSL\_CK\_DES\_192\_EDE3\_CBC\_WITH\_MD5<br/>           | No<br/>     | RSA<br/>        | 3DES<br/> | MD5<br/>  | SSL 2.0<br/>          |
-| TLS\_RSA\_WITH\_NULL\_MD5<br/>                         | No<br/>     | RSA<br/>        |                 | MD5<br/>  | TLS 1.0, SSL 3.0<br/> |
-| TLS\_RSA\_WITH\_NULL\_SHA<br/>                         | No<br/>     | RSA<br/>        |                 | SHA1<br/> | TLS 1.0, SSL 3.0<br/> |
+| TLS\_RSA\_WITH\_NULL\_MD5<br/>                         | No<br/>     | RSA<br/>        |                 | MD5<br/>  | TLS 1.2, TLS 1.1, TLS 1.0, SSL 3.0<br/> |
+| TLS\_RSA\_WITH\_NULL\_SHA<br/>                         | No<br/>     | RSA<br/>        |                 | SHA1<br/> | TLS 1.2, TLS 1.1, TLS 1.0, SSL 3.0<br/> |
 
 
 
@@ -79,7 +79,7 @@ The following cipher suites are supported by Schannel; however, they are not pre
 
 | Topic                                                                         | Description                                                                                                                        |
 |-------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------|
-| [TLS Cipher Suites](tls-cipher-suites.md)<br/>                         | Information about the cipher suites available with the TLS protocol in Windows Server 2003 and Windows XP.<br/>              |
+| [TLS Cipher Suites](/windows/win32/secauthn/cipher-suites-in-schannel)<br/>                         | Information about the cipher suites available with the TLS protocol in Windows Server 2003 and Windows XP.<br/>              |
 | [Secure Sockets Layer Protocol](secure-sockets-layer-protocol.md)<br/> | General information about SSL 2.0 and 3.0, including the available cipher suites in Windows Server 2003 and Windows XP.<br/> |
 
 

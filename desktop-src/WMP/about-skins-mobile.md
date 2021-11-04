@@ -1,6 +1,6 @@
 ---
 title: About Skins (Mobile)
-description: About Skins
+description: Learn about skins for mobile players. A skin is a customized user interface to Windows Media Player.
 ms.assetid: 105c11ce-705b-4a0c-8982-d0f9dd9ae3ac
 keywords:
 - Windows Media Player Mobile,skins

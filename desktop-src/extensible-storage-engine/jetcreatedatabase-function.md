@@ -64,112 +64,38 @@ Pointer to a buffer that, on a successful call, contains the identifier of the d
 
 A group of bits specifying zero or more of the following options.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Value</p></th>
-<th><p>Meaning</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_bitDbOverwriteExisting</p></td>
-<td><p>By default, if <strong>JetCreateDatabase</strong> is called and the database already exists, the API call will fail and the original database will not be overwritten. JET_bitDbOverwriteExisting changes this behavior, and the old database will be overwritten with a new one. Windows XP and later.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_bitDbRecoveryOff</p></td>
-<td><p>JET_bitDbRecoveryOff turns off logging. Setting this bit loses the ability to replay log files and recover the database to a consistent usable state after a catastrophic event.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_bitDbShadowingOff</p></td>
-<td><p>Setting JET_bitDbShadowingOff will disable the duplication of some internal database structures (shadowing). The duplication of these structures is done for resiliency, so setting JET_bitDbShadowingOff will remove that resiliency.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Value</p> | <p>Meaning</p> | 
+|--------------|----------------|
+| <p>JET_bitDbOverwriteExisting</p> | <p>By default, if <strong>JetCreateDatabase</strong> is called and the database already exists, the API call will fail and the original database will not be overwritten. JET_bitDbOverwriteExisting changes this behavior, and the old database will be overwritten with a new one. Windows XP and later.</p> | 
+| <p>JET_bitDbRecoveryOff</p> | <p>JET_bitDbRecoveryOff turns off logging. Setting this bit loses the ability to replay log files and recover the database to a consistent usable state after a catastrophic event.</p> | 
+| <p>JET_bitDbShadowingOff</p> | <p>Setting JET_bitDbShadowingOff will disable the duplication of some internal database structures (shadowing). The duplication of these structures is done for resiliency, so setting JET_bitDbShadowingOff will remove that resiliency.</p> | 
+
 
 
 ### Return Value
 
 This function returns the [JET_ERR](./jet-err.md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](./extensible-storage-engine-errors.md) and [Error Handling Parameters](./error-handling-parameters.md).
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Return code</p></th>
-<th><p>Description</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_errSuccess</p></td>
-<td><p>The operation completed successfully.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errDatabaseDuplicate</p></td>
-<td><p>The database named in <em>szFilename</em> already exists. When this error is returned, the database does not get attached.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errDatabaseInUse</p></td>
-<td><p>Can be returned if exclusive access was requested, but could not be granted, or if another session has already opened the database exclusively.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errDatabaseInvalidPages</p></td>
-<td><p>Returned when <em>cpgDatabaseSizeMax</em> is larger than the maximum number of pages allowed in a database. The current maximum is 2147483646 (0x7ffffffe).</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errDatabaseInvalidPath</p></td>
-<td><p>An invalid path was given in <em>szFilename</em>. <em>szFilename</em> must be non-NULL. By default, <em>szFilename</em> must point to a directory that exists. The path will be created if <em>JET_paramCreatePathIfNotExist</em> is set (See <a href="gg294044(v=exchg.10).md">JetSetSystemParameter</a>).</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errDatabaseLocked</p></td>
-<td><p>Indicates that another session has already opened the database exclusively (using JET_bitDbExclusive).</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errDatabaseNotFound</p></td>
-<td><p>The database was not previously attached (See <a href="gg294074(v=exchg.10).md">JetAttachDatabase</a>).</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errDatabaseSharingViolation</p></td>
-<td><p>The database file has already been attached by a different session.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errInTransaction</p></td>
-<td><p>An attempt was made to create a database while in a transaction.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errInvalidDatabase</p></td>
-<td><p>An attempt was made to open a file that is not a valid database file.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errOneDatabasePerSession</p></td>
-<td><p>An attempt was made to open more than one database, and JET_paramOneDatabasePerSession was set. See <a href="gg269337(v=exchg.10).md">Database Parameters</a>.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errOutOfMemory</p></td>
-<td><p>The operation failed because memory could not be allocated.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errTooManyAttachedDatabases</p></td>
-<td><p>Only a finite number of database can be attached per instance. The limit is currently seven databases per instance.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_wrnDatabaseAttached</p></td>
-<td><p>A nonfatal warning indicating that the database file has already been attached by this session.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_wrnFileOpenReadOnly</p></td>
-<td><p>JET_wrnFileOpenReadOnly indicates that the file was attached read-only, but <strong>JetCreateDatabase</strong> did not pass JET_bitDbReadOnly. The database is still opened with read-only access.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Return code</p> | <p>Description</p> | 
+|--------------------|--------------------|
+| <p>JET_errSuccess</p> | <p>The operation completed successfully.</p> | 
+| <p>JET_errDatabaseDuplicate</p> | <p>The database named in <em>szFilename</em> already exists. When this error is returned, the database does not get attached.</p> | 
+| <p>JET_errDatabaseInUse</p> | <p>Can be returned if exclusive access was requested, but could not be granted, or if another session has already opened the database exclusively.</p> | 
+| <p>JET_errDatabaseInvalidPages</p> | <p>Returned when <em>cpgDatabaseSizeMax</em> is larger than the maximum number of pages allowed in a database. The current maximum is 2147483646 (0x7ffffffe).</p> | 
+| <p>JET_errDatabaseInvalidPath</p> | <p>An invalid path was given in <em>szFilename</em>. <em>szFilename</em> must be non-NULL. By default, <em>szFilename</em> must point to a directory that exists. The path will be created if <em>JET_paramCreatePathIfNotExist</em> is set (See <a href="gg294044(v=exchg.10).md">JetSetSystemParameter</a>).</p> | 
+| <p>JET_errDatabaseLocked</p> | <p>Indicates that another session has already opened the database exclusively (using JET_bitDbExclusive).</p> | 
+| <p>JET_errDatabaseNotFound</p> | <p>The database was not previously attached (See <a href="gg294074(v=exchg.10).md">JetAttachDatabase</a>).</p> | 
+| <p>JET_errDatabaseSharingViolation</p> | <p>The database file has already been attached by a different session.</p> | 
+| <p>JET_errInTransaction</p> | <p>An attempt was made to create a database while in a transaction.</p> | 
+| <p>JET_errInvalidDatabase</p> | <p>An attempt was made to open a file that is not a valid database file.</p> | 
+| <p>JET_errOneDatabasePerSession</p> | <p>An attempt was made to open more than one database, and JET_paramOneDatabasePerSession was set. See <a href="gg269337(v=exchg.10).md">Database Parameters</a>.</p> | 
+| <p>JET_errOutOfMemory</p> | <p>The operation failed because memory could not be allocated.</p> | 
+| <p>JET_errTooManyAttachedDatabases</p> | <p>Only a finite number of database can be attached per instance. The limit is currently seven databases per instance.</p> | 
+| <p>JET_wrnDatabaseAttached</p> | <p>A nonfatal warning indicating that the database file has already been attached by this session.</p> | 
+| <p>JET_wrnFileOpenReadOnly</p> | <p>JET_wrnFileOpenReadOnly indicates that the file was attached read-only, but <strong>JetCreateDatabase</strong> did not pass JET_bitDbReadOnly. The database is still opened with read-only access.</p> | 
+
 
 
 #### Remarks
@@ -182,38 +108,16 @@ If the API creates a database file and then hits another error, it will clean up
 
 #### Requirements
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Client</strong></p></td>
-<td><p>Requires Windows Vista, Windows XP, or Windows 2000 Professional.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Server</strong></p></td>
-<td><p>Requires Windows Server 2008, Windows Server 2003, or Windows 2000 Server.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>Header</strong></p></td>
-<td><p>Declared in Esent.h.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Library</strong></p></td>
-<td><p>Use ESENT.lib.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>DLL</strong></p></td>
-<td><p>Requires ESENT.dll.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Unicode</strong></p></td>
-<td><p>Implemented as <strong>JetCreateDatabaseW</strong> (Unicode) and <strong>JetCreateDatabaseA</strong> (ANSI).</p></td>
-</tr>
-</tbody>
-</table>
+
+| Requirement | Value |
+|------------|----------|
+| <p><strong>Client</strong></p> | <p>Requires Windows Vista, Windows XP, or Windows 2000 Professional.</p> | 
+| <p><strong>Server</strong></p> | <p>Requires Windows Server 2008, Windows Server 2003, or Windows 2000 Server.</p> | 
+| <p><strong>Header</strong></p> | <p>Declared in Esent.h.</p> | 
+| <p><strong>Library</strong></p> | <p>Use ESENT.lib.</p> | 
+| <p><strong>DLL</strong></p> | <p>Requires ESENT.dll.</p> | 
+| <p><strong>Unicode</strong></p> | <p>Implemented as <strong>JetCreateDatabaseW</strong> (Unicode) and <strong>JetCreateDatabaseA</strong> (ANSI).</p> | 
+
 
 
 #### See Also

@@ -1,5 +1,5 @@
 ---
-description: Sets an integer value.
+description: ID3DXConstantTable::SetInt method - Sets an integer value.
 ms.assetid: b57d30b5-c2b5-469e-a267-24e6e712d645
 title: ID3DXConstantTable::SetInt method (D3DX9Shader.h)
 ms.topic: reference
@@ -74,7 +74,7 @@ If the method succeeds, the return value is D3D\_OK. If the method fails, the re
 
 
 
-|                    |                                                                                          |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Shader.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>     |

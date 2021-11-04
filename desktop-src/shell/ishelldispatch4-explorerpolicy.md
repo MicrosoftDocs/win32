@@ -1,5 +1,5 @@
 ---
-description: Gets the value for a specified Windows Internet Explorer policy.
+description: IShellDispatch4.ExplorerPolicy method - Gets the value for a specified Windows Internet Explorer policy.
 ms.assetid: 490c3e18-b606-456a-9016-dc4f7bad2bc3
 title: IShellDispatch4.ExplorerPolicy method (Shldisp.h)
 ms.topic: reference

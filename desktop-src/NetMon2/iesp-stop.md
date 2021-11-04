@@ -1,5 +1,5 @@
 ---
-description: The Stop method stops the current capture.
+description: IESP::Stop method - The Stop method stops the current capture.
 ms.assetid: d2d4e51a-c6a4-4aec-a805-929af621ffb3
 title: IESP::Stop method (Netmon.h)
 ms.topic: reference

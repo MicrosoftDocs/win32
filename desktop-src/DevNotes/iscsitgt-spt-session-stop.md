@@ -67,7 +67,7 @@ An opaque handle representing a session.
 
 <dl> <dt>
 
-[iSCSI Target Pass-Through](iscsi-target-pass-through.md)
+[iSCSI Target Pass-Through](/powershell/module/iscsi)
 </dt> <dt>
 
 [**SRB\_IO\_CONTROL**](/windows-hardware/drivers/ddi/ntddscsi/ns-ntddscsi-_srb_io_control)

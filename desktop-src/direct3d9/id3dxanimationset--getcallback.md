@@ -1,5 +1,5 @@
 ---
-description: Gets information about a specific callback in the animation set.
+description: ID3DXAnimationSet::GetCallback method - Gets information about a specific callback in the animation set.
 ms.assetid: e8388bfc-5438-4216-a98f-dd0dbca12c87
 title: ID3DXAnimationSet::GetCallback method (D3dx9anim.h)
 ms.topic: reference
@@ -84,7 +84,7 @@ The return values of this method are implemented by an application programmer. I
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9anim.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

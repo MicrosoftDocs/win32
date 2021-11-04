@@ -143,44 +143,15 @@ The members of this structure contain the following information.
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Member</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><span id="cbSize"></span><span id="cbsize"></span><span id="CBSIZE"></span><strong>cbSize</strong><br/></td>
-<td>Contains the size of the SXS_GUID_INFORMATION_CLR structure (this allows the structure to grow in later versions).<br/></td>
-</tr>
-<tr class="even">
-<td><span id="dwFlags"></span><span id="dwflags"></span><span id="DWFLAGS"></span><strong>dwFlags</strong><br/></td>
-<td>Contains one of the following two flag values: <br/>
-<ul>
-<li>SXS_GUID_INFORMATION_CLR_FLAG_IS_SURROGATE (0x00000001): Indicates that the specified GUID was associated with a &quot;surrogate.&quot;</li>
-<li>SXS_GUID_INFORMATION_CLR_FLAG_IS_CLASS (0x00000002): Indicates that the specified GUID was associated with a &quot;class.&quot;</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td><span id="pcwszRuntimeVersion"></span><span id="pcwszruntimeversion"></span><span id="PCWSZRUNTIMEVERSION"></span><strong>pcwszRuntimeVersion</strong><br/></td>
-<td>Points to a zero-terminated wide-character string that identifies the version of the runtime specified in the host manifest for this class.<br/></td>
-</tr>
-<tr class="even">
-<td><span id="pcwszTypeName"></span><span id="pcwsztypename"></span><span id="PCWSZTYPENAME"></span><strong>pcwszTypeName</strong><br/></td>
-<td>Points to a zero-terminated wide-character string that contains the name of the .NET class associated with the specified GUID.<br/></td>
-</tr>
-<tr class="odd">
-<td><span id="pcwszAssemblyIdentity"></span><span id="pcwszassemblyidentity"></span><span id="PCWSZASSEMBLYIDENTITY"></span><strong>pcwszAssemblyIdentity</strong><br/></td>
-<td>Points to a zero-terminated wide-character string that contains the textual identity of the assembly that hosts this class. For more information about textual identity, see &quot;Specifying Fully Qualified Type Names&quot; under &quot;Discovering Type Information at Run Time&quot; under &quot;Programming with the .NET Framework&quot; in the .NET Framework SDK.<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Member | Description | 
+|--------|-------------|
+| <span id="cbSize"></span><span id="cbsize"></span><span id="CBSIZE"></span><strong>cbSize</strong><br /> | Contains the size of the SXS_GUID_INFORMATION_CLR structure (this allows the structure to grow in later versions).<br /> | 
+| <span id="dwFlags"></span><span id="dwflags"></span><span id="DWFLAGS"></span><strong>dwFlags</strong><br /> | Contains one of the following two flag values: <br /><ul><li>SXS_GUID_INFORMATION_CLR_FLAG_IS_SURROGATE (0x00000001): Indicates that the specified GUID was associated with a "surrogate."</li><li>SXS_GUID_INFORMATION_CLR_FLAG_IS_CLASS (0x00000002): Indicates that the specified GUID was associated with a "class."</li></ul> | 
+| <span id="pcwszRuntimeVersion"></span><span id="pcwszruntimeversion"></span><span id="PCWSZRUNTIMEVERSION"></span><strong>pcwszRuntimeVersion</strong><br /> | Points to a zero-terminated wide-character string that identifies the version of the runtime specified in the host manifest for this class.<br /> | 
+| <span id="pcwszTypeName"></span><span id="pcwsztypename"></span><span id="PCWSZTYPENAME"></span><strong>pcwszTypeName</strong><br /> | Points to a zero-terminated wide-character string that contains the name of the .NET class associated with the specified GUID.<br /> | 
+| <span id="pcwszAssemblyIdentity"></span><span id="pcwszassemblyidentity"></span><span id="PCWSZASSEMBLYIDENTITY"></span><strong>pcwszAssemblyIdentity</strong><br /> | Points to a zero-terminated wide-character string that contains the textual identity of the assembly that hosts this class. For more information about textual identity, see "Specifying Fully Qualified Type Names" under "Discovering Type Information at Run Time" under "Programming with the .NET Framework" in the .NET Framework SDK.<br /> | 
+
 
 
 
@@ -296,7 +267,7 @@ void main()
 
 
 
-|                |                                                                                                                                                       |
+| Requirement | Value |
 |----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
 | DLL<br/> | <dl> <dt>Mscoree.dll; </dt> <dt>Sxs.dll</dt> </dl> |
 

@@ -1,6 +1,6 @@
 ---
-title: Media Type Identifiers
-description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs.
+title: Media Type Identifiers (deprecated)
+description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs. | Media Type Identifiers
 ms.assetid: '974b1bf1-f75e-45ef-9e46-cc29fa45b968'
 keywords:
 - Media Type Identifiers windows Media Format

@@ -1,6 +1,6 @@
 ---
-title: Media Type Identifiers
-description: Media Type Identifiers
+title: Media Type Identifiers for Windows Media Format SDK
+description: Learn about media type identifiers used to define the format of media used with the Windows Media Format SDK.
 ms.assetid: 5d903953-cd6b-4fba-b877-8c7ad3aeb87d
 keywords:
 - Windows Media Format SDK,media type identifiers
@@ -11,7 +11,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Media Type Identifiers
+# Media Type Identifiers for the Windows Media Format SDK
 
 You must use media types to define the format of media used with the Windows Media Format SDK. For descriptions of the various media types, see [Media Types](media-types.md).
 

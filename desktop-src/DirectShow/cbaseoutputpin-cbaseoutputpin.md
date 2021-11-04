@@ -1,5 +1,5 @@
 ---
-description: Constructor method.
+description: CBaseOutputPin.CBaseOutputPin constructor - Constructor method.
 ms.assetid: 1105c951-a51d-49ab-a69d-f3d482d61233
 title: CBaseOutputPin.CBaseOutputPin constructor (Amfilter.h)
 ms.topic: reference
@@ -84,7 +84,7 @@ All of the parameters are passed directly to the [**CBasePin**](cbasepin.md) con
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Amfilter.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

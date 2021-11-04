@@ -14,7 +14,7 @@ This property is defined for version 1.1 of this property set; see [**AM\_RATE\_
 
 
 
-|                   |                               |
+| Label | Value |
 |-------------------|-------------------------------|
 | Property Set GUID | AM\_KSPROPSETID\_TSRateChange |
 | Property ID       | AM\_RATE\_QueryLastRateSegPTS |
@@ -32,7 +32,7 @@ The source filter can use this property to synchronize rate changes across sever
 
 
 
-|                   |                                                                                       |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Dvdmedia.h</dt> </dl> |
 

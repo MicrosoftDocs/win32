@@ -44,9 +44,6 @@ The address of the factory with which *resource* was used.
 
 </dd> </dl> 
 
-|             |       |
-|-------------|-------|
-| Error Level | Error |
 
 
 
@@ -94,11 +91,11 @@ The following example first creates two debug-enabled [**ID2D1Factory**](/window
 
 
 
-<span codelanguage="ManagedCPlusPlus"></span>
+
 
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -117,11 +114,11 @@ The following example first creates two debug-enabled [**ID2D1Factory**](/window
 </tbody>
 </table>
 
-<span codelanguage="ManagedCPlusPlus"></span>
+
 
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -141,11 +138,11 @@ The following example first creates two debug-enabled [**ID2D1Factory**](/window
 </tbody>
 </table>
 
-<span codelanguage="ManagedCPlusPlus"></span>
+
 
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">

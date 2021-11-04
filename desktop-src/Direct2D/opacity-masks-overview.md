@@ -147,36 +147,34 @@ The following diagram shows the effect of applying a linear gradient brush to a 
 The steps that follow describe how to re-create this effect.
 
 1.  Define the content to be masked. The following example creates an [**ID2D1BitmapBrush**](/windows/win32/api/d2d1/nn-d2d1-id2d1bitmapbrush), *m\_pLinearFadeFlowersBitmap*. The extend mode x- and y- for *m\_pLinearFadeFlowersBitmap* are set to [**D2D1\_EXTEND\_MODE\_CLAMP**](/windows/desktop/api/d2d1/ne-d2d1-d2d1_extend_mode) so that it can be used with an opacity mask by the [**FillGeometry**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-fillgeometry) method.
-```C++
-                if (SUCCEEDED(hr))
-                {
-                    // Create the bitmap to be used by the bitmap brush.
-                    hr = LoadResourceBitmap(
-                        m_pRenderTarget,
-                        m_pWICFactory,
-                        L"LinearFadeFlowers",
-                        L"Image",
-                        &m_pLinearFadeFlowersBitmap
-                        );
-                }
+
+    ```cpp
+    if (SUCCEEDED(hr))
+    {
+        // Create the bitmap to be used by the bitmap brush.
+        hr = LoadResourceBitmap(
+            m_pRenderTarget,
+            m_pWICFactory,
+            L"LinearFadeFlowers",
+            L"Image",
+            &m_pLinearFadeFlowersBitmap
+            );
+    }
+ 
+    if (SUCCEEDED(hr))
+        {
+            D2D1_BITMAP_BRUSH_PROPERTIES propertiesXClampYClamp = 
+                D2D1::BitmapBrushProperties(
+                D2D1_EXTEND_MODE_CLAMP,
+                D2D1_EXTEND_MODE_CLAMP,
+                D2D1_BITMAP_INTERPOLATION_MODE_NEAREST_NEIGHBOR
+                );
+    ```
 
     
-            if (SUCCEEDED(hr))
-                {
-                    D2D1_BITMAP_BRUSH_PROPERTIES propertiesXClampYClamp = 
-                        D2D1::BitmapBrushProperties(
-                        D2D1_EXTEND_MODE_CLAMP,
-                        D2D1_EXTEND_MODE_CLAMP,
-                        D2D1_BITMAP_INTERPOLATION_MODE_NEAREST_NEIGHBOR
-                        );
-```
-
-
-
-    <span codelanguage="ManagedCPlusPlus"></span>
     <table>
     <colgroup>
-    <col style="width: 100%" />
+    <col  />
     </colgroup>
     <thead>
     <tr class="header">
@@ -197,10 +195,10 @@ The steps that follow describe how to re-create this effect.
     </tbody>
     </table>
 
-    <span codelanguage="ManagedCPlusPlus"></span>
+    
     <table>
     <colgroup>
-    <col style="width: 100%" />
+    <col  />
     </colgroup>
     <thead>
     <tr class="header">
@@ -301,11 +299,11 @@ The first example creates an [**ID2D1BitmapBrush**](/windows/win32/api/d2d1/nn-d
 
 
 
-<span codelanguage="ManagedCPlusPlus"></span>
+
 
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -326,11 +324,11 @@ The first example creates an [**ID2D1BitmapBrush**](/windows/win32/api/d2d1/nn-d
 </tbody>
 </table>
 
-<span codelanguage="ManagedCPlusPlus"></span>
+
 
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">

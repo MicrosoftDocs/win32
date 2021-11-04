@@ -1,6 +1,6 @@
 ---
 title: Windows Defender Reference
-description: Windows Defender helps protect computers against pop-ups, slow performance, and security threats caused by spyware and other unwanted software.
+description: These reference articles describe Windows Defender, which helps protect computers against pop-ups, slow performance, and security threats.
 ms.assetid: ed86e1bc-0625-4367-a1f7-fdb23412828f
 keywords:
 - Windows Defender

@@ -1,5 +1,5 @@
 ---
-description: .
+description: Index Management Interfaces
 ms.assetid: 9d2ae344-2989-43a6-9767-d59378963b7c
 title: Index Management Interfaces
 ms.topic: article

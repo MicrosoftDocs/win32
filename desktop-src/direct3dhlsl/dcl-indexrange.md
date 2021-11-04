@@ -26,32 +26,12 @@ Declares a range of registers that will be accessed by index (an integer compute
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Item</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><span id="minRegisterM"></span><span id="minregisterm"></span><span id="MINREGISTERM"></span><em>minRegisterM</em><br/></td>
-<td>[in] The first register to access by index. <br/>
-<ul>
-<li><em>minRegister</em> is either <strong>v</strong> for a vertex or pixel shader input register, or <strong>o</strong> for a vertex shader output register.</li>
-<li><em>M</em> is an integer that denotes the register number.</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td><span id="maxRegisterN"></span><span id="maxregistern"></span><span id="MAXREGISTERN"></span><em>maxRegisterN</em><br/></td>
-<td>[in] The last register to access by index. Same form as <em>minRegister</em> except <em>N</em> is the register number.<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Item | Description | 
+|------|-------------|
+| <span id="minRegisterM"></span><span id="minregisterm"></span><span id="MINREGISTERM"></span><em>minRegisterM</em><br /> | [in] The first register to access by index. <br /><ul><li><em>minRegister</em> is either <strong>v</strong> for a vertex or pixel shader input register, or <strong>o</strong> for a vertex shader output register.</li><li><em>M</em> is an integer that denotes the register number.</li></ul> | 
+| <span id="maxRegisterN"></span><span id="maxregistern"></span><span id="MAXREGISTERN"></span><em>maxRegisterN</em><br /> | [in] The last register to access by index. Same form as <em>minRegister</em> except <em>N</em> is the register number.<br /> | 
+
 
 
 

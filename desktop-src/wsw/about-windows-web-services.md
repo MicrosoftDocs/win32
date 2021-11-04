@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 The Windows Web Services API is a layered API and it may be pictured as follows
 
-![](images/apistack.png)
+![Diagram showing the layers and cross layer areas of the Windows Web Services API.](images/apistack.png)
 
 The WWSAPI is a layered API. We expect most developers to target the Service Model, which is a method-based programming model. In the Service Model, the Service Host provides the server side programming model, while Service Proxy provides the client side programming model.
 

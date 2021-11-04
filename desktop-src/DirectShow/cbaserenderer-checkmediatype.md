@@ -1,5 +1,5 @@
 ---
-Description: The CheckMediaType method determines if the filter accepts a specific media type.
+description: The CheckMediaType method determines if the filter accepts a specific media type.
 ms.assetid: 90d26cf6-443c-4a06-98c6-ffa14e27ee41
 title: CBaseRenderer.CheckMediaType method (Renbase.h)
 ms.topic: reference
@@ -56,7 +56,7 @@ The input pin calls this method from its own [**CBasePin::CheckMediaType**](cbas
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Renbase.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

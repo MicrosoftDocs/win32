@@ -1,5 +1,5 @@
 ---
-description: Constructor method.
+description: CQueue.CQueue constructor (Wxutil.h) - Constructor method.
 ms.assetid: 4dcbb088-638b-49a6-afaf-a973e13bd5fb
 title: CQueue.CQueue constructor (Wxutil.h)
 ms.topic: reference
@@ -48,7 +48,7 @@ Size of the queue to create.
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Wxutil.h (include Streams.h)</dt> </dl>                                                                                    |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

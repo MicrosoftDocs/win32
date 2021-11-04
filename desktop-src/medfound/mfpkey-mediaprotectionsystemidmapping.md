@@ -1,5 +1,5 @@
 ---
-Description: Specifies a IPropertySet that defines the mapping from a property system id to a property system activation id.
+description: Specifies a IPropertySet that defines the mapping from a property system id to a property system activation id.
 ms.assetid: CA333C46-3C5A-40AC-9885-454E380428A7
 title: MFPKEY_MediaProtectionSystemIdMapping property
 ms.topic: reference
@@ -34,7 +34,7 @@ This property key is used to pass an [**IPropertySet**](/uwp/api/Windows.Foundat
 
 
 
-|                   |                                                                                      |
+| Requirement | Value |
 |-------------------|--------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Mfidl.idl</dt> </dl> |
 

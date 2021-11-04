@@ -33,8 +33,8 @@ The **IDeliveryOptimizationFile2** interface has these methods.
 
 | Method                                                 | Description                                                  |
 |:-------------------------------------------------------|:-------------------------------------------------------------|
-| [**GetProperty**](ideliveryoptimizationfile2-getproperty.md)  | This method returns a single property of the DO file. |
-| [**SetProperty**](ideliveryoptimizationfile2-setproperty.md)  | This method sets a single property of the DO file.    |
+| [**GetProperty**](ideliveryoptimizationfile2-getproperty.md)  | This method returns a single property of the Delivery Optimization file. |
+| [**SetProperty**](ideliveryoptimizationfile2-setproperty.md)  | This method sets a single property of the Delivery Optimization file.    |
 
 ## Requirements
 

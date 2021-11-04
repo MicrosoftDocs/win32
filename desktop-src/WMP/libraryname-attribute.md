@@ -35,7 +35,7 @@ The value of this attribute is the same as the value returned by the [**IWMPLibr
 
 
 
-|                    |                                    |
+| Requirement | Value |
 |--------------------|------------------------------------|
 | Version<br/> | Windows Media Player 12<br/> |
 

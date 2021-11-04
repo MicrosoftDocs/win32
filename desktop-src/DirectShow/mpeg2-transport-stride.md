@@ -23,7 +23,7 @@ Stride packets are identified by the following media type:
 
 
 
-|             |                                        |
+| Label | Value |
 |-------------|----------------------------------------|
 | Major Type  | MEDIATYPE\_Stream                      |
 | Subtype     | MEDIASUBTYPE\_MPEG2\_TRANSPORT\_STRIDE |
@@ -97,7 +97,7 @@ If the media type does not contain a format block (**pbFormat** is **NULL**), th
 
 
 
-|                   |                                                                                       |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Bdatypes.h</dt> </dl> |
 

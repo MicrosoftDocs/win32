@@ -1,6 +1,6 @@
 ---
 title: IMsRdpClientNonScriptable5 WarnAboutDirectXRedirection property
-description: This property is not used.
+description: This property is not used. | IMsRdpClientNonScriptable5 WarnAboutDirectXRedirection property
 ms.assetid: 005CA515-05B1-4B31-A83F-80E113F1BA7B
 ms.tgt_platform: multiple
 keywords:

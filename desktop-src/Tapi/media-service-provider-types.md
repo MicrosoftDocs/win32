@@ -1,5 +1,5 @@
 ---
-Description: The following list contains the media service provider types.
+description: The following list contains the media service provider types.
 ms.assetid: dbbe037e-04d0-492f-b6c7-c13948027873
 title: Media Service Provider Types
 ms.topic: article

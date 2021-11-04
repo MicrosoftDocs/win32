@@ -100,9 +100,7 @@ if (ChooseFont(&cf)==TRUE)
 ## Opening a File
 
 > [!Note]  
-> Starting with Windows Vista, the Common File Dialog has been superseded by the Common Item Dialog when used to open a file. We recommend that you use the Common Item Dialog API instead of the Common File Dialog API. For more information, see [Common Item Dialog](/previous-versions/windows/desktop/legacy/bb776913(v=vs.85)).
-
- 
+> Starting with Windows Vista, the Common File Dialog has been superseded by the Common Item Dialog when used to open a file. We recommend that you use the Common Item Dialog API instead of the Common File Dialog API. For more information, see [Common Item Dialog](../shell/common-file-dialog.md).
 
 This topic describes sample code that displays an **Open** dialog box so that a user can specify the drive, directory, and name of a file to open. The sample code first initializes an [**OPENFILENAME**](/windows/win32/api/commdlg/ns-commdlg-openfilenamea) structure, and then calls the [**GetOpenFileName**](/windows/desktop/api/Commdlg/nf-commdlg-getopenfilenamea) function to display the dialog box.
 
@@ -422,9 +420,3 @@ if (message == uFindReplaceMsg)
     return 0; 
 }
 ```
-
-
-
- 
-
- 

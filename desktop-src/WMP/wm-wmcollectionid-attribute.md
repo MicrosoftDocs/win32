@@ -39,7 +39,7 @@ To determine whether you can change the value of this attribute, use the [Media.
 
 
 
-|                    |                                                   |
+| Requirement | Value |
 |--------------------|---------------------------------------------------|
 | Version<br/> | Windows Media Player 9 Series or later<br/> |
 

@@ -1,14 +1,14 @@
 ---
-title: DO Interfaces
-description: Use the following Delivery Optimization (DO) interfaces to transfer files and monitor jobs within the transfer queue.
+title: Delivery Optimization Interfaces
+description: Use the following Delivery Optimization interfaces to transfer files and monitor jobs within the transfer queue.
 ms.assetid: 20203CCD-86CC-4551-BA4F-0A5999F8C956
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# DO Interfaces
+# Delivery Optimization Interfaces
 
-Use the following Delivery Optimization (DO) interfaces to transfer files and monitor jobs within the transfer queue.
+Use the following Delivery Optimization interfaces to transfer files and monitor jobs within the transfer queue.
 
 | Interface | Description |
 |-|-|

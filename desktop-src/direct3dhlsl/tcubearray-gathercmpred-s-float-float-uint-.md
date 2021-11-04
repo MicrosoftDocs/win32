@@ -1,6 +1,6 @@
 ---
 title: TextureCubeArray::GatherCmpRed(S,float,float,uint) function
-description: Samples a texture, tests the samples against a compare value, and returns the red component along with status about the operation.
+description: For four texel values that would be used in a bi-linear filtering operation, returns a comparison of their red component against a compare value along with tile-mapping status. | TextureCubeArray::GatherCmpRed(S,float,float,uint) function
 ms.assetid: 2474ECF6-DA85-406F-8212-D71AD90730FD
 keywords:
 - GatherCmpRed function HLSL
@@ -17,7 +17,7 @@ api_location:
 
 # TextureCubeArray::GatherCmpRed(S,float,float,uint) function
 
-Samples a texture, tests the samples against a compare value, and returns the red component along with status about the operation.
+For four texel values that would be used in a bi-linear filtering operation, returns a comparison of their red component against a compare value along with tile-mapping status.
 
 ## Syntax
 

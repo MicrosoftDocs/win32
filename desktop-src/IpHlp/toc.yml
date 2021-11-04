@@ -50,17 +50,23 @@
         href: retrieving-information-using-gettcpstatistics.md
       - name: "Complete IP Helper Application Source Code"
         href: complete-ip-helper-application-source-code.md
+      - name: "Packet timestamping"
+        href: packet-timestamping.md
   - name: "IP Helper reference"
     href: ip-helper-function-reference.md
     items: 
     - name: "IP Helper callbacks"
       href: ip-helper-callbacks.md
       items: 
+      - name: "INTERFACE_TIMESTAMP_CONFIG_CHANGE_CALLBACK"
+        href: /windows/win32/api/iphlpapi/nf-iphlpapi-captureinterfacehardwarecrosstimestamp
       - name: "PNETWORK_CONNECTIVITY_HINT_CHANGE_CALLBACK"
         href: /windows/win32/api/netioapi/nc-netioapi-pnetwork_connectivity_hint_change_callback
     - name: "IP Helper enumerations"
       href: ip-helper-enumerations.md
       items: 
+      - name: "DNS_SERVER_PROPERTY_TYPE"
+        href: /windows/win32/api/netioapi/ne-netioapi-dns_server_property_type
       - name: "IF_OPER_STATUS"
         href: /windows/win32/api/ifdef/ne-ifdef-if_oper_status
       - name: "IP_DAD_STATE"
@@ -104,6 +110,8 @@
         href: /windows/win32/api/Netioapi/nf-netioapi-cancelmibchangenotify2
       - name: "CancelSecurityHealthChangeNotify"
         href: /previous-versions/windows/desktop/legacy/bb442512(v=vs.85)
+      - name: "CaptureInterfaceHardwareCrossTimestamp"
+        href: /windows/win32/api/iphlpapi/nf-iphlpapi-captureinterfacehardwarecrosstimestamp
       - name: "ConvertInterfaceAliasToLuid"
         href: /windows/win32/api/Netioapi/nf-netioapi-convertinterfacealiastoluid
       - name: "ConvertInterfaceGuidToLuid"
@@ -178,6 +186,8 @@
         href: /windows/win32/api/Netioapi/nf-netioapi-flushipnettable2
       - name: "FlushIpPathTable"
         href: /windows/win32/api/Netioapi/nf-netioapi-flushippathtable
+      - name: "FreeInterfaceDnsSettings"
+        href: /windows/win32/api/netioapi/nf-netioapi-freeinterfacednssettings
       - name: "FreeMibTable"
         href: /windows/win32/api/Netioapi/nf-netioapi-freemibtable
       - name: "GetAdapterIndex"
@@ -226,8 +236,14 @@
         href: /windows/win32/api/Netioapi/nf-netioapi-getiftable2
       - name: "GetIfTable2Ex"
         href: /windows/win32/api/Netioapi/nf-netioapi-getiftable2ex
+      - name: "GetInterfaceActiveTimestampCapabilities"
+        href: /windows/win32/api/iphlpapi/nf-iphlpapi-getinterfaceactivetimestampcapabilities
+      - name: "GetInterfaceDnsSettings"
+        href: /windows/win32/api/netioapi/nf-netioapi-getinterfacednssettings
       - name: "GetInterfaceInfo"
         href: /windows/win32/api/Iphlpapi/nf-iphlpapi-getinterfaceinfo
+      - name: "GetInterfaceSupportedTimestampCapabilities"
+        href: /windows/win32/api/iphlpapi/nf-iphlpapi-getinterfacesupportedtimestampcapabilities
       - name: "GetInvertedIfStackTable"
         href: /windows/win32/api/Netioapi/nf-netioapi-getinvertedifstacktable
       - name: "GetIpAddrTable"
@@ -378,6 +394,8 @@
         href: /windows/win32/api/Netioapi/nf-netioapi-notifyunicastipaddresschange
       - name: "ParseNetworkString"
         href: /windows/win32/api/Iphlpapi/nf-iphlpapi-parsenetworkstring
+      - name: "RegisterInterfaceTimestampConfigChange"
+        href: /windows/win32/api/iphlpapi/nf-iphlpapi-registerinterfacetimestampconfigchange
       - name: "ResolveIpNetEntry2"
         href: /windows/win32/api/Netioapi/nf-netioapi-resolveipnetentry2
       - name: "ResolveNeighbor"
@@ -408,6 +426,8 @@
         href: /windows/win32/api/Iphlpapi/nf-iphlpapi-sendarp
       - name: "SetIfEntry"
         href: /windows/win32/api/Iphlpapi/nf-iphlpapi-setifentry
+      - name: "SetInterfaceDnsSettings"
+        href: /windows/win32/api/netioapi/nf-netioapi-setinterfacednssettings
       - name: "SetIpForwardEntry"
         href: /windows/win32/api/Iphlpapi/nf-iphlpapi-setipforwardentry
       - name: "SetIpForwardEntry2"
@@ -434,11 +454,23 @@
         href: /windows/win32/api/Netioapi/nf-netioapi-setunicastipaddressentry
       - name: "UnenableRouter"
         href: /windows/win32/api/Iphlpapi/nf-iphlpapi-unenablerouter
+      - name: "UnregisterInterfaceTimestampConfigChange"
+        href: /windows/win32/api/iphlpapi/unregisterinterfacetimestampconfigchange
     - name: "IP Helper structures"
       href: ip-helper-structures.md
       items: 
       - name: "ARP_SEND_REPLY"
         href: /windows/win32/api/Ipexport/ns-ipexport-arp_send_reply
+      - name: "DNS_DOH_SERVER_SETTINGS"
+        href: /windows/win32/api/netioapi/ns-netioapi-dns_doh_server_settings
+      - name: "DNS_INTERFACE_SETTINGS"
+        href: /windows/win32/api/netioapi/ns-netioapi-dns_interface_settings
+      - name: "DNS_INTERFACE_SETTINGS3"
+        href: /windows/win32/api/netioapi/ns-netioapi-dns_interface_settings3
+      - name: "DNS_SERVER_PROPERTY_TYPES"
+        href: /windows/win32/api/netioapi/ns-netioapi-dns_server_property_types
+      - name: "DNS_SERVER_PROPERTY"
+        href: /windows/win32/api/netioapi/ns-netioapi-dns_server_property
       - name: "FIXED_INFO"
         href: /windows/win32/api/Iptypes/ns-iptypes-fixed_info_w2ksp1
       - name: "ICMP_ECHO_REPLY"
@@ -451,6 +483,14 @@
         href: /windows/win32/api/Ipexport/ns-ipexport-icmpv6_echo_reply_lh
       - name: "in_addr"
         href: /windows/win32/api/Inaddr/ns-inaddr-in_addr
+      - name: "INTERFACE_HARDWARE_TIMESTAMP_CAPABILITIES"
+        href: /windows/win32/api/iphlpapi/ns-iphlpapi-interface_hardware_timestamp_capabilities
+      - name: "INTERFACE_HARDWARE_CROSSTIMESTAMP"
+        href: /windows/win32/api/iphlpapi/ns-iphlpapi-interface_hardware_crosstimestamp
+      - name: "INTERFACE_SOFTWARE_TIMESTAMP_CAPABILITIES"
+        href: /windows/win32/api/iphlpapi/ns-iphlpapi-interface_software_timestamp_capabilities
+      - name: "INTERFACE_TIMESTAMP_CAPABILITIES"
+        href: /windows/win32/api/iphlpapi/ns-iphlpapi-interface_timestamp_capabilities
       - name: "IP_ADAPTER_ADDRESSES"
         href: /windows/win32/api/Iptypes/ns-iptypes-ip_adapter_addresses_lh
       - name: "IP_ADAPTER_ANYCAST_ADDRESS"

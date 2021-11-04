@@ -1,5 +1,5 @@
 ---
-description: A DirectX effect is a collection of pipeline state, set by expressions written in HLSL and some syntax that is specific to the effect framework.
+description: Learn about Direct3D 10 effects. An effect is pipeline state, set by expressions written in HLSL and some syntax that is specific to the effect framework.
 ms.assetid: db4c7651-b6a1-4bc3-bcf8-a5cb56c7563e
 title: Effects (Direct3D 10)
 ms.topic: article

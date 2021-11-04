@@ -1,6 +1,6 @@
 ---
 title: round_z (sm4 - asm)
-description: Floating-point round to integral float.
+description: Floating-point round to integral float. | round_z (sm4 - asm)
 ms.assetid: 97C0E0F2-2571-4A94-BB04-B0CDBA0B5C0C
 ms.topic: reference
 ms.date: 05/31/2018
@@ -40,9 +40,8 @@ The following table shows the results obtained when executing the instruction wi
 
 
 
-|          |          |        |             |        |        |             |        |          |         |
-|----------|----------|--------|-------------|--------|--------|-------------|--------|----------|---------|
 | **src**  | **-inf** | **-F** | **-denorm** | **-0** | **+0** | **+denorm** | **+F** | **+inf** | **NaN** |
+|----------|----------|--------|-------------|--------|--------|-------------|--------|----------|---------|
 | **dest** | -inf     | -F     | -0          | -0     | +0     | +0          | +F     | +inf     | NaN     |
 
 

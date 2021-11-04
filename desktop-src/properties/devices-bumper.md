@@ -1,5 +1,5 @@
 ---
-description: .
+description: Devices (Windows Property System)
 ms.assetid: 9e744e0c-a59d-47db-a785-026698d54ee0
 title: Devices (Windows Property System)
 ms.topic: article

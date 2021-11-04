@@ -1,5 +1,5 @@
 ---
-description: Adjusts the contrast value of a color.
+description: D3DXColorAdjustContrast function (D3dx9math.h) - Adjusts the contrast value of a color.
 ms.assetid: be49c9c7-b625-4cbc-bd63-1d5766ae2dbb
 title: D3DXColorAdjustContrast function (D3dx9math.h)
 ms.topic: reference
@@ -91,7 +91,7 @@ If c is greater than 0 and less than 1, the contrast is decreased. If c is great
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9math.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

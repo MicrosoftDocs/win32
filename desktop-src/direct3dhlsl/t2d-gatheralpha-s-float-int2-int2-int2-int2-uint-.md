@@ -1,6 +1,6 @@
 ---
 title: Texture2D::GatherAlpha(S,float,int2,int2,int2,int2,uint) function
-description: Samples a texture and returns the alpha component along with status about the operation.
+description: Returns the alpha components of the four texel values that would be used in a bi-linear filtering operation, along with tile-mapping status. | Texture2D::GatherAlpha(S,float,int2,int2,int2,int2,uint) function
 ms.assetid: C088BC6A-397C-4702-9BFA-0B2F10C833BD
 keywords:
 - GatherAlpha function HLSL
@@ -17,7 +17,7 @@ api_location:
 
 # Texture2D::GatherAlpha(S,float,int2,int2,int2,int2,uint) function
 
-Samples a texture and returns the alpha component along with status about the operation.
+Returns the alpha components of the four texel values that would be used in a bi-linear filtering operation, along with tile-mapping status.
 
 ## Syntax
 

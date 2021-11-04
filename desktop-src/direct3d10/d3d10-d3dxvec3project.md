@@ -1,5 +1,5 @@
 ---
-description: Projects a 3D vector from object space into screen space.
+description: D3DXVec3Project function (D3DX10Math.h) - Projects a 3D vector from object space into screen space.
 ms.assetid: 6fc59788-c3f7-4f47-a345-9108105e820e
 title: D3DXVec3Project function (D3DX10Math.h)
 ms.topic: reference
@@ -107,7 +107,7 @@ The return value for this function is the same value returned in the pOut parame
 
 
 
-|                   |                                                                                         |
+| Requirement | Value |
 |-------------------|-----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3DX10Math.h</dt> </dl> |
 

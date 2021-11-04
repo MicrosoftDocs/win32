@@ -1,6 +1,6 @@
 ---
 title: task (TaskListType) Element
-description: Defines a component or subcomponent of an application.
+description: Defines a component or subcomponent of an application. | task (TaskListType) Element
 ms.assetid: 890f11cc-a379-41a5-a35b-08ad5615e18b
 keywords:
 - task element EventLog

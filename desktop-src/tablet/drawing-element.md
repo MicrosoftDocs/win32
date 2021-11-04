@@ -51,7 +51,7 @@ Contains content that has been classified by the analyzer or the user as a drawi
 
 
 
-|              |                                                             |
+|  Element     | Value                                                     |
 |--------------|-------------------------------------------------------------|
 | Element type | [**DrawingType**](drawingtype-complex-type.md) complexType |
 | Namespace    | urn:schemas-microsoft-com:tabletpc:richink                  |

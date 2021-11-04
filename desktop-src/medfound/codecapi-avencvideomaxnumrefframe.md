@@ -1,5 +1,5 @@
 ---
-Description: Specifies the maximum reference frames supported by the encoder.
+description: Specifies the maximum reference frames supported by the encoder.
 ms.assetid: 023FD791-BD43-41F6-95D0-8BE800F51579
 title: CODECAPI_AVEncVideoMaxNumRefFrame property (Codecapi.h)
 ms.topic: reference

@@ -9,7 +9,7 @@ ms.date: 10/20/2020
 # Interaction
 
 > [!NOTE]
-> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](https://docs.microsoft.com/windows/uwp/design/).
+> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](/windows/uwp/design/).
 
 Interaction is the variety of ways users interact with your app, including touch, keyboard, mouse, and so on. Use these guidelines to create intuitive and distinctive experiences that are optimized for touch but work consistently across input devices.
 
@@ -27,9 +27,8 @@ This table shows some of the differences between input devices that you should c
 
 
 
-|                                 |                                                                                                                                                                                                                  |                                                                                                                                                                                                                                                                                                                 |                                                     |
+| Factor          | Touch interactions   | Mouse, keyboard, pen/stylus interactions | Touchpad  |
 |---------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------|
-| **Factor**<br/>           | **Touch interactions**<br/>                                                                                                                                                                                | **Mouse, keyboard, pen/stylus interactions**<br/>                                                                                                                                                                                                                                                         | **Touchpad**<br/>                             |
 | **Precision**<br/>        | The contact area of a fingertip is greater than a single x-y coordinate, which increases the chances of unintended command activations.<br/>                                                               | The mouse and pen/stylus supply a precise x-y coordinate.<br/>                                                                                                                                                                                                                                            | Same as mouse.<br/>                           |
 |                                 | The shape of the contact area changes throughout the movement. <br/>                                                                                                                                       | Mouse movements and pen/stylus strokes supply precise x-y coordinates. Keyboard focus is explicit.<br/>                                                                                                                                                                                                   | Same as mouse.<br/>                           |
 |                                 | There is no mouse cursor to assist with targeting.<br/>                                                                                                                                                    | The mouse cursor, pen/stylus cursor, and keyboard focus all assist with targeting.<br/>                                                                                                                                                                                                                   | Same as mouse.<br/>                           |
@@ -86,6 +85,4 @@ Timed interactions typically depend on invisible thresholds like time, distance,
 Interactions that directly affect objects and mimic real world interactions are more intuitive, discoverable, and memorable. They don't rely on obscure or abstract interactions.
 
 **Note:** An exception to this is where you use specific timed interactions to assist in learning and exploration (for example, press and hold). Using appropriate descriptions and visual cues has a great effect on the use of advanced interactions.
-
- 
 

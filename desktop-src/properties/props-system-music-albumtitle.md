@@ -1,5 +1,5 @@
 ---
-description: .
+description: System.Music.AlbumTitle
 ms.assetid: 7335e246-3a3e-4610-8db5-baddb0b80901
 title: System.Music.AlbumTitle
 ms.topic: article

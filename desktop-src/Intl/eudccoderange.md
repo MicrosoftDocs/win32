@@ -20,7 +20,7 @@ where:
 
 
 
-|          |                                                                                                                                                                                                          |
+| Value         | Description                                                                                                                                                                                                         |
 |----------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | CodePage | One of the strings "932" (Japanese), "936" (Simplified Chinese), "949" (Korean), "950" (Traditional Chinese), or "Unicode" (Unicode). No other values are supported.                                     |
 | FromTo   | String value consisting of a pair of 4-digit hexadecimal values separated by a hyphen (-). Up to four FromTo values can be specified, but each must be separated from the previous value by a comma (,). |

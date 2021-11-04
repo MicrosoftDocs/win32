@@ -16,7 +16,9 @@ api_location:
 
 # Texture2D::GatherCmp methods
 
-Samples and compares a [**Texture2D**](sm5-object-texture2d.md) and returns all components.
+For four texel values of a [**Texture2D**](sm5-object-texture2d.md) that would be used in a bi-linear filtering operation, returns their comparison against a compare value.
+
+See the documentation on [gather4_c](./gather4-c--sm5---asm-.md) for more information describing the underlying DXBC instruction.
 
 ### Overload list
 
@@ -37,10 +39,4 @@ Samples and compares a [**Texture2D**](sm5-object-texture2d.md) and returns all 
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

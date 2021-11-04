@@ -1,5 +1,5 @@
 ---
-description: The SetPositions method sets the current position and the stop position. This method implements the IMediaSeeking::SetPositions method.
+description: CPosPassThru.SetPositions method - The SetPositions method sets the current position and the stop position. This method implements the IMediaSeeking::SetPositions method.
 ms.assetid: d4425221-e20f-4e51-8a33-a74fa21f9117
 title: CPosPassThru.SetPositions method (Ctlutil.h)
 ms.topic: reference
@@ -76,7 +76,7 @@ Returns the **HRESULT** value from the connected pin.
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Ctlutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

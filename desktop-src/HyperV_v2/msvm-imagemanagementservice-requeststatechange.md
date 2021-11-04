@@ -1,5 +1,5 @@
 ---
-description: Requests a state change.
+description: RequestStateChange method of the Msvm_ImageManagementService class - Requests a state change.
 ms.assetid: 005b34c7-51ed-4ef3-934c-a6a57a878b3b
 title: RequestStateChange method of the Msvm_ImageManagementService class
 ms.topic: reference

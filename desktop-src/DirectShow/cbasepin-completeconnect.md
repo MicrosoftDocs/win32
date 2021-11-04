@@ -1,5 +1,5 @@
 ---
-description: The CompleteConnect method completes a connection to another pin.
+description: CBasePin.CompleteConnect method - The CompleteConnect method completes a connection to another pin.
 ms.assetid: 10cbf29c-2e1a-419c-b0c0-c99f9a285810
 title: CBasePin.CompleteConnect method (Amfilter.h)
 ms.topic: reference
@@ -60,7 +60,7 @@ If this method fails, the overall connection attempt also fails, and the pin dis
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Amfilter.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

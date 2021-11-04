@@ -1,5 +1,5 @@
 ---
-description: The DeliverBeginFlush method requests the connected input pin to begin a flush operation.
+description: CDynamicOutputPin.DeliverBeginFlush method - The DeliverBeginFlush method requests the connected input pin to begin a flush operation.
 ms.assetid: eafc3835-7696-480b-abc8-154938e19b15
 title: CDynamicOutputPin.DeliverBeginFlush method (Amfilter.h)
 ms.topic: reference
@@ -47,7 +47,7 @@ This method overrides the [**CBaseOutputPin::DeliverBeginFlush**](cbaseoutputpin
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Amfilter.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

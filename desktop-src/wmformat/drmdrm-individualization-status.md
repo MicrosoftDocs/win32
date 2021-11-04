@@ -1,6 +1,6 @@
 ---
 title: DRM_INDIVIDUALIZATION_STATUS enumeration (Wmdrmsdk.h)
-description: The DRM\_INDIVIDUALIZATION\_STATUS enumeration type defines the valid states for DRM individualization.
+description: The DRM\_INDIVIDUALIZATION\_STATUS enumeration type defines the valid states for DRM individualization. | DRM_INDIVIDUALIZATION_STATUS enumeration (Wmdrmsdk.h)
 ms.assetid: 4e6712e2-3297-4636-9b0c-07269bd63d52
 keywords:
 - DRM_INDIVIDUALIZATION_STATUS enumeration windows Media Format
@@ -99,7 +99,7 @@ This enumeration is used by the [**WM\_INDIVIDUALIZE\_STATUS**](drmwm-individual
 
 
 
-|                   |                                                                                       |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Wmdrmsdk.h</dt> </dl> |
 

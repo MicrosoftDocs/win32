@@ -36,7 +36,7 @@ None.
 
 
 
-|              |                                                                   |
+|  Element     | Value                                                     |
 |--------------|-------------------------------------------------------------------|
 | Element type | [**LineLayoutType**](linelayouttype-complex-type.md) complexType |
 | Namespace    | urn:schemas-microsoft-com:tabletpc:richink                        |

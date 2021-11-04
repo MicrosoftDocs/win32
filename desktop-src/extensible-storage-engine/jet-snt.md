@@ -27,82 +27,27 @@ _**Applies to:** Windows | Windows Server_
 
 The [JET_SNT]() group of constants describe the points of the progress of an operation about which information is requested in a call to the [JET_PFNSTATUS](./jet-pfnstatus-callback-function.md) callback function.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Constant/value</p></th>
-<th><p>Description</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_sntBegin<br />
-5</p></td>
-<td><p>The beginning of an operation</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_sntRequirements<br />
-7</p></td>
-<td><p>Not supported.</p>
-<p><strong>Windows 2000 Server:</strong>  The operation is started. In this case, the last parameter of the callback function should be a valid pointer to a <a href="gg269328(v=exchg.10).md">JET_SNPROG</a> structure indicating the total number of units to be executed.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_sntProgress<br />
-0</p></td>
-<td><p>The number of units completed and number of units yet to be done. This information is returned in the members of a <a href="gg269328(v=exchg.10).md">JET_SNPROG</a> structure.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_sntComplete<br />
-6</p></td>
-<td><p>The completion of an operation.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_sntFail<br />
-3</p></td>
-<td><p>The failure of an operation.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_sntRecoveryStep<br />
-8</p></td>
-<td><p>The recovery control of an operation.</p>
-<div class="alert">
 
-> [!NOTE]
-> <P>This value is not applicable to versions of the Windows operating system starting with Windows 8.</P>
+| <p>Constant/value</p> | <p>Description</p> | 
+|-----------------------|--------------------|
+| <p>JET_sntBegin<br />5</p> | <p>The beginning of an operation</p> | 
+| <p>JET_sntRequirements<br />7</p> | <p>Not supported.</p><p><strong>Windows 2000 Server:</strong>  The operation is started. In this case, the last parameter of the callback function should be a valid pointer to a <a href="gg269328(v=exchg.10).md">JET_SNPROG</a> structure indicating the total number of units to be executed.</p> | 
+| <p>JET_sntProgress<br />0</p> | <p>The number of units completed and number of units yet to be done. This information is returned in the members of a <a href="gg269328(v=exchg.10).md">JET_SNPROG</a> structure.</p> | 
+| <p>JET_sntComplete<br />6</p> | <p>The completion of an operation.</p> | 
+| <p>JET_sntFail<br />3</p> | <p>The failure of an operation.</p> | 
+| <p>JET_sntRecoveryStep<br />8</p> | <p>The recovery control of an operation.</p><div class="alert">&gt; [!NOTE]&gt; <P>This value is not applicable to versions of the Windows operating system starting with Windows 8.</P></div> | 
 
-
-</div></td>
-</tr>
-</tbody>
-</table>
 
 
 ### Requirements
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Client</strong></p></td>
-<td><p>Requires Windows Vista, Windows XP, or Windows 2000 Professional.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Server</strong></p></td>
-<td><p>Requires Windows Server 2008, Windows Server 2003, or Windows 2000 Server.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>Header</strong></p></td>
-<td><p>Declared in Esent.h.</p></td>
-</tr>
-</tbody>
-</table>
+
+| Requirement | Value |
+|------------|----------|
+| <p><strong>Client</strong></p> | <p>Requires Windows Vista, Windows XP, or Windows 2000 Professional.</p> | 
+| <p><strong>Server</strong></p> | <p>Requires Windows Server 2008, Windows Server 2003, or Windows 2000 Server.</p> | 
+| <p><strong>Header</strong></p> | <p>Declared in Esent.h.</p> | 
+
 
 
 ### See Also

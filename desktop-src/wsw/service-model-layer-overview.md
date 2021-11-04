@@ -17,7 +17,7 @@ The WWSAPI Service Model API models the communication between a client and a ser
 
 For example, consider a calculator service which performs addition and subtraction on two numbers. Addition and subtraction are operations naturally represented as method calls.
 
-![](images/servicemodelintro.png)
+![Diagram showing how a calculator service communicates with a client using method calls for addition and subtraction.](images/servicemodelintro.png)
 
 The service model represents the communication between client and the service as declared method calls, and so conceals the communication details of the underlying channel layer from the application, making the service easier to implement.
 
@@ -78,7 +78,7 @@ targetNamespace="http://Example.org" xmlns:xs="http://www.w3.org/2001/XMLSchema"
 
 The service model provides the [WsUtil.exe](web-service-compiler-tool.md) as a tool to process these metadata documents, converting a WSDL file into a C header and source files.
 
-![](images/doctotool.png)
+![Diagram showing how WsUtil.exe converts a WSDL file into a C header and source files.](images/doctotool.png)
 
 The [WsUtil.exe](web-service-compiler-tool.md) generates header and sources for service implementation as well as client-side service operations for the client .
 
@@ -125,7 +125,7 @@ The interaction of the individual WWSAPI Service Model components within the Cal
 -   Using the Service Model metadata in the stub, the service deserializes the message from the client and dispatches it to the stub.
 -   The server-side service calls the Add method, passing it the operation context. This operation context contains the reference to the incoming message.
 
-![](images/servicemodellayout.png)
+![Diagram showing the interaction of the individual WWSAPI Service Model components.](images/servicemodellayout.png)
 
 Components
 

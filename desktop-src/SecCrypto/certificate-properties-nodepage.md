@@ -1,7 +1,7 @@
 ---
 description: The Certificate object exposes the following properties.
 ms.assetid: 783C243F-829A-40D0-980C-F6DA2E1C8EC7
-title: Certificate Properties
+title: Certificate Properties (Node)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

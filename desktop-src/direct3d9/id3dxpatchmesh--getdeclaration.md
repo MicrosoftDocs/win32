@@ -1,5 +1,5 @@
 ---
-description: Gets the vertex declaration.
+description: ID3DXPatchMesh::GetDeclaration method - Gets the vertex declaration.
 ms.assetid: 53ff2fb5-68b6-4edd-b48f-e06df306ee3f
 title: ID3DXPatchMesh::GetDeclaration method (D3DX9Mesh.h)
 ms.topic: reference
@@ -58,7 +58,7 @@ The array of elements includes the [**D3DDECL\_END**](d3ddecl-end.md) macro, whi
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

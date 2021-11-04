@@ -1,6 +1,6 @@
 ---
 title: ps_1_1, ps_1_2, ps_1_3, ps_1_4 Instructions
-description: This section contains reference information for the pixel shader version 1\_X instructions.
+description: This section contains reference information for pixel shader version 1\_X instructions.
 ms.assetid: cb496887-6755-4f29-b465-a36548b88722
 ms.topic: article
 ms.date: 05/31/2018
@@ -21,7 +21,7 @@ There are several types of pixel shader instructions, as shown in the following 
 
 
 
-| Version                                    |                                                                               | Instruction slots | 1\_1 | 1\_2 | 1\_3 | 1\_4 |
+| Version                                    | Description                                                                   | Instruction slots | 1\_1 | 1\_2 | 1\_3 | 1\_4 |
 |--------------------------------------------|-------------------------------------------------------------------------------|-------------------|------|------|------|------|
 | [ps](ps---ps.md)                          | Version number                                                                | 0                 | x    | x    | x    | x    |
 | Constant instructions                      |                                                                               |                   | 1\_1 | 1\_2 | 1\_3 | 1\_4 |

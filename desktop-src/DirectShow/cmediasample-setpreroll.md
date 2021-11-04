@@ -1,5 +1,5 @@
 ---
-Description: The SetPreroll method specifies whether this sample is a preroll sample. A preroll sample should not be displayed. This method implements the IMediaSample::SetPreroll method.
+description: The SetPreroll method specifies whether this sample is a preroll sample. A preroll sample should not be displayed. This method implements the IMediaSample::SetPreroll method.
 ms.assetid: 2887e627-5999-407a-88d3-811c803c9a43
 title: CMediaSample.SetPreroll method (Amfilter.h)
 ms.topic: reference
@@ -56,7 +56,7 @@ This method updates the [**CMediaSample::m\_dwFlags**](cmediasample-m-dwflags.md
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Amfilter.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

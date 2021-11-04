@@ -1,7 +1,7 @@
 ---
-description: Constructor method.
+description: The CRefTime.CRefTime constructor (Reftime.h) method has no parameters.
 ms.assetid: 009ade28-0788-48d7-a037-4835736f77da
-title: CRefTime.CRefTime constructor (Reftime.h)
+title: CRefTime.CRefTime constructor (Reftime.h) - No parameters
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
@@ -18,7 +18,7 @@ api_location:
 - Strmbasd.dll
 ---
 
-# CRefTime.CRefTime constructor (Reftime.h)
+# CRefTime.CRefTime constructor (Reftime.h) - No parameters
 
 Constructor method.
 
@@ -43,10 +43,10 @@ The reference time defaults to zero.
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Reftime.h (include Streams.h)</dt> </dl>                                                                                   |
-| Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |
+| Header  | Reftime.h (include Streams.h)                                                                                   |
+| Library | Strmbase.lib (retail builds); Strmbasd.lib (debug builds) |
 
 
 

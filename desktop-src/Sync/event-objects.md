@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Event Objects (Synchronization)
 
-An *event object* is a synchronization object whose state can be explicitly set to signaled by use of the [**SetEvent**](/windows/win32/api/synchapi/nf-synchapi-resetevent) function. Following are the two types of event object.
+An *event object* is a synchronization object whose state can be explicitly set to signaled by use of the [**SetEvent**](/windows/win32/api/synchapi/nf-synchapi-setevent) function. Following are the two types of event object.
 
 
 

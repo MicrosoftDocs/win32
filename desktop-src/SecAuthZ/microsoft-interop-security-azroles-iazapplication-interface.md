@@ -270,7 +270,7 @@ The **Microsoft.Interop.Security.AzRoles.IAzApplication** interface has these pr
 
 
 
-|                     |                                                                                                                   |
+| Requirement | Value |
 |---------------------|-------------------------------------------------------------------------------------------------------------------|
 | Assembly<br/> | <dl> <dt>Microsoft.Interop.Security.Azroles.dll</dt> </dl> |
 

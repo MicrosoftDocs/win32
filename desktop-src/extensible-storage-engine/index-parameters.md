@@ -32,58 +32,21 @@ This topic contains parameters that are used for the index.
 
 This parameter specifies the default for the offset increment used to step through the source column value while generating each tuple. For more information, see the [JET_TUPLELIMITS](./jet-tuplelimits-structure.md) structure.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Default Value:</p></td>
-<td><p>1</p></td>
-</tr>
-<tr class="even">
-<td><p>Type:</p></td>
-<td><p>Integer</p></td>
-</tr>
-<tr class="odd">
-<td><p>Valid Range:</p></td>
-<td><p>0 - 32767</p></td>
-</tr>
-<tr class="even">
-<td><p>Scope:</p></td>
-<td><p>Instance</p></td>
-</tr>
-<tr class="odd">
-<td><p>Set After <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="even">
-<td><p>Set after <a href="gg294068(v=exchg.10).md">JetInit</a>:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affects Physical Layout:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="even">
-<td><p>Affects Reliability:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affects Performance:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="even">
-<td><p>Affects Resources:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="odd">
-<td><p>Availability:</p></td>
-<td><p>Windows Vista and later releases</p></td>
-</tr>
-</tbody>
-</table>
+
+| Label | Value |
+|--------|-------|
+| <p>Default Value:</p> | <p>1</p> | 
+| <p>Type:</p> | <p>Integer</p> | 
+| <p>Valid Range:</p> | <p>0 - 32767</p> | 
+| <p>Scope:</p> | <p>Instance</p> | 
+| <p>Set After <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Yes</p> | 
+| <p>Set after <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>No</p> | 
+| <p>Affects Physical Layout:</p> | <p>No</p> | 
+| <p>Affects Reliability:</p> | <p>No</p> | 
+| <p>Affects Performance:</p> | <p>No</p> | 
+| <p>Affects Resources:</p> | <p>No</p> | 
+| <p>Availability:</p> | <p>Windows Vista and later releases</p> | 
+
 
 
 *JET_paramIndexTupleStart*  
@@ -91,58 +54,21 @@ This parameter specifies the default for the offset increment used to step throu
 
 This parameter specifies the default for the offset in the source column value at which tuple generation will start. For more information, see the [JET_TUPLELIMITS](./jet-tuplelimits-structure.md) structure.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Default Value:</p></td>
-<td><p>0</p></td>
-</tr>
-<tr class="even">
-<td><p>Type:</p></td>
-<td><p>Integer</p></td>
-</tr>
-<tr class="odd">
-<td><p>Valid Range:</p></td>
-<td><p>0 - 32767</p></td>
-</tr>
-<tr class="even">
-<td><p>Scope:</p></td>
-<td><p>Instance</p></td>
-</tr>
-<tr class="odd">
-<td><p>Set After <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="even">
-<td><p>Set after <a href="gg294068(v=exchg.10).md">JetInit</a>:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affects Physical Layout:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="even">
-<td><p>Affects Reliability:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affects Performance:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="even">
-<td><p>Affects Resources:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="odd">
-<td><p>Availability:</p></td>
-<td><p>Windows Vista and later releases</p></td>
-</tr>
-</tbody>
-</table>
+
+| Label | Value |
+|--------|-------|
+| <p>Default Value:</p> | <p>0</p> | 
+| <p>Type:</p> | <p>Integer</p> | 
+| <p>Valid Range:</p> | <p>0 - 32767</p> | 
+| <p>Scope:</p> | <p>Instance</p> | 
+| <p>Set After <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Yes</p> | 
+| <p>Set after <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>No</p> | 
+| <p>Affects Physical Layout:</p> | <p>No</p> | 
+| <p>Affects Reliability:</p> | <p>No</p> | 
+| <p>Affects Performance:</p> | <p>No</p> | 
+| <p>Affects Resources:</p> | <p>No</p> | 
+| <p>Availability:</p> | <p>Windows Vista and later releases</p> | 
+
 
 
 *JET_paramIndexTuplesLengthMax*  
@@ -152,59 +78,21 @@ This parameter specifies the default for the maximum tuple length in a tuple ind
 
 **Windows Vista:**  Prior to Windows Vista, setting this parameter to zero would set it back to its default value. For Windows Vista, this is no longer supported.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Default Value:</p></td>
-<td><p>10</p></td>
-</tr>
-<tr class="even">
-<td><p>Type:</p></td>
-<td><p>Integer</p></td>
-</tr>
-<tr class="odd">
-<td><p>Valid Range:</p></td>
-<td><p><strong>Windows 2000, Windows XP and Windows Server 2003: </strong>  0, 2-255</p>
-<p><strong>Windows Vista:</strong>  2-255</p></td>
-</tr>
-<tr class="even">
-<td><p>Scope:</p></td>
-<td><p>Instance</p></td>
-</tr>
-<tr class="odd">
-<td><p>Set After <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="even">
-<td><p>Set after <a href="gg294068(v=exchg.10).md">JetInit</a>:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affects Physical Layout:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="even">
-<td><p>Affects Reliability:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affects Performance:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="even">
-<td><p>Affects Resources:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="odd">
-<td><p>Availability:</p></td>
-<td><p>Windows XP and later releases</p></td>
-</tr>
-</tbody>
-</table>
+
+| Label | Value |
+|--------|-------|
+| <p>Default Value:</p> | <p>10</p> | 
+| <p>Type:</p> | <p>Integer</p> | 
+| <p>Valid Range:</p> | <p><strong>Windows 2000, Windows XP and Windows Server 2003: </strong>  0, 2-255</p><p><strong>Windows Vista:</strong>  2-255</p> | 
+| <p>Scope:</p> | <p>Instance</p> | 
+| <p>Set After <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Yes</p> | 
+| <p>Set after <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>No</p> | 
+| <p>Affects Physical Layout:</p> | <p>No</p> | 
+| <p>Affects Reliability:</p> | <p>No</p> | 
+| <p>Affects Performance:</p> | <p>No</p> | 
+| <p>Affects Resources:</p> | <p>No</p> | 
+| <p>Availability:</p> | <p>Windows XP and later releases</p> | 
+
 
 
 *JET_paramIndexTuplesLengthMin*  
@@ -214,59 +102,21 @@ This parameter specifies the default for the minimum tuple length in a tuple ind
 
 **Windows Vista:**  Prior to Windows Vista, setting this parameter to zero would set it back to its default value. For Windows Vista, this is no longer supported.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Default Value:</p></td>
-<td><p>3</p></td>
-</tr>
-<tr class="even">
-<td><p>Type:</p></td>
-<td><p>Integer</p></td>
-</tr>
-<tr class="odd">
-<td><p>Valid Range:</p></td>
-<td><p><strong>Windows 2000, Windows XP and Windows Server 2003: </strong>  0, 2-255</p>
-<p><strong>Windows Vista:</strong>  2-255</p></td>
-</tr>
-<tr class="even">
-<td><p>Scope:</p></td>
-<td><p>Instance</p></td>
-</tr>
-<tr class="odd">
-<td><p>Set After <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="even">
-<td><p>Set after <a href="gg294068(v=exchg.10).md">JetInit</a>:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affects Physical Layout:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="even">
-<td><p>Affects Reliability:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affects Performance:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="even">
-<td><p>Affects Resources:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="odd">
-<td><p>Availability:</p></td>
-<td><p>Windows XP and later releases</p></td>
-</tr>
-</tbody>
-</table>
+
+| Label | Value |
+|--------|-------|
+| <p>Default Value:</p> | <p>3</p> | 
+| <p>Type:</p> | <p>Integer</p> | 
+| <p>Valid Range:</p> | <p><strong>Windows 2000, Windows XP and Windows Server 2003: </strong>  0, 2-255</p><p><strong>Windows Vista:</strong>  2-255</p> | 
+| <p>Scope:</p> | <p>Instance</p> | 
+| <p>Set After <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Yes</p> | 
+| <p>Set after <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>No</p> | 
+| <p>Affects Physical Layout:</p> | <p>No</p> | 
+| <p>Affects Reliability:</p> | <p>No</p> | 
+| <p>Affects Performance:</p> | <p>No</p> | 
+| <p>Affects Resources:</p> | <p>No</p> | 
+| <p>Availability:</p> | <p>Windows XP and later releases</p> | 
+
 
 
 *JET_paramIndexTuplesToIndexMax*  
@@ -276,59 +126,21 @@ This parameter specifies the default for the maximum length of a source string t
 
 **Windows Vista:**  Prior to Windows Vista, setting this parameter to zero would set it back to its default value. For Windows Vista, this is no longer supported.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Default Value:</p></td>
-<td><p>32767</p></td>
-</tr>
-<tr class="even">
-<td><p>Type:</p></td>
-<td><p>Integer</p></td>
-</tr>
-<tr class="odd">
-<td><p>Valid Range:</p></td>
-<td><p><strong>Windows 2000, Windows XP and Windows Server 2003:</strong>  0 – 32767</p>
-<p><strong>Windows Vista:</strong>  1 – 32767</p></td>
-</tr>
-<tr class="even">
-<td><p>Scope:</p></td>
-<td><p>Instance</p></td>
-</tr>
-<tr class="odd">
-<td><p>Set After <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="even">
-<td><p>Set after <a href="gg294068(v=exchg.10).md">JetInit</a>:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affects Physical Layout:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="even">
-<td><p>Affects Reliability:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affects Performance:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="even">
-<td><p>Affects Resources:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="odd">
-<td><p>Availability:</p></td>
-<td><p>Windows XP and later releases</p></td>
-</tr>
-</tbody>
-</table>
+
+| Label | Value |
+|--------|-------|
+| <p>Default Value:</p> | <p>32767</p> | 
+| <p>Type:</p> | <p>Integer</p> | 
+| <p>Valid Range:</p> | <p><strong>Windows 2000, Windows XP and Windows Server 2003:</strong>  0 – 32767</p><p><strong>Windows Vista:</strong>  1 – 32767</p> | 
+| <p>Scope:</p> | <p>Instance</p> | 
+| <p>Set After <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Yes</p> | 
+| <p>Set after <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>No</p> | 
+| <p>Affects Physical Layout:</p> | <p>No</p> | 
+| <p>Affects Reliability:</p> | <p>No</p> | 
+| <p>Affects Performance:</p> | <p>No</p> | 
+| <p>Affects Resources:</p> | <p>No</p> | 
+| <p>Availability:</p> | <p>Windows XP and later releases</p> | 
+
 
 
 *JET_paramUnicodeIndexDefault*  
@@ -344,82 +156,32 @@ The default value of this parameter contains an LCID for the U.S. English locale
 
 **Note**  If your application wishes to store Unicode data, then it is strongly recommended that you do not rely on the default Unicode parameters for your indexes. The use of U.S. English is tantamount to using the invariant locale and the default [LCMapStringW](/windows/win32/api/winnls/nf-winnls-lcmapstringa)flags are known to seriously interfere with some languages. You should always specify your own settings for the Unicode parameters to JetCreateIndex2 using [JET_INDEXCREATE](./jet-indexcreate-structure.md).
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Default Value:</p></td>
-<td><p>Special</p></td>
-</tr>
-<tr class="even">
-<td><p>Type:</p></td>
-<td><p>JET_UNICODEINDEX* (JET_UNICODEINDEX)</p></td>
-</tr>
-<tr class="odd">
-<td><p>Valid Range:</p></td>
-<td><p>Special</p></td>
-</tr>
-<tr class="even">
-<td><p>Scope:</p></td>
-<td><p>Instance</p></td>
-</tr>
-<tr class="odd">
-<td><p>Set After <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="even">
-<td><p>Set after <a href="gg294068(v=exchg.10).md">JetInit</a>:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affects Physical Layout:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="even">
-<td><p>Affects Reliability:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affects Performance:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="even">
-<td><p>Affects Resources:</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="odd">
-<td><p>Availability:</p></td>
-<td><p>All</p></td>
-</tr>
-</tbody>
-</table>
+
+| Label | Value |
+|--------|-------|
+| <p>Default Value:</p> | <p>Special</p> | 
+| <p>Type:</p> | <p>JET_UNICODEINDEX* (JET_UNICODEINDEX)</p> | 
+| <p>Valid Range:</p> | <p>Special</p> | 
+| <p>Scope:</p> | <p>Instance</p> | 
+| <p>Set After <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Yes</p> | 
+| <p>Set after <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>No</p> | 
+| <p>Affects Physical Layout:</p> | <p>No</p> | 
+| <p>Affects Reliability:</p> | <p>No</p> | 
+| <p>Affects Performance:</p> | <p>No</p> | 
+| <p>Affects Resources:</p> | <p>No</p> | 
+| <p>Availability:</p> | <p>All</p> | 
+
 
 
 ### Requirements
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Client</strong></p></td>
-<td><p>Requires Windows Vista, Windows XP, or Windows 2000 Professional.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Server</strong></p></td>
-<td><p>Requires Windows Server 2008, Windows Server 2003, or Windows 2000 Server.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>Header</strong></p></td>
-<td><p>Declared in Esent.h.</p></td>
-</tr>
-</tbody>
-</table>
+
+| Requirement | Value |
+|------------|----------|
+| <p><strong>Client</strong></p> | <p>Requires Windows Vista, Windows XP, or Windows 2000 Professional.</p> | 
+| <p><strong>Server</strong></p> | <p>Requires Windows Server 2008, Windows Server 2003, or Windows 2000 Server.</p> | 
+| <p><strong>Header</strong></p> | <p>Declared in Esent.h.</p> | 
+
 
 
 ### See Also

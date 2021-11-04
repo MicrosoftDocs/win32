@@ -1,5 +1,5 @@
 ---
-description: Uses a pre-shared key for network authentication.
+description: Uses a pre-shared key for network authentication. This sample profile uses Wi-Fi Protected Access security running in Personal mode (WPA-Personal).
 ms.assetid: f04de28b-a98d-40cd-91c8-e446cf669555
 title: WPA-Personal Profile Sample
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: The MediaDisks property enumerates all the media disks for this product instance. This property calls the MsiSourceListEnumMediaDisks. Returns the disk information as an array of Record objects.
+description: The MediaDisks property enumerates all the media disks for this product instance. This property calls the MsiSourceListEnumMediaDisks. Returns the disk information as an array of Record objects.
 ms.assetid: 9ea7c9a8-4ff1-4b26-a8d5-c23510650566
 title: Product.MediaDisks property
 ms.topic: reference
@@ -40,7 +40,7 @@ In each record, the first field contains the disk Id, the second field contains 
 
 
 
-|                    |                                                                                                                                                                                                                                                                                      |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer 3.0 or later on Windows Server 2003, Windows XP, and Windows 2000<br/> |
 | DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl>                                                                                                                                                                                                   |

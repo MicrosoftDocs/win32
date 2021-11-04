@@ -1,5 +1,5 @@
 ---
-description: Transforms an array (x, y, z, 1) by a given matrix, and projects the result back into w = 1.
+description: D3DXVec3TransformCoordArray function (D3DX10Math.h) - Transforms an array (x, y, z, 1) by a given matrix, and projects the result back into w = 1.
 ms.assetid: 259a885d-89be-4fea-a579-dac3dd76878f
 title: D3DXVec3TransformCoordArray function (D3DX10Math.h)
 ms.topic: reference
@@ -109,7 +109,7 @@ The return value for this function is the same value returned in the pOut parame
 
 
 
-|                   |                                                                                         |
+| Requirement | Value |
 |-------------------|-----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3DX10Math.h</dt> </dl> |
 

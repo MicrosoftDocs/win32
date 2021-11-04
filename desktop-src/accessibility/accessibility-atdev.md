@@ -1,5 +1,5 @@
 ---
-description: Overview of the Windows accessibility features you can incorporate into your UI framework.
+description: Learn about developing assistive technology for Windows with this overview of the Windows accessibility features you can incorporate into your UI framework.
 title: Developing assistive technology for Windows
 ms.topic: article
 ms.date: 04/18/2019

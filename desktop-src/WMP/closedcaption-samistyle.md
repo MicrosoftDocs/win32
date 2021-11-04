@@ -30,7 +30,7 @@ This property is a read/write **String**.
 
 ## Remarks
 
-A SAMI file can contain several format style definitions. SAMI styles are defined between the <STYLE> and </STYLE> tags in the SAMI file. A style is defined with a text string preceded by a \# character. For example:
+A SAMI file can contain several format style definitions. SAMI styles are defined between the &lt;STYLE&gt; and </STYLE> tags in the SAMI file. A style is defined with a text string preceded by a \# character. For example:
 
 
 ```
@@ -75,7 +75,7 @@ The following JScript example creates an HTML SELECT element that uses *closedCa
 
 
 
-|                    |                                                                                    |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------|
 | Version<br/> | Windows Media Player version 7.0 or later.<br/>                              |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |

@@ -1,5 +1,5 @@
 ---
-Description: The SetPortInfo method sets the 16-bit port value for the first port and the number of ports needed for a session.
+description: The SetPortInfo method sets the 16-bit port value for the first port and the number of ports needed for a session.
 ms.assetid: 4726b39b-cd10-4630-8f38-8671db4f432b
 title: ITMedia::SetPortInfo method (Sdpblb.h)
 ms.topic: reference
@@ -68,7 +68,7 @@ This function may send data over the wire in unencrypted form; therefore, someon
 
 
 
-|                         |                                                                                       |
+| Requirement | Value |
 |-------------------------|---------------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 3.0 or later<br/>                                                 |
 | Header<br/>       | <dl> <dt>Sdpblb.h</dt> </dl>   |

@@ -1,5 +1,5 @@
 ---
-description: .
+description: System.RecordedTV.OriginalBroadcastDate
 ms.assetid: 95074b6f-371b-449a-ba98-eadd3235e49b
 title: System.RecordedTV.OriginalBroadcastDate
 ms.topic: article

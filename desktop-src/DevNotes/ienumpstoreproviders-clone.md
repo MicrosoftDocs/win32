@@ -1,5 +1,5 @@
 ---
-description: Creates another enumerator that contains the same enumeration state as the current one.
+description: IEnumPStoreProviders::Clone method - Creates another enumerator that contains the same enumeration state as the current one.
 ms.assetid: c9a53005-4bb2-4a07-8f58-28d51f22c9e8
 title: IEnumPStoreProviders::Clone method (Pstore.h)
 ms.topic: reference
@@ -51,7 +51,7 @@ The return value is an **HRESULT** value.
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Pstore.h</dt> </dl>    |
 | DLL<br/>    | <dl> <dt>Pstorec.dll</dt> </dl> |

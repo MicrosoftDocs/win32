@@ -19,8 +19,8 @@ One profile can be listed in multiple groups.
 
 ## Element hierarchy
 
-[<MBNProfileExt>](element-mbnprofileext.md)  
-**<PurposeGroups>**
+[&lt;MBNProfileExt&gt;](element-mbnprofileext.md)  
+**&lt;PurposeGroups&gt;**
 
 ## Syntax
 
@@ -47,8 +47,8 @@ None.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -99,8 +99,8 @@ None.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -123,8 +123,8 @@ None.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">

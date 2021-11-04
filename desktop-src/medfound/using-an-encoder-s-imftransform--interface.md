@@ -1,5 +1,5 @@
 ---
-description: For converting media files into ASF format, you can use Windows Media encoders. To use these encoders, they must be registered with the system.
+description: For converting media files into ASF format, you can use Windows Media encoders. Learn about creating an encoder using CoCreateInstance.
 ms.assetid: 96f19dfb-a328-41db-8fa8-77f052b1a192
 title: Creating an Encoder by Using CoCreateInstance
 ms.topic: article

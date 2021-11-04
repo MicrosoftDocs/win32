@@ -1,5 +1,5 @@
 ---
-Description: The WriteBitmapBits method retrieves a video frame at the specified media time and writes it to a file. The video frame is always in 24-bit RGB format.
+description: The WriteBitmapBits method retrieves a video frame at the specified media time and writes it to a file. The video frame is always in 24-bit RGB format.
 ms.assetid: 8b21f37b-553d-4de2-8725-c94c29fa3a1a
 title: IMediaDet::WriteBitmapBits method (Qedit.h)
 ms.topic: reference
@@ -110,7 +110,7 @@ This method puts the media detector into bitmap grab mode. Once this method has 
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

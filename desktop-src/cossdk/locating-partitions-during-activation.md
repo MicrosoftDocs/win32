@@ -110,7 +110,7 @@ If the lookup in the partition cache fails, COM+ then checks Active Directory. I
 
 The following illustration shows the process that COM+ uses to locate a partition for component activation.
 
-![](images/5d00eb4e-4572-491c-85e9-33ceed2cd753.png)
+![Diagram that shows a troubleshooting tree for the process that COM+ uses to locate a partition for component activation.](images/5d00eb4e-4572-491c-85e9-33ceed2cd753.png)
 
 The size of the cache and the expiration time for the cache entries are set via registry keys. For information on configuring these registry keys, see [Creating and Configuring COM+ Partitions](creating-and-configuring-com--partitions.md).
 

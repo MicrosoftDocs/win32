@@ -45,7 +45,7 @@ Status of the audio output channel, which may be one of the following values:
 
 </dd> </dl>
 
-This setting enables your client application to query the state of the audio output channel. You can use this to determine whether to have your character speak or to try to turn on Listening mode (using [**IAgentCharacterEx::Listen**](lwef.iagentcharacterex::listen_method)).
+This setting enables your client application to query the state of the audio output channel. You can use this to determine whether to have your character speak or to try to turn on Listening mode (using **IAgentCharacterEx::Listen**).
 
  
 

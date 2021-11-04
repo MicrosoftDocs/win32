@@ -1,6 +1,6 @@
 ---
 title: ID3DX11Effect GetTechniqueByIndex method (D3dx11effect.h)
-description: Get a technique by index.
+description: Get a technique by index. | ID3DX11Effect GetTechniqueByIndex method (D3dx11effect.h)
 ms.assetid: ee9c0cc3-0ca1-42e8-bd37-5878fd56cff1
 keywords:
 - GetTechniqueByIndex method Direct3D 11
@@ -66,7 +66,7 @@ An effect contains one or more techniques; each technique contains one or more p
 
 
 
-|                    |                                                                                                                                              |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx11effect.h</dt> </dl>                                                    |
 | Library<br/> | <dl> <dt>N/A (An Effects 11 library is available online as shared source.)</dt> </dl> |

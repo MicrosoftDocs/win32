@@ -1,5 +1,5 @@
 ---
-description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: Get information about the JobErrorSheetSource parameter. This topic isn't current. For the most current information, see the Print Schema Specification.
 ms.assetid: 6de13ed8-bf15-4e2c-b42a-ea8178a6b5f9
 title: JobErrorSheetSource
 ms.topic: article
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # JobErrorSheetSource
 
-This topic is not current. For the most current information, see the [Print Schema Specification](https://www.microsoft.com/whdc/xps/printschema.mspx).
+This topic is not current. For the most current information, see the [Print Schema Specification](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip).
 
 Specifies the source for a custom error sheet.
 
@@ -19,7 +19,7 @@ Specifies the source for a custom error sheet.
 
 
 
-| Name                       |                                            |
+| Name | Value |
 |----------------------------|--------------------------------------------|
 | Element Type <br/>   | ParameterDef<br/>                    |
 | Scoping Prefix <br/> | Document<br/>                        |
@@ -79,7 +79,7 @@ The following table outlines the characteristics of the variables defined in the
 
 <dl> <dt>
 
-[Print Schema Specification](https://www.microsoft.com/whdc/xps/printschema.mspx)
+[Print Schema Specification](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip)
 </dt> </dl>
 
  

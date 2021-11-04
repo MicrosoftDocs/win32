@@ -1,5 +1,5 @@
 ---
-description: Windows GDI+ exposes a flat API that consists of about 600 functions, which are implemented in Gdiplus.dll and declared in Gdiplusflat.h.
+description: Windows GDI+ exposes a flat API that consists of about 600 functions. These flat API functions are wrapped by the Region C++ class.
 ms.assetid: 2f1d3631-7104-421a-a577-ef764bffe034
 title: Region Functions (GDI+)
 ms.topic: article

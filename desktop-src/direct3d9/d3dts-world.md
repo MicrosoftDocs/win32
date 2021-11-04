@@ -44,7 +44,7 @@ This macro is provided to facilitate porting existing applications to Direct3D 9
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3d9types.h</dt> </dl> |
 

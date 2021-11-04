@@ -1,5 +1,5 @@
 ---
-Description: The get\_MediaCollection method gets a pointer to the ITMediaCollection interface for the conference.
+description: The get\_MediaCollection method gets a pointer to the ITMediaCollection interface for the conference.
 ms.assetid: 8109582a-74f0-47e8-91d1-0d89c3d3c331
 title: ITSdp::get_MediaCollection method (Sdpblb.h)
 ms.topic: reference
@@ -63,7 +63,7 @@ TAPI calls the **AddRef** method on the [**ITMediaCollection**](itmediacollectio
 
 
 
-|                         |                                                                                       |
+| Requirement | Value |
 |-------------------------|---------------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 3.0 or later<br/>                                                 |
 | Header<br/>       | <dl> <dt>Sdpblb.h</dt> </dl>   |

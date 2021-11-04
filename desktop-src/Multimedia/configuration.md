@@ -1,6 +1,6 @@
 ---
 title: Configuration (Windows Multimedia)
-description: Configuration
+description: Learn how a Windows Multimedia driver can let users choose configuration settings by displaying a configuration dialog box.
 ms.assetid: 'd61d6c8b-8dba-45c2-ba99-0b2111a2d624'
 keywords:
 - installable drivers,configuration

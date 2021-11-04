@@ -17,7 +17,7 @@ The new Windows 7 desktop brings your applications to life. Applications are no
 
 Enhancements to the gadgets platform enable applications to install companion gadgets during the setup or first-run experience.
 
-![](images/windows7-6.jpg)
+![Screenshot that shows the Windows 7 desktop.](images/windows7-6.jpg)
 
 The new Windows 7 desktop brings your applications to life
 

@@ -146,7 +146,7 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
 | Description    | Identifier for the subscription. This property is returned when the [**Key**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogobject-get_key) property method is called on an object of this collection. |
 | Access         | WriteOnce                                                                                                                                                        |
 | Type           | String                                                                                                                                                           |
-| Default        | <Generated>                                                                                                                                                |
+| Default        | &lt;Generated&gt;                                                                                                                                                |
 | Minimum system | Windows 2000                                                                                                                                                     |
 
 
@@ -258,7 +258,7 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
 | Description    | When subscribing to an event class in the same partition, used to represent the GUID of the partition ID of the subscriber. When subscribing to event classes, the subscriber has the option to subscribe to an event class in the same or different partition. |
 | Access         | WriteOnce                                                                                                                                                                                                                                                       |
 | Type           | String                                                                                                                                                                                                                                                          |
-| Default        | <Generated>                                                                                                                                                                                                                                               |
+| Default        | &lt;Generated&gt;                                                                                                                                                                                                                                               |
 | Minimum system | Windows Server 2003                                                                                                                                                                                                                                             |
 
 

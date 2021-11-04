@@ -1,5 +1,5 @@
 ---
-description: Destructor method.
+description: CCritSec.~CCritSec destructor - Destructor method.
 ms.assetid: cade850c-391c-41dc-adfe-56de8b2bbfff
 title: CCritSec.~CCritSec destructor (Wxutil.h)
 ms.topic: reference
@@ -39,7 +39,7 @@ This method calls the [**DeleteCriticalSection**](/windows/desktop/api/synchapi/
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Wxutil.h (include Streams.h)</dt> </dl>                                                                                    |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

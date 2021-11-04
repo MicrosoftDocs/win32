@@ -113,7 +113,7 @@ Stencil-buffer entries are integer values ranging from 0 through 2ⁿ - 1, where
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3D9Types.h</dt> </dl> |
 

@@ -1,5 +1,5 @@
 ---
-description: Retrieves either an attribute table for a mesh, or the number of entries stored in an attribute table for a mesh.
+description: ID3DX10Mesh::GetAttributeTable method - Retrieves either an attribute table for a mesh, or the number of entries stored in an attribute table for a mesh.
 ms.assetid: cee49eba-c113-49f5-a702-c366401f1f2d
 title: ID3DX10Mesh::GetAttributeTable method (D3DX10.h)
 ms.topic: reference
@@ -68,7 +68,7 @@ An attribute table is used to identify areas of the mesh that need to be drawn w
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl> |

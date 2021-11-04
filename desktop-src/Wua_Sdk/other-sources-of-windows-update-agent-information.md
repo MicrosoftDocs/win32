@@ -14,7 +14,7 @@ The [Windows Update Agent API](portal-client.md)SDK contains the most complete a
 
 The following resources describe how to deploy and administer Windows Server Update Services and WUA:
 
--   [Windows Server Update Services](https://go.microsoft.com/fwlink/p/?linkid=84397)
+-   [Windows Server Update Services](/documentation/)
 
     You can download the Windows Server Update Services SDK and review other documents that describe how to install, deploy, and maintain Windows Update Services.
 

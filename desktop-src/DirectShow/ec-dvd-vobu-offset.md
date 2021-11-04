@@ -1,5 +1,5 @@
 ---
-description: Sent when the DVD Navigator parses a PCI packet.
+description: EC_DVD_VOBU_Offset - Sent when the DVD Navigator parses a PCI packet.
 ms.assetid: e2e65007-7c34-4be4-86b9-9491061891e5
 title: EC_DVD_VOBU_Offset (Dvdevcode.h)
 ms.topic: reference
@@ -45,7 +45,7 @@ This event is disabled by default. To enable this event, call [**IDvdControl2::S
 
 
 
-|                   |                                                                                                          |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Dvdevcode.h (include Dshow.h)</dt> </dl> |
 

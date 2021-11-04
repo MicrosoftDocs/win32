@@ -9,7 +9,7 @@ ms.date: 10/20/2020
 # Standard Icons
 
 > [!NOTE]
-> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](https://docs.microsoft.com/windows/uwp/design/).
+> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](/windows/uwp/design/).
 
 Standard icons are the error, warning, information, and question mark icons that are part of Windows.
 
@@ -267,10 +267,4 @@ In this example, a yellow security shield is used in a footnote.
 -   **Don't routinely replace question mark icons with warning icons.** Replace a question mark icon with a warning icon only if the question has significant consequences. Otherwise, use no icon.
 
  
-
- 
-
-
-
-
 

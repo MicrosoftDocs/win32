@@ -1,5 +1,5 @@
 ---
-description: This method is not supported.
+description: IAMTimelineTrack::MoveEverythingBy2 method - This method is not supported.
 ms.assetid: 082922fc-dda9-4970-979c-301178152502
 title: IAMTimelineTrack::MoveEverythingBy2 method (Qedit.h)
 ms.topic: reference
@@ -70,7 +70,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

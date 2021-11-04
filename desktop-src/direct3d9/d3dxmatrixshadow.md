@@ -1,5 +1,5 @@
 ---
-description: Builds a matrix that flattens geometry into a plane.
+description: D3DXMatrixShadow function (D3dx9math.h) - Builds a matrix that flattens geometry into a plane.
 ms.assetid: 8f283ff9-c879-476c-8057-f4fe77a7a9e7
 title: D3DXMatrixShadow function (D3dx9math.h)
 ms.topic: reference
@@ -98,7 +98,7 @@ If the light's w-component is 0, the ray from the origin to the light represents
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9math.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

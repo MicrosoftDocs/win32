@@ -1,6 +1,6 @@
 ---
 title: MediaCollectionAttributeStringChanged Event of the AxWindowsMediaPlayer Object
-description: The MediaCollectionAttributeStringChanged event occurs when an attribute value in the library is changed.
+description: The MediaCollectionAttributeStringChanged event occurs when an attribute value in the library is changed. | MediaCollectionAttributeStringChanged Event of the AxWindowsMediaPlayer Object
 ms.assetid: f5b91399-42b7-4202-9b65-caa9b15847b9
 keywords:
 - MediaCollectionAttributeStringChanged Event of the AxWindowsMediaPlayer Object Windows Media Player
@@ -58,7 +58,7 @@ When a user modifies library metadata, the media collection is updated and this 
 
 
 
-|                      |                                                                                                                            |
+| Requirement | Value |
 |----------------------|----------------------------------------------------------------------------------------------------------------------------|
 | Version<br/>   | Windows Media Player 9 Series or later<br/>                                                                          |
 | Namespace<br/> | **AxWMPLib**<br/>                                                                                                    |

@@ -1,5 +1,5 @@
 ---
-description: Contains the object's Application object.
+description: Shell.Application property - Contains the object's Application object.
 ms.assetid: 5335f4dd-ca80-49c8-8953-e32a6e6308e0
 title: Shell.Application property (Shldisp.h)
 ms.topic: reference

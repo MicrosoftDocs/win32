@@ -1,5 +1,5 @@
 ---
-description: Destructor method.
+description: CAMEvent.~CAMEvent destructor - Destructor method.
 ms.assetid: 3be76b8f-1141-439e-8837-9edba02707b0
 title: CAMEvent.~CAMEvent destructor (Wxutil.h)
 ms.topic: reference
@@ -35,7 +35,7 @@ Destructor method.
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Wxutil.h (include Streams.h)</dt> </dl>                                                                                    |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

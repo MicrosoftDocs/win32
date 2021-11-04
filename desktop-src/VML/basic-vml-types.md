@@ -1,6 +1,6 @@
 ---
 title: Basic VML Types
-description: This topic describes VML, a feature that is deprecated as of Windows Internet Explorer 9. Webpages and applications that rely on VML should be migrated to SVG or other widely supported standards.
+description: This topic describes VML, a feature that is deprecated as of Windows Internet Explorer 9. Migrate web pages and applications that rely on VML to SVG or other widely supported standards.
 ms.assetid: 07c17e7b-5ac4-4a8d-a468-559307408d5b
 keywords:
 - Vector Markup Language (VML),basic types
@@ -369,67 +369,67 @@ The definition of a color value must not refer to itself, either directly or ind
 
 Color names and sRGB values
 
-![](images/black.gif)
+![Example of black color.](images/black.gif)
 
 Black = "\#000000"
 
-![](images/green.gif)
+![Example of green color.](images/green.gif)
 
 Green = "\#008000"
 
-![](images/silver.gif)
+![Example of silver color.](images/silver.gif)
 
 Silver = "\#C0C0C0"
 
-![](images/lime.gif)
+![Example of lime color.](images/lime.gif)
 
 Lime = "\#00FF00"
 
-![](images/gray.gif)
+![Example of gray color.](images/gray.gif)
 
 Gray = "\#808080"
 
-![](images/olive.gif)
+![Example of olive color.](images/olive.gif)
 
 Olive = "\#808000"
 
-![](images/white.gif)
+![Example of white color.](images/white.gif)
 
 White = "\#FFFFFF"
 
-![](images/yellow.gif)
+![Example of ywllow color.](images/yellow.gif)
 
 Yellow = "\#FFFF00"
 
-![](images/maroon.gif)
+![Example of maroon color.](images/maroon.gif)
 
 Maroon = "\#800000"
 
-![](images/navy.gif)
+![Example of navy color.](images/navy.gif)
 
 Navy = "\#000080"
 
-![](images/red.gif)
+![Example of red color.](images/red.gif)
 
 Red = "\#FF0000"
 
-![](images/blue.gif)
+![Example of blue color.](images/blue.gif)
 
 Blue = "\#0000FF"
 
-![](images/purple.gif)
+![Example of purple color.](images/purple.gif)
 
 Purple = "\#800080"
 
-![](images/teal.gif)
+![Example of teal color.](images/teal.gif)
 
 Teal = "\#008080"
 
-![](images/fuchsia.gif)
+![Example of fuchsia color.](images/fuchsia.gif)
 
 Fuchsia = "\#FF00FF"
 
-![](images/aqua.gif)
+![Example of aqua color.](images/aqua.gif)
 
 Aqua = "\#00FFFF"
 
@@ -504,7 +504,7 @@ pure
 
 
 
-If the element <pure/> appears in a color value, it is a hint that the color should not be approximated by a dither pattern. This is a level 1 feature, and a conforming implementation need not honor it. The designation is important for graphics displayed on medium-resolution devices, such as video displays, where small features (such as lines) may cause bad aliasing with dithered colors. On devices such as printers, which normally dither all colors except for the few fully saturated colors, the dithering is normally sufficiently fine to avoid this problem.
+If the element &lt;pure/&gt; appears in a color value, it is a hint that the color should not be approximated by a dither pattern. This is a level 1 feature, and a conforming implementation need not honor it. The designation is important for graphics displayed on medium-resolution devices, such as video displays, where small features (such as lines) may cause bad aliasing with dithered colors. On devices such as printers, which normally dither all colors except for the few fully saturated colors, the dithering is normally sufficiently fine to avoid this problem.
 
 [![back to top](images/top.gif) Back to top](#top)
 
@@ -549,7 +549,7 @@ color.adj
 
 The parameter of the first six operations is a single integral numeric value in the range 0 to 255. The adjustment is performed on the 3x8bit RGB value as follows:
 
-1.  If <gray/> is specified, the RGB value is replaced by yyy, where y is the luminance (y') value calculated from the sRGB value in following the ITU-r BT.709. This calculation is:
+1.  If &lt;gray/&gt; is specified, the RGB value is replaced by yyy, where y is the luminance (y') value calculated from the sRGB value in following the ITU-r BT.709. This calculation is:
     ```HTML
     y = 0 2125xr + 0 7154xg + 0 0721xb
     ```
@@ -573,7 +573,7 @@ The parameter of the first six operations is a single integral numeric value in 
 
     In each case, if the calculated component value, c, exceeds 255, then 255 is used, and if it is less than 0, then 0 is used.
 
-3.  If <INVERT128/> is given, the value 128 is subtracted or added to each component according to whether the component is less than 128 or not.
+3.  If &lt;INVERT128/&gt; is given, the value 128 is subtracted or added to each component according to whether the component is less than 128 or not.
     ```HTML
     if c < 128
         then
@@ -584,7 +584,7 @@ The parameter of the first six operations is a single integral numeric value in 
 
     
 
-4.  If <invert/> is given, each component is replaced by 255 minus the value of the component.
+4.  If &lt;invert/&gt; is given, each component is replaced by 255 minus the value of the component.
     ```HTML
     c := 255-c
     ```

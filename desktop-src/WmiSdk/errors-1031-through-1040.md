@@ -33,7 +33,7 @@ Describes WMI SNMP provider errors 1031 through 1040.
 
 <dl> <dt>
 
-<span id="_1031__Warning_____fileName___line____Standard_symbol__identifier__should_be_imported_from_module__identifier_._Assuming_the_standard_definition._"></span><span id="_1031__warning_____filename___line____standard_symbol__identifier__should_be_imported_from_module__identifier_._assuming_the_standard_definition._"></span><span id="_1031__WARNING_____FILENAME___LINE____STANDARD_SYMBOL__IDENTIFIER__SHOULD_BE_IMPORTED_FROM_MODULE__IDENTIFIER_._ASSUMING_THE_STANDARD_DEFINITION._"></span>**<1031, Warning>: "<fileName>:<line\#>: Standard symbol <identifier> should be imported from module <identifier>. Assuming the standard definition."**
+<span id="_1031__Warning_____fileName___line____Standard_symbol__identifier__should_be_imported_from_module__identifier_._Assuming_the_standard_definition._"></span><span id="_1031__warning_____filename___line____standard_symbol__identifier__should_be_imported_from_module__identifier_._assuming_the_standard_definition._"></span><span id="_1031__WARNING_____FILENAME___LINE____STANDARD_SYMBOL__IDENTIFIER__SHOULD_BE_IMPORTED_FROM_MODULE__IDENTIFIER_._ASSUMING_THE_STANDARD_DEFINITION._"></span>**<1031, Warning>: "&lt;fileName&gt;:<line\#>: Standard symbol &lt;identifier&gt; should be imported from module &lt;identifier&gt;. Assuming the standard definition."**
 </dt> <dd>
 
 IMPORTS section module semantic warning, specific to neither SNMPv1 nor SNMPv2C. If an SNMP identifier known to the compiler is in the IMPORTS section, then the module from which it is imported must be one of the standard modules.
@@ -86,7 +86,7 @@ The built-in SNMPv1 and SNMPv2C IMPORTS are described in the following tables.
 
 <dl> <dt>
 
-<span id="_1032__Fatal_____fileName__line____Duplicate_value__value__in_enumeration_"></span><span id="_1032__fatal_____filename__line____duplicate_value__value__in_enumeration_"></span><span id="_1032__FATAL_____FILENAME__LINE____DUPLICATE_VALUE__VALUE__IN_ENUMERATION_"></span>**<1032, Fatal>: "<fileName><line\#>: Duplicate value <value> in enumeration"**
+<span id="_1032__Fatal_____fileName__line____Duplicate_value__value__in_enumeration_"></span><span id="_1032__fatal_____filename__line____duplicate_value__value__in_enumeration_"></span><span id="_1032__FATAL_____FILENAME__LINE____DUPLICATE_VALUE__VALUE__IN_ENUMERATION_"></span>**<1032, Fatal>: "&lt;fileName&gt;<line\#>: Duplicate value &lt;value&gt; in enumeration"**
 </dt> <dd>
 
 Module semantic error in an enumeration, specific to neither SNMPv1 nor SNMPv2C. There must not be any duplicate values. The <line\#> parameter is the position of the recurrence of the name/value.
@@ -97,7 +97,7 @@ Module semantic error in an enumeration, specific to neither SNMPv1 nor SNMPv2C.
 
 <dl> <dt>
 
-<span id="_1033__Fatal_____fileName__line____Duplicate_name__identifier__in_enumeration_"></span><span id="_1033__fatal_____filename__line____duplicate_name__identifier__in_enumeration_"></span><span id="_1033__FATAL_____FILENAME__LINE____DUPLICATE_NAME__IDENTIFIER__IN_ENUMERATION_"></span>**<1033, Fatal>: "<fileName><line\#>: Duplicate name <identifier> in enumeration"**
+<span id="_1033__Fatal_____fileName__line____Duplicate_name__identifier__in_enumeration_"></span><span id="_1033__fatal_____filename__line____duplicate_name__identifier__in_enumeration_"></span><span id="_1033__FATAL_____FILENAME__LINE____DUPLICATE_NAME__IDENTIFIER__IN_ENUMERATION_"></span>**<1033, Fatal>: "&lt;fileName&gt;<line\#>: Duplicate name &lt;identifier&gt; in enumeration"**
 </dt> <dd>
 
 Module semantic error in an enumeration, specific to neither SNMPv1 nor SNMPv2C. There must not be any duplicate names. The <line\#> parameter is the position of the recurrence of the name/value.
@@ -108,7 +108,7 @@ Module semantic error in an enumeration, specific to neither SNMPv1 nor SNMPv2C.
 
 <dl> <dt>
 
-<span id="_1034__Warning_____fileName__line____A_value_of_0_disallowed_in_an_enumeration_"></span><span id="_1034__warning_____filename__line____a_value_of_0_disallowed_in_an_enumeration_"></span><span id="_1034__WARNING_____FILENAME__LINE____A_VALUE_OF_0_DISALLOWED_IN_AN_ENUMERATION_"></span>**<1034, Warning>: "<fileName><line\#>: A value of 0 disallowed in an enumeration"**
+<span id="_1034__Warning_____fileName__line____A_value_of_0_disallowed_in_an_enumeration_"></span><span id="_1034__warning_____filename__line____a_value_of_0_disallowed_in_an_enumeration_"></span><span id="_1034__WARNING_____FILENAME__LINE____A_VALUE_OF_0_DISALLOWED_IN_AN_ENUMERATION_"></span>**<1034, Warning>: "&lt;fileName&gt;<line\#>: A value of 0 disallowed in an enumeration"**
 </dt> <dd>
 
 Module semantic warning in an enumeration, specific to neither SNMPv1 nor SNMPv2C. It is recommended that a named value of zero not be used in an enumeration.
@@ -119,7 +119,7 @@ Module semantic warning in an enumeration, specific to neither SNMPv1 nor SNMPv2
 
 <dl> <dt>
 
-<span id="_1036__Warning____fileName__line____Value_in_enumeration_does_not_resolve_to_a_positive_integer_"></span><span id="_1036__warning____filename__line____value_in_enumeration_does_not_resolve_to_a_positive_integer_"></span><span id="_1036__WARNING____FILENAME__LINE____VALUE_IN_ENUMERATION_DOES_NOT_RESOLVE_TO_A_POSITIVE_INTEGER_"></span>**<1036, Warning> "<fileName><line\#>: Value in enumeration does not resolve to a positive integer"**
+<span id="_1036__Warning____fileName__line____Value_in_enumeration_does_not_resolve_to_a_positive_integer_"></span><span id="_1036__warning____filename__line____value_in_enumeration_does_not_resolve_to_a_positive_integer_"></span><span id="_1036__WARNING____FILENAME__LINE____VALUE_IN_ENUMERATION_DOES_NOT_RESOLVE_TO_A_POSITIVE_INTEGER_"></span>**<1036, Warning> "&lt;fileName&gt;<line\#>: Value in enumeration does not resolve to a positive integer"**
 </dt> <dd>
 
 Module semantic warning in an enumeration, specific to neither SNMPv1 nor SNMPv2C. A negative value is not allowed in an enumeration.
@@ -130,7 +130,7 @@ Module semantic warning in an enumeration, specific to neither SNMPv1 nor SNMPv2
 
 <dl> <dt>
 
-<span id="_1037__Fatal_____fileName__line____Identifier__identifier__does_not_resolve_to_OCTET_STRING_or_Opaque_types_"></span><span id="_1037__fatal_____filename__line____identifier__identifier__does_not_resolve_to_octet_string_or_opaque_types_"></span><span id="_1037__FATAL_____FILENAME__LINE____IDENTIFIER__IDENTIFIER__DOES_NOT_RESOLVE_TO_OCTET_STRING_OR_OPAQUE_TYPES_"></span>**<1037, Fatal>: "<fileName><line\#>: Identifier <identifier> does not resolve to OCTET STRING or Opaque types"**
+<span id="_1037__Fatal_____fileName__line____Identifier__identifier__does_not_resolve_to_OCTET_STRING_or_Opaque_types_"></span><span id="_1037__fatal_____filename__line____identifier__identifier__does_not_resolve_to_octet_string_or_opaque_types_"></span><span id="_1037__FATAL_____FILENAME__LINE____IDENTIFIER__IDENTIFIER__DOES_NOT_RESOLVE_TO_OCTET_STRING_OR_OPAQUE_TYPES_"></span>**<1037, Fatal>: "&lt;fileName&gt;<line\#>: Identifier &lt;identifier&gt; does not resolve to OCTET STRING or Opaque types"**
 </dt> <dd>
 
 Module semantic error in SIZE specification, specific to neither SNMPv1 nor SNMPv2C. The symbol used in a SIZE specification must resolve to OCTET STRING or Opaque.
@@ -141,7 +141,7 @@ Module semantic error in SIZE specification, specific to neither SNMPv1 nor SNMP
 
 <dl> <dt>
 
-<span id="_1038__Fatal_____fileName__line____Identifier__identifier__does_not_resolve_an_INTEGER_or_Gauge_type_"></span><span id="_1038__fatal_____filename__line____identifier__identifier__does_not_resolve_an_integer_or_gauge_type_"></span><span id="_1038__FATAL_____FILENAME__LINE____IDENTIFIER__IDENTIFIER__DOES_NOT_RESOLVE_AN_INTEGER_OR_GAUGE_TYPE_"></span>**<1038, Fatal>: "<fileName><line\#>: Identifier <identifier> does not resolve an INTEGER or Gauge type"**
+<span id="_1038__Fatal_____fileName__line____Identifier__identifier__does_not_resolve_an_INTEGER_or_Gauge_type_"></span><span id="_1038__fatal_____filename__line____identifier__identifier__does_not_resolve_an_integer_or_gauge_type_"></span><span id="_1038__FATAL_____FILENAME__LINE____IDENTIFIER__IDENTIFIER__DOES_NOT_RESOLVE_AN_INTEGER_OR_GAUGE_TYPE_"></span>**<1038, Fatal>: "&lt;fileName&gt;<line\#>: Identifier &lt;identifier&gt; does not resolve an INTEGER or Gauge type"**
 </dt> <dd>
 
 Module semantic error in range specification. This error can occur in either SNMPv1 or SNMPv2C.
@@ -156,7 +156,7 @@ In SNMPv2C, the symbol used in a Range specification must resolve to INTEGER, Ga
 
 <dl> <dt>
 
-<span id="_1039__Fatal___fileName__line____Negative_value_used_in_SIZE_specification_"></span><span id="_1039__fatal___filename__line____negative_value_used_in_size_specification_"></span><span id="_1039__FATAL___FILENAME__LINE____NEGATIVE_VALUE_USED_IN_SIZE_SPECIFICATION_"></span>**<1039, Fatal>:<fileName><line\#>: Negative value used in SIZE specification"**
+<span id="_1039__Fatal___fileName__line____Negative_value_used_in_SIZE_specification_"></span><span id="_1039__fatal___filename__line____negative_value_used_in_size_specification_"></span><span id="_1039__FATAL___FILENAME__LINE____NEGATIVE_VALUE_USED_IN_SIZE_SPECIFICATION_"></span>**<1039, Fatal>:&lt;fileName&gt;<line\#>: Negative value used in SIZE specification"**
 </dt> <dd>
 
 Module semantic error in SIZE specification, specific to neither SNMPv1 nor SNMPv2C. Any value used in specifying the SIZE must be non-negative.
@@ -167,7 +167,7 @@ Module semantic error in SIZE specification, specific to neither SNMPv1 nor SNMP
 
 <dl> <dt>
 
-<span id="_1040__Fatal_____fileName__line____Identifier__identifier__in_SIZE_specification_does_not_resolve_to_a_non-negative_integral_value_"></span><span id="_1040__fatal_____filename__line____identifier__identifier__in_size_specification_does_not_resolve_to_a_non-negative_integral_value_"></span><span id="_1040__FATAL_____FILENAME__LINE____IDENTIFIER__IDENTIFIER__IN_SIZE_SPECIFICATION_DOES_NOT_RESOLVE_TO_A_NON-NEGATIVE_INTEGRAL_VALUE_"></span>**<1040, Fatal>: "<fileName><line\#>: Identifier <identifier> in SIZE specification does not resolve to a non-negative integral value"**
+<span id="_1040__Fatal_____fileName__line____Identifier__identifier__in_SIZE_specification_does_not_resolve_to_a_non-negative_integral_value_"></span><span id="_1040__fatal_____filename__line____identifier__identifier__in_size_specification_does_not_resolve_to_a_non-negative_integral_value_"></span><span id="_1040__FATAL_____FILENAME__LINE____IDENTIFIER__IDENTIFIER__IN_SIZE_SPECIFICATION_DOES_NOT_RESOLVE_TO_A_NON-NEGATIVE_INTEGRAL_VALUE_"></span>**<1040, Fatal>: "&lt;fileName&gt;<line\#>: Identifier &lt;identifier&gt; in SIZE specification does not resolve to a non-negative integral value"**
 </dt> <dd>
 
 Module semantic error in range or size specification, specific to neither SNMPv1 nor SNMPv2C. Any symbol used in specifying a value in a SIZE specification resolves to a non-negative value.

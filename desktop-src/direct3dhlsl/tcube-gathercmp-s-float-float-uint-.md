@@ -1,6 +1,6 @@
 ---
 title: TextureCube::GatherCmp(S,float,float,uint) function
-description: Samples a texture, tests the samples against a compare value, and returns all four components along with status about the operation.
+description: For four texel values that would be used in a bi-linear filtering operation, returns their comparison against a compare value. | TextureCube::GatherCmp(S,float,float,uint) function
 ms.assetid: 655F4851-708A-478B-BB31-9DC8CDD480D0
 keywords:
 - GatherCmp function HLSL
@@ -17,7 +17,7 @@ api_location:
 
 # TextureCube::GatherCmp(S,float,float,uint) function
 
-Samples a texture, tests the samples against a compare value, and returns all four components along with status about the operation.
+For four texel values that would be used in a bi-linear filtering operation, returns their comparison against a compare value.
 
 ## Syntax
 

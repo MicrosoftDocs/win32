@@ -1,5 +1,5 @@
 ---
-description: Destructor method.
+description: CMemAllocator.~CMemAllocator destructor - Destructor method.
 ms.assetid: e0a04d93-fb77-4dc1-9bc8-7d3965bc6803
 title: CMemAllocator.~CMemAllocator destructor (Amfilter.h)
 ms.topic: reference
@@ -39,7 +39,7 @@ This method overrides the base-class destructor to call [**CBaseAllocator::Decom
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Amfilter.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

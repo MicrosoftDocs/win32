@@ -1,5 +1,5 @@
 ---
-description: The DecideBufferSize method sets the output pin's buffer requirements.
+description: CTransInPlaceFilter.DecideBufferSize method - The DecideBufferSize method sets the output pin's buffer requirements.
 ms.assetid: f1ddc39e-dcd5-4a44-8a8e-e384692408e1
 title: CTransInPlaceFilter.DecideBufferSize method (Transip.h)
 ms.topic: reference
@@ -75,7 +75,7 @@ This method is called when the **CTransInPlaceFilter** class needs to provide a 
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Transip.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

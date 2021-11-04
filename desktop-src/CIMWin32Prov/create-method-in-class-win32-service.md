@@ -1,5 +1,5 @@
 ---
-description: Creates a new system service.
+description: Create method of the Win32_Service class (CIMWin32 WMI Providers) - Creates a new system service.
 ms.assetid: 164e9065-bb0d-4c93-a9fe-c86db1ea7cb7
 ms.tgt_platform: multiple
 title: Create method of the Win32_Service class (CIMWin32 WMI Providers)

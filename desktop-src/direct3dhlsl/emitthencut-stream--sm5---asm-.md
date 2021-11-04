@@ -1,6 +1,6 @@
 ---
 title: emitThenCut_stream (sm5 - asm)
-description: Equivalent to an emit command followed by a cut command.
+description: Equivalent to an emit command followed by a cut command. | emitThenCut_stream (sm5 - asm)
 ms.assetid: E9D84647-E29B-4E31-9E95-9F7A173293D4
 ms.topic: reference
 ms.date: 05/31/2018

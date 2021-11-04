@@ -109,7 +109,7 @@ D3DX10 makes use of the Windows Imaging Component to implement the majority of t
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3DX10Tex.h</dt> </dl> |
 

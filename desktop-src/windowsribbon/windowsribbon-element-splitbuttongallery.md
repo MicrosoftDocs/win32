@@ -40,10 +40,10 @@ Represents a [Split Button Gallery](windowsribbon-controls-splitbuttongallery.md
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col  />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -132,8 +132,8 @@ Applies only to galleries where the value of the <em>Type</em> attribute is equa
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -236,11 +236,8 @@ This section of code shows the **SplitButtonGallery** control declarations.
 ## Element information
 
 
-
-|                                     |           |
-|-------------------------------------|-----------|
-| Minimum supported system<br/> | Windows 7 |
-| Can be empty                        | No        |
+- **Minimum supported system**: Windows 7 
+- **Can be empty**: No
 
 
 

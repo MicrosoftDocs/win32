@@ -1,6 +1,6 @@
 ---
 title: Controls.playItem method
-description: The playItem method plays the specified media item.
+description: The playItem method plays the specified media item. | Controls.playItem method
 ms.assetid: 410e315d-8d5f-4f45-82a7-4249e656c809
 keywords:
 - playItem method Windows Media Player
@@ -80,7 +80,7 @@ Player.controls.playItem(media);
 
 
 
-|                    |                                                                                    |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------|
 | Version<br/> | Windows Media Player version 7.0 or later.<br/>                              |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |

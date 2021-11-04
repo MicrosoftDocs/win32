@@ -1,5 +1,5 @@
 ---
-description: The EndOfStream method notifies the pin that no additional data is expected. This method implements the IPin::EndOfStream method.
+description: CTransformInputPin.EndOfStream method - The EndOfStream method notifies the pin that no additional data is expected. This method implements the IPin::EndOfStream method.
 ms.assetid: db9896eb-3db2-4d58-a787-4d80ce8f0d0e
 title: CTransformInputPin.EndOfStream method (Transfrm.h)
 ms.topic: reference
@@ -61,7 +61,7 @@ This method calls the filter's [**CTransformFilter::EndOfStream**](ctransformfil
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Transfrm.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

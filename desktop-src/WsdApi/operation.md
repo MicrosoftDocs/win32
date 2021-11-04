@@ -76,7 +76,7 @@ This generates idl function declarations for all methods associated with the two
 
 
 
-|                                     |               |
+| Label | Value |
 |-------------------------------------|---------------|
 | Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |

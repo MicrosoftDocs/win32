@@ -30,7 +30,7 @@ A row-major 3x3 rotation matrix.
 
 
 
-|                   |                                                                                               |
+| Requirement | Value |
 |-------------------|-----------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Spatialaudiohrtf.h</dt> </dl> |
 

@@ -1,5 +1,5 @@
 ---
-description: Constructor method.
+description: CEnumPins.CEnumPins constructor - Constructor method.
 ms.assetid: f696e433-b051-4de0-80e5-f9cd31fd0f23
 title: CEnumPins.CEnumPins constructor (Amfilter.h)
 ms.topic: reference
@@ -60,7 +60,7 @@ If *pEnumPins* is **NULL**, this method initializes the enumerator to the beginn
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Amfilter.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

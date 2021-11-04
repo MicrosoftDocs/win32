@@ -1,5 +1,5 @@
 ---
-description: Builds a left-handed perspective projection matrix
+description: D3DXMatrixPerspectiveLH function (D3dx9math.h) - Builds a left-handed perspective projection matrix
 ms.assetid: 07bbbca8-ad1e-4177-97d4-601b33179b47
 title: D3DXMatrixPerspectiveLH function (D3dx9math.h)
 ms.topic: reference
@@ -112,7 +112,7 @@ This function uses the following formula to compute the returned matrix.
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9math.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

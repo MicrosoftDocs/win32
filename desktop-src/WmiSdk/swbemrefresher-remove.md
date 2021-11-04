@@ -1,5 +1,5 @@
 ---
-Description: The SWbemRefresher.Remove method removes the SWbemRefreshableItem object with the specified index from the refresher.
+description: The SWbemRefresher.Remove method removes the SWbemRefreshableItem object with the specified index from the refresher.
 ms.assetid: db5ac740-e2b3-4667-b511-d750cb092e0f
 ms.tgt_platform: multiple
 title: SWbemRefresher.Remove method (Wbemdisp.h)

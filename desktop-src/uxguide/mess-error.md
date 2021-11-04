@@ -9,7 +9,7 @@ ms.date: 10/20/2020
 # Error Messages (Design basics)
 
 > [!NOTE]
-> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](https://docs.microsoft.com/windows/uwp/design/).
+> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](/windows/uwp/design/).
 
 An error message alerts users of a problem that has already occurred. By contrast, a warning message alerts users of a condition that might cause a problem in the future. Error messages can be presented using modal dialog boxes, in-place messages, notifications, or balloons.
 
@@ -327,7 +327,7 @@ If you can't suppress an unknown error, it is better to be up front about the la
 
 On the other hand, do provide specific, actionable information if it is likely to be helpful most of the time.
 
-![screen shot of message: server unavailable ](images/mess-error-image21.png)
+![Screenshot that shows an Office Communicator 'server unavailable' message. ](images/mess-error-image21.png)
 
 This error message is suitable for an unknown error if network connectivity is usually the problem.
 
@@ -399,40 +399,15 @@ For more guidelines and examples on overcommunicating, see [User Interface Text]
 
 Error messages have several usage patterns:
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><strong>System problems</strong><br/> The operating system, hardware device, network, or program has failed or is not in the state required to perform a task. <br/></td>
-<td>Many system problems can be solved by the user: <br/>
-<ul>
-<li>Device problems can be solved by turning the device on, reconnecting the device, and inserting media.</li>
-<li>Network problems can be solved by checking the physical network connect, and running <strong>Network diagnose and repair</strong>.</li>
-<li>Program problems can be solved by changing program options or restarting the program.</li>
-</ul>
-<img src="images/mess-error-image25.png" alt="Screen shot of message: Can&#39;t find a camera " /><br/> In this example, the program can't find a camera to perform a user task.<br/> <img src="images/mess-error-image26.png" alt="Screen shot of message Network discovery off " /><br/> In this example, a feature required to perform a task needs to be turned on.<br/></td>
-</tr>
-<tr class="even">
-<td><strong>File problems</strong><br/> A file or folder required for a task initiated by the user was not found, is already in use, or doesn't have the expected format. <br/></td>
-<td><img src="images/mess-error-image27.png" alt="Screen shot of message: Can&#39;t delete file " /><br/> In this example, the file or folder can't be deleted because it wasn't found.<br/> <img src="images/mess-error-image28.png" alt="Screen shot of message: Can&#39;t play this file " /><br/> In this example, the program doesn't support the given file format.<br/></td>
-</tr>
-<tr class="odd">
-<td><strong>Security problems</strong><br/> The user doesn't have permission to access a resource, or sufficient privilege to perform a task initiated by the user. <br/></td>
-<td><img src="images/mess-error-image29.png" alt="Screen shot of message: You don&#39;t have permission " /><br/> In this example, the user doesn't have permission to access a resource.<br/> <img src="images/mess-error-image30.png" alt="Screen shot of message: You don&#39;t have privilege " /><br/> In this example, the user doesn't have the privilege to perform a task.<br/></td>
-</tr>
-<tr class="even">
-<td><strong>Task problems</strong><br/> There is a specific problem performing a task initiated by the user (other than a system, file not found, file format, or security problem). <br/></td>
-<td><img src="images/mess-error-image31.png" alt="Screen shot of message: Data can&#39;t be pasted " /><br/> In this example, the Clipboard data can't be pasted into Paint.<br/> <img src="images/mess-error-image32.png" alt="Screen shot of message: Upgrade can&#39;t be installed " /><br/> In this example, the user can't install a software upgrade.<br/></td>
-</tr>
-<tr class="odd">
-<td><strong>User input problems</strong><br/> The user entered a value that is incorrect or inconsistent with other user input. <br/></td>
-<td><img src="images/mess-error-image33.png" alt="Screen shot of message: Incorrect time value " /><br/> In this example, the user entered an incorrect time value.<br/> <img src="images/mess-error-image34.png" alt="Screen shot of message: Incorrect input format " /><br/> In this example, user input is not in the correct format.<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Label | Value |
+|--------|-------|
+| <strong>System problems</strong><br /> The operating system, hardware device, network, or program has failed or is not in the state required to perform a task. <br /> | Many system problems can be solved by the user: <br /><ul><li>Device problems can be solved by turning the device on, reconnecting the device, and inserting media.</li><li>Network problems can be solved by checking the physical network connect, and running <strong>Network diagnose and repair</strong>.</li><li>Program problems can be solved by changing program options or restarting the program.</li></ul><img src="images/mess-error-image25.png" alt="Screen shot of message: Can't find a camera " /><br /> In this example, the program can't find a camera to perform a user task.<br /><img src="images/mess-error-image26.png" alt="Screen shot of message Network discovery off " /><br /> In this example, a feature required to perform a task needs to be turned on.<br /> | 
+| <strong>File problems</strong><br /> A file or folder required for a task initiated by the user was not found, is already in use, or doesn't have the expected format. <br /> | <img src="images/mess-error-image27.png" alt="Screen shot of message: Can't delete file " /><br /> In this example, the file or folder can't be deleted because it wasn't found.<br /><img src="images/mess-error-image28.png" alt="Screen shot of message: Can't play this file " /><br /> In this example, the program doesn't support the given file format.<br /> | 
+| <strong>Security problems</strong><br /> The user doesn't have permission to access a resource, or sufficient privilege to perform a task initiated by the user. <br /> | <img src="images/mess-error-image29.png" alt="Screen shot of message: You don't have permission " /><br /> In this example, the user doesn't have permission to access a resource.<br /><img src="images/mess-error-image30.png" alt="Screen shot of message: You don't have privilege " /><br /> In this example, the user doesn't have the privilege to perform a task.<br /> | 
+| <strong>Task problems</strong><br /> There is a specific problem performing a task initiated by the user (other than a system, file not found, file format, or security problem). <br /> | <img src="images/mess-error-image31.png" alt="Screen shot of message: Data can't be pasted " /><br /> In this example, the Clipboard data can't be pasted into Paint.<br /><img src="images/mess-error-image32.png" alt="Screen shot of message: Upgrade can't be installed " /><br /> In this example, the user can't install a software upgrade.<br /> | 
+| <strong>User input problems</strong><br /> The user entered a value that is incorrect or inconsistent with other user input. <br /> | <img src="images/mess-error-image33.png" alt="Screen shot of message: Incorrect time value " /><br /> In this example, the user entered an incorrect time value.<br /><img src="images/mess-error-image34.png" alt="Screen shot of message: Incorrect input format " /><br /> In this example, user input is not in the correct format.<br /> | 
+
 
 ## Guidelines
 
@@ -483,15 +458,15 @@ In this example, an in-place error is used for an error found by clicking the co
 - **Use an error icon.** Exceptions:
   - If the error is a user input problem displayed using a modal dialog box or balloon, don't use an icon. Doing so is counter to the encouraging tone of Windows. However, in-place error messages should use a small error icon (16x16 pixel) to clearly identify them as error messages.
 
-        ![screen shot of message incorrect postal format ](images/mess-error-image38.png)
+     ![screen shot of message incorrect postal format](images/mess-error-image38.png)
 
-        ![screen shot of message computer name too long ](images/mess-error-image39.png)
+     ![screen shot of message computer name too long](images/mess-error-image39.png)
 
-        In these examples, user input problems don't need error icons.
+     In these examples, user input problems don't need error icons.
 
-        ![screen shot of message phone number wrong format ](images/mess-error-image40.png)
+     ![screen shot of message phone number wrong format](images/mess-error-image40.png)
 
-        In this example, an in-place error message needs a small error icon to clearly identify it as an error message.
+     In this example, an in-place error message needs a small error icon to clearly identify it as an error message.
 
 - If the problem is for a feature that has an icon (and not a user input problem), you can use the feature icon with an error overlay. If you do this, also use the feature name as the error's subject.
 
@@ -659,7 +634,7 @@ We're sorry, but Fabrikam Backup detected an unrecoverable problem and was shut 
 
 **Incorrect:**
 
-![screen shot of message: can't open this item ](images/mess-error-image52.png)
+![Screenshot that shows a Microsoft Office Outlook 'Can't open this item' message. ](images/mess-error-image52.png)
 
 **Correct:**
 
@@ -690,7 +665,7 @@ For more guidelines and examples, see [Style and Tone](text-style-tone.md).
 
 **Incorrect:**
 
-![screen shot of message: can't rename new folder ](images/mess-error-image55.png)
+![Screenshot that shows a 'Can't rename new folder' message. ](images/mess-error-image55.png)
 
 In this example, the title is being incorrectly used to explain the problem.
 
@@ -792,7 +767,7 @@ In this example, most likely the problem is with the user's network connection, 
 
 **Incorrect:**
 
-![screen shot of message: can't open this item ](images/mess-error-image61.png)
+![Screenshot that shows a 'Can't open this item' message. ](images/mess-error-image61.png)
 
 In this example, the error message incorrectly recommends contacting technical support.
 

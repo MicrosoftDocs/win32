@@ -1,5 +1,5 @@
 ---
-Description: WPD\_CONTENT\_TYPE\_MEDIA\_CAST
+description: WPD\_CONTENT\_TYPE\_MEDIA\_CAST
 ms.assetid: 368e7381-8978-421a-b450-59915f8e70e2
 title: WPD_CONTENT_TYPE_MEDIA_CAST
 ms.topic: article
@@ -16,9 +16,8 @@ This type of object supports the following properties.
 
 
 
-|                                                                                                                       |                                                                       |
+| Property Name             |  Required or Optional         |
 |-----------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------|
-| **Property Name**                                                                                                     | **Required or Optional**                                              |
 | [WPD\_OBJECT\_ID](object-properties.md)                                                                | Required.                                                             |
 | [WPD\_OBJECT\_PARENT\_ID](object-properties.md)                                                 | Required.                                                             |
 | [WPD\_OBJECT\_NAME](object-properties.md)                                                            | Required if the object represents a file.                             |
@@ -146,9 +145,8 @@ The following table lists the channel elements in an RSS feed and the correspond
 
 
 
-|                     |                          |                                                                                 |
+| Channel Element | RSS Feed Requirement | Corresponding Mediacast Property      |
 |---------------------|--------------------------|---------------------------------------------------------------------------------|
-| **Channel Element** | **RSS Feed Requirement** | **Corresponding Mediacast Property**                                            |
 | category            | Optional.                | [WPD\_MEDIA\_GENRE](media-properties.md)                       |
 | cloud               | Not applicable.          | Not applicable.                                                                 |
 | copyright           | Optional.                | [WPD\_MEDIA\_COPYRIGHT](media-properties.md)               |
@@ -176,9 +174,8 @@ The following table lists the image elements in an RSS feed and the correspondin
 
 
 
-|                   |                          |                                                                                |
+| Image Element | RSS Feed Requirement | Mediacast Property                     |
 |-------------------|--------------------------|--------------------------------------------------------------------------------|
-| **Image Element** | **RSS Feed Requirement** | **Mediacast Property**                                                         |
 | description       | Optional.                | [WPD\_MEDIA\_DESCRIPTION](media-properties.md)          |
 | height            | Optional.                | [WPD\_MEDIA\_HEIGHT](media-properties.md)                    |
 | link              | Optional.                | [WPD\_MEDIA\_DESTINATION\_URL](media-properties.md) |
@@ -194,9 +191,8 @@ The following table lists the item elements in an RSS feed and the corresponding
 
 
 
-|                  |               |                          |                                                                                |
+| Item Element | Attribute | RSS Feed Requirement | Mediacast Property  |
 |------------------|---------------|--------------------------|--------------------------------------------------------------------------------|
-| **Item Element** | **Attribute** | **RSS Feed Requirement** | **Mediacast Property**                                                         |
 | author           |               | Optional.                | [WPD\_MEDIA\_ARTIST](media-properties.md)                    |
 | category         |               | Optional.                | [WPD\_MEDIA\_GENRE](media-properties.md)                      |
 |                  | domain        | Not applicable.          | Not applicable.                                                                |
@@ -273,9 +269,8 @@ The following table describes how the values in the RSS channel elements in the 
 
 
 
-|                                                                                              |                                                                                               |
+| WPD Property | Value |
 |----------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------|
-| **WPD Property**                                                                             | **Value**                                                                                     |
 | [WPD\_MEDIA\_COPYRIGHT](media-properties.md)                            | 2006 Lucerne Publishing LP, LLLP. All Rights Reserved.                                        |
 | [WPD\_MEDIA\_DESCRIPTION](media-properties.md)                        | Lucerne Publishing CEO Peter Bankov takes a look at the latest trends in online publications. |
 | [WPD\_MEDIA\_DESTINATION\_URL](media-properties.md)               | https://www.lucernepublishing.com/services/podcasting                                          |
@@ -310,9 +305,8 @@ The following table describes how the values in the RSS Image elements in the pr
 
 
 
-|                                                                                                                         |                                                     |
+| WPD Property               |                         Value                                           |
 |-------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------|
-| **WPD Property**                                                                                                        | **Value**                                           |
 | [WPD\_MEDIA\_DESCRIPTION](media-properties.md)                                                   | Lucerne Logo                                        |
 | [WPD\_MEDIA\_DESTINATION\_URL](media-properties.md)                                          | https://www.lucernepublishing.com/community/podcasts |
 | [WPD\_MEDIA\_HEIGHT](media-properties.md)                                                             | 300                                                 |
@@ -335,9 +329,8 @@ The following table describes how the values in the RSS Item elements in the pre
 
 
 
-|                                                                                              |                                                                                                                                  |
+| WPD Property  | Value                   |
 |----------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------|
-| **WPD Property**<br/>                                                                  | **Value**                                                                                                                        |
 | [WPD\_MEDIA\_TITLE](media-properties.md)                                    | The Digital Publication                                                                                                          |
 | [WPD\_MEDIA\_DURATION](media-properties.md)                              | 10329011                                                                                                                         |
 | [WPD\_MEDIA\_ARTIST](media-properties.md)                                  | Lucerne                                                                                                                          |

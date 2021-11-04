@@ -1,5 +1,5 @@
 ---
-description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: Learn about the uses of PrintCapabilities. This topic isn't current. For the most current information, see the Print Schema Specification.
 ms.assetid: ea75a7ac-d4d7-42b6-91e9-e28607fd684c
 title: Uses of the PrintCapabilities
 ms.topic: article
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Uses of the PrintCapabilities
 
-This topic is not current. For the most current information, see the [Print Schema Specification](https://www.microsoft.com/whdc/xps/printschema.mspx).
+This topic is not current. For the most current information, see the [Print Schema Specification](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip).
 
 The PrintCapabilities are intended to represent configurable device attributes as either Feature/Option constructs or parameter constructs. This information defines the configuration space of the device and can be used by a user interface (UI) client to construct a UI. The Print Schema Keywords define a set of standard Feature instances, Option instances for the standard Feature instances, and ParameterDef instances.
 
@@ -20,7 +20,7 @@ It should be emphasized that the PrintCapabilities document is intended to repre
 
 <dl> <dt>
 
-[Print Schema Specification](https://www.microsoft.com/whdc/xps/printschema.mspx)
+[Print Schema Specification](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip)
 </dt> </dl>
 
  

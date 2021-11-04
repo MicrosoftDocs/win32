@@ -26,11 +26,11 @@ This document contains the following parts:
 
 Color fonts, also referred to as  multicolored fonts  or  chromatic fonts,  are a font technology that allows font designers to use multiple colors within each glyph. Color fonts enable multicolored text scenarios in apps and websites with less code and more robust operating system support than ad-hoc techniques implemented above the text rendering system.
 
-Most fonts for reading and writing the fonts you are probably most familiar with are not color fonts. These fonts define only the shape of the glyphs they contain, either with vector outlines or monochromatic bitmaps. At draw time, a text renderer fills the glyph shape using a single color (the  font color ) specified by the app or document being rendered. Color fonts, on the other hand, contain color information in addition to shape information. Some approaches allow font designers to offer multiple color palettes, giving the color font artistic flexibility.
+The fonts you are probably most familiar with are not color fonts. These fonts define only the shape of the glyphs they contain, either with vector outlines or monochromatic bitmaps. At draw time, a text renderer fills the glyph shape using a single color (the  font color ) specified by the app or document being rendered. Color fonts, on the other hand, contain color information in addition to shape information. Some approaches allow font designers to offer multiple color palettes, giving the color font artistic flexibility.
 
 The following example shows a glyph from the Segoe UI Emoji color font. The glyph is rendered in monochrome on the left, and in color on the right.
 
-![](images/color-font-cat.png)
+![Shows side-by-side glyphs, the left glyph rendered in monochrome, the right in Segoe U I Emoji color font.](images/color-font-cat.png)
 
 Color fonts typically include fallback information for platforms that do not support color fonts or for scenarios in which color functionality has been disabled. On those platforms, color fonts are rendered as regular monochromatic fonts.
 

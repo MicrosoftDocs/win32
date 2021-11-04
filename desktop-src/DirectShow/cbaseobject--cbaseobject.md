@@ -1,5 +1,5 @@
 ---
-description: Destructor method.
+description: CBaseObject.~CBaseObject destructor - Destructor method.
 ms.assetid: 3714d030-f0bd-4826-a3c5-fc206bb88561
 title: CBaseObject.~CBaseObject destructor (Combase.h)
 ms.topic: reference
@@ -39,7 +39,7 @@ This method decrements the active-object count. (See [**CBaseObject::ObjectsActi
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Combase.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

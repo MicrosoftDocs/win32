@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Property Bag Functions
 
-This section describes a set of Windows helper functions used with [**IPropertyBag**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa768196(v=vs.85)) objects.
+This section describes a set of Windows helper functions used with [**IPropertyBag**](/windows/win32/api/oaidl/nn-oaidl-ipropertybag) objects.
 
 
 

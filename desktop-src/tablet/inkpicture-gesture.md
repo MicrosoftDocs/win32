@@ -1,5 +1,5 @@
 ---
-description: Occurs when an application-specific gesture is recognized.
+description: InkPicture.Gesture event - Occurs when an application-specific gesture is recognized.
 ms.assetid: a20f2d78-6cfe-4755-968e-91369021db1b
 title: InkPicture.Gesture event (Msinkaut.h)
 ms.topic: reference

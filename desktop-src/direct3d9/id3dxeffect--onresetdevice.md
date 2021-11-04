@@ -1,5 +1,5 @@
 ---
-description: Use this method to re-acquire resources and save initial state.
+description: ID3DXEffect::OnResetDevice method - Use this method to re-acquire resources and save initial state.
 ms.assetid: 782f3537-f61c-4faa-a0b8-d60c516ba241
 title: ID3DXEffect::OnResetDevice method (D3DX9Effect.h)
 ms.topic: reference
@@ -47,7 +47,7 @@ If the method succeeds, the return value is S\_OK. If the method fails, the retu
 
 
 
-|                    |                                                                                          |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Effect.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>     |

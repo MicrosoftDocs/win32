@@ -1,5 +1,5 @@
 ---
-description: The NotifyAllocator method specifies an allocator for the connection. This method implements the IMemInputPin::NotifyAllocator method.
+description: CBaseInputPin.NotifyAllocator method - The NotifyAllocator method specifies an allocator for the connection. This method implements the IMemInputPin::NotifyAllocator method.
 ms.assetid: 16167bd5-2d33-4329-87ec-6a6c578e0060
 title: CBaseInputPin.NotifyAllocator method (Amfilter.h)
 ms.topic: reference
@@ -64,7 +64,7 @@ During the pin connection, the output pin chooses an allocator and calls this me
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Amfilter.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

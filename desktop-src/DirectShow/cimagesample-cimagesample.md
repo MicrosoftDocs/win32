@@ -1,5 +1,5 @@
 ---
-description: Constructor method.
+description: CImageSample.CImageSample constructor - Constructor method.
 ms.assetid: d7550c38-d728-41b2-80a6-20728abf6012
 title: CImageSample.CImageSample constructor (Winutil.h)
 ms.topic: reference
@@ -84,7 +84,7 @@ The [**CImageAllocator**](cimageallocator.md) class creates a DIB using a file-m
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Winutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

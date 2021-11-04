@@ -1,5 +1,5 @@
 ---
-Description: The SetSubtype method specifies the subtype.
+description: The SetSubtype method specifies the subtype.
 ms.assetid: cf52e0dc-d75b-408e-a63c-481d55151d4a
 title: CMediaType.SetSubtype method (Mtype.h)
 ms.topic: reference
@@ -52,7 +52,7 @@ This method does not return a value.
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Mtype.h (include Streams.h)</dt> </dl>                                                                                     |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

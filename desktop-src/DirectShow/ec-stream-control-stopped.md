@@ -44,7 +44,7 @@ The *dwCookie* parameter is specified by the application in the [**StopAt**](/wi
 
 
 
-|                   |                                                                                    |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Dshow.h</dt> </dl> |
 

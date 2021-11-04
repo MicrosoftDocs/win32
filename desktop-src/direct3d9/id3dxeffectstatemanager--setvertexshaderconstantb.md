@@ -1,5 +1,5 @@
 ---
-description: A callback function that must be implemented by a user to set an array of vertex shader Boolean constants.
+description: ID3DXEffectStateManager::SetVertexShaderConstantB method - A callback function that must be implemented by a user to set an array of vertex shader Boolean constants.
 ms.assetid: 25fd0c68-11b5-4401-a2f8-86075ba3fa54
 title: ID3DXEffectStateManager::SetVertexShaderConstantB method (D3DX9Effect.h)
 ms.topic: reference
@@ -77,7 +77,7 @@ The user-implemented method should return S\_OK. If the callback fails when sett
 
 
 
-|                    |                                                                                          |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Effect.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>     |

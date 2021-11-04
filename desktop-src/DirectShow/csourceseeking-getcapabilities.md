@@ -1,5 +1,5 @@
 ---
-description: The GetCapabilities method retrieves all the seeking capabilities of the stream. This method implements the IMediaSeeking::GetCapabilities method.
+description: CSourceSeeking.GetCapabilities method - The GetCapabilities method retrieves all the seeking capabilities of the stream. This method implements the IMediaSeeking::GetCapabilities method.
 ms.assetid: a2ff7ea2-09bd-49a7-8e1b-d6360939036e
 title: CSourceSeeking.GetCapabilities method (Ctlutil.h)
 ms.topic: reference
@@ -67,7 +67,7 @@ The seeking capabilities are specified by the [**CSourceSeeking::m\_dwSeekingCap
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Ctlutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

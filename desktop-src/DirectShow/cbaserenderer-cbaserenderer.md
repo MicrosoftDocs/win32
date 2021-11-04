@@ -1,5 +1,5 @@
 ---
-description: Constructor method.
+description: CBaseRenderer.CBaseRenderer constructor - Constructor method.
 ms.assetid: df5efbb3-6bce-4e30-b1b1-d69bf64fa87d
 title: CBaseRenderer.CBaseRenderer constructor (Renbase.h)
 ms.topic: reference
@@ -80,7 +80,7 @@ Timer resolution.
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Renbase.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

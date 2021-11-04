@@ -1,6 +1,6 @@
 ---
 title: Texture2D::GatherGreen(S,float,int2,int2,int2,int2) function
-description: Samples a texture and returns the green component.
+description: Returns the green components of the four texel values that would be used in a bi-linear filtering operation. | Texture2D::GatherGreen(S,float,int2,int2,int2,int2) function
 ms.assetid: 043434C0-BB12-4A08-A3E5-34C9738DEBDB
 keywords:
 - GatherGreen function HLSL
@@ -17,7 +17,7 @@ api_location:
 
 # Texture2D::GatherGreen(S,float,int2,int2,int2,int2) function
 
-Samples a texture and returns the green component.
+Returns the green components of the four texel values that would be used in a bi-linear filtering operation.
 
 ## Syntax
 

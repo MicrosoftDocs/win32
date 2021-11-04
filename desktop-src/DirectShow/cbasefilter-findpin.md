@@ -1,5 +1,5 @@
 ---
-description: The FindPin method retrieves the pin with the specified identifier. This method implements the IBaseFilter::FindPin method.
+description: CBaseFilter.FindPin method - The FindPin method retrieves the pin with the specified identifier. This method implements the IBaseFilter::FindPin method.
 ms.assetid: 152e4ff3-2809-4c57-b9c8-f51fc50b3703
 title: CBaseFilter.FindPin method (Amfilter.h)
 ms.topic: reference
@@ -78,7 +78,7 @@ If the method succeeds, the **IPin** interface has an outstanding reference coun
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Amfilter.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

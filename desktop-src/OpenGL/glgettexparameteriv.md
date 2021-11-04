@@ -1,6 +1,6 @@
 ---
 title: glGetTexParameteriv function (Gl.h)
-description: The glGetTexParameterfv and glGetTexParameteriv functions return texture parameter values.
+description: The glGetTexParameterfv and glGetTexParameteriv functions return texture parameter values. | glGetTexParameteriv function (Gl.h)
 ms.assetid: b89d10f1-5e30-4d25-8953-fbd59781fdac
 keywords:
 - glGetTexParameteriv function OpenGL

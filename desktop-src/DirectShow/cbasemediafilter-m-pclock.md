@@ -1,5 +1,5 @@
 ---
-Description: Pointer to the object's reference clock.
+description: Pointer to the object's reference clock.
 ms.assetid: 6550829c-fad3-4769-98e4-0f5795400295
 title: CBaseMediaFilter::m_pClock member (Amfilter.h)
 ms.topic: reference
@@ -35,7 +35,7 @@ IReferenceClock *m_pClock;
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Amfilter.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

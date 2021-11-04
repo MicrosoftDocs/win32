@@ -74,7 +74,7 @@ In summary, to create a null descriptor, pass `null` for the *pResource* paramet
 
 Root descriptors however, should not be set to null.
 
-On Tier1 hardware (see [**Hardware Tiers**](/windows/win32/direct3d12/hardware-support), all descriptors that are bound (via descriptor tables) must be initialized, either as real descriptors or null descriptors, even if not accessed by the hardware, otherwise behaviour is undefined.
+On Tier1 hardware (see [**Hardware Tiers**](./hardware-support.md), all descriptors that are bound (via descriptor tables) must be initialized, either as real descriptors or null descriptors, even if not accessed by the hardware, otherwise behaviour is undefined.
 
 On Tier2 hardware, this applies to bound CBV and UAV descriptors, but not to SRV descriptors.
 

@@ -17,7 +17,7 @@ Describes WMI SNMP provider errors 1501 through 1510.
 
 <dl> <dt>
 
-<span id="_1502__Fatal____File__file__not_found__or_unreadable_"></span><span id="_1502__fatal____file__file__not_found__or_unreadable_"></span><span id="_1502__FATAL____FILE__FILE__NOT_FOUND__OR_UNREADABLE_"></span>**<1502, Fatal>: "File <file> not found, or unreadable"**
+<span id="_1502__Fatal____File__file__not_found__or_unreadable_"></span><span id="_1502__fatal____file__file__not_found__or_unreadable_"></span><span id="_1502__FATAL____FILE__FILE__NOT_FOUND__OR_UNREADABLE_"></span>**<1502, Fatal>: "File &lt;file&gt; not found, or unreadable"**
 </dt> <dd>
 
 Run-time error. One or more files explicitly mentioned on the command line do not exist or are unreadable.

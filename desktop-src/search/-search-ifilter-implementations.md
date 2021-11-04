@@ -117,9 +117,9 @@ Some features of the HTML [**IFilter**](/windows/win32/api/filter/nn-filter-ifil
 <!-- markdownlint-disable MD033 -->
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -140,7 +140,7 @@ The filtering process can generate abstracts for each filtered file, which defau
 <td><span data-codelanguage=""></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -161,7 +161,7 @@ The filtering process can generate abstracts for each filtered file, which defau
 <span data-codelanguage=""></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -181,7 +181,7 @@ The filtering process can generate abstracts for each filtered file, which defau
 <span data-codelanguage=""></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">

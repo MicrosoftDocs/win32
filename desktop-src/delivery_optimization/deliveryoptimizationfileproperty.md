@@ -1,6 +1,6 @@
 ---
 title: DeliveryOptimizationFileProperty enumeration  (Deliveryoptimization.h)
-description: The DeliveryOptimizationFileProperty enumeration specifies the ID of an optional property for the DO file.
+description: The DeliveryOptimizationFileProperty enumeration specifies the ID of an optional property for the Delivery Optimization file.
 keywords:
 - DeliveryOptimizationFileProperty enumeration
 topic_type:
@@ -18,7 +18,7 @@ ROBOTS: INDEX,FOLLOW
 
 # DeliveryOptimizationFileProperty enumeration
 
-The DeliveryOptimizationFileProperty enumeration specifies the ID of an optional property for the DO file. This enumeration is used in the IDeliveryOptimizationFile2 interface where the property value of type VARIANT is passed
+The DeliveryOptimizationFileProperty enumeration specifies the ID of an optional property for the Delivery Optimization file. This enumeration is used in the IDeliveryOptimizationFile2 interface where the property value of type VARIANT is passed
 
 ## Syntax
 
@@ -48,7 +48,7 @@ The DOFilePropertyId_DecryptionInfo property ID sets decryption information in t
 DOFilePropertyId_IntegrityCheckInfo
 </dt> <dd>
 
-The DOFilePropertyId_IntegrityCheckInfo property ID sets the piece hash file (PHF) location, which is used by DO to perform runtime integrity checks on the downloaded content. DOFilePropertyId_IntegrityCheckInfo is a Write only property of type VT_BSTR.
+The DOFilePropertyId_IntegrityCheckInfo property ID sets the piece hash file (PHF) location, which is used by Delivery Optimization to perform runtime integrity checks on the downloaded content. DOFilePropertyId_IntegrityCheckInfo is a Write only property of type VT_BSTR.
 
 </dd> <dt>
 
@@ -62,7 +62,7 @@ The DOFilePropertyId_IntegrityCheckMandatory property ID sets a boolean flag ind
 DOFilePropertyId_DownloadSinkFilePath
 </dt> <dd>
 
-The DOFilePropertyId_DownloadSinkFilePath property ID sets a fully qualified file system location where DO should store the downloaded pieces. DOFilePropertyId_DownloadSinkFilePath is of type VT_BSTR.
+The DOFilePropertyId_DownloadSinkFilePath property ID sets a fully qualified file system location where Delivery Optimization should store the downloaded pieces. DOFilePropertyId_DownloadSinkFilePath is of type VT_BSTR.
 
 </dd> <dt>
 

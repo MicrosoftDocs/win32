@@ -1,5 +1,5 @@
 ---
-description: Interpolates between two quaternions, using spherical linear interpolation.
+description: D3DXQuaternionSlerp function (D3dx9math.h) - Interpolates between two quaternions, using spherical linear interpolation.
 ms.assetid: 94a989c8-fa6b-4852-9aa3-e55ad814ffd7
 title: D3DXQuaternionSlerp function (D3dx9math.h)
 ms.topic: reference
@@ -90,7 +90,7 @@ Use [**D3DXQuaternionNormalize**](d3dxquaternionnormalize.md) for any quaternion
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9math.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

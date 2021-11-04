@@ -1,5 +1,5 @@
 ---
-description: The BeginFlush method begins a flush operation.
+description: COutputQueue.BeginFlush method - The BeginFlush method begins a flush operation.
 ms.assetid: d37b611e-742f-4bdf-bd72-a91cd1c473b3
 title: COutputQueue.BeginFlush method (Outputq.h)
 ms.topic: reference
@@ -49,7 +49,7 @@ The object passes the flush notification downstream by calling the [**IPin::Begi
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Outputq.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

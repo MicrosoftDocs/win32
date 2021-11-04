@@ -1,5 +1,5 @@
 ---
-description: Constructor method.
+description: CBaseStreamControl.CBaseStreamControl constructor - Constructor method.
 ms.assetid: c0eff80f-04d3-4919-bb27-1b76c1bd1cce
 title: CBaseStreamControl.CBaseStreamControl constructor (Strmctl.h)
 ms.topic: reference
@@ -48,7 +48,7 @@ Pointer to an **HRESULT** value. If the constructor fails, this parameter receiv
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Strmctl.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

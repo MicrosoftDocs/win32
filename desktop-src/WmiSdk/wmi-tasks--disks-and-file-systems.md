@@ -39,8 +39,8 @@ The following table lists script examples that can be used to obtain various typ
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -54,7 +54,7 @@ The following table lists script examples that can be used to obtain various typ
 <td>If you are using disk quotas, then use the <a href="/previous-versions/windows/desktop/wmipdskq/win32-diskquota"><strong>Win32_DiskQuota</strong></a> class and retrieve the values of the <strong>User</strong> and <strong>DiskSpaceUsed</strong> properties.<br/> <span data-codelanguage="VisualBasic"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -77,7 +77,7 @@ Next</code></pre></td>
 <span data-codelanguage="PowerShell"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -106,7 +106,7 @@ foreach ($objQuota in $colItems)
 <span data-codelanguage="VisualBasic"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -137,7 +137,7 @@ Loop</code></pre></td>
 <span data-codelanguage="VisualBasic"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -159,7 +159,7 @@ Next</code></pre></td>
 <span data-codelanguage="PowerShell"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -188,7 +188,7 @@ foreach ($objItem in $colItems)
 <span data-codelanguage="VisualBasic"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -215,7 +215,7 @@ Next</code></pre></td>
 <span data-codelanguage="PowerShell"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -247,7 +247,7 @@ foreach ($objItem in $colItems)
 <span data-codelanguage="VisualBasic"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -288,7 +288,7 @@ Next</code></pre></td>
 <span data-codelanguage="PowerShell"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -312,7 +312,6 @@ foreach ($objDisk in $colDisks)
         &#39;5&#39; { &quot;DriveType: Compact disk.&quot; }
         &#39;6&#39; { &quot;DriveType: RAM disk.&quot; }
         default: { &quot;Drive type could not be determined.&quot; }
-
     }
 }</code></pre></td>
 </tr>
@@ -328,7 +327,7 @@ foreach ($objDisk in $colDisks)
 <span data-codelanguage="VisualBasic"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -357,7 +356,7 @@ Next</code></pre></td>
 <span data-codelanguage="VisualBasic"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -386,7 +385,7 @@ Next</code></pre></td>
 <span data-codelanguage="VisualBasic"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -415,7 +414,7 @@ Next</code></pre></td>
 <span data-codelanguage="VisualBasic"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -446,7 +445,7 @@ Next</code></pre></td>
 <span data-codelanguage="VisualBasic"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -478,7 +477,7 @@ Next</code></pre></td>
 <span data-codelanguage="VisualBasic"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -496,28 +495,28 @@ Set wmiDiskDrives =  wmiServices.ExecQuery ( &quot;SELECT Caption, DeviceID FROM
 For Each wmiDiskDrive In wmiDiskDrives
     WScript.Echo &quot;Disk drive Caption: &quot; & wmiDiskDrive.Caption & VbNewLine & &quot;DeviceID: &quot; & &quot; (&quot; & wmiDiskDrive.DeviceID & &quot;)&quot;
 
-    &#39;Use the disk drive device id to
-    &#39; find associated partition
-    query = &quot;ASSOCIATORS OF {Win32_DiskDrive.DeviceID=&#39;&quot; _
+&#39;Use the disk drive device id to
+&#39; find associated partition
+query = &quot;ASSOCIATORS OF {Win32_DiskDrive.DeviceID=&#39;&quot; _
         & wmiDiskDrive.DeviceID & &quot;&#39;} WHERE AssocClass = Win32_DiskDriveToDiskPartition&quot;    
-    Set wmiDiskPartitions = wmiServices.ExecQuery(query)
+Set wmiDiskPartitions = wmiServices.ExecQuery(query)
 
-    For Each wmiDiskPartition In wmiDiskPartitions
-        &#39;Use partition device id to find logical disk
-        Set wmiLogicalDisks = wmiServices.ExecQuery _
-            (&quot;ASSOCIATORS OF {Win32_DiskPartition.DeviceID=&#39;&quot; _
-             & wmiDiskPartition.DeviceID & &quot;&#39;} WHERE AssocClass = Win32_LogicalDiskToPartition&quot;) 
+For Each wmiDiskPartition In wmiDiskPartitions
+    &#39;Use partition device id to find logical disk
+    Set wmiLogicalDisks = wmiServices.ExecQuery _
+        (&quot;ASSOCIATORS OF {Win32_DiskPartition.DeviceID=&#39;&quot; _
+             & wmiDiskPartition.DeviceID & &quot;&#39;} WHERE AssocClass = Win32_LogicalDiskToPartition&quot;)
 
-        For Each wmiLogicalDisk In wmiLogicalDisks
-            WScript.Echo &quot;Drive letter associated&quot; _
-                & &quot; with disk drive = &quot; _ 
-                & wmiDiskDrive.Caption _
-                & wmiDiskDrive.DeviceID _
-                & VbNewLine & &quot; Partition = &quot; _
-                & wmiDiskPartition.DeviceID _
-                & VbNewLine & &quot; is &quot; _
-                & wmiLogicalDisk.DeviceID
-        Next      
+For Each wmiLogicalDisk In wmiLogicalDisks
+    WScript.Echo &quot;Drive letter associated&quot; _
+        & &quot; with disk drive = &quot; _ 
+        & wmiDiskDrive.Caption _
+        & wmiDiskDrive.DeviceID _
+        & VbNewLine & &quot; Partition = &quot; _
+        & wmiDiskPartition.DeviceID _
+        & VbNewLine & &quot; is &quot; _
+        & wmiLogicalDisk.DeviceID
+    Next
     Next
 Next</code></pre></td>
 </tr>

@@ -1,5 +1,5 @@
 ---
-description: Creates an empty skin mesh object using a declarator.
+description: D3DX10CreateSkinInfo function - Creates an empty skin mesh object using a declarator.
 ms.assetid: 5356cfe5-de90-462d-9722-72f3618decfb
 title: D3DX10CreateSkinInfo function (D3DX10Mesh.h)
 ms.topic: reference
@@ -58,7 +58,7 @@ Use the [**ID3DX10SkinInfo::SetBoneInfluence**](id3dx10skininfo-setboneinfluence
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl>   |

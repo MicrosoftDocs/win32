@@ -1,5 +1,5 @@
 ---
-Description: Reference count.
+description: CMediaSample::m_cRef member - Reference count.
 ms.assetid: 57b8498d-2aa4-414f-9e0a-3ddcb748fb38
 title: CMediaSample::m_cRef member (Amfilter.h)
 ms.topic: reference
@@ -35,7 +35,7 @@ LONG m_cRef;
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Amfilter.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

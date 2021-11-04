@@ -94,57 +94,17 @@ This method returns immediately. If the volume is already fully encrypted and no
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Return code/value</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><dl> <dt><strong>S_OK</strong></dt> <dt>0 (0x0)</dt> </dl></td>
-<td>The method was successful.<br/></td>
-</tr>
-<tr class="even">
-<td><dl> <dt><strong>E_INVALIDARG</strong></dt> <dt>2147942487 (0x80070057)</dt> </dl></td>
-<td>The <em>EncryptionMethod</em> parameter is provided but is not within the known range or does not match the current Group Policy setting.<br/></td>
-</tr>
-<tr class="odd">
-<td><dl> <dt><strong>FVE_E_CANNOT_ENCRYPT_NO_KEY</strong></dt> <dt>2150694958 (0x8031002E)</dt> </dl></td>
-<td>No encryption key exists for the volume. Either disable key protectors by using the <a href="disablekeyprotectors-win32-encryptablevolume.md"><strong>DisableKeyProtectors</strong></a> method or use one of the following methods to specify key protectors for the volume:<br/>
-<ul>
-<li><a href="protectkeywithexternalkey-win32-encryptablevolume.md"><strong>ProtectKeyWithExternalKey</strong></a></li>
-<li><a href="protectkeywithnumericalpassword-win32-encryptablevolume.md"><strong>ProtectKeyWithNumericalPassword</strong></a></li>
-<li><a href="protectkeywithtpm-win32-encryptablevolume.md"><strong>ProtectKeyWithTPM</strong></a></li>
-<li><a href="protectkeywithtpmandpin-win32-encryptablevolume.md"><strong>ProtectKeyWithTPMAndPIN</strong></a></li>
-<li><a href="protectkeywithtpmandpinandstartupkey-win32-encryptablevolume.md"><strong>ProtectKeyWithTPMAndPINAndStartupKey</strong></a></li>
-<li><a href="protectkeywithtpmandstartupkey-win32-encryptablevolume.md"><strong>ProtectKeyWithTPMAndStartupKey</strong></a></li>
-</ul>
-<strong>Windows Vista:</strong> When no encryption key exists for the volume, ERROR_INVALID_OPERATION is returned instead. The decimal value is 4317 and the hexadecimal value is 0x10DD.<br/></td>
-</tr>
-<tr class="even">
-<td><dl> <dt><strong>FVE_E_CANNOT_SET_FVEK_ENCRYPTED</strong></dt> <dt>2150694957 (0x8031002D)</dt> </dl></td>
-<td>The provided encryption method does not match that of the partially or fully encrypted volume. To continue encryption, leave the <em>EncryptionMethod</em> parameter blank or use a value of zero.<br/></td>
-</tr>
-<tr class="odd">
-<td><dl> <dt><strong>FVE_E_CLUSTERING_NOT_SUPPORTED</strong></dt> <dt>2150694942 (0x8031001E)</dt> </dl></td>
-<td>The volume cannot be encrypted because this computer is configured to be part of a server cluster.<br/></td>
-</tr>
-<tr class="even">
-<td><dl> <dt><strong>FVE_E_LOCKED_VOLUME</strong></dt> <dt>2150694912 (0x80310000)</dt> </dl></td>
-<td>The volume is locked.<br/></td>
-</tr>
-<tr class="odd">
-<td><dl> <dt><strong>FVE_E_POLICY_PASSWORD_REQUIRED</strong></dt> <dt>2150694956 (0x8031002C)</dt> </dl></td>
-<td>No key protectors of the type &quot;Numerical Password&quot; are specified. The Group Policy requires a backup of recovery information to Active Directory Domain Services. To add at least one key protector of that type, use the <a href="protectkeywithnumericalpassword-win32-encryptablevolume.md"><strong>ProtectKeyWithNumericalPassword</strong></a> method.<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Return code/value | Description | 
+|-------------------|-------------|
+| <dl><dt><strong>S_OK</strong></dt><dt>0 (0x0)</dt></dl> | The method was successful.<br /> | 
+| <dl><dt><strong>E_INVALIDARG</strong></dt><dt>2147942487 (0x80070057)</dt></dl> | The <em>EncryptionMethod</em> parameter is provided but is not within the known range or does not match the current Group Policy setting.<br /> | 
+| <dl><dt><strong>FVE_E_CANNOT_ENCRYPT_NO_KEY</strong></dt><dt>2150694958 (0x8031002E)</dt></dl> | No encryption key exists for the volume. Either disable key protectors by using the <a href="disablekeyprotectors-win32-encryptablevolume.md"><strong>DisableKeyProtectors</strong></a> method or use one of the following methods to specify key protectors for the volume:<br /><ul><li><a href="protectkeywithexternalkey-win32-encryptablevolume.md"><strong>ProtectKeyWithExternalKey</strong></a></li><li><a href="protectkeywithnumericalpassword-win32-encryptablevolume.md"><strong>ProtectKeyWithNumericalPassword</strong></a></li><li><a href="protectkeywithtpm-win32-encryptablevolume.md"><strong>ProtectKeyWithTPM</strong></a></li><li><a href="protectkeywithtpmandpin-win32-encryptablevolume.md"><strong>ProtectKeyWithTPMAndPIN</strong></a></li><li><a href="protectkeywithtpmandpinandstartupkey-win32-encryptablevolume.md"><strong>ProtectKeyWithTPMAndPINAndStartupKey</strong></a></li><li><a href="protectkeywithtpmandstartupkey-win32-encryptablevolume.md"><strong>ProtectKeyWithTPMAndStartupKey</strong></a></li></ul><strong>Windows Vista:</strong> When no encryption key exists for the volume, ERROR_INVALID_OPERATION is returned instead. The decimal value is 4317 and the hexadecimal value is 0x10DD.<br /> | 
+| <dl><dt><strong>FVE_E_CANNOT_SET_FVEK_ENCRYPTED</strong></dt><dt>2150694957 (0x8031002D)</dt></dl> | The provided encryption method does not match that of the partially or fully encrypted volume. To continue encryption, leave the <em>EncryptionMethod</em> parameter blank or use a value of zero.<br /> | 
+| <dl><dt><strong>FVE_E_CLUSTERING_NOT_SUPPORTED</strong></dt><dt>2150694942 (0x8031001E)</dt></dl> | The volume cannot be encrypted because this computer is configured to be part of a server cluster.<br /> | 
+| <dl><dt><strong>FVE_E_LOCKED_VOLUME</strong></dt><dt>2150694912 (0x80310000)</dt></dl> | The volume is locked.<br /> | 
+| <dl><dt><strong>FVE_E_POLICY_PASSWORD_REQUIRED</strong></dt><dt>2150694956 (0x8031002C)</dt></dl> | No key protectors of the type "Numerical Password" are specified. The Group Policy requires a backup of recovery information to Active Directory Domain Services. To add at least one key protector of that type, use the <a href="protectkeywithnumericalpassword-win32-encryptablevolume.md"><strong>ProtectKeyWithNumericalPassword</strong></a> method.<br /> | 
+
 
 
 

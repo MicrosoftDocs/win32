@@ -18,10 +18,10 @@ ms.date: 05/31/2018
 
 # InternetGetProxyInfo function
 
-> [!NOTE]
-> This function is deprecated. For autoproxy support, use HTTP Services (WinHTTP) version 5.1 instead. For more information, see [WinHTTP AutoProxy Support](../winhttp/winhttp-autoproxy-support.md).
+> [!IMPORTANT]
+> This function is deprecated on Windows 10, and it is unsupported as of Windows 11. For autoproxy support, use HTTP Services (WinHTTP) version 5.1 instead. For more information, see [WinHTTP AutoProxy Support](../winhttp/winhttp-autoproxy-support.md).
 
-Retrieves proxy data for accessing specified resources. This function can only be called by dynamically linking to "JSProxy.dll".
+Retrieves proxy data for accessing specified resources. This function can be called only by explicitly loading `JSProxy.dll`.
 
 ## Syntax
 
@@ -114,23 +114,21 @@ To call **InternetGetProxyInfo**, you must dynamically link to it using the defi
   // The pIGPI function pointer can now be used to call InternetGetProxyInfo.
 ```
 
-Like all other aspects of the WinINet API, this function cannot be safely called from within DllMain or the constructors and destructors of global objects.
+Like all other aspects of the WinINet API, this function can't be safely called from within **DllMain** or the constructors and destructors of global objects.
 
-> [!Note]  
+> [!NOTE]  
 > WinINet does not support server implementations. In addition, it should not be used from a service. For server implementations or services use [Microsoft Windows HTTP Services (WinHTTP)](/windows/desktop/WinHttp/winhttp-start-page).
 
 ## Requirements
 
 | Requirement | Value |
-|-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                             |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
+|-------------------------------------|-----------------------------------------------------------------------------|
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>Unsupported as of Windows 11  |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
 | DLL<br/>                      | <dl> <dt>JSProxy.dll</dt> </dl> |
 
 ## See also
 
-[**InternetInitializeAutoProxyDll**](/windows/win32/api/winineti/nf-winineti-internetinitializeautoproxydll)
-
-[**InternetDeInitializeAutoProxyDll**](/previous-versions/windows/desktop/legacy/aa384580(v=vs.85))
-
-[**DetectAutoProxyUrl**](/windows/win32/api/winineti/nf-winineti-detectautoproxyurl)
+* [**InternetInitializeAutoProxyDll**](/windows/win32/api/winineti/nf-winineti-internetinitializeautoproxydll)
+* [**InternetDeInitializeAutoProxyDll**](/previous-versions/windows/desktop/legacy/aa384580(v=vs.85))
+* [**DetectAutoProxyUrl**](/windows/win32/api/winineti/nf-winineti-detectautoproxyurl)

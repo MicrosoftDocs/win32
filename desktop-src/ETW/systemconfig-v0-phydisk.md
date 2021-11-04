@@ -1,5 +1,5 @@
 ---
-description: This class is the event type class for physical disk configuration events.
+description: SystemConfig_V0_PhyDisk class - This class is the event type class for physical disk configuration events.
 ms.assetid: 90ca3089-de5c-4e15-8abf-eaab9aafff06
 title: SystemConfig_V0_PhyDisk class
 ms.topic: reference
@@ -79,7 +79,7 @@ Access type: Read-only
 Qualifiers: **WmiDataId** (13), **Max** (3)
 </dt> </dl>
 
-Drive letter of the boot drive in the form, "<letter>:".
+Drive letter of the boot drive in the form, "&lt;letter&gt;:".
 
 </dd> <dt>
 

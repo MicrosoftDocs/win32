@@ -18,7 +18,7 @@ Specifies the maximum average per-frame luminance level of the content in Nits. 
 
 
 
-|                   |                                                                                    |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Mfapi.h</dt> </dl> |
 

@@ -1,5 +1,5 @@
 ---
-Description: For several MPEG-2 media type GUIDs, the Windows DDK defines names that differ from the names used in DirectShow. The following table shows the DirectShow names (defined in Ksuuids.h) and the corresponding kernel-mode names (defined in Ksmedia.h).
+description: For several MPEG-2 media type GUIDs, the Windows DDK defines names that differ from the names used in DirectShow. The following table shows the DirectShow names (defined in Ksuuids.h) and the corresponding kernel-mode names (defined in Ksmedia.h).
 ms.assetid: ecf94552-5a0f-464c-9f9b-4861faa38d05
 title: MPEG-2 Kernel Media Types (Dshow.h)
 ms.topic: reference
@@ -37,7 +37,7 @@ For several MPEG-2 media type GUIDs, the Windows DDK defines names that differ f
 
 
 
-|                   |                                                                                    |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Dshow.h</dt> </dl> |
 

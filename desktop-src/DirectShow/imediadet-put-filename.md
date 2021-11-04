@@ -1,5 +1,5 @@
 ---
-Description: The put\_Filename method specifies the name of the source file for the media detector to use.
+description: The put\_Filename method specifies the name of the source file for the media detector to use.
 ms.assetid: 37bcc7ed-d2c1-4182-b85a-03bad92c5ba7
 title: IMediaDet::put_Filename method (Qedit.h)
 ms.topic: reference
@@ -69,7 +69,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

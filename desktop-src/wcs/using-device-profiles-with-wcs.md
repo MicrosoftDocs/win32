@@ -25,11 +25,11 @@ ms.date: 05/31/2018
 
 # Using Device Profiles with WCS
 
-Device profiles are a basic tool for color management. A [device profile](d.md) is a file that contains information about how to convert colors in the color space and the color [gamut](g.md) of a specific device into a device-independent color space. The device-independent color space that ICM2 uses is called a Profile Connection Space (PCS). A device profile also contains information about how to convert colors from the PCS into the color space and color gamut of a specific device.
+Device profiles are a basic tool for color management. A [device profile](d.md) is a file that contains information about how to convert colors in the color space and the color [gamut](./g.md) of a specific device into a device-independent color space. The device-independent color space that ICM2 uses is called a Profile Connection Space (PCS). A device profile also contains information about how to convert colors from the PCS into the color space and color gamut of a specific device.
 
 These two sets of conversion information are used for [color conversion](c.md) and color management. For instance, an image may be created in the color space and color gamut of a video display. The information in the device profile files can be used to display a representation of a printed image. Users often want to see on the screen how colors will change when an image is printed. This is called proofing. An image can be proofed by converting the colors from the source color gamut (the screen) into [PCS](p.md) colors, and then converting them from the PCS into the destination color gamut (the printer). The resulting image can be displayed on the screen, allowing the user to see what the final image will look like when it is printed.
 
-Device profiles allow more complex uses as well. For example, they can be used to get an idea of what an image created on a video display would look like when printed on a high resolution laser printer. The example gets more complex if there is only a standard inkjet printer on which to proof it. ICM2 will convert the image from the [gamut](g.md) of the display, into the gamut of the inkjet printer. From there it is converted into the gamut of the laser printer. The resulting image can be printed on the inkjet printer. Of course the image would be at a higher resolution when printed on the color laser printer. However, the colors of the proofing image printed on the inkjet printer would be a close match to the colors that the laser printer would print.
+Device profiles allow more complex uses as well. For example, they can be used to get an idea of what an image created on a video display would look like when printed on a high resolution laser printer. The example gets more complex if there is only a standard inkjet printer on which to proof it. ICM2 will convert the image from the [gamut](./g.md) of the display, into the gamut of the inkjet printer. From there it is converted into the gamut of the laser printer. The resulting image can be printed on the inkjet printer. Of course the image would be at a higher resolution when printed on the color laser printer. However, the colors of the proofing image printed on the inkjet printer would be a close match to the colors that the laser printer would print.
 
 The conversions from a device profile can be concatenated together into a single file, called a *device link profile*. If a series of conversions is used repeatedly, creating a device link profile for them will shorten conversion time.
 
@@ -75,7 +75,3 @@ Color transforms can be created with one or more profiles. If a transform is cre
  
 
  
-
-
-
-

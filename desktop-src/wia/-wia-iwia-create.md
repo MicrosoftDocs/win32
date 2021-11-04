@@ -14,14 +14,6 @@ api_type:
 - COM
 api_location: 
 - Wiascr.dll
-topic_type: 
-- APIRef
-- kbSyntax
-api_name: 
-- Wia.Create
-- SafeWia.Create
-api_type: 
-- COM
 api_location: 
 - Wiascr.dll
 ---

@@ -1,5 +1,5 @@
 ---
-description: Specifies mesh weight attributes.
+description: D3DX10_ATTRIBUTE_WEIGHTS structure - Specifies mesh weight attributes.
 ms.assetid: 554bb8f2-9e92-4e9e-b500-c3cc47d57830
 title: D3DX10_ATTRIBUTE_WEIGHTS structure (D3DX10.h)
 ms.topic: reference
@@ -146,7 +146,7 @@ The LPD3DX\_ATTRIBUTE\_WEIGHTS type is defined as a pointer to the D3DX\_ATTRIBU
 
 
 
-|                   |                                                                                     |
+| Requirement | Value |
 |-------------------|-------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3DX10.h</dt> </dl> |
 

@@ -1,5 +1,5 @@
 ---
-description: .
+description: Design Updates that Impact Compatibility between Browsers
 ms.assetid: F2C13FEC-5537-4B0D-BFDB-E17A42A289CB
 title: Design Updates that Impact Compatibility between Browsers
 ms.topic: article
@@ -14,9 +14,9 @@ This section and the following table show the four major areas of compatibility 
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">

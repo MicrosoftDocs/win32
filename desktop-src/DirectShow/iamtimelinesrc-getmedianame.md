@@ -1,5 +1,5 @@
 ---
-Description: The GetMediaName method retrieves the name of the source file represented by this source object.
+description: The GetMediaName method retrieves the name of the source file represented by this source object.
 ms.assetid: 6f468628-10e1-4746-9c3a-6dae9aa3f6ad
 title: IAMTimelineSrc::GetMediaName method (Qedit.h)
 ms.topic: reference
@@ -69,7 +69,7 @@ The method allocates memory for the string. The application must call **SysFreeS
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

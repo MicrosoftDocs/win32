@@ -36,7 +36,7 @@ Custom allocator-presenters for the VMR-7 should send this event. This event is 
 
 
 
-|                   |                                                                                    |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Dshow.h</dt> </dl> |
 

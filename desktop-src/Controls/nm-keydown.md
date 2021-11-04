@@ -1,6 +1,6 @@
 ---
 title: NM_KEYDOWN notification code (Commctrl.h)
-description: Sent by a control when the control has the keyboard focus and the user presses a key. This notification code is sent in the form of a WM\_NOTIFY message.
+description: NM_KEYDOWN notification code - Sent by a control when the control has the keyboard focus and the user presses a key. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: e3b38096-797d-4948-9595-a252cf33dcdd
 keywords:
 - NM_KEYDOWN notification code Windows Controls

@@ -1,5 +1,5 @@
 ---
-Description: Gets the error state associated with the media key session.
+description: Gets the error state associated with the media key session.
 ms.assetid: 4693b7d5-59ee-472f-83fc-1ecbcc165dac
 title: IMFMediaKeySession::GetError method
 ms.topic: reference

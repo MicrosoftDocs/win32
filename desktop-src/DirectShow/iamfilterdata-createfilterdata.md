@@ -1,5 +1,5 @@
 ---
-description: Note  This interface has been deprecated.
+description: Learn about the IAMFilterData::CreateFilterData method, which creates binary registry data for a filter. This interface has been deprecated.
 ms.assetid: ab6972ef-7c28-4cd1-b007-eb70f9aeb2cb
 title: IAMFilterData::CreateFilterData method (Fil\_data.h)
 ms.topic: reference
@@ -79,7 +79,7 @@ If the method succeeds, it returns S\_OK. If it fails, it returns an error code.
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Fil\_data.h</dt> </dl> |
 | DLL<br/>    | <dl> <dt>Quartz.dll</dt> </dl>  |

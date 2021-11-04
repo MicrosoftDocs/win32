@@ -1,5 +1,5 @@
 ---
-description: The GetTotalStatistics method retrieves the total statistics for the current capture.
+description: IStats::GetTotalStatistics method - The GetTotalStatistics method retrieves the total statistics for the current capture.
 ms.assetid: 494634f6-a9b3-4a50-8920-2387be9ba30f
 title: IStats::GetTotalStatistics method (Netmon.h)
 ms.topic: reference

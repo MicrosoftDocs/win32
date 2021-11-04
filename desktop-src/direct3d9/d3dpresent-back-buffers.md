@@ -12,9 +12,8 @@ Specifies the number of back buffers that can be used by the device.
 
 
 
-|                                    |       |                                                           |
-|------------------------------------|-------|-----------------------------------------------------------|
 | \#define                           | Value | Description                                               |
+|------------------------------------|-------|-----------------------------------------------------------|
 | D3DPRESENT\_BACK\_BUFFERS\_MAX     | 3     | Maximum number of back buffers supported in Direct3D 9.   |
 | D3DPRESENT\_BACK\_BUFFERS\_MAX\_EX | 30    | Maximum number of back buffers supported in Direct3D 9Ex. |
 
@@ -26,7 +25,7 @@ Specifies the number of back buffers that can be used by the device.
 
 
 
-|                          |            |
+|  Requirement                        | Value           |
 |--------------------------|------------|
 | Header                   | d3d9.h     |
 | Minimum operating system | Windows 98 |

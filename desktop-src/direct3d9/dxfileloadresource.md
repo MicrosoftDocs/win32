@@ -77,7 +77,7 @@ This structure identifies a resource to be loaded when an application uses the [
 
 
 
-|                   |                                                                                     |
+| Requirement | Value |
 |-------------------|-------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>DXFile.h</dt> </dl> |
 

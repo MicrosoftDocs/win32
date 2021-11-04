@@ -1,5 +1,5 @@
 ---
-description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: Learn about the PrintCapabilities element, which represents the root of the PrintCapabilities document.
 ms.assetid: 'f503b62f-02e1-4621-8799-a8b6ad12f489'
 title: PrintCapabilities
 ms.topic: article
@@ -8,13 +8,13 @@ ms.date: 05/31/2018
 
 # PrintCapabilities
 
-This topic is not current. For the most current information, see the [Print Schema Specification](https://www.microsoft.com/whdc/xps/printschema.mspx).
+This topic is not current. For the most current information, see the [Print Schema Specification](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip).
 
 A PrintCapabilities element represents the root of the PrintCapabilities document. The PrintCapabilities document contains all of the information needed to describe the supported device attributes, given a particular device configuration.
 
 ## Element Tag
 
-<PrintCapabilities>
+&lt;PrintCapabilities&gt;
 
 ## XML Attributes
 
@@ -60,7 +60,7 @@ See [PrintCapabilities Document Example](printcapabilities-document-example.md).
 
 <dl> <dt>
 
-[Print Schema Specification](https://www.microsoft.com/whdc/xps/printschema.mspx)
+[Print Schema Specification](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip)
 </dt> </dl>
 
  

@@ -135,7 +135,7 @@ The name of the file is determined by the value of the name attribute or child e
 
 
 
-|                                     |               |
+| Label | Value |
 |-------------------------------------|---------------|
 | Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | No            |

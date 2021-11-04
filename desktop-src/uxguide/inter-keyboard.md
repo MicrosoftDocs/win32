@@ -9,7 +9,7 @@ ms.date: 10/20/2020
 # Keyboard
 
 > [!NOTE]
-> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](https://docs.microsoft.com/windows/uwp/design/).
+> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](/windows/uwp/design/).
 
 The keyboard is the primary input device used for text input in Microsoft Windows. For accessibility and efficiency, most actions can be performed using the keyboard as well.
 
@@ -260,9 +260,8 @@ where \[Do it\] and \[Don't do it\] are specific responses to the main instructi
 
 -   **Whenever possible, assign access keys for commonly used commands according to the following table.** While consistent access key assignments aren't always possible, they are certainly preferred especially for frequently used commands.
 
-    |                           |                                           |
+    |  Access key         | Command                             |
     |---------------------------|-------------------------------------------|
-    | **Access key**<br/> | **Command**<br/>                    |
     | A<br/>              | About<br/>                          |
     | A<br/>              | Always on top<br/>                  |
     | A<br/>              | Apply<br/>                          |
@@ -499,10 +498,4 @@ Examples:
 -   To move the insertion point, use the arrow keys.
 
  
-
- 
-
-
-
-
 

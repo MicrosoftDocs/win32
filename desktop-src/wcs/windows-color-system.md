@@ -32,7 +32,7 @@ Applications that use the ICM API require Windows 2000 or later. Applications th
 ## In this section
 
 -   [Security Considerations: Windows Color System](security-considerations--windows-color-system.md)
--   [Basic Color Management Concepts](basic-color-management-concepts.md)
+-   [Basic color management concepts](basic-color-management-concepts.md)
 -   [Windows Color System Schemas and Algorithms](windows-color-system-schemas-and-algorithms.md)
 -   [About Windows Color System Version 1.0](about-windows-color-system-version-1-0.md)
 -   [Using WCS 1.0](using-wcs-1-0.md)
@@ -43,13 +43,13 @@ Applications that use the ICM API require Windows 2000 or later. Applications th
 
 <dl> <dt>
 
-[OpenGL](/windows/win32/opengl/introduction-to-opengl)
+[OpenGL](../opengl/introduction-to-opengl.md)
 </dt> <dt>
 
-[Windows Multimedia](/windows/win32/multimedia/windows-multimedia-start-page)
+[Windows Multimedia](../multimedia/windows-multimedia-start-page.md)
 </dt> <dt>
 
-[Windows GDI](/windows/win32/gdi/windows-gdi)
+[Windows GDI](../gdi/windows-gdi.md)
 </dt> </dl>
 
  

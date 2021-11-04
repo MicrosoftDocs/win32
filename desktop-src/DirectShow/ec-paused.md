@@ -40,7 +40,7 @@ The filter graph manager sends this event when it completes an asynchronous paus
 
 
 
-|                   |                                                                                    |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Dshow.h</dt> </dl> |
 

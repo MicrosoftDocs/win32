@@ -1,6 +1,6 @@
 ---
 title: ByteAddressBuffer::Load(int) function
-description: Gets one value.
+description: Gets one value. | ByteAddressBuffer::Load(int) function
 ms.assetid: a63f4099-2c3b-4d37-9135-b8c63df30824
 keywords:
 - Load function HLSL

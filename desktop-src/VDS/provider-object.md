@@ -18,7 +18,7 @@ You cannot instantiate a provider object directly from your application. Instead
 
 Use the [**IVdsService::QueryProviders**](/windows/desktop/api/Vds/nf-vds-ivdsservice-queryproviders) method to enumerate the registered provider programs on a host. The first parameter of the method enables you to specify software providers only, hardware providers only, or both. With a provider object, you can perform operations on the objects managed by that provider. As the following illustration shows, you can use the methods that are exposed by the [**IVdsSwProvider**](/windows/desktop/api/Vds/nn-vds-ivdsswprovider) interface to create and query pack objects that are associated with software providers. Likewise, you can use the methods on the [**IVdsHwProvider**](/windows/desktop/api/Vds/nn-vds-ivdshwprovider) interface to interact with the subsystem objects that are associated with hardware providers.
 
-![](images/vdsproviderobject.png)
+![Diagram that shows an 'Application' branching into 'Providers', then 'Pack' or 'Subsystem', and then 'Spindles'.](images/vdsproviderobject.png)
 
 Object properties include a persistent GUID object identifier that represents a specific provider and a second GUID that represents the provider version. Note that other object identifiers in the VDS object model are non-persistent. The remaining properties for this object include a provider name, additional version information, the provider type software or hardware), various flags, and a rebuild-priority setting that applies only to software providers.
 

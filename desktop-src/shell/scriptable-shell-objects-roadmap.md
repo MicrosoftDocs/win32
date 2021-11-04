@@ -148,8 +148,8 @@ The following table lists each Shell object and its respective CLASSID.
 
 
 
-|                                                         |                                      |
-|---------------------------------------------------------|--------------------------------------|
+| Shell object                                           | CLASSID                              |
+|--------------------------------------------------------|--------------------------------------|
 | [**DIDiskQuotaUser**](didiskquotauser-object.md)       | 7988B571-EC89-11cf-9C00-00AA00A14F56 |
 | [**DiskQuotaControl**](diskquotacontrol-object.md)     | 7988B571-EC89-11cf-9C00-00AA00A14F56 |
 | [**Folder**](folder.md)                                | BBCBDE60-C3FF-11CE-8350-444553540000 |

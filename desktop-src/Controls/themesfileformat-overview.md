@@ -231,50 +231,15 @@ Your theme's background can be a slide show either of images stored locally or o
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Attribute</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Interval=number of milliseconds</td>
-<td>Required. Interval is a number that determines how often the background changes. It is measured in milliseconds.</td>
-</tr>
-<tr class="even">
-<td>Shuffle=0 or 1</td>
-<td>Required. Shuffle identifies whether the background shuffles.<br/> 0 = Disabled<br/> 1 = Enabled<br/></td>
-</tr>
-<tr class="odd">
-<td>RSSFeed=URL to RSS feed</td>
-<td>Required if ImagesRootPath is not specified. RSSFeed specifies an RSS feed to use as the background slide show. For the feed to work, you need to reference high-resolution images adhering to the &quot;enclosures&quot; standard used by the <a href="/previous-versions/windows/desktop/ms684701(v=vs.85)">Windows RSS Platform</a>. Because of this limitation, .theme files that include an RSS feed must be created manually. <br/>
-<blockquote>
-[!Note]<br />
-You cannot specify both an RSSFeed and ImagesRootPath.
-</blockquote>
-<br/> <br/></td>
-</tr>
-<tr class="even">
-<td>ImagesRootPath=path to image folder</td>
-<td>Required if RSSFeed is not specified. ImagesRootPath specifies a path to a set of images you want to use as the background slide show. Images in subfolders are not included in the slide show.<br/> ImagesRootPath supports Environment Variable substitutions in the path.<br/>
-<blockquote>
-[!Note]<br />
-You cannot specify both an RSSFeed and ImagesRootPath.
-</blockquote>
-<br/> <br/></td>
-</tr>
-<tr class="odd">
-<td>Item<em>N</em>Path=path(s) to specific image(s)</td>
-<td>For use with ImagesRootPath. <br/> Item<em>N</em>Path specifies paths to specific images, so that you can limit the slide show to particular images instead of all images in a folder. If no paths are specified, all images in the ImagesRootPath path are used in the slide show, including images added after creating and installing the theme.<br/> Item<em>N</em>Path supports Environment Variable substitutions in the path. <em>N</em> is 0, 1, 2, and so on. <br/></td>
-</tr>
-</tbody>
-</table>
+
+| Attribute | Description | 
+|-----------|-------------|
+| Interval=number of milliseconds | Required. Interval is a number that determines how often the background changes. It is measured in milliseconds. | 
+| Shuffle=0 or 1 | Required. Shuffle identifies whether the background shuffles.<br /> 0 = Disabled<br /> 1 = Enabled<br /> | 
+| RSSFeed=URL to RSS feed | Required if ImagesRootPath is not specified. RSSFeed specifies an RSS feed to use as the background slide show. For the feed to work, you need to reference high-resolution images adhering to the "enclosures" standard used by the <a href="/previous-versions/windows/desktop/ms684701(v=vs.85)">Windows RSS Platform</a>. Because of this limitation, .theme files that include an RSS feed must be created manually. <br /><blockquote>[!Note]<br />You cannot specify both an RSSFeed and ImagesRootPath.</blockquote><br /><br /> | 
+| ImagesRootPath=path to image folder | Required if RSSFeed is not specified. ImagesRootPath specifies a path to a set of images you want to use as the background slide show. Images in subfolders are not included in the slide show.<br /> ImagesRootPath supports Environment Variable substitutions in the path.<br /><blockquote>[!Note]<br />You cannot specify both an RSSFeed and ImagesRootPath.</blockquote><br /><br /> | 
+| Item<em>N</em>Path=path(s) to specific image(s) | For use with ImagesRootPath. <br /> Item<em>N</em>Path specifies paths to specific images, so that you can limit the slide show to particular images instead of all images in a folder. If no paths are specified, all images in the ImagesRootPath path are used in the slide show, including images added after creating and installing the theme.<br /> Item<em>N</em>Path supports Environment Variable substitutions in the path. <em>N</em> is 0, 1, 2, and so on. <br /> | 
+
 
 
 
@@ -699,7 +664,7 @@ Transparency=1
 
 ## Installing Theme Files
 
-When Windows is initialized, the operating system enumerates the first-level subdirectories of %WinDir%\\Resources\\ to identify available themes. The system default theme files are located in %WinDir%\\Resources\\Themes. The user theme files are stored in %WinDir%\\Users\\<username>\\AppData\\Local\\Microsoft\\Windows\\Themes.
+When Windows is initialized, the operating system enumerates the first-level subdirectories of %WinDir%\\Resources\\ to identify available themes. The system default theme files are located in %WinDir%\\Resources\\Themes. The user theme files are stored in %WinDir%\\Users\\&lt;username&gt;\\AppData\\Local\\Microsoft\\Windows\\Themes.
 
 A .theme file has file associations; therefore, theme installer applications can call [**ShellExecute**](/windows/desktop/api/shellapi/nf-shellapi-shellexecutea) on a .theme file to open the **Personalization** window in Control Panel to the specified theme.
 

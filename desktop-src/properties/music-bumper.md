@@ -1,5 +1,5 @@
 ---
-description: .
+description: Music
 ms.assetid: affb4d7a-b8ef-432c-bcf4-18d90424f9b8
 title: Music
 ms.topic: article

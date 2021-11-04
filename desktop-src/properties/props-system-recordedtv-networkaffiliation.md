@@ -1,5 +1,5 @@
 ---
-description: .
+description: System.RecordedTV.NetworkAffiliation
 ms.assetid: 4f7ace99-d8ff-4fa3-a01b-da03424b362c
 title: System.RecordedTV.NetworkAffiliation
 ms.topic: article

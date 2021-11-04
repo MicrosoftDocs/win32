@@ -1,5 +1,5 @@
 ---
-description: Rotates the spherical harmonic (SH) vector in the z-axis by the given angle.
+description: D3DXSHRotateZ function (D3dx9math.h) - Rotates the spherical harmonic (SH) vector in the z-axis by the given angle.
 ms.assetid: 1f471183-4c8e-4fa8-9a42-f6cc2bb1b0f2
 title: D3DXSHRotateZ function (D3dx9math.h)
 ms.topic: reference
@@ -91,7 +91,7 @@ Each coefficient of the basis function Yₗₘ is stored at memory location l² 
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9math.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

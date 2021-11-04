@@ -55,122 +55,44 @@ An arbitrary offset that indicates the desired movement of the cursor on the cur
 
 In addition to standard offsets, this parameter can also be set with one of the following options.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Value</p></th>
-<th><p>Meaning</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_MoveFirst</p></td>
-<td><p>Moves the cursor to the first index entry in the index (if one exists).</p>
-<p><strong>Note</strong>   The literal value of -2147483648 is used to denote this option. Do not use this value as an ordinary offset or unintended behavior may result.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_MoveLast</p></td>
-<td><p>Moves the cursor to the last index entry in the index (if one exists).</p>
-<p><strong>Note</strong>   The literal value of 2147483647 is used to denote this option. Do not use this value as an ordinary offset or unintended behavior may result.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_MoveNext</p></td>
-<td><p>Moves the cursor to the next index entry in the index (if one exists). This value is exactly equal to an ordinary offset of +1.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_MovePrevious</p></td>
-<td><p>Moves the cursor to the previous index entry in the index (if one exists).</p>
-<p>This value is exactly equal to an ordinary offset of -1, or 0 (Zero).</p>
-<p>The cursor remains at the current logical position and the existence of the index entry that corresponds to that logical position will be tested.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Value</p> | <p>Meaning</p> | 
+|--------------|----------------|
+| <p>JET_MoveFirst</p> | <p>Moves the cursor to the first index entry in the index (if one exists).</p><p><strong>Note</strong>   The literal value of -2147483648 is used to denote this option. Do not use this value as an ordinary offset or unintended behavior may result.</p> | 
+| <p>JET_MoveLast</p> | <p>Moves the cursor to the last index entry in the index (if one exists).</p><p><strong>Note</strong>   The literal value of 2147483647 is used to denote this option. Do not use this value as an ordinary offset or unintended behavior may result.</p> | 
+| <p>JET_MoveNext</p> | <p>Moves the cursor to the next index entry in the index (if one exists). This value is exactly equal to an ordinary offset of +1.</p> | 
+| <p>JET_MovePrevious</p> | <p>Moves the cursor to the previous index entry in the index (if one exists).</p><p>This value is exactly equal to an ordinary offset of -1, or 0 (Zero).</p><p>The cursor remains at the current logical position and the existence of the index entry that corresponds to that logical position will be tested.</p> | 
+
 
 
 *grbit*
 
 A group of bits that specify zero or more of the following options.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Value</p></th>
-<th><p>Meaning</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_bitMoveKeyNE</p></td>
-<td><p>Moves the cursor forward or backward by the number of index entries required to skip the requested number of index key values encountered in the index. This has the effect of collapsing index entries with duplicate key values into a single index entry. Ordinarily, an offset will move the cursor by the specified number of index entries regardless of their key values.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Value</p> | <p>Meaning</p> | 
+|--------------|----------------|
+| <p>JET_bitMoveKeyNE</p> | <p>Moves the cursor forward or backward by the number of index entries required to skip the requested number of index key values encountered in the index. This has the effect of collapsing index entries with duplicate key values into a single index entry. Ordinarily, an offset will move the cursor by the specified number of index entries regardless of their key values.</p> | 
+
 
 
 ### Return Value
 
 This function returns the [JET_ERR](./jet-err.md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](./extensible-storage-engine-errors.md) and [Error Handling Parameters](./error-handling-parameters.md).
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Return code</p></th>
-<th><p>Description</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_errSuccess</p></td>
-<td><p>The operation completed successfully. For <strong>JetMove</strong>, this means that an index entry was found at the requested location or offset on the current index.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errClientRequestToStopJetService</p></td>
-<td><p>The operation cannot complete because all activity on the instance that is associated with the session has ceased as a result of a call to <a href="gg269240(v=exchg.10).md">JetStopService</a>.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errInstanceUnavailable</p></td>
-<td><p>The operation cannot complete because the instance that is associated with the session encountered a fatal error that requires that access to all data be revoked to protect the integrity of that data.</p>
-<p><strong>Windows XP:</strong>  This return value is introduced in Windows XP.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errNoCurrentRecord</p></td>
-<td><p>The cursor is not currently positioned on an index entry. For <strong>JetMove</strong>, this means that an index entry was not found at the requested location or offset on the current index.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errNotInitialized</p></td>
-<td><p>The operation cannot complete because the instance that is associated with the session has not yet been initialized.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errRecordDeleted</p></td>
-<td><p>The cursor is currently logically positioned on an index entry that corresponds to a record that has been deleted.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errRestoreInProgress</p></td>
-<td><p>The operation cannot complete because a restore operation is in progress on the instance associated with the session.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errSessionSharingViolation</p></td>
-<td><p>The same session cannot be used for more than one thread at the same time.</p>
-<p><strong>Windows XP:</strong>  This return value is introduced in Windows XP.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errTermInProgress</p></td>
-<td><p>The operation cannot complete because the instance that is associated with the session is being shut down.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Return code</p> | <p>Description</p> | 
+|--------------------|--------------------|
+| <p>JET_errSuccess</p> | <p>The operation completed successfully. For <strong>JetMove</strong>, this means that an index entry was found at the requested location or offset on the current index.</p> | 
+| <p>JET_errClientRequestToStopJetService</p> | <p>The operation cannot complete because all activity on the instance that is associated with the session has ceased as a result of a call to <a href="gg269240(v=exchg.10).md">JetStopService</a>.</p> | 
+| <p>JET_errInstanceUnavailable</p> | <p>The operation cannot complete because the instance that is associated with the session encountered a fatal error that requires that access to all data be revoked to protect the integrity of that data.</p><p><strong>Windows XP:</strong>  This return value is introduced in Windows XP.</p> | 
+| <p>JET_errNoCurrentRecord</p> | <p>The cursor is not currently positioned on an index entry. For <strong>JetMove</strong>, this means that an index entry was not found at the requested location or offset on the current index.</p> | 
+| <p>JET_errNotInitialized</p> | <p>The operation cannot complete because the instance that is associated with the session has not yet been initialized.</p> | 
+| <p>JET_errRecordDeleted</p> | <p>The cursor is currently logically positioned on an index entry that corresponds to a record that has been deleted.</p> | 
+| <p>JET_errRestoreInProgress</p> | <p>The operation cannot complete because a restore operation is in progress on the instance associated with the session.</p> | 
+| <p>JET_errSessionSharingViolation</p> | <p>The same session cannot be used for more than one thread at the same time.</p><p><strong>Windows XP:</strong>  This return value is introduced in Windows XP.</p> | 
+| <p>JET_errTermInProgress</p> | <p>The operation cannot complete because the instance that is associated with the session is being shut down.</p> | 
+
 
 
 If this function succeeds, the cursor will be positioned at an index entry that matches the requested location or offset. If a record has been prepared for update, that update will be canceled. If an index range is in effect and JET_MoveFirst or JET_MoveLast was specified, that index range will be canceled. No change to the database state will occur.
@@ -191,34 +113,15 @@ When **JetMove** is called with a very large offset, such as when the cRow param
 
 #### Requirements
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Client</strong></p></td>
-<td><p>Requires Windows Vista, Windows XP, or Windows 2000 Professional.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Server</strong></p></td>
-<td><p>Requires Windows Server 2008, Windows Server 2003, or Windows 2000 Server.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>Header</strong></p></td>
-<td><p>Declared in Esent.h.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Library</strong></p></td>
-<td><p>Use ESENT.lib.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>DLL</strong></p></td>
-<td><p>Requires ESENT.dll.</p></td>
-</tr>
-</tbody>
-</table>
+
+| Requirement | Value |
+|------------|----------|
+| <p><strong>Client</strong></p> | <p>Requires Windows Vista, Windows XP, or Windows 2000 Professional.</p> | 
+| <p><strong>Server</strong></p> | <p>Requires Windows Server 2008, Windows Server 2003, or Windows 2000 Server.</p> | 
+| <p><strong>Header</strong></p> | <p>Declared in Esent.h.</p> | 
+| <p><strong>Library</strong></p> | <p>Use ESENT.lib.</p> | 
+| <p><strong>DLL</strong></p> | <p>Requires ESENT.dll.</p> | 
+
 
 
 #### See Also

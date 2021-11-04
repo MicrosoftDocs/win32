@@ -14,9 +14,9 @@ Miscellaneous driver primitive capability flags.
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -136,7 +136,7 @@ These constants are used by the PrimitiveMiscCaps member of [**D3DCAPS9**](/wind
 
 
 
-|                          |            |
+| Requirement                         |  Value          |
 |--------------------------|------------|
 | Header                   | d3d9caps.h |
 | Minimum operating system | Windows 98 |

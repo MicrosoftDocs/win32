@@ -1,5 +1,5 @@
 ---
-description: .
+description: System.Contact.JobInfo2Manager
 ms.assetid: 15ef60f8-3fa7-4a8b-ba6f-6c32cea4aea8
 title: System.Contact.JobInfo2Manager
 ms.topic: article

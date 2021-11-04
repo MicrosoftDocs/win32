@@ -15,7 +15,7 @@ You can subscribe to the abstract base class [**MSFT\_WmiEssEvent**](/previous-v
 
 
 
-|                                                                                           |                                                                                                     |
+|   Event                                                                                        |   Description                                                                                             |
 |-------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
 | [**MSFT\_WmiEssEvent**](/previous-versions/windows/desktop/wmisystemprov/msft-wmiessevent)                                   | Parent class for all Windows Management Instrumentation (WMI) Eventing SubSystem (ESS) self events. |
 | [**MSFT\_WmiRegisterNotificationEvent**](/previous-versions/windows/desktop/wmisystemprov/msft-wmiregisternotificationevent) | Represents the creation of an event sink for notification for an event query.                       |

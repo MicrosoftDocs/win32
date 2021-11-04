@@ -1,5 +1,5 @@
 ---
-Description: The put\_Filter method specifies a source filter for the media detector to use.
+description: The put\_Filter method specifies a source filter for the media detector to use.
 ms.assetid: 59382cb0-c472-48b8-9cc5-52f9dbc61a07
 title: IMediaDet::put_Filter method (Qedit.h)
 ms.topic: reference
@@ -86,7 +86,7 @@ For most applications, it is simpler to call the [**IMediaDet::put\_Filename**](
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

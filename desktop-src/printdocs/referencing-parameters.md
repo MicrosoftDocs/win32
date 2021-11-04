@@ -1,5 +1,5 @@
 ---
-description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: Learn about referencing parameters and the ParameterDef element. An example of an Option that includes a ParameterRef element is the custom media size Option.
 ms.assetid: 2c796d5c-1556-4348-83e2-23e93780ebc1
 title: Referencing Parameters
 ms.topic: article
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Referencing Parameters
 
-This topic is not current. For the most current information, see the [Print Schema Specification](https://www.microsoft.com/whdc/xps/printschema.mspx).
+This topic is not current. For the most current information, see the [Print Schema Specification](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip).
 
 A concrete example of an Option that includes a ParameterRef element is the custom media size Option. Note that it references two parameters: PageMediaSizeMediaSizeWidth and PageMediaSizeMediaSizeHeight. Each ParameterRef instance refers to a ParameterDef instance that is defined elsewhere in the PrintCapabilities document. For information about the ParameterDef element, see [ParameterDef](parameterdef.md). For conceptual information about defining parameters, see [ParameterDef and ParameterInit Elements](parameterdef-and-parameterinit-elements.md).
 
@@ -30,7 +30,7 @@ Merely creating a parameterized Option is not sufficient to ensure that the Opti
 
 <dl> <dt>
 
-[Print Schema Specification](https://www.microsoft.com/whdc/xps/printschema.mspx)
+[Print Schema Specification](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip)
 </dt> </dl>
 
  

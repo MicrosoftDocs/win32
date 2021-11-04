@@ -1,6 +1,6 @@
 ---
 title: BITS_JOB_PROPERTY_VALUE structure (Deliveryoptimization.h)
-description: The BITS_JOB_PROPERTY_VALUE union provides the property value of the DO job based on the value of the BITS_JOB_PROPERTY_ID enumeration.
+description: The BITS_JOB_PROPERTY_VALUE union provides the property value of the Delivery Optimization job based on the value of the BITS_JOB_PROPERTY_ID enumeration.
 ms.assetid: C24D9EA1-2E72-4403-939A-7B01D7133FE7
 keywords:
 - BITS_JOB_PROPERTY_VALUE structure
@@ -20,7 +20,7 @@ ROBOTS: INDEX,FOLLOW
 
 # BITS_JOB_PROPERTY_VALUE structure
 
-The **BITS_JOB_PROPERTY_VALUE** union provides the property value of the DO job based on the value of the [**BITS_JOB_PROPERTY_ID**](bits-job-property-id.md) enumeration.
+The **BITS_JOB_PROPERTY_VALUE** union provides the property value of the Delivery Optimization job based on the value of the [**BITS_JOB_PROPERTY_ID**](bits-job-property-id.md) enumeration.
 
 ## Syntax
 
@@ -44,14 +44,14 @@ typedef struct {
 **Dword**
 </dt> <dd>
 
-This value is returned when using the enum property ID **BITS_JOB_PROPERTY_ID_COST_FLAGS** and is applied as the [transfer policy](https://www.bing.com/search?q=transfer+policy) on the DO job.
+This value is returned when using the enum property ID **BITS_JOB_PROPERTY_ID_COST_FLAGS** and is applied as the [transfer policy](https://www.bing.com/search?q=transfer+policy) on the Delivery Optimization job.
 
 </dd> <dt>
 
 **ClsID**
 </dt> <dd>
 
-This value is returned when using the enum property ID **BITS_JOB_PROPERTY_NOTIFICATION_CLSID** and represents the CLSID of the callback object to register with the DO job.
+This value is returned when using the enum property ID **BITS_JOB_PROPERTY_NOTIFICATION_CLSID** and represents the CLSID of the callback object to register with the Delivery Optimization job.
 
 </dd> <dt>
 

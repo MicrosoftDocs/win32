@@ -1,6 +1,6 @@
 ---
 title: GetNextOutputTime
-description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs.
+description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs. | GetNextOutputTime
 ms.assetid: b8b835e3-7317-42fc-a998-2933fa50ddd2
 keywords:
 - GetNextOutputTime windows Media Format

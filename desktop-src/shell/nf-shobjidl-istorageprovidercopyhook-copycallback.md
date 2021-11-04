@@ -83,7 +83,7 @@ A pointer to a string that contains the name of the source folder.
 *srcAttribs* \[in\]
 </dt> <dd>
 
-The attributes of the source folder. This parameter can be a combination of any of the file attribute flags (FILE_ATTRIBUTE_*) defined in the header files. See [File Attribute Constants](/windows/win32/FileIO/file-attribute-constants).
+The attributes of the source folder. This parameter can be a combination of any of the file attribute flags (FILE_ATTRIBUTE_*) defined in the header files. See [File Attribute Constants](../fileio/file-attribute-constants.md).
 
 </dd> </dl>
 
@@ -97,7 +97,7 @@ A pointer to a string that contains the name of the destination folder.
 *destAttribs* \[in\]
 </dt> <dd>
 
-The attributes of the destination folder. This parameter can be a combination of any of the file attribute flags (FILE_ATTRIBUTE_*) defined in the header files. See [File Attribute Constants](/windows/win32/FileIO/file-attribute-constants).
+The attributes of the destination folder. This parameter can be a combination of any of the file attribute flags (FILE_ATTRIBUTE_*) defined in the header files. See [File Attribute Constants](../fileio/file-attribute-constants.md).
 
 </dd> </dl>
 
@@ -135,4 +135,4 @@ When the **CopyCallback** method is called, the Shell initializes the [IStorageP
 
 ## See also
 
-[Build a Cloud Sync Engine that Supports Placeholder Files](/windows/win32/cfapi/build-a-cloud-file-sync-engine)
+[Build a Cloud Sync Engine that Supports Placeholder Files](../cfapi/build-a-cloud-file-sync-engine.md)

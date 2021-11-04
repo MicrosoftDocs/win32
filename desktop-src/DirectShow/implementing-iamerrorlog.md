@@ -60,18 +60,13 @@ if( pExtraInfo )    // Report extra information, if any.
 > [!Note]  
 > Do not free the VARIANT pointed to by
 >
-> <span codelanguage=""></span>
+> 
 >
-> <table>
-> <colgroup>
-> <col style="width: 100%" />
-> </colgroup>
-> <tbody>
-> <tr class="odd">
-> <td><pre><code>pExtraInfo</code></pre></td>
-> </tr>
-> </tbody>
-> </table>
+> 
+| Label | Value |
+|--------|-------|
+| <pre><code>pExtraInfo</code></pre> | 
+
 >
 > 
 >

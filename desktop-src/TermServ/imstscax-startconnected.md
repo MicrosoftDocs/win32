@@ -97,9 +97,9 @@ Return **S\_OK** if successful.
 
 ## Remarks
 
-This property is most useful when the control properties are set in the parameter list of an <OBJECT> tag, rather than through script calls.
+This property is most useful when the control properties are set in the parameter list of an &lt;OBJECT&gt; tag, rather than through script calls.
 
-This property can be used only if the server name is also specified using the server property. This parameter has to be set before the control starts up for example, by including it in the parameter list of an <OBJECT> tag when using the control from a webpage.
+This property can be used only if the server name is also specified using the server property. This parameter has to be set before the control starts up for example, by including it in the parameter list of an &lt;OBJECT&gt; tag when using the control from a webpage.
 
 For more information about Remote Desktop Web Connection, see [Requirements for Remote Desktop Web Connection](requirements-for-remote-desktop-web-connection.md).
 

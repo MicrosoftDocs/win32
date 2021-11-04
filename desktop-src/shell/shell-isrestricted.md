@@ -1,5 +1,5 @@
 ---
-description: Retrieves a group's restriction setting from the registry.
+description: Shell.IsRestricted method - Retrieves a group's restriction setting from the registry.
 ms.assetid: C4B3B5C0-7445-483a-885F-5283BD4D4B39
 title: Shell.IsRestricted method (Shldisp.h)
 ms.topic: reference

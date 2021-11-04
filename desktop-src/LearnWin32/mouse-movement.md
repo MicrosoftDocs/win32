@@ -183,7 +183,7 @@ For the mouse-move message, check whether the left mouse button is down. If it i
 
 The following code recalculates the ellipse and then calls [**InvalidateRect**](/windows/desktop/api/winuser/nf-winuser-invalidaterect) to repaint the window.
 
-![](images/input02.png)
+![Diagram that shows an ellipse with x and y radiuses.](images/input02.png)
 
 
 ```C++

@@ -53,45 +53,13 @@ m_d2dContext->EndDraw();
 
 
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Display name and index enumeration</th>
-<th>Type and default value</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Rect<br/></td>
-<td>D2D1_VECTOR_4F<br/></td>
-<td>The region to be cropped specified as a vector in the form (left, top, width, height).<br/></td>
-</tr>
-<tr class="even">
-<td>D2D1_CROP_PROP_RECT<br/></td>
-<td>{-FLT_MAX, -FLT_MAX, FLT_MAX, FLT_MAX}<br/></td>
-<td>The units are in DIPs. <br/>
-<blockquote>
-<p>[!Note]</p>
-<p>The Rect will be truncated if it overlaps the edge boundaries of the input image.<br/></p>
-</blockquote>
-<br/></td>
-</tr>
-<tr class="odd">
-<td>D2D1_CROP_PROP_BORDER_MODE<br/></td>
-<td>D2D1_BORDER_MODE <br/> D2D1_BORDER_MODE_SOFT <br/></td>
-<td><ul>
-<li>D2D1_BORDER_MODE_SOFT : If the crop rectangle falls on fractional pixel coordinates, the effect applies antialiasing which results in a soft edge.</li>
-<li>D2D1_BORDER_MODE_HARD : If the crop rectangle falls on fractional pixel coordinates, the effect clamps which results in a hard edge.</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| Display name and index enumeration | Type and default value | Description | 
+|------------------------------------|------------------------|-------------|
+| Rect<br /> | D2D1_VECTOR_4F<br /> | The region to be cropped specified as a vector in the form (left, top, width, height).<br /> | 
+| D2D1_CROP_PROP_RECT<br /> | {-FLT_MAX, -FLT_MAX, FLT_MAX, FLT_MAX}<br /> | The units are in DIPs. <br /><blockquote><p>[!Note]</p><p>The Rect will be truncated if it overlaps the edge boundaries of the input image.<br /></p></blockquote><br /> | 
+| D2D1_CROP_PROP_BORDER_MODE<br /> | D2D1_BORDER_MODE <br /> D2D1_BORDER_MODE_SOFT <br /> | <ul><li>D2D1_BORDER_MODE_SOFT : If the crop rectangle falls on fractional pixel coordinates, the effect applies antialiasing which results in a soft edge.</li><li>D2D1_BORDER_MODE_HARD : If the crop rectangle falls on fractional pixel coordinates, the effect clamps which results in a hard edge.</li></ul> | 
+
 
 
 

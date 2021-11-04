@@ -1,5 +1,5 @@
 ---
-description: Opens a specified folder in a Windows Explorer window.
+description: IShellDispatch.Explore method - Opens a specified folder in a Windows Explorer window.
 ms.assetid: DB434D02-56B2-4e8f-9E43-BBF47C7BE377
 title: IShellDispatch.Explore method (Shldisp.h)
 ms.topic: reference

@@ -2,6 +2,8 @@
 description: 'Provides information to the IQueryAssociations interface methods.'
 ms.assetid: 'e67d0282-9090-43e6-aedf-bb1fc0443221'
 title: ASSOCF enumeration
+ms.topic: reference
+ms.date: 05/31/2018
 ---
 
 # ASSOCF enumeration
@@ -10,28 +12,26 @@ Provides information to the [**IQueryAssociations**](/windows/win32/api/shlwapi/
 
 ## Syntax
 
-<span codelanguage="ManagedCPlusPlus"></span>
-
-<table><colgroup><col style="width: 100%" /></colgroup><thead><tr class="header"><th>C++</th></tr></thead><tbody><tr class="odd"><td><pre><code>typedef enum  { 
-  ASSOCF_NONE                  = 0x00000000,
-  ASSOCF_INIT_NOREMAPCLSID     = 0x00000001,
-  ASSOCF_INIT_BYEXENAME        = 0x00000002,
-  ASSOCF_OPEN_BYEXENAME        = 0x00000002,
-  ASSOCF_INIT_DEFAULTTOSTAR    = 0x00000004,
-  ASSOCF_INIT_DEFAULTTOFOLDER  = 0x00000008,
-  ASSOCF_NOUSERSETTINGS        = 0x00000010,
-  ASSOCF_NOTRUNCATE            = 0x00000020,
-  ASSOCF_VERIFY                = 0x00000040,
-  ASSOCF_REMAPRUNDLL           = 0x00000080,
-  ASSOCF_NOFIXUPS              = 0x00000100,
-  ASSOCF_IGNOREBASECLASS       = 0x00000200,
-  ASSOCF_INIT_IGNOREUNKNOWN    = 0x00000400,
-  ASSOCF_INIT_FIXED_PROGID     = 0x00000800,
-  ASSOCF_IS_PROTOCOL           = 0x00001000,
-  ASSOCF_INIT_FOR_FILE         = 0x00002000
-} ASSOCF;</code></pre></td></tr></tbody></table>
-
-
+```cpp
+typedef enum  {
+    ASSOCF_NONE                  = 0x00000000,  
+    ASSOCF_INIT_NOREMAPCLSID     = 0x00000001,  
+    ASSOCF_INIT_BYEXENAME        = 0x00000002,  
+    ASSOCF_OPEN_BYEXENAME        = 0x00000002,  
+    ASSOCF_INIT_DEFAULTTOSTAR    = 0x00000004,  
+    ASSOCF_INIT_DEFAULTTOFOLDER  = 0x00000008,  
+    ASSOCF_NOUSERSETTINGS        = 0x00000010,  
+    ASSOCF_NOTRUNCATE            = 0x00000020,  
+    ASSOCF_VERIFY                = 0x00000040,  
+    ASSOCF_REMAPRUNDLL           = 0x00000080,  
+    ASSOCF_NOFIXUPS              = 0x00000100,  
+    ASSOCF_IGNOREBASECLASS       = 0x00000200,  
+    ASSOCF_INIT_IGNOREUNKNOWN    = 0x00000400,  
+    ASSOCF_INIT_FIXED_PROGID     = 0x00000800,  
+    ASSOCF_IS_PROTOCOL           = 0x00001000,  
+    ASSOCF_INIT_FOR_FILE         = 0x00002000
+} ASSOCF;
+```
 
 ## Constants
 
@@ -49,7 +49,7 @@ Identifies the value of the *pwszAssoc* parameter of [**IQueryAssociations::Init
 
  <span id="ASSOCF_OPEN_BYEXENAME"></span><span id="assocf_open_byexename"></span>**ASSOCF\_OPEN\_BYEXENAME** 
 
-Identical to [****ASSOCF\_INIT\_BYEXENAME****](ASSOCF_str.htm.md).
+Identical to **ASSOCF\_INIT\_BYEXENAME**.
 
  <span id="ASSOCF_INIT_DEFAULTTOSTAR"></span><span id="assocf_init_defaulttostar"></span>**ASSOCF\_INIT\_DEFAULTTOSTAR** 
 

@@ -1,6 +1,6 @@
 ---
 title: Texture2D::GatherCmpGreen(S,float,float,int2,int2,int2,int2) function
-description: Samples a texture, tests the samples against a compare value, and returns the green component.
+description: For four texel values that would be used in a bi-linear filtering operation, returns a comparison of their green component against a compare value. | Texture2D::GatherCmpGreen(S,float,float,int2,int2,int2,int2) function
 ms.assetid: AC19838B-BA51-408D-8299-DC5F4551628C
 keywords:
 - GatherCmpGreen function HLSL
@@ -17,7 +17,7 @@ api_location:
 
 # Texture2D::GatherCmpGreen(S,float,float,int2,int2,int2,int2) function
 
-Samples a texture, tests the samples against a compare value, and returns the green component.
+For four texel values that would be used in a bi-linear filtering operation, returns a comparison of their green component against a compare value.
 
 ## Syntax
 

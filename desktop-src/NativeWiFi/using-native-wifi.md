@@ -12,13 +12,15 @@ This section describes procedures and programming techniques employed with Nativ
 
 The following topics are in this section:
 
--   [Wireless User Interface APIs](wireless-user-interface-apis.md)
+-   [Wireless user-interface APIs](wireless-user-interface-apis.md)
+-   [Native Wifi API sample](native-wifi-api-sample.md)
 -   [Using the Wi-Fi Direct functions](using-the-wi-fi-direct-api.md)
 -   [Using Hosted Network and Internet Connection Sharing](using-hosted-network-and-internet-connection-sharing.md)
--   [Native Wifi API Sample](native-wifi-api-sample.md)
--   [Wireless Hosted Network Sample](wireless-hosted-network-sample.md)
--   [Wired Profile Samples](wired-profile-samples.md)
--   [Wireless Profile Samples](wireless-profile-samples.md)
+-   [Provision a Wi-Fi profile via a website](prov-wifi-profile-via-website.md)
+-   [Dual-STA query and configuration](dual-sta-query-config.md)
+-   [Wireless Hosted Network sample](wireless-hosted-network-sample.md)
+-   [Wired Profile samples](wired-profile-samples.md)
+-   [Wireless Profile samples](wireless-profile-samples.md)
 
 The [Wireless User Interface APIs](wireless-user-interface-apis.md) topic shows some code used to launch wireless network management user interfaces.
 
@@ -30,27 +32,14 @@ The Microsoft Windows Software Development Kit (SDK) includes two code samples t
 
 The following topics have more information about the samples:
 
--   [Native Wifi API Sample](native-wifi-api-sample.md)
--   [Wireless Hosted Network Sample](wireless-hosted-network-sample.md)
--   [Wired Profile Samples](wired-profile-samples.md)
--   [Wireless Profile Samples](wireless-profile-samples.md)
+-   [Native Wifi API sample](native-wifi-api-sample.md)
+-   [Wireless Hosted Network sample](wireless-hosted-network-sample.md)
+-   [Wired Profile samples](wired-profile-samples.md)
+-   [Wireless Profile samples](wireless-profile-samples.md)
 
 ## Related topics
 
-<dl> <dt>
-
-[Native Wifi](portal.md)
-</dt> <dt>
-
-[Troubleshooting Windows Vista 802.11 Wireless Connections](/previous-versions/windows/it-pro/windows-vista/cc766215(v=ws.10))
-</dt> <dt>
-
-[What's New in Native Wifi](what-s-new-in-native-wifi.md)
-</dt> <dt>
-
-[Windows Vista Wireless SDK Forum](https://social.msdn.microsoft.com/Forums/b6bbd8f0-a921-480f-9b4b-845336462bc0/welcome-to-the-windows-vista-wireless-sdk-forum)
-</dt> </dl>
-
- 
-
- 
+* [Native Wifi](portal.md)
+* [Troubleshooting Windows Vista 802.11 Wireless Connections](/previous-versions/windows/it-pro/windows-vista/cc766215(v=ws.10))
+* [What's New in Native Wifi](what-s-new-in-native-wifi.md)
+* [Windows Vista Wireless SDK Forum](https://social.msdn.microsoft.com/Forums/b6bbd8f0-a921-480f-9b4b-845336462bc0/welcome-to-the-windows-vista-wireless-sdk-forum)

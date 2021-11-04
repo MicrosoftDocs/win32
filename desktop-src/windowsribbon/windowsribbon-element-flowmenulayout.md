@@ -34,10 +34,10 @@ Represents a horizontal layout with line breaks for items in a gallery.
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col  />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -135,13 +135,8 @@ This section of code shows the [**DropDownGallery.MenuLayout**](windowsribbon-el
 
 ## Element information
 
-
-
-|                                     |           |
-|-------------------------------------|-----------|
-| Minimum supported system<br/> | Windows 7 |
-| Can be empty                        | Yes       |
-
+* **Minimum supported system**: Windows 7
+* **Can be empty**: Yes
 
 
  

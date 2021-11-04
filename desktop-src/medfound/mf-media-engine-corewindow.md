@@ -1,5 +1,5 @@
 ---
-Description: Core window.
+description: Core window.
 ms.assetid: B18E322C-7954-473D-81A2-F181FBA9BDAC
 title: MF_MEDIA_ENGINE_COREWINDOW attribute (Mfmediaengine.h)
 ms.topic: reference

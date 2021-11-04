@@ -47,58 +47,16 @@ The **DeviceInfo** object has these properties.
 
 
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;">Property</th>
-<th style="text-align: left;">Access type</th>
-<th style="text-align: left;">Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;"><a href="-wia-iwiadeviceinfo-id.md"><strong>Id</strong></a><br/></td>
-<td style="text-align: left;">Read-only<br/></td>
-<td style="text-align: left;">Retrieves the ID of the WIA hardware device. <br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="-wia-iwiadeviceinfo-manufacturer.md"><strong>Manufacturer</strong></a><br/></td>
-<td style="text-align: left;">Read-only<br/></td>
-<td style="text-align: left;">Retrieves the name of the manufacturer of this hardware device.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="-wia-iwiadeviceinfo-name.md"><strong>Name</strong></a><br/></td>
-<td style="text-align: left;">Read-only<br/></td>
-<td style="text-align: left;">The name of the WIA hardware device as it appears in the UI.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="-wia-iwiadeviceinfo-port.md"><strong>Port</strong></a><br/></td>
-<td style="text-align: left;">Read-only<br/></td>
-<td style="text-align: left;">Retrieves the port to which the WIA hardware device is connected.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="-wia-iwiadeviceinfo-type.md"><strong>Type</strong></a><br/></td>
-<td style="text-align: left;">Read-only<br/></td>
-<td style="text-align: left;">Retrieves the type of WIA hardware device. Possible values are: <br/>
-<ul>
-<li>DigitalCamera</li>
-<li>Scanner</li>
-<li>StreamingVideo</li>
-<li>Default</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="-wia-iwiadeviceinfo-uiclsid.md"><strong>UIClsid</strong></a><br/></td>
-<td style="text-align: left;">Read-only<br/></td>
-<td style="text-align: left;">Retrieves the class id of the manufacturer-provided user interface for this WIA hardware device. The value is a string representation of a GUID. <br/></td>
-</tr>
-</tbody>
-</table>
+
+| Property | Access type | Description | 
+|----------|-------------|-------------|
+| <a href="-wia-iwiadeviceinfo-id.md"><strong>Id</strong></a><br /> | Read-only<br /> | Retrieves the ID of the WIA hardware device. <br /> | 
+| <a href="-wia-iwiadeviceinfo-manufacturer.md"><strong>Manufacturer</strong></a><br /> | Read-only<br /> | Retrieves the name of the manufacturer of this hardware device.<br /> | 
+| <a href="-wia-iwiadeviceinfo-name.md"><strong>Name</strong></a><br /> | Read-only<br /> | The name of the WIA hardware device as it appears in the UI.<br /> | 
+| <a href="-wia-iwiadeviceinfo-port.md"><strong>Port</strong></a><br /> | Read-only<br /> | Retrieves the port to which the WIA hardware device is connected.<br /> | 
+| <a href="-wia-iwiadeviceinfo-type.md"><strong>Type</strong></a><br /> | Read-only<br /> | Retrieves the type of WIA hardware device. Possible values are: <br /><ul><li>DigitalCamera</li><li>Scanner</li><li>StreamingVideo</li><li>Default</li></ul> | 
+| <a href="-wia-iwiadeviceinfo-uiclsid.md"><strong>UIClsid</strong></a><br /> | Read-only<br /> | Retrieves the class id of the manufacturer-provided user interface for this WIA hardware device. The value is a string representation of a GUID. <br /> | 
+
 
 
 

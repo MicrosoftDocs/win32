@@ -11,6 +11,7 @@ api_name:
 api_type:
 - NA
 ms.topic: reference
+ms.custom: snippet-project
 ms.date: 05/31/2018
 ---
 
@@ -33,7 +34,7 @@ schtasks /Create
 [/XML xmlfile] [/V1]] [/SD startdate] [/ED enddate] [/IT] [/Z] [/F]
 ```
 
-## Creation Parameters
+### Parameters
 
 <dl> <dt>
 
@@ -293,7 +294,7 @@ schtasks /Delete
 [/TN taskname] [/F]
 ```
 
-## Deletion Parameters
+### Parameters
 
 <dl> <dt>
 
@@ -349,7 +350,7 @@ schtasks /Run
 /TN taskname
 ```
 
-## Run Parameters
+### Parameters
 
 <dl> <dt>
 
@@ -403,7 +404,7 @@ schtasks /End
 /TN taskname
 ```
 
-## End Parameters
+### Parameters
 
 <dl> <dt>
 
@@ -452,7 +453,7 @@ schtasks /Query
 [/FO format | /XML] [/NH] [/V] [/TN taskname] [/?]
 ```
 
-## Query Parameters
+### Parameters
 
 <dl> <dt>
 
@@ -540,7 +541,7 @@ schtasks /Change
 [/SD startdate] [/ED enddate] [/ENABLE | /DISABLE] [/IT] [/Z] }
 ```
 
-## Change Parameters
+### Parameters
 
 <dl> <dt>
 

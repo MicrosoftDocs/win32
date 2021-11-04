@@ -14,7 +14,7 @@ The following table lists the properties that are relevant to user-mode applicat
 
 
 
-|                   |                           |
+| Label | Value |
 |-------------------|---------------------------|
 | Property Set GUID | PROPSETID\_EXT\_TRANSPORT |
 

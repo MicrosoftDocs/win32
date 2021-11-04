@@ -10,9 +10,7 @@ ms.date: 05/31/2018
 
 The table below shows which words are reserved and must not be used.
 
-
-
-|                  |          |           |
+| Reserved Words | Reserved Words | Reserved Words|
 |------------------|----------|-----------|
 | ARRAY            | DWORD    | UCHAR     |
 | BINARY           | FLOAT    | ULONGLONG |

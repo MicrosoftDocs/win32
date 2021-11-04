@@ -61,7 +61,7 @@ The following XML shows how to include the **DoNotModify** macro. This XML can b
 
 
 
-|                                     |               |
+| Label | Value |
 |-------------------------------------|---------------|
 | Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |

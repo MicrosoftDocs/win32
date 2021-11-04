@@ -74,7 +74,7 @@ Enumerates content on the storage by organizing the content based on a metadata 
 
 
 
-|                   |                                                                                     |
+| Requirement | Value |
 |-------------------|-------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Wmdm.idl</dt> </dl> |
 

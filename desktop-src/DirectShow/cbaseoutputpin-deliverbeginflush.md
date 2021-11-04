@@ -1,5 +1,5 @@
 ---
-description: The DeliverBeginFlush method requests the connected input pin to begin a flush operation.
+description: CBaseOutputPin.DeliverBeginFlush method - The DeliverBeginFlush method requests the connected input pin to begin a flush operation.
 ms.assetid: 0d7c7bd7-2a7a-42a4-a0de-60205b62e49c
 title: CBaseOutputPin.DeliverBeginFlush method (Amfilter.h)
 ms.topic: reference
@@ -58,7 +58,7 @@ This method calls the [**IPin::BeginFlush**](/windows/desktop/api/Strmif/nf-strm
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Amfilter.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

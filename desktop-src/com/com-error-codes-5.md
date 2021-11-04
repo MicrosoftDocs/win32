@@ -1,6 +1,6 @@
 ---
 title: COM Error Codes (COMADMIN, FILTER, GRAPHICS) (Winerror.h)
-description: The following table provides a list of error codes used by COM-based APIs.
+description: The following table provides a list of error codes used by COM-based APIs. | COM Error Codes (COMADMIN, FILTER, GRAPHICS) (Winerror.h)
 ms.assetid: 44245616-db28-41a2-972d-38515068ce12
 topic_type:
 - apiref
@@ -742,7 +742,7 @@ If you are experiencing difficulty with an application you are installing or run
 
 
 
-|                   |                                                                                       |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Winerror.h</dt> </dl> |
 

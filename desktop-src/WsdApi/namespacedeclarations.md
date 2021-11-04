@@ -42,7 +42,7 @@ Namespace tables are referenced by type tables and other generated code, so this
 
 
 
-|                                     |               |
+| Label | Value |
 |-------------------------------------|---------------|
 | Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |

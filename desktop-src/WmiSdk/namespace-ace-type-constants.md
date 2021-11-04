@@ -53,7 +53,7 @@ The ACE denies access to the namespace.
 
 
 
-|                   |                                                                                    |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Winnt.h</dt> </dl> |
 

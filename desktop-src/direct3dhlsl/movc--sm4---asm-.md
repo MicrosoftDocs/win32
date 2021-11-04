@@ -1,6 +1,6 @@
 ---
 title: movc (sm4 - asm)
-description: Component-wise conditional move.
+description: Component-wise conditional move. | movc (sm4 - asm)
 ms.assetid: B7F19DF5-282F-41D4-AE2D-6ACF61A42088
 ms.topic: reference
 ms.date: 05/31/2018

@@ -16,11 +16,11 @@ Unlike vertex shaders, which operate on a single vertex, the geometry shader's i
 
 ![illustration of a triangle and a line with adjacent vertices](images/d3d10-gs.png)
 
-|     |                 |
+|     | Type                |
 |-----|-----------------|
-| TV  | Triangle vertex |
-| AV  | Adjacent vertex |
-| LV  | Line vertex     |
+| **TV**  | Triangle vertex |
+| **AV**  | Adjacent vertex |
+| **LV**  | Line vertex     |
 
 
 

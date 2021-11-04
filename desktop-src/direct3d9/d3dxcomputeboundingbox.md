@@ -1,5 +1,5 @@
 ---
-description: Computes a coordinate-axis oriented bounding box.
+description: D3DXComputeBoundingBox function (D3DX9Mesh.h) - Computes a coordinate-axis oriented bounding box.
 ms.assetid: 74e1b84e-1264-49eb-9172-7842af7e25e0
 title: D3DXComputeBoundingBox function (D3DX9Mesh.h)
 ms.topic: reference
@@ -96,7 +96,7 @@ If the function succeeds, the return value is D3D\_OK. If the function fails, th
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

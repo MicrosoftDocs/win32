@@ -1,5 +1,5 @@
 ---
-description: Normalizes the plane coefficients so that the plane normal has unit length.
+description: D3DXPlaneNormalize function (D3dx9math.h) - Normalizes the plane coefficients so that the plane normal has unit length.
 ms.assetid: 9c595986-e1f8-4153-ba23-1fa6e583a050
 title: D3DXPlaneNormalize function (D3dx9math.h)
 ms.topic: reference
@@ -70,7 +70,7 @@ The return value for this function is the same value returned in the *pOut* para
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9math.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

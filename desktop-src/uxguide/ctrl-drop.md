@@ -9,7 +9,7 @@ ms.date: 10/20/2020
 # Drop-down Lists & Combo Boxes
 
 > [!NOTE]
-> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](https://docs.microsoft.com/windows/uwp/design/).
+> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](/windows/uwp/design/).
 
 With a drop-down list or combo box, users make a choice among a list of mutually exclusive values. Users can choose one and only one option. With a standard drop-down list, users are limited to choices in the list, but with a combo box they can enter a choice that isn't in the list.
 
@@ -91,9 +91,9 @@ Drop-down lists and combo boxes have several usage patterns:
 
 
 
-|                                                                                                                                     |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+|   Usage     |    Example   |
 |-------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Drop-down list** a standard drop-down list, with a fixed set of predetermined values. <br/>                                 | when closed, only the selected item is visible. when users click the drop-down button, all the options become visible. to change the value, users open the list and click another value.<br/> ![screen shot of drop-down list, options hidden ](images/ctrl-drop-image6.png)<br/> in this example, the list is in its normal state.<br/> ![screen shot of drop-down list, options displayed ](images/ctrl-drop-image7.png)<br/> In this example, the list has been dropped down.<br/> |
+| **Drop-down list** a standard drop-down list, with a fixed set of predetermined values. <br/>                                 | When closed, only the selected item is visible. When users click the drop-down button, all the options become visible. To change the value, users can open the list and click another value.<br/> ![screen shot of drop-down list, options hidden ](images/ctrl-drop-image6.png)<br/> In this example, the list is in its normal state.<br/> ![screen shot of drop-down list, options displayed ](images/ctrl-drop-image7.png)<br/> In this example, the list has been dropped down.<br/> |
 | **Preview drop-down list** a drop-down list that previews the results of the selection to help users choose.<br/>             | ![screen shot of color and text options ](images/ctrl-drop-image8.png)<br/> In these examples, the drop-down lists preview the results of the selection.<br/>                                                                                                                                                                                                                                                                                                                                           |
 | **Editable drop-down list** a drop-down combo box, which allows users to enter a value that isn't in the drop-down list.<br/> | ![aa511458.dropdownlists27(en-us,msdn.10).png](images/ctrl-drop-image9.png)![screen shot of editable font-size combo box ](images/ctrl-drop-image10.png)<br/> Examples of an editable drop-down list in edit and dropped-down modes.<br/> Use this control when you want to give the flexibility of a text box, yet want to assist users by providing a convenient list of likely choices.<br/>                                                                                                   |
 | **Editable list boxes** a regular combo box, which allows users to enter a value that isn't in the always visible list. <br/> | ![screen shot of drop-down list of font options ](images/ctrl-drop-image11.png)<br/> In these examples, the editable list boxes are always displayed.<br/> This control is a better choice than the editable drop-down list when it is important to encourage users to review the alternative choices or invite change.<br/>                                                                                                                                                                      |
@@ -130,7 +130,7 @@ Drop-down lists and combo boxes have several usage patterns:
 -   **Place options that represent All or None at the beginning of the list, regardless of the sort order of the remaining items.**
 -   **Enclose meta-options in parentheses.**
 
-    ![screen shot of drop-down list with none selected ](images/ctrl-drop-image15.png)
+    ![Screenshot that shows a drop-down list with '(None)' selected.](images/ctrl-drop-image15.png)
 
     In this example, "(None)" is a meta-option because it is not a valid value for the choice rather it describes that the option itself isn't being used.
 
@@ -276,10 +276,4 @@ When referring to combo boxes:
 Example: In the **Font** box, enter the font you want to use.
 
  
-
- 
-
-
-
-
 

@@ -47,11 +47,9 @@ Commonly available verbs include:
 | open       | Launches an application. If this file is not an executable file, its associated application is launched. |
 | print      | Prints the document file.                                                                                |
 | properties | Displays the object's properties.                                                                        |
-| runas      | Launches an application as Administrator. User Account Control (UAC) will prompt the user for consent to |
-|            | run the application elevated or enter the credentials of an administrator account used to run the        |
-|            | application.                                                                                             |
+| runas      | Launches an application as Administrator. User Account Control (UAC) will prompt the user for consent to run the application elevated or enter the credentials of an administrator account used to run the application. |
 
- 
+
 
 Each verb corresponds to the command that would be used to launch the application from a console window. The **open** verb is a good example, as it is commonly supported. For .exe files, **open** simply launches the application. However, it is more commonly used to launch an application that operates on a particular file. For instance, .txt files can be opened by Microsoft WordPad. The **open** verb for a .txt file would thus correspond to something like the following command:
 

@@ -1,6 +1,6 @@
 ---
 title: Last-Logoff attribute
-description: This attribute is not used.
+description: This attribute is not used. | Last-Logoff attribute
 ms.assetid: b7c6c68d-45c2-4317-975b-67e41bf80709
 ms.tgt_platform: multiple
 keywords:

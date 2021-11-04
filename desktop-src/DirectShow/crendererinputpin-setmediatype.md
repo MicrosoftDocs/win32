@@ -1,5 +1,5 @@
 ---
-Description: The SetMediaType method sets the media type for the connection. This method overrides the CBasePin::SetMediaType method.
+description: The SetMediaType method sets the media type for the connection. This method overrides the CBasePin::SetMediaType method.
 ms.assetid: b2668bb1-0739-413c-bea8-ec5541acfb3e
 title: CRendererInputPin.SetMediaType method (Renbase.h)
 ms.topic: reference
@@ -52,7 +52,7 @@ Returns an **HRESULT** value.
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Renbase.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

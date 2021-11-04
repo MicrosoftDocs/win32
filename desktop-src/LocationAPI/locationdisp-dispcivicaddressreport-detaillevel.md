@@ -1,5 +1,5 @@
 ---
-description: Reserved.
+description: LocationDisp.DispCivicAddressReport.DetailLevel property - Reserved.
 ms.assetid: 3f206db7-fccf-4b95-bff7-856dc53caf5a
 title: LocationDisp.DispCivicAddressReport.DetailLevel property
 ms.topic: reference

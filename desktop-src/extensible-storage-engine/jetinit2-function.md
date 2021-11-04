@@ -34,10 +34,12 @@ The **JetInit2** function puts the database engine into a state where it can sup
 
 This function is obsolete. Use [JetInit3](./jetinit3-function.md) instead.
 
-    JET_ERR JET_API JetInit2(
-      __in_out_opt  JET_INSTANCE* pinstance,
-      __in          JET_GRBIT grbit
-    );
+```cpp
+JET_ERR JET_API JetInit2(
+  __in_out_opt  JET_INSTANCE* pinstance,
+  __in          JET_GRBIT grbit
+);
+```
 
 ### Parameters
 
@@ -53,49 +55,17 @@ For Windows XP and later releases, the use of this parameter depends on the ope
 
 A group of bits specifying zero or more of the following options.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Value</p></th>
-<th><p>Meaning</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_bitReplayReplicatedLogFiles</p></td>
-<td><p>Reserved for future use.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_bitCreateSFSVolumeIfNotExist</p></td>
-<td><p>Reserved for future use.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_bitReplayIgnoreMissingDB</p></td>
-<td><p>This option allows the user to run recovery on a set of log files, without all of the databases being present, that were attached at one point of the log set.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_bitRecoveryWithoutUndo</p></td>
-<td><p>Perform recovery, but halt at the Undo phase. This allows additional transaction logs to copied in and applied.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_bitTruncateLogsAfterRecovery</p></td>
-<td><p>On successful soft recovery, truncate log files.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_bitReplayMissingMapEntryDB</p></td>
-<td><p>Missing database map entry default to same location.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_bitReplayIgnoreLostLogs</p></td>
-<td><p>Ignore logs lost from the end of the log stream.</p>
-<p><strong>Windows 7:JET_bitReplayIgnoreLostLogs</strong> is introduced in Windows 7.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Value</p> | <p>Meaning</p> | 
+|--------------|----------------|
+| <p>JET_bitReplayReplicatedLogFiles</p> | <p>Reserved for future use.</p> | 
+| <p>JET_bitCreateSFSVolumeIfNotExist</p> | <p>Reserved for future use.</p> | 
+| <p>JET_bitReplayIgnoreMissingDB</p> | <p>This option allows the user to run recovery on a set of log files, without all of the databases being present, that were attached at one point of the log set.</p> | 
+| <p>JET_bitRecoveryWithoutUndo</p> | <p>Perform recovery, but halt at the Undo phase. This allows additional transaction logs to copied in and applied.</p> | 
+| <p>JET_bitTruncateLogsAfterRecovery</p> | <p>On successful soft recovery, truncate log files.</p> | 
+| <p>JET_bitReplayMissingMapEntryDB</p> | <p>Missing database map entry default to same location.</p> | 
+| <p>JET_bitReplayIgnoreLostLogs</p> | <p>Ignore logs lost from the end of the log stream.</p><p><strong>Windows 7:JET_bitReplayIgnoreLostLogs</strong> is introduced in Windows 7.</p> | 
+
 
 
 ### Return Value
@@ -115,34 +85,15 @@ See the Remarks section in [JetInit](./jetinit-function.md) for more information
 
 #### Requirements
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Client</strong></p></td>
-<td><p>Requires Windows Vista or Windows XP.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Server</strong></p></td>
-<td><p>Requires Windows Server 2008 or Windows Server 2003.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>Header</strong></p></td>
-<td><p>Declared in Esent.h.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Library</strong></p></td>
-<td><p>Use ESENT.lib.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>DLL</strong></p></td>
-<td><p>Requires ESENT.dll.</p></td>
-</tr>
-</tbody>
-</table>
+
+| Requirement | Value |
+|------------|----------|
+| <p><strong>Client</strong></p> | <p>Requires Windows Vista or Windows XP.</p> | 
+| <p><strong>Server</strong></p> | <p>Requires Windows Server 2008 or Windows Server 2003.</p> | 
+| <p><strong>Header</strong></p> | <p>Declared in Esent.h.</p> | 
+| <p><strong>Library</strong></p> | <p>Use ESENT.lib.</p> | 
+| <p><strong>DLL</strong></p> | <p>Requires ESENT.dll.</p> | 
+
 
 
 #### See Also

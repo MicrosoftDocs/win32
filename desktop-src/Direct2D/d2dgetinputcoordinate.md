@@ -45,7 +45,7 @@ The function returns a **float4**, in the format TEXCOORDN.
 
 ## Remarks
 
-The coordinate returned by this function is in texel space. A shader shouldn't take any dependencies on how this value is calculated. It should use it only to sample the pixel shader's input. For more info, see [Adding a pixel shader to a custom transform](/windows/win32/direct2d/custom-effects#adding-a-pixel-shader-to-a-custom-transform).
+The coordinate returned by this function is in texel space. A shader shouldn't take any dependencies on how this value is calculated. It should use it only to sample the pixel shader's input. For more info, see [Adding a pixel shader to a custom transform](./custom-effects.md#adding-a-pixel-shader-to-a-custom-transform).
 
 The following example shows the function used for a displacement map effect.
 
@@ -67,7 +67,7 @@ D2D_PS_ENTRY(DisplacementMapBilinear)
 
 
 
-|                   |                                                                                                    |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D2d1effecthelpers.hlsli</dt> </dl> |
 | DLL<br/>    | <dl> <dt>D2d1.dll</dt> </dl>                |
@@ -85,10 +85,4 @@ D2D_PS_ENTRY(DisplacementMapBilinear)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

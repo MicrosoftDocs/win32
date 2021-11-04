@@ -1,6 +1,6 @@
 ---
 title: WM ASF Writer Filter (Windows Media Format 11 SDK)
-description: WM ASF Writer Filter
+description: Learn about the WM ASF Writer filter for the Windows Media Format 11 SDK. Review filter information and see related topics.
 ms.assetid: a902c92e-836d-492c-b2d2-89c216125774
 keywords:
 - Windows Media Format SDK,WM ASF Writer
@@ -23,7 +23,7 @@ The following table contains information about the WM ASF Writer filter, such as
 
 
 
-|                        |                                                                                                                                                                                                                         |
+| Filter Information                       |  Types                                                                                                                                                                                                                       |
 |------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Filter interfaces      | **IAMFilterMiscFlags**, **IBaseFilter**, **IConfigAsfWriter**, **IFileSinkFilter2**, IMediaSeeking, IPersistStream, IServiceProvider, ISpecifyPropertyPages, **IWMIndexer2**, **IWMHeaderInfo**, **IWMWriterAdvanced2** |
 | Input pin media types  | Dependent on the profile. Typically uncompressed types like MEDIATYPE\_Audio or MEDIATYPE\_Video, although compressed types can be accepted if they match the profile                                                   |

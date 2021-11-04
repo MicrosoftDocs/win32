@@ -12,7 +12,7 @@ The TV Audio filter provides control of television audio decoding, stereo or mon
 
 
 
-|                                          |                                                                                                                                |
+| Label | Value |
 |------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------|
 | Filter Interfaces                        | [**IAMTVAudio**](/windows/desktop/api/Strmif/nn-strmif-iamtvaudio), **IPersistPropertyBag**, **ISpecifyPropertyPages**, [**IKsPropertySet**](ikspropertyset.md) |
 | Input Pin Media Types                    | MEDIATYPE\_AnalogAudio                                                                                                         |

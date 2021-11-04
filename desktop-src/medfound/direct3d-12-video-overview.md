@@ -114,7 +114,10 @@ An implementation will also usually have a fence for each output buffer. In the 
 ## Related topics
 
 <dl> <dt>
+ 
 [Direct3D 12 Video APIs](direct3d-12-video-apis.md)
+</dt> <dt>
+ 
 [Media Foundation Programming Guide](media-foundation-programming-guide.md)
 </dt> </dl>
 

@@ -85,7 +85,7 @@ On return, if the value of *\*ppFG* is non-**NULL**, the **IGraphBuilder** inter
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

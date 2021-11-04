@@ -1,5 +1,5 @@
 ---
-description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: Find information about the DocumentBindingGutter parameter. This topic isn't current. For the most current information, see the Print Schema Specification.
 ms.assetid: 903ad358-a060-4c8f-b72e-5ec2eb898248
 title: DocumentBindingGutter
 ms.topic: article
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # DocumentBindingGutter
 
-This topic is not current. For the most current information, see the [Print Schema Specification](https://www.microsoft.com/whdc/xps/printschema.mspx).
+This topic is not current. For the most current information, see the [Print Schema Specification](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip).
 
 Specifies the width of the binding gutter.
 
@@ -19,7 +19,7 @@ Specifies the width of the binding gutter.
 
 
 
-| Name                       |                                              |
+| Name | Value |
 |----------------------------|----------------------------------------------|
 | Element Type <br/>   | ParameterDef<br/>                      |
 | Scoping Prefix <br/> | Document<br/>                          |
@@ -84,7 +84,7 @@ The following table outlines the characteristics of the variables defined in the
 
 <dl> <dt>
 
-[Print Schema Specification](https://www.microsoft.com/whdc/xps/printschema.mspx)
+[Print Schema Specification](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip)
 </dt> </dl>
 
  

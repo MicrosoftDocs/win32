@@ -1,5 +1,5 @@
 ---
-description: Scales a spherical harmonic (SH) vector; in other words, pOut\[i\] = pA\[i\]\*Scale.
+description: D3DXSHScale function (D3dx9math.h) - Scales a spherical harmonic (SH) vector; in other words, pOut\[i\] = pA\[i\]\*Scale.
 ms.assetid: e7b08b55-e2e7-4f13-bbee-10b844d3ef91
 title: D3DXSHScale function (D3dx9math.h)
 ms.topic: reference
@@ -91,7 +91,7 @@ Each coefficient of the basis function Yₗₘ is stored at memory location l² 
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9math.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

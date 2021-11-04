@@ -1,5 +1,5 @@
 ---
-description: Builds a matrix that rotates around the x-axis.
+description: D3DXMatrixRotationX function (D3dx9math.h) - Builds a matrix that rotates around the x-axis.
 ms.assetid: 45a2668d-787f-4354-882a-94a72edaa543
 title: D3DXMatrixRotationX function (D3dx9math.h)
 ms.topic: reference
@@ -68,7 +68,7 @@ The return value for this function is the same value returned in the *pOut* para
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9math.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

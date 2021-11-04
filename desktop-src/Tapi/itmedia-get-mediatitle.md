@@ -1,5 +1,5 @@
 ---
-Description: The get\_MediaTitle method retrieves a textual title for the media that the application can use for informational or display purposes. This must be an ASCII convertible string if the character set is ASCII. Otherwise, it can be any BSTR string.
+description: The get\_MediaTitle method retrieves a textual title for the media that the application can use for informational or display purposes. This must be an ASCII convertible string if the character set is ASCII. Otherwise, it can be any BSTR string.
 ms.assetid: c5567672-54f0-45d6-81d2-5a501a33c25f
 title: ITMedia::get_MediaTitle method (Sdpblb.h)
 ms.topic: reference
@@ -60,7 +60,7 @@ The application must use [**SysFreeString**](/windows/win32/api/oleauto/nf-oleau
 
 
 
-|                         |                                                                                       |
+| Requirement | Value |
 |-------------------------|---------------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 3.0 or later<br/>                                                 |
 | Header<br/>       | <dl> <dt>Sdpblb.h</dt> </dl>   |

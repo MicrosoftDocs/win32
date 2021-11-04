@@ -1,5 +1,5 @@
 ---
-description: Destructor method.
+description: CUnknown.~CUnknown destructor - Destructor method.
 ms.assetid: 5d4ea970-2145-4119-b3dc-77fba1c2207a
 title: CUnknown.~CUnknown destructor (Combase.h)
 ms.topic: reference
@@ -35,7 +35,7 @@ Destructor method.
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Combase.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

@@ -30,7 +30,7 @@ The **ID3D12DeviceDownlevel** interface has these methods.
 
 ## Requirements
 
-|        |                  |
+| Requirement | Value |
 |--------|------------------|
 | Header | d3d12downlevel.h |
 | DLL    | D3D12.dll (Windows 7 only) |

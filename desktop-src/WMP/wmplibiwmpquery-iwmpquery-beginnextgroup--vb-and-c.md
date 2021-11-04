@@ -1,6 +1,6 @@
 ---
 title: IWMPQuery beginNextGroup method
-description: The beginNextGroup method begins a new condition group.
+description: The beginNextGroup method begins a new condition group. | IWMPQuery beginNextGroup method
 ms.assetid: 15d20c9f-2ce7-4a86-9054-b7317ebe1a0a
 keywords:
 - beginNextGroup method Windows Media Player
@@ -122,7 +122,7 @@ Next i
 
 
 
-|                      |                                                                                                                        |
+| Requirement | Value |
 |----------------------|------------------------------------------------------------------------------------------------------------------------|
 | Version<br/>   | Windows Media Player 11.<br/>                                                                                    |
 | Namespace<br/> | **WMPLib**<br/>                                                                                                  |

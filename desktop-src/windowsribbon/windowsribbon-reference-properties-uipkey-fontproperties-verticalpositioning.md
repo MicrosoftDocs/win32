@@ -36,7 +36,7 @@ The following table describes the properties and the UI result.
 
 
 
-|                                        |                                                                                                |
+|     Property                           |          UI Result                                                                             |
 |----------------------------------------|------------------------------------------------------------------------------------------------|
 | `UI_FONTVERTICALPOSITION_NOTAVAILABLE` | **Superscript** and **Subscript** buttons are disabled and can only be set by the application. |
 | `UI_FONTVERTICALPOSITION_NOTSET`       | **Superscript** and **Subscript** buttons are not selected.                                    |

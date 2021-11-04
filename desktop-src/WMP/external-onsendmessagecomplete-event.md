@@ -1,6 +1,6 @@
 ---
 title: External.OnSendMessageComplete Event
-description: Note This topic describes functionality designed for use by online stores.
+description: Note This topic describes functionality designed for use by online stores. | External.OnSendMessageComplete Event
 ms.assetid: 9ae60aa5-4ecd-41dd-aeb0-afb1a3686982
 keywords:
 - External.OnSendMessageComplete Event Windows Media Player
@@ -72,7 +72,7 @@ None of the parameters (*Msg*, *Param*, *Result*) of the **OnSendMessageComplete
 
 
 
-|                    |                                                                                    |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------|
 | Version<br/> | Windows Media Player 11<br/>                                                 |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |

@@ -1,6 +1,6 @@
 ---
 title: Configuring the Application Specific Timeouts
-description: .
+description: Configuring the Application Specific Timeouts
 ms.assetid: 24526320-4174-4fc7-b45a-c1ec605e1666
 keywords:
 - Configuring the Application Specific Timeouts HTTP

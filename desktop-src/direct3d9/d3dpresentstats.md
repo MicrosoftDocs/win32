@@ -156,7 +156,7 @@ Applications can detect a glitch by keeping track of SynchRefreshCount. For exam
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3d9types.h</dt> </dl> |
 

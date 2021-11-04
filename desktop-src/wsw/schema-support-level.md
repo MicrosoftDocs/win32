@@ -211,7 +211,7 @@ Wsutil supports inheritance of complex types, that is, a structure can inherit f
 
 Identifiers needs to be normalized when translating from NCNames in XML. Strings are nillable; pointer types are nillable; integral types and float/double are nillable and defaultValue is set to 0.
 
-![](images/schematypemap.png)
+![Table showing the mapping between XSD types and Sapphire data types.](images/schematypemap.png)
 
  
 

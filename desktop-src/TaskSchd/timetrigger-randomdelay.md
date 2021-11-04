@@ -1,6 +1,6 @@
 ---
 title: TimeTrigger.RandomDelay property
-description: For scripting, gets or sets a delay time that is randomly added to the start time of the trigger.
+description: For scripting, gets or sets a delay time that is randomly added to the start time of the trigger. | TimeTrigger.RandomDelay property
 ms.assetid: 'ee55dd85-9696-4872-8670-f919fca7481d'
 keywords:
 - RandomDelay property Task Scheduler

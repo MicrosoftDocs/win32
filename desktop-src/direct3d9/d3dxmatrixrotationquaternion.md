@@ -1,5 +1,5 @@
 ---
-description: Builds a rotation matrix from a quaternion.
+description: D3DXMatrixRotationQuaternion function (D3dx9math.h) - Builds a rotation matrix from a quaternion.
 ms.assetid: e590058c-772b-4eef-aab0-a12bb04c299a
 title: D3DXMatrixRotationQuaternion function (D3dx9math.h)
 ms.topic: reference
@@ -70,7 +70,7 @@ For information about how to calculate quaternion values from a direction vector
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9math.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

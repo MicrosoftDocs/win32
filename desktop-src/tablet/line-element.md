@@ -41,7 +41,7 @@ None.
 
 
 
-|              |                                                       |
+|  Element     | Value                                                     |
 |--------------|-------------------------------------------------------|
 | Element type | [**LineType**](linetype-complex-type.md) complexType |
 | Namespace    | urn:schemas-microsoft-com:tabletpc:richink            |
@@ -55,7 +55,7 @@ None.
 
 
 
-|                   |                                                                                                     |
+| Requirement | Value |
 |-------------------|-----------------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Windows.ui.xaml.shapes.h</dt> </dl> |
 

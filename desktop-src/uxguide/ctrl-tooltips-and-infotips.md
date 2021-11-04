@@ -9,11 +9,11 @@ ms.date: 10/20/2020
 # Tooltips and Infotips
 
 > [!NOTE]
-> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](https://docs.microsoft.com/windows/uwp/design/).
+> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](/windows/uwp/design/).
 
 A tooltip is a small pop-up window that labels the unlabeled control being pointed to, such as unlabeled toolbar controls or command buttons.
 
-![screen shot of print button with tooltip ](images/ctrl-tooltips-and-infotips-image1.png)
+![Screenshot that shows print button with the tooltip 'Print (Ctrl+P)' displayed.](images/ctrl-tooltips-and-infotips-image1.png)
 
 A typical tooltip for a toolbar button.
 
@@ -114,7 +114,7 @@ Tips have several usage patterns:
 
 
 
-|                                                                                                                                 |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+|    Usage                                                                                                                             |    Example                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 |---------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Tooltips**<br/> display the label of an unlabeled control or glyph. <br/>                                         | Because these tips serve as labels, their text follows the label guidelines for the underlying control. <br/> ![screen shot of export list button with tooltip ](images/ctrl-tooltips-and-infotips-image5.png)<br/> in this example, the tooltip gives the command label.<br/> ![screen shot of close button with tooltip ](images/ctrl-tooltips-and-infotips-image6.png)![screen shot of play button with tooltip ](images/ctrl-tooltips-and-infotips-image7.png)<br/> in these examples, tooltips label graphic buttons.<br/> ![screen shot of show menu glyph with tooltip ](images/ctrl-tooltips-and-infotips-image8.png)<br/> In this example, the tooltip labels a glyph.<br/> |
 | **Infotips**<br/> provide a supplemental description or explanation of an object or control. <br/>                  | Use infotips to describe or explain objects and controls such as [toolbar](cmd-toolbars.md) controls, [icons](vis-icons.md) (including icon overlays), [links](ctrl-links.md), [tabs](ctrl-tabs.md), [progressive disclosure controls](ctrl-progressive-disclosure-controls.md), and custom controls. <br/> ![screen shot of e-mail button with infotip ](images/ctrl-tooltips-and-infotips-image9.png)<br/> ![screen shot of burn button with infotip ](images/ctrl-tooltips-and-infotips-image10.png)<br/> In these examples, infotips provide supplemental information about controls and objects.<br/>                                                                                        |
@@ -380,6 +380,4 @@ When referring to tips:
 -   In programming and other technical documentation, refer to the type of tip (tooltip or infotip). Everywhere else, simply call it a tip.
 -   The following variations are incorrect: tool tip, Tooltip, and ToolTip.
 -   To describe user interaction, use hover.
-
- 
 

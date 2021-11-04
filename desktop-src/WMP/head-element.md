@@ -65,7 +65,7 @@ Typically the **head** element contains a **title** element and one or more **me
 
 
 
-|                    |                                                    |
+| Requirement | Value |
 |--------------------|----------------------------------------------------|
 | Version<br/> | Windows Media Player 9 Series or later.<br/> |
 

@@ -1,5 +1,5 @@
 ---
-description: This class is the event type class for logical disk configuration events.
+description: SystemConfig_V0_LogDisk class - This class is the event type class for logical disk configuration events.
 ms.assetid: 3fa5f2e4-f6fa-4c10-9634-04908783cd28
 title: SystemConfig_V0_LogDisk class
 ms.topic: reference
@@ -113,7 +113,7 @@ Access type: Read-only
 Qualifiers: **WmiDataId** (6), **Max** (4)
 </dt> </dl>
 
-Drive letter of the disk in the form, "<letter>:".
+Drive letter of the disk in the form, "&lt;letter&gt;:".
 
 </dd> <dt>
 

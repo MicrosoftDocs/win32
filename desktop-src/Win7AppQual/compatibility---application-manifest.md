@@ -1,5 +1,5 @@
 ---
-description: .
+description: Application Manifest
 ms.assetid: f022374d-ea3f-477f-9b59-3188b775ed64
 title: Application Manifest
 ms.topic: article

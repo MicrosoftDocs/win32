@@ -3,7 +3,7 @@ description: This specification describes the structure of executable (image) fi
 ms.assetid: 3dbfbf7f-6662-45a4-99f1-e0e24c370dee
 title: PE Format
 ms.topic: article
-ms.date: 08/11/2020
+ms.date: 03/31/2021
 ms.custom: contperf-fy21q1
 ---
 
@@ -315,8 +315,8 @@ Also, do not assume that the RVAs in this table point to the beginning of a sect
 | 144/160 <br/> | 8 <br/> | Debug <br/>                   | The debug data starting address and size. For more information, see [The .debug Section](#the-debug-section).<br/>                                                             |
 | 152/168 <br/> | 8 <br/> | Architecture <br/>            | Reserved, must be 0 <br/>                                                                                                                                                      |
 | 160/176 <br/> | 8 <br/> | Global Ptr <br/>              | The RVA of the value to be stored in the global pointer register. The size member of this structure must be set to zero. <br/>                                                 |
-| 168/184 <br/> | 8 <br/> | TLS Table <br/>               | The thread local storage (TLS) table address and size. For more information, [The .tls Section](#the-tls-section).<br/>                                                        |
-| 176/192 <br/> | 8 <br/> | Load Config Table <br/>       | The load configuration table address and size. For more information, [The Load Configuration Structure (Image Only)](#the-load-configuration-structure-image-only).<br/>       |
+| 168/184 <br/> | 8 <br/> | TLS Table <br/>               | The thread local storage (TLS) table address and size. For more information, see [The .tls Section](#the-tls-section).<br/>                                                        |
+| 176/192 <br/> | 8 <br/> | Load Config Table <br/>       | The load configuration table address and size. For more information, see [The Load Configuration Structure (Image Only)](#the-load-configuration-structure-image-only).<br/>       |
 | 184/200 <br/> | 8 <br/> | Bound Import <br/>            | The bound import table address and size. <br/>                                                                                                                                 |
 | 192/208 <br/> | 8 <br/> | IAT <br/>                     | The import address table address and size. For more information, see [Import Address Table](#import-address-table).<br/>                                                 |
 | 200/216 <br/> | 8 <br/> | Delay Import Descriptor <br/> | The delay import descriptor address and size. For more information, see [Delay-Load Import Tables (Image Only)](#delay-load-import-tables-image-only).<br/>                    |
@@ -2109,7 +2109,7 @@ The first 8 bytes of an archive consist of the file signature. The rest of the 
 
 -   The first and second members are "linker members." Each of these members has its own format as described in section [Import Name Type](#import-name-type). Typically, a linker places information into these archive members. The linker members contain the directory of the archive.
 
--   The third member is the "longnames" member. This member consists of a series of null-terminated ASCII strings in which each string is the name of another archive member.
+-   The third member is the "longnames" member. This optional member consists of a series of null-terminated ASCII strings in which each string is the name of another archive member.
 
 -   The rest of the archive consists of standard (object-file) members. Each of these members contains the contents of one object file in its entirety.
 
@@ -2179,7 +2179,7 @@ The Name field has one of the formats shown in the following table. As mentioned
 |------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | name/ <br/>      | The name of the archive member. <br/>                                                                                                                                                                                                                                                          |
 | / <br/>          | The archive member is one of the two linker members. Both of the linker members have this name. <br/>                                                                                                                                                                                          |
-| // <br/>         | The archive member is the longnames member, which consists of a series of null-terminated ASCII strings. The longnames member is the third archive member and must always be present even if the contents are empty. <br/>                                                                     |
+| // <br/>         | The archive member is the longnames member, which consists of a series of null-terminated ASCII strings. The longnames member is the third archive member and is optional. <br/>                                                                     |
 | /n <br/>         | The name of the archive member is located at offset n within the longnames member. The number n is the decimal representation of the offset. For example: "/26" indicates that the name of the archive member is located 26 bytes beyond the beginning of the longnames member contents. <br/> |
 
 

@@ -40,7 +40,7 @@ The filter graph manager sends this event when its [**IMediaFilter::SetSyncSourc
 
 
 
-|                   |                                                                                    |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Dshow.h</dt> </dl> |
 

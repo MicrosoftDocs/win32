@@ -1,6 +1,6 @@
 ---
 title: BuyCD Element
-description: Note This section describes functionality designed for use by online stores.
+description: Note This section describes functionality designed for use by online stores. | BuyCD Element
 ms.assetid: 01aaf20a-49ee-420b-a612-f09155390d4a
 keywords:
 - BuyCD Element Windows Media Player
@@ -96,7 +96,7 @@ Windows XP Media Center Edition 2004 provides users with a user interface design
 
 
 
-|                    |                                              |
+| Requirement | Value |
 |--------------------|----------------------------------------------|
 | Version<br/> | Windows Media Player 10 or later.<br/> |
 

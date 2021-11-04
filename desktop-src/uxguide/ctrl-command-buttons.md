@@ -9,7 +9,7 @@ ms.date: 10/20/2020
 # Command Buttons
 
 > [!NOTE]
-> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](https://docs.microsoft.com/windows/uwp/design/).
+> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](/windows/uwp/design/).
 
 With a command button, users initiate an immediate action.
 
@@ -79,7 +79,7 @@ Command buttons have several usage patterns:
 
 
 
-|                                                                                                                                                                         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+|     Usage                                                                                                                                                                    |    Example                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Standard command buttons** You can use standard command buttons to initiate an immediate action.<br/>                                                           | ![screen shot of standard (gray) command button ](images/ctrl-command-buttons-image6.png)<br/> A standard command button.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 | **Default command buttons** The default command button in a window indicates the command button that will be activated when users press the Enter key.<br/>       | ![screen shot of default (blue) command button ](images/ctrl-command-buttons-image7.png)<br/> A default command button.<br/> Any command button becomes the default when users tab to it. If the input focus is on a control that isn't a command button, the command button with the default button attribute becomes the default. Only one command button in a window can be the default.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
@@ -178,7 +178,7 @@ Recommended sizing and spacing for command buttons.
 
     **Acceptable:**
 
-    ![screen shot of ok and cancel buttons ](images/ctrl-command-buttons-image26.png)
+    ![Screenshot that shows the 'OK' and 'Cancel' buttons.](images/ctrl-command-buttons-image26.png)
 
     In this example, OK and Cancel are acceptable but unspecific labels.
 
@@ -304,9 +304,8 @@ The following table shows some common command button labels and their usage.
 
 
 
-|                             |                                                                                                              |                             |
+| Button label | Meaning              | Access key   |
 |-----------------------------|--------------------------------------------------------------------------------------------------------------|-----------------------------|
-| **Button label**<br/> | **Meaning**<br/>                                                                                       | **Access key**<br/>   |
 | **Back**<br/>         | In wizards and task flows, go to the previous page.<br/>                                               | 'B'<br/>              |
 | **Browse...**<br/>    | Display a dialog box to look for a file or object.<br/>                                                | 'B' or 'r'<br/>       |
 | **Options**<br/>      | Display the choices available to users for customizing a program.<br/>                                 | 'O'<br/>              |
@@ -336,10 +335,4 @@ When referring to command buttons:
 Example: Click **Print** to print the document.
 
  
-
- 
-
-
-
-
 

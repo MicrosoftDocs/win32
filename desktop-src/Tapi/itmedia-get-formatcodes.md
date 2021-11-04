@@ -1,5 +1,5 @@
 ---
-Description: The get\_FormatCodes method gets the list of media payload format codes. The variant returns a SAFEARRAY of BSTRs. Each BSTR within that array is a format code string.
+description: The get\_FormatCodes method gets the list of media payload format codes. The variant returns a SAFEARRAY of BSTRs. Each BSTR within that array is a format code string.
 ms.assetid: 8663d7e8-d46f-44d1-93db-9b5142bb28dd
 title: ITMedia::get_FormatCodes method (Sdpblb.h)
 ms.topic: reference
@@ -60,7 +60,7 @@ When a list of payload formats is given, this implies that all of these formats 
 
 
 
-|                         |                                                                                       |
+| Requirement | Value |
 |-------------------------|---------------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 3.0 or later<br/>                                                 |
 | Header<br/>       | <dl> <dt>Sdpblb.h</dt> </dl>   |

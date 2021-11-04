@@ -76,20 +76,16 @@ Displays command-line help.
 
 </dd> </dl>
 
-> [!Note]Msimsp.exe can fail when it calls Makecab.exe if there are values in the File column of the [File table](file-table.md) of the installation package that differ only by case. Windows Installer is case-sensitive and allows an installation package such as in the table below only when Comp1 and Comp2 are installed into different directories. However, in this scenario you cannot use Msimsp.exe or [Patchwiz.dll](patchwiz-dll.md) to generate a patch for the package, because Msimsp.exe and Patchwiz.dll call Makecab.exe, which is case-insensitive.
->
+> [!Note]
+> Msimsp.exe can fail when it calls Makecab.exe if there are values in the File column of the [File table](file-table.md) of the installation package that differ only by case. Windows Installer is case-sensitive and allows an installation package such as in the table below only when Comp1 and Comp2 are installed into different directories. However, in this scenario you cannot use Msimsp.exe or [Patchwiz.dll](patchwiz-dll.md) to generate a patch for the package, because Msimsp.exe and Patchwiz.dll call Makecab.exe, which is case-insensitive.
+> 
 > Avoid authoring an installation package such as the following partial [File table](file-table.md).
->
+> 
 > | File       | Component\_ | FileName   |
 > |------------|-------------|------------|
 > | readme.txt | Comp1       | readme.txt |
 > | ReadMe.txt | Comp2       | readme.txt |
->
-> 
->
->  
 
- 
 
 ## Related topics
 

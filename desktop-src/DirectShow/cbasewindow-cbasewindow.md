@@ -1,5 +1,5 @@
 ---
-description: Constructor method.
+description: CBaseWindow.CBaseWindow constructor - Constructor method.
 ms.assetid: 9f0b91c4-0364-4c73-b97f-86703ca3ef74
 title: CBaseWindow.CBaseWindow constructor (Winutil.h)
 ms.topic: reference
@@ -62,7 +62,7 @@ If the value of the *bDoGetDC* parameter is **TRUE**, the `CBaseWindow` object r
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Winutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

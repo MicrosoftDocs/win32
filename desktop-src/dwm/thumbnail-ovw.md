@@ -19,7 +19,7 @@ Desktop Window Manager (DWM) enables the display of thumbnail representations of
 
 The following image illustrates the Windows Vista live thumbnail seen when you hover over the application on the taskbar.
 
-![screen shot of the dwm enabled alt-tab](images/dwm-livethumbnail.png)
+![Screenshot that shows the D W M thumbnail seen when hovering over an app in the taskbar.](images/dwm-livethumbnail.png)
 
 The following image illustrates the Windows Vista Flip (ALT-TAB) enabled by DWM.
 

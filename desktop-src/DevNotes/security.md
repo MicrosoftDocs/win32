@@ -1,5 +1,5 @@
 ---
-description: Security
+description: This article lists security topics, including IIsolatedAppLauncher, FveEnableRawAccessW, IPassportManager3 Add-ons, and Ntsecpkg.
 ms.assetid: 'b53e9104-5515-463c-af95-1e1b51d97845'
 title: Security (Developer Notes)
 ms.topic: article

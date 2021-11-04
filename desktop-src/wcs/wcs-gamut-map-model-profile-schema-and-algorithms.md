@@ -71,7 +71,7 @@ In addition, the GMMP provides explicit information on the targeted Gamut Map Mo
 
 ## Gamut Map Model Profile Architecture
 
-![](images/gmmp-image002.png)
+![Diagram that shows the Gamut Map Model Profile.](images/gmmp-image002.png)
 
 The sampling of the output device colorant space is done by iterating through the colorants from 0.0 to 1.0 with a fractional step, accumulating all combinations of each colorant at each step, and then converting them from device colorant space to color appearance space using the DM::DeviceToColorimetricColors method followed by the CAM::ColorimetricToAppearanceColors method. The following is an example of how this is done for RGB.
 
@@ -238,7 +238,7 @@ While the CAM predicts that these device neutral colors will appear chromatic, a
 
 To map source neutrals to device neutrals, adjust the source and destination gamut boundaries and each pixel when you apply the gamut mapping algorithm. First adjust each value in the source color so that the source device's neutral axis at the source color's lightness falls directly on the neutral axis of the appearance space. (See the left side of Figure 1.) Then adjust the destination device's gamut boundary description so that each color on the destination device's neutral axis at the destination device gamut boundary color's lightness falls directly on the neutral axis of the appearance space. (See the right side of Figure 1.)
 
-![](images/gmmp-image004.png)
+![Diagram that shows the Source Gamut Boundary graph on the left, and the Destination Gamut Boundary on the right.](images/gmmp-image004.png)
 
 **Figure 1** : Alignment of the neutral axes illustrated. Left: Adjusting source points relative to the source device neutral axis. Right: Adjusting the destination gamut boundary description relative to the destination gamut boundary description.
 
@@ -248,7 +248,7 @@ Handling the destination device values is a little more tricky. Initially, you a
 
 However, this space does not accurately describe the true behavior of the destination device. You must invert the mapping before gamut mapped colors are handed to the appearance model and destination device model. You offset all the mapped values by the opposite of the offset applied earlier to the destination device neutral axis. This maps the destination neutral axis back to the value represented originally by the CAM. It does the same for the gamut boundary and all intermediate values.
 
-![](images/gmmp-image008.png)
+![Diagram that shows a graph for undoing the alignment of the destination device neutral axis.](images/gmmp-image008.png)
 
 **Figure 2** : Undoing the alignment of the destination device neutral axis
 
@@ -261,11 +261,13 @@ Minimum Color Difference(MinCD) Relative and Absolute versions - equivalent to t
 
  
 
-In-gamut colors are left unchanged. For out-of-gamut colors, lightness and chroma are adjusted by finding the point in the destination gamut that has the mimimum color distance from out-of-gamut input points. The color distance is computed in JCh space. However, you weight the distance in lightness (J) and the distance in chroma (C) or hue (h) differently. A chroma-dependent weight function is used for the distance in lightness so that the weight is smaller for small chroma and larger for large chroma until a threshold chroma is reached, after which the weight stays at 1, that is, the same weight as distance in chroma or hue. This follows recommended usage for CMC and CIEDE2000. There are two variants: Relative colorimetrc and absolute colorimetric.
+In-gamut colors are left unchanged. For out-of-gamut colors, lightness and chroma are adjusted by finding the point in the destination gamut that has the minimum color distance from out-of-gamut input points. The color distance is computed in JCh space. However, you weight the distance in lightness (J) and the distance in chroma (C) or hue (h) differently. A chroma-dependent weight function is used for the distance in lightness so that the weight is smaller for small chroma and larger for large chroma until a threshold chroma is reached, after which the weight stays at 1, that is, the same weight as distance in chroma or hue. This follows recommended usage for CMC and CIEDE2000. There are two variants: Relative colorimetric and absolute colorimetric.
 
-**Relative colorimetric:** First, align the source and destination neutral axes as described previously. Then clip the adjusted source color to the adjusted destination gamut boundary. (See [Figure 4. Chroma mapping along constant lightness](#figure-4).) Readjust the destination device values as described PREVIOUSLY. In the case of a monochrome destination gamut boundary, the chroma clipping means that the chroma value (C) is set to zero (0.0).
+**Relative colorimetric:** First, align the source and destination neutral axes as described previously. Then clip the adjusted source color to the adjusted destination gamut boundary. (See Figure 4. Chroma mapping along constant lightness.) Readjust the destination device values as described previously. In the case of a monochrome destination gamut boundary, the chroma clipping means that the chroma value (C) is set to zero (0.0).
 
-**Absolute colorimetric:  ** This is similar to relative colorimetric, but without the alignment of the source and destination neutral axis. The source value is clipped directly to the destination neutral axis. Note that if both the source and destination gamut boundaries are monochrome, the behavior is identical to the relative colorimetric variant; that is, the neutral axes alignment is performed, and then the chroma is clipped to zero. This ensures that a reasonable output is attained even if the media and colorants are significantly different.![](images/gmmp-image010.png)
+**Absolute colorimetric:** This is similar to relative colorimetric, but without the alignment of the source and destination neutral axis. The source value is clipped directly to the destination neutral axis. Note that if both the source and destination gamut boundaries are monochrome, the behavior is identical to the relative colorimetric variant; that is, the neutral axes alignment is performed, and then the chroma is clipped to zero. This ensures that a reasonable output is attained even if the media and colorants are significantly different.
+
+![Diagram that shows a graph for MinCD clipping to the adjusted gamut.](images/gmmp-image010.png)
 
 **Figure 3** : MinCD clipping to the adjusted gamut
 
@@ -283,11 +285,11 @@ It is helpful to review the algorithm in the case where both source and destinat
 
 First, perform initial lightness mapping using the following formula:
 
-![](images/gmmp-image012.png) (1)
+![Shows the formula for initial lightness mapping.](images/gmmp-image012.png) (1)
 
 where *Jₒ* is the original lightness and *J<sub>R</sub>* is the reproduction lightness.
 
-![](images/gmmp-image014.png) (2)
+![Shows the second lightness mapping formula.](images/gmmp-image014.png) (2)
 
 When the source gamut boundary is monochrome, the chroma value will be zero for the monochrome boundary due to neutral axis alignment. This will result in the degenerate case where C is equal to zero. In this case, *p<sub>C</sub>* is set to 1.
 
@@ -297,45 +299,86 @@ When the source gamut boundary is monochrome, the chroma value will be zero for 
 
 To calculate *J<sub>S</sub>* (Braun and Fairchild, 1999), a one-dimensional lookup table (LUT) between original and reproduction lightness values is first set up on the basis of a discrete cumulative normal function (S).
 
-![](images/gmmp-image016.png) (3)
+![Shows a formula to calculate J s.](images/gmmp-image016.png) (3)
 
 where x ₀ and S are the mean and standard deviation of the normal distribution respectively and *i* = 0,1,2... *m*,*m* is the number of points used in the LUT. *S<sub>i</sub>* is the value of the cumulative normal function for *i* /*m* percent. The parameters depend on the lightness of the black point of the reproduction gamut and can be interpolated from Table 1. For details of calculating these parameters see Braun and Fairchild (1999, p. 391).
 
+:::row:::
+    :::column:::
+        J <sub>minOut</sub>
+    :::column-end:::
+    :::column:::
+       5.0
+    :::column-end:::
+    :::column:::
+        10.0
+    :::column-end:::
+    :::column:::
+        15.0
+    :::column-end:::
+    :::column:::
+        20.0
+    :::column-end:::
+:::row-end:::
+:::row:::
+    :::column:::
+        x ₀
+    :::column-end:::
+    :::column:::
+       53.7
+    :::column-end:::
+    :::column:::
+        56.8
+    :::column-end:::
+    :::column:::
+        58.2
+    :::column-end:::
+    :::column:::
+        60.6
+    :::column-end:::
+:::row-end:::
+:::row:::
+    :::column:::
+        S
+    :::column-end:::
+    :::column:::
+       43.0
+    :::column-end:::
+    :::column:::
+        40.0
+    :::column-end:::
+    :::column:::
+        35.0
+    :::column-end:::
+    :::column:::
+        34.5
+    :::column-end:::
+:::row-end:::
 
-
-|                     |      |      |      |      |
-|---------------------|------|------|------|------|
-| J <sub>minOut</sub> | 5.0  | 10.0 | 15.0 | 20.0 |
-| x ₀                 | 53.7 | 56.8 | 58.2 | 60.6 |
-| S                   | 43.0 | 40.0 | 35.0 | 34.5 |
-
-
-
- 
 
 **Table 1** : BasicPhoto lightness compression parameter calculation
 
 To use S as a lightness mapping LUT (S <sub>LUT</sub> ) it must first be normalized into the lightness range of \[0,100\]. The normalized data is then scaled into the dynamic range of the destination device, as shown in Equation 4, where *J*<sub>min\ *Out*</sub> and *J*<sub>max\ *Out*</sub> are the values of lightness of the black point and the white point of the reproduction medium, respectively.
 
-![](images/gmmp-image018.png) (4)
+![Shows the formula for S as a lightness mapping LUT.](images/gmmp-image018.png) (4)
 
 At this point, the *J S* values can be obtained from the S <sub>LUT</sub> by interpolating between the *m* points of corresponding *J O'* and *J S* values it contains, and using the following equation as the input.
 
-![](images/gmmp-image020.png) (5)
+![Shows the formula to obtain the J S values.](images/gmmp-image020.png) (5)
 
 J <sub>minIn</sub> is the lightness value of the black point of the original medium, J <sub>maxIn</sub> is the lightness value of the white point of the original medium, and J <sub>O</sub> is the original lightness. For later reference, you can denote by *S* the sigmoidal function defined in the manner just outlined, as illustrated in the following Figure 4.
 
-![](images/gmmp-image024.png)
+![Diagram that shows the graph for chroma mapping along constant lightness.](images/gmmp-image024.png)
 
 **Figure 4** : Chroma mapping along constant lightness
 
 Second, if the destination gamut boundary is chromatic, compress chroma along lines of constant lightness (l) and perform the compression as follows.
 
-![](images/gmmp-image026.png) (6)
+![Shows the formula to perform the chroma compression.](images/gmmp-image026.png) (6)
 
 where *d* represents distance from *E* on *l*;*g* represents the medium gamut boundary; *r* represents the reproduction; and *o* the original Figure 5.
 
-![](images/gmmp-image028.png)
+![Diagram that shows the graph for chroma and lightness compression in BasicPhoto.](images/gmmp-image028.png)
 
 **Figure 5** : Chroma and lightness compression in BasicPhoto
 
@@ -349,7 +392,7 @@ The preceding algorithm can be modified to improve the black when the destinatio
 
 More specifically, the color with highest density, obtained by putting 100 percent inks (or maximum possible coverage, if GCR/ink limiting is in effect), is usually not "neutral" in the color appearance space. See Figure 6. In other words, if neutral minimum lightness is used for the destination device, the lightness scaler constructed will map to a minimum lightness that is not the highest density that can be achieved by the printer. Consider the further use case of monitor to printer. The monitor black, R=G=B=0, will then be printed as not the highest density. The impact on the image quality is that there is a lack of depth and contrast.
 
-![](images/gmmp-seqfigure01.png)
+![Diagram that shows how the device black point might be darker than the neutral minimum lightness.](images/gmmp-seqfigure01.png)
 
 **Figure 6** : The device black point may be darker than the neutral minimum lightness.
 
@@ -359,7 +402,7 @@ Suppose the destination "device black point" is Jₖaₖbₖ/JₖCₖh ₖ. If C
 
 and apply it to the source gamut shell, you obtain the configuration depicted in Figure 7. In the figure, the hue plane corresponds to h ₖ.
 
-![](images/gmmp-seqfigure02.png)
+![Diagram that shows the modified lightness scaler with destination device black point.](images/gmmp-seqfigure02.png)
 
 **Figure 7** : Geometry using the modified lightness scaler with destination device black point
 
@@ -367,17 +410,17 @@ To allow the subsequent chroma compression algorithm to proceed, you want to ali
 
 The transformation is
 
-![](images/gmmp-seqfigure03.png)
+![Shows the formula for the transformation.](images/gmmp-seqfigure03.png)
 
 Figure 8 shows the effect of the transformation.
 
-![](images/gmmp-seqfigure04.png)
+![Diagram that shows the effect of the modified lightness scaler with destination device black point.](images/gmmp-seqfigure04.png)
 
 **Figure 8** : Geometry using the modified lightness scaler with destination device black point
 
 After applying the usual chroma compression algorithm, the point must then be "shifted back;" that is, the inverse transformation must be applied to obtain the final mapped color.
 
-![](images/gmmp-seqfigure05.png)
+![Shows the formula for the inverse transformation to obtain the final mapped color.](images/gmmp-seqfigure05.png)
 
 ### The case of dual gamut shells
 
@@ -397,7 +440,7 @@ Case (d) is the case of single gamut shell that was discussed previously. For ca
 
 The existence of two shells for both source and destination GBD means that you must map a set of four points from the source GBD to a corresponding set in the destination GBD.
 
-![](images/gmmp-image030.png)
+![Shows how to map a set of four points to a corresponding set.](images/gmmp-image030.png)
 
 The subscripts have the following meanings.
 
@@ -411,11 +454,11 @@ The ordering in each quadruple is also the expected relative magnitude of these 
 
 The Lightness Rescaling map uses the same first two equations as the single shell, but *J S* is defined in a piecewise manner as follows.
 
-![](images/gmmp-image032.png) (7)
+![Shows the formula for J S in a piecewise manner.](images/gmmp-image032.png) (7)
 
 In other words, it is sigmoidal within the reference shell, and linear outside. See Figure 9.
 
-![](images/gmmp-image033.png)
+![Diagram that shows a graph for the Lightness Rescaling function for two-shell GBDs.](images/gmmp-image033.png)
 
 **Figure 9** : Lightness Rescaling function for two-shell GBDs
 
@@ -427,11 +470,11 @@ Case 1: Source GBD has two shells; destination GBD has one shell.
 
 Determine the destination induced Reference Shell on the neutral axis; that is, the J <sub>r,\ min,\ ref</sub> and J <sub>r,\ max,\ ref</sub> of the shell. This is done using the following algorithm.
 
-![](images/gmmp-induced01.png)
+![Shows the algorithm to determine the destination induced Reference Shell.](images/gmmp-induced01.png)
 
 The factors ? <sub>low</sub> and ? <sub>high</sub> control the separation between the Plausible Shell and the Reference Shell. A value of 1 means that the J <sub>min</sub> values or J ₘₐₓ values coincide. Their values are "induced" from the source Reference Shell and source Plausible Shell.
 
-![](images/gmmp-induced02.png)
+![Shows the formula for the values of the source Reference Shell and the source Plausible Shell.](images/gmmp-induced02.png)
 
 The "fudge factors" F <sub>low</sub> and F <sub>high</sub> are *tunable parameters* that must lie between 0 and 1. If the value is 0, then the J <sub>min</sub> or J ₘₐₓ are directly induced from the source shells. For this case, choose F <sub>low</sub> = 0.95, and F <sub>high</sub> = 0.1.
 
@@ -439,11 +482,11 @@ Case 2: Source GBD has one shell; destination GBD has two shells.
 
 Determine the source induced Reference Shell on the neutral axis; that is, the J <sub>o,\ min,\ ref</sub> and J <sub>o,\ max,\ ref</sub> of the shell. This is done using the following algorithm.
 
-![](images/gmmp-induced03.png)
+![Shows the algorithm to determine the destination induced Reference Shell on the neutral axis.](images/gmmp-induced03.png)
 
 Again, the factors ? <sub>low</sub> and ? <sub>high</sub> control the separation between the Plausible Shell and Reference Shell. A value of 1 means the J <sub>min</sub> values or J ₘₐₓ values coincide. Their values are "induced" from the source Reference Shell and source Plausible Shell:
 
-![](images/gmmp-induced04.png)
+![Shows the algorithm to control the separation between the Reference Shell and source Plausible Shell.](images/gmmp-induced04.png)
 
 ### Reasons for changes from the CIE TC8-03 recommendations
 
@@ -456,11 +499,11 @@ BasicPhoto differs from the CIE TC8-03 recommendations in the following ways.
 
 The first change was made to prevent tone inversion problems that can occur when using compression toward a cusp. As shown in Figure 10, cusp compression can cause tone inversions. This can happen when colors of high chroma are lighter than colors of lower chroma. Because SGCK compresses each pixel independently in both lightness and chroma, it is not guaranteed to preserve the lightness relationship between the pixel values after the compression. The well-known downside to this decision to compress on lines of constant lightness is that you can suffer losses of chroma, particular in areas where the destination gamut boundary is very flat, as happens with bright yellows.
 
-![](images/gmmp-toneinversion.png)
+![Diagram that shows the tone inversion caused by SGCK.](images/gmmp-toneinversion.png)
 
 **Figure 10** : Tone inversion caused by SGCK
 
-![](images/originalteapot.jpg)![](images/badteapot.jpg)![](images/betterteapot.jpg)
+![Shows an original image of a teapot.](images/originalteapot.jpg)![Shows the SGCK result of the teapot image.](images/badteapot.jpg)![Shows the BasicPhoto result of the teapot image.](images/betterteapot.jpg)
 
 **Figure 11** : Original image, SGCK result, and BasicPhoto result
 
@@ -468,7 +511,7 @@ Figure 11 illustrates this tone inversion. On the left is an original image capt
 
 The second change was made to improve the reproduction of nearly black colors on printers where the blackest black does not fall directly on the CIECAM02 neutral axis. The following Figure 12 shows an image converted to sRGB; reproduced for an RGB inkjet printer using SGCK; and reproduced for the same printer using BasicPhoto. The image in the center is not using the full device black, and so it lacks the contrast seen in the original. The contrast is restored with BasicPhoto.
 
-![](images/playstructure.jpg)![](images/playstructurebad.jpg)![](images/betterplaystructure.jpg)
+![Shows the original image of a playset.](images/playstructure.jpg)![Shows the image of the playset reproduced for an R G B inkjet printer using SGCK.](images/playstructurebad.jpg)![Shows the image of the playset reproduced for an R G B inkjet printer using BasicPhoto.](images/betterplaystructure.jpg)
 
 **Figure 12** : Enhanced black
 
@@ -486,7 +529,7 @@ This algorithm first adjusts the hue of the input color value. Then it simultane
 
 The first step is to determine the "Hue Wheels." Find the JCh values for primary and secondary colors for both source and destination device. You are only considering the hue components. This results in a primary or secondary hue wheel with six color points for each device. (See Figure 13.)
 
-![](images/gmmp-figure12.png)
+![Diagram that shows the hue wheels with six color points.](images/gmmp-figure12.png)
 
 **Figure 13** : Hue wheels
 
@@ -513,7 +556,7 @@ Next, calculate the hue reference points for the source hue and the destination 
 -   Find the J value of the hue reference point by interpolating between the J values for the adjacent primary or secondary points, using the relative position of the hue; for example, 40 percent in this example.
 -   Find the maximum C value at this J value and h value. You now have the JCh of the hue reference point for that hue.
 
-![](images/gmmp-figure13.png)
+![Diagram that shows a hue leaf.](images/gmmp-figure13.png)
 
 **Figure 14** : A hue leaf (visualization of a gamut boundary slice at a specific hue)
 
@@ -523,7 +566,7 @@ NOTE: For performance optimization reasons, hue leaves are not actually created;
 
 -   Perform a lightness rescaling to map the black and white points of the source leaf to the destination leaf (see Figure 15). The black and white points of the source hue leaf are mapped linearly to the black and white points of the destination hue leaf, by scaling all the J coordinates of the source boundary. The hue-mapped input color value is scaled in the same manner.
 
-![](images/gmmp-figure14.png)
+![Diagram that shows the lightness mapping.](images/gmmp-figure14.png)
 
 **Figure 15** : Lightness mapping
 
@@ -576,7 +619,7 @@ minJ is the minimum J-value of the gamut.
 
 The chroma for input color points is expanded linearly (when possible) along constant lightness proportional to the maximum chroma value of the source and destination gamuts at that hue and lightness. Combined with the preceding chroma-dependent lightness compression, this helps preserve the saturation because shear mapping using the reference points sometimes causes the source point to over-compress in chroma (see Figure 16).
 
-![](images/gmmp-shearmapping.png)
+![Diagram that shows shear mapping to match hue reference points, before the shear on the left, after shear on the right.](images/gmmp-shearmapping.png)
 
 **Figure 16** : Shear mapping, lightness compression toward hue reference J, and chroma expansion
 
@@ -598,7 +641,7 @@ The following is a mathematical description of the chroma expansion process, or 
 
 Finally, perform the mimimum distance clipping. If the hue-rotated, lightness-adjusted, and shear-mapped input color is still slightly outside the destination gamut, clip it (move it) to the closest point on the destination gamut boundary (see Figure 17).
 
-![](images/gmmp-figure15.png)
+![Diagram that shows the minimum distance clipping.](images/gmmp-figure15.png)
 
 **Figure 17** : Minimum distance clipping
 
@@ -645,7 +688,7 @@ The third problem involves tone mapping. Many models of gamut boundaries that ca
 
 How is this problem resolved in the photographic and videographic industries? The camera captures an image. Experts might debate how much rendering occurs in the capture device; but they agree that it is not a significant amount. Both technologies do not map a diffuse white in a captured scene to the medium's white point. Similarly, they do not map the black point from the scene to the medium's black point. The behavior of photographic film is described in density space using a characteristic curve, often called a Hurter and Driffield, or H&D curve. The curve shows the density of the original scene and the resulting density on the film. Figure 18 shows a typical H&D curve. The x-axis represents increasing log exposure. The y-axis represents the density on the slide. Five reference points are marked on the curve: black without detail, which represents the minimum density on the negative; black with detail; reference mid-gray card; white with detail; and white without detail. Note that there is space between black without detail (which represents device black) and black with detail (shadow black). Similarly, there is space between white with detail (diffuse white) and white without detail (which represents device white).
 
-![](images/gmmp-image079.png)
+![Diagram that shows the H and D curve for slide film.](images/gmmp-image079.png)
 
 **Figure 18** : H&D curve for slide film
 
@@ -655,13 +698,13 @@ The video industry presents an essentially closed loop system. While there are m
 
 A fourth problem that the new CTE must resolve is that the visually gray colors produced by a device, for example, when red=green=blue on a monitor, frequently do not fall upon the neutral axis of the CAM (when the chroma = 0.0). This causes great difficulties for GMAs. To make GMAs work well, you have to adjust the description of the device's gamut and of the input points so that the device's neutral axis falls on the appearance space's neutral axis. You have to adjust points off the neutral axis by a similar amount. Otherwise, you cannot make smooth gradations through the image. On the way out of the GMA, you undo this mapping, relative to the output device's neutral axis. This is referred to as a "chiropractic" straightening of the axis. Like a chiropractor, you not only straighten the skeleton (neutral axis), but you adjust the rest of the body to move along with the skeleton. Like a chiropractor, you do not adjust the skeleton by the same amount through the entire space. Instead, you adjust different sections differently.
 
-![](images/gmmp-image081.png)
+![Diagram that shows the curvature of the device neutral axis relative to the CIECAM neutral axis.](images/gmmp-image081.png)
 
 **Figure 19:** Curvature of the device neutral axis relative to the CIECAM neutral axis
 
 What the new CTE requires is a model of a gamut boundary that can be used to represent both rendered and unrendered source images, provide information about the appearance of device neutrals, and provide information for tone mapping images with a wide luminance range.
 
-![](images/gmmp-image083.png)
+![Diagram that shows the three gamut shells.](images/gmmp-image083.png)
 
 **Figure 20** : Three gamut shells
 
@@ -679,7 +722,7 @@ Because the CIECAM02 color model is based on the human visual system, after an a
 
 The following Figure 21 shows the device neutrals running through the center of the plausible and reference gamuts.
 
-![](images/gmmp-image085.png)
+![Diagram that shows the device neutral axis added to gamut boundary.](images/gmmp-image085.png)
 
 **Figure 21** : Device neutral axis added to gamut boundary
 
@@ -687,13 +730,13 @@ All gamut mappings involve either clipping an input range to an output gamut, or
 
 The new CTE extends this concept to support the regions of a possible gamut, a plausible gamut, and a reference gamut, and enables GMAs to map them in different ways. In addition, the GMAs have information about the device neutral axis. The following discussion addresses how to handle situations where the plausible gamuts and reference gamuts have collapsed on each other.
 
-![](images/gmmp-image091.png)
+![Diagram that shows the G M A with two un-collapsed gamut descriptors.](images/gmmp-image091.png)
 
-**Figure 22** : GMA with two uncollapsed gamut descriptors
+**Figure 22** : GMA with two un-collapsed gamut descriptors
 
 You might see this example if you map from an input device, such as a camera or scanner that is characterized with a reflective target, to scRGB space. Here the plausible colors that are lighter than reference white are specular highlights. In practice, characterizing a camera with a target might not generate the full range of values possible in the camera; however, specular highlights and very chromatic colors found in nature would. (Transmissive targets usually have a patch that is the minimum density possible on the medium. With such a target, specular highlights would fall within the target's range.) The reference black for a reflective target would be the beginning of the shadow black region. That is, there are likely to be colors in the shadows that are darker than the black on the target. If the image contains a lot of interesting content in that region, it may be worthwhile preserving that tonal variation.
 
-![](images/gmmp-image095.png)
+![Diagram that shows the G M A with a collapsed destination gamut.](images/gmmp-image095.png)
 
 **Figure 23** : GMA with collapsed destination gamut
 
@@ -719,11 +762,11 @@ Different GBDs have advantages and drawbacks. The convex hull representation gua
 
 After you adopt a GBD that gives a reasonably accurate representation of the actual gamut, other problems arise, some due to the very concept of hue slice. There are at least two pathological situations. In the following Figure 24, a CRT gamut gives rise to hue slices with "islands." In Figure 25, a printer gamut gives rise to a hue slice with part of the neutral axis missing. The pathological hue slices are not caused by particularly pathological gamut boundaries in these cases. They are caused by the very concept of hue slice, because (a) it is taken along constant hue, and (b) it only takes one-half of the plane that corresponds to the hue angle.
 
-![](images/gmmp-image097.jpg)
+![Diagram that shows a top view and side view of the 'curving in' in the blue hues.](images/gmmp-image097.jpg)
 
 **Figure 24** : A typical CRT monitor has a gamut that shows peculiar "curving in" in the blue hues. If hue slices are taken within this hue range, isolated islands may appear in the hue slices.
 
-![](images/gmmp-image099.jpg)
+![Diagram of a gamut with a 'gap' in its neutral axis.](images/gmmp-image099.jpg)
 
 **Figure 25** : A printer may have a gamut that has "gap" in its neutral axis. When a hue slice is taken (which is only one-half the plane), there is a "dent" on the part of the boundary that is the neutral axis. This can be hard to resolve algorithmically.
 
@@ -733,7 +776,7 @@ To resolve these pathologies, a new framework is proposed that abandons the conc
 
 The starting point is a GBD consisting of a triangulation of the gamut boundary. Known methods of constructing GBDs usually provide that triangulation. For concreteness, one method of constructing GBDs for additive devices its device space is described here. These devices include monitors (both CRT-based and LCD-based) and projectors. The simple geometry of the cube enables you to introduce a regular lattice on the cube. The boundary faces of the cube can be triangulated in a number of fashions, such as the one shown in Figure 26. The architecture provides either a device model for the device so that colorimetric values of the lattice points can be obtained algorithmically, or measurements have been made directly for those points. The architecture also provides CIECAM02, so that you can assume the starting data has already been mapped into CIECAM02 Jab space. Then each lattice point on the boundary faces of the RGB cube has a corresponding point in Jab space. The connections of points that form the set of triangles in RGB space also induces a set of triangles in Jab space. This set of triangles forms a reasonable triangulation of the gamut boundary if (a) the lattice on the RGB cube is fine enough, and (b) the transformation from device space to the uniform color space is topologically well-behaved; that is, it maps boundary to boundary, and it doesn't turn the gamut inside out so that interior points become boundary points.
 
-![](images/gmmp-image100.png)
+![Diagram that shows a simple method to triangluate the gamut boundary of a device with R G B as its device space.](images/gmmp-image100.png)
 
 **Figure 26** : A simple method to triangulate the gamut boundary of a device with RGB as its device space
 
@@ -749,7 +792,7 @@ The following example will explain how the framework works, and how CheckGamut i
 
 The general framework is illustrated in the following Figure 27. There are various components. The components labeled in italics are components that may be different in implementation depending on the gamut operation in question. The other components are invariant across all gamut operations. To begin, the ***Input*** is a set of color attributes. In the case of CheckGamut, it is the query color. In Figure 27 and the following discussion, it is assumed that the hue angle is either among the input color attributes, or can be obtained from them. This is clearly the case if the input is the whole color point, either in Jab or JCh, from which you can then compute the hue angle. Note that the hue angle is only needed because hue planes are being used. Depending on the gamut operation in question, it might not be necessary to use the hue plane. For example, in the construction of the routine CheckGamut, you might want to use planes of constant J. This is a generality that will not be used or discussed further; but it might be helpful to remember this flexibility of the methodology to support other gamut operations when hue plane might not be the best choice.
 
-![](images/gmmp-image112.jpg)
+![Diagram that shows the flow to support gamut operations.](images/gmmp-image112.jpg)
 
 **Figure 27** : The framework to support gamut operations
 
@@ -783,7 +826,7 @@ Again, the J-component of the vertex is never used, because the normal vector is
 
 Caching allows for a quick determination of whether an edge intersects the plane, after the dot products are tabulated in the lookup table, which is built progressively as the vertices are processed.
 
-![](images/gmmp-image114.jpg)
+![Diagram that shows the intersection of the hue plane with a triangle.](images/gmmp-image114.jpg)
 
 **Figure 28** : Intersecting the hue plane with a triangle
 
@@ -813,7 +856,7 @@ h = atan(b/a),
 
 Initialize the hue plane, and then determine the Boundary Line Elements corresponding to this hue plane. Because the Boundary Line Elements are only relevant if they intersect the upward ray, set up a Triangle Filter to remove triangles that give line elements that definitely will not intersect the upward ray. In this case, consider the bounding box of the triangle. The upward ray will not intersect the triangle if the query point is outside the "shadow" cast by the bounding box if a light source was directly above. Inflate this slightly with a pre-fixed tolerance to allow for numeric noise so that you don't inadvertently throw away triangles that might give useful line elements. The result is the semi-infinite rectangular cylinder shown in Figure 29. Checking whether the query point is inside or outside this cylinder can be efficiently implemented using simple inequalities.
 
-![](images/gmmp-image116.jpg)
+![Shows the triangle filter for CheckGamut.](images/gmmp-image116.jpg)
 
 **Figure 29** : Triangle Filter for CheckGamut
 
@@ -823,7 +866,7 @@ The *Output Adaptor* is a module that accesses the list of line elements, determ
 
 Figure 30 shows the resulting line elements of a sample gamut with the query point in various positions.
 
-![](images/gmmp-image118.jpg)
+![Diagram that shows the resulting line elements of a sample gamut with the query point in various positions.](images/gmmp-image118.jpg)
 
 **Figure 30** : How CheckGamut works
 
@@ -851,7 +894,7 @@ where k ₂ = 1, k ₁ = 0.75/(C ₘₐₓ ) ₙ, C ₘₐₓ = 100, n = 2 and C
 
 so that a weight of 0.25 is put on the J term when chroma is zero, and a weight of 1 when chroma is 100. The trend of putting less weight on J when chroma is small, and more weight on J when chroma is large follows the recommended usage for CMC and CIEDE2000.
 
-![](images/gmmp-image119.png)
+![Graph that shows the weight function on the J component of the metric.](images/gmmp-image119.png)
 
 **Figure 31** : The weight function on the J component of the metric
 
@@ -871,7 +914,7 @@ Careful examination reveals that there is a lot of repeated searching when you g
 
 **Strategy II**. At any point in the search, you have a best candidate with the corresponding best distance. If you can determine, by a quick check, that a triangle is not capable of giving a better distance, there is no need to continue the calculation further. You do not need the closest point and distance for this triangle.
 
-![](images/gmmp-image120.png)
+![Diagram that shows the flow of the Minimum DE Mapping.](images/gmmp-image120.png)
 
 **Figure 32** : Minimum DE Mapping schematics
 
@@ -881,7 +924,7 @@ Figure 32 shows the general flow of logic for the gamut map MinDEMap. For a quer
 
 **(b)** Vertex list and edge list, in addition to the triangle list.
 
-![](images/gmmp-image122.jpg)
+![Diagram that shows the 'ProjectPointToBoundary' routine.](images/gmmp-image122.jpg)
 
 **Figure 33** : The ProjectPointToBoundary routine
 
@@ -917,7 +960,7 @@ and the conditions for the projected point to lie inside the triangle are:
 
 After this calculation, if it is determined that the projected point lies within the triangle, then you have found a new closest point; the distance that you calculated at the beginning is the new shortest distance. In this case, update the variables ShortestDistance and ClosestPoint. If the projected point lies outside the triangle, you might find a closer point on one of its edges. So, you can call the ProcessEdge routine on each of the three edges.
 
-![](images/gmmp-image124.jpg)
+![Diagram that shows the flow of the ProcessEdge and ProcessVertex routines.](images/gmmp-image124.jpg)
 
 **Figure 34** : ProcessEdge and ProcessVertex routines
 
@@ -929,7 +972,7 @@ When the outer control loop has either exhausted all the triangles or exited bef
 
 ### Hue Smoothing
 
-![](images/gmmp-image125.png)
+![Diagram that shows two top views of hue smoothing, the original on top and the hue smoothed on the bottom.](images/gmmp-image125.png)
 
 **Figure 35** : Hue Smoothing
 
@@ -951,7 +994,7 @@ The HueMap and the Relative MinCD gamut mapping methods use the device neutral a
 
 <dl> <dt>
 
-[Basic Color Management Concepts](basic-color-management-concepts.md)
+[Basic color management concepts](basic-color-management-concepts.md)
 </dt> <dt>
 
 [Windows Color System Schemas and Algorithms](windows-color-system-schemas-and-algorithms.md)

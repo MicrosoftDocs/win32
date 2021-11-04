@@ -1,6 +1,6 @@
 ---
 title: glColor3b function (Gl.h)
-description: Sets the current color.
+description: Sets the current color. | glColor3b function (Gl.h)
 ms.assetid: 4b03dd50-30cd-46ff-b697-1ad9ba4392d3
 keywords:
 - glColor3b function OpenGL

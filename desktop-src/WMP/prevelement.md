@@ -1,6 +1,6 @@
 ---
 title: PREVELEMENT
-description: This is a predefined BUTTONELEMENT with the following default values.
+description: This is a predefined BUTTONELEMENT with the following default values. | PREVELEMENT
 ms.assetid: 94300195-5b95-41c9-b16f-f7f66f551242
 keywords:
 - PREVELEMENT Windows Media Player
@@ -34,7 +34,7 @@ All properties of this **BUTTONELEMENT** can be overridden by explicitly specify
 
 
 
-|                    |                                                      |
+| Requirement | Value |
 |--------------------|------------------------------------------------------|
 | Version<br/> | Windows Media Player version 7.0 or later<br/> |
 

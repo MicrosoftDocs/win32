@@ -22,7 +22,7 @@ The input pin supports one media type.
 
 
 
-|              |                                                            |
+| Label | Value |
 |--------------|------------------------------------------------------------|
 | Major Type   | MEDIATYPE\_Stream                                          |
 | Subtype      | MEDIASUBTYPE\_MPEG2\_TRANSPORT\_STRIDE                     |
@@ -37,7 +37,7 @@ The output pin supports two media types.
 
 
 
-|              |                                        |
+| Label | Value |
 |--------------|----------------------------------------|
 | Major Type   | MEDIATYPE\_Stream                      |
 | Subtype      | MEDIASUBTYPE\_MPEG2\_TRANSPORT\_STRIDE |
@@ -50,7 +50,7 @@ The output pin supports two media types.
 
 
 
-|              |                                        |
+| Label | Value |
 |--------------|----------------------------------------|
 | Major Type   | MEDIATYPE\_Stream                      |
 | Subtype      | MEDIASUBTYPE\_MPEG2\_TRANSPORT\_STRIDE |

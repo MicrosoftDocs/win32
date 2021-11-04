@@ -1,6 +1,6 @@
 ---
 title: StreamSelectOperation class
-description: Registers an event handler that is invoked when the asynchronous operation started by GetMuteAsync completes, and provides a method that returns the results of the operation.
+description: Registers an event handler that is invoked when the asynchronous operation started by GetMuteAsync completes, and provides a method that returns the results of the operation. | StreamSelectOperation class
 ms.assetid: 681142B4-AECD-42D0-A2D4-494E69A29025
 keywords:
 - StreamSelectOperation class Media Streaming API

@@ -1,5 +1,5 @@
 ---
-description: A callback function that must be implemented by a user to set an array of vertex shader floating-point constants.
+description: ID3DXEffectStateManager::SetVertexShaderConstantF method - A callback function that must be implemented by a user to set an array of vertex shader floating-point constants.
 ms.assetid: 3a13040d-5d5a-4454-bf11-cda9653585c0
 title: ID3DXEffectStateManager::SetVertexShaderConstantF method (D3DX9Effect.h)
 ms.topic: reference
@@ -77,7 +77,7 @@ The user-implemented method should return S\_OK. If the callback fails when sett
 
 
 
-|                    |                                                                                          |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Effect.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>     |

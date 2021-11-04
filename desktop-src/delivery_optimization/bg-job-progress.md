@@ -42,7 +42,7 @@ typedef struct _BG_JOB_PROGRESS {
 **BytesTotal**
 </dt> <dd>
 
-Total number of bytes to transfer for all files in the job. If the value is BG_SIZE_UNKNOWN, the total size of all files in the job has not been determined. DO does not set this value if it cannot determine the size of one of the files. For example, if the specified file or server does not exist, DO cannot determine the size of the file.
+Total number of bytes to transfer for all files in the job. If the value is BG_SIZE_UNKNOWN, the total size of all files in the job has not been determined. Delivery Optimization does not set this value if it cannot determine the size of one of the files. For example, if the specified file or server does not exist, Delivery Optimization cannot determine the size of the file.
 
 If you are downloading ranges from the file, **BytesTotal** includes the total number of bytes you want to download from the file.
 

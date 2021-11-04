@@ -1,5 +1,5 @@
 ---
-description: For an explanation of the following tables, see Tables and Assignments.
+description: This article contains frequency tables for international analog TV tuning for New Zealand. Frequency indexes are not suitable for channel numbers.
 ms.assetid: a314d0b1-9e4f-42dd-914a-65a8f3610300
 title: New Zealand
 ms.topic: article

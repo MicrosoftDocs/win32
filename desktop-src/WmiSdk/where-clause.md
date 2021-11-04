@@ -23,9 +23,9 @@ where \* is the item queried about, class is the class in which to query, and co
 
 The value of the constant must be of the correct type for the property. Moreover, the operator must be among the list of valid [WQL operators](wql-operators.md). Either a property name or a constant must appear on either side of the operator in the WHERE clause.
 
-You may use string literals, such as "NTFS", in a WHERE clause. If you wish to include the following special characters in your string, you must first escape the character by prefixing the character with a backslash (\):
+You may use string literals, such as "NTFS", in a WHERE clause. If you wish to include the following special characters in your string, you must first escape the character by prefixing the character with a backslash (\\):
 
--   backslash (\\\)
+-   backslash (\\\\)
 -   double quotes (\\")
 -   single quotes (\\')
 

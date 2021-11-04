@@ -50,7 +50,7 @@ Contains the details about an individual page in a Journal note.
 
 
 
-|              |                                                                     |
+|  Element     | Value                                                     |
 |--------------|---------------------------------------------------------------------|
 | Element type | [**JournalPageType**](journalpagetype-complex-type.md) complexType |
 | Namespace    | urn:schemas-microsoft-com:tabletpc:richink                          |

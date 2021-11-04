@@ -1,5 +1,5 @@
 ---
-description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: Review the PrintTicket validation checklist. This topic isn't current. For the most current information, see the Print Schema Specification.
 ms.assetid: 4698f151-2237-4d16-b32f-4d15024cd063
 title: PrintTicket Validation Checklist
 ms.topic: article
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # PrintTicket Validation Checklist
 
-This topic is not current. For the most current information, see the [Print Schema Specification](https://www.microsoft.com/whdc/xps/printschema.mspx).
+This topic is not current. For the most current information, see the [Print Schema Specification](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip).
 
 PrintTicket providers must validate the PrintTicket prior to using it for any purpose. After the PrintTicket is validated, it may be returned to the client, or it may be discarded after use. This checklist covers the tasks the provider must perform during validation. The validation process will frequently alter the content of the PrintTicket, although it will not alter a previously-validated PrintTicket.
 
@@ -64,7 +64,7 @@ Validation is always performed against a specific device that has a set of Featu
 
 <dl> <dt>
 
-[Print Schema Specification](https://www.microsoft.com/whdc/xps/printschema.mspx)
+[Print Schema Specification](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip)
 </dt> </dl>
 
  

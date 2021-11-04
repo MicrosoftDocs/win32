@@ -58,7 +58,7 @@ The aligned versions of the [SSE](/previous-versions/visualstudio/visual-studio-
 
 For this reason, DirectXMath operations using [**XMVECTOR**](xmvector-data-type.md) and [**XMMATRIX**](/windows/win32/api/directxmath/ns-directxmath-xmmatrix) objects assume those objects are 16-byte aligned. This is automatic for stack based allocations, if code is compiled against the DirectXMath Library using the recommended Windows (see [Use Correct Compilation Settings](#use-correct-compilation-settings)) compiler settings. However, it is important to ensure that heap-allocation containing **XMVECTOR** and **XMMATRIX** objects, or casts to these types, meet these alignment requirements.
 
-While 64-bit Windows memory allocations are 16-byte aligned, by default on 32 bit versions of Windows memory allocated is only 8-byte aligned. For information on controlling memory alignment, see [\_aligned\_malloc](https://msdn.microsoft.com/library/8z34s9c6(VS.80).aspx).
+While 64-bit Windows memory allocations are 16-byte aligned, by default on 32 bit versions of Windows memory allocated is only 8-byte aligned. For information on controlling memory alignment, see [\_aligned\_malloc](/cpp/c-runtime-library/reference/aligned-malloc).
 
 When using aligned DirectXMath types with the Standard Template Library (STL), you will need to provide a custom allocator that ensures the 16-byte alignment. See the Visual C++ Team [blog](https://devblogs.microsoft.com/cppblog/the-mallocator/) for an example of writing a custom allocator (instead of malloc/free you'll want to use \_aligned\_malloc and \_aligned\_free in your implementation).
 
@@ -136,7 +136,3 @@ A common use for DirectXMath is to perform graphics computations for use with Di
 
 [DirectXMath Programming Guide](ovw-xnamath-progguide.md)
 </dt> </dl>
-
- 
-
- 

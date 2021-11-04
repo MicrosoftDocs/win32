@@ -1,5 +1,5 @@
 ---
-description: Not supported.
+description: IAMTimeline::IsDirty method - Not supported.
 ms.assetid: ed6fd633-23b8-4b80-901c-d7b50fa4c15e
 title: IAMTimeline::IsDirty method (Qedit.h)
 ms.topic: reference
@@ -67,7 +67,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

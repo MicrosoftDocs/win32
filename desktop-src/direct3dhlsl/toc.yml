@@ -101,6 +101,8 @@
             href: dx-graphics-hlsl-struct.md
           - name: "User-Defined Type"
             href: dx-graphics-hlsl-user-defined.md
+          - name: "State Object Types"
+            href: dx-graphics-hlsl-state-object.md
       - name: "Flow Control"
         href: dx-graphics-hlsl-flow-control.md
         items: 

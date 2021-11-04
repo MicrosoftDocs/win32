@@ -24,7 +24,7 @@ Porting 32-bit applications to 64-bit Microsoft Windows will be easier than it w
     Although it is possible to port pieces of an application or to limit code to 2G with /LARGEADDRESSAWARE:NO, this strategy trades short-term gain for long-term pain.
 
     > [!Note]  
-    > /LARDGEADDRESSWARE:NO is ignored for an ARM64 binary.
+    > /LARGEADDRESSAWARE:NO is ignored for an ARM64 binary.
 
      
 

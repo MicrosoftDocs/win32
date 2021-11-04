@@ -1,5 +1,5 @@
 ---
-description: Initializes a string table.
+description: pSetupStringTableInitialize function - Initializes a string table.
 ms.assetid: 1a626243-b4ad-4e3d-a933-b81b75cae399
 title: pSetupStringTableInitialize function
 ms.topic: reference
@@ -42,7 +42,7 @@ This function has no associated import library or header file; you must call it 
 
 
 
-|                |                                                                                         |
+| Requirement | Value |
 |----------------|-----------------------------------------------------------------------------------------|
 | DLL<br/> | <dl> <dt>Setupapi.dll</dt> </dl> |
 

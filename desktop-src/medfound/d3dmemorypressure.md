@@ -1,7 +1,7 @@
 ---
-description: Contains data for memory pressure reporting.
+description: This structure contains data for memory pressure reporting.
 ms.assetid: 42cf0922-53cc-48b9-8359-b88583ef5f1c
-title: D3DMEMORYPRESSURE structure (D3d9types.h)
+title: D3DMEMORYPRESSURE structure (D3d9types.h) for Microsoft Media Foundation
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
@@ -15,7 +15,7 @@ api_location:
 - d3d9types.h
 ---
 
-# D3DMEMORYPRESSURE structure (D3d9types.h)
+# D3DMEMORYPRESSURE structure (D3d9types.h) for Microsoft Media Foundation
 
 Contains data for memory pressure reporting.
 
@@ -63,9 +63,9 @@ The overall efficiency of the memory allocations that were placed in nonoptimal 
 
 | Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                                 |
-| Header<br/>                   | <dl> <dt>D3d9types.h (include D3d9.h)</dt> </dl> |
+| Minimum supported client | Windows 7 \[desktop apps only\]                                                              |
+| Minimum supported server | Windows Server 2008 R2 \[desktop apps only\]                                                 |
+| Header                  | D3d9types.h (include D3d9.h) |
 
 
 

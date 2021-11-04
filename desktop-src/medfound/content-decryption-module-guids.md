@@ -18,7 +18,7 @@ Service GUID used to obtain interfaces from an [IMFContentDecryptionModule](/win
 
 
 
-|                   |                                                                                    |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>mfcontentdecryptionmodule.h</dt> </dl> |
 

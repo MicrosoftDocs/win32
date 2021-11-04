@@ -12,7 +12,7 @@ The TV Tuner filter selects an analog broadcast or cable channel to be viewed. T
 
 
 
-|                                          |                                                                                                                                                                                   |
+| Label | Value |
 |------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Filter Interfaces                        | [**IBaseFilter**](/windows/desktop/api/Strmif/nn-strmif-ibasefilter), [**IAMTVTuner**](/windows/desktop/api/Strmif/nn-strmif-iamtvtuner), **ISpecifyPropertyPages**, **IPersistPropertyBag**, **IKsObject**, [**IKsPropertySet**](ikspropertyset.md) |
 | Input Pin Media Types                    | Not applicable.                                                                                                                                                                   |

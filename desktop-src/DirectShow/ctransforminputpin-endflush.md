@@ -1,5 +1,5 @@
 ---
-description: The EndFlush method ends a flush operation. This method implements the IPin::EndFlush method.
+description: CTransformInputPin.EndFlush method - The EndFlush method ends a flush operation. This method implements the IPin::EndFlush method.
 ms.assetid: ebc70df3-e99d-4292-990b-99b79ff06461
 title: CTransformInputPin.EndFlush method (Transfrm.h)
 ms.topic: reference
@@ -58,7 +58,7 @@ This method calls the filter's [**CTransformFilter::EndFlush**](ctransformfilter
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Transfrm.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

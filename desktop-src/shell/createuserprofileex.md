@@ -115,7 +115,7 @@ This function is not declared in the software development kit (SDK) headers and 
 
 
 
-|                                   |                                                                                        |
+| Requirement | Value |
 |-----------------------------------|----------------------------------------------------------------------------------------|
 | End of client support<br/>  | Windows XP<br/>                                                                  |
 | DLL<br/>                    | <dl> <dt>Userenv.dll</dt> </dl> |

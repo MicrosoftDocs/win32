@@ -90,9 +90,9 @@ Defines a channel to which providers can log events.
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -129,7 +129,7 @@ Defines a channel to which providers can log events.
 The default isolation is <strong>Application</strong>. The default permissions for <strong>Application</strong> are (shown using SDDL): <br/> <span data-codelanguage="Text"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -156,7 +156,7 @@ The default isolation is <strong>Application</strong>. The default permissions f
 <span data-codelanguage="Text"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">

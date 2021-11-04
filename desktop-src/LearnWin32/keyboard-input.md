@@ -70,7 +70,7 @@ Key strokes are converted into characters by the [**TranslateMessage**](/windows
 
 As you might guess, [**WM\_CHAR**](/windows/desktop/inputdev/wm-char) messages are generated from [**WM\_KEYDOWN**](/windows/desktop/inputdev/wm-keydown) messages, while [**WM\_SYSCHAR**](/windows/desktop/menurc/wm-syschar) messages are generated from [**WM\_SYSKEYDOWN**](/windows/desktop/inputdev/wm-syskeydown) messages. For example, suppose the user presses the SHIFT key followed by the A key. Assuming a standard keyboard layout, you would get the following sequence of messages:
 
-WM\_KEYDOWN**: SHIFT  
+**WM\_KEYDOWN**: SHIFT  
 **WM\_KEYDOWN**: A  
 **WM\_CHAR**: 'A'  
 

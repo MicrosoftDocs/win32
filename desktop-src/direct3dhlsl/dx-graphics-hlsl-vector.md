@@ -1,5 +1,5 @@
 ---
-title: Vector Type (Frquery.h)
+title: Vector Type (HLSL)
 description: A vector contains between one and four scalar components; every component of a vector must be of the same type.
 ms.assetid: 16e66f3c-c513-4d03-8adf-463dc8d83e12
 keywords:
@@ -8,10 +8,8 @@ topic_type:
 - apiref
 api_name:
 - Vector Type
-api_location:
-- frquery.h
 api_type:
-- HeaderDef
+- NA
 ms.topic: reference
 ms.date: 05/31/2018
 ---
@@ -79,18 +77,6 @@ Here are some examples:
 vector <int,    1> iVector = 1;
 vector <double, 4> dVector = { 0.2, 0.3, 0.4, 0.5 };
 ```
-
-
-
-## Requirements
-
-
-
-|                   |                                                                                      |
-|-------------------|--------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Frquery.h</dt> </dl> |
-
-
 
 ## See also
 

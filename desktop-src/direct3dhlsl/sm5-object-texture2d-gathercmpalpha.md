@@ -1,6 +1,6 @@
 ---
 title: Texture2D::GatherCmpAlpha(S,float,float,int) function
-description: Samples a texture, tests the samples against a compare value, and returns the alpha component.
+description: For four texel values that would be used in a bi-linear filtering operation, returns a comparison of their alpha component against a compare value. | Texture2D::GatherCmpAlpha(S,float,float,int) function
 ms.assetid: 6fa60604-1eac-405d-bffa-3055569b7a09
 keywords:
 - GatherCmpAlpha function HLSL
@@ -17,7 +17,7 @@ api_location:
 
 # Texture2D::GatherCmpAlpha(S,float,float,int) function
 
-Samples a texture, tests the samples against a compare value, and returns the alpha component.
+For four texel values that would be used in a bi-linear filtering operation, returns a comparison of their alpha component against a compare value.
 
 ## Syntax
 

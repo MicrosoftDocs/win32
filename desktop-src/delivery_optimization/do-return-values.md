@@ -1,14 +1,14 @@
 ---
-title: DO Return Values
-description: The below constants represent return values that Delivery Optimization (DO) generates and HTTP return values that DO captures.
+title: Delivery Optimization Return Values
+description: The below constants represent return values that Delivery Optimization generates and HTTP return values that Delivery Optimization captures.
 ms.assetid: 68AC4581-C748-49AB-A588-15816E534756
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# DO Return Values
+# Delivery Optimization Return Values
 
-The below constants represent return values that Delivery Optimization (DO) generates and HTTP return values that DO captures. All other return values that you can receive are COM, RPC, or converted Windows return values (DO uses the [HRESULT_FROM_WIN32](/windows/win32/api/winerror/nf-winerror-hresult_from_win32) macro to convert the Windows return values to HRESULT values).
+The below constants represent return values that Delivery Optimization generates and HTTP return values that Delivery Optimization captures. All other return values that you can receive are COM, RPC, or converted Windows return values (Delivery Optimization uses the [HRESULT_FROM_WIN32](/windows/win32/api/winerror/nf-winerror-hresult_from_win32) macro to convert the Windows return values to HRESULT values).
 
 <dl> <dt>
 
@@ -92,42 +92,42 @@ Download job not allowed due to user/admin settings.
 <span id="DO_E_BLOCKED_BY_COST_TRANSFER_POLICY__0x80d03801_"></span><span id="do_e_blocked_by_cost_transfer_policy__0x80d03801_"></span><span id="DO_E_BLOCKED_BY_COST_TRANSFER_POLICY__0X80D03801_"></span>DO_E_BLOCKED_BY_COST_TRANSFER_POLICY (0x80d03801)
 </dt> <dd>
 
-DO paused the job due to cost policy restrictions.
+Delivery Optimization paused the job due to cost policy restrictions.
 
 </dd> <dt>
 
 <span id="DO_E_BLOCKED_BY_CELLULAR_POLICY__0x80d03803_"></span><span id="do_e_blocked_by_cellular_policy__0x80d03803_"></span><span id="DO_E_BLOCKED_BY_CELLULAR_POLICY__0X80D03803_"></span>DO_E_BLOCKED_BY_CELLULAR_POLICY (0x80d03803)
 </dt> <dd>
 
-DO paused the job due to detection of cellular network and policy restrictions.
+Delivery Optimization paused the job due to detection of cellular network and policy restrictions.
 
 </dd> <dt>
 
 <span id="DO_E_BLOCKED_BY_POWER_STATE__0x80d03804_"></span><span id="do_e_blocked_by_power_state__0x80d03804_"></span><span id="DO_E_BLOCKED_BY_POWER_STATE__0X80D03804_"></span>DO_E_BLOCKED_BY_POWER_STATE (0x80d03804)
 </dt> <dd>
 
-DO paused the job due to detection of power state change into non-AC mode.
+Delivery Optimization paused the job due to detection of power state change into non-AC mode.
 
 </dd> <dt>
 
 <span id="DO_E_BLOCKED_BY_NO_NETWORK__0x80d03805_"></span><span id="do_e_blocked_by_no_network__0x80d03805_"></span><span id="DO_E_BLOCKED_BY_NO_NETWORK__0X80D03805_"></span>DO_E_BLOCKED_BY_NO_NETWORK (0x80d03805)
 </dt> <dd>
 
-DO paused the job due to loss of network connectivity.
+Delivery Optimization paused the job due to loss of network connectivity.
 
 </dd> <dt>
 
 <span id="DO_E_BLOCKED_BY_VPN_POLICY__0x80d03807_"></span><span id="do_e_blocked_by_vpn_policy__0x80d03807_"></span><span id="DO_E_BLOCKED_BY_VPN_POLICY__0X80D03807_"></span>DO_E_BLOCKED_BY_VPN_POLICY (0x80d03807)
 </dt> <dd>
 
-DO paused the completed job due to detection of VPN network.
+Delivery Optimization paused the completed job due to detection of VPN network.
 
 </dd> <dt>
 
 <span id="DO_E_BLOCKED_BY_CRITICAL_MEMORY_USAGE__0x80d03808_"></span><span id="do_e_blocked_by_critical_memory_usage__0x80d03808_"></span><span id="DO_E_BLOCKED_BY_CRITICAL_MEMORY_USAGE__0X80D03808_"></span>DO_E_BLOCKED_BY_CRITICAL_MEMORY_USAGE (0x80d03808)
 </dt> <dd>
 
-DO paused the completed job due to detection of critical memory usage on the system.
+Delivery Optimization paused the completed job due to detection of critical memory usage on the system.
 
 </dd> <dt>
 
@@ -148,7 +148,7 @@ The specified byte range is invalid.
 <span id="DO_E_INSUFFICIENT_RANGE_SUPPORT__0x80d05011_"></span><span id="do_e_insufficient_range_support__0x80d05011_"></span><span id="DO_E_INSUFFICIENT_RANGE_SUPPORT__0X80D05011_"></span>DO_E_INSUFFICIENT_RANGE_SUPPORT (0x80d05011)
 </dt> <dd>
 
-The server does not support the necessary HTTP protocol. Delivery Optimization (DO) requires that the server support the Range protocol header.
+The server does not support the necessary HTTP protocol. Delivery Optimization requires that the server support the Range protocol header.
 
 </dd> <dt>
 

@@ -1,6 +1,6 @@
 ---
 title: HttpCalculatorWithSslPolicyServiceExample
-description: This example shows how to use service host for hosting a calculator service over HTTP, with SSL transport security and HTTP header basic authentication.
+description: Review a Windows Web Services API (WWSAPI) C++ example of an HTTP calculator with SSL policy service.
 ms.assetid: 5b3fc119-10c2-444b-91d3-415ad36a65ab
 keywords:
 - HttpCalculatorWithSslPolicyServiceExample Native-Web-Services

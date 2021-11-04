@@ -1,5 +1,5 @@
 ---
-Description: This topic describes how to use the Source Reader to process media data.
+description: This topic describes how to use the Source Reader to process media data.
 ms.assetid: 583f5736-f767-47c5-8fdc-b3645aed59f6
 title: Using the Source Reader to Process Media Data
 ms.topic: article
@@ -133,27 +133,20 @@ To enumerate the media types for every stream, increment the stream index. When 
 
 
 ```C++
-HRESULT EnumerateTypesForStream(IMFSourceReader *pReader, DWORD dwStreamIndex)
+HRESULT EnumerateMediaTypes(IMFSourceReader *pReader)
 {
     HRESULT hr = S_OK;
-    DWORD dwMediaTypeIndex = 0;
+    DWORD dwStreamIndex = 0;
 
     while (SUCCEEDED(hr))
     {
-        IMFMediaType *pType = NULL;
-        hr = pReader->GetNativeMediaType(dwStreamIndex, dwMediaTypeIndex, &pType);
-        if (hr == MF_E_NO_MORE_TYPES)
+        hr = EnumerateTypesForStream(pReader, dwStreamIndex);
+        if (hr == MF_E_INVALIDSTREAMNUMBER)
         {
             hr = S_OK;
             break;
         }
-        else if (SUCCEEDED(hr))
-        {
-            // Examine the media type. (Not shown.)
-
-            pType->Release();
-        }
-        ++dwMediaTypeIndex;
+        ++dwStreamIndex;
     }
     return hr;
 }

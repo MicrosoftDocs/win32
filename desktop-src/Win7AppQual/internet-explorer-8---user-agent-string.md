@@ -1,5 +1,5 @@
 ---
-description: .
+description: Internet Explorer 8 - User Agent String
 ms.assetid: 1cb0456d-501a-4272-b89d-35e79d29d13a
 title: Internet Explorer 8 - User Agent String
 ms.topic: article
@@ -10,8 +10,8 @@ ms.date: 05/31/2018
 
 ## Affected Platforms
 
- **Clients** - Windows XP \| Windows Vista \| Windows 7  
-**Servers** - Windows Server 2003 \| Windows Server 2008 \| Windows Server 2008 R2  
+ **Clients** - Windows XP, Windows Vista, Windows 7  
+**Servers** - Windows Server 2003, Windows Server 2008, Windows Server 2008 R2  
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: IMsRdpClientAdvancedSettings SmoothScroll property
-description: This property is not supported.
+description: This property is not supported. | IMsRdpClientAdvancedSettings SmoothScroll property
 ms.assetid: 7f1ce439-0b6e-4426-8dd6-3748509130e1
 ms.tgt_platform: multiple
 keywords:

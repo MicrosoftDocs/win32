@@ -31,61 +31,19 @@ The following table lists parameters for the configuration tool.
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Parameter</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>-?</td>
-<td>Displays syntax data.</td>
-</tr>
-<tr class="even">
-<td>-i</td>
-<td>Specifies that the certificate is to be imported from a Personal Information Exchange (PFX) file. This parameter must be followed by the name of the file. When this parameter is specified, &quot;-a&quot; and &quot;-c&quot; must also be specified.</td>
-</tr>
-<tr class="odd">
-<td>-g</td>
-<td>Specifies that access is granted to a private key. When this parameter is specified, &quot;-a&quot;, &quot;-c&quot;, and &quot;-s&quot; must also be specified.</td>
-</tr>
-<tr class="even">
-<td>-r</td>
-<td>Specifies that access is removed for a private key. When this parameter is specified, &quot;-a&quot;, &quot;-c&quot;, and &quot;-s&quot; must also be specified.</td>
-</tr>
-<tr class="odd">
-<td>-l</td>
-<td>Specifies that accounts with access to a private key are listed. When this parameter is specified, &quot;-c&quot; and &quot;-s&quot; must also be specified.</td>
-</tr>
-<tr class="even">
-<td>-a</td>
-<td>Specifies the user account on the machine being configured. This could be a local machine or domain account, such as &quot;IWAM_TESTMACHINE&quot;, &quot;TESTUSER&quot;, or &quot;TESTDOMAIN\DOMAINUSER&quot;.</td>
-</tr>
-<tr class="odd">
-<td>-c</td>
-<td>Specifies the location and name of the <a href="glossary.md"><em>certificate store</em></a>. Use &quot;LOCAL_MACHINE&quot; or &quot;CURRENT_USER&quot; to designate which registry branch to use for the location. The <em>certificate store</em> can be any installed on the machine. Typical name examples are &quot;MY&quot;, &quot;Root&quot;, and &quot;TrustedPeople&quot;. The location and name of the <em>certificate store</em> are separated with a backward slash, for example, &quot;LOCAL_MACHINE\Root&quot;.
-<blockquote>
-[!Note]<br />
-Although the &quot;CURRENT_USER&quot; branch of the registry can be specified with this parameter, extending access to private keys is primarily intended for certificates installed in a local computer <a href="glossary.md"><em>certificate store</em></a> that can be accessed by multiple users.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td>-s</td>
-<td>Specifies a case-insensitive search string for finding the first enumerated certificate with a subject name that contains this substring.</td>
-</tr>
-<tr class="odd">
-<td>-p</td>
-<td>Specifies a password that is used to import the certificate and the private key. This is only used with the import option.</td>
-</tr>
-</tbody>
-</table>
+
+| Parameter | Description | 
+|-----------|-------------|
+| -? | Displays syntax data. | 
+| -i | Specifies that the certificate is to be imported from a Personal Information Exchange (PFX) file. This parameter must be followed by the name of the file. When this parameter is specified, "-a" and "-c" must also be specified. | 
+| -g | Specifies that access is granted to a private key. When this parameter is specified, "-a", "-c", and "-s" must also be specified. | 
+| -r | Specifies that access is removed for a private key. When this parameter is specified, "-a", "-c", and "-s" must also be specified. | 
+| -l | Specifies that accounts with access to a private key are listed. When this parameter is specified, "-c" and "-s" must also be specified. | 
+| -a | Specifies the user account on the machine being configured. This could be a local machine or domain account, such as "IWAM_TESTMACHINE", "TESTUSER", or "TESTDOMAIN\DOMAINUSER". | 
+| -c | Specifies the location and name of the <a href="glossary.md"><em>certificate store</em></a>. Use "LOCAL_MACHINE" or "CURRENT_USER" to designate which registry branch to use for the location. The <em>certificate store</em> can be any installed on the machine. Typical name examples are "MY", "Root", and "TrustedPeople". The location and name of the <em>certificate store</em> are separated with a backward slash, for example, "LOCAL_MACHINE\Root".<blockquote>[!Note]<br />Although the "CURRENT_USER" branch of the registry can be specified with this parameter, extending access to private keys is primarily intended for certificates installed in a local computer <a href="glossary.md"><em>certificate store</em></a> that can be accessed by multiple users.</blockquote><br /> | 
+| -s | Specifies a case-insensitive search string for finding the first enumerated certificate with a subject name that contains this substring. | 
+| -p | Specifies a password that is used to import the certificate and the private key. This is only used with the import option. | 
+
 
 
 

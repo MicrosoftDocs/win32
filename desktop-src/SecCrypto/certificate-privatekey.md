@@ -46,7 +46,7 @@ This property raises CAPICOM\_E\_NOT\_ALLOWED when it is set from a web-based ap
 
 
 
-|                                  |                                                                                        |
+| Requirement | Value |
 |----------------------------------|----------------------------------------------------------------------------------------|
 | End of client support<br/> | Windows Vista<br/>                                                               |
 | End of server support<br/> | Windows Server 2008<br/>                                                         |

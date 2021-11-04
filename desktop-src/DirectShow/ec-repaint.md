@@ -48,7 +48,7 @@ Video renderers send this message when they receive a [**WM\_PAINT**](/windows/d
 
 
 
-|                   |                                                                                    |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Dshow.h</dt> </dl> |
 

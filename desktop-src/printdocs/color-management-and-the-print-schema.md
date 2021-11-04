@@ -1,5 +1,5 @@
 ---
-description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: Learn about user configurable keywords in the Print Schema for color management, such as PageColorManagement and PageBlackGenerationProcessing.
 ms.assetid: 296255b8-fe5c-46dd-b717-487aaae0db80
 title: Color Management and the Print Schema
 ms.topic: article
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Color Management and the Print Schema
 
-This topic is not current. For the most current information, see the [Print Schema Specification](https://www.microsoft.com/whdc/xps/printschema.mspx).
+This topic is not current. For the most current information, see the [Print Schema Specification](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip).
 
 User Configurable Element keywords may either be XPS specific or non-XPS specific. In the case where they are not XPS specific, the keyword may be used for Legacy GDI-based printing. If an application decides to set these keywords in a PrintTicket, it is up to the driver to determine the proper action and behavior to take based on the definitions presented in the Print Schema. Any of these keywords may be used in the context of ICM. For more information, please see the Windows Vista SDK.
 
@@ -87,7 +87,7 @@ The following diagram illustrates flow for the most likely scenarios for using C
 
 <dl> <dt>
 
-[Print Schema Specification](https://www.microsoft.com/whdc/xps/printschema.mspx)
+[Print Schema Specification](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip)
 </dt> </dl>
 
  

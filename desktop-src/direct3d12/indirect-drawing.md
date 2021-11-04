@@ -121,14 +121,18 @@ The code to create the command signature description is:
 D3D12_INDIRECT_ARGUMENT_DESC Args[4];
 Args[0].Type = D3D12_INDIRECT_ARGUMENT_TYPE_CONSTANT;
 Args[0].Constant.RootParameterIndex = 2;
+Args[0].Constant.DestOffsetIn32BitValues = 0;
+Args[0].Constant.Num32BitValuesToSet = 1;
 
 Args[1].Type = D3D12_INDIRECT_ARGUMENT_TYPE_CONSTANT;
 Args[1].Constant.RootParameterIndex = 6;
+Args[1].Constant.DestOffsetIn32BitValues = 0;
+Args[1].Constant.Num32BitValuesToSet = 1;
 
 Args[2].Type = D3D12_INDIRECT_ARGUMENT_TYPE_VERTEX_BUFFER_VIEW;
-Args[2].VertexBuffer.VBSlot = 3;
+Args[2].VertexBuffer.Slot = 3;
 
-Args[3].Type = D3D12_INDIRECT_ARGUMENT_TYPE_DRAW_INSTANCED;
+Args[3].Type = D3D12_INDIRECT_ARGUMENT_TYPE_DRAW;
 
 D3D12_COMMAND_SIGNATURE_DESC ProgramDesc;
 ProgramDesc.ByteStride = 40;
@@ -140,17 +144,17 @@ The layout of a single structure within the indirect argument buffer is the foll
 
 
 
-| Bytes | Description                     |
-|-------|---------------------------------|
-| 0:3   | Data for root parameter index 2 |
-| 4:7   | Data for root parameter index 6 |
-| 8:15  | Virtual address of VB (64-bit)  |
-| 16:19 | VB size                         |
-| 20:23 | VB stride                       |
-| 24:27 | VertexCountPerInstance          |
-| 28:31 | InstanceCount                   |
-| 32:35 | StartVertexLocation             |
-| 36:39 | StartInstanceLocation           |
+| Bytes | Description                               |
+|-------|-------------------------------------------|
+| 0:3   | Data for root parameter index 2           |
+| 4:7   | Data for root parameter index 6           |
+| 8:15  | Virtual address of VB at slot 3 (64-bit)  |
+| 16:19 | VB size                                   |
+| 20:23 | VB stride                                 |
+| 24:27 | VertexCountPerInstance                    |
+| 28:31 | InstanceCount                             |
+| 32:35 | StartVertexLocation                       |
+| 36:39 | StartInstanceLocation                     |
 
 
 

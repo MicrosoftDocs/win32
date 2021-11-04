@@ -35,7 +35,7 @@ The device interface can be described by a **GUID** value. Windows Portable Devi
 
 
 
-|                   |                                                                                             |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>PortableDevice.h</dt> </dl> |
 

@@ -1,6 +1,6 @@
 ---
 title: IDeliveryOptimizationJob2 AddFile method
-description: The AddFile method adds a single file to an existing DO job.
+description: The AddFile method adds a single file to an existing Delivery Optimization job.
 keywords:
 - AddFile method
 - AddFile method, IDeliveryOptimizationJob2 interface
@@ -20,7 +20,7 @@ ROBOTS: INDEX,FOLLOW
 
 # IDeliveryOptimizationJob2::AddFileWithRanges method
 
-The AddFile method adds a single file to an existing DO job.
+The AddFile method adds a single file to an existing Delivery Optimization job.
 
 ## Syntax
 
@@ -49,7 +49,7 @@ The file ID string, which uniquely identifies the file to be downloaded.
 *remoteUrl* \[in\]
 </dt> <dd>
 
-The file URL that DO will attempt to connect to download the file.
+The file URL that Delivery Optimization will attempt to connect to download the file.
 
 </dd> <dt>
 

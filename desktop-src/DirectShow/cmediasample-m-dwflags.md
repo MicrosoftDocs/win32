@@ -1,5 +1,5 @@
 ---
-Description: Sample property flags. Bitwise combination of flags from the AM\_SAMPLE\_PROPERTY\_FLAGS enumerated type.
+description: Sample property flags. Bitwise combination of flags from the AM\_SAMPLE\_PROPERTY\_FLAGS enumerated type.
 ms.assetid: ad609ecf-38e2-4181-99a6-eb0dc70d69b4
 title: CMediaSample::m_dwFlags member (Amfilter.h)
 ms.topic: reference
@@ -35,7 +35,7 @@ DWORD m_dwFlags;
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Amfilter.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

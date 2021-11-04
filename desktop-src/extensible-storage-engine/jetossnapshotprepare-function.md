@@ -49,73 +49,28 @@ The identifier of the snapshot session to be started.
 
 The options for this call. This parameter can have a combination of the following values.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Value</p></th>
-<th><p>Meaning</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>0</p></td>
-<td><p>Normal snapshot.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_bitIncrementalSnapshot</p></td>
-<td><p>Only log files will be taken.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_bitCopySnapshot</p></td>
-<td><p>A copy snapshot (normal or incremental) with no log truncation.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_bitContinueAfterThaw</p></td>
-<td><p>The snapshot session occurs after <a href="gg269229(v=exchg.10).md">JetOSSnapshotThaw</a> and will require a <a href="gg294136(v=exchg.10).md">JetOSSnapshotEnd</a> function call.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_bitExplicitPrepare</p></td>
-<td><p>No instances will be prepared by default.</p>
-<p><strong>Windows 7:</strong>  JET_bitExplicitPrepare is introduced in Windows 7.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Value</p> | <p>Meaning</p> | 
+|--------------|----------------|
+| <p>0</p> | <p>Normal snapshot.</p> | 
+| <p>JET_bitIncrementalSnapshot</p> | <p>Only log files will be taken.</p> | 
+| <p>JET_bitCopySnapshot</p> | <p>A copy snapshot (normal or incremental) with no log truncation.</p> | 
+| <p>JET_bitContinueAfterThaw</p> | <p>The snapshot session occurs after <a href="gg269229(v=exchg.10).md">JetOSSnapshotThaw</a> and will require a <a href="gg294136(v=exchg.10).md">JetOSSnapshotEnd</a> function call.</p> | 
+| <p>JET_bitExplicitPrepare</p> | <p>No instances will be prepared by default.</p><p><strong>Windows 7:</strong>  JET_bitExplicitPrepare is introduced in Windows 7.</p> | 
+
 
 
 ### Return Value
 
 This function returns the [JET_ERR](./jet-err.md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](./extensible-storage-engine-errors.md) and [Error Handling Parameters](./error-handling-parameters.md).
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Return code</p></th>
-<th><p>Description</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_errSuccess</p></td>
-<td><p>The operation completed successfully.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errInvalidParameter</p></td>
-<td><p>The snapshot ID pointer is NULL or the <em>grbit</em> parameter is invalid.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errOSSnapshotInvalidSequence</p></td>
-<td><p>A snapshot session is already in progress and the operation is not allowed to have more then one snapshot session at any given time.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Return code</p> | <p>Description</p> | 
+|--------------------|--------------------|
+| <p>JET_errSuccess</p> | <p>The operation completed successfully.</p> | 
+| <p>JET_errInvalidParameter</p> | <p>The snapshot ID pointer is NULL or the <em>grbit</em> parameter is invalid.</p> | 
+| <p>JET_errOSSnapshotInvalidSequence</p> | <p>A snapshot session is already in progress and the operation is not allowed to have more then one snapshot session at any given time.</p> | 
+
 
 
 If this function succeeds, a snapshot session will be able to start at any time with the IO freeze phase. The identifier for the session will be returned and must be used in the subsequent calls for the snapshot session.
@@ -136,34 +91,15 @@ Event log entries will be generated for the different steps of the snapshot.
 
 #### Requirements
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Client</strong></p></td>
-<td><p>Requires Windows Vista or Windows XP.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Server</strong></p></td>
-<td><p>Requires Windows Server 2008 or Windows Server 2003.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>Header</strong></p></td>
-<td><p>Declared in Esent.h.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Library</strong></p></td>
-<td><p>Use ESENT.lib.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>DLL</strong></p></td>
-<td><p>Requires ESENT.dll.</p></td>
-</tr>
-</tbody>
-</table>
+
+| Requirement | Value |
+|------------|----------|
+| <p><strong>Client</strong></p> | <p>Requires Windows Vista or Windows XP.</p> | 
+| <p><strong>Server</strong></p> | <p>Requires Windows Server 2008 or Windows Server 2003.</p> | 
+| <p><strong>Header</strong></p> | <p>Declared in Esent.h.</p> | 
+| <p><strong>Library</strong></p> | <p>Use ESENT.lib.</p> | 
+| <p><strong>DLL</strong></p> | <p>Requires ESENT.dll.</p> | 
+
 
 
 #### See Also

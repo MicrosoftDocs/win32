@@ -1,6 +1,6 @@
 ---
 title: Enumerating Windows Media Device Manager devices
-description: Enumerating Devices
+description: Learn about enumerating the devices detected by Windows Media Device Manager by using an enumeration interface.
 ms.assetid: c5935681-b530-4446-a026-7ddc74084d23
 keywords:
 - Windows Media Device Manager,enumerating devices

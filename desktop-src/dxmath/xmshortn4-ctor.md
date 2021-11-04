@@ -28,65 +28,15 @@ Constructs instances of the [**XMSHORTN4**](/windows/desktop/api/DirectXPackedVe
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;">Constructor</th>
-<th style="text-align: left;">Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;"><a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmshortn4-xmshortn4(constfloat)"><strong>XMSHORTN4 ()</strong></a></td>
-<td style="text-align: left;">Default constructor for <code>XMSHORTN4</code>. <br/> Default constructor for <a href="/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmshortn4"><strong>XMSHORTN4</strong></a>. <br/>
-<blockquote>
-[!Note]<br />
-This constructor is only available under C++.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmshortn4-xmshortn4(constfloat)"><strong>XMSHORTN4 (const float*)</strong></a></td>
-<td style="text-align: left;">Initializes a new instance of <code>XMSHORTN4</code> from a four element <code>float</code> array argument. <br/> This constructor initializes a new instance of <a href="/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmshortn4"><strong>XMSHORTN4</strong></a> from a from a four element <code>float</code> array argument. <br/>
-<blockquote>
-[!Note]<br />
-This constructor is only available under C++.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmshortn4-xmshortn4(constint16_t)"><strong>XMSHORTN4 (const int16_t*)</strong></a></td>
-<td style="text-align: left;">Initializes a new instance of <code>XMSHORTN4</code> from a four element <code>int16_t</code> array argument. <br/> This constructor initializes a new instance of <a href="/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmshortn4"><strong>XMSHORTN4</strong></a> from a from a four element <code>int16_t</code> array argument. <br/>
-<blockquote>
-[!Note]<br />
-This constructor is only available under C++.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmshortn4-xmshortn4(float_float_float_float)"><strong>XMSHORTN4 (float,float,float,float)</strong></a></td>
-<td style="text-align: left;">Initializes a new instance of <code>XMSHORTN4</code> from four normalized <code>float</code> arguments. <br/> This constructor initializes a new instance of <a href="/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmshortn4"><strong>XMSHORTN4</strong></a> from a four normalized <code>float</code> arguments. <br/>
-<blockquote>
-[!Note]<br />
-This constructor is only available under C++.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmshortn4-xmshortn4(int16_t_int16_t_int16_t_int16_t)"><strong>XMSHORTN4 (int16_t,int16_t,int16_t,int16_t)</strong></a></td>
-<td style="text-align: left;">Initializes a new instance of <code>XMSHORTN4</code> from four <code>int16_t</code> arguments. <br/> This constructor initializes a new instance of <a href="/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmshortn4"><strong>XMSHORTN4</strong></a> from four <code>int16_t</code> arguments. <br/>
-<blockquote>
-[!Note]<br />
-This constructor is only available under C++.
-</blockquote>
-<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Constructor | Description | 
+|-------------|-------------|
+| <a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmshortn4-xmshortn4(constfloat)"><strong>XMSHORTN4 ()</strong></a> | Default constructor for <code>XMSHORTN4</code>. <br /> Default constructor for <a href="/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmshortn4"><strong>XMSHORTN4</strong></a>. <br /><blockquote>[!Note]<br />This constructor is only available under C++.</blockquote><br /> | 
+| <a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmshortn4-xmshortn4(constfloat)"><strong>XMSHORTN4 (const float*)</strong></a> | Initializes a new instance of <code>XMSHORTN4</code> from a four element <code>float</code> array argument. <br /> This constructor initializes a new instance of <a href="/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmshortn4"><strong>XMSHORTN4</strong></a> from a from a four element <code>float</code> array argument. <br /><blockquote>[!Note]<br />This constructor is only available under C++.</blockquote><br /> | 
+| <a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmshortn4-xmshortn4(constint16_t)"><strong>XMSHORTN4 (const int16_t*)</strong></a> | Initializes a new instance of <code>XMSHORTN4</code> from a four element <code>int16_t</code> array argument. <br /> This constructor initializes a new instance of <a href="/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmshortn4"><strong>XMSHORTN4</strong></a> from a from a four element <code>int16_t</code> array argument. <br /><blockquote>[!Note]<br />This constructor is only available under C++.</blockquote><br /> | 
+| <a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmshortn4-xmshortn4(float_float_float_float)"><strong>XMSHORTN4 (float,float,float,float)</strong></a> | Initializes a new instance of <code>XMSHORTN4</code> from four normalized <code>float</code> arguments. <br /> This constructor initializes a new instance of <a href="/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmshortn4"><strong>XMSHORTN4</strong></a> from a four normalized <code>float</code> arguments. <br /><blockquote>[!Note]<br />This constructor is only available under C++.</blockquote><br /> | 
+| <a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmshortn4-xmshortn4(int16_t_int16_t_int16_t_int16_t)"><strong>XMSHORTN4 (int16_t,int16_t,int16_t,int16_t)</strong></a> | Initializes a new instance of <code>XMSHORTN4</code> from four <code>int16_t</code> arguments. <br /> This constructor initializes a new instance of <a href="/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmshortn4"><strong>XMSHORTN4</strong></a> from four <code>int16_t</code> arguments. <br /><blockquote>[!Note]<br />This constructor is only available under C++.</blockquote><br /> | 
+
 
 
 

@@ -66,41 +66,14 @@ The following table lists the queue moniker parameters that affect the destinati
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Parameter</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><em>ComputerName</em><br/></td>
-<td>Specifies the computer name portion of a Message Queuing queue path name. The Message Queuing queue path name is formatted as <em>ComputerName</em>\<em>QueueName</em>. If not specified, the computer name associated with the configured application is used.<br/></td>
-</tr>
-<tr class="even">
-<td><em>QueueName</em><br/></td>
-<td>Specifies the Message Queuing queue name. The Message Queuing queue path name is formatted as <em>ComputerName</em>\<em>QueueName</em>. If not specified, the queue name associated with the configured application is used.<br/> To get a non-transactional queue, you can specify the queue name first and then create a COM+ application of the same name.<br/></td>
-</tr>
-<tr class="odd">
-<td><em>PathName</em><br/></td>
-<td>Specifies the complete Message Queuing queue path name. If not specified, the Message Queuing queue path name associated with the configured application is used. To override the destination name, the path can be specified in the following form for a Message Queuing workgroup installation:<br/> Queue:<em>PathName</em>=<em>ComputerName</em>\PRIVATE$\AppName/new:Myproject.CMyClass<br/>
-<blockquote>
-[!Note]<br />
-Both the C and Microsoft Visual C++ programming languages require two backslashes to represent one backslash within string literals for example, chicago\\payroll.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td><em>FormatName</em><br/></td>
-<td>When you mark a COM+ application as queued, COM+ creates a Message Queuing queue whose name is the same as the application. The Message Queuing format name of that queue is in the COM+ catalog, associated with the COM+ application. To override the destination name, the format name can be specified in the following form for a Message Queuing workgroup installation:<br/> Queue:<em>FormatName</em>=DIRECT=OS:<em>ComputerName</em>\PRIVATE$\AppName/new:ProgId<br/> In an Active Directory configuration, &quot;PRIVATE$&quot; is not specified as part of the queue name. <br/></td>
-</tr>
-</tbody>
-</table>
+
+| Parameter | Description | 
+|-----------|-------------|
+| <em>ComputerName</em><br /> | Specifies the computer name portion of a Message Queuing queue path name. The Message Queuing queue path name is formatted as <em>ComputerName</em>\<em>QueueName</em>. If not specified, the computer name associated with the configured application is used.<br /> | 
+| <em>QueueName</em><br /> | Specifies the Message Queuing queue name. The Message Queuing queue path name is formatted as <em>ComputerName</em>\<em>QueueName</em>. If not specified, the queue name associated with the configured application is used.<br /> To get a non-transactional queue, you can specify the queue name first and then create a COM+ application of the same name.<br /> | 
+| <em>PathName</em><br /> | Specifies the complete Message Queuing queue path name. If not specified, the Message Queuing queue path name associated with the configured application is used. To override the destination name, the path can be specified in the following form for a Message Queuing workgroup installation:<br /> Queue:<em>PathName</em>=<em>ComputerName</em>\PRIVATE$\AppName/new:Myproject.CMyClass<br /><blockquote>[!Note]<br />Both the C and Microsoft Visual C++ programming languages require two backslashes to represent one backslash within string literals for example, chicago\\payroll.</blockquote><br /> | 
+| <em>FormatName</em><br /> | When you mark a COM+ application as queued, COM+ creates a Message Queuing queue whose name is the same as the application. The Message Queuing format name of that queue is in the COM+ catalog, associated with the COM+ application. To override the destination name, the format name can be specified in the following form for a Message Queuing workgroup installation:<br /> Queue:<em>FormatName</em>=DIRECT=OS:<em>ComputerName</em>\PRIVATE$\AppName/new:ProgId<br /> In an Active Directory configuration, "PRIVATE$" is not specified as part of the queue name. <br /> | 
+
 
 
 
@@ -117,115 +90,22 @@ The COM+ Queued Components listener receives only from queues associated with th
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Parameter</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><em>AppSpecific</em><br/></td>
-<td>Specifies an unsigned integer for example, AppSpecific=12345.<br/></td>
-</tr>
-<tr class="even">
-<td><em>AuthLevel</em><br/></td>
-<td>Specifies the message authentication level. An authenticated message is digitally signed and requires a certificate for the user sending the message. Acceptable values:<br/>
-<ul>
-<li>MQMSG_AUTH_LEVEL_NONE,0</li>
-<li>MQMSG_AUTH_LEVEL_ALWAYS,1</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td><em>Delivery</em><br/></td>
-<td>Specifies the message delivery option. This value is ignored for transactional queues. Acceptable values:<br/>
-<ul>
-<li>MQMSG_DELIVERY_EXPRESS,0</li>
-<li>MQMSG_DELIVERY_RECOVERABLE,1</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td><em>EncryptAlgorithm</em><br/></td>
-<td>Specifies the encryption algorithm to be used by Message Queuing to encrypt and decrypt the message. Acceptable values:<br/>
-<ul>
-<li>CALG_RC2, CALG_RC4</li>
-<li>Any integer value that is acceptable to Message Queuing for an <em>EncryptAlgorithm</em>.</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td><em>HashAlgorithm</em><br/></td>
-<td>Specifies a cryptographic hash function. Acceptable values:<br/>
-<ul>
-<li>CALG_MD2, CALG_MD4, CALG_MD5, CALG_SHA, CALG_SHA1, CALG_MAC, CALG_SSL3_SHAMD5, CALG_HMAC, CALG_TLS1PRF</li>
-<li>Any integer value that is acceptable to Message Queuing for a <em>HashAlgorithm</em>.</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>Journal<br/></td>
-<td>Specifies the Message Queuing message journal option. Acceptable values:<br/>
-<ul>
-<li>MQMSG_JOURNAL_NONE,0</li>
-<li>MQMSG_DEADLETTER,1</li>
-<li>MQMSG_JOURNAL,2</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td><em>Label</em><br/></td>
-<td>Specifies a message label string up to MQ_MAX_MSG_LABEL_LEN characters. <br/></td>
-</tr>
-<tr class="even">
-<td><em>MaxTimeToReachQueue</em><br/></td>
-<td>Specifies a maximum time, in seconds, for the message to reach the queue. <br/> Acceptable values:<br/>
-<ul>
-<li>INFINITE</li>
-<li>LONG_LIVED</li>
-<li>Number of seconds</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td><em>MaxTimeToReceive</em><br/></td>
-<td>Specifies a maximum time, in seconds, for the message to be received by the target application. Acceptable values:<br/>
-<ul>
-<li>INFINITE</li>
-<li>LONG_LIVED</li>
-<li>Number of seconds</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td><em>Priority</em><br/></td>
-<td>Specifies a message priority level, within the Message Queuing values permitted.<br/> Acceptable values:<br/>
-<ul>
-<li>MQ_MIN_PRIORITY,0</li>
-<li>MQ_MAX_PRIORITY,7</li>
-<li>MQ_DEFAULT_PRIORITY,3</li>
-<li>Number between 0 and 7</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td><em>PrivLevel</em><br/></td>
-<td>Specifies a privacy level, used to encrypt messages.<br/> Acceptable values:<br/>
-<ul>
-<li>MQMSG_PRIV_LEVEL_NONE, NONE, 0</li>
-<li>MQMSG_PRIV_LEVEL_BODY, BODY,</li>
-<li>MQMSG_PRIV_LEVEL_BODY_BASE, BODY_BASE, 1</li>
-<li>MQMSG_PRIV_LEVEL_BODY_ENHANCED, BODY_ENHANCED, 3</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td><em>Trace</em><br/></td>
-<td>Specifies trace options, used in tracing Message Queuing routing.<br/> Acceptable values:<br/>
-<ul>
-<li>MQMSG_TRACE_NONE,0</li>
-<li>MQMSG_SEND_ROUTE_TO_REPORT_QUEUE,1</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| Parameter | Description | 
+|-----------|-------------|
+| <em>AppSpecific</em><br /> | Specifies an unsigned integer for example, AppSpecific=12345.<br /> | 
+| <em>AuthLevel</em><br /> | Specifies the message authentication level. An authenticated message is digitally signed and requires a certificate for the user sending the message. Acceptable values:<br /><ul><li>MQMSG_AUTH_LEVEL_NONE,0</li><li>MQMSG_AUTH_LEVEL_ALWAYS,1</li></ul> | 
+| <em>Delivery</em><br /> | Specifies the message delivery option. This value is ignored for transactional queues. Acceptable values:<br /><ul><li>MQMSG_DELIVERY_EXPRESS,0</li><li>MQMSG_DELIVERY_RECOVERABLE,1</li></ul> | 
+| <em>EncryptAlgorithm</em><br /> | Specifies the encryption algorithm to be used by Message Queuing to encrypt and decrypt the message. Acceptable values:<br /><ul><li>CALG_RC2, CALG_RC4</li><li>Any integer value that is acceptable to Message Queuing for an <em>EncryptAlgorithm</em>.</li></ul> | 
+| <em>HashAlgorithm</em><br /> | Specifies a cryptographic hash function. Acceptable values:<br /><ul><li>CALG_MD2, CALG_MD4, CALG_MD5, CALG_SHA, CALG_SHA1, CALG_MAC, CALG_SSL3_SHAMD5, CALG_HMAC, CALG_TLS1PRF</li><li>Any integer value that is acceptable to Message Queuing for a <em>HashAlgorithm</em>.</li></ul> | 
+| Journal<br /> | Specifies the Message Queuing message journal option. Acceptable values:<br /><ul><li>MQMSG_JOURNAL_NONE,0</li><li>MQMSG_DEADLETTER,1</li><li>MQMSG_JOURNAL,2</li></ul> | 
+| <em>Label</em><br /> | Specifies a message label string up to MQ_MAX_MSG_LABEL_LEN characters. <br /> | 
+| <em>MaxTimeToReachQueue</em><br /> | Specifies a maximum time, in seconds, for the message to reach the queue. <br /> Acceptable values:<br /><ul><li>INFINITE</li><li>LONG_LIVED</li><li>Number of seconds</li></ul> | 
+| <em>MaxTimeToReceive</em><br /> | Specifies a maximum time, in seconds, for the message to be received by the target application. Acceptable values:<br /><ul><li>INFINITE</li><li>LONG_LIVED</li><li>Number of seconds</li></ul> | 
+| <em>Priority</em><br /> | Specifies a message priority level, within the Message Queuing values permitted.<br /> Acceptable values:<br /><ul><li>MQ_MIN_PRIORITY,0</li><li>MQ_MAX_PRIORITY,7</li><li>MQ_DEFAULT_PRIORITY,3</li><li>Number between 0 and 7</li></ul> | 
+| <em>PrivLevel</em><br /> | Specifies a privacy level, used to encrypt messages.<br /> Acceptable values:<br /><ul><li>MQMSG_PRIV_LEVEL_NONE, NONE, 0</li><li>MQMSG_PRIV_LEVEL_BODY, BODY,</li><li>MQMSG_PRIV_LEVEL_BODY_BASE, BODY_BASE, 1</li><li>MQMSG_PRIV_LEVEL_BODY_ENHANCED, BODY_ENHANCED, 3</li></ul> | 
+| <em>Trace</em><br /> | Specifies trace options, used in tracing Message Queuing routing.<br /> Acceptable values:<br /><ul><li>MQMSG_TRACE_NONE,0</li><li>MQMSG_SEND_ROUTE_TO_REPORT_QUEUE,1</li></ul> | 
+
 
 
 

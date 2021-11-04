@@ -1,6 +1,6 @@
 ---
 title: Settings.isAvailable
-description: The isAvailable property indicates whether a specified type of information is available or a specified action can be performed.
+description: The isAvailable property indicates whether a specified type of information is available or a specified action can be performed. | Settings.isAvailable
 ms.assetid: 89403125-545c-482b-a27e-6fee06abe247
 keywords:
 - Settings.isAvailable Windows Media Player
@@ -59,7 +59,7 @@ This method returns a **Boolean** value.
 
 
 
-|                    |                                                                                    |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------|
 | Version<br/> | Windows Media Player version 7.0 or later.<br/>                              |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |

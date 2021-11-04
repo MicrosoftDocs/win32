@@ -1,5 +1,5 @@
 ---
-description: Sets a non-transposed matrix.
+description: ID3DXBaseEffect::SetMatrix method - Sets a non-transposed matrix.
 ms.assetid: 90329460-756e-4b3e-9ff3-be9dc556eb9f
 title: ID3DXBaseEffect::SetMatrix method (D3DX9Shader.h)
 ms.topic: reference
@@ -70,7 +70,7 @@ If the destination matrix is smaller than the source matrix, the additional comp
 
 
 
-|                    |                                                                                          |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Shader.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>     |

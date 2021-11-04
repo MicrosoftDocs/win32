@@ -1,5 +1,5 @@
 ---
-description: .
+description: Rendering and Layout Changes
 ms.assetid: 58C76F70-DE7F-4AD8-8C8D-0333F781F764
 title: Rendering and Layout Changes
 ms.topic: article

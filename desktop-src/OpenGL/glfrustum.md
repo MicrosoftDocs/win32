@@ -103,7 +103,7 @@ The following error codes can be retrieved by the [**glGetError**](glgeterror.md
 
 The **glFrustum** function describes a perspective matrix that produces a perspective projection. The (*left*, *bottom*, *zNear*) and (*right*, *top*, *zNear*) parameters specify the points on the near clipping plane that are mapped to the lower-left and upper-right corners of the window, respectively, assuming that the eye is located at (0,0,0). The *zFar* parameter specifies the location of the far clipping plane. Both *zNear* and *zFar* must be positive. The corresponding matrix is shown in the following image.
 
-![](images/frust01.png)![](images/frust02.png)
+![Diagram showing the perspective matrix that produces a perspective projection.](images/frust01.png)![Equations showing the glFrustum function that describes a perspective matrix.](images/frust02.png)
 
 The **glFrustum** function multiplies the current matrix by this matrix, with the result replacing the current matrix. That is, if M is the current matrix and F is the frustum perspective matrix, then **glFrustum** replaces M with M   F.
 
@@ -111,7 +111,7 @@ Use [**glPushMatrix**](glpushmatrix.md) and [**glPopMatrix**](glpopmatrix.md) to
 
 Depth-buffer precision is affected by the values specified for *zNear* and *zFar*. The greater the ratio of *zFar* to *zNear* is, the less effective the depth buffer will be at distinguishing between surfaces that are near each other. If
 
-![](images/frust03.png)
+![Equation showing the ratio of far to near.](images/frust03.png)
 
 roughly *log*2 (*r*) bits of depth buffer precision are lost. Because *r* approaches infinity as *zNear* approaches zero, you should never set *zNear* to zero.
 

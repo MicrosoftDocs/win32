@@ -1,5 +1,5 @@
 ---
-description: Requests a state change.
+description: RequestStateChange method of the Msvm_DiskDrive class - Requests a state change.
 ms.assetid: 9dfa96b1-19d4-42ea-b927-80b0d63a9be1
 title: RequestStateChange method of the Msvm_DiskDrive class
 ms.topic: reference

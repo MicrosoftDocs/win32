@@ -1,5 +1,5 @@
 ---
-description: The FindPin method retrieves the pin with the specified identifier. This method implements the IBaseFilter::FindPin method.
+description: CSource.FindPin method - The FindPin method retrieves the pin with the specified identifier. This method implements the IBaseFilter::FindPin method.
 ms.assetid: ad593dbf-ca56-4409-ac6e-1b88908c8cee
 title: CSource.FindPin method (Source.h)
 ms.topic: reference
@@ -76,7 +76,7 @@ The first pin is always named "1"; the second pin is named "2"; and so forth. Fo
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Source.h (include Streams.h)</dt> </dl>                                                                                    |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

@@ -1,5 +1,5 @@
 ---
-description: Calculates the natural logarithm.
+description: D3DXQuaternionLn function (D3DX10Math.h) - Calculates the natural logarithm.
 ms.assetid: 576cf676-bb42-45ec-8e45-4612a7cdb167
 title: D3DXQuaternionLn function (D3DX10Math.h)
 ms.topic: reference
@@ -81,7 +81,7 @@ Use [**D3DXQuaternionNormalize**](d3d10-d3dxquaternionnormalize.md) for any quat
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10Math.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl>   |

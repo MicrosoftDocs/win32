@@ -106,7 +106,7 @@ The following scenarios describe how the IE4/MSHTML HTML editor handles HTML cut
 1.  Simple Fragment of HTML.
     -   -   HTML text:
 
-            <BODY>This is normal <B>This is bold </B><I><B>This is bold italic </B>This is italic </I></BODY>
+            &lt;BODY&gt;This is normal <B>This is bold </B><I><B>This is bold italic </B>This is italic </I>&lt;/BODY&gt;
 
         -   Appears as:
 
@@ -134,7 +134,7 @@ The following scenarios describe how the IE4/MSHTML HTML editor handles HTML cut
 
             <!DOCTYPE ...>
 
-            <BODY>
+            &lt;BODY&gt;
 
             <!-- StartFragment -->>
 
@@ -142,16 +142,16 @@ The following scenarios describe how the IE4/MSHTML HTML editor handles HTML cut
 
             <!-- EndFragment -->
 
-            </BODY>
+            &lt;/BODY&gt;
 
-            </HTML>
+            &lt;/HTML&gt;
 
         -   In this scenario only the BODY tag and the HTML tag appear in the context as it precedes the selected fragment. Note that start tags and end tags are included in the context. The selection, as delimited by StartSelection and EndSelection, is shown in bold.
 
 2.  Fragment of a table in HTML.
     -   -   HTML text:
 
-            <BODY><TABLE BORDER><TR><TH ROWSPAN=2>Head1</TH><TD>Item 1</TD><TD>Item 2</TD><TD>Item 3</TD><TD>Item 4</TD></TR><TR><TD>Item 5</TD><TD>Item 6</TD><TD>Item 7</TD><TD>Item 8</TD></TR><TR><TH>Head2</TH><TD>Item 9</TD><TD>Item 10</TD><TD>Item 11</TD><TD>Item 12</TD></TR></TABLE></BODY>
+            &lt;BODY&gt;<TABLE BORDER><TR><TH ROWSPAN=2>Head1</TH><TD>Item 1</TD><TD>Item 2</TD><TD>Item 3</TD><TD>Item 4</TD></TR><TR><TD>Item 5</TD><TD>Item 6</TD><TD>Item 7</TD><TD>Item 8</TD></TR><TR><TH>Head2</TH><TD>Item 9</TD><TD>Item 10</TD><TD>Item 11</TD><TD>Item 12</TD></TR></TABLE>&lt;/BODY&gt;
 
         -   Appears as: ><TABLE BORDER><TR><TH ROWSPAN=2>Head1</TH><TD>Item 1</TD><TD>Item 2</TD><TD>Item 3</TD><TD>Item 4</TD></TR><TR><TD>Item 5</TD><TD>Item 6</TD><TD>Item 7</TD><TD>Item 8</TD></TR><TR><TH>Head2</TH><TD>Item 9</TD><TD>Item 10</TD><TD>Item 11</TD><TD>Item 12</TD></TR></TABLE><!\[CDATA\[\]\]>
         -   The Item 6, Item7, Item 10, and Item 11 elements of the table are selected as a block and copied to the clipboard.
@@ -159,7 +159,7 @@ The following scenarios describe how the IE4/MSHTML HTML editor handles HTML cut
 
             <!DOCTYPE ...>
 
-            <HTML><BODY><TABLE BORDER>
+            &lt;HTML&gt;&lt;BODY&gt;<TABLE BORDER>
 
             <!--StartFragment-->
 
@@ -169,12 +169,12 @@ The following scenarios describe how the IE4/MSHTML HTML editor handles HTML cut
 
             </TABLE>
 
-            </BODY></HTML>The selection, as delimited by StartSelection and EndSelection, is shown in bold.
+            &lt;/BODY&gt;&lt;/HTML&gt;The selection, as delimited by StartSelection and EndSelection, is shown in bold.
 
 3.  Pasting a fragment of an ordered list into plain text.
     -   -   HTML text:
 
-            <BODY><OL TYPE = a><LI>Item 1<LI>Item 2<LI>Item 3<LI>Item 4<LI>Item 5<LI>Item 6</OL></BODY>
+            &lt;BODY&gt;<OL TYPE = a><LI>Item 1<LI>Item 2<LI>Item 3<LI>Item 4<LI>Item 5<LI>Item 6</OL>&lt;/BODY&gt;
 
         -   Appears as:
             1.  Item 1
@@ -185,7 +185,7 @@ The following scenarios describe how the IE4/MSHTML HTML editor handles HTML cut
             6.  Item 6
         -   The user selects and copies items 3 through 5 to the clipboard. The following HTML is in the clipboard:
 
-            <DOCTYPE...><HTML><BODY><OL TYPE = a>
+            <DOCTYPE...>&lt;HTML&gt;&lt;BODY&gt;<OL TYPE = a>
 
             <!-- StartFragment-->
 
@@ -193,13 +193,13 @@ The following scenarios describe how the IE4/MSHTML HTML editor handles HTML cut
 
             <!-- EndFragment-->
 
-            </OL></BODY></HTML>
+            </OL>&lt;/BODY&gt;&lt;/HTML&gt;
 
             The selection, as delimited by StartSelection and EndSelection, is show in bold.
 
         -   If this fragment is now pasted into an empty document, the following HTML will be created:
 
-            <BODY><OL TYPE = a><LI>Item 3<LI>Item 4<LI>Item 5</OL></BODY>
+            &lt;BODY&gt;<OL TYPE = a><LI>Item 3<LI>Item 4<LI>Item 5</OL>&lt;/BODY&gt;
 
         -   Appearing as:
             1.  Item 3
@@ -218,7 +218,7 @@ The following scenarios describe how the IE4/MSHTML HTML editor handles HTML cut
 
         -   The user selects from "WYSIWYG" until "Cop".The following HTML is in the clipboard:
 
-            <DOCTYPE...><HTML><BODY>
+            <DOCTYPE...>&lt;HTML&gt;&lt;BODY&gt;
 
             <!-- StartFragment-->
 
@@ -232,14 +232,14 @@ The following scenarios describe how the IE4/MSHTML HTML editor handles HTML cut
 
             <!-- EndFragment-->
 
-            </BODY></HTML>The selection, as delimited by StartSelection and EndSelection, is shown in bold.
+            &lt;/BODY&gt;&lt;/HTML&gt;The selection, as delimited by StartSelection and EndSelection, is shown in bold.
 
      
     -   -   The user selects from "opy" until "Great".
 
             The following HTML is in the clipboard:
 
-            <DOCTYPE...><HTML><BODY>
+            <DOCTYPE...>&lt;HTML&gt;&lt;BODY&gt;
 
             <!-- StartFragment-->
 
@@ -251,7 +251,7 @@ The following scenarios describe how the IE4/MSHTML HTML editor handles HTML cut
 
             <!-- EndFragment-->
 
-            </BODY></HTML>
+            &lt;/BODY&gt;&lt;/HTML&gt;
 
             The selection, as delimited by StartSelection and EndSelection, is shown in bold.
 

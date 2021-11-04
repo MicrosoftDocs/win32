@@ -95,7 +95,7 @@ This is not set by clients, but is reported to clients when the source of an ACE
 
 
 
-|                   |                                                                                    |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Winnt.h</dt> </dl> |
 

@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether the Source Reader shuts down the media source.
+description: Specifies whether the Source Reader shuts down the media source.
 ms.assetid: c85f5994-8005-48c9-8a05-0316f48f4142
 title: MF_SOURCE_READER_DISCONNECT_MEDIASOURCE_ON_SHUTDOWN attribute (Mfreadwrite.h)
 ms.topic: reference

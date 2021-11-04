@@ -1,5 +1,5 @@
 ---
-description: Specifies the left edge of the destination rectangle, in pixels.
+description: MFPKEY_RESIZE_DST_LEFT Property - Specifies the left edge of the destination rectangle, in pixels.
 ms.assetid: faefe634-c517-43a0-9741-cb79824f840d
 title: MFPKEY_RESIZE_DST_LEFT Property (Wmcodecdsp.h)
 ms.topic: reference

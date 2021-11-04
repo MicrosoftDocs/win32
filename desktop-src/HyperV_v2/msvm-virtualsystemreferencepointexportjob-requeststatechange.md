@@ -1,5 +1,5 @@
 ---
-Description: Requests a state change.
+description: RequestStateChange method of the Msvm_VirtualSystemReferencePointExportJob class - Requests a state change.
 ms.assetid: 53c24e17-2b59-4439-a6d1-e971c189d223
 title: RequestStateChange method of the Msvm_VirtualSystemReferencePointExportJob class
 ms.topic: reference

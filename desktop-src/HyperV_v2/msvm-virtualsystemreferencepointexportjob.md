@@ -1,5 +1,5 @@
 ---
-Description: This class represents a virtual system reference point export operation job.
+description: This class represents a virtual system reference point export operation job.
 ms.assetid: 3d8e117c-4863-441a-9264-c33f05fbc5ef
 title: Msvm_VirtualSystemReferencePointExportJob class
 ms.topic: reference

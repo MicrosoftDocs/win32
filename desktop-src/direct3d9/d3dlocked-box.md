@@ -77,7 +77,7 @@ Volumes can be visualized as being organized into slices of width x height 2D su
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3D9Types.h</dt> </dl> |
 

@@ -12,94 +12,19 @@ The Windows Filtering Platform (WFP) API is divided into the following component
 
 
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Component</th>
-<th>Description</th>
-<th>Header Files</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td rowspan="2"><a href="/windows-hardware/drivers/ddi/_netvista/">Callout API</a> (FWPS)${REMOVE}$<br />
-</td>
-<td><a href="/windows-hardware/drivers/ddi/_netvista/">Data types</a> used by callouts.<strong>Note</strong>  These data types are documented in the Microsoft Windows Driver Development Kit (DDK).<br/></td>
-<td><dl> fwpstypes.h<br />
-fwpstypes.idl<br />
-</dl></td>
-</tr>
-<tr class="even">
-<td><a href="/windows-hardware/drivers/ddi/_netvista/">Functions</a> and <a href="/windows-hardware/drivers/ddi/_netvista/">enumerated types</a> used to implement callouts.<strong>Note</strong>  These functions and enumerated types are documented in the DDK.<br/></td>
-<td><dl> fwpsu.h<br />
-fwpsk.h<br />
-</dl></td>
 
-</tr>
-<tr class="odd">
-<td rowspan="2">IKE/AuthIP API (IKEEXT)${REMOVE}$<br />
-</td>
-<td><a href="fwp-enums.md">Enumerated types</a> and <a href="fwp-structs.md">structures</a> used for managing IKE and AuthIP main mode (MM) policy and security associations.</td>
-<td><dl> iketypes.h<br />
-iketypes.idl<br />
-</dl></td>
-</tr>
-<tr class="even">
-<td><a href="fwp-ike-functions.md">Functions</a> used for managing IKE and AuthIP MM policy and security associations.</td>
-<td><dl> fwpmu.h<br />
-fwpmk.h<br />
-</dl></td>
+| Component | Description | Header Files | 
+|-----------|-------------|--------------|
+| <a href="/windows-hardware/drivers/ddi/_netvista/">Callout API</a> (FWPS)${REMOVE}$<br /> | <a href="/windows-hardware/drivers/ddi/_netvista/">Data types</a> used by callouts.<strong>Note</strong>  These data types are documented in the Microsoft Windows Driver Development Kit (DDK).<br /> | <dl> fwpstypes.h<br />fwpstypes.idl<br /></dl> | 
+| <a href="/windows-hardware/drivers/ddi/_netvista/">Functions</a> and <a href="/windows-hardware/drivers/ddi/_netvista/">enumerated types</a> used to implement callouts.<strong>Note</strong>  These functions and enumerated types are documented in the DDK.<br /> | <dl> fwpsu.h<br />fwpsk.h<br /></dl> | 
+| IKE/AuthIP API (IKEEXT)${REMOVE}$<br /> | <a href="fwp-enums.md">Enumerated types</a> and <a href="fwp-structs.md">structures</a> used for managing IKE and AuthIP main mode (MM) policy and security associations. | <dl> iketypes.h<br />iketypes.idl<br /></dl> | 
+| <a href="fwp-ike-functions.md">Functions</a> used for managing IKE and AuthIP MM policy and security associations. | <dl> fwpmu.h<br />fwpmk.h<br /></dl> | 
+| IPsec API (IPSEC)${REMOVE}$<br /> | <a href="fwp-enums.md">Enumerated types</a> and <a href="fwp-structs.md">structures</a> used for managing IPsec policies and security associations. | <dl> ipsectypes.h<br />ipsectypes.idl<br /></dl> | 
+| <a href="fwp-ipsec-functions.md">Functions</a> used for managing IPsec policies and security associations. | <dl> fwpmu.h<br />fwpmk.h<br /></dl> | 
+| Management API (FWPM)${REMOVE}$<br /> | <a href="fwp-enums.md">Enumerated types</a> and <a href="fwp-structs.md">structures</a> used for managing the filter engine. | <dl> fwpmtypes.h<br />fwpmtypes.idl<br /></dl> | 
+| <a href="fwp-mgmt-functions.md">Functions</a> used for managing the filter engine. These functions are used to perform the following tasks:<br /><ul><li>Set and query filters, providers, and callouts.</li><li>Retrieve IPsec statistics.</li><li>Configure the Windows Filtering Platform.</li></ul> | <dl> fwpmu.h<br />fwpmk.h<br /></dl> | 
+| Shared API (FWP) | Fundamental <a href="fwp-enums.md">enumerated types</a> and <a href="fwp-structs.md">structures</a> shared across the Windows Filtering Platform. | <dl> fwptypes.h<br />fwptypes.idl<br /></dl> | 
 
-</tr>
-<tr class="odd">
-<td rowspan="2">IPsec API (IPSEC)${REMOVE}$<br />
-</td>
-<td><a href="fwp-enums.md">Enumerated types</a> and <a href="fwp-structs.md">structures</a> used for managing IPsec policies and security associations.</td>
-<td><dl> ipsectypes.h<br />
-ipsectypes.idl<br />
-</dl></td>
-</tr>
-<tr class="even">
-<td><a href="fwp-ipsec-functions.md">Functions</a> used for managing IPsec policies and security associations.</td>
-<td><dl> fwpmu.h<br />
-fwpmk.h<br />
-</dl></td>
-
-</tr>
-<tr class="odd">
-<td rowspan="2">Management API (FWPM)${REMOVE}$<br />
-</td>
-<td><a href="fwp-enums.md">Enumerated types</a> and <a href="fwp-structs.md">structures</a> used for managing the filter engine.</td>
-<td><dl> fwpmtypes.h<br />
-fwpmtypes.idl<br />
-</dl></td>
-</tr>
-<tr class="even">
-<td><a href="fwp-mgmt-functions.md">Functions</a> used for managing the filter engine. These functions are used to perform the following tasks:<br/>
-<ul>
-<li>Set and query filters, providers, and callouts.</li>
-<li>Retrieve IPsec statistics.</li>
-<li>Configure the Windows Filtering Platform.</li>
-</ul></td>
-<td><dl> fwpmu.h<br />
-fwpmk.h<br />
-</dl></td>
-
-</tr>
-<tr class="odd">
-<td>Shared API (FWP)</td>
-<td>Fundamental <a href="fwp-enums.md">enumerated types</a> and <a href="fwp-structs.md">structures</a> shared across the Windows Filtering Platform.</td>
-<td><dl> fwptypes.h<br />
-fwptypes.idl<br />
-</dl></td>
-</tr>
-</tbody>
-</table>
 
 
 

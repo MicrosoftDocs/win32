@@ -1,5 +1,5 @@
 ---
-description: .
+description: MDI Reference
 ms.assetid: 06ec4b2f-c0cd-4c1d-855b-90dc358a0f2c
 title: MDI Reference
 ms.topic: article

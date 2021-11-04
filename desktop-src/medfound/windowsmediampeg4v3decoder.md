@@ -1,5 +1,5 @@
 ---
-Description: The Windows Media MPEG-4 V3 decoder decodes MPEG-4 V3 video streams.
+description: The Windows Media MPEG-4 V3 decoder decodes MPEG-4 V3 video streams.
 ms.assetid: 5143b0cc-c171-46af-8d7f-4d029af71fb4
 title: Windows Media MPEG-4 V3 Decoder (Wmcodecdsp.h)
 ms.topic: reference

@@ -34,13 +34,13 @@ The **IObjectTableRequest** interface inherits from the [**IUnknown**](/windows/
 
 The **IObjectTableRequest** interface has these methods.
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><thead><tr class="header"><th style="text-align: left;">Method</th><th style="text-align: left;">Description</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;"><a href="/windows/desktop/direct3dtools/iobjecttablerequest-requestasync-dword-dword-dword-arr-iobjecttablecallback-ptr-dword-dword"><strong>RequestAsync</strong></a></td><td style="text-align: left;"><p>Requests to get specified information from the object table for the specified event.</p></td></tr><tr class="even"><td style="text-align: left;"><a href="/windows/desktop/direct3dtools/iobjecttablerequest-requestsupportedcolumnsasync-iobjecttablecallback-ptr-dword"><strong>RequestSupportedColumnsAsync</strong></a></td><td style="text-align: left;"><p>Requests to get information about what columns (fields) this object table request type supports.</p></td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><thead><tr class="header"><th >Method</th><th >Description</th></tr></thead><tbody><tr class="odd"><td ><a href="/windows/desktop/direct3dtools/iobjecttablerequest-requestasync-dword-dword-dword-arr-iobjecttablecallback-ptr-dword-dword"><strong>RequestAsync</strong></a></td><td ><p>Requests to get specified information from the object table for the specified event.</p></td></tr><tr class="even"><td ><a href="/windows/desktop/direct3dtools/iobjecttablerequest-requestsupportedcolumnsasync-iobjecttablecallback-ptr-dword"><strong>RequestSupportedColumnsAsync</strong></a></td><td ><p>Requests to get information about what columns (fields) this object table request type supports.</p></td></tr></tbody></table>
 
  
 
 ## Requirements
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><tbody><tr class="odd"><td><p>Header</p></td><td>Vspixengine.h</td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><tbody><tr class="odd"><td><p>Header</p></td><td>Vspixengine.h</td></tr></tbody></table>
 
  
 

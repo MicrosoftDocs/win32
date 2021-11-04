@@ -31,7 +31,7 @@ The macro returns the procedural texture version token.
 
 
 
-|                   |                                                                                          |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3DX9Shader.h</dt> </dl> |
 

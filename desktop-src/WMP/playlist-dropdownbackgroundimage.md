@@ -34,7 +34,7 @@ This attribute supports PNG, JPG, BMP, and GIF files. If the image is an 8-bit B
 
 
 
-|                    |                                                   |
+| Requirement | Value |
 |--------------------|---------------------------------------------------|
 | Version<br/> | Windows Media Player 9 Series or later<br/> |
 

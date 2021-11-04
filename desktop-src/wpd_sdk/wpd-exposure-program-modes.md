@@ -105,7 +105,7 @@ Indicates the exposure program mode of the device. This enumeration is used by t
 
 
 
-|                   |                                                                                             |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>PortableDevice.h</dt> </dl> |
 

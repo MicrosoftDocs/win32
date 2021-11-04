@@ -1,5 +1,5 @@
 ---
-description: Not implemented.
+description: IXml2Dex::Delete method - Not implemented.
 ms.assetid: 65ab8253-9fbf-4a1b-bcb7-a1dc916bb47f
 title: IXml2Dex::Delete method
 ms.topic: reference

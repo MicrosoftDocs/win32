@@ -17,42 +17,14 @@ Beginning with Windows Server 2008 R2, you can implement a custom remote audio e
 
     
 
-    <table>
-    <colgroup>
-    <col style="width: 50%" />
-    <col style="width: 50%" />
-    </colgroup>
-    <thead>
-    <tr class="header">
-    <th>Object type</th>
-    <th>Description</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Device enumerator object<br/></td>
-    <td>A device enumerator object provides the endpoint enumerator functionality. It exposes methods that return a default endpoint and specified collections of endpoints. For example, depending on the criteria specified, the enumerator can return communication endpoints, playback endpoints, or capture endpoints. The device enumerator object must implement the <a href="/windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-immdeviceenumerator"><strong>IMMDeviceEnumerator</strong></a> interface.<br/></td>
-    </tr>
-    <tr class="even">
-    <td>Device collection object<br/></td>
-    <td>A device collection object represents a collection of audio devices. It must implement the <a href="/windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-immdevicecollection"><strong>IMMDeviceCollection</strong></a> interface.<br/></td>
-    </tr>
-    <tr class="odd">
-    <td>Device object<br/></td>
-    <td>A device object represents a particular audio device. It provides access to the audio device's property store and exposes the audio playback and capture interfaces available on the device. The device object must implement the <a href="/windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-immdevice"><strong>IMMDevice</strong></a> and <a href="/windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-immendpoint"><strong>IMMEndpoint</strong></a> interfaces.<br/></td>
-    </tr>
-    <tr class="even">
-    <td>Property store object<br/></td>
-    <td>A property store object exposes the properties associated with an audio device. Some of these properties are used by the system, but applications can store arbitrary properties with the audio endpoint as well.<br/> All audio devices have the following three properties:<br/>
-    <ul>
-    <li><a href="/windows/desktop/CoreAudio/pkey-deviceinterface-friendlyname"><strong>PKEY_DeviceInterface_FriendlyName</strong></a></li>
-    <li><a href="/windows/desktop/CoreAudio/pkey-device-devicedesc"><strong>PKEY_Device_DeviceDesc</strong></a></li>
-    <li><a href="/windows/desktop/CoreAudio/pkey-device-friendlyname"><strong>PKEY_Device_FriendlyName</strong></a></li>
-    </ul>
-    The property store object must implement the <a href="/windows/win32/api/propsys/nn-propsys-ipropertystore">IPropertyStore</a> interface.<br/></td>
-    </tr>
-    </tbody>
-    </table>
+    
+| Object type | Description | 
+|-------------|-------------|
+| Device enumerator object<br /> | A device enumerator object provides the endpoint enumerator functionality. It exposes methods that return a default endpoint and specified collections of endpoints. For example, depending on the criteria specified, the enumerator can return communication endpoints, playback endpoints, or capture endpoints. The device enumerator object must implement the <a href="/windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-immdeviceenumerator"><strong>IMMDeviceEnumerator</strong></a> interface.<br /> | 
+| Device collection object<br /> | A device collection object represents a collection of audio devices. It must implement the <a href="/windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-immdevicecollection"><strong>IMMDeviceCollection</strong></a> interface.<br /> | 
+| Device object<br /> | A device object represents a particular audio device. It provides access to the audio device's property store and exposes the audio playback and capture interfaces available on the device. The device object must implement the <a href="/windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-immdevice"><strong>IMMDevice</strong></a> and <a href="/windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-immendpoint"><strong>IMMEndpoint</strong></a> interfaces.<br /> | 
+| Property store object<br /> | A property store object exposes the properties associated with an audio device. Some of these properties are used by the system, but applications can store arbitrary properties with the audio endpoint as well.<br /> All audio devices have the following three properties:<br /><ul><li><a href="/windows/desktop/CoreAudio/pkey-deviceinterface-friendlyname"><strong>PKEY_DeviceInterface_FriendlyName</strong></a></li><li><a href="/windows/desktop/CoreAudio/pkey-device-devicedesc"><strong>PKEY_Device_DeviceDesc</strong></a></li><li><a href="/windows/desktop/CoreAudio/pkey-device-friendlyname"><strong>PKEY_Device_FriendlyName</strong></a></li></ul>    The property store object must implement the <a href="/windows/win32/api/propsys/nn-propsys-ipropertystore">IPropertyStore</a> interface.<br /> | 
+
 
     
 

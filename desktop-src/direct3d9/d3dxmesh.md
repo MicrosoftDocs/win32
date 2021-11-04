@@ -1,5 +1,5 @@
 ---
-description: Flags used to specify creation options for a mesh.
+description: D3DXMESH enumeration - Flags used to specify creation options for a mesh.
 ms.assetid: c94e19ab-8024-4a28-9d1a-6d57707c3a52
 title: D3DXMESH enumeration (D3dx9mesh.h)
 ms.topic: reference
@@ -217,7 +217,7 @@ A 32-bit mesh (D3DXMESH\_32BIT) can theoretically support (2^32)-1 faces and ver
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3dx9mesh.h</dt> </dl> |
 

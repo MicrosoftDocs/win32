@@ -1,5 +1,5 @@
 ---
-description: Computes the intersection of a ray and a triangle.
+description: D3DXIntersectTri function (D3DX10math.h) - Computes the intersection of a ray and a triangle.
 ms.assetid: 819f2543-8046-47c9-93b8-7d888264786f
 title: D3DXIntersectTri function (D3DX10math.h)
 ms.topic: reference
@@ -132,7 +132,7 @@ Barycentric coordinates define a point inside a triangle in terms of the triangl
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10math.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl>   |

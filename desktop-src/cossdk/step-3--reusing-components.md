@@ -21,7 +21,7 @@ Two previous parts of this COM+ services primer, [Step 1: Creating a Transaction
 
 This step demonstrates how to reuse the components created in steps 1 and 2 and looks at what this means to the design of those components. As shown in the following illustration, this means creating a new component, `AddNewAuthor`, that adds new authors to the database by calling `UpdateAuthorAddress`.
 
-![](images/e746f50e-2e86-4e59-82f9-f407d2b0325c.png)
+![Diagram that shows the flow when reusing components.](images/e746f50e-2e86-4e59-82f9-f407d2b0325c.png)
 
 In addition to reusing existing component functionality, `AddNewAuthor` calls another new component called `ValidateAuthorName`. As the preceding illustration shows, `ValidateAuthorName` is non-transactional. The transaction attribute value for this component is left at its default setting (**Not Supported**) to exclude its work from the transaction. As shown in the step 3 sample code, `ValidateAuthorName` performs read-only queries on the database, and the failure of this minor task should not have the potential to abort the transaction. However, the transaction attribute value of the `AddNewAuthor` component is set to **Required**.
 
@@ -29,7 +29,7 @@ The `AddNewAuthor`, `UpdateAuthorAddress`, and `ValidateAuthorAddress` component
 
 In this example, reusing the `UpdateAuthorAddress` component is easy—COM+ automatically delivers the expected services. However, the results would be different if the transaction attribute value of the `UpdateAuthorAddress` component were initially set to **Requires New** instead of **Required**. On the surface, both settings appear similar; both guarantee a transaction. **Requires New**, however, always starts a new transaction, while **Required** starts a new transaction only when the object's caller is non-transactional. You can see from this how important it was to configure `UpdateAuthorAddress` carefully and thoughtfully. Otherwise, COM+ might have interpreted the service request differently, generating two unrelated transactions, as shown in the following illustration, instead of one.
 
-![](images/24b9edf6-af00-4994-8fa1-cee4ace16379.png)
+![Diagram that shows the flow when reusing components with "Requires New".](images/24b9edf6-af00-4994-8fa1-cee4ace16379.png)
 
 > [!Note]  
 > When you reuse components, make sure the services are configured to support your desired outcome.

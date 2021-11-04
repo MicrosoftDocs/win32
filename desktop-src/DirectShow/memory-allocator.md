@@ -12,7 +12,7 @@ The Memory Allocator object allocates buffers for media samples. Filters can use
 
 
 
-|                  |                                        |
+| Label | Value |
 |------------------|----------------------------------------|
 | Class Identifier | CLSID\_MemoryAllocator                 |
 | Interfaces       | [**IMemAllocator**](/windows/desktop/api/Strmif/nn-strmif-imemallocator) |

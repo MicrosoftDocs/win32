@@ -45,7 +45,7 @@ The CAMP is composed of XML tags that provide parametric values to the CIECAM02 
 
 ### Color Appearance Model Profile Architecture
 
-![](images/camp-image002new.png)
+![Diagram that shows the CAMP profile architecture made of X M L tags.](images/camp-image002new.png)
 
 ### The CAMP Schema
 
@@ -230,7 +230,7 @@ From *c*, *Nc* and *F* can be computed, using piecewise linear interpolation bet
 
 | degreeOfAdaption                     | Behavior                                                                       |
 |--------------------------------------|--------------------------------------------------------------------------------|
-| -1.0                                 | ![](images/camp-image006.png)This is the default CIECAM02 behavior.<br/> |
+| -1.0                                 | ![Shows a formula for the default C I E C A M 02 behavior.](images/camp-image006.png)This is the default CIECAM02 behavior.<br/> |
 | 0.0 &lt;= degreeOfAdaption &lt;= 1.0 | *D* = degreeOfAdaptation (the value supplied by the user)                      |
 
 
@@ -261,7 +261,7 @@ The CAM is initialized directly from the CAMP. This allows developers some flexi
 
 <dl> <dt>
 
-[Basic Color Management Concepts](basic-color-management-concepts.md)
+[Basic color management concepts](basic-color-management-concepts.md)
 </dt> <dt>
 
 [Windows Color System Schemas and Algorithms](windows-color-system-schemas-and-algorithms.md)

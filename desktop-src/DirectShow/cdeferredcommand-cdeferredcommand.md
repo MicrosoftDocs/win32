@@ -1,5 +1,5 @@
 ---
-description: Constructor method.
+description: CDeferredCommand.CDeferredCommand constructor - Constructor method.
 ms.assetid: 0b372fa2-78a9-4e38-813c-f18123716c6d
 title: CDeferredCommand.CDeferredCommand constructor (Ctlutil.h)
 ms.topic: reference
@@ -144,7 +144,7 @@ Value indicating whether the deferred command time is in stream time (**TRUE**) 
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Ctlutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

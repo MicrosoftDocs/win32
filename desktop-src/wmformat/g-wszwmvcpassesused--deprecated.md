@@ -1,6 +1,6 @@
 ---
 title: g_wszWMVCPassesUsed (Wmcodecdsp.h)
-description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs.
+description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs. | g_wszWMVCPassesUsed (Wmcodecdsp.h)
 ms.assetid: ca6b1bb3-7d4b-4d64-8c79-0255642d0818
 keywords:
 - g_wszWMVCPassesUsed windows Media Format
@@ -24,7 +24,7 @@ For current documentation on Windows Media codecs and digital signal processors,
 
 
 
-|                   |                                                                                         |
+| Requirement | Value |
 |-------------------|-----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Wmcodecdsp.h</dt> </dl> |
 

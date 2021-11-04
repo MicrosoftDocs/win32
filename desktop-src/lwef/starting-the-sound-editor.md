@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 
 To run the Microsoft Linguistic Information Sound Editing Tool, choose it from the **Start** menu or double-click the sound editor's icon. The sound editor's window will open, displaying its menus, a toolbar for frequently used commands, a text box for entering the words the editor uses to process the sound file, and a display area for viewing and editing the audio and linguistic data.
 
-![](images/f1listliq.gif)
+![Screenshot that shows the starting page of the Microsoft Linguistic Information Sound Editing Tool.](images/f1listliq.gif)
 
 After the sound editor starts up, you can begin recording a new sound file or load an existing sound file.
 

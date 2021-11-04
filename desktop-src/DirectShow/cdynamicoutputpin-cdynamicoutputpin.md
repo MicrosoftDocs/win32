@@ -1,5 +1,5 @@
 ---
-description: Constructor method.
+description: CDynamicOutputPin.CDynamicOutputPin constructor - Constructor method.
 ms.assetid: 996adc69-8727-431e-a7f5-8fbcc0e305ae
 title: CDynamicOutputPin.CDynamicOutputPin constructor (Amfilter.h)
 ms.topic: reference
@@ -80,7 +80,7 @@ Pointer to a wide-character string containing the pin identifier. For more infor
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Amfilter.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

@@ -1,5 +1,5 @@
 ---
-description: .
+description: System.Software.DateLastUsed
 ms.assetid: f45214a9-64a8-468d-8224-83aca8586268
 title: System.Software.DateLastUsed
 ms.topic: article

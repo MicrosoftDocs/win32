@@ -1,6 +1,6 @@
 ---
 title: Error Codes (Windows Media Format 11 SDK)
-description: Error Codes
+description: Learn about error and success codes for use in the Windows Media Format SDK. These codes are a subset of a larger collection.
 ms.assetid: ea1c129b-c0d7-4a1b-934c-c1c07364d4a8
 keywords:
 - Windows Media Format SDK,error codes

@@ -1,5 +1,5 @@
 ---
-description: Pointer to a function that creates an instance of the object.
+description: LPFNNewCOMObject function pointer - Pointer to a function that creates an instance of the object.
 ms.assetid: 8c9dab82-a080-4733-8c62-d090b28306e0
 title: LPFNNewCOMObject function pointer (Combase.h)
 ms.topic: reference
@@ -57,7 +57,7 @@ Returns a pointer to a new instance of the object.
 
 
 
-|                   |                                                                                                          |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Combase.h (include Streams.h)</dt> </dl> |
 

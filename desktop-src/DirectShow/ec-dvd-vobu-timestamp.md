@@ -1,5 +1,5 @@
 ---
-description: Sent when the DVD Navigator parses a PCI packet.
+description: EC_DVD_VOBU_Timestamp - Sent when the DVD Navigator parses a PCI packet.
 ms.assetid: 25548c23-22f0-47cb-9062-273ad39d3007
 title: EC_DVD_VOBU_Timestamp (Dvdevcode.h)
 ms.topic: reference
@@ -58,7 +58,7 @@ li.HighPart = DWORD( lParam2 );
 
 
 
-|                   |                                                                                                          |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Dvdevcode.h (include Dshow.h)</dt> </dl> |
 

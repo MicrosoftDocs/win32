@@ -1,6 +1,6 @@
 ---
 title: Advanced Character Options Window (Voice Commands Window)
-description: The Advanced Character Options Window
+description: Learn about the Advanced Character Options Window, which provides options for users to adjust their interaction with all characters.
 ms.assetid: c2f784e9-d1c5-4fa3-b3f7-5061c9b7e6d9
 ms.topic: article
 ms.date: 05/31/2018

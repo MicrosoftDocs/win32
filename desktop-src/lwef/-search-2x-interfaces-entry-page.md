@@ -1,6 +1,6 @@
 ---
 title: WDS 2.x Interfaces
-description: .
+description: WDS 2.x Interfaces
 ms.assetid: 9cfd81b1-36fa-4d06-97a5-ef4be286d12d
 ms.topic: article
 ms.date: 05/31/2018

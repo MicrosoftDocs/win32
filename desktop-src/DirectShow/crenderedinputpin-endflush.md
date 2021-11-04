@@ -1,5 +1,5 @@
 ---
-description: The EndFlush method ends a flush operation. This method implements the IPin::EndFlush method.
+description: CRenderedInputPin.EndFlush method - The EndFlush method ends a flush operation. This method implements the IPin::EndFlush method.
 ms.assetid: 5c27bf76-6886-431d-9958-5064c53909ec
 title: CRenderedInputPin.EndFlush method (Amextra.h)
 ms.topic: reference
@@ -47,7 +47,7 @@ This method clears any pending [**EC\_COMPLETE**](ec-complete.md) events.
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Amextra.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

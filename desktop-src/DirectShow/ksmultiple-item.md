@@ -53,7 +53,7 @@ Specifies the total number of items that follow this structure.
 
 
 
-|                   |                                                                                 |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Ks.h</dt> </dl> |
 

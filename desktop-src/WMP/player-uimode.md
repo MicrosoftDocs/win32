@@ -85,7 +85,7 @@ Windows Media Player 10 Mobile: This property only accepts or returns values of 
 
 
 
-|                    |                                                                                                                           |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------------------------------------------|
 | Version<br/> | Windows Media Player version 7.0 or later. Windows Media Player 9 Series or later for "invisible" or "custom".<br/> |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl>                                        |

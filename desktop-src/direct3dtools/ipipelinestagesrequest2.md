@@ -1,5 +1,5 @@
 ---
-description: Not used. Formerly a request for pipeline stages data.
+description: <span id="vspixengine.ipipelinestagesrequest2"></span>IPipeLineStagesRequest2 interface - Not used. Formerly a request for pipeline stages data.
 MS-HAID: vspixengine.IPipeLineStagesRequest2
 MSHAttr:
 - PreferredSiteName:MSDN
@@ -34,13 +34,13 @@ The **IPipeLineStagesRequest2** interface inherits from the [**IUnknown**](/wind
 
 The **IPipeLineStagesRequest2** interface has these methods.
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><thead><tr class="header"><th style="text-align: left;">Method</th><th style="text-align: left;">Description</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;"><a href="/windows/desktop/direct3dtools/ipipelinestagesrequest2-requestcomputeshaderdataasync-eventid-ipipelinestagescallback2-ptr-dword-dword"><strong>RequestComputeShaderDataAsync</strong></a></td><td style="text-align: left;"><p>An asynchronous request to get compute shader data for the specified dispatch.</p></td></tr><tr class="even"><td style="text-align: left;"><a href="/windows/desktop/direct3dtools/ipipelinestagesrequest2-requestcomputeshaderstageasync-dword-eventid-ipipelinestagescallback-ptr-dword-dword"><strong>RequestComputeShaderStageAsync</strong></a></td><td style="text-align: left;"><p>An asynchronous request to get whether the compute shader stage was used for the specified frame and event.</p></td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><thead><tr class="header"><th >Method</th><th >Description</th></tr></thead><tbody><tr class="odd"><td ><a href="/windows/desktop/direct3dtools/ipipelinestagesrequest2-requestcomputeshaderdataasync-eventid-ipipelinestagescallback2-ptr-dword-dword"><strong>RequestComputeShaderDataAsync</strong></a></td><td ><p>An asynchronous request to get compute shader data for the specified dispatch.</p></td></tr><tr class="even"><td ><a href="/windows/desktop/direct3dtools/ipipelinestagesrequest2-requestcomputeshaderstageasync-dword-eventid-ipipelinestagescallback-ptr-dword-dword"><strong>RequestComputeShaderStageAsync</strong></a></td><td ><p>An asynchronous request to get whether the compute shader stage was used for the specified frame and event.</p></td></tr></tbody></table>
 
  
 
 ## Requirements
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><tbody><tr class="odd"><td><p>Header</p></td><td>Vspixengine.h</td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><tbody><tr class="odd"><td><p>Header</p></td><td>Vspixengine.h</td></tr></tbody></table>
 
  
 

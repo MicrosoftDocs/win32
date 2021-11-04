@@ -50,28 +50,11 @@ For details on specifying a counter path, see [Specifying a Counter Path](/windo
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Exception type</th>
-<th>Condition</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>System.Runtime.InteropServices.COMException</strong></td>
-<td>You can receive this exception for one of the following reasons:
-<ul>
-<li>The specified performance object was not found on the computer. The Err.Number value is 0xC0000BB8.</li>
-<li>The specified counter could not be found. The Err.Number value is 0xC0000BB9.</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| Exception type | Condition | 
+|----------------|-----------|
+| <strong>System.Runtime.InteropServices.COMException</strong> | You can receive this exception for one of the following reasons:<ul><li>The specified performance object was not found on the computer. The Err.Number value is 0xC0000BB8.</li><li>The specified counter could not be found. The Err.Number value is 0xC0000BB9.</li></ul> | 
+
 
 
 

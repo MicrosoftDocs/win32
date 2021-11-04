@@ -1,6 +1,6 @@
 ---
 title: IMsRdpClientAdvancedSettings InputEventsAtOnce property
-description: This property is not supported.
+description: This property is not supported. | IMsRdpClientAdvancedSettings InputEventsAtOnce property
 ms.assetid: 2f24b2cd-136d-4bde-9808-e5cb02bd7ce8
 ms.tgt_platform: multiple
 keywords:

@@ -1,21 +1,21 @@
 ---
 description: Resource usage statistics.
 ms.assetid: e43de550-2025-4210-a420-e41d14620704
-title: D3DDEVINFO_ResourceManager structure (D3D9Types.h)
+title: D3DDEVINFO_RESOURCEMANAGER structure (D3D9Types.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
 - kbSyntax
 api_name: 
-- D3DDEVINFO_ResourceManager
+- D3DDEVINFO_RESOURCEMANAGER
 api_type: 
 - HeaderDef
 api_location: 
 - D3D9Types.h
 ---
 
-# D3DDEVINFO\_ResourceManager structure
+# D3DDEVINFO\_RESOURCEMANAGER structure
 
 Resource usage statistics.
 
@@ -23,9 +23,10 @@ Resource usage statistics.
 
 
 ```C++
-typedef struct D3DDEVINFO_ResourceManager {
+typedef struct _D3DDEVINFO_RESOURCEMANAGER {
   D3DRESOURCESTATS stats[D3DRTYPECOUNT];
-} D3DDEVINFO_ResourceManager, *LPD3DDEVINFO_ResourceManager;
+} D3DDEVINFO_RESOURCEMANAGER, *LPD3DDEVINFO_RESOURCEMANAGER;
+
 ```
 
 
@@ -53,7 +54,7 @@ D3DRTYPECOUNT refers to the number of enumerations in [**D3DRESOURCETYPE**](./d3
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3D9Types.h</dt> </dl> |
 

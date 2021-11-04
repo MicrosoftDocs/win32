@@ -1,6 +1,6 @@
 ---
 title: Direct2D and Direct3D Interoperability Overview
-description: .
+description: Direct2D and Direct3D Interoperability Overview
 ms.assetid: 27680714-dc68-44eb-ab16-2cae3529b352
 keywords:
 - Direct2D,Direct3D interoperation

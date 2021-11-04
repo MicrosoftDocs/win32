@@ -1,5 +1,5 @@
 ---
-description: The SetPowerState method sets the desired power state for a logical device and when a device should be put into that state.
+description: SetPowerState method of the CIM_NonVolatileStorage class - The SetPowerState method sets the desired power state for a logical device and when a device should be put into that state.
 ms.assetid: fdc7dbcb-e2ef-44aa-9a4c-dcae618c5630
 ms.tgt_platform: multiple
 title: SetPowerState method of the CIM_NonVolatileStorage class

@@ -1,5 +1,5 @@
 ---
-description: Displays the Shut Down Windows dialog box. This is the same as clicking the Start menu and selecting Shut Down.
+description: Shell.ShutdownWindows method - Displays the Shut Down Windows dialog box. This is the same as clicking the Start menu and selecting Shut Down.
 ms.assetid: 6fa8e2e0-a58f-4837-89f5-898cece2d80a
 title: Shell.ShutdownWindows method (Shldisp.h)
 ms.topic: reference

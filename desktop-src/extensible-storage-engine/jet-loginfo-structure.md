@@ -27,12 +27,14 @@ _**Applies to:** Windows | Windows Server_
 
 The **JET_LOGINFO** structure returns structured information about the set of transaction log files that should be a part of a backup file set. The **JET_LOGINFO** structure is the minimal set of information needed to represent a range of logs that is retrieved with [JetGetLogInfoInstance2](./jetgetloginfoinstance2-function.md) or specified for a hard recovery with [JetExternalRestore2](./jetexternalrestore2-function.md).
 
-    typedef struct {
-      unsigned long cbSize;
-      unsigned long ulGenLow;
-      unsigned long ulGenHigh;
-      tchar szBaseName[JET_BASE_NAME_LENGTH + 1];
-    } JET_LOGINFO;
+```cpp
+typedef struct {
+  unsigned long cbSize;
+  unsigned long ulGenLow;
+  unsigned long ulGenHigh;
+  tchar szBaseName[JET_BASE_NAME_LENGTH + 1];
+} JET_LOGINFO;
+```
 
 ### Members
 
@@ -64,30 +66,14 @@ Use of this structured information is discouraged because it causes the applicat
 
 ### Requirements
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Client</strong></p></td>
-<td><p>Requires Windows Vista or Windows XP.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Server</strong></p></td>
-<td><p>Requires Windows Server 2008 or Windows Server 2003.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>Header</strong></p></td>
-<td><p>Declared in Esent.h.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Unicode</strong></p></td>
-<td><p>Implemented as <strong>JET_LOGINFO_W</strong> (Unicode) and <strong>JET_LOGINFO_A</strong> (ANSI).</p></td>
-</tr>
-</tbody>
-</table>
+
+| Requirement | Value |
+|------------|----------|
+| <p><strong>Client</strong></p> | <p>Requires Windows Vista or Windows XP.</p> | 
+| <p><strong>Server</strong></p> | <p>Requires Windows Server 2008 or Windows Server 2003.</p> | 
+| <p><strong>Header</strong></p> | <p>Declared in Esent.h.</p> | 
+| <p><strong>Unicode</strong></p> | <p>Implemented as <strong>JET_LOGINFO_W</strong> (Unicode) and <strong>JET_LOGINFO_A</strong> (ANSI).</p> | 
+
 
 
 ### See Also

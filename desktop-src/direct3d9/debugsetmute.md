@@ -43,7 +43,7 @@ This function does not return a value.
 
 
 
-|                    |                                                                                     |
+| Requirement | Value |
 |--------------------|-------------------------------------------------------------------------------------|
 | Library<br/> | <dl> <dt>D3d9.lib</dt> </dl> |
 | DLL<br/>     | <dl> <dt>D3d9.dll</dt> </dl> |

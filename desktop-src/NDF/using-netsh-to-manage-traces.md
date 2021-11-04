@@ -50,9 +50,8 @@ In this example, the level is set to 5, which means that the maximum number of e
 
 
 
-|       |               |                                                                            |
+| Level      | Setting              | Description                                                                           |
 |-------|---------------|----------------------------------------------------------------------------|
-| Level | Setting       | Description                                                                |
 | 1     | Critical      | Only critical events will be shown.                                        |
 | 2     | Errors        | Critical events and errors will be shown.                                  |
 | 3     | Warnings      | Critical events, errors, and warnings will be shown.                       |

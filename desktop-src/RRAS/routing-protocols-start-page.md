@@ -1,6 +1,6 @@
 ---
 title: Routing Protocols
-description: .
+description: Routing Protocols
 ms.assetid: 85302ad2-77f9-474e-a20f-ae64bfd3b45c
 ms.topic: article
 ms.date: 05/31/2018

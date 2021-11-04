@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 The following is the complete listing of the manifest file schema.
 
-``` syntax
+```xml syntax
 <?xml version="1.0" ?> 
   <Schema xmlns="urn:schemas-microsoft-com:xml-data" xmlns:dt="urn:schemas-microsoft-com:datatypes" 
    name="urn:schemas-microsoft-com:asm.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" >

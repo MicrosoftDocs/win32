@@ -12,7 +12,7 @@ This property is used to send rate changes to the decoder. The data type for thi
 
 
 
-|                   |                                                     |
+| Label | Value |
 |-------------------|-----------------------------------------------------|
 | Property Set GUID | AM\_KSPROPSETID\_TSRateChange                       |
 | Property ID       | AM\_RATE\_SimpleRateChange                          |
@@ -26,7 +26,7 @@ This property is used to send rate changes to the decoder. The data type for thi
 
 
 
-|                   |                                                                                       |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Dvdmedia.h</dt> </dl> |
 

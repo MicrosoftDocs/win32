@@ -1,6 +1,6 @@
 ---
 title: Temperature and Tint Effect
-description: .
+description: Temperature and tint effect
 ms.assetid: 8df72105-26ea-2dea-a4de-ef06902b7e0b
 ms.topic: article
 ms.date: 05/31/2018

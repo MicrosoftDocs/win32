@@ -12,7 +12,7 @@ Queries whether the video output is standard-definition, analog component video.
 
 
 
-|                   |                                       |
+| Label | Value |
 |-------------------|---------------------------------------|
 | Property Set GUID | AM\_KSPROPSETID\_CopyProt             |
 | Property ID       | AM\_PROPERTY\_COPY\_ANALOG\_COMPONENT |
@@ -32,7 +32,7 @@ The value of the property is **TRUE** if the video output is analog component vi
 
 
 
-|                   |                                                                                       |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Dvdmedia.h</dt> </dl> |
 

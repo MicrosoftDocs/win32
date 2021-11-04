@@ -42,7 +42,7 @@ This instruction is supported in the following versions.
 
 
 
-|                          |            |
+|   Requirement                       | Value           |
 |--------------------------|------------|
 | Minimum operating system | Windows 98 |
 

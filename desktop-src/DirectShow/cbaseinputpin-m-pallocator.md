@@ -1,5 +1,5 @@
 ---
-description: Pointer to the memory allocator.
+description: CBaseInputPin::m_pAllocator member - Pointer to the memory allocator.
 ms.assetid: c6ba89ee-a645-4337-b4f3-c170a33e89e9
 title: CBaseInputPin::m_pAllocator member (Amfilter.h)
 ms.topic: reference
@@ -35,7 +35,7 @@ IMemAllocator *m_pAllocator;
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Amfilter.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

@@ -20,9 +20,9 @@ To use this mechanism to link to WinHTTP version 5.1 on Windows Server 2003, an
 
 The sample manifest below illustrates an application manifest that can be used for linking to WinHTTP.
 
-All attributes except "type" of the "<assembly><assemblyIdentity>" must be modified as appropriate for your particular application. The same goes for the contents of the "&lt;description&gt;" element.
+All attributes except "type" of the "&lt;assembly&gt;&lt;assemblyIdentity&gt;" must be modified as appropriate for your particular application. The same goes for the contents of the "&lt;description&gt;" element.
 
-In addition, make sure that the "processorArchitecture" attribute of the "<dependentAssembly><assemblyIdentity>" matches the "processorArchitecture" attribute of the "<assembly><assemblyIdentity>". Below, for example, both are set to "x86".
+In addition, make sure that the "processorArchitecture" attribute of the "&lt;dependentAssembly&gt;&lt;assemblyIdentity&gt;" matches the "processorArchitecture" attribute of the "&lt;assembly&gt;&lt;assemblyIdentity&gt;". Below, for example, both are set to "x86".
 
 All values not specific to your application should take the forms shown below.
 

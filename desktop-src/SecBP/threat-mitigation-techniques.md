@@ -25,38 +25,12 @@ There are a number of threat-mitigation techniques available that you can use to
 
 These technologies are not available on all operating systems. Therefore, the extent to which security can be improved depends on which operating systems are involved. Here are the technologies that are available in each operating system.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Operating system</th>
-<th>Technology</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Windows Server 2003 and Windows XP</td>
-<td><ul>
-<li>CryptoAPI</li>
-<li>Access control lists</li>
-<li>Data protection API</li>
-<li>Stored user names and passwords</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>Windows 2000</td>
-<td><ul>
-<li>CryptoAPI</li>
-<li>Access control lists</li>
-<li><a href="/windows/desktop/api/dpapi/nf-dpapi-cryptprotectdata"><strong>CryptProtectData</strong></a></li>
-<li><a href="/windows/desktop/api/dpapi/nf-dpapi-cryptunprotectdata"><strong>CryptUnprotectData</strong></a></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| Operating system | Technology | 
+|------------------|------------|
+| Windows Server 2003 and Windows XP | <ul><li>CryptoAPI</li><li>Access control lists</li><li>Data protection API</li><li>Stored user names and passwords</li></ul> | 
+| Windows 2000 | <ul><li>CryptoAPI</li><li>Access control lists</li><li><a href="/windows/desktop/api/dpapi/nf-dpapi-cryptprotectdata"><strong>CryptProtectData</strong></a></li><li><a href="/windows/desktop/api/dpapi/nf-dpapi-cryptunprotectdata"><strong>CryptUnprotectData</strong></a></li></ul> | 
+
 
 
 

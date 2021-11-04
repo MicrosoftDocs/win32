@@ -41,7 +41,7 @@ DON'T: Don't avoid the use of color. While Windows Store app icons are sometimes
 
 DO: Add one shortcut per app in the Start screen when the app is installed. This ensures that people can launch your app directly from the Start screen or through search. If you do not include a shortcut in the Start screen, your app becomes difficult to launch. In particular, do not add a shortcut only on the desktop. Users see the Start screen when they first login, and so placing a shortcut only on the desktop isn't as effective as including it in the Start screen.
 
-![](images/tiles-desktop-2.png)
+![Diagram that shows the a grid with an application tile, dimensions, and 'Segoe U I Semilight' to indicate the font used.](images/tiles-desktop-2.png)
 
 DON'T: Don't provide multiple shortcuts to the same app. For example, don't have two shortcuts that launch an app in two different modes, such as one for Windows Internet Explorer and one for Internet Explorer with no add-ons.
 

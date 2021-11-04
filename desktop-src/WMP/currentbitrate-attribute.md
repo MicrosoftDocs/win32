@@ -33,7 +33,7 @@ The Windows Media Format SDK constant for this attribute is g\_wszWMCurrentBitra
 
 
 
-|                    |                                               |
+| Requirement | Value |
 |--------------------|-----------------------------------------------|
 | Version<br/> | Windows Media Player 9 Series only<br/> |
 

@@ -160,7 +160,7 @@ RectInfo.StartVertexOffsetHeight = 4*i;  // The variable i is the index of the
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3D9Types.h</dt> </dl> |
 

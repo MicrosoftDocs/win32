@@ -1,5 +1,5 @@
 ---
-description: Defines a mesh defined by Bézier patches. The first array is a list of vertices, and the second array defines the patches for the mesh by indexing into the vertex array.
+description: PatchMesh9 defines a mesh defined by Bézier patches, including a list of vertices and the patches for the mesh by indexing into the vertex array.
 ms.assetid: 642ca513-c83e-4c6d-845c-0eaecc232728
 title: PatchMesh9
 ms.topic: reference

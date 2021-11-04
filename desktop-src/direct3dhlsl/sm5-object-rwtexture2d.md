@@ -1,6 +1,6 @@
 ---
 title: RWTexture2D
-description: A read/write resource.
+description: A read/write resource. | RWTexture2D
 ms.assetid: 19b383f1-c787-4c20-b77a-60ef9f212b9f
 keywords:
 - RWTexture2D HLSL

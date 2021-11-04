@@ -1,6 +1,6 @@
 ---
 title: Privacy Statement (Windows Media Format 11 SDK)
-description: Privacy Statement
+description: Learn about a privacy statement, where developers using the Windows Media Format 11 SDK should communicate how user privacy could be affected.
 ms.assetid: d2535273-6671-4bd7-9c43-cbb8093d1d52
 keywords:
 - Windows Media Format SDK,privacy statement

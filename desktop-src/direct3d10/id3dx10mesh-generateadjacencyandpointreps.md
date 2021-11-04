@@ -1,5 +1,5 @@
 ---
-description: Generate a list of mesh edges, as well as a list of faces that share each edge.
+description: ID3DX10Mesh::GenerateAdjacencyAndPointReps method - Generate a list of mesh edges, as well as a list of faces that share each edge.
 ms.assetid: 3932e2b1-031d-4962-ad90-6e9da8cf2e0e
 title: ID3DX10Mesh::GenerateAdjacencyAndPointReps method (D3DX10.h)
 ms.topic: reference
@@ -60,7 +60,7 @@ The order of the entries in the adjacency buffer is determined by the order of t
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl> |

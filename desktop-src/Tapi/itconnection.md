@@ -38,7 +38,7 @@ The **ITConnection** interface has these methods.
 | [**get\_NetworkType**](itconnection-get-networktype.md)             | Gets the network type.<br/>                                                                                                              |
 | [**get\_NumAddresses**](itconnection-get-numaddresses.md)           | Gets the number of addresses to be used for the session.<br/>                                                                            |
 | [**get\_StartAddress**](itconnection-get-startaddress.md)           | Gets the first address to be used for the session.<br/>                                                                                  |
-| [**get\_Ttl**](itconnection-get-ttl.md)                             | Gets the [*time to live*](../tapi2/t_tapgloss.md) (TTL) scope for transmissions on the addresses.<br/> |
+| [**get\_Ttl**](itconnection-get-ttl.md)                             | Gets the [*time to live*](t-tapgloss.md) (TTL) scope for transmissions on the addresses.<br/> |
 | [**GetEncryptionKey**](itconnection-getencryptionkey.md)            | Gets the encryption key.<br/>                                                                                                            |
 | [**put\_AddressType**](itconnection-put-addresstype.md)             | Sets the address type.<br/>                                                                                                              |
 | [**put\_NetworkType**](itconnection-put-networktype.md)             | Sets the network type.<br/>                                                                                                              |
@@ -54,7 +54,7 @@ The **ITConnection** interface has these methods.
 
 
 
-|                         |                                                                                       |
+| Requirement | Value |
 |-------------------------|---------------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 3.0 or later<br/>                                                 |
 | Header<br/>       | <dl> <dt>Sdpblb.h</dt> </dl>   |

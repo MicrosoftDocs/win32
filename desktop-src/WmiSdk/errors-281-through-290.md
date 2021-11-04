@@ -19,7 +19,7 @@ Describes WMI SNMP provider errors 281 through 290.
 
 <dl> <dt>
 
-<span id="_282__Fatal_____fileName___line____Syntax_error._Last_token_read_is__token__"></span><span id="_282__fatal_____filename___line____syntax_error._last_token_read_is__token__"></span><span id="_282__FATAL_____FILENAME___LINE____SYNTAX_ERROR._LAST_TOKEN_READ_IS__TOKEN__"></span>**<282, Fatal>: "<fileName>:<line\#>: Syntax error. Last token read is <token>"**
+<span id="_282__Fatal_____fileName___line____Syntax_error._Last_token_read_is__token__"></span><span id="_282__fatal_____filename___line____syntax_error._last_token_read_is__token__"></span><span id="_282__FATAL_____FILENAME___LINE____SYNTAX_ERROR._LAST_TOKEN_READ_IS__TOKEN__"></span>**<282, Fatal>: "&lt;fileName&gt;:<line\#>: Syntax error. Last token read is &lt;token&gt;"**
 </dt> <dd>
 
 This error occurs when the compiler knows that a syntax error has occurred, but is unable to give any more specific information on the syntax error.
@@ -30,7 +30,7 @@ This error occurs when the compiler knows that a syntax error has occurred, but 
 
 <dl> <dt>
 
-<span id="_283__Fatal_____fileName___line_____Unrecognized_character__character__in_input_"></span><span id="_283__fatal_____filename___line_____unrecognized_character__character__in_input_"></span><span id="_283__FATAL_____FILENAME___LINE_____UNRECOGNIZED_CHARACTER__CHARACTER__IN_INPUT_"></span>**<283, Fatal>: "<fileName>:<line\#\#>: Unrecognized character <character> in input"**
+<span id="_283__Fatal_____fileName___line_____Unrecognized_character__character__in_input_"></span><span id="_283__fatal_____filename___line_____unrecognized_character__character__in_input_"></span><span id="_283__FATAL_____FILENAME___LINE_____UNRECOGNIZED_CHARACTER__CHARACTER__IN_INPUT_"></span>**<283, Fatal>: "&lt;fileName&gt;:<line\#\#>: Unrecognized character &lt;character&gt; in input"**
 </dt> <dd>
 
 There is an unrecognized character in the input. Typically, unrecognized characters are ignored, and this error message reports the first unrecognized character.

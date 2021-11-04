@@ -1,5 +1,5 @@
 ---
-description: Converts an array of 16-bit floats to 32-bit floats.
+description: D3DXFloat16To32Array function (D3dx9math.h) - Converts an array of 16-bit floats to 32-bit floats.
 ms.assetid: cabb2888-76e4-403b-99ab-f7d62478bf43
 title: D3DXFloat16To32Array function (D3dx9math.h)
 ms.topic: reference
@@ -74,7 +74,7 @@ Pointer to an array of 32-bit floats.
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9math.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

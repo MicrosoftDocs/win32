@@ -321,7 +321,9 @@ DWORD ApplyParameterStringsToMessage(CONST LPCWSTR pMessage, LPWSTR & pFinalMess
     // Determine the number of parameter insertion strings in pMessage.
     while (pTempMessage = wcschr(pTempMessage, L'%'))
     {
-        dwParameterCount++;
+        if (isdigit(*(pTempMessage + 1))) {
+            dwParameterCount++;
+        }
         pTempMessage++;
     }
 
@@ -400,6 +402,9 @@ DWORD ApplyParameterStringsToMessage(CONST LPCWSTR pMessage, LPWSTR & pFinalMess
             pEndingAddresses[i] = pTempMessage;
 
             i++;
+        }
+        else {
+            pTempMessage++;
         }
     }
 

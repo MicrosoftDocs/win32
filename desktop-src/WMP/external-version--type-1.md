@@ -1,6 +1,6 @@
 ---
 title: External.version (Type 1)
-description: Note This topic describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The version property retrieves the current version of Windows Media Player.
+description: Note This topic describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The version property retrieves the current version of Windows Media Player. | External.version (Type 1)
 ms.assetid: 36120a19-5322-402e-8a48-1a28eb250068
 keywords:
 - External.version (Type 1) Windows Media Player
@@ -37,7 +37,7 @@ This property is a read-only **String**.
 
 
 
-|                    |                                                                                    |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------|
 | Version<br/> | Windows Media Player 9 Series or later<br/>                                  |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |

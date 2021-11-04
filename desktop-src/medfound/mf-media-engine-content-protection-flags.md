@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether the Media Engine will play protected content.
+description: Specifies whether the Media Engine will play protected content.
 ms.assetid: 2A593499-BF40-440E-AF1D-3B0E7732489A
 title: MF_MEDIA_ENGINE_CONTENT_PROTECTION_FLAGS attribute (Mfmediaengine.h)
 ms.topic: reference

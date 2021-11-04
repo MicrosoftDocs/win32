@@ -1,5 +1,5 @@
 ---
-description: Builds a right-handed perspective projection matrix.
+description: D3DXMatrixPerspectiveRH function (D3DX10Math.h) - Builds a right-handed perspective projection matrix.
 ms.assetid: 324c8a21-24ef-4b3a-aac1-a753e26076d4
 title: D3DXMatrixPerspectiveRH function (D3DX10Math.h)
 ms.topic: reference
@@ -112,7 +112,7 @@ This function uses the following formula to compute the returned matrix.
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10Math.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl>   |

@@ -1,5 +1,5 @@
 ---
-description: The CheckConnect method determines whether a pin connection is suitable.
+description: CTransformOutputPin.CheckConnect method - The CheckConnect method determines whether a pin connection is suitable.
 ms.assetid: 3dae5c6d-720e-4445-b601-3bdfe32f4c21
 title: CTransformOutputPin.CheckConnect method (Transfrm.h)
 ms.topic: reference
@@ -67,7 +67,7 @@ This method overrides the [**CBaseOutputPin::CheckConnect**](cbaseoutputpin-chec
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Transfrm.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

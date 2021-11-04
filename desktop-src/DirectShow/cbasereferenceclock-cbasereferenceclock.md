@@ -1,5 +1,5 @@
 ---
-description: Constructor method.
+description: CBaseReferenceClock.CBaseReferenceClock constructor - Constructor method.
 ms.assetid: 0fbfdc68-e1df-449f-a7d1-739504db8a2f
 title: CBaseReferenceClock.CBaseReferenceClock constructor (Refclock.h)
 ms.topic: reference
@@ -72,7 +72,7 @@ Pointer to a [**CAMSchedule**](camschedule.md) object. If **NULL**, this method 
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Refclock.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

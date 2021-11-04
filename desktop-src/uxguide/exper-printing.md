@@ -9,7 +9,7 @@ ms.date: 10/20/2020
 # Printing (Design basics)
 
 > [!NOTE]
-> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](https://docs.microsoft.com/windows/uwp/design/).
+> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](/windows/uwp/design/).
 
 Printing is the user experience on paper. It's easy to overlook, but it is an important part of the overall user experience.
 
@@ -138,65 +138,15 @@ The type of program is the primary indicator of the appropriate printing experie
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><strong>Advanced document creation</strong><br/> Used to create, view, and print high-end documents. The ability to create high-quality printouts is one of the main reasons why the program exists. Targeted at expert users. <br/></td>
-<td><strong>User goals:</strong> Perfect results detailed control over the print output.<br/> <strong>Example:</strong> Microsoft Word<br/> <strong>Recommended printing experience:</strong><br/>
-<ul>
-<li>Output optimized for print (WYSIWYG).</li>
-<li>Advanced document formatting features, with options to print large objects.</li>
-<li>Advanced print options, including headers and footers. Document-related print options are saved within the document itself.</li>
-<li>Fast, accurate, powerful print previews.</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td><strong>Intermediate document creation</strong><br/> Used to create and view more complex documents. The ability to create good-quality printouts is important, but not necessarily one of the main reasons why the program exists. Targeted at intermediate users. <br/></td>
-<td><strong>User goals:</strong> Good results with minimal effort. Some control over the print output.<br/> <strong>Examples:</strong> Most Microsoft Office programs, such as Outlook and Excel.<br/> <strong>Recommended printing experience:</strong><br/>
-<ul>
-<li>Output optimized for print (WYSIWYG).</li>
-<li>Some document formatting features, with ability to print large objects without truncation.</li>
-<li>Some custom print options, including headers and footers.</li>
-<li>Accurate, easy to use print previews.</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td><strong>Simple document creation</strong><br/> Used to create and view simple documents. Targeted at all users. <br/></td>
-<td><strong>User goals:</strong> Basic printing support with standard printing options. Users expect good results without any tweaking.<br/> <strong>Examples:</strong> WordPad, Paint.<br/> <strong>Recommended printing experience:</strong><br/>
-<ul>
-<li>Output may be optimized for print (WYSIWYG), but this is not required.</li>
-<li>Some document formatting features, with ability to print large objects without truncation.</li>
-<li>Standard print options; custom print options are optional.</li>
-<li>Simple or no print previews.</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td><strong>Document viewers</strong><br/> Used to view documents. Users can't change the document content or format. <br/></td>
-<td><strong>User goals:</strong> Basic printing support with standard printing options. Users expect good results without any tweaking. Printing problems are handled automatically because users can't modify the document.<br/> <strong>Example:</strong> Windows Internet Explorer<br/> <strong>Recommended printing experience:</strong><br/>
-<ul>
-<li>Output may be optimized for print (WYSIWYG), but this is not required.</li>
-<li>Program automatically handles page breaks, eliminates blank pages, handles large objects, and removes backgrounds and other design elements.</li>
-<li>Standard print options; custom print options are optional.</li>
-<li>Simple or no print previews.</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td><strong>Utilities or line-of-business applications</strong><br/> Used to perform simple, specific tasks. Targeted at all users. <br/></td>
-<td><strong>User goals:</strong> Ability to export selected data efficiently. Users expect good results without any tweaking. Often for such programs, users are pleasantly surprised to find any printing support at all.<br/> <strong>Recommended printing experience:</strong><br/>
-<ul>
-<li>Printing support is optional depending upon supported scenarios.</li>
-<li>Output may be optimized for print (WYSIWYG), but this is not required.</li>
-<li>Some document formatting features. Might be acceptable if large objects are truncated.</li>
-<li>Standard print options.</li>
-<li>Print previews optional.</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| Label | Value |
+|--------|-------|
+| <strong>Advanced document creation</strong><br /> Used to create, view, and print high-end documents. The ability to create high-quality printouts is one of the main reasons why the program exists. Targeted at expert users. <br /> | <strong>User goals:</strong> Perfect results detailed control over the print output.<br /><strong>Example:</strong> Microsoft Word<br /><strong>Recommended printing experience:</strong><br /><ul><li>Output optimized for print (WYSIWYG).</li><li>Advanced document formatting features, with options to print large objects.</li><li>Advanced print options, including headers and footers. Document-related print options are saved within the document itself.</li><li>Fast, accurate, powerful print previews.</li></ul> | 
+| <strong>Intermediate document creation</strong><br /> Used to create and view more complex documents. The ability to create good-quality printouts is important, but not necessarily one of the main reasons why the program exists. Targeted at intermediate users. <br /> | <strong>User goals:</strong> Good results with minimal effort. Some control over the print output.<br /><strong>Examples:</strong> Most Microsoft Office programs, such as Outlook and Excel.<br /><strong>Recommended printing experience:</strong><br /><ul><li>Output optimized for print (WYSIWYG).</li><li>Some document formatting features, with ability to print large objects without truncation.</li><li>Some custom print options, including headers and footers.</li><li>Accurate, easy to use print previews.</li></ul> | 
+| <strong>Simple document creation</strong><br /> Used to create and view simple documents. Targeted at all users. <br /> | <strong>User goals:</strong> Basic printing support with standard printing options. Users expect good results without any tweaking.<br /><strong>Examples:</strong> WordPad, Paint.<br /><strong>Recommended printing experience:</strong><br /><ul><li>Output may be optimized for print (WYSIWYG), but this is not required.</li><li>Some document formatting features, with ability to print large objects without truncation.</li><li>Standard print options; custom print options are optional.</li><li>Simple or no print previews.</li></ul> | 
+| <strong>Document viewers</strong><br /> Used to view documents. Users can't change the document content or format. <br /> | <strong>User goals:</strong> Basic printing support with standard printing options. Users expect good results without any tweaking. Printing problems are handled automatically because users can't modify the document.<br /><strong>Example:</strong> Windows Internet Explorer<br /><strong>Recommended printing experience:</strong><br /><ul><li>Output may be optimized for print (WYSIWYG), but this is not required.</li><li>Program automatically handles page breaks, eliminates blank pages, handles large objects, and removes backgrounds and other design elements.</li><li>Standard print options; custom print options are optional.</li><li>Simple or no print previews.</li></ul> | 
+| <strong>Utilities or line-of-business applications</strong><br /> Used to perform simple, specific tasks. Targeted at all users. <br /> | <strong>User goals:</strong> Ability to export selected data efficiently. Users expect good results without any tweaking. Often for such programs, users are pleasantly surprised to find any printing support at all.<br /><strong>Recommended printing experience:</strong><br /><ul><li>Printing support is optional depending upon supported scenarios.</li><li>Output may be optimized for print (WYSIWYG), but this is not required.</li><li>Some document formatting features. Might be acceptable if large objects are truncated.</li><li>Standard print options.</li><li>Print previews optional.</li></ul> | 
+
 
 
 
@@ -365,6 +315,4 @@ The Print Preview mode in Word has an obvious close preview command.
 -   Use print, not print out, as a verb.
 -   It's acceptable to use printout to refer to the result of a print job.
 -   Use print queue, not printer queue.
-
- 
 

@@ -1,5 +1,5 @@
 ---
-Description: Indicate that the end of the media stream has been reached.
+description: Indicate that the end of the media stream has been reached.
 ms.assetid: 6d6bffcc-aa3c-4825-9268-00dcd2a347e6
 title: IMFMediaSourceExtension::SetEndOfStream method
 ms.topic: reference

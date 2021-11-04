@@ -70,7 +70,7 @@ The [**ITDirectory::Connect**](/windows/desktop/api/Rend/nf-rend-itdirectory-con
 
 
 
-|                         |                                                                                     |
+| Requirement | Value |
 |-------------------------|-------------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 3.0 or later<br/>                                               |
 | Header<br/>       | <dl> <dt>Rnderr.h</dt> </dl> |

@@ -14,8 +14,9 @@ A document can be signed by more than one signer. This happens when, for instanc
 
 If any CAPICOM error occurs, a negative value is returned in the **Err.Number** property. For more information about CAPICOM error codes, see [**CAPICOM\_ERROR\_CODE**](capicom-error-code.md). If the error code in the **Err.Number** property is a positive value, then the error is a Windows error. For information about Windows error codes, see Winerror.h.
 
-> [!Note]Cosigning a document also requires that the cosigner have an available [*certificate*](../secgloss/c-gly.md) with a [*private key*](../secgloss/p-gly.md) to create the signature. If a signer is not specified in the call of the [**Sign**](signeddata-sign.md) method and there is no certificate in CAPICOM\_MY\_STORE with an associated private key, the method fails. If there is one and only one certificate in CAPICOM\_MY\_STORE with an associated private key, that key and certificate are used. If there is more than one usable certificate, a prompt is displayed to allow the user to choose the desired certificate.
->
+> [!Note]
+> Cosigning a document also requires that the cosigner have an available [*certificate*](../secgloss/c-gly.md) with a [*private key*](../secgloss/p-gly.md) to create the signature. If a signer is not specified in the call of the [**Sign**](signeddata-sign.md) method and there is no certificate in CAPICOM\_MY\_STORE with an associated private key, the method fails. If there is one and only one certificate in CAPICOM\_MY\_STORE with an associated private key, that key and certificate are used. If there is more than one usable certificate, a prompt is displayed to allow the user to choose the desired certificate.
+> 
 > If the [**CoSign**](signeddata-cosign.md) method is used in a web-based application, a prompt is always displayed to get the user's permission before a signature is created by using that signer's private key.
 
  

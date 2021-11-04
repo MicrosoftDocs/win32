@@ -1,5 +1,5 @@
 ---
-Description: The IsFixedSize method determines if the samples have a fixed size or a variable size.
+description: The IsFixedSize method determines if the samples have a fixed size or a variable size.
 ms.assetid: bd49f01a-21bb-48a2-aa9e-94ea0d2dbab3
 title: CMediaType.IsFixedSize method (Mtype.h)
 ms.topic: reference
@@ -43,7 +43,7 @@ Returns the value of the **bFixedSizeSamples** member.
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Mtype.h (include Streams.h)</dt> </dl>                                                                                     |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

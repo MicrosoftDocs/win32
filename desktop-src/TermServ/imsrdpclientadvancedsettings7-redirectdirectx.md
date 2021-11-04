@@ -1,6 +1,6 @@
 ---
 title: IMsRdpClientAdvancedSettings7 RedirectDirectX property
-description: This property is not used.
+description: This property is not used. | IMsRdpClientAdvancedSettings7 RedirectDirectX property
 ms.assetid: a027d8d7-994f-4b24-8c46-18651c8e200b
 ms.tgt_platform: multiple
 keywords:

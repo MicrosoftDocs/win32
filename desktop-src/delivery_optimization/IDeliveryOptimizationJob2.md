@@ -32,8 +32,8 @@ The **IDeliveryOptimizationJob2** interface has these methods.
 
 | Method                                              | Description                                                          |
 |:----------------------------------------------------|----------------------------------------------------------------------|
-| [**AddFile**](ideliveryoptimizationjob2-addfile.md) | The AddFile method adds a single file to an existing DO job.         |
-| [**GetProperty**](ideliveryoptimizationjob2-getproperty.md) | The AddFile method adds a single file to an existing DO job. |
+| [**AddFile**](ideliveryoptimizationjob2-addfile.md) | The AddFile method adds a single file to an existing Delivery Optimization job.         |
+| [**GetProperty**](ideliveryoptimizationjob2-getproperty.md) | The AddFile method adds a single file to an existing Delivery Optimization job. |
 | [**SetProperty**](ideliveryoptimizationjob2-setproperty.md) | This method is unused.                                       |
 
 ## Requirements

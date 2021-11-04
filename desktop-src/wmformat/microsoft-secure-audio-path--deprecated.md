@@ -22,7 +22,7 @@ This page documents a feature that will be supported with a different technical 
 
 Content creators and distributors can specify in a DRM license that an audio file is only allowed to be played on a system with Microsoft Secure Audio Path (SAP) components. Secure Audio Path provides a much higher degree of protection to audio content by making it virtually impossible for untrusted applications or audio drivers to access the unencrypted audio bits. Secure Audio Path is supported on Microsoft Windows® Me and Windows XP. It secures digital music in the operating system kernel. In addition, the Digital Millennium Copyright Act makes circumventing antipiracy measures in software a crime.
 
-Secure Audio Path is activated and implemented completely automatically by the Microsoft DRM component when a DRM license requires SAP. For applications running on Windows® XP Service Pack 1, you can enable SAP encryption to any audio content, outside the context of the Microsoft DRM solution, by using the Secure Audio Path SDK. For more information on the Secure Audio Path SDK, see the [Microsoft Web site](https://msdn.microsoft.com/library/).
+Secure Audio Path is activated and implemented completely automatically by the Microsoft DRM component when a DRM license requires SAP. For applications running on Windows® XP Service Pack 1, you can enable SAP encryption to any audio content, outside the context of the Microsoft DRM solution, by using the Secure Audio Path SDK. For more information on the Secure Audio Path SDK, see the [Microsoft Web site](/documentation/).
 
 ## Related topics
 
@@ -34,7 +34,3 @@ Secure Audio Path is activated and implemented completely automatically by the M
  
 
  
-
-
-
-

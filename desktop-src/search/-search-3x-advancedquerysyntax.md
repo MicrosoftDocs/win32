@@ -45,7 +45,7 @@ A query consists of basic queries connected with AND, OR, and NOT, as shown in t
 
 If a query has two or more uses of AND or OR, they will bind from left to right, regardless of whether it is AND or OR. That is, the query, "apple AND pear OR plum" will be interpreted as if it were written as "(apple AND pear) OR plum", and the query, "apple OR pear AND plum", will be interpreted as if it were written as "(apple OR pear) AND plum". So if a document contains the word plum but neither apple, nor pear, the first query will return it but the second query will not. Hence, we recommend that you use explicit parentheses for any query that mixes AND and OR to avoid mistakes or misinterpretations.
 
-A basic query searches for items that satisfy a restriction over a property. The only required portion of a basic query is the restriction or search value. If you do not specify a property, Windows Search searches all properties. <restr> represents the search restriction.
+A basic query searches for items that satisfy a restriction over a property. The only required portion of a basic query is the restriction or search value. If you do not specify a property, Windows Search searches all properties. &lt;restr&gt; represents the search restriction.
 
 The following forms for a basic query are valid:
 
@@ -204,7 +204,7 @@ For more information about canonical properties and the property system generall
 
 ### Query Operators
 
-If a property, p, has multiple values for some item, an AQS query for p:<restr> returns the item if <restr> is **true** for at least one of the values. (<restr> represents a restriction.)
+If a property, p, has multiple values for some item, an AQS query for p:&lt;restr&gt; returns the item if &lt;restr&gt; is **true** for at least one of the values. (&lt;restr&gt; represents a restriction.)
 
 The syntax listed in the following table consists of an operator, operator symbol, example and example description. The operator and symbol can be used in any language and included in any query. Do not use the COP\_IMPLICIT or COP\_APPLICATION\_SPECIFIC operators. Some of the operators have interchangeable symbols.
 
@@ -212,10 +212,10 @@ The syntax listed in the following table consists of an operator, operator symbo
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col  />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -327,9 +327,9 @@ Useful examples of how query values can be restricted are listed in the followin
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">

@@ -44,7 +44,7 @@ winmgmt
 
 <dl> <dt>
 
-<span id="__________backup__filename_________"></span><span id="__________BACKUP__FILENAME_________"></span> **/backup** *<filename>* 
+<span id="__________backup__filename_________"></span><span id="__________BACKUP__FILENAME_________"></span> **/backup** *&lt;filename&gt;* 
 </dt> <dd>
 
 Causes WMI to back up the repository to the specified file name. The *filename* argument should contain the full path to the file location. This process requires a write lock on the repository so that write operations to the repository are suspended until the backup process is completed.
@@ -53,7 +53,7 @@ If you do not specify a path for the file, it is put in the %Windir%\\System32 d
 
 </dd> <dt>
 
-<span id="__________restore__filename____flag_____"></span><span id="__________RESTORE__FILENAME____FLAG_____"></span> **/restore** *<filename>* *<flag>* 
+<span id="__________restore__filename____flag_____"></span><span id="__________RESTORE__FILENAME____FLAG_____"></span> **/restore** *&lt;filename&gt;* *&lt;flag&gt;* 
 </dt> <dd>
 
 Manually restores the WMI repository from the specified backup file. The *filename* argument should contain the full path to the backup file location. To perform the restore operation, WMI saves the existing repository to write back if the operation fails. Then the repository is restored from the backup file that is specified in the *filename* argument. If exclusive access to the repository cannot be achieved, existing clients are disconnected from WMI.
@@ -62,7 +62,7 @@ The *flag* argument must be a 1 (force   disconnect users and restore) or 0 (def
 
 </dd> <dt>
 
-<span id="__________resyncperf__winmgmt-service-process-id_____"></span><span id="__________RESYNCPERF__WINMGMT-SERVICE-PROCESS-ID_____"></span> **/resyncperf** *<winmgmt-service-process-id>* 
+<span id="__________resyncperf__winmgmt-service-process-id_____"></span><span id="__________RESYNCPERF__WINMGMT-SERVICE-PROCESS-ID_____"></span> **/resyncperf** *&lt;winmgmt-service-process-id&gt;* 
 </dt> <dd>
 
 Registers the computer's performance libraries with WMI. WMI PID is the process ID for the WMI service.
@@ -71,7 +71,7 @@ Only needed if the performance monitor classes are not returning reliable result
 
 </dd> <dt>
 
-<span id="_standalonehost__level_"></span><span id="_STANDALONEHOST__LEVEL_"></span>**/standalonehost** \[*<level>*\]
+<span id="_standalonehost__level_"></span><span id="_STANDALONEHOST__LEVEL_"></span>**/standalonehost** \[*&lt;level&gt;*\]
 </dt> <dd>
 
 Moves the Winmgmt service to a standalone Svchost process that has a fixed DCOM endpoint. The default endpoint is "ncacn\_ip\_tcp.0.24158". However, the endpoint may be changed by running Dcomcnfg.exe. For more information about setting up a fixed port for WMI, see [Setting Up a Fixed Port for WMI](setting-up-a-fixed-port-for-wmi.md).
@@ -89,10 +89,10 @@ Moves the Winmgmt service into the shared Svchost process.
 
 </dd> <dt>
 
-<span id="__________verifyrepository__path_____"></span><span id="__________VERIFYREPOSITORY__PATH_____"></span> **/verifyrepository** *<path>* 
+<span id="__________verifyrepository__path_____"></span><span id="__________VERIFYREPOSITORY__PATH_____"></span> **/verifyrepository** *&lt;path&gt;* 
 </dt> <dd>
 
-Performs a consistency check on the WMI repository. When you add the **/verifyrepository** switch without the *<path>* argument, then the live repository currently used by WMI is verified. When you specify the *path* argument, you can verify any saved copy of the repository. In this case, the path argument should contain the full path to the saved repository copy. The saved repository should be a copy of the entire repository folder. For more information about errors returned by this command, see the Remarks section.
+Performs a consistency check on the WMI repository. When you add the **/verifyrepository** switch without the *&lt;path&gt;* argument, then the live repository currently used by WMI is verified. When you specify the *path* argument, you can verify any saved copy of the repository. In this case, the path argument should contain the full path to the saved repository copy. The saved repository should be a copy of the entire repository folder. For more information about errors returned by this command, see the Remarks section.
 
 </dd> <dt>
 

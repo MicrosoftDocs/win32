@@ -30,10 +30,11 @@ The International Color Consortium (ICC) has defined four different values calle
 
 | Intent                            | ICC Name              | Description                    |
 |-----------------------------------|-----------------------|--------------------------------|
-| [Picture](#-color-picture-intent) | Perceptual            | INTENT\_PERCEPTUAL             |
-| [Graphic](#-color-graphic-intent) | Saturation            | INTENT\_SATURATION             |
-| [Proof](#-color-proof-intent)     | Relative Colorimetric | INTENT\_RELATIVE\_COLORIMETRIC |
-| [Match](#-color-match-intent)     | Absolute Colorimetric | INTENT\_ABSOLUTE\_COLORIMETRIC |
+| Picture | Perceptual            | INTENT\_PERCEPTUAL             |
+| Graphic | Saturation            | INTENT\_SATURATION             |
+| Proof     | Relative Colorimetric | INTENT\_RELATIVE\_COLORIMETRIC |
+| Match     | Absolute Colorimetric | INTENT\_ABSOLUTE\_COLORIMETRIC |
+
 
 
 
@@ -43,7 +44,7 @@ The ICC Profile Format Specification Version 3.4, which describes these intents,
 
 ## Picture Intent
 
-Called perceptual intent in the ICC specification clause 4.9, a Picture intent causes the full [gamut](g.md) of the image to be compressed or expanded to fill the gamut of the destination device, so that gray balance is preserved but colorimetric accuracy may not be preserved.
+Called perceptual intent in the ICC specification clause 4.9, a Picture intent causes the full [gamut](./g.md) of the image to be compressed or expanded to fill the gamut of the destination device, so that gray balance is preserved but colorimetric accuracy may not be preserved.
 
 In other words, if certain colors in an image fall outside of the range of colors that the output device can render, the picture intent will cause all the colors in the image to be adjusted so that the every color in the image falls within the range that can be rendered and so that the relationship between colors is preserved as much as possible.
 
@@ -71,12 +72,8 @@ In a Match intent, any colors that fall outside the range that the output device
 
 Match intent preserves the white point.
 
-For example, the whitest white of a paper is more yellow than the whitest white of a computer monitor. An image converted into the [gamut](g.md) of the printer using match intent would result in all colors being converted and matched into the gamut of the printer. The white point of the image is not moved to match the white point of the printer. Therefore, the distance of the colors to the white point may change. This produces an image that is less visually disconcerting to the user, but is also a less accurate rendition of printer output.
+For example, the whitest white of a paper is more yellow than the whitest white of a computer monitor. An image converted into the [gamut](./g.md) of the printer using match intent would result in all colors being converted and matched into the gamut of the printer. The white point of the image is not moved to match the white point of the printer. Therefore, the distance of the colors to the white point may change. This produces an image that is less visually disconcerting to the user, but is also a less accurate rendition of printer output.
 
  
 
  
-
-
-
-

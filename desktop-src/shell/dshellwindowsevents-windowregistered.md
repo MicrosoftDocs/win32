@@ -13,15 +13,6 @@ api_type:
 api_location: 
 - Shdocvw.dll
 ms.assetid: 7faf758a-daa0-47f5-9f95-61fe3d8286ea
-api_name: 
- - DShellWindowsEvents.WindowRegistered
-api_type: 
- - COM
-api_location: 
- - Shdocvw.dll
-topic_type: 
- - APIRef
- - kbSyntax
 
 ---
 
@@ -65,7 +56,7 @@ A window is granted a cookie when it is registered as a Shell window. For more i
 
 
 
-|                    |                                                                                                                          |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------|
 | Product<br/> | Internet Explorer 5<br/>                                                                                           |
 | DLL<br/>     | <dl> <dt>Shdocvw.dll (version 5.00.2014.0216 or later)</dt> </dl> |

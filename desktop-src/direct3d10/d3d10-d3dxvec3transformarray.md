@@ -1,5 +1,5 @@
 ---
-description: Transforms an array (x, y, z, 1) by a given matrix.
+description: D3DXVec3TransformArray function (D3DX10Math.h) - Transforms an array (x, y, z, 1) by a given matrix.
 ms.assetid: f64c55df-ea93-4c93-be89-eee650e6ecf0
 title: D3DXVec3TransformArray function (D3DX10Math.h)
 ms.topic: reference
@@ -109,7 +109,7 @@ The return value for this function is the same value returned in the pOut parame
 
 
 
-|                   |                                                                                         |
+| Requirement | Value |
 |-------------------|-----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3DX10Math.h</dt> </dl> |
 

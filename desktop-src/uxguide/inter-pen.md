@@ -9,7 +9,7 @@ ms.date: 10/20/2020
 # Pen
 
 > [!NOTE]
-> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](https://docs.microsoft.com/windows/uwp/design/).
+> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](/windows/uwp/design/).
 
 All Microsoft Windows applications should be pen enabled. And doing so is easier than you think.
 
@@ -104,9 +104,8 @@ System gestures are defined and handled by Windows. As a result, all Windows pro
 
 
 
-|                                                            |                                               |
+| System gesture                                                           | Synthesized equivalent message                                              |
 |------------------------------------------------------------|-----------------------------------------------|
-| **System gesture**<br/>                              | **Synthesized equivalent message**<br/> |
 | Hover (when supported)<br/>                          | Mouse hover<br/>                        |
 | Tap (down and up)<br/>                               | Mouse left-click<br/>                   |
 | Double tap (down and up twice)<br/>                  | Mouse double left-click<br/>            |
@@ -125,7 +124,7 @@ System gestures are defined and handled by Windows. As a result, all Windows pro
 
 Flicks are simple gestures that are roughly the equivalent of keyboard shortcuts. Navigational flicks include drag up, drag down, move back, and move forward. Editing flicks include copy, paste, undo, and delete. To use flicks, your program only needs to respond to the related keystrokes commands.
 
-![figure of flick gestures such as the move gesture ](images/inter-pen-image5.png)
+![Diagram that shows flick gestures and their default assignments in Windows 7.](images/inter-pen-image5.png)
 
 The eight flick gestures and their default assignments in Windows 7. The navigation flicks were changed to correspond to panning (where the object moves with the gesture) instead of scrolling (where the object moves in the opposite direction of the gesture).
 
@@ -137,9 +136,8 @@ The navigational flicks have natural mapping, so they are easy to learn and reme
 
 
 
-|                                      |                                                             |
+| Flick                                     | Synthesized equivalent message                                                            |
 |--------------------------------------|-------------------------------------------------------------|
-| **Flick**<br/>                 | **Synthesized equivalent message**<br/>               |
 | Flick left<br/>                | Forward command (Back command for Windows Vista)<br/> |
 | Flick right<br/>               | Back command (Forward command for Windows Vista)<br/> |
 | Flick up<br/>                  | Keyboard Scroll Down<br/>                             |
@@ -241,6 +239,4 @@ When referring to pen input:
 -   Refer to the button on the side of a pen as the pen button, not the barrel button.
 -   Refer generically to the keyboard, mouse, trackball, pen, or finger as an input device.
 -   Use tap (and double-tap) instead of click when documenting procedures specific to using a pen. Tap means to press the screen and then lift before a hold time. It may or may not be used to generate a mouse click. For interactions that don't involve the pen, continue to use click.
-
- 
 

@@ -1,5 +1,5 @@
 ---
-description: Sent to the CPlApplet function of a Control Panel application to request information about a dialog box that the application supports.
+description: CPL_INQUIRE message - Sent to the CPlApplet function of a Control Panel application to request information about a dialog box that the application supports.
 title: CPL_INQUIRE message (Cpl.h)
 ms.topic: reference
 ms.date: 05/31/2018

@@ -1,5 +1,5 @@
 ---
-description: Not supported.
+description: IAMTimelineObj::ClearDirty method - Not supported.
 ms.assetid: 2d6efa65-79ae-4c31-bd98-ad69baea4da2
 title: IAMTimelineObj::ClearDirty method (Qedit.h)
 ms.topic: reference
@@ -58,7 +58,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

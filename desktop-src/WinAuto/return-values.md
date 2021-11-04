@@ -16,7 +16,7 @@ The [**IAccessible**](/windows/desktop/api/oleacc/nn-oleacc-iaccessible) methods
 
 
 
-|                         |                                                                                                                                                                                                                                                                                                                                                                                           |
+|   Value                      |   Description                                                                                                                                                                                                                                                                                                                                                                                        |
 |-------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | S\_OK                   | The method succeeded.                                                                                                                                                                                                                                                                                                                                                                     |
 | S\_FALSE                | The method succeeded in part. This happens when the method succeeds, but the requested information is not available. For example, Microsoft Active Accessibility returns S\_FALSE if you call [**IAccessible::accHitTest**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-acchittest) to retrieve a child object at a given point, and the specified point is not within the object or the object's child. |
@@ -36,7 +36,7 @@ The following are return values that [**IAccessible**](/windows/desktop/api/olea
 
 
 
-|                        |                                                                                      |
+|    Value                    |    Description                                                                                  |
 |------------------------|--------------------------------------------------------------------------------------|
 | E\_ACCESSDENIED        | This is returned when you call get\_accValue to get the value of a password control. |
 | DISP\_E\_EXCEPTION     |                                                                                      |

@@ -1,6 +1,6 @@
 ---
 title: IWMPMetadataPicture URL property
-description: This property is for internal use only.
+description: This property is for internal use only. | IWMPMetadataPicture URL property
 ms.assetid: 34e01c7b-cac2-4c16-8ed7-0f62652ac5be
 keywords:
 - URL property Windows Media Player
@@ -45,7 +45,7 @@ Public ReadOnly Property URL As System.String
 
 
 
-|                      |                                                                                                                        |
+| Requirement | Value |
 |----------------------|------------------------------------------------------------------------------------------------------------------------|
 | Version<br/>   | Windows Media Player 9 Series or later<br/>                                                                      |
 | Namespace<br/> | **WMPLib**<br/>                                                                                                  |

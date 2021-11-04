@@ -1,5 +1,5 @@
 ---
-description: Uses a compiled high-level shader language (HLSL) function to fill each texel of each mipmap level of a texture.
+description: D3DXFillTextureTX function - Uses a compiled high-level shader language (HLSL) function to fill each texel of each mipmap level of a texture.
 ms.assetid: 013660ce-865e-4acf-a1ea-670e70377ff5
 title: D3DXFillTextureTX function (D3dx9tex.h)
 ms.topic: reference
@@ -102,7 +102,7 @@ Note that the input parameters can be in any order, but both input semantics mus
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9tex.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>  |

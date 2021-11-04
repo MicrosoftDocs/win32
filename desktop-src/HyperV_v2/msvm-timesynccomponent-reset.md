@@ -1,5 +1,5 @@
 ---
-description: Requests a reset.
+description: Reset method of the Msvm_TimeSyncComponent class - Requests a reset.
 ms.assetid: fb0ce09b-0d14-4de8-b2e5-4d86169b261b
 title: Reset method of the Msvm_TimeSyncComponent class
 ms.topic: reference

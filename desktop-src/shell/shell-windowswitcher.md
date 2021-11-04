@@ -1,5 +1,5 @@
 ---
-description: Displays your open windows in a 3D stack that you can flip through.
+description: Shell::WindowSwitcher method - Displays your open windows in a 3D stack that you can flip through.
 title: Shell::WindowSwitcher method (Shldisp.h)
 ms.topic: reference
 ms.date: 05/31/2018
@@ -13,15 +13,6 @@ api_type:
 api_location: 
 - Shldisp.h
 ms.assetid: 89825430-C28E-4d38-A8F7-69A1408DDD73
-api_name: 
- - Shell.WindowSwitcher
-api_type: 
- - COM
-api_location: 
- - Shldisp.h
-topic_type: 
- - APIRef
- - kbSyntax
 
 ---
 

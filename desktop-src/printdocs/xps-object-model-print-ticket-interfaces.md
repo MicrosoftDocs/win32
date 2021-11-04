@@ -28,9 +28,9 @@ There are three print ticket levels, which specify the scope of the print ticket
 
 ## Print Ticket Content
 
-The content of an existing print ticket resource can be accessed by reading from the stream associated with the resource. The [**GetStream**](/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomprintticketresource-getstream) method of the [**IXpsOMPrintTicketResource**](/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomprintticketresource) interface returns the pointer to a read-only stream that contains the XML-formatted contents of the print ticket. The format of the print ticket content is described in the [Print Schema Specification](https://www.microsoft.com/whdc/xps/printschema.mspx).
+The content of an existing print ticket resource can be accessed by reading from the stream associated with the resource. The [**GetStream**](/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomprintticketresource-getstream) method of the [**IXpsOMPrintTicketResource**](/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomprintticketresource) interface returns the pointer to a read-only stream that contains the XML-formatted contents of the print ticket. The format of the print ticket content is described in the [Print Schema Specification](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip).
 
-A new print ticket resource can be created by creating a new [**IXpsOMPrintTicketResource**](/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomprintticketresource) interface. A valid, XML-formatted print ticket is written to a stream and a part URI is created to identify the print ticket part. For more information about the content of a valid print ticket, refer to the [Print Schema Specification](https://www.microsoft.com/whdc/xps/printschema.mspx). The stream and the part URI are passed as parameters of the [**SetContent**](/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomprintticketresource-setcontent) call to set the new print ticket resource and the print ticket resource is added to the corresponding document part by calling the **SetPrintTicketResource** method shown in the preceding table.
+A new print ticket resource can be created by creating a new [**IXpsOMPrintTicketResource**](/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomprintticketresource) interface. A valid, XML-formatted print ticket is written to a stream and a part URI is created to identify the print ticket part. For more information about the content of a valid print ticket, refer to the [Print Schema Specification](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip). The stream and the part URI are passed as parameters of the [**SetContent**](/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomprintticketresource-setcontent) call to set the new print ticket resource and the print ticket resource is added to the corresponding document part by calling the **SetPrintTicketResource** method shown in the preceding table.
 
 ## Print Ticket Inheritance
 
@@ -40,7 +40,7 @@ Print tickets inherit the properties of print tickets with greater scope. For ex
 
 <dl> <dt>
 
-[Print Schema Specification](https://www.microsoft.com/whdc/xps/printschema.mspx)
+[Print Schema Specification](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip)
 </dt> <dt>
 
 [**IXpsOMDocument**](/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomdocument)

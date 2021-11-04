@@ -36,7 +36,7 @@ None.
 
 
 
-|              |                                                                   |
+|  Element     | Value                                                             |
 |--------------|-------------------------------------------------------------------|
 | Element type | [**StationeryType**](stationerytype-complex-type.md) complexType |
 | Namespace    | urn:schemas-microsoft-com:tabletpc:richink                        |

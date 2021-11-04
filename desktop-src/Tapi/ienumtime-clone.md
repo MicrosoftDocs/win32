@@ -1,5 +1,5 @@
 ---
-description: The Clone method creates another enumerator that contains the same enumeration state as the current one.
+description: IEnumTime::Clone method - The Clone method creates another enumerator that contains the same enumeration state as the current one.
 ms.assetid: 0e9973de-d179-4a2d-a9bd-6d5f2523da52
 title: IEnumTime::Clone method (Sdpblb.h)
 ms.topic: reference
@@ -59,7 +59,7 @@ TAPI calls the **AddRef** method on the [**IEnumTime**](ienumtime.md) interface 
 
 
 
-|                         |                                                                                       |
+| Requirement | Value |
 |-------------------------|---------------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 3.0 or later<br/>                                                 |
 | Header<br/>       | <dl> <dt>Sdpblb.h</dt> </dl>   |

@@ -60,42 +60,15 @@ A pointer to the count of global system parameters that were successfully config
 
 This function returns the [JET_ERR](./jet-err.md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](./extensible-storage-engine-errors.md) and [Error Handling Parameters](./error-handling-parameters.md).
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Return code</p></th>
-<th><p>Description</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_errSuccess</p></td>
-<td><p>The operation completed successfully.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errIndexTuplesInvalidLimits</p></td>
-<td><p>The specified tuple index parameters were not allowed. This error can be returned by <strong>JetEnableMultiInstance</strong> only when setting <a href="gg294119(v=exchg.10).md">JET_paramIndexTuplesLengthMin</a>, <a href="gg294119(v=exchg.10).md">JET_paramIndexTuplesLengthMax</a>, or <a href="gg294119(v=exchg.10).md">JET_paramIndexTuplesToIndexMax</a> to an illegal value.</p>
-<p><strong>Windows XP:</strong>  This return value is introduced in Windows XP.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errInvalidPath</p></td>
-<td><p>The specified file system path was invalid. This error can be returned by <strong>JetEnableMultiInstance</strong> only when setting system parameters that represent file system paths. For example, <a href="gg269235(v=exchg.10).md">JET_paramSystemPath</a> can return this error.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errRunningInOneInstanceMode</p></td>
-<td><p>The operation failed because it is illegal when the database engine is operating in single instance mode (Windows 2000 compatibility mode).</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errSystemParamsAlreadySet</p></td>
-<td><p><strong>JetEnableMultiInstance</strong> failed because the engine is already in multi-instance mode.</p>
-<p><strong>Note  </strong>This will happen even if no system parameters are specified.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Return code</p> | <p>Description</p> | 
+|--------------------|--------------------|
+| <p>JET_errSuccess</p> | <p>The operation completed successfully.</p> | 
+| <p>JET_errIndexTuplesInvalidLimits</p> | <p>The specified tuple index parameters were not allowed. This error can be returned by <strong>JetEnableMultiInstance</strong> only when setting <a href="gg294119(v=exchg.10).md">JET_paramIndexTuplesLengthMin</a>, <a href="gg294119(v=exchg.10).md">JET_paramIndexTuplesLengthMax</a>, or <a href="gg294119(v=exchg.10).md">JET_paramIndexTuplesToIndexMax</a> to an illegal value.</p><p><strong>Windows XP:</strong>  This return value is introduced in Windows XP.</p> | 
+| <p>JET_errInvalidPath</p> | <p>The specified file system path was invalid. This error can be returned by <strong>JetEnableMultiInstance</strong> only when setting system parameters that represent file system paths. For example, <a href="gg269235(v=exchg.10).md">JET_paramSystemPath</a> can return this error.</p> | 
+| <p>JET_errRunningInOneInstanceMode</p> | <p>The operation failed because it is illegal when the database engine is operating in single instance mode (Windows 2000 compatibility mode).</p> | 
+| <p>JET_errSystemParamsAlreadySet</p> | <p><strong>JetEnableMultiInstance</strong> failed because the engine is already in multi-instance mode.</p><p><strong>Note  </strong>This will happen even if no system parameters are specified.</p> | 
+
 
 
 If this function succeeds, the database engine will be configured to run in multi-instance mode. The engine was also successfully configured with the optional list of global system parameters.
@@ -108,38 +81,16 @@ This function should only be used if the application must configure a given set 
 
 #### Requirements
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Client</strong></p></td>
-<td><p>Requires Windows Vista or Windows XP.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Server</strong></p></td>
-<td><p>Requires Windows Server 2008 or Windows Server 2003.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>Header</strong></p></td>
-<td><p>Declared in Esent.h.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Library</strong></p></td>
-<td><p>Use ESENT.lib.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>DLL</strong></p></td>
-<td><p>Requires ESENT.dll.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Unicode</strong></p></td>
-<td><p>Implemented as <strong>JetEnableMultiInstanceW</strong> (Unicode) and <strong>JetEnableMultiInstanceA</strong> (ANSI).</p></td>
-</tr>
-</tbody>
-</table>
+
+| Requirement | Value |
+|------------|----------|
+| <p><strong>Client</strong></p> | <p>Requires Windows Vista or Windows XP.</p> | 
+| <p><strong>Server</strong></p> | <p>Requires Windows Server 2008 or Windows Server 2003.</p> | 
+| <p><strong>Header</strong></p> | <p>Declared in Esent.h.</p> | 
+| <p><strong>Library</strong></p> | <p>Use ESENT.lib.</p> | 
+| <p><strong>DLL</strong></p> | <p>Requires ESENT.dll.</p> | 
+| <p><strong>Unicode</strong></p> | <p>Implemented as <strong>JetEnableMultiInstanceW</strong> (Unicode) and <strong>JetEnableMultiInstanceA</strong> (ANSI).</p> | 
+
 
 
 #### See Also

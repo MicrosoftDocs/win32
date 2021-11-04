@@ -1,5 +1,5 @@
 ---
-description: The required <propertyBag> element specifies a set of one or more properties used by this location provider.
+description: The required &lt;propertyBag&gt; element specifies a set of one or more properties used by this location provider.
 ms.assetid: 63f8f2e4-3b52-4d6e-8d3a-2e133aac0e86
 title: propertyBag Element (Search Connector Schema)
 ms.topic: article
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # propertyBag Element (Search Connector Schema)
 
-The required <propertyBag> element specifies a set of one or more properties used by this location provider.
+The required &lt;propertyBag&gt; element specifies a set of one or more properties used by this location provider.
 
 ## Syntax
 

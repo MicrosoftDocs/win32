@@ -73,8 +73,8 @@ The following table provides a detailed overview of the Windows platform support
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">

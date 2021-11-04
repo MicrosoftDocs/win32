@@ -9,7 +9,7 @@ ms.date: 10/20/2020
 # Command Links
 
 > [!NOTE]
-> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](https://docs.microsoft.com/windows/uwp/design/).
+> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](/windows/uwp/design/).
 
 With command links, users select a single response to a main instruction and by doing so, move on to the next step in a task.
 
@@ -85,7 +85,7 @@ To decide, consider these questions:
 
     **Correct:**
 
-    ![screen shot of dialog box with commit buttons ](images/ctrl-command-links-image9.png)
+    ![Screenshot that shows a dialog box with 'Save', 'Don't save', and 'Cancel' commit buttons.](images/ctrl-command-links-image9.png)
 
     In this example, using simple commit buttons gets right to the point.
 
@@ -160,9 +160,9 @@ Command links have several usage patterns:
 
 
 
-|                                                                                                                          |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| Usage                                                                                                                      | Example                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 |--------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Page responses** Command links are used to respond to the main instruction and advance to the next page.    | with this pattern, the command links replace the next button, but there is still a cancel button.<br/>Page responses don't imply commitment. because command links look like links and users associate links with navigation within a page flow, links aren't appropriate for commit pages. users should always be able to back out. <br/> ![screen shot of dialog box with command links ](images/ctrl-command-links-image16.png)<br/>In this example, command links are used to give descriptive responses to the main instruction. While radio buttons could be used here, command links allow users to respond with a single click.<br/> |
+| **Page responses** Command links are used to respond to the main instruction and advance to the next page.    | with this pattern, the command links replace the next button, but there is still a cancel button.<br/>Page responses don't imply commitment. because command links look like links and users associate links with navigation within a page flow, links aren't appropriate for commit pages. users should always be able to back out. <br/> ![Screenshot that shows a 'Connect to the Internet' dialog box with 'Wireless', 'Broadband (PPPoE)', and 'Dial-up' command links.](images/ctrl-command-links-image16.png)<br/>In this example, command links are used to give descriptive responses to the main instruction. While radio buttons could be used here, command links allow users to respond with a single click.<br/> |
 | **Dialog box responses** Command links are used to respond to the main instruction and close the dialog box.  | with this pattern, the command links replace the commit buttons (such as ok), but there is still a cancel button.<br/>Unlike page flows, there is no way to back out of a dialog box-based response once it has been made. consequently, dialog box command links imply commitment. <br/> ![screen shot of dialog box with command links ](images/ctrl-command-links-image17.png)<br/>In this example, command links are used to give descriptive responses to the main instruction. While radio buttons could be used here, command links allow users to choose with a single click.<br/>                                                   |
 | **Detailed responses** A page or dialog response that includes detailed information.                          | on occasion, users may need more detailed information to choose their response. <br/> ![screen shot of copy file dialog box and thumbnails ](images/ctrl-command-links-image18.png)<br/> In this example, detailed command links are used so that users can make informed decisions. The thumbnails and file details help users decide.<br/>                                                                                                                                                                                                                                                                                                         |
 
@@ -302,10 +302,4 @@ When referring to command links:
 Click **Reset the network adapter**. (For a command link labeled "Reset the network adaptor *adaptor name*".)
 
  
-
- 
-
-
-
-
 

@@ -1,5 +1,5 @@
 ---
-Description: The get\_CurrentStream method retrieves the stream number currently used by the media detector.
+description: The get\_CurrentStream method retrieves the stream number currently used by the media detector.
 ms.assetid: 0f590498-e639-4b6b-be1d-f1e4a36282cb
 title: IMediaDet::get_CurrentStream method (Qedit.h)
 ms.topic: reference
@@ -67,7 +67,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

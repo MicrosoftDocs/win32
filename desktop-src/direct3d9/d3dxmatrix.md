@@ -1,5 +1,5 @@
 ---
-description: A 4x4 matrix that contains methods and operator overloads.
+description: D3DXMATRIX structure (D3dx9math.h) - A 4x4 matrix that contains methods and operator overloads.
 ms.assetid: 0911088b-50cf-4c4a-996e-351386fc359b
 title: D3DXMATRIX structure (D3dx9math.h)
 ms.topic: reference
@@ -115,7 +115,7 @@ typedef struct _D3DMATRIX D3DXMATRIX, *LPD3DXMATRIX;
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3dx9math.h</dt> </dl> |
 

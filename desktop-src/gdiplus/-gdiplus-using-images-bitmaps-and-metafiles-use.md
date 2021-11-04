@@ -1,5 +1,5 @@
 ---
-description: Windows GDI+ provides the Image class for working with raster images (bitmaps) and vector images (metafiles).
+description: Learn about using images, bitmaps, and metafiles. Windows GDI+ provides the Image class for working with raster images (bitmaps) and vector images (metafiles).
 ms.assetid: 57e3bf33-5490-4f4a-addf-356ef8f1aeed
 title: Using Images, Bitmaps, and Metafiles
 ms.topic: article

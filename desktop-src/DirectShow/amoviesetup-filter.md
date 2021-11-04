@@ -86,7 +86,7 @@ For information about using this structure, see [How to Register DirectShow Filt
 
 
 
-|                   |                                                                                                          |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Combase.h (include Streams.h)</dt> </dl> |
 

@@ -1,5 +1,5 @@
 ---
-description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: Review GPD keywords without PrintCapabilities document equivalents. This topic isn't current. For the most current information, see the Print Schema Specification.
 ms.assetid: f1b94241-5376-423f-b10a-336dc47f3d59
 title: Note to GPD Authors
 ms.topic: article
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Note to GPD Authors
 
-This topic is not current. For the most current information, see the [Print Schema Specification](https://www.microsoft.com/whdc/xps/printschema.mspx).
+This topic is not current. For the most current information, see the [Print Schema Specification](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip).
 
 For those authors of PrintCapabilities documents who are familiar with GPD files, some GPD keywords have no equivalents in the PrintCapabilities document. The following table contains the GPD keywords without a PrintCapabilities document equivalent, and the reason there is no equivalent.
 
@@ -29,7 +29,7 @@ For those authors of PrintCapabilities documents who are familiar with GPD files
 
 <dl> <dt>
 
-[Print Schema Specification](https://www.microsoft.com/whdc/xps/printschema.mspx)
+[Print Schema Specification](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip)
 </dt> </dl>
 
  

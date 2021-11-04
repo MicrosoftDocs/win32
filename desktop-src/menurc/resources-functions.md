@@ -1,6 +1,6 @@
 ---
 title: Resource Functions (Menus and Other Resources)
-description: .
+description: Resource Functions (Menus and Other Resources)
 ms.assetid: dfeaaf01-f947-453e-946e-65ad9ec40958
 ms.topic: article
 ms.date: 05/31/2018
@@ -17,7 +17,7 @@ ms.date: 05/31/2018
 -   [*EnumResNameProc*](/windows/win32/api/libloaderapi/nc-libloaderapi-enumresnameproca)
 -   [**EnumResourceLanguages**](/windows/desktop/api/Winbase/nf-winbase-enumresourcelanguagesa)
 -   [**EnumResourceLanguagesEx**](/windows/win32/api/libloaderapi/nf-libloaderapi-enumresourcelanguagesexa)
--   [**EnumResourceNames**](/windows/desktop/api/Winbase/nf-winbase-enumresourcenamesa)
+-   [**EnumResourceNames**](/windows/desktop/api/libloaderapi/nf-libloaderapi-enumresourcenamesa)
 -   [**EnumResourceNamesEx**](/windows/win32/api/libloaderapi/nf-libloaderapi-enumresourcenamesexa)
 -   [**EnumResourceTypes**](/windows/desktop/api/Winbase/nf-winbase-enumresourcetypesa)
 -   [**EnumResourceTypesEx**](/windows/win32/api/libloaderapi/nf-libloaderapi-enumresourcetypesexa)

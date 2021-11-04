@@ -1,5 +1,5 @@
 ---
-description: Determines whether a ray intersects the volume of a box's bounding box.
+description: The D3DXBoxBoundProbe function (D3DX10math.h) determines whether a ray intersects the volume of a box's bounding box.
 ms.assetid: d3cdcf89-461b-44b0-b5d0-ca2e3869a5ad
 title: D3DXBoxBoundProbe function (D3DX10math.h)
 ms.topic: reference
@@ -16,7 +16,7 @@ api_location:
 - D3DX10.dll
 ---
 
-# D3DXBoxBoundProbe function
+# D3DXBoxBoundProbe function (D3DX10math.h)
 
 Determines whether a ray intersects the volume of a box's bounding box.
 
@@ -120,10 +120,10 @@ The depth of the bounding box in the z direction is zmax - zmin, in the y direct
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3DX10math.h</dt> </dl> |
-| Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl>   |
+| Header  | D3DX10math.h |
+| Library | D3DX10.lib  |
 
 
 

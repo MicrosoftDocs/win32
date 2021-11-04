@@ -1,5 +1,5 @@
 ---
-description: Cipher suites can only be negotiated for TLS versions which support them. The highest supported TLS version is always preferred in the TLS handshake.
+description: Learn about TLS cipher suites in Windows 10 v1809. Cipher suites can only be negotiated for TLS versions which support them.
 title: TLS Cipher Suites in Windows 10 v1809
 ms.topic: article
 ms.date: 10/09/2018
@@ -72,7 +72,7 @@ The following cipher suites are supported by the Microsoft Schannel Provider, bu
 | TLS\_RSA\_WITH\_RC4\_128\_MD5<br/>                                                          | No<br/>                       | TLS 1.2, TLS 1.1, TLS 1.0, SSL 3.0<br/> |
 | TLS\_RSA\_WITH\_DES\_CBC\_SHA<br/>                                                          | No<br/>                       | TLS 1.2, TLS 1.1, TLS 1.0, SSL 3.0<br/> |
 | TLS\_DHE\_DSS\_WITH\_DES\_CBC\_SHA<br/>                                                     | No<br/>                       | TLS 1.2, TLS 1.1, TLS 1.0, SSL 3.0<br/> |
-| TLS\_DHE\_DSS\_EXPORT1024\_WITH\_DES\_CBC\_SHA No TLS 1.2, TLS 1.1, TLS 1.0, SSL 3.0<br/>   | No<br/>                       | TLS 1.2, TLS 1.1, TLS 1.0, SSL 3.0<br/> |
+| TLS\_DHE\_DSS\_EXPORT1024\_WITH\_DES\_CBC\_SHA<br/>                                         | No<br/>                       | TLS 1.2, TLS 1.1, TLS 1.0, SSL 3.0<br/> |
 | TLS\_RSA\_WITH\_NULL\_MD5 <br/> Only used when application explicitly requests. <br/> | No<br/>                       | TLS 1.2, TLS 1.1, TLS 1.0, SSL 3.0<br/> |
 | TLS\_RSA\_EXPORT1024\_WITH\_RC4\_56\_SHA<br/>                                               | No<br/>                       | TLS 1.2, TLS 1.1, TLS 1.0, SSL 3.0<br/> |
 | TLS\_RSA\_EXPORT\_WITH\_RC4\_40\_MD5<br/>                                                   | No<br/>                       | TLS 1.2, TLS 1.1, TLS 1.0, SSL 3.0<br/> |

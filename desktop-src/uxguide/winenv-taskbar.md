@@ -9,7 +9,7 @@ ms.date: 10/20/2020
 # Taskbar
 
 > [!NOTE]
-> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](https://docs.microsoft.com/windows/uwp/design/).
+> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](/windows/uwp/design/).
 
 The taskbar is the access point for programs displayed on the desktop. With the new Windows 7 taskbar features, users can give commands, access resources, and view program status directly from the taskbar.
 
@@ -227,9 +227,8 @@ For general icon guidelines and examples, see [Icons](vis-icons.md).
 -   **Don't flash the taskbar button to draw attention to a status change.** Doing so would be too distracting. Let users discover overlay icons on their own.
 -   **Prefer standard overlay icons to indicate status or status changes.** Use these standard overlay icons: 
 
-    |                                                                                                   |                                  |
+    | Overlay | Status |
     |---------------------------------------------------------------------------------------------------|----------------------------------|
-    | **Overlay**<br/>                                                                            | **Status**<br/>            |
     | ![screen shot of small warning icon ](images/winenv-taskbar-image20.png)<br/>               | Warning<br/>               |
     | ![screen shot of small error icon ](images/winenv-taskbar-image21.png)<br/>                 | Error<br/>                 |
     | ![screen shot of small disabled/disconnected icon ](images/winenv-taskbar-image22.png)<br/> | Disabled/Disconnected<br/> |
@@ -508,10 +507,4 @@ When referring to the taskbar:
 Example: The New Mail taskbar button icon notifies you that a new e-mail message has arrived.
 
  
-
- 
-
-
-
-
 

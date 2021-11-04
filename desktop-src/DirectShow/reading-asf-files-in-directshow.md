@@ -1,5 +1,5 @@
 ---
-description: Reading ASF Files in DirectShow
+description: Use the resources in this article to learn about reading Advanced Systems Format files in DirectShow.
 ms.assetid: bd57334b-22b3-40e2-8841-e5d2df196eef
 title: Reading ASF Files in DirectShow (DirectShow)
 ms.topic: article

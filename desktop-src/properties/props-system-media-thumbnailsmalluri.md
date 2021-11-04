@@ -1,5 +1,5 @@
 ---
-Description: Uri of the large thumbnail representation of the media item.
+description: Understand the System.Media.ThumbnailSmallUri property, which represents the URI of the small thumbnail representation of the media item.
 ms.assetid: 063ab14e-1cb1-4938-99b2-ebc4d53adaae
 title: System.Media.ThumbnailSmallUri
 ms.topic: article
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # System.Media.ThumbnailSmallUri
 
-Uri of the large thumbnail representation of the media item.
+Uri of the small thumbnail representation of the media item.
 
 ## Windows 10, version 1703, Windows 10, version 1607, Windows 10, version 1511, Windows 10, version 1507
 

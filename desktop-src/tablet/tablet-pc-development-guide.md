@@ -38,7 +38,7 @@ This section contains programming documentation, sample program descriptions, an
 
 <dl> <dt>
 
-[Frequently Asked Questions](frequently-asked-questions.md)
+[Frequently Asked Questions](frequently-asked-questions.yml)
 </dt> </dl>
 
  

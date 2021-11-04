@@ -46,7 +46,7 @@ Filters set the *lParam2* parameter to an [**IBaseFilter**](/windows/desktop/api
 
 
 
-|                   |                                                                                    |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Dshow.h</dt> </dl> |
 

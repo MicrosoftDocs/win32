@@ -9,11 +9,11 @@ ms.date: 10/20/2020
 # Balloons
 
 > [!NOTE]
-> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](https://docs.microsoft.com/windows/uwp/design/).
+> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](/windows/uwp/design/).
 
 A balloon is a small pop-up window that informs users of a non-critical problem or special condition in a control.
 
-![screen shot of a balloon indicating caps lock is on](images/ctrl-balloons-image1.png)
+![Screenshot that shows a balloon indicating that Caps Lock is on.](images/ctrl-balloons-image1.png)
 
 A typical balloon.
 
@@ -67,10 +67,10 @@ Balloons have these usage patterns:
 
 
 
-|                                                                                                                                                                       |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+|   Usage                                                                                                                                                            |    Example                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Input problem** A non-critical user input problem coming from a single owner control, usually a text box. <br/>                                               | using balloons for error messages doesn't steal input focus, yet is still very noticeable if the owner control has input focus. to correct the problem, the user may have to change or reenter the input; but if the owner control ignores incorrect input, the user may not have to make any changes at all. because the problem isn't critical, no [error icon](vis-std-icons.md) is necessary. <br/> ![screen shot of a balloon indicating incorrect input](images/ctrl-balloons-image3.png)<br/> A balloon used to report a non-critical user input problem.<br/>                                                                                                  |
-| **Special condition** The owner control is in a state that affects input. This state is likely unintended and the user may not realize input is affected. <br/> | use balloons to prevent frustration by alerting users of special conditions as soon as they happen (for example, exceeding maximum input size or setting caps lock on by mistake). it is important to give such feedback without stealing input focus or forcing interaction because these conditions might be intentional. these balloons are especially important for password and pin boxes, where users are otherwise working with minimal feedback. these balloons have a [warning icon](vis-std-icons.md). <br/> ![screen shot of a balloon indicating caps lock is on](images/ctrl-balloons-image4.png)<br/> A balloon used to report a special condition.<br/> |
+| **Input problem** A non-critical user input problem coming from a single owner control, usually a text box. <br/>                                               | using balloons for error messages doesn't steal input focus, yet is still very noticeable if the owner control has input focus. to correct the problem, the user may have to change or reenter the input; but if the owner control ignores incorrect input, the user may not have to make any changes at all. because the problem isn't critical, no [error icon](vis-std-icons.md) is necessary. <br/> ![Screenshot that shows a balloon indicating an incorrect character.](images/ctrl-balloons-image3.png)<br/> A balloon used to report a non-critical user input problem.<br/>                                                                                                  |
+| **Special condition** The owner control is in a state that affects input. This state is likely unintended and the user may not realize input is affected. <br/> | use balloons to prevent frustration by alerting users of special conditions as soon as they happen (for example, exceeding maximum input size or setting caps lock on by mistake). it is important to give such feedback without stealing input focus or forcing interaction because these conditions might be intentional. these balloons are especially important for password and pin boxes, where users are otherwise working with minimal feedback. these balloons have a [warning icon](vis-std-icons.md). <br/> ![Screenshot that shows balloons indicating Caps Lock is on and an incorrect character is entered.](images/ctrl-balloons-image4.png)<br/> A balloon used to report a special condition.<br/> |
 
 
 
@@ -145,15 +145,10 @@ In this example, a balloon indicates that the user attempted to exceed the maxim
 
 
 
-|                              |                                                                                                                                                         |
-|------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Pattern**<br/>       | **Icon**<br/>                                                                                                                                     |
-| Input problem<br/>     | No icon. Not using an [error icon](vis-std-icons.md) here is consistent with the [Windows tone](text-style-tone.md) guidelines.<br/> |
-| Special condition<br/> | The standard 16x16 pixel [warning icon](vis-std-icons.md).<br/>                                                                                  |
-
-
-
- 
+    |  Pattern |  Icon                                                                                                                                                       |
+    ------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------|
+    | Input problem | No icon. Not using an [error icon](vis-std-icons.md) here is consistent with the [Windows tone](text-style-tone.md) guidelines. |
+    | Special condition | The standard 16x16 pixel [warning icon](vis-std-icons.md).                                                                                  |
 
 **Accessibility**
 
@@ -195,6 +190,4 @@ When referring to balloons:
 -   Use the exact title text, including its capitalization.
 -   Refer to the component as a balloon, not as a notification or an alert.
 -   When possible, format the title text using bold text. Otherwise, put the title in quotation marks only if required to prevent confusion.
-
- 
 

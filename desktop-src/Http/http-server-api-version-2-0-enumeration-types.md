@@ -8,7 +8,12 @@ ms.date: 05/31/2018
 
 # HTTP Server API Version 2.0 Enumeration Types
 
-The following are the HTTP version 2.0 enumeration types:
+The following are the HTTP version 2.0 enumeration types.
+
+| Enumeration | Description |
+|-|-|
+| [**HTTP_DELEGATE_REQUEST_PROPERTY_ID**](/windows/win32/api/http/ne-http-http_delegate_request_property_id) | Defines constants that specify a type of property information for a delegate request. |
+| [**HTTP_FEATURE_ID**](/windows/win32/api/http/ne-http-http_feature_id) | Defines constants that specify an identifier for an HTTP feature. |
 
 -   [**HTTP\_503\_RESPONSE\_VERBOSITY**](/windows/desktop/api/Http/ne-http-http_503_response_verbosity)
 -   [**HTTP\_AUTH\_STATUS**](/windows/desktop/api/Http/ne-http-http_auth_status)
@@ -23,11 +28,3 @@ The following are the HTTP version 2.0 enumeration types:
 -   [**HTTP\_SERVER\_PROPERTY**](/windows/desktop/api/Http/ne-http-http_server_property)
 -   [**HTTP\_SERVICE\_CONFIG\_CACHE\_KEY**](/windows/desktop/api/Http/ne-http-http_service_config_cache_key)
 -   [**HTTP\_SERVICE\_CONFIG\_TIMEOUT\_KEY**](/windows/desktop/api/Http/ne-http-http_service_config_timeout_key)
-
- 
-
- 
-
-
-
-

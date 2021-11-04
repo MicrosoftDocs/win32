@@ -1,5 +1,5 @@
 ---
-description: Destructor method.
+description: CSource.~CSource destructor - Destructor method.
 ms.assetid: 0792c355-5eb6-4747-b4c2-433ebefa1d08
 title: CSource.~CSource destructor (Source.h)
 ms.topic: reference
@@ -35,7 +35,7 @@ Destructor method.
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Source.h (include Streams.h)</dt> </dl>                                                                                    |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

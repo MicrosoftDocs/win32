@@ -44,7 +44,7 @@ Values from different schemas are reconciled.
 |-------|-------------------------------------|----------------|
 | 1     | /app1/ifd/{ushort=40092}            | unicode\_bytes |
 | 2     | /app1/ifd/{ushort=37510}            | unicode        |
-| 3     | /xmp/<xmpalt>exif:UserComment | unicode        |
+| 3     | /xmp/&lt;xmpalt&gt;exif:UserComment | unicode        |
 
 
 
@@ -86,7 +86,7 @@ Values from different schemas are reconciled.
 |-------|-----------------------------------------|----------------|
 | 1     | /ifd/{ushort=40092}                     | unicode\_bytes |
 | 2     | /ifd/{ushort=37510}                     | unicode        |
-| 3     | /ifd/xmp/<xmpalt>exif:UserComment | unicode        |
+| 3     | /ifd/xmp/&lt;xmpalt&gt;exif:UserComment | unicode        |
 
 
 

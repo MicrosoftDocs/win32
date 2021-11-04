@@ -1,6 +1,6 @@
 ---
 title: Texture2D::GatherCmp(S,float,float,int,uint) function
-description: Samples a texture, tests the samples against a compare value, and returns all four components along with status about the operation.
+description: For four texel values that would be used in a bi-linear filtering operation, returns their comparison against a compare value along with tile-mapping status. | Texture2D::GatherCmp(S,float,float,int,uint) function
 ms.assetid: A6610587-97C3-4CE5-86A7-3411D422BC8F
 keywords:
 - GatherCmp function HLSL
@@ -17,7 +17,7 @@ api_location:
 
 # Texture2D::GatherCmp(S,float,float,int,uint) function
 
-Samples a texture, tests the samples against a compare value, and returns all four components along with status about the operation.
+For four texel values that would be used in a bi-linear filtering operation, returns their comparison against a compare value along with tile-mapping status.
 
 ## Syntax
 
@@ -27,7 +27,7 @@ TemplateType GatherCmp(
   in  SamplerState S,
   in  float        Location,
   in  float        CompareValue,
-  in  int          Offset,
+  in  int2         Offset,
   out uint         Status
 );
 ```
@@ -68,9 +68,9 @@ A value to compare each against each sampled value.
 *Offset* \[in\]
 </dt> <dd>
 
-Type: **int**
+Type: **int2**
 
-The offset applied to the texture coordinates before sampling.
+The offset in texels applied to the texture coordinates before sampling. Must be a literal value.
 
 </dd> <dt>
 

@@ -54,15 +54,15 @@ This type is available only in C++. Its .NET equivalent is [System.Numerics.Matr
 | `float4x4 make_float4x4_rotation_z(float radians)` | Creates a z-axis rotation matrix, centered on the origin. |
 | `float4x4 make_float4x4_rotation_z(float radians, float3 const& centerPoint)` | Creates a z-axis rotation matrix, centered on the specified point. |
 | `float4x4 make_float4x4_from_axis_angle(float3 const& axis, float angle)` | Creates a matrix that rotates around an arbitrary vector. |
-| `float4x4 make_float4x4_?perspective_field_of_view(float fieldOfView, float aspectRatio, float nearPlaneDistance, float farPlaneDistance)` | Creates a perspective projection matrix based on a field of view, using a right handed coordinate system. |
+| `float4x4 make_float4x4_perspective_field_of_view(float fieldOfView, float aspectRatio, float nearPlaneDistance, float farPlaneDistance)` | Creates a perspective projection matrix based on a field of view, using a right handed coordinate system. |
 | `float4x4 make_float4x4_perspective(float width, float height, float nearPlaneDistance, float farPlaneDistance)` | Creates a perspective projection matrix, using a right handed coordinate system. |
-| `float4x4 make_float4x4_?perspective_off_center(float left, float right, float bottom, float top, float nearPlaneDistance, float farPlaneDistance)` | Creates a customized perspective projection matrix, using a right handed coordinate system. |
+| `float4x4 make_float4x4_perspective_off_center(float left, float right, float bottom, float top, float nearPlaneDistance, float farPlaneDistance)` | Creates a customized perspective projection matrix, using a right handed coordinate system. |
 | `float4x4 make_float4x4_orthographic(float width, float height, float zNearPlane, float zFarPlane)` | Creates an orthographic projection matrix, using a right handed coordinate system. |
 | `float4x4 make_float4x4_?orthographic_off_center(float left, float right, float bottom, float top, float zNearPlane, float zFarPlane)` | Creates a customized orthographic projection matrix, using a right handed coordinate system. |
 | `float4x4 make_float4x4_look_at(float3 const& cameraPosition, float3 const& cameraTarget, float3 const& cameraUpVector)` | Creates a view matrix, using a right handed coordinate system. |
 | `float4x4 make_float4x4_world(float3 const& position, float3 const& forward, float3 const& up)` | Creates a world matrix, using a right handed coordinate system. This can be used to position objects in 3D space. |
-| `float4x4 make_float4x4_?from_quaternion(quaternion const& quaternion)` | Creates a rotation matrix from a quaternion. |
-| `float4x4 make_float4x4_?from_yaw_pitch_roll(float yaw, float pitch, float roll)` | Creates a rotation matrix from a specified yaw, pitch, and roll. |
+| `float4x4 make_float4x4_from_quaternion(quaternion const& quaternion)` | Creates a rotation matrix from a quaternion. |
+| `float4x4 make_float4x4_from_yaw_pitch_roll(float yaw, float pitch, float roll)` | Creates a rotation matrix from a specified yaw, pitch, and roll. |
 | `float4x4 make_float4x4_shadow(float3 const& lightDirection, plane const& plane)` | Creates a matrix that flattens geometry into a specified plane as if casting a shadow from a specified light source. |
 | `float4x4 make_float4x4_reflection(plane const& value)` | Creates a matrix that reflects the coordinate system about a specified plane. |
 | `bool is_identity(float4x4 const& value)` | Checks whether this is an identity matrix. |
@@ -120,7 +120,7 @@ This type is available only in C++. Its .NET equivalent is [System.Numerics.Matr
 
 ## Requirements
 
-| | |
+| Requirement | Value |
 |-|-|
 | Namespace | Windows::Foundation::Numerics |
 | Header | <dl> <dt>Windowsnumerics.h</dt> </dl> |

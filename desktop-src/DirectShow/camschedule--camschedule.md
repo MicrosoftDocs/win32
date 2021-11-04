@@ -1,5 +1,5 @@
 ---
-description: Destructor method.
+description: CAMSchedule.~CAMSchedule destructor - Destructor method.
 ms.assetid: e92c040a-54af-4c6d-b7f0-0700fa44cbd8
 title: CAMSchedule.~CAMSchedule destructor (Dsschedule.h)
 ms.topic: reference
@@ -35,7 +35,7 @@ Destructor method.
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Dsschedule.h (include Streams.h)</dt> </dl>                                                                                |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

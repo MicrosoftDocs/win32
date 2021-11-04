@@ -45,7 +45,7 @@ The **System.String** that is the name specified in the language identifier of a
 
 ## Remarks
 
-A SAMI file can contain text for one or many languages. The languages available for closed captioning are defined between the <STYLE> and </STYLE> tags in the SAMI file. A language identifier is specified with a unique alphanumeric string that is preceded by a period (.). The name specified for a language can be any string. For example, the following could be used to define US English:
+A SAMI file can contain text for one or many languages. The languages available for closed captioning are defined between the &lt;STYLE&gt; and </STYLE> tags in the SAMI file. A language identifier is specified with a unique alphanumeric string that is preceded by a period (.). The name specified for a language can be any string. For example, the following could be used to define US English:
 
 
 ```
@@ -62,7 +62,7 @@ The string you set using **SAMILang** must match the **Name** attribute in the l
 
 
 
-|                      |                                                                                                                        |
+| Requirement | Value |
 |----------------------|------------------------------------------------------------------------------------------------------------------------|
 | Version<br/>   | Windows Media Player 9 Series or later<br/>                                                                      |
 | Namespace<br/> | **WMPLib**<br/>                                                                                                  |

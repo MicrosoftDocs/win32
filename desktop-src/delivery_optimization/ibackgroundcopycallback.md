@@ -48,7 +48,7 @@ The **IBackgroundCopyCallback** interface has these methods.
 
 To receive notifications, call the [**IBackgroundCopyJob::SetNotifyInterface**](ibackgroundcopyjob-setnotifyinterface.md) method to specify the interface pointer to your **IBackgroundCopyCallback** implementation. To specify which notifications you want to receive, call the [**IBackgroundCopyJob::SetNotifyFlags**](ibackgroundcopyjob-setnotifyflags.md) method.
 
-DO will call your callbacks as long as the interface pointer is valid. The notification interface is no longer valid when your application terminates; DO does not persist the notify interface. As a result, your application's initialization process should call the [**SetNotifyInterface**](ibackgroundcopyjob-setnotifyinterface.md) method on those existing jobs for which you want to receive notification.
+Delivery Optimization will call your callbacks as long as the interface pointer is valid. The notification interface is no longer valid when your application terminates; Delivery Optimization does not persist the notify interface. As a result, your application's initialization process should call the [**SetNotifyInterface**](ibackgroundcopyjob-setnotifyinterface.md) method on those existing jobs for which you want to receive notification.
 
 ## Requirements
 

@@ -110,7 +110,7 @@ The **Microsoft.Interop.Security.AzRoles.IAzClientContext** interface has these 
 
 
 
-|                     |                                                                                                                   |
+| Requirement | Value |
 |---------------------|-------------------------------------------------------------------------------------------------------------------|
 | Assembly<br/> | <dl> <dt>Microsoft.Interop.Security.Azroles.dll</dt> </dl> |
 

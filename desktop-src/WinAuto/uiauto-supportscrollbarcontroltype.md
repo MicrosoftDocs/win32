@@ -45,30 +45,11 @@ The following table depicts a typical control and content view of the UI Automat
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Control View</th>
-<th>Content View</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><ul>
-<li>ScrollBar
-<ul>
-<li>Button (0, 2, or 4)</li>
-<li>Thumb (0 or 1)</li>
-</ul></li>
-</ul></td>
-<td>Not applicable. (The scroll bar control has no content.)</td>
-</tr>
-</tbody>
-</table>
+
+| Control View | Content View | 
+|--------------|--------------|
+| <ul><li>ScrollBar<ul><li>Button (0, 2, or 4)</li><li>Thumb (0 or 1)</li></ul></li></ul> | Not applicable. (The scroll bar control has no content.) | 
+
 
 
 

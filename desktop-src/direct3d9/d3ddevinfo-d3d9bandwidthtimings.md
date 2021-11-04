@@ -97,7 +97,7 @@ Pixel fill throughput percentage. This is the number of pixels that are filled c
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3D9Types.h</dt> </dl> |
 

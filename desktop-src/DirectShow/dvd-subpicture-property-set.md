@@ -14,7 +14,7 @@ The following information presents the necessary constants and data types to use
 
 
 
-|                   |                            |
+| Label | Value |
 |-------------------|----------------------------|
 | Property Set GUID | AM\_KSPROPSETID\_DvdSubPic |
 
@@ -52,7 +52,7 @@ The HLISS field is as defined in the DVD specification. A value of zero indicate
 
 
 
-|                   |                                                                                       |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Dvdmedia.h</dt> </dl> |
 

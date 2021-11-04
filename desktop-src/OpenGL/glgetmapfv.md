@@ -1,6 +1,6 @@
 ---
 title: glGetMapfv function (Gl.h)
-description: The glGetMapdv, glGetMapfv, and glGetMapiv functions return evaluator parameters.
+description: The glGetMapdv, glGetMapfv, and glGetMapiv functions return evaluator parameters. | glGetMapfv function (Gl.h)
 ms.assetid: dc93e468-7b76-4b5d-a46c-63920ed05568
 keywords:
 - glGetMapfv function OpenGL

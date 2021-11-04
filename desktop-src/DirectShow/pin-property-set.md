@@ -12,7 +12,7 @@ The pin property set returns the pin category for a pin on a filter. The categor
 
 
 
-|                   |                      |
+| Label | Value |
 |-------------------|----------------------|
 | Property Set GUID | **AMPROPSETID\_Pin** |
 

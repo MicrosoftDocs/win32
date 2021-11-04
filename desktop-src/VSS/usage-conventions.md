@@ -60,49 +60,16 @@ The following list describes supported configurations and restrictions:
 
     
 
-    <table>
-    <colgroup>
-    <col style="width: 50%" />
-    <col style="width: 50%" />
-    </colgroup>
-    <thead>
-    <tr class="header">
-    <th>VSS requesters, writers, and providers compiled for</th>
-    <th>Will run on</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Windows Server 2008 R2 (64-bit), Windows 7 (64-bit), Windows Server 2008 (64-bit) and Windows Vista (64-bit)</td>
-    <td>Windows Server 2008 R2 (64-bit), Windows 7 (64-bit), Windows Server 2008 (64-bit) and Windows Vista (64-bit)</td>
-    </tr>
-    <tr class="even">
-    <td>Windows Server 2008 R2 (32-bit), Windows 7 (32-bit), Windows Server 2008 (32-bit) and Windows Vista (32-bit)</td>
-    <td>Windows Server 2008 R2 (32-bit), Windows 7 (32-bit), Windows Server 2008 (32-bit) and Windows Vista (32-bit)</td>
-    </tr>
-    <tr class="odd">
-    <td>Windows Server 2003 (64-bit)</td>
-    <td>Windows Server 2008 R2 (64-bit), Windows 7 (64-bit), Windows Server 2008 (64-bit), Windows Vista (64-bit), and Windows Server 2003 (64-bit)</td>
-    </tr>
-    <tr class="even">
-    <td>Windows Server 2003 (32-bit)</td>
-    <td>Windows Server 2008 R2 (32-bit), Windows 7 (32-bit), Windows Server 2008 (32-bit), Windows Vista (32-bit), and Windows Server 2003 (32-bit)
-    <blockquote>
-    [!Note]<br />
-    Requesters will also run on Windows Server 2003 (64-bit).
-    </blockquote>
-    <br/></td>
-    </tr>
-    <tr class="odd">
-    <td>Windows XP 64-Bit Edition</td>
-    <td>Windows Server 2003 (64-bit) and Windows XP 64-Bit Edition</td>
-    </tr>
-    <tr class="even">
-    <td>Windows XP (32-bit)</td>
-    <td>Windows XP (32-bit)</td>
-    </tr>
-    </tbody>
-    </table>
+    
+| VSS requesters, writers, and providers compiled for | Will run on | 
+|-----------------------------------------------------|-------------|
+| Windows Server 2008 R2 (64-bit), Windows 7 (64-bit), Windows Server 2008 (64-bit) and Windows Vista (64-bit) | Windows Server 2008 R2 (64-bit), Windows 7 (64-bit), Windows Server 2008 (64-bit) and Windows Vista (64-bit) | 
+| Windows Server 2008 R2 (32-bit), Windows 7 (32-bit), Windows Server 2008 (32-bit) and Windows Vista (32-bit) | Windows Server 2008 R2 (32-bit), Windows 7 (32-bit), Windows Server 2008 (32-bit) and Windows Vista (32-bit) | 
+| Windows Server 2003 (64-bit) | Windows Server 2008 R2 (64-bit), Windows 7 (64-bit), Windows Server 2008 (64-bit), Windows Vista (64-bit), and Windows Server 2003 (64-bit) | 
+| Windows Server 2003 (32-bit) | Windows Server 2008 R2 (32-bit), Windows 7 (32-bit), Windows Server 2008 (32-bit), Windows Vista (32-bit), and Windows Server 2003 (32-bit)    <blockquote>    [!Note]<br />    Requesters will also run on Windows Server 2003 (64-bit).    </blockquote><br /> | 
+| Windows XP 64-Bit Edition | Windows Server 2003 (64-bit) and Windows XP 64-Bit Edition | 
+| Windows XP (32-bit) | Windows XP (32-bit) | 
+
 
     
 

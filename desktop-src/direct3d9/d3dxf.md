@@ -62,7 +62,7 @@ The following table specifies file save and load options with .x files:
 
 
 
-|                          |            |
+| Requirement                         | Value           |
 |--------------------------|------------|
 | Header                   | d3dx9xof.h |
 | Minimum operating system | Windows 98 |

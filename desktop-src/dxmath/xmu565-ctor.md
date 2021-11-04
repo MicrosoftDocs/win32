@@ -4,13 +4,13 @@ ms.assetid: d482dbf5-081c-4a1b-a81f-63d21d46a489
 title: XMU565 constructors
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
-api_type: 
+api_name:
+api_type:
 - NA
-api_location: 
+api_location:
 ---
 
 # XMU565 constructors
@@ -28,74 +28,16 @@ Constructs instances of the [**XMU565**](/windows/win32/api/directxpackedvector/
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;">Constructor</th>
-<th style="text-align: left;">Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;"><a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmu565-xmu565(uint16_t)"><strong>XMU565 (uint16_t)</strong></a></td>
-<td style="text-align: left;">Initializes a new instance of <code>XMU565</code> from a <code>uint16_t</code> variable containing component data in a packed format. <br/> This constructor initializes a new instance of <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmu565"><strong>XMU565</strong></a> from a <code>uint16_t</code> variable containing component data in a packed format. <br/>
-<blockquote>
-[!Note]<br />
-This constructor is only available under C++.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmu565-xmu565(constfloat)"><strong>XMU565 (const float*)</strong></a></td>
-<td style="text-align: left;">Initializes a new instance of <code>XMU565</code> from a three element <code>float</code> array. <br/> This constructor initializes a new instance of <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmu565"><strong>XMU565</strong></a> from a three element <code>float</code> array. <br/>
-<blockquote>
-[!Note]<br />
-This constructor is only available under C++.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmu565-xmu565(constuint8_t)"><strong>XMU565 (const int8_t*)</strong></a></td>
-<td style="text-align: left;">Initializes a new instance of <code>XMU565</code> from a three element <code>int8_t</code> array. <br/> This constructor initializes a new instance of <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmu565"><strong>XMU565</strong></a> from a three element <code>int8_t</code> array. <br/>
-<blockquote>
-[!Note]<br />
-This constructor is only available under C++.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmu565-xmu565(float_float_float)"><strong>XMU565 (float,float,float)</strong></a></td>
-<td style="text-align: left;">Initializes a new instance of <code>XMU565</code> from three <code>float</code> arguments. <br/> This constructor initializes a new instance of <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmu565"><strong>XMU565</strong></a> from three <code>float</code> arguments. <br/>
-<blockquote>
-[!Note]<br />
-This constructor is only available under C++.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmu565-xmu565(float_float_float)"><strong>XMU565 (int8_t,int8_t,int8_t)</strong></a></td>
-<td style="text-align: left;">Initializes a new instance of <code>XMU565</code> from three <code>int8_t</code> arguments. <br/> This constructor initializes a new instance of <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmu565"><strong>XMU565</strong></a> from three <code>int8_t</code> arguments. <br/>
-<blockquote>
-[!Note]<br />
-This constructor is only available under C++.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmu565-xmu565(constfloat)"><strong>XMU565 ()</strong></a></td>
-<td style="text-align: left;">Default constructor for <code>XMU565</code><br/> Default constructor for <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmu565"><strong>XMU565</strong></a><br/>
-<blockquote>
-[!Note]<br />
-This is only available for C++ based development.
-</blockquote>
-<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Constructor | Description | 
+|-------------|-------------|
+| <a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmu565-xmu565(uint16_t)"><strong>XMU565 (uint16_t)</strong></a> | Initializes a new instance of <code>XMU565</code> from a <code>uint16_t</code> variable containing component data in a packed format. <br /> This constructor initializes a new instance of <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmu565"><strong>XMU565</strong></a> from a <code>uint16_t</code> variable containing component data in a packed format. <br /><blockquote>[!Note]<br />This constructor is only available under C++.</blockquote><br /> | 
+| <a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmu565-xmu565(constfloat)"><strong>XMU565 (const float*)</strong></a> | Initializes a new instance of <code>XMU565</code> from a three element <code>float</code> array. <br /> This constructor initializes a new instance of <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmu565"><strong>XMU565</strong></a> from a three element <code>float</code> array. <br /><blockquote>[!Note]<br />This constructor is only available under C++.</blockquote><br /> | 
+| <a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmu565-xmu565(constuint8_t)"><strong>XMU565 (const uint8_t*)</strong></a> | Initializes a new instance of <code>XMU565</code> from a three element <code>uint8_t</code> array. <br /> This constructor initializes a new instance of <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmu565"><strong>XMU565</strong></a> from a three element <code>uint8_t</code> array. <br /><blockquote>[!Note]<br />This constructor is only available under C++.</blockquote><br /> | 
+| <a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmu565-xmu565(float_float_float)"><strong>XMU565 (float,float,float)</strong></a> | Initializes a new instance of <code>XMU565</code> from three <code>float</code> arguments. <br /> This constructor initializes a new instance of <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmu565"><strong>XMU565</strong></a> from three <code>float</code> arguments. <br /><blockquote>[!Note]<br />This constructor is only available under C++.</blockquote><br /> | 
+| <a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmu565-xmu565(float_float_float)"><strong>XMU565 (uint8_t,uint8_t,uint8_t)</strong></a> | Initializes a new instance of <code>XMU565</code> from three <code>uint8_t</code> arguments. <br /> This constructor initializes a new instance of <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmu565"><strong>XMU565</strong></a> from three <code>uint8_t</code> arguments. <br /><blockquote>[!Note]<br />This constructor is only available under C++.</blockquote><br /> | 
+| <a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmu565-xmu565(constfloat)"><strong>XMU565 ()</strong></a> | Default constructor for <code>XMU565</code><br /> Default constructor for <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmu565"><strong>XMU565</strong></a><br /><blockquote>[!Note]<br />This is only available for C++ based development.</blockquote><br /> | 
+
 
 
 

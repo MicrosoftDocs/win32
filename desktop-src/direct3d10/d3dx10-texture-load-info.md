@@ -161,7 +161,7 @@ This structure is used in a call to [**D3DX10LoadTextureFromTexture**](d3dx10loa
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3DX10Tex.h</dt> </dl> |
 

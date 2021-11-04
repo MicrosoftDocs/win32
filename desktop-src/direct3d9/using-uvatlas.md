@@ -8,6 +8,9 @@ ms.date: 05/31/2018
 
 # Using UVAtlas (Direct3D 9)
 
+> [!NOTE]
+> UVAtlas was originally shipped in the now-deprecated D3DX9 utilty library. The latest version is available at [UV Atlas Command-Line Tool (uvatlas.exe)](https://github.com/Microsoft/UVAtlas).
+
 Many rendering and content generation techniques require a unique, non-overlapping map of a 2D signal (such as a texture) onto a mesh. Such techniques include:
 
 -   Normal/displacement mapping
@@ -17,7 +20,7 @@ Many rendering and content generation techniques require a unique, non-overlappi
 
 Generating a unique UV mapping manually is often time-consuming and tedious; this is especially true when the input geometry is complex and efficient/low-distortion texture-space utilization is desired. The following illustration shows an example mesh and its corresponding texture atlas.
 
-![illustration of an example mesh and its corresponding texture atlas](images/uvatlas1.jpg)
+![Shows an example mesh and its corresponding texture atlas.](images/uvatlas1.jpg)
 
 This example shows a mesh (on the left) and the corresponding UV-space normal map (on the right). Notice that the texture atlas contains several groups or clusters of data; each cluster is called a chart and in the example above, displays contains the normal data for a portion of the mesh.
 
@@ -46,7 +49,7 @@ A mesh which can be parameterized with a single chart is classified as "homeomor
 
 Very few real-world meshes can be parameterized into two dimensions without separating the mesh into clusters, or charts. The following illustration shows another example mesh and its corresponding texture atlas.
 
-![illustration of an example mesh and its corresponding texture atlas](images/uvatlas2.jpg)
+![Shows an example mesh with different shapes and its corresponding texture atlas.](images/uvatlas2.jpg)
 
 There are two parameters that determine the number of charts created:
 
@@ -169,7 +172,7 @@ Packed charts are separated by a user-specified gutter width. The gutter width i
 
 In addition to being artist-invoked prior to texture painting, these functions can be integrated into an automated art pipeline. For example, a UVAtlas call can be issued automatically after an asset is updated, prior to performing a PRT simulation or normal mapping pass. This avoids any need to manually manual repair of an object's UV mapping if the mesh's topology has been modified.
 
-See the [UV Atlas Command-Line Tool (uvatlas.exe)](https://msdn.microsoft.com/library/Ee419017(v=VS.85).aspx) for example usage of the UVAtlas functions.
+See the [UV Atlas Command-Line Tool (uvatlas.exe)](https://github.com/Microsoft/UVAtlas) for example usage of the UVAtlas functions.
 
 ## Related topics
 

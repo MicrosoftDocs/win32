@@ -14,41 +14,13 @@ The following table shows the topology item and the attributes that the pane dis
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Topology item</th>
-<th>Attributes</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Topology nodes</td>
-<td><ul>
-<li><a href="topology-node-attributes.md">Topology Node Attributes</a> for all nodes.<br/></li>
-<li><a href="presentation-descriptor-attributes.md">Presentation Descriptor Attributes</a> for source nodes only.<br/></li>
-<li>Input and output trust authority information for transform and output nodes.<br/></li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>Node input</td>
-<td><ul>
-<li><a href="media-type-attributes.md">Media Type Attributes</a> for all nodes.</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>Node output</td>
-<td><ul>
-<li><a href="stream-descriptor-attributes.md">Stream Descriptor Attributes</a> for source nodes only.<br/></li>
-<li><a href="media-type-attributes.md">Media Type Attributes</a> for all nodes.<br/></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| Topology item | Attributes | 
+|---------------|------------|
+| Topology nodes | <ul><li><a href="topology-node-attributes.md">Topology Node Attributes</a> for all nodes.<br /></li><li><a href="presentation-descriptor-attributes.md">Presentation Descriptor Attributes</a> for source nodes only.<br /></li><li>Input and output trust authority information for transform and output nodes.<br /></li></ul> | 
+| Node input | <ul><li><a href="media-type-attributes.md">Media Type Attributes</a> for all nodes.</li></ul> | 
+| Node output | <ul><li><a href="stream-descriptor-attributes.md">Stream Descriptor Attributes</a> for source nodes only.<br /></li><li><a href="media-type-attributes.md">Media Type Attributes</a> for all nodes.<br /></li></ul> | 
+
 
 
 

@@ -50,7 +50,7 @@ The system allows only one autohide appbar for each edge of each monitor. The mo
 
 
 
-|                   |                                                                                       |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Shellapi.h</dt> </dl> |
 

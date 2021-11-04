@@ -1,6 +1,6 @@
 ---
 title: Media Samples (Windows Media Format 11 SDK)
-description: Media Samples
+description: Learn about media samples in the Windows Media Format 11 SDK. A media sample is an object that contains an ordered list of zero or more buffers.
 ms.assetid: '5fe0d261-c4a8-4b8e-b5dd-668ce067723c'
 keywords:
 - Windows Media Format SDK,media samples

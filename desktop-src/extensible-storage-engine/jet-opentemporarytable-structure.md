@@ -57,29 +57,12 @@ Column definitions for the columns created in the temporary table.
 
 In addition to the usual column definition options, zero or more of the following options can also be specified that are relevant only in the context of a temporary table.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Value</p></th>
-<th><p>Meaning</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_bitColumnTTDescending</p></td>
-<td><p>The sort order of the key column for the temporary table should be descending rather than ascending. If this option is specified without JET_bitColumnTTKey then this option is ignored.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_bitColumnTTKey</p></td>
-<td><p>The column will be a key column for the temporary table.</p>
-<p>The order of the column definitions with this option specified in the input array will determine the precedence of each key column for the temporary table. The first column definition in the array that has this option set will be the most significant key column and so on. If more key columns are requested than can be supported by the database engine then this option is ignored for the unsupportable key columns.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Value</p> | <p>Meaning</p> | 
+|--------------|----------------|
+| <p>JET_bitColumnTTDescending</p> | <p>The sort order of the key column for the temporary table should be descending rather than ascending. If this option is specified without JET_bitColumnTTKey then this option is ignored.</p> | 
+| <p>JET_bitColumnTTKey</p> | <p>The column will be a key column for the temporary table.</p><p>The order of the column definitions with this option specified in the input array will determine the precedence of each key column for the temporary table. The first column definition in the array that has this option set will be the most significant key column and so on. If more key columns are requested than can be supported by the database engine then this option is ignored for the unsupportable key columns.</p> | 
+
 
 
 **ccolumn**
@@ -98,60 +81,18 @@ When this parameter is not present, then the default normalization flags will be
 
 A group of bits specifying zero or more of the following options.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Value</p></th>
-<th><p>Meaning</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_bitTTIndexed</p></td>
-<td><p>This option requests that the temporary table be flexible enough to permit the use of <a href="gg294103(v=exchg.10).md">JetSeek</a> to look up records by index key.</p>
-<p>If this functionality it not required then it is best to not request it. If this functionality is not requested then the temporary table manager may be able to choose a strategy for managing the temporary table that will result in improved performance.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_bitTTUnique</p></td>
-<td><p>Requests that records with duplicate index keys be removed from the final set of records in the temporary table.</p>
-<p>Prior to Windows Server 2003, the database engine always assumed this option to be in effect due to the fact that all clustered indexes must also be a primary key and thus must be unique. As of Windows Server 2003, it is now possible to create a temporary table that does not remove duplicates when the JET_bitTTForwardOnly option is also specified.</p>
-<p>It is not possible to know which duplicate will succeed and which duplicates will be discarded, in general. However, when the JET_bitTTErrorOnDuplicateInsertion option is requested then the first record with a given index key to be inserted into the temporary table will always succeed.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_bitTTUpdatable</p></td>
-<td><p>Requests that the temporary table be flexible enough to allow records that have previously been inserted to be subsequently changed. If this functionality it not required then it is best to not request it.</p>
-<p>If this functionality is not requested then the temporary table manager may be able to choose a strategy for managing the temporary table that will result in improved performance.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_bitTTScrollable</p></td>
-<td><p>Requests that the temporary table be flexible enough to allow records to be scanned in arbitrary order and direction using <a href="gg294117(v=exchg.10).md">JetMove</a>.</p>
-<p>If this functionality is not required then it is best to not request it. If this functionality is not requested then the temporary table manager may be able to choose a strategy for managing the temporary table that will result in improved performance.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_bitTTSortNullsHigh</p></td>
-<td><p>Requests that <strong>NULL</strong> key column values sort closer to the end of the index than non-NULL key column values.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_bitTTForceMaterialization</p></td>
-<td><p>Forces the temporary table manager to abandon the search for the best strategy to use managing the temporary table that will result in enhanced performance.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_bitTTErrorOnDuplicateInsertion</p></td>
-<td><p>Any attempt to insert a record with the same index key as a previously inserted record will immediately fail with JET_errKeyDuplicate. If this option is not requested then a duplicate is detected immediately and fails, or is silently removed later, depending on the strategy chosen by the database engine to implement the temporary table, based on the requested functionality.</p>
-<p>If this functionality it not required then it is best to not request it. If this functionality is not requested then the temporary table manager may be able to choose a strategy for managing the temporary table that will result in improved performance.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_bitTTForwardOnly</p></td>
-<td><p>The temporary table is only created if the temporary table manager can use the implementation that is optimized for intermediate query results. If any characteristic of the temporary table would prevent the use of this optimization then the operation will fail with JET_errCannotMaterializeForwardOnlySort.</p>
-<p>A side effect of this option is to allow the temporary table to contain records with duplicate index keys. See JET_bitTTUnique for more information.</p>
-<p><strong>Windows Server 2003:  </strong>This option is only available on Windows Server 2003 and later releases.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Value</p> | <p>Meaning</p> | 
+|--------------|----------------|
+| <p>JET_bitTTIndexed</p> | <p>This option requests that the temporary table be flexible enough to permit the use of <a href="gg294103(v=exchg.10).md">JetSeek</a> to look up records by index key.</p><p>If this functionality it not required then it is best to not request it. If this functionality is not requested then the temporary table manager may be able to choose a strategy for managing the temporary table that will result in improved performance.</p> | 
+| <p>JET_bitTTUnique</p> | <p>Requests that records with duplicate index keys be removed from the final set of records in the temporary table.</p><p>Prior to Windows Server 2003, the database engine always assumed this option to be in effect due to the fact that all clustered indexes must also be a primary key and thus must be unique. As of Windows Server 2003, it is now possible to create a temporary table that does not remove duplicates when the JET_bitTTForwardOnly option is also specified.</p><p>It is not possible to know which duplicate will succeed and which duplicates will be discarded, in general. However, when the JET_bitTTErrorOnDuplicateInsertion option is requested then the first record with a given index key to be inserted into the temporary table will always succeed.</p> | 
+| <p>JET_bitTTUpdatable</p> | <p>Requests that the temporary table be flexible enough to allow records that have previously been inserted to be subsequently changed. If this functionality it not required then it is best to not request it.</p><p>If this functionality is not requested then the temporary table manager may be able to choose a strategy for managing the temporary table that will result in improved performance.</p> | 
+| <p>JET_bitTTScrollable</p> | <p>Requests that the temporary table be flexible enough to allow records to be scanned in arbitrary order and direction using <a href="gg294117(v=exchg.10).md">JetMove</a>.</p><p>If this functionality is not required then it is best to not request it. If this functionality is not requested then the temporary table manager may be able to choose a strategy for managing the temporary table that will result in improved performance.</p> | 
+| <p>JET_bitTTSortNullsHigh</p> | <p>Requests that <strong>NULL</strong> key column values sort closer to the end of the index than non-NULL key column values.</p> | 
+| <p>JET_bitTTForceMaterialization</p> | <p>Forces the temporary table manager to abandon the search for the best strategy to use managing the temporary table that will result in enhanced performance.</p> | 
+| <p>JET_bitTTErrorOnDuplicateInsertion</p> | <p>Any attempt to insert a record with the same index key as a previously inserted record will immediately fail with JET_errKeyDuplicate. If this option is not requested then a duplicate is detected immediately and fails, or is silently removed later, depending on the strategy chosen by the database engine to implement the temporary table, based on the requested functionality.</p><p>If this functionality it not required then it is best to not request it. If this functionality is not requested then the temporary table manager may be able to choose a strategy for managing the temporary table that will result in improved performance.</p> | 
+| <p>JET_bitTTForwardOnly</p> | <p>The temporary table is only created if the temporary table manager can use the implementation that is optimized for intermediate query results. If any characteristic of the temporary table would prevent the use of this optimization then the operation will fail with JET_errCannotMaterializeForwardOnlySort.</p><p>A side effect of this option is to allow the temporary table to contain records with duplicate index keys. See JET_bitTTUnique for more information.</p><p><strong>Windows Server 2003:  </strong>This option is only available on Windows Server 2003 and later releases.</p> | 
+
 
 
 **prgcolumnid**
@@ -180,26 +121,13 @@ The table handle for the temporary table created as a result of a successful cal
 
 ### Requirements
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Client</strong></p></td>
-<td><p>Requires Windows Vista.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Server</strong></p></td>
-<td><p>Requires Windows Server 2008.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>Header</strong></p></td>
-<td><p>Declared in Esent.h.</p></td>
-</tr>
-</tbody>
-</table>
+
+| Requirement | Value |
+|------------|----------|
+| <p><strong>Client</strong></p> | <p>Requires Windows Vista.</p> | 
+| <p><strong>Server</strong></p> | <p>Requires Windows Server 2008.</p> | 
+| <p><strong>Header</strong></p> | <p>Declared in Esent.h.</p> | 
+
 
 
 ### See Also

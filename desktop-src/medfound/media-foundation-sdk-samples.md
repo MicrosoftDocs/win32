@@ -1,5 +1,5 @@
 ---
-Description: This section describes sample applications that demonstrate how to use Media Foundation.Encoding SamplesPlayback SamplesPlug-InsSource Reader SamplesVideo CaptureMiscellaneous SamplesDeprecated or Obsolete SamplesRelated topics
+description: This section describes sample applications that demonstrate how to use Media Foundation.Encoding SamplesPlayback SamplesPlug-InsSource Reader SamplesVideo CaptureMiscellaneous SamplesDeprecated or Obsolete SamplesRelated topics
 ms.assetid: 9d460107-ec12-4df5-a7a9-d19943685599
 title: Media Foundation SDK Samples
 ms.topic: article
@@ -107,50 +107,15 @@ This section describes sample applications that demonstrate how to use Media Fou
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Sample</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="mfplayer2-sample.md">MFPlayer2</a></td>
-<td>Demonstrates some advanced playback features of the <a href="using-mfplay-for-audio-video-playback.md">MFPlay</a> API.</td>
-</tr>
-<tr class="even">
-<td><a href="/previous-versions//bb970336(v=vs.85)">PlaybackFX</a></td>
-<td>Applies a grayscale effect to video. Shows how to insert MFTs into a playback topology.<br/>
-<blockquote>
-[!Note]<br />
-This sample is no longer included in the SDK.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="playlist-sample.md">Playlist</a></td>
-<td>Plays a sequence of audio files using the sequencer source.<br/>
-<blockquote>
-[!Note]<br />
-This sample is no longer included in the SDK.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td><a href="simplecapture-sample.md">SimpleCapture</a></td>
-<td>Shows how to preview video from a video capture device, using the MFPlay API.</td>
-</tr>
-<tr class="odd">
-<td><a href="simpleplay-sample.md">SimplePlay</a></td>
-<td>Shows how to play a media file using the MFPlay API.</td>
-</tr>
-</tbody>
-</table>
+
+| Sample | Description | 
+|--------|-------------|
+| <a href="mfplayer2-sample.md">MFPlayer2</a> | Demonstrates some advanced playback features of the <a href="using-mfplay-for-audio-video-playback.md">MFPlay</a> API. | 
+| <a href="/previous-versions//bb970336(v=vs.85)">PlaybackFX</a> | Applies a grayscale effect to video. Shows how to insert MFTs into a playback topology.<br /><blockquote>[!Note]<br />This sample is no longer included in the SDK.</blockquote><br /> | 
+| <a href="playlist-sample.md">Playlist</a> | Plays a sequence of audio files using the sequencer source.<br /><blockquote>[!Note]<br />This sample is no longer included in the SDK.</blockquote><br /> | 
+| <a href="simplecapture-sample.md">SimpleCapture</a> | Shows how to preview video from a video capture device, using the MFPlay API. | 
+| <a href="simpleplay-sample.md">SimplePlay</a> | Shows how to play a media file using the MFPlay API. | 
+
 
 
 

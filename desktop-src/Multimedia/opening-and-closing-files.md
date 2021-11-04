@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 An application must open an AVI file before reading or writing. To open an AVI file, use the [**AVIFileOpen**](/windows/desktop/api/Vfw/nf-vfw-avifileopen) function. **AVIFileOpen** returns the address of an AVI file interface that contains the handle of the open file and increments the reference count of the file.
 
-The **AVIFileOpen** function supports the OF flags used with the [OpenFile](https://msdn.microsoft.com/library/) function. If an application writes to an existing file, it must include the OF\_WRITE flag in **AVIFileOpen**. Similarly, if your application creates and writes to a new file, you must include the OF\_CREATE and OF\_WRITE flags in **AVIFileOpen**.
+The **AVIFileOpen** function supports the OF flags used with the [OpenFile](/documentation/) function. If an application writes to an existing file, it must include the OF\_WRITE flag in **AVIFileOpen**. Similarly, if your application creates and writes to a new file, you must include the OF\_CREATE and OF\_WRITE flags in **AVIFileOpen**.
 
 When you open a file using **AVIFileOpen**, you can use a default file handler or you can specify a custom file handler to read and write to the file and its data streams. In either case, AVIFile searches the registry for the correct file handler to use. You must ensure custom file handlers are in the registry before an application can access them.
 
@@ -29,7 +29,3 @@ You can close a file by using the [**AVIFileRelease**](/windows/desktop/api/Vfw/
  
 
  
-
-
-
-

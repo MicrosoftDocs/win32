@@ -20,26 +20,12 @@ The following code illustrates a portable way to get an address.
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>Using ULONG (a 32-bit-only method)</td>
-<td><pre class="syntax" data-space="preserve"><code>ULONG getAnAddress( )
-Int *somePointer
-Return( (ULONG) somePointer );</code></pre></td>
-</tr>
-<tr class="even">
-<td>Using ULONG_PTR (the portable method)</td>
-<td><pre class="syntax" data-space="preserve"><code>ULONG_PTR getAnAddress( )
-Int *somePointer
-Return( (ULONG_PTR) somePointer );</code></pre></td>
-</tr>
-</tbody>
-</table>
+
+| 
+|
+| Using ULONG (a 32-bit-only method) | <pre class="syntax" data-space="preserve"><code>ULONG getAnAddress( )Int *somePointerReturn( (ULONG) somePointer );</code></pre> | 
+| Using ULONG_PTR (the portable method) | <pre class="syntax" data-space="preserve"><code>ULONG_PTR getAnAddress( )Int *somePointerReturn( (ULONG_PTR) somePointer );</code></pre> | 
+
 
 
 
@@ -51,26 +37,12 @@ The following code illustrates a portable way to calculate an address.
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>Using ULONG (a 32-bit-only method)</td>
-<td><pre class="syntax" data-space="preserve"><code>Int *somePointer;
-Int *someOtherPointer;
-somePointer = (int *)( (ULONG)someOtherPointer + 0x20 );</code></pre></td>
-</tr>
-<tr class="even">
-<td>Using ULONG_PTR (the portable method)</td>
-<td><pre class="syntax" data-space="preserve"><code>Int *somePointer;
-Int *someOtherPointer;
-somePointer = (int *)( (ULONG_PTR)someOtherPointer + 0x20 );</code></pre></td>
-</tr>
-</tbody>
-</table>
+
+| 
+|
+| Using ULONG (a 32-bit-only method) | <pre class="syntax" data-space="preserve"><code>Int *somePointer;Int *someOtherPointer;somePointer = (int *)( (ULONG)someOtherPointer + 0x20 );</code></pre> | 
+| Using ULONG_PTR (the portable method) | <pre class="syntax" data-space="preserve"><code>Int *somePointer;Int *someOtherPointer;somePointer = (int *)( (ULONG_PTR)someOtherPointer + 0x20 );</code></pre> | 
+
 
 
 

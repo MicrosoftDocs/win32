@@ -1,6 +1,6 @@
 ---
 title: Controls.fastForward method
-description: The fastForward method starts fast play of the media item in the forward direction.
+description: The fastForward method starts fast play of the media item in the forward direction. | Controls.fastForward method
 ms.assetid: 69cee803-f76b-4a8c-a2c2-1870665afaf9
 keywords:
 - fastForward method Windows Media Player
@@ -68,7 +68,7 @@ The following example creates an HTML BUTTON element that uses **fastForward** t
 
 
 
-|                    |                                                                                    |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------|
 | Version<br/> | Windows Media Player version 7.0 or later.<br/>                              |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |

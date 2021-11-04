@@ -1,5 +1,5 @@
 ---
-Description: Media Foundation Enumerations
+description: Media Foundation Enumerations
 ms.assetid: f26a730f-18c4-4247-acaf-af1dfad19086
 title: Media Foundation Enumerations
 ms.topic: article

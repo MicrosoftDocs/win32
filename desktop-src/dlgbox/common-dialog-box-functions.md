@@ -1,6 +1,6 @@
 ---
 title: Common Dialog Box Functions
-description: .
+description: . | Common Dialog Box Functions
 ms.assetid: 4a94330b-e0d5-48d7-80f3-86ba6ca1f0f9
 ms.topic: reference
 ms.date: 05/31/2018

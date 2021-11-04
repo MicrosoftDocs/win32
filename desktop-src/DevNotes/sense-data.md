@@ -223,10 +223,10 @@ For more information about the sense data format, see [SCSI Request Sense Comman
 
 <dl> <dt>
 
-[iSCSI Target Pass-Through](iscsi-target-pass-through.md)
+[iSCSI Target Pass-Through](/powershell/module/iscsi)
 </dt> <dt>
 
-[**SCSI\_PASS\_THROUGH\_DIRECT\_WITH\_AUXILIARY**](scsi-pass-through-direct-with-auxiliary.md)
+[SCSI\_PASS\_THROUGH\_DIRECT](/windows-hardware/drivers/ddi/ntddscsi/ni-ntddscsi-ioctl_scsi_pass_through_direct)
 </dt> </dl>
 
  

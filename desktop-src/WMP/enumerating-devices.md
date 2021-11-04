@@ -1,6 +1,6 @@
 ---
 title: Enumerating Devices (WMP SDK)
-description: Enumerating Devices
+description: This example code shows a function that enumerates devices by creating an array of pointers which each represent a device.
 ms.assetid: 0236a629-c09a-4687-a8ba-fa05107fab33
 keywords:
 - Windows Media Player,portable devices

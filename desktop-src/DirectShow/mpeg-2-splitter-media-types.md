@@ -1,5 +1,5 @@
 ---
-Description: MPEG-2 Splitter Media Types
+description: MPEG-2 Splitter Media Types
 ms.assetid: d0ff2011-4ee3-4f5e-8bd0-af9f4c6346e8
 title: MPEG-2 Splitter Media Types
 ms.topic: article
@@ -15,14 +15,12 @@ The [MPEG-2 Splitter](mpeg-2-splitter.md) filter currently supports audio and vi
 For MPEG-2 video, the media types are as follows.
 
 
-
-|                  |                                          |                                |
+|                | PES output | Payload output
 |------------------|------------------------------------------|--------------------------------|
-|                  | PES output                               | Payload output                 |
-| Major Type       | **MEDIATYPE\_MPEG2\_PES**                | **MEDIATYPE\_Video**           |
-| Subtype          | **MEDIASUBTYPE\_MPEG2\_VIDEO**           | **MEDIASUBTYPE\_MPEG2\_VIDEO** |
-| Format Type      | **FORMAT\_MPEG2Video**                   | **FORMAT\_MPEG2Video**         |
-| Format Structure | [**MPEG2VIDEOINFO**](/previous-versions/windows/desktop/api/dvdmedia/ns-dvdmedia-mpeg2videoinfo) | **MPEG2VIDEOINFO**             |
+| **Major type**       | **MEDIATYPE\_MPEG2\_PES**                | **MEDIATYPE\_Video**           |
+| **Subtype**          | **MEDIASUBTYPE\_MPEG2\_VIDEO**           | **MEDIASUBTYPE\_MPEG2\_VIDEO** |
+| **Format type**      | **FORMAT\_MPEG2Video**                   | **FORMAT\_MPEG2Video**         |
+| **Format structure** | [**MPEG2VIDEOINFO**](/previous-versions/windows/desktop/api/dvdmedia/ns-dvdmedia-mpeg2videoinfo) | **MPEG2VIDEOINFO**             |
 
 
 
@@ -32,15 +30,12 @@ For MPEG-2 video, the media types are as follows.
 
 For AC-3 audio, the media types are as follows.
 
-
-
-|                  |                                      |                              |
+| | PES output | Payload output |
 |------------------|--------------------------------------|------------------------------|
-|                  | PES output                           | Payload output               |
-| Major Type       | MEDIATYPE\_MPEG2\_PES                | **MEDIATYPE\_Audio**         |
-| Subtype          | MEDIASUBTYPE\_DOLBY\_AC3             | **MEDIASUBTYPE\_DOLBY\_AC3** |
-| Format Type      | FORMAT\_WaveFormatEx                 | **FORMAT\_WaveFormatEx**     |
-| Format Structure | [**WAVEFORMATEX**](/previous-versions/dd757713(v=vs.85)) | **WAVEFORMATEX**             |
+| **Major type**       | **MEDIATYPE\_MPEG2\_PES**                | **MEDIATYPE\_Audio**         |
+| **Subtype**          | **MEDIASUBTYPE\_DOLBY\_AC3**             | **MEDIASUBTYPE\_DOLBY\_AC3** |
+| **Format type**      | FORMAT\_WaveFormatEx                 | **FORMAT\_WaveFormatEx**     |
+| **Format structure** | [**WAVEFORMATEX**](/previous-versions/dd757713(v=vs.85)) | **WAVEFORMATEX**             |
 
 
 
@@ -54,13 +49,12 @@ For MPEG-2 audio, the media types are as follows.
 
 
 
-|                  |                               |                                |
+|  | PES output | Payload output |
 |------------------|-------------------------------|--------------------------------|
-|                  | PES output                    | Payload output                 |
-| Major Type       | **MEDIATYPE\_MPEG2\_PES**     | **MEDIATYPE\_Audio**           |
-| Subtype          | **MEDIASUBTYE\_MPEG2\_AUDIO** | **MEDIASUBTYPE\_MPEG2\_AUDIO** |
-| Format Type      | **FORMAT\_WaveFormatEx**      | **FORMAT\_WaveFormatEx**       |
-| Format Structure | **WAVEFORMATEX**              | **WAVEFORMATEX**               |
+| **Major type**       | **MEDIATYPE\_MPEG2\_PES**     | **MEDIATYPE\_Audio**           |
+| **Subtype**          | **MEDIASUBTYE\_MPEG2\_AUDIO** | **MEDIASUBTYPE\_MPEG2\_AUDIO** |
+| **Format type**      | **FORMAT\_WaveFormatEx**      | **FORMAT\_WaveFormatEx**       |
+| **Format structure** | **WAVEFORMATEX**              | **WAVEFORMATEX**               |
 
 
 
@@ -76,13 +70,12 @@ For LPCM audio, the media types are as follows.
 
 
 
-|                  |                                    |                                    |
+|  | PES output | Payload output |
 |------------------|------------------------------------|------------------------------------|
-|                  | PES output                         | Payload output                     |
-| Major Type       | **MEDIATYPE\_MPEG2\_PES**          | **MEDIATYPE\_Audio**               |
-| Subtype          | **MEDIASUBTYPE\_DVD\_LPCM\_AUDIO** | **MEDIASUBTYPE\_DVD\_LPCM\_AUDIO** |
-| Format Type      | **FORMAT\_WaveFormatEx**           | **FORMAT\_WaveFormatEx**           |
-| Format Structure | **WAVEFORMATEX**                   | **WAVEFORMATEX**                   |
+| **Major type**       | **MEDIATYPE\_MPEG2\_PES**          | **MEDIATYPE\_Audio**               |
+| **Subtype**          | **MEDIASUBTYPE\_DVD\_LPCM\_AUDIO** | **MEDIASUBTYPE\_DVD\_LPCM\_AUDIO** |
+| **Format type**      | **FORMAT\_WaveFormatEx**           | **FORMAT\_WaveFormatEx**           |
+| **Format structure** | **WAVEFORMATEX**                   | **WAVEFORMATEX**                   |
 
 
 

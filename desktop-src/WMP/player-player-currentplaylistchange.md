@@ -1,6 +1,6 @@
 ---
 title: Player.CurrentPlaylistChange event
-description: The CurrentPlaylistChange event occurs when something changes within the current playlist.
+description: The CurrentPlaylistChange event occurs when something changes within the current playlist. | Player.CurrentPlaylistChange event
 ms.assetid: 5270373e-e401-40c6-bf8c-ef0557610372
 keywords:
 - CurrentPlaylistChange event Windows Media Player
@@ -88,7 +88,7 @@ The following JScript example updates the text in an HTML DIV element, named PlI
 
 
 
-|                    |                                                                                    |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------|
 | Version<br/> | Windows Media Player version 7.0 or later.<br/>                              |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |

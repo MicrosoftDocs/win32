@@ -1,5 +1,5 @@
 ---
-description: .
+description: System.Document.Division
 ms.assetid: b1cc598d-d861-4526-b2ed-ab10db805ccb
 title: System.Document.Division
 ms.topic: article

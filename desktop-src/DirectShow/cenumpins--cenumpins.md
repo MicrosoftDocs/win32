@@ -1,5 +1,5 @@
 ---
-description: Destructor method.
+description: CEnumPins.~CEnumPins destructor - Destructor method.
 ms.assetid: 21845996-8c00-4f00-adcf-1bec67cfc235
 title: CEnumPins.~CEnumPins destructor (Amfilter.h)
 ms.topic: reference
@@ -35,7 +35,7 @@ virtual ~CEnumPins();
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Amfilter.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

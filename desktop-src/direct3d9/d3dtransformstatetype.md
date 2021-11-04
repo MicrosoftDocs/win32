@@ -127,7 +127,7 @@ The transform states in the range 256 through 511 are reserved to store up to 25
 
 
 
-| Macros                                                  |                                                                                                                                                                       |
+| Macros                                                  | Description                                                                                                                                                                      |
 |---------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**D3DTS\_WORLD**](d3dts-world.md)                     | Equivalent to D3DTS\_WORLDMATRIX(0).                                                                                                                                  |
 | [**D3DTS\_WORLDMATRIX**](d3dts-worldmatrix.md) (index) | Identifies the transform matrix to set for the world matrix at index. Multiple world matrices are used only for vertex blending. Otherwise only D3DTS\_WORLD is used. |
@@ -140,7 +140,7 @@ The transform states in the range 256 through 511 are reserved to store up to 25
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3D9Types.h</dt> </dl> |
 

@@ -48,51 +48,13 @@ Flag that prepares a device for playing or recording. The following table lists 
 
 
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Value</th>
-<th>Cue</th>
-<th>Cue</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>digitalvideo</td>
-<td><ul>
-<li>input</li>
-<li>noshow</li>
-</ul></td>
-<td><ul>
-<li>output</li>
-<li>to <em>position</em></li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>vcr</td>
-<td><ul>
-<li>from <em>position</em></li>
-<li>input</li>
-<li>output</li>
-</ul></td>
-<td><ul>
-<li>preroll</li>
-<li>reverse</li>
-<li>to <em>position</em></li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>waveaudio</td>
-<td>input</td>
-<td>output</td>
-</tr>
-</tbody>
-</table>
+
+| Value | Cue | Cue | 
+|-------|-----|-----|
+| digitalvideo | <ul><li>input</li><li>noshow</li></ul> | <ul><li>output</li><li>to <em>position</em></li></ul> | 
+| vcr | <ul><li>from <em>position</em></li><li>input</li><li>output</li></ul> | <ul><li>preroll</li><li>reverse</li><li>to <em>position</em></li></ul> | 
+| waveaudio | input | output | 
+
 
 
 

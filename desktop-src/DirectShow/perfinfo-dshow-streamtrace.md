@@ -71,84 +71,21 @@ The following event identifiers are defined.
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Event identifier</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>PERFINFO_STREAMTRACE_MPEG2DEMUX_PTS_TRANSLATION</td>
-<td>Logged when the <a href="mpeg-2-demultiplexer.md">MPEG-2 Demultiplexer</a> filter converts a presentation time stamp (PTS) to stream time.
-<ul>
-<li><strong>data</strong>[0]: Converted start time.</li>
-<li><strong>data</strong>[1]: Converted stop time.</li>
-<li><strong>data</strong>[2]. Stream identifier for the input pin.</li>
-<li><strong>data</strong>[3]: PTS that was converted.</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>PERFINFO_STREAMTRACE_MPEG2DEMUX_SAMPLE_RECEIVE</td>
-<td>Logged when MPEG-2 Demultiplexer receives a sample.
-<ul>
-<li><strong>data</strong>[0]: Current time returned by <a href="/windows/win32/api/profileapi/nf-profileapi-queryperformancecounter"><strong>QueryPerformanceCounter</strong></a>.</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>PERFINFO_STREAMTRACE_VMR_BEGIN_ADVISE</td>
-<td>Logged when the VMR schedules a sample for rendering, immediately before the VMR calls <a href="/windows/desktop/api/Strmif/nf-strmif-ireferenceclock-advisetime"><strong>IReferenceClock::AdviseTime</strong></a>.
-<ul>
-<li><strong>data</strong>[0]: Reference time when streaming began, which corresponds to stream time zero.</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>PERFINFO_STREAMTRACE_VMR_BEGIN_DECODE</td>
-<td>Logged when the VMR begins a decoding operation—that is, when the decoder calls <a href="/previous-versions/windows/desktop/api/videoacc/nf-videoacc-iamvideoaccelerator-beginframe"><strong>IAMVideoAccelerator::BeginFrame</strong></a>. No event data.</td>
-</tr>
-<tr class="odd">
-<td>PERFINFO_STREAMTRACE_VMR_BEGIN_DEINTERLACE</td>
-<td>Logged when the VMR begins a deinterlacing or video compositing operation. No event data.</td>
-</tr>
-<tr class="even">
-<td>PERFINFO_STREAMTRACE_VMR_DROPPED_FRAME</td>
-<td>Logged when the VMR drops a frame; for example, if a sample was late.
-<ul>
-<li><strong>data</strong>[0]: Sample start time.</li>
-<li><strong>data</strong>[1]: Sample end time.</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>PERFINFO_STREAMTRACE_VMR_END_ADVISE</td>
-<td>Logged when the VMR receives an advise notification from the reference clock. No event data.</td>
-</tr>
-<tr class="even">
-<td>PERFINFO_STREAMTRACE_VMR_END_DECODE</td>
-<td>Logged when the VMR ends a decoding operation—that is, when the decoder calls <a href="/previous-versions/windows/desktop/api/videoacc/nf-videoacc-iamvideoaccelerator-endframe"><strong>IAMVideoAccelerator::EndFrame</strong></a>. No event data.</td>
-</tr>
-<tr class="odd">
-<td>PERFINFO_STREAMTRACE_VMR_END_DEINTERLACE</td>
-<td>Logged when the VMR completes a deinterlacing or video compositing operation. No event data.</td>
-</tr>
-<tr class="even">
-<td>PERFINFO_STREAMTRACE_VMR_RECEIVE</td>
-<td>Logged when the VMR receives a new sample. No event data.</td>
-</tr>
-<tr class="odd">
-<td>PERFINFO_STREAMTRACE_VMR_RENDER_TIME</td>
-<td>Logged when the VMR finishes rendering a frame.
-<ul>
-<li><strong>data</strong>[0]: Time that it took to render this frame.</li>
-<li><strong>data</strong>[1]: Running average of frame rendering times.</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| Event identifier | Description | 
+|------------------|-------------|
+| PERFINFO_STREAMTRACE_MPEG2DEMUX_PTS_TRANSLATION | Logged when the <a href="mpeg-2-demultiplexer.md">MPEG-2 Demultiplexer</a> filter converts a presentation time stamp (PTS) to stream time.<ul><li><strong>data</strong>[0]: Converted start time.</li><li><strong>data</strong>[1]: Converted stop time.</li><li><strong>data</strong>[2]. Stream identifier for the input pin.</li><li><strong>data</strong>[3]: PTS that was converted.</li></ul> | 
+| PERFINFO_STREAMTRACE_MPEG2DEMUX_SAMPLE_RECEIVE | Logged when MPEG-2 Demultiplexer receives a sample.<ul><li><strong>data</strong>[0]: Current time returned by <a href="/windows/win32/api/profileapi/nf-profileapi-queryperformancecounter"><strong>QueryPerformanceCounter</strong></a>.</li></ul> | 
+| PERFINFO_STREAMTRACE_VMR_BEGIN_ADVISE | Logged when the VMR schedules a sample for rendering, immediately before the VMR calls <a href="/windows/desktop/api/Strmif/nf-strmif-ireferenceclock-advisetime"><strong>IReferenceClock::AdviseTime</strong></a>.<ul><li><strong>data</strong>[0]: Reference time when streaming began, which corresponds to stream time zero.</li></ul> | 
+| PERFINFO_STREAMTRACE_VMR_BEGIN_DECODE | Logged when the VMR begins a decoding operation—that is, when the decoder calls <a href="/previous-versions/windows/desktop/api/videoacc/nf-videoacc-iamvideoaccelerator-beginframe"><strong>IAMVideoAccelerator::BeginFrame</strong></a>. No event data. | 
+| PERFINFO_STREAMTRACE_VMR_BEGIN_DEINTERLACE | Logged when the VMR begins a deinterlacing or video compositing operation. No event data. | 
+| PERFINFO_STREAMTRACE_VMR_DROPPED_FRAME | Logged when the VMR drops a frame; for example, if a sample was late.<ul><li><strong>data</strong>[0]: Sample start time.</li><li><strong>data</strong>[1]: Sample end time.</li></ul> | 
+| PERFINFO_STREAMTRACE_VMR_END_ADVISE | Logged when the VMR receives an advise notification from the reference clock. No event data. | 
+| PERFINFO_STREAMTRACE_VMR_END_DECODE | Logged when the VMR ends a decoding operation—that is, when the decoder calls <a href="/previous-versions/windows/desktop/api/videoacc/nf-videoacc-iamvideoaccelerator-endframe"><strong>IAMVideoAccelerator::EndFrame</strong></a>. No event data. | 
+| PERFINFO_STREAMTRACE_VMR_END_DEINTERLACE | Logged when the VMR completes a deinterlacing or video compositing operation. No event data. | 
+| PERFINFO_STREAMTRACE_VMR_RECEIVE | Logged when the VMR receives a new sample. No event data. | 
+| PERFINFO_STREAMTRACE_VMR_RENDER_TIME | Logged when the VMR finishes rendering a frame.<ul><li><strong>data</strong>[0]: Time that it took to render this frame.</li><li><strong>data</strong>[1]: Running average of frame rendering times.</li></ul> | 
+
 
 
 
@@ -160,7 +97,7 @@ To log this event from a DirectShow filter, use the **PERFLOG\_STREAMTRACE** fun
 
 
 
-|                   |                                                                                         |
+| Requirement | Value |
 |-------------------|-----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Perfstruct.h</dt> </dl> |
 

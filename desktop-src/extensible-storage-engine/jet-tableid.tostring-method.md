@@ -1,6 +1,6 @@
 ---
 description: "Learn more about: JET_TABLEID.ToString method overload list"
-title: JET_TABLEID.ToString method 
+title: JET_TABLEID.ToString method overload list
 TOCTitle: 'ToString method '
 ms:assetid: Overload:Microsoft.Isam.Esent.Interop.JET_TABLEID.ToString
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.jet_tableid.tostring(v=EXCHG.10)

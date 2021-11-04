@@ -1,6 +1,6 @@
 ---
 title: Texture2DMS::sample.Operator    function
-description: Retrieves a value from the resource at the location and sample index provided.
+description: Retrieves a value from the resource at the location and sample index provided. | Texture2DMS::sample.Operator    function
 ms.assetid: 5bc24129-b690-44dd-ae85-8533b10befaa
 keywords:
 - sample.Operator function HLSL

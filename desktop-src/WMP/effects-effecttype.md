@@ -46,7 +46,7 @@ This method is useful for switching between visualizations in script. A user int
 
 
 
-|                    |                                                   |
+| Requirement | Value |
 |--------------------|---------------------------------------------------|
 | Version<br/> | Windows Media Player 9 Series or later<br/> |
 

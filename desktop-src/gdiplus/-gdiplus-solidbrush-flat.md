@@ -1,5 +1,5 @@
 ---
-description: Windows GDI+ exposes a flat API that consists of about 600 functions, which are implemented in Gdiplus.dll and declared in Gdiplusflat.h.
+description: Windows GDI+ exposes a flat API that consists of about 600 functions. These flat API functions are wrapped by the SolidBrush C++ class.
 ms.assetid: b427b8ab-66fd-4f57-b08e-5f337a9ac9af
 title: SolidBrush Functions
 ms.topic: article

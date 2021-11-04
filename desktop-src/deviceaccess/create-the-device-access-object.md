@@ -52,7 +52,7 @@ Return Value:
 
    hr = CreateDeviceAccessInstance(pszDeviceInterfacePath,
                                    GENERIC_READ|GENERIC_WRITE,
-                                   &amp;pDeviceAccess);
+                                   &pDeviceAccess);
 
     if (FAILED(hr)) {
         return hr;
@@ -64,7 +64,7 @@ Return Value:
 
     if (SUCCEEDED(hr)) {
         hr = pDeviceAccess->GetResult(IID_IDeviceIoControl,
-                                            (void **)&amp;m_pDeviceIoControl);
+                                            (void **)&m_pDeviceIoControl);
     }
 
     pDeviceAccess->Release();
@@ -111,7 +111,7 @@ Return Value:
     sevenSegment = g_NumberToMask[value];
     hr = m_pDeviceIoControl->DeviceIoControlSync(
                          IOCTL_OSRUSBFX2_SET_7_SEGMENT_DISPLAY,
-                         &amp;sevenSegment,
+                         &sevenSegment,
                          sizeof(BYTE),
                          NULL,
                          0,

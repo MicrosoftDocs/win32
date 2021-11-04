@@ -1,5 +1,5 @@
 ---
-Description: Using the Media Detector
+description: Using the Media Detector
 ms.assetid: 462150d5-7315-4c2b-81b0-964a788ec47d
 title: Using the Media Detector
 ms.topic: article

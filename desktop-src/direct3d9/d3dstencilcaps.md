@@ -12,9 +12,8 @@ Driver stencil capability flags.
 
 
 
-|                          |             |                                                                                                       |
-|--------------------------|-------------|-------------------------------------------------------------------------------------------------------|
 | \#define                 | Value       | Description                                                                                           |
+|--------------------------|-------------|-------------------------------------------------------------------------------------------------------|
 | D3DSTENCILCAPS\_KEEP     | 0x00000001L | Do not update the entry in the stencil buffer. This is the default value.                             |
 | D3DSTENCILCAPS\_ZERO     | 0x00000002L | Set the stencil-buffer entry to 0.                                                                    |
 | D3DSTENCILCAPS\_REPLACE  | 0x00000004L | Replace the stencil-buffer entry with reference value.                                                |
@@ -37,7 +36,7 @@ These constants are used by the StencilCaps member of [**D3DCAPS9**](/windows/de
 
 
 
-|                          |            |
+| Requirement                         | Value           |
 |--------------------------|------------|
 | Header                   | d3d9caps.h |
 | Minimum operating system | Windows 98 |

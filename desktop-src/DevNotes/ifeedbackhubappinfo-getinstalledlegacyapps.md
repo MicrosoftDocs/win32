@@ -1,5 +1,5 @@
 ---
-description: This API is not available to all apps. Unless your app is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+description: IFeedbackHubAppInfo::GetInstalledLegacyApps method - This API is not available to all apps. Unless your app is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
 ms.assetid: 84135D6F-8232-4CE5-AD38-D18823F0E174
 title: IFeedbackHubAppInfo::GetInstalledLegacyApps method
 ms.topic: reference
@@ -59,7 +59,7 @@ This method does not return a value.
 
 <dl> <dt>
 
-[**IFeedbackHubAppInfo**](winprog.ifeedbackhubappinfo.md)
+[**IFeedbackHubAppInfo**](ifeebackhubappinfo.md)
 </dt> </dl>
 
  

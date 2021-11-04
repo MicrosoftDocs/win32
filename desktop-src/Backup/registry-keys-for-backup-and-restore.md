@@ -64,7 +64,7 @@ The **FilesNotToBackup** registry key specifies the names of the files and direc
 
 \[*Drive*\]\[*Path*\]\\*FileName* \[/s\]
 
--   *Drive* specifies the drive and is optional. For example, c:. To specify all drives, use a backslash (\); no drive letters are needed.
+-   *Drive* specifies the drive and is optional. For example, c:. To specify all drives, use a backslash (\\); no drive letters are needed.
 -   *Path* specifies the path and is optional. It cannot contain wildcard characters.
 -   *FileName* specifies the file or directory and is required. It can contain wildcard characters.
 -   /s specifies that all subdirectories of the specified path are to be included.

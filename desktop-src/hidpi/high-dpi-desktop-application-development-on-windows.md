@@ -64,61 +64,14 @@ When running in Per-Monitor v2 Awareness mode, applications are notified when th
 
 The following table shows how applications will render under different scenarios:
 
-<table>
-<colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>DPI Awareness Mode</th>
-<th>Windows Version Introduced</th>
-<th>Application's view of DPI</th>
-<th>Behavior on DPI change</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Unaware</td>
-<td>N/A</td>
-<td>All displays are 96 DPI</td>
-<td>Bitmap-stretching (blurry)</td>
-</tr>
-<tr class="even">
-<td>System</td>
-<td>Vista</td>
-<td>All displays have the same DPI (the DPI of the primary display at the time the current user session was started)</td>
-<td>Bitmap-stretching (blurry)</td>
-</tr>
-<tr class="odd">
-<td>Per-Monitor</td>
-<td>8.1</td>
-<td>The DPI of the display that the application window is primarily located on</td>
-<td><ul>
-<li>Top-level HWND is notified of DPI change</li>
-<li>No DPI scaling of any UI elements.</li>
-</ul>
-<br/></td>
-</tr>
-<tr class="even">
-<td>Per-Monitor V2</td>
-<td>Windows 10 Creators Update (1703)</td>
-<td>The DPI of the display that the application window is primarily located on</td>
-<td><ul>
-<li>Top-level <span class="underline">and</span> child HWNDs are notified of DPI change</li>
-</ul>
-<br/> <span class="underline">Automatic DPI scaling of:</span>
-<ul>
-<li>Non-client area</li>
-<li>Theme-drawn bitmaps in common controls (comctl32 V6)</li>
-<li>Dialogs (<a href="/windows/desktop/api/winuser/nf-winuser-createdialogw">CreateDialog</a>)</li>
-</ul>
-<br/></td>
-</tr>
-</tbody>
-</table>
+
+| DPI Awareness Mode | Windows Version Introduced | Application's view of DPI | Behavior on DPI change | 
+|--------------------|----------------------------|---------------------------|------------------------|
+| Unaware | N/A | All displays are 96 DPI | Bitmap-stretching (blurry) | 
+| System | Vista | All displays have the same DPI (the DPI of the primary display at the time the current user session was started) | Bitmap-stretching (blurry) | 
+| Per-Monitor | 8.1 | The DPI of the display that the application window is primarily located on | <ul><li>Top-level HWND is notified of DPI change</li><li>No DPI scaling of any UI elements.</li></ul><br /> | 
+| Per-Monitor V2 | Windows 10 Creators Update (1703) | The DPI of the display that the application window is primarily located on | <ul><li>Top-level <span class="underline">and</span> child HWNDs are notified of DPI change</li></ul><br /><span class="underline">Automatic DPI scaling of:</span><ul><li>Non-client area</li><li>Theme-drawn bitmaps in common controls (comctl32 V6)</li><li>Dialogs (<a href="/windows/desktop/api/winuser/nf-winuser-createdialogw">CreateDialog</a>)</li></ul><br /> | 
+
 
 ### Per Monitor (V1) DPI Awareness
 
@@ -136,79 +89,17 @@ On Windows 10 1607 or above, PMv1 applications may also call [EnableNonClientDpi
 
 The table below shows the level of per-monitor DPI awareness support offered by various Windows UI frameworks as of Windows 10 1703:
 
-<table>
-<colgroup>
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Framework / Technology</th>
-<th>Support</th>
-<th>OS Version</th>
-<th>DPI Scaling handled by</th>
-<th>Further Reading</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Universal Windows Platform (UWP)</td>
-<td>Full</td>
-<td>1607</td>
-<td>UI framework</td>
-<td><a href="/windows/uwp/get-started/whats-a-uwp">Universal Windows Platform (UWP)</a></td>
-</tr>
-<tr class="even">
-<td>Raw Win32/Common Controls V6 (comctl32.dll)</td>
-<td><ul>
-<li>DPI change notification messages sent to all HWNDs</li>
-<li>Theme-drawn assets render correctly in common controls</li>
-<li>Automatic DPI scaling for dialogs</li>
-</ul></td>
-<td>1703</td>
-<td>Application</td>
-<td><a href="https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/DPIAwarenessPerWindow">GitHub Sample</a></td>
-</tr>
-<tr class="odd">
-<td>Windows Forms</td>
-<td>Limited automatic per-monitor DPI scaling for some controls</td>
-<td>1703</td>
-<td>UI framework</td>
-<td><a href="/dotnet/framework/winforms/high-dpi-support-in-windows-forms">High DPI Support in Windows Forms</a></td>
-</tr>
-<tr class="even">
-<td>Windows Presentation Framework (WPF)</td>
-<td>Native WPF applications will DPI scale WPF hosted in other frameworks and other frameworks hosted in WPF do not automatically scale</td>
-<td>1607</td>
-<td>UI framework</td>
-<td><a href="https://github.com/Microsoft/WPF-Samples/tree/master/PerMonitorDPI">GitHub Sample</a></td>
-</tr>
-<tr class="odd">
-<td>GDI</td>
-<td>None</td>
-<td>N/A</td>
-<td>Application</td>
-<td>See <a href="https://blogs.windows.com/buildingapps/2017/05/19/improving-high-dpi-experience-gdi-based-desktop-apps/">GDI High-DPI Scaling</a></td>
-</tr>
-<tr class="even">
-<td>GDI+</td>
-<td>None</td>
-<td>N/A</td>
-<td>Application</td>
-<td>See <a href="https://blogs.windows.com/buildingapps/2017/05/19/improving-high-dpi-experience-gdi-based-desktop-apps/">GDI High-DPI Scaling</a></td>
-</tr>
-<tr class="odd">
-<td>MFC</td>
-<td>None</td>
-<td>N/A</td>
-<td>Application</td>
-<td>N/A</td>
-</tr>
-</tbody>
-</table>
+
+| Framework / Technology | Support | OS Version | DPI Scaling handled by | Further Reading | 
+|------------------------|---------|------------|------------------------|-----------------|
+| Universal Windows Platform (UWP) | Full | 1607 | UI framework | <a href="/windows/uwp/get-started/whats-a-uwp">Universal Windows Platform (UWP)</a> | 
+| Raw Win32/Common Controls V6 (comctl32.dll) | <ul><li>DPI change notification messages sent to all HWNDs</li><li>Theme-drawn assets render correctly in common controls</li><li>Automatic DPI scaling for dialogs</li></ul> | 1703 | Application | <a href="https://github.com/Microsoft/Windows-classic-samples/tree/main/Samples/DPIAwarenessPerWindow">GitHub Sample</a> | 
+| Windows Forms | Limited automatic per-monitor DPI scaling for some controls | 1703 | UI framework | <a href="/dotnet/framework/winforms/high-dpi-support-in-windows-forms">High DPI Support in Windows Forms</a> | 
+| Windows Presentation Framework (WPF) | Native WPF applications will DPI scale WPF hosted in other frameworks and other frameworks hosted in WPF do not automatically scale | 1607 | UI framework | <a href="https://github.com/Microsoft/WPF-Samples/tree/main/PerMonitorDPI">GitHub Sample</a> | 
+| GDI | None | N/A | Application | See <a href="https://blogs.windows.com/buildingapps/2017/05/19/improving-high-dpi-experience-gdi-based-desktop-apps/">GDI High-DPI Scaling</a> | 
+| GDI+ | None | N/A | Application | See <a href="https://blogs.windows.com/buildingapps/2017/05/19/improving-high-dpi-experience-gdi-based-desktop-apps/">GDI High-DPI Scaling</a> | 
+| MFC | None | N/A | Application | N/A | 
+
 
 
 

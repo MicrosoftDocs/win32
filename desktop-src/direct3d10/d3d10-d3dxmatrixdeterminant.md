@@ -1,5 +1,5 @@
 ---
-description: Returns the determinant of a matrix.
+description: D3DXMatrixDeterminant function (D3DX10Math.h) - Returns the determinant of a matrix.
 ms.assetid: b0155c91-1554-42ef-b219-c6cdd2a905b5
 title: D3DXMatrixDeterminant function (D3DX10Math.h)
 ms.topic: reference
@@ -54,7 +54,7 @@ Returns the determinant of the matrix.
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10Math.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl>   |

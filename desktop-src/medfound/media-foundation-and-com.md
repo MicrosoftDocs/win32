@@ -1,5 +1,5 @@
 ---
-Description: Microsoft Media Foundation uses a mix of COM constructs, but is not a fully COM-based API.
+description: Microsoft Media Foundation uses a mix of COM constructs, but is not a fully COM-based API.
 ms.assetid: d58ca46f-8f3a-4a12-b948-1ea7ab568788
 title: Media Foundation and COM
 ms.topic: article

@@ -66,7 +66,7 @@ This structure is used in the [**WMDM\_PROP\_DESC**](wmdm-prop-desc.md) structur
 
 
 
-|                   |                                                                                     |
+| Requirement | Value |
 |-------------------|-------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Wmdm.idl</dt> </dl> |
 

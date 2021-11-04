@@ -1,5 +1,5 @@
 ---
-description: Constructs a plane from a point and a normal.
+description: D3DXPlaneFromPointNormal function (D3dx9math.h) - Constructs a plane from a point and a normal.
 ms.assetid: af396bbb-09b7-492f-a25f-9c950da7e605
 title: D3DXPlaneFromPointNormal function (D3dx9math.h)
 ms.topic: reference
@@ -78,7 +78,7 @@ The return value for this function is the same value returned in the *pOut* para
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9math.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

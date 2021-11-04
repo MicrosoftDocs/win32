@@ -31,7 +31,7 @@ These flag options are also used in [**IDXGIOutput1::GetDisplayModeList1**](/win
 
 
 
-|                   |                                                                                   |
+| Requirement | Value |
 |-------------------|-----------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>DXGI.h</dt> </dl> |
 

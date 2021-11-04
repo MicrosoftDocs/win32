@@ -62,7 +62,7 @@ For complete version history and information on earlier operating system, see [W
 The following are additional resources.
 
 
-|             |                                                                                                                                                 |
+|    Resource         |    Description                                                                                                                                     |
 |-------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
 | .NET Reference DLL   | For information on using BITS from .NET using reference DLLs, see [Calling into BITS from .NET using Reference DLLs](/windows/desktop/Bits/bits-dot-net)      |
 | .NET Wrapper   | For other .NET wrappers for BITS, you can search [nuget](https://www.nuget.org/packages?q=Tags%3A%22BITS%22) for projects tagged with the BITS tag.        |

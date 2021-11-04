@@ -1,7 +1,7 @@
 ---
 description: Specifies events associated with the data proxy steps of an IInkAnalyzer object.
 ms.assetid: 57fee525-02e2-4721-b6e5-28112d53db2a
-title: '_IAnalysisProxyEvents interface' (IACom.h)
+title: '_IAnalysisProxyEvents interface (IACom.h)'
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

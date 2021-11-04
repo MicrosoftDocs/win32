@@ -646,9 +646,6 @@
                     - name: Windows System Information
                       tocHref: /windows/win32/sysinfo/
                       topicHref: /windows/win32/sysinfo/windows-system-information
-                - name: Windows Machine Learning
-                  tocHref: /windows/win32/machinelearning/
-                  topicHref: /windows/win32/machinelearning/machine-learning-portal
                 - name: Developer Notes
                   tocHref: /windows/win32/devnotes/
                   topicHref: /windows/win32/devnotes/developer-notes

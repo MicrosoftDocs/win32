@@ -1,9 +1,9 @@
 ---
+title: IP Helper functions
 description: The following functions retrieve and modify configuration settings for the TCP/IP transport on the local computer.
-ms.assetid: 5f562470-f3e8-4305-a015-3a84cd09a1eb
-title: IP Helper Functions
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 5f562470-f3e8-4305-a015-3a84cd09a1eb
 ---
 
 # IP Helper functions
@@ -50,6 +50,7 @@ The following functions retrieve and modify configuration settings for the TCP/I
 
 ## Interface management
 
+-   [**FreeInterfaceDnsSettings**](/windows/win32/api/netioapi/nf-netioapi-freeinterfacednssettings)
 -   [**GetFriendlyIfIndex**](/windows/win32/api/Iphlpapi/nf-iphlpapi-getfriendlyifindex)
 -   [**GetIfEntry**](/windows/win32/api/Iphlpapi/nf-iphlpapi-getifentry)
 -   [**GetIfEntry2**](/windows/win32/api/Netioapi/nf-netioapi-getifentry2)
@@ -58,6 +59,7 @@ The following functions retrieve and modify configuration settings for the TCP/I
 -   [**GetIfTable**](/windows/win32/api/Iphlpapi/nf-iphlpapi-getiftable)
 -   [**GetIfTable2**](/windows/win32/api/Netioapi/nf-netioapi-getiftable2)
 -   [**GetIfTable2Ex**](/windows/win32/api/Netioapi/nf-netioapi-getiftable2ex)
+-   [**GetInterfaceDnsSettings**](/windows/win32/api/netioapi/nf-netioapi-getinterfacednssettings)
 -   [**GetInterfaceInfo**](/windows/win32/api/Iphlpapi/nf-iphlpapi-getinterfaceinfo)
 -   [**GetInvertedIfStackTable**](/windows/win32/api/Netioapi/nf-netioapi-getinvertedifstacktable)
 -   [**GetIpInterfaceEntry**](/windows/win32/api/Netioapi/nf-netioapi-getipinterfaceentry)
@@ -65,6 +67,7 @@ The following functions retrieve and modify configuration settings for the TCP/I
 -   [**GetNumberOfInterfaces**](/windows/win32/api/Iphlpapi/nf-iphlpapi-getnumberofinterfaces)
 -   [**InitializeIpInterfaceEntry**](/windows/win32/api/Netioapi/nf-netioapi-initializeipinterfaceentry)
 -   [**SetIfEntry**](/windows/win32/api/Iphlpapi/nf-iphlpapi-setifentry)
+-   [**SetInterfaceDnsSettings**](/windows/win32/api/netioapi/nf-netioapi-setinterfacednssettings)
 -   [**SetIpInterfaceEntry**](/windows/win32/api/Netioapi/nf-netioapi-setipinterfaceentry)
 
 ## Internet Protocol (IP) and Internet Control Message Protocol (ICMP)
@@ -176,6 +179,14 @@ The following functions retrieve and modify configuration settings for the TCP/I
 -   [**NotifyRouteChange**](/windows/win32/api/Iphlpapi/nf-iphlpapi-notifyroutechange)
 -   [**NotifyRouteChange2**](/windows/win32/api/Netioapi/nf-netioapi-notifyroutechange2)
 -   [**NotifyUnicastIpAddressChange**](/windows/win32/api/Netioapi/nf-netioapi-notifyunicastipaddresschange)
+
+## Packet timestamping
+
+-   [**CaptureInterfaceHardwareCrossTimestamp**](/windows/win32/api/iphlpapi/nf-iphlpapi-captureinterfacehardwarecrosstimestamp)
+-   [**GetInterfaceActiveTimestampCapabilities**](/windows/win32/api/iphlpapi/nf-iphlpapi-getinterfaceactivetimestampcapabilities)
+-   [**GetInterfaceSupportedTimestampCapabilities**](/windows/win32/api/iphlpapi/nf-iphlpapi-getinterfacesupportedtimestampcapabilities)
+-   [**RegisterInterfaceTimestampConfigChange**](/windows/win32/api/iphlpapi/nf-iphlpapi-registerinterfacetimestampconfigchange)
+-   [**UnregisterInterfaceTimestampConfigChange**](/windows/win32/api/iphlpapi/unregisterinterfacetimestampconfigchange)
 
 ## Persistent port reservation
 

@@ -9,7 +9,7 @@ ms.date: 10/20/2020
 # Toolbars
 
 > [!NOTE]
-> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](https://docs.microsoft.com/windows/uwp/design/).
+> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](/windows/uwp/design/).
 
 Toolbars are a way to group commands for efficient access.
 
@@ -122,7 +122,7 @@ Toolbars have several usage patterns:
 
 
 
-|                                                                                                                      |                                                                                                                                                                                                                                                                                                                                                    |
+|     Usage                                                                                                                 |     Example                                                                                                                                                                                                                                                                                                                                          |
 |----------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Primary toolbars**<br/> a toolbar designed to work without a menu bar, either hidden or removed. <br/> | primary toolbars must balance the need for efficiency with comprehensiveness, so they work best for simple programs. <br/> ![screen shot of windows explorer toolbar ](images/cmd-toolbars-image8.png)<br/> A primary toolbar from Windows Explorer.<br/>                                                                        |
 | **Supplemental toolbars**<br/> a toolbar designed to work with a menu bar. <br/>                         | supplemental toolbars can focus on efficiency without compromise. <br/> ![screen shot of a menu bar over a toolbar ](images/cmd-toolbars-image9.png)<br/> A supplemental toolbar from Windows Movie Maker.<br/>                                                                                                                  |
@@ -138,7 +138,7 @@ Toolbars have these styles:
 
 
 
-|                                                                                                                                        |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+|   Style                                                                                                                                     | Example                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 |----------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Unlabeled icons**<br/> one or more rows of small unlabeled icon buttons. <br/>                                           | use this style if there are too many buttons to label or the program is frequently used. with this style, programs with complex functionality can have multiple rows, and therefore, this is the only style that needs to be customizable. with this style, some command buttons can be labeled if they are frequently used. <br/> ![screen shot of toolbar with small, unlabeled icons ](images/cmd-toolbars-image14.png)<br/> An unlabeled icons toolbar from WordPad.<br/> |
 | **Large unlabeled icons**<br/> a single row of large unlabeled icon buttons. <br/>                                         | use this style for simple utilities that have easily recognizable icons and are usually run in small windows. <br/> ![screen shot of toolbar with large, unlabeled icons ](images/cmd-toolbars-image15.png)<br/> ![screen shot of toolbar with large icons ](images/cmd-toolbars-image16.png)<br/> Large unlabeled icons toolbars from Windows Live Messenger and the Windows Snipping Tool.<br/>                                                                       |
@@ -154,12 +154,12 @@ Finally, toolbar controls have several usage patterns:
 
 
 
-|                                                                                                                                                                                                          |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+|     Usage                                                                                                                 |     Example                                                                                                                                                                                                                                                                                                                                          |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Command icon buttons**<br/> clicking a command button initiates an immediate action. <br/>                                                                                                 | ![screen shot of a labeled-icons toolbar ](images/cmd-toolbars-image19.png)<br/> Examples of icon command buttons from Windows Fax and Scan.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 | **Mode icon buttons**<br/> clicking a mode button enters the selected mode. <br/>                                                                                                            | ![screen shot of a vertical toolbar ](images/cmd-toolbars-image20.png)<br/> Examples of mode buttons from Windows Paint.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 | **Property icon buttons**<br/> a property button's state reflects the state of the currently selected objects, if any. clicking the button applies the change to the selected objects. <br/> | ![screen shot of formatting icons and selected text ](images/cmd-toolbars-image21.png)<br/> Examples of property buttons from Microsoft Word.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
-| **Labeled icon buttons**<br/> a command button or property button labeled with an icon and a text label. <br/>                                                                               | these buttons are used for frequently used toolbar buttons whose icon isn't sufficiently self-explanatory. they are also used in toolbars that have so few buttons that each button can have a text label. <br/> ![screen shot of toolbar with some icons labeled ](images/cmd-toolbars-image22.png)<br/> A toolbar with its most frequently used buttons labeled.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| **Labeled icon buttons**<br/> a command button or property button labeled with an icon and a text label. <br/>                                                                               | these buttons are used for frequently used toolbar buttons whose icon isn't sufficiently self-explanatory. they are also used in toolbars that have so few buttons that each button can have a text label. <br/> ![Screenshot that shows the toolbar with icons labeled for the most frequently used buttons. ](images/cmd-toolbars-image22.png)<br/> A toolbar with its most frequently used buttons labeled.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 | **Menu buttons**<br/> a command button used to present a small set of related commands. <br/>                                                                                                | a single downward-pointing triangle indicates that clicking the button shows a menu. <br/> ![screen shot of toolbar and drop-down command list ](images/cmd-toolbars-image23.png)<br/> A menu button with a small set of related commands.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 | **Split buttons**<br/> a command button used to consolidate variations of a command, especially when one of the commands is used most of the time. <br/>                                     | ![screen shot of split print button ](images/cmd-toolbars-image24.png)<br/> a split button in its normal state.<br/> like a menu button, a single downward-pointing triangle indicates that clicking the rightmost portion of the button shows a menu. <br/> ![screen shot of split print button commands ](images/cmd-toolbars-image25.png)<br/> a dropped down split button.<br/> in this example, a split button is used to consolidate all the print-related commands. the immediate print command is used most of the time, so users normally don't need to see the other commands. <br/> unlike a menu button, clicking the left portion of the button performs the action on the label directly. split buttons are effective in situations where the next command is likely to be the same as the last command. in this case, the label is changed to the last command, as with a color picker:<br/> ![screen shot of bucket icon pouring paint ](images/cmd-toolbars-image26.png)<br/> In this example, the label is changed to the last command.<br/> |
 | **Drop-down lists**<br/> a drop-down list (editable or read-only) used to view or change a property. <br/>                                                                                   | ![screen shot of drop-down list of fonts ](images/cmd-toolbars-image27.png)<br/> In this example, drop-down lists are used to view and set font attributes.<br/> A drop-down list in a toolbar reflects the state of the currently selected object, if any. Changing the list changes the selected object's state. <br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
@@ -258,7 +258,7 @@ Finally, toolbar controls have several usage patterns:
 -   **Place the most frequently used groups first. Within a group, put the commands in their logical order.** Overall, the commands should have a logical flow to make them easy to find, while still having the most frequently used commands appear first. Doing so is most efficient, especially if there is overflow.
 -   **Use group dividers only if the commands across groups are weakly coupled.** Doing so makes the groupings obvious and the commands easier to find.
 
-    ![screen shot of toolbar with well organized icons ](images/cmd-toolbars-image35.png)
+    ![Screenshot that shows a toolbar with well organized icons using group dividers.](images/cmd-toolbars-image35.png)
 
     ![screen shot of toolbar with well organized icons ](images/cmd-toolbars-image36.png)
 
@@ -352,59 +352,59 @@ These commands mirror the commands found in standard menu bars, so they should b
 <dl> File <dl> NewCtrl+N  
 Open...Ctrl+O  
 Close  
-<separator>  
+&lt;separator&gt;  
 SaveCtrl+S  
 Save as...  
-<separator>  
+&lt;separator&gt;  
 Send to  
-<separator>  
+&lt;separator&gt;  
 Print...Ctrl+P  
 Print preview  
 Page setup  
-<separator>  
+&lt;separator&gt;  
 ExitAlt+F4(shortcut usually not given)  
 </dl> </dd> Edit(menu button) <dl> UndoCtrl+Z  
 RedoCtrl+Y  
-<separator>  
+&lt;separator&gt;  
 CutCtrl+X  
 CopyCtrl+C  
 PasteCtrl+V  
-<separator>  
+&lt;separator&gt;  
 Select allCtrl+A  
-<separator>  
+&lt;separator&gt;  
 DeleteDel(shortcut usually not given)  
 Rename...  
-<separator>  
+&lt;separator&gt;  
 Find...Ctrl+F  
 Find nextF3(command usually not given)  
 Replace...Ctrl+H  
 Go to...Ctrl+G  
 </dl> </dd> <dd>Print(split button) <dl> Print...Ctrl+P  
 Print preview  
-<separator>  
+&lt;separator&gt;  
 Page setup  
 </dl> </dd> View(menu button) <dl> Menu bar(check if visible)  
 Details pane(check if visible)  
 Preview pane(check if visible)  
 Status bar(check if visible)  
-<separator>  
+&lt;separator&gt;  
 Zoom  
 Zoom inCtrl++  
 Zoom outCtrl+-  
-<separator>  
+&lt;separator&gt;  
 Text size(selected setting has bullet) <dl> Largest  
 Larger  
 Medium  
 Smaller  
 Smallest  
-</dl> </dd> <separator>  
+</dl> </dd> &lt;separator&gt;  
 Full screenF11  
 RefreshF5  
 </dl> </dd> Tools(menu button) <dl> ...  
-<separator>  
+&lt;separator&gt;  
 Options  
 </dl>> </dd> Help(split button, use the Help icon) <dl> <program name> helpF1  
-<separator>  
+&lt;separator&gt;  
 About <program name>  
 </dl> </dd> </dl>
 
@@ -582,10 +582,4 @@ Examples:
 -   On the **Formatting** toolbar, point to **Show**, and then click **Comments**.
 
  
-
- 
-
-
-
-
 

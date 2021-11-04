@@ -73,7 +73,7 @@ Determines which array of matrices to use in the [**ID3DX10SkinInfo::DoSoftwareS
 
 
 
-|                   |                                                                                     |
+| Requirement | Value |
 |-------------------|-------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3DX10.h</dt> </dl> |
 

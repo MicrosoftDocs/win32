@@ -1,5 +1,5 @@
 ---
-Description: Provides access to properties and methods exposed by an object.
+description: CMediaEvent.Invoke method - Provides access to properties and methods exposed by an object.
 ms.assetid: 2b091b57-0855-489a-9a33-cfc75f63ad07
 title: CMediaEvent.Invoke method (Ctlutil.h)
 ms.topic: reference
@@ -108,7 +108,7 @@ Returns DISP\_E\_UNKNOWNINTERFACE if *riid* is not IID\_NULL. Returns one of the
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Ctlutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

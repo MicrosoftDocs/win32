@@ -1,5 +1,5 @@
 ---
-Description: Creates a reference point of a virtual system.
+description: Creates a reference point of a virtual system.
 ms.assetid: 9cc7665a-9562-4267-bcd0-3162e426fbad
 title: CreateReferencePoint method of the Msvm_VirtualSystemReferencePointService class
 ms.topic: reference

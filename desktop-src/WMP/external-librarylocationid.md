@@ -1,6 +1,6 @@
 ---
 title: External.libraryLocationID
-description: Note This topic describes functionality designed for use by online stores.
+description: Note This topic describes functionality designed for use by online stores. | External.libraryLocationID
 ms.assetid: 9a9bea89-c05c-4759-be22-86588bbeca2c
 keywords:
 - External.libraryLocationID Windows Media Player
@@ -44,7 +44,7 @@ Certain views in Windows Media Player are associated with a particular media ite
 
 
 
-|                    |                                                                                    |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------|
 | Version<br/> | Windows Media Player 11.<br/>                                                |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |

@@ -59,13 +59,14 @@ keyword+
 
 ## Element information
 
-
-
-|              |     |
-|--------------|-----|
-| Can be empty | No  |
-
-
+:::row:::
+    :::column:::
+        Can be empty
+    :::column-end:::
+    :::column span="2":::
+        No
+    :::column-end:::
+:::row-end:::
 
 ## See also
 

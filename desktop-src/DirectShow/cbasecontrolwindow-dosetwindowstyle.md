@@ -52,7 +52,7 @@ Value specifying which styles to set. Must be one of the following:
 
 
 
-|              |                                      |
+| Label | Value |
 |--------------|--------------------------------------|
 | GWL\_STYLE   | Retrieve the window styles.          |
 | GWL\_EXSTYLE | Retrieve the extended window styles. |
@@ -75,7 +75,7 @@ This member function calls the Win32 **SetWindowLong** function to set the windo
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Ctlutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

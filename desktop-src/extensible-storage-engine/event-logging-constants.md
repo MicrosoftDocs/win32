@@ -27,54 +27,23 @@ _**Applies to:** Windows | Windows Server_
 
 The following constants indicate the detail level for event log messages for the [JET_ParamEventLoggingLevel](./event-log-parameters.md) system parameter.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Constant/value</p></th>
-<th><p>Description</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_EventLoggingDisable<br />
-0</p></td>
-<td><p>Disables event logging.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_EventLoggingLevelMax<br />
-100</p></td>
-<td><p>Sets the maximum level to use for event logs, which is currently 100 characters.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Constant/value</p> | <p>Description</p> | 
+|-----------------------|--------------------|
+| <p>JET_EventLoggingDisable<br />0</p> | <p>Disables event logging.</p> | 
+| <p>JET_EventLoggingLevelMax<br />100</p> | <p>Sets the maximum level to use for event logs, which is currently 100 characters.</p> | 
+
 
 
 ### Requirements
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Client</strong></p></td>
-<td><p>Requires Windows Vista, Windows XP, or Windows 2000 Professional.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Server</strong></p></td>
-<td><p>Requires Windows Server 2008, Windows Server 2003, or Windows 2000 Server.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>Header</strong></p></td>
-<td><p>Declared in Esent.h.</p></td>
-</tr>
-</tbody>
-</table>
+
+| Requirement | Value |
+|------------|----------|
+| <p><strong>Client</strong></p> | <p>Requires Windows Vista, Windows XP, or Windows 2000 Professional.</p> | 
+| <p><strong>Server</strong></p> | <p>Requires Windows Server 2008, Windows Server 2003, or Windows 2000 Server.</p> | 
+| <p><strong>Header</strong></p> | <p>Declared in Esent.h.</p> | 
+
 
 
 ### See Also

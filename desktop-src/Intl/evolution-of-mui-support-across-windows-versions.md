@@ -62,43 +62,13 @@ With the improved MUI infrastructure that is available starting with Windows Vi
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Category</th>
-<th>Support</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Supported resource types</td>
-<td><ul>
-<li>Win32/unmanaged resource: .DLL/.EXE/.OCX</li>
-<li>Shell-related registrations</li>
-<li>Management-related resources: Event log, Snap-in/MSC files</li>
-<li>WMI: MOF/MFL</li>
-<li>Group Policy: ADMX/ADML</li>
-<li>Managed Resources.dll</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>Development Tools</td>
-<td><ul>
-<li>For Win32: RC.exe, MUIRCT.exe and Visual Studio 2005 and later</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>Limited resource type support</td>
-<td><ul>
-<li>*.chm help files</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| Category | Support | 
+|----------|---------|
+| Supported resource types | <ul><li>Win32/unmanaged resource: .DLL/.EXE/.OCX</li><li>Shell-related registrations</li><li>Management-related resources: Event log, Snap-in/MSC files</li><li>WMI: MOF/MFL</li><li>Group Policy: ADMX/ADML</li><li>Managed Resources.dll</li></ul> | 
+| Development Tools | <ul><li>For Win32: RC.exe, MUIRCT.exe and Visual Studio 2005 and later</li></ul> | 
+| Limited resource type support | <ul><li>*.chm help files</li></ul> | 
+
 
 
 

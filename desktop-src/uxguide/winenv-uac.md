@@ -9,7 +9,7 @@ ms.date: 10/20/2020
 # User Account Control
 
 > [!NOTE]
-> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](https://docs.microsoft.com/windows/uwp/design/).
+> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](/windows/uwp/design/).
 
 A well designed User Account Control experience helps prevent unwanted system-wide changes in a way that is predictable and requires minimal effort.
 
@@ -197,9 +197,8 @@ User Account Control has several usage patterns (in order of preference):
 -   **Don't display warnings to explain that users might need to elevate their privileges to perform tasks.** Let users discover this fact on their own.
 -   **Display the UAC shield and elevation UI based on the following table:**
 
-    |                       |                                                                                                                                                                  |                                                                                                                                                                                                                       |                                                                                                      |
+    | Object | Circumstance | Where to put UAC shield | When to elevate |
     |-----------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|
-    | **Object**      | **Circumstance**                                                                                                                                                | **Where to put UAC shield**                                                                                                                                                                               | **When to elevate**                                                                            |
     | Program<br/>    | Entire program is for administrators only.<br/>                                                                                                            | ![screen shot of windows logo and uac shield overlay ](images/winenv-uac-image10.png)<br/> UAC shield overlay on program icon.<br/>                                                                       | Display elevation UI at launch.<br/>                                                           |
     | Command<br/>    | Entire command is for administrators only.<br/>                                                                                                            | ![screen shot of change account link and uac shield ](images/winenv-uac-image14.png)<br/> UAC shield on command button or link.<br/>                                                                      | Display elevation UI when command button or link is clicked, but after any confirmations.<br/> |
     | Command<br/>    | Command displays useful read-only information appropriate for all users, but changes require administrative privileges.<br/>                               | ![screen shot of change settings link and uac shield ](images/winenv-uac-image8.png)<br/> UAC shield on command button or link to make changes.<br/>                                                      | Display elevation UI when command button is clicked, but after any confirmations.<br/>         |
@@ -254,6 +253,4 @@ In programming and other technical documentation:
 -   Refer to the act of giving consent to perform an administrative task as elevation.
 -   In the context of UAC, refer to administrators as Protected administrators when not elevated, and Elevated administrators after elevation.
 -   Refer to the dialog box used to enter passwords as the Credential UI. Refer to the dialog box used to give consent as the Consent UI. Refer to both generally as Elevation UI.
-
- 
 

@@ -67,121 +67,40 @@ The size, in bytes, of the buffer that was passed in *pvResult*.
 
 If the *pvResult* buffer provided is too small, either JET_errInvalidBufferSize or JET_errBufferTooSmall will be returned depending on the *InfoLevel*.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Value</p></th>
-<th><p>Meaning</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_DbInfoCollate</p></td>
-<td><p>Not yet supported and return default values. Do not use.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_DbInfoConnect</p></td>
-<td><p>These <em>InfoLevels</em> are deprecated and are not currently supported. Do not use.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_DbInfoCountry</p></td>
-<td><p>Not yet supported and return default values. Do not use.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_DbInfoCp</p></td>
-<td><p>Not yet supported and return default values. Do not use.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_DbInfoFilename</p></td>
-<td><p><em>pvResult</em> will be interpreted as a string buffer (char *). A MAX_PATH buffer is suggested, however not required. If the buffer is not long enough, JET_errBufferTooSmall will be returned. The string will be populated with the path of the database for this DBID.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_DbInfoFilesize</p></td>
-<td><p><em>pvResult</em> will be interpreted as a DWORD (4 bytes). Returns the size of the database in pages.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_DbInfoIsam</p></td>
-<td><p>These <em>InfoLevels</em> are deprecated and are not currently supported. Do not use.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_DbInfoLCID</p></td>
-<td><p>(Windows XP and later) This <em>InfoLevel</em> was originally specified as: JET_DbInfoLangid (Windows 2000)</p>
-<p><em>pvResult</em> will be interpreted as a long. This returns the Locale identifier (LCID) associate with this database.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_DbInfoMisc</p></td>
-<td><p><em>pvResult</em> will be interpreted as a <a href="gg294147(v=exchg.10).md">JET_DBINFOMISC</a>. The <a href="gg294147(v=exchg.10).md">JET_DBINFOMISC</a> structure will be populated with information pertaining to the database specified.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_DbInfoOptions</p></td>
-<td><p><em>pvResult</em> will be interpreted as a <a href="gg294066(v=exchg.10).md">JET_GRBIT</a> (DWORD). This returns whether the database is opened in exclusive mode. If the database is in exclusive mode JET_bitDbExclusive will be set in the <a href="gg294066(v=exchg.10).md">JET_GRBIT</a> provided, otherwise zero is set. Note other database <em>grbit</em> options for <a href="gg294074(v=exchg.10).md">JetAttachDatabase</a> and <a href="gg269299(v=exchg.10).md">JetOpenDatabase</a> are not returned.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_DbInfoPageSize</p></td>
-<td><p>Available only on Windows XP and later. <em>pvResult</em> will be interpreted as a unsigned long. This will return the page size of the database in bytes.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_DbInfoSpaceAvailable</p></td>
-<td><p><em>pvResult</em> will be interpreted as a DWORD. This returns the available space for the database in pages.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_DbInfoSpaceOwned</p></td>
-<td><p><em>pvResult</em> will be interpreted as a DWORD. This returns the owned space for the database in pages.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_DbInfoTransactions</p></td>
-<td><p><em>pvResult</em> will be interpreted as a long. This will return one greater than the maximum level to which transactions can be nested. If <a href="gg294083(v=exchg.10).md">JetBeginTransaction</a> is called (in a nesting fashion, that is, on the same session, without a commit or rollback) as many times as this value, on the last call JET_errTransTooDeep will be returned from <a href="gg294083(v=exchg.10).md">JetBeginTransaction</a>. Note the value in Windows 2000, Windows XP, and Windows Server 2003 is 7.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_DbInfoVersion</p></td>
-<td><p><em>pvResult</em> will be interpreted as a long. This returns the database engine's native major version. This value is 0x620 for Windows 2000, Windows XP, and Windows Server 2003.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Value</p> | <p>Meaning</p> | 
+|--------------|----------------|
+| <p>JET_DbInfoCollate</p> | <p>Not yet supported and return default values. Do not use.</p> | 
+| <p>JET_DbInfoConnect</p> | <p>These <em>InfoLevels</em> are deprecated and are not currently supported. Do not use.</p> | 
+| <p>JET_DbInfoCountry</p> | <p>Not yet supported and return default values. Do not use.</p> | 
+| <p>JET_DbInfoCp</p> | <p>Not yet supported and return default values. Do not use.</p> | 
+| <p>JET_DbInfoFilename</p> | <p><em>pvResult</em> will be interpreted as a string buffer (char *). A MAX_PATH buffer is suggested, however not required. If the buffer is not long enough, JET_errBufferTooSmall will be returned. The string will be populated with the path of the database for this DBID.</p> | 
+| <p>JET_DbInfoFilesize</p> | <p><em>pvResult</em> will be interpreted as a DWORD (4 bytes). Returns the size of the database in pages.</p> | 
+| <p>JET_DbInfoIsam</p> | <p>These <em>InfoLevels</em> are deprecated and are not currently supported. Do not use.</p> | 
+| <p>JET_DbInfoLCID</p> | <p>(Windows XP and later) This <em>InfoLevel</em> was originally specified as: JET_DbInfoLangid (Windows 2000)</p><p><em>pvResult</em> will be interpreted as a long. This returns the Locale identifier (LCID) associate with this database.</p> | 
+| <p>JET_DbInfoMisc</p> | <p><em>pvResult</em> will be interpreted as a <a href="gg294147(v=exchg.10).md">JET_DBINFOMISC</a>. The <a href="gg294147(v=exchg.10).md">JET_DBINFOMISC</a> structure will be populated with information pertaining to the database specified.</p> | 
+| <p>JET_DbInfoOptions</p> | <p><em>pvResult</em> will be interpreted as a <a href="gg294066(v=exchg.10).md">JET_GRBIT</a> (DWORD). This returns whether the database is opened in exclusive mode. If the database is in exclusive mode JET_bitDbExclusive will be set in the <a href="gg294066(v=exchg.10).md">JET_GRBIT</a> provided, otherwise zero is set. Note other database <em>grbit</em> options for <a href="gg294074(v=exchg.10).md">JetAttachDatabase</a> and <a href="gg269299(v=exchg.10).md">JetOpenDatabase</a> are not returned.</p> | 
+| <p>JET_DbInfoPageSize</p> | <p>Available only on Windows XP and later. <em>pvResult</em> will be interpreted as a unsigned long. This will return the page size of the database in bytes.</p> | 
+| <p>JET_DbInfoSpaceAvailable</p> | <p><em>pvResult</em> will be interpreted as a DWORD. This returns the available space for the database in pages.</p> | 
+| <p>JET_DbInfoSpaceOwned</p> | <p><em>pvResult</em> will be interpreted as a DWORD. This returns the owned space for the database in pages.</p> | 
+| <p>JET_DbInfoTransactions</p> | <p><em>pvResult</em> will be interpreted as a long. This will return one greater than the maximum level to which transactions can be nested. If <a href="gg294083(v=exchg.10).md">JetBeginTransaction</a> is called (in a nesting fashion, that is, on the same session, without a commit or rollback) as many times as this value, on the last call JET_errTransTooDeep will be returned from <a href="gg294083(v=exchg.10).md">JetBeginTransaction</a>. Note the value in Windows 2000, Windows XP, and Windows Server 2003 is 7.</p> | 
+| <p>JET_DbInfoVersion</p> | <p><em>pvResult</em> will be interpreted as a long. This returns the database engine's native major version. This value is 0x620 for Windows 2000, Windows XP, and Windows Server 2003.</p> | 
+
 
 
 ### Return Value
 
 This function returns the [JET_ERR](./jet-err.md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](./extensible-storage-engine-errors.md) and [Error Handling Parameters](./error-handling-parameters.md).
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Return code</p></th>
-<th><p>Description</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_errSuccess</p></td>
-<td><p>The operation completed successfully.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errBufferTooSmall</p></td>
-<td><p>The size of the buffer given in <em>cbMax</em> was too small (or not correct) to hold the desired information.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errFeatureNotAvailable</p></td>
-<td><p>The <em>InfoLevel</em> requested was JET_DbInfoIsam. This is not supported.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errInvalidBufferSize</p></td>
-<td><p>The size of the buffer given in <em>cbMax</em> was too small (or not correct) to hold the desired information.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errInvalidParameter</p></td>
-<td><p>One of the parameters provided contained an unexpected value or contained a value that did not make sense when combined with the value of another parameter. This error will be returned by <strong>JetGetDatabaseInfo</strong> when the <a href="gg269248(v=exchg.10).md">JET_DBID</a> provided is not a valid (attached) database. This error will be returned by <a href="gg269239(v=exchg.10).md">JetGetDatabaseFileInfo</a> and <strong>JetGetDatabaseInfo</strong> when an <em>InfoLevel</em> requested is not supported by that version of the function.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Return code</p> | <p>Description</p> | 
+|--------------------|--------------------|
+| <p>JET_errSuccess</p> | <p>The operation completed successfully.</p> | 
+| <p>JET_errBufferTooSmall</p> | <p>The size of the buffer given in <em>cbMax</em> was too small (or not correct) to hold the desired information.</p> | 
+| <p>JET_errFeatureNotAvailable</p> | <p>The <em>InfoLevel</em> requested was JET_DbInfoIsam. This is not supported.</p> | 
+| <p>JET_errInvalidBufferSize</p> | <p>The size of the buffer given in <em>cbMax</em> was too small (or not correct) to hold the desired information.</p> | 
+| <p>JET_errInvalidParameter</p> | <p>One of the parameters provided contained an unexpected value or contained a value that did not make sense when combined with the value of another parameter. This error will be returned by <strong>JetGetDatabaseInfo</strong> when the <a href="gg269248(v=exchg.10).md">JET_DBID</a> provided is not a valid (attached) database. This error will be returned by <a href="gg269239(v=exchg.10).md">JetGetDatabaseFileInfo</a> and <strong>JetGetDatabaseInfo</strong> when an <em>InfoLevel</em> requested is not supported by that version of the function.</p> | 
+
 
 
 On success, the requested data will be returned in the output buffer.
@@ -190,38 +109,16 @@ On failure, the output buffer will be in an undefined state.
 
 #### Requirements
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Client</strong></p></td>
-<td><p>Requires Windows Vista, Windows XP, or Windows 2000 Professional.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Server</strong></p></td>
-<td><p>Requires Windows Server 2008, Windows Server 2003, or Windows 2000 Server.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>Header</strong></p></td>
-<td><p>Declared in Esent.h.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Library</strong></p></td>
-<td><p>Use ESENT.lib.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>DLL</strong></p></td>
-<td><p>Requires ESENT.dll.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Unicode</strong></p></td>
-<td><p>Implemented as <strong>JetGetDatabaseInfoW</strong> (Unicode) and <strong>JetGetDatabaseInfoA</strong> (ANSI).</p></td>
-</tr>
-</tbody>
-</table>
+
+| Requirement | Value |
+|------------|----------|
+| <p><strong>Client</strong></p> | <p>Requires Windows Vista, Windows XP, or Windows 2000 Professional.</p> | 
+| <p><strong>Server</strong></p> | <p>Requires Windows Server 2008, Windows Server 2003, or Windows 2000 Server.</p> | 
+| <p><strong>Header</strong></p> | <p>Declared in Esent.h.</p> | 
+| <p><strong>Library</strong></p> | <p>Use ESENT.lib.</p> | 
+| <p><strong>DLL</strong></p> | <p>Requires ESENT.dll.</p> | 
+| <p><strong>Unicode</strong></p> | <p>Implemented as <strong>JetGetDatabaseInfoW</strong> (Unicode) and <strong>JetGetDatabaseInfoA</strong> (ANSI).</p> | 
+
 
 
 #### See Also

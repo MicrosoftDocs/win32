@@ -1,5 +1,5 @@
 ---
-description: Starts the service.
+description: StartService method of the Msvm_VirtualSystemManagementService class - Starts the service.
 ms.assetid: 1a1819de-823e-4e97-9c04-fcaeea2c67d9
 title: StartService method of the Msvm_VirtualSystemManagementService class
 ms.topic: reference

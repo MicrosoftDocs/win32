@@ -1,5 +1,5 @@
 ---
-title: Constants
+title: Constants (Magnification)
 description: This section contains reference information about the Magnification API constants.
 ms.assetid: 4AF46B70-9120-47B6-B824-0410805DA89D
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-description: 'This topic is organized as follows:'
+description: Understand best practices for shortcut menu handlers and multiple verbs when you implement a custom file format in the Windows Shell.
 title: Best Practices for Shortcut Menu Handlers and Multiple Verbs
 ms.topic: article
 ms.date: 05/31/2018

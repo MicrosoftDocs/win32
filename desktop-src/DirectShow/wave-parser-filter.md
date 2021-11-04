@@ -12,59 +12,20 @@ The WAVE Parser filter parses WAV-format audio data from .wav, .au, or .aif file
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>Filter Interfaces</td>
-<td><a href="/previous-versions/windows/desktop/api/Qnetwork/nn-qnetwork-iammediacontent"><strong>IAMMediaContent</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-ibasefilter"><strong>IBaseFilter</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-ipersistmediapropertybag"><strong>IPersistMediaPropertyBag</strong></a></td>
-</tr>
-<tr class="even">
-<td>Input Pin Media Types</td>
-<td>Major type: MEDIATYPE_StreamThe following subtypes are valid:<br/>
-<ul>
-<li>MEDIASUBTYPE_AIFF</li>
-<li>MEDIASUBTYPE_AU</li>
-<li>MEDIASUBTYPE_WAVE</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>Input Pin Interfaces</td>
-<td><a href="/windows/desktop/api/Strmif/nn-strmif-ipin"><strong>IPin</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol"><strong>IQualityControl</strong></a></td>
-</tr>
-<tr class="even">
-<td>Output Pin Media Types</td>
-<td>Major type: MEDIATYPE_AudioSubtype: MEDIASUBTYPE_PCM or other compression type. (See <a href="audio-subtypes.md"><strong>Audio Subtypes</strong></a>.)<br/> Format type: FORMAT_WaveFormatEx<br/></td>
-</tr>
-<tr class="odd">
-<td>Output Pin Interfaces</td>
-<td><a href="/windows/desktop/api/Strmif/nn-strmif-ipin"><strong>IPin</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-imediaseeking"><strong>IMediaSeeking</strong></a></td>
-</tr>
-<tr class="even">
-<td>Filter CLSID</td>
-<td>{D51BD5A1-7548-11cf-A520-0080C77EF58A}</td>
-</tr>
-<tr class="odd">
-<td>Property Page CLSID</td>
-<td>No property page.</td>
-</tr>
-<tr class="even">
-<td>Executable</td>
-<td>quartz.dll</td>
-</tr>
-<tr class="odd">
-<td><a href="merit.md">Merit</a></td>
-<td>MERIT_UNLIKELY</td>
-</tr>
-<tr class="even">
-<td><a href="filter-categories.md">Filter Category</a></td>
-<td>CLSID_LegacyAmFilterCategory</td>
-</tr>
-</tbody>
-</table>
+
+| Label | Value |
+|--------|-------|
+| Filter Interfaces | <a href="/previous-versions/windows/desktop/api/Qnetwork/nn-qnetwork-iammediacontent"><strong>IAMMediaContent</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-ibasefilter"><strong>IBaseFilter</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-ipersistmediapropertybag"><strong>IPersistMediaPropertyBag</strong></a> | 
+| Input Pin Media Types | Major type: MEDIATYPE_StreamThe following subtypes are valid:<br /><ul><li>MEDIASUBTYPE_AIFF</li><li>MEDIASUBTYPE_AU</li><li>MEDIASUBTYPE_WAVE</li></ul> | 
+| Input Pin Interfaces | <a href="/windows/desktop/api/Strmif/nn-strmif-ipin"><strong>IPin</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol"><strong>IQualityControl</strong></a> | 
+| Output Pin Media Types | Major type: MEDIATYPE_AudioSubtype: MEDIASUBTYPE_PCM or other compression type. (See <a href="audio-subtypes.md"><strong>Audio Subtypes</strong></a>.)<br /> Format type: FORMAT_WaveFormatEx<br /> | 
+| Output Pin Interfaces | <a href="/windows/desktop/api/Strmif/nn-strmif-ipin"><strong>IPin</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-imediaseeking"><strong>IMediaSeeking</strong></a> | 
+| Filter CLSID | {D51BD5A1-7548-11cf-A520-0080C77EF58A} | 
+| Property Page CLSID | No property page. | 
+| Executable | quartz.dll | 
+| <a href="merit.md">Merit</a> | MERIT_UNLIKELY | 
+| <a href="filter-categories.md">Filter Category</a> | CLSID_LegacyAmFilterCategory | 
+
 
 
 

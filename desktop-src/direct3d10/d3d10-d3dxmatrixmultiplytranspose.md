@@ -1,5 +1,5 @@
 ---
-description: Calculates the transposed product of two matrices.
+description: D3DXMatrixMultiplyTranspose function (D3DX10Math.h) - Calculates the transposed product of two matrices.
 ms.assetid: 3db4138c-407c-47b5-b8b9-04af8771e98e
 title: D3DXMatrixMultiplyTranspose function (D3DX10Math.h)
 ms.topic: reference
@@ -82,7 +82,7 @@ This function is useful to set matrices as constants for vertex and pixel shader
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10Math.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl>   |

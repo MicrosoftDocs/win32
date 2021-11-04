@@ -45,7 +45,7 @@ None.
 
 
 
-|              |                                                       |
+|  Element     | Value                                                     |
 |--------------|-------------------------------------------------------|
 | Element type | [**FlagType**](flagtype-complex-type.md) complexType |
 | Namespace    | urn:schemas-microsoft-com:tabletpc:richink            |

@@ -1,5 +1,5 @@
 ---
-description: Constructor method.
+description: CDispParams.CDispParams constructor - Constructor method.
 ms.assetid: da67a5e4-b4a1-4a38-93fe-0965695e93f5
 title: CDispParams.CDispParams constructor (Ctlutil.h)
 ms.topic: reference
@@ -56,7 +56,7 @@ Pointer to the list of arguments. In the list, each argument is stored with its 
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Ctlutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

@@ -1,6 +1,6 @@
 ---
 title: IBackgroundCopyCallback JobModification method (Deliveryoptimization.h)
-description: Delivery Optimization (DO) calls your implementation of the JobModification method when the job has been modified.
+description: Delivery Optimization calls your implementation of the JobModification method when the job has been modified.
 ms.assetid: 4AC2575F-57FB-45E6-B29C-12DF615237F3
 keywords:
 - JobModification method
@@ -21,7 +21,7 @@ ROBOTS: INDEX,FOLLOW
 
 # IBackgroundCopyCallback::JobModification method
 
-Delivery Optimization (DO) calls your implementation of the [**JobModification**](https://www.bing.com/search?q=**JobModification**) method when the job has been modified. The service generates this event when bytes are transferred, files have been added to the job, properties have been modified, or the state of the job has changed.
+Delivery Optimization calls your implementation of the [**JobModification**](https://www.bing.com/search?q=**JobModification**) method when the job has been modified. The service generates this event when bytes are transferred, files have been added to the job, properties have been modified, or the state of the job has changed.
 
 ## Syntax
 
@@ -42,7 +42,7 @@ HRESULT JobModification(
 *pJob* \[in\]
 </dt> <dd>
 
-Contains the methods for accessing property, progress, and state information of the job. Do not release *pJob*; DO releases the interface when the [**JobModification**](https://www.bing.com/search?q=**JobModification**) method returns.
+Contains the methods for accessing property, progress, and state information of the job. Do not release *pJob*; Delivery Optimization releases the interface when the [**JobModification**](https://www.bing.com/search?q=**JobModification**) method returns.
 
 </dd> <dt>
 

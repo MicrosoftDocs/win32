@@ -15,7 +15,7 @@ The **IsPurchaseProfile** element contains a **boolean** that is **true** if thi
 
 ## Element hierarchy
 
-**<IsPurchaseProfile>**
+**&lt;IsPurchaseProfile&gt;**
 
 ## Syntax
 
@@ -43,18 +43,11 @@ This outermost (document) element may not be contained by any other elements.
 
 ## Requirements
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Namespace</p></td>
-<td><p>https://www.microsoft.com/networking/WWAN/profile/v2</p></td>
-</tr>
-</tbody>
-</table>
+
+| Requirement | Value |
+|------------|----------|
+| <p>Namespace</p> | <p>https://www.microsoft.com/networking/WWAN/profile/v2</p> | 
+
 
  
 

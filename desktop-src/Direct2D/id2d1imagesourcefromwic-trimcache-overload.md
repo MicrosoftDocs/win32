@@ -33,7 +33,7 @@ Trims the populated regions of the image source cache to just the specified rect
 
 
 
-|                   |                                                                                      |
+| Requirement | Value |
 |-------------------|--------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D2d1\_3.h</dt> </dl> |
 

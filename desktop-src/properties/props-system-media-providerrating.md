@@ -1,5 +1,5 @@
 ---
-Description: The rating (0 - 99) supplied by metadata provider.
+description: The rating (0 - 99) supplied by metadata provider.
 ms.assetid: 72e29588-cb22-443f-a404-f192fe680207
 title: System.Media.ProviderRating
 ms.topic: article

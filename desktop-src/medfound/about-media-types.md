@@ -1,5 +1,5 @@
 ---
-Description: About Media Types
+description: Learn about media types in Microsoft Media Foundation. A media type describes the format of a media stream.
 ms.assetid: 169cdb00-0c1a-4530-90b7-bc89c71d1d04
 title: About Media Types (Microsoft Media Foundation)
 ms.topic: article

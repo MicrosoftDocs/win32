@@ -82,104 +82,36 @@ Receives the actual amount of raw value data received in the output buffer.
 
 A group of bits specifying zero or more of the following options.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Value</p></th>
-<th><p>Meaning</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_bitEscrowNoRollback</p></td>
-<td><p>Even if the session performing the escrow update has its transaction rollback this update will not be undone. Note that as the log records may not be flushed to disk, recent escrow updates done with this flag may be lost if there is a crash.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Value</p> | <p>Meaning</p> | 
+|--------------|----------------|
+| <p>JET_bitEscrowNoRollback</p> | <p>Even if the session performing the escrow update has its transaction rollback this update will not be undone. Note that as the log records may not be flushed to disk, recent escrow updates done with this flag may be lost if there is a crash.</p> | 
+
 
 
 ### Return Value
 
 This function returns the [JET_ERR](./jet-err.md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](./extensible-storage-engine-errors.md) and [Error Handling Parameters](./error-handling-parameters.md).
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Return code</p></th>
-<th><p>Description</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_errSuccess</p></td>
-<td><p>The operation completed successfully.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errAlreadyPrepared</p></td>
-<td><p>The cursor has an update prepared with <a href="gg269339(v=exchg.10).md">JetPrepareUpdate</a>.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errClientRequestToStopJetService</p></td>
-<td><p>It is not possible to complete the operation because all activity on the instance associated with the session has ceased as a result of a call to <a href="gg269240(v=exchg.10).md">JetStopService</a>.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errInstanceUnavailable</p></td>
-<td><p>It is not possible to complete the operation because the instance associated with the session has encountered a fatal error that requires that access to all data be revoked to protect the integrity of that data. This error will only be returned by Windows XP and later releases.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errInvalidBufferSize</p></td>
-<td><p>An invalid buffer size has been passed in. Currently only JET_coltypLong is supported, so the buffer must be 4 bytes.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errInvalidOperation</p></td>
-<td><p>An invalid column has been specified. The column must be created with JET_bitColumnEscrowUpdate specified. Only fixed columns of JET_coltypLong can be specified as escrow updateable.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errNoCurrentRecord</p></td>
-<td><p>Cursor must be on a record in order to update a column.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errNotInTransaction</p></td>
-<td><p>Escrow updates can only be performed by sessions in a transaction.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errNotInitialized</p></td>
-<td><p>It is not possible to complete the operation because the instance associated with the session has not been initialized yet.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errPermissionDenied</p></td>
-<td><p>Cursor cannot be read only and update a record.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errRestoreInProgress</p></td>
-<td><p>It is not possible to complete the operation because a restore operation is in progress on the instance associated with the session.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errSessionSharingViolation</p></td>
-<td><p>The same session cannot be used from more than one thread at the same time. This error will only be returned by Windows XP and later releases.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errTermInProgress</p></td>
-<td><p>It is not possible to complete the operation because the instance associated with the session is being shut down.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errTransReadOnly</p></td>
-<td><p>Session must have write permissions to update a record.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errWriteConflict</p></td>
-<td><p>The error returned when a conflicting update is requested.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Return code</p> | <p>Description</p> | 
+|--------------------|--------------------|
+| <p>JET_errSuccess</p> | <p>The operation completed successfully.</p> | 
+| <p>JET_errAlreadyPrepared</p> | <p>The cursor has an update prepared with <a href="gg269339(v=exchg.10).md">JetPrepareUpdate</a>.</p> | 
+| <p>JET_errClientRequestToStopJetService</p> | <p>It is not possible to complete the operation because all activity on the instance associated with the session has ceased as a result of a call to <a href="gg269240(v=exchg.10).md">JetStopService</a>.</p> | 
+| <p>JET_errInstanceUnavailable</p> | <p>It is not possible to complete the operation because the instance associated with the session has encountered a fatal error that requires that access to all data be revoked to protect the integrity of that data. This error will only be returned by Windows XP and later releases.</p> | 
+| <p>JET_errInvalidBufferSize</p> | <p>An invalid buffer size has been passed in. Currently only JET_coltypLong is supported, so the buffer must be 4 bytes.</p> | 
+| <p>JET_errInvalidOperation</p> | <p>An invalid column has been specified. The column must be created with JET_bitColumnEscrowUpdate specified. Only fixed columns of JET_coltypLong can be specified as escrow updateable.</p> | 
+| <p>JET_errNoCurrentRecord</p> | <p>Cursor must be on a record in order to update a column.</p> | 
+| <p>JET_errNotInTransaction</p> | <p>Escrow updates can only be performed by sessions in a transaction.</p> | 
+| <p>JET_errNotInitialized</p> | <p>It is not possible to complete the operation because the instance associated with the session has not been initialized yet.</p> | 
+| <p>JET_errPermissionDenied</p> | <p>Cursor cannot be read only and update a record.</p> | 
+| <p>JET_errRestoreInProgress</p> | <p>It is not possible to complete the operation because a restore operation is in progress on the instance associated with the session.</p> | 
+| <p>JET_errSessionSharingViolation</p> | <p>The same session cannot be used from more than one thread at the same time. This error will only be returned by Windows XP and later releases.</p> | 
+| <p>JET_errTermInProgress</p> | <p>It is not possible to complete the operation because the instance associated with the session is being shut down.</p> | 
+| <p>JET_errTransReadOnly</p> | <p>Session must have write permissions to update a record.</p> | 
+| <p>JET_errWriteConflict</p> | <p>The error returned when a conflicting update is requested.</p> | 
+
 
 
 #### Remarks
@@ -190,156 +122,37 @@ Multiple columns in the same record can be escrow updated. The updates do not af
 
 Only **JetEscrowUpdate** operations are compatible with each other. If two different sessions try to prepare updates or delete the same record, a write conflict will be generated.
 
-<table>
-<colgroup>
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p></p></th>
-<th><p></p></th>
-<th><p>Session B<br />
-<strong>JetEscrowUpdate</strong></p></th>
-<th><p><a href="gg269339(v=exchg.10).md">JetPrepareUpdate</a></p></th>
-<th><p><a href="gg269315(v=exchg.10).md">JetDelete</a></p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p></p></td>
-<td><p><strong>JetEscrowUpdate</strong></p></td>
-<td><p>JET_errSuccess</p></td>
-<td><p>JET_errWriteConflict</p></td>
-<td><p>JET_errWriteConflict</p></td>
-</tr>
-<tr class="even">
-<td><p></p></td>
-<td><p><a href="gg269288(v=exchg.10).md">JetUpdate</a></p></td>
-<td><p>JET_errWriteConflict</p></td>
-<td><p>JET_errWriteConflict</p></td>
-<td><p>JET_errWriteConflict</p></td>
-</tr>
-<tr class="odd">
-<td><p>Session A</p></td>
-<td><p><a href="gg269315(v=exchg.10).md">JetDelete</a></p></td>
-<td><p>JET_errWriteConflict</p></td>
-<td><p>JET_errWriteConflict</p></td>
-<td><p>JET_errWriteConflict</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p></p> | <p></p> | <p>Session B<br /><strong>JetEscrowUpdate</strong></p> | <p><a href="gg269339(v=exchg.10).md">JetPrepareUpdate</a></p> | <p><a href="gg269315(v=exchg.10).md">JetDelete</a></p> | 
+|---------|---------|--------------------------------------------------------|---------------------------------------------------------------|--------------------------------------------------------|
+| <p></p> | <p><strong>JetEscrowUpdate</strong></p> | <p>JET_errSuccess</p> | <p>JET_errWriteConflict</p> | <p>JET_errWriteConflict</p> | 
+| <p></p> | <p><a href="gg269288(v=exchg.10).md">JetUpdate</a></p> | <p>JET_errWriteConflict</p> | <p>JET_errWriteConflict</p> | <p>JET_errWriteConflict</p> | 
+| <p>Session A</p> | <p><a href="gg269315(v=exchg.10).md">JetDelete</a></p> | <p>JET_errWriteConflict</p> | <p>JET_errWriteConflict</p> | <p>JET_errWriteConflict</p> | 
+
 
 
 Escrow operations are versioned and are undone using [JetRollback](./jetrollback-function.md) (unless JET_bitEscrowNoRollback was specified). **JetEscrowUpdate** returns the raw value of the column stored in the database, because an application may want to perform a special action when a sentinel value is hit. [JetRetrieveColumn](./jetretrievecolumn-function.md) returns the correctly versioned view of the column, ignoring updates made by concurrent sessions.
 
 Given two sessions operating on the same column of the same record, we can see how this works. Assume the column starts with a value of 0.
 
-<table>
-<colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Session</p></th>
-<th><p>Operation</p></th>
-<th><p>Stored value</p></th>
-<th><p>Returned value</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>A</p></td>
-<td><p><a href="gg294083(v=exchg.10).md">JetBeginTransation</a></p></td>
-<td><p></p></td>
-<td><p></p></td>
-</tr>
-<tr class="even">
-<td><p>A</p></td>
-<td><p><a href="gg294083(v=exchg.10).md">JetBeginTransation</a></p></td>
-<td><p></p></td>
-<td><p>0</p></td>
-</tr>
-<tr class="odd">
-<td><p>A</p></td>
-<td><p><strong>JetEscrowUpdate</strong> (4)</p></td>
-<td><p>4</p></td>
-<td><p>0</p></td>
-</tr>
-<tr class="even">
-<td><p>A</p></td>
-<td><p><a href="gg269198(v=exchg.10).md">JetRetrieveColumn</a></p></td>
-<td><p></p></td>
-<td><p>4</p></td>
-</tr>
-<tr class="odd">
-<td><p>B</p></td>
-<td><p><a href="gg294083(v=exchg.10).md">JetBeginTransaction</a></p></td>
-<td><p></p></td>
-<td><p></p></td>
-</tr>
-<tr class="even">
-<td><p>B</p></td>
-<td><p><a href="gg269198(v=exchg.10).md">JetRetrieveColumn</a></p></td>
-<td><p></p></td>
-<td><p>0</p></td>
-</tr>
-<tr class="odd">
-<td><p>B</p></td>
-<td><p><strong>JetEscrowUpdate</strong> (3)</p></td>
-<td><p>7</p></td>
-<td><p>4</p></td>
-</tr>
-<tr class="even">
-<td><p>B</p></td>
-<td><p><a href="gg269198(v=exchg.10).md">JetRetrieveColumn</a></p></td>
-<td><p></p></td>
-<td><p>3</p></td>
-</tr>
-<tr class="odd">
-<td><p>A</p></td>
-<td><p><strong>JetEscrowUpdate</strong> (2)</p></td>
-<td><p>9</p></td>
-<td><p>7</p></td>
-</tr>
-<tr class="even">
-<td><p>A</p></td>
-<td><p><strong>JetEscrowUpdate</strong> (-7)</p></td>
-<td><p>2</p></td>
-<td><p>9</p></td>
-</tr>
-<tr class="odd">
-<td><p>B</p></td>
-<td><p><a href="gg269198(v=exchg.10).md">JetRetrieveColumn</a></p></td>
-<td><p></p></td>
-<td><p>3</p></td>
-</tr>
-<tr class="even">
-<td><p>A</p></td>
-<td><p><a href="gg269198(v=exchg.10).md">JetRetrieveColumn</a></p></td>
-<td><p></p></td>
-<td><p>-1</p></td>
-</tr>
-<tr class="odd">
-<td><p>B</p></td>
-<td><p><a href="gg269273(v=exchg.10).md">JetRollback</a></p></td>
-<td><p>-1</p></td>
-<td><p></p></td>
-</tr>
-<tr class="even">
-<td><p>A</p></td>
-<td><p><a href="gg269198(v=exchg.10).md">JetRetrieveColumn</a></p></td>
-<td><p></p></td>
-<td><p>-1</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Session</p> | <p>Operation</p> | <p>Stored value</p> | <p>Returned value</p> | 
+|----------------|------------------|---------------------|-----------------------|
+| <p>A</p> | <p><a href="gg294083(v=exchg.10).md">JetBeginTransation</a></p> | <p></p> | <p></p> | 
+| <p>A</p> | <p><a href="gg294083(v=exchg.10).md">JetBeginTransation</a></p> | <p></p> | <p>0</p> | 
+| <p>A</p> | <p><strong>JetEscrowUpdate</strong> (4)</p> | <p>4</p> | <p>0</p> | 
+| <p>A</p> | <p><a href="gg269198(v=exchg.10).md">JetRetrieveColumn</a></p> | <p></p> | <p>4</p> | 
+| <p>B</p> | <p><a href="gg294083(v=exchg.10).md">JetBeginTransaction</a></p> | <p></p> | <p></p> | 
+| <p>B</p> | <p><a href="gg269198(v=exchg.10).md">JetRetrieveColumn</a></p> | <p></p> | <p>0</p> | 
+| <p>B</p> | <p><strong>JetEscrowUpdate</strong> (3)</p> | <p>7</p> | <p>4</p> | 
+| <p>B</p> | <p><a href="gg269198(v=exchg.10).md">JetRetrieveColumn</a></p> | <p></p> | <p>3</p> | 
+| <p>A</p> | <p><strong>JetEscrowUpdate</strong> (2)</p> | <p>9</p> | <p>7</p> | 
+| <p>A</p> | <p><strong>JetEscrowUpdate</strong> (-7)</p> | <p>2</p> | <p>9</p> | 
+| <p>B</p> | <p><a href="gg269198(v=exchg.10).md">JetRetrieveColumn</a></p> | <p></p> | <p>3</p> | 
+| <p>A</p> | <p><a href="gg269198(v=exchg.10).md">JetRetrieveColumn</a></p> | <p></p> | <p>-1</p> | 
+| <p>B</p> | <p><a href="gg269273(v=exchg.10).md">JetRollback</a></p> | <p>-1</p> | <p></p> | 
+| <p>A</p> | <p><a href="gg269198(v=exchg.10).md">JetRetrieveColumn</a></p> | <p></p> | <p>-1</p> | 
+
 
 
 Replacing a record in the same transaction that performs escrow updates to a record is not recommended. In particular, if an update on a record is prepared with one [JET_TABLEID](./jet-tableid.md) and a different [JET_TABLEID](./jet-tableid.md) is used to escrow update the record then the escrow updated will be lost when [JetUpdate](./jetupdate-function.md) is called. This happens even if the escrow column was not set during the update.
@@ -348,34 +161,15 @@ When an escrow updateable column has a value of zero, special behavior can be tr
 
 #### Requirements
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Client</strong></p></td>
-<td><p>Requires Windows Vista, Windows XP, or Windows 2000 Professional.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Server</strong></p></td>
-<td><p>Requires Windows Server 2008, Windows Server 2003, or Windows 2000 Server.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>Header</strong></p></td>
-<td><p>Declared in Esent.h.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Library</strong></p></td>
-<td><p>Use ESENT.lib.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>DLL</strong></p></td>
-<td><p>Requires ESENT.dll.</p></td>
-</tr>
-</tbody>
-</table>
+
+| Requirement | Value |
+|------------|----------|
+| <p><strong>Client</strong></p> | <p>Requires Windows Vista, Windows XP, or Windows 2000 Professional.</p> | 
+| <p><strong>Server</strong></p> | <p>Requires Windows Server 2008, Windows Server 2003, or Windows 2000 Server.</p> | 
+| <p><strong>Header</strong></p> | <p>Declared in Esent.h.</p> | 
+| <p><strong>Library</strong></p> | <p>Use ESENT.lib.</p> | 
+| <p><strong>DLL</strong></p> | <p>Requires ESENT.dll.</p> | 
+
 
 
 #### See Also

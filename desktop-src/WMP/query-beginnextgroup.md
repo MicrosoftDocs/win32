@@ -1,6 +1,6 @@
 ---
 title: Query.beginNextGroup method
-description: The beginNextGroup method begins a new condition group.
+description: The beginNextGroup method begins a new condition group. | Query.beginNextGroup method
 ms.assetid: 'e0c59bd0-0789-413e-ade8-8d53c6f3e19b'
 keywords:
 - beginNextGroup method Windows Media Player
@@ -47,7 +47,7 @@ Beginning a new condition group implies that you have completed the current cond
 
 
 
-|                    |                                                                                    |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------|
 | Version<br/> | Windows Media Player 11.<br/>                                                |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |

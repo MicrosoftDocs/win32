@@ -23,7 +23,7 @@ Use the following syntax to declare sampler state as well as sampler-comparison 
 
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -86,11 +86,9 @@ Direct3D 10 and later only. Optional array size; a positive integer greater than
 
 \[in\] The sampler type, which is one of the following: *sampler*, *sampler1D*, *sampler2D*, *sampler3D*, *samplerCUBE*, *sampler\_state*, *SamplerState*.
 
+Differences between Direct3D 9 and Direct3D 10 and later:
 
-
-|                                                                                                                                                                       |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Differences between Direct3D 9 and Direct3D 10 and later:<br/> Direct3D 10 and later supports one additional sampler type: *SamplerComparisonState*.<br/> |
+- Direct3D 10 and later supports one additional sampler type: *SamplerComparisonState*.
 
 
 
@@ -146,21 +144,21 @@ When you implement an effect, sampler state is one of several types of state tha
 
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
 <td>Differences between Direct3D 9 and Direct3D 10:<br/> Here is a partial example of a Direct3D 9 sampler from <a href="https://msdn.microsoft.com/library/Ee416223(v=VS.85).aspx">BasicHLSL Sample</a>.<br/> <span data-codelanguage=""></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
 <td><pre><code>sampler MeshTextureSampler = 
 sampler_state
 {
-    Texture = <g_MeshTexture>;
+    Texture = &lt;g_MeshTexture&gt;;
     MipFilter = LINEAR;
     MinFilter = LINEAR;
     MagFilter = LINEAR;
@@ -174,7 +172,7 @@ sampler_state
 <span data-codelanguage=""></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">

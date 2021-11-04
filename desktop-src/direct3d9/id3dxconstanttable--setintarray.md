@@ -1,5 +1,5 @@
 ---
-description: Sets an array of integers.
+description: ID3DXConstantTable::SetIntArray method - Sets an array of integers.
 ms.assetid: 15add9df-966d-45aa-b29c-d4bed2a125f4
 title: ID3DXConstantTable::SetIntArray method (D3DX9Shader.h)
 ms.topic: reference
@@ -84,7 +84,7 @@ If the method succeeds, the return value is D3D\_OK. If the method fails, the re
 
 
 
-|                    |                                                                                          |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Shader.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>     |

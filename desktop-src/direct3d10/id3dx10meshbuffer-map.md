@@ -64,9 +64,9 @@ The return value is one of the values listed in [Direct3D 10 Return Codes](d3d10
 
 
 
-|                                                                                                                                          |
-|------------------------------------------------------------------------------------------------------------------------------------------|
-| Differences between Direct3D 9 and Direct3D 10:<br/> Map() in Direct3D 10 is analogous to resource Map() in Direct3D 9.<br/> |
+ Differences between Direct3D 9 and Direct3D 10:
+
+- Map() in Direct3D 10 is analogous to resource Map() in Direct3D 9.
 
 
 
@@ -76,7 +76,7 @@ The return value is one of the values listed in [Direct3D 10 Return Codes](d3d10
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl> |

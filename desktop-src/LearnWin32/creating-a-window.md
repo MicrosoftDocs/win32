@@ -1,9 +1,9 @@
 ---
 title: Creating a Window
-description: .
+description: Creating a Window
 ms.assetid: e036519f-26b5-436c-b909-bb280d758e81
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 09/10/2021
 ---
 
 # Creating a Window
@@ -14,7 +14,7 @@ A *window class* defines a set of behaviors that several windows might have in c
 
 Every window must be associated with a window class, even if your program only ever creates one instance of that class. It is important to understand that a window class is not a "class" in the C++ sense. Rather, it is a data structure used internally by the operating system. Window classes are registered with the system at run time. To register a new window class, start by filling in a [**WNDCLASS**](/windows/win32/api/winuser/ns-winuser-wndclassa) structure:
 
-```C++
+```cpp
 // Register the window class.
 const wchar_t CLASS_NAME[]  = L"Sample Window Class";
 
@@ -33,11 +33,11 @@ You must set the following structure members:
 
 Class names are local to the current process, so the name only needs to be unique within the process. However, the standard Windows controls also have classes. If you use any of those controls, you must pick class names that do not conflict with the control class names. For example, the window class for the button control is named "Button".
 
-The [**WNDCLASS**](/windows/win32/api/winuser/ns-winuser-wndclassa) structure has other members not shown here. You can set them to zero, as shown in this example, or fill them in. The MSDN documentation describes the structure in detail.
+The [**WNDCLASS**](/windows/win32/api/winuser/ns-winuser-wndclassa) structure has other members not shown here. You can set them to zero, as shown in this example, or fill them in. The [**WNDCLASS**](/windows/win32/api/winuser/ns-winuser-wndclassa) documentation describes the structure in detail.
 
 Next, pass the address of the [**WNDCLASS**](/windows/win32/api/winuser/ns-winuser-wndclassa) structure to the [**RegisterClass**](/windows/desktop/api/winuser/nf-winuser-registerclassa) function. This function registers the window class with the operating system.
 
-```C++
+```cpp
 RegisterClass(&wc);
 ```
 
@@ -45,7 +45,7 @@ RegisterClass(&wc);
 
 To create a new instance of a window, call the [**CreateWindowEx**](/windows/desktop/api/winuser/nf-winuser-createwindowexa) function:
 
-```C++
+```cpp
 HWND hwnd = CreateWindowEx(
     0,                              // Optional window styles.
     CLASS_NAME,                     // Window class
@@ -67,7 +67,7 @@ if (hwnd == NULL)
 }
 ```
 
-You can read detailed parameter descriptions on MSDN, but here is a quick summary:
+You can read detailed parameter descriptions in the documentation for the [**CreateWindowEx**](/windows/desktop/api/winuser/nf-winuser-createwindowexa) function, but here is a quick summary:
 
 - The first parameter lets you specify some optional behaviors for the window (for example, transparent windows). Set this parameter to zero for the default behaviors.
 - `CLASS_NAME` is the name of the window class. This defines the type of window you are creating.
@@ -81,7 +81,7 @@ You can read detailed parameter descriptions on MSDN, but here is a quick summar
 
 [**CreateWindowEx**](/windows/desktop/api/winuser/nf-winuser-createwindowexa) returns a handle to the new window, or zero if the function fails. To show the window—that is, make the window visible —pass the window handle to the [**ShowWindow**](/windows/desktop/api/winuser/nf-winuser-showwindow) function:
 
-```C++
+```cpp
 ShowWindow(hwnd, nCmdShow);
 ```
 
@@ -89,7 +89,7 @@ The *hwnd* parameter is the window handle returned by [**CreateWindowEx**](/wind
 
 Here is the complete code to create the window. Remember that `WindowProc` is still just a forward declaration of a function.
 
-```C++
+```cpp
 // Register the window class.
 const wchar_t CLASS_NAME[]  = L"Sample Window Class";
 

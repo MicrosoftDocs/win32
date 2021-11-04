@@ -1,5 +1,5 @@
 ---
-Description: The CheckMediaType method determines if the pin accepts a specific media type.
+description: CTransInPlaceOutputPin.CheckMediaType method - The CheckMediaType method determines if the pin accepts a specific media type.
 ms.assetid: be720021-ef7b-4281-a9f4-93abbdafc75d
 title: CTransInPlaceOutputPin.CheckMediaType method (Transip.h)
 ms.topic: reference
@@ -69,7 +69,7 @@ If the filter is already streaming and is using two allocators, this method reje
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Transip.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

@@ -9,7 +9,7 @@ ms.date: 10/20/2020
 # Accessibility (Design basics)
 
 > [!NOTE]
-> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](https://docs.microsoft.com/windows/uwp/design/).
+> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](/windows/uwp/design/).
 
 Designing software for accessibility means ensuring that programs and functionality are easily available to the widest range of users, including those who have disabilities and impairments.
 
@@ -31,9 +31,8 @@ The following table describes common user disabilities and impairments, and list
 
 
 
-|                               |                                                                                                                                                                                                         |                                                                                                                                                                                       |
+| Impairment    | Description   | Solutions  |
 |-------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Impairment**<br/>     | **Description**<br/>                                                                                                                                                                              | **Solutions**<br/>                                                                                                                                                              |
 | Visual<br/>             | Ranges from mild (affecting 17 percent of users) to severe (affecting 9 percent of users).<br/>                                                                                                   | Customizable magnification, colors, and contrast; Braille utilities; screen readers.<br/>                                                                                       |
 | Hearing<br/>            | Ranges from mild (affecting 18 percent of users) to severe (affecting 2 percent of users).<br/>                                                                                                   | Information redundancy: sound used only as supplement to text or visual communication.<br/>                                                                                     |
 | Dexterity<br/>          | Ranges from mild (affecting 19 percent of users) to severe (affecting 5 percent of users). This impairment often involves difficulty performing certain motor skills with keyboard or mouse.<br/> | Input method redundancy: program features accessed by mouse or keyboard equivalents.<br/>                                                                                       |
@@ -331,9 +330,8 @@ For more guidelines and examples, see [Keyboard](inter-keyboard.md).
 
 
 
-|                                                               |                                                                                  |
+| Use these terms           | Instead of                                                        |
 |---------------------------------------------------------------|----------------------------------------------------------------------------------|
-| **Use these terms**<br/>                                | **Instead of**<br/>                                                        |
 | Has limited dexterity, has motion disabilities<br/>     | Crippled, lame<br/>                                                        |
 | Without disabilities<br/>                               | Normal, able-bodied, healthy<br/>                                          |
 | One-handed, people who type with one hand<br/>          | Single-handed <br/>                                                        |
@@ -341,8 +339,6 @@ For more guidelines and examples, see [Keyboard](inter-keyboard.md).
 | Cognitive disabilities, developmental disabilities<br/> |                                                                                  |
 
 
-
- 
 
  
 

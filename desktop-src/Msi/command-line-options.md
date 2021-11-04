@@ -3,7 +3,7 @@ description: Command-line options for msiexec.exe for Windows Installer 3.0 and 
 ms.assetid: a70d8cc8-af47-4472-aabc-97481d97080d
 title: Command-Line Options
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 09/10/2021
 ---
 
 # Command-Line Options
@@ -16,9 +16,9 @@ The command-line options in the following table are available with Windows Insta
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -76,7 +76,7 @@ The length of <em>filename</em> must be no more than eight characters.
 <tr class="even">
 <td><strong>/p</strong></td>
 <td><em>PatchPackage[;patchPackage2</em> ]</td>
-<td>Applies a patch. To apply a patch to an installed administrative image you must combine the following options:<br/> /p <em><PatchPackage>[;patchPackage2 ]</em> /a <em><Package></em><br/></td>
+<td>Applies a patch. To apply a patch to an installed administrative image you must combine the following options:<br/> /p <em>&lt;PatchPackage&gt;[;patchPackage2 ]</em> /a <em><Package></em><br/></td>
 </tr>
 <tr class="odd">
 <td><strong>/q</strong></td>

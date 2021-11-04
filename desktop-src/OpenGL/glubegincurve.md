@@ -1,6 +1,6 @@
 ---
 title: gluBeginCurve function (Glu.h)
-description: The gluBeginCurve and gluEndCurve functions delimit a Non-Uniform Rational B-Spline (NURBS) curve definition.
+description: The gluBeginCurve and gluEndCurve functions delimit a Non-Uniform Rational B-Spline (NURBS) curve definition. | gluBeginCurve function (Glu.h)
 ms.assetid: f7f2e765-1a07-4faa-940c-9cb957dd54d4
 keywords:
 - gluBeginCurve function OpenGL

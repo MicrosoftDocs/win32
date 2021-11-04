@@ -1,5 +1,5 @@
 ---
-description: Gets the number of callback keys in the animation set.
+description: ID3DXCompressedAnimationSet::GetNumCallbackKeys method - Gets the number of callback keys in the animation set.
 ms.assetid: 0c952a86-d252-4f65-95e1-2d1e1f6b7143
 title: ID3DXCompressedAnimationSet::GetNumCallbackKeys method (D3dx9anim.h)
 ms.topic: reference
@@ -43,7 +43,7 @@ Number of callback keys in the animation set.
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9anim.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

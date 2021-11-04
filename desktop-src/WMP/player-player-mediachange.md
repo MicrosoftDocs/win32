@@ -1,6 +1,6 @@
 ---
 title: Player.MediaChange event
-description: The MediaChange event occurs when a media item changes.
+description: The MediaChange event occurs when a media item changes. | Player.MediaChange event
 ms.assetid: c4bdd2ae-c51f-4577-b762-bc84aaf52f76
 keywords:
 - MediaChange event Windows Media Player
@@ -77,7 +77,7 @@ The following JScript example uses an HTML DIV element, named MediaName, to disp
 
 
 
-|                    |                                                                                    |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------|
 | Version<br/> | Windows Media Player version 7.0 or later.<br/>                              |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |

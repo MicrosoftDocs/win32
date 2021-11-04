@@ -1,7 +1,7 @@
 ---
-description: Constructor method.
+description: Learn about the COARefTime.COARefTime constructor (Ctlutil.h) method. This method uses no parameters.
 ms.assetid: cb4cb590-527b-406c-9706-1e85a2b8076b
-title: COARefTime.COARefTime constructor (Ctlutil.h)
+title: COARefTime.COARefTime constructor (Ctlutil.h) - No parameters
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
@@ -18,7 +18,7 @@ api_location:
 - Strmbasd.dll
 ---
 
-# COARefTime.COARefTime constructor (Ctlutil.h)
+# COARefTime.COARefTime constructor (Ctlutil.h) - No parameters
 
 Constructor method.
 
@@ -43,10 +43,10 @@ The reference time defaults to zero.
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement                   | Value                                                                                                                                                                                           |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Ctlutil.h (include Streams.h)</dt> </dl>                                                                                   |
-| Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |
+| Header  | Ctlutil.h (include Streams.h)                                                                                   |
+| Library | Strmbase.lib (retail builds); Strmbasd.lib (debug builds) |
 
 
 

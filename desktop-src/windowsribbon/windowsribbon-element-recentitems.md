@@ -34,10 +34,10 @@ Represents the [Recent Items](windowsribbon-controls-recentitems.md) control in 
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col  />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -126,13 +126,8 @@ The following example shows the associated **RecentItems** controls declaration.
 
 ## Element information
 
-
-
-|                                     |           |
-|-------------------------------------|-----------|
-| Minimum supported system<br/> | Windows 7 |
-| Can be empty                        | Yes       |
-
+* **Minimum supported system**: Windows 7
+* **Can be empty**: Yes
 
 
 ## See also

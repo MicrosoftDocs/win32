@@ -1,5 +1,5 @@
 ---
-description: Scale the current matrix about the world coordinate origin.
+description: ID3DXMATRIXStack::Scale method (D3DX10.h) - Scale the current matrix about the world coordinate origin.
 ms.assetid: d0f4b341-b3b6-42e4-84df-78f203c3728e
 title: ID3DXMATRIXStack::Scale method (D3DX10.h)
 ms.topic: reference
@@ -87,7 +87,7 @@ m_stack[m_currentPos] = m_stack[m_currentPos] * tmp;
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl> |

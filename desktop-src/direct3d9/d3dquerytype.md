@@ -25,7 +25,7 @@ Identifies the query type. For information about queries, see [Queries (Direct3D
 ```C++
 typedef enum D3DQUERYTYPE { 
   D3DQUERYTYPE_VCACHE             = 4,
-  D3DQUERYTYPE_ResourceManager    = 5,
+  D3DQUERYTYPE_RESOURCEMANAGER    = 5,
   D3DQUERYTYPE_VERTEXSTATS        = 6,
   D3DQUERYTYPE_EVENT              = 8,
   D3DQUERYTYPE_OCCLUSION          = 9,
@@ -151,11 +151,9 @@ Measure the cache hit-rate performance for textures and indexed vertices.
 
 Efficiency of memory allocation contained in a [**D3DMEMORYPRESSURE**](d3dmemorypressure.md) structure.
 
+Differences between Direct3D 9 and Direct3D 9Ex:
 
-
-|                                                                                                                                                                                               |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Differences between Direct3D 9 and Direct3D 9Ex:<br/> D3DQUERYTYPE\_MEMORYPRESSURE is only available in Direct3D9Ex running on Windows 7 (or more current operating system).<br/> |
+- D3DQUERYTYPE\_MEMORYPRESSURE is only available in Direct3D9Ex running on Windows 7 (or more current operating system).
 
 
 
@@ -167,7 +165,7 @@ Efficiency of memory allocation contained in a [**D3DMEMORYPRESSURE**](d3dmemory
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3D9Types.h</dt> </dl> |
 

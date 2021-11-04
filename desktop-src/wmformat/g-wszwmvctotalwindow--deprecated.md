@@ -1,6 +1,6 @@
 ---
 title: g_wszWMVCTotalWindow (Wmcodecdsp.h)
-description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs.
+description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs. | g_wszWMVCTotalWindow (Wmcodecdsp.h)
 ms.assetid: 3d5ddca4-0223-4ca3-b10f-c8dd044451da
 keywords:
 - g_wszWMVCTotalWindow windows Media Format
@@ -24,7 +24,7 @@ For current documentation on Windows Media codecs and digital signal processors,
 
 
 
-|                   |                                                                                         |
+| Requirement | Value |
 |-------------------|-----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Wmcodecdsp.h</dt> </dl> |
 

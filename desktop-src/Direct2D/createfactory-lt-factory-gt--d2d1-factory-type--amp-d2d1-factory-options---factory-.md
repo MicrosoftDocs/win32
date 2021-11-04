@@ -1,6 +1,6 @@
 ---
 title: D2D1CreateFactory Factory (D2D1_FACTORY_TYPE,D2D1_FACTORY_OPTIONS ,Factory  ) Function (D2d1.h)
-description: Creates a factory object that can be used to create Direct2D resources.
+description: Creates a factory object that can be used to create Direct2D resources. | D2D1CreateFactory Factory (D2D1_FACTORY_TYPE,D2D1_FACTORY_OPTIONS ,Factory  ) Function (D2d1.h)
 ms.assetid: 618d7fbc-3801-4507-8774-4e1f4f36af44
 keywords:
 - D2D1CreateFactory Factory (D2D1_FACTORY_TYPE,D2D1_FACTORY_OPTIONS ,Factory ) Function Direct2D
@@ -16,7 +16,7 @@ ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# D2D1CreateFactory<Factory>(D2D1\_FACTORY\_TYPE,D2D1\_FACTORY\_OPTIONS&,Factory\*\*) Function
+# D2D1CreateFactory&lt;Factory&gt;(D2D1\_FACTORY\_TYPE,D2D1\_FACTORY\_OPTIONS&,Factory\*\*) Function
 
 Creates a factory object that can be used to create Direct2D resources.
 

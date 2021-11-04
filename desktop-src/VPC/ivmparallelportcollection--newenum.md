@@ -1,6 +1,6 @@
 ---
 title: IVMParallelPortCollection _NewEnum property (VPCCOMInterfaces.h)
-description: Retrieves an enumerator for the collection.
+description: Retrieves an enumerator for the collection. | IVMParallelPortCollection _NewEnum property (VPCCOMInterfaces.h)
 ms.assetid: 2e26fba7-bcc0-4bb3-bf89-3c62cbd2b37e
 keywords:
 - _NewEnum property Virtual PC

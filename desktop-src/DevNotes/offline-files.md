@@ -1,5 +1,5 @@
 ---
-description: Offline Files
+description: Review these resources about offline files, such as CSCFindClose, CSCFindFirstFileW, and CSCFindNextFileW.
 ms.assetid: 92BE6EE8-BC98-4CCC-99AB-1D5310CC0D81
 title: Offline Files
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-description: Transforms a 3D vector by a given matrix, projecting the result back into w = 1.
+description: D3DXVec3TransformCoord function (D3DX10Math.h) - Transforms a 3D vector by a given matrix, projecting the result back into w = 1.
 ms.assetid: e138fdc0-6999-45ab-8bcf-54f53bd9b1bf
 title: D3DXVec3TransformCoord function (D3DX10Math.h)
 ms.topic: reference
@@ -79,7 +79,7 @@ The return value for this function is the same value returned in the pOut parame
 
 
 
-|                   |                                                                                         |
+| Requirement | Value |
 |-------------------|-----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3DX10Math.h</dt> </dl> |
 

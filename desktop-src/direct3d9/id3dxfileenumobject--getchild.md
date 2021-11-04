@@ -1,5 +1,5 @@
 ---
-description: Retrieves a child object in this file data object.
+description: ID3DXFileEnumObject::GetChild method - Retrieves a child object in this file data object.
 ms.assetid: d8f367dd-8858-48ae-9de5-17de1538aadf
 title: ID3DXFileEnumObject::GetChild method (D3DX9Xof.h)
 ms.topic: reference
@@ -64,7 +64,7 @@ If the method succeeds, the return value is S\_OK. If the method fails, the retu
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Xof.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>  |
