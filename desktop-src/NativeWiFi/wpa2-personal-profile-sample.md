@@ -1,12 +1,12 @@
 ---
 description: Uses a pre-shared key for network authentication. This sample profile uses Wi-Fi Protected Access 2 security running in Personal mode (WPA2-Personal).
 ms.assetid: dbbadac6-1b7e-4161-a775-a934cf201c9d
-title: WPA2-Personal Profile Sample
+title: WPA2-Personal profile sample
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# WPA2-Personal Profile Sample
+# WPA2-Personal profile sample
 
 This sample profile uses a pre-shared key for network authentication. The key is shared with the client and the access point. This sample profile is configured to use Wi-Fi Protected Access 2 security running in Personal mode (WPA2-Personal). The Advanced Encryption Standard (AES) cipher type is used for encryption.
 
