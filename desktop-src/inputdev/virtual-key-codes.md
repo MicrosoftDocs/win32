@@ -147,7 +147,7 @@ api_location:
 api_type:
 - HeaderDef
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 11/06/2021
 ---
 
 # Virtual-Key Codes
