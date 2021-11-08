@@ -32,8 +32,19 @@ The following table specifies the limits on memory and address space for support
 | System cache virtual address space (physical size limited only by physical memory)<br/> | Limited by available kernel-mode virtual address space or the [SystemCacheLimit](memory-management-registry-keys.md) registry key value.<br/> **Windows 8.1 and Windows Server 2012 R2:** 16 TB.<br/> **Windows Vista:** Limited only by kernel mode virtual address space. Starting with Windows Vista with SP1, system cache virtual address space can also be limited by the [SystemCacheLimit](memory-management-registry-keys.md) registry key value.<br/> **Windows Home Server, Windows Server 2003 and Windows XP:** 860 MB with [LargeSystemCache](/previous-versions/windows/it-pro/windows-server-2003/cc784562(v=ws.10)) registry key set and without 4GT; up to 448 MB with 4GT.<br/> <br/> | Always 1 TB regardless of physical RAM **Windows 8.1 and Windows Server 2012 R2:** 16 TB.<br/> **Windows Server 2003 and Windows XP:** Up to 1 TB depending on configuration and RAM.<br/> <br/>                                                                                                                                                                                                                                                                                            |
 
 
+## Physical Memory Limits: Windows 11
 
- 
+The following table specifies the limits on physical memory for Windows 11.
+
+
+
+| Version               | Limit on X86    | Limit on X64     | Limit on ARM64     |
+|-----------------------|-----------------|------------------|------------------|
+| Windows 10 Enterprise | 4 GB<br/> | 6 TB<br/>   | 6 TB<br/>   |
+| Windows 10 Education  | 4 GB<br/> | 2 TB<br/>   | 2 TB<br/>   |
+| Windows 10 Pro for Workstations  | 4 GB<br/> | 6 TB<br/>   | 6 TB<br/>   |
+| Windows 10 Pro        | 4 GB<br/> | 2 TB<br/>   | 2 TB<br/>   |
+| Windows 10 Home       | 4 GB<br/> | 128 GB<br/> | 128 GB<br/> |
 
 ## Physical Memory Limits: Windows 10
 
