@@ -1,14 +1,14 @@
 ---
-description: The service control manager (SCM) is started at system boot. It is a remote procedure call (RPC) server, so that service configuration and service control programs can manipulate services on remote machines.
+title: Service control manager
+description: The service control manager (SCM) is started at system boot. It's a remote procedure call (RPC) server, so that service configuration and service control programs can manipulate services on remote machines.
 ms.assetid: 56ad011d-17c4-4410-b598-6ef47fb3638f
-title: Service Control Manager
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 11/09/2021
 ---
 
-# Service Control Manager
+# Service control manager
 
-The service control manager (SCM) is started at system boot. It is a remote procedure call (RPC) server, so that service configuration and service control programs can manipulate services on remote machines.
+The service control manager (SCM) is started at system boot. It's a remote procedure call (RPC) server, so that service configuration and service control programs can manipulate services on remote machines.
 
 The service functions provide an interface for the following tasks performed by the SCM:
 
@@ -21,15 +21,8 @@ The service functions provide an interface for the following tasks performed by 
 
 The following sections describe the SCM in more detail:
 
--   [Database of Installed Services](database-of-installed-services.md)
--   [Automatically Starting Services](automatically-starting-services.md)
--   [Starting Services on Demand](starting-services-on-demand.md)
--   [Service Record List](service-record-list.md)
--   [SCM Handles](scm-handles.md)
-
- 
-
- 
-
-
-
+-   [Database of installed services](database-of-installed-services.md)
+-   [Automatically starting services](automatically-starting-services.md)
+-   [Starting services on demand](starting-services-on-demand.md)
+-   [Service record list](service-record-list.md)
+-   [SCM handles](scm-handles.md)
