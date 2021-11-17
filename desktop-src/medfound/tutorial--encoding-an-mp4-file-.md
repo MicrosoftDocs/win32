@@ -499,7 +499,7 @@ The following code creates the audio stream attributes.
 ```C++
 HRESULT CreateAACProfile(DWORD index, IMFAttributes **ppAttributes)
 {
-    if (index >= ARRAYSIZE(h264_profiles))
+    if (index >= ARRAYSIZE(aac_profiles))
     {
         return E_INVALIDARG;
     }
