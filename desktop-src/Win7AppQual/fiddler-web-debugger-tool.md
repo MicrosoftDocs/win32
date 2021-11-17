@@ -1,12 +1,12 @@
 ---
-description: Fiddler Web Debugger Tool
+description: This article describes the Fiddler Web Debugger Tool for Internet Explorer that helps you debug web applications by capturing network traffic between the Internet and test computers.
 ms.assetid: AC23504B-ADFD-4204-954C-79167EBFB31A
-title: Fiddler Web Debugger Tool
+title: Fiddler web debugger tool for Internet Explorer
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Fiddler Web Debugger Tool
+# About the Fiddler web debugger tool
 
 The Fiddler tool helps you debug web applications by capturing network traffic between the Internet and test computers. The tool enables you to inspect incoming and outgoing data to monitor and modify requests and responses before the browser receives them. Fiddler also includes a powerful event-based scripting subsystem, which you can extend by using any .NET Framework language.
 
