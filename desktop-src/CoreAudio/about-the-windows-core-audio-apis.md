@@ -10,10 +10,10 @@ ms.date: 05/31/2018
 
 This documentation provides information about Core Audio APIs for the Microsoft Windows family of operating systems.
 
-The Core Audio APIs were introduced in Windows Vista. This is a new set of user-mode audio components provides client applications with improved audio capabilities. These capabilities include the following:
+The Core Audio APIs were introduced in Windows Vista. This new set of user-mode audio components provide client applications with improved audio capabilities. These capabilities include the following:
 
 -   Low-latency, glitch-resilient audio streaming.
--   Improved reliability (many audio functions have moved from kernel mode to user mode).
+-   Improved reliability (many audio functions have moved from kernel-mode to user-mode).
 -   Improved security (processing of protected audio content takes place in a secure, lower-privilege process).
 -   Assignment of particular system-wide roles (console, multimedia, and communications) to individual audio devices.
 -   Software abstraction of the audio endpoint devices (for example, speakers, headphones, and microphones) that the user manipulates directly.
