@@ -15,7 +15,7 @@ The Hyperlink control displays a HTML link to an address, which opens in the def
 The Text value of the HyperLink control uses the anchor \<a\> tag and the HREF attribute value to specify the URL and displayed text of the link.
 
 ``` syntax
-[Blue Yonder Airlines](https://www.blueyonderairlines.com)
+<a href="https://www.blueyonderairlines.com">Blue Yonder Airlines</a>
 ```
 
 ## Control Attributes
