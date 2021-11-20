@@ -45,7 +45,7 @@ Event trace consumers can implement special processing for process events by cal
 
 | Event type                                                | Description                                                  |
 | --------------------------------------------------------- | ------------------------------------------------------------ |
-| **EVENT\_TRACE\_TYPE\_END**(Event type value is 2)<br/>   | End process event. The [**Process\_V2\_TypeGroup1**](process-v2-typegroup1.md ) MOF class defines the event data for this event. |
+| **EVENT\_TRACE\_TYPE\_END**(Event type value is 2)<br/>   | End process event. The [**Process\_V2\_TypeGroup1**](process-v2-typegroup1.md) MOF class defines the event data for this event. |
 | **EVENT\_TRACE\_TYPE\_START**(Event type value is 1)<br/> | Start process event. The [**Process\_V2\_TypeGroup1**](process-v2-typegroup1.md) MOF class defines the event data for this event. |
 | Event type value, 3                                       | Start data collection process event. Enumerates processes that are currently running at the time the kernel session starts. The [**Process\_V2\_TypeGroup1**](process-v2-typegroup1.md) MOF class defines the event data for this event. |
 | Event type value, 4                                       | End data collection process event. Enumerates processes that are currently running at the time the kernel session ends. The [**Process\_V2\_TypeGroup1**](process-v2-typegroup1.md) MOF class defines the event data for this event. |
