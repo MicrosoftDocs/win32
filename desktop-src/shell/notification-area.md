@@ -116,9 +116,11 @@ Note that this call to [**Shell\_NotifyIcon**](/windows/desktop/api/Shellapi/nf-
 
 ### Define the Notification Look and Contents
 
-A notification is a special type of balloon tooltip control. It contains a title, body text, and an icon. Like a window, it has a **Close** button in its upper right corner. It also contains a **Options** button that opens the Notification Area Icons item in the Control Panel, which allows the user to show or hide the icon or show only notifications without an icon.
+A notification is a special type of balloon tooltip control. It contains a title, body text, and an icon. Like a window, it has a **Close** button in its upper right corner. In versions prior to Windows 10 it also contained a **Options** button that opens the Notification Area Icons item in the Control Panel, which allows the user to show or hide the icon or show only notifications without an icon. In Windows 10 and newer it displays at the left side of the close icon a menu icon which allows the user to turn off such notifications.
 
-![screen shot of notification balloon indicating that battery power is low](images/taskbar/notificationballoon.png)
+![Screenshot of notification balloon](images/taskbar/notificationballoon.png)
+
+![Screenshot of the notification balloon more options](images/taskbar/notificationballoonoptions.png)
 
 The [**NOTIFYICONDATA**](/windows/desktop/api/Shellapi/ns-shellapi-notifyicondataa) structure sent in the call to [**Shell\_NotifyIcon**](/windows/desktop/api/Shellapi/nf-shellapi-shell_notifyicona) contains information that specifies both the notification area icon and the notification balloon itself. The following are those items specific to the notification that can be set through **NOTIFYICONDATA**.
 
