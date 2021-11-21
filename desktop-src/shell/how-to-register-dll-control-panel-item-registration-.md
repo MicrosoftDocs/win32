@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 
  
 
-Control Panel items that are implemented in a DLL that exports the [**CPlApplet**](/windows/win32/api/cpl/nc-cpl-applet_proc) function have different registration requirements than .exe files. As of Windows XP, new Control Panel item DLLs should be installed in the associated application's folder under the Program Files folder. Items that are stored in the System32 directory with a .cpl extension do not need to be registered; they are automatically shown in the Control Panel. All other Control Panel items that use **CPlApplet** must be registered in one of two ways:
+Control Panel items that are implemented in a DLL that exports the [**CPlApplet**](/windows/win32/api/cpl/nc-cpl-applet_proc) function have different registration requirements than .exe files. In Windows XP and later, new Control Panel item DLLs should be installed in the associated application's folder under the Program Files folder. Items that are stored in the System32 directory with a .cpl extension do not need to be registered; they are automatically shown in the Control Panel. All other Control Panel items that use **CPlApplet** must be registered in one of two ways:
 
 -   If the Control Panel item is to be available to all users, register the path on a per-computer basis by adding a **REG\_EXPAND\_SZ** value to the **HKEY\_LOCAL\_MACHINE**\\**Software**\\**Microsoft**\\**Windows**\\**CurrentVersion**\\**Control Panel**\\**Cpls** subkey, set to the DLL path.
 -   If the Control Panel item is to be available on a per-user basis, use **HKEY\_CURRENT\_USER** as the root key instead of **HKEY\_LOCAL\_MACHINE**.
