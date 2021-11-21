@@ -3,31 +3,31 @@ description: Discusses new taskbar functionality, including consolidation of lau
 ms.assetid: cbf2b07d-d67c-4755-888c-d40692d13cae
 title: Taskbar Extensions
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 11/21/2021
 ---
 
 # Taskbar Extensions
 
-As of Windows 7, the taskbar has been extended significantly under the guiding principle of getting users where they're going as quickly and efficiently as possible. To that end, the application windows, files, and commands that the user needs to accomplish that are now centralized into a single taskbar button that consolidates previously scattered information sources and controls. A user can now find common tasks, recent and frequent files, alerts, progress notifications, and thumbnails for individual documents or tabs all in one place.
+As of Windows 11, the taskbar has been extended significantly under the guiding principle of getting users where they're going as quickly and efficiently as possible. To that end, the application windows, files, and commands that the user needs to accomplish that are now centralized into a single taskbar button that consolidates previously scattered information sources and controls. A user can now find common tasks, recent and frequent files, alerts, progress notifications, and thumbnails for individual documents or tabs all in one place.
 
--   [Unified Launching and Switching](#unified-launching-and-switching)
--   [Jump Lists](#jump-lists)
--   [Destinations](#destinations)
--   [Tasks](#tasks)
--   [Customizing Jump Lists](#customizing-jump-lists)
--   [Thumbnail Toolbars](#thumbnail-toolbars)
--   [Icon Overlays](#icon-overlays)
--   [Progress Bars](#progress-bars)
--   [Deskbands](#deskbands)
--   [Notification Area](#notification-area)
--   [Thumbnails](#thumbnails)
--   [Related topics](#related-topics)
+- [Unified Launching and Switching](#unified-launching-and-switching)
+- [Jump Lists](#jump-lists)
+- [Destinations](#destinations)
+- [Tasks](#tasks)
+- [Customizing Jump Lists](#customizing-jump-lists)
+- [Thumbnail Toolbars](#thumbnail-toolbars)
+- [Icon Overlays](#icon-overlays)
+- [Progress Bars](#progress-bars)
+- [Deskbands](#deskbands)
+- [Notification Area](#notification-area)
+- [Thumbnails](#thumbnails)
+- [Related topics](#related-topics)
 
 ## Unified Launching and Switching
 
-As of the Windows 7 taskbar, Quick Launch is no longer a separate toolbar. The launcher shortcuts that Quick Launch typically contained are now pinned to the taskbar itself, mingled with buttons for currently running applications. When a user starts an application from a pinned launcher shortcut, the icon transforms into the application's taskbar button for as long as the application is running. When the user closes the application, the button reverts to the icon. However, both the launcher shortcut and the button for the running application are just different forms of the Windows 7 taskbar button.
+As of the Windows 7 and newer taskbar, Quick Launch is no longer a separate toolbar. The launcher shortcuts that Quick Launch typically contained are now pinned to the taskbar itself, mingled with buttons for currently running applications. When a user starts an application from a pinned launcher shortcut, the icon transforms into the application's taskbar button for as long as the application is running. When the user closes the application, the button reverts to the icon. However, both the launcher shortcut and the button for the running application are just different forms of the Windows 7 and newer taskbar button.
 
-![windows 7 taskbar](images/taskbar/taskbar.png)
+![windows 11 taskbar](images/taskbar/taskbar.png)
 
 A small set of applications are pinned by default for new installations. Other than these, only the user can pin further applications; programmatic pinning by an application is not permitted.
 
@@ -43,7 +43,7 @@ While the application is running, its taskbar button becomes the single place to
 
 The taskbar button can represent a launcher, a single application window, or a group. An identifier known as an Application User Model ID (AppUserModelID) is assigned to each group. An AppUserModelID can be specified to override standard taskbar grouping, which allows windows to become members of the same group when they might not otherwise be seen as such. Each member of a group is given a separate preview in the thumbnail flyout that is shown when the mouse hovers over the group's taskbar button. Note that grouping itself remains optional.
 
-As of Windows 7, taskbar buttons can now be rearranged by the user through drag-and-drop operations.
+As of Windows 7 and newer, taskbar buttons can now be rearranged by the user through drag-and-drop operations.
 
 > [!Note]  
 > The Quick Launch folder ([****FOLDERID\_QuickLaunch****](knownfolderid.md)) is still available for backward compatibility although there is no longer a Quick Launch UI. However, new applications should not ask to add an icon to Quick Launch during installation.
@@ -156,7 +156,10 @@ The taskbar button progress bar is a similar experience to the familiar Progress
 
 ## Deskbands
 
-In versions of Windows prior to Windows 7, something similar to thumbnail toolbar functionality could be achieved through a deskband—a toolbar hosted in the taskbar. For instance, Windows Media Player could minimize to the taskbar as a set of transport controls rather than a standard button. In Windows 7, deskbands can still be implemented and thumbnail toolbars are not intended to replace them all. Not all applications will lend themselves to a thumbnail toolbar, and another solution such as a deskband or a task in a destination list might be the right answer for your application; you must decide which solution works best for your application as part of your development cycle. However, be aware that deskbands must support Windows Aero with translucency ("glass") enabled and the [**IDeskBand2**](/windows/desktop/api/Shobjidl/nn-shobjidl-ideskband2) interface.
+> [!Note]  
+> In Windows 11 deskbands are no loger supported.
+
+In versions of Windows prior to Windows 7, something similar to thumbnail toolbar functionality could be achieved through a deskband—a toolbar hosted in the taskbar. For instance, Windows Media Player could minimize to the taskbar as a set of transport controls rather than a standard button. In Windows 7 and newer, deskbands can still be implemented and thumbnail toolbars are not intended to replace them all. Not all applications will lend themselves to a thumbnail toolbar, and another solution such as a deskband or a task in a destination list might be the right answer for your application; you must decide which solution works best for your application as part of your development cycle. However, be aware that deskbands must support Windows Aero with translucency ("glass") enabled and the [**IDeskBand2**](/windows/desktop/api/Shobjidl/nn-shobjidl-ideskband2) interface.
 
 ### APIs
 
@@ -170,9 +173,9 @@ There have been changes to the notification area that give the user much more co
 
 In Windows Vista, hovering over an application's taskbar button displays a thumbnail that represents the running window. If the taskbar has collapsed the application's windows, the thumbnail represents this by appearing as a stack, but only the active window is shown in the thumbnail itself.
 
-In Windows 7, each member of a group is shown as a separate thumbnail and is now also a switch target. An application can define its children (such as true child windows, individual documents, or tabs) and provide corresponding thumbnails for each of those windows even when they would not normally appear in the taskbar. This enables users to switch directly into the view of the application that they want rather than switching into the application and then switching to their destination. For example, multiple-document interface (MDI)/tabbed-document interface (TDI)applications can have each document or tab displayed as a separate thumbnail and switch target when the mouse hovers over a group's taskbar button.
+In Windows 7 and newer, each member of a group is shown as a separate thumbnail and is now also a switch target. An application can define its children (such as true child windows, individual documents, or tabs) and provide corresponding thumbnails for each of those windows even when they would not normally appear in the taskbar. This enables users to switch directly into the view of the application that they want rather than switching into the application and then switching to their destination. For example, multiple-document interface (MDI)/tabbed-document interface (TDI)applications can have each document or tab displayed as a separate thumbnail and switch target when the mouse hovers over a group's taskbar button.
 
-![three taskbar thumbnails that represent individual tabs in windows internet explorer](images/taskbar/taskbarthumbnails.png)
+![two taskbar thumbnails that represent individual tabs in Microsoft Edge](images/taskbar/taskbarthumbnails.png)
 
 > [!Note]  
 > As in Windows Vista, Aero must be active to view thumbnails.
