@@ -1,14 +1,13 @@
 ---
-title: Getting Started With XInput
-description: XInput is an API that allows applications to receive input from the Xbox Controller for Windows. Controller rumble effects and voice input and output are supported.
-ms.assetid: 7b5eec3e-b3da-de5c-c926-8258c1418ef0
+title: Getting Started With XInput in Windows applications
+description: Overview of how XInput enables Windows applications to process Xbox Controller interactions (including controller rumble effects and voice input and output).
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 11/24/2021
 ---
 
-# Getting Started With XInput
+# Getting Started With XInput in Windows applications
 
-XInput is an API that allows applications to receive input from the Xbox Controller for Windows. Controller rumble effects and voice input and output are supported.
+XInput enables Windows applications to process Xbox Controller interactions (including controller rumble effects and voice input and output).
 
 This topic provides a brief overview of the capabilities of XInput and how to set it up in an application. It includes the following:
 

@@ -1,12 +1,12 @@
 ---
-title: XInput and DirectInput
-description: XInput is an API that allows applications to receive input from the Xbox Controller for Windows.
+title: Comparison of XInput and DirectInput features
+description: Compares XInput and DirectInput APIs and features.
 ms.assetid: 0f29a47b-24ed-c0fa-e9e9-8a061619845c
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 11/24/2021
 ---
 
-# XInput and DirectInput
+# Comparison of XInput and DirectInput features
 
 XInput is an API that allows applications to receive input from the Xbox Controller for Windows. This document describes the differences between XInput and [DirectInput](/previous-versions/windows/desktop/ee416842(v=vs.85)) implementations of the Xbox Controller and how you can support XInput devices and legacy DirectInput devices at the same time.
 
