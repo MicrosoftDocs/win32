@@ -3,7 +3,7 @@ title: Getting and Setting a Channel's Configuration Properties
 description: A channel is initially configured in the manifest (see Defining Channels). To get the configurable properties of a channel, call the EvtOpenChannelConfig function to get a handle to the channel.
 ms.assetid: 4ee44dae-b390-4d98-bcef-836b53b04860
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 11/24/2021
 ---
 
 # Getting and Setting Channel Configuration Properties
@@ -14,9 +14,9 @@ You can configure many of the channel's properties at run time. The [**EVT\_CHAN
 
 See the following sections for examples that show how to get and set channel properties:
 
--   [Enumerating channels](#enumerating-channels)
--   [Getting channel properties](#getting-and-setting-a-channels-configuration-properties)
--   [Setting channel properties](#getting-and-setting-a-channels-configuration-properties)
+- [Enumerating channels](#enumerating-channels)
+- [Getting channel properties](#getting-channel-properties)
+- [Setting channel properties](#setting-channel-properties)
 
 ## Enumerating channels
 
