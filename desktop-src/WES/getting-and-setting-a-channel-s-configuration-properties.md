@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Getting and Setting a Channel's Configuration Properties
+# Getting and Setting Channel Configuration Properties
 
 A channel is initially configured in the manifest (see [Defining Channels](defining-channels.md)). To get the configurable properties of a channel, call the [**EvtOpenChannelConfig**](/windows/desktop/api/WinEvt/nf-winevt-evtopenchannelconfig) function to get a handle to the channel. Then, call the [**EvtGetChannelConfigProperty**](/windows/desktop/api/WinEvt/nf-winevt-evtgetchannelconfigproperty) function to get the value of a configurable property of the channel. For a list of configurable properties, see the [**EVT\_CHANNEL\_CONFIG\_PROPERTY\_ID**](/windows/desktop/api/WinEvt/ne-winevt-evt_channel_config_property_id) enumeration. The channel's name, value, and message string properties are considered metadata and cannot be retrieved using the **EvtGetChannelConfigProperty** function. For details on getting these properties, see [Getting a Provider's Metadata](getting-a-provider-s-metadata-.md).
 

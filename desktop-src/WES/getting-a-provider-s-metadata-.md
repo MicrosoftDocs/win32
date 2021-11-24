@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Getting a Provider's Metadata
+# Getting Provider Metadata
 
 A provider uses an instrumentation manifest to identify itself, define the events that it writes, and other components such as channels, tasks, and keywords. To access this information at run time, call the [**EvtOpenPublisherMetadata**](/windows/desktop/api/WinEvt/nf-winevt-evtopenpublishermetadata) function to get a handle to the publisher's metadata.
 

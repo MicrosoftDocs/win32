@@ -47,9 +47,9 @@
           href: formatting-event-messages.md
       - name: "Bookmarking Events"
         href: bookmarking-events.md
-    - name: "Getting and Setting a Channel&apos;s Configuration Properties"
+    - name: "Getting and Setting Channel Configuration Properties"
       href: getting-and-setting-a-channel-s-configuration-properties.md
-    - name: "Getting a Provider&apos;s Metadata"
+    - name: "Getting Provider Metadata"
       href: getting-a-provider-s-metadata-.md
     - name: "Accessing Remote Computers"
       href: accessing-remote-computers.md
