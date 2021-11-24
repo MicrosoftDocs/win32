@@ -16,7 +16,6 @@ Make use of available APIs and services provided by Windows to install, manage, 
 
 | Topic | Description |
 | --- | --- |
-| [Games Explorer](/previous-versions/windows/desktop/legacy/hh437965(v=vs.85)) | Describes how to use Games Explorer to display games on Windows. |
 | [Isolated Applications and Side-by-side Assemblies](/windows/desktop/SbsCs/isolated-applications-and-side-by-side-assemblies-portal) | Isolated Applications and Side-by-side Assemblies is a Microsoft Windows solution that reduces versioning conflicts in Windows-client applications. |
 | [Packaging, deployment, and query of Windows apps](/windows/desktop/appxpkg/appx-portal) | Programmatically create Windows app packages (including UWP and desktop apps), and install, update, query, and uninstall apps. |
 | [Restart Manager](/windows/desktop/RstMgr/restart-manager-portal) | The Restart Manager API can eliminate or reduce the number of system restarts that are required to complete an installation or update. |
