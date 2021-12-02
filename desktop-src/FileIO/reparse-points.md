@@ -21,7 +21,7 @@ The following restrictions apply to reparse points:
 -   Reparse point data, including the tag and optional **GUID**, cannot exceed 16 kilobytes. Setting a reparse point fails if the amount of data to be placed in the reparse point exceeds this limit.
 -   There is a limit of 63 reparse points on any given path.
     
-    **NOTE:** The limit can be reduced depending on the length of the reparse point e.g: if your reparse point targets a fully qualified path, the limit becomes 31.
+    **NOTE:** The limit can be reduced depending on the length of the reparse point. For example, if your reparse point targets a fully qualified path, the limit becomes 31.
     
     **Windows Server 2003 and Windows XP:** There is a limit of 31 reparse points on any given path.
 
