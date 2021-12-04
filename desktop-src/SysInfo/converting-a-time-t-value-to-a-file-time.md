@@ -23,7 +23,7 @@ void TimetToFileTime(time_t t, LPFILETIME pft)
 }
 ```
 
-After you've a [FILETIME](/windows/win32/api/minwinbase/ns-minwinbase-filetime), you can convert the value to system time using the [**FileTimeToSystemTime**](/windows/win32/api/timezoneapi/nf-timezoneapi-filetimetosystemtime) function.
+After you've obtained a [FILETIME](/windows/win32/api/minwinbase/ns-minwinbase-filetime), you can convert the value to system time using the [**FileTimeToSystemTime**](/windows/win32/api/timezoneapi/nf-timezoneapi-filetimetosystemtime) function.
 
 ## Legacy code example
 
