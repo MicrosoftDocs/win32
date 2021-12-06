@@ -40,8 +40,10 @@ On operating systems like Windows 10 Multisession and Windows Server with the Re
 
 ### WDDM graphics adapters and terminals
 
-To get graphics out of a remote terminal, you need a console [Windows Display Driver Model](/windows-hardware/drivers/display/windows-vista-display-driver-model-design-guide) (WDDM) indirect driver to configure your virtual monitor settings.
+To get graphics out of a remote terminal, you need a remote [Windows Display Driver Model](/windows-hardware/drivers/display/windows-vista-display-driver-model-design-guide) (WDDM) indirect driver to configure your virtual monitor settings.
 
-WDDM drivers can duplicate either or both render capabilities (WDDM Render Only Driver)  and display capabilities (WDDM Display Only Driver/[WDDM Indirect Display Driver](/windows-hardware/drivers/display/indirect-display-driver-model-overview)) of the remote terminal in your session window. For example, if the remote monitor supports 1080p at 60Hz, the session window can render its graphics at that specification despite the local monitor having different capabilities.
+WDDM drivers can duplicate either or both render capabilities (WDDM Render Only Driver) and display capabilities (WDDM Display Only Driver/[WDDM Indirect Display Driver](/windows-hardware/drivers/display/indirect-display-driver-model-overview)) of the remote terminal in your session window. For example, if the remote monitor supports 1080p at 60Hz, the session window can render its graphics at that specification despite the local monitor having different capabilities.
 
-In WDDM remote sessions, the SKU’s default policy (with Group policy override) decides if  either WARP (CPU rasterizer) or a render GPU paired with the remote WDDM Indirect Display adapter will render the desktop and application for that remote session.
+The display capacities of a WDDM GPU are always associated with the console terminal. This means a local monitor exposed through full WDDM driver, console WDDM Indirect Display Driver, or WDDM Display Only driver will only display the console terminal, hence the current console session. For example, a full WDDM GPU with two local monitors attached in a console session is exposed with the attached monitors. Still, that adapter is enumerated in a remote session without any monitors attached.
+
+In WDDM remote sessions, the SKU’s default policy (with Group policy override) decides if either WARP (CPU rasterizer) or a render GPU paired with the remote WDDM Indirect Display adapter will render the desktop and application for that remote session.
