@@ -20,7 +20,7 @@ There are different types of terminals, but the two most common ones are console
 
 ## Console vs. remote terminal
 
-A `console` is a terminal session connected to a remote host, which is always active with few exceptions. There’s only one active console terminal on a given machine, and all the local input/output devices are attached to the terminal.
+A `console` is a terminal session connected to a console host, which is always active with few exceptions. There’s only one active console terminal on a given machine, and all the local input/output devices are attached to the terminal.
 
 The other common terminal is the `remote` terminal. A remote terminal is when a console terminal ‘connects’ into another and manipulates it remotely. This terminal is created by protocol providers (RDP, Citrix, VMware, etc.) that integrate with the [Remote Desktop Services](/windows/win32/api/wtsprotocol/nf-wtsprotocol-iwrdsprotocolconnection-getusercredentials) Interface. The input/output devices associated with this are considered “remote.”
 
@@ -40,7 +40,7 @@ On operating systems like Windows 10 Multisession and Windows Server with the Re
 
 ### WDDM graphics adapters and terminals
 
-To get graphics out of a remote terminal, you need a [Windows Display Driver Model](/windows-hardware/drivers/display/windows-vista-display-driver-model-design-guide) (WDDM) driver to configure your virtual monitor settings.
+To get graphics out of a remote terminal, you need a console [Windows Display Driver Model](/windows-hardware/drivers/display/windows-vista-display-driver-model-design-guide) (WDDM) indirect driver to configure your virtual monitor settings.
 
 WDDM drivers can duplicate either or both render capabilities (WDDM Render Only Driver)  and display capabilities (WDDM Display Only Driver/[WDDM Indirect Display Driver](/windows-hardware/drivers/display/indirect-display-driver-model-overview)) of the remote terminal in your session window. For example, if the remote monitor supports 1080p at 60Hz, the session window can render its graphics at that specification despite the local monitor having different capabilities.
 
