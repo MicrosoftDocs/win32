@@ -46,9 +46,6 @@ Therefore, executable code in data sections should be migrated to a code section
 [How to Configure Memory Protection](https://www.microsoft.com/technet/security/prodtech/windowsxp/depcnfxp.mspx)
 </dt> <dt>
 
-[KB Article 875352](https://support.microsoft.com/kb/875352)
-</dt> </dl>
-
  
 
  
