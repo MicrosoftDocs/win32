@@ -9,8 +9,10 @@ ms.custom: contperf-fy21q1
 
 # Windows Installer Error Messages (for Developers)
 
+This article is intended for software developers who are using Windows Installer to build installer packages for their applications. 
+
 > [!NOTE]  
-> This article is intended for software developers who are using Windows Installer to build installer packages for their applications. If you are a user experiencing difficulty with your computer either during or after installing or uninstalling an application, contact customer support for the software you are trying to install or remove. If you feel you are in need of support for a Microsoft product, please go to our technical support site at [support.microsoft.com](https://support.microsoft.com).
+> If you need support for a Microsoft product, please go to our technical support site at [support.microsoft.com](https://support.microsoft.com).
 
 The error codes detailed in this topic are returned by the Windows Installer, and have error codes of 1000 or greater. The error codes numbered 1000 to 1999 are ship errors and must be authored into the [Error table](error-table.md). The error codes numbered greater than 2000 are internal errors and do not have authored strings, but these can occur if the installation package has been incorrectly authored. For error codes specific to the Windows Installer functions **MsiExec.exe** and **InstMsi.exe**, see [MsiExec.exe and InstMsi.exe Error Messages](error-codes.md). For a list of reserved error codes, see [Error table](error-table.md). You can search the Internet or the [Microsoft support site](https://support.microsoft.com/) for solutions to many of the messages in the following table.
 
