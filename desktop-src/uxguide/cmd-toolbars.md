@@ -1,12 +1,12 @@
 ---
-title: Toolbars
+title: Windows 7 Toolbars
 description: Toolbars are a way to group commands for efficient access.
 ms.assetid: 8f36307c-54fc-493d-a2ff-57db29e3508d
 ms.topic: article
 ms.date: 10/20/2020
 ---
 
-# Toolbars
+# Windows 7 Toolbars
 
 > [!NOTE]
 > This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](/windows/uwp/design/).
