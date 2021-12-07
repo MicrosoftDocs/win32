@@ -1,12 +1,12 @@
 ---
-title: Menus (Design basics)
+title: Windows 7 Menus (Design basics)
 description: Menus are hierarchical lists of commands or options available to users in the current context.
 ms.assetid: 3772ff8e-8057-476d-b62b-efbd5e07907f
 ms.topic: article
 ms.date: 10/20/2020
 ---
 
-# Menus (Design basics)
+# Windows 7 Menus (Design basics)
 
 > [!NOTE]
 > This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](/windows/uwp/design/).
