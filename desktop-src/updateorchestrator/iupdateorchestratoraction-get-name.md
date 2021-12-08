@@ -2,7 +2,7 @@
 title: IUpdateOrchestratorAction::get_Name method
 description: Returns the action name string.
 ms.date: 01/29/2020
-ms.topic: method
+ms.topic: reference
 ---
 
 # IUpdateOrchestratorAction::get_Name method

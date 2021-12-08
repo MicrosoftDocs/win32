@@ -2,7 +2,7 @@
 title: IUpdateOrchestratorActionCallback::ReportFailed method
 description: Called if the action fails instead of completing.
 ms.date: 01/29/2020
-ms.topic: method
+ms.topic: reference
 ---
 
 # IUpdateOrchestratorActionCallback::ReportFailed method

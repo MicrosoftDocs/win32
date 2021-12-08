@@ -2,7 +2,7 @@
 title: IUpdateOrchestratorActionCallback::ReportProgress method
 description: Called to report progress.
 ms.date: 01/29/2020
-ms.topic: method
+ms.topic: reference
 ---
 
 # IUpdateOrchestratorActionCallback::ReportProgress method

@@ -2,7 +2,7 @@
 title: IUpdateOrchestratorUpdate::get_Deadline method
 description: Gets the deadline for an update.
 ms.date: 01/29/2020
-ms.topic: method
+ms.topic: reference
 ---
 
 # IUpdateOrchestratorUpdate::get_Deadline method

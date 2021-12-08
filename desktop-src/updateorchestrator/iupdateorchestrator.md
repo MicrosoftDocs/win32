@@ -2,7 +2,7 @@
 title: IUpdateOrchestrator interface
 description: The caller should use this interface to register their updater CLSID for work.
 ms.date: 01/29/2020
-ms.topic: interface
+ms.topic: reference
 ---
 
 # IUpdateOrchestrator interface

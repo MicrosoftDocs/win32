@@ -2,7 +2,7 @@
 title: IUpdateOrchestratorUnlock::Unlock method
 description: Unlocks the RegisterProvider and UnregisterProvider methods.
 ms.date: 01/29/2020
-ms.topic: method
+ms.topic: reference
 ---
 
 # IUpdateOrchestratorUnlock::Unlock method

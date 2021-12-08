@@ -2,7 +2,7 @@
 title: IUpdateOrchestratorUpdate::get_Description method
 description: Gets the update’s description for telemetry and diagnostic purposes.
 ms.date: 01/29/2020
-ms.topic: method
+ms.topic: reference
 ---
 
 # IUpdateOrchestratorUpdate::get_Description method

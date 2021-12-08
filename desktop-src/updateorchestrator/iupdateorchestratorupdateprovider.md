@@ -2,7 +2,7 @@
 title: IUpdateOrchestratorUpdateProvider interface
 description: This interface is implemented by the caller and is created using the CLSID provided to IUpdateOrchestrator::Register.
 ms.date: 01/29/2020
-ms.topic: interface
+ms.topic: reference
 ---
 
 # IUpdateOrchestratorUpdateProvider interface
