@@ -104,8 +104,8 @@ In its original form, Hungarian notation gives *semantic* information about a va
 
 A more common form of Hungarian notation uses prefixes to give *type* information—for example, *dw* for **DWORD** and *w* for **WORD**.
 
-Note, the cpp core guildines discourage Hungarian notation, see [NL.5: Avoid encoding type information in names](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#nl5-avoid-encoding-type-information-in-names), and
-internally, the Windows team no longer uses it. It's use remains in many samples and documentation.
+Note, the cpp core guildines discourage prefix notation (e.g. Hungarian), see [NL.5: Avoid encoding type information in names](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#nl5-avoid-encoding-type-information-in-names), and
+internally, the Windows team no longer uses it. Its use remains in many samples and documentation.
 
 ## Next
 
