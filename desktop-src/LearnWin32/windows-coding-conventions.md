@@ -36,7 +36,7 @@ As you can see, there is a certain amount of redundancy in these typedefs. Some 
 
 ### Boolean Type
 
-**BOOL** is a type alias for `int`, distinct from C++ **bool** and other types that represent [Boolean](https://en.wikipedia.org/wiki/Boolean_algebra). The header file WinDef.h also defines two values for use with **BOOL**.
+**BOOL** is a type alias for **int**, distinct from C++ **bool** and other types that represent [Boolean](https://en.wikipedia.org/wiki/Boolean_algebra). The header file WinDef.h also defines two values for use with **BOOL**.
 
 ```C++
 #define FALSE    0 
@@ -104,8 +104,8 @@ In its original form, Hungarian notation gives *semantic* information about a va
 
 A more common form of Hungarian notation uses prefixes to give *type* information—for example, *dw* for **DWORD** and *w* for **WORD**.
 
-Note, the cpp core guildines discourage practices like Hungarian notation, see [NL.5: Avoid encoding type information in names](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#nl5-avoid-encoding-type-information-in-names), and
-internally, the Windows team no longer uses it. It's use remains in many samples.
+Note, the cpp core guildines discourage Hungarian notation, see [NL.5: Avoid encoding type information in names](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#nl5-avoid-encoding-type-information-in-names), and
+internally, the Windows team no longer uses it. It's use remains in many samples and documentation.
 
 ## Next
 
