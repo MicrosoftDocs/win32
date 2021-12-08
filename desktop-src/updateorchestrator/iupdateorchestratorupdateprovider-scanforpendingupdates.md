@@ -2,7 +2,7 @@
 title: IUpdateOrchestratorUpdateProvider::ScanForPendingUpdates method
 description: Scans for pending updates.
 ms.date: 01/29/2020
-ms.topic: method
+ms.topic: reference
 ---
 
 # IUpdateOrchestratorUpdateProvider::ScanForPendingUpdates method

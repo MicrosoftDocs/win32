@@ -2,7 +2,7 @@
 title: IUpdateOrchestratorActionCallback interface
 description: Callback interface supplied by the UpdateOrchestrator to the PerformAction method of the IUpdateOrchestratorUpdate object so that the UpdateOrchestratorUpdateProvider can provide progress and status on the state of the action.
 ms.date: 01/29/2020
-ms.topic: interface
+ms.topic: reference
 ---
 
 # IUpdateOrchestratorActionCallback interface

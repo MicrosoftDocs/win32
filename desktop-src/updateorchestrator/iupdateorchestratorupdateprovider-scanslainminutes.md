@@ -2,7 +2,7 @@
 title: IUpdateOrchestratorUpdateProvider::get_ScanSlaInMinutes method
 description: Gets the default Scan SLA. This value is how often the provider wishes to have a successful scan.
 ms.date: 01/29/2020
-ms.topic: method
+ms.topic: reference
 ---
 
 # IUpdateOrchestratorUpdateProvider::get_ScanSlaInMinutes method

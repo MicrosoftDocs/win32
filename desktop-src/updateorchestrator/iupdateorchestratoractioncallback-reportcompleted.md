@@ -2,7 +2,7 @@
 title: IUpdateOrchestratorActionCallback::ReportCompleted method
 description: Called when the action is complete and has not failed.
 ms.date: 01/29/2020
-ms.topic: method
+ms.topic: reference
 ---
 
 # IUpdateOrchestratorActionCallback::ReportCompleted method

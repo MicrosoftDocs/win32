@@ -2,7 +2,7 @@
 title: IUpdateOrchestratorAction  interface
 description: Tells the UpdateOrchestrator about the next action to be performed on an update.
 ms.date: 01/29/2020
-ms.topic: interface
+ms.topic: reference
 ---
 
 # IUpdateOrchestratorAction interface

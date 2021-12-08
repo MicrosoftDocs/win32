@@ -1,7 +1,7 @@
 ---
 title: UPDATE_ORCHESTRATOR_ACTION_KIND Enumeration
 description: Enumeration that indicates the action to be performed in the scheduled update.
-ms.topic: enum
+ms.topic: reference
 ms.date: 01/29/2020
 ---
 

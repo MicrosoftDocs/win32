@@ -2,7 +2,7 @@
 title: IUpdateOrchestrator::RegisterProvider method
 description: Registers the update provider with the given CLSID.
 ms.date: 01/29/2020
-ms.topic: method
+ms.topic: reference
 ---
 
 # IUpdateOrchestrator::RegisterProvider method

@@ -2,7 +2,7 @@
 title: IUpdateOrchestratorUpdate::Pause method
 description: Called to pause the current action.
 ms.date: 01/29/2020
-ms.topic: method
+ms.topic: reference
 ---
 
 # IUpdateOrchestratorUpdate::Pause method
