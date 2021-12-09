@@ -64,7 +64,7 @@ In this example, the level is set to 5, which means that the maximum number of e
 
 The keywords **ut:ReceivePath** and **ut:SentPath** filters the events to show only those events traced on the receive or send path. A complete list of keywords for a specific provider can be found by typing **netsh trace show provider** followed by the provider name. For example, typing **netsh trace show provider Microsoft-Windows-TCPIP** will display information about the Microsoft-Windows-TCPIP provider, including a list of keywords.
 
-Netsh also supports packet filtering capability (similar to Network Monitor) when packet capturing is turned on (by setting **capture = yes**). Packet filtering can be used to capture a limited number of packets in a trace file. For example, **netsh trace start capture = yes ipv4.address == x.x.x.x** , where x.x.x.x is the IP address, will only capture packets with ipv4 traffic with that specific source or destination address.
+Netsh also supports packet filtering capability (similar to Network Monitor) when packet capturing is turned on (by setting **capture = yes**). Packet filtering can be used to capture a limited number of packets in a trace file. For example, **netsh trace start capture = yes ipv4.address = x.x.x.x** , where x.x.x.x is the IP address, will only capture packets with ipv4 traffic with that specific source or destination address.
 
 For additional information about how to use packet filtering, you can type **netsh trace show capturefilterHelp**.
 
