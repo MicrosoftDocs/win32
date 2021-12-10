@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Acquiring high-resolution time stamps
 
-Windows provides APIs that you can use to acquire high-resolution time stamps or measure time intervals. The primary API for native code is [**QueryPerformanceCounter (QPC)**](/windows/win32/api/profileapi/nf-profileapi-queryperformancecounter). For device drivers, the kernel-mode API is [**KeQueryPerformanceCounter**](/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-kequeryperformancecounter). For managed code, the [**System.Diagnostics.Stopwatch**](/previous-versions/windows/) class uses **QPC** as its precise time basis.
+Windows provides APIs that you can use to acquire high-resolution time stamps, or measure time intervals. The primary API for native code is [**QueryPerformanceCounter (QPC)**](/windows/win32/api/profileapi/nf-profileapi-queryperformancecounter). For device drivers, the kernel-mode API is [**KeQueryPerformanceCounter**](/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-kequeryperformancecounter). For managed code, the [**System.Diagnostics.Stopwatch**](/previous-versions/windows/) class uses **QPC** as its precise time basis.
 
 [**QPC**](/windows/win32/api/profileapi/nf-profileapi-queryperformancecounter) is independent of and isn't synchronized to any external time reference. To retrieve time stamps that can be synchronized to an external time reference, such as, Coordinated Universal Time (UTC) for use in high-resolution time-of-day measurements, use [**GetSystemTimePreciseAsFileTime**](/windows/win32/api/sysinfoapi/nf-sysinfoapi-getsystemtimepreciseasfiletime).
 
