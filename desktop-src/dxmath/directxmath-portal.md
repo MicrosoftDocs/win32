@@ -29,7 +29,7 @@ For developers new to DirectXMath, you may want to consider using the SimpleMath
 
 ## Developer audience
 
-The DirectXMath library is designed for C++ developers working on games and DirectX graphics in Windows Store apps, Xbox games, and traditional desktop apps for Windows.
+The DirectXMath library is designed for C++ developers working on games and DirectX graphics in Universal Windows Platform apps, Xbox games, and traditional desktop apps for Windows.
 
 ## Obtaining DirectXMath
  
