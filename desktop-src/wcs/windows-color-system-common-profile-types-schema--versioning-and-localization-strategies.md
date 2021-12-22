@@ -27,7 +27,6 @@ keywords:
 - profile consumers
 - common profile types
 - schemas,common profile types
-ms.localizationpriority: high
 
 
 ms.topic: article

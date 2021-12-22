@@ -1,7 +1,6 @@
 ---
 title: D3D12SDKVersion symbol
 description: The Direct3D 12 SDK version number.
-ms.localizationpriority: low
 ms.topic: reference
 ms.date: 08/25/2021
 req.lib: 

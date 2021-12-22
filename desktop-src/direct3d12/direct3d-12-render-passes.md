@@ -1,7 +1,6 @@
 ---
 title: Direct3D 12 render passes
 description: The render passes feature helps your renderer improve GPU efficiency by reducing memory traffic to/from off-chip memory; it does this by enabling your application to better identify resource rendering ordering requirements and data dependencies.
-ms.localizationpriority: high
 ms.topic: article
 ms.date: 11/15/2018
 ---

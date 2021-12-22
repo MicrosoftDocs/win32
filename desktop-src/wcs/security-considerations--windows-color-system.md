@@ -10,7 +10,6 @@ keywords:
 - security for Windows Color System (WCS)
 - Color Management Module (CMM)
 - CMM (Color Management Module)
-ms.localizationpriority: high
 
 
 ms.topic: article

@@ -11,7 +11,6 @@ keywords:
 - schemas,calibration
 - WCS calibration
 - calibration
-ms.localizationpriority: high
 
 
 ms.topic: article

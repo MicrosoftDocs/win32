@@ -2,7 +2,6 @@
 title: Direct3D 12 programming environment setup
 description: Describes the installation, tools and supported libraries that make up a productive Direct3D 12 development environment.
 ms.assetid: B2288866-E95F-46B8-A7A1-19888F029C03
-ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
 ---

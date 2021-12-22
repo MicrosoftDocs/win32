@@ -15,7 +15,6 @@ keywords:
 - tone
 - shade
 - zero saturation
-ms.localizationpriority: high
 
 
 ms.topic: article

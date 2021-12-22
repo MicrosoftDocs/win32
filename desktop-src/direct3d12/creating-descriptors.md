@@ -2,7 +2,6 @@
 title: Creating Descriptors
 description: Describes and shows examples for creating index, vertex, and constant buffer views; shader resource, render target, unordered access, stream output and depth-stencil views; and samplers. All methods for creating descriptors are free threaded.
 ms.assetid: 0D360A7C-8A2F-49E1-A5CC-98C958B59D1C
-ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
 ---

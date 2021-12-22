@@ -2,7 +2,6 @@
 title: MDM registration functions
 description: The following functions are declared in `mdmregistration.h`, and are used by MDM registration.
 ms.assetid: 1b063a56-f59f-4b02-949f-c8b6bbf45a13
-ms.localizationpriority: low
 ms.topic: reference
 ms.date: 11/19/2020
 ---

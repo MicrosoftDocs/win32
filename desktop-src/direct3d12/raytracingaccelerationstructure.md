@@ -2,7 +2,6 @@
 title: RaytracingAccelerationStructure 
 description: A resource type that can be declared in HLSL and passed into TraceRay to indicate the top-level acceleration resource built using BuildRaytracingAccelerationStructure.
 ms.assetid: 
-ms.localizationpriority: low
 ms.topic: language-reference
 ms.date: 05/31/2018
 ---

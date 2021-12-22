@@ -25,7 +25,6 @@ keywords:
 - sRGB color space
 - color spaces,sRGB
 - subtractive primary colors
-ms.localizationpriority: high
 
 
 ms.topic: article

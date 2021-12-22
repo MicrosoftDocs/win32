@@ -18,7 +18,6 @@ keywords:
 - WCS reference,profiles
 - reference for WCS,profiles
 - profile management
-ms.localizationpriority: high
 
 
 ms.topic: article

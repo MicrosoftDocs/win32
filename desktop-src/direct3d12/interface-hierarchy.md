@@ -2,7 +2,6 @@
 title: Interface Hierarchy
 description: The diagram shows the interface inheritance hierarchy.
 ms.assetid: 1DCDE305-D910-452D-BD52-F9C8112461EF
-ms.localizationpriority: low
 ms.topic: article
 ms.date: 05/31/2018
 ---

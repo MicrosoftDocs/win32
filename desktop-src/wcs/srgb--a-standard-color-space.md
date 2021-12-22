@@ -10,7 +10,6 @@ keywords:
 - colors,sRGB color space
 - sRGB color space
 - color spaces,sRGB
-ms.localizationpriority: high
 
 
 ms.topic: article

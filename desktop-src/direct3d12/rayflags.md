@@ -2,7 +2,6 @@
 description: An unsigned integer containing the current ray flags.
 ms.assetid: 
 title: RayFlags
-ms.localizationpriority: low
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

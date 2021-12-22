@@ -1,7 +1,6 @@
 ---
 title: DXCore interfaces
 description: The following interfaces, and their methods, are declared in dxcore_interface.h.
-ms.localizationpriority: low
 ms.topic: reference
 ms.date: 06/20/2019
 ---

@@ -13,7 +13,6 @@ api_location:
 api_type:
 - HeaderDef
 ms.topic: reference
-ms.localizationpriority: low
 ms.date: 05/31/2018
 ---
 

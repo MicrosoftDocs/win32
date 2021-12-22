@@ -1,7 +1,6 @@
 ---
 title: IDXCoreAdapter::QueryState
 description: Retrieves the current state of the specified item on the adapter.
-ms.localizationpriority: low
 ms.topic: reference
 ms.date: 06/20/2019
 ---
