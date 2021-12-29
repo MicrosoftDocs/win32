@@ -1,7 +1,6 @@
 ---
 title: DXCoreNotificationType
 description: Defines constants that specify types of notifications raised by [IDXCoreAdapter](./nn-dxcore_interface-idxcoreadapter.md) or [IDXCoreAdapterList](./nn-dxcore_interface-idxcoreadapterlist.md) objects.
-ms.localizationpriority: low
 ms.topic: reference
 ms.date: 06/20/2019
 ---

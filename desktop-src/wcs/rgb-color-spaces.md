@@ -12,7 +12,6 @@ keywords:
 - RGB color spaces
 - red green blue (RGB)
 - RGB (red green blue)
-ms.localizationpriority: high
 
 
 ms.topic: article

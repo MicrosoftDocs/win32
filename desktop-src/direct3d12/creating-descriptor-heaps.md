@@ -2,7 +2,6 @@
 title: Creating Descriptor Heaps
 description: To create and configure a descriptor heap, you must select a descriptor heap type, determine how many descriptors it contains, and set flags that indicate whether it is CPU visible and/or shader visible.
 ms.assetid: 58677023-692C-4BA4-90B7-D568F3DD3F73
-ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
 ---

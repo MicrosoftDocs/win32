@@ -1,7 +1,6 @@
 ---
 title: D3DPERF_QueryRepeatFrame function
 description: Determine whether a performance profiler is requesting that the current frame be resubmitted to Direct3D for performance analysis. This function is not currently supported by PIX.
-ms.localizationpriority: low
 ms.topic: reference
 ms.date: 04/06/2020
 req.lib: d3d9.lib

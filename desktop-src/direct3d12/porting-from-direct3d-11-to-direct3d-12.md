@@ -2,7 +2,6 @@
 title: Porting from Direct3D 11 to Direct3D 12
 description: This section provides some guidance on porting from a custom Direct3D 11 graphics engine to Direct3D 12.
 ms.assetid: 9EB4AC6B-AFDD-4673-8EB3-54272C151784
-ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 title: Direct3D 12 raytracing HLSL system value intrinsics
 description: View links to articles describing high-level shader language (HLSL) system value intrinsic functions that support the Direct3D 12 raytracing pipeline.
 ms.assetid: 
-ms.localizationpriority: low
 ms.topic: article
 ms.date: 05/31/2018
 ---

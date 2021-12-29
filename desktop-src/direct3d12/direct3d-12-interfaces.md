@@ -2,7 +2,6 @@
 title: Core interfaces (Direct3D 12 Graphics)
 description: The following interfaces are declared in d3d12.h.
 ms.assetid: A9BD5910-8FF2-4540-BB8E-E8EA5C10528C
-ms.localizationpriority: low
 ms.topic: article
 ms.date: 04/19/2019
 ms.custom: 19H1

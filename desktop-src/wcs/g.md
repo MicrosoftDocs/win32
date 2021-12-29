@@ -24,7 +24,6 @@ keywords:
 - gamut
 - gamut map model profile (GMMP)
 - GMMP (gamut map model profile)
-ms.localizationpriority: high
 
 
 ms.topic: article

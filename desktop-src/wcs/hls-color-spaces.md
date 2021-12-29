@@ -16,7 +16,6 @@ keywords:
 - zero saturation
 - hue lightness saturation (HLS)
 - HLS (hue lightness saturation)
-ms.localizationpriority: high
 
 
 ms.topic: article

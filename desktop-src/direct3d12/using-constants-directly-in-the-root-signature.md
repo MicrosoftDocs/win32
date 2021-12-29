@@ -2,7 +2,6 @@
 title: Using Constants Directly in the Root Signature
 description: Applications can define root constants in the root signature, each as a set of 32-bit values. They appear in High Level Shading Language (HLSL) as a constant buffer. Note that constant buffers for historical reasons are viewed as sets of 4x32-bit values.
 ms.assetid: F9A2640F-D1FA-481C-BDF1-B15372E3C512
-ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
 ---

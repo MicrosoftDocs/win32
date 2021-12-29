@@ -1,7 +1,6 @@
 ---
 title: IDXCoreAdapterFactory::CreateAdapterList
 description: Generates a list of adapter objects representing the current adapter state of the system, and meeting the criteria specified.
-ms.localizationpriority: low
 ms.topic: reference
 ms.date: 06/20/2019
 ---

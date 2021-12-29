@@ -10,7 +10,6 @@ keywords:
 - colors,enumerations
 - WCS reference,enumerations
 - reference for WCS,enumerations
-ms.localizationpriority: high
 
 
 ms.topic: article

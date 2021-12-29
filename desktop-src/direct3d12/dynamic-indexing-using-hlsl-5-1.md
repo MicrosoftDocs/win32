@@ -2,7 +2,6 @@
 title: Dynamic Indexing using HLSL 5.1
 description: The D3D12DynamicIndexing sample demonstrates some of the new HLSL features available in Shader Model 5.1 - particularly dynamic indexing and unbounded arrays - to render the same mesh multiple times, each time rendering it with a dynamically selected material. With dynamic indexing, shaders can now index into an array without knowing the value of the index at compile time. When combined with unbounded arrays, this adds another level of indirection and flexibility for shader authors and art pipelines.
 ms.assetid: 9821AEDF-E83D-4034-863A-2B820D9B7455
-ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
 ---

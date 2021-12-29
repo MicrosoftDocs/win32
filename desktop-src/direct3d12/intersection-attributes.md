@@ -2,7 +2,6 @@
 title: Intersection attributes structure 
 description: A structure declared in HLSL to represent hit attributes for fixed-function triangle intersection or axis-aligned bounding box for procedural primitive intersection.
 ms.assetid: 
-ms.localizationpriority: low
 ms.topic: language-reference
 ms.date: 05/31/2018
 ---
