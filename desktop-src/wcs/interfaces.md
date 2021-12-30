@@ -10,7 +10,6 @@ keywords:
 - colors,interfaces
 - WCS reference,interfaces
 - reference for WCS,interfaces
-ms.localizationpriority: high
 
 
 ms.topic: article

@@ -8,7 +8,6 @@ keywords:
 - image color management,Internet issues
 - color management,Internet issues
 - colors,Internet issues
-ms.localizationpriority: high
 
 
 ms.topic: article

@@ -15,7 +15,6 @@ api_name:
 - CSA_CMYK
 api_type:
 - NA
-ms.localizationpriority: high
 
 
 ms.topic: article

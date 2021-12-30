@@ -2,7 +2,6 @@
 title: Descriptor Tables Overview
 description: Each descriptor table stores descriptors of one or more types - SRVs, UAVe, CBVs, and Samplers. A descriptor table is not an allocation of memory; it is simply an offset and length into a descriptor heap.
 ms.assetid: 4A5749CE-DD84-40E1-B67F-31828165A631
-ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
 ---

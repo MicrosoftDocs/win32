@@ -11,7 +11,6 @@ api_location:
 - D3D12.dll
 api_type:
 - COM
-ms.localizationpriority: low
 ms.topic: reference
 ms.date: 08/29/2019
 ---

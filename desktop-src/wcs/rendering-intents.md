@@ -15,7 +15,6 @@ keywords:
 - Graphic intent
 - Proof intent
 - Match intent
-ms.localizationpriority: high
 
 
 ms.topic: article

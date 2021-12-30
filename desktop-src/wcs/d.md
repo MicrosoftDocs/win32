@@ -24,7 +24,6 @@ keywords:
 - device profiles
 - device model profile (DMP)
 - DMP (device model profile)
-ms.localizationpriority: high
 
 
 ms.topic: article

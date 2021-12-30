@@ -1,7 +1,6 @@
 ---
 title: DXCoreHardwareID
 description: Represents the PnP hardware ID parts for an adapter.
-ms.localizationpriority: low
 ms.topic: reference
 ms.date: 06/20/2019
 ---

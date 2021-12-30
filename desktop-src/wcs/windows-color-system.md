@@ -2,7 +2,6 @@
 title: Windows Color System
 description: Color management schemes are implemented in Microsoft Windows operating systems to improve the rendering of color content in all forms of digital communication.The color management scheme that's used starting with Windows 2000, Windows XP, and Windows Server 2003 is called Image Color Management (ICM) 2.0. The color management scheme that's used starting with Windows Vista is called Windows Color System (WCS) 1.0. The WCS 1.0 color management scheme is a superset of ICM 2.0 APIs and functionality.
 ms.assetid: 9e8b7c38-3c4f-4537-a7e1-6ad0daa39497
-ms.localizationpriority: high
 
 
 ms.topic: article

@@ -10,7 +10,6 @@ keywords:
 - colors,structures
 - WCS reference,structures
 - reference for WCS,structures
-ms.localizationpriority: high
 
 
 ms.topic: article

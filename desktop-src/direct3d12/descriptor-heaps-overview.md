@@ -2,7 +2,6 @@
 title: Descriptor Heaps Overview
 description: Descriptor heaps contain many object types that are not part of a Pipeline State Object (PSO), such as Shader Resource Views (SRVs), Unordered Access Views (UAVs), Constant Buffer Views (CBVs), and Samplers.
 ms.assetid: 14561E77-44E0-4A58-8456-F40D59ECA175
-ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
 ---

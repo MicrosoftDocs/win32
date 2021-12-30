@@ -2,7 +2,6 @@
 title: Rendering (Direct3D 12 Graphics)
 description: This section contains information about rendering features new to Direct3D 12 (and Direct3D 11.3).
 ms.assetid: 5BF1440E-E4D8-43C8-BF0E-F02FEFE79C93
-ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
 ---

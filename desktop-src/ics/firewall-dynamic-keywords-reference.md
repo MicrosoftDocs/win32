@@ -5,7 +5,6 @@ keywords:
 - Firewall dynamic keywords, reference
 ms.topic: article
 ms.date: 05/13/2021
-ms.localizationpriority: low
 ---
 
 # Firewall dynamic keywords reference

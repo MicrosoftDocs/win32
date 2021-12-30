@@ -2,7 +2,6 @@
 title: Root Signature Version 1.1
 description: The purpose of Root Signature version 1.1 is to enable applications to indicate to drivers when descriptors in a descriptor heap won’t change or the data descriptors point to won’t change.
 ms.assetid: 8FE42C1C-7F1D-4E70-A7EE-D5EC67237327
-ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -15,7 +15,6 @@ keywords:
 - colors,algorithms
 - schemas,Windows Color System (WCS)
 - algorithms,Windows Color System (WCS)
-ms.localizationpriority: high
 
 
 ms.topic: article

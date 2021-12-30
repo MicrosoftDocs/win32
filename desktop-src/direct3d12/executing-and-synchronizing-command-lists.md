@@ -6,7 +6,6 @@ keywords:
 - command list
 - synchronization
 - execution
-ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
 ---

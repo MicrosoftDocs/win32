@@ -5,7 +5,6 @@ ms.assetid: C85C8C41-2306-4568-8FAE-F57EDA624298
 keywords:
 - command list
 - bundle
-ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
 ---

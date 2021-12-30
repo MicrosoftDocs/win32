@@ -2,7 +2,6 @@
 title: Minimal DXCore application
 description: The full source code listing for a minimal DXCore application.
 ms.custom: 19H1
-ms.localizationpriority: high
 ms.topic: article
 ms.date: 06/21/2019
 ---

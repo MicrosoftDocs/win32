@@ -1,7 +1,6 @@
 ---
 title: IDXCoreAdapterFactory::IsNotificationTypeSupported
 description: Determines whether a specified notification type is supported by the operating system (OS).
-ms.localizationpriority: low
 ms.topic: reference
 ms.date: 06/20/2019
 ---

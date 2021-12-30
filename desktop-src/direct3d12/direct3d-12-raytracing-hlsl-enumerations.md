@@ -2,7 +2,6 @@
 title: Direct3D 12 Raytracing HLSL Enumerations
 description: The following HLSL enumerations support the Direct3D 12 raytracing pipeline.
 ms.assetid: 
-ms.localizationpriority: low
 ms.topic: article
 ms.date: 05/31/2018
 ---

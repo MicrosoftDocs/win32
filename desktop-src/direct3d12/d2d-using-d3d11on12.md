@@ -2,7 +2,6 @@
 title: D2D using D3D11on12
 description: The D3D1211on12 sample demonstrates how to render D2D content over D3D12 content by sharing resources between an 11 based device and a 12 based device.
 ms.assetid: FAEF1412-053C-4B5F-80FA-85396C2586B4
-ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
 ---
