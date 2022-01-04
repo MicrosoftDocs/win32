@@ -57,13 +57,13 @@ The child element must be repeated for each day of the month the task is to run.
 
 ## Examples
 
-The following XML defines a monthly calendar trigger that starts a task (at 8:30 AM) on the 1st day of every month.
+The following XML defines a monthly calendar trigger that starts a task (at 8 AM) on the 1st day of every month.
 
 
 ```XML
 <CalendarTrigger>
     <StartBoundary>2005-01-01T08:00:00</StartBoundary>
-    <EndBounadry>2007-01-01T00:00:00</EndBoundary>
+    <EndBoundary>2007-01-01T00:00:00</EndBoundary>
     <ScheduleByMonth>
         <DaysOfMonth>
             <Day>1</Day>  
@@ -81,7 +81,7 @@ The following XML defines a monthly calendar trigger that starts a task (at 8:30
             <October/>
             <November/>
             <December/>
-        <Months>
+        </Months>
     </ScheduleByMonth>
 </CalendarTrigger>
 ```
