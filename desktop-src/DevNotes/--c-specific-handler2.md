@@ -22,7 +22,7 @@ api_location:
 
 Called by the compiler to implement structured exception handling extensions.
 
-The relative address of the language specific handler is present in the UNWIND\_INFO whenever flags UNW\_FLAG\_EHANDLER or UNW\_FLAG\_UHANDLER are set. The language specific handler is called as part of the search for an exception handler or as part of an unwind. For more information see [Language Specific Handler](/cpp/build/language-specific-handler).
+The relative address of the language specific handler is present in the UNWIND\_INFO whenever flags UNW\_FLAG\_EHANDLER or UNW\_FLAG\_UHANDLER are set. The language specific handler is called as part of the search for an exception handler or as part of an unwind. For more information see [Language Specific Handler](/cpp/build/exception-handling-x64#language-specific-handler).
 
 ## Syntax
 
