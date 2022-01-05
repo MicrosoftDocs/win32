@@ -1,9 +1,9 @@
 ---
-description: Monitors counter data provided by the system or network or device and used by programs to identify performance bottlenecks and fine tune performance. Manages performance counters from performance monitoring applications.
+description: Use Windows Performance Counters to collect system data such as CPU, memory, and disk usage to identify performance bottlenecks and fine tune performance.
 ms.assetid: 9dcb7e84-a7d6-43b5-8fe9-4e33d683c74c
 title: Performance Counters
 ms.topic: article
-ms.date: 08/17/2020
+ms.date: 01/04/2022
 ---
 
 # Performance Counters
