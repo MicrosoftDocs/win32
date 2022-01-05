@@ -19,7 +19,7 @@ This sample is an instance of the [mschapv2userpropertiesv1](mschapv2userpropert
       <eapCommon:Type>25</eapCommon:Type> 
       <eapCommon:AuthorId>0</eapCommon:AuthorId> 
     </EapMethod>
-    <Credentials xmlns:eapUser="https://www.microsoft.com/provisioning/EapUserPropertiesV1"
+    <Credentials xmlns:eapUser="http://www.microsoft.com/provisioning/EapUserPropertiesV1"
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xmlns:baseEap="http://www.microsoft.com/provisioning/BaseEapUserPropertiesV1"
       xmlns:MsPeap="http://www.microsoft.com/provisioning/MsPeapUserPropertiesV1"
