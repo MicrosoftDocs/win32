@@ -136,7 +136,7 @@ If the operation fails or is pending, [**DeviceIoControl**](/windows/desktop/api
 
 Some information about batteries is optional or may be meaningless for some batteries. If the particular type of data requested is not available for the current battery, then **ERROR\_INVALID\_FUNCTION** is returned.
 
-All requests for battery information will complete with the status of ERROR_NO_SUCH_DEVICE (ERROR_FILE_NOT_FOUND in builds in [**Windows 10 version 1809 and earlier OS releases**]) whenever the BatteryTag element of the request does not match that of the current battery tag. This ensures that the returned battery information matches that of the requested battery. IOCTL_BATTERY_QUERY_INFORMATION control code (Poclass.h) - Win32 apps retrieves a variety of information for the battery. (See [Battery Tags](battery-information.md) for more information.)
+All requests for battery information will complete with the status of ERROR_NO_SUCH_DEVICE (or ERROR_FILE_NOT_FOUND in **Windows 10 version 1809 and earlier**) whenever the BatteryTag element of the request does not match that of the current battery tag. This ensures that the returned battery information matches that of the requested battery (see [Battery Tags](battery-information.md) for more information).
 
 ## Remarks
 
