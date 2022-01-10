@@ -1,6 +1,6 @@
 ---
 title: DDS Volume Texture Example
-description: For a volume texture, use the DDSCAPS\_COMPLEX, DDSCAPS2\_VOLUME, DDSD\_DEPTH flags and set dwDepth. A volume texture is an extension of a standard texture for Direct3D 9 and can be defined with or without mipmaps.
+description: For a volume texture, use the **DDSCAPS_COMPLEX**, **DDSCAPS2_VOLUME**, and **DDSD\_DEPTH flags**, and set *dwDepth*. A volume texture is an extension of a standard texture for Direct3D 9; a volume texture can be defined with or without mipmaps.
 ms.assetid: c1675a6d-129a-4e95-993f-e1be905781cc
 ms.topic: article
 ms.date: 05/31/2018
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # DDS Volume Texture Example
 
-For a volume texture, use the DDSCAPS\_COMPLEX, DDSCAPS2\_VOLUME, DDSD\_DEPTH flags and set dwDepth. A volume texture is an extension of a standard texture for Direct3D 9 and can be defined with or without mipmaps.
+For a volume texture, use the **DDSCAPS_COMPLEX**, **DDSCAPS2_VOLUME**, and **DDSD\_DEPTH flags**, and set *dwDepth*. A volume texture is an extension of a standard texture for Direct3D 9; a volume texture can be defined with or without mipmaps.
 
 For volumes without mipmaps, each depth slice is written to the file in order. If mipmaps are included, all depth slices for a given mipmap level are written together, with each level containing half as many slices as the previous level with a minimum of 1.
 
