@@ -13,14 +13,18 @@ ms.date: 05/31/2018
 
  
 
-App packager (MakeAppx.exe) creates an app package from files on disk or extracts the files from an app package to disk. Starting with Windows 8.1, App packager also creates an app package bundle from app packages on disk or extracts the app packages from an app package bundle to disk. It is included in Microsoft Visual Studio and the Windows Software Development Kit (SDK) for Windows 8 or Windows Software Development Kit (SDK) for Windows 8.1. Visit [Downloads for developers]( https://msdn.microsoft.com/windows/apps/br229516.aspx) to get them.
+App packager (MakeAppx.exe) creates an app package from files on disk or extracts the files from an app package to disk. Starting with Windows 8.1, App packager also creates an app package bundle from app packages on disk or extracts the app packages from an app package bundle to disk. It is included in Microsoft Visual Studio and the Windows Software Development Kit (SDK) for Windows 8 or Windows Software Development Kit (SDK) for Windows 8.1 and newer. Visit [Downloads for developers]( https://msdn.microsoft.com/windows/apps/br229516.aspx) to get them.
 
-The MakeAppx.exe tool is typically found at these locations:
+The MakeAppx.exe tool is typically found in operating system version specific locations:
 
--   On x86: C:\\Program Files (x86)\\Windows Kits\\8.0\\bin\\x86\\makeappx.exe or C:\\Program Files (x86)\\Windows Kits\\8.1\\bin\\x86\\makeappx.exe
--   On x64 in two locations:
-    -   C:\\Program Files (x86)\\Windows Kits\\8.0\\bin\\x86\\makeappx.exe or C:\\Program Files (x86)\\Windows Kits\\8.1\\bin\\x86\\makeappx.exe
-    -   C:\\Program Files (x86)\\Windows Kits\\8.0\\bin\\x64\\makeappx.exe or C:\\Program Files (x86)\\Windows Kits\\8.1\\bin\\x64\\makeappx.exe
+-   On x86: 
+    -   C:\\Program Files (x86)\\Windows Kits\\8.0\\bin\\x86\\makeappx.exe 
+    -   C:\\Program Files (x86)\\Windows Kits\\8.1\\bin\\x86\\makeappx.exe
+    -   C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.22000.0\\x86\\makeappx.exe
+-   On x64:
+    -   C:\\Program Files (x86)\\Windows Kits\\8.0\\bin\\x86\\makeappx.exe 
+    -   C:\\Program Files (x86)\\Windows Kits\\8.1\\bin\\x86\\makeappx.exe
+    -   C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.22000.0\\x86\\makeappx.exe
 
 There is no ARM version of the tool.
 
