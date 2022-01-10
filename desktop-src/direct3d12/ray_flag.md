@@ -32,6 +32,8 @@ enum RAY_FLAG : uint
     RAY_FLAG_CULL_FRONT_FACING_TRIANGLES     = 0x20,
     RAY_FLAG_CULL_OPAQUE                     = 0x40,
     RAY_FLAG_CULL_NON_OPAQUE                 = 0x80,
+    RAY_FLAG_SKIP_TRIANGLES                  = 0x100,
+    RAY_FLAG_SKIP_PROCEDURAL_PRIMITIVES      = 0x200,
 }; 
 ```
 
