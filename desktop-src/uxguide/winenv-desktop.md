@@ -1,17 +1,16 @@
 ---
-title: Desktop
-description: The desktop is the user's work area for their programs. It's not a way to promote awareness of your program or its brand. Don't abuse it .
-ms.assetid: 99cb218d-9b1f-4e43-94d2-4ea74b0e10d3
+title: The Windows 7 Desktop
+description: The Windows 7 desktop is the user's work area for their programs.
 ms.topic: article
-ms.date: 10/20/2020
+ms.date: 01/11/2022
 ---
 
-# Desktop
+# The Windows 7 Desktop
 
 > [!NOTE]
 > This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](/windows/uwp/design/).
 
-The desktop is the user's work area for their programs. It's not a way to promote awareness of your program or its brand. Don't abuse it!
+The Windows 7 desktop is the user's work area for their programs. It's not a way to promote awareness of your program or its brand. Don't abuse it!
 
 The desktop is the onscreen work area provided by Microsoft Windows, analogous to a physical desktop. It consists of a [work area](glossary.md) and [taskbar](winenv-taskbar.md). The work area may span multiple monitors.
 
