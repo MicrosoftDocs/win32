@@ -36,7 +36,7 @@ As you can see, there is a certain amount of redundancy in these typedefs. Some 
 
 ### Boolean Type
 
-**BOOL** is a type alias for **int**, distinct from C++ **bool** and other types that represent [Boolean](https://en.wikipedia.org/wiki/Boolean_algebra). The header file WinDef.h also defines two values for use with **BOOL**.
+**BOOL** is a type alias for **int**, distinct from C++'s **bool**, and from other types that represent a [Boolean](https://en.wikipedia.org/wiki/Boolean_algebra) value. The header file `WinDef.h` also defines two values for use with **BOOL**.
 
 ```C++
 #define FALSE    0 
@@ -70,7 +70,7 @@ if (result == TRUE) // Wrong!
 }
 ```
 
-Be aware that **BOOL** is an integer type and is not interchangeable with C++ **bool**.
+**BOOL** is an integer type, and is not interchangeable with C++'s **bool**.
 
 ### Pointer Types
 
@@ -82,7 +82,7 @@ LPRECT rect;  // The same
 PRECT  rect;  // Also the same.
 ```
 
-On 16bit architectures (16-bit Windows) there are 2 types of pointers, *P* for "pointer" and *LP* stands for "long pointer". Long pointers (also called *far pointers*) were needed to address memory ranges outside the current segment. The *LP* prefix was preserved to make it easier to port 16-bit code to 32-bit Windows. Today there is no distinction — a pointer is a pointer. Avoid using these prefixes or if you must use one use *P*.
+On 16-bit architectures (16-bit Windows) there are 2 types of pointers, *P* for "pointer" and *LP* stands for "long pointer". Long pointers (also called *far pointers*) were needed to address memory ranges outside of the current segment. The *LP* prefix has been preserved to make it easier to port 16-bit code to 32-bit Windows. Today there is no distinction, and these pointer types are all equivalent. Avoid using these prefixes; or if you must use one, then use *P*.
 
 ### Pointer Precision Types
 
@@ -104,13 +104,9 @@ In its original form, Hungarian notation gives *semantic* information about a va
 
 A more common form of Hungarian notation uses prefixes to give *type* information—for example, *dw* for **DWORD** and *w* for **WORD**.
 
-Note, the cpp core guildines discourage prefix notation (e.g. Hungarian), see [NL.5: Avoid encoding type information in names](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#nl5-avoid-encoding-type-information-in-names), and
-internally, the Windows team no longer uses it. Its use remains in many samples and documentation.
+> [!NOTE]
+> The [C++ Core Guidelines](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines) discourage prefix notation (for example, Hungarian notation). See [NL.5: Avoid encoding type information in names](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#nl5-avoid-encoding-type-information-in-names). Internally, the Windows team no longer uses it. But its use remains in samples and documentation.
 
 ## Next
 
 [Working with Strings](working-with-strings.md)
-
- 
-
- 
