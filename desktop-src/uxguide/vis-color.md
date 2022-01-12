@@ -180,11 +180,11 @@ To determine if your program's use of color is accessible and not used as a prim
 
 To determine if your program's use of color is programmed correctly, test your program in the following modes:
 
--   Theming enabled using the default Windows theme.
--   Theming enabled using a non-default theme.
--   Theming disabled ("Windows Classic style" in the Theme Settings in the Personalization Control Panel item).
--   High Contrast Black (white text on a black background).
--   High Contrast White (black text on a white background).
+- Theming enabled using the default Windows theme.
+- Theming enabled using a non-default theme.
+- Theming disabled ("Windows Classic style" in the Theme Settings in the Personalization Control Panel item).
+- Aquatic (formerly High Contrast Black) theme (white text on a black background).
+- Desert (formerly High Contrast White) theme (black text on a white background).
 
 All the screen elements should be legible and appear as expected, even immediately after mode changes.
 
