@@ -20,13 +20,13 @@ Defines a version-information resource. The resource contains such information a
 
 There are two ways to format a **VERSIONINFO** statement:
 
-``` syntax
+```c
 versionID VERSIONINFO fixed-info  { block-statement . . . }
 ```
 
 \- or -
 
-``` syntax
+```c
 versionID VERSIONINFO 
 fixed-info
 BEGIN
@@ -283,17 +283,17 @@ One of the following predefined names.
 | Name                 | Description                                                                                                                                                                                                                                                                                                 |
 |----------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Comments**         | Additional information that should be displayed for diagnostic purposes.                                                                                                                                                                                                                                    |
-| **CompanyName**      | Company that produced the file?for example, "Microsoft Corporation" or "Standard Microsystems Corporation, Inc." This string is required.                                                                                                                                                                   |
-| **FileDescription**  | File description to be presented to users. This string may be displayed in a list box when the user is choosing files to install?for example, "Keyboard Driver for AT-Style Keyboards". This string is required.                                                                                            |
-| **FileVersion**      | Version number of the file?for example, "3.10" or "5.00.RC2". This string is required.                                                                                                                                                                                                                      |
-| **InternalName**     | Internal name of the file, if one exists?for example, a module name if the file is a dynamic-link library. If the file has no internal name, this string should be the original filename, without extension. This string is required.                                                                       |
+| **CompanyName**      | Company that produced the file—for example, `Microsoft Corporation` or `Standard Microsystems Corporation, Inc.` This string is required.                                                                                                                                                                   |
+| **FileDescription**  | File description to be presented to users. This string may be displayed in a list box when the user is choosing files to install—for example, `Keyboard Driver for AT-Style Keyboards`. This string is required.                                                                                            |
+| **FileVersion**      | Version number of the file—for example, `3.10` or `5.00.RC2`. This string is required.                                                                                                                                                                                                                      |
+| **InternalName**     | Internal name of the file, if one exists—for example, a module name if the file is a dynamic-link library. If the file has no internal name, this string should be the original filename, without extension. This string is required.                                                                       |
 | **LegalCopyright**   | Copyright notices that apply to the file. This should include the full text of all notices, legal symbols, copyright dates, and so on. This string is optional.                                                                                                                                             |
 | **LegalTrademarks**  | Trademarks and registered trademarks that apply to the file. This should include the full text of all notices, legal symbols, trademark numbers, and so on. This string is optional.                                                                                                                        |
 | **OriginalFilename** | Original name of the file, not including a path. This information enables an application to determine whether a file has been renamed by a user. The format of the name depends on the file system for which the file was created. This string is required.                                                 |
-| **PrivateBuild**     | Information about a private version of the file?for example, "Built by TESTER1 on \\TESTBED". This string should be present only if **VS\_FF\_PRIVATEBUILD** is specified in the *fileflags* parameter of the root block.                                                                                   |
+| **PrivateBuild**     | Information about a private version of the file—for example, `Built by TESTER1 on \\TESTBED`. This string should be present only if **VS\_FF\_PRIVATEBUILD** is specified in the *fileflags* parameter of the root block.                                                                                   |
 | **ProductName**      | Name of the product with which the file is distributed. This string is required.                                                                                                                                                                                                                            |
-| **ProductVersion**   | Version of the product with which the file is distributed?for example, "3.10" or "5.00.RC2". This string is required.                                                                                                                                                                                       |
-| **SpecialBuild**     | Text that indicates how this version of the file differs from the standard version?for example, "Private build for TESTER1 solving mouse problems on M250 and M250E computers". This string should be present only if **VS\_FF\_SPECIALBUILD** is specified in the *fileflags* parameter of the root block. |
+| **ProductVersion**   | Version of the product with which the file is distributed—for example, `3.10` or `5.00.RC2`. This string is required.                                                                                                                                                                                       |
+| **SpecialBuild**     | Text that specifies how this version of the file differs from the standard version—for example, `Private build for TESTER1 solving mouse problems on M250 and M250E computers`. This string should be present only if **VS\_FF\_SPECIALBUILD** is specified in the *fileflags* parameter of the root block. |
 
 
 
@@ -307,7 +307,7 @@ Certain attributes are also supported for backward compatibility. For more infor
 
 The following example defines a **VERSIONINFO** resource:
 
-``` syntax
+```c
 #define VER_FILEVERSION             3,10,349,0
 #define VER_FILEVERSION_STR         "3.10.349.0\0"
 
