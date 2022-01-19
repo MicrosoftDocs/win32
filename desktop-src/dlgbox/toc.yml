@@ -149,7 +149,7 @@
         - name: "LPCFHOOKPROC"
           href: /windows/win32/api/commdlg/nc-commdlg-lpcfhookproc
         - name: "ChooseColor"
-          href: /previous-versions/windows/win32/legacy/ms646912(v=vs.85)
+          href: /previous-versions/windows/desktop/legacy/ms646912(v=vs.85)
         - name: "ChooseFont"
           href: /windows/win32/api/Commdlg/ns-commdlg-choosefonta
         - name: "CommDlgExtendedError"
@@ -169,13 +169,13 @@
         - name: "LPPAGEPAINTHOOK"
           href: /windows/win32/api/commdlg/nc-commdlg-lppagepainthook
         - name: "PageSetupDlg"
-          href: /previous-versions/windows/win32/legacy/ms646937(v=vs.85)
+          href: /previous-versions/windows/desktop/legacy/ms646937(v=vs.85)
         - name: "LPPAGESETUPHOOK"
           href: /windows/win32/api/commdlg/nc-commdlg-lppagesetuphook
         - name: "PrintDlg"
-          href: /previous-versions/windows/win32/legacy/ms646940(v=vs.85)
+          href: /previous-versions/windows/desktop/legacy/ms646940(v=vs.85)
         - name: "PrintDlgEx"
-          href: /previous-versions/windows/win32/legacy/ms646942(v=vs.85)
+          href: /previous-versions/windows/desktop/legacy/ms646942(v=vs.85)
         - name: "LPPRINTHOOKPROC"
           href: /windows/win32/api/commdlg/nc-commdlg-lpprinthookproc
         - name: "ReplaceText"
