@@ -332,7 +332,7 @@ The following table shows the symbolic constant names, hexadecimal values, and m
 | <span id="VK_OEM_8"></span><span id="vk_oem_8"></span>`VK_OEM_8` | 0xDF | Used for miscellaneous characters; it can vary by keyboard. |
 | `-` | 0xE0 | Reserved |
 |  | 0xE1 | OEM specific |
-| <span id="VK_OEM_102"></span><span id="vk_oem_102"></span>`VK_OEM_102` | 0xE2 | Either the `<>` key or the `\\|` key on the non-US 102-key keyboard |
+| <span id="VK_OEM_102"></span><span id="vk_oem_102"></span>`VK_OEM_102` | 0xE2 | The `<>` keys on the US standard keyboard, or the `\\|` key on the non-US 102-key keyboard |
 |  | 0xE3-E4 | OEM specific |
 | <span id="VK_PROCESSKEY"></span><span id="vk_processkey"></span>`VK_PROCESSKEY` | 0xE5 | IME PROCESS key |
 |  | 0xE6 | OEM specific |
