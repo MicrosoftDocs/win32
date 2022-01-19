@@ -1,12 +1,12 @@
 ---
-title: Common Dialog Box Functions
-description: . | Common Dialog Box Functions
+title: Common dialog box functions
+description: Common dialog box functions
 ms.assetid: 4a94330b-e0d5-48d7-80f3-86ba6ca1f0f9
 ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# Common Dialog Box Functions
+# Common dialog box functions
 
 ## In this section
 
@@ -30,7 +30,3 @@ ms.date: 05/31/2018
 -   [*PrintHookProc*](/windows/win32/api/commdlg/nc-commdlg-lpprinthookproc)
 -   [**ReplaceText**](/windows/desktop/api/Commdlg/nf-commdlg-replacetexta)
 -   [*SetupHookProc*](/windows/win32/api/commdlg/nc-commdlg-lpsetuphookproc)
-
- 
-
- 

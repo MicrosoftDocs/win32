@@ -1,12 +1,12 @@
 ---
+title: TCP/IP raw sockets
 description: A raw socket is a type of socket that allows access to the underlying transport provider.
 ms.assetid: 4cbe5505-75e7-454f-9e6b-f38bdc60bf6d
-title: TCP/IP Raw Sockets
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# TCP/IP Raw Sockets
+# TCP/IP raw sockets
 
 A raw socket is a type of socket that allows access to the underlying transport provider. This topic focuses only on raw sockets and the IPv4 and IPv6 protocols. This is because most other protocols with the exception of ATM do not support raw sockets. To use raw sockets, an application needs to have detailed information on the underlying protocol being used.
 
@@ -71,7 +71,7 @@ It is important to understand that some sockets of type **SOCK\_RAW** may receiv
 
 ## Common Uses of Raw Sockets
 
-One common use of raw sockets are troubleshooting applications that need to examine IP packets and headers in detail. For example, a raw socket can be used with the SIO\_RCVALL IOCTL to enable a socket to receive all IPv4 or IPv6 packets passing through a network interface. For more information, see the [**SIO\_RCVALL**](/previous-versions/windows/desktop/legacy/ee309610(v=vs.85)) reference.
+One common use of raw sockets are troubleshooting applications that need to examine IP packets and headers in detail. For example, a raw socket can be used with the SIO\_RCVALL IOCTL to enable a socket to receive all IPv4 or IPv6 packets passing through a network interface. For more information, see the [**SIO_RCVALL**](/windows/win32/winsock/sio-rcvall) reference.
 
 ## Limitations on Raw Sockets
 
