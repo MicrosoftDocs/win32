@@ -62,7 +62,7 @@ Verify Active Directory functionality before you update the schema to help ensur
 [Obtaining an Object Identifier](obtaining-an-object-identifier.md)
 </dt> <dt>
 
-[The new command-line tools for Active Directory in Windows Server 2003](https://support.microsoft.com/kb/298882)
+[The new command-line tools for Active Directory in Windows Server 2003](https://support.microsoft.com/en-us/topic/03164adb-9771-220a-6bf4-c2ea335d9ea8)
 </dt> <dt>
 
 [Using the LDIFDE Tool](/previous-versions/office/developer/exchange-server-2003/ms870068(v=exchg.65))
