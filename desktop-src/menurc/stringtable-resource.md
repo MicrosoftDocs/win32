@@ -91,7 +91,7 @@ Certain attributes are also supported for backward compatibility. For more infor
 
 ## Remarks
 
-RC allocates 16 strings per section and uses the identifier value to determine which section is to contain the string. Strings whose identifiers differ only in the bottom 4 bits are placed in the same section. For more information, see [Q196774](https://support.microsoft.com/kb/196774).
+RC allocates 16 strings per section and uses the identifier value to determine which section is to contain the string. Strings whose identifiers differ only in the bottom 4 bits are placed in the same section.
 
 ## Examples
 
