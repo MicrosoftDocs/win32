@@ -35,7 +35,7 @@ The Direct3D API version that you choose depends on the operating system and har
 -   If you want to target Windows 8 and later, use Direct3D 11 APIs.
 -   Use Direct3D 9 APIs with Windows XP and later. All hardware supports Direct3D 9 APIs, even newer Direct3D 11-level hardware.
 -   Use Direct3D 10 APIs with Windows Vista and later. Only Direct3D 10-level and later hardware support Direct3D 10 APIs.
--   Use Direct3D 10.1 and Direct3D 11 APIs with Windows 7 and later. You can also use Direct3D 10.1 and Direct3D 11 APIs with Windows Vista with Service Pack 2 (SP2) by downloading [KB 971644](https://support.microsoft.com/kb/971644).
+-   Use Direct3D 10.1 and Direct3D 11 APIs with Windows 7 and later. You can also use Direct3D 10.1 and Direct3D 11 APIs with Windows Vista with Service Pack 2 (SP2).
 
 ## Direct3D Rendering Pipeline
 
