@@ -67,7 +67,7 @@ Where:
 
 This operator scales high luminances by 1/L and low luminances by 1. For more details, see the following paper.
 
-Reinhard, Erik, Mike Stark, Peter Shirley, and James Ferwerda. ["Photographic Tone Reproduction for Digital Images"](https://www.cs.utah.edu/~reinhard/cdrom/tonemap.pdf). ACM Transactions on Graphics (TOG), Proceedings of the 29th Annual Conference on Computer Graphics and Interactive Techniques (SIGGRAPH), pp. 267-276. New York, NY: ACM Press, 2002.
+Reinhard, Erik, Mike Stark, Peter Shirley, and James Ferwerda. "Photographic Tone Reproduction for Digital Images". ACM Transactions on Graphics (TOG), Proceedings of the 29th Annual Conference on Computer Graphics and Interactive Techniques (SIGGRAPH), pp. 267-276. New York, NY: ACM Press, 2002.
 
 ## Related topics
 
