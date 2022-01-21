@@ -39,9 +39,6 @@ The following diagram shows the relationship of the Print Ticket API to the othe
 </dt> <dt>
 
 [Print Schema Specification](https://go.microsoft.com/fwlink/?linkid=2022117)
-</dt> <dt>
-
-[XML Paper Specification](https://go.microsoft.com/fwlink/?linkid=2022122)
 </dt> </dl>
 
  
