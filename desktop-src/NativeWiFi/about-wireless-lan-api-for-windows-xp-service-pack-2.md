@@ -50,9 +50,6 @@ The following functions are supported by Windows XP with SP3 and Wireless LAN A
 
 <dl> <dt>
 
-[https://support.microsoft.com/kb/918997](https://support.microsoft.com/kb/918997)
-</dt> <dt>
-
 [About Native Wifi](about-native-wifi.md)
 </dt> </dl>
 
