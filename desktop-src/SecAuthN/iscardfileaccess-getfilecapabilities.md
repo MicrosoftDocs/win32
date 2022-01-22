@@ -57,7 +57,7 @@ typedef struct
 
 
 
-For more information on TLV structures, see [https://www.pcscworkgroup.com/](https://www.pcscworkgroup.com/).
+For more information on TLV structures, see [https://pcscworkgroup.com/](https://pcscworkgroup.com/).
 
 </dd> <dt>
 
