@@ -117,8 +117,6 @@ The time stamp response is a PKCS \#7 signed message signed by the time stamper.
 
 After Authenticode receives the time stamp from the server, Authenticode incorporates the time stamp into the original PKCS \#7 [**SignedData**](signeddata.md) as a countersignature. To accomplish this, the ContentInfo of the returned PKCS \#7 **SignedData** is discarded, and the SignerInfo of the returned time stamp is copied as a countersignature into the SignerInfo of the original PKCS \#7 **SignedData**. The certificate chain of the time stamper is also copied into Certificates in the original PKCS \#7 **SignedData** as an unauthenticated attribute of the original signer.
 
-For more information about PKCS and other security subjects, see the [content library of the RSA website](https://www.rsa.com/content_library.aspx).
-
  
 
  
