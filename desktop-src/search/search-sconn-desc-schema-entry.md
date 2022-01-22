@@ -143,7 +143,7 @@ The following is an example of a Search Connector Description file for a MAPI pr
 **Other Resources**
 </dt> <dt>
 
-[OpenSearch](http://www.opensearch.org/Home)
+[OpenSearch](https://www.opensearch.org)
 </dt> <dt>
 
 [Microsoft Download Center](https://www.microsoft.com/DOWNLOADS/en/default.aspx)
