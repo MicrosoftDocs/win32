@@ -18,7 +18,7 @@ The [Security Development Life Cycle](/previous-versions/ms995349(v=msdn.10)) (S
 -   Using code-scanning tools
 -   Conducting code reviews and security testing
 
-For more information about the SDL, see the [SDL Blog](https://blogs.msdn.com/sdl/archive/2007/04/26/welcome-to-the-sdl-blog.aspx).
+For more information about the SDL, see the [Microsoft Security Development Lifecycle](https://www.microsoft.com/en-us/securityengineering/sdl).
 
 ## Threat Models
 
