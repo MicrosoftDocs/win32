@@ -50,13 +50,13 @@ If no application-specific rules were found, move on to the next step. If an app
 
 ## Enabling the ports used for discovery and metadata exchange
 
-WS-Discovery uses the UDP port 3702 for message exchange. In addition, TCP ports 5357 and 5358 are sometimes used for metadata exchange. These ports can be explicitly opened on the firewall using the procedures described in [Open a port in Windows Firewall](https://windowshelp.microsoft.com/Windows/Help/4da18300-9044-47b6-9038-595c78db81ab1033.mspx).
+WS-Discovery uses the UDP port 3702 for message exchange. In addition, TCP ports 5357 and 5358 are sometimes used for metadata exchange. These ports can be explicitly opened on the firewall using the procedures described in "Open a port in Windows Firewall".
 
 Retest the program after making this firewall change. If the program now works successfully, the cause of the problem has been identified and no further troubleshooting steps are necessary. Otherwise, move on to the next step.
 
 ## Disabling the firewall
 
-The Windows Firewall can be disabled to help troubleshoot suspected problems. Other applicable firewalls (such as the firewall on a router) can also be disabled for troubleshooting purposes. For information about enabling and disabling the Windows Firewall, see [Turn Windows Firewall on or off](https://windowshelp.microsoft.com/Windows/Help/bfe523a9-7eec-4d3f-add1-2f68b9cfa1c01033.mspx).
+The Windows Firewall can be disabled to help troubleshoot suspected problems. Other applicable firewalls (such as the firewall on a router) can also be disabled for troubleshooting purposes. For information about enabling and disabling the Windows Firewall, see [Turn Windows Firewall on or off](https://support.microsoft.com/en-us/windows/turn-microsoft-defender-firewall-on-or-off-ec0844f7-aebd-0583-67fe-601ecf5d774f).
 
 Retest the application after disabling any applicable firewalls. If the program now works successfully, then the firewall was blocking the traffic. There are a few possible causes of blocked traffic.
 
