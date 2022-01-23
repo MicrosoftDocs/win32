@@ -273,7 +273,6 @@ Thank you again for joining in our commitment to delivering great customer exper
 <td>Safe mode allows users to diagnose and troubleshoot Windows. Unless needed for basic operations of the system (for example, storage device drivers) or for diagnostic and recovery purposes (for example, anti-virus scanners), drivers and services must not be set to load in safe mode. By default, the safe mode does not start most drivers and services that did not come preinstalled with Windows. They should remain disabled unless the system requires them for basic operations or for diagnostic and recovery purposes.<br/> For more information see:
 <ul>
 <li><a href="/windows-hardware/drivers/kernel/determining-whether-the-operating-system-is-running-in-safe-mode">Determining Whether the Operating System Is Running in Safe Mode</a></li>
-<li><a href="https://support.microsoft.com/kb/837643">How to determine whether the system is running in Safe Mode from a device driver</a></li>
 </ul>
 <br/></td>
 </tr>
