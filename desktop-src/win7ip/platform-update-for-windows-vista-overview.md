@@ -435,10 +435,7 @@ For editions of Windows 7 and Windows Vista that do not have Microsoft Windows
 </dt> <dt>
 
 [About Platform Update for Windows Vista](platform-update-for-windows-vista-overview.md)
-</dt> <dt>
-
-[Knowledge Base article about the Platform Update for Windows Vista (KB 971644)](https://support.microsoft.com/kb/971644)
-</dt> </dl>
+</dt></dl>
 
  
 
