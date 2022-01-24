@@ -13,7 +13,7 @@ A partial-instance retrieval is when WMI retrieves only a subset of the properti
 
 ## Retrieving Part of a WMI Instance Using PowerShell
 
-You can retrieve an individual property of an instance by using [Get-WmiObject](https://technet.microsoft.com/library/dd315379.aspx); the property itself can be retrieved and displayed a number of ways. As with retrieving an instance, PowerShell will by default return all instances of a given class; you must specify a specific value if you wish to retrieve only a single instance.
+You can retrieve an individual property of an instance by using [Get-WmiObject](/powershell/module/microsoft.powershell.management/get-wmiobject?view=powershell-5.1); the property itself can be retrieved and displayed a number of ways. As with retrieving an instance, PowerShell will by default return all instances of a given class; you must specify a specific value if you wish to retrieve only a single instance.
 
 The following code example displays the volume serial number for an instance of the [**Win32\_LogicalDisk**](/windows/desktop/CIMWin32Prov/win32-logicaldisk) class.
 
