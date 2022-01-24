@@ -162,7 +162,7 @@ Contains extended information about a process running on a RD Session Host serv
 
 </dd> <dt>
 
-[**WTS\_PRODUCT\_INFO**](https://msdn.microsoft.com/library/Mt283722(v=VS.85).aspx)
+**WTS\_PRODUCT\_INFO**
 </dt> <dd>
 
 The details of the product license that is required to connect to a terminal server.
