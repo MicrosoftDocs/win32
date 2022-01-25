@@ -1,9 +1,10 @@
 ---
 title: Windows 7 Toolbars
-description: Toolbars are a way to group commands for efficient access.
+description: Windows 7 Toolbars are a way to group commands for efficient access.
 ms.assetid: 8f36307c-54fc-493d-a2ff-57db29e3508d
 ms.topic: article
-ms.date: 10/20/2020
+ms.date: 01/25/2022
+ms.custom: seo-windows-dev
 ---
 
 # Windows 7 Toolbars
@@ -23,8 +24,6 @@ Some toolbars are customizable, allowing users to add or remove toolbars, change
 
 > [!Note]  
 > Guidelines related to [menus](cmd-menus.md), [command buttons](ctrl-command-buttons.md), and [icons](vis-icons.md) are presented in separate articles.
-
- 
 
 ## Is this the right user interface?
 

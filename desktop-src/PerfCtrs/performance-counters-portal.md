@@ -4,6 +4,7 @@ ms.assetid: 9dcb7e84-a7d6-43b5-8fe9-4e33d683c74c
 title: Performance Counters
 ms.topic: article
 ms.date: 01/04/2022
+ms.custom: seo-windows-dev
 ---
 
 # Performance Counters

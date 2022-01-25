@@ -3,6 +3,7 @@ description: Provides guidance on debugging system error codes & links to system
 title: Tutorial - Debug system error codes
 ms.topic: article
 ms.date: 11/24/2021
+ms.custom: seo-windows-dev
 ---
 
 # Debug system error codes

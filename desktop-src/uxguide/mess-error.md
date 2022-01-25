@@ -3,6 +3,7 @@ title: Error Messages in Windows 7
 description: Error messages in Windows 7 alert users of problems that have already occurred.
 ms.topic: article
 ms.date: 01/11/2022
+ms.custom: seo-windows-dev
 ---
 
 # Error Messages in Windows 7
