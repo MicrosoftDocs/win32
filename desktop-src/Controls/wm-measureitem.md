@@ -39,7 +39,7 @@ WM_MEASUREITEM
 *wParam* 
 </dt> <dd>
 
-Contains the value of the **CtlID** member of the [**MEASUREITEMSTRUCT**](/windows/win32/api/winuser/ns-winuser-measureitemstruct) structure pointed to by the *lParam* parameter. This value identifies the control that sent the **WM\_MEASUREITEM** message. If the value is zero, the message was sent by a menu. If the value is nonzero, the message was sent by a combo box or by a list box. If the value is nonzero, and the value of the **itemID** member of the **MEASUREITEMSTRUCT** pointed to by *lParam* is (UINT)  1, the message was sent by a combo edit field.
+Contains the value of the **CtlID** member of the [**MEASUREITEMSTRUCT**](/windows/win32/api/winuser/ns-winuser-measureitemstruct) structure pointed to by the *lParam* parameter. This value identifies the control that sent the **WM\_MEASUREITEM** message.  If the message was sent by a menu, this parameter is zero.  If the value is nonzero or the value is zero and the value of the **CtlType** member of the **MEASUREITEMSTRUCT** pointed to by *lParam* is not **ODT_MENU**, the message was sent by a combo box or by a list box. If the value is nonzero, and the value of the **itemID** member of the **MEASUREITEMSTRUCT** pointed to by *lParam* is (UINT)  1, the message was sent by a combo edit field.
 
 </dd> <dt>
 
