@@ -92,7 +92,7 @@ The Internet Assigned Numbers Authority (IANA) keeps a public database of regist
 
 ## Sign Up with the Windows Web Service for File Associations
 
-Application developers can sign up with the Windows Web Service that users use to find applications that can operate on specific file types. The process for signing up with the web service is detailed in [Windows File Association System on-boarding process](https://support.microsoft.com/kb/929149).
+Application developers can sign up with the Windows Web Service that users use to find applications that can operate on specific file types. The process for signing up with the web service is detailed in Windows File Association System on-boarding process (KB 929149).
 
 ## Related topics
 
