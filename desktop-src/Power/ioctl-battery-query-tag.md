@@ -3,7 +3,7 @@ description: Retrieves the batterys current tag.
 ms.assetid: 0bbe59ba-e037-47ce-a54a-6500ea7c9bc5
 title: IOCTL_BATTERY_QUERY_TAG control code (Poclass.h)
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 01/11/2022
 topic_type:
 - APIRef
 - kbSyntax
@@ -112,6 +112,9 @@ If *hDevice* was opened without specifying the **FILE\_FLAG\_OVERLAPPED** flag, 
 If the operation completes successfully, [**DeviceIoControl**](/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol) returns a nonzero value.
 
 If the operation fails or is pending, [**DeviceIoControl**](/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol) returns zero. To get extended error information, call [**GetLastError**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror).
+
+All requests for battery information will complete with the status of ERROR_NO_SUCH_DEVICE (or ERROR_FILE_NOT_FOUND in **Windows 10 version 1809 and earlier**) whenever the BatteryTag element of the request does not match that of the current battery tag. This ensures that the returned battery information matches that of the requested battery (see [Battery Tags](battery-information.md) for more information).
+
 
 ## Remarks
 
