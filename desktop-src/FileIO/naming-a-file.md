@@ -142,7 +142,7 @@ The Win32 namespace prefixing and conventions are summarized in this section and
 
 For file I/O, the "\\\\?\\" prefix to a path string tells the Windows APIs to disable all string parsing and to send the string that follows it straight to the file system. For example, if the file system supports large paths and file names, you can exceed the **MAX\_PATH** limits that are otherwise enforced by the Windows APIs. For more information about the normal maximum path limitation, see the previous section [Maximum Path Length Limitation](#maximum-path-length-limitation).
 
-Because it turns off automatic expansion of the path string, the "\\\\?\\" prefix also allows the use of ".." and "." in the path names, which can be useful if you are attempting to perform operations on a file with these otherwise reserved relative path specifiers as part of the fully qualified path.
+Because it turns off automatic expansion of the path string, the "\\\\?\\" prefix does not allows the use of ".." and "." in the path names.
 
 Many but not all file I/O APIs support "\\\\?\\"; you should look at the reference topic for each API to be sure. 
 
