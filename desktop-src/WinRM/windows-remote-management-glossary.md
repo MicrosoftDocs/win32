@@ -266,7 +266,7 @@ A package of information transmitted between computers or separate networks cons
 **namespace**
 </dt> <dd>
 
-A [*WMI*](windows-remote-management-glossary.md) namespace, which is a logical grouping of WMI classes and instances to control scope and access. The most frequent source of management data for systems running Windows is the root\\cimv2 namespace, which contains classes such as [**Win32\_Process**](/windows/desktop/CIMWin32Prov/win32-process). Namespaces appear in the resource URI for WMI classes, for example `https://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/Win32_Service`.
+A [*WMI*](windows-remote-management-glossary.md) namespace, which is a logical grouping of WMI classes and instances to control scope and access. The most frequent source of management data for systems running Windows is the root\\cimv2 namespace, which contains classes such as [**Win32\_Process**](/windows/desktop/CIMWin32Prov/win32-process). Namespaces appear in the resource URI for WMI classes, for example `https://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/Win32\_Service`.
 
 </dd> <dt>
 
