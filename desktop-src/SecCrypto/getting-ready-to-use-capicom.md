@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 
 Applications that use CAPICOM objects must be created by using CAPICOM.dll. CAPICOM.dll must also be present and registered at run time to use CAPICOM objects. CAPICOM.dll should be added to Visual Basic projects references to use CAPICOM objects.
 
-CAPICOM is available as a redistributable file that can be downloaded from [Platform SDK Redistributable: CAPICOM](https://www.microsoft.com/download/details.aspx?id=25281). For information about CAPICOM versions, see [CAPICOM Versions](capicom-versions.md).
+CAPICOM is available as a redistributable file that can be downloaded from Platform SDK Redistributable: CAPICOM. For information about CAPICOM versions, see [CAPICOM Versions](capicom-versions.md).
 
 **To register CAPICOM.dll**
 
