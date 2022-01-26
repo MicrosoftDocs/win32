@@ -18,24 +18,6 @@ You can check the Windows Developer Center for information about using Windows I
 
 -   [Windows Developer Center](https://msdn.microsoft.com/windows/default.aspx)
 
-## Windows Installer Newsgroups
-
-You can read and post to a newsgroup that discusses the Windows Installer. Past newsgroup messages can be searched.
-
-Microsoft Technical Communities provides access to public newsgroups about Windows Installer:
-
--   [Microsoft Public Newsgroups](https://support.microsoft.com/newsgroups/default.aspx?newsgroup=microsoft.public.windows.msi)
-
-    You can search the available public newsgroups for Windows developer discussions about the Windows SDK and MSI.
-
-## Windows Installer Team Blog
-
-You can read commentary by Microsoft Bloggers on the [MSDN blog site](/archive/blogs/).
-
-Read blogs by developers about the Windows Installer.
-
--   [Windows Installer Team Blog](https://blogs.msdn.com/windows_installer_team/default.aspx)
-
 ## Windows Installer Technical Chats
 
 You can participate in live MSDN technical chat sessions about the Windows Installer:

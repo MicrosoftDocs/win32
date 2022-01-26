@@ -38,7 +38,7 @@ The Microsoft Application Verifier, or AppVerifier, is a tool that can help test
 
 While not exhaustive, AppVerifier can be one more component of a tester's toolbox to help a development studio release a quality product and reduce potential post-release costs.
 
-For more information about Application Verifier, see [Application Verifier](/previous-versions/ms220948(v=vs.80)) and [Using Application Verifier Within Your Software Development Lifecycle](/previous-versions/aa480483(v=msdn.10)) on MSDN. You can download Application Verifier from [Download details: Application Verifier](https://www.microsoft.com/download/details.aspx?id=20028) on Microsoft Download Center.
+For more information about Application Verifier, see [Application Verifier](/previous-versions/ms220948(v=vs.80)) and [Using Application Verifier Within Your Software Development Lifecycle](/previous-versions/aa480483(v=msdn.10)) on MSDN. 
 
 A similar tool for drivers, Driver Verifier, is also available. For more information, see [Using Driver Verifier to Identify Issues with Windows Drivers for Advanced Users](https://support.microsoft.com/Default.aspx?kbid=244617) on Microsoft Help and Support.
 

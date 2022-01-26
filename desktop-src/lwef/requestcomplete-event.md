@@ -86,7 +86,7 @@ Because animation [**Request**](/windows/desktop/lwef/the-request-object) object
 
 
 > [!Note]  
-> In VBScript 1.0, this event fires even if you don't define references to a [**Request**](/windows/desktop/lwef/the-request-object) object. This has been fixed in VBScript 2.0, which can be downloaded from <https://microsoft.com/msdownload/vbscript/scripting.asp>.
+> In VBScript 1.0, this event fires even if you don't define references to a [**Request**](/windows/desktop/lwef/the-request-object) object. This has been fixed in VBScript 2.0.
 
  
 
