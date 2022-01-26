@@ -329,7 +329,7 @@ sections:
           
       - question: My game runs out of virtual address space on 32-bit Vista under D3D10. It does not have problems on D3D9. 
         answer: |
-          There were some issues with D3D10 and virtual address space. This has been fixed in [KB940105](https://support.microsoft.com/kb/940105). If that does not fix your problem, ensure you are not creating more resources that can be mapped (locked) in D3D10 than you were creating in D3D9. Also think about porting to 64-bit since this will become more prevalent in the future.
+          There were some issues with D3D10 and virtual address space. This has been fixed in KB940105. If that does not fix your problem, ensure you are not creating more resources that can be mapped (locked) in D3D10 than you were creating in D3D9. Also think about porting to 64-bit since this will become more prevalent in the future.
           
           
           

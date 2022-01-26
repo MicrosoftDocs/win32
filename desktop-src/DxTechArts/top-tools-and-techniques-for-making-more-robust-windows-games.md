@@ -80,7 +80,7 @@ For more information about WER, see [Crash Dump Analysis](./crash-dump-analysis.
 
 ## Performance Tuning Tools
 
-Developers can use performance analyzers to tune performance of their game. In addition to PIX, there are a number of popular performance analyzers for Windows, such as the [Intel VTune Performance Analyzer](https://software.intel.com/intel-vtune/) and the [AMD CodeAnalyst Performance Analyzer](https://developer.amd.com/cpu/CodeAnalyst/). These tools help with identifying bottlenecks and with deciding how to improve the overall performance of an application. Improving performance bottlenecks prior to release will help bring down post-release costs.
+Developers can use performance analyzers to tune performance of their game. In addition to PIX, there are a number of popular performance analyzers for Windows, such as the Intel VTune Performance Analyzer and the [AMD CodeAnalyst Performance Analyzer](https://developer.amd.com/cpu/CodeAnalyst/). These tools help with identifying bottlenecks and with deciding how to improve the overall performance of an application. Improving performance bottlenecks prior to release will help bring down post-release costs.
 
 ## Summary
 
