@@ -10,10 +10,6 @@ ms.date: 05/31/2018
 
 A UPnP-based [*device description*](d-gly.md) is an XML document that describes the properties of a device and the hierarchy of nested devices within it. The schema for UPnP-based device descriptions, known as the UPnP Template Language (UTL) for devices, is defined in the UPnP device architecture. Device descriptions contain links to [*service descriptions*](s-gly.md). The schema for service descriptions and the UTL for services are also defined in the "UPnP Device Architecture" specification.
 
-> [!Note]  
-> There might be problems when using the service description from www.upnp.org.
-
- 
 
 The developer of a device must provide device and service descriptions for the device.
 
