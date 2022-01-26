@@ -23,15 +23,15 @@ The following sections are discussed in this topic:
 
 ## Enumerating WMI Using PowerShell
 
-If you do not know the object path for a specific instance, or you want to retrieve all the instances for a specific class, use [Get-WmiObject](https://technet.microsoft.com/library/dd315379.aspx), with the name of the class in the *-class* parameter. If you want to use a query, you can use the *-query* parameter.
+If you do not know the object path for a specific instance, or you want to retrieve all the instances for a specific class, use [Get-WmiObject](/powershell/module/microsoft.powershell.management/get-wmiobject?view=powershell-5.1), with the name of the class in the *-class* parameter. If you want to use a query, you can use the *-query* parameter.
 
 The following procedure describes how to enumerate the instances of a class using PowerShell.
 
 **To enumerate the instances of a class using PowerShell**
 
-1.  Enumerate the instances with a call to [Get-WmiObject](https://technet.microsoft.com/library/dd315379.aspx) cmdlet.
+1.  Enumerate the instances with a call to [Get-WmiObject](/powershell/module/microsoft.powershell.management/get-wmiobject?view=powershell-5.1) cmdlet.
 
-    [Get-WmiObject](https://technet.microsoft.com/library/dd315379.aspx) returns a collection of one or more WMI objects, through which you can enumerate. For more information, see [Accessing a Collection](accessing-a-collection.md).
+    [Get-WmiObject](/powershell/module/microsoft.powershell.management/get-wmiobject?view=powershell-5.1) returns a collection of one or more WMI objects, through which you can enumerate. For more information, see [Accessing a Collection](accessing-a-collection.md).
 
     If you wish to retrieve a WMI class instance in another namespace or on a different computer, specify the computer and namespace in the *-computer* and *-namespace* parameters, respectively. For more information, see [Creating a WMI Script](creating-a-wmi-script.md). This only works if you have the appropriate access privileges. For more information, see [Maintaining WMI Security](maintaining-wmi-security.md) and [Executing Privileged Operations](executing-privileged-operations.md).
 

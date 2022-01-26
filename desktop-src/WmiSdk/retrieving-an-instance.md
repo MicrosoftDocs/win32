@@ -16,7 +16,7 @@ Retrieving an instance is one of the most common retrieval procedures you are li
 
  
 
-Retrieve a local copy of the instance with a call to the PowerShell [Get-WmiObject](https://technet.microsoft.com/library/dd315379.aspx) cmdlet.
+Retrieve a local copy of the instance with a call to the PowerShell [Get-WmiObject](/powershell/module/microsoft.powershell.management/get-wmiobject?view=powershell-5.1) cmdlet.
 
 **To retrieve an instance of a WMI class using PowerShell**
 

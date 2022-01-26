@@ -36,7 +36,7 @@ By default deserialization is strict. Some conditions that cause deserialization
 -   Expected elements is missing
 -   Unexpected element fields appear between required elements
 -   Extra element content after required fields, unless the **WS_STRUCT_IGNORE_TRAILING_ELEMENT_CONTENT**
--   Unexpected attributes, unless [**WS\_STRUCT\_IGNORE\_UNHANDLED\_ATTRIBUTES**](https://msdn.microsoft.com/library/Dd323454(v=VS.85).aspx) flag is specified
+-   Unexpected attributes, unless **WS\_STRUCT\_IGNORE\_UNHANDLED\_ATTRIBUTES** flag is specified
 -   Unexpected data type value that is out of specified range
 -   Count of repeating element is out of the specified range
 
