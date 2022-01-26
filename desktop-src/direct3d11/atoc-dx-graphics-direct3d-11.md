@@ -36,7 +36,7 @@ For more information, see [Direct3D 11 Features](direct3d-11-features.md).
 
  
 
-In addition to Direct3D 11 being supported by Windows 7 and later and Windows Server 2008 R2 and later, Direct3D 11 is available down-level for Windows Vista with Service Pack 2 (SP2) and Windows Server 2008 by downloading [KB 971644](https://support.microsoft.com/kb/971644) and [KB 971512](https://support.microsoft.com/kb/971512/).
+In addition to Direct3D 11 being supported by Windows 7 and later and Windows Server 2008 R2 and later, Direct3D 11 is available down-level for Windows Vista with Service Pack 2 (SP2) and Windows Server 2008 by downloading [KB 971512](https://support.microsoft.com/kb/971512/).
 
 For info about new Direct3D 11.1 features that are included with Windows 8, Windows Server 2012, and are partially available on Windows 7 and Windows Server 2008 R2 via the [Platform Update for Windows 7](https://support.microsoft.com/kb/2670838), see [Direct3D 11.1 Features](direct3d-11-1-features.md) and the [Platform Update for Windows 7](/windows/desktop/direct3darticles/platform-update-for-windows-7).
 

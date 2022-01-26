@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Native Wifi API Support on Windows XP
 
-A subset of the Native Wifi API functionality is supported on Windows XP with Service Pack 2 (SP2) and Windows XP with Service Pack 3 (SP3). This functionality is included in Windows XP with SP3 by default. In Windows XP with SP2, this functionality can be added by applying a hotfix, which is known as Wireless LAN API for Windows XP with Service Pack 2 (SP2). For more information or to download the hotfix, see "Developers cannot create wireless client programs that manage wireless profiles and connections over the Wireless Zero Configuration service in Microsoft Windows XP Service Pack 2 (SP2)" in the Help and Support Knowledge Base at [https://support.microsoft.com/kb/918997](https://support.microsoft.com/kb/918997).
+A subset of the Native Wifi API functionality is supported on Windows XP with Service Pack 2 (SP2) and Windows XP with Service Pack 3 (SP3). This functionality is included in Windows XP with SP3 by default. In Windows XP with SP2, this functionality can be added by applying a hotfix, which is known as Wireless LAN API for Windows XP with Service Pack 2 (SP2).
 
 Because of underlying architectural differences in Windows XP, the Native Wifi API on has some limitations. Here is a list of limitations:
 
@@ -49,9 +49,6 @@ The following functions are supported by Windows XP with SP3 and Wireless LAN A
 ## Related topics
 
 <dl> <dt>
-
-[https://support.microsoft.com/kb/918997](https://support.microsoft.com/kb/918997)
-</dt> <dt>
 
 [About Native Wifi](about-native-wifi.md)
 </dt> </dl>

@@ -54,8 +54,8 @@ Cryptography API: Next Generation (CNG) defines the following structures.
 -   [**NCRYPT\_UI\_POLICY**](/windows/desktop/api/Ncrypt/ns-ncrypt-ncrypt_ui_policy)
 -   [**NCRYPT\_UI\_POLICY\_BLOB**](ncrypt-ui-policy-blob.md)
 -   [**NCryptAlgorithmName**](/windows/desktop/api/Ncrypt/ns-ncrypt-ncryptalgorithmname)
--   [**NCryptBuffer**](https://msdn.microsoft.com/library/Aa376245(v=VS.85).aspx)
--   [**NCryptBufferDesc**](https://msdn.microsoft.com/library/Aa376244(v=VS.85).aspx)
+-   **NCryptBuffer**
+-   **NCryptBufferDesc**
 -   [**NCryptKeyName**](/windows/desktop/api/Ncrypt/ns-ncrypt-ncryptkeyname)
 -   [**NCryptProviderName**](/windows/desktop/api/Ncrypt/ns-ncrypt-ncryptprovidername)
 -   [**TOKENBINDING\_IDENTIFIER**](/windows/desktop/api/tokenbinding/ns-tokenbinding-tokenbinding_identifier)

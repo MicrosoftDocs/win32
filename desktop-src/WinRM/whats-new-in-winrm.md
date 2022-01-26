@@ -18,7 +18,7 @@ New features are available in Windows Remote Management version 2.0. (WinRM 2.0)
 
 WinRM 2.0 is included in Windows Server 2008 R2 and Windows 7.
 
-You can also download WinRM 2.0 for Windows Server 2008 with Service Pack 2 (SP2) and Windows Vista with Service Pack 2 (SP2). For information about downloading WinRM 2.0, see [KB968929](https://support.microsoft.com/kb/968929).
+You can also download WinRM 2.0 for Windows Server 2008 with Service Pack 2 (SP2) and Windows Vista with Service Pack 2 (SP2).
 
 The following table lists the documentation for WinRM 2.0.
 
