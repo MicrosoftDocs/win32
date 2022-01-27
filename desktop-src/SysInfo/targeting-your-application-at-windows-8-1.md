@@ -1,14 +1,14 @@
 ---
-description: In Windows 8.1 and Windows 10, the GetVersion and GetVersionEx functions have been deprecated.
+description: In Windows 8.1 and Windows 10, the GetVersion and GetVersionEx functions have been deprecated.
 ms.assetid: E7A1A16A-95B3-4B45-81AD-A19E33F15AE4
 title: Targeting your application for Windows
 ms.topic: article
-ms.date: 11/01/2021
+ms.date: 01/26/2022
 ---
 
 # Targeting your application for Windows
 
-In Windows 8.1 and later, the [**GetVersion**](/windows/win32/api/sysinfoapi/nf-sysinfoapi-getversion) and [**GetVersionEx**](/windows/win32/api/sysinfoapi/nf-sysinfoapi-getversionexa) functions have been deprecated. As of Windows 10, the [**VerifyVersionInfo**](/windows/win32/api/winbase/nf-winbase-verifyversioninfoa) function is also deprecated. You can still call the deprecated functions, but if your application doesn't specifically target Windows 8.1 or later, then the functions will return the Windows 8 version (6.2).
+In Windows 8.1 and later, the [**GetVersion**](/windows/win32/api/sysinfoapi/nf-sysinfoapi-getversion) and [**GetVersionEx**](/windows/win32/api/sysinfoapi/nf-sysinfoapi-getversionexa) functions have been deprecated. As of Windows 10, the [**VerifyVersionInfo**](/windows/win32/api/winbase/nf-winbase-verifyversioninfoa) function is also deprecated. You can still call the deprecated functions, but if your application doesn't specifically target Windows 8.1 or later, then the functions will return the Windows 8 version (6.2).
 
 > [!NOTE]  
 > [**GetVersion**](/windows/win32/api/sysinfoapi/nf-sysinfoapi-getversion), [**GetVersionEx**](/windows/win32/api/sysinfoapi/nf-sysinfoapi-getversionexa), [**VerifyVersionInfo**](/windows/win32/api/winbase/nf-winbase-verifyversioninfoa), and the [Version Helper functions](version-helper-apis.md) are for desktop apps only. Universal Windows apps can use the [**AnalyticsInfo.VersionInfo**](/uwp/api/windows.system.profile.analyticsinfo.versioninfo) property for telemetry and diagnostic logs.
@@ -61,7 +61,7 @@ The following example shows an app manifest file for an app that supports all ve
 </assembly>
 ```
 
-Declaring support for Windows 8.1 or later in your app manifest will not have any effect when running your app on previous operating systems.
+Declaring support for Windows 8.1 or later in your app manifest will not have any effect when running your app on previous operating systems.
 
 The above app manifest also includes a [**&lt;trustInfo&gt;** section](/previous-versions/bb756929(v=msdn.10)), which specifies how the system should treat it with respect to [User Account Control (UAC)](/windows/security/identity-protection/user-account-control/how-user-account-control-works). Adding **trustInfo** isn't essential, but it is highly recommended, even when your app doesn't need any particular UAC-related behavior. In particular, if you don't add **trustInfo** at all, then 32-bit x86 versions of your app will be subject to [UAC file virtualization](/windows/security/identity-protection/user-account-control/how-user-account-control-works#virtualization), which allows writes to administrator-privileged folders like the Windows system folders to succeed when they would otherwise fail, but redirects them to a user-specific "VirtualStore" folder.
 
