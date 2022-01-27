@@ -36,7 +36,7 @@ Verify Active Directory functionality before you update the schema to help ensur
 
     All domain controllers should show 0 in the Fails column, and the largest deltas (which indicate the number of changes that have been made to the Active Directory database since the last successful replication) should be less than or roughly equal to the replication frequency of the site link that is used by the domain controller for replication. The default replication frequency is 180 minutes.
 
-    For more information about additional steps that you can take to verify Active Directory functionality before you apply the schema extension, see [article 325379 in the Microsoft Knowledge Base](https://support.microsoft.com/kb/325379/en-us).
+    For more information about additional steps that you can take to verify Active Directory functionality before you apply the schema extension, see [article 325379 in the Microsoft Knowledge Base](https://support.microsoft.com/kb/325379).
 
 **To Extend the Schema**
 
@@ -62,7 +62,7 @@ Verify Active Directory functionality before you update the schema to help ensur
 [Obtaining an Object Identifier](obtaining-an-object-identifier.md)
 </dt> <dt>
 
-[The new command-line tools for Active Directory in Windows Server 2003](https://support.microsoft.com/kb/298882)
+[How To Use the Directory Service Command-Line Tools to Manage Active Directory Objects in Windows Server 2003](https://support.microsoft.com/topic/03164adb-9771-220a-6bf4-c2ea335d9ea8)
 </dt> <dt>
 
 [Using the LDIFDE Tool](/previous-versions/office/developer/exchange-server-2003/ms870068(v=exchg.65))
