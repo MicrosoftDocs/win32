@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 When creating your own side-by-side assemblies, follow the [Guidelines for Creating Side-by-side Assemblies](guidelines-for-creating-side-by-side-assemblies.md) and author any DLLs used in the assembly according to the following guidelines:
 
--   Your DLLs should be designed so that multiple versions can run at the same time and in the same process without interfering with each other. For example, many applications host multiple plug-ins that each require a different version of one component. The developer the side-by-side assembly needs to design and test to ensure that multiple versions of the component work correctly when run at the same time in the same process.
+-   Your DLLs should be designed so that multiple versions can run at the same time and in the same process without interfering with each other. For example, many applications host multiple plug-ins that each require a different version of one component. The developer of the side-by-side assembly needs to design and test to ensure that multiple versions of the component work correctly when run at the same time in the same process.
 
 -   If you plan to provide your component as a shared component on systems earlier than Windows XP, you need to continue to install the component on these systems as a single-instance shared component. In this case, you need to ensure your component is backward compatible.
 
