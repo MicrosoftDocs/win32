@@ -165,7 +165,7 @@ Texture1D<float> MyTex;
 
 | Objects | Method | Description |
 | - | - | - |
-| Texture1D[Array], Texture2D[Array], Texture2DMS[Array], Texture3D, TextureCube[Array] | [Sample](texture-sample.md#texture1d) | Samples a texture. |
-| [RW]Texture1D[Array], [RW]Texture2D[Array], Texture2DMS[Array], [RW]Texture3D, TextureCube[Array] | [GetDimensions](texture-getdimensions.md#texture1d) | Get dimensions for the texture. |
-| [RW]Texture1D[Array], [RW]Texture2D[Array], Texture2DMS[Array], [RW]Texture3D | [Load](texture-load.md#texture1d) | Load texel data without sampling. |
-| RWTexture1D[Array], RWTexture2D[Array], Texture2DMS[Array], RWTexture3D | Store | Store texel data |
+| `Texture1D`[`Array`], `Texture2D`[`Array`], `Texture2DMS`[`Array`], `Texture3D`, `TextureCube`[`Array`] | [Sample](texture-sample.md) | Samples a texture. |
+| [`RW`]`Texture1D`[`Array`], [`RW`]`Texture2D`[`Array`], `Texture2DMS`[`Array`], [`RW`]`Texture3D`, `TextureCube`[`Array`] | [GetDimensions](texture-getdimensions.md) | Get dimensions for the texture. |
+| [`RW`]`Texture1D`[`Array`], [`RW`]`Texture2D`[`Array`], `Texture2DMS`[`Array`], [`RW`]`Texture3D` | [Load](texture-load.md) | Load texel data without sampling. |
+| `RWTexture1D`[`Array`], `RWTexture2D`[`Array`], `RWTexture3D` | Store | Store texel data |
