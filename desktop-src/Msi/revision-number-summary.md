@@ -16,9 +16,9 @@ For a transform, the **Revision Number Summary** property lists the product code
 
 For a patch package, the **Revision Number Summary** property specifies the GUID patch code for the patch. This can be followed by a list of patch code GUIDs for obsolete patches that are to be removed when this patch is applied. The patch codes are concatenated with no delimiters separating GUIDs in the list.
 
-**Windows Installer 3.0:  ** If there is sequencing information present in the [MsiPatchSequence table](msipatchsequence-table.md), Windows Installer 3.0 uses the sequencing information in the table and ignores the list of obsolete patches included in the **Revision Number Summary** property. Windows Installer 3.0 can still use the obsolete patch information in the **Revision Number Summary** property if the package does not contain a MsiPatchSequence table.
+**Windows Installer 3.0:** If there is sequencing information present in the [MsiPatchSequence table](msipatchsequence-table.md), Windows Installer 3.0 uses the sequencing information in the table and ignores the list of obsolete patches included in the **Revision Number Summary** property. Windows Installer 3.0 can still use the obsolete patch information in the **Revision Number Summary** property if the package does not contain a MsiPatchSequence table.
 
-**Windows Installer 2.0:  ** The [MsiPatchSequence table](msipatchsequence-table.md) is not supported. Windows Installer 2.0 can still use the obsolete patch information in the **Revision Number Summary** property if the package does not contain a MsiPatchSequence table.
+**Windows Installer 2.0:** The [MsiPatchSequence table](msipatchsequence-table.md) is not supported. Windows Installer 2.0 can still use the obsolete patch information in the **Revision Number Summary** property if the package does not contain a MsiPatchSequence table.
 
 This summary property is required.
 
