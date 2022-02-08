@@ -348,7 +348,8 @@ If you are using menu buttons and split buttons in a toolbar, try to use the fol
 
 These commands mirror the commands found in standard menu bars, so they should be used only for primary toolbars. This list shows the button labels (and type) with their order and separators, shortcut keys, and ellipses. **Note that the command for displaying and hiding the menu bar is in the View menu.**
 
-<dl> File <dl> NewCtrl+N  
+**File**
+NewCtrl+N  
 Open...Ctrl+O  
 Close  
 &lt;separator&gt;  
@@ -362,7 +363,9 @@ Print preview
 Page setup  
 &lt;separator&gt;  
 ExitAlt+F4(shortcut usually not given)  
-</dl> </dd> Edit(menu button) <dl> UndoCtrl+Z  
+
+**Edit(menu button)**
+UndoCtrl+Z  
 RedoCtrl+Y  
 &lt;separator&gt;  
 CutCtrl+X  
@@ -378,34 +381,39 @@ Find...Ctrl+F
 Find nextF3(command usually not given)  
 Replace...Ctrl+H  
 Go to...Ctrl+G  
-</dl> </dd> <dd>Print(split button) <dl> Print...Ctrl+P  
+
+**Print(split button)**
+Print...Ctrl+P  
 Print preview  
-&lt;separator&gt;  
-Page setup  
-</dl> </dd> View(menu button) <dl> Menu bar(check if visible)  
+Page setup
+
+**View(menu button)**
+Menu bar(check if visible)  
 Details pane(check if visible)  
 Preview pane(check if visible)  
 Status bar(check if visible)  
-&lt;separator&gt;  
+
 Zoom  
 Zoom inCtrl++  
 Zoom outCtrl+-  
-&lt;separator&gt;  
-Text size(selected setting has bullet) <dl> Largest  
+  
+**Text size(selected setting has bullet)**
+
+Largest  
 Larger  
 Medium  
 Smaller  
 Smallest  
-</dl> </dd> &lt;separator&gt;  
+  
 Full screenF11  
-RefreshF5  
-</dl> </dd> Tools(menu button) <dl> ...  
-&lt;separator&gt;  
-Options  
-</dl> </dd> Help(split button, use the Help icon) <dl> <program name> helpF1  
-&lt;separator&gt;  
-About <program name>  
-</dl> </dd> </dl>
+RefreshF5
+
+**Tools(menu button)** ...  
+
+**Options**
+Help(split button, use the Help icon) `<program name>` helpF1  
+
+About `<program name>`
 
 **Supplemental toolbars**
 

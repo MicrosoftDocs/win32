@@ -329,27 +329,28 @@ For more guidelines and standard shortcut key assignments, see [Keyboard](inter-
 
 The standard menu bar structure is as follows. This list shows the menu category and item labels, their order with separators, their access and shortcut keys, and their ellipses.
 
-<dl> File<dl> New Ctrl+N  
+**File**
+
+New Ctrl+N  
 Open... Ctrl+O  
-Close  
-&lt;separator&gt;  
+Close
 Save Ctrl+S  
-Save as...  
-&lt;separator&gt;  
-Send to  
-&lt;separator&gt;  
+Save as...
+Send to
 Print... Ctrl+P  
 Print preview  
 Page setup  
-&lt;separator&gt;
 
 1 `<filename>`  
 2 `<filename>`  
 3 `<filename>`  
 ...  
-&lt;separator&gt;  
+ 
 Exit Alt+F4 (shortcut usually not given)  
-</dl> </dd> Edit<dl> Undo Ctrl+Z  
+
+**Edit**
+
+Undo Ctrl+Z  
 Redo Ctrl+Y  
 &lt;separator&gt;  
 Cut Ctrl+X  
@@ -364,21 +365,27 @@ Find... Ctrl+F
 Find next F3 (command usually not given)  
 Replace... Ctrl+H  
 Go to... Ctrl+G  
-</dl> </dd> View<dl> Toolbars  
+
+**View**
+
+Toolbars  
 Status bar  
 &lt;separator&gt;  
-</dl> </dd> Zoom<dl> Zoom in Ctrl++  
+Zoom
+Zoom in Ctrl++  
 Zoom out Ctrl+-  
 &lt;separator&gt;  
 Full screen F11  
 Refresh F5  
-</dl> </dd> <dd>Tools<dl> ...  
+
+**Tools**
+
 &lt;separator&gt;  
-Options  
-</dl> </dd> Help<dl> <program name> help F1  
+Options
+Help `<program name>`
+help F1  
 &lt;separator&gt;  
-About <program name>  
-</dl> </dd> </dl>
+About `<program name>`  
 
 **Standard toolbar menu buttons**
 
