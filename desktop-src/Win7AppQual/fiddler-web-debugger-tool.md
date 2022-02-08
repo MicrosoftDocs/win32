@@ -3,7 +3,8 @@ description: This article describes the Fiddler Web Debugger Tool for Internet E
 ms.assetid: AC23504B-ADFD-4204-954C-79167EBFB31A
 title: Fiddler web debugger tool for Internet Explorer
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 01/25/2022
+ms.custom: seo-windows-dev
 ---
 
 # About the Fiddler web debugger tool

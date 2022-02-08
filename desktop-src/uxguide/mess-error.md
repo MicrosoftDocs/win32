@@ -3,6 +3,7 @@ title: Error Messages in Windows 7
 description: Error messages in Windows 7 alert users of problems that have already occurred.
 ms.topic: article
 ms.date: 01/11/2022
+ms.custom: seo-windows-dev
 ---
 
 # Error Messages in Windows 7
@@ -541,7 +542,7 @@ In this example, an error code is used as a substitute for a solution text.
 
 -67113524
 
-- **Use Show/Hide details to display error codes.** Phrase as Error code: <error code>.
+- **Use Show/Hide details to display error codes.** Phrase as Error code: `<error code>`.
 
 ![screen shot of message: program didn't initialize ](images/mess-error-image45.png)
 

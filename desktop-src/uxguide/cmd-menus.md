@@ -1,9 +1,10 @@
 ---
 title: Windows 7 Menus (Design basics)
-description: Menus are hierarchical lists of commands or options available to users in the current context.
+description: Windows 7 Menus are hierarchical lists of commands or options available to users in the current context.
 ms.assetid: 3772ff8e-8057-476d-b62b-efbd5e07907f
 ms.topic: article
-ms.date: 10/20/2020
+ms.date: 01/25/2022
+ms.custom: seo-windows-dev
 ---
 
 # Windows 7 Menus (Design basics)
@@ -328,26 +329,28 @@ For more guidelines and standard shortcut key assignments, see [Keyboard](inter-
 
 The standard menu bar structure is as follows. This list shows the menu category and item labels, their order with separators, their access and shortcut keys, and their ellipses.
 
-<dl> File<dl> New Ctrl+N  
+**File**
+
+New Ctrl+N  
 Open... Ctrl+O  
-Close  
-&lt;separator&gt;  
+Close
 Save Ctrl+S  
-Save as...  
-&lt;separator&gt;  
-Send to  
-&lt;separator&gt;  
+Save as...
+Send to
 Print... Ctrl+P  
 Print preview  
 Page setup  
-&lt;separator&gt;  
-1 <filename>  
-2 <filename>  
-3 <filename>  
+
+1 `<filename>`  
+2 `<filename>`  
+3 `<filename>`  
 ...  
-&lt;separator&gt;  
+ 
 Exit Alt+F4 (shortcut usually not given)  
-</dl> </dd> Edit<dl> Undo Ctrl+Z  
+
+**Edit**
+
+Undo Ctrl+Z  
 Redo Ctrl+Y  
 &lt;separator&gt;  
 Cut Ctrl+X  
@@ -362,21 +365,27 @@ Find... Ctrl+F
 Find next F3 (command usually not given)  
 Replace... Ctrl+H  
 Go to... Ctrl+G  
-</dl> </dd> View<dl> Toolbars  
+
+**View**
+
+Toolbars  
 Status bar  
 &lt;separator&gt;  
-</dl> </dd> Zoom<dl> Zoom in Ctrl++  
+Zoom
+Zoom in Ctrl++  
 Zoom out Ctrl+-  
 &lt;separator&gt;  
 Full screen F11  
 Refresh F5  
-</dl> </dd> <dd>Tools<dl> ...  
+
+**Tools**
+
 &lt;separator&gt;  
-Options  
-</dl> </dd> Help<dl> <program name> help F1  
+Options
+Help `<program name>`
+help F1  
 &lt;separator&gt;  
-About <program name>  
-</dl> </dd> </dl>
+About `<program name>`  
 
 **Standard toolbar menu buttons**
 
@@ -426,8 +435,10 @@ Paste
 &lt;separator&gt;  
 Delete  
 Rename  
-&lt;separator&gt;  
-Lock the <object name>(checkmark)  
+&lt;separator&gt;
+
+Lock the `<object name>(checkmark)`
+
 Properties  
 </dl>
 
@@ -526,7 +537,7 @@ When referring to menus:
 
 -   In commands that show or hide menus, refer to menu bars. Don't refer to them as classic menus.
 -   Refer to menus by their labels. Use the exact label text, including its capitalization, but don't include the access key underscore or ellipsis.
--   To refer to menu categories, use "On the <category name> menu." If the location of a menu item is clear from the context, you don't need to mention the menu category.
+-   To refer to menu categories, use "On the `<category name>` menu." If the location of a menu item is clear from the context, you don't need to mention the menu category.
 -   To describe user interaction of menu items, use click, without the word menu or command. Don't use choose, select, or pick. Don't refer to a menu item as a menu item except in technical documentation.
 -   To describe removing a check mark from a menu option, use click to remove the check mark. Don't use clear.
 -   Refer to context menus as context menus, not shortcut menus.

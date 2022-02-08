@@ -1,12 +1,12 @@
 ---
-title: Mouse and Pointers
-description: The mouse is the primary input device used to interact with objects in Windows.
+title: Windows 7 Mouse and Pointers
+description: Windows 7 mouse is the primary input device used to interact with objects in Windows.
 ms.assetid: 4d99287d-e908-4c8b-b4f6-6e8c91c6c93e
 ms.topic: article
-ms.date: 10/20/2020
+ms.date: 01/25/2022
 ---
 
-# Mouse and Pointers
+# Windows 7 Mouse and Pointers
 
 > [!NOTE]
 > This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](/windows/uwp/design/).

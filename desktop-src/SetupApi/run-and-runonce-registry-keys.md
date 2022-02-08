@@ -4,6 +4,7 @@ ms.assetid: 5a6c17f1-d4c0-4005-9b26-036d8b27703a
 title: Run and RunOnce Registry Keys
 ms.topic: article
 ms.date: 01/04/2022
+ms.custom: seo-windows-dev
 ---
 
 # Run and RunOnce Registry Keys

@@ -3,7 +3,8 @@ title: Data encryption and decryption
 description: Encryption is the process of translating plain text data (plaintext) into something that appears to be random and meaningless (ciphertext). Decryption is the process of converting ciphertext back to plaintext.
 ms.assetid: 6a4b5c82-f74c-4cc8-b824-690f165453bd
 ms.topic: article
-ms.date: 11/09/2021
+ms.date: 01/25/2022
+ms.custom: seo-windows-dev
 ---
 
 # Data encryption and decryption

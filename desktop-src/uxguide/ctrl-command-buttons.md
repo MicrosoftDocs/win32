@@ -3,6 +3,7 @@ title: Command Buttons in Windows 7
 description: With command buttons in Windows 7, users initiate immediate actions.
 ms.topic: article
 ms.date: 01/11/2022
+ms.custom: seo-windows-dev
 ---
 
 # Command Buttons in Windows 7
