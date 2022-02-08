@@ -1,4 +1,4 @@
-# Load
+# Load Method
 
 Reads texel data without any filtering or sampling.
 
@@ -45,8 +45,8 @@ ElementType Texture3D<ElementType>::Load(
 | - | - |
 | in [`<LocationType> location`](#locationtype-location) | The texture coordinates. This method uses a 0-based coordinate system and not a 0.0-1.0 UV system. |
 | in [`<OffsetType> offset`](#offsettype-offset) | The offset applied to the texture coordinates before sampling. |
-| in [`int sampleIndex`](#int-sampleindex) | The sample index. |
-| out [`uint status`](#uint-status) | The status of the operation. You can't access the status directly; instead, pass the status to the CheckAccessFullyMapped intrinsic function. CheckAccessFullyMapped returns TRUE if all values from the corresponding Sample, Gather, or Load operation accessed mapped tiles in a tiled resource. If any values were taken from an unmapped tile, CheckAccessFullyMapped returns FALSE. |
+| \[ in [`int sampleIndex`](#int-sampleindex) \] | The sample index. |
+| \[ out [`uint status`](#uint-status) \] | The status of the operation. You can't access the status directly; instead, pass the status to the CheckAccessFullyMapped intrinsic function. CheckAccessFullyMapped returns TRUE if all values from the corresponding Sample, Gather, or Load operation accessed mapped tiles in a tiled resource. If any values were taken from an unmapped tile, CheckAccessFullyMapped returns FALSE. |
 
 Types that depend on texture object:
 
@@ -88,11 +88,11 @@ The return type matches the type in the Object declaration. For example, a Textu
 
 ## Parameters
 
-### `<LocationType> location`
+### `in <LocationType> location`
 
 The texture coordinates; the last component specifies the mipmap level. This method uses a 0-based coordinate system and not a 0.0-1.0 UV system. The argument type is dependent on the texture-object type.
 
-| TextureObject | `<CoordType>` | x,y,z texel location | Array Index | Mip Level |
+| TextureObject | `<LocationType>` | x,y,z texel location | Array Index | Mip Level |
 | --------------- | ------------ | ------------ | ----------- | ----------- |
 | `Texture1D` | `int2` | x | - | y |
 | `Texture1DArray` | `int3` | x | y | z |
@@ -102,7 +102,7 @@ The texture coordinates; the last component specifies the mipmap level. This met
 | `Texture2DMSArray` | `int3` | xy | z | - |
 | `Texture3D` | `int4` | xyz | - | z |
 
-### `<OffsetType> offset`
+### `in <OffsetType> offset`
 
 An optional texture coordinate offset, which can be used for any texture-object type; the offset is applied to the location before sampling. The texture offsets need to be static. The argument type is dependent on the texture-object type. For more info, see Applying texture coordinate offsets.
 
@@ -123,15 +123,17 @@ Type: Depends on TextureObject.  Types and component meanings are defined in the
 | `Texture2DMSArray` | `int2` | xy |
 | `Texture3D` | `int3` | xyz |
 
-### `int sampleIndex`
+### `in int sampleIndex`
 
 The sample index.
 
-### `uint status`
+### `out uint status`
 
 The status of the operation. You can't access the status directly; instead, pass the status to the CheckAccessFullyMapped intrinsic function. CheckAccessFullyMapped returns TRUE if all values from the corresponding Sample, Gather, or Load operation accessed mapped tiles in a tiled resource. If any values were taken from an unmapped tile, CheckAccessFullyMapped returns FALSE.
 
 ## Remarks
+
+None.
 
 ## Supported Shader Models
 
