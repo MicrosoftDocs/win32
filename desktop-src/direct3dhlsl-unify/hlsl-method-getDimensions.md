@@ -56,6 +56,14 @@ void Texture2DMSArray<ElementType>::GetDimensions(
 | out [`uint depth`](#uint-depth) | The texture depth, in texels. |
 | out [`uint numberOfSamples`](#uint-numberOfSamples) | The number of samples. |
 
+Types that depend on texture object:
+
+<b>Example</b>
+
+```HLSL
+// NA
+```
+
 ## Return Value
 
 No return value.
@@ -89,6 +97,8 @@ The texture depth, in texels.
 ### `uint numberOfSamples`
 
 The number of samples.
+
+## Remarks
 
 ## Supported Shader Models
 
