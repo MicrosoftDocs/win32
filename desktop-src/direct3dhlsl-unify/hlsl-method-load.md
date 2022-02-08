@@ -88,7 +88,7 @@ The return type matches the type in the Object declaration. For example, a Textu
 
 ## Parameters
 
-### `in <LocationType> location`
+### `<LocationType> location`
 
 The texture coordinates; the last component specifies the mipmap level. This method uses a 0-based coordinate system and not a 0.0-1.0 UV system. The argument type is dependent on the texture-object type.
 
@@ -102,7 +102,7 @@ The texture coordinates; the last component specifies the mipmap level. This met
 | `Texture2DMSArray` | `int3` | xy | z | - |
 | `Texture3D` | `int4` | xyz | - | z |
 
-### `in <OffsetType> offset`
+### `<OffsetType> offset`
 
 An optional texture coordinate offset, which can be used for any texture-object type; the offset is applied to the location before sampling. The texture offsets need to be static. The argument type is dependent on the texture-object type. For more info, see Applying texture coordinate offsets.
 
@@ -123,11 +123,11 @@ Type: Depends on TextureObject.  Types and component meanings are defined in the
 | `Texture2DMSArray` | `int2` | xy |
 | `Texture3D` | `int3` | xyz |
 
-### `in int sampleIndex`
+### `int sampleIndex`
 
 The sample index.
 
-### `out uint status`
+### `uint status`
 
 The status of the operation. You can't access the status directly; instead, pass the status to the CheckAccessFullyMapped intrinsic function. CheckAccessFullyMapped returns TRUE if all values from the corresponding Sample, Gather, or Load operation accessed mapped tiles in a tiled resource. If any values were taken from an unmapped tile, CheckAccessFullyMapped returns FALSE.
 
