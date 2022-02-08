@@ -8,6 +8,9 @@ ms.date: 05/31/2018
 
 # WM\_CANCELJOURNAL message
 
+> [!WARNING]
+> Journaling Hooks APIs are unsupported starting in Windows 11 and will be removed in a future release. Because of this, we highly recommend calling the [**SendInput**](../winuser/nf-winuser-sendinput.md) TextInput API instead.
+
 Posted to an application when a user cancels the application's journaling activities. The message is posted with a **NULL** window handle.
 
 
