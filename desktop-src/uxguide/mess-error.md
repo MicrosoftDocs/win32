@@ -542,7 +542,7 @@ In this example, an error code is used as a substitute for a solution text.
 
 -67113524
 
-- **Use Show/Hide details to display error codes.** Phrase as Error code: <error code>.
+- **Use Show/Hide details to display error codes.** Phrase as Error code: `<error code>`.
 
 ![screen shot of message: program didn't initialize ](images/mess-error-image45.png)
 

@@ -341,10 +341,11 @@ Send to
 Print... Ctrl+P  
 Print preview  
 Page setup  
-&lt;separator&gt;  
-1 <filename>  
-2 <filename>  
-3 <filename>  
+&lt;separator&gt;
+
+1 `<filename>`  
+2 `<filename>`  
+3 `<filename>`  
 ...  
 &lt;separator&gt;  
 Exit Alt+F4 (shortcut usually not given)  
@@ -427,8 +428,10 @@ Paste
 &lt;separator&gt;  
 Delete  
 Rename  
-&lt;separator&gt;  
-Lock the <object name>(checkmark)  
+&lt;separator&gt;
+
+Lock the `<object name>(checkmark)`
+
 Properties  
 </dl>
 
@@ -527,7 +530,7 @@ When referring to menus:
 
 -   In commands that show or hide menus, refer to menu bars. Don't refer to them as classic menus.
 -   Refer to menus by their labels. Use the exact label text, including its capitalization, but don't include the access key underscore or ellipsis.
--   To refer to menu categories, use "On the <category name> menu." If the location of a menu item is clear from the context, you don't need to mention the menu category.
+-   To refer to menu categories, use "On the `<category name>` menu." If the location of a menu item is clear from the context, you don't need to mention the menu category.
 -   To describe user interaction of menu items, use click, without the word menu or command. Don't use choose, select, or pick. Don't refer to a menu item as a menu item except in technical documentation.
 -   To describe removing a check mark from a menu option, use click to remove the check mark. Don't use clear.
 -   Refer to context menus as context menus, not shortcut menus.

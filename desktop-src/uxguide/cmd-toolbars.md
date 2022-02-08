@@ -402,7 +402,7 @@ RefreshF5
 </dl> </dd> Tools(menu button) <dl> ...  
 &lt;separator&gt;  
 Options  
-</dl>> </dd> Help(split button, use the Help icon) <dl> <program name> helpF1  
+</dl> </dd> Help(split button, use the Help icon) <dl> <program name> helpF1  
 &lt;separator&gt;  
 About <program name>  
 </dl> </dd> </dl>

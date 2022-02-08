@@ -11,7 +11,7 @@ ms.custom: seo-windows-dev
 
 ## What is Control Flow Guard?
 
-Control Flow Guard (CFG) is a highly-optimized platform security feature that was created to combat memory corruption vulnerabilities. By placing tight restrictions on where an application can execute code from, it makes it much harder for exploits to execute arbitrary code through vulnerabilities such as buffer overflows. CFG extends previous exploit mitigation technologies such as [/GS](/cpp/build/reference/gs-buffer-security-check?view=vs-2019), [DEP](../memory/data-execution-prevention.md), and [ASLR](/archive/blogs/michael_howard/address-space-layout-randomization-in-windows-vista).
+Control Flow Guard (CFG) is a highly-optimized platform security feature that was created to combat memory corruption vulnerabilities. By placing tight restrictions on where an application can execute code from, it makes it much harder for exploits to execute arbitrary code through vulnerabilities such as buffer overflows. CFG extends previous exploit mitigation technologies such as [/GS](/cpp/build/reference/gs-buffer-security-check), [DEP](../memory/data-execution-prevention.md), and [ASLR](/archive/blogs/michael_howard/address-space-layout-randomization-in-windows-vista).
 
 - Prevent memory corruption and ransomware attacks.
 - Restrict the capabilities of the server to whatever is needed at a particular point in time to reduce attack surface.
@@ -33,7 +33,7 @@ Alternatively, add **/guard:cf** to **Project \| Properties \| Configuration Pro
 
 ![cfg property for compiler](images/cfg-compiler.png)![cfg property for linker](images/cfg-linker.png)
 
-See [/guard (Enable Control Flow Guard)](/cpp/build/reference/guard-enable-control-flow-guard?view=vs-2019) for additional info.
+See [/guard (Enable Control Flow Guard)](/cpp/build/reference/guard-enable-control-flow-guard) for additional info.
 
 If you are building your project from the command line, you can add the same options. For example, if you are compiling a project called test.cpp, use **cl /guard:cf test.cpp /link /guard:cf**.
 
