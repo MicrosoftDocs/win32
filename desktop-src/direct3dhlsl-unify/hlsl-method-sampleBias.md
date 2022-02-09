@@ -84,7 +84,7 @@ Types that depend on texture object:
 <b>Example</b>
 
 ```HLSL
-// N/A
+// None
 ```
 
 ## Return Value
