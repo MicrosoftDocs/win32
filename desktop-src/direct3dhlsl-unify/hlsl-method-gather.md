@@ -2,6 +2,8 @@
 
 Gets the four samples that would be used for bilinear interpolation when sampling a texture.
 
+Method Signatures vary per supported TextureObject type:
+
 ### `All Channels`
 
 ```syntax
