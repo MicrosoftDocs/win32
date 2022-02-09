@@ -1,5 +1,7 @@
 # GetDimensions
 
+Gets texture size information.
+
 Method Signatures vary per supported TextureObject type:
 
 ```syntax
@@ -66,7 +68,7 @@ Types that depend on texture object:
 
 ## Return Value
 
-No return value.
+None.
 
 ## Parameters
 
@@ -99,6 +101,8 @@ The texture depth, in texels.
 The number of samples.
 
 ## Remarks
+
+None.
 
 ## Supported Shader Models
 
