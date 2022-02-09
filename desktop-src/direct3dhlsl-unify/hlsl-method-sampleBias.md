@@ -7,7 +7,7 @@ Method Signatures vary per supported TextureObject type:
 ```syntax
 ElementType Texture1D<ElementType>::SampleBias(
       in  SamplerState  samp,
-      in  float         location,
+      in  float         coord,
       in  float         bias,
       in  int           offset,
    [, in  float         clamp ]
@@ -15,7 +15,7 @@ ElementType Texture1D<ElementType>::SampleBias(
 
 ElementType Texture1DArray<ElementType>::SampleBias(
       in  SamplerState  samp,
-      in  float2        location,
+      in  float2        coord,
       in  float         bias,
       in  int           offset,
    [, in  float         clamp ]
@@ -23,7 +23,7 @@ ElementType Texture1DArray<ElementType>::SampleBias(
 
 ElementType Texture2D<ElementType>::SampleBias(
       in  SamplerState  samp,
-      in  float2        location,
+      in  float2        coord,
       in  float         bias,
       in  int2          offset,
    [, in  float         clamp ]
@@ -31,7 +31,7 @@ ElementType Texture2D<ElementType>::SampleBias(
 
 ElementType Texture2DArray<ElementType>::SampleBias(
       in  SamplerState  samp,
-      in  float3        location,
+      in  float3        coord,
       in  float         bias,
       in  int2          offset,
    [, in  float         clamp ]
@@ -39,7 +39,7 @@ ElementType Texture2DArray<ElementType>::SampleBias(
 
 ElementType Texture3D<ElementType>::SampleBias(
       in  SamplerState  samp,
-      in  float3        location,
+      in  float3        coord,
       in  float         bias,
       in  int3          offset,
    [, in  float         clamp ]
@@ -47,14 +47,14 @@ ElementType Texture3D<ElementType>::SampleBias(
 
 ElementType TextureCube<ElementType>::SampleBias(
       in  SamplerState  samp,
-      in  float3        location,
+      in  float3        coord,
       in  float         bias,
    [, in  float         clamp ]
    [, out uint          status ] );
 
 ElementType TextureCubeArray<ElementType>::SampleBias(
       in  SamplerState  samp,
-      in  float4        location,
+      in  float4        coord,
       in  float         bias,
    [, in  float         clamp ]
    [, out uint          status ] );
@@ -63,7 +63,7 @@ ElementType TextureCubeArray<ElementType>::SampleBias(
 | Parameter | Description |
 | - | - |
 | in [`SamplerState samp`](#samplerstate-samp) | SamplerState object that determines how sampling will take place. |
-| in [`<LocationType> location`](#locationtype-location) | The texture coordinates. This method uses a 0-based coordinate system and not a 0.0-1.0 UV system. |
+| in [`<CoordType> coord`](#coordtype-coord) | The texture coordinates. |
 | in [`float bias`](#float-bias) | The bias value, which is a floating-point number between -16.0 and 15.99, is applied to a mip level before sampling. |
 | in [`<OffsetType> offset`](#offsettype-offset) | The offset applied to the texture coordinates before sampling. |
 | \[ in [`float clamp`](#float-clamp) \] | An optional value to clamp sample LOD values to. For example, if you pass 2.0f for the clamp value, you ensure that no individual sample accesses a mip level less than 2.0f. |
@@ -71,7 +71,7 @@ ElementType TextureCubeArray<ElementType>::SampleBias(
 
 Types that depend on texture object:
 
-| TextureObject | [`<LocationType>`](#locationtype-location) | [`<OffsetType>`](#offsettype-offset) |
+| TextureObject | [`<CoordType>`](#coordtype-coord) | [`<OffsetType>`](#offsettype-offset) |
 | --- | --- | --- |
 | `Texture1D` | `float` | `int` |
 | `Texture1DArray` | `float2` | `int` |
@@ -107,11 +107,11 @@ Type: `SamplerState`
 
 > TBD: Link to document describing SamplerState object.
 
-### `<LocationType> location`
+### `<CoordType> coord`
 
 The texture coordinates.  The argument type is dependent on the texture-object type.
 
-| TextureObject | `<LocationType>` | x,y,z texel location | Array Index |
+| TextureObject | `<CoordType>` | x,y,z texel coord | Array Index |
 | --------------- | ------------ | ------------ | ----------- |
 | `Texture1D` | `float` | x | - |
 | `Texture1DArray` | `float2` | x | y |
@@ -127,10 +127,10 @@ The bias value, which is a floating-point number between -16.0 and 15.99, is app
 
 ### `<OffsetType> offset`
 
-An optional texture coordinate offset, which can be used for any texture-object type; the offset is applied to the location before sampling. The texture offsets need to be static. The argument type is dependent on the texture-object type. For more info, see Applying texture coordinate offsets.
+An optional texture coordinate offset, which can be used for any texture-object type; the offset is applied to the coord before sampling. The texture offsets need to be static. The argument type is dependent on the texture-object type. For more info, see Applying texture coordinate offsets.
 
 > My alternate text:
-> An integral offset in texels from the sampling location in the texture.
+> An integral offset in texels from the sampling coord in the texture.
 > Each component must be an immediate value in the range of `[-8,7]` known at compile time.
 > Cannot be used with TextureCube or TextureCubeArray objects.
 
