@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # DirectShow Samples
 
-The DirectShow samples are included with the [Windows SDK](https://msdn.microsoft.com/windows/aa904949.aspx). They are located under the path \[SDK Root\] \\Samples\\Multimedia\\DirectShow.
+The DirectShow samples are included with the [Windows SDK](https://www.microsoft.com/en-us/download/details.aspx?id=8279). They are located under the path \[SDK Root\] \\Samples\\Multimedia\\DirectShow.
 
 The following table lists all of the DirectShow samples provided in the Windows SDK. For instructions on how to build the samples, refer to the documentation provided in the Windows SDK.
 
