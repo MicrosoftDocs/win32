@@ -2,8 +2,6 @@
 
 Gets texture size information.
 
-Method Signatures vary per supported TextureObject type:
-
 ```syntax
 void Texture1D<ElementType>::GetDimensions(
       in  uint  mipLevel,
@@ -57,8 +55,6 @@ void Texture2DMSArray<ElementType>::GetDimensions(
 | out [`uint height`](#uint-height) | The texture height, in texels. |
 | out [`uint depth`](#uint-depth) | The texture depth, in texels. |
 | out [`uint numberOfSamples`](#uint-numberOfSamples) | The number of samples. |
-
-Types that depend on texture object:
 
 <b>Example</b>
 
