@@ -17,7 +17,6 @@ keywords:
 - colors,flags
 - WCS reference,flags
 - reference for WCS,flags
-ms.localizationpriority: high
 
 
 ms.topic: article

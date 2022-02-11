@@ -25,7 +25,7 @@ The two additional properties that are required to enable Windows Media DRM-prot
 
 These properties must be supplied in the application's client information when the device is opened with the [**IPortableDevice::Open**](/windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledevice-open) method. When these properties are supplied, the WPD API allows protected content transfers. If the application has provided a certificate and private key, the API will create a secure channel to transfer protected WMDRM content to the device.
 
-For information about creating and distributing Windows-based applications that support Windows Media DRM, see the following [Licensing Windows-based Applications](https://www.microsoft.com/windows/windowsmedia/licensing/licensing_drm_apps.aspx) topic.
+For information about creating and distributing Windows-based applications that support Windows Media DRM, see "Licensing Windows-based Applications".
 
 ## Transferring Content
 

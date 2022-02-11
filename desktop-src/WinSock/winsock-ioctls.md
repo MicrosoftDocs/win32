@@ -70,11 +70,11 @@ The following Windows Sockets 2 commands are supported.
 
 ### SIO_ACQUIRE_PORT_RESERVATION (opcode setting: I, T==3)
 
-Request a runtime reservation for a block of TCP or UDP ports. For runtime port reservations, the port pool requires that reservations be consumed from the process on whose socket the reservation was granted. Runtime port reservations last only as long as the lifetime of the socket on which the [**SIO\_ACQUIRE\_PORT\_RESERVATION**](/previous-versions/windows/desktop/legacy/gg699720(v=vs.85)) IOCTL was called. In contrast, persistent port reservations created using the [**CreatePersistentTcpPortReservation**](/windows/win32/api/iphlpapi/nf-iphlpapi-createpersistenttcpportreservation) or [**CreatePersistentUdpPortReservation**](/windows/win32/api/iphlpapi/nf-iphlpapi-createpersistentudpportreservation) function may be consumed by any process with the ability to obtain persistent reservations.
+Request a runtime reservation for a block of TCP or UDP ports. For runtime port reservations, the port pool requires that reservations be consumed from the process on whose socket the reservation was granted. Runtime port reservations last only as long as the lifetime of the socket on which the [**SIO_ACQUIRE_PORT_RESERVATION**](/windows/win32/winsock/sio-acquire-port-reservation) IOCTL was called. In contrast, persistent port reservations created using the [**CreatePersistentTcpPortReservation**](/windows/win32/api/iphlpapi/nf-iphlpapi-createpersistenttcpportreservation) or [**CreatePersistentUdpPortReservation**](/windows/win32/api/iphlpapi/nf-iphlpapi-createpersistentudpportreservation) function may be consumed by any process with the ability to obtain persistent reservations.
 
-For more detailed information, see the [**SIO\_ACQUIRE\_PORT\_RESERVATION**](/previous-versions/windows/desktop/legacy/gg699720(v=vs.85)) reference.
+For more detailed information, see the [**SIO_ACQUIRE_PORT_RESERVATION**](/windows/win32/winsock/sio-acquire-port-reservation) reference.
 
-[**SIO\_ACQUIRE\_PORT\_RESERVATION**](/previous-versions/windows/desktop/legacy/gg699720(v=vs.85)) is supported on Windows Vista and later versions of the operating system.
+[**SIO_ACQUIRE_PORT_RESERVATION**](/windows/win32/winsock/sio-acquire-port-reservation) is supported on Windows Vista and later versions of the operating system.
 
 ### SIO\_ADDRESS\_LIST\_CHANGE (opcode setting: V, T==1)
 
@@ -93,7 +93,7 @@ Obtains a list of local transport addresses of the socket's protocol family to w
 -  Issue **SIO\_ADDRESS\_LIST\_QUERY** IOCTL
 -  Whenever **SIO\_ADDRESS\_LIST\_CHANGE** IOCTL notifies the application of address list change (either through overlapped I/O or by signaling FD\_ADDRESS\_LIST\_CHANGE event), the whole sequence of actions should be repeated.
 
-For more detailed information, see the [**SIO\_ADDRESS\_LIST\_QUERY**](/previous-versions/windows/desktop/legacy/dd877219(v=vs.85)) reference. **SIO\_ADDRESS\_LIST\_QUERY** is supported on Windows 2000 and later.
+For more detailed information, see the [**SIO_ADDRESS_LIST_QUERY**](/windows/win32/winsock/sio-address-list-query) reference. **SIO\_ADDRESS\_LIST\_QUERY** is supported on Windows 2000 and later.
 
 ### SIO\_APPLY\_TRANSPORT\_SETTING (opcode setting: I, T==3)
 
@@ -103,7 +103,7 @@ The only transport setting currently defines is for the **REAL\_TIME\_NOTIFICATI
 
 If the [**TRANSPORT\_SETTING\_ID**](/windows/win32/api/transportsettingcommon/ns-transportsettingcommon-transport_setting_id) passed has the **Guid** member set to **REAL\_TIME\_NOTIFICATION\_CAPABILITY**, then this is a request to apply real time notification settings for the TCP socket used with the [**ControlChannelTrigger**](/uwp/api/Windows.Networking.Sockets.ControlChannelTrigger) to receive background network notifications in a Windows Store app.
 
-For more detailed information, see the [**SIO\_APPLY\_TRANSPORT\_SETTING**](/previous-versions/windows/desktop/legacy/jj553481(v=vs.85)) reference. **SIO\_APPLY\_TRANSPORT\_SETTING** is supported on Windows 8, Windows Server 2012, and later.
+For more detailed information, see the [**SIO_APPLY_TRANSPORT_SETTING**](/windows/win32/winsock/sio-apply-transport-setting) reference. **SIO\_APPLY\_TRANSPORT\_SETTING** is supported on Windows 8, Windows Server 2012, and later.
 
 ### SIO\_ASSOCIATE\_HANDLE (opcode setting: I, T==1)
 
@@ -113,11 +113,11 @@ A companion interface might be used, for example, if a particular provider provi
 
 ### SIO\_ASSOCIATE\_PORT\_RESERVATION (opcode setting: I, T==3)
 
-Associate a socket with a persistent or runtime reservation for a block of TCP or UDP ports identified by the port reservation token. The [**SIO\_ASSOCIATE\_PORT\_RESERVATION**](/previous-versions/windows/desktop/legacy/gg699721(v=vs.85)) IOCTL must be issued before the socket is bound. If and when the socket is bound, the port assigned to it will be selected from the port reservation identified by the given token. If no ports are available from the specified reservation, the [**bind**](/windows/desktop/api/winsock/nf-winsock-bind) function call will fail.
+Associate a socket with a persistent or runtime reservation for a block of TCP or UDP ports identified by the port reservation token. The [**SIO_ASSOCIATE_PORT_RESERVATION**](/windows/win32/winsock/sio-associate-port-reservation) IOCTL must be issued before the socket is bound. If and when the socket is bound, the port assigned to it will be selected from the port reservation identified by the given token. If no ports are available from the specified reservation, the [**bind**](/windows/desktop/api/winsock/nf-winsock-bind) function call will fail.
 
-For more detailed information, see the [**SIO\_ASSOCIATE\_PORT\_RESERVATION**](/previous-versions/windows/desktop/legacy/gg699721(v=vs.85)) reference.
+For more detailed information, see the [**SIO_ASSOCIATE_PORT_RESERVATION**](/windows/win32/winsock/sio-associate-port-reservation) reference.
 
-[**SIO\_ASSOCIATE\_PORT\_RESERVATION**](/previous-versions/windows/desktop/legacy/gg699721(v=vs.85)) is supported on Windows Vista and later versions of the operating system.
+[**SIO_ASSOCIATE_PORT_RESERVATION**](/windows/win32/winsock/sio-associate-port-reservation) is supported on Windows Vista and later versions of the operating system.
 
 ### SIO\_BASE\_HANDLE (opcode setting: O, T==1)
 
@@ -261,9 +261,9 @@ When sending data over a TCP connection using Windows sockets, it is important t
 
 The ISB value per connection is available from the TCP protocol implementation in Windows Server 2008, Windows Vista with SP1, and later versions of the operating system. The **SIO\_IDEAL\_SEND\_BACKLOG\_CHANGE** IOCTL can be used by an application to get notification when the ISB value changes dynamically for a connection.
 
-For more detailed information, see the [**SIO\_IDEAL\_SEND\_BACKLOG\_CHANGE**](/previous-versions/windows/desktop/legacy/bb736548(v=vs.85)) reference.
+For more detailed information, see the [**SIO_IDEAL_SEND_BACKLOG_CHANGE**](/windows/win32/winsock/sio-ideal-send-backlog-change) reference.
 
-[**SIO\_IDEAL\_SEND\_BACKLOG\_CHANGE**](/previous-versions/windows/desktop/legacy/bb736548(v=vs.85)) is supported on Windows Server 2008, Windows Vista with SP1, and later versions of the operating system.
+[**SIO_IDEAL_SEND_BACKLOG_CHANGE**](/windows/win32/winsock/sio-ideal-send-backlog-change) is supported on Windows Server 2008, Windows Vista with SP1, and later versions of the operating system.
 
 ### SIO\_IDEAL\_SEND\_BACKLOG\_QUERY (opcode setting: O, T==0)
 
@@ -273,9 +273,9 @@ When sending data over a TCP connection using Windows sockets, it is important t
 
 The ISB value per connection is available from the TCP protocol implementation in Windows Server 2008 and later. The **SIO\_IDEAL\_SEND\_BACKLOG\_QUERY** IOCTL can be used by an application to query the ISB value for a connection.
 
-For more detailed information, see the [**SIO\_IDEAL\_SEND\_BACKLOG\_QUERY**](/previous-versions/windows/desktop/legacy/bb736549(v=vs.85)) reference.
+For more detailed information, see the [**SIO_IDEAL_SEND_BACKLOG_QUERY**](/windows/win32/winsock/sio-ideal-send-backlog-query) reference.
 
-[**SIO\_IDEAL\_SEND\_BACKLOG\_QUERY**](/previous-versions/windows/desktop/legacy/bb736549(v=vs.85)) is supported on Windows Server 2008, Windows Vista with SP1, and later versions of the operating system.
+[**SIO_IDEAL_SEND_BACKLOG_QUERY**](/windows/win32/winsock/sio-ideal-send-backlog-query) is supported on Windows Server 2008, Windows Vista with SP1, and later versions of the operating system.
 
 ### SIO\_KEEPALIVE\_VALS (opcode setting: I, T==3)
 
@@ -285,13 +285,13 @@ Enables or disables the per-connection setting of the TCP **keep-alive** option 
 
 The [**SO\_KEEPALIVE**](so-keepalive.md) option, which is one of the [SOL\_SOCKET Socket Options](sol-socket-socket-options.md), can also be used to enable or disable the TCP keep-alive on a connection, as well as query the current state of this option. To query whether TCP keep-alive is enabled on a socket, the [**getsockopt**](/windows/desktop/api/winsock/nf-winsock-getsockopt) function can be called with the **SO\_KEEPALIVE** option. To enable or disable TCP keep-alive, the [**setsockopt**](/windows/desktop/api/winsock/nf-winsock-setsockopt) function can be called with the [**SO\_KEEPALIVE**](so-keepalive.md) option. If TCP keep-alive is enabled with **SO\_KEEPALIVE**, then the default TCP settings are used for keep-alive timeout and interval unless these values have been changed using **SIO\_KEEPALIVE\_VALS**.
 
-For more detailed information, see the [**SIO\_KEEPALIVE\_VALS**](/previous-versions/windows/desktop/legacy/dd877220(v=vs.85)) reference. **SIO\_KEEPALIVE\_VALS** is supported on Windows 2000 and later.
+For more detailed information, see the [**SIO_KEEPALIVE_VALS**](/windows/win32/winsock/sio-keepalive-vals) reference. **SIO\_KEEPALIVE\_VALS** is supported on Windows 2000 and later.
 
 ### SIO\_LOOPBACK\_FAST\_PATH (opcode setting: I, T==3)
 
-Configures a TCP socket for lower latency and faster operations on the loopback interface. This IOCTL requests that the TCP/IP stack uses a special fast path for loopback operations on this socket. The [**SIO\_LOOPBACK\_FAST\_PATH**](/previous-versions/windows/desktop/legacy/jj841212(v=vs.85)) IOCTL can be used only with TCP sockets. This IOCTL must be used on both sides of the loopback session. The TCP loopback fast path is supported using either the IPv4 or IPv6 loopback interface. By default, **SIO\_LOOPBACK\_FAST\_PATH** is disabled.
+Configures a TCP socket for lower latency and faster operations on the loopback interface. This IOCTL requests that the TCP/IP stack uses a special fast path for loopback operations on this socket. The [**SIO_LOOPBACK_FAST_PATH**](/windows-hardware/drivers/network/sio-loopback-fast-path) IOCTL can be used only with TCP sockets. This IOCTL must be used on both sides of the loopback session. The TCP loopback fast path is supported using either the IPv4 or IPv6 loopback interface. By default, **SIO\_LOOPBACK\_FAST\_PATH** is disabled.
 
-For more detailed information, see the [**SIO\_LOOPBACK\_FAST\_PATH**](/previous-versions/windows/desktop/legacy/jj841212(v=vs.85)) reference. **SIO\_LOOPBACK\_FAST\_PATH** is supported on Windows 8, Windows Server 2012, and later.
+For more detailed information, see the [**SIO_LOOPBACK_FAST_PATH**](/windows-hardware/drivers/network/sio-loopback-fast-path) reference. **SIO\_LOOPBACK\_FAST\_PATH** is supported on Windows 8, Windows Server 2012, and later.
 
 ### SIO\_MULTIPOINT\_LOOPBACK (opcode setting: V, T==1)
 
@@ -305,9 +305,9 @@ Specifies the scope over which multicast transmissions will occur. Scope is defi
 
 Queries the association between a socket and an RSS processor core and NUMA node.
 
-The [**SIO\_QUERY\_RSS\_PROCESSOR\_INFO**](/previous-versions/windows/desktop/legacy/jj553482(v=vs.85)) IOCTL returns a [**SOCKET\_PROCESSOR\_AFFINITY**](/windows/desktop/api/Ws2def/ns-ws2def-socket_processor_affinity) structure that contains the [**PROCESSOR\_NUMBER**](/windows/win32/api/winnt/ns-winnt-processor_number) and the NUMA node ID. The returned **PROCESSOR\_NUMBER** structure contains a group number and relative processor number within the group.
+The [**SIO_QUERY_RSS_PROCESSOR_INFO**](/windows/win32/winsock/sio-query-rss-processor-info) IOCTL returns a [**SOCKET\_PROCESSOR\_AFFINITY**](/windows/desktop/api/Ws2def/ns-ws2def-socket_processor_affinity) structure that contains the [**PROCESSOR\_NUMBER**](/windows/win32/api/winnt/ns-winnt-processor_number) and the NUMA node ID. The returned **PROCESSOR\_NUMBER** structure contains a group number and relative processor number within the group.
 
-For more detailed information, see the [**SIO\_QUERY\_RSS\_PROCESSOR\_INFO**](/previous-versions/windows/desktop/legacy/jj553482(v=vs.85)) reference. **SIO\_QUERY\_RSS\_PROCESSOR\_INFO** is supported on Windows 8, Windows Server 2012, and later.
+For more detailed information, see the [**SIO_QUERY_RSS_PROCESSOR_INFO**](/windows/win32/winsock/sio-query-rss-processor-info) reference. **SIO\_QUERY\_RSS\_PROCESSOR\_INFO** is supported on Windows 8, Windows Server 2012, and later.
 
 ### SIO\_QUERY\_RSS\_SCALABILITY\_INFO (opcode setting: O, T==3)
 
@@ -336,35 +336,35 @@ The only transport setting currently defines is for the **REAL\_TIME\_NOTIFICATI
 
 If the [**TRANSPORT\_SETTING\_ID**](/windows/win32/api/transportsettingcommon/ns-transportsettingcommon-transport_setting_id) has the **Guid** member set to **REAL\_TIME\_NOTIFICATION\_CAPABILITY**, then this is a request to query the real time notification settings for the TCP socket used with the [**ControlChannelTrigger**](/uwp/api/Windows.Networking.Sockets.ControlChannelTrigger) to receive background network notifications in a Windows Store app. If the [**WSAIoctl**](/windows/desktop/api/Winsock2/nf-winsock2-wsaioctl) or [**WSPIoctl**](/previous-versions/windows/hardware/network/ff566296(v=vs.85)) call is successful, this IOCTL returns a [**REAL\_TIME\_NOTIFICATION\_SETTING\_OUTPUT**](/windows/desktop/api/Mstcpip/ns-mstcpip-real_time_notification_setting_input) structure with the current status.
 
-For more detailed information, see the [**SIO\_QUERY\_TRANSPORT\_SETTING**](/previous-versions/windows/desktop/legacy/jj553483(v=vs.85)) reference. **SIO\_QUERY\_TRANSPORT\_SETTING** is supported on Windows 8, Windows Server 2012, and later.
+For more detailed information, see the [**SIO_QUERY_TRANSPORT_SETTING**](/windows/win32/winsock/sio-query-transport-setting) reference. **SIO\_QUERY\_TRANSPORT\_SETTING** is supported on Windows 8, Windows Server 2012, and later.
 
 ### SIO\_QUERY\_WFP\_ALE\_ENDPOINT\_HANDLE (opcode setting: O, T==3)
 
 Queries the Application Layer Enforcement (ALE) endpoint handle.
 
-The Windows Filtering Platform (WFP) supports network traffic inspection and modification. On Windows Vista, WFP focuses on scenarios where the host machine is the communication endpoint. On Windows Server 2008 , however, there are edge firewall implementations which would like to leverage the WFP platform to inspect and proxy pass-through traffic. The Internet Security and Acceleration (ISA) server is an example of such an edge device.
+The Windows Filtering Platform (WFP) supports network traffic inspection and modification. On Windows Vista, WFP focuses on scenarios where the host machine is the communication endpoint. On Windows Server 2008 , however, there are edge firewall implementations which would like to leverage the WFP platform to inspect and proxy pass-through traffic. The Internet Security and Acceleration (ISA) server is an example of such an edge device.
 
 There are some firewall scenarios that may require the ability to inject an inbound packet into the send path associated with an existing endpoint. There needs to be a mechanism to discover the transport layer endpoint handle associated with the destination endpoint. The application that created the endpoint owns these transport layer endpoints. This IOCTL is used to provide socket handle to transport layer endpoint handle mapping.
 
 If the output buffer is not large enough for the endpoint handle (the *cbOutBuffer* is less than the size of a **UINT64**) or the *lpvOutBuffer* parameter is a **NULL** pointer, **SOCKET\_ERROR** is returned as the result of this IOCTL and [**WSAGetLastError**](/windows/desktop/api/winsock/nf-winsock-wsagetlasterror) returns [WSAEINVAL](windows-sockets-error-codes-2.md).
 
-**SIO\_QUERY\_WFP\_ALE\_ENDPOINT\_HANDLE** is supported on Windows Vista and later.
+**SIO\_QUERY\_WFP\_ALE\_ENDPOINT\_HANDLE** is supported on Windows Vista and later.
 
 ### SIO\_QUERY\_WFP\_CONNECTION\_REDIRECT\_CONTEXT (opcode setting: I, T==3)
 
 Queries the redirect context for a redirect record used by a Windows Filtering Platform (WFP) redirect service.
 
-The [**SIO\_QUERY\_WFP\_CONNECTION\_REDIRECT\_CONTEXT**](/previous-versions/windows/desktop/legacy/hh859712(v=vs.85)) IOCTL is used to provide proxied connection tracking on redirected socket connections. This WFP feature facilitates tracking of redirection records from the initial redirect of a connection to the final connection to the destination.
+The [**SIO_QUERY_WFP_CONNECTION_REDIRECT_CONTEXT**](/windows-hardware/drivers/network/sio-query-wfp-connection-redirect-context) IOCTL is used to provide proxied connection tracking on redirected socket connections. This WFP feature facilitates tracking of redirection records from the initial redirect of a connection to the final connection to the destination.
 
-For more detailed information, see the [**SIO\_QUERY\_WFP\_CONNECTION\_REDIRECT\_CONTEXT**](/previous-versions/windows/desktop/legacy/hh859712(v=vs.85)) reference. **SIO\_QUERY\_WFP\_CONNECTION\_REDIRECT\_CONTEXT** is supported on Windows 8, Windows Server 2012, and later.
+For more detailed information, see the [**SIO_QUERY_WFP_CONNECTION_REDIRECT_CONTEXT**](/windows-hardware/drivers/network/sio-query-wfp-connection-redirect-context) reference. **SIO\_QUERY\_WFP\_CONNECTION\_REDIRECT\_CONTEXT** is supported on Windows 8, Windows Server 2012, and later.
 
 ### SIO\_QUERY\_WFP\_CONNECTION\_REDIRECT\_RECORDS (opcode setting: I, T==3)
 
 Queries the redirect record for the accepted TCP/IP connection for use by a Windows Filtering Platform (WFP) redirect service.
 
-The [**SIO\_QUERY\_WFP\_CONNECTION\_REDIRECT\_RECORDS**](/previous-versions/windows/desktop/legacy/hh859713(v=vs.85)) IOCTL is used to provide proxied connection tracking on redirected socket connections. This WFP feature facilitates tracking of redirection records from the initial redirect of a connection to the final connection to the destination.
+The [**SIO_QUERY_WFP_CONNECTION_REDIRECT_RECORDS**](/windows-hardware/drivers/network/sio-query-wfp-connection-redirect-records) IOCTL is used to provide proxied connection tracking on redirected socket connections. This WFP feature facilitates tracking of redirection records from the initial redirect of a connection to the final connection to the destination.
 
-For more detailed information, see the [**SIO\_QUERY\_WFP\_CONNECTION\_REDIRECT\_RECORDS**](/previous-versions/windows/desktop/legacy/hh859713(v=vs.85)) reference. **SIO\_QUERY\_WFP\_CONNECTION\_REDIRECT\_RECORDS** is supported on Windows 8, Windows Server 2012, and later.
+For more detailed information, see the [**SIO_QUERY_WFP_CONNECTION_REDIRECT_RECORDS**](/windows-hardware/drivers/network/sio-query-wfp-connection-redirect-records) reference. **SIO\_QUERY\_WFP\_CONNECTION\_REDIRECT\_RECORDS** is supported on Windows 8, Windows Server 2012, and later.
 
 ### SIO\_RCVALL (opcode setting: I, T==3)
 
@@ -375,9 +375,9 @@ Enables a socket to receive all IPv4 or IPv6 packets passing throuigh a network 
 
 The socket also must be bound to an explicit local IPv4 or IPv6 interface, which means that you cannot bind to **INADDR\_ANY** or **in6addr\_any**.
 
-On Windows Server 2008 and earlier, the [**SIO\_RCVALL**](/previous-versions/windows/desktop/legacy/ee309610(v=vs.85)) IOCTL setting would not capture local packets sent out of a network interface. This included packets received on another interface and forwarded out the network interface specified for the **SIO\_RCVALL** IOCTL.
+On Windows Server 2008 and earlier, the [**SIO_RCVALL**](/windows/win32/winsock/sio-rcvall) IOCTL setting would not capture local packets sent out of a network interface. This included packets received on another interface and forwarded out the network interface specified for the **SIO\_RCVALL** IOCTL.
 
-On Windows 7 and Windows Server 2008 R2 , this was changed so that local packets sent out of a network interface are also captured. This includes packets received on another interface and then forwarded out the network interface bound to the socket with [**SIO\_RCVALL**](/previous-versions/windows/desktop/legacy/ee309610(v=vs.85)) IOCTL.
+On Windows 7 and Windows Server 2008 R2 , this was changed so that local packets sent out of a network interface are also captured. This includes packets received on another interface and then forwarded out the network interface bound to the socket with [**SIO_RCVALL**](/windows/win32/winsock/sio-rcvall) IOCTL.
 
 Setting this IOCTL requires Administrator privilege on the local computer.
 
@@ -394,9 +394,9 @@ The possible values for the **SIO\_RCVALL** IOCTL option are specified in the **
 
 
 
- 
+ 
 
-For more detailed information, see the [**SIO\_RCVALL**](/previous-versions/windows/desktop/legacy/ee309610(v=vs.85)) reference.
+For more detailed information, see the [**SIO_RCVALL**](/windows/win32/winsock/sio-rcvall) reference.
 
 **SIO\_RCVALL** is supported on Windows 2000 and later.
 
@@ -406,7 +406,7 @@ Enables a socket to receive all IGMP multicast IP traffic on the network, withou
 
 Once the socket is bound and the IOCTL set, calls to the [**WSARecv**](/windows/desktop/api/Winsock2/nf-winsock2-wsarecv) or [**recv**](/windows/desktop/api/winsock/nf-winsock-recv) functions return multicast IP datagrams passing through the given interface. Note that you must supply a sufficiently large buffer. Setting this IOCTL requires Administrator privilege on the local computer.
 
-**SIO\_RCVALL\_IGMPMCAST** is supported on Windows 2000 and later.
+**SIO\_RCVALL\_IGMPMCAST** is supported on Windows 2000 and later.
 
 ### SIO\_RCVALL\_MCAST (opcode setting: I, T==3)
 
@@ -418,11 +418,11 @@ Once the socket is bound and the IOCTL set, calls to the [**WSARecv**](/windows/
 
 ### SIO\_RELEASE\_PORT\_RESERVATION (opcode setting: I, T==3)
 
-Releases a runtime reservation for a block of TCP or UDP ports. The runtime reservation to be released must have been obtained from the issuing process using the [**SIO\_ACQUIRE\_PORT\_RESERVATION**](/previous-versions/windows/desktop/legacy/gg699720(v=vs.85)) IOCTL.
+Releases a runtime reservation for a block of TCP or UDP ports. The runtime reservation to be released must have been obtained from the issuing process using the [**SIO_ACQUIRE_PORT_RESERVATION**](/windows/win32/winsock/sio-acquire-port-reservation) IOCTL.
 
-For more detailed information, see the [**SIO\_RELEASE\_PORT\_RESERVATION**](/previous-versions/windows/desktop/legacy/gg699722(v=vs.85)) reference.
+For more detailed information, see the [**SIO_RELEASE_PORT_RESERVATION**](/windows/win32/winsock/sio-release-port-reservation) reference.
 
-[**SIO\_RELEASE\_PORT\_RESERVATION**](/previous-versions/windows/desktop/legacy/gg699722(v=vs.85)) is supported on Windows Vista and later versions of the operating system.
+[**SIO_RELEASE_PORT_RESERVATION**](/windows/win32/winsock/sio-release-port-reservation) is supported on Windows Vista and later versions of the operating system.
 
 ### SIO\_ROUTING\_INTERFACE\_CHANGE (opcode setting: I, T==1)
 
@@ -473,9 +473,9 @@ The **BehaviorId** member can be one of the values from the **WSA\_COMPATIBILITY
 
 
 
- 
+ 
 
-For more detailed information, see the [**SIO\_SET\_COMPATIBILITY\_MODE**](/previous-versions/windows/desktop/legacy/cc136103(v=vs.85)) reference.
+For more detailed information, see the [**SIO_SET_COMPATIBILITY_MODE**](/windows/win32/winsock/sio-set-compatibility-mode) reference.
 
 **SIO\_SET\_COMPATIBILITY\_MODE** is supported on Windows Vista and later.
 
@@ -521,9 +521,9 @@ It is recommend that the Component Object Model (COM) be used instead of this IO
 
 Sets the redirect record to the new TCP socket used for connecting to the final destination for use by a Windows Filtering Platform (WFP) redirect service.
 
-The [**SIO\_SET\_WFP\_CONNECTION\_REDIRECT\_RECORDS**](/previous-versions/windows/desktop/legacy/hh859714(v=vs.85)) IOCTL is used as part of proxied connection tracking on redirected socket connections. This WFP feature facilitates tracking of redirection records from the initial redirect of a connection to the final connection to the destination.
+The [**SIO_SET_WFP_CONNECTION_REDIRECT_RECORDS**](/windows/win32/winsock/sio-set-wfp-connection-redirect-records) IOCTL is used as part of proxied connection tracking on redirected socket connections. This WFP feature facilitates tracking of redirection records from the initial redirect of a connection to the final connection to the destination.
 
-For more detailed information, see the [**SIO\_SET\_WFP\_CONNECTION\_REDIRECT\_RECORDS**](/previous-versions/windows/desktop/legacy/hh859714(v=vs.85)) reference. **SIO\_SET\_WFP\_CONNECTION\_REDIRECT\_RECORDS** is supported on Windows 8, Windows Server 2012, and later.
+For more detailed information, see the [**SIO_SET_WFP_CONNECTION_REDIRECT_RECORDS**](/windows/win32/winsock/sio-set-wfp-connection-redirect-records) reference. **SIO\_SET\_WFP\_CONNECTION\_REDIRECT\_RECORDS** is supported on Windows 8, Windows Server 2012, and later.
 
 ### SIO\_TCP\_INFO (opcode setting: I, O, T==3)
 
@@ -531,7 +531,7 @@ Retrieves the TCP statistics for a socket. The TCP statistics are provided in a 
 
 Unlike retrieving TCP statistics with the [**GetPerTcpConnectionEStats**](/windows/win32/api/iphlpapi/nf-iphlpapi-getpertcpconnectionestats) function, retrieving TCP statistics with this control code does not require the user code to load, store, and filter the TCP connection table, and does not require elevated privileges to use.
 
-For more information, see [**SIO\_TCP\_INFO**](/previous-versions/windows/desktop/legacy/mt823415(v=vs.85)). **SIO\_TCP\_INFO** is supported on Windows 10, version 1703, Windows Server 2016, and later.
+For more information, see [**SIO_TCP_INFO**](/windows/win32/winsock/sio-tcp-info). **SIO\_TCP\_INFO** is supported on Windows 10, version 1703, Windows Server 2016, and later.
 
 ## Remarks
 
@@ -543,4 +543,4 @@ On the Microsoft Windows Software Development Kit (SDK) released for Windows Vi
 
 |Requirement|Value|
 |-|-|
-| Header<br/> | <dl> <dt>Winsock2.h; </dt> <dt>Mstcpip.h; </dt> <dt>Mswsock.h; </dt> <dt>Mswsockdef.h on Windows Vista, Windows Server 2008 and Windows 7 (include Mswsock.h); </dt> <dt>Ws2def.h on Windows Vista, Windows Server 2008 and Windows 7 (include Winsock2.h); </dt> <dt>Ws2ipdef.h on Windows Vista, Windows Server 2008 and Windows 7 (include Ws2tcpip.h)</dt> </dl> |
+| Header<br/> | <dl> <dt>Winsock2.h; </dt> <dt>Mstcpip.h; </dt> <dt>Mswsock.h; </dt> <dt>Mswsockdef.h on Windows Vista, Windows Server 2008 and Windows 7 (include Mswsock.h); </dt> <dt>Ws2def.h on Windows Vista, Windows Server 2008 and Windows 7 (include Winsock2.h); </dt> <dt>Ws2ipdef.h on Windows Vista, Windows Server 2008 and Windows 7 (include Ws2tcpip.h)</dt> </dl> |

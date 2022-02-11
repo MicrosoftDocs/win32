@@ -19,7 +19,6 @@ keywords:
 - color management,terms
 - colors,terms
 - brightness
-ms.localizationpriority: high
 
 
 ms.topic: article

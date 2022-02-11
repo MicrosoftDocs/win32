@@ -2,7 +2,6 @@
 title: Creating and recording command lists and bundles
 description: This topic describes recording command lists and bundles in Direct3D 12 apps. Command lists and bundles both allow apps to record drawing or state-changing calls for later execution on the graphics processing unit (GPU).
 ms.assetid: 0074B796-33A4-4AA1-A4E7-48A2A63F25B7
-ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -35,7 +34,7 @@ The [**D3D12\_COMMAND\_LIST\_TYPE**](/windows/win32/api/d3d12/ne-d3d12-d3d12_com
 
 A command allocator allows the app to manage the memory that is allocated for command lists. The command allocator is created by calling [**CreateCommandAllocator**](/windows/win32/api/d3d12/nf-d3d12-id3d12device-createcommandallocator). When creating a command list, the command list type of the allocator, specified by [**D3D12\_COMMAND\_LIST\_TYPE**](/windows/win32/api/d3d12/ne-d3d12-d3d12_command_list_type), must match the type of command list being created. A given allocator can be associated with no more than one *currently recording* command list at a time, though one command allocator can be used to create any number of [**GraphicsCommandList**](/windows/win32/api/d3d12/nn-d3d12-id3d12graphicscommandlist) objects.
 
-To reclaim the memory allocated by a command allocator, an app calls [**ID3D12CommandAllocator::Reset**](/windows/win32/api/d3d12/nf-d3d12-id3d12commandallocator-reset). This allows the allocator to be reused for new commmands, but won't reduce its underlying size. But before doing so, the app must make sure that the GPU is no longer executing any command lists which are associated with the allocator; otherwise, the call will fail. Also, note that this API is not free-threaded and therefore can't be called on the same allocator at the same time from multiple threads.
+To reclaim the memory allocated by a command allocator, an app calls [**ID3D12CommandAllocator::Reset**](/windows/win32/api/d3d12/nf-d3d12-id3d12commandallocator-reset). This allows the allocator to be reused for new commands, but won't reduce its underlying size. But before doing so, the app must make sure that the GPU is no longer executing any command lists which are associated with the allocator; otherwise, the call will fail. Also, note that this API is not free-threaded and therefore can't be called on the same allocator at the same time from multiple threads.
 
 ### ID3D12PipelineState
 

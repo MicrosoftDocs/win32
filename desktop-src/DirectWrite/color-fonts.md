@@ -196,7 +196,7 @@ HRESULT DrawGlyphRun(
 
 ### Using color fonts with Win2D
 
-Similar to Direct2D, Win2D s text drawing APIs do not render color glyphs by default. To opt in to color glyph rendering, set the [EnableColorFont](https://microsoft.github.io/Win2D/html/T_Microsoft_Graphics_Canvas_Text_CanvasDrawTextOptions.htm) options flag in the text format object your app passes to the text drawing method. The following code example shows how to render a string in a color font using Win2D:
+Similar to Direct2D, Win2D s text drawing APIs do not render color glyphs by default. To opt in to color glyph rendering, set the [EnableColorFont](https://microsoft.github.io/Win2D/WinUI2/html/T_Microsoft_Graphics_Canvas_Text_CanvasDrawTextOptions.htm) options flag in the text format object your app passes to the text drawing method. The following code example shows how to render a string in a color font using Win2D:
 
 
 ```C++

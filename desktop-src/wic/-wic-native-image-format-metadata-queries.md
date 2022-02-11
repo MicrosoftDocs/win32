@@ -514,32 +514,32 @@ In this example, WIC provides a friendly identifier for the XMP schema which can
 
 | Schema Prefix  | Schema URL                                        | Link to Standard                                         |
 |----------------|---------------------------------------------------|----------------------------------------------------------|
-| rdf            | https://www.w3.org/1999/02/22-rdf-syntax-ns\#      | <https://www.w3.org/TR/REC-rdf-syntax/>                   |
+| rdf            | [https://www.w3.org/1999/02/22-rdf-syntax-ns\#](https://www.w3.org/1999/02/22-rdf-syntax-ns)      | <https://www.w3.org/TR/REC-rdf-syntax/>                   |
 | dc             | https://purl.org/dc/elements/1.1/                  | <https://www.adobe.com/devnet/xmp.html>                   |
-| xmp            | https://ns.adobe.com/xap/1.0/                      | <https://www.adobe.com/devnet/xmp.html>                   |
-| xmpidq         | https://ns.adobe.com/xmp/Identifier/qual/1.0/      | <https://www.adobe.com/devnet/xmp.html>                   |
-| xmpRights      | https://ns.adobe.com/xap/1.0/rights/               | <https://www.adobe.com/devnet/xmp.html>                   |
-| xmpMM          | https://ns.adobe.com/xap/1.0/mm/                   | <https://www.adobe.com/devnet/xmp.html>                   |
-| xmpBJ          | https://ns.adobe.com/xap/1.0/bj/                   | <https://www.adobe.com/devnet/xmp.html>                   |
-| xmpTPg         | https://ns.adobe.com/xap/1.0/t/pg/                 | <https://www.adobe.com/devnet/xmp.html>                   |
-| pdf            | https://ns.adobe.com/pdf/1.3/                      | <https://www.adobe.com/devnet/xmp.html>                   |
-| photoshop      | https://ns.adobe.com/photoshop/1.0/                | <https://www.adobe.com/devnet/xmp.html>                   |
-| tiff           | https://ns.adobe.com/tiff/1.0/                     | <https://www.adobe.com/devnet/xmp.html>                   |
-| exif           | https://ns.adobe.com/exif/1.0/                     | <https://www.adobe.com/devnet/xmp.html>                   |
-| stDim          | https://ns.adobe.com/xap/1.0/sType/Dimensions\#    | <https://www.adobe.com/devnet/xmp.html>                   |
-| xapGImg        | https://ns.adobe.com/xap/1.0/g/img/                | <https://www.adobe.com/devnet/xmp.html>                   |
-| stEvt          | https://ns.adobe.com/xap/1.0/sType/ResourceEvent\# | <https://www.adobe.com/devnet/xmp.html>                   |
-| stRef          | https://ns.adobe.com/xap/1.0/sType/ResourceRef\#   | <https://www.adobe.com/devnet/xmp.html>                   |
-| stVer          | https://ns.adobe.com/xap/1.0/sType/Version\#       | <https://www.adobe.com/devnet/xmp.html>                   |
-| stJob          | https://ns.adobe.com/xap/1.0/sType/Job\#           | <https://www.adobe.com/devnet/xmp.html>                   |
-| aux            | https://ns.adobe.com/exif/1.0/aux/                 | <https://www.adobe.com/devnet/xmp.html>                   |
-| crs            | https://ns.adobe.com/camera-raw-settings/1.0/      | <https://www.adobe.com/devnet/xmp.html>                   |
-| xmpDM          | https://ns.adobe.com/xmp/1.0/DynamicMedia/         | <https://www.adobe.com/devnet/xmp.html>                   |
+| xmp            | [https://ns.adobe.com/xap/1.0/](https://www.adobe.io/xmp/docs/XMPNamespaces/xmp/)                      | <https://www.adobe.com/devnet/xmp.html>                   |
+| xmpidq         | `https://ns.adobe.com/xmp/Identifier/qual/1.0/`      | <https://www.adobe.com/devnet/xmp.html>                   |
+| xmpRights      | [https://ns.adobe.com/xap/1.0/rights/](https://www.adobe.io/xmp/docs/XMPNamespaces/xmpRights/)              | <https://www.adobe.com/devnet/xmp.html>                   |
+| xmpMM          | [https://ns.adobe.com/xap/1.0/mm/](https://www.adobe.io/xmp/docs/XMPNamespaces/xmpMM/)                   | <https://www.adobe.com/devnet/xmp.html>                   |
+| xmpBJ          | [https://ns.adobe.com/xap/1.0/bj/](https://www.adobe.io/xmp/docs/XMPNamespaces/xmpBJ/)                   | <https://www.adobe.com/devnet/xmp.html>                   |
+| xmpTPg         | [https://ns.adobe.com/xap/1.0/t/pg/](https://www.adobe.io/xmp/docs/XMPNamespaces/xmpTPg/)                 | <https://www.adobe.com/devnet/xmp.html>                   |
+| pdf            | [https://ns.adobe.com/pdf/1.3/](https://www.adobe.io/xmp/docs/XMPNamespaces/pdf/)                      | <https://www.adobe.com/devnet/xmp.html>                   |
+| photoshop      | [https://ns.adobe.com/photoshop/1.0/](https://www.adobe.io/xmp/docs/XMPNamespaces/photoshop/)                | <https://www.adobe.com/devnet/xmp.html>                   |
+| tiff           | [https://ns.adobe.com/tiff/1.0/](https://www.adobe.io/xmp/docs/XMPNamespaces/tiff/)                    | <https://www.adobe.com/devnet/xmp.html>                   |
+| exif           | [https://ns.adobe.com/exif/1.0/](https://www.adobe.io/xmp/docs/XMPNamespaces/exif/)                    | <https://www.adobe.com/devnet/xmp.html>                   |
+| stDim          | [https://ns.adobe.com/xap/1.0/sType/Dimensions\#](https://www.adobe.io/xmp/docs/XMPNamespaces/XMPDataTypes/Dimensions/)   | <https://www.adobe.com/devnet/xmp.html>                   |
+| xapGImg        | [https://ns.adobe.com/xap/1.0/g/img/](https://www.adobe.io/xmp/docs/XMPNamespaces/XMPDataTypes/Thumbnails/)               | <https://www.adobe.com/devnet/xmp.html>                   |
+| stEvt          | [https://ns.adobe.com/xap/1.0/sType/ResourceEvent\#](https://www.adobe.io/xmp/docs/XMPNamespaces/XMPDataTypes/ResourceEvent/) | <https://www.adobe.com/devnet/xmp.html>                   |
+| stRef          | [https://ns.adobe.com/xap/1.0/sType/ResourceRef\#](https://www.adobe.io/xmp/docs/XMPNamespaces/XMPDataTypes/ResourceRef/)   | <https://www.adobe.com/devnet/xmp.html>                   |
+| stVer          | [https://ns.adobe.com/xap/1.0/sType/Version\#](https://www.adobe.io/xmp/docs/XMPNamespaces/XMPDataTypes/Version/)       | <https://www.adobe.com/devnet/xmp.html>                   |
+| stJob          | [https://ns.adobe.com/xap/1.0/sType/Job\#](https://www.adobe.io/xmp/docs/XMPNamespaces/XMPDataTypes/Job/)           | <https://www.adobe.com/devnet/xmp.html>                   |
+| aux            | `https://ns.adobe.com/exif/1.0/aux/`                 | <https://www.adobe.com/devnet/xmp.html>                   |
+| crs            | [https://ns.adobe.com/camera-raw-settings/1.0/](https://www.adobe.io/xmp/docs/XMPNamespaces/crs/)      | <https://www.adobe.com/devnet/xmp.html>                   |
+| xmpDM          | [https://ns.adobe.com/xmp/1.0/DynamicMedia/](https://www.adobe.io/xmp/docs/XMPNamespaces/XMPDataTypes/Media/)         | <https://www.adobe.com/devnet/xmp.html>                   |
 | Iptc4xmpCore   | https://iptc.org/std/Iptc4xmpCore/1.0/xmlns/       | <https://www.iptc.org/cms/site/index.html?channel=CH0099> |
-| MicrosoftPhoto | https://ns.microsoft.com/photo/1.0/                | [People Tagging Overview](-wic-people-tagging.md)       |
-| MP             | https://ns.microsoft.com/photo/1.2/                | [People Tagging Overview](-wic-people-tagging.md)       |
-| MPRI           | https://ns.microsoft.com/photo/1.2/t/RegionInfo\#  | [People Tagging Overview](-wic-people-tagging.md)       |
-| MPReg          | https://ns.microsoft.com/photo/1.2/t/Region\#      | [People Tagging Overview](-wic-people-tagging.md)       |
+| MicrosoftPhoto | `https://ns.microsoft.com/photo/1.0/`                | [People Tagging Overview](-wic-people-tagging.md)       |
+| MP             | `https://ns.microsoft.com/photo/1.2/`                | [People Tagging Overview](-wic-people-tagging.md)       |
+| MPRI           | `https://ns.microsoft.com/photo/1.2/t/RegionInfo\#`  | [People Tagging Overview](-wic-people-tagging.md)       |
+| MPReg          | `https://ns.microsoft.com/photo/1.2/t/Region\#`      | [People Tagging Overview](-wic-people-tagging.md)       |
 
 
 

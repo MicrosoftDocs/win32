@@ -81,7 +81,7 @@
       items: 
       - name: "FLASHWINFO"
         href: /windows/desktop/api/Winuser/ns-winuser-flashwinfo
-    - name: "System Error Codes"
+    - name: "Debug system error codes"
       href: system-error-codes.md
       items: 
       - name: "Download and use the Microsoft Error Lookup Tool"

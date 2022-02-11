@@ -25,7 +25,7 @@ CAPICOM 2.0 includes the functionality of CAPICOM 1.0 and adds the following fun
 -   Support for the Advanced Encryption Standard (AES) algorithm
 -   Support for advanced certificate properties, such as Policies and Templates
 
-To determine which methods and properties are supported on the various platforms, consult the reference topics for the CAPICOM objects. The CAPICOM 2.0 redistributable is available from [Platform SDK Redistributable: CAPICOM](https://www.microsoft.com/download/details.aspx?id=25281).
+To determine which methods and properties are supported on the various platforms, consult the reference topics for the CAPICOM objects.
 
  
 

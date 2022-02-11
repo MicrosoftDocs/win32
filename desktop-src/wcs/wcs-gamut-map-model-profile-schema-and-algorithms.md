@@ -18,7 +18,6 @@ keywords:
 - WCS gamut map model profile
 - schemas,gamut map model profile (GMMP)
 - algorithms,gamut map model profile (GMMP)
-ms.localizationpriority: high
 
 
 ms.topic: article

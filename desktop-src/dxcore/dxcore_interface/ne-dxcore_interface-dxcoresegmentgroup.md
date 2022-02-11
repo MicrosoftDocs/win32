@@ -1,7 +1,6 @@
 ---
 title: DXCoreSegmentGroup
 description: Defines constants that specify an adapter's memory segment grouping.
-ms.localizationpriority: low
 ms.topic: reference
 ms.date: 06/20/2019
 ---

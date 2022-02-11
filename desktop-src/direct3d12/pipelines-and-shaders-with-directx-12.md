@@ -2,7 +2,6 @@
 title: Pipelines and Shaders with Direct3D 12
 description: The Direct3D 12 programmable pipeline significantly increases rendering performance compared to previous generation graphics programming interfaces.
 ms.assetid: 329882F5-D2A9-4D6D-AC3B-29F370D22C97
-ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
 ---

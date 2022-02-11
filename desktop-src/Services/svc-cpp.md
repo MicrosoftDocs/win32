@@ -54,7 +54,7 @@ int __cdecl _tmain(int argc, TCHAR *argv[])
     if( lstrcmpi( argv[1], TEXT("install")) == 0 )
     {
         SvcInstall();
-        return;
+        return 0;
     }
 
     // TO_DO: Add any additional services for the process to this table.
@@ -89,7 +89,7 @@ VOID SvcInstall()
     SC_HANDLE schService;
     TCHAR szPath[MAX_PATH];
 
-    if( !GetModuleFileName( "", szPath, MAX_PATH ) )
+    if( !GetModuleFileName( NULL, szPath, MAX_PATH ) )
     {
         printf("Cannot install service (%d)\n", GetLastError());
         return;

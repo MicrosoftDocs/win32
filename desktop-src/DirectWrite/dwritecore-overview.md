@@ -39,7 +39,7 @@ DWriteCore is part of the [Windows App SDK](https://github.com/microsoft/Windows
 
 In Visual Studio, click **Extensions** > **Manage Extensions**, search for *Windows App SDK*, and download the Windows App SDK extension. Close and reopen Visual Studio, and follow the prompts to install the extension.
 
-For more info, see [Get started with the Windows App SDK](/windows/apps/windows-app-sdk/#get-started-with-the-windows-app-sdk) and [Install the Windows App SDK extension for Visual Studio](/windows/apps/windows-app-sdk/set-up-your-development-environment#4-install-the-windows-app-sdk-extension-for-visual-studio).
+For more info, see [Get started with the Windows App SDK](/windows/apps/windows-app-sdk/#get-started-with-the-windows-app-sdk) and [Install the Windows App SDK extension for Visual Studio](/windows/apps/windows-app-sdk/set-up-your-development-environment#4-install-the-windows-app-sdk-extension-for-visual-studio-vsix).
 
 ### Create a new project
 

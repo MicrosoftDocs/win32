@@ -56,6 +56,7 @@ When these subtypes are used, set the [MF\_MT\_MAJOR\_TYPE](mf-mt-major-type-att
 | **MFVideoFormat\_IYUV** | IYUV   | 4:2:0    | Planar           | 8                |
 | **MFVideoFormat\_NV11** | NV11   | 4:1:1    | Planar           | 8                |
 | **MFVideoFormat\_NV12** | NV12   | 4:2:0    | Planar           | 8                |
+| **MFVideoFormat\_NV21** | NV21   | 4:2:0    | Planar           | 8                |
 | **MFVideoFormat\_UYVY** | UYVY   | 4:2:2    | Packed           | 8                |
 | **MFVideoFormat\_Y41P** | Y41P   | 4:1:1    | Packed           | 8                |
 | **MFVideoFormat\_Y41T** | Y41T   | 4:1:1    | Packed           | 8                |

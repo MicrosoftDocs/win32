@@ -19,7 +19,6 @@ keywords:
 - color management,terms
 - colors,terms
 - additive primary colors
-ms.localizationpriority: high
 
 
 ms.topic: article

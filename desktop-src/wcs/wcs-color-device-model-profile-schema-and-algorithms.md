@@ -18,7 +18,6 @@ keywords:
 - color device model profile (CDMP)
 - CDMP (color device model profile)
 - WCS color device model profile
-ms.localizationpriority: high
 
 
 ms.topic: article

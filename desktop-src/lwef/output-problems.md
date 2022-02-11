@@ -47,7 +47,7 @@ What occurred was the Agent-enabled webpage (or application) attempted to reques
 
 Microsoft Agent uses SAPI 4.0 to provide speech services. Windows XP however now ships with SAPI 5.0 which does not provide backward compatibility support for its predecessor. Fortunately, SAPI 4.0 and SAPI 5.0 can co-exist together on the same Windows XP computer.
 
-To make the speech engines work with Microsoft Agent in Windows XP, first install the [SAPI 4.0 runtime binaries](https://activex.microsoft.com/activex/controls/sapi/spchapi.exe), then install the particular speech engines.
+To make the speech engines work with Microsoft Agent in Windows XP, first install the SAPI 4.0 runtime binaries (spchapi.exe), then install the particular speech engines.
 
 ### The speech engines used to work with Microsoft Agent until I upgraded to Windows XP. What happened?
 

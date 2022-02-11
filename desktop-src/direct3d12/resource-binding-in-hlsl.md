@@ -2,7 +2,6 @@
 title: Resource binding in HLSL
 description: This topic describes some specific features of using High Level Shader Language (HLSL) Shader Model 5.1 with Direct3D 12.
 ms.assetid: 3CD4BDAD-8AE3-4DE0-B3F8-9C9F9E83BBE9
-ms.localizationpriority: high
 ms.topic: article
 ms.date: 08/27/2019
 ---

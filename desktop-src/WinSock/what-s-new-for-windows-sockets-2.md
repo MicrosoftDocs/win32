@@ -299,9 +299,9 @@ The following new Windows Sockets function has been added to retrieve the local 
 
 The following are new Windows Sockets Ioctls added to support the Windows Filtering Platform (WFP) redirect service:
 
--   [**SIO\_QUERY\_WFP\_CONNECTION\_REDIRECT\_CONTEXT**](/previous-versions/windows/desktop/legacy/hh859712(v=vs.85))
--   [**SIO\_QUERY\_WFP\_CONNECTION\_REDIRECT\_RECORDS**](/previous-versions/windows/desktop/legacy/hh859713(v=vs.85))
--   [**SIO\_SET\_WFP\_CONNECTION\_REDIRECT\_RECORDS**](/previous-versions/windows/desktop/legacy/hh859714(v=vs.85))
+-   [**SIO_QUERY_WFP_CONNECTION_REDIRECT_CONTEXT**](/windows-hardware/drivers/network/sio-query-wfp-connection-redirect-context)
+-   [**SIO_QUERY_WFP_CONNECTION_REDIRECT_RECORDS**](/windows-hardware/drivers/network/sio-query-wfp-connection-redirect-records)
+-   [**SIO_SET_WFP_CONNECTION_REDIRECT_RECORDS**](/windows/win32/winsock/sio-set-wfp-connection-redirect-records)
 
 The following are new Windows IP socket options added to support the Windows Filtering Platform (WFP) redirect service:
 
@@ -315,13 +315,13 @@ The following are a new Windows Sockets Ioctl and an associated structure added 
 
 The following are a new Windows Sockets Ioctl and an associated structure added to retrieve the association between a socket and an RSS processor core and NUMA node:
 
--   [**SIO\_QUERY\_RSS\_PROCESSOR\_INFO**](/previous-versions/windows/desktop/legacy/jj553482(v=vs.85))
+-   [**SIO_QUERY_RSS_PROCESSOR_INFO**](/windows/win32/winsock/sio-query-rss-processor-info)
 -   [**SOCKET\_PROCESSOR\_AFFINITY**](/windows/desktop/api/Ws2def/ns-ws2def-socket_processor_affinity)
 
 The following new Windows Sockets Ioctls are added to apply and query transport settings on a socket:
 
--   [**SIO\_APPLY\_TRANSPORT\_SETTING**](/previous-versions/windows/desktop/legacy/jj553481(v=vs.85))
--   [**SIO\_QUERY\_TRANSPORT\_SETTING**](/previous-versions/windows/desktop/legacy/jj553483(v=vs.85))
+-   [**SIO_APPLY_TRANSPORT_SETTING**](/windows/win32/winsock/sio-apply-transport-setting)
+-   [**SIO_QUERY_TRANSPORT_SETTING**](/windows/win32/winsock/sio-query-transport-setting)
 
 The only transport setting currently defines is for the **REAL\_TIME\_NOTIFICATION\_CAPABILITY** capability on a TCP socket. The following new structures and enumerations are added to support the **REAL\_TIME\_NOTIFICATION\_CAPABILITY**:
 
@@ -333,7 +333,7 @@ The only transport setting currently defines is for the **REAL\_TIME\_NOTIFICATI
 
 The following new Windows Sockets Ioctl is added to enable a fast path for loopback on a TCP socket. This feature can lower latency and improve performance for applications that use TCP loopback (applications used by the financial service industry, for example).:
 
--   [**SIO\_LOOPBACK\_FAST\_PATH**](/previous-versions/windows/desktop/legacy/jj841212(v=vs.85))
+-   [**SIO_LOOPBACK_FAST_PATH**](/windows-hardware/drivers/network/sio-loopback-fast-path)
 
 An enhancement to support transferring streaming media that require quality of service (Voice over IP, for example).
 
@@ -367,16 +367,16 @@ The following are new Windows Sockets options:
 -   [**IP\_ORIGINAL\_ARRIVAL\_IF**](ipproto-ip-socket-options.md)
 -   [**IP\_ORIGINAL\_ARRIVAL\_IF for IPv6**](ipproto-ipv6-socket-options.md)
 
-Dynamic send buffering for TCP was added on Windows 7 and Windows Server 2008 R2. As a result, the use of the **SIO\_IDEAL\_SEND\_BACKLOG\_CHANGE** and **SIO\_IDEAL\_SEND\_BACKLOG\_QUERY** IOCTLs are needed only in special circumstances. For more information, see [**SIO\_IDEAL\_SEND\_BACKLOG\_QUERY**](/previous-versions/windows/desktop/legacy/bb736549(v=vs.85)).
+Dynamic send buffering for TCP was added on Windows 7 and Windows Server 2008 R2. As a result, the use of the **SIO\_IDEAL\_SEND\_BACKLOG\_CHANGE** and **SIO\_IDEAL\_SEND\_BACKLOG\_QUERY** IOCTLs are needed only in special circumstances. For more information, see [**SIO\_IDEAL\_SEND\_BACKLOG\_QUERY**](/windows/win32/winsock/sio-ideal-send-backlog-query).
 
 ## Updated for Windows Server 2008 and Windows Vista with Service Pack 1 (SP1)
 
-Microsoft Windows Server 2008 and Windows Vista with Service Pack 1 (SP1) introduce new Windows Sockets programming elements.
+Microsoft Windows Server 2008 and Windows Vista with Service Pack 1 (SP1) introduce new Windows Sockets programming elements.
 
 The following are new Windows Sockets Ioctls:
 
--   [**SIO\_IDEAL\_SEND\_BACKLOG\_CHANGE**](/previous-versions/windows/desktop/legacy/bb736548(v=vs.85))
--   [**SIO\_IDEAL\_SEND\_BACKLOG\_QUERY**](/previous-versions/windows/desktop/legacy/bb736549(v=vs.85))
+-   [**SIO_IDEAL_SEND_BACKLOG_CHANGE**](/windows/win32/winsock/sio-ideal-send-backlog-change)
+-   [**SIO_IDEAL_SEND_BACKLOG_QUERY**](/windows/win32/winsock/sio-ideal-send-backlog-query)
 
 These new Ioctls can be used by an application using TCP to determine the ideal value for the amount of data outstanding to send in order to achieve the best throughput for a connection. This is called the ideal send backlog (ISB) size.
 
@@ -465,10 +465,10 @@ Microsoft Windows Vista introduces new Windows Sockets programming elements.
 
 The following are new Windows Sockets Ioctls:
 
--   [**SIO\_ACQUIRE\_PORT\_RESERVATION**](/previous-versions/windows/desktop/legacy/gg699720(v=vs.85))
--   [**SIO\_ASSOCIATE\_PORT\_RESERVATION**](/previous-versions/windows/desktop/legacy/gg699721(v=vs.85))
--   [**SIO\_SET\_COMPATIBILITY\_MODE**](/previous-versions/windows/desktop/legacy/cc136103(v=vs.85))
--   [**SIO\_RELEASE\_PORT\_RESERVATION**](/previous-versions/windows/desktop/legacy/gg699722(v=vs.85))
+-   [**SIO_ACQUIRE_PORT_RESERVATION**](/windows/win32/winsock/sio-acquire-port-reservation)
+-   [**SIO_ASSOCIATE_PORT_RESERVATION**](/windows/win32/winsock/sio-associate-port-reservation)
+-   [**SIO_SET_COMPATIBILITY_MODE**](/windows/win32/winsock/sio-set-compatibility-mode)
+-   [**SIO_RELEASE_PORT_RESERVATION**](/windows/win32/winsock/sio-release-port-reservation)
 
 The following are new Windows Sockets options:
 
@@ -514,7 +514,3 @@ The following are new Windows Sockets structure definitions:
 -   [**SOCKADDR\_STORAGE**](/previous-versions/windows/desktop/legacy/ms740504(v=vs.85))
 -   [**TRANSMIT\_PACKETS\_ELEMENT**](/windows/desktop/api/Mswsock/ns-mswsock-transmit_packets_element)
 -   [**WSAMSG**](/windows/desktop/api/Ws2def/ns-ws2def-wsamsg)
-
- 
-
- 

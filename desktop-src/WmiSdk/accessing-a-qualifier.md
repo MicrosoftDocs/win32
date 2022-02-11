@@ -15,7 +15,7 @@ You can retrieve the qualifiers on a WMI object in PowerShell by first retrievin
 
 **To retrieve a qualifier using PowerShell**
 
--   Retrieve the object whose qualifiers you want to view using [Get-WmiObject](https://technet.microsoft.com/library/dd315379.aspx), and then access the qualifiers through the **Qualifiers** property:
+-   Retrieve the object whose qualifiers you want to view using [Get-WmiObject](/powershell/module/microsoft.powershell.management/get-wmiobject?view=powershell-5.1), and then access the qualifiers through the **Qualifiers** property:
 
     ```PowerShell
     $myDisk = get-wmiObject Win32_LogicalDisk

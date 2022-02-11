@@ -8,7 +8,7 @@
       href: getting-started-with-xinput.md
     - name: "XInput Versions"
       href: xinput-versions.md
-    - name: "XInput and DirectInput"
+    - name: "Comparison of XInput and DirectInput features"
       href: xinput-and-directinput.md
     - name: "DirectInput and XUSB Devices"
       href: directinput-and-xusb-devices.md

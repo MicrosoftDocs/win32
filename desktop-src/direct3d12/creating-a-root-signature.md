@@ -2,7 +2,6 @@
 title: Creating a Root Signature
 description: Root signatures are a complex data structure containing nested structures.
 ms.assetid: 565B28C1-DBD1-42B6-87F9-70743E4A2E4A
-ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -54,7 +53,7 @@ The set of shader registers specified by the combination of `RangeType`, `NumDes
 
 ## Descriptor Table Layout
 
-The [**D3D12\_ROOT\_DESCRIPTOR\_TABLE**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_root_descriptor_table) structure declares the layout of a descriptor table as a collection of descriptor ranges that appear one after the other in a descriptor heap. Samplers are not allowed in the same descriptor table as CBV/UAV/SRVs.
+The [**D3D12\_ROOT\_DESCRIPTOR\_TABLE**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_root_descriptor_table) structure declares the layout of a descriptor table as a collection of descriptor ranges that start at a given offset of a descriptor heap. Samplers are not allowed in the same descriptor table as CBV/UAV/SRVs.
 
 This struct is used when the root signature slot type is set to `D3D12_ROOT_PARAMETER_TYPE_DESCRIPTOR_TABLE`.
 

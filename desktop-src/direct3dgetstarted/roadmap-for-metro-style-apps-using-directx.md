@@ -118,5 +118,5 @@ If you're an old hand with C++ on Windows platforms, things may look a little di
 | [Games for Windows and DirectX blog](https://walbourn.github.io/) | Regularly-updated blog from a key DirectX dev contributor, and an all-around great resource for DirectX devs. |
 | [Windows DirectX developer blog](https://devblogs.microsoft.com/directx/) | The official Windows DirectX blog. |
 | [Shawn Hargreave's DirectX blog](https://www.shawnhargreaves.com/blogindex.html)) | Dev blog from another well-respected Windows DirectX dev contributor. |
-| [DirectX Tool Kit](https://directxtk.codeplex.com/) | CodePlex site for the DirectX Tool Kit (DxTK), which contains a number of helpful support APIs for loading meshes, playing sounds, and other common behaviors. |
-| [DirectXTex texture processing library](https://directxtex.codeplex.com/) | Code plex site for the DirectX Texture Processing Library (DxTEX), which contains support APIs for texture processing and compression/decompression. |
+| [DirectX Tool Kit](https://github.com/microsoft/DirectXTK) | DirectX Tool Kit (DxTK), which contains a number of helpful support APIs for loading meshes, playing sounds, and other common behaviors. |
+| [DirectXTex texture processing library](https://github.com/microsoft/DirectXTex) | DirectX Texture Processing Library (DxTEX), which contains support APIs for texture processing and compression/decompression. |

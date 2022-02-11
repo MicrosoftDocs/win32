@@ -31,7 +31,7 @@ Where **&lt;number&gt;** is sequentially numbered, and **&lt;domainURL&gt;** is 
 
 Another option that does not require access to the Registry is to use the following URL on your webpage(s):
 
-https://toolbar.msn.com/desktop/results.aspx?q=QUERY
+`https://toolbar.msn.com/desktop/results.aspx?q=QUERY`
 
 where **QUERY** is the URL-encoded string the user is searching on, including any [Advanced Query Syntax](-search-2x-wds-aqsreference.md) terms.
 

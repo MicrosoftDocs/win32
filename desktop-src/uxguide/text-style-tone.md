@@ -19,7 +19,7 @@ Tone in writing is the attitude that the writer conveys to the reader. It's not 
 
 ### The Windows tone
 
-Use the Windows tone to inspire confidence by communicating to users on a personal level by being accurate, encouraging, insightful, objective, and user focused. The Windows tone also strives to be light, inspiring, straightforward, and trustworthy.
+Use the Windows tone to inspire confidence by communicating to users on a personal level by being accurate, encouraging, insightful, objective, and user-focused. The Windows tone also strives to be light, inspiring, straightforward, and trustworthy.
 
 Don't use a distracting, condescending, or arrogant tone. Avoid the extremes of the "machine" voice (where the speaker is removed from the language) and the "sales rep" voice (where the writing tries to sell us something, to cajole us, to cheer us up, to gloss over everything as "simple.")
 
@@ -43,8 +43,8 @@ Make sure that your text is accurate, encouraging, insightful, objective, and us
 
 Tone in your program should be:
 
--   **Accurate.** Users should feel reassured that the information is technically accurate. If the information isn't accurate, the user's experience with that specific task is spoiled, and he loses faith in any other assistance he reads from that source.
--   **Encouraging.** Use language that conveys that the software empowers users to do things, rather than allows them to do things. For example, use "you can" rather than "Windows lets you" or "this feature allows you." (Exception: it's okay to use "allow" when referring to features—such as security features—that permit or deny an action.)
+-   **Accurate.** Users should feel reassured that the information is technically accurate. If the information isn't accurate, users' experience with that specific task is spoiled, and they lose faith in any other assistance they read from that source.
+-   **Encouraging.** Use language that conveys that the software empowers users to do things, rather than allowing them to do things. For example, use "you can" rather than "Windows lets you" or "this feature allows you." (Exception: it's okay to use "allow" when referring to features—such as security features—that permit or deny an action.)
 -   **Insightful.** Users should believe that you (and by extension your application) know when a certain task is complicated and that you will guide them through it. At the same time, treat users as intelligent people who happen to need help with a particular problem.
 -   **Objective.** Sometimes users want a richer explanation; often though they just want to know what they need to move on. This requires objectivity—to recognize that the goal (productivity, curiosity, enjoyment) is the user's goal, not the writer's. It also requires that you shed any predisposed notions about the user.
 -   **User-focused.** Write from the user's perspective and preferably from the perspective of what you can do for the user. Users should feel that they will find information that is relevant and accessible to them.
@@ -54,7 +54,7 @@ You can further develop communication with your users by being:
 -   **Light.** A light voice feels easy to deal with and quick to comprehend. It isn't difficult or burdensome, and it avoids straining to be profound or serious.
 -   **Inspiring.** An inspiring voice motivates users, stimulating them to take action. A certain enthusiasm marks this kind of voice, giving it a more engaging personality than the machine-like tone users have often come to expect from their computers.
 -   **Straightforward.** A straightforward voice is candid and open, free from pretense or deceit.
--   **Trustworthy.** A trustworthy voice is worthy of confidence, reliable, accurate, and honest. It only takes only a few inaccuracies to lose the user's trust, but it may take a long time to earn that trust back.
+-   **Trustworthy.** A trustworthy voice is worthy of confidence, reliable, accurate, and honest. It takes only a few inaccuracies to lose the user's trust, but it may take a long time to earn that trust back.
 
 By contrast, be sure to avoid the following tones, which are much more likely to receive a negative reaction:
 
@@ -65,7 +65,7 @@ By contrast, be sure to avoid the following tones, which are much more likely to
 -   **Sales rep tone.** Feels like being asked to buy or try something, with any concerns being glossed over.
 -   **Superior, condescending, or angry tone.** Feels like the software is belittling users, talking down to them, or upset with them. Typically, this tone is very technical, draws unnecessary attention to the user's mistakes, and feels rude.
 -   **Boastful tone.** Feels like the software is bragging about its accomplishments or otherwise drawing too much attention to itself.
--   **Flippant tone.** Feels like users' goals and emotions aren't being taken seriously, or their use of the program is being take for granted.
+-   **Flippant tone.** Feels like users' goals and emotions aren't being taken seriously, or their use of the program is being taken for granted.
 
 ### Use real-world language
 
@@ -95,7 +95,7 @@ By contrast, be sure to avoid the following tones, which are much more likely to
 
     Digital cameras use tiny microchips...
 
--   **Don't invent words or apply new meanings to standard words.** Assume that users are more familiar with a word's established meaning than with a special meaning given it by the technology industry. When an industry term is required, provide an in-context definition. Avoid jargon, but remember that some expressions specific to computer usage—hacker, burn a CD, and so on—are already part of everyday speech.
+-   **Don't invent words or apply new meanings to standard words.** Assume that users are more familiar with a word's established meaning than with a special meaning given to it by the technology industry. When an industry term is required, provide an in-context definition. Avoid jargon, but remember that some expressions specific to computer usage—hacker, burn a CD, and so on—are already part of everyday speech.
 
     **Incorrect:**
 

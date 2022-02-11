@@ -16,17 +16,15 @@ CPU Sets that are reserved can be determined by inspecting the **Allocated** fla
 
 **CPU Set Functions/Enumerations/Structures**
 
--   [**GetProcessDefaultCpuSets**](getprocessdefaultcpusets.md) function
--   [**GetSystemCpuSetInformation**](getsystemcpusetinformation.md) function
--   [**GetThreadSelectedCpuSets**](getthreadselectedcpusets.md) function
--   [**SetProcessDefaultCpuSets**](setprocessdefaultcpusets.md) function
--   [**SetThreadSelectedCpuSets**](setthreadselectedcpusets.md) function
+-   [**GetProcessDefaultCpuSets**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-getprocessdefaultcpusets) function
+-   [**GetProcessDefaultCpuSetMasks**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-getprocessdefaultcpusetmasks) function
+-   [**GetSystemCpuSetInformation**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-getsystemcpusetinformation) function
+-   [**GetThreadSelectedCpuSets**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-getthreadselectedcpusets) function
+-   [**GetThreadSelectedCpuSetMasks**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-getthreadselectedcpusetmasks) function
+-   [**SetProcessDefaultCpuSets**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-setprocessdefaultcpusets) function
+-   [**SetProcessDefaultCpuSetMasks**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-setprocessdefaultcpusetmasks) function
+-   [**SetThreadSelectedCpuSets**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-setthreadselectedcpusets) function
+-   [**SetThreadSelectedCpuSetMasks**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-setthreadselectedcpusetmasks) function
 -   [**CPU\_SET\_INFORMATION\_TYPE**](cpu-set-information-type.md) enumeration
 -   [**SYSTEM\_CPU\_SET\_INFORMATION**](/windows/desktop/api/winnt/ns-winnt-system_cpu_set_information) structure
-
- 
-
- 
-
-
 

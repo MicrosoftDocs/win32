@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 The WMI scripting reference contains definitions for the WMI Scripting API. Use this API if writing applications with Microsoft Visual Basic, Visual Basic for Applications, Visual Basic Scripting Edition (VBScript), or any other scripting language that supports active scripting technologies.
 
 > [!Note]  
-> PowerShell is also available for scripting with WMI. The Get-WMI cmdlet and the three type accelerators (\[wmi\], \[wmiclass\], and \[wmisearcher\]) enable basic administrative access to WMI. For more information, see [Scripting with Windows PowerShell](https://TechNet.Microsoft.Com/library/bb978526.aspx).
+> PowerShell is also available for scripting with WMI. The Get-WMI cmdlet and the three type accelerators (\[wmi\], \[wmiclass\], and \[wmisearcher\]) enable basic administrative access to WMI.
 
  
 

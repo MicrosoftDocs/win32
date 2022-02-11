@@ -3,7 +3,6 @@ title: Capability querying
 description: Your application can discover the level of support for resource binding, and many other features, with a call to ID3D12Device\:\:CheckFeatureSupport.
 ms.assetid: ECBAF8EF-5D91-46D8-9D6E-A7FA4203B9F8
 ms.date: 11/26/2018
-ms.localizationpriority: high
 ms.topic: article
 ---
 

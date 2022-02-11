@@ -1,7 +1,6 @@
 ---
 title: D3D12_DOWNLEVEL_PRESENT_FLAGS enumeration
 description: Flags passed to the ID3D12CommandQueueDownlevel::Present method.
-ms.localizationpriority: low
 ms.topic: reference
 ms.date: 08/29/2019
 topic_type: 

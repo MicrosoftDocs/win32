@@ -2,7 +2,6 @@
 title: Shared Heaps
 description: Sharing is useful for multi-process and multi-adapter architectures.
 ms.assetid: 67C6B1D4-BF76-45A9-BADC-7C9520C900EB
-ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
 ---

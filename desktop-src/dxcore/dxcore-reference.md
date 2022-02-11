@@ -1,7 +1,6 @@
 ---
 title: DXCore reference
 description: This section covers DXCore APIs declared in dxcore.h and dxcore_interface.h.
-ms.localizationpriority: low
 ms.topic: reference
 ms.date: 06/20/2019
 ---

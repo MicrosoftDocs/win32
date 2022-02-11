@@ -16,7 +16,6 @@ keywords:
 - device profiles
 - color conversion
 - device link profiles
-ms.localizationpriority: high
 
 
 ms.topic: article

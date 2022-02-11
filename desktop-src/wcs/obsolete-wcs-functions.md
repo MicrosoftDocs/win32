@@ -17,7 +17,6 @@ keywords:
 - colors,obsolete functions
 - WCS reference,obsolete functions
 - reference for WCS,obsolete functions
-ms.localizationpriority: high
 
 
 ms.topic: article

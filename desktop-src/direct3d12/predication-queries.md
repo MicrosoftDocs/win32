@@ -2,7 +2,6 @@
 title: Predication queries
 description: The D3D12PredicationQueries sample demonstrates occlusion culling using DirectX 12 query heaps and predication. The walkthrough describes the additional code needed to extend the HelloConstBuffer sample to handle predication queries.
 ms.assetid: F61817BB-45BC-4977-BE4A-EE0FDAFBCB57
-ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
 ---

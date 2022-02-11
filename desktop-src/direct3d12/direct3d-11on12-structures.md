@@ -2,7 +2,6 @@
 title: 11on12 Structures
 description: The following structures are declared in d3d11on12.h.
 ms.assetid: 9EB0E780-0000-413C-BA3E-A735B8422BF6
-ms.localizationpriority: low
 ms.topic: article
 ms.date: 05/31/2018
 ---

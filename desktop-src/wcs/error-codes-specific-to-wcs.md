@@ -2,7 +2,6 @@
 title: Error Codes Specific To WCS
 description: The following is a list of error codes that are specifically related to the use of WCS 1.0.
 ms.assetid: c6a0cacc-f83e-4f5c-9002-7718bb2ffb6c
-ms.localizationpriority: high
 
 
 ms.topic: article

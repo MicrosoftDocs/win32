@@ -154,7 +154,7 @@ public void start()
 
 
 
-In order to access Microsoft Agent from a Java applet, you must generate Java classes that you install with the applet. You can use the Visual J++ Java Type Library Wizard, for example, to generate these files. If you plan to host the applet on a webpage, you will need to build a signed Java CAB inclusive of the generated class files that download with the page. The class files are necessary to access the Microsoft Agent Server since it is a COM object, that executes outside of the Java sandbox. To learn more about Trust-Based Security for Java, see <https://www.microsoft.com/java/security>.
+In order to access Microsoft Agent from a Java applet, you must generate Java classes that you install with the applet. You can use the Visual J++ Java Type Library Wizard, for example, to generate these files. If you plan to host the applet on a webpage, you will need to build a signed Java CAB inclusive of the generated class files that download with the page. The class files are necessary to access the Microsoft Agent Server since it is a COM object, that executes outside of the Java sandbox.
 
  
 

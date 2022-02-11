@@ -1332,7 +1332,7 @@ entry in a FAT represents exactly one cluster.
 <td>FatEntry[0]</td>
 <td>0</td>
 <td>4</td>
-<td>This field is mandatory and <a href="#412-fatentry1-field">Section 4.1.2</a> defines its contents.</td>
+<td>This field is mandatory and <a href="#411-fatentry0-field">Section 4.1.1</a> defines its contents.</td>
 </tr>
 <tr class="even">
 <td>FatEntry[1]</td>

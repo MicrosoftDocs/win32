@@ -2,7 +2,6 @@
 description: The object-space direction for the current ray.
 ms.assetid: 
 title: ObjectRayDirection
-ms.localizationpriority: low
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

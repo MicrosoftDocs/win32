@@ -1,7 +1,7 @@
 ---
 description: Used to connect to a network that requires security settings that comply with Federal Information Processing Standards (FIPS) 140-2 standard.
 ms.assetid: 169df4a3-e8b9-4f05-874f-a7eef6658d01
-title: FIPS Profile Sample
+title: FIPS profile sample
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -11,7 +11,7 @@ api_type:
 api_location: 
 ---
 
-# FIPS Profile Sample
+# FIPS profile sample
 
 The FIPS profile sample can be used to connect to a network that requires security settings that comply with Federal Information Processing Standards (FIPS) 140-2 standard. For more information about FIPS, see [**FIPSMode**](wlan-profileschema-fipsmode-authencryption-element.md).
 

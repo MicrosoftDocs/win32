@@ -39,7 +39,7 @@ VML extends HTML and CSS color syntax. When the attribute type of a VML element 
 
 ## Keyword Color Name
 
-HTML 4.0 defines a list of keyword color names. They are aqua, black, blue, fuchsia, gray, green, lime, maroon, navy, olive, purple, red, silver, teal, white, and yellow. The RGB value for these 16 colors are defined in [HTML 4.0 specification](https://www.w3.org/TR/REC-html40/types.mdl#h-6-5) .
+HTML 4.0 defines a list of keyword color names. They are aqua, black, blue, fuchsia, gray, green, lime, maroon, navy, olive, purple, red, silver, teal, white, and yellow. The RGB value for these 16 colors are defined in [HTML 4.0 specification](https://www.w3.org/TR/2018/SPSD-html401-20180327/types.html#h-6.5) .
 
 For example, you can draw a rectangle filled with yellow by specifying `fillcolor="yellow"`, and give it a blue outline by specifying `strokecolor="blue"`, as shown in the following VML representation:
 

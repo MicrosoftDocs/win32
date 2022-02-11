@@ -23,7 +23,6 @@ keywords:
 - red green blue (RGB)
 - RGB (red green blue)
 - RGB Triple
-ms.localizationpriority: high
 
 
 ms.topic: article

@@ -2,7 +2,6 @@
 title: Multi-adapter systems
 description: Describes support in Direct3D 12 for systems that have multiple adapters installed, covering scenarios where your application explicitly targets multiple GPU adapters, and scenarios where drivers implicitly use multiple GPU adapters on behalf of your application.
 ms.assetid: CC4C6594-D48F-40C1-93EE-9F98532BC038
-ms.localizationpriority: high
 ms.topic: article
 ms.date: 09/25/2019
 ---
