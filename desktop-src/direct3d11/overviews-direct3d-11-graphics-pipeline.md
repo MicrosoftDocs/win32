@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 The Direct3D 11 programmable pipeline is designed for generating graphics for realtime gaming applications. This section describes the Direct3D 11 programmable pipeline. The following diagram shows the data flow from input to output through each of the programmable stages.
 
-![diagram of the data flow in the direct3d 11 programmable pipeline](images/d3d11-pipeline-stages.jpg)
+![diagram of the data flow in the direct3d 11 programmable pipeline](images/d3d11-pipeline-stages.jpg) // TODO: alter the text on the image
 
 The graphics pipeline for Microsoft Direct3D 11 supports the same stages as the [Direct3D 10 graphics pipeline](/windows/desktop/direct3d10/d3d10-graphics-programming-guide-pipeline-stages), with additional stages to support advanced features.
 
