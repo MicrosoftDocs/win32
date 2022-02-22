@@ -20,7 +20,7 @@ ms.date: 02/03/2020
 
 # Pen Mask
 
-Values that can appear in the **penMask** field of the [**POINTER_PEN_INFO**](/previous-versions/windows/desktop/api) structure.
+Values that can appear in the **penMask** field of the [**POINTER_PEN_INFO**](/windows/win32/api/winuser/ns-winuser-pointer_pen_info) structure.
 
 <dl> <dt>
 
@@ -45,7 +45,7 @@ Default. None of the optional fields are valid.
 
 
 
-**pressure** of the [**POINTER_PEN_INFO**](/previous-versions/windows/desktop/api) structure is valid.
+**pressure** of the [**POINTER_PEN_INFO**](/windows/win32/api/winuser/ns-winuser-pointer_pen_info) structure is valid.
 
 
 </dt> </dl> </dd> <dt>
@@ -58,7 +58,7 @@ Default. None of the optional fields are valid.
 
 
 
-**rotation** of the [**POINTER_PEN_INFO**](/previous-versions/windows/desktop/api) structure is valid.
+**rotation** of the [**POINTER_PEN_INFO**](/windows/win32/api/winuser/ns-winuser-pointer_pen_info) structure is valid.
 
 
 </dt> </dl> </dd> <dt>
@@ -71,7 +71,7 @@ Default. None of the optional fields are valid.
 
 
 
-**tiltX** of the [**POINTER_PEN_INFO**](/previous-versions/windows/desktop/api) structure is valid.
+**tiltX** of the [**POINTER_PEN_INFO**](/windows/win32/api/winuser/ns-winuser-pointer_pen_info) structure is valid.
 
 
 </dt> </dl> </dd> <dt>
@@ -84,7 +84,7 @@ Default. None of the optional fields are valid.
 
 
 
-**tiltY** of the [**POINTER_PEN_INFO**](/previous-versions/windows/desktop/api) structure is valid.
+**tiltY** of the [**POINTER_PEN_INFO**](/windows/win32/api/winuser/ns-winuser-pointer_pen_info) structure is valid.
 
 
 </dt> </dl> </dd> </dl>
@@ -108,7 +108,7 @@ Default. None of the optional fields are valid.
 [Constants](constants.md)
 </dt> <dt>
 
-[**POINTER_INFO**](/previous-versions/windows/desktop/api)
+[**POINTER_INFO**](/windows/win32/api/winuser/ns-winuser-pointer_info)
 </dt> </dl>
 
  

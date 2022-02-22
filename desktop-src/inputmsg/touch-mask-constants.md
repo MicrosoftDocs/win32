@@ -19,7 +19,7 @@ ms.date: 02/03/2020
 
 # Touch Mask
 
-Values that can appear in the **touchMask** field of the [**POINTER_TOUCH_INFO**](/previous-versions/windows/desktop/api) structure.
+Values that can appear in the **touchMask** field of the [**POINTER_TOUCH_INFO**](/windows/win32/api/winuser/ns-winuser-pointer_touch_info) structure.
 
 <dl> <dt>
 
@@ -44,7 +44,7 @@ Default. None of the optional fields are valid.
 
 
 
-**rcContact** of the [**POINTER_TOUCH_INFO**](/previous-versions/windows/desktop/api) structure is valid.
+**rcContact** of the [**POINTER_TOUCH_INFO**](/windows/win32/api/winuser/ns-winuser-pointer_touch_info) structure is valid.
 
 
 </dt> </dl> </dd> <dt>
@@ -57,7 +57,7 @@ Default. None of the optional fields are valid.
 
 
 
-**orientation** of the [**POINTER_TOUCH_INFO**](/previous-versions/windows/desktop/api) structure is valid.
+**orientation** of the [**POINTER_TOUCH_INFO**](/windows/win32/api/winuser/ns-winuser-pointer_touch_info) structure is valid.
 
 
 </dt> </dl> </dd> <dt>
@@ -70,7 +70,7 @@ Default. None of the optional fields are valid.
 
 
 
-**pressure** of the [**POINTER_TOUCH_INFO**](/previous-versions/windows/desktop/api) structure is valid.
+**pressure** of the [**POINTER_TOUCH_INFO**](/windows/win32/api/winuser/ns-winuser-pointer_touch_info) structure is valid.
 
 
 </dt> </dl> </dd> </dl>
@@ -94,7 +94,7 @@ Default. None of the optional fields are valid.
 [Constants](constants.md)
 </dt> <dt>
 
-[**POINTER_INFO**](/previous-versions/windows/desktop/api)
+[**POINTER_INFO**](/windows/win32/api/winuser/ns-winuser-pointer_info)
 </dt> </dl>
 
  
