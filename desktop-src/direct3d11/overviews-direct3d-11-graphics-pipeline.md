@@ -1,12 +1,12 @@
 ---
-title: Graphics Pipeline
+title: Graphics pipeline
 description: This section describes the Direct3D 11 programmable pipeline.
 ms.assetid: 8e7a6f64-0a2b-4ea5-a6a6-7bfb87e27dcc
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Graphics Pipeline
+# Graphics pipeline
 
 The Direct3D 11 programmable pipeline is designed for generating graphics for realtime gaming applications. This section describes the Direct3D 11 programmable pipeline. The following diagram shows the data flow from input to output through each of the programmable stages.
 
