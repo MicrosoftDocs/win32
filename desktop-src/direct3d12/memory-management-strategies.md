@@ -2,7 +2,6 @@
 title: Memory Management Strategies
 description: A memory manager for Direct3D 12 could get very complicated quickly with all the different tiers of support, for UMA or discrete (non-UMA) adapters, and with a considerable range of architecture differences between GPU adapters.The recommended strategy for Direct3D 12 memory management , described in this section, is \ 0034;classify, budget and stream \ 0034;.
 ms.assetid: BC9894F7-D496-46F2-A5C3-C7CA31FD4BA8
-ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
 ---

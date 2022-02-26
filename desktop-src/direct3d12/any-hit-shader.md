@@ -4,7 +4,6 @@ ms.assetid:
 title: Any Hit Shader
 ms.date: 05/31/2018
 ms.topic: reference
-ms.localizationpriority: low
 topic_type: 
 - APIRef
 - kbSyntax

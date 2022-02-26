@@ -3,7 +3,6 @@ description: Used in an any hit shader to commit the current hit and then stop s
 ms.assetid: 
 title: AcceptHitAndEndSearch function
 ms.date: 05/31/2018
-ms.localizationpriority: low
 ms.topic: reference
 topic_type: 
 - APIRef

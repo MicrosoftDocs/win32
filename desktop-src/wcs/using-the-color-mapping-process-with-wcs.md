@@ -20,7 +20,6 @@ keywords:
 - color management,profiles
 - colors,profiles
 - device profiles
-ms.localizationpriority: high
 
 
 ms.topic: article

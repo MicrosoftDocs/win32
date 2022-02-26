@@ -1,13 +1,13 @@
 ---
-title: Ribbons
-description: Ribbons are the modern way to help users find, understand, and use commands efficiently and directly \ 8212;with a minimum number of clicks, with less need to resort to trial-and-error, and without having to refer to Help.
+title: Windows 7 Ribbons
+description: Windows 7 Ribbons were a way to help users find, understand, and use commands efficiently.
 ms.assetid: 8a4699da-9840-4622-9e94-d6d5c4e7708c
-ms.custom: contperf-fy21q1
+ms.custom: contperf-fy21q1, seo-windows-dev
 ms.topic: article
-ms.date: 10/20/2020
+ms.date: 01/25/2022
 ---
 
-# Ribbons
+# Windows 7 Ribbons
 
 > [!NOTE]
 > This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](/windows/uwp/design/).

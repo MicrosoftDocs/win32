@@ -5,7 +5,7 @@ ms.assetid: 03c486fd-faec-450c-9348-314680eb73cb
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 11/09/2021
-ms.custom: contperf-fy21q3
+ms.custom: contperf-fy21q3, seo-windows-dev
 ---
 
 # Using a domain user account as a service logon account

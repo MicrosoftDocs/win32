@@ -120,7 +120,7 @@ ms.date: 05/31/2018
 
 [**InternetCreateUrl**](/windows/win32/api/Wininet/nf-wininet-internetcreateurla)
 
-[**InternetDeInitializeAutoProxyDll**](/previous-versions/windows/win32/legacy/aa384580(v=vs.85))
+[**InternetDeInitializeAutoProxyDll**](/previous-versions/windows/desktop/legacy/aa384580(v=vs.85))
 
 [**InternetDial**](/windows/win32/api/winineti/nf-winineti-internetdial)
 

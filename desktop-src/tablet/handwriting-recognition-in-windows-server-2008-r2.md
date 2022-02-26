@@ -73,7 +73,7 @@ This section shows how to create a Web application that uses Silverlight to capt
 Before you begin, you must perform the following steps on your Windows Server 2008 R2 server.
 
 - Install Visual Studio 2008.
-- Install [Microsoft Visual Studio 2008 Service Pack 1](https://www.microsoft.com/download/details.aspx?id=10986).
+- Install [Microsoft Visual Studio 2008 Service Pack 1](https://www.microsoft.com/en-us/download/details.aspx?id=13276).
 - Install [Microsoft Silverlight 5 SDK](https://www.microsoft.com/silverlight/).
 
 After you have installed these applications and updates, you are ready to create your server-side recognition Web application.

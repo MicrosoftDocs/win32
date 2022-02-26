@@ -1,7 +1,6 @@
 ---
 title: IDXCoreAdapterList::IsAdapterPreferenceSupported
 description: Determines whether a specified [DXCoreAdapterPreference](./ne-dxcore_interface-dxcoreadapterpreference.md) value is understood by the OS.
-ms.localizationpriority: low
 ms.topic: reference
 ms.date: 09/03/2019
 ---

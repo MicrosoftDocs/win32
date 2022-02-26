@@ -12,7 +12,6 @@ api_location:
 - Icm.h
 api_type:
 - UserDefined
-ms.localizationpriority: high
 
 
 ms.topic: article

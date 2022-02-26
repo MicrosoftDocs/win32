@@ -11,7 +11,7 @@ keywords:
 - clipboard,viewers
 - clipboard,viewer windows
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 02/11/2022
 ---
 
 # Using the Clipboard
@@ -21,27 +21,27 @@ This section has code samples for the following tasks:
 -   [Implementing the Cut, Copy, and Paste Commands](#implementing-the-cut-copy-and-paste-commands)
     -   [Selecting Data](#selecting-data)
     -   [Creating an Edit Menu](#creating-an-edit-menu)
-    -   [Processing the WM\_INITMENUPOPUP Message](#processing-the-wm_initmenupopup-message)
-    -   [Processing the WM\_COMMAND Message](#processing-the-wm_command-message)
+    -   [Processing the `WM_INITMENUPOPUP` Message](#processing-the-wm_initmenupopup-message)
+    -   [Processing the `WM_COMMAND` Message](#processing-the-wm_command-message)
     -   [Copying Information to the Clipboard](#copying-information-to-the-clipboard)
     -   [Pasting Information from the Clipboard](#pasting-information-from-the-clipboard)
     -   [Registering a Clipboard Format](#registering-a-clipboard-format)
-    -   [Processing the WM\_RENDERFORMAT and WM\_RENDERALLFORMATS Messages](#processing-the-wm_renderformat-and-wm_renderallformats-messages)
-    -   [Processing the WM\_DESTROYCLIPBOARD Message](#processing-the-wm_destroyclipboard-message)
+    -   [Processing the `WM_RENDERFORMAT` and `WM_RENDERALLFORMATS` Messages](#processing-the-wm_renderformat-and-wm_renderallformats-messages)
+    -   [Processing the `WM_DESTROYCLIPBOARD` Message](#processing-the-wm_destroyclipboard-message)
     -   [Using the Owner-Display Clipboard Format](#using-the-owner-display-clipboard-format)
 -   [Monitoring Clipboard Contents](#monitoring-clipboard-contents)
 -   [Querying the Clipboard Sequence Number](#querying-the-clipboard-sequence-number)
 -   [Creating a Clipboard Format Listener](#creating-a-clipboard-format-listener)
 -   [Creating a Clipboard Viewer Window](#creating-a-clipboard-viewer-window)
 -   [Adding a Window to the Clipboard Viewer Chain](#adding-a-window-to-the-clipboard-viewer-chain)
-    -   [Processing the WM\_CHANGECBCHAIN Message](#processing-the-wm_changecbchain-message)
+    -   [Processing the `WM_CHANGECBCHAIN` Message](#processing-the-wm_changecbchain-message)
     -   [Removing a Window from the Clipboard Viewer Chain](#removing-a-window-from-the-clipboard-viewer-chain)
-    -   [Processing the WM\_DRAWCLIPBOARD Message](#processing-the-wm_drawclipboard-message)
+    -   [Processing the `WM_DRAWCLIPBOARD` Message](#processing-the-wm_drawclipboard-message)
     -   [Example of a Clipboard Viewer](#example-of-a-clipboard-viewer)
 
 ## Implementing the Cut, Copy, and Paste Commands
 
-This section describes how standard **Cut**, **Copy**, and **Paste** commands are implemented in an application. The example in this section uses these methods to place data on the clipboard using a registered clipboard format, the **CF\_OWNERDISPLAY** format, and the **CF\_TEXT** format. The registered format is used to represent rectangular or elliptical text windows, called labels.
+This section describes how standard **Cut**, **Copy**, and **Paste** commands are implemented in an application. The example in this section uses these methods to place data on the clipboard using a registered clipboard format, the `CF_OWNERDISPLAY` format, and the `CF_TEXT` format. The registered format is used to represent rectangular or elliptical text windows, called labels.
 
 ### Selecting Data
 
@@ -49,27 +49,23 @@ Before information can be copied to the clipboard, the user must select specific
 
 ### Creating an Edit Menu
 
-An application should load an accelerator table containing the standard keyboard accelerators for the **Edit** menu commands. The [**TranslateAccelerator**](/windows/desktop/api/winuser/nf-winuser-translateacceleratora) function must be added to the application's message loop for the accelerators to take effect. For more information about keyboard accelerators, see [Keyboard Accelerators](/windows/desktop/menurc/keyboard-accelerators).
+An application should load an accelerator table containing the standard keyboard accelerators for the **Edit** menu commands. The [`TranslateAccelerator`](/windows/desktop/api/winuser/nf-winuser-translateacceleratora) function must be added to the application's message loop for the accelerators to take effect. For more information about keyboard accelerators, see [Keyboard Accelerators](/windows/desktop/menurc/keyboard-accelerators).
 
-### Processing the WM\_INITMENUPOPUP Message
+### Processing the `WM_INITMENUPOPUP` Message
 
-Not all clipboard commands are available to the user at any given time. An application should process the [**WM\_INITMENUPOPUP**](/windows/desktop/menurc/wm-initmenupopup) message to enable the menu items for available commands and disable unavailable commands.
+Not all clipboard commands are available to the user at any given time. An application should process the [`WM_INITMENUPOPUP`](/windows/desktop/menurc/wm-initmenupopup) message to enable the menu items for available commands and disable unavailable commands.
 
-Following is the [**WM\_INITMENUPOPUP**](/windows/desktop/menurc/wm-initmenupopup) case for an application named Label.
+Following is the [`WM_INITMENUPOPUP`](/windows/desktop/menurc/wm-initmenupopup) case for an application named Label.
 
-
-```
+```cpp
 case WM_INITMENUPOPUP:
     InitMenu((HMENU) wParam);
     break;
 ```
 
+The `InitMenu` function is defined as follows.
 
-
-The InitMenu function is defined as follows.
-
-
-```
+```cpp
 void WINAPI InitMenu(HMENU hmenu) 
 { 
     int  cMenuItems = GetMenuItemCount(hmenu); 
@@ -121,14 +117,11 @@ void WINAPI InitMenu(HMENU hmenu)
 }
 ```
 
+### Processing the `WM_COMMAND` Message
 
+To process menu commands, add the [`WM_COMMAND`](/windows/desktop/menurc/wm-command) case to your application's main window procedure. Following is the `WM_COMMAND` case for the Label application's window procedure.
 
-### Processing the WM\_COMMAND Message
-
-To process menu commands, add the [**WM\_COMMAND**](/windows/desktop/menurc/wm-command) case to your application's main window procedure. Following is the **WM\_COMMAND** case for the Label application's window procedure.
-
-
-```
+```cpp
 case WM_COMMAND: 
     switch (LOWORD(wParam)) 
     { 
@@ -155,23 +148,20 @@ case WM_COMMAND:
     break; 
 ```
 
-
-
-To carry out the **Copy** and **Cut** commands, the window procedure calls the application-defined EditCopy function. For more information, see [Copying Information to the Clipboard](#copying-information-to-the-clipboard). To carry out the **Paste** command, the window procedure calls the application-defined EditPaste function. For more information about the EditPaste function, see [Pasting Information from the Clipboard](#pasting-information-from-the-clipboard).
+To carry out the **Copy** and **Cut** commands, the window procedure calls the application-defined `EditCopy` function. For more information, see [Copying Information to the Clipboard](#copying-information-to-the-clipboard). To carry out the **Paste** command, the window procedure calls the application-defined `EditPaste` function. For more information about the `EditPaste` function, see [Pasting Information from the Clipboard](#pasting-information-from-the-clipboard).
 
 ### Copying Information to the Clipboard
 
 In the Label application, the application-defined EditCopy function copies the current selection to the clipboard. This function does the following:
 
-1.  Opens the clipboard by calling the [**OpenClipboard**](/windows/desktop/api/Winuser/nf-winuser-openclipboard) function.
-2.  Empties the clipboard by calling the [**EmptyClipboard**](/windows/desktop/api/Winuser/nf-winuser-emptyclipboard) function.
-3.  Calls the [**SetClipboardData**](/windows/desktop/api/Winuser/nf-winuser-setclipboarddata) function once for each clipboard format the application provides.
-4.  Closes the clipboard by calling the [**CloseClipboard**](/windows/desktop/api/Winuser/nf-winuser-closeclipboard) function.
+1.  Opens the clipboard by calling the [`OpenClipboard`](/windows/desktop/api/Winuser/nf-winuser-openclipboard) function.
+2.  Empties the clipboard by calling the [`EmptyClipboard`](/windows/desktop/api/Winuser/nf-winuser-emptyclipboard) function.
+3.  Calls the [`SetClipboardData`](/windows/desktop/api/Winuser/nf-winuser-setclipboarddata) function once for each clipboard format the application provides.
+4.  Closes the clipboard by calling the [`CloseClipboard`](/windows/desktop/api/Winuser/nf-winuser-closeclipboard) function.
 
-Depending on the current selection, the EditCopy function either copies a range of text or copies an application-defined structure representing an entire label. The structure, called LABELBOX, is defined as follows.
+Depending on the current selection, the EditCopy function either copies a range of text or copies an application-defined structure representing an entire label. The structure, called `LABELBOX`, is defined as follows.
 
-
-```
+```cpp
 #define BOX_ELLIPSE  0 
 #define BOX_RECT     1 
  
@@ -192,12 +182,9 @@ typedef struct tagLABELBOX {  // box
 } LABELBOX, *PLABELBOX;
 ```
 
+Following is the `EditCopy` function.
 
-
-Following is the EditCopy function.
-
-
-```
+```cpp
 BOOL WINAPI EditCopy(VOID) 
 { 
     PLABELBOX pbox; 
@@ -302,27 +289,21 @@ BOOL WINAPI EditCopy(VOID)
 }
 ```
 
-
-
 ### Pasting Information from the Clipboard
 
-In the Label application, the application-defined EditPaste function pastes the content of the clipboard. This function does the following:
+In the Label application, the application-defined `EditPaste` function pastes the content of the clipboard. This function does the following:
 
-1.  Opens the clipboard by calling the [**OpenClipboard**](/windows/desktop/api/Winuser/nf-winuser-openclipboard) function.
-2.  Determines which of the available clipboard formats to retrieve.
-3.  Retrieves the handle to the data in the selected format by calling the [**GetClipboardData**](/windows/desktop/api/Winuser/nf-winuser-getclipboarddata) function.
-4.  Inserts a copy of the data into the document.
+1. Opens the clipboard by calling the [`OpenClipboard`](/windows/desktop/api/Winuser/nf-winuser-openclipboard) function.
+2. Determines which of the available clipboard formats to retrieve.
+3. Retrieves the handle to the data in the selected format by calling the [`GetClipboardData`](/windows/desktop/api/Winuser/nf-winuser-getclipboarddata) function.
+4. Inserts a copy of the data into the document. The handle returned by [`GetClipboardData`](/windows/desktop/api/Winuser/nf-winuser-getclipboarddata) is still owned by the clipboard, so an application must not free it or leave it locked.
+5. Closes the clipboard by calling the [`CloseClipboard`](/windows/desktop/api/Winuser/nf-winuser-closeclipboard) function.
 
-    The handle returned by [**GetClipboardData**](/windows/desktop/api/Winuser/nf-winuser-getclipboarddata) is still owned by the clipboard, so an application must not free it or leave it locked.
+If a label is selected and contains an insertion point, the EditPaste function inserts the text from the clipboard at the insertion point. If there is no selection or if a label is selected, the function creates a new label, using the application-defined `LABELBOX` structure on the clipboard. The `LABELBOX` structure is placed on the clipboard by using a registered clipboard format.
 
-5.  Closes the clipboard by calling the [**CloseClipboard**](/windows/desktop/api/Winuser/nf-winuser-closeclipboard) function.
+The structure, called `LABELBOX`, is defined as follows.
 
-If a label is selected and contains an insertion point, the EditPaste function inserts the text from the clipboard at the insertion point. If there is no selection or if a label is selected, the function creates a new label, using the application-defined LABELBOX structure on the clipboard. The LABELBOX structure is placed on the clipboard by using a registered clipboard format.
-
-The structure, called LABELBOX, is defined as follows.
-
-
-```
+```cpp
 #define BOX_ELLIPSE  0 
 #define BOX_RECT     1 
  
@@ -343,12 +324,9 @@ typedef struct tagLABELBOX {  // box
 } LABELBOX, *PLABELBOX;
 ```
 
+Following is the `EditPaste` function.
 
-
-Following is the EditPaste function.
-
-
-```
+```cpp
 VOID WINAPI EditPaste(VOID) 
 { 
     PLABELBOX pbox; 
@@ -426,14 +404,11 @@ VOID WINAPI EditPaste(VOID)
 }
 ```
 
-
-
 ### Registering a Clipboard Format
 
-To register a clipboard format, add a call to the [**RegisterClipboardFormat**](/windows/desktop/api/Winuser/nf-winuser-registerclipboardformata) function to your application's instance initialization function, as follows.
+To register a clipboard format, add a call to the [`RegisterClipboardFormat`](/windows/desktop/api/Winuser/nf-winuser-registerclipboardformata) function to your application's instance initialization function, as follows.
 
-
-```
+```cpp
 // Register a clipboard format. 
  
 // We assume that atchTemp can contain the format name and
@@ -446,20 +421,17 @@ if (uLabelFormat == 0)
     return FALSE;
 ```
 
+### Processing the `WM_RENDERFORMAT` and `WM_RENDERALLFORMATS` Messages
 
+If a window passes a `NULL` handle to the [`SetClipboardData`](/windows/desktop/api/Winuser/nf-winuser-setclipboarddata) function, it must process the [`WM_RENDERFORMAT`](wm-renderformat.md) and [`WM_RENDERALLFORMATS`](wm-renderallformats.md) messages to render data upon request.
 
-### Processing the WM\_RENDERFORMAT and WM\_RENDERALLFORMATS Messages
+If a window delays rendering a specific format and then another application requests data in that format, then a [`WM_RENDERFORMAT`](wm-renderformat.md) message is sent to the window. In addition, if a window delays rendering one or more formats, and if some of those formats remain unrendered when the window is about to be destroyed, then a [`WM_RENDERALLFORMATS`](wm-renderallformats.md) message is sent to the window before its destruction.
 
-If a window passes a **NULL** handle to the [**SetClipboardData**](/windows/desktop/api/Winuser/nf-winuser-setclipboarddata) function, it must process the [**WM\_RENDERFORMAT**](wm-renderformat.md) and [**WM\_RENDERALLFORMATS**](wm-renderallformats.md) messages to render data upon request.
+To render a clipboard format, the window procedure should place a non-`NULL` data handle on the clipboard using the [`SetClipboardData`](/windows/desktop/api/Winuser/nf-winuser-setclipboarddata) function. If the window procedure is rendering a format in response to the [`WM_RENDERFORMAT`](wm-renderformat.md) message, it must not open the clipboard before calling `SetClipboardData`. But if it is rendering one or more formats in response to the [`WM_RENDERALLFORMATS`](wm-renderallformats.md) message, it must open the clipboard and check that the window still owns the clipboard before calling `SetClipboardData`, and it must close the clipboard before returning.
 
-If a window delays rendering a specific format and then another application requests data in that format, then a [**WM\_RENDERFORMAT**](wm-renderformat.md) message is sent to the window. In addition, if a window delays rendering one or more formats, and if some of those formats remain unrendered when the window is about to be destroyed, then a [**WM\_RENDERALLFORMATS**](wm-renderallformats.md) message is sent to the window before its destruction.
+The Label application processes the [`WM_RENDERFORMAT`](wm-renderformat.md) and [`WM_RENDERALLFORMATS`](wm-renderallformats.md) messages as follows.
 
-To render a clipboard format, the window procedure should place a non-**NULL** data handle on the clipboard using the [**SetClipboardData**](/windows/desktop/api/Winuser/nf-winuser-setclipboarddata) function. If the window procedure is rendering a format in response to the [**WM\_RENDERFORMAT**](wm-renderformat.md) message, it must not open the clipboard before calling **SetClipboardData**. But if it is rendering one or more formats in response to the [**WM\_RENDERALLFORMATS**](wm-renderallformats.md) message, it must open the clipboard and check that the window still owns the clipboard before calling **SetClipboardData**, and it must close the clipboard before returning.
-
-The Label application processes the [**WM\_RENDERFORMAT**](wm-renderformat.md) and [**WM\_RENDERALLFORMATS**](wm-renderallformats.md) messages as follows.
-
-
-```
+```cpp
 case WM_RENDERFORMAT: 
     RenderFormat((UINT) wParam); 
     break; 
@@ -477,14 +449,12 @@ case WM_RENDERALLFORMATS:
     break;
 ```
 
+In both cases, the window procedure calls the application-defined `RenderFormat` function, defined as follows.
+
+The structure, called `LABELBOX`, is defined as follows.
 
 
-In both cases, the window procedure calls the application-defined RenderFormat function, defined as follows.
-
-The structure, called LABELBOX, is defined as follows.
-
-
-```
+```cpp
 #define BOX_ELLIPSE  0 
 #define BOX_RECT     1 
  
@@ -505,10 +475,7 @@ typedef struct tagLABELBOX {  // box
 } LABELBOX, *PLABELBOX;
 ```
 
-
-
-
-```
+```cpp
 void WINAPI RenderFormat(UINT uFormat) 
 { 
     HGLOBAL hglb; 
@@ -555,14 +522,11 @@ void WINAPI RenderFormat(UINT uFormat)
 }
 ```
 
+### Processing the `WM_DESTROYCLIPBOARD` Message
 
+A window can process the [`WM_DESTROYCLIPBOARD`](wm-destroyclipboard.md) message in order to free any resources that it set aside to support delayed rendering. For example the Label application, when copying a label to the clipboard, allocates a local memory object. It then frees this object in response to the `WM_DESTROYCLIPBOARD` message, as follows.
 
-### Processing the WM\_DESTROYCLIPBOARD Message
-
-A window can process the [**WM\_DESTROYCLIPBOARD**](wm-destroyclipboard.md) message in order to free any resources that it set aside to support delayed rendering. For example the Label application, when copying a label to the clipboard, allocates a local memory object. It then frees this object in response to the **WM\_DESTROYCLIPBOARD** message, as follows.
-
-
-```
+```cpp
 case WM_DESTROYCLIPBOARD: 
     if (pboxLocalClip != NULL) 
     { 
@@ -572,26 +536,18 @@ case WM_DESTROYCLIPBOARD:
     break;
 ```
 
-
-
 ### Using the Owner-Display Clipboard Format
 
-If a window places information on the clipboard by using the **CF\_OWNERDISPLAY** clipboard format, it must do the following:
+If a window places information on the clipboard by using the `CF_OWNERDISPLAY` clipboard format, it must do the following:
 
--   Process the [**WM\_PAINTCLIPBOARD**](wm-paintclipboard.md) message. This message is sent to the clipboard owner when a portion of the clipboard viewer window must be repainted.
-
--   Process the [**WM\_SIZECLIPBOARD**](wm-sizeclipboard.md) message. This message is sent to the clipboard owner when the clipboard viewer window has been resized or its content has changed.
-
-    Typically, a window responds to this message by setting the scroll positions and ranges for the clipboard viewer window. In response to this message, the Label application also updates a [**SIZE**](/previous-versions//dd145106(v=vs.85)) structure for the clipboard viewer window.
-
--   Process the [**WM\_HSCROLLCLIPBOARD**](wm-hscrollclipboard.md) and [**WM\_VSCROLLCLIPBOARD**](wm-vscrollclipboard.md) messages. These messages are sent to the clipboard owner when a scroll bar event occurs in the clipboard viewer window.
-
--   Process the [**WM\_ASKCBFORMATNAME**](wm-askcbformatname.md) message. The clipboard viewer window sends this message to an application to retrieve the name of the owner-display format.
+- Process the [`WM_PAINTCLIPBOARD`](wm-paintclipboard.md) message. This message is sent to the clipboard owner when a portion of the clipboard viewer window must be repainted.
+- Process the [`WM_SIZECLIPBOARD`](wm-sizeclipboard.md) message. This message is sent to the clipboard owner when the clipboard viewer window has been resized or its content has changed. Typically, a window responds to this message by setting the scroll positions and ranges for the clipboard viewer window. In response to this message, the Label application also updates a [`SIZE`](/previous-versions//dd145106(v=vs.85)) structure for the clipboard viewer window.
+- Process the [`WM_HSCROLLCLIPBOARD`](wm-hscrollclipboard.md) and [`WM_VSCROLLCLIPBOARD`](wm-vscrollclipboard.md) messages. These messages are sent to the clipboard owner when a scroll bar event occurs in the clipboard viewer window.
+- Process the [`WM_ASKCBFORMATNAME`](wm-askcbformatname.md) message. The clipboard viewer window sends this message to an application to retrieve the name of the owner-display format.
 
 The window procedure for the Label application processes these messages, as follows.
 
-
-```
+```cpp
 LRESULT CALLBACK MainWindowProc(hwnd, msg, wParam, lParam) 
 HWND hwnd; 
 UINT msg; 
@@ -668,39 +624,36 @@ LPARAM lParam;
 }
 ```
 
-
-
 ## Monitoring Clipboard Contents
 
 There are three ways of monitoring changes to the clipboard. The oldest method is to create a clipboard viewer window. Windows 2000 added the ability to query the clipboard sequence number, and Windows Vista added support for clipboard format listeners. Clipboard viewer windows are supported for backward compatibility with earlier versions of Windows. New programs should use clipboard format listeners or the clipboard sequence number.
 
 ## Querying the Clipboard Sequence Number
 
-Each time the contents of the clipboard change, a 32-bit value known as the clipboard sequence number is incremented. A program can retrieve the current clipboard sequence number by calling the [**GetClipboardSequenceNumber**](/windows/desktop/api/Winuser/nf-winuser-getclipboardsequencenumber) function. By comparing the value returned against a value returned by a previous call to **GetClipboardSequenceNumber**, a program can determine whether the clipboard contents have changed. This method is more suitable to programs which cache results based on the current clipboard contents and need to know whether the calculations are still valid before using the results from that cache. Note that this is a not a notification method and should not be used in a polling loop. To be notified when clipboard contents change, use a clipboard format listener or a clipboard viewer.
+Each time the contents of the clipboard change, a 32-bit value known as the clipboard sequence number is incremented. A program can retrieve the current clipboard sequence number by calling the [`GetClipboardSequenceNumber`](/windows/desktop/api/Winuser/nf-winuser-getclipboardsequencenumber) function. By comparing the value returned against a value returned by a previous call to `GetClipboardSequenceNumber`, a program can determine whether the clipboard contents have changed. This method is more suitable to programs which cache results based on the current clipboard contents and need to know whether the calculations are still valid before using the results from that cache. Note that this is a not a notification method and should not be used in a polling loop. To be notified when clipboard contents change, use a clipboard format listener or a clipboard viewer.
 
 ## Creating a Clipboard Format Listener
 
 A clipboard format listener is a window which has registered to be notified when the contents of the clipboard has changed. This method is recommended over creating a clipboard viewer window because it is simpler to implement and avoids problems if programs fail to maintain the clipboard viewer chain properly or if a window in the clipboard viewer chain stops responding to messages.
 
-A window registers as a clipboard format listener by calling the [**AddClipboardFormatListener**](/windows/desktop/api/Winuser/nf-winuser-addclipboardformatlistener) function. When the contents of the clipboard change, the window is posted a [**WM\_CLIPBOARDUPDATE**](wm-clipboardupdate.md) message. The registration remains valid until the window unregister itself by calling the [**RemoveClipboardFormatListener**](/windows/desktop/api/Winuser/nf-winuser-removeclipboardformatlistener) function.
+A window registers as a clipboard format listener by calling the [`AddClipboardFormatListener`](/windows/desktop/api/Winuser/nf-winuser-addclipboardformatlistener) function. When the contents of the clipboard change, the window is posted a [`WM_CLIPBOARDUPDATE`](wm-clipboardupdate.md) message. The registration remains valid until the window unregister itself by calling the [`RemoveClipboardFormatListener`](/windows/desktop/api/Winuser/nf-winuser-removeclipboardformatlistener) function.
 
 ## Creating a Clipboard Viewer Window
 
 A clipboard viewer window displays the current content of the clipboard, and receives messages when the clipboard content changes. To create a clipboard viewer window, your application must do the following:
 
 -   Add the window to the clipboard viewer chain.
--   Process the [**WM\_CHANGECBCHAIN**](wm-changecbchain.md) message.
--   Process the [**WM\_DRAWCLIPBOARD**](wm-drawclipboard.md) message.
+-   Process the [`WM_CHANGECBCHAIN`](wm-changecbchain.md) message.
+-   Process the [`WM_DRAWCLIPBOARD`](wm-drawclipboard.md) message.
 -   Remove the window from the clipboard viewer chain before it is destroyed.
 
 ## Adding a Window to the Clipboard Viewer Chain
 
-A window adds itself to the clipboard viewer chain by calling the [**SetClipboardViewer**](/windows/desktop/api/Winuser/nf-winuser-setclipboardviewer) function. The return value is the handle to the next window in the chain. A window must keep track of this value — for example, by saving it in a static variable named *hwndNextViewer*.
+A window adds itself to the clipboard viewer chain by calling the [`SetClipboardViewer`](/windows/desktop/api/Winuser/nf-winuser-setclipboardviewer) function. The return value is the handle to the next window in the chain. A window must keep track of this value — for example, by saving it in a static variable named `hwndNextViewer`.
 
-The following example adds a window to the clipboard viewer chain in response to the [**WM\_CREATE**](/windows/desktop/winmsg/wm-create) message.
+The following example adds a window to the clipboard viewer chain in response to the [`WM_CREATE`](/windows/desktop/winmsg/wm-create) message.
 
-
-```
+```cpp
 case WM_CREATE: 
  
     // Add the window to the clipboard viewer chain. 
@@ -709,23 +662,20 @@ case WM_CREATE:
     break;
 ```
 
-
-
 Code snippets are shown for the following tasks:
 
--   [Processing the WM\_CHANGECBCHAIN Message](/windows)
+-   [Processing the `WM_CHANGECBCHAIN` Message](/windows)
 -   [Removing a Window from the Clipboard Viewer Chain](#removing-a-window-from-the-clipboard-viewer-chain)
--   [Processing the WM\_DRAWCLIPBOARD Message](/windows)
+-   [Processing the `WM_DRAWCLIPBOARD` Message](/windows)
 -   [Example of a Clipboard Viewer](#example-of-a-clipboard-viewer)
 
-### Processing the WM\_CHANGECBCHAIN Message
+### Processing the `WM_CHANGECBCHAIN` Message
 
-A clipboard viewer window receives the [**WM\_CHANGECBCHAIN**](wm-changecbchain.md) message when another window is removing itself from the clipboard viewer chain. If the window being removed is the next window in the chain, the window receiving the message must unlink the next window from the chain. Otherwise, this message should be passed to the next window in the chain.
+A clipboard viewer window receives the [`WM_CHANGECBCHAIN`](wm-changecbchain.md) message when another window is removing itself from the clipboard viewer chain. If the window being removed is the next window in the chain, the window receiving the message must unlink the next window from the chain. Otherwise, this message should be passed to the next window in the chain.
 
-The following example shows the processing of the [**WM\_CHANGECBCHAIN**](wm-changecbchain.md) message.
+The following example shows the processing of the [`WM_CHANGECBCHAIN`](wm-changecbchain.md) message.
 
-
-```
+```cpp
 case WM_CHANGECBCHAIN: 
  
     // If the next window is closing, repair the chain. 
@@ -741,38 +691,32 @@ case WM_CHANGECBCHAIN:
     break;
 ```
 
-
-
 ### Removing a Window from the Clipboard Viewer Chain
 
-To remove itself from the clipboard viewer chain, a window calls the [**ChangeClipboardChain**](/windows/desktop/api/Winuser/nf-winuser-changeclipboardchain) function. The following example removes a window from the clipboard viewer chain in response to the [**WM\_DESTROY**](/windows/desktop/winmsg/wm-destroy) message.
+To remove itself from the clipboard viewer chain, a window calls the [`ChangeClipboardChain`](/windows/desktop/api/Winuser/nf-winuser-changeclipboardchain) function. The following example removes a window from the clipboard viewer chain in response to the [`WM_DESTROY`](/windows/desktop/winmsg/wm-destroy) message.
 
-
-```
+```cpp
 case WM_DESTROY: 
     ChangeClipboardChain(hwnd, hwndNextViewer); 
     PostQuitMessage(0); 
     break;
 ```
 
+### Processing the `WM_DRAWCLIPBOARD` Message
 
-
-### Processing the WM\_DRAWCLIPBOARD Message
-
-The [**WM\_DRAWCLIPBOARD**](wm-drawclipboard.md) message notifies a clipboard viewer window that the content of the clipboard has changed. A window should do the following when processing the **WM\_DRAWCLIPBOARD** message:
+The [`WM_DRAWCLIPBOARD`](wm-drawclipboard.md) message notifies a clipboard viewer window that the content of the clipboard has changed. A window should do the following when processing the `WM_DRAWCLIPBOARD` message:
 
 1.  Determine which of the available clipboard formats to display.
-2.  Retrieve the clipboard data and display it in the window. Or if the clipboard format is **CF\_OWNERDISPLAY**, send a [**WM\_PAINTCLIPBOARD**](wm-paintclipboard.md) message to the clipboard owner.
+2.  Retrieve the clipboard data and display it in the window. Or if the clipboard format is `CF_OWNERDISPLAY`, send a [`WM_PAINTCLIPBOARD`](wm-paintclipboard.md) message to the clipboard owner.
 3.  Send the message to the next window in the clipboard viewer chain.
 
-For an example of processing the [**WM\_DRAWCLIPBOARD**](wm-drawclipboard.md) message, see the example listing in [Example of a Clipboard Viewer](#example-of-a-clipboard-viewer).
+For an example of processing the [`WM_DRAWCLIPBOARD`](wm-drawclipboard.md) message, see the example listing in [Example of a Clipboard Viewer](#example-of-a-clipboard-viewer).
 
 ### Example of a Clipboard Viewer
 
 The following example shows a simple clipboard viewer application.
 
-
-```
+```cpp
 HINSTANCE hinst; 
 UINT uFormat = (UINT)(-1); 
 BOOL fAuto = TRUE; 
@@ -1072,9 +1016,3 @@ BOOL WINAPI IsDisplayableFormat(UINT uFormat)
     return FALSE; 
 } 
 ```
-
-
-
- 
-
- 

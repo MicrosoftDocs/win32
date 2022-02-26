@@ -2,7 +2,6 @@
 title: Shader Specified Stencil Reference Value (Direct3D 12 Graphics)
 description: Learn about Stencil Reference Value in Direct3D 12 Graphics. Enabling pixel shaders to use Stencil Reference Value enables fine control over stencil operations.
 ms.assetid: F58B1930-F12E-4FA4-A15C-A3C2B8705033
-ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
 ---

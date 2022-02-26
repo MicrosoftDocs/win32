@@ -11,7 +11,6 @@ keywords:
 - transform creation
 - WCS transform creation
 - algorithms,transform creation
-ms.localizationpriority: high
 
 
 ms.topic: article

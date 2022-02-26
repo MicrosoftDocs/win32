@@ -10,7 +10,6 @@ keywords:
 - colors,graphics device interface (GDI)
 - graphics device interface (GDI)
 - GDI (graphics device interface)
-ms.localizationpriority: high
 
 
 ms.topic: article

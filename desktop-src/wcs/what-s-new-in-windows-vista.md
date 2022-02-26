@@ -16,7 +16,6 @@ keywords:
 - Image Color Management (ICM)
 - ICM (Image Color Management)
 - Windows Vista color management
-ms.localizationpriority: high
 
 
 ms.topic: article

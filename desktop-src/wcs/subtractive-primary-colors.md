@@ -10,7 +10,6 @@ keywords:
 - colors,subtractive primary
 - subtractive primary colors
 - primary colors
-ms.localizationpriority: high
 
 
 ms.topic: article

@@ -39,7 +39,7 @@ For example, the following query finds everyone except Andy.
 
 
 
-The following query finds all members of the someone alias at www.fabrikam.com.
+The following query finds all members of the someone alias at `www.fabrikam.com`.
 
 
 ```C++

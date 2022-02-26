@@ -12,7 +12,6 @@ keywords:
 - additive primary colors
 - subtractive primary colors
 - primary colors
-ms.localizationpriority: high
 
 
 ms.topic: article

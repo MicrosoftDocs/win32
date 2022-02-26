@@ -12,7 +12,6 @@ api_name:
 - ID3D12Heap.GetDesc
 api_type:
 - COM
-ms.localizationpriority: low
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: 

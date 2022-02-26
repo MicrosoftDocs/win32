@@ -2,7 +2,6 @@
 title: Root Signatures Overview
 description: A root signature is configured by the app and links command lists to the resources the shaders require.
 ms.assetid: 2E649DA2-6CAC-4C2A-A420-D4EC0DD6EA73
-ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
 ---

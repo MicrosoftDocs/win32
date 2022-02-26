@@ -4,6 +4,7 @@ description: An object is a data structure that represents a system resource, su
 ms.assetid: '26aaad09-c1e1-46e8-9cd3-7d795a10d900'
 ms.topic: article
 ms.date: 11/09/2021
+ms.custom: seo-windows-dev
 ---
 
 # Handles and objects

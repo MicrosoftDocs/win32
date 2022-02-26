@@ -27,7 +27,7 @@ The following topics describe how to perform certain tasks related to icons:
 To use an icon, your application must get a handle to the icon. The following example shows how to create two different icon handles: one for the standard question icon and one for a custom icon included as a resource in the application's resource-definition file.
 
 
-```
+```cpp
 HICON hIcon1;   // icon handle 
 HICON hIcon2;   // icon handle 
  
@@ -48,7 +48,7 @@ hIcon2 = LoadIcon(hinst, MAKEINTRESOURCE(460));
 An application should implement custom icons as resources and should use the [**LoadIcon**](/windows/desktop/api/Winuser/nf-winuser-loadicona) or [**LoadImage**](/windows/desktop/api/Winuser/nf-winuser-loadimagea) function, rather than create the icons at run-time. This approach avoids device dependence, simplifies localization, and enables applications to share icon bitmaps. However, the following example uses [**CreateIcon**](/windows/desktop/api/Winuser/nf-winuser-createicon) to create a custom icon at run-time, based on bitmap bitmasks; it is included to illustrate how the system interprets icon bitmap bitmasks.
 
 
-```
+```cpp
 HICON hIcon3;      // icon handle 
  
 // Yang icon AND bitmask 
@@ -169,7 +169,7 @@ Before closing, your application must use [**DestroyIcon**](/windows/desktop/api
 Your application can load and create icons to display in the application's client area or child windows. The following example demonstrates how to draw an icon in the client area of the window whose device context (DC) is identified by the *hdc* parameter.
 
 
-```
+```cpp
 HICON hIcon1;   // icon handle  
 HDC hdc;        // handle to display context 
  
@@ -181,7 +181,7 @@ DrawIcon(hdc, 10, 20, hIcon1);
 The system automatically displays the class icon(s) for a window. Your application can assign class icons while registering a window class. Your application can replace a class icon by using the [**SetClassLong**](/windows/desktop/api/winuser/nf-winuser-setclasslonga) function. This function changes the default window settings for all windows of a given class. The following example replaces a class icon with the icon whose resource identifier is 480.
 
 
-```
+```cpp
 HINSTANCE hinst;            // handle to current instance 
 HWND hwnd;                  // main window handle  
  
@@ -204,7 +204,7 @@ The following code uses the functions [**CreateIconFromResourceEx**](/windows/de
 **Security Warning:** Using [**LoadLibrary**](/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya) incorrectly can compromise the security of your application by loading the wrong DLL. Refer to the **LoadLibrary** documentation for information on how to correctly load DLLs with different versions of Windows.
 
 
-```
+```cpp
 HICON hIcon1;       // icon handle 
 HINSTANCE hExe;     // handle to loaded .EXE file 
 HRSRC hResource;    // handle to FindResource  

@@ -12,7 +12,6 @@ api_location:
 - D3D12.dll
 api_type:
 - DllExport
-ms.localizationpriority: low
 ms.topic: reference
 ms.date: 05/31/2018
 ---

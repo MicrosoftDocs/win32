@@ -18,7 +18,6 @@ keywords:
 - schemas,color appearance model profile (CAMP)
 - algorithms,color appearance model profile (CAMP)
 - WCS color appearance model profile
-ms.localizationpriority: high
 
 
 ms.topic: article

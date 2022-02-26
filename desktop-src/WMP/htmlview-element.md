@@ -58,7 +58,7 @@ Base URL for the HTMLView webpage that Windows Media Player displays.
 
 You can use this element to integrate the HTMLView feature with your online store. If the domain of the URL specified by the current online store matches the one for the HTMLView webpage, the switch to **Now Playing** happens without user intervention and the HTMLView content is displayed. Otherwise, Windows Media Player prompts the user for permission to show the HTMLView content.
 
-For example, if the URL for the HTMLView webpage is https://www.proseware.com/html/HTMLView.htm and the URL for the **BaseURL** attribute is specified as https://www.proseware.com, the HTMLView webpage displays without prompting the user.
+For example, if the URL for the HTMLView webpage is `https://www.proseware.com/html/HTMLView.htm` and the URL for the **BaseURL** attribute is specified as `https://www.proseware.com`, the HTMLView webpage displays without prompting the user.
 
 ## Requirements
 

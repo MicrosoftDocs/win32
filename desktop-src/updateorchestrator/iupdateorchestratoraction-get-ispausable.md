@@ -2,7 +2,7 @@
 title: IUpdateOrchestratorAction::get_IsPausable method
 description: Determines if an action can be paused. 
 ms.date: 01/29/2020
-ms.topic: method
+ms.topic: reference
 ---
 
 # IUpdateOrchestratorAction::get_IsPausable method

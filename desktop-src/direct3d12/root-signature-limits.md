@@ -2,7 +2,6 @@
 title: Root Signature Limits
 description: The root signature is prime real estate, and there are strict limits and costs to consider.
 ms.assetid: 01121D3A-1926-4246-9C20-5E11F2E0B092
-ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
 ---

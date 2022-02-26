@@ -160,7 +160,7 @@ After installing Windows Debugging Tools, you must enter the symbol path in WinD
 1.  On the **File** menu, click **Symbol Path**.
 2.  In the **Symbol Search Path** window, enter the following:
 
-    "srv\*c:\\cache\*https://msdl.microsoft.com/download/symbols;"
+    `"srv\*c:\\cache\*https://msdl.microsoft.com/download/symbols;"`
 
 ### Using Copy-Protection Tools with Minidumps
 

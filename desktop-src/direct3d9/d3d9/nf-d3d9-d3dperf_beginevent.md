@@ -1,7 +1,6 @@
 ---
 title: D3DPERF_BeginEvent function
 description: Marks the beginning of a user-defined event. PIX can use this event to trigger an action.
-ms.localizationpriority: low
 ms.topic: reference
 ms.date: 04/06/2020
 req.lib: d3d9.lib

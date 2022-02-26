@@ -2,7 +2,7 @@
 title: IUpdateOrchestratorUpdate::get_IsSecurity method
 description: Gets whether or not the update is a security update.
 ms.date: 01/29/2020
-ms.topic: method
+ms.topic: reference
 ---
 
 # IUpdateOrchestratorUpdate::get_IsSecurity method

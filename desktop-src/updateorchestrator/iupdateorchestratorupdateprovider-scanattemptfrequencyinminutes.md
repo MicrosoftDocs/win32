@@ -2,7 +2,7 @@
 title: IUpdateOrchestratorUpdateProvider::get_ScanAttemptFrequencyInMinutes method
 description: Get the scan attempt frequency.
 ms.date: 01/29/2020
-ms.topic: method
+ms.topic: reference
 ---
 
 # IUpdateOrchestratorUpdateProvider::get_ScanAttemptFrequencyInMinutes method

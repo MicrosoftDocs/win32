@@ -11,7 +11,6 @@ api_location:
 - deliveryoptimizationdownloadtypes.h
 api_type:
 - HeaderDef
-ms.localizationpriority: low
 ms.topic: reference
 ms.date: 07/02/2019
 ---

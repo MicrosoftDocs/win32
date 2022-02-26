@@ -1,17 +1,17 @@
 ---
-title: Error Messages (Design basics)
-description: An error message alerts users of a problem that has already occurred.
-ms.assetid: b02110e9-985d-4448-9c95-eb958b0059b1
+title: Error Messages in Windows 7
+description: Error messages in Windows 7 alert users of problems that have already occurred.
 ms.topic: article
-ms.date: 10/20/2020
+ms.date: 01/11/2022
+ms.custom: seo-windows-dev
 ---
 
-# Error Messages (Design basics)
+# Error Messages in Windows 7
 
 > [!NOTE]
 > This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](/windows/uwp/design/).
 
-An error message alerts users of a problem that has already occurred. By contrast, a warning message alerts users of a condition that might cause a problem in the future. Error messages can be presented using modal dialog boxes, in-place messages, notifications, or balloons.
+Error messages in Windows 7 alert users of problems that have already occurred. In contrast, warning messages alert users of conditions that might cause problems in the future. Error messages can be presented using modal dialog boxes, in-place messages, notifications, or balloons.
 
 ![screen shot of error message: can't rename](images/mess-error-image1.png)
 
@@ -542,7 +542,7 @@ In this example, an error code is used as a substitute for a solution text.
 
 -67113524
 
-- **Use Show/Hide details to display error codes.** Phrase as Error code: <error code>.
+- **Use Show/Hide details to display error codes.** Phrase as Error code: `<error code>`.
 
 ![screen shot of message: program didn't initialize ](images/mess-error-image45.png)
 

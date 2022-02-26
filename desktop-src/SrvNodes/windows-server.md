@@ -47,7 +47,7 @@ The following table describes the specialized versions of Windows Server.
 
 <dl> <dt>
 
-[Windows Server Blog](https://blogs.technet.com/b/windowsserver/)
+[Windows Server Blog](https://cloudblogs.microsoft.com/windowsserver/)
 </dt> <dt>
 
 [Windows Server on TechNet](/windows/deployment/deploy-whats-new)

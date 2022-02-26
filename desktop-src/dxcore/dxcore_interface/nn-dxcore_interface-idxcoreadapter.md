@@ -1,7 +1,6 @@
 ---
 title: IDXCoreAdapter
 description: The **IDXCoreAdapter** interface implements methods for retrieving details about an adapter item.
-ms.localizationpriority: low
 ms.topic: reference
 ms.date: 06/20/2019
 ---

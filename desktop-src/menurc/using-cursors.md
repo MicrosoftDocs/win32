@@ -35,7 +35,7 @@ This section discusses the following topics.
 The following example creates two cursor handles: one for the standard hourglass cursor and one for a custom cursor included as a resource in the application's resource-definition file.
 
 
-```
+```cpp
 HINSTANCE hinst;            // handle to current instance 
 HCURSOR hCurs1, hCurs2;     // cursor handles 
  
@@ -55,7 +55,7 @@ You should implement custom cursors as resources. Rather than create the cursors
 The following example uses the [**CreateCursor**](/windows/desktop/api/Winuser/nf-winuser-createcursor) function to create a custom cursor at run time. The example is included here to illustrate how the system interprets cursor masks.
 
 
-```
+```cpp
 HINSTANCE hinst;            // handle to current instance  
 HCURSOR hCurs1, hCurs2;     // cursor handles 
  
@@ -188,7 +188,7 @@ Before closing, you must use the [**DestroyCursor**](/windows/desktop/api/Winuse
 The system automatically displays the class cursor (the cursor associated with the window to which the cursor is pointing). You can assign a class cursor while registering a window class. The following example illustrates this by assigning a cursor handle to the **hCursor** member of the [**WNDCLASS**](/windows/win32/api/winuser/ns-winuser-wndclassa) structure identified by the *wc* parameter.
 
 
-```
+```cpp
 WNDCLASS  wc; 
  
 // Fill the window class structure with parameters that 
@@ -219,7 +219,7 @@ Your application can change the design of the cursor by using the [**SetCursor**
 You can specify different cursors for different conditions while processing [**WM\_SETCURSOR**](wm-setcursor.md). For example, the following example shows how to display the cursor whenever the cursor moves over the icon of a minimized application.
 
 
-```
+```cpp
 case WM_SETCURSOR: 
  
     // If the window is minimized, draw the hCurs3 cursor. 
@@ -240,7 +240,7 @@ When the window is not minimized, the system displays the class cursor.
 You can replace a class cursor by using the [**SetClassLong**](/windows/desktop/api/winuser/nf-winuser-setclasslonga) function. This function changes the default window settings for all windows of a specified class. The following example replaces the existing class cursor with the `hCurs2` cursor.
 
 
-```
+```cpp
 // Change the cursor for window class represented by hwnd. 
  
 SetClassLongPtr(hwnd,    // window handle 
@@ -257,7 +257,7 @@ For more information, see [Window Classes](/windows/desktop/winmsg/window-classe
 The following example confines the cursor to the application's window and then restores the cursor to its previous window. The example uses the [**GetClipCursor**](/windows/desktop/api/Winuser/nf-winuser-getclipcursor) function to record the area in which the cursor can move and the [**ClipCursor**](/windows/desktop/api/Winuser/nf-winuser-clipcursor) function to confine and restore the cursor.
 
 
-```
+```cpp
 RECT rcClip;           // new area for ClipCursor
 RECT rcOldClip;        // previous area for ClipCursor
  
@@ -293,7 +293,7 @@ The following example uses the [**SetCursorPos**](/windows/desktop/api/Winuser/n
 An example for a similar mousetrap is included in [Icons](icons.md). It uses the [**LoadCursor**](/windows/desktop/api/Winuser/nf-winuser-loadcursora) and [**LoadIcon**](/windows/desktop/api/Winuser/nf-winuser-loadicona) functions instead of the more device-dependent [**CreateCursor**](/windows/desktop/api/Winuser/nf-winuser-createcursor) and [**CreateIcon**](/windows/desktop/api/Winuser/nf-winuser-createicon) functions.
 
 
-```
+```cpp
 HICON hIcon1;               // icon handles 
 POINT ptOld;                // previous cursor location 
 HCURSOR hCurs1;             // cursor handle 
@@ -500,7 +500,7 @@ LONG APIENTRY MainWndProc(
 Because the system does not require a mouse, an application should be able to simulate mouse actions with the keyboard. The following example shows how to achieve this by using the [**GetCursorPos**](/windows/desktop/api/Winuser/nf-winuser-getcursorpos) and [**SetCursorPos**](/windows/desktop/api/Winuser/nf-winuser-setcursorpos) functions and by processing input from the arrow keys.
 
 
-```
+```cpp
 HCURSOR hCurs1, hCurs2;    // cursor handles 
  
 POINT pt;                  // cursor location  

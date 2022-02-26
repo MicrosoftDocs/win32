@@ -1,22 +1,13 @@
 ---
-title: Open and Save As Dialog Boxes
-description: The Open dialog box lets the user specify the drive, directory, and the name of a file or set of files to open.
+title: Open and Save As dialog boxes
+description: Learn to display custom Open and Save As dialog boxes in your legacy Windows app
 ms.assetid: 5676ca9d-daca-40bf-8881-def2ff841c58
-keywords:
-- Common Dialog Box Library
-- common dialog boxes
-- Open dialog box
-- Save As dialog box
-- customizing Open dialog box
-- customizing Save As dialog box
-- dialog boxes,Open
-- dialog boxes,Save As
 ms.topic: article
-ms.date: 05/31/2018
-ms.custom: project-verbatim
+ms.date: 01/10/2022
+ms.custom: project-verbatim, seo-windows-dev
 ---
 
-# Open and Save As Dialog Boxes
+# Open and Save As dialog boxes
 
 > [!NOTE]
 > The [**GetOpenFileName**](/windows/desktop/api/Commdlg/nf-commdlg-getopenfilenamea) function is demonstrated in the [File is in use sample](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winui/shell/appplatform/fileisinuse).

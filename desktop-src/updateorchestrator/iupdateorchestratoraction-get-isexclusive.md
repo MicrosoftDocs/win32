@@ -2,7 +2,7 @@
 title: IUpdateOrchestratorAction::get_IsExclusive method
 description: Determines if no two actions of its kind can be performed at the same time.
 ms.date: 01/29/2020
-ms.topic: method
+ms.topic: reference
 ---
 
 # IUpdateOrchestratorAction::get_IsExclusive method

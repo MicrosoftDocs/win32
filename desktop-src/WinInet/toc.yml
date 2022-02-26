@@ -207,7 +207,7 @@
       - name: "InternetCreateUrl"
         href: /windows/win32/api/Wininet/nf-wininet-internetcreateurla
       - name: "InternetDeInitializeAutoProxyDll"
-        href: /previous-versions/windows/win32/legacy/aa384580(v=vs.85)
+        href: /previous-versions/windows/desktop/legacy/aa384580(v=vs.85)
       - name: "InternetDial"
         href: /windows/win32/api/wininet/nf-wininet-internetdial
       - name: "InternetEnumPerSiteCookieDecision"

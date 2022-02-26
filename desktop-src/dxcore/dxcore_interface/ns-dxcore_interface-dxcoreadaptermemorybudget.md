@@ -1,7 +1,6 @@
 ---
 title: DXCoreAdapterMemoryBudget
 description: Describes the memory budget for an adapter.
-ms.localizationpriority: low
 ms.topic: reference
 ms.date: 06/20/2019
 ---

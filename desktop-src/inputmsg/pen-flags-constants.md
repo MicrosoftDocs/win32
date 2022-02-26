@@ -19,7 +19,7 @@ ms.date: 02/03/2020
 
 # Pen Flags
 
-Values that can appear in the **penFlags** field of the [**POINTER_PEN_INFO**](/previous-versions/windows/desktop/api) structure.
+Values that can appear in the **penFlags** field of the [**POINTER_PEN_INFO**](/windows/win32/api/winuser/ns-winuser-pointer_pen_info) structure.
 
 <dl> <dt>
 
@@ -94,7 +94,7 @@ The eraser button is pressed.
 [Constants](constants.md)
 </dt> <dt>
 
-[**POINTER_INFO**](/previous-versions/windows/desktop/api)
+[**POINTER_INFO**](/windows/win32/api/winuser/ns-winuser-pointer_info)
 </dt> </dl>
 
  

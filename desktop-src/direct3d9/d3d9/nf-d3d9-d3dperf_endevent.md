@@ -1,7 +1,6 @@
 ---
 title: D3DPERF_EndEvent function
 description: Marks the end of a user-defined event. PIX can use this event to trigger an action.
-ms.localizationpriority: low
 ms.topic: reference
 ms.date: 04/06/2020
 req.lib: d3d9.lib

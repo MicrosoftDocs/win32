@@ -2,7 +2,6 @@
 title: What's new in Direct3D 12
 description: This topic describes the most significant new Direct3D 12 documentation available for various releases.
 ms.assetid: 38F41E05-FECB-41DE-8D30-09733FBEAC48
-ms.localizationpriority: high
 ms.topic: article
 ms.date: 12/05/2019
 ---

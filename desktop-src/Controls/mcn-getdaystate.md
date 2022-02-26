@@ -36,7 +36,7 @@ MCN_GETDAYSTATE
 *lParam* 
 </dt> <dd>
 
-Pointer to an [**NMDAYSTATE**](/windows/win32/api/commctrl/ns-commctrl-nmdaystate) structure. The structure contains information about the time frame for which the control needs information, and it receives the address of an array that provides this data.
+Pointer to an [**NMDAYSTATE**](/windows/win32/api/commctrl/ns-commctrl-nmdaystate) structure. The structure contains information about the time frame for which the control needs information, and a stack-allocated array of bitfields to write this data into.
 
 </dd> </dl>
 

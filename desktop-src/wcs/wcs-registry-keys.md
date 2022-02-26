@@ -17,7 +17,6 @@ keywords:
 - colors,registry
 - WCS reference,registry
 - reference for WCS,registry
-ms.localizationpriority: high
 
 
 ms.topic: article

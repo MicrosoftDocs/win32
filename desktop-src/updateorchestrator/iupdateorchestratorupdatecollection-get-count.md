@@ -2,7 +2,7 @@
 title: IUpdateOrchestratorUpdateCollection::get_Count method
 description: Gets the number of updates contained in the collection.
 ms.date: 01/29/2020
-ms.topic: method
+ms.topic: reference
 ---
 
 # IUpdateOrchestratorUpdateCollection::get_Count method

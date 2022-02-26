@@ -33,7 +33,6 @@ keywords:
 - color matching
 - color model
 - color spaces,definition
-ms.localizationpriority: high
 
 
 ms.topic: article

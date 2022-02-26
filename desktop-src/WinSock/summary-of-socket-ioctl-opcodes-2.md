@@ -33,13 +33,9 @@ A complete list of [**Winsock IOCTLs**](winsock-ioctls.md) are available in the 
 | SIO\_TRANSLATE\_HANDLE                                      | int                                      | Companion-API dependent                     | Obtains a corresponding handle for socket *s* that is valid in the context of a companion interface.                                                                                                               |
 | SIO\_ROUTING\_INTERFACE\_QUERY                              | [**sockaddr**](sockaddr-2.md)           | [**sockaddr**](sockaddr-2.md)              | Obtains the address of the local interface that should be used to send to the specified address.                                                                                                                   |
 | SIO\_ROUTING\_INTERFACE\_CHANGE                             | [**sockaddr**](sockaddr-2.md)           | <Not used>                            | Requests notification of changes in information reported through SIO\_ROUTING\_INTERFACE\_QUERY for the specified address.                                                                                         |
-| [**SIO\_ADDRESS\_LIST\_QUERY**](/previous-versions/windows/desktop/legacy/dd877219(v=vs.85)) | <Not used>                         | [**SOCKET\_ADDRESS**](/windows/desktop/api/Ws2def/ns-ws2def-socket_address) | Obtains a list of local transport addresses of the socket's protocol family to which the application can bind. The list of addresses varies based on address family and some addresses are excluded from the list. |
+| [**SIO_ADDRESS_LIST_QUERY**](/windows/win32/winsock/sio-address-list-query) | <Not used>                         | [**SOCKET\_ADDRESS**](/windows/desktop/api/Ws2def/ns-ws2def-socket_address) | Obtains a list of local transport addresses of the socket's protocol family to which the application can bind. The list of addresses varies based on address family and some addresses are excluded from the list. |
 | SIO\_ADDRESS\_LIST\_CHANGE                                  | <Not used>                         | <Not used>                            | Requests notification of changes in information reported through SIO\_ADDRESS\_LIST\_QUERY                                                                                                                         |
 | SIO\_QUERY\_PNP\_TARGET\_HANDLE                             | <Not used>                         | SOCKET                                      | Obtains socket descriptor of the next provider in the chain on which current socket depends in regards to PnP.                                                                                                     |
-
-
-
- 
 
 ## Related topics
 
@@ -50,7 +46,3 @@ A complete list of [**Winsock IOCTLs**](winsock-ioctls.md) are available in the 
 
 [**WSPIoctl**](/previous-versions/windows/hardware/network/ff566296(v=vs.85))
 </dt> </dl>
-
- 
-
- 

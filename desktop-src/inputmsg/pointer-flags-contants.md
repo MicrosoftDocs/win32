@@ -34,7 +34,7 @@ ms.date: 02/03/2020
 
 # Pointer Flags
 
-Values that can appear in the **pointerFlags** field of the [**POINTER_INFO**](/previous-versions/windows/desktop/api) structure.
+Values that can appear in the **pointerFlags** field of the [**POINTER_INFO**](/windows/win32/api/winuser/ns-winuser-pointer_info) structure.
 
 <dl> <dt>
 
@@ -342,10 +342,10 @@ XBUTTON1 and XBUTTON2 are additional buttons used on many mouse devices. They re
 [Constants](constants.md)
 </dt> <dt>
 
-[**POINTER_INFO**](/previous-versions/windows/desktop/api)
+[**POINTER_INFO**](/windows/win32/api/winuser/ns-winuser-pointer_info)
 </dt> <dt>
 
-[**POINTER_BUTTON_CHANGE_TYPE**](/previous-versions/windows/desktop/api)
+[**POINTER_BUTTON_CHANGE_TYPE**](/windows/win32/api/winuser/ne-winuser-pointer_button_change_type)
 </dt> </dl>
 
  

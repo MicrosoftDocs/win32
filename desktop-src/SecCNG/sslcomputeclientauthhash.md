@@ -117,7 +117,7 @@ Possible return codes include, but are not limited to, the following.
 
 ## Remarks
 
-The **SslComputeClientAuthHash** function computes the hash that is sent in the certificate verification message of the SSL handshake. The hash value is computed by creating a hash that contains the master secret with a hash of all previous handshake messages sent or received. For more information about the SSL handshake sequence, see [Description of the Secure Sockets Layer (SSL) Handshake](https://support.microsoft.com/kb/257591).
+The **SslComputeClientAuthHash** function computes the hash that is sent in the certificate verification message of the SSL handshake. The hash value is computed by creating a hash that contains the master secret with a hash of all previous handshake messages sent or received.
 
 The manner in which the hash is computed depends on the protocol and cipher suite used. In addition, the hash depends on the type of client authentication key used; the *pszAlgId* parameter indicates the type of key used for client authentication.
 

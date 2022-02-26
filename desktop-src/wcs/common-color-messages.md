@@ -2,7 +2,6 @@
 title: Common Color Messages
 description: The following messages are used with color.
 ms.assetid: b928d9a8-9c8b-48ab-aab7-4b8b76aa31d3
-ms.localizationpriority: high
 
 
 ms.topic: article

@@ -2,7 +2,6 @@
 title: Hardware Tiers
 description: The levels of hardware from Tier 1 to Tier 3 have increasing resources available to the pipeline.
 ms.assetid: 5A640BA9-3914-4481-9A0C-E18B52BD8AFE
-ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
 ---
