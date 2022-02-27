@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Error Handling in COM (COM)
 
-Almost all COM functions and interface methods return a value of the type **HRESULT**. The **HRESULT** (for *result handle*) is a way of returning success, warning, and error values. **HRESULT**s are really not handles to anything; they are only values with several fields encoded in the value. As per the COM specification, a result of zero indicates success and a nonzero result indicates failure.
+Almost all COM functions and interface methods return a value of the type **HRESULT**. The **HRESULT** (for *result handle*) is a way of returning success, warning, and error values. **HRESULT**s are really not handles to anything [any more](https://devblogs.microsoft.com/oldnewthing/20180117-00/?p=97815); they are only values with several fields encoded in the value. As per the COM specification, a result of zero indicates success and a nonzero result indicates failure.
 
 At the source code level, all error values consist of three parts, separated by underscores. The first part is the prefix that identifies the facility associated with the error, the second part is E for error, and the third part is a string that describes the actual condition. For example, **STG\_E\_MEDIUMFULL** is returned when there is no space left on a hard disk. The **STG** prefix indicates the storage facility, the **E** indicates that the status code represents an error, and the **MEDIUMFULL** provides specific information about the error. Many of the values that you might want to return from an interface method or function are defined in Winerror.h.
 
