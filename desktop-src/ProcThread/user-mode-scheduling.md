@@ -31,7 +31,7 @@ An application's UMS scheduler is responsible for creating, managing, and deleti
 -   Creates UMS worker threads to perform the work of the application.
 -   Maintains its own ready-thread queue of worker threads that are ready to run, and selects threads to run based on the application's scheduling policies.
 -   Creates and monitors one or more completion lists where the system queues threads after they finish processing in the kernel. These include newly created worker threads and threads previously blocked on a system call that become unblocked.
--   Provides a scheduler entry point function to handles notifications from the system. The system calls the entry point function when a scheduler thread is created, when a worker thread blocks on a system call, or when a worker thread explicitly yields control.
+-   Provides a scheduler entry point function to handle notifications from the system. The system calls the entry point function when a scheduler thread is created, a worker thread blocks on a system call, or a worker thread explicitly yields control.
 -   Performs cleanup tasks for worker threads that have finished running.
 -   Performs an orderly shutdown of the scheduler when requested by the application.
 
