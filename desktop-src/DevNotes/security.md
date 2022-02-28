@@ -15,11 +15,8 @@ ms.date: 05/31/2018
 -   [IPassportManager3 Add-ons](ipassportmanager3-add-ons.md)
 -   [Ntsecpkg](ntsecpkg.md)
 -   [Safer API](safer-api.md)
--   [Windows Security Center](windows-security-center.md)
+-   [The Windows Security app](windows-security-center.md)
 
  
 
  
-
-
-

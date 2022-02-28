@@ -1229,10 +1229,10 @@
       items: 
       - name: "SaferiSearchMatchingHashRules"
         href: saferisearchmatchinghashrules.md
-    - name: "Windows Security Center"
+    - name: "The Windows Security app"
       href: windows-security-center.md
       items: 
-      - name: "Windows Security Center Enumerations"
+      - name: "The Windows Security app Enumerations"
         href: windows-security-center-enumerations.md
         items: 
         - name: "WSC_SECURITY_PRODUCT_STATE"
@@ -1243,7 +1243,7 @@
           href: /windows/win32/api/Wscapi/ne-wscapi-wsc_security_provider_health
         - name: "WSC_SECURITY_SIGNATURE_STATUS"
           href: /windows/win32/api/Iwscapi/ne-iwscapi-wsc_security_signature_status
-      - name: "Windows Security Center Interfaces"
+      - name: "The Windows Security app Interfaces"
         href: windows-security-center-interfaces.md
         items: 
         - name: "IWscProduct"
@@ -1268,7 +1268,7 @@
             href: /windows/desktop/api/Iwscapi/nf-iwscapi-iwscproductlist-initialize
           - name: "Item method"
             href: /windows/desktop/api/Iwscapi/nf-iwscapi-iwscproductlist-get_item
-      - name: "Windows Security Center Functions"
+      - name: "The Windows Security app Functions"
         href: windows-security-center-functions.md
         items: 
         - name: "WscGetSecurityProviderHealth"

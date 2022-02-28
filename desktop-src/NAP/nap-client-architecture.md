@@ -27,7 +27,7 @@ The NAP client architecture consists of the following:
 
 -   A layer of System Health Agent (SHA) components
 
-    An SHA component maintains and reports one or multiple elements of system health. For example, there might be an SHA for antivirus signatures and an SHA for operating system updates. An SHA can be matched to a remediation server, which is a computer that contains health update resources that NAP clients can access to remediate their noncompliant state. For example, an SHA for checking antivirus signatures is matched to the server that contains the latest antivirus signature file. SHAs do not have to have a corresponding remediation server. For example, an SHA can just check local system settings to ensure that a host-based firewall is enabled. Windows Vista and Windows XP Service Pack 3 include the Windows Security Health Agent (WSHA) that monitors the settings of the Windows Security Center. Third-party software vendors or Microsoft can provide additional SHAs to the NAP platform.
+    An SHA component maintains and reports one or multiple elements of system health. For example, there might be an SHA for antivirus signatures and an SHA for operating system updates. An SHA can be matched to a remediation server, which is a computer that contains health update resources that NAP clients can access to remediate their noncompliant state. For example, an SHA for checking antivirus signatures is matched to the server that contains the latest antivirus signature file. SHAs do not have to have a corresponding remediation server. For example, an SHA can just check local system settings to ensure that a host-based firewall is enabled. Windows Vista and Windows XP Service Pack 3 include the Windows Security Health Agent (WSHA) that monitors the settings of the Windows Security app. Third-party software vendors or Microsoft can provide additional SHAs to the NAP platform.
 
 -   NAP Agent
 
@@ -37,7 +37,7 @@ The NAP client architecture consists of the following:
 
     Provides a set of functions that allow SHAs to register with the NAP Agent, to indicate system health status, respond to queries for system health status from the NAP Agent, and for the NAP Agent to pass system health remediation information to an SHA. The SHA API allows vendors to create and install additional SHAs. The SHA API is provided with the NAP platform. See the following NAP interfaces: [**INapSystemHealthAgentBinding2**](inapsystemhealthagentbinding2.md), [**INapSystemHealthAgentCallback**](inapsystemhealthagentcallback.md), and [**INapSystemHealthAgentRequest**](inapsystemhealthagentrequest.md).
 
-To indicate the health state of a specific SHA, an SHA creates a statement of health ([**SoH**](/windows/win32/api/naptypes/ns-naptypes-soh)) and passes it to the NAP Agent. An SoH can contain one or multiple elements of system health. For example, the SHA for an antivirus program can create an SoH containing the state of the antivirus software running on the computer, its version, and the last antivirus signature update received. Whenever an SHA updates its status, it creates a new SoH and passes it to the NAP Agent. To indicate the overall health state of a NAP client, the NAP Agent uses a system statement of health (SSoH), which includes version information for the NAP client and the set of SoHs for the installed SHAs.
+To indicate the health state of a specific SHA, an SHA creates a statement of health ([**SoH**](/windows/win32/api/naptypes/ns-naptypes-soh)) and passes it to the NAP Agent. A SoH can contain one or multiple elements of system health. For example, the SHA for an antivirus program can create a SoH containing the state of the antivirus software running on the computer, its version, and the last antivirus signature update received. Whenever an SHA updates its status, it creates a new SoH and passes it to the NAP Agent. To indicate the overall health state of a NAP client, the NAP Agent uses a system statement of health (SSoH), which includes version information for the NAP client and the set of SoHs for the installed SHAs.
 
 The following sections describe the components of the NAP client architecture in further detail.
 
@@ -77,7 +77,7 @@ The DHCP NAP EC is functionality in the DHCP Client service that uses industry s
 
 ## System Health Agent
 
-A System Health Agent (SHA) performs system health updates and publishes its status in the form of an SoH to the NAP Agent. The SoH contains information that the NAP health policy server can use to verify that the client computer is in the required state of health. An SHA is matched to a System Health Validator (SHV) on the server-side of the NAP platform architecture. The corresponding SHV can return an SoH Response (SoHR) to the NAP client, which is passed by the NAP EC and the NAP Agent to the SHA, informing it of what to do if the SHA is not in a required state of health. For example, the SoHR sent by an antivirus SHV could instruct the corresponding antivirus SHA to query an antivirus signature server to obtain the latest version of the antivirus signature file. The SoHR can also include the name or IP address of the antivirus signature server to query.
+A System Health Agent (SHA) performs system health updates and publishes its status in the form of a SoH to the NAP Agent. The SoH contains information that the NAP health policy server can use to verify that the client computer is in the required state of health. An SHA is matched to a System Health Validator (SHV) on the server-side of the NAP platform architecture. The corresponding SHV can return a SoH Response (SoHR) to the NAP client, which is passed by the NAP EC and the NAP Agent to the SHA, informing it of what to do if the SHA is not in a required state of health. For example, the SoHR sent by an antivirus SHV could instruct the corresponding antivirus SHA to query an antivirus signature server to obtain the latest version of the antivirus signature file. The SoHR can also include the name or IP address of the antivirus signature server to query.
 
 An SHA can use a locally installed policy client to assist in system health management functions in conjunction with a policy server. For example, a software update SHA can use the locally installed software client software (the policy client) to perform version checking and installation and update functions with the software update server (the policy server).
 
@@ -94,7 +94,3 @@ The NAP Agent provides the following services:
  
 
  
-
-
-
-
