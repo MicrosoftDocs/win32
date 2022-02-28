@@ -21,7 +21,6 @@ WorkUnits are a data contract implemented over performance counters to allow app
 - UniqueId: identifier for the Work Unit.
 
 Data contract
--------------
 
 Information shared via work units in the Windows platform is available to be queried by any app running in the system. The data is provided and consumed using Performance Counter APIs, publicly available and documented [here](https://docs.microsoft.com/en-us/windows/win32/api/_perf/). As part of their implementation, performance counters must have a unique identifier string, which we use to surface the label for the work unit. The expected format of the perf-counter unique identifier string is:
 
