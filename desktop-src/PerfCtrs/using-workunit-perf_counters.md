@@ -44,7 +44,6 @@ Providing WorkUnits
 Create instances of the WorkUnit performance counter set using Performance Counter APIs. Follow the data contract documented above to ensure that other apps can successfully validate and consume your data.
 
 Visualizing WorkUnits
----------------------
 
 Either query data from WorkUnit perf-counters via Performance Counter APIs or use the Performance Monitor application.
 
