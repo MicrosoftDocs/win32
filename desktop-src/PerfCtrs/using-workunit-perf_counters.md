@@ -7,7 +7,6 @@ ms.date: 02/25/2022
 ---
 
 Using WorkUnit Performance Counters
-====================================
 
 WorkUnit performance counters provide further insight into an application's process to the Windows platform. Via work units, apps can describe which work units are running on a particular process and claim ownership of those units.
 
