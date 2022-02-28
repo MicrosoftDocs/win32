@@ -36,7 +36,7 @@ Specifies the type of timeout for setting.
 
 </dd> <dt>
 
-<span id="_value__u-short"></span><span id="_VALUE__U-SHORT"></span>**\[value=\]***u-short*
+<span id="_value__u-short"></span><span id="_VALUE__U-SHORT"></span>__\[value=\]__*u-short*
 </dt> <dd>
 
 Specifies the value of the timeout (in seconds). If value is hexadecimal, then add the prefix 0x.
