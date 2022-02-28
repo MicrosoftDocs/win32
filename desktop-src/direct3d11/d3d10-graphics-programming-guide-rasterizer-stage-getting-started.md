@@ -36,7 +36,7 @@ Tutorial 1 creates a 640 × 480 viewport using [**D3D11\_VIEWPORT**](/windows/de
     vp[0].MaxDepth = 1;
     vp[0].TopLeftX = 0;
     vp[0].TopLeftY = 0;
-    g_pd3dDevice->RSSetViewports( 1, vp );
+    g_pd3dContext->RSSetViewports( 1, vp );
 ```
 
 
