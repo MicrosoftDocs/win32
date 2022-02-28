@@ -40,7 +40,6 @@ Notice that if a work unit information must be updated, e.g., the title was chan
     "WorkUnit|2|8765|1019|Instance 2 of pid 5678, owned by 8765"
 
 Providing WorkUnits
--------------------
 
 Create instances of the WorkUnit performance counter set using Performance Counter APIs. Follow the data contract documented above to ensure that other apps can successfully validate and consume your data.
 
