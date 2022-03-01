@@ -708,7 +708,7 @@ When referring to the control panel home page or category pages:
 
     **Example:**
 
-    In Control Panel, open **Defender for Cloud**.
+    In Control Panel, open **Network and Sharing Center**.
 
 -   In programming and other technical documentation, refer to control panel home page and control panel category page, without capitalizing any of the words. A preceding definite article is optional.
 
