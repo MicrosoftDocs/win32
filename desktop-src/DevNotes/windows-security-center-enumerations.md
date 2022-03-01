@@ -1,12 +1,12 @@
 ---
 description: The following enumerations are used with the Windows Security app.
 ms.assetid: C5559B22-517B-4FF6-B586-003C1586049D
-title: The Windows Security app Enumerations
+title: Windows Security app enumerations
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# The Windows Security app Enumerations
+# The Windows Security app enumerations
 
 The following enumerations are used with the Windows Security app.
 
