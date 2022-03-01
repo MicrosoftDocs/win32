@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# The Windows Security app enumerations
+# Windows Security app enumerations
 
 The following enumerations are used with the Windows Security app.
 
