@@ -7,6 +7,9 @@ ms.date: 08/23/2021
 
 # Guidelines for porting Mobile Broadband Win32 APIs to Windows Runtime APIs
 
+> [!IMPORTANT]
+> Starting Windows 11 SV2 Release, the Mobile Broadband Win32 APIs (MBN COM API) will be removed. Partners have been notified to update their applications and services to migrate to WinRT API. See below for porting guidelines.
+
 This table lists equivalent Windows Runtime functionality for the deprecated Mobile Broadband Win32 APIs.
 
 | **IMbnConnection** |  Equivalent Windows Runtime functionality |
