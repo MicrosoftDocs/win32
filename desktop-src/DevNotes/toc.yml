@@ -1232,7 +1232,7 @@
     - name: "Windows Security app"
       href: windows-security-center.md
       items: 
-      - name: "The Windows Security app enumerations"
+      - name: "Windows Security app enumerations"
         href: windows-security-center-enumerations.md
         items: 
         - name: "WSC_SECURITY_PRODUCT_STATE"
@@ -1243,7 +1243,7 @@
           href: /windows/win32/api/Wscapi/ne-wscapi-wsc_security_provider_health
         - name: "WSC_SECURITY_SIGNATURE_STATUS"
           href: /windows/win32/api/Iwscapi/ne-iwscapi-wsc_security_signature_status
-      - name: "The Windows Security app interfaces"
+      - name: "Windows Security app interfaces"
         href: windows-security-center-interfaces.md
         items: 
         - name: "IWscProduct"
@@ -1268,7 +1268,7 @@
             href: /windows/desktop/api/Iwscapi/nf-iwscapi-iwscproductlist-initialize
           - name: "Item method"
             href: /windows/desktop/api/Iwscapi/nf-iwscapi-iwscproductlist-get_item
-      - name: "The Windows Security app functions"
+      - name: "Windows Security app functions"
         href: windows-security-center-functions.md
         items: 
         - name: "WscGetSecurityProviderHealth"
