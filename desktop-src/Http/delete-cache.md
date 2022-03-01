@@ -27,7 +27,7 @@ delete cache [url=]string [[recursive=]{yes|no}]
 
 <dl> <dt>
 
-<span id="_url__string"></span><span id="_URL__STRING"></span>**\[url=\]***string*
+<span id="_url__string"></span><span id="_URL__STRING"></span>__\[url=\]__*string*
 </dt> <dd>
 
 Required. Specifies the fully qualified URL.
