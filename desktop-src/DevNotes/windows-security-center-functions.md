@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# The Windows Security app Functions
+# Windows Security app functions
 
 The following functions are used with the Windows Security app.
 
