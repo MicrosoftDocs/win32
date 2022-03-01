@@ -33,7 +33,7 @@ To register a Control Panel item in one or more categories, add values as explai
 | 7 | "Ease of Access" | "Ease of Access" | "Accessibility Options" | 
 | 8 | "Programs" | "Programs" | "Add or Remove Programs" | 
 | 9 | "User Accounts"<blockquote>[!Note]<br />When not connected to a domain, this is called "User Accounts and Family Safety".</blockquote><br /> | "User Accounts"<blockquote>[!Note]<br />When not connected to a domain, this is called "User Accounts and Family Safety".</blockquote><br /> | "User Accounts" | 
-| 10 | No longer used. Items registered in this category appear in category 5 (System and Security). | "Security" | "Defender for Cloud"<blockquote>[!Note]<br />Available only in Windows XP Service Pack 2 (SP2) or later.</blockquote><br /> | 
+| 10 | No longer used. Items registered in this category appear in category 5 (System and Security). | "Security" | "Security Center"<blockquote>[!Note]<br />Available only in Windows XP Service Pack 2 (SP2) or later.</blockquote><br /> | 
 | 11 | No longer used. Items registered in this category appear in category 0 (All Control Panel Items). | "Mobile PC"<blockquote>[!Note]<br />This category is only visible on mobile PCs.</blockquote><br /> | Not used. | 
 
 
@@ -43,7 +43,7 @@ To register a Control Panel item in one or more categories, add values as explai
 
 In Windows XP, the categories **Add or Remove Programs** and **User Accounts** work somewhat differently from other categories in Control Panel. When one or more items are added to one of these two categories, the associated link in Control Panel opens a category page. The registered items appear in the lower portion of the page under the heading "or Pick a Control Panel icon". When no items are registered for one of these categories, the associated link in Control Panel directly invokes the standard Windows item for that category. In Windows Vista and later, the **Programs** category and the **User Accounts** category do not have this property.
 
-The **Defender for Cloud** category, available only in Windows XP SP2, is also somewhat non-standard. Clicking this category opens the **Defender for Cloud** page in a new window. Items registered for **Defender for Cloud** appear in the lower portion of that page under the heading **Manage security settings for:**. Clicking an icon opens the Control Panel item.
+The **Security Center** category, available only in Windows XP SP2, is also somewhat non-standard. Clicking this category opens the **Security Center** page in a new window. Items registered for **Security Center** appear in the lower portion of that page under the heading **Manage security settings for:**. Clicking an icon opens the Control Panel item.
 
 ## Related topics
 
