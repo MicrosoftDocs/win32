@@ -8,11 +8,11 @@ ms.date: 02/25/2022
 
 # Using WorkUnit Performance Counters
 
-WorkUnit performance counters are another mechanism fathering insight into an application's process to the Windows platform. Via work units, apps can describe which work units are running on a particular process and claim ownership of those units.
+Work Unit performance counters are another mechanism fathering insight into an application's process to the Windows platform. A `Work Unit` is a data contract implemented over performance counters to allow applications to surface their internal composition to the Windows operating system. Via work units, apps can describe which work units are running on a particular process and claim ownership of those units.
 
 For instance, consider the Microsoft Edge browser running on a user's device. The browser runs on a particular process, but other processes are created to host tabs, network and audio services, extensions, and other functionalities. Furthermore, a particular process can be used to run multiple units of work (e.g., a process responsible for multiple tabs); and different apps can share it (e.g., Microsoft Edge browser and WPA apps sharing resources). Internally, the browser knows its dependencies and how to communicate with the necessary processes, but the Windows platform and other applications do not know how the browser is composed. Having such information is helpful to provide more precise resource usage information (e.g., TaskManager can report which units of work are running on a process). As well as to improve the diagnosability of the app: debuggers can simplify developer workloads by showing descriptions of what kind of work is running on a process.
 
-WorkUnits are a data contract implemented over performance counters to allow apps to surface their composition to the Windows platform. Each work unit carries the following properties:
+Work Units are a data contract implemented over performance counters to allow apps to surface their composition to the Windows platform. Each work unit carries the following properties:
 
 - AppOwnerProcessId: ID for the process which owns the given Work Unit;
 - HostProcessId: ID for the process in which the given Work Unit is running;
@@ -40,7 +40,7 @@ Notice that if a work unit information must be updated, e.g., the title was chan
 
 ## Providing WorkUnits
 
-You can create instances of the WorkUnit performance counter set using Performance Counter APIs. [Follow the data contract documented above](#data-contract) to ensure that other apps can successfully validate and consume your data.
+You can create instances of the Work Unit performance counter set using Performance Counter APIs. [Follow the data contract documented above](#data-contract) to ensure that other apps can successfully validate and consume your data.
 
 ## Visualizing WorkUnits
 
@@ -53,3 +53,9 @@ If you would like to query data from a Work Unit performance counter, you can us
 5. Select the counters listed: "App Owner Process ID" and "Host Process ID".
 6. Select "<All instances>" and click "Add".
 7. Click "OK".
+
+> - Selection of the Work Unit counter from the UI
+:::image type="content" source="images/workunit-count-select.png" alt-text="Selection of the counter from the UI" :::
+>
+> - Visual of data being graphed over time
+:::image type="content" source="images/workunit-count-data.png" alt-text=the data being displayed":::
