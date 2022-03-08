@@ -25,7 +25,7 @@ delete sslcert [ipport=]IP Address:port
 
 ## Parameters
 
-__\[ipport=\]__*IP Address:port*
+**\[ipport=\]** *IP Address:port*
 
 Specifies the IPv4 or IPv6 address and port for which the SSL certificate bindings will be deleted.
 
