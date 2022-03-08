@@ -103,7 +103,7 @@ class Win32_Process : CIM_Process
   uint32   PeakPageFileUsage;
   uint64   PeakVirtualSize;
   uint32   PeakWorkingSetSize;
-  uint32   Priority = NULL;
+  uint32   Priority;
   uint64   PrivatePageCount;
   uint32   ProcessId;
   uint32   QuotaNonPagedPoolUsage;
