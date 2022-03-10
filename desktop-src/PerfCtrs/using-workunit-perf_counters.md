@@ -8,9 +8,9 @@ ms.date: 02/25/2022
 
 # Using Work Unit Performance Counters
 
-Work Unit performance counters give the Windows platform insight into an application's granular process. A `Work Unit` is a data contract implemented over performance counters to allow applications to reveal to the Windows operating platform what a specific process is being used for. Via Work Units, apps can describe which parts of the application are running on a particular process and claim ownership. e.g., a web browser has its own Task Manager to manage all its processes; via the Work Unit performance counter, that level of detail and control can be available from the Windows Task Manager.
+Work Unit performance counters give the Windows platform insight into an application's processes. A `Work Unit` is a data contract implemented over performance counters to allow applications to reveal what a specific process is being used for to the Windows operating platform. Work Units enable apps to describe which parts of the application run on a particular process and claim ownership. For example, a web browser has its own Task Manager to manage all its processes; with the Work Unit performance counter, that level of detail and control can be available from the Windows Task Manager.
 
-For instance, consider the Microsoft Edge browser running on a user's device. The browser runs on a particular process, but other processes are created to host tabs, network and audio services, extensions, and other functionality. The particular process can be used to run multiple units of work (e.g., a process responsible for multiple tabs); different apps can share it (e.g., Microsoft Edge browser and PWA (Progressive Web Application) apps sharing resources). Internally, the browser knows its dependencies and how to communicate with the necessary processes, but the Windows platform and other applications do not know how the browser is composed. Having such information is helpful to provide more precise resource usage information (e.g., Task Manager can report which units of work are running on a process) and improve the app's diagnosability. With this, debuggers can simplify developer workloads by describing what kind of work is running on a process.
+For instance, consider the Microsoft Edge browser running on a user's device. The browser runs on a particular process, but other processes are created to host tabs, network and audio services, extensions, and other functionality. The particular process can be used to run multiple units of work, and different apps can share them. Internally, the browser knows its dependencies and how to communicate with the necessary processes, but the Windows platform and other applications do not know how the browser is composed. Having such information is helpful to provide more precise resource usage information and help diagnose issues with the app; Task Manager can report which units of work are running on a process. With this, debuggers can simplify developer workloads by describing what kind of work is running on a process.
 
 Work Units are a data contract implemented over performance counters to allow apps to reveal to the Windows platform what a specific process is being used for. surface their composition to the Windows platform. Each work unit carries the following properties.
 
@@ -22,7 +22,7 @@ Work Units are a data contract implemented over performance counters to allow ap
 
 ## Data contract
 
-Information shared via Work Units in the Windows platform is available to be queried by any app running in the system. The data is provided and consumed using [Performance Counter APIs](https://docs.microsoft.com/en-us/windows/win32/api/_perf/), publicly available and documented. As part of their implementation, performance counters must have a unique identifier string, which we use to identify the label for the Work Unit. The expected format of the perf-counter unique identifier string is.
+Information shared with Work Units in the Windows platform is available to be queried by any app running in the system. The data is provided and consumed using [Performance Counter APIs](https://docs.microsoft.com/en-us/windows/win32/api/_perf/), publicly available and documented. As part of their implementation, performance counters must have a unique identifier string, which we use to identify the label for the Work Unit. The expected format of the perf-counter unique identifier string is.
 
 - Leading "WorkUnit" string.
 - 1-based uniqueId.
@@ -30,9 +30,9 @@ Information shared via Work Units in the Windows platform is available to be que
 - identifier of the main process which represents the application.
 - user-friendly title for the Work Unit.
 
-Notice that if a work unit information must be updated, e.g., the title was changed, it must be informed with the same uniqueId it had when first notified of the platform. New units must use a new unique identifier. The information must be concatenated using the pipe character "|".
+Notice that if a work unit information must be updated, for example, the title was changed, it must be informed with the same uniqueId it had when first notified of the platform. New units must use a new unique identifier. The information must be concatenated using the pipe character "|".
 
-E.g.:
+Sample:
 
     "WorkUnit|1|4321|1019|Instance 1 of pid 1111, owned by 1111"
     "WorkUnit|1|8765|1019|Instance 1 of pid 5555, owned by 5555"
