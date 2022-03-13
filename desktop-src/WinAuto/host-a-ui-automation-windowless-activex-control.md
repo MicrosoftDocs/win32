@@ -39,7 +39,7 @@ If the control container has a Microsoft Active Accessibility implementation, ca
 
 ### Step 2: Implement the IRawElementProviderWindowlessSite interface.
 
-A control container implements the [**IRawElementProviderWindowlessSite**](/windows/desktop/api/uiautomationcore/nn-uiautomationcore-irawelementproviderwindowlesssite) interface enable a windowless control that is based on UI Automation to communicate its accessibility information.
+A control container implements the [**IRawElementProviderWindowlessSite**](/windows/desktop/api/uiautomationcore/nn-uiautomationcore-irawelementproviderwindowlesssite) interface to enable a windowless control that is based on UI Automation to communicate its accessibility information.
 
 1.  Implement [**IRawElementProviderWindowlessSite::GetRuntimeIdPrefix**](/windows/desktop/api/uiautomationcore/nf-uiautomationcore-irawelementproviderwindowlesssite-getruntimeidprefix).
 
