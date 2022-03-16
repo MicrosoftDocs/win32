@@ -1490,7 +1490,6 @@
           - name: "D3D12_VIDEO_ENCODER_TIER_HEVC"
             href: /windows/desktop/api/d3d12video/ne-d3d12video-d3d12_video_encoder_tier_hevc
           - name: "D3D12_VIDEO_ENCODER_VALIDATION_FLAGS"
-            href: /windows/desktop/api/d3d12video/ne-d3d12video-d3d12_video_encoder_validation_flags
             href: /windows/desktop/api/d3d12video/ne-d3d12video-d3d12_video_decode_tier
           - name: "D3D12_VIDEO_EXTENSION_COMMAND_PARAMETER_FLAGS"
             href: /windows/desktop/api/d3d12video/ne-d3d12video-d3d12_video_extension_command_parameter_flags
