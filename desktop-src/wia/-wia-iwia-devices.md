@@ -14,8 +14,6 @@ api_type:
 - COM
 api_location: 
 - Wiascr.dll
-api_location: 
-- Wiascr.dll
 ---
 
 # Wia.Devices property

@@ -15,8 +15,6 @@ api_type:
 - DllExport
 api_location: 
 - vmms.exe
-api_location: 
-- vmms.exe
 ---
 
 # Msvm\_ElementConformsToProfile class
