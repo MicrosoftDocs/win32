@@ -74,9 +74,9 @@ There are two ways to filter results. The IP addresses to filter can be explicit
 
 1.  Configure the host and client to run across the network (that is, make sure that the host and client will operate on different machines).
 2.  Collect the IP address(es) of the device. If the device has multiple addresses (for example, it has both IPv4 and IPv6 addresses) all addresses must be collected.
-3.  Open a command prompt and run the following command: **WSDDebug\_client.exe /mode multicast /ip add** *<device IP>*
+3.  Open a command prompt and run the following command: **WSDDebug\_client.exe /mode multicast /ip add** *\<device IP>*
 
-*<device IP>* is an IP address. The following list shows some sample formats for this IP address.
+*\<device IP>* is an IP address. The following list shows some sample formats for this IP address.
 
 -   192.168.0.1
 -   ::1
@@ -89,7 +89,7 @@ The WSD Debug Client automatically resolves hostnames supplied at the command pr
 1.  Configure the host and client to run across the network (that is, make sure that the host and client will operate on different machines).
 2.  Collect the IP address(es) of the device. If the device has multiple addresses (for example, it has both IPv4 and IPv6 addresses) all addresses must be collected.
 3.  Open a command prompt and run the following command: **WSDDebug\_client.exe /mode multicast**
-4.  At the WSD Debug Client command prompt, run the following command: **ip add** *<device IP>*
+4.  At the WSD Debug Client command prompt, run the following command: **ip add** *\<device IP>*
 5.  Repeat step 4 until all device IP addresses have been added.
 
 The following procedure assumes that the WSD Debug Client has been started and filtering by IP address is occurring.

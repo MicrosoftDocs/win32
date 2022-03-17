@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Windows Filtering Platform exceptions for Teredo
 
-Exceptions that allow applications to receive unsolicited traffic over [Teredo](about-teredo.md) through a firewall must be created using [Windows Filtering Platform](/windows/desktop/FWP/windows-filtering-platform-start-page) APIs. This is accomplished by opening incoming and outgoing application-based exceptions (Application <app name>) at the Teredo Sublayer of ALE for IPv6 traffic. This ensures that only applications with the Teredo exception can use Teredo. Caution should be exercised in the creation of these exceptions. The use of the general " \* " (all) option could allow programs not registered with the Teredo sublayer or tunnel traffic to pass the firewall and pose a threat to security.
+Exceptions that allow applications to receive unsolicited traffic over [Teredo](about-teredo.md) through a firewall must be created using [Windows Filtering Platform](/windows/desktop/FWP/windows-filtering-platform-start-page) APIs. This is accomplished by opening incoming and outgoing application-based exceptions (Application \<app name\>) at the Teredo Sublayer of ALE for IPv6 traffic. This ensures that only applications with the Teredo exception can use Teredo. Caution should be exercised in the creation of these exceptions. The use of the general " \* " (all) option could allow programs not registered with the Teredo sublayer or tunnel traffic to pass the firewall and pose a threat to security.
 
 In any situation at least one blocked application is required, but there can be zero or more allowed applications added by a firewall depending on how many applications need to be permitted.
 
