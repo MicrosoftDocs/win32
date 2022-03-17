@@ -150,7 +150,7 @@ The **ms-FRS-Hub-Member** attribute is used to record the preferred NTFRS topolo
 
 ## Remarks
 
-This is the fully qualified distinguished name of an [**NTFRS-Member**](c-ntfrsmember.md) object. The distinguished name is in the format of "CN=*&lt;computerGuid&gt;*, CN=*<Dfs Link Name>*, CN=*<Dfs Root name>*, CN=DFS Volumes, CN=File Replication Service,CN=System, DC=..."
+This is the fully qualified distinguished name of an [**NTFRS-Member**](c-ntfrsmember.md) object. The distinguished name is in the format of "CN=*&lt;computerGuid&gt;*, CN=*\<Dfs Link Name\>*, CN=*\<Dfs Root name\>*, CN=DFS Volumes, CN=File Replication Service,CN=System, DC=..."
 
  
 
