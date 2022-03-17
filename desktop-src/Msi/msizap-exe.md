@@ -18,7 +18,7 @@ This tool is only available in the [Windows SDK Components for Windows Installer
 
 **msizap T***\[WA!\]{product code}*
 
-**msizap T***\[WA!\]<msi package>*
+**msizap T***\[WA!\]\<msi package\>*
 
 **msizap \****\[WA!\]* **ALLPRODUCTS**
 

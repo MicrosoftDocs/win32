@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # dateTimeFormat
 
-Specifies how [**IPropertyDescription::FormatForDisplay**](/windows/win32/api/propsys/nf-propsys-ipropertydescription-formatfordisplay) should format the property's value as a string. This is applicable only if <displayInfo displayType="DateTime">. There should be only one [dateTimeFormat]() element for each [displayInfo](./propdesc-schema-displayinfo.md) element.
+Specifies how [**IPropertyDescription::FormatForDisplay**](/windows/win32/api/propsys/nf-propsys-ipropertydescription-formatfordisplay) should format the property's value as a string. This is applicable only if \<displayInfo displayType="DateTime"\>. There should be only one [dateTimeFormat]() element for each [displayInfo](./propdesc-schema-displayinfo.md) element.
 
 If there are multiple elements, the last one is used. If no [dateTimeFormat]() element is provided, then the default attribute settings are applied to the property description.
 
