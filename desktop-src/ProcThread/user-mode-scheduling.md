@@ -15,8 +15,8 @@ User-mode scheduling (UMS) is a lightweight mechanism that applications can use 
 
 UMS is recommended for applications with high performance requirements that need to efficiently run many threads concurrently on multiprocessor or multicore systems. To take advantage of UMS, an application must implement a scheduler component that manages the application's UMS threads and determines when they should run. Developers should consider whether their application performance requirements justify the work involved in developing such a component. Applications with moderate performance requirements might be better served by allowing the system scheduler to schedule their threads.
 
-UMS is available for 64-bit applications running on 64-bit versions of Windows 7 and Windows Server 2008 R2 through Windows 10 Version 21H2 and Windows Server 2022.
-This feature is not available on 32-bit versions of Windows or on Windows 11.
+UMS is available for 64-bit applications running on AMD64 and Itanium versions of Windows 7 and Windows Server 2008 R2 through Windows 10 Version 21H2 and Windows Server 2022.
+This feature is not available on Arm64, 32-bit versions of Windows or on Windows 11.
 
 For details, see the following sections:
 
