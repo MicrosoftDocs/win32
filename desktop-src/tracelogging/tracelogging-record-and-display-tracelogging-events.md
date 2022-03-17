@@ -87,7 +87,7 @@ Create a Windows Performance Recorder profile (.wprp) so that you can use WPR to
 2.  Save the file with a .WPRP file name extension.
 3.  Start the capture using WPR from an elevated (run as Administrator) Command Prompt window.
 
-    **<path to wpr>\\wpr.exe -start GeneralProfile -start TraceLoggingProvider.wprp**
+    **\<path to wpr\>\\wpr.exe -start GeneralProfile -start TraceLoggingProvider.wprp**
 
     > \[!Tip\]  
     > For general profiling purposes, you can also add **–start GeneralProfile** to the wpr.exe command line to capture system events along with the events from your provider. If you only want to gather your events, omit **-start GeneralProfile**.
@@ -97,7 +97,7 @@ Create a Windows Performance Recorder profile (.wprp) so that you can use WPR to
 4.  Run the application that contains your events.
 5.  Stop the trace capture.
 
-    **<path to wpr>\\wpr.exe -stop TraceCaptureFile.etl description**
+    **\<path to wpr\>\\wpr.exe -stop TraceCaptureFile.etl description**
 
     > \[!Tip\]  
     > If you added **–start GeneralProfile** to gather system events, add **-stop GeneralProfile** to the **wpr.exe** command line above.
@@ -131,7 +131,7 @@ WPA is currently the only viewer you can use to view TraceLogging trace (.etl) f
 
 1.  Start WPA.
 
-    **<path to wpr>\\wpa.exe traceLoggingResults.etl**
+    **\<path to wpr\>\\wpa.exe traceLoggingResults.etl**
 
 2.  Load the trace (.etl) file that you specified in the wpa.exe command above, e.g. traceLoggingResults.etl.
 3.  View your provider events. In the WPA Graph Explorer, expand **System Activity**.

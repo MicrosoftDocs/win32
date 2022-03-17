@@ -20,7 +20,7 @@ HKLM\\Software\\Microsoft\\Windows\\TabletPC\\Snipping Tool\\LinkFingerprints,
 
 And should create a subkey whose name is the same as the window class from which the link should be obtained. The window class name should be the topmost window of the application.
 
-HKLM\\Software\\Microsoft\\Windows\\TabletPC\\Snipping Tool\\LinkFingerprints\\<Window Class Name>
+HKLM\\Software\\Microsoft\\Windows\\TabletPC\\Snipping Tool\\LinkFingerprints\\\<Window Class Name\>
 
 ### Window Class Key Details
 

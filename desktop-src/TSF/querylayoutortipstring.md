@@ -76,11 +76,11 @@ There is no import library available that defines this function, so it is necess
 
 The string format of the layout list is:
 
-<LangID 1>:<KLID 1>;\[...<LangID N>:<KLID N>
+\<LangID 1\>:\<KLID 1\>;\[...\<LangID N\>:\<KLID N\>
 
 The string format of the text service profile list is:
 
-<LangID 1>:{xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx}{xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx};
+\<LangID 1\>:{xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx}{xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx};
 
 The following is an example of a value for the *psz* parameter:
 
