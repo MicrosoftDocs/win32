@@ -9,7 +9,7 @@ ms.date: 05/31/2018
 
 # Accessing an Unnamed Registry Value
 
-The default, or unnamed value of a registry key is shown as (Default) or <No Name> in the Regedit registry editor. You can use the System Registry provider to access an unnamed registry key. Similarly, you can also use the System Registry provider to access bitmap descriptions, which are defined as unnamed values.
+The default, or unnamed value of a registry key is shown as (Default) or \<No Name> in the Regedit registry editor. You can use the System Registry provider to access an unnamed registry key. Similarly, you can also use the System Registry provider to access bitmap descriptions, which are defined as unnamed values.
 
 The following procedure describes how to retrieve an unnamed registry value.
 
