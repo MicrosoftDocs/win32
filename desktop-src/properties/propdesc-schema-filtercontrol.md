@@ -75,7 +75,7 @@ If there are multiple elements, the last one is used. If no [filterControl]() el
 <tbody>
 <tr class="odd">
 <td>Default</td>
-<td>Default. Uses the default control, based upon the <typeInfo type=&quot;&quot;> attribute. The default type is &quot;DateTime&quot; and the default control is &quot;Calendar&quot;. Any other type results in no special filter control.</td>
+<td>Default. Uses the default control, based upon the \<typeInfo type=&quot;&quot;\> attribute. The default type is &quot;DateTime&quot; and the default control is &quot;Calendar&quot;. Any other type results in no special filter control.</td>
 </tr>
 <tr class="even">
 <td>Calendar</td>
