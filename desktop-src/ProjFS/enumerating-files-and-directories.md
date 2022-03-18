@@ -161,6 +161,7 @@ To participate in directory enumeration the provider must implement the **[PRJ_S
         else
         {
             MY_ENUM_ENTRY* thisEntry = enumHead;
+            int entriesAdded = 0;
             while (thisEntry != NULL)
             {
                 // We'll insert the entry into the return buffer if it matches
@@ -189,11 +190,28 @@ To participate in directory enumeration the provider must implement the **[PRJ_S
 
                     if (fillResult == HRESULT_FROM_WIN32(ERROR_INSUFFICIENT_BUFFER))
                     {
-                        // We couldn't add this entry to the buffer; remember where we left
-                        // off for the next time we're called for this enumeration session.
-                        session->LastEnumEntry = thisEntry;
-                        return S_OK;
+                        if (entriesAdded > 0)
+                        {
+                            // We couldn't add this entry to the buffer; remember where we left
+                            // off for the next time we're called for this enumeration session.
+                            session->LastEnumEntry = thisEntry;
+                            return S_OK;
+                        }
+                        else
+                        {
+                            // The buffer should always have enough space for at least one entry, but
+                            // we could not add even one entry. Return the error.
+                            return fillResult;
+                        }
                     }
+                    else
+                    {
+                        // Any other error is unexpected. NOTE: Be sure to check for E_INVALIDARG to
+                        // ensure you are calling PrjFillDirEntryBuffer2 correctly.
+                        return fillResult;
+                    }
+
+                    ++entriesAdded;
                 }
 
                 thisEntry = thisEntry->Next;
