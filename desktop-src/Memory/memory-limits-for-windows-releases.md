@@ -64,6 +64,39 @@ The following table specifies the limits on physical memory for Windows 10.
 
  
 
+## Physical Memory Limits: Windows Server 2022
+
+The following table specifies the limits on physical memory for Windows Server 2022.
+
+
+
+| Version                        | Limit on X64     |
+|--------------------------------|------------------|
+| Windows Server 2022 Datacenter | 24 TB<br/> |
+| Windows Server 2022 Standard   | 24 TB<br/> |
+| Windows Server 2022 Essentials | 64 GB<br/> |
+
+
+
+ 
+
+## Physical Memory Limits: Windows Server 2019
+
+The following table specifies the limits on physical memory for Windows Server 2019.
+
+
+
+| Version                        | Limit on X64     |
+|--------------------------------|------------------|
+| Windows Server 2019 Datacenter | 24 TB<br/> |
+| Windows Server 2019 Standard   | 24 TB<br/> |
+| Windows Server 2019 Essentials | 64 GB<br/> |
+
+
+
+ 
+
+
 ## Physical Memory Limits: Windows Server 2016
 
 The following table specifies the limits on physical memory for Windows Server 2016.
@@ -74,7 +107,7 @@ The following table specifies the limits on physical memory for Windows Server 
 |--------------------------------|------------------|
 | Windows Server 2016 Datacenter | 24 TB<br/> |
 | Windows Server 2016 Standard   | 24 TB<br/> |
-
+| Windows Server 2016 Standard   | 64 GB<br/> |
 
 
  
