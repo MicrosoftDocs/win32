@@ -40,9 +40,11 @@ Pointer to a [**TOOLINFO**](/windows/win32/api/commctrl/ns-commctrl-tttoolinfoa)
 
 Returns **TRUE** if successful, or **FALSE** otherwise.
 
+## Remakrs
+
+Although the name of the message implicitly indicates the "addition of a tool", it must be made clear that this message merely records a set of specific settings for what is called "a tool", however a ToolTip can be displayed even when there is no "tool" itself (a visual control with a handle), for this reason this message should be interpreted as "add a set of specific settings for the display of a ToolTip ". A ToolTip window can be displayed in several different ways and each of these ways can be registered via the TTM_ADDTOOL message.
+
 ## Requirements
-
-
 
 | Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
@@ -50,8 +52,6 @@ Returns **TRUE** if successful, or **FALSE** otherwise.
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 | Unicode and ANSI names<br/>   | **TTM\_ADDTOOLW** (Unicode) and **TTM\_ADDTOOLA** (ANSI)<br/>                   |
-
-
 
 ## See also
 
