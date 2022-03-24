@@ -95,9 +95,10 @@ VOID SvcInstall()
         return;
     }
 
-    // Put quotes around the path so that for example
-    // "C:\Program Files" isn't interpreted as "C:\Program" and then 
-    // the rest of the path.
+    // In case the path contains a space, it must be quoted so that
+    // it is correctly interpreted. For example,
+    // "d:\my share\myservice.exe" should be specified as
+    // ""d:\my share\myservice.exe"".
     TCHAR szPath[MAX_PATH];
     StringCbPrintf(szPath, MAX_PATH, TEXT("\"%s\""), szUnquotedPath);
 
