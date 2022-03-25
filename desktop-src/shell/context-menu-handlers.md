@@ -3,41 +3,40 @@ description: Shortcut menu handlers, also known as context menu handlers or verb
 ms.assetid: cff79cdc-8a01-4575-9af7-2a485c6a8e46
 title: Creating Shortcut Menu Handlers
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 03/25/2022
 ---
 
 # Creating Shortcut Menu Handlers
 
-Shortcut menu handlers, also known as context menu handlers or verb handlers, are a type of file type handler. These handlers may be impelmented in a way that causes them to load in their own process or in the explorer, or other 3rd party processes. Take care when creating in-process handlers as they can cause harm to the process that loads them.
+Shortcut menu handlers, also known as context menu handlers or verb handlers, are a type of file type handler. These handlers may be implemented in a way that causes them to load in their own process or in the explorer, or other 3rd party processes. Take care when creating in-process handlers as they can cause harm to the process that loads them.
 
 > [!Note]  
 > There are special considerations for 64-bit based versions of Windows when registering handlers that work in the context of 32-bit applications: when invoked in the context of an application of different bitness, the WOW64 subsystem redirects file system access to some paths. If your .exe handler is stored in one of those paths, it is not accessible in this context. Therefore, as a work around, either store your .exe in a path that does not get redirected, or store a stub version of your .exe that launches the real version.
 
 This topic is organized as follows:
 
--   [Canonical Verbs](#canonical-verbs)
--   [Extended Verbs](#extended-verbs)
--   [Programmatic Access Only Verbs](#programmaticaccessonly-verbs)
--   [Customizing a Shortcut Menu Using Static Verbs](#customizing-a-shortcut-menu-using-static-verbs)
-    -   [Activating Your Handler Using the IDropTarget Interface](#activating-your-handler-using-the-idroptarget-interface)
-    -   [Specifying the Position and Order of Static Verbs](#specifying-the-position-and-order-of-static-verbs)
-    -   [Positioning Verbs at the Top or Bottom of the Menu](#positioning-verbs-at-the-top-or-bottom-of-the-menu)
-    -   [Creating Static Cascading Menus](#creating-static-cascading-menus)
-    -   [Getting Dynamic Behavior for Static Verbs by Using Advanced Query Syntax](#getting-dynamic-behavior-for-static-verbs-by-using-advanced-query-syntax)
-    -   [Deprecated: Associating Verbs with Dynamic Data Exchange Commands](#deprecated-associating-verbs-with-dynamic-data-exchange-commands)
--   [Completing Verb Implementation Tasks](#completing-verb-implementation-tasks)
-    -   [Customizing the Shortcut Menu for Predefined Shell Objects](#customizing-the-shortcut-menu-for-predefined-shell-objects)
-    -   [Extending a New Submenu](#extending-a-new-submenu)
-    -   [Suppressing Verbs and Controlling Visibility](#suppressing-verbs-and-controlling-visibility)
-    -   [Employing the Verb Selection Model](#employing-the-verb-selection-model)
-    -   [Using Item Attributes](#using-item-attributes)
-    -   [Implementing Custom Verbs for Folders through Desktop.ini](#implementing-custom-verbs-for-folders-through-desktopini)
--   [Related topics](#related-topics)
+- [Canonical Verbs](#canonical-verbs)
+- [Extended Verbs](#extended-verbs)
+- [Programmatic Access Only Verbs](#programmaticaccessonly-verbs)
+- [Customizing a Shortcut Menu Using Static Verbs](#customizing-a-shortcut-menu-using-static-verbs)
+  - [Activating Your Handler Using the IDropTarget Interface](#activating-your-handler-using-the-idroptarget-interface)
+  - [Specifying the Position and Order of Static Verbs](#specifying-the-position-and-order-of-static-verbs)
+  - [Positioning Verbs at the Top or Bottom of the Menu](#positioning-verbs-at-the-top-or-bottom-of-the-menu)
+  - [Creating Static Cascading Menus](#creating-static-cascading-menus)
+  - [Getting Dynamic Behavior for Static Verbs by Using Advanced Query Syntax](#getting-dynamic-behavior-for-static-verbs-by-using-advanced-query-syntax)
+  - [Deprecated: Associating Verbs with Dynamic Data Exchange Commands](#deprecated-associating-verbs-with-dynamic-data-exchange-commands)
+- [Completing Verb Implementation Tasks](#completing-verb-implementation-tasks)
+  - [Customizing the Shortcut Menu for Predefined Shell Objects](#customizing-the-shortcut-menu-for-predefined-shell-objects)
+  - [Extending a New Submenu](#extending-a-new-submenu)
+  - [Suppressing Verbs and Controlling Visibility](#suppressing-verbs-and-controlling-visibility)
+  - [Employing the Verb Selection Model](#employing-the-verb-selection-model)
+  - [Using Item Attributes](#using-item-attributes)
+  - [Implementing Custom Verbs for Folders through Desktop.ini](#implementing-custom-verbs-for-folders-through-desktopini)
+- [Related topics](#related-topics)
 
 ## Canonical Verbs
 
 Applications are generally responsible for providing localized display strings for the verbs they define. However, to provide a degree of language independence, the system defines a standard set of commonly used verbs called canonical verbs. A canonical verb is never displayed to the user, and can be used with any UI language. The system uses the canonical name to automatically generate a properly localized display string. For instance, the open verb's display string is set to **Open** on an English system, and to the German equivalent on a German system.
-
 
 | Canonical verb | Description                                                          |
 |----------------|----------------------------------------------------------------------|
@@ -73,10 +72,10 @@ The default verb is displayed first on the shortcut menu. Its purpose is to prov
 
 The Shell uses the first available verb in the following order:
 
-1.  The default verb
-2.  The first verb in the registry, if the verb order is specified
-3.  The **Open** verb
-4.  The **Open With** verb
+1. The default verb
+2. The first verb in the registry, if the verb order is specified
+3. The **Open** verb
+4. The **Open With** verb
 
 If none of the verbs listed is available, the operation fails.
 
@@ -84,36 +83,39 @@ Create one subkey for each verb you want to add under the Shell subkey. Each of 
 
 In the following registry example, note that:
 
--   Because **Doit** is not a canonical verb, it is assigned a display name, which can be selected by pressing the D key.
--   The **Printto** verb does not appear on the shortcut menu. However, its inclusion in the registry enables the user to print files by dropping them on a printer icon.
--   One subkey is shown for each verb. **%1** represents the file name and **%2** the printer name.
+- Because **Doit** is not a canonical verb, it is assigned a display name, which can be selected by pressing the D key.
+- The **Printto** verb does not appear on the shortcut menu. However, its inclusion in the registry enables the user to print files by dropping them on a printer icon.
+- One subkey is shown for each verb. **%1** represents the file name and **%2** the printer name.
+- In Windows 11 the default verb and the **Open** verb get displayed in the normal context menu. All the other verbs are displayed in the extended context menu.
 
-```
+```text
 HKEY_CLASSES_ROOT
    .myp-ms
       (Default) = MyProgram.1
       MyProgram.1
          (Default) = My Program Application
-         Shell
-            (Default) = doit
-            doit
-               (Default) = &Do It
-               command
-                  (Default) = c:\MyDir\MyProgram.exe /d "%1"
-            open
-               command
-                  (Default) = c:\MyDir\MyProgram.exe /d "%1"
-            print
-               command
-                  (Default) = c:\MyDir\MyProgram.exe /p "%1"
-            printto
-               command
-                  (Default) = c:\MyDir\MyProgram.exe /p "%1" "%2"
+      shell
+         (Default) = doit
+         doit
+            (Default) = &Do It
+            command
+               (Default) = c:\MyDir\MyProgram.exe /d "%1"
+         open
+            command
+               (Default) = c:\MyDir\MyProgram.exe /d "%1"
+         print
+            command
+               (Default) = c:\MyDir\MyProgram.exe /p "%1"
+         printto
+            command
+               (Default) = c:\MyDir\MyProgram.exe /p "%1" "%2"
 ```
 
 The following diagram illustrates the extension of the shortcut menu in accordance with the registry entries above. This shortcut menu has **Open**, **Do It**, and **Print** verbs on its menu, with **Do It** as the default verb.
 
-![screen shot of the do it default verb shortcut menu](images/context-menu/context-doitdefaultverb.png)
+![Screenshot of the do it default verb shortcut menu](images/context-menu/context-doitdefaultverb.png)
+
+![Screenshot of the do it default verb extended shortcut menu](images/context-menu/context-doitdefaultverb-extended.png)
 
 ### Activating Your Handler Using the IDropTarget Interface
 
@@ -129,11 +131,11 @@ Verbs can be ordered by specifying the default value of the Shell subkey for the
 
 For example, the following registry entry produces shortcut menu verbs in the following order:
 
-1.  Display
-2.  Gadgets
-3.  Personalization
+1. Display
+2. Gadgets
+3. Personalization
 
-```
+```text
 HKEY_CLASSES_ROOT
    DesktopBackground
       Shell
@@ -144,11 +146,11 @@ HKEY_CLASSES_ROOT
 
 Similarly, the following registry entry produces shortcut menu verbs in the following order:
 
-1.  Personalization
-2.  Gadgets
-3.  Display
+1. Personalization
+2. Gadgets
+3. Display
 
-```
+```text
 HKEY_CLASSES_ROOT
    DesktopBackground
       Shell = "Personalization,Gadgets"
@@ -173,9 +175,9 @@ The following screen shot provides an example of a cascading menu.
 
 In Windows 7 and later, there are three ways to create cascading menus:
 
--   [Creating Cascading Menus with the SubCommands Registry Entry](#creating-cascading-menus-with-the-subcommands-registry-entry)
--   [Creating Cascading Menus with the ExtendedSubCommandsKey Registry Entry](#creating-cascading-menus-with-the-extendedsubcommandskey-registry-entry)
--   [Creating Cascading Menus with the IExplorerCommand Interface](#creating-cascading-menus-with-the-iexplorercommand-interface)
+- [Creating Cascading Menus with the SubCommands Registry Entry](#creating-cascading-menus-with-the-subcommands-registry-entry)
+- [Creating Cascading Menus with the ExtendedSubCommandsKey Registry Entry](#creating-cascading-menus-with-the-extendedsubcommandskey-registry-entry)
+- [Creating Cascading Menus with the IExplorerCommand Interface](#creating-cascading-menus-with-the-iexplorercommand-interface)
 
 ### Creating Cascading Menus with the SubCommands Registry Entry
 
@@ -183,9 +185,9 @@ In Windows 7 and later, you can use the SubCommands entry to create cascading m
 
 **To create a cascading menu by using the SubCommands entry**
 
-1.  Create a subkey under **HKEY\_CLASSES\_ROOT**\\*ProgID*\\**shell** to represent your cascading menu. In this example, we give this subkey the name *CascadeTest*. Ensure that the default value of the *CascadeTest* subkey is empty, and shown as **(value not set)**.
+1. Create a subkey under **HKEY\_CLASSES\_ROOT**\\*ProgID*\\**shell** to represent your cascading menu. In this example, we give this subkey the name *CascadeTest*. Ensure that the default value of the *CascadeTest* subkey is empty, and shown as **(value not set)**.
 
-    ```
+    ```text
     HKEY_CLASSES_ROOT
        *
           shell
@@ -193,9 +195,9 @@ In Windows 7 and later, you can use the SubCommands entry to create cascading m
                 (Default)
     ```
 
-2.  To your *CascadeTest* subkey, add a MUIVerb entry of type **REG\_SZ** and assign it the text that will appear as its name on the shortcut menu. In this example, we assign it "Test Cascade Menu".
+2. To your *CascadeTest* subkey, add a MUIVerb entry of type **REG\_SZ** and assign it the text that will appear as its name on the shortcut menu. In this example, we assign it "Test Cascade Menu".
 
-    ```
+    ```text
     HKEY_CLASSES_ROOT
        *
           shell
@@ -204,9 +206,9 @@ In Windows 7 and later, you can use the SubCommands entry to create cascading m
                 MUIVerb = Test Cascade Menu
     ```
 
-3.  To your *CascadeTest* subkey, add a SubCommands entry of type **REG\_SZ** that is assigned list, demlimited by semi-colons, of the verbs that should appear on the menu, in the order of appearance. For example, here we assign a number of system-provided verbs:
+3. To your *CascadeTest* subkey, add a SubCommands entry of type **REG\_SZ** that is assigned list, demlimited by semi-colons, of the verbs that should appear on the menu, in the order of appearance. For example, here we assign a number of system-provided verbs:
 
-    ```
+    ```text
     HKEY_CLASSES_ROOT
        *
           Shell
@@ -215,9 +217,9 @@ In Windows 7 and later, you can use the SubCommands entry to create cascading m
                 Windows.delete;Windows.properties;Windows.rename;Windows.cut;Windows.copy;Windows.paste
     ```
 
-4.  In the case of custom verbs, implement them using any of the static verb implementation methods and list them under the **CommandStore** subkey as shown in this example for a fictional verb *VerbName*:
+4. In the case of custom verbs, implement them using any of the static verb implementation methods and list them under the **CommandStore** subkey as shown in this example for a fictional verb *VerbName*:
 
-    ```
+    ```text
     HKEY_LOCAL_MACHINE
        Software
           Microsoft
@@ -234,8 +236,6 @@ In Windows 7 and later, you can use the SubCommands entry to create cascading m
 > [!Note]  
 > This method has the advantage that the custom verbs can be registered once and reused by listing the verb name under the SubCommands entry. However, it requires the application to have permission to modify the registry under **HKEY\_LOCAL\_MACHINE**.
 
- 
-
 ### Creating Cascading Menus with the ExtendedSubCommandsKey Registry Entry
 
 In Windows 7 and later, you can use the ExtendedSubCommandKey entry to create extended cascading menus: cascading menus within cascading menus.
@@ -248,9 +248,9 @@ Because **HKEY\_CLASSES\_ROOT** is a combination of **HKEY\_CURRENT\_USER** and 
 
 **To create a cascading menu by using an ExtendedSubCommandsKey entry**
 
-1.  Create a subkey under **HKEY\_CLASSES\_ROOT**\\*ProgID*\\**shell** to represent your cascading menu. In this example, we give this subkey the name *CascadeTest2*. Ensure that the default value of the *CascadeTest* subkey is empty, and shown as **(value not set)**.
+1. Create a subkey under **HKEY\_CLASSES\_ROOT**\\*ProgID*\\**shell** to represent your cascading menu. In this example, we give this subkey the name *CascadeTest2*. Ensure that the default value of the *CascadeTest* subkey is empty, and shown as **(value not set)**.
 
-    ```
+    ```text
     HKEY_CLASSES_ROOT
        *
           shell
@@ -258,7 +258,7 @@ Because **HKEY\_CLASSES\_ROOT** is a combination of **HKEY\_CURRENT\_USER** and 
                 (Default)
     ```
 
-2.  To your *CascadeTest* subkey, add a MUIVerb entry of type **REG\_SZ** and assign it the text that will appear as its name on the shortcut menu. In this example, we assign it "Test Cascade Menu".
+2. To your *CascadeTest* subkey, add a MUIVerb entry of type **REG\_SZ** and assign it the text that will appear as its name on the shortcut menu. In this example, we assign it "Test Cascade Menu".
 
     ```
     HKEY_CLASSES_ROOT
@@ -269,7 +269,7 @@ Because **HKEY\_CLASSES\_ROOT** is a combination of **HKEY\_CURRENT\_USER** and 
                 MUIVerb = Test Cascade Menu 2
     ```
 
-3.  Under the *CascadeTest* subkey you have created, add an **ExtendedSubCommandsKey** subkey, and then add the document subcommands (of **REG\_SZ** type); for example:
+3. Under the *CascadeTest* subkey you have created, add an **ExtendedSubCommandsKey** subkey, and then add the document subcommands (of **REG\_SZ** type); for example:
 
     ```
     HKEY_CLASSES_ROOT
@@ -285,7 +285,7 @@ Because **HKEY\_CLASSES\_ROOT** is a combination of **HKEY\_CURRENT\_USER** and 
 
     Ensure that the default value of the *Test Cascade Menu 2* subkey is empty, and shown as **(value not set)**.
 
-4.  Populate the subverbs using any of the following static verb implementations. Note that the CommandFlags subkey represents EXPCMDFLAGS values. If you want to add a separator before or after the cascade menu item, use ECF\_SEPARATORBEFORE (0x20) or ECF\_SEPARATORAFTER (0x40). For a description of these Windows 7 and later flags, see [**IExplorerCommand::GetFlags**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iexplorercommand-getflags). ECF\_SEPARATORBEFORE works only for the top level menu items. MUIVerb is of type **REG\_SZ**, and CommandFlags is of type **REG\_DWORD**.
+4. Populate the subverbs using any of the following static verb implementations. Note that the CommandFlags subkey represents EXPCMDFLAGS values. If you want to add a separator before or after the cascade menu item, use ECF\_SEPARATORBEFORE (0x20) or ECF\_SEPARATORAFTER (0x40). For a description of these Windows 7 and later flags, see [**IExplorerCommand::GetFlags**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iexplorercommand-getflags). ECF\_SEPARATORBEFORE works only for the top level menu items. MUIVerb is of type **REG\_SZ**, and CommandFlags is of type **REG\_DWORD**.
 
     ```
     HKEY_CLASSES_ROOT
@@ -325,8 +325,6 @@ The following screen shot illustrates another implementation of a cascading menu
 > [!Note]  
 > Because [**IExplorerCommand**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorercommand) supports in-process activation only, it is recommended for use by Shell data sources that need to share the implementation between commands and shortcut menus.
 
- 
-
 ### Getting Dynamic Behavior for Static Verbs by Using Advanced Query Syntax
 
 Advanced Query Syntax (AQS) can express a condition that will be evaluated using properties from the item that the verb is being instantiated for. This system works only with fast properties. These are properties that the Shell data source reports as fast by not returning [****SHCOLSTATE\_SLOW****](/windows/win32/api/shtypes/ne-shtypes-shcolstate) from [**IShellFolder2::GetDefaultColumnState**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder2-getdefaultcolumnstate).
@@ -339,9 +337,9 @@ System.StructuredQueryType.Boolean#True
 
 In the following example registry entry:
 
--   The **AppliesTo** value controls whether the verb is displayed or hidden.
--   The DefaultAppliesTo value controls which verb is the default.
--   The HasLUAShield value controls whether a User Account Control (UAC) shield is displayed.
+- The **AppliesTo** value controls whether the verb is displayed or hidden.
+- The DefaultAppliesTo value controls which verb is the default.
+- The HasLUAShield value controls whether a User Account Control (UAC) shield is displayed.
 
 In this example the **DefaultAppliesTo** value makes this verb the default for any file with the word "exampleText1" in its file name. The **AppliesTo** value enables the verb for any file with "exampleText1" in the name. The **HasLUAShield** value displays the shield for files with "exampleText2" in the name.
 
@@ -368,8 +366,8 @@ HKEY_CLASSES_ROOT
 
 In the Windows 7 registry, see **HKEY\_CLASSES\_ROOT**\\**drive** as an example of bitlocker verbs that employ the following approach:
 
--   AppliesTo = System.Volume.BitlockerProtection:=2
--   System.Volume.BitlockerRequiresAdmin:=System.StructuredQueryType.Boolean\#True
+- AppliesTo = System.Volume.BitlockerProtection:=2
+- System.Volume.BitlockerRequiresAdmin:=System.StructuredQueryType.Boolean\#True
 
 For more information about AQS, see [Advanced Query Syntax](../search/-search-3x-advancedquerysyntax.md).
 
@@ -399,18 +397,12 @@ To add a file-creation command to the **New** submenu, your application's files 
 
 To specify the file creation method, assign one or more data values to the **ShellNew** subkey. The available values are listed in the following table.
 
-
-
 | ShellNew subkey value | Description                                                                                                                                                              |
 |-----------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Command               | Executes an application. This **REG\_SZ** value specifies the path of the application to be executed. For example, you could set it to launch a wizard.                  |
 | Data                  | Creates a file containing specified data. This **REG\_BINARY** value specifies the file's data. **Data** is ignored if either **NullFile** or **FileName** is specified. |
 | FileName              | Creates a file that is a copy of a specified file. This **REG\_SZ** value specifies the fully qualified path of the file to be copied.                                   |
 | NullFile              | Creates an empty file. **NullFile** has no assigned a value. If **NullFile** is specified, the **Data** and **FileName** registry values are ignored.                    |
-
-
-
- 
 
 The following registry key example and screen shot illustrate the **New** submenu for the .myp-ms file type. It has a command, **MyProgram Application**.
 
@@ -463,23 +455,17 @@ You can use Windows policy settings to control verb visibility. Verbs can be sup
 
 Registry values must be set for verbs to handle situations where a user can select a single item, multiple items, or a selection from an item. A verb requires separate registry values for each of these three situations that the verb supports. The possible values for the verb selection model are as follows:
 
--   Specify the MultiSelectModel value for all verbs. If the MultiSelectModel value is not specified, it is inferred from the type of verb implementation you have chosen. For COM-based methods (such as DropTarget and ExecuteCommand) **Player** is assumed, and for the other methods **Document** is assumed.
--   Specify **Single** for verbs that support only a single selection.
--   Specify **Player** for verbs that support any number of items.
--   Specify **Document** for verbs that create a top level window for each item. Doing so limits the number of items activated and helps avoid running out of system resources if the user opens too many windows.
+- Specify the MultiSelectModel value for all verbs. If the MultiSelectModel value is not specified, it is inferred from the type of verb implementation you have chosen. For COM-based methods (such as DropTarget and ExecuteCommand) **Player** is assumed, and for the other methods **Document** is assumed.
+- Specify **Single** for verbs that support only a single selection.
+- Specify **Player** for verbs that support any number of items.
+- Specify **Document** for verbs that create a top level window for each item. Doing so limits the number of items activated and helps avoid running out of system resources if the user opens too many windows.
 
 When the number of items selected does not match the verb selection model or is greater than the default limits outlined in the following table, the verb fails to appear.
-
-
 
 | Type of verb implementation | Document | Player    |
 |-----------------------------|----------|-----------|
 | Legacy                      | 15 items | 100 items |
 | COM                         | 15 items | No limit  |
-
-
-
- 
 
 The following are example registry entries using the MultiSelectModel value.
 
@@ -505,9 +491,9 @@ The [**SFGAO**](sfgao.md) flag values of the Shell attributes for an item can be
 
 To use this attribute feature, add the following the **REG\_DWORD** values under the verb:
 
--   The AttributeMask value specifies the [**SFGAO**](sfgao.md) value of the bit values of the mask to test with.
--   The AttributeValue value specifies the [**SFGAO**](sfgao.md) value of the bits that are tested.
--   The ImpliedSelectionModel specifies zero for item verbs, or nonzero for verbs on the background shortcut menu.
+- The AttributeMask value specifies the [**SFGAO**](sfgao.md) value of the bit values of the mask to test with.
+- The AttributeValue value specifies the [**SFGAO**](sfgao.md) value of the bits that are tested.
+- The ImpliedSelectionModel specifies zero for item verbs, or nonzero for verbs on the background shortcut menu.
 
 In the following example registry entry, the AttributeMask is set to [**SFGAO\_READONLY**](sfgao.md) (0x40000).
 
@@ -530,14 +516,12 @@ In Windows 7 and later, you can add verbs to a folder through Desktop.ini. For 
 > [!Note]  
 > Desktop.ini files should always be marked **System** + **Hidden** so they won't be displayed to users.
 
- 
-
 **To add custom verbs for folders through a Desktop.ini file, perform the following steps:**
 
-1.  Create a folder that is marked **Read-only** or **System**.
-2.  Create a Desktop.ini file that includes a \[.ShellClassInfo\] DirectoryClass=Folder ProgID.
-3.  In the registry create **HKEY\_CLASSES\_ROOT**\\**Folder ProgID** with a value of CanUseForDirectory. The CanUseForDirectory value avoids the misuse of ProgIDs that are set not to participate in implementing custom verbs for folders through Desktop.ini.
-4.  Add verbs under the **Folder**ProgID subkey, for example:
+1. Create a folder that is marked **Read-only** or **System**.
+2. Create a Desktop.ini file that includes a \[.ShellClassInfo\] DirectoryClass=Folder ProgID.
+3. In the registry create **HKEY\_CLASSES\_ROOT**\\**Folder ProgID** with a value of CanUseForDirectory. The CanUseForDirectory value avoids the misuse of ProgIDs that are set not to participate in implementing custom verbs for folders through Desktop.ini.
+4. Add verbs under the **Folder**ProgID subkey, for example:
 
     ```
     HKEY_CLASSES_ROOT
@@ -550,8 +534,6 @@ In Windows 7 and later, you can add verbs to a folder through Desktop.ini. For 
 
 > [!Note]  
 > These verbs can be the default verb, in which case double-clicking the folder activates the verb.
-
- 
 
 ## Related topics
 
@@ -574,7 +556,3 @@ In Windows 7 and later, you can add verbs to a folder through Desktop.ini. For 
 
 [Shortcut Menu Reference](context-menu-reference.md)
 </dt> </dl>
-
- 
-
- 

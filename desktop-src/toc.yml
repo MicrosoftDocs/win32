@@ -1,3 +1,4 @@
+items:
 - name: "Desktop Win32 apps"
   href: ./index.yml
   items: 
@@ -31,7 +32,6 @@
   - name: "Design"
     href: ./uxguide/guidelines.md
   - name: "Develop"
-    href: 
     items: 
     - name: "Desktop App Technologies"
       items: 
@@ -430,25 +430,20 @@
         - name: "Cryptography API: Next Generation"
           href: ./seccng/cng-portal.md
         - name: "Directory, Identity, and Access Services"
-          href: 
           items: 
           - name: "Directory Services"
-            href: 
             items: 
             - name: Directories
-              href: 
               items: 
               - name: "Active Directory Domain Services"
                 href: ./ad/active-directory-domain-services.md
               - name: "Active Directory Schema"
                 href: ./adschema/active-directory-schema.md
             - name: "Directory Access Technologies"
-              href: 
               items: 
               - name: "Active Directory Service Interfaces"
                 href: ./adsi/active-directory-service-interfaces-adsi.md
           - name: "Access Management Services"
-            href: 
             items: 
             - name: "Active Directory Federation Services"
               items: 
@@ -592,7 +587,6 @@
         - name: "Windows Management Infrastructure Managed API"
           href: /previous-versions/windows/desktop/wmi_v2/mi-managed-api/mt738833(v=vs.85)
         - name: "WMI Providers"
-          href: 
           items: 
           - name: "Boot Event Collector WMI Provider"
             href: ./bevtcolprov/boot-event-collector-wmi-provider-portal.md
