@@ -20,7 +20,7 @@ This is the service. The command line tool can be found [here](filereptoolexampl
 
 The command line parameters for the client mode are as follows:
 
-**WsFileRepService.exe client** *<Service Url>* **\[/reporting:<error/info/verbose>\] \[/encoding:<text/binary/MTOM>\] \[/connections:***<number of connections>***\]**
+**WsFileRepService.exe client** *\<Service Url>* **\[/reporting:<error/info/verbose>\] \[/encoding:<text/binary/MTOM>\] \[/connections:***\<number of connections>***\]**
 
 <dl> <dt>
 
@@ -61,7 +61,7 @@ Optional. Specifies the maximum number of concurrent requests that will be proce
 
 The command line parameters for the server mode are as follows:
 
-**WsFileRepService.exe server** *<Service Url>* **\[/reporting:<error/info/verbose>\] \[/encoding:<text/binary/MTOM>\] \[/connections:***<number of connections>***\] \[/chunk:***<size of the payload per message in bytes>***\]**
+**WsFileRepService.exe server** *\<Service Url>* **\[/reporting:<error/info/verbose>\] \[/encoding:<text/binary/MTOM>\] \[/connections:***\<number of connections>***\] \[/chunk:***\<size of the payload per message in bytes>***\]**
 
 <dl> <dt>
 

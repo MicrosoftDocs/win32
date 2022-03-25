@@ -47,7 +47,7 @@ where grouping ranges are defined as follows:
 
 The GROUP ON &lt;column&gt; can be a regular or delimited [identifier](-search-sql-identifiers.md) for a property in the property store.
 
-The optional <group ranges> is a list of one or more values (number, date, or string) used for dividing the results into groups. The <range limit> identifies a division point in the returned result set, and the <label> identifies a user-friendly label for a group. You can divide the result set into as many groups as you need.
+The optional \<group range\> is a list of one or more values (number, date, or string) used for dividing the results into groups. The \<range limit\> identifies a division point in the returned result set, and the <label> identifies a user-friendly label for a group. You can divide the result set into as many groups as you need.
 
 The first group of results includes items with the minimum possible value for the specified property up to but not including the first range limit. This group can be referred to with the MINVALUE keyword. The second group can be referred to with the range limit specifier itself and includes items whose value for the specified property is equal to or greater than the range limit. Any items that do not have a value for the specified property are returned last and can be referred to with the **NULL** keyword.
 

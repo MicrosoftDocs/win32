@@ -105,7 +105,7 @@ Place the AppxManifest.xml in the root of a directory containing all of the payl
 
 ### To create a package bundle using a directory structure
 
-We use the **bundle** command to create an app bundle at <output bundle name> by adding all packages from <content directory> (including subfolders). If <content directory> contains a bundle manifest, AppxBundleManifest.xml, it is ignored.
+We use the **bundle** command to create an app bundle at \<output bundle name\> by adding all packages from \<content directory\> (including subfolders). If \<content directory\> contains a bundle manifest, AppxBundleManifest.xml, it is ignored.
 
 1.  Place all packages in a single directory structure, creating subdirectories as desired.
 
@@ -115,9 +115,9 @@ We use the **bundle** command to create an app bundle at <output bundle name> by
 
 ### To create a package bundle using a mapping file
 
-We use the **bundle** command to create an app bundle at <output bundle name> by adding all packages from a list of packages within <mapping file>. If <mapping file> contains a bundle manifest, AppxBundleManifest.xml, it is ignored.
+We use the **bundle** command to create an app bundle at \<output bundle name\> by adding all packages from a list of packages within \<mapping file\>. If \<mapping file\> contains a bundle manifest, AppxBundleManifest.xml, it is ignored.
 
-1.  Create a <mapping file>. The first line contains the string **\[Files\]**, and the lines that follow specify the packages to add to the bundle. Each package is described by a pair of paths in quotation marks, separated by spaces or tabs. The pair of paths represents the package's source (on disk) and destination (in bundle). All destination package names must have the .appx extension.
+1.  Create a \<mapping file\>. The first line contains the string **\[Files\]**, and the lines that follow specify the packages to add to the bundle. Each package is described by a pair of paths in quotation marks, separated by spaces or tabs. The pair of paths represents the package's source (on disk) and destination (in bundle). All destination package names must have the .appx extension.
 
     ``` syntax
         [Files]
@@ -312,7 +312,7 @@ Creates an encrypted app package from the specified input app package at the spe
 
 <dl> <dt>
 
-<span id="_kf__key_file_"></span><span id="_KF__KEY_FILE_"></span>**/kf** *<key file>*
+<span id="_kf__key_file_"></span><span id="_KF__KEY_FILE_"></span>**/kf** *\<key file\>*
 </dt> <dd>
 
 Encrypts the package or bundle using the key from the specified key file. You can't use this option with **kt**.
@@ -332,7 +332,7 @@ Creates an unencrypted app package from the specified input app package at the s
 
 <dl> <dt>
 
-<span id="_kf__key_file_"></span><span id="_KF__KEY_FILE_"></span>**/kf** *<key file>*
+<span id="_kf__key_file_"></span><span id="_KF__KEY_FILE_"></span>**/kf** *\<key file\>*
 </dt> <dd>
 
 Decrypts the package or bundle using the key from the specified key file. You can't use this option with **kt**.

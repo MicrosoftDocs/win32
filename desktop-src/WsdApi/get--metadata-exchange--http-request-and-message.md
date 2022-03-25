@@ -132,7 +132,7 @@ A Get message has the following focus points.
 </tr>
 <tr class="odd">
 <td>MessageID</td>
-<td><pre class="syntax" data-space="preserve"><code><wsa:MessageID>
+<td><pre class="syntax" data-space="preserve"><code>\<wsa:MessageID>
     urn:uuid:027bec45-c37c-466c-936c-68f648abe2bb
 </wsa:MessageID></code></pre></td>
 <td>Contains the message identifier, which is referenced in a <a href="getresponse--metadata-exchange--message.md">GetResponse</a> message.</td>

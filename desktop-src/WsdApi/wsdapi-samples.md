@@ -1,4 +1,5 @@
 ---
+
 description: There are two WSDAPI samples included with the Windows SDK for Windows Server 2008.
 ms.assetid: 156b79ef-1f05-4ef1-9df9-81fe81c73ca7
 title: WSDAPI Samples
@@ -8,9 +9,9 @@ ms.date: 05/31/2018
 
 # WSDAPI Samples
 
-There are two WSDAPI samples included with the Windows SDK for Windows Server 2008. The source code for the samples can be found in <Windows SDK Install Folder>\\Samples\\Web\\WSDAPI. This version of the SDK is available from the [Download Center](https://www.microsoft.com/downloads/details.aspx?FamilyID=f26b1aa4-741a-433a-9be5-fa919850bdbf). The samples are not available in the Windows Vista SDK.
+There are two WSDAPI samples included with the Windows SDK for Windows Server 2008. The source code for the samples can be found in \<Windows SDK Install Folder>\\Samples\\Web\\WSDAPI. This version of the SDK is available from the [Download Center](https://www.microsoft.com/downloads/details.aspx?FamilyID=f26b1aa4-741a-433a-9be5-fa919850bdbf). The samples are not available in the Windows Vista SDK.
 
-The stock quote sample (located in <Windows SDK Install Folder>\\Samples\\Web\\WSDAPI\\StockQuote) demonstrates a service with basic messaging functionality. The file service sample (located in <Windows SDK Install Folder>\\Samples\\Web\\WSDAPI\\FileService) demonstrates a service with advanced functionality, such as asynchronous messaging, attachments, and eventing.
+The stock quote sample (located in \<Windows SDK Install Folder>\\Samples\\Web\\WSDAPI\\StockQuote) demonstrates a service with basic messaging functionality. The file service sample (located in \<Windows SDK Install Folder>\\Samples\\Web\\WSDAPI\\FileService) demonstrates a service with advanced functionality, such as asynchronous messaging, attachments, and eventing.
 
 Both samples include the following types of files.
 

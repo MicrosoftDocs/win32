@@ -87,13 +87,20 @@ VOID SvcInstall()
 {
     SC_HANDLE schSCManager;
     SC_HANDLE schService;
-    TCHAR szPath[MAX_PATH];
+    TCHAR szUnquotedPath[MAX_PATH];
 
-    if( !GetModuleFileName( NULL, szPath, MAX_PATH ) )
+    if( !GetModuleFileName( NULL, szUnquotedPath, MAX_PATH ) )
     {
         printf("Cannot install service (%d)\n", GetLastError());
         return;
     }
+
+    // In case the path contains a space, it must be quoted so that
+    // it is correctly interpreted. For example,
+    // "d:\my share\myservice.exe" should be specified as
+    // ""d:\my share\myservice.exe"".
+    TCHAR szPath[MAX_PATH];
+    StringCbPrintf(szPath, MAX_PATH, TEXT("\"%s\""), szUnquotedPath);
 
     // Get a handle to the SCM database. 
  

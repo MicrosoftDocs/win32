@@ -69,7 +69,7 @@ The name by which the **dispinterface** is known in the type library. This name 
 
 (Syntax 1) A list comprising a function prototype for each method and property in the **dispinterface**. Any number of function definitions can appear in *methlist*. A function in *methlist* has the following form:
 
-**\[***attributes***\]** *returntype methname type paramname***(***params***);**
+**\[***attributes***\]** *returntype methname type paramname* **(***params***);**
 
 The following attributes are accepted on a method in a **dispinterface**: **\[helpstring\]**, **\[helpcontext\]**, **\[**[**propget**](propget.md)**\]**, **\[**[**propput**](propput.md)**\]**, **\[**[**propputref**](propputref.md)**\]**, **\[**[**string**](string.md)**\]**, and **\[**[**vararg**](vararg.md)**\]**. If **\[vararg\]** is specified, the last parameter must be a safe array of **VARIANT** type.
 

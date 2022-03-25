@@ -80,7 +80,7 @@ A pointer to a **WORD** that will receive the protocol offset.
 
 The starting point of the search. By default, this function searches forward 1,000 frames from the *OriginalFrameNumber* starting point. To change the search-forward distance, add this line to the Nmapi.ini file, located in the \\Network Monitor directory.
 
-MAXLOOKBACK=<new lookforward distance>
+MAXLOOKBACK=\<new lookforward distance\>
 
 </dd> <dt>
 

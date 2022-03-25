@@ -121,7 +121,7 @@ Module syntax error. You have used the SNMPv2C-specific AGENT-CAPABILITIES in th
 
 <dl> <dt>
 
-<span id="_230__Warning_____fileName___line______the_wrong_token___used._Assuming________"></span><span id="_230__warning_____filename___line______the_wrong_token___used._assuming________"></span><span id="_230__WARNING_____FILENAME___LINE______THE_WRONG_TOKEN___USED._ASSUMING________"></span>**<230, Warning>: "&lt;fileName&gt;:<line\#>: '<the wrong token>' used. Assuming '::=' "**
+<span id="_230__Warning_____fileName___line______the_wrong_token___used._Assuming________"></span><span id="_230__warning_____filename___line______the_wrong_token___used._assuming________"></span><span id="_230__WARNING_____FILENAME___LINE______THE_WRONG_TOKEN___USED._ASSUMING________"></span>**<230, Warning>: "&lt;fileName&gt;:<line\#>: '\<the wrong token>' used. Assuming '::=' "**
 </dt> <dd>
 
 The token ":=", "::", or "=" has been used instead of "::=".
