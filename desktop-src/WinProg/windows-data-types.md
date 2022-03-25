@@ -1480,7 +1480,7 @@ For more information about handling 64-bit integers, see [Large Integers](large-
 <td><span id="UINT64"></span><span id="uint64"></span><strong>UINT64</strong></td>
 <td><p>An unsigned <a href="#int64"><strong>INT64</strong></a>. The range is 0 through 18446744073709551615 decimal.</p>
 <p>This type is declared in BaseTsd.h as follows:</p>
-<p><code>typedef usigned __int 64 UINT64;</code></p></td>
+<p><code>typedef unsigned __int64 UINT64;</code></p></td>
 </tr>
 <tr class="odd">
 <td><span id="ULONG"></span><span id="ulong"></span><strong>ULONG</strong></td>
