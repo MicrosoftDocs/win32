@@ -105,6 +105,8 @@ Some CTRL key combinations are translated into ASCII control characters. For exa
 
 The following code displays the main keyboard messages in the debugger. Try playing with different keystroke combinations and see what messages are generated.
 
+> [!Note]  
+> Be sure to include wchar.h or else swprintf_s will be undefined.
 
 ```C++
 LRESULT CALLBACK WindowProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam)
