@@ -8,9 +8,15 @@ ms.date: 03/25/2022
 
 # Creating Shortcut Menu Handlers
 
+> [!IMPORTANT]
+> Although this documentation shows a way which still works in Windows 11, it's recommended to use the new Windows 11 Explorer Context Menu API instead. You can find more information in [the make great apps for Windows guide](/windows/apps/get-started/make-apps-great-for-windows#8-optimize-your-apps-context-menu-extensions-and-share-targets).
+
+> [!TIP]
+> If you develop a packaged desktop app please follow [the corresponding documentation](/windows/apps/desktop/modernize/integrate-packaged-app-with-file-explorer).
+
 Shortcut menu handlers, also known as context menu handlers or verb handlers, are a type of file type handler. These handlers may be implemented in a way that causes them to load in their own process or in the explorer, or other 3rd party processes. Take care when creating in-process handlers as they can cause harm to the process that loads them.
 
-> [!Note]  
+> [!NOTE]  
 > There are special considerations for 64-bit based versions of Windows when registering handlers that work in the context of 32-bit applications: when invoked in the context of an application of different bitness, the WOW64 subsystem redirects file system access to some paths. If your .exe handler is stored in one of those paths, it is not accessible in this context. Therefore, as a work around, either store your .exe in a path that does not get redirected, or store a stub version of your .exe that launches the real version.
 
 This topic is organized as follows:
@@ -40,15 +46,15 @@ Applications are generally responsible for providing localized display strings f
 
 | Canonical verb | Description                                                          |
 |----------------|----------------------------------------------------------------------|
-| Open           | Opens the file or folder.                                            |
-| Opennew        | Opens the file or folder in a new window.                            |
-| Print          | Prints the file.                                                     |
-| Printto        | Permits the user to print a file by dragging it to a printer object. |
-| Explore        | Opens Windows Explorer with the folder selected.                     |
-| Properties     | Opens the object's property sheet.                                   |
+| open           | Opens the file or folder.                                            |
+| opennew        | Opens the file or folder in a new window.                            |
+| print          | Prints the file.                                                     |
+| printto        | Permits the user to print a file by dragging it to a printer object. |
+| explore        | Opens Windows Explorer with the folder selected.                     |
+| properties     | Opens the object's property sheet.                                   |
 
-> [!Note]  
-> The **Printto** verb is also canonical, but it is never displayed. Its inclusion enables the user to print a file by dragging it to a printer object.
+> [!NOTE]  
+> The **Printto** verb is also canonical, but it is never displayed. Its inclusion enabled the user to print a file by dragging it to a printer object. Windows 10 and later doesn't allow the user to print a file by dragging it to a printer object anymore.
 
 Shortcut menu handlers can provide their own canonical verbs through [**IContextMenu::GetCommandString**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontextmenu-getcommandstring) with **GCS\_VERBW**, or **GCS\_VERBA**. The system will use the canonical verbs as the second parameter (*lpOperation*) passed to [**ShellExecute**](/windows/desktop/api/Shellapi/nf-shellapi-shellexecutea), and is the [**CMINVOKECOMMANDINFO**](/windows/desktop/api/Shobjidl_core/ns-shobjidl_core-cminvokecommandinfo).**lpVerb** member passed to the [**IContextMenu::InvokeCommand**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontextmenu-invokecommand) method.
 
@@ -79,6 +85,9 @@ The Shell uses the first available verb in the following order:
 
 If none of the verbs listed is available, the operation fails.
 
+> [!CAUTION]
+> The **properties** and the **opennew** verb don't work in this context.
+
 Create one subkey for each verb you want to add under the Shell subkey. Each of these subkeys must have a **REG\_SZ** value set to the verb's display string (localized string). For each verb subkey, create a command subkey with the default value set to the command line for activating the items. For canonical verbs, such as **Open** and **Print**, you can omit the display string because the system automatically displays a properly localized string. For noncanonical verbs, if you omit the display string, the verb string is displayed.
 
 In the following registry example, note that:
@@ -92,28 +101,27 @@ In the following registry example, note that:
 HKEY_CLASSES_ROOT
    .myp-ms
       (Default) = MyProgram.1
-      MyProgram.1
-         (Default) = My Program Application
+   MyProgram.1
+      (Default) = My Program Application
       shell
          (Default) = doit
          doit
             (Default) = &Do It
             command
-               (Default) = c:\MyDir\MyProgram.exe /d "%1"
+               (Default) = "c:\MyDir\MyProgram.exe" "/d" "%1"
          open
             command
-               (Default) = c:\MyDir\MyProgram.exe /d "%1"
+               (Default) = "c:\MyDir\MyProgram.exe" "/d" "%1"
          print
             command
-               (Default) = c:\MyDir\MyProgram.exe /p "%1"
-         printto
-            command
-               (Default) = c:\MyDir\MyProgram.exe /p "%1" "%2"
+               (Default) = "c:\MyDir\MyProgram.exe" "/p" "%1"
 ```
 
-The following diagram illustrates the extension of the shortcut menu in accordance with the registry entries above. This shortcut menu has **Open**, **Do It**, and **Print** verbs on its menu, with **Do It** as the default verb.
+The following diagram illustrates the extension of the shortcut menu in accordance with the registry entries above. This shortcut menu has **Open** and **Do It** verbs on its menu, with **Do It** as the default verb.
 
 ![Screenshot of the do it default verb shortcut menu](images/context-menu/context-doitdefaultverb.png)
+
+The extended context menu additionally has the **Print** verb.
 
 ![Screenshot of the do it default verb extended shortcut menu](images/context-menu/context-doitdefaultverb-extended.png)
 
@@ -161,17 +169,17 @@ HKEY_CLASSES_ROOT
 
 The following registry attribute can be used to place a verb at the top or bottom of the menu. If there are multiple verbs that specify this attribute then the last one to do so gets priority:
 
-``` syntax
-Position=Top | Bottom 
+```text
+Position = Top | Bottom 
 ```
 
 ### Creating Static Cascading Menus
 
 In Windows 7 and later, cascading menu implementation is supported through registry settings. Prior to Windows 7, the creation of cascading menus was possible only through the implementation of the [**IContextMenu**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-icontextmenu) interface. In Windows 7 and later, you should resort to COM code-based solutions only when the static methods are insufficient.
 
-The following screen shot provides an example of a cascading menu.
+The following screenshot provides an example of a cascading menu.
 
-![screen shot showing an example of a cascading menu](images/file-assoc/filecascademenu2ndex.png)
+![screenshot showing an example of a cascading menu](images/file-assoc/filecascademenu2ndex.png)
 
 In Windows 7 and later, there are three ways to create cascading menus:
 
@@ -179,11 +187,14 @@ In Windows 7 and later, there are three ways to create cascading menus:
 - [Creating Cascading Menus with the ExtendedSubCommandsKey Registry Entry](#creating-cascading-menus-with-the-extendedsubcommandskey-registry-entry)
 - [Creating Cascading Menus with the IExplorerCommand Interface](#creating-cascading-menus-with-the-iexplorercommand-interface)
 
-### Creating Cascading Menus with the SubCommands Registry Entry
+#### Creating Cascading Menus with the SubCommands Registry Entry
+
+>[!NOTE]
+> In Windows 11 this cascading menus are only shown in the extended context menu.
 
 In Windows 7 and later, you can use the SubCommands entry to create cascading menus by using the following procedure.
 
-**To create a cascading menu by using the SubCommands entry**
+**To create a cascading menu by using the SubCommands entry:**
 
 1. Create a subkey under **HKEY\_CLASSES\_ROOT**\\*ProgID*\\**shell** to represent your cascading menu. In this example, we give this subkey the name *CascadeTest*. Ensure that the default value of the *CascadeTest* subkey is empty, and shown as **(value not set)**.
 
@@ -206,16 +217,18 @@ In Windows 7 and later, you can use the SubCommands entry to create cascading m
                 MUIVerb = Test Cascade Menu
     ```
 
-3. To your *CascadeTest* subkey, add a SubCommands entry of type **REG\_SZ** that is assigned list, demlimited by semi-colons, of the verbs that should appear on the menu, in the order of appearance. For example, here we assign a number of system-provided verbs:
+3. To your *CascadeTest* subkey, add a SubCommands entry of type **REG\_SZ** that is assigned list, delimited by semi-colons, of the verbs that should appear on the menu, in the order of appearance. For example, here we assign a number of system-provided verbs:
 
     ```text
     HKEY_CLASSES_ROOT
        *
           Shell
              CascadeTest
-                SubCommands
-                Windows.delete;Windows.properties;Windows.rename;Windows.cut;Windows.copy;Windows.paste
+                SubCommands = Windows.delete;Windows.properties;Windows.rename;Windows.cut;Windows.copy;Windows.paste
     ```
+
+>[!NOTE]
+>You can find all system-provided verbs under the **HKEY\_LOCAL\_MACHINE\SYSTEM\CurrentVersion\Explorer\CommandStore\shell** registry key.
 
 4. In the case of custom verbs, implement them using any of the static verb implementation methods and list them under the **CommandStore** subkey as shown in this example for a fictional verb *VerbName*:
 
@@ -227,16 +240,17 @@ In Windows 7 and later, you can use the SubCommands entry to create cascading m
                 CurrentVersion
                    Explorer
                       CommandStore
-                         Shell
+                         shell
                             VerbName
+                               (Default) = "VerbName"
                             command
-                               (Default) = notepad.exe %1
+                               (Default) = "notepad.exe" "%1"
     ```
 
-> [!Note]  
+> [!NOTE]  
 > This method has the advantage that the custom verbs can be registered once and reused by listing the verb name under the SubCommands entry. However, it requires the application to have permission to modify the registry under **HKEY\_LOCAL\_MACHINE**.
 
-### Creating Cascading Menus with the ExtendedSubCommandsKey Registry Entry
+#### Creating Cascading Menus with the ExtendedSubCommandsKey Registry Entry
 
 In Windows 7 and later, you can use the ExtendedSubCommandKey entry to create extended cascading menus: cascading menus within cascading menus.
 
@@ -310,7 +324,7 @@ The following screen shot is an illustration of the previous registry key entry 
 
 ![screen shot showing an example of a cascading menu showing choices of notepad and wordpad](images/file-assoc/testcascademenu2.png)
 
-### Creating Cascading Menus with the IExplorerCommand Interface
+#### Creating Cascading Menus with the IExplorerCommand Interface
 
 Another option for adding verbs to a cascading menu is through [**IExplorerCommand::EnumSubCommands**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iexplorercommand-enumsubcommands). This method enables data sources that provide their command module commands through [**IExplorerCommandProvider**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorercommandprovider) to use those commands as verbs on a shortcut menu. In Windows 7 and later, you can provide the same verb implementation using [**IExplorerCommand**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorercommand) as you can with [**IContextMenu**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-icontextmenu).
 
@@ -322,7 +336,7 @@ The following screen shot illustrates another implementation of a cascading menu
 
 ![screen shot showing an example of a cascading menu in the devices folder](images/file-assoc/cascadedevices2.png)
 
-> [!Note]  
+> [!NOTE]  
 > Because [**IExplorerCommand**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorercommand) supports in-process activation only, it is recommended for use by Shell data sources that need to share the implementation between commands and shortcut menus.
 
 ### Getting Dynamic Behavior for Static Verbs by Using Advanced Query Syntax
@@ -513,7 +527,7 @@ HKEY_CLASSES_ROOT
 
 In Windows 7 and later, you can add verbs to a folder through Desktop.ini. For more information about Desktop.ini files, see [How to Customize Folders with Desktop.ini](how-to-customize-folders-with-desktop-ini.md).
 
-> [!Note]  
+> [!NOTE]  
 > Desktop.ini files should always be marked **System** + **Hidden** so they won't be displayed to users.
 
 **To add custom verbs for folders through a Desktop.ini file, perform the following steps:**
@@ -532,7 +546,7 @@ In Windows 7 and later, you can add verbs to a folder through Desktop.ini. For 
                    (Default) = %SystemRoot%\system32\notepad.exe %1\desktop.ini
     ```
 
-> [!Note]  
+> [!NOTE]  
 > These verbs can be the default verb, in which case double-clicking the folder activates the verb.
 
 ## Related topics
