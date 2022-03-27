@@ -234,7 +234,7 @@ DemoApp::~DemoApp()
             // obtain the system DPI and use it to scale the window size.
             FLOAT dpiX, dpiY;
 
-            // The following will return the current system DPI. This is the value it will use
+            // The following will return the current system DPI. This is the value used
             // to create a window with the correct dimensions.
             dpiX = (FLOAT) GetDpiForWindow (GetDesktopWindow ());
             dpiY = dpiX;
