@@ -234,9 +234,10 @@ DemoApp::~DemoApp()
             // obtain the system DPI and use it to scale the window size.
             FLOAT dpiX, dpiY;
 
-            // The factory returns the current system DPI. This is also the value it will use
-            // to create its own windows.
-            m_pDirect2dFactory->GetDesktopDpi(&dpiX, &dpiY);
+            // The following will return the current system DPI. This is the value it will use
+            // to create a window with the correct dimensions.
+            dpiX = (FLOAT) GetDpiForWindow (GetDesktopWindow ());
+            dpiY = dpiX;
 
 
             // Create the window.
