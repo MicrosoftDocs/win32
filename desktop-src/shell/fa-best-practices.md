@@ -16,16 +16,16 @@ topic_type:
 
 The following list are recommended best practices you should use when working with file associations.
 
--   [Do Not Copy File Associations from the Registry](#do-not-copy-file-associations-from-the-registry)
--   [Avoid Hard-Coding Paths into the Registry Where Possible](#avoid-hard-coding-paths-into-the-registry-where-possible)
--   [Always Wrap Expanding Strings in Quotation Marks](#always-wrap-expanding-strings-in-quotation-marks)
--   [Do Not Confuse Autoplay/Autorun with File Associations](#do-not-confuse-autoplayautorun-with-file-associations)
--   [Do Not Confuse the Internet Explorer MIME Database with File Associations](#do-not-confuse-the-internet-explorer-mime-database-with-file-associations)
--   [Use Properly Formed and Versioned ProgIDs](#use-properly-formed-and-versioned-progids)
--   [Do Not Use Short File Name Extensions](#do-not-use-short-file-name-extensions)
--   [Register New File Types in the IANA MIME Database](#register-new-file-types-in-the-iana-mime-database)
--   [Sign Up with the Windows Web Service for File Associations](#sign-up-with-the-windows-web-service-for-file-associations)
--   [Related topics](#related-topics)
+- [Do Not Copy File Associations from the Registry](#do-not-copy-file-associations-from-the-registry)
+- [Avoid Hard-Coding Paths into the Registry Where Possible](#avoid-hard-coding-paths-into-the-registry-where-possible)
+- [Always Wrap Expanding Strings in Quotation Marks](#always-wrap-expanding-strings-in-quotation-marks)
+- [Do Not Confuse Autoplay/Autorun with File Associations](#do-not-confuse-autoplayautorun-with-file-associations)
+- [Do Not Confuse the Internet Explorer MIME Database with File Associations](#do-not-confuse-the-internet-explorer-mime-database-with-file-associations)
+- [Use Properly Formed and Versioned ProgIDs](#use-properly-formed-and-versioned-progids)
+- [Do Not Use Short File Name Extensions](#do-not-use-short-file-name-extensions)
+- [Register New File Types in the IANA MIME Database](#register-new-file-types-in-the-iana-mime-database)
+- [Sign Up with the Windows Web Service for File Associations](#sign-up-with-the-windows-web-service-for-file-associations)
+- [Related topics](#related-topics)
 
 ## Do Not Copy File Associations from the Registry
 

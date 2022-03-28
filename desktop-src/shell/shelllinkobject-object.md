@@ -24,8 +24,8 @@ Manages Shell links. This object makes much of the functionality of the [**IShel
 
 The **ShellLinkObject** object has these types of members:
 
--   [Methods](#methods)
--   [Properties](#properties)
+- [Methods](#methods)
+- [Properties](#properties)
 
 ### Methods
 

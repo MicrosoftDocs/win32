@@ -52,9 +52,9 @@ The user can then drag the desk band to the desktop, and it will appear as a nor
 
 The following topics are discussed.
 
--   [Band Object Basics](#band-object-basics)
--   [Band Registration](#band-registration)
--   [A Simple Example of a Custom Explorer Bar](#a-simple-example-of-a-custom-explorer-bar)
+- [Band Object Basics](#band-object-basics)
+- [Band Registration](#band-registration)
+- [A Simple Example of a Custom Explorer Bar](#a-simple-example-of-a-custom-explorer-bar)
 
 ### Band Object Basics
 
@@ -62,9 +62,9 @@ Although they can be used much like normal windows, band objects are COM objects
 
 In addition to [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown) and [**IClassFactory**](/windows/win32/api/unknwn/nn-unknwn-iclassfactory), all band objects must implement the following interfaces.
 
--   [**IDeskBand**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-ideskband)
--   [**IObjectWithSite**](/windows/win32/api/ocidl/nn-ocidl-iobjectwithsite)
--   [**IPersistStream**](/windows/win32/api/objidl/nn-objidl-ipersiststream)
+- [**IDeskBand**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-ideskband)
+- [**IObjectWithSite**](/windows/win32/api/ocidl/nn-ocidl-iobjectwithsite)
+- [**IPersistStream**](/windows/win32/api/objidl/nn-objidl-ipersiststream)
 
 In addition to registering their class identifier (CLSID), the Explorer Bar and desk band objects must also be registered for the appropriate component category. Registering the component category determines the object type and its container. Tool bands use a different registration procedure and do not have a category identifier (CATID). The CATIDs for the three band objects that require them are:
 
@@ -235,10 +235,10 @@ The very simple implementation used in the Explorer Bar sample could actually be
 
 All three objects are packaged in a single DLL, which exposes the following functions.
 
--   [**DllMain**](../dlls/dllmain.md)
--   [**DllCanUnloadNow**](/windows/win32/api/combaseapi/nf-combaseapi-dllcanunloadnow)
--   [**DllGetClassObject**](/windows/win32/api/combaseapi/nf-combaseapi-dllgetclassobject)
--   [**DllRegisterServer**](/windows/win32/api/olectl/nf-olectl-dllregisterserver)
+- [**DllMain**](../dlls/dllmain.md)
+- [**DllCanUnloadNow**](/windows/win32/api/combaseapi/nf-combaseapi-dllcanunloadnow)
+- [**DllGetClassObject**](/windows/win32/api/combaseapi/nf-combaseapi-dllgetclassobject)
+- [**DllRegisterServer**](/windows/win32/api/olectl/nf-olectl-dllregisterserver)
 
 The first three functions are standard implementations and will not be discussed here. The Class Factory implementation is also standard.
 
@@ -248,9 +248,9 @@ The vertical Explorer Bar sample implements the four required interfaces: [**IUn
 
 The following interfaces are discussed in detail.
 
--   [IObjectWithSite](#iobjectwithsite)
--   [IPersistStream](#ipersiststream)
--   [IDeskBand](#ideskband)
+- [IObjectWithSite](#iobjectwithsite)
+- [IPersistStream](#ipersiststream)
+- [IDeskBand](#ideskband)
 
 ### IObjectWithSite
 
@@ -359,11 +359,11 @@ STDMETHODIMP CDeskBand::GetSite(REFIID riid, void **ppv)
 
 Internet Explorer will call the Explorer Bar's [**IPersistStream**](/windows/win32/api/objidl/nn-objidl-ipersiststream) interface to allow the Explorer Bar to load or save persistent data. If there is no persistent data, the methods must still return a success code. The **IPersistStream** interface inherits from [**IPersist**](/windows/win32/api/objidl/nn-objidl-ipersist), so five methods must be implemented.
 
--   [**IPersist::GetClassID**](/windows/win32/api/objidl/nf-objidl-ipersist-getclassid)
--   [**IPersistStream::IsDirty**](/windows/win32/api/objidl/nf-objidl-ipersiststream-isdirty)
--   [**IPersistStream::Load**](/windows/win32/api/objidl/nf-objidl-ipersiststream-load)
--   [**IPersistStream::Save**](/windows/win32/api/objidl/nf-objidl-ipersiststream-save)
--   [**IPersistStream::GetSizeMax**](/windows/win32/api/objidl/nf-objidl-ipersiststream-getsizemax)
+- [**IPersist::GetClassID**](/windows/win32/api/objidl/nf-objidl-ipersist-getclassid)
+- [**IPersistStream::IsDirty**](/windows/win32/api/objidl/nf-objidl-ipersiststream-isdirty)
+- [**IPersistStream::Load**](/windows/win32/api/objidl/nf-objidl-ipersiststream-load)
+- [**IPersistStream::Save**](/windows/win32/api/objidl/nf-objidl-ipersiststream-save)
+- [**IPersistStream::GetSizeMax**](/windows/win32/api/objidl/nf-objidl-ipersiststream-getsizemax)
 
 The Explorer Bar sample does not use any persistent data and has only a minimal implementation of [**IPersistStream**](/windows/win32/api/objidl/nn-objidl-ipersiststream). [**IPersist::GetClassID**](/windows/win32/api/objidl/nf-objidl-ipersist-getclassid) returns the object's CLSID (CLSID\_SampleExplorerBar), and the remainder return either S\_OK, S\_FALSE, or E\_NOTIMPL.
 
@@ -375,9 +375,9 @@ There are two [**IOleWindow**](/windows/win32/api/oleidl/nn-oleidl-iolewindow) m
 
 The [**IDockingWindow**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idockingwindow) interface has three methods.
 
--   [**IDockingWindow::ShowDW**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idockingwindow-showdw)
--   [**IDockingWindow::CloseDW**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idockingwindow-closedw)
--   [**IDockingWindow::ResizeBorderDW**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idockingwindow-resizeborderdw)
+- [**IDockingWindow::ShowDW**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idockingwindow-showdw)
+- [**IDockingWindow::CloseDW**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idockingwindow-closedw)
+- [**IDockingWindow::ResizeBorderDW**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idockingwindow-resizeborderdw)
 
 The [**ResizeBorderDW**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idockingwindow-resizeborderdw) method is not used with any type of band object and should always return E\_NOTIMPL. The [**ShowDW**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idockingwindow-showdw) method either shows or hides the Explorer Bar's window, depending on the value of its parameter.
 
@@ -483,9 +483,9 @@ There are two interfaces that are not required, but that may be useful to implem
 
 The [**IInputObject**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-iinputobject) interface must be implemented if a band object accepts user input. Internet Explorer implements [**IInputObjectSite**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iinputobjectsite) and uses **IInputObject** to maintain proper user input focus when it has more than one contained window. There are three methods that need to be implemented by an Explorer Bar.
 
--   [**IInputObject::UIActivateIO**](/windows/win32/api/shobjidl_core/nf-shobjidl_core-iinputobject-uiactivateio)
--   [**IInputObject::HasFocusIO**](/windows/win32/api/shobjidl_core/nf-shobjidl_core-iinputobject-hasfocusio)
--   [**IInputObject::TranslateAcceleratorIO**](/windows/win32/api/shobjidl_core/nf-shobjidl_core-iinputobject-translateacceleratorio)
+- [**IInputObject::UIActivateIO**](/windows/win32/api/shobjidl_core/nf-shobjidl_core-iinputobject-uiactivateio)
+- [**IInputObject::HasFocusIO**](/windows/win32/api/shobjidl_core/nf-shobjidl_core-iinputobject-hasfocusio)
+- [**IInputObject::TranslateAcceleratorIO**](/windows/win32/api/shobjidl_core/nf-shobjidl_core-iinputobject-translateacceleratorio)
 
 Internet Explorer calls [**UIActivateIO**](/windows/win32/api/shobjidl_core/nf-shobjidl_core-iinputobject-uiactivateio) to inform the Explorer Bar that it is being activated or deactivated. When activated, the Explorer Bar sample calls [**SetFocus**](/windows/win32/api/winuser/nf-winuser-setfocus) to set the focus to its window.
 
@@ -622,11 +622,11 @@ HRESULT RegisterComCat()
 
 Because a band object uses a child window for its display, it must implement a window procedure to handle Windows messaging. The band sample has minimal functionality, so its window procedure only handles five messages:
 
--   [**WM\_NCCREATE**](../winmsg/wm-nccreate.md)
--   [**WM\_PAINT**](../gdi/wm-paint.md)
--   [**WM\_COMMAND**](../menurc/wm-command.md)
--   [**WM\_SETFOCUS**](../inputdev/wm-setfocus.md)
--   [**WM\_KILLFOCUS**](../inputdev/wm-killfocus.md)
+- [**WM\_NCCREATE**](../winmsg/wm-nccreate.md)
+- [**WM\_PAINT**](../gdi/wm-paint.md)
+- [**WM\_COMMAND**](../menurc/wm-command.md)
+- [**WM\_SETFOCUS**](../inputdev/wm-setfocus.md)
+- [**WM\_KILLFOCUS**](../inputdev/wm-killfocus.md)
 
 The procedure can easily be expanded to accommodate additional messages to support more features.
 

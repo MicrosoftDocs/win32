@@ -20,14 +20,14 @@ The File Type Verifier runs several tests on the file type to verify that it is 
 
 The File Type Verifier tests the following things:
 
--   [Preview Handlers](building-preview-handlers.md)
--   [Thumbnail Handlers](building-thumbnail-providers.md)
--   [Property Handlers](../search/-search-3x-wds-extidx-propertyhandlers.md)
--   [Verb Handlers](fa-verbs.md)
--   [Filters (IFilter)](../search/-search-3x-wds-extidx-filters.md)
--   [Kind Associations](../properties/building-property-handlers-user-friendly-kind-names.md)
--   [Perceived Types](fa-perceivedtypes.md)
--   [Important Properties](../search/-shell-systemdefinedpropertiesforfileformats.md)
+- [Preview Handlers](building-preview-handlers.md)
+- [Thumbnail Handlers](building-thumbnail-providers.md)
+- [Property Handlers](../search/-search-3x-wds-extidx-propertyhandlers.md)
+- [Verb Handlers](fa-verbs.md)
+- [Filters (IFilter)](../search/-search-3x-wds-extidx-filters.md)
+- [Kind Associations](../properties/building-property-handlers-user-friendly-kind-names.md)
+- [Perceived Types](fa-perceivedtypes.md)
+- [Important Properties](../search/-shell-systemdefinedpropertiesforfileformats.md)
 
 ## Related topics
 

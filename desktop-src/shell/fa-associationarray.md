@@ -18,12 +18,12 @@ An association array is an ordered list of registry locations used to store info
 
 This topic is organized as follows:
 
--   [About Association Arrays](#about-association-arrays)
--   [Querying Association Arrays](#querying-association-arrays)
--   [Working with Association Arrays for a Particular Shell Data Source](#working-with-association-arrays-for-a-particular-shell-data-source)
-    -   [Shell Data Source Association Arrays](#shell-data-source-association-arrays)
--   [Additional Resources](#additional-resources)
--   [Related topics](#related-topics)
+- [About Association Arrays](#about-association-arrays)
+- [Querying Association Arrays](#querying-association-arrays)
+- [Working with Association Arrays for a Particular Shell Data Source](#working-with-association-arrays-for-a-particular-shell-data-source)
+    - [Shell Data Source Association Arrays](#shell-data-source-association-arrays)
+- [Additional Resources](#additional-resources)
+- [Related topics](#related-topics)
 
 ## About Association Arrays
 
@@ -76,9 +76,9 @@ if (SUCCEEDED(hr))
 
 The following APIs can be used to query an association array or to construct an association array [**IQueryAssociations**](/windows/win32/api/shlwapi/nn-shlwapi-iqueryassociations) object that can be queried:
 
--   [**AssocCreate**](/windows/desktop/api/Shlwapi/nf-shlwapi-assoccreate) (prior to Windows Vista)
--   [**AssocCreateForClasses**](/windows/desktop/api/Shellapi/nf-shellapi-assoccreateforclasses)
--   [**AssocQueryString**](/windows/desktop/api/Shlwapi/nf-shlwapi-assocquerystringa)
+- [**AssocCreate**](/windows/desktop/api/Shlwapi/nf-shlwapi-assoccreate) (prior to Windows Vista)
+- [**AssocCreateForClasses**](/windows/desktop/api/Shellapi/nf-shellapi-assoccreateforclasses)
+- [**AssocQueryString**](/windows/desktop/api/Shlwapi/nf-shlwapi-assocquerystringa)
 
 ## Working with Association Arrays for a Particular Shell Data Source
 

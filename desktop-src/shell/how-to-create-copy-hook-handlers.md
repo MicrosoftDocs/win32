@@ -10,9 +10,9 @@ ms.date: 05/31/2018
 
 The general procedures for implementing and registering a Shell extension handler are discussed in [Creating Shell Extension Handlers](handlers.md). This document focuses on those aspects of implementation that are specific to copy hook handlers.
 
--   [Implementing Copy Hook Handlers](#step-1-implementing-copy-hook-handlers)
--   [Registering Copy Hook Handlers](#step-2-registering-copy-hook-handlers)
--   [Related topics](#related-topics)
+- [Implementing Copy Hook Handlers](#step-1-implementing-copy-hook-handlers)
+- [Registering Copy Hook Handlers](#step-2-registering-copy-hook-handlers)
+- [Related topics](#related-topics)
 
 ## Instructions
 

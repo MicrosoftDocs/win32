@@ -24,8 +24,8 @@ Represents the objects in the Shell. Methods are provided to control the Shell a
 
 The **Shell** object has these types of members:
 
--   [Methods](#methods)
--   [Properties](#properties)
+- [Methods](#methods)
+- [Properties](#properties)
 
 ### Methods
 

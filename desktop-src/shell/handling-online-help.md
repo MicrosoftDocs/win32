@@ -16,12 +16,12 @@ topic_type:
 
 Online help can come in a variety of forms, from detailed conceptual information to quick definitions. This topic contains the following sections.
 
--   [About Help](#about-help)
-    -   [Help Requests](#help-requests)
-    -   [Help Display and Windows Help](#help-display-and-windows-help)
--   [Using Help](#using-help)
-    -   [Providing Help in a Dialog Box](#providing-help-in-a-dialog-box)
-    -   [Setting the Appearance of a Secondary Help Window](#setting-the-appearance-of-a-secondary-help-window)
+- [About Help](#about-help)
+    - [Help Requests](#help-requests)
+    - [Help Display and Windows Help](#help-display-and-windows-help)
+- [Using Help](#using-help)
+    - [Providing Help in a Dialog Box](#providing-help-in-a-dialog-box)
+    - [Setting the Appearance of a Secondary Help Window](#setting-the-appearance-of-a-secondary-help-window)
 
 ## About Help
 
@@ -167,8 +167,8 @@ To close the training card instance of Windows Help, you must specify both the H
 
 This section shows how to provide context-sensitive help for a dialog box and how to set the appearance of a secondary Help window.
 
--   [Providing Help in a Dialog Box](#providing-help-in-a-dialog-box)
--   [Setting the Appearance of a Secondary Help Window](#setting-the-appearance-of-a-secondary-help-window)
+- [Providing Help in a Dialog Box](#providing-help-in-a-dialog-box)
+- [Setting the Appearance of a Secondary Help Window](#setting-the-appearance-of-a-secondary-help-window)
 
 ### Providing Help in a Dialog Box
 

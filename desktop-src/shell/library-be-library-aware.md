@@ -12,22 +12,22 @@ This topic describes some of the things to consider when using libraries in your
 
 In this topic:
 
--   [Library programming overview](#library-programming-overview)
--   [Programming with Libraries](#programming-with-libraries)
-    -   [Moving from Known Folders to Libraries](#moving-from-known-folders-to-libraries)
-    -   [HomeGroup and shared libraries](#homegroup-and-shared-libraries)
--   [Using a common file dialog box with libraries](#using-a-common-file-dialog-box-with-libraries)
--   [Enabling library selection from the user interface](#enabling-library-selection-from-the-user-interface)
--   [Accessing library content in a program](#accessing-library-content-in-a-program)
-    -   [Accessing library content with the IShellLibrary interface](#accessing-library-content-with-the-ishelllibrary-interface)
-    -   [Accessing library content with the Shell APIs](#accessing-library-content-with-the-shell-apis)
--   [Saving user content in a library](#saving-user-content-in-a-library)
--   [Supporting drag-and-drop operations in a library](#supporting-drag-and-drop-operations-in-a-library)
--   [Keeping in sync with a library](#keeping-in-sync-with-a-library)
-    -   [Bulk Update](#bulk-update)
-    -   [Shell API Notification](#shell-api-notification)
-    -   [File-system API Notification](#file-system-api-notification)
--   [Related topics](#related-topics)
+- [Library programming overview](#library-programming-overview)
+- [Programming with Libraries](#programming-with-libraries)
+    - [Moving from Known Folders to Libraries](#moving-from-known-folders-to-libraries)
+    - [HomeGroup and shared libraries](#homegroup-and-shared-libraries)
+- [Using a common file dialog box with libraries](#using-a-common-file-dialog-box-with-libraries)
+- [Enabling library selection from the user interface](#enabling-library-selection-from-the-user-interface)
+- [Accessing library content in a program](#accessing-library-content-in-a-program)
+    - [Accessing library content with the IShellLibrary interface](#accessing-library-content-with-the-ishelllibrary-interface)
+    - [Accessing library content with the Shell APIs](#accessing-library-content-with-the-shell-apis)
+- [Saving user content in a library](#saving-user-content-in-a-library)
+- [Supporting drag-and-drop operations in a library](#supporting-drag-and-drop-operations-in-a-library)
+- [Keeping in sync with a library](#keeping-in-sync-with-a-library)
+    - [Bulk Update](#bulk-update)
+    - [Shell API Notification](#shell-api-notification)
+    - [File-system API Notification](#file-system-api-notification)
+- [Related topics](#related-topics)
 
 ## Library programming overview
 
@@ -89,12 +89,12 @@ You should use the [**IFileDialog**](/windows/win32/api/shobjidl_core/nn-shobjid
 
 For more information on the [**IFileDialog**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-ifiledialog)-related interfaces, see:
 
--   [**IFileDialog**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-ifiledialog)
--   [**IFileOpenDialog**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-ifileopendialog)
--   [**IFileSaveDialog**](/windows/desktop/api/Shobjidl_core/nn-shobjidl_core-ifilesavedialog)
--   [**IFileDialogCustomize**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifiledialogcustomize)
--   [**IFileDialogEvents**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifiledialogevents)
--   [**IFileDialogControlEvents**](/windows/desktop/api/Shobjidl/nn-shobjidl-ifiledialogcontrolevents)
+- [**IFileDialog**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-ifiledialog)
+- [**IFileOpenDialog**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-ifileopendialog)
+- [**IFileSaveDialog**](/windows/desktop/api/Shobjidl_core/nn-shobjidl_core-ifilesavedialog)
+- [**IFileDialogCustomize**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifiledialogcustomize)
+- [**IFileDialogEvents**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifiledialogevents)
+- [**IFileDialogControlEvents**](/windows/desktop/api/Shobjidl/nn-shobjidl-ifiledialogcontrolevents)
 
 ## Enabling library selection from the user interface
 

@@ -25,7 +25,7 @@ Exposes methods that provide identification, registry, and folder data for a spe
 
 The **IUserIdentity** interface inherits from the [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown) interface. **IUserIdentity** also has these types of members:
 
--   [Methods](#methods)
+- [Methods](#methods)
 
 ### Methods
 

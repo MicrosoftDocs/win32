@@ -23,8 +23,8 @@ Exposes methods that enable HTML pages which are hosted in a wizard extension to
 
 The **WebWizardHost** object has these types of members:
 
--   [Methods](#methods)
--   [Properties](#properties)
+- [Methods](#methods)
+- [Properties](#properties)
 
 ### Methods
 

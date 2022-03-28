@@ -24,8 +24,8 @@ Represents an item in a Shell folder. This object contains properties and method
 
 The **FolderItem** object has these types of members:
 
--   [Methods](#methods)
--   [Properties](#properties)
+- [Methods](#methods)
+- [Properties](#properties)
 
 ### Methods
 

@@ -23,7 +23,7 @@ Extends the [**WebWizardHost**](webwizardhost.md) object by enabling server-side
 
 The **NewWDEvents** object has these types of members:
 
--   [Methods](#methods)
+- [Methods](#methods)
 
 ### Methods
 

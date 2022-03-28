@@ -24,8 +24,8 @@ Extends the [**FolderItems2**](folderitems2-object.md) object. This object suppo
 
 The **FolderItems3** object has these types of members:
 
--   [Methods](#methods)
--   [Properties](#properties)
+- [Methods](#methods)
+- [Properties](#properties)
 
 ### Methods
 

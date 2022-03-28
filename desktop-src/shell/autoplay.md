@@ -25,9 +25,9 @@ AutoRun can be used to install and run CD-ROM applications. Although AutoRun is 
 
 The following sections discuss how to implement an AutoRun-enabled CD-ROM application.
 
--   [Creating an AutoRun-Enabled Application](autoplay-works.md)
--   [Autorun.inf Entries](autorun-cmds.md)
--   [Enabling and Disabling AutoRun](autoplay-reg.md)
+- [Creating an AutoRun-Enabled Application](autoplay-works.md)
+- [Autorun.inf Entries](autorun-cmds.md)
+- [Enabling and Disabling AutoRun](autoplay-reg.md)
 
  
 

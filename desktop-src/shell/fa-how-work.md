@@ -12,11 +12,11 @@ File associations define how the Shell treats a [file type](fa-file-types.md) on
 
 This topic is organized as follows:
 
--   [About File Associations](#about-file-associations)
--   [When You Should Implement or Modify File Associations](#when-you-should-implement-or-modify-file-associations)
--   [How File Associations Work](#how-file-associations-work)
--   [Additional Resources](#additional-resources)
--   [Related topics](#related-topics)
+- [About File Associations](#about-file-associations)
+- [When You Should Implement or Modify File Associations](#when-you-should-implement-or-modify-file-associations)
+- [How File Associations Work](#how-file-associations-work)
+- [Additional Resources](#additional-resources)
+- [Related topics](#related-topics)
 
 ## About File Associations
 

@@ -18,20 +18,20 @@ Demonstrates a thumbnail toolbar, an active toolbar control embedded in a window
 
 This topic contains the following sections.
 
--   [Description](#description)
--   [Requirements](#requirements)
--   [Downloading the Sample](#downloading-the-sample)
--   [Building the Sample](#building-the-sample)
--   [Running the Sample](#running-the-sample)
--   [Related topics](#related-topics)
+- [Description](#description)
+- [Requirements](#requirements)
+- [Downloading the Sample](#downloading-the-sample)
+- [Building the Sample](#building-the-sample)
+- [Running the Sample](#running-the-sample)
+- [Related topics](#related-topics)
 
 ## Description
 
 This sample shows how to provide a simple toolbar to a taskbar thumbnail preview. The toolbar consists of three buttons. Clicking a button displays a window to confirm that the button was activated. The following APIs are demonstrated:
 
--   [**ITaskbarList3::ThumbBarAddButtons**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-itaskbarlist3-thumbbaraddbuttons)
--   [**ITaskbarList3::ThumbBarSetImageList**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-itaskbarlist3-thumbbarsetimagelist)
--   [**THUMBBUTTON**](/windows/desktop/api/Shobjidl_core/ns-shobjidl_core-thumbbutton) structure
+- [**ITaskbarList3::ThumbBarAddButtons**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-itaskbarlist3-thumbbaraddbuttons)
+- [**ITaskbarList3::ThumbBarSetImageList**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-itaskbarlist3-thumbbarsetimagelist)
+- [**THUMBBUTTON**](/windows/desktop/api/Shobjidl_core/ns-shobjidl_core-thumbbutton) structure
 
 ## Requirements
 

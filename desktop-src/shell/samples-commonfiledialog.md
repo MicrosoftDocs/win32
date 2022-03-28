@@ -18,11 +18,11 @@ Demonstrates how to create a custom file open/save dialog by using different Com
 
 This topic contains the following sections.
 
--   [Requirements](#requirements)
--   [Downloading the Sample](#downloading-the-sample)
--   [Building the Sample](#building-the-sample)
--   [Running the Sample](#running-the-sample)
--   [Related topics](#related-topics)
+- [Requirements](#requirements)
+- [Downloading the Sample](#downloading-the-sample)
+- [Building the Sample](#building-the-sample)
+- [Running the Sample](#running-the-sample)
+- [Related topics](#related-topics)
 
 ## Requirements
 

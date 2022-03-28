@@ -219,11 +219,11 @@ The Windows Explorer client area can be hosted by using the [IExplorerBrowser](/
 
 The controls in Windows Explorer are classified into the following functional categories:
 
--   [Navigation Controls](#navigation-controls)
--   [Command Controls](#command-controls)
--   [Property and Preview Controls](#property-and-preview-controls)
--   [Filtering and View Controls](#filtering-and-view-controls)
--   [Listview Control](#listview-control)
+- [Navigation Controls](#navigation-controls)
+- [Command Controls](#command-controls)
+- [Property and Preview Controls](#property-and-preview-controls)
+- [Filtering and View Controls](#filtering-and-view-controls)
+- [Listview Control](#listview-control)
 
 ## Navigation Controls
 

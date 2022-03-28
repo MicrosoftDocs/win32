@@ -12,14 +12,14 @@ This topic provides information about security considerations related to the Win
 
 The Shell controls a number of important aspects of the system, including several that present potential security risks if they are not properly handled. This topic outlines some of the more common issues and how to address them in your applications. Remember that security is not limited to Internet-based exploits. On shared systems, including systems that are accessible through Terminal Services, you must also ensure that users cannot do anything that could harm others who share the system.
 
--   [Installing Your Application Properly](#installing-your-application-properly)
--   [Shlwapi](#shlwapi)
--   [Autocomplete](#autocomplete)
--   [ShellExecute, ShellExecuteEx, and Related Functions](#shellexecute-shellexecuteex-and-related-functions)
--   [Moving and Copying Files](#moving-and-copying-files)
--   [Writing Secure Namespace Extensions](#writing-secure-namespace-extensions)
--   [Security Alerts](#security-alerts)
--   [Related topics](#related-topics)
+- [Installing Your Application Properly](#installing-your-application-properly)
+- [Shlwapi](#shlwapi)
+- [Autocomplete](#autocomplete)
+- [ShellExecute, ShellExecuteEx, and Related Functions](#shellexecute-shellexecuteex-and-related-functions)
+- [Moving and Copying Files](#moving-and-copying-files)
+- [Writing Secure Namespace Extensions](#writing-secure-namespace-extensions)
+- [Security Alerts](#security-alerts)
+- [Related topics](#related-topics)
 
 ## Installing Your Application Properly
 

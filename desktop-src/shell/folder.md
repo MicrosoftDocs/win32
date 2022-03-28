@@ -23,8 +23,8 @@ Represents a Shell folder. This object contains properties and methods that allo
 
 The **Folder** object has these types of members:
 
--   [Methods](#methods)
--   [Properties](#properties)
+- [Methods](#methods)
+- [Properties](#properties)
 
 ### Methods
 

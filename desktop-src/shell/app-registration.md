@@ -12,13 +12,13 @@ This topic discusses how applications can expose information about themselves ne
 
 This topic is organized as follows:
 
--   [Finding an Application Executable](#finding-an-application-executable)
--   [Registering Applications](#registering-applications)
-    -   [Using the App Paths Subkey](#using-the-app-paths-subkey)
-    -   [Using the Applications Subkey](#using-the-applications-subkey)
--   [Registering Verbs and Other File Association Information](#registering-verbs-and-other-file-association-information)
--   [Registering a Perceived Type](#registering-a-perceived-type)
--   [Related topics](#related-topics)
+- [Finding an Application Executable](#finding-an-application-executable)
+- [Registering Applications](#registering-applications)
+    - [Using the App Paths Subkey](#using-the-app-paths-subkey)
+    - [Using the Applications Subkey](#using-the-applications-subkey)
+- [Registering Verbs and Other File Association Information](#registering-verbs-and-other-file-association-information)
+- [Registering a Perceived Type](#registering-a-perceived-type)
+- [Related topics](#related-topics)
 
 > [!Note]  
 > Applications can also be registered in the Set Program Access and Computer Defaults (SPAD) and Set Your Default Programs (SYDP) control panel applications. For information about SPAD and SYDP application registration, see [Guidelines for File Associations and Default Programs](appguide-fa-defpro.md), and [Set Program Access and Computer Defaults (SPAD)](cpl-setprogramaccess.md).

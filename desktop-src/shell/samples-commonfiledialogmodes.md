@@ -18,10 +18,10 @@ Demonstrates how to use the Common File Dialog in different modes to pick files,
 
 This topic contains the following sections.
 
--   [Requirements](#requirements)
--   [Downloading the Sample](#downloading-the-sample)
--   [Building the Sample](#building-the-sample)
--   [Running the Sample](#running-the-sample)
+- [Requirements](#requirements)
+- [Downloading the Sample](#downloading-the-sample)
+- [Building the Sample](#building-the-sample)
+- [Running the Sample](#running-the-sample)
 
 ## Requirements
 

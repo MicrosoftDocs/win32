@@ -24,8 +24,8 @@ Forwards the events fired by a specified [**ShellFolderView**](shellfolderview.m
 
 The **ShellFolderViewOC** object has these types of members:
 
--   [Events](#events)
--   [Methods](#methods)
+- [Events](#events)
+- [Methods](#methods)
 
 ### Events
 

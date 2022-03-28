@@ -24,8 +24,8 @@ Represents the collection of verbs for an item in a Shell folder. This object co
 
 The **FolderItemVerbs** object has these types of members:
 
--   [Methods](#methods)
--   [Properties](#properties)
+- [Methods](#methods)
+- [Properties](#properties)
 
 ### Methods
 

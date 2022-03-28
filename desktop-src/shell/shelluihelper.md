@@ -24,7 +24,7 @@ Implemented by the Shell to help script and Microsoft Visual Basic developers us
 
 The **ShellUIHelper** object has these types of members:
 
--   [Methods](#methods)
+- [Methods](#methods)
 
 ### Methods
 

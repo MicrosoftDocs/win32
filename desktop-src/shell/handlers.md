@@ -49,16 +49,16 @@ Other handlers are not associated with a particular file type but are called bef
 
 The details of how to implement specific extension handlers are covered in the sections listed above. The remainder of this document covers some implementation issues that are common to all Shell extension handlers.
 
--   [Implementing Shell Extension Handlers](#implementing-shell-extension-handlers)
-    -   [Implementing IPersistFile](#implementing-ipersistfile)
-    -   [Implementing IShellExtInit](#implementing-ishellextinit)
-    -   [Infotip Customization](#infotip-customization)
--   [Enhancing Windows Search with Shell Extension Handlers](#enhancing-windows-search-with-shell-extension-handlers)
--   [Registering Shell Extension Handlers](#registering-shell-extension-handlers)
-    -   [Handler Names](#handler-names)
-    -   [Predefined Shell Objects](#predefined-shell-objects)
-    -   [Example of an Extension Handler Registration](#example-of-an-extension-handler-registration)
--   [Related topics](#related-topics)
+- [Implementing Shell Extension Handlers](#implementing-shell-extension-handlers)
+    - [Implementing IPersistFile](#implementing-ipersistfile)
+    - [Implementing IShellExtInit](#implementing-ishellextinit)
+    - [Infotip Customization](#infotip-customization)
+- [Enhancing Windows Search with Shell Extension Handlers](#enhancing-windows-search-with-shell-extension-handlers)
+- [Registering Shell Extension Handlers](#registering-shell-extension-handlers)
+    - [Handler Names](#handler-names)
+    - [Predefined Shell Objects](#predefined-shell-objects)
+    - [Example of an Extension Handler Registration](#example-of-an-extension-handler-registration)
+- [Related topics](#related-topics)
 
 ## Implementing Shell Extension Handlers
 
@@ -66,9 +66,9 @@ Much of the implementation of a Shell extension handler object depends on its ty
 
 Many Shell extension handlers are in-process Component Object Model (COM) objects. They must be assigned a GUID and registered as described in Registering Shell Extension Handlers. They are implemented as DLLs and must export the following standard functions:
 
--   [**DllMain**](../dlls/dllmain.md). The standard entry point to the DLL.
--   [**DllGetClassObject**](/windows/win32/api/combaseapi/nf-combaseapi-dllgetclassobject). Exposes the object's class factory.
--   [**DllCanUnloadNow**](/windows/win32/api/combaseapi/nf-combaseapi-dllcanunloadnow). COM calls this function to determine whether the object is serving any clients. If not, the system can unload the DLL and free the associated memory.
+- [**DllMain**](../dlls/dllmain.md). The standard entry point to the DLL.
+- [**DllGetClassObject**](/windows/win32/api/combaseapi/nf-combaseapi-dllgetclassobject). Exposes the object's class factory.
+- [**DllCanUnloadNow**](/windows/win32/api/combaseapi/nf-combaseapi-dllcanunloadnow). COM calls this function to determine whether the object is serving any clients. If not, the system can unload the DLL and free the associated memory.
 
 Like all COM objects, Shell extension handlers must implement an [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown) interface and a [class factory](../com/implementing-iclassfactory.md). Most extension handlers must also implement either an [**IPersistFile**](/windows/win32/api/objidl/nn-objidl-ipersistfile) or [**IShellExtInit**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-ishellextinit) interface in Windows XP or earlier. These were replaced by [**IInitializeWithStream**](/windows/desktop/api/Propsys/nn-propsys-iinitializewithstream), [**IInitializeWithItem**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-iinitializewithitem) and [**IInitializeWithFile**](/windows/desktop/api/Propsys/nn-propsys-iinitializewithfile) in Windows Vista. The Shell uses these interfaces to initialize the handler.
 

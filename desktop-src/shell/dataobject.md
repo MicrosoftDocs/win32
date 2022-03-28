@@ -10,20 +10,20 @@ ms.date: 05/31/2018
 
 The data object is central to all Shell data transfers. It is primarily a container to hold the transferred data. However, the target can also communicate with the data object to facilitate some specialized types of Shell data transfer such as optimized moves. This topic provides a general discussion of how Shell data objects work, how they are constructed by a source, and how they are handled by a target. For a detailed discussion of how to use data objects to transfer different types of Shell data, see [Handling Shell Data Transfer Scenarios](datascenarios.md).
 
--   [How Data Objects Work](#how-data-objects-work)
-    -   [Clipboard Formats](#clipboard-formats)
-    -   [FORMATETC Structure](#formatetc-structure)
-    -   [STGMEDIUM structure](#stgmedium-structure)
--   [How a Source Creates a Data Object](#how-a-source-creates-a-data-object)
-    -   [How to Add a Global Memory Object to a Data Object](#how-to-add-a-global-memory-object-to-a-data-object)
-    -   [Implementing IDataObject](#implementing-idataobject)
-    -   [Implementing IDropSource](#implementing-idropsource)
--   [How a Target Handles a Data Object](#how-a-target-handles-a-data-object)
-    -   [Extracting Shell Data from a Data Object](#extracting-shell-data-from-a-data-object)
-    -   [Implementing IDropTarget](#implementing-idroptarget)
--   [Using the Drag-and-Drop Helper Object](#using-the-drag-and-drop-helper-object)
-    -   [Using the IDragSourceHelper Interface](#using-the-idragsourcehelper-interface)
-    -   [Using the IDropTargetHelper Interface](#using-the-idroptargethelper-interface)
+- [How Data Objects Work](#how-data-objects-work)
+    - [Clipboard Formats](#clipboard-formats)
+    - [FORMATETC Structure](#formatetc-structure)
+    - [STGMEDIUM structure](#stgmedium-structure)
+- [How a Source Creates a Data Object](#how-a-source-creates-a-data-object)
+    - [How to Add a Global Memory Object to a Data Object](#how-to-add-a-global-memory-object-to-a-data-object)
+    - [Implementing IDataObject](#implementing-idataobject)
+    - [Implementing IDropSource](#implementing-idropsource)
+- [How a Target Handles a Data Object](#how-a-target-handles-a-data-object)
+    - [Extracting Shell Data from a Data Object](#extracting-shell-data-from-a-data-object)
+    - [Implementing IDropTarget](#implementing-idroptarget)
+- [Using the Drag-and-Drop Helper Object](#using-the-drag-and-drop-helper-object)
+    - [Using the IDragSourceHelper Interface](#using-the-idragsourcehelper-interface)
+    - [Using the IDropTargetHelper Interface](#using-the-idroptargethelper-interface)
 
 ## How Data Objects Work
 

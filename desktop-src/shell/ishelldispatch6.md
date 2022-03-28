@@ -29,7 +29,7 @@ Extends the [**IShellDispatch5**](ishelldispatch5.md) object. In addition to the
 
 The **IShellDispatch6** object has these types of members:
 
--   [Methods](#methods)
+- [Methods](#methods)
 
 ### Methods
 

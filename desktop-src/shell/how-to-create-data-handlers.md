@@ -11,9 +11,9 @@ When a file is copied to the clipboard or dragged and dropped, the Shell creates
 
 The general procedures for implementing and registering a Shell extension handler are discussed in [Creating Shell Extension Handlers](handlers.md). This document focuses on those aspects of implementation that are specific to data handlers.
 
--   [Implementing Data Handlers](#step-1-implementing-data-handlers)
--   [Registering Data Handlers](#step-2-registering-data-handlers)
--   [Related topics](#related-topics)
+- [Implementing Data Handlers](#step-1-implementing-data-handlers)
+- [Registering Data Handlers](#step-2-registering-data-handlers)
+- [Related topics](#related-topics)
 
 ## Instructions
 

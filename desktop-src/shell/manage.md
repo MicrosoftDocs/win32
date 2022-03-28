@@ -16,13 +16,13 @@ The Shell provides a number of ways to manage file systems. The Shell provides a
 
 This document discusses how these file management technologies work. It then outlines how to use the Shell to move, copy, rename, and delete files, and how to manage objects in the Recycle Bin.
 
--   [Per-User File Management](#per-user-file-management)
--   [My Documents and My Pictures Folders](#my-documents-and-my-pictures-folders)
--   [Connected Files](#connected-files)
--   [Moving, Copying, Renaming, and Deleting Files](#moving-copying-renaming-and-deleting-files)
-    -   [Notifying the Shell](#notifying-the-shell)
--   [Simple Example of Managing Files with SHFileOperation](#simple-example-of-managing-files-with-shfileoperation)
--   [Adding Files to the Shell's List of Recent Documents](#adding-files-to-the-shells-list-of-recent-documents)
+- [Per-User File Management](#per-user-file-management)
+- [My Documents and My Pictures Folders](#my-documents-and-my-pictures-folders)
+- [Connected Files](#connected-files)
+- [Moving, Copying, Renaming, and Deleting Files](#moving-copying-renaming-and-deleting-files)
+    - [Notifying the Shell](#notifying-the-shell)
+- [Simple Example of Managing Files with SHFileOperation](#simple-example-of-managing-files-with-shfileoperation)
+- [Adding Files to the Shell's List of Recent Documents](#adding-files-to-the-shells-list-of-recent-documents)
 
 ## Per-User File Management
 

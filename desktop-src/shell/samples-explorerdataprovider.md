@@ -18,10 +18,10 @@ Demonstrates how to implement a Shell namespace extension, including context men
 
 This topic contains the following sections.
 
--   [Requirements](#requirements)
--   [Downloading the Sample](#downloading-the-sample)
--   [Building the Sample](#building-the-sample)
--   [Running the Sample](#running-the-sample)
+- [Requirements](#requirements)
+- [Downloading the Sample](#downloading-the-sample)
+- [Building the Sample](#building-the-sample)
+- [Running the Sample](#running-the-sample)
 
 ## Requirements
 

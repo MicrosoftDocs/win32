@@ -20,8 +20,8 @@ Autocompletion expands strings that have been partially entered in an [edit cont
 
 An application can add autocomplete functionality to an edit control in two ways:
 
--   [**SHAutoComplete**](/windows/desktop/api/shlwapi/nf-shlwapi-shautocomplete) is a simple function that can autocomplete a file path or URL.
--   [**IAutoComplete**](/windows/desktop/api/Shldisp/nn-shldisp-iautocomplete) interface is exposed by the autocomplete object (CLSID\_AutoComplete). It allows applications to initialize, enable, and disable the object. **IAutoComplete** allows more control over autocomplete sources, including the ability to add a custom source. The remainder of this topic discusses the use of **IAutoComplete**. See [How To Enable Autocomplete Manually](how-to-enable-autocomplete-manually.md) for specific usage examples.
+- [**SHAutoComplete**](/windows/desktop/api/shlwapi/nf-shlwapi-shautocomplete) is a simple function that can autocomplete a file path or URL.
+- [**IAutoComplete**](/windows/desktop/api/Shldisp/nn-shldisp-iautocomplete) interface is exposed by the autocomplete object (CLSID\_AutoComplete). It allows applications to initialize, enable, and disable the object. **IAutoComplete** allows more control over autocomplete sources, including the ability to add a custom source. The remainder of this topic discusses the use of **IAutoComplete**. See [How To Enable Autocomplete Manually](how-to-enable-autocomplete-manually.md) for specific usage examples.
 
 ## Autocomplete Modes
 
@@ -72,8 +72,8 @@ An autocomplete source that matches against items in the Shell namespace: files 
 
 There are occasions when, rather than immediately freeing the resources, you might want to retain the interface pointers to the various objects involved in autocomplete. In particular, this is done when you want to adjust the autocomplete behavior dynamically. The most common instance of this occurs when using the CLSID\_ACListISF object, which autocompletes from the Shell namespace and has the option ([**ACLO\_CURRENTDIR**](/windows/win32/api/shlobj_core/nn-shlobj_core-iaclist2)) of enumerating from the current directory as well. For example, when you navigate to a new folder, Internet Explorer changes the Address bar's current directory and therefore the settings need to be changed dynamically. There are two ways to specify the directory that the CLSID\_ACListISF object should treat as the current directory:
 
--   [**IPersistFolder**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ipersistfolder) specifies the directory through an [**ITEMIDLIST**](/windows/desktop/api/Shtypes/ns-shtypes-itemidlist).
--   [**ICurrentWorkingDirectory**](/windows/win32/api/shlobj/nn-shlobj-icurrentworkingdirectory) specifies the directory through a path string.
+- [**IPersistFolder**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ipersistfolder) specifies the directory through an [**ITEMIDLIST**](/windows/desktop/api/Shtypes/ns-shtypes-itemidlist).
+- [**ICurrentWorkingDirectory**](/windows/win32/api/shlobj/nn-shlobj-icurrentworkingdirectory) specifies the directory through a path string.
 
 In the following, assume that **pal** is a pointer to the [**IACList**](/windows/win32/api/shlobj_core/nn-shlobj_core-iaclist) interface of a CLSID\_ACListISF object:
 

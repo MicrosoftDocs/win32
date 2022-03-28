@@ -12,16 +12,16 @@ The notification area is a portion of the taskbar that provides a temporary sour
 
 This topic contains the following sections:
 
--   [Notification and Notification Area Guidelines](#notification-and-notification-area-guidelines)
--   [Creating and Displaying a Notification](#notifications-and-the-notification-area)
-    -   [Add a Notification Icon](#add-a-notification-icon)
-    -   [Define the NOTIFYICONDATA Version](#define-the-notifyicondata-version)
-    -   [Define the Notification Look and Contents](#define-the-notification-look-and-contents)
-    -   [Check the User Status](#check-the-user-status)
-    -   [Display the Notification](#display-the-notification)
-    -   [Removing an Icon](#removing-an-icon)
--   [SDK Sample](#sdk-sample)
--   [Related topics](#related-topics)
+- [Notification and Notification Area Guidelines](#notification-and-notification-area-guidelines)
+- [Creating and Displaying a Notification](#notifications-and-the-notification-area)
+    - [Add a Notification Icon](#add-a-notification-icon)
+    - [Define the NOTIFYICONDATA Version](#define-the-notifyicondata-version)
+    - [Define the Notification Look and Contents](#define-the-notification-look-and-contents)
+    - [Check the User Status](#check-the-user-status)
+    - [Display the Notification](#display-the-notification)
+    - [Removing an Icon](#removing-an-icon)
+- [SDK Sample](#sdk-sample)
+- [Related topics](#related-topics)
 
 ## Notification and Notification Area Guidelines
 

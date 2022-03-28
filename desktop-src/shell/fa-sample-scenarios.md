@@ -60,9 +60,9 @@ The company should take the following steps.
 
 ## Additional Resources
 
--   [Introduction to File Associations](fa-intro.md)
--   [How to Register an Internet Browser or Email Client With the Windows Start Menu](start-menu-reg.md)
--   [Registering an Application to a URI Scheme](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa767914(v=vs.85))
+- [Introduction to File Associations](fa-intro.md)
+- [How to Register an Internet Browser or Email Client With the Windows Start Menu](start-menu-reg.md)
+- [Registering an Application to a URI Scheme](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa767914(v=vs.85))
 
 ## Related topics
 

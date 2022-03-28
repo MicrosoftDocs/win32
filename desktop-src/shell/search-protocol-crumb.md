@@ -18,12 +18,12 @@ The `crumb` argument supports full Advanced Query Syntax (AQS) statements and is
 
 This topic contains the following sections:
 
--   [Crumb Syntax](#crumb-syntax)
-    -   [General Examples](#general-examples)
--   [Using crumb with Vista (location)](#using-crumb-with-vista-location)
-    -   [Vista Examples](#vista-examples)
-    -   [Constants for Common Folders](#constants-for-common-folders)
-    -   [Argument Information](#argument-information)
+- [Crumb Syntax](#crumb-syntax)
+    - [General Examples](#general-examples)
+- [Using crumb with Vista (location)](#using-crumb-with-vista-location)
+    - [Vista Examples](#vista-examples)
+    - [Constants for Common Folders](#constants-for-common-folders)
+    - [Argument Information](#argument-information)
 
 ## Crumb Syntax
 

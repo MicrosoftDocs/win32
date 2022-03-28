@@ -23,8 +23,8 @@ Represents a collection of the open windows that belong to the Shell. Methods as
 
 The **ShellWindows** object has these types of members:
 
--   [Methods](#methods)
--   [Properties](#properties)
+- [Methods](#methods)
+- [Properties](#properties)
 
 ### Methods
 

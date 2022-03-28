@@ -12,9 +12,9 @@ The Shell uses a programmatic identifier (ProgID) registry subkey to associate a
 
 This topic is organized as follows:
 
--   [Programmatic Identifier Elements Used by File Associations](#programmatic-identifier-elements-used-by-file-associations)
--   [Using Versioned Programmatic Identifiers](#using-versioned-programmatic-identifiers)
--   [Related topics](#related-topics)
+- [Programmatic Identifier Elements Used by File Associations](#programmatic-identifier-elements-used-by-file-associations)
+- [Using Versioned Programmatic Identifiers](#using-versioned-programmatic-identifiers)
+- [Related topics](#related-topics)
 
 For additional information, read [How To Register a File Type for a New Application](how-to-register-a-file-type-for-a-new-application.md)
 

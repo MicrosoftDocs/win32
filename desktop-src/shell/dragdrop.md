@@ -20,9 +20,9 @@ Although files are the most commonly transferred Shell object, Shell data transf
 
 This document discusses how applications can implement drag-and-drop and Clipboard data transfers with Shell objects.
 
--   [The Shell Data Object](dataobject.md)
--   [Shell Clipboard Formats](clipboard.md)
--   [Handling Shell Data Transfer Scenarios](datascenarios.md)
+- [The Shell Data Object](dataobject.md)
+- [Shell Clipboard Formats](clipboard.md)
+- [Handling Shell Data Transfer Scenarios](datascenarios.md)
 
 ## How Drag-and-Drop Works with Shell Objects
 

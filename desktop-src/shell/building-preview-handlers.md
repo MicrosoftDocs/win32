@@ -12,14 +12,14 @@ This topic discusses the specific interfaces and methods required to create a pr
 
 A preview handler must implement the following interfaces:
 
--   [IInitializeWithStream::Initialize](#iinitializewithstreaminitialize) (strongly preferred), [**IInitializeWithFile**](/windows/desktop/api/Propsys/nn-propsys-iinitializewithfile), or [**IInitializeWithItem**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-iinitializewithitem)
--   [IObjectWithSite](#iobjectwithsite)
--   [IOleWindow](#iolewindow)
--   [IPreviewHandler](#ipreviewhandler)
+- [IInitializeWithStream::Initialize](#iinitializewithstreaminitialize) (strongly preferred), [**IInitializeWithFile**](/windows/desktop/api/Propsys/nn-propsys-iinitializewithfile), or [**IInitializeWithItem**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-iinitializewithitem)
+- [IObjectWithSite](#iobjectwithsite)
+- [IOleWindow](#iolewindow)
+- [IPreviewHandler](#ipreviewhandler)
 
 If your preview handler supports visual settings provided by the host such as background color and font, it must also implement the following interface:
 
--   [IPreviewHandlerVisuals](#ipreviewhandlervisuals)
+- [IPreviewHandlerVisuals](#ipreviewhandlervisuals)
 
 This topic assumes that the preview handler is initialized with a stream and is registered for a particular file name extension.
 
@@ -29,8 +29,8 @@ Store the [**IStream**](/windows/win32/api/objidl/nn-objidl-istream) and mode pa
 
 ## IObjectWithSite
 
--   [IObjectWithSite::SetSite](#iobjectwithsitesetsite)
--   [IObjectWithSite::GetSite](#iobjectwithsitegetsite)
+- [IObjectWithSite::SetSite](#iobjectwithsitesetsite)
+- [IObjectWithSite::GetSite](#iobjectwithsitegetsite)
 
 ### IObjectWithSite::SetSite
 
@@ -46,8 +46,8 @@ Return the site pointer, whatever it is.
 
 ## IOleWindow
 
--   [IOleWindow::ContextSensitiveHelp](#iolewindowcontextsensitivehelp)
--   [IOleWindow::GetWindow](#iolewindowgetwindow)
+- [IOleWindow::ContextSensitiveHelp](#iolewindowcontextsensitivehelp)
+- [IOleWindow::GetWindow](#iolewindowgetwindow)
 
 ### IOleWindow::ContextSensitiveHelp
 
@@ -59,13 +59,13 @@ If the preview handler's window currently exists, return the **HWND** of that wi
 
 ## IPreviewHandler
 
--   [IPreviewHandler::SetWindow](#ipreviewhandlersetwindow)
--   [IPreviewHandler::SetRect](#ipreviewhandlersetrect)
--   [IPreviewHandler::DoPreview](#ipreviewhandlerdopreview)
--   [IPreviewHandler::SetFocus](#ipreviewhandlersetfocus)
--   [IPreviewHandler::QueryFocus](#ipreviewhandlerqueryfocus)
--   [IPreviewHandler::TranslateAccelerator](#ipreviewhandlertranslateaccelerator)
--   [IPreviewHandler::Unload](#ipreviewhandlerunload)
+- [IPreviewHandler::SetWindow](#ipreviewhandlersetwindow)
+- [IPreviewHandler::SetRect](#ipreviewhandlersetrect)
+- [IPreviewHandler::DoPreview](#ipreviewhandlerdopreview)
+- [IPreviewHandler::SetFocus](#ipreviewhandlersetfocus)
+- [IPreviewHandler::QueryFocus](#ipreviewhandlerqueryfocus)
+- [IPreviewHandler::TranslateAccelerator](#ipreviewhandlertranslateaccelerator)
+- [IPreviewHandler::Unload](#ipreviewhandlerunload)
 
 ### IPreviewHandler::SetWindow
 
@@ -123,9 +123,9 @@ Once this method is called, the handler must be reinitialized before any attempt
 
 ## IPreviewHandlerVisuals
 
--   [IPreviewHandlerVisuals::SetBackgroundColor](#ipreviewhandlervisualssetbackgroundcolor)
--   [IPreviewHandlerVisuals::SetFont](#ipreviewhandlervisualssetfont)
--   [IPreviewHandlerVisuals::SetTextColor](#ipreviewhandlervisualssettextcolor)
+- [IPreviewHandlerVisuals::SetBackgroundColor](#ipreviewhandlervisualssetbackgroundcolor)
+- [IPreviewHandlerVisuals::SetFont](#ipreviewhandlervisualssetfont)
+- [IPreviewHandlerVisuals::SetTextColor](#ipreviewhandlervisualssettextcolor)
 
 These methods should be implemented when directing the preview handler to respond to the host's color and font schemes. The host queries the handler for [**IPreviewHandlerVisuals**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-ipreviewhandlervisuals). If found to be supported, the host provides it with color, font, and text color.
 

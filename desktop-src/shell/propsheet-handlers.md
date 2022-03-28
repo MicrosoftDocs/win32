@@ -18,9 +18,9 @@ When a user right-clicks a Shell object, the shortcut menu that is displayed nor
 
 The general procedures for implementing and registering a Shell extension handler are discussed in [Creating Shell Extension Handlers](handlers.md). This document focuses on those aspects of implementation that are specific to property sheet handlers.
 
--   [How Property Sheet Handlers Work](#how-property-sheet-handlers-work)
--   [Registering and Implementing a Property Sheet Handler for a Mounted Drive](#registering-and-implementing-a-property-sheet-handler-for-a-mounted-drive)
--   [Related topics](#related-topics)
+- [How Property Sheet Handlers Work](#how-property-sheet-handlers-work)
+- [Registering and Implementing a Property Sheet Handler for a Mounted Drive](#registering-and-implementing-a-property-sheet-handler-for-a-mounted-drive)
+- [Related topics](#related-topics)
 
 ## How Property Sheet Handlers Work
 

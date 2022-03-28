@@ -10,19 +10,19 @@ ms.date: 05/31/2018
 
 Right-clicking an object normally causes the display of a *shortcut menu*. This menu contains a list of commands that the user can select to perform various actions on the object. This section is an introduction to shortcut menus for file system objects.
 
--   [Shortcut Menus for File System Objects](#shortcut-menus-for-file-system-objects)
--   [Shortcut Menu Verbs](#shortcut-menu-verbs)
-    -   [Canonical Verbs](#canonical-verbs)
-    -   [Extended Verbs](#extended-verbs)
--   [Extending the Shortcut Menu for a File Type](#extending-the-shortcut-menu-for-a-file-type)
--   [Extending the Shortcut Menu for Predefined Shell Objects](#extending-the-shortcut-menu-for-predefined-shell-objects)
--   [Registering an Application to Handle Arbitrary File Types](#registering-an-application-to-handle-arbitrary-file-types)
--   [Extending the New Submenu](#extending-the-new-submenu)
+- [Shortcut Menus for File System Objects](#shortcut-menus-for-file-system-objects)
+- [Shortcut Menu Verbs](#shortcut-menu-verbs)
+    - [Canonical Verbs](#canonical-verbs)
+    - [Extended Verbs](#extended-verbs)
+- [Extending the Shortcut Menu for a File Type](#extending-the-shortcut-menu-for-a-file-type)
+- [Extending the Shortcut Menu for Predefined Shell Objects](#extending-the-shortcut-menu-for-predefined-shell-objects)
+- [Registering an Application to Handle Arbitrary File Types](#registering-an-application-to-handle-arbitrary-file-types)
+- [Extending the New Submenu](#extending-the-new-submenu)
 
 Additional information is available here:
 
--   [How To Define Extended Verbs](how-to-define-extended-verbs.md)
--   [How To Associate Verbs with DDE Commands](how-to-associate-verbs-with-dde-commands.md)
+- [How To Define Extended Verbs](how-to-define-extended-verbs.md)
+- [How To Associate Verbs with DDE Commands](how-to-associate-verbs-with-dde-commands.md)
 
 ## Shortcut Menus for File System Objects
 

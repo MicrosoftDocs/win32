@@ -20,16 +20,16 @@ While this newer version is named the Common Item Dialog, it continues to be cal
 
 The following topics are discussed here:
 
--   [IFileDialog, IFileOpenDialog, and IFileSaveDialog](#ifiledialog-ifileopendialog-and-ifilesavedialog)
-    -   [Sample Usage](#sample-usage)
--   [Listening to Events from the Dialog](#listening-to-events-from-the-dialog)
-    -   [OnFileOk](#onfileok)
-    -   [OnShareViolation and OnOverwrite](#onshareviolation-and-onoverwrite)
--   [Customizing the Dialog](#customizing-the-dialog)
-    -   [Adding Options to the OK Button](#adding-options-to-the-ok-button)
-    -   [Responding to Events in Added Controls](#responding-to-events-in-added-controls)
--   [Full Samples](#full-samples)
--   [Related topics](#related-topics)
+- [IFileDialog, IFileOpenDialog, and IFileSaveDialog](#ifiledialog-ifileopendialog-and-ifilesavedialog)
+    - [Sample Usage](#sample-usage)
+- [Listening to Events from the Dialog](#listening-to-events-from-the-dialog)
+    - [OnFileOk](#onfileok)
+    - [OnShareViolation and OnOverwrite](#onshareviolation-and-onoverwrite)
+- [Customizing the Dialog](#customizing-the-dialog)
+    - [Adding Options to the OK Button](#adding-options-to-the-ok-button)
+    - [Responding to Events in Added Controls](#responding-to-events-in-added-controls)
+- [Full Samples](#full-samples)
+- [Related topics](#related-topics)
 
 ## IFileDialog, IFileOpenDialog, and IFileSaveDialog
 
@@ -52,9 +52,9 @@ The Common Item Dialog implementation found in Windows Vista provides several a
 
 Additionally, developers can choose to implement the following interfaces:
 
--   [**IFileDialogEvents**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifiledialogevents) to receive notifications of events within the dialog.
--   [**IFileDialogCustomize**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifiledialogcustomize) to add controls to the dialog.
--   [**IFileDialogControlEvents**](/windows/desktop/api/Shobjidl/nn-shobjidl-ifiledialogcontrolevents) to be notified of events in those added controls.
+- [**IFileDialogEvents**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifiledialogevents) to receive notifications of events within the dialog.
+- [**IFileDialogCustomize**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifiledialogcustomize) to add controls to the dialog.
+- [**IFileDialogControlEvents**](/windows/desktop/api/Shobjidl/nn-shobjidl-ifiledialogcontrolevents) to be notified of events in those added controls.
 
 The **Open** or **Save** dialog returns an [**IShellItem**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem) or [**IShellItemArray**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitemarray) object to the calling process. The caller can then use an individual **IShellItem** object to get a file system path or to open a stream on the item to read or write information.
 
@@ -66,13 +66,13 @@ Flags and options available to the new dialog methods are very similar to the ol
 
 The following sections show example code for a variety of dialog tasks.
 
--   [Basic Usage](#basic-usage)
--   [Limiting Results to File System Items](#limiting-results-to-file-system-items)
--   [Specifying File Types for a Dialog](#specifying-file-types-for-a-dialog)
--   [Controlling the Default Folder](#controlling-the-default-folder)
--   [Adding Items to the Places Bar](#adding-items-to-the-places-bar)
--   [State Persistence](#state-persistence)
--   [Multiselect Capabilities](#multiselect-capabilities)
+- [Basic Usage](#basic-usage)
+- [Limiting Results to File System Items](#limiting-results-to-file-system-items)
+- [Specifying File Types for a Dialog](#specifying-file-types-for-a-dialog)
+- [Controlling the Default Folder](#controlling-the-default-folder)
+- [Adding Items to the Places Bar](#adding-items-to-the-places-bar)
+- [State Persistence](#state-persistence)
+- [Multiselect Capabilities](#multiselect-capabilities)
 
 Most of the sample code can be found in the Windows SDK [Common File Dialog Sample](samples-commonfiledialog.md).
 
@@ -658,8 +658,8 @@ The events handler provided by the calling process can implement [**IFileDialogC
 
 The following are complete, downloadable C++ samples from the Windows Software Development Kit (SDK) which demonstrate the use of and interaction with the Common Item Dialog.
 
--   [Common File Dialog Sample](samples-commonfiledialog.md)
--   [Common File Dialog Modes Sample](samples-commonfiledialogmodes.md)
+- [Common File Dialog Sample](samples-commonfiledialog.md)
+- [Common File Dialog Modes Sample](samples-commonfiledialogmodes.md)
 
 ## Related topics
 

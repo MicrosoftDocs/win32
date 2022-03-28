@@ -17,15 +17,15 @@ The Windows interface includes a special [application desktop toolbar](applicati
 
 This topic contains the following sections.
 
--   [About the Taskbar](#about-the-taskbar)
-    -   [Taskbar Display Options](#taskbar-display-options)
-    -   [Adding Shortcuts to the Start Menu](#adding-shortcuts-to-the-start-menu)
-    -   [Managing Taskbar Buttons](#managing-taskbar-buttons)
-    -   [Adding, Modifying, and Deleting Icons in the Notification Area](#adding-modifying-and-deleting-icons-in-the-notification-area)
-    -   [Taskbar Creation Notification](#taskbar-creation-notification)
--   [Using the Taskbar](#using-the-taskbar)
-    -   [Adding and Deleting Taskbar Icons in the Notification Area](#adding-and-deleting-taskbar-icons-in-the-notification-area)
-    -   [Receiving Mouse Events](#receiving-mouse-events)
+- [About the Taskbar](#about-the-taskbar)
+    - [Taskbar Display Options](#taskbar-display-options)
+    - [Adding Shortcuts to the Start Menu](#adding-shortcuts-to-the-start-menu)
+    - [Managing Taskbar Buttons](#managing-taskbar-buttons)
+    - [Adding, Modifying, and Deleting Icons in the Notification Area](#adding-modifying-and-deleting-icons-in-the-notification-area)
+    - [Taskbar Creation Notification](#taskbar-creation-notification)
+- [Using the Taskbar](#using-the-taskbar)
+    - [Adding and Deleting Taskbar Icons in the Notification Area](#adding-and-deleting-taskbar-icons-in-the-notification-area)
+    - [Receiving Mouse Events](#receiving-mouse-events)
 
 ## About the Taskbar
 

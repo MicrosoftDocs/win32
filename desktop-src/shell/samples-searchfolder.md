@@ -18,11 +18,11 @@ Demonstrates how to create a search with query constraints using the Shell progr
 
 This topic contains the following sections.
 
--   [Description](#description)
--   [Requirements](#requirements)
--   [Downloading the Sample](#downloading-the-sample)
--   [Building the Sample](#building-the-sample)
--   [Running the Sample](#running-the-sample)
+- [Description](#description)
+- [Requirements](#requirements)
+- [Downloading the Sample](#downloading-the-sample)
+- [Building the Sample](#building-the-sample)
+- [Running the Sample](#running-the-sample)
 
 ## Description
 

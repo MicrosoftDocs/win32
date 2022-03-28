@@ -18,11 +18,11 @@ Demonstrates how to implement a Shell verb using the CreateProcess method.
 
 This topic contains the following sections.
 
--   [Description](#description)
--   [Requirements](#requirements)
--   [Downloading the Sample](#downloading-the-sample)
--   [Building the Sample](#building-the-sample)
--   [Running the Sample](#running-the-sample)
+- [Description](#description)
+- [Requirements](#requirements)
+- [Downloading the Sample](#downloading-the-sample)
+- [Building the Sample](#building-the-sample)
+- [Running the Sample](#running-the-sample)
 
 ## Description
 

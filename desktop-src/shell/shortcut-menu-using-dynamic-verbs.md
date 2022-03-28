@@ -12,15 +12,15 @@ Shortcut menu handlers are also known as context menu handlers or verb handlers.
 
 This topic is organized as follows:
 
--   [About Static and Dynamic Verbs](#about-static-and-dynamic-verbs)
--   [How Shortcut Menu Handlers Work with Dynamic Verbs](#how-shortcut-menu-handlers-work-with-dynamic-verbs)
--   [Avoiding Collisions Due to Unqualified Verb Names](#avoiding-collisions-due-to-unqualified-verb-names)
--   [Registering a Shortcut Menu Handler with a Dynamic Verb](#registering-a-shortcut-menu-handler-with-a-dynamic-verb)
--   [Implementing the IContextMenu Interface](#implementing-the-icontextmenu-interface)
-    -   [IContextMenu::GetCommandString Method](#icontextmenugetcommandstring-method)
-    -   [IContextMenu::InvokeCommand Method](#icontextmenuinvokecommand-method)
-    -   [IContextMenu::QueryContextMenu Method](#icontextmenuquerycontextmenu-method)
--   [Related topics](#related-topics)
+- [About Static and Dynamic Verbs](#about-static-and-dynamic-verbs)
+- [How Shortcut Menu Handlers Work with Dynamic Verbs](#how-shortcut-menu-handlers-work-with-dynamic-verbs)
+- [Avoiding Collisions Due to Unqualified Verb Names](#avoiding-collisions-due-to-unqualified-verb-names)
+- [Registering a Shortcut Menu Handler with a Dynamic Verb](#registering-a-shortcut-menu-handler-with-a-dynamic-verb)
+- [Implementing the IContextMenu Interface](#implementing-the-icontextmenu-interface)
+    - [IContextMenu::GetCommandString Method](#icontextmenugetcommandstring-method)
+    - [IContextMenu::InvokeCommand Method](#icontextmenuinvokecommand-method)
+    - [IContextMenu::QueryContextMenu Method](#icontextmenuquerycontextmenu-method)
+- [Related topics](#related-topics)
 
 ## About Static and Dynamic Verbs
 
@@ -37,10 +37,10 @@ If you must extend the shortcut menu for a file type by registering a dynamic ve
 
 In addition to [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown), shortcut menu handlers export the following additional interfaces to handle the messaging needed to implement owner-drawn menu items:
 
--   [**IShellExtInit**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-ishellextinit) (mandatory)
--   [**IContextMenu**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-icontextmenu) (mandatory)
--   [**IContextMenu2**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icontextmenu2) (optional)
--   [**IContextMenu3**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icontextmenu3) (optional)
+- [**IShellExtInit**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-ishellextinit) (mandatory)
+- [**IContextMenu**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-icontextmenu) (mandatory)
+- [**IContextMenu2**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icontextmenu2) (optional)
+- [**IContextMenu3**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icontextmenu3) (optional)
 
 For more information on owner-drawn menu items, see the *Creating Owner-Drawn Menu Items* section in [Using Menus](../menurc/using-menus.md).
 

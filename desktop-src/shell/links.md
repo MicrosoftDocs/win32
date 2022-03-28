@@ -10,14 +10,14 @@ ms.date: 05/31/2018
 
 A *Shell link* is a data object that contains information used to access another object in the Shell's namespace—that is, any object visible through Windows Explorer. The types of objects that can be accessed through Shell links include files, folders, disk drives, and printers. A Shell link allows a user or an application to access an object from anywhere in the namespace. The user or application does not need to know the current name and location of the object.
 
--   [About Shell Links](#about-shell-links)
-    -   [Link Resolution](#link-resolution)
-    -   [Link Files](#link-files)
-    -   [Item Identifiers and Identifier Lists](#item-identifiers-and-identifier-lists)
--   [Using Shell Links](#using-shell-links)
-    -   [Creating a Shortcut and a Folder Shortcut to a File](#creating-a-shortcut-and-a-folder-shortcut-to-a-file)
-    -   [Resolving a Shortcut](#resolving-a-shortcut)
-    -   [Creating a Shortcut to a Nonfile Object](#creating-a-shortcut-to-a-nonfile-object)
+- [About Shell Links](#about-shell-links)
+    - [Link Resolution](#link-resolution)
+    - [Link Files](#link-files)
+    - [Item Identifiers and Identifier Lists](#item-identifiers-and-identifier-lists)
+- [Using Shell Links](#using-shell-links)
+    - [Creating a Shortcut and a Folder Shortcut to a File](#creating-a-shortcut-and-a-folder-shortcut-to-a-file)
+    - [Resolving a Shortcut](#resolving-a-shortcut)
+    - [Creating a Shortcut to a Nonfile Object](#creating-a-shortcut-to-a-nonfile-object)
 
 ## About Shell Links
 

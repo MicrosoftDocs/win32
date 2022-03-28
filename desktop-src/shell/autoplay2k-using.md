@@ -26,19 +26,19 @@ If the contents do not meet the criteria for AutoPlay, the event is then passed 
 
 The following topics discuss the setup and use of AutoPlay.
 
--   [Preparing Hardware and Software for Use with AutoPlay](#preparing-hardware-and-software-for-use-with-autoplay)
--   [How AutoPlay Searches Media](#how-autoplay-searches-media)
--   [Defining Single and Mixed Content Types](#defining-single-and-mixed-content-types)
--   [Sample Scenarios](#sample-scenarios)
-    -   [AutoPlay for Storage Devices with Picture Media](#autoplay-for-storage-devices-with-picture-media)
-    -   [AutoPlay for Music File Playback Devices and Storage Devices Containing Music Media](#autoplay-for-music-file-playback-devices-and-storage-devices-containing-music-media)
-    -   [AutoPlay for Video Playback on First Presentation](#autoplay-for-video-playback-on-first-presentation)
--   [Assigning Default Handler Applications](#assigning-default-handler-applications)
--   [Handling Media Containing Mixed Content Types](#handling-media-containing-mixed-content-types)
--   [AutoPlay User Interfaces](#autoplay-user-interfaces)
-    -   [Single Content Type Dialog Box](#single-content-type-dialog-box)
-    -   [Mixed Media Dialog Box](#mixed-media-dialog-box)
-    -   [Property Page](#property-page)
+- [Preparing Hardware and Software for Use with AutoPlay](#preparing-hardware-and-software-for-use-with-autoplay)
+- [How AutoPlay Searches Media](#how-autoplay-searches-media)
+- [Defining Single and Mixed Content Types](#defining-single-and-mixed-content-types)
+- [Sample Scenarios](#sample-scenarios)
+    - [AutoPlay for Storage Devices with Picture Media](#autoplay-for-storage-devices-with-picture-media)
+    - [AutoPlay for Music File Playback Devices and Storage Devices Containing Music Media](#autoplay-for-music-file-playback-devices-and-storage-devices-containing-music-media)
+    - [AutoPlay for Video Playback on First Presentation](#autoplay-for-video-playback-on-first-presentation)
+- [Assigning Default Handler Applications](#assigning-default-handler-applications)
+- [Handling Media Containing Mixed Content Types](#handling-media-containing-mixed-content-types)
+- [AutoPlay User Interfaces](#autoplay-user-interfaces)
+    - [Single Content Type Dialog Box](#single-content-type-dialog-box)
+    - [Mixed Media Dialog Box](#mixed-media-dialog-box)
+    - [Property Page](#property-page)
 
 ## Preparing Hardware and Software for Use with AutoPlay
 
@@ -46,13 +46,13 @@ Several pieces of information need to appear in the registry for AutoPlay to fun
 
 See the following topics for additional instructions.
 
--   [How To Assign a Device Handler to a Device](how-to-assign-a-device-handler-to-a-device.md)
--   [How To Specify an Icon, Label, or Device Handler for a Device Using a Device Group](how-to-specify-an-icon--label--or-device-handler-for-a-device-using-a-device-group.md)
--   [How To Specify an Icon, Label, or Device Handler for a Device Using a Device Class](how-to-specify-an-icon--label--or-device-handler-for-a-device-using-a-device-class.md)
--   [How To Prevent AutoPlay for a Component](how-to-prevent-autoplay-for-a-component.md)
--   [How To Register a Handler for a Device Event](how-to-register-a-handler-for-a-device-event.md)
--   [How To Use AutoPlay Events in Running Applications](how-to-use-autoplay-events-in-running-applications.md)
--   [How To Register an Event Handler](how-to-register-an-event-handler.md)
+- [How To Assign a Device Handler to a Device](how-to-assign-a-device-handler-to-a-device.md)
+- [How To Specify an Icon, Label, or Device Handler for a Device Using a Device Group](how-to-specify-an-icon--label--or-device-handler-for-a-device-using-a-device-group.md)
+- [How To Specify an Icon, Label, or Device Handler for a Device Using a Device Class](how-to-specify-an-icon--label--or-device-handler-for-a-device-using-a-device-class.md)
+- [How To Prevent AutoPlay for a Component](how-to-prevent-autoplay-for-a-component.md)
+- [How To Register a Handler for a Device Event](how-to-register-a-handler-for-a-device-event.md)
+- [How To Use AutoPlay Events in Running Applications](how-to-use-autoplay-events-in-running-applications.md)
+- [How To Register an Event Handler](how-to-register-an-event-handler.md)
 
 ## How AutoPlay Searches Media
 

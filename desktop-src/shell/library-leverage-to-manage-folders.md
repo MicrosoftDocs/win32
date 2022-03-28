@@ -20,11 +20,11 @@ In a library, the contents, such as a user's documents, photos, videos, or music
 
 In this topic:
 
--   [Library Benefits](#library-benefits)
-    -   [User Benefits](#user-benefits)
-    -   [Developer Benefits](#developer-benefits)
--   [Managing Folders in Libraries](#managing-folders-in-libraries)
--   [Related topics](#related-topics)
+- [Library Benefits](#library-benefits)
+    - [User Benefits](#user-benefits)
+    - [Developer Benefits](#developer-benefits)
+- [Managing Folders in Libraries](#managing-folders-in-libraries)
+- [Related topics](#related-topics)
 
 ## Library Benefits
 

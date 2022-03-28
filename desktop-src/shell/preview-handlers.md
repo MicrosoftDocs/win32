@@ -12,13 +12,13 @@ Preview handlers are called when an item is selected to show a lightweight, rich
 
 This topic discusses the following topics:
 
--   [Preview Handler Architecture](#preview-handler-architecture)
--   [Server Model Options](#server-model-options)
--   [Initialization](#initialization)
--   [Preview Handler Data Flow](#preview-handler-data-flow)
--   [Debugging a Preview Handler](#debugging-a-preview-handler)
--   [Providing Your Own Process for a Preview Handler](#providing-your-own-process-for-a-preview-handler)
--   [Related topics](#related-topics)
+- [Preview Handler Architecture](#preview-handler-architecture)
+- [Server Model Options](#server-model-options)
+- [Initialization](#initialization)
+- [Preview Handler Data Flow](#preview-handler-data-flow)
+- [Debugging a Preview Handler](#debugging-a-preview-handler)
+- [Providing Your Own Process for a Preview Handler](#providing-your-own-process-for-a-preview-handler)
+- [Related topics](#related-topics)
 
 ## Preview Handler Architecture
 
@@ -26,11 +26,11 @@ A preview handler is a hosted application. Hosts include the Windows Explorer in
 
 The preview handler itself implements these interfaces:
 
--   [**IInitializeWithStream**](/windows/desktop/api/Propsys/nn-propsys-iinitializewithstream)
--   [**IObjectWithSite**](/windows/win32/api/ocidl/nn-ocidl-iobjectwithsite)
--   [**IOleWindow**](/windows/win32/api/oleidl/nn-oleidl-iolewindow)
--   [**IPreviewHandler**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-ipreviewhandler)
--   [**IPreviewHandlerVisuals**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-ipreviewhandlervisuals) (Optional)
+- [**IInitializeWithStream**](/windows/desktop/api/Propsys/nn-propsys-iinitializewithstream)
+- [**IObjectWithSite**](/windows/win32/api/ocidl/nn-ocidl-iobjectwithsite)
+- [**IOleWindow**](/windows/win32/api/oleidl/nn-oleidl-iolewindow)
+- [**IPreviewHandler**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-ipreviewhandler)
+- [**IPreviewHandlerVisuals**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-ipreviewhandlervisuals) (Optional)
 
 Your handler is called through its [**IObjectWithSite**](/windows/win32/api/ocidl/nn-ocidl-iobjectwithsite), which returns an [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown) pointer through which you request an [**IPreviewHandlerFrame**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-ipreviewhandlerframe) object to interact with the host.
 

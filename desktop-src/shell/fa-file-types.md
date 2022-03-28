@@ -12,19 +12,19 @@ This topic explains how to create new file types and how to associate your app w
 
 This topic is organized as follows:
 
--   [Public and Private File Types](#public-and-private-file-types)
--   [Registering a File Type](#registering-a-file-type)
-    -   [Setting Optional Subkeys and File Type Extension Attributes](#setting-optional-subkeys-and-file-type-extension-attributes)
-    -   [Deleting Registry Information During Uninstallation](#deleting-registry-information-during-uninstallation)
--   [File Types That Support Open Metadata](#file-types-that-support-open-metadata)
--   [Related topics](#related-topics)
+- [Public and Private File Types](#public-and-private-file-types)
+- [Registering a File Type](#registering-a-file-type)
+    - [Setting Optional Subkeys and File Type Extension Attributes](#setting-optional-subkeys-and-file-type-extension-attributes)
+    - [Deleting Registry Information During Uninstallation](#deleting-registry-information-during-uninstallation)
+- [File Types That Support Open Metadata](#file-types-that-support-open-metadata)
+- [Related topics](#related-topics)
 
 Additional information can be found on the following topics:
 
--   [How To Choose a File Type Extension](how-to-choose-a-file-type-extension.md)
--   [How To Define File Type Attributes](./how-to-define-file-type-attributes.md)
--   [How To Include an Application on the Open with Dialog Box](how-to-include-an-application-on-the-open-with-dialog-box.md)
--   [How To Exclude an Application from the Open with Dialog Box for Unassociated File Types](how-to-exclude-an-application-from-the-open-with-dialog-box-for-unassociated-file-types.md)
+- [How To Choose a File Type Extension](how-to-choose-a-file-type-extension.md)
+- [How To Define File Type Attributes](./how-to-define-file-type-attributes.md)
+- [How To Include an Application on the Open with Dialog Box](how-to-include-an-application-on-the-open-with-dialog-box.md)
+- [How To Exclude an Application from the Open with Dialog Box for Unassociated File Types](how-to-exclude-an-application-from-the-open-with-dialog-box-for-unassociated-file-types.md)
 
 ## Public and Private File Types
 

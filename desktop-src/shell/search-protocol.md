@@ -29,12 +29,12 @@ If you develop an application that is intended to use or build upon a specific d
 
 This topic covers the following:
 
--   [Syntax](#syntax)
--   [Windows Vista with SP1 use of the search: protocol](#windows-vista-with-sp1-use-of-the-search-protocol)
--   [Examples](#examples)
--   [Registering the Application that Handles the Protocol](#registering-the-application-that-handles-the-protocol)
-    -   [Registry Entries](#registry-entries)
--   [Related topics](#related-topics)
+- [Syntax](#syntax)
+- [Windows Vista with SP1 use of the search: protocol](#windows-vista-with-sp1-use-of-the-search-protocol)
+- [Examples](#examples)
+- [Registering the Application that Handles the Protocol](#registering-the-application-that-handles-the-protocol)
+    - [Registry Entries](#registry-entries)
+- [Related topics](#related-topics)
 
 ## Syntax
 

@@ -18,15 +18,15 @@ The Windows UI provides users with access to a wide variety of objects necessary
 
 ## In this section
 
--   [Security Considerations: Microsoft Windows Shell](sec-shell.md)
--   [Guidance for Implementing In-Process Extensions](shell-and-managed-code.md)
--   [Shell and Common Controls Versions](versions.md)
--   [Implementing the Basic Folder Object Interfaces](nse-implement.md)
--   [Implementing a Custom File Format](customizing-file-types-bumper.md)
--   [Shell Extensibility (Creating a Data Source)](shell-extensibility-bumper.md)
--   [Implementing Control Panel Items](control-panel-applications.md)
--   [Supporting Shell Applications](application-support-bumper.md)
--   [Legacy Shell Topics](miscellaneous-topics-bumper.md)
+- [Security Considerations: Microsoft Windows Shell](sec-shell.md)
+- [Guidance for Implementing In-Process Extensions](shell-and-managed-code.md)
+- [Shell and Common Controls Versions](versions.md)
+- [Implementing the Basic Folder Object Interfaces](nse-implement.md)
+- [Implementing a Custom File Format](customizing-file-types-bumper.md)
+- [Shell Extensibility (Creating a Data Source)](shell-extensibility-bumper.md)
+- [Implementing Control Panel Items](control-panel-applications.md)
+- [Supporting Shell Applications](application-support-bumper.md)
+- [Legacy Shell Topics](miscellaneous-topics-bumper.md)
 
 ## Document Conventions
 

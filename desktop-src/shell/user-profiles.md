@@ -18,8 +18,8 @@ Configuration information that can be retained for each user is saved in [user p
 
 This section includes the following topics.
 
--   [About User Profiles](about-user-profiles.md)
--   [User Profiles Reference](user-profiles-reference.md)
+- [About User Profiles](about-user-profiles.md)
+- [User Profiles Reference](user-profiles-reference.md)
 
  
 

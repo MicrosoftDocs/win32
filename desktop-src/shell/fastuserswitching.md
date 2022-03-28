@@ -12,13 +12,13 @@ Windows XP user accounts enable multiple users to be logged on simultaneously, 
 
 The following topics are discussed.
 
--   [Infrastructure Usage Requirements](#infrastructure-usage-requirements)
--   [Compatibility with Existing Applications](#compatibility-with-existing-applications)
--   [Registering for Session Switching Notification](#registering-for-session-switching-notification)
--   [Ensuring Only One Instance of Your Application Is Running](#ensuring-only-one-instance-of-your-application-is-running)
--   [Shutting Down Your Application Across All Sessions](#shutting-down-your-application-across-all-sessions)
--   [Interaction with System Services](#interaction-with-system-services)
--   [Remote Desktop and Bandwidth](#remote-desktop-and-bandwidth)
+- [Infrastructure Usage Requirements](#infrastructure-usage-requirements)
+- [Compatibility with Existing Applications](#compatibility-with-existing-applications)
+- [Registering for Session Switching Notification](#registering-for-session-switching-notification)
+- [Ensuring Only One Instance of Your Application Is Running](#ensuring-only-one-instance-of-your-application-is-running)
+- [Shutting Down Your Application Across All Sessions](#shutting-down-your-application-across-all-sessions)
+- [Interaction with System Services](#interaction-with-system-services)
+- [Remote Desktop and Bandwidth](#remote-desktop-and-bandwidth)
 
 ## Infrastructure Usage Requirements
 

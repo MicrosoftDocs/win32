@@ -10,13 +10,13 @@ ms.date: 05/31/2018
 
 Windows Explorer provides a graphical representation of the Shell namespace combined with tools that allow users to interact with Shell objects. With a namespace extension, you can take any body of data and have Windows Explorer present it to the user as a virtual folder. When a user browses into this folder, your data is presented as a tree-structured hierarchy of folders and files, much like the rest of the Shell namespace. Users and applications are able to interact with the contents of this virtual folder in much the same way as with any other namespace object. This document discusses how to create a namespace extension.
 
--   [How a Namespace Extension Works](#how-a-namespace-extension-works)
--   [The Default System Folder View Object (DefView)](#the-default-system-folder-view-object-defview)
--   [How Windows Explorer Interacts with a Namespace Extension](#how-windows-explorer-interacts-with-a-namespace-extension)
-    -   [Tree View](#tree-view)
-    -   [Folder View](#folder-view)
-    -   [Menu Bar and Toolbars](#menu-bar-and-toolbars)
-    -   [Status Bar](#status-bar)
+- [How a Namespace Extension Works](#how-a-namespace-extension-works)
+- [The Default System Folder View Object (DefView)](#the-default-system-folder-view-object-defview)
+- [How Windows Explorer Interacts with a Namespace Extension](#how-windows-explorer-interacts-with-a-namespace-extension)
+    - [Tree View](#tree-view)
+    - [Folder View](#folder-view)
+    - [Menu Bar and Toolbars](#menu-bar-and-toolbars)
+    - [Status Bar](#status-bar)
 
 ## How a Namespace Extension Works
 
@@ -49,10 +49,10 @@ The Shell provides a default implementation of the folder view, colloquially kno
 
 Windows Explorer provides users with a GUI that allows them to do a variety of tasks, including:
 
--   [Navigating](navigate.md) the namespace hierarchy and viewing the contents of folders.
--   [Managing](manage.md) the contents of the namespace by moving, deleting, and copying objects.
--   [Retrieving](folder-info.md) a variety of information about objects.
--   [Launching](launch.md) applications.
+- [Navigating](navigate.md) the namespace hierarchy and viewing the contents of folders.
+- [Managing](manage.md) the contents of the namespace by moving, deleting, and copying objects.
+- [Retrieving](folder-info.md) a variety of information about objects.
+- [Launching](launch.md) applications.
 
 The Windows Explorer GUI has five basic components. The following illustration names the components and shows where they are typically displayed within Windows Explorer.
 

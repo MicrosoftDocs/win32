@@ -15,12 +15,12 @@ This topic discusses the **Set Program Access and Computer Defaults (SPAD)** fea
 
  
 
--   [Using the Set Program Access and Computer Defaults Tool](#using-the-set-program-access-and-computer-defaults-tool)
-    -   [An Overview of Set Program Access and Computer Defaults](#an-overview-of-set-program-access-and-computer-defaults)
-    -   [The LastUserInitiatedDefaultChange Registry Value](#the-lastuserinitiateddefaultchange-registry-value)
--   [Filtering the Add or Remove Programs List](#filtering-the-add-or-remove-programs-list)
--   [Additional Resources](#filtering-the-add-or-remove-programs-list)
--   [Related topics](#related-topics)
+- [Using the Set Program Access and Computer Defaults Tool](#using-the-set-program-access-and-computer-defaults-tool)
+  - [An Overview of Set Program Access and Computer Defaults](#an-overview-of-set-program-access-and-computer-defaults)
+  - [The LastUserInitiatedDefaultChange Registry Value](#the-lastuserinitiateddefaultchange-registry-value)
+- [Filtering the Add or Remove Programs List](#filtering-the-add-or-remove-programs-list)
+- [Additional Resources](#filtering-the-add-or-remove-programs-list)
+- [Related topics](#related-topics)
 
 ## Using the Set Program Access and Computer Defaults Tool
 
@@ -51,10 +51,10 @@ The Windows 8 **Set Program Access and Computer Defaults** page is shown in the
 
 Three possible configuration options are presented to the user, with the option for OEMs to present a fourth option titled "Computer Manufacturer".
 
--   [Microsoft Windows](#microsoft-windows)
--   [Non-Microsoft](#non-microsoft)
--   [Custom](#custom)
--   [Computer Manufacturer](#computer-manufacturer)
+- [Microsoft Windows](#microsoft-windows)
+- [Non-Microsoft](#non-microsoft)
+- [Custom](#custom)
+- [Computer Manufacturer](#computer-manufacturer)
 
 ### Microsoft Windows
 
@@ -212,9 +212,9 @@ DontGroupPatches has no effect in Windows Vista and Windows 7, where the UI co
 
 ## Additional Resources
 
--   [Registering Programs with Client Types](reg-middleware-apps.md)
--   [Installation](/previous-versions/ms997548(v=msdn.10))
--   [Configuring Add/Remove Programs with Windows Installer](../msi/configuring-add-remove-programs-with-windows-installer.md)
+- [Registering Programs with Client Types](reg-middleware-apps.md)
+- [Installation](/previous-versions/ms997548(v=msdn.10))
+- [Configuring Add/Remove Programs with Windows Installer](../msi/configuring-add-remove-programs-with-windows-installer.md)
 
 ## Related topics
 

@@ -14,10 +14,10 @@ An icon handler is a type of Shell extension handler that allows you to dynamica
 
 The general procedures for implementing and registering a Shell extension handler are discussed in [Creating Shell Extension Handlers](handlers.md). This document focuses on those aspects of implementation that are specific to icon handlers.
 
--   [Implementing Icon Handlers](#step-1-implementing-icon-handlers)
--   [Implementing the IExtractIcon Interface](#step-2-implementing-the-iextracticon-interface)
--   [Registering Icon Handlers](#step-3-registering-icon-handlers)
--   [Related topics](#related-topics)
+- [Implementing Icon Handlers](#step-1-implementing-icon-handlers)
+- [Implementing the IExtractIcon Interface](#step-2-implementing-the-iextracticon-interface)
+- [Registering Icon Handlers](#step-3-registering-icon-handlers)
+- [Related topics](#related-topics)
 
 ## Instructions
 

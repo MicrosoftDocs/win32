@@ -10,11 +10,11 @@ ms.date: 05/31/2018
 
 Once your application has located a file object, the next step is often to act on it in some way. For instance, your application might want to launch another application that allows the user to modify a data file. If the file of interest is an executable, your application might want to simply launch it. This document discusses how to use [**ShellExecute**](/windows/desktop/api/Shellapi/nf-shellapi-shellexecutea) or [**ShellExecuteEx**](/windows/desktop/api/Shellapi/nf-shellapi-shellexecuteexa) to perform these tasks.
 
--   [Using ShellExecute and ShellExecuteEx](#using-shellexecute-and-shellexecuteex)
-    -   [Object Verbs](#object-verbs)
-    -   [Using ShellExecuteEx to Provide Activation Services from a Site](#using-shellexecuteex-to-provide-activation-services-from-a-site)
-    -   [Using ShellExecute to Launch the Search Dialog Box](#using-shellexecute-to-launch-the-search-dialog-box)
--   [A Simple Example of How to Use ShellExecuteEx](#a-simple-example-of-how-to-use-shellexecuteex)
+- [Using ShellExecute and ShellExecuteEx](#using-shellexecute-and-shellexecuteex)
+    - [Object Verbs](#object-verbs)
+    - [Using ShellExecuteEx to Provide Activation Services from a Site](#using-shellexecuteex-to-provide-activation-services-from-a-site)
+    - [Using ShellExecute to Launch the Search Dialog Box](#using-shellexecute-to-launch-the-search-dialog-box)
+- [A Simple Example of How to Use ShellExecuteEx](#a-simple-example-of-how-to-use-shellexecuteex)
 
 ## Using ShellExecute and ShellExecuteEx
 

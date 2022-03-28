@@ -24,7 +24,7 @@ Extends the [**ShellLinkObject**](shelllinkobject-object.md) object and supports
 
 The **IShellLinkDual2** object has these types of members:
 
--   [Properties](#properties)
+- [Properties](#properties)
 
 ### Properties
 

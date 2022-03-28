@@ -24,12 +24,12 @@ When applications register as Start Menu Internet Applications, Windows XP and 
 
 This topic discusses the following items:
 
--   [Registering for the Start Menu Internet Link](#registering-for-the-start-menu-internet-link)
-    -   [How to Register as the Default Internet Client](#how-to-register-as-the-default-internet-client)
--   [Registering for the Start Menu Email Link](#registering-for-the-start-menu-email-link)
-    -   [How the Start Menu Displays the Default Email Client](#how-the-start-menu-displays-the-default-email-client)
-    -   [How to Register as the Default EMail Client](#how-to-register-as-the-default-email-client)
--   [Customizing the Context Menu](#customizing-the-context-menu)
+- [Registering for the Start Menu Internet Link](#registering-for-the-start-menu-internet-link)
+    - [How to Register as the Default Internet Client](#how-to-register-as-the-default-internet-client)
+- [Registering for the Start Menu Email Link](#registering-for-the-start-menu-email-link)
+    - [How the Start Menu Displays the Default Email Client](#how-the-start-menu-displays-the-default-email-client)
+    - [How to Register as the Default EMail Client](#how-to-register-as-the-default-email-client)
+- [Customizing the Context Menu](#customizing-the-context-menu)
 
 ## Registering for the Start Menu Internet Link
 

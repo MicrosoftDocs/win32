@@ -29,11 +29,11 @@ Any time the Shell takes an action that can involve a Shell extension handler, i
 
 This topic discusses the following subjects:
 
--   [Handler Names](#handler-names)
--   [Predefined Shell Objects](#predefined-shell-objects)
--   [Example of an Extension Handler Registration](#example-of-an-extension-handler-registration)
-    -   [Registering Shell Extension Handlers](#registering-shell-extension-handlers)
--   [Related topics](#related-topics)
+- [Handler Names](#handler-names)
+- [Predefined Shell Objects](#predefined-shell-objects)
+- [Example of an Extension Handler Registration](#example-of-an-extension-handler-registration)
+    - [Registering Shell Extension Handlers](#registering-shell-extension-handlers)
+- [Related topics](#related-topics)
 
 ## Handler Names
 

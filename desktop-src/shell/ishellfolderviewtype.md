@@ -24,7 +24,7 @@ Exposes methods that enable a Shell folder to support different views on its con
 
 The **IShellFolderViewType** interface inherits from the [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown) interface. **IShellFolderViewType** also has these types of members:
 
--   [Methods](#methods)
+- [Methods](#methods)
 
 ### Methods
 

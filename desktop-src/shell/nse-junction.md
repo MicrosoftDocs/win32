@@ -16,9 +16,9 @@ topic_type:
 
 The root of a namespace extension is normally displayed by Windows Explorer as a folder in both tree and folder views. For Windows Explorer to display your extension's files and subfolders, you must specify where the root folder is located in the Shell namespace hierarchy. This location is referred to as a *junction point*.
 
--   [Using Virtual Folders as Junction Points](#using-virtual-folders-as-junction-points)
--   [Using File System Folders as Junction Points](#using-file-system-folders-as-junction-points)
--   [Opening a View of a Namespace Extension](#opening-a-view-of-a-namespace-extension)
+- [Using Virtual Folders as Junction Points](#using-virtual-folders-as-junction-points)
+- [Using File System Folders as Junction Points](#using-file-system-folders-as-junction-points)
+- [Opening a View of a Namespace Extension](#opening-a-view-of-a-namespace-extension)
 
 ## Using Virtual Folders as Junction Points
 

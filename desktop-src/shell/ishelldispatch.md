@@ -29,8 +29,8 @@ Represents an object in the Shell. Methods are provided to control the Shell and
 
 The **IShellDispatch** object has these types of members:
 
--   [Methods](#methods)
--   [Properties](#properties)
+- [Methods](#methods)
+- [Properties](#properties)
 
 ### Methods
 

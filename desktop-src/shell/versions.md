@@ -16,10 +16,10 @@ topic_type:
 
 This section describes how to determine which version of the Shell DLLs your application is running on and how to target your application for a specific version.
 
--   [DLL Version Numbers](#dll-version-numbers)
--   [Using DllGetVersion to Determine the Version Number](#using-dllgetversion-to-determine-the-version-number)
-    -   [Using DllGetVersion](#using-dllgetversion)
--   [Project Versions](#project-versions)
+- [DLL Version Numbers](#dll-version-numbers)
+- [Using DllGetVersion to Determine the Version Number](#using-dllgetversion-to-determine-the-version-number)
+    - [Using DllGetVersion](#using-dllgetversion)
+- [Project Versions](#project-versions)
 
 ## DLL Version Numbers
 

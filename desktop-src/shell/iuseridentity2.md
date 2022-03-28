@@ -25,7 +25,7 @@ Exposes methods that provide naming, password, and ordinal control for a specifi
 
 The **IUserIdentity2** interface inherits from [**IUserIdentity**](iuseridentity.md). **IUserIdentity2** also has these types of members:
 
--   [Methods](#methods)
+- [Methods](#methods)
 
 ### Methods
 

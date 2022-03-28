@@ -49,8 +49,8 @@ Others are not associated with a particular file type but are called before some
 
 The details of how to implement specific extension handlers are covered in the sections listed above. For discussions of implementation issues that are common to all Shell extension handlers, see these topics:
 
--   [Initializing Shell Extension Handlers](int-shell-exts.md)
--   [Registering Shell Extension Handlers](reg-shell-exts.md)
+- [Initializing Shell Extension Handlers](int-shell-exts.md)
+- [Registering Shell Extension Handlers](reg-shell-exts.md)
 
  
 

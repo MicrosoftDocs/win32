@@ -27,12 +27,12 @@ The [**IThumbnailProvider**](/windows/desktop/api/Thumbcache/nn-thumbcache-ithum
 
 This topic discusses the following:
 
--   [Thumbnail Processes](#thumbnail-processes)
--   [Thumbnail Cache and Sizing](#thumbnail-cache-and-sizing)
--   [Thumbnail Overlays](#thumbnail-overlays)
--   [Thumbnail Adornments](#thumbnail-adornments)
--   [Registering Your Thumbnail Handler](#registering-your-thumbnail-handler)
--   [Related topics](#related-topics)
+- [Thumbnail Processes](#thumbnail-processes)
+- [Thumbnail Cache and Sizing](#thumbnail-cache-and-sizing)
+- [Thumbnail Overlays](#thumbnail-overlays)
+- [Thumbnail Adornments](#thumbnail-adornments)
+- [Registering Your Thumbnail Handler](#registering-your-thumbnail-handler)
+- [Related topics](#related-topics)
 
 ## Thumbnail Processes
 

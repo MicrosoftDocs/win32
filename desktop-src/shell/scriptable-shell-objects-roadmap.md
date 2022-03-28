@@ -18,13 +18,13 @@ The Windows Shell provides a powerful set of automation objects that enable you 
 
 This section introduces the scriptable Shell objects.
 
--   [Shell Versions](#shell-versions)
--   [Instantiating Shell Objects](#instantiating-shell-objects)
-    -   [Late Binding](#late-binding)
-    -   [HTML OBJECT Element](#html-object-element)
--   [Shell Object](#shell-object)
-    -   [Security](#security)
--   [Folder Objects](#folder-objects)
+- [Shell Versions](#shell-versions)
+- [Instantiating Shell Objects](#instantiating-shell-objects)
+    - [Late Binding](#late-binding)
+    - [HTML OBJECT Element](#html-object-element)
+- [Shell Object](#shell-object)
+    - [Security](#security)
+- [Folder Objects](#folder-objects)
 
 ## Shell Versions
 

@@ -16,9 +16,9 @@ Extensions are implemented in the same way for rooted views as they are for norm
 
 To open a view of an extension, you must launch an instance of Explorer.exe with a /root flag. There are several different ways to launch a rooted view, depending on the nature of your extension.
 
--   [How To Use a Junction Point to Open a Rooted View](how-to-use-a-junction-point-to-open-a-rooted-view.md)
--   [How To Use a Shortcut File to Open a Rooted View](how-to-use-a-shortcut-file-to-open-a-rooted-view.md)
--   [How To Display a Rooted View of a File](how-to-display-a-rooted-view-of-a-file.md)
+- [How To Use a Junction Point to Open a Rooted View](how-to-use-a-junction-point-to-open-a-rooted-view.md)
+- [How To Use a Shortcut File to Open a Rooted View](how-to-use-a-shortcut-file-to-open-a-rooted-view.md)
+- [How To Display a Rooted View of a File](how-to-display-a-rooted-view-of-a-file.md)
 
  
 

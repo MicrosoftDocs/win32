@@ -18,31 +18,31 @@ The procedure for implementing a namespace extension is similar to that for any 
 
 This document discusses how to implement the primary and optional interfaces that Windows Explorer calls for information about the contents of your extension. For a discussion of how to implement a folder view and how to customize Windows Explorer, see [Implementing a Folder View](../lwef/nse-folderview.md).
 
--   [Basic Implementation and Registration](#basic-implementation-and-registration)
-    -   [Registering an Extension](#registering-an-extension)
--   [Handling PIDLs](#handling-pidls)
-    -   [Creating an SHITEMID Structure](#creating-an-shitemid-structure)
-    -   [Constructing a PIDL](#constructing-a-pidl)
-    -   [Interpreting PIDLs](#interpreting-pidls)
--   [Implementing the Primary Interfaces](#implementing-the-primary-interfaces)
-    -   [IPersistFolder Interface](#ipersistfolder-interface)
-    -   [IShellFolder Interface](#ishellfolder-interface)
-    -   [IEnumIDList Interface](#ienumidlist-interface)
--   [Implementing the Optional Interfaces](#implementing-the-optional-interfaces)
-    -   [IExtractIcon](#iextracticon)
-    -   [IContextMenu](#icontextmenu)
-    -   [IQueryInfo](#iqueryinfo)
-    -   [IDataObject and IDropTarget](#idataobject-and-idroptarget)
--   [Working With the Default Shell Folder View Implementation](#working-with-the-default-shell-folder-view-implementation)
+- [Basic Implementation and Registration](#basic-implementation-and-registration)
+    - [Registering an Extension](#registering-an-extension)
+- [Handling PIDLs](#handling-pidls)
+    - [Creating an SHITEMID Structure](#creating-an-shitemid-structure)
+    - [Constructing a PIDL](#constructing-a-pidl)
+    - [Interpreting PIDLs](#interpreting-pidls)
+- [Implementing the Primary Interfaces](#implementing-the-primary-interfaces)
+    - [IPersistFolder Interface](#ipersistfolder-interface)
+    - [IShellFolder Interface](#ishellfolder-interface)
+    - [IEnumIDList Interface](#ienumidlist-interface)
+- [Implementing the Optional Interfaces](#implementing-the-optional-interfaces)
+    - [IExtractIcon](#iextracticon)
+    - [IContextMenu](#icontextmenu)
+    - [IQueryInfo](#iqueryinfo)
+    - [IDataObject and IDropTarget](#idataobject-and-idroptarget)
+- [Working With the Default Shell Folder View Implementation](#working-with-the-default-shell-folder-view-implementation)
 
 ## Basic Implementation and Registration
 
 As an in-process COM server, your DLL must expose several standard functions and interfaces:
 
--   [**DllCanUnloadNow**](/windows/win32/api/combaseapi/nf-combaseapi-dllcanunloadnow)
--   [**DllGetClassObject**](/windows/win32/api/combaseapi/nf-combaseapi-dllgetclassobject)
--   [**IClassFactory**](/windows/win32/api/unknwn/nn-unknwn-iclassfactory)
--   [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown)
+- [**DllCanUnloadNow**](/windows/win32/api/combaseapi/nf-combaseapi-dllcanunloadnow)
+- [**DllGetClassObject**](/windows/win32/api/combaseapi/nf-combaseapi-dllgetclassobject)
+- [**IClassFactory**](/windows/win32/api/unknwn/nn-unknwn-iclassfactory)
+- [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown)
 
 These functions and interfaces are implemented in the same way as they are for most other COM objects. For details, see the [COM documentation](../com/the-component-object-model.md).
 
@@ -350,10 +350,10 @@ Handling data transfer is one of the trickier aspects of writing namespace exten
 
 Data sources that use the default Shell folder view object (DefView) must implement these interfaces:
 
--   [**IShellFolder**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-ishellfolder)
--   [**IShellFolder2**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder2)
--   [**IPersistFolder**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ipersistfolder)
--   [**IPersistFolder2**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ipersistfolder2)
+- [**IShellFolder**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-ishellfolder)
+- [**IShellFolder2**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder2)
+- [**IPersistFolder**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ipersistfolder)
+- [**IPersistFolder2**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ipersistfolder2)
 
 Optionally, they can also implement [**IPersistFolder3**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ipersistfolder3).
 

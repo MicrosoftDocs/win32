@@ -25,7 +25,7 @@ Exposes methods that identify, enumerate, and manage user identities on the syst
 
 The **IUserIdentityManager** interface inherits from the [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown) interface. **IUserIdentityManager** also has these types of members:
 
--   [Methods](#methods)
+- [Methods](#methods)
 
 ### Methods
 

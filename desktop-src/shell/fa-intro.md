@@ -10,22 +10,22 @@ ms.date: 05/31/2018
 
 This section on file types and file associations is organized as follows:
 
--   [Application Registration](app-registration.md)
--   [File Types](fa-file-types.md)
--   [How to Choose a File Type Extension](how-to-choose-a-file-type-extension.md)
--   [How to Define File Type Attributes](how-to-define-file-type-attributes.md)
--   [How to Include an Application on the Open with Dialog Box](how-to-include-an-application-on-the-open-with-dialog-box.md)
--   [How to Exclude an Application from the Open with Dialog Box for Unassociated File Types](how-to-exclude-an-application-from-the-open-with-dialog-box-for-unassociated-file-types.md)
--   [How File Associations Work](fa-how-work.md)
--   [Content View By File Type or Kind](prophand-content-view.md)
--   [How to Register Custom Properties and Layout for Your File Type](how-to-register-custom-properties-and-layout-for-your-file-type.md)
--   [File Type Verifier](file-type-verifier.md)
--   [How to Use the File Type Verifier](how-to-use-the-file-type-verifier.md)
--   [File Type Handlers](fa-file-extensions.md)
--   [Programmatic Identifiers](fa-progids.md)
--   [How to Register a File Type for a New Application](how-to-register-a-file-type-for-a-new-application.md)
--   [Perceived Types](fa-perceivedtypes.md)
--   [Association Arrays](fa-associationarray.md)
+- [Application Registration](app-registration.md)
+- [File Types](fa-file-types.md)
+- [How to Choose a File Type Extension](how-to-choose-a-file-type-extension.md)
+- [How to Define File Type Attributes](how-to-define-file-type-attributes.md)
+- [How to Include an Application on the Open with Dialog Box](how-to-include-an-application-on-the-open-with-dialog-box.md)
+- [How to Exclude an Application from the Open with Dialog Box for Unassociated File Types](how-to-exclude-an-application-from-the-open-with-dialog-box-for-unassociated-file-types.md)
+- [How File Associations Work](fa-how-work.md)
+- [Content View By File Type or Kind](prophand-content-view.md)
+- [How to Register Custom Properties and Layout for Your File Type](how-to-register-custom-properties-and-layout-for-your-file-type.md)
+- [File Type Verifier](file-type-verifier.md)
+- [How to Use the File Type Verifier](how-to-use-the-file-type-verifier.md)
+- [File Type Handlers](fa-file-extensions.md)
+- [Programmatic Identifiers](fa-progids.md)
+- [How to Register a File Type for a New Application](how-to-register-a-file-type-for-a-new-application.md)
+- [Perceived Types](fa-perceivedtypes.md)
+- [Association Arrays](fa-associationarray.md)
 
 ## Additional Resources
 

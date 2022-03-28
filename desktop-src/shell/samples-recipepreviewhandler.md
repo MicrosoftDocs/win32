@@ -18,12 +18,12 @@ Demonstrates how to write a handler used to display a file preview inside the Wi
 
 This topic contains the following sections:
 
--   [Requirements](#requirements)
--   [Downloading the Sample](#downloading-the-sample)
--   [Building the Sample](#building-the-sample)
--   [Running the Sample](#running-the-sample)
--   [Unregistering the Sample Preview Handler DLL](#unregistering-the-sample-preview-handler-dll)
--   [Related topics](#related-topics)
+- [Requirements](#requirements)
+- [Downloading the Sample](#downloading-the-sample)
+- [Building the Sample](#building-the-sample)
+- [Running the Sample](#running-the-sample)
+- [Unregistering the Sample Preview Handler DLL](#unregistering-the-sample-preview-handler-dll)
+- [Related topics](#related-topics)
 
 ## Requirements
 

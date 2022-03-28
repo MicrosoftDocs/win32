@@ -10,12 +10,12 @@ ms.date: 05/31/2018
 
 Application User Model IDs (AppUserModelIDs) are used extensively by the taskbar in Windows 7 and later systems to associate processes, files, and windows with a particular application. In some cases, it is sufficient to rely on the internal AppUserModelID assigned to a process by the system. However, an application that owns multiple processes or an application that is running in a host process might need to explicitly identify itself so that it can group its otherwise disparate windows under a single taskbar button and control the contents of that application's Jump List.
 
--   [Application-Defined and System-Defined AppUserModelIDs](#application-defined-and-system-defined-appusermodelids)
--   [How to Form an Application-Defined AppUserModelID](#how-to-form-an-application-defined-appusermodelid)
--   [Where to Assign an AppUserModelID](#where-to-assign-an-appusermodelid)
--   [Registering an Application as a Host Process](#registering-an-application-as-a-host-process)
--   [Exclusion Lists for Taskbar Pinning and Recent/Frequent Lists](#exclusion-lists-for-taskbar-pinning-and-recentfrequent-lists)
--   [Related topics](#related-topics)
+- [Application-Defined and System-Defined AppUserModelIDs](#application-defined-and-system-defined-appusermodelids)
+- [How to Form an Application-Defined AppUserModelID](#how-to-form-an-application-defined-appusermodelid)
+- [Where to Assign an AppUserModelID](#where-to-assign-an-appusermodelid)
+- [Registering an Application as a Host Process](#registering-an-application-as-a-host-process)
+- [Exclusion Lists for Taskbar Pinning and Recent/Frequent Lists](#exclusion-lists-for-taskbar-pinning-and-recentfrequent-lists)
+- [Related topics](#related-topics)
 
 ## Application-Defined and System-Defined AppUserModelIDs
 
@@ -71,9 +71,9 @@ When an application uses one or more explicit AppUserModelIDs, it should apply t
 
     When an application sets an explicit AppUserModelID at the window level, the application can provide the specifics of its relaunch command for its taskbar button. To supply that information, the following properties are used:
 
-    -   [System.AppUserModel.RelaunchCommand](../properties/props-system-appusermodel-relaunchcommand.md)
-    -   [System.AppUserModel.RelaunchDisplayNameResource](../properties/props-system-appusermodel-relaunchdisplaynameresource.md)
-    -   [System.AppUserModel.RelaunchIconResource](../properties/props-system-appusermodel-relaunchiconresource.md)
+    - [System.AppUserModel.RelaunchCommand](../properties/props-system-appusermodel-relaunchcommand.md)
+    - [System.AppUserModel.RelaunchDisplayNameResource](../properties/props-system-appusermodel-relaunchdisplaynameresource.md)
+    - [System.AppUserModel.RelaunchIconResource](../properties/props-system-appusermodel-relaunchiconresource.md)
 
     > [!Note]  
     > If a shortcut exists to launch the application, an application should apply the AppUserModelID as a property of the shortcut instead of using the relaunch properties. In that case, the command line, icon, and text of the shortcut are used to supply the same information as the relaunch properties.

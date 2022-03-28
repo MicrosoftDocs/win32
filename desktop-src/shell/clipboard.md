@@ -17,42 +17,42 @@ Shell clipboard formats are used to identify the type of Shell data being transf
 
 The Shell clipboard formats are organized here into three groups, based on how they are used.
 
--   [Formats for Transferring File System Objects](#formats-for-transferring-file-system-objects)
-    -   [CF_HDROP](#cf_hdrop)
-    -   [CFSTR_FILECONTENTS](#cfstr_filecontents)
-    -   [CFSTR_FILEDESCRIPTOR](#cfstr_filedescriptor)
-    -   [CFSTR_FILENAME](#cfstr_filename)
-    -   [CFSTR_FILENAMEMAP](#cfstr_filenamemap)
-    -   [CFSTR_MOUNTEDVOLUME](#cfstr_mountedvolume)
-    -   [CFSTR_SHELLIDLIST](#cfstr_shellidlist)
-    -   [CFSTR_SHELLIDLISTOFFSET](#cfstr_shellidlistoffset)
--   [Formats for Transferring Virtual Objects](#formats-for-transferring-virtual-objects)
-    -   [CFSTR_NETRESOURCES](#cfstr_netresources)
-    -   [CFSTR_PRINTERGROUP](#cfstr_printergroup)
-    -   [CFSTR_INETURL](#cfstr_ineturl)
-    -   [CFSTR_SHELLURL (deprecated)](#cfstr_shellurl-deprecated)
--   [Formats for Communication Between Source and Target](#formats-for-communication-between-source-and-target)
-    -   [CFSTR_INDRAGLOOP](#cfstr_indragloop)
-    -   [CFSTR_LOGICALPERFORMEDDROPEFFECT](#cfstr_logicalperformeddropeffect)
-    -   [CFSTR_PASTESUCCEEDED](#cfstr_pastesucceeded)
-    -   [CFSTR_PERFORMEDDROPEFFECT](#cfstr_performeddropeffect)
-    -   [CFSTR_PREFERREDDROPEFFECT](#cfstr_preferreddropeffect)
-    -   [CFSTR_TARGETCLSID](#cfstr_targetclsid)
-    -   [CFSTR_UNTRUSTEDDRAGDROP](#cfstr_untrusteddragdrop)
-    -   [DragWindow](#dragwindow)
+- [Formats for Transferring File System Objects](#formats-for-transferring-file-system-objects)
+    - [CF_HDROP](#cf_hdrop)
+    - [CFSTR_FILECONTENTS](#cfstr_filecontents)
+    - [CFSTR_FILEDESCRIPTOR](#cfstr_filedescriptor)
+    - [CFSTR_FILENAME](#cfstr_filename)
+    - [CFSTR_FILENAMEMAP](#cfstr_filenamemap)
+    - [CFSTR_MOUNTEDVOLUME](#cfstr_mountedvolume)
+    - [CFSTR_SHELLIDLIST](#cfstr_shellidlist)
+    - [CFSTR_SHELLIDLISTOFFSET](#cfstr_shellidlistoffset)
+- [Formats for Transferring Virtual Objects](#formats-for-transferring-virtual-objects)
+    - [CFSTR_NETRESOURCES](#cfstr_netresources)
+    - [CFSTR_PRINTERGROUP](#cfstr_printergroup)
+    - [CFSTR_INETURL](#cfstr_ineturl)
+    - [CFSTR_SHELLURL (deprecated)](#cfstr_shellurl-deprecated)
+- [Formats for Communication Between Source and Target](#formats-for-communication-between-source-and-target)
+    - [CFSTR_INDRAGLOOP](#cfstr_indragloop)
+    - [CFSTR_LOGICALPERFORMEDDROPEFFECT](#cfstr_logicalperformeddropeffect)
+    - [CFSTR_PASTESUCCEEDED](#cfstr_pastesucceeded)
+    - [CFSTR_PERFORMEDDROPEFFECT](#cfstr_performeddropeffect)
+    - [CFSTR_PREFERREDDROPEFFECT](#cfstr_preferreddropeffect)
+    - [CFSTR_TARGETCLSID](#cfstr_targetclsid)
+    - [CFSTR_UNTRUSTEDDRAGDROP](#cfstr_untrusteddragdrop)
+    - [DragWindow](#dragwindow)
 
 ## Formats for Transferring File System Objects
 
 These formats are used to transfer one or more files or other Shell objects.
 
--   [CF_HDROP](#cf_hdrop)
--   [CFSTR_FILECONTENTS](#cfstr_filecontents)
--   [CFSTR_FILEDESCRIPTOR](#cfstr_filedescriptor)
--   [CFSTR_FILENAME](#cfstr_filename)
--   [CFSTR_FILENAMEMAP](#cfstr_filenamemap)
--   [CFSTR_MOUNTEDVOLUME](#cfstr_mountedvolume)
--   [CFSTR_SHELLIDLIST](#cfstr_shellidlist)
--   [CFSTR_SHELLIDLISTOFFSET](#cfstr_shellidlistoffset)
+- [CF_HDROP](#cf_hdrop)
+- [CFSTR_FILECONTENTS](#cfstr_filecontents)
+- [CFSTR_FILEDESCRIPTOR](#cfstr_filedescriptor)
+- [CFSTR_FILENAME](#cfstr_filename)
+- [CFSTR_FILENAMEMAP](#cfstr_filenamemap)
+- [CFSTR_MOUNTEDVOLUME](#cfstr_mountedvolume)
+- [CFSTR_SHELLIDLIST](#cfstr_shellidlist)
+- [CFSTR_SHELLIDLISTOFFSET](#cfstr_shellidlistoffset)
 
 ### CF_HDROP
 
@@ -133,10 +133,10 @@ This format identifier is used with formats such as [CF_HDROP](#cf_hdrop), [CFST
 
 The CFSTR_SHELLIDLIST format can be used to transfer both file system and virtual objects. However, there are also several specialized formats for transferring particular types of virtual objects.
 
--   [CFSTR_NETRESOURCES](#cfstr_netresources)
--   [CFSTR_PRINTERGROUP](#cfstr_printergroup)
--   [CFSTR_INETURL](#cfstr_ineturl)
--   [CFSTR_SHELLURL (deprecated)](#cfstr_shellurl-deprecated)
+- [CFSTR_NETRESOURCES](#cfstr_netresources)
+- [CFSTR_PRINTERGROUP](#cfstr_printergroup)
+- [CFSTR_INETURL](#cfstr_ineturl)
+- [CFSTR_SHELLURL (deprecated)](#cfstr_shellurl-deprecated)
 
 ### CFSTR_NETRESOURCES
 
@@ -161,14 +161,14 @@ This format identifier replaces [CFSTR_SHELLURL (deprecated)](#cfstr_shellurl-de
 
 These format identifiers allow communication between source and target. The formats accompany the data and give applications a greater degree of control over move-copy-paste or drag-and-drop operations involving Shell objects.
 
--   [CFSTR_INDRAGLOOP](#cfstr_indragloop)
--   [CFSTR_LOGICALPERFORMEDDROPEFFECT](#cfstr_logicalperformeddropeffect)
--   [CFSTR_PASTESUCCEEDED](#cfstr_pastesucceeded)
--   [CFSTR_PERFORMEDDROPEFFECT](#cfstr_performeddropeffect)
--   [CFSTR_PREFERREDDROPEFFECT](#cfstr_preferreddropeffect)
--   [CFSTR_TARGETCLSID](#cfstr_targetclsid)
--   [CFSTR_UNTRUSTEDDRAGDROP](#cfstr_untrusteddragdrop)
--   [DragWindow](#dragwindow)
+- [CFSTR_INDRAGLOOP](#cfstr_indragloop)
+- [CFSTR_LOGICALPERFORMEDDROPEFFECT](#cfstr_logicalperformeddropeffect)
+- [CFSTR_PASTESUCCEEDED](#cfstr_pastesucceeded)
+- [CFSTR_PERFORMEDDROPEFFECT](#cfstr_performeddropeffect)
+- [CFSTR_PREFERREDDROPEFFECT](#cfstr_preferreddropeffect)
+- [CFSTR_TARGETCLSID](#cfstr_targetclsid)
+- [CFSTR_UNTRUSTEDDRAGDROP](#cfstr_untrusteddragdrop)
+- [DragWindow](#dragwindow)
 
 ### CFSTR_INDRAGLOOP
 

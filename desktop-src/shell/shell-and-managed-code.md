@@ -65,9 +65,9 @@ It is acceptable to use managed code and other runtimes to implement out-of-proc
 
 Some extensions can be implemented either as in-process or out-of-process extensions. You can implement these extensions as out-of-process extensions if they do not meet these requirements for in-process extensions. The following list shows examples of extensions that can be implemented as either in-process or out-of-process extensions:
 
--   [**IExecuteCommand**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-iexecutecommand) associated with a **DelegateExecute** entry registered under a **shell**\\*verb*\\**command** subkey.
--   [**IDropTarget**](/windows/win32/api/oleidl/nn-oleidl-idroptarget) associated with the CLSID registered under a **shell**\\*verb*\\**DropTarget** subkey.
--   [**IExplorerCommandState**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-iexplorercommandstate) associated with a **CommandStateHandler** entry registered under a **shell**\\*verb* subkey.
+- [**IExecuteCommand**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-iexecutecommand) associated with a **DelegateExecute** entry registered under a **shell**\\*verb*\\**command** subkey.
+- [**IDropTarget**](/windows/win32/api/oleidl/nn-oleidl-idroptarget) associated with the CLSID registered under a **shell**\\*verb*\\**DropTarget** subkey.
+- [**IExplorerCommandState**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-iexplorercommandstate) associated with a **CommandStateHandler** entry registered under a **shell**\\*verb* subkey.
 
  
 

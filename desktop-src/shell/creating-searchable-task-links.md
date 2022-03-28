@@ -18,11 +18,11 @@ When a user enters text in the **Search** box in the upper right of the window, 
 
 This topic discusses the following:
 
--   [Task Link Best Practices](#task-link-best-practices)
--   [Creating a Task XML File](#creating-a-task-xml-file)
--   [Localizing Task Links](#localizing-task-links)
--   [Keywords and Searching](#keywords-and-searching)
--   [Related topics](#related-topics)
+- [Task Link Best Practices](#task-link-best-practices)
+- [Creating a Task XML File](#creating-a-task-xml-file)
+- [Localizing Task Links](#localizing-task-links)
+- [Keywords and Searching](#keywords-and-searching)
+- [Related topics](#related-topics)
 
 ## Task Link Best Practices
 

@@ -23,9 +23,9 @@ Represents the objects in a view and provides properties and methods used to obt
 
 The **ShellFolderView** object has these types of members:
 
--   [Events](#events)
--   [Methods](#methods)
--   [Properties](#properties)
+- [Events](#events)
+- [Methods](#methods)
+- [Properties](#properties)
 
 ### Events
 

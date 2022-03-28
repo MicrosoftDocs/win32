@@ -33,22 +33,22 @@ This topic explains how to register a program in the Windows registry as one of 
 
 This topic includes the following sections.
 
--   [Common Registration Elements for All Client Types](#common-registration-elements-for-all-client-types)
-    -   [Selecting a Canonical Name](#selecting-a-canonical-name)
-    -   [Registering a Program's Display Name](#registering-a-programs-display-name)
-    -   [Registering a Program's Icon](#registering-a-programs-icon)
-    -   [Registering an Open Verb](#registering-an-open-verb)
-    -   [Registering Installation Information](#registering-installation-information)
--   [Registration Elements for Specific Client Types](#registration-elements-for-specific-client-types)
-    -   [Start Menu Registration](#start-menu-registration)
-    -   [Mail Client Registration](#mail-client-registration)
--   [Complete Sample Registrations](#complete-sample-registrations)
-    -   [A Sample Browser](#a-sample-browser)
-    -   [A Sample Mail Browser](#a-sample-mail-browser)
-    -   [A Sample Media Player](#a-sample-media-player)
-    -   [A Sample Instant Messenger Program](#a-sample-instant-messenger-program)
-    -   [A Sample Virtual Machine for Java](#a-sample-virtual-machine-for-java)
--   [Related topics](#related-topics)
+- [Common Registration Elements for All Client Types](#common-registration-elements-for-all-client-types)
+    - [Selecting a Canonical Name](#selecting-a-canonical-name)
+    - [Registering a Program's Display Name](#registering-a-programs-display-name)
+    - [Registering a Program's Icon](#registering-a-programs-icon)
+    - [Registering an Open Verb](#registering-an-open-verb)
+    - [Registering Installation Information](#registering-installation-information)
+- [Registration Elements for Specific Client Types](#registration-elements-for-specific-client-types)
+    - [Start Menu Registration](#start-menu-registration)
+    - [Mail Client Registration](#mail-client-registration)
+- [Complete Sample Registrations](#complete-sample-registrations)
+    - [A Sample Browser](#a-sample-browser)
+    - [A Sample Mail Browser](#a-sample-mail-browser)
+    - [A Sample Media Player](#a-sample-media-player)
+    - [A Sample Instant Messenger Program](#a-sample-instant-messenger-program)
+    - [A Sample Virtual Machine for Java](#a-sample-virtual-machine-for-java)
+- [Related topics](#related-topics)
 
 This topic extends existing documentation about registering a program as a particular client type. For links to that documentation, see the Related Topics section.
 
@@ -58,11 +58,11 @@ When registering a program as a client type, most of the registry entries are th
 
 This section discusses the following topics:
 
--   [Selecting a Canonical Name](#selecting-a-canonical-name)
--   [Registering a Program's Display Name](#registering-a-programs-display-name)
--   [Registering a Program's Icon](#registering-a-programs-icon)
--   [Registering an Open Verb](#registering-an-open-verb)
--   [Registering Installation Information](#registering-installation-information)
+- [Selecting a Canonical Name](#selecting-a-canonical-name)
+- [Registering a Program's Display Name](#registering-a-programs-display-name)
+- [Registering a Program's Icon](#registering-a-programs-icon)
+- [Registering an Open Verb](#registering-an-open-verb)
+- [Registering Installation Information](#registering-installation-information)
 
 > [!Note]  
 > Subkey names given in italics throughout this topic are placeholders for user-defined subkey names or a set of possible values. Full examples with example names in place are provided in the [Complete Sample Registrations](#complete-sample-registrations) section.
@@ -237,11 +237,11 @@ Note that in this value, quotation marks are placed around the path because it c
 
  
 
--   [The Reinstall Command](#the-reinstall-command)
--   [The Hide Icons Command](#the-hide-icons-command)
--   [The Show Icons Command](#the-show-icons-command)
--   [Group Program Configuration](#group-program-configuration)
--   [Browser Registration Example](#browser-registration-example)
+- [The Reinstall Command](#the-reinstall-command)
+- [The Hide Icons Command](#the-hide-icons-command)
+- [The Show Icons Command](#the-show-icons-command)
+- [Group Program Configuration](#group-program-configuration)
+- [Browser Registration Example](#browser-registration-example)
 
 The feature by which the user selects per-machine default programs is named and accessed as shown in the following table. (Windows Vista introduced a new feature, **Set your default programs**, by which a user can set per-user defaults.)
 
@@ -501,8 +501,8 @@ Note that quotation marks are placed around the paths because they contain embed
 
 The following information also can be found in the resources listed in the Related Topics section at the end of this topic.
 
--   [Start Menu Registration](#start-menu-registration)
--   [Mail Client Registration](#mail-client-registration)
+- [Start Menu Registration](#start-menu-registration)
+- [Mail Client Registration](#mail-client-registration)
 
 ### Start Menu Registration
 
@@ -599,11 +599,11 @@ The EditFlags registry value is documented in [File Types](fa-file-types.md) in 
 
 The following examples are provided to show the complete registration requirements for the various client types.
 
--   [A Sample Browser](#a-sample-browser)
--   [A Sample Mail Browser](#a-sample-mail-browser)
--   [A Sample Media Player](#a-sample-media-player)
--   [A Sample Instant Messenger Program](#a-sample-instant-messenger-program)
--   [A Sample Virtual Machine for Java](#a-sample-virtual-machine-for-java)
+- [A Sample Browser](#a-sample-browser)
+- [A Sample Mail Browser](#a-sample-mail-browser)
+- [A Sample Media Player](#a-sample-media-player)
+- [A Sample Instant Messenger Program](#a-sample-instant-messenger-program)
+- [A Sample Virtual Machine for Java](#a-sample-virtual-machine-for-java)
 
 ### A Sample Browser
 

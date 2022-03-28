@@ -10,8 +10,8 @@ ms.date: 05/31/2018
 
 The Shell API provides functions that you can use to manage networked printers. If a file has the **print** verb associated with it, you can use the [**ShellExecuteEx**](/windows/desktop/api/Shellapi/nf-shellapi-shellexecuteexa) command to print it.
 
--   [Printer Management](#printer-management)
--   [Printing Files with ShellExecuteEx](#printing-files-with-shellexecuteex)
+- [Printer Management](#printer-management)
+- [Printing Files with ShellExecuteEx](#printing-files-with-shellexecuteex)
 
 ## Printer Management
 

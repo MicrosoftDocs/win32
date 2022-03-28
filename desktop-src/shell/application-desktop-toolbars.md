@@ -12,15 +12,15 @@ An *application desktop toolbar* (also called an appbar) is a window that is sim
 
 This topic contains the following sections.
 
--   [About Application Desktop Toolbars](#about-application-desktop-toolbars)
-    -   [Sending Messages](#sending-messages)
-    -   [Registration](#registration)
-    -   [Appbar Size and Position](#appbar-size-and-position)
-    -   [Autohide Application Desktop Toolbars](#autohide-application-desktop-toolbars)
-    -   [Appbar Notification Messages](#appbar-notification-messages)
--   [Registering an Application Desktop Toolbar](#registering-an-application-desktop-toolbar)
--   [Setting the Appbar Size and Position](#setting-the-appbar-size-and-position)
--   [Processing Appbar Notification Messages](#processing-appbar-notification-messages)
+- [About Application Desktop Toolbars](#about-application-desktop-toolbars)
+    - [Sending Messages](#sending-messages)
+    - [Registration](#registration)
+    - [Appbar Size and Position](#appbar-size-and-position)
+    - [Autohide Application Desktop Toolbars](#autohide-application-desktop-toolbars)
+    - [Appbar Notification Messages](#appbar-notification-messages)
+- [Registering an Application Desktop Toolbar](#registering-an-application-desktop-toolbar)
+- [Setting the Appbar Size and Position](#setting-the-appbar-size-and-position)
+- [Processing Appbar Notification Messages](#processing-appbar-notification-messages)
 
 ## About Application Desktop Toolbars
 

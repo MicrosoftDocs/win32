@@ -24,9 +24,9 @@ Allows an administrator to manage a volume's disk quota properties. The NTFS fil
 
 The **DiskQuotaControl** object has these types of members:
 
--   [Events](#events)
--   [Methods](#methods)
--   [Properties](#properties)
+- [Events](#events)
+- [Methods](#methods)
+- [Properties](#properties)
 
 ### Events
 

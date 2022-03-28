@@ -18,10 +18,10 @@ Demonstrates how to register a verb that extends the "Sync" and "Share" verbs in
 
 This topic contains the following sections.
 
--   [Requirements](#requirements)
--   [Downloading the Sample](#downloading-the-sample)
--   [Running the Sample](#running-the-sample)
--   [Removing the Sample](#removing-the-sample)
+- [Requirements](#requirements)
+- [Downloading the Sample](#downloading-the-sample)
+- [Running the Sample](#running-the-sample)
+- [Removing the Sample](#removing-the-sample)
 
 ## Requirements
 

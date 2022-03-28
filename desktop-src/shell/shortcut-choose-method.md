@@ -16,13 +16,13 @@ topic_type:
 
 This topic is organized as follows:
 
--   [Choose a Verb Method](#choose-a-verb-method)
-    -   [Static Verb Methods](#static-verb-methods)
-    -   [Preferred Dynamic Verb Methods](#preferred-dynamic-verb-methods)
-    -   [Discouraged Dynamic Verb Methods](#discouraged-dynamic-verb-methods)
--   [Extend a Shortcut Menu](#extend-a-shortcut-menu)
--   [Support for Verb Methods by Operating System](#support-for-verb-methods-by-operating-system)
--   [Related topics](#related-topics)
+- [Choose a Verb Method](#choose-a-verb-method)
+    - [Static Verb Methods](#static-verb-methods)
+    - [Preferred Dynamic Verb Methods](#preferred-dynamic-verb-methods)
+    - [Discouraged Dynamic Verb Methods](#discouraged-dynamic-verb-methods)
+- [Extend a Shortcut Menu](#extend-a-shortcut-menu)
+- [Support for Verb Methods by Operating System](#support-for-verb-methods-by-operating-system)
+- [Related topics](#related-topics)
 
 ## Choose a Verb Method
 

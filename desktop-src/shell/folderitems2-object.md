@@ -24,7 +24,7 @@ Extends the [**FolderItems**](folderitems.md) object. It supports one additional
 
 The **FolderItems2** object has these types of members:
 
--   [Methods](#methods)
+- [Methods](#methods)
 
 ### Methods
 

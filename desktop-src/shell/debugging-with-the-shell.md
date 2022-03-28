@@ -16,9 +16,9 @@ topic_type:
 
 This topic explains how to debug Shell and namespace extension DLLs.
 
--   [Running the Shell Under a Debugger](#running-the-shell-under-a-debugger)
--   [Running and Testing Shell Extensions](#running-and-testing-shell-extensions)
--   [Unloading the DLL](#unloading-the-dll)
+- [Running the Shell Under a Debugger](#running-the-shell-under-a-debugger)
+- [Running and Testing Shell Extensions](#running-and-testing-shell-extensions)
+- [Unloading the DLL](#unloading-the-dll)
 
 ## Running the Shell Under a Debugger
 

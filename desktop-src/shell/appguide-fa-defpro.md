@@ -16,11 +16,11 @@ topic_type:
 
 This section on application guidelines for file associations and default programs is organized as follows:
 
--   [Best Practices for File Associations](fa-best-practices.md)
--   [File Association Example](fa-sample-scenarios.md)
--   [Managing Default Applications](vista-managing-defaults.md)
--   [Default Programs](default-programs.md)
--   [Set Program Access and Computer Defaults (SPAD)](cpl-setprogramaccess.md)
+- [Best Practices for File Associations](fa-best-practices.md)
+- [File Association Example](fa-sample-scenarios.md)
+- [Managing Default Applications](vista-managing-defaults.md)
+- [Default Programs](default-programs.md)
+- [Set Program Access and Computer Defaults (SPAD)](cpl-setprogramaccess.md)
 
 ## Additional Resources
 

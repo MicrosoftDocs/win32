@@ -12,13 +12,13 @@ When a user right-clicks a Shell object such as a file, the Shell displays a sho
 
 This topic is organized as follows:
 
--   [Introduction to Shortcut Menus for File System Objects](#introduction-to-shortcut-menus-for-file-system-objects)
-    -   [Add Commands to a Shortcut Menu](#add-commands-to-a-shortcut-menu)
--   [Shortcut Menu Verbs](#shortcut-menu-verbs)
--   [Stream Non-File System Items and OpenSearch Results.](#stream-non-file-system-items-and-opensearch-results)
--   [Register an Application to Handle Arbitrary File Types](#register-an-application-to-handle-arbitrary-file-types)
--   [Additional Resources](#additional-resources)
--   [Related topics](#related-topics)
+- [Introduction to Shortcut Menus for File System Objects](#introduction-to-shortcut-menus-for-file-system-objects)
+    - [Add Commands to a Shortcut Menu](#add-commands-to-a-shortcut-menu)
+- [Shortcut Menu Verbs](#shortcut-menu-verbs)
+- [Stream Non-File System Items and OpenSearch Results.](#stream-non-file-system-items-and-opensearch-results)
+- [Register an Application to Handle Arbitrary File Types](#register-an-application-to-handle-arbitrary-file-types)
+- [Additional Resources](#additional-resources)
+- [Related topics](#related-topics)
 
 ## Introduction to Shortcut Menus for File System Objects
 

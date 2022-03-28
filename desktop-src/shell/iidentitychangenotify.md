@@ -25,7 +25,7 @@ Deprecated. Provides notification of modifications to user identities on the sys
 
 The **IIdentityChangeNotify** interface inherits from the [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown) interface. **IIdentityChangeNotify** also has these types of members:
 
--   [Methods](#methods)
+- [Methods](#methods)
 
 ### Methods
 

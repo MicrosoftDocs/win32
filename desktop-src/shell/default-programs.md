@@ -19,19 +19,19 @@ When a user sets program defaults using **Default Programs**, the default settin
 
 This topic is organized as follows:
 
--   [Introduction to Default Programs and Its Related API Set](#introduction-to-default-programs-and-its-related-api-set)
--   [Registering an Application for Use with Default Programs](#registering-an-application-for-use-with-default-programs)
-    -   [ProgIDs](#progids)
-    -   [Registration Subkey and Value Descriptions](#registration-subkey-and-value-descriptions)
-    -   [RegisteredApplications](#registeredapplications)
-    -   [Full Registration Example](#full-registration-example)
--   [Becoming the Default Browser](#becoming-the-default-browser)
--   [Default Programs UI](#default-programs-ui)
--   [Best Practices for Using Default Programs](#best-practices-for-using-default-programs)
-    -   [During Installation](#during-installation)
-    -   [After Installation](#after-installation)
--   [Additional Resources](#additional-resources)
--   [Related topics](#related-topics)
+- [Introduction to Default Programs and Its Related API Set](#introduction-to-default-programs-and-its-related-api-set)
+- [Registering an Application for Use with Default Programs](#registering-an-application-for-use-with-default-programs)
+    - [ProgIDs](#progids)
+    - [Registration Subkey and Value Descriptions](#registration-subkey-and-value-descriptions)
+    - [RegisteredApplications](#registeredapplications)
+    - [Full Registration Example](#full-registration-example)
+- [Becoming the Default Browser](#becoming-the-default-browser)
+- [Default Programs UI](#default-programs-ui)
+- [Best Practices for Using Default Programs](#best-practices-for-using-default-programs)
+    - [During Installation](#during-installation)
+    - [After Installation](#after-installation)
+- [Additional Resources](#additional-resources)
+- [Related topics](#related-topics)
 
 ## Introduction to Default Programs and Its Related API Set
 
@@ -59,10 +59,10 @@ This section shows you the registry subkeys and values needed to register an app
 
 This section contains the following topics:
 
--   [ProgIDs](#progids)
--   [Registration Subkey and Value Descriptions](#registration-subkey-and-value-descriptions)
--   [RegisteredApplications](#registeredapplications)
--   [Full Registration Example](#full-registration-example)
+- [ProgIDs](#progids)
+- [Registration Subkey and Value Descriptions](#registration-subkey-and-value-descriptions)
+- [RegisteredApplications](#registeredapplications)
+- [Full Registration Example](#full-registration-example)
 
 **Default Programs** requires each application to register explicitly the file associations, MIME associations, and protocols for which the application should be listed as a possible default. You register the associations by using the following registry elements, which are explained in detail later in this topic under [Registration Subkey and Value Descriptions](#registration-subkey-and-value-descriptions):
 
@@ -388,8 +388,8 @@ The following illustration shows an example dialog box.
 
 ## Additional Resources
 
--   [**IApplicationAssociationRegistration**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iapplicationassociationregistration)
--   [**IApplicationAssociationRegistrationUI**](/windows/desktop/api/Shobjidl/nn-shobjidl-iapplicationassociationregistrationui)
+- [**IApplicationAssociationRegistration**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iapplicationassociationregistration)
+- [**IApplicationAssociationRegistrationUI**](/windows/desktop/api/Shobjidl/nn-shobjidl-iapplicationassociationregistrationui)
 
 ## Related topics
 

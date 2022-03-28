@@ -24,7 +24,7 @@ Extends the [**FolderItem**](folderitem.md) object. In addition to the propertie
 
 The **ShellFolderItem** object has these types of members:
 
--   [Methods](#methods)
+- [Methods](#methods)
 
 ### Methods
 

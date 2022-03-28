@@ -29,9 +29,9 @@ The CSIDL system and APIs that make use of CSIDL values are still supported for 
 
 The following topics discuss the specifics of the Known Folders system.
 
--   [Working with Known Folders in Applications](working-with-known-folders.md)
--   [How to Extend Known Folders with Custom Folders](how-to-extend-known-folders-with-custom-folders.md)
--   [**KNOWNFOLDERID**](knownfolderid.md)
+- [Working with Known Folders in Applications](working-with-known-folders.md)
+- [How to Extend Known Folders with Custom Folders](how-to-extend-known-folders-with-custom-folders.md)
+- [**KNOWNFOLDERID**](knownfolderid.md)
 
 The following reference pages explain the Win32 Known Folders functions, which can be used to retrieve the location of Known Folders or redirect them to a new location. These functions replace older Win32 functions. The new functions are provided to give equivalent behavior to the old functions, but each new function is also duplicated by a Component Object Model (COM) API.
 
@@ -49,8 +49,8 @@ The following reference pages explain the Win32 Known Folders functions, which c
 
 The following reference pages explain the COM Known Folders APIs, which provide all of the functionality of the Win32 APIs listed above, plus add the ability to enumerate all Known Folders, access Known Folder properties, and extend the standard set of Known Folders.
 
--   [**IKnownFolder**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iknownfolder)
--   [**IKnownFolderManager**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iknownfoldermanager)
+- [**IKnownFolder**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iknownfolder)
+- [**IKnownFolderManager**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iknownfoldermanager)
 
 A C++ sample that demonstrates the Known Folder APIs is included in the Windows Software Development Kit (SDK). Once you have installed the Windows SDK on your computer, the sample can be found under %ProgramFiles%\\Microsoft SDKs\\Windows\\v6.0\\Samples\\WinUI\\Shell\\AppPlatform\\KnownFolders.
 

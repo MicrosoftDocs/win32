@@ -10,9 +10,9 @@ ms.date: 05/31/2018
 
 The Known Folder system provides a way to interact with certain high-profile folders that are present by default in Windows. It also allows those same interactions with folders installed and registered with the Known Folder system by applications. This topic discusses those possible interactions as they are provided by the Known Folder APIs.
 
--   [Known Folder Interfaces](#known-folder-interfaces)
--   [Redirection](#redirection)
--   [Related topics](#related-topics)
+- [Known Folder Interfaces](#known-folder-interfaces)
+- [Redirection](#redirection)
+- [Related topics](#related-topics)
 
 > [!IMPORTANT]
 > To redirect the Documents, Pictures, or Desktop folders to OneDrive, use OneDrive Known Folder Move instead of the redirection method described in this article. For information, see [Redirect and move Windows known folders to OneDrive](/onedrive/redirect-known-folders).  

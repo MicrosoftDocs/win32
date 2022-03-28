@@ -16,12 +16,12 @@ topic_type:
 
 The Shell *namespace* organizes the file system and other objects managed by the Shell into a single tree-structured hierarchy. Conceptually, it is a larger and more inclusive version of the file system.
 
--   [Introduction](#introduction)
--   [Identifying Namespace Objects](#identifying-namespace-objects)
-    -   [Item IDs](#item-ids)
-    -   [Item ID Lists](#item-id-lists)
-    -   [PIDLs](#pidls)
-    -   [Allocating PIDLs](#allocating-pidls)
+- [Introduction](#introduction)
+- [Identifying Namespace Objects](#identifying-namespace-objects)
+    - [Item IDs](#item-ids)
+    - [Item ID Lists](#item-id-lists)
+    - [PIDLs](#pidls)
+    - [Allocating PIDLs](#allocating-pidls)
 
 ## Introduction
 

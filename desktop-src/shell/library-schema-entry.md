@@ -12,10 +12,10 @@ Library description files are XML files that define libraries. Libraries aggrega
 
 This topic contains the following sections:
 
--   [Overview of the Library Description Schema](#overview-of-the-library-description-schema)
--   [Namespace Versioning](#namespace-versioning)
--   [Example of a Library Description File](#example-of-a-library-description-file)
--   [Related topics](#related-topics)
+- [Overview of the Library Description Schema](#overview-of-the-library-description-schema)
+- [Namespace Versioning](#namespace-versioning)
+- [Example of a Library Description File](#example-of-a-library-description-file)
+- [Related topics](#related-topics)
 
 ## Overview of the Library Description Schema
 

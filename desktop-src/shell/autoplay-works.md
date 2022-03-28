@@ -23,9 +23,9 @@ To enable AutoRun in your application, you simply include two essential files:
 
 When a user inserts a disc into a CD-ROM drive on a AutoRun-compatible computer, the system immediately checks to see if the disc has a personal computer file system. If it does, the system searches for a file named [Autorun.inf](#creating-an-autoruninf-file). This file specifies a setup application that will be run, along with a variety of optional settings. The startup application typically installs, uninstalls, configures, and perhaps runs the application.
 
--   [Creating an Autorun.inf File](#creating-an-autoruninf-file)
--   [The \[DeviceInstall\] Section](#the-deviceinstall-section)
--   [Related topics](#related-topics)
+- [Creating an Autorun.inf File](#creating-an-autoruninf-file)
+- [The \[DeviceInstall\] Section](#the-deviceinstall-section)
+- [Related topics](#related-topics)
 
 ## Creating an Autorun.inf File
 

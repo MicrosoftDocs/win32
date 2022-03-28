@@ -24,8 +24,8 @@ Represents a single verb available to an item. This object contains properties a
 
 The **FolderItemVerb** object has these types of members:
 
--   [Methods](#methods)
--   [Properties](#properties)
+- [Methods](#methods)
+- [Properties](#properties)
 
 ### Methods
 

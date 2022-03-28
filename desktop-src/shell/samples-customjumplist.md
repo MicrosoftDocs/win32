@@ -18,11 +18,11 @@ Demonstrates how to create a custom Jump List for an application, including addi
 
 This topic contains the following sections.
 
--   [Requirements](#requirements)
--   [Downloading the Sample](#downloading-the-sample)
--   [Building the Sample](#building-the-sample)
--   [Running the Sample](#running-the-sample)
--   [Related topics](#related-topics)
+- [Requirements](#requirements)
+- [Downloading the Sample](#downloading-the-sample)
+- [Building the Sample](#building-the-sample)
+- [Running the Sample](#running-the-sample)
+- [Related topics](#related-topics)
 
 ## Requirements
 

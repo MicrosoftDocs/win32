@@ -12,9 +12,9 @@ ms.date: 05/31/2018
 
 This topic is organized as follows:
 
--   [Make a File Type Known to Shell](#make-a-file-type-known-to-shell)
--   [File Type Handler Descriptions](#file-type-handler-descriptions)
--   [Related topics](#related-topics)
+- [Make a File Type Known to Shell](#make-a-file-type-known-to-shell)
+- [File Type Handler Descriptions](#file-type-handler-descriptions)
+- [Related topics](#related-topics)
 
 ## Make a File Type Known to Shell
 

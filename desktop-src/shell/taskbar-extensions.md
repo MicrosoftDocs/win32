@@ -35,11 +35,11 @@ The Show Desktop feature from Quick Launch is now located at the taskbar's far r
 
 While the application is running, its taskbar button becomes the single place to access all of the following features, each discussed in detail below.
 
--   [Tasks](#tasks): common application commands, present even when the application is not running.
--   [Destinations](#destinations): recently and frequently accessed files specific to the application.
--   [Thumbnails](#thumbnails): window switching, including switch targets for individual tabs and documents.
--   [Thumbnail Toolbars](#thumbnail-toolbars): basic application control from the thumbnail itself.
--   [Progress Bars](#progress-bars) and [Icon Overlays](#icon-overlays): status notifications.
+- [Tasks](#tasks): common application commands, present even when the application is not running.
+- [Destinations](#destinations): recently and frequently accessed files specific to the application.
+- [Thumbnails](#thumbnails): window switching, including switch targets for individual tabs and documents.
+- [Thumbnail Toolbars](#thumbnail-toolbars): basic application control from the thumbnail itself.
+- [Progress Bars](#progress-bars) and [Icon Overlays](#icon-overlays): status notifications.
 
 The taskbar button can represent a launcher, a single application window, or a group. An identifier known as an Application User Model ID (AppUserModelID) is assigned to each group. An AppUserModelID can be specified to override standard taskbar grouping, which allows windows to become members of the same group when they might not otherwise be seen as such. Each member of a group is given a separate preview in the thumbnail flyout that is shown when the mouse hovers over the group's taskbar button. Note that grouping itself remains optional.
 
@@ -72,10 +72,10 @@ A destination list can be regarded as an application-specific version of the **S
 
 ### APIs
 
--   [**IApplicationDestinations::RemoveDestination**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iapplicationdestinations-removedestination)
--   [**IApplicationDestinations::RemoveAllDestinations**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iapplicationdestinations-removealldestinations)
--   [**IApplicationDocumentLists::GetList**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iapplicationdocumentlists-getlist)
--   [**SHAddToRecentDocs**](/windows/desktop/api/shlobj_core/nf-shlobj_core-shaddtorecentdocs)
+- [**IApplicationDestinations::RemoveDestination**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iapplicationdestinations-removedestination)
+- [**IApplicationDestinations::RemoveAllDestinations**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iapplicationdestinations-removealldestinations)
+- [**IApplicationDocumentLists::GetList**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iapplicationdocumentlists-getlist)
+- [**SHAddToRecentDocs**](/windows/desktop/api/shlobj_core/nf-shlobj_core-shaddtorecentdocs)
 
 ## Tasks
 
@@ -87,7 +87,7 @@ It is strongly recommended that the task list be static. It should remain the sa
 
 ### APIs
 
--   [**ICustomDestinationList::AddUserTasks**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icustomdestinationlist-addusertasks)
+- [**ICustomDestinationList::AddUserTasks**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icustomdestinationlist-addusertasks)
 
 ## Customizing Jump Lists
 
@@ -103,9 +103,9 @@ The maximum number of items in a destination list is determined by the system ba
 
 ### APIs
 
--   [**ICustomDestinationList**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icustomdestinationlist)
--   [**IApplicationDestinations**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iapplicationdestinations)
--   [**IApplicationDocumentLists**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iapplicationdocumentlists)
+- [**ICustomDestinationList**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icustomdestinationlist)
+- [**IApplicationDestinations**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iapplicationdestinations)
+- [**IApplicationDocumentLists**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iapplicationdocumentlists)
 
 ## Thumbnail Toolbars
 
@@ -124,10 +124,10 @@ Because there is limited room to display thumbnails and a variable number of thu
 
 ### API
 
--   [**ITaskbarList3::ThumbBarAddButtons**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-itaskbarlist3-thumbbaraddbuttons)
--   [**ITaskbarList3::ThumbBarSetImageList**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-itaskbarlist3-thumbbarsetimagelist)
--   [**ITaskbarList3::ThumbBarUpdateButtons**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-itaskbarlist3-thumbbarupdatebuttons)
--   [**THUMBBUTTON**](/windows/desktop/api/Shobjidl_core/ns-shobjidl_core-thumbbutton)
+- [**ITaskbarList3::ThumbBarAddButtons**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-itaskbarlist3-thumbbaraddbuttons)
+- [**ITaskbarList3::ThumbBarSetImageList**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-itaskbarlist3-thumbbarsetimagelist)
+- [**ITaskbarList3::ThumbBarUpdateButtons**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-itaskbarlist3-thumbbarupdatebuttons)
+- [**THUMBBUTTON**](/windows/desktop/api/Shobjidl_core/ns-shobjidl_core-thumbbutton)
 
 ## Icon Overlays
 
@@ -141,7 +141,7 @@ Because a single overlay is overlaid on the taskbar button and not on the indivi
 
 ### APIs
 
--   [**ITaskbarList3::SetOverlayIcon**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-itaskbarlist3-setoverlayicon)
+- [**ITaskbarList3::SetOverlayIcon**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-itaskbarlist3-setoverlayicon)
 
 ## Progress Bars
 
@@ -151,8 +151,8 @@ The taskbar button progress bar is a similar experience to the familiar Progress
 
 ### APIs
 
--   [**ITaskbarList3::SetProgressState**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-itaskbarlist3-setprogressstate)
--   [**ITaskbarList3::SetProgressValue**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-itaskbarlist3-setprogressvalue)
+- [**ITaskbarList3::SetProgressState**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-itaskbarlist3-setprogressstate)
+- [**ITaskbarList3::SetProgressValue**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-itaskbarlist3-setprogressvalue)
 
 ## Deskbands
 
@@ -163,7 +163,7 @@ In versions of Windows prior to Windows 7, something similar to thumbnail toolba
 
 ### APIs
 
--   [**IDeskBand2**](/windows/desktop/api/Shobjidl/nn-shobjidl-ideskband2)
+- [**IDeskBand2**](/windows/desktop/api/Shobjidl/nn-shobjidl-ideskband2)
 
 ## Notification Area
 
@@ -184,22 +184,22 @@ In Windows 7 and newer, each member of a group is shown as a separate thumbnail 
 
 ### API
 
--   [**ITaskbarList3::RegisterTab**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-itaskbarlist3-registertab)
--   [**ITaskbarList3::SetTabActive**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-itaskbarlist3-settabactive)
--   [**ITaskbarList3::SetTabOrder**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-itaskbarlist3-settaborder)
--   [**ITaskbarList3::UnregisterTab**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-itaskbarlist3-unregistertab)
--   [**ITaskbarList4::SetTabProperties**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-itaskbarlist4-settabproperties)
+- [**ITaskbarList3::RegisterTab**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-itaskbarlist3-registertab)
+- [**ITaskbarList3::SetTabActive**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-itaskbarlist3-settabactive)
+- [**ITaskbarList3::SetTabOrder**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-itaskbarlist3-settaborder)
+- [**ITaskbarList3::UnregisterTab**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-itaskbarlist3-unregistertab)
+- [**ITaskbarList4::SetTabProperties**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-itaskbarlist4-settabproperties)
 
 Thumbnail representations for windows are normally automatic, but in cases where the result isn't optimal, the thumbnail can be explicitly specified. By default, only top-level windows have a thumbnail automatically generated for them, and the thumbnails for child windows appear as a generic representation. This can result in a less than ideal (and even confusing) experience for the end user. A specific switch target thumbnail for each child window, for instance, provides a much better user experience.
 
 ### API
 
--   [**DwmSetWindowAttribute**](/windows/win32/api/dwmapi/nf-dwmapi-dwmsetwindowattribute)
--   [**DwmSetIconicThumbnail**](/windows/win32/api/dwmapi/nf-dwmapi-dwmseticonicthumbnail)
--   [**DwmSetIconicLivePreviewBitmap**](/windows/win32/api/dwmapi/nf-dwmapi-dwmseticoniclivepreviewbitmap)
--   [**DwmInvalidateIconicBitmaps**](/windows/win32/api/dwmapi/nf-dwmapi-dwminvalidateiconicbitmaps)
--   [**WM\_DWMSENDICONICTHUMBNAIL**](../dwm/wm-dwmsendiconicthumbnail.md)
--   [**WM\_DWMSENDICONICLIVEPREVIEWBITMAP**](../dwm/wm-dwmsendiconiclivepreviewbitmap.md)
+- [**DwmSetWindowAttribute**](/windows/win32/api/dwmapi/nf-dwmapi-dwmsetwindowattribute)
+- [**DwmSetIconicThumbnail**](/windows/win32/api/dwmapi/nf-dwmapi-dwmseticonicthumbnail)
+- [**DwmSetIconicLivePreviewBitmap**](/windows/win32/api/dwmapi/nf-dwmapi-dwmseticoniclivepreviewbitmap)
+- [**DwmInvalidateIconicBitmaps**](/windows/win32/api/dwmapi/nf-dwmapi-dwminvalidateiconicbitmaps)
+- [**WM\_DWMSENDICONICTHUMBNAIL**](../dwm/wm-dwmsendiconicthumbnail.md)
+- [**WM\_DWMSENDICONICLIVEPREVIEWBITMAP**](../dwm/wm-dwmsendiconiclivepreviewbitmap.md)
 
 You can select a particular area of the window to use as the thumbnail. This can be useful when an application knows that its documents or tabs will appear similar when viewed at thumbnail size. The application can then choose to show just the part of its client area that the user can use to distinguish between thumbnails. However, hovering over any thumbnail brings up a view of the full window behind it so the user can quickly glance through them as well.
 
@@ -207,7 +207,7 @@ If there are more thumbnails than can be displayed, the preview reverts to the l
 
 ### API
 
--   [**ITaskbarList3::SetThumbnailClip**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-itaskbarlist3-setthumbnailclip)
+- [**ITaskbarList3::SetThumbnailClip**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-itaskbarlist3-setthumbnailclip)
 
 To add **Pin to Taskbar** to an item's shortcut menu, which is normally required only for file types that include the [IsShortCut](./links.md) entry, is done by registering the appropriate context menu handler. This also applies to **Pin to Start Menu**. See [Registering Shell Extension Handlers](reg-shell-exts.md) for more information.
 

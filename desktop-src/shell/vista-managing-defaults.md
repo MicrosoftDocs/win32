@@ -24,23 +24,23 @@ An application must register with both SPAD and the Default Programs feature to 
 
 This topic provides independent software vendors (ISVs) with a quick guide to the steps necessary to register and manage application defaults in Windows Vista and later. Links are provided to more in-depth articles about each section's topic.
 
--   [Default Programs Item in Control Panel](#default-programs-item-in-control-panel)
--   [Set Program Access and Computer Defaults](#set-program-access-and-computer-defaults)
-    -   [Setting Defaults in SPAD](#setting-defaults-in-spad)
-    -   [Hide Access in SPAD](#hide-access-in-spad)
--   [Registering for Application Entry Points](#registering-for-application-entry-points)
-    -   [Open With](#open-with)
-    -   [Start Menu and Quick Launch Bar](#start-menu-and-quick-launch-bar)
--   [Application Installation and Defaults](#application-installation-and-defaults)
--   [Application Upgrades and Defaults](#application-upgrades-and-defaults)
--   [Application First Run and Defaults](#application-first-run-and-defaults)
--   [Verifying Defaults and Asking for User Consent](#verifying-defaults-and-asking-for-user-consent)
--   [Application Compatibility Tips](#application-compatibility-tips)
-    -   [Avoid Triggering Per-User Virtualization](#avoid-triggering-per-user-virtualization)
-    -   [Avoid AppCompat Warnings or Blocks from the Program Compatibility Assistant](#avoid-appcompat-warnings-or-blocks-from-the-program-compatibility-assistant)
-    -   [Support for Previous Windows Operating System Versions](#support-for-previous-windows-operating-system-versions)
--   [Additional Resources](#additional-resources)
--   [Related topics](#related-topics)
+- [Default Programs Item in Control Panel](#default-programs-item-in-control-panel)
+- [Set Program Access and Computer Defaults](#set-program-access-and-computer-defaults)
+    - [Setting Defaults in SPAD](#setting-defaults-in-spad)
+    - [Hide Access in SPAD](#hide-access-in-spad)
+- [Registering for Application Entry Points](#registering-for-application-entry-points)
+    - [Open With](#open-with)
+    - [Start Menu and Quick Launch Bar](#start-menu-and-quick-launch-bar)
+- [Application Installation and Defaults](#application-installation-and-defaults)
+- [Application Upgrades and Defaults](#application-upgrades-and-defaults)
+- [Application First Run and Defaults](#application-first-run-and-defaults)
+- [Verifying Defaults and Asking for User Consent](#verifying-defaults-and-asking-for-user-consent)
+- [Application Compatibility Tips](#application-compatibility-tips)
+    - [Avoid Triggering Per-User Virtualization](#avoid-triggering-per-user-virtualization)
+    - [Avoid AppCompat Warnings or Blocks from the Program Compatibility Assistant](#avoid-appcompat-warnings-or-blocks-from-the-program-compatibility-assistant)
+    - [Support for Previous Windows Operating System Versions](#support-for-previous-windows-operating-system-versions)
+- [Additional Resources](#additional-resources)
+- [Related topics](#related-topics)
 
 ## Default Programs Item in Control Panel
 
@@ -211,8 +211,8 @@ An application can have many entry points within the operating system. The follo
 
 This section focuses on these specific areas:
 
--   [Open With](#open-with)
--   [Start Menu and Quick Launch Bar](#start-menu-and-quick-launch-bar)
+- [Open With](#open-with)
+- [Start Menu and Quick Launch Bar](#start-menu-and-quick-launch-bar)
 
 ### Open With
 
@@ -240,8 +240,8 @@ To further increase discoverability, applications can also add shortcuts to the 
 
 For more information, see these topics:
 
--   [How to Register an Internet Browser or Email Client With the Windows Start Menu](start-menu-reg.md)
--   [Registering Programs with Client Types](reg-middleware-apps.md)
+- [How to Register an Internet Browser or Email Client With the Windows Start Menu](start-menu-reg.md)
+- [Registering Programs with Client Types](reg-middleware-apps.md)
 
 ## Application Installation and Defaults
 
@@ -251,8 +251,8 @@ During installation, an application should copy its binaries to the hard disk an
 
 For more information, see these topics:
 
--   [Default Programs](default-programs.md)
--   [Introduction to File Associations](fa-intro.md)
+- [Default Programs](default-programs.md)
+- [Introduction to File Associations](fa-intro.md)
 
 ## Application Upgrades and Defaults
 
@@ -311,9 +311,9 @@ For more information, see [**OSVERSIONINFO**](/windows/win32/api/winnt/ns-winnt-
 
 ## Additional Resources
 
--   [Introduction to File Associations](fa-intro.md)
--   [How to Register an Internet Browser or Email Client With the Windows Start Menu](start-menu-reg.md)
--   [Registering an Application to a URI Scheme](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa767914(v=vs.85))
+- [Introduction to File Associations](fa-intro.md)
+- [How to Register an Internet Browser or Email Client With the Windows Start Menu](start-menu-reg.md)
+- [Registering an Application to a URI Scheme](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa767914(v=vs.85))
 
 ## Related topics
 

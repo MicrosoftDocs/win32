@@ -22,9 +22,9 @@ The following screen shot provides an example of a cascading menu.
 
 In Windows 7 and later, there are three ways to create cascading menus, which are described in the following sections.
 
--   [How to Create Cascading Menus with the SubCommands Registry Entry](how-to--create-cascading-menus-with-the-subcommands-registry-entry.md)
--   [How to Create Cascading Menus with the ExtendedSubCommandsKey Registry Entry](how-to-create-cascading-menus-with-the-extendedsubcommandskey-registry-entry.md)
--   [How to Create Cascading Menus with the IExplorerCommand Interface](how-to-create-cascading-menus-with-the-iexplorercommand-interface.md)
+- [How to Create Cascading Menus with the SubCommands Registry Entry](how-to--create-cascading-menus-with-the-subcommands-registry-entry.md)
+- [How to Create Cascading Menus with the ExtendedSubCommandsKey Registry Entry](how-to-create-cascading-menus-with-the-extendedsubcommandskey-registry-entry.md)
+- [How to Create Cascading Menus with the IExplorerCommand Interface](how-to-create-cascading-menus-with-the-iexplorercommand-interface.md)
 
  
 

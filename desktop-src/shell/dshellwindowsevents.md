@@ -23,7 +23,7 @@ Receives [**IShellWindows**](/windows/desktop/api/Exdisp/nn-exdisp-ishellwindows
 
 The **DShellWindowsEvents** object has these types of members:
 
--   [Methods](#methods)
+- [Methods](#methods)
 
 ### Methods
 

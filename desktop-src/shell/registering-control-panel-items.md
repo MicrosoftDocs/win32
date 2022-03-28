@@ -18,8 +18,8 @@ Control Panel items must be registered in order to appear in the Control Panel w
 
 Specific requirements are discussed in these topics:
 
--   [How To Register Executable Control Panel Items](how-to-register-an-executable-control-panel-item-registration-.md)
--   [How To Register DLL Control Panel Items](how-to-register-dll-control-panel-item-registration-.md)
+- [How To Register Executable Control Panel Items](how-to-register-an-executable-control-panel-item-registration-.md)
+- [How To Register DLL Control Panel Items](how-to-register-dll-control-panel-item-registration-.md)
 
 ## Related topics
 

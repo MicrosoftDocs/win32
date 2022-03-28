@@ -18,12 +18,12 @@ Demonstrates taskbar icon overlays and progress bars.
 
 This topic contains the following sections.
 
--   [Description](#description)
--   [Requirements](#requirements)
--   [Downloading the Sample](#downloading-the-sample)
--   [Building the Sample](#building-the-sample)
--   [Running the Sample](#running-the-sample)
--   [Related topics](#related-topics)
+- [Description](#description)
+- [Requirements](#requirements)
+- [Downloading the Sample](#downloading-the-sample)
+- [Building the Sample](#building-the-sample)
+- [Running the Sample](#running-the-sample)
+- [Related topics](#related-topics)
 
 ## Description
 

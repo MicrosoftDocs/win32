@@ -24,8 +24,8 @@ Extends the [**Folder**](folder.md) object to support offline folders.
 
 The **Folder2** object has these types of members:
 
--   [Methods](#methods)
--   [Properties](#properties)
+- [Methods](#methods)
+- [Properties](#properties)
 
 ### Methods
 

@@ -16,9 +16,9 @@ topic_type:
 
 This topic provides a step-by-step examination of the requirements to build a DLL file that implements a handler to be used with Sync Center. This information is valid as of Windows Vista.
 
--   [The Windows Synchronization Experience Before Vista](#the-windows-synchronization-experience-before-vista)
--   [Sync Center APIs](#sync-center-apis)
-    -   [Essential Interfaces](#essential-interfaces)
+- [The Windows Synchronization Experience Before Vista](#the-windows-synchronization-experience-before-vista)
+- [Sync Center APIs](#sync-center-apis)
+    - [Essential Interfaces](#essential-interfaces)
 
 ## The Windows Synchronization Experience Before Vista
 
@@ -36,18 +36,18 @@ The new Sync Center feature provided in Windows Vista has several advantages ov
 
 Sync Center communicates with handlers through a number of Component Object Model (COM) interfaces. Not all of these interfaces are needed to implement a Sync Center handler. This topic has been broken into two sections. The first section explains the essential COM interfaces that every handler must support, and the second section examines the optional COM interfaces and looks at the reasons that a handler would support them.
 
--   [Essential Interfaces](#essential-interfaces)
+- [Essential Interfaces](#essential-interfaces)
 
 ### Essential Interfaces
 
 All Sync Center handlers must support the following interfaces:
 
--   [**ISyncMgrHandler**](/windows/desktop/api/Syncmgr/nn-syncmgr-isyncmgrhandler)
--   [**ISyncMgrHandlerInfo**](/windows/desktop/api/Syncmgr/nn-syncmgr-isyncmgrhandlerinfo)
--   [**ISyncMgrSyncItemContainer**](/windows/desktop/api/Syncmgr/nn-syncmgr-isyncmgrsyncitemcontainer)
--   [**IEnumSyncMgrSyncItems**](/windows/desktop/api/Syncmgr/nn-syncmgr-ienumsyncmgrsyncitems)
--   [**ISyncMgrSyncItem**](/windows/desktop/api/Syncmgr/nn-syncmgr-isyncmgrsyncitem)
--   [**ISyncMgrSyncItemInfo**](/windows/desktop/api/Syncmgr/nn-syncmgr-isyncmgrsynciteminfo)
+- [**ISyncMgrHandler**](/windows/desktop/api/Syncmgr/nn-syncmgr-isyncmgrhandler)
+- [**ISyncMgrHandlerInfo**](/windows/desktop/api/Syncmgr/nn-syncmgr-isyncmgrhandlerinfo)
+- [**ISyncMgrSyncItemContainer**](/windows/desktop/api/Syncmgr/nn-syncmgr-isyncmgrsyncitemcontainer)
+- [**IEnumSyncMgrSyncItems**](/windows/desktop/api/Syncmgr/nn-syncmgr-ienumsyncmgrsyncitems)
+- [**ISyncMgrSyncItem**](/windows/desktop/api/Syncmgr/nn-syncmgr-isyncmgrsyncitem)
+- [**ISyncMgrSyncItemInfo**](/windows/desktop/api/Syncmgr/nn-syncmgr-isyncmgrsynciteminfo)
 
 [**ISyncMgrSyncItem**](/windows/desktop/api/Syncmgr/nn-syncmgr-isyncmgrsyncitem) and [**ISyncMgrSyncItemInfo**](/windows/desktop/api/Syncmgr/nn-syncmgr-isyncmgrsynciteminfo) are used to describe a single sync item involved in the synchronization to the Sync Center. A sync item generally represents either a particular data type (such as images) or a particular location of data.
 
@@ -57,8 +57,8 @@ If a handler supports more than one data type or multiple data locations, then i
 
 The [**IEnumSyncMgrSyncItems**](/windows/desktop/api/Syncmgr/nn-syncmgr-ienumsyncmgrsyncitems) interface provides a mechanism to enumerate through a handler's sync items. To retrieve this enumerator, Sync Center calls the [**ISyncMgrSyncItemContainer::GetSyncItemEnumerator**](/windows/desktop/api/Syncmgr/nf-syncmgr-isyncmgrsyncitemcontainer-getsyncitemenumerator) method exposed by the handler. [**ISyncMgrSyncItemContainer**](/windows/desktop/api/Syncmgr/nn-syncmgr-isyncmgrsyncitemcontainer) also contains two other methods that the Sync Center can use to retrieve information about the handler's sync items:
 
--   [**GetSyncItem**](/windows/desktop/api/Syncmgr/nf-syncmgr-isyncmgrsyncitemcontainer-getsyncitem) returns a specific sync item.
--   [**GetSyncItemCount**](/windows/desktop/api/Syncmgr/nf-syncmgr-isyncmgrsyncitemcontainer-getsyncitemcount) returns the number of sync items supported by the handler.
+- [**GetSyncItem**](/windows/desktop/api/Syncmgr/nf-syncmgr-isyncmgrsyncitemcontainer-getsyncitem) returns a specific sync item.
+- [**GetSyncItemCount**](/windows/desktop/api/Syncmgr/nf-syncmgr-isyncmgrsyncitemcontainer-getsyncitemcount) returns the number of sync items supported by the handler.
 
 [**ISyncMgrHandler**](/windows/desktop/api/Syncmgr/nn-syncmgr-isyncmgrhandler) and [**ISyncMgrHandlerInfo**](/windows/desktop/api/Syncmgr/nn-syncmgr-isyncmgrhandlerinfo) are used to describe the properties of the hander and launch the actual synchronization. [**ISyncMgrHandler::Synchronize**](/windows/desktop/api/Syncmgr/nf-syncmgr-isyncmgrhandler-synchronize) is where the handler code carries out the synchronization and provides feedback on progress and any issues that occur.
 

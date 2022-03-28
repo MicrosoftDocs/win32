@@ -14,8 +14,8 @@ topic_type:
 
 # Thumbnails and Icons
 
--   [Thumbnail Handlers](thumbnail-providers.md)
--   [Icons and Icon Overlays](icons-and-icon-overlays-bumper.md)
+- [Thumbnail Handlers](thumbnail-providers.md)
+- [Icons and Icon Overlays](icons-and-icon-overlays-bumper.md)
 
  
 

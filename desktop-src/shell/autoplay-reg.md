@@ -10,9 +10,9 @@ ms.date: 05/31/2018
 
 There are many situations where AutoRun may need to be temporarily or persistently disabled. For example, AutoRun might interfere with the operation of a running application and need to be disabled for the duration. The system provides several ways to disable AutoRun.
 
--   [Suppressing AutoRun Programmatically](#suppressing-autorun-programmatically)
--   [Using the Registry to Disable AutoRun](#using-the-registry-to-disable-autorun)
--   [AutoRun for Other Types of Storage Media](#autorun-for-other-types-of-storage-media)
+- [Suppressing AutoRun Programmatically](#suppressing-autorun-programmatically)
+- [Using the Registry to Disable AutoRun](#using-the-registry-to-disable-autorun)
+- [AutoRun for Other Types of Storage Media](#autorun-for-other-types-of-storage-media)
 
 ## Suppressing AutoRun Programmatically
 

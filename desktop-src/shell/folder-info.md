@@ -10,11 +10,11 @@ ms.date: 05/31/2018
 
 The [Getting a Folder's ID](folder-id.md) section discussed two approaches to getting a namespace object's pointer to an item identifier list (PIDL). One obvious question is: Once you have a PIDL, what can you do with it? A related question is: What if neither approach works, or is suitable for your application? The answer to both questions requires taking a closer look at how the namespace is implemented. The key is the [**IShellFolder**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-ishellfolder) interface.
 
--   [Using the IShellFolder Interface](#using-the-ishellfolder-interface)
--   [Enumerating the Contents of a Folder](#enumerating-the-contents-of-a-folder)
--   [Determining Display Names and Other Properties](#determining-display-names-and-other-properties)
--   [Getting a Pointer to a Subfolder's IShellFolder Interface](#getting-a-pointer-to-a-subfolders-ishellfolder-interface)
--   [Determining an Object's Parent Folder](#determining-an-objects-parent-folder)
+- [Using the IShellFolder Interface](#using-the-ishellfolder-interface)
+- [Enumerating the Contents of a Folder](#enumerating-the-contents-of-a-folder)
+- [Determining Display Names and Other Properties](#determining-display-names-and-other-properties)
+- [Getting a Pointer to a Subfolder's IShellFolder Interface](#getting-a-pointer-to-a-subfolders-ishellfolder-interface)
+- [Determining an Object's Parent Folder](#determining-an-objects-parent-folder)
 
 ## Using the IShellFolder Interface
 

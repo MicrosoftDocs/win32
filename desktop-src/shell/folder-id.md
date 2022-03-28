@@ -12,10 +12,10 @@ Before you can make use of a namespace object, you need a way to identify it. Th
 
 For a more powerful approach that will work with any folder, use the [**IShellFolder**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-ishellfolder) interface. See [Getting Information About the Contents of a Folder](folder-info.md) for more details.
 
--   [The OpenFiles Dialog Box](#the-openfiles-dialog-box)
--   [The SHBrowseForFolder Dialog Box](#the-shbrowseforfolder-dialog-box)
--   [Special Folders and CSIDLs](#special-folders-and-csidls)
--   [A Simple Example of How to Use CSIDLs and SHBrowseForFolder](#a-simple-example-of-how-to-use-csidls-and-shbrowseforfolder)
+- [The OpenFiles Dialog Box](#the-openfiles-dialog-box)
+- [The SHBrowseForFolder Dialog Box](#the-shbrowseforfolder-dialog-box)
+- [Special Folders and CSIDLs](#special-folders-and-csidls)
+- [A Simple Example of How to Use CSIDLs and SHBrowseForFolder](#a-simple-example-of-how-to-use-csidls-and-shbrowseforfolder)
 
 ## The OpenFiles Dialog Box
 
@@ -43,8 +43,8 @@ CSIDLs provide a uniform way of identifying and locating special folders, regard
 
 A CSIDL is used in conjunction with one of several Shell functions to retrieve a special folder's PIDL, or a special file system folder's path. If the folder does not exist on a system, your application can force it to be created by combining its CSIDL with **CSIDL\_FLAG\_CREATE**. The CSIDL can be passed to the following functions:
 
--   [**SHGetFolderLocation**](/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetfolderlocation), which retrieves the PIDL of a special folder.
--   [**SHGetFolderPath**](/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetfolderpatha), which retrieves the path of a file system special folder.
+- [**SHGetFolderLocation**](/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetfolderlocation), which retrieves the PIDL of a special folder.
+- [**SHGetFolderPath**](/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetfolderpatha), which retrieves the path of a file system special folder.
 
 Note that these two functions were introduced with version 5.0 of the Shell and supersede the [**SHGetSpecialFolderLocation**](/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetspecialfolderlocation) and [**SHGetSpecialFolderPath**](/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetspecialfolderpatha) functions.
 

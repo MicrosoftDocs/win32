@@ -28,7 +28,7 @@ Extends the [**IShellDispatch2**](ishelldispatch2-object.md) object. **IShellDis
 
 The **IShellDispatch3** object has these types of members:
 
--   [Methods](#methods)
+- [Methods](#methods)
 
 ### Methods
 

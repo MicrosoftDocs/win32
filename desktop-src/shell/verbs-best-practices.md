@@ -16,11 +16,11 @@ topic_type:
 
 This topic is organized as follows:
 
--   [Best Practices](#best-practices-for-shortcut-menu-handlers-and-multiple-verbs)
-    -   [Best Practices for Verb Implementations](#best-practices-for-verb-implementations)
--   [Best Practices for Multiple Selection Verbs](#best-practices-for-multiple-selection-verbs)
-    -   [Heterogenous Selections](#heterogenous-selections)
--   [Related topics](#related-topics)
+- [Best Practices](#best-practices-for-shortcut-menu-handlers-and-multiple-verbs)
+    - [Best Practices for Verb Implementations](#best-practices-for-verb-implementations)
+- [Best Practices for Multiple Selection Verbs](#best-practices-for-multiple-selection-verbs)
+    - [Heterogenous Selections](#heterogenous-selections)
+- [Related topics](#related-topics)
 
 ## Best Practices
 

@@ -24,8 +24,8 @@ Allows a client to manage an NTFS volume's global disk quota settings. This obje
 
 The **DIDiskQuotaUser** object has these types of members:
 
--   [Methods](#methods)
--   [Properties](#properties)
+- [Methods](#methods)
+- [Properties](#properties)
 
 ### Methods
 

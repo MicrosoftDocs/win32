@@ -23,7 +23,7 @@ Implemented by the browser. Exposes methods that manage which monitor contains t
 
 The **IMultiMonitorDockingSite** interface inherits from the [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown) interface. **IMultiMonitorDockingSite** also has these types of members:
 
--   [Methods](#methods)
+- [Methods](#methods)
 
 ### Methods
 

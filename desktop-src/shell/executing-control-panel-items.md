@@ -47,10 +47,10 @@ control.exe sysdm.cpl,,3
 
 This topic discusses the following:
 
--   [Windows Vista Canonical Names](#windows-vista-canonical-names)
--   [New Commands for Windows Vista](#new-commands-for-windows-vista)
--   [Legacy Control Panel Commands](#legacy-control-panel-commands)
--   [Related topics](#related-topics)
+- [Windows Vista Canonical Names](#windows-vista-canonical-names)
+- [New Commands for Windows Vista](#new-commands-for-windows-vista)
+- [Legacy Control Panel Commands](#legacy-control-panel-commands)
+- [Related topics](#related-topics)
 
 ## Windows 11 Canonical Names
 
