@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 
 An application will receive unsolicited traffic over the Teredo interface only if the application is registered with [Windows Firewall](/previous-versions/windows/desktop/ics/windows-firewall-start-page). In order to receive unsolicited traffic the following must occur:
 
--   Users must be instructed to use of the Microsoft Management Console (MMC) to enable the "Edge Traversal" option for an application. This option is available under Windows Firewall Snap-In --> <application name> --> "Advanced" tab. The "Edge Traversal" option must be enabled individually for each application.
+-   Users must be instructed to use of the Microsoft Management Console (MMC) to enable the "Edge Traversal" option for an application. This option is available under Windows Firewall Snap-In --> \<application name\> --> "Advanced" tab. The "Edge Traversal" option must be enabled individually for each application.
 
 -   The "Edge Traversal" option is enabled by the application. It is possible for applications capable of receiving unsolicited traffic to register with Windows Firewall for "Edge Traversal" and receive unsolicited traffic over the Teredo interface. To do this an application must call the [**INetFwPolicy2**](/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwpolicy2) API with the "Edge Traversal" option set to VARIANT\_TRUE. User consent is required for this API call before an application is permitted to listen for the traffic.
 

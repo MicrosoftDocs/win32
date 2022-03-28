@@ -3,7 +3,6 @@ description: Invokes another shader from within a shader.
 ms.assetid: 
 title: CallShader function
 ms.date: 05/31/2018
-ms.localizationpriority: low
 ms.topic: reference
 topic_type: 
 - APIRef

@@ -21,19 +21,6 @@ To perform this operation, call the [**WSAIoctl**](/windows/desktop/api/winsock2
 int WSAIoctl(
   (socket) s,            // descriptor identifying a socket
   SIO_RCV_ALL,                       // dwIoControlCode
-  NULL,                              // lpvInBuffer0,                                 // cbInBuffer
-  NULL,                              // lpvOutBuffer output buffer
-  (DWORD) cbOutBuffer,            // size of output buffer  
-  (LPDWORD) lpcbBytesReturned,    // number of bytes returned
-  (LPWSAOVERLAPPED) lpOverlapped, // OVERLAPPED structure
-  (LPWSAOVERLAPPED_COMPLETION_ROUTINE) lpCompletionRoutine,  // completion routine
-);
-```
-
-```cpp
-int WSAIoctl(
-  (socket) s,            // descriptor identifying a socket
-  SIO_RCV_ALL,                       // dwIoControlCode
   NULL,                              // lpvInBuffer
   0,                                 // cbInBuffer
   NULL,                              // lpvOutBuffer output buffer

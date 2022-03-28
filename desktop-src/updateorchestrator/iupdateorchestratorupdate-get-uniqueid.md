@@ -2,7 +2,7 @@
 title: IUpdateOrchestratorUpdate::get_UniqueId method
 description: Gets the update's unique Id.
 ms.date: 01/29/2020
-ms.topic: method
+ms.topic: reference
 ---
 
 # IUpdateOrchestratorUpdate::get_UniqueId method

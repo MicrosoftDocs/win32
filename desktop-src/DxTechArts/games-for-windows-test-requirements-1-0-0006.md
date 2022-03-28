@@ -321,8 +321,12 @@ This requirement has been retired.
 <tr class="odd">
 <td>Windows 7<br/> Windows Vista<br/></td>
 <td>Every executable file (.EXE extension) included with an application must have an embedded manifest that defines its execution level:
-<pre class="syntax" data-space="preserve"><code><requestedExecutionLevel level=&quot;asInvoker|highestAvailable|requireAdministrator&quot; 
+<pre class="syntax" data-space="preserve">
+
+```xml
+<requestedExecutionLevel level=&quot;asInvoker|highestAvailable|requireAdministrator&quot; 
               uiAccess=&quot;true|false&quot;/></code></pre>
+```
 <br/>
 <blockquote>
 [!Note]<br />

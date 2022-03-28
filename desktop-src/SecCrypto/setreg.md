@@ -12,7 +12,7 @@ The SetReg tool sets the value of the registry keys that control the behavior of
 
 **SetReg** \[*Options*\] \[*Choice \#* {**TRUE**\|**FALSE**}\]
 
-The Set Registry tool only ships with the .NET Framework SDK version 1.0 and .1.1, which you can download from the [Microsoft Download Center](https://www.microsoft.com/download/details.aspx?id=16217).
+The Set Registry tool only ships with the .NET Framework SDK version 1.0 and .1.1, which you can download from the Microsoft Download Center.
 
 ## Options
 

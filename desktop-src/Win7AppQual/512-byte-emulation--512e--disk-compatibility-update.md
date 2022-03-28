@@ -181,7 +181,6 @@ This is a living document, and is meant as an aid for developers to help underst
 
 -   **Windows General Support Statement**: <https://support.microsoft.com/kb/2510009>
 -   **Hotfix for Windows 7 and Windows Server 2008 R2**: <https://support.microsoft.com/kb/982018>
--   **Hotfix for Windows Vista and Windows Server 2008**: <https://support.microsoft.com/kb/2470478>
 -   **HyperV Support Statement**: <https://support.microsoft.com/kb/2515143>
 -   **General information about the IOCTL\_STORAGE\_QUERY\_PROPERTY control code**: [https://msdn.microsoft.com/library/ff560590.aspx](/windows-hardware/drivers/ddi/ntddstor/ni-ntddstor-ioctl_storage_query_property)
 -   **IOCTL\_STORAGE\_QUERY\_PROPERTY Control Code**: [https://msdn.microsoft.com/library/ff800830.aspx](/windows/win32/api/winioctl/ni-winioctl-ioctl_storage_query_property)

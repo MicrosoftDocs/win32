@@ -105,7 +105,7 @@ The Scripting Clinic under [Columns](https://msdn.microsoft.com/library/aa902519
 | SDK name                                                                              | Windows Server version | URL (download link)                                               | Location                                               |
 |---------------------------------------------------------------------------------------|------------------------|-------------------------------------------------------------------|--------------------------------------------------------|
 | Microsoft Windows Software Development Kit (SDK) for Windows 7 and .NET Framework 4.0 | Windows Server 2008 R2 | <https://www.microsoft.com/download/en/confirmation.aspx?id=8279>  | %Install Path%\\Microsoft SDKs\\Windows\\v7.1\\Samples |
-| Microsoft Windows Software Development Kit (SDK)                                      | Windows Server 2008    | <https://www.microsoft.com/download/en/confirmation.aspx?id=11310> | %Install Path%\\Microsoft SDKs\\Windows\\v6.1          |
+| Microsoft Windows Software Development Kit (SDK)                                      | Windows Server 2008    | <https://developer.microsoft.com/en-us/windows/downloads/sdk-archive/> | %Install Path%\\Microsoft SDKs\\Windows\\v6.1          |
 
 
 

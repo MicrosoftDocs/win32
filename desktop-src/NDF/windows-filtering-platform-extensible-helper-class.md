@@ -72,7 +72,7 @@ The following table lists the event attributes associated with each matching eve
 
 Before suggesting diagnostic and repair information to the user, a FPHC extension should gather more data than is provided by the FPHC notifications. This data can be acquired from the [WFP Event Management Functions](/windows/desktop/FWP/fwp-mgmt-functions). These functions are demonstrated in the [Displaying Net Events](/windows/desktop/FWP/displaying-net-events) sample.
 
-A more detailed event management sample is included in the SDK. The source code for the sample can be found in the SDK installation location under C:\\Program Files\\Microsoft SDKs\\Windows\\<version number>\\Samples\\NetDs\\WFP\\DiagEvents. The Windows Vista SDK is available from the [Download Center](https://www.microsoft.com/downloads/details.aspx?FamilyID=f26b1aa4-741a-433a-9be5-fa919850bdbf).
+A more detailed event management sample is included in the SDK. The source code for the sample can be found in the SDK installation location under C:\\Program Files\\Microsoft SDKs\\Windows\\\<version number\>\\Samples\\NetDs\\WFP\\DiagEvents. The Windows Vista SDK is available from the [Download Center](https://www.microsoft.com/downloads/details.aspx?FamilyID=f26b1aa4-741a-433a-9be5-fa919850bdbf).
 
 ## Built-in FPHC Diagnostics
 

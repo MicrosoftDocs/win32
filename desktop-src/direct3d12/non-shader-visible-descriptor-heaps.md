@@ -2,7 +2,6 @@
 title: Non Shader Visible Descriptor Heaps
 description: Some descriptor heaps cannot be referenced by shaders through descriptor tables, but exist either to assist the app in staging the descriptors prior to recording a command list or because no shader-visible heap is required.
 ms.assetid: 85934873-8889-4564-A717-28A00614B38C
-ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
 ---

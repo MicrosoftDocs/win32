@@ -1,7 +1,6 @@
 ---
 title: DXCoreAdapterProperty
 description: Defines constants that specify DXCore adapter properties.
-ms.localizationpriority: low
 ms.topic: reference
 ms.date: 06/20/2019
 ---

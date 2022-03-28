@@ -2,7 +2,7 @@
 title: IUpdateOrchestratorUpdate interface
 description: Implemented by the caller for each update the caller wishes to be called to complete.
 ms.date: 01/29/2020
-ms.topic: interface
+ms.topic: reference
 ---
 
 # IUpdateOrchestratorUpdate interface

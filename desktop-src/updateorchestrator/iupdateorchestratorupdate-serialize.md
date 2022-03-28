@@ -2,7 +2,7 @@
 title: IUpdateOrchestratorUpdate::Serialize method
 description: The UpdateOrchestrator will call this method when it is saving the database for later deserialization.
 ms.date: 01/29/2020
-ms.topic: method
+ms.topic: reference
 ---
 
 # IUpdateOrchestratorUpdate::Serialize method

@@ -12,7 +12,7 @@ A Native Wifi API sample that demonstrates the use of basic wireless network man
 
 By default, the Native Wifi sample source code is installed in the following directory:
 
-**C:\\Program Files\\Microsoft SDKs\\Windows\\<version number>\\Samples\\NetDs\\Wlan**
+**C:\\Program Files\\Microsoft SDKs\\Windows\\\<version number\>\\Samples\\NetDs\\Wlan**
 
 The Native Wifi API sample is located under the following folder:
 

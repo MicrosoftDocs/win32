@@ -1,7 +1,6 @@
 ---
 title: IDXCoreAdapterFactory::GetAdapterByLuid
 description: Retrieves the DXCore adapter object ([IDXCoreAdapter](./nn-dxcore_interface-idxcoreadapter.md)) for a specified LUID, if available.
-ms.localizationpriority: low
 ms.topic: reference
 ms.date: 06/20/2019
 ---

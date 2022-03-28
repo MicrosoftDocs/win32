@@ -61,7 +61,6 @@ Ensure that your applications properly handle the new 'MSIE 8.0' version in the 
 
 -   [Understanding User Agent Strings](/previous-versions/windows/internet-explorer/ie-developer/compatibility/ms537503(v=vs.85))
 -   [Internet Explorer 8 User-Agent String](/archive/blogs/ie/)
--   [User-Agent String and Version Vector](https://archive.msdn.microsoft.com/ie8whitepapers)
 -   [Hosting and Reuse](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa752038(v=vs.85))
 -   [Application Compatibility Toolkit Download](/windows-hardware/get-started/adk-install)
 -   [Known Internet Explorer Security Feature Issues](/previous-versions/windows/it-pro/windows-7/cc722079(v=ws.10))

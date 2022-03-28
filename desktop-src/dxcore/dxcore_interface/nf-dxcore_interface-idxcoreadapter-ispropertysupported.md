@@ -1,7 +1,6 @@
 ---
 title: IDXCoreAdapter::IsPropertySupported
 description: Determines whether this DXCore adapter object and the current operating system (OS) support the specified adapter property.
-ms.localizationpriority: low
 ms.topic: reference
 ms.date: 06/20/2019
 ---

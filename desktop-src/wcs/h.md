@@ -28,7 +28,6 @@ keywords:
 - hue
 - hue saturation value (HSV)
 - HSV (hue saturation value)
-ms.localizationpriority: high
 
 
 ms.topic: article

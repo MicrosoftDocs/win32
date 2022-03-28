@@ -1198,7 +1198,7 @@ The dialog box should be retried.
 
 
 
-SSL certificate common name (host name field) is incorrect for example, if you entered www.server.com and the common name on the certificate says www.different.com.
+SSL certificate common name (host name field) is incorrect for example, if you entered `www.server.com` and the common name on the certificate says `www.different.com`.
 
 
 </dt> </dl> </dd> <dt>

@@ -2,7 +2,6 @@
 title: Predication
 description: Predication is a feature that enables the GPU rather than the CPU to determine to not draw, copy or dispatch an object.
 ms.assetid: '5c5138c7-f6e8-4646-961a-0e2312b5356b'
-ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
 ---

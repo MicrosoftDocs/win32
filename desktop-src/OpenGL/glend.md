@@ -1,6 +1,6 @@
 ---
 title: glEnd function (Gl.h)
-description: The glBegin and glend functions delimit the vertices of a primitive or a group of like primitives. | glEnd function (Gl.h)
+description: The glBegin and glEnd functions delimit the vertices of a primitive or a group of like primitives. | glEnd function (Gl.h)
 ms.assetid: 040f8573-683c-4a8a-ae51-66abb0541ac4
 keywords:
 - glEnd function OpenGL
@@ -18,7 +18,7 @@ ms.date: 05/31/2018
 
 # glEnd function
 
-The [**glBegin**](glbegin.md) and **glend** functions delimit the vertices of a primitive or a group of like primitives.
+The [**glBegin**](glbegin.md) and **glEnd** functions delimit the vertices of a primitive or a group of like primitives.
 
 ## Syntax
 
@@ -51,7 +51,7 @@ The following error code can be retrieved by the [**glGetError**](glgeterror.md)
 
 ## Remarks
 
-The [**glBegin**](glbegin.md) and **glend** functions delimit the vertices that define a primitive or a group of like primitives. The **glBegin** function accepts a single argument that specifies which of ten primitives the vertices compose. Taking *n* as an integer count starting at one, and *N* as the total number of vertices specified, the interpretations are as follows:
+The [**glBegin**](glbegin.md) and **glEnd** functions delimit the vertices that define a primitive or a group of like primitives. The **glBegin** function accepts a single argument that specifies which of ten primitives the vertices compose. Taking *n* as an integer count starting at one, and *N* as the total number of vertices specified, the interpretations are as follows:
 
 -   You can use only a subset of OpenGL functions between **glBegin** and **glEnd**. The functions you can use are:
 

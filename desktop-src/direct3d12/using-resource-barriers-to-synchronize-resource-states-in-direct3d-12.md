@@ -2,7 +2,6 @@
 title: Using Resource Barriers to Synchronize Resource States in Direct3D 12
 description: To reduce overall CPU usage and enable driver multi-threading and pre-processing, Direct3D 12 moves the responsibility of per-resource state management from the graphics driver to the application.
 ms.assetid: 3AB3BF34-433C-400B-921A-55B23CCDA44F
-ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
 ---

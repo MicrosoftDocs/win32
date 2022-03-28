@@ -1,7 +1,6 @@
 ---
 title: IDXCoreAdapterList::Sort
 description: Sorts a DXCore adapter list object based on a provided input array of sort criteria.
-ms.localizationpriority: low
 ms.topic: reference
 ms.date: 09/03/2019
 ---

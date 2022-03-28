@@ -11,7 +11,6 @@ api_location:
 - dxcore_interface.h
 api_type:
 - HeaderDef
-ms.localizationpriority: low
 ms.topic: reference
 ms.date: 06/20/2019
 ---

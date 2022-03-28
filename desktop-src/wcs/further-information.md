@@ -11,7 +11,6 @@ keywords:
 - WCS (Windows Color System),further information
 - image color management,further information
 - color management,further information
-ms.localizationpriority: high
 
 
 ms.topic: article

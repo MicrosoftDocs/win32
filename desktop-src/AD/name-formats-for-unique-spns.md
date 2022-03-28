@@ -26,10 +26,10 @@ An SPN must be unique in the forest in which it is registered. If it is not uniq
 
 | Element | Description | 
 |---------|-------------|
-| "<service class>" | A string that identifies the general class of service; for example, "SqlServer". There are well-known service class names, such as "www" for a web service or "ldap" for a directory service. In general, this can be any string that is unique to the service class. Be aware that the SPN syntax uses a forward slash (/) to separate elements, so this character cannot appear in a service class name. | 
+| "&lt;service class&gt;" | A string that identifies the general class of service; for example, "SqlServer". There are well-known service class names, such as "www" for a web service or "ldap" for a directory service. In general, this can be any string that is unique to the service class. Be aware that the SPN syntax uses a forward slash (/) to separate elements, so this character cannot appear in a service class name. | 
 | "&lt;host&gt;" | The name of the computer on which the service is running. This can be a fully qualified DNS name or a NetBIOS name. Be aware that NetBIOS names are not guaranteed to be unique in a forest, so an SPN that contains a NetBIOS name may not be unique. | 
 | "&lt;port&gt;" | An optional port number to differentiate between multiple instances of the same service class on a single host computer. Omit this component if the service uses the default port for its service class. | 
-| "<service name>" | An optional name used in the SPNs of a replicable service to identify the data or services provided by the service or the domain served by the service. This component can have one of the following formats:<ul><li>The distinguished name or objectGUID of an object in Active Directory Domain Services, such as a service connection point (SCP).</li><li>The DNS name of the domain for a service that provides a specified service for a domain as a whole.</li><li>The DNS name of an SRV or MX record.</li></ul> | 
+| "&lt;service name&gt;" | An optional name used in the SPNs of a replicable service to identify the data or services provided by the service or the domain served by the service. This component can have one of the following formats:<ul><li>The distinguished name or objectGUID of an object in Active Directory Domain Services, such as a service connection point (SCP).</li><li>The DNS name of the domain for a service that provides a specified service for a domain as a whole.</li><li>The DNS name of an SRV or MX record.</li></ul> | 
 
 
 

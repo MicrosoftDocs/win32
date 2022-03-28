@@ -8,7 +8,6 @@ keywords:
 - image color management,about
 - color management,about
 - colors,color management concepts
-ms.localizationpriority: high
 
 
 ms.topic: article

@@ -117,7 +117,7 @@ When this socket option is enabled, the TCP stack sends keep-alive packets when 
 
 The **SO\_KEEPALIVE** socket option is valid only for protocols that support the notion of keep-alive (connection-oriented protocols). For TCP, the default keep-alive timeout is 2 hours and the keep-alive interval is 1 second. The default number of keep-alive probes varies based on the version of Windows.
 
-The [**SIO\_KEEPALIVE\_VALS**](/previous-versions/windows/desktop/legacy/dd877220(v=vs.85)) control code can be used to enable or disable keep-alive, and adjust the timeout and interval, for a single connection. If keep-alive is enabled with **SO\_KEEPALIVE**, then the default TCP settings are used for keep-alive timeout and interval unless these values have been changed using **SIO\_KEEPALIVE\_VALS**.
+The [**SIO_KEEPALIVE_VALS**](/windows/win32/winsock/sio-keepalive-vals) control code can be used to enable or disable keep-alive, and adjust the timeout and interval, for a single connection. If keep-alive is enabled with **SO\_KEEPALIVE**, then the default TCP settings are used for keep-alive timeout and interval unless these values have been changed using **SIO\_KEEPALIVE\_VALS**.
 
 The default system-wide value of the keep-alive timeout is controllable through the [KeepAliveTime](/previous-versions/windows/it-pro/windows-server-2003/cc782936(v=ws.10)) registry setting which takes a value in milliseconds. The default system-wide value of the keep-alive interval is controllable through the [KeepAliveInterval](/previous-versions/windows/it-pro/windows-server-2003/cc758083(v=ws.10)) registry setting which takes a value in milliseconds.
 
@@ -165,7 +165,7 @@ Note that the *Ws2def.h* header file is automatically included in *Winsock2.h*, 
 [**socket**](/windows/desktop/api/Winsock2/nf-winsock2-socket)
 </dt> <dt>
 
-[**SIO\_KEEPALIVE\_VALS**](/previous-versions/windows/desktop/legacy/dd877220(v=vs.85))
+[**SIO_KEEPALIVE_VALS**](/windows/win32/winsock/sio-keepalive-vals)
 </dt> <dt>
 
 [TcpMaxDataRetransmissions](/previous-versions/windows/it-pro/windows-server-2003/cc780586(v=ws.10))
@@ -173,7 +173,3 @@ Note that the *Ws2def.h* header file is automatically included in *Winsock2.h*, 
 
 [**WSAGetLastError**](/windows/desktop/api/winsock/nf-winsock-wsagetlasterror)
 </dt> </dl>
-
- 
-
- 

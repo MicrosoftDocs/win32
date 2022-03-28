@@ -5,7 +5,6 @@ ms.assetid: 822CACCE-4A45-4104-91BD-4968A657662E
 keywords:
 - Helper structures
 - d3dx12.h
-ms.localizationpriority: low
 ms.topic: article
 ms.date: 07/28/2021
 ---

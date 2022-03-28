@@ -15,41 +15,41 @@ For a complete listing of the XML schema, see [Manifest File Schema](manifest-fi
 
 Application manifests have the following elements and attributes.
 
-| Element                               | Attributes                | Required |
-|---------------------------------------|---------------------------|----------|
-| **assembly**                          |                           | Yes      |
-|                                       | **manifestVersion**       | Yes      |
-| **noInherit**                         |                           | No       |
-| **assemblyIdentity**                  |                           | Yes      |
-|                                       | **type**                  | Yes      |
-|                                       | **name**                  | Yes      |
-|                                       | **language**              | No       |
-|                                       | **processorArchitecture** | No       |
-|                                       | **version**               | Yes      |
-|                                       | **publicKeyToken**        | No       |
-| **compatibility**                     |                           | No       |
-| **application**                       |                           | No       |
-| **supportedOS**                       | **Id**                    | No       |
-| **maxversiontested**                  | **Id**                    | No       |
-| **dependency**                        |                           | No       |
-| **dependentAssembly**                 |                           | No       |
-| **file**                              |                           | No       |
-|                                       | **name**                  | No       |
-|                                       | **hashalg**               | No       |
-|                                       | **hash**                  | No       |
-| **activeCodePage**                    |                           | No       |
-| **autoElevate**                       |                           | No       |
-| **disableTheming**                    |                           | No       |
-| **disableWindowFiltering**            |                           | No       |
-| **dpiAware**                          |                           | No       |
-| **dpiAwareness**                      |                           | No       |
-| **gdiScaling**                        |                           | No       |
-| **highResolutionScrollingAware**      |                           | No       |
-| **longPathAware**                     |                           | No       |
-| **printerDriverIsolation**            |                           | No       |
-| **ultraHighResolutionScrollingAware** |                           | No       |
-| **msix**                              |                           | No       |
-| **heapType**                          |                           | No       |
+| Element                                                                     | Attributes                | Required |
+|-----------------------------------------------------------------------------|---------------------------|----------|
+| [**assembly**](#assembly)                                                   |                           | Yes      |
+|                                                                             | **manifestVersion**       | Yes      |
+| [**noInherit**](#noInherit)                                                 |                           | No       |
+| [**assemblyIdentity**](#assemblyIdentity)                                   |                           | Yes      |
+|                                                                             | **type**                  | Yes      |
+|                                                                             | **name**                  | Yes      |
+|                                                                             | **language**              | No       |
+|                                                                             | **processorArchitecture** | No       |
+|                                                                             | **version**               | Yes      |
+|                                                                             | **publicKeyToken**        | No       |
+| [**compatibility**](#compatibility)                                         |                           | No       |
+| [**application**](#application)                                             |                           | No       |
+| [**supportedOS**](#supportedOS)                                             | **Id**                    | No       |
+| [**maxversiontested**](#maxversiontested)                                   | **Id**                    | No       |
+| [**dependency**](#dependency)                                               |                           | No       |
+| [**dependentAssembly**](#dependentAssembly)                                 |                           | No       |
+| [**file**](#file)                                                           |                           | No       |
+|                                                                             | **name**                  | No       |
+|                                                                             | **hashalg**               | No       |
+|                                                                             | **hash**                  | No       |
+| [**activeCodePage**](#activeCodePage)                                       |                           | No       |
+| [**autoElevate**](#autoElevate)                                             |                           | No       |
+| [**disableTheming**](#disableTheming)                                       |                           | No       |
+| [**disableWindowFiltering**](#disableWindowFiltering)                       |                           | No       |
+| [**dpiAware**](#dpiAware)                                                   |                           | No       |
+| [**dpiAwareness**](#dpiAwareness)                                           |                           | No       |
+| [**gdiScaling**](#gdiScaling)                                               |                           | No       |
+| [**highResolutionScrollingAware**](#highResolutionScrollingAware)           |                           | No       |
+| [**longPathAware**](#longPathAware)                                         |                           | No       |
+| [**printerDriverIsolation**](#printerDriverIsolation)                       |                           | No       |
+| [**ultraHighResolutionScrollingAware**](#ultraHighResolutionScrollingAware) |                           | No       |
+| [**msix**](#msix)                                                           |                           | No       |
+| [**heapType**](#heapType)                                                   |                           | No       |
 
 ## File Location
 

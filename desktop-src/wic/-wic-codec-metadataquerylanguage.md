@@ -205,7 +205,7 @@ The following table is a formal definition of the WIC metadata query language. E
 | \<property path>    | \<metadata item> \| \<property path> '/' \<property path>                                                                                                    |
 | \<metadata item>    | \<index name> \| \<item name> \| \<schema name> ':' \<item name>                                                                                        |
 | \<schema name>      | \<item name>                                                                                                                                                           |
-| \<item name>        | \<metadata item> \| <indexed item>&lt;index&gt;                                                                                                                  |
+| \<item name>        | \<metadata item> \| \<indexed item\>&lt;index&gt;                                                                                                                  |
 | \<indexed item>     | \<item> \| \<implied metadata>\<item>                                                                                                                        |
 | \<implied metadata> | '<'\<name>'>'                                                                                                                                                    |
 | \<item>             | \<name> \| \&lt;index&gt; \<data> \| \<data>                                                                                                                  |

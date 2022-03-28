@@ -142,7 +142,7 @@ Windows Search is built into Windows Vista and later, and is available as a red
 -   Windows Server 2003 with Service Pack 1 (SP1) and later.
 -   All x64-based versions of Windows Server 2003.
 
-Systems running these operating systems must have Windows Search installed in order to run applications written for Windows Search. For more information, see [KB article 917013: Description of Windows Desktop Search 3.01 and the Multilingual User Interface Pack for Windows Desktop Search 3.01](https://support.microsoft.com/kb/917013).
+Systems running these operating systems must have Windows Search installed in order to run applications written for Windows Search.
 
 ## Additional Resources
 

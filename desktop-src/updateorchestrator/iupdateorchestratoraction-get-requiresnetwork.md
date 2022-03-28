@@ -2,7 +2,7 @@
 title: IUpdateOrchestratorAction::get_RequiresNetwork method
 description: Determines if an action needs a network connection.
 ms.date: 01/29/2020
-ms.topic: method
+ms.topic: reference
 ---
 
 # IUpdateOrchestratorAction::get_RequiresNetwork method

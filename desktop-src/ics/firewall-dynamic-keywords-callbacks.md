@@ -5,7 +5,6 @@ keywords:
 - Firewall dynamic keywords, callbacks
 ms.topic: article
 ms.date: 05/17/2021
-ms.localizationpriority: low
 ---
 
 # Firewall dynamic keywords callbacks

@@ -2,7 +2,7 @@
 title: IUpdateOrchestratorUnlock interface
 description: Unlocks the instance for permission to access the IUpdateOrchestrator methods.
 ms.date: 01/29/2020
-ms.topic: interface
+ms.topic: reference
 ---
 
 # IUpdateOrchestratorUnlock  interface

@@ -40,6 +40,25 @@ For a discussion of operating system architecture changes to support more than 6
 
 For a list of new functions and structures that support processor groups, see [What's New in Processes and Threads](what-s-new-in-processes-and-threads.md).
 
+### Behavior starting with Windows 11 and Windows Server 2022 
+
+> [!NOTE]
+> Starting with Windows 11 and Windows Server 2022, it is no longer the case that applications are constrained by default to a single processor group. Instead, processes and their threads have processor affinities that by default span all processors in the system, across multiple groups on machines with more than 64 processors.
+
+In order for applications to automatically take advantage of all the processors in a machine with more than 64 processors, starting with Windows 11 and Windows Server 2022 the OS has changed to make processes and their threads span all processors in the system, across all processor groups, by default. This means that applications no longer need to explicitly set their threads' affinities in order to access multiple processor groups.
+
+For compatibility reasons, the OS uses a new **Primary Group** concept for both processes and threads. Each process is assigned a primary group at creation, and by default all of its threads' primary group is the same. Each thread's ideal processor is in the thread's primary group, so threads will preferentially be scheduled to processors on their primary group, but they are able to be scheduled to processors on any other group. Affinity APIs that are not group-aware or operate on a single group implicitly use the primary group as the process/thread processor group; for more information on the new behaviors check the Remarks sections for the following:
+- [**GetProcessAffinityMask**](/windows/win32/api/winbase/nf-winbase-getprocessaffinitymask)
+- [**SetProcessAffinityMask**](/windows/win32/api/winbase/nf-winbase-setprocessaffinitymask)
+- [**SetThreadAffinityMask**](/windows/win32/api/winbase/nf-winbase-setthreadaffinitymask)
+- [**GetProcessGroupAffinity**](/windows/win32/api/processtopologyapi/nf-processtopologyapi-getprocessgroupaffinity)
+- [**GetThreadGroupAffinity**](/windows/win32/api/processtopologyapi/nf-processtopologyapi-getthreadgroupaffinity)
+- [**SetThreadGroupAffinity**](/windows/win32/api/processtopologyapi/nf-processtopologyapi-setthreadgroupaffinity)
+- [**SetThreadIdealProcessor**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-setthreadidealprocessor)
+- [**SetThreadIdealProcessorEx**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-setthreadidealprocessorex)
+
+Applications can use [**CPU Sets**](/windows/win32/procthread/cpu-sets) to effectively manage a process' or thread's affinity over multiple processor groups.
+
 ## Related topics
 
 <dl> <dt>

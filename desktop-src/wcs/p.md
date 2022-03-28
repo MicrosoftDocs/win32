@@ -21,7 +21,6 @@ keywords:
 - primary colors
 - Profile Connection Space (PCS)
 - PCS (Profile Connection Space)
-ms.localizationpriority: high
 
 
 ms.topic: article

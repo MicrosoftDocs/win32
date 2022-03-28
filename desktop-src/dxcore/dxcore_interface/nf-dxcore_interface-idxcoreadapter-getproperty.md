@@ -1,7 +1,6 @@
 ---
 title: IDXCoreAdapter::GetProperty
 description: Retrieves the value of the specified adapter property.
-ms.localizationpriority: low
 ms.topic: reference
 ms.date: 06/20/2019
 ---

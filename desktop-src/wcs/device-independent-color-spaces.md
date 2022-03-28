@@ -20,7 +20,6 @@ keywords:
 - color spaces,CIEXYZ
 - color spaces,sRGB
 - color spaces,XYZ
-ms.localizationpriority: high
 
 
 ms.topic: article

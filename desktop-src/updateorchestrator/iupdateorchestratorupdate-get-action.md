@@ -2,7 +2,7 @@
 title: IUpdateOrchestratorUpdate::get_Action method
 description: Gets the action that needs to be performed.
 ms.date: 01/29/2020
-ms.topic: method
+ms.topic: reference
 ---
 
 # IUpdateOrchestratorUpdate::get_Action method

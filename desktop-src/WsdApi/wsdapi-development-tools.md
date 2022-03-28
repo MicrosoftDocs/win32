@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # WSDAPI Development Tools
 
-The WSDAPI development tools included in the Windows SDK (WSD CodeGen, WSD Debug Host, and WSD Debug Client) enable developers to create and debug WSDAPI-based clients and devices. The source code for these tools is not available. SDK tools are located in the following directory: <Windows SDK Install Folder>\\Bin.
+The WSDAPI development tools included in the Windows SDK (WSD CodeGen, WSD Debug Host, and WSD Debug Client) enable developers to create and debug WSDAPI-based clients and devices. The source code for these tools is not available. SDK tools are located in the following directory: \<Windows SDK Install Folder>\\Bin.
 
 WSD CodeGen (wsdcodegen.exe) converts a WSDL contract into generated C++ code, which developers can call directly into. It handles the data serialization and wire representation so developers can focus on designing applications. For more information about WSD CodeGen, see [Web Services on Devices Code Generator](web-services-for-devices-code-generator.md). This tool is available in the Microsoft Windows Software Development Kit (SDK) and in the Windows Driver Kit (WDK).
 

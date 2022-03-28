@@ -22,7 +22,7 @@ UI Automation offers improved performance by introducing faster unmanaged automa
 
 The UI Accessibility Checker is a convenient graphical user interface tool that enables developers and testers to rapidly verify whether their UI conforms to key accessibility requirements, such as *MSAA* (which verifies child-parent relationships or bounding rectangles) and UI Automation programmatic access, event generation, layout, and keyboard navigation. (See [UI Accessibility Checker](https://www.codeplex.com/AccCheck).)
 
-UIA Verify is a test automation framework that facilitates manual and automated testing of the UI Automation provider implementation of a control or application. These two new tools enable developers to test accessibility implementations and functionality in applications that use either *MSAA* or UI Automation. Both tools are available via [CodePlex](https://www.codeplex.com/), a web site that Microsoft created to host open-source projects and to better serve the developer community. (See [UI Automation Verify (UIA Verify) Test Automation Framework](https://uiautomationverify.codeplex.com/).)
+UIA Verify is a test automation framework that facilitates manual and automated testing of the UI Automation provider implementation of a control or application. These two new tools enable developers to test accessibility implementations and functionality in applications that use either *MSAA* or UI Automation. Both tools are available via [CodePlex](https://www.codeplex.com/), a web site that Microsoft created to host open-source projects and to better serve the developer community.
 
 ## Improved Multi-Language User Interface Support and Linguistic Services
 

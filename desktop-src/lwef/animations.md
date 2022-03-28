@@ -24,7 +24,7 @@ You can have as many frames in an animation as you wish; however, a typical anim
 
 ### Image Design
 
-You can use any graphics or animation tool to create images for animation frames, provided that you store the final images in the Windows bitmap (.BMP) format. When the images are created, use the Microsoft Agent Character Editor (available in the [downloadable](https://www.microsoft.com/download/en/details.aspx?id=14765)) to assemble, sequence, and time the images, supply other character information, and compile all the information into a final character file.
+You can use any graphics or animation tool to create images for animation frames, provided that you store the final images in the Windows bitmap (.BMP) format. When the images are created, use the Microsoft Agent Character Editor to assemble, sequence, and time the images, supply other character information, and compile all the information into a final character file.
 
 Character images must be designed to a 256-color palette, preserving the 20 standard Windows system colors in their standard position in the palette (the first 10 and last 10 positions). That means your character's color palette can use the standard system colors and up to 236 other colors. When defining your palette, include any props your character uses in the animation. If your character's palette places colors in the system color positions, those character colors will be overwritten with the system colors when Microsoft Agent creates the palette.
 

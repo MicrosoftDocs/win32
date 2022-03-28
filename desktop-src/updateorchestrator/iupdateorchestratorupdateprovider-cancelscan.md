@@ -2,7 +2,7 @@
 title: IUpdateOrchestratorUpdateProvider::CancelScan method
 description: Cancels a scan that is in progress.
 ms.date: 01/29/2020
-ms.topic: method
+ms.topic: reference
 ---
 
 # IUpdateOrchestratorUpdateProvider::CancelScan method

@@ -2,7 +2,7 @@
 title: IUpdateOrchestratorUpdate::PerformAction method
 description: Performs the given action.
 ms.date: 01/29/2020
-ms.topic: method
+ms.topic: reference
 ---
 
 # IUpdateOrchestratorUpdate::PerformAction method

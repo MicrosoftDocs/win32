@@ -54,7 +54,7 @@ The value specified in a filter must be a decimal Integer. Hexadecimal values mu
 
 
 
-"<attribute name>" is the **lDAPDisplayName** of the attribute and "&lt;value&gt;" is the value to use for comparison.
+"\<attribute name\>" is the **lDAPDisplayName** of the attribute and "&lt;value&gt;" is the value to use for comparison.
 
 The following code example shows a filter that will search for objects that have a **groupType** value that is equal to the **ADS\_GROUP\_TYPE\_UNIVERSAL\_GROUP** (8) flag and the **ADS\_GROUP\_TYPE\_SECURITY\_ENABLED** (0x80000000) flag. The two flags combined equal 0x80000008, which converted to decimal is 2147483656.
 

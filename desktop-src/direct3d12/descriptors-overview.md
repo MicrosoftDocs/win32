@@ -2,7 +2,6 @@
 title: Descriptors Overview
 description: Descriptors are created by API calls and identify resources.
 ms.assetid: 64721226-5533-4816-865E-9429032FCC86
-ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
 ---

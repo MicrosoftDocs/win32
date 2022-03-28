@@ -2,7 +2,6 @@
 title: Memory Aliasing and Data Inheritance
 description: Placed and reserved resource may alias physical memory within a heap. Placed resources enable more data inheritance scenarios than reserved resources when the heap has the shared flag set or when the aliased resources have fully defined memory layouts.
 ms.assetid: 53C5804B-0F81-41AF-83D2-A96DCDFDC94A
-ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
 ---

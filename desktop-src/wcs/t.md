@@ -20,7 +20,6 @@ keywords:
 - colors,terms
 - tint
 - tone
-ms.localizationpriority: high
 
 
 ms.topic: article

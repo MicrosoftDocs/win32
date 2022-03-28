@@ -2,7 +2,6 @@
 title: Subresources (Direct3D 12 Graphics)
 description: Describes how a resource is divided into subresources, and how to reference a single, multiple or slice of subresources.
 ms.assetid: C4F92F8A-DBF0-412B-8707-CC4C1BF2D88F
-ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
 ---

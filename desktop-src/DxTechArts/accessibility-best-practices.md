@@ -89,7 +89,7 @@ Below are different categories of disabilities. Each category includes some rela
 
 *"My presentation was followed by a lively question and answer session, and one notable moment occurred when one of the staffers asked a question about accessibility in \[our\] games... this 28-year-old staffer is an avid gamer who used to play \[our game\] with a wide circle of friends. Because he is color blind, however, it was hard for him to tell the good guys from the bad guys and the game finally became too frustrating. When the new version... came out and \[we\] hadn't fixed the problem, he and his friends all decided to buy a competitor's game instead." an anonymous industry executive*
 
-The term "visual impairment" often brings to mind someone who is completely blind. However, it is startling to know that 8.7% of the male population is affected by some level of color blindness ("[How do people inherit colorblindness? How often?](https://www.webexhibits.org/causesofcolor/2C.mdl)," WebExhibits.org). Another 1.2% of individuals are affected by more severe forms of visual impairment ("[Disability Info: Visual Impairments Fact Sheet](https://nichcy.org/disability/specific/visualimpairment)," National Dissemination Center for Children with Disabilities). That means almost one out of every ten potential gamers have issues affecting their eyesight that can impact their gaming experience.
+The term "visual impairment" often brings to mind someone who is completely blind. However, it is startling to know that 8.7% of the male population is affected by some level of color blindness ("[How do people inherit colorblindness? How often?](http://www.webexhibits.org/causesofcolor/2C.html)," WebExhibits.org). Another 1.2% of individuals are affected by more severe forms of visual impairment ("[Disability Info: Visual Impairments Fact Sheet](https://nichcy.org/disability/specific/visualimpairment)," National Dissemination Center for Children with Disabilities). That means almost one out of every ten potential gamers have issues affecting their eyesight that can impact their gaming experience.
 
 To help you understand visual impairment issues, imagine that:
 
@@ -207,13 +207,13 @@ General Disability sites:
 Auditory Impairment Sites:
 
 -   [DeafGamers.com](https://www.deafgamers.com/)
--   [The Deaf Resource Library](https://www.deaflibrary.org/)
+-   [The Deaf Resource Library](http://www.deaflibrary.org/)
 
 Visual Impairment Sites:
 
 -   [National Eye Institute](https://www.nei.nih.gov/)
 -   [Vischeck](https://www.vischeck.com/)
--   [WebExhibits.org](https://www.webexhibits.org/causesofcolor/2.mdl)
+-   [WebExhibits.org](http://www.webexhibits.org/causesofcolor/2A.html)
 
 Mobility impairment Sites:
 

@@ -18,7 +18,6 @@ keywords:
 - WCS reference,device contexts
 - reference for WCS,device contexts
 - device contexts
-ms.localizationpriority: high
 
 
 ms.topic: article

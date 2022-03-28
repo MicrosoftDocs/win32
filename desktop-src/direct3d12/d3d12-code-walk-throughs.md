@@ -2,7 +2,6 @@
 title: D3D12 Code Walk-Throughs
 description: This section provides code for sample scenarios. Many of the walk-throughs provide details on what coding is required to be added to a basic sample, to avoid repeating the basic component code for each scenario.
 ms.assetid: 1F37FD3A-385C-4DD5-B04C-980F078D90D0
-ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 title: Uploading texture data through buffers
 description: Uploading 2D or 3D texture data is similar to uploading 1D data, except that applications need to pay closer attention to data alignment related to row pitch.
 ms.assetid: 22A25A94-A45C-482D-853A-FA6860EE7E4E
-ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
 ---

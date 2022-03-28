@@ -2,7 +2,7 @@
 title: IUpdateOrchestratorUpdate::get_Title method
 description: Gets the update's title for telemetry and diagnostic purposes.
 ms.date: 01/29/2020
-ms.topic: method
+ms.topic: reference
 ---
 
 # IUpdateOrchestratorUpdate::get_Title method

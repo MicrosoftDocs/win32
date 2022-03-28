@@ -10,7 +10,6 @@ keywords:
 - colors,reference
 - WCS reference,about
 - reference for WCS,about
-ms.localizationpriority: high
 
 
 ms.topic: article

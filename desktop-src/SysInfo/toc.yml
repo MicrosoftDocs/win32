@@ -254,6 +254,8 @@
         items: 
         - name: "ApiSetQueryApiSetPresence"
           href: apisetqueryapisetpresence.md
+        - name: "ApiSetQueryApiSetPresenceEx"
+          href: apisetqueryapisetpresenceex.md
         - name: "CeipIsOptedIn"
           href: /windows/desktop/api/Windowsceip/nf-windowsceip-ceipisoptedin
         - name: "DnsHostnameToComputerName"

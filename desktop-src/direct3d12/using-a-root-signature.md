@@ -2,7 +2,6 @@
 title: Using a Root Signature
 description: The root signature is the definition of an arbitrarily arranged collection of descriptor tables (including their layout), root constants and root descriptors.
 ms.assetid: 0131CDE4-02DB-440A-92B8-B0933C6414B0
-ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
 ---

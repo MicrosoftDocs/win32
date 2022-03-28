@@ -12,7 +12,6 @@ keywords:
 - colors,functions
 - WCS reference,functions
 - reference for WCS,functions
-ms.localizationpriority: high
 
 
 ms.topic: article

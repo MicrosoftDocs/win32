@@ -25,7 +25,6 @@ keywords:
 - colorants
 - gamma correction
 - gamut
-ms.localizationpriority: high
 
 
 ms.topic: article

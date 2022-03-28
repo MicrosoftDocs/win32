@@ -2,7 +2,7 @@
 title: IUpdateOrchestratorUpdateCollection::get_Item method
 description: Gets the update with the given index.
 ms.date: 01/29/2020
-ms.topic: method
+ms.topic: reference
 ---
 
 # IUpdateOrchestratorUpdateCollection::get_Item method
