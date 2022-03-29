@@ -82,7 +82,7 @@ The **SWbemDateTime** object has these properties.
 
 ## Remarks
 
-WMI records timestamps in universal time coordinate (UTC) format. UTC is not the format that most developers and IT administrators use. Therefore, a common issue is determining how to translate UTC into something more readable. For more information on how to work with UTC, see [WMI Tasks: Dates and Times](wmi-tasks--dates-and-times.md) and [Working with Dates and Times using WMI](/previous-versions/tn-archive/ee198928(v=technet.10)). You can also read the [It s About Time (Oh, and About Dates, Too)](/previous-versions/technet-magazine/cc160973(v=msdn.10)) and [How Can I Subtract a Specified Number of Days from a UTC Value?](https://blogs.technet.com/b/heyscriptingguy/archive/2006/07/21/how-can-i-subtract-a-specified-number-of-days-from-a-utc-value.aspx) blog posts for additional information.
+WMI records timestamps in universal time coordinate (UTC) format. UTC is not the format that most developers and IT administrators use. Therefore, a common issue is determining how to translate UTC into something more readable. For more information on how to work with UTC, see [WMI Tasks: Dates and Times](wmi-tasks--dates-and-times.md) and [Working with Dates and Times using WMI](/previous-versions/tn-archive/ee198928(v=technet.10)). You can also read the [It s About Time (Oh, and About Dates, Too)](/previous-versions/technet-magazine/cc160973(v=msdn.10)) blog post for additional information.
 
 Any numeric field can have a wildcard value if the [**IsInterval**](swbemdatetime-isinterval.md) property is set to **FALSE**. Fields with wildcard values contain asterisks in the entire field.
 
@@ -296,6 +296,4 @@ The following Powershell code translates the code into a format ready to be cons
 
 [Scripting API Objects](scripting-api-objects.md)
 </dt> </dl>
-
- 
 

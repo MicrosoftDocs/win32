@@ -122,7 +122,7 @@ Example: 101
 
 ## Examples
 
-For more information and code samples on using this class in PowerShell, see [Use PowerShell to Report and Set Monitor Brightness](https://blogs.technet.com/b/heyscriptingguy/archive/2013/07/25/use-powershell-to-report-and-set-monitor-brightness.aspx).
+For more information and code samples on using this class in PowerShell, see [Use PowerShell to Report and Set Monitor Brightness](https://devblogs.microsoft.com/scripting/use-powershell-to-report-and-set-monitor-brightness/).
 
 ## Requirements
 
@@ -146,9 +146,4 @@ For more information and code samples on using this class in PowerShell, see [Us
 </dt> </dl>
 
  
-
- 
-
-
-
 
