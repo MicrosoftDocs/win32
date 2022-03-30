@@ -25,49 +25,22 @@ The Shell controls a number of important aspects of the system, including severa
 
 The majority of potential Shell security issues can be mitigated by correctly installing your application.
 
-- Install the application under the Program Files folder. 
+- Install the application under the Program Files folder.
 
-    | Operating System                             | Location                                                                                                                                                                                                                                   |
-    |----------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-    | Windows XP, Windows Server 2003, and earlier | CSIDL\_PROGRAM\_FILES                                                                                                                                                                                                                      |
-    | Windows Vista and later                      | FOLDERID\_ProgramFiles, FOLDERID\_ProgramFilesX86, FOLDERID\_ProgramFilesX64, FOLDERID\_ProgramFilesCommon, FOLDERID\_ProgramFilesCommonX86, or FOLDERID\_ProgramFilesCommonX64. See [**KNOWNFOLDERID**](knownfolderid.md) for specifics. |
+**FOLDERID\_ProgramFiles**, **FOLDERID\_ProgramFilesX86**, **FOLDERID\_ProgramFilesX64**, **FOLDERID\_ProgramFilesCommon**, **FOLDERID\_ProgramFilesCommonX86** or **FOLDERID\_ProgramFilesCommonX64**.
 
-    
-
-     
+See [**KNOWNFOLDERID**](knownfolderid.md) for specifics.
 
 - Do not store user data under the Program Files folder.
 
-    Use the appropriate data folder for data that is common to all users.
+    Use the appropriate data folder for data that is common to all users: **FOLDERID\_ProgramData**.
 
-    
-
-    | Operating System                             | Location               |
-    |----------------------------------------------|------------------------|
-    | Windows XP, Windows Server 2003, and earlier | CSIDL\_COMMON\_APPDATA |
-    | Windows Vista and later                      | FOLDERID\_ProgramData  |
-
-    
-
-     
-
-    Use the appropriate user data folder for data that belongs to a particular user.
-
-    
-
-    | Operating System                             | Location                                                   |
-    |----------------------------------------------|------------------------------------------------------------|
-    | Windows XP, Windows Server 2003, and earlier | CSIDL\_APPDATA, CSIDL\_PERSONAL, and others.               |
-    | Windows Vista and later                      | FOLDERID\_RoamingAppData, FOLDERID\_Documents, and others. |
-
-    
-
-     
+    Use the appropriate user data folders for data that belongs to a particular user: **FOLDERID\_RoamingAppData**, **FOLDERID\_Documents**, and others
 
 - If you must install to a location other than the Program Files folder, make sure that you set access control lists (ACLs) properly so that users do not have access to inappropriate parts of the file system. Any data that is specific to a particular user should have an ACL that prevents any other user from accessing it.
 - When you set up file associations, be sure to properly specify the command line. Use a fully qualified path and wrap any elements that contain white space in quotation marks. Wrap command parameters in separate quotation marks. Otherwise, the string might be incorrectly parsed and the application will not launch properly. Two examples of properly formed command lines are shown here.
 
-    ```
+    ```TEXT
     "C:\Program Files\MyApp\MyApp.exe" "%1" "%2"
     C:\MyAppDir\MyApp\MyApp.exe "%1"
     ```
