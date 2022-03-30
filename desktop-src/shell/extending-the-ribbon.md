@@ -18,9 +18,9 @@ In Windows Explorer, the Ribbon helps make common end-user file management activ
 
 Actions available to users on the Ribbon fall into three extensibility categories:
 
--   Extensibility is not needed. Examples: Copy, Paste, Delete. Windows handles these verbs for you.
--   Extensibility is not currently allowed: Examples: Zip, Close Session, and other custom actions. Use the context menu to cover these scenarios.
--   Extensibility is built into the action itself. Examples: Search, Email, Print, New Item. You need to register for these verbs to include your app or file format in the Ribbon .
+- Extensibility is not needed. Examples: Copy, Paste, Delete. Windows handles these verbs for you.
+- Extensibility is not currently allowed: Examples: Zip, Close Session, and other custom actions. Use the context menu to cover these scenarios.
+- Extensibility is built into the action itself. Examples: Search, Email, Print, New Item. You need to register for these verbs to include your app or file format in the Ribbon .
 
 This document describes how you can opt-in to get the Ribbon, and how to register to handle specific Ribbon verbs.
 
@@ -32,12 +32,12 @@ To opt in to the Ribbon, your [**IShellFolder2**](/windows/desktop/api/shobjidl_
 
 These Ribbon buttons are extensible based on file extensions:
 
--   Extract All
--   Mount \| Burn (an ISO)
--   Play \| Play All \| Add to Playlist (verb: Enqueue)
--   Open
--   Edit
--   Properties
+- Extract All
+- Mount \| Burn (an ISO)
+- Play \| Play All \| Add to Playlist (verb: Enqueue)
+- Open
+- Edit
+- Properties
 
 When you register to statically handle the relevant verbs for new file types, the Ribbon handles the verbs appropriately. You register just as you would for context menu verbs. For more information about file associations and registering for verbs, see [Verbs and File Associations](fa-verbs.md) and [Creating Shortcut Menu Handlers](context-menu-handlers.md).
 

@@ -18,9 +18,9 @@ To create a ProgID for each unique file type that your application handles, use 
 
 Note that some file types have multiple extensions that point to the same ProgID; for example:
 
--   **HKEY\_CLASSES\_ROOT**\\**App.jpeg** (your ProgID)
--   **HKEY\_CLASSES\_ROOT**\\**.jpg** = App.jpeg (the file type mappings)
--   **HKEY\_CLASSES\_ROOT**\\**.jpeg** = App.jpeg
+- **HKEY\_CLASSES\_ROOT**\\**App.jpeg** (your ProgID)
+- **HKEY\_CLASSES\_ROOT**\\**.jpg** = App.jpeg (the file type mappings)
+- **HKEY\_CLASSES\_ROOT**\\**.jpeg** = App.jpeg
 
 ### Step 2:
 
@@ -34,8 +34,8 @@ Leave the file type mappings unchanged at uninstall time. Doing so works because
 
 Specify a unique value for the file type description of each file type ProgID by doing one of the following:
 
--   Leave the default value of the ProgID empty, in which case the system uses the .ext file.
--   Provide a localized value via FriendlyTypeName and, for compatibility with old applications that read the registry directly, be sure to provide the default value of the ProgID as the file type description (that is, use the same value that is referred to by the FriendlyTypeName in the English resource).
+- Leave the default value of the ProgID empty, in which case the system uses the .ext file.
+- Provide a localized value via FriendlyTypeName and, for compatibility with old applications that read the registry directly, be sure to provide the default value of the ProgID as the file type description (that is, use the same value that is referred to by the FriendlyTypeName in the English resource).
 
 ## Remarks
 

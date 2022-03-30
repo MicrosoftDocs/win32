@@ -59,17 +59,17 @@ When an icon is added to the notification area on Windows 7, it is added to the
 
 The [**NOTIFYICONDATA**](/windows/desktop/api/Shellapi/ns-shellapi-notifyicondataa) structure sent in the call to [**Shell\_NotifyIcon**](/windows/desktop/api/Shellapi/nf-shellapi-shell_notifyicona) contains information that specifies both the notification area icon and the notification itself. The following are those items specific to the notification area icon itself that can be set through **NOTIFYICONDATA**.
 
--   The resource from which the icon is taken.
--   A unique identifier for the icon.
--   The style of the icon's tooltip.
--   The icon's state (hidden, shared, or both) in the notification area.
--   The handle of an application window associated with the icon.
--   A callback message identifier that allows the icon to communicate events that occur within the icon's bounding rectangle and balloon notification with the associated application window. The icon's bounding rectangle can be retrieved through [**Shell\_NotifyIconGetRect**](/windows/desktop/api/Shellapi/nf-shellapi-shell_notifyicongetrect).
+- The resource from which the icon is taken.
+- A unique identifier for the icon.
+- The style of the icon's tooltip.
+- The icon's state (hidden, shared, or both) in the notification area.
+- The handle of an application window associated with the icon.
+- A callback message identifier that allows the icon to communicate events that occur within the icon's bounding rectangle and balloon notification with the associated application window. The icon's bounding rectangle can be retrieved through [**Shell\_NotifyIconGetRect**](/windows/desktop/api/Shellapi/nf-shellapi-shell_notifyicongetrect).
 
 Each icon in the notification area can be identified in two ways:
 
--   The GUID with which the icon is declared in the registry. This is the preferred method on Windows 7 and later.
--   The handle of a window associated with the notification area icon, plus an application-defined icon identifier. This method is used on Windows Vista and earlier.
+- The GUID with which the icon is declared in the registry. This is the preferred method on Windows 7 and later.
+- The handle of a window associated with the notification area icon, plus an application-defined icon identifier. This method is used on Windows Vista and earlier.
 
 Icons in the notification area can have a tooltip. The tooltip can be either a standard tooltip (preferred) or an application-drawn, pop-up UI. While a tooltip is not required, it is recommended.
 
@@ -124,12 +124,12 @@ A notification is a special type of balloon tooltip control. It contains a title
 
 The [**NOTIFYICONDATA**](/windows/desktop/api/Shellapi/ns-shellapi-notifyicondataa) structure sent in the call to [**Shell\_NotifyIcon**](/windows/desktop/api/Shellapi/nf-shellapi-shell_notifyicona) contains information that specifies both the notification area icon and the notification balloon itself. The following are those items specific to the notification that can be set through **NOTIFYICONDATA**.
 
--   An icon to display in the notification balloon, which is specified by the notification type. The size of the icon can be specified, as well as custom icons.
--   A notification title. This title should be a maximum of 48 characters long in English (to accommodate localization). The title is the first line of the notification, and set apart through the use of font size, color, and weight.
--   Text for use in the body of the notification. This text should be a maximum of 200 characters in English (to accommodate localization).
--   Whether the notification should be discarded if it cannot be displayed immediately.
--   A timeout for the notification. This setting is ignored in Windows Vista and later systems in favor of a system-wide accessibility timeout setting.
--   Whether the notification should respect quiet time, set through the [**NIIF\_RESPECT\_QUIET\_TIME**](/windows/desktop/api/Shellapi/ns-shellapi-notifyicondataa) flag.
+- An icon to display in the notification balloon, which is specified by the notification type. The size of the icon can be specified, as well as custom icons.
+- A notification title. This title should be a maximum of 48 characters long in English (to accommodate localization). The title is the first line of the notification, and set apart through the use of font size, color, and weight.
+- Text for use in the body of the notification. This text should be a maximum of 200 characters in English (to accommodate localization).
+- Whether the notification should be discarded if it cannot be displayed immediately.
+- A timeout for the notification. This setting is ignored in Windows Vista and later systems in favor of a system-wide accessibility timeout setting.
+- Whether the notification should respect quiet time, set through the [**NIIF\_RESPECT\_QUIET\_TIME**](/windows/desktop/api/Shellapi/ns-shellapi-notifyicondataa) flag.
 
 > [!Note]  
 > The [**IUserNotification**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iusernotification) and [**IUserNotification2**](/windows/desktop/api/Shobjidl/nn-shobjidl-iusernotification2) interfaces are Component Object Model (COM) wrappers for [**Shell\_NotifyIcon**](/windows/desktop/api/Shellapi/nf-shellapi-shell_notifyicona). However, at this time, they do not provide the full NOTIFYICON\_VERSION\_4 functionality available through **Shell\_NotifyIcon** directly, including the use of a GUID to identify the notification area icon.
@@ -153,7 +153,7 @@ Notifications sent during quiet time are discarded unshown. Design guidelines as
 
 Once you have set the [**NOTIFYICONDATA**](/windows/desktop/api/Shellapi/ns-shellapi-notifyicondataa) version and defined the notification in a **NOTIFYICONDATA** structure, call [**Shell\_NotifyIcon**](/windows/desktop/api/Shellapi/nf-shellapi-shell_notifyicona) to display the icon.
 
--   If the notification area icon is not present, call [**Shell\_NotifyIcon**](/windows/desktop/api/Shellapi/nf-shellapi-shell_notifyicona) to add the icon. Do this for both transient and non-transient icons.
+- If the notification area icon is not present, call [**Shell\_NotifyIcon**](/windows/desktop/api/Shellapi/nf-shellapi-shell_notifyicona) to add the icon. Do this for both transient and non-transient icons.
     ```
     NOTIFYICONDATA nid = {};
     ...                    
@@ -162,7 +162,7 @@ Once you have set the [**NOTIFYICONDATA**](/windows/desktop/api/Shellapi/ns-shel
 
     
 
--   If the notification area icon is already present, call [**Shell\_NotifyIcon**](/windows/desktop/api/Shellapi/nf-shellapi-shell_notifyicona) to modify the icon.
+- If the notification area icon is already present, call [**Shell\_NotifyIcon**](/windows/desktop/api/Shellapi/nf-shellapi-shell_notifyicona) to modify the icon.
     ```
     NOTIFYICONDATA nid = {};
     ...                    

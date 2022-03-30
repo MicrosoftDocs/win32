@@ -78,14 +78,14 @@ In Windows 7, if your program currently displays a common file dialog box and d
 
 In Windows 7, the [**IFileDialog**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-ifiledialog)-related interfaces replace the common file dialog box functions that were used in earlier versions of Windows. The earlier common file dialog box functions are still supported in Windows 7 but they do not provide the complete Windows 7 user experience and they do not support libraries. Some of the new features supported by the **IFileDialog**-related interfaces include:
 
--   The user can access the file properties supported by the Windows 7 Windows Explorer to search and select the files.
--   The program can use interfaces and methods from the Shell namespace API to work with the items.
--   The program can use a data-driven customization model instead of a resource-file-driven customization model to add new controls to the common file dialog boxes.
+- The user can access the file properties supported by the Windows 7 Windows Explorer to search and select the files.
+- The program can use interfaces and methods from the Shell namespace API to work with the items.
+- The program can use a data-driven customization model instead of a resource-file-driven customization model to add new controls to the common file dialog boxes.
 
 You should use the [**IFileDialog**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-ifiledialog)-related interfaces when:
 
--   you need to customize the common file dialog box for your program in Windows 7. This will allow your program to work with libraries and support customizing your dialog box.
--   you want the user to be able to select multiple files from a common file dialog box. This will ensure you get the correct paths to the selected object because a library can have contents that are stored in different folders.
+- you need to customize the common file dialog box for your program in Windows 7. This will allow your program to work with libraries and support customizing your dialog box.
+- you want the user to be able to select multiple files from a common file dialog box. This will ensure you get the correct paths to the selected object because a library can have contents that are stored in different folders.
 
 For more information on the [**IFileDialog**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-ifiledialog)-related interfaces, see:
 
@@ -161,11 +161,11 @@ Because the library objects are part of the Shell programming model, they can be
 
 The Windows Shell APIs support two enumeration modes to access the contents of a library:
 
--   **Browse enumeration**
+- **Browse enumeration**
 
     Browse enumeration is the default enumeration mode and enumerates the contents of a library folder. Clear the SHCONTF\_NAVIGATION\_ENUM flag to use this mode.
 
--   **Navigation enumeration**
+- **Navigation enumeration**
 
     Navigation enumeration enumerates the library folders. Set the SHCONTF\_NAVIGATION\_ENUM flag to use this mode.
 
@@ -181,11 +181,11 @@ Every library has a folder that is designated as the default save location. The 
 
 There are several ways you can save user content to a library.
 
--   **Shell API**
+- **Shell API**
 
     If you are using the Shell programming model and save a Shell item, as represented by an [**IShellItem**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem), IStorage, or IStream, to a library object, the Shell item will be automatically stored in the default save location of the library.
 
--   **File-system API**
+- **File-system API**
 
     If you have an existing program that uses many file-system API calls, you can get a path to the folder that is defined as the library's default save location. The folder path can then be passed to a file-system API.
 

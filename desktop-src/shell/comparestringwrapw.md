@@ -194,8 +194,8 @@ Type: **int**
 
 If the function fails, the return value is zero. To get extended error information, call [**GetLastError**](/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror). **GetLastError** may return one of the following error codes.
 
--   ERROR\_INVALID\_FLAGS
--   ERROR\_INVALID\_PARAMETER
+- ERROR\_INVALID\_FLAGS
+- ERROR\_INVALID\_PARAMETER
 
 If the function succeeds, the return value is one of the following values. 
 

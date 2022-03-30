@@ -17,8 +17,8 @@ The **Set Program Access and Computer Defaults** (SPAD) feature was added to Win
 
 Per-user default settings are specific to an individual user account on the system. If per-user default settings are present, they take precedence over corresponding per-computer defaults for that account. As of Windows 8, the extensibility system for file type and protocol defaults is strictly per-user and per-computer defaults are ignored. SPAD also changed in Windows 8 to set per-user defaults.
 
--   On systems running versions of Windows earlier than Windows 8, a newly created user account receives per-computer defaults until per-user defaults are established. In Windows Vista and later, users can use the **Default Programs** item in Control Panel to set or change their per-user defaults. In addition, when an application is run for the first time, per-user defaults can be set using the guidelines that follow in the [Application First Run and Defaults](#application-first-run-and-defaults) section.
--   On systems running Windows 8, a newly created user account relies on per-user defaults from the start and the setting of those defaults on first run as explained in the [Application First Run and Defaults](#application-first-run-and-defaults) section is no longer supported.
+- On systems running versions of Windows earlier than Windows 8, a newly created user account receives per-computer defaults until per-user defaults are established. In Windows Vista and later, users can use the **Default Programs** item in Control Panel to set or change their per-user defaults. In addition, when an application is run for the first time, per-user defaults can be set using the guidelines that follow in the [Application First Run and Defaults](#application-first-run-and-defaults) section.
+- On systems running Windows 8, a newly created user account relies on per-user defaults from the start and the setting of those defaults on first run as explained in the [Application First Run and Defaults](#application-first-run-and-defaults) section is no longer supported.
 
 An application must register with both SPAD and the Default Programs feature to be offered as the default program in Windows Vista and later.
 
@@ -46,15 +46,15 @@ This topic provides independent software vendors (ISVs) with a quick guide to th
 
 **Default Programs** is a feature introduced in Windows Vista, accessible directly from the **Start** menu as well as Control Panel. It provides a new infrastructure that works with standard user privilege (not elevated) and is designed to enable users and applications to manage per-user defaults. For users, Default Programs provides a unified and easily accessible way to manage defaults, file associations, and Autoplay settings across all applications on the system. For applications, using the per-user scope provided by the Default Programs APIs offers the following advantages:
 
--   **No Elevation**
+- **No Elevation**
 
     An application does not have to elevate its privileges to claim defaults.
 
--   **Good Citizenship**
+- **Good Citizenship**
 
     On a multiple-user computer, each user can select different default applications.
 
--   **Default Management**
+- **Default Management**
 
     Default Programs APIs offer a reliable and consistent mechanism for self-checking the default status and reclaiming lost settings without resorting to writing directly to the registry. However, as of Windows 8, we do not recommended that applications query the default status because an application can no longer change the default settings—those changes can be made only by the user.
 
@@ -62,11 +62,11 @@ To enable your application to manage defaults effectively, you must register you
 
 Default Programs also provides these two features:
 
--   **Reusable Defaults UI**
+- **Reusable Defaults UI**
 
     The UI of both the program defaults (**Set your default programs**) and file associations (**Associate a file type or protocol with a program**) can be reused and called from within an application. This enables applications to provide a standard user experience for managing defaults and saves ISVs from having to develop a custom or equivalent UI.
 
--   **Inclusion of URL and Marketing Information**
+- **Inclusion of URL and Marketing Information**
 
     As part of the **Set your default programs** page of the **Default Programs** item in Control Panel, an application can provide marketing information and a link to the vendor's website. This URL is derived from the Authenticode certificate that the application has been signed with. This prevents misuse and unauthorized replacement of this link. If an application has an Authenticode certificate that includes an embedded URL, Windows UI displays that embedded URL. ISVs should take advantage of this feature to direct users to their website for updates and other downloads.
 
@@ -80,13 +80,13 @@ For more information on registering an application in SPAD, see [Working with Se
 
 Per-user defaults override per-computer defaults.
 
--   **Before Windows 8**: Defaults set in SPAD (which are per-computer) will not be seen by users if corresponding per-user defaults are set. If a user has not set a per-user default, the system uses the corresponding computer default. New user accounts on a computer initially inherit the computer defaults. The first time a user runs an application, the application should prompt the user to assign their per-user defaults. See [Application First Run and Defaults](#application-first-run-and-defaults).
--   **As of Windows 8**: All defaults are per-user and any per-computer default setting is ignored. Applications can no longer set default choices, so they cannot walk the user through their assigning of those defaults.
+- **Before Windows 8**: Defaults set in SPAD (which are per-computer) will not be seen by users if corresponding per-user defaults are set. If a user has not set a per-user default, the system uses the corresponding computer default. New user accounts on a computer initially inherit the computer defaults. The first time a user runs an application, the application should prompt the user to assign their per-user defaults. See [Application First Run and Defaults](#application-first-run-and-defaults).
+- **As of Windows 8**: All defaults are per-user and any per-computer default setting is ignored. Applications can no longer set default choices, so they cannot walk the user through their assigning of those defaults.
 
 When a pre-Windows 8 application implements **Set as Default** in SPAD, these guidelines should be followed:
 
--   Applications should claim only computer-level defaults through SPAD.
--   Applications should *not* claim per-user defaults through SPAD.
+- Applications should claim only computer-level defaults through SPAD.
+- Applications should *not* claim per-user defaults through SPAD.
 
 When a Windows 8 application implements **Set as Default** in SPAD, they must register their file types and protocols in [Default Programs](default-programs.md), using the same application name used in SPAD. This allows a change in SPAD to reflect as a change in the corresponding Default Programs entry for the current user.
 
@@ -94,17 +94,17 @@ When a Windows 8 application implements **Set as Default** in SPAD, they must r
 
 The hide access option for each possible default in SPAD is accessed in one of two ways:
 
--   Choose the **Non-Microsoft** category of defaults, which removes access to all Microsoft defaults.
--   Choose the **Custom** category and clear the **Enable access to this program** check box.
+- Choose the **Non-Microsoft** category of defaults, which removes access to all Microsoft defaults.
+- Choose the **Custom** category and clear the **Enable access to this program** check box.
 
 Previously, taking either of those actions removed all entry points to the appropriate applications on the system. Specific guidelines for this situation say to remove shortcuts and icons from the following locations:
 
--   Desktop
--   Start menu
--   Quick Launch bar (Windows Vista and earlier only)
--   Notification area
--   Shortcut menus
--   Folder task band
+- Desktop
+- Start menu
+- Quick Launch bar (Windows Vista and earlier only)
+- Notification area
+- Shortcut menus
+- Folder task band
 
 Vendors are encouraged to implement these guidelines in the application's Hide Access callback function.
 
@@ -114,16 +114,16 @@ For some legacy applications, a full implementation of Hide Access may not be pr
 
 The recommended user experience for this alternative is as follows:
 
--   When the user clears the **Enable access to this program** box in SPAD, the following UI is presented.
+- When the user clears the **Enable access to this program** box in SPAD, the following UI is presented.
 
     ![vista dialog box about hiding access to program](images/hideaccessvista.png)
 
--   When the user clicks **OK**, the **Programs and Features** item in Control Panel is displayed so that the user can uninstall the application.
--   Windows XP users should be presented with the following dialog box.
+- When the user clicks **OK**, the **Programs and Features** item in Control Panel is displayed so that the user can uninstall the application.
+- Windows XP users should be presented with the following dialog box.
 
     ![windows xp dialog box about hiding access to program](images/hideaccessxp.png)
 
--   When the Windows XP user clicks **OK**, the **Add or Remove Programs** item in Control Panel is displayed so that the user can uninstall the application.
+- When the Windows XP user clicks **OK**, the **Add or Remove Programs** item in Control Panel is displayed so that the user can uninstall the application.
 
 The following code provides a reusable implementation for the Hide Access feature as outlined previously. It can be used on Windows XP, Windows Vista, and Windows 7.
 
@@ -202,12 +202,12 @@ int _tmain(int argc, WCHAR* argv[])
 
 An application can have many entry points within the operating system. The following are recommended locations for entry points:
 
--   Desktop
--   Start menu
--   Quick Launch bar (Windows Vista and earlier only)
--   Notification area
--   Shortcut menus
--   Folder task band
+- Desktop
+- Start menu
+- Quick Launch bar (Windows Vista and earlier only)
+- Notification area
+- Shortcut menus
+- Folder task band
 
 This section focuses on these specific areas:
 

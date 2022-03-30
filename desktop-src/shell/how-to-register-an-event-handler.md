@@ -10,19 +10,19 @@ ms.date: 05/31/2018
 
 A device can potentially generate many events, and each event has the option of being handled by one of a number of different handlers. In Windows XP, the following events are defined:
 
--   DeviceArrival
--   DeviceRemoval
--   MediaArrival
--   MediaRemoval
+- DeviceArrival
+- DeviceRemoval
+- MediaArrival
+- MediaRemoval
 
 ## Instructions
 
 
 Event handlers are defined under the **EventHandlers** key. An event handler key's values are the names of each handler that the user must choose from when the event is detected. There is no data value associated with these entries. Following is an example definition for a custom event handler called **MyNewRemovalEventHandler**, which presents these handler possibilities to the user:
 
--   A handler to use if the event is detected on a device made by the company named Contoso, Inc.
--   A handler to use if the event is detected on a device made by the company named Fabrikam, Inc.
--   A handler to use in all other cases.
+- A handler to use if the event is detected on a device made by the company named Contoso, Inc.
+- A handler to use if the event is detected on a device made by the company named Fabrikam, Inc.
+- A handler to use in all other cases.
 
 ```
 HKEY_LOCAL_MACHINE

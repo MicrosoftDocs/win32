@@ -31,11 +31,11 @@ When the [**ShellExecuteEx**](/windows/desktop/api/Shellapi/nf-shellapi-shellexe
 
 The file is sought in the following locations:
 
--   The current working directory.
--   The **Windows** directory only (no subdirectories are searched).
--   The **Windows\\System32** directory.
--   Directories listed in the PATH environment variable.
--   Recommended: **HKEY\_LOCAL\_MACHINE**\\**SOFTWARE**\\**Microsoft**\\**Windows**\\**CurrentVersion**\\**App Paths**
+- The current working directory.
+- The **Windows** directory only (no subdirectories are searched).
+- The **Windows\\System32** directory.
+- Directories listed in the PATH environment variable.
+- Recommended: **HKEY\_LOCAL\_MACHINE**\\**SOFTWARE**\\**Microsoft**\\**Windows**\\**CurrentVersion**\\**App Paths**
 
 ## Registering Applications
 
@@ -47,20 +47,20 @@ In Windows 7 and later, we strongly recommend you install applications per user 
 
 The entries found under **App Paths** are used primarily for the following purposes:
 
--   To map an application's executable file name to that file's fully qualified path.
--   To pre-pend information to the PATH environment variable on a per-application, per-process basis.
+- To map an application's executable file name to that file's fully qualified path.
+- To pre-pend information to the PATH environment variable on a per-application, per-process basis.
 
 If the name of a subkey of **App Paths** matches the file name, the Shell performs two actions:
 
--   The (Default) entry is used as the file's fully qualified path.
--   The Path entry for that subkey is pre-pended to the PATH environment variable of that process. If this is not required, the Path value can be omitted.
+- The (Default) entry is used as the file's fully qualified path.
+- The Path entry for that subkey is pre-pended to the PATH environment variable of that process. If this is not required, the Path value can be omitted.
 
 Potential issues to be aware of include:
 
--   The Shell limits the length of a command line to MAX\_PATH \* 2 characters. If there are many files listed as registry entries or their paths are long, file names later in the list could be lost as the command line is truncated.
--   Some applications do not accept multiple file names in a command line.
--   Some applications that accept multiple file names do not recognize the format in which the Shell provides them. The Shell provides the parameter list as a quoted string, but some applications might require strings without quotes.
--   Not all items that can be dragged are part of the file system; for example, printers. These items do not have a standard Win32 path, so there is no way to provide a meaningful *lpParameters* value to [**ShellExecuteEx**](/windows/desktop/api/Shellapi/nf-shellapi-shellexecuteexa).
+- The Shell limits the length of a command line to MAX\_PATH \* 2 characters. If there are many files listed as registry entries or their paths are long, file names later in the list could be lost as the command line is truncated.
+- Some applications do not accept multiple file names in a command line.
+- Some applications that accept multiple file names do not recognize the format in which the Shell provides them. The Shell provides the parameter list as a quoted string, but some applications might require strings without quotes.
+- Not all items that can be dragged are part of the file system; for example, printers. These items do not have a standard Win32 path, so there is no way to provide a meaningful *lpParameters* value to [**ShellExecuteEx**](/windows/desktop/api/Shellapi/nf-shellapi-shellexecuteexa).
 
 Using the DropTarget entry avoids these potential issues by providing access to all of the clipboard formats, including [CFSTR\_SHELLIDLIST](clipboard.md) (for long file lists) and [CFSTR\_FILECONTENTS](clipboard.md) (for non-file-system objects).
 

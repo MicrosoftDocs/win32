@@ -33,10 +33,10 @@ Start another thread to begin loading application code to shorten the waiting ti
 
 Use the following hints to minimize hard disk usage:
 
--   Keep the number of files that must be on the hard disk to a minimum. They should be restricted to files that are essential to running the program or that would take an unacceptably large amount of time to read from the media.
--   In many cases, installing nonessential files on the hard disk is not necessary, but might provide benefits such as increased performance. Give the user the option of deciding how to make the trade-off between the costs and benefits of hard disk storage.
--   Provide a way to uninstall any components that were placed on the hard disk.
--   If your application caches data, give the user some control over it. Include options in the startup application such as setting a limit on the maximum amount of cached data that will be stored on the hard disk, or having the application discard any cached data when it terminates.
+- Keep the number of files that must be on the hard disk to a minimum. They should be restricted to files that are essential to running the program or that would take an unacceptably large amount of time to read from the media.
+- In many cases, installing nonessential files on the hard disk is not necessary, but might provide benefits such as increased performance. Give the user the option of deciding how to make the trade-off between the costs and benefits of hard disk storage.
+- Provide a way to uninstall any components that were placed on the hard disk.
+- If your application caches data, give the user some control over it. Include options in the startup application such as setting a limit on the maximum amount of cached data that will be stored on the hard disk, or having the application discard any cached data when it terminates.
 
 ### Step 5:
 

@@ -29,8 +29,8 @@ The following screen shot shows a custom icon that has been assigned to the .myp
 
 Create a subkey named **DefaultIcon** in one of the following two locations:
 
--   For a file-type assignment, **HKEY\_CLASSES\_ROOT**\\*.extension*
--   For an application assignment, **HKEY\_CLASSES\_ROOT**\\*ProgID*
+- For a file-type assignment, **HKEY\_CLASSES\_ROOT**\\*.extension*
+- For an application assignment, **HKEY\_CLASSES\_ROOT**\\*ProgID*
 
 ### Step 2:
 

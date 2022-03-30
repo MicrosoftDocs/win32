@@ -17,11 +17,11 @@ The Shell API provides functions that you can use to manage networked printers. 
 
 You can manage printers on a system with the [**SHInvokePrinterCommand**](/windows/desktop/api/Shellapi/nf-shellapi-shinvokeprintercommanda) function. This function allows you to:
 
--   Install printers.
--   Open printers.
--   Get printer properties.
--   Create printer links.
--   Print a test page.
+- Install printers.
+- Open printers.
+- Get printer properties.
+- Create printer links.
+- Print a test page.
 
 ## Printing Files with ShellExecuteEx
 

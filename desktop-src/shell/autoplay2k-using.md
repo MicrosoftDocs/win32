@@ -16,11 +16,11 @@ topic_type:
 
 When the Shell detects the insertion of new media or the attachment of a hot-plug device, the contents of the device or media are determined. AutoPlay, depending on its current settings, does one of the following.
 
--   Plays the content automatically.
--   Displays a dialog box prompting the user to choose a default handler for a single content type.
--   Presents, in the case of mixed content, a list of available handler applications to launch. The chosen handler then automatically plays its associated content type.
--   Displays a standard folder view of the files.
--   Does nothing if, earlier, the user had chosen **Take no action** for that content type as well as specified **Always do the selected action**.
+- Plays the content automatically.
+- Displays a dialog box prompting the user to choose a default handler for a single content type.
+- Presents, in the case of mixed content, a list of available handler applications to launch. The chosen handler then automatically plays its associated content type.
+- Displays a standard folder view of the files.
+- Does nothing if, earlier, the user had chosen **Take no action** for that content type as well as specified **Always do the selected action**.
 
 If the contents do not meet the criteria for AutoPlay, the event is then passed to Windows Image Acquisition (WIA).
 
@@ -62,9 +62,9 @@ AutoPlay searches for media four directory levels below the root directory to fi
 
 AutoPlay defines three main content categories.
 
--   Pictures
--   Music
--   Video
+- Pictures
+- Music
+- Video
 
 A medium is considered to contain a single content type if all of the files on the medium fall into only one of these three categories. Note that this does not mean that the files must be of the same *file* type; .jpg, .gif, and .bmp are different file types, but one content type (pictures).
 
@@ -136,9 +136,9 @@ For examples of user prompts, see [AutoPlay User Interfaces](#autoplay-user-inte
 
 There are three possible user interfaces.
 
--   A dialog box that prompts the user to enter an action for a single content type
--   A dialog box that prompts the user to enter an action for mixed content types
--   A property page
+- A dialog box that prompts the user to enter an action for a single content type
+- A dialog box that prompts the user to enter an action for mixed content types
+- A property page
 
 ### Single Content Type Dialog Box
 
@@ -148,9 +148,9 @@ A dialog box similar to the following is displayed when any supported media not 
 
 Users can do one of the following.
 
--   Choose an action from the list of registered applications.
--   List the files on the medium in a normal folder view.
--   Take no action.
+- Choose an action from the list of registered applications.
+- List the files on the medium in a normal folder view.
+- Take no action.
 
 A user can also save a choice as the default action for this medium by clicking the **Always do the selected action** box. Once this choice is made, the dialog is not shown again. However, in Windows XP Service Pack 1 (SP1), if a new application that can handle a particular media type is added to the computer, the dialog is once again presented to the user, giving them the opportunity to select the new application as the default AutoPlay action. Applications can also set themselves as the default selection when they are installed.
 

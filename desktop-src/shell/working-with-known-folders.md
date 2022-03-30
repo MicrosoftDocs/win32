@@ -23,23 +23,23 @@ There are two Known Folder interfaces: [**IKnownFolder**](/windows/desktop/api/s
 
 [**IKnownFolderManager**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iknownfoldermanager) provides many of the more general functions in regard to these folders. Its methods allow you to:
 
--   Retrieve an [**IKnownFolder**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iknownfolder) based on either that folder's [**KNOWNFOLDERID**](knownfolderid.md), its canonical name, its path expressed as a string, or its path expressed as an IDList.
--   Convert a CSIDL to its [**KNOWNFOLDERID**](knownfolderid.md) equivalent or convert a **KNOWNFOLDERID** to its legacy CSIDL equivalent.
--   Register or unregister a Known Folder with the system.
--   Retrieve all [**KNOWNFOLDERID**](knownfolderid.md) values registered on that system.
--   Redirect a Known Folder to a new location.
+- Retrieve an [**IKnownFolder**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iknownfolder) based on either that folder's [**KNOWNFOLDERID**](knownfolderid.md), its canonical name, its path expressed as a string, or its path expressed as an IDList.
+- Convert a CSIDL to its [**KNOWNFOLDERID**](knownfolderid.md) equivalent or convert a **KNOWNFOLDERID** to its legacy CSIDL equivalent.
+- Register or unregister a Known Folder with the system.
+- Retrieve all [**KNOWNFOLDERID**](knownfolderid.md) values registered on that system.
+- Redirect a Known Folder to a new location.
 
 [**IKnownFolder**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iknownfolder) provides a method that allows a folder to redirect itself by providing a new path. Its other methods get information about a specific Known Folder, including:
 
--   The category of the folder: virtual, fixed, common, or per-user.
--   The type of the folder, such as compressed, documents, pictures, or user files.
--   The [**KNOWNFOLDERID**](knownfolderid.md) of the folder.
--   The full path of the folder as an IDList or as a string. Also its relative path to a parent folder.
--   The canonical name of the folder.
--   The tooltip displayed for the folder.
--   The icon displayed for the folder.
--   A description of the folder that explains its purpose and use.
--   Whether the folder is capable of being redirected.
+- The category of the folder: virtual, fixed, common, or per-user.
+- The type of the folder, such as compressed, documents, pictures, or user files.
+- The [**KNOWNFOLDERID**](knownfolderid.md) of the folder.
+- The full path of the folder as an IDList or as a string. Also its relative path to a parent folder.
+- The canonical name of the folder.
+- The tooltip displayed for the folder.
+- The icon displayed for the folder.
+- A description of the folder that explains its purpose and use.
+- Whether the folder is capable of being redirected.
 
 [**IKnownFolder**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iknownfolder) also provides a method to retrieve an [**IShellItem**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem) based on the folder. That allows you to bind the folder to a handler, compare two folders, and retrieve the folder's attributes, display name, and parent folder.
 

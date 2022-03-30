@@ -54,8 +54,8 @@ Many of the Shell objects became available in [version 4.71](versions.md) of the
 
 To instantiate the Shell objects in Visual Basic applications with early binding, add references to the following libraries in your project:
 
--   Microsoft Internet Controls (SHDocVw)
--   Microsoft Shell Controls and Automation (Shell32)
+- Microsoft Internet Controls (SHDocVw)
+- Microsoft Shell Controls and Automation (Shell32)
 
 ### Late Binding
 
@@ -178,10 +178,10 @@ The following table lists each Shell object and its respective CLASSID.
 
 The [**Shell**](shell.md) object represents the objects in the Shell. You can use the methods exposed by the Shell object to:
 
--   Open, explore, and browse for folders.
--   Minimize, restore, cascade, or tile open windows.
--   Launch Control Panel applications.
--   Display system dialog boxes.
+- Open, explore, and browse for folders.
+- Minimize, restore, cascade, or tile open windows.
+- Launch Control Panel applications.
+- Display system dialog boxes.
 
 Users are perhaps most familiar with the commands they access from the **Start** menu and the taskbar's shortcut menu. The taskbar's shortcut menu appears when users right-click the taskbar. The following HTML Application (HTA) produces a start page with buttons that implement many of the [**Shell**](shell.md) object's methods. Some of these methods implement features on the **Start** menu and the taskbar's shortcut menu.
 
@@ -265,9 +265,9 @@ As an application, an HTA runs under a different security model than a webpage. 
 
 The [**Folder**](folder.md) object represents a Shell folder. You can use the methods exposed by the Folder object to:
 
--   Get information about a folder.
--   Create subfolders.
--   Copy and move file objects into the folder.
+- Get information about a folder.
+- Create subfolders.
+- Copy and move file objects into the folder.
 
 The [**FolderItem**](folderitem.md) object represents an item in a Shell folder. Its properties enable you to retrieve information about the item. You can use the methods exposed by this object to run an item's verbs, or to retrieve information about an item's [**FolderItemVerbs**](folderitemverbs.md) object.
 

@@ -18,11 +18,11 @@ Windows Vista introduces new storage scenarios and a new user profile namespace
 
 The Known Folder system provides these advantages:
 
--   Independent software vendors (ISVs) can extend the set of Known Folder IDs with their own. They can define folders, give them IDs, and register them with the system. CSIDL values could not be extended.
--   All Known Folders on a system can be enumerated. No API provided this functionality for CSIDL values. See [**IKnownFolderManager::GetFolderIds**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iknownfoldermanager-getfolderids) for more information.
--   A known folder added by an ISV can add custom properties that allow it to explain its purpose and intended use.
--   Many known folders can be redirected to new locations, including network locations. Under the CSIDL system, only the **My Documents** folder could be redirected.
--   Known folders can have custom handlers for use during creation or deletion.
+- Independent software vendors (ISVs) can extend the set of Known Folder IDs with their own. They can define folders, give them IDs, and register them with the system. CSIDL values could not be extended.
+- All Known Folders on a system can be enumerated. No API provided this functionality for CSIDL values. See [**IKnownFolderManager::GetFolderIds**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iknownfoldermanager-getfolderids) for more information.
+- A known folder added by an ISV can add custom properties that allow it to explain its purpose and intended use.
+- Many known folders can be redirected to new locations, including network locations. Under the CSIDL system, only the **My Documents** folder could be redirected.
+- Known folders can have custom handlers for use during creation or deletion.
 
 The CSIDL system and APIs that make use of CSIDL values are still supported for compatibility. However, it is not recommended to use them in any new development.
 

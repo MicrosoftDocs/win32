@@ -18,11 +18,11 @@ This quickstart shows how to raise a toast notification from a desktop app.
 
 ## Prerequisites
 
--   Libraries
-    -   C++: Runtime.object.lib
-    -   C\#: Windows.Winmd
--   A shortcut to your app, with a [System.AppUserModel.ID](../properties/props-system-appusermodel-id.md), must be installed to the Start screen. Note, however, that it does not need to be pinned to the Start screen. For more information, see [How to enable desktop toast notifications through an AppUserModelID](enable-desktop-toast-with-appusermodelid.md).
--   A version of Microsoft Visual Studio that supports at least Windows 8
+- Libraries
+    - C++: Runtime.object.lib
+    - C\#: Windows.Winmd
+- A shortcut to your app, with a [System.AppUserModel.ID](../properties/props-system-appusermodel-id.md), must be installed to the Start screen. Note, however, that it does not need to be pinned to the Start screen. For more information, see [How to enable desktop toast notifications through an AppUserModelID](enable-desktop-toast-with-appusermodelid.md).
+- A version of Microsoft Visual Studio that supports at least Windows 8
 
 ## Instructions
 

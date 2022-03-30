@@ -180,8 +180,8 @@ The *lParam* parameter of [**WM\_HELP**](wm-help.md) contains the address of a [
 
 When calling the [**WinHelp**](/windows/desktop/api/Winuser/nf-winuser-winhelpa) function, processing [**WM\_CONTEXTMENU**](../menurc/wm-contextmenu.md) is similar to processing [**WM\_HELP**](wm-help.md) with these two exceptions:
 
--   You pass the *wParam* parameter from [**WM\_CONTEXTMENU**](../menurc/wm-contextmenu.md), which is the handle to the control that sent the message.
--   You specify the **HELP\_CONTEXTMENU** command instead of **HELP\_WM\_HELP**.
+- You pass the *wParam* parameter from [**WM\_CONTEXTMENU**](../menurc/wm-contextmenu.md), which is the handle to the control that sent the message.
+- You specify the **HELP\_CONTEXTMENU** command instead of **HELP\_WM\_HELP**.
 
 The **HELP\_CONTEXTMENU** command causes Windows Help to display a menu before it displays the help topic. The menu is system-defined. It allows the user to display help for the control or to display the **Help Topics** dialog box.
 

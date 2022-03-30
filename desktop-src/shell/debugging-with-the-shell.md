@@ -27,11 +27,11 @@ To debug your extension, you need to run the Shell from the debugger. Follow the
 1.  Load the extension's project into the debugger, but do not run it.
 2.  Shut down the Shell.
 
-    -   For Windows Vista and later:
+    - For Windows Vista and later:
         1.  Display the **Start** menu.
         2.  Press CTRL+SHIFT and right-click on the background of the right half of the **Start** menu.
         3.  From the menu that appears, choose **Exit Explorer**.
-    -   For Windows XP:
+    - For Windows XP:
         1.  From the **Start** menu, choose **Shut down**.
         2.  Press CTRL+ALT+SHIFT, and click **No** in the **Shut Down Windows** dialog box.
 

@@ -30,15 +30,15 @@ If an application uses an explicit AppUserModelID, it must also assign the same 
 
 The following items describe common scenarios that require an explicit AppUserModelID. They also point out cases where multiple explicit AppUserModelIDs should be used.
 
--   A single executable file with a UI with multiple modes that appear to the user as separate applications should assign different AppUserModelIDs to each mode. For instance, a portion of an application that users see as an independent experience that they can pin to and launch from the taskbar separately from the rest of the application should have its own AppUserModelID, separate from the main experience.
--   Multiple shortcuts with different arguments that all lead to what the user sees as the same application should use one AppUserModelID for all of the shortcuts. For example, Windows Internet Explorer has different shortcuts for different modes (such as launching without add-ons) but they should all appear to the user as a single Internet Explorer instance.
--   An executable that acts as a host process and runs target content as an application must [register as a host application](#registering-an-application-as-a-host-process), after which it can assign different AppUserModelIDs to each perceived experience that it hosts. Alternately, the host process can allow the hosted program to set its AppUserModelIDs. In either case, the host process must keep a record of the source of the AppUserModelIDs, either itself or the hosted application. In this case, there is no primary user experience of the host process without the target content. Examples are Windows Remote Applications Integrated Locally (RAIL) applications, the Java Runtime, RunDLL32.exe, or DLLHost.exe.
+- A single executable file with a UI with multiple modes that appear to the user as separate applications should assign different AppUserModelIDs to each mode. For instance, a portion of an application that users see as an independent experience that they can pin to and launch from the taskbar separately from the rest of the application should have its own AppUserModelID, separate from the main experience.
+- Multiple shortcuts with different arguments that all lead to what the user sees as the same application should use one AppUserModelID for all of the shortcuts. For example, Windows Internet Explorer has different shortcuts for different modes (such as launching without add-ons) but they should all appear to the user as a single Internet Explorer instance.
+- An executable that acts as a host process and runs target content as an application must [register as a host application](#registering-an-application-as-a-host-process), after which it can assign different AppUserModelIDs to each perceived experience that it hosts. Alternately, the host process can allow the hosted program to set its AppUserModelIDs. In either case, the host process must keep a record of the source of the AppUserModelIDs, either itself or the hosted application. In this case, there is no primary user experience of the host process without the target content. Examples are Windows Remote Applications Integrated Locally (RAIL) applications, the Java Runtime, RunDLL32.exe, or DLLHost.exe.
 
     In the case of existing hosted applications, the system attempts to identify individual experiences, but new applications should use explicit AppUserModelIDs to guarantee the intended user experience.
 
--   Cooperative or chained processes that to the user are part of the same application should have the same AppUserModelID applied to each process. Examples include games with a launcher process (chained) and Microsoft Windows Media Player, which has a first-run/setup experience running in one process and the main application running in another process (cooperative).
--   A Shell namespace extension that acts as a separate application for more than browsing and managing content in Windows Explorer should assign an AppUserModelID in its folder properties. An example is the Control Panel.
--   In a virtualization environment such as a deployment framework, the virtualization environment should assign different AppUserModelIDs to each application that it manages. In these cases, an application launcher uses an intermediary process to set up the environment and then hands off the operation to a different process to run the application. Note that this causes the system to be unable to relate the running target process back to the shortcut because the shortcut points to the intermediary process.
+- Cooperative or chained processes that to the user are part of the same application should have the same AppUserModelID applied to each process. Examples include games with a launcher process (chained) and Microsoft Windows Media Player, which has a first-run/setup experience running in one process and the main application running in another process (cooperative).
+- A Shell namespace extension that acts as a separate application for more than browsing and managing content in Windows Explorer should assign an AppUserModelID in its folder properties. An example is the Control Panel.
+- In a virtualization environment such as a deployment framework, the virtualization environment should assign different AppUserModelIDs to each application that it manages. In these cases, an application launcher uses an intermediary process to set up the environment and then hands off the operation to a different process to run the application. Note that this causes the system to be unable to relate the running target process back to the shortcut because the shortcut points to the intermediary process.
 
     If any application has multiple windows, shortcuts, or processes, that application's assigned AppUserModelID should also be applied to each of those pieces by the virtualization environment.
 
@@ -56,13 +56,13 @@ An application must provide its AppUserModelID in the following form. It can hav
 
 When an application uses one or more explicit AppUserModelIDs, it should apply those AppUserModelIDs in the following locations and situations:
 
--   In the [System.AppUserModel.ID](../properties/props-system-appusermodel-id.md) property of the application's shortcut file. A shortcut (as an [**IShellLink**](/windows/desktop/api/Shobjidl_core/nn-shobjidl_core-ishelllinka), CLSID\_ShellLink, or a .lnk file) supports properties through [**IPropertyStore**](/windows/win32/api/propsys/nn-propsys-ipropertystore) and other property-setting mechanisms used throughout the Shell. This allows the taskbar to identify the proper shortcut to pin and ensures that windows belonging to the process are appropriately associated with that taskbar button.
+- In the [System.AppUserModel.ID](../properties/props-system-appusermodel-id.md) property of the application's shortcut file. A shortcut (as an [**IShellLink**](/windows/desktop/api/Shobjidl_core/nn-shobjidl_core-ishelllinka), CLSID\_ShellLink, or a .lnk file) supports properties through [**IPropertyStore**](/windows/win32/api/propsys/nn-propsys-ipropertystore) and other property-setting mechanisms used throughout the Shell. This allows the taskbar to identify the proper shortcut to pin and ensures that windows belonging to the process are appropriately associated with that taskbar button.
     > [!Note]  
     > The [System.AppUserModel.ID](../properties/props-system-appusermodel-id.md) property should be applied to a shortcut when that shortcut is created. When using the Microsoft Windows Installer (MSI) to install the application, the [MsiShortcutProperty](../msi/msishortcutproperty-table.md) table allows the AppUserModelID to be applied to the shortcut when it is created during installation.
 
      
 
--   As a property of any of the application's running windows. This can be set in one of two ways:
+- As a property of any of the application's running windows. This can be set in one of two ways:
 
     1.  If different windows owned by one process require different AppUserModelIDs to control taskbar grouping, use [**SHGetPropertyStoreForWindow**](/windows/win32/api/shellapi/nf-shellapi-shgetpropertystoreforwindow)) to retrieve the window's property store and set the AppUserModelID as a window property.
     2.  If all windows in the process use the same AppUserModelID, set the AppUserModelID on the process though [**SetCurrentProcessExplicitAppUserModelID**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-setcurrentprocessexplicitappusermodelid). An application must call **SetCurrentProcessExplicitAppUserModelID** to set its AppUserModelID during an application's initial startup routine before the application presents any UI, makes any manipulation of its Jump Lists, or makes (or causes the system to make) any call to [**SHAddToRecentDocs**](/windows/desktop/api/shlobj_core/nf-shlobj_core-shaddtorecentdocs).
@@ -82,18 +82,18 @@ When an application uses one or more explicit AppUserModelIDs, it should apply t
 
     A window-level explicit AppUserModelID can also use the [System.AppUserModel.PreventPinning](../properties/props-system-appusermodel-preventpinning.md) property to specify that it should not be available for pinning or relaunching.
 
--   In a call to customize or update ([**ICustomDestinationList**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icustomdestinationlist)), retrieve ([**IApplicationDocumentLists**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iapplicationdocumentlists)), or clear ([**IApplicationDestinations**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iapplicationdestinations)) the application's Jump List.
--   In file association registration (through its [ProgID](fa-progids.md)) if the application uses the system's automatically generated **Recent** or **Frequent** destination lists. This association information is referenced by [**SHAddToRecentDocs**](/windows/desktop/api/shlobj_core/nf-shlobj_core-shaddtorecentdocs). This information is also used when adding [**IShellItem**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem) destinations to custom Jump Lists through [**ICustomDestinationList::AppendCategory**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icustomdestinationlist-appendcategory).
--   In any call the application makes directly to [**SHAddToRecentDocs**](/windows/desktop/api/shlobj_core/nf-shlobj_core-shaddtorecentdocs). If the application depends on the common file dialog to make calls to **SHAddToRecentDocs** on its behalf, those calls can deduce the explicit AppUserModelID only if the AppUserModelID is set for the entire process. If the application sets AppUserModelIDs on its windows instead of on the process, the application must make all calls to **SHAddToRecentDocs** itself, with its explicit AppUserModelID, as well as preventing the common file dialog from making its own calls. This must be done any time an item is opened, to ensure the **Recent** or **Frequent** sections of the application's Jump List are accurate.
+- In a call to customize or update ([**ICustomDestinationList**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icustomdestinationlist)), retrieve ([**IApplicationDocumentLists**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iapplicationdocumentlists)), or clear ([**IApplicationDestinations**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iapplicationdestinations)) the application's Jump List.
+- In file association registration (through its [ProgID](fa-progids.md)) if the application uses the system's automatically generated **Recent** or **Frequent** destination lists. This association information is referenced by [**SHAddToRecentDocs**](/windows/desktop/api/shlobj_core/nf-shlobj_core-shaddtorecentdocs). This information is also used when adding [**IShellItem**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem) destinations to custom Jump Lists through [**ICustomDestinationList::AppendCategory**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icustomdestinationlist-appendcategory).
+- In any call the application makes directly to [**SHAddToRecentDocs**](/windows/desktop/api/shlobj_core/nf-shlobj_core-shaddtorecentdocs). If the application depends on the common file dialog to make calls to **SHAddToRecentDocs** on its behalf, those calls can deduce the explicit AppUserModelID only if the AppUserModelID is set for the entire process. If the application sets AppUserModelIDs on its windows instead of on the process, the application must make all calls to **SHAddToRecentDocs** itself, with its explicit AppUserModelID, as well as preventing the common file dialog from making its own calls. This must be done any time an item is opened, to ensure the **Recent** or **Frequent** sections of the application's Jump List are accurate.
 
 The following items describe common scenarios and where to apply explicit AppUserModelIDs in those scenarios.
 
--   When a single process contains multiple applications, use [**SHGetPropertyStoreForWindow**](/windows/win32/api/shellapi/nf-shellapi-shgetpropertystoreforwindow) to retrieve the window's property store and set the AppUserModelID as a window property.
--   When an application uses multiple processes, apply the AppUserModelID to each process. Whether you use the same AppUserModelID on each process depends on whether you want each process to appear as part of the main application or as individual entities.
--   To separate certain windows from a set in the same process, use the window's property store to apply a single AppUserModelID to those windows you want to separate, and then apply a different AppUserModelID to the process. Any window in that process that was not explicitly labeled with the window-level AppUserModelID inherits the AppUserModelID of the process.
--   If a file type is associated with an application, assign the AppUserModelID in the file type's [ProgID](fa-progids.md) registration. If a single executable file is launched in different modes that appear to the user as distinct applications, a separate AppUserModelID is required for each mode. In that case, there must be multiple ProgID registrations for the file type, each with a different AppUserModelID.
--   When there are multiple shortcut locations from which a user can launch an application (in the **Start** menu, on the desktop, or elsewhere) retrieve the shortcut's property store to apply a single AppUserModelID to all of the shortcuts as shortcut properties.
--   When an explicit call is made to [**SHAddToRecentDocs**](/windows/desktop/api/shlobj_core/nf-shlobj_core-shaddtorecentdocs) by an application, use the AppUserModelID in the call. When the common file dialog is used to open or save files, **SHAddToRecentDocs** is called by the dialog on behalf of the application. That call can infer the explicit AppUserModelID from the process. However, if an explicit AppUserModelID is applied as a window property, the common file dialog cannot determine the correct AppUserModelID. In that case, the application itself must explicitly call **SHAddToRecentDocs** and provide it with the correct AppUserModelID. Additionally, the application must prevent the common file dialog from calling **SHAddToRecentDocs** on its behalf by setting the FOS\_DONTADDTORECENT flag in the **GetOptions** method of [**IFileOpenDialog**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-ifileopendialog) or [**IFileSaveDialog**](/windows/desktop/api/Shobjidl_core/nn-shobjidl_core-ifilesavedialog).
+- When a single process contains multiple applications, use [**SHGetPropertyStoreForWindow**](/windows/win32/api/shellapi/nf-shellapi-shgetpropertystoreforwindow) to retrieve the window's property store and set the AppUserModelID as a window property.
+- When an application uses multiple processes, apply the AppUserModelID to each process. Whether you use the same AppUserModelID on each process depends on whether you want each process to appear as part of the main application or as individual entities.
+- To separate certain windows from a set in the same process, use the window's property store to apply a single AppUserModelID to those windows you want to separate, and then apply a different AppUserModelID to the process. Any window in that process that was not explicitly labeled with the window-level AppUserModelID inherits the AppUserModelID of the process.
+- If a file type is associated with an application, assign the AppUserModelID in the file type's [ProgID](fa-progids.md) registration. If a single executable file is launched in different modes that appear to the user as distinct applications, a separate AppUserModelID is required for each mode. In that case, there must be multiple ProgID registrations for the file type, each with a different AppUserModelID.
+- When there are multiple shortcut locations from which a user can launch an application (in the **Start** menu, on the desktop, or elsewhere) retrieve the shortcut's property store to apply a single AppUserModelID to all of the shortcuts as shortcut properties.
+- When an explicit call is made to [**SHAddToRecentDocs**](/windows/desktop/api/shlobj_core/nf-shlobj_core-shaddtorecentdocs) by an application, use the AppUserModelID in the call. When the common file dialog is used to open or save files, **SHAddToRecentDocs** is called by the dialog on behalf of the application. That call can infer the explicit AppUserModelID from the process. However, if an explicit AppUserModelID is applied as a window property, the common file dialog cannot determine the correct AppUserModelID. In that case, the application itself must explicitly call **SHAddToRecentDocs** and provide it with the correct AppUserModelID. Additionally, the application must prevent the common file dialog from calling **SHAddToRecentDocs** on its behalf by setting the FOS\_DONTADDTORECENT flag in the **GetOptions** method of [**IFileOpenDialog**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-ifileopendialog) or [**IFileSaveDialog**](/windows/desktop/api/Shobjidl_core/nn-shobjidl_core-ifilesavedialog).
 
 ## Registering an Application as a Host Process
 
@@ -157,42 +157,42 @@ Be aware that certain executable files as well as shortcuts that contain certain
 
 If any of the following strings, regardless of case, are included in the shortcut name, the program is not pinnable and is not displayed in the most frequently used list (not applicable to Windows 10):
 
--   Documentation
--   Help
--   Install
--   More Info
--   Read me
--   Read First
--   Readme
--   Remove
--   Setup
--   Support
--   What's New
+- Documentation
+- Help
+- Install
+- More Info
+- Read me
+- Read First
+- Readme
+- Remove
+- Setup
+- Support
+- What's New
 
 The following list of programs are not pinnable and are excluded from the most frequently used list.
 
--   Applaunch.exe
--   Control.exe
--   Dfsvc.exe
--   Dllhost.exe
--   Guestmodemsg.exe
--   Hh.exe
--   Install.exe
--   Isuninst.exe
--   Lnkstub.exe
--   Mmc.exe
--   Mshta.exe
--   Msiexec.exe
--   Msoobe.exe
--   Rundll32.exe
--   Setup.exe
--   St5unst.exe
--   Unwise.exe
--   Unwise32.exe
--   Werfault.exe
--   Winhlp32.exe
--   Wlrmdr.exe
--   Wuapp.exe
+- Applaunch.exe
+- Control.exe
+- Dfsvc.exe
+- Dllhost.exe
+- Guestmodemsg.exe
+- Hh.exe
+- Install.exe
+- Isuninst.exe
+- Lnkstub.exe
+- Mmc.exe
+- Mshta.exe
+- Msiexec.exe
+- Msoobe.exe
+- Rundll32.exe
+- Setup.exe
+- St5unst.exe
+- Unwise.exe
+- Unwise32.exe
+- Werfault.exe
+- Winhlp32.exe
+- Wlrmdr.exe
+- Wuapp.exe
 
 The preceding lists are stored in the following registry values.
 

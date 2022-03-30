@@ -13,19 +13,19 @@ Many Control Panel applications display a Properties property sheet to enable us
 
 Property sheet handlers for Control Panel applications are similar to those for file types, with two primary exceptions:
 
--   They are called by a Control Panel application, not the Shell.
--   They are registered differently.
+- They are called by a Control Panel application, not the Shell.
+- They are registered differently.
 
 ## What you need to know
 
 ### Technologies
 
--   Shell
+- Shell
 
 ### Prerequisites
 
--   An understanding of the Control Panel
--   An understanding of shortcut menus
+- An understanding of the Control Panel
+- An understanding of shortcut menus
 
 ## Instructions
 

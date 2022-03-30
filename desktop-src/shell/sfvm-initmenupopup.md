@@ -55,9 +55,9 @@ The menu's handle.
 
 The system folder view object sends this message when a menu is selected, but before it is displayed. Process this message if, for instance, you need to enable or disable menu commands. The popup menu can be:
 
--   The File, Edit, or View menu.
--   A top-level menu defined by the client.
--   A client-defined submenu.
+- The File, Edit, or View menu.
+- A top-level menu defined by the client.
+- A client-defined submenu.
 
 ## Requirements
 

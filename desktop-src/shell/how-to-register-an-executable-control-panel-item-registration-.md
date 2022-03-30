@@ -52,15 +52,15 @@ HKEY_CLASSES_ROOT
          System.Software.TasksFileUrl = %ProgramFiles%\MyCorp\MyApp\MyTaskLinks.xml
 ```
 
--   **Default**. REG\_SZ. The display name for the Control Panel item.
--   **LocalizedString**. Optional. REG\_SZ or REG\_EXPAND\_SZ. The module name and string table ID of the localized name of the Control Panel item. The format is an "at" sign (@) followed by the name of the .exe or .dll that contains the Multilingual User Interface (MUI) string table. Environment variables can be used as a substitute for a part of the path. The path and file name is followed by a comma (,) and a hyphen (-), followed by the ID in the string table.
+- **Default**. REG\_SZ. The display name for the Control Panel item.
+- **LocalizedString**. Optional. REG\_SZ or REG\_EXPAND\_SZ. The module name and string table ID of the localized name of the Control Panel item. The format is an "at" sign (@) followed by the name of the .exe or .dll that contains the Multilingual User Interface (MUI) string table. Environment variables can be used as a substitute for a part of the path. The path and file name is followed by a comma (,) and a hyphen (-), followed by the ID in the string table.
 
     If the module does not have a string table, then this entry can simply be the display name string. If you use only the display name string rather than a string table, the name does not adjust to the current display language.
 
--   **InfoTip**. REG\_SZ or REG\_EXPAND\_SZ. A description of the Control Panel item. This information is shown in an InfoTip that is displayed when the mouse hovers over the item's icon. The syntax is the same as that used for LocalizedString, including the option of simply providing a string rather than a string table reference.
--   **System.ApplicationName**. REG\_SZ. The canonical name of the item. The command of form `control.exe /name System.ApplicationName` opens the item; for example, `control.exe /name MyCorporation.MySettings`. See [Executing Control Panel Items](executing-control-panel-items.md) for more information on the use of Control.exe.
--   **System.ControlPanel.Category**. REG\_SZ. A value that declares the Control Panel categories where the item appears. Multiple categories are separated by commas. In the case of the example above, the entry specifies that the **My Settings** item should appear in both the **Appearance and Personalization** and **Programs** categories. See [Assigning Control Panel Categories](assigning-control-panel-categories.md) for possible category values.
--   **System.Software.TasksFileUrl**. REG\_SZ or REG\_EXPAND\_SZ. The path of the XML file that defines [task links](creating-searchable-task-links.md). This can be a direct file path as shown in the example, or an embedded resource specified as a module name and resource ID such as "%ProgramFiles%\\MyCorp\\MyApp\\MyApp.exe,-31".
+- **InfoTip**. REG\_SZ or REG\_EXPAND\_SZ. A description of the Control Panel item. This information is shown in an InfoTip that is displayed when the mouse hovers over the item's icon. The syntax is the same as that used for LocalizedString, including the option of simply providing a string rather than a string table reference.
+- **System.ApplicationName**. REG\_SZ. The canonical name of the item. The command of form `control.exe /name System.ApplicationName` opens the item; for example, `control.exe /name MyCorporation.MySettings`. See [Executing Control Panel Items](executing-control-panel-items.md) for more information on the use of Control.exe.
+- **System.ControlPanel.Category**. REG\_SZ. A value that declares the Control Panel categories where the item appears. Multiple categories are separated by commas. In the case of the example above, the entry specifies that the **My Settings** item should appear in both the **Appearance and Personalization** and **Programs** categories. See [Assigning Control Panel Categories](assigning-control-panel-categories.md) for possible category values.
+- **System.Software.TasksFileUrl**. REG\_SZ or REG\_EXPAND\_SZ. The path of the XML file that defines [task links](creating-searchable-task-links.md). This can be a direct file path as shown in the example, or an embedded resource specified as a module name and resource ID such as "%ProgramFiles%\\MyCorp\\MyApp\\MyApp.exe,-31".
 
 ### Step 4:
 

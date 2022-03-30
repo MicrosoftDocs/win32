@@ -28,23 +28,23 @@ Perceived types, defined as PerceivedType values, are similar to file types exce
 
 The default perceived types are as follows:
 
--   Folder
--   Text
--   Image
--   Audio
--   Video
--   Compressed
--   Document
--   System
--   Application
--   Gamemedia
--   Contacts
+- Folder
+- Text
+- Image
+- Audio
+- Video
+- Compressed
+- Document
+- System
+- Application
+- Gamemedia
+- Contacts
 
 ## Additional Resources
 
--   For information about how to register perceived types, see [Application Registration](app-registration.md).
--   For a list of default perceived types, see the [**PERCEIVED**](/windows/win32/api/shtypes/ne-shtypes-perceived) enumeration.
--   To retrieves a file's perceived type based on its file name extension, see the [**AssocGetPerceivedType**](/windows/desktop/api/Shlwapi/nf-shlwapi-assocgetperceivedtype) function.
+- For information about how to register perceived types, see [Application Registration](app-registration.md).
+- For a list of default perceived types, see the [**PERCEIVED**](/windows/win32/api/shtypes/ne-shtypes-perceived) enumeration.
+- To retrieves a file's perceived type based on its file name extension, see the [**AssocGetPerceivedType**](/windows/desktop/api/Shlwapi/nf-shlwapi-assocgetperceivedtype) function.
 
 ## Related topics
 

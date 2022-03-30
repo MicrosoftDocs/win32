@@ -30,10 +30,10 @@ Additional information can be found on the following topics:
 
 Public file types are also known as popular or contentious types because competing applications might want to be associated with these file types. Characteristics of public file types include:
 
--   They are typically defined by standards bodies, and/or are promoted by their defining organizations as interchange formats.
--   They are often exchanged between computers and users for diverse purposes.
--   They need to be supported on many different platforms.
--   Applications from multiple vendors are likely to handle them.
+- They are typically defined by standards bodies, and/or are promoted by their defining organizations as interchange formats.
+- They are often exchanged between computers and users for diverse purposes.
+- They need to be supported on many different platforms.
+- Applications from multiple vendors are likely to handle them.
 
 Some examples of file types that are considered public are the image file types .png, .gif, .jpg, and .bmp, and the audio types .wav, .mp3, and .au.
 
@@ -101,11 +101,11 @@ HKEY_CLASSES_ROOT
 
 Important considerations about file types include:
 
--   The **HKEY\_CLASSES\_ROOT** subtree is a view formed by merging **HKEY\_CURRENT\_USER**\\**Software**\\**Classes** and **HKEY\_LOCAL\_MACHINE**\\**Software**\\**Classes**
--   In general, **HKEY\_CLASSES\_ROOT** is intended to be read from but not written to. For more information, see the [HKEY\_CLASSES\_ROOT](../sysinfo/hkey-classes-root-key.md) article.
--   To register a file type globally on a particular computer, create an entry for the file type in the **HKEY\_LOCAL\_MACHINE**\\**Software**\\**Classes** subkey.
--   To make a file type registration visible to the current user only, create an entry for the file type in the **HKEY\_CURRENT\_USER**\\**Software**\\**Classes** subkey.
--   An application can provide its own implementation of a verb, such as open or play, as shown in the following registry example.
+- The **HKEY\_CLASSES\_ROOT** subtree is a view formed by merging **HKEY\_CURRENT\_USER**\\**Software**\\**Classes** and **HKEY\_LOCAL\_MACHINE**\\**Software**\\**Classes**
+- In general, **HKEY\_CLASSES\_ROOT** is intended to be read from but not written to. For more information, see the [HKEY\_CLASSES\_ROOT](../sysinfo/hkey-classes-root-key.md) article.
+- To register a file type globally on a particular computer, create an entry for the file type in the **HKEY\_LOCAL\_MACHINE**\\**Software**\\**Classes** subkey.
+- To make a file type registration visible to the current user only, create an entry for the file type in the **HKEY\_CURRENT\_USER**\\**Software**\\**Classes** subkey.
+- An application can provide its own implementation of a verb, such as open or play, as shown in the following registry example.
 
     ```
     HKEY_CLASSES_ROOT
@@ -117,8 +117,8 @@ Important considerations about file types include:
 
     Subkeys of the verb subkey include the command line and the drop target method: **command** and **DropTarget**.
 
--   When you create or change a file association, it is important to notify the system that you have made a change. Do so by calling [**SHChangeNotify**](/windows/desktop/api/shlobj_core/nf-shlobj_core-shchangenotify) and specifying the **SHCNE\_ASSOCCHANGED** event. If you do not call **SHChangeNotify**, the change may not be recognized until after the system is rebooted.
--   To retrieve registry information regarding a file association, use the [**IQueryAssociations**](/windows/win32/api/shlwapi/nn-shlwapi-iqueryassociations) interface. For a scenario that illustrates this procedure, see [File Association Sample Scenario](fa-sample-scenarios.md).
+- When you create or change a file association, it is important to notify the system that you have made a change. Do so by calling [**SHChangeNotify**](/windows/desktop/api/shlobj_core/nf-shlobj_core-shchangenotify) and specifying the **SHCNE\_ASSOCCHANGED** event. If you do not call **SHChangeNotify**, the change may not be recognized until after the system is rebooted.
+- To retrieve registry information regarding a file association, use the [**IQueryAssociations**](/windows/win32/api/shlwapi/nn-shlwapi-iqueryassociations) interface. For a scenario that illustrates this procedure, see [File Association Sample Scenario](fa-sample-scenarios.md).
 
 > [!Note]  
 > Both the **App Paths** and **Applications** registry subkeys are used to register and control the behavior of the system on behalf of applications. For more detailed information about this functionality, see [Application Registration](app-registration.md).

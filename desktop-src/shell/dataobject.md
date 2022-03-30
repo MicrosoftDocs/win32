@@ -29,8 +29,8 @@ The data object is central to all Shell data transfers. It is primarily a contai
 
 Data objects are Component Object Model (COM) objects, created by the data source to transfer data to a target. They typically carry more than one item of data. There are two reasons for this practice:
 
--   While almost any type of data can be transferred with a data object, the source typically does not know what kind of data the target can accept. For instance, the data might be a portion of a formatted text document. While the target might be able to handle complex formatting information, it might also be able to accept only ANSI text. For this reason, data objects often include the same data in several different formats. The target can then extract the data in a format that it can handle.
--   Data objects can also contain auxiliary data items that are not versions of source data. This type of data item typically provides additional information about the data transfer operation. For instance, the Shell uses auxiliary data items to indicate whether a file is to be copied or moved.
+- While almost any type of data can be transferred with a data object, the source typically does not know what kind of data the target can accept. For instance, the data might be a portion of a formatted text document. While the target might be able to handle complex formatting information, it might also be able to accept only ANSI text. For this reason, data objects often include the same data in several different formats. The target can then extract the data in a format that it can handle.
+- Data objects can also contain auxiliary data items that are not versions of source data. This type of data item typically provides additional information about the data transfer operation. For instance, the Shell uses auxiliary data items to indicate whether a file is to be copied or moved.
 
 ### Clipboard Formats
 
@@ -44,9 +44,9 @@ When the drop target receives the pointer to the data object, the drop target en
 
 With simple clipboard data transfers, the data is placed in a global memory object. The address of that object is placed on the Clipboard, along with its format. The clipboard format tells the target what kind of data it will find at the associated address. While simple clipboard transfers are easy to implement:
 
--   Data objects provide a much more flexible way to transfer data.
--   Data objects are better suited for transferring large amounts of data.
--   Data objects must be used to transfer data with a drag-and-drop operation.
+- Data objects provide a much more flexible way to transfer data.
+- Data objects are better suited for transferring large amounts of data.
+- Data objects must be used to transfer data with a drag-and-drop operation.
 
 For these reasons, all Shell data transfers use data objects. With data objects, clipboard formats are not used directly. Instead, data items are identified with a generalization of the clipboard format, a [**FORMATETC**](/windows/win32/api/objidl/ns-objidl-formatetc) structure.
 
@@ -54,10 +54,10 @@ For these reasons, all Shell data transfers use data objects. With data objects,
 
 The [**FORMATETC**](/windows/win32/api/objidl/ns-objidl-formatetc) structure is an extended version of a clipboard format. As used for Shell data transfers, the **FORMATETC** structure has the following characteristics:
 
--   A data item is still identified by its clipboard format, in the **cfFormat** member.
--   Data transfer is not limited to global memory objects. The **tymed** member is used to indicate the data transfer mechanism contained in the associated [**STGMEDIUM**](/windows/win32/api/objidl/ns-objidl-ustgmedium-r1) structure. It is set to one of the [**TYMED\_XXX**](/windows/win32/api/objidl/ne-objidl-tymed) values.
--   The Shell uses the **lIndex** member with its [CFSTR\_FILECONTENTS](clipboard.md) format to allow a data object to contain more than one data item per format. For a discussion of how to use this format, see the *Using the CFSTR\_FILECONTENTS Format to Extract Data from a File* section of [Handling Shell Data Transfer Scenarios](datascenarios.md).
--   The **dwAspect** member is typically set to DVASPECT\_CONTENT. However, there are three values defined in Shlobj.h that can be used for Shell data transfer. 
+- A data item is still identified by its clipboard format, in the **cfFormat** member.
+- Data transfer is not limited to global memory objects. The **tymed** member is used to indicate the data transfer mechanism contained in the associated [**STGMEDIUM**](/windows/win32/api/objidl/ns-objidl-ustgmedium-r1) structure. It is set to one of the [**TYMED\_XXX**](/windows/win32/api/objidl/ne-objidl-tymed) values.
+- The Shell uses the **lIndex** member with its [CFSTR\_FILECONTENTS](clipboard.md) format to allow a data object to contain more than one data item per format. For a discussion of how to use this format, see the *Using the CFSTR\_FILECONTENTS Format to Extract Data from a File* section of [Handling Shell Data Transfer Scenarios](datascenarios.md).
+- The **dwAspect** member is typically set to DVASPECT\_CONTENT. However, there are three values defined in Shlobj.h that can be used for Shell data transfer. 
 
     | Value               | Description                                                                                       |
     |---------------------|---------------------------------------------------------------------------------------------------|
@@ -69,15 +69,15 @@ The [**FORMATETC**](/windows/win32/api/objidl/ns-objidl-formatetc) structure is 
 
      
 
--   The **ptd** member is not used for Shell data transfers and is normally set to **NULL**.
+- The **ptd** member is not used for Shell data transfers and is normally set to **NULL**.
 
 ### STGMEDIUM structure
 
 The [**STGMEDIUM**](/windows/win32/api/objidl/ns-objidl-ustgmedium-r1) structure provides access to the data being transferred. Three data transfer mechanisms are supported for Shell data:
 
--   A global memory object.
--   An [**IStream**](/windows/win32/api/objidl/nn-objidl-istream) interface.
--   An [**IStorage**](/windows/win32/api/objidl/nn-objidl-istorage) interface.
+- A global memory object.
+- An [**IStream**](/windows/win32/api/objidl/nn-objidl-istream) interface.
+- An [**IStorage**](/windows/win32/api/objidl/nn-objidl-istorage) interface.
 
 The **tymed** member of the [**STGMEDIUM**](/windows/win32/api/objidl/ns-objidl-ustgmedium-r1) structure is a [**TYMED\_XXX**](/windows/win32/api/objidl/ne-objidl-tymed) value that identifies the data transfer mechanism. The second member is a pointer that is used by the target to extract the data. The pointer can be one of a variety of types, depending on the **tymed** value. The three **tymed** values that are used for Shell data transfers are summarized in the following table, along with their corresponding **STGMEDIUM** member name.
 
@@ -157,10 +157,10 @@ STDAPI DataObj_SetDWORD(IDataObject *pdtobj, UINT cf, DWORD dw)
 
 [**IDataObject**](/windows/win32/api/objidl/nn-objidl-idataobject) is a data object's primary interface. It must be implemented by all data objects. It is used by both source and target for a variety of purposes, including:
 
--   Loading data into the data object.
--   Extracting data from the data object.
--   Determining what types of data are in the data object.
--   Providing feedback to the data object on outcome of the data transfer.
+- Loading data into the data object.
+- Extracting data from the data object.
+- Determining what types of data are in the data object.
+- Providing feedback to the data object on outcome of the data transfer.
 
 [**IDataObject**](/windows/win32/api/objidl/nn-objidl-idataobject) supports a number of methods. This section discusses how to implement the three most important methods for Shell data objects, [SetData](#setdata-method), [EnumFormatEtc](#enumformatetc-method), and [GetData](#getdata-method). For a discussion of the other methods, see the **IDataObject** reference.
 
@@ -213,9 +213,9 @@ When the cursor enters or leaves the target window and while it is moving over t
 
 This method is called if the mouse button or keyboard state changes while the data object is in the drag loop. It notifies the source whether the ESC key has been pressed and provides the current state of the keyboard modifier keys, such as CTRL or SHIFT. The [**QueryContinueDrag**](/windows/win32/api/oleidl/nf-oleidl-idropsource-querycontinuedrag) method's return value specifies one of three actions:
 
--   S\_OK. Continue the drag operation
--   DRAGDROP\_S\_DROP. Drop the data. The system then calls the target's [**IDropTarget::Drop**](/windows/win32/api/oleidl/nf-oleidl-idroptarget-drop) method.
--   DRAGDROP\_S\_CANCEL. Terminate the drag loop without dropping the data. This value is normally returned if the ESCAPE key was pressed.
+- S\_OK. Continue the drag operation
+- DRAGDROP\_S\_DROP. Drop the data. The system then calls the target's [**IDropTarget::Drop**](/windows/win32/api/oleidl/nf-oleidl-idroptarget-drop) method.
+- DRAGDROP\_S\_CANCEL. Terminate the drag loop without dropping the data. This value is normally returned if the ESCAPE key was pressed.
 
 For further discussion, see the [**QueryContinueDrag**](/windows/win32/api/oleidl/nf-oleidl-idropsource-querycontinuedrag) and [**DoDragDrop**](/windows/win32/api/ole2/nf-ole2-dodragdrop) references.
 
@@ -228,10 +228,10 @@ The target receives a data object when it either retrieves the data object from 
 
 For clipboard transfers, the target does not receive any notification that a data object has been placed on the Clipboard. Typically, an application is notified that an object is on the Clipboard by a user action, such as clicking the Paste button on the application's toolbar. The target then retrieves the data object's [**IDataObject**](/windows/win32/api/objidl/nn-objidl-idataobject) pointer from the Clipboard by calling [**OleGetClipboard**](/windows/win32/api/ole2/nf-ole2-olegetclipboard). For drag-and-drop data transfers, the system uses the target's [**IDropTarget**](/windows/win32/api/oleidl/nn-oleidl-idroptarget) interface to provide the target with information about the progress of the data transfer:
 
--   The system calls [**IDropTarget::DragEnter**](/windows/win32/api/oleidl/nf-oleidl-idroptarget-dragenter) when the cursor enters the target window.
--   The system periodically calls [**IDropTarget::DragOver**](/windows/win32/api/oleidl/nf-oleidl-idroptarget-dragover) as the cursor passes over the target window, to give the target the current cursor position.
--   The system calls [**IDropTarget::DragLeave**](/windows/win32/api/oleidl/nf-oleidl-idroptarget-dragleave) when the cursor leaves the target window.
--   The system calls [**IDropTarget::Drop**](/windows/win32/api/oleidl/nf-oleidl-idroptarget-drop) when the user drops the data object on the target window.
+- The system calls [**IDropTarget::DragEnter**](/windows/win32/api/oleidl/nf-oleidl-idroptarget-dragenter) when the cursor enters the target window.
+- The system periodically calls [**IDropTarget::DragOver**](/windows/win32/api/oleidl/nf-oleidl-idroptarget-dragover) as the cursor passes over the target window, to give the target the current cursor position.
+- The system calls [**IDropTarget::DragLeave**](/windows/win32/api/oleidl/nf-oleidl-idroptarget-dragleave) when the cursor leaves the target window.
+- The system calls [**IDropTarget::Drop**](/windows/win32/api/oleidl/nf-oleidl-idroptarget-drop) when the user drops the data object on the target window.
 
 For a discussion of how to implement these methods, see [**IDropTarget**](/windows/win32/api/oleidl/nn-oleidl-idroptarget).
 
@@ -241,9 +241,9 @@ When the data is dropped, [**IDropTarget::Drop**](/windows/win32/api/oleidl/nf-o
 
 Once a data object has been dropped or retrieved from the Clipboard, the target can extract the data it needs. The first step in the extraction process is typically to enumerate the formats contained by the data object:
 
--   Call [**IDataObject::EnumFormatEtc**](/windows/win32/api/objidl/nf-objidl-idataobject-enumformatetc). The data object creates a standard OLE enumeration object and returns a pointer to its [**IEnumFORMATETC**](/windows/win32/api/objidl/nn-objidl-ienumformatetc) interface.
--   Use the [**IEnumFORMATETC**](/windows/win32/api/objidl/nn-objidl-ienumformatetc) methods to enumerate the formats contained by the data object. This operation usually retrieves one [**FORMATETC**](/windows/win32/api/objidl/ns-objidl-formatetc) structure for each format that the object contains. However, the enumeration object normally returns only a single **FORMATETC** structure for the [CFSTR\_FILECONTENTS](clipboard.md) format, regardless of how many such formats are contained by the data object.
--   Select one or more formats to be extracted, and store their [**FORMATETC**](/windows/win32/api/objidl/ns-objidl-formatetc) structures.
+- Call [**IDataObject::EnumFormatEtc**](/windows/win32/api/objidl/nf-objidl-idataobject-enumformatetc). The data object creates a standard OLE enumeration object and returns a pointer to its [**IEnumFORMATETC**](/windows/win32/api/objidl/nn-objidl-ienumformatetc) interface.
+- Use the [**IEnumFORMATETC**](/windows/win32/api/objidl/nn-objidl-ienumformatetc) methods to enumerate the formats contained by the data object. This operation usually retrieves one [**FORMATETC**](/windows/win32/api/objidl/ns-objidl-formatetc) structure for each format that the object contains. However, the enumeration object normally returns only a single **FORMATETC** structure for the [CFSTR\_FILECONTENTS](clipboard.md) format, regardless of how many such formats are contained by the data object.
+- Select one or more formats to be extracted, and store their [**FORMATETC**](/windows/win32/api/objidl/ns-objidl-formatetc) structures.
 
 To retrieve a particular format, pass the associated [**FORMATETC**](/windows/win32/api/objidl/ns-objidl-formatetc) structure to [**IDataObject::GetData**](/windows/win32/api/objidl/nf-objidl-idataobject-getdata). This method returns an [**STGMEDIUM**](/windows/win32/api/objidl/ns-objidl-ustgmedium-r1) structure that provides access to the data. To specify a particular data transfer mechanism, set the **tymed** value of the **FORMATETC** structure to the corresponding TYMED\_*XXX* value. To ask the data object to select a data transfer mechanism, the target sets the TYMED\_*XXX* values for every data transfer mechanism that the target can handle. The data object selects one of these data transfer mechanisms and returns the appropriate **STGMEDIUM** structure.
 
@@ -333,15 +333,15 @@ If the target is using the drag-and-drop helper object, [**IDropTarget::Drop**](
 
 The drag-and-drop helper object (CLSID\_DragDropHelper) is exported by the Shell to allow targets to specify the drag image while it is over the target window. To use the drag-and-drop helper object, create an in-process server object by calling [**CoCreateInstance**](/windows/win32/api/combaseapi/nf-combaseapi-cocreateinstance) with a class identifier (CLSID) of CLSID\_DragDropHelper. The drag-and-drop helper object exposes two interfaces that are used in the following way:
 
--   The [**IDragSourceHelper**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idragsourcehelper) interface allows the drop target to specify an icon to represent the data object.
--   The [**IDropTargetHelper**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idroptargethelper) interface allows the drop target to inform the drag-and-drop helper object of the cursor location, and to show or hide the data icon.
+- The [**IDragSourceHelper**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idragsourcehelper) interface allows the drop target to specify an icon to represent the data object.
+- The [**IDropTargetHelper**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idroptargethelper) interface allows the drop target to inform the drag-and-drop helper object of the cursor location, and to show or hide the data icon.
 
 ### Using the IDragSourceHelper Interface
 
 The [**IDragSourceHelper**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idragsourcehelper) interface is exposed by the drag-and-drop helper object to allow a drop target to provide the image that will be displayed while the cursor is over the target window. **IDragSourceHelper** provides two alternative ways to specify the bitmap to be used as a drag image:
 
--   Drop targets that have a window can register a DI\_GETDRAGIMAGE window message for it by initializing the drag-and-drop helper object with [**IDragSourceHelper::InitializeFromWindow**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idragsourcehelper-initializefromwindow). When the target receives a DI\_GETDRAGIMAGE message, the handler puts the drag image bitmap information in the [**SHDRAGIMAGE**](/windows/desktop/api/Shobjidl_core/ns-shobjidl_core-shdragimage) structure that is passed as the message's *lParam* value.
--   Windowless drop targets specify a bitmap when they initialize the drag-and-drop helper object with [**IDragSourceHelper::InitializeFromBitmap**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idragsourcehelper-initializefrombitmap).
+- Drop targets that have a window can register a DI\_GETDRAGIMAGE window message for it by initializing the drag-and-drop helper object with [**IDragSourceHelper::InitializeFromWindow**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idragsourcehelper-initializefromwindow). When the target receives a DI\_GETDRAGIMAGE message, the handler puts the drag image bitmap information in the [**SHDRAGIMAGE**](/windows/desktop/api/Shobjidl_core/ns-shobjidl_core-shdragimage) structure that is passed as the message's *lParam* value.
+- Windowless drop targets specify a bitmap when they initialize the drag-and-drop helper object with [**IDragSourceHelper::InitializeFromBitmap**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idragsourcehelper-initializefrombitmap).
 
 ### Using the IDropTargetHelper Interface
 

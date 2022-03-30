@@ -25,7 +25,7 @@ The Shell controls a number of important aspects of the system, including severa
 
 The majority of potential Shell security issues can be mitigated by correctly installing your application.
 
--   Install the application under the Program Files folder. 
+- Install the application under the Program Files folder. 
 
     | Operating System                             | Location                                                                                                                                                                                                                                   |
     |----------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -36,7 +36,7 @@ The majority of potential Shell security issues can be mitigated by correctly in
 
      
 
--   Do not store user data under the Program Files folder.
+- Do not store user data under the Program Files folder.
 
     Use the appropriate data folder for data that is common to all users.
 
@@ -64,8 +64,8 @@ The majority of potential Shell security issues can be mitigated by correctly in
 
      
 
--   If you must install to a location other than the Program Files folder, make sure that you set access control lists (ACLs) properly so that users do not have access to inappropriate parts of the file system. Any data that is specific to a particular user should have an ACL that prevents any other user from accessing it.
--   When you set up file associations, be sure to properly specify the command line. Use a fully qualified path and wrap any elements that contain white space in quotation marks. Wrap command parameters in separate quotation marks. Otherwise, the string might be incorrectly parsed and the application will not launch properly. Two examples of properly formed command lines are shown here.
+- If you must install to a location other than the Program Files folder, make sure that you set access control lists (ACLs) properly so that users do not have access to inappropriate parts of the file system. Any data that is specific to a particular user should have an ACL that prevents any other user from accessing it.
+- When you set up file associations, be sure to properly specify the command line. Use a fully qualified path and wrap any elements that contain white space in quotation marks. Wrap command parameters in separate quotation marks. Otherwise, the string might be incorrectly parsed and the application will not launch properly. Two examples of properly formed command lines are shown here.
 
     ```
     "C:\Program Files\MyApp\MyApp.exe" "%1" "%2"
@@ -107,8 +107,8 @@ Do not use the Autocomplete feature for passwords.
 
 There are several Shell functions that you can use to launch applications: [**ShellExecute**](/windows/desktop/api/Shellapi/nf-shellapi-shellexecutea), [**ShellExecuteEx**](/windows/desktop/api/Shellapi/nf-shellapi-shellexecuteexa), [**WinExec**](/windows/win32/api/winbase/nf-winbase-winexec), and [**SHCreateProcessAsUserW**](/windows/desktop/api/Shellapi/nf-shellapi-shcreateprocessasuserw). Make sure you provide an unambiguous definition of the application that is to be executed.
 
--   When providing the executable file's path, provide the fully qualified path. Do not depend on the Shell to locate the file.
--   If you provide a command-line string that contains white space, wrap the string in quotation marks. Otherwise, the parser might interpret a single element that contains spaces as multiple elements.
+- When providing the executable file's path, provide the fully qualified path. Do not depend on the Shell to locate the file.
+- If you provide a command-line string that contains white space, wrap the string in quotation marks. Otherwise, the parser might interpret a single element that contains spaces as multiple elements.
 
 ## Moving and Copying Files
 
@@ -118,8 +118,8 @@ One key to system security is properly assigning ACLs. You also might use encryp
 
 Shell namespace extensions are a powerful and flexible way to present data to the user. However, they can cause system failure if they are not correctly written. Some key points to keep in mind:
 
--   Do not assume that data such as images are formatted correctly.
--   Do not assume that MAX\_PATH is equivalent to the number of *bytes* in a string. It is the number of *characters*.
+- Do not assume that data such as images are formatted correctly.
+- Do not assume that MAX\_PATH is equivalent to the number of *bytes* in a string. It is the number of *characters*.
 
 ## Security Alerts
 

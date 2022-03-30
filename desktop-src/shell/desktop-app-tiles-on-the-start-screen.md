@@ -49,11 +49,11 @@ DO: Minimize the number of tiles that are added as part of installation. Conside
 
 DON'T: Don't put shortcuts to the following items on the Start screen:
 
--   Uninstallers. Users can access uninstallers through the Programs item in the Control Panel.
--   Help files. Include help topics directly in your app.
--   App settings and options. Include UI to configure settings for an app within the app or create a Control Panel item.
--   Web sites. Provide any appropriate links to information like help and technical support sites directly in your app.
--   Wizards. Wizards and other one-time configuration tasks should be launched from within the app.
+- Uninstallers. Users can access uninstallers through the Programs item in the Control Panel.
+- Help files. Include help topics directly in your app.
+- App settings and options. Include UI to configure settings for an app within the app or create a Control Panel item.
+- Web sites. Provide any appropriate links to information like help and technical support sites directly in your app.
+- Wizards. Wizards and other one-time configuration tasks should be launched from within the app.
 
 DON'T: Don't create shortcuts to features or functionality that can be launched from within the app itself. For example, Language Settings can be configured from any Microsoft Office app, so it's unnecessary also to have a separate Language Settings entry point on the Start screen.
 

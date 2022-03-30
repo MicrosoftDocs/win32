@@ -52,16 +52,16 @@ The CLR creates *Runtime Callable Wrappers* for Component Object Model (COM) obj
 
 The CLR has weaker object lifetime guarantees than native code. Many extensions have reference count requirements on objects and interfaces, and the garbage-collection model employed by the CLR cannot fulfill these requirements.
 
--   If a CLR object obtains a reference to a COM object, the COM object reference held by the Runtime Callable Wrapper is not released until the Runtime Callable Wrapper is garbage-collected. Nondeterministic release behavior can conflict with some interface contracts. For example, the [**IPersistPropertyBag::Load**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa768206(v=vs.85)) method requires that no reference to the property bag be retained by the object when the **Load** method returns.
--   If a CLR object reference is returned to native code, the Runtime Callable Wrapper relinquishes its reference to the CLR object when the Runtime Callable Wrapper's final call to [**Release**](/windows/win32/api/unknwn/nf-unknwn-iunknown-release) is made, but the underlying CLR object is not finalized until it is garbage-collected. Nondeterministic finalization can conflict with some interface contracts. For example, thumbnail handlers are required to release all resources immediately when their reference count drops to zero.
+- If a CLR object obtains a reference to a COM object, the COM object reference held by the Runtime Callable Wrapper is not released until the Runtime Callable Wrapper is garbage-collected. Nondeterministic release behavior can conflict with some interface contracts. For example, the [**IPersistPropertyBag::Load**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa768206(v=vs.85)) method requires that no reference to the property bag be retained by the object when the **Load** method returns.
+- If a CLR object reference is returned to native code, the Runtime Callable Wrapper relinquishes its reference to the CLR object when the Runtime Callable Wrapper's final call to [**Release**](/windows/win32/api/unknwn/nf-unknwn-iunknown-release) is made, but the underlying CLR object is not finalized until it is garbage-collected. Nondeterministic finalization can conflict with some interface contracts. For example, thumbnail handlers are required to release all resources immediately when their reference count drops to zero.
 
 ## Acceptable Uses of Managed Code and Other Runtimes
 
 It is acceptable to use managed code and other runtimes to implement out-of-process extensions. Examples of out-of-process Shell extensions include the following:
 
--   Preview handlers
--   Command-line-based actions such as those registered under **shell**\\*verb*\\**command** subkeys.
--   COM objects implemented in a local server, for Shell extension points that allow out-of-process activation.
+- Preview handlers
+- Command-line-based actions such as those registered under **shell**\\*verb*\\**command** subkeys.
+- COM objects implemented in a local server, for Shell extension points that allow out-of-process activation.
 
 Some extensions can be implemented either as in-process or out-of-process extensions. You can implement these extensions as out-of-process extensions if they do not meet these requirements for in-process extensions. The following list shows examples of extensions that can be implemented as either in-process or out-of-process extensions:
 

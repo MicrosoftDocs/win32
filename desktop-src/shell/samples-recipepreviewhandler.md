@@ -71,8 +71,8 @@ To build the sample using Microsoft Visual Studio (preferred):
 
 1.  Open the command prompt window and navigate to the built **RecipePreviewHandler** project directory. For example, `C:\Program Files\MicrosoftSDKs\Windows\v7.0\Samples\WinUI\Shell\AppShellIntegration\RecipePreviewHandler\RecipePreviewHandler`. Enter `regsvr32.exe PreviewHandlerSDKSample.dll` to register the handler.
 2.  Open Windows Explorer and show the preview pane if it is not already displayed.
-    -   **Windows 7**: Click the preview pane button.
-    -   **Windows Vista**: Click the **Organize** menu, go to the **Layout** submenu and select **Preview Pane**.
+    - **Windows 7**: Click the preview pane button.
+    - **Windows Vista**: Click the **Organize** menu, go to the **Layout** submenu and select **Preview Pane**.
 3.  Use Windows Explorer to navigate to the **RecipePreviewHandler** project directory.
 4.  Select the example .recipe file.
 
@@ -90,7 +90,7 @@ To make both the 32-bit (x86) and 64-bit (x64) output work on a 64-bit version o
 
 ## Unregistering the Sample Preview Handler DLL
 
--   Open the command prompt window and enter `regsvr32.exe /u PreviewHandlerSDKSample.dll` to unregister the handler.
+- Open the command prompt window and enter `regsvr32.exe /u PreviewHandlerSDKSample.dll` to unregister the handler.
 
 ## Related topics
 

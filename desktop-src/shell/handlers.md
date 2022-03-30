@@ -74,16 +74,16 @@ Like all COM objects, Shell extension handlers must implement an [**IUnknown**](
 
 The [**IPersistFile**](/windows/win32/api/objidl/nn-objidl-ipersistfile) interface must be implemented by the following:
 
--   Data handlers
--   Drop handlers
+- Data handlers
+- Drop handlers
 
 In the past, icon handlers were also required to implement [**IPersistFile**](/windows/win32/api/objidl/nn-objidl-ipersistfile), but this is no longer true. For icon handlers, **IPersistFile** is now optional and other interfaces such as [**IInitializeWithItem**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-iinitializewithitem) are preferred.
 
 The [**IShellExtInit**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-ishellextinit) interface must be implemented by the following:
 
--   Shortcut menu handlers
--   Drag-and-drop handlers
--   Property sheet handlers
+- Shortcut menu handlers
+- Drag-and-drop handlers
+- Property sheet handlers
 
 ### Implementing IPersistFile
 
@@ -114,9 +114,9 @@ CSampleExtHandler::Load(PCWSTR pszFile, DWORD dwMode)
 
 The [**IShellExtInit**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-ishellextinit) interface has only one method, [**IShellExtInit::Initialize**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellextinit-initialize), in addition to [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown). The method has three parameters that the Shell can use to pass in various types of information. The values passed in depend on the type of handler, and some can be set to **NULL**.
 
--   *pIDFolder* holds a folder's pointer to an item identifier list (PIDL). For property sheet extensions, it is **NULL**. For shortcut menu extensions, it is the PIDL of the folder that contains the item whose shortcut menu is being displayed. For nondefault drag-and-drop handlers, it is the PIDL of the target folder.
--   *pDataObject* holds a pointer to a data object's [**IDataObject**](/windows/win32/api/objidl/nn-objidl-idataobject) interface. The data object holds one or more file names in [CF\_HDROP](dragdrop.md) format.
--   *hRegKey* holds a registry key for the file object or folder type.
+- *pIDFolder* holds a folder's pointer to an item identifier list (PIDL). For property sheet extensions, it is **NULL**. For shortcut menu extensions, it is the PIDL of the folder that contains the item whose shortcut menu is being displayed. For nondefault drag-and-drop handlers, it is the PIDL of the target folder.
+- *pDataObject* holds a pointer to a data object's [**IDataObject**](/windows/win32/api/objidl/nn-objidl-idataobject) interface. The data object holds one or more file names in [CF\_HDROP](dragdrop.md) format.
+- *hRegKey* holds a registry key for the file object or folder type.
 
 The [**IShellExtInit::Initialize**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellextinit-initialize) method stores the file name, [**IDataObject**](/windows/win32/api/objidl/nn-objidl-idataobject) pointer, and registry key as needed for later use. The following code fragment illustrates an implementation of **IShellExtInit::Initialize**. For simplicity, this example assumes that the data object contains only a single file. In general, it might contain multiple files that will each need to be extracted.
 
@@ -186,8 +186,8 @@ CSampleExtHandler is the name of the class used to implement the interface. The 
 
 There are two ways to customize infotips:
 
--   Implement an object that supports [**IQueryInfo**](/windows/win32/api/shlobj_core/nn-shlobj_core-iqueryinfo) and then register that object under the proper subkey in the registry (see [Registering Shell Extension Handlers](#registering-shell-extension-handlers) below).
--   Specify a fixed string or a list of specific file properties to be displayed.
+- Implement an object that supports [**IQueryInfo**](/windows/win32/api/shlobj_core/nn-shlobj_core-iqueryinfo) and then register that object under the proper subkey in the registry (see [Registering Shell Extension Handlers](#registering-shell-extension-handlers) below).
+- Specify a fixed string or a list of specific file properties to be displayed.
 
 To display a fixed string for a namespace extension, create an entry called `InfoTip` in the *{CLSID}* key of your namespace extension. Set the value of that entry to be either the literal string you want to display, as shown in this example, or an indirect string that specifies a resource and index within that resource (for localization purposes).
 
@@ -361,10 +361,10 @@ The following table gives the various subkeys of **HKEY\_CLASSES\_ROOT** under w
 
 Notes:
 
--   The file folder background shortcut menu is accessed by right-clicking within a file folder, but not over any of the folder's contents.
--   "Verbs" are special commands registered under **HKEY\_CLASSES\_ROOT**\\*Subkey*\\**Shell**\\**Verb** .
--   For **Network**\\**Type**\\**\#** , "\#" is a network provider type code in decimal. The network provider type code is the high word of a network type. The list of network types is given in the Winnetwk.h header file (WNNC\_NET\_\* values). For example, WNNC\_NET\_SHIVA is 0x00330000, so the corresponding type key would be **HKEY\_CLASSES\_ROOT**\\**Network**\\**Type**\\**51** .
--   "*network\_provider\_name*" is a network provider name as specified by [**WNetGetProviderName**](/windows/win32/api/winnetwk/nf-winnetwk-wnetgetprovidernamea), with the spaces converted into underscores. For example, if the Microsoft Networking network provider is installed, its provider name is "Microsoft Windows Network", and the corresponding *network\_provider\_name* is **Microsoft\_Windows\_Network**.
+- The file folder background shortcut menu is accessed by right-clicking within a file folder, but not over any of the folder's contents.
+- "Verbs" are special commands registered under **HKEY\_CLASSES\_ROOT**\\*Subkey*\\**Shell**\\**Verb** .
+- For **Network**\\**Type**\\**\#** , "\#" is a network provider type code in decimal. The network provider type code is the high word of a network type. The list of network types is given in the Winnetwk.h header file (WNNC\_NET\_\* values). For example, WNNC\_NET\_SHIVA is 0x00330000, so the corresponding type key would be **HKEY\_CLASSES\_ROOT**\\**Network**\\**Type**\\**51** .
+- "*network\_provider\_name*" is a network provider name as specified by [**WNetGetProviderName**](/windows/win32/api/winnetwk/nf-winnetwk-wnetgetprovidernamea), with the spaces converted into underscores. For example, if the Microsoft Networking network provider is installed, its provider name is "Microsoft Windows Network", and the corresponding *network\_provider\_name* is **Microsoft\_Windows\_Network**.
 
 ### Example of an Extension Handler Registration
 

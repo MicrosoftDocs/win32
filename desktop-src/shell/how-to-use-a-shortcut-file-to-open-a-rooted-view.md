@@ -14,19 +14,19 @@ You can launch a rooted view of a junction point through a [shortcut file](./lin
 
 Set the shortcut file's Target line to Explorer.exe with a /root flag. The exact form of the command depends on the location of the junction point:
 
--   If the junction point is a subfolder of the Desktop, use:
+- If the junction point is a subfolder of the Desktop, use:
 
     ``` syntax
     Explorer.exe /e,/root,::{Extension CLSID}
     ```
 
--   If the junction point is a file system folder, use:
+- If the junction point is a file system folder, use:
 
     ``` syntax
     Explorer.exe /e,/root,[Fully qualified path to the folder]
     ```
 
--   If the junction point is a subfolder of a system virtual folder, use:
+- If the junction point is a subfolder of a system virtual folder, use:
 
     ``` syntax
     Explorer.exe /e,/root,::{Folder CLSID}\::{Extension CLSID}

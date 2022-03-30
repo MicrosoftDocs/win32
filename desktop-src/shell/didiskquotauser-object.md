@@ -69,9 +69,9 @@ The **DIDiskQuotaUser** object has these properties.
 
 Each user on the volume that is managed by the [**DiskQuotaControl**](diskquotacontrol-object.md) object has a **DIDiskQuotaUser** object associated with it. This object allows a client to manage an individual user's settings. There are several ways to obtain a user's **DIDiskQuotaUser** object:
 
--   The **DIDiskQuotaUser** objects for all users with quotas on the volume are exposed as a collection and can be enumerated. A discussion of how to enumerate **DIDiskQuotaUser** objects is found below.
--   When you add a new user, the [**AddUser**](diskquotacontrol-adduser.md) method returns the user's **DIDiskQuotaUser** object.
--   If you have the user's name, the [**FindUser**](diskquotacontrol-finduser.md) method returns the user's **DIDiskQuotaUser** object.
+- The **DIDiskQuotaUser** objects for all users with quotas on the volume are exposed as a collection and can be enumerated. A discussion of how to enumerate **DIDiskQuotaUser** objects is found below.
+- When you add a new user, the [**AddUser**](diskquotacontrol-adduser.md) method returns the user's **DIDiskQuotaUser** object.
+- If you have the user's name, the [**FindUser**](diskquotacontrol-finduser.md) method returns the user's **DIDiskQuotaUser** object.
 
 ### Enumerating Disk Quota Users
 

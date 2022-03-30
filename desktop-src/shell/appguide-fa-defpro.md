@@ -26,8 +26,8 @@ This section on application guidelines for file associations and default program
 
 For related conceptual background, see the following topics:
 
--   For information about application registration through the registry that is not specific to the Set Program Access Computer Defaults (SPAD) or Set Your Default Programs (SYDP) Control Panel items, see [Application Registration](app-registration.md).
--   For additional background, see [File Types and File Associations](fa-intro.md).
+- For information about application registration through the registry that is not specific to the Set Program Access Computer Defaults (SPAD) or Set Your Default Programs (SYDP) Control Panel items, see [Application Registration](app-registration.md).
+- For additional background, see [File Types and File Associations](fa-intro.md).
 
  
 

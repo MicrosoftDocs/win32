@@ -31,17 +31,17 @@ This topic discusses the **Set Program Access and Computer Defaults (SPAD)** fea
 
 In Windows XP, **Set Program Access and Defaults** is a tool found as an option in Control Panel's **Add or Remove Programs** item. In Windows Vista and later, it is located under the [Default Programs](default-programs.md) Control Panel item. For [registered](reg-middleware-apps.md) programs, it performs the following functions:
 
--   Enables the choice of default programs for each client type (up to Windows 7 only).
--   Enables control of the display of the program's icons, shortcuts, and menu entries.
--   Provides a set of preset default program choices. (Windows XP Service Pack 1 (SP1) only)
+- Enables the choice of default programs for each client type (up to Windows 7 only).
+- Enables control of the display of the program's icons, shortcuts, and menu entries.
+- Provides a set of preset default program choices. (Windows XP Service Pack 1 (SP1) only)
 
 This tool is used for the following five client types.
 
--   Browser
--   Email
--   Instant messenging program
--   Media player
--   Virtual machine for Java
+- Browser
+- Email
+- Instant messenging program
+- Media player
+- Virtual machine for Java
 
 ### An Overview of Set Program Access and Computer Defaults
 
@@ -142,17 +142,17 @@ The following example illustrates which registry values to declare for an instal
 
 1.  The parent application must add its uninstall information in a subkey under the **HKEY\_LOCAL\_MACHINE**\\**Software**\\**Microsoft**\\**Windows**\\**CurrentVersion**\\**Uninstall** subkey. See the [Installation](/previous-versions/ms997548(v=msdn.10)) topic for more information on using the **Uninstall** subkey.
 2.  Each update to that parent application also must add its information as a subkey of the **Uninstall** subkey. It should use a particular naming convention of its choice, attempting to avoid potential conflicts with other programs. The following conventions are reserved as subkey names by Microsoft for use with Windows updates.
-    -   IEUpdate
-    -   OEUpdate
-    -   "KB" followed by six digits, for example "KB123456"
-    -   "Q" followed by six digits, for example "Q123456"
-    -   Six digits, for example "123456"
+    - IEUpdate
+    - OEUpdate
+    - "KB" followed by six digits, for example "KB123456"
+    - "Q" followed by six digits, for example "Q123456"
+    - Six digits, for example "123456"
 3.  In addition to the standard uninstall information added for the parent application, the subkeys for each update additionally must include two of the following three entries. Their values are of type REG\_SZ.
-    -   **ParentKeyName**. This value is required. This is the name of the parent's subkey declared in step 1. This associates the update with the program.
-    -   **ParentDisplayName**. This value is required. If no subkey matches that named in ParentKeyName, this value is used as a placeholder parent program to be displayed in **Add or Remove Programs**.
-    -   **InstallDate**. This value is optional. It should use the form `yyyymmdd` to specify the date. This date is used for the **Installed On** information displayed next to the update's entry in the UI. If there is no **InstallDate** entry or if it is present but has no value assigned to it, the following occurs:
-        -   Operating system versions other than Windows Vista and Windows 7: No **Installed On** information is shown.
-        -   Windows Vista and later: A default date is used. This is the "last modified" date for any of the entries under that update's subkey. This is normally the day that the update was added to the registry. However, because it is a "last modified" date, any subsequent change to any of the subkey's entries causes the InstallDate value to be changed to the date of that change.
+    - **ParentKeyName**. This value is required. This is the name of the parent's subkey declared in step 1. This associates the update with the program.
+    - **ParentDisplayName**. This value is required. If no subkey matches that named in ParentKeyName, this value is used as a placeholder parent program to be displayed in **Add or Remove Programs**.
+    - **InstallDate**. This value is optional. It should use the form `yyyymmdd` to specify the date. This date is used for the **Installed On** information displayed next to the update's entry in the UI. If there is no **InstallDate** entry or if it is present but has no value assigned to it, the following occurs:
+        - Operating system versions other than Windows Vista and Windows 7: No **Installed On** information is shown.
+        - Windows Vista and later: A default date is used. This is the "last modified" date for any of the entries under that update's subkey. This is normally the day that the update was added to the registry. However, because it is a "last modified" date, any subsequent change to any of the subkey's entries causes the InstallDate value to be changed to the date of that change.
 
 The following example shows the pertinent registry entries for an update to the LitWare Deluxe application.
 

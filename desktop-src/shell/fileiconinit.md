@@ -53,8 +53,8 @@ Type: **BOOL**
 
 If you are using system image lists in your own process, you must call **FileIconInit** at the following times:
 
--   On launch.
--   In response to a [**WM\_SETTINGCHANGE**](../winmsg/wm-settingchange.md) message when the [**SPI\_SETNONCLIENTMETRICS**](/windows/win32/api/winuser/nf-winuser-systemparametersinfoa) flag is set.
+- On launch.
+- In response to a [**WM\_SETTINGCHANGE**](../winmsg/wm-settingchange.md) message when the [**SPI\_SETNONCLIENTMETRICS**](/windows/win32/api/winuser/nf-winuser-systemparametersinfoa) flag is set.
 
 **FileIconInit** is not included in a header file. You must call it directly from Shell32.dll, using ordinal 660.
 

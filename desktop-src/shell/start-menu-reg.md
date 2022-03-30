@@ -42,8 +42,8 @@ Any web browser application can register to appear as an Internet client on the 
 
 Registrations made in the **HKEY\_CURRENT\_USER** subtree have higher precedence for the console user than corresponding registrations made in the **HKEY\_LOCAL\_MACHINE**. For new users on the system, the settings stored in **HKEY\_LOCAL\_MACHINE** are used. As of Windows XP, Start menu Internet settings are kept in the default entries of two registry locations:
 
--   **HKEY\_CURRENT\_USER**\\**SOFTWARE**\\**Clients**\\**StartMenuInternet**
--   **HKEY\_LOCAL\_MACHINE**\\**SOFTWARE**\\**Clients**\\**StartMenuInternet**
+- **HKEY\_CURRENT\_USER**\\**SOFTWARE**\\**Clients**\\**StartMenuInternet**
+- **HKEY\_LOCAL\_MACHINE**\\**SOFTWARE**\\**Clients**\\**StartMenuInternet**
 
 The subkey **HKEY\_CURRENT\_USER**\\**SOFTWARE**\\**Clients**\\**StartMenuInternet** describes the Internet browser that is started when the user clicks the **Internet** icon on the Start menu. If that subkey is blank or missing, then the **Internet** icon on the Start menu is set to the system default stored in the second location at **HKEY\_LOCAL\_MACHINE**\\**SOFTWARE**\\**Clients**\\**StartMenuInternet** , which describes all Internet browser applications that are installed on the system.
 
@@ -153,8 +153,8 @@ Any email application can register to appear as an email client on the Start men
 
 Registrations made in the **HKEY\_CURRENT\_USER** subtree have higher precedence for the console user than corresponding registrations made in the **HKEY\_LOCAL\_MACHINE**. For new users on the system, the settings stored in **HKEY\_LOCAL\_MACHINE** are used. As of Windows XP, Start menu Email settings are kept in the default entries of two registry locations:
 
--   **HKEY\_CURRENT\_USER**\\**SOFTWARE**\\**Clients**\\**Mail**
--   **HKEY\_LOCAL\_MACHINE**\\**SOFTWARE**\\**Clients**\\**Mail**
+- **HKEY\_CURRENT\_USER**\\**SOFTWARE**\\**Clients**\\**Mail**
+- **HKEY\_LOCAL\_MACHINE**\\**SOFTWARE**\\**Clients**\\**Mail**
 
 The subkey **HKEY\_CURRENT\_USER**\\**SOFTWARE**\\**Clients**\\**Mail** describes the email client that is started when the user clicks the **E-mail** icon on the Start menu.
 
@@ -244,9 +244,9 @@ HKEY_LOCAL_MACHINE
 
 Registration as the default Start menu email application is not equivalent to registration as the system default email client or the registered *mailto* handler.
 
--   The system default email client is started when the user clicks **Read email** from the Internet Explorer **Tools** menu.
--   The registered *mailto* handler is started when the user clicks a URL of the form `mailto:someone@example.com`.
--   The Start menu email application is started when the user clicks the **E-mail** icon on the Start menu.
+- The system default email client is started when the user clicks **Read email** from the Internet Explorer **Tools** menu.
+- The registered *mailto* handler is started when the user clicks a URL of the form `mailto:someone@example.com`.
+- The Start menu email application is started when the user clicks the **E-mail** icon on the Start menu.
 
 If no default Start menu email application is specified, the Email icon on the Start menu launches the system default email client.
 

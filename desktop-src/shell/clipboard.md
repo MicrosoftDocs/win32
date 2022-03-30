@@ -3,7 +3,7 @@ description: Shell clipboard formats are used to identify the type of Shell data
 ms.assetid: fb8ce5d3-3215-4e05-a916-4d4a803464d2
 title: Shell Clipboard Formats
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 03/28/2022
 ---
 
 # Shell Clipboard Formats
@@ -13,33 +13,31 @@ Shell clipboard formats are used to identify the type of Shell data being transf
 > [!Note]  
 > Standard clipboard format identifiers have the form CF_*XXX*. A common example is CF_TEXT, which is used for transferring ANSI text data. These identifiers have predefined values and can be used directly with [**FORMATETC**](/windows/win32/api/objidl/ns-objidl-formatetc) structures. With the exception of [CF_HDROP](#cf_hdrop), Shell format identifiers are not predefined. With the exception of DragWindow, they have the form CFSTR_*XXX*. To differentiate these values from predefined formats, they are often referred to as simply *formats*. However, unlike predefined formats, they must be registered by both source and target before they can be used to transfer data. To register a Shell format, include the Shlobj.h header file and pass the CFSTR_*XXX* format identifier to [RegisterClipboardFormat](/windows/win32/api/winuser/nf-winuser-registerclipboardformata). This function returns a valid clipboard format value, which can then be used as the **cfFormat** member of a **FORMATETC** structure.
 
- 
-
 The Shell clipboard formats are organized here into three groups, based on how they are used.
 
 - [Formats for Transferring File System Objects](#formats-for-transferring-file-system-objects)
-    - [CF_HDROP](#cf_hdrop)
-    - [CFSTR_FILECONTENTS](#cfstr_filecontents)
-    - [CFSTR_FILEDESCRIPTOR](#cfstr_filedescriptor)
-    - [CFSTR_FILENAME](#cfstr_filename)
-    - [CFSTR_FILENAMEMAP](#cfstr_filenamemap)
-    - [CFSTR_MOUNTEDVOLUME](#cfstr_mountedvolume)
-    - [CFSTR_SHELLIDLIST](#cfstr_shellidlist)
-    - [CFSTR_SHELLIDLISTOFFSET](#cfstr_shellidlistoffset)
+  - [CF_HDROP](#cf_hdrop)
+  - [CFSTR_FILECONTENTS](#cfstr_filecontents)
+  - [CFSTR_FILEDESCRIPTOR](#cfstr_filedescriptor)
+  - [CFSTR_FILENAME](#cfstr_filename)
+  - [CFSTR_FILENAMEMAP](#cfstr_filenamemap)
+  - [CFSTR_MOUNTEDVOLUME](#cfstr_mountedvolume)
+  - [CFSTR_SHELLIDLIST](#cfstr_shellidlist)
+  - [CFSTR_SHELLIDLISTOFFSET](#cfstr_shellidlistoffset)
 - [Formats for Transferring Virtual Objects](#formats-for-transferring-virtual-objects)
-    - [CFSTR_NETRESOURCES](#cfstr_netresources)
-    - [CFSTR_PRINTERGROUP](#cfstr_printergroup)
-    - [CFSTR_INETURL](#cfstr_ineturl)
-    - [CFSTR_SHELLURL (deprecated)](#cfstr_shellurl-deprecated)
+  - [CFSTR_NETRESOURCES](#cfstr_netresources)
+  - [CFSTR_PRINTERGROUP](#cfstr_printergroup)
+  - [CFSTR_INETURL](#cfstr_ineturl)
+  - [CFSTR_SHELLURL (deprecated)](#cfstr_shellurl-deprecated)
 - [Formats for Communication Between Source and Target](#formats-for-communication-between-source-and-target)
-    - [CFSTR_INDRAGLOOP](#cfstr_indragloop)
-    - [CFSTR_LOGICALPERFORMEDDROPEFFECT](#cfstr_logicalperformeddropeffect)
-    - [CFSTR_PASTESUCCEEDED](#cfstr_pastesucceeded)
-    - [CFSTR_PERFORMEDDROPEFFECT](#cfstr_performeddropeffect)
-    - [CFSTR_PREFERREDDROPEFFECT](#cfstr_preferreddropeffect)
-    - [CFSTR_TARGETCLSID](#cfstr_targetclsid)
-    - [CFSTR_UNTRUSTEDDRAGDROP](#cfstr_untrusteddragdrop)
-    - [DragWindow](#dragwindow)
+  - [CFSTR_INDRAGLOOP](#cfstr_indragloop)
+  - [CFSTR_LOGICALPERFORMEDDROPEFFECT](#cfstr_logicalperformeddropeffect)
+  - [CFSTR_PASTESUCCEEDED](#cfstr_pastesucceeded)
+  - [CFSTR_PERFORMEDDROPEFFECT](#cfstr_performeddropeffect)
+  - [CFSTR_PREFERREDDROPEFFECT](#cfstr_preferreddropeffect)
+  - [CFSTR_TARGETCLSID](#cfstr_targetclsid)
+  - [CFSTR_UNTRUSTEDDRAGDROP](#cfstr_untrusteddragdrop)
+  - [DragWindow](#dragwindow)
 
 ## Formats for Transferring File System Objects
 
@@ -62,14 +60,12 @@ The **pFiles** member of the [**DROPFILES**](/windows/desktop/api/shlobj_core/ns
 
 The file name array consists of a series of strings, each containing one file's fully qualified path, including the terminating **NULL** character. An additional **null** character is appended to the final string to terminate the array. For example, if the files c:\\temp1.txt and c:\\temp2.txt are being transferred, the character array looks like this:
 
-
-```CMD
+```TEXT
 c:\temp1.txt'\0'c:\temp2.txt'\0''\0'
 ```
 
 > [!Note]  
 > In this example, '\\0' is used to represent the **null** character, not the literal characters that should be included.
-
 
 If the object was copied to the clipboard as part of a drag-and-drop operation, the **pt** member of the [**DROPFILES**](/windows/desktop/api/shlobj_core/ns-shlobj_core-dropfiles) structure contains the coordinates of the point where the object was dropped. You can use [**DragQueryPoint**](/windows/desktop/api/Shellapi/nf-shellapi-dragquerypoint) to extract the cursor coordinates.
 
@@ -115,7 +111,6 @@ The first element of **aoffset** contains an offset to the fully qualified PIDL 
 
 The following two macros can be used to retrieve PIDLs from a [**CIDA**](/windows/win32/api/shlobj_core/ns-shlobj_core-cida) structure. The first takes a pointer to the structure and retrieves the PIDL of the parent folder. The second takes a pointer to the structure and retrieves one of the other PIDLs, identified by its zero-based index.
 
-
 ```C++
 #define GetPIDLFolder(pida) (LPCITEMIDLIST)(((LPBYTE)pida)+(pida)->aoffset[0])
 
@@ -154,8 +149,6 @@ This format identifier replaces [CFSTR_SHELLURL (deprecated)](#cfstr_shellurl-de
 
 > [!Note]  
 > This format identifier has been deprecated; use CFSTR_INETURL instead.
-
- 
 
 ## Formats for Communication Between Source and Target
 
@@ -223,7 +216,3 @@ This format is used in a drag-and-drop operation to identify an object's drag im
 The clipboard data is of type [**TYMED_HGLOBAL**](/windows/win32/api/objidl/ne-objidl-tymed). It is a **DWORD** representation of an **HWND**. The data can be passed to the **ULongToHandle** function, defined in Basetsd.h, to provide a 64-bit **HWND** for use on 64-bit Windows.
 
 This format does not require the inclusion of Shlobj.h.
-
- 
-
- 

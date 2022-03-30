@@ -43,8 +43,8 @@ HKEY_CLASSES_ROOT
 
 Setting the NoOpenWith entry also has these effects:
 
--   Prevents pinning a file to the application's Jump List through drag-and-drop, unless the application is specifically registered to handle that file type.
--   Prevents the common file dialog box and any call to the [**SHAddToRecentDocs**](/windows/desktop/api/shlobj_core/nf-shlobj_core-shaddtorecentdocs) function from adding any file to the application's Jump List, unless the application is specifically registered to handle that file type.
+- Prevents pinning a file to the application's Jump List through drag-and-drop, unless the application is specifically registered to handle that file type.
+- Prevents the common file dialog box and any call to the [**SHAddToRecentDocs**](/windows/desktop/api/shlobj_core/nf-shlobj_core-shaddtorecentdocs) function from adding any file to the application's Jump List, unless the application is specifically registered to handle that file type.
 
 ### Step 2:
 

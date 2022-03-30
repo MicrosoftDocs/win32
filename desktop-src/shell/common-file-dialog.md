@@ -1,33 +1,27 @@
 ---
-description: Starting with Windows Vista, the Common Item Dialog supersedes the older Common File Dialog when used to open or save a file.
+description: The Common Item Dialog is displayed for saving or opening a file.
 title: Common Item Dialog
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 03/28/2022
 ms.assetid: f8846148-89a5-4b9b-ad68-56137a5c2f65
-api_name: 
-api_type: 
-api_location: 
 topic_type: 
  - kbArticle
-
 ---
 
 # Common Item Dialog
 
-Starting with Windows Vista, the Common Item Dialog supersedes the older Common File Dialog when used to open or save a file. The Common Item Dialog is used in two variations: the **Open** dialog and the **Save** dialog. These two dialogs share most of their functionality, but each has its own unique methods.
-
-While this newer version is named the Common Item Dialog, it continues to be called the Common File Dialog in most documentation. Unless you are dealing specifically with an older version of Windows, you should assume that any mention of the Common File Dialog refers to this Common Item Dialog.
+The Common Item Dialog is used in two variations: the **Open** dialog and the **Save** dialog. These two dialogs share most of their functionality, but each has its own unique methods.
 
 The following topics are discussed here:
 
 - [IFileDialog, IFileOpenDialog, and IFileSaveDialog](#ifiledialog-ifileopendialog-and-ifilesavedialog)
-    - [Sample Usage](#sample-usage)
+  - [Sample Usage](#sample-usage)
 - [Listening to Events from the Dialog](#listening-to-events-from-the-dialog)
-    - [OnFileOk](#onfileok)
-    - [OnShareViolation and OnOverwrite](#onshareviolation-and-onoverwrite)
+  - [OnFileOk](#onfileok)
+  - [OnShareViolation and OnOverwrite](#onshareviolation-and-onoverwrite)
 - [Customizing the Dialog](#customizing-the-dialog)
-    - [Adding Options to the OK Button](#adding-options-to-the-ok-button)
-    - [Responding to Events in Added Controls](#responding-to-events-in-added-controls)
+  - [Adding Options to the OK Button](#adding-options-to-the-ok-button)
+  - [Responding to Events in Added Controls](#responding-to-events-in-added-controls)
 - [Full Samples](#full-samples)
 - [Related topics](#related-topics)
 
@@ -43,12 +37,12 @@ Windows Vista provides implementations of the **Open** and **Save** dialogs: CL
 
 The Common Item Dialog implementation found in Windows Vista provides several advantages over the implementation provided in earlier versions:
 
--   Supports direct use of the Shell namespace through [**IShellItem**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem) instead of using file system paths.
--   Enables simple customization of the dialog, such as setting the label on the **OK** button, without requiring a hook procedure.
--   Supports more extensive customization of the dialog by the addition of a set of data-driven controls that operate without a Win32 dialog template. This customization scheme frees the calling process from UI layout. Since any changes to the dialog design continue to use this data model, the dialog implementation is not tied to the specific current version of the dialog.
--   Supports caller notification of events within the dialog, such as selection change or file type change. Also enables the calling process to hook certain events in the dialog, such as the parsing.
--   Introduces new dialog features such as adding caller-specified places to the **Places** bar.
--   In the **Save** dialog, developers can take advantage of new metadata features of the Windows Vista Shell.
+- Supports direct use of the Shell namespace through [**IShellItem**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem) instead of using file system paths.
+- Enables simple customization of the dialog, such as setting the label on the **OK** button, without requiring a hook procedure.
+- Supports more extensive customization of the dialog by the addition of a set of data-driven controls that operate without a Win32 dialog template. This customization scheme frees the calling process from UI layout. Since any changes to the dialog design continue to use this data model, the dialog implementation is not tied to the specific current version of the dialog.
+- Supports caller notification of events within the dialog, such as selection change or file type change. Also enables the calling process to hook certain events in the dialog, such as the parsing.
+- Introduces new dialog features such as adding caller-specified places to the **Places** bar.
+- In the **Save** dialog, developers can take advantage of new metadata features of the Windows Vista Shell.
 
 Additionally, developers can choose to implement the following interfaces:
 
@@ -82,9 +76,6 @@ The following example illustrates how to launch an **Open** dialog. In this exam
 
 > [!Note]  
 > Several examples in this topic use the `CDialogEventHandler_CreateInstance` helper function to create an instance of the [**IFileDialogEvents**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifiledialogevents) implementation. To use this function in your own code, copy the source code for the `CDialogEventHandler_CreateInstance` function from the [Common File Dialog Sample](samples-commonfiledialog.md), from which all of the examples in this topic are taken.
-
- 
-
 
 ```C++
 HRESULT BasicFileOpen()
@@ -179,12 +170,9 @@ HRESULT BasicFileOpen()
 }
 ```
 
-
-
 ### Limiting Results to File System Items
 
 The following example, taken from above, demonstrates how to restrict results to file system items. Note that [**IFileDialog::SetOptions**](/windows/win32/api/shobjidl_core/nf-shobjidl_core-ifiledialog-setoptions) adds the new flag to a value obtained through [**IFileDialog::GetOptions**](/windows/win32/api/shobjidl_core/nf-shobjidl_core-ifiledialog-getoptions). This is the recommended method.
-
 
 ```C++
                 // Set the options on the dialog.
@@ -199,8 +187,6 @@ The following example, taken from above, demonstrates how to restrict results to
                     hr = pfd->SetOptions(dwFlags | FOS_FORCEFILESYSTEM);
 ```
 
-
-
 ### Specifying File Types for a Dialog
 
 To set specific file types that the dialog can handle, use the [**IFileDialog::SetFileTypes**](/windows/win32/api/shobjidl_core/nf-shobjidl_core-ifiledialog-setfiletypes) method. That method accepts an array of [**COMDLG\_FILTERSPEC**](/windows/desktop/api/Shtypes/ns-shtypes-comdlg_filterspec) structures, each of which represents a file type.
@@ -208,7 +194,6 @@ To set specific file types that the dialog can handle, use the [**IFileDialog::S
 The default extension mechanism in a dialog is unchanged from [**GetOpenFileName**](/windows/win32/api/commdlg/nf-commdlg-getopenfilenamea) and [**GetSaveFileName**](/windows/win32/api/commdlg/nf-commdlg-getsavefilenamea). The file name extension that is appended to the text the user types in the file name edit box is initialized when the dialog opens. It should match the default file type (that selected as the dialog opens). If the default file type is "\*.\*" (all files), the file can be an extension of your choice. If the user chooses a different file type, the extension automatically updates to the first file name extension associated with that file type. If the user chooses "\*.\*" (all files), then the extension reverts to its original value.
 
 The following example illustrates how this was done above.
-
 
 ```C++
                         // Set the file types to display only. 
@@ -224,8 +209,6 @@ The following example illustrates how this was done above.
                                 hr = pfd->SetDefaultExtension(L"doc;docx");
 ```
 
-
-
 ### Controlling the Default Folder
 
 Almost any folder in the Shell namespace can be used as the default folder for the dialog (the folder presented when the user chooses to open or save a file). Call [**IFileDialog::SetDefaultFolder**](/windows/win32/api/shobjidl_core/nf-shobjidl_core-ifiledialog-setdefaultfolder) prior to calling [**Show**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-imodalwindow-show) to do so.
@@ -239,7 +222,6 @@ When saving a document for the first time in the **Save** dialog, you should fol
 ### Adding Items to the Places Bar
 
 The following example demonstrates the addition of items to the **Places** bar:
-
 
 ```C++
 HRESULT AddItemsToCommonPlaces()
@@ -296,8 +278,6 @@ HRESULT AddItemsToCommonPlaces()
 }
 ```
 
-
-
 ### State Persistence
 
 Prior to Windows Vista, a state, such as the last visited folder, was saved on a per-process basis. However, that information was used regardless of the particular action. For example, a video editing application would present the same folder in the **Render As** dialog as is would in the **Import Media** dialog. In Windows Vista you can be more specific through the use of GUIDs. To assign a **GUID** to the dialog, call [**iFileDialog::SetClientGuid**](/windows/win32/api/shobjidl_core/nf-shobjidl_core-ifiledialog-setclientguid).
@@ -305,7 +285,6 @@ Prior to Windows Vista, a state, such as the last visited folder, was saved on 
 ### Multiselect Capabilities
 
 Multiselect functionality is available in the **Open** dialog using the [**GetResults**](/windows/win32/api/shobjidl_core/nf-shobjidl_core-ifileopendialog-getresults) method as shown here.
-
 
 ```C++
 HRESULT MultiselectInvoke()
@@ -355,14 +334,11 @@ HRESULT MultiselectInvoke()
 }
 ```
 
-
-
 ## Listening to Events from the Dialog
 
 A calling process can register an [**IFileDialogEvents**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifiledialogevents) interface with the dialog by using the [**IFileDialog::Advise**](/windows/win32/api/shobjidl_core/nf-shobjidl_core-ifiledialog-advise) and [**IFileDialog::Unadvise**](/windows/win32/api/shobjidl_core/nf-shobjidl_core-ifiledialog-unadvise) methods as shown here.
 
 This is taken from the [Basic Usage](#basic-usage) sample.
-
 
 ```C++
         // Create an event handling object, and hook it up to the dialog.
@@ -375,10 +351,7 @@ This is taken from the [Basic Usage](#basic-usage) sample.
             hr = pfd->Advise(pfde, &dwCookie);
 ```
 
-
-
 The bulk of the dialog processing would be placed here.
-
 
 ```C++
                 // Unhook the event handler.
@@ -392,8 +365,6 @@ The bulk of the dialog processing would be placed here.
 }
 ```
 
-
-
 The calling process can use events for notification when the user changes the folder, file type, or selection. These events are particularly useful when the calling process has added controls to the dialog (see [Customizing the Dialog](#customizing-the-dialog)) and must change the state of those controls in reaction to these events. Useful in all cases is the ability of the calling process to provide custom code to deal with situations such as sharing violations, overwriting files, or determining if a file is valid before the dialog closes. Some of those cases are described in this section.
 
 ### OnFileOk
@@ -401,7 +372,6 @@ The calling process can use events for notification when the user changes the fo
 This method is called after the user chooses an item, just before the dialog closes. The application can then call [**IFileDialog::GetResult**](/windows/win32/api/shobjidl_core/nf-shobjidl_core-ifiledialog-getresult) or [**IFileOpenDialog::GetResults**](/windows/win32/api/shobjidl_core/nf-shobjidl_core-ifileopendialog-getresults) as would be done once the dialog had closed. If the item chosen is acceptable, they can return S\_OK. Otherwise, they return S\_FALSE and display UI that tells the user why the chosen item is not valid. If S\_FALSE is returned, the dialog does not close.
 
 The calling process can use the window handle of the dialog itself as the parent of the UI. That handle can be obtained by first calling [**IOleWindow::QueryInterface**](/windows/win32/api/oleidl/nn-oleidl-iolewindow) and then calling [**IOleWindow::GetWindow**](/windows/win32/api/oleidl/nf-oleidl-iolewindow-getwindow) with the handle as shown in this example.
-
 
 ```C++
 HRESULT CDialogEventHandler::OnFileOk(IFileDialog *pfd) 
@@ -454,8 +424,6 @@ HRESULT CDialogEventHandler::_DisplayMessage(IFileDialog *pfd, PCWSTR pszMessage
 }
 ```
 
-
-
 ### OnShareViolation and OnOverwrite
 
 If the user chooses to overwrite a file in the **Save** dialog, or if a file being saved or replaced is in use and cannot be written to (a sharing violation), the application can provide custom functionality to override the default behavior of the dialog. By default, when overwriting a file, the dialog displays a prompt allowing the user to verify this action. For sharing violations, by default the dialog displays an error message, it does not close, and the user is required to make another choice. The calling process can override these defaults and display its own UI if desired. The dialog can be instructed to refuse the file and remain open or accept the file and close successfully.
@@ -467,7 +435,6 @@ A variety of controls can be added to the dialog without supplying a Win32 dialo
 Multiple controls can be added into a "visual group" that moves as a single unit in the layout of the dialog. Groups can have a label associated with them.
 
 Controls can be added only before the dialog is shown. However, once the dialog is displayed, controls can be hidden or shown as desired, perhaps in response to user action. The following examples show how to add a radio button list to the dialog.
-
 
 ```C++
 // Controls
@@ -571,14 +538,9 @@ HRESULT AddCustomControls()
 }
 ```
 
-
-
-
-
 ### Adding Options to the OK Button
 
 Similarly, choices can be added to the **Open** or **Save** buttons, which are the **OK** button for their respective dialog types. The options are accessible through a drop-down list box attached to the button. The first item in the list becomes the text for the button. The following example shows how to provide an **Open** button with two possibilities: "Open" and "Open as read-only".
-
 
 ```C++
 // OpenChoices options
@@ -639,20 +601,16 @@ HRESULT AddOpenChoices()
 }
 ```
 
-
-
-
-
 The user's choice can be verified after the dialog returns from the [**Show**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-imodalwindow-show) method as you would for a ComboBox, or it can verified as part of the handling by [**IFileDialogEvents::OnFileOk**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifiledialogevents-onfileok).
 
 ### Responding to Events in Added Controls
 
 The events handler provided by the calling process can implement [**IFileDialogControlEvents**](/windows/desktop/api/Shobjidl/nn-shobjidl-ifiledialogcontrolevents) in addition to [**IFileDialogEvents**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifiledialogevents). **IFileDialogControlEvents** enables the calling process to react to these events:
 
--   PushButton clicked
--   CheckButton state changed
--   Item selected from a menu, ComboBox, or RadioButton list
--   Control activating. This is sent when a menu is about to display a drop-down list, in case the calling process wants to change the items in the list.
+- PushButton clicked
+- CheckButton state changed
+- Item selected from a menu, ComboBox, or RadioButton list
+- Control activating. This is sent when a menu is about to display a drop-down list, in case the calling process wants to change the items in the list.
 
 ## Full Samples
 
@@ -663,11 +621,4 @@ The following are complete, downloadable C++ samples from the Windows Software D
 
 ## Related topics
 
-<dl> <dt>
-
-[**IID\_PPV\_ARGS**](/windows/win32/api/combaseapi/nf-combaseapi-iid_ppv_args)
-</dt> </dl>
-
- 
-
- 
+- [**IID\_PPV\_ARGS**](/windows/win32/api/combaseapi/nf-combaseapi-iid_ppv_args)

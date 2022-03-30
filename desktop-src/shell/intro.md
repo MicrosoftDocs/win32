@@ -32,8 +32,8 @@ The Windows UI provides users with access to a wide variety of objects necessary
 
 The Shell Developers's Guide follows the usual Windows Software Development Kit (SDK) document conventions. Two conventions in particular should be noted:
 
--   Sample code omits normal error-correction code. This code has been removed only to make the code more readable. You should include all appropriate error-correction code in your own applications.
--   To make sample registry entries clear, key, subkey, and entry names as well as values are displayed with a standard font. User or application-defined item names are italicized.
+- Sample code omits normal error-correction code. This code has been removed only to make the code more readable. You should include all appropriate error-correction code in your own applications.
+- To make sample registry entries clear, key, subkey, and entry names as well as values are displayed with a standard font. User or application-defined item names are italicized.
 
  
 

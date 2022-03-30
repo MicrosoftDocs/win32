@@ -46,9 +46,9 @@ A **BOOL** value that is set to **TRUE** if the status bar is being initialized.
 
 When you receive this notification:
 
--   Return S\_OK if you will handle the update.
--   Return MAKE\_HRESULT(SEVERITY\_SUCCESS,0,1) to have the system folder view object set the status bar text.
--   Return E\_FAIL to have the system folder view object handle the status bar.
+- Return S\_OK if you will handle the update.
+- Return MAKE\_HRESULT(SEVERITY\_SUCCESS,0,1) to have the system folder view object set the status bar text.
+- Return E\_FAIL to have the system folder view object handle the status bar.
 
 The default status bar text is as follows.
 

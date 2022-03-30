@@ -90,8 +90,8 @@ HKEY_CLASSES_ROOT
 
 ## Additional Resources
 
--   For additional background, see [Introduction to File Associations](fa-intro.md).
--   For conceptual information about extending the Shell with file type handlers, see [Creating Shell Extension Handlers](handlers.md).
+- For additional background, see [Introduction to File Associations](fa-intro.md).
+- For conceptual information about extending the Shell with file type handlers, see [Creating Shell Extension Handlers](handlers.md).
 
 ## Related topics
 

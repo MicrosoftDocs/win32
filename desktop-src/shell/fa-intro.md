@@ -29,17 +29,17 @@ This section on file types and file associations is organized as follows:
 
 ## Additional Resources
 
--   Set Program Access and Computer Defaults (SPAD) is a Windows Control Panel which allows users with administrative privilege to set a machine default and hide or show an application. Media, Mail, Browser, Messenger and Java applications are examples of applications registered in SPAD. Set Your Default Programs (SYDP) is a Windows Control Panel, that works with limited privileges, and permits users to set a user default. Any application can register in SYDP. For information about SPAD and SYDP application registration, see [Guidelines for File Associations and Default Programs](appguide-fa-defpro.md), and [Set Program Access and Computer Defaults (SPAD)](cpl-setprogramaccess.md).
--   For related conceptual background, see [Overview of Verbs and File Associations](fa-verbs.md).
--   To create a Shell data store, see [Implementing the Basic Folder Object Interfaces](nse-implement.md).
+- Set Program Access and Computer Defaults (SPAD) is a Windows Control Panel which allows users with administrative privilege to set a machine default and hide or show an application. Media, Mail, Browser, Messenger and Java applications are examples of applications registered in SPAD. Set Your Default Programs (SYDP) is a Windows Control Panel, that works with limited privileges, and permits users to set a user default. Any application can register in SYDP. For information about SPAD and SYDP application registration, see [Guidelines for File Associations and Default Programs](appguide-fa-defpro.md), and [Set Program Access and Computer Defaults (SPAD)](cpl-setprogramaccess.md).
+- For related conceptual background, see [Overview of Verbs and File Associations](fa-verbs.md).
+- To create a Shell data store, see [Implementing the Basic Folder Object Interfaces](nse-implement.md).
 
 For related reference documentation, see the following topics:
 
--   To execute a verb on a Shell item, see the [**InvokeVerb**](folderitem-invokeverb.md) method.
--   To retrieve a collection of verbs that can be executed on a Shell item, see the [**Verbs**](folderitem-verbs.md) method.
--   For performing an operation on a specified file, see either the [**ShellExecute**](/windows/desktop/api/Shellapi/nf-shellapi-shellexecutea) or [**ShellExecuteEx**](/windows/desktop/api/Shellapi/nf-shellapi-shellexecuteexa) functions.
--   For a list of default perceived types, see the [**PERCEIVED**](/windows/win32/api/shtypes/ne-shtypes-perceived) enumeration.
--   To retrieves a file's perceived type based on its extension, see the [**AssocGetPerceivedType**](/windows/desktop/api/Shlwapi/nf-shlwapi-assocgetperceivedtype) function.
+- To execute a verb on a Shell item, see the [**InvokeVerb**](folderitem-invokeverb.md) method.
+- To retrieve a collection of verbs that can be executed on a Shell item, see the [**Verbs**](folderitem-verbs.md) method.
+- For performing an operation on a specified file, see either the [**ShellExecute**](/windows/desktop/api/Shellapi/nf-shellapi-shellexecutea) or [**ShellExecuteEx**](/windows/desktop/api/Shellapi/nf-shellapi-shellexecuteexa) functions.
+- For a list of default perceived types, see the [**PERCEIVED**](/windows/win32/api/shtypes/ne-shtypes-perceived) enumeration.
+- To retrieves a file's perceived type based on its extension, see the [**AssocGetPerceivedType**](/windows/desktop/api/Shlwapi/nf-shlwapi-assocgetperceivedtype) function.
 
  
 

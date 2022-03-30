@@ -34,11 +34,11 @@ This section describes some of the benefits of libraries from the end-user's per
 
 Adding library support to your program provides the following benefits to the user:
 
--   **Libraries provide a consistent user interface in Windows 7**
+- **Libraries provide a consistent user interface in Windows 7**
 
     The common file dialog boxes support libraries and provide the same user experience as the Windows Explorer in Windows 7. Supporting libraries in your program will help provide a more seamless interaction for the user when using your program in Windows 7.
 
--   **Users decide where to store content**
+- **Users decide where to store content**
 
     Libraries make it possible for users to control where their content is stored. At the same time, libraries provide reasonable defaults for users who do not want to manage that level of detail in their computer. Users decide how much, or how little, control they want to exercise over where and how their content is stored and the library works fine either way.
 
@@ -46,19 +46,19 @@ Adding library support to your program provides the following benefits to the us
 
 You can use libraries in your program to provide a more flexible and convenient user interface without having to add a lot of complex program code. Some of the advantages of adding library support include:
 
--   **Libraries support library and file-system access**
+- **Libraries support library and file-system access**
 
     Using the [**Shell Library API**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelllibrary), programs can provide library support for the user while reducing the complexity of their file and folder management code. If your program already uses the file-system API, you can preserve as much of that existing code as you want and still provide library support to the user by getting the necessary file-system information from the **Shell Library API**.
 
--   **Simpler change notification**
+- **Simpler change notification**
 
     Both the file-system and the Shell API can notify your program when the contents of a monitored folder or library change. Using the Shell API, however, you can monitor all the folders in the library with a single notification, even though the folder in the library may be stored on different drives or even different computers.
 
--   **Libraries use file properties**
+- **Libraries use file properties**
 
     Programs can use the file properties to control which files are displayed during open and save operations that use the common file dialog boxes. Programs can also have access to file properties by using the [**IPropertyStore**](/windows/win32/api/propsys/nn-propsys-ipropertystore) interfaces. The common file dialog boxes can also be configured allow users to update the properties that are associated with their content.
 
--   **Programs can create dedicated libraries**
+- **Programs can create dedicated libraries**
 
     A new library can be created when an existing user libraries does not meet the program's needs—for example, if a program creates a new type of user content. The new library can be configured with a unique icon that represents their content and makes the library easy to identify in the Windows Explorer.
 

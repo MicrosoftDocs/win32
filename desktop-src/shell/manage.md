@@ -10,9 +10,9 @@ ms.date: 05/31/2018
 
 The Shell provides a number of ways to manage file systems. The Shell provides a function, [**SHFileOperation**](/windows/desktop/api/Shellapi/nf-shellapi-shfileoperationa), that allows an application to programmatically move, copy, rename, and delete files. The Shell also supports some additional file management capabilities.
 
--   HTML documents can be *connected* to related files, such as graphics files or style sheets. When the document is moved or copied, the connected files are automatically moved or copied as well.
--   For systems that are available to more than one user, files can be managed on a per-user basis. Users have easy access to their data files, but not to files belonging to other users.
--   If document files are added or modified, they can be added to the Shell's list of recent documents. When the user clicks the **Documents** command on the Start menu, a list of links to the documents appears.
+- HTML documents can be *connected* to related files, such as graphics files or style sheets. When the document is moved or copied, the connected files are automatically moved or copied as well.
+- For systems that are available to more than one user, files can be managed on a per-user basis. Users have easy access to their data files, but not to files belonging to other users.
+- If document files are added or modified, they can be added to the Shell's list of recent documents. When the user clicks the **Documents** command on the Start menu, a list of links to the documents appears.
 
 This document discusses how these file management technologies work. It then outlines how to use the Shell to move, copy, rename, and delete files, and how to manage objects in the Recycle Bin.
 
@@ -183,10 +183,10 @@ This value normally is not defined, and file connection is enabled. If necessary
 
 The namespace is not static, and applications commonly need to manage the file system by performing one of the following operations.
 
--   Copying an object to another folder.
--   Moving an object to another folder.
--   Deleting an object.
--   Renaming an object.
+- Copying an object to another folder.
+- Moving an object to another folder.
+- Deleting an object.
+- Renaming an object.
 
 These operations are all performed with [**SHFileOperation**](/windows/desktop/api/Shellapi/nf-shellapi-shfileoperationa). This function takes one or more source files and produces corresponding destination files. In the case of the delete operation, the system attempts to put the deleted files into the Recycle Bin.
 
@@ -198,21 +198,21 @@ The **pFrom** member is a double **null**-terminated string that contains one or
 
 The **pTo** member is a double **null**-terminated string, much like **pFrom**. The **pTo** member contains the names of one or more fully qualified destination names. They are packed into **pTo** in the same way as they are for **pFrom**. If **pTo** contains multiple names, you must also set the **FOF\_MULTIDESTFILES** flag in the **fFlags** member. The usage of **pTo** depends on the operation as described here.
 
--   For copy and move operations, if all the files are going to a single directory, **pTo** contains the fully qualified directory name. If the files are going to different destinations, **pTo** can also contain one fully qualified directory or file name for each source file. If a directory does not exist, the system creates it.
--   For rename operations, **pTo** contains one fully qualified path for each source file in **pFrom**.
--   For delete operations, **pTo** is not used.
+- For copy and move operations, if all the files are going to a single directory, **pTo** contains the fully qualified directory name. If the files are going to different destinations, **pTo** can also contain one fully qualified directory or file name for each source file. If a directory does not exist, the system creates it.
+- For rename operations, **pTo** contains one fully qualified path for each source file in **pFrom**.
+- For delete operations, **pTo** is not used.
 
 ### Notifying the Shell
 
 Notify the Shell of the change after using [**SHFileOperation**](/windows/desktop/api/Shellapi/nf-shellapi-shfileoperationa) to move, copy, rename, or delete files, or after taking any other action that affects the namespace. Actions that should be accompanied by notification include the following:
 
--   Adding or deleting files or folders.
--   Moving, copying, or renaming files or folders.
--   Changing a file association.
--   Changing file attributes.
--   Adding or removing drives or storage media.
--   Creating or disabling a shared folder.
--   Changing the system image list.
+- Adding or deleting files or folders.
+- Moving, copying, or renaming files or folders.
+- Changing a file association.
+- Changing file attributes.
+- Adding or removing drives or storage media.
+- Creating or disabling a shared folder.
+- Changing the system image list.
 
 An application notifies the Shell by calling [**SHChangeNotify**](/windows/desktop/api/shlobj_core/nf-shlobj_core-shchangenotify) with the details of what has changed. The Shell can then update its image of the namespace to accurately reflect its new state.
 

@@ -351,11 +351,11 @@ BOOL SHQueueUserWorkItem(LPTHREAD_START_ROUTINE pfnCallback,
 
 The parameters should be set as follows:
 
--   The *pfnCallback* and *pContext* parameters have the same meanings as the *Function* and *Context* parameters, respectively, of [**QueueUserWorkItem**](/windows/win32/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-queueuserworkitem).
--   The *dwTag* parameter is unused and must be set to 0.
--   The *pdwld* parameter is unused and must be set to **NULL**.
--   The *pszModule* parameter points to an optional null-terminated ANSI string that specifies the name of a library to be loaded before the work item begins and unloaded after the work item completes. This parameter can be **NULL**.
--   The *dwFlags* parameter supports only a subset of the values supported by [**QueueUserWorkItem**](/windows/win32/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-queueuserworkitem). The following flags are recognized.
+- The *pfnCallback* and *pContext* parameters have the same meanings as the *Function* and *Context* parameters, respectively, of [**QueueUserWorkItem**](/windows/win32/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-queueuserworkitem).
+- The *dwTag* parameter is unused and must be set to 0.
+- The *pdwld* parameter is unused and must be set to **NULL**.
+- The *pszModule* parameter points to an optional null-terminated ANSI string that specifies the name of a library to be loaded before the work item begins and unloaded after the work item completes. This parameter can be **NULL**.
+- The *dwFlags* parameter supports only a subset of the values supported by [**QueueUserWorkItem**](/windows/win32/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-queueuserworkitem). The following flags are recognized.
 
     
 
@@ -424,14 +424,14 @@ The MSLU does not have these limitations.
  
 
 
--   (a) The ANSI string being measured or retrieved must satisfy the following condition: the length of the corresponding Unicode version of the string cannot exceed the length of the ANSI version of the string. If this condition is not met, the returned length will be short. If there is insufficient memory to determine the length of the Unicode string, the function returns zero, not LB\_ERR or CB\_ERR as might be expected.
--   (b) If string conversion is necessary, all strings are converted through the CP\_ACP code page.
+- (a) The ANSI string being measured or retrieved must satisfy the following condition: the length of the corresponding Unicode version of the string cannot exceed the length of the ANSI version of the string. If this condition is not met, the returned length will be short. If there is insufficient memory to determine the length of the Unicode string, the function returns zero, not LB\_ERR or CB\_ERR as might be expected.
+- (b) If string conversion is necessary, all strings are converted through the CP\_ACP code page.
 
     This function employs best-fit characters and does not perform default checking when converting from Unicode to ANSI. Furthermore, if the string cannot be converted from Unicode to ANSI, the function passes a null string to the underlying ANSI function. This can occur, for example, when there is insufficient memory. Passing a null string may cause some functions to fail with an invalid parameter error, but other functions accept the null string and treat it as the intended parameter. For example, if an error occurs when the WM\_SETTEXT wrapper attempts to convert the window title to ANSI, the window will have an empty caption. The function does not notify you when these problems occur. The MSLU does not have these limitations.
 
--   (c) The specified window handle must be the handle to a [ComboBox](../controls/combo-boxes.md) or [ComboBoxEx](../controls/comboboxex-controls.md) control. If the handle is to a combobox control that is owner-draw and was not created with the [List Box Styles](../controls/list-box-styles.md) style, then the translation of this message will fail and may even crash.
--   (d) The specified window handle must be the handle to a listbox control. If the listbox is owner-draw and was not created with the [List Box Styles](../controls/list-box-styles.md) style, then the translation of this message will fail and may even crash.
--   (e) If string conversion is necessary, all strings are converted through the CP\_ACP code page.
+- (c) The specified window handle must be the handle to a [ComboBox](../controls/combo-boxes.md) or [ComboBoxEx](../controls/comboboxex-controls.md) control. If the handle is to a combobox control that is owner-draw and was not created with the [List Box Styles](../controls/list-box-styles.md) style, then the translation of this message will fail and may even crash.
+- (d) The specified window handle must be the handle to a listbox control. If the listbox is owner-draw and was not created with the [List Box Styles](../controls/list-box-styles.md) style, then the translation of this message will fail and may even crash.
+- (e) If string conversion is necessary, all strings are converted through the CP\_ACP code page.
 
     When converting from ANSI to Unicode for output, the wrapper functions truncate the returned string if it does not fit in the provided buffer. The return value for functions that return the number of characters copied to the buffer or the number of characters necessary to avoid truncation refers to the number of ANSI characters copied to the buffer or required by the underlying ANSI function, not the number of Unicode characters copied to the buffer provided by or required from the calling application that called the wrapper function. The MSLU does not have this limitation. For further details, see [Microsoft Layer for Unicode on Windows 95/98/Me Systems](/previous-versions/ms812865(v=msdn.10)).
 
@@ -451,10 +451,10 @@ HANDLE SHSetTimerQueueTimer(HANDLE hQueue,
 
 The parameters should be set as follows:
 
--   The *hQueue* parameter must be set to **NULL**, specifying the default timer queue.
--   The *pfnCallback*, *pContext*, *dwDueTime*, and *dwPeriod* parameters have the same meanings as the *Callback*, *Parameter*, *DueTime*, and *Period* parameters, respectively, of [**CreateTimerQueueTimer**](/windows/win32/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-createtimerqueuetimer).
--   The *lpszLibrary* parameter is unused and must be set to **NULL**.
--   The *Flags* parameter supports only a subset of the values supported by [**CreateTimerQueueTimer**](/windows/win32/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-createtimerqueuetimer).
+- The *hQueue* parameter must be set to **NULL**, specifying the default timer queue.
+- The *pfnCallback*, *pContext*, *dwDueTime*, and *dwPeriod* parameters have the same meanings as the *Callback*, *Parameter*, *DueTime*, and *Period* parameters, respectively, of [**CreateTimerQueueTimer**](/windows/win32/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-createtimerqueuetimer).
+- The *lpszLibrary* parameter is unused and must be set to **NULL**.
+- The *Flags* parameter supports only a subset of the values supported by [**CreateTimerQueueTimer**](/windows/win32/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-createtimerqueuetimer).
 
     
 

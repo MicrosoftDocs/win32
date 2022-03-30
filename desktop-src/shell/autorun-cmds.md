@@ -58,19 +58,19 @@ action=@[filepath\]filename,-resourceID
 
 ### Parameters
 
--   *ActionText*
+- *ActionText*
 
     Text that is used in the Autoplay dialog for the handler representing the program specified in the [open](#parameters) or [shellexecute](#shellexecute) entry in the media's Autorun.inf file.
 
--   *filepath*
+- *filepath*
 
     A string that contains the fully qualified path of the directory that contains the binary file containing the string. If no path is specified, the file must be in the drive's root directory.
 
--   *filename*
+- *filename*
 
     A string that contains the binary file's name.
 
--   *resourceID*
+- *resourceID*
 
     The ID of the string within the binary file.
 
@@ -99,7 +99,7 @@ CustomEvent=CustomEventName
 
 ### Parameters
 
--   *CustomEventName*
+- *CustomEventName*
 
     A text string containing the name of the AutoPlay content event. The name must be no more than 100 alphanumeric characters.
 
@@ -129,7 +129,7 @@ icon=iconfilename[,index]
 
 ### Parameters
 
--   *iconfilename*
+- *iconfilename*
 
     Name of an .ico, .bmp, .exe, or .dll file containing the icon information. If a file contains more than one icon, you must also specify zero-based index of the icon.
 
@@ -159,7 +159,7 @@ label=LabelText
 
 ### Parameters
 
--   *LabelText*
+- *LabelText*
 
     A text string containing the label. It can contain spaces and should be no longer than 32 characters.
 
@@ -194,7 +194,7 @@ open=[exepath\]exefile [param1 [param2] ...]
 
 ### Parameters
 
--   *exefile*
+- *exefile*
 
     Fully qualified path of an executable file that runs when the CD is inserted. If only a file name is specified, it must be in drive's root directory. To locate the file in a subdirectory, you must specify a path. You can also include one or more command-line parameters to pass to the startup application.
 
@@ -243,8 +243,8 @@ shellexecute="Readme.txt"
 
 The action taken by the Shell when this CD is inserted depends on the version of Windows in use:
 
--   On Windows XP or earlier, this CD is handled by AutoRun when it is inserted. In this case, the **shellexecute** entry is read, and the Shell invokes the file handler associated with .txt files; typically this would open Readme.txt in Notepad.
--   On Windows Vista, the presence of an Autorun.inf file with a **shellexecute** entry causes the media to be identified as AutoPlay type "Software and games". In this case the user is presented with an AutoPlay dialog that includes the action specified by the **shellexecute** entry (presented as "Load Readme.txt" in the dialog), along with default actions associated with media of type "Software and games".
+- On Windows XP or earlier, this CD is handled by AutoRun when it is inserted. In this case, the **shellexecute** entry is read, and the Shell invokes the file handler associated with .txt files; typically this would open Readme.txt in Notepad.
+- On Windows Vista, the presence of an Autorun.inf file with a **shellexecute** entry causes the media to be identified as AutoPlay type "Software and games". In this case the user is presented with an AutoPlay dialog that includes the action specified by the **shellexecute** entry (presented as "Load Readme.txt" in the dialog), along with default actions associated with media of type "Software and games".
 
 To indicate that AutoPlay should be used rather than AutoRun on Windows XP, and that the action specified by the AutoRun shellexecute entry should be suppressed from the AutoPlay dialog on Windows Vista, insert **UseAutoPlay** into the Autorun.inf file as follows:
 
@@ -259,8 +259,8 @@ UseAutoPlay=1
 
 Once again, the action taken by the Shell when this CD is inserted depends on the version of Windows in use.
 
--   On versions of Windows earlier than Windows XP, AutoRun is still used and the action specified by **shellexecute** is performed, as described previously. (Note that only AutoRun is available on versions of Windows earlier than Windows XP.)
--   On Windows XP, the **UseAutoPlay** entry causes AutoPlay to be used in place of AutoRun. In this case, AutoPlay determines that the media contains a Windows Media Audio (.wma) file and categorizes the content as "Music files". The user is presented with an AutoPlay dialog containing registered handlers for the "Music files" AutoPlay media type; the AutoRun shellexecute entry is ignored.
+- On versions of Windows earlier than Windows XP, AutoRun is still used and the action specified by **shellexecute** is performed, as described previously. (Note that only AutoRun is available on versions of Windows earlier than Windows XP.)
+- On Windows XP, the **UseAutoPlay** entry causes AutoPlay to be used in place of AutoRun. In this case, AutoPlay determines that the media contains a Windows Media Audio (.wma) file and categorizes the content as "Music files". The user is presented with an AutoPlay dialog containing registered handlers for the "Music files" AutoPlay media type; the AutoRun shellexecute entry is ignored.
 
 ### shellexecute
 
@@ -275,15 +275,15 @@ shellexecute=[filepath\]filename[param1, [param2]...]
 
 ### Parameters
 
--   *filepath*
+- *filepath*
 
     A string that contains the fully qualified path of the directory that contains the data or executable file. If no path is specified, the file must be in the drive's root directory.
 
--   *filename*
+- *filename*
 
     A string that contains the file's name. If it is an executable file, it is launched. If it is a data file, it must be a member of a [file type](fa-file-types.md). [**ShellExecuteEx**](/windows/desktop/api/Shellapi/nf-shellapi-shellexecuteexa) launches the default command associated with the file type.
 
--   *paramx*
+- *paramx*
 
     Contains any additional parameters that should be passed to [**ShellExecuteEx**](/windows/desktop/api/Shellapi/nf-shellapi-shellexecuteexa).
 
@@ -304,7 +304,7 @@ shell=verb
 
 ### Parameters
 
--   *verb*
+- *verb*
 
     The verb that corresponds to the menu command. The verb and its associated menu command must be defined in the Autorun.inf file with a [shell\\verb](#shellverb) entry.
 
@@ -328,15 +328,15 @@ shell\verb=MenuText
 
 ### Parameters
 
--   *verb*
+- *verb*
 
     The menu command's verb. The **shell\\***verb***\\command** entry associates the verb with an executable file. Verbs must not contain embedded spaces. By default, *verb* is the text that is displayed in the shortcut menu.
 
--   *Filename.exe*
+- *Filename.exe*
 
     The path and file name of the application that performs the action.
 
--   *MenuText*
+- *MenuText*
 
     This parameter specifies the text that is displayed in the shortcut menu. If it is omitted, *verb* is displayed. *MenuText* can be mixed-case and can contain spaces. You can set a shortcut key for the menu item by putting an ampersand (&) in front of the letter.
 
@@ -438,7 +438,7 @@ DriverPath=directorypath
 
 ### Parameters
 
--   *directorypath*
+- *directorypath*
 
     A path to a directory that Windows searches for driver files, along with all of its subdirectories.
 

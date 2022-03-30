@@ -27,10 +27,10 @@ The Shell *namespace* organizes the file system and other objects managed by the
 
 One of the primary responsibilities of the Shell is managing and providing access to the wide variety of objects that make up the system. The most numerous and familiar of these objects are the folders and files that reside on computer disk drives. However, the Shell manages a number of nonfile system, or *virtual* objects, as well. Some examples include:
 
--   Network printers
--   Other networked computers
--   Control Panel applications
--   The Recycle Bin
+- Network printers
+- Other networked computers
+- Control Panel applications
+- The Recycle Bin
 
 Some virtual objects do not involve physical storage at all. The printer object, for instance, contains a collection of links to networked printers. Other virtual objects, such as the Recycle Bin, may contain data that is stored on a disk drive, but needs to be handled differently than normal files. For example, a virtual object can be used to represent data stored in a database. In terms of the namespace, the various items in the database could appear in the Windows Explorer as separate objects, even though they are all stored in a single disk file.
 
@@ -40,9 +40,9 @@ Like the file system, the namespace includes two basic types of object: folders 
 
 Like file system folders, the collection of virtual folders generally varies from system to system. There are three classes of virtual folders:
 
--   Standard virtual folders, such as the Recycle Bin, that are found on all systems.
--   Optional virtual folders that have standard names and functionality, but may not be present on all systems.
--   Non-standard folders that are installed by the user.
+- Standard virtual folders, such as the Recycle Bin, that are found on all systems.
+- Optional virtual folders that have standard names and functionality, but may not be present on all systems.
+- Non-standard folders that are installed by the user.
 
 Unlike file system folders, users cannot create new virtual folders themselves. They can only install ones created by non-Microsoft developers. The number of virtual folders is thus normally much fewer than the number of file system folders. For a discussion of how to implement virtual folders see [Namespace Extensions](nse-works.md).
 

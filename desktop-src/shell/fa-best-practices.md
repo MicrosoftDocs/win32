@@ -81,8 +81,8 @@ Always use [versioned ProgIDs](fa-progids.md), even if there is only one version
 
 Long file name extensions offer the following advantages:
 
--   The limited length of short extensions make them prone to *extension collisions.* An extension collision occurs when the same extension is used to classify multiple file types. Using long extensions significantly decreases the chances of a collision.
--   Short file names tend to be somewhat cryptic. Long extensions tend to be more meaningful because additional information can be embedded in the extension.
+- The limited length of short extensions make them prone to *extension collisions.* An extension collision occurs when the same extension is used to classify multiple file types. Using long extensions significantly decreases the chances of a collision.
+- Short file names tend to be somewhat cryptic. Long extensions tend to be more meaningful because additional information can be embedded in the extension.
 
 For more information, see [file name extensions](fa-file-extensions.md).
 

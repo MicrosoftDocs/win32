@@ -72,17 +72,17 @@ To scope a search using the **search:** protocol, you have different options dep
 
 Folder on a local machine:
 
--   Use AQS (crumb=folder:<URL-encoded path>)
--   Use location argument (crumb=location:<URL-encoded path>)
+- Use AQS (crumb=folder:<URL-encoded path>)
+- Use location argument (crumb=location:<URL-encoded path>)
 
 Folder on a remote machine/network:
 
--   Use location argument (crumb=location:<URL-encoded path>)
+- Use location argument (crumb=location:<URL-encoded path>)
 
 Folder accessed through a known Universal Naming Convention (UNC) protocol handler:
 
--   Use AQS (crumb=store:<UNC protocol handler name>)
--   Use location argument (crumb=location:<URL-encoded path>)
+- Use AQS (crumb=store:<UNC protocol handler name>)
+- Use location argument (crumb=location:<URL-encoded path>)
 
 ### Vista Examples
 

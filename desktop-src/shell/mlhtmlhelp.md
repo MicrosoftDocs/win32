@@ -94,8 +94,8 @@ Type: **HWND**
 
 Depending on the specified *uCommand* and the result, **MLHtmlHelp** returns one or both of the following:
 
--   The handle (hwnd) of the help window.
--   **NULL**. In some cases, **NULL** indicates failure; in other cases, **NULL** indicates that the help window has not yet been created.
+- The handle (hwnd) of the help window.
+- **NULL**. In some cases, **NULL** indicates failure; in other cases, **NULL** indicates that the help window has not yet been created.
 
 ## Remarks
 

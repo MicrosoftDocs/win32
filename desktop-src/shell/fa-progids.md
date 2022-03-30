@@ -64,8 +64,8 @@ HKEY_CLASSES_ROOT
 
 A versioned ProgID is one whose version is indicated in its name. You typically do this by adding a period and the version number to the name. For example:
 
--   Word.Document.6
--   Word.Document.8
+- Word.Document.6
+- Word.Document.8
 
 These are versioned ProgIDs, with versions 6 and 8 respectively. If you have a side-by-side application, that is, one that supports multiple versions of your application installed at the same time, then use CurVer and Version Independent ProgIDs. Otherwise, CurVer and Version Independent ProgIDs should be avoided because they will lead to inefficiency.
 

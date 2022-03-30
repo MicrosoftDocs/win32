@@ -19,15 +19,15 @@ This topic explains how to register a program in the Windows registry as one of 
 > [!Note]  
 > This information applies to the following operating systems:
 > 
-> -   Windows 2000 Service Pack 3 (SP3)
-> -   Windows 2000 Service Pack 4 (SP4)
-> -   Windows XP Service Pack 1 (SP1)
-> -   Windows XP Service Pack 2 (SP2)
-> -   Windows XP Service Pack 3 (SP3)
-> -   Windows Server 2003
-> -   Windows Vista
-> -   Windows Vista Service Pack 1 (SP1)
-> -   Windows 8
+> - Windows 2000 Service Pack 3 (SP3)
+> - Windows 2000 Service Pack 4 (SP4)
+> - Windows XP Service Pack 1 (SP1)
+> - Windows XP Service Pack 2 (SP2)
+> - Windows XP Service Pack 3 (SP3)
+> - Windows Server 2003
+> - Windows Vista
+> - Windows Vista Service Pack 1 (SP1)
+> - Windows 8
 
  
 
@@ -80,11 +80,11 @@ HKEY_LOCAL_MACHINE
 
 *ClientTypeName* is one of the following subkey names:
 
--   StartMenuInternet (for browsers)
--   Mail (for email)
--   Media (for media playback)
--   IM (for instant messaging)
--   JavaVM (for virtual machine for Java)
+- StartMenuInternet (for browsers)
+- Mail (for email)
+- Media (for media playback)
+- IM (for instant messaging)
+- JavaVM (for virtual machine for Java)
 
 Throughout this topic, you will note references to a fictional computer program named "Lit View" by Litware Inc., with an executable file named Litview.exe. This hypothetical program is used interchangeably as an instant messenger, a browser, or another type of client program as needed for illustrative purposes.
 
@@ -98,10 +98,10 @@ For browser clients, the canonical name must be the name—including the extensi
 
 Here are some examples of canonical names.
 
--   Iexplore.exe (browser)
--   Windows Mail (email)
--   Windows Media Player (media)
--   Windows Messenger (instant messaging)
+- Iexplore.exe (browser)
+- Windows Mail (email)
+- Windows Media Player (media)
+- Windows Messenger (instant messaging)
 
 Register the canonical name by creating a subkey as shown here. The name of the subkey is the canonical name. All information relating to that program's registration will exist under this subkey.
 
@@ -176,8 +176,8 @@ The **FilePath** value is the full path to the file that contains the icon. This
 
 The **IconIndex** value is interpreted as follows:
 
--   If **IconIndex** is a positive number, the number is used as the index of the *zero-based* array of icons stored in the file. For example, if **IconIndex** is 1, the second icon is loaded from the file.
--   If **IconIndex** is a negative number, the absolute value of **IconIndex** is used as the resource identifier (rather than the index) for the icon. For example, if **IconIndex** is -3, the icon whose resource identifier is 3 is loaded from the file.
+- If **IconIndex** is a positive number, the number is used as the index of the *zero-based* array of icons stored in the file. For example, if **IconIndex** is 1, the second icon is loaded from the file.
+- If **IconIndex** is a negative number, the absolute value of **IconIndex** is used as the resource identifier (rather than the index) for the icon. For example, if **IconIndex** is -3, the icon whose resource identifier is 3 is loaded from the file.
 
 The following example shows the registration of a hypothetical Lit View browser. The second icon stored in the Litview.exe file is used as the default.
 
@@ -306,12 +306,12 @@ Once the reinstall process is complete, the program launched by the reinstall co
 
 The command line declared in the HideIconsCommand value is executed when the user clears the **Enable access to this program** box in the **Set Program Access and Computer Defaults** page. This command line must hide all of your program's access points that are visible in the user interface. The specific guidelines are to remove shortcuts and icons from the following locations:
 
--   Desktop icons
--   Start menu links, including the **Startup** group
--   Quick Launch bar links
--   Notification area
--   Shortcut menus
--   Folder task band
+- Desktop icons
+- Start menu links, including the **Startup** group
+- Quick Launch bar links
+- Notification area
+- Shortcut menus
+- Folder task band
 
 This command line must also prevent automatic invocations of the program, such as those specified in the **Run** registry key. Vendors are encouraged to implement these guidelines in the application's Hide Access callback.
 
@@ -335,23 +335,23 @@ The IconsVisible entry is of type **REG\_DWORD**.
 
 For some legacy applications, a full implementation of Hide Access may not be practical. An alternative method that achieves the same effect is to uninstall the application. The section below shows example behavior and sample code to implement this alternative. In general, independent software vendors (ISVs) should avoid this alternative since it will:
 
--   Uninstall the application completely from the system.
--   Remove previously selected defaults.
--   Leave no UI option to reinstall the application.
--   Make the enable access feature no longer available, since an uninstallation removes the application completely from SPAD.
+- Uninstall the application completely from the system.
+- Remove previously selected defaults.
+- Leave no UI option to reinstall the application.
+- Make the enable access feature no longer available, since an uninstallation removes the application completely from SPAD.
 
 The recommended user experience is as follows:
 
--   When the user unchecks the **Enable access to this program** box in SPAD, the following UI is presented.
+- When the user unchecks the **Enable access to this program** box in SPAD, the following UI is presented.
 
     ![dialog box about hiding access to the program](images/hideaccessvista.png)
 
--   When the user selects **OK**, the **Programs and Features** Control Panel item launches to allow the user to uninstall the application.
--   Windows XP users should be presented with this dialog box.
+- When the user selects **OK**, the **Programs and Features** Control Panel item launches to allow the user to uninstall the application.
+- Windows XP users should be presented with this dialog box.
 
     ![equivalent windows xp dialog box](images/hideaccessxp.png)
 
--   When the Windows XP user selects **OK**, the **Add or Remove Programs** Control Panel item launches to allow the user to uninstall the application.
+- When the Windows XP user selects **OK**, the **Add or Remove Programs** Control Panel item launches to allow the user to uninstall the application.
 
 The following code provides a reusable implementation for the Hide Access feature as outlined above. It can be used on Windows XP, Windows Vista, and Windows 7.
 
@@ -472,9 +472,9 @@ The **OEMDefault** entry, if present and set to 1, establishes the OEM preferenc
 
 In addition to the option to reset their computers to the default configuration established by the OEM, users have three other configuration options:
 
--   Set their computer to a Microsoft Windows configuration. In this case, the **Set Program Access and Computer Defaults** page enables access to all Microsoft and non-Microsoft software on the computer registered in the relevant product categories. Microsoft Windows programs are selected as the default option for each category.
--   Set their computer to a non-Microsoft configuration. This configuration hides access points (such as the **Start** menu) to Windows Internet Explorer, Windows Media Player, Windows Messenger, and Microsoft Outlook Express. It enables access to the non-Microsoft software on the computer in these categories. Furthermore, if a non-Microsoft program is available in a category, it is set as the default for that category. If more than one non-Microsoft program is available in a category, the user is asked to choose which non-Microsoft program should be used as the default.
--   Establish a custom configuration. Users make their own selections for enabling or removing access, mixing Microsoft and non-Microsoft programs as they see fit. Users establish default options on a category-by-category basis.
+- Set their computer to a Microsoft Windows configuration. In this case, the **Set Program Access and Computer Defaults** page enables access to all Microsoft and non-Microsoft software on the computer registered in the relevant product categories. Microsoft Windows programs are selected as the default option for each category.
+- Set their computer to a non-Microsoft configuration. This configuration hides access points (such as the **Start** menu) to Windows Internet Explorer, Windows Media Player, Windows Messenger, and Microsoft Outlook Express. It enables access to the non-Microsoft software on the computer in these categories. Furthermore, if a non-Microsoft program is available in a category, it is set as the default for that category. If more than one non-Microsoft program is available in a category, the user is asked to choose which non-Microsoft program should be used as the default.
+- Establish a custom configuration. Users make their own selections for enabling or removing access, mixing Microsoft and non-Microsoft programs as they see fit. Users establish default options on a category-by-category basis.
 
 Users are free to change any of these options at any time.
 

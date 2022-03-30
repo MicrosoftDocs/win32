@@ -28,16 +28,16 @@ This document discusses how applications can implement drag-and-drop and Clipboa
 
 Applications often need to provide users with a way to transfer Shell data. Some examples are:
 
--   Dragging a file from Windows Explorer or the desktop and dropping it on an application.
--   Copying a file to the Clipboard in Windows Explorer and pasting it into an application.
--   Dragging a file from an application to the Recycle Bin.
+- Dragging a file from Windows Explorer or the desktop and dropping it on an application.
+- Copying a file to the Clipboard in Windows Explorer and pasting it into an application.
+- Dragging a file from an application to the Recycle Bin.
 
 For a detailed discussion of how to handle these and other scenarios, see [Handling Shell Data Transfer Scenarios](datascenarios.md). This document focuses on the general principles behind Shell data transfer.
 
 Windows provides two standard ways for applications to transfer Shell data:
 
--   A user cuts or copies Shell data, such as one or more files, to the Clipboard. The other application retrieves the data from the Clipboard.
--   A user drags an icon that represents the data from the source application and drops the icon on a window owned by the target.
+- A user cuts or copies Shell data, such as one or more files, to the Clipboard. The other application retrieves the data from the Clipboard.
+- A user drags an icon that represents the data from the source application and drops the icon on a window owned by the target.
 
 In both cases, the transferred data is contained in a *data object*. Data objects are Component Object Model (COM) objects that expose the [**IDataObject**](/windows/win32/api/objidl/nn-objidl-idataobject) interface. Schematically, there are three essential steps that all Shell data transfers must follow:
 
@@ -61,19 +61,19 @@ The Clipboard is the simplest way to transfer Shell data. The basic procedure is
 
 While somewhat more complex to implement, drag-and-drop data transfer has some significant advantages over the Clipboard:
 
--   Drag-and-drop transfers can be done with a simple mouse movement, making operation more flexible and intuitive to use than the Clipboard.
--   Drag-and-drop provides the user with a visual representation of the operation. The user can follow the icon as it moves from source to target.
--   Drag-and-drop notifies the target when the data is available.
+- Drag-and-drop transfers can be done with a simple mouse movement, making operation more flexible and intuitive to use than the Clipboard.
+- Drag-and-drop provides the user with a visual representation of the operation. The user can follow the icon as it moves from source to target.
+- Drag-and-drop notifies the target when the data is available.
 
 Drag-and-drop operations also use data objects to transfer data. However, the drop source must provide functionality beyond that required for Clipboard transfers:
 
--   The drop source must also create an object that exposes an [**IDropSource**](/windows/win32/api/oleidl/nn-oleidl-idropsource) interface. The system uses **IDropSource** to communicate with the source while the operation is in progress.
--   The drag-and-drop data object is responsible for tracking cursor movement and displaying an icon to represent the data object.
+- The drop source must also create an object that exposes an [**IDropSource**](/windows/win32/api/oleidl/nn-oleidl-idropsource) interface. The system uses **IDropSource** to communicate with the source while the operation is in progress.
+- The drag-and-drop data object is responsible for tracking cursor movement and displaying an icon to represent the data object.
 
 Drop targets must also provide more functionality than is needed to handle Clipboard transfers:
 
--   The drop target must expose an [**IDropTarget**](/windows/win32/api/oleidl/nn-oleidl-idroptarget) interface. When the cursor is over a target window, the system uses **IDropTarget** to provide the target with information such as the cursor position, and to notify it when the data is dropped.
--   The drop target must register itself with the system by calling [**RegisterDragDrop**](/windows/win32/api/ole2/nf-ole2-registerdragdrop). This function provides the system with the handle to a target window and a pointer to the target application's [**IDropTarget**](/windows/win32/api/oleidl/nn-oleidl-idroptarget) interface.
+- The drop target must expose an [**IDropTarget**](/windows/win32/api/oleidl/nn-oleidl-idroptarget) interface. When the cursor is over a target window, the system uses **IDropTarget** to provide the target with information such as the cursor position, and to notify it when the data is dropped.
+- The drop target must register itself with the system by calling [**RegisterDragDrop**](/windows/win32/api/ole2/nf-ole2-registerdragdrop). This function provides the system with the handle to a target window and a pointer to the target application's [**IDropTarget**](/windows/win32/api/oleidl/nn-oleidl-idroptarget) interface.
 
 > [!Note]  
 > For drag-and-drop operations, your application must initialize COM with [**OleInitialize**](/windows/win32/api/ole2/nf-ole2-oleinitialize), not [**CoInitialize**](/windows/win32/api/objbase/nf-objbase-coinitialize).
@@ -94,9 +94,9 @@ The following procedure outlines the essential steps that are typically used to 
 
 While the procedures outlined above provide a good general model for Shell data transfer, there are many different types of data that can be contained in a Shell data object. There are also a number of different data transfer scenarios that your application might need to handle. Each data type and scenario requires a somewhat different approach to three key steps in the procedure:
 
--   How a source constructs a data object to contain the Shell data.
--   How a target extracts Shell data from the data object.
--   How the source completes the data transfer operation.
+- How a source constructs a data object to contain the Shell data.
+- How a target extracts Shell data from the data object.
+- How the source completes the data transfer operation.
 
 The [Shell Data Object](dataobject.md) provides a general discussion of how a source constructs a Shell data object, and how that data object can be handled by the target. [Handling Shell Data Transfer Scenarios](datascenarios.md) discusses in detail how to handle a number of common Shell data transfer scenarios.
 

@@ -22,11 +22,11 @@ Choose from the four layout patterns: Alpha, Beta, Gamma, or Delta.
 
 Consider the following formatting rules, which apply equally to all four layout patterns:
 
--   Property 1 is always displayed in a larger font size. The large font size usually used for the item name, but can also be used for the anchor or other item property.
--   Property 4 is intended for excerpts in the Alpha, Beta, and Gamma layout patterns. This property is allotted more space in those patterns and is displayed in a gray font color, as opposed to black like the other properties, to help it stand out.
--   The pixel measurements below are in relative pixels, and the size includes the icon/thumbnail to the left of the properties and the space between the icon/thumbnail and the selection rectangle.
--   Most properties have a minimum display size. Therefore, they will not appear if there is not enough space for them at a particular view size. The minimum size is usually 100 pixels wide.
--   Each layout pattern defines the number of rows and the number of properties in each row.
+- Property 1 is always displayed in a larger font size. The large font size usually used for the item name, but can also be used for the anchor or other item property.
+- Property 4 is intended for excerpts in the Alpha, Beta, and Gamma layout patterns. This property is allotted more space in those patterns and is displayed in a gray font color, as opposed to black like the other properties, to help it stand out.
+- The pixel measurements below are in relative pixels, and the size includes the icon/thumbnail to the left of the properties and the space between the icon/thumbnail and the selection rectangle.
+- Most properties have a minimum display size. Therefore, they will not appear if there is not enough space for them at a particular view size. The minimum size is usually 100 pixels wide.
+- Each layout pattern defines the number of rows and the number of properties in each row.
 
 ### Step 3:
 
@@ -49,12 +49,12 @@ HKEY_CLASSES_ROOT\*
 
 Observe the following formatting guidelines for registering properties:
 
--   Each registration starts with `prop:`
--   Each property requires the full property name.
--   Properties are separated by a semicolon with no space.
--   Properties are displayed in the order defined by the selected layout pattern.
--   `~` indicates that the property label should not be displayed.
--   `~System.LayoutPattern.PlaceHolder` should be used if you want to leave blank a property that is specified in the layout pattern.
+- Each registration starts with `prop:`
+- Each property requires the full property name.
+- Properties are separated by a semicolon with no space.
+- Properties are displayed in the order defined by the selected layout pattern.
+- `~` indicates that the property label should not be displayed.
+- `~System.LayoutPattern.PlaceHolder` should be used if you want to leave blank a property that is specified in the layout pattern.
 
 The following sample registry key illustrates these formatting guidelines.
 

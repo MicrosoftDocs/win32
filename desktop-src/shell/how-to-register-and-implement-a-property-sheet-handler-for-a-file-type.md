@@ -13,11 +13,11 @@ When the user right-clicks a member of a file type to display the Properties pro
 
 ### Technologies
 
--   Shell
+- Shell
 
 ### Prerequisites
 
--   An understanding of shortcut menus
+- An understanding of shortcut menus
 
 ## Instructions
 
@@ -63,8 +63,8 @@ The general procedure for implementing [**AddPages**](/windows/desktop/api/shobj
 **Implementing the AddPages Method**
 
 1.  Assign appropriate values to the members of a [**PROPSHEETPAGE**](/windows/win32/api/prsht/ns-prsht-propsheetpagea_v3) structure. In particular:
-    -   Assign the variable that holds the handler's reference count to the **pcRefParent** member. This practice prevents the handler object from being unloaded while the property sheet is still being displayed.
-    -   You can also implement a [*PropSheetPageProc*](/windows/win32/api/prsht/nc-prsht-lpfnpspcallbacka) callback function and assign its pointer to a **pfnCallback** member. This function is called when the page is created and when it is about to be destroyed.
+    - Assign the variable that holds the handler's reference count to the **pcRefParent** member. This practice prevents the handler object from being unloaded while the property sheet is still being displayed.
+    - You can also implement a [*PropSheetPageProc*](/windows/win32/api/prsht/nc-prsht-lpfnpspcallbacka) callback function and assign its pointer to a **pfnCallback** member. This function is called when the page is created and when it is about to be destroyed.
 2.  Create the page's HPAGE handle by passing the [**PROPSHEETPAGE**](/windows/win32/api/prsht/ns-prsht-propsheetpagea_v3) structure to the [**CreatePropertySheetPage**](/windows/win32/api/prsht/nf-prsht-createpropertysheetpagea) function.
 3.  Call the function that is pointed to by *lpfnAddPage*. Set its first parameter to the HPAGE handle that was created in the previous step. Set its second parameter to the *lParam* value that was passed in to [**AddPages**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellpropsheetext-addpages) by the Shell.
 4.  Any messages associated with the page will be passed to the dialog box procedure that was assigned to the **pfnDlgProc** member of the [**PROPSHEETPAGE**](/windows/win32/api/prsht/ns-prsht-propsheetpagea_v3) structure.

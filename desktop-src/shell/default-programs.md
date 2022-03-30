@@ -39,11 +39,11 @@ This topic is organized as follows:
 
 After you register an application for **Default Programs** functionality, the following options and functionality are available by using the API set:
 
--   Restore all registered defaults for an application. Deprecated for Windows 8.
--   Restore a single registered default for an application. Deprecated for Windows 8.
--   Query for the owner of a specific default in a single call instead of searching the registry. You can query for the default of a file association, protocol, or **Start** menu canonical verb.
--   Launch a UI for a specific application where a user can set individual defaults.
--   Remove all per-user associations.
+- Restore all registered defaults for an application. Deprecated for Windows 8.
+- Restore a single registered default for an application. Deprecated for Windows 8.
+- Query for the owner of a specific default in a single call instead of searching the registry. You can query for the default of a file association, protocol, or **Start** menu canonical verb.
+- Launch a UI for a specific application where a user can set individual defaults.
+- Remove all per-user associations.
 
 **Default Programs** also provides a UI that enables you to register an application in order to provide additional information to the user. For example, a digitally signed application can include a URL to the manufacturer's home page.
 
@@ -282,8 +282,8 @@ HKEY_LOCAL_MACHINE
 
 Browser registration must follow the best practices outlined in this topic. When the browser is installed, Windows can present the user with a system notification through which the user can select the browser as the system default. This notification is shown when these conditions are met:
 
--   The browser's installer calls [**SHChangeNotify**](/windows/desktop/api/shlobj_core/nf-shlobj_core-shchangenotify) with the **SHCNE\_ASSOCCHANGED** flag to tell Windows that new protocol handlers have been registered.
--   Windows detects that one or more new applications have registered to handle both http:// and https:// protocols, and the user has not yet been notified. In other words, none of the following have been shown to the user: a system notification advertising the application, an OpenWith flyout that contains the application, or the Set User Defaults (SUD) Control Panel page for the application.
+- The browser's installer calls [**SHChangeNotify**](/windows/desktop/api/shlobj_core/nf-shlobj_core-shchangenotify) with the **SHCNE\_ASSOCCHANGED** flag to tell Windows that new protocol handlers have been registered.
+- Windows detects that one or more new applications have registered to handle both http:// and https:// protocols, and the user has not yet been notified. In other words, none of the following have been shown to the user: a system notification advertising the application, an OpenWith flyout that contains the application, or the Set User Defaults (SUD) Control Panel page for the application.
 
 The following example shows the recommended registration code that the browser's installer should run after it writes its registry keys.
 
@@ -353,8 +353,8 @@ This section discusses how the application prompt should first present its defau
 
 When the application is run by a user for the first time, it is recommended that the application display UI to the user that typically includes these two choices:
 
--   Accept the default application settings. This option is selected by default.
--   Customize the default application settings.
+- Accept the default application settings. This option is selected by default.
+- Customize the default application settings.
 
 Prior to Windows 8, if the user accepts the default settings, your application calls [**IApplicationAssociationRegistration::SetAppAsDefaultAll**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iapplicationassociationregistration-setappasdefaultall), which converts all machine-level associations that are declared during installation to per-user settings for that user.
 

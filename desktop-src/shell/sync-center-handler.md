@@ -26,11 +26,11 @@ Windows XP provided a [Synchronization Manager](syncmgr-start-page.md) (mobsync
 
 The new Sync Center feature provided in Windows Vista has several advantages over the older Synchronization Manager.
 
--   Better discoverability
--   Less need for direct user action
--   Does not block other operations
--   Better visualization of the synchronization progress
--   Easier to understand development model
+- Better discoverability
+- Less need for direct user action
+- Does not block other operations
+- Better visualization of the synchronization progress
+- Easier to understand development model
 
 ## Sync Center APIs
 

@@ -37,11 +37,11 @@ Because association arrays are ordered lists, they provide application developer
 
 On a default Windows system a .jpg file has the following association array:
 
--   **HKEY\_CLASSES\_ROOT**\\**jpgfile**
--   **HKEY\_CLASSES\_ROOT**\\**SystemFileAssociations**\\**.jpg**
--   **HKEY\_CLASSES\_ROOT**\\**image**
--   **HKEY\_CLASSES\_ROOT**\\**\***
--   **HKEY\_CLASSES\_ROOT**\\**AllFilesystemObjects**
+- **HKEY\_CLASSES\_ROOT**\\**jpgfile**
+- **HKEY\_CLASSES\_ROOT**\\**SystemFileAssociations**\\**.jpg**
+- **HKEY\_CLASSES\_ROOT**\\**image**
+- **HKEY\_CLASSES\_ROOT**\\**\***
+- **HKEY\_CLASSES\_ROOT**\\**AllFilesystemObjects**
 
 For information on registering association arrays, see [Application Registration](app-registration.md).
 
@@ -86,9 +86,9 @@ Each Shell data source defines the association array for its items. Defining an 
 
 The file system data source builds an association array for files based on the following registry subkeys and special ProgIDs:
 
--   If the file has a registered ProgID, **HKEY\_CLASSES\_ROOT**\\*ProgID* is used. Otherwise **HKEY\_CLASSES\_ROOT**\\**Unknown** is used.
--   The file name extension is registered under **HKEY\_CLASSES\_ROOT**\\**SystemFileAssociations**\\*.fileExtension* subkey.
--   Special ProgIDs are shown in the following table. 
+- If the file has a registered ProgID, **HKEY\_CLASSES\_ROOT**\\*ProgID* is used. Otherwise **HKEY\_CLASSES\_ROOT**\\**Unknown** is used.
+- The file name extension is registered under **HKEY\_CLASSES\_ROOT**\\**SystemFileAssociations**\\*.fileExtension* subkey.
+- Special ProgIDs are shown in the following table. 
 
     | Special progID                                    | Description                   |
     |---------------------------------------------------|-------------------------------|
@@ -105,27 +105,27 @@ The file system data source builds an association array for files based on the f
 
 The following list represents some of the Shell data store association arrays that can be used for the purposes described in this topic:
 
--   **HKEY\_CLASSES\_ROOT**\\**\***
--   **HKEY\_CLASSES\_ROOT**\\**AllFilesystemObjects**
--   **HKEY\_CLASSES\_ROOT**\\**Kind.Document**
--   **HKEY\_CLASSES\_ROOT**\\**Results**
--   **HKEY\_CLASSES\_ROOT**\\**SystemFileAssociations**\\**.docx**
--   **HKEY\_CLASSES\_ROOT**\\**Word.Document.12**
+- **HKEY\_CLASSES\_ROOT**\\**\***
+- **HKEY\_CLASSES\_ROOT**\\**AllFilesystemObjects**
+- **HKEY\_CLASSES\_ROOT**\\**Kind.Document**
+- **HKEY\_CLASSES\_ROOT**\\**Results**
+- **HKEY\_CLASSES\_ROOT**\\**SystemFileAssociations**\\**.docx**
+- **HKEY\_CLASSES\_ROOT**\\**Word.Document.12**
 
 Shell data source association arrays that can be used for DBFolder (a Shell data store that represents items in search results and query-based views) are as follows:
 
--   Drives
--   Network
--   RegItems
--   Examples:
-    -   ContentView
-    -   Verbs
+- Drives
+- Network
+- RegItems
+- Examples:
+    - ContentView
+    - Verbs
 
 Other common association arrays include Folder and Printers.
 
 ## Additional Resources
 
--   To create a Shell data store, see [Implementing the Basic Folder Object Interfaces](nse-implement.md).
+- To create a Shell data store, see [Implementing the Basic Folder Object Interfaces](nse-implement.md).
 
 ## Related topics
 

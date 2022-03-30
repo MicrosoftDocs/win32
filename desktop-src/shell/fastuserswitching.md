@@ -24,9 +24,9 @@ The following topics are discussed.
 
 Underlying infrastructure inherited from Windows 2000 supports state separation of user data, user settings, and computer settings. Taking advantage of this infrastructure, the following are required to successfully run your application under Windows XP.
 
--   Default to the **My Documents** folder for storage of user-created data.
--   Classify and store application data correctly.
--   Degrade gracefully on "Access Denied" messages.
+- Default to the **My Documents** folder for storage of user-created data.
+- Classify and store application data correctly.
+- Degrade gracefully on "Access Denied" messages.
 
 Temporary files, memory-mapped files, and documents should all be stored in the appropriate subdirectory of the user's profile directory. Use [**SHGetFolderLocation**](/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetfolderlocation) or [**SHGetFolderPath**](/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetfolderpatha) to determine the appropriate storage location for these files. Passing the [**CSIDL\_APPDATA**](csidl.md) flag to these functions returns the path of a file system directory that serves as a common repository for application-specific data. Use the flag [**CSIDL\_LOCAL\_APPDATA**](csidl.md) in place of **CSIDL\_APPDATA** for data that should change when the user changes, such as temporary files.
 
@@ -42,12 +42,12 @@ Typically, an application does not need to be notified when a desktop switch occ
 
 Once that function has been called, the window with handle *hWnd* is registered to receive a [**WM\_WTSSESSION\_CHANGE**](../termserv/wm-wtssession-change.md) message through its **WndProc** function. The session ID is sent in the **lParam** parameter, and a code that indicates the event that generated the message is sent in **wParam** as one of the following flags.
 
--   WTS\_CONSOLE\_CONNECT
--   WTS\_CONSOLE\_DISCONNECT
--   WTS\_REMOTE\_CONNECT
--   WTS\_REMOTE\_DISCONNECT
--   WTS\_SESSION\_LOGOFF
--   WTS\_SESSION\_LOGON
+- WTS\_CONSOLE\_CONNECT
+- WTS\_CONSOLE\_DISCONNECT
+- WTS\_REMOTE\_CONNECT
+- WTS\_REMOTE\_DISCONNECT
+- WTS\_SESSION\_LOGOFF
+- WTS\_SESSION\_LOGON
 
 Applications can use this message to track their state, as well as to release and acquire console-specific resources. User desktops can be dynamically switched between remote and console control. Applications should use the [**WM\_WTSSESSION\_CHANGE**](../termserv/wm-wtssession-change.md) message to synchronize with the remote or local connection state.
 
@@ -62,8 +62,8 @@ When your process no longer requires these notifications or is terminating, it s
 
 Many applications must ensure that they have only one instance running. There are several ways to do this in Windows XP. Among them are the following:
 
--   Use [**FindWindow**](/windows/win32/api/winuser/nf-winuser-findwindowa) or [**FindWindowEx**](/windows/win32/api/winuser/nf-winuser-findwindowexa) to search for a known window that your application opens. If that window is already open, you can use that as an indication that the application is already running.
--   Create a mutex or semaphore object when your application is opened, and close that object when the application terminates. The global object namespace is separated for each desktop, allowing a unique list of mutex and semaphore objects for each.
+- Use [**FindWindow**](/windows/win32/api/winuser/nf-winuser-findwindowa) or [**FindWindowEx**](/windows/win32/api/winuser/nf-winuser-findwindowexa) to search for a known window that your application opens. If that window is already open, you can use that as an indication that the application is already running.
+- Create a mutex or semaphore object when your application is opened, and close that object when the application terminates. The global object namespace is separated for each desktop, allowing a unique list of mutex and semaphore objects for each.
 
 ## Shutting Down Your Application Across All Sessions
 
@@ -73,7 +73,7 @@ An application might need to shut itself down across all sessions. For example, 
 
 From a programmatic standpoint, the following cases need to be addressed.
 
--   The server process receives a direct request from a client process.
+- The server process receives a direct request from a client process.
 
     In this case, the message is probably transmitted using a local procedure call (LPC) or a remote procedure call (RPC). There are APIs for either LPC or RPC that enable retrieval of the client token. Once the client token is obtained, the server can use it in a call to [**CreateProcessAsUser**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-createprocessasusera). This brings up the process on the correct window station, assuming that the client user token has a session tag, which it should.
 
@@ -82,7 +82,7 @@ From a programmatic standpoint, the following cases need to be addressed.
 
      
 
--   The server process receives a notification and needs to display the UI, but the display does not have to be in the current user's context.
+- The server process receives a notification and needs to display the UI, but the display does not have to be in the current user's context.
 
     In this case, the server process can duplicate its primary process token and change the session identifier in question to match the current session identifier. The current session identifier can be obtained by using the [**WTSGetActiveConsoleSessionId**](/windows/win32/api/winbase/nf-winbase-wtsgetactiveconsolesessionid) function.
 

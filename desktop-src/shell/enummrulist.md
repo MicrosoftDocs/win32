@@ -83,9 +83,9 @@ Type: **int**
 
 Returns one of the following values.
 
--   Returns the number of items in the enumeration, if *nItem* is less than 0.
--   Returns -1 if an error occurred.
--   Otherwise, returns the size of the string returned in *lpData*, including the terminating null character. If the MRU list was created with the **MRU\_BINARY** flag, this is the size in bytes. Otherwise, it is the size in characters.
+- Returns the number of items in the enumeration, if *nItem* is less than 0.
+- Returns -1 if an error occurred.
+- Otherwise, returns the size of the string returned in *lpData*, including the terminating null character. If the MRU list was created with the **MRU\_BINARY** flag, this is the size in bytes. Otherwise, it is the size in characters.
 
 ## Remarks
 

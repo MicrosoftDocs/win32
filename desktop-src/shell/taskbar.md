@@ -31,11 +31,11 @@ This topic contains the following sections.
 
 The taskbar includes the following:
 
--   **Start** menu
--   Quick Launch bar (Windows Vista and earlier only)
--   Taskbar buttons
--   Toolbars (optional)
--   Notification area
+- **Start** menu
+- Quick Launch bar (Windows Vista and earlier only)
+- Taskbar buttons
+- Toolbars (optional)
+- Notification area
 
 The **Start** menu contains commands that can access programs, documents, and settings. These commands include **All Programs**, **Documents**, **Control Panel**, **Games**, **Help and Support**, **Shut down**, and **Search programs and files**.
 
@@ -49,9 +49,9 @@ Applications can put icons in the notification area to indicate the status of an
 
 The notification area also displays the current time if that option is selected. The option is found as:
 
--   **Windows 7 and later**: The **Clock** drop-down list in the **Turn system icons on or off** page of the **Notification Area Icons** Control Panel application (also accessible through the notification area properties).
--   **Windows Vista**: The **Clock** check box in the **Notification Area** page of the **Taskbar and Start Menu** properties window.
--   **Windows XP**: The **Show the clock** check box in the **Taskbar and Start Menu** properties window.
+- **Windows 7 and later**: The **Clock** drop-down list in the **Turn system icons on or off** page of the **Notification Area Icons** Control Panel application (also accessible through the notification area properties).
+- **Windows Vista**: The **Clock** check box in the **Notification Area** page of the **Taskbar and Start Menu** properties window.
+- **Windows XP**: The **Show the clock** check box in the **Taskbar and Start Menu** properties window.
 
 The user can right-click the taskbar to display the shortcut menu. The shortcut menu includes commands to cascade windows, stack windows, show windows side-by-side, show the desktop, start Task Manager, and set taskbar properties. The shortcut menu also provides the option to add or remove a set of toolbars from the taskbar. You can add new toolbars to this menu by registering them under the CATID\_DeskBand category. For more information, see [Implementing Band Objects](band-objects.md). Note that as of Windows 7, the taskbar and the notification area have separate shortcut menus. These shortcut menus share some options, such as window arrangement, and add others.
 
@@ -93,9 +93,9 @@ Use the [**Shell\_NotifyIcon**](/windows/desktop/api/Shellapi/nf-shellapi-shell_
 
 You can perform the following actions with notification area icons.
 
--   To add an icon to the taskbar's notification area, call [**Shell\_NotifyIcon**](/windows/desktop/api/Shellapi/nf-shellapi-shell_notifyicona) with the *dwMessage* parameter set to NIM\_ADD. The [**NOTIFYICONDATA**](/windows/desktop/api/Shellapi/ns-shellapi-notifyicondataa) structure is used to specify the icon's handle and identifier, and any tooltip text. If the user has selected the **Show Clock** check box in the taskbar properties, the system places the icon to the immediate left of the clock. Otherwise, the icon appears on the right side or at the bottom of the taskbar. Any existing icons are shifted to the left to make room for the new icon.
--   To modify an icon's information, including its icon handle, tooltip text, and callback message identifier, call [**Shell\_NotifyIcon**](/windows/desktop/api/Shellapi/nf-shellapi-shell_notifyicona) with *dwMessage* set to NIM\_MODIFY.
--   To delete an icon from the notification area, call [**Shell\_NotifyIcon**](/windows/desktop/api/Shellapi/nf-shellapi-shell_notifyicona) with the *dwMessage* parameter set to NIM\_DELETE.
+- To add an icon to the taskbar's notification area, call [**Shell\_NotifyIcon**](/windows/desktop/api/Shellapi/nf-shellapi-shell_notifyicona) with the *dwMessage* parameter set to NIM\_ADD. The [**NOTIFYICONDATA**](/windows/desktop/api/Shellapi/ns-shellapi-notifyicondataa) structure is used to specify the icon's handle and identifier, and any tooltip text. If the user has selected the **Show Clock** check box in the taskbar properties, the system places the icon to the immediate left of the clock. Otherwise, the icon appears on the right side or at the bottom of the taskbar. Any existing icons are shifted to the left to make room for the new icon.
+- To modify an icon's information, including its icon handle, tooltip text, and callback message identifier, call [**Shell\_NotifyIcon**](/windows/desktop/api/Shellapi/nf-shellapi-shell_notifyicona) with *dwMessage* set to NIM\_MODIFY.
+- To delete an icon from the notification area, call [**Shell\_NotifyIcon**](/windows/desktop/api/Shellapi/nf-shellapi-shell_notifyicona) with the *dwMessage* parameter set to NIM\_DELETE.
 
 When you have completed a user interface operation, return focus to the notification area by calling [**Shell\_NotifyIcon**](/windows/desktop/api/Shellapi/nf-shellapi-shell_notifyicona) with *dwMessage* set to NIM\_SETFOCUS. For example, you could do this when a taskbar icon displays a shortcut menu, but the user cancels it by pressing the ESCAPE key.
 
@@ -109,10 +109,10 @@ You define an icon's callback message when you add the icon to the taskbar. The 
 
 The results of various mouse events can be summarized as follows:
 
--   When the user moves the mouse pointer over the icon, the system displays the tooltip text that was specified in [**NOTIFYICONDATA**](/windows/desktop/api/Shellapi/ns-shellapi-notifyicondataa).
--   When the user clicks the icon, your application receives a [**WM\_LBUTTONDOWN**](../inputdev/wm-lbuttondown.md) notification.
--   When the user right-clicks the icon, your application receives a [**WM\_RBUTTONDOWN**](../inputdev/wm-rbuttondown.md) notification.
--   When the user double-clicks the icon, your application receives a [**WM\_LBUTTONDBLCLK**](../inputdev/wm-lbuttondblclk.md) notification.
+- When the user moves the mouse pointer over the icon, the system displays the tooltip text that was specified in [**NOTIFYICONDATA**](/windows/desktop/api/Shellapi/ns-shellapi-notifyicondataa).
+- When the user clicks the icon, your application receives a [**WM\_LBUTTONDOWN**](../inputdev/wm-lbuttondown.md) notification.
+- When the user right-clicks the icon, your application receives a [**WM\_RBUTTONDOWN**](../inputdev/wm-rbuttondown.md) notification.
+- When the user double-clicks the icon, your application receives a [**WM\_LBUTTONDBLCLK**](../inputdev/wm-lbuttondblclk.md) notification.
 
 Typically, clicking the icon causes the application to display a window with additional information, right-clicking displays a shortcut menu, and double-clicking executes the default shortcut menu command.
 
@@ -120,14 +120,14 @@ For an example of how to change the tooltip text associated with a notification 
 
 Versions 5.0 and later of the Shell handle [**Shell\_NotifyIcon**](/windows/desktop/api/Shellapi/nf-shellapi-shell_notifyicona) mouse and keyboard events in different ways than earlier Shell versions found on Windows NT 4.0, Windows 95, and Windows 98. The differences are as follows:
 
--   If a user requests a notify icon's shortcut menu with the keyboard, the version 5.0 Shell sends the associated application a [**WM\_CONTEXTMENU**](../menurc/wm-contextmenu.md) message. Earlier versions send [**WM\_RBUTTONDOWN**](../inputdev/wm-rbuttondown.md) and [**WM\_RBUTTONUP**](../inputdev/wm-rbuttonup.md) messages.
--   If a user selects a notify icon with the keyboard and activates it with the space bar or ENTER key, the version 5.0 Shell sends the associated application an **NIN\_KEYSELECT** notification. Earlier versions send [**WM\_RBUTTONDOWN**](../inputdev/wm-rbuttondown.md) and [**WM\_RBUTTONUP**](../inputdev/wm-rbuttonup.md) messages.
--   If a user selects a notify icon with the mouse and activates it with the ENTER key, the version 5.0 Shell sends the associated application an **NIN\_SELECT** notification. Earlier versions send [**WM\_RBUTTONDOWN**](../inputdev/wm-rbuttondown.md) and [**WM\_RBUTTONUP**](../inputdev/wm-rbuttonup.md) messages.
--   If a user passes the mouse pointer over an icon with which a balloon tooltip is associated, the version 6.0 Shell (Windows XP)sends the following messages.
-    -   -   **NIN\_BALLOONSHOW** - Sent when the balloon is shown (balloons are queued).
-        -   **NIN\_BALLOONHIDE** - Sent when the balloon disappears—for example, when the icon is deleted. This message is not sent if the balloon is dismissed because of a timeout or a mouse click.
-        -   **NIN\_BALLOONTIMEOUT** - Sent when the balloon is dismissed because of a timeout.
-        -   **NIN\_BALLOONUSERCLICK** - Sent when the balloon is dismissed because of a mouse click.
+- If a user requests a notify icon's shortcut menu with the keyboard, the version 5.0 Shell sends the associated application a [**WM\_CONTEXTMENU**](../menurc/wm-contextmenu.md) message. Earlier versions send [**WM\_RBUTTONDOWN**](../inputdev/wm-rbuttondown.md) and [**WM\_RBUTTONUP**](../inputdev/wm-rbuttonup.md) messages.
+- If a user selects a notify icon with the keyboard and activates it with the space bar or ENTER key, the version 5.0 Shell sends the associated application an **NIN\_KEYSELECT** notification. Earlier versions send [**WM\_RBUTTONDOWN**](../inputdev/wm-rbuttondown.md) and [**WM\_RBUTTONUP**](../inputdev/wm-rbuttonup.md) messages.
+- If a user selects a notify icon with the mouse and activates it with the ENTER key, the version 5.0 Shell sends the associated application an **NIN\_SELECT** notification. Earlier versions send [**WM\_RBUTTONDOWN**](../inputdev/wm-rbuttondown.md) and [**WM\_RBUTTONUP**](../inputdev/wm-rbuttonup.md) messages.
+- If a user passes the mouse pointer over an icon with which a balloon tooltip is associated, the version 6.0 Shell (Windows XP)sends the following messages.
+    - - **NIN\_BALLOONSHOW** - Sent when the balloon is shown (balloons are queued).
+        - **NIN\_BALLOONHIDE** - Sent when the balloon disappears—for example, when the icon is deleted. This message is not sent if the balloon is dismissed because of a timeout or a mouse click.
+        - **NIN\_BALLOONTIMEOUT** - Sent when the balloon is dismissed because of a timeout.
+        - **NIN\_BALLOONUSERCLICK** - Sent when the balloon is dismissed because of a mouse click.
 
 You can select which way the Shell should behave by calling [**Shell\_NotifyIcon**](/windows/desktop/api/Shellapi/nf-shellapi-shell_notifyicona) with *dwMessage* set to **NIM\_SETVERSION**. Set the **uVersion** member of the [**NOTIFYICONDATA**](/windows/desktop/api/Shellapi/ns-shellapi-notifyicondataa) structure to indicate whether you want version 5.0 or pre-version 5.0 behavior.
 

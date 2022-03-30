@@ -88,15 +88,15 @@ Because band objects implement a child window, they must also implement a window
 
 Band objects can send commands to their container through the container's [**IOleCommandTarget**](/windows/win32/api/docobj/nn-docobj-iolecommandtarget) interface. To obtain the interface pointer, call the container's [**IInputObjectSite::QueryInterface**](/windows/win32/api/unknwn/nf-unknwn-iunknown-queryinterface(q)) method and ask for IID\_IOleCommandTarget. You then send commands to the container with [**IOleCommandTarget::Exec**](/windows/win32/api/docobj/nf-docobj-iolecommandtarget-exec). The command group is CGID\_DeskBand. When a band object's [**IDeskBand::GetBandInfo**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-ideskband) method is called, the container uses the *dwBandID* parameter to assign the band object an identifier that is used for three of the commands. Four **IOleCommandTarget::Exec** command IDs are supported.
 
--   DBID\_BANDINFOCHANGED
+- DBID\_BANDINFOCHANGED
 
     The band's information has changed. Set the *pvaIn* parameter to the band identifier that was received in the most recent call to [**IDeskBand::GetBandInfo**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-ideskband). The container will call the band object's **IDeskBand::GetBandInfo** method to request the updated information.
 
--   DBID\_MAXIMIZEBAND
+- DBID\_MAXIMIZEBAND
 
     Maximize the band. Set the *pvaIn* parameter to the band identifier that was received in the most recent call to [**IDeskBand::GetBandInfo**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-ideskband).
 
--   DBID\_SHOWONLY
+- DBID\_SHOWONLY
 
     Turn other bands in the container on or off. Set the *pvaIn* parameter to the VT\_UNKNOWN type with one of the following values:
 
@@ -112,7 +112,7 @@ Band objects can send commands to their container through the container's [**IOl
 
      
 
--   DBID\_PUSHCHEVRON
+- DBID\_PUSHCHEVRON
 
     [Version 5](versions.md). Display a chevron menu. The container sends an [**RB\_PUSHCHEVRON**](../controls/rb-pushchevron.md) message, and the band object receives an [RBN\_CHEVRONPUSHED](../controls/rbn-chevronpushed.md) notification that prompts it to display the chevron menu. Set the [**IOleCommandTarget::Exec**](/windows/win32/api/docobj/nf-docobj-iolecommandtarget-exec) method's *nCmdExecOpt* parameter to the band identifier received in the most recent call to [**IDeskBand::GetBandInfo**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-ideskband). Set the **IOleCommandTarget::Exec** method's *pvaIn* parameter to the VT\_I4 type with an application-defined value. It passes back to the band object as the *lAppValue* value of the RBN\_CHEVRONPUSHED notification.
 

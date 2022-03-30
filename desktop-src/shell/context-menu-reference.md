@@ -14,10 +14,10 @@ This topic lists the main programming elements used with shortcut (context) menu
 
 It is strongly encouraged that you implement a shortcut menu using one of the static verb methods. Please review the following instructions:
 
--   To use a static verb method to implement a shortcut menu, see the "Customizing a Shortcut Menu using Static Verbs" section of [Creating Shortcut Menu Handlers](context-menu-handlers.md).
--   To get dynamic behavior for static verbs in Windows 7 and later, see "Getting Dynamic Behavior for Static Verbs" in [Creating Shortcut Menu Handlers](context-menu-handlers.md).
--   For details on static verb implementation, and which dynamic verbs to avoid, see [Choosing a Static or Dynamic Verb for your Shortcut Menu](shortcut-choose-method.md).
--   If you must extend the shortcut menu for a file type by registering a dynamic verb for the file type, then follow the instructions provided in [Customizing a Shortcut Menu Using Dynamic Verbs](shortcut-menu-using-dynamic-verbs.md).
+- To use a static verb method to implement a shortcut menu, see the "Customizing a Shortcut Menu using Static Verbs" section of [Creating Shortcut Menu Handlers](context-menu-handlers.md).
+- To get dynamic behavior for static verbs in Windows 7 and later, see "Getting Dynamic Behavior for Static Verbs" in [Creating Shortcut Menu Handlers](context-menu-handlers.md).
+- For details on static verb implementation, and which dynamic verbs to avoid, see [Choosing a Static or Dynamic Verb for your Shortcut Menu](shortcut-choose-method.md).
+- If you must extend the shortcut menu for a file type by registering a dynamic verb for the file type, then follow the instructions provided in [Customizing a Shortcut Menu Using Dynamic Verbs](shortcut-menu-using-dynamic-verbs.md).
 
 ### Interfaces
 

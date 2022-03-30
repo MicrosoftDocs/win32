@@ -25,15 +25,15 @@ This topic shows you how to create a shortcut for your app, assign it an [AppUse
 
 ### Technologies
 
--   COM
+- COM
 
 ### Prerequisites
 
--   Libraries
-    -   C++: Runtime.object.lib
-    -   C\#: Windows.Winmd
--   C\#: Windows API Code Pack for Microsoft .NET Framework
--   A version of Microsoft Visual Studio that supports at least Windows 8
+- Libraries
+    - C++: Runtime.object.lib
+    - C\#: Windows.Winmd
+- C\#: Windows API Code Pack for Microsoft .NET Framework
+- A version of Microsoft Visual Studio that supports at least Windows 8
 
 ## Instructions
 

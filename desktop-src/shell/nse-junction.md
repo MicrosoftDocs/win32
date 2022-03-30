@@ -72,9 +72,9 @@ MyFolder.{Extension CLSID}
 
 Alternatively, you can define a conventionally named folder as a junction point by:
 
--   Making the folder read-only.
--   Making the folder a system folder by calling [**PathMakeSystemFolder**](/windows/desktop/api/Shlwapi/nf-shlwapi-pathmakesystemfoldera).
--   Placing a hidden Desktop.ini file in the folder that includes the extension's CLSID.
+- Making the folder read-only.
+- Making the folder a system folder by calling [**PathMakeSystemFolder**](/windows/desktop/api/Shlwapi/nf-shlwapi-pathmakesystemfoldera).
+- Placing a hidden Desktop.ini file in the folder that includes the extension's CLSID.
 
 Desktop.ini is a standard text file that can be added to any folder to customize certain aspects of the folder's behavior. For a general discussion of how to use this file, see [How to Customize Folders with Desktop.ini](how-to-customize-folders-with-desktop-ini.md). To define a folder as a junction point, the \[.ShellClassInfo\] section of Desktop.ini must contain the extension's CLSID as follows:
 

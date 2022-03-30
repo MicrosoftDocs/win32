@@ -15,8 +15,8 @@ ms.date: 11/21/2021
 
 There are two ways to open a Control Panel item:
 
--   The user can open Control Panel and then open an item by clicking or double-clicking the item's icon.
--   The user or an application can start a Control Panel item by executing it directly from the command line prompt.
+- The user can open Control Panel and then open an item by clicking or double-clicking the item's icon.
+- The user or an application can start a Control Panel item by executing it directly from the command line prompt.
 
 An application can open the Control Panel programmatically by using the [**WinExec**](/windows/win32/api/winbase/nf-winbase-winexec) function.
 
@@ -84,32 +84,32 @@ Windows 11 contains the folowwing control panel items:
 
 ### Personalization
 
--   Screensaver: %windir%\\system32\\control.exe desk.cpl,screensaver,@screensaver
+- Screensaver: %windir%\\system32\\control.exe desk.cpl,screensaver,@screensaver
 
 ### System
 
--   Performance: `%windir%\\system32\\SystemPropertiesPerformance.exe`
--   Remote access: `%windir%\\system32\\SystemPropertiesRemote.exe`
--   Computer name: `%windir%\\system32\\SystemPropertiesComputerName.exe`
--   System protection: `%windir%\\system32\\SystemPropertiesProtection.exe`
--   Advanced system properties: `%windir%\\system32\\SystemPropertiesAdvanced.exe`
+- Performance: `%windir%\\system32\\SystemPropertiesPerformance.exe`
+- Remote access: `%windir%\\system32\\SystemPropertiesRemote.exe`
+- Computer name: `%windir%\\system32\\SystemPropertiesComputerName.exe`
+- System protection: `%windir%\\system32\\SystemPropertiesProtection.exe`
+- Advanced system properties: `%windir%\\system32\\SystemPropertiesAdvanced.exe`
 
 ### Programs and Features
 
--   Add or remove programs: `%windir%\\system32\\control.exe /name Microsoft.ProgramsAndFeatures`
--   Windows features: `%windir%\\system32\\OptionalFeatures.exe`
+- Add or remove programs: `%windir%\\system32\\control.exe /name Microsoft.ProgramsAndFeatures`
+- Windows features: `%windir%\\system32\\OptionalFeatures.exe`
 
 ### Folder Options
 
--   View: `%windir%\\system32\\rundll32.exe shell32.dll,Options_RunDLL 7`
--   General: `%windir%\\system32\\rundll32.exe shell32.dll,Options_RunDLL 0`
+- View: `%windir%\\system32\\rundll32.exe shell32.dll,Options_RunDLL 7`
+- General: `%windir%\\system32\\rundll32.exe shell32.dll,Options_RunDLL 0`
 
 ### Power Options
 
--   Edit current plan settings: `%windir%\\system32\\control.exe /name Microsoft.PowerOptions /page pagePlanSettings`
--   System settings: `%windir%\\system32\\control.exe /name Microsoft.PowerOptions /page pageGlobalSettings`
--   Create a power plan: `%windir%\\system32\\control.exe /name Microsoft.PowerOptions /page pageCreateNewPlan`
--   Power Options: `%windir%\\system32\\control.exe powercfg.cpl,,3`
+- Edit current plan settings: `%windir%\\system32\\control.exe /name Microsoft.PowerOptions /page pagePlanSettings`
+- System settings: `%windir%\\system32\\control.exe /name Microsoft.PowerOptions /page pageGlobalSettings`
+- Create a power plan: `%windir%\\system32\\control.exe /name Microsoft.PowerOptions /page pageCreateNewPlan`
+- Power Options: `%windir%\\system32\\control.exe powercfg.cpl,,3`
 
 ## Legacy Control Panel Commands
 
@@ -142,14 +142,14 @@ On Windows Vista, some options that were accessed by a .cpl module on Windows 
 
 #### Personalization
 
--   Font size and DPI: %windir%\\system32\\DpiScaling.exe
--   Screen resolution: %windir%\\system32\\control.exe desk.cpl,Settings,@Settings
--   Display settings: %windir%\\system32\\control.exe desk.cpl,Settings,@Settings
--   Themes: %windir%\\system32\\control.exe desk.cpl,Themes,@Themes
--   Screensaver: %windir%\\system32\\control.exe desk.cpl,screensaver,@screensaver
--   Multi-monitor: %windir%\\system32\\control.exe desk.cpl,Monitor,@Monitor
--   Color Scheme: %windir%\\system32\\control.exe /name Microsoft.Personalization /page pageColorization
--   Desktop background: %windir%\\system32\\control.exe /name Microsoft.Personalization /page pageWallpaper
+- Font size and DPI: %windir%\\system32\\DpiScaling.exe
+- Screen resolution: %windir%\\system32\\control.exe desk.cpl,Settings,@Settings
+- Display settings: %windir%\\system32\\control.exe desk.cpl,Settings,@Settings
+- Themes: %windir%\\system32\\control.exe desk.cpl,Themes,@Themes
+- Screensaver: %windir%\\system32\\control.exe desk.cpl,screensaver,@screensaver
+- Multi-monitor: %windir%\\system32\\control.exe desk.cpl,Monitor,@Monitor
+- Color Scheme: %windir%\\system32\\control.exe /name Microsoft.Personalization /page pageColorization
+- Desktop background: %windir%\\system32\\control.exe /name Microsoft.Personalization /page pageWallpaper
 
 > [!Note]  
 > Starter and Basic Editions do not support control.exe /name Microsoft.Personalization command.
@@ -158,36 +158,36 @@ On Windows Vista, some options that were accessed by a .cpl module on Windows 
 
 #### System
 
--   Performance: %windir%\\system32\\SystemPropertiesPerformance.exe
--   Remote access: %windir%\\system32\\SystemPropertiesRemote.exe
--   Computer name: %windir%\\system32\\SystemPropertiesComputerName.exe
--   System protection: %windir%\\system32\\SystemPropertiesProtection.exe
--   Advanced system properties: %windir%\\system32\\SystemPropertiesAdvanced.exe
+- Performance: %windir%\\system32\\SystemPropertiesPerformance.exe
+- Remote access: %windir%\\system32\\SystemPropertiesRemote.exe
+- Computer name: %windir%\\system32\\SystemPropertiesComputerName.exe
+- System protection: %windir%\\system32\\SystemPropertiesProtection.exe
+- Advanced system properties: %windir%\\system32\\SystemPropertiesAdvanced.exe
 
 #### Programs and Features
 
--   Add or remove programs: %windir%\\system32\\control.exe /name Microsoft.ProgramsAndFeatures
--   Windows features: %windir%\\system32\\OptionalFeatures.exe
+- Add or remove programs: %windir%\\system32\\control.exe /name Microsoft.ProgramsAndFeatures
+- Windows features: %windir%\\system32\\OptionalFeatures.exe
 
 #### Regional and Language Options
 
--   Keyboard: %systemroot%\\system32\\control.exe /name Microsoft.RegionalAndLanguageOptions /page /p:"keyboard"
--   Location: %systemroot%\\system32\\control.exe /name Microsoft.RegionalAndLanguageOptions /page /p:"location"
--   Administrative: %systemroot%\\system32\\control.exe /name Microsoft.RegionalAndLanguageOptions /page /p:"administrative"
+- Keyboard: %systemroot%\\system32\\control.exe /name Microsoft.RegionalAndLanguageOptions /page /p:"keyboard"
+- Location: %systemroot%\\system32\\control.exe /name Microsoft.RegionalAndLanguageOptions /page /p:"location"
+- Administrative: %systemroot%\\system32\\control.exe /name Microsoft.RegionalAndLanguageOptions /page /p:"administrative"
 
 #### Folder Options
 
--   Folder searching: %windir%\\system32\\rundll32.exe shell32.dll,Options\_RunDLL 2
--   File associations: %windir%\\system32\\control.exe /name Microsoft.DefaultPrograms /page pageFileAssoc
--   View: %windir%\\system32\\rundll32.exe shell32.dll,Options\_RunDLL 7
--   General: %windir%\\system32\\rundll32.exe shell32.dll,Options\_RunDLL 0
+- Folder searching: %windir%\\system32\\rundll32.exe shell32.dll,Options\_RunDLL 2
+- File associations: %windir%\\system32\\control.exe /name Microsoft.DefaultPrograms /page pageFileAssoc
+- View: %windir%\\system32\\rundll32.exe shell32.dll,Options\_RunDLL 7
+- General: %windir%\\system32\\rundll32.exe shell32.dll,Options\_RunDLL 0
 
 #### Power Options
 
--   Edit current plan settings: %windir%\\system32\\control.exe /name Microsoft.PowerOptions /page pagePlanSettings
--   System settings: %windir%\\system32\\control.exe /name Microsoft.PowerOptions /page pageGlobalSettings
--   Create a power plan: %windir%\\system32\\control.exe /name Microsoft.PowerOptions /page pageCreateNewPlan
--   There is no canonical command for the Advanced Settings page, it is accessed in the older manner: %windir%\\system32\\control.exe powercfg.cpl,,3
+- Edit current plan settings: %windir%\\system32\\control.exe /name Microsoft.PowerOptions /page pagePlanSettings
+- System settings: %windir%\\system32\\control.exe /name Microsoft.PowerOptions /page pageGlobalSettings
+- Create a power plan: %windir%\\system32\\control.exe /name Microsoft.PowerOptions /page pageCreateNewPlan
+- There is no canonical command for the Advanced Settings page, it is accessed in the older manner: %windir%\\system32\\control.exe powercfg.cpl,,3
 
 ### Other lagacy options:
 When you use the [**WinExec**](/windows/win32/api/winbase/nf-winbase-winexec) function, the system can recognize special Control Panel commands. These commands predate Windows 10.

@@ -93,10 +93,10 @@ The simplest way to extend the shortcut menu for a file type is with the registr
 
 The default verb is displayed first on the shortcut menu. Its purpose is to provide the Shell with a verb it can use when [**ShellExecuteEx**](/windows/desktop/api/Shellapi/nf-shellapi-shellexecuteexa) is called but no verb is specified. The Shell does not necessarily select the default verb when **ShellExecuteEx** is used in this fashion. For Shell [versions 5.0](versions.md) and later, found on Windows 2000 and later systems, the Shell uses the first available verb from the following list. If none are available, the operation fails.
 
--   The open verb
--   The default verb
--   The first verb in the registry
--   The openwith verb
+- The open verb
+- The default verb
+- The first verb in the registry
+- The openwith verb
 
 For Shell versions prior to [version 5.0](versions.md), omit the third item.
 

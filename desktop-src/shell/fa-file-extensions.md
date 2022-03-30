@@ -24,16 +24,16 @@ In the following screen shot of Windows Explorer, the image file Desert.known ap
 
 The Desert.known file in the preceding screen shot lacks the following functionality that is enabled by a file type handler:
 
--   Thumbnail or preview
--   Image-specific verbs in the shortcut menu, such as:
-    -   Rotate Preview
-    -   Set as Desktop Background
-    -   Print
--   Image-specific properties in the **Details** pane, such as:
-    -   Date Taken
-    -   Tags
-    -   Rating
--   Indexing of file text
+- Thumbnail or preview
+- Image-specific verbs in the shortcut menu, such as:
+    - Rotate Preview
+    - Set as Desktop Background
+    - Print
+- Image-specific properties in the **Details** pane, such as:
+    - Date Taken
+    - Tags
+    - Rating
+- Indexing of file text
 
 In the following screen shot, the same file (Desert.known) has the .jpg extension, which is a registered file type that has associated file type handlers, so a thumbnail image and more properties are shown.
 

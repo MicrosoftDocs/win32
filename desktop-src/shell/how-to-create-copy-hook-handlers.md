@@ -22,11 +22,11 @@ Like all Shell extension handlers, copy hook handlers are in-process Component O
 
 The [**ICopyHook**](/previous-versions/windows/desktop/legacy/bb776049(v=vs.85)) interface has a single method, [**ICopyHook::CopyCallback**](/previous-versions/windows/desktop/legacy/bb776048(v=vs.85)). When a folder is about to be moved, the Shell calls this method. It passes in a variety of information, including:
 
--   The folder's name.
--   The folder's destination or new name.
--   The operation that is being attempted.
--   The attributes of the source and destination folders.
--   A window handle that can be used to display a user interface.
+- The folder's name.
+- The folder's destination or new name.
+- The operation that is being attempted.
+- The attributes of the source and destination folders.
+- A window handle that can be used to display a user interface.
 
 When your handler's [**ICopyHook::CopyCallback**](/previous-versions/windows/desktop/legacy/bb776048(v=vs.85)) method is called, it returns one of the three following values to indicate to the Shell how it should proceed.
 

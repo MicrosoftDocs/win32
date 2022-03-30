@@ -22,11 +22,11 @@ This topic is organized as follows:
 
 File associations control the following functionality:
 
--   Which application launches when a user double-clicks a file.
--   Which icon appears for a file by default.
--   How the file type appears when viewed in Windows Explorer.
--   Which commands appear in a file's shortcut menu.
--   Other UI features, such as tooltips, tile info, and the details pane.
+- Which application launches when a user double-clicks a file.
+- Which icon appears for a file by default.
+- How the file type appears when viewed in Windows Explorer.
+- Which commands appear in a file's shortcut menu.
+- Other UI features, such as tooltips, tile info, and the details pane.
 
 Application developers can use file associations to control how the Shell treats custom file types, or to associate an application with existing file types. For example, when an application is installed, the application can check for the presence of existing file associations, and either create or override those file associations.
 
@@ -50,7 +50,7 @@ Files are exposed in the Shell as Shell items. To control file associations, app
 
 ## Additional Resources
 
--   For conceptual background on file associations, see [Overview of Verbs and File Associations](fa-verbs.md).
+- For conceptual background on file associations, see [Overview of Verbs and File Associations](fa-verbs.md).
 
 ## Related topics
 

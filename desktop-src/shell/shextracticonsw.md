@@ -127,12 +127,12 @@ A nonzero value if successful; otherwise, zero.
 
 **SHExtractIconsW** extracts from the following file types.
 
--   Executable (.exe)
--   DLL (.dll)
--   Icon (.ico)
--   Cursor (.cur)
--   Animated cursor (.ani)
--   Bitmap (.bmp)
+- Executable (.exe)
+- DLL (.dll)
+- Icon (.ico)
+- Cursor (.cur)
+- Animated cursor (.ani)
+- Bitmap (.bmp)
 
 Extractions from Windows 3.*x* 16-bit executable files (.exe or .dll) are also supported.
 

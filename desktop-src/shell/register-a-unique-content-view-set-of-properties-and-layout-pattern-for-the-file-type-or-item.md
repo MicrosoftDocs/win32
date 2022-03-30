@@ -32,21 +32,21 @@ There are four layout patterns: Alpha, Beta, Gamma, and Delta.
 
 The Alpha layout pattern is optimized for document search results that contain excerpts. It has the following specifications:
 
--   Rows: 4
--   Properties: 7
--   Alpha layout when the item has 350 pixels or more of horizontal space, as shown in the following illustration.
+- Rows: 4
+- Properties: 7
+- Alpha layout when the item has 350 pixels or more of horizontal space, as shown in the following illustration.
 
     ![alpha layout pattern](images/content-view/layout1.png)
 
--   The following illustration shows the Alpha layout when the item has 350 pixels or more of horizontal space.
+- The following illustration shows the Alpha layout when the item has 350 pixels or more of horizontal space.
 
     ![Diagram that shows an alpha layout example](images/content-view/alphaviewmore.png)
 
--   The following illustration shows the Alpha layout when the item has less than 350 pixels of horizontal space.
+- The following illustration shows the Alpha layout when the item has less than 350 pixels of horizontal space.
 
     ![Screenshot that shows an alpha layout example in Microsoft Word.](images/content-view/layout2.png)
 
--   The following illustration shows the Alpha layout when the item has less than 350 pixels of horizontal space.
+- The following illustration shows the Alpha layout when the item has less than 350 pixels of horizontal space.
 
     ![alpha layout example](images/content-view/alphaviewless.png)
 
@@ -54,21 +54,21 @@ The Alpha layout pattern is optimized for document search results that contain e
 
 The Beta layout pattern is optimized for email document search results that contain excerpts. It has the following specifications:
 
--   Rows: 4
--   Properties: 5
--   Beta layout when the item has 350 pixels or more of horizontal space, as shown in the following illustration.
+- Rows: 4
+- Properties: 5
+- Beta layout when the item has 350 pixels or more of horizontal space, as shown in the following illustration.
 
     ![Diagram that shows a beta layout example.](images/content-view/layout3.png)
 
--   The following illustration shows the beta layout when the item has 350 pixels or more of horizontal space.
+- The following illustration shows the beta layout when the item has 350 pixels or more of horizontal space.
 
     ![Screenshot that shows a beta layout example for e-mail.](images/content-view/betaviewmore.png)
 
--   The following illustration shows the Beta layout when the item has less than 350 pixels of horizontal space.
+- The following illustration shows the Beta layout when the item has less than 350 pixels of horizontal space.
 
     ![Diagram that shows a beta layout example with less than 350 pixels of horizontal space.](images/content-view/layout4.png)
 
--   The following illustration shows the beta layout when the item has less than 350 pixels of horizontal space:
+- The following illustration shows the beta layout when the item has less than 350 pixels of horizontal space:
 
     ![beta layout example](images/content-view/betaviewless.png)
 
@@ -76,21 +76,21 @@ The Beta layout pattern is optimized for email document search results that cont
 
 The Gamma layout pattern is similar to Alpha but uses a two-line layout instead of four. This layout is ideal for scenarios in which you want to see a snippet but want to fit more items on the screen, or for file types that require less space to show the most critical information. The Gamma layout has the following specifications:
 
--   Rows: 2
--   Properties: 4
--   The following illustration shows the gamma layout when the item has 350 pixels or more of horizontal space.
+- Rows: 2
+- Properties: 4
+- The following illustration shows the gamma layout when the item has 350 pixels or more of horizontal space.
 
     ![Diagram that shows a gamma layout example.](images/content-view/layout5.png)
 
--   The following illustration shows the gamma layout when the item has 350 pixels or more of horizontal space.
+- The following illustration shows the gamma layout when the item has 350 pixels or more of horizontal space.
 
     ![Screenshot that shows a gamma layout example for a checklist item.](images/content-view/gammaviewmore.png)
 
--   The following illustration shows the gamma layout when the item has less than 350 pixels of horizontal space.
+- The following illustration shows the gamma layout when the item has less than 350 pixels of horizontal space.
 
     ![Diagram that shows a gamma layout example with less than 350 pixels of horizontal space.](images/content-view/layout6.png)
 
--   Example of the gamma layout when the item has less than 350 pixels of horizontal space.
+- Example of the gamma layout when the item has less than 350 pixels of horizontal space.
 
     ![gamma layout example](images/content-view/gammaviewless.png)
 
@@ -98,29 +98,29 @@ The Gamma layout pattern is similar to Alpha but uses a two-line layout instead 
 
 The Delta layout pattern is optimized for displaying many shorter properties such as for music and pictures. It has the following specifications:
 
--   Rows: 2
--   Properties: 6
--   Delta layout when the item has 700 pixels or more of horizontal space, as shown in the following illustration.
+- Rows: 2
+- Properties: 6
+- Delta layout when the item has 700 pixels or more of horizontal space, as shown in the following illustration.
 
     ![Diagram that shows a delta layout example.](images/content-view/layout7.png)
 
--   Example of the delta layout when the item has 700 pixels or more of horizontal space.
+- Example of the delta layout when the item has 700 pixels or more of horizontal space.
 
     ![Screenshot that shows a delta layout example for a music file.](images/content-view/deltalayoutmore.png)
 
--   Delta layout when the item has between 350 and 700 pixels of horizontal space.
+- Delta layout when the item has between 350 and 700 pixels of horizontal space.
 
     ![Diagram that shows a delta layout example that has between 350 and 700 pixels of horizontal space.](images/content-view/layout8.png)
 
--   Example of the delta layout when the item has between 350 and 700 pixels of horizontal space.
+- Example of the delta layout when the item has between 350 and 700 pixels of horizontal space.
 
     ![delta layout example](images/content-view/deltaviewbetween.png)
 
--   Delta layout when the item has less than 350 pixels of horizontal space.
+- Delta layout when the item has less than 350 pixels of horizontal space.
 
     ![layout example](images/content-view/layout9.png)
 
--   Example of the delta layout when the item has less than 350 pixels of horizontal space.
+- Example of the delta layout when the item has less than 350 pixels of horizontal space.
 
     ![Screenshot that shows a delta layout example for a music file that has less than 350 pixels of horizontal space.](images/content-view/deltaviewless.png)
 
@@ -132,11 +132,11 @@ After you understand the Search Result mode, the Browse mode, and the layout pat
 
 1.  Choose from the four layout patterns: Alpha, Beta, Gamma, or Delta.
 2.  Consider the following formatting rules, which apply equally to all four layout patterns:
-    -   Property 1 is always displayed in a larger font size. The large font size usually used for the item name, but can also be used for the anchor or other item property.
-    -   Property 4 is intended for excerpts in the Alpha, Beta, and Gamma layout patterns. This property is allotted more space in those patterns and is displayed in a gray font color, as opposed to black like the other properties, to help it stand out.
-    -   The pixel measurements below are in relative pixels, and the size includes the icon/thumbnail to the left of the properties and the space between the icon/thumbnail and the selection rectangle.
-    -   Most properties have a minimum display size. Therefore, they will not appear if there is not enough space for them at a particular view size. The minimum size is usually 100 pixels wide.
-    -   Each layout pattern defines the number of rows and the number of properties in each row.
+    - Property 1 is always displayed in a larger font size. The large font size usually used for the item name, but can also be used for the anchor or other item property.
+    - Property 4 is intended for excerpts in the Alpha, Beta, and Gamma layout patterns. This property is allotted more space in those patterns and is displayed in a gray font color, as opposed to black like the other properties, to help it stand out.
+    - The pixel measurements below are in relative pixels, and the size includes the icon/thumbnail to the left of the properties and the space between the icon/thumbnail and the selection rectangle.
+    - Most properties have a minimum display size. Therefore, they will not appear if there is not enough space for them at a particular view size. The minimum size is usually 100 pixels wide.
+    - Each layout pattern defines the number of rows and the number of properties in each row.
 3.  Decide which properties you want to display in the layout, and which property you want to display in each location. When deciding which property to display in each position in the layout, consider the typical length of the property, its importance to the user, and whether it should be dropped when the window size is too small to contain all properties.
 4.  Register a layout pattern and a property list for your file type or item type by adding the following keys under the ProgID registry key for the file type or item (in this example, for the .xyz file type).
 
@@ -151,12 +151,12 @@ After you understand the Search Result mode, the Browse mode, and the layout pat
 
 5.  Observe the following formatting guidelines for registering properties:
 
-    -   Each registration starts with `prop:`
-    -   Each property requires the full property name.
-    -   Properties are separated by a semicolon with no space.
-    -   Properties are displayed in the order defined by the selected layout pattern.
-    -   `~` indicates that the property label should not be displayed.
-    -   `~System.LayoutPattern.PlaceHolder` should be used if you want to leave blank a property that is specified in the layout pattern.
+    - Each registration starts with `prop:`
+    - Each property requires the full property name.
+    - Properties are separated by a semicolon with no space.
+    - Properties are displayed in the order defined by the selected layout pattern.
+    - `~` indicates that the property label should not be displayed.
+    - `~System.LayoutPattern.PlaceHolder` should be used if you want to leave blank a property that is specified in the layout pattern.
 
     The following sample registry key illustrates these formatting guidelines.
 

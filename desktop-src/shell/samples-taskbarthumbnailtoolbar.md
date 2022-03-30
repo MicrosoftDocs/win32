@@ -69,8 +69,8 @@ To build the sample using Microsoft Visual Studio (preferred):
 
 1.  Navigate to the directory that contains the new executable file (for instance, `C:\Program Files\Microsoft SDKs\Windows\v7.0\Samples\WinUI\Shell\AppShellIntegration\TaskbarThumbnailToolbar\Debug`), using the command prompt or Windows Explorer.
 
-    -   If using the command line, enter `ThumbnailToolbar.exe`.
-    -   If using Windows Explorer, double-click the icon for ThumbnailToolbar.exe.
+    - If using the command line, enter `ThumbnailToolbar.exe`.
+    - If using Windows Explorer, double-click the icon for ThumbnailToolbar.exe.
 
     A new window will open, with an associated taskbar button.
 

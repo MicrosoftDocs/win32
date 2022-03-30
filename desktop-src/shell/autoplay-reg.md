@@ -18,8 +18,8 @@ There are many situations where AutoRun may need to be temporarily or persistent
 
 There are a variety of situations where AutoRun may need to be suppressed programmatically. Two examples are:
 
--   Your application has a setup program that requires the user to insert another disc that may contain an Autorun.inf file.
--   During the operation of your application, the user may need to insert another disc that may contain an Autorun.inf file.
+- Your application has a setup program that requires the user to insert another disc that may contain an Autorun.inf file.
+- During the operation of your application, the user may need to insert another disc that may contain an Autorun.inf file.
 
 In either case, you will normally not want to launch another application while the original is in progress.
 
@@ -145,10 +145,10 @@ The following table gives the bits and bitmask constants, that can be set in the
 
 AutoRun is primarily intended for public distribution of applications on CD-ROM and DVD-ROM, and its use is discouraged for other storage media. However, it is often useful to enable AutoRun on other types of removable storage media. This feature is typically used simplify the debugging of AutoRun.inf files. AutoRun only works on removable storage devices when the following criteria are met:
 
--   The device must have AutoRun-compatible drivers. To be AutoRun-compatible, a driver must notify the system that a disk has been inserted by sending a [**WM\_DEVICECHANGE**](../devio/wm-devicechange.md) message.
--   The root directory of the inserted media must contain an Autorun.inf file.
--   The device must not have AutoRun disabled through the [registry](#using-the-registry-to-disable-autorun).
--   The foreground application has not [suppressed](#suppressing-autorun-programmatically) AutoRun.
+- The device must have AutoRun-compatible drivers. To be AutoRun-compatible, a driver must notify the system that a disk has been inserted by sending a [**WM\_DEVICECHANGE**](../devio/wm-devicechange.md) message.
+- The root directory of the inserted media must contain an Autorun.inf file.
+- The device must not have AutoRun disabled through the [registry](#using-the-registry-to-disable-autorun).
+- The foreground application has not [suppressed](#suppressing-autorun-programmatically) AutoRun.
 
 > [!Note]  
 > This feature should not be used to distribute applications on removable media. Because implementing AutoRun on removable media provides an easy way to spread computer viruses, users should be suspicious of any publicly distributed floppy disk that contains an Autorun.inf file.

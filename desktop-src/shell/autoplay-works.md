@@ -18,8 +18,8 @@ Creating an AutoRun-enabled application is a straightforward procedure. This top
 
 To enable AutoRun in your application, you simply include two essential files:
 
--   An Autorun.inf file
--   A startup application
+- An Autorun.inf file
+- A startup application
 
 When a user inserts a disc into a CD-ROM drive on a AutoRun-compatible computer, the system immediately checks to see if the disc has a personal computer file system. If it does, the system searches for a file named [Autorun.inf](#creating-an-autoruninf-file). This file specifies a setup application that will be run, along with a variety of optional settings. The startup application typically installs, uninstalls, configures, and perhaps runs the application.
 
@@ -38,13 +38,13 @@ Autorun.inf is a text file located in the root directory of the CD-ROM that cont
 
 The Autorun.inf file can also contain optional information including:
 
--   The name of a file that contains an icon that will represent your application's CD-ROM drive. This icon will be displayed by Windows Explorer in place of the standard drive icon.
--   Additional commands for the shortcut menu that is displayed when the user right-clicks the CD-ROM icon. You can also specify the default command that is run when the user double-clicks the icon.
+- The name of a file that contains an icon that will represent your application's CD-ROM drive. This icon will be displayed by Windows Explorer in place of the standard drive icon.
+- Additional commands for the shortcut menu that is displayed when the user right-clicks the CD-ROM icon. You can also specify the default command that is run when the user double-clicks the icon.
 
 Autorun.inf files are similar to .ini files. They consist of one or more sections, each headed by a name enclosed in square brackets. Each section contains a series of commands that will be run by the Shell when the disc is inserted. There are two sections that are currently defined for Autorun.inf files.
 
--   The **\[autorun\]** section contains the default AutoRun commands. All Autorun.inf files must have an **\[autorun\]** section.
--   An optional **\[autorun.alpha\]** section can be included for systems running on RISC-based computers. When a disc is inserted in a CD-ROM drive on a RISC-based system, the Shell will run the commands in this section instead of those in the **\[autorun\]** section.
+- The **\[autorun\]** section contains the default AutoRun commands. All Autorun.inf files must have an **\[autorun\]** section.
+- An optional **\[autorun.alpha\]** section can be included for systems running on RISC-based computers. When a disc is inserted in a CD-ROM drive on a RISC-based system, the Shell will run the commands in this section instead of those in the **\[autorun\]** section.
 
 > [!Note]  
 > The Shell checks for an architecture-specific section first. If it does not find one, it uses the information in the **\[autorun\]** section. After the Shell finds a section, it ignores all others, so each section must be self-contained.
@@ -100,8 +100,8 @@ You can use the **\[DeviceInstall\]** section on any removable media. It is supp
 
 You use the **\[DeviceInstall\]** section with a driver installation to specify directories where Windows XP should search the media for driver files. Under Windows XP, entire media are no longer searched by default, therefore requiring **\[DeviceInstall\]** to specify search locations. The following are the only removable media that Windows XP fully searches without a **\[DeviceInstall\]** section in an Autorun.inf file.
 
--   Floppy disks found in drives A or B.
--   CD/DVD media less that 1 gigabyte (GB) in size.
+- Floppy disks found in drives A or B.
+- CD/DVD media less that 1 gigabyte (GB) in size.
 
 All other media must include a **\[DeviceInstall\]** section for Windows XP to detect any drivers stored on that media.
 

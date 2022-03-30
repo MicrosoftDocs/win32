@@ -14,12 +14,12 @@ ms.date: 05/31/2018
 
 ### Technologies
 
--   C++
+- C++
 
 ### Prerequisites
 
--   Static Verb
--   Shortcut Menu
+- Static Verb
+- Shortcut Menu
 
 ## Instructions
 
@@ -81,8 +81,8 @@ Check the **cbSize** member of *pici* to determine which structure was passed in
 
 The structure's **lpVerb** or **lpVerbW** member is used to identify the command to be executed. Commands are identified in one of the following two ways:
 
--   By the command's verb string
--   By the command's identifier offset
+- By the command's verb string
+- By the command's identifier offset
 
 To distinguish between these two cases, check the high-order word of **lpVerb** for the ANSI case or **lpVerbW** for the Unicode case. If the high-order word is nonzero, **lpVerb** or **lpVerbW** holds a verb string. If the high-order word is zero, the command offset is in the low-order word of **lpVerb**.
 

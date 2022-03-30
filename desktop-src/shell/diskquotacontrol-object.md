@@ -90,19 +90,19 @@ The **DiskQuotaControl** object has these properties.
 
 An administrator can use the **DiskQuotaControl** object to do a number of tasks, including the following:
 
--   Enabling and disabling the volume's disk quota system.
--   Obtaining the status of the quota system on the volume.
--   Denying disk space to users exceeding their quota limit.
--   Specifying the default warning threshold and quota limit values that will be assigned to new users.
--   Adding and removing users.
+- Enabling and disabling the volume's disk quota system.
+- Obtaining the status of the quota system on the volume.
+- Denying disk space to users exceeding their quota limit.
+- Specifying the default warning threshold and quota limit values that will be assigned to new users.
+- Adding and removing users.
 
 The **DiskQuotaControl** object allows you to set global default values for the volume for properties such as quota limits. However, each user is represented by a [**DIDiskQuotaUser**](didiskquotauser-object.md) object that can be used to specify individual quota settings.
 
 There are several ways to obtain a user's [**DIDiskQuotaUser**](didiskquotauser-object.md) object:
 
--   The [**DIDiskQuotaUser**](didiskquotauser-object.md) objects for all users with quotas on the volume are exposed as a collection, and can be enumerated. For a discussion of how to enumerate **DIDiskQuotaUser** objects, see **Enumerating Disk Quota Users** in the Remarks section of **DIDiskQuotaUser**.
--   When you add a new user, the [**AddUser**](diskquotacontrol-adduser.md) method returns the user's [**DIDiskQuotaUser**](didiskquotauser-object.md) object.
--   If you have the user's name, the [**FindUser**](diskquotacontrol-finduser.md) method returns the user's [**DIDiskQuotaUser**](didiskquotauser-object.md) object.
+- The [**DIDiskQuotaUser**](didiskquotauser-object.md) objects for all users with quotas on the volume are exposed as a collection, and can be enumerated. For a discussion of how to enumerate **DIDiskQuotaUser** objects, see **Enumerating Disk Quota Users** in the Remarks section of **DIDiskQuotaUser**.
+- When you add a new user, the [**AddUser**](diskquotacontrol-adduser.md) method returns the user's [**DIDiskQuotaUser**](didiskquotauser-object.md) object.
+- If you have the user's name, the [**FindUser**](diskquotacontrol-finduser.md) method returns the user's [**DIDiskQuotaUser**](didiskquotauser-object.md) object.
 
 This object makes the essential functionality of the IDiskQuotaControl interface available to scripting and Microsoft Visual Basic-based applications.
 

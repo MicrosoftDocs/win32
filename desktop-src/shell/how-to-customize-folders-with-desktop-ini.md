@@ -35,10 +35,10 @@ The Desktop.ini file is a text file that allows you to specify how a file system
 
 The following illustrations are of the Music folder with a custom Desktop.ini file. The folder now:
 
--   Has a custom icon.
--   Does not display a "You Are Deleting a System Folder" warning if the folder is moved or deleted.
--   Cannot be shared.
--   Displays informational text when the cursor hovers over the folder.
+- Has a custom icon.
+- Does not display a "You Are Deleting a System Folder" warning if the folder is moved or deleted.
+- Cannot be shared.
+- Displays informational text when the cursor hovers over the folder.
 
 The folder options in the following illustrations are set to show hidden files so that Desktop.ini is visible. The folder looks like this:
 

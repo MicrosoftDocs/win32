@@ -56,11 +56,11 @@ In addition to its display name, an object can have a number of attributes, such
 
 If you have an object's fully qualified path or PIDL, [**SHGetFileInfo**](/windows/desktop/api/Shellapi/nf-shellapi-shgetfileinfoa) provides a simple way to retrieve information about an object that is sufficient for many purposes. **SHGetFileInfo** takes a fully qualified path or PIDL, and returns a variety of information about the object including:
 
--   The object's display name
--   The object's attributes
--   Handles to the object's icons
--   A handle to the system image list
--   The path of the file containing the object's icon
+- The object's display name
+- The object's attributes
+- Handles to the object's icons
+- A handle to the system image list
+- The path of the file containing the object's icon
 
 ## Getting a Pointer to a Subfolder's IShellFolder Interface
 

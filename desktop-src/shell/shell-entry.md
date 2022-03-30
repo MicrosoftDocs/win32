@@ -20,35 +20,35 @@ The Windows UI provides users with access to a wide variety of objects necessary
 
 The following development scenarios relate to application development:
 
--   Extending the Shell, which consists of creating a data source (versus consuming the Shell data model)
--   Implementing a subset of the Shell data source tasks
--   Supporting libraries and item views in Windows Explorer
--   Using the common file dialog
--   Implementing Control Panel items
--   Managing notifications
+- Extending the Shell, which consists of creating a data source (versus consuming the Shell data model)
+- Implementing a subset of the Shell data source tasks
+- Supporting libraries and item views in Windows Explorer
+- Using the common file dialog
+- Implementing Control Panel items
+- Managing notifications
 
 The following development scenarios relate to file format ownership:
 
--   Implementing a subset of the Shell data source tasks
--   Implementing any handler
--   Supporting desktop search
+- Implementing a subset of the Shell data source tasks
+- Implementing any handler
+- Supporting desktop search
 
 The following development scenarios relate to data storage ownership:
 
--   Supporting desktop search and OpenSearch
--   Implementing a subset of the Shell data source tasks (virtual folders)
--   Supporting libraries in Windows Explorer
+- Supporting desktop search and OpenSearch
+- Implementing a subset of the Shell data source tasks (virtual folders)
+- Supporting libraries in Windows Explorer
 
 The following development scenario relates to device support:
 
--   Auto run and auto play
+- Auto run and auto play
 
 ## Windows Shell SDK Documentation
 
 This documentation is broken into three major sections:
 
--   The [Shell Developer's Guide](intro.md) provides conceptual material about how the Shell works and how to use the Shell's API in your application.
--   The [Shell Reference](shell-reference-bumper.md) section documents programming elements that make up the various Shell APIs.
+- The [Shell Developer's Guide](intro.md) provides conceptual material about how the Shell works and how to use the Shell's API in your application.
+- The [Shell Reference](shell-reference-bumper.md) section documents programming elements that make up the various Shell APIs.
 - [Shell Samples](samples-entry.md) provides links to related code samples.
 
 The following table provides an outline of the Shell Reference section. Unless otherwise noted, all programming elements are documented in unmanaged C++.

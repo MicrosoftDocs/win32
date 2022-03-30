@@ -52,13 +52,13 @@ The system provides location-independent names for Shell links to objects stored
 
 When the user creates a shortcut to an object by choosing the **Create Shortcut** command from the object's shortcut menu, Windows stores the information it needs to access the object in a link file—a binary file that has the .lnk file name extension. A link file contains the following information:
 
--   The location (path) of the object referenced by the shortcut (called the corresponding object).
--   The working directory of the corresponding object.
--   The list of arguments that the system passes to the corresponding object when the [**IContextMenu::InvokeCommand**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontextmenu-invokecommand) method is activated for the shortcut.
--   The show command used to set the initial show state of the corresponding object. This is one of the SW\_ values described in [**ShowWindow**](/windows/win32/api/winuser/nf-winuser-showwindow).
--   The location (path and index) of the shortcut's icon.
--   The shortcut's description string.
--   The keyboard shortcut for the shortcut.
+- The location (path) of the object referenced by the shortcut (called the corresponding object).
+- The working directory of the corresponding object.
+- The list of arguments that the system passes to the corresponding object when the [**IContextMenu::InvokeCommand**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontextmenu-invokecommand) method is activated for the shortcut.
+- The show command used to set the initial show state of the corresponding object. This is one of the SW\_ values described in [**ShowWindow**](/windows/win32/api/winuser/nf-winuser-showwindow).
+- The location (path and index) of the shortcut's icon.
+- The shortcut's description string.
+- The keyboard shortcut for the shortcut.
 
 When a link file is deleted, the corresponding object is not affected.
 
