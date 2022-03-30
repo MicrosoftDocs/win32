@@ -4,9 +4,6 @@ title: Creating an AutoRun-Enabled Application
 ms.topic: article
 ms.date: 05/31/2018
 ms.assetid: 0d01f4a2-64c4-4b31-9fc9-361da6825ab8
-api_name: 
-api_type: 
-api_location: 
 topic_type: 
  - kbArticle
 
@@ -34,8 +31,6 @@ Autorun.inf is a text file located in the root directory of the CD-ROM that cont
 > [!Note]  
 > Autorun.inf files are not supported under Windows XP for drives that return DRIVE\_REMOVABLE from [**GetDriveType**](/windows/win32/api/fileapi/nf-fileapi-getdrivetypea).
 
- 
-
 The Autorun.inf file can also contain optional information including:
 
 - The name of a file that contains an icon that will represent your application's CD-ROM drive. This icon will be displayed by Windows Explorer in place of the standard drive icon.
@@ -49,11 +44,7 @@ Autorun.inf files are similar to .ini files. They consist of one or more section
 > [!Note]  
 > The Shell checks for an architecture-specific section first. If it does not find one, it uses the information in the **\[autorun\]** section. After the Shell finds a section, it ignores all others, so each section must be self-contained.
 
- 
-
 Each section contains a series of commands that determine how the Autorun operation takes place. There are five commands available.
-
-
 
 | Command                         | Description                                                                            |
 |---------------------------------|----------------------------------------------------------------------------------------|
@@ -64,25 +55,17 @@ Each section contains a series of commands that determine how the Autorun operat
 | [shell](autorun-cmds.md)       | Defines the default command in the CD-ROM's shortcut menu.                             |
 | [shell\_verb](autorun-cmds.md) | Adds commands to the CD-ROM's shortcut menu.                                           |
 
-
-
- 
-
 The following is an example of a simple Autorun.inf file. It specifies Filename.exe as the startup application. The second icon in Filename.exe will represent the CD-ROM drive instead of the standard drive icon.
 
-
-```
+```TEXT
 [autorun] 
 open=Filename.exe 
 icon=Filename.exe,1
 ```
 
-
-
 This Autorun.inf sample runs different startup applications depending on the type of computer.
 
-
-```
+```TEXT
 [autorun] 
 open=Filename_x86.exe 
 icon=IconFile.ico 
@@ -91,8 +74,6 @@ icon=IconFile.ico
 open=Filename_RISC.exe 
 icon=IconFile.ico
 ```
-
-
 
 ## The \[DeviceInstall\] Section
 

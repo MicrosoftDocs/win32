@@ -29,12 +29,9 @@ With systems that have Shell [version 4.70](versions.md) and later, Windows send
 
 The following code fragments illustrate how to set up and handle this message. Your application must be running in the foreground window. First, register "QueryCancelAutoPlay" as a Windows message:
 
-
 ```C++
 uMessage = RegisterWindowMessage(TEXT("QueryCancelAutoPlay"));
 ```
-
-
 
 Your application's window must be in the foreground to receive this message. The message handler should return **TRUE** to cancel AutoRun and **FALSE** to enable it. The following code fragment illustrates how to use this message to disable AutoRun.
 

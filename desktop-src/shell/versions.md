@@ -18,7 +18,7 @@ This section describes how to determine which version of the Shell DLLs your app
 
 - [DLL Version Numbers](#dll-version-numbers)
 - [Using DllGetVersion to Determine the Version Number](#using-dllgetversion-to-determine-the-version-number)
-    - [Using DllGetVersion](#using-dllgetversion)
+  - [Using DllGetVersion](#using-dllgetversion)
 - [Project Versions](#project-versions)
 
 ## DLL Version Numbers
