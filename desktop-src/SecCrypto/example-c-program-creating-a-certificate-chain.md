@@ -155,80 +155,98 @@ printf("The size of the chain context "
 printf("%d simple chains found.\n",pChainContext->cChain);
 printf("\nError status for the chain:\n");
 
-switch(pChainContext->TrustStatus.dwErrorStatus)
+DWORD errorStatus = pChainContext->TrustStatus->dwErrorStatus;
+
+if((errorStatus & CERT_TRUST_IS_NOT_TIME_VALID) != 0)
 {
-case CERT_TRUST_NO_ERROR :
-     printf("No error found for this certificate or chain.\n");
-     break;
-case CERT_TRUST_IS_NOT_TIME_VALID: 
-     printf("This certificate or one of the certificates in the "
+    printf("This certificate or one of the certificates in the "
          "certificate chain is not time-valid.\n");
-     break;
-case CERT_TRUST_IS_REVOKED:
-     printf("Trust for this certificate or one of the certificates "
+}
+if((errorStatus & CERT_TRUST_IS_REVOKED) != 0)
+{
+    printf("Trust for this certificate or one of the certificates "
          "in the certificate chain has been revoked.\n");
-     break;
-case CERT_TRUST_IS_NOT_SIGNATURE_VALID:
-     printf("The certificate or one of the certificates in the "
+}
+if((errorStatus & CERT_TRUST_IS_NOT_SIGNATURE_VALID) != 0)
+{
+    printf("The certificate or one of the certificates in the "
          "certificate chain does not have a valid signature.\n");
-     break;
-case CERT_TRUST_IS_NOT_VALID_FOR_USAGE:
-     printf("The certificate or certificate chain is not valid "
+}
+if((errorStatus & CERT_TRUST_IS_NOT_VALID_FOR_USAGE) != 0)
+{
+    printf("The certificate or certificate chain is not valid "
          "in its proposed usage.\n");
-     break;
-case CERT_TRUST_IS_UNTRUSTED_ROOT:
-     printf("The certificate or certificate chain is based "
+}
+if((errorStatus & CERT_TRUST_IS_UNTRUSTED_ROOT) != 0)
+{
+    printf("The certificate or certificate chain is based "
          "on an untrusted root.\n");
-     break;
-case CERT_TRUST_REVOCATION_STATUS_UNKNOWN:
-     printf("The revocation status of the certificate or one of the"
+}
+if((errorStatus & CERT_TRUST_REVOCATION_STATUS_UNKNOWN) != 0)
+{
+    printf("The revocation status of the certificate or one of the"
          "certificates in the certificate chain is unknown.\n");
-     break;
-case CERT_TRUST_IS_CYCLIC :
-     printf("One of the certificates in the chain was issued by a "
+}
+if((errorStatus & CERT_TRUST_IS_CYCLIC) != 0)
+{
+    printf("One of the certificates in the chain was issued by a "
          "certification authority that the original certificate "
          "had certified.\n");
-     break;
-case CERT_TRUST_IS_PARTIAL_CHAIN: 
-     printf("The certificate chain is not complete.\n");
-     break;
-case CERT_TRUST_CTL_IS_NOT_TIME_VALID: 
-     printf("A CTL used to create this chain was not time-valid.\n");
-     break;
-case CERT_TRUST_CTL_IS_NOT_SIGNATURE_VALID: 
-     printf("A CTL used to create this chain did not have a valid "
+}
+if((errorStatus & CERT_TRUST_IS_PARTIAL_CHAIN) != 0)
+{
+    printf("The certificate chain is not complete.\n");
+}
+if((errorStatus & CERT_TRUST_CTL_IS_NOT_TIME_VALID) != 0)
+{
+    printf("A CTL used to create this chain was not time-valid.\n");
+}
+if((errorStatus & CERT_TRUST_CTL_IS_NOT_SIGNATURE_VALID) != 0)
+{
+    printf("A CTL used to create this chain did not have a valid "
          "signature.\n");
-     break;
-case CERT_TRUST_CTL_IS_NOT_VALID_FOR_USAGE: 
-     printf("A CTL used to create this chain is not valid for this "
-         "usage.\n");
-} // End switch
+}
+if((errorStatus & CERT_TRUST_CTL_IS_NOT_VALID_FOR_USAGE) != 0)
+{
+    printf("A CTL used to create this chain did not have a valid "
+         "signature.\n");
+}
+else // CERT_TRUST_NO_ERROR 
+{
+    printf("No error found for this certificate or chain.\n");
+}
 
 printf("\nInfo status for the chain:\n");
-switch(pChainContext->TrustStatus.dwInfoStatus)
+DWORD infoStatus = pChainContext->TrustStatus.dwInfoStatus;
+
+if((infoStatus & CERT_TRUST_HAS_EXACT_MATCH_ISSUER) != 0)
 {
-case 0:
-     printf("No information status reported.\n");
-     break;
-case CERT_TRUST_HAS_EXACT_MATCH_ISSUER :
-     printf("An exact match issuer certificate has been found for "
+    printf("An exact match issuer certificate has been found for "
          "this certificate.\n");
-     break;
-case CERT_TRUST_HAS_KEY_MATCH_ISSUER: 
+}
+if((infoStatus & CERT_TRUST_HAS_KEY_MATCH_ISSUER) != 0)
+{
     printf("A key match issuer certificate has been found for this "
         "certificate.\n");
-     break;
-case CERT_TRUST_HAS_NAME_MATCH_ISSUER: 
+}
+if((infoStatus & CERT_TRUST_HAS_NAME_MATCH_ISSUER) != 0)
+{
     printf("A name match issuer certificate has been found for this "
         "certificate.\n");
-     break;
-case CERT_TRUST_IS_SELF_SIGNED:
-     printf("This certificate is self-signed.\n");
-     break;
-case CERT_TRUST_IS_COMPLEX_CHAIN:
-     printf("The certificate chain created is a complex chain.\n");
-     break;
-} // end switch
+}
+if((infoStatus & CERT_TRUST_IS_SELF_SIGNED) != 0)
+{
+    printf("This certificate is self-signed.\n");
+}
+if((infoStatus & CERT_TRUST_IS_COMPLEX_CHAIN) != 0)
+{
+    printf("The certificate chain created is a complex chain.\n");
+}
+else // No dwInfoStatus bits set
+{
+    printf("No information status reported.\n");
+}
+
 
 //-------------------------------------------------------------------
 // Duplicate the original chain.
