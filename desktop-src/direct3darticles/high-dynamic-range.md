@@ -234,11 +234,14 @@ However, if your app performs its own composition of SDR and HDR content into a 
 
 ### Step 1. Obtain the current SDR reference white level
 
-Currently, only UWP apps can obtain the current SDR reference white level via [**AdvancedColorInfo.SdrWhiteLevelInNits**](/uwp/api/windows.graphics.display.advancedcolorinfo.sdrwhitelevelinnits). This API requires a [**CoreWindow**](/uwp/api/Windows.UI.Core.CoreWindow).
+You can obtain the current SDR reference white level via either:
+
+* [**DISPLAYCONFIG_SDR_WHITE_LEVEL**](/win32/api/wingdi/ns-wingdi-displayconfig_sdr_white_level) and [**QueryDisplayConfig**](/win32/api/winuser/nf-winuser-querydisplayconfig) in a desktop application, or
+* [**AdvancedColorInfo.SdrWhiteLevelInNits**](/uwp/api/windows.graphics.display.advancedcolorinfo.sdrwhitelevelinnits) using a [**CoreWindow**](/uwp/api/Windows.UI.Core.CoreWindow) in a UWP app.
 
 ### Step 2. Adjust color values of SDR content
 
-Windows defines the nominal, or default, reference white level at 80 nits; therefore if you were to render a standard sRGB (1.0, 1.0, 1.0) white to an FP16 swap chain, it would be reproduced at 80 nits luminance. In order to match the actual user-defined reference white level, you must adjust SDR content from 80 nits to the level specified via **AdvancedColorInfo.SdrWhiteLevelInNits**.
+Windows defines the nominal, or default, reference white level at 80 nits; therefore if you were to render a standard sRGB (1.0, 1.0, 1.0) white to an FP16 swap chain, it would be reproduced at 80 nits luminance. In order to match the actual user-defined reference white level, you must adjust SDR content from 80 nits to the level obtained in the previous step.
 
 If you're rendering using FP16 and scRGB, or any color space that uses linear (1.0) gamma, then you can simply multiply the SDR color value by _AdvancedColorInfo.SdrWhiteLevelInNits_ / _80_. If you're using Direct2D, there is a predefined constant [**D2D1_SCENE_REFERRED_SDR_WHITE_LEVEL**](../direct2d/direct2d-constants.md#d2d1_scene_referred_sdr_white_level-800f), which has a value of 80.
 
