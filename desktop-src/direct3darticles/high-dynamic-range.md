@@ -234,7 +234,10 @@ However, if your app performs its own composition of SDR and HDR content into a 
 
 ### Step 1. Obtain the current SDR reference white level
 
-The current SDR reference white level can be obtained either via [**AdvancedColorInfo.SdrWhiteLevelInNits**](/uwp/api/windows.graphics.display.advancedcolorinfo.sdrwhitelevelinnits) using a [**CoreWindow**](/uwp/api/Windows.UI.Core.CoreWindow) in UWP or via [**DISPLAYCONFIG_SDR_WHITE_LEVEL**](/win32/api/wingdi/ns-wingdi-displayconfig_sdr_white_level) and [**QueryDisplayConfig**](/win32/api/winuser/nf-winuser-querydisplayconfig) in Win32 applications.
+You can obtain the current SDR reference white level via either:
+
+* [**DISPLAYCONFIG_SDR_WHITE_LEVEL**](/win32/api/wingdi/ns-wingdi-displayconfig_sdr_white_level) and [**QueryDisplayConfig**](/win32/api/winuser/nf-winuser-querydisplayconfig) in a desktop application, or
+* [**AdvancedColorInfo.SdrWhiteLevelInNits**](/uwp/api/windows.graphics.display.advancedcolorinfo.sdrwhitelevelinnits) using a [**CoreWindow**](/uwp/api/Windows.UI.Core.CoreWindow) in a UWP app.
 
 ### Step 2. Adjust color values of SDR content
 
