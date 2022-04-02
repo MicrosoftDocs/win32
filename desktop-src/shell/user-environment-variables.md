@@ -17,7 +17,3 @@ To add or modify environment variables, the user selects **System** from the **C
 To retrieve a copy of the environment block for a given user, use the [**CreateEnvironmentBlock**](/windows/desktop/api/Userenv/nf-userenv-createenvironmentblock) function. To free an environment block created by **CreateEnvironmentBlock**, use the [**DestroyEnvironmentBlock**](/windows/desktop/api/Userenv/nf-userenv-destroyenvironmentblock) function. These functions reference a pointer to an environment block. The environment block is an array of null-terminated Unicode strings. The list ends with two nulls (\\0\\0).
 
 To expand a string that contains environment variables by using the environment block for a specified user, use the [**ExpandEnvironmentStringsForUser**](/windows/desktop/api/Userenv/nf-userenv-expandenvironmentstringsforusera) function.
-
- 
-
- 
