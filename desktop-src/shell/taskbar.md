@@ -3,12 +3,12 @@ description: The Windows interface includes a special application desktop toolba
 ms.assetid: 14d520e7-7c15-441d-9662-24b972d208ac
 title: The Taskbar
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 04/02/2022
 ---
 
 # The Taskbar
 
-The Windows interface includes a special [application desktop toolbar](application-desktop-toolbars.md) called the *taskbar*. You can use the taskbar for such tasks as switching between open windows and starting new applications. 
+The Windows interface includes a special [application desktop toolbar](application-desktop-toolbars.md) called the *taskbar*. You can use the taskbar for such tasks as switching between open windows and starting new applications.
 
 This topic contains the following sections.
 
@@ -71,9 +71,9 @@ It is possible to cover the taskbar by explicitly setting the size of the window
 
 To add an item to the **Programs** submenu on Microsoft Windows NT 4.0, Windows 2000 and later, or Windows 95 or later, follow these steps.
 
-1.  Create a [shell link](./links.md) by using the [**IShellLink**](/windows/desktop/api/Shobjidl_core/nn-shobjidl_core-ishelllinka) interface.
-2.  Obtain the PIDL of the Programs folder by using [**SHGetSpecialFolderLocation**](/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetspecialfolderlocation), passing [**CSIDL\_PROGRAMS**](csidl.md).
-3.  Add the Shell link to the Programs folder. You can also create a folder in the Programs folder and add the link to that folder.
+1. Create a [shell link](./links.md) by using the [**IShellLink**](/windows/desktop/api/Shobjidl_core/nn-shobjidl_core-ishelllinka) interface.
+2. Obtain the PIDL of the Programs folder by using [**SHGetSpecialFolderLocation**](/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetspecialfolderlocation), passing [**CSIDL\_PROGRAMS**](csidl.md).
+3. Add the Shell link to the Programs folder. You can also create a folder in the Programs folder and add the link to that folder.
 
 ### Managing Taskbar Buttons
 
@@ -128,10 +128,10 @@ Versions 5.0 and later of the Shell handle [**Shell\_NotifyIcon**](/windows/desk
 - If a user selects a notify icon with the keyboard and activates it with the space bar or ENTER key, the version 5.0 Shell sends the associated application an **NIN\_KEYSELECT** notification. Earlier versions send [**WM\_RBUTTONDOWN**](../inputdev/wm-rbuttondown.md) and [**WM\_RBUTTONUP**](../inputdev/wm-rbuttonup.md) messages.
 - If a user selects a notify icon with the mouse and activates it with the ENTER key, the version 5.0 Shell sends the associated application an **NIN\_SELECT** notification. Earlier versions send [**WM\_RBUTTONDOWN**](../inputdev/wm-rbuttondown.md) and [**WM\_RBUTTONUP**](../inputdev/wm-rbuttonup.md) messages.
 - If a user passes the mouse pointer over an icon with which a balloon tooltip is associated, the version 6.0 Shell (Windows XP)sends the following messages.
-    - - **NIN\_BALLOONSHOW** - Sent when the balloon is shown (balloons are queued).
-        - **NIN\_BALLOONHIDE** - Sent when the balloon disappears—for example, when the icon is deleted. This message is not sent if the balloon is dismissed because of a timeout or a mouse click.
-        - **NIN\_BALLOONTIMEOUT** - Sent when the balloon is dismissed because of a timeout.
-        - **NIN\_BALLOONUSERCLICK** - Sent when the balloon is dismissed because of a mouse click.
+  - **NIN\_BALLOONSHOW** - Sent when the balloon is shown (balloons are queued).
+  - **NIN\_BALLOONHIDE** - Sent when the balloon disappears—for example, when the icon is deleted. This message is not sent if the balloon is dismissed because of a timeout or a mouse click.
+  - **NIN\_BALLOONTIMEOUT** - Sent when the balloon is dismissed because of a timeout.
+  - **NIN\_BALLOONUSERCLICK** - Sent when the balloon is dismissed because of a mouse click.
 
 You can select which way the Shell should behave by calling [**Shell\_NotifyIcon**](/windows/desktop/api/Shellapi/nf-shellapi-shell_notifyicona) with *dwMessage* set to **NIM\_SETVERSION**. Set the **uVersion** member of the [**NOTIFYICONDATA**](/windows/desktop/api/Shellapi/ns-shellapi-notifyicondataa) structure to indicate whether you want version 5.0 or pre-version 5.0 behavior.
 
@@ -141,7 +141,7 @@ With Microsoft Internet Explorer 4.0 and later, the Shell notifies applications
 
 On Windows 10, the taskbar also broadcasts this message when the DPI of the primary display changes.
 
-```
+```CPP
 LRESULT CALLBACK WndProc(HWND hWnd, 
                          UINT uMessage, 
                          WPARAM wParam, 
@@ -165,8 +165,6 @@ LRESULT CALLBACK WndProc(HWND hWnd,
 }
 ```
 
-
-
 ## Using the Taskbar
 
 This section includes examples that demonstrate how to add icons to the taskbar notification area and how to process callback messages for taskbar icons.
@@ -177,8 +175,7 @@ You add an icon to the taskbar notification area by filling in a [**NOTIFYICONDA
 
 The function in the following example demonstrates how to add an icon to the taskbar.
 
-
-```
+```CPP
 // MyTaskBarAddIcon - adds an icon to the notification area. 
 // Returns TRUE if successful, or FALSE otherwise. 
 // hwnd - handle to the window to receive callback messages 
@@ -213,12 +210,9 @@ BOOL MyTaskBarAddIcon(HWND hwnd, UINT uID, HICON hicon, LPSTR lpszTip)
 }
 ```
 
-
-
 To delete an icon from the taskbar notification area, fill a [**NOTIFYICONDATA**](/windows/desktop/api/Shellapi/ns-shellapi-notifyicondataa) structure and call [**Shell\_NotifyIcon**](/windows/desktop/api/Shellapi/nf-shellapi-shell_notifyicona) with *dwMessage* set to **NIM\_DELETE**. When deleting a taskbar icon, specify only the **cbSize**, **hWnd**, and **uID** members of the structure. For example:
 
-
-```
+```CPP
 // MyTaskBarDeleteIcon - deletes an icon from the notification area. 
 // Returns TRUE if successful, or FALSE otherwise. 
 // hwnd - handle to the window that added the icon. 
@@ -238,16 +232,13 @@ BOOL MyTaskBarDeleteIcon(HWND hwnd, UINT uID)
 }
 ```
 
-
-
 ### Receiving Mouse Events
 
 If you specify a callback message for a taskbar icon, the system sends the message to your application whenever a mouse event occurs in the icon's bounding rectangle. The *wParam* parameter of the message specifies the identifier of the taskbar icon, and the *lParam* parameter of the message specifies the message that the system generated as a result of the mouse event.
 
 The function in the following example is from an application that adds both battery and printer icons to the taskbar. The application calls the function when it receives a callback message. The function determines whether the user has clicked one of the icons and, if a click has occurred, calls an application-defined function to display status information.
 
-
-```
+```CPP
 // On_MYWM_NOTIFYICON - processes callback messages for taskbar icons. 
 // wParam - first message parameter of the callback message. 
 // lParam - second message parameter of the callback message. 
@@ -286,9 +277,3 @@ void On_MYWM_NOTIFYICON(WPARAM wParam, LPARAM lParam)
      return; 
  }
 ```
-
-
-
- 
-
- 
