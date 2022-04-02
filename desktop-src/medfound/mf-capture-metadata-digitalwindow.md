@@ -21,8 +21,8 @@ The **BLOB** value of this property is a [DigitalWindowSetting](/windows/win32/a
 
 
 
-|                                     |                                                                                    |
-|-------------------------------------|------------------------------------------------------------------------------------|
+|   Requirement                  |              Details               |
+|-------------------------------------|---------------------------------------|
 | Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | Windows Server, version 1709 \[desktop apps only\]<br/>                      |
 | Header<br/>                   | <dl> <dt>Mfapi.h</dt> </dl> |

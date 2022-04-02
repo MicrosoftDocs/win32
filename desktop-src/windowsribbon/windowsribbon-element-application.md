@@ -81,7 +81,7 @@ The following example shows an **Application** element declaration.
 
 
 
-|                                     |           |
+|     Requirement                                |   Details        |
 |-------------------------------------|-----------|
 | Minimum supported system<br/> | Windows 7 |
 | Can be empty                        | No        |
