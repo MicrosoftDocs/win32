@@ -8,50 +8,54 @@ ms.date: 05/31/2018
 
 # The Taskbar
 
-The Windows interface includes a special [application desktop toolbar](application-desktop-toolbars.md) called the *taskbar*. You can use the taskbar for such tasks as switching between open windows and starting new applications.
-
-> [!Note]  
-> For information on changes made to the taskbar as of Windows 7, see [Taskbar Extensions](taskbar-extensions.md).
-
- 
+The Windows interface includes a special [application desktop toolbar](application-desktop-toolbars.md) called the *taskbar*. You can use the taskbar for such tasks as switching between open windows and starting new applications. 
 
 This topic contains the following sections.
 
 - [About the Taskbar](#about-the-taskbar)
-    - [Taskbar Display Options](#taskbar-display-options)
-    - [Adding Shortcuts to the Start Menu](#adding-shortcuts-to-the-start-menu)
-    - [Managing Taskbar Buttons](#managing-taskbar-buttons)
-    - [Adding, Modifying, and Deleting Icons in the Notification Area](#adding-modifying-and-deleting-icons-in-the-notification-area)
-    - [Taskbar Creation Notification](#taskbar-creation-notification)
+  - [Taskbar Display Options](#taskbar-display-options)
+  - [Adding Shortcuts to the Start Menu](#adding-shortcuts-to-the-start-menu)
+  - [Managing Taskbar Buttons](#managing-taskbar-buttons)
+  - [Adding, Modifying, and Deleting Icons in the Notification Area](#adding-modifying-and-deleting-icons-in-the-notification-area)
+  - [Taskbar Creation Notification](#taskbar-creation-notification)
 - [Using the Taskbar](#using-the-taskbar)
-    - [Adding and Deleting Taskbar Icons in the Notification Area](#adding-and-deleting-taskbar-icons-in-the-notification-area)
-    - [Receiving Mouse Events](#receiving-mouse-events)
+  - [Adding and Deleting Taskbar Icons in the Notification Area](#adding-and-deleting-taskbar-icons-in-the-notification-area)
+  - [Receiving Mouse Events](#receiving-mouse-events)
 
 ## About the Taskbar
 
-The taskbar includes the following:
+The taskbar includes the following items:
+
+### Windows 10
+
+In Windows 10:
 
 - **Start** menu
-- Quick Launch bar (Windows Vista and earlier only)
-- Taskbar buttons
+- Search bar
+- Cortana (optional)
+- Task view/Timeline
+- Taskbar icons
 - Toolbars (optional)
 - Notification area
 
-The **Start** menu contains commands that can access programs, documents, and settings. These commands include **All Programs**, **Documents**, **Control Panel**, **Games**, **Help and Support**, **Shut down**, and **Search programs and files**.
+In Windows 11:
 
-The **Start** in earlier versions of Windows contained items such as **Find** and **Run**, the functionality of which was included in **Search programs and files** in Windows Vista and later.
+- **Start** menu
+- Taskbar items
+  - Search
+  - Task view
+  - Widgets
+  - Chat
+- Taskbar icons
+- System tray icons
+- Action center
+- Notification center
 
-The Quick Launch bar, available in versions of Windows earlier than Windows 7, contains shortcuts to applications. Windows provides default entries, such as Windows Internet Explorer, and the user can add any further shortcuts that they choose. Icons in this area respond to a single click. In Windows 7 and later, this functionality is included in the taskbar buttons.
+The **Start** menu contains shortcuts and in Windows 10 **tiles** which let the user open applications. It too provides an overview of all installed Apps.
 
-The Shell places a button on the taskbar whenever an application creates an unowned window—that is, a window that does not have a parent and that has the appropriate extended style bits (see [Managing Taskbar Buttons](#managing-taskbar-buttons), below). To switch to a window, the user clicks its window button. This functionality has been greatly expanded as of Windows 7. For more information, see [Taskbar Extensions](taskbar-extensions.md).
+The Shell places a button on the taskbar whenever an application creates an unowned window—that is, a window that does not have a parent and that has the appropriate extended style bits (see [Managing Taskbar Buttons](#managing-taskbar-buttons), below). To switch to a window, the user clicks its window button.
 
-Applications can put icons in the notification area to indicate the status of an operation or to notify the user about an event. For example, an application might put a printer icon in the notification area to show that a print job is under way. However, in Windows 7 and later, some of the information previously provided by the notification area should be provided through an application's taskbar button. The notification area is located at the right edge of the taskbar (if the taskbar is horizontal) or at the bottom (if the taskbar is vertical). For more information, see [Notifications and the Notification Area](notification-area.md).
-
-The notification area also displays the current time if that option is selected. The option is found as:
-
-- **Windows 7 and later**: The **Clock** drop-down list in the **Turn system icons on or off** page of the **Notification Area Icons** Control Panel application (also accessible through the notification area properties).
-- **Windows Vista**: The **Clock** check box in the **Notification Area** page of the **Taskbar and Start Menu** properties window.
-- **Windows XP**: The **Show the clock** check box in the **Taskbar and Start Menu** properties window.
+Applications can put icons in the notification area to indicate the status of an operation or to notify the user about an event. For example, an application might put a printer icon in the notification area to show that a print job is under way.
 
 The user can right-click the taskbar to display the shortcut menu. The shortcut menu includes commands to cascade windows, stack windows, show windows side-by-side, show the desktop, start Task Manager, and set taskbar properties. The shortcut menu also provides the option to add or remove a set of toolbars from the taskbar. You can add new toolbars to this menu by registering them under the CATID\_DeskBand category. For more information, see [Implementing Band Objects](band-objects.md). Note that as of Windows 7, the taskbar and the notification area have separate shortcut menus. These shortcut menus share some options, such as window arrangement, and add others.
 
