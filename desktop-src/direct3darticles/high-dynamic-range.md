@@ -18,7 +18,7 @@ Windows advanced color refers to several related technologies, first introduced 
 
 ### High dynamic range
 
-Dynamic range refers to the difference between the maximum and minimum luminance in a scene; this is often measured in nits (candelas per square centimeter). Real world scenes, such as this sunset, often have dynamic ranges of 10 orders of magnitude of luminance; the human eye can discern an even greater range after adaptation.
+Dynamic range refers to the difference between the maximum and minimum luminance in a scene; this is often measured in nits (candelas per square meter). Real world scenes, such as this sunset, often have dynamic ranges of 10 orders of magnitude of luminance; the human eye can discern an even greater range after adaptation.
 
 ![picture of a sunset with brightness and darkest points in the scene labeled](images/HDR-HDR.jpg)
 
