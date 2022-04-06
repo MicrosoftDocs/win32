@@ -64,6 +64,8 @@ The address of the callback function.
 
 | Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
+| Minimum supported client<br/> | Windows 8<br/>                                             |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                    |
 | Library<br/> | <dl> <dt>Kernel32.lib</dt> </dl> |
 | DLL<br/>     | <dl> <dt>Kernel32.dll</dt> </dl> |
 
