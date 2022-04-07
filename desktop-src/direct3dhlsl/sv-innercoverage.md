@@ -16,7 +16,7 @@ ms.date: 05/31/2018
 
 # SV\_InnerCoverage
 
-SV\_InputCoverage represents underestimated conservative rasterization information (i.e. whether a pixel is guaranteed-to-be-fully covered).
+SV\_InnerCoverage represents underestimated conservative rasterization information (i.e. whether a pixel is guaranteed-to-be-fully covered).
 
 ## Type
 
