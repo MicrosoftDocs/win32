@@ -1,5 +1,5 @@
 ---
-Description: File attributes are metadata values stored by the file system on disk and are used by the system and are available to developers via various file I/O APIs.
+description: File attributes are metadata values stored by the file system on disk and are used by the system and are available to developers via various file I/O APIs.
 ms.assetid: ed9a73d2-7fb6-4fb7-97f6-4dbf89e2f156
 title: File Attribute Constants (WinNT.h)
 ms.topic: reference

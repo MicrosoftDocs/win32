@@ -1,5 +1,5 @@
 ---
-Description: A value representing the bounds settings of the digital window for video capture.
+description: A value representing the bounds settings of the digital window for video capture.
 title: MF_CAPTURE_METADATA_DIGITALWINDOW attribute (Mfapi.h)
 ms.topic: reference
 ms.date: 05/31/2018

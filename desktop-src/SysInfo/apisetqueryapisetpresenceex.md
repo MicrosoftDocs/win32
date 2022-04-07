@@ -1,5 +1,5 @@
 ---
-description: This API is intended for internal use only and should not be used in your code.
+description: This API is intended for internal use only. It should not be used in your code.
 title: ApiSetQueryApiSetPresenceEx function
 ms.topic: reference
 ms.date: 12/03/2021

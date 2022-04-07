@@ -1,5 +1,5 @@
 ---
-Description: Retrieves data from the Apphelp details database.
+description: Retrieves data from the Apphelp details database.
 ms.assetid: f3731561-bf3f-4139-9890-bd4ce73d83fa
 title: SdbReadApphelpDetailsData function
 ms.topic: reference
