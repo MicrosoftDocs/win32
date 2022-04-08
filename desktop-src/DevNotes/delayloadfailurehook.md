@@ -50,7 +50,7 @@ The name of the DLL.
 *pszProcName* \[in\]
 </dt> <dd>
 
-The name of the process.
+The name of the procedure.
 
 </dd> </dl>
 
