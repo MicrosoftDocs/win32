@@ -195,6 +195,7 @@ This property is inherited from [<b>CIM_Processor</b>](cim-processor.md).
       <dt><b>ia64</b> (6)</dt>
       <dd>Itanium-based systems</dd>
       <dt><b>x64</b> (9)</dt>
+      <dt><b>ARM64</b> (12)</dt>
     </dl>
   </dd>
   <dt><b>AssetTag</b></dt>
