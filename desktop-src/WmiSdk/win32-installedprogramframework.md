@@ -161,11 +161,11 @@ The unique identifier of the [**Win32\_InstalledWin32Program**](win32-installedw
 
 
 
-|                                     |                                                                                      |
-|-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                           |
-| Minimum supported server<br/> | None supported<br/>                                                            |
-| Namespace<br/>                | Root\\CIMv2<br/>                                                               |
+|                Requirement                |      Details          |
+|--------------------------------|----------------|
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>    |
+| Minimum supported server<br/> | None supported<br/>|
+| Namespace<br/>                | Root\\CIMv2<br/    |
 | MOF<br/>                      | <dl> <dt>Aeinv.mof</dt> </dl> |
 
 

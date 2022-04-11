@@ -93,7 +93,7 @@ The following functions are used in synchronization.
 | [**OpenEvent**](/windows/win32/api/synchapi/nf-synchapi-openeventa)         | Opens an existing named event object.                                                                                                                        |
 | [**PulseEvent**](/windows/desktop/api/WinBase/nf-winbase-pulseevent)       | Sets the specified event object to the signaled state and then resets it to the nonsignaled state after releasing the appropriate number of waiting threads. |
 | [**ResetEvent**](/windows/win32/api/synchapi/nf-synchapi-resetevent)       | Sets the specified event object to the nonsignaled state.                                                                                                    |
-| [**SetEvent**](/windows/win32/api/synchapi/nf-synchapi-resetevent)           | Sets the specified event object to the signaled state.                                                                                                       |
+| [**SetEvent**](/windows/win32/api/synchapi/nf-synchapi-setevent)           | Sets the specified event object to the signaled state.                                                                                                       |
 
 
 

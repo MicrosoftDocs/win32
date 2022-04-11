@@ -1,5 +1,5 @@
 ---
-description: "IShellDispatch.FindComputer method - 'Displays the Search Results: Computers dialog box. The dialog box shows the result of the search for a specified computer.'"
+description: IShellDispatch.FindComputer method Displays the Search Results Computers dialog box. The dialog box shows the result of the search for a specified computer.
 ms.assetid: 9B687A8A-BB29-49a0-8AE3-11A75FAF3257
 title: IShellDispatch.FindComputer method (Shldisp.h)
 ms.topic: reference

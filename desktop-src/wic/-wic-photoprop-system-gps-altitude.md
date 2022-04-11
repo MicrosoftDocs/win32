@@ -111,10 +111,10 @@ This value can be written by writing to System.GPS.Altitude.Numerator and System
 
 
 
-| Order | Path                      |     |
-|-------|---------------------------|-----|
-| 1     | /ifd/gps/{ushort=6}       |     |
-| 2     | /ifd/xmp/exif:gpsaltitude |     |
+| Order | Path                      |
+|-------|---------------------------|
+| 1     | /ifd/gps/{ushort=6}       |
+| 2     | /ifd/xmp/exif:gpsaltitude |
 
 
 

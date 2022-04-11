@@ -17,19 +17,13 @@ App packager (MakeAppx.exe) creates an app package from files on disk or extract
 
 The MakeAppx.exe tool is typically found in operating system version specific locations:
 
--   On x86: 
-    -   C:\\Program Files (x86)\\Windows Kits\\8.0\\bin\\x86\\makeappx.exe 
-    -   C:\\Program Files (x86)\\Windows Kits\\8.1\\bin\\x86\\makeappx.exe
-    -   C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.22000.0\\x86\\makeappx.exe
--   On x64:
-    -   C:\\Program Files (x86)\\Windows Kits\\8.0\\bin\\x86\\makeappx.exe 
-    -   C:\\Program Files (x86)\\Windows Kits\\8.0\\bin\\x64\\makeappx.exe
-    -   C:\\Program Files (x86)\\Windows Kits\\8.1\\bin\\x86\\makeappx.exe
-    -   C:\\Program Files (x86)\\Windows Kits\\8.1\\bin\\x64\\makeappx.exe
-    -   C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.22000.0\\x86\\makeappx.exe
-    -   C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.22000.0\\x64\\makeappx.exe
+- C:\Program Files (x86)\Windows Kits\10\bin\<build number>\<architecture>\makeappx.exe
 
-There is no ARM version of the tool.
+Where <architecture> = x86, x64, arm, ar64 or chpe. Alternatively, it may be located in:
+
+C:\Program Files (x86)\Windows Kits\10\App Certification Kit\makeappx.exe
+
+
 
 -   [To create a package using a directory structure](#to-create-a-package-using-a-directory-structure)
 -   [To create a package using a mapping file](#to-create-a-package-using-a-mapping-file)

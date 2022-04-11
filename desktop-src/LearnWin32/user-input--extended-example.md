@@ -1,12 +1,12 @@
 ---
-title: User Input Extended Example
-description: "User Input: Extended Example"
+title: User input extended example
+description: Extended example of user input combining everything learned so far to create a simple drawing program.
 ms.assetid: A408E0EC-E0A7-4F18-BFCA-21D28007FACC
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# User Input: Extended Example
+# User input: extended example
 
 Let's combine everything that we have learned about user input to create a simple drawing program. Here is a screen shot of the program:
 

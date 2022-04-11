@@ -26,15 +26,15 @@ The Format column in the table below describes the way each Unicode text field i
 | ListTitle | No | Unicode string.Example: Top Ten Hits<br /> | List title. | 
 | ListSubtitle | No | Unicode string | List alternate title, displayed in the second line of the Tile view. | 
 | ListDescription | Yes | Unicode string | List friendly display text (displayed in property pages). | 
-| Linked_ItemType | Yes | Unicode string.Format: [T|P|A|L|G|S|R]<br /> Example: T<br /> | Indicates the type of the linked items.<ul><li>T= Track</li><li>P = Performer</li><li>A = Album</li><li>L = List</li><li>G = Genre</li><li>S = Subgenre</li><li>R = Radio</li></ul> | 
+| Linked_ItemType | Yes | Unicode string.Format: [T\|P\|A\|L\|G\|S\|R]<br /> Example: T<br /> | Indicates the type of the linked items.<ul><li>T= Track</li><li>P = Performer</li><li>A = Album</li><li>L = List</li><li>G = Genre</li><li>S = Subgenre</li><li>R = Radio</li></ul> | 
 | ListPrice | Yes | Unicode string.Example: $9.99<br /> | Price of the list. The currency symbol should be included.A zero means the list is free. No value means the price is unknown. A hyphen means the list cannot be purchased.<br /> | 
 | Popularity | Yes | Integer or decimal value.Example: 1259.3<br /> | Indicates the popularity ranking when this list appears in other lists. Can be zero if not applicable.. | 
-| IsRecentlyAdded | Yes | Boolean.Format: [0|1]<br /> Example: 0<br /> | Indicates whether the list was recently added. | 
-| IsFeatured | Yes | Boolean.Format: [0|1]<br /> Example: 0<br /> | Indicates whether the list is featured. Can be used in determining sort order. | 
+| IsRecentlyAdded | Yes | Boolean.Format: [0\|1]<br /> Example: 0<br /> | Indicates whether the list was recently added. | 
+| IsFeatured | Yes | Boolean.Format: [0\|1]<br /> Example: 0<br /> | Indicates whether the list is featured. Can be used in determining sort order. | 
 | EditorialGlyph | Yes | Non-negative integer. Should be 0. | Not used in this release. Should be 0. | 
-| ViewType | Yes | Unicode string. Format: [I|T|R|L|O]Example: T<br /> | Indicates the view type to use for the list.<ul><li>I = Icon</li><li>T = Tile</li><li>R = Report</li><li>L = List</li><li>O = Ordered List</li></ul> | 
+| ViewType | Yes | Unicode string. Format: [I\|T\|R\|L\|O]Example: T<br /> | Indicates the view type to use for the list.<ul><li>I = Icon</li><li>T = Tile</li><li>R = Report</li><li>L = List</li><li>O = Ordered List</li></ul> | 
 | ViewImageSize | Yes | Non-negative integer.Example: 180<br /> | The size at which the list image is displayed. If 0, size is determined automatically. | 
-| GroupBy | Yes | Unicode string.Format: [-|P|A|C|R|D]<br /> Example: P<br /> | Indicates what field is used to group the items in the list.<ul><li>- = Automatic</li><li>P = Performer</li><li>A = Album</li><li>C = Composer</li><li>R = Rating</li><li>D = Date</li></ul> | 
+| GroupBy | Yes | Unicode string.Format: [-\|P\|A\|C\|R\|D]<br /> Example: P<br /> | Indicates what field is used to group the items in the list.<ul><li>- = Automatic</li><li>P = Performer</li><li>A = Album</li><li>C = Composer</li><li>R = Rating</li><li>D = Date</li></ul> | 
 | ListItemsAreDynamic | Yes | Boolean. Can be 0 or 1. | Indicates whether the list is generated dynamically. Dynamic lists do not have items in listitem.csv. If a list is marked as dynamic, its items are provided by <a href="/previous-versions/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-getlistcontents">IWMPContentPartner::GetListContents</a> | 
 
 

@@ -60,7 +60,7 @@ When a document is included in the index, each word is assigned an integer value
 
 
 
-|       |     |                        |          |       |     |     |                               |
+|&nbsp; | &nbsp;  |      &nbsp;                  |   &nbsp;       |   &nbsp;    | &nbsp;    |  &nbsp;   |      &nbsp;                         |
 |-------|-----|------------------------|----------|-------|-----|-----|-------------------------------|
 | Where | is  | Kyle Kyle's<br/> | document | filed | in  | the | database data base<br/> |
 
