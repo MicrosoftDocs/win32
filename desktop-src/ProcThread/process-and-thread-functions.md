@@ -217,7 +217,7 @@ The following functions are used with [WOW64](../winprog64/running-32-bit-applic
 | [**IsWow64Message**](/windows/desktop/api/Winuser/nf-winuser-iswow64message)         | Determines whether the last message read from the current thread's queue originated from a WOW64 process.                              |
 | [**IsWow64Process**](/windows/win32/api/wow64apiset/nf-wow64apiset-iswow64process)         | Determines whether the specified process is running under WOW64.                                                                       |
 | [**IsWow64Process2**](/windows/desktop/api/wow64apiset/nf-wow64apiset-iswow64process2)       | Determines whether the specified process is running under WOW64; also returns additional machine process and architecture information. |
-| [**Wow64SuspendThread**](/windows/desktop/api/WinBase/nf-winbase-wow64suspendthread) | Suspends the specified WOW64 thread.                                                                                                   |
+| [**Wow64SuspendThread**](/windows/win32/api/wow64apiset/nf-wow64apiset-wow64suspendthread) | Suspends the specified WOW64 thread.                                                                                                   |
 
 
 
