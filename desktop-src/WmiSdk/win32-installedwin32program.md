@@ -20,7 +20,7 @@ api_location:
 - Root\CIMv2
 api_type:
 - Schema
-ms.technology: system-insight
+ms.technology: system-insights
 ms.prod: windows-server-dev
 ms.author: windowssdkdev
 ms.topic: article
