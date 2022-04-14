@@ -529,11 +529,11 @@ The valid range of values for this field shall be:
 
 - At least 2<sup>20</sup>/ 2<sup>BytesPerSectorShift</sup>, which ensures the smallest volume is no less than 1MB
 
-- At most 2<sup>64</sup>- 1, the largest value this field can describe
+- At most 2<sup>64</sup>- 1, the largest value this field can describe.
 
-However, if the size of the Excess Space sub-region is 0, then the value
-of this field is ClusterHeapOffset + (2<sup>32</sup>- 11) \*
-2<sup>SectorsPerClusterShift</sup>.
+  However, if the size of the Excess Space sub-region is 0, then the largest value
+  of this field is ClusterHeapOffset + (2<sup>32</sup>- 11) \*
+  2<sup>SectorsPerClusterShift</sup>.
 
 #### 3.1.6 FatOffset Field
 
