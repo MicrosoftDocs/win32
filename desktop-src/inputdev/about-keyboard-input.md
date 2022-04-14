@@ -122,17 +122,29 @@ case WM_SYSKEYUP:
     WORD vkCode = LOWORD(wParam);                                       // virtual-key code
 
     BYTE scanCode = LOBYTE(HIWORD(lParam));                             // scan code
-    BOOL scanCodeE0 = (HIWORD(lParam) & KF_EXTENDED) == KF_EXTENDED;    // extended-key flag, 1 if scancode has 0xE0 prefix
+    BOOL isExtendedKey = (HIWORD(lParam) & KF_EXTENDED) == KF_EXTENDED; // extended-key flag, 1 if scancode has 0xe0 prefix
 
-    BOOL upFlag = (HIWORD(lParam) & KF_UP) == KF_UP;                    // transition-state flag, 1 on keyup
     BOOL repeatFlag = (HIWORD(lParam) & KF_REPEAT) == KF_REPEAT;        // previous key-state flag, 1 on autorepeat
     WORD repeatCount = LOWORD(lParam);                                  // repeat count, > 0 if several keydown messages was combined into one message
 
-    BOOL altDownFlag = (HIWORD(lParam) & KF_ALTDOWN) == KF_ALTDOWN;     // ALT key was pressed
+    BOOL upFlag = (HIWORD(lParam) & KF_UP) == KF_UP;                    // transition-state flag, 1 on keyup
 
-    BOOL dlgModeFlag = (HIWORD(lParam) & KF_DLGMODE) == KF_DLGMODE;     // dialog box is active
-    BOOL menuModeFlag = (HIWORD(lParam) & KF_MENUMODE) == KF_MENUMODE;  // menu is active
-    
+    if (isExtendedKey)
+        scanCode |= 0xe0 << 8u;
+
+    // if we want to distinguish:
+    // - VK_LSHIFT and VK_RSHIFT
+    // - VK_LCONTROL and VK_RCONTROL
+    // - VK_LMENU and VK_RMENU
+    switch (vkCode)
+    {
+    case VK_SHIFT:
+    case VK_CONTROL:
+    case VK_MENU:
+        vkCode = LOWORD(MapVirtualKeyW(scanCode, MAPVK_VSC_TO_VK_EX));
+        break;
+    }
+
     // ...
 }
 break;
