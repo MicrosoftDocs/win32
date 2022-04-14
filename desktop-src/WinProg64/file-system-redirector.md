@@ -7,7 +7,7 @@ keywords:
 - 64-bit Windows programming guide 64-bit Windows Programming , file system redirector
 - WOW64 64-bit Windows Programming , file system redirector
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 04/14/2022
 ---
 
 # File System Redirector

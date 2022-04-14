@@ -17,7 +17,7 @@ keywords:
 - text services,international keyboards
 - international keyboards
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 04/14/2022
 ---
 
 # 64-Bit Considerations
