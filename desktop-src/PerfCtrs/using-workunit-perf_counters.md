@@ -6,13 +6,13 @@ ms.topic: article
 ms.date: 02/25/2022
 ---
 
-# Using Work Unit Performance Counters
+# Using Work Unit performance counters
 
-`Work Unit` performance counters give the Windows platform insight into an application's processes. Work Units enable apps to describe which parts of the application run on a particular process and claim ownership. For example, a web browser has its own Task Manager to manage all its processes; with the Work Unit performance counter, that level of detail and control can be available from the Windows Task Manager.
+Work Unit performance counters give the Windows platform insight into an application's processes. Work Units enable apps to describe which parts of the application run on a particular process and claim ownership. For example, a web browser has its own Task Manager to manage all its processes; with the Work Unit performance counter, that level of detail and control can be available from the Windows Task Manager.
 
 For instance, consider the Microsoft Edge browser running on a user's device. The browser runs on a particular process, but other processes are created to host tabs, network and audio services, extensions, and other functionality. The particular process can be used to run multiple units of work, and different apps can share them. Internally, the browser knows its dependencies and how to communicate with the necessary processes, but the Windows platform and other applications do not know how the browser is composed. Having such information is helpful to provide more precise resource usage information and help diagnose issues with the app; Task Manager can report which units of work are running on a process. With this, debuggers can simplify developer workloads by describing what kind of work is running on a process.
 
-Work Units are a data contract implemented over performance counters to allow apps to reveal to the Windows platform what a specific process is being used for. surface their composition to the Windows platform. Each work unit carries the following properties.
+Work Units are a data contract implemented over performance counters to allow apps to reveal to the Windows platform what a specific process is being used for. surface their composition to the Windows platform. Each Work Unit carries the following properties.
 
 - AppOwnerProcessId: ID for the process which owns the given Work Unit.
 - HostProcessId: ID for the process in which the given Work Unit is running.
@@ -31,9 +31,9 @@ Information shared with Work Units in the Windows platform is available to be qu
 - user-friendly title for the Work Unit.
 
 > [!NOTE]
-> If a work unit information must be updated (for example, the title was changed), it retains its uniqueId. New units must use new unique identifiers. The uniqueId must be concatenated using the pipe character "|", like the sample below.
+> If a Work Unit information must be updated (for example, the title was changed), it retains its uniqueId. New units must use new unique identifiers. The uniqueId must be concatenated using the pipe character "|", like the [sample below](###Sample).
 
-Sample:
+### Sample
 
     "WorkUnit|1|4321|1019|Instance 1 of pid 1111, owned by 1111"
     "WorkUnit|1|8765|1019|Instance 1 of pid 5555, owned by 5555"
