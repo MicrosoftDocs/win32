@@ -31,9 +31,9 @@ Information shared with Work Units in the Windows platform is available to be qu
 - user-friendly title for the Work Unit.
 
 > [!NOTE]
-> If a Work Unit information must be updated (for example, the title was changed), it retains its uniqueId. New units must use new unique identifiers. The uniqueId must be concatenated using the pipe character "|", like the [sample below](###Sample).
+> If a Work Unit information must be updated (for example, the title was changed), it retains its uniqueId. New units must use new unique identifiers. The uniqueId must be concatenated using the pipe character "|", as shown in the following example.
 
-### Sample
+Sample:
 
     "WorkUnit|1|4321|1019|Instance 1 of pid 1111, owned by 1111"
     "WorkUnit|1|8765|1019|Instance 1 of pid 5555, owned by 5555"
