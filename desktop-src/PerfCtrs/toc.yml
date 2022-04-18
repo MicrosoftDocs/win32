@@ -77,7 +77,7 @@
                   href: performance-data-format.md
             - name: "Using the PerfLib Functions to Consume Counter Data"
               href: using-the-perflib-functions-to-consume-counter-data.md
-            - name: "Using WorkUnit performance counters"
+            - name: "Using Work Unit performance counters"
               href: using-workunit-perf_counters.md
         - name: "Providing Counter Data"
           href: providing-counter-data.md
