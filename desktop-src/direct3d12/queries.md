@@ -97,7 +97,7 @@ The core runtime will validate the following:
 
 ## Extracting data from a query
 
-The way to extract data from a query is to use the [**ResolveQueryData**](/windows/win32p/api/d3d12/nf-d3d12-id3d12graphicscommandlist-resolvequerydata) method. **ResolveQueryData** works with all memory types (whether they are system memory or device local memory), but requires the destination resource to be in [**D3D12_RESOURCE_STATE_COPY_DEST**](/windows/win32/api/d3d12/ne-d3d12-d3d12_resource_states). 
+The way to extract data from a query is to use the [**ResolveQueryData**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-resolvequerydata) method. **ResolveQueryData** works with all memory types (whether they are system memory or device local memory), but requires the destination resource to be in [**D3D12_RESOURCE_STATE_COPY_DEST**](/windows/win32/api/d3d12/ne-d3d12-d3d12_resource_states). 
 
 ## Related topics
 

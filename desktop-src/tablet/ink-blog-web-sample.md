@@ -200,7 +200,7 @@ The InkArea controls are connected to a client-side script function, AddBlog, by
 
 There is also an HTML form on the page that contains three hidden INPUT elements: BlogTitleText, BlogBodyText, and BlogBodyInkData. This form is used to post the blog entry data back to the server. AddBlog.aspx is the post-back handler defined for the form.
 
-The AddBlog function-written in Microsoft JScript<entity type="reg"/>-extracts the blog data from the InkArea controls and posts the results to the server.
+The AddBlog function-written in Microsoft JScript\<entity type="reg"/\>-extracts the blog data from the InkArea controls and posts the results to the server.
 
 
 ```C++
@@ -255,7 +255,8 @@ The Tablet PC SDK 1.7 installs the Ink Blog Web sample by default. To run the sa
 
  
 
-You can also run the sample by opening and building the project in Microsoft Visual Studio<entity type="reg"/> .NET and then deploying it to a separate computer running IIS.
+You can also run the sample by opening and building the project in Microsoft Visual Studio\<entity type="reg"/\> .NET and then deploying it to a separate computer running IIS.
+
 
 ## Troubleshooting the Sample
 

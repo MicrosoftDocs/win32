@@ -1429,6 +1429,7 @@
           - name: "D3D12_VIDEO_DECODE_SUPPORT_FLAGS"
             href: /windows/desktop/api/d3d12video/ne-d3d12video-d3d12_video_decode_support_flags
           - name: "D3D12_VIDEO_DECODE_TIER"
+            href: /windows/desktop/api/d3d12video/ne-d3d12video-d3d12_video_decode_tier
           - name: "D3D12_VIDEO_ENCODER_CODEC"
             href: /windows/desktop/api/d3d12video/ne-d3d12video-d3d12_video_encoder_codec
           - name: "D3D12_VIDEO_ENCODER_CODEC_CONFIGURATION_H264_DIRECT_MODES"
@@ -1491,7 +1492,6 @@
             href: /windows/desktop/api/d3d12video/ne-d3d12video-d3d12_video_encoder_tier_hevc
           - name: "D3D12_VIDEO_ENCODER_VALIDATION_FLAGS"
             href: /windows/desktop/api/d3d12video/ne-d3d12video-d3d12_video_encoder_validation_flags
-            href: /windows/desktop/api/d3d12video/ne-d3d12video-d3d12_video_decode_tier
           - name: "D3D12_VIDEO_EXTENSION_COMMAND_PARAMETER_FLAGS"
             href: /windows/desktop/api/d3d12video/ne-d3d12video-d3d12_video_extension_command_parameter_flags
           - name: "D3D12_VIDEO_EXTENSION_COMMAND_PARAMETER_STAGE"

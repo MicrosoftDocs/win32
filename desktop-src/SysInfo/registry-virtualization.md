@@ -18,7 +18,7 @@ For more information about building UAC-compliant applications, see the [UAC Dev
 
 ## Virtualization Overview
 
-Prior to Windows Vista, applications were typically run by administrators. As a result, applications could freely access system files and registry keys. If these applications were run by a standard user, they would fail due to insufficient access rights. Windows Vista and later versions of Windows improve application compatibility for these applications by automatically redirecting these operations. For example, registry operations to the global store (**HKEY\_LOCAL\_MACHINE\\Software**) are redirected to a per-user location within the user's profile known as the *virtual store* (**HKEY\_USERS\\<User SID>\_Classes\\VirtualStore\\Machine\\Software**).
+Prior to Windows Vista, applications were typically run by administrators. As a result, applications could freely access system files and registry keys. If these applications were run by a standard user, they would fail due to insufficient access rights. Windows Vista and later versions of Windows improve application compatibility for these applications by automatically redirecting these operations. For example, registry operations to the global store (**HKEY\_LOCAL\_MACHINE\\Software**) are redirected to a per-user location within the user's profile known as the *virtual store* (**HKEY\_USERS\\\<User SID\>\_Classes\\VirtualStore\\Machine\\Software**).
 
 Registry virtualization can be broadly classified into the following types:
 
@@ -38,7 +38,7 @@ If the REG\_KEY\_DONT\_SILENT\_FAIL flag is set for the key, the operation fails
 
 If the caller does not have write access to a key and attempts to write a value to it or create a subkey, the value is written to the virtual store.
 
-For example, if a limited user attempts to write a value to the following key: **HKEY\_LOCAL\_MACHINE\\Software**\\*AppKey1*, virtualization redirects the write operation to **HKEY\_USERS\\<User SID>\_Classes\\VirtualStore\\Machine\\Software**\\*AppKey1*.
+For example, if a limited user attempts to write a value to the following key: **HKEY\_LOCAL\_MACHINE\\Software**\\*AppKey1*, virtualization redirects the write operation to **HKEY\_USERS\\\<User SID\>\_Classes\\VirtualStore\\Machine\\Software**\\*AppKey1*.
 
 </dd> <dt>
 
@@ -49,7 +49,7 @@ If the caller reads from a key that is virtualized, the registry presents a merg
 
 For example, suppose **HKEY\_LOCAL\_MACHINE\\Software**\\*AppKey1* contains two values V1 and V2 and that a limited user writes a value V3 to the key. When the user attempts to read values from this key, the merged view includes values V1 and V2 from the global store and value V3 from the virtual store.
 
-Note that virtual values take precedence over global values when present. In the example above, even if the global store had value V3 under this key, the value V3 would still be returned to the caller from the virtual store. If V3 were to be deleted from the virtual store, then V3 would be returned from the global store. In other words, if V3 were to be deleted from **HKEY\_USERS\\<User SID>\_Classes\\VirtualStore\\Machine\\Software**\\*AppKey1* but **HKEY\_LOCAL\_MACHINE\\Software**\\*AppKey1* had a value V3, then that value would be returned from the global store.
+Note that virtual values take precedence over global values when present. In the example above, even if the global store had value V3 under this key, the value V3 would still be returned to the caller from the virtual store. If V3 were to be deleted from the virtual store, then V3 would be returned from the global store. In other words, if V3 were to be deleted from **HKEY\_USERS\\\<User SID\>\_Classes\\VirtualStore\\Machine\\Software**\\*AppKey1* but **HKEY\_LOCAL\_MACHINE\\Software**\\*AppKey1* had a value V3, then that value would be returned from the global store.
 
 </dd> </dl>
 

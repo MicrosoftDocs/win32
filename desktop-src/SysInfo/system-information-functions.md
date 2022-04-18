@@ -3,7 +3,7 @@ description: The following functions are used to retrieve or set system informat
 ms.assetid: aa7deebf-7dce-4147-8a15-1d7411aea0fa
 title: System Information Functions
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 04/14/2022
 ---
 
 # System Information Functions
@@ -55,9 +55,9 @@ The following functions are used to retrieve or set system information.
 | [**TranslateName**](/windows/desktop/api/Secext/nf-secext-translatenamea)                                       | Converts a directory service object name from one format to another.                                                                                                                                                              |
 | [**VerifyVersionInfo**](/windows/desktop/api/Winbase/nf-winbase-verifyversioninfoa)                               | Compares a set of version requirements to the values for the current operating system.                                                                                                                                            |
 | [**VerSetConditionMask**](/windows/desktop/api/Winnt/nf-winnt-versetconditionmask)                           | Builds the condition mask for the [**VerifyVersionInfo**](/windows/desktop/api/Winbase/nf-winbase-verifyversioninfoa) function.                                                                                                                                        |
-| [**Wow64DisableWow64FsRedirection**](/windows/desktop/api/wow64apiset/nf-wow64apiset-wow64disablewow64fsredirection)    | Disables file system redirection for the calling thread.                                                                                                                                                                          |
-| [**Wow64EnableWow64FsRedirection**](/windows/desktop/api/winbase/nf-winbase-wow64enablewow64fsredirection)      | Enables or disables file system redirection for the calling thread.                                                                                                                                                               |
-| [**Wow64RevertWow64FsRedirection**](/windows/desktop/api/wow64apiset/nf-wow64apiset-wow64revertwow64fsredirection)      | Restores file system redirection for the calling thread.                                                                                                                                                                          |
+| [**Wow64DisableWow64FsRedirection**](/windows/win32/api/wow64apiset/nf-wow64apiset-wow64disablewow64fsredirection)    | Disables file system redirection for the calling thread.                                                                                                                                                                          |
+| [**Wow64EnableWow64FsRedirection**](/windows/win32/api/wow64apiset/nf-wow64apiset-wow64enablewow64fsredirection)      | Enables or disables file system redirection for the calling thread.                                                                                                                                                               |
+| [**Wow64RevertWow64FsRedirection**](/windows/win32/api/wow64apiset/nf-wow64apiset-wow64revertwow64fsredirection)      | Restores file system redirection for the calling thread.                                                                                                                                                                          |
 
 
 

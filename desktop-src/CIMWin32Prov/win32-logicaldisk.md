@@ -100,7 +100,7 @@ class Win32_LogicalDisk : CIM_LogicalDisk
   boolean  QuotasDisabled;
   boolean  QuotasIncomplete;
   boolean  QuotasRebuilding;
-  string   Size;
+  uint64   Size;
   string   Status;
   uint16   StatusInfo;
   boolean  SupportsDiskQuotas;
@@ -1596,7 +1596,7 @@ If **True**, indicates that the file system is in the active process of compilin
 **Size**
 </dt> <dd> <dl> <dt>
 
-Data type: **string**
+Data type: **uint64**
 </dt> <dt>
 
 Access type: Read-only
