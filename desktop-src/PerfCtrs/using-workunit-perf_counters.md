@@ -8,7 +8,7 @@ ms.date: 02/25/2022
 
 # Using Work Unit Performance Counters
 
-Work Unit performance counters give the Windows platform insight into an application's processes. A `Work Unit` is a data contract implemented over performance counters to allow applications to reveal what a specific process is being used for to the Windows operating platform. Work Units enable apps to describe which parts of the application run on a particular process and claim ownership. For example, a web browser has its own Task Manager to manage all its processes; with the Work Unit performance counter, that level of detail and control can be available from the Windows Task Manager.
+`Work Unit` performance counters give the Windows platform insight into an application's processes. Work Units enable apps to describe which parts of the application run on a particular process and claim ownership. For example, a web browser has its own Task Manager to manage all its processes; with the Work Unit performance counter, that level of detail and control can be available from the Windows Task Manager.
 
 For instance, consider the Microsoft Edge browser running on a user's device. The browser runs on a particular process, but other processes are created to host tabs, network and audio services, extensions, and other functionality. The particular process can be used to run multiple units of work, and different apps can share them. Internally, the browser knows its dependencies and how to communicate with the necessary processes, but the Windows platform and other applications do not know how the browser is composed. Having such information is helpful to provide more precise resource usage information and help diagnose issues with the app; Task Manager can report which units of work are running on a process. With this, debuggers can simplify developer workloads by describing what kind of work is running on a process.
 
@@ -30,7 +30,8 @@ Information shared with Work Units in the Windows platform is available to be qu
 - identifier of the main process which represents the application.
 - user-friendly title for the Work Unit.
 
-Notice that if a work unit information must be updated, for example, the title was changed, it must be informed with the same uniqueId it had when first notified of the platform. New units must use a new unique identifier. The information must be concatenated using the pipe character "|".
+> [!NOTE]
+> If a work unit information must be updated (for example, the title was changed), it retains its uniqueId. New units must use new unique identifiers. The information must be concatenated using the pipe character "|".
 
 Sample:
 
