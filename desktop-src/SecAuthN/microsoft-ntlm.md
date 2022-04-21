@@ -20,7 +20,7 @@ The following steps present an outline of NTLM noninteractive authentication. Th
 
 1.  (Interactive authentication only) A user accesses a client computer and provides a domain name, user name, and password. The client computes a cryptographic [*hash*](../secgloss/h-gly.md) of the password and discards the actual password.
 2.  The client sends the user name to the server (in [*plaintext*](../secgloss/p-gly.md)).
-3.  The server generates a 16-byte random number, called a *challenge* or [*nonce*](../secgloss/n-gly.md), and sends it to the client.
+3.  The server generates a 8-byte random number, called a *challenge* or [*nonce*](../secgloss/n-gly.md), and sends it to the client.
 4.  The client encrypts this challenge with the hash of the user's password and returns the result to the server. This is called the *response*.
 5.  The server sends the following three items to the domain controller:
 
