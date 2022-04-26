@@ -23,7 +23,7 @@ For RPC1 drives, if there is no disc in the drive during boot up then the defaul
 
 For RPC2 drives, if during the setup process Windows 2000 finds that the drive does not have any region set, it will try to pick a region as above, but only if there is a disc in the drive. (RPC1 drives will choose the region without any disc in drive). Once a region is set for RPC2 drives, it is not auto-changed by either a re-installation or a clean installation of the Operating System.
 
-The OEM can set a registry key containing the default DVD region for the system. On first boot, the drive region will be set to this value. The registry key on Windows 2000 and later is HKLM\\System\\CurrentControlSet\\Control\\Class\\<CDROM GUID>\\ <instance number>\\DefaultDVDRegion(binary) .
+The OEM can set a registry key containing the default DVD region for the system. On first boot, the drive region will be set to this value. The registry key on Windows 2000 and later is HKLM\\System\\CurrentControlSet\\Control\\Class\\\<CDROM GUID\>\\ \<instance number\>\\DefaultDVDRegion(binary) .
 
 ## Related topics
 

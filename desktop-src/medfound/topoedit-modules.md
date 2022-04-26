@@ -26,7 +26,7 @@ Regsvr32 <Install path>\Microsoft SDKs\Windows\v6.0\Bin\TEDUTIL.dll
 
 Source code for TopoEdit is also provided as a sample in the Windows SDK. It is located in the following directory:
 
-<samples root>\\Multimedia\\Media Foundation\\TopoEdit
+\<samples root\>\\Multimedia\\Media Foundation\\TopoEdit
 
 ## Related topics
 

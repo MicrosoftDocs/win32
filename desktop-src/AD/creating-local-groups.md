@@ -17,7 +17,7 @@ Only local groups can be created for member servers and Windows 2000 Profession
 
 1.  Bind to the computer using the following rules:
     1.  Use an account with sufficient rights to access that computer.
-    2.  Use the following binding string format using the WinNT provider, computer name, and an extra parameter to instruct ADSI that it is binding to a computer: "WinNT://<computer name>,&lt;computer&gt;".
+    2.  Use the following binding string format using the WinNT provider, computer name, and an extra parameter to instruct ADSI that it is binding to a computer: "WinNT://\<computer name\>,&lt;computer&gt;".
 
         The "&lt;computer name&gt;" parameter is the name of the computer groups to access.
 
