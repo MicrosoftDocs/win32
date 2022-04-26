@@ -47,7 +47,7 @@ Although private parties are not permitted to introduce new definitions into ano
 </ul>
 The following example shows how to identify an Option instance using a 'name' attribute. This is the correct way to define Option elements. A provider should not have unnamed Options, unless they are publicly defined in the Print Schema, such as DocumentNUp.<br/>
 <pre class="syntax" data-space="preserve"><code>  <psf:Option name=&quot;psk:StapleBottomRight&quot;>
-    <psf:ScoredProperty name=&quot;psk:Angle&quot;>
+    \<psf:ScoredProperty name=&quot;psk:Angle&quot;\>
       <psf:Value xsi:type=&quot;xs:integer&quot;>_Undefined_</psf:Value>
     </psf:ScoredProperty>
     <psf:ScoredProperty name=&quot;psk:SheetCapacity&quot; >

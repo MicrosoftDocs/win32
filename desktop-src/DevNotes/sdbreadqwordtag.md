@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the QWORD value for the specified TAGID.
+description: Retrieves the QWORD value for the specified TAGID.
 ms.assetid: 5fa94a95-c7f3-477b-ab7c-931e8d62d501
 title: SdbReadQWORDTag function
 ms.topic: reference

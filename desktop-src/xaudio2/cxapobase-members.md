@@ -14,7 +14,7 @@ Shows the members of the [**CXAPOBase**](/windows/desktop/api/XAPOBase/nl-xapoba
 
 
 
-|                                |                                                     |
+|   Constructor                             |              Description                                       |
 |--------------------------------|-----------------------------------------------------|
 | [**CXAPOBase**](/windows/desktop/api/XAPOBase/nl-xapobase-cxapobase) | Constructs a [**CXAPOBase**](/windows/desktop/api/XAPOBase/nl-xapobase-cxapobase) object. |
 
@@ -26,7 +26,7 @@ Shows the members of the [**CXAPOBase**](/windows/desktop/api/XAPOBase/nl-xapoba
 
 
 
-|                                                                                                                        |                                                                                                                                                                  |
+|     Method                                                                                                                   |     Description                                                                                                                                                             |
 |------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**AddRef**](/previous-versions/windows/desktop/legacy/ee418448(v=vs.85)) (inherited from [**IXAPO**](/windows/desktop/api/XAPO/nn-xapo-ixapo))                                   | Increments the XAPO object's reference count.<br/>                                                                                                         |
 | [**CalcInputFrames**](/windows/win32/api/xapo/nf-xapo-ixapo-calcinputframes) (inherited from [**IXAPO**](/windows/desktop/api/XAPO/nn-xapo-ixapo))                     | Returns the number of input frames required to generate the given number of output frames.<br/>                                                            |
@@ -49,7 +49,7 @@ Shows the members of the [**CXAPOBase**](/windows/desktop/api/XAPOBase/nl-xapoba
 
 
 
-|                                                                                          |                                                                                                                                                                                         |
+|      Method                                                                                    |     Description                                                                                                                                                                                    |
 |------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**GetRegistrationPropertiesInternal**](/windows/win32/api/xapobase/nf-xapobase-cxapobase-getregistrationpropertiesinternal) | Returns a pointer to the [**XAPO\_REGISTRATION\_PROPERTIES**](/windows/desktop/api/xapo/ns-xapo-xapo_registration_properties)S structure containing the registration properties the XAPO was created with.<br/> |
 | [**IsLocked**](/windows/win32/api/xapobase/nf-xapobase-cxapobase-islocked)                                                   | Checks if the XAPO is locked.<br/>                                                                                                                                                |

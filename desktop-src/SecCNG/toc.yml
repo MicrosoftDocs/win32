@@ -355,6 +355,10 @@
         href: /windows/win32/api/Bcrypt/ns-bcrypt-bcrypt_algorithm_identifier
       - name: "BCRYPT_AUTHENTICATED_CIPHER_MODE_INFO"
         href: /windows/win32/api/Bcrypt/ns-bcrypt-bcrypt_authenticated_cipher_mode_info
+      - name: "BCryptBuffer"
+        href: /windows/win32/api/bcrypt/ns-bcrypt-bcryptbuffer
+      - name: "BCryptBufferDesc"
+        href: /windows/win32/api/bcrypt/ns-bcrypt-bcryptbufferdesc
       - name: "BCRYPT_DH_KEY_BLOB"
         href: /windows/win32/api/Bcrypt/ns-bcrypt-bcrypt_dh_key_blob
       - name: "BCRYPT_DH_PARAMETER_HEADER"
@@ -436,9 +440,9 @@
       - name: "NCryptAlgorithmName"
         href: /windows/win32/api/Ncrypt/ns-ncrypt-ncryptalgorithmname
       - name: "NCryptBuffer"
-        href: /windows/desktop/api/bcrypt/ns-bcrypt-_bcryptbuffer
+        href: /windows/win32/api/bcrypt/ns-bcrypt-bcryptbuffer
       - name: "NCryptBufferDesc"
-        href: /windows/desktop/api/bcrypt/ns-bcrypt-_bcryptbufferdesc
+        href: /windows/win32/api/bcrypt/ns-bcrypt-bcryptbufferdesc
       - name: "NCryptKeyName"
         href: /windows/desktop/api/Ncrypt/ns-ncrypt-ncryptkeyname
       - name: "NCryptProviderName"

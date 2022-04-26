@@ -55,7 +55,7 @@ The Windows UI API create and use windows to display output, prompt for user inp
 ## Windows environment (Shell)
 
 -   [Windows Property System](../properties/property-system-reference.md)
--   [Windows Shell](/previous-versions/windows/desktop/legacy/ff521731(v=vs.85))
+-   [Windows Shell](../shell/shell-entry.md)
 -   [Windows Search](../search/-search-reference-entry-page.md)
 -   [Consoles](/windows/console/console-reference)
 
@@ -122,7 +122,7 @@ The Windows UI API create and use windows to display output, prompt for user inp
 
 ## Diagnostics
 
-The [Diagnostics](/previous-versions//bb648685(v=vs.85)) API enable you to troubleshoot application or system problems and monitor performance.
+The [Diagnostics](../diagnostics.md) API enable you to troubleshoot application or system problems and monitor performance.
 
 -   [Application Recovery and Restart](../recovery/application-recovery-and-restart-reference.md)
 -   [Debugging](../debug/debugging-reference.md)
@@ -176,13 +176,13 @@ The [Graphics, multimedia,](/previous-versions//aa969176(v=vs.85)) [audio, and 
 ## Devices
 
 -   [AllJoyn](/previous-versions/windows/desktop/alljoyn/alljoyn-api-portal)
--   [Communications Resources](../devio/communications-reference.md)
--   [Device Access](/previous-versions/windows/desktop/deviceaccess/device-access-api-c---programming-reference)
--   [Device Management](../devio/device-management-reference.md)
+-   [Communications Resources](../DevIO/communications-reference.md)
+-   [Device Access](../deviceaccess/device-access-broker-api-portal.md)
+-   [Device Management](../DevIO/device-management-reference.md)
 -   [Enhanced Storage](/previous-versions/windows/desktop/enstor/enhanced-storage-reference)
 -   [Function Discovery](/previous-versions/windows/desktop/fundisc/function-discovery-reference)
 -   [Image Mastering](../imapi/imapi-reference.md)
--   [Location](../locationapi/windows-location-programming-reference.md)
+-   [Location](../LocationAPI/windows-location-programming-reference.md)
 -   [PnP-X Association Database](/previous-versions/windows/desktop/fundisc/pnp-x-association-database-reference)
 -   [Printing](/windows-hardware/drivers/print/introduction-to-printing)
     -   [Print Spooler](../printdocs/printing-and-print-spooler-reference.md)
@@ -190,18 +190,18 @@ The [Graphics, multimedia,](/previous-versions//aa969176(v=vs.85)) [audio, and 
     -   [Print Schema Specification](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip)
     -   [Print Ticket](../printdocs/print-ticket-api.md)
     -   [XPS Print](../printdocs/xpsprint-api.md)
--   [Sensors](../sensorsapi/sensor-api-programming-reference.md)
+-   [Sensors](../SensorsAPI/sensor-api-programming-reference.md)
 -   [System Event Notification Service (SENS)](../sens/sens-reference.md)
 -   [Tool Help](../toolhelp/tool-help-reference.md)
--   [UPnP](../upnp/universal-plug-and-play-start-page.md)
--   [Web Services on Devices](../wsdapi/web-services-for-devices-reference.md)
+-   [UPnP](../UPnP/universal-plug-and-play-start-page.md)
+-   [Web Services on Devices](../WsdApi/web-services-for-devices-reference.md)
 -   [Windows Image Acquisition (WIA)](../wia/-wia-reference.md)
--   [Windows Media Device Manager](../wmdm/programming-reference.md)
+-   [Windows Media Device Manager](../WMDM/programming-reference.md)
 -   [Windows Portable Devices](../wpd_sdk/programming-reference.md)
 
 ## System services
 
-The [System Services](/previous-versions//aa969179(v=vs.85)) APIs give applications access to the resources of the computer and the features of the underlying operating system, such as memory, file systems, devices, processes, and threads.
+The [System Services](../system-services.md) APIs give applications access to the resources of the computer and the features of the underlying operating system, such as memory, file systems, devices, processes, and threads.
 
 -   [COM](../com/reference.md)
 -   [COM+](../cossdk/com--reference.md)
@@ -254,8 +254,7 @@ The [Security and Identity](../devnotes/security.md) APIs enable password authen
 
 -   [Games Explorer](/previous-versions/windows/desktop/legacy/ee415251(v=vs.85))
 -   [Side-by-side Assemblies](../sbscs/side-by-side-assemblies-reference.md)
--   [Packaging, deployment, and query APIs](../appxpkg/api-reference.md
-)
+-   [Packaging, deployment, and query APIs](../appxpkg/api-reference.md)
 -   [Developer License](../devlic/developer-license-apis.md)
 -   [Restart Manager](../rstmgr/restart-manager-reference.md)
 -   [Windows Installer](../msi/windows-installer-portal.md)

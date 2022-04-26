@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 A debugging toolset built on Web Services on Devices API (WSDAPI) is available in the Windows SDK and the Windows Driver Kit (WDK). These tools can be used to test the functionality of custom applications written on WSDAPI, or devices and clients written using other Device Profile for Web Services (DPWS) stacks.
 
-The WSD Debug Host (wsddebug\_host.exe) and WSD Debug Client (wsddebug\_client.exe) tools can be used to inspect the characteristics of DPWS clients or hosts. They can also be used to troubleshoot connectivity or configuration problems. For more information, see [WSDAPI Troubleshooting Guide](wsdapi-troubleshooting-guide.md). These tools are only available in the SDK. SDK tools are located in the following directory: <Windows SDK Install Folder>\\Bin.
+The WSD Debug Host (wsddebug\_host.exe) and WSD Debug Client (wsddebug\_client.exe) tools can be used to inspect the characteristics of DPWS clients or hosts. They can also be used to troubleshoot connectivity or configuration problems. For more information, see [WSDAPI Troubleshooting Guide](wsdapi-troubleshooting-guide.md). These tools are only available in the SDK. SDK tools are located in the following directory: \<Windows SDK Install Folder>\\Bin.
 
 The [WSDAPI Basic Interoperability Tool (WSDBIT)](https://msdn.microsoft.com/library/cc264250.aspx) can be used to test SOAP-level or transport-level interoperability (that is, ensuring messages are well-formed). This tool is only available in the WDK.
 

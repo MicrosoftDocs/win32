@@ -81,7 +81,7 @@ A Hello message has the following focus points.
 </tr>
 <tr class="even">
 <td>AppSequence</td>
-<td><pre class="syntax" data-space="preserve"><code><wsd:AppSequence InstanceId=&quot;2&quot;
+<td><pre class="syntax" data-space="preserve"><code>\<wsd:AppSequence InstanceId=&quot;2&quot;
     SequenceId=&quot;urn:uuid:369a7d7b-5f87-48a4-aa9a-189edf2a8772&quot;
     MessageNumber=&quot;14&quot;>
 &lt;/wsd:AppSequence&gt;</code></pre></td>

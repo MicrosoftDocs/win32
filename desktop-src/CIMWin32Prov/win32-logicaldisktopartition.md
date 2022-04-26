@@ -121,7 +121,7 @@ This property is inherited from [**CIM\_BasedOn**](cim-basedon.md).
 
 The **Win32\_LogicalDiskToPartition** class is derived from [**CIM\_LogicalDiskBasedOnPartition**](cim-logicaldiskbasedonpartition.md).
 
-For more information on mapping between a logical drive and a physical disk, see [How Can I Correlate Logical Drives and Physical Disks?](https://blogs.technet.com/b/heyscriptingguy/archive/2005/05/23/how-can-i-correlate-logical-drives-and-physical-disks.aspx).
+For more information on mapping between a logical drive and a physical disk, see [How Can I Correlate Logical Drives and Physical Disks?](https://devblogs.microsoft.com/scripting/how-can-i-correlate-logical-drives-and-physical-disks/).
 
 ## Examples
 
@@ -471,6 +471,4 @@ BOOL wmi_close()
 
 [WMI Tasks: Disks and File Systems](/windows/desktop/WmiSdk/wmi-tasks--disks-and-file-systems)
 </dt> </dl>
-
- 
 

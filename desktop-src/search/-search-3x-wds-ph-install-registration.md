@@ -308,7 +308,7 @@ You need to make fourteen entries in the registry to register the protocol handl
              (Default) = <Ver_Ind_ProgID>
     ```
 
-4.  Register the protocol handler with Windows Search. In the following example, <Protocol Name> is the name of the protocol itself, such as file, mapi, and so forth:
+4.  Register the protocol handler with Windows Search. In the following example, \<Protocol Name\> is the name of the protocol itself, such as file, mapi, and so forth:
 
     ```
     HKEY_LOCAL_MACHINE

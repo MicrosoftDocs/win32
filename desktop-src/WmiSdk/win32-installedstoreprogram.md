@@ -144,7 +144,7 @@ The version of the Windows store application.
 
 
 
-|                                     |                                                                                      |
+|    Requirement                   |    Details                                 |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                            |

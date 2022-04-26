@@ -2614,7 +2614,7 @@ This property is inherited from [**CIM\_VideoController**](cim-videocontroller.m
 
 The **Win32\_VideoController** class is derived from [**CIM\_PCVideoController**](cim-pcvideocontroller.md).
 
-For more information about using this class, such as retrieving information from multiple monitors, see [Use PowerShell to Discover Multi-Monitor Information](https://blogs.technet.com/b/heyscriptingguy/archive/2013/10/03/use-powershell-to-discover-multi-monitor-information.aspx).
+For more information about using this class, such as retrieving information from multiple monitors, see [Use PowerShell to Discover Multi-Monitor Information](https://devblogs.microsoft.com/scripting/use-powershell-to-discover-multi-monitor-information/).
 
 ## Examples
 

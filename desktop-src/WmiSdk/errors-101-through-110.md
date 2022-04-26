@@ -55,10 +55,10 @@ Command-line syntax error. This is followed by an explanation of the switches.
 
 <dl> <dt>
 
-<span id="_102__Fatal___Invalid_argument_on_command_line_after__last_correct_argument__"></span><span id="_102__fatal___invalid_argument_on_command_line_after__last_correct_argument__"></span><span id="_102__FATAL___INVALID_ARGUMENT_ON_COMMAND_LINE_AFTER__LAST_CORRECT_ARGUMENT__"></span>**<102, Fatal>:"Invalid argument on command line after <last correct argument>"**
+<span id="_102__Fatal___Invalid_argument_on_command_line_after__last_correct_argument__"></span><span id="_102__fatal___invalid_argument_on_command_line_after__last_correct_argument__"></span><span id="_102__FATAL___INVALID_ARGUMENT_ON_COMMAND_LINE_AFTER__LAST_CORRECT_ARGUMENT__"></span>**<102, Fatal>:"Invalid argument on command line after \<last correct argument>"**
 </dt> <dd>
 
-Command-line syntax error. There are some extra arguments or a switch is not valid on the command line. The <last correct argument> parameter refers to the last argument that was read correctly on the command line, and can possibly be smi2smir, which is the name of the executable file for the SNMP module information compiler.
+Command-line syntax error. There are some extra arguments or a switch is not valid on the command line. The \<last correct argument> parameter refers to the last argument that was read correctly on the command line, and can possibly be smi2smir, which is the name of the executable file for the SNMP module information compiler.
 
 </dd> </dl>
 

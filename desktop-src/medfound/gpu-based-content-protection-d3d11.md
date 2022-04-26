@@ -190,9 +190,9 @@ To send a command to the authenticated channel, perform the following steps.
 | <strong>SequenceNumber</strong> | The sequence number. The first sequence number is specified by sending a <a href="/windows/desktop/api/d3d11/ns-d3d11-d3d11_authenticated_configure_initialize_input"><strong>D3D11_AUTHENTICATED_CONFIGURE_INITIALIZE</strong></a> command. Each time you send another command, increment this number by 1. The sequence number guards against replay attacks.    <blockquote>    [!Note]<br />    Two separate sequence numbers are used, one for commands and one for queries.    </blockquote><br /><br /> | 
 
 
-    
 
-     
+
+
 
 2.  Calculate the OMAC tag for the block of data that appears after the **omac** member of the input structure. Then copy this tag value into the **omac** member.
 3.  Call [**ID3D11VideoContext::ConfigureAuthenticatedChannel**](/windows/desktop/api/d3d11/nf-d3d11-id3d11videocontext-configureauthenticatedchannel).
@@ -217,9 +217,9 @@ To send a command to the authenticated channel, perform the following steps.
 | <strong>SequenceNumber</strong> | The sequence number. The first sequence number is specified by sending a <a href="/windows/desktop/api/d3d11/ns-d3d11-d3d11_authenticated_configure_initialize_input"><strong>D3D11_AUTHENTICATED_CONFIGURE_INITIALIZE</strong></a> command. Each time you send another query, increment this number by 1. The sequence number guards against replay attacks.    <blockquote>    [!Note]<br />    Two separate sequence numbers are used, one for commands and one for queries.    </blockquote><br /><br /> | 
 
 
-    
 
-     
+
+
 
 2.  Call [**ID3D11VideoContext::QueryAuthenticatedChannel**](/windows/desktop/api/d3d11/nf-d3d11-id3d11videocontext-queryauthenticatedchannel).
 3.  The driver places the output from the query in a [**D3D11_AUTHENTICATED_QUERY_OUTPUT**](/windows/desktop/api/d3d11/ns-d3d11-d3d11_authenticated_query_output) structure. This structure is followed by additional fields, depending on the query type.

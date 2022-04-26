@@ -39,10 +39,10 @@ The CLSID for this effect is CLSID\_D2D1ColorManagement.
 
 | Enumeration | Description |
 |-|-|
-| D2D1\_COLORMANAGEMENT\_RENDERING\_INTENT\_PERCEPTUAL | The effect compresses or expands the full color gamut of the image to fill the color gamut of the device, so that gray balance is preserved but colorimetric accuracy may not be preserved. |
-| D2D1\_COLORMANAGEMENT\_RENDERING\_INTENT\_RELATIVE\_COLORIMETRIC | The effect preserves the chroma of colors in the image at the possible expense of hue and lightness. |
-| D2D1\_COLORMANAGEMENT\_RENDERING\_INTENT\_SATURATION | The effect adjusts colors that fall outside the range of colors the output device renders to the closest color available. It does not preserve the white point. |
-| D2D1\_COLORMANAGEMENT\_RENDERING\_INTENT\_ABSOLUTE\_COLORIMETRIC | The effect adjusts any colors that fall outside the range that the output device can render to the closest color that can be rendered. The effect does not change the other colors and preserves the white point. |
+| D2D1\_COLORMANAGEMENT\_RENDERING\_INTENT\_PERCEPTUAL | The effect compresses or expands the full color gamut of the image to fill the color gamut of the device, to produce a perceptually pleasing output that preserves color details but may sacrifice colorimetric accuracy. It is useful for general reproduction of real life content such as photos. |
+| D2D1\_COLORMANAGEMENT\_RENDERING\_INTENT\_RELATIVE\_COLORIMETRIC | The effect adjusts any colors that fall outside the gamut that the output device can render to the closest color that can be rendered. It does not preserve the white point. |
+| D2D1\_COLORMANAGEMENT\_RENDERING\_INTENT\_SATURATION | The effect preserves the saturation of pure colors in the image at the possible expense of hue and lightness. It is useful for graphics like charts and diagrams. |
+| D2D1\_COLORMANAGEMENT\_RENDERING\_INTENT\_ABSOLUTE\_COLORIMETRIC | The effect adjusts any colors that fall outside the gamut that the output device can render to the closest color that can be rendered. The effect does not change the in-gamut colors and preserves the white point. |
 
 ## Input image alpha modes
 
@@ -80,7 +80,7 @@ In general, the effect sets alpha to 1 (opaque) if there is no alpha data in the
 </thead>
 <tbody>
 <tr class="odd">
-<td rowspan="4">1 channel, R pixel format ${REMOVE}$<br />
+<td rowspan="4">1 channel, R pixel format<br />
 </td>
 <td>1 channel, R pixel format</td>
 <td>(No alpha data)</td>
@@ -101,7 +101,7 @@ In general, the effect sets alpha to 1 (opaque) if there is no alpha data in the
 
 </tr>
 <tr class="odd">
-<td rowspan="4">1 channel, RGBA pixel format ${REMOVE}$<br />
+<td rowspan="4">1 channel, RGBA pixel format<br />
 </td>
 <td>1 channel, R pixel format</td>
 <td>Alpha data is discarded</td>
@@ -122,7 +122,7 @@ In general, the effect sets alpha to 1 (opaque) if there is no alpha data in the
 
 </tr>
 <tr class="odd">
-<td rowspan="4">3 channel, RGBA pixel format ${REMOVE}$<br />
+<td rowspan="4">3 channel, RGBA pixel format<br />
 </td>
 <td>1 channel, R pixel format</td>
 <td>Alpha data is discarded</td>
@@ -143,7 +143,7 @@ In general, the effect sets alpha to 1 (opaque) if there is no alpha data in the
 
 </tr>
 <tr class="odd">
-<td rowspan="4">4 channel, RGBA pixel format ${REMOVE}$<br />
+<td rowspan="4">4 channel, RGBA pixel format<br />
 </td>
 <td>1 channel, R pixel format</td>
 <td>(No alpha data)</td>

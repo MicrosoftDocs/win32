@@ -55,7 +55,7 @@ Returns zero (0) to indicate success. Any other number indicates an error. For m
 
 ## Examples
 
-For an extended discussion of retrieving and setting monitor brightness, see the Scripting Guy's [Use PowerShell to Report and Set Monitor Brightness](https://blogs.technet.com/b/heyscriptingguy/archive/2013/07/25/use-powershell-to-report-and-set-monitor-brightness.aspx) blog topic.
+For an extended discussion of retrieving and setting monitor brightness, see the Scripting Guy's [Use PowerShell to Report and Set Monitor Brightness](https://devblogs.microsoft.com/scripting/use-powershell-to-report-and-set-monitor-brightness/) blog topic.
 
 The following PowerShell sample sets the brightness of the monitor to 50%.
 
@@ -92,6 +92,4 @@ $myMonitor.wmisetbrightness($delay, $brightness)
 
 [**MSMonitorClass**](msmonitorclass.md)
 </dt> </dl>
-
- 
 

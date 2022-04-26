@@ -36,8 +36,8 @@ All bind functions and methods require a binding string. The form of the binding
 
 Beginning with Windows 2000, the LDAP provider is used to access Active Directory Domain Services. The LDAP binding string can take one of the following forms:
 
--   "LDAP://<host name>/<object name>"
--   "GC://<host name>/<object name>"
+-   "LDAP://\<host name\>/\<object name\>"
+-   "GC://\<host name\>/\<object name\>"
 
 In the examples above, "LDAP:" specifies the LDAP provider. "GC:" uses the LDAP provider to bind to the Global Catalog service to execute fast queries.
 

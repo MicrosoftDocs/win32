@@ -11,11 +11,5 @@ ms.date: 05/31/2018
 ## In this section
 
 -   [Resource Enumeration](resource-enumeration.md)
--   [**VerifierIsPerUserSettingsEnabled**](/windows/desktop/api/Avrfsdk/nf-avrfsdk-verifierisperusersettingsenabled)
-
- 
-
- 
-
-
-
+-   [RtlDisownModuleHeapAllocation](/windows/win32/DevNotes/rtlsupportapi/nf-rtlsupportapi-rtldisownmoduleheapallocation)
+-   [VerifierIsPerUserSettingsEnabled](/windows/desktop/api/Avrfsdk/nf-avrfsdk-verifierisperusersettingsenabled)

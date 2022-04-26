@@ -33,7 +33,7 @@ ICE82 posts the following errors.
 
 | ICE82 error                                                                                                                                                                                                                                        | Description                                                                         |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------|
-| The InstallExecuteSequence should either contain all of the actions mentioned below or none of them Actions Present<br/> <List of actions present> <br/> Actions Missing:<br/> <List of actions missing> <br/> | ICE82 posts an error if some of the four actions are present and others are absent. |
+| The InstallExecuteSequence should either contain all of the actions mentioned below or none of them Actions Present<br/> \<List of actions present\> <br/> Actions Missing:<br/> \<List of actions missing\> <br/> | ICE82 posts an error if some of the four actions are present and others are absent. |
 
 
 

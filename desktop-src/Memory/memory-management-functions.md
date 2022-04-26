@@ -74,7 +74,7 @@ These functions are used in [file mapping](file-mapping.md).
 | [**MapViewOfFileFromApp**](/windows/desktop/api/MemoryApi/nf-memoryapi-mapviewoffilefromapp) | Maps a view of a file mapping into the address space of a calling process from a Windows Store app. |
 | [**MapViewOfFileNuma2**](/windows/win32/api/memoryapi/nf-memoryapi-mapviewoffilenuma2) | Maps a view of a file or a pagefile-backed section into the address space of the specified process. |
 | [**OpenFileMapping**](/windows/win32/api/winbase/nf-winbase-openfilemappinga) | Opens a named file-mapping object. |
-| [**OpenFileMappingFromApp**](/windows/win32/api/winbase/nf-winbase-openfilemappingafromapp) | Opens a named file-mapping object. |
+| [**OpenFileMappingFromApp**](/windows/win32/api/memoryapi/nf-memoryapi-openfilemappingfromapp) | Opens a named file-mapping object. |
 | [**UnmapViewOfFile**](/windows/win32/api/memoryapi/nf-memoryapi-unmapviewoffile) | Unmaps a mapped view of a file from the calling process's address space. |
 | [**UnmapViewOfFile2**](/windows/win32/api/memoryapi/nf-memoryapi-unmapviewoffile2) | Unmaps a previously mapped view of a file or a pagefile-backed section. |
 | [**UnmapViewOfFileEx**](/windows/desktop/api/MemoryApi/nf-memoryapi-unmapviewoffileex) | Unmaps a previously mapped view of a file or a pagefile-backed section. |

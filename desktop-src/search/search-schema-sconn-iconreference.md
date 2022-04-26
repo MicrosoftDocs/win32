@@ -42,7 +42,7 @@ The optional &lt;iconReference&gt; element specifies a custom icon for this loca
 
 ## Remarks
 
-The format of the reference must be specified in a form suitable for the [PathParseIconLocation](/windows/desktop/api/shlwapi/nf-shlwapi-pathparseiconlocationa) function: (for example, <dll file name>,<icon index>).
+The format of the reference must be specified in a form suitable for the [PathParseIconLocation](/windows/desktop/api/shlwapi/nf-shlwapi-pathparseiconlocationa) function: (for example, \<dll file name\>,\<icon index\>).
 
 ## Example
 

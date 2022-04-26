@@ -49,7 +49,7 @@ Application manifests have the following elements and attributes.
 | [**printerDriverIsolation**](#printerDriverIsolation)                       |                           | No       |
 | [**ultraHighResolutionScrollingAware**](#ultraHighResolutionScrollingAware) |                           | No       |
 | [**msix**](#msix)                                                           |                           | No       |
-| [**heapType**](#heapType)                                                   |                           | No       |
+| [**heapType**](#heaptype)                                                   |                           | No       |
 
 ## File Location
 

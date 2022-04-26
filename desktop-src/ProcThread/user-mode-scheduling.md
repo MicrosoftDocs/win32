@@ -8,11 +8,15 @@ ms.date: 05/31/2018
 
 # User-Mode Scheduling
 
+> [!WARNING]
+> As of Windows 11, user-mode scheduling is not supported. All calls fail with the error `ERROR_NOT_SUPPORTED`.
+
 User-mode scheduling (UMS) is a lightweight mechanism that applications can use to schedule their own threads. An application can switch between UMS threads in user mode without involving the [system scheduler](scheduling.md) and regain control of the processor if a UMS thread blocks in the kernel. UMS threads differ from [fibers](fibers.md) in that each UMS thread has its own thread context instead of sharing the thread context of a single thread. The ability to switch between threads in user mode makes UMS more efficient than [thread pools](thread-pools.md) for managing large numbers of short-duration work items that require few system calls.
 
 UMS is recommended for applications with high performance requirements that need to efficiently run many threads concurrently on multiprocessor or multicore systems. To take advantage of UMS, an application must implement a scheduler component that manages the application's UMS threads and determines when they should run. Developers should consider whether their application performance requirements justify the work involved in developing such a component. Applications with moderate performance requirements might be better served by allowing the system scheduler to schedule their threads.
 
-UMS is available for 64-bit applications running on 64-bit versions of Windows 7 and Windows Server 2008 R2 or later 64-bit versions of Windows. This feature is not available on 32-bit versions of Windows.
+UMS is available for 64-bit applications running on AMD64 and Itanium versions of Windows 7 and Windows Server 2008 R2 through Windows 10 Version 21H2 and Windows Server 2022.
+This feature is not available on Arm64, 32-bit versions of Windows or on Windows 11.
 
 For details, see the following sections:
 
@@ -31,7 +35,7 @@ An application's UMS scheduler is responsible for creating, managing, and deleti
 -   Creates UMS worker threads to perform the work of the application.
 -   Maintains its own ready-thread queue of worker threads that are ready to run, and selects threads to run based on the application's scheduling policies.
 -   Creates and monitors one or more completion lists where the system queues threads after they finish processing in the kernel. These include newly created worker threads and threads previously blocked on a system call that become unblocked.
--   Provides a scheduler entry point function to handles notifications from the system. The system calls the entry point function when a scheduler thread is created, when a worker thread blocks on a system call, or when a worker thread explicitly yields control.
+-   Provides a scheduler entry point function to handle notifications from the system. The system calls the entry point function when a scheduler thread is created, a worker thread blocks on a system call, or a worker thread explicitly yields control.
 -   Performs cleanup tasks for worker threads that have finished running.
 -   Performs an orderly shutdown of the scheduler when requested by the application.
 

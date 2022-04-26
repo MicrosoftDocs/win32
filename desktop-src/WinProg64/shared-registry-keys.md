@@ -9,7 +9,7 @@ keywords:
 - reflected registry keys 64-bit Windows Programming
 - shared registry keys 64-bit Windows Programming
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 01/23/2021
 ---
 
 # Registry Keys Affected by Windows Installations That Include Windows on Windows (WOW) Support For Multiple Processor Architectures

@@ -40,7 +40,7 @@ ms.date: 05/31/2018
 
 [**FindNextUrlCacheGroup**](/windows/win32/api/Wininet/nf-wininet-findnexturlcachegroup)
 
-[**FtpCommandW**](/windows/win32/api/Wininet/nf-wininet-ftpcommand)
+[**FtpCommandW**](/windows/win32/api/wininet/nf-wininet-ftpcommandw)
 
 [**FtpCreateDirectory**](/windows/win32/api/Wininet/nf-wininet-ftpcreatedirectorya)
 

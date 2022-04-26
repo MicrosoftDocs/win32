@@ -1,5 +1,5 @@
 ---
-Description: The following process creation flags are used by the CreateProcess, CreateProcessAsUser, CreateProcessWithLogonW, and CreateProcessWithTokenW functions. They can be specified in any combination, except as noted.
+description: The following process creation flags are used by the CreateProcess, CreateProcessAsUser, CreateProcessWithLogonW, and CreateProcessWithTokenW functions. They can be specified in any combination, except as noted.
 ms.assetid: fd3384ad-8635-4ea1-9054-0572ef86b86d
 title: Process Creation Flags (WinBase.h)
 ms.topic: reference

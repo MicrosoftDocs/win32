@@ -85,7 +85,7 @@ If there are multiple elements, the last one is used. If no [queryControl]() ele
 <tbody>
 <tr class="odd">
 <td>Default</td>
-<td>Default. Uses the default control, based upon the <typeInfo type=&quot;&quot;> attribute. The default types are listed below. Any other type results in using the &quot;Text&quot; control. 
+<td>Default. Uses the default control, based upon the \<typeInfo type=&quot;&quot;\> attribute. The default types are listed below. Any other type results in using the &quot;Text&quot; control. 
 <table>
 <thead>
 <tr class="header">

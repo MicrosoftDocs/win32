@@ -21,8 +21,8 @@ The following code illustrates a portable way to get an address.
 
 
 
-| 
-|
+|Method|Result|
+|--|--|
 | Using ULONG (a 32-bit-only method) | <pre class="syntax" data-space="preserve"><code>ULONG getAnAddress( )Int *somePointerReturn( (ULONG) somePointer );</code></pre> | 
 | Using ULONG_PTR (the portable method) | <pre class="syntax" data-space="preserve"><code>ULONG_PTR getAnAddress( )Int *somePointerReturn( (ULONG_PTR) somePointer );</code></pre> | 
 
@@ -38,8 +38,8 @@ The following code illustrates a portable way to calculate an address.
 
 
 
-| 
-|
+|Method |Result |
+|--|--|
 | Using ULONG (a 32-bit-only method) | <pre class="syntax" data-space="preserve"><code>Int *somePointer;Int *someOtherPointer;somePointer = (int *)( (ULONG)someOtherPointer + 0x20 );</code></pre> | 
 | Using ULONG_PTR (the portable method) | <pre class="syntax" data-space="preserve"><code>Int *somePointer;Int *someOtherPointer;somePointer = (int *)( (ULONG_PTR)someOtherPointer + 0x20 );</code></pre> | 
 

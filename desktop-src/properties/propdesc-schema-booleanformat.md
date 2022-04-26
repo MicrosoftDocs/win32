@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # booleanFormat
 
-Specifies how [**IPropertyDescription::FormatForDisplay**](/windows/win32/api/propsys/nf-propsys-ipropertydescription-formatfordisplay) should format the property's value as a string. This is applicable only if <displayInfo displayType="String">. There should be only one [booleanFormat]() element for each [displayInfo](./propdesc-schema-displayinfo.md) element.
+Specifies how [**IPropertyDescription::FormatForDisplay**](/windows/win32/api/propsys/nf-propsys-ipropertydescription-formatfordisplay) should format the property's value as a string. This is applicable only if \<displayInfo displayType="String"\>. There should be only one [booleanFormat]() element for each [displayInfo](./propdesc-schema-displayinfo.md) element.
 
 If there are multiple elements, the last one is used. If no [booleanFormat]() element is provided, then the default attribute settings are applied to the property description.
 

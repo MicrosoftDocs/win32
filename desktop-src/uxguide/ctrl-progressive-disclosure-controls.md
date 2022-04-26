@@ -331,12 +331,12 @@ Recommended sizing and spacing for progressive disclosure controls.
         -   **More/Fewer options.** Use for options or a mixture of options, commands, and details.
         -   **More/Fewer commands.** Use for commands only.
         -   **More/Fewer details.** Use for information only.
-        -   **More/Fewer <object name>.** Use for other object types, such as folders.
+        -   **More/Fewer \<object name>.** Use for other object types, such as folders.
     -   Otherwise:
         -   **Show/Hide options.** Use for options or a mixture of options, commands, and details.
         -   **Show/Hide commands.** Use for commands only.
         -   **Show/Hide details.** Use for information only.
-        -   **Show/Hide <object name>.** Use for other object types, such as folders.
+        -   **Show/Hide \<object name>.** Use for other object types, such as folders.
 -   For chevrons on a command button with an internal label, follow the standard [command button](ctrl-command-buttons.md) guidelines.
 
 ## Documentation

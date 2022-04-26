@@ -1,5 +1,5 @@
 ---
-Description: The WM\_PAINT message is sent when the system or another application makes a request to paint a portion of an application's window.
+description: The WM\_PAINT message is sent when the system or another application makes a request to paint a portion of an application's window.
 ms.assetid: afebaa07-cf00-47db-a919-46436f164881
 title: WM_PAINT message (Winuser.h)
 ms.topic: reference
