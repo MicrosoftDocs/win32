@@ -19,7 +19,7 @@ api_location:
 # ID3DXMATRIXStack::LoadMatrix method (D3DX10.h)
 
 > [!Note]
-> The math functions of the D3DX utility library are deprecated. We recommend that you use [DirectXMath](../dxmath/directxmath-portal.md) instead along with this header from [GitHub](https://github.com/microsoft/DirectXMath/tree/main/MatrixStack).
+> The D3DX10 utility library is deprecated. We recommend that you use [DirectXMath](../dxmath/directxmath-portal.md) instead along with this header from [GitHub](https://github.com/microsoft/DirectXMath/tree/main/MatrixStack).
 
 Loads the given matrix into the current matrix.
 

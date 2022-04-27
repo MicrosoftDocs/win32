@@ -19,7 +19,7 @@ api_location:
 # ID3DXMATRIXStack interface
 
 > [!Note]
-> The math functions of the D3DX utility library are deprecated. We recommend that you use [DirectXMath](../dxmath/directxmath-portal.md) instead along with this header from [GitHub](https://github.com/microsoft/DirectXMath/tree/main/MatrixStack).
+> The D3DX utility library is deprecated. We recommend that you use [DirectXMath](../dxmath/directxmath-portal.md) instead along with this header from [GitHub](https://github.com/microsoft/DirectXMath/tree/main/MatrixStack).
 
 Applications use the methods of the ID3DXMATRIXStack interface to manipulate a matrix stack.
 
