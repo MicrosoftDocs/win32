@@ -1,0 +1,48 @@
+- name: "Activity Coordinator API"
+  href: -activity-coordinator-portal.md
+  items: 
+  - name: "Activity Coordinator API Overview"
+    href: activity-coordinator-api-overview.md
+    items: 
+    - name: "Activity Coordinator API and terminology"
+      href: activity-coordinator-api-and-terminology.md
+    - name: "Choose the right Activity Coordinator policy"
+      href: choosing-the-right-activity-coordinator-policy.md
+  - name: "Activity Coordinator API Functions"
+    href: activity-coordinator-api-functions.md
+    items: 
+    - name: "CreateActivityCoordinatorPolicy"
+      href: /windows/win32/api/activitycoordinator/nf-activitycoordinator-createactivitycoordinatorpolicy.md
+    - name: "DestroyActivityCoordinatorPolicy"
+      href: /windows/win32/api/activitycoordinator/nf-activitycoordinator-destroyactivitycoordinatorpolicy.md
+    - name: "GetActivityCoordinatorPolicyResourceCondition"
+      href: /windows/win32/api/activitycoordinator/nf-activitycoordinator-getactivitycoordinatorpolicyresourcecondition.md
+    - name: "IsCreateActivityCoordinatorPolicyPresent"
+      href: /windows/win32/api/activitycoordinator/nf-activitycoordinator-iscreateactivitycoordinatorpolicypresent.md
+    - name: "IsDestroyActivityCoordinatorPolicyPresent"
+      href: /windows/win32/api/activitycoordinator/nf-activitycoordinator-isdestroyactivitycoordinatorpolicypresent.md
+    - name: "IsGetActivityCoordinatorPolicyResourceConditionPresent"
+      href: /windows/win32/api/activitycoordinator/nf-activitycoordinator-isgetactivitycoordinatorpolicyresourceconditionpresent.md
+    - name: "IsSetActivityCoordinatorPolicyResourceConditionPresent"
+      href: /windows/win32/api/activitycoordinator/nf-activitycoordinator-issetactivitycoordinatorpolicyresourceconditionpresent.md
+    - name: "IsSubscribeActivityCoordinatorPolicyPresent"
+      href: /windows/win32/api/activitycoordinator/nf-activitycoordinator-issubscribeactivitycoordinatorpolicypresent.md
+    - name: "IsUnsubscribeActivityCoordinatorPolicyPresent"
+      href: /windows/win32/api/activitycoordinator/nf-activitycoordinator-isunsubscribeactivitycoordinatorpolicypresent.md
+    - name: "SetActivityCoordinatorPolicyResourceCondition"
+      href: /windows/win32/api/activitycoordinator/nf-activitycoordinator-setactivitycoordinatorpolicyresourcecondition.md
+    - name: "SubscribeActivityCoordinatorPolicy"
+      href: /windows/win32/api/activitycoordinator/nf-activitycoordinator-subscribeactivitycoordinatorpolicy.md
+    - name: "UnsubscribeActivityCoordinatorPolicy"
+      href: /windows/win32/api/activitycoordinator/nf-activitycoordinator-unsubscribeactivitycoordinatorpolicy.md
+  - name: "Activity Coordinator API Enumerations"
+    href: activity-coordinator-api-enumerations.md
+    items: 
+    - name: "ACTIVITY_COORDINATOR_CONDITION"
+      href: /windows/win32/api/activitycoordinatortypes/ne-activitycoordinatortypes-activity_coordinator_condition.md
+    - name: "ACTIVITY_COORDINATOR_NOTIFICATION"
+      href: /windows/win32/api/activitycoordinatortypes/ne-activitycoordinatortypes-activity_coordinator_notification.md
+    - name: "ACTIVITY_COORDINATOR_POLICY_TEMPLATE"
+      href: /windows/win32/api/activitycoordinatortypes/ne-activitycoordinatortypes-activity_coordinator_policy_template.md
+    - name: "ACTIVITY_COORDINATOR_RESOURCE"
+      href: /windows/win32/api/activitycoordinatortypes/ne-activitycoordinatortypes-activity_coordinator_resource.md

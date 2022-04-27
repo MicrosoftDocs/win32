@@ -1,0 +1,39 @@
+---
+description: Overview of the Activity Coordinator API.
+ms.assetid: 05aa4f50-4365-4707-bed7-8eba2a723d93
+title: Activity Coordinator API Overview
+ms.topic: article
+ms.date: 04/27/2022
+---
+
+# Overview of the Activity Coordinator API
+
+The Activity Coordinator API coordinates execution of deferrable tasks on a system. Deferrable tasks are tasks that can defer their execution to a time when the system is in a desired state where running the task does not interfere with other ongoing work. This allows the total consumption of applications on the system to be more evenly distributed across times when the system is otherwise idle, or the user is inactive. The API helps avoid scenarios where applications cause contention for system resources and negatively impact the user’s experience.
+
+## Usage
+
+Developers use the API by defining policies which describe the desired state of the system while executing the scheduled work. Processes then subscribe to get notified when the policy’s conditions are satisfied or unsatisfied. These notifications indicate when work should be started or stopped. The API offers a centralized way to determine what an “appropriate time” to perform work is. It allows the API to interpret what processes define as appropriate conditions. It then distributes notifications among registered processes on the system.
+Opting into the API does not prevent applications from running work at bad times. It relies on them to be good citizens. Additionally, using the API requires the calling process to be running. Applications should not rely on the Activity Coordinator API for high-priority work that needs to run irrespective of system conditions.
+
+**Mention other scheduling APIs here (task scheduler, BITS)?**
+
+## Policies, resources, and conditions
+
+Policies describe many attributes of the system. These include power state, battery levels, user presence, CPU usage, system-disk usage, etc. **Link other doc here with terminology.** Developers customize policies by associating resources with a desired “condition” to begin using that resource. **Link to Guidance for Choosing a Policy here.** Conditions describe the state of a resource and may be evaluated by factors such as its utilization or presence.
+
+The combination of resources and conditions allows developers to describe the desired state of the system to help ensure that running their workload does not adversely impact the system or its users. As the system state is always changing, subscribing to these policies provides notifications of when to start or stop work based on whether the policy is satisfied (open) or unsatisfied (closed).
+Activity management
+
+The API will stagger the starting and stopping of activities between multiple consumers to avoid the thundering herd problem seen with existing global notification mechanisms, such as those caused by the low memory event.
+
+Additionally, the threshold to transition from a satisfied to unsatisfied resource condition will be offset such that there is a net availability of each resource. This helps prevent policy transitions from open to closed due to the net resources consumed by the activities notified to run and improves the likelihood that many activities can coexist peacefully on the same system without superfluous start/stop notifications that would dissuade interested consumers.
+
+## Policy templates
+
+Developers can choose from a set of template policies and configure their own custom policies to define their desired conditions for various resources required by their workload. In the future, more resources whose states may otherwise be hard to describe, such as eco-friendliness, can be added without breaking existing clients or creating a disjoint API shape.
+
+## Related topics
+
+[Activity Coordinator API and terminology](activity-coordinator-api-and-terminology.md)
+
+[Choosing the right Activity Coordinator policy](choosing-the-right-activity-coordinator-policy.md)
