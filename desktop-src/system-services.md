@@ -3,7 +3,7 @@ description: This section contains the reference for the system APIs and service
 ms.assetid: 3a3dc403-8bad-4464-9dda-361daaf8f8d3
 title: System Services
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 04/27/2022
 ---
 
 # System Services
@@ -15,7 +15,7 @@ This section contains the reference for the system APIs and services offered by 
 - Dynamic-link libraries.
 - Memory management.
 - Power management.
-- The creation and coordination of multiple threads of execution..
+- The creation and coordination of multiple threads of execution.
 - The development of service applications.
 - Windows messaging.
 - Obtaining Windows system information.
@@ -48,11 +48,3 @@ This section contains the reference for the system APIs and services offered by 
 | [Windows Notification Framework](/previous-versions/windows/desktop/wnf/windows-setup-and-migration-portal)<br/> | Documents the functions (and function callback prototypes) used to detect and possibly repair an application after a setup or migration has occurred.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 | [Windows Subsystem for Linux](/previous-versions/windows/desktop/wsl/windows-subsystem-for-linux-portal)<br/>                         | Reference information for the Windows Subsystem for Linux (WSL) programming interfaces. <br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 | [Windows System Information](./sysinfo/windows-system-information.md)<br/>                                 | How to programmatically access the registry and key system configuration and version information.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
-
-
-
- 
-
- 
-
- 
