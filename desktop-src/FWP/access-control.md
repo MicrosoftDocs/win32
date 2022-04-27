@@ -76,143 +76,30 @@ Since BFE supports its own custom auditing, it does not generate generic object 
 
 The table below shows the access rights required by the WFP functions in order to access various filtering platform objects. The **FwpmFilter\*** functions are listed as an example for accessing the standard objects. All the other functions that access standard objects follow the **FwpmFilter\*** functions access model.
 
-
-
-Function
-
-Object Checked
-
-Access Required
-
-[**FwpmEngineOpen0**](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmengineopen0)
-
-Engine
-
-**FWPM\_ACTRL\_OPEN**
-
-[**FwpmEngineGetOption0**](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmenginegetoption0)
-
-Engine
-
-**FWPM\_ACTRL\_READ**
-
-[**FwpmEngineSetOption0**](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmenginesetoption0)
-
-Engine
-
-**FWPM\_ACTRL\_WRITE**
-
-[**FwpmSessionCreateEnumHandle0**](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmsessioncreateenumhandle0)
-
-Engine
-
-**FWPM\_ACTRL\_ENUM**
-
-[**FwpmTransactionBegin0**](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmtransactionbegin0)
-
-Engine
-
-**FWPM\_ACTRL\_BEGIN\_READ\_TXN** & **FWPM\_ACTRL\_BEGIN\_WRITE\_TXN**
-
-[**FwpmFilterAdd0**](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmfilteradd0)
-
-Container Provider<br/> Layer<br/> Sub-Layer<br/> Callout<br/> Provider Context<br/>
-
-**FWPM\_ACTRL\_ADDFWPM\_ACTRL\_ADD\_LINK**<br/> **FWPM\_ACTRL\_ADD\_LINK**<br/> **FWPM\_ACTRL\_ADD\_LINK**<br/> **FWPM\_ACTRL\_ADD\_LINK**<br/> **FWPM\_ACTRL\_ADD\_LINK**<br/>
-
-[**FwpmFilterDeleteById0**](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmfilterdeletebyid0)[**FwpmFilterDeleteByKey0**](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmfilterdeletebykey0)<br/>
-
-Filter
-
-**DELETE**
-
-[**FwpmFilterGetById0**](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmfiltergetbyid0)[**FwpmFilterGetByKey0**](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmfiltergetbykey0)<br/>
-
-Filter
-
-**FWPM\_ACTRL\_READ**
-
-[**FwpmFilterCreateEnumHandle0**](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmfiltercreateenumhandle0)
-
-Container Filter<br/>
-
-**FWPM\_ACTRL\_ENUMFWPM\_ACTRL\_READ**<br/>
-
-[**FwpmFilterSubscribeChanges0**](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmfiltersubscribechanges0)
-
-Container
-
-**FWPM\_ACTRL\_SUBSCRIBE**
-
-[**FwpmFilterSubscriptionsGet0**](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmfiltersubscriptionsget0)
-
-Container
-
-**FWPM\_ACTRL\_READ**
-
-[**IPsecGetStatistics0**](/windows/desktop/api/Fwpmu/nf-fwpmu-ipsecgetstatistics0)
-
-IPsec SA DB
-
-**FWPM\_ACTRL\_READ\_STATS**
-
-[**IPsecSaContextCreate0**](/windows/desktop/api/Fwpmu/nf-fwpmu-ipsecsacontextcreate0)[**IPsecSaContextGetSpi0**](/windows/desktop/api/Fwpmu/nf-fwpmu-ipsecsacontextgetspi0)<br/> [**IPsecSaContextAddInbound0**](/windows/desktop/api/Fwpmu/nf-fwpmu-ipsecsacontextaddinbound0)<br/> [**IPsecSaContextAddOutbound0**](/windows/desktop/api/Fwpmu/nf-fwpmu-ipsecsacontextaddoutbound0)<br/>
-
-IPsec SA DB
-
-**FWPM\_ACTRL\_ADD**
-
-[**IPsecSaContextDeleteById0**](/windows/desktop/api/Fwpmu/nf-fwpmu-ipsecsacontextdeletebyid0)[**IPsecSaContextExpire0**](/windows/desktop/api/Fwpmu/nf-fwpmu-ipsecsacontextexpire0)<br/>
-
-IPsec SA DB
-
-**DELETE**
-
-[**IPsecSaContextGetById0**](/windows/desktop/api/Fwpmu/nf-fwpmu-ipsecsacontextgetbyid0)
-
-IPsec SA DB
-
-**FWPM\_ACTRL\_READ**
-
-[**IPsecSaContextCreateEnumHandle0**](/windows/desktop/api/Fwpmu/nf-fwpmu-ipsecsacontextcreateenumhandle0)[**IPsecSaCreateEnumHandle0**](/windows/desktop/api/Fwpmu/nf-fwpmu-ipsecsacreateenumhandle0)<br/>
-
-IPsec SA DB
-
-**FWPM\_ACTRL\_ENUM** & **FWPM\_ACTRL\_READ**
-
-[**IkeextGetStatistics0**](/windows/desktop/api/Fwpmu/nf-fwpmu-ikeextgetstatistics0)
-
-IKE SA DB
-
-**FWPM\_ACTRL\_READ\_STATS**
-
-[**IkeextSaDeleteById0**](/windows/desktop/api/Fwpmu/nf-fwpmu-ikeextsadeletebyid0)
-
-IKE SA DB
-
-**DELETE**
-
-[**IkeextSaGetById0**](/windows/desktop/api/Fwpmu/nf-fwpmu-ikeextsagetbyid0)
-
-IKE SA DB
-
-**FWPM\_ACTRL\_READ**
-
-[**IkeextSaCreateEnumHandle0**](/windows/desktop/api/Fwpmu/nf-fwpmu-ikeextsacreateenumhandle0)
-
-IKE SA DB
-
-**FWPM\_ACTRL\_ENUM** & **FWPM\_ACTRL\_READ**
-
-[**FwpmNetEventCreateEnumHandle0**](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmneteventcreateenumhandle0)
-
-Container
-
-**FWPM\_ACTRL\_ENUM**
-
-[**FwpmIPsecTunnelAdd0**](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmipsectunneladd0)[**FwpmIPsecTunnelDeleteByKey0**](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmipsectunneldeletebykey0)<br/>
-
-No additional access checks beyond those for the individual filters and provider contexts
+Function | Object Checked | Access Required
+|---|---|---|
+[**FwpmEngineOpen0**](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmengineopen0) | Engine | **FWPM\_ACTRL\_OPEN**
+[**FwpmEngineGetOption0**](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmenginegetoption0) | Engine | **FWPM\_ACTRL\_READ**
+[**FwpmEngineSetOption0**](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmenginesetoption0) | Engine | **FWPM\_ACTRL\_WRITE**
+[**FwpmSessionCreateEnumHandle0**](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmsessioncreateenumhandle0) | Engine | **FWPM\_ACTRL\_ENUM**
+[**FwpmTransactionBegin0**](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmtransactionbegin0) | Engine | **FWPM\_ACTRL\_BEGIN\_READ\_TXN** & **FWPM\_ACTRL\_BEGIN\_WRITE\_TXN**
+[**FwpmFilterAdd0**](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmfilteradd0) | Container Provider<br/> Layer<br/> Sub-Layer<br/> Callout<br/> Provider Context<br/> | **FWPM\_ACTRL\_ADDFWPM\_ACTRL\_ADD\_LINK**<br/> **FWPM\_ACTRL\_ADD\_LINK**<br/> **FWPM\_ACTRL\_ADD\_LINK**<br/> **FWPM\_ACTRL\_ADD\_LINK**<br/> **FWPM\_ACTRL\_ADD\_LINK**<br/>
+[**FwpmFilterDeleteById0**](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmfilterdeletebyid0)<br/>[**FwpmFilterDeleteByKey0**](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmfilterdeletebykey0)<br/> | Filter | **DELETE**
+[**FwpmFilterGetById0**](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmfiltergetbyid0)<br/>[**FwpmFilterGetByKey0**](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmfiltergetbykey0)<br/> | Filter | **FWPM\_ACTRL\_READ**
+[**FwpmFilterCreateEnumHandle0**](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmfiltercreateenumhandle0) | Container Filter<br/> | **FWPM\_ACTRL\_ENUMFWPM\_ACTRL\_READ**<br/>
+[**FwpmFilterSubscribeChanges0**](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmfiltersubscribechanges0) | Container | **FWPM\_ACTRL\_SUBSCRIBE**
+[**FwpmFilterSubscriptionsGet0**](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmfiltersubscriptionsget0) | Container | **FWPM\_ACTRL\_READ**
+[**IPsecGetStatistics0**](/windows/desktop/api/Fwpmu/nf-fwpmu-ipsecgetstatistics0) | IPsec SA DB | **FWPM\_ACTRL\_READ\_STATS**
+[**IPsecSaContextCreate0**](/windows/desktop/api/Fwpmu/nf-fwpmu-ipsecsacontextcreate0)<br/>[**IPsecSaContextGetSpi0**](/windows/desktop/api/Fwpmu/nf-fwpmu-ipsecsacontextgetspi0)<br/> [**IPsecSaContextAddInbound0**](/windows/desktop/api/Fwpmu/nf-fwpmu-ipsecsacontextaddinbound0)<br/> [**IPsecSaContextAddOutbound0**](/windows/desktop/api/Fwpmu/nf-fwpmu-ipsecsacontextaddoutbound0)<br/> | IPsec SA DB | **FWPM\_ACTRL\_ADD**
+[**IPsecSaContextDeleteById0**](/windows/desktop/api/Fwpmu/nf-fwpmu-ipsecsacontextdeletebyid0)<br/>[**IPsecSaContextExpire0**](/windows/desktop/api/Fwpmu/nf-fwpmu-ipsecsacontextexpire0)<br/> | IPsec SA DB | **DELETE**
+[**IPsecSaContextGetById0**](/windows/desktop/api/Fwpmu/nf-fwpmu-ipsecsacontextgetbyid0) | IPsec SA DB | **FWPM\_ACTRL\_READ**
+[**IPsecSaContextCreateEnumHandle0**](/windows/desktop/api/Fwpmu/nf-fwpmu-ipsecsacontextcreateenumhandle0)<br/>[**IPsecSaCreateEnumHandle0**](/windows/desktop/api/Fwpmu/nf-fwpmu-ipsecsacreateenumhandle0)<br/> | IPsec SA DB | **FWPM\_ACTRL\_ENUM** & **FWPM\_ACTRL\_READ**
+[**IkeextGetStatistics0**](/windows/desktop/api/Fwpmu/nf-fwpmu-ikeextgetstatistics0) | IKE SA DB | **FWPM\_ACTRL\_READ\_STATS**
+[**IkeextSaDeleteById0**](/windows/desktop/api/Fwpmu/nf-fwpmu-ikeextsadeletebyid0) | IKE SA DB | **DELETE**
+[**IkeextSaGetById0**](/windows/desktop/api/Fwpmu/nf-fwpmu-ikeextsagetbyid0) | IKE SA DB | **FWPM\_ACTRL\_READ**
+[**IkeextSaCreateEnumHandle0**](/windows/desktop/api/Fwpmu/nf-fwpmu-ikeextsacreateenumhandle0) | IKE SA DB | **FWPM\_ACTRL\_ENUM** & **FWPM\_ACTRL\_READ**
+[**FwpmNetEventCreateEnumHandle0**](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmneteventcreateenumhandle0) | Container | **FWPM\_ACTRL\_ENUM**
+[**FwpmIPsecTunnelAdd0**](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmipsectunneladd0)<br/>[**FwpmIPsecTunnelDeleteByKey0**](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmipsectunneldeletebykey0) | No additional access checks beyond those for the individual filters and provider contexts
 
 
 
