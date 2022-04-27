@@ -4,19 +4,22 @@ ms.assetid: 39042fc6-f489-4e44-ad3f-858ca395575d
 title: D3DXMatrixTransformation function (D3dx9math.h)
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DXMatrixTransformation
-api_type: 
+api_type:
 - LibDef
-api_location: 
+api_location:
 - d3dx9.lib
 - d3dx9.dll
 ---
 
 # D3DXMatrixTransformation function (D3dx9math.h)
+
+> [!Note]
+> The D3DX utility library is deprecated. We recommend that you use [DirectXMath](../dxmath/pg-xnamath-migration-d3dx.md) instead.
 
 Builds a transformation matrix. **NULL** arguments are treated as identity transformations.
 
@@ -163,7 +166,3 @@ For 2D transformations, use [**D3DXMatrixTransformation2D**](d3dxmatrixtransform
  
 
  
-
-
-
-

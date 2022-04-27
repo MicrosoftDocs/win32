@@ -4,19 +4,22 @@ ms.assetid: e82e830b-efbb-4bdc-b370-7bfa4326a669
 title: D3DXPlaneTransformArray function (D3dx9math.h)
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DXPlaneTransformArray
-api_type: 
+api_type:
 - LibDef
-api_location: 
+api_location:
 - d3dx9.lib
 - d3dx9.dll
 ---
 
 # D3DXPlaneTransformArray function (D3dx9math.h)
+
+> [!Note]
+> The D3DX utility library is deprecated. We recommend that you use [DirectXMath](../dxmath/pg-xnamath-migration-d3dx.md) instead.
 
 Transforms an array of planes by a matrix. The vectors that describe each plane must be normalized.
 
@@ -117,10 +120,10 @@ for(int i = 0; i < ARRAYSIZE; i++)
 }
 
 D3DXMATRIX  matrix;
-D3DXMatrixScaling( &matrix, 1.0f, 2.0f, 3.0f ); 
+D3DXMatrixScaling( &matrix, 1.0f, 2.0f, 3.0f );
 D3DXMatrixInverse( &matrix, NULL, &matrix );
 D3DXMatrixTranspose( &matrix, &matrix );
-D3DXPlaneTransformArray( &planeNew, sizeof (D3DXPLANE), &plane, 
+D3DXPlaneTransformArray( &planeNew, sizeof (D3DXPLANE), &plane,
                          sizeof (D3DXPLANE), &matrix, ARRAYSIZE );
 ```
 

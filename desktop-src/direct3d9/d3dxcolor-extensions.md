@@ -4,18 +4,21 @@ ms.assetid: 89780c6f-c78b-4ebe-876a-6dbc37b598ef
 title: D3DXCOLOR Extensions (D3dx9math.h)
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DXCOLOR
-api_type: 
+api_type:
 - HeaderDef
-api_location: 
+api_location:
 - d3dx9math.h
 ---
 
 # D3DXCOLOR Extensions
+
+> [!Note]
+> The D3DX utility library is deprecated. We recommend that you use [DirectXMath](../dxmath/pg-xnamath-migration-d3dx.md) instead.
 
 Supplies the following operator overloads and type casts for [**D3DXCOLOR**](d3dxcolor.md) structures.
 
