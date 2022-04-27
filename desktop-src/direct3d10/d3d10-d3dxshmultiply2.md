@@ -4,19 +4,25 @@ ms.assetid: 9e0942ce-e39d-4147-9472-cda8a97fd390
 title: D3DXSHMultiply2 function (D3DX10Math.h)
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DXSHMultiply2
-api_type: 
+api_type:
 - LibDef
-api_location: 
+api_location:
 - D3DX10.lib
 - D3DX10.dll
 ---
 
 # D3DXSHMultiply2 function (D3DX10Math.h)
+
+> [!Note]
+> The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated and is not supported for Windows Store apps.
+
+> [!Note]
+> Instead of using this function, we recommend that you use the [Spherical Harmonics Math](https://github.com/Microsoft/DirectXMath/tree/main/SHMath) library function **XMSHMultiply2**.
 
 Computes the product of two spherical harmonics functions (*f* and *g*). Both functions are of order N = 2.
 

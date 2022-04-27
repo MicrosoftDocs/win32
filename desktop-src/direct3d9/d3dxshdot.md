@@ -4,19 +4,25 @@ ms.assetid: 71b7480d-ddac-4b02-bca7-d9318823d03e
 title: D3DXSHDot function (D3dx9math.h)
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DXSHDot
-api_type: 
+api_type:
 - LibDef
-api_location: 
+api_location:
 - d3dx9.lib
 - d3dx9.dll
 ---
 
 # D3DXSHDot function (D3dx9math.h)
+
+> [!Note]
+> The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated and is not supported for Windows Store apps.
+
+> [!Note]
+> Instead of using this function, we recommend that you use the [Spherical Harmonics Math](https://github.com/Microsoft/DirectXMath/tree/main/SHMath) library function **XMSHDot**.
 
 Computes the dot product of two spherical harmonic (SH) vectors.
 
