@@ -10,25 +10,24 @@ ms.date: 05/31/2018
 
 This section contains the reference for the system APIs and services offered by Windows for desktop apps. These include the traditionally available services for:
 
--   The Component Object Model (COM).
--   File compression.
--   Dynamic-link libraries.
--   Memory management.
--   Power management.
--   The creation and coordination of multiple threads of execution..
--   The development of service applications.
--   Windows messaging.
--   Obtaining Windows system information.
--   The Help API.
+- The Component Object Model (COM).
+- File compression.
+- Dynamic-link libraries.
+- Memory management.
+- Power management.
+- The creation and coordination of multiple threads of execution..
+- The development of service applications.
+- Windows messaging.
+- Obtaining Windows system information.
+- The Help API.
 
 ## In this section
-
-
 
 | Topic                                                                                                    | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 |----------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [COM](./com/component-object-model--com--portal.md)<br/>                                                                                | COM is a platform-independent, distributed, object-oriented system for creating binary software components that can interact. COM is the foundation technology for Microsoft's OLE (compound documents) and ActiveX (Internet-enabled components) technologies.<br/>                                                                                                                                                                                                                                                                                                                                                                       |
 | [COM+](./cossdk/component-services-portal.md)<br/>                                                         | COM+ is an evolution of Microsoft Component Object Model (COM) and Microsoft Transaction Server (MTS). COM+ builds on and extends applications written using COM, MTS, and other COM-based technologies. COM+ handles many of the resource management tasks that you previously had to program yourself, such as thread allocation and security. COM+ also makes your applications more scalable by providing thread pooling, object pooling, and just-in-time object activation. COM+ also helps protect the integrity of your data by providing transaction support, even if a transaction spans multiple databases over a network.<br/> |
+| [Activity Coordinator](./activity_coordinator/-activity-coordinator-portal.md)<br/>                                                 | The Activity Coordinator API coordinates execution of deferrable tasks on a system. Deferrable tasks are those tasks which don’t need to be run immediately. They can defer their execution to a time when the system is in a desired state where running the task does not interfere with other ongoing work.<br/>                                                                                                                                                                                                                                                                                                                                                                                                     |
 | [Compression API](./cmpapi/-compression-portal.md)<br/>                                                 | The Compression API exposes the Windows MSZIP, XPRESS, XPRESS\_HUFF, and LZMS compression algorithms. This enables developers of Windows applications to manage versions, service, and extend the exposed compression algorithms.<br/>                                                                                                                                                                                                                                                                                                                                                                                                     |
 | [Distributed Transaction Coordinator](/previous-versions/windows/desktop/ms684146(v=vs.85))<br/>                   | Guide and reference documentation for system administrators and developers using the Distributed Transaction Coordinator (DTC).<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 | [Microsoft.Dtc.PowerShell.Diagnostics](/previous-versions//hh438328(v=vs.85))<br/>                  | Provides information about the PowerShell cmdlets provided with Microsoft Distributed Transaction Coordinator (MSDTC) for diagnostics.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
