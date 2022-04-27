@@ -4,19 +4,22 @@ ms.assetid: d6e347a5-bb66-451d-b66e-49ea8eff70b3
 title: ID3DXMATRIXStack::Translate method (D3DX10.h)
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - ID3DXMATRIXStack.Translate
-api_type: 
+api_type:
 - COM
-api_location: 
+api_location:
 - D3DX10.lib
 - D3DX10.dll
 ---
 
 # ID3DXMATRIXStack::Translate method (D3DX10.h)
+
+> [!Note]
+> The math functions of the D3DX utility library are deprecated. We recommend that you use [DirectXMath](../dxmath/directxmath-portal.md) instead along with this header from [GitHub](https://github.com/microsoft/DirectXMath/tree/main/MatrixStack).
 
 Determines the product of the current matrix and the computed translation matrix determined by the given factors (x, y, and z).
 

@@ -4,19 +4,22 @@ ms.assetid: 6f909b38-821c-4173-aba9-fd4392f70551
 title: ID3DXMATRIXStack::MultMatrixLocal method (D3dx9math.h)
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - ID3DXMATRIXStack.MultMatrixLocal
-api_type: 
+api_type:
 - COM
-api_location: 
+api_location:
 - d3dx9.lib
 - d3dx9.dll
 ---
 
 # ID3DXMATRIXStack::MultMatrixLocal method (D3dx9math.h)
+
+> [!Note]
+> The math functions of the D3DX utility library are deprecated. We recommend that you use [DirectXMath](../dxmath/directxmath-portal.md) instead along with this header from [GitHub](https://github.com/microsoft/DirectXMath/tree/main/MatrixStack).
 
 Determines the product of the given matrix and the current matrix.
 
@@ -87,7 +90,3 @@ This method does not add an item to the stack, it replaces the current matrix wi
  
 
  
-
-
-
-
