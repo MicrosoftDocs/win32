@@ -1,12 +1,13 @@
 ---
-title: Drop-down Lists Combo Boxes
-description: With a drop-down list or combo box, users make a choice among a list of mutually exclusive values.
+title: Windows 7 Drop-down Lists Combo Boxes
+description: Windows 7 drop-down lists help users make a choice among a list of mutually exclusive values.
 ms.assetid: dbe88cf1-7946-4343-bc16-ce12be7ce205
 ms.topic: article
-ms.date: 10/20/2020
+ms.date: 01/25/2022
+ms.custom: seo-windows-dev
 ---
 
-# Drop-down Lists & Combo Boxes
+# Windows 7 Drop-down Lists & Combo Boxes
 
 > [!NOTE]
 > This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](/windows/uwp/design/).

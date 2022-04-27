@@ -25,32 +25,14 @@ delete cache [url=]string [[recursive=]{yes|no}]
 
 ## Parameters
 
-<dl> <dt>
-
-<span id="_url__string"></span><span id="_URL__STRING"></span>**\[url=\]***string*
-</dt> <dd>
+__\[url=\]__*string*
 
 Required. Specifies the fully qualified URL.
 
-</dd> </dl>
-
-<dl> <dt>
-
-<span id="_recursive___yes_no_"></span><span id="_RECURSIVE___YES_NO_"></span>**\[recursive=\]{yes\|no}**
-</dt> <dd>
+**\[recursive=\]{yes\|no}**
 
 If yes, removes all entries under the specified URL.
-
-</dd> </dl>
 
 ## Examples
 
 **delete cache url=https://www.contoso.com:80/myresource/ recursive=yes**
-
- 
-
- 
-
-
-
-

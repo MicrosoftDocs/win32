@@ -12,7 +12,7 @@ Specifies what control to use when editing the property. There should be only on
 
 If there are multiple elements, the last one is used. If no [editControl]() element is provided, then the default attribute settings are applied to the property description.
 
-If <typeInfo isInnate="true">, this element is ignored because an innate property cannot be edited.
+If \<typeInfo isInnate="true"\>, this element is ignored because an innate property cannot be edited.
 
 ## Syntax
 
@@ -87,7 +87,7 @@ If <typeInfo isInnate="true">, this element is ignored because an innate propert
 <tbody>
 <tr class="odd">
 <td>Default</td>
-<td>Default. Uses the default control, based upon the <typeInfo type=&quot;&quot;> attribute. The default types are listed below. Any other type results in using the &quot;Text&quot; control. 
+<td>Default. Uses the default control, based upon the \<typeInfo type=&quot;&quot;\> attribute. The default types are listed below. Any other type results in using the &quot;Text&quot; control. 
 <table>
 <thead>
 <tr class="header">

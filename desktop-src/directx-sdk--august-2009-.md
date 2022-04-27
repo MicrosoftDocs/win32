@@ -72,7 +72,7 @@ These steps also apply to your own projects that are dependent on the DirectX SD
         ii. Select **All Configurations and All Platforms**.  
         iii. Set these directories as follows:
 
-        -   Executable Directories: **<inherit from parent or project defaults>** (On right-side drop-down)
+        -   Executable Directories: **\<inherit from parent or project defaults\>** (On right-side drop-down)
         -   Include Directories: **$(IncludePath);$(DXSDK\_DIR)Include**
         -   Include Library Directories: **$(LibraryPath);$(DXSDK\_DIR)Lib\\x86**
 

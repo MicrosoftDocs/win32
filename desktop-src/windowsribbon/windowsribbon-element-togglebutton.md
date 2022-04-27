@@ -122,7 +122,7 @@ This section of code shows a **ToggleButton** element declaration within the [**
 
 
 
-|                                     |           |
+|             Requirement                        |  Details         |
 |-------------------------------------|-----------|
 | Minimum supported system<br/> | Windows 7 |
 | Can be empty                        | Yes       |

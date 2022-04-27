@@ -32,7 +32,7 @@ An application directory partition also has a corresponding [**crossRef**](/wind
 
 **To create a new application directory partition with its first replica, perform the following steps**
 
-1.  Bind to the namespace for the new partition, specifying the domain controller that will host the application directory partition in the ADsPath. For example, to create a partition with an ADsPath of "DC=dynamicdata,DC=mydomain,DC=com", the binding ADsPath would be "LDAP://<domain controller>/DC=mydomain,DC=com", where "&lt;domain controller&gt;" is the DNS name of the domain controller that will host the partition.
+1.  Bind to the namespace for the new partition, specifying the domain controller that will host the application directory partition in the ADsPath. For example, to create a partition with an ADsPath of "DC=dynamicdata,DC=mydomain,DC=com", the binding ADsPath would be "LDAP://\<domain controller\>/DC=mydomain,DC=com", where "&lt;domain controller&gt;" is the DNS name of the domain controller that will host the partition.
 
     The bind operation must specify the fast and delegation options. The fast option allows the bind to succeed even if the namespace does not exist. The delegation option is required to allow the domain controller to contact the Domain-Naming FSMO role holder using the same credentials.
 
@@ -78,7 +78,7 @@ For more information and a code example that shows this method for locating the 
 The second method is easier to implement, but relies on the Partitions container having a particular relative distinguished name. It is not currently possible to change the name of the Partitions container, but if this capability is added in the future, the procedure below will not work correctly if the Partitions container has been renamed.
 
 1.  Bind to RootDSE and obtain the **configurationNamingContext** attribute.
-2.  Combine the string "CN=Partitions," followed by the **configurationNamingContext** attribute to form the distinguished name of the Partitions container. The distinguished name will be in the form "CN=Partitions,<configuration DN>".
+2.  Combine the string "CN=Partitions," followed by the **configurationNamingContext** attribute to form the distinguished name of the Partitions container. The distinguished name will be in the form "CN=Partitions,\<configuration DN\>".
 
 For more information and a code example that shows this method for locating the Partitions container, see the **GetPartitionsDNManual** function in [Example Code for Locating the Partitions Container](example-code-for-locating-the-partitions-container.md).
 

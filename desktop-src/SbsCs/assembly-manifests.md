@@ -87,7 +87,7 @@ The name of an assembly manifest is any valid file name followed by .manifest.
 
 For example, an assembly manifest that refers to myassembly would use the following file name syntax. You can omit the <*resource ID*> field if the assembly manifest is being installed as a separate file or if the resource ID is 1.
 
-<dl> myassembly.<resource ID>.manifest  
+<dl> myassembly.\<resource ID\>.manifest  
 </dl>
 
 > [!Note]  

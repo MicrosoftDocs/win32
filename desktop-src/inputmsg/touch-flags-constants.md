@@ -16,7 +16,7 @@ ms.date: 02/03/2020
 
 # Touch Flags
 
-Values that can appear in the **touchFlags** field of the [**POINTER_TOUCH_INFO**](/previous-versions/windows/desktop/api) structure.
+Values that can appear in the **touchFlags** field of the [**POINTER_TOUCH_INFO**](/windows/win32/api/winuser/ns-winuser-pointer_touch_info) structure.
 
 <dl> <dt>
 
@@ -52,7 +52,7 @@ The default value.
 [Constants](constants.md)
 </dt> <dt>
 
-[**POINTER_INFO**](/previous-versions/windows/desktop/api)
+[**POINTER_INFO**](/windows/win32/api/winuser/ns-winuser-pointer_info)
 </dt> </dl>
 
  

@@ -17,7 +17,7 @@ keywords:
 - text services,international keyboards
 - international keyboards
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 04/14/2022
 ---
 
 # 64-Bit Considerations
@@ -139,7 +139,7 @@ On 64-bit Windows platforms, install the 32-bit and 64-bit text service DLLs, as
 -   Install 32-bit text service DLLs and any other 32-bit binary files in a subdirectory in the Program Files (x86) directory; call **SHGetFolderPath** with **CSIDL\_PROGRAM\_FILESX86** to retrieve this directory path. Or, for Windows Installer, use the [**ProgramFilesFolder**](/windows/desktop/Msi/programfilesfolder) property.
 -   Install 64-bit text service DLLs and any other 64-bit binary files in a subdirectory under the Program Files directory; call **SHGetFolderPath** with **CSIDL\_PROGRAM\_FILES** to retrieve this directory path. Or, for Windows Installer, use the [**ProgramFiles64Folder**](/windows/desktop/Msi/programfiles64folder) property.
 
-If you are not using a Windows Installer package to install your IME or text service, it is strongly recommnded that you use a 64-bit installation application. The WOW64 file system redirector might cause 32-bit installers to place files in the wrong directories (for example, WOW64 file system redirection might cause files intended for the System32 directory to be installed in the SysWOW64 directory instead). If you must use a 32-bit installer, disable WOW64 file redirection during the installation process to ensure that the file-redirector service does not cause any unintended redirection during the installation process. For information about the WOW64 file system redirector, see [File System Redirector](/windows/desktop/WinProg64/file-system-redirector). For information about how to disable or enable WOW64 file system redirection, see [**Wow64EnableWow64FsRedirection**](/windows/desktop/api/winbase/nf-winbase-wow64enablewow64fsredirection).
+If you are not using a Windows Installer package to install your IME or text service, it is strongly recommnded that you use a 64-bit installation application. The WOW64 file system redirector might cause 32-bit installers to place files in the wrong directories (for example, WOW64 file system redirection might cause files intended for the System32 directory to be installed in the SysWOW64 directory instead). If you must use a 32-bit installer, disable WOW64 file redirection during the installation process to ensure that the file-redirector service does not cause any unintended redirection during the installation process. For information about the WOW64 file system redirector, see [File System Redirector](/windows/desktop/WinProg64/file-system-redirector). For information about how to disable or enable WOW64 file system redirection, see [**Wow64EnableWow64FsRedirection**](/windows/win32/api/wow64apiset/nf-wow64apiset-wow64enablewow64fsredirection).
 
 > [!TIP]
 >

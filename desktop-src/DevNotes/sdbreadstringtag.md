@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the string for the specified TAGID.
+description: Retrieves the string for the specified TAGID.
 ms.assetid: d67d386d-a2c5-46e2-8887-9ee20ea427f9
 title: SdbReadStringTag function
 ms.topic: reference

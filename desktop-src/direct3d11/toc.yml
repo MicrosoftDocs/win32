@@ -214,7 +214,7 @@
             href: tier-1.md
           - name: "Tier 2"
             href: tier-2.md
-    - name: "Graphics Pipeline"
+    - name: "Graphics pipeline"
       href: overviews-direct3d-11-graphics-pipeline.md
       items: 
       - name: "Input-Assembler Stage"

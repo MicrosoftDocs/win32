@@ -16,26 +16,28 @@ The application programming interface (API) can be used to manage the activation
 
     For example, a user managing activation contexts in the event loop. Each time the window is accessed, such as by moving the mouse over the window, [**ActivateActCtx**](/windows/desktop/api/Winbase/nf-winbase-activateactctx) is called, which activates the current activation context for the resource, as shown in the following code fragment.
 
-    <dl> HANDLE hActCtx;  
-    CreateWindow();  
-    ...  
-    GetCurrentActCtx(&ActCtx);  
-    ...  
-    ReleaseActCtx(&ActCtx);  
-    </dl>
+```
+HANDLE hActCtx;  
+CreateWindow();  
+...  
+GetCurrentActCtx(&ActCtx);  
+...  
+ReleaseActCtx(&ActCtx);  
+```
 
     In the following code fragment, the API function activates the appropriate activation contexts before calling [**CallWindowProc**](/windows/win32/api/winuser/nf-winuser-callwindowproca). When **CallWindowProc** is called, it uses this context to pass a message to Windows. When all resource operations have completed, the function will deactivate the context.
 
-    <dl> ULONG\_PTR ulpCookie;  
-    HANDLE hActCtx;  
-    if(ActivateActCtx(hActCtx, &ulpCookie))  
-    {  
+```
+ULONG\_PTR ulpCookie;  
+HANDLE hActCtx;  
+if(ActivateActCtx(hActCtx, &ulpCookie))  
+{  
     ...  
     CallWindowProc(...);  
     ...  
     DeactivateActCtx(0, ulpCookie);  
-    }  
-    </dl>
+}
+```
 
 -   Delegator dispatch layer.
 
@@ -47,21 +49,18 @@ The application programming interface (API) can be used to manage the activation
 
     Each time the driver manager calls the dispatch layer—for example, to get the next set of data—it uses the appropriate assemblies based on the activation context. The following code fragment illustrates this.
 
-    <dl> HANDLE hActCtx;  
-    ULONG\_PTR ulpCookie;  
-    ACTCTX ActCtxToCreate = {...};  
-    hActCtx = CreateActCtx(&ActCtxToCreate);  
-    ...;  
-    if (ActivateActCtx(hActCtx, &ulpCookie))  
-    {  
+```
+HANDLE hActCtx;  
+ULONG\_PTR ulpCookie;  
+ACTCTX ActCtxToCreate = {...};  
+hActCtx = CreateActCtx(&ActCtxToCreate);  
+...;  
+if (ActivateActCtx(hActCtx, &ulpCookie))  
+{  
     ...  
     ConnectDb(...);  
     DeactivateActCtx(0, ulpCookie);  
-    }  
-    ...  
-    ReleaseActCtx(hActCtx);  
-    </dl>
-
- 
-
- 
+}  
+... 
+ReleaseActCtx(hActCtx);  
+```

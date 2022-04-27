@@ -57,9 +57,9 @@ source_filename [language_neutral_filename] [mui_filename]
 
 
 
-| 
-|
-| -h|-? | Shows help screen. | 
+|Option | Purpose |
+|-------|-------|
+| -h or -? | Shows help screen. | 
 | -c | Specifies the input checksum_file from which to extract or calculate the resource checksum. Checksum_file must be a Win32 binary file containing localizable resources. If checksum_file contains resources for more than one language, the -b switch must be used to specify which of these should be used otherwise MUIRCT fails. <br /> | 
 | -b | Specifies the language to be used when the checksum_file specified with -c contains resources in multiple languages. This switch can only be used in conjunction with the -c switch. The language identifier can be in decimal or hexadecimal format. MUIRCT fails if the checksum_file contains resources in multiple language and the -b is not specified or if the language specified by the -b switch cannot be found in the checksum_file. <br /> | 
 | -g | Specifies the language ID to be included as the ultimate fallback language in the resource configuration data section of the LN file. If the resource loader fails to load a requested .mui file from the thread preferred UI languages, it uses the ultimate fallback language as its last attempt. The LangID value can be specified in decimal or hexadecimal format. For example English (United States) can be specified by -g 0x409 or -g 1033. <br /> | 
@@ -201,10 +201,9 @@ rc [-h|-?] -fm mui_res_name [-q rc_config_file_name] [-g langid] [-g1 ] [-g2 ver
 
 
 
-
-| 
-|
-| -h|-? | Shows help screen. | 
+|Option|Function|
+|----|----| 
+| -h or -? | Shows help screen. | 
 | -fm | Uses the specified resource file for language-specific resources. Normally the resource compiler creates a language-specific resource file. However, it does not create the file if any of the following conditions exist:<br /><ul><li>There are no localizable resources in the .rc file.</li><li>The only resource language found in the .rc file is the neutral language.</li><li>The .rc file has resources for more than one language, not counting the neutral language. If the .rc file contains resources for two languages, and one of them is the neutral language, the compiler considers the file to be monolingual. If there are any localizable resources, the compiler creates a language-specific resource file.</li></ul> | 
 | -q | Uses the specified resource configuration file to obtain the resource types to place in the language-specific resource file and the LN file. For more information, see <a href="preparing-a-resource-configuration-file.md">Preparing a Resource Configuration File</a>. As an alternative to this switch, you can use the -j and -k switches, but it is preferred to use a resource configuration file. <br /> By using the -q switch with a resource configuration file, you can implement an item-based split and provide attributes that will end up with the binary resource configuration in the LN and language-specific resource file. This split is not possible using the -j and -k switches.<blockquote>[!Note]<br />The RC Compiler split process does not work properly if you store resources and version information in different resource configuration files. In this case, RC Compiler does not split the version information. Therefore a linker error occurs during linking of the language-specific resource file because the file does not have version resources.</blockquote><br /><br /> | 
 | -g | Specifies the ultimate <a href="language-identifiers.md">fallback language</a> identifier in hexadecimal.<br /> | 

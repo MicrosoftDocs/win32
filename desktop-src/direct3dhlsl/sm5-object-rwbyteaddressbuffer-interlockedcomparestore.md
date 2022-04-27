@@ -1,6 +1,6 @@
 ---
 title: RWByteAddressBuffer::InterlockedCompareStore function
-description: Ccompares the input to the comparison value, atomically.
+description: Compares the input to the comparison value, atomically.
 ms.assetid: d82a73b6-24a5-4eb3-9f20-15ba263c93d0
 keywords:
 - InterlockedCompareStore function HLSL
@@ -17,7 +17,7 @@ api_location:
 
 # InterlockedCompareStore function
 
-Ccompares the input to the comparison value, atomically.
+Compares the input to the comparison value, atomically.
 
 ## Syntax
 

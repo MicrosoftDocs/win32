@@ -30,7 +30,7 @@ The following items identify the differences between version 0 and version 1 pro
 
     The following element types are valid for a SafeArray in a serialized property set:
 
-    | <!--tabular list: col headers unnecessary-->  ||||
+    |<!--tabular list: col headers unnecessary--> &nbsp; |  &nbsp;        |     &nbsp;        |  &nbsp;         | 
     |-------------|----------|-------------|-----------|
     | VT_I1       | VT_UI1   | VT_I2       | VT_UI2    |
     | VT_I4       | VT_UI4   | VT_INT      | VT_UINT   |

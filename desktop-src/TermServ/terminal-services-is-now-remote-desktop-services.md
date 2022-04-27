@@ -4,7 +4,8 @@ description: In Windows Server 2008 R2, Terminal Services has been named to Remo
 ms.assetid: 49f9e9fe-987d-43fc-9f36-642842f18aa9
 ms.tgt_platform: multiple
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 01/25/2022
+ms.custom: seo-windows-dev
 ---
 
 # Terminal Services has been renamed

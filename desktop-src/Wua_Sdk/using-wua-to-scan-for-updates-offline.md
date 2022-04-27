@@ -32,7 +32,7 @@ The following example uses the Wsusscn2.cab file to scan a computer and displays
 ```VB
 Set UpdateSession = CreateObject("Microsoft.Update.Session")
 Set UpdateServiceManager = CreateObject("Microsoft.Update.ServiceManager")
-Set UpdateService = UpdateServiceManager.AddScanPackageService("Offline Sync Service", "c:\wsusscn2.cab", 1)
+Set UpdateService = UpdateServiceManager.AddScanPackageService("Offline Sync Service", "c:\wsusscn2.cab")
 Set UpdateSearcher = UpdateSession.CreateUpdateSearcher()
 
 WScript.Echo "Searching for updates..." & vbCRLF

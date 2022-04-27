@@ -1,5 +1,5 @@
 ---
-description: Appendix 2: Test Script Scenarios
+description: Appendix 2 Test Script Scenarios
 ms.assetid: BDF7CF8D-26B0-4B4D-AF7D-9DC64B4667F0
 title: 'Appendix 2: Test Script Scenarios'
 ms.topic: article

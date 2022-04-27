@@ -1,5 +1,5 @@
 ---
-description: Shell.FindComputer method - 'Displays the Search Results: Computers dialog box. The dialog box shows the result of the search for a specified computer.'
+description: The Shell.FindComputer method displays the Search Results Computers dialog box. The dialog box shows the result of the search for a specified computer.
 ms.assetid: 0304b955-afde-4de4-824a-9ec9c9530360
 title: Shell.FindComputer method (Shldisp.h)
 ms.topic: reference

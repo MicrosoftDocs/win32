@@ -4,7 +4,7 @@ ms.assetid: 20863e0d-05a8-42a5-aa6e-16c2724a9778
 title: Windows Installer Error Messages (for Developers)
 ms.topic: article
 ms.date: 09/11/2020
-ms.custom: contperf-fy21q1
+ms.custom: contperf-fy21q1, seo-windows-dev
 ---
 
 # Windows Installer Error Messages (for Developers)

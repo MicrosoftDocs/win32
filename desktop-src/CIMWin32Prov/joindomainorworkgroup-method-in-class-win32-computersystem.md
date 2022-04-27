@@ -329,7 +329,7 @@ The parameter is incorrect.
 **110**
 </dt> <dd>
 
-he system cannot open the specified object.
+The system cannot open the specified object.
 
 </dd> <dt>
 

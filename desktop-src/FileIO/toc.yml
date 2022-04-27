@@ -1041,7 +1041,7 @@
         - name: "Wow64DisableWow64FsRedirection"
           href: /windows/desktop/api/wow64apiset/nf-wow64apiset-wow64disablewow64fsredirection
         - name: "Wow64EnableWow64FsRedirection"
-          href: /windows/desktop/api/WinBase/nf-winbase-wow64enablewow64fsredirection
+          href: /windows/win32/api/wow64apiset/nf-wow64apiset-wow64enablewow64fsredirection
         - name: "Wow64RevertWow64FsRedirection"
           href: /windows/desktop/api/wow64apiset/nf-wow64apiset-wow64revertwow64fsredirection
         - name: "WriteEncryptedFileRaw"

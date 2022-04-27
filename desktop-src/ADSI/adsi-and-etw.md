@@ -59,8 +59,8 @@ These flags determine which [ADSI](active-directory-service-interfaces-adsi.md) 
 
 
 
-| 
-|
+|Flag |Method |
+|--|--|
 | <strong>DEBUG_SCHEMA</strong><br /> | <ul><li>LdapGetSchema</li><li>GetSchemaInfoTime</li><li>LdapReadSchemaInfoFromServer</li><li>ProcessSchemaInfo</li><li>HelperReadLdapSchemaInfo</li><li>ProcessClassInfoArray</li><li>ReadSchemaInfoFromRegistry</li><li>StoreSchemaInfoFromRegistry</li><li>AttributeTypeDescription</li><li>ObjectClassDescription</li><li>DITContentRuleDescription</li><li>DirectoryString</li><li>DirectoryStrings</li><li>DITContentRuleDescription</li></ul><br /> | 
 | <strong>DEBUG_CHANGEPWD</strong><br /> | <ul><li>CADsUser::ChangePassword</li></ul><br /> | 
 | <strong>DEBUG_SETPWD</strong><br /> | <ul><li>CADsUser::SetPassword</li></ul><br /> | 

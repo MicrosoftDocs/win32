@@ -17,7 +17,7 @@ This topic is organized as follows:
 
 -   [Canonical Verbs](#canonical-verbs)
 -   [Extended Verbs](#extended-verbs)
--   [Programmatic Access Only Verbs](#programmaticaccessonly-verbs)
+-   [Programmatic Access Only Verbs](#programmatic-access-only-verbs)
 -   [Customizing a Shortcut Menu Using Static Verbs](#customizing-a-shortcut-menu-using-static-verbs)
     -   [Activating Your Handler Using the IDropTarget Interface](#activating-your-handler-using-the-idroptarget-interface)
     -   [Specifying the Position and Order of Static Verbs](#specifying-the-position-and-order-of-static-verbs)
@@ -59,7 +59,7 @@ When the user right-clicks an object, the shortcut menu displays the default ver
 
 You can use the registry to define one or more extended verbs. The associated commands will be displayed only when the user right-clicks an object while also pressing the SHIFT key. To define a verb as extended, add an "extended" **REG\_SZ** value to the verb's subkey. The value should not have any data associated with it.
 
-## Programmatic Access Only
+## Programmatic Access Only Verbs
 
 These verbs are never displayed in a context menu. These can be accessed by using [**ShellExecuteEx**](/windows/desktop/api/Shellapi/nf-shellapi-shellexecuteexa) and specifying the **lpVerb** field of the *pExecInfo* parameter (a [SHELLEXECUTEINFO](/windows/win32/api/shellapi/ns-shellapi-shellexecuteinfoa) object). To define a verb as programmatic access only, add a "ProgrammaticAccessOnly" **REG\_SZ** value to the verb's subkey. The value should not have any data associated with it.
 

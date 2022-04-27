@@ -1,5 +1,5 @@
 ---
-Description: Flag that indicates whether the allocator produces read-only media samples. If TRUE, the allocator produces read-only samples.
+description: Flag that indicates whether the allocator produces read-only media samples. If TRUE, the allocator produces read-only samples.
 ms.assetid: a0824ad8-f9ff-4d0e-ae3c-ec42ed61ae99
 title: CBaseInputPin::m_bReadOnly member (Amfilter.h)
 ms.topic: reference

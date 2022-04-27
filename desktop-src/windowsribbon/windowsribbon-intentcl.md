@@ -72,11 +72,11 @@ The arguments and options for this tool are described in the following table.
 </tr>
 <tr class="even">
 <td>/res:<resourceFile></td>
-<td>Generate a resource file called <resourceFile> that links all image and string resources, the binary markup file, and the header file to the host application at build time. If omitted, a resource file is not generated.</td>
+<td>Generate a resource file called \<resourceFile> that links all image and string resources, the binary markup file, and the header file to the host application at build time. If omitted, a resource file is not generated.</td>
 </tr>
 <tr class="odd">
 <td>/name:<ribbonName></td>
-<td>The resource name for the binary markup file that is logged in the <resourceFile>. The default is APPLICATION_RIBBON.</td>
+<td>The resource name for the binary markup file that is logged in the \<resourceFile>. The default is APPLICATION_RIBBON.</td>
 </tr>
 <tr class="even">
 <td>/W{0\1\2}</td>

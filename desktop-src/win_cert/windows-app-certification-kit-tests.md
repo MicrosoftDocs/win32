@@ -1,6 +1,6 @@
 ---
 title: Windows App Certification Kit tests
-description: Below are test details for certifying dekstop apps.
+description: Below are test details for certifying desktop apps.
 ms.assetid: FA160F46-C266-4F89-B77F-166FEA9ED96B
 ms.topic: article
 ms.date: 05/31/2018
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Windows App Certification Kit tests
 
-Below are test details for certifying dekstop apps. For information, please refer to [Using the Windows App Certification Kit](using-the-windows-app-certification-kit.md).
+Below are test details for certifying desktop apps. For information, please refer to [Using the Windows App Certification Kit](using-the-windows-app-certification-kit.md).
 
 -   [Clean reversible install](#clean-reversible-install)
 -   [Install to the correct folders test](#install-to-the-correct-folders-test)

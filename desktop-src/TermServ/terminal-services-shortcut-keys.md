@@ -24,6 +24,9 @@ There are two different sets of shortcut key combinations you can use on a remot
 | **On the remote computer** | The default key combinations will work only on the remote desktop. You must use the alternate combinations on the local machine. Note that once you close down the Remote Desktop Connection, your local machine will once again use the default windows shortcuts. |
 | **Only when using the full screen** | The default key combinations will work on whichever machine has the full desktop; functionally, this means that the default key combinations work for the local machine, unless you have the Remote Desktop Connection window in full-screen mode. |
 
+> [!NOTE]
+> Keyboard shortcuts and hotkeys will not work in nested Remote Desktop or RemoteApp sessions.
+
 For more user information about Remote Desktop connection, See [How to use Remote Desktop](https://windows.microsoft.com/windows/remote-desktop-connection-faq#1TC=windows-8).
 
 

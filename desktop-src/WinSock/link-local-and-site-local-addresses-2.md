@@ -30,7 +30,7 @@ On Windows XP with SP1, the following command will display the list of IPv6 int
 
 On Windows XP with SP1, the following command will change the site identifier associated with an interface index.
 
-**netsh interface ipv6 set interface <InterfaceIndex or Name> siteid=value**
+**netsh interface ipv6 set interface \<InterfaceIndex or Name\> siteid=value**
 
 On Windows XP, the following older command will also change the site identifier associated with a site-local address to 3.
 
