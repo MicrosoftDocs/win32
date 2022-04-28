@@ -3,7 +3,7 @@ description: The Shell.FindComputer method displays the Search Results Computers
 ms.assetid: 0304b955-afde-4de4-824a-9ec9c9530360
 title: Shell.FindComputer method (Shldisp.h)
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 04/07/2022
 topic_type: 
 - APIRef
 - kbSyntax
