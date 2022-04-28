@@ -1,18 +1,18 @@
 ---
-title: Access Control (Windows Filtering Platform)
+title: Access control (Windows Filtering Platform)
 description: In Windows Filtering Platform (WFP), the Base Filtering Engine (BFE) service implements the standard Windows access control model based on access tokens and security descriptors.
 ms.assetid: 936ad5f0-d5cd-47ed-b9e5-a7d82a4da603
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Access Control (Windows Filtering Platform)
+# Access control (Windows Filtering Platform)
 
 In Windows Filtering Platform (WFP), the Base Filtering Engine (BFE) service implements the standard [Windows access control model](/windows/desktop/SecAuthZ/access-control-model) based on access tokens and security descriptors.
 
-## Access Control Model
+## Access control model
 
-Security descriptors can be specified when adding new WFP objects, such as filters and sub-layers. Security descriptors are managed using the WFP management functions **Fwpm\*GetSecurityInfo0** and **Fwpm\*SetSecurityInfo0**, where **\*** stands for the WFP object's name. These functions are semantically identical to the Windows [**GetSecurityInfo**](/windows/desktop/api/aclapi/nf-aclapi-getsecurityinfo) and [**SetSecurityInfo**](/windows/desktop/api/aclapi/nf-aclapi-setsecurityinfo) functions.
+Security descriptors can be specified when adding new WFP objects, such as filters and sub-layers. Security descriptors are managed using the WFP management functions **Fwpm\*GetSecurityInfo0** and **Fwpm\*SetSecurityInfo0**, where **\*** stands for the WFP object's name. These functions are semantically identical to the Windows [**GetSecurityInfo**](/windows/win32/api/aclapi/nf-aclapi-getsecurityinfo) and [**SetSecurityInfo**](/windows/win32/api/aclapi/nf-aclapi-setsecurityinfo) functions.
 
 > [!Note]  
 > The **Fwpm\*SetSecurityInfo0** functions cannot be called from within an explicit transaction.
@@ -43,7 +43,7 @@ For the standard object types, BFE enforces all the generic and standard access 
 
 
 
-| WFP Access Right                                                                                                                        | Description                                                                                                                                                              |
+| WFP Access right                                                                                                                        | Description                                                                                                                                                              |
 |-----------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span id="FWPM_ACTRL_ADD"></span><span id="fwpm_actrl_add"></span>**FWPM\_ACTRL\_ADD**<br/>                                       | Required to add an object to a container.<br/>                                                                                                                     |
 | <span id="FWPM_ACTRL_ADD_LINK"></span><span id="fwpm_actrl_add_link"></span>**FWPM\_ACTRL\_ADD\_LINK**<br/>                       | Required to create an association to an object. For example, to add a filter that references a callout, the caller must have ADD\_LINK access to the callout.<br/> |
@@ -66,7 +66,7 @@ BFE skips all access checks for kernel-mode callers.
 In order to prevent administrators from locking themselves out of BFE, members of the built-in administrators group are always granted **FWPM\_ACTRL\_OPEN** to the engine object. Thus, an administrator can regain access through the following steps.
 
 -   Enable the **SE\_TAKE\_OWNERSHIP\_NAME** privilege.
--   Call [**FwpmEngineOpen0**](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmengineopen0). The call succeeds because the caller is a member of Built-in Administrators.
+-   Call [**FwpmEngineOpen0**](/windows/win32/api/Fwpmu/nf-fwpmu-fwpmengineopen0). The call succeeds because the caller is a member of Built-in Administrators.
 -   Take ownership of the engine object. This succeeds because the caller has the **SE\_TAKE\_OWNERSHIP\_NAME** privilege.
 -   Update the DACL. This succeeds because the owner always has **WRITE\_DAC** access
 
@@ -76,47 +76,33 @@ Since BFE supports its own custom auditing, it does not generate generic object 
 
 The table below shows the access rights required by the WFP functions in order to access various filtering platform objects. The **FwpmFilter\*** functions are listed as an example for accessing the standard objects. All the other functions that access standard objects follow the **FwpmFilter\*** functions access model.
 
-Function | Object Checked | Access Required
+| Function | Object checked | Access required |
 |---|---|---|
-[**FwpmEngineOpen0**](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmengineopen0) | Engine | **FWPM\_ACTRL\_OPEN**
-[**FwpmEngineGetOption0**](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmenginegetoption0) | Engine | **FWPM\_ACTRL\_READ**
-[**FwpmEngineSetOption0**](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmenginesetoption0) | Engine | **FWPM\_ACTRL\_WRITE**
-[**FwpmSessionCreateEnumHandle0**](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmsessioncreateenumhandle0) | Engine | **FWPM\_ACTRL\_ENUM**
-[**FwpmTransactionBegin0**](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmtransactionbegin0) | Engine | **FWPM\_ACTRL\_BEGIN\_READ\_TXN** & **FWPM\_ACTRL\_BEGIN\_WRITE\_TXN**
-[**FwpmFilterAdd0**](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmfilteradd0) | Container Provider<br/> Layer<br/> Sub-Layer<br/> Callout<br/> Provider Context<br/> | **FWPM\_ACTRL\_ADDFWPM\_ACTRL\_ADD\_LINK**<br/> **FWPM\_ACTRL\_ADD\_LINK**<br/> **FWPM\_ACTRL\_ADD\_LINK**<br/> **FWPM\_ACTRL\_ADD\_LINK**<br/> **FWPM\_ACTRL\_ADD\_LINK**<br/>
-[**FwpmFilterDeleteById0**](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmfilterdeletebyid0)<br/>[**FwpmFilterDeleteByKey0**](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmfilterdeletebykey0)<br/> | Filter | **DELETE**
-[**FwpmFilterGetById0**](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmfiltergetbyid0)<br/>[**FwpmFilterGetByKey0**](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmfiltergetbykey0)<br/> | Filter | **FWPM\_ACTRL\_READ**
-[**FwpmFilterCreateEnumHandle0**](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmfiltercreateenumhandle0) | Container Filter<br/> | **FWPM\_ACTRL\_ENUMFWPM\_ACTRL\_READ**<br/>
-[**FwpmFilterSubscribeChanges0**](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmfiltersubscribechanges0) | Container | **FWPM\_ACTRL\_SUBSCRIBE**
-[**FwpmFilterSubscriptionsGet0**](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmfiltersubscriptionsget0) | Container | **FWPM\_ACTRL\_READ**
-[**IPsecGetStatistics0**](/windows/desktop/api/Fwpmu/nf-fwpmu-ipsecgetstatistics0) | IPsec SA DB | **FWPM\_ACTRL\_READ\_STATS**
-[**IPsecSaContextCreate0**](/windows/desktop/api/Fwpmu/nf-fwpmu-ipsecsacontextcreate0)<br/>[**IPsecSaContextGetSpi0**](/windows/desktop/api/Fwpmu/nf-fwpmu-ipsecsacontextgetspi0)<br/> [**IPsecSaContextAddInbound0**](/windows/desktop/api/Fwpmu/nf-fwpmu-ipsecsacontextaddinbound0)<br/> [**IPsecSaContextAddOutbound0**](/windows/desktop/api/Fwpmu/nf-fwpmu-ipsecsacontextaddoutbound0)<br/> | IPsec SA DB | **FWPM\_ACTRL\_ADD**
-[**IPsecSaContextDeleteById0**](/windows/desktop/api/Fwpmu/nf-fwpmu-ipsecsacontextdeletebyid0)<br/>[**IPsecSaContextExpire0**](/windows/desktop/api/Fwpmu/nf-fwpmu-ipsecsacontextexpire0)<br/> | IPsec SA DB | **DELETE**
-[**IPsecSaContextGetById0**](/windows/desktop/api/Fwpmu/nf-fwpmu-ipsecsacontextgetbyid0) | IPsec SA DB | **FWPM\_ACTRL\_READ**
-[**IPsecSaContextCreateEnumHandle0**](/windows/desktop/api/Fwpmu/nf-fwpmu-ipsecsacontextcreateenumhandle0)<br/>[**IPsecSaCreateEnumHandle0**](/windows/desktop/api/Fwpmu/nf-fwpmu-ipsecsacreateenumhandle0)<br/> | IPsec SA DB | **FWPM\_ACTRL\_ENUM** & **FWPM\_ACTRL\_READ**
-[**IkeextGetStatistics0**](/windows/desktop/api/Fwpmu/nf-fwpmu-ikeextgetstatistics0) | IKE SA DB | **FWPM\_ACTRL\_READ\_STATS**
-[**IkeextSaDeleteById0**](/windows/desktop/api/Fwpmu/nf-fwpmu-ikeextsadeletebyid0) | IKE SA DB | **DELETE**
-[**IkeextSaGetById0**](/windows/desktop/api/Fwpmu/nf-fwpmu-ikeextsagetbyid0) | IKE SA DB | **FWPM\_ACTRL\_READ**
-[**IkeextSaCreateEnumHandle0**](/windows/desktop/api/Fwpmu/nf-fwpmu-ikeextsacreateenumhandle0) | IKE SA DB | **FWPM\_ACTRL\_ENUM** & **FWPM\_ACTRL\_READ**
-[**FwpmNetEventCreateEnumHandle0**](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmneteventcreateenumhandle0) | Container | **FWPM\_ACTRL\_ENUM**
-[**FwpmIPsecTunnelAdd0**](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmipsectunneladd0)<br/>[**FwpmIPsecTunnelDeleteByKey0**](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmipsectunneldeletebykey0) | No additional access checks beyond those for the individual filters and provider contexts
-
-
-
- 
+[**FwpmEngineOpen0**](/windows/win32/api/Fwpmu/nf-fwpmu-fwpmengineopen0) | Engine | **FWPM\_ACTRL\_OPEN**
+[**FwpmEngineGetOption0**](/windows/win32/api/Fwpmu/nf-fwpmu-fwpmenginegetoption0) | Engine | **FWPM\_ACTRL\_READ**
+[**FwpmEngineSetOption0**](/windows/win32/api/Fwpmu/nf-fwpmu-fwpmenginesetoption0) | Engine | **FWPM\_ACTRL\_WRITE**
+[**FwpmSessionCreateEnumHandle0**](/windows/win32/api/Fwpmu/nf-fwpmu-fwpmsessioncreateenumhandle0) | Engine | **FWPM\_ACTRL\_ENUM**
+[**FwpmTransactionBegin0**](/windows/win32/api/Fwpmu/nf-fwpmu-fwpmtransactionbegin0) | Engine | **FWPM\_ACTRL\_BEGIN\_READ\_TXN** & **FWPM\_ACTRL\_BEGIN\_WRITE\_TXN**
+[**FwpmFilterAdd0**](/windows/win32/api/Fwpmu/nf-fwpmu-fwpmfilteradd0) | Container Provider<br/> Layer<br/> Sub-Layer<br/> Callout<br/> Provider Context<br/> | **FWPM\_ACTRL\_ADDFWPM\_ACTRL\_ADD\_LINK**<br/> **FWPM\_ACTRL\_ADD\_LINK**<br/> **FWPM\_ACTRL\_ADD\_LINK**<br/> **FWPM\_ACTRL\_ADD\_LINK**<br/> **FWPM\_ACTRL\_ADD\_LINK**<br/>
+[**FwpmFilterDeleteById0**](/windows/win32/api/Fwpmu/nf-fwpmu-fwpmfilterdeletebyid0)<br/>[**FwpmFilterDeleteByKey0**](/windows/win32/api/Fwpmu/nf-fwpmu-fwpmfilterdeletebykey0)<br/> | Filter | **DELETE**
+[**FwpmFilterGetById0**](/windows/win32/api/Fwpmu/nf-fwpmu-fwpmfiltergetbyid0)<br/>[**FwpmFilterGetByKey0**](/windows/win32/api/Fwpmu/nf-fwpmu-fwpmfiltergetbykey0)<br/> | Filter | **FWPM\_ACTRL\_READ**
+[**FwpmFilterCreateEnumHandle0**](/windows/win32/api/Fwpmu/nf-fwpmu-fwpmfiltercreateenumhandle0) | Container Filter<br/> | **FWPM\_ACTRL\_ENUMFWPM\_ACTRL\_READ**<br/>
+[**FwpmFilterSubscribeChanges0**](/windows/win32/api/Fwpmu/nf-fwpmu-fwpmfiltersubscribechanges0) | Container | **FWPM\_ACTRL\_SUBSCRIBE**
+[**FwpmFilterSubscriptionsGet0**](/windows/win32/api/Fwpmu/nf-fwpmu-fwpmfiltersubscriptionsget0) | Container | **FWPM\_ACTRL\_READ**
+[**IPsecGetStatistics0**](/windows/win32/api/Fwpmu/nf-fwpmu-ipsecgetstatistics0) | IPsec SA DB | **FWPM\_ACTRL\_READ\_STATS**
+[**IPsecSaContextCreate0**](/windows/win32/api/Fwpmu/nf-fwpmu-ipsecsacontextcreate0)<br/>[**IPsecSaContextGetSpi0**](/windows/win32/api/Fwpmu/nf-fwpmu-ipsecsacontextgetspi0)<br/> [**IPsecSaContextAddInbound0**](/windows/win32/api/Fwpmu/nf-fwpmu-ipsecsacontextaddinbound0)<br/> [**IPsecSaContextAddOutbound0**](/windows/win32/api/Fwpmu/nf-fwpmu-ipsecsacontextaddoutbound0)<br/> | IPsec SA DB | **FWPM\_ACTRL\_ADD**
+[**IPsecSaContextDeleteById0**](/windows/win32/api/Fwpmu/nf-fwpmu-ipsecsacontextdeletebyid0)<br/>[**IPsecSaContextExpire0**](/windows/win32/api/Fwpmu/nf-fwpmu-ipsecsacontextexpire0)<br/> | IPsec SA DB | **DELETE**
+[**IPsecSaContextGetById0**](/windows/win32/api/Fwpmu/nf-fwpmu-ipsecsacontextgetbyid0) | IPsec SA DB | **FWPM\_ACTRL\_READ**
+[**IPsecSaContextCreateEnumHandle0**](/windows/win32/api/Fwpmu/nf-fwpmu-ipsecsacontextcreateenumhandle0)<br/>[**IPsecSaCreateEnumHandle0**](/windows/win32/api/Fwpmu/nf-fwpmu-ipsecsacreateenumhandle0)<br/> | IPsec SA DB | **FWPM\_ACTRL\_ENUM** & **FWPM\_ACTRL\_READ**
+[**IkeextGetStatistics0**](/windows/win32/api/Fwpmu/nf-fwpmu-ikeextgetstatistics0) | IKE SA DB | **FWPM\_ACTRL\_READ\_STATS**
+[**IkeextSaDeleteById0**](/windows/win32/api/Fwpmu/nf-fwpmu-ikeextsadeletebyid0) | IKE SA DB | **DELETE**
+[**IkeextSaGetById0**](/windows/win32/api/Fwpmu/nf-fwpmu-ikeextsagetbyid0) | IKE SA DB | **FWPM\_ACTRL\_READ**
+[**IkeextSaCreateEnumHandle0**](/windows/win32/api/Fwpmu/nf-fwpmu-ikeextsacreateenumhandle0) | IKE SA DB | **FWPM\_ACTRL\_ENUM** & **FWPM\_ACTRL\_READ**
+[**FwpmNetEventCreateEnumHandle0**](/windows/win32/api/Fwpmu/nf-fwpmu-fwpmneteventcreateenumhandle0) | Container | **FWPM\_ACTRL\_ENUM**
+[**FwpmIPsecTunnelAdd0**](/windows/win32/api/Fwpmu/nf-fwpmu-fwpmipsectunneladd0)<br/>[**FwpmIPsecTunnelDeleteByKey0**](/windows/win32/api/Fwpmu/nf-fwpmu-fwpmipsectunneldeletebykey0) | No additional access checks beyond those for the individual filters and provider contexts
 
 ## Related topics
 
-<dl> <dt>
-
-[**Standard Access Rights**](/windows/desktop/SecAuthZ/standard-access-rights)
-</dt> <dt>
-
-[Windows access control model](/windows/desktop/SecAuthZ/access-control-model)
-</dt> <dt>
-
-[**Windows Filtering Platform Access Rights Identifiers**](access-right-identifiers.md)
-</dt> </dl>
-
- 
-
+* [**Standard Access Rights**](/windows/desktop/SecAuthZ/standard-access-rights)
+* [Windows access control model](/windows/desktop/SecAuthZ/access-control-model)
+* [**Windows Filtering Platform Access Rights Identifiers**](access-right-identifiers.md)
