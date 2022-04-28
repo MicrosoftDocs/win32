@@ -4,19 +4,22 @@ ms.assetid: 96399801-dd80-4e9a-a5c3-c5d41eb9368a
 title: ID3DXMATRIXStack::TranslateLocal method (D3DX10.h)
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - ID3DXMATRIXStack.TranslateLocal
-api_type: 
+api_type:
 - COM
-api_location: 
+api_location:
 - D3DX10.lib
 - D3DX10.dll
 ---
 
 # ID3DXMATRIXStack::TranslateLocal method (D3DX10.h)
+
+> [!Note]
+> The D3DX10 utility library is deprecated. We recommend that you use [DirectXMath](../dxmath/directxmath-portal.md) instead along with this header from [GitHub](https://github.com/microsoft/DirectXMath/tree/main/MatrixStack).
 
 Determines the product of the computed translation matrix determined by the given factors (x, y, and z) and the current matrix.
 
