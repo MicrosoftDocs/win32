@@ -8,6 +8,8 @@ ms.date: 05/31/2018
 
 # D3DXMATRIX Extensions
 
+> [!Note]
+> The D3DX utility library is deprecated. We recommend that you use [DirectXMath](../dxmath/pg-xnamath-migration-d3dx.md) instead.
 
 
 | Type              | Extension                          |
@@ -30,6 +32,3 @@ The content for this page has been consolidated with the [**D3DXMATRIX**](d3dxma
  
 
  
-
-
-
