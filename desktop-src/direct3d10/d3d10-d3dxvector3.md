@@ -4,18 +4,21 @@ ms.assetid: d170cd26-d705-4a31-82b3-f9ea070b6ca4
 title: D3DXVECTOR3 structure (D3DX10Math.h)
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DXVECTOR3
-api_type: 
+api_type:
 - HeaderDef
-api_location: 
+api_location:
 - D3DX10Math.h
 ---
 
 # D3DXVECTOR3 structure (D3DX10Math.h)
+
+> [!Note]
+> The D3DX10 utility library is deprecated. We recommend that you use [DirectXMath](../dxmath/pg-xnamath-migration-d3dx.md) instead.
 
 Describes a three-component vector including operator overloads and type casts.
 
@@ -117,7 +120,7 @@ public:
 #else //!__cplusplus
 typedef struct _D3DVECTOR D3DXVECTOR3, *LPD3DXVECTOR3;
 #endif //!__cplusplus
-        
+
 ```
 
 

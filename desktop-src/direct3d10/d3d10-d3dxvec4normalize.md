@@ -4,18 +4,21 @@ ms.assetid: ed3c48cf-4985-4ef3-b733-f8532e3ff6b5
 title: D3DXVec4Normalize function (D3DX10Math.h)
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DXVec4Normalize
-api_type: 
+api_type:
 - HeaderDef
-api_location: 
+api_location:
 - D3DX10Math.h
 ---
 
 # D3DXVec4Normalize function (D3DX10Math.h)
+
+> [!Note]
+> The D3DX10 utility library is deprecated. We recommend that you use [DirectXMath](../dxmath/pg-xnamath-migration-d3dx.md) instead.
 
 Returns the normalized version of a 4D vector.
 

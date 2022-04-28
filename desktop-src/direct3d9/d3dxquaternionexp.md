@@ -4,19 +4,22 @@ ms.assetid: 648aeaf1-ead3-4b21-819f-cd2a70881a13
 title: D3DXQuaternionExp function (D3dx9math.h)
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DXQuaternionExp
-api_type: 
+api_type:
 - LibDef
-api_location: 
+api_location:
 - d3dx9.lib
 - d3dx9.dll
 ---
 
 # D3DXQuaternionExp function (D3dx9math.h)
+
+> [!Note]
+> The D3DX utility library is deprecated. We recommend that you use [DirectXMath](../dxmath/pg-xnamath-migration-d3dx.md) instead.
 
 Calculates the exponential.
 
@@ -67,8 +70,8 @@ This method converts a pure quaternion to a unit quaternion. **D3DXQuaternionExp
 
 ```
 Given a pure quaternion defined by:
-q = (0, theta * v); 
-    
+q = (0, theta * v);
+
 This method calculates the exponential result.
 exp(Q) = (cos(theta), sin(theta) * v)
 ```
@@ -110,7 +113,3 @@ Use [**D3DXQuaternionNormalize**](d3dxquaternionnormalize.md) for any quaternion
  
 
  
-
-
-
-

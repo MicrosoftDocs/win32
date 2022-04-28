@@ -4,18 +4,21 @@ ms.assetid: c6348346-f317-48ed-a369-e39fdb4dc1d6
 title: D3DXVECTOR4 structure (D3DX10Math.h)
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DXVECTOR4
-api_type: 
+api_type:
 - HeaderDef
-api_location: 
+api_location:
 - D3DX10Math.h
 ---
 
 # D3DXVECTOR4 structure (D3DX10Math.h)
+
+> [!Note]
+> The D3DX10 utility library is deprecated. We recommend that you use [DirectXMath](../dxmath/pg-xnamath-migration-d3dx.md) instead.
 
 Describes a four-component vector including operator overloads and type casts.
 
@@ -128,7 +131,7 @@ public:
 #endif //__cplusplus
     FLOAT x, y, z, w;
 } D3DXVECTOR4, *LPD3DXVECTOR4;
-        
+
 ```
 
 

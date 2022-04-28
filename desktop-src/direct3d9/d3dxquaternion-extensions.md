@@ -4,18 +4,21 @@ ms.assetid: a49975a4-a9a7-4183-91b3-3d56f70747ef
 title: D3DXQUATERNION Extensions (D3dx9math.h)
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DXQUATERNION
-api_type: 
+api_type:
 - HeaderDef
-api_location: 
+api_location:
 - d3dx9math.h
 ---
 
 # D3DXQUATERNION Extensions
+
+> [!Note]
+> The D3DX utility library is deprecated. We recommend that you use [DirectXMath](../dxmath/pg-xnamath-migration-d3dx.md) instead.
 
 Supplies the following operator overloads and type casts for [**D3DXQUATERNION**](d3dxquaternion.md) structures.
 
@@ -90,7 +93,3 @@ Operator overloads and type casts for this structure are implemented in d3dx9mat
  
 
  
-
-
-
-
