@@ -19,15 +19,13 @@ ms.date: 05/31/2018
 
 # D3DX11SHProjectCubeMap function
 
-> [!Note]  
-> The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
+> [!Note]
+> The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated and is not supported for Windows Store apps.
 
- 
+> [!Note]
+> Instead of using this function, we recommend that you use the [Spherical Harmonics Math](https://github.com/Microsoft/DirectXMath/tree/master/SHMath) library function **SHProjectCubeMap**.
 
-> [!Note]  
-> Instead of using this function, we recommend that you use the [Spherical Harmonics Math](https://github.com/Microsoft/DirectXMath/tree/master/SHMath) library, **SHProjectCubeMap**.
 
- 
 
 Projects a function represented in a cube map into spherical harmonics.
 
@@ -51,7 +49,7 @@ HRESULT D3DX11SHProjectCubeMap(
 
 <dl> <dt>
 
-*pContext* 
+*pContext*
 </dt> <dd>
 
 Type: **[**ID3D11DeviceContext**](/windows/desktop/api/D3D11/nn-d3d11-id3d11devicecontext)\***
@@ -60,7 +58,7 @@ A pointer to an [**ID3D11DeviceContext**](/windows/desktop/api/D3D11/nn-d3d11-id
 
 </dd> <dt>
 
-*Order* 
+*Order*
 </dt> <dd>
 
 Type: **[**UINT**](/windows/desktop/WinProg/windows-data-types)**
@@ -69,7 +67,7 @@ Order of the SH evaluation, generates Order^2 coefficients whose degree is Order
 
 </dd> <dt>
 
-*pCubeMap* 
+*pCubeMap*
 </dt> <dd>
 
 Type: **[**ID3D11Texture2D**](/windows/desktop/api/D3D11/nn-d3d11-id3d11texture2d)\***
@@ -78,7 +76,7 @@ A pointer to an [**ID3D11Texture2D**](/windows/desktop/api/D3D11/nn-d3d11-id3d11
 
 </dd> <dt>
 
-*pROut* 
+*pROut*
 </dt> <dd>
 
 Type: **[**FLOAT**](/windows/desktop/WinProg/windows-data-types)\***
@@ -87,7 +85,7 @@ Output SH vector for red.
 
 </dd> <dt>
 
-*pGOut* 
+*pGOut*
 </dt> <dd>
 
 Type: **[**FLOAT**](/windows/desktop/WinProg/windows-data-types)\***
@@ -96,7 +94,7 @@ Output SH vector for green.
 
 </dd> <dt>
 
-*pBOut* 
+*pBOut*
 </dt> <dd>
 
 Type: **[**FLOAT**](/windows/desktop/WinProg/windows-data-types)\***
@@ -128,6 +126,3 @@ The return value is one of the values listed in [Direct3D 11 Return Codes](d3d11
 
 [D3DX Functions](d3d11-graphics-reference-d3dx11-functions.md)
 </dt> </dl>
-
- 
-
