@@ -8,6 +8,8 @@
       href: activity-coordinator-api-and-terminology.md
     - name: "Choose the right Activity Coordinator policy"
       href: choosing-the-right-activity-coordinator-policy.md
+    - name: "Activity Coordinator example project"
+      href: activity-coordinator-example-project.md
   - name: "Activity Coordinator API Functions"
     href: activity-coordinator-api-functions.md
     items: 

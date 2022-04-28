@@ -37,3 +37,5 @@ Developers can choose from a set of template policies and configure their own cu
 [Activity Coordinator API and terminology](activity-coordinator-api-and-terminology.md)
 
 [Choosing the right Activity Coordinator policy](choosing-the-right-activity-coordinator-policy.md)
+
+[Activity Coordinator example project](activity-coordinator-example-project.md)

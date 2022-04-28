@@ -45,3 +45,5 @@ Developers who require full control can start from an empty policy: **ACTIVITY_C
 [Activity Coordinator API overview](activity-coordinator-api-overview.md)
 
 [Activity Coordinator API and terminology](activity-coordinator-api-and-terminology.md)
+
+[Activity Coordinator example project](activity-coordinator-example-project.md)

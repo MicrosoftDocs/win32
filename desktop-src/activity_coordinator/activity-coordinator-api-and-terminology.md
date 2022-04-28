@@ -68,3 +68,5 @@ For a more custom developer scenario,
 [Activity Coordinator API overview](activity-coordinator-api-overview.md)
 
 [Choosing the right Activity Coordinator policy](choosing-the-right-activity-coordinator-policy.md)
+
+[Activity Coordinator example project](activity-coordinator-example-project.md)
