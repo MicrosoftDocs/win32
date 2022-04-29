@@ -1,12 +1,12 @@
 ---
 description: The native Activity Coordinator API includes the following functions.
 ms.assetid: e6d86000-1bd3-4de5-87e9-d9bc7f47be8c
-title: Activity Coordinator API Functions
+title: Activity Coordinator API functions
 ms.topic: article
 ms.date: 04/27/2022
 ---
 
-# Activity Coordinator API Functions
+# Activity Coordinator API functions
 
 The native Activity Coordinator API includes the following functions.
 
@@ -25,4 +25,4 @@ The native Activity Coordinator API includes the following functions.
 
 ## Related topics
 
-[Activity Coordinator API Enumerations](activity-coordinator-api-enumerations.md)
+[Activity Coordinator API enumerations](activity-coordinator-api-enumerations.md)

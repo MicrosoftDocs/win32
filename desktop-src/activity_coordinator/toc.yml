@@ -1,7 +1,7 @@
 - name: "Activity Coordinator API"
   href: -activity-coordinator-portal.md
   items: 
-  - name: "Activity Coordinator API Overview"
+  - name: "Activity Coordinator API overview"
     href: activity-coordinator-api-overview.md
     items: 
     - name: "Activity Coordinator API and terminology"
@@ -10,7 +10,7 @@
       href: choosing-the-right-activity-coordinator-policy.md
     - name: "Activity Coordinator example project"
       href: activity-coordinator-example-project.md
-  - name: "Activity Coordinator API Functions"
+  - name: "Activity Coordinator API functions"
     href: activity-coordinator-api-functions.md
     items: 
     - name: "CreateActivityCoordinatorPolicy"
@@ -37,7 +37,7 @@
       href: /windows/win32/api/activitycoordinator/nf-activitycoordinator-subscribeactivitycoordinatorpolicy.md
     - name: "UnsubscribeActivityCoordinatorPolicy"
       href: /windows/win32/api/activitycoordinator/nf-activitycoordinator-unsubscribeactivitycoordinatorpolicy.md
-  - name: "Activity Coordinator API Enumerations"
+  - name: "Activity Coordinator API enumerations"
     href: activity-coordinator-api-enumerations.md
     items: 
     - name: "ACTIVITY_COORDINATOR_CONDITION"

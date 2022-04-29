@@ -1,5 +1,5 @@
 ---
-description: Review some advice for choosing the right Activity Coordinator policy.
+description: Recommendations to help choose the best Activity Coordinator policy.
 ms.assetid: 512db72e-5153-4dad-a65c-831a05ab5b1c
 title: Choose the right Activity Coordinator policy
 ms.topic: article

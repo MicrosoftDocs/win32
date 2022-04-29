@@ -1,12 +1,12 @@
 ---
 description: A simple example project for the Activity Coordinator API.
 ms.assetid: 722acf59-ee17-4033-b191-cb0bf53e22ae
-title: Activity Coordinator Example Project
+title: Activity Coordinator example project
 ms.topic: article
 ms.date: 04/28/2022
 ---
 
-# Activity Coordinator Example Project
+# Activity Coordinator example project
 
 ## Example project overview
 
