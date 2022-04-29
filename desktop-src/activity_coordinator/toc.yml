@@ -19,18 +19,6 @@
       href: /windows/win32/api/activitycoordinator/nf-activitycoordinator-destroyactivitycoordinatorpolicy.md
     - name: "GetActivityCoordinatorPolicyResourceCondition"
       href: /windows/win32/api/activitycoordinator/nf-activitycoordinator-getactivitycoordinatorpolicyresourcecondition.md
-    - name: "IsCreateActivityCoordinatorPolicyPresent"
-      href: /windows/win32/api/activitycoordinator/nf-activitycoordinator-iscreateactivitycoordinatorpolicypresent.md
-    - name: "IsDestroyActivityCoordinatorPolicyPresent"
-      href: /windows/win32/api/activitycoordinator/nf-activitycoordinator-isdestroyactivitycoordinatorpolicypresent.md
-    - name: "IsGetActivityCoordinatorPolicyResourceConditionPresent"
-      href: /windows/win32/api/activitycoordinator/nf-activitycoordinator-isgetactivitycoordinatorpolicyresourceconditionpresent.md
-    - name: "IsSetActivityCoordinatorPolicyResourceConditionPresent"
-      href: /windows/win32/api/activitycoordinator/nf-activitycoordinator-issetactivitycoordinatorpolicyresourceconditionpresent.md
-    - name: "IsSubscribeActivityCoordinatorPolicyPresent"
-      href: /windows/win32/api/activitycoordinator/nf-activitycoordinator-issubscribeactivitycoordinatorpolicypresent.md
-    - name: "IsUnsubscribeActivityCoordinatorPolicyPresent"
-      href: /windows/win32/api/activitycoordinator/nf-activitycoordinator-isunsubscribeactivitycoordinatorpolicypresent.md
     - name: "SetActivityCoordinatorPolicyResourceCondition"
       href: /windows/win32/api/activitycoordinator/nf-activitycoordinator-setactivitycoordinatorpolicyresourcecondition.md
     - name: "SubscribeActivityCoordinatorPolicy"

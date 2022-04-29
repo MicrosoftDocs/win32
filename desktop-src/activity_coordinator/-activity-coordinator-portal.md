@@ -22,6 +22,6 @@ The Activity Coordinator API is available beginning with Win11_NEXT.
 
 ## In this section
 
-- [Activity Coordinator Overview](activity-coordinator-api-overview.md)
-- [Activity Coordinator API Functions](activity-coordinator-api-functions.md)
-- [Activity Coordinator API Enumerations](activity-coordinator-api-enumerations.md)
+- [Activity Coordinator overview](activity-coordinator-api-overview.md)
+- [Activity Coordinator API functions](activity-coordinator-api-functions.md)
+- [Activity Coordinator API enumerations](activity-coordinator-api-enumerations.md)
