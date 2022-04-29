@@ -1231,10 +1231,10 @@
       items: 
       - name: "SaferiSearchMatchingHashRules"
         href: saferisearchmatchinghashrules.md
-    - name: "Windows Security Center"
+    - name: "Windows Security app"
       href: windows-security-center.md
       items: 
-      - name: "Windows Security Center Enumerations"
+      - name: "Windows Security app enumerations"
         href: windows-security-center-enumerations.md
         items: 
         - name: "WSC_SECURITY_PRODUCT_STATE"
@@ -1245,7 +1245,7 @@
           href: /windows/win32/api/Wscapi/ne-wscapi-wsc_security_provider_health
         - name: "WSC_SECURITY_SIGNATURE_STATUS"
           href: /windows/win32/api/Iwscapi/ne-iwscapi-wsc_security_signature_status
-      - name: "Windows Security Center Interfaces"
+      - name: "Windows Security app interfaces"
         href: windows-security-center-interfaces.md
         items: 
         - name: "IWscProduct"
