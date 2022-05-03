@@ -119,15 +119,3 @@ To enumerate all cipher suites supported by the SSL provider, call the **SslEnum
 | Header<br/>                   | <dl> <dt>Sslprovider.h</dt> </dl> |
 | Library<br/>                  | <dl> <dt>Ncrypt.lib</dt> </dl>    |
 | DLL<br/>                      | <dl> <dt>Ncrypt.dll</dt> </dl>    |
-
-
-
-## See also
-
-<dl> <dt>
-
-[**NCRYPT\_SSL\_CIPHER\_SUITE**](https://www.bing.com/search?q=**NCRYPT\_SSL\_CIPHER\_SUITE**)
-</dt> </dl>
-
- 
-
