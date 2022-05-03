@@ -3,7 +3,7 @@ title: Package query API
 description: Learn about the package query API, which you can use to get info about the app packages installed on the system. Each app package contains the files that constitute a Windows app, and a manifest file that describes the software to Windows.
 ms.assetid: EDDFC8B1-E224-4921-BED6-FC81711BA5BF
 ms.topic: article
-ms.date: 04/19/2019
+ms.date: 05/02/2022
 ms.custom: 19H1
 ---
 
@@ -13,80 +13,60 @@ Learn about the package query API, which you can use to get info about the app p
 
 ## In this section
 
-
-
-| Topic                                                                                                 | Description                                                                                                                                                      |
-|-------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**ClosePackageInfo**](/windows/desktop/api/AppModel/nf-appmodel-closepackageinfo)<br/>                                               | Closes a reference to the specified package information.<br/>                                                                                              |
-| [**FindPackagesByPackageFamily**](/windows/desktop/api/AppModel/nf-appmodel-findpackagesbypackagefamily)<br/>                         | Finds the packages with the specified family name for the current user. <br/>                                                                              |
-| [**FormatApplicationUserModelId**](/windows/desktop/api/AppModel/nf-appmodel-formatapplicationusermodelid)<br/>                       | Constructs an [application user model ID](appx-packaging-glossary.md) from the package family name and the package relative application ID (PRAID). <br/> |
-| [**GetApplicationUserModelId**](/windows/desktop/api/Appmodel/nf-appmodel-getapplicationusermodelid)<br/>                             | Gets the [application user model ID](appx-packaging-glossary.md) for the specified process.<br/>                                                          |
-| [**GetApplicationUserModelIdFromToken**](/windows/desktop/api/Appmodel/nf-appmodel-getapplicationusermodelidfromtoken)<br/>           | Gets the [application user model ID](appx-packaging-glossary.md) for the specified token.<br/>                                                            |
-| [**GetCurrentApplicationUserModelId**](/windows/desktop/api/Appmodel/nf-appmodel-getcurrentapplicationusermodelid)<br/>               | Gets the [application user model ID](appx-packaging-glossary.md) for the current process.<br/>                                                            |
-| [**GetCurrentPackageFamilyName**](/windows/desktop/api/AppModel/nf-appmodel-getcurrentpackagefamilyname)<br/>                         | Gets the package family name for the calling process.<br/>                                                                                                 |
-| [**GetCurrentPackageFullName**](/windows/desktop/api/AppModel/nf-appmodel-getcurrentpackagefullname)<br/>                             | Gets the package full name for the calling process.<br/>                                                                                                   |
-| [**GetCurrentPackageId**](/windows/desktop/api/AppModel/nf-appmodel-getcurrentpackageid)<br/>                                         | Gets the package identifier (ID) for the calling process.<br/>                                                                                             |
-| [**GetCurrentPackageInfo**](/windows/desktop/api/AppModel/nf-appmodel-getcurrentpackageinfo)<br/>                                     | Gets the package information for the calling process.<br/>                                                                                                 |
-| [**GetCurrentPackageInfo2**](/windows/desktop/api/AppModel/nf-appmodel-getcurrentpackageinfo2)<br/>                                     | Gets the package information for the calling process, with the option to specify the package folder type.<br/>                                                                                               |
-| [**GetCurrentPackagePath**](/windows/desktop/api/AppModel/nf-appmodel-getcurrentpackagepath)<br/>                                     | Gets the package path for the calling process.<br/>                                                                                                        |
-| [**GetCurrentPackagePath2**](/windows/desktop/api/AppModel/nf-appmodel-getcurrentpackagepath2)<br/>                                     | Gets the package path for the calling process, with the option to specify the package folder type.<br/>                                                                                                        |
-| [**GetPackageApplicationIds**](/windows/desktop/api/AppModel/nf-appmodel-getpackageapplicationids)<br/>                               | Gets the IDs of apps in the specified package.<br/>                                                                                                        |
-| [**GetPackageFamilyName**](/windows/desktop/api/AppModel/nf-appmodel-getpackagefamilyname)<br/>                                       | Gets the package family name for the specified process.<br/>                                                                                               |
-| [**GetPackageFamilyNameFromToken**](/windows/desktop/api/AppModel/nf-appmodel-getpackagefamilynamefromtoken)<br/>                     | Gets the package family name for the specified token.<br/>                                                                                                 |
-| [**GetPackageFullName**](/windows/desktop/api/AppModel/nf-appmodel-getpackagefullname)<br/>                                           | Gets the package full name for the specified process.<br/>                                                                                                 |
-| [**GetPackageFullNameFromToken**](/windows/desktop/api/AppModel/nf-appmodel-getpackagefullnamefromtoken)<br/>                         | Gets the package full name for the specified token.<br/>                                                                                                   |
-| [**GetPackageId**](/windows/desktop/api/AppModel/nf-appmodel-getpackageid)<br/>                                                       | Gets the package identifier (ID) for the specified process.<br/>                                                                                           |
-| [**GetPackageInfo**](/windows/desktop/api/AppModel/nf-appmodel-getpackageinfo)<br/>                                                   | Gets the package information for the specified package.<br/>                                                                                               |
-| [**GetPackageInfo2**](/windows/desktop/api/AppModel/nf-appmodel-getpackageinfo2)<br/>                                                   | Gets the package information for the specified package, with the option to specify the package folder type.<br/>                                                                                               |
-| [**GetPackagePath**](/windows/desktop/api/AppModel/nf-appmodel-getpackagepath)<br/>                                                   | Gets the path for the specified package.<br/>                                                                                                              |
-| [**GetPackagePathByFullName**](/windows/desktop/api/AppModel/nf-appmodel-getpackagepathbyfullname)<br/>                               | Gets the path of the specified package.<br/>                                                                                                               |
-| [**GetPackagePathByFullName2**](/windows/desktop/api/AppModel/nf-appmodel-getpackagepathbyfullname2)<br/>                               | Gets the path of the specified package, with the option to specify the package folder type.<br/>                                                                                                               |
-| [**GetPackagesByPackageFamily**](/windows/desktop/api/AppModel/nf-appmodel-getpackagesbypackagefamily)<br/>                           | Gets the packages with the specified family name for the current user. <br/>                                                                               |
-| [**GetStagedPackageOrigin**](/windows/desktop/api/AppModel/nf-appmodel-getstagedpackageorigin)<br/>                                   | Gets the origin of the specified package.<br/>                                                                                                             |
-| [**GetStagedPackagePathByFullName**](/windows/desktop/api/AppModel/nf-appmodel-getstagedpackagepathbyfullname)<br/>                   | Gets the path of the specified staged package.<br/>                                                                                                        |
-| [**GetStagedPackagePathByFullName2**](/windows/desktop/api/AppModel/nf-appmodel-getstagedpackagepathbyfullname2)<br/>                   | Gets the path of the specified staged package, with the option to specify the package folder type.<br/>                                                                                                        |
-| [**OpenPackageInfoByFullName**](/windows/desktop/api/AppModel/nf-appmodel-openpackageinfobyfullname)<br/>                             | Opens the package information of the specified package.<br/>                                                                                               |
-| [**PackageFamilyNameFromFullName**](/windows/desktop/api/AppModel/nf-appmodel-packagefamilynamefromfullname)<br/>                     | Gets the package family name for the specified package full name.<br/>                                                                                     |
-| [**PackageFamilyNameFromId**](/windows/desktop/api/AppModel/nf-appmodel-packagefamilynamefromid)<br/>                                 | Gets the package family name for the specified package identifier.<br/>                                                                                    |
-| [**PackageFullNameFromId**](/windows/desktop/api/AppModel/nf-appmodel-packagefullnamefromid)<br/>                                     | Gets the package full name for the specified package identifier (ID).<br/>                                                                                 |
-| [**PackageIdFromFullName**](/windows/desktop/api/AppModel/nf-appmodel-packageidfromfullname)<br/>                                     | Gets the package identifier (ID) for the specified package full name.<br/>                                                                                 |
-| [**PackageNameAndPublisherIdFromFamilyName**](/windows/desktop/api/AppModel/nf-appmodel-packagenameandpublisheridfromfamilyname)<br/> | Gets the package name and publisher identifier (ID) for the specified package family name.<br/>                                                            |
-| [**ParseApplicationUserModelId**](/windows/desktop/api/AppModel/nf-appmodel-parseapplicationusermodelid)<br/>                         | Deconstructs an [application user model ID](appx-packaging-glossary.md) to its package family name and package relative application ID (PRAID).<br/>      |
-| [**PackageOrigin**](/windows/desktop/api/AppModel/ne-appmodel-packageorigin)<br/>                                                     | Specifies the origin of a package. <br/>                                                                                                                   |
-| [**Identity constants**](identity-constants.md)<br/>                                           | Specifies the length of the strings for the package's identity fields.<br/>                                                                                |
-| [**Package constants**](package-constants.md)<br/>                                             | Specifies how packages are to be processed.<br/>                                                                                                           |
-| [**PACKAGE\_ID**](/windows/desktop/api/AppModel/ns-appmodel-package_id)<br/>                                                          | Represents package identification information, such as name, version, and publisher.<br/>                                                                  |
-| [**PACKAGE\_INFO**](/windows/desktop/api/AppModel/ns-appmodel-package_info)<br/>                                                      | Represents package identification information that includes the package identifier, full name, and install location.<br/>                                  |
-| [**PACKAGE\_VERSION**](/windows/desktop/api/AppModel/ns-appmodel-package_version)<br/>                                                | Represents the package version information.<br/>                                                                                                           |
-
-
-
- 
+| Topic | Description |
+|-|-|
+| [**ClosePackageInfo**](/windows/win32/api/appmodel/nf-appmodel-closepackageinfo) | Closes a reference to the specified package information. |
+| [**FindPackagesByPackageFamily**](/windows/win32/api/appmodel/nf-appmodel-findpackagesbypackagefamily) | Finds the packages with the specified family name for the current user.  |
+| [**FormatApplicationUserModelId**](/windows/win32/api/appmodel/nf-appmodel-formatapplicationusermodelid) | Constructs an [application user model ID](appx-packaging-glossary.md) from the package family name and the package relative application ID (PRAID).  |
+| [**GetApplicationUserModelId**](/windows/win32/api/Appmodel/nf-appmodel-getapplicationusermodelid) | Gets the [application user model ID](appx-packaging-glossary.md) for the specified process. |
+| [**GetApplicationUserModelIdFromToken**](/windows/win32/api/Appmodel/nf-appmodel-getapplicationusermodelidfromtoken) | Gets the [application user model ID](appx-packaging-glossary.md) for the specified token. |
+| [**GetCurrentApplicationUserModelId**](/windows/win32/api/Appmodel/nf-appmodel-getcurrentapplicationusermodelid) | Gets the [application user model ID](appx-packaging-glossary.md) for the current process. |
+| [**GetCurrentPackageFamilyName**](/windows/win32/api/appmodel/nf-appmodel-getcurrentpackagefamilyname) | Gets the package family name for the calling process. |
+| [**GetCurrentPackageFullName**](/windows/win32/api/appmodel/nf-appmodel-getcurrentpackagefullname) | Gets the package full name for the calling process. |
+| [**GetCurrentPackageId**](/windows/win32/api/appmodel/nf-appmodel-getcurrentpackageid) | Gets the package identifier (ID) for the calling process. |
+| [**GetCurrentPackageInfo**](/windows/win32/api/appmodel/nf-appmodel-getcurrentpackageinfo) | Gets the package information for the calling process. |
+| [**GetCurrentPackageInfo2**](/windows/win32/api/appmodel/nf-appmodel-getcurrentpackageinfo2) | Gets the package information for the calling process, with the option to specify the package folder type. |
+| [**GetCurrentPackageInfo3**](/windows/win32/appxpkg/appmodel/nf-appmodel-getcurrentpackageinfo3) | Gets the package information for the calling process, with the option to specify the package folder type. |
+| [**GetCurrentPackagePath**](/windows/win32/api/appmodel/nf-appmodel-getcurrentpackagepath) | Gets the package path for the calling process. |
+| [**GetCurrentPackagePath2**](/windows/win32/api/appmodel/nf-appmodel-getcurrentpackagepath2) | Gets the package path for the calling process, with the option to specify the package folder type. |
+| [**GetPackageApplicationIds**](/windows/win32/api/appmodel/nf-appmodel-getpackageapplicationids) | Gets the IDs of apps in the specified package. |
+| [**GetPackageFamilyName**](/windows/win32/api/appmodel/nf-appmodel-getpackagefamilyname) | Gets the package family name for the specified process. |
+| [**GetPackageFamilyNameFromToken**](/windows/win32/api/appmodel/nf-appmodel-getpackagefamilynamefromtoken) | Gets the package family name for the specified token. |
+| [**GetPackageFullName**](/windows/win32/api/appmodel/nf-appmodel-getpackagefullname) | Gets the package full name for the specified process. |
+| [**GetPackageFullNameFromToken**](/windows/win32/api/appmodel/nf-appmodel-getpackagefullnamefromtoken) | Gets the package full name for the specified token. |
+| [**GetPackageId**](/windows/win32/api/appmodel/nf-appmodel-getpackageid) | Gets the package identifier (ID) for the specified process. |
+| [**GetPackageInfo**](/windows/win32/api/appmodel/nf-appmodel-getpackageinfo) | Gets the package information for the specified package. |
+| [**GetPackageInfo2**](/windows/win32/api/appmodel/nf-appmodel-getpackageinfo2) | Gets the package information for the specified package, with the option to specify the package folder type. |
+| [**GetPackagePath**](/windows/win32/api/appmodel/nf-appmodel-getpackagepath) | Gets the path for the specified package. |
+| [**GetPackagePathByFullName**](/windows/win32/api/appmodel/nf-appmodel-getpackagepathbyfullname) | Gets the path of the specified package. |
+| [**GetPackagePathByFullName2**](/windows/win32/api/appmodel/nf-appmodel-getpackagepathbyfullname2) | Gets the path of the specified package, with the option to specify the package folder type. |
+| [**GetPackagesByPackageFamily**](/windows/win32/api/appmodel/nf-appmodel-getpackagesbypackagefamily) | Gets the packages with the specified family name for the current user.  |
+| [**GetStagedPackageOrigin**](/windows/win32/api/appmodel/nf-appmodel-getstagedpackageorigin) | Gets the origin of the specified package. |
+| [**GetStagedPackagePathByFullName**](/windows/win32/api/appmodel/nf-appmodel-getstagedpackagepathbyfullname) | Gets the path of the specified staged package. |
+| [**GetStagedPackagePathByFullName2**](/windows/win32/api/appmodel/nf-appmodel-getstagedpackagepathbyfullname2) | Gets the path of the specified staged package, with the option to specify the package folder type. |
+| [**OpenPackageInfoByFullName**](/windows/win32/api/appmodel/nf-appmodel-openpackageinfobyfullname) | Opens the package information of the specified package. |
+| [**PackageFamilyNameFromFullName**](/windows/win32/api/appmodel/nf-appmodel-packagefamilynamefromfullname) | Gets the package family name for the specified package full name. |
+| [**PackageFamilyNameFromId**](/windows/win32/api/appmodel/nf-appmodel-packagefamilynamefromid) | Gets the package family name for the specified package identifier. |
+| [**PackageFullNameFromId**](/windows/win32/api/appmodel/nf-appmodel-packagefullnamefromid) | Gets the package full name for the specified package identifier (ID). |
+| [**PackageIdFromFullName**](/windows/win32/api/appmodel/nf-appmodel-packageidfromfullname) | Gets the package identifier (ID) for the specified package full name. |
+| [**PackageNameAndPublisherIdFromFamilyName**](/windows/win32/api/appmodel/nf-appmodel-packagenameandpublisheridfromfamilyname) | Gets the package name and publisher identifier (ID) for the specified package family name. |
+| [**ParseApplicationUserModelId**](/windows/win32/api/appmodel/nf-appmodel-parseapplicationusermodelid) | Deconstructs an [application user model ID](appx-packaging-glossary.md) to its package family name and package relative application ID (PRAID). |
+| [**PackageOrigin**](/windows/win32/api/appmodel/ne-appmodel-packageorigin) | Specifies the origin of a package.  |
+| [**Identity constants**](identity-constants.md) | Specifies the length of the strings for the package's identity fields. |
+| [**Package constants**](package-constants.md) | Specifies how packages are to be processed. |
+| [**PACKAGE\_ID**](/windows/win32/api/appmodel/ns-appmodel-package_id) | Represents package identification information, such as name, version, and publisher. |
+| [**PACKAGE\_INFO**](/windows/win32/api/appmodel/ns-appmodel-package_info) | Represents package identification information that includes the package identifier, full name, and install location. |
+| [**PACKAGE\_VERSION**](/windows/win32/api/appmodel/ns-appmodel-package_version) | Represents the package version information. |
 
 ## Related topics
 
-<dl> <dt>
+**Conceptual**
 
-**Concepts**
-</dt> <dt>
+* [App packages and deployment](/previous-versions/windows/apps/hh464929(v=win.10))
+* [Glossary](appx-packaging-glossary.md)
 
-[App packages and deployment](/previous-versions/windows/apps/hh464929(v=win.10))
-</dt> <dt>
+**API reference**
 
-[Glossary](appx-packaging-glossary.md)
-</dt> <dt>
-
-**Reference**
-</dt> <dt>
-
-[App package manifest schema](/uwp/schemas/appxpackage/appx-package-manifest)
-</dt> <dt>
-
-[Packaging API](interfaces.md)
-</dt> <dt>
-
-[Package deployment API](package-deployment-api.md)
-</dt> </dl>
-
- 
-
+* [App package manifest schema](/uwp/schemas/appxpackage/appx-package-manifest)
+* [Packaging API](interfaces.md)
+* [Package deployment API](package-deployment-api.md)
