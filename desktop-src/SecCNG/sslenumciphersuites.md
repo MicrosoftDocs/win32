@@ -62,7 +62,7 @@ Set this parameter to **NULL** when you are not specifying a private key.
 *ppCipherSuite* \[out\]
 </dt> <dd>
 
-A pointer to a [**NCRYPT\_SSL\_CIPHER\_SUITE**](https://www.bing.com/search?q=**NCRYPT\_SSL\_CIPHER\_SUITE**) structure to receive the address of the next cipher suite in the list.
+A pointer to a **NCRYPT\_SSL\_CIPHER\_SUITE** structure to receive the address of the next cipher suite in the list.
 
 </dd> <dt>
 
