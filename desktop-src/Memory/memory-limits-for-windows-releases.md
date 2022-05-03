@@ -38,13 +38,13 @@ The following table specifies the limits on physical memory for Windows 11.
 
 
 
-| Version               | Limit on X86    | Limit on X64     | Limit on ARM64     |
-|-----------------------|-----------------|------------------|------------------|
-| Windows 11 Enterprise | 4 GB<br/> | 6 TB<br/>   | 6 TB<br/>   |
-| Windows 11 Education  | 4 GB<br/> | 2 TB<br/>   | 2 TB<br/>   |
-| Windows 11 Pro for Workstations  | 4 GB<br/> | 6 TB<br/>   | 6 TB<br/>   |
-| Windows 11 Pro        | 4 GB<br/> | 2 TB<br/>   | 2 TB<br/>   |
-| Windows 11 Home       | 4 GB<br/> | 128 GB<br/> | 128 GB<br/> |
+| Version               | Limit on X64     | Limit on ARM64     |
+|-----------------------|------------------|------------------|
+| Windows 11 Enterprise | 6 TB<br/>   | 6 TB<br/>   |
+| Windows 11 Education  | 2 TB<br/>   | 2 TB<br/>   |
+| Windows 11 Pro for Workstations  | 6 TB<br/>   | 6 TB<br/>   |
+| Windows 11 Pro        | 2 TB<br/>   | 2 TB<br/>   |
+| Windows 11 Home       | 128 GB<br/> | 128 GB<br/> |
 
 ## Physical Memory Limits: Windows 10
 
