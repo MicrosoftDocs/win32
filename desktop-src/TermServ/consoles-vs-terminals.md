@@ -28,15 +28,38 @@ Win32k and other programs can use WTS APIs like [WTSQuerySessionInformation](/wi
 
 ## What happens when I remote into a machine?
 
-Below is a walkthrough of what typically happens when you Remote Desktop Protocol into a machine.
+Below are examples of how terminals and sessions are related in a common Remote Desktop Protocol (RDP) scenario.
+
+#### The user in front of their computer
+
+:::image type="content" source="images/remote-console-diagram.png" alt-text="Diagram of using console terminal.":::
+
+The user, Bob, is physically at their computer and using the local devices to interact with the session. The console terminal is attached to the session.
+
+#### Using another machine to remote in
+
+:::image type="content" source="images/rdp_scenario_stage1.png" alt-text="Diagram of using a remote terminal.":::
+
+The user is accessing their computer from another location (not shown), so the console terminal is no longer used for their active session. Instead, it is attached to an empty session with the login screen. Unlike remote terminals, the console terminal is never terminated, and so when there is no local user at the device, it is attached to an empty session.
+Because the user is accessing their computer from another location, a remote terminal is instantiated and attached to the session.
+
+#### The user returns to their computer and logs back into the console terminal
+
+:::image type="content" source="images/rdp_scenario_stage2.png" alt-text="Diagram of returning to console terminal after using remote terminal.":::
+
+When users return to their local PC, they use the local inputs and outputs to interface with the session. This means the console terminal has been reattached to the session, and the remote terminal used while remoting in is terminated.
 
 ### Remote terminal lifetime
 
-The Remote Terminal lifetime is similar to the lifetime of the connection from the RDP Client to the RDP Server. If the RDP connection gets broken due to network issues, the Remote Terminal gets disconnected and needs to be established.
+The remote terminal lifetime is similar to the lifetime of the connection from the RDP client to the RDP server. If the RDP connection gets broken due to network issues, the remote terminal gets disconnected and needs to be established.
 
 ### Multiple terminals and sessions
 
 On operating systems like Windows 10 Multisession and Windows Server with the Remote Desktop Session Host (RDSH) role installed, multiple users can be logged in and have a connected terminal like the setup below. In this case, there is still only a single console terminal/session but multiple remote terminals/sessions.
+
+:::image type="content" source="images/rdp_scenario_stage3.png" alt-text="Diagram of remote and a console terminal.":::
+
+In this example, Bob and Abby access the session from a remote location, instantiating a remote terminal to interface with the session. Tom accessed the session locally, which is attached to the console terminal. If Tom were too remote into the computer, their session would be attached to a remote terminal, and the console terminal would be attached to an empty session displaying the login screen.
 
 ### WDDM graphics adapters and terminals
 
