@@ -26,7 +26,7 @@ Learn about the package query API, which you can use to get info about the app p
 | [**GetCurrentPackageId**](/windows/win32/api/appmodel/nf-appmodel-getcurrentpackageid) | Gets the package identifier (ID) for the calling process. |
 | [**GetCurrentPackageInfo**](/windows/win32/api/appmodel/nf-appmodel-getcurrentpackageinfo) | Gets the package information for the calling process. |
 | [**GetCurrentPackageInfo2**](/windows/win32/api/appmodel/nf-appmodel-getcurrentpackageinfo2) | Gets the package information for the calling process, with the option to specify the package folder type. |
-| [**GetCurrentPackageInfo3**](/windows/win32/appxpkg/appmodel/nf-appmodel-getcurrentpackageinfo3) | Gets the package information for the calling process, with the option to specify the package folder type. |
+| [**GetCurrentPackageInfo3**](/windows/win32/appxpkg/appmodel/nf-appmodel-getcurrentpackageinfo3) | Retrieves the package graph's current generation ID. |
 | [**GetCurrentPackagePath**](/windows/win32/api/appmodel/nf-appmodel-getcurrentpackagepath) | Gets the package path for the calling process. |
 | [**GetCurrentPackagePath2**](/windows/win32/api/appmodel/nf-appmodel-getcurrentpackagepath2) | Gets the package path for the calling process, with the option to specify the package folder type. |
 | [**GetPackageApplicationIds**](/windows/win32/api/appmodel/nf-appmodel-getpackageapplicationids) | Gets the IDs of apps in the specified package. |
