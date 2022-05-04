@@ -124,12 +124,8 @@ There are two types of render states:
 
 Effect file render states have names similar to the fixed function pipeline states, often with the prefix removed.
 
-
-
-
-| 
-|
-| Render State | Type | Values | 
+| Render State | Type | Values |
+|-|-|-|
 | AlphaBlendEnable | bool | True or False. Same values as D3DRS_ALPHABLENDENABLE in <a href="/windows/desktop/direct3d9/d3drenderstatetype"><strong>D3DRENDERSTATETYPE</strong></a>. | 
 | AlphaFunc | dword | Same values as <a href="/windows/desktop/direct3d9/d3dcmpfunc"><strong>D3DCMPFUNC</strong></a> without the D3DCMP_ prefix. See D3DRS_ALPHAFUNC. | 
 | AlphaRef | dword | Same values as D3DRS_ALPHAREF. | 
@@ -159,20 +155,12 @@ Effect file render states have names similar to the fixed function pipeline stat
 | ZFunc | dword | Same values as <a href="/windows/desktop/direct3d9/d3dcmpfunc"><strong>D3DCMPFUNC</strong></a> without the D3DCMP_ prefix. See D3DRS_ZFUNC. | 
 | ZWriteEnable | bool | True or False. See D3DRS_ZWRITEENABLE. | 
 
-
-
-
- 
-
 Example:
-
 
 ```
 AlphaBlendEnable = TRUE;
 FillMode = WIREFRAME;
 ```
-
-
 
 This will enable alpha blending and make all geometries render in wireframe.
 
@@ -411,7 +399,3 @@ Set transform states to initialize transformation matrices. Effects use transpos
 
 [Effect Format](dx9-graphics-reference-effects-file-format.md)
 </dt> </dl>
-
- 
-
- 

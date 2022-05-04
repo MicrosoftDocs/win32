@@ -4,19 +4,22 @@ ms.assetid: 99bc636d-f1fd-4ace-a649-6a1a952927e0
 title: ID3DXMATRIXStack::Push method (D3dx9math.h)
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - ID3DXMATRIXStack.Push
-api_type: 
+api_type:
 - COM
-api_location: 
+api_location:
 - d3dx9.lib
 - d3dx9.dll
 ---
 
 # ID3DXMATRIXStack::Push method (D3dx9math.h)
+
+> [!Note]
+> The D3DX utility library is deprecated. We recommend that you use [DirectXMath](../dxmath/directxmath-portal.md) instead along with this header from [GitHub](https://github.com/microsoft/DirectXMath/tree/main/MatrixStack).
 
 Adds a matrix to the stack.
 
@@ -70,7 +73,3 @@ This method increments the count of items on the stack by 1, duplicating the cur
  
 
  
-
-
-
-

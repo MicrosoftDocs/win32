@@ -14,7 +14,7 @@ Bluetooth provides programming definitions in the Ws2bth.h and BluetoothAPIs.h f
 
 All standard synchronous and overlapped mechanisms to read and write data that are currently supported with other address families operate properly with the AF\_BTH address family as well.
 
-There is some example code included with the SDK that shows a simple Bluetooth application using Winsock 2.2 and RFCOMM protocol. The source code for the sample can be found in the SDK installation location under C:\\Program Files\\Microsoft SDKs\\Windows\\<version number>\\Samples\\NetDs\\winsock\\Bluetooth.
+There is some example code included with the SDK that shows a simple Bluetooth application using Winsock 2.2 and RFCOMM protocol. The source code for the sample can be found in the SDK installation location under C:\\Program Files\\Microsoft SDKs\\Windows\\\<version number\>\\Samples\\NetDs\\winsock\\Bluetooth.
 
 This section describes the following topics.
 

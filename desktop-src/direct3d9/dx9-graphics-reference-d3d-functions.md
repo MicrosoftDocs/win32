@@ -20,12 +20,11 @@ This section contains reference information for the functions that you need to u
 - [**DebugSetMute**](debugsetmute.md)
 - [**Direct3DCreate9**](/windows/win32/api/d3d9/nf-d3d9-direct3dcreate9)
 
-    
-| 
-|
-| Differences between Direct3D 9 and Direct3D 9Ex:<br /> This function is available in Direct3D 9Ex only.<br /><ul><li><a href="/windows/desktop/api/D3D9/nf-d3d9-direct3dcreate9ex"><strong>Direct3DCreate9Ex</strong></a></li></ul> | 
+## Differences between Direct3D 9 and Direct3D 9Ex 
 
+These functions are available in Direct3D 9Ex only
 
+- [**Direct3DCreate9Ex**](/windows/win32/api/d3d9/nf-d3d9-direct3dcreate9ex)
 - [**Direct3DShaderValidatorCreate9**](direct3dshadervalidatorcreate9.md)
 
 ## Related topics
@@ -34,7 +33,3 @@ This section contains reference information for the functions that you need to u
 
 [Direct3D Reference](dx9-graphics-reference-d3d.md)
 </dt> </dl>
-
- 
-
- 

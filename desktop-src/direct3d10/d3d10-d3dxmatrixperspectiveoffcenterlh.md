@@ -4,19 +4,22 @@ ms.assetid: 73616fcc-1799-4e65-92b9-2d8f500c326e
 title: D3DXMatrixPerspectiveOffCenterLH function (D3DX10Math.h)
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DXMatrixPerspectiveOffCenterLH
-api_type: 
+api_type:
 - LibDef
-api_location: 
+api_location:
 - D3DX10.lib
 - D3DX10.dll
 ---
 
 # D3DXMatrixPerspectiveOffCenterLH function (D3DX10Math.h)
+
+> [!Note]
+> The D3DX10 utility library is deprecated. We recommend that you use [DirectXMath](../dxmath/pg-xnamath-migration-d3dx.md) instead.
 
 Builds a customized, left-handed perspective projection matrix.
 

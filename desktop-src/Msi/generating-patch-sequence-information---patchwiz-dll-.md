@@ -16,13 +16,13 @@ When the [PATCHWIZ.DLL](patchwiz-dll.md) released with Windows Installer 3.0 is
 
 -   A new row is added to the [MsiPatchSequence Table](msipatchsequence-table.md) for each product code of a target image that is listed in the [TargetImages Table](targetimages-table-patchwiz-dll-.md).
 -   The values added to the PatchFamily column in the new rows correspond to the target product codes of the target images that are listed in the [TargetImages Table](targetimages-table-patchwiz-dll-.md).
--   The values added to the Sequence columns in the new rows are generated using the highest product version targeted by the patch and the UTC time when the patch is generated. The sequence number is <Product Minor Version>.<Build Major Number>.<Time Stamp 1>.<Time Stamp 2>.
+-   The values added to the Sequence columns in the new rows are generated using the highest product version targeted by the patch and the UTC time when the patch is generated. The sequence number is \<Product Minor Version\>.\<Build Major Number\>.\<Time Stamp 1\>.\<Time Stamp 2\>.
     -   The first field is the product version of the highest version of the product that is targeted by the patch.
     -   The second field is the build major number of the highest version of the product that is targeted by the patch.
 
     The two time stamp fields account for the 32 bit time stamp that is needed to count the seconds in Coordinated Universal Time (UTC).
     > [!Note]  
-    > Product versions have the following format: <Product Major Version>.<Product Minor Version>.<Build Major Number>.<Build Minor Number> and a product with a version number 2.1.0.0 is a higher version than a product with version number 1.2.0.0
+    > Product versions have the following format: \<Product Major Version\>.\<Product Minor Version\>.\<Build Major Number\>.\<Build Minor Number\> and a product with a version number 2.1.0.0 is a higher version than a product with version number 1.2.0.0
 
      
 
