@@ -1,8 +1,21 @@
 ---
 title: GetCurrentPackageInfo3
 description: Retrieves the package graph's current generation ID.
-ms.topic: article
+ms.topic: reference
 ms.date: 05/03/2022
+req.lib: 
+req.dll: Kernel32.dll
+topic_type:
+- APIRef
+- kbSyntax
+api_type:
+- DllExport
+api_location:
+- Kernel32.dll
+api_name:
+- GetCurrentPackageInfo3
+targetos: Windows
+ms.localizationpriority: low
 ---
 
 # GetCurrentPackageInfo3 function (appmodel.h)

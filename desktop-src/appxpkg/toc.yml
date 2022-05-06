@@ -635,7 +635,7 @@
       - name: "GetCurrentPackageInfo2"
         href: /windows/win32/api/AppModel/nf-appmodel-getcurrentpackageinfo2
       - name: "GetCurrentPackageInfo3"
-        href: appmodel/nf-appmodel-getcurrentpackageinfo3.md
+        href: /windows/win32/appxpkg/appmodel/nf-appmodel-getcurrentpackageinfo3
       - name: "GetCurrentPackagePath"
         href: /windows/win32/api/AppModel/nf-appmodel-getcurrentpackagepath
       - name: "GetCurrentPackagePath2"
