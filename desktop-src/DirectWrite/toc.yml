@@ -64,7 +64,9 @@
       href: appendix--win32-migration.md
     - name: "Interoperating with GDI"
       href: interoperating-with-gdi.md
-    - name: "DirectWrite Glossary"
+    - name: "Font selection"
+      href: font-selection.md
+    - name: "DirectWrite glossary"
       href: directwrite-glossary.md
   - name: "API Reference"
     href: reference.md
@@ -878,6 +880,13 @@
           href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontset3-getfontsourcenamelength
         - name: "GetFontSourceType method"
           href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontset3-getfontsourcetype
+      - name: "IDWriteFontSet4"
+        href: /windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontset4
+        items: 
+        - name: "ConvertWeightStretchStyleToFontAxisValues method"
+          href: /windows/win32/api/dwrite_4/nf-dwrite_3-idwritefontset4-convertweightstretchstyletofontaxisvalues
+        - name: "GetMatchingFonts method"
+          href: /windows/win32/api/dwrite_4/nf-dwrite_3-idwritefontset4-getmatchingfonts
       - name: "IDWriteFontSetBuilder"
         href: /windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontsetbuilder
         items: 
