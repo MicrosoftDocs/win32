@@ -1951,32 +1951,32 @@ Next
 using System.Management;
 ...
 {
-   string strComputer = &quot;.&quot;;
+   string strComputer = ".";
             
-   ManagementScope namespaceScope = new ManagementScope(&quot;\\\\&quot; + strComputer + &quot;\\ROOT\\CIMV2&quot;);
-   ObjectQuery diskQuery = new ObjectQuery(&quot;SELECT * FROM Win32_LogicalDisk&quot;);
+   ManagementScope namespaceScope = new ManagementScope("\\\\" + strComputer + "\\ROOT\\CIMV2");
+   ObjectQuery diskQuery = new ObjectQuery("SELECT * FROM Win32_LogicalDisk");
    ManagementObjectSearcher mgmtObjSearcher = new ManagementObjectSearcher(namespaceScope, diskQuery);
    ManagementObjectCollection colDisks = mgmtObjSearcher.Get();
 
    foreach (ManagementObject objDisk in colDisks)
    {
-      Console.WriteLine(&quot;Device ID : {0}&quot;, objDisk[&quot;DeviceID&quot;]);
+      Console.WriteLine("Device ID : {0}", objDisk["DeviceID"]);
                 
-      switch ((uint)(objDisk[&quot;DriveType&quot;]))
+      switch ((uint)(objDisk["DriveType"]))
       {
-         case 1: {   Console.WriteLine(&quot;No root directory.&quot;);
+         case 1: {   Console.WriteLine("No root directory.");
                      break;}
-         case 2: {   Console.WriteLine(&quot;DriveType: Removable drive.&quot;); 
+         case 2: {   Console.WriteLine("DriveType: Removable drive."); 
                      break;}
-         case 3: {   Console.WriteLine(&quot;DriveType: Local hard disk.&quot;);
+         case 3: {   Console.WriteLine("DriveType: Local hard disk.");
                      break;}
-         case 4: {   Console.WriteLine(&quot;DriveType: Network disk.&quot;);
+         case 4: {   Console.WriteLine("DriveType: Network disk.");
                      break;}
-         case 5: {   Console.WriteLine(&quot;DriveType: Compact disk.&quot;);
+         case 5: {   Console.WriteLine("DriveType: Compact disk.");
                      break;}
-         case 6: {   Console.WriteLine(&quot;DriveType: RAM disk.&quot;);
+         case 6: {   Console.WriteLine("DriveType: RAM disk.");
                      break;}
-         default: {  Console.WriteLine(&quot;Drive type could not be determined.&quot;);
+         default: {  Console.WriteLine("Drive type could not be determined.");
                      break;}
       }
       //Readline is in here so the user can see the result before the code exists
@@ -2011,17 +2011,17 @@ using System.Management;
 ...
 
 const int HARD_DISK = 3;
-string strComputer = &quot;.&quot;;
+string strComputer = ".";
 
-ManagementScope namespaceScope = new ManagementScope(&quot;\\\\&quot; + strComputer + &quot;\\ROOT\\CIMV2&quot;);
-ObjectQuery diskQuery = new ObjectQuery(&quot;SELECT * FROM Win32_LogicalDisk WHERE DriveType = &quot; + HARD_DISK + &quot;&quot;);
+ManagementScope namespaceScope = new ManagementScope("\\\\" + strComputer + "\\ROOT\\CIMV2");
+ObjectQuery diskQuery = new ObjectQuery("SELECT * FROM Win32_LogicalDisk WHERE DriveType = " + HARD_DISK + "");
 ManagementObjectSearcher mgmtObjSearcher = new ManagementObjectSearcher(namespaceScope, diskQuery);
 ManagementObjectCollection colDisks = mgmtObjSearcher.Get();
 
 foreach (ManagementObject objDisk in colDisks)
 {
-    Console.WriteLine(&quot;Device ID : {0}&quot;, objDisk[&quot;DeviceID&quot;]);
-    Console.WriteLine(&quot;Free Disk Space : {0}&quot;, objDisk[&quot;FreeSpace&quot;]);
+    Console.WriteLine("Device ID : {0}", objDisk["DeviceID"]);
+    Console.WriteLine("Free Disk Space : {0}", objDisk["FreeSpace"]);
     Console.ReadLine();
 }
 ```
