@@ -2813,6 +2813,8 @@
           href: mf-devicestream-takephoto-trigger.md
         - name: "MF_DEVICESTREAM_TRANSFORM_STREAM_ID"
           href: mf-devicestream-transform-stream-id.md
+        - name: "MF_DEVSOURCE_ATTRIBUTE_ENABLE_MS_CAMERA_EFFECTS"
+          href: mf-devsource-attribute-enable-ms-camera-effects.md
         - name: "MF_DEVSOURCE_ATTRIBUTE_FRIENDLY_NAME"
           href: mf-devsource-attribute-friendly-name.md
         - name: "MF_DEVSOURCE_ATTRIBUTE_MEDIA_TYPE"
@@ -3503,8 +3505,12 @@
           href: mf-video-processor-algorithm.md
         - name: "MF_VIDEODSP_MODE"
           href: mf-videodsp-mode.md
+        - name: "MF_VIRTUALCAMERA_ASSOCIATED_CAMERA_SOURCES"
+          href: mf-virtualcamera-associated-camera-sources.md
         - name: "MF_VIRTUALCAMERA_APP_PACKAGE_FAMILY_NAME"
           href: mf-virtualcamera-configuration-app-package-family-name.md
+        - name: "MF_VIRTUALCAMERA_PROVIDE_ASSOCIATED_CAMERA_SOURCES"
+          href: mf-virtualcamera-provide-associated-camera-sources.md
         - name: "MF_XVP_CALLER_ALLOCATES_OUTPUT"
           href: mf-xvp-caller-allocates-output.md
         - name: "MF_XVP_DISABLE_FRC"
