@@ -20,7 +20,7 @@ Availability of cipher suites should be controlled in one of two ways:
 
  
 
-FIPS-compliance has become more complex with the addition of elliptic curves making the FIPS mode enabled column in previous versions of this table misleading. For example, a cipher suite such as TLS\_ECDHE\_RSA\_WITH\_AES\_128\_CBC\_SHA256 is only FIPS-complaint when using NIST elliptic curves. To find out which combinations of elliptic curves and cipher suites will be enabled in FIPS mode, see section 3.3.1 of [Guidelines for the Selection, Configuration, and Use of TLS Implementations]( https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-52r1.pdf).
+FIPS-compliance has become more complex with the addition of elliptic curves making the FIPS mode enabled column in previous versions of this table misleading. For example, a cipher suite such as TLS\_ECDHE\_RSA\_WITH\_AES\_128\_CBC\_SHA256 is only FIPS-compliant when using NIST elliptic curves. To find out which combinations of elliptic curves and cipher suites will be enabled in FIPS mode, see section 3.3.1 of [Guidelines for the Selection, Configuration, and Use of TLS Implementations]( https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-52r1.pdf).
 
 Windows 8.1 and Windows Server 2012 R2 are updated by Windows Update by the [update 2919355](https://support.microsoft.com/kb/2919355) applied which adds the new cipher suites and changes the priority order. The following cipher suites are enabled and in this priority order by default by the Microsoft Schannel Provider:
 

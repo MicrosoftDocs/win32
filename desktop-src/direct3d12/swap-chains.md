@@ -2,7 +2,6 @@
 title: Swap Chains
 description: Swap chains control the back buffer rotation, forming the basis of graphics animation.
 ms.assetid: AABF5FDE-DB49-4B29-BC0E-032E0C7DF9EB
-ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -13,7 +12,7 @@ Swap chains control the back buffer rotation, forming the basis of graphics anim
 
 ## Overview
 
-The programming model for swap chains in Direct3D 12 is not identical to that in earlier versions of D3D. The programming convenience, for example, of supporting automatic resource rotation that was present in D3D10 and D3D11 is not now supported. Automatic resource rotation enabled apps to render the same API object while the actual surface being rendered changes each frame. The behavior of swap chains is changed with Direct3D 12 to enable other features of Direct3D 12 to have low CPU overhead. Automatic color key and multisampling are not supported, although notably stretching and rotation still are.
+The programming model for swap chains in Direct3D 12 is not identical to that in earlier versions of D3D. The programming convenience, for example, of supporting automatic resource rotation that was present in D3D10 and D3D11 is no longer supported. Automatic resource rotation enabled apps to render the same API object while the actual surface being rendered changes each frame. The behavior of swap chains is changed with Direct3D 12 to enable other features of Direct3D 12 to have low CPU overhead. Automatic color key and multisampling are not supported, although notably stretching and rotation still are.
 
 ### Buffer lifetime
 

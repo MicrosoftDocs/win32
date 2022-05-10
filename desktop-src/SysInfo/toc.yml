@@ -178,6 +178,8 @@
           href: /windows/desktop/api/Winreg/nf-winreg-regqueryvaluea
         - name: "RegQueryValueEx"
           href: /windows/desktop/api/Winreg/nf-winreg-regqueryvalueexa
+        - name: "RegRenameKey"
+          href: /windows/desktop/api/Winreg/nf-winreg-regrenamekey
         - name: "RegReplaceKey"
           href: /windows/desktop/api/Winreg/nf-winreg-regreplacekeya
         - name: "RegRestoreKey"
@@ -254,6 +256,8 @@
         items: 
         - name: "ApiSetQueryApiSetPresence"
           href: apisetqueryapisetpresence.md
+        - name: "ApiSetQueryApiSetPresenceEx"
+          href: apisetqueryapisetpresenceex.md
         - name: "CeipIsOptedIn"
           href: /windows/desktop/api/Windowsceip/nf-windowsceip-ceipisoptedin
         - name: "DnsHostnameToComputerName"

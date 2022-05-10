@@ -242,12 +242,14 @@
           - name: "Cipher Suites in TLS/SSL (Schannel SSP)"
             href: cipher-suites-in-schannel.md
             items: 
+            - name: "Prioritizing Schannel Cipher Suites"
+              href: prioritizing-schannel-cipher-suites.md
             - name: "TLS Cipher Suites in Windows 11"
               href: tls-cipher-suites-in-windows-11.md
-            - name: "TLS Cipher Suites in Windows 10 v20H2 and v21H1"
-              href: tls-cipher-suites-in-windows-10-v20H2.md
             - name: "TLS Cipher Suites in Windows Server 2022"
               href: tls-cipher-suites-in-windows-server-2022.md
+            - name: "TLS Cipher Suites in Windows 10 v20H2 and v21H1"
+              href: tls-cipher-suites-in-windows-10-v20H2.md
             - name: "TLS Cipher Suites in Windows 10 v1903"
               href: tls-cipher-suites-in-windows-10-v1903.md
             - name: "TLS Cipher Suites in Windows 10 v1809"
@@ -272,8 +274,6 @@
               href: tls-cipher-suites-in-windows-7.md
             - name: "TLS Cipher Suites in Windows Vista"
               href: schannel-cipher-suites-in-windows-vista.md
-            - name: "Prioritizing Schannel Cipher Suites"
-              href: prioritizing-schannel-cipher-suites.md
           - name: "Elliptic Curves in TLS (Schannel SSP)"
             items:
             - name: "TLS Elliptic Curves in Windows 10, versions 1607 and later"

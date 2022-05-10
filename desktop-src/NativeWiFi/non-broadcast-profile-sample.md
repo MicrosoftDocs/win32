@@ -1,12 +1,12 @@
 ---
 description: Used to connect to networks which do not broadcast their network name or SSID.
 ms.assetid: 564324ad-6723-4676-ab5c-0b5d2957d201
-title: Non-Broadcast Profile Sample
+title: Non-Broadcast profile sample
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Non-Broadcast Profile Sample
+# Non-Broadcast profile sample
 
 The non-broadcast profile sample can be used to connect to networks which do not broadcast their network name or SSID.
 

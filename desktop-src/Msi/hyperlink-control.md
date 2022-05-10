@@ -12,10 +12,10 @@ The Hyperlink control displays a HTML link to an address, which opens in the def
 
 **[Windows Installer 4.5 or earlier](not-supported-in-windows-installer-4-5.md):** Not supported. This Control is available beginning with Windows Installer 5.0.
 
-The Text value of the HyperLink control uses the anchor <a> tag and the HREF attribute value to specify the URL and displayed text of the link.
+The Text value of the HyperLink control uses the anchor \<a\> tag and the HREF attribute value to specify the URL and displayed text of the link.
 
 ``` syntax
-[Blue Yonder Airlines](https://www.blueyonderairlines.com)
+<a href="https://www.blueyonderairlines.com">Blue Yonder Airlines</a>
 ```
 
 ## Control Attributes

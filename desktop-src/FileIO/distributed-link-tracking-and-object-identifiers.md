@@ -55,7 +55,7 @@ If a link is made to a file on NTFS 3.0 or later, and the file is moved to any o
 
 To obtain the NTFS version of a volume, open a command prompt with Administrator access rights and execute the following command:
 
-**fsutil fsinfo ntfsinfo** *X***:**
+**fsutil fsinfo ntfsinfo** *X*__:__
 
 where *X* is the drive letter of the volume.
 
@@ -103,7 +103,7 @@ The distributed link tracking services are available only on the NTFS file syste
 
 To obtain the NTFS version of a volume, open a command prompt with Administrator access rights and execute the following command:
 
-**fsutil fsinfo ntfsinfo** *X***:**
+**fsutil fsinfo ntfsinfo** *X*__:__
 
 where *X* is the drive letter of the volume.
 

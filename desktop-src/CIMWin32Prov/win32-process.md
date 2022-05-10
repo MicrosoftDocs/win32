@@ -1,5 +1,5 @@
 ---
-Description: The Win32\_Process&\#32;WMI class represents a process on an operating system.
+description: The Win32\_Process&\#32;WMI class represents a process on an operating system.
 ms.assetid: 51206aca-4784-4d18-95ca-bc0a45691f78
 ms.tgt_platform: multiple
 title: Win32_Process class
@@ -69,7 +69,7 @@ The **Win32\_Process** [WMI class](../wmisdk/retrieving-a-class.md) represents a
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties.
 
 > [!NOTE]
-> For a general discussion on Processes and Threads within Windows, please see the topic [Processes and Threads](/ProcThread/processes-and-threads.md).
+> For a general discussion on Processes and Threads within Windows, please see the topic [Processes and Threads](/windows/win32/procthread/processes-and-threads).
 
 ## Syntax
 
@@ -103,7 +103,7 @@ class Win32_Process : CIM_Process
   uint32   PeakPageFileUsage;
   uint64   PeakVirtualSize;
   uint32   PeakWorkingSetSize;
-  uint32   Priority = NULL;
+  uint32   Priority;
   uint64   PrivatePageCount;
   uint32   ProcessId;
   uint32   QuotaNonPagedPoolUsage;

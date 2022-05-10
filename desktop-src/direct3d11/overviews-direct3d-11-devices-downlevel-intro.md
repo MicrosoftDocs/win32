@@ -169,7 +169,7 @@ The following features are available for the feature levels listed. The headings
 
 <sup>7</sup> For Feature Level 9_3, the only rendering methods supported are **Draw**, **DrawIndexed**, and **DrawIndexInstanced**. Also for Feature Level 9_3, point list rendering is supported only for rendering via **Draw**.
 
-<sup>8</sup> Requires the Direct3D 12 runtime.
+<sup>8</sup> Supported by Windows 11.
 
 <sup>9</sup> In the Direct3D 12 API there are limits on the number of descriptors in a CBV/SRV/UAV heap. See [Hardware Tiers](../direct3d12/hardware-support.md) for details. Separately, there's a limit on the number of UAVs in all descriptor tables across all stages, which is based on [resource binding tier](https://microsoft.github.io/DirectX-Specs/d3d/ResourceBinding.html#levels-of-hardware-support).
 

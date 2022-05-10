@@ -20,8 +20,8 @@ api_location:
 - Root\CIMv2
 api_type:
 - Schema
-ms.technology: desktop
-ms.prod: windows
+ms.technology: system-insights
+ms.prod: windows-server-dev
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
@@ -159,7 +159,7 @@ The version of the installed Win32 application.
 
 
 
-|                                     |                                                                                      |
+|    Requirement           |  Details                    |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | None supported<br/>                                                            |

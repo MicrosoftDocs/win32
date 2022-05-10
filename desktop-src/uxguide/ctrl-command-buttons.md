@@ -1,17 +1,17 @@
 ---
-title: Command Buttons
-description: With a command button, users initiate an immediate action.
-ms.assetid: 0e2ff31a-657b-4e4c-afee-2a6bd742f46c
+title: Command Buttons in Windows 7
+description: With command buttons in Windows 7, users initiate immediate actions.
 ms.topic: article
-ms.date: 10/20/2020
+ms.date: 01/11/2022
+ms.custom: seo-windows-dev
 ---
 
-# Command Buttons
+# Command Buttons in Windows 7
 
 > [!NOTE]
 > This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](/windows/uwp/design/).
 
-With a command button, users initiate an immediate action.
+With command buttons in Windows 7, users initiate immediate actions.
 
 ![screen shot of ok command button ](images/ctrl-command-buttons-image1.png)
 

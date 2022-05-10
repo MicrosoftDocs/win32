@@ -8,7 +8,6 @@ keywords:
 - image color management,structures
 - color management,structures
 - colors,structures
-ms.localizationpriority: high
 
 
 ms.topic: article

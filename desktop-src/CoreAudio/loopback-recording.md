@@ -52,8 +52,8 @@ If your audio adapter contains a hardware loopback device, you can use the Windo
 
 1.  To run Mmsys.cpl, open a Command Prompt window and enter the following command:
 
-    ```C++
-    control mmsys.cpl,,1
+    ```ps1
+    control mmsys.cpl
     ```
 
     

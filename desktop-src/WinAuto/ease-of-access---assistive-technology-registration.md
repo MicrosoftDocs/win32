@@ -220,7 +220,7 @@ If your accessibility application supports the secure desktop, you can use the r
 
 To copy settings, set the application's CopySettingsToLockedDesktop registry key to 1, and store the settings in the following registry location.
 
-**HKCU\\Software\\Microsoft\\Windows NT\\CurrentVersion\\Accessibility\\ATConfig\\<AT Key Name>**
+**HKCU\\Software\\Microsoft\\Windows NT\\CurrentVersion\\Accessibility\\ATConfig\\\<AT Key Name>**
 
 The Ease of Access Center monitors this registry location while the application is running. When a transition to the secure desktop occurs, the Ease of Access Center copies the settings to the same location in the secure desktop s HKCU hive. The application can then read the settings and resume its state.
 
@@ -280,9 +280,9 @@ The values in the table are under the following key:
 <tbody>
 <tr class="odd">
 <td><pre><code>&lt;HCIModel&gt;
-   <Accommodation type=&quot;low vision&quot; />
-   <Accommodation type=&quot;severe vision&quot; />
-   <Accommodation type=&quot;mild cognitive&quot; />
+   \<Accommodation type=&quot;low vision&quot; />
+   \<Accommodation type=&quot;severe vision&quot; />
+   \<Accommodation type=&quot;mild cognitive&quot; />
 &lt;/HCIModel&gt;</code></pre></td>
 </tr>
 </tbody>
@@ -360,9 +360,9 @@ If the application provides both a screen reader and a screen magnifier in a sin
 <tbody>
 <tr class="odd">
 <td><pre><code>&lt;HCIModel&gt;
-   <Accommodation type=&quot;low vision&quot; />
-   <Accommodation type=&quot;severe vision&quot; />
-   <Accommodation type=&quot;mild cognitive&quot; />
+   \<Accommodation type=&quot;low vision&quot; />
+   \<Accommodation type=&quot;severe vision&quot; />
+   \<Accommodation type=&quot;mild cognitive&quot; />
 &lt;/HCIModel&gt;</code></pre></td>
 </tr>
 </tbody>
@@ -437,7 +437,7 @@ The values for the magnifier component would be in the following key:
 <tbody>
 <tr class="odd">
 <td><pre><code>&lt;HCIModel&gt;
-   <Accommodation type=&quot;mild vision&quot; />
+   \<Accommodation type=&quot;mild vision&quot; />
 &lt;/HCIModel&gt;</code></pre></td>
 </tr>
 </tbody>

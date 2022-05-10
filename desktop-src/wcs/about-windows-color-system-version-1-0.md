@@ -10,7 +10,6 @@ keywords:
 - colors,Windows Color System (WCS)
 - Image Color Management (ICM)
 - ICM (Image Color Management)
-ms.localizationpriority: high
 
 
 ms.topic: article

@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 The following GUIDs support Direct3D 12 Video APIs.
 
-## D3D12\\_VIDEO\\_DECODE\\_PROFILE GUIDs
+## D3D12\_VIDEO\_DECODE\_PROFILE GUIDs
 
 The following table lists the GUIDs that identify Direct3D 12 video decoding profiles. The descriptions relate each Direct3D 12 video decode profile to the equivalent Direct3D 11 video or DXVA profile.
 

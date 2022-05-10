@@ -10,7 +10,6 @@ keywords:
 - colors,additive primary
 - additive primary colors
 - primary colors
-ms.localizationpriority: high
 
 
 ms.topic: article

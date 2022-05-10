@@ -158,6 +158,8 @@
         href: /windows/win32/api/Winuser/ns-winuser-pointer_pen_info
       - name: "POINTER_TOUCH_INFO"
         href: /windows/win32/api/Winuser/ns-winuser-pointer_touch_info
+      - name: "POINTER_TYPE_INFO"
+        href: /windows/win32/api/Winuser/ns-winuser-pointer_type_info
       - name: "TOUCHPREDICTIONPARAMETERS"
         href: /windows/win32/api/Winuser/ns-winuser-touchpredictionparameters
   - name: "Pointer Input  Messages and Notifications Glossary"

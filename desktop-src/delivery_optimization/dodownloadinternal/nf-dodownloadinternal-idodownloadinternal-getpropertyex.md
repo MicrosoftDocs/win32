@@ -11,7 +11,6 @@ api_location:
 - dosvc.dll
 api_type:
 - COM
-ms.localizationpriority: low
 ms.topic: reference
 ms.date: 07/29/2019
 ---

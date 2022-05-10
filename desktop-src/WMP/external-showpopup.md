@@ -73,7 +73,7 @@ The following steps show how Windows Media Player uses the parameters of the **s
 
 3.  Windows Media Player appends *Parameters* to the URL as a query string. For example, if **GetItemInfo** returns "https://www.Proseware.com/Pages/Popup1.htm" and *Parameters* is equal to "DlgX=800&DlgY=400&Greeting=Hi", Windows Media Player creates the following URL:
 
-    https://www.Proseware.com/Pages/Popup1.htm?DlgX=800&DlgY=400&Greeting=Hi
+    ```https://www.Proseware.com/Pages/Popup1.htm?DlgX=800&DlgY=400&Greeting=Hi```
 
 You can use *Parameters* to specify the size of the pop-up window. For example, if you set *Parameters* to "DlgX=800&DlgY=400", the pop-up window will have a size of 800 pixels by 400 pixels.
 

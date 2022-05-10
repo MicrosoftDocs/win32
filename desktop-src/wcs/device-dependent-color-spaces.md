@@ -12,7 +12,6 @@ keywords:
 - device-dependent color spaces
 - white point
 - colorants
-ms.localizationpriority: high
 
 
 ms.topic: article

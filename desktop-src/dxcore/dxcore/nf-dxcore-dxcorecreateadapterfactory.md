@@ -1,7 +1,6 @@
 ---
 title: DXCoreCreateAdapterFactory
 description: Creates a DXCore adapter factory, which you can use to generate further DXCore objects.
-ms.localizationpriority: low
 ms.topic: reference
 ms.date: 06/20/2019
 ---

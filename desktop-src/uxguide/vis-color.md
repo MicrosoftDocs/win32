@@ -79,7 +79,7 @@ Of course, color is often used in graphics for purely aesthetic reasons. While a
 
 **Users' interpretation of color is often culturally dependent.** For example, in the United States, wedding attire for the bride is largely associated with the color white, while black is associated with funerals. However, long ago in Japan the color symbolism was just the opposite: white was the predominant color at funerals, and black was considered a color that brings good luck for weddings.
 
-That said, **the interpretation of red, yellow, and green for status is consistent globally.** This is due to the [UNESCO Vienna Convention on Road Signs and Signals](https://www.unece.org/trans/conventn/signalse.pdf), which defines the worldwide convention for traffic lights (where red means stop, green means proceed, and yellow means proceed with caution). You can use these status colors without concern for culturally dependent interpretations.
+That said, **the interpretation of red, yellow, and green for status is consistent globally.** This is due to the [UNESCO Vienna Convention on Road Signs and Signals](https://unece.org/fileadmin/DAM/trans/conventn/Conv_road_signs_2006v_EN.pdf), which defines the worldwide convention for traffic lights (where red means stop, green means proceed, and yellow means proceed with caution). You can use these status colors without concern for culturally dependent interpretations.
 
 Beyond the status colors, Windows assigns meanings to colors based on convention, as presented in the Guidelines section of this article. Be sure that your program's color usage is compatible with these color conventions.
 
@@ -180,11 +180,11 @@ To determine if your program's use of color is accessible and not used as a prim
 
 To determine if your program's use of color is programmed correctly, test your program in the following modes:
 
--   Theming enabled using the default Windows theme.
--   Theming enabled using a non-default theme.
--   Theming disabled ("Windows Classic style" in the Theme Settings in the Personalization Control Panel item).
--   High Contrast Black (white text on a black background).
--   High Contrast White (black text on a white background).
+- Theming enabled using the default Windows theme.
+- Theming enabled using a non-default theme.
+- Theming disabled ("Windows Classic style" in the Theme Settings in the Personalization Control Panel item).
+- High Contrast Black theme (white text on a black background, known as Aquatic in Windows 11).
+- High Contrast White theme (black text on a white background, known as Desert on Windows 11).
 
 All the screen elements should be legible and appear as expected, even immediately after mode changes.
 

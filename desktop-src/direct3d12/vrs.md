@@ -1,7 +1,6 @@
 ---
 title: Variable-rate shading (VRS)
 description: Variable-rate shading&mdash;or coarse pixel shading&mdash;is a mechanism that lets you allocate rendering performance/power at rates that vary across your rendered image.
-ms.localizationpriority: high
 ms.topic: article
 ms.date: 04/08/2019
 ---
@@ -303,8 +302,8 @@ For four-bit values.
 | Binary value | Decimal  | Fractional |
 |-------------:|---------:|-----------:|
 |         1000 |-0.5f     |-8 / 16     |
-|         1001 |-0.4375f  |-7 / 16|    |
-|         1010 |-0.375f   |-6 / 16|    |
+|         1001 |-0.4375f  |-7 / 16     |
+|         1010 |-0.375f   |-6 / 16     |
 |         1011 |-0.3125f  |-5 / 16     |
 |         1100 |-0.25f    |-4 / 16     |
 |         1101 |-0.1875f  |-3 / 16     |

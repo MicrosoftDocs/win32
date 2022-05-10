@@ -22,7 +22,7 @@ JScript is case-sensitive. VBScript is not.
 
 JScript is supported by a wide variety of Web browsers, including both Internet Explorer and Netscape Navigator. Netscape Navigator does not support VBScript.
 
-JScript arrays are not arrays of the variable type **VARIANT SAFEARRAY**. A JScript script must use a VBArray object to access the **VARIANT SAFEARRAY**variable. VBScript scripts can access **VARIANT SAFEARRAY**variables directly.
+JScript arrays are not arrays of the variable type **VARIANT SAFEARRAY**. A JScript script must use a VBArray object to access the **VARIANT SAFEARRAY** variable. VBScript scripts can access **VARIANT SAFEARRAY** variables directly.
 
 ## Related topics
 

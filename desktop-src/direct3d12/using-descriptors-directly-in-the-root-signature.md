@@ -2,7 +2,6 @@
 title: Using descriptors directly in the root signature
 description: To avoid the need to go through a descriptor heap, you can put a descriptor directly into the root signature.
 ms.assetid: 033E3D8F-3003-42F7-BF77-68A7D62802E5
-ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
 ---

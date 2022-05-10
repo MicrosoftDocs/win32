@@ -1,7 +1,6 @@
 ---
 title: DXCore programming guide
 description: Guidance for programming with DXCore.
-ms.localizationpriority: high
 ms.topic: article
 ms.date: 06/20/2019
 ---

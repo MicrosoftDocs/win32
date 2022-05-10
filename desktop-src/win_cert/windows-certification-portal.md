@@ -37,7 +37,7 @@ If you are developing and certifying a UWP app from the start, see [Guidance for
 | Topic                                                          | Description                                                                                                                                                                           |
 |----------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [Get the Kit](https://developer.microsoft.com/windows/downloads/app-certification-kit/) | To certify your app, you have to install and run the Windows App Certification Kit (included in the Windows SDK).                                                                     |
-| [Using the Kit](using-the-windows-app-certification-kit.md)   | Before you can submit your app, you must test it for readiness. You can also download a copy of the [app certification white paper](https://www.microsoft.com/download/details.aspx?id=27414). |
+| [Using the Kit](using-the-windows-app-certification-kit.md)   | Before you can submit your app, you must test it for readiness. You can also download a copy of the app certification white paper. |
 | [Review test details](windows-app-certification-kit-tests.md) | Get the list of the tests your app needs to pass to qualify for compatibility with the latest Windows operating system.                                                               |
 
 

@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 This section contains samples that show how applications can be developed with C\#, Microsoft Visual Basic .NET, and C++ to work with ink and touch.
 
-By default, the samples are installed in <system drive>:\\Program Files\\Microsoft Tablet PC Platform SDK\\Samples\\ when installing the Tablet PC SDK.
+By default, the samples are installed in \<system drive\>:\\Program Files\\Microsoft Tablet PC Platform SDK\\Samples\\ when installing the Tablet PC SDK.
 
 > [!Note]  
 > When installing the Windows SDK, the Windows Server SDK, or the .NET Framework SDK, the samples install in the default path for that particular SDK.

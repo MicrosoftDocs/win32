@@ -1,7 +1,6 @@
 ---
 title: IDXCoreAdapterFactory::RegisterEventNotification
 description: Registers to receive notifications of specific conditions from a DXCore adapter or adapter list.
-ms.localizationpriority: low
 ms.topic: reference
 ms.date: 06/20/2019
 ---

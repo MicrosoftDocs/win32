@@ -2,7 +2,6 @@
 description: WorldToObject3x4 - A matrix for transforming from world-space to object-space.
 ms.assetid: 
 title: WorldToObject3x4
-ms.localizationpriority: low
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

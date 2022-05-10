@@ -15,7 +15,7 @@ The following procedure describes how to issue a synchronous data query using Po
 
 **To issue a synchronous data query in PowerShell**
 
--   Describe your query to WMI using the WMI [Get-WmiObject](https://technet.microsoft.com/library/dd315379.aspx) cmdlet and the *-query* parameter. The cmdlet returns either a single object, or a collection of objects, depending on how many objects fit the query.
+-   Describe your query to WMI using the WMI [Get-WmiObject](/powershell/module/microsoft.powershell.management/get-wmiobject?view=powershell-5.1) cmdlet and the *-query* parameter. The cmdlet returns either a single object, or a collection of objects, depending on how many objects fit the query.
 
     ```PowerShell
     Get-WmiObject -query "SELECT * FROM Win32_logicalDisk WHERE DeviceID = 'C:'"

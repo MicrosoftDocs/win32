@@ -29,7 +29,7 @@ CAPICOM 2.1.0.2 is supported on the following operating systems and versions:
 -   Windows Server 2003
 -   Windows XP
 
-CAPICOM is available as a redistributable file that can be downloaded from [Platform SDK Redistributable: CAPICOM](https://www.microsoft.com/download/details.aspx?id=25281).
+CAPICOM is available as a redistributable file that can be downloaded from Platform SDK Redistributable: CAPICOM.
 
 Certificate Services requires the following versions of these operating systems:
 

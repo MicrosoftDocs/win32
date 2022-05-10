@@ -214,7 +214,7 @@
             href: tier-1.md
           - name: "Tier 2"
             href: tier-2.md
-    - name: "Graphics Pipeline"
+    - name: "Graphics pipeline"
       href: overviews-direct3d-11-graphics-pipeline.md
       items: 
       - name: "Input-Assembler Stage"
@@ -1783,9 +1783,9 @@
             href: /previous-versions/windows/desktop/legacy/ff728743(v=vs.85)
             items: 
             - name: "GetBufferPointer"
-              href: /previous-versions/windows/desktop/legacy/(v=vs.85)
+              href: /previous-versions/windows/desktop/legacy/ff728744(v=vs.85)
             - name: "GetBufferSize"
-              href: /previous-versions/windows/desktop/legacy/(v=vs.85)
+              href: /previous-versions/windows/desktop/legacy/ff728745(v=vs.85)
           - name: "ID3DDestructionNotifier"
             href: /windows/win32/api/d3dcommon/nn-d3dcommon-id3ddestructionotifier
             items: 

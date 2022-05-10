@@ -54,7 +54,7 @@ A [texture-object](dx-graphics-hlsl-to-type.md) type (except TextureCube or Text
 |----------------------------------------------|----------------|
 | Buffer                                       | int            |
 | Texture1D, Texture2DMS                       | int2           |
-| Texture1DArray, Texture 2D, Texture2DMSArray | int3           |
+| Texture1DArray, Texture2D, Texture2DMSArray  | int3           |
 | Texture2DArray, Texture3D                    | int4           |
 
 
@@ -73,7 +73,7 @@ For example, to access a 2D texture, supply UV coordinates for the first two com
 <span id="SampleIndex"></span><span id="sampleindex"></span><span id="SAMPLEINDEX"></span>*SampleIndex*
 </dt> <dd>
 
-\[in\] An optional sampling index.
+\[in\] A sampling index. Required for multi-sample textures. Not supported for other textures.
 
 
 
@@ -81,15 +81,6 @@ For example, to access a 2D texture, supply UV coordinates for the first two com
 |----------------------------------------------------------------------------------------------------------------|----------------|
 | Texture1D, Texture1DArray, Texture2D, Texture2DArray, Texture3D, Texture2DArray, TextureCube, TextureCubeArray | not supported  |
 | Texture2DMS, Texture2DMSArray¹                                                                                 | int            |
-
-
-
- 
-
-> [!Note]  
-> *SampleIndex* is only available for multi-sample textures.
-
- 
 
 </dd> <dt>
 
@@ -104,14 +95,14 @@ For example, to access a 2D texture, supply UV coordinates for the first two com
 |----------------------------------------------------------|----------------|
 | Texture1D, Texture1DArray                                | int            |
 | Texture2D, Texture2DArray, Texture2DMS, Texture2DMSArray | int2           |
-| Texture3D, Texture2DArray                                | int3           |
+| Texture3D                                                | int3           |
 
 
 
  
 
 > [!Note]  
-> If you use *Offset* with multi-sample textures, you must also specify *SampleIndex*.
+> *SampleIndex* must always be specified first with multi-sample textures.
 
  
 

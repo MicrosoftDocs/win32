@@ -21,5 +21,5 @@ This overview describes how to build a UI framework that supports features such 
 
 Samples
 
-- [UI Automation WPF Framework Implementation sample](https://github.com/Microsoft/WPF-Samples/tree/master/Accessibility)
+- [UI Automation WPF Framework Implementation sample](https://github.com/Microsoft/WPF-Samples/tree/main/Accessibility)
 - [UI contrast and settings sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/411c271e537727d737a53fa2cbe99eaecac00cc0/Official%20Windows%20Platform%20Sample/Windows%208%20app%20samples/%5BC%2B%2B%5D-Windows%208%20app%20samples/C%2B%2B/Windows%208%20app%20samples/UI%20contrast%20and%20settings%20sample%20(Windows%208))

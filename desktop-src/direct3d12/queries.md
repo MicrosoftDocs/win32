@@ -2,7 +2,6 @@
 title: Queries
 description: In Direct3D 12, queries are grouped into arrays of queries called a query heap. A query heap has a type which defines the valid types of queries that can be used with that heap.
 ms.assetid: 'd7403b5d-7e1b-4dd2-ae45-52e1153233c6'
-ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -98,7 +97,7 @@ The core runtime will validate the following:
 
 ## Extracting data from a query
 
-The way to extract data from a query is to use the [**ResolveQueryData**](/windows/win32p/api/d3d12/nf-d3d12-id3d12graphicscommandlist-resolvequerydata) method. **ResolveQueryData** works with all memory types (whether they are system memory or device local memory), but requires the destination resource to be in [**D3D12_RESOURCE_STATE_COPY_DEST**](/windows/win32/api/d3d12/ne-d3d12-d3d12_resource_states). 
+The way to extract data from a query is to use the [**ResolveQueryData**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-resolvequerydata) method. **ResolveQueryData** works with all memory types (whether they are system memory or device local memory), but requires the destination resource to be in [**D3D12_RESOURCE_STATE_COPY_DEST**](/windows/win32/api/d3d12/ne-d3d12-d3d12_resource_states). 
 
 ## Related topics
 

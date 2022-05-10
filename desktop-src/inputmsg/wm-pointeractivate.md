@@ -38,7 +38,7 @@ A window receives this message through its [**WindowProc**](/previous-versions/w
 
 Contains the pointer identifier and additional information. Use the following macros to retrieve this information.
 
-[**GET_POINTERID_WPARAM**](/previous-versions/windows/desktop/api)(wParam): pointer identifier
+[**GET_POINTERID_WPARAM**](/windows/win32/api/winuser/nf-winuser-get_pointerid_wparam)(wParam): pointer identifier
 
 [**HIWORD**](/previous-versions/windows/desktop/legacy/ms632657(v=vs.85))(wParam): hit-test value returned from processing the [**WM_NCHITTEST**](../inputdev/wm-nchittest.md) message.
 

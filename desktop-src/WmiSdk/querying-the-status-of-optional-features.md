@@ -15,43 +15,26 @@ You can use Windows PowerShell cmdlets to query the status of optional features.
 
 **To retrieve all instances of optional features present on a computer**
 
-
-    
-| PowerShell | 
+| PowerShell |
 |------------|
-| <pre><code>Get-WmiObject Win32_OptionalFeature</code></pre> | 
-
-
-    
+| <pre><code>Get-WmiObject Win32_OptionalFeature</code></pre> |
 
 **To query for an optional feature by specifying the feature name**
 
-
-    
-| PowerShell | 
+| PowerShell |
 |------------|
-| <pre><code>Get-WmiObject -query "select * from Win32_OptionalFeature where name = 'TelnetClient'"</code></pre> | 
+| <pre><code>Get-WmiObject -query "select * from Win32_OptionalFeature where name = 'TelnetClient'"</code></pre> |
 
-
-    
-
-    > [!Note]  
-    > The **name** property is case-sensitive.
-
-     
+> [!Note]  
+> The **name** property is case-sensitive.
 
 **To query for optional features by specifying the install state**
 
-
-    
-| PowerShell | 
+| PowerShell |
 |------------|
-| <pre><code>Get-WmiObject -query "select * from win32_optionalfeature where installstate= 1"</code></pre> | 
+| <pre><code>Get-WmiObject -query "select * from win32_optionalfeature where installstate= 1"</code></pre> |
 
-
-    
-
-    For more information about the possible values for the **InstallState** property, see [**Win32\_OptionalFeature**](/windows/desktop/CIMWin32Prov/win32-optionalfeature).
+For more information about the possible values for the **InstallState** property, see [**Win32\_OptionalFeature**](/windows/desktop/CIMWin32Prov/win32-optionalfeature).
 
 ## Related topics
 
@@ -59,7 +42,3 @@ You can use Windows PowerShell cmdlets to query the status of optional features.
 
 [**Win32\_OptionalFeature**](/windows/desktop/CIMWin32Prov/win32-optionalfeature)
 </dt> </dl>
-
- 
-
- 

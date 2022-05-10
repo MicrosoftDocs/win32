@@ -1575,7 +1575,7 @@ The instances returned for this class are as follows, supposing that user A is e
 
     -   Again, if there is more than one session of user B running on the machine, then the provider has no way of deciding which to use. In this case, no mapped drive instances are returned.
 
-For more information on using **Win32\_MappedLogicalDisk**, see [How Can I Determine Which Drives are Mapped to Network Shares?](https://blogs.technet.com/b/heyscriptingguy/archive/2005/10/27/how-can-i-determine-which-drives-are-mapped-to-network-shares.aspx)
+For more information on using **Win32\_MappedLogicalDisk**, see [How Can I Determine Which Drives are Mapped to Network Shares?](https://devblogs.microsoft.com/scripting/how-can-i-determine-which-drives-are-mapped-to-network-shares/)
 
 ## Examples
 
@@ -1614,6 +1614,4 @@ Get-WmiObject Win32_MappedLogicalDisk | Select Name, ProviderName, FileSystem, S
 
 [WMI Tasks: Disks and File Systems](/windows/desktop/WmiSdk/wmi-tasks--disks-and-file-systems)
 </dt> </dl>
-
- 
 

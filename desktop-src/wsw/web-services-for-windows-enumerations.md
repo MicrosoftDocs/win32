@@ -38,7 +38,7 @@ The Windows Web Services API includes the following enumerations:
 -   [**WS\_HEADER\_ATTRIBUTES**](/windows/win32/api/webservices/ne-webservices-ws_xml_text_type)
 -   [**WS\_HEADER\_TYPE**](/windows/desktop/api/WebServices/ne-webservices-ws_header_type)
 -   [**WS\_HEAP\_PROPERTY\_ID**](/windows/desktop/api/WebServices/ne-webservices-ws_heap_property_id)
--   [**WS\_HTTP\_HEADER\_AUTH\_SCHEME**](https://technet.microsoft.com/windows/dd401907(v=vs.60)
+-   **WS\_HTTP\_HEADER\_AUTH\_SCHEME**
 -   [**WS\_HTTP\_HEADER\_AUTH\_TARGET**](/windows/desktop/api/WebServices/ne-webservices-ws_http_header_auth_target)
 -   [**WS\_HTTP\_HEADER\_MAPPING\_OPTIONS**](/windows/win32/api/webservices/ne-webservices-ws_xml_writer_property_id)
 -   [**WS\_HTTP\_PROXY\_SETTING\_MODE**](/windows/desktop/api/WebServices/ne-webservices-ws_http_proxy_setting_mode)
@@ -92,7 +92,7 @@ The Windows Web Services API includes the following enumerations:
 -   [**WS\_SERVICE\_OPERATION\_MESSAGE\_OPTION**](/windows/win32/api/webservices/ne-webservices-ws_charset)
 -   [**WS\_SERVICE\_PROPERTY\_ID**](/windows/desktop/api/WebServices/ne-webservices-ws_service_property_id)
 -   [**WS\_SERVICE\_PROXY\_STATE**](/windows/desktop/api/WebServices/ne-webservices-ws_service_proxy_state)
--   [**WS\_STRUCT\_OPTIONS**](https://msdn.microsoft.com/library/Dd323454(v=VS.85).aspx)
+-   **WS\_STRUCT\_OPTIONS**
 -   [**WS\_TRACE\_API**](/windows/desktop/api/WebServices/ne-webservices-ws_trace_api)
 -   [**WS\_TRANSFER\_MODE**](/windows/desktop/api/WebServices/ne-webservices-ws_transfer_mode)
 -   [**WS\_TRUST\_VERSION**](/windows/desktop/api/WebServices/ne-webservices-ws_trust_version)

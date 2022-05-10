@@ -3,10 +3,6 @@ title: Naming Contexts and Directory Partitions
 description: Each domain controller in a domain forest controlled by Active Directory Domain Services includes directory partitions.
 ms.assetid: 77ac171c-2031-46d7-b81e-dd9ae0c70ccb
 ms.tgt_platform: multiple
-keywords:
-- Naming Contexts and Directory Partitions AD
-- Naming Contexts AD , About
-- Directory Partitions AD , About
 ms.topic: article
 ms.date: 05/31/2018
 ---

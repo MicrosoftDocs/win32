@@ -22,8 +22,6 @@ Before the Kerberos authentication service can use an SPN to authenticate a serv
 
 When a client wants to connect to a service, it locates an instance of the service, composes an SPN for that instance, connects to the service, and presents the SPN for the service to authenticate. For more information, see [How Clients Compose a Service's SPN](how-clients-compose-a-serviceampaposs-spn.md).
 
-## In this Section
-
 ## In this section
 
 <dl> <dt>
@@ -49,7 +47,3 @@ When a client wants to connect to a service, it locates an instance of the servi
 
 [Mutual Authentication Using Kerberos](mutual-authentication-using-kerberos.md)
 </dt> </dl>
-
- 
-
- 

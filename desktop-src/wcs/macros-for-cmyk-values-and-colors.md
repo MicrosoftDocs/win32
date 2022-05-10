@@ -13,7 +13,6 @@ keywords:
 - CMYK macros
 - cyan magenta yellow black (CMYK)
 - CMYK (cyan magenta yellow black)
-ms.localizationpriority: high
 
 
 ms.topic: article

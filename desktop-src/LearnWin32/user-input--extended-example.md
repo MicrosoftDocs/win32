@@ -1,12 +1,12 @@
 ---
-title: User Input Extended Example
-description: User Input: Extended Example
+title: User input extended example
+description: Extended example of user input combining everything learned so far to create a simple drawing program.
 ms.assetid: A408E0EC-E0A7-4F18-BFCA-21D28007FACC
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 04/07/2022
 ---
 
-# User Input: Extended Example
+# User input: extended example
 
 Let's combine everything that we have learned about user input to create a simple drawing program. Here is a screen shot of the program:
 
@@ -15,7 +15,6 @@ Let's combine everything that we have learned about user input to create a simpl
 The user can draw ellipses in several different colors, and select, move, or delete ellipses. To keep the UI simple, the program does not let the user select the ellipse colors. Instead, the program automatically cycles through a predefined list of colors. The program does not support any shapes other than ellipses. Obviously, this program will not win any awards for graphics software. However, it is still a useful example to learn from. You can download the complete source code from [Simple Drawing Sample](simple-drawing-sample.md). This section will just cover some highlights.
 
 Ellipses are represented in the program by a structure that contains the ellipse data ([**D2D1\_ELLIPSE**](/windows/desktop/api/d2d1/ns-d2d1-d2d1_ellipse)) and the color ([**D2D1\_COLOR\_F**](/windows/desktop/Direct2D/d2d1-color-f)). The structure also defines two methods: a method to draw the ellipse, and a method to perform hit testing.
-
 
 ```C++
 struct MyEllipse

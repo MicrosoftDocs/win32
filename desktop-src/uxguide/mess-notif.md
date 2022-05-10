@@ -325,9 +325,9 @@ In this example, users can quickly comprehend the nature of the notification wit
 
         < brief description of essential information>
 
-        <optional details>
+        \<optional details\>
 
-        Click to <do something>.
+        Click to \<do something\>.
 
         ![screen shot of message: 'click to view progress' ](images/mess-notif-image24.png)
 
@@ -337,7 +337,7 @@ In this example, users can quickly comprehend the nature of the notification wit
 
         < brief description of essential information>
 
-        <optional details>
+        \<optional details\>
 
         Click for more information.
 

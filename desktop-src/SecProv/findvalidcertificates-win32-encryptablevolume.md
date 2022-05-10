@@ -24,7 +24,7 @@ The **FindValidCertificates** method of the [**Win32\_EncryptableVolume**](win32
 
 ```mof
 uint32 FindValidCertificates(
-  [out] string CertificateThumbprint[]
+  [out] string CertThumbprint[]
 );
 ```
 
@@ -34,7 +34,7 @@ uint32 FindValidCertificates(
 
 <dl> <dt>
 
-*CertificateThumbprint* \[out\]
+*CertThumbprint* \[out\]
 </dt> <dd>
 
 Type: **string\[\]**

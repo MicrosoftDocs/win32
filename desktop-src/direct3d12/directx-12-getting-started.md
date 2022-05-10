@@ -2,7 +2,6 @@
 title: Understanding Direct3D 12
 description: To write 3D games and apps for Windows 10 and Windows 10 Mobile, you must understand the basics of the Direct3D 12 technology, and how to prepare to use it in your games and apps.
 ms.assetid: DED7A434-FCD4-4F41-8B2C-E5AE6E48430F
-ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
 ---

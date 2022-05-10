@@ -1,12 +1,12 @@
 ---
-description: Provides links to system error codes defined in the WinError.h header file and is intended for developers.
-ms.assetid: 4a3a8feb-a05f-4614-8f04-1f507da7e5b7
-title: System Error Codes
+description: Provides guidance on debugging system error codes & links to system error codes defined in the WinError.h header file.
+title: Tutorial - Debug system error codes
 ms.topic: article
-ms.date: 10/31/2019
+ms.date: 11/24/2021
+ms.custom: seo-windows-dev
 ---
 
-# System Error Codes
+# Debug system error codes
 
 This section is intended for developers who are debugging system errors. If you reached this page while searching for other errors, here are some links that might help:
 
@@ -20,7 +20,7 @@ This section is intended for developers who are debugging system errors. If you 
 We've listed the system error codes in this section, organized by number. If you need more help tracking down a specific error, here are some more recommendations:
 
 * Use the [Microsoft Error Lookup Tool](system-error-code-lookup-tool.md).
-*  Install the Debugging Tools for Windows, load a memory dump file, and then run the **\!err \<code>** command.
+* Install the Debugging Tools for Windows, load a memory dump file, and then run the **\!err \<code>** command.
 * Search the Microsoft Protocols site for the raw text or error code. For more information, see [[MS-ERREF]: Windows Error Codes](/openspecs/windows_protocols/ms-erref/1bc92ddf-b79e-413c-bbaa-99a5281a6c90).
 
 ## Third party error codes

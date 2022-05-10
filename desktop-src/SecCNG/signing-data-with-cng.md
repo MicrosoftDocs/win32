@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Signing Data with CNG
 
-Data signing does not protect the data. It only to verifies the integrity of the data. The sender hashes that data and signs (encrypts) the hash by using a private key. The intended recipient performs verification by creating a hash of the data received, decrypting the signature to obtain the original hash, and comparing the two hashes.
+Data signing does not protect the data. It only verifies the integrity of the data. The sender hashes that data and signs (encrypts) the hash by using a private key. The intended recipient performs verification by creating a hash of the data received, decrypting the signature to obtain the original hash, and comparing the two hashes.
 
 When data is signed, the sender creates a [*hash*](/windows/desktop/SecGloss/h-gly) value and signs (encrypts) the hash by using a private key. This signature is then attached to the data and sent in a message to a recipient. The hashing algorithm that was used to create the signature must be known in advance by the recipient or identified in the message. How this is done is up to the message protocol.
 
@@ -45,9 +45,9 @@ The following example shows how to use the cryptographic primitive APIs to sign 
 Abstract:
 
     Sample program for ECDSA 256 signing using CNG
-    
+
     Example for use of BCrypt/NCrypt API
-    
+
     Persisted key for signing and ephemeral key for verification
 
 --*/
@@ -71,7 +71,7 @@ static const  BYTE rgbMsg[] =
 };
 
 void __cdecl wmain(
-                   int                      argc, 
+                   int                      argc,
                    __in_ecount(argc) LPWSTR *wargv)
 {
     NCRYPT_PROV_HANDLE      hProv           = NULL;
@@ -118,11 +118,11 @@ void __cdecl wmain(
 
     //calculate the size of the buffer to hold the hash object
     if(!NT_SUCCESS(status = BCryptGetProperty(
-                                        hHashAlg, 
-                                        BCRYPT_OBJECT_LENGTH, 
-                                        (PBYTE)&cbHashObject, 
-                                        sizeof(DWORD), 
-                                        &cbData, 
+                                        hHashAlg,
+                                        BCRYPT_OBJECT_LENGTH,
+                                        (PBYTE)&cbHashObject,
+                                        sizeof(DWORD),
+                                        &cbData,
                                         0)))
     {
         wprintf(L"**** Error 0x%x returned by BCryptGetProperty\n", status);
@@ -139,11 +139,11 @@ void __cdecl wmain(
 
    //calculate the length of the hash
     if(!NT_SUCCESS(status = BCryptGetProperty(
-                                        hHashAlg, 
-                                        BCRYPT_HASH_LENGTH, 
-                                        (PBYTE)&cbHash, 
-                                        sizeof(DWORD), 
-                                        &cbData, 
+                                        hHashAlg,
+                                        BCRYPT_HASH_LENGTH,
+                                        (PBYTE)&cbHash,
+                                        sizeof(DWORD),
+                                        &cbData,
                                         0)))
     {
         wprintf(L"**** Error 0x%x returned by BCryptGetProperty\n", status);
@@ -160,18 +160,18 @@ void __cdecl wmain(
 
     //create a hash
     if(!NT_SUCCESS(status = BCryptCreateHash(
-                                        hHashAlg, 
-                                        &hHash, 
-                                        pbHashObject, 
-                                        cbHashObject, 
-                                        NULL, 
-                                        0, 
+                                        hHashAlg,
+                                        &hHash,
+                                        pbHashObject,
+                                        cbHashObject,
+                                        NULL,
+                                        0,
                                         0)))
     {
         wprintf(L"**** Error 0x%x returned by BCryptCreateHash\n", status);
         goto Cleanup;
     }
-    
+
 
     //hash some data
     if(!NT_SUCCESS(status = BCryptHashData(
@@ -183,12 +183,12 @@ void __cdecl wmain(
         wprintf(L"**** Error 0x%x returned by BCryptHashData\n", status);
         goto Cleanup;
     }
-    
+
     //close the hash
     if(!NT_SUCCESS(status = BCryptFinishHash(
-                                        hHash, 
-                                        pbHash, 
-                                        cbHash, 
+                                        hHash,
+                                        pbHash,
+                                        cbHash,
                                         0)))
     {
         wprintf(L"**** Error 0x%x returned by BCryptFinishHash\n", status);
@@ -197,8 +197,8 @@ void __cdecl wmain(
 
     //open handle to KSP
     if(FAILED(secStatus = NCryptOpenStorageProvider(
-                                                &hProv, 
-                                                MS_KEY_STORAGE_PROVIDER, 
+                                                &hProv,
+                                                MS_KEY_STORAGE_PROVIDER,
                                                 0)))
     {
         wprintf(L"**** Error 0x%x returned by NCryptOpenStorageProvider\n", secStatus);
@@ -338,7 +338,7 @@ Cleanup:
         BCryptCloseAlgorithmProvider(hSignAlg,0);
     }
 
-    if (hHash)    
+    if (hHash)
     {
         BCryptDestroyHash(hHash);
     }
@@ -363,27 +363,19 @@ Cleanup:
         HeapFree(GetProcessHeap(), 0, pbBlob);
     }
 
-    if (hTmpKey)    
+    if (hTmpKey)
     {
         BCryptDestroyKey(hTmpKey);
     }
 
-    if (hKey)    
+    if (hKey)
     {
         NCryptDeleteKey(hKey, 0);
     }
 
-    if (hProv)    
+    if (hProv)
     {
         NCryptFreeObject(hProv);
-    }    
+    }
 }
-
-
 ```
-
-
-
- 
-
- 

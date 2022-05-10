@@ -21,7 +21,7 @@ ms.date: 05/31/2018
 -   [**GetDpiForMonitor**](/windows/desktop/api/ShellScalingAPI/nf-shellscalingapi-getdpiformonitor)
 
 > [!Note]  
-> **This page covers legacy WPF development for Windows 8.1.** If you are developing WPF applications for Windows 10, please see the <a href="https://github.com/microsoft/WPF-Samples/blob/master/PerMonitorDPI/readme.md">latest documentation on GitHub.</a>
+> **This page covers legacy WPF development for Windows 8.1.** If you are developing WPF applications for Windows 10, please see the <a href="https://github.com/microsoft/WPF-Samples/blob/main/PerMonitorDPI/readme.md">latest documentation on GitHub.</a>
 
  
 

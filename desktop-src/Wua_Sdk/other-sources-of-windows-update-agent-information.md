@@ -26,11 +26,7 @@ The following resources describe how to deploy and administer Windows Server Upd
 
 You can read and post information to a newsgroup that discusses WUA or search archived newsgroup posts.
 
-MSDN provides access to the following public newsgroups:
-
--   [Microsoft Public Newsgroups](https://go.microsoft.com/fwlink/p/?linkid=84395)
-
-    This newsgroup is oriented toward IT professionals with questions about deployment and customization.
+MSDN provides access to the following public newsgroup:
 
 -   [MSDN Newsgroups](https://go.microsoft.com/fwlink/p/?linkid=83943)
 

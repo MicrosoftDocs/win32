@@ -2,7 +2,6 @@
 title: Read back data via a buffer
 description: To read back data from the GPU (for example, to capture a screen shot), you use a readback heap.
 ms.assetid: 2F515B2C-3317-4AA8-81E1-7762ED895F77
-ms.localizationpriority: high
 ms.topic: article
 ms.date: 12/17/2018
 ---

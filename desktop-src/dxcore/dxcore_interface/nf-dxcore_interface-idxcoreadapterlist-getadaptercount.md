@@ -1,7 +1,6 @@
 ---
 title: IDXCoreAdapterList::GetAdapterCount
 description: Retrieves the number of adapters in a DXCore adapter list object.
-ms.localizationpriority: low
 ms.topic: reference
 ms.date: 06/20/2019
 ---

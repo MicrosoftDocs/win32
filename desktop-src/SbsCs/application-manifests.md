@@ -15,41 +15,41 @@ For a complete listing of the XML schema, see [Manifest File Schema](manifest-fi
 
 Application manifests have the following elements and attributes.
 
-| Element                               | Attributes                | Required |
-|---------------------------------------|---------------------------|----------|
-| **assembly**                          |                           | Yes      |
-|                                       | **manifestVersion**       | Yes      |
-| **noInherit**                         |                           | No       |
-| **assemblyIdentity**                  |                           | Yes      |
-|                                       | **type**                  | Yes      |
-|                                       | **name**                  | Yes      |
-|                                       | **language**              | No       |
-|                                       | **processorArchitecture** | No       |
-|                                       | **version**               | Yes      |
-|                                       | **publicKeyToken**        | No       |
-| **compatibility**                     |                           | No       |
-| **application**                       |                           | No       |
-| **supportedOS**                       | **Id**                    | No       |
-| **maxversiontested**                  | **Id**                    | No       |
-| **dependency**                        |                           | No       |
-| **dependentAssembly**                 |                           | No       |
-| **file**                              |                           | No       |
-|                                       | **name**                  | No       |
-|                                       | **hashalg**               | No       |
-|                                       | **hash**                  | No       |
-| **activeCodePage**                    |                           | No       |
-| **autoElevate**                       |                           | No       |
-| **disableTheming**                    |                           | No       |
-| **disableWindowFiltering**            |                           | No       |
-| **dpiAware**                          |                           | No       |
-| **dpiAwareness**                      |                           | No       |
-| **gdiScaling**                        |                           | No       |
-| **highResolutionScrollingAware**      |                           | No       |
-| **longPathAware**                     |                           | No       |
-| **printerDriverIsolation**            |                           | No       |
-| **ultraHighResolutionScrollingAware** |                           | No       |
-| **msix**                              |                           | No       |
-| **heapType**                          |                           | No       |
+| Element                                                                     | Attributes                | Required |
+|-----------------------------------------------------------------------------|---------------------------|----------|
+| [**assembly**](#assembly)                                                   |                           | Yes      |
+|                                                                             | **manifestVersion**       | Yes      |
+| [**noInherit**](#noInherit)                                                 |                           | No       |
+| [**assemblyIdentity**](#assemblyIdentity)                                   |                           | Yes      |
+|                                                                             | **type**                  | Yes      |
+|                                                                             | **name**                  | Yes      |
+|                                                                             | **language**              | No       |
+|                                                                             | **processorArchitecture** | No       |
+|                                                                             | **version**               | Yes      |
+|                                                                             | **publicKeyToken**        | No       |
+| [**compatibility**](#compatibility)                                         |                           | No       |
+| [**application**](#application)                                             |                           | No       |
+| [**supportedOS**](#supportedOS)                                             | **Id**                    | No       |
+| [**maxversiontested**](#maxversiontested)                                   | **Id**                    | No       |
+| [**dependency**](#dependency)                                               |                           | No       |
+| [**dependentAssembly**](#dependentAssembly)                                 |                           | No       |
+| [**file**](#file)                                                           |                           | No       |
+|                                                                             | **name**                  | No       |
+|                                                                             | **hashalg**               | No       |
+|                                                                             | **hash**                  | No       |
+| [**activeCodePage**](#activeCodePage)                                       |                           | No       |
+| [**autoElevate**](#autoElevate)                                             |                           | No       |
+| [**disableTheming**](#disableTheming)                                       |                           | No       |
+| [**disableWindowFiltering**](#disableWindowFiltering)                       |                           | No       |
+| [**dpiAware**](#dpiAware)                                                   |                           | No       |
+| [**dpiAwareness**](#dpiAwareness)                                           |                           | No       |
+| [**gdiScaling**](#gdiScaling)                                               |                           | No       |
+| [**highResolutionScrollingAware**](#highResolutionScrollingAware)           |                           | No       |
+| [**longPathAware**](#longPathAware)                                         |                           | No       |
+| [**printerDriverIsolation**](#printerDriverIsolation)                       |                           | No       |
+| [**ultraHighResolutionScrollingAware**](#ultraHighResolutionScrollingAware) |                           | No       |
+| [**msix**](#msix)                                                           |                           | No       |
+| [**heapType**](#heaptype)                                                   |                           | No       |
 
 ## File Location
 
@@ -135,7 +135,7 @@ The **supportedOS** element has the following attribute. It has no subelements.
 
 | Attribute | Description   |
 |-----------|-----------------------|
-| **Id**    | Set the Id attribute to **{e2011457-1546-43c5-a5fe-008deee3d3f0}** to run the application using Vista functionality. This can enable an application designed for Windows Vista to run on a later operating system. <br/> Set the Id attribute to **{35138b9a-5d96-4fbd-8e2d-a2440225f93a}** to run the application using Windows 7 functionality.<br/> Applications that support Windows Vista, Windows 7, and Windows 8 functionality do not require separate manifests. In this case, add the GUIDs for all the Windows operating systems.<br/> For info about the **Id** attribute behavior in Windows, see the [Windows 8 and Windows Server 2012 Compatibility Cookbook](https://www.microsoft.com/download/details.aspx?id=27416).<br/> The following GUIDs correspond with the indicated operating systems:<br/> **{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}** -> Windows 10, Windows Server 2016 and Windows Server 2019<br/> **{1f676c76-80e1-4239-95bb-83d0f6d0da78}** -> Windows 8.1 and Windows Server 2012 R2<br/> **{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}** -> Windows 8 and Windows Server 2012<br/> **{35138b9a-5d96-4fbd-8e2d-a2440225f93a}** -> Windows 7 and Windows Server 2008 R2<br/> **{e2011457-1546-43c5-a5fe-008deee3d3f0}** -> Windows Vista and Windows Server 2008<br/> You can test this on Windows 7 or Windows 8.x by running Resource Monitor (resmon), going to the CPU tab, right-clicking on the column labels, "Select Column...", and check "Operating System Context". On Windows 8.x, you can also find this column available in the Task Manager (taskmgr). The content of the column shows the highest value found or "Windows Vista" as the default. <br/> |
+| **Id**    | Set the Id attribute to **{e2011457-1546-43c5-a5fe-008deee3d3f0}** to run the application using Vista functionality. This can enable an application designed for Windows Vista to run on a later operating system. <br/> Set the Id attribute to **{35138b9a-5d96-4fbd-8e2d-a2440225f93a}** to run the application using Windows 7 functionality.<br/> Applications that support Windows Vista, Windows 7, and Windows 8 functionality do not require separate manifests. In this case, add the GUIDs for all the Windows operating systems.<br/> For info about the **Id** attribute behavior in Windows, see the [Windows 8 and Windows Server 2012 Compatibility Cookbook](https://www.microsoft.com/download/details.aspx?id=27416).<br/> The following GUIDs correspond with the indicated operating systems:<br/> **{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}** -> Windows 10, Windows 11, Windows Server 2016, Windows Server 2019 and Windows Server 2022<br/> **{1f676c76-80e1-4239-95bb-83d0f6d0da78}** -> Windows 8.1 and Windows Server 2012 R2<br/> **{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}** -> Windows 8 and Windows Server 2012<br/> **{35138b9a-5d96-4fbd-8e2d-a2440225f93a}** -> Windows 7 and Windows Server 2008 R2<br/> **{e2011457-1546-43c5-a5fe-008deee3d3f0}** -> Windows Vista and Windows Server 2008<br/> You can test this on Windows 7 or Windows 8.x by running Resource Monitor (resmon), going to the CPU tab, right-clicking on the column labels, "Select Column...", and check "Operating System Context". On Windows 8.x, you can also find this column available in the Task Manager (taskmgr). The content of the column shows the highest value found or "Windows Vista" as the default. <br/> |
 
 <span id="maxVersionTested"></span><span id="maxversiontested"></span><span id="MAXVERSIONTESTED"></span>
 

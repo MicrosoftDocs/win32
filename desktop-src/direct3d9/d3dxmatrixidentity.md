@@ -4,19 +4,22 @@ ms.assetid: 0dd6d4fb-284c-4d01-9a85-63aa08e71723
 title: D3DXMatrixIdentity function (D3dx9math.h)
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DXMatrixIdentity
-api_type: 
+api_type:
 - LibDef
-api_location: 
+api_location:
 - d3dx9.lib
 - d3dx9.dll
 ---
 
 # D3DXMatrixIdentity function
+
+> [!Note]
+> The D3DX utility library is deprecated. We recommend that you use [DirectXMath](../dxmath/pg-xnamath-migration-d3dx.md) instead.
 
 Creates an identity matrix.
 
@@ -80,7 +83,3 @@ The return value for this function is the same value returned in the *pOut* para
  
 
  
-
-
-
-

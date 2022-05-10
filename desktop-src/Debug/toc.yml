@@ -81,7 +81,7 @@
       items: 
       - name: "FLASHWINFO"
         href: /windows/desktop/api/Winuser/ns-winuser-flashwinfo
-    - name: "System Error Codes"
+    - name: "Debug system error codes"
       href: system-error-codes.md
       items: 
       - name: "Download and use the Microsoft Error Lookup Tool"
@@ -180,7 +180,7 @@
       - name: "WaitForDebugEventEx"
         href: /windows/desktop/api/debugapi/nf-debugapi-waitfordebugeventex
       - name: "Wow64GetThreadContext"
-        href: /windows/desktop/api/WinBase/nf-winbase-wow64getthreadcontext
+        href: 
       - name: "Wow64GetThreadSelectorEntry"
         href: /windows/desktop/api/WinBase/nf-winbase-wow64getthreadselectorentry
       - name: "Wow64SetThreadContext"

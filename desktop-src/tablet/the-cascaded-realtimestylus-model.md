@@ -45,9 +45,9 @@ The following list describes the constraints associated with using the cascaded 
 | <a href="/previous-versions/ms824834(v=msdn.10)">WindowInputRectangle</a> | Getting this property returns the information from the primary <a href="realtimestylus-class.md"><strong>RealTimeStylus</strong></a> object.<br /> If the secondary <a href="realtimestylus-class.md"><strong>RealTimeStylus</strong></a> is not attached to a primary <strong>RealTimeStylus</strong> object, getting this property returns the default value.<br /><blockquote>    [!Note]<br />    Setting this property raises an <a href="/dotnet/api/system.invalidoperationexception">InvalidOperationException</a> exception.    </blockquote><br /> | 
 
 
-    
 
-     
+
+
 
 -   The parent [**RealTimeStylus**](realtimestylus-class.md) object is expected to stop functioning when the child **RealTimeStylus** is Disposed.
 

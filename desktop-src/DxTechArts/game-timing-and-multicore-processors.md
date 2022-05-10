@@ -50,7 +50,6 @@ For instruction on using Compatibility Administrator, see the toolkit's document
 For customer-oriented information, see the following knowledge base articles from Microsoft Help and Support:
 
 -   [Programs that use the QueryPerformanceCounter function may perform poorly in Windows Server 2003 and in Windows XP](https://support.microsoft.com/kb/895980) (article 895980)
--   [Game performance may be poor on a Windows XP-based computer that is using a dual-core processor](https://support.microsoft.com/kb/909944) (article 909944)
 
  
 

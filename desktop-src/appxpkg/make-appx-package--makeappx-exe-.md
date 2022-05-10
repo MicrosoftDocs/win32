@@ -13,16 +13,17 @@ ms.date: 05/31/2018
 
  
 
-App packager (MakeAppx.exe) creates an app package from files on disk or extracts the files from an app package to disk. Starting with Windows 8.1, App packager also creates an app package bundle from app packages on disk or extracts the app packages from an app package bundle to disk. It is included in Microsoft Visual Studio and the Windows Software Development Kit (SDK) for Windows 8 or Windows Software Development Kit (SDK) for Windows 8.1. Visit [Downloads for developers]( https://msdn.microsoft.com/windows/apps/br229516.aspx) to get them.
+App packager (MakeAppx.exe) creates an app package from files on disk or extracts the files from an app package to disk. Starting with Windows 8.1, App packager also creates an app package bundle from app packages on disk or extracts the app packages from an app package bundle to disk. It is included in Microsoft Visual Studio and the Windows Software Development Kit (SDK) for Windows 8 or Windows Software Development Kit (SDK) for Windows 8.1 and newer. Visit [Downloads for developers]( https://msdn.microsoft.com/windows/apps/br229516.aspx) to get them.
 
-The MakeAppx.exe tool is typically found at these locations:
+The MakeAppx.exe tool is typically found in operating system version specific locations:
 
--   On x86: C:\\Program Files (x86)\\Windows Kits\\8.0\\bin\\x86\\makeappx.exe or C:\\Program Files (x86)\\Windows Kits\\8.1\\bin\\x86\\makeappx.exe
--   On x64 in two locations:
-    -   C:\\Program Files (x86)\\Windows Kits\\8.0\\bin\\x86\\makeappx.exe or C:\\Program Files (x86)\\Windows Kits\\8.1\\bin\\x86\\makeappx.exe
-    -   C:\\Program Files (x86)\\Windows Kits\\8.0\\bin\\x64\\makeappx.exe or C:\\Program Files (x86)\\Windows Kits\\8.1\\bin\\x64\\makeappx.exe
+- C:\Program Files (x86)\Windows Kits\10\bin\<build number>\<architecture>\makeappx.exe
 
-There is no ARM version of the tool.
+Where <architecture> = x86, x64, arm, ar64 or chpe. Alternatively, it may be located in:
+
+C:\Program Files (x86)\Windows Kits\10\App Certification Kit\makeappx.exe
+
+
 
 -   [To create a package using a directory structure](#to-create-a-package-using-a-directory-structure)
 -   [To create a package using a mapping file](#to-create-a-package-using-a-mapping-file)
@@ -98,7 +99,7 @@ Place the AppxManifest.xml in the root of a directory containing all of the payl
 
 ### To create a package bundle using a directory structure
 
-We use the **bundle** command to create an app bundle at <output bundle name> by adding all packages from <content directory> (including subfolders). If <content directory> contains a bundle manifest, AppxBundleManifest.xml, it is ignored.
+We use the **bundle** command to create an app bundle at \<output bundle name\> by adding all packages from \<content directory\> (including subfolders). If \<content directory\> contains a bundle manifest, AppxBundleManifest.xml, it is ignored.
 
 1.  Place all packages in a single directory structure, creating subdirectories as desired.
 
@@ -108,9 +109,9 @@ We use the **bundle** command to create an app bundle at <output bundle name> by
 
 ### To create a package bundle using a mapping file
 
-We use the **bundle** command to create an app bundle at <output bundle name> by adding all packages from a list of packages within <mapping file>. If <mapping file> contains a bundle manifest, AppxBundleManifest.xml, it is ignored.
+We use the **bundle** command to create an app bundle at \<output bundle name\> by adding all packages from a list of packages within \<mapping file\>. If \<mapping file\> contains a bundle manifest, AppxBundleManifest.xml, it is ignored.
 
-1.  Create a <mapping file>. The first line contains the string **\[Files\]**, and the lines that follow specify the packages to add to the bundle. Each package is described by a pair of paths in quotation marks, separated by spaces or tabs. The pair of paths represents the package's source (on disk) and destination (in bundle). All destination package names must have the .appx extension.
+1.  Create a \<mapping file\>. The first line contains the string **\[Files\]**, and the lines that follow specify the packages to add to the bundle. Each package is described by a pair of paths in quotation marks, separated by spaces or tabs. The pair of paths represents the package's source (on disk) and destination (in bundle). All destination package names must have the .appx extension.
 
     ``` syntax
         [Files]
@@ -305,7 +306,7 @@ Creates an encrypted app package from the specified input app package at the spe
 
 <dl> <dt>
 
-<span id="_kf__key_file_"></span><span id="_KF__KEY_FILE_"></span>**/kf** *<key file>*
+<span id="_kf__key_file_"></span><span id="_KF__KEY_FILE_"></span>**/kf** *\<key file\>*
 </dt> <dd>
 
 Encrypts the package or bundle using the key from the specified key file. You can't use this option with **kt**.
@@ -325,7 +326,7 @@ Creates an unencrypted app package from the specified input app package at the s
 
 <dl> <dt>
 
-<span id="_kf__key_file_"></span><span id="_KF__KEY_FILE_"></span>**/kf** *<key file>*
+<span id="_kf__key_file_"></span><span id="_KF__KEY_FILE_"></span>**/kf** *\<key file\>*
 </dt> <dd>
 
 Decrypts the package or bundle using the key from the specified key file. You can't use this option with **kt**.

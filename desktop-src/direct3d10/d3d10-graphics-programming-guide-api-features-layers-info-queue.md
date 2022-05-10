@@ -19,14 +19,14 @@ In general:
 
 Use registry keys to adjust filter settings, adjust break points, and to mute the debug output. The debug layer will check these paths for registry keys; the first path found will be used.
 
-1.  HKCU\\Software\\Microsoft\\Direct3D\\<user-defined subkey>
-2.  HKLM\\Software\\Microsoft\\Direct3D\\<user-defined subkey>
+1.  HKCU\\Software\\Microsoft\\Direct3D\\\<user-defined subkey\>
+2.  HKLM\\Software\\Microsoft\\Direct3D\\\<user-defined subkey\>
 3.  HKCU\\Software\\Microsoft\\Direct3D
 
 Where:
 
 -   HKCU stand for HKEY\_CURRENT\_USER, and HKLM stand for HKEY\_LOCAL\_MACHINE.
--   <user-defined subkey> is an arbitrary name to store debug settings for an application
+-   \<user-defined subkey\> is an arbitrary name to store debug settings for an application
 
 ### Filtering Debug Messages using Registry Keys
 

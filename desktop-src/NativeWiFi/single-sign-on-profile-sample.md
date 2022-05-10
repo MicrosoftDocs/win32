@@ -1,7 +1,7 @@
 ---
 description: Used for scenarios that require 802.1X authentication before Windows logon.
 ms.assetid: 76c8d416-3912-41b1-ac9d-3e6e86a76ceb
-title: Single Sign-On Profile Sample
+title: Single Sign-On profile sample
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -11,7 +11,7 @@ api_type:
 api_location: 
 ---
 
-# Single Sign-On Profile Sample
+# Single Sign-On profile sample
 
 The single sign-on (SSO) profile sample can be used for scenarios that require 802.1X authentication before Windows logon.
 

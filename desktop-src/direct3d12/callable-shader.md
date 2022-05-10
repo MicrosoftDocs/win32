@@ -3,7 +3,6 @@ description: A shader that is invoked from another shader with the CallShader in
 ms.assetid: 
 title: Callable Shader
 ms.date: 05/31/2018
-ms.localizationpriority: low
 ms.topic: reference
 topic_type: 
 - APIRef

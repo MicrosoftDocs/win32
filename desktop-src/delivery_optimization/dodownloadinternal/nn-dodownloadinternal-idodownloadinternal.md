@@ -11,7 +11,6 @@ api_location:
 - do.h
 api_type:
 - HeaderDef
-ms.localizationpriority: low
 ms.topic: reference
 ms.date: 07/29/2019
 ---

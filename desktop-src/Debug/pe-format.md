@@ -130,6 +130,8 @@ The Machine field has one of the following values, which specify the CPU type. A
 | IMAGE\_FILE\_MACHINE\_EBC <br/>       | 0xebc <br/>  | EFI byte code <br/>                                                               |
 | IMAGE\_FILE\_MACHINE\_I386 <br/>      | 0x14c <br/>  | Intel 386 or later processors and compatible processors <br/>                     |
 | IMAGE\_FILE\_MACHINE\_IA64 <br/>      | 0x200 <br/>  | Intel Itanium processor family <br/>                                              |
+| IMAGE\_FILE\_MACHINE\_LOONGARCH32 <br/>  | 0x6232 <br/>  | LoongArch 32-bit processor family <br/>                                       |
+| IMAGE\_FILE\_MACHINE\_LOONGARCH64 <br/>  | 0x6264 <br/>  | LoongArch 64-bit processor family <br/>                                       |
 | IMAGE\_FILE\_MACHINE\_M32R <br/>      | 0x9041 <br/> | Mitsubishi M32R little endian <br/>                                               |
 | IMAGE\_FILE\_MACHINE\_MIPS16 <br/>    | 0x266 <br/>  | MIPS16 <br/>                                                                      |
 | IMAGE\_FILE\_MACHINE\_MIPSFPU <br/>   | 0x366 <br/>  | MIPS with FPU <br/>                                                               |
@@ -1795,6 +1797,8 @@ To apply a base relocation, the difference is calculated between the preferred b
 | IMAGE\_REL\_BASED\_THUMB\_MOV32 <br/>    | 7 <br/>  | This relocation is meaningful only when the machine type is Thumb. The base relocation applies the 32-bit address of a symbol to a consecutive MOVW/MOVT instruction pair. <br/>                                                                                                                                            |
 | IMAGE\_REL\_BASED\_RISCV\_LOW12I <br/>   | 7 <br/>  | This relocation is only meaningful when the machine type is RISC-V. The base relocation applies to the low 12 bits of a 32-bit absolute address formed in RISC-V I-type instruction format. <br/>                                                                                                                           |
 | IMAGE\_REL\_BASED\_RISCV\_LOW12S <br/>   | 8 <br/>  | This relocation is only meaningful when the machine type is RISC-V. The base relocation applies to the low 12 bits of a 32-bit absolute address formed in RISC-V S-type instruction format. <br/>                                                                                                                           |
+| IMAGE\_REL\_BASED\_LOONGARCH32\_MARK\_LA <br/>   | 8 <br/>  | This relocation is only meaningful when the machine type is LoongArch 32-bit. The base relocation applies to a 32-bit absolute address formed in two consecutive instructions. <br/>                                                                                                                           |
+| IMAGE\_REL\_BASED\_LOONGARCH64\_MARK\_LA <br/>   | 8 <br/>  | This relocation is only meaningful when the machine type is LoongArch 64-bit. The base relocation applies to a 64-bit absolute address formed in four consecutive instructions. <br/>                                                                                                                           |
 | IMAGE\_REL\_BASED\_MIPS\_JMPADDR16 <br/> | 9 <br/>  | The relocation is only meaningful when the machine type is MIPS. The base relocation applies to a MIPS16 jump instruction. <br/>                                                                                                                                                                                            |
 | IMAGE\_REL\_BASED\_DIR64 <br/>           | 10 <br/> | The base relocation applies the difference to the 64-bit field at offset. <br/>                                                                                                                                                                                                                                             |
 
@@ -2114,34 +2118,35 @@ The first 8 bytes of an archive consist of the file signature. The rest of the 
 -   The rest of the archive consists of standard (object-file) members. Each of these members contains the contents of one object file in its entirety.
 
 An archive member header precedes each member. The following list shows the general structure of an archive:
+    
+|Signature :"!&lt;arch&gt;\\n"|
+|-------|
 
--   Signature :"!&lt;arch&gt;\\n"
--   Header
+|Header|
+|-------|
+|1st Linker Member|
 
-    <dl> 1st Linker Member  
-    </dl>
+|Header|
+|-------|
+|2nd Linker Member|
 
--   Header
+|Header|
+|-------|
+|Longnames Member|
 
-    <dl> 2nd Linker Member  
-    </dl>
+|Header|
+|-------|
+|Contents of OBJ File 1<br/>(COFF format)|
 
--   Header
+|Header|
+|-------|
+|Contents of OBJ File 2<br/>(COFF format)|
 
-    <dl> Longnames Member  
-    </dl>
+...
 
--   Header
-
-    <dl> Contents of OBJ File 1  
-    (COFF format)  
-    </dl>
-
--   Header
-
-    <dl> Contents of OBJ File 2  
-    (COFF format)  
-    </dl>
+|Header|
+|-------|
+|Contents of OBJ File N<br/>(COFF format)|
 
 ### Archive File Signature
 
@@ -2243,22 +2248,19 @@ The section contributions for an import can be inferred from a small set of info
 
 In an import library with the long format, a single member contains the following information:
 
-<dl> Archive member header  
-File header  
-Section headers  
-Data that corresponds to each of the section headers  
-COFF symbol table  
-Strings  
-  
-</dl>
+* Archive member header
+* File header
+* Section headers
+* Data that corresponds to each of the section headers
+* COFF symbol table
+* Strings
 
 In contrast, a short import library is written as follows:
 
-<dl> Archive member header  
-Import header  
-Null-terminated import name string  
-Null-terminated DLL name string  
-</dl>
+* Archive member header
+* Import header
+* Null-terminated import name string
+* Null-terminated DLL name string
 
 This is sufficient information to accurately reconstruct the entire contents of the member at the time of its use.
 

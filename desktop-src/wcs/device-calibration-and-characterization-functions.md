@@ -27,7 +27,6 @@ keywords:
 - device calibration
 - calibration
 - characterization
-ms.localizationpriority: high
 
 
 ms.topic: article

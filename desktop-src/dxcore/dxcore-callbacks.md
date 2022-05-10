@@ -1,7 +1,6 @@
 ---
 title: DXCore callbacks
 description: The following callbacks are declared in dxcore_interface.h.
-ms.localizationpriority: low
 ms.topic: reference
 ms.date: 06/20/2019
 ---

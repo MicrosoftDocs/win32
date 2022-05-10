@@ -4,19 +4,22 @@ ms.assetid: a75e6666-e6c0-4a54-bc88-835fa012542f
 title: D3DXMatrixPerspectiveFovRH function (D3DX10Math.h)
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DXMatrixPerspectiveFovRH
-api_type: 
+api_type:
 - LibDef
-api_location: 
+api_location:
 - D3DX10.lib
 - D3DX10.dll
 ---
 
 # D3DXMatrixPerspectiveFovRH function (D3DX10Math.h)
+
+> [!Note]
+> The D3DX10 utility library is deprecated. We recommend that you use [DirectXMath](../dxmath/pg-xnamath-migration-d3dx.md) instead.
 
 Builds a right-handed perspective projection matrix based on a field of view.
 
@@ -104,7 +107,7 @@ xScale     0          0              0
 0          0      zn*zf/(zn-zf)      0
 where:
 yScale = cot(fovY/2)
-    
+
 xScale = yScale / aspect ratio
 ```
 

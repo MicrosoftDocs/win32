@@ -10,7 +10,6 @@ keywords:
 - colors,color spaces
 - color spaces,about
 - color channels
-ms.localizationpriority: high
 
 
 ms.topic: article

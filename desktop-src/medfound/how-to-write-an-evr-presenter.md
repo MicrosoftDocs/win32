@@ -419,16 +419,13 @@ The presenter must implement the [**IMFClockStateSink**](/windows/desktop/api/mf
 
 Here are some guidelines for implementing the methods in this interface. All of the methods should fail if the presenter is shut down.
 
-
-
-
-| 
-|
+| Method| Description |
+|-----|-----|
 | <a href="/windows/desktop/api/mfidl/nf-mfidl-imfclockstatesink-onclockstart"><strong>OnClockStart</strong></a> | <ol><li>Set the presenter state to started.</li><li>If the <em>llClockStartOffset</em> is not <strong>PRESENTATION_CURRENT_POSITION</strong>, flush the presenter's queue of samples. (This is equivalent to receiving an <strong>MFVP_MESSAGE_FLUSH</strong> message.)</li><li>If a previous frame-step request is still pending, process the request (see <a href="#frame-stepping">Frame Stepping</a>). Otherwise, try to process output from the mixer (see <a href="#processing-output">Processing Output</a>.</li></ol> | 
 | <a href="/windows/desktop/api/mfidl/nf-mfidl-imfclockstatesink-onclockstop"><strong>OnClockStop</strong></a> | <ol><li>Set the presenter state to stopped.</li><li>Flush the presenter's queue of samples.</li><li>Cancel any pending frame-step operation.</li></ol> | 
 | <a href="/windows/desktop/api/mfidl/nf-mfidl-imfclockstatesink-onclockpause"><strong>OnClockPause</strong></a> | Set the presenter state to paused. | 
 | <a href="/windows/desktop/api/mfidl/nf-mfidl-imfclockstatesink-onclockrestart"><strong>OnClockRestart</strong></a> | Treat the same as <a href="/windows/desktop/api/mfidl/nf-mfidl-imfclockstatesink-onclockstart"><strong>OnClockStart</strong></a> but do not flush the queue of samples. | 
-| <a href="/windows/desktop/api/mfidl/nf-mfidl-imfclockstatesink-onclocksetrate"><strong>OnClockSetRate</strong></a> | <ol><li>If the rate is changing from zero to nonzero, cancel frame stepping.</li><li>Store the new clock rate. The clock rate affects when samples are presented. For more information, see <a href="#scheduling-samples">Scheduling Samples</a>.</li></ol> | 
+| <a href="/windows/desktop/api/mfidl/nf-mfidl-imfclockstatesink-onclocksetrate"><strong>OnClockSetRate</strong></a> | <ol><li>If the rate is changing from zero to nonzero, cancel frame stepping.</li><li>Store the new clock rate. The clock rate affects when samples are presented. For more information, see <a href="#scheduling-samples">Scheduling Samples</a>.</li></ol>|
 
 
 

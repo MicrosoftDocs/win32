@@ -1,7 +1,6 @@
 ---
 title: D3DPERF_SetOptions function
 description: Set profiler options specified by the target program.
-ms.localizationpriority: low
 ms.topic: reference
 ms.date: 04/06/2020
 req.lib: d3d9.lib

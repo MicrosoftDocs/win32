@@ -4,19 +4,22 @@ ms.assetid: cabb2888-76e4-403b-99ab-f7d62478bf43
 title: D3DXFloat16To32Array function (D3dx9math.h)
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DXFloat16To32Array
-api_type: 
+api_type:
 - LibDef
-api_location: 
+api_location:
 - d3dx9.lib
 - d3dx9.dll
 ---
 
 # D3DXFloat16To32Array function (D3dx9math.h)
+
+> [!Note]
+> The D3DX utility library is deprecated. We recommend that you use [DirectXMath](../dxmath/pg-xnamath-migration-d3dx.md) instead.
 
 Converts an array of 16-bit floats to 32-bit floats.
 

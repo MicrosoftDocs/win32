@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the DWORD value for the specified TAGID.
+description: Retrieves the DWORD value for the specified TAGID.
 ms.assetid: 6610e101-9068-4812-b0ca-528658b62535
 title: SdbReadDWORDTag function
 ms.topic: reference

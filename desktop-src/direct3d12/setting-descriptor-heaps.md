@@ -2,7 +2,6 @@
 title: Setting and Populating Descriptor Heaps
 description: The descriptor heap types that can be set on a command list are those that contain descriptors for which descriptor tables can be used (at most one of each at a time).
 ms.assetid: F0FF3D7C-1DAC-48C3-B47D-0378BE369F37
-ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
 ---

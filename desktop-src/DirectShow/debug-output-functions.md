@@ -79,7 +79,7 @@ Every module can set its own debugging level for each message type. (A *module* 
 
 **HKEY\_LOCAL\_MACHINE**\\**&lt;DebugRoot&gt;**\\**&lt;ModuleName&gt;**\\**&lt;MessageType&gt;**
 
-where *<Message Type>* is the message type minus the initial "LOG\_"; for example, **LOCKING** for LOG\_LOCKING messages. When a module is loaded, the debug library finds the module's logging levels in the registry. If the registry keys do not exist, the debug library creates them.
+where *\<Message Type\>* is the message type minus the initial "LOG\_"; for example, **LOCKING** for LOG\_LOCKING messages. When a module is loaded, the debug library finds the module's logging levels in the registry. If the registry keys do not exist, the debug library creates them.
 
 A module can also set its own levels at run time, using the [**DbgSetModuleLevel**](dbgsetmodulelevel.md) function. To send a message to the debug output, call the [**DbgLog**](dbglog.md) macro. The following example creates a level 3 message of type LOG\_TRACE:
 
@@ -98,7 +98,7 @@ The debug library uses whichever level is greater, the global level or the modul
 
 The debug output location is determined by another registry key:
 
-**HKEY\_LOCAL\_MACHINE**\\**&lt;DebugRoot&gt;**\\**<Modile Name>**\\**LogToFile**
+**HKEY\_LOCAL\_MACHINE**\\**&lt;DebugRoot&gt;**\\**\<Modile Name\>**\\**LogToFile**
 
 If the value of this key is `Console`, the output goes to the console window. If the value is `Deb`, `Debug`, `Debugger`, or an empty string, the output goes to the debugger window. Otherwise, the output is written to a file specified by the registry key.
 

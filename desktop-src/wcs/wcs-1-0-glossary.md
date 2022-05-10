@@ -18,7 +18,6 @@ keywords:
 - image color management,terms
 - color management,terms
 - colors,terms
-ms.localizationpriority: high
 
 
 ms.topic: article

@@ -2,7 +2,6 @@
 title: What's new in Direct3D 12
 description: This topic describes the most significant new Direct3D 12 documentation available for various releases.
 ms.assetid: 38F41E05-FECB-41DE-8D30-09733FBEAC48
-ms.localizationpriority: high
 ms.topic: article
 ms.date: 12/05/2019
 ---
@@ -12,6 +11,24 @@ ms.date: 12/05/2019
 This topic describes the most significant new Direct3D 12 documentation available for various releases.
 
 For info about obtaining and installing Direct3D, see [Direct3D 12 programming environment setup](./directx-12-programming-environment-set-up.md).
+
+## Direct3D 12 on Windows 11
+
+- [DirectX Ultimate](https://devblogs.microsoft.com/directx/directx-12-ultimate-getting-started-guide/) a.k.a. **D3D_FEATURE_LEVEL_12_2**.
+- [HLSL shader model 6.6](https://devblogs.microsoft.com/directx/hlsl-shader-model-6-6/)
+- [**ID3D12Device9**](/windows/win32/api/d3d12/nn-d3d12-id3d12device9) interface, and its methods. 
+
+See also the [DirectX Agility SDK 1.4](https://devblogs.microsoft.com/directx/gettingstarted-dx12agility/).
+
+## Windows 10 May 2020 Update
+
+These features and APIs were added or updated for Windows 10, version 2004 (10.0; Build 19041)&mdash;also known as Windows 10 May 2020 Update.
+
+- [**ID3D12Device7**](/windows/win32/api/d3d12/nn-d3d12-id3d12device7) interface, and its methods. 
+- [**ID3D12Device8**](/windows/win32/api/d3d12/nn-d3d12-id3d12device8) interface, and its methods. 
+- HLSL shader model 6.5 features: Direct3D 12 Raytracing (DXR) [Tier 1.1](https://devblogs.microsoft.com/directx/dxr-1-1/), [Mesh & Amplification Shaders](https://devblogs.microsoft.com/directx/coming-to-directx-12-mesh-shaders-and-amplification-shaders-reinventing-the-geometry-pipeline/), and [Sampler Feedback](https://devblogs.microsoft.com/directx/coming-to-directx-12-sampler-feedback-some-useful-once-hidden-data-unlocked/).
+- The [**D3D12_HEAP_FLAGS**](/windows/win32/api/d3d12/ne-d3d12-d3d12_heap_flags) enumeration has been updated with the addition of **D3D12_HEAP_FLAG_CREATE_NOT_RESIDENT** and **D3D12_HEAP_FLAG_CREATE_NOT_ZEROED**. See [More control over memory allocation](https://devblogs.microsoft.com/directx/coming-to-directx-12-more-control-over-memory-allocation/).
+- The [**D3D_SHADER_MODEL**](/windows/win32/api/d3d12/ne-d3d12-d3d_shader_model) enumeration has been updated with the addition of the **D3D_SHADER_MODEL_6_6** constant (an experimental-level feature).
 
 ## Direct3D 12 on Windows 7
 
@@ -44,8 +61,15 @@ The [**D3D12_RESOURCE_STATES**](/windows/win32/api/d3d12/ne-d3d12-d3d12_resource
 
 These features and APIs were added or updated for Windows 10, version 1809 (10.0; Build 17763)&mdash;also known as Windows 10 October 2018 Update.
 
-- [Direct3D 12 Raytracing](./direct3d-12-raytracing.md)
+- [Direct3D 12 Raytracing](./direct3d-12-raytracing.md) which uses HLSL shader model 6.3.
 - [Direct3D 12 Render Passes](./direct3d-12-render-passes.md)
+- [**ID3D12Device5**](/windows/win32/api/d3d12/nn-d3d12-id3d12device5) interface, and its methods.
+
+## Windows 10, version 1803
+
+These features and APIs were added or updated for Windows 10, version 1803 (10.0; Build 17134)&mdash;also known as Windows 10 April 2018 Update.
+
+- [**ID3D12Device4**](/windows/win32/api/d3d12/nn-d3d12-id3d12device4) interface, and its methods.
 
 ## Windows 10, version 1709
 

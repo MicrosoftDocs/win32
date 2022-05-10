@@ -529,11 +529,11 @@ The valid range of values for this field shall be:
 
 - At least 2<sup>20</sup>/ 2<sup>BytesPerSectorShift</sup>, which ensures the smallest volume is no less than 1MB
 
-- At most 2<sup>64</sup>- 1, the largest value this field can describe
+- At most 2<sup>64</sup>- 1, the largest value this field can describe.
 
-However, if the size of the Excess Space sub-region is 0, then the value
-of this field is ClusterHeapOffset + (2<sup>32</sup>- 11) \*
-2<sup>SectorsPerClusterShift</sup>.
+  However, if the size of the Excess Space sub-region is 0, then the largest value
+  of this field is ClusterHeapOffset + (2<sup>32</sup>- 11) \*
+  2<sup>SectorsPerClusterShift</sup>.
 
 #### 3.1.6 FatOffset Field
 
@@ -1332,7 +1332,7 @@ entry in a FAT represents exactly one cluster.
 <td>FatEntry[0]</td>
 <td>0</td>
 <td>4</td>
-<td>This field is mandatory and <a href="#412-fatentry1-field">Section 4.1.2</a> defines its contents.</td>
+<td>This field is mandatory and <a href="#411-fatentry0-field">Section 4.1.1</a> defines its contents.</td>
 </tr>
 <tr class="even">
 <td>FatEntry[1]</td>

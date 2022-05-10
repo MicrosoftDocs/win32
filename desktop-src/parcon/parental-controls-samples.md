@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Parental Controls Samples
 
-Sample code for Parental Controls is available under path <installation directory>\\Windows\\<version number>\\Samples\\Security\\ParentalControls. The samples are as follows:
+Sample code for Parental Controls is available under path \<installation directory\>\\Windows\\\<version number\>\\Samples\\Security\\ParentalControls. The samples are as follows:
 
 ## Utilities
 

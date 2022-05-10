@@ -8,7 +8,6 @@ keywords:
 - image color management,Windows Color System (WCS)
 - color management,Windows Color System (WCS)
 - colors,Windows Color System (WCS)
-ms.localizationpriority: high
 
 
 ms.topic: article

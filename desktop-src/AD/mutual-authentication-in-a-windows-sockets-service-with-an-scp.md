@@ -17,7 +17,7 @@ The topics in this section include code examples that show how to perform mutual
 **To register SPNs in a directory when a service is installed**
 
 1.  Call the [**DsGetSpn**](/windows/desktop/api/Ntdsapi/nf-ntdsapi-dsgetspna) function to compose service principal names (SPNs) for the service.
-2.  Call the [**DsWriteAccountSpn**](/windows/desktop/api/Ntdsapi/nf-ntdsapi-dswriteaccountspna) function to register the SPNs on the service account or computer account in whose context the service will run. This step must be performed by a domain administrator; an exception is that a service running under the LocalSystem account can register its SPN in the form "<service class>/&lt;host&gt;" on the computer account of the service host.
+2.  Call the [**DsWriteAccountSpn**](/windows/desktop/api/Ntdsapi/nf-ntdsapi-dswriteaccountspna) function to register the SPNs on the service account or computer account in whose context the service will run. This step must be performed by a domain administrator; an exception is that a service running under the LocalSystem account can register its SPN in the form "\<service class\>/&lt;host&gt;" on the computer account of the service host.
 
 **To verify configuration at service startup**
 

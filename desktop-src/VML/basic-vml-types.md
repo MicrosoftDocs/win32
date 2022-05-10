@@ -363,7 +363,7 @@ The definition of a color value must not refer to itself, either directly or ind
 
 ### HTML colors
 
-[HTML](https://www.w3.org/TR/wd-html40-970708/types.mdl#type-color) defines the following sixteen color names:
+[HTML](https://www.w3.org/TR/WD-html40-970708/types.html#h-6.3) defines the following sixteen color names:
 
 
 

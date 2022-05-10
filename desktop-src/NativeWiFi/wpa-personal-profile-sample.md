@@ -1,12 +1,12 @@
 ---
 description: Uses a pre-shared key for network authentication. This sample profile uses Wi-Fi Protected Access security running in Personal mode (WPA-Personal).
 ms.assetid: f04de28b-a98d-40cd-91c8-e446cf669555
-title: WPA-Personal Profile Sample
+title: WPA-Personal profile sample
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# WPA-Personal Profile Sample
+# WPA-Personal profile sample
 
 This sample profile uses a pre-shared key for network authentication. The key is shared with the client and the access point. This sample profile is configured to use Wi-Fi Protected Access security running in Personal mode (WPA-Personal). Temporal Key Integrity Protocol (TKIP) is used for encryption.
 
