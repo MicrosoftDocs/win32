@@ -24,7 +24,7 @@ Text Services Framework is designed for use by Component Object Model (COM) prog
 
 For the latest redistributable, download the [Windows 10 platform SDK](https://developer.microsoft.com/windows/downloads/windows-10-sdk).
 
-For more information about the requirements of specific API elements, see the Requirements section in the ](/windows/win32/tsf/text-services-framework-reference)[TFS reference documentation.
+For more information about the requirements of specific API elements, see the Requirements section in the [TFS reference documentation](/windows/win32/tsf/text-services-framework-reference).
 
 ## In this section
 
