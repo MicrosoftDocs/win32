@@ -16,7 +16,11 @@ The Activity Coordinator API coordinates execution of deferrable tasks on a syst
 
 ### Resource
 
-A resource is a physical component or attribute of the system which is consumed or affected by an application. Simple examples are traditional system resources like CPU, system-disk, and GPU. Less traditional resources include things like power availability (AC or DC power), user-idle, and system noise. · Condition – A condition is a qualitative description of a resource’s desired state as either good, medium, or not-applicable. A “good condition” means it is a “good time” to use a resource because there is unlikely to be contention for the resource as its consumption is low or it is otherwise available (e.g., AC power). Developers must choose what conditions they want to use for individual resources, such that they fit the needs of their workload and enable the API to best coordinate work among its consumers.
+A resource is a physical component or attribute of the system which is consumed or affected by an application. Simple examples are traditional system resources like CPU, system-disk, and GPU. Less traditional resources include things like power availability (AC or DC power) and user-idle.
+
+### Condition
+
+A condition is a qualitative description of a resource’s desired state as either good, medium, or not-applicable. A “good condition” means it is a “good time” to use a resource. A given resource-condition pair may be evaluated using a variety of dimensions. Some examples include but are not limited to: resource contention or usage (e.g. CPU usage), general availability of the resource (e.g. AC power), or even characteristics of the resource (e.g. thermal load on the CPU). Developers must choose what conditions they want to use for individual resources, such that they fit the needs of their workload and enable the API to best coordinate work among its consumers.
 
 ### Deferrable
 
