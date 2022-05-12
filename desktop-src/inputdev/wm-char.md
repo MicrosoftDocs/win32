@@ -89,7 +89,9 @@ Example from [Windows Classic Samples](https://github.com/microsoft/Windows-clas
 
 ## Remarks
 
-The **WM\_CHAR** message uses Unicode Transformation Format (UTF)-16.
+The **WM\_CHAR** message uses UTF-16 (16-bit Unicode Transformation Format) code points if the Unicode version of the [**RegisterClass**](/windows/win32/api/winuser/nf-winuser-registerclassw) function was used to register the window class. Otherwise, the system provides characters in the current process ANSI code page. For more information, see [Registering Window Classes](/windows/win32/intl/registering-window-classes) and [Use UTF-8 code pages in Windows apps](/windows/apps/design/globalizing/use-utf8-code-page).
+
+Since Windows Vista **WM\_CHAR** message can send [UTF-16 surrogate pairs](/windows/win32/intl/surrogates-and-supplementary-characters). [IS_HIGH_SURROGATE](/windows/win32/api/Winnls/nf-winnls-is_high_surrogate), [IS_LOW_SURROGATE](/windows/win32/api/winnls/nf-winnls-is_low_surrogate), and [IS_SURROGATE_PAIR](/windows/win32/api/winnls/nf-winnls-is_surrogate_pair) macros can be used to detect and combine them into one UTF-32 code point where appropriate.
 
 There is not necessarily a one-to-one correspondence between keys pressed and character messages generated, and so the information in the high-order word of the *lParam* parameter is generally not useful to applications. The information in the high-order word applies only to the most recent [**WM\_KEYDOWN**](wm-keydown.md) message that precedes the posting of the **WM\_CHAR** message.
 
