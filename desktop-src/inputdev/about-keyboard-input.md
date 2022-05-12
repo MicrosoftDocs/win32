@@ -130,15 +130,12 @@ case WM_SYSKEYUP:
 
     BOOL upFlag = (keyFlags & KF_UP) == KF_UP;                    // transition-state flag, 1 on keyup
 
-    // if we want to distinguish:
-    // - VK_LSHIFT and VK_RSHIFT
-    // - VK_LCONTROL and VK_RCONTROL
-    // - VK_LMENU and VK_RMENU
+    // if we want to distinguish these keys:
     switch (vkCode)
     {
-    case VK_SHIFT:
-    case VK_CONTROL:
-    case VK_MENU:
+    case VK_SHIFT:   // converts to VK_LSHIFT or VK_RSHIFT
+    case VK_CONTROL: // converts to VK_LCONTROL or VK_RCONTROL
+    case VK_MENU:    // converts to VK_LMENU or VK_RMENU
         vkCode = LOWORD(MapVirtualKeyW(scanCode, MAPVK_VSC_TO_VK_EX));
         break;
     }
@@ -158,9 +155,9 @@ The scan code is the value that the keyboard hardware generates when the user pr
 
 ### Extended-Key Flag
 
-The extended-key flag indicates whether the keystroke message originated from one of the additional keys on the enhanced keyboard. The extended keys consist of the ALT and CTRL keys on the right-hand side of the keyboard; the INS, DEL, HOME, END, PAGE UP, PAGE DOWN, and arrow keys in the clusters to the left of the numeric keypad; the NUM LOCK key; the BREAK (CTRL+PAUSE) key; the PRINT SCRN key; and the divide (/) and ENTER keys in the numeric keypad. The extended-key flag is set if the key is an extended key.
+The extended-key flag indicates whether the keystroke message originated from one of the additional keys on the Enhanced 101/102-key keyboard. The extended keys consist of the ALT and CTRL keys on the right-hand side of the keyboard; the INS, DEL, HOME, END, PAGE UP, PAGE DOWN, and arrow keys in the clusters to the left of the numeric keypad; the NUM LOCK key; the BREAK (CTRL+PAUSE) key; the PRINT SCRN key; and the divide (/) and ENTER keys in the numeric keypad. Right-hand SHIFT key is not considered as extended-key but have a separate scan code instead.
 
-If specified, the scan code was preceded by a prefix byte having the value 0xE0 (224).
+If specified, the scan code is consisting of a sequence of two bytes, where the 1st byte has 0xE0 value.
 
 ### Context Code
 
