@@ -100,12 +100,15 @@ The **lParam** parameter of a keystroke message contains additional information 
 
 An application can use the following values to get the keystroke flags from high-order word of the **lParam**.
 
-| Value                       | Description                                                          |
-|-----------------------------|----------------------------------------------------------------------|
-| **KF\_EXTENDED**<br/>0x0100 | Manipulates the [extended key flag](#extended-key-flag).             |
-| **KF\_ALTDOWN**<br/>0x2000  | Manipulates the [context code flag](#context-code).                  |
-| **KF\_REPEAT**<br/>0x4000   | Manipulates the [previous key state flag](#previous-key-state-flag). |
-| **KF\_UP**<br/>0x8000       | Manipulates the [transition state flag](#previous-key-state-flag).   |
+| Value                       | Description                                                                       |
+|-----------------------------|-----------------------------------------------------------------------------------|
+| **KF\_EXTENDED**<br/>0x0100 | Manipulates the [extended key flag](#extended-key-flag).                          |
+| **KF\_DLGMODE**<br/>0x0800  | Manipulates the dialog mode flag, which indicates whether a dialog box is active. |
+| **KF\_MENUMODE**<br/>0x1000 | Manipulates the menu mode flag, which indicates whether a menu is active.         |
+| **KF\_ALTDOWN**<br/>0x2000  | Manipulates the [context code flag](#context-code).                               |
+| **KF\_REPEAT**<br/>0x4000   | Manipulates the [previous key state flag](#previous-key-state-flag).              |
+| **KF\_UP**<br/>0x8000       | Manipulates the [transition state flag](#previous-key-state-flag).                |
+
 
 Example code:
 
