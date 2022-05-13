@@ -30,7 +30,7 @@ Additionally, the threshold to transition from a satisfied to unsatisfied resour
 
 ## Policy templates
 
-Developers can choose from a set of template policies and configure their own custom policies to define their desired conditions for various resources required by their workload. In the future, more resources whose states may otherwise be hard to describe, such as eco-friendliness, can be added without breaking existing clients or creating a disjoint API shape.
+Policy templates are a way for developers to configure their policies with pre-defined resource-conditions designed to meet the needs of most applications. A policy template is required when creating a policy but does not prevent further customization to meet their needs. An empty policy template is provided for developers wanting full control over their policy.
 
 ## Related topics
 
