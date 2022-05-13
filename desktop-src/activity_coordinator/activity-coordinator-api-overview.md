@@ -12,7 +12,7 @@ The Activity Coordinator API coordinates execution of deferrable tasks on a syst
 
 ## Usage
 
-Developers use the API by defining policies which describe the desired state of the system while executing the scheduled work. Processes then subscribe to get notified when the policy’s conditions are satisfied or unsatisfied. These notifications indicate when work should be started or stopped. The API offers a centralized way to determine what an “appropriate time” to perform work is. It allows the API to interpret what processes define as appropriate conditions. It then distributes notifications among registered processes on the system.
+Developers use the API by defining policies which describe the desired state of the system during which they want to execute their activities. By subscribing to these policies, developers get notified when to start or stop their activity based on the satisfaction of their policy’s conditions. The API coordinates these notifications among subscriptions on the system to provide a centralized determination of what is an “appropriate time” to perform deferrable work.
 Opting into the API does not prevent applications from running work at bad times. It relies on them to be good citizens. Additionally, using the API requires the calling process to be running. Applications should not rely on the Activity Coordinator API for high-priority work that needs to run irrespective of system conditions.
 
 **Mention other scheduling APIs here (task scheduler, BITS)?**
