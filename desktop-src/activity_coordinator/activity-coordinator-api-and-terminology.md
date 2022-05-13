@@ -65,7 +65,7 @@ The API allows the developer to do the following actions:
 - Configure a policy.
 - Subscribe / unsubscribe to notifications for policies.
 
-The API provides the flexibility of customizing policies to best fit the developer scenario from either an empty policy configuration or one of the template configurations which target the needs of most apps. In the simplest case:
+The API provides the flexibility of customizing policies to best fit the developer scenario, starting from either an empty policy configuration or one of the template configurations which target the needs of most apps. In the simplest case:
 
 - Allocate a policy using a template policy-ID within **ACTIVITY_COORDINATOR_POLICY_TEMPLATE**.
 
