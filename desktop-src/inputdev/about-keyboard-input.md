@@ -160,7 +160,7 @@ The scan code is the value that the keyboard hardware generates when the user pr
 
 The extended-key flag indicates whether the keystroke message originated from one of the additional keys on the Enhanced 101/102-key keyboard. The extended keys consist of the ALT and CTRL keys on the right-hand side of the keyboard; the INS, DEL, HOME, END, PAGE UP, PAGE DOWN, and arrow keys in the clusters to the left of the numeric keypad; the NUM LOCK key; the BREAK (CTRL+PAUSE) key; the PRINT SCRN key; and the divide (/) and ENTER keys in the numeric keypad. The right-hand SHIFT key is not considered an extended-key, it has a separate scan code instead.
 
-If specified, the scan code is consisting of a sequence of two bytes, where the 1st byte has 0xE0 value.
+If specified, the scan code consists of a sequence of two bytes, where the first byte has a value of 0xE0.
 
 ### Context Code
 
