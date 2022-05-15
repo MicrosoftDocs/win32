@@ -30,7 +30,7 @@ A window receives this message when the user chooses a command from the **Window
 
 ```cpp
  case WM_SYSCOMMAND:
-        if (wParam == SC_CLOSE)
+        if ((wParam & 0xFFF0) == SC_CLOSE)
         {
             EndDialog (hDlg, TRUE);
             return(TRUE);
