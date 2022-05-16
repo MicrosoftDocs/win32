@@ -14,6 +14,7 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_location: 
 - msitss55.dll
+- apss.dll
 ---
 
 # WMCreateStreamForURL function
