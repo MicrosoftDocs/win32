@@ -14,11 +14,11 @@ The Activity Coordinator API coordinates execution of deferrable tasks on a syst
 
 ## Developer audience
 
-The Activity Coordinator API is designed for use by professional C/C++ developers of Windows applications. Developers can use the API to get notifications of when the system is in the desired state to run a particular task. This feature is 64-bit on 64-bit Windows and 32-bit on 32-bit Windows.
+The Activity Coordinator API is designed for use by professional C/C++ developers of Windows applications. Developers can use the API to get notifications of when the system is in the desired state to run a particular task.
 
 ## Run-time requirements
 
-The Activity Coordinator API is available beginning with Win11_NEXT.
+The Activity Coordinator API is available beginning with Windows Insider Preview Build 22621.
 
 ## In this section
 
