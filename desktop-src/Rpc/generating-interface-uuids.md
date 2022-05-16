@@ -38,7 +38,7 @@ When you run the Uuidgen utility from the command line, you can use the followin
 
 | Uuidgen switch           | Description                                                                |
 |--------------------------|----------------------------------------------------------------------------|
-| **/I**                   | Outputs UUID to an IDL interface template.                                 |
+| **/i**                   | Outputs UUID to an IDL interface template.                                 |
 | **/s**                   | Outputs UUID as an initialized C structure.                                |
 | **/o**<*filename*> | Redirects output to a file; specified immediately after the **/o** switch. |
 | **/n**<*number*>   | Specifies the number of UUIDs to generate.                                 |
