@@ -135,6 +135,9 @@ For more information, see the [*GetMsgProc*](/previous-versions/windows/desktop/
 
 ### WH\_JOURNALPLAYBACK
 
+> [!WARNING]
+> Journaling Hooks APIs are unsupported starting in Windows 11 and will be removed in a future release. Because of this, we highly recommend calling the [**SendInput**](https://docs.microsoft.com/windows/win32/api/winuser/nf-winuser-sendinput) TextInput API instead.
+
 The **WH\_JOURNALPLAYBACK** hook enables an application to insert messages into the system message queue. You can use this hook to play back a series of mouse and keyboard events recorded earlier by using [WH\_JOURNALRECORD](#wh_journalrecord). Regular mouse and keyboard input is disabled as long as a **WH\_JOURNALPLAYBACK** hook is installed. A **WH\_JOURNALPLAYBACK** hook is a global hook—it cannot be used as a thread-specific hook.
 
 The **WH\_JOURNALPLAYBACK** hook returns a time-out value. This value tells the system how many milliseconds to wait before processing the current message from the playback hook. This enables the hook to control the timing of the events it plays back.
@@ -142,6 +145,9 @@ The **WH\_JOURNALPLAYBACK** hook returns a time-out value. This value tells the 
 For more information, see the [*JournalPlaybackProc*](/previous-versions/windows/desktop/legacy/ms644982(v=vs.85)) callback function.
 
 ### WH\_JOURNALRECORD
+
+> [!WARNING]
+> Journaling Hooks APIs are unsupported starting in Windows 11 and will be removed in a future release. Because of this, we highly recommend calling the [**SendInput**](https://docs.microsoft.com/windows/win32/api/winuser/nf-winuser-sendinput) TextInput API instead.
 
 The **WH\_JOURNALRECORD** hook enables you to monitor and record input events. Typically, you use this hook to record a sequence of mouse and keyboard events to play back later by using [WH\_JOURNALPLAYBACK](#wh_journalplayback). The **WH\_JOURNALRECORD** hook is a global hook—it cannot be used as a thread-specific hook.
 
