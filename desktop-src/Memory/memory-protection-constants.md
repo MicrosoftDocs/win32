@@ -4,7 +4,7 @@ ms.assetid: 09839db7-2118-4a7d-a707-a08c92bd600c
 title: Memory Protection Constants (WinNT.h)
 ms.topic: reference
 ms.custom: snippet-project
-ms.date: 05/02/2022
+ms.date: 05/18/2022
 ---
 
 # Memory Protection Constants
@@ -89,27 +89,14 @@ The following constants can only be used with the supported function when you sp
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                   |
 | Header<br/>                   | <dl> <dt>WinNT.h (include Windows.h)</dt> </dl> |
 
-
-
 ## See also
 
-<dl> <dt>
-
-[**CreateFileMapping**](/windows/desktop/api/WinBase/nf-winbase-createfilemappinga)
-</dt> <dt>
+[**CreateFileMapping**](/windows/win32/api/WinBase/nf-winbase-createfilemappinga)
 
 [Memory Protection](memory-protection.md)
-</dt> <dt>
 
 [**VirtualAlloc**](/windows/win32/api/memoryapi/nf-memoryapi-virtualalloc)
-</dt> <dt>
 
 [**VirtualAllocEx**](/windows/win32/api/memoryapi/nf-memoryapi-virtualallocex)
-</dt> <dt>
 
-[**LoadEnclaveData**](/windows/desktop/api/enclaveapi/nf-enclaveapi-loadenclavedata)
-</dt> </dl>
-
- 
-
- 
+[**LoadEnclaveData**](/windows/win32/api/enclaveapi/nf-enclaveapi-loadenclavedata)
