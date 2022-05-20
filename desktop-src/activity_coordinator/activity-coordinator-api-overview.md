@@ -32,7 +32,7 @@ The combination of resources and conditions allows developers to describe the de
 
 ## Policy templates
 
-Policy templates are a way for developers to configure their policies with pre-defined resource-conditions designed to meet the needs of most applications. A policy template is required when creating a policy but does not prevent further customization to meet their needs. An empty policy template is provided for developers wanting full control over their policy.
+Policy templates are a way for developers to configure their policies with pre-defined resource-conditions designed to meet the needs of most applications. A policy template is required when creating a policy and is used as a starting point to configure policies specific to the developer's needs. An empty policy template is provided for developers wanting full control over their policy.
 
 ## Related topics
 
