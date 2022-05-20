@@ -20,11 +20,7 @@ A resource is a physical component or attribute of the system which is consumed 
 
 ### Condition
 
-A condition is a qualitative description of a resource’s desired state as either **good**, **medium**, or **not applicable**. A _good condition_ means it is a _good time_ to use a resource. A given resource-condition pair may be evaluated using a variety of dimensions. Some examples include but are not limited to:
-
-- Resource contention or usage (e.g. CPU usage)
-- General availability of the resource (e.g. AC power)
-- Or even characteristics of the resource (e.g. thermal load on the CPU)
+A condition is a qualitative description of a resource’s desired state as either **good**, **medium**, or **not set**. At a basic level, a _good condition_ means it is a _good time_ to use a resource. A given resource-condition pair may be evaluated using a variety of dimensions.
 
 Developers must choose which conditions to use for individual resources, so they will fit the needs of their workload. This allows the API to best coordinate work among its consumers.
 
