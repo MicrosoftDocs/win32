@@ -14,7 +14,7 @@ Determine the Activity Coordinator Resources and the levels at which your activi
 
 ## Choosing Resources
 
-Choose resources derived from the performance trace. These resources should be the ones that your activity workload will have an impact on.
+Choose resources derived from the performance trace. These resources should be the ones that your activity workload will have an impact on. Do not forget resources you implicitly consume or affect, such as user-idle and power.
 
 ## Choosing Conditions
 
