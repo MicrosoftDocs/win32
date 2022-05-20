@@ -14,7 +14,7 @@ Let's consider the case of a music editing app. This app has high-priority backg
 
 For this scenario, we would like to re-index the catalog when the user isn’t present and when it's a good time to use the system-disk. We can specify these requirements using Activity Coordinator policies. A given machine, at a given point in time, may not necessarily meet all the requirements and may have different factors contributing to the satisfaction of these requirements. The Activity Coordinator API will use our policy to determine if the requirements have been met and send notifications for when to Start or Stop running our work.
 
-In this case, the **GOOD** policy template meets our needs as it tracks CPU, memory, system disk, power, and user-idle. The work itself has been broken down to happen in small chunks, so that we can adequately respond to notifications.
+In this case, the **GOOD** policy template meets our needs as it tracks CPU, memory, system disk, power, and user-idle. It's important to remember that even though our workload will primarily utilize the system-disk, the execution of our activity still consumes CPU, memory, and power. Our impact to these resources may also vary greatly between system configurations. For instance, a fast SSD may result in more CPU consumption and could even make the CPU a bottleneck. By configuring all the resources we affect, we can be sure we don't inadvertently interfere with the user experience or degrade system performance. Additionally, the work itself has been broken down to happen in small chunks, so that we can adequately respond to coordination notifications to avoid running outside of the desired conditions.
 
 ## Download the example project
 
