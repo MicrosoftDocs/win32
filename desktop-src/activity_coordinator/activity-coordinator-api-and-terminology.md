@@ -26,7 +26,7 @@ Developers must choose which conditions to use for individual resources, so they
 
 ### Deferrable
 
-**Deferrable tasks** are those tasks which don’t immediately affect the user-experience of an application, though the lack of execution over an extended period may still affect the overall experience. In general, these tasks don’t need to be run immediately and can defer their execution to a time when the system is in a desirable state. These are times when running the task does not interfere with other ongoing work in the system. Such tasks could include:
+**Deferrable tasks** are those tasks which don’t immediately affect the user-experience of an application, though the lack of execution over an extended period may still affect the overall experience. In general, these tasks don’t need to be run immediately and can defer their execution to a time when the system is in a desirable state. These are times when running the task does not interfere with the user's experience or system performance. Such tasks could include:
 
 - Re-indexing a media catalog
 - Training or updating a recommendation model
