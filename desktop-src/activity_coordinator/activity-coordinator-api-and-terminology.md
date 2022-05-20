@@ -16,7 +16,7 @@ The Activity Coordinator API **coordinates execution of deferrable tasks, called
 
 ### Resource
 
-A resource is a physical component or attribute of the system which is consumed or affected by an application. Simple examples are traditional system resources like CPU, system-disk, and GPU. Less traditional resources include things like power availability (AC or DC power) and user-idle.
+A resource is a physical component or attribute of the system which is consumed or affected by an activity. Simple examples are traditional system resources like CPU, system-disk, and GPU. Less traditional resources include things like power and user-idle.
 
 ### Condition
 
