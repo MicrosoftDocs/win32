@@ -46,7 +46,7 @@ When configuring a policy, it is recommended that the developer starts with the 
 
 ### Subscription
 
-Subscriptions are a notification mechanism that informs the developer when they should start or stop their activity. Developers subscribe to a policy with a callback, which the API calls with notifications to start or stop their activity. These notifications are based on the resource conditions of the subscribed policy and coordination decisions made by the API.
+Subscriptions are the coordination mechanism for activities. Developers subscribe to a policy with a callback, which the API calls with coordination notifications. These notifications inform the developer when they should start/resume or stop/pause their activity. Notifications are based on the resource conditions of the subscribed policy, as configured at time of subscription, and coordination decisions made by the API.
 
 ### Policy template
 
