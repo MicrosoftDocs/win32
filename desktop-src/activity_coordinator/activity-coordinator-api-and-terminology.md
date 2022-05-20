@@ -40,7 +40,9 @@ An **activity** is a **deferrable unit of work** as defined by the developer. Ac
 
 Policies define what an **ideal time** time to run means by describing the desired conditions of various resources required to run or impacted by the developer’s activity. A policy is formed by several pairs of resources and conditions, defining individual **resource conditions**.
 
-A policy may specify conditions for resources like Power, Memory, and CPU, but also exclude resources like GPU based on their workload relevance. A policy is considered **open** when all resource conditions are met and **closed** otherwise. Policies do not describe how much of a given resource an activity is expected to consume. When configuring a policy, it is recommended that the developer starts with the best (**good**) condition for each resource so that the API can help them run at the best times, when there is least likely to be resource contention. Conditions may be lowered (e.g., from **good** to **medium**) afterwards if the policy does not open frequently enough or long enough to meet the needs of their workload.
+A policy may specify conditions for resources like Power, Memory, and CPU, but also exclude resources like GPU based on their relevance. A policy is considered **open** when all resource conditions are met and **closed** otherwise. Policies do not describe how much of a given resource an activity is expected to consume. The API uses policy configurations to make coordination decisions among API consumers.
+
+When configuring a policy, it is recommended that the developer starts with the best (**good**) condition for each resource so that the API can help them run at the best times, when execution is least likely to impact the user's experience or system performance. Conditions may be lowered (e.g., from **good** to **medium**) afterwards if the activity is not notified to run frequently enough or long enough to meet the developer's needs.
 
 ### Subscription
 
