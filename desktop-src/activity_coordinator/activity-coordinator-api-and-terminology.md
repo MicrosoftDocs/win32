@@ -50,7 +50,7 @@ Subscriptions are the coordination mechanism for activities. Developers subscrib
 
 ### Policy template
 
-A member of the enum **ACTIVITY_COORDINATOR_POLICY_TEMPLATE**. These can be used when creating a policy to pre-configure it with reasonable conditions to perform most work with minimal system impact.
+A member of the enum **ACTIVITY_COORDINATOR_POLICY_TEMPLATE**. These can be used when creating a policy to pre-configure it with reasonable conditions designed to meet the common needs of most activities and minimize impact to the user.
 
 ### Downgrade
 
