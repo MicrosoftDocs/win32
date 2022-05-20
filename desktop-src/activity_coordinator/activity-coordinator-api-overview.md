@@ -14,7 +14,7 @@ The Activity Coordinator API coordinates execution of **deferrable tasks**, call
 
 Developers use the API by defining policies which describe the desired state of the system during which they want to execute their activities. By subscribing to these policies, developers get notified when to start or stop their activity based on the satisfaction of their policy's conditions. The API coordinates these notifications among subscriptions on the system to provide a centralized determination of what is an **appropriate time** to perform deferrable work.
 
-Using the API does not prevent applications from running work at bad times. It relies on them to be good citizens. Additionally, using the API requires the calling process to be running. Applications should not rely on the Activity Coordinator API for high-priority work that needs to run irrespective of system conditions.
+Using the API does not prevent applications from running work as they see fit. It relies on them to be good citizens, choosing appropriate policies and making execution decisions in response to API notifications. Additionally, using the API requires the calling process to be running. Applications should not rely on the Activity Coordinator API for high-priority work that needs to run irrespective of system conditions.
 
 Windows has several APIs available to developers for deferring or scheduling tasks. Use the following guide to determine which API is best for your application.
 
