@@ -78,7 +78,7 @@ The following constants can only be used with the supported function when you sp
 | Constant | Description | Supported function |
 |:-----|:-----|:-----|
 | <span id="PAGE_ENCLAVE_DECOMMIT"></span><span id="page_enclave_decommit"></span><dl> <dt>**PAGE\_ENCLAVE\_DECOMMIT**</dt> </dl> | Indicates that the page will be protected to prevent further use in an enclave.<br/> **This flag must not be combined with any other flags.**<br/> **This flag is only valid for SGX2 enclaves.**<br/> | [**VirtualProtect**](/windows/win32/api/memoryapi/nf-memoryapi-virtualprotect) |
-| <span id="PAGE_ENCLAVE_THREAD_CONTROL"></span><span id="page_enclave_thread_control"></span><dl> <dt>**PAGE\_ENCLAVE\_THREAD\_CONTROL**</dt> </dl> | The page contains a thread control structure (TCS).<br/> | [**LoadEnclaveData**](/windows/win32/api/enclaveapi/nf-enclaveapi-loadenclavedata) |
+| <span id="PAGE_ENCLAVE_THREAD_CONTROL"></span><span id="page_enclave_thread_control"></span><dl> <dt>**PAGE\_ENCLAVE\_THREAD\_CONTROL**</dt> </dl> | The page contains a thread control structure (TCS).<br/> | [**LoadEnclaveData**](/windows/win32/api/enclaveapi/nf-enclaveapi-loadenclavedata)<br/>[**VirtualProtect**](/windows/win32/api/memoryapi/nf-memoryapi-virtualprotect) |
 | <span id="PAGE_ENCLAVE_UNVALIDATED"></span><span id="page_enclave_unvalidated"></span><dl> <dt>**PAGE\_ENCLAVE\_UNVALIDATED**</dt> </dl>           | The page contents that you supply are excluded from measurement with the EEXTEND instruction of the Intel SGX programming model.<br/> | [**LoadEnclaveData**](/windows/win32/api/enclaveapi/nf-enclaveapi-loadenclavedata) |
 
 ## Requirements
