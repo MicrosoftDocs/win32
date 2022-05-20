@@ -26,7 +26,7 @@ Windows has several APIs available to developers for deferring or scheduling tas
 
 ## Policies, resources, and conditions
 
-Policies describe the conditions of many system resources. **Link other doc here with terminology.** Developers configure policies by associating each resource with a desired “condition” to begin using that resource. **Link to Guidance for Choosing a Policy here.** Conditions describe the qualitative state of a resource and may be evaluated by factors.
+Policies describe the conditions of many system resources. Developers configure policies by associating each resource with a desired “condition” to begin using that resource. Conditions describe the qualitative state of a resource and may be evaluated by factors.
 
 The combination of resources and conditions allows developers to describe the desired state of the system to help ensure that running their workload does not adversely impact the user experience or system performance. As the system state is always changing, subscribing to these policies provides notifications of when to start or stop work based on whether the policy is satisfied (open) or unsatisfied (closed).
 
