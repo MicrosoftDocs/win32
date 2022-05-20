@@ -20,7 +20,7 @@ Windows has several APIs available to developers for deferring or scheduling tas
 
 | API | Intended use |
 |-----|-----|
-| Activity Coordinator | Use Activity Coordinator to coordinate execution of deferrable tasks on a system. |
+| Activity Coordinator | Use Activity Coordinator to coordinate execution of deferrable tasks based on desired system conditions. |
 | [Background Intelligent Transfer Service (BITS)](../Bits/background-intelligent-transfer-service-portal.md) | BITS is used by programmers and system administrators to download files from or upload files to HTTP web servers and SMB file shares. It will take the cost of the transfer into consideration, as well as the network usage so that the user's foreground work has as little impact as possible. |
 | [Task Scheduler](../taskschd/task-scheduler-start-page.md) | The Task Scheduler enables you to automatically perform routine tasks on a chosen computer. Use this API to execute tasks such as starting an application, sending an email message, or showing a message box. Tasks can be scheduled to execute in response to events, or triggers. |
 
