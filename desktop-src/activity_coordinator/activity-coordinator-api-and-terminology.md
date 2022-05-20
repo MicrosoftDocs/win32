@@ -34,7 +34,7 @@ Developers must choose which conditions to use for individual resources, so they
 
 ### Activity
 
-An **activity** is a **deferrable unit of work** as defined by the developer. Activities inherently consume system resources to execute, and developers must understand how their activity consumes these resources so they can appropriately use the API. Then, rather than immediately executing such work at potentially bad times, the API can be used to defer its execution to a more ideal time.
+An **activity** is a **deferrable unit of work** as defined by the developer. Activities inherently consume system resources to execute, which may result in impact to the user-experience. Developers must understand how their activity consumes these resources so they can appropriately use the API. Then, they can defer activity execution to a more ideal time using the API, rather than immediately executing such work at times which may significantly impact the user-experience,
 
 ### Policy
 
