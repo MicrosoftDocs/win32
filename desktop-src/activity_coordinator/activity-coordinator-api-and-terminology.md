@@ -26,7 +26,7 @@ Developers must choose which conditions to use for individual resources, so they
 
 ### Deferrable
 
-**Deferrable tasks** are those tasks which don’t immediately affect the user-experience of an application, though the lack of execution over an extended period may still affect the overall experience. In general, these tasks don’t need to be run immediately and can defer their execution to a time when the system is in a desirable state. These are times when running the task does not interfere with the user's experience or system performance. Such tasks could include:
+**Deferrable tasks** are those tasks which don’t immediately affect the user experience of an application, though the lack of execution over an extended period may still affect the overall experience. In general, these tasks don’t need to be run immediately and can defer their execution to a time when the system is in a desirable state. These are times when running the task does not interfere with the user's experience or system performance. Such tasks could include:
 
 - Re-indexing a media catalog
 - Training or updating a recommendation model
@@ -34,7 +34,7 @@ Developers must choose which conditions to use for individual resources, so they
 
 ### Activity
 
-An **activity** is a **deferrable unit of work** as defined by the developer. Activities inherently consume system resources to execute, which may result in impact to the user-experience. Developers must understand how their activity consumes these resources so they can appropriately use the API. Then, they can defer activity execution to a more ideal time using the API, rather than immediately executing such work at times which may significantly impact the user-experience,
+An **activity** is a **deferrable unit of work** as defined by the developer. Activities inherently consume system resources to execute, which may result in impact to the user experience. Developers must understand how their activity consumes these resources so they can appropriately use the API. Then, they can defer activity execution to a more ideal time using the API, rather than immediately executing such work at times which may significantly impact the user experience.
 
 ### Policy
 
