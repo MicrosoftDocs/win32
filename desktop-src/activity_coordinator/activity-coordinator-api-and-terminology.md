@@ -54,7 +54,7 @@ A member of the enum **ACTIVITY_COORDINATOR_POLICY_TEMPLATE**. These can be used
 
 ### Downgrade
 
-You can **downgrade** a policy or resource by changing from better to lesser conditions to make it more permissive and increase the likelihood of the resource's or policy's conditions being satisfied. For example, you can downgrade a **good** condition for **CPU** by changing it to a **medium** condition. A medium condition has less restrictive requirements and is therefore more likely to be met. At the policy level, this increases the likelihood that the policy will open (all resource conditions are satisfied) more frequently and for longer periods of time, keeping in mind that these may be less optimal times to run in the broader context of the system.
+You can **downgrade** a policy or resource by changing from better to lesser conditions to make it more permissive and increase the likelihood of the policy's conditions being satisfied. For example, you can downgrade a **good** condition for **CPU** by changing it to a **medium** condition. A medium condition has less restrictive requirements and is therefore more likely to be met. At the policy level, this increases the likelihood that the policy will open (all resource conditions are satisfied) more frequently and for longer periods of time, keeping in mind that these may be times when there is greater likelihood of causing user impact or degrading system performance.
 
 ## Available actions
 
