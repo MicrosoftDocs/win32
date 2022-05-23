@@ -71,7 +71,7 @@ Your application can specify a coarse pixel size using the [**ID3D12GraphicsComm
 Values for this state are expressed through the [**D3D12_SHADING_RATE**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_shading_rate) enumeration.
 
 #### Coarse pixel size support
-The shading rates 1x1, 1x2, 2x2, and 2x2 are supported on all tiers.
+The shading rates 1x1, 1x2, 2x1, and 2x2 are supported on all tiers.
 
 There is a capability, *AdditionalShadingRatesSupported*, to indicate whether 2x4, 4x2, and 4x4 are supported on the device.
 
