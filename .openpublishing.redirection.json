@@ -42639,6 +42639,11 @@
       "source_path": "desktop-src/direct3d12/gpu-tensorflow-wsl.md",
       "redirect_url": "/windows/ai/directml/gpu-tensorflow-wsl",
       "redirect_document_id": false
+},
+{
+      "source_path": "desktop-src/delivery_optimization/index.md",
+      "redirect_url": "/windows/win32/delivery_optimization/delivery-optimization-portal",
+      "redirect_document_id": false
 }
   ]
 }

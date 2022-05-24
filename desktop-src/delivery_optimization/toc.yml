@@ -24,13 +24,13 @@
       - name: "DeliveryOptimizationFileProperty"
         href: deliveryoptimizationfileproperty.md
       - name: "DODownloadCostPolicy"
-        href: ./deliveryoptimizationdownloadtypes/ne-deliveryoptimizationdownloadtypes-dodownloadcostpolicy.md
+        href: /windows/win32/api/deliveryoptimization/ne-deliveryoptimization-dodownloadcostpolicy
       - name: "DODownloadProperty"
-        href: ./deliveryoptimizationdownloadtypes/ne-deliveryoptimizationdownloadtypes-dodownloadproperty.md
+        href: /windows/win32/api/deliveryoptimization/ne-deliveryoptimization-dodownloadproperty
       - name: "DODownloadPropertyEx"
         href: ./dodownloadinternal/ne-dodownloadinternal-dodownloadpropertyex.md
       - name: "DODownloadState"
-        href: ./deliveryoptimizationdownloadtypes/ne-deliveryoptimizationdownloadtypes-dodownloadstate.md
+        href: /windows/win32/api/deliveryoptimization/ne-deliveryoptimization-dodownloadstate
       - name: "DownloadMode"
         href: downloadmode.md
       - name: "SwarmStatus"
@@ -205,22 +205,22 @@
           - name: "Skip method"
             href: ienumbackgroundcopyfiles-skip.md
       - name: "IDODownload"
-        href: ./do/nn-do-idodownload.md
+        href: /windows/win32/api/deliveryoptimization/nn-deliveryoptimization-idodownload
         items: 
         - name: "Abort method"
-          href: ./do/nf-do-idodownload-abort.md
+          href: /windows/win32/api/deliveryoptimization/nf-deliveryoptimization-idodownload-abort
         - name: "Finalize method"
-          href: ./do/nf-do-idodownload-finalize.md
+          href: /windows/win32/api/deliveryoptimization/nf-deliveryoptimization-idodownload-finalize
         - name: "GetProperty method"
-          href: ./do/nf-do-idodownload-getproperty.md
+          href: /windows/win32/api/deliveryoptimization/nf-deliveryoptimization-idodownload-getproperty
         - name: "GetStatus method"
-          href: ./do/nf-do-idodownload-getstatus.md
+          href: /windows/win32/api/deliveryoptimization/nf-deliveryoptimization-idodownload-getstatus
         - name: "Pause method"
-          href: ./do/nf-do-idodownload-pause.md
+          href: /windows/win32/api/deliveryoptimization/nf-deliveryoptimization-idodownload-pause
         - name: "SetProperty method"
-          href: ./do/nf-do-idodownload-setproperty.md
+          href: /windows/win32/api/deliveryoptimization/nf-deliveryoptimization-idodownload-setproperty
         - name: "Start method"
-          href: ./do/nf-do-idodownload-start.md
+          href: /windows/win32/api/deliveryoptimization/nf-deliveryoptimization-idodownload-start
       - name: "IDODownloadInternal"
         href: ./dodownloadinternal/nn-dodownloadinternal-idodownloadinternal.md
         items: 
@@ -229,17 +229,17 @@
         - name: "SetPropertyEx method"
           href: ./dodownloadinternal/nf-dodownloadinternal-idodownloadinternal-setpropertyex.md
       - name: "IDODownloadStatusCallback"
-        href: ./do/nn-do-idodownloadstatuscallback.md
+        href: /windows/win32/api/deliveryoptimization/nn-deliveryoptimization-idodownloadstatuscallback
         items: 
         - name: "OnStatusChanged method"
-          href: ./do/nf-do-idodownloadstatuscallback-onstatuschanged.md
+          href: /windows/win32/api/deliveryoptimization/nf-deliveryoptimization-idodownloadstatuscallback-onstatuschange
       - name: "IDOManager"
-        href: ./do/nn-do-idomanager.md
+        href: /windows/win32/api/deliveryoptimization/nn-deliveryoptimization-idomanager
         items: 
         - name: "CreateDownload method"
-          href: ./do/nf-do-idomanager-createdownload.md
+          href: /windows/win32/api/deliveryoptimization/nf-deliveryoptimization-idomanager-createdownload
         - name: "EnumDownloads method"
-          href: ./do/nf-do-idomanager-enumdownloads.md
+          href: /windows/win32/api/deliveryoptimization/nf-deliveryoptimization-idomanager-enumdownloads
     - name: "Delivery Optimization return values"
       href: do-return-values.md
     - name: "Delivery Optimization structures and unions"
@@ -258,12 +258,12 @@
       - name: "BITS_JOB_PROPERTY_VALUE"
         href: bits-job-property-value-.md
       - name: "DO_DOWNLOAD_ENUM_CATEGORY"
-        href: ./do/ns-do-do_download_enum_category.md
+        href: /windows/win32/api/deliveryoptimization/ns-deliveryoptimization-do_download_enum_category
       - name: "DO_DOWNLOAD_RANGE"
-        href: ./deliveryoptimizationdownloadtypes/ns-deliveryoptimizationdownloadtypes-do_download_range.md
-      - name: "DO_DOWNLOAD_RANGE_INFO"
-        href: ./do/ns-do-do_download_range_info.md
+        href: /windows/win32/api/deliveryoptimization/ns-deliveryoptimization-do_download_range
+      - name: "DO_DOWNLOAD_RANGES_INFO"
+        href: /windows/win32/api/deliveryoptimization/ns-deliveryoptimization-do_download_ranges_info
       - name: "DO_DOWNLOAD_STATUS"
-        href: ./do/ns-do-do_download_status.md
+        href: /windows/win32/api/deliveryoptimization/ns-deliveryoptimization-do_download_status
       - name: "DOSwarmStats"
         href: doswarmstats.md
