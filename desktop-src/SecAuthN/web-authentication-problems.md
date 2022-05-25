@@ -66,7 +66,7 @@ The Fiddler web debugger can be used with Windows 8 apps.
 
 3.  Add a firewall rule for incoming traffic to Fiddler.
 
-For more information, see [Blog on using Fiddler web debugger with Windows Store apps](/windows/win32/win7appqual/fiddler-web-debugger-tool).
+For more information, see [About the Fiddler web debugger tool](/windows/win32/win7appqual/fiddler-web-debugger-tool).
 
 ## Related topics
 
