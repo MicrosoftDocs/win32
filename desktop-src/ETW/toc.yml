@@ -141,9 +141,24 @@
         href: /windows/desktop/api/Evntprov/nf-evntprov-eventdescsetversion
       - name: "EventDescZero"
         href: /windows/desktop/api/Evntprov/nf-evntprov-eventdesczero
+    - name: "Event Tracing Functions"
+      href: /windows/desktop/api/_etw/#functions
+      items:
+      - name: "Event Consumer Functions (evntcons.h)"
+        href: /windows/win32/api/evntcons/#functions
+      - name: "Event Provider Functions (evntprov.h)"
+        href: /windows/win32/api/evntprov/#functions
+      - name: "Event Trace Functions (evntrace.h)"
+        href: /windows/win32/api/evntrace/#functions
+      - name: "Relogger Interfaces (relogger.h)"
+        href: /windows/win32/api/relogger/#interfaces
+      - name: "CveEventWrite (securitybaseapi.h)"
+        href: /windows/win32/api/securitybaseapi/nf-securitybaseapi-cveeventwrite
+      - name: "Trace Decoding Functions (tdh.h)"
+        href: /windows/win32/api/tdh/#functions
     - name: "Event Tracing MOF Classes"
       href: event-tracing-mof-classes.md
-      items: 
+      items:
       - name: "EventTrace"
         href: eventtrace.md
         items: 
