@@ -13,7 +13,7 @@ This overview describes how to create and use [**ID2D1SolidColorBrush**](/window
 
 ## Prerequisites
 
-This overview assumes that you are familiar with the structure of a basic Direct2D application, as described in [Creating a Simple Direct2D Application](direct2d-quickstart.md).
+This overview assumes that you are familiar with the structure of a basic Direct2D application, as described in [Create a simple Direct2D application](direct2d-quickstart.md).
 
 ## Brush types
 

@@ -17,7 +17,7 @@ The topics in this section describe how to get started creating Direct2D applica
 | Topic                                                                        | Description                                                                                  |
 |------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|
 | [Direct2D QuickStart](getting-started-with-direct2d.md)<br/>          | Summarizes the steps required to draw with Direct2D and provides example code.<br/>    |
-| [Creating a Simple Direct2D Application](direct2d-quickstart.md)<br/> | Walks you through the process of creating a window that renders Direct2D content.<br/> |
+| [Create a simple Direct2D application](direct2d-quickstart.md)<br/> | Walks you through the process of creating a window that renders Direct2D content.<br/> |
 
 
 

@@ -5,14 +5,14 @@
     href: what-s-new-in-direct2d-for-windows-8-consumer-preview.md
   - name: "About Direct2D"
     href: direct2d-overview.md
-  - name: "Direct2D Quickstart for Windows 8"
+  - name: "Direct2D quickstart for Windows 8"
     href: direct2d-quickstart-with-device-context.md
   - name: "Getting Started with Direct2D"
     href: getting-started-with-direct2d-nav.md
     items: 
     - name: "Direct2D QuickStart"
       href: getting-started-with-direct2d.md
-    - name: "Creating a Simple Direct2D Application"
+    - name: "Create a simple Direct2D application"
       href: direct2d-quickstart.md
   - name: "Programming Guide"
     href: programming-guide.md

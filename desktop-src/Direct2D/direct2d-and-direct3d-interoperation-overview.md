@@ -38,7 +38,7 @@ It contains the following sections.
 
 ## Prerequisites
 
-This overview assumes that you are familiar with basic Direct2D drawing operations. For a tutorial, see the [Direct2D QuickStart](direct2d-quickstart.md). It also assumes that you can program by using [Direct3D 10.1](/windows/desktop/direct3d10/d3d10-graphics).
+This overview assumes that you are familiar with basic Direct2D drawing operations. For a tutorial, see [Create a simple Direct2D application](direct2d-quickstart.md). It also assumes that you can program by using [Direct3D 10.1](/windows/desktop/direct3d10/d3d10-graphics).
 
 ## Supported Direct3D Versions
 

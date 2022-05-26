@@ -21,7 +21,7 @@ This topic describes how to use bitmaps and brushes to define opacity masks. It 
 
 ## Prerequisites
 
-This overview assumes that you are familiar with basic Direct2D drawing operations, as described in the [Creating a Simple Direct2D Application](direct2d-quickstart.md) walkthrough. You should also be familiar with the different types of brushes, as described in the [Brushes Overview](direct2d-brushes-overview.md).
+This overview assumes that you are familiar with basic Direct2D drawing operations, as described in the [Create a simple Direct2D application](direct2d-quickstart.md) walkthrough. You should also be familiar with the different types of brushes, as described in the [Brushes Overview](direct2d-brushes-overview.md).
 
 ## What Is an Opacity Mask?
 

@@ -1,5 +1,5 @@
 ---
-title: Direct2D API Overview
+title: Direct2D API overview
 description: Provides an overview of the Direct2D object model.
 ms.assetid: b1362ef6-40fc-4fa5-ba5b-22c622c39f04
 keywords:
@@ -27,7 +27,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Direct2D API Overview
+# Direct2D API overview
 
 Direct2D provides an API, similar to Direct3D, for use with C or C++. The API exposes a variety of drawing-related functionality:
 
