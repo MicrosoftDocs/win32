@@ -10,7 +10,7 @@ ms.date: 04/28/2022
 
 ## Example project overview
 
-Let's consider the case of a music editing app. This app has high-priority background tasks that service user requests, like publishing content to cloud storage. There are also low-priority background tasks that support user interaction, like providing automatic recommendations to improve a composition while editing. Lastly, there are a set of deferred tasks that do not need to happen at any specific time without the user’s request, which our focus in this example. In particular, we would like to periodically retrain the recommendation model when user impact is minimal. We can use the Activity Coordinator API to achieve this.
+Let's consider the case of a music editing app. This app has high-priority background tasks that service user requests, like publishing content to cloud storage. There are also low-priority background tasks that support user interaction, like providing automatic recommendations to improve a composition while editing. Lastly, there are a set of deferred tasks that do not need to happen at any specific time without the user’s request, which is our focus in this example. In particular, we would like to periodically retrain the recommendation model when user impact is minimal. We can use the Activity Coordinator API to achieve this.
 
 For this scenario, we would like to retrain the model when the user isn’t present. The retraining workflow in this scenario is also a GPU consumer, so we also want to run when it's a good time to use the GPU. We can specify these requirements using Activity Coordinator policies. The Activity Coordinator API will use our policy to determine when the requirements are met and send notifications for when to start or stop running our work.
 

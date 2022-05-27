@@ -10,7 +10,7 @@ ms.date: 04/27/2022
 
 ## Understand your activity workload
 
-Determine the Activity Coordinator Resources and the levels at which your activity workload consumes them. Profiling the task using a performance trace is a good place to start off.
+Determine the Activity Coordinator Resources your task requires, and at which conditions your task should run. Profiling the task using a performance trace is a good place to start off.
 
 ## Choosing Resources
 
