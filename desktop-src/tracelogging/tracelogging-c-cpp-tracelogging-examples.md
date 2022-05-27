@@ -13,19 +13,17 @@ This topic contains C/C++ Tracelogging examples.
 > [!IMPORTANT]
 > Link advapi32.lib when compiling these examples.
 
- 
+- [Log intrinsic data types](#log-intrinsic-data-types)
+- [Name event fields](#name-event-fields)
+- [Log events verbosity level](#log-event-verbosity-level)
+- [Log events keywords](#log-event-keywords)
+- [Log array event data](#log-array-event-data)
+- [Log structure event data](#log-structure-event-data)
 
--   [Log intrinsic data types](#log-intrinsic-data-types)
--   [Name event fields](#name-event-fields)
--   [Log events verbosity level](#log-event-verbosity-level)
--   [Log events keywords](#log-event-keywords)
--   [Log array event data](#log-array-event-data)
--   [Log structure event data](#log-structure-event-data)
+## Log intrinsic data types
 
-### Log intrinsic data types
-
-This example shows how to log intrinsic data types such as integers, booleans, and so on.
-
+This example shows how to log intrinsic data types such as integers, booleans,
+and so on.
 
 ```C++
 void TraceLoggingSample::BasicDataTypes()
@@ -92,7 +90,7 @@ void TraceLoggingSample::BasicDataTypes()
         TraceLoggingValue(i64, "INT64"),
         TraceLoggingValue(f32, "float"),
         TraceLoggingValue(b, "BOOL"),         // This will be evaluated as INT32, not as BOOL
-        TraceLoggingValue(bcpp, "bool (C++)") 
+        TraceLoggingValue(bcpp, "bool (C++)")
         );
 
     TraceLoggingWrite(
@@ -105,7 +103,7 @@ void TraceLoggingSample::BasicDataTypes()
         TraceLoggingValue(9000000000000000000, "INT64"),
         TraceLoggingValue(3.14f, "float"),
         TraceLoggingValue((BOOL)TRUE, "BOOL"),      // This will be evaluated as INT32, not as BOOL
-        TraceLoggingValue((bool)true, "bool (C++)") 
+        TraceLoggingValue((bool)true, "bool (C++)")
         );
 
 #endif
@@ -155,12 +153,9 @@ void TraceLoggingSample::BasicDataTypes()
 }
 ```
 
-
-
 ### Name event fields
 
 The example shows how to name event fields.
-
 
 ```C++
 void TraceLoggingSample::NamingData()
@@ -179,24 +174,24 @@ void TraceLoggingSample::NamingData()
     TraceLoggingWrite(
         g_hMyComponentProvider,
         "Cat1",
-        TraceLoggingUInt32(Cat) 
+        TraceLoggingUInt32(Cat)
         );
 
     TraceLoggingWrite(
         g_hMyComponentProvider,
         "Cat2",
-        TraceLoggingValue(Cat)  
+        TraceLoggingValue(Cat)
         );
 
 
     /*
-    Use a different symbol for the value of the event's "Cat" field.  
+    Use a different symbol for the value of the event's "Cat" field.
     */
-    
+
     UINT32 Tiger = Cat;
-    
+
     /*
-    Now we need to explicitly name the datum or we will have events with a 
+    Now we need to explicitly name the datum or we will have events with a
     different field name ("Tiger").
     */
 
@@ -214,12 +209,9 @@ void TraceLoggingSample::NamingData()
 };
 ```
 
-
-
 ### Log event verbosity level
 
 This example shows how to log events by verbosity level.
-
 
 ```C++
 #include <winmeta.h> // for WINEVENT_LEVEL_* definitions
@@ -239,8 +231,8 @@ void TraceLoggingSample::LevelsAndKeywords()
     ULONG MySerialNumber = 12345;
 
     /*
-    The following is only logged when session verbosity level is 
-    WINEVENT_LEVEL_VERBOSE (5) or higher ...  
+    The following is only logged when session verbosity level is
+    WINEVENT_LEVEL_VERBOSE (5) or higher ...
     */
 
     TraceLoggingWrite(
@@ -253,8 +245,8 @@ void TraceLoggingSample::LevelsAndKeywords()
         );
 
     /*
-    TraceLoggingWrite will not complain if TraceLoggingLevel is invoked more than once.  
-    However, only the last level will be used.  
+    TraceLoggingWrite will not complain if TraceLoggingLevel is invoked more than once.
+    However, only the last level will be used.
     The following event is only logged at WINEVENT_LEVEL_VERBOSE or higher...
     */
 
@@ -270,12 +262,12 @@ void TraceLoggingSample::LevelsAndKeywords()
 }
 ```
 
-
-
 ### Log event keywords
 
-This example illustrates how to set event keywords. Event filtering can be done by level and keyword. For example, scenario completion events or failure events might be grouped under separate keywords so that you can easily filter those events.
-
+This example illustrates how to set event keywords. Event filtering can be done
+by level and keyword. For example, scenario completion events or failure events
+might be grouped under separate keywords so that you can easily filter those
+events.
 
 ```C++
 void TraceLoggingSample::CombineKeywords()
@@ -286,7 +278,7 @@ void TraceLoggingSample::CombineKeywords()
 
     #define MY_PROVIDER_KEYWORD_BLUE    0x1
     #define MY_PROVIDER_KEYWORD_YELLOW  0x2
-    #define MY_PROVIDER_KEYWORD_GREEN   (MY_PROVIDER_KEYWORD_BLUE | MY_PROVIDER_KEYWORD_YELLOW) 
+    #define MY_PROVIDER_KEYWORD_GREEN   (MY_PROVIDER_KEYWORD_BLUE | MY_PROVIDER_KEYWORD_YELLOW)
 
     PCWSTR Status = L"Feeling a bit green";
 
@@ -318,12 +310,9 @@ void TraceLoggingSample::CombineKeywords()
 }
 ```
 
-
-
 ### Log array event data
 
 This example shows how to log arrays as event data.
-
 
 ```C++
 void TraceLoggingSample::Arrays()
@@ -343,8 +332,8 @@ void TraceLoggingSample::Arrays()
     TraceLoggingWrite(
         g_hMyComponentProvider,
         "Variable Size Arrays",
-        TraceLoggingInt32Array(IntValsVar, (UINT16)cIntVals, "Variable size int array"), 
-        TraceLoggingInt32Array(IntValsVar, 5, "Variable size int array")  
+        TraceLoggingInt32Array(IntValsVar, (UINT16)cIntVals, "Variable size int array"),
+        TraceLoggingInt32Array(IntValsVar, 5, "Variable size int array")
         );
 
 
@@ -357,20 +346,17 @@ void TraceLoggingSample::Arrays()
 
     TraceLoggingWrite(
         g_hMyComponentProvider,
-        "Constant Size Arrays", 
-        TraceLoggingInt32FixedArray(IntValsFixed, _countof(IntValsFixed), "Constant size int array")      
+        "Constant Size Arrays",
+        TraceLoggingInt32FixedArray(IntValsFixed, _countof(IntValsFixed), "Constant size int array")
         );
 
     delete [] IntValsVar;
 }
 ```
 
-
-
 ### Log structure event data
 
 This example shows how to log structure event data.
-
 
 ```C++
 void TraceLoggingSample::Structs()
@@ -383,18 +369,18 @@ void TraceLoggingSample::Structs()
     /*
     TraceLoggingStruct defines a group of related fields in an event.
     The first parameter, which must be a compile-time constant, indicates
-    the number of subsequent fields that are to be considered part of the 
+    the number of subsequent fields that are to be considered part of the
     struct.
     */
 
     TraceLoggingWrite(
         g_hMyComponentProvider,
         "FindFirstFile",
-        TraceLoggingStruct(5, "FileData"),                           
-            TraceLoggingString(FindData.cFileName, "Name"),   
-            TraceLoggingUInt32(FindData.dwFileAttributes, "Attributes"),              
-            TraceLoggingFileTime(FindData.ftCreationTime, "CreateTime"),              
-            TraceLoggingUInt32(FindData.nFileSizeHigh, "SizeHigh"),              
+        TraceLoggingStruct(5, "FileData"),
+            TraceLoggingString(FindData.cFileName, "Name"),
+            TraceLoggingUInt32(FindData.dwFileAttributes, "Attributes"),
+            TraceLoggingFileTime(FindData.ftCreationTime, "CreateTime"),
+            TraceLoggingUInt32(FindData.nFileSizeHigh, "SizeHigh"),
             TraceLoggingUInt32(FindData.nFileSizeLow, "SizeLow"),
         TraceLoggingPointer(hFind, "Result")
         );
@@ -422,13 +408,11 @@ void TraceLoggingSample::Structs()
 }
 ```
 
-
-
 ### How to fix TraceLogging C/C++ build errors
 
 Build Error
 
-``` syntax
+```syntax
 Linker error:
 Error   2       error LNK2001: unresolved external symbol __imp__EventSetInformation@20 App.xaml.obj    PrintPreview
 Error   3       error LNK2001: unresolved external symbol __imp__EventRegister@16       App.xaml.obj    PrintPreview
@@ -437,11 +421,3 @@ Error   3       error LNK2001: unresolved external symbol __imp__EventRegister@1
 Fix
 
 Fix this error by linking advapi32.lib in your project.
-
- 
-
- 
-
-
-
-
