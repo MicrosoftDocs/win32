@@ -71,10 +71,3 @@ case WM_NOTIFY:
 [Windows common controls demo (CppWindowsCommonControls)](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/OneCodeTeam/Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/%5BC++%5D-Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/C++/CppWindowsCommonControls)
 </dt> </dl>
 
- 
-
- 
-
-
-
-diff --git a/desktop-src/Controls/use-syslihnk-notifications.md b/desktop-src/Controls/use-syslihnk-notifications.md
