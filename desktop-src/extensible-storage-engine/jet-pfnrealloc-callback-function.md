@@ -1,5 +1,5 @@
 ---
-description: "Learn more about: JET_PFNREALLOC Callback Function"
+description: Describes the JET_PFNREALLOC Callback function and provides the function's parameters, return value, and requirements.
 title: JET_PFNREALLOC Callback Function
 TOCTitle: JET_PFNREALLOC Callback Function
 ms:assetid: 443d0b7e-1c3b-4584-9bc3-938724527313
