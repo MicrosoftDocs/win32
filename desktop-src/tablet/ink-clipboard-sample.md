@@ -90,7 +90,7 @@ private Pen dotPen = null;
 
 
 
-Finally, in the form's [Load](/dotnet/api/system.windows.forms.form.load?view=netcore-3.1) event handler, the form is initialized, an [InkCollector](/previous-versions/ms583683(v=vs.100)) object for the form is created and the ink collector is enabled.
+Finally, in the form's [Load](/dotnet/api/system.windows.forms.form.load?view=netcore-3.1&preserve-view=true) event handler, the form is initialized, an [InkCollector](/previous-versions/ms583683(v=vs.100)) object for the form is created and the ink collector is enabled.
 
 
 ```C++
@@ -180,7 +180,7 @@ private void SetColor(Color newColor)
 
 The [MouseMove](/previous-versions/ms567617(v=vs.100)) event handler checks the application mode. If the mode is MoveInk and a mouse button is down, then the handler moves the strokes by using the [Strokes](/previous-versions/ms552701(v=vs.100)) collection's Move method and updates the selection box. Otherwise, the handler checks to determine whether the selection rectangle contains the cursor, enables ink collection accordingly, and also sets the cursor accordingly.
 
-The [MouseDown](/previous-versions/ms567616(v=vs.100)) event handler checks the cursor setting. If the cursor is set to [SizeAll](/dotnet/api/system.windows.forms.cursors.sizeall?view=netcore-3.1), then the handler sets the application mode to MoveInk and records the cursor location. Otherwise, if there is a current selection, clear it.
+The [MouseDown](/previous-versions/ms567616(v=vs.100)) event handler checks the cursor setting. If the cursor is set to [SizeAll](/dotnet/api/system.windows.forms.cursors.sizeall?view=netcore-3.1&preserve-view=true), then the handler sets the application mode to MoveInk and records the cursor location. Otherwise, if there is a current selection, clear it.
 
 The [MouseUp](/previous-versions/ms567618(v=vs.100)) event handler checks the application mode. If the mode is MoveInk, then the handler sets the application mode based on the Select command's checked state.
 
@@ -192,7 +192,7 @@ Each packet's coordinate is converted to pixels, constrained to the drawing area
 
 The [Stroke](/previous-versions/ms567622(v=vs.100)) event is raised in the selection mode when a new stroke is drawn. If the application is in selection mode, this stroke corresponds to the lasso and it is necessary to update the selected strokes' information.
 
-The handler cancels the [Stroke](/previous-versions/ms567622(v=vs.100)) event, checks for more than two lasso points, copies the Points collection to an array of [Point](/dotnet/api/system.drawing.point?view=netcore-3.1) objects, and converts the coordinates of the points in the array from pixels to ink space. Then, the handler uses the [Ink](/previous-versions/ms583670(v=vs.100)) object's [HitTest](/previous-versions/dotnet/netframework-3.5/ms571330(v=vs.90)) method to get the strokes selected by the lasso points and updates the selection state of the form. Finally, the stroke that raised the event is removed from the collection of selected strokes, the lasso Points collection is emptied, and a helper method draws the selection rectangle.
+The handler cancels the [Stroke](/previous-versions/ms567622(v=vs.100)) event, checks for more than two lasso points, copies the Points collection to an array of [Point](/dotnet/api/system.drawing.point?view=netcore-3.1&preserve-view=true) objects, and converts the coordinates of the points in the array from pixels to ink space. Then, the handler uses the [Ink](/previous-versions/ms583670(v=vs.100)) object's [HitTest](/previous-versions/dotnet/netframework-3.5/ms571330(v=vs.90)) method to get the strokes selected by the lasso points and updates the selection state of the form. Finally, the stroke that raised the event is removed from the collection of selected strokes, the lasso Points collection is emptied, and a helper method draws the selection rectangle.
 
 
 ```C++
@@ -361,7 +361,7 @@ The DrawLasso helper method first removes the old connector line and then iterat
 
 ## Closing the Form
 
-The form's [Dispose](/dotnet/api/system.windows.forms.form.dispose?view=netcore-3.1) method disposes the [InkCollector](/previous-versions/ms583683(v=vs.100)) object, myInkCollector.
+The form's [Dispose](/dotnet/api/system.windows.forms.form.dispose?view=netcore-3.1&preserve-view=true) method disposes the [InkCollector](/previous-versions/ms583683(v=vs.100)) object, myInkCollector.
 
  
 

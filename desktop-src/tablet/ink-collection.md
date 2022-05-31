@@ -74,7 +74,7 @@ The [**InkOverlay**](inkoverlay-class.md) object is set to collect ink by defaul
 
 ### Cursor and Button Objects
 
-A cursor corresponds to the tip of the pen that is used on Tablet PC. For instance, a pencil has two ends. Usually, one end is used for writing and the other is used for erasing. These two ends correspond to two cursors. The [**Cursor**](/windows/desktop/api/msinkaut/nn-msinkaut-iinkcursor) class is not be confused with [**System.Windows.Forms.Cursor**](/dotnet/api/system.windows.forms.cursor?view=netcore-3.1).
+A cursor corresponds to the tip of the pen that is used on Tablet PC. For instance, a pencil has two ends. Usually, one end is used for writing and the other is used for erasing. These two ends correspond to two cursors. The [**Cursor**](/windows/desktop/api/msinkaut/nn-msinkaut-iinkcursor) class is not be confused with [**System.Windows.Forms.Cursor**](/dotnet/api/system.windows.forms.cursor?view=netcore-3.1&preserve-view=true).
 
 On Tablet PC, a cursor is usually defined to be used either for writing or erasing. A cursor may potentially change roles if the application enables this functionality. Some Tablet PC devices allow multiple pens. Each cursor has an associated cursor ID that is unique on the system. A cursor can have zero or more associated buttons. These buttons are provided to the application as CursorButton objects. The application can provide a specific [**DrawingAttributes**](inkdrawingattributes-class.md) object for any given cursor.
 
