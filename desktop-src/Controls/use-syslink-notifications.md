@@ -77,5 +77,4 @@ case WM_NOTIFY:
 
 
 
-
 diff --git a/desktop-src/Controls/use-syslihnk-notifications.md b/desktop-src/Controls/use-syslihnk-notifications.md
