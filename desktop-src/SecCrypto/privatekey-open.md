@@ -17,7 +17,7 @@ api_location:
 
 # PrivateKey.Open method
 
-\[The **Open** method is available for use in the operating systems specified in the Requirements section. Instead, use the [**X509Certificate2.PrivateKey Property**](/dotnet/api/system.security.cryptography.x509certificates.x509certificate2.privatekey?view=netcore-3.1) in the [**System.Security.Cryptography.X509Certificates**](/dotnet/api/system.security.cryptography.x509certificates.publickey.-ctor?view=netcore-3.1) namespace.\]
+\[The **Open** method is available for use in the operating systems specified in the Requirements section. Instead, use the [**X509Certificate2.PrivateKey Property**](/dotnet/api/system.security.cryptography.x509certificates.x509certificate2.privatekey?view=netcore-3.1&preserve-view=true) in the [**System.Security.Cryptography.X509Certificates**](/dotnet/api/system.security.cryptography.x509certificates.publickey.-ctor?view=netcore-3.1&preserve-view=true) namespace.\]
 
 The **Open** method accesses an existing [*key container*](../secgloss/k-gly.md). This method associates the key container to the [*certificate*](../secgloss/c-gly.md) that corresponds to the [*private key*](../secgloss/p-gly.md) by adding the CERT\_KEY\_PROV\_INFO\_PROP\_ID property using the specified information.
 
