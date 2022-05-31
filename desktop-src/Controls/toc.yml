@@ -5051,8 +5051,8 @@
           items: 
           - name: "How to Create SysLink Controls"
             href: create-syslink-controls.md
-          - name: "How to Use SysLihnk Notifications"
-            href: use-syslihnk-notifications.md
+          - name: "How to Use SysLink Notifications"
+            href: use-syslink-notifications.md
       - name: "SysLink Control Reference"
         href: bumper-syslink-syslink-control-reference.md
         items: 
