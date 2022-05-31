@@ -1,5 +1,5 @@
 ---
-description: The Win32\_NetworkAdapter class is deprecated. Use the MSFT\_NetAdapter class instead. The Win32\_NetworkAdapterWMI class represents a network adapter of a computer running a Windows operating system.
+description: Describes the Win32\_NetworkAdapterWMI class, which represents a network adapter of a computer running a Windows operating system.
 ms.assetid: f79cb2a1-a249-479d-a495-37a44fdea995
 ms.tgt_platform: multiple
 title: Win32_NetworkAdapter class
@@ -1905,7 +1905,7 @@ You can also use the following procedure to find the default adapter:
 
 ## Examples
 
-The [Two WMI Functions](https://Gallery.TechNet.Microsoft.Com/Two-WMI-Functions-94c31b5f) PowerShell code example in the TechNet Gallery uses **Win32\_NetworkAdapter** to re-create the Windows [Get-NetAdapter](/powershell/module/netadapter/get-netadapter?view=win10-ps) cmdlet.
+The [Two WMI Functions](https://Gallery.TechNet.Microsoft.Com/Two-WMI-Functions-94c31b5f) PowerShell code example in the TechNet Gallery uses **Win32\_NetworkAdapter** to re-create the Windows [Get-NetAdapter](/powershell/module/netadapter/get-netadapter) cmdlet.
 
 The [Get-ComputerInfo - Query Computer Info From Local/Remote Computers - (WMI)](https://Gallery.TechNet.Microsoft.Com/Get-ComputerInfo-Query-23dd6042) PowerShell sample on TechNet Gallery uses a number of calls to hardware and software, including **Win32\_NetworkAdapter**, to display information about a local or remote system.
 
