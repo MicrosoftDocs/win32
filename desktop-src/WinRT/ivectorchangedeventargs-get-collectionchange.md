@@ -1,5 +1,5 @@
 ---
-description: Gets the type of change that occurred in the vector.
+description: Describes the **IVectorChangedEventArgs::get_CollectionChange** method, and documents its syntax, parameters, return value, and requirements.
 ms.assetid: 213f4794-b972-44e3-a400-8a24b1583ddd
 title: IVectorChangedEventArgs::get_CollectionChange method (IVectorChangedEventArgs.h)
 ms.topic: reference
@@ -39,7 +39,7 @@ HRESULT get_CollectionChange(
 
 Type: **CollectionChange\***
 
-A value from the [**CollectionChange**](/uwp/api/Windows.Foundation.Collections.CollectionChange?view=winrt-19041) enumeration that describes the change.
+A value from the [**CollectionChange**](/uwp/api/Windows.Foundation.Collections.CollectionChange) enumeration that describes the change.
 
 </dd> </dl>
 
