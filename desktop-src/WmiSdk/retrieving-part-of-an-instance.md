@@ -1,5 +1,5 @@
 ---
-description: A partial-instance retrieval is when WMI retrieves only a subset of the properties of an instance.
+description: Provides a list of steps on how to retrieve part of a WMI instance using Powershell, C#, VBScript, and C++.
 ms.assetid: 6cc26b26-adc9-4a8a-b51e-9db94eb4295f
 ms.tgt_platform: multiple
 title: Retrieving Part of a WMI Instance
@@ -7,13 +7,13 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Retrieving Part of a WMI Instance
+# Retrieving part of a WMI instance
 
 A partial-instance retrieval is when WMI retrieves only a subset of the properties of an instance. For example, WMI could retrieve only the **Name** and **Key** properties. The most common use of partial-instance retrieval is on large enumerations that have multiple properties.
 
-## Retrieving Part of a WMI Instance Using PowerShell
+## Retrieving part of a WMI instance using PowerShell
 
-You can retrieve an individual property of an instance by using [Get-WmiObject](/powershell/module/microsoft.powershell.management/get-wmiobject?view=powershell-5.1); the property itself can be retrieved and displayed a number of ways. As with retrieving an instance, PowerShell will by default return all instances of a given class; you must specify a specific value if you wish to retrieve only a single instance.
+You can retrieve an individual property of an instance by using [Get-WmiObject](/powershell/module/microsoft.powershell.management/get-wmiobject); the property itself can be retrieved and displayed a number of ways. As with retrieving an instance, PowerShell will by default return all instances of a given class; you must specify a specific value if you wish to retrieve only a single instance.
 
 The following code example displays the volume serial number for an instance of the [**Win32\_LogicalDisk**](/windows/desktop/CIMWin32Prov/win32-logicaldisk) class.
 
@@ -33,7 +33,7 @@ $myDisk.DeviceID
 
 
 
-## Retrieving Part of a WMI Instance Using C# (System.Management)
+## Retrieving part of a WMI instance using C# (System.Management)
 
 You can retrieve an individual property of an instance by creating a new [ManagementObject](/dotnet/api/system.management.managementobject) using the details of a specific instance. You can then implicitly retrieve one or more properties of the instance with the [GetPropertyValue](/dotnet/api/system.management.managementbaseobject.getpropertyvalue#System_Management_ManagementBaseObject_GetPropertyValue_System_String_) method.
 
@@ -55,7 +55,7 @@ Console.WriteLine(myProperty);
 
 
 
-## Retrieving Part of a WMI Instance Using VBScript
+## Retrieving part of a WMI instance using VBScript
 
 You can retrieve an individual property of an instance by using [**GetObject**](/windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-getobject).
 
@@ -68,7 +68,7 @@ MsgBox (GetObject("WinMgmts:Win32_LogicalDisk='C:'").VolumeSerialNumber)
 
 
 
-## Retrieving Part of a WMI Instance Using C++
+## Retrieving part of a WMI instance using C++
 
 The following procedure is used to request a partial-instance retrieval using C++.
 
