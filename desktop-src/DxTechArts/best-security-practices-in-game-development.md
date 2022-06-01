@@ -1,6 +1,6 @@
 ---
 title: Best Security Practices in Game Development
-description: This article discusses best practices to use in game development.
+description: Describes best security practices to use in game development and provides examples of insecure code.
 ms.assetid: 20956529-42ed-722b-cfa3-e3230d89fdd7
 ms.topic: article
 ms.date: 05/31/2018
@@ -107,7 +107,7 @@ Using the **/SAFESEH** flag will instruct the linker to only generate an executa
 
 More information about [Buffer Security Check](https://msdn.microsoft.com/library/8dbf701c(vs.71).aspx) (**/GS**) and [Image has Safe Exception Handlers](https://msdn.microsoft.com/library/9a89h429(vs.71).aspx) (**/SAFESEH**) can be found in MSDN.
 
-See also info about Microsoft Visual Studio 2012's [**/SDL** flag](/cpp/build/reference/sdl-enable-additional-security-checks?view=vs-2019) and Visual Studio 2012's [enhancements to the **/GS** flag](https://www.microsoft.com/security/blog/2012/01/26/enhancements-to-gs-in-visual-studio-11/).
+See also info about Microsoft Visual Studio 2012's [**/SDL** flag](/cpp/build/reference/sdl-enable-additional-security-checks) and Visual Studio 2012's [enhancements to the **/GS** flag](https://www.microsoft.com/security/blog/2012/01/26/enhancements-to-gs-in-visual-studio-11/).
 
 </dd> <dt>
 

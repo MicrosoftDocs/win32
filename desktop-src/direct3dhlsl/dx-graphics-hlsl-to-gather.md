@@ -151,7 +151,7 @@ int4 main (float4 f : SV_Position) : SV_Target
 
     float4 f6 = TexCubeArray.Gather(s, f.xyzw);
 
-    return i1+i2+i3+i4+i5+int4(i6);
+    return i1+i2+i3+i4+i5+int4(f6);
 }
   
 ```

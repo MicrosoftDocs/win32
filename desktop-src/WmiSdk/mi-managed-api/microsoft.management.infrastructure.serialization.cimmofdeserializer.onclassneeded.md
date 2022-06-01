@@ -1,5 +1,5 @@
 ---
-description: "Learn more about: CimMofDeserializer.OnClassNeeded delegate (String, String, String)"
+description: Describes the **CimMofDeserializer.OnClassNeeded** delegate, and documents its syntax, parameters, and return value.
 title: CimMofDeserializer.OnClassNeeded delegate (Microsoft.Management.Infrastructure.Serialization)
 TOCTitle: CimMofDeserializer.OnClassNeeded delegate (Microsoft.Management.Infrastructure.Serialization)
 ms:assetid: T:Microsoft.Management.Infrastructure.Serialization.CimMofDeserializer.OnClassNeeded
@@ -73,21 +73,21 @@ Public Delegate Function OnClassNeeded (
 #### Parameters
 
   - serverName  
-    Type: [System.String](/dotnet/api/system.string?view=netframework-4.8)
+    Type: [System.String](/dotnet/api/system.string)
     
     The name of the server for the CIM class.
 
 <!-- end list -->
 
   - namespaceName  
-    Type: [System.String](/dotnet/api/system.string?view=netframework-4.8)
+    Type: [System.String](/dotnet/api/system.string)
     
     The name of the namespace for the CIM class.
 
 <!-- end list -->
 
   - className  
-    Type: [System.String](/dotnet/api/system.string?view=netframework-4.8)
+    Type: [System.String](/dotnet/api/system.string)
     
     The name of the class for the CIM class.
 

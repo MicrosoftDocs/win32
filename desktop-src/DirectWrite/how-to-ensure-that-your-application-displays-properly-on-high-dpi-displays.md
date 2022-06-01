@@ -1,67 +1,33 @@
 ---
-title: How to Ensure That Your Application Displays Properly on High-DPI Displays (DirectWrite)
+title: How to ensure that your application displays properly on high-DPI displays
 description: Describes how to ensure that your application creates a window that displays properly on high-DPI displays.
 ms.assetid: d174a337-c98e-46c7-86d2-c208900882d1
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 05/26/2022
 ---
 
-# How to Ensure That Your Application Displays Properly on High-DPI Displays
+# How to ensure that your application displays properly on high-DPI displays
 
-Although [DirectWrite](direct-write-portal.md) addresses many high-DPI issues for you, there are two steps you should take to ensure that your application works properly on high-DPI displays:
+Although [DirectWrite](direct-write-portal.md) addresses many high-DPI issues for you, there are two steps you should take to ensure that your application works properly on high-DPI displays.
 
--   [Step 1: Use the System DPI When Creating Windows](#step-1-use-the-system-dpi-when-creating-windows)
-    -   [Direct2D](#direct2d)
-    -   [GDI](#gdi)
--   [Step 2: Declare That the Application is DPI-Aware](#step-2-declare-that-the-application-is-dpi-aware)
--   [Related topics](#related-topics)
-
-## Step 1: Use the System DPI When Creating Windows
+## Step 1: Use the window's own DPI after creating it
 
 This can be done by using [Direct2D](../direct2d/direct2d-portal.md) or by using [GDI](../gdi/windows-gdi.md).
 
 ### Direct2D
 
-The [**ID2D1Factory**](/windows/win32/api/d2d1/nn-d2d1-id2d1factory) interface provides the [**GetDesktopDpi**](/windows/win32/api/d2d1/nf-d2d1-id2d1factory-getdesktopdpi) method for retrieving the system DPI. It provides the horizontal and vertical dimensions of the display in dots per inch (DPI). To use these values to set the width of a window, use the following formula:
+The [**GetDpiForWindow**](/windows/win32/api/winuser/nf-winuser-getdpiforwindow) function retrieves the dots per inch (dpi) value for a specified window. To use that value to set the width of a window, use the following formula:
 
-<*horizontal DPI*> \* <*width*, in pixels> / <*default horizontal DPI*>
+<*DPI*> \* <*width*, in pixels> / <*default DPI*>
 
-...where *horizontal DPI* is the value retrived by GetDpi and *default horizontal DPI* is 96. The formula is similar for the vertical size:
+...where *DPI* is the value retrived by **GetDpiForWindow**, and *default DPI* is 96. The formula is similar for the vertical axis:
 
-<*vertical DPI*> \* <*height*, in pixels> / <*default vertical DPI*>
+<*DPI*> \* <*height*, in pixels> / <*default vertical DPI*>
 
-...where *vertical DPI* is the value retrieved by the [**GetDesktopDpi**](/windows/win32/api/d2d1/nf-d2d1-id2d1factory-getdesktopdpi) method and *default vertical DPI* is 96.
+The code example in step 2.3 of [Create a simple Direct2D application](/windows/win32/Direct2D/direct2d-quickstart) retrieves a window's DPI, and then sets its size to 640 × 480, scaled to the DPI.
 
-The following code uses the [**GetDesktopDpi**](/windows/win32/api/d2d1/nf-d2d1-id2d1factory-getdesktopdpi) method to create a 640 x 480 window, scaled to the system DPI. (In the following code, *m\_spD2DFactory* is a smart pointer to an [**ID2D1Factory**](/windows/win32/api/d2d1/nn-d2d1-id2d1factory) instance.)
-
-
-```C++
-        // Because the CreateWindow function takes its size in pixels,
-        // obtain the system DPI and use it to scale the window size.
-        FLOAT dpiX, dpiY;
-
-        // The factory returns the current system DPI. This is also the value it will use
-        // to create its own windows.
-        m_pDirect2dFactory->GetDesktopDpi(&dpiX, &dpiY);
-
-
-        // Create the window.
-        m_hwnd = CreateWindow(
-            L"D2DDemoApp",
-            L"Direct2D Demo App",
-            WS_OVERLAPPEDWINDOW,
-            CW_USEDEFAULT,
-            CW_USEDEFAULT,
-            static_cast<UINT>(ceil(640.f * dpiX / 96.f)),
-            static_cast<UINT>(ceil(480.f * dpiY / 96.f)),
-            NULL,
-            NULL,
-            HINST_THISCOMPONENT,
-            this
-            );
-```
-
-
+> [!NOTE]
+> For a Universal Windows Platform (UWP) app, you can use the [**DisplayInformation::LogicalDpi**](/uwp/api/windows.graphics.display.displayinformation.logicaldpi) property.
 
 ### GDI
 
@@ -69,8 +35,7 @@ The following code uses the [**GetDesktopDpi**](/windows/win32/api/d2d1/nf-d2d1-
 
 The following code uses the [**GetDeviceCaps**](/windows/win32/api/wingdi/nf-wingdi-getdevicecaps) function to create a 640 x 480 window, scaled to the system DPI.
 
-
-```C++
+```cpp
 FLOAT dpiX, dpiY;
 
 HDC screen = GetDC(0);
@@ -79,29 +44,26 @@ dpiY = static_cast<FLOAT>(GetDeviceCaps(screen, LOGPIXELSY));
 ReleaseDC(0, screen);
 
 hWnd = CreateWindow(
-         TEXT("DirectWriteApp"),
-         TEXT("DirectWrite Demo App"),
-         WS_OVERLAPPEDWINDOW,
-         CW_USEDEFAULT,
-         CW_USEDEFAULT,
-         static_cast<INT>(dpiX * 640.f / 96.f),
-         static_cast<INT>(dpiY * 480.f / 96.f),
-         NULL,
-         NULL,
-         hInstance,
-         NULL
-         );
+    TEXT("DirectWriteApp"),
+    TEXT("DirectWrite Demo App"),
+    WS_OVERLAPPEDWINDOW,
+    CW_USEDEFAULT,
+    CW_USEDEFAULT,
+    static_cast<INT>(dpiX * 640.f / 96.f),
+    static_cast<INT>(dpiY * 480.f / 96.f),
+    NULL,
+    NULL,
+    hInstance,
+    NULL);
 ```
 
-
-
-## Step 2: Declare That the Application is DPI-Aware
+## Step 2: Declare that the application is DPI-aware
 
 When an application declares itself to be DPI-aware, it is a statement specifying that the application behaves well at DPI settings up to 200 DPI. In Windows Vista and Windows 7, when DPI virtualization is enabled, applications that are not DPI-aware are scaled, and applications receive virtualized data from the system APIs, such as the [**GetSystemMetric**](/windows/win32/api/winuser/nf-winuser-getsystemmetrics) function. To declare that your application is DPI-aware, complete the following steps.
 
 1.  Create a file called DeclareDPIAware.manifest.
 2.  Copy the following xml into the file and save it:
-    ```C++
+    ```cpp
     <assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" >
       <asmv3:application>
         <asmv3:windowsSettings xmlns="http://schemas.microsoft.com/SMI/2005/WindowsSettings">
@@ -111,25 +73,13 @@ When an application declares itself to be DPI-aware, it is a statement specifyin
     </assembly>
     ```
 
-    
-
 3.  In the project's .vcproj file, add the following entry inside each Configuration element under VisualStudioProject/Configurations:
-    ```C++
+    ```cpp
     <Tool
         Name="VCManifestTool"
-        AdditionalManifestFiles="DeclareDPIAware.manifest"
-    />
+        AdditionalManifestFiles="DeclareDPIAware.manifest"/>
     ```
-
-    
 
 ## Related topics
 
-<dl> <dt>
-
-[Direct2D and High-DPI](../direct2d/direct2d-and-high-dpi.md)
-</dt> </dl>
-
- 
-
- 
+* [Direct2D and high DPI](../direct2d/direct2d-and-high-dpi.md)

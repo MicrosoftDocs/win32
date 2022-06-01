@@ -1,6 +1,6 @@
 ---
 title: Example Adding a Helper Token to a BITS Transfer Job
-description: You can configure a Background Intelligent Transfer Service (BITS) transfer job with an additional security token. The BITS transfer job uses this helper token for authentication and to access resources.
+description: Describes how to configure a Background Intelligent Transfer Service (BITS) transfer job with an additional security token.
 ms.assetid: 08670c6d-e589-41be-842d-597f460d9c97
 ms.topic: article
 ms.date: 05/31/2018
@@ -19,7 +19,7 @@ This example uses the header and implementation defined in [Example: Common Clas
 **To add a helper token to a BITS transfer job**
 
 1.  Initialize COM parameters by calling the CCoInitializer function. For more information about the CCoInitializer function, see [Example: Common Classes](common-classes.md).
-2.  Get a pointer to the [**IBackgroundCopyJob**](/windows/desktop/api/Bits/nn-bits-ibackgroundcopyjob) interface. This example uses the [CComPtr Class](/cpp/atl/reference/ccomptr-class?view=vs-2019) to manage COM interface pointers.
+2.  Get a pointer to the [**IBackgroundCopyJob**](/windows/desktop/api/Bits/nn-bits-ibackgroundcopyjob) interface. This example uses the [CComPtr Class](/cpp/atl/reference/ccomptr-class) to manage COM interface pointers.
 3.  Initialize COM process security by calling [CoInitializeSecurity](/windows/win32/api/combaseapi/nf-combaseapi-coinitializesecurity). BITS requires at least the IMPERSONATE level of impersonation. BITS fails with E\_ACCESSDENIED if the correct impersonation level is not set.
 4.  Get a pointer to the [**IBackgroundCopyManager**](/windows/desktop/api/Bits/nn-bits-ibackgroundcopymanager) interface, and obtain the initial locator to BITS by calling the [CoCreateInstance]( /windows/win32/api/combaseapi/nf-combaseapi-cocreateinstance) function.
 5.  Create a BITS transfer job by calling the [**IBackgroundCopyManager::CreateJob**](/windows/desktop/api/Bits/nf-bits-ibackgroundcopymanager-createjob) method.

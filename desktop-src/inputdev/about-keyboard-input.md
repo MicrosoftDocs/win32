@@ -94,22 +94,21 @@ A typical window procedure processes only a small subset of the keystroke messag
 
 ### Keystroke Message Flags
 
-The **lParam** parameter of a keystroke message contains additional information about the keystroke that generated the message. This information includes the repeat count, the scan code, the extended-key flag, the context code, the previous key-state flag, and the transition-state flag. The following illustration shows the locations of these flags and values in the **lParam** parameter.
+The **lParam** parameter of a keystroke message contains additional information about the keystroke that generated the message. This information includes the [repeat count](#repeat-count), the [scan code](#scan-code), the [extended-key flag](#extended-key-flag), the [context code](#context-code), the [previous key-state flag](#previous-key-state-flag), and the [transition-state flag](#transition-state-flag). The following illustration shows the locations of these flags and values in the **lParam** parameter.
 
 ![the locations of the flags and values in the lparam parameter of a keystroke message](images/csinp-02.png)
 
-An application can use the following values to manipulate the keystroke flags.
+An application can use the following values to get the keystroke flags from high-order word of the **lParam**.
 
+| Value                       | Description                                                                       |
+|-----------------------------|-----------------------------------------------------------------------------------|
+| **KF\_EXTENDED**<br/>0x0100 | Manipulates the [extended key flag](#extended-key-flag).                          |
+| **KF\_DLGMODE**<br/>0x0800  | Manipulates the dialog mode flag, which indicates whether a dialog box is active. |
+| **KF\_MENUMODE**<br/>0x1000 | Manipulates the menu mode flag, which indicates whether a menu is active.         |
+| **KF\_ALTDOWN**<br/>0x2000  | Manipulates the [context code flag](#context-code).                               |
+| **KF\_REPEAT**<br/>0x4000   | Manipulates the [previous key state flag](#previous-key-state-flag).              |
+| **KF\_UP**<br/>0x8000       | Manipulates the [transition state flag](#previous-key-state-flag).                |
 
-
-| Value            | Description                                                                       |
-|------------------|-----------------------------------------------------------------------------------|
-| **KF\_ALTDOWN**  | Manipulates the ALT key flag, which indicates whether the ALT key is pressed.     |
-| **KF\_DLGMODE**  | Manipulates the dialog mode flag, which indicates whether a dialog box is active. |
-| **KF\_EXTENDED** | Manipulates the extended key flag.                                                |
-| **KF\_MENUMODE** | Manipulates the menu mode flag, which indicates whether a menu is active.         |
-| **KF\_REPEAT**   | Manipulates the previous key state flag.                                          |
-| **KF\_UP**       | Manipulates the transition state flag.                                            |
 
 Example code:
 
@@ -119,28 +118,27 @@ case WM_KEYUP:
 case WM_SYSKEYDOWN:
 case WM_SYSKEYUP:
 {
-    WORD vkCode = LOWORD(wParam);                                       // virtual-key code
+    WORD vkCode = LOWORD(wParam);                                 // virtual-key code
+    
+    WORD keyFlags = HIWORD(lParam);
 
-    BYTE scanCode = LOBYTE(HIWORD(lParam));                             // scan code
-    BOOL isExtendedKey = (HIWORD(lParam) & KF_EXTENDED) == KF_EXTENDED; // extended-key flag, 1 if scancode has 0xe0 prefix
-
-    BOOL repeatFlag = (HIWORD(lParam) & KF_REPEAT) == KF_REPEAT;        // previous key-state flag, 1 on autorepeat
-    WORD repeatCount = LOWORD(lParam);                                  // repeat count, > 0 if several keydown messages was combined into one message
-
-    BOOL upFlag = (HIWORD(lParam) & KF_UP) == KF_UP;                    // transition-state flag, 1 on keyup
-
+    WORD scanCode = LOBYTE(keyFlags);                             // scan code
+    BOOL isExtendedKey = (keyFlags & KF_EXTENDED) == KF_EXTENDED; // extended-key flag, 1 if scancode has 0xE0 prefix
+    
     if (isExtendedKey)
-        scanCode |= 0xe0 << 8u;
+        scanCode = MAKEWORD(scanCode, 0xE0);
 
-    // if we want to distinguish:
-    // - VK_LSHIFT and VK_RSHIFT
-    // - VK_LCONTROL and VK_RCONTROL
-    // - VK_LMENU and VK_RMENU
+    BOOL repeatFlag = (keyFlags & KF_REPEAT) == KF_REPEAT;        // previous key-state flag, 1 on autorepeat
+    WORD repeatCount = LOWORD(lParam);                            // repeat count, > 0 if several keydown messages was combined into one message
+
+    BOOL upFlag = (keyFlags & KF_UP) == KF_UP;                    // transition-state flag, 1 on keyup
+
+    // if we want to distinguish these keys:
     switch (vkCode)
     {
-    case VK_SHIFT:
-    case VK_CONTROL:
-    case VK_MENU:
+    case VK_SHIFT:   // converts to VK_LSHIFT or VK_RSHIFT
+    case VK_CONTROL: // converts to VK_LCONTROL or VK_RCONTROL
+    case VK_MENU:    // converts to VK_LMENU or VK_RMENU
         vkCode = LOWORD(MapVirtualKeyW(scanCode, MAPVK_VSC_TO_VK_EX));
         break;
     }
@@ -160,9 +158,9 @@ The scan code is the value that the keyboard hardware generates when the user pr
 
 ### Extended-Key Flag
 
-The extended-key flag indicates whether the keystroke message originated from one of the additional keys on the enhanced keyboard. The extended keys consist of the ALT and CTRL keys on the right-hand side of the keyboard; the INS, DEL, HOME, END, PAGE UP, PAGE DOWN, and arrow keys in the clusters to the left of the numeric keypad; the NUM LOCK key; the BREAK (CTRL+PAUSE) key; the PRINT SCRN key; and the divide (/) and ENTER keys in the numeric keypad. The extended-key flag is set if the key is an extended key.
+The extended-key flag indicates whether the keystroke message originated from one of the additional keys on the Enhanced 101/102-key keyboard. The extended keys consist of the ALT and CTRL keys on the right-hand side of the keyboard; the INS, DEL, HOME, END, PAGE UP, PAGE DOWN, and arrow keys in the clusters to the left of the numeric keypad; the NUM LOCK key; the BREAK (CTRL+PAUSE) key; the PRINT SCRN key; and the divide (/) and ENTER keys in the numeric keypad. The right-hand SHIFT key is not considered an extended-key, it has a separate scan code instead.
 
-If specified, the scan code was preceded by a prefix byte having the value 0xE0 (224).
+If specified, the scan code consists of a sequence of two bytes, where the first byte has a value of 0xE0.
 
 ### Context Code
 
@@ -189,9 +187,9 @@ This section covers the following topics:
 
 A window procedure can receive the following character messages: [**WM\_CHAR**](wm-char.md), [**WM\_DEADCHAR**](wm-deadchar.md), [**WM\_SYSCHAR**](/windows/desktop/menurc/wm-syschar), [**WM\_SYSDEADCHAR**](wm-sysdeadchar.md), and [**WM\_UNICHAR**](wm-unichar.md). The [**TranslateMessage**](/windows/desktop/api/winuser/nf-winuser-translatemessage) function generates a **WM\_CHAR** or **WM\_DEADCHAR** message when it processes a [**WM\_KEYDOWN**](wm-keydown.md) message. Similarly, it generates a **WM\_SYSCHAR** or **WM\_SYSDEADCHAR** message when it processes a [**WM\_SYSKEYDOWN**](wm-syskeydown.md) message.
 
-An application that processes keyboard input typically ignores all but the [**WM\_CHAR**](wm-char.md) and [**WM\_UNICHAR**](wm-unichar.md) messages, passing any other messages to the [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) function. Note that **WM\_CHAR** uses 16-bit Unicode Transformation Format (UTF) while **WM\_UNICHAR** uses UTF-32. The system uses the [**WM\_SYSCHAR**](/windows/desktop/menurc/wm-syschar) and [**WM\_SYSDEADCHAR**](wm-sysdeadchar.md) messages to implement menu mnemonics.
+An application that processes keyboard input typically ignores all but the [**WM\_CHAR**](wm-char.md) and [**WM\_UNICHAR**](wm-unichar.md) messages, passing any other messages to the [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowprocw) function. Note that **WM\_CHAR** uses UTF-16 (16-bit Unicode Transformation Format) or ANSI character set while **WM\_UNICHAR** always uses UTF-32 (32-bit Unicode Transformation Format). The system uses the [**WM\_SYSCHAR**](/windows/desktop/menurc/wm-syschar) and [**WM\_SYSDEADCHAR**](wm-sysdeadchar.md) messages to implement menu mnemonics.
 
-The **wParam** parameter of all character messages contains the character code of the character key that was pressed. The value of the character code depends on the window class of the window receiving the message. If the Unicode version of the [**RegisterClass**](/windows/desktop/api/winuser/nf-winuser-registerclassa) function was used to register the window class, the system provides Unicode characters to all windows of that class. Otherwise, the system provides ASCII character codes. For more information, see [Unicode and Character Sets](/windows/desktop/Intl/unicode-and-character-sets).
+The **wParam** parameter of all character messages contains the character code of the character key that was pressed. The value of the character code depends on the window class of the window receiving the message. If the Unicode version of the [**RegisterClass**](/windows/win32/api/winuser/nf-winuser-registerclassw) function was used to register the window class, the system provides Unicode characters to all windows of that class. Otherwise, the system provides ANSI character codes. For more information, see [Registering Window Classes](/windows/win32/intl/registering-window-classes) and [Use UTF-8 code pages in Windows apps](/windows/apps/design/globalizing/use-utf8-code-page).
 
 The contents of the **lParam** parameter of a character message are identical to the contents of the **lParam** parameter of the key-down message that was translated to produce the character message. For information, see [Keystroke Message Flags](#keystroke-message-flags).
 
@@ -267,7 +265,3 @@ The [**LoadKeyboardLayout**](/windows/win32/api/winuser/nf-winuser-loadkeyboardl
 For multilingual support, the [**LoadKeyboardLayout**](/windows/win32/api/winuser/nf-winuser-loadkeyboardlayouta) function provides the **KLF\_REPLACELANG** and **KLF\_NOTELLSHELL** flags. The **KLF\_REPLACELANG** flag directs the function to replace an existing keyboard layout without changing the language. Attempting to replace an existing layout using the same language identifier but without specifying **KLF\_REPLACELANG** is an error. The **KLF\_NOTELLSHELL** flag prevents the function from notifying the shell when a keyboard layout is added or replaced. This is useful for applications that add multiple layouts in a consecutive series of calls. This flag should be used in all but the last call.
 
 The [**UnloadKeyboardLayout**](/windows/win32/api/winuser/nf-winuser-unloadkeyboardlayout) function is restricted in that it cannot unload the system default input language. This ensures that the user always has one layout available for enter text using the same character set as used by the shell and file system.
-
- 
-
- 

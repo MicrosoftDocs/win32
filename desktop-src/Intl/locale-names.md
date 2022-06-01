@@ -1,5 +1,5 @@
 ---
-description: A locale name is based on the language tagging conventions of RFC 4646 (Windows Vista and later), and is represented by LOCALE\_SNAME.
+description: A locale name is based on the language tagging conventions of IETF BCP 47 (Windows Vista and later), and is represented by LOCALE\_SNAME.
 ms.assetid: 221aae7b-3a7c-4995-ae78-50d97de436d8
 title: Locale Names
 ms.topic: article
@@ -8,12 +8,10 @@ ms.date: 05/31/2018
 
 # Locale Names
 
-A [locale](locales-and-languages.md) name is based on the language tagging conventions of RFC 4646 (Windows Vista and later), and is represented by [LOCALE\_SNAME](locale-sname.md). Generally, the pattern `<language>-<REGION>` is used. Here, language is a lowercase ISO 639 language code. The codes from ISO 639-1 are used when available. Otherwise, codes from ISO 639-2/T are used. REGION specifies an uppercase ISO 3166-1 country/region identifier. For example, the locale name for English (United States) is "en-US" and the locale name for Divehi (Maldives) is "dv-MV".
+A [locale](locales-and-languages.md) name is based on the language tagging conventions of [IETF BCP 47](https://www.rfc-editor.org/info/bcp47) ( Windows Vista and later), and is represented by [LOCALE\_SNAME](locale-sname.md). Generally, the pattern `<language>-<REGION>` is used. Here, language is a lowercase ISO 639 language code. The codes from ISO 639-1 are used when available. Otherwise, codes from ISO 639-2/T are used. REGION specifies an uppercase ISO 3166-1 country/region identifier. For example, the locale name for English (United States) is "en-US" and the locale name for Divehi (Maldives) is "dv-MV".
 
 > [!Note]  
 > The constant [LOCALE\_NAME\_MAX\_LENGTH](locale-name-constants.md) gives the maximum length of a locale name. It includes space for a terminating null character.
-
- 
 
 If the locale is a neutral locale (no region), the [LOCALE\_SNAME](locale-sname.md) value follows the pattern `<language>`. If it is a neutral locale for which the script is significant, the pattern is `<language>-<Script>`.
 
@@ -27,23 +25,10 @@ An application can retrieve the current locale names by using the [**GetSystemDe
 
 ## Related topics
 
-<dl> <dt>
-
 [Locales and Languages](locales-and-languages.md)
-</dt> <dt>
 
 [Custom Locales](custom-locales.md)
-</dt> <dt>
 
 [Locale Identifiers](locale-identifiers.md)
-</dt> <dt>
 
 [Sort Order Identifiers](sort-order-identifiers.md)
-</dt> </dl>
-
- 
-
- 
-
-
-

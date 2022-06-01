@@ -1,5 +1,5 @@
 ---
-description: Provides data for a VectorChanged event.
+description: Describes the **IVectorChangedEventArgs** interface, and documents its members, methods, and requirements.
 ms.assetid: 635c0f96-5d64-436e-9186-78f9d85b6d29
 title: IVectorChangedEventArgs interface (IVectorChangedEventArgs.h)
 ms.topic: reference
@@ -17,7 +17,7 @@ api_location:
 
 # IVectorChangedEventArgs interface
 
-Provides data for a [**VectorChanged**](/uwp/api/windows.foundation.collections.iobservablevector-1?view=winrt-19041) event.
+Provides data for a [**VectorChanged**](/uwp/api/windows.foundation.collections.iobservablevector-1) event.
 
 ## Members
 

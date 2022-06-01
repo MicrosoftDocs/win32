@@ -94,61 +94,61 @@ Add to the **LoadAssets** method.
 
 D3D12 owns the swap chain, so if we want to render to the back buffer using our 11On12 device (D2D content), then we need to create wrapped resources of type [**ID3D11Resource**](/windows/desktop/api/d3d11/nn-d3d11-id3d11resource) from the back buffers of type [**ID3D12Resource**](/windows/desktop/api/d3d12/nn-d3d12-id3d12resource). This links the **ID3D12Resource** with a D3D11 based interface so that it can be used with the 11On12 device. After we have a wrapped resource, we can then create a render target surface for D2D to render to, also in the **LoadAssets** method.
 
-``` syntax
- // Query the desktop's dpi settings, which will be used to create
-    // D2D's render targets.
-    float dpiX;
-    float dpiY;
-    m_d2dFactory->GetDesktopDpi(&dpiX, &dpiY);
-    D2D1_BITMAP_PROPERTIES1 bitmapProperties = D2D1::BitmapProperties1(
-        D2D1_BITMAP_OPTIONS_TARGET | D2D1_BITMAP_OPTIONS_CANNOT_DRAW,
-        D2D1::PixelFormat(DXGI_FORMAT_UNKNOWN, D2D1_ALPHA_MODE_PREMULTIPLIED),
-        dpiX,
-        dpiY
-        );  
+```cpp
+// Initialize *hwnd* with the handle of the window displaying the rendered content.
+HWND hwnd;
 
-    // Create frame resources.
+// Query the window's dpi settings, which will be used to create
+// D2D's render targets.
+float dpi = GetDpiForWindow(hwnd);
+D2D1_BITMAP_PROPERTIES1 bitmapProperties = D2D1::BitmapProperties1(
+    D2D1_BITMAP_OPTIONS_TARGET | D2D1_BITMAP_OPTIONS_CANNOT_DRAW,
+    D2D1::PixelFormat(DXGI_FORMAT_UNKNOWN, D2D1_ALPHA_MODE_PREMULTIPLIED),
+    dpi,
+    dpi);  
+
+// Create frame resources.
+{
+    CD3DX12_CPU_DESCRIPTOR_HANDLE rtvHandle(m_rtvHeap->GetCPUDescriptorHandleForHeapStart());
+
+    // Create a RTV, D2D render target, and a command allocator for each frame.
+    for (UINT n = 0; n < FrameCount; n++)
     {
-        CD3DX12_CPU_DESCRIPTOR_HANDLE rtvHandle(m_rtvHeap->GetCPUDescriptorHandleForHeapStart());
+        ThrowIfFailed(m_swapChain->GetBuffer(n, IID_PPV_ARGS(&m_renderTargets[n])));
+        m_d3d12Device->CreateRenderTargetView(m_renderTargets[n].Get(), nullptr, rtvHandle);
 
-        // Create a RTV, D2D render target, and a command allocator for each frame.
-        for (UINT n = 0; n < FrameCount; n++)
-        {
-            ThrowIfFailed(m_swapChain->GetBuffer(n, IID_PPV_ARGS(&m_renderTargets[n])));
-            m_d3d12Device->CreateRenderTargetView(m_renderTargets[n].Get(), nullptr, rtvHandle);
+        // Create a wrapped 11On12 resource of this back buffer. Since we are 
+        // rendering all D3D12 content first and then all D2D content, we specify 
+        // the In resource state as RENDER_TARGET - because D3D12 will have last 
+        // used it in this state - and the Out resource state as PRESENT. When 
+        // ReleaseWrappedResources() is called on the 11On12 device, the resource 
+        // will be transitioned to the PRESENT state.
+        D3D11_RESOURCE_FLAGS d3d11Flags = { D3D11_BIND_RENDER_TARGET };
+        ThrowIfFailed(m_d3d11On12Device->CreateWrappedResource(
+            m_renderTargets[n].Get(),
+            &d3d11Flags,
+            D3D12_RESOURCE_STATE_RENDER_TARGET,
+            D3D12_RESOURCE_STATE_PRESENT,
+            IID_PPV_ARGS(&m_wrappedBackBuffers[n])
+            ));
 
-            // Create a wrapped 11On12 resource of this back buffer. Since we are 
-            // rendering all D3D12 content first and then all D2D content, we specify 
-            // the In resource state as RENDER_TARGET - because D3D12 will have last 
-            // used it in this state - and the Out resource state as PRESENT. When 
-            // ReleaseWrappedResources() is called on the 11On12 device, the resource 
-            // will be transitioned to the PRESENT state.
-            D3D11_RESOURCE_FLAGS d3d11Flags = { D3D11_BIND_RENDER_TARGET };
-            ThrowIfFailed(m_d3d11On12Device->CreateWrappedResource(
-                m_renderTargets[n].Get(),
-                &d3d11Flags,
-                D3D12_RESOURCE_STATE_RENDER_TARGET,
-                D3D12_RESOURCE_STATE_PRESENT,
-                IID_PPV_ARGS(&m_wrappedBackBuffers[n])
-                ));
+        // Create a render target for D2D to draw directly to this back buffer.
+        ComPtr<IDXGISurface> surface;
+        ThrowIfFailed(m_wrappedBackBuffers[n].As(&surface));
+        ThrowIfFailed(m_d2dDeviceContext->CreateBitmapFromDxgiSurface(
+            surface.Get(),
+            &bitmapProperties,
+            &m_d2dRenderTargets[n]
+            ));
 
-            // Create a render target for D2D to draw directly to this back buffer.
-            ComPtr<IDXGISurface> surface;
-            ThrowIfFailed(m_wrappedBackBuffers[n].As(&surface));
-            ThrowIfFailed(m_d2dDeviceContext->CreateBitmapFromDxgiSurface(
-                surface.Get(),
-                &bitmapProperties,
-                &m_d2dRenderTargets[n]
-                ));
+        rtvHandle.Offset(1, m_rtvDescriptorSize);
 
-            rtvHandle.Offset(1, m_rtvDescriptorSize);
-
-            ThrowIfFailed(m_d3d12Device->CreateCommandAllocator(D3D12_COMMAND_LIST_TYPE_DIRECT, IID_PPV_ARGS(&m_commandAllocators[n])));
-        }
+        ThrowIfFailed(m_d3d12Device->CreateCommandAllocator(
+            D3D12_COMMAND_LIST_TYPE_DIRECT,
+            IID_PPV_ARGS(&m_commandAllocators[n])));
     }
+}
 ```
-
-
 
 <table>
 <thead>
@@ -159,8 +159,8 @@ D3D12 owns the swap chain, so if we want to render to the back buffer using our 
 </thead>
 <tbody>
 <tr class="odd">
-<td><a href="/windows/desktop/api/d2d1/nf-d2d1-id2d1factory-getdesktopdpi"><strong>ID2D1Factory::GetDesktopDpi</strong></a></td>
-
+<td><a href="/windows/win32/api/winuser/nf-winuser-getdpiforwindow"><strong>GetDpiForWindow</strong></a></td>
+<td>A window handle</td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/d2d1_1/ns-d2d1_1-d2d1_bitmap_properties1"><strong>D2D1_BITMAP_PROPERTIES1</strong></a></td>
