@@ -1,13 +1,13 @@
 ---
-title: EvaluateAttributeAtCentroid function
+title: EvaluateAttributeCentroid function
 description: Evaluates at the pixel centroid.
 ms.assetid: 6735b3f4-765f-4cd9-9f38-326a52709021
 keywords:
-- EvaluateAttributeAtCentroid function HLSL
+- EvaluateAttributeCentroid function HLSL
 topic_type:
 - apiref
 api_name:
-- EvaluateAttributeAtCentroid
+- EvaluateAttributeCentroid
 api_type:
 - NA
 ms.topic: reference
@@ -15,14 +15,14 @@ ms.date: 05/31/2018
 api_location: 
 ---
 
-# EvaluateAttributeAtCentroid function
+# EvaluateAttributeCentroid function
 
 Evaluates at the pixel centroid.
 
 ## Syntax
 
 ``` syntax
-numeric EvaluateAttributeAtCentroid(
+numeric EvaluateAttributeCentroid(
   in attrib numeric value
 );
 ```
