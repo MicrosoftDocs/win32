@@ -6,7 +6,7 @@ description:
   LoggingActivity, LoggingSession, and FileLoggingSession.
 ms.assetid: 23B4752F-43B5-41DE-B01D-9625CFEE2E1D
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 06/06/2022
 ---
 
 # Universal Windows Platform Logging Example

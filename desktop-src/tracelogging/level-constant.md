@@ -13,7 +13,7 @@ api_location:
 api_type:
   - HeaderDef
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 06/06/2022
 ---
 
 # Level constant

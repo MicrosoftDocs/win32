@@ -5,13 +5,19 @@ description:
   view them with the Windows Performance Analyzer (WPA).
 ms.assetid: 906589FA-F48D-4105-9E56-1EC8B86542FB
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 06/06/2022
 ---
 
 # Record and View TraceLogging Events
 
-Record TraceLogging events with the Windows Performance Recorder (WPR) and view
-them with the Windows Performance Analyzer (WPA).
+You can use many tools to collect and decode TraceLogging ETW events.
+
+- To control the trace session, use tools like WPR, tracelog, or traceview.
+- To decode events from a session, use tools like WPA, tracefmt, or traceview.
+
+This example shows how to record TraceLogging events with the Windows
+Performance Recorder (WPR) and view them with the Windows Performance Analyzer
+(WPA).
 
 ## Prerequisites
 
@@ -48,7 +54,7 @@ capture your Tracelogging events.
    > If you are using the TraceLogging C/C++ quick start, specify
    > the provider GUID in the `Name` attribute of the `<EventProvider>` element.
    > For example:
-   > `<EventProvider Id="EventProvider_SimpleTraceLoggingProvider" Name="3970F9cf-2c0c-4f11-b1cc-e3a1e9958833" />`.
+   > `<EventProvider Id="EventProvider_SimpleTraceLoggingProvider" Name="0205c616-cf97-5c11-9756-56a2cee02ca7" />`.
    > If you are using the managed TraceLogging quick start, specify the provider
    > name prefaced by `*` in the `Name` attribute of the `<EventProvider />`
    > element. For example,
@@ -70,12 +76,12 @@ capture your Tracelogging events.
        </EventCollector>
 
        <!-- TODO:
-    1. Update Name attribute in EventProvider xml element with your provider GUID, eg: Name="3970F9cf-2c0c-4f11-b1cc-e3a1e9958833". Or
-       if you specify an EventSource C# provider or call TraceLoggingRegister(...) without a GUID, use star (*) before your provider
-       name, eg: Name="*MyEventSourceProvider" which will enable your provider appropriately.
-    2. This sample lists one EventProvider xml element and references it in a Profile with EventProviderId xml element.
-       For your component wprp, enable the required number of providers and fix the Profile xml element appropriately
-   -->
+       1. Update Name attribute in EventProvider xml element with your provider GUID, eg: Name="0205c616-cf97-5c11-9756-56a2cee02ca7". Or
+          if you specify an EventSource C# provider or call TraceLoggingRegister(...) without a GUID, use star (*) before your provider
+          name, eg: Name="*MyEventSourceProvider" which will enable your provider appropriately.
+       2. This sample lists one EventProvider xml element and references it in a Profile with EventProviderId xml element.
+          For your component wprp, enable the required number of providers and fix the Profile xml element appropriately
+       -->
        <EventProvider Id="EventProvider_SimpleTraceLoggingProvider" Name="*SimpleTraceLoggingProvider" />
 
        <Profile Id="SimpleTraceLoggingProvider.Verbose.File" Name="SimpleTraceLoggingProvider" Description="SimpleTraceLoggingProvider" LoggingMode="File" DetailLevel="Verbose">
@@ -83,8 +89,8 @@ capture your Tracelogging events.
            <EventCollectorId Value="EventCollector_SimpleTraceLoggingProvider">
              <EventProviders>
                <!-- TODO:
-    1. Fix your EventProviderId with Value same as the Id attribute on EventProvider xml element above
-   -->
+               1. Fix your EventProviderId with Value same as the Id attribute on EventProvider xml element above
+               -->
                <EventProviderId Value="EventProvider_SimpleTraceLoggingProvider" />
              </EventProviders>
            </EventCollectorId>
