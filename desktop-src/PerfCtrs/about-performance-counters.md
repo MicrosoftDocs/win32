@@ -55,6 +55,7 @@ Instance names should normally be unique within a sample, i.e. a provider should
 
 > [!NOTE]
 > For backwards-compatibility reasons, the "Process" counterset returns non-unique instance names based on the EXE filename. This can cause confusing results, especially when a process with a non-unique name starts up or shuts down, as this will typically result in data glitches due to incorrect matching of instance names between samples. Consumers of the "Process" counterset must be able to tolerate these non-unique instance names and the resulting data glitches.
+> In Windows 10 20H2 and later, you can use the `Process V2` counterset to avoid this problem.
 
 Instance names must be stable across samples, i.e. a provider should use the same instance name for the same entity each time the counterset is collected.
 
