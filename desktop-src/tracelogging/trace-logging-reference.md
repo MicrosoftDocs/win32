@@ -14,9 +14,9 @@ ms.date: 06/06/2022
 The following topics provide information about the C/C++ TraceLogging API.
 
 > [!NOTE]
-> This reference describes C/C++ TraceLogging APIs designed for use when
-> the events are known at compile time. If you are generating events from .NET
-> code, use the .NET
+> If you are generating events from C/C++ code and the events are
+> defined at compile-time, use the APIs described in this section. Otherwise, if
+> you are generating events from .NET code, use the .NET
 > [**EventSource**](/dotnet/api/system.diagnostics.tracing.eventsource) class.
 > Otherwise, if you are using Windows Runtime (WinRT), use
 > [**LoggingChannel**](/uwp/api/Windows.Foundation.Diagnostics.LoggingChannel).
@@ -41,7 +41,10 @@ TraceLoggingProvider.h behaves:
 - If WINVER is not set before including `<windows.h>`, then `<windows.h>` will
   set WINVER to a default value corresponding to the SDK version.
 - If you use TraceLoggingProvider.h with WINVER set to 0x0602 (Windows 8) or
-  higher, the program may not run on Windows Vista or Windows 7.
+  higher, the program may not run on Windows Vista or Windows 7
+  (TraceLoggingProvider.h will try to directly use the EventSetInformation,
+  which was not present in RTM versions of Windows Vista or Windows 7).
 - If you use TraceLoggingProvider.h with WINVER set to 0x0600 (Windows Vista) or
   0x0601 (Windows 7), the program will be configured for compatibility and will
-  work on the specified versions of Windows.
+  work on the specified versions of Windows (TraceLoggingProvider.h will invoke
+  EventSetInformation via GetProcAddress if available).

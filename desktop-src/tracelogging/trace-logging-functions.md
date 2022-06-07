@@ -14,11 +14,18 @@ TraceLogging provides the following functions that allow you to work with Event
 Tracing for Windows (ETW) providers:
 
 - [**TraceLoggingProviderEnabled**](/windows/win32/api/traceloggingprovider/nf-traceloggingprovider-traceloggingproviderenabled)
+  returns true if any consumer is listening for events from a TraceLogging
+  provider.
 - [**TraceLoggingProviderId**](/windows/win32/api/traceloggingprovider/nf-traceloggingprovider-traceloggingproviderid)
+  returns the provider ID (aka control GUID) of a TraceLogging provider.
 - [**TraceLoggingRegister**](/windows/win32/api/traceloggingprovider/nf-traceloggingprovider-traceloggingregister)
+  opens a TraceLogging provider.
 - [**TraceLoggingRegisterEx**](/windows/win32/api/traceloggingprovider/nf-traceloggingprovider-traceloggingregisterex)
+  opens a TraceLogging provider with a callback.
 - [**TraceLoggingSetInformation**](/windows/win32/api/traceloggingprovider/nf-traceloggingprovider-traceloggingsetinformation)
+  configures extra settings on a TraceLogging provider.
 - [**TraceLoggingUnregister**](/windows/win32/api/traceloggingprovider/nf-traceloggingprovider-traceloggingunregister)
+  closes a TraceLogging provider.
 
 ## Related topics
 

@@ -34,7 +34,7 @@ In this example, `g_hProvider` and `"MyEvent1"` are the required parameters.
 They specify the provider to use for the event and the event's name. Each of the
 remaining parameters is a wrapper macro. The `TraceLoggingLevel` and
 `TraceLoggingKeyword` parameters configure the event. The `TraceLoggingString`
-and `TraceLoggingHResult` parameters each add a field to the event.
+and `TraceLoggingHResult` parameters add fields to the event.
 
 ## Event Configuration macros
 
@@ -99,8 +99,7 @@ level of 5 (VERBOSE).
 
 TraceLogging supports many wrapper macros for adding fields to an event. Each
 field is a name-value pair. For example, `TraceLoggingInt32(argc, "ArgCount")`
-would add an "ArgCount" field to the event containing the value of `argc` stored
-as an INT32 value in the event.
+would add an INT32 field named "ArgCount" with value `argc`.
 
 Most of the field wrapper macros accept similar parameters:
 
@@ -124,8 +123,8 @@ Most of the field wrapper macros accept similar parameters:
     parameter to specify the size (in bytes) of the data to include in the
     field. **pValue** may be NULL only if **cbValue** is 0.
 - **name:** A string literal (compile-time constant) with the name to use for
-  the field. Most field wrapper macros do not require a name parameter. If the
-  name parameter is omitted, the field's name is determined based on the
+  the field. Most field wrapper macros do not require a name parameter. If you
+  omit the name parameter, the field's name is determined based on the
   preprocessor text of the macro's **value**, **pszValue**, **pchValue**, or
   **pValue** parameter. For example, `TraceLoggingInt32(x[4] + y)` is equivalent
   to `TraceLoggingInt32(x[4] + y, "x[4] + y")`. Both would add a field named
@@ -152,153 +151,306 @@ For example, the following wrapper macro invocations all have the same effect:
 ### Scalars
 
 - [**TraceLoggingValue(value, [name, ...]):**](/windows/win32/api/traceloggingprovider/nf-traceloggingprovider-traceloggingvalue)
+
   Adds a field with a type that is automatically-deduced from the type of the
   value parameter. **(C++ only)**
-- **TraceLoggingInt8(value, [name, ...]):** Adds a field with an INT8 value.
-- **TraceLoggingUInt8(value, [name, ...]):** Adds a field with a UINT8 value.
-- **TraceLoggingInt16(value, [name, ...]):** Adds a field with an INT16 value.
-- **TraceLoggingUInt16(value, [name, ...]):** Adds a field with a UINT16 value.
-- **TraceLoggingInt32(value, [name, ...]):** Adds a field with an INT32 value.
-- **TraceLoggingUInt32(value, [name, ...]):** Adds a field with a UINT32 value.
-- **TraceLoggingInt64(value, [name, ...]):** Adds a field with an INT64 value.
-- **TraceLoggingUInt64(value, [name, ...]):** Adds a field with a UINT64 value.
-- **TraceLoggingIntPtr(value, [name, ...]):** Adds a field with an INT_PTR value
-  (signed integer with the same size as a pointer).
-- **TraceLoggingUIntPtr(value, [name, ...]):** Adds a field with a UINT_PTR
-  value (unsigned integer with the same size as a pointer).
-- **TraceLoggingLong(value, [name, ...]):** Adds a field with a LONG value
-  (signed long int, 32-bits on Windows platforms).
-- **TraceLoggingULong(value, [name, ...]):** Adds a field with a ULONG value
-  (unsigned long int, 32-bits on Windows platforms).
-- **TraceLoggingHexInt8(value, [name, ...]):** Adds a field with an INT8 value
-  with a hexadecimal formatting hint.
-- **TraceLoggingHexUInt8(value, [name, ...]):** Adds a field with a UINT8 value
-  with a hexadecimal formatting hint.
-- **TraceLoggingHexInt16(value, [name, ...]):** Adds a field with an INT16 value
-  with a hexadecimal formatting hint.
-- **TraceLoggingHexUInt16(value, [name, ...]):** Adds a field with a UINT16
-  value with a hexadecimal formatting hint.
-- **TraceLoggingHexInt32(value, [name, ...]):** Adds a field with an INT32 value
-  with a hexadecimal formatting hint.
-- **TraceLoggingHexUInt32(value, [name, ...]):** Adds a field with a UINT32
-  value with a hexadecimal formatting hint.
-- **TraceLoggingHexInt64(value, [name, ...]):** Adds a field with an INT64 value
-  with a hexadecimal formatting hint.
-- **TraceLoggingHexUInt64(value, [name, ...]):** Adds a field with a UINT64
-  value with a hexadecimal formatting hint.
-- **TraceLoggingHexIntPtr(value, [name, ...]):** Adds a field with an INT_PTR
-  value with a hexadecimal formatting hint.
-- **TraceLoggingHexUIntPtr(value, [name, ...]):** Adds a field with a UINT_PTR
-  value with a hexadecimal formatting hint.
-- **TraceLoggingHexLong(value, [name, ...]):** Adds a field with a LONG value
-  with a hexadecimal formatting hint.
-- **TraceLoggingHexULong(value, [name, ...]):** Adds a field with a ULONG value
-  with a hexadecimal formatting hint.
-- **TraceLoggingFloat32(value, [name, ...]):** Adds a field with a FLOAT (32-bit
-  floating point) value.
-- **TraceLoggingFloat64(value, [name, ...]):** Adds a field with a DOUBLE
-  (64-bit floating point) value.
-- **TraceLoggingBoolean(value, [name, ...]):** Adds a field with an 8-bit
-  Boolean value (Win32 `BOOLEAN` or C++ `bool`).
-- **TraceLoggingBool(value, [name, ...]):** Adds a field with a 32-bit Boolean
-  value (Win32 `BOOL`).
-- **TraceLoggingChar(value, [name, ...]):** Adds a field with a `char` value
-  (8-bit integer with string formatting hint, typically treated as code page
-  1252).
-- **TraceLoggingChar16(value, [name, ...]):** Adds a field with a `char16_t`
-  value (16-bit integer with string formatting hint, typically treated as
-  UCS-2).
-- **TraceLoggingWChar(value, [name, ...]):** Adds a field with a `wchar_t` value
-  (same as `char16_t` on Windows platforms).
-- **TraceLoggingPointer(value, [name, ...]):** Adds a field with a `void*` value
-  (pointer-sized value with a hexadecimal formatting hint).
-- **TraceLoggingCodePointer(value, [name, ...]):** Adds a field with a `void*`
-  value (pointer-sized value with a code-pointer formatting hint).
-- **TraceLoggingPid(value, [name, ...]):** Adds a field with an INT32 value with
-  a process ID formatting hint.
-- **TraceLoggingTid(value, [name, ...]):** Adds a field with an INT32 value with
-  a thread ID formatting hint.
-- **TraceLoggingIPv4Address(value, [name, ...]):** Adds a field with a UINT32
-  value with an IPv4 formatting hint (network byte order).
-- **TraceLoggingIPv6Address(pValue, [name, ...]):** Adds a field with a 16-byte
-  binary value with an IPv6 formatting hint.
-- **TraceLoggingPort(value, [name, ...]):** Adds a field with a UINT16 value
-  with an IP port formatting hint (network byte order).
+
+- **TraceLoggingInt8(value, [name, ...]):**
+
+  Adds a field with an INT8 value.
+
+- **TraceLoggingUInt8(value, [name, ...]):**
+
+  Adds a field with a UINT8 value.
+
+- **TraceLoggingInt16(value, [name, ...]):**
+
+  Adds a field with an INT16 value.
+
+- **TraceLoggingUInt16(value, [name, ...]):**
+
+  Adds a field with a UINT16 value.
+
+- **TraceLoggingInt32(value, [name, ...]):**
+
+  Adds a field with an INT32 value.
+
+- **TraceLoggingUInt32(value, [name, ...]):**
+
+  Adds a field with a UINT32 value.
+
+- **TraceLoggingInt64(value, [name, ...]):**
+
+  Adds a field with an INT64 value.
+
+- **TraceLoggingUInt64(value, [name, ...]):**
+
+  Adds a field with a UINT64 value.
+
+- **TraceLoggingIntPtr(value, [name, ...]):**
+
+  Adds a field with an INT_PTR value (signed integer with the same size as a
+  pointer).
+
+- **TraceLoggingUIntPtr(value, [name, ...]):**
+
+  Adds a field with a UINT_PTR value (unsigned integer with the same size as a
+  pointer).
+
+- **TraceLoggingLong(value, [name, ...]):**
+
+  Adds a field with a LONG value (signed long int, 32-bits on Windows
+  platforms).
+
+- **TraceLoggingULong(value, [name, ...]):**
+
+  Adds a field with a ULONG value (unsigned long int, 32-bits on Windows
+  platforms).
+
+- **TraceLoggingHexInt8(value, [name, ...]):**
+
+  Adds a field with an INT8 value with a hexadecimal formatting hint.
+
+- **TraceLoggingHexUInt8(value, [name, ...]):**
+
+  Adds a field with a UINT8 value with a hexadecimal formatting hint.
+
+- **TraceLoggingHexInt16(value, [name, ...]):**
+
+  Adds a field with an INT16 value with a hexadecimal formatting hint.
+
+- **TraceLoggingHexUInt16(value, [name, ...]):**
+
+  Adds a field with a UINT16 value with a hexadecimal formatting hint.
+
+- **TraceLoggingHexInt32(value, [name, ...]):**
+
+  Adds a field with an INT32 value with a hexadecimal formatting hint.
+
+- **TraceLoggingHexUInt32(value, [name, ...]):**
+
+  Adds a field with a UINT32 value with a hexadecimal formatting hint.
+
+- **TraceLoggingHexInt64(value, [name, ...]):**
+
+  Adds a field with an INT64 value with a hexadecimal formatting hint.
+
+- **TraceLoggingHexUInt64(value, [name, ...]):**
+
+  Adds a field with a UINT64 value with a hexadecimal formatting hint.
+
+- **TraceLoggingHexIntPtr(value, [name, ...]):**
+
+  Adds a field with an INT_PTR value with a hexadecimal formatting hint.
+
+- **TraceLoggingHexUIntPtr(value, [name, ...]):**
+
+  Adds a field with a UINT_PTR value with a hexadecimal formatting hint.
+
+- **TraceLoggingHexLong(value, [name, ...]):**
+
+  Adds a field with a LONG value with a hexadecimal formatting hint.
+
+- **TraceLoggingHexULong(value, [name, ...]):**
+
+  Adds a field with a ULONG value with a hexadecimal formatting hint.
+
+- **TraceLoggingFloat32(value, [name, ...]):**
+
+  Adds a field with a FLOAT (32-bit floating point) value.
+
+- **TraceLoggingFloat64(value, [name, ...]):**
+
+  Adds a field with a DOUBLE (64-bit floating point) value.
+
+- **TraceLoggingBoolean(value, [name, ...]):**
+
+  Adds a field with an 8-bit Boolean value (Win32 `BOOLEAN` or C++ `bool`).
+
+- **TraceLoggingBool(value, [name, ...]):**
+
+  Adds a field with a 32-bit Boolean value (Win32 `BOOL`).
+
+- **TraceLoggingChar(value, [name, ...]):**
+
+  Adds a field with a `char` value (8-bit integer with string formatting hint,
+  typically treated as code page 1252).
+
+- **TraceLoggingChar16(value, [name, ...]):**
+
+  Adds a field with a `char16_t` value (16-bit integer with string formatting
+  hint, typically treated as UCS-2).
+
+- **TraceLoggingWChar(value, [name, ...]):**
+
+  Adds a field with a `wchar_t` value (same as `char16_t` on Windows platforms).
+
+- **TraceLoggingPointer(value, [name, ...]):**
+
+  Adds a field with a `void*` value (pointer-sized value with a hexadecimal
+  formatting hint).
+
+- **TraceLoggingCodePointer(value, [name, ...]):**
+
+  Adds a field with a `void*` value (pointer-sized value with a code-pointer
+  formatting hint).
+
+- **TraceLoggingPid(value, [name, ...]):**
+
+  Adds a field with an INT32 value with a process ID formatting hint.
+
+- **TraceLoggingTid(value, [name, ...]):**
+
+  Adds a field with an INT32 value with a thread ID formatting hint.
+
+- **TraceLoggingIPv4Address(value, [name, ...]):**
+
+  Adds a field with a UINT32 value with an IPv4 formatting hint (network byte
+  order).
+
+- **TraceLoggingIPv6Address(pValue, [name, ...]):**
+
+  Adds a field with a 16-byte binary value with an IPv6 formatting hint.
+
+- **TraceLoggingPort(value, [name, ...]):**
+
+  Adds a field with a UINT16 value with an IP port formatting hint (network byte
+  order).
+
 - [**TraceLoggingSocketAddress(pValue, cbValue, [name, ...]):**](/windows/win32/api/traceloggingprovider/nf-traceloggingprovider-traceloggingsocketaddress)
+
   Adds a field with a [SOCKADDR](/windows/win32/api/winsock/ns-winsock-sockaddr)
   value.
-- **TraceLoggingWinError(value, [name, ...]):** Adds a field with a UINT32 value
-  with a Win32 error code formatting hint.
-- **TraceLoggingNTStatus(value, [name, ...]):** Adds a field with an NTSTATUS
-  (LONG) value with a WinNT error code formatting hint.
-- **TraceLoggingHResult(value, [name, ...]):** Adds a field with an HRESULT
-  (LONG) value with a Windows HRESULT formatting hint.
-- **TraceLoggingFileTime(value, [name, ...]):** Adds a field with a
+
+- **TraceLoggingWinError(value, [name, ...]):**
+
+  Adds a field with a UINT32 value with a Win32 error code formatting hint.
+
+- **TraceLoggingNTStatus(value, [name, ...]):**
+
+  Adds a field with an NTSTATUS (LONG) value with a WinNT error code formatting
+  hint.
+
+- **TraceLoggingHResult(value, [name, ...]):**
+
+  Adds a field with an HRESULT (LONG) value with a Windows HRESULT formatting
+  hint.
+
+- **TraceLoggingFileTime(value, [name, ...]):**
+
+  Adds a field with a
   [FILETIME](/windows/win32/api/minwinbase/ns-minwinbase-filetime) value. When
   used in C code, the `value` parameter must be an lvalue expression.
-- **TraceLoggingFileTimeUtc(value, [name, ...]):** Adds a field with a
+
+- **TraceLoggingFileTimeUtc(value, [name, ...]):**
+
+  Adds a field with a
   [FILETIME](/windows/win32/api/minwinbase/ns-minwinbase-filetime) value with a
   UTC time zone formatting hint. When used in C code, the `value` parameter must
   be an lvalue expression.
-- **TraceLoggingSystemTime(value, [name, ...]):** Adds a field with a
+
+- **TraceLoggingSystemTime(value, [name, ...]):**
+
+  Adds a field with a
   [SYSTEMTIME](/windows/win32/api/minwinbase/ns-minwinbase-systemtime) value.
   When used in C code, the `value` parameter must be an lvalue expression.
-- **TraceLoggingSystemTimeUtc(value, [name, ...]):** Adds a field with a
+
+- **TraceLoggingSystemTimeUtc(value, [name, ...]):**
+
+  Adds a field with a
   [SYSTEMTIME](/windows/win32/api/minwinbase/ns-minwinbase-systemtime) value
   with a UTC time zone formatting hint. When used in C code, the `value`
   parameter must be an lvalue expression.
-- **TraceLoggingGuid(value, [name, ...]):** Adds a field with a
-  [GUID](/windows/win32/api/guiddef/ns-guiddef-guid) value. When used in C code,
-  the `value` parameter must be an lvalue expression.
-- **TraceLoggingString(pszValue, [name, ...]):** Adds a field with a
-  0-terminated `char` string (typically treated as code page 1252). If pszValue
-  is NULL, an empty string `""` is used as the field value.
-- **TraceLoggingUtf8String(pszValue, [name, ...]):** Adds a field with a
-  0-terminated `char` string with a UTF-8 formatting hint. If pszValue is NULL,
-  an empty string `""` is used as the field value.
-- **TraceLoggingString16(pszValue, [name, ...]):** Adds a field with a
-  0-terminated `char16_t` string (UTF-16). If pszValue is NULL, an empty string
-  `u""` is used as the field value.
-- **TraceLoggingWideString(pszValue, [name, ...]):** Adds a field with a
-  0-terminated `wchar_t` string (UTF-16 on Windows). If pszValue is NULL, an
-  empty string `L""` is used as the field value.
-- **TraceLoggingCountedString(pchValue, cchValue, [name, ...]):** Adds a field
-  with a counted `char` string (typically treated as code page 1252). pchValue
-  may be NULL only if cchValue is 0.
+
+- **TraceLoggingGuid(value, [name, ...]):**
+
+  Adds a field with a [GUID](/windows/win32/api/guiddef/ns-guiddef-guid) value.
+  When used in C code, the `value` parameter must be an lvalue expression.
+
+- **TraceLoggingString(pszValue, [name, ...]):**
+
+  Adds a field with a 0-terminated `char` string (typically treated as code page
+  1252). If pszValue is NULL, an empty string `""` is used as the field value.
+
+- **TraceLoggingUtf8String(pszValue, [name, ...]):**
+
+  Adds a field with a 0-terminated `char` string with a UTF-8 formatting hint.
+  If pszValue is NULL, an empty string `""` is used as the field value.
+
+- **TraceLoggingString16(pszValue, [name, ...]):**
+
+  Adds a field with a 0-terminated `char16_t` string (UTF-16). If pszValue is
+  NULL, an empty string `u""` is used as the field value.
+
+- **TraceLoggingWideString(pszValue, [name, ...]):**
+
+  Adds a field with a 0-terminated `wchar_t` string (UTF-16 on Windows). If
+  pszValue is NULL, an empty string `L""` is used as the field value.
+
+- **TraceLoggingCountedString(pchValue, cchValue, [name, ...]):**
+
+  Adds a field with a counted `char` string (typically treated as code page
+  1252). pchValue may be NULL only if cchValue is 0.
+
 - **TraceLoggingCountedUtf8String(pchValue, cchValue, [name, description,
-  tag]):** Adds a field with a counted `char` string with a UTF-8 formatting
-  hint. pchValue may be NULL only if cchValue is 0.
-- **TraceLoggingCountedString16(pchValue, cchValue, [name, ...]):** Adds a field
-  with a counted `char16_t` string (UTF-16). pchValue may be NULL only if
-  cchValue is 0.
-- **TraceLoggingCountedWideString(pchValue, cchValue, [name, description,
-  tag]):** Adds a field with a counted `wchar_t` string (UTF-16 on Windows).
+  tag]):**
+
+  Adds a field with a counted `char` string with a UTF-8 formatting hint.
   pchValue may be NULL only if cchValue is 0.
-- **TraceLoggingAnsiString(pValue, [name, ...]):** Adds a field with an
-  [ANSI_STRING](/windows/win32/api/ntdef/ns-ntdef-string) value. The pValue
-  pointer must not be NULL.
-- **TraceLoggingUnicodeString(pValue, [name, ...]):** Adds a field with a
+
+- **TraceLoggingCountedString16(pchValue, cchValue, [name, ...]):**
+
+  Adds a field with a counted `char16_t` string (UTF-16). pchValue may be NULL
+  only if cchValue is 0.
+
+- **TraceLoggingCountedWideString(pchValue, cchValue, [name, description,
+  tag]):**
+
+  Adds a field with a counted `wchar_t` string (UTF-16 on Windows). pchValue may
+  be NULL only if cchValue is 0.
+
+- **TraceLoggingAnsiString(pValue, [name, ...]):**
+
+  Adds a field with an [ANSI_STRING](/windows/win32/api/ntdef/ns-ntdef-string)
+  value. The pValue pointer must not be NULL.
+
+- **TraceLoggingUnicodeString(pValue, [name, ...]):**
+
+  Adds a field with a
   [UNICODE_STRING](/windows/win32/api/ntdef/ns-ntdef-_unicode_string) value. The
   pValue pointer must not be NULL.
-- **TraceLoggingSid(pValue, [name, ...]):** Adds a field with a
-  [SID](/windows/win32/api/winnt/ns-winnt-sid) value. The pValue pointer must
-  not be NULL and must point at a properly-initialized SID (Revision and
-  SubAuthorityCount must be valid).
+
+- **TraceLoggingSid(pValue, [name, ...]):**
+
+  Adds a field with a [SID](/windows/win32/api/winnt/ns-winnt-sid) value. The
+  pValue pointer must not be NULL and must point at a properly-initialized SID
+  (Revision and SubAuthorityCount must be valid).
+
 - [**TraceLoggingBinary(pValue, cbValue, [name, ...]):**](/windows/win32/api/traceloggingprovider/nf-traceloggingprovider-traceloggingbinary)
+
   Adds a field with binary data.
-- **TraceLoggingBinaryEx(pValue, cbValue, outType, [name, ...]):** Adds a field
-  with binary data with the formatting hint specified by `outType`.
-- **TraceLoggingBinaryBuffer(pValue, StructType, [name, ...]):** Adds a field
-  with binary data. `pValue` must be a non-NULL pointer to a `StructType`
-  struct. `pValue->Buffer` must point at the start of the data and
+
+- **TraceLoggingBinaryEx(pValue, cbValue, outType, [name, ...]):**
+
+  Adds a field with binary data with the formatting hint specified by `outType`.
+
+- **TraceLoggingBinaryBuffer(pValue, StructType, [name, ...]):**
+
+  Adds a field with binary data. `pValue` must be a non-NULL pointer to a
+  `StructType` struct. `pValue->Buffer` must point at the start of the data and
   `pValue->Length` must be the number of bytes of data to be included in the
   field.
+
 - **TraceLoggingBinaryBufferEx(pValue, StructType, outType, name, description,
-  tag):** Adds a field with binary data with the formatting hint specified by
-  `outType`. `pValue` must be a non-NULL pointer to a `StructType` struct.
-  `pValue->Buffer` must point at the start of the data and `pValue->Length` must
-  be the number of bytes of data to be included in the field.
+  tag):**
+
+  Adds a field with binary data with the formatting hint specified by `outType`.
+  `pValue` must be a non-NULL pointer to a `StructType` struct. `pValue->Buffer`
+  must point at the start of the data and `pValue->Length` must be the number of
+  bytes of data to be included in the field.
+
 - [**TraceLoggingCustom(pValue, cbValue, protocol, bSchema, cbSchema, [name, ...]):**](/windows/win32/api/traceloggingprovider/nf-traceloggingprovider-traceloggingcustom)
+
   Adds a field with binary data that has been serialized according to a
   serialization protocol. Compile-time constant decoding information will be
   included along with the event to allow deserialization by the event decoder.
@@ -306,12 +458,12 @@ For example, the following wrapper macro invocations all have the same effect:
 ### Structures
 
 You can use the
-[**TraceLoggingStruct(fieldCount, name, [...]**)](/windows/win32/api/traceloggingprovider/nf-traceloggingprovider-traceloggingstruct)
-macro to create a structure (group of fields) and assign a name to it. The
-**fieldCount** parameter indicates how many of the subsequent fields should be
-counted as part of the structure. Structures may be nested, in which case each
-nested structure and its contained fields counts as a single field for the
-purpose of defining the parent struct.
+[**TraceLoggingStruct(fieldCount, name, [...])**](/windows/win32/api/traceloggingprovider/nf-traceloggingprovider-traceloggingstruct)
+macro to create a named structure (group of fields). The **fieldCount**
+parameter indicates how many of the subsequent fields should be counted as part
+of the structure. Structures may be nested, in which case each nested structure
+and its contained fields counts as a single field for the purpose of defining
+the parent struct.
 
 ### Arrays
 
@@ -459,26 +611,43 @@ For details on the use of these macros, refer to the comments in the
 TraceLoggingProvider.h header.
 
 - **TraceLoggingPackedField(pValue, cbValue, inType, [name, description,
-  tags]):** Directly adds field data (pValue, cbValue) and field metadata (name,
-  inType).
+  tags]):**
+
+  Adds field data (pValue, cbValue) and field metadata (name, inType).
+
 - **TraceLoggingPackedFieldEx(pValue, cbValue, inType, outType, [name, ...]):**
-  Directly adds field data (pValue, cbValue) and field metadata (name, inType)
-  along with a formatting hint (outType).
-- **TraceLoggingPackedMetadata(inType, [name, ...]):** Directly adds field
-  metadata (name, inType) without adding field data. Corresponding field data
-  must be added via TraceLoggingPackedData.
-- **TraceLoggingPackedMetadataEx(inType, outType, [name, ...]):** Directly adds
-  field metadata (name, inType) and a formatting hint (outType) without adding
-  field data. Corresponding field data must be added via TraceLoggingPackedData.
-- **TraceLoggingPackedStruct(fieldCount, name, [...]):** Directly adds field
-  metadata (name, fieldCount) for a struct.
-- **TraceLoggingPackedStructArray(fieldCount, [name, ...]):** Directly adds
-  field metadata (name, fieldCount) for a variable-length array of struct. The
-  array length must be specified via TraceLoggingPackedData.
-- **TraceLoggingPackedData(pValue, cbValue):** Directly adds field data to an
-  event without adding any field metadata.
-- **TraceLoggingPackedDataEx(pValue, cbValue, dataDescType):** Directly adds
-  field data to an event without adding any field metadata, using a specific
-  `Type` in the
+
+  Adds field data (pValue, cbValue) and field metadata (name, inType) along with
+  a formatting hint (outType).
+
+- **TraceLoggingPackedMetadata(inType, [name, ...]):**
+
+  Adds field metadata (name, inType) without adding field data. Corresponding
+  field data must be added via TraceLoggingPackedData.
+
+- **TraceLoggingPackedMetadataEx(inType, outType, [name, ...]):**
+
+  Adds field metadata (name, inType) and a formatting hint (outType) without
+  adding field data. Corresponding field data must be added via
+  TraceLoggingPackedData.
+
+- **TraceLoggingPackedStruct(fieldCount, name, [...]):**
+
+  Adds field metadata (name, fieldCount) for a struct.
+
+- **TraceLoggingPackedStructArray(fieldCount, [name, ...]):**
+
+  Adds field metadata (name, fieldCount) for a variable-length array of struct.
+  The array length must be specified via TraceLoggingPackedData.
+
+- **TraceLoggingPackedData(pValue, cbValue):**
+
+  Adds field data to an event without adding any field metadata. Corresponding
+  metadata must be added via the Metadata macros.
+
+- **TraceLoggingPackedDataEx(pValue, cbValue, dataDescType):**
+
+  Adds field data to an event without adding any field metadata, using a
+  specific `Type` in the
   [EVENT_DATA_DESCRIPTOR](/windows/win32/api/evntprov/ns-evntprov-event_data_descriptor)
-  for the data.
+  for the data. Corresponding metadata must be added via the Metadata macros.
