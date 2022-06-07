@@ -1,17 +1,17 @@
 ---
 title: Using TraceLogging
 description:
-  The following topics provide a TraceLogging quick start for native and managed
+  The following topics provide a TraceLogging quick start for C, C++, and .NET
   code, with examples.
 ms.assetid: CEC57517-7A0E-45AA-85F7-F358AE51EF4A
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 06/06/2022
 ---
 
 # Using TraceLogging
 
-The following topics provide a TraceLogging quick start for native and managed
-code, with examples.
+The following topics provide a TraceLogging quick start for C/C++ and .NET code,
+with examples.
 
 ## Prerequisites
 
@@ -23,13 +23,13 @@ code, with examples.
 
 - [**TraceLogging C/C++ Quick Start**](tracelogging-native-quick-start.md)
 
-  This topic describes the basic steps required to add TraceLogging to native
+  This topic describes the basic steps required to add TraceLogging to C or C++
   user-mode code.
 
-- [**TraceLogging Managed Quick Start**](tracelogging-managed-quick-start.md)
+- [**TraceLogging .NET Quick Start**](tracelogging-managed-quick-start.md)
 
-  This topic describes the basic steps required to add TraceLogging to native
-  user-mode code.
+  This topic describes the basic steps required to add TraceLogging to .NET
+  code.
 
 - [**Record and Display TraceLogging Events**](tracelogging-record-and-display-tracelogging-events.md)
 
@@ -42,9 +42,9 @@ code, with examples.
 
 - [**.NET Tracelogging Examples**](tracelogging-net-examples.md)
 
-  This topic contains a managed code Tracelogging example that illustrates how
-  to log an event only when the session verbosity level is verbose, and how to
-  log structured event data.
+  This topic contains a .NET Tracelogging example that illustrates how to log an
+  event only when the session verbosity level is verbose, and how to log
+  structured event data.
 
 - [**Universal Windows Platform Logging Example**](universal-windows-platform-logging-examples.md)
 

@@ -5,7 +5,7 @@ description:
   to managed code.
 ms.assetid: E144214D-8DCC-4263-8232-9F468C1A3CC0
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 06/06/2022
 topic_type:
   - kbSyntax
 api_name:
@@ -16,15 +16,15 @@ api_location:
 # TraceLogging Managed Quick Start
 
 The following section describes the basic steps required to add TraceLogging to
-managed code.
+.NET code.
 
 ## Prerequisites
 
-- Windows 10
+- .NET 4.6 or later.
 
 ### SimpleTraceLoggingExample.cs
 
-This example demonstrates how to log Tracelogging events without the need to
+This example demonstrates how to log TraceLogging events without the need to
 manually create a separate instrumentation manifest XML file.
 
 ```CSharp
@@ -68,7 +68,7 @@ private static EventSource log = new EventSource("SimpleTraceLoggingProvider");
 The instance is static because there should only be one instance of a specific
 provider in your application at a time.
 
-### Log Tracelogging events
+### Log TraceLogging events
 
 After the provider is created, the following code from the example above logs a
 simple event.
@@ -114,5 +114,5 @@ See
 for information about how to capture and view TraceLogging data using the latest
 internal versions of the Windows Performance Tools (WPT).
 
-See [.NET Tracelogging Examples](tracelogging-net-examples.md) for more managed
+See [.NET TraceLogging Examples](tracelogging-net-examples.md) for more managed
 TraceLogging examples.
