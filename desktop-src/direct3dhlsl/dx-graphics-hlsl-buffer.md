@@ -55,7 +55,7 @@ An ASCII string that uniquely identifies the variable name.
 
 ## Example
 
-Here is an example of a buffer declaration from the PipesGS.fx file in [PipesGS Sample](https://msdn.microsoft.com/library/Ee416423(v=VS.85).aspx).
+Here is an example of a buffer declaration.
 
 
 ```
