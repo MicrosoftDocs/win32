@@ -1333,8 +1333,8 @@
         href: dst.md
       - name: "errorf"
         href: errorf.md
-      - name: "EvaluateAttributeAtCentroid"
-        href: evaluateattributeatcentroid.md
+      - name: "EvaluateAttributeCentroid"
+        href: evaluateattributecentroid.md
       - name: "EvaluateAttributeAtSample"
         href: evaluateattributeatsample.md
       - name: "EvaluateAttributeSnapped"
