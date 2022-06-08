@@ -70,7 +70,7 @@ toast.Failed += ToastFailed;
 ### 3. Send the toast
 
 > [!IMPORTANT]
-> You must include the [AppUserModelID](../properties/props-system-appusermodel-id.md) of your app's shortcut on the Start screen each time that you call [**CreateToastNotifier**](/uwp/api/Windows.UI.Notifications.ToastNotificationManager?view=winrt-19041&preserve-view=true). If you fail to do this, your toast will not be displayed.
+> You must include the [AppUserModelID](../properties/props-system-appusermodel-id.md) of your app's shortcut on the Start screen each time that you call [**CreateToastNotifier**](/uwp/api/Windows.UI.Notifications.ToastNotificationManager). If you fail to do this, your toast will not be displayed.
 
  
 
