@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 The windowsnumerics.h header file defines C++ vector and matrix types in the [**Windows.Foundation.Numerics**](/uwp/api/Windows.Foundation.Numerics) namespace. It extends the structs from **Windows.Foundation.Numerics** with a range of mathematical operators and functions.
 
-This namespace is available only in C++. Its .NET equivalent is [System.Numerics](/dotnet/api/system.numerics?view=netframework-4.8).
+This namespace is available only in C++. Its .NET equivalent is [System.Numerics](/dotnet/api/system.numerics).
 
 ## In this section
 

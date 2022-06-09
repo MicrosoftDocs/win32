@@ -20,7 +20,7 @@ ms.date: 05/31/2018
 
 This structure represents a plane using a 3D vector normal and a distance value.
 
-This type is available only in C++. Its .NET equivalent is [System.Numerics.Plane](/dotnet/api/system.numerics.plane?view=netframework-4.8).
+This type is available only in C++. Its .NET equivalent is [System.Numerics.Plane](/dotnet/api/system.numerics.plane).
 
 ## Constructors
 
