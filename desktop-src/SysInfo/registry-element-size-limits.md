@@ -15,7 +15,7 @@ The following table identifies the size limits for the various registry elements
 | Registry Element | Size Limit                                                                                                                                            |
 |------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Key name         | 255 characters. The key name includes the absolute path of the key in the registry, always starting at a base key, for example, HKEY\_LOCAL\_MACHINE. |
-| Value name       | 16,383 characters**Windows 2000:** 260 ANSI characters or 16,383 Unicode characters.<br/>                                                       |
+| Value name       | 16,383 characters. **Windows 2000:** 260 ANSI characters or 16,383 Unicode characters.<br/>                                                      |
 | Value            | Available memory (latest format)1 MB (standard format)<br/>                                                                                     |
 | Tree             | A registry tree can be 512 levels deep. You can create up to 32 levels at a time through a single registry API call.                                  |
 
