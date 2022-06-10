@@ -422,7 +422,7 @@ The following table identifies the features that are supported for the Windows 
 
  
 
-For editions of Windows 7 and Windows Vista that do not have Microsoft Windows Media Player installed by default (the N and KN editions), you must install the [Windows Media Format 11 SDK]( ../audio-and-video.md) (https://msdn.microsoft.com/windows/bb190326.aspx) to enable WPD functionality.
+For editions of Windows 7 and Windows Vista that do not have Microsoft Windows Media Player installed by default (the N and KN editions), you must install the [Windows Media Format 11 SDK](../audio-and-video.md) to enable WPD functionality.
 
 ## Related topics
 
