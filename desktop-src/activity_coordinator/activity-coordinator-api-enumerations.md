@@ -10,10 +10,10 @@ ms.date: 04/27/2022
 
 The native Activity Coordinator API contains the following enumerations.
 
-- [**ACTIVITY\_COORDINATOR\_CONDITION**](/windows/win32/api/activitycoordinatortypes/ne-activitycoordinatortypes-activity_coordinator_condition.md)
-- [**ACTIVITY\_COORDINATOR\_NOTIFICATION**](/windows/win32/api/activitycoordinatortypes/ne-activitycoordinatortypes-activity_coordinator_notification.md)
-- [**ACTIVITY\_COORDINATOR\_POLICY\_TEMPLATE**](/windows/win32/api/activitycoordinatortypes/ne-activitycoordinatortypes-activity_coordinator_policy_template.md)
-- [**ACTIVITY\_COORDINATOR\_RESOURCE**](/windows/win32/api/activitycoordinatortypes/ne-activitycoordinatortypes-activity_coordinator_resource.md)
+- [**ACTIVITY\_COORDINATOR\_CONDITION**](/windows/win32/api/activitycoordinatortypes/ne-activitycoordinatortypes-activity_coordinator_condition)
+- [**ACTIVITY\_COORDINATOR\_NOTIFICATION**](/windows/win32/api/activitycoordinatortypes/ne-activitycoordinatortypes-activity_coordinator_notification)
+- [**ACTIVITY\_COORDINATOR\_POLICY\_TEMPLATE**](/windows/win32/api/activitycoordinatortypes/ne-activitycoordinatortypes-activity_coordinator_policy_template)
+- [**ACTIVITY\_COORDINATOR\_RESOURCE**](/windows/win32/api/activitycoordinatortypes/ne-activitycoordinatortypes-activity_coordinator_resource)
 
 ## Related topics
 

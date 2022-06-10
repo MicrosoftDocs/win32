@@ -14,25 +14,25 @@
     href: activity-coordinator-api-functions.md
     items: 
     - name: "CreateActivityCoordinatorPolicy"
-      href: /windows/win32/api/activitycoordinator/nf-activitycoordinator-createactivitycoordinatorpolicy.md
+      href: /windows/win32/api/activitycoordinator/nf-activitycoordinator-createactivitycoordinatorpolicy
     - name: "DestroyActivityCoordinatorPolicy"
-      href: /windows/win32/api/activitycoordinator/nf-activitycoordinator-destroyactivitycoordinatorpolicy.md
+      href: /windows/win32/api/activitycoordinator/nf-activitycoordinator-destroyactivitycoordinatorpolicy
     - name: "GetActivityCoordinatorPolicyResourceCondition"
-      href: /windows/win32/api/activitycoordinator/nf-activitycoordinator-getactivitycoordinatorpolicyresourcecondition.md
+      href: /windows/win32/api/activitycoordinator/nf-activitycoordinator-getactivitycoordinatorpolicyresourcecondition
     - name: "SetActivityCoordinatorPolicyResourceCondition"
-      href: /windows/win32/api/activitycoordinator/nf-activitycoordinator-setactivitycoordinatorpolicyresourcecondition.md
+      href: /windows/win32/api/activitycoordinator/nf-activitycoordinator-setactivitycoordinatorpolicyresourcecondition
     - name: "SubscribeActivityCoordinatorPolicy"
-      href: /windows/win32/api/activitycoordinator/nf-activitycoordinator-subscribeactivitycoordinatorpolicy.md
+      href: /windows/win32/api/activitycoordinator/nf-activitycoordinator-subscribeactivitycoordinatorpolicy
     - name: "UnsubscribeActivityCoordinatorPolicy"
-      href: /windows/win32/api/activitycoordinator/nf-activitycoordinator-unsubscribeactivitycoordinatorpolicy.md
+      href: /windows/win32/api/activitycoordinator/nf-activitycoordinator-unsubscribeactivitycoordinatorpolicy
   - name: "Activity Coordinator API enumerations"
     href: activity-coordinator-api-enumerations.md
     items: 
     - name: "ACTIVITY_COORDINATOR_CONDITION"
-      href: /windows/win32/api/activitycoordinatortypes/ne-activitycoordinatortypes-activity_coordinator_condition.md
+      href: /windows/win32/api/activitycoordinatortypes/ne-activitycoordinatortypes-activity_coordinator_condition
     - name: "ACTIVITY_COORDINATOR_NOTIFICATION"
-      href: /windows/win32/api/activitycoordinatortypes/ne-activitycoordinatortypes-activity_coordinator_notification.md
+      href: /windows/win32/api/activitycoordinatortypes/ne-activitycoordinatortypes-activity_coordinator_notification
     - name: "ACTIVITY_COORDINATOR_POLICY_TEMPLATE"
-      href: /windows/win32/api/activitycoordinatortypes/ne-activitycoordinatortypes-activity_coordinator_policy_template.md
+      href: /windows/win32/api/activitycoordinatortypes/ne-activitycoordinatortypes-activity_coordinator_policy_template
     - name: "ACTIVITY_COORDINATOR_RESOURCE"
-      href: /windows/win32/api/activitycoordinatortypes/ne-activitycoordinatortypes-activity_coordinator_resource.md
+      href: /windows/win32/api/activitycoordinatortypes/ne-activitycoordinatortypes-activity_coordinator_resource
