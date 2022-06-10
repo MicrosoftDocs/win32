@@ -491,7 +491,7 @@
         - name: "Structured Storage"
           href: ./stg/structured-storage-start-page.md
         - name: "Activity Coordinator"
-          href: "./activity_coordinator/-activity-coordinator-portal.md"
+          href: ./activity_coordinator/-activity-coordinator-portal.md
         - name: "COM+"
           href: ./cossdk/component-services-portal.md
         - name: "Compression API"
