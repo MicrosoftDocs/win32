@@ -24,11 +24,10 @@ This property is read/write.
 
 If the value is zero, the decoder does not use DirectX Video Acceleration (DXVA) for H.264 video decoding. For DirectShow filters, set this property before the decoder's output pin is connected.
 
-Note that when using Media Foundation (or the IMFTransform interface), this property has no effect.  See [**Supporting Direct3D 11 Video Decoding in Media Foundation**](https://docs.microsoft.com/en-us/windows/win32/medfound/supporting-direct3d-11-video-decoding-in-media-foundation) for how to use hardware acceleration with Media Foundation components.
+> [!NOTE]
+> When using Media Foundation (or the **IMFTransform** interface), this property has no effect. See [Supporting Direct3D 11 video decoding in Media Foundation](/windows/win32/medfound/supporting-direct3d-11-video-decoding-in-media-foundation) for how to use hardware acceleration with Media Foundation components.
 
 ## Requirements
-
-
 
 | Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
