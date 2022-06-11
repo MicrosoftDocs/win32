@@ -27,7 +27,7 @@ This section describes the default level of security on various Microsoft Window
 | Windows Server 2003 | Available     | Available                             | Available                |
 | Windows Vista       | Available     | Available                             | Available                |
 | Windows Server 2008 | Available     | Available                             | Available                |
-| Windows 7and newer  | Available     | Available                             | Available                |
+| Windows 7 and newer  | Available     | Available                             | Available                |
 
 ## Using SO\_REUSEADDR
 
