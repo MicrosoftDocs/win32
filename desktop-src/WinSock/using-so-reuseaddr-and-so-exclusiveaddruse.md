@@ -16,17 +16,17 @@ Client applications are less likely to be the targets of such attacks — not be
 
 This section describes the default level of security on various Microsoft Windows platforms and how the specific socket options **SO\_REUSEADDR** and [SO\_EXCLUSIVEADDRUSE](so-exclusiveaddruse.md) impact and affect network application security. An additional feature called enhanced socket security is available on Windows Server 2003 and later. The availability of these socket options and enhanced socket security varies across versions of Microsoft operating systems, as shown in the table below.
 
-| Platform            | SO\_REUSEADDR | SO\_EXCLUSIVEADDRUSE                  | Enhanced socket security |
-|---------------------|---------------|---------------------------------------|--------------------------|
-| Windows 95          | Available     | Not Available                         | Not Available            |
-| Windows 98          | Available     | Not Available                         | Not Available            |
-| Windows Me          | Available     | Not Available                         | Not Available            |
-| Windows NT 4.0      | Available     | Available in Service Pack 4 and later | Not Available            |
-| Windows 2000        | Available     | Available                             | Not Available            |
-| Windows XP          | Available     | Available                             | Not Available            |
-| Windows Server 2003 | Available     | Available                             | Available                |
-| Windows Vista       | Available     | Available                             | Available                |
-| Windows Server 2008 | Available     | Available                             | Available                |
+| Platform             | SO\_REUSEADDR | SO\_EXCLUSIVEADDRUSE                  | Enhanced socket security |
+|----------------------|---------------|---------------------------------------|--------------------------|
+| Windows 95           | Available     | Not Available                         | Not Available            |
+| Windows 98           | Available     | Not Available                         | Not Available            |
+| Windows Me           | Available     | Not Available                         | Not Available            |
+| Windows NT 4.0       | Available     | Available in Service Pack 4 and later | Not Available            |
+| Windows 2000         | Available     | Available                             | Not Available            |
+| Windows XP           | Available     | Available                             | Not Available            |
+| Windows Server 2003  | Available     | Available                             | Available                |
+| Windows Vista        | Available     | Available                             | Available                |
+| Windows Server 2008  | Available     | Available                             | Available                |
 | Windows 7 and newer  | Available     | Available                             | Available                |
 
 ## Using SO\_REUSEADDR
