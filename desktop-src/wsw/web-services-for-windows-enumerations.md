@@ -15,7 +15,6 @@ The Windows Web Services API includes the following enumerations:
 -   [**WS\_CALLBACK\_MODEL**](/windows/desktop/api/WebServices/ne-webservices-ws_callback_model)
 -   [**WS\_CALL\_PROPERTY\_ID**](/windows/desktop/api/WebServices/ne-webservices-ws_call_property_id)
 -   [**WS\_CERT\_CREDENTIAL\_TYPE**](/windows/desktop/api/WebServices/ne-webservices-ws_cert_credential_type)
--   [**WS\_CERT\_FAILURE**](/windows/win32/api/webservices/ne-webservices-)
 -   [**WS\_CHANNEL\_BINDING**](/windows/desktop/api/WebServices/ne-webservices-ws_channel_binding)
 -   [**WS\_CHANNEL\_PROPERTY\_ID**](/windows/desktop/api/WebServices/ne-webservices-ws_channel_property_id)
 -   [**WS\_CHANNEL\_STATE**](/windows/desktop/api/WebServices/ne-webservices-ws_channel_state)
