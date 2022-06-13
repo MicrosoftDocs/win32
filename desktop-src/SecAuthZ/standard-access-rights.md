@@ -36,7 +36,7 @@ Winnt.h also defines the following combinations of the standard access rights co
 | STANDARD\_RIGHTS\_EXECUTE  | Currently defined to equal READ\_CONTROL.                                         |
 | STANDARD\_RIGHTS\_READ     | Currently defined to equal READ\_CONTROL.                                         |
 | STANDARD\_RIGHTS\_REQUIRED | Combines DELETE, READ\_CONTROL, WRITE\_DAC, and WRITE\_OWNER access.              |
-| STANDARD\_RIGHTS\_WRITE    | Currently defined to equal READ\_CONTROL.                                         |
+| STANDARD\_RIGHTS\_WRITE    | Currently defined to equal WRITE\_DAC.                                         |
 
 
 
