@@ -20,7 +20,7 @@ CLSID\_CMSVideoDSPMFT
 -   [**IMFAttributes**](/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes)
 -   [**IMFQualityAdvise**](/windows/desktop/api/mfidl/nn-mfidl-imfqualityadvise)
 -   [**IMFQualityAdvise2**](/windows/desktop/api/mfidl/nn-mfidl-imfqualityadvise2)
--   [**IMediaExtension**](/uwp/api/Windows.Media.IMediaExtension?view=winrt-19041)
+-   [**IMediaExtension**](/uwp/api/Windows.Media.IMediaExtension)
 
 ## Input Formats
 
@@ -63,7 +63,7 @@ An instance of the video stabilization DSP can be created in one of the followin
 -   By calling [**MFTEnumEx**](/windows/desktop/api/mfapi/nf-mfapi-mftenumex). The video stabilization DSP is registered under the **MFT\_CATEGORY\_VIDEO\_EFFECT** category.
 -   By calling the COM function **CoCreateInstance** passing it the CLSID **CLSID\_CMSVideoDSPMFT**. To use this method, you must include wmcodecdsp.h and link against wmcodecdspuuid.lib.
 
-Additionally, the video stabilization DSP supports instantiation using Windows Runtime as a Windows Media Extension. It is defined on the [**Windows.Media.VideoEffects**](/uwp/api/Windows.Media.VideoEffects?view=winrt-19041), and its full name is "Windows.Media.VideoEffects.VideoStabilization".
+Additionally, the video stabilization DSP supports instantiation using Windows Runtime as a Windows Media Extension. It is defined on the [**Windows.Media.VideoEffects**](/uwp/api/Windows.Media.VideoEffects), and its full name is "Windows.Media.VideoEffects.VideoStabilization".
 
 ## Requirements
 
@@ -82,7 +82,7 @@ Additionally, the video stabilization DSP supports instantiation using Windows R
 [Digital Signal Processors](windowsmediadigitalsignalprocessors.md)
 </dt> <dt>
 
-[**Windows.Media.VideoEffects**](/uwp/api/Windows.Media.VideoEffects?view=winrt-19041)
+[**Windows.Media.VideoEffects**](/uwp/api/Windows.Media.VideoEffects)
 </dt> </dl>
 
  

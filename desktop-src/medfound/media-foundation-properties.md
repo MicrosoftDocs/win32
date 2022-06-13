@@ -1,5 +1,5 @@
 ---
-description: Media Foundation Properties
+description: Describes Media Foundation properties and provides a list of properties and links to related reference articles.
 ms.assetid: 98510fda-7e10-4b63-83d4-5a224aed67a3
 title: Media Foundation Properties
 ms.topic: article
@@ -191,7 +191,7 @@ ms.date: 05/31/2018
 | [MFPKEY\_MediaProtectionSystemContext](mfpkey-mediaprotectionsystemcontext.md)<br/>                                                       | Specifies a BLOB that contains the context to use when initializing a media protection system's trusted input module.<br/>                                                                     |
 | [MFPKEY\_MediaProtectionSystemContextsPerTrack](mfpkey-mediaprotectionsystemcontextspertrack.md)<br/>                                     | Set to an IPropertySet that defines a mapping from track type to a [**IRandomAccessStream**](/previous-versions//hh438400(v=vs.85)) that contains the DRM context.<br/>                                    |
 | [MFPKEY\_MediaProtectionSystemId](mfpkey-mediaprotectionsystemid.md)<br/>                                                                 | Specifies the media protection system to use for the content.<br/>                                                                                                                             |
-| [MFPKEY\_MediaProtectionSystemIdMapping](mfpkey-mediaprotectionsystemidmapping.md)<br/>                                                   | Specifies a [**IPropertySet**](/uwp/api/Windows.Foundation.Collections.IPropertySet?view=winrt-19041) that defines the mapping from a property system id to a property system activation id.<br/>                                          |
+| [MFPKEY\_MediaProtectionSystemIdMapping](mfpkey-mediaprotectionsystemidmapping.md)<br/>                                                   | Specifies a [**IPropertySet**](/uwp/api/Windows.Foundation.Collections.IPropertySet) that defines the mapping from a property system id to a property system activation id.<br/>                                          |
 | [MFPKEY\_MediaSource\_DisableReadAhead](mfpkey-mediasource-disablereadahead.md)<br/>                                                      | Enables or disables read-ahead in a media source.<br/>                                                                                                                                         |
 | [**MFPKEY\_MOST\_RECENTLY\_ENUMERATED\_VBRQUALITY**](mfpkey-most-recently-enumerated-vbrqualityproperty.md)<br/>                          | Specifies the VBR quality level of the most recently enumerated output type.<br/>                                                                                                              |
 | [**MFPKEY\_MOTIONMATCHMETHOD**](mfpkey-motionmatchmethodproperty.md)<br/>                                                                 | Specifies the method to use for motion matching. <br/>                                                                                                                                         |

@@ -1,5 +1,5 @@
 ---
-description: Represents a request for a sample from a MediaStreamSource.
+description: Describes the IMFMediaStreamSourceSampleRequest interface and provides its members, methods, remarks, and requirements.
 ms.assetid: 43617cda-84b1-405f-8a20-be793413c186
 title: IMFMediaStreamSourceSampleRequest interface
 ms.topic: reference
@@ -41,7 +41,7 @@ The **IMFMediaStreamSourceSampleRequest** interface has these methods.
 
 ## Remarks
 
-**MFMediaStreamSourceSampleRequest** is implemented by the [**Windows.Media.Core.MediaStreamSourceSampleRequest**](/uwp/api/Windows.Media.Core.MediaStreamSourceSampleRequest?view=winrt-19041) runtime class.
+**MFMediaStreamSourceSampleRequest** is implemented by the [**Windows.Media.Core.MediaStreamSourceSampleRequest**](/uwp/api/Windows.Media.Core.MediaStreamSourceSampleRequest) runtime class.
 
 ## Requirements
 
