@@ -370,7 +370,7 @@ All APIs are supported on previous versions of Windows that are eligible for the
 
 The Platform Update for Windows Vista supports the Windows 7 extensions to the Windows Portable Devices (WPD) platform. This feature enables computers to communicate with attached media and storage devices. WPD provides a flexible, robust way for computers to communicate with digital cameras, music players, mobile phones, and many other types of connected devices.
 
-For more information about Windows Portable Devices, see [Windows Portable Devices](/windows-hardware/drivers/portable/) (https://docs.microsoft.com/windows-hardware/drivers/portable/).
+For more information about Windows Portable Devices, see [Windows Portable Devices](/windows-hardware/drivers/portable/).
 
 ### Windows Editions Eligible for the Updates
 
