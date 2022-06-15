@@ -1,5 +1,5 @@
 ---
-title: Buffer Type
+title: Buffer type
 description: Use the following syntax to declare a buffer variable.
 ms.assetid: f21f0de5-58e3-466b-97bb-e4e7efa9cc1c
 keywords:
@@ -15,18 +15,12 @@ ms.date: 05/31/2018
 api_location: 
 ---
 
-# Buffer Type
+# Buffer type
 
 Use the following syntax to declare a buffer variable.
 
-
-
 | Buffer<*Type*> *Name*; |
 |------------------------------|
-
-
-
- 
 
 ## Parameters
 
@@ -57,27 +51,21 @@ An ASCII string that uniquely identifies the variable name.
 
 Here is an example of a buffer declaration.
 
-
 ```
 Buffer<float4> g_Buffer;
 ```
 
-
-
 Data is read from a buffer using an overloaded version of the [**Load**](dx-graphics-hlsl-to-load.md) HLSL intrinsic function that takes one input parameter (an integer index). A buffer is accessed like an array of elements; therefore, this example reads the second element.
-
 
 ```
 float4 bufferData = g_Buffer.Load( 1 );
 ```
 
-
-
 Use the [stream-output stage](/windows/desktop/direct3d11/d3d10-graphics-programming-guide-output-stream-stage) to output data to a buffer.
 
 ## Remarks
   
-A compatible typed buffer SRV is required to correctly load from the buffer. The load can optionally perform a type conversion, for example an RGBA8_UNORM buffer can be loaded into a float4 variable. For a buffer contaning structs, use a [**StructuredBuffer**](sm5-object-structuredbuffer.md) instead.
+A compatible typed buffer shader resource view (SRV) is required to correctly load from the buffer. The load can optionally perform a type conversion, for example an **RGBA8_UNORM** buffer can be loaded into a `float4` variable. For a buffer contaning structs, use a [**StructuredBuffer**](sm5-object-structuredbuffer.md) instead.
   
 ## See also
 
@@ -85,7 +73,3 @@ A compatible typed buffer SRV is required to correctly load from the buffer. The
 
 [Data Types (DirectX HLSL)](dx-graphics-hlsl-data-types.md)
 </dt> </dl>
-
- 
-
- 
