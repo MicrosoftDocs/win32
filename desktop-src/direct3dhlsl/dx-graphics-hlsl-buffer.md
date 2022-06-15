@@ -75,6 +75,10 @@ float4 bufferData = g_Buffer.Load( 1 );
 
 Use the [stream-output stage](/windows/desktop/direct3d11/d3d10-graphics-programming-guide-output-stream-stage) to output data to a buffer.
 
+## Remarks
+  
+A compatible typed buffer SRV is required to correctly load from the buffer. The load can optionally perform a type conversion, for example an RGBA8_UNORM buffer can be loaded into a float4 variable. For a buffer contaning structs, use a [**StructuredBuffer**](sm5-object-structuredbuffer.md) instead.
+  
 ## See also
 
 <dl> <dt>
