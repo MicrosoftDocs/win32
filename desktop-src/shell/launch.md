@@ -55,7 +55,7 @@ Each verb corresponds to the command that would be used to launch the applicatio
 
 
 ```C++
-C:\Program Files\Windows NT\Accessories\Wordpad.exe" "%1"
+"C:\Program Files\Windows NT\Accessories\Wordpad.exe" "%1"
 ```
 
 
