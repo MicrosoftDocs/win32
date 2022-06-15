@@ -31,7 +31,7 @@ A read-only buffer, which can take a T type that is a structure.
 
  
 
-The UAV format bound to this resource needs to be created with the DXGI\_FORMAT\_UNKNOWN format.
+The SRV format bound to this resource needs to be created with the DXGI\_FORMAT\_UNKNOWN format.
 
 To find out more about [structured buffers](/windows/desktop/direct3d11/direct3d-11-advanced-stages-cs-resources), see the overview material.
 
