@@ -80,7 +80,9 @@ A packaged app is launched with entries in its package graph; and that's the *st
 
 The [Dynamic Dependency API](/windows/windows-app-sdk/api/win32/_dynamicdependency/) adds entries dynamically to a package graph; and that's the *dynamic package graph*.
 
-For compatibility reasons, you need to opt in to receiving dynamic packages. So if the *flags* passed to [**GetCurrentPackageInfo**](/windows/win32/api/appmodel/nf-appmodel-getcurrentpackageinfo) and [**GetCurrentPackageInfo2**](/windows/win32/api/appmodel/nf-appmodel-getcurrentpackageinfo2) doesn't contain **PACKAGE_FILTER_DYNAMIC**, then the function looks only at the static package graph. That's the same behavior as explicitly including **PACKAGE_FILTER_STATIC** in *flags*.
+If the *flags* passed to [**GetCurrentPackageInfo**](/windows/win32/api/appmodel/nf-appmodel-getcurrentpackageinfo) or [**GetCurrentPackageInfo2**](/windows/win32/api/appmodel/nf-appmodel-getcurrentpackageinfo2) doesn't contain **PACKAGE_FILTER_DYNAMIC**, then the function looks only at the static package graph. That's the same behavior as explicitly including **PACKAGE_FILTER_STATIC** in *flags*. In other words, for those functions and for compatibility reasons, you need to opt in to receiving dynamic packages.
+
+[**GetCurrentPackageInfo3**](/windows/win32/appxpkg/appmodel/nf-appmodel-getcurrentpackageinfo3), on the other hand, is opt-out. If you don't specify **PACKAGE_FILTER_DYNAMIC** or **PACKAGE_FILTER_STATIC**, then that's equivalent to specifying both; so you get dynamic entries. To opt out, specify **PACKAGE_FILTER_STATIC** but not **PACKAGE_FILTER_DYNAMIC**.
 
 ## Requirements
 
