@@ -1,17 +1,17 @@
 ---
 description: An application manifest is an XML file that describes and identifies the shared and private side-by-side assemblies that an application should bind to at run time.
 ms.assetid: c5016251-db7a-4edc-9be9-3acb03d495f8
-title: Application Manifests
+title: Application manifests
 ms.topic: article
 ms.date: 10/08/2020
 ms.custom: 19H1
 ---
 
-# Application Manifests
+# Application manifests
 
-An application manifest is an XML file that describes and identifies the shared and private side-by-side assemblies that an application should bind to at run time. These should be the same assembly versions that were used to test the application. Application manifests may also describe metadata for files that are private to the application.
+An application manifest (also known as a side-by-side application manifest) is an XML file that describes and identifies the shared and private side-by-side assemblies that an application should bind to at run time. These should be the same assembly versions that were used to test the application. Application manifests might also describe metadata for files that are private to the application.
 
-For a complete listing of the XML schema, see [Manifest File Schema](manifest-file-schema.md).
+For a complete listing of the XML schema, see [Manifest file schema](manifest-file-schema.md).
 
 Application manifests have the following elements and attributes.
 
@@ -51,17 +51,17 @@ Application manifests have the following elements and attributes.
 | [**msix**](#msix)                                                           |                           | No       |
 | [**heapType**](#heaptype)                                                   |                           | No       |
 
-## File Location
+## File location
 
-Application manifests should be included as a resource in the application's EXE file or DLL.
+You should include the application manifest as a resource in your application's `.exe` file or `.dll`.
 
-For more information, see [Installing Side-by-side Assemblies](installing-side-by-side-assemblies.md).
+For more info, see [Installing side-by-side assemblies](installing-side-by-side-assemblies.md).
 
-## File Name Syntax
+## File name
 
-The name of an application manifest file is the name of the application's executable followed by .manifest.
+By convention an application manifest should have the same name as your app's executable file, with the `.manifest` extension appended to it.
 
-For example, an application manifest that refers to example.exe or example.dll would use the following file name syntax. You can omit the <*resource ID*> field if resource ID is 1.
+For example, an application manifest that refers to `example.exe` or `example.dll` should use the following file name syntax (if *resource ID* is 1, then you can omit the <*resource ID*> segment of the syntax).
 
 **example.exe.<*resource ID*>.manifest**
 
@@ -77,16 +77,13 @@ Names of elements and attributes are case-sensitive. The values of elements and 
 
 A container element. Its first subelement must be a **noInherit** or **assemblyIdentity** element. Required.
 
-The **assembly** element must be in the namespace "urn:schemas-microsoft-com:asm.v1". Child elements of the assembly must also be in this namespace, by inheritance or by tagging.
+The **assembly** element must be in the namespace `urn:schemas-microsoft-com:asm.v1`. Child elements of the assembly must also be in this namespace, by inheritance or by tagging.
 
 The **assembly** element has the following attributes.
-
-
 
 | Attribute           | Description                                           |
 |---------------------|-------------------------------------------------------|
 | **manifestVersion** | The **manifestVersion** attribute must be set to 1.0. |
-
 
 <span id="noInherit"></span><span id="noinherit"></span><span id="NOINHERIT"></span>
 
@@ -168,8 +165,6 @@ The first subelement of **dependentAssembly** must be an **assemblyIdentity** el
 Specifies files that are private to the application. Optional.
 
 The **file** element has the attributes shown in the following table.
-
-
 
 | Attribute   | Description                                                                                             |
 |-------------|---------------------------------------------------------------------------------------------------------|
