@@ -24,6 +24,7 @@ The system maintains multiple QoS levels, each with differentiated performance a
 | Eco | Applications that explicitly tag processes with [SetProcessInformation](/windows/desktop/api/processthreadsapi/nf-processthreadsapi-setprocessinformation) or threads with [SetThreadInformation](/windows/win32/api/processthreadsapi/nf-processthreadsapi-setthreadinformation). | Always selects most efficient CPU frequency and schedules to efficient cores. | Windows 11 |
 | Media | Threads explicitly tagged by the [Multimedia Class Scheduler Service](/windows/desktop/procthread/multimedia-class-scheduler-service) to denote multimedia batch buffering. | CPU frequency reduced for efficient batch processing. | 2004 |
 | Deadline | Threads explicitly tagged by [Multimedia Class Scheduler Service](/windows/desktop/procthread/multimedia-class-scheduler-service) to denote that audio threads require performance to meet deadlines. | High performance to meet media deadlines. | 2004 |
+| Utility  | Background services | On battery, selects most efficient CPU frequency and schedules to efficient cores. | Windows 11 22H2 |
 
 
 ## Quality of Service classification
