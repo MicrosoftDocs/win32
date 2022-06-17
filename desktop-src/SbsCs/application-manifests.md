@@ -9,7 +9,7 @@ ms.custom: 19H1
 
 # Application manifests
 
-An application manifest (also known as a side-by-side application manifest) is an XML file that describes and identifies the shared and private side-by-side assemblies that an application should bind to at run time. These should be the same assembly versions that were used to test the application. Application manifests might also describe metadata for files that are private to the application.
+An application manifest (also known as a side-by-side application manifest, or a *fusion* manifest) is an XML file that describes and identifies the shared and private side-by-side assemblies that an application should bind to at run time. These should be the same assembly versions that were used to test the application. Application manifests might also describe metadata for files that are private to the application.
 
 For a complete listing of the XML schema, see [Manifest file schema](manifest-file-schema.md).
 
@@ -53,7 +53,7 @@ Application manifests have the following elements and attributes.
 
 ## File location
 
-You should include the application manifest as a resource in your application's `.exe` file or `.dll`.
+If possible, you should embed the application manifest as a resource in your application's `.exe` file or `.dll`. If you can't do that, then you can place the application manifest file in the same directory as the `.exe` or `.dll`.
 
 For more info, see [Installing side-by-side assemblies](installing-side-by-side-assemblies.md).
 
