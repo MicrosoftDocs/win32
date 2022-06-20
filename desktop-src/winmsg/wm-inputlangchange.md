@@ -36,7 +36,9 @@ The [code page](../Intl/code-pages.md) of the new locale.
  
 Type: **LPARAM**
 
-The **HKL** input locale identifier. The low word contains a [Language Identifier](/windows/win32/intl/language-identifiers) for the input language and the high word contains a device handle.
+The **HKL** input locale identifier.
+  
+The low word contains a [Language Identifier](/windows/win32/intl/language-identifiers) for the input language. The high word contains a device handle.
 
 </dd> </dl>
 
@@ -48,7 +50,7 @@ An application should return nonzero if it processes this message.
 
 ## Remarks
 
-You can retrieve [BCP 47](https://www.rfc-editor.org/info/bcp47) [locale name](../Intl/locale-names.md) from the language identifier with call to [LCIDToLocaleName](/windows/win32/api/winnls/nf-winnls-lcidtolocalename) function. With locale name you can use [modern locale functions](/windows/win32/intl/calling-the--locale-name--functions) to extract additional locale information:
+You can retrieve the [BCP 47](https://www.rfc-editor.org/info/bcp47) [locale name](../Intl/locale-names.md) from the language identifier by calling the [LCIDToLocaleName](/windows/win32/api/winnls/nf-winnls-lcidtolocalename) function. Once you have the locale name, you can then use [modern locale functions](/windows/win32/intl/calling-the--locale-name--functions) to extract additional locale information.
 
 ```cpp
 case WM_INPUTLANGCHANGE:
@@ -59,8 +61,9 @@ case WM_INPUTLANGCHANGE:
     WCHAR localeName[LOCALE_NAME_MAX_LENGTH];
     LCIDToLocaleName(MAKELCID(langId, SORT_DEFAULT), localeName, LOCALE_NAME_MAX_LENGTH, 0);
 
+    // Get the ISO abbreviated language name (for example, "eng").
     WCHAR lang[9];
-    GetLocaleInfoEx(localeName, LOCALE_SISO639LANGNAME2, lang, 9); // 3 character ISO abbreviated language name, eg "eng"
+    GetLocaleInfoEx(localeName, LOCALE_SISO639LANGNAME2, lang, 9);
 }
 ```
 
@@ -68,13 +71,15 @@ To get the the name of the currently active input locale identifier, call the [G
 
 For a list of the input layouts that are supplied with Windows, see [Keyboard Identifiers and Input Method Editors for Windows](/windows-hardware/manufacture/desktop/windows-language-pack-default-values).
 
-[Input Method Editor (IME)](/windows/apps/design/input/input-method-editors) profile changes may not be notified with *WM_INPUTLANGCHANGE*. You can use [ITfActiveLanguageProfileNotifySink](/windows/win32/api/msctf/nn-msctf-itfactivelanguageprofilenotifysink) from [Text Services Framework](/windows/win32/tsf/text-services-framework) to handle active language or text service changes.
+[Input Method Editor (IME)](/windows/apps/design/input/input-method-editors) profile changes may not be notified with *WM_INPUTLANGCHANGE*. You can use [ITfActiveLanguageProfileNotifySink](/windows/win32/api/msctf/nn-msctf-itfactivelanguageprofilenotifysink) from the [Text Services Framework](/windows/win32/tsf/text-services-framework) to handle active language or text service changes.
 
-**Beginning in Windows 8:** Some input layouts may not have assigned language identifiers and could be reported as transient values like `LOCALE_TRANSIENT_KEYBOARD1` (`0x2000`) or `LOCALE_TRANSIENT_KEYBOARD2` (`0x2400`) in low word of the *LPARAM*. 
+**Starting with Windows 8**
 
-These values may be re-assigned by the system at any time (such as when the user changes their Language Profile), and because it can mean a different locale for a different user and/or on a different system, it is transient and cannot be used as a durable identifier. See [The deprecation of LCIDs](/globalization/locale/locale-names#the-deprecation-of-lcids) for more info.
+Some input layouts may not have assigned language identifiers and could be reported as transient values like `LOCALE_TRANSIENT_KEYBOARD1` (`0x2000`) or `LOCALE_TRANSIENT_KEYBOARD2` (`0x2400`) in the low word of *LPARAM*. 
 
-The preferred method to retrieve the language associated with the current keyboard layout or input method is a call to [Windows.Globalization.Language.CurrentInputMethodLanguageTag](/uwp/api/windows.globalization.language.currentinputmethodlanguagetag). If your app passes language tags from **CurrentInputMethodLanguageTag** to any [National Language Support](/windows/win32/intl/national-language-support-functions) functions, it must first convert the tags by calling [ResolveLocaleName](/windows/win32/api/winnls/nf-winnls-resolvelocalename). If you want to be notified about language change in UWP app then you can use [Windows.UI.Text.Core.CoreTextServicesManager.InputLanguageChanged](/uwp/api/windows.ui.text.core.coretextservicesmanager.inputlanguagechanged) event.
+These values can be re-assigned by the system at any time (such as when the user changes their Language Profile), and because it can mean a different locale for a different user and/or on a different system, it is transient and cannot be used as a durable identifier. See [The deprecation of LCIDs](/globalization/locale/locale-names#the-deprecation-of-lcids) for more info.
+
+Retrieve the language associated with the current keyboard layout or input method by calling [Windows.Globalization.Language.CurrentInputMethodLanguageTag](/uwp/api/windows.globalization.language.currentinputmethodlanguagetag). If your app passes language tags from **CurrentInputMethodLanguageTag** to any [National Language Support](/windows/win32/intl/national-language-support-functions) functions, it must first convert the tags with [ResolveLocaleName](/windows/win32/api/winnls/nf-winnls-resolvelocalename). If you want to be notified about a language change in a UWP app, handle the [Windows.UI.Text.Core.CoreTextServicesManager.InputLanguageChanged](/uwp/api/windows.ui.text.core.coretextservicesmanager.inputlanguagechanged) event.
 
 ## Requirements
 
