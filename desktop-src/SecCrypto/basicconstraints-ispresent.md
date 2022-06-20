@@ -17,7 +17,7 @@ api_location:
 
 # BasicConstraints.IsPresent property
 
-\[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, Windows XP. Instead, use the [**X509BasicConstraintsExtension Class**](/dotnet/api/system.security.cryptography.x509certificates.x509basicconstraintsextension?view=netcore-3.1) in the [**System.Security.Cryptography.X509Certificates**](/previous-versions/windows/) namespace.\]
+\[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, Windows XP. Instead, use the [**X509BasicConstraintsExtension Class**](/dotnet/api/system.security.cryptography.x509certificates.x509basicconstraintsextension) in the [**System.Security.Cryptography.X509Certificates**](/previous-versions/windows/) namespace.\]
 
 The **IsPresent** property retrieves a Boolean value that indicates whether the basic constraints extension is present. This is the default property.
 
