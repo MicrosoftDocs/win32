@@ -75,9 +75,9 @@ For a list of the input layouts that are supplied with Windows, see [Keyboard Id
 
 **Starting with Windows 8**
 
-Some input layouts may not have assigned language identifiers and could be reported as transient values like `LOCALE_TRANSIENT_KEYBOARD1` (`0x2000`) or `LOCALE_TRANSIENT_KEYBOARD2` (`0x2400`) in the low word of *LPARAM*. 
+Some input layouts may not have assigned language identifiers and could be reported as transient language identifiers, such as `LOCALE_TRANSIENT_KEYBOARD1` (`0x2000`) or `LOCALE_TRANSIENT_KEYBOARD2` (`0x2400`), in the low word of *LPARAM*. 
 
-These values can be re-assigned by the system at any time (such as when the user changes their Language Profile), and because it can mean a different locale for a different user and/or on a different system, it is transient and cannot be used as a durable identifier. See [The deprecation of LCIDs](/globalization/locale/locale-names#the-deprecation-of-lcids) for more info.
+As these transient language identifiers can be re-assigned by the system at any time (such as when the user changes their Language Profile), and can identify a different locale based on the user and/or system, they cannot be considered durable identifiers. See [The deprecation of LCIDs](/globalization/locale/locale-names#the-deprecation-of-lcids) for more info.
 
 Retrieve the language associated with the current keyboard layout or input method by calling [Windows.Globalization.Language.CurrentInputMethodLanguageTag](/uwp/api/windows.globalization.language.currentinputmethodlanguagetag). If your app passes language tags from **CurrentInputMethodLanguageTag** to any [National Language Support](/windows/win32/intl/national-language-support-functions) functions, it must first convert the tags with [ResolveLocaleName](/windows/win32/api/winnls/nf-winnls-resolvelocalename). If you want to be notified about a language change in a UWP app, handle the [Windows.UI.Text.Core.CoreTextServicesManager.InputLanguageChanged](/uwp/api/windows.ui.text.core.coretextservicesmanager.inputlanguagechanged) event.
 
