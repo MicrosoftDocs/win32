@@ -44,7 +44,7 @@ For example, you can:
 -   Set or retrieve the user agent string used by servers to identify the features of the client application or browser.
 -   Retrieve the handle type of the specified [**HINTERNET**](appendix-a-hinternet-handles.md) handle.
 
-For more information and a list of the Internet options, see [**Option Flags**](option-flags.md).
+For more information and a list of the Internet options, see [**Option flags**](option-flags.md).
 
 In Internet Explorer 5 and later, some options can be set or retrieved from a specific Internet connection using the [**INTERNET\_PER\_CONN\_OPTION\_LIST**](/windows/desktop/api/Wininet/ns-wininet-internet_per_conn_option_lista) and [**INTERNET\_PER\_CONN\_OPTION**](/windows/desktop/api/Wininet/ns-wininet-internet_per_conn_optiona) structures. For more information and a list of options that can be set or retrieved from a specific Internet connection, see the **dwOptions** member of the [**INTERNET\_PER\_CONN\_OPTION**](/windows/desktop/api/Wininet/ns-wininet-internet_per_conn_optiona) structure.
 
