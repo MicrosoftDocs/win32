@@ -24,7 +24,7 @@ There are other sources of mouse messages even when the user is only interacting
 
 ### Enabling and Disabling the Touch Input User Interface
 
-You may wish to enable or disable the touch input user interface depending on the requirements of your application. To accomplish this, intercept operating system window messages in a window procedure and modify the Windows message. Override [WndProc](/dotnet/api/system.windows.forms.control.wndproc?view=netcore-3.1) in your application to intercept these messages. The following C\# pseudo-code shows how to enable and disable the touch input user interface. The code also shows using the same technique to disable the press-and-hold gesture. This method also works for disabling the stylus.
+You may wish to enable or disable the touch input user interface depending on the requirements of your application. To accomplish this, intercept operating system window messages in a window procedure and modify the Windows message. Override [WndProc](/dotnet/api/system.windows.forms.control.wndproc?view=netcore-3.1&preserve-view=true) in your application to intercept these messages. The following C\# pseudo-code shows how to enable and disable the touch input user interface. The code also shows using the same technique to disable the press-and-hold gesture. This method also works for disabling the stylus.
 
 
 ```C++

@@ -67,5 +67,5 @@ interface MyInterface : IUnknown
 [**CreateProcess** function](/windows/win32/api/processthreadsapi/nf-processthreadsapi-createprocessa)
 </dt> <dt>
 
-[**OpenProcess** function](/win32/api/processthreadsapi/nf-processthreadsapi-openprocess)
+[**OpenProcess** function](/windows/win32/api/processthreadsapi/nf-processthreadsapi-openprocess)
 </dt> </dl>

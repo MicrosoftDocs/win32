@@ -7,7 +7,7 @@ keywords:
 - Fonts
 - Font selection
 ms.topic: article
-ms.date: 05/05/2022
+ms.date: 05/31/2022
 ---
 
 # Font selection
@@ -25,12 +25,12 @@ A _font family_ is a named group of fonts that share a common design, but might 
 such as weight. A _font family model_ defines what attributes may be used to differentiate fonts
 within a family. The new _typographic font family model_ has many advantages over the two previous
 font family models used on Windows. But changing font family models creates opportunities
-for confusion, and compatibility issues. The methods exposed by the **IDWriteFontSet4** interface
+for confusion, and compatibility issues. The methods exposed by the [**IDWriteFontSet4**](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontset4) interface
 implement a hybrid approach that offers the advantages of the typographic font family model while
 mitigating compatibility issues.
 
 This topic compares the older font family models with the typographic font family model; it explains compatibility challenges posed by changing font family models; and finally it explains how
-those challenges can be overcome by using the **IDWriteFontSet4** methods.
+those challenges can be overcome by using the [[**IDWriteFontSet4**](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontset4)](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontset4) methods.
 
 ## RBIZ font family model
 
@@ -45,7 +45,7 @@ The "RBIZ" label comes from the naming convention used for some font files, for 
 | verdanai.ttf | Italic      |
 | verdanaz.ttf | Bold Italic |
 
-With GDI, the input parameters used to select a font are defined by the **LOGFONT** structure, which
+With GDI, the input parameters used to select a font are defined by the [**LOGFONT**](/windows/win32/api/wingdi/ns-wingdi-logfonta) structure, which
 includes family name (`lfFaceName`), weight (`lfWeight`) and italic (`lfItalic`) fields. The
 `lfItalic` field is either TRUE or FALSE. GDI allows the `lfWeight` field to be any value in the
 range **FW_THIN** (100) to **FW_BLACK** (900), but for historical reasons fonts have long been designed
@@ -72,17 +72,17 @@ grouped into families. Since font families are identified by name, this means th
 different family names depending on which font family model you're using.
 
 DirectWrite does not directly support the RBIZ font family model, but it does provide methods of
-converting to and from the RBIZ model, such as **IDWriteGdiInterop::CreateFontFromLOGFONT** and
-**IDWriteGdiInterop::ConvertFontToLOGFONT**. You can also get the RBIZ family name of a font by
-calling its **GetInformationalStrings** method and specifying
-**DWRITE_INFORMATIONAL_STRING_WIN32_FAMILY_NAMES**.
+converting to and from the RBIZ model, such as [**IDWriteGdiInterop::CreateFontFromLOGFONT**](/windows/win32/api/dwrite/nf-dwrite-idwritegdiinterop-createfontfromlogfont) and
+[**IDWriteGdiInterop::ConvertFontToLOGFONT**](/windows/win32/api/dwrite/nf-dwrite-idwritegdiinterop-convertfonttologfont). You can also get the RBIZ family name of a font by
+calling its [**IDWriteFont::GetInformationalStrings**](/windows/win32/api/dwrite/nf-dwrite-idwritefont-getinformationalstrings) method, and specifying
+[**DWRITE_INFORMATIONAL_STRING_WIN32_FAMILY_NAMES**](/windows/win32/api/dwrite/ne-dwrite-dwrite_informational_string_id).
 
 ## Weight-stretch-style font family model
 
 The weight-stretch-style font family model is the original font family model used by DirectWrite
 before the typographic font family model was introduced. It is also known as weight-width-slope
 (WWS). In the WWS model, fonts within the same family can be differented by three properties: weight
-(**DWRITE_FONT_WEIGHT**), stretch (**DWRITE_FONT_STRETCH**), and style (**DWRITE_FONT_STYLE**).
+([**DWRITE_FONT_WEIGHT**](/windows/win32/api/dwrite/ne-dwrite-dwrite_font_weight)), stretch ([**DWRITE_FONT_STRETCH**](/windows/win32/api/dwrite/ne-dwrite-dwrite_font_stretch)), and style ([**DWRITE_FONT_STYLE**](/windows/win32/api/dwrite/ne-dwrite-dwrite_font_style)).
 
 The WWS model is more flexible than the RBIZ model in two ways. First, fonts in the same family can
 be differentiated by stretch (or width) as well as weight and style (regular, italic, or oblique).
@@ -103,13 +103,13 @@ different RBIZ family name to avoid ambiguity. "Arial Black" has a different RBI
 avoid having more than two weights in the "Arial" family. By contrast, all of these fonts are in the
 same weight-stretch-style family.
 
-Nevertheless, the weight-stretch-style model is not open-ended. If two fonts have the same weight,
-stretch, and style but differ in some other way (for example, optical size), they cannot be included in the
+Nevertheless, the weight-stretch-style model isn't open-ended. If two fonts have the same weight,
+stretch, and style but differ in some other way (for example, optical size), then they can't be included in the
 same WWS font family. This brings us to the typographic font family model.
 
 ## Typographic font family model
 
-Unlike its predecessors, the typographic font family model is open-ended. It supports any number of
+Unlike its predecessors, the typographic font family model *is* open-ended. It supports any number of
 axes of variation within a font family.
 
 If you think of font selection parameters as coordinates in a design space, the weight-stretch-style
@@ -121,16 +121,16 @@ By contrast, the typographic font family model has an N-dimensional design space
 can define any number of design axes, each identified by a four-character _axis tag_. A given font's
 location in the N-dimensional design space is defined by an array of _axis values_, where each axis
 value comprises an axis tag and a floating-point value. To select a font, you specify a
-typographic family name and an array of axis values (**DWRITE_FONT_AXIS_VALUE** structures).
+typographic family name and an array of axis values ([**DWRITE_FONT_AXIS_VALUE**](/windows/win32/api/dwrite_3/ns-dwrite_3-dwrite_font_axis_value) structures).
 
 Although the number of font axes is open-ended, there are a few registered axes with standard
 meanings, and the weight, stretch, and style values can be mapped to registered axis values.
-**DWRITE_FONT_WEIGHT** can be mapped to a "wght" (**DWRITE_FONT_AXIS_TAG_WEIGHT**) axis value.
-**DWRITE_FONT_STRETCH** can be mapped to a "wdth" (**DWRITE_FONT_AXIS_TAG_WIDTH**) axis value.
-**DWRITE_FONT_STYLE** can be mapped to a combination of "ital" and "slnt"
-(**DWRITE_FONT_AXIS_TAG_ITALIC** and **DWRITE_FONT_AXIS_TAG_SLANT**) axis values.
+[**DWRITE_FONT_WEIGHT**](/windows/win32/api/dwrite/ne-dwrite-dwrite_font_weight) can be mapped to a "wght" ([**DWRITE_FONT_AXIS_TAG_WEIGHT**](/windows/win32/api/dwrite_3/ne-dwrite_3-dwrite_font_axis_tag)) axis value.
+[**DWRITE_FONT_STRETCH**](/windows/win32/api/dwrite/ne-dwrite-dwrite_font_stretch) can be mapped to a "wdth" ([**DWRITE_FONT_AXIS_TAG_WIDTH**](/windows/win32/api/dwrite_3/ne-dwrite_3-dwrite_font_axis_tag)) axis value.
+[**DWRITE_FONT_STYLE**](/windows/win32/api/dwrite/ne-dwrite-dwrite_font_style) can be mapped to a combination of "ital" and "slnt"
+([**DWRITE_FONT_AXIS_TAG_ITALIC**](/windows/win32/api/dwrite_3/ne-dwrite_3-dwrite_font_axis_tag) and [**DWRITE_FONT_AXIS_TAG_SLANT**](/windows/win32/api/dwrite_3/ne-dwrite_3-dwrite_font_axis_tag)) axis values.
 
-Another registered axis is "opsz" (**DWRITE_FONT_AXIS_TAG_OPTICAL_SIZE**). An optical font family such
+Another registered axis is "opsz" ([**DWRITE_FONT_AXIS_TAG_OPTICAL_SIZE**](/windows/win32/api/dwrite_3/ne-dwrite_3-dwrite_font_axis_tag)). An optical font family such
 as Sitka includes fonts that differ along the "opsz" axis, meaning they are designed to be used at
 different point sizes. The WWS font family model does not have an optical size axis, so the Sitka
 font family must be split into multiple WWS font families: "Sitka Small", "Sitka Text", "Sitka
@@ -154,12 +154,12 @@ style.
 
 Font axes may be variable or non-variable. A static font has only non-variable axes, whereas a
 variable font may have both. To use a variable font, you must create a variable font _instance_ in
-which all the variable axes have been bound to particular values. The **IDWriteFontFace** interface
+which all the variable axes have been bound to particular values. The [**IDWriteFontFace**](/windows/win32/api/dwrite/nn-dwrite-idwritefontface) interface
 represents either a static font or a particular _instance_ of a variable font. It is possible to
 create an _arbitrary instance_ of a variable font with specified axis values. In addition, a
 variable font may declare _named instances_ in the **STAT** table with predefined combinations of axis
 values. Named instances enable a variable font to behave much like a collection of static fonts.
-When you enumerate elements of an **IDWriteFontFamily** or **IDWriteFontSet**, there is one element for
+When you enumerate elements of an [**IDWriteFontFamily**](/windows/win32/api/dwrite/nn-dwrite-idwritefontfamily) or [**IDWriteFontSet**](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontset), there is one element for
 each static font and for each named variable font instance.
 
 The typographic font-matching algorithm first selects potential match candidates based on the family
@@ -197,12 +197,12 @@ returns only named instances.
 ## Font-matching order
 
 There are different overloaded **GetMatchingFonts** methods for the weight-stretch-style font family
-model and the typographic font family model. In both cases, the output is a list of matching fonts
+model ([**IDWriteFontFamily::GetMatchingFonts**](/windows/win32/api/dwrite/nf-dwrite-idwritefontfamily-getmatchingfonts)) and the typographic font family model ([**IDWriteFontCollection2::GetMatchingFonts**](/windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontcollection2-getmatchingfonts)). In both cases, the output is a list of matching fonts
 in descending order of priority based on how well each candidate font matches the input properties.
 This section describes how the priority is determined.
 
-In the weight-stretch-style model, the input parameters are font weight (**DWRITE_FONT_WEIGHT**), font
-stretch (**DWRITE_FONT_STRETCH**) and font style (**DWRITE_FONT_STYLE**). The algorithm for finding the
+In the weight-stretch-style model, the input parameters are font weight ([**DWRITE_FONT_WEIGHT**](/windows/win32/api/dwrite/ne-dwrite-dwrite_font_weight)), font
+stretch ([**DWRITE_FONT_STRETCH**](/windows/win32/api/dwrite/ne-dwrite-dwrite_font_stretch)), and font style ([**DWRITE_FONT_STYLE**](/windows/win32/api/dwrite/ne-dwrite-dwrite_font_style)). The algorithm for finding the
 best match was documented in a 2006 white paper titled "WPF Font Selection Model" by Mikhail Leonov
 and David Brown. See the section "Matching a face from the candidate face list." This paper was
 about Windows Presentation Foundation (WPF), but DirectWrite later used the same approach.
@@ -269,7 +269,7 @@ default 20-degree slant for oblique fonts.
 An application using the typographic font family model can implement optical sizing by specifying an
 `opsz` axis value as a font selection parameter. For example, a word processing application could
 specify an `opsz` axis value equal to the font size in points. In this case, a user could select
-"Sitka" as the font family and the application would automatically select an instance of Sitka with
+"Sitka" as the font family, and the application would automatically select an instance of Sitka with
 the correct `opsz` axis value. Under the WWS model, each optical size is exposed as a different
 family name and it's up to the user to select the right one.
 
@@ -304,12 +304,13 @@ Advantages of the typographic font family model are:
 
 Compatibility issues with the typographic font selection model are:
 
--   Some older fonts cannot be selected unambiguously using only the typographic family name and
+-   Some older fonts can't be selected unambiguously using only the typographic family name and
     axis values.
 
 -   Existing documents might refer to fonts by WWS family name or RBIZ family name. Users might also
     expect to use WWS and RBIZ family names. For example, a document might specify "Sitka
     Subheading" (a WWS family name) instead of "Sitka" (a typographic family name).
+
 -   A library or framework might adopt the typographic font family model to take advantage of
     automatic optical sizing, but not provide an API for specifing arbitrary axis values. Even if a
     new API is provided, the framework might need to work with existing applications that specify
@@ -372,10 +373,10 @@ the WWS family. If "Legacy" is specfiied, then all fonts in the typographic fami
 match candidates, but ambiguity is avoided by using membership in the "Legacy" WWS family as a
 tie-breaker.
 
-Suppose a document specifies a family name and weight, stretch, and style parameters, but no axis
+Suppose that a document specifies a family name and weight, stretch, and style parameters, but no axis
 values. The application can first convert the weight, stretch, style, and font size to axis values
-by calling **IDWriteFontSet4::ConvertWeightStretchStyleToFontAxisValues**. The application can then
-pass both the family name and axis values to **IDWriteFontSet4::GetMatchingFonts**. **GetMatchingFonts**
+by calling [**IDWriteFontSet4::ConvertWeightStretchStyleToFontAxisValues**](/windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontset4-convertweightstretchstyletofontaxisvalues). The application can then
+pass both the family name and axis values to [**IDWriteFontSet4::GetMatchingFonts**](/windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontset4-getmatchingfonts). **GetMatchingFonts**
 returns a list of matching fonts in priority order, and the result is appropriate whether the
 specified family name is a typographic family name, weight-stretch-style family name, RBIZ family
 name, or full name. If the specified family has an "opsz" axis, then the appropriate optical size is
@@ -383,20 +384,20 @@ automatically selected based on the font size.
 
 Suppose a document specifies weight, stretch, and style, and _also_ specifies axis values. In that
 case, the explicit axis values can also be passed in to
-**IDWriteFontSet4::ConvertWeightStretchStyleToFontAxisValues**, and the derived axis values returned
+[**IDWriteFontSet4::ConvertWeightStretchStyleToFontAxisValues**](/windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontset4-convertweightstretchstyletofontaxisvalues), and the derived axis values returned
 by the method will include only font axes that were not specified explicitly. Thus, axis values
 specified explicitly by the document (or application) take precedence over axis values derived from
 weight, stretch, style, and font size.
 
 ## Hybrid font selection APIs
 
-The hybrid font selection model is implemented by the following **IDWriteFontSet4** methods:
+The hybrid font selection model is implemented by the following [**IDWriteFontSet4**](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontset4) methods:
 
--   The **ConvertWeightStretchStyleToFontAxisValues** method converts font size, weight, stretch, and
+-   The [**IDWriteFontSet4::ConvertWeightStretchStyleToFontAxisValues**](/windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontset4-convertweightstretchstyletofontaxisvalues) method converts font size, weight, stretch, and
     style parameters to the corresponding axis values. Any explicit axis values passed in by the
     client are excluded from the derived axis values.
 
--   The **GetMatchingFonts** method returns a prioritized list of matching fonts given a family name
+-   The [**IDWriteFontSet4::GetMatchingFonts**](/windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontset4-getmatchingfonts) method returns a prioritized list of matching fonts given a family name
     and array of axis values. As described above, the family name parameter can be a typographic
     family name, WWS family name, RBIZ family name, or full name. (The full name identifies a
     particular font style, such as "Arial Bold Italic". **GetMatchingFonts** supports matching by full
@@ -406,14 +407,14 @@ The following other DirectWrite APIs also use the hybrid font selection algorith
 
 -   [**IDWriteFontCollection2::GetMatchingFonts**](/windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontcollection2-getmatchingfonts)
 
--   **IDWriteFontFallback1::MapCharacters**
+-   [**IDWriteFontFallback1::MapCharacters**](/windows/win32/api/dwrite_2/nf-dwrite_2-idwritefontfallback-mapcharacters)
 
--   **IDWriteTextLayout** if the typographic font family model is enabled by calling **IDWriteTextLayout4::SetFontAxisValues** or **IDWriteTextLayout4::SetAutomaticFontAxes**
+-   [**IDWriteTextLayout**](/windows/win32/api/dwrite/nn-dwrite-idwritetextlayout) if the typographic font family model is enabled by calling **IDWriteTextLayout4::SetFontAxisValues** or **IDWriteTextLayout4::SetAutomaticFontAxes**
 
 ## Code examples of font selection APIs in use
 
 This section shows a complete console application that demonstrates the
-**IDWriteFontSet4::GetMatchingFonts** and **IDWriteFontSet4::ConvertWeightStretchStyleToFontAxisValues**
+[**IDWriteFontSet4::GetMatchingFonts**](/windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontset4-getmatchingfonts) and [**IDWriteFontSet4::ConvertWeightStretchStyleToFontAxisValues**](/windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontset4-convertweightstretchstyletofontaxisvalues)
 methods. First let's include some headers:
 
 ```cpp
@@ -424,9 +425,9 @@ methods. First let's include some headers:
 #include <vector>
 ```
 
-The **IDWriteFontSet4::GetMatchingFonts** method returns a list of fonts in priority order that match
+The [**IDWriteFontSet4::GetMatchingFonts**](/windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontset4-getmatchingfonts) method returns a list of fonts in priority order that match
 the specified family name and axis values. The following **MatchAxisValues** function outputs the
-parameters to **GetMatchingFonts** and the list of matching fonts in the returned font set.
+parameters to **IDWriteFontSet4::GetMatchingFonts** and the list of matching fonts in the returned font set.
 
 ```cpp
 // Forward declarations of overloaded output operators used by MatchAxisValues.
@@ -476,12 +477,12 @@ An application might have weight, stretch, and style parameters instead of (or i
 values. For example, the application might need to work with documents that reference fonts using
 RBIZ or weight-stretch-style parameters. Even if the application adds support for specifying
 arbitrary axis values, it might need to support the older parameters as well. To do so, the
-application can call the **IDWriteFontSet4::ConvertWeightStretchStyleToFontAxisValues** before calling
-**IDWriteFontSet4::GetMatchingFonts**.
+application can call [**IDWriteFontSet4::ConvertWeightStretchStyleToFontAxisValues**](/windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontset4-convertweightstretchstyletofontaxisvalues) before calling
+[**IDWriteFontSet4::GetMatchingFonts**](/windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontset4-getmatchingfonts).
 
 The following **MatchFont** function takes weight, stretch, style, and font size parameters in
 addition to axis values. It forwards these parameters to the
-**IDWriteFontSet4::ConvertWeightStretchStyleToFontAxisValues** method to compute derived axis values,
+[**IDWriteFontSet4::ConvertWeightStretchStyleToFontAxisValues**](/windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontset4-convertweightstretchstyletofontaxisvalues) method to compute derived axis values,
 which are appended to the input axis values. It passes the combined axis values to the above
 **MatchAxisValues** function.
 

@@ -1,5 +1,5 @@
 ---
-description: "Learn more about: CimMofDeserializer.DeserializeClasses method (Byte[], UInt32)"
+description: Describes the **CimMofDeserializer.DeserializeClasses** method, and provides its syntax, parameters, and return value.
 title: CimMofDeserializer.DeserializeClasses method (Byte[], UInt32) (Microsoft.Management.Infrastructure.Serialization)
 TOCTitle: CimMofDeserializer.DeserializeClasses method (Byte[], UInt32) (Microsoft.Management.Infrastructure.Serialization)
 ms:assetid: M:Microsoft.Management.Infrastructure.Serialization.CimMofDeserializer.DeserializeClasses(System.Byte[],System.UInt32@)
@@ -62,22 +62,22 @@ Public Function DeserializeClasses (
 #### Parameters
 
   - serializedData  
-    Type: [System.Byte](/dotnet/api/system.byte?view=netframework-4.8)\[\]
+    Type: [System.Byte](/dotnet/api/system.byte)\[\]
     
     A buffer that contains the serialized data.
 
 <!-- end list -->
 
   - offset  
-    Type: [System.UInt32](/dotnet/api/system.uint32?view=netframework-4.8)
+    Type: [System.UInt32](/dotnet/api/system.uint32)
     
     The byte offset to the location at which to begin reading the data. When the method returns, the offset will be pointing to the next byte after the deserialized classes.
 
 #### Return value
 
-Type: [System.Collections.Generic.IEnumerable](/dotnet/api/system.collections.generic.ienumerable-1?view=netframework-4.8)\<[CimClass](/previous-versions/windows/desktop/wmi_v2/mi-managed-api/hh832269(v=vs.85))\>
+Type: [System.Collections.Generic.IEnumerable](/dotnet/api/system.collections.generic.ienumerable-1)\<[CimClass](/previous-versions/windows/desktop/wmi_v2/mi-managed-api/hh832269(v=vs.85))\>
 
-An [IEnumerable\<T\>](/dotnet/api/system.collections.generic.ienumerable-1?view=netframework-4.8) interface that can be used to enumerate the CIM classes.
+An [IEnumerable\<T\>](/dotnet/api/system.collections.generic.ienumerable-1) interface that can be used to enumerate the CIM classes.
 
 ## See also
 

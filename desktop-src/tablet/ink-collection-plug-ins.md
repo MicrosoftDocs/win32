@@ -20,7 +20,7 @@ The following is a minimal scenario for using the [**RealTimeStylus**](realtimes
 For a sample of such an application, see the [RealTimeStylus Ink Collection Sample](realtimestylus-ink-collection-sample.md) sample.
 
 > [!Note]  
-> When a [DisplaySettingsChanged](/dotnet/api/microsoft.win32.systemevents.displaysettingschanged?view=dotnet-plat-ext-3.1) event occurs, call the [**ModifyDrawingAttributes**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokes-modifydrawingattributes) method of the collected strokes in a DisplaySettingsChanged event handler to recalculate the [Width](/previous-versions/ms582112(v=vs.100)) and [Height](/previous-versions/ms582106(v=vs.100)) properties. This is necessary to account for possible dots per inch (dpi) changes that result from the DisplaySettingsChanged event.
+> When a [DisplaySettingsChanged](/dotnet/api/microsoft.win32.systemevents.displaysettingschanged?view=dotnet-plat-ext-3.1&preserve-view=true) event occurs, call the [**ModifyDrawingAttributes**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokes-modifydrawingattributes) method of the collected strokes in a DisplaySettingsChanged event handler to recalculate the [Width](/previous-versions/ms582112(v=vs.100)) and [Height](/previous-versions/ms582106(v=vs.100)) properties. This is necessary to account for possible dots per inch (dpi) changes that result from the DisplaySettingsChanged event.
 
  
 
@@ -30,7 +30,7 @@ Neither ink analysis nor handwriting recognition is a function of the [**RealTim
 
 ## Static Rendering
 
-To render ink as it is being collected, attach a [DynamicRenderer](/previous-versions/ms575176(v=vs.100)) object to the [**RealTimeStylus**](realtimestylus-class.md) object. To render ink after it has been collected, use a [Renderer](/previous-versions/ms552630(v=vs.100)) object to draw the strokes to the appropriate [Graphics](/dotnet/api/system.drawing.graphics?view=dotnet-plat-ext-3.1) object. For more information about the DynamicRenderer object, see [Dynamic-Renderer Plug-ins](dynamic-renderer-plug-ins.md). For a sample of both static and dynamic rendering, see [RealTimeStylus Ink Collection Sample](realtimestylus-ink-collection-sample.md).
+To render ink as it is being collected, attach a [DynamicRenderer](/previous-versions/ms575176(v=vs.100)) object to the [**RealTimeStylus**](realtimestylus-class.md) object. To render ink after it has been collected, use a [Renderer](/previous-versions/ms552630(v=vs.100)) object to draw the strokes to the appropriate [Graphics](/dotnet/api/system.drawing.graphics?view=dotnet-plat-ext-3.1&preserve-view=true) object. For more information about the DynamicRenderer object, see [Dynamic-Renderer Plug-ins](dynamic-renderer-plug-ins.md). For a sample of both static and dynamic rendering, see [RealTimeStylus Ink Collection Sample](realtimestylus-ink-collection-sample.md).
 
  
 

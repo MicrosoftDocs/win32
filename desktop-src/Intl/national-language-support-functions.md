@@ -1,5 +1,5 @@
 ---
-description: NLS supports the functions defined in the following table.
+description: Describes National Language Support functions and provides a table of functions with descriptions and links to articles.
 ms.assetid: 7c72c4de-83be-4b7e-9ed8-b0236c1df8a4
 title: National Language Support Functions
 ms.topic: article
@@ -132,7 +132,7 @@ NLS supports the functions defined in the following table.
  
 
 > [!Note]  
-> **Beginning in Windows 8:** If your app passes language tags to any of these functions from the [**Windows.Globalization**](/uwp/api/Windows.Globalization?view=winrt-19041) namespace, it must first convert the tags by calling [**ResolveLocaleName**](/windows/desktop/api/Winnls/nf-winnls-resolvelocalename).
+> **Beginning in Windows 8:** If your app passes language tags to any of these functions from the [**Windows.Globalization**](/uwp/api/Windows.Globalization) namespace, it must first convert the tags by calling [**ResolveLocaleName**](/windows/desktop/api/Winnls/nf-winnls-resolvelocalename).
 
  
 

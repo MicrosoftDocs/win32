@@ -106,7 +106,7 @@ Represents a collection of connection groups.
 
 </dd> <dt>
 
-[**WINHTTP_MATCH_CONNECTION_GUID**](/windows/win32/api/Winhttp/ns-winhttp-winhttp_match_connection_group)
+[**WINHTTP_MATCH_CONNECTION_GUID**](/windows/win32/api/winhttp/ns-winhttp-winhttp_match_connection_guid)
 </dt> <dd>
 
 Represents the GUID of a connection, for purposes of connection-matching.

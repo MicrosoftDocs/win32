@@ -1,15 +1,19 @@
 ---
-title: .NET Tracelogging Examples
-description: This topic contains a managed code Tracelogging example that illustrates how to log an event only when the session verbosity level is verbose, and how to log structured event data.
+title: .NET TraceLogging Examples
+description:
+  This topic contains a .NET TraceLogging example that illustrates how to log an
+  event only when the session verbosity level is verbose, and how to log
+  structured event data.
 ms.assetid: 156016FE-FDC7-4361-BFD0-5F41254FE14D
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 06/06/2022
 ---
 
-# .NET Tracelogging Examples
+# .NET TraceLogging Examples
 
-This topic contains a managed code Tracelogging example that illustrates how to log an event only when the session verbosity level is verbose, and how to log structured event data.
-
+This topic contains a .NET TraceLogging example that illustrates how to log an
+event only when the session verbosity level is verbose, and how to log
+structured event data.
 
 ```CSharp
 using System;
@@ -20,7 +24,9 @@ namespace MoreSimpleTraceLoggingExamples
 {
     class Program
     {
-        private static EventSource log = new EventSource("SimpleTraceLoggingProvider", EventSourceSettings.EtwSelfDescribingEventFormat);
+        private static EventSource log = new EventSource(
+            "SimpleTraceLoggingProvider",
+            EventSourceSettings.EtwSelfDescribingEventFormat);
 
         static void Main(string[] args)
         {
@@ -32,7 +38,7 @@ namespace MoreSimpleTraceLoggingExamples
 
             // Log event verbosity level and opcode
             // This event is only logged when the session verbosity level is verbose.
-            log.Write("CmdLine", new EventSourceOptions {Level=EventLevel.Verbose, Opcode=EventOpcode.Info }, 
+            log.Write("CmdLine", new EventSourceOptions {Level=EventLevel.Verbose, Opcode=EventOpcode.Info },
                                  new { Args = cmdLine.ToString().TrimEnd() });
 
             try
@@ -64,13 +70,3 @@ namespace MoreSimpleTraceLoggingExamples
     }
 }
 ```
-
-
-
- 
-
- 
-
-
-
-

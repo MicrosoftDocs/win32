@@ -91,10 +91,10 @@ If you're an old hand with C++ on Windows platforms, things may look a little di
 
 | Topic | Description |
 |-|-|
-| [**Visual C++ language reference (C++/CX)**](/cpp/cppcx/visual-c-language-reference-c-cx?view=vs-2019) | High-level page that links to content related to C++. |
-| [**Quick Reference (Windows Runtime and Visual C++)**](/cpp/cppcx/quick-reference-c-cx?view=vs-2019) | Table that provides quick info about Visual C++ component extensions (C++/CX) operators and keywords. |
-| [**Type system (C++/CX)**](/cpp/cppcx/type-system-c-cx?view=vs-2019) | Reference content for the types that are supported by C++/CX. |
-| [**Namespaces (C++/CX)**](/cpp/cppcx/namespaces-reference-c-cx?view=vs-2019) | Reference content for the namespaces that contain C++-specific types that can be used in Windows Store apps. |
+| [**Visual C++ language reference (C++/CX)**](/cpp/cppcx/visual-c-language-reference-c-cx) | High-level page that links to content related to C++. |
+| [**Quick Reference (Windows Runtime and Visual C++)**](/cpp/cppcx/quick-reference-c-cx) | Table that provides quick info about Visual C++ component extensions (C++/CX) operators and keywords. |
+| [**Type system (C++/CX)**](/cpp/cppcx/type-system-c-cx) | Reference content for the types that are supported by C++/CX. |
+| [**Namespaces (C++/CX)**](/cpp/cppcx/namespaces-reference-c-cx) | Reference content for the namespaces that contain C++-specific types that can be used in Windows Store apps. |
 
 | Topic | Description |
 |-|-|

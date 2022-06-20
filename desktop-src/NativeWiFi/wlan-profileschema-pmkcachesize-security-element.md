@@ -18,7 +18,7 @@ api_location:
 
 The PMKCacheSize (security) element specifies the number of entries in the PMK cache on the client. This element is valid only for WPA2-defined networks with [**PMKCacheMode**](wlan-profileschema-pmkcachemode-security-element.md) set to "enabled". If **PMKCacheMode** is enabled, and this element is absent, the size of the cache defaults to 128 entries.
 
-PMK caching is described in the [802.11i](https://standards.ieee.org/findstds/standard/802.11i-2004.html) specification.
+PMK caching is described in the [802.11i](https://standards.ieee.org/ieee/802.11i/3127/) specification.
 
 **Windows XP with SP3 and Wireless LAN API for Windows XP with SP2:** This element is not supported.
 

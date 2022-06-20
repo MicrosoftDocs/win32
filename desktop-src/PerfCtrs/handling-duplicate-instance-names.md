@@ -16,6 +16,9 @@ Unfortunately, this convention does not completely resolve the issue. Serial num
 
 This issue is especially problematic for the `Process` counterset because it uses only the process's EXE name as the instance name even though the EXE name is not unique. The default behavior of the `Process` counterset on Windows cannot be changed due to compatibility issues.
 
+> [!TIP]
+> Windows 10 20H2 and later include the new `Process V2` counterset. The `Process V2` counterset includes the process ID (PID) in the instance name which avoids the name duplication issue of the `Process` counterset.
+
 You can alter the behavior of the `Process` and `Thread` countersets to use unique instance names by setting the `ProcessNameFormat` or `ThreadNameFormat` registry values under the `HKLM\System\CurrentControlSet\Services\Perfproc\Performance` registry key.
 
 > [!CAUTION]
