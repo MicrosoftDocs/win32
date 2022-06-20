@@ -132,7 +132,7 @@ For more information about languages and associated identifiers, see [Language I
 
  
 
-**Beginning in Windows 8.1**, the preferred way to use wordbreakers is via the WinRT API [**WordsSegmenter class**](/uwp/api/Windows.Data.Text.WordsSegmenter?view=winrt-19041).
+**Beginning in Windows 8.1**, the preferred way to use wordbreakers is via the WinRT API [**WordsSegmenter class**](/uwp/api/Windows.Data.Text.WordsSegmenter).
 
 ## Additional Resources
 

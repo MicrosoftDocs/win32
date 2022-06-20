@@ -22,7 +22,7 @@ A 3x2 matrix, used for 2D transforms.
 
 This matrix type uses a row vector layout. The x and y of this matrix's translation vector correspond to the fields m31, m32.
 
-This type is available only in C++. Its .NET equivalent is [System.Numerics.Matrix3x2](/dotnet/api/system.numerics.matrix3x2?view=netframework-4.8).
+This type is available only in C++. Its .NET equivalent is [System.Numerics.Matrix3x2](/dotnet/api/system.numerics.matrix3x2).
 
 ## Constructors
 
