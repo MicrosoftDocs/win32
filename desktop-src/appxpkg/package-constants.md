@@ -54,9 +54,10 @@ Specifies how packages are to be processed.
 | <span id="PACKAGE_FILTER_BUNDLE"></span><span id="package_filter_bundle"></span><dl><dt><strong>PACKAGE_FILTER_BUNDLE</strong></dt><dt>0x00000080</dt></dl> | Process bundle packages in the package graph.<br /> | 
 | <span id="PACKAGE_FILTER_DIRECT"></span><span id="package_filter_direct"></span><dl><dt><strong>PACKAGE_FILTER_DIRECT</strong></dt><dt>0x00000020</dt></dl> | Process the directly dependent packages of the head (first) package in the dependency graph.<br /> | 
 | **PACKAGE_FILTER_DYNAMIC**<br/>0x00100000 | Process packages dynamically added to the package graph. |
-| <span id="PACKAGE_FILTER_HEAD"></span><span id="package_filter_head"></span><dl><dt><strong>PACKAGE_FILTER_HEAD</strong></dt><dt>0x00000010</dt></dl> | Process the first package in the dependency graph.<br /> | 
+| <span id="PACKAGE_FILTER_HEAD"></span><span id="package_filter_head"></span><dl><dt><strong>PACKAGE_FILTER_HEAD</strong></dt><dt>0x00000010</dt></dl> | Process the head (first) package in the dependency graph.<br /> | 
 | **PACKAGE_FILTER_HOSTRUNTIME**<br/>0x00200000 | Process host runtime dependency packages added to the package graph. |
-| <span id="PACKAGE_FILTER_OPTIONAL"></span><span id="package_filter_optional"></span><dl><dt><strong>PACKAGE_FILTER_OPTIONAL</strong></dt><dt>0x00020000</dt></dl> | Process bundle packages in the package graph.<br /> | 
+| **PACKAGE_FILTER_IS_IN_RELATED_SET**<br/>0x00040000 | Process packages in a related set. For more info, see [Related sets](/windows/msix/package/optional-packages#related-sets). |
+| <span id="PACKAGE_FILTER_OPTIONAL"></span><span id="package_filter_optional"></span><dl><dt><strong>PACKAGE_FILTER_OPTIONAL</strong></dt><dt>0x00020000</dt></dl> | Process optional packages in the package graph.<br /> | 
 | <span id="PACKAGE_FILTER_RESOURCE"></span><span id="package_filter_resource"></span><dl><dt><strong>PACKAGE_FILTER_RESOURCE</strong></dt><dt>0x00000040</dt></dl> | Process resource packages in the package graph.<br /> | 
 | **PACKAGE_FILTER_STATIC**<br/>0x00080000 | Process packages statically added to the package graph. |
 | <span id="PACKAGE_GRAPH_MAX_SIZE"></span><span id="package_graph_max_size"></span><dl><dt><strong>PACKAGE_GRAPH_MAX_SIZE</strong></dt><dt>(1 + PACKAGE_MAX_DEPENDENCIES + PACKAGE_FAMILY_MAX_RESOURCE_PACKAGES)</dt></dl> | The maximum size of a package graph.<br /> | 
@@ -70,6 +71,7 @@ Specifies how packages are to be processed.
 | **PACKAGE_PROPERTY_DYNAMIC**<br/>0x00100000 | The package is a dynamic dependency. |
 | <span id="PACKAGE_PROPERTY_FRAMEWORK"></span><span id="package_property_framework"></span><dl><dt><strong>PACKAGE_PROPERTY_FRAMEWORK</strong></dt><dt>0x00000001</dt></dl> | The package is a framework.<br /> | 
 | **PACKAGE_PROPERTY_HOSTRUNTIME**<br/>0x00200000 | The package is a host runtime dependency. |
+| **PACKAGE_PROPERTY_IS_IN_RELATED_SET**<br/>0x00040000 | The package is in a related set. For more info, see [Related sets](/windows/msix/package/optional-packages#related-sets). |
 | <span id="PACKAGE_PROPERTY_OPTIONAL"></span><span id="package_property_optional"></span><dl><dt><strong>PACKAGE_PROPERTY_OPTIONAL</strong></dt><dt>0x00000008</dt></dl> | The package is an optional package.<br /> | 
 | <span id="PACKAGE_PROPERTY_RESOURCE"></span><span id="package_property_resource"></span><dl><dt><strong>PACKAGE_PROPERTY_RESOURCE</strong></dt><dt>0x00000002</dt></dl> | The package is a resource package.<br /> |
 | **PACKAGE_PROPERTY_STATIC**<br/>0x00080000 | The package is a static dependency. |
