@@ -295,8 +295,8 @@ The following table shows the symbolic constant names, hexadecimal values, and m
 | <span id="VK_RSHIFT"></span><span id="vk_rshift"></span>`VK_RSHIFT` | 0xA1 | Right SHIFT key |
 | <span id="VK_LCONTROL"></span><span id="vk_lcontrol"></span>`VK_LCONTROL` | 0xA2 | Left CONTROL key |
 | <span id="VK_RCONTROL"></span><span id="vk_rcontrol"></span>`VK_RCONTROL` | 0xA3 | Right CONTROL key |
-| <span id="VK_LMENU"></span><span id="vk_lmenu"></span>`VK_LMENU` | 0xA4 | Left MENU key |
-| <span id="VK_RMENU"></span><span id="vk_rmenu"></span>`VK_RMENU` | 0xA5 | Right MENU key |
+| <span id="VK_LMENU"></span><span id="vk_lmenu"></span>`VK_LMENU` | 0xA4 | Left ALT key |
+| <span id="VK_RMENU"></span><span id="vk_rmenu"></span>`VK_RMENU` | 0xA5 | Right ALT key |
 | <span id="VK_BROWSER_BACK"></span><span id="vk_browser_back"></span>`VK_BROWSER_BACK` | 0xA6 | Browser Back key |
 | <span id="VK_BROWSER_FORWARD"></span><span id="vk_browser_forward"></span>`VK_BROWSER_FORWARD` | 0xA7 | Browser Forward key |
 | <span id="VK_BROWSER_REFRESH"></span><span id="vk_browser_refresh"></span>`VK_BROWSER_REFRESH` | 0xA8 | Browser Refresh key |
