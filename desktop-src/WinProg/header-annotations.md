@@ -292,10 +292,10 @@ UnhandledExceptionFilter(
 
 <dl> <dt>
 
-[SAL Annotations](/cpp/c-runtime-library/sal-annotations?view=vs-2019)
+[SAL Annotations](/cpp/c-runtime-library/sal-annotations)
 </dt> <dt>
 
-[Walkthrough: Analyzing C/C++ Code for Defects](/visualstudio/code-quality/walkthrough-analyzing-c-cpp-code-for-defects?view=vs-2015)
+[Walkthrough: Analyzing C/C++ Code for Defects](/visualstudio/code-quality/walkthrough-analyzing-c-cpp-code-for-defects)
 </dt> </dl>
 
  

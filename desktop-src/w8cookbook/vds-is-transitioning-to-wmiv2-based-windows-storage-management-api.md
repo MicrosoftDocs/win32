@@ -47,7 +47,7 @@ Microsoft strongly recommends that you base any new storage management apps on t
 ## Resources
 
 -   [Windows Storage Management API](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal)
--   [Storage Cmdlets in Windows PowerShell](/powershell/module/storage/?view=win10-ps)
+-   [Storage Cmdlets in Windows PowerShell](/powershell/module/storage/)
 -   [Windows Management Instrumentation](../wmisdk/wmi-start-page.md)
 -   [Windows PowerShell](https://msdn.microsoft.com/library/dd835506(v=VS.85).aspx)
 

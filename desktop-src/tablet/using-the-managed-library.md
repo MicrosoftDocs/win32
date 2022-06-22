@@ -49,11 +49,11 @@ If the code within an event handler for any of the managed objects throws an exc
 
 ## Managing Forms
 
-The [Form](/dotnet/api/system.windows.forms.form?view=netcore-3.1) class and its base classes do not define a finalizer. To clean up your resources on a form, write a subclass that provides a finalizer (for example, the C\# destructor using the ~) that calls [Dispose](/dotnet/api/system.windows.forms.form.dispose?view=netcore-3.1). To do the cleanup the finalizer overrides Dispose and then calls the base class Dispose. Do not refer to other objects that require the [Finalize](/previous-versions/windows/) method in the Dispose method when the Boolean parameter is **FALSE**, because those objects may already have been finalized. For more information about releasing resources see [Finalize Methods and Destructors](/documentation/?url=%2flibrary%2fcpguide%2fhtml%2fcpconfinalizemethodscdestructors.asp).
+The [Form](/dotnet/api/system.windows.forms.form?) class and its base classes do not define a finalizer. To clean up your resources on a form, write a subclass that provides a finalizer (for example, the C\# destructor using the ~) that calls [Dispose](/dotnet/api/system.windows.forms.form.dispose). To do the cleanup the finalizer overrides Dispose and then calls the base class Dispose. Do not refer to other objects that require the [Finalize](/previous-versions/windows/) method in the Dispose method when the Boolean parameter is **FALSE**, because those objects may already have been finalized. For more information about releasing resources see [Finalize Methods and Destructors](/documentation/?url=%2flibrary%2fcpguide%2fhtml%2fcpconfinalizemethodscdestructors.asp).
 
 ## Forms and the RecognizerContext
 
-[RecognizerContext](/previous-versions/ms552546(v=vs.100)) events run in a different thread than the thread that the form is on. Controls in Windows Forms are bound to a specific thread and are not thread safe. Therefore, you must use one of the control's invoke methods to marshal the call to the proper thread. Four methods on a control are thread safe: the [Invoke](/dotnet/api/system.windows.forms.control.invoke?view=netcore-3.1), [BeginInvoke](/dotnet/api/system.windows.forms.control.begininvoke?view=netcore-3.1), [EndInvoke](/dotnet/api/system.windows.forms.control.endinvoke?view=netcore-3.1), and [CreateGraphics](/dotnet/api/system.windows.forms.control.creategraphics?view=netcore-3.1) methods. For all other method calls, use one of these invoke methods when calling from a different thread. For more information on using these methods, see [Manipulating Controls from Threads](/previous-versions/757y83z4(v=vs.140)).
+[RecognizerContext](/previous-versions/ms552546(v=vs.100)) events run in a different thread than the thread that the form is on. Controls in Windows Forms are bound to a specific thread and are not thread safe. Therefore, you must use one of the control's invoke methods to marshal the call to the proper thread. Four methods on a control are thread safe: the [Invoke](/dotnet/api/system.windows.forms.control.invoke), [BeginInvoke](/dotnet/api/system.windows.forms.control.begininvoke), [EndInvoke](/dotnet/api/system.windows.forms.control.endinvoke), and [CreateGraphics](/dotnet/api/system.windows.forms.control.creategraphics) methods. For all other method calls, use one of these invoke methods when calling from a different thread. For more information on using these methods, see [Manipulating Controls from Threads](/previous-versions/757y83z4(v=vs.140)).
 
 ## Waiting for Events
 
@@ -75,7 +75,7 @@ using (Strokes strokes = myInk.Strokes)
 
 ## Disposing Managed Objects and Controls
 
-To avoid a memory leak you must explicitly call the [Dispose](/dotnet/api/system.windows.forms.form.dispose?view=netcore-3.1) method on any Tablet PC object or control to which an event handler has been attached before the object or control goes out of scope.
+To avoid a memory leak you must explicitly call the [Dispose](/dotnet/api/system.windows.forms.form.dispose) method on any Tablet PC object or control to which an event handler has been attached before the object or control goes out of scope.
 
 To improve the performance of your application, manually dispose of the following objects, controls, and collection when they are no longer needed.
 
@@ -89,7 +89,7 @@ To improve the performance of your application, manually dispose of the followin
 -   [RecognizerContext](/previous-versions/ms552546(v=vs.100))
 -   [Strokes](/previous-versions/ms552701(v=vs.100))
 
-The following C\# example demonstrates some scenarios in which the [Dispose](/dotnet/api/system.windows.forms.form.dispose?view=netcore-3.1) method is used.
+The following C\# example demonstrates some scenarios in which the [Dispose](/dotnet/api/system.windows.forms.form.dispose) method is used.
 
 
 ```C++
