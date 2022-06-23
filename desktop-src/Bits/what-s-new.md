@@ -128,4 +128,4 @@ The following interfaces and topics were added for version 1.5:
  
 ## Updating BITS versions
  
-You can download BITS 4.0 for Windows Server 2008 with Service Pack 2 (SP2), Windows Vista with Service Pack 1 (SP1), and Windows Vista with Service Pack 2 (SP2). For information about downloading BITS 4.0, see [KB968929](https://support.microsoft.com/kb/968929).
+You can download BITS 4.0 for Windows Server 2008 with Service Pack 2 (SP2), Windows Vista with Service Pack 1 (SP1), and Windows Vista with Service Pack 2 (SP2).
