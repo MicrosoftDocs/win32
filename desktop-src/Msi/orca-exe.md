@@ -52,7 +52,9 @@ Orca.exe uses the following case-insensitive command line options with merge mod
 | -configure | <*filename*> Configure the module using data from a file.            |
 
 
+## Remarks
 
+If Orca displays the error message “The validation engine could not start” and the application event ID is 1044, view [Event Logging (Windows Installer)](event-logging.md) for a detailed event message.
  
 
 ## Related topics
