@@ -13,12 +13,4 @@ The preferred way to obtain a root object identifier (OID) is to request one fro
 
 There is usually a fee associated with registering an organization name and receiving a root OID. Fees and registration policies vary by country/region. In the United States, the ISO NRA is the American National Standards Institute (ANSI). For more information about the ANSI registration procedure and fee schedule, see https://ansi.org. The ISO maintains a list of member organizations at https://www.iso.org. If you are outside the United States, you should contact the ISO member organization for your country/region for name registration information.
 
-Regardless of the source used to get the OID, if you intend to extend the Active Directory schema and wish to apply for the Certified for Windows logo, you must register your OID with Microsoft. For more information about how to register your OID with Microsoft, see [Obtaining an Object Identifier from Microsoft](obtaining-an-object-identifier-from-microsoft.md).
-
- 
-
- 
-
-
-
-
+Microsoft offers a script to generate a unique OID, which is not registered with a registration authority. This approach is sufficient for schema extensions you use in your own forests, where no external parties inquires about the OID registration. For more details on how to create such a base OID, see [Obtaining an Object Identifier from Microsoft](obtaining-an-object-identifier-from-microsoft.md).
