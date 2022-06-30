@@ -134,6 +134,20 @@ A result entry from a call to [**WinHttpGetProxyResult**](/windows/desktop/api/W
 
 </dd> <dt>
 
+[**WINHTTP_PROXY_SETTINGS_EX**](/windows/desktop/api/winhttp/ns-winhttp-winhttp_proxy_settings_ex)
+</dt> <dd>
+
+Represents extended proxy settings.
+
+</dd> <dt>
+
+[**WINHTTP_PROXY_SETTINGS_PARAM**](/windows/desktop/api/winhttp/ns-winhttp-winhttp_proxy_settings_param)
+</dt> <dd>
+
+Represents extended proxy settings.
+
+</dd> <dt>
+
 [**WINHTTP_QUERY_CONNECTION_GROUP_RESULT**](/windows/win32/api/Winhttp/ns-winhttp-winhttp_query_connection_group_result)
 </dt> <dd>
 
