@@ -91,7 +91,7 @@ Your application can use the DRED APIs to control DRED features, and to collect 
 
 As of Windows 10, version 1903, all user-mode device-removed events are reported to [Windows Error Reporting (WER)](/windows/desktop/wer/windows-error-reporting), also known as Watson. If a particular combination of application, GPU, and display driver generates a sufficient number of device-removed events, then it's possible that DRED will be temporarily enabled for customers launching the same application on a similar configuration.
 
-## More DRED related information
-- [https://github.com/microsoft/DirectX-Debugging-Tools/blob/master/README.md](https://github.com/microsoft/DirectX-Debugging-Tools/blob/master/README.md)
-- [https://devblogs.microsoft.com/directx/debugger-extension-for-dred/](https://devblogs.microsoft.com/directx/debugger-extension-for-dred/)
-- [https://devblogs.microsoft.com/directx/dred-v1-2-supports-pix-marker-and-event-strings-in-auto-breadcrumbs/](https://devblogs.microsoft.com/directx/dred-v1-2-supports-pix-marker-and-event-strings-in-auto-breadcrumbs/)
+## More info about DRED
+* The [DirectX-Debugging-Tools](https://github.com/microsoft/DirectX-Debugging-Tools) GitHub repository
+* [Debugger extension for DRED](https://devblogs.microsoft.com/directx/debugger-extension-for-dred/) blog post
+* [DRED v1.2 supports PIX marker and event strings in Auto-Breadcrumbs](https://devblogs.microsoft.com/directx/dred-v1-2-supports-pix-marker-and-event-strings-in-auto-breadcrumbs/) blog post
