@@ -83,6 +83,7 @@ void MyDeviceRemovedHandler(ID3D12Device * pDevice)
 
 ## Debugger access to DRED
 Debuggers have access to the DRED data via the **d3d12!D3D12DeviceRemovedExtendedData** data export.
+For WinDbg users, see [DirectX-Debugging-Tools](https://github.com/microsoft/DirectX-Debugging-Tools) for a WinDBG extension that makes it much easier to debug D3D12 DRED state.
 
 ## DRED telemetry
 Your application can use the DRED APIs to control DRED features, and to collect telemetry to help analyze problems. This gives you a much broader net for catching those hard-to-reproduce TDRs.
