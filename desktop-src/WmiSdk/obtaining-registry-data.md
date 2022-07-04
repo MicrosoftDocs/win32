@@ -14,7 +14,7 @@ api_location:
 
 # Obtaining Registry Data
 
-You can obtain or modify registry data by using the WMI [**StdRegProv**](/previous-versions/windows/desktop/regprov/stdregprov) class and its methods. While use the Regedit utility to view and change registry values on the local computer, **StdRegProv** allows you to use a script or application to automate such activities on the local computer and remote computers.
+You can obtain or modify registry data by using the WMI [**StdRegProv**](/previous-versions/windows/desktop/regprov/stdregprov) class and its methods. While using the Regedit utility to view and change registry values on the local computer, **StdRegProv** allows you to use a script or application to automate such activities on the local computer and remote computers.
 
 [**StdRegProv**](/previous-versions/windows/desktop/regprov/stdregprov) contains methods to do the following:
 
