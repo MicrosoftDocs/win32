@@ -25,10 +25,7 @@ Resources provide data to the pipeline and define what is rendered during your s
 | [Textures](overviews-direct3d-11-resources-textures.md)<br/>                               | This section describes textures that are used in Direct3D 11 and links to task-based documentation for common scenarios.<br/>                                                                                                                |
 | [Floating-point rules](floating-point-rules.md)<br/>                                       | Direct3D 11 supports several floating-point representations. All floating-point computations operate under a defined subset of the IEEE 754 32-bit single precision floating-point rules.<br/>                                               |
 | [Tiled resources](tiled-resources.md)<br/>                                                 | Tiled resources can be thought of as large logical resources that use small amounts of physical memory.<br/>                                                                                                                                 |
-
-
-
- 
+|[Displayable surfaces](displayable-surfaces.md)|The displayable surfaces feature means that buffers that are presented may have varying properties, and you may present them in any order.|
 
 ## Related topics
 
