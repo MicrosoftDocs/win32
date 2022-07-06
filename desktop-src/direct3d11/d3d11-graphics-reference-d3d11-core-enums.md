@@ -176,7 +176,7 @@ This enumeration is supported by the Direct3D 11.1 runtime, which is available o
 </tr>
 <tr>
 <td><a href="/windows/win32/api/d3d11/ne-d3d11-d3d11_shared_resource_tier"><strong>D3D11_SHARED_RESOURCE_TIER</strong></a><br/></td>
-<td>Defines constants that specify a tier for shared resource support.<br/></td>
+<td>Defines constants that specify the level of support for shared resources in the current graphics driver.<br/></td>
 </tr>
 <tr>
 <td><a href="/windows/win32/api/D3D11/ne-d3d11-d3d11_stencil_op"><strong>D3D11_STENCIL_OP</strong></a><br/></td>
