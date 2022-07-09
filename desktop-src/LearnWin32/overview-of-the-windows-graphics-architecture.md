@@ -37,7 +37,7 @@ Direct2D supports fully hardware-accelerated alpha-blending (transparency).
 
 GDI has limited support for alpha-blending. Most GDI functions do not support alpha blending, although GDI does support alpha blending during a bitblt operation. GDI+ supports transparency, but the alpha blending is performed by the CPU, so it does not benefit from hardware acceleration.
 
-Hardware-accelerated alpha-blending also enables anti-aliasing. *Aliasing* is an artifact caused by sampling a continuous function. For example, when a curved line is converted to pixels, aliasing can cause a jagged appearance.\[3\] Any technique that reduces the artifacts caused by aliasing is considered a form of anti-aliasing. In graphics, anti-aliasing is done by blending edges with the background. For example, here is a circle drawn by GDI and the same circle drawn by Direct2D.
+Hardware-accelerated alpha-blending also enables anti-aliasing. *Aliasing* is an artifact caused by sampling a continuous function. For example, when a curved line is converted to pixels, aliasing can cause a jagged appearance. Any technique that reduces the artifacts caused by aliasing is considered a form of anti-aliasing. In graphics, anti-aliasing is done by blending edges with the background. For example, here is a circle drawn by GDI and the same circle drawn by Direct2D.
 
 ![an illustration of anti-aliasing techniques in direct2d.](images/graphics02.png)
 
