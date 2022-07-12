@@ -229,7 +229,7 @@
         href: /windows/desktop/api/Ddraw/nc-ddraw-lpddenumsurfacescallback2
       - name: "LPDDENUMSURFACESCALLBACK7"
         href: /windows/desktop/api/Ddraw/nc-ddraw-lpddenumsurfacescallback7
-    - name: "DirectDraw Structures"
+    - name: "DirectDraw structures"
       href: directdraw-structures.md
       items: 
       - name: "DDBLTBATCH"
@@ -239,7 +239,7 @@
       - name: "DDCAPS"
         href: /windows/win32/api/Ddraw/ns-ddraw-ddcaps_dx3
       - name: "DDCOLORCONTROL"
-        href: /previous-versions/windows/hardware/drivers/ff549237(v=vs.85)
+        href: /windows/win32/api/ddraw/ns-ddraw-ddcolorcontrol
       - name: "DDCOLORKEY"
         href: /windows/win32/api/Ddraw/ns-ddraw-ddcolorkey
       - name: "DDDEVICEIDENTIFIER2"
@@ -251,12 +251,12 @@
       - name: "DDPIXELFORMAT"
         href: /windows/win32/api/Ddraw/ns-ddraw-ddpixelformat
       - name: "DDSCAPS"
-        href: /previous-versions/windows/hardware/drivers/ff550286(v=vs.85)
+        href: /windows/win32/api/ddraw/ns-ddraw-ddscaps
       - name: "DDSCAPS2"
-        href: /previous-versions/windows/hardware/drivers/ff550292(v=vs.85)
+        href: /windows/win32/api/ddraw/ns-ddraw-ddscaps2
       - name: "DDSURFACEDESC"
-        href: /previous-versions/windows/hardware/drivers/ff550339(v=vs.85)
+        href: /windows/win32/api/ddraw/ns-ddraw-ddsurfacedesc
       - name: "DDSURFACEDESC2"
-        href: /previous-versions/windows/hardware/drivers/ff550340(v=vs.85)
+        href: /windows/win32/api/ddraw/ns-ddraw-ddsurfacedesc2
     - name: "DirectDraw Return Codes"
       href: directdraw-return-codes.md
