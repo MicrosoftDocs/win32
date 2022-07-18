@@ -1499,6 +1499,18 @@ Windows Server Standard Edition (Server Core installation)
 </dd> </dl>
 
 </dd> <dt>
+  
+<span id="PRODUCT_ENTERPRISE_FOR_VIRTUAL_DESKTOPS"></span><span id="product_enterprise_for_virtual_desktops"></span>
+
+<span id="PRODUCT_ENTERPRISE_FOR_VIRTUAL_DESKTOPS"></span><span id="product_enterprise_for_virtual_desktops"></span>**PRODUCT\_ENTERPRISE\_FOR\_VIRTUAL\_DESKTOPS** (175)
+
+</dt> <dd>
+
+Windows Enterprise for Virtual Desktops (Azure Virtual Desktop)
+
+</dd> </dl>
+
+</dd> <dt>
 
 **Organization**
 </dt> <dd> <dl> <dt>
