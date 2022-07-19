@@ -28,6 +28,19 @@ See [Internet Error Codes](../wininet/wininet-errors.md) and WinInet.h.
 
 </dt> </dl> </dd> <dt>
 
+<span id="ERROR_WINHTTP__"></span><span id="error_winhttp__"></span>**ERROR\_WINHTTP\_\***
+</dt> <dd> <dl> <dt>
+
+12001 - 12184 (0x2EE1)
+</dt> <dt>
+
+
+
+See [WinHTTP Error Codes](../winhttp/error-messages.md) and Winhttp.h.
+
+
+</dt> </dl> </dd> <dt>
+
 <span id="ERROR_IPSEC_QM_POLICY_EXISTS"></span><span id="error_ipsec_qm_policy_exists"></span>**ERROR\_IPSEC\_QM\_POLICY\_EXISTS**
 </dt> <dd> <dl> <dt>
 
