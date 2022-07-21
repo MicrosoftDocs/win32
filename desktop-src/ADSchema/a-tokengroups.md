@@ -18,7 +18,7 @@ ms.date: 05/31/2018
 
 # Token-Groups attribute
 
-A computed attribute that contains the list of SIDs due to a transitive group membership expansion operation on a given user or computer. Token Groups cannot be retrieved if no Global Catalog is present to retrieve the transitive reverse memberships.
+A computed attribute that contains the list of SIDs due to a transitive group membership expansion operation on a given user or computer. Token Groups cannot be retrieved if no Global Catalog is present to retrieve the transitive reverse memberships. Retrieving tokenGroups is an expensive operation on the domain controllers so requires a BASE scope LDAP query to return the attribute values for a given security principal object. Care should be taken when scaling use of this attribute in larger environments as it can impact overall domain controller performance up to and including preventing the domain controller from processing other requests. 
 
 
 
