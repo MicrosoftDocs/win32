@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 ## In this section
 
--   [EN\_CHANGE (rich edit)](en-change--rich-edit-control-.md)
+-   [EN\_CHANGE (rich edit)](en-change.md)
 -   [EN\_ALIGNLTR](en-alignltr.md)
 -   [EN\_ALIGNRTL](en-alignrtl.md)
 -   [EN\_CLIPFORMAT](en-clipformat.md)
