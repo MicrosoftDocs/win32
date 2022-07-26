@@ -1918,7 +1918,7 @@ The app invite request was canceld by the user.
 
 
 
-No respose ot the invite was received.
+No response to the invite was received.
 
 
 </dt> </dl> </dd> <dt>
