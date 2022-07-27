@@ -8,7 +8,7 @@ keywords:
 - feature level, DX
 - feature level, DirectX
 ms.topic: article
-ms.date: 09/01/2020
+ms.date: 07/27/2022
 ---
 
 # Direct3D feature levels
@@ -96,6 +96,28 @@ The following features are available for the feature levels listed. The headings
 | Instancing | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes<sup>7</sup> |
 | Nonpowers-of-2 conditionally<sup>3</sup> | No | No | No | No | No | No | No | Yes |
 | Nonpowers-of-2 unconditionally<sup>4</sup> | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No |
+| Required driver model | WDDM 2.0 minimum | | | | | | | |
+| Raytracing tier | Tier 1.1 | | | | | | | |
+| Variable shading rate | Tier 2 | | | | | | | |
+| Mesh shader tier | Tier 1 | | | | | | | |
+| Sampler feedback | Tier 0.9 | | | | | | | |
+| Resource binding tier | Tier 3 | | | | | | | |
+| Root signature tier | 1.1 | | | | | | | |
+| DepthBoundsTestSupported | Yes | | | | | | | |
+| WriteBufferImmediateSupportFlags | Direct, Compute, Bundle | | | | | | | |
+| MaxGPUVirtualAddressBitsPerResource | 40 | | | | | | | |
+| MaxGPUVirtualAddressBitsPerProcess | 40 | | | | | | | |
+
+Additionally, the following flags are set:
+
+|Feature \\ Feature Level|12\_2<sup>8</sup>|
+|-|-|
+|WaveOps|TRUE|
+|OutputMergerLogicOp|TRUE|
+|VPAndRTArrayIndexFromAnyShaderFeedingRasterizerSupportWithoutGSEmulation|TRUE|
+|CopyQueueTimestampQueriesSupported|TRUE|
+|CastingFullyTypedFormatSupported|TRUE|
+|Int64ShaderOps|TRUE|
 
 ## Feature support for feature levels 9_2 and 9_1
 
