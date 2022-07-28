@@ -66,3 +66,11 @@ There are two ways to read the raw data: the unbuffered (or standard) method and
 In contrast, the buffered method gets an array of [**RAWINPUT**](/windows/win32/api/winuser/ns-winuser-rawinput) structures at a time. This is provided for devices that can produce large amounts of raw input. In this method, the application calls [**GetRawInputBuffer**](/windows/win32/api/winuser/nf-winuser-getrawinputbuffer) to get an array of **RAWINPUT** structures. Note that the [**NEXTRAWINPUTBLOCK**](/windows/win32/api/winuser/nf-winuser-nextrawinputblock) macro is used to traverse an array of **RAWINPUT** structures. For an example, see [Doing a Buffered Read of Raw Input](using-raw-input.md).
 
 To interpret the raw input, detailed information about the HIDs is required. An application gets the device information by calling [**GetRawInputDeviceInfo**](/windows/win32/api/winuser/nf-winuser-getrawinputdeviceinfoa) with the device handle. This handle can come either from [**WM\_INPUT**](wm-input.md) or from the **hDevice** member of [**RAWINPUTHEADER**](/windows/win32/api/winuser/ns-winuser-rawinputheader).
+
+
+## See also
+- [Keyboard Input](keyboard-input.md)
+- [About Keyboard Input](about-keyboard-input.md)
+
+ 
+

@@ -949,17 +949,11 @@ Access to the **Msvm\_Keyboard** class might be restricted by UAC Filtering. For
 
 
 ## See also
-
-<dl> <dt>
-
-[**CIM\_UserDevice**](cim-userdevice.md)
-</dt> <dt>
-
-[**CIM\_UserDevice**](/windows/desktop/CIMWin32Prov/cim-userdevice)
-</dt> <dt>
-
-[Input Classes](input-classes.md)
-</dt> </dl>
+- [**CIM\_UserDevice**](cim-userdevice.md)
+- [**CIM\_UserDevice**](/windows/desktop/CIMWin32Prov/cim-userdevice)
+- [Input Classes](input-classes.md)
+- [Keyboard Input](keyboard-input.md)
+- [About Keyboard Input](about-keyboard-input.md)
 
  
 

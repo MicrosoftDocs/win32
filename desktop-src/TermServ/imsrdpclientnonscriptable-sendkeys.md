@@ -101,25 +101,11 @@ For more information about Remote Desktop Web Connection, see [Requirements for 
 
 ## See also
 
-<dl> <dt>
-
-[**IMsRdpClientNonScriptable2**](imsrdpclientnonscriptable2.md)
-</dt> <dt>
-
-[**IMsRdpClientNonScriptable3**](imsrdpclientnonscriptable3.md)
-</dt> <dt>
-
-[**IMsRdpClientNonScriptable4**](imsrdpclientnonscriptable4.md)
-</dt> <dt>
-
-[**IMsRdpClientNonScriptable5**](imsrdpclientnonscriptable5.md)
-</dt> <dt>
-
-[**IMsRdpClientNonScriptable**](imsrdpclientnonscriptable-interface.md)
-</dt> <dt>
-
-[WM\_KEYDOWN](../inputdev/wm-keydown.md)
-</dt> </dl>
-
- 
-
+- [**IMsRdpClientNonScriptable2**](imsrdpclientnonscriptable2.md)
+- [**IMsRdpClientNonScriptable3**](imsrdpclientnonscriptable3.md)
+- [**IMsRdpClientNonScriptable4**](imsrdpclientnonscriptable4.md)
+- [**IMsRdpClientNonScriptable5**](imsrdpclientnonscriptable5.md)
+- [**IMsRdpClientNonScriptable**](imsrdpclientnonscriptable-interface.md)
+- [WM\_KEYDOWN](../inputdev/wm-keydown.md)
+- [Keyboard Input](keyboard-input.md)
+- [About Keyboard Input](about-keyboard-input.md)

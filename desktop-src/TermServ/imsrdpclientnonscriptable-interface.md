@@ -70,14 +70,7 @@ For more information about Remote Desktop Web Connection, see [Requirements for 
 
 
 ## See also
-
-<dl> <dt>
-
-[**IMsTscNonScriptable**](imstscnonscriptable-interface.md)
-</dt> <dt>
-
-[Remote Desktop Web Connection Reference](remote-desktop-web-connection-reference.md)
-</dt> </dl>
-
- 
-
+- [**IMsTscNonScriptable**](imstscnonscriptable-interface.md)
+- [Remote Desktop Web Connection Reference](remote-desktop-web-connection-reference.md)
+- [Keyboard Input](keyboard-input.md)
+- [About Keyboard Input](about-keyboard-input.md)
