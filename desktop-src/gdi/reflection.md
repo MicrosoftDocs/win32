@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 Some applications provide features that reflect (or mirror) objects drawn in the client area. Applications that contain reflection capabilities use the [**SetWorldTransform**](/windows/desktop/api/Wingdi/nf-wingdi-setworldtransform) function to set the appropriate values in the world-space to page-space transformation. This function receives a pointer to an [**XFORM**](/windows/win32/api/wingdi/ns-wingdi-xform) structure containing the appropriate values. The eM11 and eM22 members of XFORM specify the horizontal and vertical reflection components, respectively.
 
-The *reflection transformation* creates a mirror image of an object with respect to either the x- or y-axis. In short, reflection is just negative scaling. To produce a horizontal reflection, x-coordinates are multiplied by 1. To produce a vertical reflection, y-coordinates are multiplied by 1.
+The *reflection transformation* creates a mirror image of an object with respect to either the x- or y-axis. In short, reflection is just negative scaling. To produce a horizontal reflection, x-coordinates are multiplied by -1. To produce a vertical reflection, y-coordinates are multiplied by -1.
 
 Horizontal reflection can be represented by the following algorithm:
 
