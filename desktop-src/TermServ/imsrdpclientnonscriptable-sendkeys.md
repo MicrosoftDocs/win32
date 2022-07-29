@@ -107,5 +107,5 @@ For more information about Remote Desktop Web Connection, see [Requirements for 
 - [**IMsRdpClientNonScriptable5**](imsrdpclientnonscriptable5.md)
 - [**IMsRdpClientNonScriptable**](imsrdpclientnonscriptable-interface.md)
 - [WM\_KEYDOWN](../inputdev/wm-keydown.md)
-- [Keyboard Input](keyboard-input.md)
-- [About Keyboard Input](about-keyboard-input.md)
+- [Keyboard Input (Keyboard and Mouse Input)](../inputdev/keyboard-input.md)
+- [About Keyboard Input](../inputdev/about-keyboard-input.md)

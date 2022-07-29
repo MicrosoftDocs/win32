@@ -117,5 +117,5 @@ Therefore, the thread that installed the hook must have a message loop.
 - [WM_KEYUP](/windows/desktop/inputdev/wm-keyup)
 - [WM_KEYDOWN](/windows/desktop/inputdev/wm-keydown)
 - [Hooks](hooks.md)
-- [Keyboard Input](keyboard-input.md)
-- [About Keyboard Input](about-keyboard-input.md)
+- [Keyboard Input (Keyboard and Mouse Input)](../inputdev/keyboard-input.md)
+- [About Keyboard Input](../inputdev/about-keyboard-input.md)

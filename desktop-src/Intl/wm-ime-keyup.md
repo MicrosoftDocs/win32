@@ -87,5 +87,5 @@ An application can process this message or pass it to the [**DefWindowProc**](/w
 
 - [Input Method Manager](input-method-manager.md)
 - [Input Method Manager Messages](input-method-manager-messages.md)
-- [Keyboard Input](keyboard-input.md)
-- [About Keyboard Input](about-keyboard-input.md)
+- [Keyboard Input (Keyboard and Mouse Input)](../inputdev/keyboard-input.md)
+- [About Keyboard Input](../inputdev/about-keyboard-input.md)

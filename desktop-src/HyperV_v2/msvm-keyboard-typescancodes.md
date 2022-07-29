@@ -111,6 +111,6 @@ Access to the [**Msvm\_Keyboard**](msvm-keyboard.md) class might be restricted b
 ## See also
 
 - [Msvm\_Keyboard](msvm-keyboard.md)
-- [Keyboard Input](keyboard-input.md)
-- [About Keyboard Input](about-keyboard-input.md)
+- [Keyboard Input (Keyboard and Mouse Input)](../inputdev/keyboard-input.md)
+- [About Keyboard Input](../inputdev/about-keyboard-input.md)
 

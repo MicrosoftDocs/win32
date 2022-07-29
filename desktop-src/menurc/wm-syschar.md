@@ -87,6 +87,6 @@ For enhanced 101- and 102-key keyboards, extended keys are the right ALT and CTR
 - [**TranslateMessage**](/windows/desktop/api/winuser/nf-winuser-translatemessage)
 - [**WM\_SYSKEYDOWN**](/windows/desktop/inputdev/wm-syskeydown)
 - [Keyboard Accelerators](keyboard-accelerators.md)
-- [Keyboard Input](keyboard-input.md)
-- [About Keyboard Input](about-keyboard-input.md)
+- [Keyboard Input (Keyboard and Mouse Input)](../inputdev/keyboard-input.md)
+- [About Keyboard Input](../inputdev/about-keyboard-input.md)
 

@@ -86,8 +86,8 @@ For a non-Unicode window, if the WM\_IME\_CHAR message includes a double-byte ch
 ## See also
 - [Input Method Manager](input-method-manager.md)
 - [Input Method Manager Messages](input-method-manager-messages.md)
-- [Keyboard Input](keyboard-input.md)
-- [About Keyboard Input](about-keyboard-input.md)
+- [Keyboard Input (Keyboard and Mouse Input)](../inputdev/keyboard-input.md)
+- [About Keyboard Input](../inputdev/about-keyboard-input.md)
 
  
 
