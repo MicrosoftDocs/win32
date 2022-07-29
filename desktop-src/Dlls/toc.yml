@@ -48,38 +48,40 @@
       href: dynamic-link-library-functions.md
       items: 
       - name: "AddDllDirectory"
-        href: /windows/desktop/api/LibLoaderAPI/nf-libloaderapi-adddlldirectory
+        href: /windows/win32/api/LibLoaderAPI/nf-libloaderapi-adddlldirectory
       - name: "DisableThreadLibraryCalls"
-        href: /windows/desktop/api/libloaderapi/nf-libloaderapi-disablethreadlibrarycalls
+        href: /windows/win32/api/libloaderapi/nf-libloaderapi-disablethreadlibrarycalls
       - name: "DllMain"
         href: dllmain.md
       - name: "FreeLibrary"
-        href: /windows/desktop/api/libloaderapi/nf-libloaderapi-freelibrary
+        href: /windows/win32/api/libloaderapi/nf-libloaderapi-freelibrary
       - name: "FreeLibraryAndExitThread"
-        href: /windows/desktop/api/libloaderapi/nf-libloaderapi-freelibraryandexitthread
+        href: /windows/win32/api/libloaderapi/nf-libloaderapi-freelibraryandexitthread
       - name: "GetDllDirectory"
-        href: /windows/desktop/api/WinBase/nf-winbase-getdlldirectorya
+        href: /windows/win32/api/WinBase/nf-winbase-getdlldirectorya
+      - name: "DLLGetDocumentation"
+        href: /windows/win32/dlls/unknown/nf-unknown-dllgetdocumentation
       - name: "GetModuleFileName"
-        href: /windows/desktop/api/libloaderapi/nf-libloaderapi-getmodulefilenamea
+        href: /windows/win32/api/libloaderapi/nf-libloaderapi-getmodulefilenamea
       - name: "GetModuleHandle"
-        href: /windows/desktop/api/libloaderapi/nf-libloaderapi-getmodulehandlea
+        href: /windows/win32/api/libloaderapi/nf-libloaderapi-getmodulehandlea
       - name: "GetModuleHandleEx"
-        href: /windows/desktop/api/libloaderapi/nf-libloaderapi-getmodulehandleexa
+        href: /windows/win32/api/libloaderapi/nf-libloaderapi-getmodulehandleexa
       - name: "GetProcAddress"
-        href: /windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress
+        href: /windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress
       - name: "LoadLibrary"
-        href: /windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya
+        href: /windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya
       - name: "LoadLibraryEx"
-        href: /windows/desktop/api/LibLoaderAPI/nf-libloaderapi-loadlibraryexa
+        href: /windows/win32/api/LibLoaderAPI/nf-libloaderapi-loadlibraryexa
       - name: "LoadModule"
-        href: /windows/desktop/api/Winbase/nf-winbase-loadmodule
+        href: /windows/win32/api/Winbase/nf-winbase-loadmodule
       - name: "LoadPackagedLibrary"
-        href: /windows/desktop/api/Winbase/nf-winbase-loadpackagedlibrary
+        href: /windows/win32/api/Winbase/nf-winbase-loadpackagedlibrary
       - name: "QueryOptionalDelayLoadedAPI"
-        href: /windows/desktop/api/libloaderapi2/nf-libloaderapi2-queryoptionaldelayloadedapi
+        href: /windows/win32/api/libloaderapi2/nf-libloaderapi2-queryoptionaldelayloadedapi
       - name: "RemoveDllDirectory"
-        href: /windows/desktop/api/LibLoaderAPI/nf-libloaderapi-removedlldirectory
+        href: /windows/win32/api/LibLoaderAPI/nf-libloaderapi-removedlldirectory
       - name: "SetDefaultDllDirectories"
-        href: /windows/desktop/api/LibLoaderAPI/nf-libloaderapi-setdefaultdlldirectories
+        href: /windows/win32/api/LibLoaderAPI/nf-libloaderapi-setdefaultdlldirectories
       - name: "SetDllDirectory"
-        href: /windows/desktop/api/Winbase/nf-winbase-setdlldirectorya
+        href: /windows/win32/api/Winbase/nf-winbase-setdlldirectorya
