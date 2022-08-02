@@ -145,6 +145,8 @@ The scan code is the value that the keyboard hardware generates when the user pr
 
 The following table lists the full set of Scan Codes as presently recognized by Windows. The US Key assignments are for reference to a type 101/102 Enhanced keyboard as supported by the Type 4 Keyboard layout. If there is no entry in the 101/102 Enhanced keyboard column, this scan code is currently not recognized by the operating system. The **Key location** values reference the preceding keyboard image.
 
+The "Scan 1 make" code is delivered in WM_KEYDOWN/WM_SYSKEYDOWN messages, while the "Scan 1 break" code is delivered in WM_KEYUP/WM_SYSKEYUP messages.
+
 |      Key location     |      101/102 Enhanced keyboard     |      Scan 1 make     |      Scan 1 break     |
 |--------------------------|---------------------------------------|-------------------------|--------------------------|
 |                          |     DO   NOT USE                      |     00                  |     80                   |
