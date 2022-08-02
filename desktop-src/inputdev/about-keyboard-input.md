@@ -1,5 +1,5 @@
 ---
-title: About Keyboard Input
+title: Keyboard Input Overview
 description: This topic discusses keyboard input.
 ms.assetid: de34727e-e8c7-481d-982d-0e42a02704db
 keywords:
@@ -15,10 +15,10 @@ keywords:
 - dead keys
 - dead-character messages
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 08/01/2022
 ---
 
-# About Keyboard Input
+# Keyboard Input Overview
 
 Applications should accept user input from the keyboard as well as from the mouse. An application receives keyboard input in the form of messages posted to its windows.
 

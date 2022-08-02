@@ -1,5 +1,5 @@
 ---
-title: About Raw Input
+title: Raw Input Overview
 description: This topic discusses user-input from devices such as joysticks, touch screens, and microphones.
 ms.assetid: 013ed309-f667-47ed-ade0-5e7ca5a0997a
 keywords:
@@ -17,7 +17,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# About Raw Input
+# Raw Input Overview
 
 There are many user-input devices beside the traditional keyboard and mouse. For example, user input can come from a joystick, a touch screen, a microphone, or other devices that allow great flexibility in user input. These devices are collectively known as Human Interface Devices (HIDs). The raw input API provides a stable and robust way for applications to accept raw input from any HID, including the keyboard and mouse.
 

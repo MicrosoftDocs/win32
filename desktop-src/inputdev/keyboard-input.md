@@ -1,5 +1,5 @@
 ---
-title: Keyboard Input (Keyboard and Mouse Input)
+title: Keyboard Input
 description: This section discusses how the system generates keyboard input and how an application receives and processes that input.
 ms.assetid: 'vs|winui|~\winui\windowsuserinterface\userinput\keyboardinput.htm'
 keywords:
@@ -7,14 +7,14 @@ keywords:
 - capturing user input,keyboard input
 - keyboard input
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 08/01/2022
 ---
 
-# Keyboard Input (Keyboard and Mouse Input)
+# Keyboard Input
 
 This section describes how the system generates keyboard input and how an application receives and processes that input.
 
-### In This Section
+## In This Section
 
 
 

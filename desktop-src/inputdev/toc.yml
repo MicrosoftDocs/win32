@@ -4,7 +4,7 @@
   - name: "Keyboard Input"
     href: keyboard-input.md
     items: 
-    - name: "About Keyboard Input"
+    - name: "Keyboard Input Overview"
       href: about-keyboard-input.md
     - name: "Using Keyboard Input"
       href: using-keyboard-input.md
@@ -139,7 +139,7 @@
   - name: "Mouse Input"
     href: mouse-input.md
     items: 
-    - name: "About Mouse Input"
+    - name: "Mouse Input Overview"
       href: about-mouse-input.md
     - name: "Using Mouse Input"
       href: using-mouse-input.md
@@ -275,7 +275,7 @@
   - name: "Raw Input"
     href: raw-input.md
     items: 
-    - name: "About Raw Input"
+    - name: "Raw Input Overview"
       href: about-raw-input.md
     - name: "Using Raw Input"
       href: using-raw-input.md
