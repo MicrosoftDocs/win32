@@ -1,0 +1,11 @@
+- name: "Host bus adapter (HBA)"
+  href: hba-portal.md
+  items: 
+  - name: "Host bus adapter (HBA) API reference"
+    href: hba-reference.md
+    items: 
+    - name: "Host bus adapter (HBA) functions"
+      href: hba-functions.md
+      items: 
+      - name: "HBA_RegisterForAdapterAddEvents"
+        href: /windows/win32/api/hbaapi/nf-hbaapi-hba_registerforadapteraddevents

@@ -42644,6 +42644,11 @@
       "source_path": "desktop-src/delivery_optimization/index.md",
       "redirect_url": "/windows/win32/delivery_optimization/delivery-optimization-portal",
       "redirect_document_id": false
+},
+{
+      "source_path": "desktop-src/hba/index.md",
+      "redirect_url": "/windows/win32/hba/hba-portal",
+      "redirect_document_id": false
 }
   ]
 }
