@@ -141,7 +141,7 @@ You can check the repeat count to determine whether a keystroke message represen
 The scan code is the value that the keyboard hardware generates when the user presses a key. It is a device-dependent value that identifies the key pressed, as opposed to the character represented by the key. An application typically ignores scan codes. Instead, it uses the device-independent virtual-key codes to interpret keystroke messages.
 
 > [!NOTE]
-> While virtual key codes are typically more useful, scan codes are occasionally necessary in cases such as the WASD (W is up, A is left, S is down, and D is right) key bindings for games, to ensure the key formation is consistent across keyboard layouts.
+> While virtual key codes are typically more useful, scan codes might be required in specific cases. For example, the WASD (W is up, A is left, S is down, and D is right) key bindings for games, which ensure a consistent key formation across keyboard layouts.
 
 The following table lists the full set of Scan Codes as presently recognized by Windows. The US Key assignments are for reference to a type 101/102 Enhanced keyboard as supported by the Type 4 Keyboard layout. If there is no entry in the 101/102 Enhanced keyboard column, this scan code is currently not recognized by the operating system. The **Key location** values reference the preceding keyboard image.
 
