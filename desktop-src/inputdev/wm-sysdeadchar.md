@@ -81,25 +81,14 @@ For enhanced 101- and 102-key keyboards, extended keys are the right ALT and CTR
 
 ## See also
 
-<dl> <dt>
+- [**TranslateMessage**](/windows/desktop/api/winuser/nf-winuser-translatemessage)
+- [**WM\_DEADCHAR**](wm-deadchar.md)
+- [**WM\_SYSKEYDOWN**](wm-syskeydown.md)
+- [Keyboard Input](keyboard-input.md)
+- [About Keyboard Input](about-keyboard-input.md)
 
-**Reference**
-</dt> <dt>
+ 
 
-[**TranslateMessage**](/windows/desktop/api/winuser/nf-winuser-translatemessage)
-</dt> <dt>
-
-[**WM\_DEADCHAR**](wm-deadchar.md)
-</dt> <dt>
-
-[**WM\_SYSKEYDOWN**](wm-syskeydown.md)
-</dt> <dt>
-
-**Conceptual**
-</dt> <dt>
-
-[Keyboard Input](keyboard-input.md)
-</dt> </dl>
 
  
 

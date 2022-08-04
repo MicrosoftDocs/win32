@@ -89,28 +89,9 @@ This message is also sent whenever the user presses the F10 key without the ALT 
 
 ## See also
 
-<dl> <dt>
-
-**Reference**
-</dt> <dt>
-
-[**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca)
-</dt> <dt>
-
-[**TranslateAccelerator**](/windows/desktop/api/winuser/nf-winuser-translateacceleratora)
-</dt> <dt>
-
-[**WM\_SYSCOMMAND**](/windows/desktop/menurc/wm-syscommand)
-</dt> <dt>
-
-[**WM\_SYSKEYUP**](wm-syskeyup.md)
-</dt> <dt>
-
-**Conceptual**
-</dt> <dt>
-
-[Keyboard Input](keyboard-input.md)
-</dt> </dl>
-
- 
-
+- [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca)
+- [**TranslateAccelerator**](/windows/desktop/api/winuser/nf-winuser-translateacceleratora)
+- [**WM\_SYSCOMMAND**](/windows/desktop/menurc/wm-syscommand)
+- [**WM\_SYSKEYUP**](wm-syskeyup.md)
+- [Keyboard Input](keyboard-input.md)
+- [About Keyboard Input](about-keyboard-input.md)

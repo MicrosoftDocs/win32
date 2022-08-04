@@ -112,26 +112,13 @@ The [**WM\_UNICHAR**](wm-unichar.md) message is the same as **WM\_CHAR**, except
 
 
 ## See also
+- [**TranslateMessage**](/windows/desktop/api/winuser/nf-winuser-translatemessage)
+- [**WM\_KEYDOWN**](wm-keydown.md)
+- [**WM\_UNICHAR**](wm-unichar.md)
+- [Keyboard Input](keyboard-input.md)
+- [About Keyboard Input](about-keyboard-input.md)
 
-<dl> <dt>
-
-**Reference**
-</dt> <dt>
-
-[**TranslateMessage**](/windows/desktop/api/winuser/nf-winuser-translatemessage)
-</dt> <dt>
-
-[**WM\_KEYDOWN**](wm-keydown.md)
-</dt> <dt>
-
-[**WM\_UNICHAR**](wm-unichar.md)
-</dt> <dt>
-
-**Conceptual**
-</dt> <dt>
-
-[Keyboard Input](keyboard-input.md)
-</dt> </dl>
+ 
 
  
 
