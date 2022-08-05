@@ -56,6 +56,7 @@ The system also allows a thread waiting in [**GetQueuedCompletionStatus**](/wind
 
 The following functions can be used to start I/O operations that complete by using I/O completion ports. You must pass the function an instance of the [**OVERLAPPED**](/windows/desktop/api/minwinbase/ns-minwinbase-overlapped) structure and a file handle previously associated with an I/O completion port (by a call to [**CreateIoCompletionPort**](createiocompletionport.md)) to enable the I/O completion port mechanism:
 
+-   [**AcceptEx**](/windows/win32/api/mswsock/nf-mswsock-acceptex)
 -   [**ConnectNamedPipe**](/windows/desktop/api/namedpipeapi/nf-namedpipeapi-connectnamedpipe)
 -   [**DeviceIoControl**](/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol)
 -   [**LockFileEx**](/windows/desktop/api/FileAPI/nf-fileapi-lockfileex)
