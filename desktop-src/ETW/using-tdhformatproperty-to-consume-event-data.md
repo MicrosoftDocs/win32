@@ -8,604 +8,906 @@ ms.date: 05/31/2018
 
 # Using TdhFormatProperty to Consume Event Data
 
-The following example shows how to consume event data using the [**TdhFormatProperty**](/windows/desktop/api/Tdh/nf-tdh-tdhformatproperty) function.
-
+The following example shows how to consume event data using the [**TdhFormatProperty**](/windows/win32/api/tdh/nf-tdh-tdhformatproperty) function.
 
 ```C++
-//Turns the DEFINE_GUID for EventTraceGuid into a const.
-#define INITGUID
+/*
+Sample for decoding ETW events using TdhFormatProperty.
+
+This sample demonstrates the following:
+
+- How to process events from ETL files using OpenTrace and ProcessTrace.
+- How to get TRACE_EVENT_INFO data for an event using TdhGetEventInformation.
+- How to format a WPP message using TdhGetProperty.
+- How to extract property values from non-WPP events.
+- How to format property values from non-WPP events using TdhFormatProperty.
+*/
+
+#ifndef WIN32_LEAN_AND_MEAN
+#define WIN32_LEAN_AND_MEAN 1 // Exclude rarely-used APIs from <windows.h>
+#endif
 
 #include <windows.h>
-#include <stdio.h>
-#include <wbemidl.h>
-#include <wmistr.h>
+
+#define INITGUID // Ensure that EventTraceGuid is defined.
 #include <evntrace.h>
+#undef INITGUID
+
 #include <tdh.h>
-#include <in6addr.h>
+#include <vector>
 
-#pragma comment(lib, "tdh.lib")
+#include <wchar.h> // wprintf
 
-#define LOGFILE_PATH L"C:\\Code\\etw\\V2EventTraceController\\mylogfile.etl"
+#pragma comment(lib, "tdh.lib") // Link against TDH.dll
 
-// Used to calculate CPU usage
+// Support building this sample using older versions of the Windows SDK:
+#define EventNameOffset        ActivityIDNameOffset
+#define EventAttributesOffset  RelatedActivityIDNameOffset
 
-ULONG g_TimerResolution = 0;
+/*
+Decodes event data using TdhGetEventInformation and TdhFormatProperty. Prints
+the event information to stdout.
 
-// Used to determine if the session is a private session or kernel session.
-// You need to know this when accessing some members of the EVENT_TRACE.Header
-// member (for example, KernelTime or UserTime).
-
-BOOL g_bUserMode = FALSE;
-
-// Handle to the trace file that you opened.
-
-TRACEHANDLE g_hTrace = 0;  
-
-// Prototypes
-
-void WINAPI ProcessEvent(PEVENT_RECORD pEvent);
-DWORD GetEventInformation(PEVENT_RECORD pEvent, PTRACE_EVENT_INFO & pInfo);
-PBYTE PrintProperties(PEVENT_RECORD pEvent, PTRACE_EVENT_INFO pInfo, DWORD PointerSize, USHORT i, PBYTE pUserData, PBYTE pEndOfUserData);
-DWORD GetPropertyLength(PEVENT_RECORD pEvent, PTRACE_EVENT_INFO pInfo, USHORT i, PUSHORT PropertyLength);
-DWORD GetArraySize(PEVENT_RECORD pEvent, PTRACE_EVENT_INFO pInfo, USHORT i, PUSHORT ArraySize);
-DWORD GetMapInfo(PEVENT_RECORD pEvent, LPWSTR pMapName, DWORD DecodingSource, PEVENT_MAP_INFO & pMapInfo);
-void RemoveTrailingSpace(PEVENT_MAP_INFO pMapInfo);
-
-void wmain(void)
+We use a context object so we can reuse buffers instead of allocating new
+buffers and freeing them for each event.
+*/
+class DecoderContext
 {
-    TDHSTATUS status = ERROR_SUCCESS;
-    EVENT_TRACE_LOGFILE trace;
-    TRACE_LOGFILE_HEADER* pHeader = &trace.LogfileHeader;
+public:
 
-    // Identify the log file from which you want to consume events
-    // and the callbacks used to process the events and buffers.
-
-    ZeroMemory(&trace, sizeof(EVENT_TRACE_LOGFILE));
-    trace.LogFileName = (LPWSTR) LOGFILE_PATH;
-    trace.EventRecordCallback = (PEVENT_RECORD_CALLBACK) (ProcessEvent);
-    trace.ProcessTraceMode = PROCESS_TRACE_MODE_EVENT_RECORD;
-
-    g_hTrace = OpenTrace(&trace);
-    if (INVALID_PROCESSTRACE_HANDLE == g_hTrace)
+    /*
+    Initialize the decoder context.
+    Sets up the TDH_CONTEXT array that will be used for decoding.
+    */
+    explicit DecoderContext(
+        _In_opt_ LPCWSTR szTmfSearchPath)
     {
-        wprintf(L"OpenTrace failed with %lu\n", GetLastError());
-        goto cleanup;
-    }
+        TDH_CONTEXT* p = m_tdhContext;
 
-    g_bUserMode = pHeader->LogFileMode & EVENT_TRACE_PRIVATE_LOGGER_MODE;
-
-    if (pHeader->TimerResolution > 0)
-    {
-        g_TimerResolution = pHeader->TimerResolution / 10000;
-    }
-
-    wprintf(L"Number of events lost:  %lu\n", pHeader->EventsLost);
-
-    // Use pHeader to access all fields prior to LoggerName.
-    // Adjust pHeader based on the pointer size to access
-    // all fields after LogFileName. This is required only if
-    // you are consuming events on an architecture that is 
-    // different from architecture used to write the events.
-
-    if (pHeader->PointerSize != sizeof(PVOID))
-    {
-        pHeader = (PTRACE_LOGFILE_HEADER)((PUCHAR)pHeader +
-            2 * (pHeader->PointerSize - sizeof(PVOID)));
-    }
-
-    wprintf(L"Number of buffers lost: %lu\n\n", pHeader->BuffersLost);
-
-    status = ProcessTrace(&g_hTrace, 1, 0, 0);
-    if (status != ERROR_SUCCESS && status != ERROR_CANCELLED)
-    {
-        wprintf(L"ProcessTrace failed with %lu\n", status);
-        goto cleanup;
-    }
-
-cleanup:
-
-    if (INVALID_PROCESSTRACE_HANDLE != g_hTrace)
-    {
-        status = CloseTrace(g_hTrace);
-    }
-}
-
-
-// Callback that receives the events. 
-
-VOID WINAPI ProcessEvent(PEVENT_RECORD pEvent)
-{
-    DWORD status = ERROR_SUCCESS;
-    PTRACE_EVENT_INFO pInfo = NULL;
-    LPWSTR pwsEventGuid = NULL;
-    PBYTE pUserData = NULL;
-    PBYTE pEndOfUserData = NULL;
-    DWORD PointerSize = 0;
-    ULONGLONG TimeStamp = 0;
-    ULONGLONG Nanoseconds = 0;
-    SYSTEMTIME st;
-    SYSTEMTIME stLocal;
-    FILETIME ft;
-
-
-    // Skips the event if it is the event trace header. Log files contain this event
-    // but real-time sessions do not. The event contains the same information as 
-    // the EVENT_TRACE_LOGFILE.LogfileHeader member that you can access when you open 
-    // the trace. 
-
-    if (IsEqualGUID(pEvent->EventHeader.ProviderId, EventTraceGuid) &&
-        pEvent->EventHeader.EventDescriptor.Opcode == EVENT_TRACE_TYPE_INFO)
-    {
-        ; // Skip this event.
-    }
-    else
-    {
-        // Process the event. The pEvent->UserData member is a pointer to 
-        // the event specific data, if it exists.
-
-        status = GetEventInformation(pEvent, pInfo);
-
-        if (ERROR_SUCCESS != status)
+        if (szTmfSearchPath != nullptr)
         {
-            wprintf(L"GetEventInformation failed with %lu\n", status);
-            goto cleanup;
+            p->ParameterValue = reinterpret_cast<UINT_PTR>(szTmfSearchPath);
+            p->ParameterType = TDH_CONTEXT_WPP_TMFSEARCHPATH;
+            p->ParameterSize = 0;
+            p += 1;
         }
 
-        // Determine whether the event is defined by a MOF class, in an
-        // instrumentation manifest, or a WPP template; to use TDH to decode
-        // the event, it must be defined by one of these three sources.
+        m_tdhContextCount = static_cast<BYTE>(p - m_tdhContext);
+    }
 
-        if (DecodingSourceWbem == pInfo->DecodingSource)  // MOF class
+    /*
+    Decode and print the data for an event.
+    Might throw an exception for out-of-memory conditions. Caller should catch
+    the exception before returning from the ProcessTrace callback.
+    */
+    void PrintEventRecord(
+        _In_ EVENT_RECORD* pEventRecord)
+    {
+        if (pEventRecord->EventHeader.EventDescriptor.Opcode == EVENT_TRACE_TYPE_INFO &&
+            pEventRecord->EventHeader.ProviderId == EventTraceGuid)
         {
-            HRESULT hr = StringFromCLSID(pInfo->EventGuid, &pwsEventGuid);
+            /*
+            The first event in every ETL file contains the data from the file header.
+            This is the same data as was returned in the EVENT_TRACE_LOGFILEW by
+            OpenTrace. Since we've already seen this information, we'll skip this
+            event.
+            */
+            return;
+        }
 
-            if (FAILED(hr))
+        // Reset state to process a new event.
+        m_indentLevel = 1;
+        m_pEvent = pEventRecord;
+        m_pbData = static_cast<BYTE const*>(m_pEvent->UserData);
+        m_pbDataEnd = m_pbData + m_pEvent->UserDataLength;
+        m_pointerSize =
+            m_pEvent->EventHeader.Flags & EVENT_HEADER_FLAG_32_BIT_HEADER
+            ? 4
+            : m_pEvent->EventHeader.Flags & EVENT_HEADER_FLAG_64_BIT_HEADER
+            ? 8
+            : sizeof(void*); // Ambiguous, assume size of the decoder's pointer.
+
+        // There is a lot of information available in the event even without decoding,
+        // including timestamp, PID, TID, provider ID, activity ID, and the raw data.
+
+        // Show the event timestamp.
+        PrintFileTime(reinterpret_cast<FILETIME const&>(m_pEvent->EventHeader.TimeStamp));
+
+        if (IsWppEvent())
+        {
+            PrintWppEvent();
+        }
+        else
+        {
+            PrintNonWppEvent();
+        }
+    }
+
+private:
+
+    /*
+    Print the primary properties for a WPP event.
+    */
+    void PrintWppEvent()
+    {
+        /*
+        TDH supports a set of known properties for WPP events:
+        - "Version": UINT32 (usually 0)
+        - "TraceGuid": GUID
+        - "GuidName": UNICODESTRING (module name)
+        - "GuidTypeName": UNICODESTRING (source file name and line number)
+        - "ThreadId": UINT32
+        - "SystemTime": SYSTEMTIME
+        - "UserTime": UINT32
+        - "KernelTime": UINT32
+        - "SequenceNum": UINT32
+        - "ProcessId": UINT32
+        - "CpuNumber": UINT32
+        - "Indent": UINT32
+        - "FlagsName": UNICODESTRING
+        - "LevelName": UNICODESTRING
+        - "FunctionName": UNICODESTRING
+        - "ComponentName": UNICODESTRING
+        - "SubComponentName": UNICODESTRING
+        - "FormattedString": UNICODESTRING
+        - "RawSystemTime": FILETIME
+        - "ProviderGuid": GUID (usually 0)
+        */
+
+        // Use TdhGetProperty to get the properties we need.
+        wprintf(L" ");
+        PrintWppStringProperty(L"GuidName"); // Module name (WPP's "CurrentDir" variable)
+        wprintf(L" ");
+        PrintWppStringProperty(L"GuidTypeName"); // Source code file name + line number
+        wprintf(L" ");
+        PrintWppStringProperty(L"FunctionName");
+        wprintf(L"\n");
+        PrintIndent();
+        PrintWppStringProperty(L"FormattedString");
+        wprintf(L"\n");
+    }
+
+    /*
+    Print the value of the given UNICODESTRING property.
+    */
+    void PrintWppStringProperty(_In_z_ LPCWSTR szPropertyName)
+    {
+        PROPERTY_DATA_DESCRIPTOR pdd = { reinterpret_cast<UINT_PTR>(szPropertyName) };
+
+        ULONG status;
+        ULONG cb = 0;
+        status = TdhGetPropertySize(
+            m_pEvent,
+            m_tdhContextCount,
+            m_tdhContextCount ? m_tdhContext : nullptr,
+            1,
+            &pdd,
+            &cb);
+        if (status == ERROR_SUCCESS)
+        {
+            if (m_propertyBuffer.size() < cb / 2)
             {
-                wprintf(L"StringFromCLSID failed with 0x%x\n", hr);
-                status = hr;
-                goto cleanup;
+                m_propertyBuffer.resize(cb / 2);
             }
 
-            wprintf(L"\nEvent GUID: %s\n", pwsEventGuid);
-            CoTaskMemFree(pwsEventGuid);
-            pwsEventGuid = NULL;
-
-            wprintf(L"Event version: %d\n", pEvent->EventHeader.EventDescriptor.Version);
-            wprintf(L"Event type: %d\n", pEvent->EventHeader.EventDescriptor.Opcode);
+            status = TdhGetProperty(
+                m_pEvent,
+                m_tdhContextCount,
+                m_tdhContextCount ? m_tdhContext : nullptr,
+                1,
+                &pdd,
+                cb,
+                reinterpret_cast<BYTE*>(m_propertyBuffer.data()));
         }
-        else if (DecodingSourceXMLFile == pInfo->DecodingSource) // Instrumentation manifest
+
+        if (status != ERROR_SUCCESS)
         {
-            wprintf(L"Event ID: %d\n", pInfo->EventDescriptor.Id);
+            wprintf(L"[TdhGetProperty(%ls) error %u]", szPropertyName, status);
         }
-        else // Not handling the WPP case
+        else
         {
-            goto cleanup;
+            // Print the FormattedString property data (nul-terminated
+            // wchar_t string).
+            wprintf(L"%ls", m_propertyBuffer.data());
+        }
+    }
+
+    /*
+    Use TdhGetEventInformation to obtain information about this event
+    (including the names and types of the event's properties). Print some
+    basic information about the event (provider name, event name), then print
+    each property (using TdhFormatProperty to format each property value).
+    */
+    void PrintNonWppEvent()
+    {
+        ULONG status;
+        ULONG cb;
+
+        // Try to get event decoding information from TDH.
+        cb = static_cast<ULONG>(m_teiBuffer.size());
+        status = TdhGetEventInformation(
+            m_pEvent,
+            m_tdhContextCount,
+            m_tdhContextCount ? m_tdhContext : nullptr,
+            reinterpret_cast<TRACE_EVENT_INFO*>(m_teiBuffer.data()),
+            &cb);
+        if (status == ERROR_INSUFFICIENT_BUFFER)
+        {
+            m_teiBuffer.resize(cb);
+            status = TdhGetEventInformation(
+                m_pEvent,
+                m_tdhContextCount,
+                m_tdhContextCount ? m_tdhContext : nullptr,
+                reinterpret_cast<TRACE_EVENT_INFO*>(m_teiBuffer.data()),
+                &cb);
         }
 
-        // Print the time stamp for when the event occurred.
+        if (status != ERROR_SUCCESS)
+        {
+            // TdhGetEventInformation failed so there isn't a lot we can do.
+            // The provider ID might be helpful in tracking down the right
+            // manifest or TMF path.
+            wprintf(L" ");
+            PrintGuid(m_pEvent->EventHeader.ProviderId);
+            wprintf(L"\n");
+        }
+        else
+        {
+            // TDH found decoding information. Print some basic info about the event,
+            // then format the event contents.
 
-        ft.dwHighDateTime = pEvent->EventHeader.TimeStamp.HighPart;
-        ft.dwLowDateTime = pEvent->EventHeader.TimeStamp.LowPart;
+            TRACE_EVENT_INFO const* const pTei =
+                reinterpret_cast<TRACE_EVENT_INFO const*>(m_teiBuffer.data());
 
+            if (pTei->ProviderNameOffset != 0)
+            {
+                // Event has a provider name -- show it.
+                wprintf(L" %ls", TeiString(pTei->ProviderNameOffset));
+            }
+            else
+            {
+                // No provider name so print the provider ID.
+                wprintf(L" ");
+                PrintGuid(m_pEvent->EventHeader.ProviderId);
+            }
+
+            // Show core important event properties - try to show some kind of "event name".
+            if (pTei->DecodingSource == DecodingSourceWbem ||
+                pTei->DecodingSource == DecodingSourceWPP)
+            {
+                // OpcodeName is usually the best "event name" property for WBEM/WPP events.
+                if (pTei->OpcodeNameOffset != 0)
+                {
+                    wprintf(L" %ls", TeiString(pTei->OpcodeNameOffset));
+                }
+
+                wprintf(L"\n");
+            }
+            else
+            {
+                if (pTei->EventNameOffset != 0)
+                {
+                    // Event has an EventName, so print it.
+                    wprintf(L" %ls", TeiString(pTei->EventNameOffset));
+                }
+                else if (pTei->TaskNameOffset != 0)
+                {
+                    // EventName is a recent addition, so not all events have it.
+                    // Many events use TaskName as an event identifier, so print it if present.
+                    wprintf(L" %ls", TeiString(pTei->TaskNameOffset));
+                }
+
+                wprintf(L"\n");
+
+                // Show EventAttributes if available.
+                if (pTei->EventAttributesOffset != 0)
+                {
+                    PrintIndent();
+                    wprintf(L"EventAttributes: %ls\n", TeiString(pTei->EventAttributesOffset));
+                }
+            }
+
+            if (IsStringEvent())
+            {
+                // The event was written using EventWriteString.
+                // We'll handle it later.
+            }
+            else
+            {
+                // The event is a MOF, manifest, or TraceLogging event.
+
+                // To help resolve PropertyParamCount and PropertyParamLength,
+                // we will record the values of all integer properties as we
+                // reach them. Before we start, clear out any old values and
+                // resize the vector with room for the new values.
+                m_integerValues.clear();
+                m_integerValues.resize(pTei->PropertyCount);
+
+                // Recursively print the event's properties.
+                PrintProperties(0, pTei->TopLevelPropertyCount);
+            }
+        }
+
+        if (IsStringEvent())
+        {
+            // The event was written using EventWriteString.
+            // We can print it whether or not we have decoding information.
+            LPCWSTR pchData = static_cast<LPCWSTR>(m_pEvent->UserData);
+            unsigned cchData = m_pEvent->UserDataLength / 2;
+            PrintIndent();
+
+            // It's probably nul-terminated, but just in case, limit to cchData chars.
+            wprintf(L"%.*ls\n", cchData, pchData);
+        }
+    }
+
+    /*
+    Prints out the values of properties from begin..end.
+    Called by PrintEventRecord for the top-level properties.
+    If there are structures, this will be called recursively for the child
+    properties.
+    */
+    void PrintProperties(unsigned propBegin, unsigned propEnd)
+    {
+        TRACE_EVENT_INFO const* const pTei =
+            reinterpret_cast<TRACE_EVENT_INFO const*>(m_teiBuffer.data());
+
+        for (unsigned propIndex = propBegin; propIndex != propEnd; propIndex += 1)
+        {
+            EVENT_PROPERTY_INFO const& epi = pTei->EventPropertyInfoArray[propIndex];
+
+            // If this property is a scalar integer, remember the value in case it
+            // is needed for a subsequent property's length or count.
+            if (0 == (epi.Flags & (PropertyStruct | PropertyParamCount)) &&
+                epi.count == 1)
+            {
+                switch (epi.nonStructType.InType)
+                {
+                case TDH_INTYPE_INT8:
+                case TDH_INTYPE_UINT8:
+                    if ((m_pbDataEnd - m_pbData) >= 1)
+                    {
+                        m_integerValues[propIndex] = *m_pbData;
+                    }
+                    break;
+                case TDH_INTYPE_INT16:
+                case TDH_INTYPE_UINT16:
+                    if ((m_pbDataEnd - m_pbData) >= 2)
+                    {
+                        m_integerValues[propIndex] = *reinterpret_cast<UINT16 const UNALIGNED*>(m_pbData);
+                    }
+                    break;
+                case TDH_INTYPE_INT32:
+                case TDH_INTYPE_UINT32:
+                case TDH_INTYPE_HEXINT32:
+                    if ((m_pbDataEnd - m_pbData) >= 4)
+                    {
+                        auto val = *reinterpret_cast<UINT32 const UNALIGNED*>(m_pbData);
+                        m_integerValues[propIndex] = static_cast<USHORT>(val > 0xffffu ? 0xffffu : val);
+                    }
+                    break;
+                }
+            }
+
+            PrintIndent();
+
+            // Print the property's name.
+            wprintf(L"%ls:", epi.NameOffset ? TeiString(epi.NameOffset) : L"(noname)");
+
+            m_indentLevel += 1;
+
+            // We recorded the values of all previous integer properties just
+            // in case we need to determine the property length or count.
+            USHORT const propLength =
+                epi.nonStructType.OutType == TDH_OUTTYPE_IPV6 &&
+                epi.nonStructType.InType == TDH_INTYPE_BINARY &&
+                epi.length == 0 &&
+                (epi.Flags & (PropertyParamLength | PropertyParamFixedLength)) == 0
+                ? 16 // special case for incorrectly-defined IPV6 addresses
+                : (epi.Flags & PropertyParamLength)
+                ? m_integerValues[epi.lengthPropertyIndex] // Look up the value of a previous property
+                : epi.length;
+            USHORT const arrayCount =
+                (epi.Flags & PropertyParamCount)
+                ? m_integerValues[epi.countPropertyIndex] // Look up the value of a previous property
+                : epi.count;
+
+            // Note that PropertyParamFixedCount is a new flag and is ignored
+            // by many decoders. Without the PropertyParamFixedCount flag,
+            // decoders will assume that a property is an array if it has
+            // either a count parameter or a fixed count other than 1. The
+            // PropertyParamFixedCount flag allows for fixed-count arrays with
+            // one element to be propertly decoded as arrays.
+            bool isArray =
+                1 != arrayCount ||
+                0 != (epi.Flags & (PropertyParamCount | PropertyParamFixedCount));
+            if (isArray)
+            {
+                wprintf(L" Array[%u]\n", arrayCount);
+            }
+
+            PEVENT_MAP_INFO pMapInfo = nullptr;
+
+            // Treat non-array properties as arrays with one element.
+            for (unsigned arrayIndex = 0; arrayIndex != arrayCount; arrayIndex += 1)
+            {
+                if (isArray)
+                {
+                    // Print a name for the array element.
+                    PrintIndent();
+                    wprintf(L"%ls[%lu]:",
+                        epi.NameOffset ? TeiString(epi.NameOffset) : L"(noname)",
+                        arrayIndex);
+                }
+
+                if (epi.Flags & PropertyStruct)
+                {
+                    // If this property is a struct, recurse and print the child
+                    // properties.
+                    wprintf(L"\n");
+                    PrintProperties(
+                        epi.structType.StructStartIndex,
+                        epi.structType.StructStartIndex + epi.structType.NumOfStructMembers);
+                    continue;
+                }
+
+                // If the property has an associated map (i.e. an enumerated type),
+                // try to look up the map data. (If this is an array, we only need
+                // to do the lookup on the first iteration.)
+                if (epi.nonStructType.MapNameOffset != 0 && arrayIndex == 0)
+                {
+                    switch (epi.nonStructType.InType)
+                    {
+                    case TDH_INTYPE_UINT8:
+                    case TDH_INTYPE_UINT16:
+                    case TDH_INTYPE_UINT32:
+                    case TDH_INTYPE_HEXINT32:
+                        if (m_mapBuffer.size() == 0)
+                        {
+                            m_mapBuffer.resize(sizeof(EVENT_MAP_INFO));
+                        }
+
+                        for (;;)
+                        {
+                            ULONG cbBuffer = static_cast<ULONG>(m_mapBuffer.size());
+                            ULONG status = TdhGetEventMapInformation(
+                                m_pEvent,
+                                const_cast<LPWSTR>(TeiString(epi.nonStructType.MapNameOffset)),
+                                reinterpret_cast<PEVENT_MAP_INFO>(m_mapBuffer.data()),
+                                &cbBuffer);
+
+                            if (status == ERROR_INSUFFICIENT_BUFFER &&
+                                m_mapBuffer.size() < cbBuffer)
+                            {
+                                m_mapBuffer.resize(cbBuffer);
+                                continue;
+                            }
+                            else if (status == ERROR_SUCCESS)
+                            {
+                                pMapInfo = reinterpret_cast<PEVENT_MAP_INFO>(m_mapBuffer.data());
+                            }
+
+                            break;
+                        }
+                        break;
+                    }
+                }
+
+                bool useMap = pMapInfo != nullptr;
+
+                // Loop because we may need to retry the call to TdhFormatProperty.
+                for (;;)
+                {
+                    ULONG cbBuffer = static_cast<ULONG>(m_propertyBuffer.size() * 2);
+                    USHORT cbUsed = 0;
+                    ULONG status;
+
+                    if (0 == propLength &&
+                        epi.nonStructType.InType == TDH_INTYPE_NULL)
+                    {
+                        // TdhFormatProperty doesn't handle INTYPE_NULL.
+                        if (m_propertyBuffer.empty())
+                        {
+                            m_propertyBuffer.push_back(0);
+                        }
+                        m_propertyBuffer[0] = 0;
+                        status = ERROR_SUCCESS;
+                    }
+                    else if (
+                        0 == propLength &&
+                        0 != (epi.Flags & (PropertyParamLength | PropertyParamFixedLength)) &&
+                        (   epi.nonStructType.InType == TDH_INTYPE_UNICODESTRING ||
+                            epi.nonStructType.InType == TDH_INTYPE_ANSISTRING))
+                    {
+                        // TdhFormatProperty doesn't handle zero-length counted strings.
+                        if (m_propertyBuffer.empty())
+                        {
+                            m_propertyBuffer.push_back(0);
+                        }
+                        m_propertyBuffer[0] = 0;
+                        status = ERROR_SUCCESS;
+                    }
+                    else
+                    {
+                        status = TdhFormatProperty(
+                            const_cast<TRACE_EVENT_INFO*>(pTei),
+                            useMap ? pMapInfo : nullptr,
+                            m_pointerSize,
+                            epi.nonStructType.InType,
+                            static_cast<USHORT>(
+                                epi.nonStructType.OutType == TDH_OUTTYPE_NOPRINT
+                                ? TDH_OUTTYPE_NULL
+                                : epi.nonStructType.OutType),
+                            propLength,
+                            static_cast<USHORT>(m_pbDataEnd - m_pbData),
+                            const_cast<PBYTE>(m_pbData),
+                            &cbBuffer,
+                            m_propertyBuffer.data(),
+                            &cbUsed);
+                    }
+
+                    if (status == ERROR_INSUFFICIENT_BUFFER &&
+                        m_propertyBuffer.size() < cbBuffer / 2)
+                    {
+                        // Try again with a bigger buffer.
+                        m_propertyBuffer.resize(cbBuffer / 2);
+                        continue;
+                    }
+                    else if (status == ERROR_EVT_INVALID_EVENT_DATA && useMap)
+                    {
+                        // If the value isn't in the map, TdhFormatProperty treats it
+                        // as an error instead of just putting the number in. We'll
+                        // try again with no map.
+                        useMap = false;
+                        continue;
+                    }
+                    else if (status != ERROR_SUCCESS)
+                    {
+                        wprintf(L" [ERROR:TdhFormatProperty:%lu]\n", status);
+                    }
+                    else
+                    {
+                        wprintf(L" %ls\n", m_propertyBuffer.data());
+                        m_pbData += cbUsed;
+                    }
+
+                    break;
+                }
+            }
+
+            m_indentLevel -= 1;
+        }
+    }
+
+    void PrintGuid(GUID const& g)
+    {
+        wprintf(L"{%08x-%04x-%04x-%02x%02x-%02x%02x%02x%02x%02x%02x}",
+            g.Data1, g.Data2, g.Data3, g.Data4[0], g.Data4[1], g.Data4[2],
+            g.Data4[3], g.Data4[4], g.Data4[5], g.Data4[6], g.Data4[7]);
+    }
+
+    void PrintFileTime(FILETIME const& ft)
+    {
+        SYSTEMTIME st = {};
         FileTimeToSystemTime(&ft, &st);
-        SystemTimeToTzSpecificLocalTime(NULL, &st, &stLocal);
-
-        TimeStamp = pEvent->EventHeader.TimeStamp.QuadPart;
-        Nanoseconds = (TimeStamp % 10000000) * 100;
-
-        wprintf(L"%02d/%02d/%02d %02d:%02d:%02d.%I64u\n", 
-            stLocal.wMonth, stLocal.wDay, stLocal.wYear, stLocal.wHour, stLocal.wMinute, stLocal.wSecond, Nanoseconds);
-
-        // If the event contains event-specific data use TDH to extract
-        // the event data. For this example, to extract the data, the event 
-        // must be defined by a MOF class or an instrumentation manifest.
-
-        // Need to get the PointerSize for each event to cover the case where you are
-        // consuming events from multiple log files that could have been generated on 
-        // different architectures. Otherwise, you could have accessed the pointer
-        // size when you opened the trace above (see pHeader->PointerSize).
-
-        if (EVENT_HEADER_FLAG_32_BIT_HEADER == (pEvent->EventHeader.Flags & EVENT_HEADER_FLAG_32_BIT_HEADER))
-        {
-            PointerSize = 4;
-        }
-        else
-        {
-            PointerSize = 8;
-        }
-
-        pUserData = (PBYTE)pEvent->UserData;
-        pEndOfUserData = (PBYTE)pEvent->UserData + pEvent->UserDataLength;
-
-        // Print the event data for all the top-level properties. Metadata for all the 
-        // top-level properties come before structure member properties in the 
-        // property information array.
-
-        for (USHORT i = 0; i < pInfo->TopLevelPropertyCount; i++)
-        {
-            pUserData = PrintProperties(pEvent, pInfo, PointerSize, i, pUserData, pEndOfUserData);
-            if (NULL == pUserData)
-            {
-                wprintf(L"Printing top level properties failed.\n");
-                goto cleanup;
-            }
-        }
+        wprintf(L"%04u-%02u-%02uT%02u:%02u:%02u.%03uZ",
+            st.wYear,
+            st.wMonth,
+            st.wDay,
+            st.wHour,
+            st.wMinute,
+            st.wSecond,
+            st.wMilliseconds);
     }
 
-cleanup:
-
-    if (pInfo)
+    void PrintIndent()
     {
-        free(pInfo);
+        wprintf(L"%*ls", m_indentLevel * 2, L"");
     }
 
-    if (ERROR_SUCCESS != status || NULL == pUserData)
+    /*
+    Returns true if the current event has the EVENT_HEADER_FLAG_STRING_ONLY
+    flag set.
+    */
+    bool IsStringEvent() const
     {
-        CloseTrace(g_hTrace);
+        return (m_pEvent->EventHeader.Flags & EVENT_HEADER_FLAG_STRING_ONLY) != 0;
     }
-}
 
+    /*
+    Returns true if the current event has the EVENT_HEADER_FLAG_TRACE_MESSAGE
+    flag set.
+    */
+    bool IsWppEvent() const
+    {
+        return (m_pEvent->EventHeader.Flags & EVENT_HEADER_FLAG_TRACE_MESSAGE) != 0;
+    }
 
-// Print the property.
+    /*
+    Converts a TRACE_EVENT_INFO offset (e.g. TaskNameOffset) into a string.
+    */
+    _Ret_z_ LPCWSTR TeiString(unsigned offset)
+    {
+        return reinterpret_cast<LPCWSTR>(m_teiBuffer.data() + offset);
+    }
 
-PBYTE PrintProperties(PEVENT_RECORD pEvent, PTRACE_EVENT_INFO pInfo, DWORD PointerSize, USHORT i, PBYTE pUserData, PBYTE pEndOfUserData)
+private:
+
+    TDH_CONTEXT m_tdhContext[1]; // May contain TDH_CONTEXT_WPP_TMFSEARCHPATH.
+    BYTE m_tdhContextCount;  // 1 if a TMF search path is present.
+    BYTE m_pointerSize;
+    BYTE m_indentLevel;      // How far to indent the output.
+    EVENT_RECORD* m_pEvent;      // The event we're currently printing.
+    BYTE const* m_pbData;        // Position of the next byte of event data to be consumed.
+    BYTE const* m_pbDataEnd;     // Position of the end of the event data.
+    std::vector<USHORT> m_integerValues; // Stored property values for resolving array lengths.
+    std::vector<BYTE> m_teiBuffer; // Buffer for TRACE_EVENT_INFO data.
+    std::vector<wchar_t> m_propertyBuffer; // Buffer for the string returned by TdhFormatProperty.
+    std::vector<BYTE> m_mapBuffer; // Buffer for the data returned by TdhGetEventMapInformation.
+};
+
+/*
+Parses and stores the command line options.
+*/
+struct DecoderSettings
 {
-    TDHSTATUS status = ERROR_SUCCESS;
-    USHORT PropertyLength = 0;
-    DWORD FormattedDataSize = 0;
-    USHORT UserDataConsumed = 0;
-    USHORT UserDataLength = 0;
-    LPWSTR pFormattedData = NULL;
-    DWORD LastMember = 0;  // Last member of a structure
-    USHORT ArraySize = 0;
-    PEVENT_MAP_INFO pMapInfo = NULL;
+    std::vector<LPCWSTR> etlFiles;
+    std::vector<LPCWSTR> manFiles;
+    std::vector<LPCWSTR> binFiles;
+    LPCWSTR szTmfSearchPath;
+    bool showUsage;
 
-
-    // Get the length of the property.
-
-    status = GetPropertyLength(pEvent, pInfo, i, &PropertyLength);
-    if (ERROR_SUCCESS != status)
+    DecoderSettings(
+        int argc,
+        _In_count_(argc) LPWSTR argv[])
+        : szTmfSearchPath()
+        , showUsage()
     {
-        wprintf(L"GetPropertyLength failed.\n");
-        pUserData = NULL;
-        goto cleanup;
-    }
-
-    // Get the size of the array if the property is an array.
-
-    status = GetArraySize(pEvent, pInfo, i, &ArraySize);
-
-    for (USHORT k = 0; k < ArraySize; k++)
-    {
-        // If the property is a structure, print the members of the structure.
-
-        if ((pInfo->EventPropertyInfoArray[i].Flags & PropertyStruct) == PropertyStruct)
+        for (int i = 1; i < argc; i += 1)
         {
-            LastMember = pInfo->EventPropertyInfoArray[i].structType.StructStartIndex + 
-                pInfo->EventPropertyInfoArray[i].structType.NumOfStructMembers;
-
-            for (USHORT j = pInfo->EventPropertyInfoArray[i].structType.StructStartIndex; j < LastMember; j++)
+            LPCWSTR szArg = argv[i];
+            if (szArg[0] != L'/' && szArg[0] != L'-')
             {
-                pUserData = PrintProperties(pEvent, pInfo, PointerSize, j, pUserData, pEndOfUserData);
-                if (NULL == pUserData)
-                {
-                    wprintf(L"Printing the members of the structure failed.\n");
-                    pUserData = NULL;
-                    goto cleanup;
-                }
+                etlFiles.push_back(szArg);
             }
-        }
-        else
-        {
-            // Get the name/value mapping if the property specifies a value map.
-
-            status = GetMapInfo(pEvent, 
-                (PWCHAR)((PBYTE)(pInfo) + pInfo->EventPropertyInfoArray[i].nonStructType.MapNameOffset),
-                pInfo->DecodingSource,
-                pMapInfo);
-
-            if (ERROR_SUCCESS != status)
+            else if (szArg[1] == L'\0' ||
+                (szArg[2] != L'\0' && szArg[2] != L':' && szArg[2] != L'='))
             {
-                wprintf(L"GetMapInfo failed\n");
-                pUserData = NULL;
-                goto cleanup;
-            }
-
-            // Get the size of the buffer required for the formatted data.
-
-            status = TdhFormatProperty(
-                pInfo, 
-                pMapInfo, 
-                PointerSize, 
-                pInfo->EventPropertyInfoArray[i].nonStructType.InType,
-                pInfo->EventPropertyInfoArray[i].nonStructType.OutType,
-                PropertyLength,
-                (USHORT)(pEndOfUserData - pUserData),
-                pUserData,
-                &FormattedDataSize,
-                pFormattedData,
-                &UserDataConsumed);
-
-            if (ERROR_INSUFFICIENT_BUFFER == status)
-            {
-                if (pFormattedData)
-                {
-                    free(pFormattedData);
-                    pFormattedData = NULL;
-                }
-
-                pFormattedData = (LPWSTR) malloc(FormattedDataSize);
-                if (pFormattedData == NULL)
-                {
-                    wprintf(L"Failed to allocate memory for formatted data (size=%lu).\n", FormattedDataSize);
-                    status = ERROR_OUTOFMEMORY;
-                    pUserData = NULL;
-                    goto cleanup;
-                }
-
-                // Retrieve the formatted data.
-
-                status = TdhFormatProperty(
-                    pInfo, 
-                    pMapInfo, 
-                    PointerSize, 
-                    pInfo->EventPropertyInfoArray[i].nonStructType.InType,
-                    pInfo->EventPropertyInfoArray[i].nonStructType.OutType,
-                    PropertyLength,
-                    (USHORT)(pEndOfUserData - pUserData),
-                    pUserData,
-                    &FormattedDataSize,
-                    pFormattedData,
-                    &UserDataConsumed);
-            }
-
-            if (ERROR_SUCCESS == status)
-            {
-                wprintf(L"%s: %s\n", 
-                    (PWCHAR)((PBYTE)(pInfo) + pInfo->EventPropertyInfoArray[i].NameOffset),
-                    pFormattedData);
-
-                pUserData += UserDataConsumed;
+                // Options should be /X, /X:Value, or /X=Value
+                wprintf(L"ERROR: Incorrectly-formatted option: %ls\n", szArg);
+                showUsage = true;
             }
             else
             {
-                wprintf(L"TdhFormatProperty failed with %lu.\n", status);
-                pUserData = NULL;
-                goto cleanup;
+                LPCWSTR szArgValue = &szArg[3];
+                switch (szArg[1])
+                {
+                case L'?':
+                case L'h':
+                case L'H':
+                    showUsage = true;
+                    break;
+
+                case L'B':
+                case L'b':
+                    binFiles.push_back(szArgValue);
+                    break;
+
+                case L'M':
+                case L'm':
+                    manFiles.push_back(szArgValue);
+                    break;
+
+                case L'T':
+                case L't':
+                    if (szTmfSearchPath == nullptr)
+                    {
+                        szTmfSearchPath = szArgValue;
+                    }
+                    else
+                    {
+                        wprintf(L"ERROR: TMF search path already set: %ls\n", szArg);
+                        showUsage = true;
+                    }
+                    break;
+
+                default:
+                    wprintf(L"ERROR: Unrecognized option: %ls\n", szArg);
+                    showUsage = true;
+                    break;
+                }
             }
+        }
+
+        if (!showUsage && etlFiles.empty())
+        {
+            wprintf(L"ERROR: No ETL files specified.\n");
+            showUsage = true;
+        }
+    }
+};
+
+/*
+Helper class to automatically close TRACEHANDLEs.
+*/
+class TraceHandles
+{
+public:
+
+    ~TraceHandles()
+    {
+        CloseHandles();
+    }
+
+    void CloseHandles()
+    {
+        while (!handles.empty())
+        {
+            CloseTrace(handles.back());
+            handles.pop_back();
         }
     }
 
-cleanup:
-
-    if (pFormattedData)
+    ULONG OpenTraceW(
+        _Inout_ EVENT_TRACE_LOGFILEW* pLogFile)
     {
-        free(pFormattedData);
-        pFormattedData = NULL;
-    }
+        ULONG status;
 
-    if (pMapInfo)
-    {
-        free(pMapInfo);
-        pMapInfo = NULL;
-    }
-
-    return pUserData;
-}
-
-
-// Get the length of the property data. For MOF-based events, the size is inferred from the data type
-// of the property. For manifest-based events, the property can specify the size of the property value
-// using the length attribute. The length attribue can specify the size directly or specify the name 
-// of another property in the event data that contains the size. If the property does not include the 
-// length attribute, the size is inferred from the data type. The length will be zero for variable
-// length, null-terminated strings and structures.
-
-DWORD GetPropertyLength(PEVENT_RECORD pEvent, PTRACE_EVENT_INFO pInfo, USHORT i, PUSHORT PropertyLength)
-{
-    DWORD status = ERROR_SUCCESS;
-    PROPERTY_DATA_DESCRIPTOR DataDescriptor;
-    DWORD PropertySize = 0;
-
-    // If the property is a binary blob and is defined in a manifest, the property can 
-    // specify the blob's size or it can point to another property that defines the 
-    // blob's size. The PropertyParamLength flag tells you where the blob's size is defined.
-
-    if ((pInfo->EventPropertyInfoArray[i].Flags & PropertyParamLength) == PropertyParamLength)
-    {
-        DWORD Length = 0;  // Expects the length to be defined by a UINT16 or UINT32
-        DWORD j = pInfo->EventPropertyInfoArray[i].lengthPropertyIndex;
-        ZeroMemory(&DataDescriptor, sizeof(PROPERTY_DATA_DESCRIPTOR));
-        DataDescriptor.PropertyName = (ULONGLONG)((PBYTE)(pInfo) + pInfo->EventPropertyInfoArray[j].NameOffset);
-        DataDescriptor.ArrayIndex = ULONG_MAX;
-        status = TdhGetPropertySize(pEvent, 0, NULL, 1, &DataDescriptor, &PropertySize);
-        status = TdhGetProperty(pEvent, 0, NULL, 1, &DataDescriptor, PropertySize, (PBYTE)&Length);
-        *PropertyLength = (USHORT)Length;
-    }
-    else
-    {
-        if (pInfo->EventPropertyInfoArray[i].length > 0)
+        handles.reserve(handles.size() + 1);
+        TRACEHANDLE handle = ::OpenTraceW(pLogFile);
+        if (handle == INVALID_PROCESSTRACE_HANDLE)
         {
-            *PropertyLength = pInfo->EventPropertyInfoArray[i].length;
+            status = GetLastError();
         }
         else
         {
-            // If the property is a binary blob and is defined in a MOF class, the extension
-            // qualifier is used to determine the size of the blob. However, if the extension 
-            // is IPAddrV6, you must set the PropertyLength variable yourself because the 
-            // EVENT_PROPERTY_INFO.length field will be zero.
+            handles.push_back(handle);
+            status = 0;
+        }
 
-            if (TDH_INTYPE_BINARY == pInfo->EventPropertyInfoArray[i].nonStructType.InType &&
-                TDH_OUTTYPE_IPV6 == pInfo->EventPropertyInfoArray[i].nonStructType.OutType)
+        return status;
+    }
+
+    ULONG ProcessTrace(
+        _In_opt_ LPFILETIME pStartTime,
+        _In_opt_ LPFILETIME pEndTime)
+    {
+        return ::ProcessTrace(
+            handles.data(),
+            static_cast<ULONG>(handles.size()),
+            pStartTime,
+            pEndTime);
+    }
+
+private:
+
+    std::vector<TRACEHANDLE> handles;
+};
+
+/*
+This function will be used as the EventRecordCallback function in EVENT_TRACE_LOGFILE.
+It expects that the EVENT_TRACE_LOGFILE's Context pointer is set to a DecoderContext.
+*/
+static void WINAPI EventRecordCallback(
+    _In_ EVENT_RECORD* pEventRecord)
+{
+    try
+    {
+        // We expect that the EVENT_TRACE_LOGFILE.Context pointer was set with a
+        // pointer to a DecoderContext. ProcessTrace will put the Context value
+        // into EVENT_RECORD.UserContext.
+        DecoderContext* pContext = static_cast<DecoderContext*>(pEventRecord->UserContext);
+
+        // The actual decoding work is done in PrintEventRecord.
+        pContext->PrintEventRecord(pEventRecord);
+    }
+    catch (std::exception const& ex)
+    {
+        wprintf(L"\nERROR: %hs\n", ex.what());
+    }
+}
+
+int __cdecl wmain(int argc, _In_count_(argc) LPWSTR argv[])
+{
+    int exitCode;
+
+    try
+    {
+        DecoderSettings settings(argc, argv);
+        TraceHandles handles;
+        if (settings.showUsage)
+        {
+            wprintf(L""
+                "\nUsage:"
+                "\n"
+                "\n  TdhFormatProperty_Sample [options] filename1.etl (filename2.etl...)"
+                "\n"
+                "\nOptions:"
+                "\n"
+                "\n  -m:ManifestFile.man  Load decoding data from a manifest with TdhLoadManifest."
+                "\n  -b:ResourceFile.dll  Load decoding data from a DLL with"
+                "\n                       TdhLoadManifestFromBinary."
+                "\n  -t:TmfSearchPath     Set the TMF search path for WPP events."
+                "\n"
+                "\n");
+            exitCode = 1;
+            goto Done;
+        }
+
+        DecoderContext context(settings.szTmfSearchPath);
+
+        for (size_t i = 0; i != settings.manFiles.size(); i += 1)
+        {
+            exitCode = TdhLoadManifest(const_cast<LPWSTR>(settings.manFiles[i]));
+            if (exitCode != 0)
             {
-                *PropertyLength = (USHORT)sizeof(IN6_ADDR);
+                wprintf(L"ERROR: TdhLoadManifest error %u for manifest: %ls\n",
+                    exitCode,
+                    settings.manFiles[i]);
+                goto Done;
             }
-            else if (TDH_INTYPE_UNICODESTRING == pInfo->EventPropertyInfoArray[i].nonStructType.InType ||
-                     TDH_INTYPE_ANSISTRING == pInfo->EventPropertyInfoArray[i].nonStructType.InType ||
-                     (pInfo->EventPropertyInfoArray[i].Flags & PropertyStruct) == PropertyStruct)
+        }
+
+        for (size_t i = 0; i != settings.binFiles.size(); i += 1)
+        {
+            exitCode = TdhLoadManifestFromBinary(const_cast<LPWSTR>(settings.binFiles[i]));
+            if (exitCode != 0)
             {
-                *PropertyLength = pInfo->EventPropertyInfoArray[i].length;
+                wprintf(L"ERROR: TdhLoadManifestFromBinary error %u for binary: %ls\n",
+                    exitCode,
+                    settings.binFiles[i]);
+                goto Done;
             }
-            else
+        }
+
+        for (size_t i = 0; i != settings.etlFiles.size(); i += 1)
+        {
+            EVENT_TRACE_LOGFILEW logFile = { const_cast<LPWSTR>(settings.etlFiles[i]) };
+            logFile.ProcessTraceMode = PROCESS_TRACE_MODE_EVENT_RECORD;
+            logFile.EventRecordCallback = &EventRecordCallback;
+            logFile.Context = &context;
+
+            exitCode = handles.OpenTraceW(&logFile);
+            if (exitCode != 0)
             {
-                wprintf(L"Unexpected length of 0 for intype %d and outtype %d\n", 
-                    pInfo->EventPropertyInfoArray[i].nonStructType.InType,
-                    pInfo->EventPropertyInfoArray[i].nonStructType.OutType);
+                wprintf(L"ERROR: OpenTraceW error %u for file: %ls\n",
+                    exitCode,
+                    settings.etlFiles[i]);
+                goto Done;
+            }
 
-                status = ERROR_EVT_INVALID_EVENT_DATA;
-                goto cleanup;
+            wprintf(L"Opened: %ls\n", logFile.LogFileName);
+
+            // Optionally print information read from the log file.
+            // For example, show information about lost buffers and events.
+
+            if (logFile.LogfileHeader.BuffersLost != 0)
+            {
+                wprintf(L"  **BuffersLost = %lu\n", logFile.LogfileHeader.BuffersLost);
+            }
+
+            if (logFile.LogfileHeader.EventsLost != 0)
+            {
+                wprintf(L"  **EventsLost = %lu\n", logFile.LogfileHeader.EventsLost);
             }
         }
-    }
 
-cleanup:
-
-    return status;
-}
-
-
-// Get the size of the array. For MOF-based events, the size is specified in the declaration or using 
-// the MAX qualifier. For manifest-based events, the property can specify the size of the array
-// using the count attribute. The count attribue can specify the size directly or specify the name 
-// of another property in the event data that contains the size.
-
-DWORD GetArraySize(PEVENT_RECORD pEvent, PTRACE_EVENT_INFO pInfo, USHORT i, PUSHORT ArraySize)
-{
-    DWORD status = ERROR_SUCCESS;
-    PROPERTY_DATA_DESCRIPTOR DataDescriptor;
-    DWORD PropertySize = 0;
-
-    if ((pInfo->EventPropertyInfoArray[i].Flags & PropertyParamCount) == PropertyParamCount)
-    {
-        DWORD Count = 0;  // Expects the count to be defined by a UINT16 or UINT32
-        DWORD j = pInfo->EventPropertyInfoArray[i].countPropertyIndex;
-        ZeroMemory(&DataDescriptor, sizeof(PROPERTY_DATA_DESCRIPTOR));
-        DataDescriptor.PropertyName = (ULONGLONG)((PBYTE)(pInfo) + pInfo->EventPropertyInfoArray[j].NameOffset);
-        DataDescriptor.ArrayIndex = ULONG_MAX;
-        status = TdhGetPropertySize(pEvent, 0, NULL, 1, &DataDescriptor, &PropertySize);
-        status = TdhGetProperty(pEvent, 0, NULL, 1, &DataDescriptor, PropertySize, (PBYTE)&Count);
-        *ArraySize = (USHORT)Count;
-    }
-    else
-    {
-        *ArraySize = pInfo->EventPropertyInfoArray[i].count;
-    }
-
-    return status;
-}
-
-
-// Both MOF-based events and manifest-based events can specify name/value maps. The
-// map values can be integer values or bit values. If the property specifies a value
-// map, get the map.
-
-DWORD GetMapInfo(PEVENT_RECORD pEvent, LPWSTR pMapName, DWORD DecodingSource, PEVENT_MAP_INFO & pMapInfo)
-{
-    DWORD status = ERROR_SUCCESS;
-    DWORD MapSize = 0;
-
-    // Retrieve the required buffer size for the map info.
-
-    status = TdhGetEventMapInformation(pEvent, pMapName, pMapInfo, &MapSize);
-
-    if (ERROR_INSUFFICIENT_BUFFER == status)
-    {
-        pMapInfo = (PEVENT_MAP_INFO) malloc(MapSize);
-        if (pMapInfo == NULL)
+        exitCode = handles.ProcessTrace(nullptr, nullptr);
+        if (exitCode != 0)
         {
-            wprintf(L"Failed to allocate memory for map info (size=%lu).\n", MapSize);
-            status = ERROR_OUTOFMEMORY;
-            goto cleanup;
-        }
-
-        // Retrieve the map info.
-
-        status = TdhGetEventMapInformation(pEvent, pMapName, pMapInfo, &MapSize);
-    }
-
-    if (ERROR_SUCCESS == status)
-    {
-        if (DecodingSourceXMLFile == DecodingSource)
-        {
-            RemoveTrailingSpace(pMapInfo);
+            wprintf(L"ERROR: ProcessTrace error %u\n",
+                exitCode);
+            goto Done;
         }
     }
-    else
+    catch (std::exception const& ex)
     {
-        if  (ERROR_NOT_FOUND == status)
-        {
-            status = ERROR_SUCCESS; // This case is okay.
-        }
-        else
-        {
-            wprintf(L"TdhGetEventMapInformation failed with 0x%x.\n", status);
-        }
+        wprintf(L"\nERROR: %hs\n", ex.what());
+        exitCode = 1;
     }
 
-cleanup:
+Done:
 
-    return status;
-}
-
-
-// The mapped string values defined in a manifest will contain a trailing space
-// in the EVENT_MAP_ENTRY structure. Replace the trailing space with a null-
-// terminating character, so that the bit mapped strings are correctly formatted.
-
-void RemoveTrailingSpace(PEVENT_MAP_INFO pMapInfo)
-{
-    DWORD ByteLength = 0;
-
-    for (DWORD i = 0; i < pMapInfo->EntryCount; i++)
-    {
-        ByteLength = (wcslen((LPWSTR)((PBYTE)pMapInfo + pMapInfo->MapEntryArray[i].OutputOffset)) - 1) * 2;
-        *((LPWSTR)((PBYTE)pMapInfo + (pMapInfo->MapEntryArray[i].OutputOffset + ByteLength))) = L'\0';
-    }
-}
-
-
-// Get the metadata for the event.
-
-DWORD GetEventInformation(PEVENT_RECORD pEvent, PTRACE_EVENT_INFO & pInfo)
-{
-    DWORD status = ERROR_SUCCESS;
-    DWORD BufferSize = 0;
-
-    // Retrieve the required buffer size for the event metadata.
-
-    status = TdhGetEventInformation(pEvent, 0, NULL, pInfo, &BufferSize);
-
-    if (ERROR_INSUFFICIENT_BUFFER == status)
-    {
-        pInfo = (TRACE_EVENT_INFO*) malloc(BufferSize);
-        if (pInfo == NULL)
-        {
-            wprintf(L"Failed to allocate memory for event info (size=%lu).\n", BufferSize);
-            status = ERROR_OUTOFMEMORY;
-            goto cleanup;
-        }
-
-        // Retrieve the event metadata.
-
-        status = TdhGetEventInformation(pEvent, 0, NULL, pInfo, &BufferSize);
-    }
-
-    if (ERROR_SUCCESS != status)
-    {
-        wprintf(L"TdhGetEventInformation failed with 0x%x.\n", status);
-    }
-
-cleanup:
-
-    return status;
+    return exitCode;
 }
 ```
-
-
-
- 
-
- 
-
-
-
