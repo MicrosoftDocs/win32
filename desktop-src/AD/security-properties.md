@@ -235,11 +235,11 @@ The [**scriptPath**](/windows/desktop/ADSchema/a-scriptpath) attribute specifies
 <span id="tokenGroups"></span><span id="tokengroups"></span><span id="TOKENGROUPS"></span>[**tokenGroups**](/windows/win32/adschema/a-tokengroups)
 </dt> <dd>
 
-The [**tokenGroups**](/windows/desktop/ADSchema/a-tokengroups) attribute is a multi-valued attribute that contains the SID of all groups of which the user is a direct and indirect member, including for the primary group. This attribute can only be retrieved if a Global Catalog (GC) server is present to retrieve the transitive reverse memberships.
+The [**tokenGroups**](/windows/win32/ADSchema/a-tokengroups) attribute is a multi-valued attribute that contains the SID of all groups of which the user is a direct and indirect member, including for the primary group. This attribute can only be retrieved if a Global Catalog (GC) server is present to retrieve the transitive reverse memberships.
 
-Be aware that this attribute lists the groups that contain the user in their member attribute, as well as groups that contain those groups in their member attribute, and so on recursively. For example, if user O is a member of group C and group B and group B were nested in group A, the [**tokenGroups**](/windows/desktop/ADSchema/a-tokengroups) attribute of user O would list group C, group B, and group A.
+Be aware that this attribute lists the groups that contain the user in their member attribute, as well as groups that contain those groups in their member attribute, and so on recursively. For example, if user O is a member of group C and group B and group B were nested in group A, the [**tokenGroups**](/windows/win32/ADSchema/a-tokengroups) attribute of user O would list group C, group B, and group A.
 
-The [**tokenGroups**](/windows/desktop/ADSchema/a-tokengroups) attribute is a useful attribute for obtaining a list of group memberships in just two LDAP queries: the first to get the list of group SIDs from the tokenGroups attribute of the user, the second using that list of SIDs to get the name attribute of each group. It avoids the need to make multiple searches to expand the primaryGroupId attribute and recursively expand the memberOf attribute.  
+The [**tokenGroups**](/windows/win32/ADSchema/a-tokengroups) attribute is a useful attribute for obtaining a list of group memberships in just two LDAP queries: the first to get the list of group SIDs from the tokenGroups attribute of the user, the second using that list of SIDs to get the name attribute of each group. It avoids the need to make multiple searches to expand the primaryGroupId attribute and recursively expand the memberOf attribute.  
 
 </dd> <dt>
   
