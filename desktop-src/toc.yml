@@ -478,6 +478,8 @@
           href: ./secgloss/security-glossary.md
         - name: "TPM Base Services"
           href: ./tbs/tpm-base-services-portal.md
+        - name: "WebAuthN"
+          href: ./webauthn/-webauthn-portal.md
         - name: "Windows Biometric Framework"
           href: ./secbiomet/biometric-service-api-portal.md
       - name: "System Services"
