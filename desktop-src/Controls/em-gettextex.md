@@ -13,7 +13,7 @@ api_location:
 api_type:
 - HeaderDef
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 08/23/2022
 ---
 
 # EM\_GETTEXTEX message
@@ -40,7 +40,7 @@ Pointer to the buffer to receive the text. The size of this buffer, in bytes, is
 
 ## Return value
 
-The return value is the number of **TCHAR**s copied into the output buffer, including the null terminator.
+The return value is the number of **TCHAR**s copied into the output buffer, not including the null terminator.
 
 ## Remarks
 
