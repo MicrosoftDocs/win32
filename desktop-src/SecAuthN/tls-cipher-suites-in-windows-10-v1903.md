@@ -72,7 +72,7 @@ The following cipher suites are supported by the Microsoft Schannel Provider, bu
 | TLS\_RSA\_WITH\_RC4\_128\_MD5<br/>                                                          | No<br/>                       | TLS 1.2, TLS 1.1, TLS 1.0, SSL 3.0<br/> |
 | TLS\_RSA\_WITH\_DES\_CBC\_SHA<br/>                                                          | No<br/>                       | TLS 1.2, TLS 1.1, TLS 1.0, SSL 3.0<br/> |
 | TLS\_DHE\_DSS\_WITH\_DES\_CBC\_SHA<br/>                                                     | No<br/>                       | TLS 1.2, TLS 1.1, TLS 1.0, SSL 3.0<br/> |
-| TLS\_DHE\_DSS\_EXPORT1024\_WITH\_DES\_CBC\_SHA No TLS 1.2, TLS 1.1, TLS 1.0, SSL 3.0<br/>   | No<br/>                       | TLS 1.2, TLS 1.1, TLS 1.0, SSL 3.0<br/> |
+| TLS\_DHE\_DSS\_EXPORT1024\_WITH\_DES\_CBC\_SHA<br/>                                         | No<br/>                       | TLS 1.2, TLS 1.1, TLS 1.0, SSL 3.0<br/> |
 | TLS\_RSA\_WITH\_NULL\_MD5 <br/> Only used when application explicitly requests. <br/> | No<br/>                       | TLS 1.2, TLS 1.1, TLS 1.0, SSL 3.0<br/> |
 | TLS\_RSA\_EXPORT1024\_WITH\_RC4\_56\_SHA<br/>                                               | No<br/>                       | TLS 1.2, TLS 1.1, TLS 1.0, SSL 3.0<br/> |
 | TLS\_RSA\_EXPORT\_WITH\_RC4\_40\_MD5<br/>                                                   | No<br/>                       | TLS 1.2, TLS 1.1, TLS 1.0, SSL 3.0<br/> |
@@ -107,7 +107,7 @@ The following PSK cipher suites are enabled and in this priority order by defaul
 To add cipher suites, either deploy a group policy or use the TLS cmdlets:
 
 -   To use group policy, configure SSL Cipher Suite Order under Computer Configuration > Administrative Templates > Network > SSL Configuration Settings with the priority list for all cipher suites you want enabled.
--   To use PowerShell, see [TLS cmdlets](/powershell/module/tls/?view=win10-ps).
+-   To use PowerShell, see [TLS cmdlets](/powershell/module/tls/).
 
 > [!Note]  
 > Prior to Windows 10, cipher suite strings were appended with the elliptic curve to determine the curve priority. Windows 10 supports an elliptic curve priority order setting so the elliptic curve suffix is not required and is overridden by the new elliptic curve priority order, when provided, to allow organizations to use group policy to configure different versions of Windows with the same cipher suites.

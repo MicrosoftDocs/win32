@@ -8,6 +8,9 @@ ms.date: 05/31/2018
 
 # Math Function Support in D3DX (Direct3D 9)
 
+> [!Note]
+> The D3DX utility library is deprecated. We recommend that you use [DirectXMath](../dxmath/pg-xnamath-migration-d3dx.md) instead.
+
 D3DX is a utility library that provides helper services. It is a layer above the Direct3D component.
 
 ## Math
@@ -40,6 +43,3 @@ When using the FLOAT16 data type, be sure to limit values to a maximum of D3DX\_
  
 
  
-
-
-

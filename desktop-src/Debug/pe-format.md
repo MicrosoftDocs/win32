@@ -839,7 +839,7 @@ The symbol table is an array of records, each 18 bytes long. Each record is eith
 
 | Offset         | Size          | Field                          | Description                                                                                                                                                                                                                                 |
 |----------------|---------------|--------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 0 <br/>  | 8 <br/> | Name (\*) <br/>          | The name of the symbol, represented by a union of three structures. An array of 8 bytes is used if the name is not more than 8 bytes long. For more information, see [Symbol Name Representation](https://www.bing.com/search?q=Symbol+Name+Representation). <br/> |
+| 0 <br/>  | 8 <br/> | Name (\*) <br/>          | The name of the symbol, represented by a union of three structures. An array of 8 bytes is used if the name is not more than 8 bytes long. For more information, see [Symbol Name Representation](#symbol-name-representation). <br/> |
 | 8 <br/>  | 4 <br/> | Value <br/>              | The value that is associated with the symbol. The interpretation of this field depends on SectionNumber and StorageClass. A typical meaning is the relocatable address. <br/>                                                         |
 | 12 <br/> | 2 <br/> | SectionNumber <br/>      | The signed integer that identifies the section, using a one-based index into the section table. Some values have special meaning, as defined in section 5.4.2, "Section Number Values." <br/>                                         |
 | 14 <br/> | 2 <br/> | Type <br/>               | A number that represents type. Microsoft tools set this field to 0x20 (function) or 0x0 (not a function). For more information, see [Type Representation](#type-representation). <br/>                                                |
@@ -2118,34 +2118,35 @@ The first 8 bytes of an archive consist of the file signature. The rest of the 
 -   The rest of the archive consists of standard (object-file) members. Each of these members contains the contents of one object file in its entirety.
 
 An archive member header precedes each member. The following list shows the general structure of an archive:
+    
+|Signature :"!&lt;arch&gt;\\n"|
+|-------|
 
--   Signature :"!&lt;arch&gt;\\n"
--   Header
+|Header|
+|-------|
+|1st Linker Member|
 
-    <dl> 1st Linker Member  
-    </dl>
+|Header|
+|-------|
+|2nd Linker Member|
 
--   Header
+|Header|
+|-------|
+|Longnames Member|
 
-    <dl> 2nd Linker Member  
-    </dl>
+|Header|
+|-------|
+|Contents of OBJ File 1<br/>(COFF format)|
 
--   Header
+|Header|
+|-------|
+|Contents of OBJ File 2<br/>(COFF format)|
 
-    <dl> Longnames Member  
-    </dl>
+...
 
--   Header
-
-    <dl> Contents of OBJ File 1  
-    (COFF format)  
-    </dl>
-
--   Header
-
-    <dl> Contents of OBJ File 2  
-    (COFF format)  
-    </dl>
+|Header|
+|-------|
+|Contents of OBJ File N<br/>(COFF format)|
 
 ### Archive File Signature
 
@@ -2247,22 +2248,19 @@ The section contributions for an import can be inferred from a small set of info
 
 In an import library with the long format, a single member contains the following information:
 
-<dl> Archive member header  
-File header  
-Section headers  
-Data that corresponds to each of the section headers  
-COFF symbol table  
-Strings  
-  
-</dl>
+* Archive member header
+* File header
+* Section headers
+* Data that corresponds to each of the section headers
+* COFF symbol table
+* Strings
 
 In contrast, a short import library is written as follows:
 
-<dl> Archive member header  
-Import header  
-Null-terminated import name string  
-Null-terminated DLL name string  
-</dl>
+* Archive member header
+* Import header
+* Null-terminated import name string
+* Null-terminated DLL name string
 
 This is sufficient information to accurately reconstruct the entire contents of the member at the time of its use.
 

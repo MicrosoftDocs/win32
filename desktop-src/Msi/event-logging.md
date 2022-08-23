@@ -215,6 +215,11 @@ For information about how to enable verbose logging on a user's computer when tr
 <strong>msirbRebootCustomActionReason</strong> (4)- A custom action called the <a href="/windows/desktop/api/Msiquery/nf-msiquery-msisetmode"><strong>MsiSetMode</strong></a> function.<br />
 </dl> </dd> </dl> <strong><a href="not-supported-in-windows-installer-version-3-1.md">Windows Installer 3.1 and earlier</a>:</strong> Not available.<br/> Field 6 - <a href="manufacturer.md"><strong>Manufacturer</strong></a><br/> <strong><a href="not-supported-in-windows-installer-4-5.md">Windows Installer 4.5 and earlier</a>:</strong> Field 6 not available.<br/></td>
 </tr>
+<tr class="odd">
+<td>1044</td>
+<td>%1 is not Microsoft signed. So, rejecting per the Windows Lockdown Policy.</td>
+<td>Error message indicating that binary is not signed by Microsoft and is not allowed as per Windows Lockdown Policy.</td>
+</tr>
 <tr class="even">
 <td>10005</td>
 <td>The installer has encountered an unexpected error installing this package. This may indicate a problem with this package. The error code is [1]. {{The arguments are: [2], [3], [4]}}</td>

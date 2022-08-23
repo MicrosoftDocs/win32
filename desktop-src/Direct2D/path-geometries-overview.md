@@ -24,7 +24,7 @@ This topic describes how to use Direct2D path geometries to create complex drawi
 
 ## Prerequisites
 
-This overview assumes that you are familiar with creating basic Direct2D applications, as described in [Creating a Simple Direct2D Application](direct2d-quickstart.md). It also assumes that you are familiar with the basic features of Direct2D geometries, as described in the [Geometries Overview](direct2d-geometries-overview.md).
+This overview assumes that you are familiar with creating basic Direct2D applications, as described in [Create a simple Direct2D application](direct2d-quickstart.md). It also assumes that you are familiar with the basic features of Direct2D geometries, as described in the [Geometries Overview](direct2d-geometries-overview.md).
 
 ## Path Geometries in Direct2D
 
@@ -379,7 +379,7 @@ The complete example outputs the following illustration.
 
 <dl> <dt>
 
-[Creating a Simple Direct2D Application](direct2d-quickstart.md)
+[Create a simple Direct2D application](direct2d-quickstart.md)
 </dt> <dt>
 
 [Geometries Overview](direct2d-geometries-overview.md)

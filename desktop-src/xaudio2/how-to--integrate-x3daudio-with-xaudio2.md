@@ -33,12 +33,14 @@ This topic shows how to integrate X3DAudio with XAudio2. You can use X3DAudio to
     Members of the structures that will not be updated in a game loop should be initialized here. Most members of the structures can simply be initialized to zero. However, some members of [**X3DAUDIO\_EMITTER**](/windows/desktop/api/x3daudio/ns-x3daudio-x3daudio_emitter) need to be set to be initialized to non-zero values. The ChannelCount member of the **X3DAUDIO\_EMITTER** needs to be initialized to the number of channels in the voice the emitter represents. Also, the CurveDistanceScaler member of **X3DAUDIO\_EMITTER** must be in the range FLT\_MIN to FLT\_MAX.
 
     ```
-    X3DAUDIO_LISTENER Listener = {0};
-    X3DAUDIO_EMITTER Emitter = {0};
+    X3DAUDIO_LISTENER Listener = {};
+    
+    X3DAUDIO_EMITTER Emitter = {};
     Emitter.ChannelCount = 1;
-    Emitter.CurveDistanceScaler = FLT_MIN;
+    Emitter.CurveDistanceScaler = Emitter.DopplerScaler = 1.0f;
     ```
 
+> The ChannelCount here assumes we are playing a mono-channel sound which is the easist to set up. For sound sources with more than 1 channel, you must also set the emitter ``ChannelRadius`` and ``pChannelAzimuths`` values.
     
 
 3.  Create an instance of the [**X3DAUDIO\_DSP\_SETTINGS**](/windows/desktop/api/x3daudio/ns-x3daudio-x3daudio_dsp_settings) structure.
@@ -46,7 +48,7 @@ This topic shows how to integrate X3DAudio with XAudio2. You can use X3DAudio to
     The [**X3DAUDIO\_DSP\_SETTINGS**](/windows/desktop/api/x3daudio/ns-x3daudio-x3daudio_dsp_settings) structure is used to return results calculated by [**X3DAudioCalculate**](/windows/desktop/api/x3daudio/nf-x3daudio-x3daudiocalculate). The **X3DAudioCalculate** function does not allocate memory for any of its parameters. This means that you need to allocate arrays for the **X3DAUDIO\_DSP\_SETTINGS** structure's pMatrixCoefficients and pDelayTimes members if you intend to use them. In addition, you need to set the SrcChannelCount and DstChannelCount members to the number of channels in the emitter's source and destination voices.
 
     ```
-    X3DAUDIO_DSP_SETTINGS DSPSettings = {0};
+    X3DAUDIO_DSP_SETTINGS DSPSettings = {};
     FLOAT32 * matrix = new FLOAT32[deviceDetails.OutputFormat.Format.nChannels];
     DSPSettings.SrcChannelCount = 1;
     DSPSettings.DstChannelCount = deviceDetails.OutputFormat.Format.nChannels;

@@ -21,9 +21,9 @@ Most of the structures used by WCS 1.0 are very straightforward and require litt
 Exceptions are the [**COLORMATCHSETUPW**](/windows/win32/api/icm/ns-icm-colormatchsetupw) structure used by the [**SetupColorMatchingW**](/windows/win32/api/icm/nf-icm-setupcolormatchingw) function, and the following Windows structures defined in Wingdi.h:
 
 -   [BITMAPV5HEADER](#windows-bitmap-header-structures)
--   [**LOGCOLORSPACE**](/windows/desktop/api/Wingdi/ns-wingdi-taglogcolorspacea)
--   [**CIEXYZ**](/windows/desktop/api/Wingdi/ns-wingdi-tagciexyz)
--   [**CIEXYZTRIPLE**](/windows/desktop/api/Wingdi/ns-wingdi-tagicexyztriple)
+-   [**LOGCOLORSPACE**](/windows/win32/api/wingdi/ns-wingdi-logcolorspacea)
+-   [**CIEXYZ**](/windows/win32/api/wingdi/ns-wingdi-ciexyz)
+-   [**CIEXYZTRIPLE**](/windows/win32/api/wingdi/ns-wingdi-ciexyztriple)
 
 The following topics are discussed at greater length:
 

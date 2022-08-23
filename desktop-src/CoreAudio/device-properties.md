@@ -8,32 +8,27 @@ ms.date: 05/31/2018
 
 # Device Properties (Core Audio APIs)
 
-During the process of enumerating [audio endpoint devices](audio-endpoint-devices.md), a client application can interrogate the endpoint objects for their device properties. The device properties are exposed in MMDevice API's implementation of the **IPropertyStore** interface. Given a reference to the [**IMMDevice**](/windows/desktop/api/Mmdeviceapi/nn-mmdeviceapi-immdevice) interface of an endpoint object, a client can obtain a reference to the endpoint object's property store by calling the [**IMMDevice::OpenPropertyStore**](/windows/desktop/api/Mmdeviceapi/nf-mmdeviceapi-immdevice-openpropertystore) method.
+During the process of enumerating [audio endpoint devices](audio-endpoint-devices.md), a client application can interrogate the endpoint objects for their device properties. The device properties are exposed in MMDevice API's implementation of the [**IPropertyStore**](/windows/win32/api/propsys/nn-propsys-ipropertystore) interface. Given a reference to the [**IMMDevice**](/windows/desktop/api/Mmdeviceapi/nn-mmdeviceapi-immdevice) interface of an endpoint object, a client can obtain a reference to the endpoint object's property store by calling the [**IMMDevice::OpenPropertyStore**](/windows/desktop/api/Mmdeviceapi/nf-mmdeviceapi-immdevice-openpropertystore) method.
 
-The property-store object exposes an **IPropertyStore** interface. The two primary methods in this interface are **IPropertyStore::GetValue**, which gets a device property value, and **IPropertyStore::SetValue**, which sets a device property value. For more information about **IPropertyStore**, see the Windows SDK documentation.
+Clients can read these properties, but should not set them. Property values are stored as **PROPVARIANT** structures.
 
-The MMDevice API's implementation of the property store is different from the standard shell property store object. To change a property value, the client application must call the **IPropertyStore::SetValue** method. During this call, the new values are set and written in the registry. Therefore, the application does not need to call the **IPropertyStore::Commit** method after the **SetValue** call. The handle to the registry is closed only when the client releases the interface pointer.
+The endpoint manager sets the basic device properties for endpoints. The endpoint manager is the Windows component that is responsible for detecting the presence of audio endpoint devices.
 
-Typically, third-party client applications call the **GetValue** method but not the **SetValue** method. The endpoint manager sets the basic device properties for endpoints. The endpoint manager is the Windows Vista component that is responsible for detecting the presence of audio endpoint devices.
+Each **PKEY\_Xxx** property identifier in the following list is a constant of type **PROPERTYKEY** that is defined in header file **Functiondiscoverykeys\_devpkey.h**. All audio endpoint devices have these device properties.
 
-Each PKEY\_Xxx property identifier in the following list is a constant of type **PROPERTYKEY** that is defined in header file Functiondiscoverykeys\_devpkey.h. All audio endpoint devices have these three device properties.
+| Property | Description |
+|----------|-------------|
+| [**PKEY\_DeviceInterface\_FriendlyName**](pkey-deviceinterface-friendlyname.md) | The friendly name of the audio adapter to which the endpoint device is attached (for example, "XYZ Audio Adapter"). |
+| [**PKEY\_Device\_DeviceDesc**](pkey-device-devicedesc.md) | The device description of the endpoint device (for example, "Speakers"). |
+| [**PKEY\_Device\_FriendlyName**](pkey-device-friendlyname.md) | The friendly name of the endpoint device (for example, "Speakers (XYZ Audio Adapter)"). |
+| **PKEY\_Device\_InstanceId** | Stores the audio endpoint [device instance identifier](/windows-hardware/drivers/install/device-instance-ids). The value can also be aquired via [**IMMDevice::GetId**](/windows/win32/api/mmdeviceapi/nf-mmdeviceapi-immdevice-getid) method. For more information about this property, see [Endpoint ID Strings](endpoint-id-strings.md) and [DEVPKEY_Device_InstanceId](/windows-hardware/drivers/install/devpkey-device-instanceid). |
+| **PKEY\_Device\_ContainerId** | Stores the [container identifier](/windows-hardware/drivers/install/container-ids) of the PnP device that implements the audio endpoint. For more information about this property, see [DEVPKEY_Device_ContainerId](/windows-hardware/drivers/install/devpkey-device-containerid). |
 
+Some audio endpoint devices might have additional properties that do not appear in the preceding list. For more information about additional properties, see [Audio Endpoint Properties](audio-endpoint-properties.md).
 
-
-| Property                                                                         | Description                                                                                                                                                                                                                                                                       |
-|----------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**PKEY\_DeviceInterface\_FriendlyName**](pkey-deviceinterface-friendlyname.md) | The friendly name of the audio adapter to which the endpoint device is attached (for example, "XYZ Audio Adapter"). **PROPVARIANT** member **vt** is set to VT\_LPWSTR and member **pwszVal** points to a null-terminated, wide-character string that contains the friendly name. |
-| [**PKEY\_Device\_DeviceDesc**](pkey-device-devicedesc.md)                       | The device description of the endpoint device (for example, "Speakers"). **PROPVARIANT** member **vt** is set to VT\_LPWSTR and member **pwszVal** points to a null-terminated, wide-character string that contains the device description.                                       |
-| [**PKEY\_Device\_FriendlyName**](pkey-device-friendlyname.md)                   | The friendly name of the endpoint device (for example, "Speakers (XYZ Audio Adapter)"). **PROPVARIANT** member **vt** is set to VT\_LPWSTR and member **pwszVal** points to a null-terminated, wide-character string that contains the friendly name.                             |
-
-
-
- 
-
-Some audio endpoint devices might have additional properties that do not appear in the preceding list. For more information about additional properties, see [Audio Endpoint Properties](audio-endpoint-properties.md). For more information about **PROPERTYKEY**, see the Windows SDK documentation.
+For more information about **PROPERTYKEY**, see the [Windows Property System documentation](/windows/win32/api/wtypes/ns-wtypes-propertykey).
 
 The following code example prints the display names of all audio-rendering endpoint devices in the system:
-
 
 ```C++
 //-----------------------------------------------------------
@@ -127,8 +122,6 @@ Exit:
 }
 ```
 
-
-
 The FAILED macro in the preceding code example is defined in header file Winerror.h.
 
 In the preceding code example, the **for**-loop body in the PrintEndpointNames function calls the [**IMMDevice::GetId**](/windows/desktop/api/Mmdeviceapi/nf-mmdeviceapi-immdevice-getid) method to obtain the [endpoint ID string](endpoint-id-strings.md) for the audio endpoint device that is represented by the **IMMDevice** interface instance. The string uniquely identifies the device with respect to all of the other audio endpoint devices in the system. A client can use the endpoint ID string to create an instance of the audio endpoint device at a later time or in a different process by calling the [**IMMDeviceEnumerator::GetDevice**](/windows/desktop/api/Mmdeviceapi/nf-mmdeviceapi-immdeviceenumerator-getdevice) method. Clients should treat the contents of the endpoint ID string as opaque. That is, clients should not attempt to parse the contents of the string to obtain information about the device. The reason is that the string format is undefined and might change from one implementation of the MMDevice API to the next.
@@ -141,14 +134,4 @@ For more information about the **IMMDeviceEnumerator**, **IMMDeviceCollection**,
 
 ## Related topics
 
-<dl> <dt>
-
 [Audio Endpoint Devices](audio-endpoint-devices.md)
-</dt> </dl>
-
- 
-
- 
-
-
-

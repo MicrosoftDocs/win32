@@ -1,5 +1,5 @@
 ---
-description: "Learn more about: CimMofDeserializer.GetIncludedFileContent delegate (String)"
+description: Describes the **CimMofDeserializer.GetIncludedFileContent** delegate, and documents its syntax, parameters, and return value.
 title: CimMofDeserializer.GetIncludedFileContent delegate (Microsoft.Management.Infrastructure.Serialization)
 TOCTitle: CimMofDeserializer.GetIncludedFileContent delegate (Microsoft.Management.Infrastructure.Serialization)
 ms:assetid: T:Microsoft.Management.Infrastructure.Serialization.CimMofDeserializer.GetIncludedFileContent
@@ -65,13 +65,13 @@ Public Delegate Function GetIncludedFileContent (
 #### Parameters
 
   - fileName  
-    Type: [System.String](/dotnet/api/system.string?view=netframework-4.8)
+    Type: [System.String](/dotnet/api/system.string)
     
     File name, including path.
 
 #### Return Value
 
-Type: [System.Byte](/dotnet/api/system.byte?view=netframework-4.8)\[\]
+Type: [System.Byte](/dotnet/api/system.byte)\[\]
 
 Returns the file's contents in the form of a byte array.
 

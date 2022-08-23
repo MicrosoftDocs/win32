@@ -16,7 +16,7 @@ Typically, developers create and sign app packages using Visual Studio. For more
 
 The Microsoft Store makes it easy to build, submit, and sell your apps to customers around the world. For more info, see [App submissions](/windows/uwp/publish/app-submissions).
 
-Windows PowerShell cmdlets enable you to install and manage line-of-business Windows apps without using the Store. For more info, see [Appx Module Cmdlets](/powershell/module/appx/index?view=win10-ps).
+Windows PowerShell cmdlets enable you to install and manage line-of-business Windows apps without using the Store. For more info, see [Appx Module Cmdlets](/powershell/module/appx/index).
 
 Using the packaging, deployment, and query APIs, you can programmatically perform these tasks:
 

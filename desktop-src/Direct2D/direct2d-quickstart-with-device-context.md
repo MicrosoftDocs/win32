@@ -1,5 +1,5 @@
 ---
-title: Direct2D Quickstart for Windows 8
+title: Direct2D quickstart for Windows 8
 description: Summarizes the steps required to draw with Direct2D for Windows 8 and provides example code. Direct2D is a native-code API for creating 2D graphics.
 ms.assetid: FF4623FA-CA60-4637-9EE6-34C4EC84E51A
 keywords:
@@ -8,7 +8,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Direct2D Quickstart for Windows 8
+# Direct2D quickstart for Windows 8
 
 Direct2D is a native-code, immediate-mode API for creating 2D graphics. This topic illustrates how to use Direct2D to draw to a [**Windows::UI::Core::CoreWindow**](/uwp/api/Windows.UI.Core.CoreWindow).
 

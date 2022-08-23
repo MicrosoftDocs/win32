@@ -21,24 +21,19 @@ For information about **PROPVARIANT**, see the Windows SDK documentation.
 
 The following properties are specific to audio endpoint devices.
 
-
-
-| Property                                                                                                            | Description                                                                                                                                                   |
-|---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**PKEY\_AudioEndpoint\_Association**](pkey-audioendpoint-association.md)                                          | Associates a kernel-streaming (KS) pin category with an audio endpoint device.                                                                                |
-| [**PKEY\_AudioEndpoint\_ControlPanelPageProvider**](pkey-audioendpoint-controlpanelpageprovider.md)                | Specifies the CLSID of the registered provider of the device-properties extension for the audio endpoint device.                                              |
-| [**PKEY\_AudioEndpoint\_Disable\_SysFx**](pkey-audioendpoint-disable-sysfx.md)                                     | Indicates whether system effects are enabled in the shared-mode stream that flows to or from the audio endpoint device.                                       |
-| [**PKEY\_AudioEndpoint\_FormFactor**](pkey-audioendpoint-formfactor.md)                                            | Indicates the physical attributes of the audio endpoint device.                                                                                               |
-| [**PKEY\_AudioEndpoint\_FullRangeSpeakers**](pkey-audioendpoint-fullrangespeakers.md)                              | Specifies the channel-configuration mask for the full-range speakers that are connected to the audio endpoint device.                                         |
-| [**PKEY\_AudioEndpoint\_GUID**](pkey-audioendpoint-guid.md)                                                        | Supplies the DirectSound device identifier that corresponds to the audio endpoint device.                                                                     |
-| [**PKEY\_AudioEndpoint\_PhysicalSpeakers**](pkey-audioendpoint-physicalspeakers.md)                                | Defines the physical speaker configuration for the audio endpoint device.                                                                                     |
-| [**PKEY\_AudioEngine\_DeviceFormat**](pkey-audioengine-deviceformat.md)                                            | Specifies the device format, which is the format that the audio engine uses for the shared-mode stream that flows to or from the audio endpoint device.       |
-| [**PKEY\_AudioEngine\_OEMFormat**](pkey-audioengine-oemformat.md)<br/>                                       | Specifies the default format of the device that is used for rendering or capturing a stream. The values are populated by the OEM in an .inf file. <br/> |
-| [**PKEY\_AudioEndpoint\_Supports\_EventDriven\_Mode**](pkey-audioendpoint-supports-eventdriven-mode.md)<br/> | Indicates whether the endpoint supports the event-driven mode. The values are populated by the OEM in an .inf file.<br/>                                |
-
-
-
- 
+| Property | Description |
+|----------|-------------|
+| [**PKEY\_AudioEndpoint\_Association**](pkey-audioendpoint-association.md) | Associates a kernel-streaming (KS) pin category with an audio endpoint device. |
+| [**PKEY\_AudioEndpoint\_ControlPanelPageProvider**](pkey-audioendpoint-controlpanelpageprovider.md) | Specifies the CLSID of the registered provider of the device-properties extension for the audio endpoint device. |
+| [**PKEY\_AudioEndpoint\_Disable\_SysFx**](pkey-audioendpoint-disable-sysfx.md) | Indicates whether system effects are enabled in the shared-mode stream that flows to or from the audio endpoint device. |
+| [**PKEY\_AudioEndpoint\_FormFactor**](pkey-audioendpoint-formfactor.md) | Indicates the physical attributes of the audio endpoint device. |
+| [**PKEY\_AudioEndpoint\_FullRangeSpeakers**](pkey-audioendpoint-fullrangespeakers.md) | Specifies the channel-configuration mask for the full-range speakers that are connected to the audio endpoint device. |
+| [**PKEY\_AudioEndpoint\_GUID**](pkey-audioendpoint-guid.md) | Supplies the DirectSound device identifier that corresponds to the audio endpoint device. |
+| [**PKEY\_AudioEndpoint\_PhysicalSpeakers**](pkey-audioendpoint-physicalspeakers.md) | Defines the physical speaker configuration for the audio endpoint device. |
+| [**PKEY\_AudioEngine\_DeviceFormat**](pkey-audioengine-deviceformat.md) | Specifies the device format, which is the format that the audio engine uses for the shared-mode stream that flows to or from the audio endpoint device. |
+| [**PKEY\_AudioEngine\_OEMFormat**](pkey-audioengine-oemformat.md) | Specifies the default format of the device that is used for rendering or capturing a stream. The values are populated by the OEM in an .inf file. |
+| [**PKEY\_AudioEndpoint\_Supports\_EventDriven\_Mode**](pkey-audioendpoint-supports-eventdriven-mode.md) | Indicates whether the endpoint supports the event-driven mode. The values are populated by the OEM in an .inf file. |
+| [**PKEY\_AudioEndpoint\_JackSubType**](pkey-audioendpoint-jacksubtype.md) | Contains an output category GUID for an audio endpoint device. |
 
 The core audio APIs support additional properties that do not apply exclusively to audio endpoint devices. For more information about these additional properties, see [Device Properties](device-properties.md).
 

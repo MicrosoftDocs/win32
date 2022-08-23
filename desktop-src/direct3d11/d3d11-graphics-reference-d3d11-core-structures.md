@@ -14,7 +14,6 @@ This section contains information about the core structures.
 
 ## In this section
 
-
 | Topic | Description | 
 |-------|-------------|
 | <a href="/windows/win32/api/D3D11/ns-d3d11-d3d11_blend_desc"><strong>D3D11_BLEND_DESC</strong></a><br /> | Describes the blend state that you use in a call to <a href="/windows/win32/api/D3D11/nf-d3d11-id3d11device-createblendstate"><strong>ID3D11Device::CreateBlendState</strong></a> to create a blend-state object. <br /> | 
@@ -38,6 +37,7 @@ This section contains information about the core structures.
 | <a href="/windows/win32/api/d3d11/ns-d3d11-d3d11_feature_data_d3d11_options3"><strong>D3D11_FEATURE_DATA_D3D11_OPTIONS3</strong></a><br /> | Describes Direct3D 11.3 feature options in the current graphics driver.<br /> | 
 | <a href="/windows/win32/api/d3d11_4/ns-d3d11_4-d3d11_feature_data_d3d11_options4"><strong>D3D11_FEATURE_DATA_D3D11_OPTIONS4</strong></a><br /> | Describes Direct3D 11.4 feature options in the current graphics driver.<br /> | 
 | <a href="/windows/win32/api/d3d11/ns-d3d11-d3d11_feature_data_d3d11_options5"><strong>D3D11_FEATURE_DATA_D3D11_OPTIONS5</strong></a><br /> | Describes the level of support for shared resources in the current graphics driver.<br /> | 
+| [**D3D11_FEATURE_DATA_DISPLAYABLE**](/windows/win32/api/d3d11/ns-d3d11-d3d11_feature_data_displayable) | Describes the level of displayable surfaces supported in the current graphics driver. |
 | <a href="/windows/win32/api/D3D11/ns-d3d11-d3d11_feature_data_doubles"><strong>D3D11_FEATURE_DATA_DOUBLES</strong></a><br /> | Describes double data type support in the current graphics driver.<br /> | 
 | <a href="/windows/win32/api/D3D11/ns-d3d11-d3d11_feature_data_format_support"><strong>D3D11_FEATURE_DATA_FORMAT_SUPPORT</strong></a><br /> | Describes which resources are supported by the current graphics driver for a given format.<br /> | 
 | <a href="/windows/win32/api/D3D11/ns-d3d11-d3d11_feature_data_format_support2"><strong>D3D11_FEATURE_DATA_FORMAT_SUPPORT2</strong></a><br /> | Describes which unordered resource options are supported by the current graphics driver for a given format.<br /> | 

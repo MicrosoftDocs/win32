@@ -1,12 +1,12 @@
 ---
-title: DPI and Device-Independent Pixels
+title: DPI and device-independent pixels
 ms.assetid: d282de02-62f4-4a12-a77c-f602f6db0216
 description: "Learn more about: DPI and Device-Independent Pixels"
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 05/26/2022
 ---
 
-# DPI and Device-Independent Pixels
+# DPI and device-independent pixels
 
 To program effectively with Windows graphics, you must understand two related concepts:
 
@@ -18,10 +18,8 @@ Let's start with DPI. This will require a short detour into typography. In typog
 <dl> 1 pt = 1/72 inch  
 </dl>
 
-> [!Note]  
+> [!NOTE]  
 > This is the desktop publishing definition of point. Historically, the exact measure of a point has varied.
-
- 
 
 For example, a 12-point font is designed to fit within a 1/6" (12/72) line of text. Obviously, this does not mean that every character in the font is exactly 1/6" tall. In fact, some characters might be taller than 1/6". For example, in many fonts the character Å is taller than the nominal height of the font. To display correctly, the font needs some additional space between the text. This space is called the *leading*.
 
@@ -38,7 +36,7 @@ This scaling factor is described as 96 dots per inch (DPI). The term dots derive
 
 Because actual pixel sizes vary, text that is readable on one monitor might be too small on another monitor. Also, people have different preferences—some people prefer larger text. For this reason, Windows enables the user to change the DPI setting. For example, if the user sets the display to 144 DPI, a 72-point font is 144 pixels tall. The standard DPI settings are 100% (96 DPI), 125% (120 DPI), and 150% (144 DPI). The user can also apply a custom setting. Starting in Windows 7, DPI is a per-user setting.
 
-## DWM Scaling
+## DWM scaling
 
 If a program does not account for DPI, the following defects might be apparent at high-DPI settings:
 
@@ -51,7 +49,7 @@ To ensure that older programs work at high-DPI settings, the DWM implements a us
 
 This behavior means that older programs "just work" at high-DPI settings. However, scaling also results in a somewhat blurry appearance, because the scaling is applied after the window is drawn.
 
-## DPI-Aware Applications
+## DPI-aware applications
 
 To avoid DWM scaling, a program can mark itself as DPI-aware. This tells the DWM not to perform any automatic DPI scaling. All new applications should be designed to be DPI-aware, because DPI awareness improves the appearance of the UI at higher DPI settings.
 
@@ -89,65 +87,49 @@ If your application is DPI-aware and you use GDI for drawing, scale all of your 
 
 Direct2D automatically performs scaling to match the DPI setting. In Direct2D, coordinates are measured in units called *device-independent pixels* (DIPs). A DIP is defined as 1/96th of a *logical* inch. In Direct2D, all drawing operations are specified in DIPs and then scaled to the current DPI setting.
 
-
-
 | DPI setting | DIP size    |
 |-------------|-------------|
 | 96          | 1 pixel     |
 | 120         | 1.25 pixels |
 | 144         | 1.5 pixels  |
 
-
-
- 
-
 For example, if the user's DPI setting is 144 DPI, and you ask Direct2D to draw a 200 × 100 rectangle, the rectangle will be 300 × 150 physical pixels. In addition, DirectWrite measures font sizes in DIPs, rather than points. To create a 12-point font, specify 16 DIPs (12 points = 1/6 logical inch = 96/6 DIPs). When the text is drawn on the screen, Direct2D converts the DIPs to physical pixels. The benefit of this system is that the units of measurement are consistent for both text and drawing, regardless of the current DPI setting.
 
 A word of caution: Mouse and window coordinates are still given in physical pixels, not DIPs. For example, if you process the [**WM\_LBUTTONDOWN**](/windows/desktop/inputdev/wm-lbuttondown) message, the mouse-down position is given in physical pixels. To draw a point at that position, you must convert the pixel coordinates to DIPs.
 
-## Converting Physical Pixels to DIPs
+## Converting physical pixels to DIPs
 
 The conversion from physical pixels to DIPs uses the following formula.
 
-<dl> DIPs = pixels / (DPI/96.0)  
-</dl>
+`DIPs = pixels / (DPI/96.0)`
 
-To get the DPI setting, call the [**ID2D1Factory::GetDesktopDpi**](/windows/desktop/api/d2d1/nf-d2d1-id2d1factory-getdesktopdpi) method. The DPI is returned as two floating-point values, one for the x-axis and one for the y-axis. In theory, these values can differ. Calculate a separate scaling factor for each axis.
+To get the DPI setting, call the [**GetDpiForWindow**](/windows/win32/api/winuser/nf-winuser-getdpiforwindow) function. The DPI is returned as a floating-point value. Calculate the scaling factor for both axes.
 
+```cpp
+float g_DPIScale = 1.0f;
 
-```C++
-float g_DPIScaleX = 1.0f;
-float g_DPIScaleY = 1.0f;
-
-void InitializeDPIScale(ID2D1Factory *pFactory)
+void InitializeDPIScale(HWND hwnd)
 {
-    FLOAT dpiX, dpiY;
-
-    pFactory->GetDesktopDpi(&dpiX, &dpiY);
-
-    g_DPIScaleX = dpiX/96.0f;
-    g_DPIScaleY = dpiY/96.0f;
+    float dpi = GetDpiForWindow(hwnd);
+    g_DPIScale = dpi/96.0f;
 }
 
 template <typename T>
 float PixelsToDipsX(T x)
 {
-    return static_cast<float>(x) / g_DPIScaleX;
+    return static_cast<float>(x) / g_DPIScale;
 }
 
 template <typename T>
-float PixelsToDipsY(T y)
+float PixelsToDips(T y)
 {
-    return static_cast<float>(y) / g_DPIScaleY;
+    return static_cast<float>(y) / g_DPIScale;
 }
 ```
 
-
-
 Here is an alternate way to get the DPI setting if you are not using Direct2D:
 
-
-```C++
+```cpp
 void InitializeDPIScale(HWND hwnd)
 {
     HDC hdc = GetDC(hwnd);
@@ -156,15 +138,15 @@ void InitializeDPIScale(HWND hwnd)
     ReleaseDC(hwnd, hdc);
 }
 ```
-> [!Note]  
-> On Windows 10, version 1903,  [**ID2D1Factory::GetDesktopDpi**](/windows/win32/api/d2d1/nf-d2d1-id2d1factory-getdesktopdpi) is deprecated and the recommendation is [**DisplayInformation::LogicalDpi**](/uwp/api/windows.graphics.display.displayinformation.logicaldpi?view=winrt-19041) for Windows Store Apps or [**GetDpiForWindow**](/windows/win32/api/winuser/nf-winuser-getdpiforwindow) for desktop apps. If you still want to use it, suppress the compiler error message by writing the line [**#pragma warning(suppress: 4996)**](/cpp/error-messages/compiler-warnings/compiler-warning-level-3-c4996?view=vs-2019) just before the [**ID2D1Factory::GetDesktopDpi**](/windows/win32/api/d2d1/nf-d2d1-id2d1factory-getdesktopdpi) call. Although it is not recommended, it is possible to set the default DPI awareness programmatically using [**SetProcessDpiAwarenessContext**](/windows/win32/api/winuser/nf-winuser-setprocessdpiawarenesscontext). Once a window (an HWND) has been created in your process, changing the DPI awareness mode is no longer supported. If you are setting the process-default DPI awareness mode programmatically, you must call the corresponding API before any HWNDs have been created. For information see [Setting the default DPI awareness for a process](../hidpi/setting-the-default-dpi-awareness-for-a-process.md).
 
-## Resizing the Render Target
+> [!NOTE]  
+> We recommendation that for a desktop app, you use [GetDpiForWindow](/windows/win32/api/winuser/nf-winuser-getdpiforwindow); and for a Universal Windows Platform (UWP) app, use [DisplayInformation::LogicalDpi](/uwp/api/windows.graphics.display.displayinformation.logicaldpi). Although we don't recommended it, it''s possible to set the default DPI awareness programmatically using [**SetProcessDpiAwarenessContext**](/windows/win32/api/winuser/nf-winuser-setprocessdpiawarenesscontext). Once a window (an HWND) has been created in your process, changing the DPI awareness mode is no longer supported. If you are setting the process-default DPI awareness mode programmatically, then you must call the corresponding API before any HWNDs have been created. For more info, see [Setting the default DPI awareness for a process](../hidpi/setting-the-default-dpi-awareness-for-a-process.md).
+
+## Resizing the render target
 
 If the size of the window changes, you must resize the render target to match. In most cases, you will also need to update the layout and repaint the window. The following code shows these steps.
 
-
-```C++
+```cpp
 void MainWindow::Resize()
 {
     if (pRenderTarget != NULL)
@@ -181,14 +163,11 @@ void MainWindow::Resize()
 }
 ```
 
-
-
 The [**GetClientRect**](/windows/desktop/api/winuser/nf-winuser-getclientrect) function gets the new size of the client area, in physical pixels (not DIPs). The [**ID2D1HwndRenderTarget::Resize**](../direct2d/id2d1hwndrendertarget-resize.md) method updates the size of the render target, also specified in pixels. The [**InvalidateRect**](/windows/desktop/api/winuser/nf-winuser-invalidaterect) function forces a repaint by adding the entire client area to the window's update region. (See [Painting the Window](painting-the-window.md), in Module 1.)
 
 As the window grows or shrinks, you will typically need to recalculate the position of the objects that you draw. For example, in the circle program, the radius and center point must be updated:
 
-
-```C++
+```cpp
 void MainWindow::CalculateLayout()
 {
     if (pRenderTarget != NULL)
@@ -202,14 +181,8 @@ void MainWindow::CalculateLayout()
 }
 ```
 
-
-
 The [**ID2D1RenderTarget::GetSize**](/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-getsize) method returns the size of the render target in DIPs (not pixels), which is the appropriate unit for calculating layout. There is a closely related method, [**ID2D1RenderTarget::GetPixelSize**](/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-getpixelsize), that returns the size in physical pixels. For an **HWND** render target, this value matches the size returned by [**GetClientRect**](/windows/desktop/api/winuser/nf-winuser-getclientrect). But remember that drawing is performed in DIPs, not pixels.
 
 ## Next
 
-[Using Color in Direct2D](using-color-in-direct2d.md)
-
- 
-
- 
+[Using color in Direct2D](using-color-in-direct2d.md)

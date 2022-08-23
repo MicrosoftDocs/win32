@@ -4,18 +4,21 @@ ms.assetid: 05f80b68-fb2b-4fd7-94e9-e5b40968c4aa
 title: D3DXPLANE Extensions (D3dx9math.h)
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DXPLANE
-api_type: 
+api_type:
 - HeaderDef
-api_location: 
+api_location:
 - d3dx9math.h
 ---
 
 # D3DXPLANE Extensions
+
+> [!Note]
+> The D3DX utility library is deprecated. We recommend that you use [DirectXMath](../dxmath/pg-xnamath-migration-d3dx.md) instead.
 
 Supplies the following operator overloads and type casts for [**D3DXPLANE**](d3dxplane.md) structures.
 
@@ -83,7 +86,3 @@ Operator overloads and type casts for this structure are implemented in d3dx9mat
  
 
  
-
-
-
-

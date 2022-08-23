@@ -3,7 +3,7 @@ title: Delivery Optimization Interfaces
 description: Use the following Delivery Optimization interfaces to transfer files and monitor jobs within the transfer queue.
 ms.assetid: 20203CCD-86CC-4551-BA4F-0A5999F8C956
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 05/04/2022
 ---
 
 # Delivery Optimization Interfaces
@@ -22,8 +22,8 @@ Use the following Delivery Optimization interfaces to transfer files and monitor
 | [**IBackgroundCopyManager**](ibackgroundcopymanager.md) | Creates transfer jobs, retrieves an enumerator object of jobs in the queue, and retrieves individual jobs from the queue. |
 | [**IDeliveryOptimizationJob**](ideliveryoptimizationjob.md) | Use to download ranges of a file. |
 | [**IDeliveryOptimizationFile**](ideliveryoptimizationfile.md) | Use to identify the status of a specific file. |
-| [**IDODownload**](./do/nn-do-idodownload.md) | Used to start and manage a download. |
+| [**IDODownload**](/windows/win32/api/deliveryoptimization/nn-deliveryoptimization-idodownload) | Used to start and manage a download. |
 | [**IDODownloadInternal**](./dodownloadinternal/nn-dodownloadinternal-idodownloadinternal.md) | Used to get or set extended download properties. |
-| [**IDODownloadStatusCallback**](./do/nn-do-idodownloadstatuscallback.md) | Used to receive notifications about a download. |
-| [**IDOManager**](./do/nn-do-idomanager.md) | Used to create a new download, and to enumerate existing downloads. |
+| [**IDODownloadStatusCallback**](/windows/win32/api/deliveryoptimization/nn-deliveryoptimization-idodownloadstatuscallback) | Used to receive notifications about a download. |
+| [**IDOManager**](/windows/win32/api/deliveryoptimization/nn-deliveryoptimization-idomanager) | Used to create a new download, and to enumerate existing downloads. |
 | [**IEnumBackgroundCopyFiles**](ienumbackgroundcopyfiles-.md) | Enumerates files in the job. |

@@ -1,5 +1,5 @@
 ---
-description: Provides data for an app suspending event.
+description: Describes the **ISuspendingEventArgs** interface, and documents its members, properties, remarks, and requirements.
 ms.assetid: 2590AFAA-679C-49F1-804F-D429BB971727
 title: ISuspendingEventArgs interface (Windows.ApplicationModel.h)
 ms.topic: reference
@@ -29,23 +29,15 @@ The **ISuspendingEventArgs** interface inherits from [**IInspectable**](/windows
 
 The **ISuspendingEventArgs** interface has these properties.
 
-
-
 | Property                                                                           | Access type           | Description                                   |
 |:-----------------------------------------------------------------------------------|:----------------------|:----------------------------------------------|
 | [**SuspendingOperation**](isuspendingeventargs-suspendingoperation.md)<br/> | Read/write<br/> | Gets the app suspending operation.<br/> |
 
-
-
- 
-
 ## Remarks
 
-This object is accessed when you implement event handlers like [**SuspendingEventHandler**](/uwp/api/windows.ui.webui.suspendingeventhandler?view=winrt-19041), [**SuspendingEventHandler**](/uwp/api/windows.ui.xaml.suspendingeventhandler?view=winrt-19041), and [**add\_Suspending**](/previous-versions//hh438376(v=vs.85)) to respond to app suspending events.
+This object is accessed when you implement event handlers like [**SuspendingEventHandler**](/uwp/api/windows.ui.webui.suspendingeventhandler), [**SuspendingEventHandler**](/uwp/api/windows.ui.xaml.suspendingeventhandler), and [**add\_Suspending**](/previous-versions//hh438376(v=vs.85)) to respond to app suspending events.
 
 ## Requirements
-
-
 
 | Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
@@ -58,17 +50,7 @@ This object is accessed when you implement event handlers like [**SuspendingEven
 
 ## See also
 
-<dl> <dt>
-
-[**IInspectable**](/windows/win32/api/inspectable/nn-inspectable-iinspectable)
-</dt> <dt>
-
-[**ISuspendingOperation**](isuspendingoperation.md)
-</dt> <dt>
-
-[**ISuspendingDeferral**](isuspendingdeferral.md)
-</dt> </dl>
-
- 
-
- 
+* [**IInspectable**](/windows/win32/api/inspectable/nn-inspectable-iinspectable)
+* [**ISuspendingOperation**](isuspendingoperation.md)
+* [**ISuspendingDeferral**](isuspendingdeferral.md)
+* 

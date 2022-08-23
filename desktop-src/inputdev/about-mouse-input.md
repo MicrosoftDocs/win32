@@ -1,5 +1,5 @@
 ---
-title: About Mouse Input
+title: Mouse Input Overview
 description: This topic discusses mouse input.
 ms.assetid: 1f945a31-76d5-4e23-a55a-769ca114dbe9
 keywords:
@@ -22,7 +22,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# About Mouse Input
+# Mouse Input Overview
 
 The mouse is an important, but optional, user-input device for applications. A well-written application should include a mouse interface, but it should not depend solely on the mouse for acquiring user input. The application should provide full keyboard support as well.
 

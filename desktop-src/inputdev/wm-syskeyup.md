@@ -101,29 +101,12 @@ For non-U.S. enhanced 102-key keyboards, the right ALT key is handled as a CTRL+
 
 
 ## See also
-
-<dl> <dt>
-
-**Reference**
-</dt> <dt>
-
-[**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca)
-</dt> <dt>
-
-[**TranslateAccelerator**](/windows/desktop/api/winuser/nf-winuser-translateacceleratora)
-</dt> <dt>
-
-[**WM\_SYSCOMMAND**](/windows/desktop/menurc/wm-syscommand)
-</dt> <dt>
-
-[**WM\_SYSKEYDOWN**](wm-syskeydown.md)
-</dt> <dt>
-
-**Conceptual**
-</dt> <dt>
-
-[Keyboard Input](keyboard-input.md)
-</dt> </dl>
+- [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca)
+- [**TranslateAccelerator**](/windows/desktop/api/winuser/nf-winuser-translateacceleratora)
+- [**WM\_SYSCOMMAND**](/windows/desktop/menurc/wm-syscommand)
+- [**WM\_SYSKEYDOWN**](wm-syskeydown.md)
+- [Keyboard Input](keyboard-input.md)
+- [About Keyboard Input](about-keyboard-input.md)
 
  
 

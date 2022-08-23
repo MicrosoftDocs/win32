@@ -214,6 +214,8 @@
             href: tier-1.md
           - name: "Tier 2"
             href: tier-2.md
+      - name: "Displayable surfaces"
+        href: displayable-surfaces.md
     - name: "Graphics pipeline"
       href: overviews-direct3d-11-graphics-pipeline.md
       items: 
@@ -926,6 +928,8 @@
             href: /windows/win32/api/d3d11_4/ns-d3d11_4-d3d11_feature_data_d3d11_options4
           - name: "D3D11_FEATURE_DATA_D3D11_OPTIONS5"
             href: /windows/win32/api/d3d11/ns-d3d11-d3d11_feature_data_d3d11_options5
+          - name: "D3D11_FEATURE_DATA_DISPLAYABLE"
+            href: /windows/win32/api/D3D11/ns-d3d11-d3d11_feature_data_displayable
           - name: "D3D11_FEATURE_DATA_DOUBLES"
             href: /windows/win32/api/D3D11/ns-d3d11-d3d11_feature_data_doubles
           - name: "D3D11_FEATURE_DATA_FORMAT_SUPPORT"

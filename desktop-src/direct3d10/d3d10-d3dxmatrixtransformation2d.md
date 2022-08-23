@@ -4,19 +4,22 @@ ms.assetid: 5b894c3b-a532-458a-bcbc-48fcd5c73c34
 title: D3DXMatrixTransformation2D function (D3DX10Math.h)
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DXMatrixTransformation2D
-api_type: 
+api_type:
 - LibDef
-api_location: 
+api_location:
 - D3DX10.lib
 - D3DX10.dll
 ---
 
 # D3DXMatrixTransformation2D function (D3DX10Math.h)
+
+> [!Note]
+> The D3DX10 utility library is deprecated. We recommend that you use [DirectXMath](../dxmath/pg-xnamath-migration-d3dx.md) instead.
 
 Builds a 2D transformation matrix that represents transformations in the xy plane. **NULL** arguments are treated as identity transformations.
 

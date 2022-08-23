@@ -10,6 +10,8 @@ ms.date: 05/31/2018
 
 The following example calls the [**PdhEnumObjectItems**](/windows/desktop/api/Pdh/nf-pdh-pdhenumobjectitemsa) function to enumerate the instances and counters of the process objects on the local computer.
 
+> [!TIP]
+> Windows 10 20H2 and later includes the `Process V2` counterset. The `Process V2` counterset resolves [several issues](./handling-duplicate-instance-names.md) with the `Process` counterset and should be preferred when collecting process information from computers running Windows 20 20H2 or later.
 
 ```C++
 // This program needs only the essential Windows header files.

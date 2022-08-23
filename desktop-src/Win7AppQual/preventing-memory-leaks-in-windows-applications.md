@@ -68,7 +68,7 @@ Certain coding and design practices can limit the number of leaks in your code.
 -   [Debugging Tools for Windows](/windows-hardware/drivers/debugger/)
 -   [User-Mode Dump Heap](/windows-hardware/drivers/debugger/umdh)
 -   [Trace Capture, Processing, and Analysis Tool](https://msdn.microsoft.com/performance/cc825801.aspx)
--   [CRT Debug Heap](/visualstudio/debugger/crt-debug-heap-details?view=vs-2015)
+-   [CRT Debug Heap](/visualstudio/debugger/crt-debug-heap-details)
 
 *Additional Links:*
 

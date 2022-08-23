@@ -12,7 +12,7 @@ keywords:
 - clipboard,delayed rendering
 - clipboard,memory
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 05/25/2022
 ---
 
 # Clipboard Operations
@@ -66,6 +66,16 @@ If the clipboard owner is about to be destroyed and has delayed rendering some o
 Unlike with [**WM\_RENDERFORMAT**](wm-renderformat.md), an application responding to [**WM\_RENDERALLFORMATS**](wm-renderallformats.md) should open the clipboard before calling [**SetClipboardData**](/windows/win32/api/winuser/nf-winuser-setclipboarddata) to place any global memory handles on the clipboard.
 
 Any clipboard formats that are not rendered in response to the [**WM\_RENDERALLFORMATS**](wm-renderallformats.md) message cease to be available to other applications and are no longer enumerated by the clipboard functions.
+
+### Delayed Rendering Guidance
+
+Delayed rendering is a performance feature, enabling an application to avoid doing work to render clipboard data in a format that may never be requested. However, using delayed rendering involves the following tradeoffs that should be taken into consideration:
+
+- Using delayed rendering adds some complexity to the application, requiring it to handle two rendering window messages, as described above.
+- Using delayed rendering means that the application loses the option to keep the UI responsive if rendering the data takes enough time that it is noticeable to the user. With delayed rendering, if the data is eventually needed, the window must render the data while processing a rendering window message, as described above. As a result, if the data is very time-consuming to render, the application may become visibly unresponsive (hung) while rendering occurs, as no other window messages can be processed while the rendering window message is being processed. An application that does not use delayed rendering might instead choose to render data on a background thread in order to keep the UI response while rendering occurs, perhaps providing progress or cancellation options, which are not available when using delayed rendering.
+- Using delayed rendering add a small amount of overhead if the data is eventually needed. When using delay rendering, a window initially calls the [**SetClipboardData**](/windows/win32/api/winuser/nf-winuser-setclipboarddata) function with a **NULL** handle, and if the data is later needed, the window must respond to a window message and call the **SetClipboardData** function a second time with a handle to the rendered data, as described above. As a result, if the data is eventually needed, using delayed rendering adds the cost of processing a window message and calling the **SetClipboardData** function a second time. This cost is small but not zero. If an application only supports a single clipboard format, and if the data is always eventually requested, using delayed rendering just adds this small amount of overhead (the cost varies by hardware; an estimate is between 10 and 100 microseconds). However, if the data is small, the overhead of using delayed rendering may exceed the cost to render the data, which could defeat the purpose of using delayed rendering to improve performance. (In testing, for data that is already in its final form, the overhead of using delayed rendering consistently exceeded the cost to copy the data to the clipboard if the data was 100 KiB or less. This testing does not include the cost to render data, just to copy it once it is rendered.)
+- Delayed rendering is a net performance advantage if it saves more time than it adds in overhead. To determine the overhead of delayed rendering, measuring is best, but 10 to 100 microseconds is an estimate. To calculate the savings of using delayed rendering for each clipboard format, measure the cost to render the data in that format and determine how frequently that format is eventually requested (based on the window messages described above). Multiply the cost of rendering the data by the percentage of time that the data is not eventually requested (before the clipboard is emptied or its contents change) to determine the savings of delayed rendering for each clipboard format. Delayed rendering is a net performance advantage if the savings exceeds the overhead cost.
+- As a concrete guideline, for applications that only support a single clipboard format, such as text, where the data is not significantly expensive to render, consider placing the data directly on the clipboard if the size of the data is 4 KiB or less.
 
 ## Memory and the Clipboard
 

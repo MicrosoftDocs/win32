@@ -14,7 +14,7 @@ Using the Windows API, you can develop applications that run successfully on all
 
 ## User interface
 
-The Windows UI API create and use windows to display output, prompt for user input, and carry out the other tasks that support interaction with the user. Most applications create at least one window.
+The Windows UI API creates and uses windows to display output, prompt for user input, and carry out the other tasks that support interaction with the user. Most applications create at least one window.
 
 -   [Accessibility](../winauto/windows-accessibility-features-reference.md)
 -   [Desktop Window Manager (DWM)](../dwm/reference.md)

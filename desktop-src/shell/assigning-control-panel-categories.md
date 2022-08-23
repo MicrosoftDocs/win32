@@ -79,7 +79,3 @@ The **Security Center** category, available only in Windows XP SP2, is also so
  
 
  
-
-
-
-

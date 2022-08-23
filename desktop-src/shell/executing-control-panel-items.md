@@ -135,8 +135,8 @@ When you use the [**WinExec**](/windows/win32/api/winbase/nf-winbase-winexec) fu
 
 
 
-| 
-|
+|Argument|Description|
+|--------|--------|
 | control.exe desktop | Launches the <strong>Display Properties</strong> window.<blockquote>[!Note]<br />Starter and Basic Editions do not support this command.</blockquote><br /> | 
 | control.exe color | Launches the <strong>Display Properties</strong> window with the <strong>Appearance</strong> tab preselected. | 
 | control.exe date/time | Launches the <strong>Date and Time Properties</strong> window. | 

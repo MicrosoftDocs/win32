@@ -4,19 +4,22 @@ ms.assetid: 5eb5141b-d611-4c6b-a3e3-c7ad8f223657
 title: D3DXVec2Maximize function (D3dx9math.h)
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DXVec2Maximize
-api_type: 
+api_type:
 - LibDef
-api_location: 
+api_location:
 - d3dx9.lib
 - d3dx9.dll
 ---
 
 # D3DXVec2Maximize function
+
+> [!Note]
+> The D3DX utility library is deprecated. We recommend that you use [DirectXMath](../dxmath/pg-xnamath-migration-d3dx.md) instead.
 
 Returns a 2D vector that is made up of the largest components of two 2D vectors.
 
@@ -98,7 +101,3 @@ The return value for this function is the same value returned in the *pOut* para
  
 
  
-
-
-
-

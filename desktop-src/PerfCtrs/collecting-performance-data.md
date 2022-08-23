@@ -36,9 +36,8 @@ The "\\Processor(\_Total)\\% Processor Time" counter value is the average usage 
 
 The "\\Process(X)\\% Process Time" counter value is the sum of the processor usage by all threads of process X. For example, in a computer with two processors, if a process has two threads, one taking up 75 percent of a CPU and the other taking 80 percent of another CPU, this counter will report 155 percent. The range for this counter is from 0 through 100 \* ProcessorCount.
 
-**Windows Server 2003 and Windows XP:  **
-
-You can receive values outside the expected range of values for CPU usage. To calculate the percentage of CPU usage, PDH needs two samples (each with a raw value and a time stamp). Because PDH uses only the instance name to match the processes, it can sometimes use two samples from different processes. For example, if three processes are being sampled and one process is terminated after the third sample, another process will move to the slot vacated by that terminated process. As a result, a formatted counter will provide an incorrect value when you format the fourth sample, because it’s using the third sample from the terminated process and the fourth sample from the process that moved into the terminated process's slot.
+When using the `Process` counterset,
+you can receive values outside the expected range of values for CPU usage. To calculate the percentage of CPU usage, PDH needs two samples (each with a raw value and a time stamp). Because PDH uses only the instance name to match the processes, it can sometimes mix up samples from different processes. For example, if three processes with the same instance name are being sampled and one of the processes is terminated after the third sample, another process will move to the slot vacated by that terminated process. As a result, a formatted counter will provide an incorrect value when you format the fourth sample because it’s using the third sample from the terminated process and the fourth sample from the process that moved into the terminated process's slot.
 
 The following table shows how this can occur if a process is terminated while data is being collected. The table shows five counter value samples for three instances of process X. The samples are collected in one second intervals. After the third sample is collected, process X in slot 1 is terminated. When process X in slot 1 is terminated, process X in slot 2 moves to slot 1. When you collect the fourth sample for process X in slot 2, the first value is now 20 instead of 1,000, and the second value is 1,500. When you format the counter value, you get 1,480 milliseconds instead of the expected 500 milliseconds. When you format the fifth sample value, you should get the expected value.
 
@@ -50,10 +49,5 @@ The following table shows how this can occur if a process is terminated while da
 | Sample 4 | 60                   | 1,500 (from the former slot 2) | Not applicable. Now collected in slot 1. |
 | Sample 5 | 80                   | 2,000                          | Not applicable. Now collected in slot 1. |
 
-
-
- 
-
- 
-
- 
+> [!TIP]
+> Starting in Windows 10 20H2, you can avoid this issue by using the new `Process V2` counterset. The `Process V2` counterset includes the process ID in the instance name. This avoids the inconsistent results that appear with the original `Process` counterset.

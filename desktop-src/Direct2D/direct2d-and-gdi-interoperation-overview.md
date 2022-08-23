@@ -29,7 +29,7 @@ This topic contains the following sections.
 
 ## Prerequisites
 
-This overview assumes that you are familiar with basic Direct2D drawing operations. For a tutorial, see the [Direct2D QuickStart](direct2d-quickstart.md). It also assumes that you are familiar with GDI drawing operations.
+This overview assumes that you are familiar with basic Direct2D drawing operations. For a tutorial, see [Create a simple Direct2D application](direct2d-quickstart.md). It also assumes that you are familiar with GDI drawing operations.
 
 ## Draw Direct2D Content to a GDI Device Context
 

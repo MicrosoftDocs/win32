@@ -35,7 +35,7 @@ The content provider sets a minimum security level needed to acquire the license
 
 To increase security, an application may update the DRM components on the client's computer. This update, called individualization, differentiates the user's copy of the application from all other copies of the same application. The DRM header of a protected file may specify may specify a minimum individualization level. (For more information, see the documentation for WMRMHeader.IndividualizedVersion in the Windows Media Rights Manager SDK.)
 
-Because the Microsoft Individualization Service handles information from the user, you must display the Microsoft privacy policy or provide a link to that page at the Microsoft website before your application individualizes: <https://go.microsoft.com/fwlink/p/?linkid=10240>.
+The Microsoft Individualization Service handles information from the user. So before your application individualizes, you must display the Microsoft Privacy Statement, or provide a link to it (see [Microsoft Privacy Statement](https://privacy.microsoft.com/privacystatement)).
 
 ## Provide the Software Certificate
 

@@ -106,7 +106,7 @@ Represents a collection of connection groups.
 
 </dd> <dt>
 
-[**WINHTTP_MATCH_CONNECTION_GUID**](/windows/win32/api/Winhttp/ns-winhttp-winhttp_match_connection_group)
+[**WINHTTP_MATCH_CONNECTION_GUID**](/windows/win32/api/winhttp/ns-winhttp-winhttp_match_connection_guid)
 </dt> <dd>
 
 Represents the GUID of a connection, for purposes of connection-matching.
@@ -131,6 +131,20 @@ A collection of proxy result entries provided by [**WinHttpGetProxyResult**](/wi
 </dt> <dd>
 
 A result entry from a call to [**WinHttpGetProxyResult**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpgetproxyresult).
+
+</dd> <dt>
+
+[**WINHTTP_PROXY_SETTINGS_EX**](/windows/desktop/api/winhttp/ns-winhttp-winhttp_proxy_settings_ex)
+</dt> <dd>
+
+Represents extended proxy settings.
+
+</dd> <dt>
+
+[**WINHTTP_PROXY_SETTINGS_PARAM**](/windows/desktop/api/winhttp/ns-winhttp-winhttp_proxy_settings_param)
+</dt> <dd>
+
+Represents extended proxy settings.
 
 </dd> <dt>
 

@@ -34,7 +34,7 @@ WCS 1.0 provides native support for sRGB. There are two ways to use WCS 1.0 for 
 
 **To render an image outside the device context**
 
-1.  Create a transform using [**CreateColorTransformW**](/windows/win32/api/icm/nf-icm-createcolortransformw). The **lcsCSType** member of the [**LOGCOLORSPACE**](/windows/desktop/api/Wingdi/ns-wingdi-taglogcolorspacea) structure pointed to by the *pLogColorSpace* parameter should be set to **LCS\_sRGB**. The *hDestProfile* parameter indicates the display device's color space.
+1.  Create a transform using [**CreateColorTransformW**](/windows/win32/api/icm/nf-icm-createcolortransformw). The **lcsCSType** member of the [**LOGCOLORSPACE**](/windows/win32/api/wingdi/ns-wingdi-logcolorspacea) structure pointed to by the *pLogColorSpace* parameter should be set to **LCS\_sRGB**. The *hDestProfile* parameter indicates the display device's color space.
 2.  Use the created color transform to color match the image before displaying it on the device.
 
 ## WCS 1.0 Defaults for Input Color Space and Output Profile

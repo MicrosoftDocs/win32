@@ -110,16 +110,12 @@ Therefore, the thread that installed the hook must have a message loop.
 
 ## See also
 
-[CallNextHookEx](/windows/desktop/api/winuser/nf-winuser-callnexthookex)
-
-[GetMessage](/windows/desktop/api/winuser/nf-winuser-getmessage)
-
-[PeekMessage](/windows/desktop/api/winuser/nf-winuser-peekmessagew)
-
-[SetWindowsHookEx](/windows/desktop/api/winuser/nf-winuser-setwindowshookexw)
-
-[WM_KEYUP](/windows/desktop/inputdev/wm-keyup)
-
-[WM_KEYDOWN](/windows/desktop/inputdev/wm-keydown)
-
-[Hooks](hooks.md)
+- [CallNextHookEx](/windows/desktop/api/winuser/nf-winuser-callnexthookex)
+- [GetMessage](/windows/desktop/api/winuser/nf-winuser-getmessage)
+- [PeekMessage](/windows/desktop/api/winuser/nf-winuser-peekmessagew)
+- [SetWindowsHookEx](/windows/desktop/api/winuser/nf-winuser-setwindowshookexw)
+- [WM_KEYUP](/windows/desktop/inputdev/wm-keyup)
+- [WM_KEYDOWN](/windows/desktop/inputdev/wm-keydown)
+- [Hooks](hooks.md)
+- [Keyboard Input (Keyboard and Mouse Input)](../inputdev/keyboard-input.md)
+- [About Keyboard Input](../inputdev/about-keyboard-input.md)

@@ -178,6 +178,8 @@
           href: /windows/desktop/api/Winreg/nf-winreg-regqueryvaluea
         - name: "RegQueryValueEx"
           href: /windows/desktop/api/Winreg/nf-winreg-regqueryvalueexa
+        - name: "RegRenameKey"
+          href: /windows/desktop/api/Winreg/nf-winreg-regrenamekey
         - name: "RegReplaceKey"
           href: /windows/desktop/api/Winreg/nf-winreg-regreplacekeya
         - name: "RegRestoreKey"

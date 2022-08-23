@@ -1,5 +1,5 @@
 ---
-description: This topic describes the memory limits for supported Windows and Windows Server releases.
+description: Describes the memory limits for supported Windows and Windows Server releases and provides lists of memory limits.
 ms.assetid: de09c8af-0ed8-4fd4-b8e8-2c921aafe6f2
 title: Memory Limits for Windows and Windows Server Releases
 ms.topic: article
@@ -10,7 +10,7 @@ ms.date: 09/10/2021
 
 This topic describes the memory limits for supported Windows and Windows Server releases.
 
-Limits on memory and address space vary by platform, operating system, and by whether the **IMAGE\_FILE\_LARGE\_ADDRESS\_AWARE** value of the [**LOADED\_IMAGE**](/windows/win32/api/dbghelp/ns-dbghelp-loaded_image) structure and [4-gigabyte tuning](4-gigabyte-tuning.md) (4GT) are in use. **IMAGE\_FILE\_LARGE\_ADDRESS\_AWARE** is set or cleared by using the [/LARGEADDRESSAWARE](/cpp/build/reference/largeaddressaware-handle-large-addresses?view=vs-2019) linker option.
+Limits on memory and address space vary by platform, operating system, and by whether the **IMAGE\_FILE\_LARGE\_ADDRESS\_AWARE** value of the [**LOADED\_IMAGE**](/windows/win32/api/dbghelp/ns-dbghelp-loaded_image) structure and [4-gigabyte tuning](4-gigabyte-tuning.md) (4GT) are in use. **IMAGE\_FILE\_LARGE\_ADDRESS\_AWARE** is set or cleared by using the [/LARGEADDRESSAWARE](/cpp/build/reference/largeaddressaware-handle-large-addresses) linker option.
 
 4-gigabyte tuning (4GT), also known as application memory tuning, or the /3GB switch, is a technology (only applicable to 32 bit systems) that alters the amount of virtual address space available to user mode applications. Enabling this technology reduces the overall size of the system virtual address space and therefore system resource maximums. For more information, see [What is 4GT]( /previous-versions/windows/it-pro/windows-server-2003/cc786709(v=ws.10)).
 
@@ -38,13 +38,13 @@ The following table specifies the limits on physical memory for Windows 11.
 
 
 
-| Version               | Limit on X86    | Limit on X64     | Limit on ARM64     |
-|-----------------------|-----------------|------------------|------------------|
-| Windows 11 Enterprise | 4 GB<br/> | 6 TB<br/>   | 6 TB<br/>   |
-| Windows 11 Education  | 4 GB<br/> | 2 TB<br/>   | 2 TB<br/>   |
-| Windows 11 Pro for Workstations  | 4 GB<br/> | 6 TB<br/>   | 6 TB<br/>   |
-| Windows 11 Pro        | 4 GB<br/> | 2 TB<br/>   | 2 TB<br/>   |
-| Windows 11 Home       | 4 GB<br/> | 128 GB<br/> | 128 GB<br/> |
+| Version               | Limit on X64     | Limit on ARM64     |
+|-----------------------|-----------------|------------------|
+| Windows 11 Enterprise | 6 TB<br/>   | 6 TB<br/>   |
+| Windows 11 Education  | 2 TB<br/>   | 2 TB<br/>   |
+| Windows 11 Pro for Workstations  | 6 TB<br/>   | 6 TB<br/>   |
+| Windows 11 Pro        | 2 TB<br/>   | 2 TB<br/>   |
+| Windows 11 Home       | 128 GB<br/> | 128 GB<br/> |
 
 ## Physical Memory Limits: Windows 10
 

@@ -62,7 +62,7 @@ Set this parameter to **NULL** when you are not specifying a private key.
 *ppCipherSuite* \[out\]
 </dt> <dd>
 
-A pointer to a [**NCRYPT\_SSL\_CIPHER\_SUITE**](https://www.bing.com/search?q=**NCRYPT\_SSL\_CIPHER\_SUITE**) structure to receive the address of the next cipher suite in the list.
+A pointer to a **NCRYPT\_SSL\_CIPHER\_SUITE** structure to receive the address of the next cipher suite in the list.
 
 </dd> <dt>
 
@@ -119,15 +119,3 @@ To enumerate all cipher suites supported by the SSL provider, call the **SslEnum
 | Header<br/>                   | <dl> <dt>Sslprovider.h</dt> </dl> |
 | Library<br/>                  | <dl> <dt>Ncrypt.lib</dt> </dl>    |
 | DLL<br/>                      | <dl> <dt>Ncrypt.dll</dt> </dl>    |
-
-
-
-## See also
-
-<dl> <dt>
-
-[**NCRYPT\_SSL\_CIPHER\_SUITE**](https://www.bing.com/search?q=**NCRYPT\_SSL\_CIPHER\_SUITE**)
-</dt> </dl>
-
- 
-

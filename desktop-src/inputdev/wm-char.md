@@ -89,7 +89,9 @@ Example from [Windows Classic Samples](https://github.com/microsoft/Windows-clas
 
 ## Remarks
 
-The **WM\_CHAR** message uses Unicode Transformation Format (UTF)-16.
+The **WM\_CHAR** message uses UTF-16 (16-bit Unicode Transformation Format) code units in its **wParam** if the Unicode version of the [**RegisterClass**](/windows/win32/api/winuser/nf-winuser-registerclassw) function was used to register the window class. Otherwise, the system provides characters in the current process code page, which can be set to UTF-8 in Windows Version 1903 (May 2019 Update) and newer. For more information, see [Registering Window Classes](/windows/win32/intl/registering-window-classes) and [Use UTF-8 code pages in Windows apps](/windows/apps/design/globalizing/use-utf8-code-page).
+
+Starting with Windows Vista, **WM\_CHAR** message can send [UTF-16 surrogate pairs](/windows/win32/intl/surrogates-and-supplementary-characters) to Unicode windows. Use the [IS_HIGH_SURROGATE](/windows/win32/api/Winnls/nf-winnls-is_high_surrogate), [IS_LOW_SURROGATE](/windows/win32/api/winnls/nf-winnls-is_low_surrogate), and [IS_SURROGATE_PAIR](/windows/win32/api/winnls/nf-winnls-is_surrogate_pair) macros to detect such cases, if necessary.
 
 There is not necessarily a one-to-one correspondence between keys pressed and character messages generated, and so the information in the high-order word of the *lParam* parameter is generally not useful to applications. The information in the high-order word applies only to the most recent [**WM\_KEYDOWN**](wm-keydown.md) message that precedes the posting of the **WM\_CHAR** message.
 
@@ -110,26 +112,13 @@ The [**WM\_UNICHAR**](wm-unichar.md) message is the same as **WM\_CHAR**, except
 
 
 ## See also
+- [**TranslateMessage**](/windows/desktop/api/winuser/nf-winuser-translatemessage)
+- [**WM\_KEYDOWN**](wm-keydown.md)
+- [**WM\_UNICHAR**](wm-unichar.md)
+- [Keyboard Input](keyboard-input.md)
+- [About Keyboard Input](about-keyboard-input.md)
 
-<dl> <dt>
-
-**Reference**
-</dt> <dt>
-
-[**TranslateMessage**](/windows/desktop/api/winuser/nf-winuser-translatemessage)
-</dt> <dt>
-
-[**WM\_KEYDOWN**](wm-keydown.md)
-</dt> <dt>
-
-[**WM\_UNICHAR**](wm-unichar.md)
-</dt> <dt>
-
-**Conceptual**
-</dt> <dt>
-
-[Keyboard Input](keyboard-input.md)
-</dt> </dl>
+ 
 
  
 

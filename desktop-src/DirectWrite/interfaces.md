@@ -66,6 +66,7 @@ DirectWrite defines the following interfaces.
 | [**IDWriteFontSet1**](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontset1) | Represents a font set. |
 | [**IDWriteFontSet2**](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontset2) | Represents a font set. |
 | [**IDWriteFontSet3**](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontset3) | Represents a font set. |
+| [**IDWriteFontSet4**](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontset4) | Represents a font set. |
 | [**IDWriteFontSetBuilder**](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontsetbuilder) | Contains methods for building a font set. |
 | [**IDWriteFontSetBuilder1**](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontsetbuilder1) | Contains methods for building a font set. |
 | [**IDWriteFontSetBuilder2**](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontsetbuilder2) | Contains methods for building a font set. |

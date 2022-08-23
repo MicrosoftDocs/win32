@@ -4,19 +4,22 @@ ms.assetid: e314a51f-4016-4819-a95d-d91864a54b2e
 title: ID3DXMATRIXStack::LoadIdentity method (D3dx9math.h)
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - ID3DXMATRIXStack.LoadIdentity
-api_type: 
+api_type:
 - COM
-api_location: 
+api_location:
 - d3dx9.lib
 - d3dx9.dll
 ---
 
 # ID3DXMATRIXStack::LoadIdentity method (D3dx9math.h)
+
+> [!Note]
+> The D3DX utility library is deprecated. We recommend that you use [DirectXMath](../dxmath/directxmath-portal.md) instead along with this header from [GitHub](https://github.com/microsoft/DirectXMath/tree/main/MatrixStack).
 
 Loads identity in the current matrix.
 
@@ -67,7 +70,3 @@ The identity matrix is a matrix in which all coefficients are 0.0 except the \[1
  
 
  
-
-
-
-

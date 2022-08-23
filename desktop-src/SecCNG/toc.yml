@@ -210,6 +210,8 @@
     - name: "CNG Key Storage Functions"
       href: cng-key-storage-functions.md
       items: 
+      - name: "GetKeyStorageInterface"
+        href: ./ncrypt/nf-ncrypt-getkeystorageinterface.md
       - name: "NCryptCreateClaim"
         href: /windows/desktop/api/ncrypt/nf-ncrypt-ncryptcreateclaim
       - name: "NCryptCreatePersistedKey"

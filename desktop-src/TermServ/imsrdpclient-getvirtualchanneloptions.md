@@ -76,7 +76,7 @@ The name of a virtual channel that was specified in the call to [**CreateVirtual
 *pChanOptions* \[out\]
 </dt> <dd>
 
-The options set for the virtual channel specified by the *ChanName* parameter. For a description of possible options, see [**CHANNEL\_DEF**](/windows/desktop/api/Pchannel/ns-pchannel-tagchannel_def).
+The options set for the virtual channel specified by the *ChanName* parameter. For a description of possible options, see [**CHANNEL\_DEF**](/previous-versions/windows/embedded/aa513856(v=msdn.10)).
 
 </dd> </dl>
 
@@ -136,7 +136,7 @@ For more information about Remote Desktop Web Connection, see [Requirements for 
 [**IMsRdpClient10**](imsrdpclient10.md)
 </dt> <dt>
 
-[**CHANNEL\_DEF**](/windows/desktop/api/Pchannel/ns-pchannel-tagchannel_def)
+[**CHANNEL\_DEF**](/previous-versions/windows/embedded/aa513856(v=msdn.10))
 </dt> <dt>
 
 [**CreateVirtualChannels**](imstscax-createvirtualchannels.md)

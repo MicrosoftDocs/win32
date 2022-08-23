@@ -66,7 +66,7 @@ BOOL FetchComputedValue(int *piResult)
 }
 ```
 
-This race condition above can be repaired by using the **volatile** keyword or the [**InterlockedExchange**](/windows/desktop/api/winnt/nf-winnt-interlockedexchange.md) function to ensure that the value of `iValue` is updated for all processors before the value of `fValueHasBeenComputed` is set to **TRUE**.
+This race condition above can be repaired by using the **volatile** keyword or the [**InterlockedExchange**](/windows/win32/api/winnt/nf-winnt-interlockedexchange) function to ensure that the value of `iValue` is updated for all processors before the value of `fValueHasBeenComputed` is set to **TRUE**.
 
 Starting Visual Studio 2005, if compiled in **/volatile:ms** mode, the compiler uses acquire semantics for read operations on **volatile** variables and release semantics for write operations on **volatile** variables (when supported by the CPU). Therefore, you can correct the example as follows:
 

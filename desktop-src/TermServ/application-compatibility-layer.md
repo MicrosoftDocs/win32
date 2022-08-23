@@ -13,7 +13,7 @@ To run legacy applications in a Remote Desktop Services environment you can use 
 
 If your application is Remote Desktop Services aware, you can avoid the overhead of loading this extra DLL and running the compatibility code.
 
-To indicate that your application is Remote Desktop Services aware, set the **IMAGE\_DLLCHARACTERISTICS\_TERMINAL\_SERVER\_AWARE** flag in the optional header. If you are using the linker that ships with Microsoft Visual C++, you can use the **TSAWARE** linker option to set this flag. The **DUMPBIN** tool that ships with Microsoft Visual C++ provides the */HEADERS* option to determine the state of the **TSAWARE** flag. For more information about using the **DUMPBIN** tool, see [DUMPBIN Reference](/cpp/build/reference/dumpbin-reference?view=vs-2019).
+To indicate that your application is Remote Desktop Services aware, set the **IMAGE\_DLLCHARACTERISTICS\_TERMINAL\_SERVER\_AWARE** flag in the optional header. If you are using the linker that ships with Microsoft Visual C++, you can use the **TSAWARE** linker option to set this flag. The **DUMPBIN** tool that ships with Microsoft Visual C++ provides the */HEADERS* option to determine the state of the **TSAWARE** flag. For more information about using the **DUMPBIN** tool, see [DUMPBIN Reference](/cpp/build/reference/dumpbin-reference).
 
 Be careful when you use the **TSAWARE** flag because it enables your application to bypass any Remote Desktop Services compatibility optimizations. The **TSAWARE** flag should only be used if you are certain that your application is designed for the Remote Desktop Services environment. If your application meets the following criteria, you can safely use the **IMAGE\_DLLCHARACTERISTICS\_TERMINAL\_SERVER\_AWARE** flag.
 
