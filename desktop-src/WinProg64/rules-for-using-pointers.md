@@ -81,7 +81,7 @@ Porting your code to compile for both 32- and 64-bit Microsoft Windows is straig
 
     -   GWL\_WNDPROC
     -   GWL\_HINSTANCE
-    -   GWL\_HWDPARENT
+    -   GWL\_HWNDPARENT
     -   GWL\_USERDATA
 
     Instead, Winuser.h defines the following new indexes:
