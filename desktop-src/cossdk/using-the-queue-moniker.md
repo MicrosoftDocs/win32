@@ -32,7 +32,7 @@ The GetObject display name parameter is "queue:/new:", followed by the program I
 
 ## C/C++
 
-The [**CoGetObject**](https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-cogetobject) display name parameter is "queue:/new:", followed by the program ID or string-form GUID, with or without braces, of the server object to be instantiated. The following examples show three valid activations of a component with the queue moniker:
+The [**CoGetObject**](/windows/win32/api/objbase/nf-objbase-cogetobject) display name parameter is "queue:/new:", followed by the program ID or string-form GUID, with or without braces, of the server object to be instantiated. The following examples show three valid activations of a component with the queue moniker:
 
 1.  ``` syntax
     hr = CoGetObject (
@@ -124,11 +124,3 @@ The complete set of COM+ Administrative SDK functions is available by using COM 
 
 [Activating Component Queues](activating-component-queues.md)
 </dt> </dl>
-
- 
-
- 
-
-
-
-
