@@ -1628,6 +1628,8 @@
   - name: "Windows Secure Mode Policy"
     href: windows-lockdown-policy.md
     items: 
+    - name: "WLDP host GUIDs"
+      href: wldp-host-fuids.md
     - name: "WLDP_HOST_ID"
       href: wldp-host-id.md
     - name: "WLDP_HOST_INFORMATION"
