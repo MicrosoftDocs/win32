@@ -1629,7 +1629,7 @@
     href: windows-lockdown-policy.md
     items: 
     - name: "WLDP host GUIDs"
-      href: wldp-host-fuids.md
+      href: wldp-host-guids.md
     - name: "WLDP_HOST_ID"
       href: wldp-host-id.md
     - name: "WLDP_HOST_INFORMATION"
