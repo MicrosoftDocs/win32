@@ -88,7 +88,7 @@ In summary, be careful to use aligned memory blocks when copying regions that co
 
 ## Compression Algorithms
 
-Block compression techniques in Direct3D break up uncompressed texture data into 4×4 blocks, compress each block, and then store the data. For this reason, textures are expected to be compressed must have texture dimensions that are multiples of 4.
+Block compression techniques in Direct3D break up uncompressed texture data into 4×4 blocks, compress each block, and then store the data. For this reason, textures that are expected to be compressed must have texture dimensions that are multiples of 4.
 
 ![diagram of block compression](images/d3d10-compression-1.png)
 
