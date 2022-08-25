@@ -10,7 +10,7 @@ ms.date: 08/22/2022
 
 The native WebAuthN API includes the following constants.
 
-| Constant & Value | Description |
+| Constant & value | Description |
 |--------|--------|
 | WEBAUTHN_API_VERSION_1 (1)<br/>WEBAUTHN_API_VERSION_2 (2)<br/>WEBAUTHN_API_VERSION_3 (3)<br/>WEBAUTHN_API_VERSION_4 (4) | API Version Information. Caller should check for [WebAuthNGetApiVersionNumber](nf-webauthn-webauthngetapiversionnumber.md) to check the presence of relevant APIs and features for their usage. |
 | WEBAUTHN_API_CURRENT_VERSION (WEBAUTHN_API_VERSION_4) | The current API version. |
