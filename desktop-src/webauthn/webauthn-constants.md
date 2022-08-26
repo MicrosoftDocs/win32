@@ -1,0 +1,69 @@
+---
+description: The native WebAuthN API (webauthn.h) includes the following constants.
+ms.assetid: e59eca78-b20a-4173-a7ef-7d2539dadd84
+title: WebAuthN constants
+ms.topic: article
+ms.date: 08/22/2022
+---
+
+# WebAuthN constants
+
+The native WebAuthN API includes the following constants.
+
+| Constant & value | Description |
+|--------|--------|
+| WEBAUTHN_API_VERSION_1 (1)<br/>WEBAUTHN_API_VERSION_2 (2)<br/>WEBAUTHN_API_VERSION_3 (3)<br/>WEBAUTHN_API_VERSION_4 (4) | API Version Information. Caller should check for [WebAuthNGetApiVersionNumber](nf-webauthn-webauthngetapiversionnumber.md) to check the presence of relevant APIs and features for their usage. |
+| WEBAUTHN_API_CURRENT_VERSION (WEBAUTHN_API_VERSION_4) | The current API version. |
+| WEBAUTHN_RP_ENTITY_INFORMATION_CURRENT_VERSION (1) | The current version of the [WEBAUTHN_RP_ENTITY_INFORMATION](ns-webauthn-webauthn_rp_entity_information.md) structure. |
+| WEBAUTHN_MAX_USER_ID_LENGTH (64) | The max length, in bytes, of a user entity's ID. |
+| WEBAUTHN_USER_ENTITY_INFORMATION_CURRENT_VERSION (1) | The current version of the [WEBAUTHN_USER_ENTITY_INFORMATION](ns-webauthn-webauthn_user_entity_information.md) structure. |
+| WEBAUTHN_HASH_ALGORITHM_SHA_256 ("SHA-256")<br/>WEBAUTHN_HASH_ALGORITHM_SHA_384 ("SHA-384")<br/>WEBAUTHN_HASH_ALGORITHM_SHA_512 ("SHA-512") | The hash algorithm ID used to hash the client data. |
+| WEBAUTHN_CLIENT_DATA_CURRENT_VERSION (1) | Version of the [WEBAUTHN_CLIENT_DATA](ns-webauthn-webauthn_client_data.md) structure, to allow for modifications in the future. |
+| WEBAUTHN_CREDENTIAL_TYPE_PUBLIC_KEY ("public-key") | Well-known credential type specifying a credential to create. |
+| WEBAUTHN_COSE_ALGORITHM_ECDSA_P256_WITH_SHA256 (-7)<br/>WEBAUTHN_COSE_ALGORITHM_ECDSA_P384_WITH_SHA384 (-35)<br/>WEBAUTHN_COSE_ALGORITHM_ECDSA_P521_WITH_SHA512 (-36)<br/>WEBAUTHN_COSE_ALGORITHM_RSASSA_PKCS1_V1_5_WITH_SHA256 (-257)<br/>WEBAUTHN_COSE_ALGORITHM_RSASSA_PKCS1_V1_5_WITH_SHA384 (-258)<br/>WEBAUTHN_COSE_ALGORITHM_RSASSA_PKCS1_V1_5_WITH_SHA512 (-259)<br/>WEBAUTHN_COSE_ALGORITHM_RSA_PSS_WITH_SHA256 (-37)<br/>WEBAUTHN_COSE_ALGORITHM_RSA_PSS_WITH_SHA384 (-38)<br/>WEBAUTHN_COSE_ALGORITHM_RSA_PSS_WITH_SHA512 (-39) | Well-known COSE algorithm specifying the algorithm to use for the credential. |
+| WEBAUTHN_COSE_CREDENTIAL_PARAMETER_CURRENT_VERSION (1) | The current version of the [WEBAUTHN_COSE_CREDENTIAL_PARAMETER](ns-webauthn-webauthn_cose_credential_parameter.md) structure, to allow for modifications in the future. |
+| WEBAUTHN_CREDENTIAL_CURRENT_VERSION (1) | The current version of the [WEBAUTHN_CREDENTIAL](ns-webauthn-webauthn_credential.md) structure, to allow for modifications in the future. |
+| WEBAUTHN_CTAP_TRANSPORT_USB (0x00000001)<br/>WEBAUTHN_CTAP_TRANSPORT_NFC (0x00000002)<br/>WEBAUTHN_CTAP_TRANSPORT_BLE (0x00000004)<br/>WEBAUTHN_CTAP_TRANSPORT_TEST (0x00000008)<br/>WEBAUTHN_CTAP_TRANSPORT_INTERNAL (0x00000010)<br/>WEBAUTHN_CTAP_TRANSPORT_FLAGS_MASK (0x0000001F) | Credential transports. `0` implies no transport restrictions. |
+| WEBAUTHN_CREDENTIAL_EX_CURRENT_VERSION (1) | The current version of the [WEBAUTHN_CREDENTIAL_EX](ns-webauthn-webauthn_credential_ex.md) structure, to allow for modifications in the future. |
+| WEBAUTHN_CREDENTIAL_DETAILS_VERSION_1 (1) | The version of the [WEBAUTHN_CREDENTIAL_DETAILS](ns-webauthn-webauthn_credential_details.md) structure, to allow for modifications in the future. |
+| WEBAUTHN_CREDENTIAL_DETAILS_CURRENT_VERSION (WEBAUTHN_CREDENTIAL_DETAILS_VERSION_1) | The current version of the [WEBAUTHN_CREDENTIAL_DETAILS](ns-webauthn-webauthn_credential_details.md) structure, to allow for modifications in the future. |
+| WEBAUTHN_GET_CREDENTIALS_OPTIONS_VERSION_1 (1) | The version of the [WEBAUTHN_GET_CREDENTIALS_OPTIONS](ns-webauthn-webauthn_get_credentials_options.md) structure, to allow for modifications in the future. |
+| WEBAUTHN_GET_CREDENTIALS_OPTIONS_CURRENT_VERSION (WEBAUTHN_GET_CREDENTIALS_OPTIONS_VERSION_1) | The current version of the [WEBAUTHN_GET_CREDENTIALS_OPTIONS](ns-webauthn-webauthn_get_credentials_options.md) structure, to allow for modifications in the future. |
+| WEBAUTHN_CTAP_ONE_HMAC_SECRET_LENGTH (32) | If caller wants to provide RAW Hmac-Secret SALT values directly in [WEBAUTHN_HMAC_SECRET_SALT](./ns-webauthn-webauthn_hmac_secret_salt.md) structure, values provided must be of this size. |
+| WEBAUTHN_EXTENSIONS_IDENTIFIER_HMAC_SECRET ("hmac-secret") | MakeCredential Input Type: BOOL.<ul><li>pvExtension must point to a BOOL with the value TRUE.</li><li>cbExtension must contain the sizeof(BOOL).</li></ul>MakeCredential Output Type: BOOL.<ul><li>pvExtension will point to a BOOL with the value TRUE if credential was successfully created with HMAC_SECRET.</li><li>cbExtension will contain the sizeof(BOOL).</li></ul>GetAssertion Input Type: Not Supported<br/>GetAssertion Output Type: Not Supported |
+| WEBAUTHN_USER_VERIFICATION_ANY (0)<br/>WEBAUTHN_USER_VERIFICATION_OPTIONAL (1)<br/>WEBAUTHN_USER_VERIFICATION_OPTIONAL_WITH_CREDENTIAL_ID_LIST (2)<br/>WEBAUTHN_USER_VERIFICATION_REQUIRED (3) | User verification option for credential protection in the [WEBAUTHN_CRED_PROTECT_EXTENSION_IN](ns-webauthn-webauthn_cred_protect_extension_in.md) structure. |
+| WEBAUTHN_EXTENSIONS_IDENTIFIER_CRED_PROTECT ("credProtect") | MakeCredential Input Type: WEBAUTHN_CRED_PROTECT_EXTENSION_IN.<ul><li>pvExtension must point to a WEBAUTHN_CRED_PROTECT_EXTENSION_IN struct</li><li>cbExtension will contain the sizeof(WEBAUTHN_CRED_PROTECT_EXTENSION_IN).</li></ul>MakeCredential Output Type:  DWORD.<ul><li>pvExtension will point to a DWORD with one of the above WEBAUTHN_USER_VERIFICATION_* values if credential was successfully created with CRED_PROTECT.</li><li>cbExtension will contain the sizeof(DWORD).</li></ul>GetAssertion Input Type: Not Supported<br/>GetAssertion Output Type: Not Supported |
+| WEBAUTHN_EXTENSIONS_IDENTIFIER_CRED_BLOB ("credBlob") | MakeCredential Input Type:   WEBAUTHN_CRED_BLOB_EXTENSION.<ul><li>pvExtension must point to a WEBAUTHN_CRED_BLOB_EXTENSION struct</li><li>cbExtension must contain the sizeof(WEBAUTHN_CRED_BLOB_EXTENSION).</li></ul>MakeCredential Output Type:  BOOL.<ul><li>pvExtension will point to a BOOL with the value TRUE if credBlob was successfully created</li><li>cbExtension will contain the sizeof(BOOL).</li></ul>GetAssertion Input Type: BOOL.<ul><li>pvExtension must point to a BOOL with the value TRUE to request the credBlob.</li><li>cbExtension must contain the sizeof(BOOL).</li></ul>GetAssertion Output Type: WEBAUTHN_CRED_BLOB_EXTENSION.<ul><li>pvExtension will point to a WEBAUTHN_CRED_BLOB_EXTENSION struct if the authenticator returns the credBlob in the signed extensions.</li><li>cbExtension will contain the sizeof(WEBAUTHN_CRED_BLOB_EXTENSION).</li></ul> |
+| WEBAUTHN_EXTENSIONS_IDENTIFIER_MIN_PIN_LENGTH ("minPinLength") | MakeCredential Input Type: BOOL.<ul><li>pvExtension must point to a BOOL with the value TRUE to request the minPinLength.</li><li>cbExtension must contain the sizeof(BOOL).</li></ul>MakeCredential Output Type: DWORD.<ul><li>pvExtension will point to a DWORD with the minimum pin length if returned by the authenticator.</li><li>cbExtension will contain the sizeof(DWORD).</li></ul>GetAssertion Input Type: Not Supported<br/>GetAssertion Output Type: Not Supported |
+| WEBAUTHN_AUTHENTICATOR_ATTACHMENT_ANY (0)<br/>WEBAUTHN_AUTHENTICATOR_ATTACHMENT_PLATFORM (1)<br/>WEBAUTHN_AUTHENTICATOR_ATTACHMENT_CROSS_PLATFORM (2)<br/>WEBAUTHN_AUTHENTICATOR_ATTACHMENT_CROSS_PLATFORM_U2F_V2 (3) | Platform vs cross-platform authenticator options. |
+| WEBAUTHN_USER_VERIFICATION_REQUIREMENT_ANY (0)<br/>WEBAUTHN_USER_VERIFICATION_REQUIREMENT_REQUIRED (1)<br/>WEBAUTHN_USER_VERIFICATION_REQUIREMENT_PREFERRED (2)<br/>WEBAUTHN_USER_VERIFICATION_REQUIREMENT_DISCOURAGED (3) | Options for the user verification requirement. |
+| WEBAUTHN_ATTESTATION_CONVEYANCE_PREFERENCE_ANY (0)<br/>WEBAUTHN_ATTESTATION_CONVEYANCE_PREFERENCE_NONE (1)<br/>WEBAUTHN_ATTESTATION_CONVEYANCE_PREFERENCE_DIRECT (2)<br/>WEBAUTHN_ATTESTATION_CONVEYANCE_PREFERENCE_INDIRECT (3) | Attestation conveyance preference options. |
+| WEBAUTHN_ENTERPRISE_ATTESTATION_NONE (0)<br/>WEBAUTHN_ENTERPRISE_ATTESTATION_VENDOR_FACILITATED (1)<br/>WEBAUTHN_ENTERPRISE_ATTESTATION_PLATFORM_MANAGED (2) | Enterprise attestation options. |
+| WEBAUTHN_LARGE_BLOB_SUPPORT_NONE (0)<br/>WEBAUTHN_LARGE_BLOB_SUPPORT_REQUIRED (1)<br/>WEBAUTHN_LARGE_BLOB_SUPPORT_PREFERRED (2) | Large blob support options. |
+| WEBAUTHN_AUTHENTICATOR_MAKE_CREDENTIAL_OPTIONS_VERSION_1 (1)<br/>WEBAUTHN_AUTHENTICATOR_MAKE_CREDENTIAL_OPTIONS_VERSION_2 (2)<br/>WEBAUTHN_AUTHENTICATOR_MAKE_CREDENTIAL_OPTIONS_VERSION_3 (3)<br/>WEBAUTHN_AUTHENTICATOR_MAKE_CREDENTIAL_OPTIONS_VERSION_4 (4)<br/>WEBAUTHN_AUTHENTICATOR_MAKE_CREDENTIAL_OPTIONS_VERSION_5 (5) | The version of the [WEBAUTHN_AUTHENTICATOR_MAKE_CREDENTIAL_OPTIONS](ns-webauthn-webauthn_authenticator_make_credential_options.md) structure, to allow for modifications in the future. |
+| WEBAUTHN_AUTHENTICATOR_MAKE_CREDENTIAL_OPTIONS_CURRENT_VERSION (WEBAUTHN_AUTHENTICATOR_MAKE_CREDENTIAL_OPTIONS_VERSION_5) | The current version of the [WEBAUTHN_AUTHENTICATOR_MAKE_CREDENTIAL_OPTIONS](ns-webauthn-webauthn_authenticator_make_credential_options.md) structure. |
+| WEBAUTHN_CRED_LARGE_BLOB_OPERATION_NONE (0)<br/>WEBAUTHN_CRED_LARGE_BLOB_OPERATION_GET (1)<br/>WEBAUTHN_CRED_LARGE_BLOB_OPERATION_SET (2)<br/>WEBAUTHN_CRED_LARGE_BLOB_OPERATION_DELETE (3) | The operation to perform on the large blob. |
+| WEBAUTHN_AUTHENTICATOR_GET_ASSERTION_OPTIONS_VERSION_1 (1)<br/>WEBAUTHN_AUTHENTICATOR_GET_ASSERTION_OPTIONS_VERSION_2 (2)<br/>WEBAUTHN_AUTHENTICATOR_GET_ASSERTION_OPTIONS_VERSION_3 (3)<br/>WEBAUTHN_AUTHENTICATOR_GET_ASSERTION_OPTIONS_VERSION_4 (4)<br/>WEBAUTHN_AUTHENTICATOR_GET_ASSERTION_OPTIONS_VERSION_5 (5)<br/>WEBAUTHN_AUTHENTICATOR_GET_ASSERTION_OPTIONS_VERSION_6 (6) | The version of the [WEBAUTHN_AUTHENTICATOR_GET_ASSERTION_OPTIONS](ns-webauthn-webauthn_authenticator_get_assertion_options.md) structure, to allow for modifications in the future. |
+| WEBAUTHN_AUTHENTICATOR_GET_ASSERTION_OPTIONS_CURRENT_VERSION (WEBAUTHN_AUTHENTICATOR_GET_ASSERTION_OPTIONS_VERSION_6) | The current version of the [WEBAUTHN_AUTHENTICATOR_GET_ASSERTION_OPTIONS](ns-webauthn-webauthn_authenticator_get_assertion_options.md) structure. |
+| WEBAUTHN_AUTHENTICATOR_HMAC_SECRET_VALUES_FLAG (0x00100000) | Flag for the `dwFlags` field in the [WEBAUTHN_AUTHENTICATOR_GET_ASSERTION_OPTIONS](ns-webauthn-webauthn_authenticator_get_assertion_options.md) structure. |
+| WEBAUTHN_ATTESTATION_DECODE_NONE (0)<br/>WEBAUTHN_ATTESTATION_DECODE_COMMON (1) | WEBAUTHN_ATTESTATION_DECODE_COMMON supports format types:<ul><li>"packed"</li><li>"fido-u2f"</li></ul> |
+| WEBAUTHN_ATTESTATION_VER_TPM_2_0 ("2.0") | The TPM version to use with the attestation. |
+| WEBAUTHN_COMMON_ATTESTATION_CURRENT_VERSION (1) | The version of the [WEBAUTHN_COMMON_ATTESTATION](ns-webauthn-webauthn_common_attestation.md) structure, to allow for modifications in the future. **Note, new fields will be added to the following data structure to support additional attestation format types, such as, TPM. When fields are added, the version will be incremented.** |
+| WEBAUTHN_ATTESTATION_TYPE_PACKED ("packed")<br/>WEBAUTHN_ATTESTATION_TYPE_U2F ("fido-u2f")<br/>WEBAUTHN_ATTESTATION_TYPE_TPM ("tpm")<br/>WEBAUTHN_ATTESTATION_TYPE_NONE ("none") | The attestation format type. |
+| WEBAUTHN_CREDENTIAL_ATTESTATION_VERSION_1 (1)<br/>WEBAUTHN_CREDENTIAL_ATTESTATION_VERSION_2 (2)<br/>WEBAUTHN_CREDENTIAL_ATTESTATION_VERSION_3 (3)<br/>WEBAUTHN_CREDENTIAL_ATTESTATION_VERSION_4 (4) | The version of the [WEBAUTHN_CREDENTIAL_ATTESTATION](ns-webauthn-webauthn_credential_attestation.md) structure, to allow for modifications in the future. |
+| WEBAUTHN_CREDENTIAL_ATTESTATION_CURRENT_VERSION (WEBAUTHN_CREDENTIAL_ATTESTATION_VERSION_4) | The current version of the [WEBAUTHN_CREDENTIAL_ATTESTATION](ns-webauthn-webauthn_credential_attestation.md) structure. |
+| WEBAUTHN_CRED_LARGE_BLOB_STATUS_NONE (0)<br/>WEBAUTHN_CRED_LARGE_BLOB_STATUS_SUCCESS (1)<br/>WEBAUTHN_CRED_LARGE_BLOB_STATUS_NOT_SUPPORTED (2)<br/>WEBAUTHN_CRED_LARGE_BLOB_STATUS_INVALID_DATA (3)<br/>WEBAUTHN_CRED_LARGE_BLOB_STATUS_INVALID_PARAMETER (4)<br/>WEBAUTHN_CRED_LARGE_BLOB_STATUS_NOT_FOUND (5)<br/>WEBAUTHN_CRED_LARGE_BLOB_STATUS_MULTIPLE_CREDENTIALS (6)<br/>WEBAUTHN_CRED_LARGE_BLOB_STATUS_LACK_OF_SPACE (7)<br/>WEBAUTHN_CRED_LARGE_BLOB_STATUS_PLATFORM_ERROR (8)<br/>WEBAUTHN_CRED_LARGE_BLOB_STATUS_AUTHENTICATOR_ERROR (9) | The status of the large blob operation. |
+| WEBAUTHN_ASSERTION_VERSION_1 (1)<br/>WEBAUTHN_ASSERTION_VERSION_2 (2)<br/>WEBAUTHN_ASSERTION_VERSION_3 (3) | The version of the [WEBAUTHN_ASSERTION](ns-webauthn-webauthn_assertion.md) structure, to allow for modifications in the future. |
+| WEBAUTHN_ASSERTION_CURRENT_VERSION (WEBAUTHN_ASSERTION_VERSION_3) | The current version of the [WEBAUTHN_ASSERTION](ns-webauthn-webauthn_assertion.md) structure. |
+
+## Requirements
+
+| Requirement | Value |
+|--------|--------|
+| Header | webauthn.h |
+
+## See also
+
+[WebAuthN functions](./webauthn-functions.md)
+
+[WebAuthN structures](./webauthn-structures.md)
