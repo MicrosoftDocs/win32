@@ -48,6 +48,18 @@ The high-order word specifies the vertical resolution of the screen.
 
 This message is only sent to top-level windows. For all other windows it is posted.
 
+**BEGIN**
+
+If the user has a single display system, the above is perfectly clear. On multiple-monitor systems, I think the behavior isn't described well enough here to be usable without lots of time-consuming experimentation:
+
+If the Windows virtual desktop is composed of MULTIPLE displays, then this message is (surely) generated whenever there is a mode change to ANY of the displays that make up (_extend_) the Windows virtual desktop?
+
+(it's also worth mentioning what happens when the primary display is being _duplicated_ by another display)
+
+...but the information in this message only provides updated **width**, **height** and **bpp** info. It says nothing about _which_ display changed on a multi-display system. Since this message is broadcast to all top-level windows, one wonders whether it's necessary to position an invisible, top-level window _on each monitor_ in order to be able to distinguish which display has changed? But since there's never been any mention of "on monitor X" when other docs refer to "top-level windows", I assume it _doesn't_/_can't_ work that way.
+
+**END**
+
 ## Requirements
 
 
