@@ -1630,24 +1630,34 @@
     items: 
     - name: "WLDP host GUIDs"
       href: wldp-host-guids.md
+    - name: "WLDP_EXECUTION_EVALUATION_OPTIONS"
+      href: /windows/win32/api/wldp/ne-wldp-wldp_execution_evaluation_options
+    - name: "WLDP_EXECUTION_POLICY"
+      href: /windows/win32/api/wldp/ne-wldp-wldp_execution_policy
     - name: "WLDP_HOST_ID"
-      href: wldp-host-id.md
+      href: /windows/win32/api/wldp/ne-wldp-wldp_host_id
     - name: "WLDP_HOST_INFORMATION"
-      href: wldp-host-information.md
+      href: /windows/win32/api/wldp/ns-wldp-wldp_host_information
     - name: "WLDP_WINDOWS_LOCKDOWN_MODE"
-      href: wldp-windows-lockdown-mode.md
-    - name: "WldpIsDynamicCodePolicyEnabled"
-      href: wldpisdynamiccodepolicyenabled.md
-    - name: "WlpdIsClassInApprovedList"
-      href: wldpisclassinapprovedlist.md
+      href: /windows/win32/api/wldp/ne-wldp-wldp_windows_lockdown_mode
+    - name: "WldpCanExecuteBuffer"
+      href: /windows/win32/api/wldp/nf-wldp-wldpcanexecutebuffer
+    - name: "WldpCanExecuteFile"
+      href: /windows/win32/api/wldp/nf-wldp-wldpcanexecutefile
+    - name: "WldpCanExecuteStream"
+      href: /windows/win32/api/wldp/nf-wldp-wldpcanexecutestream
     - name: "WlpdGetLockdownPolicy"
-      href: wlpdgetlockdownpolicy.md
+      href: /windows/win32/api/wldp/nf-wldp-wldpgetlockdownpolicy
+    - name: "WlpdIsClassInApprovedList"
+      href: /windows/win32/api/wldp/nf-wldp-wldpisclassinapprovedlist
+    - name: "WldpIsDynamicCodePolicyEnabled"
+      href: /windows/win32/api/wldp/nf-wldp-wldpisdynamiccodepolicyenabled
     - name: "WldpQueryDynamicCodeTrust"
-      href: wldpquerydynamiccodetrust.md
+      href: /windows/win32/api/wldp/nf-wldp-wldpquerydynamiccodetrust
     - name: "WldpQueryWindowsLockdownMode"
-      href: wldpquerywindowslockdownmode.md
+      href: /windows/win32/api/wldp/nf-wldp-wldpquerywindowslockdownmode
     - name: "WldpSetDynamicCodeTrust"
-      href: wldpsetdynamiccodetrust.md
+      href: /windows/win32/api/wldp/nf-wldp-wldpsetdynamiccodetrust
   - name: "Word Breaker"
     href: word-breaker.md
     items: 
