@@ -42649,6 +42649,52 @@
       "source_path": "desktop-src/hba/index.md",
       "redirect_url": "/windows/win32/hba/hba-portal",
       "redirect_document_id": false
+},
+{
+      "source_path": "desktop-src/devnotes/wldp-host-id.md",
+      "redirect_url": "/windows/win32/api/wldp/ne-wldp-wldp_host_id",
+      "redirect_document_id": false
+},
+{
+      "source_path": "desktop-src/devnotes/wldp-host-information.md",
+      "redirect_url": "/windows/win32/api/wldp/ns-wldp-wldp_host_information",
+      "redirect_document_id": false
+},
+{
+      "source_path": "desktop-src/devnotes/wldp-windows-lockdown-mode.md",
+      "redirect_url": "/windows/win32/api/wldp/ne-wldp-wldp_windows_lockdown_mode",
+      "redirect_document_id": false
+},
+{
+      "source_path": "desktop-src/devnotes/wldpisdynamiccodepolicyenabled.md",
+      "redirect_url": "/windows/win32/api/wldp/nf-wldp-wldpisdynamiccodepolicyenabled",
+      "redirect_document_id": false
+},
+{
+      "source_path": "desktop-src/devnotes/wldpisclassinapprovedlist.md",
+      "redirect_url": "/windows/win32/api/wldp/nf-wldp-wldpisclassinapprovedlist",
+      "redirect_document_id": false
+},
+{
+      "source_path": "desktop-src/devnotes/wlpdgetlockdownpolicy.md",
+      "redirect_url": "/windows/win32/api/wldp/nf-wldp-wldpgetlockdownpolicy",
+      "redirect_document_id": false
+},
+{
+      "source_path": "desktop-src/devnotes/wldpquerydynamiccodetrust.md",
+      "redirect_url": "/windows/win32/api/wldp/nf-wldp-wldpsetdynamiccodetrust",
+      "redirect_document_id": false
+},
+{
+      "source_path": "desktop-src/devnotes/wldpquerywindowslockdownmode.md",
+      "redirect_url": "/windows/win32/api/wldp/nf-wldp-wldpquerywindowslockdownmode",
+      "redirect_document_id": false
+},
+{
+      "source_path": "desktop-src/devnotes/wldpsetdynamiccodetrust.md",
+      "redirect_url": "/windows/win32/api/wldp/nf-wldp-wldpsetdynamiccodetrust",
+      "redirect_document_id": false
 }
+
   ]
 }
