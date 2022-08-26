@@ -10,7 +10,13 @@ ms.date: 05/31/2018
 
 ## In this section
 
+-   [WLDP host GUIDs](wldp-host-guids.md)
+-   [**WLDP\_EXECUTION\_EVALUATION\_OPTIONS**](/windows/win32/api/wldp/ne-wldp-wldp_execution_evaluation_options)
+-   [WLDP_EXECUTION_POLICY](/windows/win32/api/wldp/ne-wldp-wldp_execution_policy)
 -   [**WLDP\_HOST\_ID**](wldp-host-id.md)
+-   [**WldpCanExecuteBuffer**](/windows/win32/api/wldp/nf-wldp-wldpcanexecutebuffer)
+-   [**WldpCanExecuteFiler**](/windows/win32/api/wldp/nf-wldp-wldpcanexecutefile)
+-   [**WldpCanExecuteStream**](/windows/win32/api/wldp/nf-wldp-wldpcanexecutestream)
 -   [**WLDP\_HOST\_INFORMATION**](wldp-host-information.md)
 -   [**WLDP\_WINDOWS\_LOCKDOWN\_MODE**](wldp-windows-lockdown-mode.md)
 -   [**WldpIsDynamicCodePolicyEnabled**](wldpisdynamiccodepolicyenabled.md)
@@ -20,7 +26,8 @@ ms.date: 05/31/2018
 -   [**WldpQueryWindowsLockdownMode**](wldpquerywindowslockdownmode.md)
 -   [**WldpSetDynamicCodeTrust**](wldpsetdynamiccodetrust.md)
 
- 
+
+
 
  
 
