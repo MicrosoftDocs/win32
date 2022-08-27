@@ -151,7 +151,7 @@ Calling functions that require DLLs other than Kernel32.dll may result in proble
 
 Because DLL notifications are serialized, entry-point functions should not attempt to communicate with other threads or processes. Deadlocks may occur as a result.
 
-For information on best practices when writing a DLL, see https://docs.microsoft.com/windows/win32/dlls/dynamic-link-library-best-practices.
+For information on best practices when writing a DLL, see [Dynamic-link library best practices](/windows/win32/dlls/dynamic-link-library-best-practices).
 
 If your DLL is linked with the C run-time library (CRT), the entry point provided by the CRT calls the constructors and destructors for global and static C++ objects. Therefore, these restrictions for *DllMain* also apply to constructors and destructors and any code that is called from them.
 
