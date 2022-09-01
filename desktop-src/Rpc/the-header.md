@@ -56,7 +56,7 @@ The **HasNewCorrDesc** member indicates whether new correlation descriptors are 
 
 The **HasNotify** and **HasNotify2** flags indicate that the routine uses the notify feature as defined by the **\[notify\]** and **\[notify\_flag\]** attributes, respectively.
 
-The **ClientCorrCheck** member is a cache size hint on the client side and **ServerCorrCheck** is a hint on the server side. When the size comes out as zero, a default size should be used.
+The **ClientCorrHint** member is a cache size hint on the client side and **ServerCorrHint** is a hint on the server side. When the size comes out as zero, a default size should be used.
 
 The **NotifyIndex** element is an index to a notify routine, if one is used.
 
