@@ -303,6 +303,10 @@
             href: ./dxcore/dxcore.md
           - name: "DirectWrite"
             href: ./directwrite/direct-write-portal.md
+          - name: "DirectStorage"
+            items: 
+            - name: "Overview"
+              href: ./dstorage/dstorage-portal.md
           - name: "DirectXMath"
             href: ./dxmath/directxmath-portal.md
           - name: "windowsnumerics.h APIs"
