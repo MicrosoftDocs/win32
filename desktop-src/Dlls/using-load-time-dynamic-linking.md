@@ -16,7 +16,7 @@ Because this example calls the DLL function explicitly, the module for the appli
 ```C++
 #include <windows.h> 
 
-extern "C" int __cdecl myPuts(LPWSTR);   // a function from a DLL
+extern "C" int __cdecl myPuts(LPCWSTR);   // a function from a DLL
 
 int main(VOID) 
 { 
