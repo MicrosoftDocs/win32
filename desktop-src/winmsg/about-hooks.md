@@ -136,7 +136,7 @@ For more information, see the [*GetMsgProc*](/previous-versions/windows/desktop/
 ### WH\_JOURNALPLAYBACK
 
 > [!WARNING]
-> Journaling Hooks APIs are unsupported starting in Windows 11 and will be removed in a future release. Because of this, we highly recommend calling the [**SendInput**](https://docs.microsoft.com/windows/win32/api/winuser/nf-winuser-sendinput) TextInput API instead.
+> Journaling Hooks APIs are unsupported starting in Windows 11 and will be removed in a future release. Because of this, we highly recommend calling the [**SendInput**](/windows/win32/api/winuser/nf-winuser-sendinput) TextInput API instead.
 
 The **WH\_JOURNALPLAYBACK** hook enables an application to insert messages into the system message queue. You can use this hook to play back a series of mouse and keyboard events recorded earlier by using [WH\_JOURNALRECORD](#wh_journalrecord). Regular mouse and keyboard input is disabled as long as a **WH\_JOURNALPLAYBACK** hook is installed. A **WH\_JOURNALPLAYBACK** hook is a global hook—it cannot be used as a thread-specific hook.
 
@@ -147,7 +147,7 @@ For more information, see the [*JournalPlaybackProc*](/previous-versions/windows
 ### WH\_JOURNALRECORD
 
 > [!WARNING]
-> Journaling Hooks APIs are unsupported starting in Windows 11 and will be removed in a future release. Because of this, we highly recommend calling the [**SendInput**](https://docs.microsoft.com/windows/win32/api/winuser/nf-winuser-sendinput) TextInput API instead.
+> Journaling Hooks APIs are unsupported starting in Windows 11 and will be removed in a future release. Because of this, we highly recommend calling the [**SendInput**](/windows/win32/api/winuser/nf-winuser-sendinput) TextInput API instead.
 
 The **WH\_JOURNALRECORD** hook enables you to monitor and record input events. Typically, you use this hook to record a sequence of mouse and keyboard events to play back later by using [WH\_JOURNALPLAYBACK](#wh_journalplayback). The **WH\_JOURNALRECORD** hook is a global hook—it cannot be used as a thread-specific hook.
 
@@ -204,7 +204,3 @@ A shell application can use the **WH\_SHELL** hook to receive important notifica
 Note that custom shell applications do not receive **WH\_SHELL** messages. Therefore, any application that registers itself as the default shell must call the [**SystemParametersInfo**](/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa) function before it (or any other application) can receive **WH\_SHELL** messages. This function must be called with **SPI\_SETMINIMIZEDMETRICS** and a [**MINIMIZEDMETRICS**](/windows/win32/api/winuser/ns-winuser-minimizedmetrics) structure. Set the **iArrange** member of this structure to **ARW\_HIDE**.
 
 For more information, see the [*ShellProc*](/previous-versions/windows/desktop/legacy/ms644991(v=vs.85)) callback function.
-
- 
-
- 

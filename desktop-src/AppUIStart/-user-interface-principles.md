@@ -256,7 +256,7 @@ Taskbar flashes can be useful, of course, but should be called upon only when yo
 
 ![screen shot of a toast window.](images/humanux-10.png)
 
-"Toast" windows (see Figure 10), made famous by instant messaging clients like MSN Messenger, are a great solution for informing the user of something without annoying or disrupting his or her work flow. There is a great article (https://docs.microsoft.com/archive/msdn-magazine/2005/september/sprinkle-some-pizzazz-on-your-plain-vanilla-windows-forms-apps) by Bill Wagner on creating Toast windows. It is good policy (and manners) to not disturb any other application's toasts. Obstruction of such windows can be annoying and unproductive. One solution is to use the ToastSemaphore Mutex (/library/WinMessenger/winmessenger/overview/toast.asp) provided by the operating system to avoid toast collision.
+"Toast" windows (see Figure 10), made famous by instant messaging clients like MSN Messenger, are a great solution for informing the user of something without annoying or disrupting his or her work flow. There is a great article by Bill Wagner on [creating Toast windows](/archive/msdn-magazine/2005/september/sprinkle-some-pizzazz-on-your-plain-vanilla-windows-forms-apps). It's good policy (and manners) to not disturb any other application's toasts. Obstruction of such windows can be annoying and unproductive. One solution is to use the [ToastSemaphore Mutex](/library/WinMessenger/winmessenger/overview/toast.asp) provided by the operating system to avoid toast collision.
 
 Sometimes you may need to show multiple items by the toast. Popping up 3 or more toasts would not really be advisable. Instead, cycling through each by popping/fading one toast after the other would be better. Microsoft Outlook implements a similar solution when notifying the user of incoming e-mails.
 
@@ -375,7 +375,3 @@ These kinds of "little things" are the core of the overall impression. Your appl
 We have only touched upon a small portion human user experience. As the user experience becomes simpler, effective, fun, and more user friendly, the task of creating that user experience becomes that much more complex. But with some foresight and good planning, you can create a great user experience.
 
 The best way to create the perfect user experience is to do usability testing targeted especially at the UI—whether with a special test group or by yourself. The more time you spend testing the user experience before releasing your application, the better. It will save you a lot of trouble later on.
-
- 
-
- 

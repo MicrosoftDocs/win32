@@ -85,7 +85,7 @@ landingContent:
           - text: UWP
             url: /windows/uwp/
           - text: .NET
-            url: //docs.microsoft.com/dotnet/
+            url: /dotnet/
           - text: Docs archive for Windows 8.x and earlier
             url: /previous-versions/windows/
 

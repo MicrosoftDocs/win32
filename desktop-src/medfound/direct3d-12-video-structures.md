@@ -69,7 +69,7 @@ configuration.|
 | [D3D12_VIDEO_DECODE_OUTPUT_STREAM_ARGUMENTS1](/windows/desktop/api/d3d12video/ns-d3d12video-d3d12_video_decode_output_stream_arguments1)  | Specifies the parameters for the output stream for a video decode operation.|
 | [D3D12_VIDEO_DECODE_REFERENCE_FRAMES](/windows/desktop/api/d3d12video/ns-d3d12video-d3d12_video_decode_reference_frames)  | Contains the list of reference frames for the current decode operation.|
 | D3D12_VIDEO_DECODE_SUB_SAMPLE_MAPPING_BLOCK  | Defines the encryption byte mapping of sub samples for video decoding.|
-<!--- NOTE: above document does not exist, the closest I could find is the previous version: https://docs.microsoft.com/en-us/windows/win32/api/d3d11_1/ns-d3d11_1-d3d11_video_decoder_sub_sample_mapping_block --->
+<!--- NOTE: above document does not exist, the closest I could find is the previous version: /windows/win32/api/d3d11_1/ns-d3d11_1-d3d11_video_decoder_sub_sample_mapping_block --->
 | [D3D12_VIDEO_ENCODE_REFERENCE_FRAMES](/windows/desktop/api/d3d12video/ns-d3d12video-d3d12_video_encode_reference_frames)  | Represents the reconstructed reference images for an encoding operation.|
 | [D3D12_VIDEO_ENCODER_CODEC_CONFIGURATION](/windows/desktop/api/d3d12video/ns-d3d12video-d3d12_video_encoder_codec_configuration)  | Represents a codec configuration structure for video encoding.|
 | [D3D12_VIDEO_ENCODER_CODEC_CONFIGURATION_H264](/windows/desktop/api/d3d12video/ns-d3d12video-d3d12_video_encoder_codec_configuration_h264)  | Represents codec configuration for H.264 encoding.|

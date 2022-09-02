@@ -16,7 +16,7 @@ Because Microsoft Agent writes files to your system directory when it installs, 
 
 ### When I attempt to install Microsoft Agent, I get one of the following errors: Process (Regsvr32 /s windows\\msagent\\AgentCtl.dll). Error while creating this file. Cannot find this file. (Note: The directory location cited in the error message varies depending on how you installed Windows.) A required DLL MSVCRT.DLL was not found. Error creating process <c:\\windows\\msagent\\agentsvr.exe /regserver>. Reason: One of the library files needed to run this application cannot be found. (Note: The directory location cited in the error message varies depending on how you installed Windows.)
 
-Installation of Microsoft Agent requires the proper installation of Regsvr32.exe, Msvcrt.dll (the Microsoft C run-time library), and up-to-date OLE dlls. See DCOM update: (<https://docs.microsoft.com/openspecs/windows_protocols/ms-dcom/4a893f3d-bd29-48cd-9f43-d9777a4415b0>). The best way to ensure that all the correct system files are present is to install [Microsoft Internet Explorer 4.0](https://www.microsoft.com/ie/download) or later.
+Installation of Microsoft Agent requires the proper installation of Regsvr32.exe, Msvcrt.dll (the Microsoft C run-time library), and up-to-date OLE dlls. For more informaton, see [DCOM update](/openspecs/windows_protocols/ms-dcom/4a893f3d-bd29-48cd-9f43-d9777a4415b0). The best way to ensure that all the correct system files are present is to install [Microsoft Internet Explorer 4.0](https://www.microsoft.com/ie/download) or later.
 
 ### When I attempt to load a page scripted for Microsoft Agent, I get a scripting error: "VBScript Runtime Error, Object required."
 

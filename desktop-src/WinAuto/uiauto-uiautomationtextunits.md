@@ -63,8 +63,8 @@ For example, a text stream, "Hello **world**", contains two word units with diff
 Here's another example where a text stream contains two word units, one of which is a link: `[Foo]() Bar`. In this case, the [End](/windows/desktop/api/uiautomationcore/ne-uiautomationcore-textpatternrangeendpoint) endpoint of the word unit `[Foo]()` and the [Start](/windows/desktop/api/uiautomationcore/ne-uiautomationcore-textpatternrangeendpoint) endpoint of the word unit "Bar" are the same, which results in the following:
 
 - The link belongs to the text range containing "Foo".
-- The link is a child of the text range "Foo", and is enclosed by the [ITextProvider](https://review.docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-itextprovider).
-- The text range "Bar" has no children and and is enclosed by the [ITextProvider](https://review.docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-itextprovider).
+- The link is a child of the text range "Foo", and is enclosed by the [ITextProvider](/windows/desktop/api/uiautomationcore/nn-uiautomationcore-itextprovider).
+- The text range "Bar" has no children and and is enclosed by the [ITextProvider](/windows/desktop/api/uiautomationcore/nn-uiautomationcore-itextprovider).
 
 **Additional notes:**
 
@@ -124,10 +124,6 @@ The current [TextRange](uiauto-implementingtextandtextrange.md) control pattern 
 [TextPatternRangeEndpoint](/windows/desktop/api/uiautomationcore/ne-uiautomationcore-textpatternrangeendpoint)
 
 [ITextRangeProvider::GetChildren](/windows/win32/api/uiautomationcore/nf-uiautomationcore-itextrangeprovider-getchildren)
-
-
-
-
 
 ### Conceptual
 
