@@ -23,7 +23,7 @@ A user object also has constructed attributes that are not stored in the directo
 
 ## User object attributes
 
-Attributes for user objects have different classifications.
+Attributes for user objects have the following classifications.
 
 ### Base object attributes
 
@@ -45,7 +45,7 @@ This category includes attributes for email and user data. For more information 
 
 This category includes user-specific configuration data for specific applications.
 
-## More information
+## More attribute information
 
 For more information about reading and modifying attributes for a user object, see [Reading and Writing Attributes of Objects in Active Directory Domain Services](reading-and-writing-attributes-of-objects-in-active-directory-domain-services.md).
 
