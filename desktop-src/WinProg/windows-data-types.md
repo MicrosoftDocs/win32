@@ -451,7 +451,7 @@ For more information about handling 64-bit integers, see [Large Integers](large-
 </tr>
 <tr class="even">
 <td><span id="HMODULE"></span><span id="hmodule"></span><strong>HMODULE</strong></td>
-<td><p>A handle to a module. The is the base address of the module in memory.</p>
+<td><p>A handle to a module. This is the base address of the module in memory.</p>
 <p><strong>HMODULE</strong> and <strong>HINSTANCE</strong> are the same in current versions of Windows, but represented different things in 16-bit Windows.</p>
 <p>This type is declared in WinDef.h as follows:</p>
 <p><code>typedef HINSTANCE HMODULE;</code></p></td>
