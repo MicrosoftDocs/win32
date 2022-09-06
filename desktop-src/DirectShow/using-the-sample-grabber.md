@@ -206,7 +206,7 @@ This article describes buffering mode. (Before using callback mode, be aware tha
 
 Optionally, call the [**ISampleGrabber::SetOneShot**](isamplegrabber-setoneshot.md) method with the value **TRUE**. This causes the Sample Grabber to halt after it receives the first media sample, which is useful if you want to grab a single frame from the stream. Seek to the desired time, run the graph, and wait for the [**EC\_COMPLETE**](ec-complete.md) event. Note that the level of frame accuracy depends on the source. For example, seeking an MPEG file is often not frame accurate.
 
-To run the graph as fast as possible, turn off the graph clock as described in [Setting the Graph Clock](setting-the-graph-clock.md).
+To run the graph as fast as possible, turn off the graph clock as described in [Setting the graph clock](setting-the-graph-clock.md).
 
 The following example enables one-shot mode and buffering mode, runs the filter graph, and waits for completion.
 
