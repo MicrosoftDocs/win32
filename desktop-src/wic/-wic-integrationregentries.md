@@ -123,7 +123,7 @@ There are other standard registry entries you may need to create to support file
 
 ## Integration with the Windows Thumbnail Cache
 
-The following two entries indicate that the standard WIC thumbnail provider implementation can be used to retrieve thumbnails for files with this extension. The first GUID is the IID of the [IThumbnailProvider](/windows/win32/api/thumbcache/nn-thumbcache-ithumbnailprovider) interface, and the second is the GUID of the standard system implementation of this interface. (All entries under HLCR\\.ext\\ShellEx\\ are repeated under HKCR\\SystemFileAssociations\\.ext\\ShellEx\\.)
+The following two entries indicate that the standard WIC thumbnail provider implementation can be used to retrieve thumbnails for files with this extension. The first GUID is the IID of the [IThumbnailProvider](/windows/win32/api/thumbcache/nn-thumbcache-ithumbnailprovider) interface, and the second is the GUID of the standard system implementation of this interface. (All entries under HKCR\\.ext\\ShellEx\\ are repeated under HKCR\\SystemFileAssociations\\.ext\\ShellEx\\.)
 
 ```
 HKEY_CLASSES_ROOT
