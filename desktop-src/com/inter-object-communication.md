@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Inter-Object Communication
 
-COM is designed to allow clients to communicate transparently with objects, regardless of where those objects are running: in the same process, on the same computer, or on a different computer. This provides a single programming model for all types of objects, and for both object clients and object servers.
+COM is designed to allow clients to communicate transparently with objects, regardless of where those objects are running&mdash;in the same process, on the same computer, or on a different computer. This provides a single programming model for all types of objects, and for both object clients and object servers.
 
 From a client's point of view, all objects are accessed through interface pointers. A pointer must be in-process. In fact, any call to an interface function always reaches some piece of in-process code first. If the object is in-process, the call reaches it directly, with no intervening system-infrastructure code. If the object is out-of-process, the call first reaches what is called a "proxy" object provided either by COM or by the object (if the implementor wishes). The proxy packages call parameters (including any interface pointers) and generate the appropriate remote procedure call (or other communication mechanism in the case of custom generated proxies) to the other process or the other computer where the object implementation is located. This process of packaging pointers for transmission across process boundaries is called *marshaling*.
 
