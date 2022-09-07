@@ -14,7 +14,7 @@ This topic contains the following sections:
 -   [Decoding](#decoding)
 -   [Encoding](#encoding)
 -   [The Lifetime of a Codec](#the-lifetime-of-a-codec)
--   [How to WIC-enabled a Codec](#how-to-wic-enabled-a-codec)
+-   [How to Implement a WIC-enabled Codec](#how-to-implement-a-wic-enabled-codec)
 -   [Multi-Threaded Apartment Support in WIC](#multi-threaded-apartment-support-in-wic)
 -   [Related topics](#related-topics)
 
@@ -74,7 +74,7 @@ A WIC codec is instantiated to handle a single image, and usually has a short li
 
 Although some codecs have a lifetime that is scoped to the lifetime of the process in which they live, this is not the case with WIC codecs. The Windows Vista Photo Gallery, Windows Explorer, and Photo Viewer, as well as numerous other applications, are built on WIC and will be using your codec to display images and thumbnails. If the lifetime of your codec were scoped to the lifetime of the process, every time an image or thumbnail was displayed in the Windows Vista Explorer, the codec instantiated to decode that image would remain in memory until the next time the user restarted his or her computer. If your codec is never unloaded, its resources are, in effect, "leaked" because they can't be used by any other component in the system.
 
-## How to WIC-enabled a Codec
+## How to Implement a WIC-enabled Codec
 
 1.  Implement a container-level decoder class and a frame-level decoder class that exposes the required WIC interfaces for decoding images and iterating through blocks of metadata. This enables all WIC-based applications to interact with your codec the same way they interact with standard image formats.
 2.  Implement a container-level encoder class and a frame-level encoder class that exposes the required WIC interfaces for encoding images and serializing blocks of metadata into an image file.
