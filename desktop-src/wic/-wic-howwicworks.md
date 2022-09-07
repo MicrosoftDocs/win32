@@ -37,7 +37,7 @@ Decoders are not required to natively support transform operations, but doing so
 
 Progress notifications and cancellation support enable an application to request progress notifications for lengthy operations, and also enable the application to give the user an opportunity to cancel an operation that is taking too long. This is important because if a user cannot cancel an operation, he or she may feel the process has hung, and try to cancel it by closing the application.
 
-These interfaces are described in detail in the section on [Implementing a WIC-Enabled Decoder](-wic-implementingwicdecoder.md).
+These interfaces are described in detail in the section on [Implementing a WIC-enabled decoder](-wic-implementingwicdecoder.md).
 
 Raw processing services include adjusting camera settings, such as exposure, contrast, and sharpening, or changing the color space before processing the raw bits.
 
@@ -56,7 +56,7 @@ Frame-level services for an encoder mirror those for the decoder, except that th
 
 Also, metadata enumeration services for an encoder include iterating through the metadata blocks to be written, and invoking the appropriate metadata writers to serialize the metadata to disk.
 
-These interfaces are described in detail in the section on [Implementing a WIC-Enabled Encoder](-wic-implementingwicencoder.md).
+These interfaces are described in detail in the section on [Implementing a WIC-enabled encoder](-wic-implementingwicencoder.md).
 
 ## The lifetime of a codec
 
@@ -64,7 +64,7 @@ A WIC codec is instantiated to handle a single image, and usually has a short li
 
 Although some codecs have a lifetime that is scoped to the lifetime of the process in which they live, this is not the case with WIC codecs. The Windows Vista Photo Gallery, Windows Explorer, and Photo Viewer, as well as numerous other applications, are built on WIC and will be using your codec to display images and thumbnails. If the lifetime of your codec were scoped to the lifetime of the process, every time an image or thumbnail was displayed in the Windows Vista Explorer, the codec instantiated to decode that image would remain in memory until the next time the user restarted his or her computer. If your codec is never unloaded, its resources are, in effect, "leaked" because they can't be used by any other component in the system.
 
-## How to implement a WIC-enabled codec
+## How to WIC-enable a codec
 
 1.  Implement a container-level decoder class and a frame-level decoder class that exposes the required WIC interfaces for decoding images and iterating through blocks of metadata. This enables all WIC-based applications to interact with your codec the same way they interact with standard image formats.
 2.  Implement a container-level encoder class and a frame-level encoder class that exposes the required WIC interfaces for encoding images and serializing blocks of metadata into an image file.
