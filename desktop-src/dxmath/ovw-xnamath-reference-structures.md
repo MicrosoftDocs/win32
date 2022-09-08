@@ -37,7 +37,7 @@ The DirectXMath Library provides a number of structures and defined types to enc
 | [**XMFLOAT4X3**](/windows/win32/api/directxmath/ns-directxmath-xmfloat4x3) | A 4x3 floating point matrix. |
 | [**XMFLOAT4X3A**](/windows/win32/api/directxmath/ns-directxmath-xmfloat4x3a) | Describes an [**XMFLOAT4X3**](/windows/win32/api/directxmath/ns-directxmath-xmfloat4x3) structure aligned on a 16-byte boundary. |
 | [**XMFLOAT4X4**](/windows/win32/api/directxmath/ns-directxmath-xmfloat4x4) | A 4x4 floating point matrix. |
-| [**XMFLOAT4X4A**](/previous-versions/windows/desktop/legacy/ee419623(v=vs.85)) | Describes an [**XMFLOAT4X4**](/windows/win32/api/directxmath/ns-directxmath-xmfloat4x4) structure aligned on a 16-byte boundary. |
+| [**XMFLOAT4X4A**](/windows/win32/api/directxmath/ns-directxmath-xmfloat4x4a) | Describes an [**XMFLOAT4X4**](/windows/win32/api/directxmath/ns-directxmath-xmfloat4x4) structure aligned on a 16-byte boundary. |
 | [**XMHALF2**](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmhalf2) | A 2D vector consisting of two half-precision (16bit) floating-point values.  |
 | [**XMHALF4**](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmhalf4) | Describes a 4D vector consisting of four half-precision (16-bit) floating-point values.  |
 | [**XMINT2**](/windows/win32/api/directxmath/ns-directxmath-xmint2) | A 2D vector where each component is a signed integer. |
