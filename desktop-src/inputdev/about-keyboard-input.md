@@ -70,7 +70,7 @@ Nonsystem keystroke messages are for use by application windows; the [**DefWindo
 
 ### Virtual-Key Codes Described
 
-The **wParam** parameter of a keystroke message contains the virtual-key code of the key that was pressed or released. A window procedure processes or ignores a keystroke message, depending on the value of the virtual-key code.
+The **wParam** parameter of a keystroke message contains the [virtual-key code](virtual-key-codes.md) of the key that was pressed or released. A window procedure processes or ignores a keystroke message, depending on the value of the virtual-key code.
 
 A typical window procedure processes only a small subset of the keystroke messages that it receives and ignores the rest. For example, a window procedure might process only [**WM\_KEYDOWN**](wm-keydown.md) keystroke messages, and only those that contain virtual-key codes for the cursor movement keys, shift keys (also called control keys), and function keys. A typical window procedure does not process keystroke messages from character keys. Instead, it uses the [**TranslateMessage**](/windows/desktop/api/winuser/nf-winuser-translatemessage) function to convert the message into character messages. For more information about **TranslateMessage** and character messages, see [Character Messages](#character-messages).
 
