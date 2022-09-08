@@ -50,7 +50,7 @@ The SIMD instruction sets on versions of windows supporting SSE2 typically have 
 
 The DirectXMath Library provides access aligned and unaligned functionality through variant vector types, structure, and functions. These variants are indicated by an "A" at the end of the name.
 
-For example, there are an unaligned [**XMFLOAT4X4**](/windows/win32/api/directxmath/ns-directxmath-xmfloat4x4) structure and an aligned [**XMFLOAT4X4A**](/previous-versions/windows/desktop/legacy/ee419623(v=vs.85)) structure, which are used by the [**XMStoreFloat4**](/windows/win32/api/directxmath/nf-directxmath-xmstorefloat4) and [**XMStoreFloat4A**](/windows/win32/api/directxmath/nf-directxmath-xmstorefloat4a) functions respectively.
+For example, there are an unaligned [**XMFLOAT4X4**](/windows/win32/api/directxmath/ns-directxmath-xmfloat4x4) structure and an aligned [**XMFLOAT4X4A**](/windows/win32/api/directxmath/ns-directxmath-xmfloat4x4a) structure, which are used by the [**XMStoreFloat4**](/windows/win32/api/directxmath/nf-directxmath-xmstorefloat4) and [**XMStoreFloat4A**](/windows/win32/api/directxmath/nf-directxmath-xmstorefloat4a) functions respectively.
 
 ## Properly Align Allocations
 
