@@ -1,0 +1,179 @@
+- name: "Compatibility cookbook for Windows"
+  href: windows-8-and-windows-server-8-compatibility-cookbook-portal.md
+  items: 
+  - name: "Introduction"
+    href: introduction.md
+  - name: "Windows 10"
+    href: windows-10.md
+    items: 
+    - name: "Key changes since Windows 7 to ensure compatibility"
+      href: key-changes-since-windows-7-to-ensure-compatibility.md
+    - name: "How we can ensure compatibility of the combined ecosystem"
+      href: how-we-can-ensure-compatibility-of-the-combined-ecosystem.md
+      items: 
+      - name: "Windows version check"
+        href: windows-version-check.md
+      - name: "Undocumented APIs"
+        href: undocumented-apis.md
+      - name: "Develop Universal Windows Platform (UWP) apps"
+        href: develop-universal-windows-platform-apps.md
+      - name: "Desktop App functionality is impacted if not run in Windowed Mode"
+        href: modern-desktop-app-functionality-is-impacted-if-not-run-in-windowed-mode.md
+      - name: "Availability of applicable graphics drivers on Windows Update"
+        href: availability-of-applicable-graphics-drivers-on-windows-update.md
+      - name: "Graphics driver migration to Windows 10"
+        href: graphics-driver-migration-to-windows-10.md
+      - name: "Bluetooth drivers"
+        href: bluetooth-drivers.md
+      - name: "Remote calls to the SAM RPC protocol are restricted to only local administrators"
+        href: remote-calls-to-the-sam-rpc-protocol-are-restricted-to-only-local-administrators.md
+      - name: "Kernel checks for non-WHQL signed drivers"
+        href: kernel-checks-for-non-whql-signed-drivers.md
+      - name: "Third party Security Support Providers with Credential Guard"
+        href: third-party-security-support-providers-with-credential-guard.md
+  - name: "Windows 8.1"
+    href: windows-8-1.md
+    items: 
+    - name: "Windows Store apps"
+      href: windows-store-apps.md
+    - name: "Client and server compatibility"
+      href: windows-8-1-and-windows-server-2012-client-and-server-compatibility.md
+      items: 
+      - name: "Operating system version changes in Windows 8.1"
+        href: operating-system-version-changes-in-windows-8-1.md
+      - name: "Windows components installed on demand"
+        href: windows-components-installed-on-demand.md
+      - name: "HTML font fallback behavior"
+        href: html-font-fallback-behavior.md
+      - name: "Windows 8.1 allows only https URIs, not http URIs"
+        href: windows-8-1-allows-only-https-uris--not-http-uris.md
+      - name: "Mousewheel input for Windows 8.1"
+        href: mousewheel-input-for-windows-8-1.md
+      - name: "Windows precision touchpad devices"
+        href: windows-precision-touchpad-devices.md
+      - name: "High DPI for desktop apps in Windows 8.1"
+        href: high-dpi-for-desktop-apps-in-windows-8-1.md
+      - name: "Edge UI is suppressed in “in-out-in” and “inertia” scenarios"
+        href: edge-ui-is-suppressed-in--in-out-in--and--inertia--scenarios.md
+      - name: "Calling ImmSetConversionStatus() or ImmGetConversionStatus() from Windows Store apps is not supported"
+        href: calling-immsetconversionstatus---or-immgetconversionstatus---from-windows-store-apps-is-not-supported.md
+      - name: "IME mode model changed from per-user to per-thread"
+        href: ime-mode-model-changed-from-per-user-to-per-thread.md
+      - name: "Input Method manager APIs are not supported by Simplified Chinese IME"
+        href: input-method-manager-apis-are-not-supported-by-simplified-chinese-ime.md
+      - name: "Some East Asian IME software input panels now send vKey"
+        href: some-east-asian-ime-software-input-panels-now-send-vkey.md
+    - name: "New features and enhancements"
+      href: new-features-and-enhancement-in-windows-8-1-and-windows-server-2012-r2.md
+      items: 
+      - name: "Windows Image File Boot (WimBoot)"
+        href: windows-image-file-boot--wimboot-.md
+      - name: "Web Application Proxy"
+        href: web-application-proxy.md
+      - name: "Tracking modified ranges of a file"
+        href: tracking-modified-ranges-of-a-file.md
+      - name: "Placeholder files"
+        href: placeholder-files.md
+    - name: "Tools, best practices, and guidance"
+      href: tools--best-practices--and-guidance-for-windows-8-1-preview-and-windows-server-2012-r2.md
+      items: 
+      - name: "Microsoft Platform Ready Test Tool"
+        href: windows-server-app-certification-kit--sck-.md
+      - name: "International text and font guidance"
+        href: international-text-and-font-guidance.md
+      - name: "Windows App Certification Kit"
+        href: windows-app-certification-kit-for-windows-8-1-preview.md
+  - name: "Windows 8"
+    href: windows-8.md
+    items: 
+    - name: "Client and Server Compatibility"
+      href: windows-8-and-windows-server-2012-client-and-server-compatibility.md
+      items: 
+      - name: "Security App Detection Rules Update"
+        href: security-app-detection-rules-update.md
+      - name: "Determining shim status"
+        href: determining-shim-status.md
+      - name: "Server Apps Must Be Able to Run without the Server Graphical Shell"
+        href: server-apps-must-be-able-to-run-without-the-server-graphical-shell.md
+      - name: "Remote Data Service Server Components Are Removed in Windows 8"
+        href: remote-data-service-server-components-are-removed-in-windows-8.md
+      - name: "File type and URI associations model"
+        href: file-type-and-protocol-associations-model.md
+      - name: "Desktop Activity Moderator"
+        href: desktop-activity-moderator.md
+      - name: ".NET Framework 4.5 Is Default and .NET Framework 3.5 Is Optional"
+        href: -net-framework-4-5-is-default-and--net-framework-3-5-is-optional.md
+      - name: "Desktop apps may Not be visible after launching the default web browser or Windows Store apps"
+        href: desktop-apps-may-not-be-visible-after-launching-the-default-web-browser.md
+      - name: "High-contrast Mode"
+        href: high-contrast-mode.md
+      - name: "App (Executable) Manifest"
+        href: application--executable--manifest.md
+      - name: "Queued Present Model Is Being Deprecated"
+        href: queued-present-model-is-being-deprecated.md
+      - name: "PCA Scenarios for Windows 8"
+        href: pca-scenarios-for-windows-8.md
+      - name: "Desktop Gadgets Removed"
+        href: desktop-gadgets-removed.md
+      - name: "Advanced Format (4K) Disk Compatibility Update"
+        href: advanced-format--4k--disk-compatibility-update.md
+      - name: "Thin Provisioning of LUNs"
+        href: thin-provisioning-of-luns.md
+      - name: "Enhanced Storage Is Now Optional for WINPE and Server SKU"
+        href: enhanced-storage-is-now-optional-for-winpe-and-server-sku.md
+      - name: "VDS Is Transitioning to Windows Storage Management API"
+        href: vds-is-transitioning-to-wmiv2-based-windows-storage-management-api.md
+      - name: "Previous Versions UI Removed for Local Volumes"
+        href: volume-shadow-copy-service-ui-removed.md
+      - name: "StorAHCI Replaces MSAHCI"
+        href: storahci-replaces-msahci.md
+      - name: "Windows 7 Backup and Restore Deprecated"
+        href: windows-7-backup-and-restore-deprecated.md
+      - name: "Offloaded Data Transfers"
+        href: offloaded-data-transfers.md
+      - name: "Desktop Window Manager Is Always On"
+        href: desktop-window-manager-is-always-on.md
+      - name: "Direct2D Does Not Support Rendering to Rich Metafiles in Internet Explorer 9"
+        href: direct2d-does-not-support-rendering-to-rich-metafiles-in-internet-explorer-9.md
+      - name: "Changes in DX9 Legacy Hardware Support"
+        href: changes-in-dx9-legacy-hardware-support.md
+      - name: "MSAA is Not Available to Windows Store apps"
+        href: msaa-is-not-available-to-appcontainer-apps.md
+      - name: "Port 3 Is Deprecated for NDIS 6.30 Drivers"
+        href: port-3-is-deprecated-for-ndis-6-30-drivers.md
+    - name: "New Features and Enhancements"
+      href: new-features-and-enhancements.md
+      items: 
+      - name: "Early launch antimalware"
+        href: secured-boot.md
+      - name: "Secure Boot Feature Signing Requirements for Kernel-mode Drivers"
+        href: secured-boot-signing-requirements-for-kernel-mode-drivers.md
+      - name: "Measured Boot"
+        href: measured-boot.md
+      - name: "Startup Apps"
+        href: startup-apps.md
+      - name: "Automatic Maintenance"
+        href: automatic-maintenance.md
+      - name: "Third-Party Input Method Editors"
+        href: third-party-input-method-editors.md
+      - name: "New API Allows Apps to Send &quot;TRIM and Unmap&quot; Hints to Storage Media"
+        href: new-api-allows-apps-to-send--trim-and-unmap--hints-to-storage-media.md
+      - name: "Multipath I/O Now Supports Extended SRBs"
+        href: multipath-i-o-now-supports-extended-srbs.md
+      - name: "Resilient File System (ReFS)"
+        href: resilient-file-system--refs-.md
+      - name: "File Server API Support"
+        href: file-server-api-support.md
+      - name: "New File History Feature"
+        href: new-file-history-feature.md
+      - name: "Operating System Now Controls Power to Optical Disk Drives"
+        href: operating-system-now-controls-power-to-optical-disk-drives.md
+      - name: "Support for USB 3.0"
+        href: support-for-usb-3-0.md
+    - name: "Tools, Best Practices, and Guidance"
+      href: tools--best-practices--and-guidance.md
+      items: 
+      - name: "Windows Assessment Toolkit"
+        href: windows-assessment-toolkit.md
+      - name: "Windows Hardware Certification Kit"
+        href: windows-hardware-certification-kit.md

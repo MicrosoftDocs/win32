@@ -1,0 +1,63 @@
+- name: "Device Access API"
+  href: device-access-broker-api-portal.md
+  items: 
+  - name: "About the Device Access API"
+    href: about-the-device-access-api.md
+  - name: "How to Use the Device Access API"
+    href: using-the-device-access-api.md
+    items: 
+    - name: "Design Considerations for Custom Devices"
+      href: design.md
+    - name: "Implement the Device Access Object"
+      href: create-the-device-access-object.md
+    - name: "Declaring the Device Capability"
+      href: declaring-the-device-capability.md
+    - name: "Register the device interface as restricted to privileged apps"
+      href: register-the-device-interface-class-as-privileged.md
+    - name: "Create a Windows Runtime Extension"
+      href: create-a-windows-runtime-extension.md
+  - name: "Device Access API C++ Programming Reference"
+    href: device-access-api-c---programming-reference.md
+    items: 
+    - name: "Functions"
+      href: functions.md
+      items: 
+      - name: "CreateDeviceAccessInstance"
+        href: /windows/win32/api/deviceaccess/nf-deviceaccess-createdeviceaccessinstance
+    - name: "COM Interfaces"
+      href: com-interfaces.md
+      items: 
+      - name: "ICreateDeviceAccessAsync"
+        href: /windows/win32/api/Deviceaccess/nn-deviceaccess-icreatedeviceaccessasync
+        items: 
+        - name: "Cancel Method"
+          href: /windows/win32/api/Deviceaccess/nf-deviceaccess-icreatedeviceaccessasync-cancel
+        - name: "Wait Method"
+          href: /windows/win32/api/Deviceaccess/nf-deviceaccess-icreatedeviceaccessasync-wait
+        - name: "Close Method"
+          href: /windows/win32/api/Deviceaccess/nf-deviceaccess-icreatedeviceaccessasync-close
+        - name: "GetResult Method"
+          href: /windows/win32/api/Deviceaccess/nf-deviceaccess-icreatedeviceaccessasync-getresult
+      - name: "IDeviceIoControl"
+        href: /windows/win32/api/Deviceaccess/nn-deviceaccess-ideviceiocontrol
+        items: 
+        - name: "DeviceIoControlSync Method"
+          href: /windows/win32/api/Deviceaccess/nf-deviceaccess-ideviceiocontrol-deviceiocontrolsync
+        - name: "DeviceIoControlAsync Method"
+          href: /windows/win32/api/Deviceaccess/nf-deviceaccess-ideviceiocontrol-deviceiocontrolasync
+        - name: "CancelOperation Method"
+          href: /windows/win32/api/Deviceaccess/nf-deviceaccess-ideviceiocontrol-canceloperation
+      - name: "IDeviceRequestCompletionCallback"
+        href: /windows/win32/api/Deviceaccess/nn-deviceaccess-idevicerequestcompletioncallback
+        items: 
+        - name: "RequestCompletion Method"
+          href: /windows/win32/api/deviceaccess/nf-deviceaccess-idevicerequestcompletioncallback-requestcompletion
+  - name: "Device Access Glossary"
+    href: deviceaccess-glossary.md
+  - name: "Other APIs"
+    href: other-apis.md
+    items: 
+    - name: "DeviceInterfaceClassAccessCheckWithCallingThread method"
+      href: ideviceaccesspolicycheck-deviceinterfaceclassaccesscheckwithcallingthread.md
+    - name: "OpenDeviceFromInterfacePath method"
+      href: idevicebroker-opendevicefrominterfacepath.md

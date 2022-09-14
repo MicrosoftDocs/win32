@@ -1,0 +1,543 @@
+- name: "Windows Biometric Framework"
+  href: biometric-service-api-portal.md
+  items: 
+  - name: "Biometric Framework overview"
+    href: biometric-framework-overview.md
+    items: 
+    - name: "Biometric Framework terminology"
+      href: biometric-framework-terminology.md
+    - name: "Framework Security"
+      href: framework-security.md
+      items: 
+      - name: "Sensor requirements for secure biometrics"
+        href: sensor-requirements-for-secure-biometrics.md
+    - name: "Plug-in architecture"
+      href: plug-in-architecture.md
+  - name: "Create adapter plug-ins"
+    href: creating-adapter-plug-ins.md
+    items: 
+    - name: "Adapter Workflow"
+      href: adapter-workflow.md
+    - name: "Creating an Engine Adapter"
+      href: creating-an-engine-adapter.md
+    - name: "Creating a Sensor Adapter"
+      href: creating-a-sensor-adapter.md
+    - name: "Creating a Storage Adapter"
+      href: creating-a-storage-adapter.md
+  - name: "Creating a Private Sensor Pool"
+    href: creating-a-private-sensor-pool.md
+    items: 
+    - name: "Sensor Pools"
+      href: sensor-pools.md
+      items: 
+      - name: "Private Sensor Pool"
+        href: private-sensor-pool.md
+      - name: "System Sensor Pool"
+        href: system-sensor-pool.md
+      - name: "System Pool Behavior"
+        href: system-pool-behavior.md
+    - name: "Private Pool Setup"
+      href: private-pool-setup.md
+    - name: "Private Pool Identity"
+      href: private-pool-identity.md
+    - name: "Private Pool Enrollment"
+      href: private-pool-enrollment.md
+    - name: "Private Pool Helper Functions"
+      href: private-pool-helper-functions.md
+    - name: "Create client applications"
+      href: creating-client-applications.md
+  - name: "Windows Biometric Framework API Reference"
+    href: biometric-service-api-reference.md
+    items: 
+    - name: "Client Application Reference"
+      href: client-application-reference.md
+      items: 
+      - name: "Client Application Functions"
+        href: client-application-functions.md
+        items: 
+        - name: "WinBioAcquireFocus"
+          href: /windows/desktop/api/Winbio/nf-winbio-winbioacquirefocus
+        - name: "WinBioAsyncEnumBiometricUnits"
+          href: /windows/desktop/api/Winbio/nf-winbio-winbioasyncenumbiometricunits
+        - name: "WinBioAsyncEnumDatabases"
+          href: /windows/desktop/api/Winbio/nf-winbio-winbioasyncenumdatabases
+        - name: "WinBioAsyncEnumServiceProviders"
+          href: /windows/desktop/api/Winbio/nf-winbio-winbioasyncenumserviceproviders
+        - name: "WinBioAsyncMonitorFrameworkChanges"
+          href: /windows/desktop/api/Winbio/nf-winbio-winbioasyncmonitorframeworkchanges
+        - name: "WinBioAsyncOpenFramework"
+          href: /windows/desktop/api/Winbio/nf-winbio-winbioasyncopenframework
+        - name: "WinBioAsyncOpenSession"
+          href: /windows/desktop/api/Winbio/nf-winbio-winbioasyncopensession
+        - name: "WinBioCancel"
+          href: /windows/desktop/api/Winbio/nf-winbio-winbiocancel
+        - name: "WinBioCaptureSample"
+          href: /windows/desktop/api/Winbio/nf-winbio-winbiocapturesample
+        - name: "WinBioCaptureSampleWithCallback"
+          href: /windows/desktop/api/Winbio/nf-winbio-winbiocapturesamplewithcallback
+        - name: "WinBioCloseFramework"
+          href: /windows/desktop/api/Winbio/nf-winbio-winbiocloseframework
+        - name: "WinBioCloseSession"
+          href: /windows/desktop/api/Winbio/nf-winbio-winbioclosesession
+        - name: "WinBioControlUnit"
+          href: /windows/desktop/api/Winbio/nf-winbio-winbiocontrolunit
+        - name: "WinBioControlUnitPrivileged"
+          href: /windows/desktop/api/Winbio/nf-winbio-winbiocontrolunitprivileged
+        - name: "WinBioDeleteTemplate"
+          href: /windows/desktop/api/Winbio/nf-winbio-winbiodeletetemplate
+        - name: "WinBioEnrollBegin"
+          href: /windows/desktop/api/Winbio/nf-winbio-winbioenrollbegin
+        - name: "WinBioEnrollCapture"
+          href: /windows/desktop/api/Winbio/nf-winbio-winbioenrollcapture
+        - name: "WinBioEnrollCaptureWithCallback"
+          href: /windows/desktop/api/Winbio/nf-winbio-winbioenrollcapturewithcallback
+        - name: "WinBioEnrollCommit"
+          href: /windows/desktop/api/Winbio/nf-winbio-winbioenrollcommit
+        - name: "WinBioEnrollDiscard"
+          href: /windows/desktop/api/Winbio/nf-winbio-winbioenrolldiscard
+        - name: "WinBioEnrollSelect"
+          href: /windows/desktop/api/winbio/nf-winbio-winbioenrollselect
+        - name: "WinBioEnumBiometricUnits"
+          href: /windows/desktop/api/Winbio/nf-winbio-winbioenumbiometricunits
+        - name: "WinBioEnumDatabases"
+          href: /windows/desktop/api/Winbio/nf-winbio-winbioenumdatabases
+        - name: "WinBioEnumEnrollments"
+          href: /windows/desktop/api/Winbio/nf-winbio-winbioenumenrollments
+        - name: "WinBioEnumServiceProviders"
+          href: /windows/desktop/api/Winbio/nf-winbio-winbioenumserviceproviders
+        - name: "WinBioFree"
+          href: /windows/desktop/api/Winbio/nf-winbio-winbiofree
+        - name: "WinBioGetCredentialState"
+          href: /windows/desktop/api/Winbio/nf-winbio-winbiogetcredentialstate
+        - name: "WinBioGetDomainLogonSetting"
+          href: /windows/desktop/api/Winbio/nf-winbio-winbiogetdomainlogonsetting
+        - name: "WinBioGetEnabledSetting"
+          href: /windows/desktop/api/Winbio/nf-winbio-winbiogetenabledsetting
+        - name: "WinBioGetEnrolledFactors"
+          href: /windows/desktop/api/winbio/nf-winbio-winbiogetenrolledfactors
+        - name: "WinBioGetLogonSetting"
+          href: /windows/desktop/api/Winbio/nf-winbio-winbiogetlogonsetting
+        - name: "WinBioGetProperty"
+          href: /windows/desktop/api/Winbio/nf-winbio-winbiogetproperty
+        - name: "WinBioIdentify"
+          href: /windows/desktop/api/Winbio/nf-winbio-winbioidentify
+        - name: "WinBioIdentifyWithCallback"
+          href: /windows/desktop/api/Winbio/nf-winbio-winbioidentifywithcallback
+        - name: "WinBioLocateSensor"
+          href: /windows/desktop/api/Winbio/nf-winbio-winbiolocatesensor
+        - name: "WinBioLocateSensorWithCallback"
+          href: /windows/desktop/api/Winbio/nf-winbio-winbiolocatesensorwithcallback
+        - name: "WinBioLockUnit"
+          href: /windows/desktop/api/Winbio/nf-winbio-winbiolockunit
+        - name: "WinBioLogonIdentifiedUser"
+          href: /windows/desktop/api/Winbio/nf-winbio-winbiologonidentifieduser
+        - name: "WinBioMonitorPresence"
+          href: /windows/desktop/api/winbio/nf-winbio-winbiomonitorpresence
+        - name: "WinBioOpenSession"
+          href: /windows/desktop/api/Winbio/nf-winbio-winbioopensession
+        - name: "WinBioRegisterEventMonitor"
+          href: /windows/desktop/api/Winbio/nf-winbio-winbioregistereventmonitor
+        - name: "WinBioReleaseFocus"
+          href: /windows/desktop/api/Winbio/nf-winbio-winbioreleasefocus
+        - name: "WinBioRemoveAllCredentials"
+          href: /windows/desktop/api/Winbio/nf-winbio-winbioremoveallcredentials
+        - name: "WinBioRemoveAllDomainCredentials"
+          href: /windows/desktop/api/Winbio/nf-winbio-winbioremovealldomaincredentials
+        - name: "WinBioRemoveCredential"
+          href: /windows/desktop/api/Winbio/nf-winbio-winbioremovecredential
+        - name: "WinBioSetCredential"
+          href: /windows/desktop/api/Winbio/nf-winbio-winbiosetcredential
+        - name: "WinBioSetProperty"
+          href: /windows/desktop/api/winbio/nf-winbio-winbiosetproperty
+        - name: "WinBioUnlockUnit"
+          href: /windows/desktop/api/Winbio/nf-winbio-winbiounlockunit
+        - name: "WinBioUnregisterEventMonitor"
+          href: /windows/desktop/api/Winbio/nf-winbio-winbiounregistereventmonitor
+        - name: "WinBioVerify"
+          href: /windows/desktop/api/Winbio/nf-winbio-winbioverify
+        - name: "WinBioVerifyWithCallback"
+          href: /windows/desktop/api/Winbio/nf-winbio-winbioverifywithcallback
+        - name: "WinBioWait"
+          href: /windows/desktop/api/Winbio/nf-winbio-winbiowait
+      - name: "Client Application Callback Functions"
+        href: client-application-callback-functions.md
+        items: 
+        - name: "PWINBIO_ASYNC_COMPLETION_CALLBACK"
+          href: /windows/desktop/api/Winbio/nc-winbio-pwinbio_async_completion_callback
+        - name: "PWINBIO_CAPTURE_CALLBACK"
+          href: /windows/desktop/api/Winbio/nc-winbio-pwinbio_capture_callback
+        - name: "PWINBIO_ENROLL_CAPTURE_CALLBACK"
+          href: /windows/desktop/api/Winbio/nc-winbio-pwinbio_enroll_capture_callback
+        - name: "PWINBIO_EVENT_CALLBACK"
+          href: /windows/desktop/api/Winbio/nc-winbio-pwinbio_event_callback
+        - name: "PWINBIO_IDENTIFY_CALLBACK"
+          href: /windows/desktop/api/Winbio/nc-winbio-pwinbio_identify_callback
+        - name: "PWINBIO_LOCATE_SENSOR_CALLBACK"
+          href: /windows/desktop/api/Winbio/nc-winbio-pwinbio_locate_sensor_callback
+        - name: "PWINBIO_VERIFY_CALLBACK"
+          href: /windows/desktop/api/Winbio/nc-winbio-pwinbio_verify_callback
+      - name: "Client Application Structures"
+        href: client-application-structures.md
+        items: 
+        - name: "WINBIO_ANTI_SPOOF_POLICY"
+          href: winbio-anti-spoof-policy.md
+        - name: "WINBIO_ASYNC_RESULT"
+          href: /windows/win32/api/Winbio/ns-winbio-winbio_async_result
+        - name: "WINBIO_BDB_ANSI_381_HEADER"
+          href: winbio-bdb-ansi-381-header.md
+        - name: "WINBIO_BDB_ANSI_381_RECORD"
+          href: winbio-bdb-ansi-381-record.md
+        - name: "WINBIO_BIR"
+          href: winbio-bir.md
+        - name: "WINBIO_BIR_DATA"
+          href: winbio-bir-data.md
+        - name: "WINBIO_BIR_HEADER"
+          href: winbio-bir-header.md
+        - name: "WINBIO_BSP_SCHEMA"
+          href: winbio-bsp-schema.md
+        - name: "WINBIO_EXTENDED_ENGINE_INFO"
+          href: winbio-extended-engine-info.md
+        - name: "WINBIO_EXTENDED_ENROLLMENT_STATUS"
+          href: winbio-extended-enrollment-status.md
+        - name: "WINBIO_EXTENDED_SENSOR_INFO"
+          href: winbio-extended-sensor-info.md
+        - name: "WINBIO_EXTENDED_STORAGE_INFO"
+          href: winbio-extended-storage-info.md
+        - name: "WINBIO_EVENT"
+          href: winbio-event.md
+        - name: "WINBIO_IDENTITY"
+          href: winbio-identity.md
+        - name: "WINBIO_PRESENCE"
+          href: winbio-presence.md
+        - name: "WINBIO_REGISTERED_FORMAT"
+          href: winbio-registered-format.md
+        - name: "WINBIO_STORAGE_SCHEMA"
+          href: winbio-storage-schema.md
+        - name: "WINBIO_UNIT_SCHEMA"
+          href: winbio-unit-schema.md
+        - name: "WINBIO_VERSION"
+          href: winbio-version.md
+      - name: "Client Application Enumerations"
+        href: client-application-enumerations.md
+        items: 
+        - name: "WINBIO_ANTI_SPOOF_POLICY_ACTION"
+          href: winbio-anti-spoof-policy-action.md
+        - name: "WINBIO_ASYNC_NOTIFICATION_METHOD"
+          href: /windows/win32/api/Winbio/ne-winbio-winbio_async_notification_method
+        - name: "WINBIO_CREDENTIAL_FORMAT"
+          href: winbio-credential-format.md
+        - name: "WINBIO_CREDENTIAL_STATE"
+          href: winbio-credential-state.md
+        - name: "WINBIO_CREDENTIAL_TYPE"
+          href: winbio-credential-type.md
+        - name: "WINBIO_POLICY_SOURCE"
+          href: winbio-policy-source.md
+      - name: "Client Application Unions"
+        href: client-application-unions.md
+        items: 
+        - name: "WINBIO_PRESENCE_PROPERTIES"
+          href: winbio-presence-properties.md
+      - name: "Client Application Constants"
+        href: client-application-constants.md
+        items: 
+        - name: "BIO_UNIT Constants"
+          href: bio-unit-constants.md
+        - name: "Client Error Codes"
+          href: client-error-codes.md
+        - name: "General Constants"
+          href: general-constants.md
+        - name: "WINBIO_ANSI_381_FORMAT Constants"
+          href: winbio-ansi-381-format-constants.md
+        - name: "WINBIO_ANSI_381_IMG Constants"
+          href: winbio-ansi-381-img-constants.md
+        - name: "WINBIO_ANSI_381_IMG_ACQ Constants"
+          href: winbio-ansi-381-img-acq-constants.md
+        - name: "WINBIO_ANSI_381_IMP_TYPE Constants"
+          href: winbio-ansi-381-imp-type-constants.md
+        - name: "WINBIO_ANSI_381_PIXELS Constants"
+          href: winbio-ansi-381-pixels-constants.md
+        - name: "WINBIO_ANSI_381_POS Fingerprint Constants"
+          href: winbio-ansi-381-pos-fingerprint-constants.md
+        - name: "WINBIO_ANSI_381_POS Palm Constants"
+          href: winbio-ansi-381-pos-palm-constants.md
+        - name: "WINBIO_ANSI_385_FACE Constants"
+          href: winbio-ansi-385-face-constants.md
+        - name: "WINBIO_BIOMETRIC_SENSOR_SUBTYPE Constants"
+          href: winbio-biometric-sensor-subtype-constants.md
+        - name: "WINBIO_BIOMETRIC_SUBTYPE Constants"
+          href: winbio-biometric-subtype-constants.md
+        - name: "WINBIO_BIOMETRIC_TYPE Constants"
+          href: winbio-biometric-type-constants.md
+        - name: "WINBIO_BIR_DATA_FLAGS Constants"
+          href: winbio-bir-data-flags-constants.md
+        - name: "WINBIO_BIR_FIELD Constants"
+          href: winbio-bir-field-constants.md
+        - name: "WINBIO_BIR_PURPOSE Constants"
+          href: winbio-bir-purpose-constants.md
+        - name: "WINBIO_BIR_QUALITY Constants"
+          href: winbio-bir-quality-constants.md
+        - name: "WINBIO_BIR_VERSION Constants"
+          href: winbio-bir-version-constants.md
+        - name: "WINBIO_CAPABILITY Constants"
+          href: winbio-capability-constants.md
+        - name: "WINBIO_COMPONENT Constants"
+          href: winbio-component-constants.md
+        - name: "WINBIO_DATABASE_TYPE Constants"
+          href: winbio-database-type-constants.md
+        - name: "WINBIO_DB Constants"
+          href: winbio-db-constants.md
+        - name: "WINBIO_ENG_CAP Constants"
+          href: winbio-eng-cap-constants.md
+        - name: "WINBIO_EVENT Constants"
+          href: winbio-event-constants.md
+        - name: "WINBIO_FLAG Constants"
+          href: winbio-flag-constants.md
+        - name: "WINBIO_FRAMEWORK_CHANGE Constants"
+          href: winbio-framework-change-constants.md
+        - name: "WINBIO_IDENTITY_TYPE Constants"
+          href: winbio-identity-type-constants.md
+        - name: "WINBIO_INDICATOR_STATUS Constants"
+          href: winbio-indicator-status-constants.md
+        - name: "WINBIO_NO_FORMAT Constants"
+          href: winbio-no-format-constants.md
+        - name: "WINBIO_IRIS Constants"
+          href: winbio-iris-constants.md
+        - name: "WINBIO_OPERATION_TYPE Constants"
+          href: winbio-operation-type-constants.md
+        - name: "WINBIO_ORIENTATION Constants"
+          href: winbio-orientation-constants.md
+        - name: "WINBIO_POOL Constants"
+          href: winbio-pool-constants.md
+        - name: "WINBIO_PRESENCE_CHANGE Constants"
+          href: winbio-presence-change-constants.md
+        - name: "WINBIO_PROPERTY Constants"
+          href: winbio-property-constants.md
+        - name: "WINBIO_PROPERTY_TYPE Constants"
+          href: winbio-property-type-constants.md
+        - name: "WINBIO_REJECT_DETAIL Constants"
+          href: winbio-reject-detail-constants.md
+        - name: "WINBIO_SENSOR_MODE Constants"
+          href: winbio-sensor-mode-constants.md
+        - name: "WINBIO_SETTING_SOURCE Constants"
+          href: winbio-setting-source-constants.md
+    - name: "Plug-in Reference"
+      href: plug-in-reference.md
+      items: 
+      - name: "Plug-in Functions"
+        href: plug-in-functions.md
+        items: 
+        - name: "Engine Adapter Functions"
+          href: engine-adapter-functions.md
+          items: 
+          - name: "EngineAdapterCreateKey"
+            href: /windows/desktop/api/Winbio_adapter/nc-winbio_adapter-pibio_engine_create_key_fn
+          - name: "EngineAdapterAcceptSampleData"
+            href: /windows/desktop/api/Winbio_adapter/nc-winbio_adapter-pibio_engine_accept_sample_data_fn
+          - name: "EngineAdapterActivate"
+            href: /windows/desktop/api/Winbio_adapter/nc-winbio_adapter-pibio_engine_activate_fn
+          - name: "EngineAdapterAttach"
+            href: /windows/desktop/api/Winbio_adapter/nc-winbio_adapter-pibio_engine_attach_fn
+          - name: "EngineAdapterCheckForDuplicate"
+            href: /windows/desktop/api/Winbio_adapter/nc-winbio_adapter-pibio_engine_check_for_duplicate_fn
+          - name: "EngineAdapterClearContext"
+            href: /windows/desktop/api/Winbio_adapter/nc-winbio_adapter-pibio_engine_clear_context_fn
+          - name: "EngineAdapterCommitEnrollment"
+            href: /windows/desktop/api/Winbio_adapter/nc-winbio_adapter-pibio_engine_commit_enrollment_fn
+          - name: "EngineAdapterControlUnit"
+            href: /windows/desktop/api/Winbio_adapter/nc-winbio_adapter-pibio_engine_control_unit_fn
+          - name: "EngineAdapterControlUnitPrivileged"
+            href: /windows/desktop/api/Winbio_adapter/nc-winbio_adapter-pibio_engine_control_unit_privileged_fn
+          - name: "EngineAdapterCreateEnrollment"
+            href: /windows/desktop/api/Winbio_adapter/nc-winbio_adapter-pibio_engine_create_enrollment_fn
+          - name: "EngineAdapterDeactivate"
+            href: /windows/desktop/api/Winbio_adapter/nc-winbio_adapter-pibio_engine_deactivate_fn
+          - name: "EngineAdapterDetach"
+            href: /windows/desktop/api/Winbio_adapter/nc-winbio_adapter-pibio_engine_detach_fn
+          - name: "EngineAdapterDiscardEnrollment"
+            href: /windows/desktop/api/Winbio_adapter/nc-winbio_adapter-pibio_engine_discard_enrollment_fn
+          - name: "EngineAdapterExportEngineData"
+            href: /windows/desktop/api/Winbio_adapter/nc-winbio_adapter-pibio_engine_export_engine_data_fn
+          - name: "EngineAdapterGetEnrollmentHash"
+            href: /windows/desktop/api/Winbio_adapter/nc-winbio_adapter-pibio_engine_get_enrollment_hash_fn
+          - name: "EngineAdapterGetEnrollmentStatus"
+            href: /windows/desktop/api/Winbio_adapter/nc-winbio_adapter-pibio_engine_get_enrollment_status_fn
+          - name: "EngineAdapterIdentifyAll"
+            href: /windows/desktop/api/Winbio_adapter/nc-winbio_adapter-pibio_engine_identify_all_fn
+          - name: "EngineAdapterIdentifyFeatureSet"
+            href: /windows/desktop/api/Winbio_adapter/nc-winbio_adapter-pibio_engine_identify_feature_set_fn
+          - name: "EngineAdapterIdentifyFeatureSetSecure"
+            href: /windows/desktop/api/Winbio_adapter/nc-winbio_adapter-pibio_engine_identify_feature_set_secure_fn
+          - name: "EngineAdapterNotifyPowerChange"
+            href: /windows/desktop/api/Winbio_adapter/nc-winbio_adapter-pibio_engine_notify_power_change_fn
+          - name: "EngineAdapterPipelineCleanup"
+            href: /windows/desktop/api/Winbio_adapter/nc-winbio_adapter-pibio_engine_pipeline_cleanup_fn
+          - name: "EngineAdapterPipelineInit"
+            href: /windows/desktop/api/Winbio_adapter/nc-winbio_adapter-pibio_engine_pipeline_init_fn
+          - name: "EngineAdapterQueryCalibrationData"
+            href: /windows/desktop/api/Winbio_adapter/nc-winbio_adapter-pibio_engine_query_calibration_data_fn
+          - name: "EngineAdapterQueryExtendedEnrollmentStatus"
+            href: /windows/desktop/api/Winbio_adapter/nc-winbio_adapter-pibio_engine_query_extended_enrollment_status_fn
+          - name: "EngineAdapterQueryExtendedInfo"
+            href: /windows/desktop/api/Winbio_adapter/nc-winbio_adapter-pibio_engine_query_extended_info_fn
+          - name: "EngineAdapterQueryHashAlgorithms"
+            href: /windows/desktop/api/Winbio_adapter/nc-winbio_adapter-pibio_engine_query_hash_algorithms_fn
+          - name: "EngineAdapterQueryIndexVectorSize"
+            href: /windows/desktop/api/Winbio_adapter/nc-winbio_adapter-pibio_engine_query_index_vector_size_fn
+          - name: "EngineAdapterQueryPreferredFormat"
+            href: /windows/desktop/api/Winbio_adapter/nc-winbio_adapter-pibio_engine_query_preferred_format_fn
+          - name: "EngineAdapterQuerySampleHint"
+            href: /windows/desktop/api/Winbio_adapter/nc-winbio_adapter-pibio_engine_query_sample_hint_fn
+          - name: "EngineAdapterRefreshCache"
+            href: /windows/desktop/api/Winbio_adapter/nc-winbio_adapter-pibio_engine_refresh_cache_fn
+          - name: "EngineAdapterSelectCalibrationFormat"
+            href: /windows/desktop/api/Winbio_adapter/nc-winbio_adapter-pibio_engine_select_calibration_format_fn
+          - name: "EngineAdapterSetAccountPolicy"
+            href: /windows/desktop/api/Winbio_adapter/nc-winbio_adapter-pibio_engine_set_account_policy_fn
+          - name: "EngineAdapterSetEnrollmentParameters"
+            href: /windows/desktop/api/Winbio_adapter/nc-winbio_adapter-pibio_engine_set_enrollment_parameters_fn
+          - name: "EngineAdapterSetEnrollmentSelector"
+            href: /windows/desktop/api/Winbio_adapter/nc-winbio_adapter-pibio_engine_set_enrollment_selector_fn
+          - name: "EngineAdapterSetHashAlgorithm"
+            href: /windows/desktop/api/Winbio_adapter/nc-winbio_adapter-pibio_engine_set_hash_algorithm_fn
+          - name: "EngineAdapterUpdateEnrollment"
+            href: /windows/desktop/api/Winbio_adapter/nc-winbio_adapter-pibio_engine_update_enrollment_fn
+          - name: "EngineAdapterVerifyFeatureSet"
+            href: /windows/desktop/api/Winbio_adapter/nc-winbio_adapter-pibio_engine_verify_feature_set_fn
+          - name: "WbioQueryEngineInterface"
+            href: /windows/desktop/api/Winbio_adapter/nf-winbio_adapter-wbioqueryengineinterface
+        - name: "Sensor Adapter Functions"
+          href: sensor-adapter-functions.md
+          items: 
+          - name: "SensorAdapterAcceptCalibrationData"
+            href: /windows/desktop/api/Winbio_adapter/nc-winbio_adapter-pibio_sensor_accept_calibration_data_fn
+          - name: "SensorAdapterActivate"
+            href: /windows/desktop/api/Winbio_adapter/nc-winbio_adapter-pibio_sensor_activate_fn
+          - name: "SensorAdapterAttach"
+            href: /windows/desktop/api/Winbio_adapter/nc-winbio_adapter-pibio_sensor_attach_fn
+          - name: "SensorAdapterCancel"
+            href: /windows/desktop/api/Winbio_adapter/nc-winbio_adapter-pibio_sensor_cancel_fn
+          - name: "SensorAdapterClearContext"
+            href: /windows/desktop/api/Winbio_adapter/nc-winbio_adapter-pibio_sensor_clear_context_fn
+          - name: "SensorAdapterControlUnit"
+            href: /windows/desktop/api/Winbio_adapter/nc-winbio_adapter-pibio_sensor_control_unit_fn
+          - name: "SensorAdapterControlUnitPrivileged"
+            href: /windows/desktop/api/Winbio_adapter/nc-winbio_adapter-pibio_sensor_control_unit_privileged_fn
+          - name: "SensorAdapterDeactivate"
+            href: /windows/desktop/api/Winbio_adapter/nc-winbio_adapter-pibio_sensor_deactivate_fn
+          - name: "SensorAdapterDetach"
+            href: /windows/desktop/api/Winbio_adapter/nc-winbio_adapter-pibio_sensor_detach_fn
+          - name: "SensorAdapterExportSensorData"
+            href: /windows/desktop/api/Winbio_adapter/nc-winbio_adapter-pibio_sensor_export_sensor_data_fn
+          - name: "SensorAdapterFinishCapture"
+            href: /windows/desktop/api/Winbio_adapter/nc-winbio_adapter-pibio_sensor_finish_capture_fn
+          - name: "SensorAdapterGetIndicatorStatus"
+            href: /windows/desktop/api/Winbio_adapter/nc-winbio_adapter-pibio_sensor_get_indicator_status_fn
+          - name: "SensorAdapterNotifyPowerChange"
+            href: /windows/desktop/api/Winbio_adapter/nc-winbio_adapter-pibio_sensor_notify_power_change_fn
+          - name: "SensorAdapterPipelineCleanup"
+            href: /windows/desktop/api/Winbio_adapter/nc-winbio_adapter-pibio_sensor_pipeline_cleanup_fn
+          - name: "SensorAdapterPipelineInit"
+            href: /windows/desktop/api/Winbio_adapter/nc-winbio_adapter-pibio_sensor_pipeline_init_fn
+          - name: "SensorAdapterPushDataToEngine"
+            href: /windows/desktop/api/Winbio_adapter/nc-winbio_adapter-pibio_sensor_push_data_to_engine_fn
+          - name: "SensorAdapterQueryCalibrationFormats"
+            href: /windows/desktop/api/Winbio_adapter/nc-winbio_adapter-pibio_sensor_query_calibration_formats_fn
+          - name: "SensorAdapterQueryExtendedInfo"
+            href: /windows/desktop/api/Winbio_adapter/nc-winbio_adapter-pibio_sensor_query_extended_info_fn
+          - name: "SensorAdapterQueryStatus"
+            href: /windows/desktop/api/Winbio_adapter/nc-winbio_adapter-pibio_sensor_query_status_fn
+          - name: "SensorAdapterReset"
+            href: /windows/desktop/api/Winbio_adapter/nc-winbio_adapter-pibio_sensor_reset_fn
+          - name: "SensorAdapterSetCalibrationFormat"
+            href: /windows/desktop/api/Winbio_adapter/nc-winbio_adapter-pibio_sensor_set_calibration_format_fn
+          - name: "SensorAdapterSetIndicatorStatus"
+            href: /windows/desktop/api/Winbio_adapter/nc-winbio_adapter-pibio_sensor_set_indicator_status_fn
+          - name: "SensorAdapterSetMode"
+            href: /windows/desktop/api/Winbio_adapter/nc-winbio_adapter-pibio_sensor_set_mode_fn
+          - name: "SensorAdapterStartCapture"
+            href: /windows/desktop/api/Winbio_adapter/nc-winbio_adapter-pibio_sensor_start_capture_fn
+          - name: "WbioQuerySensorInterface"
+            href: /windows/desktop/api/Winbio_adapter/nf-winbio_adapter-wbioquerysensorinterface
+        - name: "Storage Adapter Functions"
+          href: storage-adapter-functions.md
+          items: 
+          - name: "StorageAdapterActivate"
+            href: /windows/desktop/api/Winbio_adapter/nc-winbio_adapter-pibio_storage_activate_fn
+          - name: "StorageAdapterAddRecord"
+            href: /windows/desktop/api/Winbio_adapter/nc-winbio_adapter-pibio_storage_add_record_fn
+          - name: "StorageAdapterAttach"
+            href: /windows/desktop/api/Winbio_adapter/nc-winbio_adapter-pibio_storage_attach_fn
+          - name: "StorageAdapterClearContext"
+            href: /windows/desktop/api/Winbio_adapter/nc-winbio_adapter-pibio_storage_clear_context_fn
+          - name: "StorageAdapterCloseDatabase"
+            href: /windows/desktop/api/Winbio_adapter/nc-winbio_adapter-pibio_storage_close_database_fn
+          - name: "StorageAdapterControlUnit"
+            href: /windows/desktop/api/Winbio_adapter/nc-winbio_adapter-pibio_storage_control_unit_fn
+          - name: "StorageAdapterControlUnitPrivileged"
+            href: /windows/desktop/api/Winbio_adapter/nc-winbio_adapter-pibio_storage_control_unit_privileged_fn
+          - name: "StorageAdapterCreateDatabase"
+            href: /windows/desktop/api/Winbio_adapter/nc-winbio_adapter-pibio_storage_create_database_fn
+          - name: "StorageAdapterDeactivate"
+            href: /windows/desktop/api/Winbio_adapter/nc-winbio_adapter-pibio_storage_deactivate_fn
+          - name: "StorageAdapterDeleteRecord"
+            href: /windows/desktop/api/Winbio_adapter/nc-winbio_adapter-pibio_storage_delete_record_fn
+          - name: "StorageAdapterDetach"
+            href: /windows/desktop/api/Winbio_adapter/nc-winbio_adapter-pibio_storage_detach_fn
+          - name: "StorageAdapterEraseDatabase"
+            href: /windows/desktop/api/Winbio_adapter/nc-winbio_adapter-pibio_storage_erase_database_fn
+          - name: "StorageAdapterFirstRecord"
+            href: /windows/desktop/api/Winbio_adapter/nc-winbio_adapter-pibio_storage_first_record_fn
+          - name: "StorageAdapterGetCurrentRecord"
+            href: /windows/desktop/api/Winbio_adapter/nc-winbio_adapter-pibio_storage_get_current_record_fn
+          - name: "StorageAdapterGetDatabaseSize"
+            href: /windows/desktop/api/Winbio_adapter/nc-winbio_adapter-pibio_storage_get_database_size_fn
+          - name: "StorageAdapterGetDataFormat"
+            href: /windows/desktop/api/Winbio_adapter/nc-winbio_adapter-pibio_storage_get_data_format_fn
+          - name: "StorageAdapterGetRecordCount"
+            href: /windows/desktop/api/Winbio_adapter/nc-winbio_adapter-pibio_storage_get_record_count_fn
+          - name: "StorageAdapterNextRecord"
+            href: /windows/desktop/api/Winbio_adapter/nc-winbio_adapter-pibio_storage_next_record_fn
+          - name: "StorageAdapterNotifyPowerChange"
+            href: /windows/desktop/api/Winbio_adapter/nc-winbio_adapter-pibio_storage_notify_power_change_fn
+          - name: "StorageAdapterOpenDatabase"
+            href: /windows/desktop/api/Winbio_adapter/nc-winbio_adapter-pibio_storage_open_database_fn
+          - name: "StorageAdapterPipelineCleanup"
+            href: /windows/desktop/api/Winbio_adapter/nc-winbio_adapter-pibio_storage_pipeline_cleanup_fn
+          - name: "StorageAdapterPipelineInit"
+            href: /windows/desktop/api/Winbio_adapter/nc-winbio_adapter-pibio_storage_pipeline_init_fn
+          - name: "StorageAdapterQueryByContent"
+            href: /windows/desktop/api/Winbio_adapter/nc-winbio_adapter-pibio_storage_query_by_content_fn
+          - name: "StorageAdapterQueryBySubject"
+            href: /windows/desktop/api/Winbio_adapter/nc-winbio_adapter-pibio_storage_query_by_subject_fn
+          - name: "StorageAdapterQueryExtendedInfo"
+            href: /windows/desktop/api/Winbio_adapter/nc-winbio_adapter-pibio_storage_query_extended_info_fn
+          - name: "WbioQueryStorageInterface"
+            href: /windows/desktop/api/Winbio_adapter/nf-winbio_adapter-wbioquerystorageinterface
+      - name: "Plug-in Structures"
+        href: plug-in-structures.md
+        items: 
+        - name: "WINBIO_ACCOUNT_POLICY"
+          href: winbio-account-policy.md
+        - name: "WINBIO_ADAPTER_INTERFACE_VERSION"
+          href: /windows/win32/api/Winbio_adapter/ns-winbio_adapter-winbio_adapter_interface_version
+        - name: "WINBIO_ENGINE_INTERFACE"
+          href: /windows/win32/api/Winbio_adapter/ns-winbio_adapter-winbio_engine_interface
+        - name: "WINBIO_EXTENDED_ENROLLMENT_PARAMETERS"
+          href: winbio-extended-enrollment-parameters.md
+        - name: "WINBIO_PIPELINE"
+          href: /windows/win32/api/Winbio_adapter/ns-winbio_adapter-winbio_pipeline
+        - name: "WINBIO_SENSOR_INTERFACE"
+          href: /windows/win32/api/Winbio_adapter/ns-winbio_adapter-winbio_sensor_interface
+        - name: "WINBIO_STORAGE_INTERFACE"
+          href: /windows/win32/api/Winbio_adapter/ns-winbio_adapter-winbio_storage_interface
+        - name: "WINBIO_STORAGE_RECORD"
+          href: /windows/win32/api/Winbio_adapter/ns-winbio_adapter-winbio_storage_record
+      - name: "Plug-in Wrapper Functions"
+        href: plug-in-wrapper-functions.md
+        items: 
+        - name: "Engine Adapter Wrappers"
+          href: engine-adapter-wrappers.md
+        - name: "Sensor Adapter Wrappers"
+          href: sensor-adapter-wrappers.md
+        - name: "Storage Adapter Wrappers"
+          href: storage-adapter-wrappers.md

@@ -1,0 +1,3776 @@
+- name: "Windows Installer"
+  href: windows-installer-portal.md
+  items: 
+  - name: "Roadmap to Windows Installer Documentation"
+    href: roadmap-to-windows-installer-documentation.md
+    items: 
+    - name: "Role-based Guide to Windows Installer Documentation"
+      href: role-based-guide-to-windows-installer-documentation.md
+    - name: "Other Sources of Windows Installer Information"
+      href: other-sources-of-windows-installer-information.md
+    - name: "Windows Installer Best Practices"
+      href: windows-installer-best-practices.md
+  - name: "What's New in Windows Installer"
+    href: what-s-new-in-windows-installer.md
+    items: 
+    - name: "What's New in Windows Installer 5.0"
+      href: what-s-new-in-windows-installer-5-0.md
+    - name: "Not Supported in Windows Installer 4.5"
+      href: not-supported-in-windows-installer-4-5.md
+    - name: "Not Supported in Windows Installer 4.0"
+      href: not-supported-in-windows-installer-4-0.md
+    - name: "Not Supported in Windows Installer 3.1"
+      href: not-supported-in-windows-installer-version-3-1.md
+    - name: "Not Supported in Windows Installer 3.0"
+      href: not-supported-in-windows-installer-version-3-0.md
+    - name: "Not Supported in Windows Installer 2.0"
+      href: not-supported-in-windows-installer-version-2-0.md
+  - name: "About Windows Installer"
+    href: about-windows-installer.md
+    items: 
+    - name: "Overview of Windows Installer"
+      href: overview-of-windows-installer.md
+      items: 
+      - name: "Installation Package"
+        href: installation-package.md
+      - name: "Components and Features"
+        href: components-and-features.md
+        items: 
+        - name: "Windows Installer Components"
+          href: windows-installer-components.md
+        - name: "Windows Installer Features"
+          href: windows-installer-features.md
+      - name: "Installation Mechanism"
+        href: installation-mechanism.md
+      - name: "Component Management"
+        href: component-management.md
+      - name: "Advertisement"
+        href: advertisement.md
+        items: 
+        - name: "Platform Support of Advertisement"
+          href: platform-support-of-advertisement.md
+      - name: "Installation-On-Demand"
+        href: installation-on-demand.md
+      - name: "Resiliency"
+        href: resiliency.md
+      - name: "Customization"
+        href: customization.md
+    - name: "Administrative Installation"
+      href: administrative-installation.md
+    - name: "Rollback Installation"
+      href: rollback-installation.md
+    - name: "Maintenance Installation"
+      href: maintenance-installation.md
+    - name: "Windows Installer File Name Extensions"
+      href: windows-installer-file-extensions.md
+    - name: "Command Line Options"
+      href: command-line-options.md
+      items: 
+      - name: "Standard Installer Command Line Options"
+        href: standard-installer-command-line-options.md
+    - name: "System Reboots"
+      href: system-reboots.md
+      items: 
+      - name: "Logging of Reboot Requests"
+        href: logging-of-reboot-requests.md
+    - name: "System Policy"
+      href: system-policy.md
+      items: 
+      - name: "User Policies"
+        href: user-policies.md
+        items: 
+        - name: "AlwaysInstallElevated"
+          href: alwaysinstallelevated.md
+        - name: "DisableMedia"
+          href: disablemedia.md
+        - name: "DisableRollback"
+          href: disablerollback.md
+        - name: "SearchOrder"
+          href: searchorder.md
+        - name: "TransformsAtSource Policy"
+          href: transformsatsource-policy.md
+      - name: "Machine Policies"
+        href: machine-policies.md
+        items: 
+        - name: "AllowLockdownBrowse"
+          href: allowlockdownbrowse.md
+        - name: "AllowLockdownMedia"
+          href: allowlockdownmedia.md
+        - name: "AllowLockdownPatch"
+          href: allowlockdownpatch.md
+        - name: "Debug"
+          href: debug.md
+        - name: "DisableAutomaticApplicationShutdown"
+          href: disableautomaticapplicationshutdown.md
+        - name: "DisableBrowse"
+          href: disablebrowse.md
+        - name: "DisableFlyWeightPatching"
+          href: disableflyweightpatching.md
+        - name: "DisableLoggingFromPackage"
+          href: disableloggingfrompackage.md
+        - name: "DisableLUAPatching"
+          href: disableluapatching.md
+        - name: "DisableMSI"
+          href: disablemsi.md
+        - name: "DisablePatch"
+          href: disablepatch.md
+        - name: "DisablePatchUninstall"
+          href: disablepatchuninstall.md
+        - name: "DisableSharedComponent"
+          href: disablesharedcomponent.md
+        - name: "DisableUserInstalls"
+          href: disableuserinstalls.md
+        - name: "EnableAdminTSRemote"
+          href: enableadmintsremote.md
+        - name: "EnableUserControl"
+          href: enableusercontrol.md
+        - name: "EnforceUpgradeComponentRules"
+          href: enforceupgradecomponentrules.md
+        - name: "LimitSystemRestoreCheckpointing"
+          href: limitsystemrestorecheckpointing.md
+        - name: "Logging"
+          href: logging.md
+        - name: "MaxPatchCacheSize"
+          href: maxpatchcachesize.md
+        - name: "MsiDisableEmbeddedUI"
+          href: msidisableembeddedui.md
+        - name: "SafeForScripting"
+          href: safeforscripting.md
+        - name: "TransformsSecure Policy"
+          href: transformssecure-policy.md
+        - name: "WinHttpAutoLogonLevel"
+          href: winhttpautologonlevel.md
+    - name: "Source Resiliency"
+      href: source-resiliency.md
+      items: 
+      - name: "Source Resiliency Policy"
+        href: source-resiliency-policy-windows-installer-version-2-0.md
+    - name: "Using Windows Installer and Windows Resource Protection"
+      href: windows-resource-protection-on-windows-vista.md
+    - name: "System Restore Points and the Windows Installer"
+      href: system-restore-points-and-the-windows-installer.md
+    - name: "File Versioning Rules"
+      href: file-versioning-rules.md
+      items: 
+      - name: "Default File Versioning"
+        href: default-file-versioning.md
+        items: 
+        - name: "Both Files Have a Version"
+          href: both-files-have-a-version.md
+        - name: "Neither File Has a Version"
+          href: neither-file-has-a-version.md
+        - name: "Neither File Has a Version with File Hash Check"
+          href: neither-file-has-a-version-with-file-hash-check.md
+        - name: "One File Has a Version"
+          href: one-file-has-a-version.md
+    - name: "Product Codes"
+      href: product-codes.md
+    - name: "Package Codes"
+      href: package-codes.md
+    - name: "Merges and Transforms"
+      href: merges-and-transforms.md
+    - name: "Qualified Components"
+      href: qualified-components.md
+    - name: "Windows Installer Logging"
+      href: windows-installer-logging.md
+      items: 
+      - name: "Normal Logging"
+        href: normal-logging.md
+      - name: "Event Logging"
+        href: event-logging.md
+      - name: "Logging of Action Return Values"
+        href: logging-of-action-return-values.md
+      - name: "Preventing Confidential Information from Being Written into the Log File"
+        href: preventing-confidential-information-from-being-written-into-the-log-file.md
+    - name: "Companion Files"
+      href: companion-files.md
+    - name: "Isolated Components"
+      href: isolated-components.md
+      items: 
+      - name: "Installation of Isolated Components"
+        href: installation-of-isolated-components.md
+      - name: "Reinstallation of Isolated Components"
+        href: reinstallation-of-isolated-components.md
+      - name: "Removal of Isolated Components"
+        href: removal-of-isolated-components.md
+    - name: "Installation Context"
+      href: installation-context.md
+  - name: "Using Windows Installer"
+    href: using-windows-installer.md
+    items: 
+    - name: "Organizing Applications into Components"
+      href: organizing-applications-into-components.md
+      items: 
+      - name: "Changing the Component Code"
+        href: changing-the-component-code.md
+      - name: "What happens if the component rules are broken?"
+        href: what-happens-if-the-component-rules-are-broken.md
+      - name: "Defining Installer Components"
+        href: defining-installer-components.md
+    - name: "Downloading an Installation from the Internet"
+      href: downloading-an-installation-from-the-internet.md
+    - name: "Multiple-Package Installations"
+      href: multiple-package-installations.md
+    - name: "Concurrent Installations"
+      href: concurrent-installations.md
+      items: 
+      - name: "Custom Action Type 7"
+        href: custom-action-type-7.md
+      - name: "Custom Action Type 23"
+        href: custom-action-type-23.md
+      - name: "Custom Action Type 39"
+        href: custom-action-type-39.md
+      - name: "ICE11"
+        href: ice11.md
+      - name: "_MSIExecute Mutex"
+        href: -msiexecute-mutex.md
+      - name: "__MsiPromptForCD Mutex"
+        href: --msipromptforcd-mutex.md
+    - name: "Configuring Add/Remove Programs with Windows Installer"
+      href: configuring-add-remove-programs-with-windows-installer.md
+    - name: "Using Cabinets and Compressed Sources"
+      href: using-cabinets-and-compressed-sources.md
+      items: 
+      - name: "Compressed and Uncompressed Sources"
+        href: compressed-and-uncompressed-sources.md
+      - name: "Cabinet Files"
+        href: cabinet-files.md
+      - name: "Including a Cabinet File in an Installation"
+        href: including-a-cabinet-file-in-an-installation.md
+      - name: "Ordering File Sequence Numbers in a Cabinet, File Table and Media Table"
+        href: ordering-file-sequence-numbers-in-a-cabinet-file-table-and-media-table.md
+    - name: "Using Qualified Components"
+      href: using-qualified-components.md
+    - name: "Using Transitive Components"
+      href: using-transitive-components.md
+    - name: "Localizing a Windows Installer Package"
+      href: localizing-a-windows-installer-package.md
+      items: 
+      - name: "Code Page Handling (Windows Installer)"
+        href: code-page-handling-windows-installer-.md
+        items: 
+        - name: "Code Page Handling of Imported and Exported Tables"
+          href: code-page-handling-of-imported-and-exported-tables.md
+        - name: "Code Page Handling of Parameter Strings"
+          href: code-page-handling-of-parameter-strings.md
+      - name: "Creating a Database with a Neutral Code Page"
+        href: creating-a-database-with-a-neutral-code-page.md
+      - name: "Localizing the Error and ActionText Tables"
+        href: localizing-the-error-and-actiontext-tables.md
+      - name: "Determining an Installation Database's Code Page"
+        href: determining-an-installation-database-s-code-page.md
+      - name: "Localizing the Language Displayed by Dialogs"
+        href: localizing-the-language-displayed-by-dialogs.md
+      - name: "Setting the Code Page of a Database"
+        href: setting-the-code-page-of-a-database.md
+      - name: "Preparing a Windows Installer Package for Localization"
+        href: preparing-a-windows-installer-package-for-localization.md
+    - name: "Searching for Existing Applications, Files, Registry Entries or .ini File Entries"
+      href: searching-for-existing-applications-files-registry-entries-or--ini-file-entries.md
+      items: 
+      - name: "Searching All Fixed Drives for a File"
+        href: searching-all-fixed-drives-for-a-file.md
+      - name: "Searching for a File in a Specific Location"
+        href: searching-for-a-file-in-a-specific-location.md
+      - name: "Searching for a Directory and a File in the Directory"
+        href: searching-for-a-directory-and-a-file-in-the-directory.md
+      - name: "Searching for a File and Creating a Property Holding the File's Path"
+        href: searching-for-a-file-and-creating-a-property-holding-the-file-s-path.md
+      - name: "Searching for a Registry Entry and Creating a Property Holding the Value of the Registry"
+        href: searching-for-a-registry-entry-and-creating-a-property-holding-the-value-of-the-registry.md
+    - name: "Authoring a Large Package"
+      href: authoring-a-large-package.md
+    - name: "Determining Installation Context"
+      href: determining-installation-context.md
+    - name: "Checking the Installation of Features, Components, Files"
+      href: checking-the-installation-of-features-components-files.md
+    - name: "CRC Checking During an Installation"
+      href: crc-checking-during-an-installation.md
+    - name: "Installing Permanent Components, Files, Fonts, Registry Keys"
+      href: installing-permanent-components-files-fonts-registry-keys.md
+    - name: "Removing Stranded Files"
+      href: removing-stranded-files.md
+    - name: "Searching for a Broken Feature or Component"
+      href: searching-for-a-broken-feature-or-component.md
+    - name: "Replacing Existing Files"
+      href: replacing-existing-files.md
+    - name: "Editing Installer Shortcuts"
+      href: editing-installer-shortcuts.md
+    - name: "Installing Multiple Instances of Products and Patches"
+      href: installing-multiple-instances-of-products-and-patches.md
+      items: 
+      - name: "Authoring Multiple Instances with Instance Transforms"
+        href: authoring-multiple-instances-with-instance-transforms.md
+      - name: "Installing Multiple Instances with Instance Transforms"
+        href: installing-multiple-instances-with-instance-transforms.md
+    - name: "Using Windows Installer with a Terminal Server"
+      href: using-windows-installer-with-a-terminal-server.md
+    - name: "Controlling Feature Selection States"
+      href: controlling-feature-selection-states.md
+    - name: "Guidelines for Authoring Secure Installations"
+      href: guidelines-for-authoring-secure-installations.md
+      items: 
+      - name: "Guidelines for Securing Custom Actions"
+        href: guidelines-for-securing-custom-actions.md
+      - name: "Guidelines for Securing Packages on Locked-Down Computers"
+        href: guidelines-for-securing-packages-on-locked-down-computers.md
+      - name: "Securing Resources"
+        href: securing-resources-.md
+    - name: "Using Isolated Components"
+      href: using-isolated-components.md
+      items: 
+      - name: "Installing a COM Component to a Private Location"
+        href: installing-a-com-component-to-a-private-location.md
+      - name: "Installing a non-COM Component to a Private Location"
+        href: installing-a-non-com-component-to-a-private-location.md
+      - name: "Make a COM Component in an Existing Package Private"
+        href: make-a-com-component-in-an-existing-package-private.md
+      - name: "Make a non-COM Component in an Existing Package Private"
+        href: make-a-non-com-component-in-an-existing-package-private.md
+    - name: "Determining the Windows Installer Version"
+      href: determining-the-windows-installer-version.md
+    - name: "Installing a COM+ Application with the Windows Installer"
+      href: installing-a-com--application-with-the-windows-installer.md
+    - name: "Adding or Removing Registry Keys on the Installation or Removal of Components"
+      href: adding-or-removing-registry-keys-on-the-installation-or-removal-of-components.md
+    - name: "Adding and Removing an Application and Leaving No Trace in the Registry"
+      href: adding-and-removing-an-application-and-leaving-no-trace-in-the-registry.md
+    - name: "Reducing the Size of an .msi File"
+      href: reducing-the-size-of-an--msi-file.md
+    - name: "Changing the Target Location for a Directory"
+      href: changing-the-target-location-for-a-directory.md
+    - name: "Hiding the Cancel Button During an Installation"
+      href: hiding-the-cancel-button-during-an-installation.md
+    - name: "Using Windows Installer with UAC"
+      href: using-windows-installer-with-uac.md
+      items: 
+      - name: "Guidelines for Packages"
+        href: guidelines-for-packages.md
+      - name: "Authoring Packages without the UAC Dialog Box"
+        href: authoring-packages-without-the-uac-dialog-box.md
+      - name: "Installing a Package with Elevated Privileges for a Non-Admin"
+        href: installing-a-package-with-elevated-privileges-for-a-non-admin.md
+      - name: "Advertising a Per-User Application To Be Installed with Elevated Privileges"
+        href: advertising-a-per-user-application-to-be-installed-with-elevated-privileges.md
+    - name: "Using Windows Installer with Restart Manager"
+      href: using-windows-installer-with-restart-manager.md
+      items: 
+      - name: "Using Restart Manager with an External UI"
+        href: using-restart-manager-with-an-external-ui-.md
+    - name: "Using Windows Installer with WMI"
+      href: using-windows-installer-with-wmi.md
+    - name: "Enumerating Components"
+      href: enumerating-components-.md
+    - name: "Using Services Configuration"
+      href: using-services-configuration.md
+    - name: "Single Package Authoring"
+      href: single-package-authoring.md
+  - name: "Windows Installer Guide"
+    href: windows-installer-guide.md
+    items: 
+    - name: "Digital Signatures and Windows Installer"
+      href: digital-signatures-and-windows-installer.md
+      items: 
+      - name: "Digital Signatures and External Cabinet Files"
+        href: digital-signatures-and-external-cabinet-files.md
+      - name: "Windows Installer and Software Restriction Policy"
+        href: windows-installer-and-software-restriction-policy.md
+      - name: "Authoring a Fully Verified Signed Installation"
+        href: authoring-a-fully-verified-signed-installation.md
+        items: 
+        - name: "Authoring a Fully Verified Signed Installation Using Automation"
+          href: authoring-a-fully-verified-signed-installation-using-automation.md
+    - name: "Assemblies"
+      href: assemblies.md
+      items: 
+      - name: "Adding Assemblies to a Package"
+        href: adding-assemblies-to-a-package.md
+      - name: "Installing and Removing Assemblies"
+        href: installing-and-removing-assemblies.md
+        items: 
+        - name: "Installation of Win32 Assemblies"
+          href: installation-of-win32-assemblies.md
+          items: 
+          - name: "Shared Assemblies"
+            href: shared-assemblies.md
+          - name: "Private Assemblies"
+            href: private-assemblies.md
+          - name: "Side-by-side Assemblies"
+            href: side-by-side-assemblies.md
+          - name: "Installing Win32 Assemblies for Side-by-Side Sharing on Windows XP"
+            href: installing-win32-assemblies-for-side-by-side-sharing-on-windows-xp.md
+          - name: "Installing Win32 Assemblies for the Private Use of an Application on Windows XP"
+            href: installing-win32-assemblies-for-the-private-use-of-an-application-on-windows-xp.md
+        - name: "Installation of Common Language Runtime Assemblies"
+          href: installation-of-common-language-runtime-assemblies.md
+          items: 
+          - name: "Installation of Assemblies to the Global Assembly Cache"
+            href: installation-of-assemblies-to-the-global-assembly-cache.md
+          - name: "Rollback of Assemblies in the Global Assembly Cache"
+            href: rollback-of-assemblies-in-the-global-assembly-cache.md
+          - name: "Removal of Assemblies from the Global Assembly Cache"
+            href: removal-of-assemblies-from-the-global-assembly-cache.md
+      - name: "Updating Assemblies"
+        href: updating-assemblies.md
+      - name: "Reinstallation Modes of Common Language Runtime Assemblies"
+        href: reinstallation-modes-of-common-language-runtime-assemblies.md
+      - name: "Assembly Registry Keys Written by Windows Installer"
+        href: assembly-registry-keys-written-by-windows-installer-.md
+    - name: "User Interface"
+      href: user-interface.md
+      items: 
+      - name: "About the User Interface"
+        href: about-the-user-interface.md
+        items: 
+        - name: "User Interface Schema"
+          href: user-interface-schema.md
+        - name: "Dialog Box Overview"
+          href: dialog-box-overview.md
+        - name: "Controls Overview"
+          href: controls-overview.md
+        - name: "ControlEvent Overview"
+          href: controlevent-overview.md
+        - name: "Accessibility"
+          href: accessibility.md
+          items: 
+          - name: "Adding Extra Text to Radio Buttons"
+            href: adding-extra-text-to-radio-buttons.md
+        - name: "User Interface Wizard Behavior"
+          href: user-interface-wizard-behavior.md
+        - name: "User Interface Levels"
+          href: user-interface-levels.md
+      - name: "Using the User Interface"
+        href: using-the-user-interface.md
+        items: 
+        - name: "Adding Controls and Text"
+          href: adding-controls-and-text.md
+        - name: "Authoring a ProgressBar Control"
+          href: authoring-a-progressbar-control.md
+        - name: "Authoring Disk Prompt Messages"
+          href: authoring-disk-prompt-messages.md
+        - name: "Authoring a Conditional Please Wait... Message Box"
+          href: authoring-a-conditional-please-wait-------message-box.md
+        - name: "Adding Text Stored in a Property"
+          href: adding-text-stored-in-a-property.md
+        - name: "Previewing the User Interface"
+          href: previewing-the-user-interface.md
+        - name: "Monitoring an Installation Using MsiSetExternalUIRecord"
+          href: monitoring-an-installation-using-msisetexternaluirecord.md
+        - name: "Monitoring an Installation Using MsiSetExternalUI"
+          href: monitoring-an-installation-using-msisetexternalui.md
+          items: 
+          - name: "Handling Progress Messages Using MsiSetExternalUI"
+            href: handling-progress-messages-using-msisetexternalui.md
+          - name: "Returning Values from an External User Interface Handler"
+            href: returning-values-from-an-external-user-interface-handler.md
+          - name: "Parsing Windows Installer Messages"
+            href: parsing-windows-installer-messages.md
+        - name: "Sending Messages to Windows Installer Using MsiProcessMessage"
+          href: sending-messages-to-windows-installer-using-msiprocessmessage.md
+        - name: "Displaying Billboards on a Modeless Dialog"
+          href: displaying-billboards-on-a-modeless-dialog.md
+        - name: "Using an Embedded UI"
+          href: using-an-embedded-ui.md
+      - name: "User Interface Reference"
+        href: user-interface-reference.md
+        items: 
+        - name: "Installer Units"
+          href: installer-units.md
+        - name: "Dialog Boxes"
+          href: dialog-boxes.md
+          items: 
+          - name: "Browse Dialog"
+            href: browse-dialog.md
+          - name: "Cancel Dialog"
+            href: cancel-dialog.md
+          - name: "DiskCost Dialog"
+            href: diskcost-dialog.md
+          - name: "Error Dialog"
+            href: error-dialog.md
+          - name: "Exit Dialog"
+            href: exit-dialog.md
+          - name: "FatalError Dialog"
+            href: fatalerror-dialog.md
+          - name: "FilesInUse Dialog"
+            href: filesinuse-dialog.md
+          - name: "FirstRun Dialog"
+            href: firstrun-dialog.md
+          - name: "LicenseAgreement Dialog"
+            href: licenseagreement-dialog.md
+          - name: "MsiRMFilesInUse Dialog"
+            href: msirmfilesinuse-dialog.md
+          - name: "Selection Dialog"
+            href: selection-dialog.md
+          - name: "UserExit Dialog"
+            href: userexit-dialog.md
+        - name: "Dialog Style Bits"
+          href: dialog-style-bits.md
+          items: 
+          - name: "BiDi Dialog Style Bit"
+            href: bidi-dialog-style-bit.md
+          - name: "Error Dialog Style Bit"
+            href: error-dialog-style-bit.md
+          - name: "KeepModeless Dialog Style Bit"
+            href: keepmodeless-dialog-style-bit.md
+          - name: "LeftScroll Dialog Style Bit"
+            href: leftscroll-dialog-style-bit.md
+          - name: "Minimize Dialog Style Bit"
+            href: minimize-dialog-style-bit.md
+          - name: "Modal Dialog Style Bit"
+            href: modal-dialog-style-bit.md
+          - name: "RightAligned Dialog Style Bit"
+            href: rightaligned-dialog-style-bit.md
+          - name: "RTLRO Dialog Style Bit"
+            href: rtlro-dialog-style-bit.md
+          - name: "SysModal Dialog Style Bit"
+            href: sysmodal-dialog-style-bit.md
+          - name: "TrackDiskSpace Dialog Style Bit"
+            href: trackdiskspace-dialog-style-bit.md
+          - name: "UseCustomPalette Dialog Style Bit"
+            href: usecustompalette-dialog-style-bit.md
+          - name: "Visible Dialog Style Bit"
+            href: visible-dialog-style-bit.md
+        - name: "Controls"
+          href: controls.md
+          items: 
+          - name: "Billboard Control"
+            href: billboard-control.md
+          - name: "Bitmap Control"
+            href: bitmap-control.md
+          - name: "CheckBox Control"
+            href: checkbox-control.md
+          - name: "ComboBox Control"
+            href: combobox-control.md
+          - name: "DirectoryCombo Control"
+            href: directorycombo-control.md
+          - name: "DirectoryList Control"
+            href: directorylist-control.md
+          - name: "Edit Control"
+            href: edit-control.md
+          - name: "GroupBox Control"
+            href: groupbox-control.md
+          - name: "Hyperlink Control"
+            href: hyperlink-control.md
+          - name: "Icon Control"
+            href: icon-control.md
+          - name: "Line Control"
+            href: line-control.md
+          - name: "ListBox Control"
+            href: listbox-control.md
+          - name: "ListView Control"
+            href: listview-control.md
+          - name: "MaskedEdit Control"
+            href: maskededit-control.md
+          - name: "PathEdit Control"
+            href: pathedit-control.md
+          - name: "ProgressBar Control"
+            href: progressbar-control.md
+          - name: "PushButton Control"
+            href: pushbutton-control.md
+          - name: "RadioButtonGroup Control"
+            href: radiobuttongroup-control.md
+          - name: "ScrollableText Control"
+            href: scrollabletext-control.md
+          - name: "SelectionTree Control"
+            href: selectiontree-control.md
+          - name: "Text Control"
+            href: text-control.md
+          - name: "VolumeCostList Control"
+            href: volumecostlist-control.md
+          - name: "VolumeSelectCombo Control"
+            href: volumeselectcombo-control.md
+        - name: "Control Attributes"
+          href: control-attributes.md
+          items: 
+          - name: "BiDi Control Attribute"
+            href: bidi-control-attribute.md
+          - name: "BillboardName Control Attribute"
+            href: billboardname-control-attribute.md
+          - name: "Bitmap Control Attribute"
+            href: bitmap-control-attribute.md
+          - name: "CDROMVolume Control Attribute"
+            href: cdromvolume-control-attribute.md
+          - name: "ComboList Control Attribute"
+            href: combolist-control-attribute.md
+          - name: "ControlShowRollbackCost Control Attribute"
+            href: controlshowrollbackcost-control-attribute.md
+          - name: "Enabled Control Attribute"
+            href: enabled-control-attribute.md
+          - name: "ElevationShield Attribute"
+            href: elevationshield-attribute.md
+          - name: "FixedSize Control Attribute"
+            href: fixedsize-control-attribute.md
+          - name: "FixedVolume Control Attribute"
+            href: fixedvolume-control-attribute.md
+          - name: "FloppyVolume Control Attribute"
+            href: floppyvolume-control-attribute.md
+          - name: "FormatSize Control Attribute"
+            href: formatsize-control-attribute.md
+          - name: "HasBorder Control Attribute"
+            href: hasborder-control-attribute.md
+          - name: "Icon Control Attribute"
+            href: icon-control-attribute.md
+          - name: "IconSize Control Attribute"
+            href: iconsize-control-attribute.md
+          - name: "Indirect Control Attribute"
+            href: indirect-control-attribute.md
+          - name: "IndirectPropertyName Control Attribute"
+            href: indirectpropertyname-control-attribute.md
+          - name: "Integer Control Attribute"
+            href: integer-control-attribute.md
+          - name: "LeftScroll Control Attribute"
+            href: leftscroll-control-attribute.md
+          - name: "MultiLine Control Attribute"
+            href: multiline-control-attribute.md
+          - name: "NoPrefix Control Attribute"
+            href: noprefix-control-attribute.md
+          - name: "NoWrap Control Attribute"
+            href: nowrap-control-attribute.md
+          - name: "Password Control Attribute"
+            href: password-control-attribute.md
+          - name: "Position Control Attribute"
+            href: position-control-attribute.md
+          - name: "Progress Control Attribute"
+            href: progress-control-attribute.md
+          - name: "Progress95 Control Attribute"
+            href: progress95-control-attribute.md
+          - name: "PropertyName Control Attribute"
+            href: propertyname-control-attribute.md
+          - name: "PropertyValue Control Attribute"
+            href: propertyvalue-control-attribute.md
+          - name: "PushLike Control Attribute"
+            href: pushlike-control-attribute.md
+          - name: "RAMDiskVolume Control Attribute"
+            href: ramdiskvolume-control-attribute.md
+          - name: "RemoteVolume Control Attribute"
+            href: remotevolume-control-attribute.md
+          - name: "RemovableVolume Control Attribute"
+            href: removablevolume-control-attribute.md
+          - name: "RightAligned Control Attribute"
+            href: rightaligned-control-attribute.md
+          - name: "RTLRO Control Attribute"
+            href: rtlro-control-attribute.md
+          - name: "Sorted Control Attribute"
+            href: sorted-control-attribute.md
+          - name: "Sunken Control Attribute"
+            href: sunken-control-attribute.md
+          - name: "Text Control Attribute"
+            href: text-control-attribute.md
+          - name: "TimeRemaining Control Attribute"
+            href: timeremaining-control-attribute.md
+          - name: "Transparent Control Attribute"
+            href: transparent-control-attribute.md
+          - name: "UsersLanguage Control Attribute"
+            href: userslanguage-control-attribute.md
+          - name: "Visible Control Attribute"
+            href: visible-control-attribute.md
+        - name: "Control Events"
+          href: control-events.md
+          items: 
+          - name: "ActionData ControlEvent"
+            href: actiondata-controlevent.md
+          - name: "ActionText ControlEvent"
+            href: actiontext-controlevent.md
+          - name: "AddLocal ControlEvent"
+            href: addlocal-controlevent.md
+          - name: "AddSource ControlEvent"
+            href: addsource-controlevent.md
+          - name: "CheckExistingTargetPath ControlEvent"
+            href: checkexistingtargetpath-controlevent.md
+          - name: "CheckTargetPath ControlEvent"
+            href: checktargetpath-controlevent.md
+          - name: "IgnoreChange ControlEvent"
+            href: ignorechange-controlevent.md
+          - name: "DirectoryListNew ControlEvent"
+            href: directorylistnew-controlevent.md
+          - name: "DirectoryListOpen ControlEvent"
+            href: directorylistopen-controlevent.md
+          - name: "DirectoryListUp ControlEvent"
+            href: directorylistup-controlevent.md
+          - name: "DoAction ControlEvent"
+            href: doaction-controlevent.md
+          - name: "EnableRollback ControlEvent"
+            href: enablerollback-controlevent.md
+          - name: "EndDialog ControlEvent"
+            href: enddialog-controlevent.md
+          - name: "MsiLaunchApp ControlEvent"
+            href: msilaunchapp-controlevent.md
+          - name: "MsiPrint ControlEvent"
+            href: msiprint-controlevent.md
+          - name: "NewDialog ControlEvent"
+            href: newdialog-controlevent.md
+          - name: "Reinstall ControlEvent"
+            href: reinstall-controlevent.md
+          - name: "ReinstallMode ControlEvent"
+            href: reinstallmode-controlevent.md
+          - name: "Remove ControlEvent"
+            href: remove-controlevent.md
+          - name: "Reset ControlEvent"
+            href: reset-controlevent.md
+          - name: "RmShutdownAndRestart ControlEvent"
+            href: rmshutdownandrestart-controlevent.md
+          - name: "ScriptInProgress ControlEvent"
+            href: scriptinprogress-controlevent.md
+          - name: "SelectionAction ControlEvent"
+            href: selectionaction-controlevent.md
+          - name: "SelectionBrowse ControlEvent"
+            href: selectionbrowse-controlevent.md
+          - name: "SelectionDescription ControlEvent"
+            href: selectiondescription-controlevent.md
+          - name: "SelectionNoItems ControlEvent"
+            href: selectionnoitems-controlevent.md
+          - name: "SelectionPath ControlEvent"
+            href: selectionpath-controlevent.md
+          - name: "SelectionPathOn ControlEvent"
+            href: selectionpathon-controlevent.md
+          - name: "SelectionSize ControlEvent"
+            href: selectionsize-controlevent.md
+          - name: "SetInstallLevel ControlEvent"
+            href: setinstalllevel-controlevent.md
+          - name: "SetProgress ControlEvent"
+            href: setprogress-controlevent.md
+          - name: "SetProperty ControlEvent"
+            href: setproperty-controlevent.md
+          - name: "SetTargetPath ControlEvent"
+            href: settargetpath-controlevent.md
+          - name: "SpawnDialog ControlEvent"
+            href: spawndialog-controlevent.md
+          - name: "SpawnWaitDialog ControlEvent"
+            href: spawnwaitdialog-controlevent.md
+          - name: "TimeRemaining ControlEvent"
+            href: timeremaining-controlevent.md
+          - name: "ValidateProductID ControlEvent"
+            href: validateproductid-controlevent.md
+    - name: "Standard Actions"
+      href: standard-actions.md
+      items: 
+      - name: "About Standard Actions"
+        href: about-standard-actions.md
+        items: 
+        - name: "Action Execution Order"
+          href: action-execution-order.md
+        - name: "Actions with Sequencing Restrictions"
+          href: actions-with-sequencing-restrictions.md
+        - name: "Actions without Sequencing Restrictions"
+          href: actions-without-sequencing-restrictions.md
+      - name: "Using Standard Actions"
+        href: using-standard-actions.md
+        items: 
+        - name: "Publishing Products, Features, and Components"
+          href: publishing-products-features-and-components.md
+        - name: "File Searching"
+          href: file-searching.md
+        - name: "File Costing"
+          href: file-costing.md
+        - name: "File Installation"
+          href: file-installation.md
+        - name: "Modifying the Registry"
+          href: modifying-the-registry.md
+        - name: "Running Actions"
+          href: running-actions.md
+      - name: "Standard Actions Reference"
+        href: standard-actions-reference.md
+        items: 
+        - name: "ADMIN Action"
+          href: admin-action.md
+        - name: "ADVERTISE Action"
+          href: advertise-action.md
+        - name: "AllocateRegistrySpace Action"
+          href: allocateregistryspace-action.md
+        - name: "AppSearch Action"
+          href: appsearch-action.md
+        - name: "BindImage Action"
+          href: bindimage-action.md
+        - name: "CCPSearch Action"
+          href: ccpsearch-action.md
+        - name: "CostFinalize Action"
+          href: costfinalize-action.md
+        - name: "CostInitialize Action"
+          href: costinitialize-action.md
+        - name: "CreateFolders Action"
+          href: createfolders-action.md
+        - name: "CreateShortcuts Action"
+          href: createshortcuts-action.md
+        - name: "DeleteServices Action"
+          href: deleteservices-action.md
+        - name: "DisableRollback Action"
+          href: disablerollback-action.md
+        - name: "DuplicateFiles Action"
+          href: duplicatefiles-action.md
+        - name: "ExecuteAction Action"
+          href: executeaction-action.md
+        - name: "FileCost Action"
+          href: filecost-action.md
+        - name: "FindRelatedProducts Action"
+          href: findrelatedproducts-action.md
+        - name: "ForceReboot Action"
+          href: forcereboot-action.md
+        - name: "INSTALL Action"
+          href: install-action.md
+        - name: "InstallAdminPackage Action"
+          href: installadminpackage-action.md
+        - name: "InstallExecute Action"
+          href: installexecute-action.md
+        - name: "InstallExecuteAgain Action"
+          href: installexecuteagain-action.md
+        - name: "InstallFiles Action"
+          href: installfiles-action.md
+        - name: "InstallFinalize Action"
+          href: installfinalize-action.md
+        - name: "InstallInitialize Action"
+          href: installinitialize-action.md
+        - name: "InstallODBC Action"
+          href: installodbc-action.md
+        - name: "InstallServices Action"
+          href: installservices-action.md
+        - name: "InstallSFPCatalogFile Action"
+          href: installsfpcatalogfile-action.md
+        - name: "InstallValidate Action"
+          href: installvalidate-action.md
+        - name: "IsolateComponents Action"
+          href: isolatecomponents-action.md
+        - name: "LaunchConditions Action"
+          href: launchconditions-action.md
+        - name: "MigrateFeatureStates Action"
+          href: migratefeaturestates-action.md
+        - name: "MoveFiles Action"
+          href: movefiles-action.md
+        - name: "MsiConfigureServices Action"
+          href: msiconfigureservices-action.md
+        - name: "MsiPublishAssemblies Action"
+          href: msipublishassemblies-action.md
+        - name: "MsiUnpublishAssemblies Action"
+          href: msiunpublishassemblies-action.md
+        - name: "PatchFiles Action"
+          href: patchfiles-action.md
+        - name: "ProcessComponents Action"
+          href: processcomponents-action.md
+        - name: "PublishComponents Action"
+          href: publishcomponents-action.md
+        - name: "PublishFeatures Action"
+          href: publishfeatures-action.md
+        - name: "PublishProduct Action"
+          href: publishproduct-action.md
+        - name: "RegisterClassInfo Action"
+          href: registerclassinfo-action.md
+        - name: "RegisterComPlus Action"
+          href: registercomplus-action.md
+        - name: "RegisterExtensionInfo Action"
+          href: registerextensioninfo-action.md
+        - name: "RegisterFonts Action"
+          href: registerfonts-action.md
+        - name: "RegisterMIMEInfo Action"
+          href: registermimeinfo-action.md
+        - name: "RegisterProduct Action"
+          href: registerproduct-action.md
+        - name: "RegisterProgIdInfo Action"
+          href: registerprogidinfo-action.md
+        - name: "RegisterTypeLibraries Action"
+          href: registertypelibraries-action.md
+        - name: "RegisterUser Action"
+          href: registeruser-action.md
+        - name: "RemoveDuplicateFiles Action"
+          href: removeduplicatefiles-action.md
+        - name: "RemoveEnvironmentStrings Action"
+          href: removeenvironmentstrings-action.md
+        - name: "RemoveExistingProducts Action"
+          href: removeexistingproducts-action.md
+        - name: "RemoveFiles Action"
+          href: removefiles-action.md
+        - name: "RemoveFolders Action"
+          href: removefolders-action.md
+        - name: "RemoveIniValues Action"
+          href: removeinivalues-action.md
+        - name: "RemoveODBC Action"
+          href: removeodbc-action.md
+        - name: "RemoveRegistryValues Action"
+          href: removeregistryvalues-action.md
+        - name: "RemoveShortcuts Action"
+          href: removeshortcuts-action.md
+        - name: "ResolveSource Action"
+          href: resolvesource-action.md
+        - name: "RMCCPSearch Action"
+          href: rmccpsearch-action.md
+        - name: "ScheduleReboot Action"
+          href: schedulereboot-action.md
+        - name: "SelfRegModules Action"
+          href: selfregmodules-action.md
+        - name: "SelfUnregModules Action"
+          href: selfunregmodules-action.md
+        - name: "SEQUENCE Action"
+          href: sequence-action.md
+        - name: "SetODBCFolders Action"
+          href: setodbcfolders-action.md
+        - name: "StartServices Action"
+          href: startservices-action.md
+        - name: "StopServices Action"
+          href: stopservices-action.md
+        - name: "UnpublishComponents Action"
+          href: unpublishcomponents-action.md
+        - name: "UnpublishFeatures Action"
+          href: unpublishfeatures-action.md
+        - name: "UnregisterClassInfo Action"
+          href: unregisterclassinfo-action.md
+        - name: "UnregisterComPlus Action"
+          href: unregistercomplus-action.md
+        - name: "UnregisterExtensionInfo Action"
+          href: unregisterextensioninfo-action.md
+        - name: "UnregisterFonts Action"
+          href: unregisterfonts-action.md
+        - name: "UnregisterMIMEInfo Action"
+          href: unregistermimeinfo-action.md
+        - name: "UnregisterProgIdInfo Action"
+          href: unregisterprogidinfo-action.md
+        - name: "UnregisterTypeLibraries Action"
+          href: unregistertypelibraries-action.md
+        - name: "ValidateProductID Action"
+          href: validateproductid-action.md
+        - name: "WriteEnvironmentStrings Action"
+          href: writeenvironmentstrings-action.md
+        - name: "WriteIniValues Action"
+          href: writeinivalues-action.md
+        - name: "WriteRegistryValues Action"
+          href: writeregistryvalues-action.md
+    - name: "Custom Actions"
+      href: custom-actions.md
+      items: 
+      - name: "About Custom Actions"
+        href: about-custom-actions.md
+        items: 
+        - name: "Custom Action Sources"
+          href: custom-action-sources.md
+        - name: "Synchronous and Asynchronous Custom Actions"
+          href: synchronous-and-asynchronous-custom-actions.md
+        - name: "Rollback Custom Actions"
+          href: rollback-custom-actions.md
+        - name: "Commit Custom Actions"
+          href: commit-custom-actions.md
+        - name: "Deferred Execution Custom Actions"
+          href: deferred-execution-custom-actions.md
+        - name: "Executable Files"
+          href: executable-files.md
+        - name: "Dynamic-Link Libraries"
+          href: dynamic-link-libraries.md
+        - name: "Scripts"
+          href: scripts.md
+        - name: "Formatted Text Custom Actions"
+          href: formatted-text-custom-actions.md
+        - name: "Error Message Custom Actions"
+          href: error-message-custom-actions.md
+        - name: "Custom Action Security"
+          href: custom-action-security.md
+      - name: "Using Custom Actions"
+        href: using-custom-actions.md
+        items: 
+        - name: "Invoking Custom Actions"
+          href: invoking-custom-actions.md
+        - name: "Sequencing Custom Actions"
+          href: sequencing-custom-actions.md
+        - name: "Obtaining Context Information for Deferred Execution Custom Actions"
+          href: obtaining-context-information-for-deferred-execution-custom-actions.md
+        - name: "Adding Custom Actions to the ProgressBar"
+          href: adding-custom-actions-to-the-progressbar.md
+        - name: "Debugging Custom Actions"
+          href: debugging-custom-actions.md
+        - name: "Determining UI Level from a Custom Action"
+          href: determining-ui-level-from-a-custom-action.md
+        - name: "Uninstalling Custom Actions"
+          href: uninstalling-custom-actions.md
+        - name: "Returning Error Messages from Custom Actions"
+          href: returning-error-messages-from-custom-actions.md
+        - name: "Setting a Restore Point from a Custom Action"
+          href: setting-a-restore-point-from-a-custom-action.md
+        - name: "Functions Not for Use in Custom Actions"
+          href: functions-not-for-use-in-custom-actions.md
+        - name: "Changing the System State Using a Custom Action"
+          href: changing-the-system-state-using-a-custom-action.md
+        - name: "Accessing the Current Installer Session from Inside a Custom Action"
+          href: accessing-the-current-installer-session-from-inside-a-custom-action.md
+        - name: "Accessing a Database or Session from Inside a Custom Action"
+          href: accessing-a-database-or-session-from-inside-a-custom-action.md
+        - name: "Using a Custom Action to Launch an Installed File at the End of the Installation"
+          href: using-a-custom-action-to-launch-an-installed-file-at-the-end-of-the-installation.md
+          items: 
+          - name: "Authoring the Launch Custom Action"
+            href: authoring-the-launch-custom-action.md
+          - name: "Adding Launch to the CustomAction and Binary Tables"
+            href: adding-launch-to-the-customaction-and-binary-tables.md
+          - name: "Adding a Control Event at the End of the Installation to Run Launch"
+            href: adding-a-control-event-at-the-end-of-the-installation-to-run-launch.md
+        - name: "Using a Custom Action to Create User Accounts on a Local Computer"
+          href: using-a-custom-action-to-create-user-accounts-on-a-local-computer.md
+          items: 
+          - name: "Authoring the Custom Actions"
+            href: authoring-the-custom-actions.md
+          - name: "Authoring the CustomAction Table"
+            href: authoring-the-customaction-table.md
+          - name: "Adding a Custom CustomUserAccounts Table"
+            href: adding-a-custom-customuseraccounts-table.md
+          - name: "Authoring the ActionText and Error Tables"
+            href: authoring-the-actiontext-and-error-tables.md
+          - name: "Authoring the InstallExecuteSequence Table"
+            href: authoring-the-installexecutesequence-table.md
+          - name: "Authoring the User Interface for Password Input"
+            href: authoring-the-user-interface-for-password-input.md
+          - name: "Securing the Installation"
+            href: securing-the-installation.md
+        - name: "Using 64-bit Custom Actions"
+          href: using-64-bit-custom-actions.md
+      - name: "Custom Action Reference"
+        href: custom-action-reference.md
+        items: 
+        - name: "Custom Action Types"
+          href: summary-list-of-all-custom-action-types.md
+          items: 
+          - name: "Custom Action Type 1"
+            href: custom-action-type-1.md
+          - name: "Custom Action Type 2"
+            href: custom-action-type-2.md
+          - name: "Custom Action Type 5"
+            href: custom-action-type-5.md
+          - name: "Custom Action Type 6"
+            href: custom-action-type-6.md
+          - name: "Custom Action Type 17"
+            href: custom-action-type-17.md
+          - name: "Custom Action Type 18"
+            href: custom-action-type-18.md
+          - name: "Custom Action Type 19"
+            href: custom-action-type-19.md
+          - name: "Custom Action Type 21"
+            href: custom-action-type-21.md
+          - name: "Custom Action Type 22"
+            href: custom-action-type-22.md
+          - name: "Custom Action Type 34"
+            href: custom-action-type-34.md
+          - name: "Custom Action Type 35"
+            href: custom-action-type-35.md
+          - name: "Custom Action Type 37"
+            href: custom-action-type-37.md
+          - name: "Custom Action Type 38"
+            href: custom-action-type-38.md
+          - name: "Custom Action Type 50"
+            href: custom-action-type-50.md
+          - name: "Custom Action Type 51"
+            href: custom-action-type-51.md
+          - name: "Custom Action Type 53"
+            href: custom-action-type-53.md
+          - name: "Custom Action Type 54"
+            href: custom-action-type-54.md
+        - name: "Custom Action Execution Scheduling Options"
+          href: custom-action-execution-scheduling-options.md
+        - name: "Custom Action Hidden Target Option"
+          href: custom-action-hidden-target-option.md
+        - name: "Custom Action In-Script Execution Options"
+          href: custom-action-in-script-execution-options.md
+        - name: "Custom Action Patch Uninstall Option"
+          href: custom-action-patch-uninstall-option.md
+          items: 
+          - name: "MsiTransformView"
+            href: msitransformview.md
+        - name: "Custom Action Return Processing Options"
+          href: custom-action-return-processing-options.md
+        - name: "Custom Action Return Values"
+          href: custom-action-return-values.md
+        - name: "Return Values of JScript and VBScript Custom Actions"
+          href: return-values-of-jscript-and-vbscript-custom-actions.md
+    - name: "Properties"
+      href: properties.md
+      items: 
+      - name: "About Properties"
+        href: about-properties.md
+        items: 
+        - name: "Private Properties"
+          href: private-properties.md
+        - name: "Public Properties"
+          href: public-properties.md
+        - name: "Restricted Public Properties"
+          href: restricted-public-properties.md
+        - name: "Required Properties"
+          href: required-properties.md
+        - name: "Order of Property Precedence"
+          href: order-of-property-precedence.md
+      - name: "Using Properties"
+        href: using-properties.md
+        items: 
+        - name: "Restrictions on Property Names"
+          href: restrictions-on-property-names.md
+        - name: "Initialization of Property Values"
+          href: initialization-of-property-values.md
+        - name: "Getting and Setting Properties"
+          href: getting-and-setting-properties.md
+        - name: "Setting Public Property Values on the Command Line"
+          href: setting-public-property-values-on-the-command-line.md
+        - name: "Clearing an Installer Property"
+          href: clearing-an-installer-property.md
+        - name: "Using Properties in Conditional Statements"
+          href: using-properties-in-conditional-statements.md
+        - name: "Using a Directory Property in a Path"
+          href: using-a-directory-property-in-a-path.md
+      - name: "Property Reference"
+        href: property-reference.md
+        items: 
+        - name: "ACTION"
+          href: action.md
+        - name: "ADDDEFAULT"
+          href: adddefault.md
+        - name: "ADDLOCAL"
+          href: addlocal.md
+        - name: "ADDSOURCE"
+          href: addsource.md
+        - name: "AdminProperties"
+          href: adminproperties.md
+        - name: "AdminToolsFolder"
+          href: admintoolsfolder.md
+        - name: "AdminUser"
+          href: adminuser.md
+        - name: "ADVERTISE"
+          href: advertise.md
+        - name: "AFTERREBOOT"
+          href: afterreboot.md
+        - name: "ALLUSERS"
+          href: allusers.md
+        - name: "Alpha"
+          href: alpha.md
+        - name: "AppDataFolder"
+          href: appdatafolder.md
+        - name: "ARPAUTHORIZEDCDFPREFIX"
+          href: arpauthorizedcdfprefix.md
+        - name: "ARPCOMMENTS"
+          href: arpcomments.md
+        - name: "ARPCONTACT"
+          href: arpcontact.md
+        - name: "ARPHELPLINK"
+          href: arphelplink.md
+        - name: "ARPHELPTELEPHONE"
+          href: arphelptelephone.md
+        - name: "ARPINSTALLLOCATION"
+          href: arpinstalllocation.md
+        - name: "ARPNOMODIFY"
+          href: arpnomodify.md
+        - name: "ARPNOREMOVE"
+          href: arpnoremove.md
+        - name: "ARPNOREPAIR"
+          href: arpnorepair.md
+        - name: "ARPPRODUCTICON"
+          href: arpproducticon.md
+        - name: "ARPREADME"
+          href: arpreadme.md
+        - name: "ARPSIZE"
+          href: arpsize.md
+        - name: "ARPSYSTEMCOMPONENT"
+          href: arpsystemcomponent.md
+        - name: "ARPURLINFOABOUT"
+          href: arpurlinfoabout.md
+        - name: "ARPURLUPDATEINFO"
+          href: arpurlupdateinfo.md
+        - name: "AVAILABLEFREEREG"
+          href: availablefreereg.md
+        - name: "BorderSide"
+          href: borderside.md
+        - name: "BorderTop"
+          href: bordertop.md
+        - name: "CaptionHeight"
+          href: captionheight.md
+        - name: "CCP_DRIVE"
+          href: ccp-drive.md
+        - name: "ColorBits"
+          href: colorbits.md
+        - name: "CommonAppDataFolder"
+          href: commonappdatafolder.md
+        - name: "CommonFiles64Folder"
+          href: commonfiles64folder.md
+        - name: "CommonFilesFolder"
+          href: commonfilesfolder.md
+        - name: "COMPADDDEFAULT Property"
+          href: compadddefault.md
+        - name: "COMPADDLOCAL"
+          href: compaddlocal.md
+        - name: "COMPADDSOURCE"
+          href: compaddsource.md
+        - name: "COMPANYNAME"
+          href: companyname.md
+        - name: "ComputerName"
+          href: computername.md
+        - name: "CostingComplete"
+          href: costingcomplete.md
+        - name: "Date"
+          href: date.md
+        - name: "DefaultUIFont"
+          href: defaultuifont.md
+        - name: "DesktopFolder"
+          href: desktopfolder.md
+        - name: "DISABLEADVTSHORTCUTS"
+          href: disableadvtshortcuts.md
+        - name: "DISABLEMEDIA"
+          href: -disablemedia.md
+        - name: "DISABLEROLLBACK"
+          href: -disablerollback.md
+        - name: "DiskPrompt"
+          href: diskprompt.md
+        - name: "EnableUserControl"
+          href: -enableusercontrol.md
+        - name: "EXECUTEACTION"
+          href: executeaction.md
+        - name: "EXECUTEMODE"
+          href: executemode.md
+        - name: "FASTOEM"
+          href: fastoem.md
+        - name: "FavoritesFolder"
+          href: favoritesfolder.md
+        - name: "FILEADDDEFAULT"
+          href: fileadddefault.md
+        - name: "FILEADDLOCAL"
+          href: fileaddlocal.md
+        - name: "FILEADDSOURCE"
+          href: fileaddsource.md
+        - name: "FontsFolder"
+          href: fontsfolder.md
+        - name: "Installed"
+          href: installed.md
+        - name: "INSTALLLEVEL"
+          href: installlevel.md
+        - name: "Intel"
+          href: intel.md
+        - name: "Intel64"
+          href: intel64.md
+        - name: "IsAdminPackage"
+          href: isadminpackage.md
+        - name: "LeftUnit"
+          href: leftunit.md
+        - name: "LIMITUI"
+          href: limitui.md
+        - name: "LocalAppDataFolder"
+          href: localappdatafolder.md
+        - name: "LOGACTION"
+          href: logaction.md
+        - name: "LogonUser"
+          href: logonuser.md
+        - name: "Manufacturer"
+          href: manufacturer.md
+        - name: "MEDIAPACKAGEPATH"
+          href: mediapackagepath.md
+        - name: "MediaSourceDir"
+          href: mediasourcedir.md
+        - name: "MSIARPSETTINGSIDENTIFIER"
+          href: msiarpsettingsidentifier.md
+        - name: "MSICHECKCRCS"
+          href: msicheckcrcs.md
+        - name: "MSIDEPLOYMENTCOMPLIANT"
+          href: msideploymentcompliant.md
+        - name: "MSIDISABLEEEUI"
+          href: msidisableeeui.md
+        - name: "MSIDISABLELUAPATCHING"
+          href: msidisableluapatching.md
+        - name: "MSIDISABLERMRESTART"
+          href: msidisablermrestart.md
+        - name: "MSIENFORCEUPGRADECOMPONENTRULES"
+          href: msienforceupgradecomponentrules.md
+        - name: "MSIFASTINSTALL Property"
+          href: msifastinstall.md
+        - name: "MsiHiddenProperties"
+          href: msihiddenproperties.md
+        - name: "MSIINSTALLPERUSER Property"
+          href: msiinstallperuser.md
+        - name: "MSIINSTANCEGUID"
+          href: msiinstanceguid.md
+        - name: "MsiLogFileLocation"
+          href: msilogfilelocation.md
+        - name: "MsiLogging"
+          href: msilogging.md
+        - name: "MsiNetAssemblySupport"
+          href: msinetassemblysupport.md
+        - name: "MSINEWINSTANCE"
+          href: msinewinstance.md
+        - name: "MSINODISABLEMEDIA"
+          href: msinodisablemedia.md
+        - name: "MsiNTProductType"
+          href: msintproducttype.md
+        - name: "MsiNTSuiteBackOffice"
+          href: msintsuitebackoffice.md
+        - name: "MsiNTSuiteDataCenter"
+          href: msintsuitedatacenter.md
+        - name: "MsiNTSuiteEnterprise"
+          href: msintsuiteenterprise.md
+        - name: "MsiNTSuitePersonal"
+          href: msintsuitepersonal.md
+        - name: "MsiNTSuiteSmallBusiness"
+          href: msintsuitesmallbusiness.md
+        - name: "MsiNTSuiteSmallBusinessRestricted"
+          href: msintsuitesmallbusinessrestricted.md
+        - name: "MsiNTSuiteWebServer"
+          href: msintsuitewebserver.md
+        - name: "MsiPatchRemovalList"
+          href: msipatchremovallist.md
+        - name: "MSIPATCHREMOVE"
+          href: msipatchremove.md
+        - name: "MSIRESTARTMANAGERCONTROL"
+          href: msirestartmanagercontrol.md
+        - name: "MsiRestartManagerSessionKey"
+          href: msirestartmanagersessionkey.md
+        - name: "MSIRMSHUTDOWN"
+          href: msirmshutdown.md
+        - name: "MsiRunningElevated"
+          href: msirunningelevated-.md
+        - name: "MsiSystemRebootPending"
+          href: msisystemrebootpending.md
+        - name: "MsiTabletPC"
+          href: msitabletpc.md
+        - name: "MsiUIHideCancel"
+          href: msiuihidecancel.md
+        - name: "MsiUIProgressOnly"
+          href: msiuiprogressonly.md
+        - name: "MsiUISourceResOnly"
+          href: msiuisourceresonly.md
+        - name: "MSIUNINSTALLSUPERSEDEDCOMPONENTS"
+          href: msiuninstallsupersededcomponents.md
+        - name: "MSIUSEREALADMINDETECTION"
+          href: msiuserealadmindetection.md
+        - name: "MsiWin32AssemblySupport"
+          href: msiwin32assemblysupport.md
+        - name: "Msix64"
+          href: msix64.md
+        - name: "MyPicturesFolder"
+          href: mypicturesfolder.md
+        - name: "NetHoodFolder Property"
+          href: nethoodfolder.md
+        - name: "NOCOMPANYNAME"
+          href: nocompanyname.md
+        - name: "NOUSERNAME"
+          href: nousername.md
+        - name: "OLEAdvtSupport"
+          href: oleadvtsupport.md
+        - name: "OriginalDatabase"
+          href: originaldatabase.md
+        - name: "OutOfDiskSpace"
+          href: outofdiskspace.md
+        - name: "OutOfNoRbDiskSpace"
+          href: outofnorbdiskspace.md
+        - name: "ParentOriginalDatabase"
+          href: parentoriginaldatabase.md
+        - name: "ParentProductCode"
+          href: parentproductcode.md
+        - name: "PATCH"
+          href: patch.md
+        - name: "PATCHNEWPACKAGECODE"
+          href: patchnewpackagecode.md
+        - name: "PATCHNEWSUMMARYCOMMENTS"
+          href: patchnewsummarycomments.md
+        - name: "PATCHNEWSUMMARYSUBJECT"
+          href: patchnewsummarysubject.md
+        - name: "PersonalFolder"
+          href: personalfolder.md
+        - name: "PhysicalMemory"
+          href: physicalmemory.md
+        - name: "PIDKEY"
+          href: pidkey.md
+        - name: "PIDTemplate"
+          href: pidtemplate.md
+        - name: "Preselected"
+          href: preselected.md
+        - name: "PRIMARYFOLDER"
+          href: primaryfolder.md
+        - name: "PrimaryVolumePath"
+          href: primaryvolumepath.md
+        - name: "PrimaryVolumeSpaceAvailable"
+          href: primaryvolumespaceavailable.md
+        - name: "PrimaryVolumeSpaceRemaining"
+          href: primaryvolumespaceremaining.md
+        - name: "PrimaryVolumeSpaceRequired"
+          href: primaryvolumespacerequired.md
+        - name: "PrintHoodFolder Property"
+          href: printhoodfolder.md
+        - name: "Privileged"
+          href: privileged.md
+        - name: "ProductCode"
+          href: productcode.md
+        - name: "ProductID"
+          href: productid.md
+        - name: "ProductLanguage"
+          href: productlanguage.md
+        - name: "ProductName"
+          href: productname.md
+        - name: "ProductState"
+          href: productstate.md
+        - name: "ProductVersion"
+          href: productversion.md
+        - name: "ProgramFiles64Folder"
+          href: programfiles64folder.md
+        - name: "ProgramFilesFolder"
+          href: programfilesfolder.md
+        - name: "ProgramMenuFolder"
+          href: programmenufolder.md
+        - name: "PROMPTROLLBACKCOST"
+          href: promptrollbackcost.md
+        - name: "REBOOT"
+          href: reboot.md
+        - name: "REBOOTPROMPT"
+          href: rebootprompt.md
+        - name: "RecentFolder Property"
+          href: recentfolder.md
+        - name: "RedirectedDLLSupport"
+          href: redirecteddllsupport.md
+        - name: "REINSTALL"
+          href: reinstall.md
+        - name: "REINSTALLMODE"
+          href: reinstallmode.md
+        - name: "RemoteAdminTS"
+          href: remoteadmints.md
+        - name: "REMOVE"
+          href: remove.md
+        - name: "ReplacedInUseFiles"
+          href: replacedinusefiles.md
+        - name: "RestrictedUserControl"
+          href: restrictedusercontrol.md
+        - name: "RESUME"
+          href: resume.md
+        - name: "RollbackDisabled"
+          href: rollbackdisabled.md
+        - name: "ROOTDRIVE"
+          href: rootdrive.md
+        - name: "ScreenX"
+          href: screenx.md
+        - name: "ScreenY"
+          href: screeny.md
+        - name: "SecureCustomProperties"
+          href: securecustomproperties.md
+        - name: "SendToFolder"
+          href: sendtofolder.md
+        - name: "SEQUENCE"
+          href: sequence.md
+        - name: "ServicePackLevel"
+          href: servicepacklevel.md
+        - name: "ServicePackLevelMinor"
+          href: servicepacklevelminor.md
+        - name: "SharedWindows"
+          href: sharedwindows.md
+        - name: "ShellAdvtSupport"
+          href: shelladvtsupport.md
+        - name: "SHORTFILENAMES"
+          href: shortfilenames.md
+        - name: "SourceDir"
+          href: sourcedir.md
+        - name: "SOURCELIST"
+          href: sourcelist.md
+        - name: "StartMenuFolder"
+          href: startmenufolder.md
+        - name: "StartupFolder"
+          href: startupfolder.md
+        - name: "System16Folder"
+          href: system16folder.md
+        - name: "System64Folder"
+          href: system64folder.md
+        - name: "SystemFolder"
+          href: systemfolder.md
+        - name: "SystemLanguageID"
+          href: systemlanguageid.md
+        - name: "TARGETDIR"
+          href: targetdir.md
+        - name: "TempFolder"
+          href: tempfolder.md
+        - name: "TemplateFolder"
+          href: templatefolder.md
+        - name: "TerminalServer"
+          href: terminalserver.md
+        - name: "TextHeight"
+          href: textheight.md
+        - name: "Time"
+          href: time.md
+        - name: "TRANSFORMS"
+          href: transforms.md
+        - name: "TRANSFORMSATSOURCE"
+          href: transformsatsource.md
+        - name: "TRANSFORMSSECURE"
+          href: transformssecure.md
+        - name: "TTCSupport"
+          href: ttcsupport.md
+        - name: "UILevel"
+          href: uilevel.md
+        - name: "UpdateStarted"
+          href: updatestarted.md
+        - name: "UpgradeCode"
+          href: upgradecode.md
+        - name: "UPGRADINGPRODUCTCODE"
+          href: upgradingproductcode.md
+        - name: "UserLanguageID"
+          href: userlanguageid.md
+        - name: "USERNAME"
+          href: username.md
+        - name: "UserSID"
+          href: usersid.md
+        - name: "Version9X"
+          href: version9x.md
+        - name: "VersionDatabase"
+          href: versiondatabase.md
+        - name: "VersionMsi"
+          href: versionmsi.md
+        - name: "VersionNT"
+          href: versionnt.md
+        - name: "VersionNT64"
+          href: versionnt64.md
+        - name: "VirtualMemory"
+          href: virtualmemory.md
+        - name: "WindowsBuild"
+          href: windowsbuild.md
+        - name: "WindowsFolder"
+          href: windowsfolder.md
+        - name: "WindowsVolume"
+          href: windowsvolume.md
+      - name: "Operating System Property Values"
+        href: operating-system-property-values.md
+      - name: "Properties for the Uninstall Registry Key"
+        href: uninstall-registry-key.md
+    - name: "Summary Information Stream"
+      href: summary-information-stream.md
+      items: 
+      - name: "About the Summary Information Stream"
+        href: about-the-summary-information-stream.md
+        items: 
+        - name: "Summary Information Stream Property Set"
+          href: summary-information-stream-property-set.md
+        - name: "Summary Property Descriptions"
+          href: summary-property-descriptions.md
+      - name: "Using the Summary Information Stream"
+        href: using-the-summary-information-stream.md
+      - name: "Summary Information Stream Reference"
+        href: summary-information-stream-reference.md
+        items: 
+        - name: "Author Summary"
+          href: author-summary.md
+        - name: "Character Count Summary"
+          href: character-count-summary.md
+        - name: "Codepage Summary"
+          href: codepage-summary.md
+        - name: "Comments Summary"
+          href: comments-summary.md
+        - name: "Create Time/Date Summary"
+          href: create-time-date-summary.md
+        - name: "Creating Application Summary"
+          href: creating-application-summary.md
+        - name: "Keywords Summary"
+          href: keywords-summary.md
+        - name: "Last Printed Summary"
+          href: last-printed-summary.md
+        - name: "Last Saved By Summary"
+          href: last-saved-by-summary.md
+        - name: "Last Saved Time/Date Summary"
+          href: last-saved-time-date-summary.md
+        - name: "Page Count Summary"
+          href: page-count-summary.md
+        - name: "Revision Number Summary"
+          href: revision-number-summary.md
+        - name: "Security Summary"
+          href: security-summary.md
+        - name: "Subject Summary"
+          href: subject-summary.md
+        - name: "Template Summary"
+          href: template-summary.md
+        - name: "Title Summary"
+          href: title-summary.md
+        - name: "Word Count Summary"
+          href: word-count-summary.md
+    - name: "Patching and Upgrades"
+      href: patching-and-upgrades.md
+      items: 
+      - name: "Small Updates"
+        href: small-updates.md
+        items: 
+        - name: "Creating a Small Update Patch"
+          href: creating-a-small-update-patch.md
+        - name: "Applying Small Updates by Patching the Local Installation of the Product"
+          href: applying-small-updates-by-patching-the-local-installation-of-the-product.md
+        - name: "Applying Small Updates by Reinstalling the Product"
+          href: applying-small-updates-by-reinstalling-the-product.md
+        - name: "Applying Small Updates by Patching an Administrative Image"
+          href: applying-small-updates-by-patching-an-administrative-image.md
+      - name: "Minor Upgrades"
+        href: minor-upgrades.md
+      - name: "Major Upgrades"
+        href: major-upgrades.md
+        items: 
+        - name: "Changing the Product Code"
+          href: changing-the-product-code.md
+        - name: "Preparing an Application for Future Major Upgrades"
+          href: preparing-an-application-for-future-major-upgrades.md
+        - name: "Preventing an Old Package from Installing Over a Newer Version"
+          href: preventing-an-old-package-from-installing-over-a-newer-version.md
+        - name: "Using an UpgradeCode"
+          href: using-an-upgradecode.md
+        - name: "Applying Major Upgrades by Patching the Local Installation of the Product"
+          href: applying-major-upgrades-by-patching-the-local-installation-of-the-product.md
+        - name: "Applying Major Upgrades by Installing the Product"
+          href: applying-major-upgrades-by-installing-the-product.md
+      - name: "Patching"
+        href: patching.md
+        items: 
+        - name: "Using Patches"
+          href: using-patches.md
+          items: 
+          - name: "Downloading and Installing a Patch From the Internet"
+            href: downloading-and-installing-a-patch-from-the-internet.md
+          - name: "Patching Initial Installations"
+            href: patching-initial-installations.md
+          - name: "Patching Customized Applications"
+            href: patching-customized-applications.md
+          - name: "Preventing a Patch from Requiring Access to the Original Installation Source"
+            href: preventing-a-patch-from-requiring-access-to-the-original-installation-source.md
+          - name: "Extracting Patch Information as XML"
+            href: extracting-patch-information-as-xml.md
+          - name: "Listing the Files that can be Updated"
+            href: listing-the-files-that-can-be-updated.md
+        - name: "Creating a Patch Package"
+          href: creating-a-patch-package.md
+          items: 
+          - name: "Patch Packages"
+            href: patch-packages.md
+          - name: "Patch Optimization"
+            href: patch-optimization.md
+          - name: "Reducing Patch Size"
+            href: reducing-patch-size.md
+        - name: "Installing Multiple Patches"
+          href: installing-multiple-patches.md
+          items: 
+          - name: "Sequencing Patches"
+            href: sequencing-patches.md
+          - name: "Eliminating Patches"
+            href: eliminating-patches.md
+          - name: "Multiple Patching Example"
+            href: multiple-patching-example.md
+        - name: "Removing Patches"
+          href: removing-patches.md
+          items: 
+          - name: "Uninstallable Patches"
+            href: uninstallable-patches.md
+          - name: "Uninstalling Patches"
+            href: uninstalling-patches.md
+          - name: "Patch Uninstall Custom Actions"
+            href: patch-uninstall-custom-actions.md
+      - name: "Patching Per-User Managed Applications"
+        href: patching-per-user-managed-applications.md
+        items: 
+        - name: "User Account Control (UAC) Patching"
+          href: user-account-control--uac--patching.md
+    - name: "Database Transforms"
+      href: database-transforms.md
+      items: 
+      - name: "About Transforms"
+        href: about-transforms.md
+        items: 
+        - name: "Embedded Transforms"
+          href: embedded-transforms.md
+        - name: "Secured Transforms"
+          href: secured-transforms.md
+          items: 
+          - name: "Secure-At-Source Transforms"
+            href: secure-at-source-transforms.md
+          - name: "Secure-Full-Path Transforms"
+            href: secure-full-path-transforms.md
+        - name: "Unsecured Transforms"
+          href: unsecured-transforms.md
+      - name: "Using Transforms"
+        href: using-transforms.md
+        items: 
+        - name: "Applying Transforms"
+          href: applying-transforms.md
+        - name: "Generating a Transform"
+          href: generating-a-transform.md
+        - name: "Using Transforms to Add Resources"
+          href: using-transforms-to-add-resources.md
+    - name: "Package Validation"
+      href: package-validation.md
+      items: 
+      - name: "Internal Validation"
+        href: internal-validation.md
+      - name: "String-Pool Validation"
+        href: string-pool-validation.md
+      - name: "Internal Consistency Evaluators - ICEs"
+        href: internal-consistency-evaluators-ices.md
+        items: 
+        - name: "Using Internal Consistency Evaluators"
+          href: using-internal-consistency-evaluators.md
+          items: 
+          - name: "Building An ICE"
+            href: building-an-ice.md
+          - name: "ICE Message Guidelines"
+            href: ice-message-guidelines.md
+          - name: "Sample ICE in C++"
+            href: sample-ice-in-c-.md
+          - name: "Sample ICE in VBScript"
+            href: sample-ice-in-vbscript.md
+          - name: "Building an ICE Database"
+            href: building-an-ice-database.md
+          - name: "Sample .cub File"
+            href: sample--cub-file.md
+        - name: "ICE Reference"
+          href: ice-reference.md
+          items: 
+          - name: "ICE01"
+            href: ice01.md
+          - name: "ICE02"
+            href: ice02.md
+          - name: "ICE03"
+            href: ice03.md
+          - name: "ICE04"
+            href: ice04.md
+          - name: "ICE05"
+            href: ice05.md
+          - name: "ICE06"
+            href: ice06.md
+          - name: "ICE07"
+            href: ice07.md
+          - name: "ICE08"
+            href: ice08.md
+          - name: "ICE09"
+            href: ice09.md
+          - name: "ICE10"
+            href: ice10.md
+          - name: "ICE12"
+            href: ice12.md
+          - name: "ICE13"
+            href: ice13.md
+          - name: "ICE14"
+            href: ice14.md
+          - name: "ICE15"
+            href: ice15.md
+          - name: "ICE16"
+            href: ice16.md
+          - name: "ICE17"
+            href: ice17.md
+          - name: "ICE18"
+            href: ice18.md
+          - name: "ICE19"
+            href: ice19.md
+          - name: "ICE20"
+            href: ice20.md
+          - name: "ICE21"
+            href: ice21.md
+          - name: "ICE22"
+            href: ice22.md
+          - name: "ICE23"
+            href: ice23.md
+          - name: "ICE24"
+            href: ice24.md
+          - name: "ICE25"
+            href: ice25.md
+          - name: "ICE26"
+            href: ice26.md
+          - name: "ICE27"
+            href: ice27.md
+          - name: "ICE28"
+            href: ice28.md
+          - name: "ICE29"
+            href: ice29.md
+          - name: "ICE30"
+            href: ice30.md
+          - name: "ICE31"
+            href: ice31.md
+          - name: "ICE32"
+            href: ice32.md
+          - name: "ICE33"
+            href: ice33.md
+          - name: "ICE34"
+            href: ice34.md
+          - name: "ICE35"
+            href: ice35.md
+          - name: "ICE36"
+            href: ice36.md
+          - name: "ICE38"
+            href: ice38.md
+          - name: "ICE39"
+            href: ice39.md
+          - name: "ICE40"
+            href: ice40.md
+          - name: "ICE41"
+            href: ice41.md
+          - name: "ICE42"
+            href: ice42.md
+          - name: "ICE43"
+            href: ice43.md
+          - name: "ICE44"
+            href: ice44.md
+          - name: "ICE45"
+            href: ice45.md
+          - name: "ICE46"
+            href: ice46.md
+          - name: "ICE47"
+            href: ice47.md
+          - name: "ICE48"
+            href: ice48.md
+          - name: "ICE49"
+            href: ice49.md
+          - name: "ICE50"
+            href: ice50.md
+          - name: "ICE51"
+            href: ice51.md
+          - name: "ICE52"
+            href: ice52.md
+          - name: "ICE53"
+            href: ice53.md
+          - name: "ICE54"
+            href: ice54.md
+          - name: "ICE55"
+            href: ice55.md
+          - name: "ICE56"
+            href: ice56.md
+          - name: "ICE57"
+            href: ice57.md
+          - name: "ICE58"
+            href: ice58.md
+          - name: "ICE59"
+            href: ice59.md
+          - name: "ICE60"
+            href: ice60.md
+          - name: "ICE61"
+            href: ice61.md
+          - name: "ICE62"
+            href: ice62.md
+          - name: "ICE63"
+            href: ice63.md
+          - name: "ICE64"
+            href: ice64.md
+          - name: "ICE65"
+            href: ice65.md
+          - name: "ICE66"
+            href: ice66.md
+          - name: "ICE67"
+            href: ice67.md
+          - name: "ICE68"
+            href: ice68.md
+          - name: "ICE69"
+            href: ice69.md
+          - name: "ICE70"
+            href: ice70.md
+          - name: "ICE71"
+            href: ice71.md
+          - name: "ICE72"
+            href: ice72.md
+          - name: "ICE73"
+            href: ice73.md
+          - name: "ICE74"
+            href: ice74.md
+          - name: "ICE75"
+            href: ice75.md
+          - name: "ICE76"
+            href: ice76.md
+          - name: "ICE77"
+            href: ice77.md
+          - name: "ICE78"
+            href: ice78.md
+          - name: "ICE79"
+            href: ice79.md
+          - name: "ICE80"
+            href: ice80.md
+          - name: "ICE81"
+            href: ice81.md
+          - name: "ICE82"
+            href: ice82.md
+          - name: "ICE83"
+            href: ice83.md
+          - name: "ICE84"
+            href: ice84.md
+          - name: "ICE85"
+            href: ice85.md
+          - name: "ICE86"
+            href: ice86.md
+          - name: "ICE87"
+            href: ice87.md
+          - name: "ICE88"
+            href: ice88.md
+          - name: "ICE89"
+            href: ice89.md
+          - name: "ICE90"
+            href: ice90.md
+          - name: "ICE91"
+            href: ice91.md
+          - name: "ICE92"
+            href: ice92.md
+          - name: "ICE93"
+            href: ice93.md
+          - name: "ICE94"
+            href: ice94.md
+          - name: "ICE95"
+            href: ice95.md
+          - name: "ICE96"
+            href: ice96.md
+          - name: "ICE97"
+            href: ice97.md
+          - name: "ICE98"
+            href: ice98.md
+          - name: "ICE99"
+            href: ice99.md
+          - name: "ICE 100"
+            href: ice-100.md
+          - name: "ICE 101"
+            href: ice-101.md
+          - name: "ICE 102"
+            href: ice-102.md
+          - name: "ICE 103"
+            href: ice-103.md
+          - name: "ICE 104"
+            href: ice-104.md
+          - name: "ICE 105"
+            href: ice-105.md
+      - name: "Validation Automation"
+        href: validation-automation.md
+        items: 
+        - name: "Using Evalcom2"
+          href: using-evalcom2.md
+        - name: "EvalCom2 Interfaces"
+          href: evalcom2-interfaces.md
+          items: 
+          - name: "IValidate"
+            href: /windows/desktop/api/evalcom2/nn-evalcom2-ivalidate
+            items: 
+            - name: "OpenDatabase Method"
+              href: /windows/desktop/api/evalcom2/nf-evalcom2-ivalidate-opendatabase
+            - name: "OpenCUB Method"
+              href: /windows/desktop/api/evalcom2/nf-evalcom2-ivalidate-opencub
+            - name: "CloseDatabase Method"
+              href: /windows/desktop/api/evalcom2/nf-evalcom2-ivalidate-closedatabase
+            - name: "CloseCUB Method"
+              href: /windows/desktop/api/evalcom2/nf-evalcom2-ivalidate-closecub
+            - name: "SetDisplay Method"
+              href: /windows/desktop/api/evalcom2/nf-evalcom2-ivalidate-setdisplay
+            - name: "SetStatus Method"
+              href: /windows/desktop/api/evalcom2/nf-evalcom2-ivalidate-setstatus
+            - name: "Validate Method"
+              href: /windows/desktop/api/evalcom2/nf-evalcom2-ivalidate-validate
+            - name: "Validation Callback Functions"
+              href: validation-callback-functions.md
+              items: 
+              - name: "LPDISPLAYVAL"
+                href: /windows/desktop/api/evalcom2/nc-evalcom2-lpdisplayval
+              - name: "LPEVALCOMCALLBACK"
+                href: /windows/desktop/api/evalcom2/nc-evalcom2-lpevalcomcallback
+    - name: "Merge Modules"
+      href: merge-modules.md
+      items: 
+      - name: "About Merge Modules"
+        href: about-merge-modules.md
+        items: 
+        - name: "Merge Module Database"
+          href: merge-module-database.md
+        - name: "MergeModule.CABinet"
+          href: mergemodule-cabinet.md
+        - name: "Multiple Language Merge Modules"
+          href: multiple-language-merge-modules.md
+        - name: "Configurable Merge Modules"
+          href: configurable-merge-modules.md
+      - name: "Using Merge Modules"
+        href: using-merge-modules.md
+        items: 
+        - name: "Authoring Merge Modules"
+          href: authoring-merge-modules.md
+          items: 
+          - name: "Obtaining Merge Module Authoring Tools"
+            href: obtaining-merge-module-authoring-tools.md
+          - name: "Obtaining Blank Merge Module Databases"
+            href: obtaining-blank-merge-module-databases.md
+          - name: "Naming Primary Keys in Merge Module Databases"
+            href: naming-primary-keys-in-merge-module-databases.md
+          - name: "Authoring Merge Module Component Tables"
+            href: authoring-merge-module-component-tables.md
+          - name: "Referencing Features in Merge Modules"
+            href: referencing-features-in-merge-modules.md
+          - name: "Authoring Merge Module Directory Tables"
+            href: authoring-merge-module-directory-tables.md
+          - name: "Authoring Merge Module FeatureComponents Tables"
+            href: authoring-merge-module-featurecomponents-tables.md
+          - name: "Generating MergeModule.CABinet Cabinet Files"
+            href: generating-mergemodule-cabinet-cabinet-files.md
+          - name: "Authoring Merge Module File Tables"
+            href: authoring-merge-module-file-tables.md
+          - name: "Authoring ModuleSignature Tables"
+            href: authoring-modulesignature-tables.md
+          - name: "Authoring ModuleComponents Tables"
+            href: authoring-modulecomponents-tables.md
+          - name: "Authoring Merge Module Sequence Tables"
+            href: authoring-merge-module-sequence-tables.md
+          - name: "Authoring User Interfaces in Merge Modules"
+            href: authoring-user-interfaces-in-merge-modules.md
+          - name: "Authoring Merge Module Registry Tables"
+            href: authoring-merge-module-registry-tables.md
+          - name: "Authoring Merge Module Summary Information Streams"
+            href: authoring-merge-module-summary-information-streams.md
+          - name: "Validating Merge Modules"
+            href: validating-merge-modules.md
+          - name: "Adding Readme Information Streams to Merge Modules"
+            href: adding-readme-information-streams-to-merge-modules.md
+        - name: "Using 64-bit Merge Modules"
+          href: using-64-bit-merge-modules.md
+        - name: "Authoring Multiple Language Merge Modules"
+          href: authoring-multiple-language-merge-modules.md
+          items: 
+          - name: "Choosing the Default Language of a Multiple Language Merge Module"
+            href: choosing-the-default-language-of-a-multiple-language-merge-module.md
+          - name: "Authoring a Language Transform for a Multiple Language Merge Module"
+            href: authoring-a-language-transform-for-a-multiple-language-merge-module.md
+          - name: "Ordering the File Sequence in the CAB of a Multiple Language Merge Module"
+            href: ordering-the-file-sequence-in-the-cab-of-a-multiple-language-merge-module.md
+        - name: "Applying Merge Modules"
+          href: applying-merge-modules.md
+          items: 
+          - name: "Using Automation to Merge a Merge Module into a Database"
+            href: using-automation-to-merge-a-merge-module-into-a-database.md
+          - name: "Using the API to Merge a Merge Module into a Database"
+            href: using-the-api-to-merge-a-merge-module-into-a-database.md
+          - name: "Opening a Multiple-Language Merge Module in a Specific Language"
+            href: opening-a-multiple-language-merge-module-in-a-specific-language.md
+          - name: "Merging a Multiple Language Module into the Same Package Multiple Times"
+            href: merging-a-multiple-language-module-into-the-same-package-multiple-times.md
+          - name: "Connecting a Merge Module to Multiple Features"
+            href: connecting-a-merge-module-to-multiple-features.md
+        - name: "Using Configurable Merge Modules"
+          href: using-configurable-merge-modules.md
+          items: 
+          - name: "Creating a Merge Module that Can Be Configured by the End User"
+            href: creating-a-merge-module-that-can-be-configured-by-the-end-user.md
+          - name: "Applying a Configurable Merge Module with Customizations"
+            href: applying-a-configurable-merge-module-with-customizations.md
+          - name: "Adding Module Configuration Capability to a Merge Tool"
+            href: adding-module-configuration-capability-to-a-merge-tool.md
+      - name: "Merge Module Reference"
+        href: merge-module-reference.md
+        items: 
+        - name: "Merge Module Automation"
+          href: merge-module-automation.md
+          items: 
+          - name: "Object Model for Mergemod.dll Version 1.0"
+            href: object-model-for-mergemod-dll-version-1-0.md
+          - name: "Object Model for Mergemod.dll Version 2.0"
+            href: object-model-for-mergemod-dll-version-2-0.md
+          - name: "Mergemod Objects"
+            href: mergemod-objects.md
+            items: 
+            - name: "ConfigurableItem Object"
+              href: configurableitem-object.md
+              items: 
+              - name: "Attributes Property (ConfigurableItem Object)"
+                href: configurableitem-attributes.md
+              - name: "Context Property"
+                href: configurableitem-context.md
+              - name: "DefaultValue Property"
+                href: configurableitem-defaultvalue.md
+              - name: "Description Property (ConfigurableItem Object)"
+                href: configurableitem-description.md
+              - name: "DisplayName Property"
+                href: configurableitem-displayname.md
+              - name: "Format Property"
+                href: configurableitem-format.md
+              - name: "HelpLocation Property"
+                href: configurableitem-helplocation.md
+              - name: "HelpKeyword Property"
+                href: configurableitem-helpkeyword.md
+              - name: "Name Property"
+                href: configurableitem-name.md
+              - name: "Type Property (ConfigurableItem Object)"
+                href: configurableitem-type.md
+            - name: "ConfigureModule Object"
+              href: configuremodule-object.md
+              items: 
+              - name: "ProvideTextData Method"
+                href: configuremodule-providetextdata.md
+              - name: "ProvideIntegerData Method"
+                href: configuremodule-provideintegerdata.md
+            - name: "Dependency Object"
+              href: dependency-object.md
+              items: 
+              - name: "Language Property (Dependency Object)"
+                href: dependency-language.md
+              - name: "Module Property"
+                href: dependency-module.md
+              - name: "Version Property (Dependency Object)"
+                href: dependency-version.md
+            - name: "Error Object"
+              href: error-object.md
+              items: 
+              - name: "DatabaseKeys Property"
+                href: error-databasekeys.md
+              - name: "DatabaseTable Property"
+                href: error-databasetable.md
+              - name: "Language Property (Error Object)"
+                href: error-language.md
+              - name: "ModuleKeys Property"
+                href: error-modulekeys.md
+              - name: "ModuleTable Property"
+                href: error-moduletable.md
+              - name: "Path Property"
+                href: error-path.md
+              - name: "Type Property (Error Object)"
+                href: error-type.md
+            - name: "GetFiles Object"
+              href: getfiles-object.md
+              items: 
+              - name: "ModuleFiles Property"
+                href: getfiles-modulefiles.md
+            - name: "Merge Object"
+              href: merge-object.md
+              items: 
+              - name: "CloseDatabase Method"
+                href: merge-closedatabase.md
+              - name: "CloseLog Method"
+                href: merge-closelog.md
+              - name: "CloseModule Method"
+                href: merge-closemodule.md
+              - name: "ConfigurableItems Property"
+                href: merge-configurableitems.md
+              - name: "Connect Method"
+                href: merge-connect.md
+              - name: "CreateSourceImage Method"
+                href: merge-createsourceimage.md
+              - name: "Dependencies Property (Merge Object)"
+                href: merge-dependencies.md
+              - name: "Errors Property"
+                href: merge-errors.md
+              - name: "ExtractCAB Method"
+                href: merge-extractcab.md
+              - name: "ExtractFiles Method"
+                href: merge-extractfiles.md
+              - name: "ExtractFilesEx Method"
+                href: merge-extractfilesex.md
+              - name: "Log Method"
+                href: merge-log.md
+              - name: "Merge Method (Merge Object)"
+                href: merge-merge.md
+              - name: "MergeEx Method"
+                href: merge-mergeex.md
+              - name: "OpenDatabase Method (Merge Object)"
+                href: merge-opendatabase.md
+              - name: "OpenLog Method"
+                href: merge-openlog.md
+              - name: "OpenModule Method"
+                href: merge-openmodule.md
+          - name: "Mergemod Interfaces"
+            href: mergemod-interfaces.md
+            items: 
+            - name: "IMsmConfigurableItem Interface"
+              href: /windows/desktop/api/mergemod/nn-mergemod-imsmconfigurableitem
+              items: 
+              - name: "get_Attributes Method"
+                href: /windows/desktop/api/Mergemod/nf-mergemod-imsmconfigurableitem-get_attributes
+              - name: "get_Context Method"
+                href: /windows/desktop/api/Mergemod/nf-mergemod-imsmconfigurableitem-get_context
+              - name: "get_DefaultValue Method"
+                href: /windows/desktop/api/Mergemod/nf-mergemod-imsmconfigurableitem-get_defaultvalue
+              - name: "get_Description Method"
+                href: /windows/desktop/api/Mergemod/nf-mergemod-imsmconfigurableitem-get_description
+              - name: "get_DisplayName Method"
+                href: /windows/desktop/api/Mergemod/nf-mergemod-imsmconfigurableitem-get_displayname
+              - name: "get_Format Method"
+                href: /windows/desktop/api/Mergemod/nf-mergemod-imsmconfigurableitem-get_format
+              - name: "get_HelpLocation Method"
+                href: /windows/desktop/api/Mergemod/nf-mergemod-imsmconfigurableitem-get_helplocation
+              - name: "get_HelpKeyword Method"
+                href: /windows/desktop/api/Mergemod/nf-mergemod-imsmconfigurableitem-get_helpkeyword
+              - name: "get_Name Method"
+                href: /windows/desktop/api/Mergemod/nf-mergemod-imsmconfigurableitem-get_name
+              - name: "get_Type Method"
+                href: /windows/desktop/api/Mergemod/nf-mergemod-imsmconfigurableitem-get_type
+            - name: "IMsmConfigureModule Interface"
+              href: /windows/desktop/api/mergemod/nn-mergemod-imsmconfiguremodule
+              items: 
+              - name: "ProvideIntegerData Method"
+                href: /windows/desktop/api/Mergemod/nf-mergemod-imsmconfiguremodule-provideintegerdata
+              - name: "ProvideTextData Method"
+                href: /windows/desktop/api/Mergemod/nf-mergemod-imsmconfiguremodule-providetextdata
+            - name: "IMsmDependency Interface"
+              href: /windows/desktop/api/mergemod/nn-mergemod-imsmdependency
+              items: 
+              - name: "get_Language Method"
+                href: /windows/desktop/api/mergemod/nf-mergemod-imsmdependency-get_language
+              - name: "get_Module Method"
+                href: /windows/desktop/api/mergemod/nf-mergemod-imsmdependency-get_module
+              - name: "get_Version Method"
+                href: /windows/desktop/api/mergemod/nf-mergemod-imsmdependency-get_version
+            - name: "IMsmError Interface"
+              href: /windows/desktop/api/mergemod/nn-mergemod-imsmerror
+              items: 
+              - name: "get_DatabaseKeys Method"
+                href: /windows/desktop/api/mergemod/nf-mergemod-imsmerror-get_databasekeys
+              - name: "get_DatabaseTable Method"
+                href: /windows/desktop/api/mergemod/nf-mergemod-imsmerror-get_databasetable
+              - name: "get_Language Method"
+                href: /windows/desktop/api/mergemod/nf-mergemod-imsmerror-get_language
+              - name: "get_ModuleKeys Method"
+                href: /windows/desktop/api/mergemod/nf-mergemod-imsmerror-get_modulekeys
+              - name: "get_ModuleTable Method"
+                href: /windows/desktop/api/mergemod/nf-mergemod-imsmerror-get_moduletable
+              - name: "get_Path Method"
+                href: /windows/desktop/api/mergemod/nf-mergemod-imsmerror-get_path
+              - name: "get_Type Method"
+                href: /windows/desktop/api/mergemod/nf-mergemod-imsmerror-get_type
+            - name: "IMsmGetFiles Interface"
+              href: /windows/desktop/api/mergemod/nn-mergemod-imsmgetfiles
+              items: 
+              - name: "get_ModuleFiles Method"
+                href: /windows/desktop/api/mergemod/nf-mergemod-imsmgetfiles-get_modulefiles
+            - name: "IMsmMerge Interface"
+              href: /windows/desktop/api/mergemod/nn-mergemod-imsmmerge
+            - name: "IMsmMerge2 Interface"
+              href: /windows/desktop/api/Mergemod/nn-mergemod-imsmmerge2
+              items: 
+              - name: "CloseDatabase Method"
+                href: /windows/desktop/api/mergemod/nf-mergemod-imsmmerge-closedatabase
+              - name: "CloseLog Method"
+                href: /windows/desktop/api/mergemod/nf-mergemod-imsmmerge-closelog
+              - name: "CloseModule Method"
+                href: /windows/desktop/api/mergemod/nf-mergemod-imsmmerge-closemodule
+              - name: "Connect Method"
+                href: /windows/desktop/api/mergemod/nf-mergemod-imsmmerge-connect
+              - name: "CreateSourceImage Method"
+                href: /windows/desktop/api/Mergemod/nf-mergemod-imsmmerge2-createsourceimage
+              - name: "ExtractCAB Method"
+                href: /windows/desktop/api/mergemod/nf-mergemod-imsmmerge-extractcab
+              - name: "ExtractFiles Method"
+                href: /windows/desktop/api/mergemod/nf-mergemod-imsmmerge-extractfiles
+              - name: "ExtractFilesEx Method"
+                href: /windows/desktop/api/Mergemod/nf-mergemod-imsmmerge2-extractfilesex
+              - name: "get_ConfigurableItems Method"
+                href: /windows/desktop/api/Mergemod/nf-mergemod-imsmmerge2-get_configurableitems
+              - name: "get_Dependencies Method"
+                href: /windows/desktop/api/mergemod/nf-mergemod-imsmmerge-get_dependencies
+              - name: "get_Errors Method"
+                href: /windows/desktop/api/mergemod/nf-mergemod-imsmmerge-get_errors
+              - name: "Log Method"
+                href: /windows/desktop/api/mergemod/nf-mergemod-imsmmerge-log
+              - name: "Merge Method"
+                href: /windows/desktop/api/mergemod/nf-mergemod-imsmmerge-merge
+              - name: "MergeEx Method"
+                href: /windows/desktop/api/Mergemod/nf-mergemod-imsmmerge2-mergeex
+              - name: "OpenDatabase Method"
+                href: /windows/desktop/api/mergemod/nf-mergemod-imsmmerge-opendatabase
+              - name: "OpenLog Method"
+                href: /windows/desktop/api/mergemod/nf-mergemod-imsmmerge-openlog
+              - name: "OpenModule Method"
+                href: /windows/desktop/api/mergemod/nf-mergemod-imsmmerge-openmodule
+        - name: "Merge Module Database Tables"
+          href: merge-module-database-tables.md
+          items: 
+          - name: "ModuleSignature Table"
+            href: modulesignature-table.md
+          - name: "ModuleComponents Table"
+            href: modulecomponents-table.md
+          - name: "ModuleDependency Table"
+            href: moduledependency-table.md
+          - name: "ModuleExclusion Table"
+            href: moduleexclusion-table.md
+          - name: "ModuleAdminUISequence Table"
+            href: moduleadminuisequence-table.md
+          - name: "ModuleAdminExecuteSequence Table"
+            href: moduleadminexecutesequence-table.md
+          - name: "ModuleAdvtUISequence Table"
+            href: moduleadvtuisequence-table.md
+          - name: "ModuleAdvtExecuteSequence Table"
+            href: moduleadvtexecutesequence-table.md
+          - name: "ModuleIgnoreTable Table"
+            href: moduleignoretable-table.md
+          - name: "ModuleInstallUISequence Table"
+            href: moduleinstalluisequence-table.md
+          - name: "ModuleInstallExecuteSequence Table"
+            href: moduleinstallexecutesequence-table.md
+          - name: "ModuleSubstitution Table"
+            href: modulesubstitution-table.md
+          - name: "ModuleConfiguration Table"
+            href: moduleconfiguration-table.md
+        - name: "Merge Module Summary Information Stream Reference"
+          href: merge-module-summary-information-stream-reference.md
+        - name: "Merge Module ICE Reference"
+          href: merge-module-ice-reference.md
+          items: 
+          - name: "ICEM01"
+            href: icem01.md
+          - name: "ICEM02"
+            href: icem02.md
+          - name: "ICEM03"
+            href: icem03.md
+          - name: "ICEM04"
+            href: icem04.md
+          - name: "ICEM05"
+            href: icem05.md
+          - name: "ICEM06"
+            href: icem06.md
+          - name: "ICEM07"
+            href: icem07.md
+          - name: "ICEM08"
+            href: icem08.md
+          - name: "ICEM09"
+            href: icem09.md
+          - name: "ICEM10"
+            href: icem10.md
+          - name: "ICEM11"
+            href: icem11.md
+          - name: "ICEM12"
+            href: icem12.md
+          - name: "ICEM13"
+            href: icem13.md
+          - name: "ICEM14"
+            href: icem14.md
+        - name: "CMSM Special Format"
+          href: cmsm-special-format.md
+        - name: "Semantic Types"
+          href: semantic-types.md
+          items: 
+          - name: "Text Format Types"
+            href: text-format-types.md
+            items: 
+            - name: "Arbitrary Text Type"
+              href: arbitrary-text-type.md
+            - name: "RTF Type"
+              href: rtf-type.md
+            - name: "Formatted Type"
+              href: formatted-type.md
+            - name: "Enum Type"
+              href: enum-type.md
+            - name: "Identifier Type"
+              href: identifier-type.md
+          - name: "Integer Format Types"
+            href: integer-format-types.md
+            items: 
+            - name: "Arbitrary Integer Type"
+              href: arbitrary-integer-type.md
+          - name: "Key Format Types"
+            href: key-format-types.md
+            items: 
+            - name: "Directory Type"
+              href: directory-type.md
+            - name: "File Type"
+              href: file-type.md
+            - name: "Property Type"
+              href: property-type.md
+            - name: "Dialog Type"
+              href: dialog-type.md
+            - name: "Binary Type"
+              href: binary-type.md
+            - name: "Icon Type"
+              href: icon-type.md
+          - name: "Bitfield Format Types"
+            href: bitfield-format-types.md
+            items: 
+            - name: "Arbitrary Bitfield Type"
+              href: arbitrary-bitfield-type.md
+        - name: "Configurable Component Example"
+          href: configurable-component-example.md
+    - name: "Windows Installer Bootstrapping"
+      href: windows-installer-bootstrapping.md
+      items: 
+      - name: "Bootstrapping"
+        href: bootstrapping.md
+      - name: "Internet Download Bootstrapping"
+        href: internet-download-bootstrapping.md
+    - name: "Windows Installer on 64-bit Operating Systems"
+      href: windows-installer-on-64-bit-operating-systems.md
+      items: 
+      - name: "About Windows Installer on 64-Bit Operating Systems"
+        href: about-windows-installer-on-64-bit-operating-systems.md
+        items: 
+        - name: "32-bit Windows Installer Packages"
+          href: 32-bit-windows-installer-packages.md
+        - name: "64-bit Windows Installer Packages"
+          href: 64-bit-windows-installer-packages.md
+      - name: "Using 64-Bit Windows Installer Packages"
+        href: using-64-bit-windows-installer-packages.md
+        items: 
+        - name: "64-Bit Custom Actions"
+          href: 64-bit-custom-actions.md
+    - name: "Windows Installer and Logo Requirements"
+      href: windows-installer-and-logo-requirements.md
+  - name: "Windows Installer Examples"
+    href: windows-installer-examples.md
+    items: 
+    - name: "An Installation Example"
+      href: an-installation-example.md
+      items: 
+      - name: "Planning the Installation"
+        href: planning-the-installation.md
+      - name: "Importing a Blank Database"
+        href: importing-a-blank-database.md
+      - name: "Specifying Directory Structure"
+        href: specifying-directory-structure.md
+      - name: "Specifying Components"
+        href: specifying-components.md
+      - name: "Specifying Files and File Attributes"
+        href: specifying-files-and-file-attributes.md
+      - name: "Specifying Source Media"
+        href: specifying-source-media.md
+      - name: "Specifying Features"
+        href: specifying-features.md
+      - name: "Specifying Feature-Component Relationships"
+        href: specifying-feature-component-relationships.md
+      - name: "Adding Registry Information"
+        href: adding-registry-information.md
+      - name: "Specifying Shortcuts"
+        href: specifying-shortcuts.md
+      - name: "Specifying Properties"
+        href: specifying-properties.md
+      - name: "Importing the InstallExecuteSequence"
+        href: importing-the-installexecutesequence.md
+      - name: "Importing the InstallUISequence"
+        href: importing-the-installuisequence.md
+      - name: "Importing the AdminExecuteSequence"
+        href: importing-the-adminexecutesequence.md
+      - name: "Importing the AdminUISequence"
+        href: importing-the-adminuisequence.md
+      - name: "Importing the AdvtExecuteSequence"
+        href: importing-the-advtexecutesequence.md
+      - name: "Adding Summary Information"
+        href: adding-summary-information.md
+      - name: "Importing the User Interface"
+        href: importing-the-user-interface.md
+      - name: "Validating an Installation Database"
+        href: validating-an-installation-database.md
+    - name: "An Upgrade Example"
+      href: an-upgrade-example.md
+      items: 
+      - name: "Planning a Major Upgrade"
+        href: planning-a-major-upgrade.md
+      - name: "Importing Original Installation Database"
+        href: importing-original-installation-database.md
+      - name: "Updating Directory Structure for an Upgrade"
+        href: updating-directory-structure-for-an-upgrade.md
+      - name: "Updating Files and File Attributes for an Upgrade"
+        href: updating-files-and-file-attributes-for-an-upgrade.md
+      - name: "Updating Components for an Upgrade"
+        href: updating-components-for-an-upgrade.md
+      - name: "Updating Features for an Upgrade"
+        href: updating-features-for-an-upgrade.md
+      - name: "Updating Shortcuts for an Upgrade"
+        href: updating-shortcuts-for-an-upgrade.md
+      - name: "Updating Upgrade Table for an Upgrade"
+        href: updating-upgrade-table-for-an-upgrade.md
+      - name: "Updating Properties for an Upgrade"
+        href: updating-properties-for-an-upgrade.md
+      - name: "Updating Sequence Tables for an Upgrade"
+        href: updating-sequence-tables-for-an-upgrade.md
+      - name: "Updating Summary Information for an Upgrade"
+        href: updating-summary-information-for-an-upgrade.md
+      - name: "Validating an Installation Upgrade"
+        href: validating-an-installation-upgrade.md
+    - name: "A Customization Transform Example"
+      href: a-customization-transform-example.md
+      items: 
+      - name: "Customizing an Original Database"
+        href: customizing-an-original-database.md
+      - name: "Generating a Customization Transform"
+        href: generating-a-customization-transform.md
+      - name: "Adding Summary Information to Customization Transform"
+        href: adding-summary-information-to-customization-transform.md
+      - name: "Embedding Customization Transforms as Substorage"
+        href: embedding-customization-transforms-as-substorage.md
+    - name: "A Small Update Patching Example"
+      href: a-small-update-patching-example.md
+      items: 
+      - name: "Planning a Small Update Patch"
+        href: planning-a-small-update-patch.md
+      - name: "Creating a Patch Creation Properties File"
+        href: creating-a-patch-creation-properties-file.md
+      - name: "Generating a Patch Package"
+        href: generating-a-patch-package.md
+      - name: "Applying a Patch Package to a Local Installation"
+        href: applying-a-patch-package-to-a-local-installation.md
+      - name: "Applying a Patch Package to an Administrative Installation"
+        href: applying-a-patch-package-to-an-administrative-installation.md
+    - name: "A Database and Patch Example"
+      href: a-database-and-patch-example.md
+    - name: "A Localization Example"
+      href: a-localization-example.md
+      items: 
+      - name: "Checking the Installation Database Code Page"
+        href: checking-the-installation-database-code-page.md
+      - name: "Importing Localized Error and ActionText Tables"
+        href: importing-localized-error-and-actiontext-tables.md
+      - name: "Localizing Database Columns"
+        href: localizing-database-columns.md
+      - name: "Updating ProductLanguage and ProductCode Properties"
+        href: updating-productlanguage-and-productcode-properties.md
+      - name: "Updating a Summary Information Stream"
+        href: updating-a-summary-information-stream.md
+      - name: "Adding Localized Resources"
+        href: adding-localized-resources.md
+    - name: "A MUI Shortcut Example"
+      href: a-mui-shortcut-example.md
+    - name: "A URL-Based Windows Installer Installation Example"
+      href: a-url-based-windows-installer-installation-example.md
+      items: 
+      - name: "Configuring the Setup.exe Resources"
+        href: configuring-the-setup-exe-resources.md
+      - name: "Sign Setup.exe and MySetup.msi"
+        href: sign-setup-exe-and-mysetup-msi.md
+      - name: "Establish an HTML Reference to Setup.exe"
+        href: establish-an-html-reference-to-setup-exe.md
+    - name: "Windows Installer Scripting Examples"
+      href: windows-installer-scripting-examples.md
+      items: 
+      - name: "List Products, Properties, Features, and Components"
+        href: list-products-properties-features-and-components.md
+      - name: "Import Files"
+        href: import-files.md
+      - name: "Export Files"
+        href: export-files.md
+      - name: "Manage Substorages"
+        href: manage-substorages.md
+      - name: "Manage Binary Streams"
+        href: manage-binary-streams.md
+      - name: "Merge Two Databases"
+        href: merge-two-databases.md
+      - name: "Generate a Transform"
+        href: generate-a-transform.md
+      - name: "Apply a Transform"
+        href: apply-a-transform.md
+      - name: "View a Transform"
+        href: view-a-transform.md
+      - name: "View Differences Between Two Databases"
+        href: view-differences-between-two-databases.md
+      - name: "View Installer Script"
+        href: view-installer-script.md
+      - name: "Manage Summary Information"
+        href: manage-summary-information.md
+      - name: "Manage Policy Settings"
+        href: manage-policy-settings.md
+      - name: "Manage Language and Codepage"
+        href: manage-language-and-codepage.md
+      - name: "Copy a Unicode File to an ANSI File"
+        href: copy-a-unicode-file-to-an-ansi-file.md
+      - name: "Manage File Sizes and Versions"
+        href: manage-file-sizes-and-versions.md
+      - name: "Generate File Cabinet"
+        href: generate-file-cabinet.md
+      - name: "Execute SQL Statements"
+        href: execute-sql-statements.md
+      - name: "Copy ANSI File Into a Database Field"
+        href: copy-ansi-file-into-a-database-field.md
+      - name: "List Components"
+        href: list-components.md
+      - name: "List Features"
+        href: list-features.md
+      - name: "Preview User Interface"
+        href: preview-user-interface.md
+    - name: "Single Package Authoring Example"
+      href: single-package-authoring-example.md
+  - name: "Windows Installer Reference"
+    href: windows-installer-reference.md
+    items: 
+    - name: "Automation Interface"
+      href: automation-interface.md
+      items: 
+      - name: "About the Automation Interface"
+        href: about-the-automation-interface.md
+      - name: "Using the Automation Interface"
+        href: using-the-automation-interface.md
+      - name: "Automation Interface Reference"
+        href: automation-interface-reference.md
+        items: 
+        - name: "Client"
+          href: client.md
+          items: 
+          - name: "ProductCode Property"
+            href: client-productcode.md
+          - name: "ComponentCode Property"
+            href: client-componentcode.md
+          - name: "UserSID Property"
+            href: client-usersid.md
+          - name: "Context Property"
+            href: client-context.md
+        - name: "ComponentInfo"
+          href: componentinfo.md
+          items: 
+          - name: "ComponentCode Property"
+            href: componentinfo-componentcode.md
+          - name: "Path Property"
+            href: componentinfo-path.md
+          - name: "State Property"
+            href: componentinfo-state.md
+        - name: "Components"
+          href: components.md
+          items: 
+          - name: "ComponentCode Property"
+            href: component-componentcode.md
+          - name: "UserSID Property"
+            href: component-usersid.md
+          - name: "Context Property"
+            href: component-context.md
+        - name: "Database Object"
+          href: database-object.md
+          items: 
+          - name: "ApplyTransform Method"
+            href: database-applytransform.md
+          - name: "Commit Method"
+            href: database-commit.md
+          - name: "CreateTransformSummaryInfo Method"
+            href: database-createtransformsummaryinfo.md
+          - name: "DatabaseState Property"
+            href: database-databasestate.md
+          - name: "EnableUIPreview Method"
+            href: database-enableuipreview.md
+          - name: "Export Method"
+            href: database-export.md
+          - name: "GenerateTransform Method"
+            href: database-generatetransform.md
+          - name: "Import Method"
+            href: database-import.md
+          - name: "Merge Method"
+            href: database-merge.md
+          - name: "OpenView Method"
+            href: database-openview.md
+          - name: "PrimaryKeys Property"
+            href: database-primarykeys.md
+          - name: "SummaryInformation Property"
+            href: database-summaryinformation.md
+          - name: "TablePersistent Property"
+            href: database-tablepersistent.md
+        - name: "FeatureInfo Object"
+          href: featureinfo-object.md
+          items: 
+          - name: "Attributes Property"
+            href: featureinfo-attributes.md
+          - name: "Description Property"
+            href: featureinfo-description.md
+          - name: "Title Property"
+            href: featureinfo-title.md
+        - name: "Installer Object"
+          href: installer-object.md
+          items: 
+          - name: "AddSource Method"
+            href: installer-addsource.md
+          - name: "AdvertiseProduct Method"
+            href: installer-advertiseproduct.md
+          - name: "AdvertiseScript Method"
+            href: installer-advertisescript.md
+          - name: "ApplyPatch Method"
+            href: installer-applypatch.md
+          - name: "ApplyMultiplePatches Method"
+            href: installer-applymultiplepatches.md
+          - name: "ClearSourceList Method"
+            href: installer-clearsourcelist.md
+          - name: "ClientsEx Property"
+            href: installer-clientsex.md
+          - name: "CollectUserInfo Method"
+            href: installer-collectuserinfo.md
+          - name: "ComponentClients Property"
+            href: installer-componentclients.md
+          - name: "ComponentPath Property"
+            href: installer-componentpath.md
+          - name: "ComponentPathEx Property"
+            href: installer-componentpathex.md
+          - name: "ComponentQualifiers Property"
+            href: installer-componentqualifiers.md
+          - name: "Components Property"
+            href: installer-components.md
+          - name: "ComponentsEx Property"
+            href: installer-componentsex.md
+          - name: "ConfigureFeature Method"
+            href: installer-configurefeature.md
+          - name: "ConfigureProduct Method"
+            href: installer-configureproduct.md
+          - name: "CreateAdvertiseScript Method"
+            href: installer-createadvertisescript.md
+          - name: "CreateRecord Method"
+            href: installer-createrecord.md
+          - name: "EnableLog Method"
+            href: installer-enablelog.md
+          - name: "Environment Property"
+            href: installer-environment.md
+          - name: "ExtractPatchXMLData Method"
+            href: installer-extractpatchxmldata.md
+          - name: "FeatureParent Property"
+            href: installer-featureparent.md
+          - name: "Features Property"
+            href: installer-features.md
+          - name: "FeatureState Property"
+            href: installer-featurestate.md
+          - name: "FeatureUsageCount Property"
+            href: installer-featureusagecount.md
+          - name: "FeatureUsageDate Property"
+            href: installer-featureusagedate.md
+          - name: "FileAttributes Property"
+            href: installer-fileattributes.md
+          - name: "FileHash Method"
+            href: installer-filehash.md
+          - name: "FileSignatureInfo Method"
+            href: installer-filesignatureinfo.md
+          - name: "FileSize Method"
+            href: installer-filesize.md
+          - name: "FileVersion Method"
+            href: installer-fileversion.md
+          - name: "ForceSourceListResolution Method"
+            href: installer-forcesourcelistresolution.md
+          - name: "InstallProduct Method"
+            href: installer-installproduct.md
+          - name: "LastErrorRecord Method"
+            href: installer-lasterrorrecord.md
+          - name: "OpenPackage Method"
+            href: installer-openpackage.md
+          - name: "OpenDatabase Method"
+            href: installer-opendatabase.md
+          - name: "OpenProduct Method"
+            href: installer-openproduct.md
+          - name: "Patches Property"
+            href: installer-patches.md
+          - name: "PatchesEx Property"
+            href: installer-patchesex.md
+          - name: "PatchFiles Property"
+            href: installer-patchfiles.md
+          - name: "PatchInfo Property"
+            href: installer-patchinfo.md
+          - name: "PatchTransforms Property"
+            href: installer-patchtransforms.md
+          - name: "ProductInfo Property"
+            href: installer-productinfo.md
+          - name: "ProductInfoFromScript Property"
+            href: installer-productinfofromscript.md
+          - name: "ProductElevated Property"
+            href: installer-productelevated.md
+          - name: "ProductsEx Property"
+            href: installer-productsex.md
+          - name: "Products Property"
+            href: installer-products.md
+          - name: "ProductState Property Method"
+            href: installer-productstate-property.md
+          - name: "ProvideAssembly Method"
+            href: installer-provideassembly.md
+          - name: "ProvideComponent Method"
+            href: installer-providecomponent.md
+          - name: "ProvideQualifiedComponent Method"
+            href: installer-providequalifiedcomponent.md
+          - name: "QualifierDescription Property"
+            href: installer-qualifierdescription.md
+          - name: "RegistryValue Method"
+            href: installer-registryvalue.md
+          - name: "ReinstallFeature Method"
+            href: installer-reinstallfeature.md
+          - name: "ReinstallProduct Method"
+            href: installer-reinstallproduct.md
+          - name: "RelatedProducts Property"
+            href: installer-relatedproducts.md
+          - name: "RemovePatches Method"
+            href: installer-removepatches.md
+          - name: "ShortcutTarget Property"
+            href: installer-shortcuttarget.md
+          - name: "SummaryInformation Property"
+            href: installer-summaryinformation.md
+          - name: "UILevel Property"
+            href: installer-uilevel.md
+          - name: "UseFeature Method"
+            href: installer-usefeature.md
+          - name: "Version Property"
+            href: installer-version.md
+        - name: "Patch Object"
+          href: patch-object.md
+          items: 
+          - name: "SourceListAddMediaDisk Method"
+            href: patch-sourcelistaddmediadisk.md
+          - name: "SourceListAddSource Method"
+            href: patch-sourcelistaddsource.md
+          - name: "SourceListClearMediaDisk Method"
+            href: patch-sourcelistclearmediadisk.md
+          - name: "SourceListClearSource Method"
+            href: patch-sourcelistclearsource.md
+          - name: "SourceListClearAll Method"
+            href: patch-sourcelistclearall.md
+          - name: "SourceListForceResolution Method"
+            href: patch-sourcelistforceresolution.md
+          - name: "Context Property"
+            href: patch-context.md
+          - name: "MediaDisks Property"
+            href: patch-mediadisks.md
+          - name: "PatchCode Property"
+            href: patch-patchcode.md
+          - name: "PatchProperty Method"
+            href: patch-patchproperty.md
+          - name: "ProductCode Property"
+            href: patch-productcode.md
+          - name: "SourceListInfo Property"
+            href: patch-sourcelistinfo.md
+          - name: "Sources Property"
+            href: patch-sources.md
+          - name: "State Property"
+            href: patch-state.md
+          - name: "UserSid Property"
+            href: patch-usersid.md
+        - name: "Product Object"
+          href: product-object.md
+          items: 
+          - name: "SourceListAddMediaDisk Method"
+            href: product-sourcelistaddmediadisk.md
+          - name: "SourceListAddSource Method"
+            href: product-sourcelistaddsource.md
+          - name: "SourceListClearSource Method"
+            href: product-sourcelistclearsource.md
+          - name: "SourceListClearAll Method"
+            href: product-sourcelistclearall.md
+          - name: "SourceListClearMediaDisk Method"
+            href: product-sourcelistclearmediadisk.md
+          - name: "SourceListForceResolution Method"
+            href: product-sourcelistforceresolution.md
+          - name: "SourceListInfo Property"
+            href: product-sourcelistinfo.md
+          - name: "ComponentState Method"
+            href: product-componentstate.md
+          - name: "ProductCode Property"
+            href: product-productcode.md
+          - name: "InstallProperty Method"
+            href: product-installproperty.md
+          - name: "Context Property"
+            href: product-context.md
+          - name: "FeatureState Method"
+            href: product-featurestate.md
+          - name: "MediaDisks Property"
+            href: product-mediadisks.md
+          - name: "Sources Property"
+            href: product-sources.md
+          - name: "State Property"
+            href: product-state.md
+          - name: "UserSid Property"
+            href: product-usersid.md
+        - name: "Record Object"
+          href: record-object.md
+          items: 
+          - name: "ClearData Method"
+            href: record-cleardata.md
+          - name: "DataSize Property"
+            href: record-datasize.md
+          - name: "FieldCount Property"
+            href: record-fieldcount.md
+          - name: "FormatText Method"
+            href: record-formattext.md
+          - name: "IntegerData Property"
+            href: record-integerdata.md
+          - name: "IsNull Property"
+            href: record-isnull.md
+          - name: "ReadStream Method"
+            href: record-readstream.md
+          - name: "SetStream Method"
+            href: record-setstream.md
+          - name: "StringData Property"
+            href: record-stringdata.md
+        - name: "RecordList Object"
+          href: recordlist-object.md
+          items: 
+          - name: "Count Property"
+            href: recordlist-count.md
+          - name: "Item Property"
+            href: recordlist-item.md
+        - name: "Session Object"
+          href: session-object.md
+          items: 
+          - name: "ComponentCosts Property"
+            href: session-componentcosts.md
+          - name: "ComponentCurrentState Property"
+            href: session-componentcurrentstate.md
+          - name: "ComponentRequestState Property"
+            href: session-componentrequeststate.md
+          - name: "Database Property"
+            href: session-database.md
+          - name: "DoAction Method"
+            href: session-doaction.md
+          - name: "EvaluateCondition Method"
+            href: session-evaluatecondition.md
+          - name: "FeatureCost Property"
+            href: session-featurecost.md
+          - name: "FeatureCurrentState Property"
+            href: session-featurecurrentstate.md
+          - name: "FeatureInfo Method"
+            href: session-featureinfo.md
+          - name: "FeatureRequestState Property"
+            href: session-featurerequeststate.md
+          - name: "FeatureValidStates Property"
+            href: session-featurevalidstates.md
+          - name: "FormatRecord Method"
+            href: session-formatrecord.md
+          - name: "Installer Property"
+            href: session-installer.md
+          - name: "Language Property"
+            href: session-language.md
+          - name: "Message Method"
+            href: session-message.md
+          - name: "Mode Property"
+            href: session-mode.md
+          - name: "ProductProperty Property"
+            href: session-productproperty.md
+          - name: "Property Property"
+            href: session-session.md
+          - name: "Sequence Method"
+            href: session-sequence.md
+          - name: "SetInstallLevel Method"
+            href: session-setinstalllevel.md
+          - name: "SourcePath Property"
+            href: session-sourcepath.md
+          - name: "TargetPath Property"
+            href: session-targetpath.md
+          - name: "VerifyDiskSpace Property"
+            href: session-verifydiskspace.md
+        - name: "StringList Object"
+          href: stringlist-object.md
+          items: 
+          - name: "Count Property"
+            href: stringlist-count.md
+          - name: "Item Property"
+            href: stringlist-item.md
+        - name: "SummaryInfo Object"
+          href: summaryinfo-object.md
+          items: 
+          - name: "Persist Method"
+            href: summaryinfo-persist.md
+          - name: "Property Property"
+            href: summaryinfo-summaryinfo.md
+          - name: "PropertyCount Property"
+            href: summaryinfo-propertycount.md
+        - name: "UIPreview Object"
+          href: uipreview-object.md
+          items: 
+          - name: "Property Property"
+            href: uipreview-property.md
+          - name: "ViewBillboard Method"
+            href: uipreview-viewbillboard.md
+          - name: "ViewDialog Method"
+            href: uipreview-viewdialog.md
+        - name: "View Object"
+          href: view-object.md
+          items: 
+          - name: "Close Method"
+            href: view-close.md
+          - name: "ColumnInfo Property"
+            href: view-columninfo.md
+          - name: "Execute Method"
+            href: view-execute.md
+          - name: "Fetch Method"
+            href: view-fetch.md
+          - name: "GetError Method"
+            href: view-geterror.md
+          - name: "Modify Method"
+            href: view-modify.md
+    - name: "Installer Functions"
+      href: installer-functions.md
+      items: 
+      - name: "About Installer Functions"
+        href: about-installer-functions.md
+      - name: "Using Installer Functions"
+        href: using-installer-functions.md
+        items: 
+        - name: "Initializing an Application"
+          href: initializing-an-application.md
+        - name: "Getting Application Information"
+          href: getting-application-information.md
+        - name: "Requesting a Feature"
+          href: requesting-a-feature.md
+        - name: "Installing an Application"
+          href: installing-an-application.md
+        - name: "Reinstalling a Feature or Application"
+          href: reinstalling-a-feature-or-application.md
+        - name: "Removing an Advertised Application"
+          href: removing-an-advertised-application.md
+        - name: "Working with Features and Components"
+          href: working-with-features-and-components.md
+        - name: "Installing a Missing Component"
+          href: installing-a-missing-component.md
+        - name: "Inventory Products and Patches"
+          href: inventory-products-and-patches-.md
+        - name: "Managing Installation Sources"
+          href: managing-installation-sources.md
+      - name: "Installer Function Reference"
+        href: installer-function-reference.md
+        items: 
+        - name: "MsiAdvertiseProduct"
+          href: /windows/desktop/api/Msi/nf-msi-msiadvertiseproducta
+        - name: "MsiAdvertiseProductEx"
+          href: /windows/desktop/api/Msi/nf-msi-msiadvertiseproductexa
+        - name: "MsiAdvertiseScript"
+          href: /windows/desktop/api/Msi/nf-msi-msiadvertisescripta
+        - name: "MsiApplyPatch"
+          href: /windows/desktop/api/Msi/nf-msi-msiapplypatcha
+        - name: "MsiApplyMultiplePatches"
+          href: /windows/desktop/api/Msi/nf-msi-msiapplymultiplepatchesa
+        - name: "MsiBeginTransaction"
+          href: /windows/desktop/api/Msi/nf-msi-msibegintransactiona
+        - name: "MsiCloseAllHandles"
+          href: /windows/desktop/api/Msi/nf-msi-msicloseallhandles
+        - name: "MsiCloseHandle"
+          href: /windows/desktop/api/Msi/nf-msi-msiclosehandle
+        - name: "MsiCollectUserInfo"
+          href: /windows/desktop/api/Msi/nf-msi-msicollectuserinfoa
+        - name: "MsiConfigureFeature"
+          href: /windows/desktop/api/Msi/nf-msi-msiconfigurefeaturea
+        - name: "MsiConfigureProduct"
+          href: /windows/desktop/api/Msi/nf-msi-msiconfigureproducta
+        - name: "MsiConfigureProductEx"
+          href: /windows/desktop/api/Msi/nf-msi-msiconfigureproductexa
+        - name: "MsiDetermineApplicablePatches"
+          href: /windows/desktop/api/Msi/nf-msi-msidetermineapplicablepatchesa
+        - name: "MsiDeterminePatchSequence"
+          href: /windows/desktop/api/Msi/nf-msi-msideterminepatchsequencea
+        - name: "MsiEnableLog"
+          href: /windows/desktop/api/Msi/nf-msi-msienableloga
+        - name: "MsiEndTransaction"
+          href: /windows/desktop/api/Msi/nf-msi-msiendtransaction
+        - name: "MsiEnumClients"
+          href: /windows/desktop/api/Msi/nf-msi-msienumclientsa
+        - name: "MsiEnumClientsEx"
+          href: /windows/desktop/api/Msi/nf-msi-msienumclientsexa
+        - name: "MsiEnumComponentQualifiers"
+          href: /windows/desktop/api/Msi/nf-msi-msienumcomponentqualifiersa
+        - name: "MsiEnumComponents"
+          href: /windows/desktop/api/Msi/nf-msi-msienumcomponentsa
+        - name: "MsiEnumComponentsEx"
+          href: /windows/desktop/api/Msi/nf-msi-msienumcomponentsexa
+        - name: "MsiEnumFeatures"
+          href: /windows/desktop/api/Msi/nf-msi-msienumfeaturesa
+        - name: "MsiEnumPatches"
+          href: /windows/desktop/api/Msi/nf-msi-msienumpatchesa
+        - name: "MsiEnumPatchesEx"
+          href: /windows/desktop/api/Msi/nf-msi-msienumpatchesexa
+        - name: "MsiEnumProducts"
+          href: /windows/desktop/api/Msi/nf-msi-msienumproductsa
+        - name: "MsiEnumProductsEx"
+          href: /windows/desktop/api/Msi/nf-msi-msienumproductsexa
+        - name: "MsiEnumRelatedProducts"
+          href: /windows/desktop/api/Msi/nf-msi-msienumrelatedproductsa
+        - name: "MsiExtractPatchXMLData"
+          href: /windows/desktop/api/Msi/nf-msi-msiextractpatchxmldataa
+        - name: "MsiGetComponentPath"
+          href: /windows/desktop/api/Msi/nf-msi-msigetcomponentpatha
+        - name: "MsiGetComponentPathEx"
+          href: /windows/desktop/api/Msi/nf-msi-msigetcomponentpathexa
+        - name: "MsiGetFeatureInfo"
+          href: /windows/desktop/api/Msi/nf-msi-msigetfeatureinfoa
+        - name: "MsiGetFeatureUsage"
+          href: /windows/desktop/api/Msi/nf-msi-msigetfeatureusagea
+        - name: "MsiGetFileHash"
+          href: /windows/desktop/api/Msi/nf-msi-msigetfilehasha
+        - name: "MsiGetFileSignatureInformation"
+          href: /windows/desktop/api/Msi/nf-msi-msigetfilesignatureinformationa
+        - name: "MsiGetFileVersion"
+          href: /windows/desktop/api/Msi/nf-msi-msigetfileversiona
+        - name: "MsiGetPatchFileList"
+          href: /windows/desktop/api/Msi/nf-msi-msigetpatchfilelista
+        - name: "MsiGetPatchInfo"
+          href: /windows/desktop/api/Msi/nf-msi-msigetpatchinfoa
+        - name: "MsiGetPatchInfoEx"
+          href: /windows/desktop/api/Msi/nf-msi-msigetpatchinfoexa
+        - name: "MsiGetProductCode"
+          href: /windows/desktop/api/Msi/nf-msi-msigetproductcodea
+        - name: "MsiGetProductInfo"
+          href: /windows/desktop/api/Msi/nf-msi-msigetproductinfoa
+        - name: "MsiGetProductInfoEx"
+          href: /windows/desktop/api/Msi/nf-msi-msigetproductinfoexa
+        - name: "MsiGetProductInfoFromScript"
+          href: /windows/desktop/api/Msi/nf-msi-msigetproductinfofromscripta
+        - name: "MsiGetProductProperty"
+          href: /windows/desktop/api/Msi/nf-msi-msigetproductpropertya
+        - name: "MsiGetShortcutTarget"
+          href: /windows/desktop/api/Msi/nf-msi-msigetshortcuttargeta
+        - name: "MsiGetUserInfo"
+          href: /windows/desktop/api/Msi/nf-msi-msigetuserinfoa
+        - name: "MsiInstallMissingComponent"
+          href: /windows/desktop/api/Msi/nf-msi-msiinstallmissingcomponenta
+        - name: "MsiInstallMissingFile"
+          href: /windows/desktop/api/Msi/nf-msi-msiinstallmissingfilea
+        - name: "MsiInstallProduct"
+          href: /windows/desktop/api/Msi/nf-msi-msiinstallproducta
+        - name: "MsiIsProductElevated"
+          href: /windows/desktop/api/Msi/nf-msi-msiisproductelevateda
+        - name: "MsiJoinTransaction"
+          href: /windows/desktop/api/Msi/nf-msi-msijointransaction
+        - name: "MsiLocateComponent"
+          href: /windows/desktop/api/Msi/nf-msi-msilocatecomponenta
+        - name: "MsiNotifySidChange"
+          href: /windows/desktop/api/Msi/nf-msi-msinotifysidchangea
+        - name: "MsiOpenPackage"
+          href: /windows/desktop/api/Msi/nf-msi-msiopenpackagea
+        - name: "MsiOpenPackageEx"
+          href: /windows/desktop/api/Msi/nf-msi-msiopenpackageexa
+        - name: "MsiOpenProduct"
+          href: /windows/desktop/api/Msi/nf-msi-msiopenproducta
+        - name: "MsiProcessAdvertiseScript"
+          href: /windows/desktop/api/Msi/nf-msi-msiprocessadvertisescripta
+        - name: "MsiProvideAssembly"
+          href: /windows/desktop/api/Msi/nf-msi-msiprovideassemblya
+        - name: "MsiProvideComponent"
+          href: /windows/desktop/api/Msi/nf-msi-msiprovidecomponenta
+        - name: "MsiProvideQualifiedComponent"
+          href: /windows/desktop/api/Msi/nf-msi-msiprovidequalifiedcomponenta
+        - name: "MsiProvideQualifiedComponentEx"
+          href: /windows/desktop/api/Msi/nf-msi-msiprovidequalifiedcomponentexa
+        - name: "MsiQueryComponentState"
+          href: /windows/desktop/api/Msi/nf-msi-msiquerycomponentstatea
+        - name: "MsiQueryFeatureState"
+          href: /windows/desktop/api/Msi/nf-msi-msiqueryfeaturestatea
+        - name: "MsiQueryFeatureStateEx"
+          href: /windows/desktop/api/Msi/nf-msi-msiqueryfeaturestateexa
+        - name: "MsiQueryProductState"
+          href: /windows/desktop/api/Msi/nf-msi-msiqueryproductstatea
+        - name: "MsiReinstallFeature"
+          href: /windows/desktop/api/Msi/nf-msi-msireinstallfeaturea
+        - name: "MsiReinstallProduct"
+          href: /windows/desktop/api/Msi/nf-msi-msireinstallproducta
+        - name: "MsiRemovePatches"
+          href: /windows/desktop/api/Msi/nf-msi-msiremovepatchesa
+        - name: "MsiSetExternalUI"
+          href: /windows/desktop/api/Msi/nf-msi-msisetexternaluia
+        - name: "MsiSetExternalUIRecord"
+          href: /windows/desktop/api/Msi/nf-msi-msisetexternaluirecord
+        - name: "MsiSetInternalUI"
+          href: /windows/desktop/api/Msi/nf-msi-msisetinternalui
+        - name: "MsiSourceListAddMediaDisk"
+          href: /windows/desktop/api/Msi/nf-msi-msisourcelistaddmediadiska
+        - name: "MsiSourceListAddSource"
+          href: /windows/desktop/api/Msi/nf-msi-msisourcelistaddsourcea
+        - name: "MsiSourceListAddSourceEx"
+          href: /windows/desktop/api/Msi/nf-msi-msisourcelistaddsourceexa
+        - name: "MsiSourceListClearAll"
+          href: /windows/desktop/api/Msi/nf-msi-msisourcelistclearalla
+        - name: "MsiSourceListClearAllEx"
+          href: /windows/desktop/api/Msi/nf-msi-msisourcelistclearallexa
+        - name: "MsiSourceListClearSource"
+          href: /windows/desktop/api/Msi/nf-msi-msisourcelistclearsourcea
+        - name: "MsiSourceListClearMediaDisk"
+          href: /windows/desktop/api/Msi/nf-msi-msisourcelistclearmediadiska
+        - name: "MsiSourceListEnumSources"
+          href: /windows/desktop/api/Msi/nf-msi-msisourcelistenumsourcesa
+        - name: "MsiSourceListEnumMediaDisks"
+          href: /windows/desktop/api/Msi/nf-msi-msisourcelistenummediadisksa
+        - name: "MsiSourceListForceResolution"
+          href: /windows/desktop/api/Msi/nf-msi-msisourcelistforceresolutiona
+        - name: "MsiSourceListForceResolutionEx"
+          href: /windows/desktop/api/Msi/nf-msi-msisourcelistforceresolutionexa
+        - name: "MsiSourceListGetInfo"
+          href: /windows/desktop/api/Msi/nf-msi-msisourcelistgetinfoa
+        - name: "MsiSourceListSetInfo"
+          href: /windows/desktop/api/Msi/nf-msi-msisourcelistsetinfoa
+        - name: "MsiUseFeature"
+          href: /windows/desktop/api/Msi/nf-msi-msiusefeaturea
+        - name: "MsiUseFeatureEx"
+          href: /windows/desktop/api/Msi/nf-msi-msiusefeatureexa
+        - name: "MsiVerifyPackage"
+          href: /windows/desktop/api/Msi/nf-msi-msiverifypackagea
+        - name: "Initialization Errors"
+          href: initialization-errors.md
+        - name: "Displayed Error Messages"
+          href: displayed-error-messages.md
+        - name: "INSTALLUI_HANDLER"
+          href: /windows/desktop/api/Msi/nc-msi-installui_handlera
+        - name: "INSTALLUI_HANDLER_RECORD"
+          href: /windows/desktop/api/msi/nc-msi-installui_handler_record
+    - name: "Installer Structures"
+      href: installer-structures.md
+      items: 
+      - name: "MSIFILEHASHINFO"
+        href: /windows/win32/api/Msi/ns-msi-msifilehashinfo
+      - name: "MSIPATCHSEQUENCEINFO"
+        href: /windows/win32/api/Msi/ns-msi-msipatchsequenceinfoa
+    - name: "Installer Database"
+      href: installer-database.md
+      items: 
+      - name: "About the Installer Database"
+        href: about-the-installer-database.md
+        items: 
+        - name: "Core Tables Group"
+          href: core-tables-group.md
+        - name: "File Tables Group"
+          href: file-tables-group.md
+        - name: "Registry Tables Group"
+          href: registry-tables-group.md
+        - name: "System Tables Group"
+          href: system-tables-group.md
+        - name: "Locator Tables Group"
+          href: locator-tables-group.md
+        - name: "Program Information Tables Group"
+          href: program-information-tables-group.md
+        - name: "Installation Procedure Tables Group"
+          href: installation-procedure-tables-group.md
+        - name: "Entity Relationship Diagram Legend"
+          href: entity-relationship-diagram-legend.md
+        - name: "Text Archive Files"
+          href: text-archive-files.md
+          items: 
+          - name: "Archive File Format"
+            href: archive-file-format.md
+          - name: "ASCII Data in Text Archive Files"
+            href: ascii-data-in-text-archive-files.md
+          - name: "_ForceCodepage"
+            href: -forcecodepage.md
+          - name: "_SummaryInformation"
+            href: -summaryinformation.md
+      - name: "Using the Installer Database"
+        href: using-the-installer-database.md
+        items: 
+        - name: "Using the Directory Table"
+          href: using-the-directory-table.md
+        - name: "Using a Sequence Table"
+          href: using-a-sequence-table.md
+          items: 
+          - name: "Sequence Table Detailed Example"
+            href: sequence-table-detailed-example.md
+          - name: "Suggested InstallUISequence"
+            href: suggested-installuisequence.md
+          - name: "Suggested InstallExecuteSequence"
+            href: suggested-installexecutesequence.md
+          - name: "Suggested AdminUISequence"
+            href: suggested-adminuisequence.md
+          - name: "Suggested AdminExecuteSequence"
+            href: suggested-adminexecutesequence.md
+          - name: "Suggested AdvtUISequence"
+            href: suggested-advtuisequence.md
+          - name: "Suggested AdvtExecuteSequence"
+            href: suggested-advtexecutesequence.md
+        - name: "Obtaining a Database Handle"
+          href: obtaining-a-database-handle.md
+        - name: "Committing Databases"
+          href: committing-databases.md
+        - name: "Importing and Exporting"
+          href: importing-and-exporting.md
+        - name: "Merging Databases"
+          href: merging-databases.md
+        - name: "Naming Custom Tables, Properties, and Actions"
+          href: naming-custom-tables-properties-and-actions.md
+          items: 
+          - name: "Table Names"
+            href: table-names.md
+        - name: "OLE Limitations on Streams"
+          href: ole-limitations-on-streams.md
+        - name: "Working with Queries"
+          href: working-with-queries.md
+          items: 
+          - name: "Examples of Database Queries Using SQL and Script"
+            href: examples-of-database-queries-using-sql-and-script.md
+        - name: "Working with Records"
+          href: working-with-records.md
+        - name: "Adding Binary Data to a Table Using SQL"
+          href: adding-binary-data-to-a-table-using-sql.md
+        - name: "Working with Folder Locations"
+          href: working-with-folder-locations.md
+        - name: "Specifying the Order of Self Registration"
+          href: specifying-the-order-of-self-registration.md
+        - name: "Conditioning Actions to Run During Removal"
+          href: conditioning-actions-to-run-during-removal.md
+        - name: "Calling Database Functions from Programs"
+          href: calling-database-functions-from-programs.md
+        - name: "Conditional Statement Syntax"
+          href: conditional-statement-syntax.md
+          items: 
+          - name: "Examples of Conditional Statement Syntax"
+            href: examples-of-conditional-statement-syntax.md
+        - name: "Column Definition Format"
+          href: column-definition-format.md
+        - name: "Determining Whether a Column is a Primary or External Key"
+          href: determining-whether-a-column-is-a-primary-or-external-key.md
+      - name: "Installer Database Reference"
+        href: installer-database-reference.md
+        items: 
+        - name: "Database Functions"
+          href: database-functions.md
+          items: 
+          - name: "SQL Syntax"
+            href: sql-syntax.md
+          - name: "Passing null as the Argument of Windows Installer Functions"
+            href: passing-null-as-the-argument-of-windows-installer-functions.md
+          - name: "MsiCreateRecord"
+            href: /windows/desktop/api/Msiquery/nf-msiquery-msicreaterecord
+          - name: "MsiCreateTransformSummaryInfo"
+            href: /windows/desktop/api/Msiquery/nf-msiquery-msicreatetransformsummaryinfoa
+          - name: "MsiDatabaseApplyTransform"
+            href: /windows/desktop/api/Msiquery/nf-msiquery-msidatabaseapplytransforma
+          - name: "MsiDatabaseCommit"
+            href: /windows/desktop/api/Msiquery/nf-msiquery-msidatabasecommit
+          - name: "MsiDatabaseExport"
+            href: /windows/desktop/api/Msiquery/nf-msiquery-msidatabaseexporta
+          - name: "MsiDatabaseGenerateTransform"
+            href: /windows/desktop/api/Msiquery/nf-msiquery-msidatabasegeneratetransforma
+          - name: "MsiDatabaseGetPrimaryKeys"
+            href: /windows/desktop/api/Msiquery/nf-msiquery-msidatabasegetprimarykeysa
+          - name: "MsiDatabaseImport"
+            href: /windows/desktop/api/Msiquery/nf-msiquery-msidatabaseimporta
+          - name: "MsiDatabaseIsTablePersistent"
+            href: /windows/desktop/api/Msiquery/nf-msiquery-msidatabaseistablepersistenta
+          - name: "MsiDatabaseMerge"
+            href: /windows/desktop/api/Msiquery/nf-msiquery-msidatabasemergea
+          - name: "MsiDatabaseOpenView"
+            href: /windows/desktop/api/Msiquery/nf-msiquery-msidatabaseopenviewa
+          - name: "MsiDoAction"
+            href: /windows/desktop/api/Msiquery/nf-msiquery-msidoactiona
+          - name: "MsiEnableUIPreview"
+            href: /windows/desktop/api/Msiquery/nf-msiquery-msienableuipreview
+          - name: "MsiEnumComponentCosts"
+            href: /windows/desktop/api/Msiquery/nf-msiquery-msienumcomponentcostsa
+          - name: "MsiEvaluateCondition"
+            href: /windows/desktop/api/Msiquery/nf-msiquery-msievaluateconditiona
+          - name: "MsiFormatRecord"
+            href: /windows/desktop/api/Msiquery/nf-msiquery-msiformatrecorda
+          - name: "MsiGetActiveDatabase"
+            href: /windows/desktop/api/Msiquery/nf-msiquery-msigetactivedatabase
+          - name: "MsiGetComponentState"
+            href: /windows/desktop/api/Msiquery/nf-msiquery-msigetcomponentstatea
+          - name: "MsiGetDatabaseState"
+            href: /windows/desktop/api/Msiquery/nf-msiquery-msigetdatabasestate
+          - name: "MsiGetFeatureCost"
+            href: /windows/desktop/api/Msiquery/nf-msiquery-msigetfeaturecosta
+          - name: "MsiGetFeatureState"
+            href: /windows/desktop/api/Msiquery/nf-msiquery-msigetfeaturestatea
+          - name: "MsiGetFeatureValidStates"
+            href: /windows/desktop/api/Msiquery/nf-msiquery-msigetfeaturevalidstatesa
+          - name: "MsiGetLanguage"
+            href: /windows/desktop/api/Msiquery/nf-msiquery-msigetlanguage
+          - name: "MsiGetLastErrorRecord"
+            href: /windows/desktop/api/Msiquery/nf-msiquery-msigetlasterrorrecord
+          - name: "MsiGetMode"
+            href: /windows/desktop/api/Msiquery/nf-msiquery-msigetmode
+          - name: "MsiGetProperty"
+            href: /windows/desktop/api/Msiquery/nf-msiquery-msigetpropertya
+          - name: "MsiGetSourcePath"
+            href: /windows/desktop/api/Msiquery/nf-msiquery-msigetsourcepatha
+          - name: "MsiGetSummaryInformation"
+            href: /windows/desktop/api/Msiquery/nf-msiquery-msigetsummaryinformationa
+          - name: "MsiGetTargetPath"
+            href: /windows/desktop/api/Msiquery/nf-msiquery-msigettargetpatha
+          - name: "MsiOpenDatabase"
+            href: /windows/desktop/api/Msiquery/nf-msiquery-msiopendatabasea
+          - name: "MsiPreviewBillboard"
+            href: /windows/desktop/api/Msiquery/nf-msiquery-msipreviewbillboarda
+          - name: "MsiPreviewDialog"
+            href: /windows/desktop/api/Msiquery/nf-msiquery-msipreviewdialoga
+          - name: "MsiProcessMessage"
+            href: /windows/desktop/api/Msiquery/nf-msiquery-msiprocessmessage
+          - name: "MsiRecordClearData"
+            href: /windows/desktop/api/Msiquery/nf-msiquery-msirecordcleardata
+          - name: "MsiRecordDataSize"
+            href: /windows/desktop/api/Msiquery/nf-msiquery-msirecorddatasize
+          - name: "MsiRecordGetFieldCount"
+            href: /windows/desktop/api/Msiquery/nf-msiquery-msirecordgetfieldcount
+          - name: "MsiRecordGetInteger"
+            href: /windows/desktop/api/Msiquery/nf-msiquery-msirecordgetinteger
+          - name: "MsiRecordGetString"
+            href: /windows/desktop/api/Msiquery/nf-msiquery-msirecordgetstringa
+          - name: "MsiRecordIsNull"
+            href: /windows/desktop/api/Msiquery/nf-msiquery-msirecordisnull
+          - name: "MsiRecordReadStream"
+            href: /windows/desktop/api/Msiquery/nf-msiquery-msirecordreadstream
+          - name: "MsiRecordSetInteger"
+            href: /windows/desktop/api/Msiquery/nf-msiquery-msirecordsetinteger
+          - name: "MsiRecordSetStream"
+            href: /windows/desktop/api/Msiquery/nf-msiquery-msirecordsetstreama
+          - name: "MsiRecordSetString"
+            href: /windows/desktop/api/Msiquery/nf-msiquery-msirecordsetstringa
+          - name: "MsiSequence"
+            href: /windows/desktop/api/Msiquery/nf-msiquery-msisequencea
+          - name: "MsiSetComponentState"
+            href: /windows/desktop/api/Msiquery/nf-msiquery-msisetcomponentstatea
+          - name: "MsiSetFeatureAttributes"
+            href: /windows/desktop/api/Msiquery/nf-msiquery-msisetfeatureattributesa
+          - name: "MsiSetFeatureState"
+            href: /windows/desktop/api/Msiquery/nf-msiquery-msisetfeaturestatea
+          - name: "MsiSetInstallLevel"
+            href: /windows/desktop/api/Msiquery/nf-msiquery-msisetinstalllevel
+          - name: "MsiSetMode"
+            href: /windows/desktop/api/Msiquery/nf-msiquery-msisetmode
+          - name: "MsiSetProperty"
+            href: /windows/desktop/api/Msiquery/nf-msiquery-msisetpropertya
+          - name: "MsiSetTargetPath"
+            href: /windows/desktop/api/Msiquery/nf-msiquery-msisettargetpatha
+          - name: "MsiSummaryInfoGetProperty"
+            href: /windows/desktop/api/Msiquery/nf-msiquery-msisummaryinfogetpropertya
+          - name: "MsiSummaryInfoGetPropertyCount"
+            href: /windows/desktop/api/Msiquery/nf-msiquery-msisummaryinfogetpropertycount
+          - name: "MsiSummaryInfoPersist"
+            href: /windows/desktop/api/Msiquery/nf-msiquery-msisummaryinfopersist
+          - name: "MsiSummaryInfoSetProperty"
+            href: /windows/desktop/api/Msiquery/nf-msiquery-msisummaryinfosetpropertya
+          - name: "MsiVerifyDiskSpace"
+            href: /windows/desktop/api/Msiquery/nf-msiquery-msiverifydiskspace
+          - name: "MsiViewClose"
+            href: /windows/desktop/api/Msiquery/nf-msiquery-msiviewclose
+          - name: "MsiViewExecute"
+            href: /windows/desktop/api/Msiquery/nf-msiquery-msiviewexecute
+          - name: "MsiViewFetch"
+            href: /windows/desktop/api/Msiquery/nf-msiquery-msiviewfetch
+          - name: "MsiViewGetColumnInfo"
+            href: /windows/desktop/api/Msiquery/nf-msiquery-msiviewgetcolumninfo
+          - name: "MsiViewGetError"
+            href: /windows/desktop/api/Msiquery/nf-msiquery-msiviewgeterrora
+          - name: "MsiViewModify"
+            href: /windows/desktop/api/Msiquery/nf-msiquery-msiviewmodify
+        - name: "Database Tables"
+          href: database-tables.md
+          items: 
+          - name: "Column Data Types"
+            href: column-data-types.md
+            items: 
+            - name: "Text"
+              href: text.md
+            - name: "UpperCase"
+              href: uppercase.md
+            - name: "LowerCase"
+              href: lowercase.md
+            - name: "Integer"
+              href: integer.md
+            - name: "DoubleInteger"
+              href: doubleinteger.md
+            - name: "Time/Date"
+              href: time-date.md
+            - name: "Identifier"
+              href: identifier.md
+            - name: "Property"
+              href: property.md
+            - name: "Filename"
+              href: filename.md
+            - name: "WildCardFilename"
+              href: wildcardfilename.md
+            - name: "Path"
+              href: path.md
+            - name: "Paths"
+              href: paths.md
+            - name: "AnyPath"
+              href: anypath.md
+            - name: "DefaultDir"
+              href: defaultdir.md
+            - name: "RegPath"
+              href: regpath.md
+            - name: "Formatted"
+              href: formatted.md
+            - name: "FormattedSDDLText"
+              href: formattedsddltext.md
+            - name: "Template"
+              href: template.md
+            - name: "Condition"
+              href: condition.md
+            - name: "GUID"
+              href: guid.md
+            - name: "Version"
+              href: version.md
+            - name: "Language"
+              href: language.md
+            - name: "Binary"
+              href: binary.md
+            - name: "CustomSource"
+              href: customsource.md
+            - name: "Cabinet"
+              href: cabinet.md
+            - name: "Shortcut"
+              href: shortcut.md
+          - name: "_RowState Column"
+            href: -rowstate-column.md
+          - name: "ActionText Table"
+            href: actiontext-table.md
+          - name: "AdminExecuteSequence Table"
+            href: adminexecutesequence-table.md
+          - name: "AdminUISequence Table"
+            href: adminuisequence-table.md
+          - name: "AdvtExecuteSequence Table"
+            href: advtexecutesequence-table.md
+          - name: "AdvtUISequence Table"
+            href: advtuisequence-table.md
+          - name: "AppId Table"
+            href: appid-table.md
+          - name: "AppSearch Table"
+            href: appsearch-table.md
+          - name: "BBControl Table"
+            href: bbcontrol-table.md
+          - name: "Billboard Table"
+            href: billboard-table.md
+          - name: "Binary Table"
+            href: binary-table.md
+          - name: "BindImage Table"
+            href: bindimage-table.md
+          - name: "CCPSearch Table"
+            href: ccpsearch-table.md
+          - name: "CheckBox Table"
+            href: checkbox-table.md
+          - name: "Class Table"
+            href: class-table.md
+          - name: "ComboBox Table"
+            href: combobox-table.md
+          - name: "CompLocator Table"
+            href: complocator-table.md
+          - name: "Complus Table"
+            href: complus-table.md
+          - name: "Component Table"
+            href: component-table.md
+          - name: "Condition Table"
+            href: condition-table.md
+          - name: "Control Table"
+            href: control-table.md
+          - name: "ControlCondition Table"
+            href: controlcondition-table.md
+          - name: "ControlEvent Table"
+            href: controlevent-table.md
+          - name: "CreateFolder Table"
+            href: createfolder-table.md
+          - name: "CustomAction Table"
+            href: customaction-table.md
+          - name: "Dialog Table"
+            href: dialog-table.md
+          - name: "Directory Table"
+            href: directory-table.md
+          - name: "DrLocator Table"
+            href: drlocator-table.md
+          - name: "DuplicateFile Table"
+            href: duplicatefile-table.md
+          - name: "Environment Table"
+            href: environment-table.md
+          - name: "Error Table"
+            href: error-table.md
+          - name: "EventMapping Table"
+            href: eventmapping-table.md
+          - name: "Extension Table"
+            href: extension-table.md
+          - name: "Feature Table"
+            href: feature-table.md
+          - name: "FeatureComponents Table"
+            href: featurecomponents-table.md
+          - name: "File Table"
+            href: file-table.md
+          - name: "FileSFPCatalog Table"
+            href: filesfpcatalog-table.md
+          - name: "Font Table"
+            href: font-table.md
+          - name: "Icon Table"
+            href: icon-table.md
+          - name: "IniFile Table"
+            href: inifile-table.md
+          - name: "IniLocator Table"
+            href: inilocator-table.md
+          - name: "InstallExecuteSequence Table"
+            href: installexecutesequence-table.md
+          - name: "InstallUISequence Table"
+            href: installuisequence-table.md
+          - name: "IsolatedComponent Table"
+            href: isolatedcomponent-table.md
+          - name: "LaunchCondition Table"
+            href: launchcondition-table.md
+          - name: "ListBox Table"
+            href: listbox-table.md
+          - name: "ListView Table"
+            href: listview-table.md
+          - name: "LockPermissions Table"
+            href: lockpermissions-table.md
+          - name: "Media Table"
+            href: media-table.md
+          - name: "MIME Table"
+            href: mime-table.md
+          - name: "MoveFile Table"
+            href: movefile-table.md
+          - name: "MsiAssembly Table"
+            href: msiassembly-table.md
+          - name: "MsiAssemblyName Table"
+            href: msiassemblyname-table.md
+          - name: "MsiDigitalCertificate Table"
+            href: msidigitalcertificate-table.md
+          - name: "MsiDigitalSignature Table"
+            href: msidigitalsignature-table.md
+          - name: "MsiEmbeddedChainer Table"
+            href: msiembeddedchainer-table.md
+          - name: "MsiEmbeddedUI Table"
+            href: msiembeddedui-table.md
+          - name: "MsiFileHash Table"
+            href: msifilehash-table.md
+          - name: "MsiLockPermissionsEx Table"
+            href: msilockpermissionsex-table.md
+          - name: "MsiPackageCertificate Table"
+            href: msipackagecertificate-table.md
+          - name: "MsiPatchCertificate Table"
+            href: msipatchcertificate-table.md
+          - name: "MsiPatchHeaders Table"
+            href: msipatchheaders-table.md
+          - name: "MsiPatchMetadata Table"
+            href: msipatchmetadata-table.md
+          - name: "MsiPatchOldAssemblyFile Table"
+            href: msipatcholdassemblyfile-table.md
+          - name: "MsiPatchOldAssemblyName Table"
+            href: msipatcholdassemblyname-table.md
+          - name: "MsiPatchSequence Table"
+            href: msipatchsequence-table.md
+          - name: "MsiServiceConfig Table"
+            href: msiserviceconfig-table.md
+          - name: "MsiServiceConfigFailureActions Table"
+            href: msiserviceconfigfailureactions-table.md
+          - name: "MsiSFCBypass Table"
+            href: msisfcbypass-table.md
+          - name: "MsiShortcutProperty Table"
+            href: msishortcutproperty-table.md
+          - name: "ODBCAttribute Table"
+            href: odbcattribute-table.md
+          - name: "ODBCDataSource Table"
+            href: odbcdatasource-table.md
+          - name: "ODBCDriver Table"
+            href: odbcdriver-table.md
+          - name: "ODBCSourceAttribute Table"
+            href: odbcsourceattribute-table.md
+          - name: "ODBCTranslator Table"
+            href: odbctranslator-table.md
+          - name: "Patch Table"
+            href: patch-table.md
+          - name: "PatchPackage Table"
+            href: patchpackage-table.md
+          - name: "ProgId Table"
+            href: progid-table.md
+          - name: "Property Table"
+            href: property-table.md
+          - name: "PublishComponent Table"
+            href: publishcomponent-table.md
+          - name: "RadioButton Table"
+            href: radiobutton-table.md
+          - name: "Registry Table"
+            href: registry-table.md
+          - name: "RegLocator Table"
+            href: reglocator-table.md
+          - name: "RemoveFile Table"
+            href: removefile-table.md
+          - name: "RemoveIniFile Table"
+            href: removeinifile-table.md
+          - name: "RemoveRegistry Table"
+            href: removeregistry-table.md
+          - name: "ReserveCost Table"
+            href: reservecost-table.md
+          - name: "SelfReg Table"
+            href: selfreg-table.md
+          - name: "ServiceControl Table"
+            href: servicecontrol-table.md
+          - name: "ServiceInstall Table"
+            href: serviceinstall-table.md
+          - name: "SFPCatalog Table"
+            href: sfpcatalog-table.md
+          - name: "Shortcut Table"
+            href: shortcut-table.md
+          - name: "Signature Table"
+            href: signature-table.md
+          - name: "TextStyle Table"
+            href: textstyle-table.md
+          - name: "TypeLib Table"
+            href: typelib-table.md
+          - name: "UIText Table"
+            href: uitext-table.md
+          - name: "Upgrade Table"
+            href: upgrade-table.md
+          - name: "Verb Table"
+            href: verb-table.md
+          - name: "_Columns Table"
+            href: -columns-table.md
+          - name: "_Storages Table"
+            href: -storages-table.md
+          - name: "_Streams Table"
+            href: -streams-table.md
+          - name: "_Tables Table"
+            href: -tables-table.md
+          - name: "_TransformView Table"
+            href: -transformview-table.md
+          - name: "_Validation Table"
+            href: -validation-table.md
+    - name: "Released Versions, Tools, and Redistributables"
+      href: released-versions-tools-and-redistributables.md
+      items: 
+      - name: "Windows SDK Components for Windows Installer Developers"
+        href: platform-sdk-components-for-windows-installer-developers.md
+      - name: "Windows Installer Redistributables"
+        href: windows-installer-redistributables.md
+      - name: "Released Versions of Windows Installer"
+        href: released-versions-of-windows-installer.md
+      - name: "Windows Installer Development Tools"
+        href: windows-installer-development-tools.md
+        items: 
+        - name: "Instmsi.exe"
+          href: instmsi-exe.md
+        - name: "Msicert.exe"
+          href: msicert-exe.md
+        - name: "Msidb.exe"
+          href: msidb-exe.md
+        - name: "Msifiler.exe"
+          href: msifiler-exe.md
+        - name: "Msiinfo.exe"
+          href: msiinfo-exe.md
+        - name: "Msimerg.exe"
+          href: msimerg-exe.md
+        - name: "Msimsp.exe"
+          href: msimsp-exe.md
+        - name: "Msistuff.exe"
+          href: msistuff-exe.md
+        - name: "Msitool.mak"
+          href: msitool-mak.md
+        - name: "Msitran.exe"
+          href: msitran-exe.md
+        - name: "Msival2.exe"
+          href: msival2-exe.md
+        - name: "Msizap.exe"
+          href: msizap-exe.md
+        - name: "Orca.exe"
+          href: orca-exe.md
+        - name: "PATCHWIZ.DLL"
+          href: patchwiz-dll.md
+          items: 
+          - name: "Patch Information Caching (PATCHWIZ.DLL)"
+            href: patch-information-caching-patchwiz-dll-.md
+          - name: "Using Symbols to Reduce Binary Patch Size"
+            href: using-symbols-to-reduce-binary-patch-size.md
+          - name: "Patching Selected Regions of a File"
+            href: patching-selected-regions-of-a-file.md
+          - name: "Generating Patch Sequence Information  (PATCHWIZ.DLL)"
+            href: generating-patch-sequence-information---patchwiz-dll-.md
+          - name: "UiCreatePatchPackageEx (Patchwiz.dll)"
+            href: uicreatepatchpackageex--patchwiz-dll-.md
+          - name: "UiCreatePatchPackage (PATCHWIZ.DLL)"
+            href: uicreatepatchpackage-patchwiz-dll-.md
+          - name: "Return Values for UiCreatePatchPackage"
+            href: return-values-for-uicreatepatchpackage.md
+          - name: "Properties Table (PATCHWIZ.DLL)"
+            href: properties-table-patchwiz-dll-.md
+          - name: "ImageFamilies Table (Patchwiz.dll)"
+            href: imagefamilies-table-patchwiz-dll-.md
+          - name: "UpgradedImages Table (PATCHWIZ.DLL)"
+            href: upgradedimages-table-patchwiz-dll-.md
+          - name: "TargetImages Table (PATCHWIZ.DLL)"
+            href: targetimages-table-patchwiz-dll-.md
+          - name: "UpgradedFiles_OptionalData Table (PATCHWIZ.DLL)"
+            href: upgradedfiles-optionaldata-table-patchwiz-dll-.md
+          - name: "FamilyFileRanges Table (PATCHWIZ.DLL)"
+            href: familyfileranges-table-patchwiz-dll-.md
+          - name: "TargetFiles_OptionalData Table (PATCHWIZ.DLL)"
+            href: targetfiles-optionaldata-table-patchwiz-dll-.md
+          - name: "ExternalFiles Table (PATCHWIZ.DLL)"
+            href: externalfiles-table-patchwiz-dll-.md
+          - name: "UpgradedFilesToIgnore Table (PATCHWIZ.DLL)"
+            href: upgradedfilestoignore-table-patchwiz-dll-.md
+          - name: "PatchMetadata Table (PATCHWIZ.DLL)"
+            href: patchmetadata-table--patchwiz-dll-.md
+          - name: "PatchSequence Table (PATCHWIZ.DLL)"
+            href: patchsequence-table--patchwiz-dll-.md
+        - name: "Wilogutl.exe"
+          href: wilogutl-exe.md
+    - name: "Errors Reference"
+      href: errors-reference.md
+      items: 
+      - name: "Windows Installer Error Messages"
+        href: windows-installer-error-messages.md
+      - name: "MsiExec.exe and InstMsi.exe Error Messages"
+        href: error-codes.md
+    - name: "Glossary"
+      href: glossary.md
+      items: 
+      - name: "A"
+        href: a-gly.md
+      - name: "B"
+        href: b-gly.md
+      - name: "C"
+        href: c-gly.md
+      - name: "D"
+        href: d-gly.md
+      - name: "E"
+        href: e-gly.md
+      - name: "F"
+        href: f-gly.md
+      - name: "G"
+        href: g-gly.md
+      - name: "I"
+        href: i-gly.md
+      - name: "M"
+        href: m-gly.md
+      - name: "O"
+        href: o-gly.md
+      - name: "P"
+        href: p-gly.md
+      - name: "Q"
+        href: q-gly.md
+      - name: "R"
+        href: r-gly.md
+      - name: "S"
+        href: s-gly.md
+      - name: "T"
+        href: t-gly.md
+      - name: "U"
+        href: u-gly.md
+      - name: "V"
+        href: v-gly.md

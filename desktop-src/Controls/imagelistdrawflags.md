@@ -1,0 +1,70 @@
+---
+title: IMAGELISTDRAWFLAGS (Commctrl.h)
+description: Passed to the IImageList Draw method in the fStyle member of IMAGELISTDRAWPARAMS.
+ms.assetid: 99fd2cb2-0cb0-40c2-b184-b6d8e54397b4
+topic_type:
+- apiref
+api_name:
+- ILD_NORMAL
+- ILD_TRANSPARENT
+- ILD_BLEND25
+- ILD_FOCUS
+- ILD_BLEND50
+- ILD_SELECTED
+- ILD_BLEND
+- ILD_MASK
+- ILD_IMAGE
+- ILD_ROP
+- ILD_OVERLAYMASK
+- ILD_PRESERVEALPHA
+- ILD_SCALE
+- ILD_DPISCALE
+- ILD_ASYNC
+api_location:
+- Commctrl.h
+api_type:
+- HeaderDef
+ms.topic: reference
+ms.date: 05/31/2018
+---
+
+# IMAGELISTDRAWFLAGS
+
+Passed to the [**IImageList::Draw**](/windows/desktop/api/CommonControls/nf-commoncontrols-iimagelist-draw) method in the **fStyle** member of [**IMAGELISTDRAWPARAMS**](/windows/win32/api/commctrl/ns-commctrl-imagelistdrawparams).
+
+
+
+| Constant/value                                                                                                                                                                                                                            | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <span id="ILD_NORMAL"></span><span id="ild_normal"></span><dl> <dt>**ILD\_NORMAL**</dt> <dt>0x00000000</dt> </dl>                      | Draws the image using the background color for the image list. If the background color is the CLR\_NONE value, the image is drawn transparently using the mask.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| <span id="ILD_TRANSPARENT"></span><span id="ild_transparent"></span><dl> <dt>**ILD\_TRANSPARENT**</dt> <dt>0x00000001</dt> </dl>       | Draws the image transparently using the mask, regardless of the background color. This value has no effect if the image list does not contain a mask.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| <span id="ILD_BLEND25"></span><span id="ild_blend25"></span><dl> <dt>**ILD\_BLEND25**</dt> <dt>0x00000002</dt> </dl>                   | Draws the image, blending 25 percent with the blend color specified by **rgbFg**. This value has no effect if the image list does not contain a mask.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| <span id="ILD_FOCUS"></span><span id="ild_focus"></span><dl> <dt>**ILD\_FOCUS**</dt> <dt>0x00000002</dt> </dl>                         | Same as **ILD\_BLEND25**.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| <span id="ILD_BLEND50"></span><span id="ild_blend50"></span><dl> <dt>**ILD\_BLEND50**</dt> <dt>0x00000004</dt> </dl>                   | Draws the image, blending 50 percent with the blend color specified by **rgbFg**. This value has no effect if the image list does not contain a mask.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| <span id="ILD_SELECTED"></span><span id="ild_selected"></span><dl> <dt>**ILD\_SELECTED**</dt> <dt>0x00000004</dt> </dl>                | Same as **ILD\_BLEND50**.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| <span id="ILD_BLEND"></span><span id="ild_blend"></span><dl> <dt>**ILD\_BLEND**</dt> <dt>0x00000004</dt> </dl>                         | Same as **ILD\_BLEND50**.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| <span id="ILD_MASK"></span><span id="ild_mask"></span><dl> <dt>**ILD\_MASK**</dt> <dt>0x00000010</dt> </dl>                            | Draws the mask.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| <span id="ILD_IMAGE"></span><span id="ild_image"></span><dl> <dt>**ILD\_IMAGE**</dt> <dt>0x00000020</dt> </dl>                         | If the overlay does not require a mask to be drawn, set this flag.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| <span id="ILD_ROP"></span><span id="ild_rop"></span><dl> <dt>**ILD\_ROP**</dt> <dt>0x00000040</dt> </dl>                               | Draws the image using the raster operation code specified by the **dwRop** member.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| <span id="ILD_OVERLAYMASK"></span><span id="ild_overlaymask"></span><dl> <dt>**ILD\_OVERLAYMASK**</dt> <dt>0x00000F00</dt> </dl>       | To extract the overlay image from the **fStyle** member, use the logical AND to combine **fStyle** with the **ILD\_OVERLAYMASK** value.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| <span id="ILD_PRESERVEALPHA"></span><span id="ild_preservealpha"></span><dl> <dt>**ILD\_PRESERVEALPHA**</dt> <dt>0x00001000</dt> </dl> | Preserves the alpha channel in the destination.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| <span id="ILD_SCALE"></span><span id="ild_scale"></span><dl> <dt>**ILD\_SCALE**</dt> <dt>0x00002000</dt> </dl>                         | Causes the image to be scaled to cx, cy instead of being clipped.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| <span id="ILD_DPISCALE"></span><span id="ild_dpiscale"></span><dl> <dt>**ILD\_DPISCALE**</dt> <dt>0x00004000</dt> </dl>                | Scales the image to the current dpi of the display.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| <span id="ILD_ASYNC"></span><span id="ild_async"></span><dl> <dt>**ILD\_ASYNC**</dt> <dt>0x00008000</dt> </dl>                         | **Windows Vista and later.** Draw the image if it is available in the cache. Do not extract it automatically. The called draw method returns E\_PENDING to the calling component, which should then take an alternative action, such as, provide another image and queue a background task to force the image to be loaded via [**ForceImagePresent**](/windows/desktop/api/Commoncontrols/nf-commoncontrols-iimagelist2-forceimagepresent) using the ILFIP\_ALWAYS flag. The ILD\_ASYNC flag then prevents the extraction operation from blocking the current thread and is especially important if a draw method is called from the user interface (UI) thread.<br/> |
+
+
+
+## Requirements
+
+
+
+| Requirement | Value |
+|-------------------------------------|---------------------------------------------------------------------------------------|
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
+
+
+
+ 
+

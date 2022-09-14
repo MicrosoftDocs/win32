@@ -1,0 +1,3068 @@
+- name: "Tablet PC"
+  href: tablet-pc-development-guide.md
+  items: 
+  - name: "Getting Started"
+    href: getting-started.md
+    items: 
+    - name: "Tablet PC Platform History"
+      href: tablet-pc-platform-history.md
+    - name: "What's New in Tablet PC Development"
+      href: what-s-new-in-tablet-pc-development.md
+    - name: "The Development Environment"
+      href: the-development-environment.md
+    - name: "Referencing the SDK from Microsoft Visual Studio"
+      href: referencing-the-sdk-from-microsoft-visual-studio.md
+      items: 
+      - name: "Which Library Version to Reference"
+        href: which-library-version-to-reference.md
+      - name: "Managed Library and Controls (Tablet PC)"
+        href: managed-library-and-controls--tablet-pc.md
+      - name: "Windows Presentation Foundation (Tablet PC)"
+        href: windows-presentation-foundation--tablet-pc.md
+      - name: "COM Library and ActiveX Controls (Tablet PC)"
+        href: com-library-and-activex-controls--tablet-pc.md
+    - name: "Frequently Asked Questions"
+      href: frequently-asked-questions.yml
+  - name: "Programming Tablet PC"
+    href: programming-the-tablet-pc.md
+    items: 
+    - name: "About Handwriting Recognition"
+      href: about-handwriting-recognition.md
+      items: 
+      - name: "Text Recognizers"
+        href: text-recognizers.md
+      - name: "Object Recognizers"
+        href: object-recognizers.md
+      - name: "Using the Recognizers Collection"
+        href: using-the-recognizers-collection.md
+      - name: "Recognizer Context"
+        href: recognizer-context.md
+      - name: "Using Context to Improve Accuracy"
+        href: using-context-to-improve-accuracy.md
+        items: 
+        - name: "How the Tablet PC Platform Uses Context"
+          href: how-the-tablet-pc-platform-uses-context.md
+          items: 
+          - name: "About Language Models"
+            href: about-language-models.md
+          - name: "Input Scopes and Factoids"
+            href: input-scopes-and-factoids.md
+          - name: "Dictionaries and Phrase lists"
+            href: dictionaries-and-phrase-lists.md
+        - name: "Setting Context with the SetInputScope APIs"
+          href: setting-context-with-the-setinputscope-apis.md
+        - name: "Setting Context for Ink-Enabled Controls"
+          href: setting-context-for-ink-enabled-controls.md
+        - name: "Setting Context for Windowless Controls"
+          href: setting-context-for-windowless-controls.md
+        - name: "Custom Input Scopes with Regular Expressions"
+          href: custom-input-scopes-with-regular-expressions.md
+          items: 
+          - name: "Regular Expression Syntax Reference"
+            href: regular-expression-syntax-reference.md
+          - name: "Regular Expression Examples"
+            href: regular-expression-examples.md
+        - name: "Supported Factoids from Version 1"
+          href: supported-factoids-from-version-1.md
+          items: 
+          - name: "Factoids Common Across Languages"
+            href: factoids-common-across-languages.md
+          - name: "Factoids for Western Languages"
+            href: factoids-for-western-languages.md
+            items: 
+            - name: "English (United States) Factoids"
+              href: english--united-states--factoids.md
+            - name: "English (Worldwide) Factoids"
+              href: english--worldwide--factoids.md
+            - name: "French Factoids"
+              href: french-factoids.md
+            - name: "German Factoids"
+              href: german-factoids.md
+            - name: "Spanish Factoids"
+              href: spanish-factoids.md
+          - name: "Factoids for East Asian Languages"
+            href: factoids-for-east-asian-languages.md
+            items: 
+            - name: "Japanese Factoids"
+              href: japanese-factoids.md
+            - name: "Chinese (Simplified) Factoids"
+              href: chinese--simplified--factoids.md
+            - name: "Chinese (Traditional) Factoids"
+              href: chinese--traditional--factoids.md
+            - name: "Korean Factoids"
+              href: korean-factoids.md
+      - name: "Dictionaries and Factoids"
+        href: dictionaries-and-factoids.md
+      - name: "Recognition Segments"
+        href: recognition-segments.md
+      - name: "Recognition of Angled Text"
+        href: recognition-of-angled-text.md
+      - name: "Recognizer Stroke Reordering Support"
+        href: recognizer-stroke-reordering-support.md
+      - name: "Using Application Dictionaries"
+        href: using-application-dictionaries.md
+        items: 
+        - name: "Understanding Word Lists, Recognizer Context, and Factoids"
+          href: understanding-wordlists--the-recognizercontext--and-factoids.md
+        - name: "Using Application Dictionaries with the Tablet PC Platform APIs"
+          href: using-application-dictionaries-with-the-tablet-pc-platform-apis.md
+        - name: "Creating Custom Dictionaries for Handwriting Recognition in Windows 7 and Windows Server 2008 R2"
+          href: creating-custom-dictionaries-for-handwriting-recognition-in-windows-7-and-windows-server-2008-r2.md
+      - name: "Confidence Property [About Recognition"
+        href: confidence-property--about-recognition.md
+      - name: "Alternates"
+        href: alternates.md
+      - name: "Ink Segments and Alternates"
+        href: ink-segments-and-alternates.md
+      - name: "Creating a Recognizer"
+        href: creating-a-recognizer.md
+        items: 
+        - name: "Recognition API Architecture"
+          href: recognition-api-architecture.md
+        - name: "HRECOGNIZER and HRECOCONTEXT"
+          href: hrecognizer-and-hrecocontext.md
+        - name: "Recognizer Lattice Structure"
+          href: recognizer-lattice-structure.md
+        - name: "Registering Your Recognizer DLL"
+          href: registering-your-recognizer-dll.md
+        - name: "Recognizer Threading Considerations"
+          href: recognizer-threading-considerations.md
+        - name: "Typical Calling Sequence"
+          href: typical-calling-sequence.md
+        - name: "Recognizer DLL Sample Template"
+          href: recognizer-dll-sample-template.md
+        - name: "Unicode Range Values of Gestures"
+          href: unicode-range-values-of-gestures.md
+    - name: "Accessing and Manipulating Stylus Input"
+      href: accessing-and-manipulating-stylus-input.md
+      items: 
+      - name: "Architecture of the StylusInput APIs"
+        href: architecture-of-the-stylusinput-apis.md
+      - name: "Working with the StylusInput APIs"
+        href: working-with-the-stylusinput-apis.md
+        items: 
+        - name: "Working with the RealTimeStylus Class"
+          href: working-with-the-realtimestylus-class.md
+        - name: "Plug-ins and the RealTimeStylus Class"
+          href: plug-ins-and-the-realtimestylus-class.md
+        - name: "Plug-in Data and the RealTimeStylus Class"
+          href: plug-in-data-and-the-realtimestylus-class.md
+        - name: "Implementation Notes for the StylusInput APIs"
+          href: implementation-notes-for-the-stylusinput-apis.md
+        - name: "Ink-Collection Plug-ins"
+          href: ink-collection-plug-ins.md
+        - name: "Dynamic-Renderer Plug-ins"
+          href: dynamic-renderer-plug-ins.md
+        - name: "Recognizer Plug-ins"
+          href: recognizer-plug-ins.md
+      - name: "Considerations when Using the StylusInput API"
+        href: considerations-when-using-the-stylusinput-apis.md
+        items: 
+        - name: "Design Considerations for the StylusInput API"
+          href: design-considerations-for-the-stylusinput-apis.md
+        - name: "Threading Considerations for the StylusInput API"
+          href: threading-considerations-for-the-stylusinput-apis.md
+        - name: "The Cascaded RealTimeStylus Model"
+          href: the-cascaded-realtimestylus-model.md
+        - name: "Error Handling Considerations for the StylusInput API"
+          href: error-handling-considerations-for-the-stylusinput-apis.md
+        - name: "Performance Considerations for the StylusInput API"
+          href: performance-considerations-for-the-stylusinput-apis.md
+        - name: "Partial Trust Considerations for the StylusInput API"
+          href: partial-trust-considerations-for-the-stylusinput-apis.md
+    - name: "Creating a Redistributable Setup"
+      href: creating-a-redistributable-setup.md
+    - name: "Determining Whether a PC is a Tablet PC"
+      href: determining-whether-a-pc-is-a-tablet-pc.md
+    - name: "Erasing Ink with the Pen"
+      href: erasing-ink-with-the-pen.md
+      items: 
+      - name: "Erasing by Using the InkOverlay Object"
+        href: erasing-by-using-the-inkoverlay-object.md
+      - name: "Erasing by Using the Pen"
+        href: erasing-by-using-the-pen.md
+    - name: "Ink Analysis"
+      href: ink-analysis-overview.md
+      items: 
+      - name: "Ink Analysis API Usage"
+        href: ink-analysis-api-usage.md
+      - name: "Basic Recognition and Ink Analysis"
+        href: basic-recognition-and-ink-analysis.md
+      - name: "Data Proxy with Ink Analysis"
+        href: data-proxy-with-ink-analysis.md
+      - name: "Data Proxy Event Flow"
+        href: data-proxy-event-flow.md
+      - name: "The Divider Object"
+        href: the-divider-object.md
+        items: 
+        - name: "Ink Analyis with the Divider Object"
+          href: ink-analyis-with-the-divider-object.md
+        - name: "Layout Analysis"
+          href: layout-analysis.md
+        - name: "Working with the Divider Object"
+          href: working-with-the-divider-object.md
+        - name: "Working with the DivisionResult Object"
+          href: working-with-the-divisionresult-object.md
+        - name: "Working with the DivisionUnit Object"
+          href: working-with-the-divisionunit-object.md
+        - name: "Working with a Strokes Collection"
+          href: working-with-a-strokes-collection.md
+        - name: "Working with a Recognizer Context"
+          href: working-with-a-recognizer-context.md
+        - name: "Other Divider Considerations"
+          href: other-divider-considerations.md
+    - name: "Ink Controls"
+      href: ink-controls.md
+      items: 
+      - name: "Adding Ink Controls to a Project"
+        href: adding-ink-controls-to-a-project.md
+      - name: "InkEdit Control"
+        href: inkedit-control.md
+        items: 
+        - name: "Instantiating InkEdit"
+          href: instantiating-inkedit.md
+        - name: "Word vs. Character Recognition"
+          href: word-vs--character-recognition.md
+        - name: "Displaying Ink as Ink"
+          href: displaying-ink-as-ink.md
+        - name: "Using InkEdit on Earlier Versions of Windows"
+          href: using-inkedit-on-earlier-versions-of-windows.md
+        - name: "Using an Application Dictionary with InkEdit"
+          href: using-an-application-dictionary-with-inkedit.md
+      - name: "InkPicture Control"
+        href: inkpicture-control.md
+        items: 
+        - name: "Working with Pictures"
+          href: working-with-pictures.md
+        - name: "Using InkPicture on Earlier Versions of Windows"
+          href: using-inkpicture-on-earlier-versions-of-windows.md
+    - name: "Ink Interoperability"
+      href: ink-interoperability.md
+      items: 
+      - name: "Ink Data Formats"
+        href: ink-data-formats.md
+      - name: "Important Interoperability Scenarios"
+        href: important-interoperability-scenarios.md
+      - name: "Persistence Formats"
+        href: persistence-formats.md
+      - name: "Choosing Which Formats to Support"
+        href: choosing-which-formats-to-support.md
+      - name: "Building Blocks"
+        href: building-blocks.md
+        items: 
+        - name: "sInk and tInk Objects"
+          href: sink-and-tink-objects.md
+      - name: "Storing Ink in HTML"
+        href: storing-ink-in-html.md
+    - name: "Ink on the Web"
+      href: ink-on-the-web.md
+      items: 
+      - name: "No Touch Deployment"
+        href: no-touch-deployment.md
+      - name: "Web Controls"
+        href: web-controls.md
+      - name: "Ink-Enabled Web Applications"
+        href: ink-enabled-web-applications.md
+      - name: "Security and Trust"
+        href: security-and-trust.md
+    - name: "Pen Input, Ink, and Recognition"
+      href: pen-input--ink--and-recognition.md
+      items: 
+      - name: "Ink Collection"
+        href: ink-collection.md
+      - name: "Ink Data"
+        href: ink-data.md
+      - name: "Ink Recognition"
+        href: ink-recognition.md
+      - name: "Ink Analysis"
+        href: ink-analysis.md
+      - name: "Handwriting Recognition in Windows Server 2008 R2"
+        href: handwriting-recognition-in-windows-server-2008-r2.md
+    - name: "Programming the Math Input Control"
+      href: programming-the-math-input-control.md
+      items: 
+      - name: "Creating a Math Input Control"
+        href: creating-a-math-input-control.md
+      - name: "Customizing the Math Input Control"
+        href: customizing-the-math-input-control.md
+      - name: "Receiving Input from the Math Input Control"
+        href: receiving-input-from-the-math-input-control.md
+    - name: "Programming the Text Input Panel"
+      href: programming-the-text-input-panel.md
+      items: 
+      - name: "TextInputPanel for Users of PenInputPanel"
+        href: textinputpanel-for-users-of-peninputpanel.md
+      - name: "Using Input Panel AutoComplete"
+        href: using-input-panel-autocomplete.md
+      - name: "Enabling Text Correction for Custom Ink Collectors"
+        href: enabling-text-correction-for-custom-ink-collectors.md
+      - name: "Programming the Input Panel Using the PenInputPanel Class"
+        href: programming-the-input-panel-using-the-peninputpanel-class.md
+        items: 
+        - name: "About the Input Panel"
+          href: about-the-input-panel.md
+        - name: "Instantiating the PenInputPanel Class"
+          href: instantiating-the-peninputpanel-class.md
+          items: 
+          - name: "Creating a PenInputPanel Object"
+            href: creating-a-peninputpanel-object.md
+          - name: "Using the PenInputPanel with Combo Boxes"
+            href: using-the-peninputpanel-with-combo-boxes.md
+          - name: "Displaying the Input Panel"
+            href: displaying-the-input-panel.md
+        - name: "Factoid Support"
+          href: factoid-support.md
+        - name: "Text Services Framework"
+          href: text-services-framework.md
+        - name: "Best Practices"
+          href: best-practices.md
+    - name: "Tablet PC Threading Considerations"
+      href: tablet-pc-threading-considerations.md
+      items: 
+      - name: "General Threading Considerations"
+        href: general-threading-considerations.md
+      - name: "Managed Library Threading Considerations"
+        href: managed-library-threading-considerations.md
+      - name: "COM and Automation Threading Considerations"
+        href: com-and-automation-threading-considerations.md
+      - name: "Threads on Which an Event Can Fire"
+        href: threads-on-which-an-event-can-fire.md
+        items: 
+        - name: "Ink Object Events"
+          href: ink-object-events.md
+        - name: "InkCollector Object Events"
+          href: inkcollector-object-events.md
+        - name: "InkEdit Control Events"
+          href: inkedit-control-events.md
+        - name: "InkOverlay Object Events"
+          href: inkoverlay-object-events.md
+        - name: "InkPicture Control Events"
+          href: inkpicture-control-events.md
+        - name: "PenInputPanel Object Events"
+          href: peninputpanel-object-events.md
+        - name: "RecognizerContext Object Events"
+          href: recognizercontext-object-events.md
+        - name: "Strokes Collection Events"
+          href: strokes-collection-events.md
+    - name: "Snipping Tool Support in Windows Vista"
+      href: snipping-tool-support-in-windows-vista.md
+    - name: "Speech and Accessibility"
+      href: speech-and-accessibility.md
+      items: 
+      - name: "Using Microsoft Active Accessibility"
+        href: using-microsoft-active-accessibility.md
+      - name: "Exposing Controls and Menus"
+        href: exposing-controls-and-menus.md
+        items: 
+        - name: "Using Standard Windows Controls"
+          href: using-standard-windows-controls.md
+        - name: "Using Custom Controls"
+          href: using-custom-controls.md
+        - name: "Using Active Accessibility to Expose Custom Controls"
+          href: using-active-accessibility-to-expose-custom-controls.md
+        - name: "Substandard Techniques for Exposing Custom Controls"
+          href: substandard-techniques-for-exposing-custom-controls.md
+        - name: "Using Owner-Drawn Menus"
+          href: using-owner-drawn-menus.md
+        - name: "Naming Controls in Dialog Boxes"
+          href: naming-controls-in-dialog-boxes.md
+          items: 
+          - name: "Controls Without Caption Properties"
+            href: controls-without-caption-properties.md
+      - name: "Exposing a Window"
+        href: exposing-a-window.md
+        items: 
+        - name: "Naming a Window Appropriately"
+          href: naming-a-window-appropriately.md
+        - name: "Identifying a Window by Its Function"
+          href: identifying-a-window-by-its-function.md
+        - name: "Exposing the Contents of a Window"
+          href: exposing-the-contents-of-a-window.md
+      - name: "Exposing Text Programmatically"
+        href: exposing-text-programmatically.md
+        items: 
+        - name: "Using Active Accessibility to Expose Text"
+          href: using-active-accessibility-to-expose-text.md
+      - name: "References"
+        href: references.md
+    - name: "Tablet and Touch Samples"
+      href: mobile-pc-and-tablet-pc-samples.md
+      items: 
+      - name: "Advanced Recognition Sample"
+        href: advanced-recognition-sample.md
+      - name: "Auto Claims Form Sample"
+        href: auto-claims-form-sample.md
+      - name: "Basic Ink Analysis Sample"
+        href: basic-ink-analysis-sample.md
+      - name: "Basic Recognition Sample"
+        href: basic-recognition-sample.md
+      - name: "C++ Event Sinks Sample"
+        href: c---event-sinks-sample.md
+      - name: "Character Autocomplete Sample"
+        href: character-autocomplete-sample.md
+      - name: "Ink Analysis Scanned Paper Form"
+        href: ink-analysis-scanned-paper-form.md
+      - name: "Ink Blog Web Sample"
+        href: ink-blog-web-sample.md
+      - name: "Ink Clipboard Sample"
+        href: ink-clipboard-sample.md
+      - name: "Ink Collection Sample"
+        href: ink-collection-sample.md
+      - name: "Ink Divider Sample"
+        href: ink-divider-sample.md
+      - name: "Ink Erasing Sample"
+        href: ink-erasing-sample.md
+      - name: "Ink Hit Test Sample"
+        href: ink-hit-test-sample.md
+      - name: "Ink Recognition Sample"
+        href: ink-recognition-sample.md
+      - name: "Ink Serialization Sample"
+        href: ink-serialization-sample.md
+      - name: "Ink Web Control Sample"
+        href: ink-web-control-sample.md
+      - name: "Ink Zoom Sample"
+        href: ink-zoom-sample.md
+      - name: "Multiple Recognizers Sample"
+        href: multiple-recognizers-sample.md
+      - name: "No-Touch Deployment Web Sample"
+        href: no-touch-deployment-web-sample.md
+      - name: "PenInputPanel Sample"
+        href: peninputpanel-sample.md
+      - name: "RealTimeStylus Plug-in Sample"
+        href: realtimestylus-plug-in-sample.md
+      - name: "RealTimeStylus Ink Collection Sample"
+        href: realtimestylus-ink-collection-sample.md
+      - name: "Scanned Paper Form Sample"
+        href: scanned-paper-form-sample.md
+      - name: "Tablet PC Platform Info Sample"
+        href: tablet-pc-platform-info-sample.md
+    - name: "Touch Input Support in Windows Vista"
+      href: touch-input-support-in-windows-vista.md
+    - name: "Using Gestures"
+      href: using-gestures.md
+      items: 
+      - name: "System Gestures"
+        href: system-gestures.md
+        items: 
+        - name: "System Events and Mouse Messages"
+          href: system-events-and-mouse-messages.md
+        - name: "Listening to System Events"
+          href: listening-to-system-events.md
+        - name: "Timeline of Mouse Messages and System Events"
+          href: timeline-of-mouse-messages-and-system-events.md
+        - name: "Multiple Functionality with One Pen"
+          href: multiple-functionality-with-one-pen.md
+      - name: "Application Gestures"
+        href: application-gestures.md
+        items: 
+        - name: "Application Gestures and Semantic Behavior"
+          href: application-gestures-and-semantic-behavior.md
+        - name: "Using the Microsoft Gesture Recognizer Only"
+          href: using-the-microsoft-gesture-recognizer-only.md
+        - name: "Using a Custom Gesture Recognizer"
+          href: using-a-custom-gesture-recognizer.md
+        - name: "Potential Conflicts with Application Gestures"
+          href: potential-conflicts-with-application-gestures.md
+          items: 
+          - name: "Conflicts Between Application Gestures"
+            href: conflicts-between-application-gestures.md
+          - name: "Conflicts Between Application Gestures and Characters and Symbols"
+            href: conflicts-between-application-gestures-and-characters-and-symbols.md
+            items: 
+            - name: "Conflicts with Latin characters and symbols"
+              href: conflicts-with-latin-characters-and-symbols.md
+            - name: "Conflicts with East-Asian Characters"
+              href: conflicts-with-east-asian-characters.md
+        - name: "Documenting the Gestures Used by Your Applications"
+          href: documenting-the-gestures-used-by-your-applications.md
+        - name: "Unimplemented Glyphs"
+          href: unimplemented-glyphs.md
+      - name: "Flicks Gestures"
+        href: flicks-gestures.md
+    - name: "Using the COM Library"
+      href: using-the-com-library.md
+    - name: "Using the Journal Reader Component"
+      href: using-the-journal-reader-component.md
+      items: 
+      - name: "Journal Reader Schema Reference"
+        href: journal-reader-schema-reference.md
+        items: 
+        - name: "Journal Reader Namespace Elements"
+          href: journal-reader-namespace-elements.md
+          items: 
+          - name: "Alternate element"
+            href: alternate-element.md
+          - name: "AlternateList element"
+            href: alternatelist-element.md
+          - name: "Background element"
+            href: background-element.md
+          - name: "Baseline element"
+            href: baseline-element.md
+          - name: "Bitmap element"
+            href: bitmap-element.md
+          - name: "CanReClassify element"
+            href: canreclassify-element.md
+          - name: "Confidence element"
+            href: confidence-element.md
+          - name: "Content element [Journal Reader"
+            href: content-element--journal-reader.md
+          - name: "Date element"
+            href: date-element.md
+          - name: "DocImage element"
+            href: docimage-element.md
+          - name: "Drawing element"
+            href: drawing-element.md
+          - name: "Flag element"
+            href: flag-element.md
+          - name: "GroupNode element"
+            href: groupnode-element.md
+          - name: "Horizontal element"
+            href: horizontal-element.md
+          - name: "Image element"
+            href: image-element.md
+          - name: "InkClass element"
+            href: inkclass-element.md
+          - name: "InkObject element"
+            href: inkobject-element.md
+          - name: "InkWord element"
+            href: inkword-element.md
+          - name: "JournalDocument element"
+            href: journaldocument-element.md
+          - name: "JournalPage element"
+            href: journalpage-element.md
+          - name: "Line element"
+            href: line-element.md
+          - name: "LineLayout element"
+            href: linelayout-element.md
+          - name: "Margin element"
+            href: margin-element.md
+          - name: "Paragraph element"
+            href: paragraph-element.md
+          - name: "ParagraphLineMetrics element"
+            href: paragraphlinemetrics-element.md
+          - name: "Path element"
+            href: path-element.md
+          - name: "Reflow element"
+            href: reflow-element.md
+          - name: "ScalarTransform element"
+            href: scalartransform-element.md
+          - name: "Stationery element"
+            href: stationery-element.md
+          - name: "Text element"
+            href: text-element.md
+          - name: "Title element"
+            href: title-element.md
+          - name: "TitleArea element"
+            href: titlearea-element.md
+          - name: "TitleInfo element"
+            href: titleinfo-element.md
+          - name: "Vertical element"
+            href: vertical-element.md
+        - name: "Journal Reader Namespace Types"
+          href: journal-reader-namespace-types.md
+          items: 
+          - name: "AlternatesListType complexType"
+            href: alternateslisttype-complex-type.md
+          - name: "BackgroundImageType complexType"
+            href: backgroundimagetype-complex-type.md
+          - name: "BackgroundType complexType"
+            href: backgroundtype-complex-type.md
+          - name: "BaselineType complexType"
+            href: baselinetype-complex-type.md
+          - name: "BoundsType attributeGroup"
+            href: boundstype-attributegroup.md
+          - name: "ColorType simpleType"
+            href: colortype-simple-type.md
+          - name: "ContentGroup group"
+            href: contentgroup-group.md
+          - name: "ContentType complexType"
+            href: contenttype-complex-type.md
+          - name: "ContentTypeType simpleType"
+            href: contenttypetype-simple-type.md
+          - name: "DrawingType complexType"
+            href: drawingtype-complex-type.md
+          - name: "FlagType complexType"
+            href: flagtype-complex-type.md
+          - name: "GroupNodeType complexType"
+            href: groupnodetype-complex-type.md
+          - name: "HorizontalType complexType"
+            href: horizontaltype-complex-type.md
+          - name: "ImageType complexType"
+            href: imagetype-complex-type.md
+          - name: "InkWordType complexType"
+            href: inkwordtype-complex-type.md
+          - name: "JournalPageType complexType"
+            href: journalpagetype-complex-type.md
+          - name: "LineLayoutType complexType"
+            href: linelayouttype-complex-type.md
+          - name: "LineLayoutStyleType simpleType"
+            href: linelayoutstyletype-simple-type.md
+          - name: "LineType complexType"
+            href: linetype-complex-type.md
+          - name: "MarginType complexType"
+            href: margintype-complex-type.md
+          - name: "MarginTypeType simpleType"
+            href: margintypetype-simple-type.md
+          - name: "ParagraphType complexType"
+            href: paragraphtype-complex-type.md
+          - name: "ParagraphLineMetricsType complexType"
+            href: paragraphlinemetricstype-complex-type.md
+          - name: "ReflowType complexType"
+            href: reflowtype-complex-type.md
+          - name: "ScalarTransformType complexType"
+            href: scalartransformtype-complex-type.md
+          - name: "StationeryType complexType"
+            href: stationerytype-complex-type.md
+          - name: "TextType complexType"
+            href: texttype-complex-type.md
+          - name: "TitleAreaType complexType"
+            href: titleareatype-complex-type.md
+          - name: "TitleInfoType complexType"
+            href: titleinfotype-complex-type.md
+          - name: "TitleType complexType"
+            href: titletype-complex-type.md
+          - name: "VerticalType complexType"
+            href: verticaltype-complex-type.md
+        - name: "Journal Reader Schema Definition"
+          href: journal-reader-schema-definition.md
+    - name: "Using the Managed Library"
+      href: using-the-managed-library.md
+  - name: "Tablet PC API Reference"
+    href: tablet-pc-api-reference.md
+    items: 
+    - name: "Core Tablet PC Reference"
+      href: core-reference---tablet-pc-com-library.md
+      items: 
+      - name: "Core Tablet PC Classes and Interfaces"
+        href: classes-and-interfaces---tablet-pc-com-library.md
+        items: 
+        - name: "IInkCursor Interface"
+          href: /windows/desktop/api/msinkaut/nn-msinkaut-iinkcursor
+          items: 
+          - name: "Buttons Property"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkcursor-get_buttons
+          - name: "DrawingAttributes Property"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkcursor-get_drawingattributes
+          - name: "ID Property"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkcursor-get_id
+          - name: "Inverted Property"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkcursor-get_inverted
+          - name: "Name Property"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkcursor-get_name
+          - name: "Tablet Property"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkcursor-get_tablet
+        - name: "IInkCursorButton Interface"
+          href: /windows/desktop/api/msinkaut/nn-msinkaut-iinkcursorbutton
+          items: 
+          - name: "Name Property"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkcursorbutton-get_name
+          - name: "Id Property"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkcursorbutton-get_id
+          - name: "State Property"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkcursorbutton-get_state
+        - name: "IInkCursorButtons Interface"
+          href: /windows/desktop/api/msinkaut/nn-msinkaut-iinkcursorbuttons
+          items: 
+          - name: "Count Property"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkcursorbuttons-get_count
+          - name: "Item Method"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkcursorbuttons-item
+        - name: "IInkCursors Interface"
+          href: /windows/desktop/api/msinkaut/nn-msinkaut-iinkcursors
+          items: 
+          - name: "Count Property"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkcursors-get_count
+          - name: "Item Method"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkcursors-item
+        - name: "IInkCustomStrokes Interface"
+          href: /windows/desktop/api/msinkaut/nn-msinkaut-iinkcustomstrokes
+          items: 
+          - name: "Add Method"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkcustomstrokes-add
+          - name: "Clear Method"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkcustomstrokes-clear
+          - name: "Count Property"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkcustomstrokes-get_count
+          - name: "Item Method"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkcustomstrokes-item
+          - name: "Remove Method"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkcustomstrokes-remove
+        - name: "IInkDivisionResult Interface"
+          href: /windows/desktop/api/msinkaut15/nn-msinkaut15-iinkdivisionresult
+          items: 
+          - name: "ResultByType Method"
+            href: /windows/desktop/api/msinkaut15/nf-msinkaut15-iinkdivisionresult-resultbytype
+          - name: "Strokes Property"
+            href: /windows/desktop/api/msinkaut15/nf-msinkaut15-iinkdivisionresult-get_strokes
+        - name: "IInkDivisionUnit Interface"
+          href: /windows/desktop/api/msinkaut15/nn-msinkaut15-iinkdivisionunit
+          items: 
+          - name: "DivisionType Property"
+            href: /windows/desktop/api/msinkaut15/nf-msinkaut15-iinkdivisionunit-get_divisiontype
+          - name: "RecognitionString Property"
+            href: /previous-versions/windows/desktop/legacy/ms703283(v=vs.85)
+          - name: "RotationTransform Property"
+            href: /windows/desktop/api/msinkaut15/nf-msinkaut15-iinkdivisionunit-get_rotationtransform
+          - name: "Strokes Property"
+            href: /windows/desktop/api/msinkaut15/nf-msinkaut15-iinkdivisionunit-get_strokes
+          - name: "ToString Method"
+            href: /previous-versions/windows/desktop/legacy/ms699557(v=vs.85)
+        - name: "IInkDivisionUnits Interface"
+          href: /windows/desktop/api/msinkaut15/nn-msinkaut15-iinkdivisionunits
+          items: 
+          - name: "Count Property"
+            href: /windows/desktop/api/msinkaut15/nf-msinkaut15-iinkdivisionunits-get_count
+          - name: "Item Method"
+            href: /windows/desktop/api/msinkaut15/nf-msinkaut15-iinkdivisionunits-item
+        - name: "IInkExtendedProperties Interface"
+          href: /windows/desktop/api/msinkaut/nn-msinkaut-iinkextendedproperties
+          items: 
+          - name: "Add Method"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkextendedproperties-add
+          - name: "Clear Method"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkextendedproperties-clear
+          - name: "Count Property"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkextendedproperties-get_count
+          - name: "DoesPropertyExist Method"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkextendedproperties-doespropertyexist
+          - name: "Item Method"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkextendedproperties-item
+          - name: "Remove Method"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkextendedproperties-remove
+        - name: "IInkExtendedProperty Interface"
+          href: /windows/desktop/api/msinkaut/nn-msinkaut-iinkextendedproperty
+          items: 
+          - name: "Data Property"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkextendedproperty-get_data
+          - name: "Guid Property"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkextendedproperty-get_guid
+        - name: "IInkGesture Interface"
+          href: /windows/desktop/api/msinkaut/nn-msinkaut-iinkgesture
+          items: 
+          - name: "Confidence Property"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkgesture-get_confidence
+          - name: "GetHotPoint Method"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkgesture-gethotpoint
+          - name: "ID Property"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkgesture-get_id
+        - name: "IInkRecognitionAlternate Interface"
+          href: /windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognitionalternate
+          items: 
+          - name: "AlternatesWithConstantPropertyValues Method"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionalternate-alternateswithconstantpropertyvalues
+          - name: "Ascender Property"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionalternate-get_ascender
+          - name: "Baseline Property"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionalternate-get_baseline
+          - name: "Confidence Property"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionalternate-get_confidence
+          - name: "ConfidenceAlternates Property"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionalternate-get_confidencealternates
+          - name: "Descender Property"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionalternate-get_descender
+          - name: "GetStrokesFromStrokeRanges Method"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionalternate-getstrokesfromstrokeranges
+          - name: "GetStrokesFromTextRange Method"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionalternate-getstrokesfromtextrange
+          - name: "GetTextRangeFromStrokes Method"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionalternate-gettextrangefromstrokes
+          - name: "GetPropertyValue Method"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionalternate-getpropertyvalue
+          - name: "LineAlternates Property"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionalternate-get_linealternates
+          - name: "LineNumber Property"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionalternate-get_linenumber
+          - name: "Midline Property"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionalternate-get_midline
+          - name: "String Property"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionalternate-get_string
+          - name: "Strokes Property"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionalternate-get_strokes
+          - name: "ToString Method"
+            href: /previous-versions/windows/desktop/legacy/dd314585(v=vs.85)
+        - name: "IInkRecognitionAlternates Interface"
+          href: /windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognitionalternates
+          items: 
+          - name: "Count Property"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionalternates-get_count
+          - name: "Item Method"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionalternates-item
+          - name: "Strokes Property"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionalternates-get_strokes
+        - name: "IInkRecognitionResult Interface"
+          href: /windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognitionresult
+          items: 
+          - name: "GetAlternatesFromSelection Method"
+            href: /previous-versions/windows/desktop/legacy/ms698186(v=vs.85)
+          - name: "ModifyTopAlternate Method"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionresult-modifytopalternate
+          - name: "SetResultOnStrokes Method"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionresult-setresultonstrokes
+          - name: "Strokes Property"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionresult-get_strokes
+          - name: "TopAlternate Property"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionresult-get_topalternate
+          - name: "TopConfidence Property"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionresult-get_topconfidence
+          - name: "TopString Property"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionresult-get_topstring
+        - name: "IInkRecognizer Interface"
+          href: /windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognizer
+          items: 
+          - name: "Capabilities Property"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizer-get_capabilities
+          - name: "CreateRecognizerContext Method"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizer-createrecognizercontext
+          - name: "Languages Property"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizer-get_languages
+          - name: "Name Property"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizer-get_name
+          - name: "PreferredPacketDescription Property"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizer-get_preferredpacketdescription
+          - name: "SupportedProperties Property"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizer-get_supportedproperties
+          - name: "ToString Method"
+            href: /previous-versions/windows/desktop/legacy/dd314588(v=vs.85)
+          - name: "Vendor Property"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizer-get_vendor
+        - name: "IInkRecognizer2 Interface"
+          href: /windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognizer2
+          items: 
+          - name: "get_Id Method"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizer2-get_id
+          - name: "get_UnicodeRanges Method"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizer2-get_unicoderanges
+        - name: "IInkRecognizerContext2 Interface"
+          href: /windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognizercontext2
+          items: 
+          - name: "EnabledUnicodeRanges Property"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext2-get_enabledunicoderanges
+        - name: "IInkStrokeDisp Interface"
+          href: /windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp
+          items: 
+          - name: "BezierCusps Property"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-get_beziercusps
+          - name: "BezierPoints Property"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-get_bezierpoints
+          - name: "Clip Method"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-clip
+          - name: "Deleted Property"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-get_deleted
+          - name: "DrawingAttributes Property"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-get_drawingattributes
+          - name: "ExtendedProperties Property"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-get_extendedproperties
+          - name: "FindIntersections Method"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-findintersections
+          - name: "GetBoundingBox Method"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-getboundingbox
+          - name: "GetFlattenedBezierPoints Method"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-getflattenedbezierpoints
+          - name: "GetPacketData Method"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-getpacketdata
+          - name: "GetPacketDescriptionPropertyMetrics Method"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-getpacketdescriptionpropertymetrics
+          - name: "GetPacketValuesByProperty Method"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-getpacketvaluesbyproperty
+          - name: "GetPoints Method"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-getpoints
+          - name: "GetRectangleIntersections Method"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-getrectangleintersections
+          - name: "HitTest Method"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-hittestcircle
+          - name: "ID Property"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-get_id
+          - name: "Ink Property"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-get_ink
+          - name: "Move Method"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-move
+          - name: "NearestPoint Method"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-nearestpoint
+          - name: "PacketCount Property"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-get_packetcount
+          - name: "PacketDescription Property"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-get_packetdescription
+          - name: "PacketSize Property"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-get_packetsize
+          - name: "PolylineCusps Property"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-get_polylinecusps
+          - name: "Rotate Method"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-rotate
+          - name: "ScaleToRectangle Method"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-scaletorectangle
+          - name: "ScaleTransform Method"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-scaletransform
+          - name: "SelfIntersections Property"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-get_selfintersections
+          - name: "SetPacketValuesByProperty Method"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-setpacketvaluesbyproperty
+          - name: "SetPoints Method"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-setpoints
+          - name: "Shear Method"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-shear
+          - name: "Split Method"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-split
+          - name: "Transform Method"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-transform
+        - name: "IInkTablet Interface"
+          href: /windows/desktop/api/msinkaut/nn-msinkaut-iinktablet
+          items: 
+          - name: "GetPropertyMetrics Method"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinktablet-getpropertymetrics
+          - name: "IsPacketPropertySupported Method"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinktablet-ispacketpropertysupported
+          - name: "Name Property"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinktablet-get_name
+          - name: "HardwareCapabilities Property"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinktablet-get_hardwarecapabilities
+          - name: "MaximumInputRectangle Property"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinktablet-get_maximuminputrectangle
+          - name: "PlugAndPlayID Property"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinktablet-get_plugandplayid
+        - name: "IInkTablet2 Interface"
+          href: /windows/desktop/api/msinkaut/nn-msinkaut-iinktablet2
+          items: 
+          - name: "DeviceKind Property"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinktablet2-get_devicekind
+        - name: "IInkTablet3 Interface"
+          href: /windows/desktop/api/msinkaut/nn-msinkaut-iinktablet3
+          items: 
+          - name: "IsMultiTouch Property"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinktablet3-get_ismultitouch
+          - name: "MaximumCursors Property"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinktablet3-get_maximumcursors
+        - name: "IInkWordList2 Interface"
+          href: /windows/desktop/api/msinkaut/nn-msinkaut-iinkwordlist2
+          items: 
+          - name: "AddWords Method"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkwordlist2-addwords
+        - name: "InkCollector Class"
+          href: inkcollector-class.md
+          items: 
+          - name: "AutoRedraw Property"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-get_autoredraw
+          - name: "CollectingInk Property"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-get_collectingink
+          - name: "CollectionMode Property"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-get_collectionmode
+          - name: "Cursors Property"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-get_cursors
+          - name: "CursorButtonDown Event"
+            href: inkcollector-cursorbuttondown.md
+          - name: "CursorButtonUp Event"
+            href: inkcollector-cursorbuttonup.md
+          - name: "CursorDown Event"
+            href: inkcollector-cursordown.md
+          - name: "CursorInRange Event"
+            href: inkcollector-cursorinrange.md
+          - name: "CursorOutOfRange Event"
+            href: inkcollector-cursoroutofrange.md
+          - name: "DoubleClick Event"
+            href: inkcollector-doubleclick.md
+          - name: "DefaultDrawingAttributes Property"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-get_defaultdrawingattributes
+          - name: "DesiredPacketDescription Property"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-get_desiredpacketdescription
+          - name: "DynamicRendering Property"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-get_dynamicrendering
+          - name: "Enabled Property"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-get_enabled
+          - name: "Gesture Event"
+            href: inkcollector-gesture.md
+          - name: "GetEventInterest Method"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-geteventinterest
+          - name: "GetGestureStatus Method"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-getgesturestatus
+          - name: "GetWindowInputRectangle Method"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-getwindowinputrectangle
+          - name: "hWnd Property"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-get_hwnd
+          - name: "Ink Property"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-get_ink
+          - name: "MarginX Property"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-get_marginx
+          - name: "MarginY Property"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-get_marginy
+          - name: "MouseIcon Property"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-get_mouseicon
+          - name: "MousePointer Property"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-get_mousepointer
+          - name: "MouseDown Event"
+            href: inkcollector-mousedown.md
+          - name: "MouseMove Event"
+            href: inkcollector-mousemove.md
+          - name: "MouseUp Event"
+            href: inkcollector-mouseup.md
+          - name: "MouseWheel Event"
+            href: inkcollector-mousewheel.md
+          - name: "NewInAirPackets Event"
+            href: inkcollector-newinairpackets.md
+          - name: "NewPackets Event"
+            href: inkcollector-newpackets.md
+          - name: "Renderer Property"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-get_renderer
+          - name: "SetAllTabletsMode Method"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-setalltabletsmode
+          - name: "SetEventInterest Method"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-seteventinterest
+          - name: "SetGestureStatus Method"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-setgesturestatus
+          - name: "SetSingleTabletIntegratedMode Method"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-setsingletabletintegratedmode
+          - name: "SetWindowInputRectangle Method"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-setwindowinputrectangle
+          - name: "Stroke Event"
+            href: inkcollector-stroke.md
+          - name: "SupportHighContrastInk Property"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-get_supporthighcontrastink
+          - name: "SystemGesture Event"
+            href: inkcollector-systemgesture.md
+          - name: "Tablet Property"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-get_tablet
+          - name: "TabletAdded Event"
+            href: inkcollector-tabletadded.md
+          - name: "TabletRemoved Event"
+            href: inkcollector-tabletremoved.md
+        - name: "InkDisp Class"
+          href: inkdisp-class.md
+          items: 
+          - name: "AddStrokesAtRectangle Method"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-addstrokesatrectangle
+          - name: "CanPaste Method"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-canpaste
+          - name: "Clip Method"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-clip
+          - name: "ClipboardCopy Method"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-clipboardcopy
+          - name: "ClipboardCopyWithRectangle Method"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-clipboardcopywithrectangle
+          - name: "ClipboardPaste Method"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-clipboardpaste
+          - name: "Clone Method"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-clone
+          - name: "CreateStroke Method"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-createstroke
+          - name: "CreateStrokes Method"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-createstrokes
+          - name: "CustomStrokes Property"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-get_customstrokes
+          - name: "DeleteStroke Method"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-deletestroke
+          - name: "DeleteStrokes Method"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-deletestrokes
+          - name: "Dirty Property"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-get_dirty
+          - name: "ExtendedProperties Property"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-get_extendedproperties
+          - name: "ExtractStrokes Method"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-extractstrokes
+          - name: "ExtractWithRectangle Method"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-extractwithrectangle
+          - name: "GetBoundingBox Method"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-getboundingbox
+          - name: "HitTestCircle Method"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-hittestcircle
+          - name: "HitTestWithLasso Method"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-hittestwithlasso
+          - name: "HitTestWithRectangle Method"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-hittestwithrectangle
+          - name: "InkAdded Event"
+            href: inkdisp-inkadded.md
+          - name: "InkDeleted Event"
+            href: inkdisp-inkdeleted.md
+          - name: "Load Method"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-load
+          - name: "NearestPoint Method"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-nearestpoint
+          - name: "Save Method"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-save
+          - name: "Strokes Property"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-get_strokes
+        - name: "InkDivider Class"
+          href: inkdivider-class.md
+          items: 
+          - name: "Divide Method"
+            href: /windows/desktop/api/msinkaut15/nf-msinkaut15-iinkdivider-divide
+          - name: "LineHeight Property"
+            href: /windows/desktop/api/msinkaut15/nf-msinkaut15-iinkdivider-get_lineheight
+          - name: "RecognizerContext Property"
+            href: /windows/desktop/api/msinkaut15/nf-msinkaut15-iinkdivider-get_recognizercontext
+          - name: "Strokes Property"
+            href: /windows/desktop/api/msinkaut15/nf-msinkaut15-iinkdivider-get_strokes
+        - name: "InkDrawingAttributes Class"
+          href: inkdrawingattributes-class.md
+          items: 
+          - name: "AntiAliased Property"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkdrawingattributes-get_antialiased
+          - name: "Clone Method"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkdrawingattributes-clone
+          - name: "Color Property"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkdrawingattributes-get_color
+          - name: "ExtendedProperties Property"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkdrawingattributes-get_extendedproperties
+          - name: "FitToCurve Property"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkdrawingattributes-get_fittocurve
+          - name: "Height Property"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkdrawingattributes-get_height
+          - name: "IgnorePressure Property"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkdrawingattributes-get_ignorepressure
+          - name: "PenTip Property"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkdrawingattributes-get_pentip
+          - name: "RasterOperation Property"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkdrawingattributes-get_rasteroperation
+          - name: "Transparency Property"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkdrawingattributes-get_transparency
+          - name: "Width Property"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkdrawingattributes-get_width
+        - name: "InkOverlay Class"
+          href: inkoverlay-class.md
+          items: 
+          - name: "AttachMode Property"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-get_attachmode
+          - name: "AutoRedraw Property"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-get_autoredraw
+          - name: "CollectingInk Property"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-get_collectingink
+          - name: "CollectionMode Property"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-get_collectionmode
+          - name: "CursorButtonDown Event"
+            href: inkoverlay-cursorbuttondown.md
+          - name: "CursorButtonUp Event"
+            href: inkoverlay-cursorbuttonup.md
+          - name: "CursorDown Event"
+            href: inkoverlay-cursordown.md
+          - name: "CursorInRange Event"
+            href: inkoverlay-cursorinrange.md
+          - name: "CursorOutOfRange Event"
+            href: inkoverlay-cursoroutofrange.md
+          - name: "Cursors Property"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-get_cursors
+          - name: "DefaultDrawingAttributes Property"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-get_defaultdrawingattributes
+          - name: "DesiredPacketDescription Property"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-get_desiredpacketdescription
+          - name: "DoubleClick Event"
+            href: inkoverlay-doubleclick.md
+          - name: "Draw Method"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-draw
+          - name: "DynamicRendering Property"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-get_dynamicrendering
+          - name: "EditingMode Property"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-get_editingmode
+          - name: "Enabled Property"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-get_enabled
+          - name: "EraserMode Property"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-get_erasermode
+          - name: "EraserWidth Property"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-get_eraserwidth
+          - name: "Gesture Event"
+            href: inkoverlay-gesture.md
+          - name: "GetEventInterest Method"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-geteventinterest
+          - name: "GetGestureStatus Method"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-getgesturestatus
+          - name: "GetWindowInputRectangle Method"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-getwindowinputrectangle
+          - name: "HitTestSelection Method"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-hittestselection
+          - name: "hWnd Property"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-get_hwnd
+          - name: "Ink Property"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-get_ink
+          - name: "MarginX Property"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-get_marginx
+          - name: "MarginY Property"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-get_marginy
+          - name: "MouseDown Event"
+            href: inkoverlay-mousedown.md
+          - name: "MouseIcon Property"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-get_mouseicon
+          - name: "MouseMove Event"
+            href: inkoverlay-mousemove.md
+          - name: "MousePointer Property"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-get_mousepointer
+          - name: "MouseUp Event"
+            href: inkoverlay-mouseup.md
+          - name: "MouseWheel Event"
+            href: inkoverlay-mousewheel.md
+          - name: "NewInAirPackets Event"
+            href: inkoverlay-newinairpackets.md
+          - name: "NewPackets Event"
+            href: inkoverlay-newpackets.md
+          - name: "Painted Event"
+            href: inkoverlay-painted.md
+          - name: "Painting Event"
+            href: inkoverlay-painting.md
+          - name: "Renderer Property"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-get_renderer
+          - name: "Selection Property"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-get_selection
+          - name: "SelectionChanged Event"
+            href: inkoverlay-selectionchanged.md
+          - name: "SelectionChanging Event"
+            href: inkoverlay-selectionchanging.md
+          - name: "SelectionMoved Event"
+            href: inkoverlay-selectionmoved.md
+          - name: "SelectionMoving Event"
+            href: inkoverlay-selectionmoving.md
+          - name: "SelectionResized Event"
+            href: inkoverlay-selectionresized.md
+          - name: "SelectionResizing Event"
+            href: inkoverlay-selectionresizing.md
+          - name: "SetAllTabletsMode Method"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-setalltabletsmode
+          - name: "SetEventInterest Method"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-seteventinterest
+          - name: "SetGestureStatus Method"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-setgesturestatus
+          - name: "SetSingleTabletIntegratedMode Method"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-setsingletabletintegratedmode
+          - name: "SetWindowInputRectangle Method"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-setwindowinputrectangle
+          - name: "Stroke Event"
+            href: inkoverlay-stroke.md
+          - name: "StrokesDeleted Event"
+            href: inkoverlay-strokesdeleted.md
+          - name: "StrokesDeleting Event"
+            href: inkoverlay-strokesdeleting.md
+          - name: "SupportHighContrastInk Property"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-get_supporthighcontrastink
+          - name: "SupportHighContrastSelectionUI Property"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-get_supporthighcontrastselectionui
+          - name: "SystemGesture Event"
+            href: inkoverlay-systemgesture.md
+          - name: "Tablet Property"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-get_tablet
+          - name: "TabletAdded Event"
+            href: inkoverlay-tabletadded.md
+          - name: "TabletRemoved Event"
+            href: inkoverlay-tabletremoved.md
+        - name: "InkRecognizerContext Class"
+          href: inkrecognizercontext-class.md
+          items: 
+          - name: "BackgroundRecognize Method"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-backgroundrecognize
+          - name: "BackgroundRecognizeWithAlternates Method"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-backgroundrecognizewithalternates
+          - name: "CharacterAutoCompletion Property"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-get_characterautocompletionmode
+          - name: "Clone Method"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-clone
+          - name: "EndInkInput Method"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-endinkinput
+          - name: "Factoid Property"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-get_factoid
+          - name: "Guide Property"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-get_guide
+          - name: "IsStringSupported Method"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-isstringsupported
+          - name: "PrefixText Property"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-get_prefixtext
+          - name: "Recognition Event"
+            href: inkrecognizercontext-recognition.md
+          - name: "RecognitionFlags Property"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-get_recognitionflags
+          - name: "RecognitionWithAlternates Event"
+            href: inkrecognizercontext-recognitionwithalternates.md
+          - name: "Recognize Method"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-recognize
+          - name: "Recognizer Property"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-get_recognizer
+          - name: "StopBackgroundRecognition Method"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-stopbackgroundrecognition
+          - name: "Strokes Property"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-get_strokes
+          - name: "SuffixText Property"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-get_suffixtext
+          - name: "WordList Property"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-get_wordlist
+        - name: "InkRecognizerGuide Class"
+          href: inkrecognizerguide-class.md
+          items: 
+          - name: "Columns Property"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizerguide-get_columns
+          - name: "DrawnBox Property"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizerguide-get_drawnbox
+          - name: "GuideData Property"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizerguide-get_guidedata
+          - name: "Midline Property"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizerguide-get_midline
+          - name: "Rows Property"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizerguide-get_rows
+          - name: "WritingBox Property"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizerguide-get_writingbox
+        - name: "InkRecognizers Collection"
+          href: /previous-versions/windows/desktop/legacy/ms702438(v=vs.85)
+          items: 
+          - name: "Count Property"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizers-get_count
+          - name: "GetDefaultRecognizer Method"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizers-getdefaultrecognizer
+          - name: "Item Method"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizers-item
+        - name: "InkRectangle Class"
+          href: inkrectangle-class.md
+          items: 
+          - name: "Bottom Property"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrectangle-get_bottom
+          - name: "Data Property"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrectangle-get_data
+          - name: "GetRectangle Method"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrectangle-getrectangle
+          - name: "Left Property"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrectangle-get_left
+          - name: "Right Property"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrectangle-get_right
+          - name: "SetRectangle Method"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrectangle-setrectangle
+          - name: "Top Property"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrectangle-get_top
+        - name: "InkRenderer Class"
+          href: inkrenderer-class.md
+          items: 
+          - name: "Draw Method"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrenderer-draw
+          - name: "DrawStroke Method"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrenderer-drawstroke
+          - name: "GetObjectTransform Method"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrenderer-getobjecttransform
+          - name: "GetViewTransform Method"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrenderer-getviewtransform
+          - name: "InkSpaceToPixel Method"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrenderer-inkspacetopixel
+          - name: "InkSpaceToPixelFromPoints Method"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrenderer-inkspacetopixelfrompoints
+          - name: "Measure Method"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrenderer-measure
+          - name: "MeasureStroke Method"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrenderer-measurestroke
+          - name: "Move Method"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrenderer-move
+          - name: "PixelToInkSpace Method"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrenderer-pixeltoinkspace
+          - name: "PixelToInkSpaceFromPoints Method"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrenderer-pixeltoinkspacefrompoints
+          - name: "Rotate Method"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrenderer-rotate
+          - name: "ScaleTransform Method"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrenderer-scaletransform
+          - name: "SetObjectTransform Method"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrenderer-setobjecttransform
+          - name: "SetViewTransform Method"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrenderer-setviewtransform
+        - name: "InkStrokes Collection"
+          href: /previous-versions/windows/desktop/legacy/ms703293(v=vs.85)
+          items: 
+          - name: "Add Method"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokes-add
+          - name: "AddStrokes Method"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokes-addstrokes
+          - name: "Clip Method"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokes-clip
+          - name: "Count Property"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokes-get_count
+          - name: "GetBoundingBox Method"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokes-getboundingbox
+          - name: "Ink Property"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokes-get_ink
+          - name: "Item Method"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokes-item
+          - name: "ModifyDrawingAttributes Method"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokes-modifydrawingattributes
+          - name: "Move Method"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokes-move
+          - name: "RecognitionResult Property"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokes-get_recognitionresult
+          - name: "Remove Method"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokes-remove
+          - name: "RemoveRecognitionResult Method"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokes-removerecognitionresult
+          - name: "RemoveStrokes Method"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokes-removestrokes
+          - name: "Rotate Method"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokes-rotate
+          - name: "ScaleToRectangle Method"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokes-scaletorectangle
+          - name: "ScaleTransform Method"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokes-scaletransform
+          - name: "Shear Method"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokes-shear
+          - name: "StrokesAdded Event"
+            href: inkstrokes-strokesadded.md
+          - name: "StrokesRemoved Event"
+            href: inkstrokes-strokesremoved.md
+          - name: "ToString Method"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokes-tostring
+          - name: "Transform Method"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokes-transform
+        - name: "InkTablets Collection"
+          href: /previous-versions/windows/desktop/legacy/ms704832(v=vs.85)
+          items: 
+          - name: "Count Property"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinktablets-get_count
+          - name: "DefaultTablet Property"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinktablets-get_defaulttablet
+          - name: "IsPacketPropertySupported Method"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinktablets-ispacketpropertysupported
+          - name: "Item Method"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinktablets-item
+        - name: "InkTransform Class"
+          href: inktransform-class.md
+          items: 
+          - name: "Data Property"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinktransform-get_data
+          - name: "eDx Property"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinktransform-get_edx
+          - name: "eDy Property"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinktransform-get_edy
+          - name: "eM11 Property"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinktransform-get_em11
+          - name: "eM12 Property"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinktransform-get_em12
+          - name: "eM21 Property"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinktransform-get_em21
+          - name: "eM22 Property"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinktransform-get_em22
+          - name: "GetTransform Method"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinktransform-gettransform
+          - name: "Reflect Method"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinktransform-reflect
+          - name: "Reset Method"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinktransform-reset
+          - name: "Rotate Method"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinktransform-rotate
+          - name: "ScaleTransform Method"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinktransform-scaletransform
+          - name: "SetTransform Method"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinktransform-settransform
+          - name: "Shear Method"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinktransform-shear
+          - name: "Translate Method"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinktransform-translate
+        - name: "InkWordList Class"
+          href: inkwordlist-class.md
+          items: 
+          - name: "AddWord Method"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkwordlist-addword
+          - name: "Merge Method"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkwordlist-merge
+          - name: "RemoveWord Method"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkwordlist-removeword
+        - name: "PenInputPanel Class"
+          href: peninputpanel-class.md
+          items: 
+          - name: "AttachedEditWindow Property"
+            href: /windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-get_attachededitwindow
+          - name: "AutoShow Property"
+            href: /windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-get_autoshow
+          - name: "Busy Property"
+            href: /windows/desktop/api/Peninputpanel/nf-peninputpanel-ipeninputpanel-get_busy
+          - name: "CommitPendingInput Method"
+            href: /windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-commitpendinginput
+          - name: "CurrentPanel Property"
+            href: /windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-get_currentpanel
+          - name: "DefaultPanel Property"
+            href: /windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-get_defaultpanel
+          - name: "EnableTsf Method"
+            href: /windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-enabletsf
+          - name: "Factoid Property"
+            href: /windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-get_factoid
+          - name: "Height Property"
+            href: /windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-get_height
+          - name: "HorizontalOffset Property"
+            href: /windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-get_horizontaloffset
+          - name: "InputFailed Event"
+            href: peninputpanel-inputfailed.md
+          - name: "Left Property"
+            href: /windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-get_left
+          - name: "MoveTo Method"
+            href: /windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-moveto
+          - name: "PanelChanged Event"
+            href: peninputpanel-panelchanged.md
+          - name: "PanelMoving Event"
+            href: peninputpanel-panelmoving.md
+          - name: "Refresh Method"
+            href: /windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-refresh
+          - name: "Top Property"
+            href: /windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-get_top
+          - name: "VerticalOffset Property"
+            href: /windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-get_verticaloffset
+          - name: "Visible Property"
+            href: /windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-get_visible
+          - name: "VisibleChanged Event"
+            href: peninputpanel-visiblechanged.md
+          - name: "Width Property"
+            href: /windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-get_width
+      - name: "Core Tablet PC Constants"
+        href: constants---tablet-pc-com-library.md
+        items: 
+        - name: "Factoid Constants"
+          href: factoid-constants.md
+        - name: "PacketPropertyGuids Constants"
+          href: packetpropertyguids-constants.md
+        - name: "RecognitionProperty Constants"
+          href: recognitionproperty-constants.md
+      - name: "Core Tablet PC Enumerations"
+        href: enumerations--tablet-pc-com-library.md
+        items: 
+        - name: "InkApplicationGesture Enumeration"
+          href: /windows/desktop/api/msinkaut/ne-msinkaut-inkapplicationgesture
+        - name: "InkBoundingBoxMode Enumeration"
+          href: /windows/desktop/api/msinkaut/ne-msinkaut-inkboundingboxmode
+        - name: "InkClipboardFormats Enumeration"
+          href: /windows/desktop/api/msinkaut/ne-msinkaut-inkclipboardformats
+        - name: "InkClipboardModes Enumeration"
+          href: /windows/desktop/api/msinkaut/ne-msinkaut-inkclipboardmodes
+        - name: "InkCollectionMode Enumeration"
+          href: /windows/desktop/api/msinkaut/ne-msinkaut-inkcollectionmode
+        - name: "InkCollectorEventInterest Enumeration"
+          href: /windows/desktop/api/msinkaut/ne-msinkaut-inkcollectoreventinterest
+        - name: "InkCursorButtonState Enumeration"
+          href: /windows/desktop/api/msinkaut/ne-msinkaut-inkcursorbuttonstate
+        - name: "InkDivisionType Enumeration"
+          href: /windows/desktop/api/msinkaut15/ne-msinkaut15-inkdivisiontype
+        - name: "InkExtractFlags Enumeration"
+          href: /windows/desktop/api/msinkaut/ne-msinkaut-inkextractflags
+        - name: "InkMouseButton Enumeration"
+          href: /windows/desktop/api/msinkaut/ne-msinkaut-inkmousebutton
+        - name: "InkMousePointer Enumeration"
+          href: /windows/desktop/api/msinkaut/ne-msinkaut-inkmousepointer
+        - name: "InkOverlayAttachMode Enumeration"
+          href: /windows/desktop/api/msinkaut/ne-msinkaut-inkoverlayattachmode
+        - name: "InkOverlayEditingMode Enumeration"
+          href: /windows/desktop/api/msinkaut/ne-msinkaut-inkoverlayeditingmode
+        - name: "InkOverlayEraserMode Enumeration"
+          href: /windows/desktop/api/msinkaut/ne-msinkaut-inkoverlayerasermode
+        - name: "InkPenTip Enumeration"
+          href: /windows/desktop/api/msinkaut/ne-msinkaut-inkpentip
+        - name: "InkPersistenceCompressionMode Enumeration"
+          href: /windows/desktop/api/msinkaut/ne-msinkaut-inkpersistencecompressionmode
+        - name: "InkPersistenceFormat Enumeration"
+          href: /windows/desktop/api/msinkaut/ne-msinkaut-inkpersistenceformat
+        - name: "InkRasterOperation Enumeration"
+          href: /windows/desktop/api/msinkaut/ne-msinkaut-inkrasteroperation
+        - name: "InkRecognitionAlternatesSelection Enumeration"
+          href: /windows/desktop/api/msinkaut/ne-msinkaut-inkrecognitionalternatesselection
+        - name: "InkRecognitionConfidence Enumeration"
+          href: /windows/desktop/api/msinkaut/ne-msinkaut-inkrecognitionconfidence
+        - name: "InkRecognitionModes Enumeration"
+          href: /windows/desktop/api/msinkaut/ne-msinkaut-inkrecognitionmodes
+        - name: "InkRecognitionStatus Enumeration"
+          href: /windows/desktop/api/msinkaut/ne-msinkaut-inkrecognitionstatus
+        - name: "InkRecognizerCapabilities Enumeration"
+          href: /windows/desktop/api/msinkaut/ne-msinkaut-inkrecognizercapabilities
+        - name: "InkRecognizerCharacterAutoCompletionMode Enumeration"
+          href: /windows/desktop/api/msinkaut/ne-msinkaut-inkrecognizercharacterautocompletionmode
+        - name: "InkRecoGuide Enumeration"
+          href: /windows/win32/api/msinkaut/ns-msinkaut-inkrecoguide
+        - name: "InkShiftKeyModifierFlags Enumeration"
+          href: /windows/desktop/api/msinkaut/ne-msinkaut-inkshiftkeymodifierflags
+        - name: "InkSystemGesture Enumeration"
+          href: /windows/desktop/api/msinkaut/ne-msinkaut-inksystemgesture
+        - name: "ItemSelectionConstants Enumeration"
+          href: /windows/desktop/api/msinkaut/ne-msinkaut-itemselectionconstants
+        - name: "PanelType Enumeration"
+          href: /windows/desktop/api/peninputpanel/ne-peninputpanel-paneltype
+        - name: "SelectionHitResult Enumeration"
+          href: /windows/desktop/api/msinkaut/ne-msinkaut-selectionhitresult
+        - name: "TabletHardwareCapabilities Enumeration"
+          href: /windows/desktop/api/msinkaut/ne-msinkaut-tablethardwarecapabilities
+        - name: "TabletPropertyMetricUnit Enumeration"
+          href: /windows/desktop/api/msinkaut/ne-msinkaut-tabletpropertymetricunit
+      - name: "Core Tablet PC Functions"
+        href: functions.md
+        items: 
+        - name: "AddOneStroke Function"
+          href: addonestroke.md
+        - name: "CallDivide Function"
+          href: calldivide.md
+        - name: "CallDivideResults Function"
+          href: calldivideresults.md
+        - name: "CallDivideResultsStrokeIds Function"
+          href: calldivideresultsstrokeids.md
+        - name: "CreateInkDivider Function"
+          href: createinkdivider.md
+        - name: "DeleteInkDivider Function"
+          href: deleteinkdivider.md
+        - name: "InvokeIDispatch Function"
+          href: invokeidispatch.md
+        - name: "RecognizerContextSet Function"
+          href: recognizercontextset.md
+        - name: "RemoveStrokes Function"
+          href: /previous-versions/windows/desktop/legacy/cc836538(v=vs.85)
+        - name: "SetLineHeight Function"
+          href: setlineheight.md
+        - name: "SetLineRecoCallback Function"
+          href: setlinerecocallback.md
+    - name: "Flicks Reference"
+      href: flicks-api-reference.md
+      items: 
+      - name: "Flicks Messages"
+        href: flicks-messages.md
+        items: 
+        - name: "WM_TABLET_FLICK"
+          href: wm-tablet-flick-message.md
+        - name: "WM_TABLET_QUERYSYSTEMGESTURESTATUS"
+          href: wm-tablet-querysystemgesturestatus-message.md
+      - name: "Flicks Enumerations"
+        href: flicks-enumerations.md
+        items: 
+        - name: "FLICKDIRECTION Enumeration"
+          href: /windows/desktop/api/tabflicks/ne-tabflicks-flickdirection
+        - name: "FLICKMODE Enumeration"
+          href: /windows/desktop/api/tabflicks/ne-tabflicks-flickmode
+        - name: "FLICKACTION_COMMANDMODE Enumeration"
+          href: /windows/desktop/api/tabflicks/ne-tabflicks-flickaction_commandcode
+        - name: "SCROLLDIRECTION Enumeration"
+          href: /windows/desktop/api/tabflicks/ne-tabflicks-scrolldirection
+        - name: "KEYMODIFIER Enumeration"
+          href: /windows/desktop/api/tabflicks/ne-tabflicks-keymodifier
+      - name: "Flicks Structures"
+        href: flicks-structures.md
+        items: 
+        - name: "FLICK_POINT Structure"
+          href: /windows/desktop/api/tabflicks/ns-tabflicks-flick_point
+        - name: "FLICK_DATA Structure"
+          href: /windows/desktop/api/tabflicks/ns-tabflicks-flick_data
+      - name: "Flicks Constants"
+        href: flicks-constants.md
+    - name: "Ink Analysis Reference"
+      href: ink-analysis-reference.md
+      items: 
+      - name: "Ink Analysis Classes and Interfaces"
+        href: classes-and-interfaces---ink-analysis.md
+        items: 
+        - name: "AnalysisRegion Class"
+          href: analysisregion.md
+        - name: "InkAnalyzer Class"
+          href: inkanalyzer.md
+        - name: "IAnalysisAlternate Interface"
+          href: ianalysisalternate.md
+          items: 
+          - name: "GetAlternateNodes Method"
+            href: ianalysisalternate-getalternatenodes.md
+          - name: "GetRecognitionConfidence Method"
+            href: ianalysisalternate-getrecognitionconfidence.md
+          - name: "GetRecognizedString Method"
+            href: ianalysisalternate-getrecognizedstring.md
+          - name: "GetStrokeIds Method"
+            href: ianalysisalternate-getstrokeids.md
+        - name: "IAnalysisAlternates Interface"
+          href: ianalysisalternates.md
+          items: 
+          - name: "GetAnalysisAlternate Method"
+            href: ianalysisalternates-getanalysisalternate.md
+          - name: "GetCount Method"
+            href: ianalysisalternates-getcount.md
+        - name: "IAnalysisRegion Interface"
+          href: ianalysisregion.md
+          items: 
+          - name: "Clone Method"
+            href: ianalysisregion-clone.md
+          - name: "EqualsRegion Method"
+            href: ianalysisregion-equalsregion.md
+          - name: "ExcludeRectangle Method"
+            href: ianalysisregion-excluderectangle.md
+          - name: "ExcludeRegion Method"
+            href: ianalysisregion-excluderegion.md
+          - name: "GetBounds Method"
+            href: ianalysisregion-getbounds.md
+          - name: "GetRegionScans Method"
+            href: ianalysisregion-getregionscans.md
+          - name: "IntersectRectangle Method"
+            href: ianalysisregion-intersectrectangle.md
+          - name: "IntersectRegion Method"
+            href: ianalysisregion-intersectregion.md
+          - name: "IntersectsWith Method"
+            href: ianalysisregion-intersectswith.md
+          - name: "IsEmpty Method"
+            href: ianalysisregion-isempty.md
+          - name: "IsInfinite Method"
+            href: ianalysisregion-isinfinite.md
+          - name: "MakeEmpty Method"
+            href: ianalysisregion-makeempty.md
+          - name: "MakeInfinite Method"
+            href: ianalysisregion-makeinfinite.md
+          - name: "UnionRectangle Method"
+            href: ianalysisregion-unionrectangle.md
+          - name: "UnionRegion Method"
+            href: ianalysisregion-unionregion.md
+        - name: "IAnalysisStatus Interface"
+          href: ianalysisstatus.md
+          items: 
+          - name: "GetAppliedChangesRegion Method"
+            href: ianalysisstatus-getappliedchangesregion.md
+          - name: "GetWarnings Method"
+            href: ianalysisstatus-getwarnings.md
+          - name: "IsSuccessful Method"
+            href: ianalysisstatus-issuccessful.md
+        - name: "IAnalysisWarning Interface"
+          href: ianalysiswarning.md
+          items: 
+          - name: "GetBackgroundError Method"
+            href: ianalysiswarning-getbackgrounderror.md
+          - name: "GetHint Method"
+            href: ianalysiswarning-gethint.md
+          - name: "GetNodeIds Method"
+            href: ianalysiswarning-getnodeids.md
+          - name: "GetWarningCode Method"
+            href: ianalysiswarning-getwarningcode.md
+        - name: "IAnalysisWarnings Interface"
+          href: ianalysiswarnings.md
+          items: 
+          - name: "GetAnalysisWarning Method"
+            href: ianalysiswarnings-getanalysiswarning.md
+          - name: "GetCount Method"
+            href: ianalysiswarnings-getcount.md
+        - name: "IContextLink Interface"
+          href: icontextlink.md
+          items: 
+          - name: "GetContextLinkDirection"
+            href: icontextlink-getcontextlinkdirection.md
+          - name: "GetDestinationNode"
+            href: icontextlink-getdestinationnode.md
+          - name: "GetSourceNode"
+            href: icontextlink-getsourcenode.md
+        - name: "IContextLinks Interface"
+          href: icontextlinks.md
+          items: 
+          - name: "GetContextLink Method"
+            href: icontextlinks-getcontextlink.md
+          - name: "GetCount Method"
+            href: icontextlinks-getcount.md
+        - name: "IContextNode Interface"
+          href: icontextnode.md
+          items: 
+          - name: "AddContextLink Method"
+            href: icontextnode-addcontextlink.md
+          - name: "AddPropertyData Method"
+            href: icontextnode-addpropertydata.md
+          - name: "Confirm Method"
+            href: icontextnode-confirm.md
+          - name: "ContainsPropertyData Method"
+            href: icontextnode-containspropertydata.md
+          - name: "CreatePartiallyPopulatedSubNode Method"
+            href: icontextnode-createpartiallypopulatedsubnode.md
+          - name: "CreateSubNode Method"
+            href: icontextnode-createsubnode.md
+          - name: "DeleteContextLink Method"
+            href: icontextnode-deletecontextlink.md
+          - name: "DeleteSubNode Method"
+            href: icontextnode-deletesubnode.md
+          - name: "GetContextLinks Method"
+            href: icontextnode-getcontextlinks.md
+          - name: "GetId Method"
+            href: icontextnode-getid.md
+          - name: "GetLocation Method"
+            href: icontextnode-getlocation.md
+          - name: "GetParentNode Method"
+            href: icontextnode-getparentnode.md
+          - name: "GetPartiallyPopulated Method"
+            href: icontextnode-getpartiallypopulated.md
+          - name: "GetPropertyData Method"
+            href: icontextnode-getpropertydata.md
+          - name: "GetPropertyDataIds Method"
+            href: icontextnode-getpropertydataids.md
+          - name: "GetStrokeCount Method"
+            href: icontextnode-getstrokecount.md
+          - name: "GetStrokeId Method"
+            href: icontextnode-getstrokeid.md
+          - name: "GetStrokeIds Method"
+            href: icontextnode-getstrokeids.md
+          - name: "GetStrokePacketDataById Method"
+            href: icontextnode-getstrokepacketdatabyid.md
+          - name: "GetStrokePacketDescriptionById Method"
+            href: icontextnode-getstrokepacketdescriptionbyid.md
+          - name: "GetSubNodes Method"
+            href: icontextnode-getsubnodes.md
+          - name: "GetType Method"
+            href: icontextnode-gettype.md
+          - name: "GetTypeName Method"
+            href: icontextnode-gettypename.md
+          - name: "IsAlternateStringSupported Method"
+            href: icontextnode-isalternatestringsupported.md
+          - name: "IsConfirmed Method"
+            href: icontextnode-isconfirmed.md
+          - name: "IsStringSupported Method"
+            href: icontextnode-isstringsupported.md
+          - name: "LoadPropertiesData Method"
+            href: icontextnode-loadpropertiesdata.md
+          - name: "MoveSubNodeToPosition Method"
+            href: icontextnode-movesubnodetoposition.md
+          - name: "RemovePropertyData Method"
+            href: icontextnode-removepropertydata.md
+          - name: "Reparent Method"
+            href: icontextnode-reparent.md
+          - name: "ReparentStrokeByIdToNode Method"
+            href: icontextnode-reparentstrokebyidtonode.md
+          - name: "SavePropertiesData Method"
+            href: icontextnode-savepropertiesdata.md
+          - name: "SetLocation Method"
+            href: icontextnode-setlocation.md
+          - name: "SetPartiallyPopulated Method"
+            href: icontextnode-setpartiallypopulated.md
+          - name: "SetStrokes Method"
+            href: icontextnode-setstrokes.md
+        - name: "IContextNodes Interface"
+          href: icontextnodes.md
+          items: 
+          - name: "AddContextNode Method"
+            href: icontextnodes-addcontextnode.md
+          - name: "GetCount Method"
+            href: icontextnodes-getcount.md
+          - name: "GetContextNode Method"
+            href: icontextnodes-getcontextnode.md
+          - name: "RemoveContextNode Method"
+            href: icontextnodes-removecontextnode.md
+        - name: "IInkAnalysisRecognizer Interface"
+          href: iinkanalysisrecognizer.md
+          items: 
+          - name: "GetCapabilities Method"
+            href: iinkanalysisrecognizer-getcapabilities.md
+          - name: "GetGuid Method"
+            href: iinkanalysisrecognizer-getguid.md
+          - name: "GetLanguages Method"
+            href: iinkanalysisrecognizer-getlanguages.md
+          - name: "GetName Method"
+            href: iinkanalysisrecognizer-getname.md
+          - name: "GetSupportedProperties Method"
+            href: iinkanalysisrecognizer-getsupportedproperties.md
+          - name: "GetUnicodeRanges Method"
+            href: iinkanalysisrecognizer-getunicoderanges.md
+          - name: "GetVendor Method"
+            href: iinkanalysisrecognizer-getvendor.md
+          - name: "SetAsHighestPriorityInkAnalysisRecognizer Method"
+            href: iinkanalysisrecognizer-setashighestpriorityinkanalysisrecognizer.md
+        - name: "IInkAnalysisRecognizers Interface"
+          href: iinkanalysisrecognizers.md
+          items: 
+          - name: "GetCount Method"
+            href: iinkanalysisrecognizers-getcount.md
+          - name: "GetInkAnalysisRecognizer Method"
+            href: iinkanalysisrecognizers-getinkanalysisrecognizer.md
+        - name: "IInkAnalyzer Interface"
+          href: iinkanalyzer.md
+          items: 
+          - name: "Abort Method"
+            href: iinkanalyzer-abort.md
+          - name: "AddStroke Method"
+            href: iinkanalyzer-addstroke.md
+          - name: "AddStrokeForLanguage Method"
+            href: iinkanalyzer-addstrokeforlanguage.md
+          - name: "AddStrokes Method"
+            href: iinkanalyzer-addstrokes.md
+          - name: "AddStrokesForLanguage Method"
+            href: iinkanalyzer-addstrokesforlanguage.md
+          - name: "AddStrokeToCustomRecognizer Method"
+            href: iinkanalyzer-addstroketocustomrecognizer.md
+          - name: "AddStrokesToCustomRecognizer Method"
+            href: iinkanalyzer-addstrokestocustomrecognizer.md
+          - name: "Analyze Method"
+            href: iinkanalyzer-analyze.md
+          - name: "BackgroundAnalyze Method"
+            href: iinkanalyzer-backgroundanalyze.md
+          - name: "ClearStrokeData Method"
+            href: iinkanalyzer-clearstrokedata.md
+          - name: "CreateAnalysisHint Method"
+            href: iinkanalyzer-createanalysishint.md
+          - name: "CreateContextNodes Method"
+            href: iinkanalyzer-createcontextnodes.md
+          - name: "CreateCustomRecognizer Method"
+            href: iinkanalyzer-createcustomrecognizer.md
+          - name: "DeleteAnalysisHint Method"
+            href: iinkanalyzer-deleteanalysishint.md
+          - name: "FindInkLeafNodes Method"
+            href: iinkanalyzer-findinkleafnodes.md
+          - name: "FindInkLeafNodesForStrokes Method"
+            href: iinkanalyzer-findinkleafnodesforstrokes.md
+          - name: "FindLeafNodes Method"
+            href: iinkanalyzer-findleafnodes.md
+          - name: "FindNode Method"
+            href: iinkanalyzer-findnode.md
+          - name: "FindNodesOfType Method"
+            href: iinkanalyzer-findnodesoftype.md
+          - name: "FindNodesOfTypeForStrokes Method"
+            href: iinkanalyzer-findnodesoftypeforstrokes.md
+          - name: "FindNodesOfTypeInSubTree Method"
+            href: iinkanalyzer-findnodesoftypeinsubtree.md
+          - name: "FindNodesWithCallBack Method"
+            href: iinkanalyzer-findnodeswithcallback.md
+          - name: "FindNodesWithCallBackInSubTree Method"
+            href: iinkanalyzer-findnodeswithcallbackinsubtree.md
+          - name: "GetAlternates Method"
+            href: iinkanalyzer-getalternates.md
+          - name: "GetAlternatesForContextNodes Method"
+            href: iinkanalyzer-getalternatesforcontextnodes.md
+          - name: "GetAlternatesForStrokes"
+            href: iinkanalyzer-getalternatesforstrokes.md
+          - name: "GetAnalysisHints Method"
+            href: iinkanalyzer-getanalysishints.md
+          - name: "GetAnalysisHintsByName Method"
+            href: iinkanalyzer-getanalysishintsbyname.md
+          - name: "GetAnalysisModes Method"
+            href: iinkanalyzer-getanalysismodes.md
+          - name: "GetDirtyRegion Method"
+            href: iinkanalyzer-getdirtyregion.md
+          - name: "GetInkAnalysisRecognizersByPriority Method"
+            href: iinkanalyzer-getinkanalysisrecognizersbypriority.md
+          - name: "GetNodesFromTextRange Method"
+            href: iinkanalyzer-getnodesfromtextrange.md
+          - name: "GetRecognizedString Method"
+            href: iinkanalyzer-getrecognizedstring.md
+          - name: "GetRootNode Method"
+            href: iinkanalyzer-getrootnode.md
+          - name: "GetStrokeLanguageId Method"
+            href: iinkanalyzer-getstrokelanguageid.md
+          - name: "GetStrokeType Method"
+            href: iinkanalyzer-getstroketype.md
+          - name: "GetTextRangeFromNodes Method"
+            href: iinkanalyzer-gettextrangefromnodes.md
+          - name: "IsAnalyzing Method"
+            href: iinkanalyzer-isanalyzing.md
+          - name: "LoadResults Method"
+            href: iinkanalyzer-loadresults.md
+          - name: "ModifyTopAlternate Method"
+            href: iinkanalyzer-modifytopalternate.md
+          - name: "ModifyTopAlternateWithConfirmation Method"
+            href: iinkanalyzer-modifytopalternatewithconfirmation.md
+          - name: "Reconcile Method"
+            href: iinkanalyzer-reconcile.md
+          - name: "RemoveStroke Method"
+            href: iinkanalyzer-removestroke.md
+          - name: "RemoveStrokes Method"
+            href: iinkanalyzer-removestrokes.md
+          - name: "SaveResults Method"
+            href: iinkanalyzer-saveresults.md
+          - name: "SaveResultsForNodes Method"
+            href: iinkanalyzer-saveresultsfornodes.md
+          - name: "SaveResultsForStrokes Method"
+            href: iinkanalyzer-saveresultsforstrokes.md
+          - name: "Search Method"
+            href: iinkanalyzer-search.md
+          - name: "SearchWithLanguageId Method"
+            href: iinkanalyzer-searchwithlanguageid.md
+          - name: "SetAnalysisModes Method"
+            href: iinkanalyzer-setanalysismodes.md
+          - name: "SetDirtyRegion Method"
+            href: iinkanalyzer-setdirtyregion.md
+          - name: "SetHighestPriorityInkAnalysisRecognizer Method"
+            href: iinkanalyzer-sethighestpriorityinkanalysisrecognizer.md
+          - name: "SetStrokeLanguageId Method"
+            href: iinkanalyzer-setstrokelanguageid.md
+          - name: "SetStrokesLanguageId Method"
+            href: iinkanalyzer-setstrokeslanguageid.md
+          - name: "SetStrokesType Method"
+            href: iinkanalyzer-setstrokestype.md
+          - name: "SetStrokeType Method"
+            href: iinkanalyzer-setstroketype.md
+          - name: "UpdateStrokesData Method"
+            href: iinkanalyzer-updatestrokesdata.md
+        - name: "IMatchesCriteriaCallBack Interface"
+          href: imatchescriteriacallback.md
+          items: 
+          - name: "EvaluateContextNode Method"
+            href: imatchescriteriacallback-evaluatecontextnode.md
+      - name: "Ink Analysis Constants"
+        href: ink-analysis-constants.md
+        items: 
+        - name: "Analysis Hint Properties"
+          href: analysis-hint-properties.md
+        - name: "Context Node Properties"
+          href: context-node-properties.md
+        - name: "Context Node Types"
+          href: context-node-types.md
+      - name: "Ink Analysis Enumerations"
+        href: ink-analysis-enumerations.md
+        items: 
+        - name: "AnalysisModes Enumeration"
+          href: analysismodes.md
+        - name: "AnalysisWarningCode Enumeration"
+          href: analysiswarningcode.md
+        - name: "ConfirmationType Enumeration"
+          href: confirmationtype.md
+        - name: "ContextLinkDirection  EnumerationEnumeration"
+          href: contextlinkdirection.md
+        - name: "RecognitionConfidence"
+          href: recognitionconfidence.md
+        - name: "RecognizerCapabilities Enumeration"
+          href: recognizercapabilities.md
+        - name: "StrokeType"
+          href: stroketype.md
+      - name: "Ink Analysis Events"
+        href: ink-analysis-events.md
+        items: 
+        - name: "_IAnalysisEvents"
+          href: -ianalysisevents.md
+          items: 
+          - name: "Activity Event"
+            href: -ianalysisevents-activity.md
+          - name: "IntermediateResults Event"
+            href: -ianalysisevents-intermediateresults.md
+          - name: "ReadyToReconcile Event"
+            href: -ianalysisevents-readytoreconcile.md
+          - name: "Results Event"
+            href: -ianalysisevents-results.md
+          - name: "UpdateStrokesCache Event"
+            href: -ianalysisevents-updatestrokescache.md
+        - name: "_IAnalysisProxyEvents"
+          href: -ianalysisproxyevents.md
+          items: 
+          - name: "ContextNodeCreated Event"
+            href: -ianalysisproxyevents-contextnodecreated.md
+          - name: "ContextNodeDeleting Event"
+            href: -ianalysisproxyevents-contextnodedeleting.md
+          - name: "ContextNodeLinkAdding Event"
+            href: -ianalysisproxyevents-contextnodelinkadding.md
+          - name: "ContextNodeLinkDeleting Event"
+            href: -ianalysisproxyevents-contextnodelinkdeleting.md
+          - name: "ContextNodeMovingToPosition Event"
+            href: -ianalysisproxyevents-contextnodemovingtoposition.md
+          - name: "ContextNodePropertiesUpdated Event"
+            href: -ianalysisproxyevents-contextnodepropertiesupdated.md
+          - name: "ContextNodeReparenting Event"
+            href: -ianalysisproxyevents-contextnodereparenting.md
+          - name: "InkAnalyzerStateChanging Event"
+            href: -ianalysisproxyevents-inkanalyzerstatechanging.md
+          - name: "PopulateContextNode Event"
+            href: -ianalysisproxyevents-populatecontextnode.md
+          - name: "StrokeReparented Event"
+            href: -ianalysisproxyevents-strokereparented.md
+      - name: "Ink Analysis Structures"
+        href: ink-analysis-structures.md
+        items: 
+        - name: "InkAnalysisRecognizerGuide Structure"
+          href: inkanalysisrecognizerguide.md
+    - name: "InkEdit Control Reference"
+      href: inkedit-control-reference.md
+      items: 
+      - name: "InkEdit Events"
+        href: inkedit-events.md
+        items: 
+        - name: "Change Event"
+          href: inkedit-change.md
+        - name: "Click Event"
+          href: inkedit-click.md
+        - name: "DblClick Event"
+          href: inkedit-dblclick.md
+        - name: "Gesture Event [InkEdit Control"
+          href: inkedit-gesture.md
+        - name: "KeyDown Event [InkEdit Control"
+          href: inkedit-keydown.md
+        - name: "KeyPress Event [InkEdit Control"
+          href: inkedit-keypress.md
+        - name: "KeyUp Event [InkEdit Control"
+          href: inkedit-keyup.md
+        - name: "MouseDown Event [InkEdit Control"
+          href: inkedit-mousedown.md
+        - name: "MouseMove Event [InkEdit Control"
+          href: inkedit-mousemove.md
+        - name: "MouseUp Event [InkEdit Control"
+          href: inkedit-mouseup.md
+        - name: "RecognitionResult Event"
+          href: inkedit-recognitionresult.md
+        - name: "SelChange Event"
+          href: inkedit-selchange.md
+        - name: "Stroke Event [InkEdit Control"
+          href: inkedit-stroke.md
+        - name: "GetGestureStatus Method [InkEdit Control"
+          href: /windows/desktop/api/inked/nf-inked-iinkedit-getgesturestatus
+        - name: "Recognize Method [InkEdit Control"
+          href: /windows/desktop/api/inked/nf-inked-iinkedit-recognize
+        - name: "Refresh Method [InkEdit Control"
+          href: /windows/desktop/api/inked/nf-inked-iinkedit-refresh
+        - name: "SetGestureStatus Method [InkEdit Control"
+          href: /windows/desktop/api/inked/nf-inked-iinkedit-setgesturestatus
+        - name: "Appearance Property"
+          href: /windows/desktop/api/inked/nf-inked-iinkedit-get_appearance
+        - name: "BackColor Property"
+          href: /windows/desktop/api/inked/nf-inked-iinkedit-get_backcolor
+        - name: "BorderStyle Property"
+          href: /windows/desktop/api/inked/nf-inked-iinkedit-get_borderstyle
+        - name: "DisableNoScroll Property"
+          href: /windows/desktop/api/inked/nf-inked-iinkedit-get_disablenoscroll
+        - name: "DrawingAttributes Property [InkEdit Control"
+          href: /windows/desktop/api/inked/nf-inked-iinkedit-get_drawingattributes
+        - name: "Enabled Property"
+          href: /windows/desktop/api/inked/nf-inked-iinkedit-get_enabled
+        - name: "Factoid Property [InkEdit Control"
+          href: /windows/desktop/api/inked/nf-inked-iinkedit-get_factoid
+        - name: "Font Property"
+          href: /windows/desktop/api/inked/nf-inked-iinkedit-get_font
+        - name: "hWnd Property"
+          href: /windows/desktop/api/inked/nf-inked-iinkedit-get_hwnd
+        - name: "InkInsertMode Property"
+          href: /windows/desktop/api/inked/nf-inked-iinkedit-get_inkinsertmode
+        - name: "InkMode Property"
+          href: /windows/desktop/api/inked/nf-inked-iinkedit-get_inkmode
+        - name: "Locked Property"
+          href: /windows/desktop/api/inked/nf-inked-iinkedit-get_locked
+        - name: "MaxLength Property"
+          href: /windows/desktop/api/inked/nf-inked-iinkedit-get_maxlength
+        - name: "MouseIcon Property"
+          href: /windows/desktop/api/inked/nf-inked-iinkedit-get_mouseicon
+        - name: "MousePointer Property"
+          href: /windows/desktop/api/inked/nf-inked-iinkedit-get_mousepointer
+        - name: "MultiLine Property"
+          href: /windows/desktop/api/inked/nf-inked-iinkedit-get_multiline
+        - name: "RecoTimeout Property"
+          href: /windows/desktop/api/inked/nf-inked-iinkedit-get_recognitiontimeout
+        - name: "Recognizer Property [InkEdit Control"
+          href: /windows/desktop/api/inked/nf-inked-iinkedit-get_recognizer
+        - name: "ScrollBars Property"
+          href: /windows/desktop/api/inked/nf-inked-iinkedit-get_scrollbars
+        - name: "SelAlignment Property"
+          href: /windows/desktop/api/inked/nf-inked-iinkedit-get_selalignment
+        - name: "SelBold Property"
+          href: /windows/desktop/api/inked/nf-inked-iinkedit-get_selbold
+        - name: "SelCharOffset Property"
+          href: /windows/desktop/api/inked/nf-inked-iinkedit-get_selcharoffset
+        - name: "SelColor Property"
+          href: /windows/desktop/api/inked/nf-inked-iinkedit-get_selcolor
+        - name: "SelFontName Property"
+          href: /windows/desktop/api/inked/nf-inked-iinkedit-get_selfontname
+        - name: "SelFontSize Property"
+          href: /windows/desktop/api/inked/nf-inked-iinkedit-get_selfontsize
+        - name: "SelInks Property"
+          href: /windows/desktop/api/inked/nf-inked-iinkedit-get_selinks
+        - name: "SelInksDisplayMode Property"
+          href: /windows/desktop/api/inked/nf-inked-iinkedit-get_selinksdisplaymode
+        - name: "SelItalic Property"
+          href: /windows/desktop/api/inked/nf-inked-iinkedit-get_selitalic
+        - name: "SelLength Property"
+          href: /windows/desktop/api/inked/nf-inked-iinkedit-get_sellength
+        - name: "SelRTF Property"
+          href: /windows/desktop/api/inked/nf-inked-iinkedit-get_selrtf
+        - name: "SelStart Property"
+          href: /windows/desktop/api/inked/nf-inked-iinkedit-get_selstart
+        - name: "SelText Property"
+          href: /windows/desktop/api/inked/nf-inked-iinkedit-get_seltext
+        - name: "SelUnderline Property"
+          href: /windows/desktop/api/inked/nf-inked-iinkedit-get_selunderline
+        - name: "Status Property"
+          href: /windows/desktop/api/inked/nf-inked-iinkedit-get_status
+        - name: "Text Property"
+          href: /windows/desktop/api/inked/nf-inked-iinkedit-get_text
+        - name: "TextRTF Property"
+          href: /windows/desktop/api/inked/nf-inked-iinkedit-get_textrtf
+        - name: "UseMouseForInput Property"
+          href: /windows/desktop/api/inked/nf-inked-iinkedit-get_usemouseforinput
+      - name: "InkEdit Enumerations"
+        href: inkedit-enumerations.md
+        items: 
+        - name: "AppearanceConstants Enumeration"
+          href: /windows/desktop/api/inked/ne-inked-appearanceconstants
+        - name: "BorderStyleConstants Enumeration"
+          href: /windows/desktop/api/inked/ne-inked-borderstyleconstants
+        - name: "InkDisplayMode Enumeration"
+          href: /windows/desktop/api/inked/ne-inked-inkdisplaymode
+        - name: "InkEditStatus Enumeration"
+          href: /windows/desktop/api/inked/ne-inked-inkeditstatus
+        - name: "InkInsertMode Enumeration"
+          href: /windows/desktop/api/inked/ne-inked-inkinsertmode
+        - name: "InkMode Enumeration"
+          href: /windows/desktop/api/inked/ne-inked-inkmode
+        - name: "MouseButton Enumeration"
+          href: /windows/desktop/api/inked/ne-inked-mousebutton
+        - name: "ScrollBarsConstants Enumeration"
+          href: /windows/desktop/api/inked/ne-inked-scrollbarsconstants
+        - name: "SelAlignmentConstants Enumeration"
+          href: /windows/desktop/api/inked/ne-inked-selalignmentconstants
+      - name: "InkEdit Messages"
+        href: inkedit-messages.md
+        items: 
+        - name: "InkEdit Messages (Win32 Only)"
+          href: inkedit-messages--win32-only-.md
+      - name: "InkEdit Methods"
+        href: inkedit-methods.md
+      - name: "InkEdit Properties"
+        href: inkedit-properties.md
+      - name: "InkEdit Structures"
+        href: inkedit-structures.md
+        items: 
+        - name: "IEC_GESTUREINFO Structure (Win32 Only)"
+          href: /windows/desktop/api/inked/ns-inked-iec_gestureinfo
+        - name: "IEC_RECOGNITIONRESULTINFO Structure (Win32 Only)"
+          href: /windows/desktop/api/inked/ns-inked-iec_recognitionresultinfo
+        - name: "IEC_STROKEINFO Structure (Win32 Only)"
+          href: /windows/desktop/api/inked/ns-inked-iec_strokeinfo
+    - name: "InkPicture Control Reference"
+      href: inkpicture-control-reference.md
+      items: 
+      - name: "InkPicture Enumerations"
+        href: inkpicture-enumerations.md
+        items: 
+        - name: "InkPictureSizeMode Enumeration"
+          href: /windows/desktop/api/msinkaut/ne-msinkaut-inkpicturesizemode
+      - name: "InkPicture Events"
+        href: inkpicture-events.md
+        items: 
+        - name: "Click Event"
+          href: inkpicture-click.md
+        - name: "CursorButtonDown Event"
+          href: inkpicture-cursorbuttondown.md
+        - name: "CursorButtonUp Event"
+          href: inkpicture-cursorbuttonup.md
+        - name: "CursorDown Event"
+          href: inkpicture-cursordown.md
+        - name: "CursorInRange Event"
+          href: inkpicture-cursorinrange.md
+        - name: "CursorOutOfRange Event"
+          href: inkpicture-cursoroutofrange.md
+        - name: "DblClick Event"
+          href: inkpicture-dblclick.md
+        - name: "Gesture Event"
+          href: inkpicture-gesture.md
+        - name: "KeyDown Event"
+          href: inkpicture-keydown.md
+        - name: "KeyPress Event"
+          href: inkpicture-keypress.md
+        - name: "KeyUp Event"
+          href: inkpicture-keyup.md
+        - name: "MouseDown Event"
+          href: inkpicture-mousedown.md
+        - name: "MouseEnter Event"
+          href: inkpicture-mouseenter.md
+        - name: "MouseHover Event"
+          href: inkpicture-mousehover.md
+        - name: "MouseLeave Event"
+          href: inkpicture-mouseleave.md
+        - name: "MouseMove Event"
+          href: inkpicture-mousemove.md
+        - name: "MouseUp Event"
+          href: inkpicture-mouseup.md
+        - name: "MouseWheel Event"
+          href: inkpicture-mousewheel.md
+        - name: "NewInAirPackets Event"
+          href: inkpicture-newinairpackets.md
+        - name: "NewPackets Event"
+          href: inkpicture-newpackets.md
+        - name: "Painted Event"
+          href: inkpicture-painted.md
+        - name: "Painting Event"
+          href: inkpicture-painting.md
+        - name: "Resize Event"
+          href: inkpicture-resize.md
+        - name: "SelectionChanged Event"
+          href: inkpicture-selectionchanged.md
+        - name: "SelectionChanging Event"
+          href: inkpicture-selectionchanging.md
+        - name: "SelectionMoved Event"
+          href: inkpicture-selectionmoved.md
+        - name: "SelectionMoving Event"
+          href: inkpicture-selectionmoving.md
+        - name: "SelectionResized Event"
+          href: inkpicture-selectionresized.md
+        - name: "SelectionResizing Event"
+          href: inkpicture-selectionresizing.md
+        - name: "SizeChanged Event"
+          href: inkpicture-sizechanged.md
+        - name: "SizeModeChanged Event"
+          href: inkpicture-sizemodechanged.md
+        - name: "Stroke Event"
+          href: inkpicture-stroke.md
+        - name: "StrokesAdded Event"
+          href: inkpicture-strokesadded.md
+        - name: "StrokesDeleted Event"
+          href: inkpicture-strokesdeleted.md
+        - name: "StrokesDeleting Event"
+          href: inkpicture-strokesdeleting.md
+        - name: "SystemColorsChanged Event"
+          href: inkpicture-systemcolorschanged.md
+        - name: "SystemGesture Event"
+          href: inkpicture-systemgesture.md
+        - name: "TabletAdded Event"
+          href: inkpicture-tabletadded.md
+        - name: "TabletRemoved Event"
+          href: inkpicture-tabletremoved.md
+      - name: "InkPicture Methods"
+        href: inkpicture-methods.md
+        items: 
+        - name: "GetEventInterest Method"
+          href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-geteventinterest
+        - name: "GetGestureStatus Method"
+          href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-getgesturestatus
+        - name: "GetWindowInputRectangle Method"
+          href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-getwindowinputrectangle
+        - name: "HitTestSelection Method"
+          href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-hittestselection
+        - name: "SetAllTabletsMode Method"
+          href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-setalltabletsmode
+        - name: "SetEventInterest Method"
+          href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-seteventinterest
+        - name: "SetGestureStatus Method"
+          href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-setgesturestatus
+        - name: "SetSingleTabletIntegratedMode Method"
+          href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-setsingletabletintegratedmode
+        - name: "SetWindowInputRectangle Method"
+          href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-setwindowinputrectangle
+      - name: "InkPicture Properties"
+        href: inkpicture-properties.md
+        items: 
+        - name: "AutoRedraw Property"
+          href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_autoredraw
+        - name: "BackColor Property"
+          href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_backcolor
+        - name: "CollectingInk Property"
+          href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_collectingink
+        - name: "CollectionMode Property [InkPicture Control"
+          href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_collectionmode
+        - name: "Cursors Property"
+          href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_cursors
+        - name: "CustomStrokes Property [InkPicture Control"
+          href: /previous-versions/windows/desktop/legacy/ms703274(v=vs.85)
+        - name: "DefaultDrawingAttributes Property"
+          href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_defaultdrawingattributes
+        - name: "DesiredPacketDescription Property"
+          href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_desiredpacketdescription
+        - name: "DynamicRendering Property"
+          href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_dynamicrendering
+        - name: "EditingMode Property [InkPicture Control"
+          href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_editingmode
+        - name: "EraserMode Property [InkPicture Control"
+          href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_erasermode
+        - name: "Enabled Property [InkPicture Control"
+          href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_enabled
+        - name: "EraserWidth Property [InkPicture Control"
+          href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_eraserwidth
+        - name: "hWnd Property"
+          href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_hwnd
+        - name: "Ink Property [InkPicture Control"
+          href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_ink
+        - name: "InkEnabled Property"
+          href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_inkenabled
+        - name: "MarginX Property"
+          href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_marginx
+        - name: "MarginY Property"
+          href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_marginy
+        - name: "MouseIcon Property"
+          href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_mouseicon
+        - name: "MousePointer Property"
+          href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_mousepointer
+        - name: "Picture Property"
+          href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_picture
+        - name: "Renderer Property"
+          href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_renderer
+        - name: "Selection Property [InkPicture Control"
+          href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_selection
+        - name: "SizeMode Property"
+          href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_sizemode
+        - name: "SupportHighContrastInk Property"
+          href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_supporthighcontrastink
+        - name: "SupportHighContrastSelectionUI Property [InkPicture Control"
+          href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_supporthighcontrastselectionui
+        - name: "Tablet Property"
+          href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_tablet
+    - name: "Journal Reader Component Reference"
+      href: journal-reader-component-reference.md
+      items: 
+      - name: "Journal Reader Component Classes and Interfaces"
+        href: journal-reader-component-classes-and-interfaces.md
+        items: 
+        - name: "IJournalReader Interface"
+          href: ijournalreader.md
+          items: 
+          - name: "ReadFromStream Method"
+            href: ijournalreader-readfromstream.md
+      - name: "Journal Reader GUIDs"
+        href: journal-reader-guids.md
+        items: 
+        - name: "Custom Property GUIDs"
+          href: custom-property-guids.md
+    - name: "Math Input Control Reference"
+      href: math-input-control-reference.md
+      items: 
+      - name: "Math Input Classes and Interfaces"
+        href: mic-classes-and-interfaces.md
+        items: 
+        - name: "_IMathInputControlEvents"
+          href: /windows/desktop/api/micaut/nn-micaut-_imathinputcontrolevents
+          items: 
+          - name: "Clear Method"
+            href: /previous-versions/windows/desktop/legacy/dd317350(v=vs.85)
+          - name: "Close Method"
+            href: /previous-versions/windows/desktop/legacy/dd317351(v=vs.85)
+          - name: "Insert Method"
+            href: /previous-versions/windows/desktop/legacy/dd317352(v=vs.85)
+          - name: "Paint Method"
+            href: /previous-versions/windows/desktop/legacy/dd317353(v=vs.85)
+        - name: "IMathInputControl"
+          href: /windows/desktop/api/micaut/nn-micaut-imathinputcontrol
+          items: 
+          - name: "AddFunctionName Method"
+            href: /windows/desktop/api/micaut/nf-micaut-imathinputcontrol-addfunctionname
+          - name: "Clear Method"
+            href: /windows/desktop/api/micaut/nf-micaut-imathinputcontrol-clear
+          - name: "EnableAutoGrow Method"
+            href: /windows/desktop/api/micaut/nf-micaut-imathinputcontrol-enableautogrow
+          - name: "EnableExtendedButtons Method"
+            href: /windows/desktop/api/micaut/nf-micaut-imathinputcontrol-enableextendedbuttons
+          - name: "GetHoverIcon Method"
+            href: /windows/desktop/api/micaut/nf-micaut-imathinputcontrol-gethovericon
+          - name: "GetPosition Method"
+            href: /windows/desktop/api/micaut/nf-micaut-imathinputcontrol-getposition
+          - name: "GetPreviewHeight Method"
+            href: /windows/desktop/api/micaut/nf-micaut-imathinputcontrol-getpreviewheight
+          - name: "Hide Method"
+            href: /windows/desktop/api/micaut/nf-micaut-imathinputcontrol-hide
+          - name: "IsVisible Method"
+            href: /windows/desktop/api/micaut/nf-micaut-imathinputcontrol-isvisible
+          - name: "LoadInk Method"
+            href: /windows/desktop/api/micaut/nf-micaut-imathinputcontrol-loadink
+          - name: "RemoveFunctionName Method"
+            href: /windows/desktop/api/micaut/nf-micaut-imathinputcontrol-removefunctionname
+          - name: "SetCaptionText Method"
+            href: /windows/desktop/api/micaut/nf-micaut-imathinputcontrol-setcaptiontext
+          - name: "SetCustomPaint Method"
+            href: /windows/desktop/api/micaut/nf-micaut-imathinputcontrol-setcustompaint
+          - name: "SetOwnerWindow Method"
+            href: /windows/desktop/api/micaut/nf-micaut-imathinputcontrol-setownerwindow
+          - name: "SetPosition Method"
+            href: /windows/desktop/api/micaut/nf-micaut-imathinputcontrol-setposition
+          - name: "SetPreviewHeight Method"
+            href: /windows/desktop/api/micaut/nf-micaut-imathinputcontrol-setpreviewheight
+          - name: "Show Method"
+            href: /windows/desktop/api/micaut/nf-micaut-imathinputcontrol-show
+      - name: "Math Input Enumerations"
+        href: mip-enumerations.md
+        items: 
+        - name: "MICUIELEMENT Enumeration"
+          href: /windows/win32/api/micaut/ne-micaut-micuielement
+        - name: "MICUIELEMENTSTATE Enumeration"
+          href: /windows/win32/api/micaut/ne-micaut-micuielementstate
+    - name: "RealTimeStylus Reference"
+      href: realtimestylus-reference.md
+      items: 
+      - name: "RealTimeStylus Classes and Interfaces"
+        href: realtimestylus-classes-and-interfaces.md
+        items: 
+        - name: "DynamicRenderer Class"
+          href: /previous-versions/windows/desktop/legacy/ms701168(v=vs.85)
+        - name: "GestureRecognizer Class"
+          href: gesturerecognizer-class.md
+        - name: "IDynamicRenderer Interface"
+          href: /windows/desktop/api/RTSCom/nn-rtscom-idynamicrenderer
+          items: 
+          - name: "ClipRectangle Property"
+            href: /windows/desktop/api/RTSCom/nf-rtscom-idynamicrenderer-get_cliprectangle
+          - name: "ClipRegion Property"
+            href: /windows/desktop/api/RTSCom/nf-rtscom-idynamicrenderer-get_clipregion
+          - name: "DataCacheEnabled"
+            href: /windows/desktop/api/RTSCom/nf-rtscom-idynamicrenderer-get_datacacheenabled
+          - name: "Draw Method Property"
+            href: /windows/desktop/api/RTSCom/nf-rtscom-idynamicrenderer-draw
+          - name: "DrawingAttributes Property"
+            href: /windows/desktop/api/RTSCom/nf-rtscom-idynamicrenderer-get_drawingattributes
+          - name: "Enabled Property"
+            href: /windows/desktop/api/RTSCom/nf-rtscom-idynamicrenderer-get_enabled
+          - name: "HWND Property"
+            href: /windows/desktop/api/RTSCom/nf-rtscom-idynamicrenderer-get_hwnd
+          - name: "Refresh Method"
+            href: /windows/desktop/api/RTSCom/nf-rtscom-idynamicrenderer-refresh
+          - name: "ReleaseCachedData Method"
+            href: /windows/desktop/api/RTSCom/nf-rtscom-idynamicrenderer-releasecacheddata
+        - name: "IGestureRecognizer Interface"
+          href: /windows/desktop/api/RTSCom/nn-rtscom-igesturerecognizer
+          items: 
+          - name: "EnableGestures Method"
+            href: /windows/desktop/api/RTSCom/nf-rtscom-igesturerecognizer-enablegestures
+          - name: "Enabled Property"
+            href: /windows/desktop/api/RTSCom/nf-rtscom-igesturerecognizer-get_enabled
+          - name: "MaxStrokeCount Property"
+            href: /windows/desktop/api/RTSCom/nf-rtscom-igesturerecognizer-get_maxstrokecount
+          - name: "Reset Method"
+            href: /windows/desktop/api/RTSCom/nf-rtscom-igesturerecognizer-reset
+        - name: "IRealTimeStylus Interface"
+          href: /windows/desktop/api/RTSCom/nn-rtscom-irealtimestylus
+          items: 
+          - name: "AddCustomStylusDataToQueue Method"
+            href: /windows/desktop/api/RTSCom/nf-rtscom-irealtimestylus-addcustomstylusdatatoqueue
+          - name: "AddStylusAsyncPlugin Method"
+            href: /windows/desktop/api/RTSCom/nf-rtscom-irealtimestylus-addstylusasyncplugin
+          - name: "AddStylusSyncPlugin Method"
+            href: /windows/desktop/api/RTSCom/nf-rtscom-irealtimestylus-addstylussyncplugin
+          - name: "ChildRealTimeStylusPlugin Property"
+            href: /windows/desktop/api/RTSCom/nf-rtscom-irealtimestylus-get_childrealtimestylusplugin
+          - name: "ClearStylusQueues Method"
+            href: /windows/desktop/api/RTSCom/nf-rtscom-irealtimestylus-clearstylusqueues
+          - name: "Enabled Property Method"
+            href: /windows/desktop/api/RTSCom/nf-rtscom-irealtimestylus-get_enabled
+          - name: "GetAllTabletContextIds Method"
+            href: /windows/desktop/api/RTSCom/nf-rtscom-irealtimestylus-getalltabletcontextids
+          - name: "GetDesiredPacketDescription Method"
+            href: /windows/desktop/api/RTSCom/nf-rtscom-irealtimestylus-getdesiredpacketdescription
+          - name: "GetPacketDescriptionData Method"
+            href: /windows/desktop/api/RTSCom/nf-rtscom-irealtimestylus-getpacketdescriptiondata
+          - name: "GetStylusAsyncPlugin Method"
+            href: /windows/desktop/api/RTSCom/nf-rtscom-irealtimestylus-getstylusasyncplugin
+          - name: "GetStylusAsyncPluginCoun Methodt"
+            href: /windows/desktop/api/RTSCom/nf-rtscom-irealtimestylus-getstylusasyncplugincount
+          - name: "GetStyluses Method"
+            href: /windows/desktop/api/RTSCom/nf-rtscom-irealtimestylus-getstyluses
+          - name: "GetStylusForId Method"
+            href: /windows/desktop/api/RTSCom/nf-rtscom-irealtimestylus-getstylusforid
+          - name: "GetStylusSyncPlugin Method"
+            href: /windows/desktop/api/RTSCom/nf-rtscom-irealtimestylus-getstylussyncplugin
+          - name: "GetStylusSyncPluginCount Method"
+            href: /windows/desktop/api/RTSCom/nf-rtscom-irealtimestylus-getstylussyncplugincount
+          - name: "GetTablet Method"
+            href: /windows/desktop/api/RTSCom/nf-rtscom-irealtimestylus-gettablet
+          - name: "GetTabletContextIdFromTablet Method"
+            href: /windows/desktop/api/RTSCom/nf-rtscom-irealtimestylus-gettabletcontextidfromtablet
+          - name: "GetTabletFromTabletContextId Method"
+            href: /windows/desktop/api/RTSCom/nf-rtscom-irealtimestylus-gettabletfromtabletcontextid
+          - name: "HWND Property"
+            href: /windows/desktop/api/RTSCom/nf-rtscom-irealtimestylus-get_hwnd
+          - name: "RemoveAllStylusAsyncPlugins Method"
+            href: /windows/desktop/api/RTSCom/nf-rtscom-irealtimestylus-removeallstylusasyncplugins
+          - name: "RemoveAllStylusSyncPlugins Method"
+            href: /windows/desktop/api/RTSCom/nf-rtscom-irealtimestylus-removeallstylussyncplugins
+          - name: "RemoveStylusAsyncPlugin Method"
+            href: /windows/desktop/api/RTSCom/nf-rtscom-irealtimestylus-removestylusasyncplugin
+          - name: "RemoveStylusSyncPlugin Method"
+            href: /windows/desktop/api/RTSCom/nf-rtscom-irealtimestylus-removestylussyncplugin
+          - name: "SetAllTabletsMode Method"
+            href: /windows/desktop/api/RTSCom/nf-rtscom-irealtimestylus-setalltabletsmode
+          - name: "SetDesiredPacketDescription Method"
+            href: /windows/desktop/api/RTSCom/nf-rtscom-irealtimestylus-setdesiredpacketdescription
+          - name: "SetSingleTabletMode Method"
+            href: /windows/desktop/api/RTSCom/nf-rtscom-irealtimestylus-setsingletabletmode
+          - name: "WindowInputRectangle Property"
+            href: /windows/desktop/api/RTSCom/nf-rtscom-irealtimestylus-get_windowinputrectangle
+        - name: "IRealTimeStylus2 Interface"
+          href: /windows/desktop/api/RTSCom/nn-rtscom-irealtimestylus2
+          items: 
+          - name: "get_FlicksEnabled Method"
+            href: /windows/desktop/api/RTSCom/nf-rtscom-irealtimestylus2-get_flicksenabled
+          - name: "put_FlicksEnabled Method"
+            href: /windows/desktop/api/RTSCom/nf-rtscom-irealtimestylus2-put_flicksenabled
+        - name: "IRealTimeStylus3"
+          href: /windows/desktop/api/rtscom/nn-rtscom-irealtimestylus3
+          items: 
+          - name: "MultiTouchEnabled Property"
+            href: /windows/desktop/api/rtscom/nf-rtscom-irealtimestylus3-get_multitouchenabled
+        - name: "IRealTimeStylusSynchronization Interface"
+          href: /windows/desktop/api/RTSCom/nn-rtscom-irealtimestylussynchronization
+          items: 
+          - name: "AcquireLock Method"
+            href: /windows/desktop/api/RTSCom/nf-rtscom-irealtimestylussynchronization-acquirelock
+          - name: "ReleaseLock Method"
+            href: /windows/desktop/api/RTSCom/nf-rtscom-irealtimestylussynchronization-releaselock
+        - name: "IStrokeBuilder Interface"
+          href: /windows/desktop/api/RTSCom/nn-rtscom-istrokebuilder
+          items: 
+          - name: "AppendPackets Method"
+            href: /windows/desktop/api/RTSCom/nf-rtscom-istrokebuilder-appendpackets
+          - name: "BeginStroke Method"
+            href: /windows/desktop/api/RTSCom/nf-rtscom-istrokebuilder-beginstroke
+          - name: "CreateStroke Method"
+            href: /windows/desktop/api/RTSCom/nf-rtscom-istrokebuilder-createstroke
+          - name: "EndStroke Method"
+            href: /windows/desktop/api/RTSCom/nf-rtscom-istrokebuilder-endstroke
+          - name: "Ink Property"
+            href: /windows/desktop/api/RTSCom/nf-rtscom-istrokebuilder-get_ink
+        - name: "IStylusAsyncPlugin Interface"
+          href: /windows/desktop/api/rtscom/nn-rtscom-istylusasyncplugin
+        - name: "IStylusPlugin Interface"
+          href: /windows/desktop/api/RTSCom/nn-rtscom-istylusplugin
+          items: 
+          - name: "CustomStylusDataAdded Method"
+            href: /windows/desktop/api/RTSCom/nf-rtscom-istylusplugin-customstylusdataadded
+          - name: "DataInteres Methodt"
+            href: /windows/desktop/api/RTSCom/nf-rtscom-istylusplugin-datainterest
+          - name: "Error Method"
+            href: /windows/desktop/api/RTSCom/nf-rtscom-istylusplugin-error
+          - name: "InAirPackets Method"
+            href: /windows/desktop/api/RTSCom/nf-rtscom-istylusplugin-inairpackets
+          - name: "Packets Method"
+            href: /windows/desktop/api/RTSCom/nf-rtscom-istylusplugin-packets
+          - name: "RealTimeStylusEnabled Method"
+            href: /windows/desktop/api/RTSCom/nf-rtscom-istylusplugin-realtimestylusenabled
+          - name: "RealTimeStylusDisabled Method"
+            href: /windows/desktop/api/RTSCom/nf-rtscom-istylusplugin-realtimestylusdisabled
+          - name: "StylusButtonDown Method"
+            href: /windows/desktop/api/RTSCom/nf-rtscom-istylusplugin-stylusbuttondown
+          - name: "StylusButtonUp Method"
+            href: /windows/desktop/api/RTSCom/nf-rtscom-istylusplugin-stylusbuttonup
+          - name: "StylusDown Method"
+            href: /windows/desktop/api/RTSCom/nf-rtscom-istylusplugin-stylusdown
+          - name: "SystemEvent Method"
+            href: /windows/desktop/api/RTSCom/nf-rtscom-istylusplugin-systemevent
+          - name: "StylusInRange Method"
+            href: /windows/desktop/api/RTSCom/nf-rtscom-istylusplugin-stylusinrange
+          - name: "StylusOutOfRange Method"
+            href: /windows/desktop/api/RTSCom/nf-rtscom-istylusplugin-stylusoutofrange
+          - name: "StylusUp Method"
+            href: /windows/desktop/api/RTSCom/nf-rtscom-istylusplugin-stylusup
+          - name: "TabletAdded Method"
+            href: /windows/desktop/api/RTSCom/nf-rtscom-istylusplugin-tabletadded
+          - name: "TabletRemoved Method"
+            href: /windows/desktop/api/RTSCom/nf-rtscom-istylusplugin-tabletremoved
+          - name: "UpdateMapping Method"
+            href: /windows/desktop/api/RTSCom/nf-rtscom-istylusplugin-updatemapping
+        - name: "IStylusSyncPlugin Interface"
+          href: /windows/desktop/api/rtscom/nn-rtscom-istylussyncplugin
+        - name: "RealTimeStylus Class"
+          href: realtimestylus-class.md
+        - name: "StrokeBuilder Class"
+          href: strokebuilder-class.md
+      - name: "RealTimeStylus Enumerations"
+        href: realtimestylus-enumerations.md
+        items: 
+        - name: "RealTimeStylusDataInterest Enumerations"
+          href: /windows/desktop/api/RTSCom/ne-rtscom-realtimestylusdatainterest
+        - name: "RealTimeStylusLockType Enumerations"
+          href: /windows/desktop/api/RTSCom/ne-rtscom-realtimestyluslocktype
+        - name: "StylusQueue Enumerations"
+          href: /windows/desktop/api/RTSCom/ne-rtscom-stylusqueue
+      - name: "RealTimeStylus Structures"
+        href: realtimestylus-structures.md
+        items: 
+        - name: "StylusInfo Structure"
+          href: /windows/desktop/api/RTSCom/ns-rtscom-stylusinfo
+        - name: "SYSTEM_EVENT_DATA Structure"
+          href: /windows/win32/api/tpcshrd/ns-tpcshrd-system_event_data
+    - name: "Recognizer Reference"
+      href: recognizer-apis.md
+      items: 
+      - name: "HRECOALT Handle"
+        href: hrecoalt-handle.md
+        items: 
+        - name: "DestroyAlternate Function"
+          href: /windows/desktop/api/recapis/nf-recapis-destroyalternate
+        - name: "GetConfidenceLevel Function"
+          href: /previous-versions/windows/desktop/legacy/ms704829(v=vs.85)
+        - name: "GetGuideIndex Function"
+          href: /previous-versions/windows/desktop/legacy/ms701152(v=vs.85)
+        - name: "GetMetrics Function"
+          href: /previous-versions/windows/desktop/legacy/ms695560(v=vs.85)
+        - name: "GetPropertyRanges Function"
+          href: /previous-versions/windows/desktop/legacy/ms695602(v=vs.85)
+        - name: "GetSegmentAlternateList Function"
+          href: /previous-versions/windows/desktop/legacy/ms701702(v=vs.85)
+        - name: "GetString Function"
+          href: /previous-versions/windows/desktop/legacy/ms704890(v=vs.85)
+        - name: "GetStrokeRanges Function"
+          href: /previous-versions/windows/desktop/legacy/ms705304(v=vs.85)
+      - name: "HRECOCONTEXT Handle"
+        href: hrecocontext-handle.md
+        items: 
+        - name: "AddStroke Function"
+          href: /windows/desktop/api/recapis/nf-recapis-addstroke
+        - name: "AdviseInkChange Function"
+          href: /windows/desktop/api/recapis/nf-recapis-adviseinkchange
+        - name: "CloneContext Function"
+          href: /windows/desktop/api/recapis/nf-recapis-clonecontext
+        - name: "EndInkInput Function"
+          href: /windows/desktop/api/recapis/nf-recapis-endinkinput
+        - name: "GetAlternateList Function"
+          href: /previous-versions/windows/desktop/legacy/ms698163(v=vs.85)
+        - name: "GetBestAlternate Function"
+          href: /previous-versions/windows/desktop/legacy/ms699575(v=vs.85)
+        - name: "GetBestResultString Function"
+          href: /windows/desktop/api/recapis/nf-recapis-getbestresultstring
+        - name: "GetContextPreferenceFlags"
+          href: /windows/desktop/api/recapis/nf-recapis-getcontextpreferenceflags
+        - name: "GetContextPropertyList Function"
+          href: /windows/desktop/api/recapis/nf-recapis-getcontextpropertylist
+        - name: "GetContextPropertyValue Function"
+          href: /windows/desktop/api/recapis/nf-recapis-getcontextpropertyvalue
+        - name: "GetEnabledUnicodeRanges Function"
+          href: /windows/desktop/api/recapis/nf-recapis-getenabledunicoderanges
+        - name: "GetGuide Function"
+          href: /windows/desktop/api/recapis/nf-recapis-getguide
+        - name: "GetLatticePtr Function"
+          href: /windows/desktop/api/recapis/nf-recapis-getlatticeptr
+        - name: "GetLeftSeparator"
+          href: /windows/desktop/api/recapis/nf-recapis-getleftseparator
+        - name: "GetRightSeparator"
+          href: /windows/desktop/api/recapis/nf-recapis-getrightseparator
+        - name: "IsStringSupported Function"
+          href: /windows/desktop/api/recapis/nf-recapis-isstringsupported
+        - name: "Process Function"
+          href: /windows/desktop/api/recapis/nf-recapis-process
+        - name: "ResetContext Function"
+          href: /windows/desktop/api/recapis/nf-recapis-resetcontext
+        - name: "SetCACMode Function"
+          href: /windows/desktop/api/recapis/nf-recapis-setcacmode
+        - name: "SetContextPropertyValue Function"
+          href: /windows/desktop/api/recapis/nf-recapis-setcontextpropertyvalue
+        - name: "SetEnabledUnicodeRanges Function"
+          href: /windows/desktop/api/recapis/nf-recapis-setenabledunicoderanges
+        - name: "SetFactoid Function"
+          href: /windows/desktop/api/recapis/nf-recapis-setfactoid
+        - name: "SetFlags Function"
+          href: /windows/desktop/api/recapis/nf-recapis-setflags
+        - name: "SetGuide Function"
+          href: /windows/desktop/api/recapis/nf-recapis-setguide
+        - name: "SetTextContext Function"
+          href: /windows/desktop/api/recapis/nf-recapis-settextcontext
+        - name: "SetWordList Function"
+          href: /windows/desktop/api/recapis/nf-recapis-setwordlist
+      - name: "HRECOGNIZER Handle"
+        href: hrecognizer-handle.md
+        items: 
+        - name: "CreateContext Function"
+          href: /windows/desktop/api/recapis/nf-recapis-createcontext
+        - name: "CreateRecognizer Function"
+          href: /windows/desktop/api/recapis/nf-recapis-createrecognizer
+        - name: "DestroyContext Function"
+          href: /windows/desktop/api/recapis/nf-recapis-destroycontext
+        - name: "DestroyRecognizer Function"
+          href: /windows/desktop/api/recapis/nf-recapis-destroyrecognizer
+        - name: "GetAllRecognizers"
+          href: /windows/desktop/api/recapis/nf-recapis-getallrecognizers
+        - name: "GetPreferredPacketDescription Function"
+          href: /windows/desktop/api/recapis/nf-recapis-getpreferredpacketdescription
+        - name: "GetRecoAttributes Function"
+          href: /windows/desktop/api/recapis/nf-recapis-getrecoattributes
+        - name: "GetResultPropertyList Function"
+          href: /windows/desktop/api/recapis/nf-recapis-getresultpropertylist
+        - name: "GetUnicodeRanges Function"
+          href: /windows/desktop/api/recapis/nf-recapis-getunicoderanges
+        - name: "LoadCachedAttributes"
+          href: /windows/desktop/api/recapis/nf-recapis-loadcachedattributes
+      - name: "HRECOWORDLIST Handle"
+        href: hrecowordlist-handle.md
+        items: 
+        - name: "AddWordsToWordList Function"
+          href: /windows/desktop/api/recapis/nf-recapis-addwordstowordlist
+        - name: "DestroyWordList Function"
+          href: /windows/desktop/api/recapis/nf-recapis-destroywordlist
+        - name: "MakeWordList Function"
+          href: /windows/desktop/api/recapis/nf-recapis-makewordlist
+      - name: "Recognizer Enumerations"
+        href: recognizer-api-enumerations.md
+        items: 
+        - name: "ALT_BREAKS Enumeration"
+          href: /windows/win32/api/rectypes/ne-rectypes-alt_breaks
+        - name: "CONFIDENCE_LEVEL Enumeration"
+          href: /windows/win32/api/rectypes/ne-rectypes-confidence_level
+        - name: "LINE_METRICS Enumeration"
+          href: /windows/win32/api/rectypes/ne-rectypes-line_metrics
+        - name: "PROPERTY_UNITS Enumeration"
+          href: /windows/win32/api/tpcshrd/ne-tpcshrd-property_units
+      - name: "Recognizer Structures"
+        href: recognizer-api-structures.md
+        items: 
+        - name: "CHARACTER_RANGE Structure"
+          href: /windows/win32/api/rectypes/ns-rectypes-character_range
+        - name: "LATTICE_METRICS Structure"
+          href: /windows/win32/api/rectypes/ns-rectypes-lattice_metrics
+        - name: "LINE_SEGMENT Structure"
+          href: /windows/win32/api/rectypes/ns-rectypes-line_segment
+        - name: "PACKET_DESCRIPTION Structure"
+          href: /windows/win32/api/tpcshrd/ns-tpcshrd-packet_description
+        - name: "PACKET_PROPERTY Structure"
+          href: /windows/win32/api/tpcshrd/ns-tpcshrd-packet_property
+        - name: "PROPERTY_METRICS Structure"
+          href: /windows/win32/api/tpcshrd/ns-tpcshrd-property_metrics
+        - name: "RECO_ATTRS Structure"
+          href: /windows/win32/api/rectypes/ns-rectypes-reco_attrs
+        - name: "RECO_GUIDE Structure"
+          href: /windows/win32/api/rectypes/ns-rectypes-reco_guide
+        - name: "RECO_LATTICE Structure"
+          href: /windows/win32/api/rectypes/ns-rectypes-reco_lattice
+        - name: "RECO_LATTICE_COLUMN Structure"
+          href: /windows/win32/api/rectypes/ns-rectypes-reco_lattice_column
+        - name: "RECO_LATTICE_ELEMENT Structure"
+          href: /windows/win32/api/rectypes/ns-rectypes-reco_lattice_element
+        - name: "RECO_LATTICE_PROPERTIES Structure"
+          href: /windows/win32/api/rectypes/ns-rectypes-reco_lattice_properties
+        - name: "RECO_LATTICE_PROPERTY Structure"
+          href: /windows/win32/api/rectypes/ns-rectypes-reco_lattice_property
+        - name: "RECO_RANGE Structure"
+          href: /windows/win32/api/rectypes/ns-rectypes-reco_range
+        - name: "STROKE_RANGE Structure"
+          href: /windows/win32/api/tpcshrd/ns-tpcshrd-stroke_range
+      - name: "Recognizer GUIDs"
+        href: recognizer-guids.md
+        items: 
+        - name: "PacketProperty GUIDs"
+          href: packetproperty-guids.md
+        - name: "Property GUIDs"
+          href: property-guids.md
+    - name: "Text Input Panel Reference"
+      href: text-input-panel-reference.md
+      items: 
+      - name: "Text Input Panel Messages"
+        href: tip-messages.md
+        items: 
+        - name: "MICROSOFT_TIP_OPENING_MSG Message"
+          href: microsoft-tip-opening-msg.md
+      - name: "Text Input Panel Enumerations"
+        href: text-input-panel-enumerations.md
+        items: 
+        - name: "CorrectionMode Enumeration"
+          href: /windows/win32/api/peninputpanel/ne-peninputpanel-correctionmode
+        - name: "CorrectionPosition Enumeration"
+          href: /windows/win32/api/peninputpanel/ne-peninputpanel-correctionposition
+        - name: "EventMask Enumeration"
+          href: /windows/win32/api/peninputpanel/ne-peninputpanel-eventmask
+        - name: "InPlaceDirection Enumeration"
+          href: /windows/win32/api/peninputpanel/ne-peninputpanel-inplacedirection
+        - name: "InPlaceState Enumeration"
+          href: /windows/win32/api/peninputpanel/ne-peninputpanel-inplacestate
+        - name: "InteractionMode Enumeration"
+          href: /windows/win32/api/peninputpanel/ne-peninputpanel-interactionmode
+        - name: "PanelInputArea Enumeration"
+          href: /windows/win32/api/peninputpanel/ne-peninputpanel-panelinputarea
+      - name: "Text Input Panel Interfaces"
+        href: text-input-panel-interfaces.md
+        items: 
+        - name: "IHandWrittenTextInsertion Interface"
+          href: /windows/desktop/api/peninputpanel/nn-peninputpanel-ihandwrittentextinsertion
+          items: 
+          - name: "InsertInkRecognitionResult Method"
+            href: /windows/desktop/api/peninputpanel/nf-peninputpanel-ihandwrittentextinsertion-insertinkrecognitionresult
+          - name: "InsertRecognitionResultsArray Method"
+            href: /windows/desktop/api/peninputpanel/nf-peninputpanel-ihandwrittentextinsertion-insertrecognitionresultsarray
+        - name: "ITextInputPanel Interface"
+          href: /windows/desktop/api/peninputpanel/nn-peninputpanel-itextinputpanel
+          items: 
+          - name: "Advise Method"
+            href: /windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpanel-advise
+          - name: "AttachedEditWindow Property"
+            href: /windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpanel-get_attachededitwindow
+          - name: "CommitPendingInput Method"
+            href: /windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpanel-commitpendinginput
+          - name: "CurrentCorrectionMode Property"
+            href: /windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpanel-get_currentcorrectionmode
+          - name: "CurrentInPlaceState Property"
+            href: /windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpanel-get_currentinplacestate
+          - name: "CurrentInputArea Property"
+            href: /windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpanel-get_currentinputarea
+          - name: "CurrentInteractionMode Property"
+            href: /windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpanel-get_currentinteractionmode
+          - name: "DefaultInPlaceState Property"
+            href: /windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpanel-get_defaultinplacestate
+          - name: "DefaultInputArea Property"
+            href: /windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpanel-get_defaultinputarea
+          - name: "ExpandPostInsertionCorrection Property"
+            href: /windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpanel-get_expandpostinsertioncorrection
+          - name: "InPlaceBoundingRectangle Property"
+            href: /windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpanel-get_inplaceboundingrectangle
+          - name: "InPlaceVisibleOnFocus Property"
+            href: /windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpanel-get_inplacevisibleonfocus
+          - name: "PopDownCorrectionHeight Property"
+            href: /windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpanel-get_popdowncorrectionheight
+          - name: "PopUpCorrectionHeight Property"
+            href: /windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpanel-get_popupcorrectionheight
+          - name: "PreferredInPlaceDirection Property"
+            href: /windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpanel-get_preferredinplacedirection
+          - name: "SetInPlaceHoverTargetPosition Method"
+            href: /windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpanel-setinplacehovertargetposition
+          - name: "SetInPlacePosition Method"
+            href: /windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpanel-setinplaceposition
+          - name: "SetInPlaceVisibility Method"
+            href: /windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpanel-setinplacevisibility
+          - name: "Unadvise Method"
+            href: /windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpanel-unadvise
+        - name: "ITextInputPanelEventSink Interface"
+          href: /windows/desktop/api/peninputpanel/nn-peninputpanel-itextinputpaneleventsink
+          items: 
+          - name: "CorrectionModeChanged Method"
+            href: /windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpaneleventsink-correctionmodechanged
+          - name: "CorrectionModeChanging Method"
+            href: /windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpaneleventsink-correctionmodechanging
+          - name: "InPlaceSizeChanged Method"
+            href: /windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpaneleventsink-inplacesizechanged
+          - name: "InPlaceSizeChanging Method"
+            href: /windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpaneleventsink-inplacesizechanging
+          - name: "InPlaceStateChanged Method"
+            href: /windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpaneleventsink-inplacestatechanged
+          - name: "InPlaceStateChanging Method"
+            href: /windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpaneleventsink-inplacestatechanging
+          - name: "InPlaceVisibilityChanged Method"
+            href: /windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpaneleventsink-inplacevisibilitychanged
+          - name: "InPlaceVisibilityChanging Method"
+            href: /windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpaneleventsink-inplacevisibilitychanging
+          - name: "InputAreaChanged Method"
+            href: /windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpaneleventsink-inputareachanged
+          - name: "InputAreaChanging Method"
+            href: /windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpaneleventsink-inputareachanging
+          - name: "TextInserted Method"
+            href: /windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpaneleventsink-textinserted
+          - name: "TextInserting Method"
+            href: /windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpaneleventsink-textinserting
+        - name: "ITextInputPanelRunInfo Interface"
+          href: /windows/desktop/api/peninputpanel/nn-peninputpanel-itextinputpanelruninfo
+          items: 
+          - name: "IsTipRunning Method"
+            href: /windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpanelruninfo-istiprunning
+        - name: "ITipAutocompleteClient Interface"
+          href: itipautocompleteclient.md
+          items: 
+          - name: "AdviseProvider Method"
+            href: itipautocompleteclient-adviseprovider.md
+          - name: "PreferredRects Method"
+            href: itipautocompleteclient-preferredrects.md
+          - name: "RequestShowUI Method"
+            href: itipautocompleteclient-requestshowui.md
+          - name: "UnadviseProvider Method"
+            href: itipautocompleteclient-unadviseprovider.md
+          - name: "UserSelection Method"
+            href: itipautocompleteclient-userselection.md
+        - name: "ITipAutocompleteProvider Interface"
+          href: itipautocompleteprovider.md
+          items: 
+          - name: "UpdatePendingText Method"
+            href: itipautocompleteprovider-updatependingtext.md
+          - name: "Show Method"
+            href: itipautocompleteprovider-show.md
+  - name: "Tablet PC Appendices"
+    href: appendices.md
+    items: 
+    - name: "COM API Used by Windows Presentation Foundation"
+      href: com-apis-used-by-windows-presentation-foundation.md
+      items: 
+      - name: "Messages Used by WPF"
+        href: messages--wisp-apis.md
+        items: 
+        - name: "WM_TABLET_ADDED"
+          href: wm-tablet-added.md
+        - name: "WM_TABLET_DELETED"
+          href: wm-tablet-deleted.md
+      - name: "Interfaces Used by WPF"
+        href: interfaces--wisp-apis.md
+        items: 
+        - name: "ITablet Interface"
+          href: itablet.md
+          items: 
+          - name: "CreateContext Method"
+            href: itablet-createcontext.md
+          - name: "GetCursor Method"
+            href: /previous-versions/windows/desktop/legacy/aa373535(v=vs.85)
+          - name: "GetCursorCount Method"
+            href: itablet-getcursorcount.md
+          - name: "GetDefaultContextSettings Method"
+            href: itablet-getdefaultcontextsettings.md
+          - name: "GetHardwareCaps Method"
+            href: itablet-gethardwarecaps.md
+          - name: "GetMaxInputRect Method"
+            href: itablet-getmaxinputrect.md
+          - name: "GetName Method"
+            href: itablet-getname.md
+          - name: "GetPlugAndPlayId Method"
+            href: itablet-getplugandplayid.md
+          - name: "GetPropertyMetrics Method"
+            href: /previous-versions/windows/desktop/legacy/aa367722(v=vs.85)
+        - name: "ITablet2 Interface"
+          href: itablet2.md
+          items: 
+          - name: "GetDeviceKind Method"
+            href: itablet2-getdevicekind.md
+        - name: "ITablet3"
+          href: itablet3.md
+          items: 
+          - name: "GetMaximumCursors Method"
+            href: itablet3-getmaximumcursors.md
+          - name: "IsMultiTouch Method"
+            href: itablet3-ismultitouch.md
+        - name: "ITabletContext"
+          href: itabletcontext.md
+        - name: "ITabletContextP Interface"
+          href: itabletcontextp.md
+          items: 
+          - name: "IsTopMostHook Method"
+            href: itabletcontextp-istopmosthook.md
+          - name: "Overlap Method"
+            href: itabletcontextp-overlap.md
+          - name: "TrackInputRect Method"
+            href: itabletcontextp-trackinputrect.md
+          - name: "UseNamedSharedMemoryCommunications Method"
+            href: itabletcontextp-usenamedsharedmemorycommunications.md
+          - name: "UseSharedMemoryCommunications Method"
+            href: itabletcontextp-usesharedmemorycommunications.md
+        - name: "ITabletCursor Interface"
+          href: itabletcursor.md
+          items: 
+          - name: "GetButton Method"
+            href: itabletcursor-getbutton.md
+          - name: "GetButtonCount Method"
+            href: itabletcursor-getbuttoncount.md
+          - name: "GetId Method"
+            href: itabletcursor-getid.md
+          - name: "GetName Method"
+            href: itabletcursor-getname.md
+          - name: "IsInverted Method"
+            href: itabletcursor-isinverted.md
+        - name: "ITabletCursorButton Interface"
+          href: itabletcursorbutton.md
+          items: 
+          - name: "GetGuid Method"
+            href: itabletcursorbutton-getguid.md
+          - name: "GetName Method"
+            href: itabletcursorbutton-getname.md
+        - name: "ITabletEventSink Interface"
+          href: itableteventsink.md
+          items: 
+          - name: "ContextCreate Method"
+            href: itableteventsink-contextcreate.md
+          - name: "ContextDestroy Method"
+            href: itableteventsink-contextdestroy.md
+          - name: "CursorDown Method"
+            href: itableteventsink-cursordown.md
+          - name: "CursorInRange Method"
+            href: itableteventsink-cursorinrange.md
+          - name: "CursorMove Method"
+            href: itableteventsink-cursormove.md
+          - name: "CursorNew Method"
+            href: itableteventsink-cursornew.md
+          - name: "CursorOutOfRange Method"
+            href: itableteventsink-cursoroutofrange.md
+          - name: "CursorUp Method"
+            href: itableteventsink-cursorup.md
+          - name: "Packets Method"
+            href: itableteventsink-packets.md
+          - name: "SystemEvent Method"
+            href: itableteventsink-systemevent.md
+        - name: "ITabletManager Interface"
+          href: itabletmanager.md
+          items: 
+          - name: "GetTablet Method"
+            href: /previous-versions/windows/desktop/legacy/aa373683(v=vs.85)
+          - name: "GetTabletCount Method"
+            href: itabletmanager-gettabletcount.md
+      - name: "Enumerations Used by WPF"
+        href: enumerations--wisp-apis.md
+        items: 
+        - name: "CONTEXT_ENABLE_TYPE Enumeration"
+          href: context-enable-type.md
+        - name: "TABLET_DEVICE_KIND Enumeration"
+          href: tablet-device-kind.md
+      - name: "Structures Used by WPF"
+        href: structures--wisp-apis.md
+        items: 
+        - name: "SHAREDMEMORY_HEADER"
+          href: sharedmemory-header.md
+        - name: "SYSTEM_EVENT_DATA"
+          href: system-event-data.md
+        - name: "TABLET_CONTEXT_SETTINGS Structure"
+          href: tablet-context-settings.md
+    - name: "Working with the Text Ink Object"
+      href: working-with-the-text-ink-object.md
+      items: 
+      - name: "Converting a Text Ink Object to Ink"
+        href: converting-a-text-ink-object-to-ink.md
+      - name: "Text Ink Reference"
+        href: text-ink-apis.md
+        items: 
+        - name: "IInkLineInfo Interface"
+          href: /windows/desktop/api/msinkaut/nn-msinkaut-iinklineinfo
+          items: 
+          - name: "GetCandidate Method"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinklineinfo-getcandidate
+          - name: "GetFormat Method"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinklineinfo-getformat
+          - name: "GetInkExtent Method"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinklineinfo-getinkextent
+          - name: "Recognize Method"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinklineinfo-recognize
+          - name: "SetCandidate Method"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinklineinfo-setcandidate
+          - name: "SetFormat Method"
+            href: /windows/desktop/api/msinkaut/nf-msinkaut-iinklineinfo-setformat
+      - name: "INKMETRIC Structure"
+        href: /windows/win32/api/msinkaut/ns-msinkaut-inkmetric
+  - name: "Tablet PC API Glossary"
+    href: glossary.md

@@ -1,0 +1,119 @@
+- name: "Get Started with Win32 and C++"
+  href: learn-to-program-for-windows.md
+  items: 
+  - name: "Intro to Win32 programming in C++"
+    items: 
+    - name: "Overview"
+      href: introduction-to-windows-programming-in-c--.md
+    - name: "Prepare Your Development Environment"
+      href: prepare-your-development-environment.md
+    - name: "Windows Coding Conventions"
+      href: windows-coding-conventions.md
+    - name: "Working with Strings"
+      href: working-with-strings.md
+    - name: "What Is a Window?"
+      href: what-is-a-window-.md
+    - name: "WinMain: The Application Entry Point"
+      href: winmain--the-application-entry-point.md
+  - name: "Module 1. Your First Windows Program"
+    items: 
+    - name: "Overview"
+      href: your-first-windows-program.md
+    - name: "Creating a Window"
+      href: creating-a-window.md
+    - name: "Window Messages"
+      href: window-messages.md
+    - name: "Writing the Window Procedure"
+      href: writing-the-window-procedure.md
+    - name: "Painting the Window"
+      href: painting-the-window.md
+    - name: "Closing the Window"
+      href: closing-the-window.md
+    - name: "Managing Application State"
+      href: managing-application-state-.md
+  - name: "Module 2. Using COM in Your Windows Program"
+    items: 
+    - name: "Overview"
+      href: module-2--using-com-in-your-windows-program.md
+    - name: "What Is a COM Interface?"
+      href: what-is-a-com-interface-.md
+    - name: "Initializing the COM Library"
+      href: initializing-the-com-library.md
+    - name: "Error Codes in COM"
+      href: error-codes-in-com.md
+    - name: "Creating an Object in COM"
+      href: creating-an-object-in-com.md
+    - name: "Example: The Open Dialog Box"
+      href: example--the-open-dialog-box.md
+    - name: "Managing the Lifetime of an Object"
+      href: managing-the-lifetime-of-an-object.md
+    - name: "Asking an Object for an Interface"
+      href: asking-an-object-for-an-interface.md
+    - name: "Memory Allocation in COM"
+      href: memory-allocation-in-com.md
+    - name: "COM Coding Practices"
+      href: com-coding-practices.md
+    - name: "Error Handling in COM"
+      href: error-handling-in-com.md
+  - name: "Module 3. Windows Graphics"
+    items: 
+    - name: "Overview"
+      href: module-3---windows-graphics.md
+    - name: "Overview of the Windows Graphics Architecture"
+      href: overview-of-the-windows-graphics-architecture.md
+    - name: "The Desktop Window Manager"
+      href: the-desktop-window-manager.md
+    - name: "Retained Mode Versus Immediate Mode"
+      href: retained-mode-versus-immediate-mode.md
+    - name: "Your First Direct2D Program"
+      href: your-first-direct2d-program.md
+    - name: "Render Targets, Devices, and Resources"
+      href: render-targets--devices--and-resources.md
+    - name: "Drawing with Direct2D"
+      href: drawing-with-direct2d.md
+    - name: "DPI and Device-Independent Pixels"
+      href: dpi-and-device-independent-pixels.md
+    - name: "Using Color in Direct2D"
+      href: using-color-in-direct2d.md
+    - name: "Applying Transforms in Direct2D"
+      href: applying-transforms-in-direct2d.md
+    - name: "Appendix: Matrix Transforms"
+      href: appendix--matrix-transforms.md
+  - name: "Module 4. User Input"
+    items: 
+    - name: "Overview"
+      href: module-4--user-input.md
+    - name: "Mouse Input"
+      href: mouse-input.md
+    - name: "Responding to Mouse Clicks"
+      href: mouse-clicks.md
+    - name: "Mouse Movement"
+      href: mouse-movement.md
+    - name: "Miscellaneous Mouse Operations"
+      href: other-mouse-operations.md
+    - name: "Keyboard Input"
+      href: keyboard-input.md
+    - name: "Accelerator Tables"
+      href: accelerator-tables.md
+    - name: "Setting the Cursor Image"
+      href: setting-the-cursor-image.md
+    - name: "User Input: Extended Example"
+      href: user-input--extended-example.md
+  - name: "Get Started with Win32: Sample Code"
+    items: 
+    - name: "Overview"
+      href: learn-to-program-for-windows--sample-code.md
+    - name: "Windows Hello World Sample"
+      href: windows-hello-world-sample.md
+    - name: "BaseWindow Sample"
+      href: basewindow-sample.md
+    - name: "Open Dialog Box Sample"
+      href: open-dialog-box-sample.md
+    - name: "Direct2D Circle Sample"
+      href: direct2d-circle-sample.md
+    - name: "Direct2D Clock Sample"
+      href: direct2d-clock-sample.md
+    - name: "Draw Circle Sample"
+      href: draw-circle-sample.md
+    - name: "Simple Drawing Sample"
+      href: simple-drawing-sample.md

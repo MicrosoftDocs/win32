@@ -1,0 +1,32 @@
+- name: "Best Practices for the Security APIs"
+  href: best-practices-for-the-security-apis.md
+  items: 
+  - name: "Running with Special Privileges"
+    href: running-with-special-privileges.md
+    items: 
+    - name: "Running with Administrator Privileges"
+      href: running-with-administrator-privileges.md
+    - name: "Asking the User for Credentials"
+      href: asking-the-user-for-credentials.md
+    - name: "Changing Privileges in a Token"
+      href: changing-privileges-in-a-token.md
+    - name: "Assigning Privileges to an Account"
+      href: assigning-privileges-to-an-account.md
+  - name: "Avoiding Buffer Overruns"
+    href: avoiding-buffer-overruns.md
+  - name: "Control Flow Guard"
+    href: control-flow-guard.md
+    items: 
+    - name: "PE metadata"
+      href: pe-metadata.md
+  - name: "Creating a DACL"
+    href: creating-a-dacl.md
+  - name: "Handling Passwords"
+    href: handling-passwords.md
+    items: 
+    - name: "Password Threat Assessment"
+      href: password-threat-assessment.md
+    - name: "Threat Mitigation Techniques"
+      href: threat-mitigation-techniques.md
+  - name: "How to Optimize Your MSDN Library Search"
+    href: how-to-optimize-your-msdn-library-search.md

@@ -1,0 +1,67 @@
+- name: "Magnification API"
+  href: ./entry-magapi-sdk.md
+  items: 
+  - name: "Magnification API Overview"
+    href: ./magapi-intro.md
+  - name: "Reference"
+    href: ./entry-magapi-ref.md
+    items: 
+    - name: "Constants"
+      href: ./entry-magapi-constants.md
+      items: 
+      - name: "Magnifier Styles"
+        href: ./magapi-magnifier-styles.md
+    - name: "Functions"
+      href: ./entry-magapi-functions.md
+      items: 
+      - name: "MagGetColorEffect"
+        href: /windows/win32/api/Magnification/nf-magnification-maggetcoloreffect
+      - name: "MagGetFullscreenColorEffect"
+        href: /windows/win32/api/Magnification/nf-magnification-maggetfullscreencoloreffect
+      - name: "MagGetFullscreenTransform"
+        href: /windows/win32/api/Magnification/nf-magnification-maggetfullscreentransform
+      - name: "MagGetImageScalingCallback"
+        href: /windows/win32/api/Magnification/nf-magnification-maggetimagescalingcallback
+      - name: "MagGetInputTransform"
+        href: /windows/win32/api/Magnification/nf-magnification-maggetinputtransform
+      - name: "MagGetWindowFilterList"
+        href: /windows/win32/api/Magnification/nf-magnification-maggetwindowfilterlist
+      - name: "MagGetWindowSource"
+        href: /windows/win32/api/Magnification/nf-magnification-maggetwindowsource
+      - name: "MagGetWindowTransform"
+        href: /windows/win32/api/Magnification/nf-magnification-maggetwindowtransform
+      - name: "MagImageScalingCallback"
+        href: /windows/win32/api/Magnification/nc-magnification-magimagescalingcallback
+      - name: "MagInitialize"
+        href: /windows/win32/api/Magnification/nf-magnification-maginitialize
+      - name: "MagSetColorEffect"
+        href: /windows/win32/api/Magnification/nf-magnification-magsetcoloreffect
+      - name: "MagSetFullscreenColorEffect"
+        href: /windows/win32/api/Magnification/nf-magnification-magsetfullscreencoloreffect
+      - name: "MagSetFullscreenTransform"
+        href: /windows/win32/api/Magnification/nf-magnification-magsetfullscreentransform
+      - name: "MagSetImageScalingCallback"
+        href: /windows/win32/api/Magnification/nf-magnification-magsetimagescalingcallback
+      - name: "MagSetInputTransform"
+        href: /windows/win32/api/Magnification/nf-magnification-magsetinputtransform
+      - name: "MagSetWindowFilterList"
+        href: /windows/win32/api/Magnification/nf-magnification-magsetwindowfilterlist
+      - name: "MagSetWindowSource"
+        href: /windows/win32/api/Magnification/nf-magnification-magsetwindowsource
+      - name: "MagSetWindowTransform"
+        href: /windows/win32/api/Magnification/nf-magnification-magsetwindowtransform
+      - name: "MagShowSystemCursor"
+        href: /windows/win32/api/Magnification/nf-magnification-magshowsystemcursor
+      - name: "MagUninitialize"
+        href: /windows/win32/api/Magnification/nf-magnification-maguninitialize
+    - name: "Structures"
+      href: ./entry-magapi-structures.md
+      items: 
+      - name: "MAGCOLOREFFECT"
+        href: /windows/win32/api/magnification/ns-magnification-magcoloreffect
+      - name: "MAGIMAGEHEADER"
+        href: /windows/win32/api/magnification/ns-magnification-magimageheader
+      - name: "MAGTRANSFORM"
+        href: /windows/win32/api/magnification/ns-magnification-magtransform
+  - name: "Samples"
+    href: ./magapi-samples-entry.md

@@ -1,0 +1,83 @@
+- name: "Restart Manager"
+  href: restart-manager-portal.md
+  items: 
+  - name: "About Restart Manager"
+    href: about-restart-manager.md
+    items: 
+    - name: "Guidelines for Applications and Services"
+      href: guidelines-for-applications-and-services.md
+      items: 
+      - name: "Guidelines for Applications"
+        href: guidelines-for-applications.md
+      - name: "Guidelines for Services"
+        href: guidelines-for-services.md
+      - name: "Critical System Services"
+        href: critical-system-services.md
+  - name: "Using Restart Manager"
+    href: using-restart-manager.md
+    items: 
+    - name: "Using Restart Manager with a Primary Installer"
+      href: using-restart-manager-with-a-primary-installer.md
+    - name: "Using Restart Manager with a Secondary Installer"
+      href: using-restart-manager-with-a-secondary-installer.md
+    - name: "Getting the Status of a Restart Manager Operation"
+      href: getting-the-status-of-a-restart-manager-operation.md
+    - name: "Canceling the Current Restart Manager Operation"
+      href: canceling-the-current-restart-manager-operation.md
+  - name: "Restart Manager Reference"
+    href: restart-manager-reference.md
+    items: 
+    - name: "Restart Manager Callback Functions"
+      href: callback-functions.md
+      items: 
+      - name: "RM_WRITE_STATUS_CALLBACK"
+        href: /windows/desktop/api/restartmanager/nc-restartmanager-rm_write_status_callback
+    - name: "Restart Manager Enumerations"
+      href: enumerations.md
+      items: 
+      - name: "RM_APP_STATUS"
+        href: /windows/win32/api/RestartManager/ne-restartmanager-rm_app_status
+      - name: "RM_APP_TYPE"
+        href: /windows/win32/api/RestartManager/ne-restartmanager-rm_app_type
+      - name: "RM_FILTER_ACTION"
+        href: /windows/win32/api/RestartManager/ne-restartmanager-rm_filter_action
+      - name: "RM_FILTER_TRIGGER"
+        href: /windows/win32/api/RestartManager/ne-restartmanager-rm_filter_trigger
+      - name: "RM_REBOOT_REASON"
+        href: /windows/win32/api/RestartManager/ne-restartmanager-rm_reboot_reason
+      - name: "RM_SHUTDOWN_TYPE"
+        href: /windows/win32/api/RestartManager/ne-restartmanager-rm_shutdown_type
+    - name: "Restart Manager Functions"
+      href: functions.md
+      items: 
+      - name: "RmAddFilter"
+        href: /windows/desktop/api/RestartManager/nf-restartmanager-rmaddfilter
+      - name: "RmCancelCurrentTask"
+        href: /windows/desktop/api/RestartManager/nf-restartmanager-rmcancelcurrenttask
+      - name: "RmEndSession"
+        href: /windows/desktop/api/RestartManager/nf-restartmanager-rmendsession
+      - name: "RmGetFilterList"
+        href: /windows/desktop/api/RestartManager/nf-restartmanager-rmgetfilterlist
+      - name: "RmGetList"
+        href: /windows/desktop/api/RestartManager/nf-restartmanager-rmgetlist
+      - name: "RmJoinSession"
+        href: /windows/desktop/api/RestartManager/nf-restartmanager-rmjoinsession
+      - name: "RmRegisterResources"
+        href: /windows/desktop/api/RestartManager/nf-restartmanager-rmregisterresources
+      - name: "RmRemoveFilter"
+        href: /windows/desktop/api/RestartManager/nf-restartmanager-rmremovefilter
+      - name: "RmRestart"
+        href: /windows/desktop/api/RestartManager/nf-restartmanager-rmrestart
+      - name: "RmShutdown"
+        href: /windows/desktop/api/RestartManager/nf-restartmanager-rmshutdown
+      - name: "RmStartSession"
+        href: /windows/desktop/api/RestartManager/nf-restartmanager-rmstartsession
+    - name: "Restart Manager Structures"
+      href: structures.md
+      items: 
+      - name: "RM_FILTER_INFO"
+        href: /windows/win32/api/RestartManager/ns-restartmanager-rm_filter_info
+      - name: "RM_PROCESS_INFO"
+        href: /windows/win32/api/RestartManager/ns-restartmanager-rm_process_info
+      - name: "RM_UNIQUE_PROCESS"
+        href: /windows/win32/api/RestartManager/ns-restartmanager-rm_unique_process

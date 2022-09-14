@@ -1,0 +1,25 @@
+- name: "Host bus adapter (HBA)"
+  href: hba-portal.md
+  items: 
+  - name: "Host bus adapter (HBA) API reference"
+    href: hba-reference.md
+    items: 
+    - name: "Host bus adapter (HBA) functions"
+      href: hba-functions.md
+      items: 
+      - name: "HBA_OpenAdapter"
+        href: /windows/win32/api/hbaapi/nf-hbaapi-hba_registerforadapteraddevents
+      - name: "HBA_RegisterForAdapterAddEvents"
+        href: /windows/win32/api/hbaapi/nf-hbaapi-hba_openadapter
+      - name: "HBA_RegisterForAdapterEvents"
+        href: /windows/win32/api/hbaapi/nf-hbaapi-hba_registerforadapterevents
+      - name: "HBA_RegisterForAdapterPortEvents"
+        href: /windows/win32/api/hbaapi/nf-hbaapi-hba_registerforadapterportevents
+      - name: "HBA_RegisterForAdapterPortStatEvents"
+        href: /windows/win32/api/hbaapi/nf-hbaapi-hba_registerforadapterportstatevents
+      - name: "HBA_RegisterForLinkEvents"
+        href: /windows/win32/api/hbaapi/nf-hbaapi-hba_registerforlinkevents
+      - name: "HBA_RegisterForTargetEvents"
+        href: /windows/win32/api/hbaapi/nf-hbaapi-hba_registerfortargetevents
+      - name: "HBA_RemoveCallback"
+        href: /windows/win32/api/hbaapi/nf-hbaapi-hba_removecallback

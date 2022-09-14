@@ -1,0 +1,805 @@
+- name: "Mobile Broadband"
+  href: mobile-broadband-networks-portal.md
+  items: 
+  - name: "Mobile Broadband API Best Practices"
+    href: mobile-broadband-best-practices.md
+  - name: "Mobile Broadband API Reference"
+    href: mobile-broadband-networks-api-reference.md
+    items: 
+    - name: "Mobile Broadband API Enumerations"
+      href: mobile-broadband-networks-api-enumerations.md
+      items: 
+      - name: "MBN_ACTIVATION_STATE"
+        href: /windows/desktop/api/mbnapi/ne-mbnapi-mbn_activation_state
+      - name: "MBN_AUTH_PROTOCOL"
+        href: /windows/desktop/api/mbnapi/ne-mbnapi-mbn_auth_protocol
+      - name: "MBN_BAND_CLASS"
+        href: /windows/desktop/api/mbnapi/ne-mbnapi-mbn_band_class
+      - name: "MBN_CELLULAR_CLASS"
+        href: /windows/desktop/api/mbnapi/ne-mbnapi-mbn_cellular_class
+      - name: "MBN_COMPRESSION"
+        href: /windows/desktop/api/mbnapi/ne-mbnapi-mbn_compression
+      - name: "MBN_CONNECTION_MODE"
+        href: /windows/desktop/api/mbnapi/ne-mbnapi-mbn_connection_mode
+      - name: "MBN_CONTEXT_CONSTANTS"
+        href: /windows/desktop/api/mbnapi/ne-mbnapi-mbn_context_constants
+      - name: "MBN_CONTEXT_TYPE"
+        href: /windows/desktop/api/mbnapi/ne-mbnapi-mbn_context_type
+      - name: "MBN_CTRL_CAPS"
+        href: /windows/desktop/api/mbnapi/ne-mbnapi-mbn_ctrl_caps
+      - name: "MBN_DATA_CLASS"
+        href: /windows/desktop/api/mbnapi/ne-mbnapi-mbn_data_class
+      - name: "MBN_DEVICE_SERVICES_INTERFACE_STATE"
+        href: /windows/desktop/api/mbnapi/ne-mbnapi-mbn_device_services_interface_state
+      - name: "MBN_INTERFACE_CAPS_CONSTANTS"
+        href: /windows/desktop/api/mbnapi/ne-mbnapi-mbn_interface_caps_constants
+      - name: "MBN_MSG_STATUS"
+        href: /windows/desktop/api/mbnapi/ne-mbnapi-mbn_msg_status
+      - name: "MBN_PIN_CONSTANTS"
+        href: /windows/desktop/api/mbnapi/ne-mbnapi-mbn_pin_constants
+      - name: "MBN_PIN_FORMAT"
+        href: /windows/desktop/api/mbnapi/ne-mbnapi-mbn_pin_format
+      - name: "MBN_PIN_MODE"
+        href: /windows/desktop/api/mbnapi/ne-mbnapi-mbn_pin_mode
+      - name: "MBN_PIN_STATE"
+        href: /windows/desktop/api/mbnapi/ne-mbnapi-mbn_pin_state
+      - name: "MBN_PIN_TYPE"
+        href: /windows/desktop/api/mbnapi/ne-mbnapi-mbn_pin_type
+      - name: "MBN_PROVIDER_CONSTANTS"
+        href: /windows/desktop/api/mbnapi/ne-mbnapi-mbn_provider_constants
+      - name: "MBN_PROVIDER_STATE"
+        href: /windows/desktop/api/mbnapi/ne-mbnapi-mbn_provider_state
+      - name: "MBN_RADIO"
+        href: /windows/desktop/api/mbnapi/ne-mbnapi-mbn_radio
+      - name: "MBN_READY_STATE"
+        href: /windows/desktop/api/mbnapi/ne-mbnapi-mbn_ready_state
+      - name: "MBN_REGISTER_MODE"
+        href: /windows/desktop/api/mbnapi/ne-mbnapi-mbn_register_mode
+      - name: "MBN_REGISTER_STATE"
+        href: /windows/desktop/api/mbnapi/ne-mbnapi-mbn_register_state
+      - name: "MBN_REGISTRATION_CONSTANTS"
+        href: /windows/desktop/api/mbnapi/ne-mbnapi-mbn_registration_constants
+      - name: "MBN_SIGNAL_CONSTANTS"
+        href: /windows/desktop/api/mbnapi/ne-mbnapi-mbn_signal_constants
+      - name: "MBN_SMS_CAPS"
+        href: /windows/desktop/api/mbnapi/ne-mbnapi-mbn_sms_caps
+      - name: "MBN_SMS_CDMA_ENCODING"
+        href: /windows/desktop/api/mbnapi/ne-mbnapi-mbn_sms_cdma_encoding
+      - name: "MBN_SMS_CDMA_LANG"
+        href: /windows/desktop/api/mbnapi/ne-mbnapi-mbn_sms_cdma_lang
+      - name: "MBN_SMS_CONSTANTS"
+        href: /windows/desktop/api/mbnapi/ne-mbnapi-wwaext_sms_constants
+      - name: "MBN_SMS_FLAG"
+        href: /windows/desktop/api/mbnapi/ne-mbnapi-mbn_sms_flag
+      - name: "MBN_SMS_FORMAT"
+        href: /windows/desktop/api/mbnapi/ne-mbnapi-mbn_sms_format
+      - name: "MBN_SMS_STATUS_FLAG"
+        href: /windows/desktop/api/mbnapi/ne-mbnapi-mbn_sms_status_flag
+      - name: "MBN_VOICE_CALL_STATE"
+        href: /windows/desktop/api/mbnapi/ne-mbnapi-mbn_voice_call_state
+      - name: "MBN_VOICE_CLASS"
+        href: /windows/desktop/api/mbnapi/ne-mbnapi-mbn_voice_class
+    - name: "Mobile Broadband API Interfaces"
+      href: mobile-broadband-networks-api-interfaces.md
+      items: 
+      - name: "IMbnConnection"
+        href: /windows/desktop/api/mbnapi/nn-mbnapi-imbnconnection
+        items: 
+        - name: "Connect Method"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnconnection-connect
+        - name: "Disconnect Method"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnconnection-disconnect
+        - name: "GetActivationNetworkError Method"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnconnection-getactivationnetworkerror
+        - name: "GetConnectionState Method"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnconnection-getconnectionstate
+        - name: "GetVoiceCallState Method"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnconnection-getvoicecallstate
+        - name: "ConnectionID Property"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnconnection-get_connectionid
+        - name: "InterfaceID Property"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnconnection-get_interfaceid
+      - name: "IMbnConnectionContext"
+        href: /windows/desktop/api/mbnapi/nn-mbnapi-imbnconnectioncontext
+        items: 
+        - name: "GetProvisionedContexts Method"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnconnectioncontext-getprovisionedcontexts
+        - name: "SetProvisionedContext Method"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnconnectioncontext-setprovisionedcontext
+      - name: "IMbnConnectionContextEvents"
+        href: /windows/desktop/api/mbnapi/nn-mbnapi-imbnconnectioncontextevents
+        items: 
+        - name: "OnProvisionedContextListChange Method"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnconnectioncontextevents-onprovisionedcontextlistchange
+        - name: "OnSetProvisionedContextComplete Method"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnconnectioncontextevents-onsetprovisionedcontextcomplete
+      - name: "IMbnConnectionEvents"
+        href: /windows/desktop/api/mbnapi/nn-mbnapi-imbnconnectionevents
+        items: 
+        - name: "OnConnectComplete Method"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnconnectionevents-onconnectcomplete
+        - name: "OnConnectStateChange Method"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnconnectionevents-onconnectstatechange
+        - name: "OnDisconnectComplete Method"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnconnectionevents-ondisconnectcomplete
+        - name: "OnVoiceCallStateChange Method"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnconnectionevents-onvoicecallstatechange
+      - name: "IMbnConnectionManager"
+        href: /windows/desktop/api/mbnapi/nn-mbnapi-imbnconnectionmanager
+        items: 
+        - name: "GetConnection Method"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnconnectionmanager-getconnection
+        - name: "GetConnections Method"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnconnectionmanager-getconnections
+      - name: "IMbnConnectionManagerEvents"
+        href: /windows/desktop/api/mbnapi/nn-mbnapi-imbnconnectionmanagerevents
+        items: 
+        - name: "OnConnectionArrival Method"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnconnectionmanagerevents-onconnectionarrival
+        - name: "OnConnectionRemoval Method"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnconnectionmanagerevents-onconnectionremoval
+      - name: "IMbnConnectionProfile"
+        href: /windows/desktop/api/mbnapi/nn-mbnapi-imbnconnectionprofile
+        items: 
+        - name: "Delete Method"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnconnectionprofile-delete
+        - name: "GetProfileXmlData Method"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnconnectionprofile-getprofilexmldata
+        - name: "UpdateProfile Method"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnconnectionprofile-updateprofile
+      - name: "IMbnConnectionProfileEvents"
+        href: /windows/desktop/api/mbnapi/nn-mbnapi-imbnconnectionprofileevents
+        items: 
+        - name: "OnProfileUpdate Method"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnconnectionprofileevents-onprofileupdate
+      - name: "IMbnConnectionProfileManager"
+        href: /windows/desktop/api/mbnapi/nn-mbnapi-imbnconnectionprofilemanager
+        items: 
+        - name: "CreateConnectionProfile Method"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnconnectionprofilemanager-createconnectionprofile
+        - name: "GetConnectionProfile Method"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnconnectionprofilemanager-getconnectionprofile
+        - name: "GetConnectionProfiles Method"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnconnectionprofilemanager-getconnectionprofiles
+      - name: "IMbnConnectionProfileManagerEvents"
+        href: /windows/desktop/api/mbnapi/nn-mbnapi-imbnconnectionprofilemanagerevents
+        items: 
+        - name: "OnConnectionProfileArrival Method"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnconnectionprofilemanagerevents-onconnectionprofilearrival
+        - name: "OnConnectionProfileRemoval Method"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnconnectionprofilemanagerevents-onconnectionprofileremoval
+      - name: "IMbnDeviceService"
+        href: /windows/desktop/api/mbnapi/nn-mbnapi-imbndeviceservice
+        items: 
+        - name: "QuerySupportedCommands method"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservice-querysupportedcommands
+        - name: "OpenCommandSession method"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservice-opencommandsession
+        - name: "CloseCommandSession method"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservice-closecommandsession
+        - name: "SetCommand method"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservice-setcommand
+        - name: "QueryCommand method"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservice-querycommand
+        - name: "OpenDataSession method"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservice-opendatasession
+        - name: "CloseDataSession method"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservice-closedatasession
+        - name: "WriteData method"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservice-writedata
+        - name: "IsDataSessionOpen property"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservice-get_isdatasessionopen
+        - name: "InterfaceID property"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservice-get_interfaceid
+        - name: "DeviceServiceID property"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservice-get_deviceserviceid
+        - name: "IsCommandSessionOpen property"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservice-get_iscommandsessionopen
+      - name: "IMbnDeviceServicesContext"
+        href: /windows/desktop/api/mbnapi/nn-mbnapi-imbndeviceservicescontext
+        items: 
+        - name: "EnumerateDeviceServices method"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservicescontext-enumeratedeviceservices
+        - name: "GetDeviceService method"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservicescontext-getdeviceservice
+        - name: "MaxCommandSize property"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservicescontext-get_maxcommandsize
+        - name: "MaxDataSize property"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservicescontext-get_maxdatasize
+      - name: "IMbnDeviceServicesEvents"
+        href: /windows/desktop/api/mbnapi/nn-mbnapi-imbndeviceservicesevents
+        items: 
+        - name: "OnQuerySupportedCommandsComplete method"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservicesevents-onquerysupportedcommandscomplete
+        - name: "OnOpenCommandSessionComplete method"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservicesevents-onopencommandsessioncomplete
+        - name: "OnCloseCommandSessionComplete method"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservicesevents-onclosecommandsessioncomplete
+        - name: "OnSetCommandComplete method"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservicesevents-onsetcommandcomplete
+        - name: "OnQueryCommandComplete method"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservicesevents-onquerycommandcomplete
+        - name: "OnEventNotification method"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservicesevents-oneventnotification
+        - name: "OnOpenDataSessionComplete method"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservicesevents-onopendatasessioncomplete
+        - name: "OnCloseDataSessionComplete method"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservicesevents-onclosedatasessioncomplete
+        - name: "OnWriteDataComplete method"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservicesevents-onwritedatacomplete
+        - name: "OnReadData method"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservicesevents-onreaddata
+        - name: "OnInterfaceStateChange method"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservicesevents-oninterfacestatechange
+      - name: "IMbnDeviceServicesManager"
+        href: /windows/desktop/api/mbnapi/nn-mbnapi-imbndeviceservicesmanager
+        items: 
+        - name: "GetDeviceServicesContext method"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservicesmanager-getdeviceservicescontext
+      - name: "IMbnInterface"
+        href: /windows/desktop/api/mbnapi/nn-mbnapi-imbninterface
+        items: 
+        - name: "GetConnection Method"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbninterface-getconnection
+        - name: "GetInterfaceCapability Method"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbninterface-getinterfacecapability
+        - name: "GetHomeProvider Method"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbninterface-gethomeprovider
+        - name: "GetPreferredProviders Method"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbninterface-getpreferredproviders
+        - name: "GetReadyState Method"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbninterface-getreadystate
+        - name: "GetSubscriberInformation Method"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbninterface-getsubscriberinformation
+        - name: "GetVisibleProviders Method"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbninterface-getvisibleproviders
+        - name: "InEmergencyMode Method"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbninterface-inemergencymode
+        - name: "ScanNetwork Method"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbninterface-scannetwork
+        - name: "SetPreferredProviders Method"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbninterface-setpreferredproviders
+        - name: "InterfaceID Property"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbninterface-get_interfaceid
+      - name: "IMbnInterfaceEvents"
+        href: /windows/desktop/api/mbnapi/nn-mbnapi-imbninterfaceevents
+        items: 
+        - name: "OnEmergencyModeChange Method"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbninterfaceevents-onemergencymodechange
+        - name: "OnInterfaceCapabilityAvailable Method"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbninterfaceevents-oninterfacecapabilityavailable
+        - name: "OnHomeProviderAvailable Method"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbninterfaceevents-onhomeprovideravailable
+        - name: "OnPreferredProvidersChange Method"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbninterfaceevents-onpreferredproviderschange
+        - name: "OnReadyStateChange Method"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbninterfaceevents-onreadystatechange
+        - name: "OnSetPreferredProvidersComplete Method"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbninterfaceevents-onsetpreferredproviderscomplete
+        - name: "OnScanNetworkComplete Method"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbninterfaceevents-onscannetworkcomplete
+        - name: "OnSubscriberInformationChange Method"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbninterfaceevents-onsubscriberinformationchange
+      - name: "IMbnInterfaceManager"
+        href: /windows/desktop/api/mbnapi/nn-mbnapi-imbninterfacemanager
+        items: 
+        - name: "GetInterface Method"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbninterfacemanager-getinterface
+        - name: "GetInterfaces Method"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbninterfacemanager-getinterfaces
+      - name: "IMbnInterfaceManagerEvents"
+        href: /windows/desktop/api/mbnapi/nn-mbnapi-imbninterfacemanagerevents
+        items: 
+        - name: "OnInterfaceArrival Method"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbninterfacemanagerevents-oninterfacearrival
+        - name: "OnInterfaceRemoval Method"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbninterfacemanagerevents-oninterfaceremoval
+      - name: "IMbnMultiCarrier"
+        href: /windows/desktop/api/mbnapi/nn-mbnapi-imbnmulticarrier
+        items: 
+        - name: "SetHomeProvider method"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnmulticarrier-sethomeprovider
+        - name: "GetPreferredProviders method"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnmulticarrier-getpreferredproviders
+        - name: "GetVisibleProviders method"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnmulticarrier-getvisibleproviders
+        - name: "GetSupportedCellularClasses method"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnmulticarrier-getsupportedcellularclasses
+        - name: "GetCurrentCellularClass method"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnmulticarrier-getcurrentcellularclass
+        - name: "ScanNetwork method"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnmulticarrier-scannetwork
+      - name: "IMbnMultiCarrierEvents"
+        href: /windows/desktop/api/mbnapi/nn-mbnapi-imbnmulticarrierevents
+        items: 
+        - name: "OnSetHomeProviderComplete method"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnmulticarrierevents-onsethomeprovidercomplete
+        - name: "OnCurrentCellularClassChange method"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnmulticarrierevents-oncurrentcellularclasschange
+        - name: "OnInterfaceCapabilityChange method"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnmulticarrierevents-oninterfacecapabilitychange
+        - name: "OnPreferredProvidersChange method"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnmulticarrierevents-onpreferredproviderschange
+        - name: "OnScanNetworkComplete method"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnmulticarrierevents-onscannetworkcomplete
+      - name: "IMbnPin"
+        href: /windows/desktop/api/mbnapi/nn-mbnapi-imbnpin
+        items: 
+        - name: "Change Method"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnpin-change
+        - name: "Disable Method"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnpin-disable
+        - name: "Enable Method"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnpin-enable
+        - name: "Enter Method"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnpin-enter
+        - name: "GetPinManager Method"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnpin-getpinmanager
+        - name: "Unblock Method"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnpin-unblock
+        - name: "PinFormat Property"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnpin-get_pinformat
+        - name: "PinLengthMax Property"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnpin-get_pinlengthmax
+        - name: "PinLengthMin Property"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnpin-get_pinlengthmin
+        - name: "PinMode Property"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnpin-get_pinmode
+        - name: "PinType Property"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnpin-get_pintype
+      - name: "IMbnPinEvents"
+        href: /windows/desktop/api/mbnapi/nn-mbnapi-imbnpinevents
+        items: 
+        - name: "OnChangeComplete Method"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnpinevents-onchangecomplete
+        - name: "OnDisableComplete Method"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnpinevents-ondisablecomplete
+        - name: "OnEnableComplete Method"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnpinevents-onenablecomplete
+        - name: "OnEnterComplete Method"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnpinevents-onentercomplete
+        - name: "OnUnblockComplete Method"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnpinevents-onunblockcomplete
+      - name: "IMbnPinManager"
+        href: /windows/desktop/api/mbnapi/nn-mbnapi-imbnpinmanager
+        items: 
+        - name: "GetPin Method"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnpinmanager-getpin
+        - name: "GetPinList Method"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnpinmanager-getpinlist
+        - name: "GetPinState Method"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnpinmanager-getpinstate
+      - name: "IMbnPinManagerEvents"
+        href: /windows/desktop/api/mbnapi/nn-mbnapi-imbnpinmanagerevents
+        items: 
+        - name: "OnGetPinStateComplete Method"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnpinmanagerevents-ongetpinstatecomplete
+        - name: "OnPinListAvailable Method"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnpinmanagerevents-onpinlistavailable
+      - name: "IMbnRadio"
+        href: /windows/desktop/api/mbnapi/nn-mbnapi-imbnradio
+        items: 
+        - name: "SetSoftwareRadioState Method"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnradio-setsoftwareradiostate
+        - name: "HardwareRadioState Property"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnradio-get_hardwareradiostate
+        - name: "SoftwareRadioState Property"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnradio-get_softwareradiostate
+      - name: "IMbnRadioEvents"
+        href: /windows/desktop/api/mbnapi/nn-mbnapi-imbnradioevents
+        items: 
+        - name: "OnRadioStateChange Method"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnradioevents-onradiostatechange
+        - name: "OnSetSoftwareRadioStateComplete Method"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnradioevents-onsetsoftwareradiostatecomplete
+      - name: "IMbnRegistration"
+        href: /windows/desktop/api/mbnapi/nn-mbnapi-imbnregistration
+        items: 
+        - name: "GetAvailableDataClasses Method"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnregistration-getavailabledataclasses
+        - name: "GetCurrentDataClass Method"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnregistration-getcurrentdataclass
+        - name: "GetPacketAttachNetworkError Method"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnregistration-getpacketattachnetworkerror
+        - name: "GetProviderID Method"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnregistration-getproviderid
+        - name: "GetProviderName Method"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnregistration-getprovidername
+        - name: "GetRegisterMode Method"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnregistration-getregistermode
+        - name: "GetRegisterState Method"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnregistration-getregisterstate
+        - name: "GetRegistrationNetworkError Method"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnregistration-getregistrationnetworkerror
+        - name: "GetRoamingText Method"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnregistration-getroamingtext
+        - name: "SetRegisterMode Method"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnregistration-setregistermode
+      - name: "IMbnRegistrationEvents"
+        href: /windows/desktop/api/mbnapi/nn-mbnapi-imbnregistrationevents
+        items: 
+        - name: "OnPacketServiceStateChange Method"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnregistrationevents-onpacketservicestatechange
+        - name: "OnRegisterModeAvailable Method"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnregistrationevents-onregistermodeavailable
+        - name: "OnRegisterStateChange Method"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnregistrationevents-onregisterstatechange
+        - name: "OnSetRegisterModeComplete Method"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnregistrationevents-onsetregistermodecomplete
+      - name: "IMbnServiceActivation"
+        href: /windows/desktop/api/mbnapi/nn-mbnapi-imbnserviceactivation
+        items: 
+        - name: "Activate Method"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnserviceactivation-activate
+      - name: "IMbnServiceActivationEvents"
+        href: /windows/desktop/api/mbnapi/nn-mbnapi-imbnserviceactivationevents
+        items: 
+        - name: "OnActivationComplete Method"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnserviceactivationevents-onactivationcomplete
+      - name: "IMbnSignal"
+        href: /windows/desktop/api/mbnapi/nn-mbnapi-imbnsignal
+        items: 
+        - name: "GetSignalError Method"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnsignal-getsignalerror
+        - name: "GetSignalStrength Method"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnsignal-getsignalstrength
+      - name: "IMbnSignalEvents"
+        href: /windows/desktop/api/mbnapi/nn-mbnapi-imbnsignalevents
+        items: 
+        - name: "OnSignalStateChange Method"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnsignalevents-onsignalstatechange
+      - name: "IMbnSms"
+        href: /windows/desktop/api/mbnapi/nn-mbnapi-imbnsms
+        items: 
+        - name: "GetSmsConfiguration Method"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnsms-getsmsconfiguration
+        - name: "GetSmsStatus Method"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnsms-getsmsstatus
+        - name: "SetSmsConfiguration Method"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnsms-setsmsconfiguration
+        - name: "SmsDelete Method"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnsms-smsdelete
+        - name: "SmsRead Method"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnsms-smsread
+        - name: "SmsSendCdma Method"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnsms-smssendcdma
+        - name: "SmsSendCdmaPdu Method"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnsms-smssendcdmapdu
+        - name: "SmsSendPdu Method"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnsms-smssendpdu
+      - name: "IMbnSmsConfiguration"
+        href: /windows/desktop/api/mbnapi/nn-mbnapi-imbnsmsconfiguration
+        items: 
+        - name: "CdmaShortMsgSize Property"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnsmsconfiguration-get_cdmashortmsgsize
+        - name: "MaxMessageIndex Property"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnsmsconfiguration-get_maxmessageindex
+        - name: "ServiceCenterAddress Property"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnsmsconfiguration-get_servicecenteraddress
+        - name: "SmsFormat Property"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnsmsconfiguration-get_smsformat
+      - name: "IMbnSmsEvents"
+        href: /windows/desktop/api/mbnapi/nn-mbnapi-imbnsmsevents
+        items: 
+        - name: "OnSetSmsConfigurationComplete Method"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnsmsevents-onsetsmsconfigurationcomplete
+        - name: "OnSmsConfigurationChange Method"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnsmsevents-onsmsconfigurationchange
+        - name: "OnSmsDeleteComplete Method"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnsmsevents-onsmsdeletecomplete
+        - name: "OnSmsNewClass0Message Method"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnsmsevents-onsmsnewclass0message
+        - name: "OnSmsReadComplete Method"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnsmsevents-onsmsreadcomplete
+        - name: "OnSmsSendComplete Method"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnsmsevents-onsmssendcomplete
+        - name: "OnSmsStatusChange Method"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnsmsevents-onsmsstatuschange
+      - name: "IMbnSmsReadMsgPdu"
+        href: /windows/desktop/api/mbnapi/nn-mbnapi-imbnsmsreadmsgpdu
+        items: 
+        - name: "Index Property"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnsmsreadmsgpdu-get_index
+        - name: "Message Property"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnsmsreadmsgpdu-get_message
+        - name: "PduData Property"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnsmsreadmsgpdu-get_pdudata
+        - name: "Status Property"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnsmsreadmsgpdu-get_status
+      - name: "IMbnSmsReadMsgTextCdma"
+        href: /windows/desktop/api/mbnapi/nn-mbnapi-imbnsmsreadmsgtextcdma
+        items: 
+        - name: "Address Property"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnsmsreadmsgtextcdma-get_address
+        - name: "EncodingID Property"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnsmsreadmsgtextcdma-get_encodingid
+        - name: "Index Property"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnsmsreadmsgtextcdma-get_index
+        - name: "LanguageID Property"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnsmsreadmsgtextcdma-get_languageid
+        - name: "Message Property"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnsmsreadmsgtextcdma-get_message
+        - name: "SizeInCharacters Property"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnsmsreadmsgtextcdma-get_sizeincharacters
+        - name: "Status Property"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnsmsreadmsgtextcdma-get_status
+        - name: "Timestamp Property"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnsmsreadmsgtextcdma-get_timestamp
+      - name: "IMbnSubscriberInformation"
+        href: /windows/desktop/api/mbnapi/nn-mbnapi-imbnsubscriberinformation
+        items: 
+        - name: "SimIccID Property"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnsubscriberinformation-get_simiccid
+        - name: "SubscriberID Property"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnsubscriberinformation-get_subscriberid
+        - name: "TelephoneNumbers Property"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnsubscriberinformation-get_telephonenumbers
+      - name: "IMbnVendorSpecificEvents"
+        href: /windows/desktop/api/mbnapi/nn-mbnapi-imbnvendorspecificevents
+        items: 
+        - name: "OnEventNotification Method"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnvendorspecificevents-oneventnotification
+        - name: "OnSetVendorSpecificComplete Method"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnvendorspecificevents-onsetvendorspecificcomplete
+      - name: "IMbnVendorSpecificOperation"
+        href: /windows/desktop/api/mbnapi/nn-mbnapi-imbnvendorspecificoperation
+        items: 
+        - name: "SetVendorSpecific Method"
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnvendorspecificoperation-setvendorspecific
+    - name: "Mobile Broadband API Structures"
+      href: mobile-broadband-networks-api-structures.md
+      items: 
+      - name: "MBN_CONTEXT"
+        href: /windows/desktop/api/mbnapi/ns-mbnapi-mbn_context
+      - name: "MBN_DEVICE_SERVICE"
+        href: /windows/desktop/api/mbnapi/ns-mbnapi-mbn_device_service
+      - name: "MBN_INTERFACE_CAPS"
+        href: /windows/desktop/api/mbnapi/ns-mbnapi-mbn_interface_caps
+      - name: "MBN_PIN_INFO"
+        href: /windows/desktop/api/mbnapi/ns-mbnapi-mbn_pin_info
+      - name: "MBN_PROVIDER"
+        href: /windows/desktop/api/mbnapi/ns-mbnapi-mbn_provider
+      - name: "MBN_PROVIDER2"
+        href: /windows/desktop/api/mbnapi/ns-mbnapi-mbn_provider2
+      - name: "MBN_SMS_FILTER"
+        href: /windows/desktop/api/mbnapi/ns-mbnapi-mbn_sms_filter
+      - name: "MBN_SMS_STATUS_INFO"
+        href: /windows/desktop/api/mbnapi/ns-mbnapi-mbn_sms_status_info
+  - name: "Mobile Broadband Profile Schema Reference"
+    href: schema-schema.md
+    items: 
+    - name: "Mobile Broadband Profile Schema v1"
+      href: mobile-broadband-profile-schema.md
+      items: 
+      - name: "Mobile Broadband Profile Schema v1 Elements"
+        href: schema-elements.md
+        items: 
+        - name: "AccessString (contextType) Element"
+          href: schema-accessstring-contexttype-element.md
+        - name: "AuthProtocol (contextType) Element"
+          href: schema-authprotocol-contexttype-element.md
+        - name: "AutoConnectOnInternet (MBNProfile) Element"
+          href: schema-autoconnectoninternet-mbnprofile-element.md
+        - name: "Compression (contextType) Element"
+          href: schema-compression-contexttype-element.md
+        - name: "ConnectionMode (MBNProfile) Element"
+          href: schema-connectionmode-mbnprofile-element.md
+        - name: "Context (MBNProfile) Element"
+          href: schema-context-mbnprofile-element.md
+        - name: "DataRoamingPartners (MBNProfile) Element"
+          href: schema-dataroamingpartners-mbnprofile-element.md
+        - name: "Description (MBNProfile) Element"
+          href: schema-description-mbnprofile-element.md
+        - name: "HomeProviderName (MBNProfile) Element"
+          href: schema-homeprovidername-mbnprofile-element.md
+        - name: "ICONFilePath (MBNProfile) Element"
+          href: schema-iconfilepath-mbnprofile-element.md
+        - name: "IgnorePassword (UserLogonCred) Element"
+          href: schema-ignorepassword-userlogoncred-element.md
+        - name: "IsDefault (MBNProfile) Element"
+          href: schema-isdefault-mbnprofile-element.md
+        - name: "MBNProfile Element"
+          href: schema-mbnprofile-element.md
+        - name: "Name (MBNProfile) Element"
+          href: schema-name-mbnprofile-element.md
+        - name: "Password (UserLogonCred) Element"
+          href: schema-password-userlogoncred-element.md
+        - name: "ProfileCreationType (MBNProfile) Element"
+          href: schema-profilecreationtype-mbnprofile-element.md
+        - name: "Provider (DataRoamingPartners) Element"
+          href: schema-provider-dataroamingpartners-element.md
+        - name: "ProviderID (providerType) Element"
+          href: schema-providerid-providertype-element.md
+        - name: "ProviderName (providerType) Element"
+          href: schema-providername-providertype-element.md
+        - name: "SimIccID (MBNProfile) Element"
+          href: schema-simiccid-mbnprofile-element.md
+        - name: "SubscriberID (MBNProfile) Element"
+          href: schema-subscriberid-mbnprofile-element.md
+        - name: "UserLogonCred (contextType) Element"
+          href: schema-userlogoncred-contexttype-element.md
+        - name: "UserName (UserLogonCred) Element"
+          href: schema-username-userlogoncred-element.md
+      - name: "Mobile Broadband Profile Schema v1 Simple Types"
+        href: schema-simple-types.md
+        items: 
+        - name: "iconFileType Simple Type"
+          href: schema-iconfiletype-simpletype.md
+        - name: "nameType Simple Type"
+          href: schema-nametype-simpletype.md
+        - name: "providerIdType Simple Type"
+          href: schema-provideridtype-simpletype.md
+        - name: "providerNameType Simple Type"
+          href: schema-providernametype-simpletype.md
+        - name: "simIccIDType Simple Type"
+          href: schema-simiccidtype-simpletype.md
+        - name: "subscriberIdType Simple Type"
+          href: schema-subscriberidtype-simpletype.md
+      - name: "Mobile Broadband Profile Schema v1 Complex Types"
+        href: schema-complex-types.md
+        items: 
+        - name: "contextType Complex Type"
+          href: schema-contexttype-complextype.md
+        - name: "providerType Complex Type"
+          href: schema-providertype-complextype.md
+    - name: "Mobile Broadband Profile Schema v2"
+      href: mobile-broadband-profile-schema-v2.md
+      items: 
+      - name: "Mobile Broadband Profile Schema v2 Elements"
+        href: mobile-broadband-profile-schema-v2-elements.md
+        items: 
+        - name: "DisplayProviderName"
+          href: element-displayprovidername.md
+        - name: "IsPurchaseProfile"
+          href: element-ispurchaseprofile.md
+    - name: "Mobile Broadband Profile Schema v3"
+      href: mobile-broadband-profile-schema-v3.md
+      items: 
+      - name: "Mobile Broadband Profile Schema v3 Elements"
+        href: mobile-broadband-profile-schema-v3-elements.md
+        items: 
+        - name: "IsAdditionalPdpContextProfile"
+          href: element-isadditionalpdpcontextprofile.md
+    - name: "Mobile Broadband Profile Schema v4"
+      href: schema-root.md
+      items: 
+      - name: "Mobile Broadband Profile Schema v4 Elements"
+        href: root-elements.md
+        items: 
+        - name: "MBNProfileExt"
+          href: element-mbnprofileext.md
+          items: 
+          - name: "Name"
+            href: element-name.md
+          - name: "Description"
+            href: element-description.md
+          - name: "ICONFilePath"
+            href: element-iconfilepath.md
+          - name: "IsDefault"
+            href: element-isdefault.md
+          - name: "ProfileCreationType"
+            href: element-profilecreationtype.md
+          - name: "SubscriberID"
+            href: element-subscriberid.md
+          - name: "SimIccID"
+            href: element-simiccid.md
+          - name: "HomeProviderName"
+            href: element-homeprovidername.md
+          - name: "AutoConnectOnInternet"
+            href: element-autoconnectoninternet.md
+          - name: "ConnectionMode"
+            href: element-connectionmode.md
+          - name: "Context"
+            href: element-context.md
+            items: 
+            - name: "AccessString"
+              href: element-accessstring.md
+            - name: "UserLogonCred"
+              href: element-userlogoncred.md
+              items: 
+              - name: "UserName"
+                href: element-username.md
+              - name: "IgnorePassword"
+                href: element-ignorepassword.md
+              - name: "Password"
+                href: element-password.md
+            - name: "Compression"
+              href: element-compression.md
+            - name: "AuthProtocol"
+              href: element-authprotocol.md
+            - name: "IPType"
+              href: element-iptype.md
+          - name: "DataRoamingPartners"
+            href: element-dataroamingpartners.md
+            items: 
+            - name: "Provider"
+              href: element-provider.md
+          - name: "PurposeGroups"
+            href: element-purposegroups.md
+            items: 
+            - name: "PurposeGroupGuid"
+              href: element-purposegroupguid.md
+          - name: "ProfileConditionedOn"
+            href: element-profileconditionedon.md
+            items: 
+            - name: "CellularClass"
+              href: element-cellularclass.md
+            - name: "RATApplicability"
+              href: element-ratapplicability.md
+            - name: "RoamApplicability"
+              href: element-roamapplicability.md
+            - name: "IMSI"
+              href: element-imsi.md
+            - name: "IwlanApplicability"
+              href: element-iwlanapplicability.md
+          - name: "IsProvisioningProfile"
+            href: element-isprovisioningprofile.md
+          - name: "ApnID"
+            href: element-apnid.md
+          - name: "AdminEnable"
+            href: element-adminenable.md
+          - name: "AdminRoamControl"
+            href: element-adminroamcontrol.md
+          - name: "IsExclusiveToOther"
+            href: element-isexclusivetoother.md
+          - name: "IsLongStandingAdditionalPdpContextProfile"
+            href: element-islongstandingadditionalpdpcontextprofile.md
+          - name: "MmsConfiguration"
+            href: element-mmsconfiguration.md
+            items: 
+            - name: "MmscUrl"
+              href: element-mmscurl.md
+            - name: "MmscPort"
+              href: element-mmscport.md
+            - name: "MmsMaximumMessageSize"
+              href: element-mmsmaximummessagesize.md
+        - name: "ModemDMConfigProfile"
+          href: element-modemdmconfigprofile.md
+          items: 
+          - name: "Name"
+            href: element-1-name.md
+          - name: "SimIccID"
+            href: element-1-simiccid.md
+          - name: "ApnID"
+            href: element-1-apnid.md
+          - name: "OemConnectionId"
+            href: element-oemconnectionid.md
+          - name: "RoamApplicability"
+            href: element-1-roamapplicability.md
+          - name: "Context"
+            href: element-1-context.md
+            items: 
+            - name: "AccessString"
+              href: element-1-accessstring.md
+            - name: "UserLogonCred"
+              href: element-1-userlogoncred.md
+              items: 
+              - name: "UserName"
+                href: element-1-username.md
+              - name: "IgnorePassword"
+                href: element-1-ignorepassword.md
+              - name: "Password"
+                href: element-1-password.md
+            - name: "Compression"
+              href: element-1-compression.md
+            - name: "AuthProtocol"
+              href: element-1-authprotocol.md
+            - name: "IPType"
+              href: element-1-iptype.md
+          - name: "AdminEnable"
+            href: element-1-adminenable.md
+          - name: "AdminRoamControl"
+            href: element-1-adminroamcontrol.md
+          - name: "ProfileCreationType"
+            href: element-1-profilecreationtype.md
+      - name: "Mobile Broadband Profile Schema v4 Simple types"
+        href: simple-types.md
+        items: 
+        - name: "guidType Simple Type"
+          href: simpletype-guidtype.md
+        - name: "iwlanApplicabilityType Simple Type"
+          href: simpletype-iwlanapplicabilitytype.md
+        - name: "roamApplicabilityType Simple Type"
+          href: simpletype-roamapplicabilitytype.md
+        - name: "roamControlType Simple Type"
+          href: simpletype-roamcontroltype.md

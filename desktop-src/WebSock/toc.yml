@@ -1,0 +1,56 @@
+- name: "WebSocket Protocol Component API"
+  href: web-socket-protocol-component-api-portal.md
+  items: 
+  - name: "WebSocket Protocol Component API Data Types"
+    href: web-socket-protocol-component-api-data-types.md
+  - name: "WebSocket Protocol Component API Enumerations"
+    href: web-socket-protocol-component-api-enumerations.md
+    items: 
+    - name: "WEB_SOCKET_ACTION"
+      href: /windows/win32/api/Websocket/ne-websocket-web_socket_action
+    - name: "WEB_SOCKET_ACTION_QUEUE"
+      href: /windows/win32/api/Websocket/ne-websocket-web_socket_action_queue
+    - name: "WEB_SOCKET_BUFFER_TYPE"
+      href: /windows/win32/api/Websocket/ne-websocket-web_socket_buffer_type
+    - name: "WEB_SOCKET_CLOSE_STATUS"
+      href: /windows/win32/api/Websocket/ne-websocket-web_socket_close_status
+    - name: "WEB_SOCKET_PROPERTY_TYPE"
+      href: /windows/win32/api/Websocket/ne-websocket-web_socket_property_type
+  - name: "WebSocket Protocol Component API Functions"
+    href: web-socket-protocol-component-api-functions.md
+    items: 
+    - name: "WebSocketAbortHandle"
+      href: /windows/desktop/api/Websocket/nf-websocket-websocketaborthandle
+    - name: "WebSocketBeginClientHandshake"
+      href: /windows/desktop/api/Websocket/nf-websocket-websocketbeginclienthandshake
+    - name: "WebSocketBeginServerHandshake"
+      href: /windows/desktop/api/Websocket/nf-websocket-websocketbeginserverhandshake
+    - name: "WebSocketCompleteAction"
+      href: /windows/desktop/api/Websocket/nf-websocket-websocketcompleteaction
+    - name: "WebSocketCreateClientHandle"
+      href: /windows/desktop/api/Websocket/nf-websocket-websocketcreateclienthandle
+    - name: "WebSocketCreateServerHandle"
+      href: /windows/desktop/api/Websocket/nf-websocket-websocketcreateserverhandle
+    - name: "WebSocketDeleteHandle"
+      href: /windows/desktop/api/Websocket/nf-websocket-websocketdeletehandle
+    - name: "WebSocketEndClientHandshake"
+      href: /windows/desktop/api/Websocket/nf-websocket-websocketendclienthandshake
+    - name: "WebSocketEndServerHandshake"
+      href: /windows/desktop/api/Websocket/nf-websocket-websocketendserverhandshake
+    - name: "WebSocketGetAction"
+      href: /windows/desktop/api/Websocket/nf-websocket-websocketgetaction
+    - name: "WebSocketGetGlobalProperty"
+      href: /windows/desktop/api/Websocket/nf-websocket-websocketgetglobalproperty
+    - name: "WebSocketReceive"
+      href: /windows/desktop/api/Websocket/nf-websocket-websocketreceive
+    - name: "WebSocketSend"
+      href: /windows/desktop/api/Websocket/nf-websocket-websocketsend
+  - name: "WebSocket Protocol Component API Structures"
+    href: web-socket-protocol-component-api-structures.md
+    items: 
+    - name: "WEB_SOCKET_BUFFER"
+      href: /windows/win32/api/Websocket/ns-websocket-web_socket_buffer
+    - name: "WEB_SOCKET_HTTP_HEADER"
+      href: /windows/win32/api/Websocket/ns-websocket-web_socket_http_header
+    - name: "WEB_SOCKET_PROPERTY"
+      href: /windows/win32/api/Websocket/ns-websocket-web_socket_property

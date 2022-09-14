@@ -1,0 +1,611 @@
+- name: "Windows System Information"
+  href: windows-system-information.md
+  items: 
+  - name: "Handles and Objects"
+    href: handles-and-objects.md
+    items: 
+    - name: "About Handles and Objects"
+      href: about-handles-and-objects.md
+      items: 
+      - name: "Object Manager"
+        href: object-manager.md
+      - name: "Object Interface"
+        href: object-interface.md
+      - name: "Handle Limitations"
+        href: handle-limitations.md
+      - name: "Handle Inheritance"
+        href: handle-inheritance.md
+    - name: "Object Categories"
+      href: object-categories.md
+      items: 
+      - name: "User Objects"
+        href: user-objects.md
+      - name: "GDI Objects"
+        href: gdi-objects.md
+      - name: "Kernel Objects"
+        href: kernel-objects.md
+    - name: "Handle and Object Reference"
+      href: handle-and-object-reference.md
+      items: 
+      - name: "Handle and Object Functions"
+        href: handle-and-object-functions.md
+        items: 
+        - name: "CloseHandle"
+          href: /windows/desktop/api/handleapi/nf-handleapi-closehandle
+        - name: "CompareObjectHandles"
+          href: /windows/desktop/api/handleapi/nf-handleapi-compareobjecthandles
+        - name: "DuplicateHandle"
+          href: /windows/desktop/api/handleapi/nf-handleapi-duplicatehandle
+        - name: "GetHandleInformation"
+          href: /windows/desktop/api/handleapi/nf-handleapi-gethandleinformation
+        - name: "SetHandleInformation"
+          href: /windows/desktop/api/handleapi/nf-handleapi-sethandleinformation
+  - name: "Registry"
+    href: registry.md
+    items: 
+    - name: "About the Registry"
+      href: about-the-registry.md
+      items: 
+      - name: "Structure of the Registry"
+        href: structure-of-the-registry.md
+      - name: "Registry Storage Space"
+        href: registry-storage-space.md
+      - name: "Predefined Keys"
+        href: predefined-keys.md
+        items: 
+        - name: "HKEY_CLASSES_ROOT Key"
+          href: hkey-classes-root-key.md
+        - name: "Merged View of HKEY_CLASSES_ROOT"
+          href: merged-view-of-hkey-classes-root.md
+      - name: "Registry Hives"
+        href: registry-hives.md
+      - name: "Categories of Data"
+        href: categories-of-data.md
+      - name: "Opening, Creating, and Closing Keys"
+        href: opening-creating-and-closing-keys.md
+      - name: "Writing and Deleting Registry Data"
+        href: writing-and-deleting-registry-data.md
+      - name: "Retrieving Data from the Registry"
+        href: retrieving-data-from-the-registry.md
+      - name: "Registry Files"
+        href: registry-files.md
+      - name: "Registry Key Security and Access Rights"
+        href: registry-key-security-and-access-rights.md
+      - name: "32-bit and 64-bit Application Data in the Registry"
+        href: 32-bit-and-64-bit-application-data-in-the-registry.md
+      - name: "Registry Virtualization"
+        href: registry-virtualization.md
+    - name: "Using the Registry"
+      href: using-the-registry.md
+      items: 
+      - name: "Enumerating Registry Subkeys"
+        href: enumerating-registry-subkeys.md
+      - name: "Deleting a Key with Subkeys"
+        href: deleting-a-key-with-subkeys.md
+      - name: "Determining the Registry Size"
+        href: determining-the-registry-size.md
+    - name: "Registry Reference"
+      href: registry-reference.md
+      items: 
+      - name: "Registry Functions"
+        href: registry-functions.md
+        items: 
+        - name: "GetPrivateProfileInt"
+          href: /windows/desktop/api/Winbase/nf-winbase-getprivateprofileint
+        - name: "GetPrivateProfileSection"
+          href: /windows/desktop/api/Winbase/nf-winbase-getprivateprofilesection
+        - name: "GetPrivateProfileSectionNames"
+          href: /windows/desktop/api/Winbase/nf-winbase-getprivateprofilesectionnames
+        - name: "GetPrivateProfileString"
+          href: /windows/desktop/api/Winbase/nf-winbase-getprivateprofilestring
+        - name: "GetPrivateProfileStruct"
+          href: /windows/desktop/api/Winbase/nf-winbase-getprivateprofilestruct
+        - name: "GetProfileInt"
+          href: /windows/desktop/api/Winbase/nf-winbase-getprofileinta
+        - name: "GetProfileSection"
+          href: /windows/desktop/api/Winbase/nf-winbase-getprofilesectiona
+        - name: "GetProfileString"
+          href: /windows/desktop/api/Winbase/nf-winbase-getprofilestringa
+        - name: "RegCloseKey"
+          href: /windows/desktop/api/Winreg/nf-winreg-regclosekey
+        - name: "RegConnectRegistry"
+          href: /windows/desktop/api/Winreg/nf-winreg-regconnectregistrya
+        - name: "RegCopyTree"
+          href: /windows/desktop/api/Winreg/nf-winreg-regcopytreea
+        - name: "RegCreateKey"
+          href: /windows/desktop/api/Winreg/nf-winreg-regcreatekeya
+        - name: "RegCreateKeyEx"
+          href: /windows/desktop/api/Winreg/nf-winreg-regcreatekeyexa
+        - name: "RegCreateKeyTransacted"
+          href: /windows/desktop/api/Winreg/nf-winreg-regcreatekeytransacteda
+        - name: "RegDeleteKey"
+          href: /windows/desktop/api/Winreg/nf-winreg-regdeletekeya
+        - name: "RegDeleteKeyEx"
+          href: /windows/desktop/api/Winreg/nf-winreg-regdeletekeyexa
+        - name: "RegDeleteKeyTransacted"
+          href: /windows/desktop/api/Winreg/nf-winreg-regdeletekeytransacteda
+        - name: "RegDeleteKeyValue"
+          href: /windows/desktop/api/Winreg/nf-winreg-regdeletekeyvaluea
+        - name: "RegDeleteTree"
+          href: /windows/desktop/api/Winreg/nf-winreg-regdeletetreea
+        - name: "RegDeleteValue"
+          href: /windows/desktop/api/Winreg/nf-winreg-regdeletevaluea
+        - name: "RegDisablePredefinedCache"
+          href: /windows/desktop/api/Winreg/nf-winreg-regdisablepredefinedcache
+        - name: "RegDisablePredefinedCacheEx"
+          href: /windows/desktop/api/Winreg/nf-winreg-regdisablepredefinedcacheex
+        - name: "RegDisableReflectionKey"
+          href: /windows/desktop/api/Winreg/nf-winreg-regdisablereflectionkey
+        - name: "RegEnableReflectionKey"
+          href: /windows/desktop/api/Winreg/nf-winreg-regenablereflectionkey
+        - name: "RegEnumKey"
+          href: /windows/desktop/api/Winreg/nf-winreg-regenumkeya
+        - name: "RegEnumKeyEx"
+          href: /windows/desktop/api/Winreg/nf-winreg-regenumkeyexa
+        - name: "RegEnumValue"
+          href: /windows/desktop/api/Winreg/nf-winreg-regenumvaluea
+        - name: "RegFlushKey"
+          href: /windows/desktop/api/Winreg/nf-winreg-regflushkey
+        - name: "RegGetValue"
+          href: /windows/desktop/api/Winreg/nf-winreg-reggetvaluea
+        - name: "RegLoadAppKey"
+          href: /windows/desktop/api/Winreg/nf-winreg-regloadappkeya
+        - name: "RegLoadKey"
+          href: /windows/desktop/api/Winreg/nf-winreg-regloadkeya
+        - name: "RegLoadMUIString"
+          href: /windows/desktop/api/Winreg/nf-winreg-regloadmuistringa
+        - name: "RegNotifyChangeKeyValue"
+          href: /windows/desktop/api/Winreg/nf-winreg-regnotifychangekeyvalue
+        - name: "RegOpenCurrentUser"
+          href: /windows/desktop/api/Winreg/nf-winreg-regopencurrentuser
+        - name: "RegOpenKey"
+          href: /windows/desktop/api/Winreg/nf-winreg-regopenkeya
+        - name: "RegOpenKeyEx"
+          href: /windows/desktop/api/Winreg/nf-winreg-regopenkeyexa
+        - name: "RegOpenKeyTransacted"
+          href: /windows/desktop/api/Winreg/nf-winreg-regopenkeytransacteda
+        - name: "RegOpenUserClassesRoot"
+          href: /windows/desktop/api/Winreg/nf-winreg-regopenuserclassesroot
+        - name: "RegOverridePredefKey"
+          href: /windows/desktop/api/Winreg/nf-winreg-regoverridepredefkey
+        - name: "RegQueryInfoKey"
+          href: /windows/desktop/api/Winreg/nf-winreg-regqueryinfokeya
+        - name: "RegQueryMultipleValues"
+          href: /windows/desktop/api/Winreg/nf-winreg-regquerymultiplevaluesa
+        - name: "RegQueryReflectionKey"
+          href: /windows/desktop/api/WinReg/nf-winreg-regqueryreflectionkey
+        - name: "RegQueryValue"
+          href: /windows/desktop/api/Winreg/nf-winreg-regqueryvaluea
+        - name: "RegQueryValueEx"
+          href: /windows/desktop/api/Winreg/nf-winreg-regqueryvalueexa
+        - name: "RegRenameKey"
+          href: /windows/desktop/api/Winreg/nf-winreg-regrenamekey
+        - name: "RegReplaceKey"
+          href: /windows/desktop/api/Winreg/nf-winreg-regreplacekeya
+        - name: "RegRestoreKey"
+          href: /windows/desktop/api/Winreg/nf-winreg-regrestorekeya
+        - name: "RegSaveKey"
+          href: /windows/desktop/api/Winreg/nf-winreg-regsavekeya
+        - name: "RegSaveKeyEx"
+          href: /windows/desktop/api/Winreg/nf-winreg-regsavekeyexa
+        - name: "RegSetKeyValue"
+          href: /windows/desktop/api/Winreg/nf-winreg-regsetkeyvaluea
+        - name: "RegSetValue"
+          href: /windows/desktop/api/Winreg/nf-winreg-regsetvaluea
+        - name: "RegSetValueEx"
+          href: /windows/desktop/api/Winreg/nf-winreg-regsetvalueexa
+        - name: "RegUnLoadKey"
+          href: /windows/desktop/api/Winreg/nf-winreg-regunloadkeya
+        - name: "WritePrivateProfileSection"
+          href: /windows/desktop/api/Winbase/nf-winbase-writeprivateprofilesectiona
+        - name: "WritePrivateProfileString"
+          href: /windows/desktop/api/Winbase/nf-winbase-writeprivateprofilestringa
+        - name: "WritePrivateProfileStruct"
+          href: /windows/desktop/api/Winbase/nf-winbase-writeprivateprofilestructa
+        - name: "WriteProfileSection"
+          href: /windows/desktop/api/Winbase/nf-winbase-writeprofilesectiona
+        - name: "WriteProfileString"
+          href: /windows/desktop/api/Winbase/nf-winbase-writeprofilestringa
+      - name: "Registry Structures"
+        href: registry-structures.md
+        items: 
+        - name: "VALENT"
+          href: /windows/win32/api/winreg/ns-winreg-valenta
+      - name: "Registry Element Size Limits"
+        href: registry-element-size-limits.md
+      - name: "Registry Value Types"
+        href: registry-value-types.md
+  - name: "System Information"
+    href: system-information.md
+    items: 
+    - name: "About System Information"
+      href: about-system-information.md
+      items: 
+      - name: "Hardware Configuration"
+        href: hardware-configuration.md
+      - name: "Computer Names"
+        href: computer-names.md
+      - name: "Operating System Version"
+        href: operating-system-version.md
+      - name: "Operating System Configuration"
+        href: operating-system-configuration.md
+    - name: "Using System Information"
+      href: using-system-information.md
+      items: 
+      - name: "Access SMBIOS information from a Universal Windows App"
+        href: access-smbios-information-from-a-universal-windows-app.md
+      - name: "Access UEFI firmware variables from a Universal Windows App"
+        href: access-uefi-firmware-variables-from-a-universal-windows-app.md
+      - name: "Getting System Information"
+        href: getting-system-information.md
+      - name: "Getting the System Version"
+        href: getting-the-system-version.md
+      - name: "Verifying the System Version"
+        href: verifying-the-system-version.md
+      - name: "Detecting a Product Suite"
+        href: detecting-a-product-suite.md
+      - name: "Getting Hardware Information"
+        href: getting-hardware-information.md
+      - name: "Targeting your application for Windows"
+        href: targeting-your-application-at-windows-8-1.md
+    - name: "System Information Reference"
+      href: system-information-reference.md
+      items: 
+      - name: "System Information Functions"
+        href: system-information-functions.md
+        items: 
+        - name: "ApiSetQueryApiSetPresence"
+          href: apisetqueryapisetpresence.md
+        - name: "ApiSetQueryApiSetPresenceEx"
+          href: apisetqueryapisetpresenceex.md
+        - name: "CeipIsOptedIn"
+          href: /windows/desktop/api/Windowsceip/nf-windowsceip-ceipisoptedin
+        - name: "DnsHostnameToComputerName"
+          href: /windows/desktop/api/Winbase/nf-winbase-dnshostnametocomputernamea
+        - name: "EnumSystemFirmwareTables"
+          href: /windows/desktop/api/sysinfoapi/nf-sysinfoapi-enumsystemfirmwaretables
+        - name: "ExpandEnvironmentStrings"
+          href: /windows/desktop/api//rrascfg/nn-rrascfg-ieapproviderconfig
+        - name: "GetComputerName"
+          href: /windows/desktop/api/Winbase/nf-winbase-getcomputernamea
+        - name: "GetComputerNameEx"
+          href: /windows/desktop/api/sysinfoapi/nf-sysinfoapi-getcomputernameexa
+        - name: "GetComputerObjectName"
+          href: /windows/desktop/api/Secext/nf-secext-getcomputerobjectnamea
+        - name: "GetCurrentHwProfile"
+          href: /windows/desktop/api/Winbase/nf-winbase-getcurrenthwprofilea
+        - name: "GetFirmwareEnvironmentVariable"
+          href: /windows/desktop/api/Winbase/nf-winbase-getfirmwareenvironmentvariablea
+        - name: "GetFirmwareEnvironmentVariableEx"
+          href: /windows/desktop/api/Winbase/nf-winbase-getfirmwareenvironmentvariableexa
+        - name: "GetFirmwareType"
+          href: /windows/desktop/api/Winbase/nf-winbase-getfirmwaretype
+        - name: "GetIntegratedDisplaySize"
+          href: /windows/desktop/api/sysinfoapi/nf-sysinfoapi-getintegrateddisplaysize
+        - name: "GetNativeSystemInfo"
+          href: /windows/desktop/api/sysinfoapi/nf-sysinfoapi-getnativesysteminfo
+        - name: "GetProductInfo"
+          href: /windows/desktop/api/sysinfoapi/nf-sysinfoapi-getproductinfo
+        - name: "GetSystemDirectory"
+          href: /windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsystemdirectorya
+        - name: "GetSystemFirmwareTable"
+          href: /windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsystemfirmwaretable
+        - name: "GetSystemInfo"
+          href: /windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsysteminfo
+        - name: "GetSystemRegistryQuota"
+          href: /windows/desktop/api/Winbase/nf-winbase-getsystemregistryquota
+        - name: "GetSystemWindowsDirectory"
+          href: /windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsystemwindowsdirectorya
+        - name: "GetSystemWow64Directory"
+          href: /windows/desktop/api/wow64apiset/nf-wow64apiset-getsystemwow64directorya
+        - name: "GetSystemWow64Directory2"
+          href: /windows/desktop/api/wow64apiset/nf-wow64apiset-getsystemwow64directory2a
+        - name: "GetUserName"
+          href: /windows/desktop/api/Winbase/nf-winbase-getusernamea
+        - name: "GetUserNameEx"
+          href: /windows/desktop/api/Secext/nf-secext-getusernameexa
+        - name: "GetVersion"
+          href: /windows/desktop/api/sysinfoapi/nf-sysinfoapi-getversion
+        - name: "GetVersionEx"
+          href: /windows/desktop/api/sysinfoapi/nf-sysinfoapi-getversionexa
+        - name: "GetWindowsDirectory"
+          href: /windows/desktop/api/sysinfoapi/nf-sysinfoapi-getwindowsdirectorya
+        - name: "IsNativeVhdBoot"
+          href: /windows/desktop/api/Winbase/nf-winbase-isnativevhdboot
+        - name: "IsProcessorFeaturePresent"
+          href: /windows/desktop/api/processthreadsapi/nf-processthreadsapi-isprocessorfeaturepresent
+        - name: "IsWow64GuestMachineSupported"
+          href: /windows/desktop/api/wow64apiset/nf-wow64apiset-iswow64guestmachinesupported
+        - name: "NtQuerySystemInformation"
+          href: /windows/desktop/api/Winternl/nf-winternl-ntquerysysteminformation
+        - name: "QueryPerformanceCounter"
+          href: /windows/desktop/api/profileapi/nf-profileapi-queryperformancecounter
+        - name: "QueryPerformanceFrequency"
+          href: /windows/desktop/api/profileapi/nf-profileapi-queryperformancefrequency
+        - name: "RtlGetSuiteMask"
+          href: rtlgetsuitemask.md
+        - name: "SetComputerName"
+          href: /windows/desktop/api/sysinfoapi/nf-sysinfoapi-setcomputernamea
+        - name: "SetComputerNameEx"
+          href: /windows/desktop/api/sysinfoapi/nf-sysinfoapi-setcomputernameexa
+        - name: "SetFirmwareEnvironmentVariable"
+          href: /windows/desktop/api/Winbase/nf-winbase-setfirmwareenvironmentvariablea
+        - name: "SetFirmwareEnvironmentVariableEx"
+          href: /windows/desktop/api/Winbase/nf-winbase-setfirmwareenvironmentvariableexa
+        - name: "TranslateName"
+          href: /windows/desktop/api/Secext/nf-secext-translatenamea
+        - name: "VerifyVersionInfo"
+          href: /windows/desktop/api/Winbase/nf-winbase-verifyversioninfoa
+        - name: "VerSetConditionMask"
+          href: /windows/desktop/api/Winnt/nf-winnt-versetconditionmask
+        - name: "Version Helper functions"
+          href: version-helper-apis.md
+          items: 
+          - name: "IsWindows10OrGreater"
+            href: /windows/desktop/api/VersionHelpers/nf-versionhelpers-iswindows10orgreater
+          - name: "IsWindows7OrGreater"
+            href: /windows/desktop/api/VersionHelpers/nf-versionhelpers-iswindows7orgreater
+          - name: "IsWindows7SP1OrGreater"
+            href: /windows/desktop/api/VersionHelpers/nf-versionhelpers-iswindows7sp1orgreater
+          - name: "IsWindows8OrGreater"
+            href: /windows/desktop/api/VersionHelpers/nf-versionhelpers-iswindows8orgreater
+          - name: "IsWindows8Point1OrGreater"
+            href: /windows/desktop/api/VersionHelpers/nf-versionhelpers-iswindows8point1orgreater
+          - name: "IsWindowsServer"
+            href: /windows/desktop/api/VersionHelpers/nf-versionhelpers-iswindowsserver
+          - name: "IsWindowsVistaOrGreater"
+            href: /windows/desktop/api/VersionHelpers/nf-versionhelpers-iswindowsvistaorgreater
+          - name: "IsWindowsVistaSP1OrGreater"
+            href: /windows/desktop/api/VersionHelpers/nf-versionhelpers-iswindowsvistasp1orgreater
+          - name: "IsWindowsVistaSP2OrGreater"
+            href: /windows/desktop/api/VersionHelpers/nf-versionhelpers-iswindowsvistasp2orgreater
+          - name: "IsWindowsXPOrGreater"
+            href: /windows/desktop/api/VersionHelpers/nf-versionhelpers-iswindowsxporgreater
+          - name: "IsWindowsXPSP1OrGreater"
+            href: /windows/desktop/api/VersionHelpers/nf-versionhelpers-iswindowsxpsp1orgreater
+          - name: "IsWindowsXPSP2OrGreater"
+            href: /windows/desktop/api/VersionHelpers/nf-versionhelpers-iswindowsxpsp2orgreater
+          - name: "IsWindowsXPSP3OrGreater"
+            href: /windows/desktop/api/VersionHelpers/nf-versionhelpers-iswindowsxpsp3orgreater
+          - name: "IsWindowsVersionOrGreater"
+            href: /windows/desktop/api/VersionHelpers/nf-versionhelpers-iswindowsversionorgreater
+        - name: "ZwQuerySystemInformation"
+          href: zwquerysysteminformation.md
+      - name: "System Information Structures"
+        href: system-information-structures.md
+        items: 
+        - name: "HW_PROFILE_INFO"
+          href: /windows/win32/api/Winbase/ns-winbase-hw_profile_infoa
+        - name: "OSVERSIONINFO"
+          href: /windows/win32/api/Winnt/ns-winnt-osversioninfoa
+        - name: "OSVERSIONINFOEX"
+          href: /windows/win32/api/Winnt/ns-winnt-osversioninfoexa
+        - name: "SYSTEM_INFO"
+          href: /windows/win32/api/sysinfoapi/ns-sysinfoapi-system_info
+      - name: "System Information Macros"
+        href: system-information-macros.md
+        items: 
+        - name: "VER_SET_CONDITION"
+          href: /windows/desktop/api/Winnt/nf-winnt-ver_set_condition
+      - name: "System Information Enumeration Types"
+        href: system-information-enumeration-types.md
+        items: 
+        - name: "COMPUTER_NAME_FORMAT"
+          href: /windows/win32/api/sysinfoapi/ne-sysinfoapi-computer_name_format
+        - name: "EXTENDED_NAME_FORMAT"
+          href: /windows/desktop/api/Secext/ne-secext-extended_name_format
+        - name: "FIRMWARE_TYPE"
+          href: /windows/win32/api/Winnt/ne-winnt-firmware_type
+      - name: "Image File Machine Constants"
+        href: image-file-machine-constants.md
+  - name: "Time"
+    href: time.md
+    items: 
+    - name: "About Time"
+      href: about-time.md
+      items: 
+      - name: "System Time"
+        href: system-time.md
+      - name: "Local Time"
+        href: local-time.md
+      - name: "File Times"
+        href: file-times.md
+      - name: "MS-DOS Date and Time"
+        href: ms-dos-date-and-time.md
+      - name: "Windows Time"
+        href: windows-time.md
+      - name: "Interrupt Time"
+        href: interrupt-time.md
+    - name: "Using Time"
+      href: using-time.md
+      items: 
+      - name: "Retrieving the Last-Write Time"
+        href: retrieving-the-last-write-time.md
+      - name: "Changing a File Time to the Current Time"
+        href: changing-a-file-time-to-the-current-time.md
+      - name: "Converting a time_t Value to a File Time"
+        href: converting-a-time-t-value-to-a-file-time.md
+      - name: "Acquiring high-resolution time stamps"
+        href: acquiring-high-resolution-time-stamps.md
+    - name: "Time Reference"
+      href: time-reference.md
+      items: 
+      - name: "Time Functions"
+        href: time-functions.md
+        items: 
+        - name: "CompareFileTime"
+          href: /windows/desktop/api/FileAPI/nf-fileapi-comparefiletime
+        - name: "ConvertAuxiliaryCounterToPerformanceCounter"
+          href: /windows/desktop/api/realtimeapiset/nf-realtimeapiset-convertauxiliarycountertoperformancecounter
+        - name: "ConvertPerformanceCounterToAuxiliaryCounter"
+          href: /windows/desktop/api/realtimeapiset/nf-realtimeapiset-convertperformancecountertoauxiliarycounter
+        - name: "DosDateTimeToFileTime"
+          href: /windows/desktop/api/Winbase/nf-winbase-dosdatetimetofiletime
+        - name: "EnumDynamicTimeZoneInformation"
+          href: /windows/desktop/api/timezoneapi/nf-timezoneapi-enumdynamictimezoneinformation
+        - name: "FileTimeToDosDateTime"
+          href: /windows/desktop/api/Winbase/nf-winbase-filetimetodosdatetime
+        - name: "FileTimeToLocalFileTime"
+          href: /windows/desktop/api/FileAPI/nf-fileapi-filetimetolocalfiletime
+        - name: "FileTimeToSystemTime"
+          href: /windows/desktop/api/timezoneapi/nf-timezoneapi-filetimetosystemtime
+        - name: "GetDynamicTimeZoneInformation"
+          href: /windows/desktop/api/timezoneapi/nf-timezoneapi-getdynamictimezoneinformation
+        - name: "GetDynamicTimeZoneInformationEffectiveYears"
+          href: /windows/desktop/api/timezoneapi/nf-timezoneapi-getdynamictimezoneinformationeffectiveyears
+        - name: "GetFileTime"
+          href: /windows/desktop/api/FileAPI/nf-fileapi-getfiletime
+        - name: "GetLocalTime"
+          href: /windows/desktop/api/sysinfoapi/nf-sysinfoapi-getlocaltime
+        - name: "GetSystemTime"
+          href: /windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsystemtime
+        - name: "GetSystemTimeAdjustment"
+          href: /windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsystemtimeadjustment
+        - name: "GetSystemTimeAdjustmentPrecise"
+          href: /windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsystemtimeadjustmentprecise
+        - name: "GetSystemTimeAsFileTime"
+          href: /windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsystemtimeasfiletime
+        - name: "GetSystemTimePreciseAsFileTime"
+          href: /windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsystemtimepreciseasfiletime
+        - name: "GetSystemTimes"
+          href: /windows/desktop/api/processthreadsapi/nf-processthreadsapi-getsystemtimes
+        - name: "GetTickCount"
+          href: /windows/desktop/api/sysinfoapi/nf-sysinfoapi-gettickcount
+        - name: "GetTickCount64"
+          href: /windows/desktop/api/sysinfoapi/nf-sysinfoapi-gettickcount64
+        - name: "GetTimeZoneInformation"
+          href: /windows/desktop/api/timezoneapi/nf-timezoneapi-gettimezoneinformation
+        - name: "GetTimeZoneInformationForYear"
+          href: /windows/desktop/api/timezoneapi/nf-timezoneapi-gettimezoneinformationforyear
+        - name: "LocalFileTimeToFileTime"
+          href: /windows/desktop/api/FileAPI/nf-fileapi-localfiletimetofiletime
+        - name: "NtQuerySystemTime"
+          href: /windows/desktop/api/Winternl/nf-winternl-ntquerysystemtime
+        - name: "QueryAuxiliaryCounterFrequency"
+          href: /windows/desktop/api/realtimeapiset/nf-realtimeapiset-queryauxiliarycounterfrequency
+        - name: "QueryInterruptTime"
+          href: /windows/desktop/api/realtimeapiset/nf-realtimeapiset-queryinterrupttime
+        - name: "QueryInterruptTimePrecise"
+          href: /windows/desktop/api/realtimeapiset/nf-realtimeapiset-queryinterrupttimeprecise
+        - name: "QueryUnbiasedInterruptTime"
+          href: /windows/desktop/api/realtimeapiset/nf-realtimeapiset-queryunbiasedinterrupttime
+        - name: "QueryUnbiasedInterruptTimePrecise"
+          href: /windows/desktop/api/realtimeapiset/nf-realtimeapiset-queryunbiasedinterrupttimeprecise
+        - name: "RtlLocalTimeToSystemTime"
+          href: /windows/desktop/api/Winternl/nf-winternl-rtllocaltimetosystemtime
+        - name: "RtlTimeToSecondsSince1970"
+          href: /windows/desktop/api/Winternl/nf-winternl-rtltimetosecondssince1970
+        - name: "SetDynamicTimeZoneInformation"
+          href: /windows/desktop/api/timezoneapi/nf-timezoneapi-setdynamictimezoneinformation
+        - name: "SetFileTime"
+          href: /windows/desktop/api/FileAPI/nf-fileapi-setfiletime
+        - name: "SetLocalTime"
+          href: /windows/desktop/api/sysinfoapi/nf-sysinfoapi-setlocaltime
+        - name: "SetSystemTime"
+          href: /windows/desktop/api/sysinfoapi/nf-sysinfoapi-setsystemtime
+        - name: "SetSystemTimeAdjustment"
+          href: /windows/desktop/api/sysinfoapi/nf-sysinfoapi-setsystemtimeadjustment
+        - name: "SetSystemTimeAdjustmentPrecise"
+          href: /windows/desktop/api/sysinfoapi/nf-sysinfoapi-setsystemtimeadjustmentprecise
+        - name: "SetTimeZoneInformation"
+          href: /windows/desktop/api/timezoneapi/nf-timezoneapi-settimezoneinformation
+        - name: "SystemTimeToFileTime"
+          href: /windows/desktop/api/timezoneapi/nf-timezoneapi-systemtimetofiletime
+        - name: "SystemTimeToTzSpecificLocalTime"
+          href: /windows/desktop/api/timezoneapi/nf-timezoneapi-systemtimetotzspecificlocaltime
+        - name: "SystemTimeToTzSpecificLocalTimeEx"
+          href: /windows/desktop/api/timezoneapi/nf-timezoneapi-systemtimetotzspecificlocaltimeex
+        - name: "TzSpecificLocalTimeToSystemTime"
+          href: /windows/desktop/api/timezoneapi/nf-timezoneapi-tzspecificlocaltimetosystemtime
+        - name: "TzSpecificLocalTimeToSystemTimeEx"
+          href: /windows/desktop/api/timezoneapi/nf-timezoneapi-tzspecificlocaltimetosystemtimeex
+      - name: "Time Structures"
+        href: time-structures.md
+        items: 
+        - name: "DYNAMIC_TIME_ZONE_INFORMATION"
+          href: /windows/desktop/api/timezoneapi/ns-timezoneapi-dynamic_time_zone_information
+        - name: "FILETIME"
+          href: /windows/desktop/api/minwinbase/ns-minwinbase-filetime
+        - name: "SYSTEMTIME"
+          href: /windows/desktop/api/minwinbase/ns-minwinbase-systemtime
+        - name: "TIME_ZONE_INFORMATION"
+          href: /windows/win32/api/timezoneapi/ns-timezoneapi-time_zone_information
+      - name: "Time Messages"
+        href: time-messages.md
+        items: 
+        - name: "WM_TIMECHANGE"
+          href: wm-timechange.md
+  - name: "Time Provider"
+    href: time-provider.md
+    items: 
+    - name: "Creating a Time Provider"
+      href: creating-a-time-provider.md
+    - name: "Registering a Time Provider"
+      href: registering-a-time-provider.md
+    - name: "Sample Time Provider"
+      href: sample-time-provider.md
+    - name: "Time Provider Reference"
+      href: time-provider-reference.md
+      items: 
+      - name: "Time Provider Functions"
+        href: time-provider-functions.md
+        items: 
+        - name: "AlertSamplesAvailFunc"
+          href: /windows/desktop/api/Timeprov/nc-timeprov-alertsamplesavailfunc
+        - name: "GetTimeSysInfoFunc"
+          href: /windows/desktop/api/Timeprov/nc-timeprov-gettimesysinfofunc
+        - name: "LogTimeProvEventFunc"
+          href: /windows/desktop/api/Timeprov/nc-timeprov-logtimeproveventfunc
+        - name: "SetProviderStatusFunc"
+          href: /windows/desktop/api/Timeprov/nc-timeprov-setproviderstatusfunc
+        - name: "SetProviderStatusInfoFreeFunc"
+          href: /windows/desktop/api/Timeprov/nc-timeprov-setproviderstatusinfofreefunc
+        - name: "TimeProvClose"
+          href: /windows/desktop/api/Timeprov/nf-timeprov-timeprovclose
+        - name: "TimeProvCommand"
+          href: /windows/desktop/api/Timeprov/nf-timeprov-timeprovcommand
+        - name: "TimeProvOpen"
+          href: /windows/desktop/api/Timeprov/nf-timeprov-timeprovopen
+      - name: "Time Provider Structures"
+        href: time-provider-structures.md
+        items: 
+        - name: "SetProviderStatusInfo"
+          href: /windows/desktop/api/Timeprov/ns-timeprov-setproviderstatusinfo
+        - name: "TimeProvSysCallbacks"
+          href: /windows/desktop/api/Timeprov/ns-timeprov-timeprovsyscallbacks
+        - name: "TimeSample"
+          href: /windows/desktop/api/Timeprov/ns-timeprov-timesample
+        - name: "TpcGetSamplesArgs"
+          href: /windows/desktop/api/Timeprov/ns-timeprov-tpcgetsamplesargs
+  - name: "WaaS Assessment Platform"
+    href: update-assessor-service.md
+    items: 
+    - name: "About the WaaS Assessment Platform"
+      href: about-update-assessor-service.md
+    - name: "Using the WaaS Assessment Platform"
+      href: using-update-assessor-service.md
+    - name: "WaaS Assessment Reference"
+      href: update-assessor-reference.md
+      items: 
+      - name: "WaaS Assessment Structures"
+        href: update-assessor-structures.md
+        items: 
+        - name: "OSUpdateAssessment"
+          href: /windows/win32/api/waasapitypes/ns-waasapitypes-osupdateassessment
+        - name: "UpdateAssessment"
+          href: /windows/win32/api/waasapitypes/ns-waasapitypes-updateassessment
+      - name: "WaaS Assessment Enumerations"
+        href: update-assessor-enumerations.md
+        items: 
+        - name: "UpdateAssessmentStatus"
+          href: updateassessmentstatus.md
+        - name: "UpdateImpactLevel"
+          href: updateimpactlevel.md
+      - name: "WaaS Assessment Interfaces"
+        href: update-assessor-interfaces.md
+        items: 
+        - name: "IWaaSAssessor"
+          href: /windows/desktop/api/waasapi/nn-waasapi-iwaasassessor
+          items: 
+          - name: "GetOSUpdateAssessment method"
+            href: /windows/desktop/api/waasapi/nf-waasapi-iwaasassessor-getosupdateassessment

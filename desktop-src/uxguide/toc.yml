@@ -1,0 +1,157 @@
+- name: "Design basics"
+  href: designprinciples.md
+  items: 
+  - name: "How to Design a Great UX"
+    href: how-to-design-desktop-ux.md
+  - name: "UX checklist"
+    href: top-violations.md
+- name: "Guidelines"
+  href: guidelines.md
+  items: 
+  - name: "Controls"
+    href: controls.md
+    items: 
+    - name: "Balloons"
+      href: ctrl-balloons.md
+    - name: "Check Boxes"
+      href: ctrl-check-boxes.md
+    - name: "Command Buttons"
+      href: ctrl-command-buttons.md
+    - name: "Command Links"
+      href: ctrl-command-links.md
+    - name: "Drop-down Lists & Combo Boxes"
+      href: ctrl-drop.md
+    - name: "Group Boxes"
+      href: ctrl-group-boxes.md
+    - name: "Links"
+      href: ctrl-links.md
+    - name: "List Boxes"
+      href: ctrl-list-boxes.md
+    - name: "List Views"
+      href: ctrl-list-views.md
+    - name: "Progress Bars"
+      href: progress-bars.md
+    - name: "Progressive Disclosure Controls"
+      href: ctrl-progressive-disclosure-controls.md
+    - name: "Radio Buttons"
+      href: ctrl-radio-buttons.md
+    - name: "Search Boxes"
+      href: ctrl-search-boxes.md
+    - name: "Sliders"
+      href: ctrl-sliders.md
+    - name: "Spin Controls"
+      href: ctrl-spin-controls.md
+    - name: "Status Bars"
+      href: ctrl-status-bars.md
+    - name: "Tabs"
+      href: ctrl-tabs.md
+    - name: "Text Boxes"
+      href: ctrl-text-boxes.md
+    - name: "Tooltips and Infotips"
+      href: ctrl-tooltips-and-infotips.md
+    - name: "Tree Views"
+      href: ctrl-tree-views.md
+  - name: "Commands"
+    href: commands.md
+    items: 
+    - name: "Menus"
+      href: cmd-menus.md
+    - name: "Ribbons"
+      href: cmd-ribbons.md
+    - name: "Toolbars"
+      href: cmd-toolbars.md
+  - name: "Text"
+    href: text.md
+    items: 
+    - name: "User Interface Text"
+      href: text-ui.md
+    - name: "Style and Tone"
+      href: text-style-tone.md
+  - name: "Messages"
+    href: messages.md
+    items: 
+    - name: "Error Messages"
+      href: mess-error.md
+    - name: "Warning Messages"
+      href: mess-warn.md
+    - name: "Confirmations"
+      href: mess-confirm.md
+    - name: "Notifications"
+      href: mess-notif.md
+  - name: "Interaction"
+    href: interaction.md
+    items: 
+    - name: "Touch"
+      href: inter-touch.md
+    - name: "Keyboard"
+      href: inter-keyboard.md
+    - name: "Mouse and Pointers"
+      href: inter-mouse.md
+    - name: "Pen"
+      href: inter-pen.md
+    - name: "Accessibility"
+      href: inter-accessibility.md
+  - name: "Windows"
+    href: windows.md
+    items: 
+    - name: "Window Management"
+      href: win-window-mgt.md
+    - name: "Window Frames"
+      href: win-window-frames.md
+    - name: "Dialog Boxes"
+      href: win-dialog-box.md
+    - name: "Common Dialogs"
+      href: win-common-dlg.md
+    - name: "Wizards"
+      href: win-wizards.md
+    - name: "Property Windows"
+      href: win-property-win.md
+  - name: "Visuals"
+    href: visuals.md
+    items: 
+    - name: "Layout"
+      href: vis-layout.md
+    - name: "Fonts"
+      href: vis-fonts.md
+    - name: "Color"
+      href: vis-color.md
+    - name: "Icons"
+      href: vis-icons.md
+    - name: "Standard Icons"
+      href: vis-std-icons.md
+    - name: "Animations and Transitions"
+      href: vis-animations.md
+    - name: "Graphic Elements"
+      href: vis-graphic.md
+    - name: "Sound"
+      href: vis-sound.md
+  - name: "Experiences"
+    href: experiences.md
+    items: 
+    - name: "Software Branding"
+      href: exper-branding.md
+    - name: "Setup"
+      href: exper-setup.md
+    - name: "First Experience"
+      href: exper-first-exper.md
+    - name: "Printing"
+      href: exper-printing.md
+  - name: "Windows Environment"
+    href: windows-environment.md
+    items: 
+    - name: "Desktop"
+      href: winenv-desktop.md
+    - name: "Taskbar"
+      href: winenv-taskbar.md
+    - name: "Notification Area"
+      href: winenv-notification.md
+    - name: "Control Panels"
+      href: winenv-ctrl-panels.md
+    - name: "Help"
+      href: winenv-help.md
+    - name: "User Account Control"
+      href: winenv-uac.md
+- name: "Visual index"
+  href: visual-index.md
+- name: "Glossary"
+  href: glossary.md

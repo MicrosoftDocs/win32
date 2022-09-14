@@ -1,0 +1,106 @@
+### YamlMime:Landing
+
+title: Build desktop Windows apps using the Win32 API
+summary: Learn how to build desktop apps for Windows PCs using C++ and the Win32 API.
+
+metadata: 
+  author: stevewhims
+  description: Learn how to build desktop apps for Windows PCs using C++ and the Win32 API.
+  manager: jken
+  ms.author: stwhi
+  ms.date: 09/10/2021
+  ms.topic: landing-page
+
+# linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | whats-new
+
+landingContent: 
+  # Card
+  - title: Get started
+    linkLists:
+      - linkListType: overview
+        links:
+          - text: Set up your computer
+            url: /windows/desktop/desktop-programming
+      - linkListType: tutorial
+        links:
+          - text: Create your first app with Win32 and C++
+            url: ./learnwin32/learn-to-program-for-windows.md
+      - linkListType: download
+        links:
+          - text: Development tools
+            url: https://developer.microsoft.com/windows/downloads
+          - text: Windows code samples
+            url: https://developer.microsoft.com/windows/samples
+
+  # Card
+  - title: Develop
+    linkLists:
+      - linkListType: overview
+        links:
+          - text: Windows features and technologies
+            url: desktop-app-technologies.md
+          - text: Modernize apps for Windows 10
+            url: /windows/apps/desktop/modernize
+      - linkListType: reference
+        links:
+          - text: Win32 API reference by feature
+            url: ./apiindex/windows-api-list.md
+          - text: Win32 API reference by header
+            url: /windows/win32/api/
+
+  # Card
+  - title: Resources and community
+    linkLists:
+      - linkListType: download
+        links:
+          - text: Windows virtual machines
+            url: https://developer.microsoft.com/windows/downloads/virtual-machines
+      - linkListType: overview
+        links:
+          - text: Windows Desktop Application Program
+            url: /windows/desktop/appxpkg/windows-desktop-application-program
+          - text: Stay compatible with Windows 10
+            url: https://developer.microsoft.com/windows/desktop/app-compatibility
+          - text: Windows developer support
+            url: https://developer.microsoft.com/windows/support
+          - text: "@WindowsDocs on Twitter"
+            url: https://developer.microsoft.com/games
+          - text: OneDevMinute on YouTube
+            url: /shows/One-Dev-Minute/?WT.mc_id=odm-c9-niner
+
+
+  # Card
+  - title: Related docs
+    linkLists:
+      - linkListType: overview
+        links:
+          - text: Build desktop apps for Windows
+            url: /windows/apps/desktop/choose-your-platform
+          - text: Windows App SDK
+            url: /windows/apps/windows-app-sdk/
+          - text: C++/WinRT
+            url: /windows/uwp/cpp-and-winrt-apis/
+          - text: MSIX packaging and deployment
+            url: /windows/msix/desktop/desktop-to-uwp-root
+          - text: UWP
+            url: /windows/uwp/
+          - text: .NET
+            url: /dotnet/
+          - text: Docs archive for Windows 8.x and earlier
+            url: /previous-versions/windows/
+
+  # Card
+  - title: Related technologies
+    linkLists:
+      - linkListType: overview
+        links:
+          - text: Windows AI
+            url: /windows/ai/
+          - text: Windows IoT
+            url: /windows/iot-core/
+          - text: Windows Mixed Reality
+            url: /windows/mixed-reality/
+          - text: Windows Containers
+            url: /virtualization/#pivot=main&panel=containers
+          - text: Games
+            url: https://developer.microsoft.com/games

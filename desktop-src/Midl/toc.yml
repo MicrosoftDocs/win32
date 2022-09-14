@@ -1,0 +1,720 @@
+- name: "Microsoft Interface Definition Language (MIDL)"
+  href: midl-start-page.md
+  items: 
+  - name: "About this Guide"
+    href: about-this-guide-2.md
+  - name: "Using the MIDL Compiler"
+    href: using-the-midl-compiler-2.md
+    items: 
+    - name: "Invoking the MIDL Compiler"
+      href: invoking-the-midl-compiler.md
+    - name: "Response Files"
+      href: response-files.md
+    - name: "Using C/C++-Preprocessor with MIDL"
+      href: using-c-c-preprocessor-with-midl.md
+      items: 
+      - name: "C-Preprocessor Requirements for MIDL"
+        href: c-preprocessor-requirements-for-midl.md
+      - name: "Dealing with #defines in IDL Files"
+        href: dealing-with-defines-in-idl-files-2.md
+      - name: "Verifying Preprocessor Options"
+        href: verifying-preprocessor-options.md
+      - name: "Saving Preprocessor Output"
+        href: saving-preprocessor-output.md
+    - name: "C/C++-Compiler Considerations"
+      href: c-c-compiler-considerations.md
+      items: 
+      - name: "C-Compiler Packing Issues"
+        href: c-compiler-packing-issues.md
+      - name: "C-Compiler Definitions for Proxy/Stubs"
+        href: c-compiler-definitions-for-proxy-stubs.md
+    - name: "Using the __midl Predefined Constant"
+      href: using-the---midl-predefined-constant.md
+    - name: "MIDL and RPC"
+      href: midl-and-rpc.md
+      items: 
+      - name: "Files Generated for an RPC Interface"
+        href: files-generated-for-an-rpc-interface.md
+        items: 
+        - name: "The Client Stub"
+          href: the-client-stub.md
+        - name: "The Server Stub"
+          href: the-server-stub.md
+        - name: "The Header File"
+          href: the-header-file.md
+      - name: "Targeting Stubs for Specific 32-bit or 64-bit Platforms"
+        href: targeting-stubs-for-specific-32-bit-or-64-bit-platforms.md
+    - name: "MIDL and COM"
+      href: midl-and-com.md
+      items: 
+      - name: "Files Generated for a COM Interface"
+        href: files-generated-for-a-com-interface.md
+        items: 
+        - name: "The Interface Proxy File"
+          href: the-interface-proxy-file.md
+        - name: "The Header Files"
+          href: the-header-files.md
+        - name: "The Interface UUID File"
+          href: the-interface-uuid-file.md
+        - name: "The Interface Registration File"
+          href: the-interface-registration-file.md
+      - name: "Marshaling OLE Data Types"
+        href: marshaling-ole-data-types.md
+    - name: "MIDL and ODL"
+      href: midl-and-odl.md
+      items: 
+      - name: "Generating a Type Library with MIDL"
+        href: generating-a-type-library-with-midl-2.md
+      - name: "Additional Files Required to Generate a Type Library"
+        href: additional-files-required-to-generate-a-type-library-2.md
+      - name: "Differences Between MIDL and MkTypLib"
+        href: differences-between-midl-and-mktyplib.md
+      - name: "ODL Language Features in MIDL"
+        href: odl-language-features-in-midl.md
+      - name: "Generating a Proxy DLL and a Type Library from a Single IDL File"
+        href: generating-a-proxy-dll-and-a-type-library-from-a-single-idl-file-2.md
+    - name: "MIDLRT and Windows Runtime components"
+      href: midlrt-and-windows-runtime-components.md
+      items: 
+      - name: "MDMERGE and metadata files"
+        href: mdmerge-and-metadata-files.md
+        items: 
+        - name: "/i"
+          href: -mdmerge-i.md
+        - name: "/metadata_dir"
+          href: -mdmerge-metadata-dir.md
+        - name: "/n"
+          href: -mdmerge-n.md
+        - name: "/o"
+          href: -mdmerge-o.md
+        - name: "/partial"
+          href: -mdmerge-partial.md
+        - name: "/v"
+          href: -mdmerge-v.md
+      - name: "/enum_class"
+        href: -enum-class.md
+      - name: "/metadata_dir"
+        href: -metadata-dir.md
+      - name: "/nomidl"
+        href: -nomidl.md
+      - name: "/nomd"
+        href: -nomd.md
+      - name: "/ns_prefix"
+        href: -ns-prefix.md
+      - name: "/winmd"
+        href: -winmd.md
+      - name: "/winrt"
+        href: -winrt.md
+  - name: "Interface Definitions and Type Libraries"
+    href: interface-definitions-and-type-libraries.md
+    items: 
+    - name: "Interfaces in Distributed Objects"
+      href: interfaces-in-distributed-objects.md
+    - name: "COM, DCOM, and Type Libraries"
+      href: com-dcom-and-type-libraries.md
+    - name: "Interface Definition (IDL) File"
+      href: interface-definition-idl-file.md
+      items: 
+      - name: "Data Types in the Interface Body"
+        href: data-types-in-the-interface-body.md
+        items: 
+        - name: "Type Definitions, Construct Declarations, and Imports"
+          href: type-definitions-construct-declarations-and-imports.md
+    - name: "IDL Attributes"
+      href: idl-attributes.md
+      items: 
+      - name: "Aliasing and Marshaling Attributes"
+        href: aliasing-and-marshaling-attributes.md
+      - name: "Asynchronous Attributes"
+        href: asynchronous-attributes.md
+      - name: "Array and Sized-Pointer Attributes"
+        href: array-and-sized-pointer-attributes.md
+      - name: "Data Type Attributes"
+        href: data-type-attributes.md
+      - name: "Directional Attributes"
+        href: directional-attributes.md
+      - name: "Function Call Attributes"
+        href: function-call-attributes.md
+      - name: "Interface Header Attributes"
+        href: interface-header-attributes.md
+      - name: "Performance Attributes"
+        href: performance-attributes.md
+      - name: "Pointer Type Attributes"
+        href: pointer-type-attributes.md
+      - name: "Structure and Union Attributes"
+        href: structure-and-union-attributes.md
+      - name: "Type Library Attributes"
+        href: type-library-attributes.md
+    - name: "Application Configuration File (ACF)"
+      href: application-configuration-file-acf-.md
+    - name: "ACF Attributes"
+      href: acf-attributes.md
+      items: 
+      - name: "Binding ACF Attributes"
+        href: binding-acf-attributes.md
+      - name: "Stub Optimization ACF Attributes"
+        href: stub-optimization-acf-attributes.md
+      - name: "Type-Conversion and Marshaling ACF Attributes"
+        href: type-conversion-and-marshaling-acf-attributes.md
+      - name: "Memory Management ACF Attributes"
+        href: memory-management-acf-attributes.md
+      - name: "Error and Exception Handling ACF Attributes"
+        href: error-and-exception-handling-acf-attributes.md
+      - name: "Using ACF Attributes in an IDL File"
+        href: using-acf-attributes-in-an-idl-file.md
+    - name: "MIDL Data Types"
+      href: midl-data-types.md
+      items: 
+      - name: "MIDL Base Types"
+        href: midl-base-types.md
+        items: 
+        - name: "MIDL Predefined and Base Types"
+          href: midl-predefined-and-base-types.md
+        - name: "Signed and Unsigned Types"
+          href: signed-vs--unsigned-types.md
+        - name: "Other MIDL Data Types"
+          href: other-midl-data-types.md
+      - name: "MIDL Arrays"
+        href: midl-arrays.md
+      - name: "MIDL Type Definitions"
+        href: midl-type-definitions.md
+      - name: "MIDL Enumerated Types"
+        href: midl-enumerated-types.md
+      - name: "MIDL Structures"
+        href: midl-structures.md
+      - name: "MIDL Unions"
+        href: midl-unions.md
+        items: 
+        - name: "Encapsulated Unions"
+          href: encapsulated-unions.md
+        - name: "Nonencapsulated Unions"
+          href: nonencapsulated-unions.md
+      - name: "MIDL Binding Handles"
+        href: midl-binding-handles.md
+    - name: "Importing Files and Type Libraries"
+      href: importing-files-and-type-libraries.md
+    - name: "Importing System Header Files"
+      href: importing-system-header-files.md
+  - name: "MIDL Command-Line Reference"
+    href: midl-command-line-reference.md
+    items: 
+    - name: "General MIDL Command-line Syntax"
+      href: general-midl-command-line-syntax.md
+    - name: "The Response File Command"
+      href: the-response-file-command.md
+    - name: "/acf"
+      href: -acf.md
+    - name: "/align"
+      href: -align.md
+    - name: "/amd64"
+      href: -amd64.md
+    - name: "/app_config"
+      href: -app-config.md
+    - name: "/backward_compat"
+      href: -backward-compat.md
+    - name: "/c_ext"
+      href: -c-ext.md
+    - name: "/caux"
+      href: -caux.md
+    - name: "/char"
+      href: -char.md
+    - name: "/client"
+      href: -client.md
+    - name: "/confirm"
+      href: -confirm.md
+    - name: "/cpp_cmd"
+      href: -cpp-cmd.md
+    - name: "/cpp_opt"
+      href: -cpp-opt.md
+    - name: "/cstruct_out"
+      href: -cstruct-out.md
+    - name: "/cstub"
+      href: -cstub.md
+    - name: "/D"
+      href: -d.md
+    - name: "/dlldata"
+      href: -dlldata.md
+    - name: "/env"
+      href: -env.md
+    - name: "/error"
+      href: -error.md
+    - name: "/h"
+      href: -h.md
+    - name: "/header"
+      href: -header.md
+    - name: "/help (/?)"
+      href: -help-.md
+    - name: "/I"
+      href: -i.md
+    - name: "/ia64"
+      href: -ia64.md
+    - name: "/iid"
+      href: -iid.md
+    - name: "/import"
+      href: -import.md
+    - name: "/lcid"
+      href: -lcid.md
+    - name: "/mktyplib203"
+      href: -mktyplib203.md
+    - name: "/ms_ext"
+      href: -ms-ext.md
+    - name: "/ms_union"
+      href: -ms-union.md
+    - name: "/msc_ver"
+      href: -msc-ver.md
+    - name: "/new"
+      href: -new.md
+    - name: "/newtlb"
+      href: -newtlb.md
+    - name: "/no_cpp, /nocpp"
+      href: -no-cpp-nocpp.md
+    - name: "/no_default_epv"
+      href: -no-default-epv.md
+    - name: "/no_def_idir"
+      href: -no-def-idir.md
+    - name: "/no_format_opt"
+      href: -no-format-opt.md
+    - name: "/no_robust"
+      href: -no-robust.md
+    - name: "/no_warn"
+      href: -no-warn.md
+    - name: "/nologo"
+      href: -nologo.md
+    - name: "/notlb"
+      href: -notlb.md
+    - name: "/o"
+      href: -o.md
+    - name: "/Oi"
+      href: -oi.md
+    - name: "/old"
+      href: -old.md
+    - name: "/oldtlb"
+      href: -oldtlb.md
+    - name: "/oldnames"
+      href: -oldnames.md
+    - name: "/Os"
+      href: -os.md
+    - name: "/osf"
+      href: -osf.md
+    - name: "/out"
+      href: -out.md
+    - name: "/pack"
+      href: -pack.md
+    - name: "/prefix"
+      href: -prefix.md
+    - name: "/protocol"
+      href: -protocol.md
+    - name: "/proxy"
+      href: -proxy.md
+    - name: "/robust"
+      href: -robust.md
+    - name: "/rpcss"
+      href: -rpcss.md
+    - name: "/sal"
+      href: -sal.md
+    - name: "/sal_local"
+      href: -sal-local.md
+    - name: "/saux"
+      href: -saux.md
+    - name: "/savePP"
+      href: -savepp.md
+    - name: "/server"
+      href: -server.md
+    - name: "/sstub"
+      href: -sstub.md
+    - name: "/syntax_check"
+      href: -syntax-check.md
+    - name: "/<system>"
+      href: -system-.md
+    - name: "/target"
+      href: -target.md
+    - name: "/tlb"
+      href: -tlb.md
+    - name: "/U"
+      href: -u.md
+    - name: "/use_epv"
+      href: -use-epv.md
+    - name: "/version_stamp"
+      href: -version-stamp.md
+    - name: "/W"
+      href: -w.md
+    - name: "/warn"
+      href: -warn.md
+    - name: "/win32"
+      href: -win32.md
+    - name: "/win64"
+      href: -win64.md
+    - name: "/WX"
+      href: -wx.md
+    - name: "/Zp"
+      href: -zp.md
+    - name: "/Zs"
+      href: -zs.md
+  - name: "MIDL Language Reference"
+    href: midl-language-reference.md
+    items: 
+    - name: "Reserved keywords"
+      href: reserved-keywords.md
+    - name: "Mixed Mode Serialization of Context Handles"
+      href: mixed-mode-serialization-of-context-handles.md
+    - name: "aggregatable"
+      href: aggregatable.md
+    - name: "allocate"
+      href: allocate.md
+    - name: "annotate"
+      href: annotate.md
+    - name: "appobject"
+      href: appobject.md
+    - name: "arrays"
+      href: arrays-1.md
+    - name: "async"
+      href: async.md
+    - name: "async_uuid"
+      href: async-uuid.md
+    - name: "auto_handle"
+      href: auto-handle.md
+    - name: "bindable"
+      href: bindable.md
+    - name: "Boolean"
+      href: boolean.md
+    - name: "broadcast"
+      href: broadcast.md
+    - name: "byte"
+      href: byte.md
+    - name: "byte_count"
+      href: byte-count.md
+    - name: "call_as"
+      href: call-as.md
+    - name: "callback"
+      href: callback.md
+    - name: "char"
+      href: char-idl.md
+    - name: "coclass"
+      href: coclass.md
+    - name: "code"
+      href: code.md
+    - name: "comm_status"
+      href: comm-status.md
+    - name: "const"
+      href: const.md
+    - name: "context_handle"
+      href: context-handle.md
+    - name: "context_handle_noserialize"
+      href: context-handle-noserialize.md
+    - name: "context_handle_serialize"
+      href: context-handle-serialize.md
+    - name: "control"
+      href: control.md
+    - name: "cpp_quote"
+      href: cpp-quote.md
+    - name: "custom"
+      href: custom.md
+    - name: "declare_guid"
+      href: declare-guid.md
+    - name: "decode"
+      href: decode.md
+    - name: "default"
+      href: default.md
+    - name: "defaultbind"
+      href: defaultbind.md
+    - name: "defaultcollelem"
+      href: defaultcollelem.md
+    - name: "defaultvalue"
+      href: defaultvalue.md
+    - name: "defaultvtable"
+      href: defaultvtable.md
+    - name: "disable_consistency_check"
+      href: disable-consistence-check.md
+    - name: "dispinterface"
+      href: dispinterface.md
+    - name: "displaybind"
+      href: displaybind.md
+    - name: "dllname(str)"
+      href: dllname-str-.md
+    - name: "double"
+      href: double.md
+    - name: "dual"
+      href: dual.md
+    - name: "enable_allocate"
+      href: enable-allocate.md
+    - name: "encode"
+      href: encode.md
+    - name: "endpoint"
+      href: endpoint.md
+    - name: "entry"
+      href: entry.md
+    - name: "enum"
+      href: enum.md
+    - name: "error_status_t"
+      href: error-status-t.md
+    - name: "explicit_handle"
+      href: explicit-handle.md
+    - name: "fault_status"
+      href: fault-status.md
+    - name: "first_is"
+      href: first-is.md
+    - name: "float"
+      href: float.md
+    - name: "force_allocate"
+      href: force-allocate.md
+    - name: "handle"
+      href: handle.md
+    - name: "handle_t"
+      href: handle-t.md
+    - name: "helpcontext"
+      href: helpcontext.md
+    - name: "helpfile"
+      href: helpfile.md
+    - name: "helpstring"
+      href: helpstring.md
+    - name: "helpstringcontext"
+      href: helpstringcontext.md
+    - name: "helpstringdll"
+      href: helpstringdll.md
+    - name: "hidden"
+      href: hidden.md
+    - name: "hyper"
+      href: hyper.md
+    - name: "id"
+      href: id.md
+    - name: "idempotent"
+      href: idempotent.md
+    - name: "ignore"
+      href: ignore.md
+    - name: "iid_is"
+      href: iid-is.md
+    - name: "immediatebind"
+      href: immediatebind.md
+    - name: "implicit_handle"
+      href: implicit-handle.md
+    - name: "import"
+      href: import.md
+    - name: "importlib"
+      href: importlib.md
+    - name: "in"
+      href: in.md
+    - name: "include"
+      href: include.md
+    - name: "in_line"
+      href: in-line.md
+    - name: "int"
+      href: int.md
+    - name: "__int3264"
+      href: --int3264.md
+    - name: "__int64"
+      href: --int64.md
+    - name: "interface"
+      href: interface.md
+    - name: "last_is"
+      href: last-is.md
+    - name: "lcid"
+      href: lcid.md
+    - name: "length_is"
+      href: length-is.md
+    - name: "library"
+      href: library.md
+    - name: "licensed"
+      href: licensed.md
+    - name: "local"
+      href: local.md
+    - name: "long"
+      href: long.md
+    - name: "max_is"
+      href: max-is.md
+    - name: "maybe"
+      href: maybe.md
+    - name: "message"
+      href: message.md
+    - name: "midl_pragma warning"
+      href: midl-pragma-warning.md
+    - name: "midl_user_allocate"
+      href: midl-user-allocate-1.md
+    - name: "midl_user_free"
+      href: midl-user-free-1.md
+    - name: "min_is"
+      href: min-is.md
+    - name: "module"
+      href: module.md
+    - name: "ms_union"
+      href: ms-union-attrib.md
+    - name: "ncacn_at_dsp"
+      href: ncacn-at-dsp.md
+    - name: "ncacn_dnet_nsp"
+      href: ncacn-dnet-nsp.md
+    - name: "ncacn_http"
+      href: ncacn-http.md
+    - name: "ncacn_ip_tcp"
+      href: ncacn-ip-tcp.md
+    - name: "ncacn_nb_ipx"
+      href: ncacn-nb-ipx.md
+    - name: "ncacn_nb_nb"
+      href: ncacn-nb-nb.md
+    - name: "ncacn_nb_tcp"
+      href: ncacn-nb-tcp.md
+    - name: "ncacn_np"
+      href: ncacn-np.md
+    - name: "ncacn_spx"
+      href: ncacn-spx.md
+    - name: "ncacn_vns_spp"
+      href: ncacn-vns-spp.md
+    - name: "ncadg_ip_udp"
+      href: ncadg-ip-udp.md
+    - name: "ncadg_ipx"
+      href: ncadg-ipx.md
+    - name: "ncadg_mq"
+      href: ncadg-mq.md
+    - name: "ncalrpc"
+      href: ncalrpc.md
+    - name: "nocode"
+      href: nocode.md
+    - name: "nonbrowsable"
+      href: nonbrowsable.md
+    - name: "noncreatable"
+      href: noncreatable.md
+    - name: "nonextensible"
+      href: nonextensible.md
+    - name: "notify"
+      href: notify.md
+    - name: "notify_flag"
+      href: notify-flag.md
+    - name: "object"
+      href: object.md
+    - name: "odl"
+      href: odl.md
+    - name: "oleautomation"
+      href: oleautomation.md
+    - name: "optimize"
+      href: optimize.md
+    - name: "optional"
+      href: optional.md
+    - name: "out"
+      href: out-idl.md
+    - name: "out_of_line"
+      href: out-of-line.md
+    - name: "partial_ignore"
+      href: partial-ignore.md
+    - name: "pipe"
+      href: pipe.md
+    - name: "pointer_default"
+      href: pointer-default.md
+    - name: "pragma"
+      href: pragma.md
+    - name: "propget"
+      href: propget.md
+    - name: "propput"
+      href: propput.md
+    - name: "propputref"
+      href: propputref.md
+    - name: "proxy"
+      href: proxy.md
+    - name: "ptr"
+      href: ptr.md
+    - name: "public"
+      href: public.md
+    - name: "range"
+      href: range.md
+    - name: "readonly"
+      href: readonly.md
+    - name: "ref"
+      href: ref.md
+    - name: "represent_as"
+      href: represent-as.md
+    - name: "requestedit"
+      href: requestedit.md
+    - name: "restricted"
+      href: restricted.md
+    - name: "retval"
+      href: retval.md
+    - name: "sh_composition"
+      href: sh-composition.md
+    - name: "sh_event"
+      href: sh-event.md
+    - name: "sh_file"
+      href: sh-file.md
+    - name: "sh_job"
+      href: sh-job.md
+    - name: "sh_mutex"
+      href: sh-mutex.md
+    - name: "sh_pipe"
+      href: sh-pipe.md
+    - name: "sh_process"
+      href: sh-process.md
+    - name: "sh_reg_key"
+      href: sh-reg-key.md
+    - name: "sh_section"
+      href: sh-section.md
+    - name: "sh_semaphore"
+      href: sh-semaphore.md
+    - name: "sh_socket"
+      href: sh-socket.md
+    - name: "sh_thread"
+      href: sh-thread.md
+    - name: "sh_token"
+      href: sh-token.md
+    - name: "shape"
+      href: shape.md
+    - name: "short"
+      href: short.md
+    - name: "signed"
+      href: signed.md
+    - name: "size_is"
+      href: size-is.md
+    - name: "small"
+      href: small.md
+    - name: "source"
+      href: source.md
+    - name: "strict_context_handle"
+      href: strict-context-handle.md
+    - name: "string"
+      href: string.md
+    - name: "struct"
+      href: struct.md
+    - name: "switch"
+      href: switch.md
+    - name: "switch_is"
+      href: switch-is.md
+    - name: "switch_type"
+      href: switch-type.md
+    - name: "system_handle"
+      href: system-handle.md
+    - name: "transmit_as"
+      href: transmit-as.md
+    - name: "typedef"
+      href: typedef.md
+    - name: "type_strict_context_handle"
+      href: type-strict-context-handle.md
+    - name: "union"
+      href: union.md
+    - name: "uidefault"
+      href: uidefault.md
+    - name: "unique"
+      href: unique.md
+    - name: "unsigned"
+      href: unsigned.md
+    - name: "user_marshal"
+      href: user-marshal.md
+    - name: "usesgetlasterror"
+      href: usesgetlasterror.md
+    - name: "uuid"
+      href: uuid.md
+    - name: "v1_enum"
+      href: v1-enum.md
+    - name: "vararg"
+      href: vararg.md
+    - name: "version"
+      href: version.md
+    - name: "void"
+      href: void.md
+    - name: "wchar_t"
+      href: wchar-t.md
+    - name: "wire_marshal"
+      href: wire-marshal.md
+  - name: "MIDL Compiler Errors and Warnings"
+    href: midl-compiler-errors-and-warnings.md
+    items: 
+    - name: "Error and Warning Message Formats"
+      href: error-and-warning-message-formats.md
+    - name: "Preprocessor Errors"
+      href: preprocessor-errors.md
+    - name: "Compiler Errors"
+      href: compiler-errors.md

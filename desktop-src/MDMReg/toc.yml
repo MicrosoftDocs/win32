@@ -1,0 +1,42 @@
+- name: "Mobile Device Management Registration"
+  href: mobile-device-management-registration-portal.md
+  items: 
+  - name: "MDM Registration Reference"
+    href: mdm-registration-reference.md
+    items: 
+    - name: "MDM Registration Error Values"
+      href: mdm-registration-constants.md
+    - name: "MDM Registration functions"
+      href: mdm-registration-functions.md
+      items: 
+      - name: "DiscoverManagementService"
+        href: /windows/desktop/api/MDMRegistration/nf-mdmregistration-discovermanagementservice
+      - name: "DiscoverManagementServiceEx"
+        href: /windows/desktop/api/MDMRegistration/nf-mdmregistration-discovermanagementserviceex
+      - name: "GetDeviceManagementConfigInfo"
+        href: /windows/win32/api/mdmregistration/nf-mdmregistration-getdevicemanagementconfiginfo
+      - name: "GetDeviceRegistrationInfo"
+        href: /windows/desktop/api/MDMRegistration/nf-mdmregistration-getdeviceregistrationinfo
+      - name: "GetManagementAppHyperlink"
+        href: /windows/desktop/api/MDMRegistration/nf-mdmregistration-getmanagementapphyperlink
+      - name: "IsDeviceRegisteredWithManagement"
+        href: /windows/desktop/api/MDMRegistration/nf-mdmregistration-isdeviceregisteredwithmanagement
+      - name: "IsManagementRegistrationAllowed"
+        href: /windows/desktop/api/MDMRegistration/nf-mdmregistration-ismanagementregistrationallowed
+      - name: "RegisterDeviceWithManagement"
+        href: /windows/desktop/api/MDMRegistration/nf-mdmregistration-registerdevicewithmanagement
+      - name: "RegisterDeviceWithManagementUsingAADCredentials"
+        href: /windows/desktop/api/MDMRegistration/nf-mdmregistration-registerdevicewithmanagementusingaadcredentials
+      - name: "SetDeviceManagementConfigInfo"
+        href: /windows/win32/api/mdmregistration/nf-mdmregistration-setdevicemanagementconfiginfo
+      - name: "SetManagedExternally"
+        href: /windows/desktop/api/MDMRegistration/nf-mdmregistration-setmanagedexternally
+      - name: "UnregisterDeviceWithManagement"
+        href: /windows/desktop/api/MDMRegistration/nf-mdmregistration-unregisterdevicewithmanagement
+    - name: "MDM Registration Structures"
+      href: mdm-registration-structures.md
+      items: 
+      - name: "MANAGEMENT_SERVICE_INFO"
+        href: /windows/win32/api/MDMRegistration/ns-mdmregistration-management_service_info
+      - name: "REGISTRATION_INFORMATION_CLASS"
+        href: /windows/win32/api/MDMRegistration/ne-mdmregistration-registration_information_class

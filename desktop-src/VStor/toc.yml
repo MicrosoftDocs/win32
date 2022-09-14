@@ -1,0 +1,182 @@
+- name: "Virtual Storage"
+  href: virtual-storage.md
+  items: 
+  - name: "Virtual Hard Disk"
+    href: portal.md
+    items: 
+    - name: "About VHD"
+      href: about-vhd.md
+    - name: "VHD Reference"
+      href: vhd-reference.md
+      items: 
+      - name: "VHD Enumerations"
+        href: vhd-enumerations.md
+        items: 
+        - name: "APPLY_SNAPSHOT_VHDSET_FLAG"
+          href: /windows/win32/api/virtdisk/ne-virtdisk-apply_snapshot_vhdset_flag
+        - name: "APPLY_SNAPSHOT_VHDSET_VERSION"
+          href: /windows/win32/api/virtdisk/ne-virtdisk-apply_snapshot_vhdset_version
+        - name: "ATTACH_VIRTUAL_DISK_FLAG"
+          href: /windows/win32/api/virtdisk/ne-virtdisk-attach_virtual_disk_flag
+        - name: "ATTACH_VIRTUAL_DISK_VERSION"
+          href: /windows/win32/api/virtdisk/ne-virtdisk-attach_virtual_disk_version
+        - name: "COMPACT_VIRTUAL_DISK_FLAG"
+          href: /windows/win32/api/virtdisk/ne-virtdisk-compact_virtual_disk_flag
+        - name: "COMPACT_VIRTUAL_DISK_VERSION"
+          href: /windows/win32/api/virtdisk/ne-virtdisk-compact_virtual_disk_version
+        - name: "CREATE_VIRTUAL_DISK_FLAG"
+          href: /windows/win32/api/virtdisk/ne-virtdisk-create_virtual_disk_flag
+        - name: "CREATE_VIRTUAL_DISK_VERSION"
+          href: /windows/win32/api/virtdisk/ne-virtdisk-create_virtual_disk_version
+        - name: "DELETE_SNAPSHOT_VHDSET_FLAG"
+          href: /windows/win32/api/virtdisk/ne-virtdisk-delete_snapshot_vhdset_flag
+        - name: "DELETE_SNAPSHOT_VHDSET_VERSION"
+          href: /windows/win32/api/virtdisk/ne-virtdisk-delete_snapshot_vhdset_version
+        - name: "DEPENDENT_DISK_FLAG"
+          href: /windows/win32/api/virtdisk/ne-virtdisk-dependent_disk_flag
+        - name: "DETACH_VIRTUAL_DISK_FLAG"
+          href: /windows/win32/api/virtdisk/ne-virtdisk-detach_virtual_disk_flag
+        - name: "EXPAND_VIRTUAL_DISK_FLAG"
+          href: /windows/win32/api/virtdisk/ne-virtdisk-expand_virtual_disk_flag
+        - name: "EXPAND_VIRTUAL_DISK_VERSION"
+          href: /windows/win32/api/virtdisk/ne-virtdisk-expand_virtual_disk_version
+        - name: "GET_STORAGE_DEPENDENCY_FLAG"
+          href: /windows/win32/api/virtdisk/ne-virtdisk-get_storage_dependency_flag
+        - name: "GET_VIRTUAL_DISK_INFO_VERSION"
+          href: /windows/win32/api/virtdisk/ne-virtdisk-get_virtual_disk_info_version
+        - name: "MERGE_VIRTUAL_DISK_FLAG"
+          href: /windows/win32/api/virtdisk/ne-virtdisk-merge_virtual_disk_flag
+        - name: "MERGE_VIRTUAL_DISK_VERSION"
+          href: /windows/win32/api/virtdisk/ne-virtdisk-merge_virtual_disk_version
+        - name: "MIRROR_VIRTUAL_DISK_FLAG"
+          href: /windows/win32/api/virtdisk/ne-virtdisk-mirror_virtual_disk_flag
+        - name: "MIRROR_VIRTUAL_DISK_VERSION"
+          href: /windows/win32/api/virtdisk/ne-virtdisk-mirror_virtual_disk_version
+        - name: "MODIFY_VHDSET_FLAG"
+          href: /windows/win32/api/virtdisk/ne-virtdisk-modify_vhdset_flag
+        - name: "MODIFY_VHDSET_VERSION"
+          href: /windows/win32/api/virtdisk/ne-virtdisk-modify_vhdset_version
+        - name: "OPEN_VIRTUAL_DISK_FLAG"
+          href: /windows/win32/api/virtdisk/ne-virtdisk-open_virtual_disk_flag
+        - name: "OPEN_VIRTUAL_DISK_VERSION"
+          href: /windows/win32/api/virtdisk/ne-virtdisk-open_virtual_disk_version
+        - name: "RAW_SCSI_VIRTUAL_DISK_FLAG"
+          href: /windows/win32/api/virtdisk/ne-virtdisk-raw_scsi_virtual_disk_flag
+        - name: "RAW_SCSI_VIRTUAL_DISK_VERSION"
+          href: /windows/win32/api/virtdisk/ne-virtdisk-raw_scsi_virtual_disk_version
+        - name: "RESIZE_VIRTUAL_DISK_FLAG"
+          href: /windows/win32/api/virtdisk/ne-virtdisk-resize_virtual_disk_flag
+        - name: "RESIZE_VIRTUAL_DISK_VERSION"
+          href: /windows/win32/api/virtdisk/ne-virtdisk-resize_virtual_disk_version
+        - name: "SET_VIRTUAL_DISK_INFO_VERSION"
+          href: /windows/win32/api/virtdisk/ne-virtdisk-set_virtual_disk_info_version
+        - name: "STORAGE_DEPENDENCY_INFO_VERSION"
+          href: /windows/win32/api/virtdisk/ne-virtdisk-storage_dependency_info_version
+        - name: "TAKE_SNAPSHOT_VHDSET_FLAG"
+          href: /windows/win32/api/virtdisk/ne-virtdisk-take_snapshot_vhdset_flag
+        - name: "TAKE_SNAPSHOT_VHDSET_VERSION"
+          href: /windows/win32/api/virtdisk/ne-virtdisk-take_snapshot_vhdset_version
+        - name: "VIRTUAL_DISK_ACCESS_MASK"
+          href: /windows/win32/api/virtdisk/ne-virtdisk-virtual_disk_access_mask~r1
+      - name: "VHD Functions"
+        href: vhd-functions.md
+        items: 
+        - name: "ApplySnapshotVhdSet"
+          href: /windows/win32/api/virtdisk/nf-virtdisk-applysnapshotvhdset
+        - name: "AddVirtualDiskParent"
+          href: /windows/desktop/api/virtdisk/nf-virtdisk-addvirtualdiskparent
+        - name: "AttachVirtualDisk"
+          href: /windows/win32/api/virtdisk/nf-virtdisk-attachvirtualdisk
+        - name: "BreakMirrorVirtualDisk"
+          href: /windows/win32/api/virtdisk/nf-virtdisk-breakmirrorvirtualdisk
+        - name: "CompactVirtualDisk"
+          href: /windows/win32/api/virtdisk/nf-virtdisk-compactvirtualdisk
+        - name: "CreateVirtualDisk"
+          href: /windows/win32/api/virtdisk/nf-virtdisk-createvirtualdisk
+        - name: "DeleteSnapshotVhdSet"
+          href: /windows/win32/api/virtdisk/nf-virtdisk-deletesnapshotvhdset
+        - name: "DeleteVirtualDiskMetadata"
+          href: /windows/desktop/api/virtdisk/nf-virtdisk-deletevirtualdiskmetadata
+        - name: "DetachVirtualDisk"
+          href: /windows/win32/api/virtdisk/nf-virtdisk-detachvirtualdisk
+        - name: "EnumerateVirtualDiskMetadata"
+          href: /windows/desktop/api/virtdisk/nf-virtdisk-enumeratevirtualdiskmetadata
+        - name: "ExpandVirtualDisk"
+          href: /windows/win32/api/virtdisk/nf-virtdisk-expandvirtualdisk
+        - name: "GetStorageDependencyInformation"
+          href: /windows/win32/api/virtdisk/nf-virtdisk-getstoragedependencyinformation
+        - name: "GetVirtualDiskInformation"
+          href: /windows/win32/api/virtdisk/nf-virtdisk-getvirtualdiskinformation
+        - name: "GetVirtualDiskMetadata"
+          href: /windows/desktop/api/virtdisk/nf-virtdisk-getvirtualdiskmetadata
+        - name: "GetVirtualDiskOperationProgress"
+          href: /windows/win32/api/virtdisk/nf-virtdisk-getvirtualdiskoperationprogress
+        - name: "GetVirtualDiskPhysicalPath"
+          href: /windows/win32/api/virtdisk/nf-virtdisk-getvirtualdiskphysicalpath
+        - name: "MergeVirtualDisk"
+          href: /windows/win32/api/virtdisk/nf-virtdisk-mergevirtualdisk
+        - name: "MirrorVirtualDisk"
+          href: /windows/win32/api/virtdisk/nf-virtdisk-mirrorvirtualdisk
+        - name: "ModifyVhdSet"
+          href: /windows/win32/api/virtdisk/nf-virtdisk-modifyvhdset
+        - name: "OpenVirtualDisk"
+          href: /windows/win32/api/virtdisk/nf-virtdisk-openvirtualdisk
+        - name: "QueryChangesVirtualDisk"
+          href: /windows/win32/api/virtdisk/nf-virtdisk-querychangesvirtualdisk
+        - name: "RawSCSIVirtualDisk"
+          href: /windows/win32/api/virtdisk/nf-virtdisk-rawscsivirtualdisk
+        - name: "ResizeVirtualDisk"
+          href: /windows/desktop/api/virtdisk/nf-virtdisk-resizevirtualdisk
+        - name: "SetVirtualDiskInformation"
+          href: /windows/win32/api/virtdisk/nf-virtdisk-setvirtualdiskinformation
+        - name: "SetVirtualDiskMetadata"
+          href: /windows/desktop/api/virtdisk/nf-virtdisk-setvirtualdiskmetadata
+        - name: "TakeSnapshotVhdSet"
+          href: /windows/win32/api/virtdisk/nf-virtdisk-takesnapshotvhdset
+      - name: "VHD Structures"
+        href: vhd-structures.md
+        items: 
+        - name: "APPLY_SNAPSHOT_VHDSET_PARAMETERS"
+          href: /windows/win32/api/virtdisk/ns-virtdisk-apply_snapshot_vhdset_parameters
+        - name: "ATTACH_VIRTUAL_DISK_PARAMETERS"
+          href: /windows/win32/api/virtdisk/ns-virtdisk-attach_virtual_disk_parameters
+        - name: "COMPACT_VIRTUAL_DISK_PARAMETERS"
+          href: /windows/win32/api/virtdisk/ns-virtdisk-compact_virtual_disk_parameters
+        - name: "CREATE_VIRTUAL_DISK_PARAMETERS"
+          href: /windows/win32/api/virtdisk/ns-virtdisk-create_virtual_disk_parameters
+        - name: "DELETE_SNAPSHOT_VHDSET_PARAMETERS"
+          href: /windows/win32/api/virtdisk/ns-virtdisk-delete_snapshot_vhdset_parameters
+        - name: "EXPAND_VIRTUAL_DISK_PARAMETERS"
+          href: /windows/win32/api/virtdisk/ns-virtdisk-expand_virtual_disk_parameters
+        - name: "GET_VIRTUAL_DISK_INFO"
+          href: /windows/win32/api/virtdisk/ns-virtdisk-get_virtual_disk_info
+        - name: "MERGE_VIRTUAL_DISK_PARAMETERS"
+          href: /windows/win32/api/virtdisk/ns-virtdisk-merge_virtual_disk_parameters
+        - name: "MIRROR_VIRTUAL_DISK_PARAMETERS"
+          href: /windows/win32/api/virtdisk/ns-virtdisk-mirror_virtual_disk_parameters
+        - name: "MODIFY_VHDSET_PARAMETERS"
+          href: /windows/win32/api/virtdisk/ns-virtdisk-modify_vhdset_parameters
+        - name: "OPEN_VIRTUAL_DISK_PARAMETERS"
+          href: /windows/win32/api/virtdisk/ns-virtdisk-open_virtual_disk_parameters
+        - name: "RAW_SCSI_VIRTUAL_DISK_PARAMETERS"
+          href: /windows/win32/api/virtdisk/ns-virtdisk-raw_scsi_virtual_disk_parameters
+        - name: "RAW_SCSI_VIRTUAL_DISK_RESPONSE"
+          href: /windows/win32/api/virtdisk/ns-virtdisk-raw_scsi_virtual_disk_response
+        - name: "RESIZE_VIRTUAL_DISK_PARAMETERS"
+          href: /windows/win32/api/virtdisk/ns-virtdisk-resize_virtual_disk_parameters
+        - name: "QUERY_CHANGES_VIRTUAL_DISK_RANGE"
+          href: /windows/win32/api/virtdisk/ns-virtdisk-query_changes_virtual_disk_range
+        - name: "SET_VIRTUAL_DISK_INFO"
+          href: /windows/win32/api/virtdisk/ns-virtdisk-set_virtual_disk_info
+        - name: "STORAGE_DEPENDENCY_INFO"
+          href: /windows/win32/api/virtdisk/ns-virtdisk-storage_dependency_info
+        - name: "STORAGE_DEPENDENCY_INFO_TYPE_1"
+          href: /windows/win32/api/virtdisk/ns-virtdisk-storage_dependency_info_type_1
+        - name: "STORAGE_DEPENDENCY_INFO_TYPE_2"
+          href: /windows/win32/api/virtdisk/ns-virtdisk-storage_dependency_info_type_2
+        - name: "TAKE_SNAPSHOT_VHDSET_PARAMETERS"
+          href: /windows/win32/api/virtdisk/ns-virtdisk-take_snapshot_vhdset_parameters
+        - name: "VIRTUAL_DISK_PROGRESS"
+          href: /windows/win32/api/virtdisk/ns-virtdisk-virtual_disk_progress
+        - name: "VIRTUAL_STORAGE_TYPE"
+          href: /windows/win32/api/virtdisk/ns-virtdisk-virtual_storage_type

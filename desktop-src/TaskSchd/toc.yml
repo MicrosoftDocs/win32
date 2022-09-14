@@ -1,0 +1,1839 @@
+- name: "Task Scheduler"
+  href: task-scheduler-start-page.md
+  items: 
+  - name: "What's new in Task Scheduler"
+    href: what-s-new-in-task-scheduler.md
+  - name: "About the Task Scheduler"
+    href: about-the-task-scheduler.md
+    items: 
+    - name: "Tasks"
+      href: tasks.md
+    - name: "Task Actions"
+      href: task-actions.md
+    - name: "Task Triggers"
+      href: task-triggers.md
+      items: 
+      - name: "Trigger Types"
+        href: trigger-types.md
+      - name: "Trigger Interfaces"
+        href: trigger-interfaces.md
+      - name: "Task Scheduler 1.0 Triggers"
+        href: task-scheduler-1-0-triggers.md
+        items: 
+        - name: "Trigger Structures for Task Scheduler 1.0"
+          href: trigger-structures.md
+        - name: "Idle Triggers for Task Scheduler 1.0"
+          href: idle-triggers.md
+    - name: "Task Registration Information"
+      href: task-registration-information.md
+    - name: "Task Idle Conditions"
+      href: task-idle-conditions.md
+    - name: "Security Contexts for Tasks"
+      href: security-contexts-for-running-tasks.md
+    - name: "Task Security Hardening"
+      href: task-security-hardening.md
+    - name: "Repeating A Task"
+      href: repeating-a-task.md
+    - name: "Automatic Maintenance"
+      href: task-maintenence.md
+    - name: "Task Scheduler 1.0 Task Information"
+      href: task-scheduler-1-0-task-informatation.md
+      items: 
+      - name: "Programming Considerations"
+        href: programming-considerations.md
+      - name: "Enumerating Tasks"
+        href: enumerating-tasks.md
+      - name: "Scheduled Work Items"
+        href: scheduled-work-items.md
+        items: 
+        - name: "Adding Work Items"
+          href: adding-work-items.md
+        - name: "Managing Work Items"
+          href: managing-work-items.md
+  - name: "Using the Task Scheduler"
+    href: using-the-task-scheduler.md
+    items: 
+    - name: "Starting an Executable at a Specific Time"
+      href: starting-an-executable-at-a-spcific-time.md
+      items: 
+      - name: "Time Trigger Example (Scripting)"
+        href: time-trigger-example--scripting-.md
+      - name: "Time Trigger Example (C++)"
+        href: time-trigger-example--c---.md
+      - name: "Time Trigger Example (XML)"
+        href: time-trigger-example--xml-.md
+    - name: "Starting an Executable Daily"
+      href: starting-an-executable-daily.md
+      items: 
+      - name: "Daily Trigger Example (Scripting)"
+        href: daily-trigger-example--scripting-.md
+      - name: "Daily Trigger Example (C++)"
+        href: daily-trigger-example--c---.md
+      - name: "Daily Trigger Example (XML)"
+        href: daily-trigger-example--xml-.md
+    - name: "Starting an Executable When a Task is Registered"
+      href: starting-an-executable-when-a-task-is-registered.md
+      items: 
+      - name: "Registration Trigger Example (Scripting)"
+        href: registration-trigger-example--scripting-.md
+      - name: "Registration Trigger Example (C++)"
+        href: registration-trigger-example--c---.md
+      - name: "Registration Trigger Example (XML)"
+        href: registration-trigger-example--xml-.md
+    - name: "Starting an Executable Weekly"
+      href: starting-an-executable-weekly.md
+      items: 
+      - name: "Weekly Trigger Example (Scripting)"
+        href: weekly-trigger-example--scripting-.md
+      - name: "Weekly Trigger Example (C++)"
+        href: weekly-trigger-example--c---.md
+      - name: "Weekly Trigger Example (XML)"
+        href: weekly-trigger-example--xml-.md
+    - name: "Starting an Executable When a User Logs On"
+      href: starting-an-executable-when-a-user-logs-on.md
+      items: 
+      - name: "Logon Trigger Example (Scripting)"
+        href: logon-trigger-example--scripting-.md
+      - name: "Logon Trigger Example (C++)"
+        href: logon-trigger-example--c---.md
+      - name: "Logon Trigger Example (XML)"
+        href: logon-trigger-example--xml-.md
+    - name: "Starting an Executable on System Boot"
+      href: starting-an-executable-on-system-boot.md
+      items: 
+      - name: "Boot Trigger Example (Scripting)"
+        href: boot-trigger-example--scripting-.md
+      - name: "Boot Trigger Example (C++)"
+        href: boot-trigger-example--c---.md
+      - name: "Boot Trigger Example (XML)"
+        href: boot-trigger-example--xml-.md
+    - name: "Enumerating Tasks and Displaying Task Information"
+      href: enumerating-tasks-and-displaying-task-information.md
+      items: 
+      - name: "Displaying Task Names and States (Scripting)"
+        href: displaying-task-names-and-state--scripting-.md
+      - name: "Displaying Task Names and States (C++)"
+        href: displaying-task-names-and-state--c---.md
+    - name: "Task Scheduler 1.0 Examples"
+      href: task-scheduler-1-0-examples.md
+      items: 
+      - name: "Creating a Task Using NewWorkItem Example"
+        href: creating-a-task-using-newworkitem-example.md
+        items: 
+        - name: "C/C++ Code Example: Creating a Task Using NewWorkItem"
+          href: c-c-code-example-creating-a-task-using-newworkitem.md
+      - name: "Enumerating Tasks Example"
+        href: enumerating-tasks-example.md
+        items: 
+        - name: "C/C++ Code Example: Enumerating Tasks"
+          href: c-c-code-example-enumerating-tasks.md
+      - name: "Starting a Task Example"
+        href: starting-a-task-example.md
+        items: 
+        - name: "C/C++ Code Example: Starting a Task"
+          href: c-c-code-example-starting-a-task.md
+      - name: "Editing a Work Item using Property Pages"
+        href: editing-a-work-item-using-property-pages.md
+        items: 
+        - name: "C/C++ Code Example: Editing a Work Item"
+          href: c-c-code-example-editing-a-work-item.md
+      - name: "Retrieving Work Item Property Examples"
+        href: retrieving-work-item-property-examples.md
+        items: 
+        - name: "C/C++ Code Example: Retrieving Task Account Information"
+          href: c-c-code-example-retrieving-task-account-information.md
+        - name: "C/C++ Code Example: Retrieving a Task Comment"
+          href: c-c-code-example-retrieving-a-task-comment.md
+        - name: "C/C++ Code Example: Retrieving the Task Creator"
+          href: c-c-code-example-retrieving-the-task-creator.md
+        - name: "C/C++ Code Example: Retrieving Task Exit Code"
+          href: c-c-code-example-retrieving-task-exit-code.md
+        - name: "C/C++ Code Example: Retrieving Task Idle-wait Time"
+          href: c-c-code-example-retrieving-task-idle-wait-time.md
+        - name: "C/C++ Code Example: Retrieving the Task MostRecentRun Time"
+          href: c-c-code-example-retrieving-the-task-mostrecentrun-time.md
+        - name: "C/C++ Code Example: Retrieving the Task NextRun Time"
+          href: c-c-code-example-retrieving-the-task-nextrun-time.md
+        - name: "C/C++ Code Example: Retrieving Task Run Times"
+          href: c-c-code-example-retrieving-task-run-times.md
+        - name: "C/C++ Code Example: Retrieving Task Status"
+          href: c-c-code-example-retrieving-task-status.md
+      - name: "Setting Work Item Property Examples"
+        href: setting-work-item-property-examples.md
+        items: 
+        - name: "C/C++ Code Example: Setting Task Account Information"
+          href: c-c-code-example-setting-task-account-information.md
+        - name: "C/C++ Code Example: Setting Task Comment"
+          href: c-c-code-example-setting-task-comment.md
+      - name: "Retrieving Task Property Examples"
+        href: retrieving-task-property-examples.md
+        items: 
+        - name: "C/C++ Code Example: Retrieving the Task Application Name"
+          href: c-c-code-example-retrieving-the-task-application-name.md
+        - name: "C/C++ Code Example: Retrieving the Task MaxRunTime"
+          href: c-c-code-example-retrieving-the-task-maxruntime.md
+        - name: "C/C++ Code Example: Retrieving Task Parameters"
+          href: c-c-code-example-retrieving-task-parameters.md
+        - name: "C/C++ Code Example: Retrieving the Task Priority"
+          href: c-c-code-example-retrieving-task-priority.md
+        - name: "C/C++ Code Example: Retrieving the Task Working Directory"
+          href: c-c-code-example-retrieving-the-task-working-directory.md
+      - name: "Setting Task Property Examples"
+        href: setting-task-property-examples.md
+        items: 
+        - name: "C/C++ Code Example: Setting Application Name"
+          href: c-c-code-example-setting-application-name.md
+        - name: "C/C++ Code Example: Setting MaxRunTime"
+          href: c-c-code-example-setting-maxruntime.md
+        - name: "C/C++ Code Example: Setting Task Parameters"
+          href: c-c-code-example-setting-task-parameters.md
+        - name: "C/C++ Code Example: Setting Task Priority"
+          href: c-c-code-example-setting-task-priority.md
+        - name: "C/C++ Code Example: Setting Working Directory"
+          href: c-c-code-example-setting-working-directory.md
+      - name: "Retrieving a Task Page Example"
+        href: retrieving-a-task-page-example.md
+        items: 
+        - name: "C/C++ Code Example: Retrieving a Task Page"
+          href: c-c-code-example-retrieving-a-task-page.md
+      - name: "Creating a New Trigger"
+        href: creating-a-new-trigger.md
+        items: 
+        - name: "C/C++ Code Example: Creating a Task Trigger"
+          href: c-c-code-example-creating-a-task-trigger.md
+      - name: "Creating an Idle Trigger Example"
+        href: creating-an-idle-trigger-example.md
+        items: 
+        - name: "C/C++ Code Example: Creating an Idle Trigger"
+          href: c-c-code-example-creating-an-idle-trigger.md
+      - name: "Terminating a Task Example"
+        href: terminating-a-task-example.md
+        items: 
+        - name: "C/C++ Code Example: Terminating a Task"
+          href: c-c-code-example-terminating-a-task.md
+      - name: "Retrieving Trigger Strings Example"
+        href: retrieving-trigger-strings-example.md
+        items: 
+        - name: "C/C++ Code Example: Retrieving Trigger Strings"
+          href: c-c-code-example-retrieving-trigger-strings.md
+  - name: "Task Scheduler Reference"
+    href: task-scheduler-reference.md
+    items: 
+    - name: "Task Scheduler Scripting Objects"
+      href: task-scheduler-objects.md
+      items: 
+      - name: "Action"
+        href: action.md
+        items: 
+        - name: "Action.Id"
+          href: action-id.md
+        - name: "Action.Type"
+          href: action-type.md
+      - name: "ActionCollection"
+        href: actioncollection.md
+        items: 
+        - name: "ActionCollection.Context"
+          href: actioncollection-context.md
+        - name: "ActionCollection.Count"
+          href: actioncollection-count.md
+        - name: "ActionCollection.Item"
+          href: actioncollection-item.md
+        - name: "ActionCollection.XmlText"
+          href: actioncollection-xmltext.md
+        - name: "ActionCollection.Clear"
+          href: actioncollection-clear.md
+        - name: "ActionCollection.Create"
+          href: actioncollection-create.md
+        - name: "ActionCollection.Remove"
+          href: actioncollection-remove.md
+      - name: "BootTrigger"
+        href: boottrigger.md
+        items: 
+        - name: "BootTrigger.Delay"
+          href: boottrigger-delay.md
+      - name: "ComHandlerAction"
+        href: comhandleraction.md
+        items: 
+        - name: "ComHandlerAction.ClassId"
+          href: comhandleraction-classid.md
+        - name: "ComHandlerAction.Data"
+          href: comhandleraction-data.md
+      - name: "DailyTrigger"
+        href: dailytrigger.md
+        items: 
+        - name: "DailyTrigger.DaysInterval"
+          href: dailytrigger-daysinterval.md
+        - name: "DailyTrigger.RandomDelay"
+          href: dailytrigger-randomdelay.md
+      - name: "EmailAction"
+        href: emailaction.md
+        items: 
+        - name: "EmailAction.Attachments"
+          href: emailaction-attachments.md
+        - name: "EmailAction.Bcc"
+          href: emailaction-bcc.md
+        - name: "EmailAction.Body"
+          href: emailaction-body.md
+        - name: "EmailAction.Cc"
+          href: emailaction-cc.md
+        - name: "EmailAction.From"
+          href: emailaction-from.md
+        - name: "EmailAction.HeaderFields"
+          href: emailaction-headerfields.md
+        - name: "EmailAction.ReplyTo"
+          href: emailaction-replyto.md
+        - name: "EmailAction.Server"
+          href: emailaction-server.md
+        - name: "EmailAction.Subject"
+          href: emailaction-subject.md
+        - name: "EmailAction.To"
+          href: emailaction-to.md
+      - name: "EventTrigger"
+        href: eventtrigger.md
+        items: 
+        - name: "EventTrigger.Delay"
+          href: eventtrigger-delay.md
+        - name: "EventTrigger.Subscription"
+          href: eventtrigger-subscription.md
+        - name: "EventTrigger.ValueQueries"
+          href: eventtrigger-valuequeries.md
+      - name: "ExecAction"
+        href: execaction.md
+        items: 
+        - name: "ExecAction.Arguments"
+          href: execaction-arguments.md
+        - name: "ExecAction.Path"
+          href: execaction-path.md
+        - name: "ExecAction.WorkingDirectory"
+          href: execaction-workingdirectory.md
+      - name: "IdleSettings"
+        href: idlesettings.md
+        items: 
+        - name: "IdleSettings.IdleDuration"
+          href: idlesettings-idleduration.md
+        - name: "IdleSettings.RestartOnIdle"
+          href: idlesettings-restartonidle.md
+        - name: "IdleSettings.StopOnIdleEnd"
+          href: idlesettings-stoponidleend.md
+        - name: "IdleSettings.WaitTimeout"
+          href: idlesettings-waittimeout.md
+      - name: "IdleTrigger"
+        href: idletrigger.md
+      - name: "LogonTrigger"
+        href: logontrigger.md
+        items: 
+        - name: "LogonTrigger.Delay"
+          href: logontrigger-delay.md
+        - name: "LogonTrigger.UserId"
+          href: logontrigger-userid.md
+      - name: "MonthlyDOWTrigger"
+        href: monthlydowtrigger.md
+        items: 
+        - name: "MonthlyDOWTrigger.DaysOfWeek"
+          href: monthlydowtrigger-daysofweek.md
+        - name: "MonthlyDOWTrigger.MonthsOfYear"
+          href: monthlydowtrigger-monthsofyear.md
+        - name: "MonthlyDOWTrigger.RandomDelay"
+          href: monthlydowtrigger-randomdelay.md
+        - name: "MonthlyDOWTrigger.RunOnLastWeekOfMonth"
+          href: monthlydowtrigger-runonlastweekofmonth.md
+        - name: "MonthlyDOWTrigger.WeeksOfMonth"
+          href: monthlydowtrigger-weeksofmonth.md
+      - name: "MonthlyTrigger"
+        href: monthlytrigger.md
+        items: 
+        - name: "MonthlyTrigger.DaysOfMonth"
+          href: monthlytrigger-daysofmonth.md
+        - name: "MonthlyTrigger.MonthsOfYear"
+          href: monthlytrigger-monthsofyear.md
+        - name: "MonthlyTrigger.RandomDelay"
+          href: monthlytrigger-randomdelay.md
+        - name: "MonthlyTrigger.RunOnLastDayOfMonth"
+          href: monthlytrigger-runonlastdayofmonth.md
+      - name: "NetworkSettings"
+        href: networksettings.md
+        items: 
+        - name: "NetworkSettings.Id"
+          href: networksettings-id.md
+        - name: "NetworkSettings.Name"
+          href: networksettings-name.md
+      - name: "Principal"
+        href: principal.md
+        items: 
+        - name: "Principal.DisplayName"
+          href: principal-displayname.md
+        - name: "Principal.GroupId"
+          href: principal-groupid.md
+        - name: "Principal.Id"
+          href: principal-id.md
+        - name: "Principal.LogonType"
+          href: principal-logontype.md
+        - name: "Principal.UserId"
+          href: principal-userid.md
+        - name: "Principal.RunLevel"
+          href: principal-runlevel.md
+      - name: "RegisteredTask"
+        href: registeredtask.md
+        items: 
+        - name: "RegisteredTask.Definition"
+          href: registeredtask-definition.md
+        - name: "RegisteredTask.Enabled"
+          href: registeredtask-enabled.md
+        - name: "RegisteredTask.LastRunTime"
+          href: registeredtask-lastruntime.md
+        - name: "RegisteredTask.LastTaskResult"
+          href: registeredtask-lasttaskresult.md
+        - name: "RegisteredTask.Name"
+          href: registeredtask-name.md
+        - name: "RegisteredTask.NextRunTime"
+          href: registeredtask-nextruntime.md
+        - name: "RegisteredTask.NumberOfMissedRuns"
+          href: registeredtask-numberofmissedruns.md
+        - name: "RegisteredTask.Path"
+          href: registeredtask-path.md
+        - name: "RegisteredTask.State"
+          href: registeredtask-state.md
+        - name: "RegisteredTask.XML"
+          href: registeredtask-xml.md
+        - name: "RegisteredTask.GetInstances"
+          href: registeredtask-getinstances.md
+        - name: "RegisteredTask.GetRunTimes"
+          href: registeredtask-getruntimes.md
+        - name: "RegisteredTask.GetSecurityDescriptor"
+          href: registeredtask-getsecuritydescriptor.md
+        - name: "RegisteredTask.Run"
+          href: registeredtask-run.md
+        - name: "RegisteredTask.RunEx"
+          href: registeredtask-runex.md
+        - name: "RegisteredTask.SetSecurityDescriptor"
+          href: registeredtask-setsecuritydescriptor.md
+        - name: "RegisteredTask.Stop"
+          href: registeredtask-stop.md
+      - name: "RegisteredTaskCollection"
+        href: registeredtaskcollection.md
+        items: 
+        - name: "RegisteredTaskCollection.Count"
+          href: registeredtaskcollection-count.md
+        - name: "RegisteredTaskCollection.Item"
+          href: registeredtaskcollection-item.md
+      - name: "RegistrationInfo"
+        href: registrationinfo.md
+        items: 
+        - name: "RegistrationInfo.Author"
+          href: registrationinfo-author.md
+        - name: "RegistrationInfo.Date"
+          href: registrationinfo-date.md
+        - name: "RegistrationInfo.Description"
+          href: registrationinfo-description.md
+        - name: "RegistrationInfo.Documentation"
+          href: registrationinfo-documentation.md
+        - name: "RegistrationInfo.SecurityDescriptor"
+          href: registrationinfo-securitydescriptor.md
+        - name: "RegistrationInfo.Source"
+          href: registrationinfo-source.md
+        - name: "RegistrationInfo.URI"
+          href: registrationinfo-uri.md
+        - name: "RegistrationInfo.Version"
+          href: registrationinfo-version.md
+        - name: "RegistrationInfo.XmlText"
+          href: registrationinfo-xmltext.md
+      - name: "RegistrationTrigger"
+        href: registrationtrigger.md
+        items: 
+        - name: "RegistrationTrigger.Delay"
+          href: registrationtrigger-delay.md
+      - name: "RepetitionPattern"
+        href: repetitionpattern.md
+        items: 
+        - name: "RepetitionPattern.Duration"
+          href: repetitionpattern-duration.md
+        - name: "RepetitionPattern.Interval"
+          href: repetitionpattern-interval.md
+        - name: "RepetitionPattern.StopAtDurationEnd"
+          href: repetitionpattern-stopatdurationend.md
+      - name: "RunningTask"
+        href: runningtask.md
+        items: 
+        - name: "RunningTask.CurrentAction"
+          href: runningtask-currentaction.md
+        - name: "RunningTask.EnginePID"
+          href: runningtask-enginepid.md
+        - name: "RunningTask.InstanceGuid"
+          href: runningtask-instanceguid.md
+        - name: "RunningTask.Name"
+          href: runningtask-name.md
+        - name: "RunningTask.Path"
+          href: runningtask-path.md
+        - name: "RunningTask.State"
+          href: runningtask-state.md
+        - name: "RunningTask.Refresh"
+          href: runningtask-refresh.md
+        - name: "RunningTask.Stop"
+          href: runningtask-stop.md
+      - name: "RunningTaskCollection"
+        href: runningtaskcollection.md
+        items: 
+        - name: "RunningTaskCollection.Count"
+          href: runningtaskcollection-count.md
+        - name: "RunningTaskCollection.Item"
+          href: runningtaskcollection-item.md
+      - name: "SessionStateChangeTrigger"
+        href: sessionstatechangetrigger.md
+        items: 
+        - name: "SessionStateChangeTrigger.Delay"
+          href: sessionstatechangetrigger-delay.md
+        - name: "SessionStateChangeTrigger.StateChange"
+          href: sessionstatechangetrigger-statechange.md
+        - name: "SessionStateChangeTrigger.UserId"
+          href: sessionstatechangetrigger-userid.md
+      - name: "ShowMessageAction"
+        href: showmessageaction.md
+        items: 
+        - name: "ShowMessageAction.MessageBody"
+          href: showmessageaction-messagebody.md
+        - name: "ShowMessageAction.Title"
+          href: showmessageaction-title.md
+      - name: "TaskDefinition"
+        href: taskdefinition.md
+        items: 
+        - name: "TaskDefinition.Actions"
+          href: taskdefinition-actions.md
+        - name: "TaskDefinition.Data"
+          href: taskdefinition-data.md
+        - name: "TaskDefinition.Principal"
+          href: taskdefinition-principal.md
+        - name: "TaskDefinition.RegistrationInfo"
+          href: taskdefinition-registrationinfo.md
+        - name: "TaskDefinition.Settings"
+          href: taskdefinition-settings.md
+        - name: "TaskDefinition.Triggers"
+          href: taskdefinition-triggers.md
+        - name: "TaskDefinition.XmlText"
+          href: taskdefinition-xmltext.md
+      - name: "TaskFolder"
+        href: taskfolder.md
+        items: 
+        - name: "TaskFolder.CreateFolder"
+          href: taskfolder-createfolder.md
+        - name: "TaskFolder.DeleteFolder"
+          href: taskfolder-deletefolder.md
+        - name: "TaskFolder.DeleteTask"
+          href: taskfolder-deletetask.md
+        - name: "TaskFolder.GetFolder"
+          href: taskfolder-getfolder.md
+        - name: "TaskFolder.GetFolders"
+          href: taskfolder-getfolders.md
+        - name: "TaskFolder.GetSecurityDescriptor"
+          href: taskfolder-getsecuritydescriptor.md
+        - name: "TaskFolder.GetTask"
+          href: taskfolder-gettask.md
+        - name: "TaskFolder.GetTasks"
+          href: taskfolder-gettasks.md
+        - name: "TaskFolder.Name"
+          href: taskfolder-name.md
+        - name: "TaskFolder.Path"
+          href: taskfolder-path.md
+        - name: "TaskFolder.RegisterTask"
+          href: taskfolder-registertask.md
+        - name: "TaskFolder.RegisterTaskDefinition"
+          href: taskfolder-registertaskdefinition.md
+        - name: "TaskFolder.SetSecurityDescriptor"
+          href: taskfolder-setsecuritydescriptor.md
+      - name: "TaskFolderCollection"
+        href: taskfoldercollection.md
+        items: 
+        - name: "TaskFolderCollection.Count"
+          href: taskfoldercollection-count.md
+        - name: "TaskFolderCollection.Item"
+          href: taskfoldercollection-item.md
+      - name: "TaskNamedValueCollection"
+        href: tasknamedvaluecollection.md
+        items: 
+        - name: "TaskNamedValueCollection.Clear"
+          href: tasknamedvaluecollection-clear.md
+        - name: "TaskNamedValueCollection.Count"
+          href: tasknamedvaluecollection-count.md
+        - name: "TaskNamedValueCollection.Create"
+          href: tasknamedvaluecollection-create.md
+        - name: "TaskNamedValueCollection.Item"
+          href: tasknamedvaluecollection-item.md
+        - name: "TaskNamedValueCollection.Remove"
+          href: tasknamedvaluecollection-remove.md
+      - name: "TaskNamedValuePair"
+        href: tasknamedvaluepair.md
+        items: 
+        - name: "TaskNamedValuePair.Name"
+          href: tasknamedvaluepair-name.md
+        - name: "TaskNamedValuePair.Value"
+          href: tasknamedvaluepair-value.md
+      - name: "TaskService"
+        href: taskservice.md
+        items: 
+        - name: "TaskService.Connect"
+          href: taskservice-connect.md
+        - name: "TaskService.Connected"
+          href: taskservice-connected.md
+        - name: "TaskService.ConnectedDomain"
+          href: taskservice-connecteddomain.md
+        - name: "TaskService.ConnectedUser"
+          href: taskservice-connecteduser.md
+        - name: "TaskService.GetFolder"
+          href: taskservice-getfolder.md
+        - name: "TaskService.GetRunningTasks"
+          href: taskservice-getrunningtasks.md
+        - name: "TaskService.HighestVersion"
+          href: taskservice-highestversion.md
+        - name: "TaskService.NewTask"
+          href: taskservice-newtask.md
+        - name: "TaskService.TargetServer"
+          href: taskservice-targetserver.md
+      - name: "TaskSettings"
+        href: tasksettings.md
+        items: 
+        - name: "TaskSettings.AllowDemandStart"
+          href: tasksettings-allowdemandstart.md
+        - name: "TaskSettings.AllowHardTerminate"
+          href: tasksettings-allowhardterminate.md
+        - name: "TaskSettings.Compatibility"
+          href: tasksettings-compatibility.md
+        - name: "TaskSettings.DeleteExpiredTaskAfter"
+          href: tasksettings-deleteexpiredtaskafter.md
+        - name: "TaskSettings.DisallowStartIfOnBatteries"
+          href: tasksettings-disallowstartifonbatteries.md
+        - name: "TaskSettings.Enabled"
+          href: tasksettings-enabled.md
+        - name: "TaskSettings.ExecutionTimeLimit"
+          href: tasksettings-executiontimelimit.md
+        - name: "TaskSettings.Hidden"
+          href: tasksettings-hidden.md
+        - name: "TaskSettings.IdleSettings"
+          href: tasksettings-idlesettings.md
+        - name: "TaskSettings.MultipleInstances"
+          href: tasksettings-multipleinstances.md
+        - name: "TaskSettings.NetworkSettings"
+          href: tasksettings-networksettings.md
+        - name: "TaskSettings.Priority"
+          href: tasksettings-priority.md
+        - name: "TaskSettings.RestartCount"
+          href: tasksettings-restartcount.md
+        - name: "TaskSettings.RestartInterval"
+          href: tasksettings-restartinterval.md
+        - name: "TaskSettings.RunOnlyIfIdle"
+          href: tasksettings-runonlyifidle.md
+        - name: "TaskSettings.RunOnlyIfNetworkAvailable"
+          href: tasksettings-runonlyifnetworkavailable.md
+        - name: "TaskSettings.StartWhenAvailable"
+          href: tasksettings-startwhenavailable.md
+        - name: "TaskSettings.StopIfGoingOnBatteries"
+          href: tasksettings-stopifgoingonbatteries.md
+        - name: "TaskSettings.WakeToRun"
+          href: tasksettings-waketorun.md
+        - name: "TaskSettings.XmlText"
+          href: tasksettings-xmltext.md
+      - name: "TaskVariables"
+        href: taskvariables.md
+        items: 
+        - name: "TaskVariables.GetContext"
+          href: taskvariables-getcontext.md
+        - name: "TaskVariables.GetInput"
+          href: taskvariables-getinput.md
+        - name: "TaskVariables.SetOutput"
+          href: taskvariables-setoutput.md
+      - name: "TimeTrigger"
+        href: timetrigger.md
+        items: 
+        - name: "TimeTrigger.RandomDelay"
+          href: timetrigger-randomdelay.md
+      - name: "Trigger"
+        href: trigger.md
+        items: 
+        - name: "Trigger.Enabled"
+          href: trigger-enabled.md
+        - name: "Trigger.EndBoundary"
+          href: trigger-endboundary.md
+        - name: "Trigger.ExecutionTimeLimit"
+          href: trigger-executiontimelimit.md
+        - name: "Trigger.Id"
+          href: trigger-id.md
+        - name: "Trigger.Repetition"
+          href: trigger-repetition.md
+        - name: "Trigger.StartBoundary"
+          href: trigger-startboundary.md
+        - name: "Trigger.Type"
+          href: trigger-type.md
+      - name: "TriggerCollection"
+        href: triggercollection.md
+        items: 
+        - name: "TriggerCollection.Count"
+          href: triggercollection-count.md
+        - name: "TriggerCollection.Item"
+          href: triggercollection-item.md
+        - name: "TriggerCollection.Clear"
+          href: triggercollection-clear.md
+        - name: "TriggerCollection.Create"
+          href: triggercollection-create.md
+        - name: "TriggerCollection.Remove"
+          href: triggercollection-remove.md
+      - name: "WeeklyTrigger"
+        href: weeklytrigger.md
+        items: 
+        - name: "WeeklyTrigger.DaysOfWeek"
+          href: weeklytrigger-daysofweek.md
+        - name: "WeeklyTrigger.RandomDelay"
+          href: weeklytrigger-randomdelay.md
+        - name: "WeeklyTrigger.WeeksInterval"
+          href: weeklytrigger-weeksinterval.md
+    - name: "Task Scheduler Interfaces"
+      href: task-scheduler-interfaces.md
+      items: 
+      - name: "Task Scheduler 1.0 Interfaces"
+        href: task-scheduler-1-0-interfaces.md
+        items: 
+        - name: "IEnumWorkItems"
+          href: /windows/desktop/api/Mstask/nn-mstask-ienumworkitems
+          items: 
+          - name: "IEnumWorkItems::Clone"
+            href: /windows/desktop/api/Mstask/nf-mstask-ienumworkitems-clone
+          - name: "IEnumWorkItems::Next"
+            href: /windows/desktop/api/Mstask/nf-mstask-ienumworkitems-next
+          - name: "IEnumWorkItems::Reset"
+            href: /windows/desktop/api/Mstask/nf-mstask-ienumworkitems-reset
+          - name: "IEnumWorkItems::Skip"
+            href: /windows/desktop/api/Mstask/nf-mstask-ienumworkitems-skip
+        - name: "IProvideTaskPage"
+          href: /windows/desktop/api/Mstask/nn-mstask-iprovidetaskpage
+          items: 
+          - name: "IProvideTaskPage::GetPage"
+            href: /windows/desktop/api/Mstask/nf-mstask-iprovidetaskpage-getpage
+        - name: "IScheduledWorkItem"
+          href: /windows/desktop/api/Mstask/nn-mstask-ischeduledworkitem
+          items: 
+          - name: "IScheduledWorkItem::CreateTrigger"
+            href: /windows/desktop/api/Mstask/nf-mstask-ischeduledworkitem-createtrigger
+          - name: "IScheduledWorkItem::DeleteTrigger"
+            href: /windows/desktop/api/Mstask/nf-mstask-ischeduledworkitem-deletetrigger
+          - name: "IScheduledWorkItem::EditWorkItem"
+            href: /windows/desktop/api/Mstask/nf-mstask-ischeduledworkitem-editworkitem
+          - name: "IScheduledWorkItem::GetAccountInformation"
+            href: /windows/desktop/api/Mstask/nf-mstask-ischeduledworkitem-getaccountinformation
+          - name: "IScheduledWorkItem::GetComment"
+            href: /windows/desktop/api/Mstask/nf-mstask-ischeduledworkitem-getcomment
+          - name: "IScheduledWorkItem::GetCreator"
+            href: /windows/desktop/api/Mstask/nf-mstask-ischeduledworkitem-getcreator
+          - name: "IScheduledWorkItem::GetErrorRetryCount"
+            href: /windows/desktop/api/Mstask/nf-mstask-ischeduledworkitem-geterrorretrycount
+          - name: "IScheduledWorkItem::GetErrorRetryInterval"
+            href: /windows/desktop/api/Mstask/nf-mstask-ischeduledworkitem-geterrorretryinterval
+          - name: "IScheduledWorkItem::GetExitCode"
+            href: /windows/desktop/api/Mstask/nf-mstask-ischeduledworkitem-getexitcode
+          - name: "IScheduledWorkItem::GetFlags"
+            href: /windows/desktop/api/Mstask/nf-mstask-ischeduledworkitem-getflags
+          - name: "IScheduledWorkItem::GetIdleWait"
+            href: /windows/desktop/api/Mstask/nf-mstask-ischeduledworkitem-getidlewait
+          - name: "IScheduledWorkItem::GetMostRecentRunTime"
+            href: /windows/desktop/api/Mstask/nf-mstask-ischeduledworkitem-getmostrecentruntime
+          - name: "IScheduledWorkItem::GetNextRunTime"
+            href: /windows/desktop/api/Mstask/nf-mstask-ischeduledworkitem-getnextruntime
+          - name: "IScheduledWorkItem::GetRunTimes"
+            href: /windows/desktop/api/Mstask/nf-mstask-ischeduledworkitem-getruntimes
+          - name: "IScheduledWorkItem::GetStatus"
+            href: /windows/desktop/api/Mstask/nf-mstask-ischeduledworkitem-getstatus
+          - name: "IScheduledWorkItem::GetTrigger"
+            href: /windows/desktop/api/Mstask/nf-mstask-ischeduledworkitem-gettrigger
+          - name: "IScheduledWorkItem::GetTriggerCount"
+            href: /windows/desktop/api/Mstask/nf-mstask-ischeduledworkitem-gettriggercount
+          - name: "IScheduledWorkItem::GetTriggerString"
+            href: /windows/desktop/api/Mstask/nf-mstask-ischeduledworkitem-gettriggerstring
+          - name: "IScheduledWorkItem::GetWorkItemData"
+            href: /windows/desktop/api/Mstask/nf-mstask-ischeduledworkitem-getworkitemdata
+          - name: "IScheduledWorkItem::Run"
+            href: /windows/desktop/api/Mstask/nf-mstask-ischeduledworkitem-run
+          - name: "IScheduledWorkItem::SetAccountInformation"
+            href: /windows/desktop/api/Mstask/nf-mstask-ischeduledworkitem-setaccountinformation
+          - name: "IScheduledWorkItem::SetComment"
+            href: /windows/desktop/api/Mstask/nf-mstask-ischeduledworkitem-setcomment
+          - name: "IScheduledWorkItem::SetCreator"
+            href: /windows/desktop/api/Mstask/nf-mstask-ischeduledworkitem-setcreator
+          - name: "IScheduledWorkItem::SetErrorRetryCount"
+            href: /windows/desktop/api/Mstask/nf-mstask-ischeduledworkitem-seterrorretrycount
+          - name: "IScheduledWorkItem::SetErrorRetryInterval"
+            href: /windows/desktop/api/Mstask/nf-mstask-ischeduledworkitem-seterrorretryinterval
+          - name: "IScheduledWorkItem::SetFlags"
+            href: /windows/desktop/api/Mstask/nf-mstask-ischeduledworkitem-setflags
+          - name: "IScheduledWorkItem::SetIdleWait"
+            href: /windows/desktop/api/Mstask/nf-mstask-ischeduledworkitem-setidlewait
+          - name: "IScheduledWorkItem::SetWorkItemData"
+            href: /windows/desktop/api/Mstask/nf-mstask-ischeduledworkitem-setworkitemdata
+          - name: "IScheduledWorkItem::Terminate"
+            href: /windows/desktop/api/Mstask/nf-mstask-ischeduledworkitem-terminate
+        - name: "ITask"
+          href: /windows/desktop/api/Mstask/nn-mstask-itask
+          items: 
+          - name: "ITask::GetApplicationName"
+            href: /windows/desktop/api/Mstask/nf-mstask-itask-getapplicationname
+          - name: "ITask::GetMaxRunTime"
+            href: /windows/desktop/api/Mstask/nf-mstask-itask-getmaxruntime
+          - name: "ITask::GetParameters"
+            href: /windows/desktop/api/Mstask/nf-mstask-itask-getparameters
+          - name: "ITask::GetPriority"
+            href: /windows/desktop/api/Mstask/nf-mstask-itask-getpriority
+          - name: "ITask::GetTaskFlags"
+            href: /windows/desktop/api/Mstask/nf-mstask-itask-gettaskflags
+          - name: "ITask::GetWorkingDirectory"
+            href: /windows/desktop/api/Mstask/nf-mstask-itask-getworkingdirectory
+          - name: "ITask::SetApplicationName"
+            href: /windows/desktop/api/Mstask/nf-mstask-itask-setapplicationname
+          - name: "ITask::SetMaxRunTime"
+            href: /windows/desktop/api/Mstask/nf-mstask-itask-setmaxruntime
+          - name: "ITask::SetParameters"
+            href: /windows/desktop/api/Mstask/nf-mstask-itask-setparameters
+          - name: "ITask::SetPriority"
+            href: /windows/desktop/api/Mstask/nf-mstask-itask-setpriority
+          - name: "ITask::SetTaskFlags"
+            href: /windows/desktop/api/Mstask/nf-mstask-itask-settaskflags
+          - name: "ITask::SetWorkingDirectory"
+            href: /windows/desktop/api/Mstask/nf-mstask-itask-setworkingdirectory
+        - name: "ITaskScheduler"
+          href: /windows/desktop/api/Mstask/nn-mstask-itaskscheduler
+          items: 
+          - name: "ITaskScheduler::Activate"
+            href: /windows/desktop/api/Mstask/nf-mstask-itaskscheduler-activate
+          - name: "ITaskScheduler::AddWorkItem"
+            href: /windows/desktop/api/Mstask/nf-mstask-itaskscheduler-addworkitem
+          - name: "ITaskScheduler::Delete"
+            href: /windows/desktop/api/Mstask/nf-mstask-itaskscheduler-delete
+          - name: "ITaskScheduler::Enum"
+            href: /windows/desktop/api/Mstask/nf-mstask-itaskscheduler-enum
+          - name: "ITaskScheduler::GetTargetComputer"
+            href: /windows/desktop/api/Mstask/nf-mstask-itaskscheduler-gettargetcomputer
+          - name: "ITaskScheduler::IsOfType"
+            href: /windows/desktop/api/Mstask/nf-mstask-itaskscheduler-isoftype
+          - name: "ITaskScheduler::NewWorkItem"
+            href: /windows/desktop/api/Mstask/nf-mstask-itaskscheduler-newworkitem
+          - name: "ITaskScheduler::SetTargetComputer"
+            href: /windows/desktop/api/Mstask/nf-mstask-itaskscheduler-settargetcomputer
+        - name: "ITaskTrigger"
+          href: /windows/desktop/api/Mstask/nn-mstask-itasktrigger
+          items: 
+          - name: "ITaskTrigger::GetTrigger"
+            href: /windows/desktop/api/Mstask/nf-mstask-itasktrigger-gettrigger
+          - name: "ITaskTrigger::GetTriggerString"
+            href: /windows/desktop/api/Mstask/nf-mstask-itasktrigger-gettriggerstring
+          - name: "ITaskTrigger::SetTrigger"
+            href: /windows/desktop/api/Mstask/nf-mstask-itasktrigger-settrigger
+      - name: "Task Scheduler 2.0 Interfaces"
+        href: task-scheduler-2-0-interfaces.md
+        items: 
+        - name: "IAction"
+          href: /windows/desktop/api/taskschd/nn-taskschd-iaction
+          items: 
+          - name: "Id Property of IAction"
+            href: /windows/desktop/api/taskschd/nf-taskschd-iaction-get_id
+          - name: "Type Property of IAction"
+            href: /windows/desktop/api/taskschd/nf-taskschd-iaction-get_type
+        - name: "IActionCollection"
+          href: /windows/desktop/api/taskschd/nn-taskschd-iactioncollection
+          items: 
+          - name: "Context Property of IActionCollection"
+            href: /windows/desktop/api/taskschd/nf-taskschd-iactioncollection-get_context
+          - name: "Count Property of IActionCollection"
+            href: /windows/desktop/api/taskschd/nf-taskschd-iactioncollection-get_count
+          - name: "Item Property of IActionCollection"
+            href: /windows/desktop/api/taskschd/nf-taskschd-iactioncollection-get_item
+          - name: "XmlText Property of IActionCollection"
+            href: /windows/desktop/api/taskschd/nf-taskschd-iactioncollection-get_xmltext
+          - name: "_NewEnum Property of IActionCollection"
+            href: /windows/desktop/api/taskschd/nf-taskschd-iactioncollection-get__newenum
+          - name: "IActionCollection::Clear"
+            href: /windows/desktop/api/taskschd/nf-taskschd-iactioncollection-clear
+          - name: "IActionCollection::Create"
+            href: /windows/desktop/api/taskschd/nf-taskschd-iactioncollection-create
+          - name: "IActionCollection::Remove"
+            href: /windows/desktop/api/taskschd/nf-taskschd-iactioncollection-remove
+        - name: "IBootTrigger"
+          href: /windows/desktop/api/taskschd/nn-taskschd-iboottrigger
+          items: 
+          - name: "Delay Property of IBootTrigger"
+            href: /windows/desktop/api/taskschd/nf-taskschd-iboottrigger-get_delay
+        - name: "IComHandlerAction"
+          href: /windows/desktop/api/taskschd/nn-taskschd-icomhandleraction
+          items: 
+          - name: "ClassId Property of IComHandlerAction"
+            href: /windows/desktop/api/taskschd/nf-taskschd-icomhandleraction-get_classid
+          - name: "Data Property of IComHandlerAction"
+            href: /windows/desktop/api/taskschd/nf-taskschd-icomhandleraction-get_data
+        - name: "IDailyTrigger"
+          href: /windows/desktop/api/taskschd/nn-taskschd-idailytrigger
+          items: 
+          - name: "DaysInterval Property of IDailyTrigger"
+            href: /windows/desktop/api/taskschd/nf-taskschd-idailytrigger-get_daysinterval
+          - name: "RandomDelay Property of IDailyTrigger"
+            href: /windows/desktop/api/taskschd/nf-taskschd-idailytrigger-get_randomdelay
+        - name: "IEmailAction"
+          href: /windows/desktop/api/taskschd/nn-taskschd-iemailaction
+          items: 
+          - name: "Attachments Property of IEmailAction"
+            href: /windows/desktop/api/taskschd/nf-taskschd-iemailaction-get_attachments
+          - name: "Bcc Property of IEmailAction"
+            href: /windows/desktop/api/taskschd/nf-taskschd-iemailaction-get_bcc
+          - name: "Body Property of IEmailAction"
+            href: /windows/desktop/api/taskschd/nf-taskschd-iemailaction-get_body
+          - name: "Cc Property of IEmailAction"
+            href: /windows/desktop/api/taskschd/nf-taskschd-iemailaction-get_cc
+          - name: "From Property of IEmailAction"
+            href: /windows/desktop/api/taskschd/nf-taskschd-iemailaction-get_from
+          - name: "HeaderFields Property of IEmailAction"
+            href: /windows/desktop/api/taskschd/nf-taskschd-iemailaction-get_headerfields
+          - name: "ReplyTo Property of IEmailAction"
+            href: /windows/desktop/api/taskschd/nf-taskschd-iemailaction-get_replyto
+          - name: "Server Property of IEmailAction"
+            href: /windows/desktop/api/taskschd/nf-taskschd-iemailaction-get_server
+          - name: "Subject Property of IEmailAction"
+            href: /windows/desktop/api/taskschd/nf-taskschd-iemailaction-get_subject
+          - name: "To Property of IEmailAction"
+            href: /windows/desktop/api/taskschd/nf-taskschd-iemailaction-get_to
+        - name: "IEventTrigger"
+          href: /windows/desktop/api/taskschd/nn-taskschd-ieventtrigger
+          items: 
+          - name: "Delay Property of IEventTrigger"
+            href: /windows/desktop/api/taskschd/nf-taskschd-ieventtrigger-get_delay
+          - name: "Subscription Property of IEventTrigger"
+            href: /windows/desktop/api/taskschd/nf-taskschd-ieventtrigger-get_subscription
+          - name: "ValueQueries Property of IEventTrigger"
+            href: /windows/desktop/api/taskschd/nf-taskschd-ieventtrigger-get_valuequeries
+        - name: "IExecAction"
+          href: /windows/desktop/api/taskschd/nn-taskschd-iexecaction
+          items: 
+          - name: "Arguments Property of IExecAction"
+            href: /windows/desktop/api/taskschd/nf-taskschd-iexecaction-get_arguments
+          - name: "Path Property of IExecAction"
+            href: /windows/desktop/api/taskschd/nf-taskschd-iexecaction-get_path
+          - name: "WorkingDirectory Property of IExecAction"
+            href: /windows/desktop/api/taskschd/nf-taskschd-iexecaction-get_workingdirectory
+        - name: "IIdleSettings"
+          href: /windows/desktop/api/taskschd/nn-taskschd-iidlesettings
+          items: 
+          - name: "IdleDuration Property of IIdleSettings"
+            href: /windows/desktop/api/taskschd/nf-taskschd-iidlesettings-get_idleduration
+          - name: "RestartOnIdle Property of IIdleSettings"
+            href: /windows/desktop/api/taskschd/nf-taskschd-iidlesettings-get_restartonidle
+          - name: "StopOnIdleEnd Property of IIdleSettings"
+            href: /windows/desktop/api/taskschd/nf-taskschd-iidlesettings-get_stoponidleend
+          - name: "WaitTimeout Property of IIdleSettings"
+            href: /windows/desktop/api/taskschd/nf-taskschd-iidlesettings-get_waittimeout
+        - name: "IIdleTrigger"
+          href: /windows/desktop/api/taskschd/nn-taskschd-iidletrigger
+        - name: "ILogonTrigger"
+          href: /windows/desktop/api/taskschd/nn-taskschd-ilogontrigger
+          items: 
+          - name: "Delay Property of ILogonTrigger"
+            href: /windows/desktop/api/taskschd/nf-taskschd-ilogontrigger-get_delay
+          - name: "UserId Property of ILogonTrigger"
+            href: /windows/desktop/api/taskschd/nf-taskschd-ilogontrigger-get_userid
+        - name: "IMaintenanceSettings"
+          href: /windows/desktop/api/taskschd/nn-taskschd-imaintenancesettings
+          items: 
+          - name: "Deadline property"
+            href: /windows/desktop/api/Taskschd/nf-taskschd-imaintenancesettings-get_deadline
+          - name: "Exclusive property"
+            href: /windows/desktop/api/Taskschd/nf-taskschd-imaintenancesettings-get_exclusive
+          - name: "Period property"
+            href: /windows/desktop/api/Taskschd/nf-taskschd-imaintenancesettings-get_period
+        - name: "IMonthlyDOWTrigger"
+          href: /windows/desktop/api/taskschd/nn-taskschd-imonthlydowtrigger
+          items: 
+          - name: "DaysOfWeek Property of IMonthlyDOWTrigger"
+            href: /windows/desktop/api/taskschd/nf-taskschd-imonthlydowtrigger-get_daysofweek
+          - name: "MonthsOfYear Property of IMonthlyDOWTrigger"
+            href: /windows/desktop/api/taskschd/nf-taskschd-imonthlydowtrigger-get_monthsofyear
+          - name: "RandomDelay Property of IMonthlyDOWTrigger"
+            href: /windows/desktop/api/taskschd/nf-taskschd-imonthlydowtrigger-get_randomdelay
+          - name: "RunOnLastWeekOfMonth Property of IMonthlyDOWTrigger"
+            href: /windows/desktop/api/taskschd/nf-taskschd-imonthlydowtrigger-get_runonlastweekofmonth
+          - name: "WeeksOfMonth Property of IMonthlyDOWTrigger"
+            href: /windows/desktop/api/taskschd/nf-taskschd-imonthlydowtrigger-get_weeksofmonth
+        - name: "IMonthlyTrigger"
+          href: /windows/desktop/api/taskschd/nn-taskschd-imonthlytrigger
+          items: 
+          - name: "DaysOfMonth Property of IMonthlyTrigger"
+            href: /windows/desktop/api/taskschd/nf-taskschd-imonthlytrigger-get_daysofmonth
+          - name: "MonthsOfYear Property of IMonthlyTrigger"
+            href: /windows/desktop/api/taskschd/nf-taskschd-imonthlytrigger-get_monthsofyear
+          - name: "RandomDelay Property of IMonthlyTrigger"
+            href: /windows/desktop/api/taskschd/nf-taskschd-imonthlytrigger-get_randomdelay
+          - name: "RunOnLastDayOfMonth Property of IMonthlyTrigger"
+            href: /windows/desktop/api/taskschd/nf-taskschd-imonthlytrigger-get_runonlastdayofmonth
+        - name: "INetworkSettings"
+          href: /windows/desktop/api/taskschd/nn-taskschd-inetworksettings
+          items: 
+          - name: "Id Property of INetworkSettings"
+            href: /windows/desktop/api/taskschd/nf-taskschd-inetworksettings-get_id
+          - name: "Name Property of INetworkSettings"
+            href: /windows/desktop/api/taskschd/nf-taskschd-inetworksettings-get_name
+        - name: "IPrincipal"
+          href: /windows/desktop/api/taskschd/nn-taskschd-iprincipal
+          items: 
+          - name: "DisplayName Property of IPrincipal"
+            href: /windows/desktop/api/taskschd/nf-taskschd-iprincipal-get_displayname
+          - name: "GroupId Property of IPrincipal"
+            href: /windows/desktop/api/taskschd/nf-taskschd-iprincipal-get_groupid
+          - name: "Id Property of IPrincipal"
+            href: /windows/desktop/api/taskschd/nf-taskschd-iprincipal-get_id
+          - name: "LogonType Property of IPrincipal"
+            href: /windows/desktop/api/taskschd/nf-taskschd-iprincipal-get_logontype
+          - name: "UserId Property of IPrincipal"
+            href: /windows/desktop/api/taskschd/nf-taskschd-iprincipal-get_userid
+          - name: "RunLevel Property of IPrincipal"
+            href: /windows/desktop/api/taskschd/nf-taskschd-iprincipal-get_runlevel
+        - name: "IPrincipal2"
+          href: /windows/desktop/api/taskschd/nn-taskschd-iprincipal2
+          items: 
+          - name: "AddRequiredPrivilege Method"
+            href: /windows/desktop/api/taskschd/nf-taskschd-iprincipal2-addrequiredprivilege
+          - name: "ProcessTokenSidType Property"
+            href: /windows/desktop/api/taskschd/nf-taskschd-iprincipal2-get_processtokensidtype
+          - name: "RequiredPrivilege Property"
+            href: /windows/desktop/api/taskschd/nf-taskschd-iprincipal2-get_requiredprivilege
+          - name: "RequiredPrivilegeCount Property"
+            href: /windows/desktop/api/taskschd/nf-taskschd-iprincipal2-get_requiredprivilegecount
+        - name: "IRegisteredTask"
+          href: /windows/desktop/api/taskschd/nn-taskschd-iregisteredtask
+          items: 
+          - name: "Definition Property of IRegisteredTask"
+            href: /windows/desktop/api/taskschd/nf-taskschd-iregisteredtask-get_definition
+          - name: "Enabled Property of IRegisteredTask"
+            href: /windows/desktop/api/taskschd/nf-taskschd-iregisteredtask-get_enabled
+          - name: "LastRunTime Property of IRegisteredTask"
+            href: /windows/desktop/api/taskschd/nf-taskschd-iregisteredtask-get_lastruntime
+          - name: "LastTaskResult Property of IRegisteredTask"
+            href: /windows/desktop/api/taskschd/nf-taskschd-iregisteredtask-get_lasttaskresult
+          - name: "Name Property of IRegisteredTask"
+            href: /windows/desktop/api/taskschd/nf-taskschd-iregisteredtask-get_name
+          - name: "NextRunTime Property of IRegisteredTask"
+            href: /windows/desktop/api/taskschd/nf-taskschd-iregisteredtask-get_nextruntime
+          - name: "NumberOfMissedRuns Property of IRegisteredTask"
+            href: /windows/desktop/api/taskschd/nf-taskschd-iregisteredtask-get_numberofmissedruns
+          - name: "Path Property of IRegisteredTask"
+            href: /windows/desktop/api/taskschd/nf-taskschd-iregisteredtask-get_path
+          - name: "State Property of IRegisteredTask"
+            href: /windows/desktop/api/taskschd/nf-taskschd-iregisteredtask-get_state
+          - name: "XML Property of IRegisteredTask"
+            href: /windows/desktop/api/taskschd/nf-taskschd-iregisteredtask-get_xml
+          - name: "IRegisteredTask::GetInstances"
+            href: /windows/desktop/api/taskschd/nf-taskschd-iregisteredtask-getinstances
+          - name: "IRegisteredTask::GetRunTimes"
+            href: /windows/desktop/api/taskschd/nf-taskschd-iregisteredtask-getruntimes
+          - name: "IRegisteredTask::GetSecurityDescriptor"
+            href: /windows/desktop/api/taskschd/nf-taskschd-iregisteredtask-getsecuritydescriptor
+          - name: "IRegisteredTask::Run"
+            href: /windows/desktop/api/taskschd/nf-taskschd-iregisteredtask-run
+          - name: "IRegisteredTask::RunEx"
+            href: /windows/desktop/api/taskschd/nf-taskschd-iregisteredtask-runex
+          - name: "IRegisteredTask::SetSecurityDescriptor"
+            href: /windows/desktop/api/taskschd/nf-taskschd-iregisteredtask-setsecuritydescriptor
+          - name: "IRegisteredTask::Stop"
+            href: /windows/desktop/api/taskschd/nf-taskschd-iregisteredtask-stop
+        - name: "IRegisteredTaskCollection"
+          href: /windows/desktop/api/taskschd/nn-taskschd-iregisteredtaskcollection
+          items: 
+          - name: "Count Property of IRegisteredTaskCollection"
+            href: /windows/desktop/api/taskschd/nf-taskschd-iregisteredtaskcollection-get_count
+          - name: "Item Property of IRegisteredTaskCollection"
+            href: /windows/desktop/api/taskschd/nf-taskschd-iregisteredtaskcollection-get_item
+          - name: "_NewEnum Property of IRegisteredTaskCollection"
+            href: /windows/desktop/api/taskschd/nf-taskschd-iregisteredtaskcollection-get__newenum
+        - name: "IRegistrationInfo"
+          href: /windows/desktop/api/taskschd/nn-taskschd-iregistrationinfo
+          items: 
+          - name: "Author Property of IRegistrationInfo"
+            href: /windows/desktop/api/taskschd/nf-taskschd-iregistrationinfo-get_author
+          - name: "Date Property of IRegistrationInfo"
+            href: /windows/desktop/api/taskschd/nf-taskschd-iregistrationinfo-get_date
+          - name: "Description Property of IRegistrationInfo"
+            href: /windows/desktop/api/taskschd/nf-taskschd-iregistrationinfo-get_description
+          - name: "Documentation Property of IRegistrationInfo"
+            href: /windows/desktop/api/taskschd/nf-taskschd-iregistrationinfo-get_documentation
+          - name: "SecurityDescriptor Property of IRegistrationInfo"
+            href: /windows/desktop/api/taskschd/nf-taskschd-iregistrationinfo-get_securitydescriptor
+          - name: "Source Property of IRegistrationInfo"
+            href: /windows/desktop/api/taskschd/nf-taskschd-iregistrationinfo-get_source
+          - name: "URI Property of IRegistrationInfo"
+            href: /windows/desktop/api/taskschd/nf-taskschd-iregistrationinfo-get_uri
+          - name: "Version Property of IRegistrationInfo"
+            href: /windows/desktop/api/taskschd/nf-taskschd-iregistrationinfo-get_version
+          - name: "XmlText Property of IRegistrationInfo"
+            href: /windows/desktop/api/taskschd/nf-taskschd-iregistrationinfo-get_xmltext
+        - name: "IRegistrationTrigger"
+          href: /windows/desktop/api/taskschd/nn-taskschd-iregistrationtrigger
+          items: 
+          - name: "Delay Property of IRegistrationTrigger"
+            href: /windows/desktop/api/taskschd/nf-taskschd-iregistrationtrigger-get_delay
+        - name: "IRepetitionPattern"
+          href: /windows/desktop/api/taskschd/nn-taskschd-irepetitionpattern
+          items: 
+          - name: "Duration Property of IRepetitionPattern"
+            href: /windows/desktop/api/taskschd/nf-taskschd-irepetitionpattern-get_duration
+          - name: "Interval Property of IRepetitionPattern"
+            href: /windows/desktop/api/taskschd/nf-taskschd-irepetitionpattern-get_interval
+          - name: "StopAtDurationEnd Property of IRepetitionPattern"
+            href: /windows/desktop/api/taskschd/nf-taskschd-irepetitionpattern-get_stopatdurationend
+        - name: "IRunningTask"
+          href: /windows/desktop/api/taskschd/nn-taskschd-irunningtask
+          items: 
+          - name: "CurrentAction Property of IRunningTask"
+            href: /windows/desktop/api/taskschd/nf-taskschd-irunningtask-get_currentaction
+          - name: "EnginePID Property of IRunningTask"
+            href: /windows/desktop/api/taskschd/nf-taskschd-irunningtask-get_enginepid
+          - name: "InstanceGuid Property of IRunningTask"
+            href: /windows/desktop/api/taskschd/nf-taskschd-irunningtask-get_instanceguid
+          - name: "Name Property of IRunningTask"
+            href: /windows/desktop/api/taskschd/nf-taskschd-irunningtask-get_name
+          - name: "Path Property of IRunningTask"
+            href: /windows/desktop/api/taskschd/nf-taskschd-irunningtask-get_path
+          - name: "State Property of IRunningTask"
+            href: /windows/desktop/api/taskschd/nf-taskschd-irunningtask-get_state
+          - name: "IRunningTask::Refresh"
+            href: /windows/desktop/api/taskschd/nf-taskschd-irunningtask-refresh
+          - name: "IRunningTask::Stop"
+            href: /windows/desktop/api/taskschd/nf-taskschd-irunningtask-stop
+        - name: "IRunningTaskCollection"
+          href: /windows/desktop/api/taskschd/nn-taskschd-irunningtaskcollection
+          items: 
+          - name: "Count Property of IRunningTaskCollection"
+            href: /windows/desktop/api/taskschd/nf-taskschd-irunningtaskcollection-get_count
+          - name: "Item Property of IRunningTaskCollection"
+            href: /windows/desktop/api/taskschd/nf-taskschd-irunningtaskcollection-get_item
+          - name: "_NewEnum Property of IRunningTaskCollection"
+            href: /windows/desktop/api/taskschd/nf-taskschd-irunningtaskcollection-get__newenum
+        - name: "ISessionStateChangeTrigger"
+          href: /windows/desktop/api/taskschd/nn-taskschd-isessionstatechangetrigger
+          items: 
+          - name: "Delay Property of ISessionStateChangeTrigger"
+            href: /windows/desktop/api/taskschd/nf-taskschd-isessionstatechangetrigger-get_delay
+          - name: "StateChange Property of ISessionStateChangeTrigger"
+            href: /windows/desktop/api/taskschd/nf-taskschd-isessionstatechangetrigger-get_statechange
+          - name: "UserId Property of ISessionStateChangeTrigger"
+            href: /windows/desktop/api/taskschd/nf-taskschd-isessionstatechangetrigger-get_userid
+        - name: "IShowMessageAction"
+          href: /windows/desktop/api/taskschd/nn-taskschd-ishowmessageaction
+          items: 
+          - name: "MessageBody Property of IShowMessageAction"
+            href: /windows/desktop/api/taskschd/nf-taskschd-ishowmessageaction-get_messagebody
+          - name: "Title Property of IShowMessageAction"
+            href: /windows/desktop/api/taskschd/nf-taskschd-ishowmessageaction-get_title
+        - name: "ITaskDefinition"
+          href: /windows/desktop/api/taskschd/nn-taskschd-itaskdefinition
+          items: 
+          - name: "Actions Property of ITaskDefinition"
+            href: /windows/desktop/api/taskschd/nf-taskschd-itaskdefinition-get_actions
+          - name: "Data Property of ITaskDefinition"
+            href: /windows/desktop/api/taskschd/nf-taskschd-itaskdefinition-get_data
+          - name: "Principal Property of ITaskDefinition"
+            href: /windows/desktop/api/taskschd/nf-taskschd-itaskdefinition-get_principal
+          - name: "RegistrationInfo Property of ITaskDefinition"
+            href: /windows/desktop/api/taskschd/nf-taskschd-itaskdefinition-get_registrationinfo
+          - name: "Settings Property of ITaskDefinition"
+            href: /windows/desktop/api/taskschd/nf-taskschd-itaskdefinition-get_settings
+          - name: "Triggers Property of ITaskDefinition"
+            href: /windows/desktop/api/taskschd/nf-taskschd-itaskdefinition-get_triggers
+          - name: "XmlText Property of ITaskDefinition"
+            href: /windows/desktop/api/taskschd/nf-taskschd-itaskdefinition-get_xmltext
+        - name: "ITaskFolder"
+          href: /windows/desktop/api/taskschd/nn-taskschd-itaskfolder
+          items: 
+          - name: "Name Property of ITaskFolder"
+            href: /windows/desktop/api/taskschd/nf-taskschd-itaskfolder-get_name
+          - name: "Path Property of ITaskFolder"
+            href: /windows/desktop/api/taskschd/nf-taskschd-itaskfolder-get_path
+          - name: "ITaskFolder::CreateFolder"
+            href: /windows/desktop/api/taskschd/nf-taskschd-itaskfolder-createfolder
+          - name: "ITaskFolder::DeleteFolder"
+            href: /windows/desktop/api/taskschd/nf-taskschd-itaskfolder-deletefolder
+          - name: "ITaskFolder::DeleteTask"
+            href: /windows/desktop/api/taskschd/nf-taskschd-itaskfolder-deletetask
+          - name: "ITaskFolder::GetFolder"
+            href: /windows/desktop/api/taskschd/nf-taskschd-itaskfolder-getfolder
+          - name: "ITaskFolder::GetFolders"
+            href: /windows/desktop/api/taskschd/nf-taskschd-itaskfolder-getfolders
+          - name: "ITaskFolder::GetSecurityDescriptor"
+            href: /windows/desktop/api/taskschd/nf-taskschd-itaskfolder-getsecuritydescriptor
+          - name: "ITaskFolder::GetTask"
+            href: /windows/desktop/api/taskschd/nf-taskschd-itaskfolder-gettask
+          - name: "ITaskFolder::GetTasks"
+            href: /windows/desktop/api/taskschd/nf-taskschd-itaskfolder-gettasks
+          - name: "ITaskFolder::RegisterTask"
+            href: /windows/desktop/api/taskschd/nf-taskschd-itaskfolder-registertask
+          - name: "ITaskFolder::RegisterTaskDefinition"
+            href: /windows/desktop/api/taskschd/nf-taskschd-itaskfolder-registertaskdefinition
+          - name: "ITaskFolder::SetSecurityDescriptor"
+            href: /windows/desktop/api/taskschd/nf-taskschd-itaskfolder-setsecuritydescriptor
+        - name: "ITaskFolderCollection"
+          href: /windows/desktop/api/taskschd/nn-taskschd-itaskfoldercollection
+          items: 
+          - name: "Count Property of ITaskFolderCollection"
+            href: /windows/desktop/api/taskschd/nf-taskschd-itaskfoldercollection-get_count
+          - name: "Item Property of ITaskFolderCollection"
+            href: /windows/desktop/api/taskschd/nf-taskschd-itaskfoldercollection-get_item
+          - name: "_NewEnum Property of ITaskFolderCollection"
+            href: /windows/desktop/api/taskschd/nf-taskschd-itaskfoldercollection-get__newenum
+        - name: "ITaskHandler"
+          href: /windows/desktop/api/taskschd/nn-taskschd-itaskhandler
+          items: 
+          - name: "ITaskHandler::Pause"
+            href: /windows/desktop/api/taskschd/nf-taskschd-itaskhandler-pause
+          - name: "ITaskHandler::Resume"
+            href: /windows/desktop/api/taskschd/nf-taskschd-itaskhandler-resume
+          - name: "ITaskHandler::Start"
+            href: /windows/desktop/api/taskschd/nf-taskschd-itaskhandler-start
+          - name: "ITaskHandler::Stop"
+            href: /windows/desktop/api/taskschd/nf-taskschd-itaskhandler-stop
+        - name: "ITaskHandlerStatus"
+          href: /windows/desktop/api/taskschd/nn-taskschd-itaskhandlerstatus
+          items: 
+          - name: "ITaskHandlerStatus::UpdateStatus"
+            href: /windows/desktop/api/taskschd/nf-taskschd-itaskhandlerstatus-updatestatus
+          - name: "ITaskHandlerStatus::TaskCompleted"
+            href: /windows/desktop/api/taskschd/nf-taskschd-itaskhandlerstatus-taskcompleted
+        - name: "ITaskNamedValueCollection"
+          href: /windows/desktop/api/taskschd/nn-taskschd-itasknamedvaluecollection
+          items: 
+          - name: "Count Property of ITaskNamedValueCollection"
+            href: /windows/desktop/api/taskschd/nf-taskschd-itasknamedvaluecollection-get_count
+          - name: "Item Property of ITaskNamedValueCollection"
+            href: /windows/desktop/api/taskschd/nf-taskschd-itasknamedvaluecollection-get_item
+          - name: "_NewEnum Property of ITaskNamedValueCollection"
+            href: /windows/desktop/api/taskschd/nf-taskschd-itasknamedvaluecollection-get__newenum
+          - name: "ITaskNamedValueCollection::Clear"
+            href: /windows/desktop/api/taskschd/nf-taskschd-itasknamedvaluecollection-clear
+          - name: "ITaskNamedValueCollection::Create"
+            href: /windows/desktop/api/taskschd/nf-taskschd-itasknamedvaluecollection-create
+          - name: "ITaskNamedValueCollection::Remove"
+            href: /windows/desktop/api/taskschd/nf-taskschd-itasknamedvaluecollection-remove
+        - name: "ITaskNamedValuePair"
+          href: /windows/desktop/api/taskschd/nn-taskschd-itasknamedvaluepair
+          items: 
+          - name: "Name Property of ITaskNamedValuePair"
+            href: /windows/desktop/api/taskschd/nf-taskschd-itasknamedvaluepair-get_name
+          - name: "Value Property of ITaskNamedValuePair"
+            href: /windows/desktop/api/taskschd/nf-taskschd-itasknamedvaluepair-get_value
+        - name: "ITaskService"
+          href: /windows/desktop/api/taskschd/nn-taskschd-itaskservice
+          items: 
+          - name: "Connected Property of ITaskService"
+            href: /windows/desktop/api/taskschd/nf-taskschd-itaskservice-get_connected
+          - name: "ConnectedDomain Property of ITaskService"
+            href: /windows/desktop/api/taskschd/nf-taskschd-itaskservice-get_connecteddomain
+          - name: "ConnectedUser Property of ITaskService"
+            href: /windows/desktop/api/taskschd/nf-taskschd-itaskservice-get_connecteduser
+          - name: "HighestVersion Property of ITaskService"
+            href: /windows/desktop/api/taskschd/nf-taskschd-itaskservice-get_highestversion
+          - name: "TargetServer Property of ITaskService"
+            href: /windows/desktop/api/taskschd/nf-taskschd-itaskservice-get_targetserver
+          - name: "ITaskService::Connect"
+            href: /windows/desktop/api/taskschd/nf-taskschd-itaskservice-connect
+          - name: "ITaskService::GetFolder"
+            href: /windows/desktop/api/taskschd/nf-taskschd-itaskservice-getfolder
+          - name: "ITaskService::GetRunningTasks"
+            href: /windows/desktop/api/taskschd/nf-taskschd-itaskservice-getrunningtasks
+          - name: "ITaskService::NewTask"
+            href: /windows/desktop/api/taskschd/nf-taskschd-itaskservice-newtask
+        - name: "ITaskSettings"
+          href: /windows/desktop/api/taskschd/nn-taskschd-itasksettings
+          items: 
+          - name: "AllowDemandStart Property of ITaskSettings"
+            href: /windows/desktop/api/taskschd/nf-taskschd-itasksettings-get_allowdemandstart
+          - name: "AllowHardTerminate Property of ITaskSettings"
+            href: /windows/desktop/api/taskschd/nf-taskschd-itasksettings-get_allowhardterminate
+          - name: "Compatibility Property of ITaskSettings"
+            href: /windows/desktop/api/taskschd/nf-taskschd-itasksettings-get_compatibility
+          - name: "DeleteExpiredTaskAfter Property of ITaskSettings"
+            href: /windows/desktop/api/taskschd/nf-taskschd-itasksettings-get_deleteexpiredtaskafter
+          - name: "DisallowStartIfOnBatteries Property of ITaskSettings"
+            href: /windows/desktop/api/taskschd/nf-taskschd-itasksettings-get_disallowstartifonbatteries
+          - name: "Enabled Property of ITaskSettings"
+            href: /windows/desktop/api/taskschd/nf-taskschd-itasksettings-get_enabled
+          - name: "ExecutionTimeLimit Property of ITaskSettings"
+            href: /windows/desktop/api/taskschd/nf-taskschd-itasksettings-get_executiontimelimit
+          - name: "Hidden Property of ITaskSettings"
+            href: /windows/desktop/api/taskschd/nf-taskschd-itasksettings-get_hidden
+          - name: "IdleSettings Property of ITaskSettings"
+            href: /windows/desktop/api/taskschd/nf-taskschd-itasksettings-get_idlesettings
+          - name: "MultipleInstances Property of ITaskSettings"
+            href: /windows/desktop/api/taskschd/nf-taskschd-itasksettings-get_multipleinstances
+          - name: "NetworkSettings Property of ITaskSettings"
+            href: /windows/desktop/api/taskschd/nf-taskschd-itasksettings-get_networksettings
+          - name: "Priority Property of ITaskSettings"
+            href: /windows/desktop/api/taskschd/nf-taskschd-itasksettings-get_priority
+          - name: "RestartCount Property of ITaskSettings"
+            href: /windows/desktop/api/taskschd/nf-taskschd-itasksettings-get_restartcount
+          - name: "RestartInterval Property of ITaskSettings"
+            href: /windows/desktop/api/taskschd/nf-taskschd-itasksettings-get_restartinterval
+          - name: "RunOnlyIfIdle Property of ITaskSettings"
+            href: /windows/desktop/api/taskschd/nf-taskschd-itasksettings-get_runonlyifidle
+          - name: "RunOnlyIfNetworkAvailable Property of ITaskSettings"
+            href: /windows/desktop/api/taskschd/nf-taskschd-itasksettings-get_runonlyifnetworkavailable
+          - name: "StartWhenAvailable Property of ITaskSettings"
+            href: /windows/desktop/api/taskschd/nf-taskschd-itasksettings-get_startwhenavailable
+          - name: "StopIfGoingOnBatteries Property of ITaskSettings"
+            href: /windows/desktop/api/taskschd/nf-taskschd-itasksettings-get_stopifgoingonbatteries
+          - name: "WakeToRun Property of ITaskSettings"
+            href: /windows/desktop/api/taskschd/nf-taskschd-itasksettings-get_waketorun
+          - name: "XmlText Property of ITaskSettings"
+            href: /windows/desktop/api/taskschd/nf-taskschd-itasksettings-get_xmltext
+        - name: "ITaskSettings2"
+          href: /windows/desktop/api/taskschd/nn-taskschd-itasksettings2
+          items: 
+          - name: "DisallowStartOnRemoteAppSession Property"
+            href: /windows/desktop/api/taskschd/nf-taskschd-itasksettings2-get_disallowstartonremoteappsession
+          - name: "UseUnifiedSchedulingEngine Property"
+            href: /windows/desktop/api/taskschd/nf-taskschd-itasksettings2-get_useunifiedschedulingengine
+        - name: "ITaskSettings3"
+          href: /windows/desktop/api/taskschd/nn-taskschd-itasksettings3
+          items: 
+          - name: "CreateMantenanceSettings method"
+            href: /previous-versions/windows/desktop/legacy/hh832149(v=vs.85)
+          - name: "MaintenanceSettings property"
+            href: /windows/desktop/api/Taskschd/nf-taskschd-itasksettings3-get_maintenancesettings
+          - name: "Volatile property"
+            href: /windows/desktop/api/Taskschd/nf-taskschd-itasksettings3-get_volatile
+        - name: "ITaskVariables"
+          href: /windows/desktop/api/taskschd/nn-taskschd-itaskvariables
+          items: 
+          - name: "ITaskVariables::GetContext"
+            href: /windows/desktop/api/taskschd/nf-taskschd-itaskvariables-getcontext
+          - name: "ITaskVariables::GetInput"
+            href: /windows/desktop/api/taskschd/nf-taskschd-itaskvariables-getinput
+          - name: "ITaskVariables::SetOutput"
+            href: /windows/desktop/api/taskschd/nf-taskschd-itaskvariables-setoutput
+        - name: "ITimeTrigger"
+          href: /windows/desktop/api/taskschd/nn-taskschd-itimetrigger
+          items: 
+          - name: "RandomDelay Property of ITimeTrigger"
+            href: /windows/desktop/api/taskschd/nf-taskschd-itimetrigger-get_randomdelay
+        - name: "ITrigger"
+          href: /windows/desktop/api/taskschd/nn-taskschd-itrigger
+          items: 
+          - name: "Enabled Property of ITrigger"
+            href: /windows/desktop/api/taskschd/nf-taskschd-itrigger-get_enabled
+          - name: "EndBoundary Property of ITrigger"
+            href: /windows/desktop/api/taskschd/nf-taskschd-itrigger-get_endboundary
+          - name: "ExecutionTimeLimit Property of ITrigger"
+            href: /windows/desktop/api/taskschd/nf-taskschd-itrigger-get_executiontimelimit
+          - name: "Id Property of ITrigger"
+            href: /windows/desktop/api/taskschd/nf-taskschd-itrigger-get_id
+          - name: "Repetition Property of ITrigger"
+            href: /windows/desktop/api/taskschd/nf-taskschd-itrigger-get_repetition
+          - name: "StartBoundary Property of ITrigger"
+            href: /windows/desktop/api/taskschd/nf-taskschd-itrigger-get_startboundary
+          - name: "Type Property of ITrigger"
+            href: /windows/desktop/api/taskschd/nf-taskschd-itrigger-get_type
+        - name: "ITriggerCollection"
+          href: /windows/desktop/api/taskschd/nn-taskschd-itriggercollection
+          items: 
+          - name: "Count Property of ITriggerCollection"
+            href: /windows/desktop/api/taskschd/nf-taskschd-itriggercollection-get_count
+          - name: "Item Property of ITriggerCollection"
+            href: /windows/desktop/api/taskschd/nf-taskschd-itriggercollection-get_item
+          - name: "_NewEnum Property of ITriggerCollection"
+            href: /windows/desktop/api/taskschd/nf-taskschd-itriggercollection-get__newenum
+          - name: "ITriggerCollection::Clear"
+            href: /windows/desktop/api/taskschd/nf-taskschd-itriggercollection-clear
+          - name: "ITriggerCollection::Create"
+            href: /windows/desktop/api/taskschd/nf-taskschd-itriggercollection-create
+          - name: "ITriggerCollection::Remove"
+            href: /windows/desktop/api/taskschd/nf-taskschd-itriggercollection-remove
+        - name: "IWeeklyTrigger"
+          href: /windows/desktop/api/taskschd/nn-taskschd-iweeklytrigger
+          items: 
+          - name: "DaysOfWeek Property of IWeeklyTrigger"
+            href: /windows/desktop/api/taskschd/nf-taskschd-iweeklytrigger-get_daysofweek
+          - name: "RandomDelay Property of IWeeklyTrigger"
+            href: /windows/desktop/api/taskschd/nf-taskschd-iweeklytrigger-get_randomdelay
+          - name: "WeeksInterval Property of IWeeklyTrigger"
+            href: /windows/desktop/api/taskschd/nf-taskschd-iweeklytrigger-get_weeksinterval
+    - name: "Task Scheduler Structures and Unions"
+      href: task-scheduler-structures-and-unions.md
+      items: 
+      - name: "DAILY"
+        href: /windows/win32/api/Mstask/ns-mstask-daily
+      - name: "MONTHLYDATE"
+        href: /windows/win32/api/Mstask/ns-mstask-monthlydate
+      - name: "MONTHLYDOW"
+        href: /windows/win32/api/Mstask/ns-mstask-monthlydow
+      - name: "TASK_TRIGGER"
+        href: /windows/win32/api/Mstask/ns-mstask-task_trigger
+      - name: "TRIGGER_TYPE_UNION"
+        href: /windows/win32/api/Mstask/ns-mstask-trigger_type_union
+      - name: "WEEKLY"
+        href: /windows/win32/api/Mstask/ns-mstask-weekly
+    - name: "Task Scheduler Enumerated Types"
+      href: task-scheduler-enumerated-types.md
+      items: 
+      - name: "Task Scheduler 1.0 Enumerated Types"
+        href: task-scheduler-1-0-enumerated-types.md
+        items: 
+        - name: "TASK_TRIGGER_TYPE"
+          href: /windows/win32/api/Mstask/ne-mstask-task_trigger_type
+        - name: "TASKPAGE"
+          href: /windows/win32/api/Mstask/ne-mstask-taskpage
+      - name: "Task Scheduler 2.0 Enumerated Types"
+        href: task-scheduler-2-0-enumerated-types.md
+        items: 
+        - name: "TASK_ACTION_TYPE"
+          href: /windows/win32/api/taskschd/ne-taskschd-task_action_type
+        - name: "TASK_COMPATIBILITY"
+          href: /windows/win32/api/taskschd/ne-taskschd-task_compatibility
+        - name: "TASK_CREATION"
+          href: /windows/win32/api/taskschd/ne-taskschd-task_creation
+        - name: "TASK_ENUM_FLAGS"
+          href: /windows/win32/api/taskschd/ne-taskschd-task_enum_flags
+        - name: "TASK_INSTANCES_POLICY"
+          href: /windows/win32/api/taskschd/ne-taskschd-task_instances_policy
+        - name: "TASK_LOGON_TYPE"
+          href: /windows/win32/api/taskschd/ne-taskschd-task_logon_type
+        - name: "TASK_PROCESSTOKENSID_TYPE"
+          href: /windows/win32/api/taskschd/ne-taskschd-task_processtokensid_type
+        - name: "TASK_RUNLEVEL_TYPE"
+          href: /windows/win32/api/taskschd/ne-taskschd-task_runlevel_type
+        - name: "TASK_RUN_FLAGS"
+          href: /windows/win32/api/taskschd/ne-taskschd-task_run_flags
+        - name: "TASK_SESSION_STATE_CHANGE_TYPE"
+          href: /windows/win32/api/taskschd/ne-taskschd-task_session_state_change_type
+        - name: "TASK_STATE"
+          href: /windows/win32/api/taskschd/ne-taskschd-task_state
+        - name: "TASK_TRIGGER_TYPE2"
+          href: /windows/win32/api/taskschd/ne-taskschd-task_trigger_type2
+    - name: "Task Scheduler Schema"
+      href: task-scheduler-schema.md
+      items: 
+      - name: "Task Scheduler Schema Elements"
+        href: task-scheduler-schema-elements.md
+        items: 
+        - name: "Actions (taskType) Element"
+          href: taskschedulerschema-actions-tasktype-element.md
+        - name: "AllowHardTerminate (settingsType) Element"
+          href: taskschedulerschema-allowhardterminate-settingstype-element.md
+        - name: "AllowStartOnDemand (settingsType) Element"
+          href: taskschedulerschema-allowstartondemand-settingstype-element.md
+        - name: "April (monthsType) Element"
+          href: taskschedulerschema-april-monthstype-element.md
+        - name: "Arguments (execType) Element"
+          href: taskschedulerschema-arguments-exectype-element.md
+        - name: "Attachments (sendEmailType) Element"
+          href: taskschedulerschema-attachments-sendemailtype-element.md
+        - name: "August (monthsType) Element"
+          href: taskschedulerschema-august-monthstype-element.md
+        - name: "Author (registrationInfoType) Element"
+          href: taskschedulerschema-author-registrationinfotype-element.md
+        - name: "Body (sendEmailType) Element"
+          href: taskschedulerschema-body-sendemailtype-element.md
+        - name: "Body (showMessageType) Element"
+          href: taskschedulerschema-body-showmessagetype-element.md
+        - name: "BootTrigger (bootTriggerType) Element"
+          href: taskschedulerschema-boottrigger-triggergroup-element.md
+        - name: "Bcc (sendEmailType) Element"
+          href: taskschedulerschema-bcc-sendemailtype-element.md
+        - name: "CalendarTrigger (calendarTriggerType) Element"
+          href: taskschedulerschema-calendartrigger-triggergroup-element.md
+        - name: "Cc (sendEmailType) Element"
+          href: taskschedulerschema-cc-sendemailtype-element.md
+        - name: "ClassId (comHandlerType) Element"
+          href: taskschedulerschema-classid-comhandlertype-element.md
+        - name: "ComHandler (actionGroup) Element"
+          href: taskschedulerschema-comhandler-actiongroup-element.md
+        - name: "Command (execType) Element"
+          href: taskschedulerschema-command-exectype-element.md
+        - name: "Count (restartType) Element"
+          href: taskschedulerschema-count-restarttype-element.md
+        - name: "Data (comHandlerType) Element"
+          href: taskschedulerschema-data-comhandlertype-element.md
+        - name: "Data (taskType) Element"
+          href: taskschedulerschema-data-tasktype-element.md
+        - name: "Date (registrationInfoType) Element"
+          href: taskschedulerschema-date-registrationinfotype-element.md
+        - name: "Day (daysOfMonthType) Element"
+          href: taskschedulerschema-day-daysofmonthtype-element.md
+        - name: "DaysInterval (dailyScheduleType) Element"
+          href: taskschedulerschema-daysinterval-dailyscheduletype-element.md
+        - name: "DaysOfMonth (monthlyScheduleType) Element"
+          href: taskschedulerschema-daysofmonth-monthlyscheduletype-element.md
+        - name: "DaysOfWeek (monthlyDayOfWeekScheduleType) Element"
+          href: taskschedulerschema-daysofweek-monthlydayofweekscheduletype-element.md
+        - name: "DaysOfWeek (weeklyScheduleType) Element"
+          href: taskschedulerschema-daysofweek-weeklyscheduletype-element.md
+        - name: "Deadline Element"
+          href: taskschedulerschema-deadline-element.md
+        - name: "December (monthsType) Element"
+          href: taskschedulerschema-december-monthstype-element.md
+        - name: "Delay (bootTriggerType) Element"
+          href: taskschedulerschema-delay-boottriggertype-element.md
+        - name: "Delay (eventTriggerType) Element"
+          href: taskschedulerschema-delay-eventtriggertype-element.md
+        - name: "Delay (logonTriggerType) Element"
+          href: taskschedulerschema-delay-logontriggertype-element.md
+        - name: "Delay (registrationTriggerType) Element"
+          href: taskschedulerschema-delay-registrationtriggertype-element.md
+        - name: "Delay (sessionStateChangeTriggerType) Element"
+          href: taskschedulerschema-delay-sessionstatechangetriggertype-element.md
+        - name: "DeleteExpiredTaskAfter (settingsType) Element"
+          href: taskschedulerschema-deleteexpiredtaskafter-settingstype-element.md
+        - name: "Description (registrationInfoType) Element"
+          href: taskschedulerschema-description-registrationinfotype-element.md
+        - name: "DisallowStartIfOnBatteries (settingsType) Element"
+          href: taskschedulerschema-disallowstartifonbatteries-settingstype-element.md
+        - name: "DisallowStartOnRemoteAppSession (settingsType) Element"
+          href: taskschedulerschema-disallowstartonremoteappsession-settingstype-element.md
+        - name: "DisplayName (principalType) Element"
+          href: taskschedulerschema-displayname-principaltype-element.md
+        - name: "Documentation (registrationInfoType) Element"
+          href: taskschedulerschema-documentation-registrationinfotype-element.md
+        - name: "Duration (idleSettingsType) Element"
+          href: taskschedulerschema-duration-idlesettingstype-element.md
+        - name: "Duration (repetitionType) Element"
+          href: taskschedulerschema-duration-repetitiontype-element.md
+        - name: "Enabled (settingsType) Element"
+          href: taskschedulerschema-enabled-settingstype-element.md
+        - name: "Enabled (triggerBaseType) Element"
+          href: taskschedulerschema-enabled-triggerbasetype-element.md
+        - name: "EndBoundary (triggerBaseType) Element"
+          href: taskschedulerschema-endboundary-triggerbasetype-element.md
+        - name: "EventTrigger (triggerGroup) Element"
+          href: taskschedulerschema-eventtrigger-triggergroup-element.md
+        - name: "Exclusive Element"
+          href: taskschedulerschema-exclusive-element.md
+        - name: "Exec (actionGroup) Element"
+          href: taskschedulerschema-exec-actiongroup-element.md
+        - name: "ExecutionTimeLimit (settingsType) Element"
+          href: taskschedulerschema-executiontimelimit-settingstype-element.md
+        - name: "ExecutionTimeLimit (triggerBaseType) Element"
+          href: taskschedulerschema-executiontimelimit-triggerbasetype-element.md
+        - name: "February (monthsType) Element"
+          href: taskschedulerschema-february-monthstype-element.md
+        - name: "File (attachmentsType) Element"
+          href: taskschedulerschema-file-attachmentstype-element.md
+        - name: "Friday (daysOfWeekType) Element"
+          href: taskschedulerschema-friday-daysofweektype-element.md
+        - name: "From (sendEmailType) Element"
+          href: taskschedulerschema-from-sendemailtype-element.md
+        - name: "GroupId (principalType) Element"
+          href: taskschedulerschema-groupid-principaltype-element.md
+        - name: "HeaderFields (sendEmailType) Element"
+          href: taskschedulerschema-headerfields-sendemailtype-element.md
+        - name: "HeaderField (headerFieldsType) Element"
+          href: taskschedulerschema-headerfield-headerfieldstype-element.md
+        - name: "Hidden (settingsType) Element"
+          href: taskschedulerschema-hidden-settingstype-element.md
+        - name: "IdleSettings (settingsType) Element"
+          href: taskschedulerschema-idlesettings-settingstype-element.md
+        - name: "IdleTrigger (triggerGroup) Element"
+          href: taskschedulerschema-idletrigger-triggergroup-element.md
+        - name: "Id (networkSettingsType) Element"
+          href: taskschedulerschema-id-networksettingstype-element.md
+        - name: "Interval (repetitionType) Element"
+          href: taskschedulerschema-interval-repetitiontype-element.md
+        - name: "Interval (restartType) Element"
+          href: taskschedulerschema-interval-restarttype-element.md
+        - name: "January (monthsType) Element"
+          href: taskschedulerschema-january-monthstype-element.md
+        - name: "July (monthsType) Element"
+          href: taskschedulerschema-july-monthstype-element.md
+        - name: "June (monthsType) Element"
+          href: taskschedulerschema-june-monthstype-element.md
+        - name: "LogonTrigger (triggerGroup) Element"
+          href: taskschedulerschema-logontrigger-triggergroup-element.md
+        - name: "LogonType (principalType) Element"
+          href: taskschedulerschema-logontype-principaltype-element.md
+        - name: "MaintenanceSettings (maintenanceSettingsType) Element"
+          href: taskschedulerschema-maintenancesettings-maintenancesettingstype-element.md
+        - name: "March (monthsType) Element"
+          href: taskschedulerschema-march-monthstype-element.md
+        - name: "May (monthsType) Element"
+          href: taskschedulerschema-may-monthstype-element.md
+        - name: "Monday (weeklyScheduleType) Element"
+          href: taskschedulerschema-monday-daysofweektype-element.md
+        - name: "Months (monthlyDayOfWeekScheduleType) Element"
+          href: taskschedulerschema-months-monthlydayofweekscheduletype-element.md
+        - name: "Months (monthlyScheduleType) Element"
+          href: taskschedulerschema-months-monthlyscheduletype-element.md
+        - name: "MultipleInstancesPolicy (multipleInstancesPolicyType) Element"
+          href: taskschedulerschema-multipleinstancespolicy-settingstype-element.md
+        - name: "Name (headerFieldType) Element"
+          href: taskschedulerschema-name-headerfieldtype-element.md
+        - name: "Name (networkSettingsType) Element"
+          href: taskschedulerschema-name-networksettingstype-element.md
+        - name: "NetworkProfileName (settingsType) Element"
+          href: taskschedulerschema-networkprofilename-settingstype-element.md
+        - name: "NetworkSettings (settingsType) Element"
+          href: taskschedulerschema-networksettings-settingstype-element.md
+        - name: "November (monthsType) Element"
+          href: taskschedulerschema-november-monthstype-element.md
+        - name: "October (monthsType) Element"
+          href: taskschedulerschema-october-monthstype-element.md
+        - name: "Period Element"
+          href: taskschedulerschema-period-element.md
+        - name: "Principal (principalType) Element"
+          href: taskschedulerschema-principal-principaltype-element.md
+        - name: "Principals (taskType) Element"
+          href: taskschedulerschema-principals-tasktype-element.md
+        - name: "Privilege (requiredPrivilegesType) Element"
+          href: taskschedulerschema-privilege-requiredprivilegestype-element.md
+        - name: "ProcessTokenSidType (principalType) Element"
+          href: taskschedulerschema-processtokensidtype-principaltype-element.md
+        - name: "Priority (settingsType) Element"
+          href: taskschedulerschema-priority-settingstype-element.md
+        - name: "RandomDelay (calendarTriggerType) Element"
+          href: taskschedulerschema-randomdelay-calendartriggertype-element.md
+        - name: "RandomDelay (timeTriggerType) Element"
+          href: taskschedulerschema-randomdelay-timetriggertype-element.md
+        - name: "RegistrationInfo (taskType) Element"
+          href: taskschedulerschema-registrationinfo-tasktype-element.md
+        - name: "RegistrationTrigger (registrationTriggerType) Element"
+          href: taskschedulerschema-registrationtrigger-triggergroup-element.md
+        - name: "Repetition (triggerBaseType) Element"
+          href: taskschedulerschema-repetition-triggerbasetype-element.md
+        - name: "ReplyTo (sendEmailType) Element"
+          href: taskschedulerschema-replyto-sendemailtype-element.md
+        - name: "RequiredPrivileges (requiredPrivilegesType) Element"
+          href: taskschedulerschema-requiredprivileges-requiredprivilegestype-element.md
+        - name: "RestartOnFailure (settingsType) Element"
+          href: taskschedulerschema-restartonfailure-settingstype-element.md
+        - name: "RestartOnIdle (idleSettingsType) Element"
+          href: taskschedulerschema-restartonidle-idlesettingstype-element.md
+        - name: "RunLevel (runLevelType) Element"
+          href: taskschedulerschema-runlevel-principaltype-element.md
+        - name: "RunOnlyIfIdle (settingsType) Element"
+          href: taskschedulerschema-runonlyifidle-settingstype-element.md
+        - name: "RunOnlyIfNetworkAvailable (settingsType) Element"
+          href: taskschedulerschema-runonlyifnetworkavailable-settingstype-element.md
+        - name: "Saturday (daysOfWeekType) Element"
+          href: taskschedulerschema-saturday-daysofweektype-element.md
+        - name: "ScheduleByDay (calendarTriggerType) Element"
+          href: taskschedulerschema-schedulebyday-calendartriggertype-element.md
+        - name: "ScheduleByMonthDayOfWeek (monthlyDayOfWeekScheduleType) Element"
+          href: taskschedulerschema-schedulebymonthdayofweek-calendartriggertype-element.md
+        - name: "ScheduleByMonth (calendarTriggerType) Element"
+          href: taskschedulerschema-schedulebymonth-calendartriggertype-element.md
+        - name: "ScheduleByWeek (calendarTriggerType) Element"
+          href: taskschedulerschema-schedulebyweek-calendartriggertype-element.md
+        - name: "SecurityDescriptor (registrationInfoType) Element"
+          href: taskschedulerschema-securitydescriptor-registrationinfotype-element.md
+        - name: "SendEmail (actionGroup) Element"
+          href: taskschedulerschema-sendemail-actiongroup-element.md
+        - name: "September (monthsType) Element"
+          href: taskschedulerschema-september-monthstype-element.md
+        - name: "Server (sendEmailType) Element"
+          href: taskschedulerschema-server-sendemailtype-element.md
+        - name: "SessionStateChangeTrigger (triggerGroup) Element"
+          href: taskschedulerschema-sessionstatechangetrigger-triggergroup-element.md
+        - name: "Settings (taskType) Element"
+          href: taskschedulerschema-settings-tasktype-element.md
+        - name: "ShowMessage (actionGroup) Element"
+          href: taskschedulerschema-showmessage-actiongroup-element.md
+        - name: "Source (registrationInfoType) Element"
+          href: taskschedulerschema-source-registrationinfotype-element.md
+        - name: "StartBoundary (triggerBaseType) Element"
+          href: taskschedulerschema-startboundary-triggerbasetype-element.md
+        - name: "StartWhenAvailable (settingsType) Element"
+          href: taskschedulerschema-startwhenavailable-settingstype-element.md
+        - name: "StateChange (sessionStateChangeTriggerType) Element"
+          href: taskschedulerschema-statechange-sessionstatechangetriggertype-element.md
+        - name: "StopAtDurationEnd (repetitionType) Element"
+          href: taskschedulerschema-stopatdurationend-repetitiontype-element.md
+        - name: "StopIfGoingOnBatteries (settingsType) Element"
+          href: taskschedulerschema-stopifgoingonbatteries-settingstype-element.md
+        - name: "StopOnIdleEnd (idleSettingsType) Element"
+          href: taskschedulerschema-terminateonidleend-idlesettingstype-element.md
+        - name: "Subject (sendEmailType) Element"
+          href: taskschedulerschema-subject-sendemailtype-element.md
+        - name: "Subscription (eventTriggerType) Element"
+          href: taskschedulerschema-subscription-eventtriggertype-element.md
+        - name: "Sunday (daysOfWeekType) Element"
+          href: taskschedulerschema-sunday-daysofweektype-element.md
+        - name: "Task Element"
+          href: taskschedulerschema-task-element.md
+        - name: "Thursday (daysOfWeekType) Element"
+          href: taskschedulerschema-thursday-daysofweektype-element.md
+        - name: "TimeTrigger (triggerGroup) Element"
+          href: taskschedulerschema-timetrigger-triggergroup-element.md
+        - name: "Title (showMessageType) Element"
+          href: taskschedulerschema-title-showmessagetype-element.md
+        - name: "To (sendEmailType) Element"
+          href: taskschedulerschema-to-sendemailtype-element.md
+        - name: "Triggers (triggersType) Element"
+          href: taskschedulerschema-triggers-tasktype-element.md
+        - name: "Tuesday (daysOfWeekType) Element"
+          href: taskschedulerschema-tuesday-daysofweektype-element.md
+        - name: "URI (registrationInfoType) Element"
+          href: taskschedulerschema-uri-registrationinfotype-element.md
+        - name: "UserId (logonTriggerType) Element"
+          href: taskschedulerschema-userid-logontriggertype-element.md
+        - name: "UserId (principalType) Element"
+          href: taskschedulerschema-userid-principaltype-element.md
+        - name: "UserId (sessionStateChangeTriggerType) Element"
+          href: taskschedulerschema-userid-sessionstatechangetriggertype-element.md
+        - name: "UseUnifiedSchedulingEngine (settingsType) Element"
+          href: taskschedulerschema-useunifiedschedulingengine-settingstype-element.md
+        - name: "ValueQueries (eventTriggerType) Element"
+          href: taskschedulerschema-valuequeries-eventtriggertype-element.md
+        - name: "Value (headerFieldType) Element"
+          href: taskschedulerschema-value-headerfieldtype-element.md
+        - name: "Value (namedValues) Element"
+          href: taskschedulerschema-value-namedvalues-element.md
+        - name: "Version (registrationInfoType) Element"
+          href: taskschedulerschema-version-registrationinfotype-element.md
+        - name: "Volatile Element"
+          href: taskschedulerschema-volatile-element.md
+        - name: "WaitTimeout (idleSettingsType) Element"
+          href: taskschedulerschema-waittimeout-idlesettingstype-element.md
+        - name: "WakeToRun (settingsType) Element"
+          href: taskschedulerschema-waketorun-settingstype-element.md
+        - name: "Wednesday (daysOfWeekType) Element"
+          href: taskschedulerschema-wednesday-daysofweektype-element.md
+        - name: "Week (weeksType) Element"
+          href: taskschedulerschema-week-weekstype-element.md
+        - name: "WeeksInterval (weeklyScheduleType) Element"
+          href: taskschedulerschema-weeksinterval-weeklyscheduletype-element.md
+        - name: "Weeks (monthlyDayOfWeekScheduleType) Element"
+          href: taskschedulerschema-weeks-monthlydayofweekscheduletype-element.md
+        - name: "WorkingDirectory (execType) Element"
+          href: taskschedulerschema-workingdirectory-exectype-element.md
+      - name: "Task Scheduler Schema Simple Types"
+        href: task-scheduler-schema-simple-types.md
+        items: 
+        - name: "dayOfMonthType Simple Type"
+          href: taskschedulerschema-dayofmonthtype-simpletype.md
+        - name: "guidType Simple Type"
+          href: taskschedulerschema-guidtype-simpletype.md
+        - name: "logonType Simple Type"
+          href: taskschedulerschema-logontype-simpletype.md
+        - name: "multipleInstancesPolicyType Simple Type"
+          href: taskschedulerschema-multipleinstancespolicytype-simpletype.md
+        - name: "nonEmptyString Simple Type"
+          href: taskschedulerschema-nonemptystring-simpletype.md
+        - name: "pathType Simple Type"
+          href: taskschedulerschema-pathtype-simpletype.md
+        - name: "priorityType Simple Type"
+          href: taskschedulerschema-prioritytype-simpletype.md
+        - name: "privilegeType Simple Type"
+          href: taskschedulerschema-privilegetype-simpletype.md
+        - name: "processTokenSidType Simple Type"
+          href: taskschedulerschema-processtokensidtype-simpletype.md
+        - name: "runlevelType Simple Type"
+          href: taskschedulerschema-runleveltype-simpletype.md
+        - name: "sessionStateChangeType Simple Type"
+          href: taskschedulerschema-sessionstatechangetype-simpletype.md
+        - name: "versionType Simple Type"
+          href: taskschedulerschema-versiontype-simpletype.md
+        - name: "weekType Simple Type"
+          href: taskschedulerschema-weektype-simpletype.md
+      - name: "Task Scheduler Schema Complex Types"
+        href: task-scheduler-schema-complex-types.md
+        items: 
+        - name: "actionBaseType Complex Type"
+          href: taskschedulerschema-actionbasetype-complextype.md
+        - name: "actionsType Complex Type"
+          href: taskschedulerschema-actionstype-complextype.md
+        - name: "attachmentType Complex Type"
+          href: taskschedulerschema-attachmentstype-complextype.md
+        - name: "bootTriggerType Complex Type"
+          href: taskschedulerschema-boottriggertype-complextype.md
+        - name: "calendarTriggerType Complex Type"
+          href: taskschedulerschema-calendartriggertype-complextype.md
+        - name: "comHandlerType Complex Type"
+          href: taskschedulerschema-comhandlertype-complextype.md
+        - name: "dailyScheduleType Complex Type"
+          href: taskschedulerschema-dailyscheduletype-complextype.md
+        - name: "dataType Complex Type"
+          href: taskschedulerschema-datatype-complextype.md
+        - name: "daysOfMonthType Complex Type"
+          href: taskschedulerschema-daysofmonthtype-complextype.md
+        - name: "daysOfWeekType Complex Type"
+          href: taskschedulerschema-daysofweektype-complextype.md
+        - name: "eventTriggerType Complex Type"
+          href: taskschedulerschema-eventtriggertype-complextype.md
+        - name: "execType Complex Type"
+          href: taskschedulerschema-exectype-complextype.md
+        - name: "headerFieldsType Complex Type"
+          href: taskschedulerschema-headerfieldstype-complextype.md
+        - name: "headerFieldType Complex Type"
+          href: taskschedulerschema-headerfieldtype-complextype.md
+        - name: "idleSettingsType Complex Type"
+          href: taskschedulerschema-idlesettingstype-complextype.md
+        - name: "idleTriggerType Complex Type"
+          href: taskschedulerschema-idletriggertype-complextype.md
+        - name: "logonTriggerType Complex Type"
+          href: taskschedulerschema-logontriggertype-complextype.md
+        - name: "maintenanceSettingsType Complex Type"
+          href: taskschedulerschema-maintenancesettingstype-complextype.md
+        - name: "monthlyDayOfWeekScheduleType Complex Type"
+          href: taskschedulerschema-monthlydayofweekscheduletype-complextype.md
+        - name: "monthlyScheduleType Complex Type"
+          href: taskschedulerschema-monthlyscheduletype-complextype.md
+        - name: "monthsType Complex Type"
+          href: taskschedulerschema-monthstype-complextype.md
+        - name: "namedValues Complex Type"
+          href: taskschedulerschema-namedvalues-complextype.md
+        - name: "namedValue Complex Type"
+          href: schema-namedvalue-complextype.md
+        - name: "networkSettingsType Complex Type"
+          href: taskschedulerschema-networksettingstype-complextype.md
+        - name: "principalsType Complex Type"
+          href: taskschedulerschema-principalstype-complextype.md
+        - name: "principalType Complex Type"
+          href: taskschedulerschema-principaltype-complextype.md
+        - name: "registrationInfoType Complex Type"
+          href: taskschedulerschema-registrationinfotype-complextype.md
+        - name: "registrationTriggerType Complex Type"
+          href: taskschedulerschema-registrationtriggertype-complextype.md
+        - name: "repetitionType Complex Type"
+          href: taskschedulerschema-repetitiontype-complextype.md
+        - name: "requiredPrivilegesType Complex Type"
+          href: taskschedulerschema-requiredprivilegestype-complextype.md
+        - name: "restartType Complex Type"
+          href: taskschedulerschema-restarttype-complextype.md
+        - name: "sendMailType Complex Type"
+          href: taskschedulerschema-sendemailtype-complextype.md
+        - name: "sessionStateChangeTriggerType Complex Type"
+          href: taskschedulerschema-sessionstatechangetriggertype-complextype.md
+        - name: "settingsType Complex Type"
+          href: taskschedulerschema-settingstype-complextype.md
+        - name: "showMessageType Complex Type"
+          href: taskschedulerschema-showmessagetype-complextype.md
+        - name: "taskType Complex Type"
+          href: taskschedulerschema-tasktype-complextype.md
+        - name: "timeTriggerType Complex Type"
+          href: taskschedulerschema-timetriggertype-complextype.md
+        - name: "triggerBaseType Complex Type"
+          href: taskschedulerschema-triggerbasetype-complextype.md
+        - name: "triggersType Complex Type"
+          href: taskschedulerschema-triggerstype-complextype.md
+        - name: "weeklyScheduleType Complex Type"
+          href: taskschedulerschema-weeklyscheduletype-complextype.md
+        - name: "weeksType Complex Type"
+          href: taskschedulerschema-weekstype-complextype.md
+      - name: "Task Scheduler Schema Groups"
+        href: task-scheduler-schema-groups.md
+        items: 
+        - name: "actionGroup Group"
+          href: taskschedulerschema-actiongroup-group.md
+        - name: "triggerGroup Group"
+          href: taskschedulerschema-triggergroup-group.md
+    - name: "Task Scheduler Error and Success Constants"
+      href: task-scheduler-error-and-success-constants.md
+    - name: "Schtasks.exe"
+      href: schtasks.md
+  - name: "Task Scheduler Glossary"
+    href: task-scheduler-glossary.md
+    items: 
+    - name: "E"
+      href: e.md
+    - name: "I"
+      href: i.md
+    - name: "P"
+      href: p.md
+    - name: "S"
+      href: s.md
+    - name: "T"
+      href: t.md
+    - name: "W"
+      href: w.md

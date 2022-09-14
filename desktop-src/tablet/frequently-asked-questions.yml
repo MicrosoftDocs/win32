@@ -1,0 +1,136 @@
+### YamlMime:FAQ
+metadata:
+  description: The following are frequently asked questions (FAQ) about developing for the Tablet PC platform components installed by the Windows Vista SDK.
+  ms.assetid: eb349493-a2b2-4b58-bcbc-ee09953c8dc8
+  title: Frequently Asked Questions (Tablet PC)
+  ms.topic: faq
+  ms.date: 05/31/2018
+title: Frequently Asked Questions about developing for the Tablet PC platform
+summary: The following are frequently asked questions (FAQ) about developing for the Tablet PC platform components installed by the Windows Vista SDK.
+
+
+sections:
+  - name: Ignored
+    questions:
+      - question: |
+          Can I use the Ink APIs or controls in a Web page?
+        answer: |
+          Yes. The Tablet PC managed library supports partially trusted environments, namely execution of managed assemblies from web pages.
+          
+          There is also support for browser deployment of applications that use Windows Presentation Foundation.
+          
+      - question: |
+          Do I need a Tablet PC to develop Tablet PC applications?
+        answer: |
+          No, the Tablet PC platform components installed by the Windows SDK include the extensions and utilities needed to develop software for the Tablet PC on a desktop or laptop computer. You can use a mouse or external tablet for pen and handwriting input.
+          
+          The Tablet PC platform components installed by the Windows SDK can be installed on Windows XP Professional, or Windows Server 2003, but less functionality is available for your applications. On these platforms, your application can collect ink with the [**InkCollector**](inkcollector-class.md) and [**InkOverlay**](inkoverlay-class.md) objects and can be tested and debugged.
+          
+          Also, the [InkEdit](inkedit-control-reference.md) and [InkPicture](inkpicture-control-reference.md) controls can collect ink on these operating systems only if the Tablet PC platform components have been installed from the Windows SDK (or an older version of the Tablet PC Development Kit); they do not collect ink in applications that are redistributed to non-Tablet computers without the platform components installed.
+          
+      - question: |
+          Do I need to run a special version of Windows to do handwriting recognition?
+        answer: |
+          No. While only Windows XP Tablet PC Edition and certain versions of Windows Vista include handwriting recognizers, you can download the [Windows XP Tablet PC Edition 2005 Recognizer Pack]( https://www.microsoft.com/downloads/details.aspx?FamilyId=080184DD-5E92-4464-B907-10762E9F918B&amp;displaylang=en) and install it on Windows XP Professional or Windows Server 2003 for development purposes only. You may not redistribute the recognizers with your application.
+          
+      - question: |
+          What is the difference between Windows Vista and Tablet PC Technology?
+        answer: |
+          Tablet PCs run the Windows Vista operating system, featuring all the functionality of Windows Vista plus additional features specific to the Tablet PC. These Tablet PC Technology features enable users to run Windows and Windows applications by using a pen, annotating documents, and creating handwritten documents by using digital ink. Tablet PC Technology is available on most versions of Windows Vista, and if Tablet PC hardware is available on a computer, the features just work.
+          
+          For earlier versions of Windows operating systems that do not natively support ink, you can redistribute and use the Tablet PC ink controls to view ink drawn on a Tablet PC.
+          
+      - question: |
+          What is the difference between Windows XP Tablet PC Edition and Windows XP Tablet PC Edition 2005?
+        answer: |
+          Windows XP Tablet PC Edition 2005 is an updated version of Windows XP Tablet PC Edition.
+
+      - question: |
+          How do I modify my application to run on a Tablet PC?
+        answer: |
+          Microsoft Windows applications that run on a Windows XP desktop or laptop computer with comparable hardware can run on a Tablet PC without modifications.
+
+      - question: |
+          I understand that I don't need to make any changes to my application, but it is difficult to use it with a pen and speech. What can I do to optimize my application for a Tablet PC?
+        answer: |
+          The API and ink controls of the Tablet PC platform components can be used to create user interfaces that are better suited to pen and handwriting input. For more information about specific ways you can improve your application, see [Mobile PC User Experience Guidelines for Developers](/previous-versions//dd356056(v=vs.85)).
+          
+      - question: |
+          What programming languages does the Tablet support?
+        answer: |
+          Tablet PC Technology in Windows Vista supports COM (C++) and managed libraries (the suite of Visual Studio .NET languages).
+          
+          The Tablet PC Technology also supports Windows Presentation Foundation (WPF).
+          
+      - question: |
+          Do I have sample code that demonstrates Tablet platform capabilities?
+        answer: |
+          Yes, sample code for COM and selected managed languages is included in the Tablet PC platform components installed by the Windows Platform SDK.
+          
+          For available sample applications, see:
+          
+          - [Mobile PC and Tablet PC Samples](mobile-pc-and-tablet-pc-samples.md)
+          - [Digital Ink Samples, Windows Presentation Foundation (WPF)](/previous-versions/dotnet/netframework-3.0/aa972145(v=vs.85))
+          - &lt;systemdrive&gt;:\\Program Files\\Microsoft SDKs\\Windows\\v6.0\\Samples\\TabletPC
+          
+      - question: |
+          What's the base level of Tablet hardware that I should develop for?
+        answer: |
+          In general, you should design for a Windows Vista-compliant, legacy-free system.
+
+      - question: |
+          What user interface guidelines can you provide for Tablet applications?
+        answer: |
+          Issues from drop-down menu orientation to screen/digitizer parallax are described in the [Mobile PC User Experience Guidelines for Developers](/previous-versions//dd356056(v=vs.85)) in the Mobile PC section of the Windows SDK.
+          
+      - question: |
+          Do you include system-level handwriting gestures for commonly used keystrokes? Can I create my own gestures for use when an application is running or has focus?
+        answer: |
+          Yes, we include a set of gestures for mouse events. In addition, you can create gestures for use in your application. For more information about gestures, see [Using Gestures](using-gestures.md).
+          
+      - question: |
+          How can I determine whether my application is running on a Tablet?
+        answer: |
+          Use the Windows GetSystemMetricsAPI and pass in SM\_TABLETPC as the value of the index. SM\_TABLETPC is defined in Winuser.h. The value of SM\_TABLETPC is 86.
+          
+          For web development, you should read the USER\_AGENT\_STRING environment variable. You can access this Request.ServerVariables collection.
+          
+          For details of how to use GetSystemMetrics on Tablet PCs running either Windows Vista or Windows XP Tablet PC Edition, refer to [Determining Whether a PC is a Tablet PC](determining-whether-a-pc-is-a-tablet-pc.md).
+          
+      - question: |
+          How can I determine whether Tablet platform components are available?
+        answer: |
+          Certain parts of the Tablet PC platform may be installed on non-Tablet versions of the Windows XP Professional, Windows Server 2003, and Windows 2000 operating systems.
+          
+          The proper way to determine if a component of the API is installed is to attempt to create an instance of an object or control and check that it exists before attempting to use it.
+          
+          For example, to determine if the [**InkCollector**](inkcollector-class.md) object is available, attempt to create it using [**CoCreateInstance**](/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance).
+          
+          ```C++
+          IInkCollector* pIInkCollector = NULL;
+          HRESULT hr = CoCreateInstance(CLSID_InkCollector,
+           NULL, CLSCTX_INPROC_SERVER, 
+           IID_IInkCollector,
+           (void **)&pIInkCollector);
+          if (SUCCEEDED(hr)) 
+          { 
+            /* InkCollector is usable. */ 
+          } else 
+          {
+            /* InkCollector unavailable. */
+          }
+          ```
+          
+      - question: |
+          How do I run the Tablet Input Service on Server SKUs?
+        answer: |
+          TabletInputService is designed not to run automatically in server SKUs when the client pack is installed. Client pack installs all of the components in the platform so any of the Tablet client applications can run on a server as well. The Tablet Input Service listens for PnP notification that an external digitizer is plugged in. To enable the Tablet Input Service on a server, use the System Configuration Utility.
+          
+          From the **Start** menu, select **Run**. Type in "msconfig" and press Enter. Select the **Services** tab, find the services named "HID Input Service", select the checkbox beside it, and then click **Apply**. Close the utility.
+
+additionalContent: |
+
+  ## More FAQs and Other Resources
+  
+  - [Microsoft Developer Center](https://developer.microsoft.com)
+  - [Core Tablet PC Reference](./core-reference---tablet-pc-com-library.md)

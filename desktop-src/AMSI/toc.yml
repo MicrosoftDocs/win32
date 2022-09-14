@@ -1,0 +1,72 @@
+- name: "Antimalware Scan Interface (AMSI)"
+  href: antimalware-scan-interface-portal.md
+  items: 
+  - name: "How AMSI helps"
+    href: how-amsi-helps.md
+  - name: "Developer audience, samples"
+    href: dev-audience.md
+  - name: "AMSI reference"
+    href: antimalware-scan-interface-reference.md
+    items: 
+    - name: "AMSI enumerations"
+      href: antimalware-scan-interface-enumerations.md
+      items: 
+      - name: "AMSI_ATTRIBUTE"
+        href: /windows/desktop/api/amsi/ne-amsi-amsi_attribute
+      - name: "AMSI_RESULT"
+        href: /windows/desktop/api/amsi/ne-amsi-amsi_result
+    - name: "AMSI functions"
+      href: antimalware-scan-interface-functions.md
+      items: 
+      - name: "AmsiCloseSession"
+        href: /windows/desktop/api/amsi/nf-amsi-amsiclosesession
+      - name: "AmsiInitialize"
+        href: /windows/desktop/api/amsi/nf-amsi-amsiinitialize
+      - name: "AmsiNotifyOperation"
+        href: /windows/desktop/api/amsi/nf-amsi-amsiopensession
+      - name: "AmsiOpenSession"
+        href: /windows/desktop/api/amsi/nf-amsi-amsinotifyoperation
+      - name: "AmsiResultIsMalware"
+        href: /windows/desktop/api/amsi/nf-amsi-amsiresultismalware
+      - name: "AmsiScanBuffer"
+        href: /windows/desktop/api/amsi/nf-amsi-amsiscanbuffer
+      - name: "AmsiScanString"
+        href: /windows/desktop/api/amsi/nf-amsi-amsiscanstring
+      - name: "AmsiUninitialize"
+        href: /windows/desktop/api/amsi/nf-amsi-amsiuninitialize
+    - name: "AMSI interfaces"
+      href: antimalware-scan-interface-interfaces.md
+      items: 
+      - name: "IAmsiStream"
+        href: /windows/desktop/api/amsi/nn-amsi-iamsistream
+        items: 
+        - name: "GetAttribute method"
+          href: /windows/desktop/api/amsi/nf-amsi-iamsistream-getattribute
+        - name: "Read method"
+          href: /windows/desktop/api/amsi/nf-amsi-iamsistream-read
+      - name: "IAntimalware"
+        href: /windows/desktop/api/amsi/nn-amsi-iantimalware
+        items: 
+        - name: "CloseSession method"
+          href: /windows/desktop/api/amsi/nf-amsi-iantimalware-closesession
+        - name: "Scan method"
+          href: /windows/desktop/api/amsi/nf-amsi-iantimalware-scan
+      - name: "IAntimalware2"
+        href: /windows/desktop/api/amsi/nn-amsi-iantimalware2
+        items: 
+        - name: "Notify method"
+          href: /windows/desktop/api/amsi/nf-amsi-iantimalware2-notify
+      - name: "IAntimalwareProvider"
+        href: /windows/desktop/api/amsi/nn-amsi-iantimalwareprovider
+        items: 
+        - name: "CloseSession method"
+          href: /windows/desktop/api/amsi/nf-amsi-iantimalwareprovider-closesession
+        - name: "DisplayName method"
+          href: /windows/desktop/api/amsi/nf-amsi-iantimalwareprovider-displayname
+        - name: "Scan method"
+          href: /windows/desktop/api/amsi/nf-amsi-iantimalwareprovider-scan
+      - name: "IAntimalwareProvider2"
+        href: /windows/desktop/api/amsi/nn-amsi-iantimalwareprovider2
+        items: 
+        - name: "Notify method"
+          href: /windows/desktop/api/amsi/nf-amsi-iantimalwareprovider2-notify

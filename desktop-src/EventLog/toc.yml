@@ -1,0 +1,97 @@
+- name: "Event Logging"
+  href: event-logging.md
+  items: 
+  - name: "About Event Logging"
+    href: about-event-logging.md
+    items: 
+    - name: "Event Types"
+      href: event-types.md
+    - name: "Logging Guidelines"
+      href: logging-guidelines.md
+    - name: "Event Logging Elements"
+      href: event-logging-elements.md
+      items: 
+      - name: "Eventlog Key"
+        href: eventlog-key.md
+      - name: "Event Sources"
+        href: event-sources.md
+      - name: "Event Categories"
+        href: event-categories.md
+      - name: "Event Identifiers"
+        href: event-identifiers.md
+      - name: "Message Files"
+        href: message-files.md
+        items: 
+        - name: "Message Text Files"
+          href: message-text-files.md
+        - name: "Sample Message Text File"
+          href: sample-message-text-file.md
+      - name: "Event Log Records"
+        href: event-log-records.md
+      - name: "Event Data"
+        href: event-data.md
+    - name: "Event Logging Operations"
+      href: event-logging-operations.md
+    - name: "Event Logging Model"
+      href: event-logging-model.md
+      items: 
+      - name: "Event Log File Format"
+        href: event-log-file-format.md
+      - name: "Reading from the Event Log"
+        href: reading-from-the-event-log.md
+      - name: "Viewing the Event Log"
+        href: viewing-the-event-log.md
+    - name: "Event Logging Security"
+      href: event-logging-security.md
+  - name: "Using Event Logging"
+    href: using-event-logging.md
+    items: 
+    - name: "Querying for Event Information"
+      href: querying-for-event-source-messages.md
+    - name: "Reporting Events"
+      href: reporting-an-event.md
+    - name: "Receiving Event Notification"
+      href: receiving-event-notification.md
+  - name: "Event Logging Reference"
+    href: event-logging-reference.md
+    items: 
+    - name: "Event Logging Functions"
+      href: event-logging-functions.md
+      items: 
+      - name: "BackupEventLog"
+        href: /windows/desktop/api/Winbase/nf-winbase-backupeventloga
+      - name: "ClearEventLog"
+        href: /windows/desktop/api/Winbase/nf-winbase-cleareventloga
+      - name: "CloseEventLog"
+        href: /windows/desktop/api/Winbase/nf-winbase-closeeventlog
+      - name: "DeregisterEventSource"
+        href: /windows/desktop/api/Winbase/nf-winbase-deregistereventsource
+      - name: "GetEventLogInformation"
+        href: /windows/desktop/api/Winbase/nf-winbase-geteventloginformation
+      - name: "GetNumberOfEventLogRecords"
+        href: /windows/desktop/api/Winbase/nf-winbase-getnumberofeventlogrecords
+      - name: "GetOldestEventLogRecord"
+        href: /windows/desktop/api/Winbase/nf-winbase-getoldesteventlogrecord
+      - name: "NotifyChangeEventLog"
+        href: /windows/desktop/api/Winbase/nf-winbase-notifychangeeventlog
+      - name: "OpenBackupEventLog"
+        href: /windows/desktop/api/Winbase/nf-winbase-openbackupeventloga
+      - name: "OpenEventLog"
+        href: /windows/desktop/api/Winbase/nf-winbase-openeventloga
+      - name: "ReadEventLog"
+        href: /windows/desktop/api/Winbase/nf-winbase-readeventloga
+      - name: "RegisterEventSource"
+        href: /windows/desktop/api/Winbase/nf-winbase-registereventsourcea
+      - name: "ReportEvent"
+        href: /windows/desktop/api/Winbase/nf-winbase-reporteventa
+    - name: "Event Logging Structures"
+      href: event-logging-structures.md
+      items: 
+      - name: "ELF_EOF_RECORD"
+        href: /previous-versions/windows/desktop/legacy/bb309022(v=vs.85)
+      - name: "ELF_LOGFILE_HEADER"
+        href: /previous-versions/windows/desktop/legacy/bb309024(v=vs.85)
+      - name: "EVENTLOG_FULL_INFORMATION"
+        href: /windows/win32/api/Winbase/ns-winbase-eventlog_full_information
+      - name: "EVENTLOGRECORD"
+        href: /windows/win32/api/Winnt/ns-winnt-eventlogrecord

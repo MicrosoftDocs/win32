@@ -1,0 +1,42 @@
+- name: "Software Device API"
+  href: software-device-api-portal.md
+  items: 
+  - name: "Software Device API Programming Guide"
+    href: /previous-versions/windows/hardware/drivers/dn315034(v=vs.85)
+  - name: "Software Device API Reference"
+    href: software-device-api-reference.md
+    items: 
+    - name: "Software Device API Functions"
+      href: software-device-api-functions.md
+      items: 
+      - name: "SwDeviceClose"
+        href: /windows/desktop/api/swdevice/nf-swdevice-swdeviceclose
+      - name: "SW_DEVICE_CREATE_CALLBACK"
+        href: /windows/desktop/api/swdevice/nc-swdevice-sw_device_create_callback
+      - name: "SwDeviceCreate"
+        href: /windows/desktop/api/swdevice/nf-swdevice-swdevicecreate
+      - name: "SwDeviceGetLifetime"
+        href: /windows/desktop/api/swdevice/nf-swdevice-swdevicegetlifetime
+      - name: "SwDeviceInterfacePropertySet"
+        href: /windows/desktop/api/swdevice/nf-swdevice-swdeviceinterfacepropertyset
+      - name: "SwDeviceInterfaceRegister"
+        href: /windows/desktop/api/swdevice/nf-swdevice-swdeviceinterfaceregister
+      - name: "SwDeviceInterfaceSetState"
+        href: /windows/desktop/api/swdevice/nf-swdevice-swdeviceinterfacesetstate
+      - name: "SwDevicePropertySet"
+        href: /windows/desktop/api/swdevice/nf-swdevice-swdevicepropertyset
+      - name: "SwDeviceSetLifetime"
+        href: /windows/desktop/api/swdevice/nf-swdevice-swdevicesetlifetime
+      - name: "SwMemFree"
+        href: /windows/desktop/api/swdevice/nf-swdevice-swmemfree
+    - name: "Software Device API Structures"
+      href: software-device-api-structures.md
+      items: 
+      - name: "DEVPROPCOMPKEY"
+        href: /previous-versions/windows/hardware/drivers/dn315029(v=vs.85)
+      - name: "DEVPROPERTY"
+        href: /previous-versions/windows/hardware/drivers/dn315030(v=vs.85)
+      - name: "DEVPROPKEY"
+        href: /previous-versions/windows/hardware/drivers/dn315031(v=vs.85)
+      - name: "SW_DEVICE_CREATE_INFO"
+        href: /windows/desktop/api/swdevicedef/ns-swdevicedef-sw_device_create_info

@@ -1,0 +1,75 @@
+- name: "Technical Articles"
+  href: dx9-technical-articles.md
+  items: 
+  - name: "64-bit programming for Game Developers"
+    href: sixty-four-bit-programming-for-game-developers.md
+  - name: "Authenticode Signing for Game Developers"
+    href: authenticode-signing-for-game-developers.md
+  - name: "Best Security Practices in Game Development"
+    href: best-security-practices-in-game-development.md
+  - name: "Cascaded Shadow Maps"
+    href: cascaded-shadow-maps.md
+  - name: "Coding for multicore on Xbox 360 and Windows"
+    href: coding-for-multiple-cores.md
+  - name: "Common Techniques to Improve Shadow Depth Maps"
+    href: common-techniques-to-improve-shadow-depth-maps.md
+  - name: "Crash Dump Analysis"
+    href: crash-dump-analysis.md
+  - name: "Debugging with Symbols"
+    href: debugging-with-symbols.md
+  - name: "Direct3D 10 Frequently Asked Questions"
+    href: direct3d10-frequently-asked-questions.yml
+  - name: "DirectX Frequently Asked Questions"
+    href: directx-9-frequently-asked-questions.yml
+  - name: "DirectX Installation for Game Developers"
+    href: directx-setup-for-game-developers.md
+  - name: "Disabling Shortcut Keys in Games"
+    href: disabling-shortcut-keys-in-games.md
+  - name: "Game Timing and Multicore Processors"
+    href: game-timing-and-multicore-processors.md
+  - name: "Games for Windows Technical Requirements"
+    href: games-for-windows-technical-requirements-1-1-0006.md
+  - name: "Games for Windows Test Cases"
+    href: games-for-windows-test-requirements-1-0-0006.md
+  - name: "Gaming with Least-Privileged User Accounts"
+    href: gaming-with-least-privileged-user-accounts.md
+  - name: "Install-on-Demand for Games"
+    href: install-on-demand-for-games.md
+  - name: "Installation and Maintenance of Games"
+    href: installation-and-maintenance-of-games.md
+  - name: "Lockless Programming Considerations for Xbox 360 and Microsoft Windows"
+    href: lockless-programming.md
+  - name: "Installation Best Practices for Massively Multiplayer Online Games"
+    href: mmo-installation-best-practices.md
+  - name: "Installing and Using Input Method Editors"
+    href: installing-and-using-input-method-editors.md
+  - name: "Introduction to the 10-Foot Experience for Windows Game Developers"
+    href: introduction-to-the-10-foot-experience-for-windows-game-developers.md
+  - name: "Making Video Games Accessible: Business Justifications and Design Considerations"
+    href: accessibility-best-practices.md
+  - name: "Optimizing DVD performance for Windows Games"
+    href: optimizing-dvd-performance-for-windows-games.md
+  - name: "Patching Game Software in Windows XP, Windows Vista, and Windows 7"
+    href: patching-methods-in-windows-xp-and-vista.md
+  - name: "Resource Management Best Practices"
+    href: resource-management-best-practices.md
+  - name: "Simplifying Game Installation"
+    href: simplifying-game-installation.md
+  - name: "Taking Advantage of High-Definition Mouse Movement"
+    href: taking-advantage-of-high-dpi-mouse-movement.md
+  - name: "The Direct3D Transformation Pipeline"
+    href: the-direct3d-transformation-pipeline.md
+  - name: "Top Issues for Windows Titles"
+    href: top-issues-for-windows-titles.md
+  - name: "Top Tools and Techniques for Making More Robust Windows Games"
+    href: top-tools-and-techniques-for-making-more-robust-windows-games.md
+  - name: "User Account Control for Game Developers"
+    href: user-account-control-for-game-developers.md
+  - name: "Using an Input Method Editor in a Game"
+    href: using-an-input-method-editor-in-a-game.md
+  - name: "Windows Firewall for Game Developers"
+    href: games-and-firewalls.md
+  - name: "Windows Games Explorer for Game Developers"
+    href: windows-game-explorer-integration.md
+  - name: "Windows Installer for Game Developers"
+    href: windows-installer-for-game-developers.md

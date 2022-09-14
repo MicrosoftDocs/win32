@@ -1,0 +1,2220 @@
+- name: "Direct3D 12 Graphics"
+  href: direct3d-12-graphics.md
+  items: 
+  - name: "Direct3D 12 Programming Guide"
+    href: directx-12-programming-guide.md
+    items: 
+    - name: "What is Direct3D 12?"
+      href: what-is-directx-12-.md
+    - name: "What's new in Direct3D 12"
+      href: new-releases.md
+    - name: "Understanding Direct3D 12"
+      href: directx-12-getting-started.md
+      items: 
+      - name: "Direct3D 12 Programming Environment Setup"
+        href: directx-12-programming-environment-set-up.md
+      - name: "Creating a Basic Direct3D 12 Component"
+        href: creating-a-basic-direct3d-12-component.md
+      - name: "Important Changes from Direct3D 11 to Direct3D 12"
+        href: important-changes-from-directx-11-to-directx-12.md
+      - name: "Hardware Feature Levels"
+        href: hardware-feature-levels.md
+    - name: "Work Submission in Direct3D 12"
+      href: command-queues-and-command-lists.md
+      items: 
+      - name: "Design Philosophy of Command Queues and Command Lists"
+        href: design-philosophy-of-command-queues-and-command-lists.md
+      - name: "Creating and Recording Command Lists and Bundles"
+        href: recording-command-lists-and-bundles.md
+      - name: "Executing and Synchronizing Command Lists"
+        href: executing-and-synchronizing-command-lists.md
+      - name: "Managing Graphics Pipeline State in Direct3D 12"
+        href: managing-graphics-pipeline-state-in-direct3d-12.md
+      - name: "Using Resource Barriers to Synchronize Resource States in Direct3D 12"
+        href: using-resource-barriers-to-synchronize-resource-states-in-direct3d-12.md
+      - name: "Pipelines and Shaders with Direct3D 12"
+        href: pipelines-and-shaders-with-directx-12.md
+      - name: "Variable-rate shading (VRS)"
+        href: vrs.md
+      - name: "Render passes"
+        href: direct3d-12-render-passes.md
+    - name: "Resource Binding in Direct3D 12"
+      href: resource-binding.md
+      items: 
+      - name: "Resource Binding Overview"
+        href: resource-binding-flow-of-control.md
+      - name: "Differences in the Binding Model from Direct3D 11"
+        href: binding-model.md
+      - name: "Descriptors"
+        href: descriptors.md
+        items: 
+        - name: "Descriptors Overview"
+          href: descriptors-overview.md
+        - name: "Creating Descriptors"
+          href: creating-descriptors.md
+        - name: "Copying Descriptors"
+          href: copying-descriptors.md
+      - name: "Descriptor Heaps"
+        href: descriptor-heaps.md
+        items: 
+        - name: "Descriptor Heaps Overview"
+          href: descriptor-heaps-overview.md
+        - name: "Hardware Tiers"
+          href: hardware-support.md
+        - name: "Shader Visible Descriptor Heaps"
+          href: shader-visible-descriptor-heaps.md
+        - name: "Non Shader Visible Descriptor Heaps"
+          href: non-shader-visible-descriptor-heaps.md
+        - name: "Creating Descriptor Heaps"
+          href: creating-descriptor-heaps.md
+        - name: "Setting and Populating Descriptor Heaps"
+          href: setting-descriptor-heaps.md
+        - name: "Descriptor Heap Configurability Summary"
+          href: descriptor-heap-configurability-summary.md
+      - name: "Descriptor Tables"
+        href: descriptor-tables.md
+        items: 
+        - name: "Descriptor Tables Overview"
+          href: descriptor-tables-overview.md
+        - name: "Using Descriptor Tables"
+          href: using-descriptor-tables.md
+        - name: "Advanced Use of Descriptor Tables"
+          href: advanced-use-of-descriptor-tables.md
+      - name: "Root Signatures"
+        href: root-signatures.md
+        items: 
+        - name: "Root Signatures Overview"
+          href: root-signatures-overview.md
+        - name: "Using a Root Signature"
+          href: using-a-root-signature.md
+        - name: "Creating a Root Signature"
+          href: creating-a-root-signature.md
+        - name: "Root Signature Limits"
+          href: root-signature-limits.md
+        - name: "Using Constants Directly in the Root Signature"
+          href: using-constants-directly-in-the-root-signature.md
+        - name: "Using Descriptors Directly in the Root Signature"
+          href: using-descriptors-directly-in-the-root-signature.md
+        - name: "Example Root Signatures"
+          href: example-root-signatures.md
+        - name: "Specifying Root Signatures in HLSL"
+          href: specifying-root-signatures-in-hlsl.md
+        - name: "Root Signature Version 1.1"
+          href: root-signature-version-1-1.md
+      - name: "Capability Querying"
+        href: capability-querying.md
+      - name: "Resource Binding in HLSL"
+        href: resource-binding-in-hlsl.md
+      - name: "UMA Optimizations: CPU Accessible Textures and Standard Swizzle"
+        href: default-texture-mapping.md
+      - name: "Typed unordered access view loads"
+        href: typed-unordered-access-view-loads.md
+      - name: "Volume Tiled Resources"
+        href: volume-tiled-resources.md
+      - name: "Subresources"
+        href: subresources.md
+    - name: "Memory Management in Direct3D 12"
+      href: memory-management.md
+      items: 
+      - name: "Memory Management Strategies"
+        href: memory-management-strategies.md
+      - name: "Suballocation Within Buffers"
+        href: large-buffers.md
+        items: 
+        - name: "Uploading Different Types of Resources"
+          href: uploading-resources.md
+        - name: "Uploading Texture Data Through Buffers"
+          href: upload-and-readback-of-texture-data.md
+        - name: "Read back data via a buffer"
+          href: readback-data-using-heaps.md
+        - name: "Fence-Based Resource Management"
+          href: fence-based-resource-management.md
+      - name: "Suballocation Within Heaps"
+        href: suballocation-within-heaps.md
+        items: 
+        - name: "Memory Aliasing and Data Inheritance"
+          href: memory-aliasing-and-data-inheritance.md
+        - name: "Shared Heaps"
+          href: shared-heaps.md
+      - name: "Residency"
+        href: residency.md
+    - name: "Core 1.0 Feature Level"
+      href: core-feature-levels.md
+    - name: "Multi-adapter systems"
+      href: multi-engine.md
+    - name: "Multi-engine synchronization"
+      href: user-mode-heap-synchronization.md
+    - name: "Rendering"
+      href: rendering.md
+      items: 
+      - name: "Conservative Rasterization"
+        href: conservative-rasterization.md
+      - name: "Indirect Drawing"
+        href: indirect-drawing.md
+      - name: "Rasterizer Ordered Views"
+        href: rasterizer-order-views.md
+      - name: "Shader Specified Stencil Reference Value"
+        href: shader-specified-stencil-reference-value.md
+      - name: "Swap Chains"
+        href: swap-chains.md
+    - name: "Counters, Queries and Performance Measurement"
+      href: performance-measurement.md
+      items: 
+      - name: "Counters, queries, and predication"
+        href: counters-and-queries.md
+        items: 
+        - name: "Stream Output Counters"
+          href: stream-output-counters.md
+        - name: "UAV Counters"
+          href: uav-counters.md
+        - name: "Queries"
+          href: queries.md
+      - name: "Timing"
+        href: timing.md
+      - name: "Predication"
+        href: predication.md
+    - name: "Working with Direct3D 11, Direct3D 10 and Direct2D"
+      href: direct3d-12-interop.md
+      items: 
+      - name: "Direct3D 12 Interop"
+        href: direct3d-12-with-direct3d-11--direct-2d-and-gdi.md
+      - name: "Direct3D 11 on 12"
+        href: direct3d-11-on-12.md
+      - name: "Porting from Direct3D 11 to Direct3D 12"
+        href: porting-from-direct3d-11-to-direct3d-12.md
+    - name: "Working Samples"
+      href: working-samples.md
+    - name: "D3D12 Code Walk-Throughs"
+      href: d3d12-code-walk-throughs.md
+      items: 
+      - name: "D2D using D3D11on12"
+        href: d2d-using-d3d11on12.md
+      - name: "Multi-engine n-body gravity simulation"
+        href: multi-engine-n-body-gravity-simulation.md
+      - name: "Predication queries"
+        href: predication-queries.md
+      - name: "Dynamic Indexing using HLSL 5.1"
+        href: dynamic-indexing-using-hlsl-5-1.md
+      - name: "Indirect drawing and GPU culling"
+        href: indirect-drawing-and-gpu-culling-.md
+    - name: "Debugging and diagnostics"
+      href: understanding-the-d3d12-debug-layer.md
+      items: 
+      - name: "Use Debug Layer GPU-based validation"
+        href: using-d3d12-debug-layer-gpu-based-validation.md
+      - name: "Use DRED to diagnose GPU faults"
+        href: use-dred.md
+    - name: "Direct Machine Learning (DirectML)"
+      href: dml-redirect.md
+  - name: "Direct3D 12 Reference"
+    href: direct3d-12-reference.md
+    items: 
+    - name: "Interface hierarchy"
+      href: interface-hierarchy.md
+    - name: "Example code in the D3D12 reference"
+      href: notes-on-example-code.md
+    - name: "Core reference"
+      href: direct3d-12-core-reference.md
+      items: 
+      - name: "Core interfaces"
+        href: direct3d-12-interfaces.md
+        items: 
+        - name: "ID3D12CommandAllocator"
+          href: /windows/win32/api/d3d12/nn-d3d12-id3d12commandallocator
+          items: 
+          - name: "Reset"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12commandallocator-reset
+        - name: "ID3D12CommandList"
+          href: /windows/win32/api/d3d12/nn-d3d12-id3d12commandlist
+          items: 
+          - name: "GetType"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12commandlist-gettype
+        - name: "ID3D12CommandQueue"
+          href: /windows/win32/api/d3d12/nn-d3d12-id3d12commandqueue
+          items: 
+          - name: "BeginEvent"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12commandqueue-beginevent
+          - name: "CopyTileMappings"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12commandqueue-copytilemappings
+          - name: "EndEvent"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12commandqueue-endevent
+          - name: "ExecuteCommandLists"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12commandqueue-executecommandlists
+          - name: "GetClockCalibration"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12commandqueue-getclockcalibration
+          - name: "GetDesc"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12commandqueue-getdesc
+          - name: "GetTimestampFrequency"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12commandqueue-gettimestampfrequency
+          - name: "SetMarker"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12commandqueue-setmarker
+          - name: "Signal"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12commandqueue-signal
+          - name: "UpdateTileMappings"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12commandqueue-updatetilemappings
+          - name: "Wait"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12commandqueue-wait
+        - name: "ID3D12CommandSignature"
+          href: /windows/win32/api/d3d12/nn-d3d12-id3d12commandsignature
+        - name: "ID3D12DescriptorHeap"
+          href: /windows/win32/api/d3d12/nn-d3d12-id3d12descriptorheap
+          items: 
+          - name: "GetCPUDescriptorHandleForHeapStart"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12descriptorheap-getcpudescriptorhandleforheapstart
+          - name: "GetDesc"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12descriptorheap-getdesc
+          - name: "GetGPUDescriptorHandleForHeapStart"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12descriptorheap-getgpudescriptorhandleforheapstart
+        - name: "ID3D12Device"
+          href: /windows/win32/api/d3d12/nn-d3d12-id3d12device
+          items: 
+          - name: "CheckFeatureSupport"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12device-checkfeaturesupport
+          - name: "CopyDescriptors"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12device-copydescriptors
+          - name: "CopyDescriptorsSimple"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12device-copydescriptorssimple
+          - name: "CreateCommandAllocator"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12device-createcommandallocator
+          - name: "CreateCommandList"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12device-createcommandlist
+          - name: "CreateCommandQueue"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12device-createcommandqueue
+          - name: "CreateCommandSignature"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12device-createcommandsignature
+          - name: "CreateCommittedResource"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12device-createcommittedresource
+          - name: "CreateComputePipelineState"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12device-createcomputepipelinestate
+          - name: "CreateConstantBufferView"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12device-createconstantbufferview
+          - name: "CreateDepthStencilView"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12device-createdepthstencilview
+          - name: "CreateDescriptorHeap"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12device-createdescriptorheap
+          - name: "CreateFence"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12device-createfence
+          - name: "CreateGraphicsPipelineState"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12device-creategraphicspipelinestate
+          - name: "CreateHeap"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12device-createheap
+          - name: "CreatePlacedResource"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12device-createplacedresource
+          - name: "CreateQueryHeap"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12device-createqueryheap
+          - name: "CreateRenderTargetView"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12device-createrendertargetview
+          - name: "CreateReservedResource"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12device-createreservedresource
+          - name: "CreateRootSignature"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12device-createrootsignature
+          - name: "CreateSampler"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12device-createsampler
+          - name: "CreateShaderResourceView"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12device-createshaderresourceview
+          - name: "CreateSharedHandle"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12device-createsharedhandle
+          - name: "CreateUnorderedAccessView"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12device-createunorderedaccessview
+          - name: "Evict"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12device-evict
+          - name: "GetAdapterLuid"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12device-getadapterluid
+          - name: "GetCopyableFootprints"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12device-getcopyablefootprints
+          - name: "GetCustomHeapProperties"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12device-getcustomheapproperties
+          - name: "GetDescriptorHandleIncrementSize"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12device-getdescriptorhandleincrementsize
+          - name: "GetDeviceRemovedReason"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12device-getdeviceremovedreason
+          - name: "GetNodeCount"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12device-getnodecount
+          - name: "GetResourceAllocationInfo"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12device-getresourceallocationinfo
+          - name: "GetResourceTiling"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12device-getresourcetiling
+          - name: "MakeResident"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12device-makeresident
+          - name: "OpenSharedHandle"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12device-opensharedhandle
+          - name: "OpenSharedHandleByName"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12device-opensharedhandlebyname
+          - name: "SetStablePowerState"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12device-setstablepowerstate
+        - name: "ID3D12Device1"
+          href: /windows/win32/api/d3d12/nn-d3d12-id3d12device1
+          items: 
+          - name: "CreatePipelineLibrary method"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12device1-createpipelinelibrary
+          - name: "SetEventOnMultipleFenceCompletion method"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12device1-seteventonmultiplefencecompletion
+          - name: "SetResidencyPriority method"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12device1-setresidencypriority
+        - name: "ID3D12Device2"
+          href: /windows/win32/api/d3d12/nn-d3d12-id3d12device2
+          items: 
+          - name: "CreatePipelineState"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12device2-createpipelinestate
+        - name: "ID3D12Device3"
+          href: /windows/win32/api/d3d12/nn-d3d12-id3d12device3
+          items: 
+          - name: "OpenExistingHeapFromFileMapping"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12device3-openexistingheapfromfilemapping
+          - name: "OpenExistingHeapFromAddress"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12device3-openexistingheapfromaddress
+          - name: "EnqueueMakeResident"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12device3-enqueuemakeresident
+        - name: "ID3D12Device4"
+          href: /windows/win32/api/d3d12/nn-d3d12-id3d12device4
+          items: 
+          - name: "CreateCommandList1"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12device4-createcommandlist1
+          - name: "CreateCommittedResource1"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12device4-createcommittedresource1
+          - name: "CreateHeap1"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12device4-createheap1
+          - name: "CreateProtectedResourceSession"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12device4-createprotectedresourcesession
+          - name: "CreateReservedResource1"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12device4-createreservedresource1
+          - name: "GetResourceAllocationInfo1"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12device4-getresourceallocationinfo1
+        - name: "ID3D12Device5"
+          href: /windows/win32/api/d3d12/nn-d3d12-id3d12device5
+          items: 
+          - name: "CheckDriverMatchingIdentifier"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12device5-checkdrivermatchingidentifier
+          - name: "CreateLifetimeTracker"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12device5-createlifetimetracker
+          - name: "CreateMetaCommand"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12device5-createmetacommand
+          - name: "CreateStateObject"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12device5-createstateobject
+          - name: "EnumerateMetaCommandParameters"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12device5-enumeratemetacommandparameters
+          - name: "EnumerateMetaCommands"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12device5-enumeratemetacommands
+          - name: "GetRayTracingAccelerationStructurePrebuildInfo"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12device5-getraytracingaccelerationstructureprebuildinfo
+          - name: "RemoveDevice"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12device5-removedevice
+        - name: "ID3D12Device6"
+          href: /windows/win32/api/d3d12/nn-d3d12-id3d12device6
+          items: 
+          - name: "SetBackgroundProcessingMode"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12device6-setbackgroundprocessingmode
+        - name: "ID3D12Device7"
+          href: /windows/win32/api/d3d12/nn-d3d12-id3d12device7
+          items: 
+          - name: "AddToStateObject"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12device7-addtostateobject
+          - name: "CreateProtectedResourceSession1"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12device7-createprotectedresourcesession1
+        - name: "ID3D12Device8"
+          href: /windows/win32/api/d3d12/nn-d3d12-id3d12device8
+          items: 
+          - name: "CreateCommittedResource2"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12device8-createcommittedresource2
+          - name: "CreatePlacedResource1"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12device8-createplacedresource1
+          - name: "CreateSamplerFeedbackUnorderedAccessView"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12device8-createsamplerfeedbackunorderedaccessview
+          - name: "GetCopyableFootprints1"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12device8-getcopyablefootprints1
+          - name: "GetResourceAllocationInfo2"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12device8-getresourceallocationinfo2
+        - name: "ID3D12Device9"
+          href: /windows/win32/api/d3d12/nn-d3d12-id3d12device9
+          items: 
+          - name: "CreateCommandQueue1"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12device9-createcommandqueue1
+          - name: "CreateShaderCacheSession"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12device9-createshadercachesession
+          - name: "ShaderCacheControl"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12device9-shadercachecontrol
+        - name: "ID3D12DeviceChild"
+          href: /windows/win32/api/d3d12/nn-d3d12-id3d12devicechild
+          items: 
+          - name: "GetDevice"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12devicechild-getdevice
+        - name: "ID3D12DeviceRemovedExtendedData"
+          href: /windows/win32/api/d3d12/nn-d3d12-id3d12deviceremovedextendeddata
+          items: 
+          - name: "GetAutoBreadcrumbsOutput"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12deviceremovedextendeddata-getautobreadcrumbsoutput
+          - name: "GetPageFaultAllocationOutput"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12deviceremovedextendeddata-getpagefaultallocationoutput
+        - name: "ID3D12DeviceRemovedExtendedDataSettings"
+          href: /windows/win32/api/d3d12/nn-d3d12-id3d12deviceremovedextendeddatasettings
+          items: 
+          - name: "SetAutoBreadcrumbsEnablement"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12deviceremovedextendeddatasettings-setautobreadcrumbsenablement
+          - name: "SetPageFaultEnablement"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12deviceremovedextendeddatasettings-setpagefaultenablement
+          - name: "SetWatsonDumpEnablement"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12deviceremovedextendeddatasettings-setwatsondumpenablement
+        - name: "ID3D12Fence"
+          href: /windows/win32/api/d3d12/nn-d3d12-id3d12fence
+          items: 
+          - name: "GetCompletedValue"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12fence-getcompletedvalue
+          - name: "SetEventOnCompletion"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12fence-seteventoncompletion
+          - name: "Signal"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12fence-signal
+        - name: "ID3D12Fence1"
+          href: /windows/win32/api/d3d12/nn-d3d12-id3d12fence1
+          items: 
+          - name: "GetCreationFlags"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12fence1-getcreationflags
+        - name: "ID3D12GraphicsCommandList"
+          href: /windows/win32/api/d3d12/nn-d3d12-id3d12graphicscommandlist
+          items: 
+          - name: "BeginEvent"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-beginevent
+          - name: "BeginQuery"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-beginquery
+          - name: "ClearDepthStencilView"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-cleardepthstencilview
+          - name: "ClearRenderTargetView"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-clearrendertargetview
+          - name: "ClearState"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-clearstate
+          - name: "ClearUnorderedAccessViewFloat"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-clearunorderedaccessviewfloat
+          - name: "ClearUnorderedAccessViewUint"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-clearunorderedaccessviewuint
+          - name: "Close"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-close
+          - name: "CopyBufferRegion"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-copybufferregion
+          - name: "CopyResource"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-copyresource
+          - name: "CopyTextureRegion"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-copytextureregion
+          - name: "CopyTiles"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-copytiles
+          - name: "DiscardResource"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-discardresource
+          - name: "Dispatch"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-dispatch
+          - name: "DrawIndexedInstanced"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-drawindexedinstanced
+          - name: "DrawInstanced"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-drawinstanced
+          - name: "EndEvent"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-endevent
+          - name: "EndQuery"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-endquery
+          - name: "ExecuteBundle"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-executebundle
+          - name: "ExecuteIndirect"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-executeindirect
+          - name: "IASetIndexBuffer"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-iasetindexbuffer
+          - name: "IASetPrimitiveTopology"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-iasetprimitivetopology
+          - name: "IASetVertexBuffers"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-iasetvertexbuffers
+          - name: "OMSetBlendFactor"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-omsetblendfactor
+          - name: "OMSetRenderTargets"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-omsetrendertargets
+          - name: "OMSetStencilRef"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-omsetstencilref
+          - name: "Reset"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-reset
+          - name: "ResolveQueryData"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-resolvequerydata
+          - name: "ResolveSubresource"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-resolvesubresource
+          - name: "ResourceBarrier"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-resourcebarrier
+          - name: "RSSetScissorRects"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-rssetscissorrects
+          - name: "RSSetViewports"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-rssetviewports
+          - name: "SetComputeRoot32BitConstant"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-setcomputeroot32bitconstant
+          - name: "SetComputeRoot32BitConstants"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-setcomputeroot32bitconstants
+          - name: "SetComputeRootConstantBufferView"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-setcomputerootconstantbufferview
+          - name: "SetComputeRootDescriptorTable"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-setcomputerootdescriptortable
+          - name: "SetComputeRootShaderResourceView"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-setcomputerootshaderresourceview
+          - name: "SetComputeRootSignature"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-setcomputerootsignature
+          - name: "SetComputeRootUnorderedAccessView"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-setcomputerootunorderedaccessview
+          - name: "SetDescriptorHeaps"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-setdescriptorheaps
+          - name: "SetGraphicsRoot32BitConstant"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-setgraphicsroot32bitconstant
+          - name: "SetGraphicsRoot32BitConstants"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-setgraphicsroot32bitconstants
+          - name: "SetGraphicsRootConstantBufferView"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-setgraphicsrootconstantbufferview
+          - name: "SetGraphicsRootDescriptorTable"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-setgraphicsrootdescriptortable
+          - name: "SetGraphicsRootShaderResourceView"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-setgraphicsrootshaderresourceview
+          - name: "SetGraphicsRootSignature"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-setgraphicsrootsignature
+          - name: "SetGraphicsRootUnorderedAccessView"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-setgraphicsrootunorderedaccessview
+          - name: "SetMarker"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-setmarker
+          - name: "SetPipelineState"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-setpipelinestate
+          - name: "SetPredication"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-setpredication
+          - name: "SOSetTargets"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-sosettargets
+        - name: "ID3D12GraphicsCommandList1"
+          href: /windows/win32/api/d3d12/nn-d3d12-id3d12graphicscommandlist1
+          items: 
+          - name: "AtomicCopyBufferUINT"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist1-atomiccopybufferuint
+          - name: "AtomicCopyBufferUINT64"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist1-atomiccopybufferuint64
+          - name: "OMSetDepthBounds"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist1-omsetdepthbounds
+          - name: "ResolveSubresourceRegion"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist1-resolvesubresourceregion
+          - name: "SetSamplePositions"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist1-setsamplepositions
+          - name: "SetViewInstanceMask"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist1-setviewinstancemask
+        - name: "ID3D12GraphicsCommandList2"
+          href: /windows/win32/api/d3d12/nn-d3d12-id3d12graphicscommandlist2
+          items: 
+          - name: "WriteBufferImmediate"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist2-writebufferimmediate
+        - name: "ID3D12GraphicsCommandList3"
+          href: /windows/win32/api/d3d12/nn-d3d12-id3d12graphicscommandlist3
+          items: 
+          - name: "SetProtectedResourceSession"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist3-setprotectedresourcesession
+        - name: "ID3D12GraphicsCommandList4"
+          href: /windows/win32/api/d3d12/nn-d3d12-id3d12graphicscommandlist4
+          items: 
+          - name: "BeginRenderPass"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist4-beginrenderpass
+          - name: "BuildRaytracingAccelerationStructure"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist4-buildraytracingaccelerationstructure
+          - name: "CopyRaytracingAccelerationStructure"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist4-copyraytracingaccelerationstructure
+          - name: "DispatchRays"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist4-dispatchrays
+          - name: "EmitRaytracingAccelerationStructurePostbuildInfo"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist4-emitraytracingaccelerationstructurepostbuildinfo
+          - name: "EndRenderPass"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist4-endrenderpass
+          - name: "ExecuteMetaCommand"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist4-executemetacommand
+          - name: "InitializeMetaCommand"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist4-initializemetacommand
+          - name: "SetPipelineState1"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist4-setpipelinestate1
+        - name: "ID3D12GraphicsCommandList5"
+          href: /windows/win32/api/d3d12/nn-d3d12-id3d12graphicscommandlist5
+          items: 
+          - name: "RSSetShadingRate"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist5-rssetshadingrate
+          - name: "RSSetShadingRateImage"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist5-rssetshadingrateimage
+        - name: "ID3D12Heap"
+          href: /windows/win32/api/d3d12/nn-d3d12-id3d12heap
+          items: 
+          - name: "GetDesc"
+            href: id3d12heap-getdesc.md
+        - name: "ID3D12LifetimeOwner"
+          href: /windows/win32/api/d3d12/nn-d3d12-id3d12lifetimeowner
+          items: 
+          - name: "LifetimeStateUpdated"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12lifetimeowner-lifetimestateupdated
+        - name: "ID3D12LifetimeTracker"
+          href: /windows/win32/api/d3d12/nn-d3d12-id3d12lifetimetracker
+          items: 
+          - name: "DestroyOwnedObject"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12lifetimetracker-destroyownedobject
+        - name: "ID3D12MetaCommand"
+          href: /windows/win32/api/d3d12/nn-d3d12-id3d12metacommand
+          items: 
+          - name: "GetRequiredParameterResourceSize"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12metacommand-getrequiredparameterresourcesize
+        - name: "ID3D12Object"
+          href: /windows/win32/api/d3d12/nn-d3d12-id3d12object
+          items: 
+          - name: "GetPrivateData"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12object-getprivatedata
+          - name: "SetName"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12object-setname
+          - name: "SetPrivateData"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12object-setprivatedata
+          - name: "SetPrivateDataInterface"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12object-setprivatedatainterface
+        - name: "ID3D12Pageable"
+          href: /windows/win32/api/d3d12/nn-d3d12-id3d12pageable
+        - name: "ID3D12PipelineLibrary"
+          href: /windows/win32/api/d3d12/nn-d3d12-id3d12pipelinelibrary
+          items: 
+          - name: "GetSerializedSize method"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12pipelinelibrary-getserializedsize
+          - name: "LoadComputePipeline method"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12pipelinelibrary-loadcomputepipeline
+          - name: "LoadGraphicsPipeline method"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12pipelinelibrary-loadgraphicspipeline
+          - name: "Serialize method"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12pipelinelibrary-serialize
+          - name: "StorePipeline method"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12pipelinelibrary-storepipeline
+        - name: "ID3D12PipelineLibrary1"
+          href: /windows/win32/api/d3d12/nn-d3d12-id3d12pipelinelibrary1
+          items: 
+          - name: "LoadPipeline"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12pipelinelibrary1-loadpipeline
+        - name: "ID3D12PipelineState"
+          href: /windows/win32/api/d3d12/nn-d3d12-id3d12pipelinestate
+          items: 
+          - name: "GetCachedBlob"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12pipelinestate-getcachedblob
+        - name: "ID3D12ProtectedResourceSession"
+          href: /windows/win32/api/d3d12/nn-d3d12-id3d12protectedresourcesession
+          items: 
+          - name: "GetDesc"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12protectedresourcesession-getdesc
+        - name: "ID3D12ProtectedSession"
+          href: /windows/win32/api/d3d12/nn-d3d12-id3d12protectedsession
+          items: 
+          - name: "GetStatusFence"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12protectedsession-getstatusfence
+          - name: "GetSessionStatus"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12protectedsession-getsessionstatus
+        - name: "ID3D12QueryHeap"
+          href: /windows/win32/api/d3d12/nn-d3d12-id3d12queryheap
+        - name: "ID3D12Resource"
+          href: /windows/win32/api/d3d12/nn-d3d12-id3d12resource
+          items: 
+          - name: "GetDesc"
+            href: id3d12resource-getdesc.md
+          - name: "GetGPUVirtualAddress"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12resource-getgpuvirtualaddress
+          - name: "GetHeapProperties"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12resource-getheapproperties
+          - name: "Map"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12resource-map
+          - name: "ReadFromSubresource"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12resource-readfromsubresource
+          - name: "Unmap"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12resource-unmap
+          - name: "WriteToSubresource"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12resource-writetosubresource
+        - name: "ID3D12RootSignature"
+          href: /windows/win32/api/d3d12/nn-d3d12-id3d12rootsignature
+        - name: "ID3D12RootSignatureDeserializer"
+          href: /windows/win32/api/d3d12/nn-d3d12-id3d12rootsignaturedeserializer
+          items: 
+          - name: "GetRootSignatureDesc"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12rootsignaturedeserializer-getrootsignaturedesc
+        - name: "ID3D12SDKConfiguration"
+          href: /windows/win32/api/d3d12/nn-d3d12-id3d12sdkconfiguration
+          items: 
+          - name: "SetSDKVersion"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12sdkconfiguration-setsdkversion
+        - name: "ID3D12ShaderCacheSession"
+          href: /windows/win32/api/d3d12/nn-d3d12-id3d12shadercachesession
+          items: 
+          - name: "FindValue"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12shadercachesession-findvalue
+          - name: "GetDesc"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12shadercachesession-getdesc
+          - name: "SetDeleteOnDestroy"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12shadercachesession-setdeleteondestroy
+          - name: "StoreValue"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12shadercachesession-storevalue
+        - name: "ID3D12StateObject"
+          href: /windows/win32/api/d3d12/nn-d3d12-id3d12stateobject
+        - name: "ID3D12StateObjectProperties"
+          href: /windows/win32/api/d3d12/nn-d3d12-id3d12stateobjectproperties
+          items: 
+          - name: "GetPipelineStackSize"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12stateobjectproperties-getpipelinestacksize
+          - name: "GetShaderIdentifier"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12stateobjectproperties-getshaderidentifier
+          - name: "GetShaderStackSize"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12stateobjectproperties-getshaderstacksize
+          - name: "SetPipelineStackSize"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12stateobjectproperties-setpipelinestacksize
+        - name: "ID3D12Tools"
+          href: /windows/win32/api/d3d12/nn-d3d12-id3d12tools
+          items: 
+          - name: "EnableShaderInstrumentation"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12tools-enableshaderinstrumentation
+          - name: "ShaderInstrumentationEnabled"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12tools-shaderinstrumentationenabled
+        - name: "ID3D12VersionedRootSignatureDeserializer"
+          href: /windows/win32/api/d3d12/nn-d3d12-id3d12versionedrootsignaturedeserializer
+          items: 
+          - name: "GetRootSignatureDescAtVersion method"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12versionedrootsignaturedeserializer-getrootsignaturedescatversion
+          - name: "GetUnconvertedRootSignatureDesc method"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12versionedrootsignaturedeserializer-getunconvertedrootsignaturedesc
+      - name: "Core functions"
+        href: direct3d-12-functions.md
+        items: 
+        - name: "D3D12CreateDevice"
+          href: /windows/win32/api/d3d12/nf-d3d12-d3d12createdevice
+        - name: "D3D12CreateRootSignatureDeserializer"
+          href: /windows/win32/api/d3d12/nf-d3d12-d3d12createrootsignaturedeserializer
+        - name: "D3D12CreateVersionedRootSignatureDeserializer"
+          href: /windows/win32/api/d3d12/nf-d3d12-d3d12createversionedrootsignaturedeserializer
+        - name: "D3D12EnableExperimentalFeatures"
+          href: /windows/win32/api/d3d12/nf-d3d12-d3d12enableexperimentalfeatures
+        - name: "D3D12GetDebugInterface"
+          href: /windows/win32/api/d3d12/nf-d3d12-d3d12getdebuginterface
+        - name: "D3D12GetInterface"
+          href: /windows/win32/api/d3d12/nf-d3d12-d3d12getinterface
+        - name: "D3D12SerializeRootSignature"
+          href: /windows/win32/api/d3d12/nf-d3d12-d3d12serializerootsignature
+        - name: "D3D12SerializeVersionedRootSignature"
+          href: /windows/win32/api/d3d12/nf-d3d12-d3d12serializeversionedrootsignature
+      - name: "Core structures"
+        href: direct3d-12-structures.md
+        items: 
+        - name: "D3D12_AUTO_BREADCRUMB_NODE"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_auto_breadcrumb_node
+        - name: "D3D12_BLEND_DESC"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_blend_desc
+        - name: "D3D12_BOX"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_box
+        - name: "D3D12_BUFFER_RTV"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_buffer_rtv
+        - name: "D3D12_BUFFER_SRV"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_buffer_srv
+        - name: "D3D12_BUFFER_UAV"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_buffer_uav
+        - name: "D3D12_BUILD_RAYTRACING_ACCELERATION_STRUCTURE_DESC"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_build_raytracing_acceleration_structure_desc
+        - name: "D3D12_BUILD_RAYTRACING_ACCELERATION_STRUCTURE_INPUTS"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_build_raytracing_acceleration_structure_inputs
+        - name: "D3D12_BUILD_RAYTRACING_ACCELERATION_STRUCTURE_TOOLS_VISUALIZATION_HEADER"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_build_raytracing_acceleration_structure_tools_visualization_header
+        - name: "D3D12_CACHED_PIPELINE_STATE"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_cached_pipeline_state
+        - name: "D3D12_CLEAR_VALUE"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_clear_value
+        - name: "D3D12_COMMAND_QUEUE_DESC"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_command_queue_desc
+        - name: "D3D12_COMMAND_SIGNATURE_DESC"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_command_signature_desc
+        - name: "D3D12_COMPUTE_PIPELINE_STATE_DESC"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_compute_pipeline_state_desc
+        - name: "D3D12_CONSTANT_BUFFER_VIEW_DESC"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_constant_buffer_view_desc
+        - name: "D3D12_CPU_DESCRIPTOR_HANDLE"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_cpu_descriptor_handle
+        - name: "D3D12_DEPTH_STENCIL_DESC"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_depth_stencil_desc
+        - name: "D3D12_DEPTH_STENCIL_DESC1"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_depth_stencil_desc1
+        - name: "D3D12_DEPTH_STENCIL_VALUE"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_depth_stencil_value
+        - name: "D3D12_DEPTH_STENCIL_VIEW_DESC"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_depth_stencil_view_desc
+        - name: "D3D12_DEPTH_STENCILOP_DESC"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_depth_stencilop_desc
+        - name: "D3D12_DESCRIPTOR_HEAP_DESC"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_descriptor_heap_desc
+        - name: "D3D12_DESCRIPTOR_RANGE"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_descriptor_range
+        - name: "D3D12_DESCRIPTOR_RANGE1"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_descriptor_range1
+        - name: "D3D12_DEVICE_REMOVED_EXTENDED_DATA"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_device_removed_extended_data
+        - name: "D3D12_DEVICE_REMOVED_EXTENDED_DATA1"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_device_removed_extended_data1
+        - name: "D3D12_DISCARD_REGION"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_discard_region
+        - name: "D3D12_DISPATCH_ARGUMENTS"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_dispatch_arguments
+        - name: "D3D12_DISPATCH_RAYS_DESC"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_dispatch_rays_desc
+        - name: "D3D12_DRAW_ARGUMENTS"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_draw_arguments
+        - name: "D3D12_DRAW_INDEXED_ARGUMENTS"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_draw_indexed_arguments
+        - name: "D3D12_DRED_ALLOCATION_NODE"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_dred_allocation_node
+        - name: "D3D12_DRED_AUTO_BREADCRUMBS_OUTPUT"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_dred_auto_breadcrumbs_output
+        - name: "D3D12_DRED_PAGE_FAULT_OUTPUT"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_dred_page_fault_output
+        - name: "D3D12_DXIL_LIBRARY_DESC"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_dxil_library_desc
+        - name: "D3D12_DXIL_SUBOBJECT_TO_EXPORTS_ASSOCIATION"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_dxil_subobject_to_exports_association
+        - name: "D3D12_EXISTING_COLLECTION_DESC"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_existing_collection_desc
+        - name: "D3D12_EXPORT_DESC"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_existing_collection_desc
+        - name: "D3D12_FEATURE_DATA_ARCHITECTURE"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_feature_data_architecture
+        - name: "D3D12_FEATURE_DATA_ARCHITECTURE1"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_feature_data_architecture1
+        - name: "D3D12_FEATURE_DATA_COMMAND_QUEUE_PRIORITY"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_feature_data_command_queue_priority
+        - name: "D3D12_FEATURE_DATA_CROSS_NODE"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_feature_data_cross_node
+        - name: "D3D12_FEATURE_DATA_D3D12_OPTIONS"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_feature_data_d3d12_options
+        - name: "D3D12_FEATURE_DATA_D3D12_OPTIONS1"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_feature_data_d3d12_options1
+        - name: "D3D12_FEATURE_DATA_D3D12_OPTIONS2"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_feature_data_d3d12_options2
+        - name: "D3D12_FEATURE_DATA_D3D12_OPTIONS3"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_feature_data_d3d12_options3
+        - name: "D3D12_FEATURE_DATA_D3D12_OPTIONS4"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_feature_data_d3d12_options4
+        - name: "D3D12_FEATURE_DATA_D3D12_OPTIONS5"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_feature_data_d3d12_options5
+        - name: "D3D12_FEATURE_DATA_D3D12_OPTIONS6"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_feature_data_d3d12_options6
+        - name: "D3D12_FEATURE_DATA_D3D12_OPTIONS7"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_feature_data_d3d12_options7
+        - name: "D3D12_FEATURE_DATA_D3D12_OPTIONS8"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_feature_data_d3d12_options8
+        - name: "D3D12_FEATURE_DATA_D3D12_OPTIONS9"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_feature_data_d3d12_options9
+        - name: "D3D12_FEATURE_DATA_D3D12_OPTIONS10"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_feature_data_d3d12_options10
+        - name: "D3D12_FEATURE_DATA_D3D12_OPTIONS11"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_feature_data_d3d12_options11
+        - name: "D3D12_FEATURE_DATA_EXISTING_HEAPS"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_feature_data_existing_heaps
+        - name: "D3D12_FEATURE_DATA_FEATURE_LEVELS"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_feature_data_feature_levels
+        - name: "D3D12_FEATURE_DATA_FORMAT_INFO"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_feature_data_format_info
+        - name: "D3D12_FEATURE_DATA_FORMAT_SUPPORT"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_feature_data_format_support
+        - name: "D3D12_FEATURE_DATA_GPU_VIRTUAL_ADDRESS_SUPPORT"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_feature_data_gpu_virtual_address_support
+        - name: "D3D12_FEATURE_DATA_MULTISAMPLE_QUALITY_LEVELS"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_feature_data_multisample_quality_levels
+        - name: "D3D12_FEATURE_DATA_PROTECTED_RESOURCE_SESSION_SUPPORT"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_feature_data_protected_resource_session_support
+        - name: "D3D12_FEATURE_DATA_PROTECTED_RESOURCE_SESSION_TYPE_COUNT"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_feature_data_protected_resource_session_type_count
+        - name: "D3D12_FEATURE_DATA_PROTECTED_RESOURCE_SESSION_TYPES"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_feature_data_protected_resource_session_types
+        - name: "D3D12_FEATURE_DATA_QUERY_META_COMMAND"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_feature_data_query_meta_command
+        - name: "D3D12_FEATURE_DATA_ROOT_SIGNATURE"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_feature_data_root_signature
+        - name: "D3D12_FEATURE_DATA_SERIALIZATION"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_feature_data_serialization
+        - name: "D3D12_FEATURE_DATA_SHADER_CACHE"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_feature_data_shader_cache
+        - name: "D3D12_FEATURE_DATA_SHADER_MODEL"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_feature_data_shader_model
+        - name: "D3D12_GLOBAL_ROOT_SIGNATURE"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_global_root_signature
+        - name: "D3D12_GPU_DESCRIPTOR_HANDLE"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_gpu_descriptor_handle
+        - name: "D3D12_GPU_VIRTUAL_ADDRESS_AND_STRIDE"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_gpu_virtual_address_and_stride
+        - name: "D3D12_GPU_VIRTUAL_ADDRESS_RANGE"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_gpu_virtual_address_range
+        - name: "D3D12_GPU_VIRTUAL_ADDRESS_RANGE_AND_STRIDE"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_gpu_virtual_address_range_and_stride
+        - name: "D3D12_GRAPHICS_PIPELINE_STATE_DESC"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_graphics_pipeline_state_desc
+        - name: "D3D12_HEAP_DESC"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_heap_desc
+        - name: "D3D12_HEAP_PROPERTIES"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_heap_properties
+        - name: "D3D12_HIT_GROUP_DESC"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_hit_group_desc
+        - name: "D3D12_INDEX_BUFFER_VIEW"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_index_buffer_view
+        - name: "D3D12_INDIRECT_ARGUMENT_DESC"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_indirect_argument_desc
+        - name: "D3D12_INPUT_ELEMENT_DESC"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_input_element_desc
+        - name: "D3D12_INPUT_LAYOUT_DESC"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_input_layout_desc
+        - name: "D3D12_LOCAL_ROOT_SIGNATURE"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_local_root_signature
+        - name: "D3D12_MEMCPY_DEST"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_memcpy_dest
+        - name: "D3D12_META_COMMAND_DESC"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_meta_command_desc
+        - name: "D3D12_META_COMMAND_PARAMETER_DESC"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_meta_command_parameter_desc
+        - name: "D3D12_NODE_MASK"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_node_mask
+        - name: "D3D12_PACKED_MIP_INFO"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_packed_mip_info
+        - name: "D3D12_PIPELINE_STATE_STREAM_DESC"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_pipeline_state_stream_desc
+        - name: "D3D12_PLACED_SUBRESOURCE_FOOTPRINT"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_placed_subresource_footprint
+        - name: "D3D12_PROTECTED_RESOURCE_SESSION_DESC"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_protected_resource_session_desc
+        - name: "D3D12_QUERY_DATA_PIPELINE_STATISTICS"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_query_data_pipeline_statistics
+        - name: "D3D12_QUERY_DATA_SO_STATISTICS"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_query_data_so_statistics
+        - name: "D3D12_QUERY_HEAP_DESC"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_query_heap_desc
+        - name: "D3D12_RANGE"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_range
+        - name: "D3D12_RANGE_UINT64"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_range_uint64
+        - name: "D3D12_RASTERIZER_DESC"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_rasterizer_desc
+        - name: "D3D12_RAYTRACING_AABB"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_raytracing_aabb
+        - name: "D3D12_RAYTRACING_ACCELERATION_STRUCTURE_POSTBUILD_INFO_COMPACTED_SIZE_DESC"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_raytracing_acceleration_structure_postbuild_info_compacted_size_desc
+        - name: "D3D12_RAYTRACING_ACCELERATION_STRUCTURE_POSTBUILD_INFO_CURRENT_SIZE_DESC"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_raytracing_acceleration_structure_postbuild_info_current_size_desc
+        - name: "D3D12_RAYTRACING_ACCELERATION_STRUCTURE_POSTBUILD_INFO_DESC"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_raytracing_acceleration_structure_postbuild_info_desc
+        - name: "D3D12_RAYTRACING_ACCELERATION_STRUCTURE_POSTBUILD_INFO_SERIALIZATION_DESC"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_raytracing_acceleration_structure_postbuild_info_serialization_desc
+        - name: "D3D12_RAYTRACING_ACCELERATION_STRUCTURE_POSTBUILD_INFO_TOOLS_VISUALIZATION_DESC"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_raytracing_acceleration_structure_postbuild_info_tools_visualization_desc
+        - name: "D3D12_RAYTRACING_ACCELERATION_STRUCTURE_PREBUILD_INFO"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_raytracing_acceleration_structure_prebuild_info
+        - name: "D3D12_RAYTRACING_ACCELERATION_STRUCTURE_SRV"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_raytracing_acceleration_structure_srv
+        - name: "D3D12_RAYTRACING_GEOMETRY_AABBS_DESC"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_raytracing_geometry_aabbs_desc
+        - name: "D3D12_RAYTRACING_GEOMETRY_DESC"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_raytracing_geometry_desc
+        - name: "D3D12_RAYTRACING_GEOMETRY_TRIANGLES_DESC"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_raytracing_geometry_triangles_desc
+        - name: "D3D12_RAYTRACING_INSTANCE_DESC"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_raytracing_instance_desc
+        - name: "D3D12_RAYTRACING_PIPELINE_CONFIG"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_raytracing_pipeline_config
+        - name: "D3D12_RAYTRACING_PIPELINE_CONFIG1"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_raytracing_pipeline_config1
+        - name: "D3D12_RAYTRACING_SHADER_CONFIG"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_raytracing_shader_config
+        - name: "D3D12_RECT"
+          href: d3d12-rect.md
+        - name: "D3D12_RENDER_PASS_BEGINNING_ACCESS"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_render_pass_beginning_access
+        - name: "D3D12_RENDER_PASS_BEGINNING_ACCESS_CLEAR_PARAMETERS"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_render_pass_beginning_access_clear_parameters
+        - name: "D3D12_RENDER_PASS_DEPTH_STENCIL_DESC"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_render_pass_depth_stencil_desc
+        - name: "D3D12_RENDER_PASS_ENDING_ACCESS"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_render_pass_ending_access
+        - name: "D3D12_RENDER_PASS_ENDING_ACCESS_RESOLVE_PARAMETERS"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_render_pass_ending_access_resolve_parameters
+        - name: "D3D12_RENDER_PASS_ENDING_ACCESS_RESOLVE_SUBRESOURCE_PARAMETERS"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_render_pass_ending_access_resolve_subresource_parameters
+        - name: "D3D12_RENDER_PASS_RENDER_TARGET_DESC"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_render_pass_render_target_desc
+        - name: "D3D12_RENDER_TARGET_BLEND_DESC"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_render_target_blend_desc
+        - name: "D3D12_RENDER_TARGET_VIEW_DESC"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_render_target_view_desc
+        - name: "D3D12_RESOURCE_ALIASING_BARRIER"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_resource_aliasing_barrier
+        - name: "D3D12_RESOURCE_ALLOCATION_INFO"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_resource_allocation_info
+        - name: "D3D12_RESOURCE_ALLOCATION_INFO1"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_resource_allocation_info1
+        - name: "D3D12_RESOURCE_BARRIER"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_resource_barrier
+        - name: "D3D12_RESOURCE_DESC"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_resource_desc
+        - name: "D3D12_RESOURCE_TRANSITION_BARRIER"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_resource_transition_barrier
+        - name: "D3D12_RESOURCE_UAV_BARRIER"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_resource_uav_barrier
+        - name: "D3D12_ROOT_CONSTANTS"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_root_constants
+        - name: "D3D12_ROOT_DESCRIPTOR"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_root_descriptor
+        - name: "D3D12_ROOT_DESCRIPTOR1"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_root_descriptor1
+        - name: "D3D12_ROOT_DESCRIPTOR_TABLE"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_root_descriptor_table
+        - name: "D3D12_ROOT_DESCRIPTOR_TABLE1"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_root_descriptor_table1
+        - name: "D3D12_ROOT_PARAMETER"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_root_parameter
+        - name: "D3D12_ROOT_PARAMETER1"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_root_parameter1
+        - name: "D3D12_ROOT_SIGNATURE_DESC"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_root_signature_desc
+        - name: "D3D12_ROOT_SIGNATURE_DESC1"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_root_signature_desc1
+        - name: "D3D12_RT_FORMAT_ARRAY"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_rt_format_array
+        - name: "D3D12_SAMPLE_POSITION"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_sample_position
+        - name: "D3D12_SAMPLER_DESC"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_sampler_desc
+        - name: "D3D12_SERIALIZED_DATA_DRIVER_MATCHING_IDENTIFIER"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_serialized_data_driver_matching_identifier
+        - name: "D3D12_SERIALIZED_RAYTRACING_ACCELERATION_STRUCTURE_HEADER"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_serialized_raytracing_acceleration_structure_header
+        - name: "D3D12_SHADER_BYTECODE"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_shader_bytecode
+        - name: "D3D12_SHADER_CACHE_SESSION_DESC"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_shader_cache_session_desc
+        - name: "D3D12_SHADER_RESOURCE_VIEW_DESC"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_shader_resource_view_desc
+        - name: "D3D12_SO_DECLARATION_ENTRY"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_so_declaration_entry
+        - name: "D3D12_STATE_OBJECT_CONFIG"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_state_object_config
+        - name: "D3D12_STATE_OBJECT_DESC"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_state_object_desc
+        - name: "D3D12_STATE_SUBOBJECT"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_state_subobject
+        - name: "D3D12_STATIC_SAMPLER_DESC"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_static_sampler_desc
+        - name: "D3D12_STREAM_OUTPUT_BUFFER_VIEW"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_stream_output_buffer_view
+        - name: "D3D12_STREAM_OUTPUT_DESC"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_stream_output_desc
+        - name: "D3D12_SUBOBJECT_TO_EXPORTS_ASSOCIATION"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_subobject_to_exports_association
+        - name: "D3D12_SUBRESOURCE_DATA"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_subresource_data
+        - name: "D3D12_SUBRESOURCE_FOOTPRINT"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_subresource_footprint
+        - name: "D3D12_SUBRESOURCE_INFO"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_subresource_info
+        - name: "D3D12_SUBRESOURCE_RANGE_UINT64"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_subresource_range_uint64
+        - name: "D3D12_SUBRESOURCE_TILING"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_subresource_tiling
+        - name: "D3D12_TEX1D_ARRAY_DSV"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_tex1d_array_dsv
+        - name: "D3D12_TEX1D_ARRAY_RTV"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_tex1d_array_rtv
+        - name: "D3D12_TEX1D_ARRAY_SRV"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_tex1d_array_srv
+        - name: "D3D12_TEX1D_ARRAY_UAV"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_tex1d_array_uav
+        - name: "D3D12_TEX1D_DSV"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_tex1d_dsv
+        - name: "D3D12_TEX1D_RTV"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_tex1d_rtv
+        - name: "D3D12_TEX1D_SRV"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_tex1d_srv
+        - name: "D3D12_TEX1D_UAV"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_tex1d_uav
+        - name: "D3D12_TEX2D_ARRAY_DSV"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_tex2d_array_dsv
+        - name: "D3D12_TEX2D_ARRAY_RTV"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_tex2d_array_rtv
+        - name: "D3D12_TEX2D_ARRAY_SRV"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_tex2d_array_srv
+        - name: "D3D12_TEX2D_ARRAY_UAV"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_tex2d_array_uav
+        - name: "D3D12_TEX2D_DSV"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_tex2d_dsv
+        - name: "D3D12_TEX2D_RTV"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_tex2d_rtv
+        - name: "D3D12_TEX2D_SRV"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_tex2d_srv
+        - name: "D3D12_TEX2D_UAV"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_tex2d_uav
+        - name: "D3D12_TEX2DMS_ARRAY_DSV"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_tex2dms_array_dsv
+        - name: "D3D12_TEX2DMS_ARRAY_RTV"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_tex2dms_array_rtv
+        - name: "D3D12_TEX2DMS_ARRAY_SRV"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_tex2dms_array_srv
+        - name: "D3D12_TEX2DMS_DSV"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_tex2dms_dsv
+        - name: "D3D12_TEX2DMS_RTV"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_tex2dms_rtv
+        - name: "D3D12_TEX2DMS_SRV"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_tex2dms_srv
+        - name: "D3D12_TEX3D_RTV"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_tex3d_rtv
+        - name: "D3D12_TEX3D_SRV"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_tex3d_srv
+        - name: "D3D12_TEX3D_UAV"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_tex3d_uav
+        - name: "D3D12_TEXCUBE_ARRAY_SRV"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_texcube_array_srv
+        - name: "D3D12_TEXCUBE_SRV"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_texcube_srv
+        - name: "D3D12_TEXTURE_COPY_LOCATION"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_texture_copy_location
+        - name: "D3D12_TILE_REGION_SIZE"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_tile_region_size
+        - name: "D3D12_TILE_SHAPE"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_tile_shape
+        - name: "D3D12_TILED_RESOURCE_COORDINATE"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_tiled_resource_coordinate
+        - name: "D3D12_UNORDERED_ACCESS_VIEW_DESC"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_unordered_access_view_desc
+        - name: "D3D12_VERTEX_BUFFER_VIEW"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_vertex_buffer_view
+        - name: "D3D12_VERSIONED_DEVICE_REMOVED_EXTENDED_DATA"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_versioned_device_removed_extended_data
+        - name: "D3D12_VERSIONED_ROOT_SIGNATURE_DESC"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_versioned_root_signature_desc
+        - name: "D3D12_VIEW_INSTANCE_LOCATION"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_view_instance_location
+        - name: "D3D12_VIEW_INSTANCING_DESC"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_view_instancing_desc
+        - name: "D3D12_VIEWPORT"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_viewport
+        - name: "D3D12_WRITEBUFFERIMMEDIATE_PARAMETER"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_writebufferimmediate_parameter
+      - name: "Core enumerations"
+        href: direct3d-12-enumerations.md
+        items: 
+        - name: "D3D_ROOT_SIGNATURE_VERSION"
+          href: /windows/win32/api/d3d12/ne-d3d12-d3d_root_signature_version
+        - name: "D3D_SHADER_MODEL"
+          href: /windows/win32/api/d3d12/ne-d3d12-d3d_shader_model
+        - name: "D3D12_AUTO_BREADCRUMB_OP"
+          href: /windows/win32/api/d3d12/ne-d3d12-d3d12_auto_breadcrumb_op
+        - name: "D3D12_AXIS_SHADING_RATE"
+          href: /windows/win32/api/d3d12/ne-d3d12-d3d12_axis_shading_rate
+        - name: "D3D12_BACKGROUND_PROCESSING_MODE"
+          href: /windows/win32/api/d3d12/ne-d3d12-d3d12_background_processing_mode
+        - name: "D3D12_BLEND"
+          href: /windows/win32/api/d3d12/ne-d3d12-d3d12_blend
+        - name: "D3D12_BLEND_OP"
+          href: /windows/win32/api/d3d12/ne-d3d12-d3d12_blend_op
+        - name: "D3D12_BUFFER_SRV_FLAGS"
+          href: /windows/win32/api/d3d12/ne-d3d12-d3d12_buffer_srv_flags
+        - name: "D3D12_BUFFER_UAV_FLAGS"
+          href: /windows/win32/api/d3d12/ne-d3d12-d3d12_buffer_uav_flags
+        - name: "D3D12_CLEAR_FLAGS"
+          href: /windows/win32/api/d3d12/ne-d3d12-d3d12_clear_flags
+        - name: "D3D12_COLOR_WRITE_ENABLE"
+          href: /windows/win32/api/d3d12/ne-d3d12-d3d12_color_write_enable
+        - name: "D3D12_COMMAND_LIST_SUPPORT_FLAGS"
+          href: /windows/win32/api/d3d12/ne-d3d12-d3d12_command_list_support_flags
+        - name: "D3D12_COMMAND_LIST_TYPE"
+          href: /windows/win32/api/d3d12/ne-d3d12-d3d12_command_list_type
+        - name: "D3D12_COMMAND_QUEUE_FLAGS"
+          href: /windows/win32/api/d3d12/ne-d3d12-d3d12_command_queue_flags
+        - name: "D3D12_COMMAND_QUEUE_PRIORITY"
+          href: /windows/win32/api/d3d12/ne-d3d12-d3d12_command_queue_priority
+        - name: "D3D12_COMPARISON_FUNC"
+          href: /windows/win32/api/d3d12/ne-d3d12-d3d12_comparison_func
+        - name: "D3D12_CONSERVATIVE_RASTERIZATION_MODE"
+          href: /windows/win32/api/d3d12/ne-d3d12-d3d12_conservative_rasterization_mode
+        - name: "D3D12_CONSERVATIVE_RASTERIZATION_TIER"
+          href: /windows/win32/api/d3d12/ne-d3d12-d3d12_conservative_rasterization_tier
+        - name: "D3D12_CPU_PAGE_PROPERTY"
+          href: /windows/win32/api/d3d12/ne-d3d12-d3d12_cpu_page_property
+        - name: "D3D12_CROSS_NODE_SHARING_TIER"
+          href: /windows/win32/api/d3d12/ne-d3d12-d3d12_cross_node_sharing_tier
+        - name: "D3D12_CULL_MODE"
+          href: /windows/win32/api/d3d12/ne-d3d12-d3d12_cull_mode
+        - name: "D3D12_DEBUG_DEVICE_PARAMETER_TYPE"
+          href: /windows/win32/api/d3d12sdklayers/ne-d3d12sdklayers-d3d12_debug_device_parameter_type
+        - name: "D3D12_DEPTH_WRITE_MASK"
+          href: /windows/win32/api/d3d12/ne-d3d12-d3d12_depth_write_mask
+        - name: "D3D12_DESCRIPTOR_HEAP_FLAGS"
+          href: /windows/win32/api/d3d12/ne-d3d12-d3d12_descriptor_heap_flags
+        - name: "D3D12_DESCRIPTOR_HEAP_TYPE"
+          href: /windows/win32/api/d3d12/ne-d3d12-d3d12_descriptor_heap_type
+        - name: "D3D12_DESCRIPTOR_RANGE_FLAGS"
+          href: /windows/win32/api/d3d12/ne-d3d12-d3d12_descriptor_range_flags
+        - name: "D3D12_DESCRIPTOR_RANGE_TYPE"
+          href: /windows/win32/api/d3d12/ne-d3d12-d3d12_descriptor_range_type
+        - name: "D3D12_DRED_ALLOCATION_TYPE"
+          href: /windows/win32/api/d3d12/ne-d3d12-d3d12_dred_allocation_type
+        - name: "D3D12_DRED_ENABLEMENT"
+          href: /windows/win32/api/d3d12/ne-d3d12-d3d12_dred_enablement
+        - name: "D3D12_DRIVER_MATCHING_IDENTIFIER_STATUS"
+          href: /windows/win32/api/d3d12/ne-d3d12-d3d12_driver_matching_identifier_status
+        - name: "D3D12_DSV_DIMENSION"
+          href: /windows/win32/api/d3d12/ne-d3d12-d3d12_dsv_dimension
+        - name: "D3D12_DSV_FLAGS"
+          href: /windows/win32/api/d3d12/ne-d3d12-d3d12_dsv_flags
+        - name: "D3D12_ELEMENTS_LAYOUT"
+          href: /windows/win32/api/d3d12/ne-d3d12-d3d12_elements_layout
+        - name: "D3D12_EXPORT_FLAGS"
+          href: /windows/win32/api/d3d12/ne-d3d12-d3d12_export_flags
+        - name: "D3D12_FEATURE"
+          href: /windows/win32/api/d3d12/ne-d3d12-d3d12_feature
+        - name: "D3D12_FENCE_FLAGS"
+          href: /windows/win32/api/d3d12/ne-d3d12-d3d12_fence_flags
+        - name: "D3D12_FILL_MODE"
+          href: /windows/win32/api/d3d12/ne-d3d12-d3d12_fill_mode
+        - name: "D3D12_FILTER"
+          href: /windows/win32/api/d3d12/ne-d3d12-d3d12_filter
+        - name: "D3D12_FILTER_REDUCTION_TYPE"
+          href: /windows/win32/api/d3d12/ne-d3d12-d3d12_filter_reduction_type
+        - name: "D3D12_FILTER_TYPE"
+          href: /windows/win32/api/d3d12/ne-d3d12-d3d12_filter_type
+        - name: "D3D12_FORMAT_SUPPORT1"
+          href: /windows/win32/api/d3d12/ne-d3d12-d3d12_format_support1
+        - name: "D3D12_FORMAT_SUPPORT2"
+          href: /windows/win32/api/d3d12/ne-d3d12-d3d12_format_support2
+        - name: "D3D12_GRAPHICS_STATES"
+          href: /windows/win32/api/d3d12/ne-d3d12-d3d12_graphics_states
+        - name: "D3D12_HEAP_FLAGS"
+          href: /windows/win32/api/d3d12/ne-d3d12-d3d12_heap_flags
+        - name: "D3D12_HEAP_SERIALIZATION_TIER"
+          href: /windows/win32/api/d3d12/ne-d3d12-d3d12_heap_serialization_tier
+        - name: "D3D12_HEAP_TYPE"
+          href: /windows/win32/api/d3d12/ne-d3d12-d3d12_heap_type
+        - name: "D3D12_HIT_GROUP_TYPE"
+          href: /windows/win32/api/d3d12/ne-d3d12-d3d12_hit_group_type
+        - name: "D3D12_INDEX_BUFFER_STRIP_CUT_VALUE"
+          href: /windows/win32/api/d3d12/ne-d3d12-d3d12_index_buffer_strip_cut_value
+        - name: "D3D12_INDIRECT_ARGUMENT_TYPE"
+          href: /windows/win32/api/d3d12/ne-d3d12-d3d12_indirect_argument_type
+        - name: "D3D12_INPUT_CLASSIFICATION"
+          href: /windows/win32/api/d3d12/ne-d3d12-d3d12_input_classification
+        - name: "D3D12_LIFETIME_STATE"
+          href: /windows/win32/api/d3d12/ne-d3d12-d3d12_lifetime_state
+        - name: "D3D12_LOGIC_OP"
+          href: /windows/win32/api/d3d12/ne-d3d12-d3d12_logic_op
+        - name: "D3D12_MEASUREMENTS_ACTION"
+          href: /windows/win32/api/d3d12/ne-d3d12-d3d12_measurements_action
+        - name: "D3D12_MEMORY_POOL"
+          href: /windows/win32/api/d3d12/ne-d3d12-d3d12_memory_pool
+        - name: "D3D12_MESH_SHADER_TIER"
+          href: /windows/win32/api/d3d12/ne-d3d12-d3d12_mesh_shader_tier
+        - name: "D3D12_META_COMMAND_PARAMETER_FLAGS"
+          href: /windows/win32/api/d3d12/ne-d3d12-d3d12_meta_command_parameter_flags
+        - name: "D3D12_META_COMMAND_PARAMETER_STAGE"
+          href: /windows/win32/api/d3d12/ne-d3d12-d3d12_meta_command_parameter_stage
+        - name: "D3D12_META_COMMAND_PARAMETER_TYPE"
+          href: /windows/win32/api/d3d12/ne-d3d12-d3d12_meta_command_parameter_type
+        - name: "D3D12_MULTIPLE_FENCE_WAIT_FLAGS"
+          href: /windows/win32/api/d3d12/ne-d3d12-d3d12_multiple_fence_wait_flags
+        - name: "D3D12_MULTISAMPLE_QUALITY_LEVELS_FLAG"
+          href: /windows/win32/api/d3d12/ne-d3d12-d3d12_multisample_quality_level_flags
+        - name: "D3D12_PIPELINE_STATE_FLAGS"
+          href: /windows/win32/api/d3d12/ne-d3d12-d3d12_pipeline_state_flags
+        - name: "D3D12_PIPELINE_STATE_SUBOBJECT_TYPE"
+          href: /windows/win32/api/d3d12/ne-d3d12-d3d12_pipeline_state_subobject_type
+        - name: "D3D12_PREDICATION_OP"
+          href: /windows/win32/api/d3d12/ne-d3d12-d3d12_predication_op
+        - name: "D3D12_PRIMITIVE_TOPOLOGY_TYPE"
+          href: /windows/win32/api/d3d12/ne-d3d12-d3d12_primitive_topology_type
+        - name: "D3D12_PROGRAMMABLE_SAMPLE_POSITIONS_TIER"
+          href: /windows/win32/api/d3d12/ne-d3d12-d3d12_programmable_sample_positions_tier
+        - name: "D3D12_PROTECTED_RESOURCE_SESSION_FLAGS"
+          href: /windows/win32/api/d3d12/ne-d3d12-d3d12_protected_resource_session_flags
+        - name: "D3D12_PROTECTED_RESOURCE_SESSION_SUPPORT_FLAGS"
+          href: /windows/win32/api/d3d12/ne-d3d12-d3d12_protected_resource_session_support_flags
+        - name: "D3D12_PROTECTED_SESSION_STATUS"
+          href: /windows/win32/api/d3d12/ne-d3d12-d3d12_protected_session_status
+        - name: "D3D12_QUERY_HEAP_TYPE"
+          href: /windows/win32/api/d3d12/ne-d3d12-d3d12_query_heap_type
+        - name: "D3D12_QUERY_TYPE"
+          href: /windows/win32/api/d3d12/ne-d3d12-d3d12_query_type
+        - name: "D3D12_RAY_FLAGS"
+          href: /windows/win32/api/d3d12/ne-d3d12-d3d12_ray_flags
+        - name: "D3D12_RAYTRACING_ACCELERATION_STRUCTURE_BUILD_FLAGS"
+          href: /windows/win32/api/d3d12/ne-d3d12-d3d12_raytracing_acceleration_structure_build_flags
+        - name: "D3D12_RAYTRACING_ACCELERATION_STRUCTURE_COPY_MODE"
+          href: /windows/win32/api/d3d12/ne-d3d12-d3d12_raytracing_acceleration_structure_copy_mode
+        - name: "D3D12_RAYTRACING_ACCELERATION_STRUCTURE_POSTBUILD_INFO_TYPE"
+          href: /windows/win32/api/d3d12/ne-d3d12-d3d12_raytracing_acceleration_structure_postbuild_info_type
+        - name: "D3D12_RAYTRACING_ACCELERATION_STRUCTURE_TYPE"
+          href: /windows/win32/api/d3d12/ne-d3d12-d3d12_raytracing_acceleration_structure_type
+        - name: "D3D12_RAYTRACING_GEOMETRY_FLAGS"
+          href: /windows/win32/api/d3d12/ne-d3d12-d3d12_raytracing_geometry_flags
+        - name: "D3D12_RAYTRACING_GEOMETRY_TYPE"
+          href: /windows/win32/api/d3d12/ne-d3d12-d3d12_raytracing_geometry_type
+        - name: "D3D12_RAYTRACING_INSTANCE_FLAGS"
+          href: /windows/win32/api/d3d12/ne-d3d12-d3d12_raytracing_instance_flags
+        - name: "D3D12_RAYTRACING_PIPELINE_FLAGS"
+          href: /windows/win32/api/d3d12/ne-d3d12-d3d12_raytracing_pipeline_flags
+        - name: "D3D12_RAYTRACING_TIER"
+          href: /windows/win32/api/d3d12/ne-d3d12-d3d12_raytracing_tier
+        - name: "D3D12_RENDER_PASS_BEGINNING_ACCESS_TYPE"
+          href: /windows/win32/api/d3d12/ne-d3d12-d3d12_render_pass_beginning_access_type
+        - name: "D3D12_RENDER_PASS_ENDING_ACCESS_TYPE"
+          href: /windows/win32/api/d3d12/ne-d3d12-d3d12_render_pass_ending_access_type
+        - name: "D3D12_RENDER_PASS_FLAGS"
+          href: /windows/win32/api/d3d12/ne-d3d12-d3d12_render_pass_flags
+        - name: "D3D12_RESIDENCY_FLAGS"
+          href: /windows/win32/api/d3d12/ne-d3d12-d3d12_residency_flags
+        - name: "D3D12_RESIDENCY_PRIORITY"
+          href: /windows/win32/api/d3d12/ne-d3d12-d3d12_residency_priority
+        - name: "D3D12_RESOLVE_MODE"
+          href: /windows/win32/api/d3d12/ne-d3d12-d3d12_resolve_mode
+        - name: "D3D12_RESOURCE_BARRIER_FLAGS"
+          href: /windows/win32/api/d3d12/ne-d3d12-d3d12_resource_barrier_flags
+        - name: "D3D12_RESOURCE_BARRIER_TYPE"
+          href: /windows/win32/api/d3d12/ne-d3d12-d3d12_resource_barrier_type
+        - name: "D3D12_RESOURCE_BINDING_TIER"
+          href: /windows/win32/api/d3d12/ne-d3d12-d3d12_resource_binding_tier
+        - name: "D3D12_RESOURCE_DIMENSION"
+          href: /windows/win32/api/d3d12/ne-d3d12-d3d12_resource_dimension
+        - name: "D3D12_RESOURCE_FLAGS"
+          href: /windows/win32/api/d3d12/ne-d3d12-d3d12_resource_flags
+        - name: "D3D12_RESOURCE_HEAP_TIER"
+          href: /windows/win32/api/d3d12/ne-d3d12-d3d12_resource_heap_tier
+        - name: "D3D12_RESOURCE_STATES"
+          href: /windows/win32/api/d3d12/ne-d3d12-d3d12_resource_states
+        - name: "D3D12_ROOT_DESCRIPTOR_FLAGS"
+          href: /windows/win32/api/d3d12/ne-d3d12-d3d12_root_descriptor_flags
+        - name: "D3D12_ROOT_PARAMETER_TYPE"
+          href: /windows/win32/api/d3d12/ne-d3d12-d3d12_root_parameter_type
+        - name: "D3D12_ROOT_SIGNATURE_FLAGS"
+          href: /windows/win32/api/d3d12/ne-d3d12-d3d12_root_signature_flags
+        - name: "D3D12_RTV_DIMENSION"
+          href: /windows/win32/api/d3d12/ne-d3d12-d3d12_rtv_dimension
+        - name: "D3D12_SAMPLER_FEEDBACK_TIER"
+          href: /windows/win32/api/d3d12/ne-d3d12-d3d12_sampler_feedback_tier
+        - name: "D3D12_SERIALIZED_DATA_TYPE"
+          href: /windows/win32/api/d3d12/ne-d3d12-d3d12_serialized_data_type
+        - name: "D3D12_SHADER_CACHE_CONTROL_FLAGS"
+          href: /windows/win32/api/d3d12/ne-d3d12-d3d12_shader_cache_control_flags
+        - name: "D3D12_SHADER_CACHE_FLAGS"
+          href: /windows/win32/api/d3d12/ne-d3d12-d3d12_shader_cache_flags
+        - name: "D3D12_SHADER_CACHE_KIND_FLAGS"
+          href: /windows/win32/api/d3d12/ne-d3d12-d3d12_shader_cache_kind_flags
+        - name: "D3D12_SHADER_CACHE_MODE"
+          href: /windows/win32/api/d3d12/ne-d3d12-d3d12_shader_cache_mode
+        - name: "D3D12_SHADER_CACHE_SUPPORT_FLAGS"
+          href: /windows/win32/api/d3d12/ne-d3d12-d3d12_shader_cache_support_flags
+        - name: "D3D12_SHADER_COMPONENT_MAPPING"
+          href: /windows/win32/api/d3d12/ne-d3d12-d3d12_shader_component_mapping
+        - name: "D3D12_SHADER_MIN_PRECISION_SUPPORT"
+          href: /windows/win32/api/d3d12/ne-d3d12-d3d12_shader_min_precision_support
+        - name: "D3D12_SHADER_VISIBILITY"
+          href: /windows/win32/api/d3d12/ne-d3d12-d3d12_shader_visibility
+        - name: "D3D12_SHADING_RATE"
+          href: /windows/win32/api/d3d12/ne-d3d12-d3d12_shading_rate
+        - name: "D3D12_SHADING_RATE_COMBINER"
+          href: /windows/win32/api/d3d12/ne-d3d12-d3d12_shading_rate_combiner
+        - name: "D3D12_SHARED_RESOURCE_COMPATIBILITY_TIER"
+          href: /windows/win32/api/d3d12/ne-d3d12-d3d12_shared_resource_compatibility_tier
+        - name: "D3D12_SRV_DIMENSION"
+          href: /windows/win32/api/d3d12/ne-d3d12-d3d12_srv_dimension
+        - name: "D3D12_STATE_OBJECT_FLAGS"
+          href: /windows/win32/api/d3d12/ne-d3d12-d3d12_state_object_flags
+        - name: "D3D12_STATE_OBJECT_TYPE"
+          href: /windows/win32/api/d3d12/ne-d3d12-d3d12_state_object_type
+        - name: "D3D12_STATE_SUBOBJECT_TYPE"
+          href: /windows/win32/api/d3d12/ne-d3d12-d3d12_state_subobject_type
+        - name: "D3D12_STATIC_BORDER_COLOR"
+          href: /windows/win32/api/d3d12/ne-d3d12-d3d12_static_border_color
+        - name: "D3D12_STENCIL_OP"
+          href: /windows/win32/api/d3d12/ne-d3d12-d3d12_stencil_op
+        - name: "D3D12_TEXTURE_ADDRESS_MODE"
+          href: /windows/win32/api/d3d12/ne-d3d12-d3d12_texture_address_mode
+        - name: "D3D12_TEXTURE_COPY_TYPE"
+          href: /windows/win32/api/d3d12/ne-d3d12-d3d12_texture_copy_type
+        - name: "D3D12_TEXTURE_LAYOUT"
+          href: /windows/win32/api/d3d12/ne-d3d12-d3d12_texture_layout
+        - name: "D3D12_TILE_COPY_FLAGS"
+          href: /windows/win32/api/d3d12/ne-d3d12-d3d12_tile_copy_flags
+        - name: "D3D12_TILE_MAPPING_FLAGS"
+          href: /windows/win32/api/d3d12/ne-d3d12-d3d12_tile_mapping_flags
+        - name: "D3D12_TILE_RANGE_FLAGS"
+          href: /windows/win32/api/d3d12/ne-d3d12-d3d12_tile_range_flags
+        - name: "D3D12_TILED_RESOURCES_TIER"
+          href: /windows/win32/api/d3d12/ne-d3d12-d3d12_tiled_resources_tier
+        - name: "D3D12_UAV_DIMENSION"
+          href: /windows/win32/api/d3d12/ne-d3d12-d3d12_uav_dimension
+        - name: "D3D12_VARIABLE_SHADING_RATE_TIER"
+          href: /windows/win32/api/d3d12/ne-d3d12-d3d12_variable_shading_rate_tier
+        - name: "D3D12_VIEW_INSTANCE_FLAGS"
+          href: /windows/win32/api/d3d12/ne-d3d12-d3d12_view_instancing_flags
+        - name: "D3D12_VIEW_INSTANCING_TIER"
+          href: /windows/win32/api/d3d12/ne-d3d12-d3d12_view_instancing_tier
+        - name: "D3D12_WAVE_MMA_TIER"
+          href: /windows/win32/api/d3d12/ne-d3d12-d3d12_wave_mma_tier
+        - name: "D3D12_WRITEBUFFERIMMEDIATE_MODE"
+          href: /windows/win32/api/d3d12/ne-d3d12-d3d12_writebufferimmediate_mode
+      - name: "Core constants"
+        href: constants.md
+      - name: "Core data types"
+        href: direct3d-12-data-types.md
+        items: 
+        - name: "D3D12_GPU_VIRTUAL_ADDRESS"
+          href: d3d12_gpu_virtual_address.md
+    - name: "Debug Layer Reference"
+      href: direct3d-12-sdklayers-reference.md
+      items: 
+      - name: "Debug Layer Interfaces"
+        href: direct3d-12-sdklayers-interfaces.md
+        items: 
+        - name: "ID3D12Debug"
+          href: /windows/win32/api/d3d12sdklayers/nn-d3d12sdklayers-id3d12debug
+          items: 
+          - name: "EnableDebugLayer"
+            href: /windows/win32/api/d3d12sdklayers/nf-d3d12sdklayers-id3d12debug-enabledebuglayer
+        - name: "ID3D12Debug1"
+          href: /windows/win32/api/d3d12sdklayers/nn-d3d12sdklayers-id3d12debug1
+          items: 
+          - name: "EnableDebugLayer method"
+            href: /windows/win32/api/d3d12sdklayers/nf-d3d12sdklayers-id3d12debug1-enabledebuglayer
+          - name: "SetEnableGPUBasedValidation method"
+            href: /windows/win32/api/d3d12sdklayers/nf-d3d12sdklayers-id3d12debug1-setenablegpubasedvalidation
+          - name: "SetEnableSynchronizedCommandQueueValidation method"
+            href: /windows/win32/api/d3d12sdklayers/nf-d3d12sdklayers-id3d12debug1-setenablesynchronizedcommandqueuevalidation
+        - name: "ID3D12Debug2"
+          href: /windows/win32/api/d3d12sdklayers/nn-d3d12sdklayers-id3d12debug2
+          items: 
+          - name: "SetGPUBasedValidationFlags"
+            href: /windows/win32/api/d3d12sdklayers/nf-d3d12sdklayers-id3d12debug2-setgpubasedvalidationflags
+        - name: "ID3D12Debug3"
+          href: /windows/win32/api/d3d12sdklayers/nn-d3d12sdklayers-id3d12debug3
+          items: 
+          - name: "SetEnableGPUBasedValidation method"
+            href: /windows/win32/api/d3d12sdklayers/nf-d3d12sdklayers-id3d12debug3-setenablegpubasedvalidation
+          - name: "SetEnableSynchronizedCommandQueueValidation method"
+            href: /windows/win32/api/d3d12sdklayers/nf-d3d12sdklayers-id3d12debug3-setenablesynchronizedcommandqueuevalidation
+          - name: "SetGPUBasedValidationFlags"
+            href: /windows/win32/api/d3d12sdklayers/nf-d3d12sdklayers-id3d12debug3-setgpubasedvalidationflags
+        - name: "ID3D12Debug4"
+          href: /windows/win32/api/d3d12sdklayers/nn-d3d12sdklayers-id3d12debug4
+          items: 
+          - name: "DisableDebugLayer method"
+            href: /windows/win32/api/d3d12sdklayers/nf-d3d12sdklayers-id3d12debug4-disabledebuglayer
+        - name: "ID3D12Debug5"
+          href: /windows/win32/api/d3d12sdklayers/nn-d3d12sdklayers-id3d12debug5
+          items: 
+          - name: "SetEnableAutoName method"
+            href: /windows/win32/api/d3d12sdklayers/nf-d3d12sdklayers-id3d12debug5-setenableautoname.md
+        - name: "ID3D12DebugCommandList"
+          href: /windows/win32/api/d3d12sdklayers/nn-d3d12sdklayers-id3d12debugcommandlist
+          items: 
+          - name: "AssertResourceState"
+            href: /windows/win32/api/d3d12sdklayers/nf-d3d12sdklayers-id3d12debugcommandlist-assertresourcestate
+          - name: "GetFeatureMask"
+            href: /windows/win32/api/d3d12sdklayers/nf-d3d12sdklayers-id3d12debugcommandlist-getfeaturemask
+          - name: "SetFeatureMask"
+            href: /windows/win32/api/d3d12sdklayers/nf-d3d12sdklayers-id3d12debugcommandlist-setfeaturemask
+        - name: "ID3D12DebugCommandList1"
+          href: /windows/win32/api/d3d12sdklayers/nn-d3d12sdklayers-id3d12debugcommandlist1
+          items: 
+          - name: "AssertResourceState method"
+            href: /windows/win32/api/d3d12sdklayers/nf-d3d12sdklayers-id3d12debugcommandlist1-assertresourcestate
+          - name: "GetDebugParameter method"
+            href: /windows/win32/api/d3d12sdklayers/nf-d3d12sdklayers-id3d12debugcommandlist1-getdebugparameter
+          - name: "SetDebugParameter method"
+            href: /windows/win32/api/d3d12sdklayers/nf-d3d12sdklayers-id3d12debugcommandlist1-setdebugparameter
+        - name: "ID3D12DebugCommandQueue"
+          href: /windows/win32/api/d3d12sdklayers/nn-d3d12sdklayers-id3d12debugcommandqueue
+          items: 
+          - name: "AssertResourceState"
+            href: /windows/win32/api/d3d12sdklayers/nf-d3d12sdklayers-id3d12debugcommandqueue-assertresourcestate
+        - name: "ID3D12DebugDevice"
+          href: /windows/win32/api/d3d12sdklayers/nn-d3d12sdklayers-id3d12debugdevice
+          items: 
+          - name: "GetFeatureMask"
+            href: /windows/win32/api/d3d12sdklayers/nf-d3d12sdklayers-id3d12debugdevice-getfeaturemask
+          - name: "ReportLiveDeviceObjects"
+            href: /windows/win32/api/d3d12sdklayers/nf-d3d12sdklayers-id3d12debugdevice-reportlivedeviceobjects
+          - name: "SetFeatureMask"
+            href: /windows/win32/api/d3d12sdklayers/nf-d3d12sdklayers-id3d12debugdevice-setfeaturemask
+        - name: "ID3D12DebugDevice1"
+          href: /windows/win32/api/d3d12sdklayers/nn-d3d12sdklayers-id3d12debugdevice1
+          items: 
+          - name: "GetDebugParameter method"
+            href: /windows/win32/api/d3d12sdklayers/nf-d3d12sdklayers-id3d12debugdevice1-getdebugparameter
+          - name: "ReportLiveDeviceObjects method"
+            href: /windows/win32/api/d3d12sdklayers/nf-d3d12sdklayers-id3d12debugdevice1-reportlivedeviceobjects
+          - name: "SetDebugParameter method"
+            href: /windows/win32/api/d3d12sdklayers/nf-d3d12sdklayers-id3d12debugdevice1-setdebugparameter
+        - name: "ID3D12InfoQueue"
+          href: /windows/win32/api/d3d12sdklayers/nn-d3d12sdklayers-id3d12infoqueue
+          items: 
+          - name: "AddApplicationMessage"
+            href: /windows/win32/api/d3d12sdklayers/nf-d3d12sdklayers-id3d12infoqueue-addapplicationmessage
+          - name: "AddMessage"
+            href: /windows/win32/api/d3d12sdklayers/nf-d3d12sdklayers-id3d12infoqueue-addmessage
+          - name: "AddRetrievalFilterEntries"
+            href: /windows/win32/api/d3d12sdklayers/nf-d3d12sdklayers-id3d12infoqueue-addretrievalfilterentries
+          - name: "AddStorageFilterEntries"
+            href: /windows/win32/api/d3d12sdklayers/nf-d3d12sdklayers-id3d12infoqueue-addstoragefilterentries
+          - name: "ClearRetrievalFilter"
+            href: /windows/win32/api/d3d12sdklayers/nf-d3d12sdklayers-id3d12infoqueue-clearretrievalfilter
+          - name: "ClearStorageFilter"
+            href: /windows/win32/api/d3d12sdklayers/nf-d3d12sdklayers-id3d12infoqueue-clearstoragefilter
+          - name: "ClearStoredMessages"
+            href: /windows/win32/api/d3d12sdklayers/nf-d3d12sdklayers-id3d12infoqueue-clearstoredmessages
+          - name: "GetBreakOnCategory"
+            href: /windows/win32/api/d3d12sdklayers/nf-d3d12sdklayers-id3d12infoqueue-getbreakoncategory
+          - name: "GetBreakOnId"
+            href: /windows/win32/api/d3d12sdklayers/nf-d3d12sdklayers-id3d12infoqueue-getbreakonid
+          - name: "GetBreakOnSeverity"
+            href: /windows/win32/api/d3d12sdklayers/nf-d3d12sdklayers-id3d12infoqueue-getbreakonseverity
+          - name: "GetMessage"
+            href: /windows/win32/api/d3d12sdklayers/nf-d3d12sdklayers-id3d12infoqueue-getmessage
+          - name: "GetMessageCountLimit"
+            href: /windows/win32/api/d3d12sdklayers/nf-d3d12sdklayers-id3d12infoqueue-getmessagecountlimit
+          - name: "GetMuteDebugOutput"
+            href: /windows/win32/api/d3d12sdklayers/nf-d3d12sdklayers-id3d12infoqueue-getmutedebugoutput
+          - name: "GetNumMessagesAllowedByStorageFilter"
+            href: /windows/win32/api/d3d12sdklayers/nf-d3d12sdklayers-id3d12infoqueue-getnummessagesallowedbystoragefilter
+          - name: "GetNumMessagesDeniedByStorageFilter"
+            href: /windows/win32/api/d3d12sdklayers/nf-d3d12sdklayers-id3d12infoqueue-getnummessagesdeniedbystoragefilter
+          - name: "GetNumMessagesDiscardedByMessageCountLimit"
+            href: /windows/win32/api/d3d12sdklayers/nf-d3d12sdklayers-id3d12infoqueue-getnummessagesdiscardedbymessagecountlimit
+          - name: "GetNumStoredMessages"
+            href: /windows/win32/api/d3d12sdklayers/nf-d3d12sdklayers-id3d12infoqueue-getnumstoredmessages
+          - name: "GetNumStoredMessagesAllowedByRetrievalFilter"
+            href: /windows/win32/api/d3d12sdklayers/nf-d3d12sdklayers-id3d12infoqueue-getnumstoredmessagesallowedbyretrievalfilter
+          - name: "GetRetrievalFilter"
+            href: /windows/win32/api/d3d12sdklayers/nf-d3d12sdklayers-id3d12infoqueue-getretrievalfilter
+          - name: "GetRetrievalFilterStackSize"
+            href: /windows/win32/api/d3d12sdklayers/nf-d3d12sdklayers-id3d12infoqueue-getretrievalfilterstacksize
+          - name: "GetStorageFilter"
+            href: /windows/win32/api/d3d12sdklayers/nf-d3d12sdklayers-id3d12infoqueue-getstoragefilter
+          - name: "GetStorageFilterStackSize"
+            href: /windows/win32/api/d3d12sdklayers/nf-d3d12sdklayers-id3d12infoqueue-getstoragefilterstacksize
+          - name: "PopRetrievalFilter"
+            href: /windows/win32/api/d3d12sdklayers/nf-d3d12sdklayers-id3d12infoqueue-popretrievalfilter
+          - name: "PopStorageFilter"
+            href: /windows/win32/api/d3d12sdklayers/nf-d3d12sdklayers-id3d12infoqueue-popstoragefilter
+          - name: "PushCopyOfRetrievalFilter"
+            href: /windows/win32/api/d3d12sdklayers/nf-d3d12sdklayers-id3d12infoqueue-pushcopyofretrievalfilter
+          - name: "PushCopyOfStorageFilter"
+            href: /windows/win32/api/d3d12sdklayers/nf-d3d12sdklayers-id3d12infoqueue-pushcopyofstoragefilter
+          - name: "PushEmptyRetrievalFilter"
+            href: /windows/win32/api/d3d12sdklayers/nf-d3d12sdklayers-id3d12infoqueue-pushemptyretrievalfilter
+          - name: "PushEmptyStorageFilter"
+            href: /windows/win32/api/d3d12sdklayers/nf-d3d12sdklayers-id3d12infoqueue-pushemptystoragefilter
+          - name: "PushRetrievalFilter"
+            href: /windows/win32/api/d3d12sdklayers/nf-d3d12sdklayers-id3d12infoqueue-pushretrievalfilter
+          - name: "PushStorageFilter"
+            href: /windows/win32/api/d3d12sdklayers/nf-d3d12sdklayers-id3d12infoqueue-pushstoragefilter
+          - name: "SetBreakOnCategory"
+            href: /windows/win32/api/d3d12sdklayers/nf-d3d12sdklayers-id3d12infoqueue-setbreakoncategory
+          - name: "SetBreakOnId"
+            href: /windows/win32/api/d3d12sdklayers/nf-d3d12sdklayers-id3d12infoqueue-setbreakonid
+          - name: "SetBreakOnSeverity"
+            href: /windows/win32/api/d3d12sdklayers/nf-d3d12sdklayers-id3d12infoqueue-setbreakonseverity
+          - name: "SetMessageCountLimit"
+            href: /windows/win32/api/d3d12sdklayers/nf-d3d12sdklayers-id3d12infoqueue-setmessagecountlimit
+          - name: "SetMuteDebugOutput"
+            href: /windows/win32/api/d3d12sdklayers/nf-d3d12sdklayers-id3d12infoqueue-setmutedebugoutput
+        - name: "ID3D12SharingContract"
+          href: /windows/win32/api/d3d12sdklayers/nn-d3d12sdklayers-id3d12sharingcontract
+          items: 
+          - name: "Present method"
+            href: /windows/win32/api/d3d12sdklayers/nf-d3d12sdklayers-id3d12sharingcontract-present
+          - name: "SharedFenceSignal method"
+            href: /windows/win32/api/d3d12sdklayers/nf-d3d12sdklayers-id3d12sharingcontract-sharedfencesignal
+      - name: "Debug Layer Structures"
+        href: direct3d-12-sdklayers-structures.md
+        items: 
+        - name: "D3D12_DEBUG_COMMAND_LIST_GPU_BASED_VALIDATION_SETTINGS"
+          href: /windows/win32/api/d3d12sdklayers/ns-d3d12sdklayers-d3d12_debug_command_list_gpu_based_validation_settings
+        - name: "D3D12_DEBUG_DEVICE_GPU_BASED_VALIDATION_SETTINGS"
+          href: /windows/win32/api/d3d12sdklayers/ns-d3d12sdklayers-d3d12_debug_device_gpu_based_validation_settings
+        - name: "D3D12_DEBUG_DEVICE_GPU_SLOWDOWN_PERFORMANCE_FACTOR"
+          href: /windows/win32/api/d3d12sdklayers/ns-d3d12sdklayers-d3d12_debug_device_gpu_slowdown_performance_factor
+        - name: "D3D12_INFO_QUEUE_FILTER"
+          href: /windows/win32/api/d3d12sdklayers/ns-d3d12sdklayers-d3d12_info_queue_filter
+        - name: "D3D12_INFO_QUEUE_FILTER_DESC"
+          href: /windows/win32/api/d3d12sdklayers/ns-d3d12sdklayers-d3d12_info_queue_filter_desc
+        - name: "D3D12_MESSAGE"
+          href: /windows/win32/api/d3d12sdklayers/ns-d3d12sdklayers-d3d12_message
+      - name: "Debug Layer Enumerations"
+        href: direct3d-12-sdklayers-enumerations.md
+        items: 
+        - name: "D3D12_DEBUG_COMMAND_LIST_PARAMETER_TYPE"
+          href: /windows/win32/api/d3d12sdklayers/ne-d3d12sdklayers-d3d12_debug_command_list_parameter_type
+        - name: "D3D12_DEBUG_DEVICE_PARAMETER_TYPE"
+          href: /windows/win32/api/d3d12sdklayers/ne-d3d12sdklayers-d3d12_debug_device_parameter_type
+        - name: "D3D12_DEBUG_FEATURE"
+          href: /windows/win32/api/d3d12sdklayers/ne-d3d12sdklayers-d3d12_debug_feature
+        - name: "D3D12_GPU_BASED_VALIDATION_FLAGS"
+          href: /windows/win32/api/d3d12sdklayers/ne-d3d12sdklayers-d3d12_gpu_based_validation_flags
+        - name: "D3D12_GPU_BASED_VALIDATION_PIPELINE_STATE_CREATE_FLAGS"
+          href: /windows/win32/api/d3d12sdklayers/ne-d3d12sdklayers-d3d12_gpu_based_validation_pipeline_state_create_flags
+        - name: "D3D12_GPU_BASED_VALIDATION_SHADER_PATCH_MODE"
+          href: /windows/win32/api/d3d12sdklayers/ne-d3d12sdklayers-d3d12_gpu_based_validation_shader_patch_mode
+        - name: "D3D12_MESSAGE_CATEGORY"
+          href: /windows/win32/api/d3d12sdklayers/ne-d3d12sdklayers-d3d12_message_category
+        - name: "D3D12_MESSAGE_ID"
+          href: /windows/win32/api/d3d12sdklayers/ne-d3d12sdklayers-d3d12_message_id
+        - name: "D3D12_MESSAGE_SEVERITY"
+          href: /windows/win32/api/d3d12sdklayers/ne-d3d12sdklayers-d3d12_message_severity
+        - name: "D3D12_RLDO_FLAGS"
+          href: /windows/win32/api/d3d12sdklayers/ne-d3d12sdklayers-d3d12_rldo_flags
+    - name: "Shader Reference"
+      href: d3d12-graphics-reference-shader-reference.md
+      items: 
+      - name: "Shader Interfaces"
+        href: d3d12-graphics-reference-shader-interfaces.md
+        items: 
+        - name: "ID3D12FunctionParameterReflection"
+          href: /windows/win32/api/d3d12shader/nn-d3d12shader-id3d12functionparameterreflection
+          items: 
+          - name: "GetDesc"
+            href: /windows/win32/api/d3d12shader/nf-d3d12shader-id3d12functionparameterreflection-getdesc
+        - name: "ID3D12FunctionReflection"
+          href: /windows/win32/api/d3d12shader/nn-d3d12shader-id3d12functionreflection
+          items: 
+          - name: "GetConstantBufferByIndex"
+            href: /windows/win32/api/d3d12shader/nf-d3d12shader-id3d12functionreflection-getconstantbufferbyindex
+          - name: "GetConstantBufferByName"
+            href: /windows/win32/api/d3d12shader/nf-d3d12shader-id3d12functionreflection-getconstantbufferbyname
+          - name: "GetDesc"
+            href: /windows/win32/api/d3d12shader/nf-d3d12shader-id3d12functionreflection-getdesc
+          - name: "GetFunctionParameter"
+            href: /windows/win32/api/d3d12shader/nf-d3d12shader-id3d12functionreflection-getfunctionparameter
+          - name: "GetResourceBindingDesc"
+            href: /windows/win32/api/d3d12shader/nf-d3d12shader-id3d12functionreflection-getresourcebindingdesc
+          - name: "GetResourceBindingDescByName"
+            href: /windows/win32/api/d3d12shader/nf-d3d12shader-id3d12functionreflection-getresourcebindingdescbyname
+          - name: "GetVariableByName"
+            href: /windows/win32/api/d3d12shader/nf-d3d12shader-id3d12functionreflection-getvariablebyname
+        - name: "ID3D12LibraryReflection"
+          href: /windows/win32/api/d3d12shader/nn-d3d12shader-id3d12libraryreflection
+          items: 
+          - name: "GetDesc"
+            href: /windows/win32/api/d3d12shader/nf-d3d12shader-id3d12libraryreflection-getdesc
+          - name: "GetFunctionByIndex"
+            href: /windows/win32/api/d3d12shader/nf-d3d12shader-id3d12libraryreflection-getfunctionbyindex
+        - name: "ID3D12ShaderReflection"
+          href: /windows/win32/api/d3d12shader/nn-d3d12shader-id3d12shaderreflection
+          items: 
+          - name: "GetBitwiseInstructionCount"
+            href: /windows/win32/api/d3d12shader/nf-d3d12shader-id3d12shaderreflection-getbitwiseinstructioncount
+          - name: "GetConstantBufferByIndex"
+            href: /windows/win32/api/d3d12shader/nf-d3d12shader-id3d12shaderreflection-getconstantbufferbyindex
+          - name: "GetConstantBufferByName"
+            href: /windows/win32/api/d3d12shader/nf-d3d12shader-id3d12shaderreflection-getconstantbufferbyname
+          - name: "GetConversionInstructionCount"
+            href: /windows/win32/api/d3d12shader/nf-d3d12shader-id3d12shaderreflection-getconversioninstructioncount
+          - name: "GetDesc"
+            href: /windows/win32/api/d3d12shader/nf-d3d12shader-id3d12shaderreflection-getdesc
+          - name: "GetGSInputPrimitive"
+            href: /windows/win32/api/d3d12shader/nf-d3d12shader-id3d12shaderreflection-getgsinputprimitive
+          - name: "GetInputParameterDesc"
+            href: /windows/win32/api/d3d12shader/nf-d3d12shader-id3d12shaderreflection-getinputparameterdesc
+          - name: "GetMinFeatureLevel"
+            href: /windows/win32/api/d3d12shader/nf-d3d12shader-id3d12shaderreflection-getminfeaturelevel
+          - name: "GetMovcInstructionCount"
+            href: /windows/win32/api/d3d12shader/nf-d3d12shader-id3d12shaderreflection-getmovcinstructioncount
+          - name: "GetMovInstructionCount"
+            href: /windows/win32/api/d3d12shader/nf-d3d12shader-id3d12shaderreflection-getmovinstructioncount
+          - name: "GetNumInterfaceSlots"
+            href: /windows/win32/api/d3d12shader/nf-d3d12shader-id3d12shaderreflection-getnuminterfaceslots
+          - name: "GetOutputParameterDesc"
+            href: /windows/win32/api/d3d12shader/nf-d3d12shader-id3d12shaderreflection-getoutputparameterdesc
+          - name: "GetPatchConstantParameterDesc"
+            href: /windows/win32/api/d3d12shader/nf-d3d12shader-id3d12shaderreflection-getpatchconstantparameterdesc
+          - name: "GetRequiresFlags"
+            href: /windows/win32/api/d3d12shader/nf-d3d12shader-id3d12shaderreflection-getrequiresflags
+          - name: "GetResourceBindingDesc"
+            href: /windows/win32/api/d3d12shader/nf-d3d12shader-id3d12shaderreflection-getresourcebindingdesc
+          - name: "GetResourceBindingDescByName"
+            href: /windows/win32/api/d3d12shader/nf-d3d12shader-id3d12shaderreflection-getresourcebindingdescbyname
+          - name: "GetThreadGroupSize"
+            href: /windows/win32/api/d3d12shader/nf-d3d12shader-id3d12shaderreflection-getthreadgroupsize
+          - name: "GetVariableByName"
+            href: /windows/win32/api/d3d12shader/nf-d3d12shader-id3d12shaderreflection-getvariablebyname
+          - name: "IsSampleFrequencyShader"
+            href: /windows/win32/api/d3d12shader/nf-d3d12shader-id3d12shaderreflection-issamplefrequencyshader
+        - name: "ID3D12ShaderReflectionConstantBuffer"
+          href: /windows/win32/api/d3d12shader/nn-d3d12shader-id3d12shaderreflectionconstantbuffer
+          items: 
+          - name: "GetDesc"
+            href: /windows/win32/api/d3d12shader/nf-d3d12shader-id3d12shaderreflectionconstantbuffer-getdesc
+          - name: "GetVariableByIndex"
+            href: /windows/win32/api/d3d12shader/nf-d3d12shader-id3d12shaderreflectionconstantbuffer-getvariablebyindex
+          - name: "GetVariableByName"
+            href: /windows/win32/api/d3d12shader/nf-d3d12shader-id3d12shaderreflectionconstantbuffer-getvariablebyname
+        - name: "ID3D12ShaderReflectionType"
+          href: /windows/win32/api/d3d12shader/nn-d3d12shader-id3d12shaderreflectiontype
+          items: 
+          - name: "GetBaseClass"
+            href: /windows/win32/api/d3d12shader/nf-d3d12shader-id3d12shaderreflectiontype-getbaseclass
+          - name: "GetDesc"
+            href: /windows/win32/api/d3d12shader/nf-d3d12shader-id3d12shaderreflectiontype-getdesc
+          - name: "GetInterfaceByIndex"
+            href: /windows/win32/api/d3d12shader/nf-d3d12shader-id3d12shaderreflectiontype-getinterfacebyindex
+          - name: "GetMemberTypeByIndex"
+            href: /windows/win32/api/d3d12shader/nf-d3d12shader-id3d12shaderreflectiontype-getmembertypebyindex
+          - name: "GetMemberTypeByName"
+            href: /windows/win32/api/d3d12shader/nf-d3d12shader-id3d12shaderreflectiontype-getmembertypebyname
+          - name: "GetMemberTypeName"
+            href: /windows/win32/api/d3d12shader/nf-d3d12shader-id3d12shaderreflectiontype-getmembertypename
+          - name: "GetNumInterfaces"
+            href: /windows/win32/api/d3d12shader/nf-d3d12shader-id3d12shaderreflectiontype-getnuminterfaces
+          - name: "GetSubtype"
+            href: /windows/win32/api/d3d12shader/nf-d3d12shader-id3d12shaderreflectiontype-getsubtype
+          - name: "ImplementsInterface"
+            href: /windows/win32/api/d3d12shader/nf-d3d12shader-id3d12shaderreflectiontype-implementsinterface
+          - name: "IsEqual"
+            href: /windows/win32/api/d3d12shader/nf-d3d12shader-id3d12shaderreflectiontype-isequal
+          - name: "IsOfType"
+            href: /windows/win32/api/d3d12shader/nf-d3d12shader-id3d12shaderreflectiontype-isoftype
+        - name: "ID3D12ShaderReflectionVariable"
+          href: /windows/win32/api/d3d12shader/nn-d3d12shader-id3d12shaderreflectionvariable
+          items: 
+          - name: "GetBuffer"
+            href: /windows/win32/api/d3d12shader/nf-d3d12shader-id3d12shaderreflectionvariable-getbuffer
+          - name: "GetDesc"
+            href: /windows/win32/api/d3d12shader/nf-d3d12shader-id3d12shaderreflectionvariable-getdesc
+          - name: "GetInterfaceSlot"
+            href: /windows/win32/api/d3d12shader/nf-d3d12shader-id3d12shaderreflectionvariable-getinterfaceslot
+          - name: "GetType"
+            href: /windows/win32/api/d3d12shader/nf-d3d12shader-id3d12shaderreflectionvariable-gettype
+      - name: "Shader Structures"
+        href: d3d12-graphics-reference-shader-structures.md
+        items: 
+        - name: "D3D12_FUNCTION_DESC"
+          href: /windows/win32/api/d3d12shader/ns-d3d12shader-d3d12_function_desc
+        - name: "D3D12_LIBRARY_DESC"
+          href: /windows/win32/api/d3d12shader/ns-d3d12shader-d3d12_library_desc
+        - name: "D3D12_PARAMETER_DESC"
+          href: /windows/win32/api/d3d12shader/ns-d3d12shader-d3d12_parameter_desc
+        - name: "D3D12_SHADER_BUFFER_DESC"
+          href: /windows/win32/api/d3d12shader/ns-d3d12shader-d3d12_shader_buffer_desc
+        - name: "D3D12_SHADER_DESC"
+          href: /windows/win32/api/d3d12shader/ns-d3d12shader-d3d12_shader_desc
+        - name: "D3D12_SHADER_INPUT_BIND_DESC"
+          href: /windows/win32/api/d3d12shader/ns-d3d12shader-d3d12_shader_input_bind_desc
+        - name: "D3D12_SHADER_TYPE_DESC"
+          href: /windows/win32/api/d3d12shader/ns-d3d12shader-d3d12_shader_type_desc
+        - name: "D3D12_SHADER_VARIABLE_DESC"
+          href: /windows/win32/api/d3d12shader/ns-d3d12shader-d3d12_shader_variable_desc
+        - name: "D3D12_SIGNATURE_PARAMETER_DESC"
+          href: /windows/win32/api/d3d12shader/ns-d3d12shader-d3d12_signature_parameter_desc
+      - name: "Shader Enumerations"
+        href: d3d12-graphics-reference-shader-enums.md
+        items: 
+        - name: "D3D12_SHADER_VERSION_TYPE"
+          href: /windows/win32/api/d3d12shader/ne-d3d12shader-d3d12_shader_version_type
+    - name: "11on12 Reference"
+      href: direct3d-11on12-reference.md
+      items: 
+      - name: "11on12 Interfaces"
+        href: direct3d-11on12-interfaces.md
+        items: 
+        - name: "ID3D11On12Device"
+          href: /windows/win32/api/d3d11on12/nn-d3d11on12-id3d11on12device
+          items: 
+          - name: "AcquireWrappedResources"
+            href: /windows/win32/api/d3d11on12/nf-d3d11on12-id3d11on12device-acquirewrappedresources
+          - name: "CreateWrappedResource"
+            href: /windows/win32/api/d3d11on12/nf-d3d11on12-id3d11on12device-createwrappedresource
+          - name: "ReleaseWrappedResources"
+            href: /windows/win32/api/d3d11on12/nf-d3d11on12-id3d11on12device-releasewrappedresources
+        - name: "ID3D11On12Device1"
+          href: /windows/win32/api/d3d11on12/nn-d3d11on12-id3d11on12device1
+          items: 
+          - name: "GetD3D12Device"
+            href: /windows/win32/api/d3d11on12/nf-d3d11on12-id3d11on12device1-getd3d12device
+        - name: "ID3D11On12Device2"
+          href: /windows/win32/api/d3d11on12/nn-d3d11on12-id3d11on12device2
+          items: 
+          - name: "ReturnUnderlyingResource"
+            href: /windows/win32/api/d3d11on12/nf-d3d11on12-id3d11on12device2-returnunderlyingresource
+          - name: "UnwrapUnderlyingResource"
+            href: /windows/win32/api/d3d11on12/nf-d3d11on12-id3d11on12device2-unwrapunderlyingresource
+      - name: "11on12 Functions"
+        href: direct3d-11-on-12-functions-.md
+        items: 
+        - name: "D3D11On12CreateDevice"
+          href: /windows/win32/api/d3d11on12/nf-d3d11on12-d3d11on12createdevice
+      - name: "11on12 Structures"
+        href: direct3d-11on12-structures.md
+        items: 
+        - name: "D3D11_RESOURCE_FLAGS"
+          href: /windows/win32/api/d3d11on12/ns-d3d11on12-d3d11_resource_flags
+    - name: "DirectML reference"
+      href: /windows/ai/directml/directml-reference
+    - name: "Helper Structures and Functions for D3D12"
+      href: helper-structures-and-functions-for-d3d12.md
+      items: 
+      - name: "Helper Interfaces for D3D12"
+        href: helper-interfaces-for-d3d12.md
+        items: 
+        - name: "ID3DX12PipelineParserCallbacks"
+          href: id3dx12pipelineparsercallbacks.md
+          items: 
+          - name: "BlendStateCb"
+            href: id3dx12pipelineparsercallbacks-blendstatecb.md
+          - name: "CSCb"
+            href: id3dx12pipelineparsercallbacks-cscb.md
+          - name: "CachedPSOCb"
+            href: id3dx12pipelineparsercallbacks-cachedpsocb.md
+          - name: "DSCb"
+            href: id3dx12pipelineparsercallbacks-dscb.md
+          - name: "DSVFormatCb"
+            href: id3dx12pipelineparsercallbacks-dsvformatcb.md
+          - name: "DepthStencilStateCb"
+            href: id3dx12pipelineparsercallbacks-depthstencilstatecb.md
+          - name: "DepthStencilState1Cb"
+            href: id3dx12pipelineparsercallbacks-depthstencilstate1cb.md
+          - name: "ErrorBadInputParameter"
+            href: id3dx12pipelineparsercallbacks-errorbadinputparameter.md
+          - name: "ErrorDuplicateSubobject"
+            href: id3dx12pipelineparsercallbacks-errorduplicatesubobject.md
+          - name: "ErrorUnknownSubobject"
+            href: id3dx12pipelineparsercallbacks-errorunknownsubobject.md
+          - name: "FlagsCb"
+            href: id3dx12pipelineparsercallbacks-flagscb.md
+          - name: "GSCb"
+            href: id3dx12pipelineparsercallbacks-gscb.md
+          - name: "HSCb"
+            href: id3dx12pipelineparsercallbacks-hscb.md
+          - name: "IBStripCutValueCb"
+            href: id3dx12pipelineparsercallbacks-ibstripcutvaluecb.md
+          - name: "InputLayoutCb"
+            href: id3dx12pipelineparsercallbacks-inputlayoutcb.md
+          - name: "NodeMaskCb"
+            href: id3dx12pipelineparsercallbacks-nodemaskcb.md
+          - name: "PSCb"
+            href: id3dx12pipelineparsercallbacks-pscb.md
+          - name: "PrimitiveTopologyTypeCb"
+            href: id3dx12pipelineparsercallbacks-primitivetopologytypecb.md
+          - name: "RTVFormatsCb"
+            href: id3dx12pipelineparsercallbacks-rtvformatscb.md
+          - name: "RasterizerStateCb"
+            href: id3dx12pipelineparsercallbacks-rasterizerstatecb.md
+          - name: "RootSignatureCb"
+            href: id3dx12pipelineparsercallbacks-rootsignaturecb.md
+          - name: "SampleDescCb"
+            href: id3dx12pipelineparsercallbacks-sampledesccb.md
+          - name: "SampleMaskCb"
+            href: id3dx12pipelineparsercallbacks-samplemaskcb.md
+          - name: "StreamOutputCb"
+            href: id3dx12pipelineparsercallbacks-streamoutputcb.md
+          - name: "VSCb"
+            href: id3dx12pipelineparsercallbacks-vscb.md
+      - name: "Helper Structures for D3D12"
+        href: helper-structures-for-d3d12.md
+        items: 
+        - name: "CD3DX12_BLEND_DESC"
+          href: cd3dx12-blend-desc.md
+        - name: "CD3DX12_BOX"
+          href: cd3dx12-box.md
+        - name: "CD3DX12_CLEAR_VALUE"
+          href: cd3dx12-clear-value.md
+        - name: "CD3DX12_CPU_DESCRIPTOR_HANDLE"
+          href: cd3dx12-cpu-descriptor-handle.md
+        - name: "CD3DX12_DEFAULT"
+          href: cd3dx12-default.md
+        - name: "CD3DX12_DEPTH_STENCIL_DESC"
+          href: cd3dx12-depth-stencil-desc.md
+        - name: "CD3DX12_DEPTH_STENCIL_DESC1"
+          href: cd3dx12-depth-stencil-desc1.md
+        - name: "CD3DX12_DESCRIPTOR_RANGE"
+          href: cd3dx12-descriptor-range.md
+        - name: "CD3DX12_DESCRIPTOR_RANGE1"
+          href: cd3dx12-descriptor-range1.md
+        - name: "CD3DX12_DXIL_LIBRARY_SUBOBJECT"
+          href: cd3dx12-dxil-library-subobject.md
+        - name: "CD3DX12_DXIL_SUBOBJECT_TO_EXPORTS_ASSOCIATION"
+          href: cd3dx12-dxil-subobject-to-exports-association.md
+        - name: "CD3DX12_EXISTING_COLLECTION_SUBOBJECT"
+          href: cd3dx12-existing-collection-subobject.md
+        - name: "CD3DX12_GLOBAL_ROOT_SIGNATURE_SUBOBJECT"
+          href: cd3dx12-global-root-signature-subobject.md
+        - name: "CD3DX12_GPU_DESCRIPTOR_HANDLE"
+          href: cd3dx12-gpu-descriptor-handle.md
+        - name: "CD3DX12_HEAP_DESC"
+          href: cd3dx12-heap-desc.md
+        - name: "CD3DX12_HEAP_PROPERTIES"
+          href: cd3dx12-heap-properties.md
+        - name: "CD3DX12_HIT_GROUP_SUBOBJECT"
+          href: cd3dx12-hit-group-subobject.md
+        - name: "CD3DX12_LOCAL_ROOT_SIGNATURE_SUBOBJECT"
+          href: cd3dx12-local-root-signature-subobject.md
+        - name: "CD3DX12_NODE_MASK_SUBOBJECT"
+          href: cd3dx12-node-mask-subobject.md
+        - name: "CD3DX12_PACKED_MIP_INFO"
+          href: cd3dx12-packed-mip-info.md
+        - name: "CD3DX12_PIPELINE_STATE_STREAM"
+          href: cd3dx12-pipeline-state-stream.md
+        - name: "CD3DX12_PIPELINE_STATE_STREAM1"
+          href: cd3dx12-pipeline-state-stream1.md
+        - name: "CD3DX12_PIPELINE_STATE_STREAM2"
+          href: cd3dx12-pipeline-state-stream2.md
+        - name: "CD3DX12_PIPELINE_STATE_STREAM_BLEND_DESC"
+          href: cd3dx12-pipeline-state-stream-blend-desc.md
+        - name: "CD3DX12_PIPELINE_STATE_STREAM_CACHED_PSO"
+          href: cd3dx12-pipeline-state-stream-cached-pso.md
+        - name: "CD3DX12_PIPELINE_STATE_STREAM_CS"
+          href: cd3dx12-pipeline-state-stream-cs.md
+        - name: "CD3DX12_PIPELINE_STATE_STREAM_DEPTH_STENCIL"
+          href: cd3dx12-pipeline-state-stream-depth-stencil.md
+        - name: "CD3DX12_PIPELINE_STATE_STREAM_DEPTH_STENCIL1"
+          href: cd3dx12-pipeline-state-stream-depth-stencil1.md
+        - name: "CD3DX12_PIPELINE_STATE_STREAM_DEPTH_STENCIL_FORMAT"
+          href: cd3dx12-pipeline-state-stream-depth-stencil-format.md
+        - name: "CD3DX12_PIPELINE_STATE_STREAM_DS"
+          href: cd3dx12-pipeline-state-stream-ds.md
+        - name: "CD3DX12_PIPELINE_STATE_STREAM_FLAGS"
+          href: cd3dx12-pipeline-state-stream-flags.md
+        - name: "CD3DX12_PIPELINE_STATE_STREAM_GS"
+          href: cd3dx12-pipeline-state-stream-gs.md
+        - name: "CD3DX12_PIPELINE_STATE_STREAM_HS"
+          href: cd3dx12-pipeline-state-stream-hs.md
+        - name: "CD3DX12_PIPELINE_STATE_STREAM_IB_STRIP_CUT_VALUE"
+          href: cd3dx12-pipeline-state-stream-ib-strip-cut-value.md
+        - name: "CD3DX12_PIPELINE_STATE_STREAM_INPUT_LAYOUT"
+          href: cd3dx12-pipeline-state-stream-input-layout.md
+        - name: "CD3DX12_PIPELINE_STATE_STREAM_NODE_MASK"
+          href: cd3dx12-pipeline-state-stream-node-mask.md
+        - name: "CD3DX12_PIPELINE_STATE_STREAM_PARSE_HELPER"
+          href: cd3dx12-pipeline-state-stream-parse-helper.md
+        - name: "CD3DX12_PIPELINE_STATE_STREAM_PRIMITIVE_TOPOLOGY"
+          href: cd3dx12-pipeline-state-stream-primitive-topology.md
+        - name: "CD3DX12_PIPELINE_STATE_STREAM_PS"
+          href: cd3dx12-pipeline-state-stream-ps.md
+        - name: "CD3DX12_PIPELINE_STATE_STREAM_RASTERIZER"
+          href: cd3dx12-pipeline-state-stream-rasterizer.md
+        - name: "CD3DX12_PIPELINE_STATE_STREAM_RENDER_TARGET_FORMATS"
+          href: cd3dx12-pipeline-state-stream-render-target-formats.md
+        - name: "CD3DX12_PIPELINE_STATE_STREAM_ROOT_SIGNATURE"
+          href: cd3dx12-pipeline-state-stream-root-signature.md
+        - name: "CD3DX12_PIPELINE_STATE_STREAM_SAMPLE_DESC"
+          href: cd3dx12-pipeline-state-stream-sample-desc.md
+        - name: "CD3DX12_PIPELINE_STATE_STREAM_SAMPLE_MASK"
+          href: cd3dx12-pipeline-state-stream-sample-mask.md
+        - name: "CD3DX12_PIPELINE_STATE_STREAM_STREAM_OUTPUT"
+          href: cd3dx12-pipeline-state-stream-stream-output.md
+        - name: "CD3DX12_PIPELINE_STATE_STREAM_SUBOBJECT"
+          href: cd3dx12-pipeline-state-stream-subobject.md
+        - name: "CD3DX12_PIPELINE_STATE_STREAM_VIEW_INSTANCING"
+          href: cd3dx12-pipeline-state-stream-view-instancing.md
+        - name: "CD3DX12_PIPELINE_STATE_STREAM_VS"
+          href: cd3dx12-pipeline-state-stream-vs.md
+        - name: "CD3DX12_RANGE"
+          href: cd3dx12-range.md
+        - name: "CD3DX12_RANGE_UINT64"
+          href: cd3dx12-range-uint64.md
+        - name: "CD3DX12_RASTERIZER_DESC"
+          href: cd3dx12-rasterizer-desc.md
+        - name: "CD3DX12_RAYTRACING_PIPELINE_CONFIG_SUBOBJECT"
+          href: cd3dx12-raytracing-pipeline-config-subobject.md
+        - name: "CD3DX12_RAYTRACING_PIPELINE_CONFIG1_SUBOBJECT"
+          href: cd3dx12-raytracing-pipeline-config1-subobject.md
+        - name: "CD3DX12_RAYTRACING_SHADER_CONFIG_SUBOBJECT"
+          href: cd3dx12-raytracing-shader-config-subobject.md
+        - name: "CD3DX12_RECT"
+          href: cd3dx12-rect.md
+        - name: "CD3DX12_RESOURCE_ALLOCATION_INFO"
+          href: cd3dx12-resource-allocation-info.md
+        - name: "CD3DX12_RESOURCE_BARRIER"
+          href: cd3dx12-resource-barrier.md
+        - name: "CD3DX12_RESOURCE_DESC"
+          href: cd3dx12-resource-desc.md
+        - name: "CD3DX12_RESOURCE_DESC1"
+          href: cd3dx12-resource-desc1.md
+        - name: "CD3DX12_ROOT_CONSTANTS"
+          href: cd3dx12-root-constants.md
+        - name: "CD3DX12_ROOT_DESCRIPTOR"
+          href: cd3dx12-root-descriptor.md
+        - name: "CD3DX12_ROOT_DESCRIPTOR1"
+          href: cd3dx12-root-descriptor1.md
+        - name: "CD3DX12_ROOT_DESCRIPTOR_TABLE"
+          href: cd3dx12-root-descriptor-table.md
+        - name: "CD3DX12_ROOT_DESCRIPTOR_TABLE1"
+          href: cd3dx12-root-descriptor-table1.md
+        - name: "CD3DX12_ROOT_PARAMETER"
+          href: cd3dx12-root-parameter.md
+        - name: "CD3DX12_ROOT_PARAMETER1"
+          href: cd3dx12-root-parameter1.md
+        - name: "CD3DX12_ROOT_SIGNATURE_DESC"
+          href: cd3dx12-root-signature-desc.md
+        - name: "CD3DX12_RT_FORMAT_ARRAY"
+          href: cd3dx12-rt-format-array.md
+        - name: "CD3DX12_SHADER_BYTECODE"
+          href: cd3dx12-shader-bytecode.md
+        - name: "CD3DX12_STATE_OBJECT_CONFIG_SUBOBJECT"
+          href: cd3dx12-state-object-config-subobject.md
+        - name: "CD3DX12_STATE_OBJECT_DESC"
+          href: cd3dx12-state-object-desc.md
+        - name: "CD3DX12_STATIC_SAMPLER_DESC"
+          href: cd3dx12-static-sampler-desc.md
+        - name: "CD3DX12_SUBOBJECT_TO_EXPORTS_ASSOCIATION_SUBOBJECT"
+          href: cd3dx12-subobject-to-exports-association-subobject.md
+        - name: "CD3DX12_SUBRESOURCE_FOOTPRINT"
+          href: cd3dx12-subresource-footprint.md
+        - name: "CD3DX12_SUBRESOURCE_RANGE_UINT64"
+          href: cd3dx12-subresource-range-uint64.md
+        - name: "CD3DX12_SUBRESOURCE_TILING"
+          href: cd3dx12-subresource-tiling.md
+        - name: "CD3DX12_TEXTURE_COPY_LOCATION"
+          href: cd3dx12-texture-copy-location.md
+        - name: "CD3DX12_TILE_REGION_SIZE"
+          href: cd3dx12-tile-region-size.md
+        - name: "CD3DX12_TILE_SHAPE"
+          href: cd3dx12-tile-shape.md
+        - name: "CD3DX12_TILED_RESOURCE_COORDINATE"
+          href: cd3dx12-tiled-resource-coordinate.md
+        - name: "CD3DX12_VERSIONED_ROOT_SIGNATURE_DESC"
+          href: cd3dx12-versioned-root-signature-desc.md
+        - name: "CD3DX12_VIEW_INSTANCING_DESC"
+          href: cd3dx12-view-instancing-desc.md
+        - name: "CD3DX12_VIEWPORT"
+          href: cd3dx12-viewport.md
+        - name: "D3DX12_MESH_SHADER_PIPELINE_STATE_DESC"
+          href: d3dx12-mesh-shader-pipeline-state-desc.md
+      - name: "Helper Functions for D3D12"
+        href: helper-functions-for-d3d12.md
+        items: 
+        - name: "CommandListCast"
+          href: commandlistcast.md
+        - name: "D3D12CalcSubresource"
+          href: d3d12calcsubresource.md
+        - name: "D3D12DecomposeSubresource"
+          href: d3d12decomposesubresource.md
+        - name: "D3D12GetFormatPlaneCount"
+          href: d3d12getformatplanecount.md
+        - name: "D3D12IsLayoutOpaque"
+          href: d3d12islayoutopaque.md
+        - name: "D3DX12GetBaseSubobjectType"
+          href: d3dx12getbasesubobjecttype.md
+        - name: "D3DX12ParsePipelineStateStream"
+          href: d3dx12parsepipelinestream.md
+        - name: "D3DX12SerializeVersionedRootSignature"
+          href: d3dx12serializeversionedrootsignature.md
+        - name: "GetRequiredIntermediateSize"
+          href: getrequiredintermediatesize.md
+        - name: "Memcpysubresource"
+          href: memcpysubresource.md
+        - name: "Updatesubresources"
+          href: updatesubresources1.md
+        - name: "Updatesubresources (heap-allocating)"
+          href: updatesubresources2.md
+        - name: "Updatesubresources (stack-allocating)"
+          href: updatesubresources3.md
+    - name: "Direct3D 12 Return Codes"
+      href: d3d12-graphics-reference-returnvalues.md
+    - name: "Direct3D 12 Raytracing"
+      href: direct3d-12-raytracing.md
+      items: 
+      - name: "Direct3D 12 Raytracing HLSL Reference"
+        href: direct3d-12-raytracing-hlsl-reference.md
+        items: 
+        - name: "Direct3D 12 Raytracing HLSL Enumerations"
+          href: direct3d-12-raytracing-hlsl-enumerations.md
+          items: 
+          - name: "RAY_FLAG"
+            href: ray_flag.md
+        - name: "Direct3D 12 Raytracing HLSL Intrinsics"
+          href: direct3d-12-raytracing-hlsl-intrinsics.md
+          items: 
+          - name: "AcceptHitAndEndSearch function"
+            href: accepthitandendsearch-function.md
+          - name: "CallShader function"
+            href: callshader-function.md
+          - name: "IgnoreHit function"
+            href: ignorehit-function.md
+          - name: "ReportHit function"
+            href: reporthit-function.md
+          - name: "TraceRay function"
+            href: traceray-function.md
+        - name: "Direct3D 12 Raytracing HLSL Resource Types"
+          href: direct3d-12-raytracing-hlsl-resource-types.md
+          items: 
+          - name: "RaytracingAccelerationStructure"
+            href: raytracingaccelerationstructure.md
+        - name: "Direct3D 12 Raytracing HLSL Shaders"
+          href: direct3d-12-raytracing-hlsl-shaders.md
+          items: 
+          - name: "Any Hit Shader"
+            href: any-hit-shader.md
+          - name: "Callable Shader"
+            href: callable-shader.md
+          - name: "Closest Hit Shader"
+            href: closest-hit-shader.md
+          - name: "Intersection Shader"
+            href: intersection-shader.md
+          - name: "Miss Shader"
+            href: miss-shader.md
+          - name: "Ray Generation Shader"
+            href: ray-generation-shader.md
+        - name: "Direct3D 12 Raytracing HLSL Structures"
+          href: direct3d-12-raytracing-hlsl-structures.md
+          items: 
+          - name: "Call Parameter Structure"
+            href: call-parameter-structure.md
+          - name: "Intersection Attributes Structure"
+            href: intersection-attributes.md
+          - name: "Ray Payload Structure"
+            href: ray-payload.md
+          - name: "RayDesc Structure"
+            href: raydesc.md
+        - name: "Direct3D 12 raytracing HLSL system value intrinsics"
+          href: direct3d-12-raytracing-hlsl-system-value-intrinsics.md
+    - name: "Direct3D 12 On Windows 7"
+      href: direct3d-12on7-reference.md
+      items:
+      - name: "Direct3D 12 On Windows 7 interfaces"
+        href: direct3d-12on7-interfaces.md
+        items:
+        - name: "ID3D12CommandQueueDownlevel"
+          href: id3d12commandqueuedownlevel.md
+          items:
+          - name: "ID3D12CommandQueueDownlevel::Present"
+            href: id3d12commandqueuedownlevel-present.md
+        - name: "ID3D12DeviceDownlevel"
+          href: id3d12devicedownlevel.md
+          items:
+          - name: "ID3D12DeviceDownlevel::QueryVideoMemoryInfo"
+            href: id3d12devicedownlevel-queryvideomemoryinfo.md
+      - name: "Direct3D 12 On Windows 7 enumerations"
+        href: direct3d-12on7-enumerations.md
+        items:
+        - name: "D3D12_DOWNLEVEL_PRESENT_FLAGS"
+          href: d3d12_downlevel_present_flags.md
+    - name: "Direct3D 12 on Windows Mixed Reality"
+      href: /windows/win32/api/windows.graphics.holographic.interop
+      items: 
+      - name: "IHolographicCameraInterop"
+        href: /windows/win32/api/windows.graphics.holographic.interop/nn-windows-graphics-holographic-interop-iholographiccamerainterop
+        items: 
+        - name: "AcquireDirect3D12BufferResource"
+          href: /windows/win32/api/windows.graphics.holographic.interop/nf-windows-graphics-holographic-interop-iholographiccamerainterop-acquiredirect3d12bufferresource
+        - name: "AcquireDirect3D12BufferResourceWithTimeout"
+          href: /windows/win32/api/windows.graphics.holographic.interop/nf-windows-graphics-holographic-interop-iholographiccamerainterop-acquiredirect3d12bufferresourcewithtimeout
+        - name: "CreateDirect3D12BackBufferResource"
+          href: /windows/win32/api/windows.graphics.holographic.interop/nf-windows-graphics-holographic-interop-iholographiccamerainterop-createdirect3d12backbufferresource
+        - name: "CreateDirect3D12HardwareProtectedBackBufferResource"
+          href: /windows/win32/api/windows.graphics.holographic.interop/nf-windows-graphics-holographic-interop-iholographiccamerainterop-createdirect3d12hardwareprotectedbackbufferresource
+        - name: "UnacquireDirect3D12BufferResource"
+          href: /windows/win32/api/windows.graphics.holographic.interop/nf-windows-graphics-holographic-interop-iholographiccamerainterop-unacquiredirect3d12bufferresource
+      - name: "IHolographicCameraRenderingParametersInterop"
+        href: /windows/win32/api/windows.graphics.holographic.interop/nn-windows-graphics-holographic-interop-iholographiccamerarenderingparametersinterop
+        items: 
+        - name: "CommitDirect3D12Resource"
+          href: /windows/win32/api/windows.graphics.holographic.interop/nf-windows-graphics-holographic-interop-iholographiccamerarenderingparametersinterop-commitdirect3d12resource
+        - name: "CommitDirect3D12ResourceWithDepthData"
+          href: /windows/win32/api/windows.graphics.holographic.interop/nf-windows-graphics-holographic-interop-iholographiccamerarenderingparametersinterop-commitdirect3d12resourcewithdepthdata
+      - name: "IHolographicQuadLayerInterop"
+        href: /windows/win32/api/windows.graphics.holographic.interop/nn-windows-graphics-holographic-interop-iholographicquadlayerinterop
+        items: 
+        - name: "AcquireDirect3D12BufferResource"
+          href: /windows/win32/api/windows.graphics.holographic.interop/nf-windows-graphics-holographic-interop-iholographicquadlayerinterop-acquiredirect3d12bufferresource
+        - name: "AcquireDirect3D12BufferResourceWithTimeout"
+          href: /windows/win32/api/windows.graphics.holographic.interop/nf-windows-graphics-holographic-interop-iholographicquadlayerinterop-acquiredirect3d12bufferresourcewithtimeout
+        - name: "CreateDirect3D12ContentBufferResource"
+          href: /windows/win32/api/windows.graphics.holographic.interop/nf-windows-graphics-holographic-interop-iholographicquadlayerinterop-createdirect3d12contentbufferresource
+        - name: "CreateDirect3D12HardwareProtectedContentBufferResource"
+          href: /windows/win32/api/windows.graphics.holographic.interop/nf-windows-graphics-holographic-interop-iholographicquadlayerinterop-createdirect3d12hardwareprotectedcontentbufferresource
+        - name: "UnacquireDirect3D12BufferResource"
+          href: /windows/win32/api/windows.graphics.holographic.interop/nf-windows-graphics-holographic-interop-iholographicquadlayerinterop-unacquiredirect3d12bufferresource
+      - name: "IHologIHolographicQuadLayerUpdateParametersInteropraphicQuadLayerInterop"
+        href: /windows/win32/api/windows.graphics.holographic.interop/nn-windows-graphics-holographic-interop-iholographicquadlayerupdateparametersinterop
+        items: 
+        - name: "CommitDirect3D12Resource"
+          href: /windows/win32/api/windows.graphics.holographic.interop/nf-windows-graphics-holographic-interop-iholographicquadlayerupdateparametersinterop-commitdirect3d12resource
+  - name: "Direct3D 12 Glossary"
+    href: directx-12-glossary.md

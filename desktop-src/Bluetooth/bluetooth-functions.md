@@ -1,0 +1,61 @@
+---
+title: Bluetooth Functions
+description: The functions in this section are used for managing Bluetooth devices and services.
+ms.assetid: 5cd4a050-51f3-40f4-b434-be639e109f0f
+keywords:
+- Bluetooth, reference, functions
+ms.topic: article
+ms.date: 05/31/2018
+---
+
+# Bluetooth Functions
+
+The functions in this section are used for managing Bluetooth devices and services.
+
+Bluetooth is also supported by using the Windows Sockets programming interface. For more information about programming Bluetooth by using the Windows Sockets interface, see [Windows Sockets Support for Bluetooth](windows-sockets-support-for-bluetooth.md).
+
+
+
+| Section                                                                                | Content                                                                                                                                                                                       |
+|----------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [**BluetoothAuthenticateDevice**](/windows/desktop/api/BluetoothAPIs/nf-bluetoothapis-bluetoothauthenticatedevice)                     | Sends an authentication request to a remote Bluetooth device.                                                                                                                                 |
+| [**BluetoothAuthenticateDeviceEx**](/windows/desktop/api/BluetoothAPIs/nf-bluetoothapis-bluetoothauthenticatedeviceex)                 | Sends an authentication request to a remote Bluetooth device. Additionally, this function allows for out-of-band data to be passed into the function call for the device being authenticated. |
+| [**BluetoothAuthenticateMultipleDevices**](/windows/desktop/api/BluetoothAPIs/nf-bluetoothapis-bluetoothauthenticatemultipledevices)   | Enables the caller to prompt for multiple devices to be authenticated during a single instance of the Bluetooth Connection Wizard.                                                            |
+| [**BluetoothDisplayDeviceProperties**](/windows/desktop/api/BluetoothAPIs/nf-bluetoothapis-bluetoothdisplaydeviceproperties)           | Invokes the Control Panel device information property sheet.                                                                                                                                  |
+| [**BluetoothEnableDiscovery**](/windows/desktop/api/BluetoothAPIs/nf-bluetoothapis-bluetoothenablediscovery)                           | Changes the discovery state of a local Bluetooth radio or radios.                                                                                                                             |
+| [**BluetoothEnableIncomingConnections**](/windows/desktop/api/BluetoothAPIs/nf-bluetoothapis-bluetoothenableincomingconnections)       | Modifies whether a local Bluetooth radio accepts incoming connections.                                                                                                                        |
+| [**BluetoothEnumerateInstalledServices**](/windows/desktop/api/BluetoothAPIs/nf-bluetoothapis-bluetoothenumerateinstalledservices)     | Enumerates the GUIDs (globally unique identifiers) of the services that are enabled on a Bluetooth device.                                                                                    |
+| [**BluetoothFindDeviceClose**](/windows/desktop/api/BluetoothAPIs/nf-bluetoothapis-bluetoothfinddeviceclose)                           | Closes an enumeration handle that is associated with a device query.                                                                                                                          |
+| [**BluetoothFindFirstDevice**](/windows/desktop/api/BluetoothAPIs/nf-bluetoothapis-bluetoothfindfirstdevice)                           | Begins the enumeration of local Bluetooth devices.                                                                                                                                            |
+| [**BluetoothFindFirstRadio**](/windows/desktop/api/BluetoothAPIs/nf-bluetoothapis-bluetoothfindfirstradio)                             | Begins the enumeration of local Bluetooth radios.                                                                                                                                             |
+| [**BluetoothFindNextDevice**](/windows/desktop/api/BluetoothAPIs/nf-bluetoothapis-bluetoothfindnextdevice)                             | Finds the next Bluetooth device.                                                                                                                                                              |
+| [**BluetoothFindNextRadio**](/windows/desktop/api/BluetoothAPIs/nf-bluetoothapis-bluetoothfindnextradio)                               | Finds the next Bluetooth radio.                                                                                                                                                               |
+| [**BluetoothFindRadioClose**](/windows/desktop/api/BluetoothAPIs/nf-bluetoothapis-bluetoothfindradioclose)                             | Closes the enumeration handle that is associated with finding Bluetooth radios.                                                                                                               |
+| [**BluetoothGetDeviceInfo**](/windows/desktop/api/BluetoothAPIs/nf-bluetoothapis-bluetoothgetdeviceinfo)                               | Retrieves information about a remote Bluetooth device. The Bluetooth device must have been previously identified through a successful device inquiry function call.                           |
+| [**BluetoothGetRadioInfo**](/windows/desktop/api/BluetoothAPIs/nf-bluetoothapis-bluetoothgetradioinfo)                                 | Obtains information about a Bluetooth radio.                                                                                                                                                  |
+| [**BluetoothIsConnectable**](/windows/desktop/api/BluetoothAPIs/nf-bluetoothapis-bluetoothisconnectable)                               | Determines whether a Bluetooth radio or radios is connectable.                                                                                                                                |
+| [**BluetoothIsDiscoverable**](/windows/desktop/api/BluetoothAPIs/nf-bluetoothapis-bluetoothisdiscoverable)                             | Determines whether a Bluetooth radio or radios is discoverable.                                                                                                                               |
+| [**BluetoothRegisterForAuthentication**](/windows/desktop/api/BluetoothAPIs/nf-bluetoothapis-bluetoothregisterforauthentication)       | Registers a callback function that is called when a particular Bluetooth device requests authentication.                                                                                      |
+| [**BluetoothRegisterForAuthenticationEx**](/windows/desktop/api/BluetoothAPIs/nf-bluetoothapis-bluetoothregisterforauthenticationex)   | Registers an application for a pin request, numeric comparison and callback function.                                                                                                         |
+| [**BluetoothRemoveDevice**](/windows/desktop/api/BluetoothAPIs/nf-bluetoothapis-bluetoothremovedevice)                                 | Removes authentication between a Bluetooth device and the computer, purging any cached information about the device.                                                                          |
+| [**BluetoothSdpEnumAttributes**](/windows/desktop/api/BluetoothAPIs/nf-bluetoothapis-bluetoothsdpenumattributes)                       | Enumerates through the SDP record stream and calls the callback function for each attribute in the record.                                                                                    |
+| [**BluetoothSdpGetAttributeValue**](/windows/desktop/api/BluetoothAPIs/nf-bluetoothapis-bluetoothsdpgetattributevalue)                 | Retrieves the attribute value for an attribute identifier.                                                                                                                                    |
+| [**BluetoothSdpGetContainerElementData**](/windows/desktop/api/BluetoothAPIs/nf-bluetoothapis-bluetoothsdpgetcontainerelementdata)     | Iterates over a container stream and returns each element that is contained within the container element.                                                                                     |
+| [**BluetoothSdpGetElementData**](/windows/desktop/api/BluetoothAPIs/nf-bluetoothapis-bluetoothsdpgetelementdata)                       | Retrieves and parses a single element from an SDP stream.                                                                                                                                     |
+| [**BluetoothSdpGetString**](/windows/desktop/api/BluetoothAPIs/nf-bluetoothapis-bluetoothsdpgetstring)                                 | Converts a raw string that is embedded in the SDP record into a Unicode string.                                                                                                               |
+| [**BluetoothSelectDevices**](/windows/desktop/api/BluetoothAPIs/nf-bluetoothapis-bluetoothselectdevices)                               | Enables Bluetooth device selection.                                                                                                                                                           |
+| [**BluetoothSelectDevicesFree**](/windows/desktop/api/BluetoothAPIs/nf-bluetoothapis-bluetoothselectdevicesfree)                       | Frees resources associated with a previous call to the [**BluetoothSelectDevices**](/windows/desktop/api/BluetoothAPIs/nf-bluetoothapis-bluetoothselectdevices) function.                                                                     |
+| [**BluetoothSendAuthenticationResponse**](/windows/desktop/api/BluetoothAPIs/nf-bluetoothapis-bluetoothsendauthenticationresponse)     | Called when an authentication request to send the passkey response is received.                                                                                                               |
+| [**BluetoothSendAuthenticationResponseEx**](/windows/desktop/api/BluetoothAPIs/nf-bluetoothapis-bluetoothsendauthenticationresponseex) | Called when an authentication request to send the passkey or numeric comparison response is received.                                                                                         |
+| [**BluetoothSetLocalServiceInfo**](/previous-versions/windows/desktop/legacy/bb870603(v=vs.85))                   | Sets local service information for a specific Bluetooth radio.                                                                                                                                |
+| [**BluetoothSetServiceState**](/windows/desktop/api/BluetoothAPIs/nf-bluetoothapis-bluetoothsetservicestate)                           | Enables or disables services for a Bluetooth device.                                                                                                                                          |
+| [**BluetoothUnregisterAuthentication**](/windows/desktop/api/BluetoothAPIs/nf-bluetoothapis-bluetoothunregisterauthentication)         | Removes registration for a callback routine that was previously registered with a call to the [**BluetoothRegisterForAuthentication**](/windows/desktop/api/BluetoothAPIs/nf-bluetoothapis-bluetoothregisterforauthentication) function.      |
+| [**BluetoothUpdateDeviceRecord**](/windows/desktop/api/BluetoothAPIs/nf-bluetoothapis-bluetoothupdatedevicerecord)                     | Updates the local computer cache about a Bluetooth device.                                                                                                                                    |
+
+
+
+ 
+
+ 
+
+ 

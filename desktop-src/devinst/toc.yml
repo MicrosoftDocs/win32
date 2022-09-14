@@ -1,0 +1,601 @@
+- name: "Device and Driver Installation Reference"
+  href: device-and-driver-installation-reference.md
+  items: 
+  - name: "Device and Driver Installation Reference in SDK header files"
+    href: device-installation-for-applications.md
+    items: 
+    - name: "Cfg.h"
+      href: cfg-h.md
+      items: 
+      - name: "PNP_VETO_TYPE"
+        href: /windows/win32/api/cfg/ne-cfg-pnp_veto_type
+    - name: "Cfgmgr32.h"
+      href: cfgmgr32-h.md
+      items: 
+      - name: "BUSNUMBER_DES"
+        href: /windows/desktop/api/cfgmgr32/ns-cfgmgr32-busnumber_des
+      - name: "BUSNUMBER_RANGE"
+        href: /windows/desktop/api/cfgmgr32/ns-cfgmgr32-busnumber_range
+      - name: "BUSNUMBER_RESOURCE"
+        href: /windows/desktop/api/cfgmgr32/ns-cfgmgr32-busnumber_resource
+      - name: "CM_Add_Empty_Log_Conf"
+        href: /windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_add_empty_log_conf
+      - name: "CM_Add_Empty_Log_Conf_Ex"
+        href: /windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_add_empty_log_conf_ex
+      - name: "CM_Add_ID"
+        href: /windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_add_idw
+      - name: "CM_Add_ID_Ex"
+        href: /windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_add_id_exw
+      - name: "CM_Add_Res_Des"
+        href: /windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_add_res_des
+      - name: "CM_Add_Res_Des_Ex"
+        href: /windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_add_res_des_ex
+      - name: "CM_Connect_Machine"
+        href: /windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_connect_machinew
+      - name: "CM_Delete_Class_Key"
+        href: /windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_delete_class_key
+      - name: "CM_Delete_Device_Interface_Key"
+        href: /windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_delete_device_interface_keyw
+      - name: "CM_Delete_Device_Interface_Key_ExA"
+        href: /windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_delete_device_interface_key_exa
+      - name: "CM_Delete_Device_Interface_Key_ExW"
+        href: /windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_delete_device_interface_key_exw
+      - name: "CM_Delete_DevNode_Key"
+        href: /windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_delete_devnode_key
+      - name: "CM_Disable_DevNode"
+        href: /windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_disable_devnode
+      - name: "CM_Disconnect_Machine"
+        href: /windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_disconnect_machine
+      - name: "CM_Enable_DevNode"
+        href: /windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_enable_devnode
+      - name: "CM_Enumerate_Classes"
+        href: /windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_enumerate_classes
+      - name: "CM_Enumerate_Classes_Ex"
+        href: /windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_enumerate_classes_ex
+      - name: "CM_Enumerate_Enumerators"
+        href: /windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_enumerate_enumeratorsw
+      - name: "CM_Enumerate_Enumerators_Ex"
+        href: /windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_enumerate_enumerators_exw
+      - name: "CM_Free_Log_Conf"
+        href: /windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_free_log_conf
+      - name: "CM_Free_Log_Conf_Ex"
+        href: /windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_free_log_conf_ex
+      - name: "CM_Free_Log_Conf_Handle"
+        href: /windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_free_log_conf_handle
+      - name: "CM_Free_Res_Des"
+        href: /windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_free_res_des
+      - name: "CM_Free_Res_Des_Ex"
+        href: /windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_free_res_des_ex
+      - name: "CM_Free_Res_Des_Handle"
+        href: /windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_free_res_des_handle
+      - name: "CM_Free_Resource_Conflict_Handle"
+        href: /windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_free_resource_conflict_handle
+      - name: "CM_Get_Child"
+        href: /windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_child
+      - name: "CM_Get_Child_Ex"
+        href: /windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_child_ex
+      - name: "CM_Get_Class_Property"
+        href: /windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_class_propertyw
+      - name: "CM_Get_Class_Property_ExW"
+        href: /windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_class_property_exw
+      - name: "CM_Get_Class_Property_Keys"
+        href: /windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_class_property_keys
+      - name: "CM_Get_Class_Property_Keys_Ex"
+        href: /windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_class_property_keys_ex
+      - name: "CM_Get_Class_Registry_Property"
+        href: /windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_class_registry_propertyw
+      - name: "CM_Get_Depth"
+        href: /windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_depth
+      - name: "CM_Get_Depth_Ex"
+        href: /windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_depth_ex
+      - name: "CM_Get_Device_ID"
+        href: /windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_device_idw
+      - name: "CM_Get_Device_ID_Ex"
+        href: /windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_device_id_exw
+      - name: "CM_Get_Device_ID_List"
+        href: /windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_device_id_lista
+      - name: "CM_Get_Device_ID_List_Ex"
+        href: /windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_device_id_list_exw
+      - name: "CM_Get_Device_ID_List_Size"
+        href: /windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_device_id_list_sizea
+      - name: "CM_Get_Device_ID_List_Size_Ex"
+        href: /windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_device_id_list_size_exw
+      - name: "CM_Get_Device_ID_Size"
+        href: /windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_device_id_size
+      - name: "CM_Get_Device_ID_Size_Ex"
+        href: /windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_device_id_size_ex
+      - name: "CM_Get_Device_Interface_Alias"
+        href: /windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_device_interface_aliasw
+      - name: "CM_Get_Device_Interface_List"
+        href: /windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_device_interface_lista
+      - name: "CM_Get_Device_Interface_List_Size"
+        href: /windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_device_interface_list_sizea
+      - name: "CM_Get_Device_Interface_Property"
+        href: /windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_device_interface_propertyw
+      - name: "CM_Get_Device_Interface_Property_ExW"
+        href: /windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_device_interface_property_exw
+      - name: "CM_Get_Device_Interface_Property_Keys"
+        href: /windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_device_interface_property_keysw
+      - name: "CM_Get_Device_Interface_Property_Keys_ExW"
+        href: /windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_device_interface_property_keys_exw
+      - name: "CM_Get_DevNode_Property"
+        href: /windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_devnode_propertyw
+      - name: "CM_Get_DevNode_Property_ExW"
+        href: /windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_devnode_property_exw
+      - name: "CM_Get_DevNode_Property_Keys"
+        href: /windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_devnode_property_keys
+      - name: "CM_Get_DevNode_Property_Keys_Ex"
+        href: /windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_devnode_property_keys_ex
+      - name: "CM_Get_DevNode_Registry_Property"
+        href: /windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_devnode_registry_propertyw
+      - name: "CM_Get_DevNode_Status"
+        href: /windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_devnode_status
+      - name: "CM_Get_DevNode_Status_Ex"
+        href: /windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_devnode_status_ex
+      - name: "CM_Get_First_Log_Conf"
+        href: /windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_first_log_conf
+      - name: "CM_Get_First_Log_Conf_Ex"
+        href: /windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_first_log_conf_ex
+      - name: "CM_Get_HW_Prof_Flags"
+        href: /windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_hw_prof_flagsa
+      - name: "CM_Get_HW_Prof_Flags_Ex"
+        href: /windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_hw_prof_flags_exa
+      - name: "CM_Get_Log_Conf_Priority"
+        href: /windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_log_conf_priority
+      - name: "CM_Get_Log_Conf_Priority_Ex"
+        href: /windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_log_conf_priority_ex
+      - name: "CM_Get_Next_Log_Conf"
+        href: /windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_next_log_conf
+      - name: "CM_Get_Next_Log_Conf_Ex"
+        href: /windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_next_log_conf_ex
+      - name: "CM_Get_Next_Res_Des"
+        href: /windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_next_res_des
+      - name: "CM_Get_Next_Res_Des_Ex"
+        href: /windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_next_res_des_ex
+      - name: "CM_Get_Parent"
+        href: /windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_parent
+      - name: "CM_Get_Parent_Ex"
+        href: /windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_parent_ex
+      - name: "CM_Get_Res_Des_Data"
+        href: /windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_res_des_data
+      - name: "CM_Get_Res_Des_Data_Ex"
+        href: /windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_res_des_data_ex
+      - name: "CM_Get_Res_Des_Data_Size"
+        href: /windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_res_des_data_size
+      - name: "CM_Get_Res_Des_Data_Size_Ex"
+        href: /windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_res_des_data_size_ex
+      - name: "CM_Get_Resource_Conflict_Count"
+        href: /windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_resource_conflict_count
+      - name: "CM_Get_Resource_Conflict_Details"
+        href: /windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_resource_conflict_detailsw
+      - name: "CM_Get_Sibling"
+        href: /windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_sibling
+      - name: "CM_Get_Sibling_Ex"
+        href: /windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_sibling_ex
+      - name: "CM_Get_Version"
+        href: /windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_version
+      - name: "CM_Get_Version_Ex"
+        href: /windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_version_ex
+      - name: "CM_Is_Dock_Station_Present"
+        href: /windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_is_dock_station_present
+      - name: "CM_Is_Dock_Station_Present_Ex"
+        href: /windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_is_dock_station_present_ex
+      - name: "CM_Is_Version_Available"
+        href: /windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_is_version_available
+      - name: "CM_Is_Version_Available_Ex"
+        href: /windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_is_version_available_ex
+      - name: "CM_Locate_DevNode"
+        href: /windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_locate_devnodea
+      - name: "CM_Locate_DevNode_Ex"
+        href: /windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_locate_devnode_exw
+      - name: "CM_MapCrToWin32Err"
+        href: /windows/desktop/api/CfgMgr32/nf-cfgmgr32-cm_mapcrtowin32err
+      - name: "CM_Modify_Res_Des"
+        href: /windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_modify_res_des
+      - name: "CM_Modify_Res_Des_Ex"
+        href: /windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_modify_res_des_ex
+      - name: "CM_NOTIFY_ACTION"
+        href: /windows/win32/api/Cfgmgr32/ne-cfgmgr32-cm_notify_action
+      - name: "CM_NOTIFY_EVENT_DATA"
+        href: /windows/win32/api/Cfgmgr32/ns-cfgmgr32-cm_notify_event_data
+      - name: "CM_NOTIFY_FILTER"
+        href: /windows/win32/api/Cfgmgr32/ns-cfgmgr32-cm_notify_filter
+      - name: "CM_Open_Class_Key"
+        href: /windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_open_class_keyw
+      - name: "CM_Open_Device_Interface_Key"
+        href: /windows/win32/api/cfgmgr32/nf-cfgmgr32-cm_open_device_interface_keyw
+      - name: "CM_Open_Device_Interface_Key_ExA"
+        href: /windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_open_device_interface_keya
+      - name: "CM_Open_Device_Interface_Key_ExW"
+        href: /windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_open_device_interface_key_exw
+      - name: "CM_Open_DevNode_Key"
+        href: /windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_open_devnode_key
+      - name: "CM_Query_And_Remove_SubTree"
+        href: /windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_query_and_remove_subtreew
+      - name: "CM_Query_And_Remove_SubTree_Ex"
+        href: /windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_query_and_remove_subtree_exw
+      - name: "CM_Query_Resource_Conflict_List"
+        href: /windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_query_resource_conflict_list
+      - name: "CM_Reenumerate_DevNode"
+        href: /windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_reenumerate_devnode
+      - name: "CM_Reenumerate_DevNode_Ex"
+        href: /windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_reenumerate_devnode_ex
+      - name: "CM_Register_Notification"
+        href: /windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_register_notification
+      - name: "CM_Request_Device_Eject"
+        href: /windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_request_device_ejectw
+      - name: "CM_Request_Device_Eject_Ex"
+        href: /windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_request_device_eject_exw
+      - name: "CM_Request_Eject_PC"
+        href: /windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_request_eject_pc
+      - name: "CM_Request_Eject_PC_Ex"
+        href: /windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_request_eject_pc_ex
+      - name: "CM_Set_Class_Property"
+        href: /windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_set_class_propertyw
+      - name: "CM_Set_Class_Property_ExW"
+        href: /windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_set_class_property_exw
+      - name: "CM_Set_Class_Registry_Property"
+        href: /windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_set_class_registry_propertyw
+      - name: "CM_Set_Device_Interface_Property"
+        href: /windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_set_device_interface_propertyw
+      - name: "CM_Set_Device_Interface_Property_ExW"
+        href: /windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_set_device_interface_property_exw
+      - name: "CM_Set_DevNode_Problem"
+        href: /windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_set_devnode_problem
+      - name: "CM_Set_DevNode_Problem_Ex"
+        href: /windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_set_devnode_problem_ex
+      - name: "CM_Set_DevNode_Property"
+        href: /windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_set_devnode_propertyw
+      - name: "CM_Set_DevNode_Property_ExW"
+        href: /windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_set_devnode_property_exw
+      - name: "CM_Set_DevNode_Registry_Property"
+        href: /windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_set_devnode_registry_propertyw
+      - name: "CM_Setup_DevNode"
+        href: /windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_setup_devnode
+      - name: "CM_Uninstall_DevNode"
+        href: /windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_uninstall_devnode
+      - name: "CM_Unregister_Notification"
+        href: /windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_unregister_notification
+      - name: "CMP_WaitNoPendingInstallEvents"
+        href: /windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_waitnopendinginstallevents
+      - name: "CONFLICT_DETAILS"
+        href: /windows/win32/api/cfgmgr32/ns-cfgmgr32-conflict_details_a
+      - name: "CS_DES"
+        href: /windows/desktop/api/cfgmgr32/ns-cfgmgr32-cs_des
+      - name: "CS_RESOURCE"
+        href: /windows/desktop/api/cfgmgr32/ns-cfgmgr32-cs_resource
+      - name: "DMA_DES"
+        href: /windows/desktop/api/cfgmgr32/ns-cfgmgr32-dma_des
+      - name: "DMA_RANGE"
+        href: /windows/desktop/api/cfgmgr32/ns-cfgmgr32-dma_range
+      - name: "DMA_RESOURCE"
+        href: /windows/desktop/api/cfgmgr32/ns-cfgmgr32-dma_resource
+      - name: "IO_DES"
+        href: /windows/desktop/api/cfgmgr32/ns-cfgmgr32-io_des
+      - name: "IO_RANGE"
+        href: /windows/desktop/api/Cfgmgr32/ns-cfgmgr32-io_range
+      - name: "IO_RESOURCE"
+        href: /windows/desktop/api/cfgmgr32/ns-cfgmgr32-io_resource
+      - name: "IRQ_DES"
+        href: /windows/desktop/api/cfgmgr32/ns-cfgmgr32-irq_des_32
+      - name: "IRQ_RANGE"
+        href: /windows/desktop/api/cfgmgr32/ns-cfgmgr32-irq_range
+      - name: "IRQ_RESOURCE"
+        href: /windows/desktop/api/Cfgmgr32/ns-cfgmgr32-irq_resource_32
+      - name: "MEM_DES"
+        href: /windows/desktop/api/cfgmgr32/ns-cfgmgr32-mem_des
+      - name: "MEM_RANGE"
+        href: /windows/desktop/api/cfgmgr32/ns-cfgmgr32-mem_range
+      - name: "MEM_RESOURCE"
+        href: /windows/desktop/api/cfgmgr32/ns-cfgmgr32-mem_resource
+      - name: "MFCARD_DES"
+        href: /windows/desktop/api/cfgmgr32/ns-cfgmgr32-mfcard_des
+      - name: "MFCARD_RESOURCE"
+        href: /windows/desktop/api/cfgmgr32/ns-cfgmgr32-mfcard_resource
+      - name: "PCCARD_DES"
+        href: /windows/desktop/api/cfgmgr32/ns-cfgmgr32-pccard_des
+      - name: "PCCARD_RESOURCE"
+        href: /windows/desktop/api/cfgmgr32/ns-cfgmgr32-pccard_resource
+    - name: "Difxapi.h"
+      href: difxapi-h.md
+      items: 
+      - name: "DIFLOGCALLBACK"
+        href: /previous-versions/windows/hardware/difxapi/diflogcallback
+      - name: "DIFXAPILOGCALLBACK"
+        href: /previous-versions/windows/hardware/difxapi/difxapilogcallback
+      - name: "DIFXAPISetLogCallback"
+        href: /previous-versions/windows/hardware/difxapi/difxapisetlogcallback
+      - name: "DriverPackageGetPath"
+        href: /previous-versions/windows/hardware/difxapi/driverpackagegetpath
+      - name: "DriverPackageInstall"
+        href: /previous-versions/windows/hardware/difxapi/driverpackageinstall
+      - name: "DriverPackagePreinstall"
+        href: /previous-versions/windows/hardware/difxapi/driverpackagepreinstall
+      - name: "DriverPackageUninstall"
+        href: /previous-versions/windows/hardware/difxapi/driverpackageuninstall
+      - name: "INSTALLERINFO"
+        href: /previous-versions/windows/hardware/difxapi/installerinfo
+      - name: "SetDifxLogCallback"
+        href: /previous-versions/windows/hardware/difxapi/setdifxlogcallback
+    - name: "Newdev.h"
+      href: newdev-h.md
+      items: 
+      - name: "DiInstallDevice"
+        href: /windows/desktop/api/Newdev/nf-newdev-diinstalldevice
+      - name: "DiInstallDriver"
+        href: /windows/desktop/api/Newdev/nf-newdev-diinstalldrivera
+      - name: "DiRollbackDriver"
+        href: /windows/desktop/api/Newdev/nf-newdev-dirollbackdriver
+      - name: "DiShowUpdateDevice"
+        href: /windows/desktop/api/Newdev/nf-newdev-dishowupdatedevice
+      - name: "DiUninstallDevice"
+        href: /windows/desktop/api/Newdev/nf-newdev-diuninstalldevice
+      - name: "UpdateDriverForPlugAndPlayDevices"
+        href: /windows/desktop/api/Newdev/nf-newdev-updatedriverforplugandplaydevicesa
+    - name: "Setupapi.h"
+      href: setupapi-h.md
+      items: 
+      - name: "SetupDiAskForOEMDisk"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupdiaskforoemdisk
+      - name: "SetupDiBuildClassInfoList"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupdibuildclassinfolist
+      - name: "SetupDiBuildClassInfoListEx"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupdibuildclassinfolistexa
+      - name: "SetupDiBuildDriverInfoList"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupdibuilddriverinfolist
+      - name: "SetupDiCallClassInstaller"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupdicallclassinstaller
+      - name: "SetupDiCancelDriverInfoSearch"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupdicanceldriverinfosearch
+      - name: "SetupDiChangeState"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupdichangestate
+      - name: "SetupDiClassGuidsFromName"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupdiclassguidsfromnamea
+      - name: "SetupDiClassGuidsFromNameEx"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupdiclassguidsfromnameexa
+      - name: "SetupDiClassNameFromGuid"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupdiclassnamefromguida
+      - name: "SetupDiClassNameFromGuidEx"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupdiclassnamefromguidexa
+      - name: "SetupDiCreateDeviceInfo"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupdicreatedeviceinfoa
+      - name: "SetupDiCreateDeviceInfoList"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupdicreatedeviceinfolist
+      - name: "SetupDiCreateDeviceInfoListEx"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupdicreatedeviceinfolistexa
+      - name: "SetupDiCreateDeviceInterface"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupdicreatedeviceinterfacea
+      - name: "SetupDiCreateDeviceInterfaceRegKey"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupdicreatedeviceinterfaceregkeya
+      - name: "SetupDiCreateDevRegKey"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupdicreatedevregkeya
+      - name: "SetupDiDeleteDeviceInfo"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupdideletedeviceinfo
+      - name: "SetupDiDeleteDeviceInterfaceData"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupdideletedeviceinterfacedata
+      - name: "SetupDiDeleteDeviceInterfaceRegKey"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupdideletedeviceinterfaceregkey
+      - name: "SetupDiDeleteDevRegKey"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupdideletedevregkey
+      - name: "SetupDiDestroyClassImageList"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupdidestroyclassimagelist
+      - name: "SetupDiDestroyDeviceInfoList"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupdidestroydeviceinfolist
+      - name: "SetupDiDestroyDriverInfoList"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupdidestroydriverinfolist
+      - name: "SetupDiDrawMiniIcon"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupdidrawminiicon
+      - name: "SetupDiEnumDeviceInfo"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupdienumdeviceinfo
+      - name: "SetupDiEnumDeviceInterfaces"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupdienumdeviceinterfaces
+      - name: "SetupDiEnumDriverInfo"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupdienumdriverinfoa
+      - name: "SetupDiFinishInstallAction"
+        href: /previous-versions/windows/hardware/previsioning-framework/ff551022(v=vs.85)
+      - name: "SetupDiGetActualModelsSection"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupdigetactualmodelssectiona
+      - name: "SetupDiGetActualSectionToInstall"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupdigetactualsectiontoinstalla
+      - name: "SetupDiGetActualSectionToInstallEx"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupdigetactualsectiontoinstallexa
+      - name: "SetupDiGetClassBitmapIndex"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupdigetclassbitmapindex
+      - name: "SetupDiGetClassDescription"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupdigetclassdescriptiona
+      - name: "SetupDiGetClassDescriptionEx"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupdigetclassdescriptionexa
+      - name: "SetupDiGetClassDevPropertySheets"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupdigetclassdevpropertysheetsa
+      - name: "SetupDiGetClassDevs"
+        href: /windows/desktop/api/SetupAPI/nf-setupapi-setupdigetclassdevsw
+      - name: "SetupDiGetClassDevsEx"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupdigetclassdevsexa
+      - name: "SetupDiGetClassImageIndex"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupdigetclassimageindex
+      - name: "SetupDiGetClassImageList"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupdigetclassimagelist
+      - name: "SetupDiGetClassImageListEx"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupdigetclassimagelistexa
+      - name: "SetupDiGetClassInstallParams"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupdigetclassinstallparamsa
+      - name: "SetupDiGetClassProperty"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupdigetclasspropertyw
+      - name: "SetupDiGetClassPropertyEx"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupdigetclasspropertyexw
+      - name: "SetupDiGetClassPropertyKeys"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupdigetclasspropertykeys
+      - name: "SetupDiGetClassPropertyKeysEx"
+        href: /windows/desktop/api/setupapi/nf-setupapi-setupdigetclasspropertykeysexw
+      - name: "SetupDiGetClassRegistryProperty"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupdigetclassregistrypropertya
+      - name: "SetupDiGetCustomDeviceProperty"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupdigetcustomdevicepropertya
+      - name: "SetupDiGetDeviceInfoListClass"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupdigetdeviceinfolistclass
+      - name: "SetupDiGetDeviceInfoListDetail"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupdigetdeviceinfolistdetaila
+      - name: "SetupDiGetDeviceInstallParams"
+        href: /windows/desktop/api/setupapi/nf-setupapi-setupdigetdeviceinstallparamsa
+      - name: "SetupDiGetDeviceInstanceId"
+        href: /windows/desktop/api/setupapi/nf-setupapi-setupdigetdeviceinstanceida
+      - name: "SetupDiGetDeviceInterfaceAlias"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupdigetdeviceinterfacealias
+      - name: "SetupDiGetDeviceInterfaceDetail"
+        href: /windows/desktop/api/setupapi/nf-setupapi-setupdigetdeviceinterfacedetaila
+      - name: "SetupDiGetDeviceInterfaceProperty"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupdigetdeviceinterfacepropertyw
+      - name: "SetupDiGetDeviceInterfacePropertyKeys"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupdigetdeviceinterfacepropertykeys
+      - name: "SetupDiGetDeviceProperty"
+        href: /windows/desktop/api/SetupAPI/nf-setupapi-setupdigetdevicepropertyw
+      - name: "SetupDiGetDevicePropertyKeys"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupdigetdevicepropertykeys
+      - name: "SetupDiGetDeviceRegistryProperty"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupdigetdeviceregistrypropertya
+      - name: "SetupDiGetDriverInfoDetail"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupdigetdriverinfodetaila
+      - name: "SetupDiGetDriverInstallParams"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupdigetdriverinstallparamsa
+      - name: "SetupDiGetHwProfileFriendlyName"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupdigethwprofilefriendlynamea
+      - name: "SetupDiGetHwProfileFriendlyNameEx"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupdigethwprofilefriendlynameexa
+      - name: "SetupDiGetHwProfileList"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupdigethwprofilelist
+      - name: "SetupDiGetHwProfileListEx"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupdigethwprofilelistexa
+      - name: "SetupDiGetINFClass"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupdigetinfclassa
+      - name: "SetupDiGetSelectedDevice"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupdigetselecteddevice
+      - name: "SetupDiGetSelectedDriver"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupdigetselecteddrivera
+      - name: "SetupDiInstallClass"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupdiinstallclassa
+      - name: "SetupDiInstallClassEx"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupdiinstallclassexa
+      - name: "SetupDiInstallDevice"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupdiinstalldevice
+      - name: "SetupDiInstallDeviceInterfaces"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupdiinstalldeviceinterfaces
+      - name: "SetupDiInstallDriverFiles"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupdiinstalldriverfiles
+      - name: "SetupDiLoadClassIcon"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupdiloadclassicon
+      - name: "SetupDiLoadDeviceIcon"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupdiloaddeviceicon
+      - name: "SetupDiOpenClassRegKey"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupdiopenclassregkey
+      - name: "SetupDiOpenClassRegKeyEx"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupdiopenclassregkeyexa
+      - name: "SetupDiOpenDeviceInfo"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupdiopendeviceinfoa
+      - name: "SetupDiOpenDeviceInterface"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupdiopendeviceinterfacea
+      - name: "SetupDiOpenDeviceInterfaceRegKey"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupdiopendeviceinterfaceregkey
+      - name: "SetupDiOpenDevRegKey"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupdiopendevregkey
+      - name: "SetupDiRegisterCoDeviceInstallers"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupdiregistercodeviceinstallers
+      - name: "SetupDiRegisterDeviceInfo"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupdiregisterdeviceinfo
+      - name: "SetupDiRemoveDevice"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupdiremovedevice
+      - name: "SetupDiRemoveDeviceInterface"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupdiremovedeviceinterface
+      - name: "SetupDiRestartDevices"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupdirestartdevices
+      - name: "SetupDiSelectBestCompatDrv"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupdiselectbestcompatdrv
+      - name: "SetupDiSelectDevice"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupdiselectdevice
+      - name: "SetupDiSelectOEMDrv"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupdiselectoemdrv
+      - name: "SetupDiSetClassInstallParams"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupdisetclassinstallparamsa
+      - name: "SetupDiSetClassProperty"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupdisetclasspropertyw
+      - name: "SetupDiSetClassPropertyEx"
+        href: /windows/desktop/api/setupapi/nf-setupapi-setupdisetclasspropertyexw
+      - name: "SetupDiSetClassRegistryProperty"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupdisetclassregistrypropertya
+      - name: "SetupDiSetDeviceInstallParams"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupdisetdeviceinstallparamsa
+      - name: "SetupDiSetDeviceInterfaceDefault"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupdisetdeviceinterfacedefault
+      - name: "SetupDiSetDeviceInterfaceProperty "
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupdisetdeviceinterfacepropertyw
+      - name: "SetupDiSetDeviceProperty"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupdisetdevicepropertyw
+      - name: "SetupDiSetDeviceRegistryProperty"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupdisetdeviceregistrypropertya
+      - name: "SetupDiSetDriverInstallParams"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupdisetdriverinstallparamsa
+      - name: "SetupDiSetSelectedDevice"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupdisetselecteddevice
+      - name: "SetupDiSetSelectedDriver"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupdisetselecteddrivera
+      - name: "SetupDiUnremoveDevice"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupdiunremovedevice
+      - name: "SetupGetInfDriverStoreLocation"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupgetinfdriverstorelocationa
+      - name: "SetupGetInfPublishedName"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupgetinfpublishednamea
+      - name: "SetupGetNonInteractiveMode"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupgetnoninteractivemode
+      - name: "SetupGetThreadLogToken"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupgetthreadlogtoken
+      - name: "SetupSetNonInteractiveMode"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupsetnoninteractivemode
+      - name: "SetupSetThreadLogToken"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupsetthreadlogtoken
+      - name: "SetupWriteTextLog"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupwritetextlog
+      - name: "SetupWriteTextLogError"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupwritetextlogerror
+      - name: "SetupWriteTextLogInfLine"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupwritetextloginfline
+      - name: "SP_ADDPROPERTYPAGE_DATA"
+        href: /windows/win32/api/setupapi/ns-setupapi-sp_newdevicewizard_data
+      - name: "SP_ALTPLATFORM_INFO"
+        href: /windows/win32/api/setupapi/ns-setupapi-sp_altplatform_info_v2
+      - name: "SP_CLASSIMAGELIST_DATA"
+        href: /windows/win32/api/setupapi/ns-setupapi-sp_classimagelist_data
+      - name: "SP_CLASSINSTALL_HEADER"
+        href: /windows/win32/api/setupapi/ns-setupapi-sp_classinstall_header
+      - name: "SP_DETECTDEVICE_PARAMS"
+        href: /windows/win32/api/setupapi/ns-setupapi-sp_detectdevice_params
+      - name: "SP_DEVICE_INTERFACE_DATA"
+        href: /windows/win32/api/setupapi/ns-setupapi-sp_device_interface_data
+      - name: "SP_DEVICE_INTERFACE_DETAIL_DATA"
+        href: /windows/win32/api/setupapi/ns-setupapi-sp_device_interface_detail_data_a
+      - name: "SP_DEVINFO_DATA"
+        href: /windows/win32/api/setupapi/ns-setupapi-sp_devinfo_data
+      - name: "SP_DEVINFO_LIST_DETAIL_DATA"
+        href: /windows/win32/api/setupapi/ns-setupapi-sp_devinfo_list_detail_data_a
+      - name: "SP_DEVINSTALL_PARAMS"
+        href: /windows/win32/api/setupapi/ns-setupapi-sp_devinstall_params_a
+      - name: "SP_DRVINFO_DATA"
+        href: /windows/win32/api/Setupapi/ns-setupapi-sp_drvinfo_data_v1_a
+      - name: "SP_DRVINFO_DETAIL_DATA"
+        href: /windows/win32/api/setupapi/ns-setupapi-sp_drvinfo_detail_data_a
+      - name: "SP_DRVINSTALL_PARAMS"
+        href: /windows/win32/api/setupapi/ns-setupapi-sp_drvinstall_params
+      - name: "SP_NEWDEVICEWIZARD_DATA"
+        href: /windows/win32/api/setupapi/ns-setupapi-sp_newdevicewizard_data
+      - name: "SP_POWERMESSAGEWAKE_PARAMS"
+        href: /windows/win32/api/setupapi/ns-setupapi-sp_powermessagewake_params_a
+      - name: "SP_PROPCHANGE_PARAMS"
+        href: /windows/win32/api/setupapi/ns-setupapi-sp_propchange_params
+      - name: "SP_PROPSHEETPAGE_REQUEST"
+        href: /windows/win32/api/setupapi/ns-setupapi-sp_propsheetpage_request
+      - name: "SP_REMOVEDEVICE_PARAMS"
+        href: /windows/win32/api/setupapi/ns-setupapi-sp_removedevice_params
+      - name: "SP_SELECTDEVICE_PARAMS"
+        href: /windows/win32/api/setupapi/ns-setupapi-sp_selectdevice_params_a
+      - name: "SP_TROUBLESHOOTER_PARAMS"
+        href: /windows/win32/api/setupapi/ns-setupapi-sp_troubleshooter_params_a
+      - name: "SP_UNREMOVEDEVICE_PARAMS"
+        href: /windows/win32/api/setupapi/ns-setupapi-sp_unremovedevice_params

@@ -1,0 +1,35 @@
+---
+description: GDI Print API Functions
+ms.assetid: cf3f4a61-8858-4c91-a778-d2a65998ef70
+title: GDI Print API Functions
+ms.topic: article
+ms.date: 05/31/2018
+---
+
+# GDI Print API Functions
+
+## In this section
+
+
+
+| Function                                                                    | Description                                                                                                                                                                                                                                                                                                                                                                    |
+|-----------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [**AbortDoc**](/windows/desktop/api/Wingdi/nf-wingdi-abortdoc)<br/>                                     | The [**AbortDoc**](/windows/desktop/api/wingdi/nf-wingdi-abortdoc) function stops the current print job and erases everything drawn since the last call to the [**StartDoc**](/windows/desktop/api/Wingdi/nf-wingdi-startdoca) function.<br/>                                                                                                                                                                                                 |
+| [*AbortProc*](/windows/desktop/api/Wingdi/nc-wingdi-abortproc)<br/>                                     | The [**AbortProc**](/windows/desktop/api/wingdi/nc-wingdi-abortproc) function is an application-defined callback function used with the [**SetAbortProc**](/windows/desktop/api/Wingdi/nf-wingdi-setabortproc) function. It is called when a print job is to be canceled during spooling. The **ABORTPROC** type defines a pointer to this callback function. **AbortProc** is a placeholder for the application-defined function name.<br/> |
+| [**DeviceCapabilities**](/windows/desktop/api/WinGdi/nf-wingdi-devicecapabilitiesa)<br/>                 | The [**DeviceCapabilities**](/windows/desktop/api/wingdi/nf-wingdi-devicecapabilitiesa) function retrieves the capabilities of a printer driver.<br/>                                                                                                                                                                                                                                                       |
+| [**EndDoc**](/windows/desktop/api/Wingdi/nf-wingdi-enddoc)<br/>                                         | The [**EndDoc**](/windows/desktop/api/wingdi/nf-wingdi-enddoc) function ends a print job.<br/>                                                                                                                                                                                                                                                                                                             |
+| [**EndPage**](/windows/desktop/api/Wingdi/nf-wingdi-endpage)<br/>                                       | The **EndPage** function notifies the device that the application has finished writing to a page. This function is typically used to direct the device driver to advance to a new page.<br/>                                                                                                                                                                             |
+| [**Escape**](/windows/desktop/api/Wingdi/nf-wingdi-escape)<br/>                                         | enables an application to access the system-defined device capabilities that are not available through GDI.<br/>                                                                                                                                                                                                                                                         |
+| [**ExtEscape**](/windows/desktop/api/Wingdi/nf-wingdi-extescape)<br/>                                   | The [**ExtEscape**](/windows/desktop/api/wingdi/nf-wingdi-extescape) function enables an application to access device capabilities that are not available through GDI.<br/>                                                                                                                                                                                                                                |
+| [**IsWindowRedirectedForPrint**](iswindowredirectedforprint.md)<br/> | The [**IsWindowRedirectedForPrint**](iswindowredirectedforprint.md) function determines whether the specified window is currently redirected for printing.<br/>                                                                                                                                                                                                         |
+| [**PrintWindow**](/windows/desktop/api/Winuser/nf-winuser-printwindow)<br/>                               | The [**PrintWindow**](/windows/desktop/api/winuser/nf-winuser-printwindow) function copies a visual window into the specified device context (DC), typically a printer DC.<br/>                                                                                                                                                                                                                              |
+| [**SetAbortProc**](/windows/desktop/api/Wingdi/nf-wingdi-setabortproc)<br/>                             | The [**SetAbortProc**](/windows/desktop/api/wingdi/nf-wingdi-setabortproc) function sets the application-defined abort function that allows a print job to be canceled during spooling.<br/>                                                                                                                                                                                                               |
+| [**StartDoc**](/windows/desktop/api/Wingdi/nf-wingdi-startdoca)<br/>                                     | The [**StartDoc**](/windows/desktop/api/wingdi/nf-wingdi-startdoca) function starts a print job.<br/>                                                                                                                                                                                                                                                                                                       |
+| [**StartPage**](/windows/desktop/api/Wingdi/nf-wingdi-startpage)<br/>                                   | The [**StartPage**](/windows/desktop/api/wingdi/nf-wingdi-startpage) function prepares the printer driver to accept data.<br/>                                                                                                                                                                                                                                                                             |
+
+
+
+ 
+
+ 
+

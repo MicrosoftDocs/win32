@@ -1,0 +1,115 @@
+---
+title: InterlockedCompareStore function (HLSL reference)
+description: Atomically compares the destination to the comparison value. If they are identical, the destination is overwritten with the input value.
+ms.assetid: eaf7e669-5240-40c9-9840-f4e7916e51b4
+keywords:
+- InterlockedCompareStore function HLSL
+topic_type:
+- apiref
+api_name:
+- InterlockedCompareStore
+api_type:
+- NA
+ms.topic: reference
+ms.date: 05/31/2018
+api_location: 
+---
+
+# InterlockedCompareStore function (HLSL reference)
+
+Atomically compares the destination to the comparison value. If they are identical, the destination is overwritten with the input value.
+
+## Syntax
+
+``` syntax
+void InterlockedCompareStore(
+  in R dest,
+  in T compare_value,
+  in T value
+);
+```
+
+## Parameters
+
+<dl> <dt>
+
+*dest* \[in\]
+</dt> <dd>
+
+Type: **R**
+
+The destination address.
+
+</dd> <dt>
+
+*compare\_value* \[in\]
+</dt> <dd>
+
+Type: **T**
+
+The comparison value.
+
+</dd> <dt>
+
+*value* \[in\]
+</dt> <dd>
+
+Type: **T**
+
+The input value.
+
+</dd> </dl>
+
+## Return value
+
+This function does not return a value.
+
+## Remarks
+
+Atomically compares the value referenced by *dest* with *compare\_value* and stores *value* in the location referenced by *dest* if the values match. This operation can only be performed on **int** or **uint** typed resources and shared memory variables. There are two possible uses for this function. The first is when R is a shared memory variable type. In this case, the function performs the operation on the shared memory register referenced by *dest*. The second scenario is when R is a resource variable type. In this scenario, the function performs the operation on the resource location referenced by *dest*.
+
+Interlocked operations do not imply any memory fence/barrier.
+
+### Minimum Shader Model
+
+This function is supported in the following shader models.
+
+
+
+| Shader Model                                                                | Supported |
+|-----------------------------------------------------------------------------|-----------|
+| [Shader Model 5](d3d11-graphics-reference-sm5.md) and higher shader models | yes       |
+
+
+
+ 
+
+This function is supported in the following types of shaders:
+
+
+
+| Vertex | Hull | Domain | Geometry | Pixel | Compute |
+|--------|------|--------|----------|-------|---------|
+|  x     | x    |  x     |  x       | x     | x       |
+
+
+
+ 
+
+## See also
+
+<dl> <dt>
+
+[Intrinsic Functions](dx-graphics-hlsl-intrinsic-functions.md)
+</dt> <dt>
+
+[Shader Model 5](d3d11-graphics-reference-sm5.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+

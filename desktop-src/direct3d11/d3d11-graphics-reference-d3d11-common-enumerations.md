@@ -1,0 +1,54 @@
+---
+title: Common Version Enumerations
+description: This section contains information about the common version enumerations.
+ms.assetid: 002154d5-74a6-48fb-b55f-8687e4505fc7
+ms.topic: article
+ms.date: 05/31/2018
+---
+
+# Common Version Enumerations
+
+This section contains information about the common version enumerations.
+
+
+## In this section
+
+
+
+| Topic                                                                                      | Description                                                                                                                                                                                                                                                                                                                                |
+|--------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [**D3D\_CBUFFER\_TYPE**](/windows/desktop/api/D3DCommon/ne-d3dcommon-d3d_cbuffer_type)<br/>                                  | Values that identify the intended use of constant-buffer data. <br/>                                                                                                                                                                                                                                                                 |
+| [**D3D\_DRIVER\_TYPE**](/windows/desktop/api/D3DCommon/ne-d3dcommon-d3d_driver_type)<br/>                                    | Driver type options.<br/>                                                                                                                                                                                                                                                                                                            |
+| [**D3D\_FEATURE\_LEVEL**](/windows/desktop/api/D3DCommon/ne-d3dcommon-d3d_feature_level)<br/>                                | Describes the set of features targeted by a Direct3D device. <br/>                                                                                                                                                                                                                                                                   |
+| [**D3D\_INCLUDE\_TYPE**](/windows/desktop/api/D3DCommon/ne-d3dcommon-d3d_include_type)<br/>                                  | Values that indicate the location of a shader \#include file. <br/>                                                                                                                                                                                                                                                                  |
+| [**D3D\_INTERPOLATION\_MODE**](/windows/desktop/api/D3DCommon/ne-d3dcommon-d3d_interpolation_mode)<br/>                      | Specifies interpolation mode, which affects how values are calculated during rasterization.<br/>                                                                                                                                                                                                                                     |
+| [**D3D\_MIN\_PRECISION**](/windows/desktop/api/D3DCommon/ne-d3dcommon-d3d_min_precision)<br/>                                | Values that indicate the minimum desired interpolation precision.<br/>                                                                                                                                                                                                                                                               |
+| [**D3D\_NAME**](/windows/desktop/api/D3DCommon/ne-d3dcommon-d3d_name)<br/>                                                   | Values that identify shader parameters that use system-value semantics.<br/>                                                                                                                                                                                                                                                         |
+| [**D3D\_PRIMITIVE**](/windows/desktop/api/D3DCommon/ne-d3dcommon-d3d_primitive)<br/>                                         | Values that indicate how the pipeline interprets geometry or hull shader input primitives.<br/>                                                                                                                                                                                                                                      |
+| [**D3D\_PRIMITIVE\_TOPOLOGY**](/windows/desktop/api/D3DCommon/ne-d3dcommon-d3d_primitive_topology)<br/>                      | Values that indicate how the pipeline interprets vertex data that is bound to the [input-assembler stage](d3d10-graphics-programming-guide-input-assembler-stage.md). These [primitive topology values](/windows/desktop/direct3d11/d3d10-graphics-programming-guide-primitive-topologies) determine how the vertex data is rendered on screen.<br/> |
+| [**D3D\_REGISTER\_COMPONENT\_TYPE**](/windows/desktop/api/D3DCommon/ne-d3dcommon-d3d_register_component_type)<br/>           | Values that identify the data types that can be stored in a register.<br/>                                                                                                                                                                                                                                                           |
+| [**D3D\_RESOURCE\_RETURN\_TYPE**](/windows/desktop/api/D3DCommon/ne-d3dcommon-d3d_resource_return_type)<br/>                 | Values that identify the return type of a resource.<br/>                                                                                                                                                                                                                                                                             |
+| [**D3D\_SHADER\_CBUFFER\_FLAGS**](/windows/desktop/api/D3DCommon/ne-d3dcommon-d3d_shader_cbuffer_flags)<br/>                 | Values that identify the indended use of a constant-data buffer.<br/>                                                                                                                                                                                                                                                                |
+| [**D3D\_SHADER\_INPUT\_FLAGS**](/windows/desktop/api/D3DCommon/ne-d3dcommon-d3d_shader_input_flags)<br/>                     | Values that identify shader-input options.<br/>                                                                                                                                                                                                                                                                                      |
+| [**D3D\_SHADER\_INPUT\_TYPE**](/windows/desktop/api/D3DCommon/ne-d3dcommon-d3d_shader_input_type)<br/>                       | Values that identify resource types that can be bound to a shader and that are reflected as part of the resource description for the shader.<br/>                                                                                                                                                                                    |
+| [**D3D\_SHADER\_VARIABLE\_CLASS**](/windows/desktop/api/D3DCommon/ne-d3dcommon-d3d_shader_variable_class)<br/>               | Values that identify the class of a shader variable.<br/>                                                                                                                                                                                                                                                                            |
+| [**D3D\_SHADER\_VARIABLE\_FLAGS**](/windows/desktop/api/D3DCommon/ne-d3dcommon-d3d_shader_variable_flags)<br/>               | Values that identify information about a shader variable.<br/>                                                                                                                                                                                                                                                                       |
+| [**D3D\_SHADER\_VARIABLE\_TYPE**](/windows/desktop/api/D3DCommon/ne-d3dcommon-d3d_shader_variable_type)<br/>                 | Values that identify various data, texture, and buffer types that can be assigned to a shader variable.<br/>                                                                                                                                                                                                                         |
+| [**D3D\_SRV\_DIMENSION**](/windows/desktop/api/D3DCommon/ne-d3dcommon-d3d_srv_dimension)<br/>                                | Values that identify the type of resource to be viewed as a shader resource.<br/>                                                                                                                                                                                                                                                    |
+| [**D3D\_TESSELLATOR\_DOMAIN**](/windows/desktop/api/D3DCommon/ne-d3dcommon-d3d_tessellator_domain)<br/>                      | Values that identify domain options for tessellator data.<br/>                                                                                                                                                                                                                                                                       |
+| [**D3D\_TESSELLATOR\_OUTPUT\_PRIMITIVE**](/windows/desktop/api/D3DCommon/ne-d3dcommon-d3d_tessellator_output_primitive)<br/> | Values that identify output primitive types.<br/>                                                                                                                                                                                                                                                                                    |
+| [**D3D\_TESSELLATOR\_PARTITIONING**](/windows/desktop/api/D3DCommon/ne-d3dcommon-d3d_tessellator_partitioning)<br/>          | Values that identify partitioning options.<br/>                                                                                                                                                                                                                                                                                      |
+
+
+
+ 
+
+## Related topics
+
+<dl> <dt>
+
+[Common Version Reference](d3d11-graphics-reference-d3d11-common.md)
+</dt> </dl>
+
+ 
+

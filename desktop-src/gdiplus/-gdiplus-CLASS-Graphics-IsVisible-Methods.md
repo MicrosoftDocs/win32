@@ -1,0 +1,32 @@
+---
+description: This topic lists the IsVisible methods of the Graphics class. For a complete list of methods for the Graphics class, see Graphics.
+ms.assetid: 35425397-49b2-4388-a99f-a80b0b2027dc
+title: Graphics.IsVisible methods
+ms.date: 07/02/2019
+ms.topic: reference
+---
+
+# Graphics.IsVisible methods
+
+This topic lists the IsVisible methods of the [**Graphics**](/windows/win32/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) class. For a complete list of methods for the **Graphics** class, see [**Graphics**](/windows/win32/api/gdiplusgraphics/nl-gdiplusgraphics-graphics).
+
+### Overload list
+
+
+
+| Method                                                                                                            | Description                                                                                                                                                                                                                                                                                                                                                                                                            |
+|:------------------------------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [**IsVisible(Rect&)**](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-isvisible(inconstrect_))                                          | The [**Graphics::IsVisible**](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-isvisible(inconstrect_)) method determines whether the specified rectangle intersects the visible clipping region of this [**Graphics**](/windows/win32/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) object. The visible clipping region is the intersection of the clipping region of this **Graphics** object and the clipping region of the window.<br/>                        |
+| [**IsVisible(Point&)**](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-isvisible(inconstpoint_))                                       | The [**Graphics::IsVisible**](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-isvisible(inconstpoint_)) method determines whether the specified point is inside the visible clipping region of this [**Graphics**](/windows/win32/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) object. The visible clipping region is the intersection of the clipping region of this **Graphics** object and the clipping region of the window.<br/>                           |
+| [**IsVisible(RectF&)**](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-isvisible(inconstrectf_))                                        | The [**Graphics::IsVisible**](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-isvisible(inconstrectf_)) method determines whether the specified rectangle intersects the visible clipping region of this [**Graphics**](/windows/win32/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) object. The visible clipping region is the intersection of the clipping region of this **Graphics** object and the clipping region of the window.<br/>                       |
+| [**IsVisible(INT,INT)**](/previous-versions//ms535940(v=vs.85))                                      | The [**Graphics::IsVisible**](/previous-versions//ms535940(v=vs.85))[**Graphics**](/windows/win32/api/gdiplusgraphics/nl-gdiplusgraphics-graphics)**Graphics** object and the clipping region of the window.<br/>                                                                                                                                                                                                                |
+| [**IsVisible(PointF&)**](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-isvisible(inconstpointf_))                                     | The [**Graphics::IsVisible**](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-isvisible(inconstpointf_))[**Graphics**](/windows/win32/api/gdiplusgraphics/nl-gdiplusgraphics-graphics)**Graphics** object and the clipping region of the window.<br/>                                                                                                                                                                                                               |
+| [**IsVisible(REAL,REAL)**](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-isvisible(inreal_inreal))                                  | The [**Graphics::IsVisible**](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-isvisible(inreal_inreal)) method determines whether the specified point is inside the visible clipping region of this [**Graphics**](/windows/win32/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) object. The visible clipping region is the intersection of the clipping region of this **Graphics** object and the clipping region of the window.<br/>                         |
+| [**IsVisible(INT,INT,INT,INT)**](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-isvisible(inint_inint_inint_inint))         | The [**Graphics::IsVisible**](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-isvisible(inint_inint_inint_inint)) method determines whether the specified rectangle intersects the visible clipping region of this [**Graphics**](/windows/win32/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) object. The visible clipping region is the intersection of the clipping region of this **Graphics** object and the clipping region of the window.<br/> |
+| [**IsVisible(REAL,REAL,REAL,REAL)**](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-isvisible(inreal_inreal_inreal_inreal)) | The [**Graphics::IsVisible**](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-isvisible(inreal_inreal_inreal_inreal))[**Graphics**](/windows/win32/api/gdiplusgraphics/nl-gdiplusgraphics-graphics)**Graphics** object and the clipping region of the window.<br/>                                                                                                                                                                                       |
+
+
+
+ 
+
+ 

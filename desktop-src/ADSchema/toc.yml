@@ -1,0 +1,4973 @@
+- name: "Active Directory Schema"
+  href: active-directory-schema.md
+  items: 
+  - name: "Active Directory Schema Terminology"
+    href: active-directory-schema-site.md
+  - name: "Classes"
+    href: classes.md
+    items: 
+    - name: "All Classes"
+      href: classes-all.md
+      items: 
+      - name: "account"
+        href: c-account.md
+      - name: "ACS-Policy"
+        href: c-acspolicy.md
+      - name: "ACS-Resource-Limits"
+        href: c-acsresourcelimits.md
+      - name: "ACS-Subnet"
+        href: c-acssubnet.md
+      - name: "Address-Book-Container"
+        href: c-addressbookcontainer.md
+      - name: "Address-Template"
+        href: c-addresstemplate.md
+      - name: "Application-Entity"
+        href: c-applicationentity.md
+      - name: "Application-Process"
+        href: c-applicationprocess.md
+      - name: "Application-Settings"
+        href: c-applicationsettings.md
+      - name: "Application-Site-Settings"
+        href: c-applicationsitesettings.md
+      - name: "Application-Version"
+        href: c-applicationversion.md
+      - name: "Attribute-Schema"
+        href: c-attributeschema.md
+      - name: "bootableDevice"
+        href: c-bootabledevice.md
+      - name: "Builtin-Domain"
+        href: c-builtindomain.md
+      - name: "Category-Registration"
+        href: c-categoryregistration.md
+      - name: "Certification-Authority"
+        href: c-certificationauthority.md
+      - name: "Class-Registration"
+        href: c-classregistration.md
+      - name: "Class-Schema"
+        href: c-classschema.md
+      - name: "Class-Store"
+        href: c-classstore.md
+      - name: "Com-Connection-Point"
+        href: c-comconnectionpoint.md
+      - name: "Computer"
+        href: c-computer.md
+      - name: "Configuration"
+        href: c-configuration.md
+      - name: "Connection-Point"
+        href: c-connectionpoint.md
+      - name: "Contact"
+        href: c-contact.md
+      - name: "Container"
+        href: c-container.md
+      - name: "Control-Access-Right"
+        href: c-controlaccessright.md
+      - name: "Country"
+        href: c-country.md
+      - name: "CRL-Distribution-Point"
+        href: c-crldistributionpoint.md
+      - name: "Cross-Ref"
+        href: c-crossref.md
+      - name: "Cross-Ref-Container"
+        href: c-crossrefcontainer.md
+      - name: "Device"
+        href: c-device.md
+      - name: "Dfs-Configuration"
+        href: c-dfsconfiguration.md
+      - name: "DHCP-Class"
+        href: c-dhcpclass.md
+      - name: "Display-Specifier"
+        href: c-displayspecifier.md
+      - name: "Display-Template"
+        href: c-displaytemplate.md
+      - name: "DMD"
+        href: c-dmd.md
+      - name: "Dns-Node"
+        href: c-dnsnode.md
+      - name: "Dns-Zone"
+        href: c-dnszone.md
+      - name: "document"
+        href: c-document.md
+      - name: "documentSeries"
+        href: c-documentseries.md
+      - name: "Domain"
+        href: c-domain.md
+      - name: "Domain-DNS"
+        href: c-domaindns.md
+      - name: "Domain-Policy"
+        href: c-domainpolicy.md
+      - name: "domainRelatedObject"
+        href: c-domainrelatedobject.md
+      - name: "DSA"
+        href: c-dsa.md
+      - name: "DS-UI-Settings"
+        href: c-dsuisettings.md
+      - name: "Dynamic-Object"
+        href: c-dynamicobject.md
+      - name: "File-Link-Tracking"
+        href: c-filelinktracking.md
+      - name: "File-Link-Tracking-Entry"
+        href: c-filelinktrackingentry.md
+      - name: "Foreign-Security-Principal"
+        href: c-foreignsecurityprincipal.md
+      - name: "friendlyCountry"
+        href: c-friendlycountry.md
+      - name: "FT-Dfs"
+        href: c-ftdfs.md
+      - name: "Group"
+        href: c-group.md
+      - name: "Group-Of-Names"
+        href: c-groupofnames.md
+      - name: "groupOfUniqueNames"
+        href: c-groupofuniquenames.md
+      - name: "Group-Policy-Container"
+        href: c-grouppolicycontainer.md
+      - name: "ieee802Device"
+        href: c-ieee802device.md
+      - name: "Index-Server-Catalog"
+        href: c-indexservercatalog.md
+      - name: "inetOrgPerson"
+        href: c-inetorgperson.md
+      - name: "Infrastructure-Update"
+        href: c-infrastructureupdate.md
+      - name: "Intellimirror-Group"
+        href: c-intellimirrorgroup.md
+      - name: "Intellimirror-SCP"
+        href: c-intellimirrorscp.md
+      - name: "Inter-Site-Transport"
+        href: c-intersitetransport.md
+      - name: "Inter-Site-Transport-Container"
+        href: c-intersitetransportcontainer.md
+      - name: "ipHost"
+        href: c-iphost.md
+      - name: "ipNetwork"
+        href: c-ipnetwork.md
+      - name: "ipProtocol"
+        href: c-ipprotocol.md
+      - name: "Ipsec-Base"
+        href: c-ipsecbase.md
+      - name: "Ipsec-Filter"
+        href: c-ipsecfilter.md
+      - name: "Ipsec-ISAKMP-Policy"
+        href: c-ipsecisakmppolicy.md
+      - name: "Ipsec-Negotiation-Policy"
+        href: c-ipsecnegotiationpolicy.md
+      - name: "Ipsec-NFA"
+        href: c-ipsecnfa.md
+      - name: "Ipsec-Policy"
+        href: c-ipsecpolicy.md
+      - name: "ipService"
+        href: c-ipservice.md
+      - name: "Leaf"
+        href: c-leaf.md
+      - name: "Licensing-Site-Settings"
+        href: c-licensingsitesettings.md
+      - name: "Link-Track-Object-Move-Table"
+        href: c-linktrackobjectmovetable.md
+      - name: "Link-Track-OMT-Entry"
+        href: c-linktrackomtentry.md
+      - name: "Link-Track-Vol-Entry"
+        href: c-linktrackvolentry.md
+      - name: "Link-Track-Volume-Table"
+        href: c-linktrackvolumetable.md
+      - name: "Locality"
+        href: c-locality.md
+      - name: "Lost-And-Found"
+        href: c-lostandfound.md
+      - name: "Mail-Recipient"
+        href: c-mailrecipient.md
+      - name: "Meeting"
+        href: c-meeting.md
+      - name: "ms-Authz-Central-Access-Policies"
+        href: c-msauthz-centralaccesspolicies.md
+      - name: "ms-Authz-Central-Access-Policy"
+        href: c-msauthz-centralaccesspolicy.md
+      - name: "ms-Authz-Central-Access-Rule"
+        href: c-msauthz-centralaccessrule.md
+      - name: "ms-Authz-Central-Access-Rules"
+        href: c-msauthz-centralaccessrules.md
+      - name: "ms-COM-Partition"
+        href: c-mscom-partition.md
+      - name: "ms-COM-PartitionSet"
+        href: c-mscom-partitionset.md
+      - name: "ms-DFS-Deleted-Link-v2"
+        href: c-msdfs-deletedlinkv2.md
+      - name: "ms-DFS-Link-v2"
+        href: c-msdfs-linkv2.md
+      - name: "ms-DFS-Namespace-Anchor"
+        href: c-msdfs-namespaceanchor.md
+      - name: "ms-DFS-Namespace-v2"
+        href: c-msdfs-namespacev2.md
+      - name: "ms-DFSR-Connection"
+        href: c-msdfsr-connection.md
+      - name: "ms-DFSR-Content"
+        href: c-msdfsr-content.md
+      - name: "ms-DFSR-ContentSet"
+        href: c-msdfsr-contentset.md
+      - name: "ms-DFSR-GlobalSettings"
+        href: c-msdfsr-globalsettings.md
+      - name: "ms-DFSR-LocalSettings"
+        href: c-msdfsr-localsettings.md
+      - name: "ms-DFSR-Member"
+        href: c-msdfsr-member.md
+      - name: "ms-DFSR-ReplicationGroup"
+        href: c-msdfsr-replicationgroup.md
+      - name: "ms-DFSR-Subscriber"
+        href: c-msdfsr-subscriber.md
+      - name: "ms-DFSR-Subscription"
+        href: c-msdfsr-subscription.md
+      - name: "ms-DFSR-Topology"
+        href: c-msdfsr-topology.md
+      - name: "ms-DNS-Server-Settings"
+        href: c-msdns-serversettings.md
+      - name: "ms-DS-App-Configuration"
+        href: c-msds-app-configuration.md
+      - name: "ms-DS-App-Data"
+        href: c-msds-appdata.md
+      - name: "ms-DS-Az-Admin-Manager"
+        href: c-msds-azadminmanager.md
+      - name: "ms-DS-Az-Application"
+        href: c-msds-azapplication.md
+      - name: "ms-DS-Az-Operation"
+        href: c-msds-azoperation.md
+      - name: "ms-DS-Az-Role"
+        href: c-msds-azrole.md
+      - name: "ms-DS-Az-Scope"
+        href: c-msds-azscope.md
+      - name: "ms-DS-Az-Task"
+        href: c-msds-aztask.md
+      - name: "ms-DS-Bindable-Object"
+        href: c-msds-bindableobject.md
+      - name: "ms-DS-Bind-Proxy"
+        href: c-msds-bindproxy.md
+      - name: "ms-DS-Claims-Transformation-Policies"
+        href: c-msds-claimstransformationpolicies.md
+      - name: "ms-DS-Claims-Transformation-Policy-Type"
+        href: c-msds-claimstransformationpolicytype.md
+      - name: "ms-DS-Claim-Type"
+        href: c-msds-claimtype.md
+      - name: "ms-DS-Claim-Type-Property-Base"
+        href: c-msds-claimtypepropertybase.md
+      - name: "ms-DS-Claim-Types"
+        href: c-msds-claimtypes.md
+      - name: "ms-DS-Group-Managed-Service-Account"
+        href: c-msds-groupmanagedserviceaccount.md
+      - name: "ms-DS-Managed-Service-Account"
+        href: c-msds-managedserviceaccount.md
+      - name: "ms-DS-Optional-Feature"
+        href: c-msds-optionalfeature.md
+      - name: "ms-DS-Password-Settings"
+        href: c-msds-passwordsettings.md
+      - name: "ms-DS-Password-Settings-Container"
+        href: c-msds-passwordsettingscontainer.md
+      - name: "ms-DS-Quota-Container"
+        href: c-msds-quotacontainer.md
+      - name: "ms-DS-Quota-Control"
+        href: c-msds-quotacontrol.md
+      - name: "ms-DS-Resource-Properties"
+        href: c-msds-resourceproperties.md
+      - name: "ms-DS-Resource-Property"
+        href: c-msds-resourceproperty.md
+      - name: "ms-DS-Resource-Property-List"
+        href: c-msds-resourcepropertylist.md
+      - name: "ms-DS-Service-Connection-Point-Publication-Service"
+        href: c-msds-serviceconnectionpointpublicationservice.md
+      - name: "ms-DS-Value-Type"
+        href: c-msds-valuetype.md
+      - name: "ms-Exch-Configuration-Container"
+        href: c-msexchconfigurationcontainer.md
+      - name: "ms-FVE-RecoveryInformation"
+        href: c-msfve-recoveryinformation.md
+      - name: "ms-ieee-80211-Policy"
+        href: c-msieee80211-policy.md
+      - name: "ms-Imaging-PostScanProcess"
+        href: c-msimaging-postscanprocess.md
+      - name: "ms-Imaging-PSPs"
+        href: c-msimaging-psps.md
+      - name: "ms-Kds-Prov-RootKey"
+        href: c-mskds-provrootkey.md
+      - name: "ms-Kds-Prov-ServerConfiguration"
+        href: c-mskds-provserverconfiguration.md
+      - name: "MSMQ-Configuration"
+        href: c-msmqconfiguration.md
+      - name: "MSMQ-Custom-Recipient"
+        href: c-msmq-custom-recipient.md
+      - name: "MSMQ-Enterprise-Settings"
+        href: c-msmqenterprisesettings.md
+      - name: "MSMQ-Group"
+        href: c-msmq-group.md
+      - name: "MSMQ-Migrated-User"
+        href: c-msmqmigrateduser.md
+      - name: "MSMQ-Queue"
+        href: c-msmqqueue.md
+      - name: "MSMQ-Settings"
+        href: c-msmqsettings.md
+      - name: "MSMQ-Site-Link"
+        href: c-msmqsitelink.md
+      - name: "ms-net-ieee-80211-GroupPolicy"
+        href: c-ms-net-ieee-80211-grouppolicy.md
+      - name: "ms-net-ieee-8023-GroupPolicy"
+        href: c-ms-net-ieee-8023-grouppolicy.md
+      - name: "ms-PKI-Enterprise-Oid"
+        href: c-mspki-enterprise-oid.md
+      - name: "ms-PKI-Key-Recovery-Agent"
+        href: c-mspki-key-recovery-agent.md
+      - name: "ms-PKI-Private-Key-Recovery-Agent"
+        href: c-mspki-privatekeyrecoveryagent.md
+      - name: "ms-Print-ConnectionPolicy"
+        href: c-msprint-connectionpolicy.md
+      - name: "msSFU-30-Domain-Info"
+        href: c-mssfu30domaininfo.md
+      - name: "msSFU-30-Mail-Aliases"
+        href: c-mssfu30mailaliases.md
+      - name: "msSFU-30-Net-Id"
+        href: c-mssfu30netid.md
+      - name: "msSFU-30-Network-User"
+        href: c-mssfu30networkuser.md
+      - name: "msSFU-30-NIS-Map-Config"
+        href: c-mssfu30nismapconfig.md
+      - name: "ms-SPP-Activation-Object"
+        href: c-msspp-activationobject.md
+      - name: "ms-SPP-Activation-Objects-Container"
+        href: c-msspp-activationobjectscontainer.md
+      - name: "MS-SQL-OLAPCube"
+        href: c-ms-sql-olapcube.md
+      - name: "MS-SQL-OLAPDatabase"
+        href: c-ms-sql-olapdatabase.md
+      - name: "MS-SQL-OLAPServer"
+        href: c-ms-sql-olapserver.md
+      - name: "MS-SQL-SQLDatabase"
+        href: c-ms-sql-sqldatabase.md
+      - name: "MS-SQL-SQLPublication"
+        href: c-ms-sql-sqlpublication.md
+      - name: "MS-SQL-SQLRepository"
+        href: c-ms-sql-sqlrepository.md
+      - name: "MS-SQL-SQLServer"
+        href: c-ms-sql-sqlserver.md
+      - name: "ms-TAPI-Rt-Conference"
+        href: c-mstapi-rtconference.md
+      - name: "ms-TAPI-Rt-Person"
+        href: c-mstapi-rtperson.md
+      - name: "ms-TPM-Information-Object"
+        href: c-mstpm-informationobject.md
+      - name: "ms-TPM-Information-Objects-Container"
+        href: c-mstpm-informationobjectscontainer.md
+      - name: "ms-WMI-IntRangeParam"
+        href: c-mswmi-intrangeparam.md
+      - name: "ms-WMI-IntSetParam"
+        href: c-mswmi-intsetparam.md
+      - name: "ms-WMI-MergeablePolicyTemplate"
+        href: c-mswmi-mergeablepolicytemplate.md
+      - name: "ms-WMI-ObjectEncoding"
+        href: c-mswmi-objectencoding.md
+      - name: "ms-WMI-PolicyTemplate"
+        href: c-mswmi-policytemplate.md
+      - name: "ms-WMI-PolicyType"
+        href: c-mswmi-policytype.md
+      - name: "ms-WMI-RangeParam"
+        href: c-mswmi-rangeparam.md
+      - name: "ms-WMI-RealRangeParam"
+        href: c-mswmi-realrangeparam.md
+      - name: "ms-WMI-Rule"
+        href: c-mswmi-rule.md
+      - name: "ms-WMI-ShadowObject"
+        href: c-mswmi-shadowobject.md
+      - name: "ms-WMI-SimplePolicyTemplate"
+        href: c-mswmi-simplepolicytemplate.md
+      - name: "ms-WMI-Som"
+        href: c-mswmi-som.md
+      - name: "ms-WMI-StringSetParam"
+        href: c-mswmi-stringsetparam.md
+      - name: "ms-WMI-UintRangeParam"
+        href: c-mswmi-uintrangeparam.md
+      - name: "ms-WMI-UintSetParam"
+        href: c-mswmi-uintsetparam.md
+      - name: "ms-WMI-UnknownRangeParam"
+        href: c-mswmi-unknownrangeparam.md
+      - name: "ms-WMI-WMIGPO"
+        href: c-mswmi-wmigpo.md
+      - name: "nisMap"
+        href: c-nismap.md
+      - name: "nisNetgroup"
+        href: c-nisnetgroup.md
+      - name: "nisObject"
+        href: c-nisobject.md
+      - name: "NTDS-Connection"
+        href: c-ntdsconnection.md
+      - name: "NTDS-DSA"
+        href: c-ntdsdsa.md
+      - name: "NTDS-DSA-RO"
+        href: c-ntdsdsaro.md
+      - name: "NTDS-Service"
+        href: c-ntdsservice.md
+      - name: "NTDS-Site-Settings"
+        href: c-ntdssitesettings.md
+      - name: "NTFRS-Member"
+        href: c-ntfrsmember.md
+      - name: "NTFRS-Replica-Set"
+        href: c-ntfrsreplicaset.md
+      - name: "NTFRS-Settings"
+        href: c-ntfrssettings.md
+      - name: "NTFRS-Subscriber"
+        href: c-ntfrssubscriber.md
+      - name: "NTFRS-Subscriptions"
+        href: c-ntfrssubscriptions.md
+      - name: "oncRpc"
+        href: c-oncrpc.md
+      - name: "Organization"
+        href: c-organization.md
+      - name: "Organizational-Person"
+        href: c-organizationalperson.md
+      - name: "Organizational-Role"
+        href: c-organizationalrole.md
+      - name: "Organizational-Unit"
+        href: c-organizationalunit.md
+      - name: "Package-Registration"
+        href: c-packageregistration.md
+      - name: "Person"
+        href: c-person.md
+      - name: "Physical-Location"
+        href: c-physicallocation.md
+      - name: "PKI-Certificate-Template"
+        href: c-pkicertificatetemplate.md
+      - name: "PKI-Enrollment-Service"
+        href: c-pkienrollmentservice.md
+      - name: "posixAccount"
+        href: c-posixaccount.md
+      - name: "posixGroup"
+        href: c-posixgroup.md
+      - name: "Print-Queue"
+        href: c-printqueue.md
+      - name: "Query-Policy"
+        href: c-querypolicy.md
+      - name: "Remote-Mail-Recipient"
+        href: c-remotemailrecipient.md
+      - name: "Remote-Storage-Service-Point"
+        href: c-remotestorageservicepoint.md
+      - name: "Residential-Person"
+        href: c-residentialperson.md
+      - name: "rFC822LocalPart"
+        href: c-rfc822localpart.md
+      - name: "RID-Manager"
+        href: c-ridmanager.md
+      - name: "RID-Set"
+        href: c-ridset.md
+      - name: "room"
+        href: c-room.md
+      - name: "Rpc-Container"
+        href: c-rpccontainer.md
+      - name: "rpc-Entry"
+        href: c-rpcentry.md
+      - name: "rpc-Group"
+        href: c-rpcgroup.md
+      - name: "rpc-Profile"
+        href: c-rpcprofile.md
+      - name: "rpc-Profile-Element"
+        href: c-rpcprofileelement.md
+      - name: "rpc-Server"
+        href: c-rpcserver.md
+      - name: "rpc-Server-Element"
+        href: c-rpcserverelement.md
+      - name: "RRAS-Administration-Connection-Point"
+        href: c-rrasadministrationconnectionpoint.md
+      - name: "RRAS-Administration-Dictionary"
+        href: c-rrasadministrationdictionary.md
+      - name: "Sam-Domain"
+        href: c-samdomain.md
+      - name: "Sam-Domain-Base"
+        href: c-samdomainbase.md
+      - name: "Sam-Server"
+        href: c-samserver.md
+      - name: "Secret"
+        href: c-secret.md
+      - name: "Security-Object"
+        href: c-securityobject.md
+      - name: "Security-Principal"
+        href: c-securityprincipal.md
+      - name: "Server"
+        href: c-server.md
+      - name: "Servers-Container"
+        href: c-serverscontainer.md
+      - name: "Service-Administration-Point"
+        href: c-serviceadministrationpoint.md
+      - name: "Service-Class"
+        href: c-serviceclass.md
+      - name: "Service-Connection-Point"
+        href: c-serviceconnectionpoint.md
+      - name: "Service-Instance"
+        href: c-serviceinstance.md
+      - name: "shadowAccount"
+        href: c-shadowaccount.md
+      - name: "simpleSecurityObject"
+        href: c-simplesecurityobject.md
+      - name: "Site"
+        href: c-site.md
+      - name: "Site-Link"
+        href: c-sitelink.md
+      - name: "Site-Link-Bridge"
+        href: c-sitelinkbridge.md
+      - name: "Sites-Container"
+        href: c-sitescontainer.md
+      - name: "Storage"
+        href: c-storage.md
+      - name: "Subnet"
+        href: c-subnet.md
+      - name: "Subnet-Container"
+        href: c-subnetcontainer.md
+      - name: "SubSchema"
+        href: c-subschema.md
+      - name: "Top"
+        href: c-top.md
+      - name: "Trusted-Domain"
+        href: c-trusteddomain.md
+      - name: "Type-Library"
+        href: c-typelibrary.md
+      - name: "User"
+        href: c-user.md
+      - name: "Volume"
+        href: c-volume.md
+    - name: "Structural Classes"
+      href: classes-structural.md
+      items: 
+      - name: "account"
+        href: c-account.md
+      - name: "ACS-Policy"
+        href: c-acspolicy.md
+      - name: "ACS-Resource-Limits"
+        href: c-acsresourcelimits.md
+      - name: "ACS-Subnet"
+        href: c-acssubnet.md
+      - name: "Address-Book-Container"
+        href: c-addressbookcontainer.md
+      - name: "Address-Template"
+        href: c-addresstemplate.md
+      - name: "Application-Entity"
+        href: c-applicationentity.md
+      - name: "Application-Process"
+        href: c-applicationprocess.md
+      - name: "Application-Version"
+        href: c-applicationversion.md
+      - name: "Attribute-Schema"
+        href: c-attributeschema.md
+      - name: "Builtin-Domain"
+        href: c-builtindomain.md
+      - name: "Category-Registration"
+        href: c-categoryregistration.md
+      - name: "Certification-Authority"
+        href: c-certificationauthority.md
+      - name: "Class-Registration"
+        href: c-classregistration.md
+      - name: "Class-Schema"
+        href: c-classschema.md
+      - name: "Class-Store"
+        href: c-classstore.md
+      - name: "Com-Connection-Point"
+        href: c-comconnectionpoint.md
+      - name: "Computer"
+        href: c-computer.md
+      - name: "Configuration"
+        href: c-configuration.md
+      - name: "Contact"
+        href: c-contact.md
+      - name: "Container"
+        href: c-container.md
+      - name: "Control-Access-Right"
+        href: c-controlaccessright.md
+      - name: "CRL-Distribution-Point"
+        href: c-crldistributionpoint.md
+      - name: "Cross-Ref"
+        href: c-crossref.md
+      - name: "Cross-Ref-Container"
+        href: c-crossrefcontainer.md
+      - name: "Dfs-Configuration"
+        href: c-dfsconfiguration.md
+      - name: "DHCP-Class"
+        href: c-dhcpclass.md
+      - name: "Display-Specifier"
+        href: c-displayspecifier.md
+      - name: "Display-Template"
+        href: c-displaytemplate.md
+      - name: "DMD"
+        href: c-dmd.md
+      - name: "Dns-Node"
+        href: c-dnsnode.md
+      - name: "Dns-Zone"
+        href: c-dnszone.md
+      - name: "document"
+        href: c-document.md
+      - name: "documentSeries"
+        href: c-documentseries.md
+      - name: "Domain-DNS"
+        href: c-domaindns.md
+      - name: "Domain-Policy"
+        href: c-domainpolicy.md
+      - name: "DSA"
+        href: c-dsa.md
+      - name: "DS-UI-Settings"
+        href: c-dsuisettings.md
+      - name: "File-Link-Tracking"
+        href: c-filelinktracking.md
+      - name: "File-Link-Tracking-Entry"
+        href: c-filelinktrackingentry.md
+      - name: "Foreign-Security-Principal"
+        href: c-foreignsecurityprincipal.md
+      - name: "friendlyCountry"
+        href: c-friendlycountry.md
+      - name: "FT-Dfs"
+        href: c-ftdfs.md
+      - name: "Group"
+        href: c-group.md
+      - name: "groupOfUniqueNames"
+        href: c-groupofuniquenames.md
+      - name: "Group-Policy-Container"
+        href: c-grouppolicycontainer.md
+      - name: "Index-Server-Catalog"
+        href: c-indexservercatalog.md
+      - name: "inetOrgPerson"
+        href: c-inetorgperson.md
+      - name: "Infrastructure-Update"
+        href: c-infrastructureupdate.md
+      - name: "Intellimirror-Group"
+        href: c-intellimirrorgroup.md
+      - name: "Intellimirror-SCP"
+        href: c-intellimirrorscp.md
+      - name: "Inter-Site-Transport"
+        href: c-intersitetransport.md
+      - name: "Inter-Site-Transport-Container"
+        href: c-intersitetransportcontainer.md
+      - name: "ipNetwork"
+        href: c-ipnetwork.md
+      - name: "ipProtocol"
+        href: c-ipprotocol.md
+      - name: "Ipsec-Filter"
+        href: c-ipsecfilter.md
+      - name: "Ipsec-ISAKMP-Policy"
+        href: c-ipsecisakmppolicy.md
+      - name: "Ipsec-Negotiation-Policy"
+        href: c-ipsecnegotiationpolicy.md
+      - name: "Ipsec-NFA"
+        href: c-ipsecnfa.md
+      - name: "Ipsec-Policy"
+        href: c-ipsecpolicy.md
+      - name: "ipService"
+        href: c-ipservice.md
+      - name: "Licensing-Site-Settings"
+        href: c-licensingsitesettings.md
+      - name: "Link-Track-Object-Move-Table"
+        href: c-linktrackobjectmovetable.md
+      - name: "Link-Track-OMT-Entry"
+        href: c-linktrackomtentry.md
+      - name: "Link-Track-Vol-Entry"
+        href: c-linktrackvolentry.md
+      - name: "Link-Track-Volume-Table"
+        href: c-linktrackvolumetable.md
+      - name: "Locality"
+        href: c-locality.md
+      - name: "Lost-And-Found"
+        href: c-lostandfound.md
+      - name: "Meeting"
+        href: c-meeting.md
+      - name: "ms-Authz-Central-Access-Policies"
+        href: c-msauthz-centralaccesspolicies.md
+      - name: "ms-Authz-Central-Access-Policy"
+        href: c-msauthz-centralaccesspolicy.md
+      - name: "ms-Authz-Central-Access-Rule"
+        href: c-msauthz-centralaccessrule.md
+      - name: "ms-Authz-Central-Access-Rules"
+        href: c-msauthz-centralaccessrules.md
+      - name: "ms-COM-Partition"
+        href: c-mscom-partition.md
+      - name: "ms-COM-PartitionSet"
+        href: c-mscom-partitionset.md
+      - name: "ms-DFS-Deleted-Link-v2"
+        href: c-msdfs-deletedlinkv2.md
+      - name: "ms-DFS-Link-v2"
+        href: c-msdfs-linkv2.md
+      - name: "ms-DFS-Namespace-Anchor"
+        href: c-msdfs-namespaceanchor.md
+      - name: "ms-DFS-Namespace-v2"
+        href: c-msdfs-namespacev2.md
+      - name: "ms-DFSR-Connection"
+        href: c-msdfsr-connection.md
+      - name: "ms-DFSR-Content"
+        href: c-msdfsr-content.md
+      - name: "ms-DFSR-ContentSet"
+        href: c-msdfsr-contentset.md
+      - name: "ms-DFSR-GlobalSettings"
+        href: c-msdfsr-globalsettings.md
+      - name: "ms-DFSR-LocalSettings"
+        href: c-msdfsr-localsettings.md
+      - name: "ms-DFSR-Member"
+        href: c-msdfsr-member.md
+      - name: "ms-DFSR-ReplicationGroup"
+        href: c-msdfsr-replicationgroup.md
+      - name: "ms-DFSR-Subscriber"
+        href: c-msdfsr-subscriber.md
+      - name: "ms-DFSR-Subscription"
+        href: c-msdfsr-subscription.md
+      - name: "ms-DFSR-Topology"
+        href: c-msdfsr-topology.md
+      - name: "ms-DNS-Server-Settings"
+        href: c-msdns-serversettings.md
+      - name: "ms-DS-App-Configuration"
+        href: c-msds-app-configuration.md
+      - name: "ms-DS-App-Data"
+        href: c-msds-appdata.md
+      - name: "ms-DS-Az-Admin-Manager"
+        href: c-msds-azadminmanager.md
+      - name: "ms-DS-Az-Application"
+        href: c-msds-azapplication.md
+      - name: "ms-DS-Az-Operation"
+        href: c-msds-azoperation.md
+      - name: "ms-DS-Az-Role"
+        href: c-msds-azrole.md
+      - name: "ms-DS-Az-Scope"
+        href: c-msds-azscope.md
+      - name: "ms-DS-Az-Task"
+        href: c-msds-aztask.md
+      - name: "ms-DS-Claims-Transformation-Policies"
+        href: c-msds-claimstransformationpolicies.md
+      - name: "ms-DS-Claims-Transformation-Policy-Type"
+        href: c-msds-claimstransformationpolicytype.md
+      - name: "ms-DS-Claim-Type"
+        href: c-msds-claimtype.md
+      - name: "ms-DS-Claim-Types"
+        href: c-msds-claimtypes.md
+      - name: "ms-DS-Group-Managed-Service-Account"
+        href: c-msds-groupmanagedserviceaccount.md
+      - name: "ms-DS-Managed-Service-Account"
+        href: c-msds-managedserviceaccount.md
+      - name: "ms-DS-Optional-Feature"
+        href: c-msds-optionalfeature.md
+      - name: "ms-DS-Password-Settings"
+        href: c-msds-passwordsettings.md
+      - name: "ms-DS-Password-Settings-Container"
+        href: c-msds-passwordsettingscontainer.md
+      - name: "ms-DS-Quota-Container"
+        href: c-msds-quotacontainer.md
+      - name: "ms-DS-Quota-Control"
+        href: c-msds-quotacontrol.md
+      - name: "ms-DS-Resource-Properties"
+        href: c-msds-resourceproperties.md
+      - name: "ms-DS-Resource-Property"
+        href: c-msds-resourceproperty.md
+      - name: "ms-DS-Resource-Property-List"
+        href: c-msds-resourcepropertylist.md
+      - name: "ms-DS-Service-Connection-Point-Publication-Service"
+        href: c-msds-serviceconnectionpointpublicationservice.md
+      - name: "ms-DS-Value-Type"
+        href: c-msds-valuetype.md
+      - name: "ms-Exch-Configuration-Container"
+        href: c-msexchconfigurationcontainer.md
+      - name: "ms-FVE-RecoveryInformation"
+        href: c-msfve-recoveryinformation.md
+      - name: "ms-ieee-80211-Policy"
+        href: c-msieee80211-policy.md
+      - name: "ms-Imaging-PostScanProcess"
+        href: c-msimaging-postscanprocess.md
+      - name: "ms-Imaging-PSPs"
+        href: c-msimaging-psps.md
+      - name: "ms-Kds-Prov-RootKey"
+        href: c-mskds-provrootkey.md
+      - name: "ms-Kds-Prov-ServerConfiguration"
+        href: c-mskds-provserverconfiguration.md
+      - name: "MSMQ-Configuration"
+        href: c-msmqconfiguration.md
+      - name: "MSMQ-Custom-Recipient"
+        href: c-msmq-custom-recipient.md
+      - name: "MSMQ-Enterprise-Settings"
+        href: c-msmqenterprisesettings.md
+      - name: "MSMQ-Group"
+        href: c-msmq-group.md
+      - name: "MSMQ-Migrated-User"
+        href: c-msmqmigrateduser.md
+      - name: "MSMQ-Queue"
+        href: c-msmqqueue.md
+      - name: "MSMQ-Settings"
+        href: c-msmqsettings.md
+      - name: "MSMQ-Site-Link"
+        href: c-msmqsitelink.md
+      - name: "ms-net-ieee-80211-GroupPolicy"
+        href: c-ms-net-ieee-80211-grouppolicy.md
+      - name: "ms-net-ieee-8023-GroupPolicy"
+        href: c-ms-net-ieee-8023-grouppolicy.md
+      - name: "ms-PKI-Enterprise-Oid"
+        href: c-mspki-enterprise-oid.md
+      - name: "ms-PKI-Key-Recovery-Agent"
+        href: c-mspki-key-recovery-agent.md
+      - name: "ms-PKI-Private-Key-Recovery-Agent"
+        href: c-mspki-privatekeyrecoveryagent.md
+      - name: "ms-Print-ConnectionPolicy"
+        href: c-msprint-connectionpolicy.md
+      - name: "msSFU-30-Domain-Info"
+        href: c-mssfu30domaininfo.md
+      - name: "msSFU-30-Mail-Aliases"
+        href: c-mssfu30mailaliases.md
+      - name: "msSFU-30-Net-Id"
+        href: c-mssfu30netid.md
+      - name: "msSFU-30-Network-User"
+        href: c-mssfu30networkuser.md
+      - name: "msSFU-30-NIS-Map-Config"
+        href: c-mssfu30nismapconfig.md
+      - name: "ms-SPP-Activation-Object"
+        href: c-msspp-activationobject.md
+      - name: "ms-SPP-Activation-Objects-Container"
+        href: c-msspp-activationobjectscontainer.md
+      - name: "MS-SQL-OLAPCube"
+        href: c-ms-sql-olapcube.md
+      - name: "MS-SQL-OLAPDatabase"
+        href: c-ms-sql-olapdatabase.md
+      - name: "MS-SQL-OLAPServer"
+        href: c-ms-sql-olapserver.md
+      - name: "MS-SQL-SQLDatabase"
+        href: c-ms-sql-sqldatabase.md
+      - name: "MS-SQL-SQLPublication"
+        href: c-ms-sql-sqlpublication.md
+      - name: "MS-SQL-SQLRepository"
+        href: c-ms-sql-sqlrepository.md
+      - name: "MS-SQL-SQLServer"
+        href: c-ms-sql-sqlserver.md
+      - name: "ms-TAPI-Rt-Conference"
+        href: c-mstapi-rtconference.md
+      - name: "ms-TAPI-Rt-Person"
+        href: c-mstapi-rtperson.md
+      - name: "ms-TPM-Information-Object"
+        href: c-mstpm-informationobject.md
+      - name: "ms-TPM-Information-Objects-Container"
+        href: c-mstpm-informationobjectscontainer.md
+      - name: "ms-WMI-IntRangeParam"
+        href: c-mswmi-intrangeparam.md
+      - name: "ms-WMI-IntSetParam"
+        href: c-mswmi-intsetparam.md
+      - name: "ms-WMI-MergeablePolicyTemplate"
+        href: c-mswmi-mergeablepolicytemplate.md
+      - name: "ms-WMI-ObjectEncoding"
+        href: c-mswmi-objectencoding.md
+      - name: "ms-WMI-PolicyTemplate"
+        href: c-mswmi-policytemplate.md
+      - name: "ms-WMI-PolicyType"
+        href: c-mswmi-policytype.md
+      - name: "ms-WMI-RangeParam"
+        href: c-mswmi-rangeparam.md
+      - name: "ms-WMI-RealRangeParam"
+        href: c-mswmi-realrangeparam.md
+      - name: "ms-WMI-Rule"
+        href: c-mswmi-rule.md
+      - name: "ms-WMI-ShadowObject"
+        href: c-mswmi-shadowobject.md
+      - name: "ms-WMI-SimplePolicyTemplate"
+        href: c-mswmi-simplepolicytemplate.md
+      - name: "ms-WMI-Som"
+        href: c-mswmi-som.md
+      - name: "ms-WMI-StringSetParam"
+        href: c-mswmi-stringsetparam.md
+      - name: "ms-WMI-UintRangeParam"
+        href: c-mswmi-uintrangeparam.md
+      - name: "ms-WMI-UintSetParam"
+        href: c-mswmi-uintsetparam.md
+      - name: "ms-WMI-UnknownRangeParam"
+        href: c-mswmi-unknownrangeparam.md
+      - name: "ms-WMI-WMIGPO"
+        href: c-mswmi-wmigpo.md
+      - name: "nisMap"
+        href: c-nismap.md
+      - name: "nisNetgroup"
+        href: c-nisnetgroup.md
+      - name: "nisObject"
+        href: c-nisobject.md
+      - name: "NTDS-Connection"
+        href: c-ntdsconnection.md
+      - name: "NTDS-DSA"
+        href: c-ntdsdsa.md
+      - name: "NTDS-DSA-RO"
+        href: c-ntdsdsaro.md
+      - name: "NTDS-Service"
+        href: c-ntdsservice.md
+      - name: "NTDS-Site-Settings"
+        href: c-ntdssitesettings.md
+      - name: "NTFRS-Member"
+        href: c-ntfrsmember.md
+      - name: "NTFRS-Replica-Set"
+        href: c-ntfrsreplicaset.md
+      - name: "NTFRS-Settings"
+        href: c-ntfrssettings.md
+      - name: "NTFRS-Subscriber"
+        href: c-ntfrssubscriber.md
+      - name: "NTFRS-Subscriptions"
+        href: c-ntfrssubscriptions.md
+      - name: "oncRpc"
+        href: c-oncrpc.md
+      - name: "Organization"
+        href: c-organization.md
+      - name: "Organizational-Role"
+        href: c-organizationalrole.md
+      - name: "Organizational-Unit"
+        href: c-organizationalunit.md
+      - name: "Package-Registration"
+        href: c-packageregistration.md
+      - name: "Physical-Location"
+        href: c-physicallocation.md
+      - name: "PKI-Certificate-Template"
+        href: c-pkicertificatetemplate.md
+      - name: "PKI-Enrollment-Service"
+        href: c-pkienrollmentservice.md
+      - name: "Print-Queue"
+        href: c-printqueue.md
+      - name: "Query-Policy"
+        href: c-querypolicy.md
+      - name: "Remote-Mail-Recipient"
+        href: c-remotemailrecipient.md
+      - name: "Remote-Storage-Service-Point"
+        href: c-remotestorageservicepoint.md
+      - name: "Residential-Person"
+        href: c-residentialperson.md
+      - name: "rFC822LocalPart"
+        href: c-rfc822localpart.md
+      - name: "RID-Manager"
+        href: c-ridmanager.md
+      - name: "RID-Set"
+        href: c-ridset.md
+      - name: "room"
+        href: c-room.md
+      - name: "Rpc-Container"
+        href: c-rpccontainer.md
+      - name: "rpc-Group"
+        href: c-rpcgroup.md
+      - name: "rpc-Profile"
+        href: c-rpcprofile.md
+      - name: "rpc-Profile-Element"
+        href: c-rpcprofileelement.md
+      - name: "rpc-Server"
+        href: c-rpcserver.md
+      - name: "rpc-Server-Element"
+        href: c-rpcserverelement.md
+      - name: "RRAS-Administration-Connection-Point"
+        href: c-rrasadministrationconnectionpoint.md
+      - name: "RRAS-Administration-Dictionary"
+        href: c-rrasadministrationdictionary.md
+      - name: "Sam-Server"
+        href: c-samserver.md
+      - name: "Secret"
+        href: c-secret.md
+      - name: "Server"
+        href: c-server.md
+      - name: "Servers-Container"
+        href: c-serverscontainer.md
+      - name: "Service-Administration-Point"
+        href: c-serviceadministrationpoint.md
+      - name: "Service-Class"
+        href: c-serviceclass.md
+      - name: "Service-Connection-Point"
+        href: c-serviceconnectionpoint.md
+      - name: "Service-Instance"
+        href: c-serviceinstance.md
+      - name: "Site"
+        href: c-site.md
+      - name: "Site-Link"
+        href: c-sitelink.md
+      - name: "Site-Link-Bridge"
+        href: c-sitelinkbridge.md
+      - name: "Sites-Container"
+        href: c-sitescontainer.md
+      - name: "Storage"
+        href: c-storage.md
+      - name: "Subnet"
+        href: c-subnet.md
+      - name: "Subnet-Container"
+        href: c-subnetcontainer.md
+      - name: "SubSchema"
+        href: c-subschema.md
+      - name: "Trusted-Domain"
+        href: c-trusteddomain.md
+      - name: "Type-Library"
+        href: c-typelibrary.md
+      - name: "User"
+        href: c-user.md
+      - name: "Volume"
+        href: c-volume.md
+    - name: "Abstract Classes"
+      href: classes-abstract.md
+      items: 
+      - name: "Application-Settings"
+        href: c-applicationsettings.md
+      - name: "Application-Site-Settings"
+        href: c-applicationsitesettings.md
+      - name: "Connection-Point"
+        href: c-connectionpoint.md
+      - name: "Country"
+        href: c-country.md
+      - name: "Device"
+        href: c-device.md
+      - name: "Domain"
+        href: c-domain.md
+      - name: "Group-Of-Names"
+        href: c-groupofnames.md
+      - name: "Ipsec-Base"
+        href: c-ipsecbase.md
+      - name: "Leaf"
+        href: c-leaf.md
+      - name: "ms-DS-Claim-Type-Property-Base"
+        href: c-msds-claimtypepropertybase.md
+      - name: "Organizational-Person"
+        href: c-organizationalperson.md
+      - name: "Person"
+        href: c-person.md
+      - name: "rpc-Entry"
+        href: c-rpcentry.md
+      - name: "Security-Object"
+        href: c-securityobject.md
+      - name: "Top"
+        href: c-top.md
+    - name: "Auxiliary Classes"
+      href: classes-auxiliary.md
+      items: 
+      - name: "bootableDevice"
+        href: c-bootabledevice.md
+      - name: "domainRelatedObject"
+        href: c-domainrelatedobject.md
+      - name: "Dynamic-Object"
+        href: c-dynamicobject.md
+      - name: "ieee802Device"
+        href: c-ieee802device.md
+      - name: "ipHost"
+        href: c-iphost.md
+      - name: "Mail-Recipient"
+        href: c-mailrecipient.md
+      - name: "ms-DS-Bindable-Object"
+        href: c-msds-bindableobject.md
+      - name: "ms-DS-Bind-Proxy"
+        href: c-msds-bindproxy.md
+      - name: "posixAccount"
+        href: c-posixaccount.md
+      - name: "posixGroup"
+        href: c-posixgroup.md
+      - name: "Sam-Domain"
+        href: c-samdomain.md
+      - name: "Sam-Domain-Base"
+        href: c-samdomainbase.md
+      - name: "Security-Principal"
+        href: c-securityprincipal.md
+      - name: "shadowAccount"
+        href: c-shadowaccount.md
+      - name: "simpleSecurityObject"
+        href: c-simplesecurityobject.md
+  - name: "Attributes"
+    href: attributes.md
+    items: 
+    - name: "All Attributes"
+      href: attributes-all.md
+      items: 
+      - name: "Account-Expires"
+        href: a-accountexpires.md
+      - name: "Account-Name-History"
+        href: a-accountnamehistory.md
+      - name: "ACS-Aggregate-Token-Rate-Per-User"
+        href: a-acsaggregatetokenrateperuser.md
+      - name: "ACS-Allocable-RSVP-Bandwidth"
+        href: a-acsallocablersvpbandwidth.md
+      - name: "ACS-Cache-Timeout"
+        href: a-acscachetimeout.md
+      - name: "ACS-Direction"
+        href: a-acsdirection.md
+      - name: "ACS-DSBM-DeadTime"
+        href: a-acsdsbmdeadtime.md
+      - name: "ACS-DSBM-Priority"
+        href: a-acsdsbmpriority.md
+      - name: "ACS-DSBM-Refresh"
+        href: a-acsdsbmrefresh.md
+      - name: "ACS-Enable-ACS-Service"
+        href: a-acsenableacsservice.md
+      - name: "ACS-Enable-RSVP-Accounting"
+        href: a-acsenablersvpaccounting.md
+      - name: "ACS-Enable-RSVP-Message-Logging"
+        href: a-acsenablersvpmessagelogging.md
+      - name: "ACS-Event-Log-Level"
+        href: a-acseventloglevel.md
+      - name: "ACS-Identity-Name"
+        href: a-acsidentityname.md
+      - name: "ACS-Max-Aggregate-Peak-Rate-Per-User"
+        href: a-acsmaxaggregatepeakrateperuser.md
+      - name: "ACS-Max-Duration-Per-Flow"
+        href: a-acsmaxdurationperflow.md
+      - name: "ACS-Maximum-SDU-Size"
+        href: a-acsmaximumsdusize.md
+      - name: "ACS-Max-No-Of-Account-Files"
+        href: a-acsmaxnoofaccountfiles.md
+      - name: "ACS-Max-No-Of-Log-Files"
+        href: a-acsmaxnooflogfiles.md
+      - name: "ACS-Max-Peak-Bandwidth"
+        href: a-acsmaxpeakbandwidth.md
+      - name: "ACS-Max-Peak-Bandwidth-Per-Flow"
+        href: a-acsmaxpeakbandwidthperflow.md
+      - name: "ACS-Max-Size-Of-RSVP-Account-File"
+        href: a-acsmaxsizeofrsvpaccountfile.md
+      - name: "ACS-Max-Size-Of-RSVP-Log-File"
+        href: a-acsmaxsizeofrsvplogfile.md
+      - name: "ACS-Max-Token-Bucket-Per-Flow"
+        href: a-acsmaxtokenbucketperflow.md
+      - name: "ACS-Max-Token-Rate-Per-Flow"
+        href: a-acsmaxtokenrateperflow.md
+      - name: "ACS-Minimum-Delay-Variation"
+        href: a-acsminimumdelayvariation.md
+      - name: "ACS-Minimum-Latency"
+        href: a-acsminimumlatency.md
+      - name: "ACS-Minimum-Policed-Size"
+        href: a-acsminimumpolicedsize.md
+      - name: "ACS-Non-Reserved-Max-SDU-Size"
+        href: a-acsnonreservedmaxsdusize.md
+      - name: "ACS-Non-Reserved-Min-Policed-Size"
+        href: a-acsnonreservedminpolicedsize.md
+      - name: "ACS-Non-Reserved-Peak-Rate"
+        href: a-acsnonreservedpeakrate.md
+      - name: "ACS-Non-Reserved-Token-Size"
+        href: a-acsnonreservedtokensize.md
+      - name: "ACS-Non-Reserved-Tx-Limit"
+        href: a-acsnonreservedtxlimit.md
+      - name: "ACS-Non-Reserved-Tx-Size"
+        href: a-acsnonreservedtxsize.md
+      - name: "ACS-Permission-Bits"
+        href: a-acspermissionbits.md
+      - name: "ACS-Policy-Name"
+        href: a-acspolicyname.md
+      - name: "ACS-Priority"
+        href: a-acspriority.md
+      - name: "ACS-RSVP-Account-Files-Location"
+        href: a-acsrsvpaccountfileslocation.md
+      - name: "ACS-RSVP-Log-Files-Location"
+        href: a-acsrsvplogfileslocation.md
+      - name: "ACS-Server-List"
+        href: a-acsserverlist.md
+      - name: "ACS-Service-Type"
+        href: a-acsservicetype.md
+      - name: "ACS-Time-Of-Day"
+        href: a-acstimeofday.md
+      - name: "ACS-Total-No-Of-Flows"
+        href: a-acstotalnoofflows.md
+      - name: "Additional-Information"
+        href: a-notes.md
+      - name: "Additional-Trusted-Service-Names"
+        href: a-additionaltrustedservicenames.md
+      - name: "Address"
+        href: a-streetaddress.md
+      - name: "Address-Book-Roots"
+        href: a-addressbookroots.md
+      - name: "Address-Book-Roots2"
+        href: a-addressbookroots2.md
+      - name: "Address-Entry-Display-Table"
+        href: a-addressentrydisplaytable.md
+      - name: "Address-Entry-Display-Table-MSDOS"
+        href: a-addressentrydisplaytablemsdos.md
+      - name: "Address-Home"
+        href: a-homepostaladdress.md
+      - name: "Address-Syntax"
+        href: a-addresssyntax.md
+      - name: "Address-Type"
+        href: a-addresstype.md
+      - name: "Admin-Context-Menu"
+        href: a-admincontextmenu.md
+      - name: "Admin-Count"
+        href: a-admincount.md
+      - name: "Admin-Description"
+        href: a-admindescription.md
+      - name: "Admin-Display-Name"
+        href: a-admindisplayname.md
+      - name: "Admin-Multiselect-Property-Pages"
+        href: a-adminmultiselectpropertypages.md
+      - name: "Admin-Property-Pages"
+        href: a-adminpropertypages.md
+      - name: "Allowed-Attributes"
+        href: a-allowedattributes.md
+      - name: "Allowed-Attributes-Effective"
+        href: a-allowedattributeseffective.md
+      - name: "Allowed-Child-Classes"
+        href: a-allowedchildclasses.md
+      - name: "Allowed-Child-Classes-Effective"
+        href: a-allowedchildclasseseffective.md
+      - name: "Alt-Security-Identities"
+        href: a-altsecurityidentities.md
+      - name: "ANR"
+        href: a-anr.md
+      - name: "Application-Name"
+        href: a-applicationname.md
+      - name: "Applies-To"
+        href: a-appliesto.md
+      - name: "App-Schema-Version"
+        href: a-appschemaversion.md
+      - name: "Asset-Number"
+        href: a-assetnumber.md
+      - name: "Assistant"
+        href: a-assistant.md
+      - name: "associatedDomain"
+        href: a-associateddomain.md
+      - name: "associatedName"
+        href: a-associatedname.md
+      - name: "Assoc-NT-Account"
+        href: a-assocntaccount.md
+      - name: "attributeCertificateAttribute"
+        href: a-attributecertificateattribute.md
+      - name: "Attribute-Display-Names"
+        href: a-attributedisplaynames.md
+      - name: "Attribute-ID"
+        href: a-attributeid.md
+      - name: "Attribute-Security-GUID"
+        href: a-attributesecurityguid.md
+      - name: "Attribute-Syntax"
+        href: a-attributesyntax.md
+      - name: "Attribute-Types"
+        href: a-attributetypes.md
+      - name: "audio"
+        href: a-audio.md
+      - name: "Auditing-Policy"
+        href: a-auditingpolicy.md
+      - name: "Authentication-Options"
+        href: a-authenticationoptions.md
+      - name: "Authority-Revocation-List"
+        href: a-authorityrevocationlist.md
+      - name: "Auxiliary-Class"
+        href: a-auxiliaryclass.md
+      - name: "Bad-Password-Time"
+        href: a-badpasswordtime.md
+      - name: "Bad-Pwd-Count"
+        href: a-badpwdcount.md
+      - name: "Birth-Location"
+        href: a-birthlocation.md
+      - name: "bootFile"
+        href: a-bootfile.md
+      - name: "bootParameter"
+        href: a-bootparameter.md
+      - name: "Bridgehead-Server-List-BL"
+        href: a-bridgeheadserverlistbl.md
+      - name: "Bridgehead-Transport-List"
+        href: a-bridgeheadtransportlist.md
+      - name: "buildingName"
+        href: a-buildingname.md
+      - name: "Builtin-Creation-Time"
+        href: a-builtincreationtime.md
+      - name: "Builtin-Modified-Count"
+        href: a-builtinmodifiedcount.md
+      - name: "Business-Category"
+        href: a-businesscategory.md
+      - name: "Bytes-Per-Minute"
+        href: a-bytesperminute.md
+      - name: "CA-Certificate"
+        href: a-cacertificate.md
+      - name: "CA-Certificate-DN"
+        href: a-cacertificatedn.md
+      - name: "CA-Connect"
+        href: a-caconnect.md
+      - name: "Canonical-Name"
+        href: a-canonicalname.md
+      - name: "Can-Upgrade-Script"
+        href: a-canupgradescript.md
+      - name: "carLicense"
+        href: a-carlicense.md
+      - name: "Catalogs"
+        href: a-catalogs.md
+      - name: "Categories"
+        href: a-categories.md
+      - name: "Category-Id"
+        href: a-categoryid.md
+      - name: "CA-Usages"
+        href: a-causages.md
+      - name: "CA-WEB-URL"
+        href: a-caweburl.md
+      - name: "Certificate-Authority-Object"
+        href: a-certificateauthorityobject.md
+      - name: "Certificate-Revocation-List"
+        href: a-certificaterevocationlist.md
+      - name: "Certificate-Templates"
+        href: a-certificatetemplates.md
+      - name: "Class-Display-Name"
+        href: a-classdisplayname.md
+      - name: "Code-Page"
+        href: a-codepage.md
+      - name: "COM-ClassID"
+        href: a-comclassid.md
+      - name: "COM-CLSID"
+        href: a-comclsid.md
+      - name: "COM-InterfaceID"
+        href: a-cominterfaceid.md
+      - name: "Comment"
+        href: a-info.md
+      - name: "Common-Name"
+        href: a-cn.md
+      - name: "COM-Other-Prog-Id"
+        href: a-comotherprogid.md
+      - name: "Company"
+        href: a-company.md
+      - name: "COM-ProgID"
+        href: a-comprogid.md
+      - name: "COM-Treat-As-Class-Id"
+        href: a-comtreatasclassid.md
+      - name: "COM-Typelib-Id"
+        href: a-comtypelibid.md
+      - name: "COM-Unique-LIBID"
+        href: a-comuniquelibid.md
+      - name: "Content-Indexing-Allowed"
+        href: a-contentindexingallowed.md
+      - name: "Context-Menu"
+        href: a-contextmenu.md
+      - name: "Control-Access-Rights"
+        href: a-controlaccessrights.md
+      - name: "Cost"
+        href: a-cost.md
+      - name: "Country-Code"
+        href: a-countrycode.md
+      - name: "Country-Name"
+        href: a-c.md
+      - name: "Create-Dialog"
+        href: a-createdialog.md
+      - name: "Create-Time-Stamp"
+        href: a-createtimestamp.md
+      - name: "Create-Wizard-Ext"
+        href: a-createwizardext.md
+      - name: "Creation-Time"
+        href: a-creationtime.md
+      - name: "Creation-Wizard"
+        href: a-creationwizard.md
+      - name: "Creator"
+        href: a-creator.md
+      - name: "CRL-Object"
+        href: a-crlobject.md
+      - name: "CRL-Partitioned-Revocation-List"
+        href: a-crlpartitionedrevocationlist.md
+      - name: "Cross-Certificate-Pair"
+        href: a-crosscertificatepair.md
+      - name: "Current-Location"
+        href: a-currentlocation.md
+      - name: "Current-Parent-CA"
+        href: a-currentparentca.md
+      - name: "Current-Value"
+        href: a-currentvalue.md
+      - name: "Curr-Machine-Id"
+        href: a-currmachineid.md
+      - name: "DBCS-Pwd"
+        href: a-dbcspwd.md
+      - name: "Default-Class-Store"
+        href: a-defaultclassstore.md
+      - name: "Default-Group"
+        href: a-defaultgroup.md
+      - name: "Default-Hiding-Value"
+        href: a-defaulthidingvalue.md
+      - name: "Default-Local-Policy-Object"
+        href: a-defaultlocalpolicyobject.md
+      - name: "Default-Object-Category"
+        href: a-defaultobjectcategory.md
+      - name: "Default-Priority"
+        href: a-defaultpriority.md
+      - name: "Default-Security-Descriptor"
+        href: a-defaultsecuritydescriptor.md
+      - name: "Delta-Revocation-List"
+        href: a-deltarevocationlist.md
+      - name: "Department"
+        href: a-department.md
+      - name: "departmentNumber"
+        href: a-departmentnumber.md
+      - name: "Description"
+        href: a-description.md
+      - name: "Desktop-Profile"
+        href: a-desktopprofile.md
+      - name: "Destination-Indicator"
+        href: a-destinationindicator.md
+      - name: "dhcp-Classes"
+        href: a-dhcpclasses.md
+      - name: "dhcp-Flags"
+        href: a-dhcpflags.md
+      - name: "dhcp-Identification"
+        href: a-dhcpidentification.md
+      - name: "dhcp-Mask"
+        href: a-dhcpmask.md
+      - name: "dhcp-MaxKey"
+        href: a-dhcpmaxkey.md
+      - name: "dhcp-Obj-Description"
+        href: a-dhcpobjdescription.md
+      - name: "dhcp-Obj-Name"
+        href: a-dhcpobjname.md
+      - name: "dhcp-Options"
+        href: a-dhcpoptions.md
+      - name: "dhcp-Properties"
+        href: a-dhcpproperties.md
+      - name: "dhcp-Ranges"
+        href: a-dhcpranges.md
+      - name: "dhcp-Reservations"
+        href: a-dhcpreservations.md
+      - name: "dhcp-Servers"
+        href: a-dhcpservers.md
+      - name: "dhcp-Sites"
+        href: a-dhcpsites.md
+      - name: "dhcp-State"
+        href: a-dhcpstate.md
+      - name: "dhcp-Subnets"
+        href: a-dhcpsubnets.md
+      - name: "dhcp-Type"
+        href: a-dhcptype.md
+      - name: "dhcp-Unique-Key"
+        href: a-dhcpuniquekey.md
+      - name: "dhcp-Update-Time"
+        href: a-dhcpupdatetime.md
+      - name: "Display-Name"
+        href: a-displayname.md
+      - name: "Display-Name-Printable"
+        href: a-displaynameprintable.md
+      - name: "DIT-Content-Rules"
+        href: a-ditcontentrules.md
+      - name: "Division"
+        href: a-division.md
+      - name: "DMD-Location"
+        href: a-dmdlocation.md
+      - name: "DMD-Name"
+        href: a-dmdname.md
+      - name: "DN-Reference-Update"
+        href: a-dnreferenceupdate.md
+      - name: "Dns-Allow-Dynamic"
+        href: a-dnsallowdynamic.md
+      - name: "Dns-Allow-XFR"
+        href: a-dnsallowxfr.md
+      - name: "DNS-Host-Name"
+        href: a-dnshostname.md
+      - name: "Dns-Notify-Secondaries"
+        href: a-dnsnotifysecondaries.md
+      - name: "DNS-Property"
+        href: a-dnsproperty.md
+      - name: "Dns-Record"
+        href: a-dnsrecord.md
+      - name: "Dns-Root"
+        href: a-dnsroot.md
+      - name: "Dns-Secure-Secondaries"
+        href: a-dnssecuresecondaries.md
+      - name: "DNS-Tombstoned"
+        href: a-dnstombstoned.md
+      - name: "documentAuthor"
+        href: a-documentauthor.md
+      - name: "documentIdentifier"
+        href: a-documentidentifier.md
+      - name: "documentLocation"
+        href: a-documentlocation.md
+      - name: "documentPublisher"
+        href: a-documentpublisher.md
+      - name: "documentTitle"
+        href: a-documenttitle.md
+      - name: "documentVersion"
+        href: a-documentversion.md
+      - name: "Domain-Certificate-Authorities"
+        href: a-domaincas.md
+      - name: "Domain-Component"
+        href: a-dc.md
+      - name: "Domain-Cross-Ref"
+        href: a-domaincrossref.md
+      - name: "Domain-ID"
+        href: a-domainid.md
+      - name: "Domain-Identifier"
+        href: a-domainidentifier.md
+      - name: "Domain-Policy-Object"
+        href: a-domainpolicyobject.md
+      - name: "Domain-Policy-Reference"
+        href: a-domainpolicyreference.md
+      - name: "Domain-Replica"
+        href: a-domainreplica.md
+      - name: "Domain-Wide-Policy"
+        href: a-domainwidepolicy.md
+      - name: "drink"
+        href: a-drink.md
+      - name: "Driver-Name"
+        href: a-drivername.md
+      - name: "Driver-Version"
+        href: a-driverversion.md
+      - name: "DSA-Signature"
+        href: a-dsasignature.md
+      - name: "DS-Core-Propagation-Data"
+        href: a-dscorepropagationdata.md
+      - name: "DS-Heuristics"
+        href: a-dsheuristics.md
+      - name: "DS-UI-Admin-Maximum"
+        href: a-dsuiadminmaximum.md
+      - name: "DS-UI-Admin-Notification"
+        href: a-dsuiadminnotification.md
+      - name: "DS-UI-Shell-Maximum"
+        href: a-dsuishellmaximum.md
+      - name: "Dynamic-LDAP-Server"
+        href: a-dynamicldapserver.md
+      - name: "EFSPolicy"
+        href: a-efspolicy.md
+      - name: "E-mail-Addresses"
+        href: a-mail.md
+      - name: "Employee-ID"
+        href: a-employeeid.md
+      - name: "Employee-Number"
+        href: a-employeenumber.md
+      - name: "Employee-Type"
+        href: a-employeetype.md
+      - name: "Enabled"
+        href: a-enabled.md
+      - name: "Enabled-Connection"
+        href: a-enabledconnection.md
+      - name: "Enrollment-Providers"
+        href: a-enrollmentproviders.md
+      - name: "Entry-TTL"
+        href: a-entryttl.md
+      - name: "Extended-Attribute-Info"
+        href: a-extendedattributeinfo.md
+      - name: "Extended-Chars-Allowed"
+        href: a-extendedcharsallowed.md
+      - name: "Extended-Class-Info"
+        href: a-extendedclassinfo.md
+      - name: "Extension-Name"
+        href: a-extensionname.md
+      - name: "Extra-Columns"
+        href: a-extracolumns.md
+      - name: "Facsimile-Telephone-Number"
+        href: a-facsimiletelephonenumber.md
+      - name: "File-Ext-Priority"
+        href: a-fileextpriority.md
+      - name: "Flags"
+        href: a-flags.md
+      - name: "Flat-Name"
+        href: a-flatname.md
+      - name: "Force-Logoff"
+        href: a-forcelogoff.md
+      - name: "Foreign-Identifier"
+        href: a-foreignidentifier.md
+      - name: "Friendly-Names"
+        href: a-friendlynames.md
+      - name: "From-Entry"
+        href: a-fromentry.md
+      - name: "From-Server"
+        href: a-fromserver.md
+      - name: "Frs-Computer-Reference"
+        href: a-frscomputerreference.md
+      - name: "Frs-Computer-Reference-BL"
+        href: a-frscomputerreferencebl.md
+      - name: "FRS-Control-Data-Creation"
+        href: a-frscontroldatacreation.md
+      - name: "FRS-Control-Inbound-Backlog"
+        href: a-frscontrolinboundbacklog.md
+      - name: "FRS-Control-Outbound-Backlog"
+        href: a-frscontroloutboundbacklog.md
+      - name: "FRS-Directory-Filter"
+        href: a-frsdirectoryfilter.md
+      - name: "FRS-DS-Poll"
+        href: a-frsdspoll.md
+      - name: "FRS-Extensions"
+        href: a-frsextensions.md
+      - name: "FRS-Fault-Condition"
+        href: a-frsfaultcondition.md
+      - name: "FRS-File-Filter"
+        href: a-frsfilefilter.md
+      - name: "FRS-Flags"
+        href: a-frsflags.md
+      - name: "FRS-Level-Limit"
+        href: a-frslevellimit.md
+      - name: "FRS-Member-Reference"
+        href: a-frsmemberreference.md
+      - name: "FRS-Member-Reference-BL"
+        href: a-frsmemberreferencebl.md
+      - name: "FRS-Partner-Auth-Level"
+        href: a-frspartnerauthlevel.md
+      - name: "FRS-Primary-Member"
+        href: a-frsprimarymember.md
+      - name: "FRS-Replica-Set-GUID"
+        href: a-frsreplicasetguid.md
+      - name: "FRS-Replica-Set-Type"
+        href: a-frsreplicasettype.md
+      - name: "FRS-Root-Path"
+        href: a-frsrootpath.md
+      - name: "FRS-Root-Security"
+        href: a-frsrootsecurity.md
+      - name: "FRS-Service-Command"
+        href: a-frsservicecommand.md
+      - name: "FRS-Service-Command-Status"
+        href: a-frsservicecommandstatus.md
+      - name: "FRS-Staging-Path"
+        href: a-frsstagingpath.md
+      - name: "FRS-Time-Last-Command"
+        href: a-frstimelastcommand.md
+      - name: "FRS-Time-Last-Config-Change"
+        href: a-frstimelastconfigchange.md
+      - name: "FRS-Update-Timeout"
+        href: a-frsupdatetimeout.md
+      - name: "FRS-Version"
+        href: a-frsversion.md
+      - name: "FRS-Version-GUID"
+        href: a-frsversionguid.md
+      - name: "FRS-Working-Path"
+        href: a-frsworkingpath.md
+      - name: "FSMO-Role-Owner"
+        href: a-fsmoroleowner.md
+      - name: "Garbage-Coll-Period"
+        href: a-garbagecollperiod.md
+      - name: "gecos"
+        href: a-gecos.md
+      - name: "Generated-Connection"
+        href: a-generatedconnection.md
+      - name: "Generation-Qualifier"
+        href: a-generationqualifier.md
+      - name: "gidNumber"
+        href: a-gidnumber.md
+      - name: "Given-Name"
+        href: a-givenname.md
+      - name: "Global-Address-List"
+        href: a-globaladdresslist.md
+      - name: "Global-Address-List2"
+        href: a-globaladdresslist2.md
+      - name: "Governs-ID"
+        href: a-governsid.md
+      - name: "GPC-File-Sys-Path"
+        href: a-gpcfilesyspath.md
+      - name: "GPC-Functionality-Version"
+        href: a-gpcfunctionalityversion.md
+      - name: "GPC-Machine-Extension-Names"
+        href: a-gpcmachineextensionnames.md
+      - name: "GPC-User-Extension-Names"
+        href: a-gpcuserextensionnames.md
+      - name: "GPC-WQL-Filter"
+        href: a-gpcwqlfilter.md
+      - name: "GP-Link"
+        href: a-gplink.md
+      - name: "GP-Options"
+        href: a-gpoptions.md
+      - name: "Group-Attributes"
+        href: a-groupattributes.md
+      - name: "Group-Membership-SAM"
+        href: a-groupmembershipsam.md
+      - name: "Group-Priority"
+        href: a-grouppriority.md
+      - name: "Groups-to-Ignore"
+        href: a-groupstoignore.md
+      - name: "Group-Type"
+        href: a-grouptype.md
+      - name: "Has-Master-NCs"
+        href: a-hasmasterncs.md
+      - name: "Has-Partial-Replica-NCs"
+        href: a-haspartialreplicancs.md
+      - name: "Help-Data16"
+        href: a-helpdata16.md
+      - name: "Help-Data32"
+        href: a-helpdata32.md
+      - name: "Help-File-Name"
+        href: a-helpfilename.md
+      - name: "Hide-From-AB"
+        href: a-hidefromab.md
+      - name: "Home-Directory"
+        href: a-homedirectory.md
+      - name: "Home-Drive"
+        href: a-homedrive.md
+      - name: "host"
+        href: a-host.md
+      - name: "houseIdentifier"
+        href: a-houseidentifier.md
+      - name: "Icon-Path"
+        href: a-iconpath.md
+      - name: "Implemented-Categories"
+        href: a-implementedcategories.md
+      - name: "IndexedScopes"
+        href: a-indexedscopes.md
+      - name: "Initial-Auth-Incoming"
+        href: a-initialauthincoming.md
+      - name: "Initial-Auth-Outgoing"
+        href: a-initialauthoutgoing.md
+      - name: "Initials"
+        href: a-initials.md
+      - name: "Install-Ui-Level"
+        href: a-installuilevel.md
+      - name: "Instance-Type"
+        href: a-instancetype.md
+      - name: "International-ISDN-Number"
+        href: a-internationalisdnnumber.md
+      - name: "Inter-Site-Topology-Failover"
+        href: a-intersitetopologyfailover.md
+      - name: "Inter-Site-Topology-Generator"
+        href: a-intersitetopologygenerator.md
+      - name: "Inter-Site-Topology-Renew"
+        href: a-intersitetopologyrenew.md
+      - name: "Invocation-Id"
+        href: a-invocationid.md
+      - name: "ipHostNumber"
+        href: a-iphostnumber.md
+      - name: "ipNetmaskNumber"
+        href: a-ipnetmasknumber.md
+      - name: "ipNetworkNumber"
+        href: a-ipnetworknumber.md
+      - name: "ipProtocolNumber"
+        href: a-ipprotocolnumber.md
+      - name: "Ipsec-Data"
+        href: a-ipsecdata.md
+      - name: "Ipsec-Data-Type"
+        href: a-ipsecdatatype.md
+      - name: "Ipsec-Filter-Reference"
+        href: a-ipsecfilterreference.md
+      - name: "Ipsec-ID"
+        href: a-ipsecid.md
+      - name: "Ipsec-ISAKMP-Reference"
+        href: a-ipsecisakmpreference.md
+      - name: "Ipsec-Name"
+        href: a-ipsecname.md
+      - name: "IPSEC-Negotiation-Policy-Action"
+        href: a-ipsecnegotiationpolicyaction.md
+      - name: "Ipsec-Negotiation-Policy-Reference"
+        href: a-ipsecnegotiationpolicyreference.md
+      - name: "IPSEC-Negotiation-Policy-Type"
+        href: a-ipsecnegotiationpolicytype.md
+      - name: "Ipsec-NFA-Reference"
+        href: a-ipsecnfareference.md
+      - name: "Ipsec-Owners-Reference"
+        href: a-ipsecownersreference.md
+      - name: "Ipsec-Policy-Reference"
+        href: a-ipsecpolicyreference.md
+      - name: "ipServicePort"
+        href: a-ipserviceport.md
+      - name: "ipServiceProtocol"
+        href: a-ipserviceprotocol.md
+      - name: "Is-Critical-System-Object"
+        href: a-iscriticalsystemobject.md
+      - name: "Is-Defunct"
+        href: a-isdefunct.md
+      - name: "Is-Deleted"
+        href: a-isdeleted.md
+      - name: "Is-Ephemeral"
+        href: a-isephemeral.md
+      - name: "Is-Member-Of-DL"
+        href: a-memberof.md
+      - name: "Is-Member-Of-Partial-Attribute-Set"
+        href: a-ismemberofpartialattributeset.md
+      - name: "Is-Privilege-Holder"
+        href: a-isprivilegeholder.md
+      - name: "Is-Recycled"
+        href: a-isrecycled.md
+      - name: "Is-Single-Valued"
+        href: a-issinglevalued.md
+      - name: "jpegPhoto"
+        href: a-jpegphoto.md
+      - name: "Keywords"
+        href: a-keywords.md
+      - name: "Knowledge-Information"
+        href: a-knowledgeinformation.md
+      - name: "labeledURI"
+        href: a-labeleduri.md
+      - name: "Last-Backup-Restoration-Time"
+        href: a-lastbackuprestorationtime.md
+      - name: "Last-Content-Indexed"
+        href: a-lastcontentindexed.md
+      - name: "Last-Known-Parent"
+        href: a-lastknownparent.md
+      - name: "Last-Logoff"
+        href: a-lastlogoff.md
+      - name: "Last-Logon"
+        href: a-lastlogon.md
+      - name: "Last-Logon-Timestamp"
+        href: a-lastlogontimestamp.md
+      - name: "Last-Set-Time"
+        href: a-lastsettime.md
+      - name: "Last-Update-Sequence"
+        href: a-lastupdatesequence.md
+      - name: "LDAP-Admin-Limits"
+        href: a-ldapadminlimits.md
+      - name: "LDAP-Display-Name"
+        href: a-ldapdisplayname.md
+      - name: "LDAP-IPDeny-List"
+        href: a-ldapipdenylist.md
+      - name: "Legacy-Exchange-DN"
+        href: a-legacyexchangedn.md
+      - name: "Link-ID"
+        href: a-linkid.md
+      - name: "Link-Track-Secret"
+        href: a-linktracksecret.md
+      - name: "Lm-Pwd-History"
+        href: a-lmpwdhistory.md
+      - name: "Locale-ID"
+        href: a-localeid.md
+      - name: "Locality-Name"
+        href: a-l.md
+      - name: "Localization-Display-Id"
+        href: a-localizationdisplayid.md
+      - name: "Localized-Description"
+        href: a-localizeddescription.md
+      - name: "Local-Policy-Flags"
+        href: a-localpolicyflags.md
+      - name: "Local-Policy-Reference"
+        href: a-localpolicyreference.md
+      - name: "Location"
+        href: a-location.md
+      - name: "Lockout-Duration"
+        href: a-lockoutduration.md
+      - name: "Lock-Out-Observation-Window"
+        href: a-lockoutobservationwindow.md
+      - name: "Lockout-Threshold"
+        href: a-lockoutthreshold.md
+      - name: "Lockout-Time"
+        href: a-lockouttime.md
+      - name: "loginShell"
+        href: a-loginshell.md
+      - name: "Logo"
+        href: a-thumbnaillogo.md
+      - name: "Logon-Count"
+        href: a-logoncount.md
+      - name: "Logon-Hours"
+        href: a-logonhours.md
+      - name: "Logon-Workstation"
+        href: a-logonworkstation.md
+      - name: "LSA-Creation-Time"
+        href: a-lsacreationtime.md
+      - name: "LSA-Modified-Count"
+        href: a-lsamodifiedcount.md
+      - name: "macAddress"
+        href: a-macaddress.md
+      - name: "Machine-Architecture"
+        href: a-machinearchitecture.md
+      - name: "Machine-Password-Change-Interval"
+        href: a-machinepasswordchangeinterval.md
+      - name: "Machine-Role"
+        href: a-machinerole.md
+      - name: "Machine-Wide-Policy"
+        href: a-machinewidepolicy.md
+      - name: "Managed-By"
+        href: a-managedby.md
+      - name: "Managed-Objects"
+        href: a-managedobjects.md
+      - name: "Manager"
+        href: a-manager.md
+      - name: "MAPI-ID"
+        href: a-mapiid.md
+      - name: "Marshalled-Interface"
+        href: a-marshalledinterface.md
+      - name: "Mastered-By"
+        href: a-masteredby.md
+      - name: "Max-Pwd-Age"
+        href: a-maxpwdage.md
+      - name: "Max-Renew-Age"
+        href: a-maxrenewage.md
+      - name: "Max-Storage"
+        href: a-maxstorage.md
+      - name: "Max-Ticket-Age"
+        href: a-maxticketage.md
+      - name: "May-Contain"
+        href: a-maycontain.md
+      - name: "meetingAdvertiseScope"
+        href: a-meetingadvertisescope.md
+      - name: "meetingApplication"
+        href: a-meetingapplication.md
+      - name: "meetingBandwidth"
+        href: a-meetingbandwidth.md
+      - name: "meetingBlob"
+        href: a-meetingblob.md
+      - name: "meetingContactInfo"
+        href: a-meetingcontactinfo.md
+      - name: "meetingDescription"
+        href: a-meetingdescription.md
+      - name: "meetingEndTime"
+        href: a-meetingendtime.md
+      - name: "meetingID"
+        href: a-meetingid.md
+      - name: "meetingIP"
+        href: a-meetingip.md
+      - name: "meetingIsEncrypted"
+        href: a-meetingisencrypted.md
+      - name: "meetingKeyword"
+        href: a-meetingkeyword.md
+      - name: "meetingLanguage"
+        href: a-meetinglanguage.md
+      - name: "meetingLocation"
+        href: a-meetinglocation.md
+      - name: "meetingMaxParticipants"
+        href: a-meetingmaxparticipants.md
+      - name: "meetingName"
+        href: a-meetingname.md
+      - name: "meetingOriginator"
+        href: a-meetingoriginator.md
+      - name: "meetingOwner"
+        href: a-meetingowner.md
+      - name: "meetingProtocol"
+        href: a-meetingprotocol.md
+      - name: "meetingRating"
+        href: a-meetingrating.md
+      - name: "meetingRecurrence"
+        href: a-meetingrecurrence.md
+      - name: "meetingScope"
+        href: a-meetingscope.md
+      - name: "meetingStartTime"
+        href: a-meetingstarttime.md
+      - name: "meetingType"
+        href: a-meetingtype.md
+      - name: "meetingURL"
+        href: a-meetingurl.md
+      - name: "Member"
+        href: a-member.md
+      - name: "memberNisNetgroup"
+        href: a-membernisnetgroup.md
+      - name: "memberUid"
+        href: a-memberuid.md
+      - name: "MHS-OR-Address"
+        href: a-mhsoraddress.md
+      - name: "Min-Pwd-Age"
+        href: a-minpwdage.md
+      - name: "Min-Pwd-Length"
+        href: a-minpwdlength.md
+      - name: "Min-Ticket-Age"
+        href: a-minticketage.md
+      - name: "Modified-Count"
+        href: a-modifiedcount.md
+      - name: "Modified-Count-At-Last-Prom"
+        href: a-modifiedcountatlastprom.md
+      - name: "Modify-Time-Stamp"
+        href: a-modifytimestamp.md
+      - name: "Moniker"
+        href: a-moniker.md
+      - name: "Moniker-Display-Name"
+        href: a-monikerdisplayname.md
+      - name: "Move-Tree-State"
+        href: a-movetreestate.md
+      - name: "ms-Authz-Central-Access-Policy-ID"
+        href: a-msauthz-centralaccesspolicyid.md
+      - name: "ms-Authz-Effective-Security-Policy"
+        href: a-msauthz-effectivesecuritypolicy.md
+      - name: "ms-Authz-Last-Effective-Security-Policy"
+        href: a-msauthz-lasteffectivesecuritypolicy.md
+      - name: "ms-Authz-Member-Rules-In-Central-Access-Policy"
+        href: a-msauthz-memberrulesincentralaccesspolicy.md
+      - name: "ms-Authz-Member-Rules-In-Central-Access-Policy-BL"
+        href: a-msauthz-memberrulesincentralaccesspolicybl.md
+      - name: "ms-Authz-Proposed-Security-Policy"
+        href: a-msauthz-proposedsecuritypolicy.md
+      - name: "ms-Authz-Resource-Condition"
+        href: a-msauthz-resourcecondition.md
+      - name: "ms-COM-DefaultPartitionLink"
+        href: a-mscom-defaultpartitionlink.md
+      - name: "ms-COM-ObjectId"
+        href: a-mscom-objectid.md
+      - name: "ms-COM-PartitionLink"
+        href: a-mscom-partitionlink.md
+      - name: "ms-COM-PartitionSetLink"
+        href: a-mscom-partitionsetlink.md
+      - name: "ms-COM-UserLink"
+        href: a-mscom-userlink.md
+      - name: "ms-COM-UserPartitionSetLink"
+        href: a-mscom-userpartitionsetlink.md
+      - name: "Mscope-Id"
+        href: a-mscopeid.md
+      - name: "ms-DFS-Comment-v2"
+        href: a-msdfs-commentv2.md
+      - name: "ms-DFS-Generation-GUID-v2"
+        href: a-msdfs-generationguidv2.md
+      - name: "ms-DFS-Last-Modified-v2"
+        href: a-msdfs-lastmodifiedv2.md
+      - name: "ms-DFS-Link-Identity-GUID-v2"
+        href: a-msdfs-linkidentityguidv2.md
+      - name: "ms-DFS-Link-Path-v2"
+        href: a-msdfs-linkpathv2.md
+      - name: "ms-DFS-Link-Security-Descriptor-v2"
+        href: a-msdfs-linksecuritydescriptorv2.md
+      - name: "ms-DFS-Namespace-Identity-GUID-v2"
+        href: a-msdfs-namespaceidentityguidv2.md
+      - name: "ms-DFS-Properties-v2"
+        href: a-msdfs-propertiesv2.md
+      - name: "ms-DFSR-CachePolicy"
+        href: a-msdfsr-cachepolicy.md
+      - name: "ms-DFSR-CommonStagingPath"
+        href: a-msdfsr-commonstagingpath.md
+      - name: "ms-DFSR-CommonStagingSizeInMb"
+        href: a-msdfsr-commonstagingsizeinmb.md
+      - name: "ms-DFSR-ComputerReference"
+        href: a-msdfsr-computerreference.md
+      - name: "ms-DFSR-ComputerReferenceBL"
+        href: a-msdfsr-computerreferencebl.md
+      - name: "ms-DFSR-ConflictPath"
+        href: a-msdfsr-conflictpath.md
+      - name: "ms-DFSR-ConflictSizeInMb"
+        href: a-msdfsr-conflictsizeinmb.md
+      - name: "ms-DFSR-ContentSetGuid"
+        href: a-msdfsr-contentsetguid.md
+      - name: "ms-DFSR-DefaultCompressionExclusionFilter"
+        href: a-msdfsr-defaultcompressionexclusionfilter.md
+      - name: "ms-DFSR-DeletedPath"
+        href: a-msdfsr-deletedpath.md
+      - name: "ms-DFSR-DeletedSizeInMb"
+        href: a-msdfsr-deletedsizeinmb.md
+      - name: "ms-DFSR-DfsLinkTarget"
+        href: a-msdfsr-dfslinktarget.md
+      - name: "ms-DFSR-DfsPath"
+        href: a-msdfsr-dfspath.md
+      - name: "ms-DFSR-DirectoryFilter"
+        href: a-msdfsr-directoryfilter.md
+      - name: "ms-DFSR-DisablePacketPrivacy"
+        href: a-msdfsr-disablepacketprivacy.md
+      - name: "ms-DFSR-Enabled"
+        href: a-msdfsr-enabled.md
+      - name: "ms-DFSR-Extension"
+        href: a-msdfsr-extension.md
+      - name: "ms-DFSR-FileFilter"
+        href: a-msdfsr-filefilter.md
+      - name: "ms-DFSR-Flags"
+        href: a-msdfsr-flags.md
+      - name: "ms-DFSR-Keywords"
+        href: a-msdfsr-keywords.md
+      - name: "ms-DFSR-MaxAgeInCacheInMin"
+        href: a-msdfsr-maxageincacheinmin.md
+      - name: "ms-DFSR-MemberReference"
+        href: a-msdfsr-memberreference.md
+      - name: "ms-DFSR-MemberReferenceBL"
+        href: a-msdfsr-memberreferencebl.md
+      - name: "ms-DFSR-MinDurationCacheInMin"
+        href: a-msdfsr-mindurationcacheinmin.md
+      - name: "ms-DFSR-OnDemandExclusionDirectoryFilter"
+        href: a-msdfsr-ondemandexclusiondirectoryfilter.md
+      - name: "ms-DFSR-OnDemandExclusionFileFilter"
+        href: a-msdfsr-ondemandexclusionfilefilter.md
+      - name: "ms-DFSR-Options"
+        href: a-msdfsr-options.md
+      - name: "ms-DFSR-Options2"
+        href: a-msdfsr-options2.md
+      - name: "ms-DFSR-Priority"
+        href: a-msdfsr-priority.md
+      - name: "ms-DFSR-RdcEnabled"
+        href: a-msdfsr-rdcenabled.md
+      - name: "ms-DFSR-RdcMinFileSizeInKb"
+        href: a-msdfsr-rdcminfilesizeinkb.md
+      - name: "ms-DFSR-ReadOnly"
+        href: a-msdfsr-readonly.md
+      - name: "ms-DFSR-ReplicationGroupGuid"
+        href: a-msdfsr-replicationgroupguid.md
+      - name: "ms-DFSR-ReplicationGroupType"
+        href: a-msdfsr-replicationgrouptype.md
+      - name: "ms-DFSR-RootFence"
+        href: a-msdfsr-rootfence.md
+      - name: "ms-DFSR-RootPath"
+        href: a-msdfsr-rootpath.md
+      - name: "ms-DFSR-RootSizeInMb"
+        href: a-msdfsr-rootsizeinmb.md
+      - name: "ms-DFSR-Schedule"
+        href: a-msdfsr-schedule.md
+      - name: "ms-DFSR-StagingCleanupTriggerInPercent"
+        href: a-msdfsr-stagingcleanuptriggerinpercent.md
+      - name: "ms-DFSR-StagingPath"
+        href: a-msdfsr-stagingpath.md
+      - name: "ms-DFSR-StagingSizeInMb"
+        href: a-msdfsr-stagingsizeinmb.md
+      - name: "ms-DFSR-TombstoneExpiryInMin"
+        href: a-msdfsr-tombstoneexpiryinmin.md
+      - name: "ms-DFSR-Version"
+        href: a-msdfsr-version.md
+      - name: "ms-DFS-Schema-Major-Version"
+        href: a-msdfs-schemamajorversion.md
+      - name: "ms-DFS-Schema-Minor-Version"
+        href: a-msdfs-schemaminorversion.md
+      - name: "ms-DFS-Short-Name-Link-Path-v2"
+        href: a-msdfs-shortnamelinkpathv2.md
+      - name: "ms-DFS-Target-List-v2"
+        href: a-msdfs-targetlistv2.md
+      - name: "ms-DFS-Ttl-v2"
+        href: a-msdfs-ttlv2.md
+      - name: "ms-DNS-DNSKEY-Records"
+        href: a-msdns-dnskeyrecords.md
+      - name: "ms-DNS-DNSKEY-Record-Set-TTL"
+        href: a-msdns-dnskeyrecordsetttl.md
+      - name: "ms-DNS-DS-Record-Algorithms"
+        href: a-msdns-dsrecordalgorithms.md
+      - name: "ms-DNS-DS-Record-Set-TTL"
+        href: a-msdns-dsrecordsetttl.md
+      - name: "ms-DNS-Is-Signed"
+        href: a-msdns-issigned.md
+      - name: "ms-DNS-Keymaster-Zones"
+        href: a-msdns-keymasterzones.md
+      - name: "ms-DNS-Maintain-Trust-Anchor"
+        href: a-msdns-maintaintrustanchor.md
+      - name: "ms-DNS-NSEC3-Current-Salt"
+        href: a-msdns-nsec3currentsalt.md
+      - name: "ms-DNS-NSEC3-Hash-Algorithm"
+        href: a-msdns-nsec3hashalgorithm.md
+      - name: "ms-DNS-NSEC3-Iterations"
+        href: a-msdns-nsec3iterations.md
+      - name: "ms-DNS-NSEC3-OptOut"
+        href: a-msdns-nsec3optout.md
+      - name: "ms-DNS-NSEC3-Random-Salt-Length"
+        href: a-msdns-nsec3randomsaltlength.md
+      - name: "ms-DNS-NSEC3-User-Salt"
+        href: a-msdns-nsec3usersalt.md
+      - name: "ms-DNS-Parent-Has-Secure-Delegation"
+        href: a-msdns-parenthassecuredelegation.md
+      - name: "ms-DNS-Propagation-Time"
+        href: a-msdns-propagationtime.md
+      - name: "ms-DNS-RFC5011-Key-Rollovers"
+        href: a-msdns-rfc5011keyrollovers.md
+      - name: "ms-DNS-Secure-Delegation-Polling-Period"
+        href: a-msdns-securedelegationpollingperiod.md
+      - name: "ms-DNS-Signature-Inception-Offset"
+        href: a-msdns-signatureinceptionoffset.md
+      - name: "ms-DNS-Signing-Key-Descriptors"
+        href: a-msdns-signingkeydescriptors.md
+      - name: "ms-DNS-Signing-Keys"
+        href: a-msdns-signingkeys.md
+      - name: "ms-DNS-Sign-With-NSEC3"
+        href: a-msdns-signwithnsec3.md
+      - name: "MS-DRM-Identity-Certificate"
+        href: a-msdrm-identitycertificate.md
+      - name: "ms-DS-Additional-Dns-Host-Name"
+        href: a-msds-additionaldnshostname.md
+      - name: "ms-DS-Additional-Sam-Account-Name"
+        href: a-msds-additionalsamaccountname.md
+      - name: "ms-DS-Allowed-DNS-Suffixes"
+        href: a-msds-alloweddnssuffixes.md
+      - name: "ms-DS-Allowed-To-Act-On-Behalf-Of-Other-Identity"
+        href: a-msds-allowedtoactonbehalfofotheridentity.md
+      - name: "ms-DS-Allowed-To-Delegate-To"
+        href: a-msds-allowedtodelegateto.md
+      - name: "MS-DS-All-Users-Trust-Quota"
+        href: a-msds-alluserstrustquota.md
+      - name: "ms-DS-Applies-To-Resource-Types"
+        href: a-msds-appliestoresourcetypes.md
+      - name: "ms-DS-Approx-Immed-Subordinates"
+        href: a-msds-approx-immed-subordinates.md
+      - name: "ms-DS-AuthenticatedAt-DC"
+        href: a-msds-authenticatedatdc.md
+      - name: "ms-DS-AuthenticatedTo-Accountlist"
+        href: a-msds-authenticatedtoaccountlist.md
+      - name: "ms-DS-Auxiliary-Classes"
+        href: a-msds-auxiliary-classes.md
+      - name: "ms-DS-Az-Application-Data"
+        href: a-msds-azapplicationdata.md
+      - name: "ms-DS-Az-Application-Name"
+        href: a-msds-azapplicationname.md
+      - name: "ms-DS-Az-Application-Version"
+        href: a-msds-azapplicationversion.md
+      - name: "ms-DS-Az-Biz-Rule"
+        href: a-msds-azbizrule.md
+      - name: "ms-DS-Az-Biz-Rule-Language"
+        href: a-msds-azbizrulelanguage.md
+      - name: "ms-DS-Az-Class-ID"
+        href: a-msds-azclassid.md
+      - name: "ms-DS-Az-Domain-Timeout"
+        href: a-msds-azdomaintimeout.md
+      - name: "ms-DS-Az-Generate-Audits"
+        href: a-msds-azgenerateaudits.md
+      - name: "ms-DS-Az-Generic-Data"
+        href: a-msds-azgenericdata.md
+      - name: "ms-DS-Az-Last-Imported-Biz-Rule-Path"
+        href: a-msds-azlastimportedbizrulepath.md
+      - name: "ms-DS-Az-LDAP-Query"
+        href: a-msds-azldapquery.md
+      - name: "ms-DS-Az-Major-Version"
+        href: a-msds-azmajorversion.md
+      - name: "ms-DS-Az-Minor-Version"
+        href: a-msds-azminorversion.md
+      - name: "ms-DS-Az-Object-Guid"
+        href: a-msds-azobjectguid.md
+      - name: "ms-DS-Az-Operation-ID"
+        href: a-msds-azoperationid.md
+      - name: "ms-DS-Az-Scope-Name"
+        href: a-msds-azscopename.md
+      - name: "ms-DS-Az-Script-Engine-Cache-Max"
+        href: a-msds-azscriptenginecachemax.md
+      - name: "ms-DS-Az-Script-Timeout"
+        href: a-msds-azscripttimeout.md
+      - name: "ms-DS-Az-Task-Is-Role-Definition"
+        href: a-msds-aztaskisroledefinition.md
+      - name: "ms-DS-Behavior-Version"
+        href: a-msds-behavior-version.md
+      - name: "ms-DS-BridgeHead-Servers-Used"
+        href: a-msds-bridgeheadserversused.md
+      - name: "ms-DS-Byte-Array"
+        href: a-msds-bytearray.md
+      - name: "ms-DS-Cached-Membership"
+        href: a-msds-cached-membership.md
+      - name: "ms-DS-Cached-Membership-Time-Stamp"
+        href: a-msds-cached-membership-time-stamp.md
+      - name: "ms-DS-Claim-Attribute-Source"
+        href: a-msds-claimattributesource.md
+      - name: "ms-DS-Claim-Is-Single-Valued"
+        href: a-msds-claimissinglevalued.md
+      - name: "ms-DS-Claim-Is-Value-Space-Restricted"
+        href: a-msds-claimisvaluespacerestricted.md
+      - name: "ms-DS-Claim-Possible-Values"
+        href: a-msds-claimpossiblevalues.md
+      - name: "ms-DS-Claim-Shares-Possible-Values-With"
+        href: a-msds-claimsharespossiblevalueswith.md
+      - name: "ms-DS-Claim-Shares-Possible-Values-With-BL"
+        href: a-msds-claimsharespossiblevalueswithbl.md
+      - name: "ms-DS-Claim-Source"
+        href: a-msds-claimsource.md
+      - name: "ms-DS-Claim-Source-Type"
+        href: a-msds-claimsourcetype.md
+      - name: "ms-DS-Claim-Type-Applies-To-Class"
+        href: a-msds-claimtypeappliestoclass.md
+      - name: "ms-DS-Claim-Value-Type"
+        href: a-msds-claimvaluetype.md
+      - name: "MS-DS-Consistency-Child-Count"
+        href: a-ms-ds-consistencychildcount.md
+      - name: "MS-DS-Consistency-Guid"
+        href: a-ms-ds-consistencyguid.md
+      - name: "MS-DS-Creator-SID"
+        href: a-ms-ds-creatorsid.md
+      - name: "ms-DS-Date-Time"
+        href: a-msds-datetime.md
+      - name: "ms-DS-Default-Quota"
+        href: a-msds-defaultquota.md
+      - name: "ms-DS-Deleted-Object-Lifetime"
+        href: a-msds-deletedobjectlifetime.md
+      - name: "ms-DS-Disable-For-Instances"
+        href: a-msds-disableforinstances.md
+      - name: "ms-DS-Disable-For-Instances-BL"
+        href: a-msds-disableforinstancesbl.md
+      - name: "ms-DS-DnsRootAlias"
+        href: a-msds-dnsrootalias.md
+      - name: "ms-DS-Egress-Claims-Transformation-Policy"
+        href: a-msds-egressclaimstransformationpolicy.md
+      - name: "ms-DS-Enabled-Feature"
+        href: a-msds-enabledfeature.md
+      - name: "ms-DS-Enabled-Feature-BL"
+        href: a-msds-enabledfeaturebl.md
+      - name: "ms-DS-Entry-Time-To-Die"
+        href: a-msds-entry-time-to-die.md
+      - name: "ms-DS-ExecuteScriptPassword"
+        href: a-msds-executescriptpassword.md
+      - name: "ms-DS-External-Key"
+        href: a-msds-externalkey.md
+      - name: "ms-DS-External-Store"
+        href: a-msds-externalstore.md
+      - name: "ms-DS-Failed-Interactive-Logon-Count"
+        href: a-msds-failedinteractivelogoncount.md
+      - name: "ms-DS-Failed-Interactive-Logon-Count-At-Last-Successful-Logon"
+        href: a-msds-failedinteractivelogoncountatlastsuccessfullogon.md
+      - name: "ms-DS-Filter-Containers"
+        href: a-msds-filtercontainers.md
+      - name: "ms-DS-Generation-Id"
+        href: a-msds-generationid.md
+      - name: "ms-DS-GeoCoordinates-Altitude"
+        href: a-msds-geocoordinatesaltitude.md
+      - name: "ms-DS-GeoCoordinates-Latitude"
+        href: a-msds-geocoordinateslatitude.md
+      - name: "ms-DS-GeoCoordinates-Longitude"
+        href: a-msds-geocoordinateslongitude.md
+      - name: "ms-DS-GroupMSAMembership"
+        href: a-msds-groupmsamembership.md
+      - name: "ms-DS-HAB-Seniority-Index"
+        href: a-msds-habseniorityindex.md
+      - name: "ms-DS-Has-Domain-NCs"
+        href: a-msds-hasdomainncs.md
+      - name: "ms-DS-Has-Full-Replica-NCs"
+        href: a-msds-hasfullreplicancs.md
+      - name: "ms-DS-Has-Instantiated-NCs"
+        href: a-msds-hasinstantiatedncs.md
+      - name: "ms-DS-Has-Master-NCs"
+        href: a-msds-hasmasterncs.md
+      - name: "ms-DS-Host-Service-Account"
+        href: a-msds-hostserviceaccount.md
+      - name: "ms-DS-Host-Service-Account-BL"
+        href: a-msds-hostserviceaccountbl.md
+      - name: "ms-DS-Ingress-Claims-Transformation-Policy"
+        href: a-msds-ingressclaimstransformationpolicy.md
+      - name: "ms-DS-Integer"
+        href: a-msds-integer.md
+      - name: "ms-DS-IntId"
+        href: a-msds-intid.md
+      - name: "ms-DS-Is-Domain-For"
+        href: a-msds-isdomainfor.md
+      - name: "ms-DS-Is-Full-Replica-For"
+        href: a-msds-isfullreplicafor.md
+      - name: "ms-DS-isGC"
+        href: a-msds-isgc.md
+      - name: "ms-DS-Is-Partial-Replica-For"
+        href: a-msds-ispartialreplicafor.md
+      - name: "ms-DS-Is-Possible-Values-Present"
+        href: a-msds-ispossiblevaluespresent.md
+      - name: "ms-DS-Is-Primary-Computer-For"
+        href: a-msds-isprimarycomputerfor.md
+      - name: "ms-DS-isRODC"
+        href: a-msds-isrodc.md
+      - name: "ms-DS-Is-Used-As-Resource-Security-Attribute"
+        href: a-msds-isusedasresourcesecurityattribute.md
+      - name: "ms-DS-Is-User-Cachable-At-Rodc"
+        href: a-msds-isusercachableatrodc.md
+      - name: "ms-DS-KeyVersionNumber"
+        href: a-msds-keyversionnumber.md
+      - name: "ms-DS-KrbTgt-Link"
+        href: a-msds-krbtgtlink.md
+      - name: "ms-DS-KrbTgt-Link-BL"
+        href: a-msds-krbtgtlinkbl.md
+      - name: "ms-DS-Last-Failed-Interactive-Logon-Time"
+        href: a-msds-lastfailedinteractivelogontime.md
+      - name: "ms-DS-Last-Known-RDN"
+        href: a-msds-lastknownrdn.md
+      - name: "ms-DS-Last-Successful-Interactive-Logon-Time"
+        href: a-msds-lastsuccessfulinteractivelogontime.md
+      - name: "ms-DS-local-Effective-Deletion-Time"
+        href: a-msds-localeffectivedeletiontime.md
+      - name: "ms-DS-local-Effective-Recycle-Time"
+        href: a-msds-localeffectiverecycletime.md
+      - name: "ms-DS-Lockout-Duration"
+        href: a-msds-lockoutduration.md
+      - name: "ms-DS-Lockout-Observation-Window"
+        href: a-msds-lockoutobservationwindow.md
+      - name: "ms-DS-Lockout-Threshold"
+        href: a-msds-lockoutthreshold.md
+      - name: "ms-DS-Logon-Time-Sync-Interval"
+        href: a-msds-logontimesyncinterval.md
+      - name: "MS-DS-Machine-Account-Quota"
+        href: a-ms-ds-machineaccountquota.md
+      - name: "ms-DS-ManagedPassword"
+        href: a-msds-managedpassword.md
+      - name: "ms-DS-ManagedPasswordId"
+        href: a-msds-managedpasswordid.md
+      - name: "ms-DS-ManagedPasswordInterval"
+        href: a-msds-managedpasswordinterval.md
+      - name: "ms-DS-ManagedPasswordPreviousId"
+        href: a-msds-managedpasswordpreviousid.md
+      - name: "ms-DS-Mastered-By"
+        href: a-msds-masteredby.md
+      - name: "ms-DS-Maximum-Password-Age"
+        href: a-msds-maximumpasswordage.md
+      - name: "ms-DS-Max-Values"
+        href: a-msds-maxvalues.md
+      - name: "ms-DS-Members-For-Az-Role"
+        href: a-msds-membersforazrole.md
+      - name: "ms-DS-Members-For-Az-Role-BL"
+        href: a-msds-membersforazrolebl.md
+      - name: "ms-DS-Members-Of-Resource-Property-List"
+        href: a-msds-membersofresourcepropertylist.md
+      - name: "ms-DS-Members-Of-Resource-Property-List-BL"
+        href: a-msds-membersofresourcepropertylistbl.md
+      - name: "ms-DS-Minimum-Password-Age"
+        href: a-msds-minimumpasswordage.md
+      - name: "ms-DS-Minimum-Password-Length"
+        href: a-msds-minimumpasswordlength.md
+      - name: "ms-DS-NC-Repl-Cursors"
+        href: a-msds-ncreplcursors.md
+      - name: "ms-DS-NC-Replica-Locations"
+        href: a-msds-nc-replica-locations.md
+      - name: "ms-DS-NC-Repl-Inbound-Neighbors"
+        href: a-msds-ncreplinboundneighbors.md
+      - name: "ms-DS-NC-Repl-Outbound-Neighbors"
+        href: a-msds-ncreploutboundneighbors.md
+      - name: "ms-DS-NC-RO-Replica-Locations"
+        href: a-msds-nc-ro-replica-locations.md
+      - name: "ms-DS-NC-RO-Replica-Locations-BL"
+        href: a-msds-nc-ro-replica-locations-bl.md
+      - name: "ms-DS-NC-Type"
+        href: a-msds-nctype.md
+      - name: "ms-DS-Never-Reveal-Group"
+        href: a-msds-neverrevealgroup.md
+      - name: "ms-DS-Non-Members"
+        href: a-msds-nonmembers.md
+      - name: "ms-DS-Non-Members-BL"
+        href: a-msds-nonmembersbl.md
+      - name: "ms-DS-Non-Security-Group-Extra-Classes"
+        href: a-msds-non-security-group-extra-classes.md
+      - name: "ms-DS-Object-Reference"
+        href: a-msds-objectreference.md
+      - name: "ms-DS-Object-Reference-BL"
+        href: a-msds-objectreferencebl.md
+      - name: "ms-DS-OIDToGroup-Link"
+        href: a-msds-oidtogrouplink.md
+      - name: "ms-DS-OIDToGroup-Link-BL"
+        href: a-msds-oidtogrouplinkbl.md
+      - name: "ms-DS-Operations-For-Az-Role"
+        href: a-msds-operationsforazrole.md
+      - name: "ms-DS-Operations-For-Az-Role-BL"
+        href: a-msds-operationsforazrolebl.md
+      - name: "ms-DS-Operations-For-Az-Task"
+        href: a-msds-operationsforaztask.md
+      - name: "ms-DS-Operations-For-Az-Task-BL"
+        href: a-msds-operationsforaztaskbl.md
+      - name: "ms-DS-Optional-Feature-Flags"
+        href: a-msds-optionalfeatureflags.md
+      - name: "ms-DS-Optional-Feature-GUID"
+        href: a-msds-optionalfeatureguid.md
+      - name: "ms-DS-Other-Settings"
+        href: a-msds-other-settings.md
+      - name: "ms-DS-Password-Complexity-Enabled"
+        href: a-msds-passwordcomplexityenabled.md
+      - name: "ms-DS-Password-History-Length"
+        href: a-msds-passwordhistorylength.md
+      - name: "ms-DS-Password-Reversible-Encryption-Enabled"
+        href: a-msds-passwordreversibleencryptionenabled.md
+      - name: "ms-DS-Password-Settings-Precedence"
+        href: a-msds-passwordsettingsprecedence.md
+      - name: "MS-DS-Per-User-Trust-Quota"
+        href: a-msds-perusertrustquota.md
+      - name: "MS-DS-Per-User-Trust-Tombstones-Quota"
+        href: a-msds-perusertrusttombstonesquota.md
+      - name: "ms-DS-Phonetic-Company-Name"
+        href: a-msds-phoneticcompanyname.md
+      - name: "ms-DS-Phonetic-Department"
+        href: a-msds-phoneticdepartment.md
+      - name: "ms-DS-Phonetic-Display-Name"
+        href: a-msds-phoneticdisplayname.md
+      - name: "ms-DS-Phonetic-First-Name"
+        href: a-msds-phoneticfirstname.md
+      - name: "ms-DS-Phonetic-Last-Name"
+        href: a-msds-phoneticlastname.md
+      - name: "ms-DS-Port-LDAP"
+        href: a-msds-portldap.md
+      - name: "ms-DS-Port-SSL"
+        href: a-msds-portssl.md
+      - name: "ms-DS-Preferred-GC-Site"
+        href: a-msds-preferred-gc-site.md
+      - name: "ms-DS-Primary-Computer"
+        href: a-msds-primarycomputer.md
+      - name: "ms-DS-Principal-Name"
+        href: a-msds-principalname.md
+      - name: "ms-DS-Promotion-Settings"
+        href: a-msds-promotionsettings.md
+      - name: "ms-DS-PSO-Applied"
+        href: a-msds-psoapplied.md
+      - name: "ms-DS-PSO-Applies-To"
+        href: a-msds-psoappliesto.md
+      - name: "ms-DS-Quota-Amount"
+        href: a-msds-quotaamount.md
+      - name: "ms-DS-Quota-Effective"
+        href: a-msds-quotaeffective.md
+      - name: "ms-DS-Quota-Trustee"
+        href: a-msds-quotatrustee.md
+      - name: "ms-DS-Quota-Used"
+        href: a-msds-quotaused.md
+      - name: "ms-DS-Repl-Attribute-Meta-Data"
+        href: a-msds-replattributemetadata.md
+      - name: "ms-DS-Repl-Authentication-Mode"
+        href: a-msds-replauthenticationmode.md
+      - name: "MS-DS-Replicates-NC-Reason"
+        href: a-ms-ds-replicatesncreason.md
+      - name: "ms-DS-ReplicationEpoch"
+        href: a-msds-replicationepoch.md
+      - name: "ms-DS-Replication-Notify-First-DSA-Delay"
+        href: a-msds-replication-notify-first-dsa-delay.md
+      - name: "ms-DS-Replication-Notify-Subsequent-DSA-Delay"
+        href: a-msds-replication-notify-subsequent-dsa-delay.md
+      - name: "ms-DS-Repl-Value-Meta-Data"
+        href: a-msds-replvaluemetadata.md
+      - name: "ms-DS-Required-Domain-Behavior-Version"
+        href: a-msds-requireddomainbehaviorversion.md
+      - name: "ms-DS-Required-Forest-Behavior-Version"
+        href: a-msds-requiredforestbehaviorversion.md
+      - name: "ms-DS-Resultant-PSO"
+        href: a-msds-resultantpso.md
+      - name: "ms-DS-Retired-Repl-NC-Signatures"
+        href: a-msds-retiredreplncsignatures.md
+      - name: "ms-DS-Revealed-DSAs"
+        href: a-msds-revealeddsas.md
+      - name: "ms-DS-Revealed-List"
+        href: a-msds-revealedlist.md
+      - name: "ms-DS-Revealed-List-BL"
+        href: a-msds-revealedlistbl.md
+      - name: "ms-DS-Revealed-Users"
+        href: a-msds-revealedusers.md
+      - name: "ms-DS-Reveal-OnDemand-Group"
+        href: a-msds-revealondemandgroup.md
+      - name: "ms-ds-Schema-Extensions"
+        href: a-msds-schema-extensions.md
+      - name: "ms-DS-SCP-Container"
+        href: a-msds-scpcontainer.md
+      - name: "ms-DS-SD-Reference-Domain"
+        href: a-msds-sdreferencedomain.md
+      - name: "ms-DS-Secondary-KrbTgt-Number"
+        href: a-msds-secondarykrbtgtnumber.md
+      - name: "ms-DS-Security-Group-Extra-Classes"
+        href: a-msds-security-group-extra-classes.md
+      - name: "ms-DS-Seniority-Index"
+        href: a-msds-seniorityindex.md
+      - name: "ms-DS-Service-Account"
+        href: a-msds-serviceaccount.md
+      - name: "ms-DS-Service-Account-BL"
+        href: a-msds-serviceaccountbl.md
+      - name: "ms-DS-Service-Account-DNS-Domain"
+        href: a-msds-serviceaccountdnsdomain.md
+      - name: "ms-DS-Settings"
+        href: a-msds-settings.md
+      - name: "ms-DS-Site-Affinity"
+        href: a-msds-site-affinity.md
+      - name: "ms-DS-SiteName"
+        href: a-msds-sitename.md
+      - name: "ms-DS-Source-Object-DN"
+        href: a-msds-sourceobjectdn.md
+      - name: "ms-DS-SPN-Suffixes"
+        href: a-msds-spnsuffixes.md
+      - name: "ms-DS-Supported-Encryption-Types"
+        href: a-msds-supportedencryptiontypes.md
+      - name: "ms-DS-Tasks-For-Az-Role"
+        href: a-msds-tasksforazrole.md
+      - name: "ms-DS-Tasks-For-Az-Role-BL"
+        href: a-msds-tasksforazrolebl.md
+      - name: "ms-DS-Tasks-For-Az-Task"
+        href: a-msds-tasksforaztask.md
+      - name: "ms-DS-Tasks-For-Az-Task-BL"
+        href: a-msds-tasksforaztaskbl.md
+      - name: "ms-DS-TDO-Egress-BL"
+        href: a-msds-tdoegressbl.md
+      - name: "ms-DS-TDO-Ingress-BL"
+        href: a-msds-tdoingressbl.md
+      - name: "ms-DS-Tombstone-Quota-Factor"
+        href: a-msds-tombstonequotafactor.md
+      - name: "ms-DS-Top-Quota-Usage"
+        href: a-msds-topquotausage.md
+      - name: "ms-DS-Transformation-Rules"
+        href: a-msds-transformationrules.md
+      - name: "ms-DS-Transformation-Rules-Compiled"
+        href: a-msds-transformationrulescompiled.md
+      - name: "ms-DS-Trust-Forest-Trust-Info"
+        href: a-msds-trustforesttrustinfo.md
+      - name: "ms-DS-UpdateScript"
+        href: a-msds-updatescript.md
+      - name: "ms-DS-User-Account-Auto-Locked"
+        href: a-ms-ds-useraccountautolocked.md
+      - name: "ms-DS-User-Account-Control-Computed"
+        href: a-msds-user-account-control-computed.md
+      - name: "ms-DS-User-Account-Disabled"
+        href: a-msds-useraccountdisabled.md
+      - name: "ms-DS-User-Dont-Expire-Password"
+        href: a-msds-userdontexpirepassword.md
+      - name: "ms-DS-User-Encrypted-Text-Password-Allowed"
+        href: a-ms-ds-userencryptedtextpasswordallowed.md
+      - name: "ms-DS-User-Password-Expired"
+        href: a-msds-userpasswordexpired.md
+      - name: "ms-DS-User-Password-Expiry-Time-Computed"
+        href: a-msds-userpasswordexpirytimecomputed.md
+      - name: "ms-DS-User-Password-Not-Required"
+        href: a-ms-ds-userpasswordnotrequired.md
+      - name: "ms-DS-USN-Last-Sync-Success"
+        href: a-msds-usnlastsyncsuccess.md
+      - name: "ms-DS-Value-Type-Reference"
+        href: a-msds-valuetypereference.md
+      - name: "ms-DS-Value-Type-Reference-BL"
+        href: a-msds-valuetypereferencebl.md
+      - name: "ms-Exch-Assistant-Name"
+        href: a-msexchassistantname.md
+      - name: "ms-Exch-House-Identifier"
+        href: a-msexchhouseidentifier.md
+      - name: "ms-Exch-LabeledURI"
+        href: a-msexchlabeleduri.md
+      - name: "ms-Exch-Owner-BL"
+        href: a-ownerbl.md
+      - name: "ms-FRS-Hub-Member"
+        href: a-msfrs-hub-member.md
+      - name: "ms-FRS-Topology-Pref"
+        href: a-msfrs-topology-pref.md
+      - name: "ms-FVE-KeyPackage"
+        href: a-msfve-keypackage.md
+      - name: "ms-FVE-RecoveryGuid"
+        href: a-msfve-recoveryguid.md
+      - name: "ms-FVE-RecoveryPassword"
+        href: a-msfve-recoverypassword.md
+      - name: "ms-FVE-VolumeGuid"
+        href: a-msfve-volumeguid.md
+      - name: "ms-ieee-80211-Data"
+        href: a-msieee80211-data.md
+      - name: "ms-ieee-80211-Data-Type"
+        href: a-msieee80211-datatype.md
+      - name: "ms-ieee-80211-ID"
+        href: a-msieee80211-id.md
+      - name: "Msi-File-List"
+        href: a-msifilelist.md
+      - name: "ms-IIS-FTP-Dir"
+        href: a-msiis-ftpdir.md
+      - name: "ms-IIS-FTP-Root"
+        href: a-msiis-ftproot.md
+      - name: "ms-Imaging-Hash-Algorithm"
+        href: a-msimaging-hashalgorithm.md
+      - name: "ms-Imaging-PSP-Identifier"
+        href: a-msimaging-pspidentifier.md
+      - name: "ms-Imaging-PSP-String"
+        href: a-msimaging-pspstring.md
+      - name: "ms-Imaging-Thumbprint-Hash"
+        href: a-msimaging-thumbprinthash.md
+      - name: "Msi-Script"
+        href: a-msiscript.md
+      - name: "Msi-Script-Name"
+        href: a-msiscriptname.md
+      - name: "Msi-Script-Path"
+        href: a-msiscriptpath.md
+      - name: "Msi-Script-Size"
+        href: a-msiscriptsize.md
+      - name: "ms-Kds-CreateTime"
+        href: a-mskds-createtime.md
+      - name: "ms-Kds-DomainID"
+        href: a-mskds-domainid.md
+      - name: "ms-Kds-KDF-AlgorithmID"
+        href: a-mskds-kdfalgorithmid.md
+      - name: "ms-Kds-KDF-Param"
+        href: a-mskds-kdfparam.md
+      - name: "ms-Kds-PrivateKey-Length"
+        href: a-mskds-privatekeylength.md
+      - name: "ms-Kds-PublicKey-Length"
+        href: a-mskds-publickeylength.md
+      - name: "ms-Kds-RootKeyData"
+        href: a-mskds-rootkeydata.md
+      - name: "ms-Kds-SecretAgreement-AlgorithmID"
+        href: a-mskds-secretagreementalgorithmid.md
+      - name: "ms-Kds-SecretAgreement-Param"
+        href: a-mskds-secretagreementparam.md
+      - name: "ms-Kds-UseStartTime"
+        href: a-mskds-usestarttime.md
+      - name: "ms-Kds-Version"
+        href: a-mskds-version.md
+      - name: "MSMQ-Authenticate"
+        href: a-msmqauthenticate.md
+      - name: "MSMQ-Base-Priority"
+        href: a-msmqbasepriority.md
+      - name: "MSMQ-Computer-Type"
+        href: a-msmqcomputertype.md
+      - name: "MSMQ-Computer-Type-Ex"
+        href: a-msmqcomputertypeex.md
+      - name: "MSMQ-Cost"
+        href: a-msmqcost.md
+      - name: "MSMQ-CSP-Name"
+        href: a-msmqcspname.md
+      - name: "MSMQ-Dependent-Client-Service"
+        href: a-msmqdependentclientservice.md
+      - name: "MSMQ-Dependent-Client-Services"
+        href: a-msmqdependentclientservices.md
+      - name: "MSMQ-Digests"
+        href: a-msmqdigests.md
+      - name: "MSMQ-Digests-Mig"
+        href: a-msmqdigestsmig.md
+      - name: "MSMQ-Ds-Service"
+        href: a-msmqdsservice.md
+      - name: "MSMQ-Ds-Services"
+        href: a-msmqdsservices.md
+      - name: "MSMQ-Encrypt-Key"
+        href: a-msmqencryptkey.md
+      - name: "MSMQ-Foreign"
+        href: a-msmqforeign.md
+      - name: "MSMQ-In-Routing-Servers"
+        href: a-msmqinroutingservers.md
+      - name: "MSMQ-Interval1"
+        href: a-msmqinterval1.md
+      - name: "MSMQ-Interval2"
+        href: a-msmqinterval2.md
+      - name: "MSMQ-Journal"
+        href: a-msmqjournal.md
+      - name: "MSMQ-Journal-Quota"
+        href: a-msmqjournalquota.md
+      - name: "MSMQ-Label"
+        href: a-msmqlabel.md
+      - name: "MSMQ-Label-Ex"
+        href: a-msmqlabelex.md
+      - name: "MSMQ-Long-Lived"
+        href: a-msmqlonglived.md
+      - name: "MSMQ-Migrated"
+        href: a-msmqmigrated.md
+      - name: "MSMQ-Multicast-Address"
+        href: a-msmq-multicastaddress.md
+      - name: "MSMQ-Name-Style"
+        href: a-msmqnamestyle.md
+      - name: "MSMQ-Nt4-Flags"
+        href: a-msmqnt4flags.md
+      - name: "MSMQ-Nt4-Stub"
+        href: a-msmqnt4stub.md
+      - name: "MSMQ-OS-Type"
+        href: a-msmqostype.md
+      - name: "MSMQ-Out-Routing-Servers"
+        href: a-msmqoutroutingservers.md
+      - name: "MSMQ-Owner-ID"
+        href: a-msmqownerid.md
+      - name: "MSMQ-Prev-Site-Gates"
+        href: a-msmqprevsitegates.md
+      - name: "MSMQ-Privacy-Level"
+        href: a-msmqprivacylevel.md
+      - name: "MSMQ-QM-ID"
+        href: a-msmqqmid.md
+      - name: "MSMQ-Queue-Journal-Quota"
+        href: a-msmqqueuejournalquota.md
+      - name: "MSMQ-Queue-Name-Ext"
+        href: a-msmqqueuenameext.md
+      - name: "MSMQ-Queue-Quota"
+        href: a-msmqqueuequota.md
+      - name: "MSMQ-Queue-Type"
+        href: a-msmqqueuetype.md
+      - name: "MSMQ-Quota"
+        href: a-msmqquota.md
+      - name: "MSMQ-Recipient-FormatName"
+        href: a-msmq-recipient-formatname.md
+      - name: "MSMQ-Routing-Service"
+        href: a-msmqroutingservice.md
+      - name: "MSMQ-Routing-Services"
+        href: a-msmqroutingservices.md
+      - name: "MSMQ-Secured-Source"
+        href: a-msmq-securedsource.md
+      - name: "MSMQ-Services"
+        href: a-msmqservices.md
+      - name: "MSMQ-Service-Type"
+        href: a-msmqservicetype.md
+      - name: "MSMQ-Sign-Certificates"
+        href: a-msmqsigncertificates.md
+      - name: "MSMQ-Sign-Certificates-Mig"
+        href: a-msmqsigncertificatesmig.md
+      - name: "MSMQ-Sign-Key"
+        href: a-msmqsignkey.md
+      - name: "MSMQ-Site-1"
+        href: a-msmqsite1.md
+      - name: "MSMQ-Site-2"
+        href: a-msmqsite2.md
+      - name: "MSMQ-Site-Foreign"
+        href: a-msmqsiteforeign.md
+      - name: "MSMQ-Site-Gates"
+        href: a-msmqsitegates.md
+      - name: "MSMQ-Site-Gates-Mig"
+        href: a-msmqsitegatesmig.md
+      - name: "MSMQ-Site-ID"
+        href: a-msmqsiteid.md
+      - name: "MSMQ-Site-Name"
+        href: a-msmqsitename.md
+      - name: "MSMQ-Site-Name-Ex"
+        href: a-msmqsitenameex.md
+      - name: "MSMQ-Sites"
+        href: a-msmqsites.md
+      - name: "MSMQ-Transactional"
+        href: a-msmqtransactional.md
+      - name: "MSMQ-User-Sid"
+        href: a-msmqusersid.md
+      - name: "MSMQ-Version"
+        href: a-msmqversion.md
+      - name: "ms-net-ieee-80211-GP-PolicyData"
+        href: a-ms-net-ieee-80211-gp-policydata.md
+      - name: "ms-net-ieee-80211-GP-PolicyGUID"
+        href: a-ms-net-ieee-80211-gp-policyguid.md
+      - name: "ms-net-ieee-80211-GP-PolicyReserved"
+        href: a-ms-net-ieee-80211-gp-policyreserved.md
+      - name: "ms-net-ieee-8023-GP-PolicyData"
+        href: a-ms-net-ieee-8023-gp-policydata.md
+      - name: "ms-net-ieee-8023-GP-PolicyGUID"
+        href: a-ms-net-ieee-8023-gp-policyguid.md
+      - name: "ms-net-ieee-8023-GP-PolicyReserved"
+        href: a-ms-net-ieee-8023-gp-policyreserved.md
+      - name: "msNPAllowDialin"
+        href: a-msnpallowdialin.md
+      - name: "msNPCalledStationID"
+        href: a-msnpcalledstationid.md
+      - name: "msNPCallingStationID"
+        href: a-msnpcallingstationid.md
+      - name: "msNPSavedCallingStationID"
+        href: a-msnpsavedcallingstationid.md
+      - name: "ms-PKI-AccountCredentials"
+        href: a-mspkiaccountcredentials.md
+      - name: "ms-PKI-Certificate-Application-Policy"
+        href: a-mspki-certificate-application-policy.md
+      - name: "ms-PKI-Certificate-Name-Flag"
+        href: a-mspki-certificate-name-flag.md
+      - name: "ms-PKI-Certificate-Policy"
+        href: a-mspki-certificate-policy.md
+      - name: "ms-PKI-Cert-Template-OID"
+        href: a-mspki-cert-template-oid.md
+      - name: "ms-PKI-Credential-Roaming-Tokens"
+        href: a-mspki-credentialroamingtokens.md
+      - name: "ms-PKI-DPAPIMasterKeys"
+        href: a-mspkidpapimasterkeys.md
+      - name: "ms-PKI-Enrollment-Flag"
+        href: a-mspki-enrollment-flag.md
+      - name: "ms-PKI-Enrollment-Servers"
+        href: a-mspki-enrollment-servers.md
+      - name: "ms-PKI-Minimal-Key-Size"
+        href: a-mspki-minimal-key-size.md
+      - name: "ms-PKI-OID-Attribute"
+        href: a-mspki-oid-attribute.md
+      - name: "ms-PKI-OID-CPS"
+        href: a-mspki-oid-cps.md
+      - name: "ms-PKI-OID-LocalizedName"
+        href: a-mspki-oidlocalizedname.md
+      - name: "ms-PKI-OID-User-Notice"
+        href: a-mspki-oid-user-notice.md
+      - name: "ms-PKI-Private-Key-Flag"
+        href: a-mspki-private-key-flag.md
+      - name: "ms-PKI-RA-Application-Policies"
+        href: a-mspki-ra-application-policies.md
+      - name: "ms-PKI-RA-Policies"
+        href: a-mspki-ra-policies.md
+      - name: "ms-PKI-RA-Signature"
+        href: a-mspki-ra-signature.md
+      - name: "ms-PKI-RoamingTimeStamp"
+        href: a-mspkiroamingtimestamp.md
+      - name: "ms-PKI-Site-Name"
+        href: a-mspki-site-name.md
+      - name: "ms-PKI-Supersede-Templates"
+        href: a-mspki-supersede-templates.md
+      - name: "ms-PKI-Template-Minor-Revision"
+        href: a-mspki-template-minor-revision.md
+      - name: "ms-PKI-Template-Schema-Version"
+        href: a-mspki-template-schema-version.md
+      - name: "msRADIUSCallbackNumber"
+        href: a-msradiuscallbacknumber.md
+      - name: "ms-RADIUS-FramedInterfaceId"
+        href: a-msradius-framedinterfaceid.md
+      - name: "msRADIUSFramedIPAddress"
+        href: a-msradiusframedipaddress.md
+      - name: "ms-RADIUS-FramedIpv6Prefix"
+        href: a-msradius-framedipv6prefix.md
+      - name: "ms-RADIUS-FramedIpv6Route"
+        href: a-msradius-framedipv6route.md
+      - name: "msRADIUSFramedRoute"
+        href: a-msradiusframedroute.md
+      - name: "ms-RADIUS-SavedFramedInterfaceId"
+        href: a-msradius-savedframedinterfaceid.md
+      - name: "ms-RADIUS-SavedFramedIpv6Prefix"
+        href: a-msradius-savedframedipv6prefix.md
+      - name: "ms-RADIUS-SavedFramedIpv6Route"
+        href: a-msradius-savedframedipv6route.md
+      - name: "msRADIUSServiceType"
+        href: a-msradiusservicetype.md
+      - name: "msRASSavedCallbackNumber"
+        href: a-msrassavedcallbacknumber.md
+      - name: "msRASSavedFramedIPAddress"
+        href: a-msrassavedframedipaddress.md
+      - name: "msRASSavedFramedRoute"
+        href: a-msrassavedframedroute.md
+      - name: "ms-RRAS-Attribute"
+        href: a-msrrasattribute.md
+      - name: "ms-RRAS-Vendor-Attribute-Entry"
+        href: a-msrrasvendorattributeentry.md
+      - name: "msSFU-30-Aliases"
+        href: a-mssfu30aliases.md
+      - name: "msSFU-30-Crypt-Method"
+        href: a-mssfu30cryptmethod.md
+      - name: "msSFU-30-Domains"
+        href: a-mssfu30domains.md
+      - name: "msSFU-30-Field-Separator"
+        href: a-mssfu30fieldseparator.md
+      - name: "msSFU-30-Intra-Field-Separator"
+        href: a-mssfu30intrafieldseparator.md
+      - name: "msSFU-30-Is-Valid-Container"
+        href: a-mssfu30isvalidcontainer.md
+      - name: "msSFU-30-Key-Attributes"
+        href: a-mssfu30keyattributes.md
+      - name: "msSFU-30-Key-Values"
+        href: a-mssfu30keyvalues.md
+      - name: "msSFU-30-Map-Filter"
+        href: a-mssfu30mapfilter.md
+      - name: "msSFU-30-Master-Server-Name"
+        href: a-mssfu30masterservername.md
+      - name: "msSFU-30-Max-Gid-Number"
+        href: a-mssfu30maxgidnumber.md
+      - name: "msSFU-30-Max-Uid-Number"
+        href: a-mssfu30maxuidnumber.md
+      - name: "msSFU-30-Name"
+        href: a-mssfu30name.md
+      - name: "msSFU-30-Netgroup-Host-At-Domain"
+        href: a-mssfu30netgrouphostatdomain.md
+      - name: "msSFU-30-Netgroup-User-At-Domain"
+        href: a-mssfu30netgroupuseratdomain.md
+      - name: "msSFU-30-Nis-Domain"
+        href: a-mssfu30nisdomain.md
+      - name: "msSFU-30-NSMAP-Field-Position"
+        href: a-mssfu30nsmapfieldposition.md
+      - name: "msSFU-30-Order-Number"
+        href: a-mssfu30ordernumber.md
+      - name: "msSFU-30-Posix-Member"
+        href: a-mssfu30posixmember.md
+      - name: "msSFU-30-Posix-Member-Of"
+        href: a-mssfu30posixmemberof.md
+      - name: "msSFU-30-Result-Attributes"
+        href: a-mssfu30resultattributes.md
+      - name: "msSFU-30-Search-Attributes"
+        href: a-mssfu30searchattributes.md
+      - name: "msSFU-30-Search-Container"
+        href: a-mssfu30searchcontainer.md
+      - name: "msSFU-30-Yp-Servers"
+        href: a-mssfu30ypservers.md
+      - name: "ms-SPP-Config-License"
+        href: a-msspp-configlicense.md
+      - name: "ms-SPP-Confirmation-Id"
+        href: a-msspp-confirmationid.md
+      - name: "ms-SPP-CSVLK-Partial-Product-Key"
+        href: a-msspp-csvlkpartialproductkey.md
+      - name: "ms-SPP-CSVLK-Pid"
+        href: a-msspp-csvlkpid.md
+      - name: "ms-SPP-CSVLK-Sku-Id"
+        href: a-msspp-csvlkskuid.md
+      - name: "ms-SPP-Installation-Id"
+        href: a-msspp-installationid.md
+      - name: "ms-SPP-Issuance-License"
+        href: a-msspp-issuancelicense.md
+      - name: "ms-SPP-KMS-Ids"
+        href: a-msspp-kmsids.md
+      - name: "ms-SPP-Online-License"
+        href: a-msspp-onlinelicense.md
+      - name: "ms-SPP-Phone-License"
+        href: a-msspp-phonelicense.md
+      - name: "MS-SQL-Alias"
+        href: a-ms-sql-alias.md
+      - name: "MS-SQL-AllowAnonymousSubscription"
+        href: a-ms-sql-allowanonymoussubscription.md
+      - name: "MS-SQL-AllowImmediateUpdatingSubscription"
+        href: a-ms-sql-allowimmediateupdatingsubscription.md
+      - name: "MS-SQL-AllowKnownPullSubscription"
+        href: a-ms-sql-allowknownpullsubscription.md
+      - name: "MS-SQL-AllowQueuedUpdatingSubscription"
+        href: a-ms-sql-allowqueuedupdatingsubscription.md
+      - name: "MS-SQL-AllowSnapshotFilesFTPDownloading"
+        href: a-ms-sql-allowsnapshotfilesftpdownloading.md
+      - name: "MS-SQL-AppleTalk"
+        href: a-ms-sql-appletalk.md
+      - name: "MS-SQL-Applications"
+        href: a-ms-sql-applications.md
+      - name: "MS-SQL-Build"
+        href: a-ms-sql-build.md
+      - name: "MS-SQL-CharacterSet"
+        href: a-ms-sql-characterset.md
+      - name: "MS-SQL-Clustered"
+        href: a-ms-sql-clustered.md
+      - name: "MS-SQL-ConnectionURL"
+        href: a-ms-sql-connectionurl.md
+      - name: "MS-SQL-Contact"
+        href: a-ms-sql-contact.md
+      - name: "MS-SQL-CreationDate"
+        href: a-ms-sql-creationdate.md
+      - name: "MS-SQL-Database"
+        href: a-ms-sql-database.md
+      - name: "MS-SQL-Description"
+        href: a-ms-sql-description.md
+      - name: "MS-SQL-GPSHeight"
+        href: a-ms-sql-gpsheight.md
+      - name: "MS-SQL-GPSLatitude"
+        href: a-ms-sql-gpslatitude.md
+      - name: "MS-SQL-GPSLongitude"
+        href: a-ms-sql-gpslongitude.md
+      - name: "MS-SQL-InformationDirectory"
+        href: a-ms-sql-informationdirectory.md
+      - name: "MS-SQL-InformationURL"
+        href: a-ms-sql-informationurl.md
+      - name: "MS-SQL-Keywords"
+        href: a-ms-sql-keywords.md
+      - name: "MS-SQL-Language"
+        href: a-ms-sql-language.md
+      - name: "MS-SQL-LastBackupDate"
+        href: a-ms-sql-lastbackupdate.md
+      - name: "MS-SQL-LastDiagnosticDate"
+        href: a-ms-sql-lastdiagnosticdate.md
+      - name: "MS-SQL-LastUpdatedDate"
+        href: a-ms-sql-lastupdateddate.md
+      - name: "MS-SQL-Location"
+        href: a-ms-sql-location.md
+      - name: "MS-SQL-Memory"
+        href: a-ms-sql-memory.md
+      - name: "MS-SQL-MultiProtocol"
+        href: a-ms-sql-multiprotocol.md
+      - name: "MS-SQL-Name"
+        href: a-ms-sql-name.md
+      - name: "MS-SQL-NamedPipe"
+        href: a-ms-sql-namedpipe.md
+      - name: "MS-SQL-PublicationURL"
+        href: a-ms-sql-publicationurl.md
+      - name: "MS-SQL-Publisher"
+        href: a-ms-sql-publisher.md
+      - name: "MS-SQL-RegisteredOwner"
+        href: a-ms-sql-registeredowner.md
+      - name: "MS-SQL-ServiceAccount"
+        href: a-ms-sql-serviceaccount.md
+      - name: "MS-SQL-Size"
+        href: a-ms-sql-size.md
+      - name: "MS-SQL-SortOrder"
+        href: a-ms-sql-sortorder.md
+      - name: "MS-SQL-SPX"
+        href: a-ms-sql-spx.md
+      - name: "MS-SQL-Status"
+        href: a-ms-sql-status.md
+      - name: "MS-SQL-TCPIP"
+        href: a-ms-sql-tcpip.md
+      - name: "MS-SQL-ThirdParty"
+        href: a-ms-sql-thirdparty.md
+      - name: "MS-SQL-Type"
+        href: a-ms-sql-type.md
+      - name: "MS-SQL-UnicodeSortOrder"
+        href: a-ms-sql-unicodesortorder.md
+      - name: "MS-SQL-Version"
+        href: a-ms-sql-version.md
+      - name: "MS-SQL-Vines"
+        href: a-ms-sql-vines.md
+      - name: "ms-TAPI-Conference-Blob"
+        href: a-mstapi-conferenceblob.md
+      - name: "ms-TAPI-Ip-Address"
+        href: a-mstapi-ipaddress.md
+      - name: "ms-TAPI-Protocol-Id"
+        href: a-mstapi-protocolid.md
+      - name: "ms-TAPI-Unique-Identifier"
+        href: a-mstapi-uid.md
+      - name: "ms-TPM-OwnerInformation"
+        href: a-mstpm-ownerinformation.md
+      - name: "ms-TPM-Owner-Information-Temp"
+        href: a-mstpm-ownerinformationtemp.md
+      - name: "ms-TPM-Srk-Pub-Thumbprint"
+        href: a-mstpm-srkpubthumbprint.md
+      - name: "ms-TPM-Tpm-Information-For-Computer"
+        href: a-mstpm-tpminformationforcomputer.md
+      - name: "ms-TPM-Tpm-Information-For-Computer-BL"
+        href: a-mstpm-tpminformationforcomputerbl.md
+      - name: "ms-TS-Allow-Logon"
+        href: a-mstsallowlogon.md
+      - name: "ms-TS-Broken-Connection-Action"
+        href: a-mstsbrokenconnectionaction.md
+      - name: "ms-TS-Connect-Client-Drives"
+        href: a-mstsconnectclientdrives.md
+      - name: "ms-TS-Connect-Printer-Drives"
+        href: a-mstsconnectprinterdrives.md
+      - name: "ms-TS-Default-To-Main-Printer"
+        href: a-mstsdefaulttomainprinter.md
+      - name: "ms-TS-Endpoint-Data"
+        href: a-mstsendpointdata.md
+      - name: "ms-TS-Endpoint-Plugin"
+        href: a-mstsendpointplugin.md
+      - name: "ms-TS-Endpoint-Type"
+        href: a-mstsendpointtype.md
+      - name: "MS-TS-ExpireDate"
+        href: a-mstsexpiredate.md
+      - name: "MS-TS-ExpireDate2"
+        href: a-mstsexpiredate2.md
+      - name: "MS-TS-ExpireDate3"
+        href: a-mstsexpiredate3.md
+      - name: "MS-TS-ExpireDate4"
+        href: a-mstsexpiredate4.md
+      - name: "ms-TS-Home-Directory"
+        href: a-mstshomedirectory.md
+      - name: "ms-TS-Home-Drive"
+        href: a-mstshomedrive.md
+      - name: "ms-TS-Initial-Program"
+        href: a-mstsinitialprogram.md
+      - name: "MS-TS-LicenseVersion"
+        href: a-mstslicenseversion.md
+      - name: "MS-TS-LicenseVersion2"
+        href: a-mstslicenseversion2.md
+      - name: "MS-TS-LicenseVersion3"
+        href: a-mstslicenseversion3.md
+      - name: "MS-TS-LicenseVersion4"
+        href: a-mstslicenseversion4.md
+      - name: "MS-TSLS-Property01"
+        href: a-mstslsproperty01.md
+      - name: "MS-TSLS-Property02"
+        href: a-mstslsproperty02.md
+      - name: "MS-TS-ManagingLS"
+        href: a-mstsmanagingls.md
+      - name: "MS-TS-ManagingLS2"
+        href: a-mstsmanagingls2.md
+      - name: "MS-TS-ManagingLS3"
+        href: a-mstsmanagingls3.md
+      - name: "MS-TS-ManagingLS4"
+        href: a-mstsmanagingls4.md
+      - name: "ms-TS-Max-Connection-Time"
+        href: a-mstsmaxconnectiontime.md
+      - name: "ms-TS-Max-Disconnection-Time"
+        href: a-mstsmaxdisconnectiontime.md
+      - name: "ms-TS-Max-Idle-Time"
+        href: a-mstsmaxidletime.md
+      - name: "ms-TS-Primary-Desktop"
+        href: a-mstsprimarydesktop.md
+      - name: "ms-TS-Primary-Desktop-BL"
+        href: a-mstsprimarydesktopbl.md
+      - name: "ms-TS-Profile-Path"
+        href: a-mstsprofilepath.md
+      - name: "MS-TS-Property01"
+        href: a-mstsproperty01.md
+      - name: "MS-TS-Property02"
+        href: a-mstsproperty02.md
+      - name: "ms-TS-Reconnection-Action"
+        href: a-mstsreconnectionaction.md
+      - name: "ms-TS-Remote-Control"
+        href: a-mstsremotecontrol.md
+      - name: "ms-TS-Secondary-Desktop-BL"
+        href: a-mstssecondarydesktopbl.md
+      - name: "ms-TS-Secondary-Desktops"
+        href: a-mstssecondarydesktops.md
+      - name: "ms-TS-Work-Directory"
+        href: a-mstsworkdirectory.md
+      - name: "ms-WMI-Author"
+        href: a-mswmi-author.md
+      - name: "ms-WMI-ChangeDate"
+        href: a-mswmi-changedate.md
+      - name: "ms-WMI-Class"
+        href: a-mswmi-class.md
+      - name: "ms-WMI-ClassDefinition"
+        href: a-mswmi-classdefinition.md
+      - name: "ms-WMI-CreationDate"
+        href: a-mswmi-creationdate.md
+      - name: "ms-WMI-Genus"
+        href: a-mswmi-genus.md
+      - name: "ms-WMI-ID"
+        href: a-mswmi-id.md
+      - name: "ms-WMI-int8Default"
+        href: a-mswmi-int8default.md
+      - name: "ms-WMI-int8Max"
+        href: a-mswmi-int8max.md
+      - name: "ms-WMI-int8Min"
+        href: a-mswmi-int8min.md
+      - name: "ms-WMI-int8ValidValues"
+        href: a-mswmi-int8validvalues.md
+      - name: "ms-WMI-intDefault"
+        href: a-mswmi-intdefault.md
+      - name: "ms-WMI-intFlags1"
+        href: a-mswmi-intflags1.md
+      - name: "ms-WMI-intFlags2"
+        href: a-mswmi-intflags2.md
+      - name: "ms-WMI-intFlags3"
+        href: a-mswmi-intflags3.md
+      - name: "ms-WMI-intFlags4"
+        href: a-mswmi-intflags4.md
+      - name: "ms-WMI-intMax"
+        href: a-mswmi-intmax.md
+      - name: "ms-WMI-intMin"
+        href: a-mswmi-intmin.md
+      - name: "ms-WMI-intValidValues"
+        href: a-mswmi-intvalidvalues.md
+      - name: "ms-WMI-Mof"
+        href: a-mswmi-mof.md
+      - name: "ms-WMI-Name"
+        href: a-mswmi-name.md
+      - name: "ms-WMI-NormalizedClass"
+        href: a-mswmi-normalizedclass.md
+      - name: "ms-WMI-Parm1"
+        href: a-mswmi-parm1.md
+      - name: "ms-WMI-Parm2"
+        href: a-mswmi-parm2.md
+      - name: "ms-WMI-Parm3"
+        href: a-mswmi-parm3.md
+      - name: "ms-WMI-Parm4"
+        href: a-mswmi-parm4.md
+      - name: "ms-WMI-PropertyName"
+        href: a-mswmi-propertyname.md
+      - name: "ms-WMI-Query"
+        href: a-mswmi-query.md
+      - name: "ms-WMI-QueryLanguage"
+        href: a-mswmi-querylanguage.md
+      - name: "ms-WMI-ScopeGuid"
+        href: a-mswmi-scopeguid.md
+      - name: "ms-WMI-SourceOrganization"
+        href: a-mswmi-sourceorganization.md
+      - name: "ms-WMI-stringDefault"
+        href: a-mswmi-stringdefault.md
+      - name: "ms-WMI-stringValidValues"
+        href: a-mswmi-stringvalidvalues.md
+      - name: "ms-WMI-TargetClass"
+        href: a-mswmi-targetclass.md
+      - name: "ms-WMI-TargetNameSpace"
+        href: a-mswmi-targetnamespace.md
+      - name: "ms-WMI-TargetObject"
+        href: a-mswmi-targetobject.md
+      - name: "ms-WMI-TargetPath"
+        href: a-mswmi-targetpath.md
+      - name: "ms-WMI-TargetType"
+        href: a-mswmi-targettype.md
+      - name: "Must-Contain"
+        href: a-mustcontain.md
+      - name: "Name-Service-Flags"
+        href: a-nameserviceflags.md
+      - name: "NC-Name"
+        href: a-ncname.md
+      - name: "NETBIOS-Name"
+        href: a-netbiosname.md
+      - name: "netboot-Allow-New-Clients"
+        href: a-netbootallownewclients.md
+      - name: "netboot-Answer-Only-Valid-Clients"
+        href: a-netbootansweronlyvalidclients.md
+      - name: "netboot-Answer-Requests"
+        href: a-netbootanswerrequests.md
+      - name: "netboot-Current-Client-Count"
+        href: a-netbootcurrentclientcount.md
+      - name: "Netboot-GUID"
+        href: a-netbootguid.md
+      - name: "Netboot-Initialization"
+        href: a-netbootinitialization.md
+      - name: "netboot-IntelliMirror-OSes"
+        href: a-netbootintellimirroroses.md
+      - name: "netboot-Limit-Clients"
+        href: a-netbootlimitclients.md
+      - name: "netboot-Locally-Installed-OSes"
+        href: a-netbootlocallyinstalledoses.md
+      - name: "Netboot-Machine-File-Path"
+        href: a-netbootmachinefilepath.md
+      - name: "netboot-Max-Clients"
+        href: a-netbootmaxclients.md
+      - name: "Netboot-Mirror-Data-File"
+        href: a-netbootmirrordatafile.md
+      - name: "netboot-New-Machine-Naming-Policy"
+        href: a-netbootnewmachinenamingpolicy.md
+      - name: "netboot-New-Machine-OU"
+        href: a-netbootnewmachineou.md
+      - name: "netboot-SCP-BL"
+        href: a-netbootscpbl.md
+      - name: "netboot-Server"
+        href: a-netbootserver.md
+      - name: "Netboot-SIF-File"
+        href: a-netbootsiffile.md
+      - name: "netboot-Tools"
+        href: a-netboottools.md
+      - name: "Network-Address"
+        href: a-networkaddress.md
+      - name: "Next-Level-Store"
+        href: a-nextlevelstore.md
+      - name: "Next-Rid"
+        href: a-nextrid.md
+      - name: "nisMapEntry"
+        href: a-nismapentry.md
+      - name: "nisMapName"
+        href: a-nismapname.md
+      - name: "nisNetgroupTriple"
+        href: a-nisnetgrouptriple.md
+      - name: "Non-Security-Member"
+        href: a-nonsecuritymember.md
+      - name: "Non-Security-Member-BL"
+        href: a-nonsecuritymemberbl.md
+      - name: "Notification-List"
+        href: a-notificationlist.md
+      - name: "NT-Group-Members"
+        href: a-ntgroupmembers.md
+      - name: "NT-Mixed-Domain"
+        href: a-ntmixeddomain.md
+      - name: "Nt-Pwd-History"
+        href: a-ntpwdhistory.md
+      - name: "NT-Security-Descriptor"
+        href: a-ntsecuritydescriptor.md
+      - name: "Obj-Dist-Name"
+        href: a-distinguishedname.md
+      - name: "Object-Category"
+        href: a-objectcategory.md
+      - name: "Object-Class"
+        href: a-objectclass.md
+      - name: "Object-Class-Category"
+        href: a-objectclasscategory.md
+      - name: "Object-Classes"
+        href: a-objectclasses.md
+      - name: "Object-Count"
+        href: a-objectcount.md
+      - name: "Object-Guid"
+        href: a-objectguid.md
+      - name: "Object-Sid"
+        href: a-objectsid.md
+      - name: "Object-Version"
+        href: a-objectversion.md
+      - name: "OEM-Information"
+        href: a-oeminformation.md
+      - name: "OM-Object-Class"
+        href: a-omobjectclass.md
+      - name: "OM-Syntax"
+        href: a-omsyntax.md
+      - name: "OMT-Guid"
+        href: a-omtguid.md
+      - name: "OMT-Indx-Guid"
+        href: a-omtindxguid.md
+      - name: "oncRpcNumber"
+        href: a-oncrpcnumber.md
+      - name: "Operating-System"
+        href: a-operatingsystem.md
+      - name: "Operating-System-Hotfix"
+        href: a-operatingsystemhotfix.md
+      - name: "Operating-System-Service-Pack"
+        href: a-operatingsystemservicepack.md
+      - name: "Operating-System-Version"
+        href: a-operatingsystemversion.md
+      - name: "Operator-Count"
+        href: a-operatorcount.md
+      - name: "Option-Description"
+        href: a-optiondescription.md
+      - name: "Options"
+        href: a-options.md
+      - name: "Options-Location"
+        href: a-optionslocation.md
+      - name: "organizationalStatus"
+        href: a-organizationalstatus.md
+      - name: "Organizational-Unit-Name"
+        href: a-ou.md
+      - name: "Organization-Name"
+        href: a-o.md
+      - name: "Original-Display-Table"
+        href: a-originaldisplaytable.md
+      - name: "Original-Display-Table-MSDOS"
+        href: a-originaldisplaytablemsdos.md
+      - name: "Other-Login-Workstations"
+        href: a-otherloginworkstations.md
+      - name: "Other-Mailbox"
+        href: a-othermailbox.md
+      - name: "Other-Name"
+        href: a-middlename.md
+      - name: "Other-Well-Known-Objects"
+        href: a-otherwellknownobjects.md
+      - name: "Owner"
+        href: a-owner.md
+      - name: "Package-Flags"
+        href: a-packageflags.md
+      - name: "Package-Name"
+        href: a-packagename.md
+      - name: "Package-Type"
+        href: a-packagetype.md
+      - name: "Parent-CA"
+        href: a-parentca.md
+      - name: "Parent-CA-Certificate-Chain"
+        href: a-parentcacertificatechain.md
+      - name: "Parent-GUID"
+        href: a-parentguid.md
+      - name: "Partial-Attribute-Deletion-List"
+        href: a-partialattributedeletionlist.md
+      - name: "Partial-Attribute-Set"
+        href: a-partialattributeset.md
+      - name: "Pek-Key-Change-Interval"
+        href: a-pekkeychangeinterval.md
+      - name: "Pek-List"
+        href: a-peklist.md
+      - name: "Pending-CA-Certificates"
+        href: a-pendingcacertificates.md
+      - name: "Pending-Parent-CA"
+        href: a-pendingparentca.md
+      - name: "Per-Msg-Dialog-Display-Table"
+        href: a-permsgdialogdisplaytable.md
+      - name: "Per-Recip-Dialog-Display-Table"
+        href: a-perrecipdialogdisplaytable.md
+      - name: "Personal-Title"
+        href: a-personaltitle.md
+      - name: "Phone-Fax-Other"
+        href: a-otherfacsimiletelephonenumber.md
+      - name: "Phone-Home-Other"
+        href: a-otherhomephone.md
+      - name: "Phone-Home-Primary"
+        href: a-homephone.md
+      - name: "Phone-Ip-Other"
+        href: a-otheripphone.md
+      - name: "Phone-Ip-Primary"
+        href: a-ipphone.md
+      - name: "Phone-ISDN-Primary"
+        href: a-primaryinternationalisdnnumber.md
+      - name: "Phone-Mobile-Other"
+        href: a-othermobile.md
+      - name: "Phone-Mobile-Primary"
+        href: a-mobile.md
+      - name: "Phone-Office-Other"
+        href: a-othertelephone.md
+      - name: "Phone-Pager-Other"
+        href: a-otherpager.md
+      - name: "Phone-Pager-Primary"
+        href: a-pager.md
+      - name: "photo"
+        href: a-photo.md
+      - name: "Physical-Delivery-Office-Name"
+        href: a-physicaldeliveryofficename.md
+      - name: "Physical-Location-Object"
+        href: a-physicallocationobject.md
+      - name: "Picture"
+        href: a-thumbnailphoto.md
+      - name: "PKI-Critical-Extensions"
+        href: a-pkicriticalextensions.md
+      - name: "PKI-Default-CSPs"
+        href: a-pkidefaultcsps.md
+      - name: "PKI-Default-Key-Spec"
+        href: a-pkidefaultkeyspec.md
+      - name: "PKI-Enrollment-Access"
+        href: a-pkienrollmentaccess.md
+      - name: "PKI-Expiration-Period"
+        href: a-pkiexpirationperiod.md
+      - name: "PKI-Extended-Key-Usage"
+        href: a-pkiextendedkeyusage.md
+      - name: "PKI-Key-Usage"
+        href: a-pkikeyusage.md
+      - name: "PKI-Max-Issuing-Depth"
+        href: a-pkimaxissuingdepth.md
+      - name: "PKI-Overlap-Period"
+        href: a-pkioverlapperiod.md
+      - name: "PKT"
+        href: a-pkt.md
+      - name: "PKT-Guid"
+        href: a-pktguid.md
+      - name: "Policy-Replication-Flags"
+        href: a-policyreplicationflags.md
+      - name: "Port-Name"
+        href: a-portname.md
+      - name: "Possible-Inferiors"
+        href: a-possibleinferiors.md
+      - name: "Poss-Superiors"
+        href: a-posssuperiors.md
+      - name: "Postal-Address"
+        href: a-postaladdress.md
+      - name: "Postal-Code"
+        href: a-postalcode.md
+      - name: "Post-Office-Box"
+        href: a-postofficebox.md
+      - name: "Preferred-Delivery-Method"
+        href: a-preferreddeliverymethod.md
+      - name: "preferredLanguage"
+        href: a-preferredlanguage.md
+      - name: "Preferred-OU"
+        href: a-preferredou.md
+      - name: "Prefix-Map"
+        href: a-prefixmap.md
+      - name: "Presentation-Address"
+        href: a-presentationaddress.md
+      - name: "Previous-CA-Certificates"
+        href: a-previouscacertificates.md
+      - name: "Previous-Parent-CA"
+        href: a-previousparentca.md
+      - name: "Primary-Group-ID"
+        href: a-primarygroupid.md
+      - name: "Primary-Group-Token"
+        href: a-primarygrouptoken.md
+      - name: "Print-Attributes"
+        href: a-printattributes.md
+      - name: "Print-Bin-Names"
+        href: a-printbinnames.md
+      - name: "Print-Collate"
+        href: a-printcollate.md
+      - name: "Print-Color"
+        href: a-printcolor.md
+      - name: "Print-Duplex-Supported"
+        href: a-printduplexsupported.md
+      - name: "Print-End-Time"
+        href: a-printendtime.md
+      - name: "Printer-Name"
+        href: a-printername.md
+      - name: "Print-Form-Name"
+        href: a-printformname.md
+      - name: "Print-Keep-Printed-Jobs"
+        href: a-printkeepprintedjobs.md
+      - name: "Print-Language"
+        href: a-printlanguage.md
+      - name: "Print-MAC-Address"
+        href: a-printmacaddress.md
+      - name: "Print-Max-Copies"
+        href: a-printmaxcopies.md
+      - name: "Print-Max-Resolution-Supported"
+        href: a-printmaxresolutionsupported.md
+      - name: "Print-Max-X-Extent"
+        href: a-printmaxxextent.md
+      - name: "Print-Max-Y-Extent"
+        href: a-printmaxyextent.md
+      - name: "Print-Media-Ready"
+        href: a-printmediaready.md
+      - name: "Print-Media-Supported"
+        href: a-printmediasupported.md
+      - name: "Print-Memory"
+        href: a-printmemory.md
+      - name: "Print-Min-X-Extent"
+        href: a-printminxextent.md
+      - name: "Print-Min-Y-Extent"
+        href: a-printminyextent.md
+      - name: "Print-Network-Address"
+        href: a-printnetworkaddress.md
+      - name: "Print-Notify"
+        href: a-printnotify.md
+      - name: "Print-Number-Up"
+        href: a-printnumberup.md
+      - name: "Print-Orientations-Supported"
+        href: a-printorientationssupported.md
+      - name: "Print-Owner"
+        href: a-printowner.md
+      - name: "Print-Pages-Per-Minute"
+        href: a-printpagesperminute.md
+      - name: "Print-Rate"
+        href: a-printrate.md
+      - name: "Print-Rate-Unit"
+        href: a-printrateunit.md
+      - name: "Print-Separator-File"
+        href: a-printseparatorfile.md
+      - name: "Print-Share-Name"
+        href: a-printsharename.md
+      - name: "Print-Spooling"
+        href: a-printspooling.md
+      - name: "Print-Stapling-Supported"
+        href: a-printstaplingsupported.md
+      - name: "Print-Start-Time"
+        href: a-printstarttime.md
+      - name: "Print-Status"
+        href: a-printstatus.md
+      - name: "Priority"
+        href: a-priority.md
+      - name: "Prior-Set-Time"
+        href: a-priorsettime.md
+      - name: "Prior-Value"
+        href: a-priorvalue.md
+      - name: "Private-Key"
+        href: a-privatekey.md
+      - name: "Privilege-Attributes"
+        href: a-privilegeattributes.md
+      - name: "Privilege-Display-Name"
+        href: a-privilegedisplayname.md
+      - name: "Privilege-Holder"
+        href: a-privilegeholder.md
+      - name: "Privilege-Value"
+        href: a-privilegevalue.md
+      - name: "Product-Code"
+        href: a-productcode.md
+      - name: "Profile-Path"
+        href: a-profilepath.md
+      - name: "Proxied-Object-Name"
+        href: a-proxiedobjectname.md
+      - name: "Proxy-Addresses"
+        href: a-proxyaddresses.md
+      - name: "Proxy-Generation-Enabled"
+        href: a-proxygenerationenabled.md
+      - name: "Proxy-Lifetime"
+        href: a-proxylifetime.md
+      - name: "Public-Key-Policy"
+        href: a-publickeypolicy.md
+      - name: "Purported-Search"
+        href: a-purportedsearch.md
+      - name: "Pwd-History-Length"
+        href: a-pwdhistorylength.md
+      - name: "Pwd-Last-Set"
+        href: a-pwdlastset.md
+      - name: "Pwd-Properties"
+        href: a-pwdproperties.md
+      - name: "Quality-Of-Service"
+        href: a-qualityofservice.md
+      - name: "Query-Filter"
+        href: a-queryfilter.md
+      - name: "QueryPoint"
+        href: a-querypoint.md
+      - name: "Query-Policy-BL"
+        href: a-querypolicybl.md
+      - name: "Query-Policy-Object"
+        href: a-querypolicyobject.md
+      - name: "Range-Lower"
+        href: a-rangelower.md
+      - name: "Range-Upper"
+        href: a-rangeupper.md
+      - name: "RDN"
+        href: a-name.md
+      - name: "RDN-Att-ID"
+        href: a-rdnattid.md
+      - name: "Registered-Address"
+        href: a-registeredaddress.md
+      - name: "Remote-Server-Name"
+        href: a-remoteservername.md
+      - name: "Remote-Source"
+        href: a-remotesource.md
+      - name: "Remote-Source-Type"
+        href: a-remotesourcetype.md
+      - name: "Remote-Storage-GUID"
+        href: a-remotestorageguid.md
+      - name: "Replica-Source"
+        href: a-replicasource.md
+      - name: "Repl-Interval"
+        href: a-replinterval.md
+      - name: "Repl-Property-Meta-Data"
+        href: a-replpropertymetadata.md
+      - name: "Repl-Topology-Stay-Of-Execution"
+        href: a-repltopologystayofexecution.md
+      - name: "Repl-UpToDate-Vector"
+        href: a-repluptodatevector.md
+      - name: "Reports"
+        href: a-directreports.md
+      - name: "Reps-From"
+        href: a-repsfrom.md
+      - name: "Reps-To"
+        href: a-repsto.md
+      - name: "Required-Categories"
+        href: a-requiredcategories.md
+      - name: "Retired-Repl-DSA-Signatures"
+        href: a-retiredrepldsasignatures.md
+      - name: "Revision"
+        href: a-revision.md
+      - name: "Rid"
+        href: a-rid.md
+      - name: "RID-Allocation-Pool"
+        href: a-ridallocationpool.md
+      - name: "RID-Available-Pool"
+        href: a-ridavailablepool.md
+      - name: "RID-Manager-Reference"
+        href: a-ridmanagerreference.md
+      - name: "RID-Next-RID"
+        href: a-ridnextrid.md
+      - name: "RID-Previous-Allocation-Pool"
+        href: a-ridpreviousallocationpool.md
+      - name: "RID-Set-References"
+        href: a-ridsetreferences.md
+      - name: "RID-Used-Pool"
+        href: a-ridusedpool.md
+      - name: "Rights-Guid"
+        href: a-rightsguid.md
+      - name: "Role-Occupant"
+        href: a-roleoccupant.md
+      - name: "roomNumber"
+        href: a-roomnumber.md
+      - name: "Root-Trust"
+        href: a-roottrust.md
+      - name: "rpc-Ns-Annotation"
+        href: a-rpcnsannotation.md
+      - name: "rpc-Ns-Bindings"
+        href: a-rpcnsbindings.md
+      - name: "rpc-Ns-Codeset"
+        href: a-rpcnscodeset.md
+      - name: "rpc-Ns-Entry-Flags"
+        href: a-rpcnsentryflags.md
+      - name: "rpc-Ns-Group"
+        href: a-rpcnsgroup.md
+      - name: "rpc-Ns-Interface-ID"
+        href: a-rpcnsinterfaceid.md
+      - name: "rpc-Ns-Object-ID"
+        href: a-rpcnsobjectid.md
+      - name: "rpc-Ns-Priority"
+        href: a-rpcnspriority.md
+      - name: "rpc-Ns-Profile-Entry"
+        href: a-rpcnsprofileentry.md
+      - name: "rpc-Ns-Transfer-Syntax"
+        href: a-rpcnstransfersyntax.md
+      - name: "SAM-Account-Name"
+        href: a-samaccountname.md
+      - name: "SAM-Account-Type"
+        href: a-samaccounttype.md
+      - name: "SAM-Domain-Updates"
+        href: a-samdomainupdates.md
+      - name: "Schedule"
+        href: a-schedule.md
+      - name: "Schema-Flags-Ex"
+        href: a-schemaflagsex.md
+      - name: "Schema-ID-GUID"
+        href: a-schemaidguid.md
+      - name: "Schema-Info"
+        href: a-schemainfo.md
+      - name: "Schema-Update"
+        href: a-schemaupdate.md
+      - name: "Schema-Version"
+        href: a-schemaversion.md
+      - name: "Scope-Flags"
+        href: a-scopeflags.md
+      - name: "Script-Path"
+        href: a-scriptpath.md
+      - name: "SD-Rights-Effective"
+        href: a-sdrightseffective.md
+      - name: "Search-Flags"
+        href: a-searchflags.md
+      - name: "Search-Guide"
+        href: a-searchguide.md
+      - name: "secretary"
+        href: a-secretary.md
+      - name: "Security-Identifier"
+        href: a-securityidentifier.md
+      - name: "See-Also"
+        href: a-seealso.md
+      - name: "Seq-Notification"
+        href: a-seqnotification.md
+      - name: "Serial-Number"
+        href: a-serialnumber.md
+      - name: "Server-Name"
+        href: a-servername.md
+      - name: "Server-Reference"
+        href: a-serverreference.md
+      - name: "Server-Reference-BL"
+        href: a-serverreferencebl.md
+      - name: "Server-Role"
+        href: a-serverrole.md
+      - name: "Server-State"
+        href: a-serverstate.md
+      - name: "Service-Binding-Information"
+        href: a-servicebindinginformation.md
+      - name: "Service-Class-ID"
+        href: a-serviceclassid.md
+      - name: "Service-Class-Info"
+        href: a-serviceclassinfo.md
+      - name: "Service-Class-Name"
+        href: a-serviceclassname.md
+      - name: "Service-DNS-Name"
+        href: a-servicednsname.md
+      - name: "Service-DNS-Name-Type"
+        href: a-servicednsnametype.md
+      - name: "Service-Instance-Version"
+        href: a-serviceinstanceversion.md
+      - name: "Service-Principal-Name"
+        href: a-serviceprincipalname.md
+      - name: "Setup-Command"
+        href: a-setupcommand.md
+      - name: "shadowExpire"
+        href: a-shadowexpire.md
+      - name: "shadowFlag"
+        href: a-shadowflag.md
+      - name: "shadowInactive"
+        href: a-shadowinactive.md
+      - name: "shadowLastChange"
+        href: a-shadowlastchange.md
+      - name: "shadowMax"
+        href: a-shadowmax.md
+      - name: "shadowMin"
+        href: a-shadowmin.md
+      - name: "shadowWarning"
+        href: a-shadowwarning.md
+      - name: "Shell-Context-Menu"
+        href: a-shellcontextmenu.md
+      - name: "Shell-Property-Pages"
+        href: a-shellpropertypages.md
+      - name: "Short-Server-Name"
+        href: a-shortservername.md
+      - name: "Show-In-Address-Book"
+        href: a-showinaddressbook.md
+      - name: "Show-In-Advanced-View-Only"
+        href: a-showinadvancedviewonly.md
+      - name: "SID-History"
+        href: a-sidhistory.md
+      - name: "Signature-Algorithms"
+        href: a-signaturealgorithms.md
+      - name: "Site-GUID"
+        href: a-siteguid.md
+      - name: "Site-Link-List"
+        href: a-sitelinklist.md
+      - name: "Site-List"
+        href: a-sitelist.md
+      - name: "Site-Object"
+        href: a-siteobject.md
+      - name: "Site-Object-BL"
+        href: a-siteobjectbl.md
+      - name: "Site-Server"
+        href: a-siteserver.md
+      - name: "SMTP-Mail-Address"
+        href: a-mailaddress.md
+      - name: "SPN-Mappings"
+        href: a-spnmappings.md
+      - name: "State-Or-Province-Name"
+        href: a-st.md
+      - name: "Street-Address"
+        href: a-street.md
+      - name: "Structural-Object-Class"
+        href: a-structuralobjectclass.md
+      - name: "Sub-Class-Of"
+        href: a-subclassof.md
+      - name: "Sub-Refs"
+        href: a-subrefs.md
+      - name: "SubSchemaSubEntry"
+        href: a-subschemasubentry.md
+      - name: "Superior-DNS-Root"
+        href: a-superiordnsroot.md
+      - name: "Super-Scope-Description"
+        href: a-superscopedescription.md
+      - name: "Super-Scopes"
+        href: a-superscopes.md
+      - name: "Supplemental-Credentials"
+        href: a-supplementalcredentials.md
+      - name: "Supported-Application-Context"
+        href: a-supportedapplicationcontext.md
+      - name: "Surname"
+        href: a-sn.md
+      - name: "Sync-Attributes"
+        href: a-syncattributes.md
+      - name: "Sync-Membership"
+        href: a-syncmembership.md
+      - name: "Sync-With-Object"
+        href: a-syncwithobject.md
+      - name: "Sync-With-SID"
+        href: a-syncwithsid.md
+      - name: "System-Auxiliary-Class"
+        href: a-systemauxiliaryclass.md
+      - name: "System-Flags"
+        href: a-systemflags.md
+      - name: "System-May-Contain"
+        href: a-systemmaycontain.md
+      - name: "System-Must-Contain"
+        href: a-systemmustcontain.md
+      - name: "System-Only"
+        href: a-systemonly.md
+      - name: "System-Poss-Superiors"
+        href: a-systemposssuperiors.md
+      - name: "Telephone-Number"
+        href: a-telephonenumber.md
+      - name: "Teletex-Terminal-Identifier"
+        href: a-teletexterminalidentifier.md
+      - name: "Telex-Number"
+        href: a-telexnumber.md
+      - name: "Telex-Primary"
+        href: a-primarytelexnumber.md
+      - name: "Template-Roots"
+        href: a-templateroots.md
+      - name: "Template-Roots2"
+        href: a-templateroots2.md
+      - name: "Terminal-Server"
+        href: a-terminalserver.md
+      - name: "Text-Country"
+        href: a-co.md
+      - name: "Text-Encoded-OR-Address"
+        href: a-textencodedoraddress.md
+      - name: "Time-Refresh"
+        href: a-timerefresh.md
+      - name: "Time-Vol-Change"
+        href: a-timevolchange.md
+      - name: "Title"
+        href: a-title.md
+      - name: "Token-Groups"
+        href: a-tokengroups.md
+      - name: "Token-Groups-Global-And-Universal"
+        href: a-tokengroupsglobalanduniversal.md
+      - name: "Token-Groups-No-GC-Acceptable"
+        href: a-tokengroupsnogcacceptable.md
+      - name: "Tombstone-Lifetime"
+        href: a-tombstonelifetime.md
+      - name: "Transport-Address-Attribute"
+        href: a-transportaddressattribute.md
+      - name: "Transport-DLL-Name"
+        href: a-transportdllname.md
+      - name: "Transport-Type"
+        href: a-transporttype.md
+      - name: "Treat-As-Leaf"
+        href: a-treatasleaf.md
+      - name: "Tree-Name"
+        href: a-treename.md
+      - name: "Trust-Attributes"
+        href: a-trustattributes.md
+      - name: "Trust-Auth-Incoming"
+        href: a-trustauthincoming.md
+      - name: "Trust-Auth-Outgoing"
+        href: a-trustauthoutgoing.md
+      - name: "Trust-Direction"
+        href: a-trustdirection.md
+      - name: "Trust-Parent"
+        href: a-trustparent.md
+      - name: "Trust-Partner"
+        href: a-trustpartner.md
+      - name: "Trust-Posix-Offset"
+        href: a-trustposixoffset.md
+      - name: "Trust-Type"
+        href: a-trusttype.md
+      - name: "UAS-Compat"
+        href: a-uascompat.md
+      - name: "uid"
+        href: a-uid.md
+      - name: "uidNumber"
+        href: a-uidnumber.md
+      - name: "UNC-Name"
+        href: a-uncname.md
+      - name: "Unicode-Pwd"
+        href: a-unicodepwd.md
+      - name: "uniqueIdentifier"
+        href: a-uniqueidentifier.md
+      - name: "uniqueMember"
+        href: a-uniquemember.md
+      - name: "unixHomeDirectory"
+        href: a-unixhomedirectory.md
+      - name: "unixUserPassword"
+        href: a-unixuserpassword.md
+      - name: "unstructuredAddress"
+        href: a-unstructuredaddress.md
+      - name: "unstructuredName"
+        href: a-unstructuredname.md
+      - name: "Upgrade-Product-Code"
+        href: a-upgradeproductcode.md
+      - name: "UPN-Suffixes"
+        href: a-upnsuffixes.md
+      - name: "User-Account-Control"
+        href: a-useraccountcontrol.md
+      - name: "User-Cert"
+        href: a-usercert.md
+      - name: "userClass"
+        href: a-userclass.md
+      - name: "User-Comment"
+        href: a-comment.md
+      - name: "User-Parameters"
+        href: a-userparameters.md
+      - name: "User-Password"
+        href: a-userpassword.md
+      - name: "userPKCS12"
+        href: a-userpkcs12.md
+      - name: "User-Principal-Name"
+        href: a-userprincipalname.md
+      - name: "User-Shared-Folder"
+        href: a-usersharedfolder.md
+      - name: "User-Shared-Folder-Other"
+        href: a-usersharedfolderother.md
+      - name: "User-SMIME-Certificate"
+        href: a-usersmimecertificate.md
+      - name: "User-Workstations"
+        href: a-userworkstations.md
+      - name: "USN-Changed"
+        href: a-usnchanged.md
+      - name: "USN-Created"
+        href: a-usncreated.md
+      - name: "USN-DSA-Last-Obj-Removed"
+        href: a-usndsalastobjremoved.md
+      - name: "USN-Intersite"
+        href: a-usnintersite.md
+      - name: "USN-Last-Obj-Rem"
+        href: a-usnlastobjrem.md
+      - name: "USN-Source"
+        href: a-usnsource.md
+      - name: "Valid-Accesses"
+        href: a-validaccesses.md
+      - name: "Vendor"
+        href: a-vendor.md
+      - name: "Version-Number"
+        href: a-versionnumber.md
+      - name: "Version-Number-Hi"
+        href: a-versionnumberhi.md
+      - name: "Version-Number-Lo"
+        href: a-versionnumberlo.md
+      - name: "Vol-Table-GUID"
+        href: a-voltableguid.md
+      - name: "Vol-Table-Idx-GUID"
+        href: a-voltableidxguid.md
+      - name: "Volume-Count"
+        href: a-volumecount.md
+      - name: "Wbem-Path"
+        href: a-wbempath.md
+      - name: "Well-Known-Objects"
+        href: a-wellknownobjects.md
+      - name: "When-Changed"
+        href: a-whenchanged.md
+      - name: "When-Created"
+        href: a-whencreated.md
+      - name: "Winsock-Addresses"
+        href: a-winsockaddresses.md
+      - name: "WWW-Home-Page"
+        href: a-wwwhomepage.md
+      - name: "WWW-Page-Other"
+        href: a-url.md
+      - name: "X121-Address"
+        href: a-x121address.md
+      - name: "x500uniqueIdentifier"
+        href: a-x500uniqueidentifier.md
+      - name: "X509-Cert"
+        href: a-usercertificate.md
+    - name: "Linked Attributes"
+      href: attributes-linked.md
+      items: 
+      - name: "Address-Book-Roots2"
+        href: a-addressbookroots2.md
+      - name: "Bridgehead-Server-List-BL"
+        href: a-bridgeheadserverlistbl.md
+      - name: "Bridgehead-Transport-List"
+        href: a-bridgeheadtransportlist.md
+      - name: "Frs-Computer-Reference"
+        href: a-frscomputerreference.md
+      - name: "Frs-Computer-Reference-BL"
+        href: a-frscomputerreferencebl.md
+      - name: "FRS-Member-Reference"
+        href: a-frsmemberreference.md
+      - name: "FRS-Member-Reference-BL"
+        href: a-frsmemberreferencebl.md
+      - name: "FRS-Primary-Member"
+        href: a-frsprimarymember.md
+      - name: "Global-Address-List2"
+        href: a-globaladdresslist2.md
+      - name: "Has-Master-NCs"
+        href: a-hasmasterncs.md
+      - name: "Has-Partial-Replica-NCs"
+        href: a-haspartialreplicancs.md
+      - name: "Is-Member-Of-DL"
+        href: a-memberof.md
+      - name: "Is-Privilege-Holder"
+        href: a-isprivilegeholder.md
+      - name: "Managed-By"
+        href: a-managedby.md
+      - name: "Managed-Objects"
+        href: a-managedobjects.md
+      - name: "Manager"
+        href: a-manager.md
+      - name: "Mastered-By"
+        href: a-masteredby.md
+      - name: "Member"
+        href: a-member.md
+      - name: "ms-Authz-Member-Rules-In-Central-Access-Policy"
+        href: a-msauthz-memberrulesincentralaccesspolicy.md
+      - name: "ms-Authz-Member-Rules-In-Central-Access-Policy-BL"
+        href: a-msauthz-memberrulesincentralaccesspolicybl.md
+      - name: "ms-COM-PartitionLink"
+        href: a-mscom-partitionlink.md
+      - name: "ms-COM-PartitionSetLink"
+        href: a-mscom-partitionsetlink.md
+      - name: "ms-COM-UserLink"
+        href: a-mscom-userlink.md
+      - name: "ms-COM-UserPartitionSetLink"
+        href: a-mscom-userpartitionsetlink.md
+      - name: "ms-DFSR-ComputerReference"
+        href: a-msdfsr-computerreference.md
+      - name: "ms-DFSR-ComputerReferenceBL"
+        href: a-msdfsr-computerreferencebl.md
+      - name: "ms-DFSR-MemberReference"
+        href: a-msdfsr-memberreference.md
+      - name: "ms-DFSR-MemberReferenceBL"
+        href: a-msdfsr-memberreferencebl.md
+      - name: "ms-DS-AuthenticatedAt-DC"
+        href: a-msds-authenticatedatdc.md
+      - name: "ms-DS-AuthenticatedTo-Accountlist"
+        href: a-msds-authenticatedtoaccountlist.md
+      - name: "ms-DS-BridgeHead-Servers-Used"
+        href: a-msds-bridgeheadserversused.md
+      - name: "ms-DS-Claim-Shares-Possible-Values-With"
+        href: a-msds-claimsharespossiblevalueswith.md
+      - name: "ms-DS-Claim-Shares-Possible-Values-With-BL"
+        href: a-msds-claimsharespossiblevalueswithbl.md
+      - name: "ms-DS-Claim-Type-Applies-To-Class"
+        href: a-msds-claimtypeappliestoclass.md
+      - name: "ms-DS-Disable-For-Instances"
+        href: a-msds-disableforinstances.md
+      - name: "ms-DS-Disable-For-Instances-BL"
+        href: a-msds-disableforinstancesbl.md
+      - name: "ms-DS-Egress-Claims-Transformation-Policy"
+        href: a-msds-egressclaimstransformationpolicy.md
+      - name: "ms-DS-Enabled-Feature"
+        href: a-msds-enabledfeature.md
+      - name: "ms-DS-Enabled-Feature-BL"
+        href: a-msds-enabledfeaturebl.md
+      - name: "ms-DS-Has-Domain-NCs"
+        href: a-msds-hasdomainncs.md
+      - name: "ms-DS-Has-Full-Replica-NCs"
+        href: a-msds-hasfullreplicancs.md
+      - name: "ms-DS-Has-Instantiated-NCs"
+        href: a-msds-hasinstantiatedncs.md
+      - name: "ms-DS-Has-Master-NCs"
+        href: a-msds-hasmasterncs.md
+      - name: "ms-DS-Host-Service-Account"
+        href: a-msds-hostserviceaccount.md
+      - name: "ms-DS-Host-Service-Account-BL"
+        href: a-msds-hostserviceaccountbl.md
+      - name: "ms-DS-Ingress-Claims-Transformation-Policy"
+        href: a-msds-ingressclaimstransformationpolicy.md
+      - name: "ms-DS-Is-Domain-For"
+        href: a-msds-isdomainfor.md
+      - name: "ms-DS-Is-Full-Replica-For"
+        href: a-msds-isfullreplicafor.md
+      - name: "ms-DS-Is-Partial-Replica-For"
+        href: a-msds-ispartialreplicafor.md
+      - name: "ms-DS-Is-Primary-Computer-For"
+        href: a-msds-isprimarycomputerfor.md
+      - name: "ms-DS-KrbTgt-Link"
+        href: a-msds-krbtgtlink.md
+      - name: "ms-DS-KrbTgt-Link-BL"
+        href: a-msds-krbtgtlinkbl.md
+      - name: "ms-DS-Mastered-By"
+        href: a-msds-masteredby.md
+      - name: "ms-DS-Members-For-Az-Role"
+        href: a-msds-membersforazrole.md
+      - name: "ms-DS-Members-For-Az-Role-BL"
+        href: a-msds-membersforazrolebl.md
+      - name: "ms-DS-Members-Of-Resource-Property-List"
+        href: a-msds-membersofresourcepropertylist.md
+      - name: "ms-DS-Members-Of-Resource-Property-List-BL"
+        href: a-msds-membersofresourcepropertylistbl.md
+      - name: "ms-DS-NC-Replica-Locations"
+        href: a-msds-nc-replica-locations.md
+      - name: "ms-DS-NC-RO-Replica-Locations"
+        href: a-msds-nc-ro-replica-locations.md
+      - name: "ms-DS-NC-RO-Replica-Locations-BL"
+        href: a-msds-nc-ro-replica-locations-bl.md
+      - name: "ms-DS-Never-Reveal-Group"
+        href: a-msds-neverrevealgroup.md
+      - name: "ms-DS-Non-Members"
+        href: a-msds-nonmembers.md
+      - name: "ms-DS-Non-Members-BL"
+        href: a-msds-nonmembersbl.md
+      - name: "ms-DS-Object-Reference"
+        href: a-msds-objectreference.md
+      - name: "ms-DS-Object-Reference-BL"
+        href: a-msds-objectreferencebl.md
+      - name: "ms-DS-OIDToGroup-Link"
+        href: a-msds-oidtogrouplink.md
+      - name: "ms-DS-OIDToGroup-Link-BL"
+        href: a-msds-oidtogrouplinkbl.md
+      - name: "ms-DS-Operations-For-Az-Role"
+        href: a-msds-operationsforazrole.md
+      - name: "ms-DS-Operations-For-Az-Role-BL"
+        href: a-msds-operationsforazrolebl.md
+      - name: "ms-DS-Operations-For-Az-Task"
+        href: a-msds-operationsforaztask.md
+      - name: "ms-DS-Operations-For-Az-Task-BL"
+        href: a-msds-operationsforaztaskbl.md
+      - name: "ms-DS-Primary-Computer"
+        href: a-msds-primarycomputer.md
+      - name: "ms-DS-PSO-Applied"
+        href: a-msds-psoapplied.md
+      - name: "ms-DS-PSO-Applies-To"
+        href: a-msds-psoappliesto.md
+      - name: "ms-DS-Revealed-DSAs"
+        href: a-msds-revealeddsas.md
+      - name: "ms-DS-Revealed-Users"
+        href: a-msds-revealedusers.md
+      - name: "ms-DS-Reveal-OnDemand-Group"
+        href: a-msds-revealondemandgroup.md
+      - name: "ms-DS-SD-Reference-Domain"
+        href: a-msds-sdreferencedomain.md
+      - name: "ms-DS-Service-Account"
+        href: a-msds-serviceaccount.md
+      - name: "ms-DS-Service-Account-BL"
+        href: a-msds-serviceaccountbl.md
+      - name: "ms-DS-Tasks-For-Az-Role"
+        href: a-msds-tasksforazrole.md
+      - name: "ms-DS-Tasks-For-Az-Role-BL"
+        href: a-msds-tasksforazrolebl.md
+      - name: "ms-DS-Tasks-For-Az-Task"
+        href: a-msds-tasksforaztask.md
+      - name: "ms-DS-Tasks-For-Az-Task-BL"
+        href: a-msds-tasksforaztaskbl.md
+      - name: "ms-DS-TDO-Egress-BL"
+        href: a-msds-tdoegressbl.md
+      - name: "ms-DS-TDO-Ingress-BL"
+        href: a-msds-tdoingressbl.md
+      - name: "ms-DS-Value-Type-Reference"
+        href: a-msds-valuetypereference.md
+      - name: "ms-DS-Value-Type-Reference-BL"
+        href: a-msds-valuetypereferencebl.md
+      - name: "ms-Exch-Owner-BL"
+        href: a-ownerbl.md
+      - name: "ms-FRS-Hub-Member"
+        href: a-msfrs-hub-member.md
+      - name: "ms-PKI-AccountCredentials"
+        href: a-mspkiaccountcredentials.md
+      - name: "ms-PKI-Credential-Roaming-Tokens"
+        href: a-mspki-credentialroamingtokens.md
+      - name: "ms-PKI-DPAPIMasterKeys"
+        href: a-mspkidpapimasterkeys.md
+      - name: "msSFU-30-Posix-Member"
+        href: a-mssfu30posixmember.md
+      - name: "msSFU-30-Posix-Member-Of"
+        href: a-mssfu30posixmemberof.md
+      - name: "ms-TPM-Tpm-Information-For-Computer"
+        href: a-mstpm-tpminformationforcomputer.md
+      - name: "ms-TPM-Tpm-Information-For-Computer-BL"
+        href: a-mstpm-tpminformationforcomputerbl.md
+      - name: "ms-TS-Primary-Desktop"
+        href: a-mstsprimarydesktop.md
+      - name: "ms-TS-Primary-Desktop-BL"
+        href: a-mstsprimarydesktopbl.md
+      - name: "ms-TS-Secondary-Desktop-BL"
+        href: a-mstssecondarydesktopbl.md
+      - name: "ms-TS-Secondary-Desktops"
+        href: a-mstssecondarydesktops.md
+      - name: "netboot-SCP-BL"
+        href: a-netbootscpbl.md
+      - name: "netboot-Server"
+        href: a-netbootserver.md
+      - name: "Non-Security-Member"
+        href: a-nonsecuritymember.md
+      - name: "Non-Security-Member-BL"
+        href: a-nonsecuritymemberbl.md
+      - name: "Owner"
+        href: a-owner.md
+      - name: "Privilege-Holder"
+        href: a-privilegeholder.md
+      - name: "Query-Policy-BL"
+        href: a-querypolicybl.md
+      - name: "Query-Policy-Object"
+        href: a-querypolicyobject.md
+      - name: "Reports"
+        href: a-directreports.md
+      - name: "Server-Reference"
+        href: a-serverreference.md
+      - name: "Server-Reference-BL"
+        href: a-serverreferencebl.md
+      - name: "Site-Link-List"
+        href: a-sitelinklist.md
+      - name: "Site-List"
+        href: a-sitelist.md
+      - name: "Site-Object"
+        href: a-siteobject.md
+      - name: "Site-Object-BL"
+        href: a-siteobjectbl.md
+      - name: "Sync-Membership"
+        href: a-syncmembership.md
+      - name: "Template-Roots2"
+        href: a-templateroots2.md
+    - name: "Indexed Attributes"
+      href: attributes-indexed.md
+      items: 
+      - name: "Alt-Security-Identities"
+        href: a-altsecurityidentities.md
+      - name: "Birth-Location"
+        href: a-birthlocation.md
+      - name: "COM-ClassID"
+        href: a-comclassid.md
+      - name: "Common-Name"
+        href: a-cn.md
+      - name: "dhcp-Type"
+        href: a-dhcptype.md
+      - name: "Display-Name"
+        href: a-displayname.md
+      - name: "Dns-Root"
+        href: a-dnsroot.md
+      - name: "DNS-Tombstoned"
+        href: a-dnstombstoned.md
+      - name: "E-mail-Addresses"
+        href: a-mail.md
+      - name: "File-Ext-Priority"
+        href: a-fileextpriority.md
+      - name: "Flat-Name"
+        href: a-flatname.md
+      - name: "From-Server"
+        href: a-fromserver.md
+      - name: "FSMO-Role-Owner"
+        href: a-fsmoroleowner.md
+      - name: "gidNumber"
+        href: a-gidnumber.md
+      - name: "Given-Name"
+        href: a-givenname.md
+      - name: "Group-Attributes"
+        href: a-groupattributes.md
+      - name: "Group-Type"
+        href: a-grouptype.md
+      - name: "Implemented-Categories"
+        href: a-implementedcategories.md
+      - name: "Invocation-Id"
+        href: a-invocationid.md
+      - name: "Keywords"
+        href: a-keywords.md
+      - name: "Last-Logon-Timestamp"
+        href: a-lastlogontimestamp.md
+      - name: "LDAP-Display-Name"
+        href: a-ldapdisplayname.md
+      - name: "Legacy-Exchange-DN"
+        href: a-legacyexchangedn.md
+      - name: "Locality-Name"
+        href: a-l.md
+      - name: "Location"
+        href: a-location.md
+      - name: "ms-DFSR-DfsPath"
+        href: a-msdfsr-dfspath.md
+      - name: "ms-DFSR-ReplicationGroupGuid"
+        href: a-msdfsr-replicationgroupguid.md
+      - name: "ms-DS-Additional-Sam-Account-Name"
+        href: a-msds-additionalsamaccountname.md
+      - name: "ms-DS-Az-Object-Guid"
+        href: a-msds-azobjectguid.md
+      - name: "ms-DS-Cached-Membership-Time-Stamp"
+        href: a-msds-cached-membership-time-stamp.md
+      - name: "MS-DS-Creator-SID"
+        href: a-ms-ds-creatorsid.md
+      - name: "ms-DS-Entry-Time-To-Die"
+        href: a-msds-entry-time-to-die.md
+      - name: "ms-DS-GeoCoordinates-Altitude"
+        href: a-msds-geocoordinatesaltitude.md
+      - name: "ms-DS-GeoCoordinates-Latitude"
+        href: a-msds-geocoordinateslatitude.md
+      - name: "ms-DS-GeoCoordinates-Longitude"
+        href: a-msds-geocoordinateslongitude.md
+      - name: "ms-DS-HAB-Seniority-Index"
+        href: a-msds-habseniorityindex.md
+      - name: "ms-DS-Phonetic-Company-Name"
+        href: a-msds-phoneticcompanyname.md
+      - name: "ms-DS-Phonetic-Department"
+        href: a-msds-phoneticdepartment.md
+      - name: "ms-DS-Phonetic-Display-Name"
+        href: a-msds-phoneticdisplayname.md
+      - name: "ms-DS-Phonetic-First-Name"
+        href: a-msds-phoneticfirstname.md
+      - name: "ms-DS-Phonetic-Last-Name"
+        href: a-msds-phoneticlastname.md
+      - name: "ms-DS-Primary-Computer"
+        href: a-msds-primarycomputer.md
+      - name: "ms-DS-Secondary-KrbTgt-Number"
+        href: a-msds-secondarykrbtgtnumber.md
+      - name: "ms-DS-Seniority-Index"
+        href: a-msds-seniorityindex.md
+      - name: "ms-DS-Site-Affinity"
+        href: a-msds-site-affinity.md
+      - name: "ms-FVE-RecoveryGuid"
+        href: a-msfve-recoveryguid.md
+      - name: "ms-FVE-VolumeGuid"
+        href: a-msfve-volumeguid.md
+      - name: "MSMQ-Digests"
+        href: a-msmqdigests.md
+      - name: "MSMQ-Label"
+        href: a-msmqlabel.md
+      - name: "MSMQ-Label-Ex"
+        href: a-msmqlabelex.md
+      - name: "MSMQ-Owner-ID"
+        href: a-msmqownerid.md
+      - name: "MSMQ-Queue-Type"
+        href: a-msmqqueuetype.md
+      - name: "ms-PKI-Cert-Template-OID"
+        href: a-mspki-cert-template-oid.md
+      - name: "msSFU-30-Domains"
+        href: a-mssfu30domains.md
+      - name: "msSFU-30-Is-Valid-Container"
+        href: a-mssfu30isvalidcontainer.md
+      - name: "msSFU-30-Master-Server-Name"
+        href: a-mssfu30masterservername.md
+      - name: "msSFU-30-Max-Gid-Number"
+        href: a-mssfu30maxgidnumber.md
+      - name: "msSFU-30-Max-Uid-Number"
+        href: a-mssfu30maxuidnumber.md
+      - name: "msSFU-30-Name"
+        href: a-mssfu30name.md
+      - name: "msSFU-30-Netgroup-Host-At-Domain"
+        href: a-mssfu30netgrouphostatdomain.md
+      - name: "msSFU-30-Netgroup-User-At-Domain"
+        href: a-mssfu30netgroupuseratdomain.md
+      - name: "msSFU-30-Nis-Domain"
+        href: a-mssfu30nisdomain.md
+      - name: "msSFU-30-Order-Number"
+        href: a-mssfu30ordernumber.md
+      - name: "msSFU-30-Yp-Servers"
+        href: a-mssfu30ypservers.md
+      - name: "ms-SPP-KMS-Ids"
+        href: a-msspp-kmsids.md
+      - name: "MS-SQL-Alias"
+        href: a-ms-sql-alias.md
+      - name: "MS-SQL-Database"
+        href: a-ms-sql-database.md
+      - name: "MS-SQL-Name"
+        href: a-ms-sql-name.md
+      - name: "MS-SQL-Version"
+        href: a-ms-sql-version.md
+      - name: "ms-TPM-Srk-Pub-Thumbprint"
+        href: a-mstpm-srkpubthumbprint.md
+      - name: "MS-TS-ExpireDate"
+        href: a-mstsexpiredate.md
+      - name: "MS-TS-ExpireDate2"
+        href: a-mstsexpiredate2.md
+      - name: "MS-TS-ExpireDate3"
+        href: a-mstsexpiredate3.md
+      - name: "MS-TS-ExpireDate4"
+        href: a-mstsexpiredate4.md
+      - name: "MS-TS-LicenseVersion"
+        href: a-mstslicenseversion.md
+      - name: "MS-TS-LicenseVersion2"
+        href: a-mstslicenseversion2.md
+      - name: "MS-TS-LicenseVersion3"
+        href: a-mstslicenseversion3.md
+      - name: "MS-TS-LicenseVersion4"
+        href: a-mstslicenseversion4.md
+      - name: "MS-TSLS-Property01"
+        href: a-mstslsproperty01.md
+      - name: "MS-TSLS-Property02"
+        href: a-mstslsproperty02.md
+      - name: "MS-TS-ManagingLS"
+        href: a-mstsmanagingls.md
+      - name: "MS-TS-ManagingLS2"
+        href: a-mstsmanagingls2.md
+      - name: "MS-TS-ManagingLS3"
+        href: a-mstsmanagingls3.md
+      - name: "MS-TS-ManagingLS4"
+        href: a-mstsmanagingls4.md
+      - name: "MS-TS-Property01"
+        href: a-mstsproperty01.md
+      - name: "MS-TS-Property02"
+        href: a-mstsproperty02.md
+      - name: "NETBIOS-Name"
+        href: a-netbiosname.md
+      - name: "Netboot-GUID"
+        href: a-netbootguid.md
+      - name: "Object-Category"
+        href: a-objectcategory.md
+      - name: "Object-Class"
+        href: a-objectclass.md
+      - name: "Object-Guid"
+        href: a-objectguid.md
+      - name: "Object-Sid"
+        href: a-objectsid.md
+      - name: "OMT-Indx-Guid"
+        href: a-omtindxguid.md
+      - name: "Organizational-Unit-Name"
+        href: a-ou.md
+      - name: "Package-Flags"
+        href: a-packageflags.md
+      - name: "Physical-Delivery-Office-Name"
+        href: a-physicaldeliveryofficename.md
+      - name: "Physical-Location-Object"
+        href: a-physicallocationobject.md
+      - name: "Primary-Group-ID"
+        href: a-primarygroupid.md
+      - name: "Proxy-Addresses"
+        href: a-proxyaddresses.md
+      - name: "RDN"
+        href: a-name.md
+      - name: "Required-Categories"
+        href: a-requiredcategories.md
+      - name: "rpc-Ns-Interface-ID"
+        href: a-rpcnsinterfaceid.md
+      - name: "rpc-Ns-Object-ID"
+        href: a-rpcnsobjectid.md
+      - name: "rpc-Ns-Transfer-Syntax"
+        href: a-rpcnstransfersyntax.md
+      - name: "SAM-Account-Name"
+        href: a-samaccountname.md
+      - name: "SAM-Account-Type"
+        href: a-samaccounttype.md
+      - name: "Service-Class-Name"
+        href: a-serviceclassname.md
+      - name: "Service-Principal-Name"
+        href: a-serviceprincipalname.md
+      - name: "Show-In-Advanced-View-Only"
+        href: a-showinadvancedviewonly.md
+      - name: "SID-History"
+        href: a-sidhistory.md
+      - name: "Surname"
+        href: a-sn.md
+      - name: "Terminal-Server"
+        href: a-terminalserver.md
+      - name: "Time-Vol-Change"
+        href: a-timevolchange.md
+      - name: "Trust-Partner"
+        href: a-trustpartner.md
+      - name: "uidNumber"
+        href: a-uidnumber.md
+      - name: "UNC-Name"
+        href: a-uncname.md
+      - name: "User-Account-Control"
+        href: a-useraccountcontrol.md
+      - name: "User-Principal-Name"
+        href: a-userprincipalname.md
+      - name: "USN-Changed"
+        href: a-usnchanged.md
+      - name: "USN-Created"
+        href: a-usncreated.md
+      - name: "USN-Intersite"
+        href: a-usnintersite.md
+      - name: "Vol-Table-Idx-GUID"
+        href: a-voltableidxguid.md
+    - name: "Global Attributes"
+      href: attributes-global.md
+      items: 
+      - name: "Alt-Security-Identities"
+        href: a-altsecurityidentities.md
+      - name: "CA-Certificate"
+        href: a-cacertificate.md
+      - name: "CA-Certificate-DN"
+        href: a-cacertificatedn.md
+      - name: "Certificate-Templates"
+        href: a-certificatetemplates.md
+      - name: "Common-Name"
+        href: a-cn.md
+      - name: "Country-Name"
+        href: a-c.md
+      - name: "Description"
+        href: a-description.md
+      - name: "Display-Name"
+        href: a-displayname.md
+      - name: "DNS-Host-Name"
+        href: a-dnshostname.md
+      - name: "Domain-Component"
+        href: a-dc.md
+      - name: "Driver-Name"
+        href: a-drivername.md
+      - name: "DS-Core-Propagation-Data"
+        href: a-dscorepropagationdata.md
+      - name: "E-mail-Addresses"
+        href: a-mail.md
+      - name: "Flags"
+        href: a-flags.md
+      - name: "Frs-Computer-Reference"
+        href: a-frscomputerreference.md
+      - name: "FRS-Member-Reference"
+        href: a-frsmemberreference.md
+      - name: "Given-Name"
+        href: a-givenname.md
+      - name: "GP-Link"
+        href: a-gplink.md
+      - name: "Group-Type"
+        href: a-grouptype.md
+      - name: "Instance-Type"
+        href: a-instancetype.md
+      - name: "Is-Deleted"
+        href: a-isdeleted.md
+      - name: "Is-Recycled"
+        href: a-isrecycled.md
+      - name: "Keywords"
+        href: a-keywords.md
+      - name: "Last-Logon-Timestamp"
+        href: a-lastlogontimestamp.md
+      - name: "LDAP-Display-Name"
+        href: a-ldapdisplayname.md
+      - name: "Legacy-Exchange-DN"
+        href: a-legacyexchangedn.md
+      - name: "Locality-Name"
+        href: a-l.md
+      - name: "Location"
+        href: a-location.md
+      - name: "Manager"
+        href: a-manager.md
+      - name: "meetingBlob"
+        href: a-meetingblob.md
+      - name: "meetingDescription"
+        href: a-meetingdescription.md
+      - name: "meetingName"
+        href: a-meetingname.md
+      - name: "meetingProtocol"
+        href: a-meetingprotocol.md
+      - name: "Member"
+        href: a-member.md
+      - name: "MS-DRM-Identity-Certificate"
+        href: a-msdrm-identitycertificate.md
+      - name: "ms-DS-Enabled-Feature"
+        href: a-msds-enabledfeature.md
+      - name: "ms-DS-Entry-Time-To-Die"
+        href: a-msds-entry-time-to-die.md
+      - name: "ms-DS-HAB-Seniority-Index"
+        href: a-msds-habseniorityindex.md
+      - name: "ms-DS-Phonetic-Company-Name"
+        href: a-msds-phoneticcompanyname.md
+      - name: "ms-DS-Phonetic-Department"
+        href: a-msds-phoneticdepartment.md
+      - name: "ms-DS-Phonetic-Display-Name"
+        href: a-msds-phoneticdisplayname.md
+      - name: "ms-DS-Phonetic-First-Name"
+        href: a-msds-phoneticfirstname.md
+      - name: "ms-DS-Phonetic-Last-Name"
+        href: a-msds-phoneticlastname.md
+      - name: "ms-DS-Primary-Computer"
+        href: a-msds-primarycomputer.md
+      - name: "ms-DS-Seniority-Index"
+        href: a-msds-seniorityindex.md
+      - name: "ms-DS-Trust-Forest-Trust-Info"
+        href: a-msds-trustforesttrustinfo.md
+      - name: "ms-FVE-RecoveryGuid"
+        href: a-msfve-recoveryguid.md
+      - name: "ms-FVE-VolumeGuid"
+        href: a-msfve-volumeguid.md
+      - name: "MSMQ-Authenticate"
+        href: a-msmqauthenticate.md
+      - name: "MSMQ-Base-Priority"
+        href: a-msmqbasepriority.md
+      - name: "MSMQ-Dependent-Client-Services"
+        href: a-msmqdependentclientservices.md
+      - name: "MSMQ-Digests"
+        href: a-msmqdigests.md
+      - name: "MSMQ-Digests-Mig"
+        href: a-msmqdigestsmig.md
+      - name: "MSMQ-Ds-Services"
+        href: a-msmqdsservices.md
+      - name: "MSMQ-Encrypt-Key"
+        href: a-msmqencryptkey.md
+      - name: "MSMQ-Foreign"
+        href: a-msmqforeign.md
+      - name: "MSMQ-In-Routing-Servers"
+        href: a-msmqinroutingservers.md
+      - name: "MSMQ-Journal"
+        href: a-msmqjournal.md
+      - name: "MSMQ-Label"
+        href: a-msmqlabel.md
+      - name: "MSMQ-Label-Ex"
+        href: a-msmqlabelex.md
+      - name: "MSMQ-Multicast-Address"
+        href: a-msmq-multicastaddress.md
+      - name: "MSMQ-OS-Type"
+        href: a-msmqostype.md
+      - name: "MSMQ-Out-Routing-Servers"
+        href: a-msmqoutroutingservers.md
+      - name: "MSMQ-Owner-ID"
+        href: a-msmqownerid.md
+      - name: "MSMQ-Privacy-Level"
+        href: a-msmqprivacylevel.md
+      - name: "MSMQ-Queue-Journal-Quota"
+        href: a-msmqqueuejournalquota.md
+      - name: "MSMQ-Queue-Name-Ext"
+        href: a-msmqqueuenameext.md
+      - name: "MSMQ-Queue-Quota"
+        href: a-msmqqueuequota.md
+      - name: "MSMQ-Queue-Type"
+        href: a-msmqqueuetype.md
+      - name: "MSMQ-Routing-Services"
+        href: a-msmqroutingservices.md
+      - name: "MSMQ-Secured-Source"
+        href: a-msmq-securedsource.md
+      - name: "MSMQ-Service-Type"
+        href: a-msmqservicetype.md
+      - name: "MSMQ-Sign-Certificates"
+        href: a-msmqsigncertificates.md
+      - name: "MSMQ-Sign-Certificates-Mig"
+        href: a-msmqsigncertificatesmig.md
+      - name: "MSMQ-Sign-Key"
+        href: a-msmqsignkey.md
+      - name: "MSMQ-Sites"
+        href: a-msmqsites.md
+      - name: "MSMQ-Transactional"
+        href: a-msmqtransactional.md
+      - name: "MSMQ-User-Sid"
+        href: a-msmqusersid.md
+      - name: "ms-PKI-Enrollment-Servers"
+        href: a-mspki-enrollment-servers.md
+      - name: "ms-PKI-Site-Name"
+        href: a-mspki-site-name.md
+      - name: "ms-RRAS-Attribute"
+        href: a-msrrasattribute.md
+      - name: "MS-SQL-Alias"
+        href: a-ms-sql-alias.md
+      - name: "MS-SQL-Database"
+        href: a-ms-sql-database.md
+      - name: "MS-SQL-Name"
+        href: a-ms-sql-name.md
+      - name: "MS-SQL-Version"
+        href: a-ms-sql-version.md
+      - name: "Netboot-GUID"
+        href: a-netbootguid.md
+      - name: "Netboot-Machine-File-Path"
+        href: a-netbootmachinefilepath.md
+      - name: "NT-Security-Descriptor"
+        href: a-ntsecuritydescriptor.md
+      - name: "Obj-Dist-Name"
+        href: a-distinguishedname.md
+      - name: "Object-Category"
+        href: a-objectcategory.md
+      - name: "Object-Class"
+        href: a-objectclass.md
+      - name: "Object-Guid"
+        href: a-objectguid.md
+      - name: "Object-Sid"
+        href: a-objectsid.md
+      - name: "Organizational-Unit-Name"
+        href: a-ou.md
+      - name: "Organization-Name"
+        href: a-o.md
+      - name: "Partial-Attribute-Deletion-List"
+        href: a-partialattributedeletionlist.md
+      - name: "Partial-Attribute-Set"
+        href: a-partialattributeset.md
+      - name: "Phone-Home-Primary"
+        href: a-homephone.md
+      - name: "Phone-Ip-Other"
+        href: a-otheripphone.md
+      - name: "Phone-Ip-Primary"
+        href: a-ipphone.md
+      - name: "PKI-Critical-Extensions"
+        href: a-pkicriticalextensions.md
+      - name: "PKI-Default-CSPs"
+        href: a-pkidefaultcsps.md
+      - name: "PKI-Default-Key-Spec"
+        href: a-pkidefaultkeyspec.md
+      - name: "PKI-Enrollment-Access"
+        href: a-pkienrollmentaccess.md
+      - name: "PKI-Expiration-Period"
+        href: a-pkiexpirationperiod.md
+      - name: "PKI-Extended-Key-Usage"
+        href: a-pkiextendedkeyusage.md
+      - name: "PKI-Key-Usage"
+        href: a-pkikeyusage.md
+      - name: "PKI-Max-Issuing-Depth"
+        href: a-pkimaxissuingdepth.md
+      - name: "PKI-Overlap-Period"
+        href: a-pkioverlapperiod.md
+      - name: "Poss-Superiors"
+        href: a-posssuperiors.md
+      - name: "Primary-Group-ID"
+        href: a-primarygroupid.md
+      - name: "Print-Color"
+        href: a-printcolor.md
+      - name: "Print-Duplex-Supported"
+        href: a-printduplexsupported.md
+      - name: "Printer-Name"
+        href: a-printername.md
+      - name: "Print-Max-Resolution-Supported"
+        href: a-printmaxresolutionsupported.md
+      - name: "Print-Media-Ready"
+        href: a-printmediaready.md
+      - name: "Print-Memory"
+        href: a-printmemory.md
+      - name: "Print-Pages-Per-Minute"
+        href: a-printpagesperminute.md
+      - name: "Print-Rate"
+        href: a-printrate.md
+      - name: "Print-Rate-Unit"
+        href: a-printrateunit.md
+      - name: "Print-Share-Name"
+        href: a-printsharename.md
+      - name: "Print-Stapling-Supported"
+        href: a-printstaplingsupported.md
+      - name: "Proxied-Object-Name"
+        href: a-proxiedobjectname.md
+      - name: "Range-Lower"
+        href: a-rangelower.md
+      - name: "Range-Upper"
+        href: a-rangeupper.md
+      - name: "RDN"
+        href: a-name.md
+      - name: "Repl-Property-Meta-Data"
+        href: a-replpropertymetadata.md
+      - name: "Repl-UpToDate-Vector"
+        href: a-repluptodatevector.md
+      - name: "Reps-From"
+        href: a-repsfrom.md
+      - name: "Reps-To"
+        href: a-repsto.md
+      - name: "SAM-Account-Name"
+        href: a-samaccountname.md
+      - name: "SAM-Account-Type"
+        href: a-samaccounttype.md
+      - name: "Security-Identifier"
+        href: a-securityidentifier.md
+      - name: "Server-Name"
+        href: a-servername.md
+      - name: "Service-Binding-Information"
+        href: a-servicebindinginformation.md
+      - name: "Service-Class-ID"
+        href: a-serviceclassid.md
+      - name: "Service-Class-Info"
+        href: a-serviceclassinfo.md
+      - name: "Service-Instance-Version"
+        href: a-serviceinstanceversion.md
+      - name: "Service-Principal-Name"
+        href: a-serviceprincipalname.md
+      - name: "Short-Server-Name"
+        href: a-shortservername.md
+      - name: "SID-History"
+        href: a-sidhistory.md
+      - name: "Signature-Algorithms"
+        href: a-signaturealgorithms.md
+      - name: "State-Or-Province-Name"
+        href: a-st.md
+      - name: "Street-Address"
+        href: a-street.md
+      - name: "Sub-Refs"
+        href: a-subrefs.md
+      - name: "Surname"
+        href: a-sn.md
+      - name: "System-Poss-Superiors"
+        href: a-systemposssuperiors.md
+      - name: "Telephone-Number"
+        href: a-telephonenumber.md
+      - name: "Trust-Attributes"
+        href: a-trustattributes.md
+      - name: "Trust-Direction"
+        href: a-trustdirection.md
+      - name: "Trust-Partner"
+        href: a-trustpartner.md
+      - name: "Trust-Type"
+        href: a-trusttype.md
+      - name: "UNC-Name"
+        href: a-uncname.md
+      - name: "User-Account-Control"
+        href: a-useraccountcontrol.md
+      - name: "User-Cert"
+        href: a-usercert.md
+      - name: "User-Principal-Name"
+        href: a-userprincipalname.md
+      - name: "User-SMIME-Certificate"
+        href: a-usersmimecertificate.md
+      - name: "USN-Changed"
+        href: a-usnchanged.md
+      - name: "USN-Created"
+        href: a-usncreated.md
+      - name: "USN-Last-Obj-Rem"
+        href: a-usnlastobjrem.md
+      - name: "Version-Number"
+        href: a-versionnumber.md
+      - name: "Well-Known-Objects"
+        href: a-wellknownobjects.md
+      - name: "When-Changed"
+        href: a-whenchanged.md
+      - name: "When-Created"
+        href: a-whencreated.md
+      - name: "Winsock-Addresses"
+        href: a-winsockaddresses.md
+      - name: "X509-Cert"
+        href: a-usercertificate.md
+    - name: "ANR Attributes"
+      href: attributes-anr.md
+      items: 
+      - name: "Display-Name"
+        href: a-displayname.md
+      - name: "Given-Name"
+        href: a-givenname.md
+      - name: "Legacy-Exchange-DN"
+        href: a-legacyexchangedn.md
+      - name: "ms-DS-Additional-Sam-Account-Name"
+        href: a-msds-additionalsamaccountname.md
+      - name: "ms-DS-Phonetic-Company-Name"
+        href: a-msds-phoneticcompanyname.md
+      - name: "ms-DS-Phonetic-Department"
+        href: a-msds-phoneticdepartment.md
+      - name: "ms-DS-Phonetic-Display-Name"
+        href: a-msds-phoneticdisplayname.md
+      - name: "ms-DS-Phonetic-First-Name"
+        href: a-msds-phoneticfirstname.md
+      - name: "ms-DS-Phonetic-Last-Name"
+        href: a-msds-phoneticlastname.md
+      - name: "Physical-Delivery-Office-Name"
+        href: a-physicaldeliveryofficename.md
+      - name: "Proxy-Addresses"
+        href: a-proxyaddresses.md
+      - name: "RDN"
+        href: a-name.md
+      - name: "SAM-Account-Name"
+        href: a-samaccountname.md
+      - name: "Surname"
+        href: a-sn.md
+  - name: "Syntaxes"
+    href: syntaxes.md
+    items: 
+    - name: "Boolean"
+      href: s-boolean.md
+    - name: "Enumeration"
+      href: s-enumeration.md
+    - name: "Enumeration(Delivery-Mechanism)"
+      href: s-enumeration-delivery-mechanism.md
+    - name: "Enumeration(Export-Information-Level)"
+      href: s-enumeration-export-information-level.md
+    - name: "Enumeration(Preferred-Delivery-Method)"
+      href: s-enumeration-preferred-delivery-method.md
+    - name: "Integer"
+      href: s-integer.md
+    - name: "Interval"
+      href: s-interval.md
+    - name: "LargeInteger"
+      href: s-largeinteger.md
+    - name: "Object(Access-Point)"
+      href: s-object-access-point.md
+    - name: "Object(DN-Binary)"
+      href: s-object-dn-binary.md
+    - name: "Object(DN-String)"
+      href: s-object-dn-string.md
+    - name: "Object(DS-DN)"
+      href: s-object-ds-dn.md
+    - name: "Object(OR-Name)"
+      href: s-object-or-name.md
+    - name: "Object(Presentation-Address)"
+      href: s-object-presentation-address.md
+    - name: "Object(Replica-Link)"
+      href: s-object-replica-link.md
+    - name: "String(Case Sensitive)"
+      href: s-string-case-sensitive.md
+    - name: "String(Generalized-Time)"
+      href: s-string-generalized-time.md
+    - name: "String(IA5)"
+      href: s-string-ia5.md
+    - name: "String(NT-Sec-Desc)"
+      href: s-string-nt-sec-desc.md
+    - name: "String(Numeric)"
+      href: s-string-numeric.md
+    - name: "String(Object-Identifier)"
+      href: s-string-object-identifier.md
+    - name: "String(Octet)"
+      href: s-string-octet.md
+    - name: "String(Printable)"
+      href: s-string-printable.md
+    - name: "String(Sid)"
+      href: s-string-sid.md
+    - name: "String(Teletex)"
+      href: s-string-teletex.md
+    - name: "String(Unicode)"
+      href: s-string-unicode.md
+    - name: "String(UTC-Time)"
+      href: s-string-utc-time.md
+  - name: "Control Access Rights"
+    href: control-access-rights.md
+    items: 
+    - name: "Extended Rights"
+      href: extended-rights.md
+      items: 
+      - name: "Abandon-Replication"
+        href: r-abandon-replication.md
+      - name: "Add-GUID"
+        href: r-add-guid.md
+      - name: "Allocate-Rids"
+        href: r-allocate-rids.md
+      - name: "Allowed-To-Authenticate"
+        href: r-allowed-to-authenticate.md
+      - name: "Apply-Group-Policy"
+        href: r-apply-group-policy.md
+      - name: "Certificate-Enrollment"
+        href: r-certificate-enrollment.md
+      - name: "Change-Domain-Master"
+        href: r-change-domain-master.md
+      - name: "Change-Infrastructure-Master"
+        href: r-change-infrastructure-master.md
+      - name: "Change-PDC"
+        href: r-change-pdc.md
+      - name: "Change-Rid-Master"
+        href: r-change-rid-master.md
+      - name: "Change-Schema-Master"
+        href: r-change-schema-master.md
+      - name: "Create-Inbound-Forest-Trust"
+        href: r-create-inbound-forest-trust.md
+      - name: "Do-Garbage-Collection"
+        href: r-do-garbage-collection.md
+      - name: "Domain-Administer-Server"
+        href: r-domain-administer-server.md
+      - name: "DS-Check-Stale-Phantoms"
+        href: r-ds-check-stale-phantoms.md
+      - name: "DS-Clone-Domain-Controller"
+        href: r-ds-clone-domain-controller.md
+      - name: "DS-Execute-Intentions-Script"
+        href: r-ds-execute-intentions-script.md
+      - name: "DS-Install-Replica"
+        href: r-ds-install-replica.md
+      - name: "DS-Query-Self-Quota"
+        href: r-ds-query-self-quota.md
+      - name: "DS-Replication-Get-Changes"
+        href: r-ds-replication-get-changes.md
+      - name: "DS-Replication-Get-Changes-All"
+        href: r-ds-replication-get-changes-all.md
+      - name: "DS-Replication-Get-Changes-In-Filtered-Set"
+        href: r-ds-replication-get-changes-in-filtered-set.md
+      - name: "DS-Replication-Manage-Topology"
+        href: r-ds-replication-manage-topology.md
+      - name: "DS-Replication-Monitor-Topology"
+        href: r-ds-replication-monitor-topology.md
+      - name: "DS-Replication-Synchronize"
+        href: r-ds-replication-synchronize.md
+      - name: "Enable-Per-User-Reversibly-Encrypted-Password"
+        href: r-enable-per-user-reversibly-encrypted-password.md
+      - name: "Generate-RSoP-Logging"
+        href: r-generate-rsop-logging.md
+      - name: "Generate-RSoP-Planning"
+        href: r-generate-rsop-planning.md
+      - name: "Manage-Optional-Features"
+        href: r-manage-optional-features.md
+      - name: "Migrate-SID-History"
+        href: r-migrate-sid-history.md
+      - name: "msmq-Open-Connector"
+        href: r-msmq-open-connector.md
+      - name: "msmq-Peek"
+        href: r-msmq-peek.md
+      - name: "msmq-Peek-computer-Journal"
+        href: r-msmq-peek-computer-journal.md
+      - name: "msmq-Peek-Dead-Letter"
+        href: r-msmq-peek-dead-letter.md
+      - name: "msmq-Receive"
+        href: r-msmq-receive.md
+      - name: "msmq-Receive-computer-Journal"
+        href: r-msmq-receive-computer-journal.md
+      - name: "msmq-Receive-Dead-Letter"
+        href: r-msmq-receive-dead-letter.md
+      - name: "msmq-Receive-journal"
+        href: r-msmq-receive-journal.md
+      - name: "msmq-Send"
+        href: r-msmq-send.md
+      - name: "Open-Address-Book"
+        href: r-open-address-book.md
+      - name: "Read-Only-Replication-Secret-Synchronization"
+        href: r-read-only-replication-secret-synchronization.md
+      - name: "Reanimate-Tombstones"
+        href: r-reanimate-tombstones.md
+      - name: "Recalculate-Hierarchy"
+        href: r-recalculate-hierarchy.md
+      - name: "Recalculate-Security-Inheritance"
+        href: r-recalculate-security-inheritance.md
+      - name: "Receive-As"
+        href: r-receive-as.md
+      - name: "Refresh-Group-Cache"
+        href: r-refresh-group-cache.md
+      - name: "Reload-SSL-Certificate"
+        href: r-reload-ssl-certificate.md
+      - name: "Run-Protect-Admin-Groups-Task"
+        href: r-run-protect-admin-groups-task.md
+      - name: "SAM-Enumerate-Entire-Domain"
+        href: r-sam-enumerate-entire-domain.md
+      - name: "Send-As"
+        href: r-send-as.md
+      - name: "Send-To"
+        href: r-send-to.md
+      - name: "Unexpire-Password"
+        href: r-unexpire-password.md
+      - name: "Update-Password-Not-Required-Bit"
+        href: r-update-password-not-required-bit.md
+      - name: "Update-Schema-Cache"
+        href: r-update-schema-cache.md
+      - name: "User-Change-Password"
+        href: r-user-change-password.md
+      - name: "User-Force-Change-Password"
+        href: r-user-force-change-password.md
+    - name: "Property Sets"
+      href: property-sets.md
+      items: 
+      - name: "DNS-Host-Name-Attributes"
+        href: r-dns-host-name-attributes.md
+      - name: "Domain-Other-Parameters"
+        href: r-domain-other-parameters.md
+      - name: "Domain-Password"
+        href: r-domain-password.md
+      - name: "Email-Information"
+        href: r-email-information.md
+      - name: "General-Information"
+        href: r-general-information.md
+      - name: "Membership"
+        href: r-membership.md
+      - name: "MS-TS-GatewayAccess"
+        href: r-ms-ts-gatewayaccess.md
+      - name: "Personal-Information"
+        href: r-personal-information.md
+      - name: "Private-Information"
+        href: r-private-information.md
+      - name: "Public-Information"
+        href: r-public-information.md
+      - name: "RAS-Information"
+        href: r-ras-information.md
+      - name: "Terminal-Server-License-Server"
+        href: r-terminal-server-license-server.md
+      - name: "User-Account-Restrictions"
+        href: r-user-account-restrictions.md
+      - name: "User-Logon"
+        href: r-user-logon.md
+      - name: "Web-Information"
+        href: r-web-information.md
+    - name: "Validated Writes"
+      href: validated-writes.md
+      items: 
+      - name: "Self-Membership"
+        href: r-self-membership.md
+      - name: "Validated-DNS-Host-Name"
+        href: r-validated-dns-host-name.md
+      - name: "Validated-MS-DS-Additional-DNS-Host-Name"
+        href: r-validated-ms-ds-additional-dns-host-name.md
+      - name: "Validated-MS-DS-Behavior-Version"
+        href: r-validated-ms-ds-behavior-version.md
+      - name: "Validated-SPN"
+        href: r-validated-spn.md
+  - name: "RootDSE"
+    href: rootdse.md

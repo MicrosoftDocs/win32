@@ -1,0 +1,1489 @@
+- name: "DirectWrite"
+  href: direct-write-portal.md
+  items: 
+  - name: "What's new in DirectWrite"
+    href: what-s-new-in-directwrite-for-windows-8-consumer-preview.md
+  - name: "Programming Guide"
+    href: programming-guide.md
+    items: 
+    - name: "Introducing DirectWrite"
+      href: introducing-directwrite.md
+    - name: "Tutorial: Getting Started with DirectWrite"
+      href: getting-started-with-directwrite.md
+    - name: "DWriteCore overview"
+      href: dwritecore-overview.md
+    - name: "Text Formatting and Layout"
+      href: text-formatting-and-layout.md
+    - name: "Justification, Kerning, and Spacing"
+      href: justification--kerning--and-spacing.md
+    - name: "Vertical Text"
+      href: vertical-text.md
+    - name: "Performance"
+      href: performance.md
+    - name: "Text Metrics"
+      href: text-metrics.md
+    - name: "Color Fonts"
+      href: color-fonts.md
+    - name: "Rendering DirectWrite"
+      href: rendering-directwrite.md
+      items: 
+      - name: "Render Using Direct2D"
+        href: rendering-by-using-direct2d.md
+      - name: "Render Using a Custom Text Renderer"
+        href: how-to-implement-a-custom-text-renderer.md
+      - name: "Render to a GDI Surface"
+        href: render-to-a-gdi-surface.md
+    - name: "How-to Topics"
+      href: how-to-topics.md
+      items: 
+      - name: "How to Align Text"
+        href: how-to-align-text.md
+      - name: "How to Add Support for Multiple Monitors"
+        href: how-to-add-support-for-multiple-monitors.md
+      - name: "How to Ensure That Your Application Displays Properly on High-DPI Displays"
+        href: how-to-ensure-that-your-application-displays-properly-on-high-dpi-displays.md
+      - name: "Ensure text is displayed with the correct reading direction"
+        href: how-to-ensure-text-is-displayed-with-the-correct-reading-direction.md
+      - name: "How to Enumerate Fonts"
+        href: font-enumeration.md
+      - name: "How to Perform Hit Testing on a Text Layout"
+        href: how-to-perform-hit-testing-on-a-text-layout.md
+      - name: "How to Add Inline Objects to a Text Layout"
+        href: how-to-add-inline-objects-to-a-text-layout.md
+      - name: "How to Add Client Drawing Effects to a Text Layout"
+        href: how-to-add-custom-drawing-efffects-to-a-text-layout.md
+    - name: "Glyphs and Glyph Runs"
+      href: glyphs-and-glyph-runs.md
+    - name: "Custom Font Sets"
+      href: custom-font-sets-win10.md
+    - name: "Custom Font Collections (Windows 7/8)"
+      href: custom-font-collections.md
+    - name: "OpenType Variable Fonts"
+      href: opentype-variable-fonts.md
+    - name: "Win32 Text API Comparison"
+      href: appendix--win32-migration.md
+    - name: "Interoperating with GDI"
+      href: interoperating-with-gdi.md
+    - name: "Font selection"
+      href: font-selection.md
+    - name: "DirectWrite glossary"
+      href: directwrite-glossary.md
+  - name: "API Reference"
+    href: reference.md
+    items: 
+    - name: "Functions"
+      href: functions.md
+      items: 
+      - name: "DWriteCreateFactory"
+        href: /windows/win32/api/dwrite/nf-dwrite-dwritecreatefactory
+      - name: "DWriteCoreCreateFactory (DWriteCore)"
+        href: /windows/windows-app-sdk/api/win32/dwrite_core/nf-dwrite_core-dwritecorecreatefactory
+    - name: "DirectWrite enumerations"
+      href: enumerations.md
+      items: 
+      - name: "DWRITE_AUTOMATIC_FONT_AXES"
+        href: /windows/win32/api/dwrite_3/ne-dwrite_3-dwrite_automatic_font_axes
+      - name: "DWRITE_BASELINE"
+        href: /windows/win32/api/dwrite_1/ne-dwrite_1-dwrite_baseline
+      - name: "DWRITE_BREAK_CONDITION"
+        href: /windows/win32/api/dwrite/ne-dwrite-dwrite_break_condition
+      - name: "DWRITE_CONTAINER_TYPE"
+        href: /windows/win32/api/dwrite_3/ne-dwrite_3-dwrite_container_type
+      - name: "DWRITE_FACTORY_TYPE"
+        href: /windows/win32/api/dwrite/ne-dwrite-dwrite_factory_type
+      - name: "DWRITE_FACTORY_TYPE (DWriteCore)"
+        href: /windows/windows-app-sdk/api/win32/dwrite/ne-dwrite-dwrite_factory_type
+      - name: "DWRITE_FLOW_DIRECTION"
+        href: /windows/win32/api/dwrite/ne-dwrite-dwrite_flow_direction
+      - name: "DWRITE_FONT_AXIS_ATTRIBUTES"
+        href: /windows/win32/api/dwrite_3/ne-dwrite_3-dwrite_font_axis_attributes
+      - name: "DWRITE_FONT_AXIS_TAG"
+        href: /windows/win32/api/dwrite_3/ne-dwrite_3-dwrite_font_axis_tag
+      - name: "DWRITE_FONT_FACE_TYPE"
+        href: /windows/win32/api/dwrite/ne-dwrite-dwrite_font_face_type
+      - name: "DWRITE_FONT_FAMILY_MODEL"
+        href: /windows/win32/api/dwrite_3/ne-dwrite_3-dwrite_font_family_model
+      - name: "DWRITE_FONT_FEATURE_TAG"
+        href: /windows/win32/api/dwrite/ne-dwrite-dwrite_font_feature_tag
+      - name: "DWRITE_FONT_FILE_TYPE"
+        href: /windows/win32/api/dwrite/ne-dwrite-dwrite_font_file_type
+      - name: "DWRITE_FONT_LINE_GAP_USAGE"
+        href: /windows/win32/api/dwrite_3/ne-dwrite_3-dwrite_font_line_gap_usage
+      - name: "DWRITE_FONT_PROPERTY_ID"
+        href: /windows/win32/api/dwrite_3/ne-dwrite_3-dwrite_font_property_id
+      - name: "DWRITE_FONT_SIMULATIONS"
+        href: /windows/win32/api/dwrite/ne-dwrite-dwrite_font_simulations
+      - name: "DWRITE_FONT_SOURCE_TYPE"
+        href: /windows/win32/api/dwrite_3/ne-dwrite_3-dwrite_font_source_type
+      - name: "DWRITE_FONT_STRETCH"
+        href: /windows/win32/api/dwrite/ne-dwrite-dwrite_font_stretch
+      - name: "DWRITE_FONT_STYLE"
+        href: /windows/win32/api/dwrite/ne-dwrite-dwrite_font_style
+      - name: "DWRITE_FONT_WEIGHT"
+        href: /windows/win32/api/dwrite/ne-dwrite-dwrite_font_weight
+      - name: "DWRITE_GLYPH_IMAGE_FORMATS"
+        href: /windows/win32/api/dcommon/ne-dcommon-dwrite_glyph_image_formats
+      - name: "DWRITE_GLYPH_ORIENTATION_ANGLE"
+        href: /windows/win32/api/dwrite_1/ne-dwrite_1-dwrite_glyph_orientation_angle
+      - name: "DWRITE_GRID_FIT_MODE"
+        href: /windows/win32/api/dwrite_2/ne-dwrite_2-dwrite_grid_fit_mode
+      - name: "DWRITE_INFORMATIONAL_STRING_ID"
+        href: /windows/win32/api/dwrite/ne-dwrite-dwrite_informational_string_id
+      - name: "DWRITE_LINE_SPACING_METHOD"
+        href: /windows/win32/api/dwrite/ne-dwrite-dwrite_line_spacing_method
+      - name: "DWRITE_LOCALITY"
+        href: /windows/win32/api/dwrite_3/ne-dwrite_3-dwrite_locality
+      - name: "DWRITE_MEASURING_MODE"
+        href: /windows/win32/api/dcommon/ne-dcommon-dwrite_measuring_mode
+      - name: "DWRITE_NUMBER_SUBSTITUTION_METHOD"
+        href: /windows/win32/api/dwrite/ne-dwrite-dwrite_number_substitution_method
+      - name: "DWRITE_OPTICAL_ALIGNMENT"
+        href: /windows/win32/api/dwrite_2/ne-dwrite_2-dwrite_optical_alignment
+      - name: "DWRITE_OUTLINE_THRESHOLD"
+        href: /windows/win32/api/dwrite_1/ne-dwrite_1-dwrite_outline_threshold
+      - name: "DWRITE_PANOSE_ARM_STYLE"
+        href: /windows/win32/api/dwrite_1/ne-dwrite_1-dwrite_panose_arm_style
+      - name: "DWRITE_PANOSE_ASPECT"
+        href: /windows/win32/api/dwrite_1/ne-dwrite_1-dwrite_panose_aspect
+      - name: "DWRITE_PANOSE_ASPECT_RATIO"
+        href: /windows/win32/api/dwrite_1/ne-dwrite_1-dwrite_panose_aspect_ratio
+      - name: "DWRITE_PANOSE_CHARACTER_RANGES"
+        href: /windows/win32/api/dwrite_1/ne-dwrite_1-dwrite_panose_character_ranges
+      - name: "DWRITE_PANOSE_CONTRAST"
+        href: /windows/win32/api/dwrite_1/ne-dwrite_1-dwrite_panose_contrast
+      - name: "DWRITE_PANOSE_DECORATIVE_CLASS"
+        href: /windows/win32/api/dwrite_1/ne-dwrite_1-dwrite_panose_decorative_class
+      - name: "DWRITE_PANOSE_DECORATIVE_TOPOLOGY"
+        href: /windows/win32/api/dwrite_1/ne-dwrite_1-dwrite_panose_decorative_topology
+      - name: "DWRITE_PANOSE_FAMILY"
+        href: /windows/win32/api/dwrite_1/ne-dwrite_1-dwrite_panose_family
+      - name: "DWRITE_PANOSE_FILL"
+        href: /windows/win32/api/dwrite_1/ne-dwrite_1-dwrite_panose_fill
+      - name: "DWRITE_PANOSE_FINIALS"
+        href: /windows/win32/api/dwrite_1/ne-dwrite_1-dwrite_panose_finials
+      - name: "DWRITE_PANOSE_LETTERFORM"
+        href: /windows/win32/api/dwrite_1/ne-dwrite_1-dwrite_panose_letterform
+      - name: "DWRITE_PANOSE_LINING"
+        href: /windows/win32/api/dwrite_1/ne-dwrite_1-dwrite_panose_lining
+      - name: "DWRITE_PANOSE_MIDLINE"
+        href: /windows/win32/api/dwrite_1/ne-dwrite_1-dwrite_panose_midline
+      - name: "DWRITE_PANOSE_PROPORTION"
+        href: /windows/win32/api/dwrite_1/ne-dwrite_1-dwrite_panose_proportion
+      - name: "DWRITE_PANOSE_SCRIPT_FORM"
+        href: /windows/win32/api/dwrite_1/ne-dwrite_1-dwrite_panose_script_form
+      - name: "DWRITE_PANOSE_SCRIPT_TOPOLOGY"
+        href: /windows/win32/api/dwrite_1/ne-dwrite_1-dwrite_panose_script_topology
+      - name: "DWRITE_PANOSE_SERIF_STYLE"
+        href: /windows/win32/api/dwrite_1/ne-dwrite_1-dwrite_panose_serif_style
+      - name: "DWRITE_PANOSE_SPACING"
+        href: /windows/win32/api/dwrite_1/ne-dwrite_1-dwrite_panose_spacing
+      - name: "DWRITE_PANOSE_STROKE_VARIATION"
+        href: /windows/win32/api/dwrite_1/ne-dwrite_1-dwrite_panose_stroke_variation
+      - name: "DWRITE_PANOSE_SYMBOL_ASPECT_RATIO"
+        href: /windows/win32/api/dwrite_1/ne-dwrite_1-dwrite_panose_symbol_aspect_ratio
+      - name: "DWRITE_PANOSE_SYMBOL_KIND"
+        href: /windows/win32/api/dwrite_1/ne-dwrite_1-dwrite_panose_symbol_kind
+      - name: "DWRITE_PANOSE_TOOL_KIND"
+        href: /windows/win32/api/dwrite_1/ne-dwrite_1-dwrite_panose_tool_kind
+      - name: "DWRITE_PANOSE_WEIGHT"
+        href: /windows/win32/api/dwrite_1/ne-dwrite_1-dwrite_panose_weight
+      - name: "DWRITE_PANOSE_XASCENT"
+        href: /windows/win32/api/dwrite_1/ne-dwrite_1-dwrite_panose_xascent
+      - name: "DWRITE_PANOSE_XHEIGHT"
+        href: /windows/win32/api/dwrite_1/ne-dwrite_1-dwrite_panose_xheight
+      - name: "DWRITE_PARAGRAPH_ALIGNMENT"
+        href: /windows/win32/api/dwrite/ne-dwrite-dwrite_paragraph_alignment
+      - name: "DWRITE_PIXEL_GEOMETRY"
+        href: /windows/win32/api/dwrite/ne-dwrite-dwrite_pixel_geometry
+      - name: "DWRITE_READING_DIRECTION"
+        href: /windows/win32/api/dwrite/ne-dwrite-dwrite_reading_direction
+      - name: "DWRITE_RENDERING_MODE enumerations"
+        href: ./dwrite-rendering-mode-enumerations.md
+        items: 
+        - name: "DWRITE_RENDERING_MODE (Windows 8 and later)"
+          href: /windows/win32/api/dwrite/ne-dwrite-dwrite_rendering_mode
+      - name: "DWRITE_RENDERING_MODE1"
+        href: /windows/win32/api/dwrite_3/ne-dwrite_3-dwrite_rendering_mode1
+      - name: "DWRITE_SCRIPT_SHAPES"
+        href: /windows/win32/api/dwrite/ne-dwrite-dwrite_script_shapes
+      - name: "DWRITE_TEXT_ALIGNMENT"
+        href: /windows/win32/api/dwrite/ne-dwrite-dwrite_text_alignment
+      - name: "DWRITE_TEXT_ANTIALIAS_MODE"
+        href: /windows/win32/api/dwrite_1/ne-dwrite_1-dwrite_text_antialias_mode
+      - name: "DWRITE_TEXTURE_TYPE"
+        href: /windows/win32/api/dwrite/ne-dwrite-dwrite_texture_type
+      - name: "DWRITE_TRIMMING_GRANULARITY"
+        href: /windows/win32/api/dwrite/ne-dwrite-dwrite_trimming_granularity
+      - name: "DWRITE_VERTICAL_GLYPH_ORIENTATION"
+        href: /windows/win32/api/dwrite_1/ne-dwrite_1-dwrite_vertical_glyph_orientation
+      - name: "DWRITE_WORD_WRAPPING"
+        href: /windows/win32/api/dwrite/ne-dwrite-dwrite_word_wrapping
+    - name: "DirectWrite interfaces"
+      href: interfaces.md
+      items: 
+      - name: "IDWriteAsyncResult"
+        href: /windows/win32/api/dwrite_3/nn-dwrite_3-idwriteasyncresult
+        items: 
+        - name: "GetResult"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwriteasyncresult-getresult
+        - name: "GetWaitHandle"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwriteasyncresult-getwaithandle
+      - name: "IDWriteBitmapRenderTarget"
+        href: /windows/win32/api/dwrite/nn-dwrite-idwritebitmaprendertarget
+        items: 
+        - name: "DrawGlyphRun"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritebitmaprendertarget-drawglyphrun
+        - name: "GetCurrentTransform"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritebitmaprendertarget-getcurrenttransform
+        - name: "GetMemoryDC"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritebitmaprendertarget-getmemorydc
+        - name: "GetPixelsPerDip"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritebitmaprendertarget-getpixelsperdip
+        - name: "GetSize"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritebitmaprendertarget-getsize
+        - name: "Resize"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritebitmaprendertarget-resize
+        - name: "SetCurrentTransform"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritebitmaprendertarget-setcurrenttransform
+        - name: "SetPixelsPerDip"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritebitmaprendertarget-setpixelsperdip
+      - name: "IDWriteBitmapRenderTarget1"
+        href: /windows/win32/api/dwrite_1/nn-dwrite_1-idwritebitmaprendertarget1
+        items: 
+        - name: "GetTextAntialiasMode method"
+          href: /windows/win32/api/dwrite_1/nf-dwrite_1-idwritebitmaprendertarget1-gettextantialiasmode
+        - name: "SetTextAntialiasMode method"
+          href: /windows/win32/api/dwrite_1/nf-dwrite_1-idwritebitmaprendertarget1-settextantialiasmode
+      - name: "IDWriteBitmapRenderTarget2 (DWriteCore)"
+        href: /windows/windows-app-sdk/api/win32/dwrite_3/nn-dwrite_3-idwritebitmaprendertarget2
+        items: 
+        - name: "GetBitmapData method (DWriteCore)"
+          href: /windows/windows-app-sdk/api/win32/dwrite_3/nf-dwrite_3-idwritebitmaprendertarget2-getbitmapdata
+      - name: "IDWriteColorGlyphRunEnumerator"
+        href: idwritecolorglyphrunenumerator.md
+        items: 
+        - name: "GetCurrentRun method"
+          href: /windows/win32/api/dwrite_2/nf-dwrite_2-idwritecolorglyphrunenumerator-getcurrentrun
+        - name: "MoveNext method"
+          href: idwritecolorglyphrunenumerator-movenext.md
+      - name: "IDWriteColorGlyphRunEnumerator1"
+        href: /windows/win32/api/dwrite_3/nn-dwrite_3-idwritecolorglyphrunenumerator1
+        items: 
+        - name: "GetCurrentRun method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritecolorglyphrunenumerator1-getcurrentrun
+      - name: "IDWriteFactory"
+        href: /windows/win32/api/dwrite/nn-dwrite-idwritefactory
+        items: 
+        - name: "CreateCustomFontCollection"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritefactory-createcustomfontcollection
+        - name: "CreateCustomFontFileReference"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritefactory-createcustomfontfilereference
+        - name: "CreateCustomRenderingParams"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritefactory-createcustomrenderingparams
+        - name: "CreateGdiCompatibleTextLayout Method"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritefactory-creategdicompatibletextlayout
+        - name: "CreateEllipsisTrimmingSign"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritefactory-createellipsistrimmingsign
+        - name: "CreateFontFace"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritefactory-createfontface
+        - name: "CreateFontFileReference"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritefactory-createfontfilereference
+        - name: "CreateGlyphRunAnalysis"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritefactory-createglyphrunanalysis
+        - name: "CreateMonitorRenderingParams"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritefactory-createmonitorrenderingparams
+        - name: "CreateNumberSubstitution"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritefactory-createnumbersubstitution
+        - name: "CreateRenderingParams"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritefactory-createrenderingparams
+        - name: "CreateTextAnalyzer"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritefactory-createtextanalyzer
+        - name: "CreateTextFormat"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritefactory-createtextformat
+        - name: "CreateTextLayout"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritefactory-createtextlayout
+        - name: "CreateTypography"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritefactory-createtypography
+        - name: "GetGdiInterop"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritefactory-getgdiinterop
+        - name: "GetSystemFontCollection"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritefactory-getsystemfontcollection
+        - name: "RegisterFontCollectionLoader"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritefactory-registerfontcollectionloader
+        - name: "RegisterFontFileLoader"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritefactory-registerfontfileloader
+        - name: "UnregisterFontCollectionLoader"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritefactory-unregisterfontcollectionloader
+        - name: "UnregisterFontFileLoader"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritefactory-unregisterfontfileloader
+      - name: "IDWriteFactory1"
+        href: /windows/win32/api/dwrite_1/nn-dwrite_1-idwritefactory1
+        items: 
+        - name: "GetEudcFontCollection method"
+          href: /windows/win32/api/dwrite_1/nf-dwrite_1-idwritefactory1-geteudcfontcollection
+        - name: "CreateCustomRenderingParams method"
+          href: /windows/win32/api/dwrite_1/nf-dwrite_1-idwritefactory1-createcustomrenderingparams
+      - name: "IDWriteFactory2"
+        href: idwritefactory2.md
+        items: 
+        - name: "CreateFontFallbackBuilder method"
+          href: /windows/win32/api/dwrite_2/nf-dwrite_2-idwritefactory2-createfontfallbackbuilder
+        - name: "CreateGlyphRunAnalysis method"
+          href: idwritefactory2-createglyphrunanalysis.md
+        - name: "CreateCustomRenderingParams method"
+          href: idwritefactory2-createcustomrenderingparams.md
+        - name: "GetSystemFontFallback method"
+          href: idwritefactory2-getsystemfontfallback.md
+        - name: "TranslateColorGlyphRun method"
+          href: /windows/win32/api/dwrite_2/nf-dwrite_2-idwritefactory2-translatecolorglyphrun
+      - name: "IDWriteFactory3"
+        href: /windows/win32/api/dwrite_3/nn-dwrite_3-idwritefactory3
+        items: 
+        - name: "CreateCustomRenderingParams method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefactory3-createcustomrenderingparams
+        - name: "CreateFontCollectionFromFontSet method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefactory3-createfontcollectionfromfontset
+        - name: "CreateFontFaceReference methods"
+          href: idwritefactory3-createfontfacereference-overload.md
+          items: 
+          - name: "CreateFontFaceReference(IDWriteFontFile*, UINT32, DWRITE_FONT_SIMULATIONS, IDWriteFontFaceReference**) method"
+            href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefactory3-createfontfacereference(idwritefontfile_uint32_dwrite_font_simulations_idwritefontfacereference)
+          - name: "CreateFontFaceReference(WCHAR const *, FILETIME const*, UINT32, DWRITE_FONT_SIMULATIONS, IDWriteFontFaceReference**) method"
+            href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefactory3-createfontfacereference(idwritefontfile_uint32_dwrite_font_simulations_idwritefontfacereference)
+        - name: "CreateFontSetBuilder method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefactory3-createfontsetbuilder
+        - name: "CreateGlyphRunAnalysis method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefactory3-createglyphrunanalysis
+        - name: "GetSystemFontCollection method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefactory3-getsystemfontcollection
+        - name: "GetFontDownloadQueue method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefactory3-getfontdownloadqueue
+        - name: "GetSystemFontSet method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefactory3-getsystemfontset
+      - name: "IDWriteFactory4"
+        href: /windows/win32/api/dwrite_3/nn-dwrite_3-idwritefactory4
+        items: 
+        - name: "ComputeGlyphOrigins methods"
+          href: idwritefactory4-computeglyphorigins-overload.md
+          items: 
+          - name: "ComputeGlyphOrigins(DWRITE_GLYPH_RUN, DWRITE_MEASURING_MODE, D2D1_POINT_2F, DWRITE_MATRIX, D2D1_POINT_2F*) method"
+            href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefactory4-computeglyphorigins(dwrite_glyph_runconst_d2d1_point_2f_d2d1_point_2f)
+          - name: "ComputeGlyphOrigins(DWRITE_GLYPH_RUN, D2D1_POINT_2F, D2D1_POINT_2F*) method"
+            href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefactory4-computeglyphorigins(dwrite_glyph_runconst_d2d1_point_2f_d2d1_point_2f)
+        - name: "TranslateColorGlyphRun method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefactory4-translatecolorglyphrun
+      - name: "IDWriteFactory5"
+        href: /windows/win32/api/dwrite_3/nn-dwrite_3-idwritefactory5
+        items: 
+        - name: "AnalyzeContainerType method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefactory5-analyzecontainertype
+        - name: "CreateFontsetBuilder method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefactory5-createfontsetbuilder
+        - name: "CreateHttpFontFileLoader method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefactory5-createhttpfontfileloader
+        - name: "CreateInMemoryFontFileLoader method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefactory5-createinmemoryfontfileloader
+        - name: "UnpackFontFile method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefactory5-unpackfontfile
+      - name: "IDWriteFactory6"
+        href: /windows/win32/api/dwrite_3/nn-dwrite_3-idwritefactory6
+        items: 
+        - name: "CreateFontCollectionFromFontSet method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefactory6-createfontcollectionfromfontset
+        - name: "CreateFontFaceReference method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefactory6-createfontfacereference
+        - name: "CreateFontResource method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefactory6-createfontresource
+        - name: "CreateFontSetBuilder method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefactory6-createfontsetbuilder
+        - name: "CreateTextFormat method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefactory6-createtextformat
+        - name: "GetSystemFontCollection method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefactory6-getsystemfontcollection
+        - name: "GetSystemFontSet method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefactory6-getsystemfontset
+      - name: "IDWriteFactory7"
+        href: /windows/win32/api/dwrite_3/nn-dwrite_3-idwritefactory7
+        items: 
+        - name: "GetSystemFontCollection method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefactory7-getsystemfontcollection
+        - name: "GetSystemFontSet method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefactory7-getsystemfontset
+      - name: "IDWriteFont"
+        href: /windows/win32/api/dwrite/nn-dwrite-idwritefont
+        items: 
+        - name: "CreateFontFace"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritefont-createfontface
+        - name: "GetFaceNames"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritefont-getfacenames
+        - name: "GetFontFamily"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritefont-getfontfamily
+        - name: "GetInformationalStrings"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritefont-getinformationalstrings
+        - name: "GetMetrics"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritefont-getmetrics
+        - name: "GetSimulations"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritefont-getsimulations
+        - name: "GetStretch"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritefont-getstretch
+        - name: "GetStyle"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritefont-getstyle
+        - name: "GetWeight"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritefont-getweight
+        - name: "HasCharacter"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritefont-hascharacter
+        - name: "IsSymbolFont"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritefont-issymbolfont
+      - name: "IDWriteFont1"
+        href: /windows/win32/api/dwrite_1/nn-dwrite_1-idwritefont1
+        items: 
+        - name: "GetMetrics method"
+          href: /windows/win32/api/dwrite_1/nf-dwrite_1-idwritefont1-getmetrics
+        - name: "GetPanose method"
+          href: /windows/win32/api/dwrite_1/nf-dwrite_1-idwritefont1-getpanose
+        - name: "GetUnicodeRanges method"
+          href: /windows/win32/api/dwrite_1/nf-dwrite_1-idwritefont1-getunicoderanges
+        - name: "IsMonospacedFont method"
+          href: /windows/win32/api/dwrite_1/nf-dwrite_1-idwritefont1-ismonospacedfont
+      - name: "IDWriteFont2"
+        href: idwritefont2.md
+        items: 
+        - name: "IsColorFont method"
+          href: idwritefont2-iscolorfont.md
+      - name: "IDWriteFont3"
+        href: /windows/win32/api/dwrite_3/nn-dwrite_3-idwritefont3
+        items: 
+        - name: "CreateFontFace method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefont3-createfontface
+        - name: "Equals method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefont3-equals
+        - name: "GetFontFaceReference method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefont3-getfontfacereference
+        - name: "GetLocality method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefont3-getlocality
+      - name: "IDWriteFontCollection"
+        href: /windows/win32/api/dwrite/nn-dwrite-idwritefontcollection
+        items: 
+        - name: "FindFamilyName method"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritefontcollection-findfamilyname
+        - name: "GetFontFamily method"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritefontcollection-getfontfamily
+        - name: "GetFontFamilyCount method"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritefontcollection-getfontfamilycount
+        - name: "GetFontFromFontFace method"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritefontcollection-getfontfromfontface
+      - name: "IDWriteFontCollection1"
+        href: /windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontcollection1
+        items: 
+        - name: "GetFontSet"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontcollection1-getfontset
+      - name: "IDWriteFontCollection2"
+        href: /windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontcollection2
+        items: 
+        - name: "GetFontFamily method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontcollection2-getfontfamily
+        - name: "GetFontFamilyModel method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontcollection2-getfontfamilymodel
+        - name: "GetFontSet method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontcollection2-getfontset
+        - name: "GetMatchingFonts method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontcollection2-getmatchingfonts
+      - name: "IDWriteFontCollection3"
+        href: /windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontcollection3
+        items: 
+        - name: "GetExpirationEvent method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontcollection3-getexpirationevent
+      - name: "IDWriteFontCollectionLoader"
+        href: /windows/win32/api/dwrite/nn-dwrite-idwritefontcollectionloader
+        items: 
+        - name: "CreateEnumeratorFromKey method"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritefontcollectionloader-createenumeratorfromkey
+      - name: "IDWriteFontDownloadListener"
+        href: /windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontdownloadlistener
+        items: 
+        - name: "DownloadCompleted method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontdownloadlistener-downloadcompleted
+      - name: "IDWriteFontDownloadQueue"
+        href: /windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontdownloadqueue
+        items: 
+        - name: "AddListener method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontdownloadqueue-addlistener
+        - name: "BeginDownload"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontdownloadqueue-begindownload
+        - name: "CancelDownload"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontdownloadqueue-canceldownload
+        - name: "GetGenerationCount"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontdownloadqueue-getgenerationcount
+        - name: "IsEmpty"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontdownloadqueue-isempty
+        - name: "RemoveListener"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontdownloadqueue-removelistener
+      - name: "IDWriteFontFace"
+        href: /windows/win32/api/dwrite/nn-dwrite-idwritefontface
+        items: 
+        - name: "GetDesignGlyphMetrics method"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritefontface-getdesignglyphmetrics
+        - name: "GetFiles method"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritefontface-getfiles
+        - name: "GetGdiCompatibleMetrics method"
+          href: idwritefontface-getgdicompatiblemetrics.md
+        - name: "GetGdiCompatibleGlyphMetrics method"
+          href: idwritefontface-getgdicompatibleglyphmetrics.md
+        - name: "GetGlyphCount method"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritefontface-getglyphcount
+        - name: "GetGlyphIndices method"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritefontface-getglyphindices
+        - name: "GetGlyphRunOutline method"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritefontface-getglyphrunoutline
+        - name: "GetIndex method"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritefontface-getindex
+        - name: "GetMetrics method"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritefontface-getmetrics
+        - name: "GetRecommendedRenderingMode method"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritefontface-getrecommendedrenderingmode
+        - name: "GetSimulations method"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritefontface-getsimulations
+        - name: "GetType method"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritefontface-gettype
+        - name: "IsSymbolFont method"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritefontface-issymbolfont
+        - name: "ReleaseFontTable method"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritefontface-releasefonttable
+        - name: "TryGetFontTable method"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritefontface-trygetfonttable
+      - name: "IDWriteFontFace1"
+        href: /windows/win32/api/dwrite_1/nn-dwrite_1-idwritefontface1
+        items: 
+        - name: "GetMetrics method"
+          href: /windows/win32/api/dwrite_1/nf-dwrite_1-idwritefontface1-getmetrics
+        - name: "GetGdiCompatibleMetrics method"
+          href: /windows/win32/api/dwrite_1/nf-dwrite_1-idwritefontface1-getgdicompatiblemetrics
+        - name: "GetCaretMetrics method"
+          href: /windows/win32/api/dwrite_1/nf-dwrite_1-idwritefontface1-getcaretmetrics
+        - name: "GetUnicodeRanges method"
+          href: /windows/win32/api/dwrite_1/nf-dwrite_1-idwritefontface1-getunicoderanges
+        - name: "IsMonospacedFont method"
+          href: /windows/win32/api/dwrite_1/nf-dwrite_1-idwritefontface1-ismonospacedfont
+        - name: "GetDesignGlyphAdvances method"
+          href: /windows/win32/api/dwrite_1/nf-dwrite_1-idwritefontface1-getdesignglyphadvances
+        - name: "GetGdiCompatibleGlyphAdvances method"
+          href: /windows/win32/api/dwrite_1/nf-dwrite_1-idwritefontface1-getgdicompatibleglyphadvances
+        - name: "GetKerningPairAdjustments method"
+          href: /windows/win32/api/dwrite_1/nf-dwrite_1-idwritefontface1-getkerningpairadjustments
+        - name: "HasKerningPairs method"
+          href: /windows/win32/api/dwrite_1/nf-dwrite_1-idwritefontface1-haskerningpairs
+        - name: "GetRecommendedRenderingMode method"
+          href: /windows/win32/api/dwrite_1/nf-dwrite_1-idwritefontface1-getrecommendedrenderingmode
+        - name: "GetVerticalGlyphVariants method"
+          href: /windows/win32/api/dwrite_1/nf-dwrite_1-idwritefontface1-getverticalglyphvariants
+        - name: "HasVerticalGlyphVariants method"
+          href: /windows/win32/api/dwrite_1/nf-dwrite_1-idwritefontface1-hasverticalglyphvariants
+      - name: "IDWriteFontFace2"
+        href: /windows/win32/api/dwrite_2/nn-dwrite_2-idwritefontface2
+        items: 
+        - name: "GetColorPaletteCount method"
+          href: /windows/win32/api/dwrite_2/nf-dwrite_2-idwritefontface2-getcolorpalettecount
+        - name: "GetPaletteEntryCount method"
+          href: /windows/win32/api/dwrite_2/nf-dwrite_2-idwritefontface2-getpaletteentrycount
+        - name: "GetPaletteEntries method"
+          href: /windows/win32/api/dwrite_2/nf-dwrite_2-idwritefontface2-getpaletteentries
+        - name: "GetRecommendedRenderingMode method"
+          href: /windows/win32/api/dwrite_2/nf-dwrite_2-idwritefontface2-getrecommendedrenderingmode
+        - name: "IsColorFont method"
+          href: /windows/win32/api/dwrite_2/nf-dwrite_2-idwritefontface2-iscolorfont
+      - name: "IDWriteFontFace3"
+        href: /windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontface3
+        items: 
+        - name: "AreCharactersLocal method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontface3-arecharacterslocal
+        - name: "AreGlyphsLocal method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontface3-areglyphslocal
+        - name: "GetFontFaceReference method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontface3-getfontfacereference
+        - name: "GetPanose method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontface3-getpanose
+        - name: "GetWeight method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontface3-getweight
+        - name: "GetStretch method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontface3-getstretch
+        - name: "GetStyle method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontface3-getstyle
+        - name: "GetFamilyNames method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontface3-getfamilynames
+        - name: "GetFaceNames method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontface3-getfacenames
+        - name: "GetInformationalStrings method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontface3-getinformationalstrings
+        - name: "HasCharacter method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontface3-hascharacter
+        - name: "GetRecommendedRenderingMode method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontface3-getrecommendedrenderingmode
+        - name: "IsCharacterLocal method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontface3-ischaracterlocal
+        - name: "IsGlyphLocal method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontface3-isglyphlocal
+      - name: "IDWriteFontFace4"
+        href: /windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontface4
+        items: 
+        - name: "GetGlyphImageData method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontface4-getglyphimagedata
+        - name: "GetGlyphImageFormats methods"
+          href: idwritefontface4-getglyphimageformats-overload.md
+          items: 
+          - name: "GetGlyphImageFormats() method"
+            href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontface4-getglyphimageformats(uint16_uint32_uint32_dwrite_glyph_image_formats)
+          - name: "GetGlyphImageFormats(UINT16, UINT32, UINT32, DWRITE_GLYPH_IMAGE_FORMATS*) method"
+            href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontface4-getglyphimageformats(uint16_uint32_uint32_dwrite_glyph_image_formats)
+        - name: "ReleaseGlyphImageData method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontface4-releaseglyphimagedata
+      - name: "IDWriteFontFace5"
+        href: /windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontface5
+        items: 
+        - name: "Equals method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontface5-equals
+        - name: "GetFontAxisValueCount method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontface5-getfontaxisvaluecount
+        - name: "GetFontAxisValues method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontface5-getfontaxisvalues
+        - name: "GetFontResource method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontface5-getfontresource
+        - name: "HasVariations method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontface5-hasvariations
+      - name: "IDWriteFontFaceReference"
+        href: /windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontfacereference
+        items: 
+        - name: "CreateFontFace method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontfacereference-createfontface
+        - name: "CreateFontFaceWithSimulations method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontfacereference-createfontfacewithsimulations
+        - name: "EnqueueCharacterDownloadRequest method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontfacereference-enqueuecharacterdownloadrequest
+        - name: "EnqueueFileFragmentDownloadRequest method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontfacereference-enqueuefilefragmentdownloadrequest
+        - name: "EnqueueFontDownloadRequest method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontfacereference-enqueuefontdownloadrequest
+        - name: "EnqueueGlyphDownloadRequest method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontfacereference-enqueueglyphdownloadrequest
+        - name: "GetFileSize method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontfacereference-getfilesize
+        - name: "GetFileTime method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontfacereference-getfiletime
+        - name: "GetFontFaceIndex method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontfacereference-getfontfaceindex
+        - name: "GetFontFile method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontfacereference-getfontfile
+        - name: "GetLocalFileSize method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontfacereference-getlocalfilesize
+        - name: "GetLocality method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontfacereference-getlocality
+        - name: "GetSimulations method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontfacereference-getsimulations
+      - name: "IDWriteFontFaceReference1"
+        href: /windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontfacereference1
+        items: 
+        - name: "CreateFontFace method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontfacereference1-createfontface
+        - name: "GetFontAxisValueCount method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontfacereference1-getfontaxisvaluecount
+        - name: "GetFontAxisValues method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontfacereference1-getfontaxisvalues
+      - name: "IDWriteFontFallback"
+        href: /windows/win32/api/dwrite_2/nn-dwrite_2-idwritefontfallback
+        items: 
+        - name: "MapCharacters method"
+          href: idwritefontfallback-mapcharacters.md
+      - name: "IDWriteFontFallbackBuilder"
+        href: idwritefontfallbackbuilder.md
+        items: 
+        - name: "AddMapping method"
+          href: idwritefontfallbackbuilder-addmapping.md
+        - name: "AddMappings method"
+          href: /windows/win32/api/dwrite_2/nf-dwrite_2-idwritefontfallbackbuilder-addmappings
+        - name: "CreateFontFallback method"
+          href: /windows/win32/api/dwrite_2/nf-dwrite_2-idwritefontfallbackbuilder-createfontfallback
+      - name: "IDWriteFontFamily"
+        href: /windows/win32/api/dwrite/nn-dwrite-idwritefontfamily
+        items: 
+        - name: "GetFamilyNames"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritefontfamily-getfamilynames
+        - name: "GetFirstMatchingFont"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritefontfamily-getfirstmatchingfont
+        - name: "GetMatchingFonts"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritefontfamily-getmatchingfonts
+      - name: "IDWriteFontFamily1"
+        href: /windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontfamily1
+        items: 
+        - name: "GetFontLocality method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontfamily1-getfontlocality
+        - name: "GetFont method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontfamily1-getfont
+        - name: "GetFontFaceReference method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontfamily1-getfontfacereference
+      - name: "IDWriteFontFamily2"
+        href: /windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontfamily2
+        items: 
+        - name: "GetFontSet method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontfamily2-getfontset
+        - name: "GetMatchingFonts method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontfamily2-getmatchingfonts
+      - name: "IDWriteFontFile"
+        href: /windows/win32/api/dwrite/nn-dwrite-idwritefontfile
+        items: 
+        - name: "Analyze"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritefontfile-analyze
+        - name: "GetLoader"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritefontfile-getloader
+        - name: "GetReferenceKey"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritefontfile-getreferencekey
+      - name: "IDWriteFontFileEnumerator"
+        href: /windows/win32/api/dwrite/nn-dwrite-idwritefontfileenumerator
+        items: 
+        - name: "GetCurrentFontFile"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritefontfileenumerator-getcurrentfontfile
+        - name: "MoveNext"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritefontfileenumerator-movenext
+      - name: "IDWriteFontFileLoader"
+        href: /windows/win32/api/dwrite/nn-dwrite-idwritefontfileloader
+        items: 
+        - name: "CreateStreamFromKey"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritefontfileloader-createstreamfromkey
+      - name: "IDWriteFontFileStream"
+        href: /windows/win32/api/dwrite/nn-dwrite-idwritefontfilestream
+        items: 
+        - name: "GetFileSize"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritefontfilestream-getfilesize
+        - name: "GetLastWriteTime"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritefontfilestream-getlastwritetime
+        - name: "ReadFileFragment"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritefontfilestream-readfilefragment
+        - name: "ReleaseFileFragment"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritefontfilestream-releasefilefragment
+      - name: "IDWriteFontList"
+        href: /windows/win32/api/dwrite/nn-dwrite-idwritefontlist
+        items: 
+        - name: "GetFont"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritefontlist-getfont
+        - name: "GetFontCollection"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritefontlist-getfontcollection
+        - name: "GetFontCount"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritefontlist-getfontcount
+      - name: "IDWriteFontList1"
+        href: /windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontlist1
+        items: 
+        - name: "GetFontLocality method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontlist1-getfontlocality
+        - name: "GetFont method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontlist1-getfont
+        - name: "GetFontFaceReference method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontlist1-getfontfacereference
+      - name: "IDWriteFontList2"
+        href: /windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontlist2
+        items: 
+        - name: "GetFontSet method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontlist2-getfontset
+      - name: "IDWriteFontResource"
+        href: /windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontresource
+        items: 
+        - name: "CreateFontFace method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontresource-createfontface
+        - name: "CreateFontFaceReference method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontresource-createfontfacereference
+        - name: "GetAxisNames method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontresource-getaxisnames
+        - name: "GetAxisValueNameCount method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontresource-getaxisvaluenamecount
+        - name: "GetAxisValueNames method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontresource-getaxisvaluenames
+        - name: "GetDefaultFontAxisValues method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontresource-getdefaultfontaxisvalues
+        - name: "GetFontAxisAttributes method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontresource-getfontaxisattributes
+        - name: "GetFontAxisCount method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontresource-getfontaxiscount
+        - name: "GetFontAxisRanges method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontresource-getfontaxisranges
+        - name: "GetFontFaceIndex method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontresource-getfontfaceindex
+        - name: "GetFontFile method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontresource-getfontfile
+        - name: "HasVariations method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontresource-hasvariations
+      - name: "IDWriteFontSet"
+        href: /windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontset
+        items: 
+        - name: "GetFontCount method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontset-getfontcount
+        - name: "GetFontFaceReference method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontset-getfontfacereference
+        - name: "FindFontFace method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontset-findfontface
+        - name: "FindFontFaceReference method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontset-findfontfacereference
+        - name: "GetPropertyValues methods"
+          href: idwritefontset-getpropertyvalues-overload.md
+          items: 
+          - name: "GetPropertyValues(UINT32, DWRITE_FONT_PROPERTY_ID, BOOL*, IDWriteLocalizedStrings**) method"
+            href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontset-getpropertyvalues(dwrite_font_property_id_idwritestringlist)
+          - name: "GetPropertyValues(DWRITE_FONT_PROPERTY_ID, const WCHAR*, IDWriteStringList**) method"
+            href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontset-getpropertyvalues(dwrite_font_property_id_wcharconst_idwritestringlist)
+          - name: "GetPropertyValues(DWRITE_FONT_PROPERTY_ID, IDWriteStringList**) method"
+            href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontset-getpropertyvalues(dwrite_font_property_id_idwritestringlist)
+        - name: "GetPropertyOccurrenceCount"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontset-getpropertyoccurrencecount
+        - name: "GetMatchingFonts methods"
+          href: idwritefontset-getmatchingfonts-overload.md
+          items: 
+          - name: "GetMatchingFonts(const DWRITE_FONT_PROPERTY*, UINT32, IDWriteFontSet**) method"
+            href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontset-getmatchingfonts(wcharconst_dwrite_font_weight_dwrite_font_stretch_dwrite_font_style_idwritefontset)
+          - name: "GetMatchingFonts(const WCHAR*, DWRITE_FONT_WEIGHT, DWRITE_FONT_STRETCH, DWRITE_FONT_STYLE, IDWriteFontSet**) method"
+            href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontset-getmatchingfonts(wcharconst_dwrite_font_weight_dwrite_font_stretch_dwrite_font_style_idwritefontset)
+      - name: "IDWriteFontSet1"
+        href: /windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontset1
+        items: 
+        - name: "CreateFontFace method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontset1-createfontface
+        - name: "CreateFontResource method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontset1-createfontresource
+        - name: "GetFilteredFontIndices(DWRITE_FONT_PROPERTY const,UINT32,BOOL,UINT32,UINT32,UINT32) method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontset1-getfilteredfontindices(dwrite_font_propertyconst_uint32_bool_uint32_uint32_uint32)
+        - name: "GetFilteredFontIndices(DWRITE_FONT_AXIS_RANGE const,UINT32,BOOL,UINT32,UINT32,UINT32) method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontset1-getfilteredfontindices(dwrite_font_axis_rangeconst_uint32_bool_uint32_uint32_uint32)
+        - name: "GetFilteredFonts(DWRITE_FONT_AXIS_RANGE const,UINT32,BOOL,IDWriteFontSet1) method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontset1-getfilteredfonts(dwrite_font_axis_rangeconst_uint32_bool_idwritefontset1)
+        - name: "GetFilteredFonts(DWRITE_FONT_PROPERTY const,UINT32,BOOL,IDWriteFontSet1) method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontset1-getfilteredfonts(dwrite_font_propertyconst_uint32_bool_idwritefontset1)
+        - name: "GetFilteredFonts(UINT32 const,UINT32,IDWriteFontSet1) method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontset1-getfilteredfonts(uint32const_uint32_idwritefontset1)
+        - name: "GetFirstFontResources method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontset1-getfirstfontresources
+        - name: "GetFontAxisRanges(DWRITE_FONT_AXIS_RANGE,UINT32,UINT32) method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontset1-getfontaxisranges
+        - name: "GetFontAxisRanges(UINT32,DWRITE_FONT_AXIS_RANGE,UINT32,UINT32) method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontset1-getfontaxisranges(uint32_dwrite_font_axis_range_uint32_uint32)
+        - name: "GetFontFaceReference method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontset1-getfontfacereference
+        - name: "GetFontLocality method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontset1-getfontlocality
+        - name: "GetMatchingFonts method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontset1-getmatchingfonts
+      - name: "IDWriteFontSet2"
+        href: /windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontset2
+        items: 
+        - name: "GetExpirationEvent method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontset2-getexpirationevent
+      - name: "IDWriteFontSet3"
+        href: /windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontset3
+        items: 
+        - name: "GetFontSourceName method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontset3-getfontsourcename
+        - name: "GetFontSourceNameLength method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontset3-getfontsourcenamelength
+        - name: "GetFontSourceType method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontset3-getfontsourcetype
+      - name: "IDWriteFontSet4"
+        href: /windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontset4
+        items: 
+        - name: "ConvertWeightStretchStyleToFontAxisValues method"
+          href: /windows/win32/api/dwrite_4/nf-dwrite_3-idwritefontset4-convertweightstretchstyletofontaxisvalues
+        - name: "GetMatchingFonts method"
+          href: /windows/win32/api/dwrite_4/nf-dwrite_3-idwritefontset4-getmatchingfonts
+      - name: "IDWriteFontSetBuilder"
+        href: /windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontsetbuilder
+        items: 
+        - name: "AddFontFaceReference methods"
+          href: idwritefontsetbuilder-addfontfacereference-overload.md
+          items: 
+          - name: "AddFontFaceReference(IDWriteFontFaceReference*)"
+            href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontsetbuilder-addfontfacereference(idwritefontfacereference)
+          - name: "AddFontFaceReference(IDWriteFontFaceReference*, const DWRITE_FONT_PROPERTY*, UINT32)"
+            href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontsetbuilder-addfontfacereference(idwritefontfacereference_dwrite_font_propertyconst_uint32)
+        - name: "AddFontFaceSet"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontsetbuilder-addfontset
+        - name: "AddFontSet"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontsetbuilder-addfontset
+        - name: "CreateFontSet"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontsetbuilder-createfontset
+      - name: "IDWriteFontSetBuilder1"
+        href: /windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontsetbuilder1
+        items: 
+        - name: "AddFontFile method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontsetbuilder1-addfontfile
+      - name: "IDWriteFontSetBuilder2"
+        href: /windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontsetbuilder2
+        items: 
+        - name: "AddFont method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontsetbuilder2-addfont
+        - name: "AddFontFile method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontsetbuilder2-addfontfile
+      - name: "IDWriteGdiInterop"
+        href: /windows/win32/api/dwrite/nn-dwrite-idwritegdiinterop
+        items: 
+        - name: "ConvertFontFaceToLOGFONT"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritegdiinterop-convertfontfacetologfont
+        - name: "ConvertFontToLOGFONT"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritegdiinterop-convertfonttologfont
+        - name: "CreateBitmapRenderTarget"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritegdiinterop-createbitmaprendertarget
+        - name: "CreateFontFaceFromHdc"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritegdiinterop-createfontfacefromhdc
+        - name: "CreateFontFromLOGFONT"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritegdiinterop-createfontfromlogfont
+      - name: "IDWriteGdiInterop1"
+        href: /windows/win32/api/dwrite_3/nn-dwrite_3-idwritegdiinterop1
+        items: 
+        - name: "CreateFontFromLOGFONT"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritegdiinterop1-createfontfromlogfont
+        - name: "GetMatchingFontsByLOGFONT"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritegdiinterop1-getmatchingfontsbylogfont
+        - name: "GetFontSignature methods"
+          href: idwritegdiinterop1-getfontsignature-overload.md
+          items: 
+          - name: "GetFontSignature(IDWriteFont*, FONTSIGNATURE*)"
+            href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritegdiinterop1-getfontsignature(idwritefontface_fontsignature)
+          - name: "GetFontSignature(IDWriteFontFace*, FONTSIGNATURE*)"
+            href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritegdiinterop1-getfontsignature(idwritefontface_fontsignature)
+      - name: "IDWriteGeometrySink"
+        href: idwritegeometrysink.md
+      - name: "IDWriteGlyphRunAnalysis"
+        href: /windows/win32/api/dwrite/nn-dwrite-idwriteglyphrunanalysis
+        items: 
+        - name: "CreateAlphaTexture"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwriteglyphrunanalysis-createalphatexture
+        - name: "GetAlphaBlendParams"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwriteglyphrunanalysis-getalphablendparams
+        - name: "GetAlphaTextureBounds"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwriteglyphrunanalysis-getalphatexturebounds
+      - name: "IDWriteInlineObject"
+        href: /windows/win32/api/dwrite/nn-dwrite-idwriteinlineobject
+        items: 
+        - name: "Draw"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwriteinlineobject-draw
+        - name: "GetBreakConditions"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwriteinlineobject-getbreakconditions
+        - name: "GetMetrics"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwriteinlineobject-getmetrics
+        - name: "GetOverhangMetrics"
+          href: idwriteinlineobject-getoverhangmetrics.md
+      - name: "IDWriteInMemoryFontFileLoader"
+        href: /windows/win32/api/dwrite_3/nn-dwrite_3-idwriteinmemoryfontfileloader
+        items: 
+        - name: "CreateInMemoryFontFileReference method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwriteinmemoryfontfileloader-createinmemoryfontfilereference
+        - name: "GetFileCount method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwriteinmemoryfontfileloader-getfilecount
+      - name: "IDWriteLocalFontFileLoader"
+        href: idwritelocalfontfileloader.md
+        items: 
+        - name: "GetFilePathLengthFromKey Method"
+          href: idwritelocalfontfileloader-getfilepathlengthfromkey.md
+        - name: "GetFilePathFromKey Method"
+          href: idwritelocalfontfileloader-getfilepathfromkey.md
+        - name: "GetLastWriteTimeFromKey Method"
+          href: idwritelocalfontfileloader-getlastwritetimefromkey.md
+      - name: "IDWriteLocalizedStrings"
+        href: /windows/win32/api/dwrite/nn-dwrite-idwritelocalizedstrings
+        items: 
+        - name: "FindLocaleName"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritelocalizedstrings-findlocalename
+        - name: "GetCount"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritelocalizedstrings-getcount
+        - name: "GetLocaleName"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritelocalizedstrings-getlocalename
+        - name: "GetLocaleNameLength"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritelocalizedstrings-getlocalenamelength
+        - name: "GetString"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritelocalizedstrings-getstring
+        - name: "GetStringLength"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritelocalizedstrings-getstringlength
+      - name: "IDWriteNumberSubstitution"
+        href: idwritenumbersubstitution.md
+      - name: "IDWritePixelSnapping"
+        href: /windows/win32/api/dwrite/nn-dwrite-idwritepixelsnapping
+        items: 
+        - name: "GetCurrentTransform"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritepixelsnapping-getcurrenttransform
+        - name: "GetPixelsPerDip"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritepixelsnapping-getpixelsperdip
+        - name: "IsPixelSnappingDisabled"
+          href: /previous-versions/windows/desktop/legacy/dd371281(v=vs.85)
+      - name: "IDWriteRemoteFontFileLoader"
+        href: /windows/win32/api/dwrite_3/nn-dwrite_3-idwriteremotefontfileloader
+        items: 
+        - name: "CreateFontFileReferenceFromUrl method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwriteremotefontfileloader-createfontfilereferencefromurl
+        - name: "CreateRemoteStreamFromKey method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwriteremotefontfileloader-createremotestreamfromkey
+        - name: "GetLocalityFromKey method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwriteremotefontfileloader-getlocalityfromkey
+      - name: "IDWriteRemoteFontFileStream"
+        href: /windows/win32/api/dwrite_3/nn-dwrite_3-idwriteremotefontfilestream
+        items: 
+        - name: "BeginDownload method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwriteremotefontfilestream-begindownload
+        - name: "GetFileFragmentLocality method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwriteremotefontfilestream-getfilefragmentlocality
+        - name: "GetLocalFileSize method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwriteremotefontfilestream-getlocalfilesize
+        - name: "GetLocality method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwriteremotefontfilestream-getlocality
+      - name: "IDWriteRenderingParams"
+        href: /windows/win32/api/dwrite/nn-dwrite-idwriterenderingparams
+        items: 
+        - name: "GetClearTypeLevel"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwriterenderingparams-getcleartypelevel
+        - name: "GetEnhancedContrast"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwriterenderingparams-getenhancedcontrast
+        - name: "GetGamma"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwriterenderingparams-getgamma
+        - name: "GetPixelGeometry"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwriterenderingparams-getpixelgeometry
+        - name: "GetRenderingMode"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwriterenderingparams-getrenderingmode
+      - name: "IDWriteRenderingParams1"
+        href: /windows/win32/api/dwrite_1/nn-dwrite_1-idwriterenderingparams1
+        items: 
+        - name: "GetGrayscaleEnhancedContrast method"
+          href: /windows/win32/api/dwrite_1/nf-dwrite_1-idwriterenderingparams1-getgrayscaleenhancedcontrast
+      - name: "IDWriteRenderingParams2"
+        href: /windows/win32/api/dwrite_2/nn-dwrite_2-idwriterenderingparams2
+        items: 
+        - name: "GetGridFitMode method"
+          href: /windows/win32/api/dwrite_2/nf-dwrite_2-idwriterenderingparams2-getgridfitmode
+      - name: "IDWriteRenderingParams3"
+        href: /windows/win32/api/dwrite_3/nn-dwrite_3-idwriterenderingparams3
+        items: 
+        - name: "GetRenderingMode1 method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwriterenderingparams3-getrenderingmode1
+      - name: "IDWriteStringList"
+        href: /windows/win32/api/dwrite_3/nn-dwrite_3-idwritestringlist
+        items: 
+        - name: "GetCount"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritestringlist-getcount
+        - name: "GetLocaleName"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritestringlist-getlocalename
+        - name: "GetLocaleNameLength"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritestringlist-getlocalenamelength
+        - name: "GetString"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritestringlist-getstring
+        - name: "GetStringLength"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritestringlist-getstringlength
+      - name: "IDWriteTextAnalysisSink"
+        href: /windows/win32/api/dwrite/nn-dwrite-idwritetextanalysissink
+        items: 
+        - name: "SetBidiLevel"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritetextanalysissink-setbidilevel
+        - name: "SetLineBreakpoints"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritetextanalysissink-setlinebreakpoints
+        - name: "SetNumberSubstitution"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritetextanalysissink-setnumbersubstitution
+        - name: "SetScriptAnalysis"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritetextanalysissink-setscriptanalysis
+      - name: "IDWriteTextAnalysisSink1"
+        href: /windows/win32/api/dwrite_1/nn-dwrite_1-idwritetextanalysissink1
+        items: 
+        - name: "SetGlyphOrientation method"
+          href: /windows/win32/api/dwrite_1/nf-dwrite_1-idwritetextanalysissink1-setglyphorientation
+      - name: "IDWriteTextAnalysisSource"
+        href: /windows/win32/api/dwrite/nn-dwrite-idwritetextanalysissource
+        items: 
+        - name: "GetLocaleName"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritetextanalysissource-getlocalename
+        - name: "GetNumberSubstitution"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritetextanalysissource-getnumbersubstitution
+        - name: "GetParagraphReadingDirection"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritetextanalysissource-getparagraphreadingdirection
+        - name: "GetTextAtPosition"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritetextanalysissource-gettextatposition
+        - name: "GetTextBeforePosition"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritetextanalysissource-gettextbeforeposition
+      - name: "IDWriteTextAnalysisSource1"
+        href: /windows/win32/api/dwrite_1/nn-dwrite_1-idwritetextanalysissource1
+        items: 
+        - name: "GetVerticalGlyphOrientation method"
+          href: /windows/win32/api/dwrite_1/nf-dwrite_1-idwritetextanalysissource1-getverticalglyphorientation
+      - name: "IDWriteTextAnalyzer"
+        href: /windows/win32/api/dwrite/nn-dwrite-idwritetextanalyzer
+        items: 
+        - name: "AnalyzeBidi"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritetextanalyzer-analyzebidi
+        - name: "AnalyzeLineBreakpoints"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritetextanalyzer-analyzelinebreakpoints
+        - name: "AnalyzeNumberSubstitution"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritetextanalyzer-analyzenumbersubstitution
+        - name: "AnalyzeScript"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritetextanalyzer-analyzescript
+        - name: "GetGdiCompatibleGlyphPlacements Method"
+          href: idwritetextanalyzer-getgdicompatibleglyphplacements.md
+        - name: "GetGlyphPlacements"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritetextanalyzer-getglyphplacements
+        - name: "GetGlyphs"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritetextanalyzer-getglyphs
+      - name: "IDWriteTextAnalyzer1"
+        href: /windows/win32/api/dwrite_1/nn-dwrite_1-idwritetextanalyzer1
+        items: 
+        - name: "ApplyCharacterSpacing method"
+          href: /windows/win32/api/dwrite_1/nf-dwrite_1-idwritetextanalyzer1-applycharacterspacing
+        - name: "GetBaseline method"
+          href: /windows/win32/api/dwrite_1/nf-dwrite_1-idwritetextanalyzer1-getbaseline
+        - name: "AnalyzeVerticalGlyphOrientation method"
+          href: /windows/win32/api/dwrite_1/nf-dwrite_1-idwritetextanalyzer1-analyzeverticalglyphorientation
+        - name: "GetGlyphOrientationTransform method"
+          href: /windows/win32/api/dwrite_1/nf-dwrite_1-idwritetextanalyzer1-getglyphorientationtransform
+        - name: "GetScriptProperties method"
+          href: /windows/win32/api/dwrite_1/nf-dwrite_1-idwritetextanalyzer1-getscriptproperties
+        - name: "GetTextComplexity method"
+          href: /windows/win32/api/dwrite_1/nf-dwrite_1-idwritetextanalyzer1-gettextcomplexity
+        - name: "GetJustificationOpportunities method"
+          href: /windows/win32/api/dwrite_1/nf-dwrite_1-idwritetextanalyzer1-getjustificationopportunities
+        - name: "JustifyGlyphAdvances method"
+          href: /windows/win32/api/dwrite_1/nf-dwrite_1-idwritetextanalyzer1-justifyglyphadvances
+        - name: "GetJustifiedGlyphs method"
+          href: /windows/win32/api/dwrite_1/nf-dwrite_1-idwritetextanalyzer1-getjustifiedglyphs
+      - name: "IDWriteTextAnalyzer2"
+        href: idwritetextanalyzer2.md
+        items: 
+        - name: "GetGlyphOrientationTransform method"
+          href: /windows/win32/api/dwrite_2/nf-dwrite_2-idwritetextanalyzer2-getglyphorientationtransform
+        - name: "CheckTypographicFeature method"
+          href: /windows/win32/api/dwrite_2/nf-dwrite_2-idwritetextanalyzer2-checktypographicfeature
+        - name: "GetTypographicFeatures method"
+          href: /windows/win32/api/dwrite_2/nf-dwrite_2-idwritetextanalyzer2-gettypographicfeatures
+      - name: "IDWriteTextFormat"
+        href: /windows/win32/api/dwrite/nn-dwrite-idwritetextformat
+        items: 
+        - name: "GetFlowDirection"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritetextformat-getflowdirection
+        - name: "GetFontCollection"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritetextformat-getfontcollection
+        - name: "GetFontFamilyName"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritetextformat-getfontfamilyname
+        - name: "GetFontFamilyNameLength"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritetextformat-getfontfamilynamelength
+        - name: "GetFontSize"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritetextformat-getfontsize
+        - name: "GetFontStretch"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritetextformat-getfontstretch
+        - name: "GetFontStyle"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritetextformat-getfontstyle
+        - name: "GetFontWeight"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritetextformat-getfontweight
+        - name: "GetIncrementalTabStop"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritetextformat-getincrementaltabstop
+        - name: "GetLineSpacing"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritetextformat-getlinespacing
+        - name: "GetLocaleName"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritetextformat-getlocalename
+        - name: "GetLocaleNameLength"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritetextformat-getlocalenamelength
+        - name: "GetParagraphAlignment"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritetextformat-getparagraphalignment
+        - name: "GetReadingDirection"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritetextformat-getreadingdirection
+        - name: "GetTextAlignment"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritetextformat-gettextalignment
+        - name: "GetTrimming"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritetextformat-gettrimming
+        - name: "GetWordWrapping"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritetextformat-getwordwrapping
+        - name: "SetFlowDirection"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritetextformat-setflowdirection
+        - name: "SetIncrementalTabStop"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritetextformat-setincrementaltabstop
+        - name: "SetLineSpacing"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritetextformat-setlinespacing
+        - name: "SetParagraphAlignment"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritetextformat-setparagraphalignment
+        - name: "SetReadingDirection"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritetextformat-setreadingdirection
+        - name: "SetTextAlignment"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritetextformat-settextalignment
+        - name: "SetTrimming"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritetextformat-settrimming
+        - name: "SetWordWrapping"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritetextformat-setwordwrapping
+      - name: "IDWriteTextFormat1"
+        href: idwritetextformat1.md
+        items: 
+        - name: "GetFontFallback method"
+          href: /windows/win32/api/dwrite_2/nf-dwrite_2-idwritetextformat1-getfontfallback
+        - name: "GetOpticalAlignment method"
+          href: /windows/win32/api/dwrite_2/nf-dwrite_2-idwritetextformat1-getopticalalignment
+        - name: "GetVerticalGlyphOrientation method"
+          href: /windows/win32/api/dwrite_2/nf-dwrite_2-idwritetextformat1-getverticalglyphorientation
+        - name: "GetLastLineWrapping method"
+          href: /windows/win32/api/dwrite_2/nf-dwrite_2-idwritetextformat1-getlastlinewrapping
+        - name: "SetFontFallback method"
+          href: /windows/win32/api/dwrite_2/nf-dwrite_2-idwritetextformat1-setfontfallback
+        - name: "SetOpticalAlignment method"
+          href: /windows/win32/api/dwrite_2/nf-dwrite_2-idwritetextformat1-setopticalalignment
+        - name: "SetVerticalGlyphOrientation method"
+          href: /windows/win32/api/dwrite_2/nf-dwrite_2-idwritetextformat1-setverticalglyphorientation
+        - name: "SetLastLineWrapping method"
+          href: /windows/win32/api/dwrite_2/nf-dwrite_2-idwritetextformat1-setlastlinewrapping
+      - name: "IDWriteTextFormat2"
+        href: idwritetextformat2.md
+        items: 
+        - name: "GetLineSpacing"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritetextformat2-getlinespacing
+        - name: "SetLineSpacing"
+          href: idwritetextformat2-setlinespacing.md
+      - name: "IDWriteTextFormat3"
+        href: /windows/win32/api/dwrite_3/nn-dwrite_3-idwritetextformat3
+        items: 
+        - name: "GetAutomaticFontAxes method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritetextformat3-getautomaticfontaxes
+        - name: "GetFontAxisValueCount method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritetextformat3-getfontaxisvaluecount
+        - name: "GetFontAxisValues method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritetextformat3-getfontaxisvalues
+        - name: "SetAutomaticFontAxes method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritetextformat3-setautomaticfontaxes
+        - name: "SetFontAxisValues method"
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritetextformat3-setfontaxisvalues
+      - name: "IDWriteTextLayout"
+        href: /windows/win32/api/dwrite/nn-dwrite-idwritetextlayout
+        items: 
+        - name: "Draw"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritetextlayout-draw
+        - name: "GetClusterMetrics"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritetextlayout-getclustermetrics
+        - name: "DetermineMinWidth Method"
+          href: idwritetextlayout-determineminwidth.md
+        - name: "GetDrawingEffect"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritetextlayout-getdrawingeffect
+        - name: "GetFontCollection"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritetextlayout-getfontcollection
+        - name: "GetFontFamilyName"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritetextlayout-getfontfamilyname
+        - name: "GetFontFamilyNameLength"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritetextlayout-getfontfamilynamelength
+        - name: "GetFontSize"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritetextlayout-getfontsize
+        - name: "GetFontStretch"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritetextlayout-getfontstretch
+        - name: "GetFontStyle"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritetextlayout-getfontstyle
+        - name: "GetFontWeight"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritetextlayout-getfontweight
+        - name: "GetInlineObject"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritetextlayout-getinlineobject
+        - name: "GetLineMetrics"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritetextlayout-getlinemetrics
+        - name: "GetLocaleName"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritetextlayout-getlocalename
+        - name: "GetLocaleNameLength"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritetextlayout-getlocalenamelength
+        - name: "GetMaxHeight"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritetextlayout-getmaxheight
+        - name: "GetMaxWidth"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritetextlayout-getmaxwidth
+        - name: "GetMetrics"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritetextlayout-getmetrics
+        - name: "GetOverhangMetrics Method"
+          href: idwritetextlayout-getoverhangmetrics.md
+        - name: "GetStrikethrough"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritetextlayout-getstrikethrough
+        - name: "GetTypography"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritetextlayout-gettypography
+        - name: "GetUnderline"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritetextlayout-getunderline
+        - name: "HitTestPoint"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritetextlayout-hittestpoint
+        - name: "HitTestTextPosition"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritetextlayout-hittesttextposition
+        - name: "HitTestTextRange"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritetextlayout-hittesttextrange
+        - name: "SetDrawingEffect"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritetextlayout-setdrawingeffect
+        - name: "SetFontCollection"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritetextlayout-setfontcollection
+        - name: "SetFontFamilyName"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritetextlayout-setfontfamilyname
+        - name: "SetFontSize"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritetextlayout-setfontsize
+        - name: "SetFontStretch"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritetextlayout-setfontstretch
+        - name: "SetFontStyle"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritetextlayout-setfontstyle
+        - name: "SetFontWeight"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritetextlayout-setfontweight
+        - name: "SetInlineObject"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritetextlayout-setinlineobject
+        - name: "SetLocaleName"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritetextlayout-setlocalename
+        - name: "SetMaxHeight"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritetextlayout-setmaxheight
+        - name: "SetMaxWidth"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritetextlayout-setmaxwidth
+        - name: "SetStrikethrough"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritetextlayout-setstrikethrough
+        - name: "SetTypography"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritetextlayout-settypography
+        - name: "SetUnderline"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritetextlayout-setunderline
+      - name: "IDWriteTextLayout1"
+        href: /windows/win32/api/dwrite_1/nn-dwrite_1-idwritetextlayout1
+        items: 
+        - name: "SetPairKerning method"
+          href: /windows/win32/api/dwrite_1/nf-dwrite_1-idwritetextlayout1-setpairkerning
+        - name: "GetPairKerning method"
+          href: /windows/win32/api/dwrite_1/nf-dwrite_1-idwritetextlayout1-getpairkerning
+        - name: "SetCharacterSpacing method"
+          href: /windows/win32/api/dwrite_1/nf-dwrite_1-idwritetextlayout1-setcharacterspacing
+        - name: "GetCharacterSpacing method"
+          href: /windows/win32/api/dwrite_1/nf-dwrite_1-idwritetextlayout1-getcharacterspacing
+      - name: "IDWriteTextLayout2"
+        href: idwritetextlayout2.md
+        items: 
+        - name: "SetVerticalGlyphOrientation method"
+          href: /windows/win32/api/dwrite_2/nf-dwrite_2-idwritetextlayout2-setverticalglyphorientation
+        - name: "GetVerticalGlyphOrientation method"
+          href: /windows/win32/api/dwrite_2/nf-dwrite_2-idwritetextlayout2-getverticalglyphorientation
+        - name: "SetLastLineWrapping method"
+          href: /windows/win32/api/dwrite_2/nf-dwrite_2-idwritetextlayout2-setlastlinewrapping
+        - name: "GetLastLineWrapping method"
+          href: /windows/win32/api/dwrite_2/nf-dwrite_2-idwritetextlayout2-getlastlinewrapping
+        - name: "SetOpticalAlignment method"
+          href: /windows/win32/api/dwrite_2/nf-dwrite_2-idwritetextlayout2-setopticalalignment
+        - name: "GetOpticalAlignment method"
+          href: /windows/win32/api/dwrite_2/nf-dwrite_2-idwritetextlayout2-getopticalalignment
+        - name: "SetFontFallback method"
+          href: /windows/win32/api/dwrite_2/nf-dwrite_2-idwritetextlayout2-setfontfallback
+        - name: "GetFontFallback method"
+          href: /windows/win32/api/dwrite_2/nf-dwrite_2-idwritetextlayout2-getfontfallback
+        - name: "GetMetrics method"
+          href: idwritetextlayout2-getmetrics.md
+      - name: "IDWriteTextLayout3"
+        href: idwritetextlayout3.md
+        items: 
+        - name: "GetLineMetrics method"
+          href: idwritetextlayout3-getlinemetrics.md
+        - name: "GetLineSpacing method"
+          href: idwritetextlayout3-getlinespacing.md
+        - name: "InvalidateLayout method"
+          href: idwritetextlayout3-invalidatelayout.md
+        - name: "SetLineSpacing method"
+          href: idwritetextlayout3-setlinespacing.md
+      - name: "IDWriteTextRenderer"
+        href: /windows/win32/api/dwrite/nn-dwrite-idwritetextrenderer
+        items: 
+        - name: "DrawGlyphRun"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritetextrenderer-drawglyphrun
+        - name: "DrawInlineObject"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritetextrenderer-drawinlineobject
+        - name: "DrawStrikethrough"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritetextrenderer-drawstrikethrough
+        - name: "DrawUnderline"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritetextrenderer-drawunderline
+      - name: "IDWriteTextRenderer1"
+        href: /windows/win32/api/dwrite_2/nn-dwrite_2-idwritetextrenderer1
+        items: 
+        - name: "DrawGlyphRun"
+          href: /windows/win32/api/dwrite_2/nf-dwrite_2-idwritetextrenderer1-drawglyphrun
+        - name: "DrawInlineObject"
+          href: /windows/win32/api/dwrite_2/nf-dwrite_2-idwritetextrenderer1-drawinlineobject
+        - name: "DrawStrikethrough"
+          href: /windows/win32/api/dwrite_2/nf-dwrite_2-idwritetextrenderer1-drawstrikethrough
+        - name: "DrawUnderline"
+          href: /windows/win32/api/dwrite_2/nf-dwrite_2-idwritetextrenderer1-drawunderline
+      - name: "IDWriteTypography"
+        href: /windows/win32/api/dwrite/nn-dwrite-idwritetypography
+        items: 
+        - name: "AddFontFeature"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritetypography-addfontfeature
+        - name: "GetFontFeature"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritetypography-getfontfeature
+        - name: "GetFontFeatureCount"
+          href: /windows/win32/api/dwrite/nf-dwrite-idwritetypography-getfontfeaturecount
+    - name: "DirectWrite macros"
+      href: macros.md
+      items: 
+      - name: "DWRITE_MAKE_FONT_AXIS_TAG"
+        href: /windows/win32/api/dwrite_3/nf-dwrite_3-dwrite_make_font_axis_tag
+      - name: "DWRITE_MAKE_OPENTYPE_TAG"
+        href: /windows/win32/api/dwrite/nf-dwrite-dwrite_make_opentype_tag
+    - name: "DirectWrite structures"
+      href: structures.md
+      items: 
+      - name: "DWRITE_BITMAP_DATA_BGRA32 (DWriteCore)"
+        href: /windows/windows-app-sdk/api/win32/dwrite_3/ns-dwrite_3-dwrite_bitmap_data_bgra32
+      - name: "DWRITE_CARET_METRICS"
+        href: /windows/win32/api/dwrite_1/ns-dwrite_1-dwrite_caret_metrics
+      - name: "DWRITE_CLUSTER_METRICS"
+        href: /windows/win32/api/dwrite/ns-dwrite-dwrite_cluster_metrics
+      - name: "DWRITE_COLOR_F"
+        href: dwrite-color-f.md
+      - name: "DWRITE_COLOR_GLYPH_RUN"
+        href: /windows/win32/api/DWrite_2/ns-dwrite_2-dwrite_color_glyph_run
+      - name: "DWRITE_COLOR_GLYPH_RUN1"
+        href: /windows/win32/api/dwrite_3/ns-dwrite_3-dwrite_color_glyph_run1
+      - name: "DWRITE_FILE_FRAGMENT"
+        href: /windows/win32/api/dwrite_3/ns-dwrite_3-dwrite_file_fragment
+      - name: "DWRITE_FONT_AXIS_RANGE"
+        href: /windows/win32/api/dwrite_3/ns-dwrite_3-dwrite_font_axis_range
+      - name: "DWRITE_FONT_AXIS_VALUE"
+        href: /windows/win32/api/dwrite_3/ns-dwrite_3-dwrite_font_axis_value
+      - name: "DWRITE_FONT_FEATURE"
+        href: /windows/win32/api/dwrite/ns-dwrite-dwrite_font_feature
+      - name: "DWRITE_FONT_METRICS"
+        href: /windows/win32/api/dwrite/ns-dwrite-dwrite_font_metrics
+      - name: "DWRITE_FONT_METRICS1"
+        href: /windows/win32/api/dwrite_1/ns-dwrite_1-dwrite_font_metrics1
+      - name: "DWRITE_FONT_PROPERTY"
+        href: /windows/win32/api/dwrite_3/ns-dwrite_3-dwrite_font_property
+      - name: "DWRITE_GLYPH_IMAGE_DATA"
+        href: /windows/win32/api/dwrite_3/ns-dwrite_3-dwrite_glyph_image_data
+      - name: "DWRITE_GLYPH_METRICS"
+        href: /windows/win32/api/dwrite/ns-dwrite-dwrite_glyph_metrics
+      - name: "DWRITE_GLYPH_OFFSET"
+        href: /windows/win32/api/dwrite/ns-dwrite-dwrite_glyph_offset
+      - name: "DWRITE_GLYPH_RUN"
+        href: /windows/win32/api/dwrite/ns-dwrite-dwrite_glyph_run
+      - name: "DWRITE_GLYPH_RUN_DESCRIPTION"
+        href: /windows/win32/api/dwrite/ns-dwrite-dwrite_glyph_run_description
+      - name: "DWRITE_HIT_TEST_METRICS"
+        href: /windows/win32/api/dwrite/ns-dwrite-dwrite_hit_test_metrics
+      - name: "DWRITE_INLINE_OBJECT_METRICS"
+        href: /windows/win32/api/dwrite/ns-dwrite-dwrite_inline_object_metrics
+      - name: "DWRITE_JUSTIFICATION_OPPORTUNITY"
+        href: /windows/win32/api/dwrite_1/ns-dwrite_1-dwrite_justification_opportunity
+      - name: "DWRITE_LINE_BREAKPOINT"
+        href: /windows/win32/api/dwrite/ns-dwrite-dwrite_line_breakpoint
+      - name: "DWRITE_LINE_METRICS"
+        href: /windows/win32/api/dwrite/ns-dwrite-dwrite_line_metrics
+      - name: "DWRITE_LINE_METRICS1"
+        href: /windows/win32/api/dwrite_3/ns-dwrite_3-dwrite_line_metrics1
+      - name: "DWRITE_LINE_SPACING"
+        href: /windows/win32/api/dwrite_3/ns-dwrite_3-dwrite_line_spacing
+      - name: "DWRITE_MATRIX"
+        href: /windows/win32/api/dwrite/ns-dwrite-dwrite_matrix
+      - name: "DWRITE_OVERHANG_METRICS"
+        href: /windows/win32/api/dwrite/ns-dwrite-dwrite_overhang_metrics
+      - name: "DWRITE_PANOSE"
+        href: /windows/win32/api/dwrite_1/ns-dwrite_1-dwrite_panose
+      - name: "DWRITE_SCRIPT_ANALYSIS"
+        href: /windows/win32/api/dwrite/ns-dwrite-dwrite_script_analysis
+      - name: "DWRITE_SCRIPT_PROPERTIES"
+        href: /windows/win32/api/dwrite_1/ns-dwrite_1-dwrite_script_properties
+      - name: "DWRITE_SHAPING_GLYPH_PROPERTIES"
+        href: /windows/win32/api/dwrite/ns-dwrite-dwrite_shaping_glyph_properties
+      - name: "DWRITE_SHAPING_TEXT_PROPERTIES"
+        href: /windows/win32/api/dwrite/ns-dwrite-dwrite_shaping_text_properties
+      - name: "DWRITE_STRIKETHROUGH"
+        href: /windows/win32/api/dwrite/ns-dwrite-dwrite_strikethrough
+      - name: "DWRITE_TEXT_METRICS"
+        href: /windows/win32/api/dwrite/ns-dwrite-dwrite_text_metrics
+      - name: "DWRITE_TEXT_METRICS1"
+        href: /windows/win32/api/dwrite_2/ns-dwrite_2-dwrite_text_metrics1
+      - name: "DWRITE_TEXT_RANGE"
+        href: /windows/win32/api/dwrite/ns-dwrite-dwrite_text_range
+      - name: "DWRITE_TRIMMING"
+        href: /windows/win32/api/dwrite/ns-dwrite-dwrite_trimming
+      - name: "DWRITE_TYPOGRAPHIC_FEATURES"
+        href: /windows/win32/api/dwrite/ns-dwrite-dwrite_typographic_features
+      - name: "DWRITE_UNDERLINE"
+        href: /windows/win32/api/dwrite/ns-dwrite-dwrite_underline
+      - name: "DWRITE_UNICODE_RANGE"
+        href: /windows/win32/api/dwrite_1/ns-dwrite_1-dwrite_unicode_range
+  - name: "Sample Code"
+    href: samples.md

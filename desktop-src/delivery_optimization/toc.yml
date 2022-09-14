@@ -1,0 +1,269 @@
+- name: "Delivery Optimization"
+  href: delivery-optimization-portal.md
+  items: 
+  - name: "Delivery Optimization reference"
+    href: do-reference.md
+    items: 
+    - name: "Delivery Optimization enumerations"
+      href: do-enumerations.md
+      items: 
+      - name: "BG_ERROR_CONTEXT"
+        href: bg-error-context.md
+      - name: "BG_JOB_PRIORITY"
+        href: bg-job-priority-.md
+      - name: "BG_JOB_STATE"
+        href: bg-job-state-.md
+      - name: "BG_JOB_TYPE"
+        href: bg-job-type.md
+      - name: "BITS_FILE_PROPERTY_ID"
+        href: bits-file-property-id-.md
+      - name: "BITS_JOB_PROPERTY_ID"
+        href: bits-job-property-id.md
+      - name: "BITS_JOB_TRANSFER_POLICY"
+        href: bits-job-transfer-policy-.md
+      - name: "DeliveryOptimizationFileProperty"
+        href: deliveryoptimizationfileproperty.md
+      - name: "DODownloadCostPolicy"
+        href: /windows/win32/api/deliveryoptimization/ne-deliveryoptimization-dodownloadcostpolicy
+      - name: "DODownloadProperty"
+        href: /windows/win32/api/deliveryoptimization/ne-deliveryoptimization-dodownloadproperty
+      - name: "DODownloadPropertyEx"
+        href: ./dodownloadinternal/ne-dodownloadinternal-dodownloadpropertyex.md
+      - name: "DODownloadState"
+        href: /windows/win32/api/deliveryoptimization/ne-deliveryoptimization-dodownloadstate
+      - name: "DownloadMode"
+        href: downloadmode.md
+      - name: "SwarmStatus"
+        href: swarmstatus.md
+    - name: "Delivery Optimization interfaces"
+      href: do-interfaces.md
+      items: 
+      - name: "IBackgroundCopyCallback"
+        href: ibackgroundcopycallback.md
+        items: 
+        - name: "IBackgroundCopyCallback Methods"
+          href: ibackgroundcopycallback-methods.md
+          items: 
+          - name: "JobError method"
+            href: ibackgroundcopycallback-joberror-method.md
+          - name: "JobModification method"
+            href: ibackgroundcopycallback-jobmodification-method.md
+          - name: "JobTransferred method"
+            href: ibackgroundcopycallback-jobtransferred.md
+      - name: "IBackgroundCopyError"
+        href: ibackgroundcopyerror.md
+        items: 
+        - name: "IBackgroundCopyError Methods"
+          href: ibackgroundcopyerror-methods.md
+          items: 
+          - name: "GetError method"
+            href: ibackgroundcopyerror-geterror-method.md
+          - name: "GetFile method"
+            href: ibackgroundcopyerror-getfile-method.md
+      - name: "IBackgroundCopyFile"
+        href: ibackgroundcopyfile.md
+        items: 
+        - name: "IBackgroundCopyFile Methods"
+          href: ibackgroundcopyfile-methods.md
+          items: 
+          - name: "GetLocalName method"
+            href: ibackgroundcopyfile-getlocalname-method.md
+          - name: "GetProgress method"
+            href: ibackgroundcopyfile-getprogress-method.md
+          - name: "GetRemoteName method"
+            href: ibackgroundcopyfile-getremotename-method.md
+      - name: "IBackgroundCopyFile2"
+        href: ibackgroundcopyfile2.md
+        items: 
+        - name: "IBackgroundCopyFile2 Methods"
+          href: ibackgroundcopyfile2-methods.md
+          items: 
+          - name: "GetFileRanges method"
+            href: ibackgroundcopyfile2-getfileranges-method.md
+          - name: "SetRemoteName method"
+            href: ibackgroundcopyfile2-setremotename-method.md
+      - name: "IBackgroundCopyFile5"
+        href: ibackgroundcopyfile5.md
+        items: 
+        - name: "IBackgroundCopyFile5 Methods"
+          href: ibackgroundcopyfile5-methods.md
+          items: 
+          - name: "GetProperty method"
+            href: ibackgroundcopyfile5-getproperty.md
+          - name: "SetProperty method"
+            href: ibackgroundcopyfile5-setproperty.md
+      - name: "IBackgroundCopyJob"
+        href: ibackgroundcopyjob-.md
+        items: 
+        - name: "IBackgroundCopyJob Methods"
+          href: ibackgroundcopyjob-methods.md
+          items: 
+          - name: "Cancel method"
+            href: ibackgroundcopyjob-cancel.md
+          - name: "Complete method"
+            href: ibackgroundcopyjob-complete.md
+          - name: "EnumFiles method"
+            href: ibackgroundcopyjob-enumfiles.md
+          - name: "GetDisplayName method"
+            href: ibackgroundcopyjob-getdisplayname.md
+          - name: "GetError method"
+            href: ibackgroundcopyjob-geterror.md
+          - name: "GetId method"
+            href: ibackgroundcopyjob-getid.md
+          - name: "GetNoProgressTimeout method"
+            href: ibackgroundcopyjob-getnoprogresstimeout.md
+          - name: "GetNotifyFlags method"
+            href: ibackgroundcopyjob-getnotifyflags.md
+          - name: "GetNotifyInterface method"
+            href: ibackgroundcopyjob-getnotifyinterface.md
+          - name: "GetPriority method"
+            href: ibackgroundcopyjob-getpriority.md
+          - name: "GetProgress method"
+            href: ibackgroundcopyjob-getprogress.md
+          - name: "GetState method"
+            href: ibackgroundcopyjob-getstate.md
+          - name: "GetTimes method"
+            href: ibackgroundcopyjob-gettimes.md
+          - name: "GetType method"
+            href: ibackgroundcopyjob-gettype.md
+          - name: "Resume method"
+            href: ibackgroundcopyjob-resume.md
+          - name: "SetNoProgressTimeout method"
+            href: ibackgroundcopyjob-setnoprogresstimeout.md
+          - name: "SetNotifyFlags method"
+            href: ibackgroundcopyjob-setnotifyflags.md
+          - name: "SetNotifyInterface method"
+            href: ibackgroundcopyjob-setnotifyinterface.md
+          - name: "SetPriority method"
+            href: ibackgroundcopyjob-setpriority.md
+          - name: "Suspend method"
+            href: ibackgroundcopyjob-suspend.md
+      - name: "IBackgroundCopyJob5"
+        href: ibackgroundcopyjob5.md
+        items: 
+        - name: "IBackgroundCopyJob5 Methods"
+          href: ibackgroundcopyjob5-methods.md
+          items: 
+          - name: "GetProperty method"
+            href: ibackgroundcopyjob5-getproperty.md
+          - name: "SetProperty method"
+            href: ibackgroundcopyjob5-setproperty.md
+      - name: "IBackgroundCopyManager"
+        href: ibackgroundcopymanager.md
+        items: 
+        - name: "IBackgroundCopyManager Methods"
+          href: ibackgroundcopymanager-methods.md
+          items: 
+          - name: "CreateJob method"
+            href: ibackgroundcopymanager-createjob.md
+          - name: "GetJob method"
+            href: ibackgroundcopymanager-getjob.md
+      - name: "IDeliveryOptimizationJob"
+        href: ideliveryoptimizationjob.md
+        items: 
+        - name: "IDeliveryOptimizationJob Methods"
+          href: ideliveryoptimizationjob-methods.md
+          items: 
+          - name: "AddFileWithRanges method"
+            href: ideliveryoptimizationjob-addfilewithranges.md
+      - name: "IDeliveryOptimizationJob2"
+        href: ideliveryoptimizationjob2.md
+        items: 
+        - name: "AddFile method"
+          href: ideliveryoptimizationjob2-addfile.md
+        - name: "GetProperty method"
+          href: ideliveryoptimizationjob2-getproperty.md
+        - name: "SetProperty method"
+          href: ideliveryoptimizationjob2-setproperty.md
+      - name: "IDeliveryOptimizationFile"
+        href: ideliveryoptimizationfile.md
+        items: 
+        - name: "IDeliveryOptimizationFile Methods"
+          href: ideliveryoptimizationfile-methods.md
+          items: 
+          - name: "GetStats method"
+            href: ideliveryoptimizationfile-getstats.md
+      - name: "IDeliveryOptimizationFile2"
+        href: ideliveryoptimizationfile2.md
+        items: 
+        - name: "GetProperty method"
+          href: ideliveryoptimizationfile2-getproperty.md
+        - name: "SetProperty method"
+          href: ideliveryoptimizationfile2-setproperty.md
+      - name: "IEnumBackgroundCopyFiles"
+        href: ienumbackgroundcopyfiles-.md
+        items: 
+        - name: "IEnumBackgroundCopyFiles Methods"
+          href: ienumbackgroundcopyfiles-methods.md
+          items: 
+          - name: "GetCount method"
+            href: ienumbackgroundcopyfiles-getcount.md
+          - name: "Next method"
+            href: ienumbackgroundcopyfiles-next.md
+          - name: "Reset method"
+            href: ienumbackgroundcopyfiles-reset.md
+          - name: "Skip method"
+            href: ienumbackgroundcopyfiles-skip.md
+      - name: "IDODownload"
+        href: /windows/win32/api/deliveryoptimization/nn-deliveryoptimization-idodownload
+        items: 
+        - name: "Abort method"
+          href: /windows/win32/api/deliveryoptimization/nf-deliveryoptimization-idodownload-abort
+        - name: "Finalize method"
+          href: /windows/win32/api/deliveryoptimization/nf-deliveryoptimization-idodownload-finalize
+        - name: "GetProperty method"
+          href: /windows/win32/api/deliveryoptimization/nf-deliveryoptimization-idodownload-getproperty
+        - name: "GetStatus method"
+          href: /windows/win32/api/deliveryoptimization/nf-deliveryoptimization-idodownload-getstatus
+        - name: "Pause method"
+          href: /windows/win32/api/deliveryoptimization/nf-deliveryoptimization-idodownload-pause
+        - name: "SetProperty method"
+          href: /windows/win32/api/deliveryoptimization/nf-deliveryoptimization-idodownload-setproperty
+        - name: "Start method"
+          href: /windows/win32/api/deliveryoptimization/nf-deliveryoptimization-idodownload-start
+      - name: "IDODownloadInternal"
+        href: ./dodownloadinternal/nn-dodownloadinternal-idodownloadinternal.md
+        items: 
+        - name: "GetPropertyEx method"
+          href: ./dodownloadinternal/nf-dodownloadinternal-idodownloadinternal-getpropertyex.md
+        - name: "SetPropertyEx method"
+          href: ./dodownloadinternal/nf-dodownloadinternal-idodownloadinternal-setpropertyex.md
+      - name: "IDODownloadStatusCallback"
+        href: /windows/win32/api/deliveryoptimization/nn-deliveryoptimization-idodownloadstatuscallback
+        items: 
+        - name: "OnStatusChanged method"
+          href: /windows/win32/api/deliveryoptimization/nf-deliveryoptimization-idodownloadstatuscallback-onstatuschange
+      - name: "IDOManager"
+        href: /windows/win32/api/deliveryoptimization/nn-deliveryoptimization-idomanager
+        items: 
+        - name: "CreateDownload method"
+          href: /windows/win32/api/deliveryoptimization/nf-deliveryoptimization-idomanager-createdownload
+        - name: "EnumDownloads method"
+          href: /windows/win32/api/deliveryoptimization/nf-deliveryoptimization-idomanager-enumdownloads
+    - name: "Delivery Optimization return values"
+      href: do-return-values.md
+    - name: "Delivery Optimization structures and unions"
+      href: do-structures-and-unions.md
+      items: 
+      - name: "BG_FILE_PROGRESS"
+        href: bg-file-progress.md
+      - name: "BG_FILE_RANGE"
+        href: bg-file-range.md
+      - name: "BG_JOB_PROGRESS"
+        href: bg-job-progress.md
+      - name: "BG_JOB_TIMES"
+        href: bg-job-times.md
+      - name: "BITS_FILE_PROPERTY_VALUE"
+        href: bits-file-property-value.md
+      - name: "BITS_JOB_PROPERTY_VALUE"
+        href: bits-job-property-value-.md
+      - name: "DO_DOWNLOAD_ENUM_CATEGORY"
+        href: /windows/win32/api/deliveryoptimization/ns-deliveryoptimization-do_download_enum_category
+      - name: "DO_DOWNLOAD_RANGE"
+        href: /windows/win32/api/deliveryoptimization/ns-deliveryoptimization-do_download_range
+      - name: "DO_DOWNLOAD_RANGES_INFO"
+        href: /windows/win32/api/deliveryoptimization/ns-deliveryoptimization-do_download_ranges_info
+      - name: "DO_DOWNLOAD_STATUS"
+        href: /windows/win32/api/deliveryoptimization/ns-deliveryoptimization-do_download_status
+      - name: "DOSwarmStats"
+        href: doswarmstats.md

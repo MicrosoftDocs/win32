@@ -1,0 +1,886 @@
+- name: "Menus and Other Resources"
+  href: resources.md
+  items: 
+  - name: "Introduction to Resources"
+    href: introduction-to-resources.md
+    items: 
+    - name: "Resource Overviews"
+      href: resources-overviews.md
+      items: 
+      - name: "Adding, Deleting, and Replacing Resources"
+        href: adding-deleting-and-replacing-resources.md
+      - name: "Enumerating Resources"
+        href: enumerating-resources.md
+      - name: "Finding and Loading Resources"
+        href: finding-and-loading-resources.md
+      - name: "Resource File Formats"
+        href: resource-file-formats.md
+      - name: "Using Resources"
+        href: using-resources.md
+    - name: "Resource Reference"
+      href: resources-reference.md
+      items: 
+      - name: "Resource Functions"
+        href: resources-functions.md
+        items: 
+        - name: "BeginUpdateResource"
+          href: /windows/desktop/api/Winbase/nf-winbase-beginupdateresourcea
+        - name: "CreateResourceIndexer"
+          href: /windows/desktop/api/resourceindexer/nf-resourceindexer-createresourceindexer
+        - name: "CopyImage"
+          href: /windows/desktop/api/Winuser/nf-winuser-copyimage
+        - name: "DestroyIndexedResults"
+          href: /windows/desktop/api/resourceindexer/nf-resourceindexer-destroyindexedresults
+        - name: "DestroyResourceIndexer"
+          href: /windows/desktop/api/resourceindexer/nf-resourceindexer-destroyresourceindexer
+        - name: "EndUpdateResource"
+          href: /windows/desktop/api/Winbase/nf-winbase-endupdateresourcea
+        - name: "EnumResLangProc"
+          href: /previous-versions/windows/desktop/legacy/ms648033(v=vs.85)
+        - name: "EnumResNameProc"
+          href: /previous-versions/windows/desktop/legacy/ms648034(v=vs.85)
+        - name: "EnumResourceLanguages"
+          href: /windows/desktop/api/Winbase/nf-winbase-enumresourcelanguagesa
+        - name: "EnumResourceLanguagesEx"
+          href: /windows/desktop/api//rrascfg/nf-rrascfg-ieapproviderconfig-initialize
+        - name: "EnumResourceNames"
+          href: /windows/desktop/api/libloaderapi/nf-libloaderapi-enumresourcenamesa
+        - name: "EnumResourceNamesEx"
+          href: /windows/desktop/api/libloaderapi/nf-libloaderapi-enumresourcenamesexw
+        - name: "EnumResourceTypes"
+          href: /windows/desktop/api/Winbase/nf-winbase-enumresourcetypesa
+        - name: "EnumResourceTypesEx"
+          href: /windows/desktop/api/libloaderapi/nf-libloaderapi-enumresourcetypesexw
+        - name: "EnumResTypeProc"
+          href: /previous-versions/windows/desktop/legacy/ms648041(v=vs.85)
+        - name: "FindResource"
+          href: /windows/desktop/api/Winbase/nf-winbase-findresourcea
+        - name: "FindResourceEx"
+          href: /windows/desktop/api/Winbase/nf-winbase-findresourceexa
+        - name: "FreeResource"
+          href: /windows/desktop/api/libloaderapi/nf-libloaderapi-freeresource
+        - name: "IndexFilePath"
+          href: /windows/desktop/api/resourceindexer/nf-resourceindexer-indexfilepath
+        - name: "LoadImage"
+          href: /windows/desktop/api/Winuser/nf-winuser-loadimagea
+        - name: "LoadResource"
+          href: /windows/desktop/api/libloaderapi/nf-libloaderapi-loadresource
+        - name: "LockResource"
+          href: /windows/desktop/api/libloaderapi/nf-libloaderapi-lockresource
+        - name: "SizeofResource"
+          href: /windows/desktop/api/libloaderapi/nf-libloaderapi-sizeofresource
+        - name: "UpdateResource"
+          href: /windows/desktop/api/Winbase/nf-winbase-updateresourcea
+      - name: "Resource Macros"
+        href: resources-macros.md
+        items: 
+        - name: "IS_INTRESOURCE"
+          href: /windows/desktop/api/Winuser/nf-winuser-is_intresource
+        - name: "MAKEINTRESOURCE"
+          href: /windows/desktop/api/winuser/nf-winuser-makeintresourcea
+      - name: "Resource Structures"
+        href: resources-structures.md
+        items: 
+        - name: "ACCELTABLEENTRY"
+          href: acceltableentry.md
+        - name: "CURSORDIR"
+          href: cursordir.md
+        - name: "CURSORSHAPE"
+          href: /windows/win32/api/Winuser/ns-winuser-cursorshape
+        - name: "DIRENTRY"
+          href: direntry.md
+        - name: "FONTDIRENTRY"
+          href: fontdirentry.md
+        - name: "FONTGROUPHDR"
+          href: fontgrouphdr.md
+        - name: "ICONRESDIR"
+          href: iconresdir.md
+        - name: "IndexedResourceQualifier"
+          href: /windows/desktop/api/resourceindexer/ns-resourceindexer-indexedresourcequalifier
+        - name: "LOCALHEADER"
+          href: localheader.md
+        - name: "MENUHEADER"
+          href: menuheader.md
+        - name: "MENUHELPID"
+          href: menuhelpid.md
+        - name: "MESSAGE_RESOURCE_BLOCK"
+          href: /windows/win32/api/Winnt/ns-winnt-message_resource_block
+        - name: "MESSAGE_RESOURCE_DATA"
+          href: /windows/win32/api/Winnt/ns-winnt-message_resource_data
+        - name: "MESSAGE_RESOURCE_ENTRY"
+          href: /windows/win32/api/Winnt/ns-winnt-message_resource_entry
+        - name: "NEWHEADER"
+          href: newheader.md
+        - name: "NORMALMENUITEM"
+          href: normalmenuitem.md
+        - name: "POPUPMENUITEM"
+          href: popupmenuitem.md
+        - name: "RESDIR"
+          href: resdir.md
+        - name: "RESOURCEHEADER"
+          href: resourceheader.md
+      - name: "Resource Types"
+        href: resource-types.md
+  - name: "Carets"
+    href: carets.md
+    items: 
+    - name: "About Carets"
+      href: about-carets.md
+    - name: "Using Carets"
+      href: using-carets.md
+    - name: "Caret Reference"
+      href: caret-reference.md
+      items: 
+      - name: "Caret Functions"
+        href: caret-functions.md
+        items: 
+        - name: "CreateCaret"
+          href: /windows/desktop/api/Winuser/nf-winuser-createcaret
+        - name: "DestroyCaret"
+          href: /windows/desktop/api/Winuser/nf-winuser-destroycaret
+        - name: "GetCaretBlinkTime"
+          href: /windows/desktop/api/Winuser/nf-winuser-getcaretblinktime
+        - name: "GetCaretPos"
+          href: /windows/desktop/api/Winuser/nf-winuser-getcaretpos
+        - name: "HideCaret"
+          href: /windows/desktop/api/Winuser/nf-winuser-hidecaret
+        - name: "SetCaretBlinkTime"
+          href: /windows/desktop/api/Winuser/nf-winuser-setcaretblinktime
+        - name: "SetCaretPos"
+          href: /windows/desktop/api/Winuser/nf-winuser-setcaretpos
+        - name: "ShowCaret"
+          href: /windows/desktop/api/Winuser/nf-winuser-showcaret
+  - name: "Cursors"
+    href: cursors.md
+    items: 
+    - name: "About Cursors"
+      href: about-cursors.md
+    - name: "Using Cursors"
+      href: using-cursors.md
+    - name: "Cursor Reference"
+      href: cursor-reference.md
+      items: 
+      - name: "Cursor Functions"
+        href: cursor-functions.md
+        items: 
+        - name: "ClipCursor"
+          href: /windows/desktop/api/Winuser/nf-winuser-clipcursor
+        - name: "CopyCursor"
+          href: /windows/desktop/api/Winuser/nf-winuser-copycursor
+        - name: "CreateCursor"
+          href: /windows/desktop/api/Winuser/nf-winuser-createcursor
+        - name: "DestroyCursor"
+          href: /windows/desktop/api/Winuser/nf-winuser-destroycursor
+        - name: "GetClipCursor"
+          href: /windows/desktop/api/Winuser/nf-winuser-getclipcursor
+        - name: "GetCursor"
+          href: /windows/desktop/api/Winuser/nf-winuser-getcursor
+        - name: "GetCursorInfo"
+          href: /windows/desktop/api/Winuser/nf-winuser-getcursorinfo
+        - name: "GetCursorPos"
+          href: /windows/desktop/api/Winuser/nf-winuser-getcursorpos
+        - name: "GetPhysicalCursorPos"
+          href: /windows/desktop/api/Winuser/nf-winuser-getphysicalcursorpos
+        - name: "LoadCursor"
+          href: /windows/desktop/api/Winuser/nf-winuser-loadcursora
+        - name: "LoadCursorFromFile"
+          href: /windows/desktop/api/Winuser/nf-winuser-loadcursorfromfilea
+        - name: "SetCursor"
+          href: /windows/desktop/api/Winuser/nf-winuser-setcursor
+        - name: "SetCursorPos"
+          href: /windows/desktop/api/Winuser/nf-winuser-setcursorpos
+        - name: "SetPhysicalCursorPos"
+          href: /windows/desktop/api/Winuser/nf-winuser-setphysicalcursorpos
+        - name: "SetSystemCursor"
+          href: /windows/desktop/api/Winuser/nf-winuser-setsystemcursor
+        - name: "ShowCursor"
+          href: /windows/desktop/api/Winuser/nf-winuser-showcursor
+      - name: "Cursor Notifications"
+        href: cursor-notifications.md
+        items: 
+        - name: "WM_SETCURSOR"
+          href: wm-setcursor.md
+      - name: "Cursor Structures"
+        href: cursor-structures.md
+        items: 
+        - name: "CURSORINFO"
+          href: /windows/win32/api/Winuser/ns-winuser-cursorinfo
+  - name: "Icons"
+    href: icons.md
+    items: 
+    - name: "About Icons"
+      href: about-icons.md
+    - name: "Using Icons"
+      href: using-icons.md
+    - name: "Icon Reference"
+      href: icon-reference.md
+      items: 
+      - name: "Icon Functions"
+        href: icon-functions.md
+        items: 
+        - name: "CopyIcon"
+          href: /windows/desktop/api/Winuser/nf-winuser-copyicon
+        - name: "CreateIcon"
+          href: /windows/desktop/api/Winuser/nf-winuser-createicon
+        - name: "CreateIconFromResource"
+          href: /windows/desktop/api/Winuser/nf-winuser-createiconfromresource
+        - name: "CreateIconFromResourceEx"
+          href: /windows/desktop/api/Winuser/nf-winuser-createiconfromresourceex
+        - name: "CreateIconIndirect"
+          href: /windows/desktop/api/Winuser/nf-winuser-createiconindirect
+        - name: "DestroyIcon"
+          href: /windows/desktop/api/Winuser/nf-winuser-destroyicon
+        - name: "DrawIcon"
+          href: /windows/desktop/api/Winuser/nf-winuser-drawicon
+        - name: "DrawIconEx"
+          href: /windows/desktop/api/Winuser/nf-winuser-drawiconex
+        - name: "DuplicateIcon"
+          href: /windows/desktop/api/Shellapi/nf-shellapi-duplicateicon
+        - name: "ExtractAssociatedIcon"
+          href: /windows/desktop/api/Shellapi/nf-shellapi-extractassociatedicona
+        - name: "ExtractIcon"
+          href: /windows/desktop/api/Shellapi/nf-shellapi-extracticona
+        - name: "ExtractIconEx"
+          href: /windows/desktop/api/Shellapi/nf-shellapi-extracticonexa
+        - name: "GetIconInfo"
+          href: /windows/desktop/api/Winuser/nf-winuser-geticoninfo
+        - name: "GetIconInfoEx"
+          href: /windows/desktop/api/Winuser/nf-winuser-geticoninfoexa
+        - name: "LoadIcon"
+          href: /windows/desktop/api/Winuser/nf-winuser-loadicona
+        - name: "LookupIconIdFromDirectory"
+          href: /windows/desktop/api/Winuser/nf-winuser-lookupiconidfromdirectory
+        - name: "LookupIconIdFromDirectoryEx"
+          href: /windows/desktop/api/Winuser/nf-winuser-lookupiconidfromdirectoryex
+        - name: "PrivateExtractIcons"
+          href: /windows/desktop/api/Winuser/nf-winuser-privateextracticonsa
+      - name: "Icon Structures"
+        href: icon-structures.md
+        items: 
+        - name: "ICONINFO"
+          href: /windows/win32/api/Winuser/ns-winuser-iconinfo
+        - name: "ICONINFOEX"
+          href: /windows/win32/api/Winuser/ns-winuser-iconinfoexa
+        - name: "ICONMETRICS"
+          href: /windows/win32/api/Winuser/ns-winuser-iconmetricsa
+  - name: "Fonts and text metrics"
+    href: fonts-and-font-metrics.md
+  - name: "Keyboard Accelerators"
+    href: keyboard-accelerators.md
+    items: 
+    - name: "About Keyboard Accelerators"
+      href: about-keyboard-accelerators.md
+    - name: "Using Keyboard Accelerators"
+      href: using-keyboard-accelerators.md
+    - name: "Keyboard Accelerator Reference"
+      href: keyboard-accelerator-reference.md
+      items: 
+      - name: "Keyboard Accelerator Functions"
+        href: keyboard-accelerator-functions.md
+        items: 
+        - name: "CopyAcceleratorTable"
+          href: /windows/desktop/api/Winuser/nf-winuser-copyacceleratortablea
+        - name: "CreateAcceleratorTable"
+          href: /windows/desktop/api/Winuser/nf-winuser-createacceleratortablea
+        - name: "DestroyAcceleratorTable"
+          href: /windows/desktop/api/Winuser/nf-winuser-destroyacceleratortable
+        - name: "LoadAccelerators"
+          href: /windows/desktop/api/Winuser/nf-winuser-loadacceleratorsa
+        - name: "TranslateAccelerator"
+          href: /windows/desktop/api/Winuser/nf-winuser-translateacceleratora
+      - name: "Keyboard Accelerator Messages"
+        href: keyboard-accelerator-messages.md
+        items: 
+        - name: "WM_CHANGEUISTATE"
+          href: wm-changeuistate.md
+        - name: "WM_INITMENU"
+          href: wm-initmenu.md
+        - name: "WM_QUERYUISTATE"
+          href: wm-queryuistate.md
+        - name: "WM_UPDATEUISTATE"
+          href: wm-updateuistate.md
+      - name: "Keyboard Accelerator Notifications"
+        href: keyboard-accelerator-notifications.md
+        items: 
+        - name: "WM_INITMENUPOPUP"
+          href: wm-initmenupopup.md
+        - name: "WM_MENUCHAR"
+          href: wm-menuchar.md
+        - name: "WM_MENUSELECT"
+          href: wm-menuselect.md
+        - name: "WM_SYSCHAR"
+          href: wm-syschar.md
+        - name: "WM_SYSCOMMAND"
+          href: wm-syscommand.md
+      - name: "Keyboard Accelerator Structures"
+        href: keyboard-accelerator-structures.md
+        items: 
+        - name: "ACCEL"
+          href: /windows/win32/api/Winuser/ns-winuser-accel
+  - name: "Menus"
+    href: menus.md
+    items: 
+    - name: "About Menus"
+      href: about-menus.md
+    - name: "Using Menus"
+      href: using-menus.md
+    - name: "Menu Reference"
+      href: menu-reference.md
+      items: 
+      - name: "Menu Functions"
+        href: menu-functions.md
+        items: 
+        - name: "AppendMenu"
+          href: /windows/desktop/api/Winuser/nf-winuser-appendmenua
+        - name: "CheckMenuItem"
+          href: /windows/desktop/api/Winuser/nf-winuser-checkmenuitem
+        - name: "CheckMenuRadioItem"
+          href: /windows/desktop/api/Winuser/nf-winuser-checkmenuradioitem
+        - name: "CreateMenu"
+          href: /windows/desktop/api/Winuser/nf-winuser-createmenu
+        - name: "CreatePopupMenu"
+          href: /windows/desktop/api/Winuser/nf-winuser-createpopupmenu
+        - name: "DeleteMenu"
+          href: /windows/desktop/api/Winuser/nf-winuser-deletemenu
+        - name: "DestroyMenu"
+          href: /windows/desktop/api/Winuser/nf-winuser-destroymenu
+        - name: "DrawMenuBar"
+          href: /windows/desktop/api/Winuser/nf-winuser-drawmenubar
+        - name: "EnableMenuItem"
+          href: /windows/desktop/api/Winuser/nf-winuser-enablemenuitem
+        - name: "EndMenu"
+          href: /windows/desktop/api/Winuser/nf-winuser-endmenu
+        - name: "GetMenu"
+          href: /windows/desktop/api/Winuser/nf-winuser-getmenu
+        - name: "GetMenuBarInfo"
+          href: /windows/desktop/api/Winuser/nf-winuser-getmenubarinfo
+        - name: "GetMenuCheckMarkDimensions"
+          href: /windows/desktop/api/Winuser/nf-winuser-getmenucheckmarkdimensions
+        - name: "GetMenuDefaultItem"
+          href: /windows/desktop/api/Winuser/nf-winuser-getmenudefaultitem
+        - name: "GetMenuInfo"
+          href: /windows/desktop/api/Winuser/nf-winuser-getmenuinfo
+        - name: "GetMenuItemCount"
+          href: /windows/desktop/api/Winuser/nf-winuser-getmenuitemcount
+        - name: "GetMenuItemID"
+          href: /windows/desktop/api/Winuser/nf-winuser-getmenuitemid
+        - name: "GetMenuItemInfo"
+          href: /windows/desktop/api/Winuser/nf-winuser-getmenuiteminfoa
+        - name: "GetMenuItemRect"
+          href: /windows/desktop/api/Winuser/nf-winuser-getmenuitemrect
+        - name: "GetMenuState"
+          href: /windows/desktop/api/Winuser/nf-winuser-getmenustate
+        - name: "GetMenuString"
+          href: /windows/desktop/api/Winuser/nf-winuser-getmenustringa
+        - name: "GetSubMenu"
+          href: /windows/desktop/api/Winuser/nf-winuser-getsubmenu
+        - name: "GetSystemMenu"
+          href: /windows/desktop/api/Winuser/nf-winuser-getsystemmenu
+        - name: "HiliteMenuItem"
+          href: /windows/desktop/api/Winuser/nf-winuser-hilitemenuitem
+        - name: "InsertMenu"
+          href: /windows/desktop/api/Winuser/nf-winuser-insertmenua
+        - name: "InsertMenuItem"
+          href: /windows/desktop/api/Winuser/nf-winuser-insertmenuitema
+        - name: "IsMenu"
+          href: /windows/desktop/api/Winuser/nf-winuser-ismenu
+        - name: "LoadMenu"
+          href: /windows/desktop/api/Winuser/nf-winuser-loadmenua
+        - name: "LoadMenuIndirect"
+          href: /windows/desktop/api/Winuser/nf-winuser-loadmenuindirecta
+        - name: "MenuItemFromPoint"
+          href: /windows/desktop/api/Winuser/nf-winuser-menuitemfrompoint
+        - name: "ModifyMenu"
+          href: /windows/desktop/api/Winuser/nf-winuser-modifymenua
+        - name: "RemoveMenu"
+          href: /windows/desktop/api/Winuser/nf-winuser-removemenu
+        - name: "SetMenu"
+          href: /windows/desktop/api/Winuser/nf-winuser-setmenu
+        - name: "SetMenuDefaultItem"
+          href: /windows/desktop/api/Winuser/nf-winuser-setmenudefaultitem
+        - name: "SetMenuInfo"
+          href: /windows/desktop/api/Winuser/nf-winuser-setmenuinfo
+        - name: "SetMenuItemBitmaps"
+          href: /windows/desktop/api/Winuser/nf-winuser-setmenuitembitmaps
+        - name: "SetMenuItemInfo"
+          href: /windows/desktop/api/Winuser/nf-winuser-setmenuiteminfoa
+        - name: "TrackPopupMenu"
+          href: /windows/desktop/api/Winuser/nf-winuser-trackpopupmenu
+        - name: "TrackPopupMenuEx"
+          href: /windows/desktop/api/Winuser/nf-winuser-trackpopupmenuex
+      - name: "Menu Notifications"
+        href: menu-notifications.md
+        items: 
+        - name: "WM_COMMAND"
+          href: wm-command.md
+        - name: "WM_CONTEXTMENU"
+          href: wm-contextmenu.md
+        - name: "WM_ENTERMENULOOP"
+          href: wm-entermenuloop.md
+        - name: "WM_EXITMENULOOP"
+          href: wm-exitmenuloop.md
+        - name: "WM_GETTITLEBARINFOEX"
+          href: wm-gettitlebarinfoex.md
+        - name: "WM_MENUCOMMAND"
+          href: wm-menucommand.md
+        - name: "WM_MENUDRAG"
+          href: wm-menudrag.md
+        - name: "WM_MENUGETOBJECT"
+          href: wm-menugetobject.md
+        - name: "WM_MENURBUTTONUP"
+          href: wm-menurbuttonup.md
+        - name: "WM_NEXTMENU"
+          href: wm-nextmenu.md
+        - name: "WM_UNINITMENUPOPUP"
+          href: wm-uninitmenupopup.md
+      - name: "Menu Structures"
+        href: menu-structures.md
+        items: 
+        - name: "MDINEXTMENU"
+          href: /windows/win32/api/Winuser/ns-winuser-mdinextmenu
+        - name: "MENUBARINFO"
+          href: /windows/win32/api/Winuser/ns-winuser-menubarinfo
+        - name: "MENUEX_TEMPLATE_HEADER"
+          href: menuex-template-header.md
+        - name: "MENUEX_TEMPLATE_ITEM"
+          href: menuex-template-item.md
+        - name: "MENUGETOBJECTINFO"
+          href: /windows/win32/api/Winuser/ns-winuser-menugetobjectinfo
+        - name: "MENUINFO"
+          href: /windows/win32/api/Winuser/ns-winuser-menuinfo
+        - name: "MENUITEMINFO"
+          href: /windows/win32/api/Winuser/ns-winuser-menuiteminfoa
+        - name: "MENUITEMTEMPLATE"
+          href: /windows/desktop/api/Winuser/ns-winuser-menuitemtemplate
+        - name: "MENUITEMTEMPLATEHEADER"
+          href: /windows/desktop/api/Winuser/ns-winuser-menuitemtemplateheader
+        - name: "TPMPARAMS"
+          href: /windows/win32/api/Winuser/ns-winuser-tpmparams
+  - name: "Strings"
+    href: strings.md
+    items: 
+    - name: "About Strings"
+      href: about-strings.md
+    - name: "About Strsafe.h"
+      href: strsafe-ovw.md
+    - name: "String Reference"
+      href: string-reference.md
+      items: 
+      - name: "String Functions"
+        href: string-functions.md
+        items: 
+        - name: "CharLower"
+          href: /windows/desktop/api/Winuser/nf-winuser-charlowera
+        - name: "CharLowerBuff"
+          href: /windows/desktop/api/Winuser/nf-winuser-charlowerbuffa
+        - name: "CharNext"
+          href: /windows/desktop/api/Winuser/nf-winuser-charnexta
+        - name: "CharNextExA"
+          href: /windows/desktop/api/Winuser/nf-winuser-charnextexa
+        - name: "CharPrev"
+          href: /windows/desktop/api/Winuser/nf-winuser-charpreva
+        - name: "CharPrevExA"
+          href: /windows/desktop/api/Winuser/nf-winuser-charprevexa
+        - name: "CharToOem"
+          href: /windows/desktop/api/Winuser/nf-winuser-chartooema
+        - name: "CharToOemBuff"
+          href: /windows/desktop/api/Winuser/nf-winuser-chartooembuffa
+        - name: "CharUpper"
+          href: /windows/desktop/api/Winuser/nf-winuser-charuppera
+        - name: "CharUpperBuff"
+          href: /windows/desktop/api/Winuser/nf-winuser-charupperbuffa
+        - name: "IsCharAlpha"
+          href: /windows/desktop/api/Winuser/nf-winuser-ischaralphaa
+        - name: "IsCharAlphaNumeric"
+          href: /windows/desktop/api/Winuser/nf-winuser-ischaralphanumerica
+        - name: "IsCharLower"
+          href: /windows/desktop/api/Winuser/nf-winuser-ischarlowera
+        - name: "IsCharUpper"
+          href: /windows/desktop/api/Winuser/nf-winuser-ischaruppera
+        - name: "LoadString"
+          href: /windows/desktop/api/Winuser/nf-winuser-loadstringa
+        - name: "lstrcat"
+          href: /windows/desktop/api/Winbase/nf-winbase-lstrcata
+        - name: "lstrcmp"
+          href: /windows/desktop/api/Winbase/nf-winbase-lstrcmpa
+        - name: "lstrcmpi"
+          href: /windows/desktop/api/Winbase/nf-winbase-lstrcmpia
+        - name: "lstrcpy"
+          href: /windows/desktop/api/Winbase/nf-winbase-lstrcpya
+        - name: "lstrcpyn"
+          href: /windows/desktop/api/Winbase/nf-winbase-lstrcpyna
+        - name: "lstrlen"
+          href: /windows/desktop/api/Winbase/nf-winbase-lstrlena
+        - name: "OemToChar"
+          href: /windows/desktop/api/Winuser/nf-winuser-oemtochara
+        - name: "OemToCharBuff"
+          href: /windows/desktop/api/Winuser/nf-winuser-oemtocharbuffa
+        - name: "wsprintf"
+          href: /windows/desktop/api/Winuser/nf-winuser-wsprintfa
+        - name: "wvsprintf"
+          href: /windows/desktop/api/Winuser/nf-winuser-wvsprintfa
+      - name: "Strsafe Functions"
+        href: string-overviews.md
+        items: 
+        - name: "StringCbCat"
+          href: /windows/desktop/api/Strsafe/nf-strsafe-stringcbcata
+        - name: "StringCbCatEx"
+          href: /windows/desktop/api/Strsafe/nf-strsafe-stringcbcatexa
+        - name: "StringCbCatN"
+          href: /windows/desktop/api/Strsafe/nf-strsafe-stringcbcatna
+        - name: "StringCbCatNEx"
+          href: /windows/desktop/api/Strsafe/nf-strsafe-stringcbcatnexa
+        - name: "StringCbCopy"
+          href: /windows/desktop/api/Strsafe/nf-strsafe-stringcbcopya
+        - name: "StringCbCopyEx"
+          href: /windows/desktop/api/Strsafe/nf-strsafe-stringcbcopyexa
+        - name: "StringCbCopyN"
+          href: /windows/desktop/api/Strsafe/nf-strsafe-stringcbcopyna
+        - name: "StringCbCopyNEx"
+          href: /windows/desktop/api/Strsafe/nf-strsafe-stringcbcopynexa
+        - name: "StringCbGets"
+          href: /windows/desktop/api/Strsafe/nf-strsafe-stringcbgetsa
+        - name: "StringCbGetsEx"
+          href: /windows/desktop/api/Strsafe/nf-strsafe-stringcbgetsexa
+        - name: "StringCbLength"
+          href: /windows/desktop/api/Strsafe/nf-strsafe-stringcblengtha
+        - name: "StringCbPrintf_l"
+          href: /windows/desktop/api/StrSafe/nf-strsafe-stringcbprintf_la
+        - name: "StringCbPrintf_lEx"
+          href: /windows/desktop/api/StrSafe/nf-strsafe-stringcbprintf_lexa
+        - name: "StringCbPrintf"
+          href: /windows/desktop/api/Strsafe/nf-strsafe-stringcbprintfa
+        - name: "StringCbPrintfEx"
+          href: /windows/desktop/api/Strsafe/nf-strsafe-stringcbprintfexa
+        - name: "StringCbVPrintf_l"
+          href: /windows/desktop/api/StrSafe/nf-strsafe-stringcbvprintf_la
+        - name: "StringCbVPrintf_lEx"
+          href: /windows/desktop/api/StrSafe/nf-strsafe-stringcbvprintf_lexa
+        - name: "StringCbVPrintf"
+          href: /windows/desktop/api/Strsafe/nf-strsafe-stringcbvprintfa
+        - name: "StringCbVPrintfEx"
+          href: /windows/desktop/api/Strsafe/nf-strsafe-stringcbvprintfexa
+        - name: "StringCchCat"
+          href: /windows/desktop/api/Strsafe/nf-strsafe-stringcchcata
+        - name: "StringCchCatEx"
+          href: /windows/desktop/api/Strsafe/nf-strsafe-stringcchcatexa
+        - name: "StringCchCatN"
+          href: /windows/desktop/api/Strsafe/nf-strsafe-stringcchcatna
+        - name: "StringCchCatNEx"
+          href: /windows/desktop/api/Strsafe/nf-strsafe-stringcchcatnexa
+        - name: "StringCchCopy"
+          href: /windows/desktop/api/Strsafe/nf-strsafe-stringcchcopya
+        - name: "StringCchCopyEx"
+          href: /windows/desktop/api/Strsafe/nf-strsafe-stringcchcopyexa
+        - name: "StringCchCopyN"
+          href: /windows/desktop/api/Strsafe/nf-strsafe-stringcchcopyna
+        - name: "StringCchCopyNEx"
+          href: /windows/desktop/api/Strsafe/nf-strsafe-stringcchcopynexa
+        - name: "StringCchGets"
+          href: /windows/desktop/api/Strsafe/nf-strsafe-stringcchgetsa
+        - name: "StringCchGetsEx"
+          href: /windows/desktop/api/Strsafe/nf-strsafe-stringcchgetsexa
+        - name: "StringCchLength"
+          href: /windows/desktop/api/Strsafe/nf-strsafe-stringcchlengtha
+        - name: "StringCchPrintf_l"
+          href: /windows/desktop/api/StrSafe/nf-strsafe-stringcchprintf_la
+        - name: "StringCchPrintf_lEx"
+          href: /windows/desktop/api/StrSafe/nf-strsafe-stringcchprintf_lexa
+        - name: "StringCchPrintf"
+          href: /windows/desktop/api/Strsafe/nf-strsafe-stringcchprintfa
+        - name: "StringCchPrintfEx"
+          href: /windows/desktop/api/Strsafe/nf-strsafe-stringcchprintfexa
+        - name: "StringCchVPrintf_l"
+          href: /windows/desktop/api/StrSafe/nf-strsafe-stringcchvprintf_la
+        - name: "StringCchVPrintf_lEx"
+          href: /windows/desktop/api/StrSafe/nf-strsafe-stringcchvprintf_lexa
+        - name: "StringCchVPrintf"
+          href: /windows/desktop/api/Strsafe/nf-strsafe-stringcchvprintfa
+        - name: "StringCchVPrintfEx"
+          href: /windows/desktop/api/Strsafe/nf-strsafe-stringcchvprintfexa
+        - name: "UnalignedStringCbLength"
+          href: /previous-versions/windows/desktop/legacy/hh305643(v=vs.85)
+        - name: "UnalignedStringCchLength"
+          href: /previous-versions/windows/desktop/legacy/hh305644(v=vs.85)
+  - name: "Version Information"
+    href: version-information.md
+    items: 
+    - name: "About Version Information"
+      href: about-version-information.md
+    - name: "Using Version Information"
+      href: using-version-information.md
+    - name: "Version Information Reference"
+      href: version-information-reference.md
+      items: 
+      - name: "Version Information Functions"
+        href: version-information-functions.md
+        items: 
+        - name: "GetFileVersionInfo"
+          href: /windows/desktop/api/Winver/nf-winver-getfileversioninfoa
+        - name: "GetFileVersionInfoEx"
+          href: /windows/desktop/api/Winver/nf-winver-getfileversioninfoexa
+        - name: "GetFileVersionInfoSize"
+          href: /windows/desktop/api/Winver/nf-winver-getfileversioninfosizea
+        - name: "GetFileVersionInfoSizeEx"
+          href: /windows/desktop/api/Winver/nf-winver-getfileversioninfosizeexa
+        - name: "VerFindFile"
+          href: /windows/desktop/api/Winver/nf-winver-verfindfilea
+        - name: "VerInstallFile"
+          href: /windows/desktop/api/Winver/nf-winver-verinstallfilea
+        - name: "VerLanguageName"
+          href: /windows/desktop/api/Winver/nf-winver-verlanguagenamea
+        - name: "VerQueryValue"
+          href: /windows/desktop/api/Winver/nf-winver-verqueryvaluea
+      - name: "Version Information Structures"
+        href: version-information-structures.md
+        items: 
+        - name: "String"
+          href: string-str.md
+        - name: "StringFileInfo"
+          href: stringfileinfo.md
+        - name: "StringTable"
+          href: stringtable.md
+        - name: "Var"
+          href: var-str.md
+        - name: "VarFileInfo"
+          href: varfileinfo.md
+        - name: "VS_FIXEDFILEINFO"
+          href: /windows/win32/api/VerRsrc/ns-verrsrc-vs_fixedfileinfo
+        - name: "VS_VERSIONINFO"
+          href: vs-versioninfo.md
+  - name: "Resource Compiler"
+    href: resource-compiler.md
+    items: 
+    - name: "About Resource Files"
+      href: about-resource-files.md
+      items: 
+      - name: "Comments"
+        href: comments.md
+      - name: "Predefined Macros"
+        href: predefined-macros.md
+      - name: "Preprocessor Directives"
+        href: preprocessor-directives.md
+        items: 
+        - name: "#define"
+          href: -define.md
+        - name: "#elif"
+          href: -elif.md
+        - name: "#else"
+          href: -else.md
+        - name: "#endif"
+          href: -endif.md
+        - name: "#if"
+          href: -if.md
+        - name: "#ifdef"
+          href: -ifdef.md
+        - name: "#ifndef"
+          href: -ifndef.md
+        - name: "#include"
+          href: -include.md
+        - name: "#undef"
+          href: -undef.md
+      - name: "Preprocessor Operators"
+        href: preprocessor-operators.md
+      - name: "Pragma Directives"
+        href: pragma-directives.md
+      - name: "Resource-Definition Statements"
+        href: resource-definition-statements.md
+        items: 
+        - name: "ACCELERATORS Resource"
+          href: accelerators-resource.md
+        - name: "AUTO3STATE Control"
+          href: auto3state-control.md
+        - name: "AUTOCHECKBOX Control"
+          href: autocheckbox-control.md
+        - name: "AUTORADIOBUTTON Control"
+          href: autoradiobutton-control.md
+        - name: "BITMAP Resource"
+          href: bitmap-resource.md
+        - name: "CAPTION Statement"
+          href: caption-statement.md
+        - name: "CHARACTERISTICS Statement"
+          href: characteristics-statement.md
+        - name: "CHECKBOX Control"
+          href: checkbox-control.md
+        - name: "CLASS Statement"
+          href: class-statement.md
+        - name: "COMBOBOX Control"
+          href: combobox-control.md
+        - name: "CONTROL Control"
+          href: control-control.md
+        - name: "CTEXT Control"
+          href: ctext-control.md
+        - name: "CURSOR Resource"
+          href: cursor-resource.md
+        - name: "DEFPUSHBUTTON Control"
+          href: defpushbutton-control.md
+        - name: "DIALOG Resource"
+          href: dialog-resource.md
+        - name: "DIALOGEX Resource"
+          href: dialogex-resource.md
+        - name: "EDITTEXT Control"
+          href: edittext-control.md
+        - name: "EXSTYLE Statement"
+          href: exstyle-statement.md
+        - name: "FONT Resource"
+          href: font-resource.md
+        - name: "FONT Statement"
+          href: font-statement.md
+        - name: "GROUPBOX Control"
+          href: groupbox-control.md
+        - name: "HTML Resource"
+          href: html-resource.md
+        - name: "ICON Resource"
+          href: icon-resource.md
+        - name: "ICON Control"
+          href: icon-control.md
+        - name: "LANGUAGE Statement"
+          href: language-statement.md
+        - name: "LISTBOX Control"
+          href: listbox-control.md
+        - name: "LTEXT Control"
+          href: ltext-control.md
+        - name: "MENU Resource"
+          href: menu-resource.md
+        - name: "MENU Statement"
+          href: menu-statement.md
+        - name: "MENUEX Resource"
+          href: menuex-resource.md
+        - name: "MENUITEM Statement"
+          href: menuitem-statement.md
+        - name: "MESSAGETABLE Resource"
+          href: messagetable-resource.md
+        - name: "POPUP Resource"
+          href: popup-resource.md
+        - name: "PUSHBOX Control"
+          href: pushbox-control.md
+        - name: "PUSHBUTTON Control"
+          href: pushbutton-control.md
+        - name: "RADIOBUTTON Control"
+          href: radiobutton-control.md
+        - name: "RCDATA Resource"
+          href: rcdata-resource.md
+        - name: "RTEXT Control"
+          href: rtext-control.md
+        - name: "SCROLLBAR Control"
+          href: scrollbar-control.md
+        - name: "STATE3 Control"
+          href: state3-control.md
+        - name: "STRINGTABLE Resource"
+          href: stringtable-resource.md
+        - name: "STYLE Statement"
+          href: style-statement.md
+        - name: "User-Defined Resource"
+          href: user-defined-resource.md
+        - name: "VERSION Statement"
+          href: version-statement.md
+        - name: "VERSIONINFO Resource"
+          href: versioninfo-resource.md
+          items: 
+          - name: "StringFileInfo Block"
+            href: stringfileinfo-block.md
+          - name: "VarFileInfo Block"
+            href: varfileinfo-block.md
+        - name: "Common Control Parameters"
+          href: common-control-parameters.md
+        - name: "Common Resource Attributes"
+          href: common-resource-attributes.md
+      - name: "Sample Resource-Definition File"
+        href: sample-resource-definition-file.md
+    - name: "Using RC (The RC Command Line)"
+      href: using-rc-the-rc-command-line-.md
+      items: 
+      - name: "Defining Names for the Preprocessor"
+        href: defining-names-for-the-preprocessor.md
+      - name: "Renaming the Compiled Resource File"
+        href: renaming-the-compiled-resource-file.md
+      - name: "Searching for Files"
+        href: searching-for-files.md
+      - name: "Displaying Progress Messages"
+        href: displaying-progress-messages.md
+      - name: "RC Diagnostic Messages"
+        href: rc-diagnostic-messages.md
+        items: 
+        - name: "A"
+          href: a.md
+        - name: "B"
+          href: b.md
+        - name: "C"
+          href: c.md
+        - name: "E"
+          href: e.md
+        - name: "F"
+          href: f.md
+        - name: "I"
+          href: i.md
+        - name: "N"
+          href: n.md
+        - name: "O"
+          href: o.md
+        - name: "R"
+          href: r.md
+        - name: "T"
+          href: t.md
+        - name: "U"
+          href: u.md
+        - name: "V"
+          href: v.md
+        - name: "W"
+          href: w.md
+  - name: "PRI API reference"
+    href: pri-indexing-reference.md
+    items: 
+    - name: "MrmCreateConfig function"
+      href: mrmcreateconfig.md
+    - name: "MrmCreateConfigInMemory function"
+      href: mrmcreateconfiginmemory.md
+    - name: "MrmCreateResourceFile function"
+      href: mrmcreateresourcefile.md
+    - name: "MrmCreateResourceFileInMemory function"
+      href: mrmcreateresourcefileinmemory.md
+    - name: "MrmCreateResourceIndexer function"
+      href: mrmcreateresourceindexer.md
+    - name: "MrmCreateResourceIndexerFromPreviousPriData function"
+      href: mrmcreateresourceindexerfrompreviouspridata-.md
+    - name: "MrmCreateResourceIndexerFromPreviousPriFile function"
+      href: mrmcreateresourceindexerfrompreviousprifile.md
+    - name: "MrmCreateResourceIndexerFromPreviousSchemaData function"
+      href: mrmcreateresourceindexerfrompreviousschemadata.md
+    - name: "MrmCreateResourceIndexerFromPreviousSchemaFile function"
+      href: mrmcreateresourceindexerfrompreviousschemafile.md
+    - name: "MrmDestroyIndexerAndMessages function"
+      href: mrmdestroyindexerandmessages.md
+    - name: "MrmDumpPriFile function"
+      href: mrmdumpprifile.md
+    - name: "MrmDumpPriFileInMemory function"
+      href: mrmdumpprifileinmemory.md
+    - name: "MrmDumpPriDataInMemory function"
+      href: mrmdumppridatainmemory.md
+    - name: "MrmFreeMemory function"
+      href: mrmfreememory.md
+    - name: "MrmIndexEmbeddedData function"
+      href: mrmindexembeddeddata.md
+    - name: "MrmIndexFile function"
+      href: mrmindexfile.md
+    - name: "MrmIndexFileAutoQualifiers function"
+      href: mrmindexfileautoqualifiers.md
+    - name: "MrmIndexResourceContainerAutoQualifiers function"
+      href: mrmindexresourcecontainerautoqualifiers.md
+    - name: "MrmIndexString function"
+      href: mrmindexstring.md
+    - name: "MrmPeekResourceIndexerMessages function"
+      href: mrmpeekresourceindexermessages.md
+    - name: "MrmResourceIndexerHandle structure"
+      href: mrmresourceindexerhandle.md
+    - name: "MrmResourceIndexerMessage structure"
+      href: mrmresourceindexermessage.md
+    - name: "MrmDumpType enumeration"
+      href: mrmdumptype.md
+    - name: "MrmPackagingMode enumeration"
+      href: mrmpackagingmode.md
+    - name: "MrmPackagingOptions enumeration"
+      href: mrmpackagingoptions.md
+    - name: "MrmPlatformVersion enumeration"
+      href: mrmplatformversion.md
+    - name: "MrmResourceIndexerMessageSeverity enumeration"
+      href: mrmresourceindexermessageseverity.md

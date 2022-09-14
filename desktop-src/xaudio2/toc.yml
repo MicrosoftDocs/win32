@@ -1,0 +1,483 @@
+- name: "XAudio2 APIs"
+  href: xaudio2-apis-portal.md
+  items: 
+  - name: "Programming Guide"
+    href: programming-guide.md
+    items: 
+    - name: "XAudio2 Introduction"
+      href: xaudio2-introduction.md
+    - name: "Common Audio Concepts"
+      href: common-audio-concepts.md
+      items: 
+      - name: "Coordinates of 3D Space"
+        href: coordinates-of-3d-space.md
+      - name: "Perception of Sound Positions"
+        href: perception-of-sound-positions.md
+      - name: "Sound Cones"
+        href: sound-cones.md
+    - name: "Getting Started"
+      href: getting-started.md
+      items: 
+      - name: "XAudio2 Key Concepts"
+        href: xaudio2-key-concepts.md
+      - name: "XAudio2 Versions"
+        href: xaudio2-versions.md
+        items:
+        - name: "Developer guide for redistributable version of XAudio 2.9"
+          href: xaudio2-redistributable.md
+      - name: "How to: Initialize XAudio2"
+        href: how-to--initialize-xaudio2.md
+      - name: "Resource Interchange File Format (RIFF)"
+        href: resource-interchange-file-format--riff-.md
+      - name: "How to: Load Audio Data Files in XAudio2"
+        href: how-to--load-audio-data-files-in-xaudio2.md
+      - name: "How to: Play a Sound with XAudio2"
+        href: how-to--play-a-sound-with-xaudio2.md
+    - name: "Voices"
+      href: voices.md
+      items: 
+      - name: "XAudio2 Voices"
+        href: xaudio2-voices.md
+      - name: "How to: Use Submix Voices"
+        href: how-to--use-submix-voices.md
+      - name: "XAudio2 Sample Rate Conversions"
+        href: xaudio2-sample-rate-conversions.md
+      - name: "XAudio2 Default Channel Mapping"
+        href: xaudio2-default-channel-mapping.md
+      - name: "Volume and Pitch Control"
+        href: volume-and-pitch-control.md
+        items: 
+        - name: "XAudio2 Volume and Pitch Control"
+          href: xaudio2-volume-and-pitch-control.md
+        - name: "How to: Change Voice Pitch"
+          href: how-to--change-voice-pitch.md
+        - name: "How to: Change Voice Volume"
+          href: how-to--change-voice-volume.md
+        - name: "How to: Pan a Sound"
+          href: how-to--pan-a-sound.md
+    - name: "Callbacks"
+      href: callbacks.md
+      items: 
+      - name: "XAudio2 Callbacks"
+        href: xaudio2-callbacks.md
+      - name: "How to: Use Source Voice Callbacks"
+        href: how-to--use-source-voice-callbacks.md
+      - name: "How to: Use Engine Callbacks"
+        href: how-to--use-engine-callbacks.md
+    - name: "Audio Graphs"
+      href: audio-graphs.md
+      items: 
+      - name: "XAudio2 Audio Graph"
+        href: xaudio2-audio-graph.md
+      - name: "How to: Build a Basic Audio Processing Graph"
+        href: how-to--build-a-basic-audio-processing-graph.md
+      - name: "How to: Dynamically Add or Remove Voices From an Audio Graph"
+        href: how-to--dynamically-add-or-remove-voices-from-an-audio-graph.md
+    - name: "Audio Effects"
+      href: audio-effects.md
+      items: 
+      - name: "XAudio2 Audio Effects"
+        href: xaudio2-audio-effects.md
+      - name: "How to: Create an Effect Chain"
+        href: how-to--create-an-effect-chain.md
+      - name: "XAPO Overview"
+        href: xapo-overview.md
+      - name: "How to: Create an XAPO"
+        href: how-to--create-an-xapo.md
+      - name: "How to: Add Run-time Parameter Support to an XAPO"
+        href: how-to--add-run-time-parameter-support-to-an-xapo.md
+      - name: "How to: Use an XAPO in XAudio2"
+        href: how-to--use-an-xapo-in-xaudio2.md
+      - name: "XAPOFX Overview"
+        href: xapofx-overview.md
+      - name: "How to: Use XAPOFX in XAudio2"
+        href: how-to--use-xapofx-in-xaudio2.md
+    - name: "Streaming Audio Data"
+      href: streaming-audio-data.md
+      items: 
+      - name: "XAudio2 Streaming Audio Data"
+        href: xaudio2-streaming-audio-data.md
+      - name: "How to: Stream a Sound from Disk"
+        href: how-to--stream-a-sound-from-disk.md
+    - name: "X3DAudio"
+      href: x3daudio.md
+      items: 
+      - name: "X3DAudio Overview"
+        href: x3daudio-overview.md
+      - name: "How to: Integrate X3DAudio with XAudio2"
+        href: how-to--integrate-x3daudio-with-xaudio2.md
+    - name: "Operation Sets"
+      href: operation-sets.md
+      items: 
+      - name: "XAudio2 Operation Sets"
+        href: xaudio2-operation-sets.md
+      - name: "How to: Group Audio Methods as an Operation Set"
+        href: how-to--group-audio-methods-as-an-operation-set.md
+    - name: "Debugging Facilities"
+      href: debugging-facilities.md
+      items: 
+      - name: "XAudio2 Debugging Facilities"
+        href: xaudio2-debugging-facilities.md
+      - name: "Debugging Audio Glitches in XAudio2"
+        href: debugging-audio-glitches-in-xaudio2.md
+    - name: "ADPCM Overview"
+      href: adpcm-overview.md
+  - name: "Programming Reference"
+    href: programming-reference.md
+    items: 
+    - name: "Classes"
+      href: classes.md
+      items: 
+      - name: "CXAPOBase"
+        href: /windows/desktop/api/XAPOBase/nl-xapobase-cxapobase
+        items: 
+        - name: "CXAPOBase Members"
+          href: cxapobase-members.md
+        - name: "CXAPOBase method"
+          href: /windows/desktop/api/xapobase/nf-xapobase-cxapobase-cxapobase
+        - name: "GetRegistrationPropertiesInternal method"
+          href: /windows/desktop/api/xapobase/nf-xapobase-cxapobase-getregistrationpropertiesinternal
+        - name: "IsLocked method"
+          href: /windows/desktop/api/xapobase/nf-xapobase-cxapobase-islocked
+        - name: "ProcessThru method"
+          href: /windows/desktop/api/xapobase/nf-xapobase-cxapobase-processthru
+        - name: "ValidateFormatDefault method"
+          href: /windows/desktop/api/xapobase/nf-xapobase-cxapobase-validateformatdefault
+        - name: "ValidateFormatPair method"
+          href: /windows/desktop/api/xapobase/nf-xapobase-cxapobase-validateformatpair
+      - name: "CXAPOParametersBase"
+        href: /windows/desktop/api/XAPOBase/nl-xapobase-cxapoparametersbase
+        items: 
+        - name: "CXAPOParametersBase Members"
+          href: cxapoparametersbase-members.md
+        - name: "CXAPOParametersBase method"
+          href: /windows/desktop/api/xapobase/nf-xapobase-cxapoparametersbase-cxapoparametersbase
+        - name: "BeginProcess method"
+          href: /windows/desktop/api/xapobase/nf-xapobase-cxapoparametersbase-beginprocess
+        - name: "EndProcess method"
+          href: /windows/desktop/api/xapobase/nf-xapobase-cxapoparametersbase-endprocess
+        - name: "OnSetParameters method"
+          href: /windows/desktop/api/xapobase/nf-xapobase-cxapoparametersbase-onsetparameters
+        - name: "ParametersChanged method"
+          href: /windows/desktop/api/xapobase/nf-xapobase-cxapoparametersbase-parameterschanged
+    - name: "Constants"
+      href: constants.md
+      items: 
+      - name: "FXECHO Constants"
+        href: fxecho-constants.md
+      - name: "FXEQ Constants"
+        href: fxeq-constants.md
+      - name: "FXMASTERINGLIMIT Constants"
+        href: fxmasteringlimit-constants.md
+      - name: "FXREVERB Constants"
+        href: fxreverb-constants.md
+      - name: "XAudio2 Boundary Values and Flags"
+        href: xaudio2-boundary-values-and-flags.md
+      - name: "XAudio2 Error Codes"
+        href: xaudio2-error-codes.md
+      - name: "XAUDIO2_PROCESSOR"
+        href: uint32-xaudio2-processor.md
+      - name: "XAUDIO2FX_I3DL2_PRESET"
+        href: xaudio2fx-i3dl2-preset.md
+      - name: "XAUDIO2FX_REVERB_DEFAULT"
+        href: xaudio2fx-reverb-default.md
+      - name: "XAUDIO2FX_REVERB_MAX"
+        href: xaudio2fx-reverb-max.md
+      - name: "XAUDIO2FX_REVERB_MIN"
+        href: xaudio2fx-reverb-min.md
+    - name: "Enumerations"
+      href: enumerations.md
+      items: 
+      - name: "HrtfDirectivityType"
+        href: /windows/desktop/api/HrtfApoApi/ne-hrtfapoapi-hrtfdirectivitytype
+      - name: "HrtfDistanceDecayType"
+        href: /windows/desktop/api/HrtfApoApi/ne-hrtfapoapi-hrtfdistancedecaytype
+      - name: "HrtfEnvironment"
+        href: /windows/desktop/api/HrtfApoApi/ne-hrtfapoapi-hrtfenvironment
+      - name: "XAUDIO2_FILTER_TYPE"
+        href: /windows/desktop/api/xaudio2/ne-xaudio2-xaudio2_filter_type
+      - name: "XAPO_BUFFER_FLAGS"
+        href: /windows/desktop/api/xapo/ne-xapo-xapo_buffer_flags
+    - name: "Functions"
+      href: functions.md
+      items: 
+      - name: "CreateFX"
+        href: /windows/desktop/api/XAPOFX/nf-xapofx-createfx
+      - name: "CreateHrtfApo"
+        href: /windows/desktop/api/HrtfApoApi/nf-hrtfapoapi-createhrtfapo
+      - name: "ReverbConvertI3DL2ToNative"
+        href: /windows/desktop/api/xaudio2fx/nf-xaudio2fx-reverbconverti3dl2tonative
+      - name: "X3DAudioCalculate"
+        href: /windows/desktop/api/x3daudio/nf-x3daudio-x3daudiocalculate
+      - name: "X3DAudioInitialize"
+        href: /windows/desktop/api/x3daudio/nf-x3daudio-x3daudioinitialize
+      - name: "XAudio2AmplitudeRatioToDecibels"
+        href: /windows/desktop/api/xaudio2/nf-xaudio2-xaudio2amplituderatiotodecibels
+      - name: "XAudio2Create"
+        href: /windows/desktop/api/xaudio2/nf-xaudio2-xaudio2create
+      - name: "XAudio2CreateReverb"
+        href: /windows/desktop/api/xaudio2fx/nf-xaudio2fx-xaudio2createreverb
+      - name: "XAudio2CreateVolumeMeter"
+        href: /windows/desktop/api/xaudio2fx/nf-xaudio2fx-xaudio2createvolumemeter
+      - name: "XAudio2CutoffFrequencyToOnePoleCoefficient"
+        href: /windows/desktop/api/xaudio2/nf-xaudio2-xaudio2cutofffrequencytoonepolecoefficient
+      - name: "XAudio2CutoffFrequencyToRadians"
+        href: /windows/desktop/api/xaudio2/nf-xaudio2-xaudio2cutofffrequencytoradians
+      - name: "XAudio2DecibelsToAmplitudeRatio"
+        href: /windows/desktop/api/xaudio2/nf-xaudio2-xaudio2decibelstoamplituderatio
+      - name: "XAudio2FrequencyRatioToSemitones"
+        href: /windows/desktop/api/xaudio2/nf-xaudio2-xaudio2frequencyratiotosemitones
+      - name: "XAudio2RadiansToCutoffFrequency"
+        href: /windows/desktop/api/xaudio2/nf-xaudio2-xaudio2radianstocutofffrequency
+      - name: "XAudio2SemitonesToFrequencyRatio"
+        href: /windows/desktop/api/xaudio2/nf-xaudio2-xaudio2semitonestofrequencyratio
+    - name: "Interfaces"
+      href: interfaces.md
+      items: 
+      - name: "IXAudio2"
+        href: /windows/desktop/api/xaudio2/nn-xaudio2-ixaudio2
+        items: 
+        - name: "AddRef method"
+          href: /windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2-addref
+        - name: "CommitChanges method"
+          href: /windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2-commitchanges
+        - name: "CreateMasteringVoice method"
+          href: /windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2-createmasteringvoice
+        - name: "CreateSourceVoice method"
+          href: /windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2-createsourcevoice
+        - name: "CreateSubmixVoice method"
+          href: /windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2-createsubmixvoice
+        - name: "GetPerformanceData method"
+          href: /windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2-getperformancedata
+        - name: "QueryInterface method"
+          href: /windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2-queryinterface
+        - name: "RegisterForCallbacks method"
+          href: /windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2-registerforcallbacks
+        - name: "Release method"
+          href: /windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2-release
+        - name: "SetDebugConfiguration method"
+          href: /windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2-setdebugconfiguration
+        - name: "StartEngine method"
+          href: /windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2-startengine
+        - name: "StopEngine method"
+          href: /windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2-stopengine
+        - name: "UnregisterForCallbacks method"
+          href: /windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2-unregisterforcallbacks
+      - name: "IXAudio2Voice"
+        href: /windows/desktop/api/xaudio2/nn-xaudio2-ixaudio2voice
+        items: 
+        - name: "DestroyVoice method"
+          href: /windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voice-destroyvoice
+        - name: "DisableEffect method"
+          href: /windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voice-disableeffect
+        - name: "EnableEffect method"
+          href: /windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voice-enableeffect
+        - name: "GetChannelVolumes method"
+          href: /windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voice-getchannelvolumes
+        - name: "GetEffectParameters method"
+          href: /windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voice-geteffectparameters
+        - name: "GetEffectState method"
+          href: /windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voice-geteffectstate
+        - name: "GetFilterParameters method"
+          href: /windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voice-getfilterparameters
+        - name: "GetOutputFilterParameters method"
+          href: /windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voice-getoutputfilterparameters
+        - name: "GetOutputMatrix method"
+          href: /windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voice-getoutputmatrix
+        - name: "GetVoiceDetails method"
+          href: /windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voice-getvoicedetails
+        - name: "GetVolume method"
+          href: /windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voice-getvolume
+        - name: "SetChannelVolumes method"
+          href: /windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voice-setchannelvolumes
+        - name: "SetEffectChain method"
+          href: /windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voice-seteffectchain
+        - name: "SetEffectParameters method"
+          href: /windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voice-seteffectparameters
+        - name: "SetFilterParameters method"
+          href: /windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voice-setfilterparameters
+        - name: "SetOutputFilterParameters method"
+          href: /windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voice-setoutputfilterparameters
+        - name: "SetOutputMatrix method"
+          href: /windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voice-setoutputmatrix
+        - name: "SetOutputVoices method"
+          href: /windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voice-setoutputvoices
+        - name: "SetVolume method"
+          href: /windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voice-setvolume
+      - name: "IXAudio2SourceVoice"
+        href: /windows/desktop/api/xaudio2/nn-xaudio2-ixaudio2sourcevoice
+        items: 
+        - name: "Discontinuity method"
+          href: /windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2sourcevoice-discontinuity
+        - name: "ExitLoop method"
+          href: /windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2sourcevoice-exitloop
+        - name: "FlushSourceBuffers method"
+          href: /windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2sourcevoice-flushsourcebuffers
+        - name: "GetFrequencyRatio method"
+          href: /windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2sourcevoice-getfrequencyratio
+        - name: "GetState method"
+          href: /windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2sourcevoice-getstate
+        - name: "SetFrequencyRatio method"
+          href: /windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2sourcevoice-setfrequencyratio
+        - name: "SetSourceSampleRate method"
+          href: /windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2sourcevoice-setsourcesamplerate
+        - name: "Start method"
+          href: /windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2sourcevoice-start
+        - name: "Stop method"
+          href: /windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2sourcevoice-stop
+        - name: "SubmitSourceBuffer method"
+          href: /windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2sourcevoice-submitsourcebuffer
+      - name: "IXAudio2SubmixVoice"
+        href: /windows/desktop/api/xaudio2/nn-xaudio2-ixaudio2submixvoice
+      - name: "IXAudio2MasteringVoice"
+        href: /windows/desktop/api/xaudio2/nn-xaudio2-ixaudio2masteringvoice
+        items: 
+        - name: "GetChannelMask method"
+          href: /windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2masteringvoice-getchannelmask
+      - name: "IXAudio2EngineCallback"
+        href: /windows/desktop/api/xaudio2/nn-xaudio2-ixaudio2enginecallback
+        items: 
+        - name: "OnCriticalError method"
+          href: /windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2enginecallback-oncriticalerror
+        - name: "OnProcessingPassEnd method"
+          href: /windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2enginecallback-onprocessingpassend
+        - name: "OnProcessingPassStart method"
+          href: /windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2enginecallback-onprocessingpassstart
+      - name: "IXAudio2VoiceCallback"
+        href: /windows/desktop/api/xaudio2/nn-xaudio2-ixaudio2voicecallback
+        items: 
+        - name: "OnBufferEnd method"
+          href: /windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voicecallback-onbufferend
+        - name: "OnBufferStart method"
+          href: /windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voicecallback-onbufferstart
+        - name: "OnLoopEnd method"
+          href: /windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voicecallback-onloopend
+        - name: "OnStreamEnd method"
+          href: /windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voicecallback-onstreamend
+        - name: "OnVoiceError method"
+          href: /windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voicecallback-onvoiceerror
+        - name: "OnVoiceProcessingPassEnd method"
+          href: /windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voicecallback-onvoiceprocessingpassend
+        - name: "OnVoiceProcessingPassStart method"
+          href: /windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voicecallback-onvoiceprocessingpassstart
+      - name: "IXAPO"
+        href: /windows/desktop/api/XAPO/nn-xapo-ixapo
+        items: 
+        - name: "CalcInputFrames method"
+          href: /windows/desktop/api/xapo/nf-xapo-ixapo-calcinputframes
+        - name: "CalcOutputFrames method"
+          href: /windows/desktop/api/xapo/nf-xapo-ixapo-calcoutputframes
+        - name: "GetRegistrationProperties method"
+          href: /windows/desktop/api/xapo/nf-xapo-ixapo-getregistrationproperties
+        - name: "Initialize method"
+          href: /windows/desktop/api/xapo/nf-xapo-ixapo-initialize
+        - name: "IsInputFormatSupported method"
+          href: /windows/desktop/api/xapo/nf-xapo-ixapo-isinputformatsupported
+        - name: "IsOutputFormatSupported method"
+          href: /windows/desktop/api/xapo/nf-xapo-ixapo-isoutputformatsupported
+        - name: "LockForProcess method"
+          href: /windows/desktop/api/xapo/nf-xapo-ixapo-lockforprocess
+        - name: "Process method"
+          href: /windows/desktop/api/xapo/nf-xapo-ixapo-process
+        - name: "Reset method"
+          href: /windows/desktop/api/xapo/nf-xapo-ixapo-reset
+        - name: "UnlockForProcess method"
+          href: /windows/desktop/api/xapo/nf-xapo-ixapo-unlockforprocess
+      - name: "IXAPOParameters"
+        href: /windows/desktop/api/XAPO/nn-xapo-ixapoparameters
+        items: 
+        - name: "GetParameters method"
+          href: /windows/desktop/api/xapo/nf-xapo-ixapoparameters-getparameters
+        - name: "SetParameters method"
+          href: /windows/desktop/api/xapo/nf-xapo-ixapoparameters-setparameters
+      - name: "IXAPOHrtfParameters"
+        href: /windows/desktop/api/hrtfapoapi/nn-hrtfapoapi-ixapohrtfparameters
+        items: 
+        - name: "SetEnvironment method"
+          href: /windows/desktop/api/hrtfapoapi/nf-hrtfapoapi-ixapohrtfparameters-setenvironment
+        - name: "SetSourceGain method"
+          href: /windows/desktop/api/hrtfapoapi/nf-hrtfapoapi-ixapohrtfparameters-setsourcegain
+        - name: "SetSourceOrientation method"
+          href: /windows/desktop/api/hrtfapoapi/nf-hrtfapoapi-ixapohrtfparameters-setsourceorientation
+        - name: "SetSourcePosition method"
+          href: /windows/desktop/api/hrtfapoapi/nf-hrtfapoapi-ixapohrtfparameters-setsourceposition
+    - name: "Macros"
+      href: macros.md
+      items: 
+      - name: "XAPOAlloc"
+        href: /windows/desktop/api/XAPO/nf-xapo-xapoalloc
+      - name: "XAPOFree"
+        href: /windows/desktop/api/XAPO/nf-xapo-xapofree
+    - name: "Structures"
+      href: structures.md
+      items: 
+      - name: "HrtfApoInit"
+        href: /windows/desktop/api/HrtfApoApi/ns-hrtfapoapi-hrtfapoinit
+      - name: "HrtfDirectivity"
+        href: /windows/desktop/api/HrtfApoApi/ns-hrtfapoapi-hrtfdirectivity
+      - name: "HrtfDirectivityCardioid"
+        href: /windows/desktop/api/HrtfApoApi/ns-hrtfapoapi-hrtfdirectivitycardioid
+      - name: "HrtfDirectivityCone"
+        href: /windows/desktop/api/HrtfApoApi/ns-hrtfapoapi-hrtfdirectivitycone
+      - name: "HrtfDistanceDecay"
+        href: /windows/desktop/api/HrtfApoApi/ns-hrtfapoapi-hrtfdistancedecay
+      - name: "HrtfOrientation"
+        href: /windows/desktop/api/HrtfApoApi/ns-hrtfapoapi-hrtforientation
+      - name: "HrtfPosition"
+        href: /windows/desktop/api/HrtfApoApi/ns-hrtfapoapi-hrtfposition
+      - name: "XAUDIO2_BUFFER"
+        href: /windows/desktop/api/xaudio2/ns-xaudio2-xaudio2_buffer
+      - name: "XAUDIO2_BUFFER_WMA"
+        href: /windows/desktop/api/xaudio2/ns-xaudio2-xaudio2_buffer_wma
+      - name: "XAUDIO2_DEBUG_CONFIGURATION"
+        href: /windows/desktop/api/xaudio2/ns-xaudio2-xaudio2_debug_configuration
+      - name: "XAUDIO2_EFFECT_CHAIN"
+        href: /windows/desktop/api/xaudio2/ns-xaudio2-xaudio2_effect_chain
+      - name: "XAUDIO2_EFFECT_DESCRIPTOR"
+        href: /windows/desktop/api/xaudio2/ns-xaudio2-xaudio2_effect_descriptor
+      - name: "XAUDIO2_FILTER_PARAMETERS"
+        href: /windows/desktop/api/xaudio2/ns-xaudio2-xaudio2_filter_parameters
+      - name: "XAUDIO2_PERFORMANCE_DATA"
+        href: /windows/desktop/api/xaudio2/ns-xaudio2-xaudio2_performance_data
+      - name: "XAUDIO2_SEND_DESCRIPTOR"
+        href: /windows/desktop/api/xaudio2/ns-xaudio2-xaudio2_send_descriptor
+      - name: "XAUDIO2_VOICE_DETAILS"
+        href: /windows/desktop/api/xaudio2/ns-xaudio2-xaudio2_voice_details
+      - name: "XAUDIO2_VOICE_SENDS"
+        href: /windows/desktop/api/xaudio2/ns-xaudio2-xaudio2_voice_sends
+      - name: "XAUDIO2_VOICE_STATE"
+        href: /windows/desktop/api/xaudio2/ns-xaudio2-xaudio2_voice_state
+      - name: "XAUDIO2FX_REVERB_I3DL2_PARAMETERS"
+        href: /windows/desktop/api/xaudio2fx/ns-xaudio2fx-xaudio2fx_reverb_i3dl2_parameters
+      - name: "XAUDIO2FX_REVERB_PARAMETERS"
+        href: /windows/desktop/api/xaudio2fx/ns-xaudio2fx-xaudio2fx_reverb_parameters
+      - name: "XAUDIO2FX_VOLUMEMETER_LEVELS"
+        href: /windows/desktop/api/xaudio2fx/ns-xaudio2fx-xaudio2fx_volumemeter_levels
+      - name: "XAPO_LOCKFORPROCESS_BUFFER_PARAMETERS"
+        href: /windows/win32/api/xapo/ns-xapo-xapo_lockforprocess_parameters
+      - name: "XAPO_PROCESS_BUFFER_PARAMETERS"
+        href: /windows/desktop/api/xapo/ns-xapo-xapo_process_buffer_parameters
+      - name: "XAPO_REGISTRATION_PROPERTIES"
+        href: /windows/desktop/api/xapo/ns-xapo-xapo_registration_properties
+      - name: "FXECHO_INITDATA"
+        href: /windows/desktop/api/xapofx/ns-xapofx-fxecho_initdata
+      - name: "FXECHO_PARAMETERS"
+        href: /windows/desktop/api/xapofx/ns-xapofx-fxecho_parameters
+      - name: "FXEQ_PARAMETERS"
+        href: /windows/desktop/api/xapofx/ns-xapofx-fxeq_parameters
+      - name: "FXMASTERINGLIMITER_PARAMETERS"
+        href: /windows/desktop/api/xapofx/ns-xapofx-fxmasteringlimiter_parameters
+      - name: "FXREVERB_PARAMETERS"
+        href: /windows/desktop/api/xapofx/ns-xapofx-fxreverb_parameters
+      - name: "X3DAUDIO_CONE"
+        href: /windows/desktop/api/x3daudio/ns-x3daudio-x3daudio_cone
+      - name: "X3DAUDIO_DISTANCE_CURVE"
+        href: /windows/desktop/api/x3daudio/ns-x3daudio-x3daudio_distance_curve
+      - name: "X3DAUDIO_DISTANCE_CURVE_POINT"
+        href: /windows/desktop/api/x3daudio/ns-x3daudio-x3daudio_distance_curve_point
+      - name: "X3DAUDIO_DSP_SETTINGS"
+        href: /windows/desktop/api/x3daudio/ns-x3daudio-x3daudio_dsp_settings
+      - name: "X3DAUDIO_EMITTER"
+        href: /windows/desktop/api/x3daudio/ns-x3daudio-x3daudio_emitter
+      - name: "X3DAUDIO_LISTENER"
+        href: /windows/desktop/api/x3daudio/ns-x3daudio-x3daudio_listener

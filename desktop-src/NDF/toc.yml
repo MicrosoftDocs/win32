@@ -1,0 +1,220 @@
+- name: "Network Diagnostics Framework"
+  href: portal.md
+  items: 
+  - name: "About NDF"
+    href: about-ndf.md
+  - name: "Using NDF"
+    href: using-ndf.md
+    items: 
+    - name: "Using NDF Functionality"
+      href: using-ndf-functionality.md
+    - name: "Designing NDF Helper Class Extensions"
+      href: designing-ndf-helper-class-extensions.md
+    - name: "UI guidelines for NDF helper class extensions"
+      href: user-interface-guidelines-for-ndf-helper-class-extensions.md
+    - name: "Registering NDF Helper Class Extensions"
+      href: registering-ndf-helper-class-extensions.md
+    - name: "NDF Diagnostics Example"
+      href: ndf-diagnostics-example.md
+    - name: "NDF Helper Class Examples"
+      href: ndf-helper-class-examples.md
+      items: 
+      - name: "NDF Helper Class Extension"
+        href: ndf-helper-class-example.md
+      - name: "NDF Helper Class Extension with Handoff"
+        href: ndf-helper-class-example-with-handoff.md
+  - name: "NDF Reference"
+    href: ndf-reference.md
+    items: 
+    - name: "NDF Enumerated Types"
+      href: ndf-enumerated-types.md
+      items: 
+      - name: "ATTRIBUTE_TYPE"
+        href: /windows/win32/api/ndattrib/ne-ndattrib-attribute_type
+      - name: "DIAGNOSIS_STATUS"
+        href: /windows/win32/api/ndhelper/ne-ndhelper-diagnosis_status
+      - name: "PROBLEM_TYPE"
+        href: /windows/win32/api/ndhelper/ne-ndhelper-problem_type
+      - name: "REPAIR_RISK"
+        href: /windows/win32/api/Ndattrib/ne-ndattrib-repair_risk
+      - name: "REPAIR_STATUS"
+        href: /windows/win32/api/ndhelper/ne-ndhelper-repair_status
+      - name: "REPAIR_SCOPE"
+        href: /windows/win32/api/Ndattrib/ne-ndattrib-repair_scope
+      - name: "UI_INFO_TYPE"
+        href: /windows/win32/api/Ndattrib/ne-ndattrib-ui_info_type
+    - name: "NDF Functions"
+      href: ndf-functions.md
+      items: 
+      - name: "CopyHelperAttribute"
+        href: copyhelperattribute.md
+      - name: "CopyRepairInfo"
+        href: copyrepairinfo.md
+      - name: "CopyRootCauseInfo"
+        href: copyrootcauseinfo.md
+      - name: "FreeRepairInfoExs"
+        href: freerepairinfoexs.md
+      - name: "FreeRepairInfos"
+        href: freerepairinfos.md
+      - name: "FreeRootCauseInfos"
+        href: freerootcauseinfos.md
+      - name: "FreeHelperAttributes"
+        href: freehelperattributes.md
+      - name: "FreeUiInfo"
+        href: freeuiinfo.md
+      - name: "NdfCancelIncident"
+        href: /windows/desktop/api/Ndfapi/nf-ndfapi-ndfcancelincident
+      - name: "NdfCloseIncident"
+        href: /windows/desktop/api/Ndfapi/nf-ndfapi-ndfcloseincident
+      - name: "NdfCreateConnectivityIncident"
+        href: /windows/desktop/api/Ndfapi/nf-ndfapi-ndfcreateconnectivityincident
+      - name: "NdfCreateDNSIncident"
+        href: /windows/desktop/api/Ndfapi/nf-ndfapi-ndfcreatednsincident
+      - name: "NdfCreateGroupingIncident"
+        href: /windows/desktop/api/Ndfapi/nf-ndfapi-ndfcreategroupingincident
+      - name: "NdfCreateInboundIncident"
+        href: /windows/desktop/api/Ndfapi/nf-ndfapi-ndfcreateinboundincident
+      - name: "NdfCreateIncident"
+        href: /windows/desktop/api/Ndfapi/nf-ndfapi-ndfcreateincident
+      - name: "NdfCreateNetConnectionIncident"
+        href: /windows/desktop/api/Ndfapi/nf-ndfapi-ndfcreatenetconnectionincident
+      - name: "NdfCreatePnrpIncident"
+        href: /windows/desktop/api/Ndfapi/nf-ndfapi-ndfcreatepnrpincident
+      - name: "NdfCreateSharingIncident"
+        href: /windows/desktop/api/Ndfapi/nf-ndfapi-ndfcreatesharingincident
+      - name: "NdfCreateWebIncident"
+        href: /windows/desktop/api/Ndfapi/nf-ndfapi-ndfcreatewebincident
+      - name: "NdfCreateWebIncidentEx"
+        href: /windows/desktop/api/Ndfapi/nf-ndfapi-ndfcreatewebincidentex
+      - name: "NdfCreateWinSockIncident"
+        href: /windows/desktop/api/Ndfapi/nf-ndfapi-ndfcreatewinsockincident
+      - name: "NdfDiagnoseIncident"
+        href: /windows/desktop/api/Ndfapi/nf-ndfapi-ndfdiagnoseincident
+      - name: "NdfExecuteDiagnosis"
+        href: /windows/desktop/api/Ndfapi/nf-ndfapi-ndfexecutediagnosis
+      - name: "NdfGetTraceFile"
+        href: /windows/desktop/api/Ndfapi/nf-ndfapi-ndfgettracefile
+      - name: "NdfRepairIncident"
+        href: /windows/desktop/api/Ndfapi/nf-ndfapi-ndfrepairincident
+      - name: "UtilAssembleStringsWithAlloc"
+        href: utilassemblestringswithalloc.md
+      - name: "UtilLoadStringWithAlloc"
+        href: utilloadstringwithalloc.md
+      - name: "UtilStringCopyWithAlloc"
+        href: utilstringcopywithalloc.md
+    - name: "NDF Interfaces"
+      href: ndf-interfaces.md
+      items: 
+      - name: "INetDiagHelper"
+        href: /windows/desktop/api/ndhelper/nn-ndhelper-inetdiaghelper
+        items: 
+        - name: "Cancel Method"
+          href: /windows/desktop/api/ndhelper/nf-ndhelper-inetdiaghelper-cancel
+        - name: "Cleanup Method"
+          href: /windows/desktop/api/ndhelper/nf-ndhelper-inetdiaghelper-cleanup
+        - name: "GetAttributes Method"
+          href: /windows/desktop/api/ndhelper/nf-ndhelper-inetdiaghelper-getattributes
+        - name: "GetCacheTime Method"
+          href: /windows/desktop/api/ndhelper/nf-ndhelper-inetdiaghelper-getcachetime
+        - name: "GetDiagnosticsInfo Method"
+          href: /windows/desktop/api/ndhelper/nf-ndhelper-inetdiaghelper-getdiagnosticsinfo
+        - name: "GetDownStreamHypotheses Method"
+          href: /windows/desktop/api/ndhelper/nf-ndhelper-inetdiaghelper-getdownstreamhypotheses
+        - name: "GetHigherHypotheses Method"
+          href: /windows/desktop/api/ndhelper/nf-ndhelper-inetdiaghelper-gethigherhypotheses
+        - name: "GetKeyAttributes Method"
+          href: /windows/desktop/api/ndhelper/nf-ndhelper-inetdiaghelper-getkeyattributes
+        - name: "GetLifeTime Method"
+          href: /windows/desktop/api/ndhelper/nf-ndhelper-inetdiaghelper-getlifetime
+        - name: "GetLowerHypotheses Method"
+          href: /windows/desktop/api/ndhelper/nf-ndhelper-inetdiaghelper-getlowerhypotheses
+        - name: "GetRepairInfo Method"
+          href: /windows/desktop/api/ndhelper/nf-ndhelper-inetdiaghelper-getrepairinfo
+        - name: "GetUpStreamHypotheses Method"
+          href: /windows/desktop/api/ndhelper/nf-ndhelper-inetdiaghelper-getupstreamhypotheses
+        - name: "HighUtilization Method"
+          href: /windows/desktop/api/ndhelper/nf-ndhelper-inetdiaghelper-highutilization
+        - name: "Initialize Method"
+          href: /windows/desktop/api/ndhelper/nf-ndhelper-inetdiaghelper-initialize
+        - name: "LowHealth Method"
+          href: /windows/desktop/api/ndhelper/nf-ndhelper-inetdiaghelper-lowhealth
+        - name: "Repair Method"
+          href: /windows/desktop/api/ndhelper/nf-ndhelper-inetdiaghelper-repair
+        - name: "SetLifeTime Method"
+          href: /windows/desktop/api/ndhelper/nf-ndhelper-inetdiaghelper-setlifetime
+        - name: "Validate Method"
+          href: /windows/desktop/api/ndhelper/nf-ndhelper-inetdiaghelper-validate
+      - name: "INetDiagHelperEx"
+        href: /windows/desktop/api/ndhelper/nn-ndhelper-inetdiaghelperex
+        items: 
+        - name: "ReconfirmLowHealth Method"
+          href: /windows/desktop/api/ndhelper/nf-ndhelper-inetdiaghelperex-reconfirmlowhealth
+        - name: "ReproduceFailure Method"
+          href: /windows/desktop/api/ndhelper/nf-ndhelper-inetdiaghelperex-reproducefailure
+        - name: "SetUtilities Method"
+          href: /windows/desktop/api/ndhelper/nf-ndhelper-inetdiaghelperex-setutilities
+      - name: "INetDiagHelperInfo"
+        href: /windows/desktop/api/ndhelper/nn-ndhelper-inetdiaghelperinfo
+        items: 
+        - name: "GetAttributeInfo Method"
+          href: /windows/desktop/api/ndhelper/nf-ndhelper-inetdiaghelperinfo-getattributeinfo
+      - name: "INetDiagHelperUtilFactory"
+        href: /windows/desktop/api/ndhelper/nn-ndhelper-inetdiaghelperutilfactory
+        items: 
+        - name: "CreateUtilityInstance Method"
+          href: /windows/desktop/api/ndhelper/nf-ndhelper-inetdiaghelperutilfactory-createutilityinstance
+    - name: "NDF Structures"
+      href: ndf-structures.md
+      items: 
+      - name: "DIAG_SOCKADDR"
+        href: /windows/win32/api/ndattrib/ns-ndattrib-diag_sockaddr
+      - name: "DiagnosticsInfo"
+        href: /windows/win32/api/ndhelper/ns-ndhelper-diagnosticsinfo
+      - name: "HELPER_ATTRIBUTE"
+        href: /windows/win32/api/ndattrib/ns-ndattrib-helper_attribute
+      - name: "HelperAttributeInfo"
+        href: /windows/win32/api/ndhelper/ns-ndhelper-helperattributeinfo
+      - name: "HYPOTHESIS"
+        href: /windows/win32/api/ndhelper/ns-ndhelper-hypothesis
+      - name: "HypothesisResult"
+        href: /windows/win32/api/ndhelper/ns-ndhelper-hypothesisresult
+      - name: "LIFE_TIME"
+        href: /windows/win32/api/ndattrib/ns-ndattrib-life_time
+      - name: "OCTET_STRING"
+        href: /windows/win32/api/ndattrib/ns-ndattrib-octet_string
+      - name: "RepairInfo"
+        href: /windows/win32/api/ndattrib/ns-ndattrib-repairinfo
+      - name: "RepairInfoEx"
+        href: /windows/win32/api/ndattrib/ns-ndattrib-repairinfoex
+      - name: "RootCauseInfo"
+        href: /windows/win32/api/ndattrib/ns-ndattrib-rootcauseinfo
+      - name: "ShellCommandInfo"
+        href: /windows/win32/api/ndattrib/ns-ndattrib-shellcommandinfo
+      - name: "UiInfo"
+        href: /windows/win32/api/ndattrib/ns-ndattrib-uiinfo
+    - name: "Extensible Helper Classes"
+      href: extensible-helper-classes.md
+      items: 
+      - name: "Windows Filtering Platform Extensible Helper Class"
+        href: windows-filtering-platform-extensible-helper-class.md
+      - name: "802.11 Wireless Diagnostics Extensible Helper Classes"
+        href: 802-11-wireless-diagnostics-extensible-helper-classes.md
+  - name: "Network Tracing in Windows 7"
+    href: network-tracing-in-windows-7.md
+    items: 
+    - name: "Network Tracing in Windows 7: Architecture"
+      href: network-tracing-in-windows-7-architecture.md
+    - name: "Tools for Troubleshooting using Network Tracing in Windows 7"
+      href: tools-for-troubleshooting-network-tracing-in-windows-7.md
+      items: 
+      - name: "Using Netsh to Manage Traces"
+        href: using-netsh-to-manage-traces.md
+      - name: "Using Network Monitor to View ETL Files"
+        href: using-network-monitor-to-view-etl-files.md
+    - name: "Network Tracing in Windows 7: Scenarios"
+      href: network-tracing-in-windows-7-scenarios.md
+      items: 
+      - name: "Troubleshooting Internet Connections"
+        href: troubleshooting-internet-connections.md
+      - name: "Troubleshooting Wireless LAN Connections"
+        href: troubleshooting-wireless-lan-connections.md

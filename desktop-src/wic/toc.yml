@@ -1,0 +1,1520 @@
+- name: "Windows Imaging Component"
+  href: -wic-lh.md
+  items: 
+  - name: "What's New in WIC"
+    href: what-s-new-in-wic-for-windows-8-1.md
+  - name: "Programming Guide"
+    href: -wic-programming-guide.md
+    items: 
+    - name: "Windows Imaging Component Overview"
+      href: -wic-about-windows-imaging-codec.md
+    - name: "WIC API Overview"
+      href: -wic-api.md
+    - name: "Decoding Digital Images"
+      href: -wic-decoder-portal.md
+      items: 
+      - name: "Decoding Overview"
+        href: -wic-creating-decoder.md
+      - name: "Progressive Decoding Overview"
+        href: -wic-progressive-decoding.md
+      - name: "Decoder How-to Topics"
+        href: -wic-decoder-howto-portal.md
+        items: 
+        - name: "How to Create a Decoder Using an Image Filename"
+          href: -wic-decoder-howto-createusingfilename.md
+        - name: "How to Create a Decoder Using a Stream"
+          href: -wic-decoder-howto-createusingstream.md
+    - name: "Using Image Data"
+      href: -wic-bitmapsources-portal.md
+      items: 
+      - name: "Bitmap Sources Overview"
+        href: -wic-bitmapsources.md
+      - name: "Bitmap Sources How-to Topics"
+        href: -wic-bitmapsources-howto-portal.md
+        items: 
+        - name: "How to Load a Bitmap from a Resource"
+          href: -wic-bitmapsources-howto-loadfromresource.md
+        - name: "How to Retrieve the Frames from an Image"
+          href: -wic-bitmapsources-howto-retrieveimageframes.md
+        - name: "How to Scale a Bitmap Source"
+          href: -wic-bitmapsources-howto-scale.md
+        - name: "How to Clip a Bitmap Source"
+          href: -wic-bitmapsources-howto-clip.md
+        - name: "How to Flip and Rotate a Bitmap Source"
+          href: -wic-bitmapsources-howto-flipandrotate.md
+        - name: "How to Modify the Pixels of a Bitmap Source"
+          href: -wic-bitmapsources-howto-modifypixels.md
+        - name: "How to Draw a BitmapSource Using Direct2D"
+          href: -wic-bitmapsources-howto-drawusingd2d.md
+    - name: "Encoding Image Data"
+      href: encoding-bitmaps-to-digital-images.md
+      items: 
+      - name: "Image Encoding Overview"
+        href: -wic-creating-encoder.md
+    - name: "Native WIC Codecs"
+      href: native-wic-codecs.md
+      items: 
+      - name: "BMP Format Overview"
+        href: bmp-format-overview.md
+      - name: "DDS Format Overview"
+        href: dds-format-overview.md
+      - name: "DNG Format Overview"
+        href: dng-format-overview.md
+      - name: "GIF Format Overview"
+        href: gif-format-overview.md
+      - name: "HD Photo Format Overview"
+        href: hdphoto-format-overview.md
+      - name: "ICO Format Overview"
+        href: ico-format-overview.md
+      - name: "JPEG Format Overview"
+        href: jpeg-format-overview.md
+      - name: "JPEG XR Codec"
+        href: jpeg-xr-codec.md
+      - name: "PNG Format Overview"
+        href: png-format-overview.md
+      - name: "TIFF Format Overview"
+        href: tiff-format-overview.md
+    - name: "Processing Image Metadata"
+      href: -wic-metadata-portal.md
+      items: 
+      - name: "WIC Metadata Overview"
+        href: -wic-about-metadata.md
+      - name: "Metadata Query Language Overview"
+        href: -wic-codec-metadataquerylanguage.md
+      - name: "Native Image Format Metadata Queries"
+        href: -wic-native-image-format-metadata-queries.md
+      - name: "Overview of Reading and Writing Image Metadata"
+        href: -wic-codec-readingwritingmetadata.md
+      - name: "Metadata Extensibility Overview"
+        href: -wic-codec-metadatahandlers.md
+      - name: "People Tagging Overview"
+        href: -wic-people-tagging.md
+    - name: "JPEG YCbCr Support"
+      href: jpeg-ycbcr-support.md
+    - name: "Color Management"
+      href: -wic-colormanagement.md
+    - name: "Component Development"
+      href: -wic-component-development.md
+      items: 
+      - name: "How to Write a WIC-Enabled Codec"
+        href: -wic-howtowriteacodec.md
+        items: 
+        - name: "Introduction"
+          href: -wic-howtowriteacodec-intro.md
+        - name: "How the Windows Imaging Component Works"
+          href: -wic-howwicworks.md
+        - name: "Implementing a WIC-Enabled Decoder"
+          href: -wic-implementingwicdecoder.md
+          items: 
+          - name: "Decoder Interfaces"
+            href: -wic-decoderinterfaces.md
+            items: 
+            - name: "IWICBitmapDecoder"
+              href: -wic-imp-iwicbitmapdecoder.md
+            - name: "IWICBitmapCodecProgressNotification"
+              href: -wic-imp-iwicbitmapcodecprogressnotification-decoder.md
+            - name: "IWICBitmapSource"
+              href: -wic-imp-iwicbitmapsource.md
+            - name: "IWICBitmapFrameDecode"
+              href: -wic-imp-iwicbitmapframedecode.md
+            - name: "IWICMetadataBlockReader"
+              href: -wic-imp-iwicmetadatablockreader.md
+            - name: "IWICBitmapSourceTransform"
+              href: -wic-imp-iwicbitmapsourcetransform.md
+            - name: "IWICDevelopRaw"
+              href: -wic-imp-iwicdevelopraw.md
+        - name: "Implementing a WIC-Enabled Encoder"
+          href: -wic-implementingwicencoder.md
+          items: 
+          - name: "Encoder Interfaces"
+            href: -wic-encoderinterfaces.md
+            items: 
+            - name: "IWICBitmapEncoder"
+              href: -wic-imp-iwicbitmapencoder.md
+            - name: "IWICBitmapCodecProgressNotification"
+              href: -wic-imp-iwicbitmapcodecprogressnotification-encoder.md
+            - name: "IWICBitmapFrameEncode"
+              href: -wic-imp-iwicbitmapframeencode.md
+            - name: "IWICMetadataBlockWriter"
+              href: -wic-imp-iwicmetadatablockwriter.md
+        - name: "Codec Installation and Registration"
+          href: -wic-codecinstallandreg.md
+          items: 
+          - name: "General Registry Entries"
+            href: -wic-generalregentries.md
+          - name: "Encoder-Specific Registry Entries"
+            href: -wic-encoderregentries.md
+          - name: "Decoder-Specific Registry Entries"
+            href: -wic-decoderregentries.md
+          - name: "Integration with Windows Photo Gallery and Windows Explorer"
+            href: -wic-integrationregentries.md
+        - name: "Conclusion (How to Write a WIC-Enabled Codec)"
+          href: -wic-howtowriteacodec-conclusion.md
+      - name: "WIC Guidelines for Camera RAW Image Formats"
+        href: -wic-rawguidelines.md
+        items: 
+        - name: "Introduction"
+          href: -wic-rawguidelines-intro.md
+          items: 
+          - name: "RAW Image Formats in Windows Vista"
+            href: -wic-rawguidelines-intro-vista.md
+          - name: "General Guidelines for Implementing RAW Codecs"
+            href: -wic-rawguidelines-intro-implement.md
+        - name: "Feature Completeness: Recommended Interfaces"
+          href: -wic-rawguidelines-feature-complete.md
+        - name: "Interface Method Requirements"
+          href: -wic-rawguidelines-iface-reqs.md
+        - name: "Metadata Support"
+          href: -wic-rawguidelines-metadata.md
+          items: 
+          - name: "Decoding"
+            href: -wic-rawguidelines-metadata-decoding.md
+          - name: "Encoding"
+            href: -wic-rawguidelines-metadata-encoding.md
+        - name: "Support for IWICDevelopRaw"
+          href: -wic-rawguidelines-iwicdevelopraw.md
+        - name: "Implementation Guidelines for Serializing IWICDevelopRaw Settings"
+          href: -wic-rawguidelines-iwicdevelopraw-serializing.md
+        - name: "Performance"
+          href: -wic-rawguidelines-performance.md
+        - name: "High Dynamic Range Pixel Formats"
+          href: -wic-rawguidelines-hdr-formats.md
+        - name: "Thumbnails and Previews"
+          href: -wic-rawguidelines-thumbnail-previews.md
+        - name: "Reliability and Security"
+          href: -wic-rawguidelines-reliability-security.md
+        - name: "Codec Availability and Platform Support"
+          href: -wic-rawguidelines-availability.md
+        - name: "RAW Codec Requirements for Windows 7"
+          href: -wic-rawguidelines-win7.md
+        - name: "For More Information"
+          href: -wic-rawguidelines-moreinfo.md
+  - name: "Reference"
+    href: -wic-codec-reference.md
+    items: 
+    - name: "Interfaces"
+      href: -wic-codec-ifaces.md
+      items: 
+      - name: "IWICBitmap"
+        href: /windows/desktop/api/Wincodec/nn-wincodec-iwicbitmap
+        items: 
+        - name: "Lock"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicbitmap-lock
+        - name: "SetPalette"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicbitmap-setpalette
+        - name: "SetResolution"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicbitmap-setresolution
+      - name: "IWICBitmapClipper"
+        href: /windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapclipper
+        items: 
+        - name: "Initialize"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicbitmapclipper-initialize
+      - name: "IWICBitmapCodecInfo"
+        href: /windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapcodecinfo
+        items: 
+        - name: "DoesSupportAnimation"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicbitmapcodecinfo-doessupportanimation
+        - name: "DoesSupportChromakey"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicbitmapcodecinfo-doessupportchromakey
+        - name: "DoesSupportLossless"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicbitmapcodecinfo-doessupportlossless
+        - name: "DoesSupportMultiframe"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicbitmapcodecinfo-doessupportmultiframe
+        - name: "GetColorManagementVersion"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicbitmapcodecinfo-getcolormanagementversion
+        - name: "GetContainerFormat"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicbitmapcodecinfo-getcontainerformat
+        - name: "GetDeviceManufacturer"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicbitmapcodecinfo-getdevicemanufacturer
+        - name: "GetDeviceModels"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicbitmapcodecinfo-getdevicemodels
+        - name: "GetFileExtensions"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicbitmapcodecinfo-getfileextensions
+        - name: "GetMimeTypes"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicbitmapcodecinfo-getmimetypes
+        - name: "GetPixelFormats"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicbitmapcodecinfo-getpixelformats
+        - name: "MatchesMimeType"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicbitmapcodecinfo-matchesmimetype
+      - name: "IWICBitmapCodecProgressNotification"
+        href: /windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapcodecprogressnotification
+        items: 
+        - name: "RegisterProgressNotification method"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicbitmapcodecprogressnotification-registerprogressnotification
+      - name: "IWICBitmapDecoder"
+        href: /windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapdecoder
+        items: 
+        - name: "CopyPalette"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicbitmapdecoder-copypalette
+        - name: "GetColorContexts"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicbitmapdecoder-getcolorcontexts
+        - name: "GetContainerFormat"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicbitmapdecoder-getcontainerformat
+        - name: "GetDecoderInfo"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicbitmapdecoder-getdecoderinfo
+        - name: "GetFrame"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicbitmapdecoder-getframe
+        - name: "GetFrameCount"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicbitmapdecoder-getframecount
+        - name: "GetMetadataQueryReader"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicbitmapdecoder-getmetadataqueryreader
+        - name: "GetPreview"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicbitmapdecoder-getpreview
+        - name: "GetThumbnail"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicbitmapdecoder-getthumbnail
+        - name: "Initialize"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicbitmapdecoder-initialize
+        - name: "QueryCapability"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicbitmapdecoder-querycapability
+      - name: "IWICBitmapDecoderInfo"
+        href: /windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapdecoderinfo
+        items: 
+        - name: "CreateInstance"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicbitmapdecoderinfo-createinstance
+        - name: "GetPatterns"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicbitmapdecoderinfo-getpatterns
+        - name: "MatchesPattern"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicbitmapdecoderinfo-matchespattern
+      - name: "IWICBitmapEncoder"
+        href: /windows/desktop/api/wincodec/nn-wincodec-iwicbitmapencoder
+        items: 
+        - name: "Commit"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicbitmapencoder-commit
+        - name: "CreateNewFrame"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicbitmapencoder-createnewframe
+        - name: "GetContainerFormat"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicbitmapencoder-getcontainerformat
+        - name: "GetEncoderInfo"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicbitmapencoder-getencoderinfo
+        - name: "GetMetadataQueryWriter"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicbitmapencoder-getmetadataquerywriter
+        - name: "Initialize"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicbitmapencoder-initialize
+        - name: "SetColorContexts"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicbitmapencoder-setcolorcontexts
+        - name: "SetPalette"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicbitmapencoder-setpalette
+        - name: "SetPreview"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicbitmapencoder-setpreview
+        - name: "SetThumbnail"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicbitmapencoder-setthumbnail
+      - name: "IWICBitmapEncoderInfo"
+        href: /windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapencoderinfo
+        items: 
+        - name: "CreateInstance"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicbitmapencoderinfo-createinstance
+      - name: "IWICBitmapFlipRotator"
+        href: /windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapfliprotator
+        items: 
+        - name: "Initialize"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicbitmapfliprotator-initialize
+      - name: "IWICBitmapFrameDecode"
+        href: /windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapframedecode
+        items: 
+        - name: "GetColorContexts"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicbitmapframedecode-getcolorcontexts
+        - name: "GetMetadataQueryReader"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicbitmapframedecode-getmetadataqueryreader
+        - name: "GetThumbnail"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicbitmapframedecode-getthumbnail
+      - name: "IWICBitmapFrameEncode"
+        href: /windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapframeencode
+        items: 
+        - name: "Commit"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicbitmapframeencode-commit
+        - name: "GetMetadataQueryWriter"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicbitmapframeencode-getmetadataquerywriter
+        - name: "Initialize"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicbitmapframeencode-initialize
+        - name: "SetColorContexts"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicbitmapframeencode-setcolorcontexts
+        - name: "SetPalette"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicbitmapframeencode-setpalette
+        - name: "SetPixelFormat"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicbitmapframeencode-setpixelformat
+        - name: "SetResolution"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicbitmapframeencode-setresolution
+        - name: "SetSize"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicbitmapframeencode-setsize
+        - name: "SetThumbnail"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicbitmapframeencode-setthumbnail
+        - name: "WritePixels"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicbitmapframeencode-writepixels
+        - name: "WriteSource"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicbitmapframeencode-writesource
+      - name: "IWICBitmapLock"
+        href: /windows/desktop/api/Wincodec/nn-wincodec-iwicbitmaplock
+        items: 
+        - name: "GetDataPointer"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicbitmaplock-getdatapointer
+        - name: "GetPixelFormat"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicbitmaplock-getpixelformat
+        - name: "GetSize"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicbitmaplock-getsize
+        - name: "GetStride"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicbitmaplock-getstride
+      - name: "IWICBitmapScaler"
+        href: /windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapscaler
+        items: 
+        - name: "Initialize"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicbitmapscaler-initialize
+      - name: "IWICBitmapSource"
+        href: /windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapsource
+        items: 
+        - name: "CopyPalette"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicbitmapsource-copypalette
+        - name: "CopyPixels"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicbitmapsource-copypixels
+        - name: "GetPixelFormat"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicbitmapsource-getpixelformat
+        - name: "GetResolution"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicbitmapsource-getresolution
+        - name: "GetSize"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicbitmapsource-getsize
+      - name: "IWICBitmapSourceTransform"
+        href: /windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapsourcetransform
+        items: 
+        - name: "CopyPixels"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicbitmapsourcetransform-copypixels
+        - name: "DoesSupportTransform"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicbitmapsourcetransform-doessupporttransform
+        - name: "GetClosestPixelFormat"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicbitmapsourcetransform-getclosestpixelformat
+        - name: "GetClosestSize"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicbitmapsourcetransform-getclosestsize
+      - name: "IWICColorContext"
+        href: /windows/desktop/api/Wincodec/nn-wincodec-iwiccolorcontext
+        items: 
+        - name: "GetExifColorSpace"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwiccolorcontext-getexifcolorspace
+        - name: "GetProfileBytes"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwiccolorcontext-getprofilebytes
+        - name: "GetType"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwiccolorcontext-gettype
+        - name: "InitializeFromExifColorSpace"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwiccolorcontext-initializefromexifcolorspace
+        - name: "InitializeFromFilename"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwiccolorcontext-initializefromfilename
+        - name: "InitializeFromMemory"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwiccolorcontext-initializefrommemory
+      - name: "IWICColorTransform"
+        href: /windows/desktop/api/Wincodec/nn-wincodec-iwiccolortransform
+        items: 
+        - name: "Initialize"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwiccolortransform-initialize
+      - name: "IWICComponentFactory"
+        href: /windows/desktop/api/Wincodecsdk/nn-wincodecsdk-iwiccomponentfactory
+        items: 
+        - name: "CreateEncoderPropertyBag"
+          href: /windows/desktop/api/Wincodecsdk/nf-wincodecsdk-iwiccomponentfactory-createencoderpropertybag
+        - name: "CreateMetadataReader"
+          href: /windows/desktop/api/Wincodecsdk/nf-wincodecsdk-iwiccomponentfactory-createmetadatareader
+        - name: "CreateMetadataReaderFromContainer"
+          href: /windows/desktop/api/Wincodecsdk/nf-wincodecsdk-iwiccomponentfactory-createmetadatareaderfromcontainer
+        - name: "CreateMetadataWriter"
+          href: /windows/desktop/api/Wincodecsdk/nf-wincodecsdk-iwiccomponentfactory-createmetadatawriter
+        - name: "CreateMetadataWriterFromReader"
+          href: /windows/desktop/api/Wincodecsdk/nf-wincodecsdk-iwiccomponentfactory-createmetadatawriterfromreader
+        - name: "CreateQueryReaderFromBlockReader"
+          href: /windows/desktop/api/Wincodecsdk/nf-wincodecsdk-iwiccomponentfactory-createqueryreaderfromblockreader
+        - name: "CreateQueryWriterFromBlockWriter"
+          href: /windows/desktop/api/Wincodecsdk/nf-wincodecsdk-iwiccomponentfactory-createquerywriterfromblockwriter
+      - name: "IWICComponentInfo"
+        href: /windows/desktop/api/Wincodec/nn-wincodec-iwiccomponentinfo
+        items: 
+        - name: "GetAuthor"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwiccomponentinfo-getauthor
+        - name: "GetCLSID"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwiccomponentinfo-getclsid
+        - name: "GetComponentType"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwiccomponentinfo-getcomponenttype
+        - name: "GetFriendlyName"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwiccomponentinfo-getfriendlyname
+        - name: "GetSigningStatus"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwiccomponentinfo-getsigningstatus
+        - name: "GetSpecVersion"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwiccomponentinfo-getspecversion
+        - name: "GetVendorGUID"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwiccomponentinfo-getvendorguid
+        - name: "GetVersion"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwiccomponentinfo-getversion
+      - name: "IWICDdsDecoder"
+        href: /windows/desktop/api/Wincodec/nn-wincodec-iwicddsdecoder
+        items: 
+        - name: "GetParameters method"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicddsdecoder-getparameters
+        - name: "GetFrame method"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicddsdecoder-getframe
+      - name: "IWICDdsEncoder"
+        href: /windows/desktop/api/Wincodec/nn-wincodec-iwicddsencoder
+        items: 
+        - name: "SetParameters method"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicddsencoder-setparameters
+        - name: "GetParameters method"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicddsencoder-getparameters
+        - name: "CreateNewFrame method"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicddsencoder-createnewframe
+      - name: "IWICDevelopRaw"
+        href: /windows/desktop/api/Wincodec/nn-wincodec-iwicdevelopraw
+        items: 
+        - name: "GetContrast"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicdevelopraw-getcontrast
+        - name: "GetCurrentParameterSet"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicdevelopraw-getcurrentparameterset
+        - name: "GetExposureCompensation"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicdevelopraw-getexposurecompensation
+        - name: "GetGamma"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicdevelopraw-getgamma
+        - name: "GetKelvinRangeInfo"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicdevelopraw-getkelvinrangeinfo
+        - name: "GetNamedWhitePoint"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicdevelopraw-getnamedwhitepoint
+        - name: "GetNoiseReduction"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicdevelopraw-getnoisereduction
+        - name: "GetRenderMode"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicdevelopraw-getrendermode
+        - name: "GetRotation"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicdevelopraw-getrotation
+        - name: "GetSaturation"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicdevelopraw-getsaturation
+        - name: "GetSharpness"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicdevelopraw-getsharpness
+        - name: "GetTint"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicdevelopraw-gettint
+        - name: "GetToneCurve"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicdevelopraw-gettonecurve
+        - name: "GetWhitePointKelvin"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicdevelopraw-getwhitepointkelvin
+        - name: "GetWhitePointRGB"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicdevelopraw-getwhitepointrgb
+        - name: "LoadParameterSet"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicdevelopraw-loadparameterset
+        - name: "QueryRawCapabilitiesInfo"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicdevelopraw-queryrawcapabilitiesinfo
+        - name: "SetContrast"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicdevelopraw-setcontrast
+        - name: "SetDestinationColorContext"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicdevelopraw-setdestinationcolorcontext
+        - name: "SetExposureCompensation"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicdevelopraw-setexposurecompensation
+        - name: "SetGamma"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicdevelopraw-setgamma
+        - name: "SetNamedWhitePoint"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicdevelopraw-setnamedwhitepoint
+        - name: "SetNoiseReduction"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicdevelopraw-setnoisereduction
+        - name: "SetNotificationCallback"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicdevelopraw-setnotificationcallback
+        - name: "SetRenderMode"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicdevelopraw-setrendermode
+        - name: "SetRotation"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicdevelopraw-setrotation
+        - name: "SetSaturation"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicdevelopraw-setsaturation
+        - name: "SetSharpness"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicdevelopraw-setsharpness
+        - name: "SetTint"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicdevelopraw-settint
+        - name: "SetToneCurve"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicdevelopraw-settonecurve
+        - name: "SetWhitePointKelvin"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicdevelopraw-setwhitepointkelvin
+        - name: "SetWhitePointRGB"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicdevelopraw-setwhitepointrgb
+      - name: "IWICDevelopRawNotificationCallback"
+        href: /windows/desktop/api/Wincodec/nn-wincodec-iwicdeveloprawnotificationcallback
+        items: 
+        - name: "Notify"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicdeveloprawnotificationcallback-notify
+      - name: "IWICDdsFrameDecode"
+        href: /windows/desktop/api/Wincodec/nn-wincodec-iwicddsframedecode
+        items: 
+        - name: "GetSizeInBlocks method"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicddsframedecode-getsizeinblocks
+        - name: "GetFormatInfo method"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicddsframedecode-getformatinfo
+        - name: "CopyBlocks method"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicddsframedecode-copyblocks
+      - name: "IWICEnumMetadataItem"
+        href: /windows/desktop/api/Wincodec/nn-wincodec-iwicenummetadataitem
+        items: 
+        - name: "Clone"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicenummetadataitem-clone
+        - name: "Next"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicenummetadataitem-next
+        - name: "Reset"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicenummetadataitem-reset
+        - name: "Skip"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicenummetadataitem-skip
+      - name: "IWICFastMetadataEncoder"
+        href: /windows/desktop/api/Wincodec/nn-wincodec-iwicfastmetadataencoder
+        items: 
+        - name: "Commit"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicfastmetadataencoder-commit
+        - name: "GetMetadataQueryWriter"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicfastmetadataencoder-getmetadataquerywriter
+      - name: "IWICFormatConverter"
+        href: /windows/desktop/api/Wincodec/nn-wincodec-iwicformatconverter
+        items: 
+        - name: "CanConvert"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicformatconverter-canconvert
+        - name: "Initialize"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicformatconverter-initialize
+      - name: "IWICFormatConverterInfo"
+        href: /windows/desktop/api/Wincodec/nn-wincodec-iwicformatconverterinfo
+        items: 
+        - name: "CreateInstance"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicformatconverterinfo-createinstance
+        - name: "GetPixelFormats"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicformatconverterinfo-getpixelformats
+      - name: "IWICImageEncoder"
+        href: /windows/desktop/api/Wincodec/nn-wincodec-iwicimageencoder
+        items: 
+        - name: "WriteFrame method"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicimageencoder-writeframe
+        - name: "WriteFrameThumbnail method"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicimageencoder-writeframethumbnail
+        - name: "WriteThumbnail method"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicimageencoder-writethumbnail
+      - name: "IWICImagingFactory"
+        href: /windows/desktop/api/Wincodec/nn-wincodec-iwicimagingfactory
+        items: 
+        - name: "CreateBitmap"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicimagingfactory-createbitmap
+        - name: "CreateBitmapClipper"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicimagingfactory-createbitmapclipper
+        - name: "CreateBitmapFlipRotator"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicimagingfactory-createbitmapfliprotator
+        - name: "CreateBitmapFromHBITMAP"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicimagingfactory-createbitmapfromhbitmap
+        - name: "CreateBitmapFromHICON"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicimagingfactory-createbitmapfromhicon
+        - name: "CreateBitmapFromMemory"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicimagingfactory-createbitmapfrommemory
+        - name: "CreateBitmapFromSource"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicimagingfactory-createbitmapfromsource
+        - name: "CreateBitmapFromSourceRect"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicimagingfactory-createbitmapfromsourcerect
+        - name: "CreateBitmapScaler"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicimagingfactory-createbitmapscaler
+        - name: "CreateColorContext"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicimagingfactory-createcolorcontext
+        - name: "CreateColorTransformer"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicimagingfactory-createcolortransformer
+        - name: "CreateComponentEnumerator"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicimagingfactory-createcomponentenumerator
+        - name: "CreateComponentInfo"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicimagingfactory-createcomponentinfo
+        - name: "CreateDecoder"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicimagingfactory-createdecoder
+        - name: "CreateDecoderFromFileHandle"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicimagingfactory-createdecoderfromfilehandle
+        - name: "CreateDecoderFromFilename"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicimagingfactory-createdecoderfromfilename
+        - name: "CreateDecoderFromStream"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicimagingfactory-createdecoderfromstream
+        - name: "CreateEncoder"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicimagingfactory-createencoder
+        - name: "CreateFastMetadataEncoderFromDecoder"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicimagingfactory-createfastmetadataencoderfromdecoder
+        - name: "CreateFastMetadataEncoderFromFrameDecode"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicimagingfactory-createfastmetadataencoderfromframedecode
+        - name: "CreateFormatConverter"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicimagingfactory-createformatconverter
+        - name: "CreatePalette"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicimagingfactory-createpalette
+        - name: "CreateQueryWriter"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicimagingfactory-createquerywriter
+        - name: "CreateQueryWriterFromReader"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicimagingfactory-createquerywriterfromreader
+        - name: "CreateStream"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicimagingfactory-createstream
+      - name: "IWICImagingFactory2"
+        href: /windows/desktop/api/Wincodec/nn-wincodec-iwicimagingfactory2
+        items: 
+        - name: "CreateImageEncoder method"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicimagingfactory2-createimageencoder
+      - name: "IWICJpegFrameDecode"
+        href: /windows/desktop/api/Wincodec/nn-wincodec-iwicjpegframedecode
+        items: 
+        - name: "ClearIndexing method"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicjpegframedecode-clearindexing
+        - name: "CopyScan method"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicjpegframedecode-copyscan
+        - name: "DoesSupportIndexing method"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicjpegframedecode-doessupportindexing
+        - name: "GetAcHuffmanTable method"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicjpegframedecode-getachuffmantable
+        - name: "GetDcHuffmanTable method"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicjpegframedecode-getdchuffmantable
+        - name: "GetFrameHeader method"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicjpegframedecode-getframeheader
+        - name: "GetQuantizationTable method"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicjpegframedecode-getquantizationtable
+        - name: "GetScanHeader method"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicjpegframedecode-getscanheader
+        - name: "SetIndexing method"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicjpegframedecode-setindexing
+      - name: "IWICJpegFrameEncode"
+        href: /windows/desktop/api/Wincodec/nn-wincodec-iwicjpegframeencode
+        items: 
+        - name: "GetAcHuffmanTable method"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicjpegframeencode-getachuffmantable
+        - name: "GetDcHuffmanTable method"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicjpegframeencode-getdchuffmantable
+        - name: "GetQuantizationTable method"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicjpegframeencode-getquantizationtable
+        - name: "WriteScan method"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicjpegframeencode-writescan
+      - name: "IWICMetadataBlockReader"
+        href: /windows/desktop/api/Wincodecsdk/nn-wincodecsdk-iwicmetadatablockreader
+        items: 
+        - name: "GetContainerFormat"
+          href: /windows/desktop/api/Wincodecsdk/nf-wincodecsdk-iwicmetadatablockreader-getcontainerformat
+        - name: "GetCount"
+          href: /windows/desktop/api/Wincodecsdk/nf-wincodecsdk-iwicmetadatablockreader-getcount
+        - name: "GetEnumerator"
+          href: /windows/desktop/api/Wincodecsdk/nf-wincodecsdk-iwicmetadatablockreader-getenumerator
+        - name: "GetReaderByIndex"
+          href: /windows/desktop/api/Wincodecsdk/nf-wincodecsdk-iwicmetadatablockreader-getreaderbyindex
+      - name: "IWICMetadataBlockWriter"
+        href: /windows/desktop/api/Wincodecsdk/nn-wincodecsdk-iwicmetadatablockwriter
+        items: 
+        - name: "AddWriter"
+          href: /windows/desktop/api/Wincodecsdk/nf-wincodecsdk-iwicmetadatablockwriter-addwriter
+        - name: "GetWriterByIndex"
+          href: /windows/desktop/api/Wincodecsdk/nf-wincodecsdk-iwicmetadatablockwriter-getwriterbyindex
+        - name: "InitializeFromBlockReader"
+          href: /windows/desktop/api/Wincodecsdk/nf-wincodecsdk-iwicmetadatablockwriter-initializefromblockreader
+        - name: "RemoveWriterByIndex"
+          href: /windows/desktop/api/Wincodecsdk/nf-wincodecsdk-iwicmetadatablockwriter-removewriterbyindex
+        - name: "SetWriterByIndex"
+          href: /windows/desktop/api/Wincodecsdk/nf-wincodecsdk-iwicmetadatablockwriter-setwriterbyindex
+      - name: "IWICMetadataHandlerInfo"
+        href: /windows/desktop/api/Wincodecsdk/nn-wincodecsdk-iwicmetadatahandlerinfo
+        items: 
+        - name: "DoesRequireFixedSize"
+          href: /windows/desktop/api/Wincodecsdk/nf-wincodecsdk-iwicmetadatahandlerinfo-doesrequirefixedsize
+        - name: "DoesRequireFullStream"
+          href: /windows/desktop/api/Wincodecsdk/nf-wincodecsdk-iwicmetadatahandlerinfo-doesrequirefullstream
+        - name: "DoesSupportPadding"
+          href: /windows/desktop/api/Wincodecsdk/nf-wincodecsdk-iwicmetadatahandlerinfo-doessupportpadding
+        - name: "GetContainerFormats"
+          href: /windows/desktop/api/Wincodecsdk/nf-wincodecsdk-iwicmetadatahandlerinfo-getcontainerformats
+        - name: "GetDeviceManufacturer"
+          href: /windows/desktop/api/Wincodecsdk/nf-wincodecsdk-iwicmetadatahandlerinfo-getdevicemanufacturer
+        - name: "GetDeviceModels"
+          href: /windows/desktop/api/Wincodecsdk/nf-wincodecsdk-iwicmetadatahandlerinfo-getdevicemodels
+        - name: "GetMetadataFormat"
+          href: /windows/desktop/api/Wincodecsdk/nf-wincodecsdk-iwicmetadatahandlerinfo-getmetadataformat
+      - name: "IWICMetadataQueryReader"
+        href: /windows/desktop/api/Wincodec/nn-wincodec-iwicmetadataqueryreader
+        items: 
+        - name: "GetContainerFormat"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicmetadataqueryreader-getcontainerformat
+        - name: "GetEnumerator"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicmetadataqueryreader-getenumerator
+        - name: "GetLocation"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicmetadataqueryreader-getlocation
+        - name: "GetMetadataByName"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicmetadataqueryreader-getmetadatabyname
+      - name: "IWICMetadataQueryWriter"
+        href: /windows/desktop/api/Wincodec/nn-wincodec-iwicmetadataquerywriter
+        items: 
+        - name: "RemoveMetadataByName"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicmetadataquerywriter-removemetadatabyname
+        - name: "SetMetadataByName"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicmetadataquerywriter-setmetadatabyname
+      - name: "IWICMetadataReader"
+        href: /windows/desktop/api/Wincodecsdk/nn-wincodecsdk-iwicmetadatareader
+        items: 
+        - name: "GetCount"
+          href: /windows/desktop/api/Wincodecsdk/nf-wincodecsdk-iwicmetadatareader-getcount
+        - name: "GetEnumerator"
+          href: /windows/desktop/api/Wincodecsdk/nf-wincodecsdk-iwicmetadatareader-getenumerator
+        - name: "GetMetadataFormat"
+          href: /windows/desktop/api/Wincodecsdk/nf-wincodecsdk-iwicmetadatareader-getmetadataformat
+        - name: "GetMetadataHandlerInfo"
+          href: /windows/desktop/api/Wincodecsdk/nf-wincodecsdk-iwicmetadatareader-getmetadatahandlerinfo
+        - name: "GetValue"
+          href: /windows/desktop/api/Wincodecsdk/nf-wincodecsdk-iwicmetadatareader-getvalue
+        - name: "GetValueByIndex"
+          href: /windows/desktop/api/Wincodecsdk/nf-wincodecsdk-iwicmetadatareader-getvaluebyindex
+      - name: "IWICMetadataReaderInfo"
+        href: /windows/desktop/api/Wincodecsdk/nn-wincodecsdk-iwicmetadatareaderinfo
+        items: 
+        - name: "CreateInstance"
+          href: /windows/desktop/api/Wincodecsdk/nf-wincodecsdk-iwicmetadatareaderinfo-createinstance
+        - name: "GetPatterns"
+          href: /windows/desktop/api/Wincodecsdk/nf-wincodecsdk-iwicmetadatareaderinfo-getpatterns
+        - name: "MatchesPattern"
+          href: /windows/desktop/api/Wincodecsdk/nf-wincodecsdk-iwicmetadatareaderinfo-matchespattern
+      - name: "IWICMetadataWriter"
+        href: /windows/desktop/api/Wincodecsdk/nn-wincodecsdk-iwicmetadatawriter
+        items: 
+        - name: "RemoveValue"
+          href: /windows/desktop/api/Wincodecsdk/nf-wincodecsdk-iwicmetadatawriter-removevalue
+        - name: "RemoveValueByIndex"
+          href: /windows/desktop/api/Wincodecsdk/nf-wincodecsdk-iwicmetadatawriter-removevaluebyindex
+        - name: "SetValue"
+          href: /windows/desktop/api/Wincodecsdk/nf-wincodecsdk-iwicmetadatawriter-setvalue
+        - name: "SetValueByIndex"
+          href: /windows/desktop/api/Wincodecsdk/nf-wincodecsdk-iwicmetadatawriter-setvaluebyindex
+      - name: "IWICMetadataWriterInfo"
+        href: /windows/desktop/api/Wincodecsdk/nn-wincodecsdk-iwicmetadatawriterinfo
+        items: 
+        - name: "CreateInstance"
+          href: /windows/desktop/api/Wincodecsdk/nf-wincodecsdk-iwicmetadatawriterinfo-createinstance
+        - name: "GetHeader"
+          href: /windows/desktop/api/Wincodecsdk/nf-wincodecsdk-iwicmetadatawriterinfo-getheader
+      - name: "IWICPalette"
+        href: /windows/desktop/api/Wincodec/nn-wincodec-iwicpalette
+        items: 
+        - name: "GetColorCount"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicpalette-getcolorcount
+        - name: "GetColors"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicpalette-getcolors
+        - name: "GetType"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicpalette-gettype
+        - name: "HasAlpha"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicpalette-hasalpha
+        - name: "InitializeCustom"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicpalette-initializecustom
+        - name: "InitializeFromBitmap"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicpalette-initializefrombitmap
+        - name: "InitializeFromPalette"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicpalette-initializefrompalette
+        - name: "InitializePredefined"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicpalette-initializepredefined
+        - name: "IsBlackWhite"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicpalette-isblackwhite
+        - name: "IsGrayscale"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicpalette-isgrayscale
+      - name: "IWICPersistStream"
+        href: /windows/desktop/api/Wincodecsdk/nn-wincodecsdk-iwicpersiststream
+        items: 
+        - name: "LoadEx"
+          href: /windows/desktop/api/Wincodecsdk/nf-wincodecsdk-iwicpersiststream-loadex
+        - name: "SaveEx"
+          href: /windows/desktop/api/Wincodecsdk/nf-wincodecsdk-iwicpersiststream-saveex
+      - name: "IWICPixelFormatInfo"
+        href: /windows/desktop/api/Wincodec/nn-wincodec-iwicpixelformatinfo
+        items: 
+        - name: "GetBitsPerPixel"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicpixelformatinfo-getbitsperpixel
+        - name: "GetChannelCount"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicpixelformatinfo-getchannelcount
+        - name: "GetChannelMask"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicpixelformatinfo-getchannelmask
+        - name: "GetColorContext"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicpixelformatinfo-getcolorcontext
+        - name: "GetFormatGUID"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicpixelformatinfo-getformatguid
+      - name: "IWICPixelFormatInfo2"
+        href: /windows/desktop/api/Wincodec/nn-wincodec-iwicpixelformatinfo2
+        items: 
+        - name: "GetNumericRepresentation"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicpixelformatinfo2-getnumericrepresentation
+        - name: "SupportsTransparency"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicpixelformatinfo2-supportstransparency
+      - name: "IWICPlanarBitmapFrameEncode"
+        href: /windows/desktop/api/Wincodec/nn-wincodec-iwicplanarbitmapframeencode
+        items: 
+        - name: "WritePixels method"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicplanarbitmapframeencode-writepixels
+        - name: "WriteSource method"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicplanarbitmapframeencode-writesource
+      - name: "IWICPlanarBitmapSourceTransform"
+        href: /windows/desktop/api/Wincodec/nn-wincodec-iwicplanarbitmapsourcetransform
+        items: 
+        - name: "CopyPixels method"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicplanarbitmapsourcetransform-copypixels
+        - name: "DoesSupportTransform method"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicplanarbitmapsourcetransform-doessupporttransform
+      - name: "IWICPlanarFormatConverter"
+        href: /windows/desktop/api/Wincodec/nn-wincodec-iwicplanarformatconverter
+        items: 
+        - name: "Initialize method"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicplanarformatconverter-initialize
+        - name: "CanConvert method"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicplanarformatconverter-canconvert
+      - name: "IWICProgressCallback"
+        href: /windows/desktop/api/Wincodec/nn-wincodec-iwicprogresscallback
+        items: 
+        - name: "Notify"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicprogresscallback-notify
+      - name: "IWICProgressiveLevelControl"
+        href: /windows/desktop/api/Wincodec/nn-wincodec-iwicprogressivelevelcontrol
+        items: 
+        - name: "GetCurrentLevel"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicprogressivelevelcontrol-getcurrentlevel
+        - name: "GetLevelCount"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicprogressivelevelcontrol-getlevelcount
+        - name: "SetCurrentLevel"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicprogressivelevelcontrol-setcurrentlevel
+      - name: "IWICStream"
+        href: /windows/desktop/api/Wincodec/nn-wincodec-iwicstream
+        items: 
+        - name: "InitializeFromFilename"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicstream-initializefromfilename
+        - name: "InitializeFromIStream"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicstream-initializefromistream
+        - name: "InitializeFromIStreamRegion"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicstream-initializefromistreamregion
+        - name: "InitializeFromMemory"
+          href: /windows/desktop/api/Wincodec/nf-wincodec-iwicstream-initializefrommemory
+      - name: "IWICStreamProvider"
+        href: /windows/desktop/api/Wincodecsdk/nn-wincodecsdk-iwicstreamprovider
+        items: 
+        - name: "GetPersistOptions"
+          href: /windows/desktop/api/Wincodecsdk/nf-wincodecsdk-iwicstreamprovider-getpersistoptions
+        - name: "GetPreferredVendorGUID"
+          href: /windows/desktop/api/Wincodecsdk/nf-wincodecsdk-iwicstreamprovider-getpreferredvendorguid
+        - name: "GetStream"
+          href: /windows/desktop/api/Wincodecsdk/nf-wincodecsdk-iwicstreamprovider-getstream
+        - name: "RefreshStream"
+          href: /windows/desktop/api/Wincodecsdk/nf-wincodecsdk-iwicstreamprovider-refreshstream
+    - name: "Constants, Enumerations, and Flags"
+      href: -wic-codec-enums.md
+      items: 
+      - name: "WIC GUIDs and CLSIDs"
+        href: -wic-guids-clsids.md
+      - name: "Codec Error Codes"
+        href: -wic-codec-error-codes.md
+      - name: "Native Pixel Formats"
+        href: -wic-codec-native-pixel-formats.md
+      - name: "IWICDevelopRawNotificationCallback Constants"
+        href: -wic-codec-iwicdeveloprawnotification-constants.md
+      - name: "IWICJpegFrameDecode Constants"
+        href: iwicjpegframedecode-constants.md
+      - name: "WIC8BIMIptcDigestProperties"
+        href: /windows/desktop/api/Wincodec/ne-wincodec-wic8bimiptcdigestproperties
+      - name: "WIC8BIMIptcProperties"
+        href: /windows/desktop/api/Wincodec/ne-wincodec-wic8bimiptcproperties
+      - name: "WIC8BIMResolutionInfoProperties"
+        href: /windows/desktop/api/Wincodec/ne-wincodec-wic8bimresolutioninfoproperties
+      - name: "WICBitmapAlphaChannelOption"
+        href: /windows/desktop/api/Wincodec/ne-wincodec-wicbitmapalphachanneloption
+      - name: "WICBitmapCreateCacheOption"
+        href: /windows/desktop/api/Wincodec/ne-wincodec-wicbitmapcreatecacheoption
+      - name: "WICBitmapDecoderCapabilities"
+        href: /windows/desktop/api/Wincodec/ne-wincodec-wicbitmapdecodercapabilities
+      - name: "WICBitmapDitherType"
+        href: /windows/desktop/api/Wincodec/ne-wincodec-wicbitmapdithertype
+      - name: "WICBitmapEncoderCacheOption"
+        href: /windows/desktop/api/Wincodec/ne-wincodec-wicbitmapencodercacheoption
+      - name: "WICBitmapInterpolationMode"
+        href: /windows/desktop/api/Wincodec/ne-wincodec-wicbitmapinterpolationmode
+      - name: "WICBitmapLockFlags"
+        href: /windows/desktop/api/Wincodec/ne-wincodec-wicbitmaplockflags
+      - name: "WICBitmapPaletteType"
+        href: /windows/desktop/api/Wincodec/ne-wincodec-wicbitmappalettetype
+      - name: "WICBitmapTransformOptions"
+        href: /windows/desktop/api/Wincodec/ne-wincodec-wicbitmaptransformoptions
+      - name: "WICColorContextType"
+        href: /windows/desktop/api/Wincodec/ne-wincodec-wiccolorcontexttype
+      - name: "WICComponentEnumerateOptions"
+        href: /windows/desktop/api/Wincodec/ne-wincodec-wiccomponentenumerateoptions
+      - name: "WICComponentSigning"
+        href: /windows/desktop/api/Wincodec/ne-wincodec-wiccomponentsigning
+      - name: "WICComponentType"
+        href: /windows/desktop/api/Wincodec/ne-wincodec-wiccomponenttype
+      - name: "WICDecodeOptions"
+        href: /windows/desktop/api/Wincodec/ne-wincodec-wicdecodeoptions
+      - name: "WICDdsDimension"
+        href: /windows/desktop/api/Wincodec/ne-wincodec-wicddsdimension
+      - name: "WICDdsAlphaMode"
+        href: /windows/desktop/api/Wincodec/ne-wincodec-wicddsalphamode
+      - name: "WICGifApplicationExtensionProperties"
+        href: /windows/desktop/api/Wincodec/ne-wincodec-wicgifapplicationextensionproperties
+      - name: "WICGifCommentExtensionProperties"
+        href: /windows/desktop/api/Wincodec/ne-wincodec-wicgifcommentextensionproperties
+      - name: "WICGifGraphicControlExtensionProperties"
+        href: /windows/desktop/api/Wincodec/ne-wincodec-wicgifgraphiccontrolextensionproperties
+      - name: "WICGifImageDescriptorProperties"
+        href: /windows/desktop/api/Wincodec/ne-wincodec-wicgifimagedescriptorproperties
+      - name: "WICGifLogicalScreenDescriptorProperties"
+        href: /windows/desktop/api/Wincodec/ne-wincodec-wicgiflogicalscreendescriptorproperties
+      - name: "WICJpegCommentProperties"
+        href: /windows/desktop/api/Wincodec/ne-wincodec-wicjpegcommentproperties
+      - name: "WICJpegChrominanceProperties"
+        href: /windows/desktop/api/Wincodec/ne-wincodec-wicjpegchrominanceproperties
+      - name: "WICJpegIndexingOptions"
+        href: /windows/desktop/api/wincodec/ne-wincodec-wicjpegindexingoptions
+      - name: "WICJpegLuminanceProperties"
+        href: /windows/desktop/api/Wincodec/ne-wincodec-wicjpegluminanceproperties
+      - name: "WICJpegScanType"
+        href: /windows/desktop/api/wincodec/ne-wincodec-wicjpegscantype
+      - name: "WICJpegTransferMatrix"
+        href: /windows/desktop/api/wincodec/ne-wincodec-wicjpegtransfermatrix
+      - name: "WICJpegYCrCbSubsamplingOption"
+        href: /windows/desktop/api/Wincodec/ne-wincodec-wicjpegycrcbsubsamplingoption
+      - name: "WICMetadataCreationOptions"
+        href: /windows/desktop/api/Wincodecsdk/ne-wincodecsdk-wicmetadatacreationoptions
+      - name: "WICNamedWhitePoint"
+        href: /windows/desktop/api/Wincodec/ne-wincodec-wicnamedwhitepoint
+      - name: "WICPersistOptions"
+        href: /windows/desktop/api/Wincodecsdk/ne-wincodecsdk-wicpersistoptions
+      - name: "WICPixelFormatNumericRepresentation"
+        href: /windows/desktop/api/Wincodec/ne-wincodec-wicpixelformatnumericrepresentation
+      - name: "WICPlanarOptions"
+        href: /windows/desktop/api/Wincodec/ne-wincodec-wicplanaroptions
+      - name: "WICProgressOperation"
+        href: /windows/desktop/api/Wincodec/ne-wincodec-wicprogressoperation
+      - name: "WICPngBkgdProperties"
+        href: /windows/desktop/api/Wincodec/ne-wincodec-wicpngbkgdproperties
+      - name: "WICPngChrmProperties"
+        href: /windows/desktop/api/Wincodec/ne-wincodec-wicpngchrmproperties
+      - name: "WICPngFilterOption"
+        href: /windows/desktop/api/Wincodec/ne-wincodec-wicpngfilteroption
+      - name: "WICPngGamaProperties"
+        href: /windows/desktop/api/Wincodec/ne-wincodec-wicpnggamaproperties
+      - name: "WICPngHistProperties"
+        href: /windows/desktop/api/Wincodec/ne-wincodec-wicpnghistproperties
+      - name: "WICPngIccpProperties"
+        href: /windows/desktop/api/Wincodec/ne-wincodec-wicpngiccpproperties
+      - name: "WICPngItxtProperties"
+        href: /windows/desktop/api/Wincodec/ne-wincodec-wicpngitxtproperties
+      - name: "WICPngSrgbProperties"
+        href: /windows/desktop/api/Wincodec/ne-wincodec-wicpngsrgbproperties
+      - name: "WICPngTimeProperties"
+        href: /windows/desktop/api/Wincodec/ne-wincodec-wicpngtimeproperties
+      - name: "WICProgressNotification"
+        href: /windows/desktop/api/Wincodec/ne-wincodec-wicprogressnotification
+      - name: "Native WIC Codecs"
+        href: native-wic-codecs.md
+      - name: "WICRawCapabilities"
+        href: /windows/desktop/api/Wincodec/ne-wincodec-wicrawcapabilities
+      - name: "WICRawParameterSet"
+        href: /windows/desktop/api/Wincodec/ne-wincodec-wicrawparameterset
+      - name: "WICRawRenderMode"
+        href: /windows/desktop/api/Wincodec/ne-wincodec-wicrawrendermode
+      - name: "WICRawRotationCapabilities"
+        href: /windows/desktop/api/Wincodec/ne-wincodec-wicrawrotationcapabilities
+      - name: "WICSectionAccessLevel"
+        href: /windows/desktop/api/Wincodec/ne-wincodec-wicsectionaccesslevel
+      - name: "WICTiffCompressionOption"
+        href: /windows/desktop/api/Wincodec/ne-wincodec-wictiffcompressionoption
+    - name: "Structures"
+      href: -wic-codec-structs.md
+      items: 
+      - name: "WICBitmapPattern"
+        href: /windows/desktop/api/Wincodec/ns-wincodec-wicbitmappattern
+      - name: "WICBitmapPlane"
+        href: /windows/desktop/api/Wincodec/ns-wincodec-wicbitmapplane
+      - name: "WICBitmapPlaneDescription"
+        href: /windows/desktop/api/Wincodec/ns-wincodec-wicbitmapplanedescription
+      - name: "WICDdsFormatInfo"
+        href: /windows/desktop/api/Wincodec/ns-wincodec-wicddsformatinfo
+      - name: "WICDdsParameters"
+        href: /windows/desktop/api/Wincodec/ns-wincodec-wicddsparameters
+      - name: "WICImageParameters"
+        href: /windows/desktop/api/Wincodec/ns-wincodec-wicimageparameters
+      - name: "WICJpegFrameHeader"
+        href: /windows/desktop/api/wincodec/ns-wincodec-wicjpegframeheader
+      - name: "WICJpegScanHeader"
+        href: /windows/desktop/api/wincodec/ns-wincodec-wicjpegscanheader
+      - name: "WICMetadataHeader"
+        href: /windows/desktop/api/Wincodecsdk/ns-wincodecsdk-wicmetadataheader
+      - name: "WICMetadataPattern"
+        href: /windows/desktop/api/Wincodecsdk/ns-wincodecsdk-wicmetadatapattern
+      - name: "WICRawCapabilitiesInfo"
+        href: /windows/desktop/api/Wincodec/ns-wincodec-wicrawcapabilitiesinfo
+      - name: "WICRawToneCurve"
+        href: /windows/desktop/api/Wincodec/ns-wincodec-wicrawtonecurve
+      - name: "WICRawToneCurvePoint"
+        href: /windows/desktop/api/Wincodec/ns-wincodec-wicrawtonecurvepoint
+      - name: "WICRect"
+        href: /windows/desktop/api/Wincodec/ns-wincodec-wicrect
+    - name: "Functions"
+      href: -wic-codec-functions.md
+      items: 
+      - name: "ProgressNotificationCallback"
+        href: /windows/desktop/api/Wincodec/nc-wincodec-pfnprogressnotification
+      - name: "WICConvertBitmapSource"
+        href: /windows/desktop/api/Wincodec/nf-wincodec-wicconvertbitmapsource
+      - name: "WICCreateBitmapFromSection"
+        href: /windows/desktop/api/Wincodec/nf-wincodec-wiccreatebitmapfromsection
+      - name: "WICCreateBitmapFromSectionEx"
+        href: /windows/desktop/api/Wincodec/nf-wincodec-wiccreatebitmapfromsectionex
+      - name: "WICGetMetadataContentSize"
+        href: /windows/desktop/api/wincodecsdk/nf-wincodecsdk-wicgetmetadatacontentsize
+      - name: "WICMapGuidToShortName"
+        href: /windows/desktop/api/WinCodec/nf-wincodec-wicmapguidtoshortname
+      - name: "WICMapSchemaToName"
+        href: /windows/desktop/api/Wincodec/nf-wincodec-wicmapschematoname
+      - name: "WICMapShortNameToGuid"
+        href: /windows/desktop/api/Wincodec/nf-wincodec-wicmapshortnametoguid
+      - name: "WICMatchMetadataContent"
+        href: /windows/desktop/api/wincodecsdk/nf-wincodecsdk-wicmatchmetadatacontent
+      - name: "WICSerializeMetadataContent"
+        href: /windows/desktop/api/wincodecsdk/nf-wincodecsdk-wicserializemetadatacontent
+      - name: "WIC Proxy Functions"
+        href: wic-proxy-functions.md
+        items: 
+        - name: "IEnumString_Next_WIC_Proxy"
+          href: -wic-codec-ienumstring-next-wic-proxy.md
+        - name: "IEnumString_Reset_WIC_Proxy"
+          href: -wic-codec-ienumstring-reset-wic-proxy.md
+        - name: "IPropertyBag2_Write_Proxy"
+          href: -wic-codec-ipropertybag2-write-proxy.md
+        - name: "IWICBitmapClipper_Initialize_Proxy"
+          href: -wic-codec-iwicbitmapclipper-initialize-proxy.md
+        - name: "IWICBitmapCodecInfo_DoesSupportAnimation_Proxy"
+          href: -wic-codec-iwicbitmapcodecinfo-doessupportanimation-proxy.md
+        - name: "IWICBitmapCodecInfo_DoesSupportLossless_Proxy"
+          href: -wic-codec-iwicbitmapcodecinfo-doessupportlossless-proxy.md
+        - name: "IWICBitmapCodecInfo_DoesSupportMultiframe_Proxy"
+          href: -wic-codec-iwicbitmapcodecinfo-doessupportmultiframe-proxy.md
+        - name: "IWICBitmapCodecInfo_GetContainerFormat_Proxy"
+          href: -wic-codec-iwicbitmapcodecinfo-getcontainerformat-proxy.md
+        - name: "IWICBitmapCodecInfo_GetDeviceManufacturer_Proxy"
+          href: -wic-codec-iwicbitmapcodecinfo-getdevicemanufacturer-proxy.md
+        - name: "IWICBitmapCodecInfo_GetDeviceModels_Proxy"
+          href: -wic-codec-iwicbitmapcodecinfo-getdevicemodels-proxy.md
+        - name: "IWICBitmapCodecInfo_GetFileExtensions_Proxy"
+          href: -wic-codec-iwicbitmapcodecinfo-getfileextensions-proxy.md
+        - name: "IWICBitmapCodecInfo_GetMimeTypes_Proxy"
+          href: -wic-codec-iwicbitmapcodecinfo-getmimetypes-proxy.md
+        - name: "IWICBitmapDecoder_CopyPalette_Proxy"
+          href: -wic-codec-iwicbitmapdecoder-copypalette-proxy.md
+        - name: "IWICBitmapDecoder_GetColorContexts_Proxy"
+          href: -wic-codec-iwicbitmapdecoder-getcolorcontexts-proxy.md
+        - name: "IWICBitmapDecoder_GetDecoderInfo_Proxy"
+          href: -wic-codec-iwicbitmapdecoder-getdecoderinfo-proxy.md
+        - name: "IWICBitmapDecoder_GetFrameCount_Proxy"
+          href: -wic-codec-iwicbitmapdecoder-getframecount-proxy.md
+        - name: "IWICBitmapDecoder_GetFrame_Proxy"
+          href: -wic-codec-iwicbitmapdecoder-getframe-proxy.md
+        - name: "IWICBitmapDecoder_GetMetadataQueryReader_Proxy"
+          href: -wic-codec-iwicbitmapdecoder-getmetadataqueryreader-proxy.md
+        - name: "IWICBitmapDecoder_GetPreview_Proxy"
+          href: -wic-codec-iwicbitmapdecoder-getpreview-proxy.md
+        - name: "IWICBitmapDecoder_GetThumbnail_Proxy"
+          href: -wic-codec-iwicbitmapdecoder-getthumbnail-proxy.md
+        - name: "IWICBitmapEncoder_Commit_Proxy"
+          href: -wic-codec-iwicbitmapencoder-commit-proxy.md
+        - name: "IWICBitmapEncoder_CreateNewFrame_Proxy"
+          href: -wic-codec-iwicbitmapencoder-createnewframe-proxy.md
+        - name: "IWICBitmapEncoder_GetEncoderInfo_Proxy"
+          href: -wic-codec-iwicbitmapencoder-getencoderinfo-proxy.md
+        - name: "IWICBitmapEncoder_GetMetadataQueryWriter_Proxy"
+          href: -wic-codec-iwicbitmapencoder-getmetadataquerywriter-proxy.md
+        - name: "IWICBitmapEncoder_Initialize_Proxy"
+          href: -wic-codec-iwicbitmapencoder-initialize-proxy.md
+        - name: "IWICBitmapEncoder_SetPalette_Proxy"
+          href: -wic-codec-iwicbitmapencoder-setpalette-proxy.md
+        - name: "IWICBitmapEncoder_SetThumbnail_Proxy"
+          href: -wic-codec-iwicbitmapencoder-setthumbnail-proxy.md
+        - name: "IWICBitmapFlipRotator_Initialize_Proxy"
+          href: -wic-codec-iwicbitmapfliprotator-initialize-proxy.md
+        - name: "IWICBitmapFrameDecode_GetColorContexts_Proxy"
+          href: -wic-codec-iwicbitmapframedecode-getcolorcontexts-proxy.md
+        - name: "IWICBitmapFrameDecode_GetMetadataQueryReader_Proxy"
+          href: -wic-codec-iwicbitmapframedecode-getmetadataqueryreader-proxy.md
+        - name: "IWICBitmapFrameDecode_GetThumbnail_Proxy"
+          href: -wic-codec-iwicbitmapframedecode-getthumbnail-proxy.md
+        - name: "IWICBitmapFrameEncode_Commit_Proxy"
+          href: -wic-codec-iwicbitmapframeencode-commit-proxy.md
+        - name: "IWICBitmapFrameEncode_GetMetadataQueryWriter_Proxy"
+          href: -wic-codec-iwicbitmapframeencode-getmetadataquerywriter-proxy.md
+        - name: "IWICBitmapFrameEncode_Initialize_Proxy"
+          href: -wic-codec-iwicbitmapframeencode-initialize-proxy.md
+        - name: "IWICBitmapFrameEncode_SetColorContexts_Proxy"
+          href: -wic-codec-iwicbitmapframeencode-setcolorcontexts-proxy.md
+        - name: "IWICBitmapFrameEncode_SetResolution_Proxy"
+          href: -wic-codec-iwicbitmapframeencode-setresolution-proxy.md
+        - name: "IWICBitmapFrameEncode_SetSize_Proxy"
+          href: -wic-codec-iwicbitmapframeencode-setsize-proxy.md
+        - name: "IWICBitmapFrameEncode_SetThumbnail_Proxy"
+          href: -wic-codec-iwicbitmapframeencode-setthumbnail-proxy.md
+        - name: "IWICBitmapFrameEncode_WriteSource_Proxy"
+          href: -wic-codec-iwicbitmapframeencode-writesource-proxy.md
+        - name: "IWICBitmapLock_GetDataPointer_STA_Proxy"
+          href: -wic-codec-iwicbitmaplock-getdatapointer-sta-proxy.md
+        - name: "IWICBitmapLock_GetStride_Proxy"
+          href: -wic-codec-iwicbitmaplock-getstride-proxy.md
+        - name: "IWICBitmapScaler_Initialize_Proxy"
+          href: -wic-codec-iwicbitmapscaler-initialize-proxy.md
+        - name: "IWICBitmapSource_CopyPalette_Proxy"
+          href: -wic-codec-iwicbitmapsource-copypalette-proxy.md
+        - name: "IWICBitmapSource_CopyPixels_Proxy"
+          href: -wic-codec-iwicbitmapsource-copypixels-proxy.md
+        - name: "IWICBitmapSource_GetPixelFormat_Proxy"
+          href: -wic-codec-iwicbitmapsource-getpixelformat-proxy.md
+        - name: "IWICBitmapSource_GetResolution_Proxy"
+          href: -wic-codec-iwicbitmapsource-getresolution-proxy.md
+        - name: "IWICBitmapSource_GetSize_Proxy"
+          href: -wic-codec-iwicbitmapsource-getsize-proxy.md
+        - name: "IWICBitmap_Lock_Proxy"
+          href: -wic-codec-iwicbitmap-lock-proxy.md
+        - name: "IWICBitmap_SetPalette_Proxy"
+          href: -wic-codec-iwicbitmap-setpalette-proxy.md
+        - name: "IWICBitmap_SetResolution_Proxy"
+          href: -wic-codec-iwicbitmap-setresolution-proxy.md
+        - name: "IWICColorContext_InitializeFromMemory_Proxy"
+          href: -wic-codec-iwiccolorcontext-initializefrommemory-proxy.md
+        - name: "IWICColorTransform_Initialize_Proxy"
+          href: iwiccolortransform-initialize-proxy.md
+        - name: "IWICComponentFactory_CreateMetadataWriterFromReader_Proxy"
+          href: -wic-codec-iwiccomponentfactory-createmetadatawriterfromreader-proxy.md
+        - name: "IWICComponentFactory_CreateQueryWriterFromBlockWriter_Proxy"
+          href: -wic-codec-iwiccomponentfactory-createquerywriterfromblockwriter-proxy.md
+        - name: "IWICComponentInfo_GetAuthor_Proxy"
+          href: -wic-codec-iwiccomponentinfo-getauthor-proxy.md
+        - name: "IWICComponentInfo_GetCLSID_Proxy"
+          href: -wic-codec-iwiccomponentinfo-getclsid-proxy.md
+        - name: "IWICComponentInfo_GetFriendlyName_Proxy"
+          href: -wic-codec-iwiccomponentinfo-getfriendlyname-proxy.md
+        - name: "IWICComponentInfo_GetSpecVersion_Proxy"
+          href: -wic-codec-iwiccomponentinfo-getspecversion-proxy.md
+        - name: "IWICComponentInfo_GetVersion_Proxy"
+          href: -wic-codec-iwiccomponentinfo-getversion-proxy.md
+        - name: "IWICFastMetadataEncoder_Commit_Proxy"
+          href: -wic-codec-iwicfastmetadataencoder-commit-proxy.md
+        - name: "IWICFastMetadataEncoder_GetMetadataQueryWriter_Proxy"
+          href: -wic-codec-iwicfastmetadataencoder-getmetadataquerywriter-proxy.md
+        - name: "IWICFormatConverter_Initialize_Proxy"
+          href: -wic-codec-iwicformatconverter-initialize-proxy.md
+        - name: "IWICImagingFactory_CreateBitmapClipper_Proxy"
+          href: -wic-codec-iwicimagingfactory-createbitmapclipper-proxy.md
+        - name: "IWICImagingFactory_CreateBitmapFlipRotator_Proxy"
+          href: -wic-codec-iwicimagingfactory-createbitmapfliprotator-proxy.md
+        - name: "IWICImagingFactory_CreateBitmapFromHBITMAP_Proxy"
+          href: -wic-codec-iwicimagingfactory-createbitmapfromhbitmap-proxy.md
+        - name: "IWICImagingFactory_CreateBitmapFromHICON_Proxy"
+          href: -wic-codec-iwicimagingfactory-createbitmapfromhicon-proxy.md
+        - name: "IWICImagingFactory_CreateBitmapFromMemory_Proxy"
+          href: -wic-codec-iwicimagingfactory-createbitmapfrommemory-proxy.md
+        - name: "IWICImagingFactory_CreateBitmapFromSource_Proxy"
+          href: -wic-codec-iwicimagingfactory-createbitmapfromsource-proxy.md
+        - name: "IWICImagingFactory_CreateBitmapScaler_Proxy"
+          href: -wic-codec-iwicimagingfactory-createbitmapscaler-proxy.md
+        - name: "IWICImagingFactory_CreateBitmap_Proxy"
+          href: -wic-codec-iwicimagingfactory-createbitmap-proxy.md
+        - name: "IWICImagingFactory_CreateComponentInfo_Proxy"
+          href: -wic-codec-iwicimagingfactory-createcomponentinfo-proxy.md
+        - name: "IWICImagingFactory_CreateDecoderFromFileHandle_Proxy"
+          href: -wic-codec-iwicimagingfactory-createdecoderfromfilehandle-proxy.md
+        - name: "IWICImagingFactory_CreateDecoderFromFilename_Proxy"
+          href: -wic-codec-iwicimagingfactory-createdecoderfromfilename-proxy.md
+        - name: "IWICImagingFactory_CreateDecoderFromStream_Proxy"
+          href: -wic-codec-iwicimagingfactory-createdecoderfromstream-proxy.md
+        - name: "IWICImagingFactory_CreateEncoder_Proxy"
+          href: -wic-codec-iwicimagingfactory-createencoder-proxy.md
+        - name: "IWICImagingFactory_CreateFastMetadataEncoderFromDecoder_Proxy"
+          href: -wic-codec-iwicimagingfactory-createfastmetadataencoderfromdecoder-proxy.md
+        - name: "IWICImagingFactory_CreateFastMetadataEncoderFromFrameDecode_Proxy"
+          href: -wic-codec-iwicimagingfactory-createfastmetadataencoderfromframedecode-proxy.md
+        - name: "IWICImagingFactory_CreateFormatConverter_Proxy"
+          href: -wic-codec-iwicimagingfactory-createformatconverter-proxy.md
+        - name: "IWICImagingFactory_CreatePalette_Proxy"
+          href: -wic-codec-iwicimagingfactory-createpalette-proxy.md
+        - name: "IWICImagingFactory_CreateQueryWriterFromReader_Proxy"
+          href: -wic-codec-iwicimagingfactory-createquerywriterfromreader-proxy.md
+        - name: "IWICImagingFactory_CreateQueryWriter_Proxy"
+          href: -wic-codec-iwicimagingfactory-createquerywriter-proxy.md
+        - name: "IWICImagingFactory_CreateStream_Proxy"
+          href: -wic-codec-iwicimagingfactory-createstream-proxy.md
+        - name: "IWICMetadataBlockReader_GetCount_Proxy"
+          href: -wic-codec-iwicmetadatablockreader-getcount-proxy.md
+        - name: "IWICMetadataBlockReader_GetReaderByIndex_Proxy"
+          href: -wic-codec-iwicmetadatablockreader-getreaderbyindex-proxy.md
+        - name: "IWICMetadataQueryReader_GetContainerFormat_Proxy"
+          href: -wic-codec-iwicmetadataqueryreader-getcontainerformat-proxy.md
+        - name: "IWICMetadataQueryReader_GetEnumerator_Proxy"
+          href: -wic-codec-iwicmetadataqueryreader-getenumerator-proxy.md
+        - name: "IWICMetadataQueryReader_GetLocation_Proxy"
+          href: -wic-codec-iwicmetadataqueryreader-getlocation-proxy.md
+        - name: "IWICMetadataQueryReader_GetMetadataByName_Proxy"
+          href: -wic-codec-iwicmetadataqueryreader-getmetadatabyname-proxy.md
+        - name: "IWICMetadataQueryWriter_RemoveMetadataByName_Proxy"
+          href: -wic-codec-iwicmetadataquerywriter-removemetadatabyname-proxy.md
+        - name: "IWICMetadataQueryWriter_SetMetadataByName_Proxy"
+          href: -wic-codec-iwicmetadataquerywriter-setmetadatabyname-proxy.md
+        - name: "IWICPalette_GetColorCount_Proxy"
+          href: -wic-codec-iwicpalette-getcolorcount-proxy.md
+        - name: "IWICPalette_GetColors_Proxy"
+          href: -wic-codec-iwicpalette-getcolors-proxy.md
+        - name: "IWICPalette_GetType_Proxy"
+          href: -wic-codec-iwicpalette-gettype-proxy.md
+        - name: "IWICPalette_HasAlpha_Proxy"
+          href: -wic-codec-iwicpalette-hasalpha-proxy.md
+        - name: "IWICPalette_InitializeCustom_Proxy"
+          href: -wic-codec-iwicpalette-initializecustom-proxy.md
+        - name: "IWICPalette_InitializeFromBitmap_Proxy"
+          href: -wic-codec-iwicpalette-initializefrombitmap-proxy.md
+        - name: "IWICPalette_InitializeFromPalette_Proxy"
+          href: -wic-codec-iwicpalette-initializefrompalette-proxy.md
+        - name: "IWICPalette_InitializePredefined_Proxy"
+          href: -wic-codec-iwicpalette-initializepredefined-proxy.md
+        - name: "IWICPixelFormatInfo_GetBitsPerPixel_Proxy"
+          href: -wic-codec-iwicpixelformatinfo-getbitsperpixel-proxy.md
+        - name: "IWICPixelFormatInfo_GetChannelCount_Proxy"
+          href: -wic-codec-iwicpixelformatinfo-getchannelcount-proxy.md
+        - name: "IWICPixelFormatInfo_GetChannelMask_Proxy"
+          href: -wic-codec-iwicpixelformatinfo-getchannelmask-proxy.md
+        - name: "IWICStream_InitializeFromIStream_Proxy"
+          href: -wic-codec-iwicstream-initializefromistream-proxy.md
+        - name: "IWICStream_InitializeFromMemory_Proxy"
+          href: -wic-codec-iwicstream-initializefrommemory-proxy.md
+        - name: "WICCreateColorContext_Proxy"
+          href: -wic-codec-wiccreatecolorcontext-proxy.md
+        - name: "WICCreateColorTransform_Proxy"
+          href: wiccreatecolortransform-proxy.md
+        - name: "WICCreateImagingFactory_Proxy"
+          href: -wic-codec-wiccreateimagingfactory-proxy.md
+        - name: "WICSetEncoderFormat_Proxy"
+          href: -wic-codec-wicsetencoderformat-proxy.md
+    - name: "Photo Metadata Policies"
+      href: photo-metadata-policies.md
+      items: 
+      - name: "System"
+        href: system.md
+        items: 
+        - name: "System.ApplicationName Photo Metadata Policy"
+          href: -wic-photoprop-system-applicationname.md
+        - name: "System.Author Photo Metadata Policy"
+          href: -wic-photoprop-system-author.md
+        - name: "System.Comment Photo Metadata Policy"
+          href: -wic-photoprop-system-comment.md
+        - name: "System.Copyright Photo Metadata Policy"
+          href: -wic-photoprop-system-copyright.md
+        - name: "System.DateAcquired Photo Metadata Policy"
+          href: -wic-photoprop-system-dateacquired.md
+        - name: "System.Keywords Photo Metadata Policy"
+          href: -wic-photoprop-system-keywords.md
+        - name: "System.Rating Photo Metadata Policy"
+          href: -wic-photoprop-system-rating.md
+        - name: "System.SimpleRating Photo Metadata Policy"
+          href: -wic-photoprop-system-simplerating.md
+        - name: "System.Subject Photo Metadata Policy"
+          href: -wic-photoprop-system-subject.md
+        - name: "System.Title Photo Metadata Policy"
+          href: -wic-photoprop-system-title.md
+      - name: "System.GPS"
+        href: system-gps.md
+        items: 
+        - name: "System.GPS.Altitude Photo Metadata Policy"
+          href: -wic-photoprop-system-gps-altitude.md
+        - name: "System.GPS.Altitude Proxy"
+          href: -wic-photoprop-system-gps-altitude-proxy.md
+        - name: "System.GPS.AltitudeRef Photo Metadata Policy"
+          href: -wic-photoprop-system-gps-altituderef.md
+        - name: "System.GPS.AreaInformation Photo Metadata Policy"
+          href: -wic-photoprop-system-gps-areainformation.md
+        - name: "System.GPS.Date Photo Metadata Policy"
+          href: -wic-photoprop-system-gps-date.md
+        - name: "System.GPS.DestBearing Photo Metadata Policy"
+          href: -wic-photoprop-system-gps-destbearing.md
+        - name: "System.GPS.DestBearing Proxy"
+          href: -wic-photoprop-system-gps-destbearing-proxy.md
+        - name: "System.GPS.DestBearingRef Photo Metadata Policy"
+          href: -wic-photoprop-system-gps-destbearingref.md
+        - name: "System.GPS.DestDistance Photo Metadata Policy"
+          href: -wic-photoprop-system-gps-destdistance.md
+        - name: "System.GPS.DestDistance Proxy"
+          href: -wic-photoprop-system-gps-destdistance-proxy.md
+        - name: "System.GPS.DestDistanceRef Photo Metadata Policy"
+          href: -wic-photoprop-system-gps-destdistanceref.md
+        - name: "System.GPS.DestLatitude Photo Metadata Policy"
+          href: -wic-photoprop-system-gps-destlatitude.md
+        - name: "System.GPS.DestLatitude Proxy"
+          href: -wic-photoprop-system-gps-destlatitude-proxy.md
+        - name: "System.GPS.DestLatitudeRef Photo Metadata Policy"
+          href: -wic-photoprop-system-gps-destlatituderef.md
+        - name: "System.GPS.DestLongitude Photo Metadata Policy"
+          href: -wic-photoprop-system-gps-destlongitude.md
+        - name: "System.GPS.DestLongitude Proxy"
+          href: -wic-photoprop-system-gps-destlongitude-proxy.md
+        - name: "System.GPS.DestLongitudeRef Photo Metadata Policy"
+          href: -wic-photoprop-system-gps-destlongituderef.md
+        - name: "System.GPS.Differential Photo Metadata Policy"
+          href: -wic-photoprop-system-gps-differential.md
+        - name: "System.GPS.DOP Photo Metadata Policy"
+          href: -wic-photoprop-system-gps-dop.md
+        - name: "System.GPS.DOP Proxy"
+          href: -wic-photoprop-system-gps-dop-proxy.md
+        - name: "System.GPS.ImgDirection Photo Metadata Policy"
+          href: -wic-photoprop-system-gps-imgdirection.md
+        - name: "System.GPS.ImgDirection Proxy"
+          href: -wic-photoprop-system-gps-imgdirection-proxy.md
+        - name: "System.GPS.ImgDirectionRef Photo Metadata Policy"
+          href: -wic-photoprop-system-gps-imgdirectionref.md
+        - name: "System.GPS.Latitude Photo Metadata Policy"
+          href: -wic-photoprop-system-gps-latitude.md
+        - name: "System.GPS.Latitude Proxy"
+          href: -wic-photoprop-system-gps-latitude-proxy.md
+        - name: "System.GPS.LatitudeRef Photo Metadata Policy"
+          href: -wic-photoprop-system-gps-latituderef.md
+        - name: "System.GPS.Longitude Photo Metadata Policy"
+          href: -wic-photoprop-system-gps-longitude.md
+        - name: "System.GPS.Longitude Proxy"
+          href: -wic-photoprop-system-gps-longitude-proxy.md
+        - name: "System.GPS.LongitudeRef Photo Metadata Policy"
+          href: -wic-photoprop-system-gps-longituderef.md
+        - name: "System.GPS.MapDatum Photo Metadata Policy"
+          href: -wic-photoprop-system-gps-mapdatum.md
+        - name: "System.GPS.MeasureMode Photo Metadata Policy"
+          href: -wic-photoprop-system-gps-measuremode.md
+        - name: "System.GPS.ProcessingMethod Photo Metadata Policy"
+          href: -wic-photoprop-system-gps-processingmethod.md
+        - name: "System.GPS.Satellites Photo Metadata Policy"
+          href: -wic-photoprop-system-gps-satellites.md
+        - name: "System.GPS.Speed Photo Metadata Policy"
+          href: -wic-photoprop-system-gps-speed.md
+        - name: "System.GPS.Speed Proxy"
+          href: -wic-photoprop-system-gps-speed-proxy.md
+        - name: "System.GPS.SpeedRef Photo Metadata Policy"
+          href: -wic-photoprop-system-gps-speedref.md
+        - name: "System.GPS.Status Photo Metadata Policy"
+          href: -wic-photoprop-system-gps-status.md
+        - name: "System.GPS.Track Photo Metadata Policy"
+          href: -wic-photoprop-system-gps-track.md
+        - name: "System.GPS.TrackRef Photo Metadata Policy"
+          href: -wic-photoprop-system-gps-trackref.md
+        - name: "System.GPS.TrackRef Proxy"
+          href: -wic-photoprop-system-gps-trackref-proxy.md
+        - name: "System.GPS.VersionID Photo Metadata Policy"
+          href: -wic-photoprop-system-gps-versionid.md
+      - name: "System.Image"
+        href: system-image.md
+        items: 
+        - name: "System.Image.ColorSpace Photo Metadata Policy"
+          href: -wic-photoprop-system-image-colorspace.md
+        - name: "System.Image.CompressedBitsPerPixel Photo Metadata Policy"
+          href: -wic-photoprop-system-image-compressedbitsperpixel.md
+        - name: "System.Image.CompressedBitsPerPixel Proxy"
+          href: -wic-photoprop-system-image-compressedbitsperpixel-proxy.md
+        - name: "System.Image.Compression Photo Metadata Policy"
+          href: -wic-photoprop-system-image-compression.md
+        - name: "System.Image.HorizontalResolution photo metadata policy"
+          href: -wic-photoprop-system-image-horizontalresolution.md
+        - name: "System.Image.HorizontalResolution Proxy"
+          href: -wic-photoprop-system-image-horizontalresolution-proxy.md
+        - name: "System.Image.ImageID Photo Metadata Policy"
+          href: -wic-photoprop-system-image-imageid.md
+        - name: "System.Image.ResolutionUnit Photo Metadata Policy"
+          href: -wic-photoprop-system-image-resolutionunit.md
+        - name: "System.Image.ResolutionUnit Proxy"
+          href: -wic-photoprop-system-image-resolutionunit-proxy.md
+        - name: "System.Image.VerticalResolution Photo Metadata Policy"
+          href: -wic-photoprop-system-image-verticalresolution.md
+        - name: "System.Image.VerticalResolution Proxy"
+          href: -wic-photoprop-system-image-verticalresolution-proxy.md
+      - name: "System.Photo"
+        href: system-photo.md
+        items: 
+        - name: "System.Photo.Aperture Photo Metadata Policy"
+          href: -wic-photoprop-system-photo-aperture.md
+        - name: "System.Photo.Aperture Proxy"
+          href: -wic-photoprop-system-photo-aperture-proxy.md
+        - name: "System.Photo.Brightness Photo Metadata Policy"
+          href: -wic-photoprop-system-photo-brightness.md
+        - name: "System.Photo.Brightness Proxy"
+          href: -wic-photoprop-system-photo-brightness-proxy.md
+        - name: "System.Photo.CameraManufacturer Photo Metadata Policy"
+          href: -wic-photoprop-system-photo-cameramanufacturer.md
+        - name: "System.Photo.CameraModel Photo Metadata Policy"
+          href: -wic-photoprop-system-photo-cameramodel.md
+        - name: "System.Photo.CameraSerialNumber Photo Metadata Policy"
+          href: -wic-photoprop-system-photo-cameraserialnumber.md
+        - name: "System.Photo.Contrast Photo Metadata Policy"
+          href: -wic-photoprop-system-photo-contrast.md
+        - name: "System.Photo.DateTaken Photo Metadata Policy"
+          href: -wic-photoprop-system-photo-datetaken.md
+        - name: "System.Photo.DigitalZoom Photo Metadata Policy"
+          href: -wic-photoprop-system-photo-digitalzoom.md
+        - name: "System.Photo.DigitalZoom Proxy"
+          href: -wic-photoprop-system-photo-digitalzoom-proxy.md
+        - name: "System.Photo.EXIFVersion Photo Metadata Policy"
+          href: -wic-photoprop-system-photo-exifversion.md
+        - name: "System.Photo.ExposureBias Photo Metadata Policy"
+          href: -wic-photoprop-system-photo-exposurebias.md
+        - name: "System.Photo.ExposureBias Proxy"
+          href: -wic-photoprop-system-photo-exposurebias-proxy.md
+        - name: "System.Photo.ExposureTime Photo Metadata Policy"
+          href: -wic-photoprop-system-photo-exposuretime.md
+        - name: "System.Photo.ExposureTime Proxy"
+          href: -wic-photoprop-system-photo-exposuretime-proxy.md
+        - name: "System.Photo.Flash Photo Metadata Policy"
+          href: -wic-photoprop-system-photo-flash.md
+        - name: "System.Photo.FlashEnergy Photo Metadata Policy"
+          href: -wic-photoprop-system-photo-flashenergy.md
+        - name: "System.Photo.FlashEnergy Proxy"
+          href: -wic-photoprop-system-photo-flashenergy-proxy.md
+        - name: "System.Photo.FlashManufacturer Photo Metadata Policy"
+          href: -wic-photoprop-system-photo-flashmanufacturer.md
+        - name: "System.Photo.FlashModel Photo Metadata Policy"
+          href: -wic-photoprop-system-photo-flashmodel.md
+        - name: "System.Photo.FNumber Photo Metadata Policy"
+          href: -wic-photoprop-system-photo-fnumber.md
+        - name: "System.Photo.FNumber Proxy"
+          href: -wic-photoprop-system-photo-fnumber-proxy.md
+        - name: "System.Photo.FocalLength Photo Metadata Policy"
+          href: -wic-photoprop-system-photo-focallength.md
+        - name: "System.Photo.FocalLength Proxy"
+          href: -wic-photoprop-system-photo-focallength-proxy.md
+        - name: "System.Photo.FocalLengthInFilm Photo Metadata Policy"
+          href: -wic-photoprop-system-photo-focallengthinfilm.md
+        - name: "System.Photo.ISOSpeed Photo Metadata Policy"
+          href: -wic-photoprop-system-photo-isospeed.md
+        - name: "System.Photo.LensManufacturer Photo Metadata Policy"
+          href: -wic-photoprop-system-photo-lensmanufacturer.md
+        - name: "System.Photo.LensModel Photo Metadata Policy"
+          href: -wic-photoprop-system-photo-lensmodel.md
+        - name: "System.Photo.LightSource Photo Metadata Policy"
+          href: -wic-photoprop-system-photo-lightsource.md
+        - name: "System.Photo.MakerNote Photo Metadata Policy"
+          href: -wic-photoprop-system-photo-makernote.md
+        - name: "System.Photo.MaxAperture Photo Metadata Policy"
+          href: -wic-photoprop-system-photo-maxaperture.md
+        - name: "System.Photo.MaxAperture Proxy"
+          href: -wic-photoprop-system-photo-maxaperture-proxy.md
+        - name: "System.Photo.MeteringMode Photo Metadata Policy"
+          href: -wic-photoprop-system-photo-meteringmode.md
+        - name: "System.Photo.Orientation Photo Metadata Policy"
+          href: -wic-photoprop-system-photo-orientation.md
+        - name: "System.Photo.PeopleNames Photo Metadata Policy"
+          href: -wic-photoprop-system-photo-peoplenames.md
+        - name: "System.Photo.PhotometricInterpretation Photo Metadata Policy"
+          href: -wic-photoprop-system-photo-photometricinterpretation.md
+        - name: "System.Photo.ProgramMode Photo Metadata Policy"
+          href: -wic-photoprop-system-photo-programmode.md
+        - name: "System.Photo.RelatedSoundFile Photo Metadata Policy"
+          href: -wic-photoprop-system-photo-relatedsoundfile.md
+        - name: "System.Photo.Saturation Photo Metadata Policy"
+          href: -wic-photoprop-system-photo-saturation.md
+        - name: "System.Photo.Sharpness Photo Metadata Policy"
+          href: -wic-photoprop-system-photo-sharpness.md
+        - name: "System.Photo.ShutterSpeed Photo Metadata Policy"
+          href: -wic-photoprop-system-photo-shutterspeed.md
+        - name: "System.Photo.ShutterSpeed Proxy"
+          href: -wic-photoprop-system-photo-shutterspeed-proxy.md
+        - name: "System.Photo.SubjectDistance Photo Metadata Policy"
+          href: -wic-photoprop-system-photo-subjectdistance.md
+        - name: "System.Photo.SubjectDistance Proxy"
+          href: -wic-photoprop-system-photo-subjectdistance-proxy.md
+        - name: "System.Photo.TranscodedForSync Photo Metadata Policy"
+          href: -wic-photoprop-system-photo-transcodedforsync.md
+        - name: "System.Photo.WhiteBalance Photo Metadata Policy"
+          href: -wic-photoprop-system-photo-whitebalance.md
+  - name: "WIC Samples"
+    href: -wic-samples.md
+    items: 
+    - name: "Image Decoding Samples"
+      href: image-decoding-samples.md
+      items: 
+      - name: "WIC Progressive Decoding Sample"
+        href: -wic-sample-progressive-decoding.md
+      - name: "WIC Image Viewer Using Direct2D Sample"
+        href: -wic-sample-d2d-viewer.md
+      - name: "WIC Animated Gif Sample"
+        href: -wic-sample-animated-gif.md
+    - name: "Image Encoding Samples"
+      href: image-encoding-samples.md
+      items: 
+      - name: "How-to: Re-encode a JPEG Image with Metadata"
+        href: -wic-codec-jpegmetadataencoding.md
+  - name: "Glossary"
+    href: -wic-glossary.md

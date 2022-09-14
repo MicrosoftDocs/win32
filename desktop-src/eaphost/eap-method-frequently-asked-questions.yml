@@ -1,0 +1,135 @@
+### YamlMime:FAQ
+metadata:
+  title: EAP Method Frequently Asked Questions
+  description: Provides answers to commonly-asked programming questions about EAP method authoring.
+  ms.assetid: 244e048f-4cc0-4094-a2b9-0f84674a293c
+  ms.topic: faq
+  ms.date: 05/31/2018
+title: EAP Method Frequently Asked Questions
+summary: This topic provides answers to commonly-asked programming questions about EAP method authoring.
+
+
+sections:
+  - name: Ignored
+    questions:
+      - question: |
+          What is "configuration data"?
+        answer: |
+          The terms &quot;configuration data&quot; and &quot;connection data&quot; are synonymous.
+
+      - question: |
+          What is "connection data"?
+        answer: &quot;Connection data&quot; is an EAP method-specific opaque BLOB that contains configuration information for the method. This connection data is created by the method when it is initially configured and is never interpreted or modified by any other component than the EAP method itself.
+
+      - question: |
+          What are "credentials"?
+        answer: |
+          The terms &quot;credentials&quot; and &quot;user data&quot; are synonymous.
+
+      - question: |
+          What is "user data"?
+        answer: &quot;User data&quot; is an EAP method-specific opaque BLOB that contains user credential data, such as a user name and password. The user data is never interpreted or modified by any other component than the EAP method itself. The terms &quot;user data&quot; and &quot;credentials&quot; are synonymous.
+
+      - question: |
+          What is an "EAP attribute"?
+        answer: |
+          An &quot;EAP attribute&quot; is a data structure that contains a predetermined type of data. Attributes are used to communicate information between EAP methods and supplicants, or between EAP methods and authenticators. Peer and authenticator implementations of an EAP method may exchange these attributes over a network.
+
+      - question: |
+          Can the configuration API and the run-time API appear in the same method DLL?
+        answer: |
+          Yes. Be sure to specify the distinction when configuring the registry entries for the EAP method itself. The configuration path and peer path must be the same.
+
+      - question: |
+          Can the configuration API and the run-time API appear in separate method DLLs?
+        answer: |
+          Yes. Be sure to specify the distinction when configuring the registry entries for the EAP method itself. The configuration and peer paths must point to the correct DLLs.
+
+      - question: |
+          How do I install an EAP method?
+        answer: |
+          To install an EAP method, you must first implement [<strong>DllRegisterServer</strong>](/windows/win32/api/olectl/nf-olectl-dllregisterserver) and [<strong>DllUnregisterServer</strong>](/windows/win32/api/olectl/nf-olectl-dllunregisterserver) in the EAP method DLL itself. After that, use <strong>regsvr32.exe</strong> to install and uninstall the method. The appropriate registry keys must also be set. For more information, see [Installing an EAP Method](installing-an-eap-method.md).<br/>
+          
+      - question: |
+          What is in-band Network Access Protection (NAP) support?
+        answer: |
+          When in-band [NAP](/windows/desktop/NAP/network-access-protection-start-page) support is enabled, NAP packets are transported inside EAP method packets. In contrast, when out-of-band NAP support is enabled, the NAP [Statement of Health](https://go.microsoft.com/fwlink/p/?linkid=83917) (SoH) exchange occurs through means other than internal to EAP method packets, and NAP-generated certificates are used in EAP method authentication.
+          
+      - question: |
+          Can I enable in-band NAP support for my EAP method?
+        answer: |
+          Yes, in-band NAP support for your EAP method can be enabled. For more information, see [Enabling In-Band NAP Support for EAP Methods](enabling-in-band-nap-support.md).
+          
+      - question: |
+          How does EAP Flexible Authentication via Secure Tunneling (EAP-FAST) work?
+        answer: |
+          The EAP-FAST scenario works as follows. <br/>
+          <ul>
+          <li>The method processes a password change at single-sign-on (SSO) employing the method UI.</li>
+          <li>The method returns the [<strong>eatCredentialsChanged</strong>](/windows/desktop/api/eaptypes/ne-eaptypes-eap_attribute_type) attribute.</li>
+          <li>The supplicant indicates to the user that credentials have changed and requests the user to re-enter their credentials.</li>
+          <li>The supplicant re-enters the user credentials, and sends those credentials to the method.</li>
+          </ul>
+          For more information on EAP-FAST, see [EAP Flexible Authentication via Secure Tunneling](https://go.microsoft.com/fwlink/p/?linkid=84010) (EAP-FAST).
+          
+      - question: |
+          What is Pre-Shared Key(PSK)?
+        answer: |
+          A method of transmitting and receiving digital signals in which the phase of a transmitted signal is varied to convey information. The [<strong>EAPConfigInputPSK</strong>](/windows/desktop/api/eaptypes/ne-eaptypes-eap_config_input_field_type) input field contains the user's EAP-FAST PSK.
+          
+      - question: |
+          What is WOW and how does it matter to EAPHost?
+        answer: |
+          Microsoft Windows-32-bit-On-Windows-64-bit (WOW) is an operating system component in 64-bit Windows that supports 32-bit x86 platform application. Typically, a EAP method author would define some form of C/C++ structure to encapsulate configuration data, credential data, and interactive UI data. To avoid incompatibilities in WOW and other scenarios, it is important to ensure that data structures are aligned similarly in different processor architectures (32-bit and 64-bit processors). Typically dummy padding is used to align the fields so that the configuration, credential and interactive UI data are identical on both 32-and 64-bit processors.
+
+      - question: |
+          What are "action codes" and under what conditions are these action codes returned?
+        answer: |
+          &quot;Action codes&quot; allow methods to control the flow of authentication, and are integral to the state machine. They are values returned by an EAP method to indicate the next action the EAPHost should take. For example, an action code could indicate to EAPHost that the EAP method has a packet ready for transmission. The supplicant abides by all action codes returned by an EAP method, but never issues action codes.For more information, see [EAP Peer Supplicant Action Codes](/windows/win32/api/eaphostpeertypes/ne-eaphostpeertypes-eaphostpeerresponseaction).<br/>
+          
+      - question: |
+          When does a method return "EapPeerMethodResponseActionDiscard", and what does this action code mean to EAPHost?
+        answer: |
+          [<strong>EapPeerMethodResponseActionDiscard</strong>](/windows/win32/api/eapauthenticatoractiondefine/ne-eapauthenticatoractiondefine-eappeermethodresponseaction) is returned by an EAP method to indicate to the EAPHost that it must discard the packet it supplied to the method. Specifically, the method has determined that the packet is invalid. EAPHost then waits for the next package.
+          
+      - question: |
+          When does a method return "EapPeerMethodResponseActionSend" and what does this action code mean to EAPHost?
+        answer: |
+          [<strong>EapPeerMethodResponseActionSend</strong>](/windows/win32/api/eapauthenticatoractiondefine/ne-eapauthenticatoractiondefine-eappeermethodresponseaction) is returned by an EAP method to indicate to EAPHost that the next packet received by EAPHost must be sent to the network access server (NAS).
+          
+      - question: |
+          When does a method return "EapPeerMethodResponseActionResult" and what does this action code mean to EAPHost?
+        answer: |
+          [<strong>EapPeerMethodResponseActionResult</strong>](/windows/win32/api/eapauthenticatoractiondefine/ne-eapauthenticatoractiondefine-eappeermethodresponseaction) is returned by an EAP method to indicate to the EAPHost that the authentication session has concluded and that the results of that session are available.
+          
+      - question: |
+          When does a method return "EapPeerMethodResponseActionInvokeUI" and what does this action code mean to EAPHost?
+        answer: |
+          [<strong>EapPeerMethodResponseActionInvokeUI</strong>](/windows/win32/api/eapauthenticatoractiondefine/ne-eapauthenticatoractiondefine-eappeermethodresponseaction) is returned by an EAP method to indicate to EAPHost that user input is required to continue with authentication, and that a user interface dialog box must be displayed to obtain that input. Once the user input data has been obtained, EAPHost can call the EAP method again with the updated UI context data.
+          
+      - question: |
+          When does a method return "EapPeerMethodResponseActionRespond" and what does this action code mean to EAPHost?
+        answer: |
+          [<strong>EapPeerMethodResponseActionRespond</strong>](/windows/win32/api/eapauthenticatoractiondefine/ne-eapauthenticatoractiondefine-eappeermethodresponseaction) is returned by an EAP method to indicate to EAPHost that the EAP method has attributes available for EAPHost to use during authentication. EAPHost obtains the attributes by calling the [<strong>EapPeerGetResponseAttributes</strong>](/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeergetresponseattributes) method followed by a call to the [<strong>EapPeerSetResponseAttributes</strong>](/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeersetresponseattributes) method.
+          
+      - question: |
+          When does a method return "EapPeerMethodResponseActionNone" and what does this action code mean to EAPHost?
+        answer: |
+          [<strong>EapPeerMethodResponseActionNone</strong>](/windows/win32/api/eapauthenticatoractiondefine/ne-eapauthenticatoractiondefine-eappeermethodresponseaction) is returned by an EAP method to indicate to EAPHost that no action is required at this time.
+          
+      - question: |
+          Can I enable tracing on the authenticator side?
+        answer: |
+          Yes. For more information, see [Enabling Tracing](enabling-tracing.md).
+           
+additionalContent: |
+
+  ## Related topics
+  
+  [EAPHost Peer Method API Reference](eap-host-peer-method-api-reference.md)
+  
+  [EAPHost General FAQs](general-frequently-asked-questions.yml)
+  
+  [EAPHost Supplicant FAQs](eaphost-supplicant-frequently-asked-questions.yml)
+  
+  [EAPHost Development FAQs](eaphost-development-frequently-asked-questions.md)

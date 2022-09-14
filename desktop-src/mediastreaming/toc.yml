@@ -1,0 +1,490 @@
+- name: "Media Streaming API"
+  href: media-streaming-api-portal.md
+  items: 
+  - name: "Classes"
+    href: classes.md
+    items: 
+    - name: "ActiveBasicDevice"
+      href: /previous-versions/windows/desktop/legacy/dn385755(v=vs.85)
+      items: 
+      - name: "GetCachedBitrateMeasurement method"
+        href: activebasicdevice-getcachedbitratemeasurement.md
+      - name: "GetCachedExtraSinkProtocolInfo method"
+        href: activebasicdevice-getcachedextrasinkprotocolinfo.md
+      - name: "GetCachedSinkProtocolInfo method"
+        href: activebasicdevice-getcachedsinkprotocolinfo.md
+      - name: "GetEffectiveBandwidth method"
+        href: activebasicdevice-geteffectivebandwidth.md
+      - name: "IsAudioSupported property"
+        href: activebasicdevice-isaudiosupported.md
+      - name: "IsImageSupported property"
+        href: activebasicdevice-isimagesupported.md
+      - name: "IsMuteSupported property"
+        href: activebasicdevice-ismutesupported.md
+      - name: "IsSearchSupported property"
+        href: activebasicdevice-issearchsupported.md
+      - name: "IsSetNextSourceSupported property"
+        href: activebasicdevice-issetnextsourcesupported.md
+      - name: "IsVideoSupported property"
+        href: activebasicdevice-isvideosupported.md
+      - name: "LogicalNetworkInterface property"
+        href: activebasicdevice-logicalnetworkinterface.md
+      - name: "MaxVolume property"
+        href: activebasicdevice-maxvolume.md
+      - name: "PhysicalNetworkInterface property"
+        href: activebasicdevice-physicalnetworkinterface.md
+      - name: "SetCachedBitrateMeasurement method"
+        href: activebasicdevice-setcachedbitratemeasurement.md
+      - name: "SetCachedSinkProtocolInfo method"
+        href: activebasicdevice-setcachedsinkprotocolinfo.md
+    - name: "BasicDevice"
+      href: /previous-versions/windows/desktop/legacy/hh828813(v=vs.85)
+      items: 
+      - name: "add_ConnectionStatusChanged Method"
+        href: basicdevice-add-connectionstatuschanged.md
+      - name: "CanWakeDevices Property"
+        href: basicdevice-canwakedevices.md
+      - name: "ConnectionStatus Property"
+        href: /previous-versions/hh828816(v=vs.85)
+      - name: "Description Property"
+        href: basicdevice-description.md
+      - name: "DiscoveredOnCurrentNetwork Property"
+        href: basicdevice-discoveredoncurrentnetwork.md
+      - name: "FriendlyName Property"
+        href: basicdevice-friendlyname.md
+      - name: "Icons Property"
+        href: basicdevice-icons.md
+      - name: "IpAddresses Property"
+        href: basicdevice-ipaddresses.md
+      - name: "ManufacturerName Property"
+        href: basicdevice-manufacturername.md
+      - name: "ManufacturerUrl Property"
+        href: basicdevice-manufacturerurl.md
+      - name: "ModelName Property"
+        href: basicdevice-modelname.md
+      - name: "ModelUrl Property"
+        href: basicdevice-modelurl.md
+      - name: "PhysicalAddresses Property"
+        href: basicdevice-physicaladdresses.md
+      - name: "PresentationUrl Property"
+        href: basicdevice-presentationurl.md
+      - name: "RemoteStreamingUrls Property"
+        href: basicdevice-remotestreamingurls.md
+      - name: "remove_ConnectionStatusChanged Method"
+        href: basicdevice-remove-connectionstatuschanged.md
+      - name: "SerialNumber Property"
+        href: basicdevice-serialnumber.md
+      - name: "Type Property"
+        href: basicdevice-type.md
+      - name: "UniqueDeviceName Property"
+        href: basicdevice-uniquedevicename.md
+    - name: "CreateMediaRendererOperation"
+      href: createmediarendereroperation.md
+      items: 
+      - name: "Completed Property"
+        href: createmediarendereroperation-completed.md
+      - name: "GetResults Method"
+        href: createmediarendereroperation-getresults.md
+    - name: "DeviceController"
+      href: /previous-versions/windows/desktop/legacy/hh828842(v=vs.85)
+      items: 
+      - name: "add_DeviceArrival Method"
+        href: /previous-versions/windows/desktop/legacy/hh828845(v=vs.85)
+      - name: "add_DeviceDeparture Method"
+        href: /previous-versions/hh828846(v=vs.85)
+      - name: "AddDevice Method"
+        href: /previous-versions/windows/desktop/legacy/hh828844(v=vs.85)
+      - name: "CachedDevices Method"
+        href: devicecontroller-cacheddevices.md
+      - name: "remove_DeviceArrival Method"
+        href: /previous-versions/windows/desktop/legacy/hh828849(v=vs.85)
+      - name: "remove_DeviceDeparture Method"
+        href: /previous-versions/windows/desktop/legacy/hh828850(v=vs.85)
+      - name: "RemoveDevice Method"
+        href: /previous-versions/windows/desktop/legacy/hh828848(v=vs.85)
+    - name: "DevicePair"
+      href: /previous-versions/windows/desktop/legacy/dn385771(v=vs.85)
+      items: 
+      - name: "Renderer property"
+        href: devicepair-renderer.md
+      - name: "Server property"
+        href: devicepair-server.md
+    - name: "GetMuteOperation"
+      href: getmuteoperation.md
+      items: 
+      - name: "Completed Property"
+        href: getmuteoperation-completed.md
+      - name: "GetResults Method"
+        href: getmuteoperation-getresults.md
+    - name: "GetPositionInformationOperation"
+      href: getpositioninformationoperation.md
+      items: 
+      - name: "Completed Property"
+        href: getpositioninformationoperation-completed.md
+      - name: "GetResults Method"
+        href: getpositioninformationoperation-getresults.md
+    - name: "GetStreamPropertiesOperation"
+      href: getstreampropertiesoperation.md
+      items: 
+      - name: "Completed property"
+        href: getstreampropertiesoperation-completed.md
+      - name: "GetResults method"
+        href: getstreampropertiesoperation-getresults.md
+    - name: "GetTransportInformationOperation"
+      href: gettransportinformationoperation.md
+      items: 
+      - name: "Completed Property"
+        href: gettransportinformationoperation-completed.md
+      - name: "GetResults Method"
+        href: gettransportinformationoperation-getresults.md
+    - name: "GetVolumeOperation"
+      href: getvolumeoperation.md
+      items: 
+      - name: "Completed Property"
+        href: getvolumeoperation-completed.md
+      - name: "GetResults Method"
+        href: getvolumeoperation-getresults.md
+    - name: "MediaRenderer"
+      href: mediarenderer.md
+      items: 
+      - name: "ActionInformation Property"
+        href: mediarenderer-actioninformation.md
+      - name: "add_RenderingParametersUpdate Method"
+        href: /previous-versions/windows/desktop/legacy/hh828962(v=vs.85)
+      - name: "add_TransportParametersUpdate Method"
+        href: /previous-versions/windows/desktop/legacy/hh828963(v=vs.85)
+      - name: "GetMuteAsync Method"
+        href: /previous-versions/windows/desktop/legacy/hh828964(v=vs.85)
+      - name: "GetPositionInformationAsync Method"
+        href: /previous-versions/windows/desktop/legacy/hh828965(v=vs.85)
+      - name: "GetTransportInformationAsync Method"
+        href: /previous-versions/windows/desktop/legacy/hh828966(v=vs.85)
+      - name: "GetVolumeAsync Method"
+        href: /previous-versions/windows/desktop/legacy/hh828967(v=vs.85)
+      - name: "IsAudioSupported Property"
+        href: mediarenderer-isaudiosupported.md
+      - name: "IsImageSupported Property"
+        href: mediarenderer-isimagesupported.md
+      - name: "IsVideoSupported Property"
+        href: mediarenderer-isvideosupported.md
+      - name: "PauseAsync Method"
+        href: mediarenderer-pauseasync.md
+      - name: "PlayAsync Method"
+        href: /previous-versions/windows/desktop/legacy/hh828972(v=vs.85)
+      - name: "PlayAtSpeedAsync Method"
+        href: /previous-versions/windows/desktop/legacy/hh828973(v=vs.85)
+      - name: "remove_RenderingParametersUpdate Method"
+        href: /previous-versions/windows/desktop/legacy/hh828974(v=vs.85)
+      - name: "remove_TransportParametersUpdate Method"
+        href: /previous-versions/windows/desktop/legacy/hh828975(v=vs.85)
+      - name: "SeekAsync Method"
+        href: /previous-versions/windows/desktop/legacy/hh828976(v=vs.85)
+      - name: "SetMuteAsync Method"
+        href: /previous-versions/windows/desktop/legacy/hh828977(v=vs.85)
+      - name: "SetNextSourceFromMediaSourceAsync Method"
+        href: /previous-versions/windows/desktop/legacy/hh828978(v=vs.85)
+      - name: "SetNextSourceFromStreamAsync Method"
+        href: /previous-versions/windows/desktop/legacy/hh828979(v=vs.85)
+      - name: "SetNextSourceFromUriAsync Method"
+        href: /previous-versions/windows/desktop/legacy/hh828980(v=vs.85)
+      - name: "SetSourceFromMediaSourceAsync Method"
+        href: /previous-versions/windows/desktop/legacy/hh828981(v=vs.85)
+      - name: "SetSourceFromStreamAsync Method"
+        href: /previous-versions/windows/desktop/legacy/hh828982(v=vs.85)
+      - name: "SetSourceFromUriAsync Method"
+        href: /previous-versions/windows/desktop/legacy/hh828983(v=vs.85)
+      - name: "SetVolumeAsync Method"
+        href: /previous-versions/windows/desktop/legacy/hh828984(v=vs.85)
+      - name: "StopAsync Method"
+        href: mediarenderer-stopasync.md
+    - name: "PlaybackOperation"
+      href: playbackoperation.md
+      items: 
+      - name: "Completed Property"
+        href: playbackoperation-completed.md
+      - name: "GetResults Method"
+        href: playbackoperation-getresults.md
+    - name: "StreamSelectOperation"
+      href: streamselectoperation.md
+      items: 
+      - name: "Completed property"
+        href: streamselectoperation-completed.md
+      - name: "GetResults method"
+        href: streamselectoperation-getresults.md
+    - name: "StreamSelector"
+      href: streamselector.md
+      items: 
+      - name: "GetStreamPropertiesAsync method"
+        href: /previous-versions/windows/desktop/legacy/hh829001(v=vs.85)
+      - name: "SelectBestStreamAsync method"
+        href: /previous-versions/windows/desktop/legacy/hh829002(v=vs.85)
+  - name: "Delegates"
+    href: delegates.md
+    items: 
+    - name: "ConnectionStatusHandler"
+      href: /previous-versions/windows/desktop/legacy/hh828836(v=vs.85)
+    - name: "DeviceControllerFinderHandler"
+      href: /previous-versions/windows/desktop/legacy/hh828843(v=vs.85)
+    - name: "RenderingParametersUpdateHandler"
+      href: /previous-versions/windows/desktop/legacy/hh828994(v=vs.85)
+    - name: "TransportParametersUpdateHandler"
+      href: /previous-versions/windows/desktop/legacy/hh829007(v=vs.85)
+  - name: "Enumerations"
+    href: enumerations.md
+    items: 
+    - name: "ConnectionStatus"
+      href: connectionstatus.md
+    - name: "DeviceTypes"
+      href: devicetypes.md
+    - name: "TransportState"
+      href: transportstate.md
+    - name: "TransportStatus"
+      href: transportstatus.md
+  - name: "Events"
+    href: events.md
+    items: 
+    - name: "ConnectionStatusChanged Event"
+      href: connectionstatuschanged.md
+    - name: "DeviceArrival Event"
+      href: devicearrival.md
+    - name: "DeviceDeparture Event"
+      href: devicedeparture.md
+    - name: "RenderingParametersUpdate Event"
+      href: renderingparametersupdate.md
+    - name: "TransportParametersUpdate Event"
+      href: transportparametersupdate.md
+  - name: "Interfaces"
+    href: interfaces.md
+    items: 
+    - name: "IActiveBasicDevice"
+      href: /previous-versions/windows/desktop/api/windows.media.streaming/nn-windows-media-streaming-iactivebasicdevice
+      items: 
+      - name: "GetCachedBitrateMeasurement method"
+        href: /previous-versions/windows/desktop/api/windows.media.streaming/nf-windows-media-streaming-iactivebasicdevice-getcachedbitratemeasurement
+      - name: "GetCachedExtraSinkProtocolInfo method"
+        href: /previous-versions/windows/desktop/api/windows.media.streaming/nf-windows-media-streaming-iactivebasicdevice-getcachedextrasinkprotocolinfo
+      - name: "GetCachedSinkProtocolInfo method"
+        href: /previous-versions/windows/desktop/api/windows.media.streaming/nf-windows-media-streaming-iactivebasicdevice-getcachedsinkprotocolinfo
+      - name: "GetEffectiveBandwidth method"
+        href: /previous-versions/windows/desktop/api/windows.media.streaming/nf-windows-media-streaming-iactivebasicdevice-geteffectivebandwidth
+      - name: "IsAudioSupported method"
+        href: /previous-versions/windows/desktop/legacy/dn385785(v=vs.85)
+      - name: "IsImageSupported method"
+        href: /previous-versions/windows/desktop/legacy/dn385786(v=vs.85)
+      - name: "IsMuteSupported method"
+        href: /previous-versions/windows/desktop/legacy/dn385787(v=vs.85)
+      - name: "IsSearchSupported method"
+        href: /previous-versions/windows/desktop/legacy/dn385788(v=vs.85)
+      - name: "IsSetNextSourceSupported method"
+        href: /previous-versions/windows/desktop/legacy/dn385789(v=vs.85)
+      - name: "IsVideoSupported method"
+        href: /previous-versions/windows/desktop/legacy/dn385790(v=vs.85)
+      - name: "LogicalNetworkInterface method"
+        href: /previous-versions/windows/desktop/legacy/dn385791(v=vs.85)
+      - name: "MaxVolume method"
+        href: /previous-versions/windows/desktop/legacy/dn385792(v=vs.85)
+      - name: "NotifyStreamingStatus method"
+        href: /previous-versions/windows/desktop/api/windows.media.streaming/nf-windows-media-streaming-iactivebasicdevice-notifystreamingstatus
+      - name: "PhysicalNetworkInterface method"
+        href: /previous-versions/windows/desktop/legacy/dn385793(v=vs.85)
+      - name: "SetCachedBitrateMeasurement method"
+        href: /previous-versions/windows/desktop/api/windows.media.streaming/nf-windows-media-streaming-iactivebasicdevice-setcachedbitratemeasurement
+      - name: "SetCachedSinkProtocolInfo method"
+        href: /previous-versions/windows/desktop/api/windows.media.streaming/nf-windows-media-streaming-iactivebasicdevice-setcachedsinkprotocolinfo
+    - name: "IActiveBasicDeviceStatics"
+      href: /previous-versions/windows/desktop/api/windows.media.streaming/nn-windows-media-streaming-iactivebasicdevicestatics
+      items: 
+      - name: "CloneBasicDeviceAsync method"
+        href: /previous-versions/windows/desktop/api/windows.media.streaming/nf-windows-media-streaming-iactivebasicdevicestatics-clonebasicdeviceasync
+      - name: "CreateBasicDeviceAsync method"
+        href: /previous-versions/windows/desktop/api/windows.media.streaming/nf-windows-media-streaming-iactivebasicdevicestatics-createbasicdeviceasync
+      - name: "CreateDevicesOnMatchingNetworkAsync method"
+        href: /previous-versions/windows/desktop/api/windows.media.streaming/nf-windows-media-streaming-iactivebasicdevicestatics-createdevicesonmatchingnetworkasync
+      - name: "GetDevicesOnMatchingNetworkAsync method"
+        href: /previous-versions/windows/desktop/api/windows.media.streaming/nf-windows-media-streaming-iactivebasicdevicestatics-getdevicesonmatchingnetworkasync
+    - name: "IBasicDevice"
+      href: ibasicdevice.md
+      items: 
+      - name: "add_ConnectionStatusChanged Method"
+        href: ibasicdevice-add-connectionstatuschanged.md
+      - name: "CanWakeDevices Method"
+        href: ibasicdevice-canwakedevices.md
+      - name: "ConnectionStatus Method"
+        href: /previous-versions/windows/desktop/legacy/hh828873(v=vs.85)
+      - name: "Description Method"
+        href: ibasicdevice-description.md
+      - name: "DiscoveredOnCurrentNetwork Method"
+        href: ibasicdevice-discoveredoncurrentnetwork.md
+      - name: "FriendlyName Method"
+        href: ibasicdevice-friendlyname.md
+      - name: "Icons Method"
+        href: ibasicdevice-icons.md
+      - name: "IpAddresses Method"
+        href: ibasicdevice-ipaddresses.md
+      - name: "ManufacturerName Method"
+        href: ibasicdevice-manufacturername.md
+      - name: "ManufacturerUrl Method"
+        href: ibasicdevice-manufacturerurl.md
+      - name: "ModelName Method"
+        href: ibasicdevice-modelname.md
+      - name: "ModelNumber Method"
+        href: ibasicdevice-modelnumber.md
+      - name: "ModelUrl Method"
+        href: ibasicdevice-modelurl.md
+      - name: "PhysicalAddresses Method"
+        href: ibasicdevice-physicaladdresses.md
+      - name: "PresentationUrl Method"
+        href: ibasicdevice-presentationurl.md
+      - name: "RemoteStreamingUrls Method"
+        href: ibasicdevice-remotestreamingurls.md
+      - name: "remove_ConnectionStatusChanged Method"
+        href: ibasicdevice-remove-connectionstatuschanged.md
+      - name: "SerialNumber Method"
+        href: ibasicdevice-serialnumber.md
+      - name: "Type Method"
+        href: ibasicdevice-type.md
+      - name: "UniqueDeviceName Method"
+        href: ibasicdevice-uniquedevicename.md
+    - name: "IDeviceController"
+      href: /previous-versions/windows/desktop/legacy/hh828901(v=vs.85)
+      items: 
+      - name: "add_DeviceArrival Method"
+        href: /previous-versions/windows/desktop/legacy/hh828903(v=vs.85)
+      - name: "add_DeviceDeparture Method"
+        href: /previous-versions/windows/desktop/legacy/hh828904(v=vs.85)
+      - name: "AddDevice Method"
+        href: /previous-versions/windows/desktop/legacy/hh828902(v=vs.85)
+      - name: "CachedDevices Method"
+        href: idevicecontroller-cacheddevices.md
+      - name: "remove_DeviceArrival Method"
+        href: /previous-versions/windows/desktop/legacy/hh828907(v=vs.85)
+      - name: "remove_DeviceDeparture Method"
+        href: /previous-versions/windows/desktop/legacy/hh828908(v=vs.85)
+      - name: "RemoveDevice Method"
+        href: /previous-versions/windows/desktop/legacy/hh828906(v=vs.85)
+    - name: "IDeviceIcon"
+      href: /previous-versions/windows/desktop/legacy/hh828909(v=vs.85)
+      items: 
+      - name: "ContentType Method"
+        href: ideviceicon-contenttype.md
+      - name: "Height Method"
+        href: ideviceicon-height.md
+      - name: "Stream Method"
+        href: ideviceicon-stream.md
+      - name: "Width Method"
+        href: ideviceicon-width.md
+    - name: "IDevicePair"
+      href: /previous-versions/windows/desktop/api/windows.media.streaming/nn-windows-media-streaming-idevicepair
+      items: 
+      - name: "get_Renderer method"
+        href: /previous-versions/windows/desktop/api/windows.media.streaming/nf-windows-media-streaming-idevicepair-get_renderer
+      - name: "get_Server method"
+        href: /previous-versions/windows/desktop/api/windows.media.streaming/nf-windows-media-streaming-idevicepair-get_server
+    - name: "IMediaRenderer"
+      href: imediarenderer.md
+      items: 
+      - name: "ActionInformation Method"
+        href: imediarenderer-actioninformation.md
+      - name: "add_RenderingParametersUpdate Method"
+        href: /previous-versions/windows/desktop/api/windows.media.streaming/nf-windows-media-streaming-imediarenderer-add_renderingparametersupdate
+      - name: "add_TransportParametersUpdate Method"
+        href: /previous-versions/windows/desktop/api/windows.media.streaming/nf-windows-media-streaming-imediarenderer-add_transportparametersupdate
+      - name: "GetMuteAsync Method"
+        href: /previous-versions/windows/desktop/legacy/hh828930(v=vs.85)
+      - name: "GetPositionInformationAsync Method"
+        href: /previous-versions/windows/desktop/legacy/hh828931(v=vs.85)
+      - name: "GetTransportInformationAsync Method"
+        href: /previous-versions/windows/desktop/legacy/hh828932(v=vs.85)
+      - name: "GetVolumeAsync Method"
+        href: /previous-versions/windows/desktop/legacy/hh828933(v=vs.85)
+      - name: "IsAudioSupported Method"
+        href: imediarenderer-isaudiosupported.md
+      - name: "IsImageSupported Method"
+        href: imediarenderer-isimagesupported.md
+      - name: "IsVideoSupported Method"
+        href: imediarenderer-isvideosupported.md
+      - name: "PauseAsync Method"
+        href: imediarenderer-pauseasync.md
+      - name: "PlayAsync Method"
+        href: /previous-versions/windows/desktop/legacy/hh828938(v=vs.85)
+      - name: "PlayAtSpeedAsync Method"
+        href: /previous-versions/windows/desktop/legacy/hh828939(v=vs.85)
+      - name: "remove_RenderingParametersUpdate Method"
+        href: /previous-versions/windows/desktop/legacy/hh828940(v=vs.85)
+      - name: "remove_TransportParametersUpdate Method"
+        href: /previous-versions/windows/desktop/legacy/hh828941(v=vs.85)
+      - name: "SeekAsync Method"
+        href: /previous-versions/windows/desktop/legacy/hh828942(v=vs.85)
+      - name: "SetMuteAsync Method"
+        href: /previous-versions/windows/desktop/legacy/hh828943(v=vs.85)
+      - name: "SetNextSourceFromMediaSourceAsync Method"
+        href: /previous-versions/windows/desktop/legacy/hh828944(v=vs.85)
+      - name: "SetNextSourceFromStreamAsync Method"
+        href: /previous-versions/windows/desktop/legacy/hh828945(v=vs.85)
+      - name: "SetNextSourceFromUriAsync Method"
+        href: /previous-versions/windows/desktop/legacy/hh828946(v=vs.85)
+      - name: "SetSourceFromMediaSourceAsync Method"
+        href: /previous-versions/windows/desktop/legacy/hh828947(v=vs.85)
+      - name: "SetSourceFromStreamAsync Method"
+        href: /previous-versions/windows/desktop/legacy/hh828948(v=vs.85)
+      - name: "SetSourceFromUriAsync Method"
+        href: /previous-versions/windows/desktop/legacy/hh828949(v=vs.85)
+      - name: "SetVolumeAsync Method"
+        href: /previous-versions/windows/desktop/legacy/hh828950(v=vs.85)
+      - name: "StopAsync Method"
+        href: imediarenderer-stopasync.md
+    - name: "IMediaRendererActionInformation"
+      href: /previous-versions/windows/desktop/legacy/hh828915(v=vs.85)
+      items: 
+      - name: "IsMuteAvailable Method"
+        href: imediarendereractioninformation-ismuteavailable.md
+      - name: "IsPauseAvailable Method"
+        href: imediarendereractioninformation-ispauseavailable.md
+      - name: "IsPlayAvailable Method"
+        href: imediarendereractioninformation-isplayavailable.md
+      - name: "IsSeekAvailable Method"
+        href: imediarendereractioninformation-isseekavailable.md
+      - name: "IsSetNextSourceAvailable Method"
+        href: imediarendereractioninformation-issetnextsourceavailable.md
+      - name: "IsStopAvailable Method"
+        href: imediarendereractioninformation-isstopavailable.md
+      - name: "IsVolumeAvailable Method"
+        href: imediarendereractioninformation-isvolumeavailable.md
+      - name: "PlaySpeeds Method"
+        href: imediarendereractioninformation-playspeeds.md
+    - name: "IMediaRendererFactory"
+      href: /previous-versions/windows/desktop/legacy/hh828924(v=vs.85)
+      items: 
+      - name: "CreateMediaRendererAsync Method"
+        href: imediarendererfactory-createmediarendererasync.md
+      - name: "CreateMediaRendererFromBasicDeviceAsync Method"
+        href: imediarendererfactory-createmediarendererfrombasicdeviceasync.md
+    - name: "IStreamSelectorStatics"
+      href: /previous-versions/windows/desktop/legacy/hh828953(v=vs.85)
+      items: 
+      - name: "GetStreamPropertiesAsync method"
+        href: /previous-versions/windows/desktop/legacy/hh828954(v=vs.85)
+      - name: "SelectBestStreamAsync method"
+        href: /previous-versions/windows/desktop/legacy/hh828955(v=vs.85)
+    - name: "ITransportParameters"
+      href: /previous-versions/windows/desktop/legacy/hh828956(v=vs.85)
+      items: 
+      - name: "ActionInformation Method"
+        href: itransportparameters-actioninformation.md
+      - name: "TrackInformation Method"
+        href: /previous-versions/windows/desktop/legacy/hh828958(v=vs.85)
+      - name: "TransportInformation Method"
+        href: /previous-versions/windows/desktop/legacy/hh828959(v=vs.85)
+  - name: "Structures"
+    href: structures.md
+    items: 
+    - name: "PlaySpeed"
+      href: /previous-versions/windows/desktop/legacy/hh828990(v=vs.85)
+    - name: "PositionInformation"
+      href: /previous-versions/windows/desktop/legacy/hh828991(v=vs.85)
+    - name: "RenderingParameters"
+      href: /previous-versions/windows/desktop/legacy/hh828992(v=vs.85)
+    - name: "TrackInformation"
+      href: /previous-versions/windows/desktop/legacy/hh829004(v=vs.85)
+    - name: "TransportInformation"
+      href: /previous-versions/windows/desktop/legacy/hh829005(v=vs.85)

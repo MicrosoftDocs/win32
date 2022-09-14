@@ -1,0 +1,1115 @@
+- name: "Core Audio APIs"
+  href: core-audio-apis-in-windows-vista.md
+  items: 
+  - name: "About the Windows Core Audio APIs"
+    href: about-the-windows-core-audio-apis.md
+    items: 
+    - name: "What's New for Core Audio APIs in Windows 7"
+      href: what-s-new-for-core-audio-apis-in-windows-7.md
+    - name: "Header Files and System Components"
+      href: header-files-and-system-components.md
+    - name: "SDK Samples That Use the Core Audio APIs"
+      href: sdk-samples-that-use-the-core-audio-apis.md
+      items: 
+      - name: "AECMicArray"
+        href: aecmicarray.md
+      - name: "CaptureSharedEventDriven"
+        href: capturesharedeventdriven.md
+      - name: "CaptureSharedTimerDriven"
+        href: capturesharedtimerdriven.md
+      - name: "DuckingCaptureSample"
+        href: duckingcapturesample.md
+      - name: "DuckingMediaPlayer"
+        href: duckingmediaplayer.md
+      - name: "EndpointVolume"
+        href: endpointvolume.md
+      - name: "OSD"
+        href: osd.md
+      - name: "RenderExclusiveEventDriven"
+        href: renderexclusiveeventdriven.md
+      - name: "RenderExclusiveTimerDriven"
+        href: renderexclusivetimerdriven.md
+      - name: "RenderSharedEventDriven"
+        href: rendersharedeventdriven.md
+      - name: "RenderSharedTimerDriven"
+        href: rendersharedtimerdriven.md
+  - name: "Programming Guide"
+    href: programming-guide.md
+    items: 
+    - name: "User-Mode Audio Components"
+      href: user-mode-audio-components.md
+    - name: "Protected User Mode Audio (PUMA)"
+      href: protected-user-mode-audio--puma-.md
+    - name: "Audio Endpoint Devices"
+      href: audio-endpoint-devices.md
+      items: 
+      - name: "About MMDevice API"
+        href: mmdevice-api.md
+      - name: "Enumerating Audio Devices"
+        href: enumerating-audio-devices.md
+      - name: "Endpoint ID Strings"
+        href: endpoint-id-strings.md
+      - name: "Audio Endpoint Properties"
+        href: audio-endpoint-properties.md
+      - name: "Device Properties"
+        href: device-properties.md
+      - name: "Device Events"
+        href: device-events.md
+      - name: "Device Roles"
+        href: device-roles.md
+        items: 
+        - name: "Working with Device Roles"
+          href: device-roles-in-windows-vista.md
+        - name: "Interoperability with Legacy Audio APIs"
+          href: interoperability-with-legacy-audio-apis.md
+          items: 
+          - name: "Device Roles for DirectSound Applications"
+            href: device-roles-for-directsound-applications.md
+          - name: "Device Roles for DirectShow Applications"
+            href: device-roles-for-directshow-applications.md
+          - name: "Device Roles for Legacy Windows Multimedia Applications"
+            href: device-roles-for-legacy-windows-multimedia-applications.md
+          - name: "Audio Events for Legacy Audio Applications"
+            href: audio-events-for-legacy-audio-applications.md
+          - name: "Notification Sounds for Legacy Audio Applications"
+            href: notification-sounds-for-legacy-audio-applications.md
+      - name: "Device Formats"
+        href: device-formats.md
+        items: 
+        - name: "Representing Formats for IEC 61937 Transmissions"
+          href: representing-formats-for-iec-61937-transmissions.md
+    - name: "Audio Sessions"
+      href: audio-sessions.md
+      items: 
+      - name: "Audio Session Events"
+        href: audio-session-events.md
+      - name: "Grouping Parameters"
+        href: grouping-parameters.md
+    - name: "Volume Controls"
+      href: volume-controls.md
+      items: 
+      - name: "Session Volume Controls"
+        href: session-volume-controls.md
+      - name: "Endpoint Volume Controls"
+        href: endpoint-volume-controls.md
+      - name: "EndpointVolume API"
+        href: endpointvolume-api.md
+      - name: "Audio-Tapered Volume Controls"
+        href: audio-tapered-volume-controls.md
+      - name: "Peak Meters"
+        href: peak-meters.md
+    - name: "Stream Management"
+      href: stream-management.md
+      items: 
+      - name: "About WASAPI"
+        href: wasapi.md
+      - name: "Rendering a Stream"
+        href: rendering-a-stream.md
+      - name: "Capturing a Stream"
+        href: capturing-a-stream.md
+      - name: "Loopback Recording"
+        href: loopback-recording.md
+      - name: "Exclusive-Mode Streams"
+        href: exclusive-mode-streams.md
+      - name: "Recovering from an Invalid-Device Error"
+        href: recovering-from-an-invalid-device-error.md
+      - name: "Using a Communication Device"
+        href: using-the-communication-device.md
+        items: 
+        - name: "Default Ducking Experience"
+          href: stream-attenuation.md
+        - name: "Disabling the Default Ducking Experience"
+          href: disabling-the-ducking-experience.md
+        - name: "Providing a Custom Ducking Behavior"
+          href: providing-a-custom-ducking-experience.md
+        - name: "Implementation Considerations for Ducking Notifications"
+          href: handling-audio-ducking-events-from-communication-devices.md
+        - name: "Getting Ducking Events"
+          href: getting-ducking-events-from-a-communication-device.md
+      - name: "Stream Routing"
+        href: stream-routing.md
+        items: 
+        - name: "Getting the Device Endpoint for Stream Routing"
+          href: getting-the-default-device-endpoint-for-stream-routing.md
+        - name: "Relevant Notifications for Stream Routing"
+          href: relevant-device-notifications-for-stream-routing.md
+        - name: "Stream Routing Implementation Considerations"
+          href: stream-routing-implementation-considerations.md
+        - name: "Automatic Stream Routing"
+          href: automatic-stream-routing.md
+    - name: "Device Topologies"
+      href: device-topologies.md
+      items: 
+      - name: "DeviceTopology API"
+        href: devicetopology-api.md
+    - name: "Using the IKsControl Interface to Access Audio Properties"
+      href: using-the-ikscontrol-interface-to-access-audio-properties.md
+    - name: "Spatial Sound for Developers"
+      href: spatial-sound.md
+      items: 
+      - name: "Render Spatial Sound Using Spatial Audio Objects"
+        href: render-spatial-sound-using-spatial-audio-objects.md
+      - name: "Recovering from an Invalid-Device Error (Spatial Sound)"
+        href: recovering-from-an-invalid-device-error-spatial-sound.md
+  - name: "Programming Reference"
+    href: programming-reference.md
+    items: 
+    - name: "Core Audio Datatypes"
+      href: core-audio-datatypes.md
+      items: 
+      - name: "SpatialAudioHrtfOrientation"
+        href: spatialaudiohrtforientation.md
+    - name: "Core Audio Interfaces"
+      href: core-audio-interfaces.md
+      items: 
+      - name: "IAudioEndpointFormatControl"
+        href: /windows/desktop/api/AudioEndpoints/nn-audioendpoints-iaudioendpointformatcontrol
+        items: 
+        - name: "ResetToDefault method"
+          href: /windows/desktop/api/AudioEndpoints/nf-audioendpoints-iaudioendpointformatcontrol-resettodefault
+      - name: "IAudioEndpointLastBufferControl"
+        href: /windows/desktop/api/audioengineendpoint/nn-audioengineendpoint-iaudioendpointlastbuffercontrol
+        items: 
+        - name: "IsLastBufferControlSupported method"
+          href: /windows/desktop/api/audioengineendpoint/nf-audioengineendpoint-iaudioendpointlastbuffercontrol-islastbuffercontrolsupported
+        - name: "ReleaseOutputDataPointerForLastBuffer method"
+          href: /windows/desktop/api/audioengineendpoint/nf-audioengineendpoint-iaudioendpointlastbuffercontrol-releaseoutputdatapointerforlastbuffer
+      - name: "IAudioFormatEnumerator"
+        href: /windows/desktop/api/spatialaudioclient/nn-spatialaudioclient-iaudioformatenumerator
+        items: 
+        - name: "GetCount method"
+          href: /windows/desktop/api/spatialaudioclient/nf-spatialaudioclient-iaudioformatenumerator-getcount
+        - name: "GetFormat method"
+          href: /windows/desktop/api/spatialaudioclient/nf-spatialaudioclient-iaudioformatenumerator-getformat
+      - name: "IAudioSystemEffects2"
+        href: /windows/desktop/api/audioenginebaseapo/nn-audioenginebaseapo-iaudiosystemeffects2
+        items: 
+        - name: "GetEffectsList method"
+          href: /windows/desktop/api/audioenginebaseapo/nf-audioenginebaseapo-iaudiosystemeffects2-geteffectslist
+      - name: "IActivateAudioInterfaceAsyncOperation"
+        href: /windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-iactivateaudiointerfaceasyncoperation
+        items: 
+        - name: "GetActivateResult method"
+          href: /windows/desktop/api/mmdeviceapi/nf-mmdeviceapi-iactivateaudiointerfaceasyncoperation-getactivateresult
+      - name: "IActivateAudioInterfaceCompletionHandler"
+        href: /windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-iactivateaudiointerfacecompletionhandler
+        items: 
+        - name: "ActivateCompleted method"
+          href: /windows/desktop/api/mmdeviceapi/nf-mmdeviceapi-iactivateaudiointerfacecompletionhandler-activatecompleted
+      - name: "IAudioAutoGainControl"
+        href: /windows/desktop/api/Devicetopology/nn-devicetopology-iaudioautogaincontrol
+        items: 
+        - name: "GetEnabled"
+          href: /windows/desktop/api/Devicetopology/nf-devicetopology-iaudioautogaincontrol-getenabled
+        - name: "SetEnabled"
+          href: /windows/desktop/api/Devicetopology/nf-devicetopology-iaudioautogaincontrol-setenabled
+      - name: "IAudioBass"
+        href: /windows/desktop/api/devicetopology/nn-devicetopology-iaudiobass
+      - name: "IAudioCaptureClient"
+        href: /windows/desktop/api/Audioclient/nn-audioclient-iaudiocaptureclient
+        items: 
+        - name: "GetBuffer"
+          href: /windows/desktop/api/Audioclient/nf-audioclient-iaudiocaptureclient-getbuffer
+        - name: "GetNextPacketSize"
+          href: /windows/desktop/api/Audioclient/nf-audioclient-iaudiocaptureclient-getnextpacketsize
+        - name: "ReleaseBuffer"
+          href: /windows/desktop/api/Audioclient/nf-audioclient-iaudiocaptureclient-releasebuffer
+      - name: "IAudioChannelConfig"
+        href: /windows/desktop/api/Devicetopology/nn-devicetopology-iaudiochannelconfig
+        items: 
+        - name: "GetChannelConfig"
+          href: /windows/desktop/api/Devicetopology/nf-devicetopology-iaudiochannelconfig-getchannelconfig
+        - name: "SetChannelConfig"
+          href: /windows/desktop/api/Devicetopology/nf-devicetopology-iaudiochannelconfig-setchannelconfig
+      - name: "IAudioClient"
+        href: /windows/desktop/api/Audioclient/nn-audioclient-iaudioclient
+        items: 
+        - name: "GetBufferSize"
+          href: /windows/desktop/api/Audioclient/nf-audioclient-iaudioclient-getbuffersize
+        - name: "GetCurrentPadding"
+          href: /windows/desktop/api/Audioclient/nf-audioclient-iaudioclient-getcurrentpadding
+        - name: "GetDevicePeriod"
+          href: /windows/desktop/api/Audioclient/nf-audioclient-iaudioclient-getdeviceperiod
+        - name: "GetMixFormat"
+          href: /windows/desktop/api/Audioclient/nf-audioclient-iaudioclient-getmixformat
+        - name: "GetService"
+          href: /windows/desktop/api/Audioclient/nf-audioclient-iaudioclient-getservice
+        - name: "GetStreamLatency"
+          href: /windows/desktop/api/Audioclient/nf-audioclient-iaudioclient-getstreamlatency
+        - name: "Initialize"
+          href: /windows/desktop/api/Audioclient/nf-audioclient-iaudioclient-initialize
+        - name: "IsFormatSupported"
+          href: /windows/desktop/api/Audioclient/nf-audioclient-iaudioclient-isformatsupported
+        - name: "Reset"
+          href: /windows/desktop/api/Audioclient/nf-audioclient-iaudioclient-reset
+        - name: "SetEventHandle"
+          href: /windows/desktop/api/Audioclient/nf-audioclient-iaudioclient-seteventhandle
+        - name: "Start"
+          href: /windows/desktop/api/Audioclient/nf-audioclient-iaudioclient-start
+        - name: "Stop"
+          href: /windows/desktop/api/Audioclient/nf-audioclient-iaudioclient-stop
+      - name: "IAudioClient2"
+        href: /windows/desktop/api/Audioclient/nn-audioclient-iaudioclient2
+        items: 
+        - name: "GetBufferSizeLimits"
+          href: /windows/desktop/api/Audioclient/nf-audioclient-iaudioclient2-getbuffersizelimits
+        - name: "IsOffloadCapable"
+          href: /windows/desktop/api/Audioclient/nf-audioclient-iaudioclient2-isoffloadcapable
+        - name: "SetClientProperties method"
+          href: /windows/desktop/api/Audioclient/nf-audioclient-iaudioclient2-setclientproperties
+      - name: "IAudioClient3"
+        href: /windows/desktop/api/audioclient/nn-audioclient-iaudioclient3
+        items: 
+        - name: "GetCurrentSharedModeEnginePeriod method"
+          href: /windows/desktop/api/audioclient/nf-audioclient-iaudioclient3-getcurrentsharedmodeengineperiod
+        - name: "GetSharedModeEnginePeriod method"
+          href: /windows/desktop/api/audioclient/nf-audioclient-iaudioclient3-getsharedmodeengineperiod
+        - name: "InitializeSharedAudioStream method"
+          href: /windows/desktop/api/audioclient/nf-audioclient-iaudioclient3-initializesharedaudiostream
+      - name: "IAudioClock"
+        href: /windows/desktop/api/Audioclient/nn-audioclient-iaudioclock
+        items: 
+        - name: "GetCharacteristics"
+          href: /windows/desktop/api/Audioclient/nf-audioclient-iaudioclock-getcharacteristics
+        - name: "GetFrequency"
+          href: /windows/desktop/api/Audioclient/nf-audioclient-iaudioclock-getfrequency
+        - name: "GetPosition"
+          href: /windows/desktop/api/Audioclient/nf-audioclient-iaudioclock-getposition
+      - name: "IAudioClockAdjustment"
+        href: /windows/desktop/api/audioclient/nn-audioclient-iaudioclockadjustment
+        items: 
+        - name: "SetSampleRate"
+          href: /windows/desktop/api/audioclient/nf-audioclient-iaudioclockadjustment-setsamplerate
+      - name: "IAudioClock2"
+        href: /windows/desktop/api/audioclient/nn-audioclient-iaudioclock2
+        items: 
+        - name: "GetDevicePosition"
+          href: /windows/desktop/api/audioclient/nf-audioclient-iaudioclock2-getdeviceposition
+      - name: "IAudioEndpointOffloadStreamMeter"
+        href: /windows/desktop/api/audioengineendpoint/nn-audioengineendpoint-iaudioendpointoffloadstreammeter
+        items: 
+        - name: "GetMeterChannelCount"
+          href: /windows/desktop/api/Audioengineendpoint/nf-audioengineendpoint-iaudioendpointoffloadstreammeter-getmeterchannelcount
+        - name: "GetMeteringData"
+          href: /windows/desktop/api/Audioengineendpoint/nf-audioengineendpoint-iaudioendpointoffloadstreammeter-getmeteringdata
+      - name: "IAudioEndpointOffloadStreamMute"
+        href: /windows/desktop/api/audioengineendpoint/nn-audioengineendpoint-iaudioendpointoffloadstreammute
+        items: 
+        - name: "GetMute"
+          href: /windows/desktop/api/Audioengineendpoint/nf-audioengineendpoint-iaudioendpointoffloadstreammute-getmute
+        - name: "SetMute"
+          href: /windows/desktop/api/Audioengineendpoint/nf-audioengineendpoint-iaudioendpointoffloadstreammute-setmute
+      - name: "IAudioEndpointOffloadStreamVolume"
+        href: /windows/desktop/api/audioengineendpoint/nn-audioengineendpoint-iaudioendpointoffloadstreamvolume
+        items: 
+        - name: "GetChannelVolumes"
+          href: /windows/desktop/api/Audioengineendpoint/nf-audioengineendpoint-iaudioendpointoffloadstreamvolume-getchannelvolumes
+        - name: "GetVolumeChannelCount"
+          href: /windows/desktop/api/Audioengineendpoint/nf-audioengineendpoint-iaudioendpointoffloadstreamvolume-getvolumechannelcount
+        - name: "SetChannelVolumes"
+          href: /windows/desktop/api/Audioengineendpoint/nf-audioengineendpoint-iaudioendpointoffloadstreamvolume-setchannelvolumes
+      - name: "IAudioEndpointVolume"
+        href: /windows/desktop/api/Endpointvolume/nn-endpointvolume-iaudioendpointvolume
+        items: 
+        - name: "GetChannelCount"
+          href: /windows/desktop/api/Endpointvolume/nf-endpointvolume-iaudioendpointvolume-getchannelcount
+        - name: "GetChannelVolumeLevel"
+          href: /windows/desktop/api/Endpointvolume/nf-endpointvolume-iaudioendpointvolume-getchannelvolumelevel
+        - name: "GetChannelVolumeLevelScalar"
+          href: /windows/desktop/api/Endpointvolume/nf-endpointvolume-iaudioendpointvolume-getchannelvolumelevelscalar
+        - name: "GetMasterVolumeLevel"
+          href: /windows/desktop/api/Endpointvolume/nf-endpointvolume-iaudioendpointvolume-getmastervolumelevel
+        - name: "GetMasterVolumeLevelScalar"
+          href: /windows/desktop/api/Endpointvolume/nf-endpointvolume-iaudioendpointvolume-getmastervolumelevelscalar
+        - name: "GetMute"
+          href: /windows/desktop/api/Endpointvolume/nf-endpointvolume-iaudioendpointvolume-getmute
+        - name: "GetVolumeRange"
+          href: /windows/desktop/api/Endpointvolume/nf-endpointvolume-iaudioendpointvolume-getvolumerange
+        - name: "GetVolumeStepInfo"
+          href: /windows/desktop/api/Endpointvolume/nf-endpointvolume-iaudioendpointvolume-getvolumestepinfo
+        - name: "QueryHardwareSupport"
+          href: /windows/desktop/api/Endpointvolume/nf-endpointvolume-iaudioendpointvolume-queryhardwaresupport
+        - name: "RegisterControlChangeNotify"
+          href: /windows/desktop/api/Endpointvolume/nf-endpointvolume-iaudioendpointvolume-registercontrolchangenotify
+        - name: "SetChannelVolumeLevel"
+          href: /windows/desktop/api/Endpointvolume/nf-endpointvolume-iaudioendpointvolume-setchannelvolumelevel
+        - name: "SetChannelVolumeLevelScalar"
+          href: /windows/desktop/api/Endpointvolume/nf-endpointvolume-iaudioendpointvolume-setchannelvolumelevelscalar
+        - name: "SetMasterVolumeLevel"
+          href: /windows/desktop/api/Endpointvolume/nf-endpointvolume-iaudioendpointvolume-setmastervolumelevel
+        - name: "SetMasterVolumeLevelScalar"
+          href: /windows/desktop/api/Endpointvolume/nf-endpointvolume-iaudioendpointvolume-setmastervolumelevelscalar
+        - name: "SetMute"
+          href: /windows/desktop/api/Endpointvolume/nf-endpointvolume-iaudioendpointvolume-setmute
+        - name: "UnregisterControlChangeNotify"
+          href: /windows/desktop/api/Endpointvolume/nf-endpointvolume-iaudioendpointvolume-unregistercontrolchangenotify
+        - name: "VolumeStepDown"
+          href: /windows/desktop/api/Endpointvolume/nf-endpointvolume-iaudioendpointvolume-volumestepdown
+        - name: "VolumeStepUp"
+          href: /windows/desktop/api/Endpointvolume/nf-endpointvolume-iaudioendpointvolume-volumestepup
+      - name: "IAudioEndpointVolumeCallback"
+        href: /windows/desktop/api/Endpointvolume/nn-endpointvolume-iaudioendpointvolumecallback
+        items: 
+        - name: "OnNotify"
+          href: /windows/desktop/api/Endpointvolume/nf-endpointvolume-iaudioendpointvolumecallback-onnotify
+      - name: "IAudioEndpointVolumeEx"
+        href: /windows/desktop/api/Endpointvolume/nn-endpointvolume-iaudioendpointvolumeex
+        items: 
+        - name: "GetVolumeRangeChannel"
+          href: /windows/desktop/api/Endpointvolume/nf-endpointvolume-iaudioendpointvolumeex-getvolumerangechannel
+      - name: "IAudioInputSelector"
+        href: /windows/desktop/api/Devicetopology/nn-devicetopology-iaudioinputselector
+        items: 
+        - name: "GetSelection"
+          href: /windows/desktop/api/Devicetopology/nf-devicetopology-iaudioinputselector-getselection
+        - name: "SetSelection"
+          href: /windows/desktop/api/Devicetopology/nf-devicetopology-iaudioinputselector-setselection
+      - name: "IAudioLfxControl"
+        href: /windows/desktop/api/Audioengineendpoint/nn-audioengineendpoint-iaudiolfxcontrol
+        items: 
+        - name: "GetLocalEffectsState"
+          href: /windows/desktop/api/Audioengineendpoint/nf-audioengineendpoint-iaudiolfxcontrol-getlocaleffectsstate
+        - name: "SetLocalEffectsState"
+          href: /windows/desktop/api/Audioengineendpoint/nf-audioengineendpoint-iaudiolfxcontrol-setlocaleffectsstate
+      - name: "IAudioLoudness"
+        href: /windows/desktop/api/Devicetopology/nn-devicetopology-iaudioloudness
+        items: 
+        - name: "GetEnabled"
+          href: /windows/desktop/api/Devicetopology/nf-devicetopology-iaudioloudness-getenabled
+        - name: "SetEnabled"
+          href: /windows/desktop/api/Devicetopology/nf-devicetopology-iaudioloudness-setenabled
+      - name: "IAudioMeterInformation"
+        href: /windows/desktop/api/Endpointvolume/nn-endpointvolume-iaudiometerinformation
+        items: 
+        - name: "GetChannelsPeakValues"
+          href: /windows/desktop/api/Endpointvolume/nf-endpointvolume-iaudiometerinformation-getchannelspeakvalues
+        - name: "GetMeteringChannelCount"
+          href: /windows/desktop/api/Endpointvolume/nf-endpointvolume-iaudiometerinformation-getmeteringchannelcount
+        - name: "GetPeakValue"
+          href: /windows/desktop/api/Endpointvolume/nf-endpointvolume-iaudiometerinformation-getpeakvalue
+        - name: "QueryHardwareSupport"
+          href: /windows/desktop/api/Endpointvolume/nf-endpointvolume-iaudiometerinformation-queryhardwaresupport
+      - name: "IAudioMidrange"
+        href: /windows/desktop/api/devicetopology/nn-devicetopology-iaudiomidrange
+      - name: "IAudioMute"
+        href: /windows/desktop/api/Devicetopology/nn-devicetopology-iaudiomute
+        items: 
+        - name: "GetMute"
+          href: /windows/desktop/api/Devicetopology/nf-devicetopology-iaudiomute-getmute
+        - name: "SetMute"
+          href: /windows/desktop/api/Devicetopology/nf-devicetopology-iaudiomute-setmute
+      - name: "IAudioOutputSelector"
+        href: /windows/desktop/api/Devicetopology/nn-devicetopology-iaudiooutputselector
+        items: 
+        - name: "GetSelection"
+          href: /windows/desktop/api/Devicetopology/nf-devicetopology-iaudiooutputselector-getselection
+        - name: "SetSelection"
+          href: /windows/desktop/api/Devicetopology/nf-devicetopology-iaudiooutputselector-setselection
+      - name: "IAudioPeakMeter"
+        href: /windows/desktop/api/Devicetopology/nn-devicetopology-iaudiopeakmeter
+        items: 
+        - name: "GetChannelCount"
+          href: /windows/desktop/api/Devicetopology/nf-devicetopology-iaudiopeakmeter-getchannelcount
+        - name: "GetLevel"
+          href: /windows/desktop/api/Devicetopology/nf-devicetopology-iaudiopeakmeter-getlevel
+      - name: "IAudioRenderClient"
+        href: /windows/desktop/api/Audioclient/nn-audioclient-iaudiorenderclient
+        items: 
+        - name: "GetBuffer"
+          href: /windows/desktop/api/Audioclient/nf-audioclient-iaudiorenderclient-getbuffer
+        - name: "ReleaseBuffer"
+          href: /windows/desktop/api/Audioclient/nf-audioclient-iaudiorenderclient-releasebuffer
+      - name: "IAudioSessionControl"
+        href: /windows/desktop/api/Audiopolicy/nn-audiopolicy-iaudiosessioncontrol
+        items: 
+        - name: "GetIconPath"
+          href: /windows/desktop/api/Audiopolicy/nf-audiopolicy-iaudiosessioncontrol-geticonpath
+        - name: "GetDisplayName"
+          href: /windows/desktop/api/Audiopolicy/nf-audiopolicy-iaudiosessioncontrol-getdisplayname
+        - name: "GetGroupingParam"
+          href: /windows/desktop/api/Audiopolicy/nf-audiopolicy-iaudiosessioncontrol-getgroupingparam
+        - name: "GetState"
+          href: /windows/desktop/api/Audiopolicy/nf-audiopolicy-iaudiosessioncontrol-getstate
+        - name: "RegisterAudioSessionNotification"
+          href: /windows/desktop/api/Audiopolicy/nf-audiopolicy-iaudiosessioncontrol-registeraudiosessionnotification
+        - name: "SetDisplayName"
+          href: /windows/desktop/api/Audiopolicy/nf-audiopolicy-iaudiosessioncontrol-setdisplayname
+        - name: "SetGroupingParam"
+          href: /windows/desktop/api/Audiopolicy/nf-audiopolicy-iaudiosessioncontrol-setgroupingparam
+        - name: "SetIconPath"
+          href: /windows/desktop/api/Audiopolicy/nf-audiopolicy-iaudiosessioncontrol-seticonpath
+        - name: "UnregisterAudioSessionNotification"
+          href: /windows/desktop/api/Audiopolicy/nf-audiopolicy-iaudiosessioncontrol-unregisteraudiosessionnotification
+      - name: "IAudioSessionControl2"
+        href: /windows/desktop/api/audiopolicy/nn-audiopolicy-iaudiosessioncontrol2
+        items: 
+        - name: "GetProcessId"
+          href: /windows/desktop/api/audiopolicy/nf-audiopolicy-iaudiosessioncontrol2-getprocessid
+        - name: "GetSessionIdentifier"
+          href: /windows/desktop/api/audiopolicy/nf-audiopolicy-iaudiosessioncontrol2-getsessionidentifier
+        - name: "GetSessionInstanceIdentifier"
+          href: /windows/desktop/api/audiopolicy/nf-audiopolicy-iaudiosessioncontrol2-getsessioninstanceidentifier
+        - name: "IsSystemSoundsSession"
+          href: /windows/desktop/api/audiopolicy/nf-audiopolicy-iaudiosessioncontrol2-issystemsoundssession
+        - name: "SetDuckingPreference"
+          href: /windows/desktop/api/audiopolicy/nf-audiopolicy-iaudiosessioncontrol2-setduckingpreference
+      - name: "IAudioSessionEnumerator"
+        href: /windows/desktop/api/audiopolicy/nn-audiopolicy-iaudiosessionenumerator
+        items: 
+        - name: "GetCount"
+          href: /windows/desktop/api/audiopolicy/nf-audiopolicy-iaudiosessionenumerator-getcount
+        - name: "GetSession"
+          href: /windows/desktop/api/audiopolicy/nf-audiopolicy-iaudiosessionenumerator-getsession
+      - name: "IAudioSessionEvents"
+        href: /windows/desktop/api/Audiopolicy/nn-audiopolicy-iaudiosessionevents
+        items: 
+        - name: "OnChannelVolumeChanged"
+          href: /windows/desktop/api/Audiopolicy/nf-audiopolicy-iaudiosessionevents-onchannelvolumechanged
+        - name: "OnDisplayNameChanged"
+          href: /windows/desktop/api/Audiopolicy/nf-audiopolicy-iaudiosessionevents-ondisplaynamechanged
+        - name: "OnGroupingParamChanged"
+          href: /windows/desktop/api/Audiopolicy/nf-audiopolicy-iaudiosessionevents-ongroupingparamchanged
+        - name: "OnIconPathChanged"
+          href: /windows/desktop/api/Audiopolicy/nf-audiopolicy-iaudiosessionevents-oniconpathchanged
+        - name: "OnSessionDisconnected"
+          href: /windows/desktop/api/Audiopolicy/nf-audiopolicy-iaudiosessionevents-onsessiondisconnected
+        - name: "OnSimpleVolumeChanged"
+          href: /windows/desktop/api/Audiopolicy/nf-audiopolicy-iaudiosessionevents-onsimplevolumechanged
+        - name: "OnStateChanged"
+          href: /windows/desktop/api/Audiopolicy/nf-audiopolicy-iaudiosessionevents-onstatechanged
+      - name: "IAudioSessionManager"
+        href: /windows/desktop/api/Audiopolicy/nn-audiopolicy-iaudiosessionmanager
+        items: 
+        - name: "GetAudioSessionControl"
+          href: /windows/desktop/api/Audiopolicy/nf-audiopolicy-iaudiosessionmanager-getaudiosessioncontrol
+        - name: "GetSimpleAudioVolume"
+          href: /windows/desktop/api/Audiopolicy/nf-audiopolicy-iaudiosessionmanager-getsimpleaudiovolume
+      - name: "IAudioSessionManager2"
+        href: /windows/desktop/api/audiopolicy/nn-audiopolicy-iaudiosessionmanager2
+        items: 
+        - name: "GetSessionEnumerator"
+          href: /windows/desktop/api/audiopolicy/nf-audiopolicy-iaudiosessionmanager2-getsessionenumerator
+        - name: "RegisterDuckNotification"
+          href: /windows/desktop/api/audiopolicy/nf-audiopolicy-iaudiosessionmanager2-registerducknotification
+        - name: "RegisterSessionNotification"
+          href: /windows/desktop/api/audiopolicy/nf-audiopolicy-iaudiosessionmanager2-registersessionnotification
+        - name: "UnregisterDuckNotification"
+          href: /windows/desktop/api/audiopolicy/nf-audiopolicy-iaudiosessionmanager2-unregisterducknotification
+        - name: "UnregisterSessionNotification"
+          href: /windows/desktop/api/audiopolicy/nf-audiopolicy-iaudiosessionmanager2-unregistersessionnotification
+      - name: "IAudioSessionNotification"
+        href: /windows/desktop/api/audiopolicy/nn-audiopolicy-iaudiosessionnotification
+        items: 
+        - name: "OnSessionCreated"
+          href: /windows/desktop/api/audiopolicy/nf-audiopolicy-iaudiosessionnotification-onsessioncreated
+      - name: "IAudioStreamVolume"
+        href: /windows/desktop/api/Audioclient/nn-audioclient-iaudiostreamvolume
+        items: 
+        - name: "GetAllVolumes"
+          href: /windows/desktop/api/Audioclient/nf-audioclient-iaudiostreamvolume-getallvolumes
+        - name: "GetChannelCount"
+          href: /windows/desktop/api/Audioclient/nf-audioclient-iaudiostreamvolume-getchannelcount
+        - name: "GetChannelVolume"
+          href: /windows/desktop/api/Audioclient/nf-audioclient-iaudiostreamvolume-getchannelvolume
+        - name: "SetAllVolumes"
+          href: /windows/desktop/api/Audioclient/nf-audioclient-iaudiostreamvolume-setallvolumes
+        - name: "SetChannelVolume"
+          href: /windows/desktop/api/Audioclient/nf-audioclient-iaudiostreamvolume-setchannelvolume
+      - name: "IAudioTreble"
+        href: /windows/desktop/api/devicetopology/nn-devicetopology-iaudiotreble
+      - name: "IAudioVolumeLevel"
+        href: /windows/desktop/api/devicetopology/nn-devicetopology-iaudiovolumelevel
+      - name: "IAudioVolumeDuckNotification"
+        href: /windows/desktop/api/AudioPolicy/nn-audiopolicy-iaudiovolumeducknotification
+        items: 
+        - name: "OnVolumeDuckNotification"
+          href: /windows/desktop/api/AudioPolicy/nf-audiopolicy-iaudiovolumeducknotification-onvolumeducknotification
+        - name: "OnVolumeUnduckNotification"
+          href: /windows/desktop/api/AudioPolicy/nf-audiopolicy-iaudiovolumeducknotification-onvolumeunducknotification
+      - name: "IChannelAudioVolume"
+        href: /windows/desktop/api/Audioclient/nn-audioclient-ichannelaudiovolume
+        items: 
+        - name: "GetAllVolumes"
+          href: /windows/desktop/api/Audioclient/nf-audioclient-ichannelaudiovolume-getallvolumes
+        - name: "GetChannelCount"
+          href: /windows/desktop/api/Audioclient/nf-audioclient-ichannelaudiovolume-getchannelcount
+        - name: "GetChannelVolume"
+          href: /windows/desktop/api/Audioclient/nf-audioclient-ichannelaudiovolume-getchannelvolume
+        - name: "SetAllVolumes"
+          href: /windows/desktop/api/Audioclient/nf-audioclient-ichannelaudiovolume-setallvolumes
+        - name: "SetChannelVolume"
+          href: /windows/desktop/api/Audioclient/nf-audioclient-ichannelaudiovolume-setchannelvolume
+      - name: "IConnector"
+        href: /windows/desktop/api/Devicetopology/nn-devicetopology-iconnector
+        items: 
+        - name: "ConnectTo"
+          href: /windows/desktop/api/Devicetopology/nf-devicetopology-iconnector-connectto
+        - name: "Disconnect"
+          href: /windows/desktop/api/Devicetopology/nf-devicetopology-iconnector-disconnect
+        - name: "GetConnectorIdConnectedTo"
+          href: /windows/desktop/api/Devicetopology/nf-devicetopology-iconnector-getconnectoridconnectedto
+        - name: "GetConnectedTo"
+          href: /windows/desktop/api/Devicetopology/nf-devicetopology-iconnector-getconnectedto
+        - name: "GetDataFlow"
+          href: /windows/desktop/api/Devicetopology/nf-devicetopology-iconnector-getdataflow
+        - name: "GetDeviceIdConnectedTo"
+          href: /windows/desktop/api/Devicetopology/nf-devicetopology-iconnector-getdeviceidconnectedto
+        - name: "GetType"
+          href: /windows/desktop/api/Devicetopology/nf-devicetopology-iconnector-gettype
+        - name: "IsConnected"
+          href: /windows/desktop/api/Devicetopology/nf-devicetopology-iconnector-isconnected
+      - name: "IControlChangeNotify"
+        href: /windows/desktop/api/Devicetopology/nn-devicetopology-icontrolchangenotify
+        items: 
+        - name: "OnNotify"
+          href: /windows/desktop/api/Devicetopology/nf-devicetopology-icontrolchangenotify-onnotify
+      - name: "IControlInterface"
+        href: /windows/desktop/api/Devicetopology/nn-devicetopology-icontrolinterface
+        items: 
+        - name: "GetIID"
+          href: /windows/desktop/api/Devicetopology/nf-devicetopology-icontrolinterface-getiid
+        - name: "GetName"
+          href: /windows/desktop/api/Devicetopology/nf-devicetopology-icontrolinterface-getname
+      - name: "IDeviceSpecificProperty"
+        href: /windows/desktop/api/Devicetopology/nn-devicetopology-idevicespecificproperty
+        items: 
+        - name: "Get4BRange"
+          href: /windows/desktop/api/Devicetopology/nf-devicetopology-idevicespecificproperty-get4brange
+        - name: "GetType"
+          href: /windows/desktop/api/Devicetopology/nf-devicetopology-idevicespecificproperty-gettype
+        - name: "GetValue"
+          href: /windows/desktop/api/Devicetopology/nf-devicetopology-idevicespecificproperty-getvalue
+        - name: "SetValue"
+          href: /windows/desktop/api/Devicetopology/nf-devicetopology-idevicespecificproperty-setvalue
+      - name: "IDeviceTopology"
+        href: /windows/desktop/api/Devicetopology/nn-devicetopology-idevicetopology
+        items: 
+        - name: "GetConnector"
+          href: /windows/desktop/api/Devicetopology/nf-devicetopology-idevicetopology-getconnector
+        - name: "GetConnectorCount"
+          href: /windows/desktop/api/Devicetopology/nf-devicetopology-idevicetopology-getconnectorcount
+        - name: "GetDeviceId"
+          href: /windows/desktop/api/Devicetopology/nf-devicetopology-idevicetopology-getdeviceid
+        - name: "GetPartById"
+          href: /windows/desktop/api/Devicetopology/nf-devicetopology-idevicetopology-getpartbyid
+        - name: "GetSignalPath"
+          href: /windows/desktop/api/Devicetopology/nf-devicetopology-idevicetopology-getsignalpath
+        - name: "GetSubunit"
+          href: /windows/desktop/api/Devicetopology/nf-devicetopology-idevicetopology-getsubunit
+        - name: "GetSubunitCount"
+          href: /windows/desktop/api/Devicetopology/nf-devicetopology-idevicetopology-getsubunitcount
+      - name: "IHardwareAudioEngineBase"
+        href: /windows/desktop/api/Audioengineendpoint/nn-audioengineendpoint-ihardwareaudioenginebase
+        items: 
+        - name: "GetAvailableOffloadConnectorCount"
+          href: /windows/desktop/api/Audioengineendpoint/nf-audioengineendpoint-ihardwareaudioenginebase-getavailableoffloadconnectorcount
+        - name: "GetEngineFormat"
+          href: /windows/desktop/api/audioengineendpoint/nf-audioengineendpoint-ihardwareaudioenginebase-getengineformat
+        - name: "GetGfxState"
+          href: /windows/desktop/api/audioengineendpoint/nf-audioengineendpoint-ihardwareaudioenginebase-getgfxstate
+        - name: "SetEngineDeviceFormat"
+          href: /windows/desktop/api/audioengineendpoint/nf-audioengineendpoint-ihardwareaudioenginebase-setenginedeviceformat
+        - name: "SetGfxState"
+          href: /windows/desktop/api/audioengineendpoint/nf-audioengineendpoint-ihardwareaudioenginebase-setgfxstate
+      - name: "IKsFormatSupport"
+        href: /windows/desktop/api/Devicetopology/nn-devicetopology-iksformatsupport
+        items: 
+        - name: "GetDevicePreferredFormat"
+          href: /windows/desktop/api/Devicetopology/nf-devicetopology-iksformatsupport-getdevicepreferredformat
+        - name: "IsFormatSupported"
+          href: /windows/desktop/api/Devicetopology/nf-devicetopology-iksformatsupport-isformatsupported
+      - name: "IKsJackDescription"
+        href: /windows/desktop/api/Devicetopology/nn-devicetopology-iksjackdescription
+        items: 
+        - name: "GetJackCount"
+          href: /windows/desktop/api/Devicetopology/nf-devicetopology-iksjackdescription-getjackcount
+        - name: "GetJackDescription"
+          href: /windows/desktop/api/Devicetopology/nf-devicetopology-iksjackdescription-getjackdescription
+      - name: "IKsJackDescription2"
+        href: /windows/desktop/api/Devicetopology/nn-devicetopology-iksjackdescription2
+        items: 
+        - name: "GetJackCount"
+          href: /windows/desktop/api/Devicetopology/nf-devicetopology-iksjackdescription2-getjackcount
+        - name: "GetJackDescription2"
+          href: /windows/desktop/api/Devicetopology/nf-devicetopology-iksjackdescription2-getjackdescription2
+      - name: "IKsJackSinkInformation"
+        href: /windows/desktop/api/Devicetopology/nn-devicetopology-iksjacksinkinformation
+        items: 
+        - name: "GetJackSinkInformation"
+          href: /windows/desktop/api/Devicetopology/nf-devicetopology-iksjacksinkinformation-getjacksinkinformation
+      - name: "IMMDevice"
+        href: /windows/desktop/api/Mmdeviceapi/nn-mmdeviceapi-immdevice
+        items: 
+        - name: "Activate"
+          href: /windows/desktop/api/Mmdeviceapi/nf-mmdeviceapi-immdevice-activate
+        - name: "GetId"
+          href: /windows/desktop/api/Mmdeviceapi/nf-mmdeviceapi-immdevice-getid
+        - name: "GetState"
+          href: /windows/desktop/api/Mmdeviceapi/nf-mmdeviceapi-immdevice-getstate
+        - name: "OpenPropertyStore"
+          href: /windows/desktop/api/Mmdeviceapi/nf-mmdeviceapi-immdevice-openpropertystore
+      - name: "IMMDeviceCollection"
+        href: /windows/desktop/api/Mmdeviceapi/nn-mmdeviceapi-immdevicecollection
+        items: 
+        - name: "GetCount"
+          href: /windows/desktop/api/Mmdeviceapi/nf-mmdeviceapi-immdevicecollection-getcount
+        - name: "Item"
+          href: /windows/desktop/api/Mmdeviceapi/nf-mmdeviceapi-immdevicecollection-item
+      - name: "IMMDeviceEnumerator"
+        href: /windows/desktop/api/Mmdeviceapi/nn-mmdeviceapi-immdeviceenumerator
+        items: 
+        - name: "EnumAudioEndpoints"
+          href: /windows/desktop/api/Mmdeviceapi/nf-mmdeviceapi-immdeviceenumerator-enumaudioendpoints
+        - name: "GetDefaultAudioEndpoint"
+          href: /windows/desktop/api/Mmdeviceapi/nf-mmdeviceapi-immdeviceenumerator-getdefaultaudioendpoint
+        - name: "GetDevice"
+          href: /windows/desktop/api/Mmdeviceapi/nf-mmdeviceapi-immdeviceenumerator-getdevice
+        - name: "RegisterEndpointNotificationCallback"
+          href: /windows/desktop/api/Mmdeviceapi/nf-mmdeviceapi-immdeviceenumerator-registerendpointnotificationcallback
+        - name: "UnregisterEndpointNotificationCallback"
+          href: /windows/desktop/api/Mmdeviceapi/nf-mmdeviceapi-immdeviceenumerator-unregisterendpointnotificationcallback
+      - name: "IMMEndpoint"
+        href: /windows/desktop/api/Mmdeviceapi/nn-mmdeviceapi-immendpoint
+        items: 
+        - name: "GetDataFlow"
+          href: /windows/desktop/api/Mmdeviceapi/nf-mmdeviceapi-immendpoint-getdataflow
+      - name: "IMMNotificationClient"
+        href: /windows/desktop/api/Mmdeviceapi/nn-mmdeviceapi-immnotificationclient
+        items: 
+        - name: "OnDefaultDeviceChanged"
+          href: /windows/desktop/api/Mmdeviceapi/nf-mmdeviceapi-immnotificationclient-ondefaultdevicechanged
+        - name: "OnDeviceAdded"
+          href: /windows/desktop/api/Mmdeviceapi/nf-mmdeviceapi-immnotificationclient-ondeviceadded
+        - name: "OnDeviceRemoved"
+          href: /windows/desktop/api/Mmdeviceapi/nf-mmdeviceapi-immnotificationclient-ondeviceremoved
+        - name: "OnDeviceStateChanged"
+          href: /windows/desktop/api/Mmdeviceapi/nf-mmdeviceapi-immnotificationclient-ondevicestatechanged
+        - name: "OnPropertyValueChanged"
+          href: /windows/desktop/api/Mmdeviceapi/nf-mmdeviceapi-immnotificationclient-onpropertyvaluechanged
+      - name: "ISimpleAudioVolume"
+        href: /windows/desktop/api/Audioclient/nn-audioclient-isimpleaudiovolume
+        items: 
+        - name: "GetMasterVolume"
+          href: /windows/desktop/api/Audioclient/nf-audioclient-isimpleaudiovolume-getmastervolume
+        - name: "GetMute"
+          href: /windows/desktop/api/Audioclient/nf-audioclient-isimpleaudiovolume-getmute
+        - name: "SetMasterVolume"
+          href: /windows/desktop/api/Audioclient/nf-audioclient-isimpleaudiovolume-setmastervolume
+        - name: "SetMute"
+          href: /windows/desktop/api/Audioclient/nf-audioclient-isimpleaudiovolume-setmute
+      - name: "ISpatialAudioClient"
+        href: /windows/desktop/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioclient
+        items: 
+        - name: "ActivateSpatialAudioStream method"
+          href: /windows/desktop/api/spatialaudioclient/nf-spatialaudioclient-ispatialaudioclient-activatespatialaudiostream
+        - name: "GetMaxDynamicObjectCount method"
+          href: /windows/desktop/api/spatialaudioclient/nf-spatialaudioclient-ispatialaudioclient-getmaxdynamicobjectcount
+        - name: "GetMaxFrameCount method"
+          href: /windows/desktop/api/spatialaudioclient/nf-spatialaudioclient-ispatialaudioclient-getmaxframecount
+        - name: "GetNativeStaticObjectTypeMask method"
+          href: /windows/desktop/api/spatialaudioclient/nf-spatialaudioclient-ispatialaudioclient-getnativestaticobjecttypemask
+        - name: "GetStaticObjectPosition method"
+          href: /windows/desktop/api/spatialaudioclient/nf-spatialaudioclient-ispatialaudioclient-getstaticobjectposition
+        - name: "GetSupportedAudioObjectFormatEnumerator method"
+          href: /windows/desktop/api/spatialaudioclient/nf-spatialaudioclient-ispatialaudioclient-getsupportedaudioobjectformatenumerator
+        - name: "IsAudioObjectFormatSupported method"
+          href: /windows/desktop/api/spatialaudioclient/nf-spatialaudioclient-ispatialaudioclient-isaudioobjectformatsupported
+        - name: "IsSpatialAudioStreamAvailable method"
+          href: /windows/desktop/api/spatialaudioclient/nf-spatialaudioclient-ispatialaudioclient-isspatialaudiostreamavailable
+      - name: "ISpatialAudioMetadataClient"
+        href: /windows/desktop/api/SpatialAudioMetadata/nn-spatialaudiometadata-ispatialaudiometadataclient
+        items: 
+        - name: "ActivateSpatialAudioMetadataCopier method"
+          href: /windows/desktop/api/spatialaudiometadata/nf-spatialaudiometadata-ispatialaudiometadataclient-activatespatialaudiometadatacopier
+        - name: "ActivateSpatialAudioMetadataItems method"
+          href: /windows/desktop/api/spatialaudiometadata/nf-spatialaudiometadata-ispatialaudiometadataclient-activatespatialaudiometadataitems
+        - name: "ActivateSpatialAudioMetadataReader method"
+          href: /windows/desktop/api/spatialaudiometadata/nf-spatialaudiometadata-ispatialaudiometadataclient-activatespatialaudiometadatareader
+        - name: "ActivateSpatialAudioMetadataWriter method"
+          href: /windows/desktop/api/spatialaudiometadata/nf-spatialaudiometadata-ispatialaudiometadataclient-activatespatialaudiometadatawriter
+        - name: "GetSpatialAudioMetadataItemsBufferLength method"
+          href: /windows/desktop/api/spatialaudiometadata/nf-spatialaudiometadata-ispatialaudiometadataclient-getspatialaudiometadataitemsbufferlength
+      - name: "ISpatialAudioMetadataCopier"
+        href: /windows/desktop/api/SpatialAudioMetadata/nn-spatialaudiometadata-ispatialaudiometadatacopier
+        items: 
+        - name: "Open method"
+          href: /windows/desktop/api/SpatialAudioMetadata/nf-spatialaudiometadata-ispatialaudiometadatacopier-open
+        - name: "Close method"
+          href: /windows/desktop/api/SpatialAudioMetadata/nf-spatialaudiometadata-ispatialaudiometadatacopier-close
+        - name: "CopyMetadataForFrames method"
+          href: /windows/desktop/api/SpatialAudioMetadata/nf-spatialaudiometadata-ispatialaudiometadatacopier-copymetadataforframes
+      - name: "ISpatialAudioMetadataItems"
+        href: /windows/desktop/api/SpatialAudioMetadata/nn-spatialaudiometadata-ispatialaudiometadataitems
+        items: 
+        - name: "GetFrameCount method"
+          href: /windows/desktop/api/SpatialAudioMetadata/nf-spatialaudiometadata-ispatialaudiometadataitems-getframecount
+        - name: "GetInfo method"
+          href: /windows/desktop/api/SpatialAudioMetadata/nf-spatialaudiometadata-ispatialaudiometadataitems-getinfo
+        - name: "GetItemCount method"
+          href: /windows/desktop/api/SpatialAudioMetadata/nf-spatialaudiometadata-ispatialaudiometadataitems-getitemcount
+        - name: "GetMaxItemCount method"
+          href: /windows/desktop/api/SpatialAudioMetadata/nf-spatialaudiometadata-ispatialaudiometadataitems-getmaxitemcount
+        - name: "GetMaxValueBufferLength method"
+          href: /windows/desktop/api/SpatialAudioMetadata/nf-spatialaudiometadata-ispatialaudiometadataitems-getmaxvaluebufferlength
+      - name: "ISpatialAudioMetadataItemsBuffer"
+        href: /windows/desktop/api/SpatialAudioMetadata/nn-spatialaudiometadata-ispatialaudiometadataitemsbuffer
+        items: 
+        - name: "AttachToBuffer method"
+          href: /windows/desktop/api/SpatialAudioMetadata/nf-spatialaudiometadata-ispatialaudiometadataitemsbuffer-attachtobuffer
+        - name: "AttachToPopulatedBuffer method"
+          href: /windows/desktop/api/SpatialAudioMetadata/nf-spatialaudiometadata-ispatialaudiometadataitemsbuffer-attachtopopulatedbuffer
+        - name: "DetachBuffer method"
+          href: /windows/desktop/api/SpatialAudioMetadata/nf-spatialaudiometadata-ispatialaudiometadataitemsbuffer-detachbuffer
+      - name: "ISpatialAudioMetadataReader"
+        href: /windows/desktop/api/SpatialAudioMetadata/nn-spatialaudiometadata-ispatialaudiometadatareader
+        items: 
+        - name: "Close method"
+          href: /windows/desktop/api/SpatialAudioMetadata/nf-spatialaudiometadata-ispatialaudiometadatareader-close
+        - name: "Open method"
+          href: /windows/desktop/api/SpatialAudioMetadata/nf-spatialaudiometadata-ispatialaudiometadatareader-open
+        - name: "ReadItemCountInFrames method"
+          href: /previous-versions/windows/desktop/legacy/mt798194(v=vs.85)
+        - name: "ReadNextItem method"
+          href: /windows/desktop/api/SpatialAudioMetadata/nf-spatialaudiometadata-ispatialaudiometadatareader-readnextitem
+        - name: "ReadNextItemCommand method"
+          href: /windows/desktop/api/SpatialAudioMetadata/nf-spatialaudiometadata-ispatialaudiometadatareader-readnextitemcommand
+      - name: "ISpatialAudioMetadataWriter"
+        href: /windows/desktop/api/SpatialAudioMetadata/nn-spatialaudiometadata-ispatialaudiometadatawriter
+        items: 
+        - name: "Close method"
+          href: ispatialaudiometadatawriter-close.md
+        - name: "Open method"
+          href: /windows/desktop/api/SpatialAudioMetadata/nf-spatialaudiometadata-ispatialaudiometadatawriter-open
+        - name: "WriteNextItem method"
+          href: /windows/desktop/api/SpatialAudioMetadata/nf-spatialaudiometadata-ispatialaudiometadatawriter-writenextitem
+        - name: "WriteNextItemCommand method"
+          href: /windows/desktop/api/SpatialAudioMetadata/nf-spatialaudiometadata-ispatialaudiometadatawriter-writenextitemcommand
+      - name: "ISpatialAudioObject"
+        href: /windows/desktop/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioobject
+        items: 
+        - name: "GetAudioObjectType method"
+          href: /windows/desktop/api/spatialaudioclient/nf-spatialaudioclient-ispatialaudioobjectbase-getaudioobjecttype
+        - name: "GetBuffer method"
+          href: /windows/desktop/api/spatialaudioclient/nf-spatialaudioclient-ispatialaudioobjectbase-getbuffer
+        - name: "IsActive method"
+          href: /windows/desktop/api/spatialaudioclient/nf-spatialaudioclient-ispatialaudioobjectbase-isactive
+        - name: "SetEndOfStream method"
+          href: /windows/desktop/api/spatialaudioclient/nf-spatialaudioclient-ispatialaudioobjectbase-setendofstream
+        - name: "SetPosition method"
+          href: /windows/desktop/api/spatialaudioclient/nf-spatialaudioclient-ispatialaudioobject-setposition
+        - name: "SetVolume method"
+          href: /windows/desktop/api/spatialaudioclient/nf-spatialaudioclient-ispatialaudioobject-setvolume
+      - name: "ISpatialAudioObjectForHrtf"
+        href: /windows/desktop/api/spatialaudiohrtf/nn-spatialaudiohrtf-ispatialaudioobjectforhrtf
+        items: 
+        - name: "GetAudioObjectType method"
+          href: /previous-versions/windows/desktop/legacy/mt779270(v=vs.85)
+        - name: "GetBuffer method"
+          href: /previous-versions/windows/desktop/legacy/mt779271(v=vs.85)
+        - name: "IsActive method"
+          href: /previous-versions/windows/desktop/legacy/mt779272(v=vs.85)
+        - name: "SetDirectivity method"
+          href: /windows/desktop/api/spatialaudiohrtf/nf-spatialaudiohrtf-ispatialaudioobjectforhrtf-setdirectivity
+        - name: "SetDistanceDecay method"
+          href: /windows/desktop/api/spatialaudiohrtf/nf-spatialaudiohrtf-ispatialaudioobjectforhrtf-setdistancedecay
+        - name: "SetEndOfStream method"
+          href: /previous-versions/windows/desktop/legacy/mt779275(v=vs.85)
+        - name: "SetEnvironment method"
+          href: /windows/desktop/api/spatialaudiohrtf/nf-spatialaudiohrtf-ispatialaudioobjectforhrtf-setenvironment
+        - name: "SetGain method"
+          href: /windows/desktop/api/spatialaudiohrtf/nf-spatialaudiohrtf-ispatialaudioobjectforhrtf-setgain
+        - name: "SetOrientation method"
+          href: /windows/desktop/api/spatialaudiohrtf/nf-spatialaudiohrtf-ispatialaudioobjectforhrtf-setorientation
+        - name: "SetPosition method"
+          href: /windows/desktop/api/spatialaudiohrtf/nf-spatialaudiohrtf-ispatialaudioobjectforhrtf-setposition
+      - name: "ISpatialAudioObjectForMetadataCommands"
+        href: /windows/desktop/api/spatialaudiometadata/nn-spatialaudiometadata-ispatialaudioobjectformetadatacommands
+        items: 
+        - name: "GetAudioObjectType method"
+          href: /previous-versions/windows/desktop/legacy/mt798203(v=vs.85)
+        - name: "GetBuffer method"
+          href: /previous-versions/windows/desktop/legacy/mt798204(v=vs.85)
+        - name: "IsActive method"
+          href: /previous-versions/windows/desktop/legacy/mt798205(v=vs.85)
+        - name: "SetEndOfStream method"
+          href: /previous-versions/windows/desktop/legacy/mt798206(v=vs.85)
+        - name: "WriteNextMetadataCommand method"
+          href: /windows/desktop/api/spatialaudiometadata/nf-spatialaudiometadata-ispatialaudioobjectformetadatacommands-writenextmetadatacommand
+      - name: "ISpatialAudioObjectForMetadataItems"
+        href: /windows/desktop/api/spatialaudiometadata/nn-spatialaudiometadata-ispatialaudioobjectformetadataitems
+        items: 
+        - name: "GetAudioObjectType method"
+          href: /previous-versions/windows/desktop/legacy/mt798211(v=vs.85)
+        - name: "GetBuffer method"
+          href: /previous-versions/windows/desktop/legacy/mt798212(v=vs.85)
+        - name: "GetSpatialAudioMetadataItems method"
+          href: /windows/desktop/api/spatialaudiometadata/nf-spatialaudiometadata-ispatialaudioobjectformetadataitems-getspatialaudiometadataitems
+        - name: "IsActive method"
+          href: /previous-versions/windows/desktop/legacy/mt798214(v=vs.85)
+        - name: "SetEndOfStream method"
+          href: /previous-versions/windows/desktop/legacy/mt798215(v=vs.85)
+      - name: "ISpatialAudioObjectRenderStream"
+        href: /windows/desktop/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioobjectrenderstream
+        items: 
+        - name: "ActivateSpatialAudioObject method"
+          href: /windows/desktop/api/spatialaudioclient/nf-spatialaudioclient-ispatialaudioobjectrenderstream-activatespatialaudioobject
+        - name: "BeginUpdatingAudioObjects method"
+          href: /windows/desktop/api/spatialaudioclient/nf-spatialaudioclient-ispatialaudioobjectrenderstreambase-beginupdatingaudioobjects
+        - name: "EndUpdatingAudioObjects method"
+          href: /windows/desktop/api/spatialaudioclient/nf-spatialaudioclient-ispatialaudioobjectrenderstreambase-endupdatingaudioobjects
+        - name: "GetAvailableDynamicObjectCount method"
+          href: /windows/desktop/api/spatialaudioclient/nf-spatialaudioclient-ispatialaudioobjectrenderstreambase-getavailabledynamicobjectcount
+        - name: "GetService method"
+          href: /windows/desktop/api/spatialaudioclient/nf-spatialaudioclient-ispatialaudioobjectrenderstreambase-getservice
+        - name: "Reset method"
+          href: /windows/desktop/api/spatialaudioclient/nf-spatialaudioclient-ispatialaudioobjectrenderstreambase-reset
+        - name: "Start method"
+          href: /windows/desktop/api/spatialaudioclient/nf-spatialaudioclient-ispatialaudioobjectrenderstreambase-start
+        - name: "Stop method"
+          href: /windows/desktop/api/spatialaudioclient/nf-spatialaudioclient-ispatialaudioobjectrenderstreambase-stop
+      - name: "ISpatialAudioObjectRenderStreamBase"
+        href: /windows/desktop/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioobjectrenderstreambase
+        items: 
+        - name: "BeginUpdatingAudioObjects method"
+          href: /windows/desktop/api/spatialaudioclient/nf-spatialaudioclient-ispatialaudioobjectrenderstreambase-beginupdatingaudioobjects
+        - name: "EndUpdatingAudioObjects method"
+          href: /windows/desktop/api/spatialaudioclient/nf-spatialaudioclient-ispatialaudioobjectrenderstreambase-endupdatingaudioobjects
+        - name: "GetAvailableDynamicObjectCount method"
+          href: /windows/desktop/api/spatialaudioclient/nf-spatialaudioclient-ispatialaudioobjectrenderstreambase-getavailabledynamicobjectcount
+        - name: "GetService method"
+          href: /windows/desktop/api/spatialaudioclient/nf-spatialaudioclient-ispatialaudioobjectrenderstreambase-getservice
+        - name: "Reset method"
+          href: /windows/desktop/api/spatialaudioclient/nf-spatialaudioclient-ispatialaudioobjectrenderstreambase-reset
+        - name: "Start method"
+          href: /windows/desktop/api/spatialaudioclient/nf-spatialaudioclient-ispatialaudioobjectrenderstreambase-start
+        - name: "Stop method"
+          href: /windows/desktop/api/spatialaudioclient/nf-spatialaudioclient-ispatialaudioobjectrenderstreambase-stop
+      - name: "ISpatialAudioRenderStreamForHrtf"
+        href: /windows/desktop/api/spatialaudiohrtf/nn-spatialaudiohrtf-ispatialaudioobjectrenderstreamforhrtf
+        items: 
+        - name: "ActivateSpatialAudioObjectForHrtf method"
+          href: /windows/desktop/api/spatialaudiohrtf/nf-spatialaudiohrtf-ispatialaudioobjectrenderstreamforhrtf-activatespatialaudioobjectforhrtf
+        - name: "BeginUpdatingAudioObjects method"
+          href: /previous-versions/windows/desktop/legacy/mt779299(v=vs.85)
+        - name: "EndUpdatingAudioObjects method"
+          href: /previous-versions/windows/desktop/legacy/mt779300(v=vs.85)
+        - name: "GetAvailableDynamicObjectCount method"
+          href: /previous-versions/windows/desktop/legacy/mt779301(v=vs.85)
+        - name: "GetService method"
+          href: /previous-versions/windows/desktop/legacy/mt779302(v=vs.85)
+        - name: "Reset method"
+          href: /previous-versions/windows/desktop/legacy/mt779303(v=vs.85)
+        - name: "Start method"
+          href: /previous-versions/windows/desktop/legacy/mt779304(v=vs.85)
+        - name: "Stop method"
+          href: /previous-versions/windows/desktop/legacy/mt779305(v=vs.85)
+      - name: "ISpatialAudioObjectRenderStreamForMetadata"
+        href: /windows/desktop/api/SpatialAudioMetadata/nn-spatialaudiometadata-ispatialaudioobjectrenderstreamformetadata
+        items: 
+        - name: "ActivateSpatialAudioObjectForMetadataCommands method"
+          href: /windows/desktop/api/spatialaudiometadata/nf-spatialaudiometadata-ispatialaudioobjectrenderstreamformetadata-activatespatialaudioobjectformetadatacommands
+        - name: "ActivateSpatialAudioObjectForMetadataItems method"
+          href: /windows/desktop/api/spatialaudiometadata/nf-spatialaudiometadata-ispatialaudioobjectrenderstreamformetadata-activatespatialaudioobjectformetadataitems
+      - name: "ISpatialAudioObjectRenderStreamNotify"
+        href: /windows/desktop/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioobjectrenderstreamnotify
+        items: 
+        - name: "OnAvailableDynamicObjectCountChange method"
+          href: /windows/desktop/api/spatialaudioclient/nf-spatialaudioclient-ispatialaudioobjectrenderstreamnotify-onavailabledynamicobjectcountchange
+      - name: "IPart"
+        href: /windows/desktop/api/Devicetopology/nn-devicetopology-ipart
+        items: 
+        - name: "Activate"
+          href: /windows/desktop/api/Devicetopology/nf-devicetopology-ipart-activate
+        - name: "EnumPartsIncoming"
+          href: /windows/desktop/api/Devicetopology/nf-devicetopology-ipart-enumpartsincoming
+        - name: "EnumPartsOutgoing"
+          href: /windows/desktop/api/Devicetopology/nf-devicetopology-ipart-enumpartsoutgoing
+        - name: "GetControlInterface"
+          href: /windows/desktop/api/Devicetopology/nf-devicetopology-ipart-getcontrolinterface
+        - name: "GetControlInterfaceCount"
+          href: /windows/desktop/api/Devicetopology/nf-devicetopology-ipart-getcontrolinterfacecount
+        - name: "GetGlobalId"
+          href: /windows/desktop/api/Devicetopology/nf-devicetopology-ipart-getglobalid
+        - name: "GetLocalId"
+          href: /windows/desktop/api/Devicetopology/nf-devicetopology-ipart-getlocalid
+        - name: "GetName"
+          href: /windows/desktop/api/Devicetopology/nf-devicetopology-ipart-getname
+        - name: "GetPartType"
+          href: /windows/desktop/api/Devicetopology/nf-devicetopology-ipart-getparttype
+        - name: "GetSubType"
+          href: /windows/desktop/api/Devicetopology/nf-devicetopology-ipart-getsubtype
+        - name: "GetTopologyObject"
+          href: /windows/desktop/api/Devicetopology/nf-devicetopology-ipart-gettopologyobject
+        - name: "RegisterControlChangeCallback"
+          href: /windows/desktop/api/Devicetopology/nf-devicetopology-ipart-registercontrolchangecallback
+        - name: "UnregisterControlChangeCallback"
+          href: /windows/desktop/api/Devicetopology/nf-devicetopology-ipart-unregistercontrolchangecallback
+      - name: "IPartsList"
+        href: /windows/desktop/api/Devicetopology/nn-devicetopology-ipartslist
+        items: 
+        - name: "GetCount"
+          href: /windows/desktop/api/Devicetopology/nf-devicetopology-ipartslist-getcount
+        - name: "GetPart"
+          href: /windows/desktop/api/Devicetopology/nf-devicetopology-ipartslist-getpart
+      - name: "IPerChannelDbLevel"
+        href: /windows/desktop/api/Devicetopology/nn-devicetopology-iperchanneldblevel
+        items: 
+        - name: "GetChannelCount"
+          href: /windows/desktop/api/Devicetopology/nf-devicetopology-iperchanneldblevel-getchannelcount
+        - name: "GetLevel"
+          href: /windows/desktop/api/Devicetopology/nf-devicetopology-iperchanneldblevel-getlevel
+        - name: "GetLevelRange"
+          href: /windows/desktop/api/Devicetopology/nf-devicetopology-iperchanneldblevel-getlevelrange
+        - name: "SetLevel"
+          href: /windows/desktop/api/Devicetopology/nf-devicetopology-iperchanneldblevel-setlevel
+        - name: "SetLevelAllChannels"
+          href: /windows/desktop/api/Devicetopology/nf-devicetopology-iperchanneldblevel-setlevelallchannels
+        - name: "SetLevelUniform"
+          href: /windows/desktop/api/Devicetopology/nf-devicetopology-iperchanneldblevel-setleveluniform
+      - name: "ISubunit"
+        href: /windows/desktop/api/devicetopology/nn-devicetopology-isubunit
+    - name: "Core Audio Structures"
+      href: core-audio-structures.md
+      items: 
+      - name: "APOInitSystemEffects2"
+        href: /previous-versions/windows/desktop/legacy/dn280314(v=vs.85)
+      - name: "AUDIO_VOLUME_NOTIFICATION_DATA"
+        href: /windows/desktop/api/Endpointvolume/ns-endpointvolume-audio_volume_notification_data
+      - name: "AudioClientProperties"
+        href: /windows/desktop/api/Audioclient/ns-audioclient-audioclientproperties-r1
+      - name: "AudioExtensionParams"
+        href: /windows/win32/api/mmdeviceapi/ns-mmdeviceapi-audioextensionparams
+      - name: "DIRECTX_AUDIO_ACTIVATION_PARAMS"
+        href: /windows/win32/api/Mmdeviceapi/ns-mmdeviceapi-directx_audio_activation_params
+      - name: "KSJACK_DESCRIPTION"
+        href: /windows/win32/api/Devicetopology/ns-devicetopology-ksjack_description
+      - name: "KSJACK_DESCRIPTION2"
+        href: /windows/desktop/api/Devicetopology/ns-devicetopology-ksjack_description2
+      - name: "KSJACK_SINK_INFORMATION"
+        href: /windows/desktop/api/Devicetopology/ns-devicetopology-ksjack_sink_information
+      - name: "LUID"
+        href: /windows/win32/api/Devicetopology/ns-devicetopology-luid
+      - name: "SpatialAudioClientActivationParams"
+        href: /windows/desktop/api/spatialaudioclient/ns-spatialaudioclient-spatialaudioclientactivationparams
+      - name: "SpatialAudioHrtfActivationParams"
+        href: /windows/desktop/api/spatialaudiohrtf/ns-spatialaudiohrtf-spatialaudiohrtfactivationparams
+      - name: "SpatialAudioHrtfDirectivity"
+        href: /windows/desktop/api/spatialaudiohrtf/ns-spatialaudiohrtf-spatialaudiohrtfdirectivity
+      - name: "SpatialAudioHrtfDirectivityCardioid"
+        href: /windows/desktop/api/spatialaudiohrtf/ns-spatialaudiohrtf-spatialaudiohrtfdirectivitycardioid
+      - name: "SpatialAudioHrtfDirectivityCone"
+        href: /windows/desktop/api/spatialaudiohrtf/ns-spatialaudiohrtf-spatialaudiohrtfdirectivitycone
+      - name: "SpatialAudioHrtfDistanceDecay"
+        href: /windows/desktop/api/spatialaudiohrtf/ns-spatialaudiohrtf-spatialaudiohrtfdistancedecay
+      - name: "SpatialAudioHrtfDirectivityCone"
+        href: /windows/desktop/api/spatialaudiohrtf/ns-spatialaudiohrtf-spatialaudiohrtfdirectivitycone
+      - name: "SpatialAudioMetadataItemsInfo"
+        href: /windows/desktop/api/SpatialAudioMetadata/ns-spatialaudiometadata-spatialaudiometadataitemsinfo
+      - name: "SpatialAudioObjectRenderStreamActivationParams"
+        href: /windows/desktop/api/spatialaudioclient/ns-spatialaudioclient-spatialaudioobjectrenderstreamactivationparams
+      - name: "SpatialAudioObjectRenderStreamForMetadataActivationParams"
+        href: /windows/desktop/api/spatialaudiometadata/ns-spatialaudiometadata-spatialaudioobjectrenderstreamformetadataactivationparams
+    - name: "Core Audio Unions"
+      href: core-audio-unions.md
+      items: 
+      - name: "SpatialAudioHrtfDirectivityUnion"
+        href: /windows/desktop/api/spatialaudiohrtf/ns-spatialaudiohrtf-spatialaudiohrtfdirectivityunion
+    - name: "Core Audio Enumerations"
+      href: core-audio-enumerations.md
+      items: 
+      - name: "_AUDCLNT_BUFFERFLAGS"
+        href: /windows/desktop/api/Audioclient/ne-audioclient-_audclnt_bufferflags
+      - name: "AUDCLNT_SHAREMODE"
+        href: /windows/win32/api/Audiosessiontypes/ne-audiosessiontypes-audclnt_sharemode
+      - name: "AUDCLNT_STREAMOPTIONS"
+        href: /windows/desktop/api/audioclient/ne-audioclient-audclnt_streamoptions
+      - name: "AUDIO_STREAM_CATEGORY"
+        href: /windows/win32/api/audiosessiontypes/ne-audiosessiontypes-audio_stream_category
+      - name: "AudioObjectType"
+        href: /windows/desktop/api/spatialaudioclient/ne-spatialaudioclient-audioobjecttype
+      - name: "AudioSessionState"
+        href: /windows/win32/api/Audiosessiontypes/ne-audiosessiontypes-audiosessionstate
+      - name: "ConnectorType"
+        href: /windows/win32/api/Devicetopology/ne-devicetopology-connectortype
+      - name: "DataFlow"
+        href: /windows/win32/api/Devicetopology/ne-devicetopology-dataflow
+      - name: "EDataFlow"
+        href: /windows/win32/api/Mmdeviceapi/ne-mmdeviceapi-edataflow
+      - name: "EndpointFormFactor"
+        href: /windows/win32/api/Mmdeviceapi/ne-mmdeviceapi-endpointformfactor
+      - name: "ERole"
+        href: /windows/win32/api/Mmdeviceapi/ne-mmdeviceapi-erole
+      - name: "KSJACK_SINK_CONNECTIONTYPE"
+        href: /windows/win32/api/Devicetopology/ne-devicetopology-ksjack_sink_connectiontype
+      - name: "PartType"
+        href: /windows/win32/api/Devicetopology/ne-devicetopology-parttype
+      - name: "SpatialAudioHrtfDirectivityType"
+        href: /windows/desktop/api/spatialaudiohrtf/ne-spatialaudiohrtf-spatialaudiohrtfdirectivitytype
+      - name: "SpatialAudioHrtfEnvironmentType"
+        href: /windows/desktop/api/spatialaudiohrtf/ne-spatialaudiohrtf-spatialaudiohrtfenvironmenttype
+      - name: "SpatialAudioHrtfDistanceDecayType"
+        href: /windows/desktop/api/spatialaudiohrtf/ne-spatialaudiohrtf-spatialaudiohrtfdistancedecaytype
+      - name: "SpatialAudioMetadataWriterOverflowMode"
+        href: /windows/desktop/api/SpatialAudioMetadata/ne-spatialaudiometadata-spatialaudiometadatawriteroverflowmode
+      - name: "SpatialAudioMetadataCopyMode"
+        href: /windows/desktop/api/SpatialAudioMetadata/ne-spatialaudiometadata-spatialaudiometadatacopymode
+    - name: "Core Audio Constants"
+      href: core-audio-constants.md
+      items: 
+      - name: "AUDCLNT_SESSIONFLAGS_XXX Constants"
+        href: audclnt-sessionflags-xxx-constants.md
+      - name: "AUDCLNT_STREAMFLAGS_XXX Constants"
+        href: audclnt-streamflags-xxx-constants.md
+      - name: "DEVICE_STATE_XXX Constants"
+        href: device-state-xxx-constants.md
+      - name: "ENDPOINT_HARDWARE_SUPPORT_XXX Constants"
+        href: endpoint-hardware-support-xxx-constants.md
+      - name: "SPATIAL_AUDIO_XXX Constants"
+        href: spatial-audio-xxx-constants.md
+    - name: "Core Audio Properties"
+      href: core-audio-properties.md
+      items: 
+      - name: "PKEY_AudioEndpoint_Association"
+        href: pkey-audioendpoint-association.md
+      - name: "PKEY_AudioEndpoint_ControlPanelPageProvider"
+        href: pkey-audioendpoint-controlpanelpageprovider.md
+      - name: "PKEY_AudioEndpoint_Disable_SysFx"
+        href: pkey-audioendpoint-disable-sysfx.md
+      - name: "PKEY_AudioEndpoint_FormFactor"
+        href: pkey-audioendpoint-formfactor.md
+      - name: "PKEY_AudioEndpoint_FullRangeSpeakers"
+        href: pkey-audioendpoint-fullrangespeakers.md
+      - name: "PKEY_AudioEndpoint_GUID"
+        href: pkey-audioendpoint-guid.md
+      - name: "PKEY_AudioEndpoint_JackSubType"
+        href: pkey-audioendpoint-jacksubtype.md
+      - name: "PKEY_AudioEndpoint_PhysicalSpeakers"
+        href: pkey-audioendpoint-physicalspeakers.md
+      - name: "PKEY_AudioEndpoint_Supports_EventDriven_Mode"
+        href: pkey-audioendpoint-supports-eventdriven-mode.md
+      - name: "PKEY_AudioEngine_DeviceFormat"
+        href: pkey-audioengine-deviceformat.md
+      - name: "PKEY_AudioEngine_OEMFormat"
+        href: pkey-audioengine-oemformat.md
+      - name: "PKEY_Device_DeviceDesc"
+        href: pkey-device-devicedesc.md
+      - name: "PKEY_Device_FriendlyName"
+        href: pkey-device-friendlyname.md
+      - name: "PKEY_DeviceInterface_FriendlyName"
+        href: pkey-deviceinterface-friendlyname.md
+      - name: "PKEY_EFX_ProcessingModes_Supported_For_Streaming"
+        href: pkey-efx-processingmodes-supported-for-streaming.md
+      - name: "PKEY_MFX_ProcessingModes_Supported_For_Streaming"
+        href: pkey-mfx-processingmodes-supported-for-streaming.md
+      - name: "PKEY_SFX_ProcessingModes_Supported_For_Streaming"
+        href: pkey-sfx-processingmodes-supported-for-streaming.md
+    - name: "Core Audio Functions"
+      href: core-audio-functions.md
+      items: 
+      - name: "ActivateAudioInterfaceAsync"
+        href: /windows/desktop/api/mmdeviceapi/nf-mmdeviceapi-activateaudiointerfaceasync
+    - name: "Core Audio GUIDs"
+      href: core-audio-guids.md
+      items: 
+      - name: "DEVINTERFACE_XXX GUIDs"
+        href: devinterface-xxx-guids.md

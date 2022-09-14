@@ -1,0 +1,393 @@
+- name: "Communications Resources"
+  href: communications-resources.md
+  items: 
+  - name: "About Communications Resources"
+    href: about-communications-resources.md
+    items: 
+    - name: "Communications Resource Handles"
+      href: communications-resource-handles.md
+    - name: "Modification of Communications Resource Settings"
+      href: modification-of-communications-resource-settings.md
+    - name: "Communications Resource Configuration"
+      href: communications-resource-configuration.md
+    - name: "Modem Configuration"
+      href: modem-configuration.md
+    - name: "Read and Write Operations"
+      href: read-and-write-operations.md
+      items: 
+      - name: "Overlapped Operations"
+        href: overlapped-operations.md
+      - name: "Time-Outs"
+        href: time-outs.md
+      - name: "Communications Errors"
+        href: communications-errors.md
+    - name: "Communications Events"
+      href: communications-events.md
+    - name: "Extended Functions"
+      href: extended-functions.md
+  - name: "Using Communications Resources"
+    href: using-communications-resources.md
+    items: 
+    - name: "Configuring a Communications Resource"
+      href: configuring-a-communications-resource.md
+    - name: "Monitoring Communications Events"
+      href: monitoring-communications-events.md
+  - name: "Communications Reference"
+    href: communications-reference.md
+    items: 
+    - name: "Communications Functions"
+      href: communications-functions.md
+      items: 
+      - name: "BuildCommDCB"
+        href: /windows/desktop/api/Winbase/nf-winbase-buildcommdcba
+      - name: "BuildCommDCBAndTimeouts"
+        href: /windows/desktop/api/Winbase/nf-winbase-buildcommdcbandtimeoutsa
+      - name: "ClearCommBreak"
+        href: /windows/desktop/api/Winbase/nf-winbase-clearcommbreak
+      - name: "ClearCommError"
+        href: /windows/desktop/api/Winbase/nf-winbase-clearcommerror
+      - name: "CommConfigDialog"
+        href: /windows/desktop/api/Winbase/nf-winbase-commconfigdialoga
+      - name: "EscapeCommFunction"
+        href: /windows/desktop/api/Winbase/nf-winbase-escapecommfunction
+      - name: "GetCommConfig"
+        href: /windows/desktop/api/Winbase/nf-winbase-getcommconfig
+      - name: "GetCommMask"
+        href: /windows/desktop/api/Winbase/nf-winbase-getcommmask
+      - name: "GetCommModemStatus"
+        href: /windows/desktop/api/Winbase/nf-winbase-getcommmodemstatus
+      - name: "GetCommProperties"
+        href: /windows/desktop/api/Winbase/nf-winbase-getcommproperties
+      - name: "GetCommState"
+        href: /windows/desktop/api/Winbase/nf-winbase-getcommstate
+      - name: "GetCommTimeouts"
+        href: /windows/desktop/api/Winbase/nf-winbase-getcommtimeouts
+      - name: "GetDefaultCommConfig"
+        href: /windows/desktop/api/Winbase/nf-winbase-getdefaultcommconfiga
+      - name: "PurgeComm"
+        href: /windows/desktop/api/Winbase/nf-winbase-purgecomm
+      - name: "SetCommBreak"
+        href: /windows/desktop/api/Winbase/nf-winbase-setcommbreak
+      - name: "SetCommConfig"
+        href: /windows/desktop/api/Winbase/nf-winbase-setcommconfig
+      - name: "SetCommMask"
+        href: /windows/desktop/api/Winbase/nf-winbase-setcommmask
+      - name: "SetCommState"
+        href: /windows/desktop/api/Winbase/nf-winbase-setcommstate
+      - name: "SetCommTimeouts"
+        href: /windows/desktop/api/Winbase/nf-winbase-setcommtimeouts
+      - name: "SetDefaultCommConfig"
+        href: /windows/desktop/api/Winbase/nf-winbase-setdefaultcommconfiga
+      - name: "SetupComm"
+        href: /windows/desktop/api/Winbase/nf-winbase-setupcomm
+      - name: "TransmitCommChar"
+        href: /windows/desktop/api/Winbase/nf-winbase-transmitcommchar
+      - name: "WaitCommEvent"
+        href: /windows/desktop/api/Winbase/nf-winbase-waitcommevent
+    - name: "Communications Control Codes"
+      href: communications-control-codes.md
+      items: 
+      - name: "IOCTL_SERIAL_LSRMST_INSERT"
+        href: /windows/desktop/api/WinIoCtl/ni-winioctl-ioctl_serial_lsrmst_insert
+    - name: "Communications Structures"
+      href: communications-structures.md
+      items: 
+      - name: "COMMCONFIG"
+        href: /windows/win32/api/Winbase/ns-winbase-commconfig
+      - name: "COMMPROP"
+        href: /windows/win32/api/WinBase/ns-winbase-commprop
+      - name: "COMMTIMEOUTS"
+        href: /windows/win32/api/Winbase/ns-winbase-commtimeouts
+      - name: "COMSTAT"
+        href: /windows/win32/api/Winbase/ns-winbase-comstat
+      - name: "DCB"
+        href: /windows/win32/api/Winbase/ns-winbase-dcb
+      - name: "MODEMDEVCAPS"
+        href: /windows/win32/api/Mcx/ns-mcx-modemdevcaps
+      - name: "MODEMSETTINGS"
+        href: /windows/win32/api/Mcx/ns-mcx-modemsettings
+- name: "Device Management"
+  href: device-management.md
+  items: 
+  - name: "About Device Management"
+    href: about-device-management.md
+    items: 
+    - name: "Device Messages"
+      href: device-messages.md
+    - name: "Device Event Types"
+      href: device-event-types.md
+    - name: "Device Notifications"
+      href: device-notifications.md
+    - name: "Device Events"
+      href: device-events.md
+    - name: "Device Input and Output Control (IOCTL)"
+      href: device-input-and-output-control-ioctl-.md
+  - name: "Using Device Management"
+    href: using-device-management.md
+    items: 
+    - name: "Calling DeviceIoControl"
+      href: calling-deviceiocontrol.md
+    - name: "Registering for device notification"
+      href: registering-for-device-notification.md
+    - name: "Detecting Media Insertion or Removal"
+      href: detecting-media-insertion-or-removal.md
+    - name: "Processing a Request to Remove a Device"
+      href: processing-a-request-to-remove-a-device.md
+  - name: "Device Management Reference"
+    href: device-management-reference.md
+    items: 
+    - name: "Device Management Functions"
+      href: device-management-functions.md
+      items: 
+      - name: "CdromDisableDigitalPlayback"
+        href: /windows/desktop/api/StorProp/nf-storprop-cdromdisabledigitalplayback
+      - name: "CdromEnableDigitalPlayback"
+        href: /windows/desktop/api/StorProp/nf-storprop-cdromenabledigitalplayback
+      - name: "CdromIsDigitalPlaybackEnabled"
+        href: /windows/desktop/api/StorProp/nf-storprop-cdromisdigitalplaybackenabled
+      - name: "CdromKnownGoodDigitalPlayback"
+        href: /windows/desktop/api/Storprop/nf-storprop-cdromknowngooddigitalplayback
+      - name: "DeviceIoControl"
+        href: /windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol
+      - name: "DvdLauncher"
+        href: dvdlauncher.md
+      - name: "InstallNewDevice"
+        href: installnewdevice.md
+      - name: "RegisterDeviceNotification"
+        href: /windows/desktop/api/Winuser/nf-winuser-registerdevicenotificationa
+      - name: "UnregisterDeviceNotification"
+        href: /windows/desktop/api/Winuser/nf-winuser-unregisterdevicenotification
+    - name: "Device Management Constants"
+      href: device-management-constants.md
+      items: 
+      - name: "DEVICE_DATA_MANAGEMENT_SET_ACTION"
+        href: device-data-management-set-action.md
+    - name: "Device Management Control Codes"
+      href: device-management-control-codes.md
+      items: 
+      - name: "IOCTL_CHANGER_EXCHANGE_MEDIUM"
+        href: /windows/desktop/api/WinIoCtl/ni-winioctl-ioctl_changer_exchange_medium
+      - name: "IOCTL_CHANGER_GET_ELEMENT_STATUS"
+        href: /windows/desktop/api/WinIoCtl/ni-winioctl-ioctl_changer_get_element_status
+      - name: "IOCTL_CHANGER_GET_PARAMETERS"
+        href: /windows/desktop/api/WinIoCtl/ni-winioctl-ioctl_changer_get_parameters
+      - name: "IOCTL_CHANGER_GET_PRODUCT_DATA"
+        href: /windows/desktop/api/WinIoCtl/ni-winioctl-ioctl_changer_get_product_data
+      - name: "IOCTL_CHANGER_GET_STATUS"
+        href: /windows/desktop/api/WinIoCtl/ni-winioctl-ioctl_changer_get_status
+      - name: "IOCTL_CHANGER_INITIALIZE_ELEMENT_STATUS"
+        href: /windows/desktop/api/WinIoCtl/ni-winioctl-ioctl_changer_initialize_element_status
+      - name: "IOCTL_CHANGER_MOVE_MEDIUM"
+        href: /windows/desktop/api/WinIoCtl/ni-winioctl-ioctl_changer_move_medium
+      - name: "IOCTL_CHANGER_QUERY_VOLUME_TAGS"
+        href: /windows/desktop/api/WinIoCtl/ni-winioctl-ioctl_changer_query_volume_tags
+      - name: "IOCTL_CHANGER_REINITIALIZE_TRANSPORT"
+        href: /windows/desktop/api/WinIoCtl/ni-winioctl-ioctl_changer_reinitialize_transport
+      - name: "IOCTL_CHANGER_SET_ACCESS"
+        href: /windows/desktop/api/WinIoCtl/ni-winioctl-ioctl_changer_set_access
+      - name: "IOCTL_CHANGER_SET_POSITION"
+        href: /windows/desktop/api/WinIoCtl/ni-winioctl-ioctl_changer_set_position
+      - name: "IOCTL_STORAGE_CHECK_VERIFY"
+        href: /windows/desktop/api/WinIoCtl/ni-winioctl-ioctl_storage_check_verify
+      - name: "IOCTL_STORAGE_EJECT_MEDIA"
+        href: /windows/desktop/api/WinIoCtl/ni-winioctl-ioctl_storage_eject_media
+      - name: "IOCTL_STORAGE_EJECTION_CONTROL"
+        href: /windows/desktop/api/WinIoCtl/ni-winioctl-ioctl_storage_ejection_control
+      - name: "IOCTL_STORAGE_GET_DEVICE_NUMBER"
+        href: /windows/desktop/api/WinIoCtl/ni-winioctl-ioctl_storage_get_device_number
+      - name: "IOCTL_STORAGE_GET_HOTPLUG_INFO"
+        href: /windows/desktop/api/WinIoCtl/ni-winioctl-ioctl_storage_get_hotplug_info
+      - name: "IOCTL_STORAGE_GET_MEDIA_SERIAL_NUMBER"
+        href: /windows/desktop/api/WinIoCtl/ni-winioctl-ioctl_storage_get_media_serial_number
+      - name: "IOCTL_STORAGE_GET_MEDIA_TYPES"
+        href: /windows/desktop/api/WinIoCtl/ni-winioctl-ioctl_storage_get_media_types
+      - name: "IOCTL_STORAGE_GET_MEDIA_TYPES_EX"
+        href: /windows/desktop/api/WinIoCtl/ni-winioctl-ioctl_storage_get_media_types_ex
+      - name: "IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES"
+        href: /windows/desktop/api/WinIoCtl/ni-winioctl-ioctl_storage_manage_data_set_attributes
+      - name: "IOCTL_STORAGE_LOAD_MEDIA"
+        href: /windows/desktop/api/WinIoCtl/ni-winioctl-ioctl_storage_load_media
+      - name: "IOCTL_STORAGE_MCN_CONTROL"
+        href: /windows/desktop/api/WinIoCtl/ni-winioctl-ioctl_storage_mcn_control
+      - name: "IOCTL_STORAGE_MEDIA_REMOVAL"
+        href: /windows/desktop/api/WinIoCtl/ni-winioctl-ioctl_storage_media_removal
+      - name: "IOCTL_STORAGE_READ_CAPACITY"
+        href: /windows/desktop/api/WinIoCtl/ni-winioctl-ioctl_storage_read_capacity
+      - name: "IOCTL_STORAGE_SET_HOTPLUG_INFO"
+        href: /windows/desktop/api/WinIoCtl/ni-winioctl-ioctl_storage_set_hotplug_info
+    - name: "Device Management Messages"
+      href: device-management-messages.md
+      items: 
+      - name: "WM_DEVICECHANGE"
+        href: wm-devicechange.md
+    - name: "Device Management Events"
+      href: device-management-events.md
+      items: 
+      - name: "DBT_CONFIGCHANGECANCELED"
+        href: dbt-configchangecanceled.md
+      - name: "DBT_CONFIGCHANGED"
+        href: dbt-configchanged.md
+      - name: "DBT_CUSTOMEVENT"
+        href: dbt-customevent.md
+      - name: "DBT_DEVICEARRIVAL"
+        href: dbt-devicearrival.md
+      - name: "DBT_DEVICEQUERYREMOVE"
+        href: dbt-devicequeryremove.md
+      - name: "DBT_DEVICEQUERYREMOVEFAILED"
+        href: dbt-devicequeryremovefailed.md
+      - name: "DBT_DEVICEREMOVECOMPLETE"
+        href: dbt-deviceremovecomplete.md
+      - name: "DBT_DEVICEREMOVEPENDING"
+        href: dbt-deviceremovepending.md
+      - name: "DBT_DEVICETYPESPECIFIC"
+        href: dbt-devicetypespecific.md
+      - name: "DBT_DEVNODES_CHANGED"
+        href: dbt-devnodes-changed.md
+      - name: "DBT_QUERYCHANGECONFIG"
+        href: dbt-querychangeconfig.md
+      - name: "DBT_USERDEFINED"
+        href: dbt-userdefined.md
+    - name: "Device Management Structures"
+      href: device-management-structures.md
+      items: 
+      - name: "CHANGER_ELEMENT"
+        href: /windows/win32/api/WinIoCtl/ns-winioctl-changer_element
+      - name: "CHANGER_ELEMENT_LIST"
+        href: /windows/win32/api/WinIoCtl/ns-winioctl-changer_element_list
+      - name: "CHANGER_ELEMENT_STATUS"
+        href: /windows/win32/api/WinIoCtl/ns-winioctl-changer_element_status
+      - name: "CHANGER_ELEMENT_STATUS_EX"
+        href: /windows/win32/api/WinIoCtl/ns-winioctl-changer_element_status_ex
+      - name: "CHANGER_EXCHANGE_MEDIUM"
+        href: /windows/win32/api/WinIoCtl/ns-winioctl-changer_exchange_medium
+      - name: "CHANGER_INITIALIZE_ELEMENT_STATUS"
+        href: /windows/win32/api/WinIoCtl/ns-winioctl-changer_initialize_element_status
+      - name: "CHANGER_MOVE_MEDIUM"
+        href: /windows/win32/api/WinIoCtl/ns-winioctl-changer_move_medium
+      - name: "CHANGER_PRODUCT_DATA"
+        href: /windows/win32/api/WinIoCtl/ns-winioctl-changer_product_data
+      - name: "CHANGER_READ_ELEMENT_STATUS"
+        href: /windows/win32/api/WinIoCtl/ns-winioctl-changer_read_element_status
+      - name: "CHANGER_SEND_VOLUME_TAG_INFORMATION"
+        href: /windows/win32/api/WinIoCtl/ns-winioctl-changer_send_volume_tag_information
+      - name: "CHANGER_SET_ACCESS"
+        href: /windows/win32/api/WinIoCtl/ns-winioctl-changer_set_access
+      - name: "CHANGER_SET_POSITION"
+        href: /windows/win32/api/WinIoCtl/ns-winioctl-changer_set_position
+      - name: "CLASS_MEDIA_CHANGE_CONTEXT"
+        href: /windows/win32/api/WinIoCtl/ns-winioctl-class_media_change_context
+      - name: "_DEV_BROADCAST_USERDEFINED"
+        href: /windows/desktop/api/Dbt/ns-dbt-_dev_broadcast_userdefined
+      - name: "DEV_BROADCAST_DEVICEINTERFACE"
+        href: /windows/win32/api/Dbt/ns-dbt-dev_broadcast_deviceinterface_a
+      - name: "DEV_BROADCAST_HANDLE"
+        href: /windows/win32/api/Dbt/ns-dbt-dev_broadcast_handle
+      - name: "DEV_BROADCAST_HDR"
+        href: /windows/win32/api/Dbt/ns-dbt-dev_broadcast_hdr
+      - name: "DEV_BROADCAST_OEM"
+        href: /windows/win32/api/Dbt/ns-dbt-dev_broadcast_oem
+      - name: "DEV_BROADCAST_PORT"
+        href: /windows/win32/api/Dbt/ns-dbt-dev_broadcast_port_a
+      - name: "DEV_BROADCAST_VOLUME"
+        href: /windows/win32/api/Dbt/ns-dbt-dev_broadcast_volume
+      - name: "DEVICE_DATA_SET_LB_PROVISIONING_STATE"
+        href: /windows/win32/api/WinIoCtl/ns-winioctl-device_data_set_lb_provisioning_state
+      - name: "DEVICE_DATA_SET_RANGE"
+        href: /windows/win32/api/WinIoCtl/ns-winioctl-device_data_set_range
+      - name: "DEVICE_DATA_SET_REPAIR_PARAMETERS"
+        href: /windows/win32/api/WinIoCtl/ns-winioctl-device_data_set_repair_parameters
+      - name: "DEVICE_DSM_NOTIFICATION_PARAMETERS"
+        href: /windows/win32/api/WinIoCtl/ns-winioctl-device_dsm_notification_parameters
+      - name: "DEVICE_DSM_OFFLOAD_READ_PARAMETERS"
+        href: /windows/win32/api/WinIoCtl/ns-winioctl-device_dsm_offload_read_parameters
+      - name: "DEVICE_DSM_OFFLOAD_WRITE_PARAMETERS"
+        href: /windows/win32/api/WinIoCtl/ns-winioctl-device_dsm_offload_write_parameters
+      - name: "DEVICE_MANAGE_DATA_SET_ATTRIBUTES"
+        href: /windows/win32/api/WinIoCtl/ns-winioctl-device_manage_data_set_attributes
+      - name: "DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT"
+        href: /windows/win32/api/WinIoCtl/ns-winioctl-device_manage_data_set_attributes_output
+      - name: "DEVICE_MEDIA_INFO"
+        href: /windows/win32/api/WinIoCtl/ns-winioctl-device_media_info
+      - name: "GET_CHANGER_PARAMETERS"
+        href: /windows/win32/api/WinIoCtl/ns-winioctl-get_changer_parameters
+      - name: "GET_MEDIA_TYPES"
+        href: /windows/win32/api/WinIoCtl/ns-winioctl-get_media_types
+      - name: "MEDIA_SERIAL_NUMBER_DATA"
+        href: media-serial-number-data-str.md
+      - name: "PREVENT_MEDIA_REMOVAL"
+        href: /windows/win32/api/WinIoCtl/ns-winioctl-prevent_media_removal
+      - name: "READ_ELEMENT_ADDRESS_INFO"
+        href: /windows/win32/api/WinIoCtl/ns-winioctl-read_element_address_info
+      - name: "STORAGE_DEVICE_NUMBER"
+        href: /windows/win32/api/WinIoCtl/ns-winioctl-storage_device_number
+      - name: "STORAGE_HOTPLUG_INFO"
+        href: /windows/win32/api/WinIoCtl/ns-winioctl-storage_hotplug_info
+      - name: "STORAGE_OFFLOAD_READ_OUTPUT"
+        href: /windows/win32/api/WinIoCtl/ns-winioctl-storage_offload_read_output
+      - name: "STORAGE_OFFLOAD_TOKEN"
+        href: /windows/win32/api/WinIoCtl/ns-winioctl-storage_offload_token
+      - name: "STORAGE_OFFLOAD_WRITE_OUTPUT"
+        href: /windows/win32/api/WinIoCtl/ns-winioctl-storage_offload_write_output
+      - name: "STORAGE_READ_CAPACITY"
+        href: storage-read-capacity.md
+    - name: "Device Management Enumeration Types"
+      href: device-management-enumeration-types.md
+      items: 
+      - name: "ELEMENT_TYPE"
+        href: /windows/win32/api/WinIoCtl/ne-winioctl-element_type
+      - name: "STORAGE_BUS_TYPE"
+        href: /windows/desktop/api/winioctl/ne-winioctl-storage_bus_type
+      - name: "STORAGE_MEDIA_TYPE"
+        href: /windows/win32/api/WinIoCtl/ne-winioctl-storage_media_type
+- name: "PWM API"
+  href: pwm-api.md
+  items: 
+  - name: "PWM Control Codes"
+    href: pwm-control-codes.md
+    items: 
+    - name: "IOCTL_PWM_CONTROLLER_GET_ACTUAL_PERIOD"
+      href: /windows/desktop/api/Pwm/ni-pwm-ioctl_pwm_controller_get_actual_period
+    - name: "IOCTL_PWM_CONTROLLER_GET_INFO"
+      href: /windows/desktop/api/Pwm/ni-pwm-ioctl_pwm_controller_get_info
+    - name: "IOCTL_PWM_CONTROLLER_SET_DESIRED_PERIOD"
+      href: /windows/desktop/api/Pwm/ni-pwm-ioctl_pwm_controller_set_desired_period
+    - name: "IOCTL_PWM_PIN_GET_ACTIVE_DUTY_CYCLE_PERCENTAGE"
+      href: /windows/desktop/api/Pwm/ni-pwm-ioctl_pwm_pin_get_active_duty_cycle_percentage
+    - name: "IOCTL_PWM_PIN_SET_ACTIVE_DUTY_CYCLE_PERCENTAGE"
+      href: /windows/desktop/api/Pwm/ni-pwm-ioctl_pwm_pin_set_active_duty_cycle_percentage
+    - name: "IOCTL_PWM_PIN_GET_POLARITY"
+      href: /windows/desktop/api/Pwm/ni-pwm-ioctl_pwm_pin_get_polarity
+    - name: "IOCTL_PWM_PIN_SET_POLARITY"
+      href: /windows/desktop/api/Pwm/ni-pwm-ioctl_pwm_pin_set_polarity
+    - name: "IOCTL_PWM_PIN_START"
+      href: /windows/desktop/api/Pwm/ni-pwm-ioctl_pwm_pin_start
+    - name: "IOCTL_PWM_PIN_STOP"
+      href: /windows/desktop/api/Pwm/ni-pwm-ioctl_pwm_pin_stop
+    - name: "IOCTL_PWM_PIN_IS_STARTED"
+      href: /windows/desktop/api/Pwm/ni-pwm-ioctl_pwm_pin_is_started
+  - name: "PWM Structures"
+    href: pwm-structures.md
+    items: 
+    - name: "PWM_CONTROLLER_GET_ACTUAL_PERIOD_OUTPUT"
+      href: pwm-controller-get-actual-period-output.md
+    - name: "PWM_CONTROLLER_INFO"
+      href: /windows/win32/api/Pwm/ns-pwm-pwm_controller_info
+    - name: "PWM_CONTROLLER_SET_DESIRED_PERIOD_INPUT"
+      href: /windows/win32/api/Pwm/ns-pwm-pwm_controller_set_desired_period_input
+    - name: "PWM_CONTROLLER_SET_DESIRED_PERIOD_OUTPUT"
+      href: /windows/win32/api/Pwm/ns-pwm-pwm_controller_set_desired_period_output
+    - name: "PWM_PIN_GET_ACTIVE_DUTY_CYCLE_PERCENTAGE_OUTPUT"
+      href: pwm-pin-get-active-duty-cycle-percentage-output.md
+    - name: "PWM_PIN_SET_ACTIVE_DUTY_CYCLE_PERCENTAGE_INPUT"
+      href: pwm-pin-set-active-duty-cycle-percentage-input.md
+    - name: "PWM_PIN_GET_POLARITY_OUTPUT"
+      href: pwm-pin-get-polarity-output.md
+    - name: "PWM_PIN_SET_POLARITY_INPUT"
+      href: /windows/win32/api/Pwm/ns-pwm-pwm_pin_set_polarity_input
+    - name: "PWM_PIN_IS_STARTED_OUTPUT"
+      href: pwm-pin-is-started-output.md
+  - name: "PWM Enumeration Types"
+    href: pwm-enumeration-types.md
+    items: 
+    - name: "PWM_POLARITY"
+      href: /windows/win32/api/Pwm/ne-pwm-pwm_polarity

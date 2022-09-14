@@ -1,0 +1,1582 @@
+- name: "Local File Systems"
+  href: file-systems.md
+  items: 
+  - name: "Directory Management"
+    href: directory-management.md
+    items: 
+    - name: "About Directory Management"
+      href: about-directory-management.md
+      items: 
+      - name: "Creating and Deleting Directories"
+        href: creating-and-deleting-directories.md
+      - name: "Directory Handles"
+        href: obtaining-a-handle-to-a-directory.md
+      - name: "Reparse Points"
+        href: reparse-points.md
+        items: 
+        - name: "Reparse Point Tags"
+          href: reparse-point-tags.md
+        - name: "Reparse Point Operations"
+          href: reparse-point-operations.md
+        - name: "Reparse Points and File Operations"
+          href: reparse-points-and-file-operations.md
+    - name: "Using Directory Management"
+      href: using-directory-management.md
+      items: 
+      - name: "Changing the Current Directory"
+        href: changing-the-current-directory.md
+      - name: "Listing the Files in a Directory"
+        href: listing-the-files-in-a-directory.md
+      - name: "Moving Directories"
+        href: moving-directories.md
+      - name: "Obtaining Directory Change Notifications"
+        href: obtaining-directory-change-notifications.md
+    - name: "Directory Management Reference"
+      href: directory-management-reference.md
+      items: 
+      - name: "Directory Management Control Codes"
+        href: directory-management-control-codes.md
+        items: 
+        - name: "FSCTL_DELETE_REPARSE_POINT"
+          href: /windows/desktop/api/winioctl/ni-winioctl-fsctl_delete_reparse_point
+        - name: "FSCTL_GET_REPARSE_POINT"
+          href: /windows/desktop/api/winioctl/ni-winioctl-fsctl_get_reparse_point
+        - name: "FSCTL_SET_REPARSE_POINT"
+          href: /windows/desktop/api/winioctl/ni-winioctl-fsctl_set_reparse_point
+      - name: "Directory Management Enumerations"
+        href: directory-management-enumerations.md
+        items: 
+        - name: "READ_DIRECTORY_NOTIFY_INFORMATION_CLASS"
+          href: /windows/win32/api/Minwinbase/ne-minwinbase-read_directory_notify_information_class
+      - name: "Directory Management Functions"
+        href: directory-management-functions.md
+        items: 
+        - name: "CreateDirectory"
+          href: /windows/desktop/api/FileAPI/nf-fileapi-createdirectorya
+        - name: "CreateDirectoryEx"
+          href: /windows/desktop/api/WinBase/nf-winbase-createdirectoryexa
+        - name: "CreateDirectoryTransacted"
+          href: /windows/desktop/api/WinBase/nf-winbase-createdirectorytransacteda
+        - name: "FindCloseChangeNotification"
+          href: /windows/desktop/api/FileAPI/nf-fileapi-findclosechangenotification
+        - name: "FindFirstChangeNotification"
+          href: /windows/desktop/api/FileAPI/nf-fileapi-findfirstchangenotificationa
+        - name: "FindNextChangeNotification"
+          href: /windows/desktop/api/FileAPI/nf-fileapi-findnextchangenotification
+        - name: "GetCurrentDirectory"
+          href: /windows/desktop/api/WinBase/nf-winbase-getcurrentdirectory
+        - name: "ReadDirectoryChangesExW"
+          href: /windows/desktop/api/WinBase/nf-winbase-readdirectorychangesexw
+        - name: "ReadDirectoryChangesW"
+          href: /windows/desktop/api/WinBase/nf-winbase-readdirectorychangesw
+        - name: "RemoveDirectory"
+          href: /windows/desktop/api/FileAPI/nf-fileapi-removedirectorya
+        - name: "RemoveDirectoryTransacted"
+          href: /windows/desktop/api/WinBase/nf-winbase-removedirectorytransacteda
+        - name: "SetCurrentDirectory"
+          href: /windows/desktop/api/WinBase/nf-winbase-setcurrentdirectory
+      - name: "Directory Management Macros"
+        href: directory-management-macros.md
+        items: 
+        - name: "IsReparseTagMicrosoft"
+          href: /windows/desktop/api/Winnt/nf-winnt-isreparsetagmicrosoft
+        - name: "IsReparseTagNameSurrogate"
+          href: /windows/desktop/api/Winnt/nf-winnt-isreparsetagnamesurrogate
+      - name: "Directory Management Structures"
+        href: directory-management-structures.md
+        items: 
+        - name: "FILE_NOTIFY_EXTENDED_INFORMATION"
+          href: /windows/win32/api/Winnt/ns-winnt-file_notify_extended_information
+        - name: "FILE_NOTIFY_INFORMATION"
+          href: /windows/win32/api/Winnt/ns-winnt-file_notify_information
+        - name: "REPARSE_GUID_DATA_BUFFER"
+          href: /windows/win32/api/Winnt/ns-winnt-reparse_guid_data_buffer
+  - name: "Disk Management"
+    href: disk-management.md
+    items: 
+    - name: "About Disk Management"
+      href: about-disk-management.md
+      items: 
+      - name: "Disk Devices and Partitions"
+        href: disk-devices-and-partitions.md
+      - name: "Basic and Dynamic Disks"
+        href: basic-and-dynamic-disks.md
+      - name: "Defining an MS-DOS Device Name"
+        href: defining-an-ms-dos-device-name.md
+      - name: "Managing Disk Quotas"
+        href: managing-disk-quotas.md
+        items: 
+        - name: "User-level Administration of Disk Quotas"
+          href: user-level-administration-of-disk-quotas.md
+        - name: "System-level Administration of Disk Quotas"
+          href: system-level-administration-of-disk-quotas.md
+        - name: "Disk Quota Limits"
+          href: disk-quota-limits.md
+        - name: "Disk Quota Interfaces"
+          href: disk-quota-interfaces.md
+    - name: "Disk Management Reference"
+      href: disk-management-reference.md
+      items: 
+      - name: "Disk Management Control Codes"
+        href: disk-management-control-codes.md
+        items: 
+        - name: "IOCTL_DISK_ARE_VOLUMES_READY"
+          href: ioctl-disk-are-volumes-ready.md
+        - name: "IOCTL_DISK_CREATE_DISK"
+          href: /windows/desktop/api/WinIoCtl/ni-winioctl-ioctl_disk_create_disk
+        - name: "IOCTL_DISK_DELETE_DRIVE_LAYOUT"
+          href: /windows/desktop/api/WinIoCtl/ni-winioctl-ioctl_disk_delete_drive_layout
+        - name: "IOCTL_DISK_FORMAT_TRACKS"
+          href: /windows/desktop/api/WinIoCtl/ni-winioctl-ioctl_disk_format_tracks
+        - name: "IOCTL_DISK_FORMAT_TRACKS_EX"
+          href: /windows/desktop/api/WinIoCtl/ni-winioctl-ioctl_disk_format_tracks_ex
+        - name: "IOCTL_DISK_GET_CACHE_INFORMATION"
+          href: /windows/desktop/api/WinIoCtl/ni-winioctl-ioctl_disk_get_cache_information
+        - name: "IOCTL_DISK_GET_CLUSTER_INFO"
+          href: ioctl-disk-get-cluster-info.md
+        - name: "IOCTL_DISK_GET_DISK_ATTRIBUTES"
+          href: /windows/desktop/api/WinIoCtl/ni-winioctl-ioctl_disk_get_disk_attributes
+        - name: "IOCTL_DISK_GET_DRIVE_GEOMETRY"
+          href: /windows/desktop/api/WinIoCtl/ni-winioctl-ioctl_disk_get_drive_geometry
+        - name: "IOCTL_DISK_GET_DRIVE_GEOMETRY_EX"
+          href: /windows/desktop/api/WinIoCtl/ni-winioctl-ioctl_disk_get_drive_geometry_ex
+        - name: "IOCTL_DISK_GET_DRIVE_LAYOUT"
+          href: /windows/desktop/api/WinIoCtl/ni-winioctl-ioctl_disk_get_drive_layout
+        - name: "IOCTL_DISK_GET_DRIVE_LAYOUT_EX"
+          href: /windows/desktop/api/WinIoCtl/ni-winioctl-ioctl_disk_get_drive_layout_ex
+        - name: "IOCTL_DISK_GET_LENGTH_INFO"
+          href: /windows/desktop/api/WinIoCtl/ni-winioctl-ioctl_disk_get_length_info
+        - name: "IOCTL_DISK_GET_PARTITION_INFO"
+          href: /windows/desktop/api/WinIoCtl/ni-winioctl-ioctl_disk_get_partition_info
+        - name: "IOCTL_DISK_GET_PARTITION_INFO_EX"
+          href: /windows/desktop/api/WinIoCtl/ni-winioctl-ioctl_disk_get_partition_info_ex
+        - name: "IOCTL_DISK_GROW_PARTITION"
+          href: /windows/desktop/api/WinIoCtl/ni-winioctl-ioctl_disk_grow_partition
+        - name: "IOCTL_DISK_IS_WRITABLE"
+          href: /windows/desktop/api/WinIoCtl/ni-winioctl-ioctl_disk_is_writable
+        - name: "IOCTL_DISK_PERFORMANCE"
+          href: /windows/desktop/api/WinIoCtl/ni-winioctl-ioctl_disk_performance
+        - name: "IOCTL_DISK_PERFORMANCE_OFF"
+          href: /windows/desktop/api/WinIoCtl/ni-winioctl-ioctl_disk_performance_off
+        - name: "IOCTL_DISK_REASSIGN_BLOCKS"
+          href: /windows/desktop/api/WinIoCtl/ni-winioctl-ioctl_disk_reassign_blocks
+        - name: "IOCTL_DISK_REASSIGN_BLOCKS_EX"
+          href: /windows/desktop/api/WinIoCtl/ni-winioctl-ioctl_disk_reassign_blocks_ex
+        - name: "IOCTL_DISK_RESET_SNAPSHOT_INFO"
+          href: /windows/desktop/api/WinIoCtl/ni-winioctl-ioctl_disk_reset_snapshot_info
+        - name: "IOCTL_DISK_SET_CACHE_INFORMATION"
+          href: /windows/desktop/api/WinIoCtl/ni-winioctl-ioctl_disk_set_cache_information
+        - name: "IOCTL_DISK_SET_CLUSTER_INFO"
+          href: ioctl-disk-set-cluster-info.md
+        - name: "IOCTL_DISK_SET_DISK_ATTRIBUTES"
+          href: /windows/desktop/api/WinIoCtl/ni-winioctl-ioctl_disk_set_disk_attributes
+        - name: "IOCTL_DISK_SET_DRIVE_LAYOUT"
+          href: /windows/desktop/api/WinIoCtl/ni-winioctl-ioctl_disk_set_drive_layout
+        - name: "IOCTL_DISK_SET_DRIVE_LAYOUT_EX"
+          href: /windows/desktop/api/WinIoCtl/ni-winioctl-ioctl_disk_set_drive_layout_ex
+        - name: "IOCTL_DISK_SET_PARTITION_INFO"
+          href: /windows/desktop/api/WinIoCtl/ni-winioctl-ioctl_disk_set_partition_info
+        - name: "IOCTL_DISK_SET_PARTITION_INFO_EX"
+          href: /windows/desktop/api/WinIoCtl/ni-winioctl-ioctl_disk_set_partition_info_ex
+        - name: "IOCTL_DISK_UPDATE_PROPERTIES"
+          href: /windows/desktop/api/WinIoCtl/ni-winioctl-ioctl_disk_update_properties
+        - name: "IOCTL_DISK_VERIFY"
+          href: /windows/desktop/api/WinIoCtl/ni-winioctl-ioctl_disk_verify
+        - name: "IOCTL_STORAGE_DEVICE_POWER_CAP"
+          href: /windows/desktop/api/WinIoctl/ni-winioctl-ioctl_storage_device_power_cap
+        - name: "IOCTL_STORAGE_FIRMWARE_ACTIVATE"
+          href: /windows/desktop/api/WinIoctl/ni-winioctl-ioctl_storage_firmware_activate
+        - name: "IOCTL_STORAGE_FIRMWARE_DOWNLOAD"
+          href: /windows/desktop/api/WinIoctl/ni-winioctl-ioctl_storage_firmware_download
+        - name: "IOCTL_STORAGE_FIRMWARE_GET_INFO"
+          href: /windows/desktop/api/WinIoctl/ni-winioctl-ioctl_storage_firmware_get_info
+        - name: "IOCTL_STORAGE_PROTOCOL_COMMAND"
+          href: /windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_protocol_command
+        - name: "IOCTL_STORAGE_QUERY_PROPERTY"
+          href: /windows/desktop/api/WinIoCtl/ni-winioctl-ioctl_storage_query_property
+        - name: "IOCTL_STORAGE_SET_TEMPERATURE_THRESHOLD"
+          href: /windows/desktop/api/WinIoctl/ni-winioctl-ioctl_storage_set_temperature_threshold
+      - name: "Disk Management Enumeration Types"
+        href: disk-management-enumeration-types.md
+        items: 
+        - name: "MEDIA_TYPE"
+          href: /windows/desktop/api/winioctl/ne-winioctl-media_type
+        - name: "PARTITION_STYLE"
+          href: /windows/desktop/api/winioctl/ne-winioctl-partition_style
+        - name: "STORAGE_BUS_TYPE"
+          href: /windows/desktop/api/winioctl/ne-winioctl-storage_bus_type
+        - name: "STORAGE_COMPONENT_HEALTH_STATUS"
+          href: /windows/win32/api/WinIoCtl/ne-winioctl-storage_component_health_status
+        - name: "STORAGE_DEVICE_FORM_FACTOR"
+          href: /windows/win32/api/WinIoCtl/ne-winioctl-storage_device_form_factor
+        - name: "STORAGE_DEVICE_POWER_CAP_UNITS"
+          href: /windows/win32/api/winioctl/ne-winioctl-storage_device_power_cap_units
+        - name: "STORAGE_PORT_CODE_SET"
+          href: /windows/desktop/api/winioctl/ne-winioctl-storage_port_code_set
+        - name: "STORAGE_PROPERTY_ID"
+          href: /windows/desktop/api/winioctl/ne-winioctl-storage_property_id
+        - name: "STORAGE_PROTOCOL_TYPE"
+          href: /windows/win32/api/WinIoCtl/ne-winioctl-storage_protocol_type
+        - name: "STORAGE_QUERY_TYPE"
+          href: /windows/win32/api/WinIoCtl/ne-winioctl-storage_query_type
+        - name: "WRITE_CACHE_CHANGE"
+          href: /windows/desktop/api/winioctl/ne-winioctl-write_cache_change
+        - name: "WRITE_CACHE_ENABLE"
+          href: /windows/desktop/api/winioctl/ne-winioctl-write_cache_enable
+        - name: "WRITE_CACHE_TYPE"
+          href: /windows/desktop/api/winioctl/ne-winioctl-write_cache_type
+        - name: "WRITE_THROUGH"
+          href: /windows/desktop/api/winioctl/ne-winioctl-write_through
+      - name: "Disk Management Functions"
+        href: disk-management-functions.md
+        items: 
+        - name: "GetDiskFreeSpace"
+          href: /windows/desktop/api/FileAPI/nf-fileapi-getdiskfreespacea
+        - name: "GetDiskFreeSpaceEx"
+          href: /windows/desktop/api/FileAPI/nf-fileapi-getdiskfreespaceexa
+      - name: "Disk Management Interfaces"
+        href: disk-management-interfaces.md
+        items: 
+        - name: "IDiskQuotaControl"
+          href: /windows/desktop/api/dskquota/nn-dskquota-idiskquotacontrol
+          items: 
+          - name: "AddUserName Method"
+            href: /windows/desktop/api/dskquota/nf-dskquota-idiskquotacontrol-addusername
+          - name: "AddUserSid Method"
+            href: /windows/desktop/api/dskquota/nf-dskquota-idiskquotacontrol-addusersid
+          - name: "CreateEnumUsers Method"
+            href: /windows/desktop/api/dskquota/nf-dskquota-idiskquotacontrol-createenumusers
+          - name: "CreateUserBatch Method"
+            href: /windows/desktop/api/dskquota/nf-dskquota-idiskquotacontrol-createuserbatch
+          - name: "DeleteUser Method"
+            href: /windows/desktop/api/dskquota/nf-dskquota-idiskquotacontrol-deleteuser
+          - name: "FindUserName Method"
+            href: /windows/desktop/api/dskquota/nf-dskquota-idiskquotacontrol-findusername
+          - name: "FindUserSid Method"
+            href: /windows/desktop/api/dskquota/nf-dskquota-idiskquotacontrol-findusersid
+          - name: "GetDefaultQuotaLimit Method"
+            href: /windows/desktop/api/dskquota/nf-dskquota-idiskquotacontrol-getdefaultquotalimit
+          - name: "GetDefaultQuotaLimitText Method"
+            href: /windows/desktop/api/dskquota/nf-dskquota-idiskquotacontrol-getdefaultquotalimittext
+          - name: "GetDefaultQuotaThreshold Method"
+            href: /windows/desktop/api/dskquota/nf-dskquota-idiskquotacontrol-getdefaultquotathreshold
+          - name: "GetDefaultQuotaThresholdText Method"
+            href: /windows/desktop/api/dskquota/nf-dskquota-idiskquotacontrol-getdefaultquotathresholdtext
+          - name: "GetQuotaLogFlags Method"
+            href: /windows/desktop/api/dskquota/nf-dskquota-idiskquotacontrol-getquotalogflags
+          - name: "GetQuotaState Method"
+            href: /windows/desktop/api/dskquota/nf-dskquota-idiskquotacontrol-getquotastate
+          - name: "GiveUserNameResolutionPriority Method"
+            href: /windows/desktop/api/dskquota/nf-dskquota-idiskquotacontrol-giveusernameresolutionpriority
+          - name: "Initialize Method"
+            href: /windows/desktop/api/dskquota/nf-dskquota-idiskquotacontrol-initialize
+          - name: "InvalidateSidNameCache Method"
+            href: /windows/desktop/api/dskquota/nf-dskquota-idiskquotacontrol-invalidatesidnamecache
+          - name: "SetDefaultQuotaLimit Method"
+            href: /windows/desktop/api/dskquota/nf-dskquota-idiskquotacontrol-setdefaultquotalimit
+          - name: "SetDefaultQuotaThreshold Method"
+            href: /windows/desktop/api/dskquota/nf-dskquota-idiskquotacontrol-setdefaultquotathreshold
+          - name: "SetQuotaLogFlags Method"
+            href: /windows/desktop/api/dskquota/nf-dskquota-idiskquotacontrol-setquotalogflags
+          - name: "SetQuotaState Method"
+            href: /windows/desktop/api/dskquota/nf-dskquota-idiskquotacontrol-setquotastate
+          - name: "ShutdownNameResolution Method"
+            href: /windows/desktop/api/dskquota/nf-dskquota-idiskquotacontrol-shutdownnameresolution
+        - name: "IDiskQuotaEvents"
+          href: /windows/desktop/api/dskquota/nn-dskquota-idiskquotaevents
+          items: 
+          - name: "OnUserNameChanged Method"
+            href: /windows/desktop/api/dskquota/nf-dskquota-idiskquotaevents-onusernamechanged
+        - name: "IDiskQuotaUser"
+          href: /windows/desktop/api/dskquota/nn-dskquota-idiskquotauser
+          items: 
+          - name: "GetAccountStatus Method"
+            href: /windows/desktop/api/dskquota/nf-dskquota-idiskquotauser-getaccountstatus
+          - name: "GetID Method"
+            href: /windows/desktop/api/dskquota/nf-dskquota-idiskquotauser-getid
+          - name: "GetName Method"
+            href: /windows/desktop/api/dskquota/nf-dskquota-idiskquotauser-getname
+          - name: "GetQuotaInformation Method"
+            href: /windows/desktop/api/dskquota/nf-dskquota-idiskquotauser-getquotainformation
+          - name: "GetQuotaLimit Method"
+            href: /windows/desktop/api/dskquota/nf-dskquota-idiskquotauser-getquotalimit
+          - name: "GetQuotaLimitText Method"
+            href: /windows/desktop/api/dskquota/nf-dskquota-idiskquotauser-getquotalimittext
+          - name: "GetQuotaThreshold Method"
+            href: /windows/desktop/api/dskquota/nf-dskquota-idiskquotauser-getquotathreshold
+          - name: "GetQuotaThresholdText Method"
+            href: /windows/desktop/api/dskquota/nf-dskquota-idiskquotauser-getquotathresholdtext
+          - name: "GetQuotaUsed Method"
+            href: /windows/desktop/api/dskquota/nf-dskquota-idiskquotauser-getquotaused
+          - name: "GetQuotaUsedText Method"
+            href: /windows/desktop/api/dskquota/nf-dskquota-idiskquotauser-getquotausedtext
+          - name: "GetSid Method"
+            href: /windows/desktop/api/dskquota/nf-dskquota-idiskquotauser-getsid
+          - name: "GetSidLength Method"
+            href: /windows/desktop/api/dskquota/nf-dskquota-idiskquotauser-getsidlength
+          - name: "Invalidate Method"
+            href: /windows/desktop/api/dskquota/nf-dskquota-idiskquotauser-invalidate
+          - name: "SetQuotaLimit Method"
+            href: /windows/desktop/api/dskquota/nf-dskquota-idiskquotauser-setquotalimit
+          - name: "SetQuotaThreshold Method"
+            href: /windows/desktop/api/dskquota/nf-dskquota-idiskquotauser-setquotathreshold
+        - name: "IDiskQuotaUserBatch"
+          href: /windows/desktop/api/dskquota/nn-dskquota-idiskquotauserbatch
+          items: 
+          - name: "Add Method"
+            href: /windows/desktop/api/dskquota/nf-dskquota-idiskquotauserbatch-add
+          - name: "FlushToDisk Method"
+            href: /windows/desktop/api/dskquota/nf-dskquota-idiskquotauserbatch-flushtodisk
+          - name: "Remove Method"
+            href: /windows/desktop/api/dskquota/nf-dskquota-idiskquotauserbatch-remove
+          - name: "RemoveAll Method"
+            href: /windows/desktop/api/dskquota/nf-dskquota-idiskquotauserbatch-removeall
+        - name: "IEnumDiskQuotaUsers"
+          href: /windows/desktop/api/dskquota/nn-dskquota-ienumdiskquotausers
+          items: 
+          - name: "Clone Method"
+            href: /windows/desktop/api/dskquota/nf-dskquota-ienumdiskquotausers-clone
+          - name: "Next Method"
+            href: /windows/desktop/api/dskquota/nf-dskquota-ienumdiskquotausers-next
+          - name: "Reset Method"
+            href: /windows/desktop/api/dskquota/nf-dskquota-ienumdiskquotausers-reset
+          - name: "Skip Method"
+            href: /windows/desktop/api/dskquota/nf-dskquota-ienumdiskquotausers-skip
+      - name: "Disk Management Structures"
+        href: disk-management-structures.md
+        items: 
+        - name: "CREATE_DISK"
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-create_disk
+        - name: "CREATE_DISK_GPT"
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-create_disk_gpt
+        - name: "CREATE_DISK_MBR"
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-create_disk_mbr
+        - name: "DEVICE_COPY_OFFLOAD_DESCRIPTOR"
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-device_copy_offload_descriptor
+        - name: "DEVICE_LB_PROVISIONING_DESCRIPTOR"
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-device_lb_provisioning_descriptor
+        - name: "DEVICE_SEEK_PENALTY_DESCRIPTOR"
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-device_seek_penalty_descriptor
+        - name: "DEVICE_TRIM_DESCRIPTOR"
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-device_trim_descriptor
+        - name: "DEVICE_WRITE_AGGREGATION_DESCRIPTOR"
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-device_write_aggregation_descriptor
+        - name: "DEVICE_POWER_DESCRIPTOR"
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-device_power_descriptor
+        - name: "DISK_CACHE_INFORMATION"
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-disk_cache_information
+        - name: "DISK_CLUSTER_INFO"
+          href: disk-cluster-info.md
+        - name: "DISK_DETECTION_INFO"
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-disk_detection_info
+        - name: "DISK_EX_INT13_INFO"
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-disk_ex_int13_info
+        - name: "DISK_EXTENT"
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-disk_extent
+        - name: "DISK_GEOMETRY"
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-disk_geometry
+        - name: "DISK_GEOMETRY_EX"
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-disk_geometry_ex
+        - name: "DISK_GROW_PARTITION"
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-disk_grow_partition
+        - name: "DISK_INT13_INFO"
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-disk_int13_info
+        - name: "DISK_PARTITION_INFO"
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-disk_partition_info
+        - name: "DISK_PERFORMANCE"
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-disk_performance
+        - name: "DISKQUOTA_USER_INFORMATION"
+          href: /windows/win32/api/dskquota/ns-dskquota-diskquota_user_information
+        - name: "DRIVE_LAYOUT_INFORMATION"
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-drive_layout_information
+        - name: "DRIVE_LAYOUT_INFORMATION_EX"
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-drive_layout_information_ex
+        - name: "DRIVE_LAYOUT_INFORMATION_GPT"
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-drive_layout_information_gpt
+        - name: "DRIVE_LAYOUT_INFORMATION_MBR"
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-drive_layout_information_mbr
+        - name: "FORMAT_PARAMETERS"
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-format_parameters
+        - name: "FORMAT_EX_PARAMETERS"
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-format_ex_parameters
+        - name: "GET_DISK_ATTRIBUTES"
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-get_disk_attributes
+        - name: "GET_LENGTH_INFORMATION"
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-get_length_information
+        - name: "PARTITION_INFORMATION"
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-partition_information
+        - name: "PARTITION_INFORMATION_EX"
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-partition_information_ex
+        - name: "PARTITION_INFORMATION_GPT"
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-partition_information_gpt
+        - name: "PARTITION_INFORMATION_MBR"
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-partition_information_mbr
+        - name: "REASSIGN_BLOCKS"
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-reassign_blocks
+        - name: "REASSIGN_BLOCKS_EX"
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-reassign_blocks_ex
+        - name: "SET_DISK_ATTRIBUTES"
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-set_disk_attributes
+        - name: "SET_PARTITION_INFORMATION"
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-set_partition_information
+        - name: "STORAGE_ACCESS_ALIGNMENT_DESCRIPTOR"
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-storage_access_alignment_descriptor
+        - name: "STORAGE_ADAPTER_DESCRIPTOR"
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-storage_adapter_descriptor
+        - name: "STORAGE_DESCRIPTOR_HEADER"
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-storage_descriptor_header
+        - name: "STORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR"
+          href: /windows/win32/api/winioctl/ns-winioctl-storage_device_attributes_descriptor
+        - name: "STORAGE_DEVICE_DESCRIPTOR"
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-storage_device_descriptor
+        - name: "STORAGE_DEVICE_ID_DESCRIPTOR"
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-storage_device_id_descriptor
+        - name: "STORAGE_DEVICE_IO_CAPABILITY_DESCRIPTOR"
+          href: /windows/win32/api/winioctl/ns-winioctl-storage_device_io_capability_descriptor
+        - name: "STORAGE_DEVICE_POWER_CAP"
+          href: /windows/win32/api/winioctl/ns-winioctl-storage_device_power_cap
+        - name: "STORAGE_DEVICE_RESILIENCY_DESCRIPTOR"
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-storage_device_resiliency_descriptor
+        - name: "STORAGE_HW_FIRMWARE_ACTIVATE"
+          href: /windows/win32/api/winioctl/ns-winioctl-storage_hw_firmware_activate
+        - name: "STORAGE_HW_FIRMWARE_DOWNLOAD"
+          href: /windows/win32/api/winioctl/ns-winioctl-storage_hw_firmware_download
+        - name: "STORAGE_HW_FIRMWARE_INFO"
+          href: storage-hw-firmware-info.md
+        - name: "STORAGE_HW_FIRMWARE_INFO_QUERY"
+          href: storage-hw-firmware-info-query.md
+        - name: "STORAGE_HW_FIRMWARE_SLOT_INFO"
+          href: storage-hw-firmware-slot-info.md
+        - name: "STORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR"
+          href: /windows/win32/api/winioctl/ns-winioctl-storage_medium_product_type_descriptor
+        - name: "STORAGE_MINIPORT_DESCRIPTOR"
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-storage_miniport_descriptor
+        - name: "STORAGE_PHYSICAL_ADAPTER_DATA"
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-storage_physical_adapter_data
+        - name: "STORAGE_PHYSICAL_DEVICE_DATA"
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-storage_physical_device_data
+        - name: "STORAGE_PHYSICAL_NODE_DATA"
+          href: /windows/win32/api/winioctl/ns-winioctl-storage_physical_node_data
+        - name: "STORAGE_PHYSICAL_TOPOLOGY_DESCRIPTOR"
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-storage_physical_topology_descriptor
+        - name: "STORAGE_PROPERTY_QUERY"
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-storage_property_query
+        - name: "STORAGE_PROTOCOL_ATA_DATA_TYPE"
+          href: /windows/win32/api/WinIoCtl/ne-winioctl-storage_protocol_ata_data_type
+        - name: "STORAGE_PROTOCOL_COMMAND"
+          href: /windows/win32/api/winioctl/ns-winioctl-storage_protocol_command
+        - name: "STORAGE_PROTOCOL_DATA_DESCRIPTOR"
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-storage_protocol_data_descriptor
+        - name: "STORAGE_PROTOCOL_NVME_DATA_TYPE"
+          href: /windows/win32/api/WinIoCtl/ne-winioctl-storage_protocol_nvme_data_type
+        - name: "STORAGE_PROTOCOL_SPECIFIC_DATA"
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-storage_protocol_specific_data
+        - name: "STORAGE_SPEC_VERSION"
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-storage_spec_version
+        - name: "STORAGE_TEMPERATURE_DATA_DESCRIPTOR"
+          href: /windows/win32/api/WinIoctl/ns-winioctl-storage_temperature_data_descriptor
+        - name: "STORAGE_TEMPERATURE_INFO"
+          href: /windows/win32/api/WinIoctl/ns-winioctl-storage_temperature_info
+        - name: "STORAGE_TEMPERATURE_THRESHOLD"
+          href: /windows/win32/api/WinIoctl/ns-winioctl-storage_temperature_threshold
+        - name: "STORAGE_WRITE_CACHE_PROPERTY"
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-storage_write_cache_property
+        - name: "VERIFY_INFORMATION"
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-verify_information
+      - name: "Disk Partition Types"
+        href: disk-partition-types.md
+    - name: "Working with NVMe drives"
+      href: working-with-nvme-devices.md
+  - name: "File Management"
+    href: file-management.md
+    items: 
+    - name: "About File Management"
+      href: about-file-management.md
+      items: 
+      - name: "File System Functionality Comparison"
+        href: filesystem-functionality-comparison.md
+      - name: "exFat File System Specification"
+        href: exfat-specification.md
+      - name: "Files and Clusters"
+        href: files-and-clusters.md
+        items: 
+        - name: "File Streams"
+          href: file-streams.md
+        - name: "File Objects"
+          href: file-objects.md
+        - name: "File Handles"
+          href: file-handles.md
+        - name: "File Pointers"
+          href: file-pointers.md
+        - name: "Clusters and Extents"
+          href: clusters-and-extents.md
+      - name: "Creating, Deleting, and Maintaining Files"
+        href: creating--deleting--and-maintaining-files.md
+        items: 
+        - name: "Naming Files, Paths, and Namespaces"
+          href: naming-a-file.md
+        - name: "Maximum file path limitation"
+          href: maximum-file-path-limitation.md
+        - name: "Creating and Opening Files"
+          href: creating-and-opening-files.md
+        - name: "Moving and Replacing Files"
+          href: moving-and-replacing-files.md
+        - name: "Closing and Deleting Files"
+          href: closing-and-deleting-files.md
+        - name: "Defragmenting Files"
+          href: defragmenting-files.md
+      - name: "Obtaining and Setting File Information"
+        href: obtaining-and-setting-file-information.md
+        items: 
+        - name: "Retrieving File Type Information"
+          href: retrieving-file-type-information.md
+        - name: "Determining the Size of a File"
+          href: determining-the-size-of-a-file.md
+        - name: "Searching for One or More Files"
+          href: searching-for-one-or-more-files.md
+        - name: "Setting and Getting the Timestamp of a File"
+          href: setting-and-getting-the-timestamp-of-a-file.md
+        - name: "Determining the Current Character Set Code Page"
+          href: determining-the-current-character-set-code-page.md
+      - name: "Reading From and Writing to Files"
+        href: reading-from-and-writing-to-files.md
+        items: 
+        - name: "Positioning a File Pointer"
+          href: positioning-a-file-pointer.md
+        - name: "Reading From or Writing To Files Using a Scatter-Gather Scheme"
+          href: reading-from-or-writing-to-files-using-a-scatter-gather-scheme.md
+        - name: "Flushing System-Buffered I/O Data to Disk"
+          href: flushing-system-buffered-i-o-data-to-disk.md
+        - name: "Truncating or Extending Files"
+          href: truncating-or-extending-files.md
+      - name: "File and Directory Linking"
+        href: file-and-directory-linking.md
+        items: 
+        - name: "Hard Links and Junctions"
+          href: hard-links-and-junctions.md
+        - name: "Distributed Link Tracking and Object Identifiers"
+          href: distributed-link-tracking-and-object-identifiers.md
+      - name: "Block Cloning"
+        href: block-cloning.md
+      - name: "File Compression and Decompression"
+        href: file-compression-and-decompression.md
+        items: 
+        - name: "Compression Attribute"
+          href: compression-attribute.md
+        - name: "Compression State"
+          href: compression-state.md
+        - name: "Obtaining the Size of a Compressed File"
+          href: obtaining-the-size-of-a-compressed-file.md
+        - name: "Decompressing a Single File"
+          href: decompressing-a-single-file.md
+        - name: "Decompressing Multiple Files"
+          href: decompressing-multiple-files.md
+        - name: "Reading from Compressed Files"
+          href: reading-from-compressed-files.md
+      - name: "File Encryption"
+        href: file-encryption.md
+        items: 
+        - name: "Handling Encrypted Files and Directories"
+          href: handling-encrypted-files-and-directories.md
+        - name: "Encrypted Files and User Keys"
+          href: encrypted-files-and-user-keys.md
+        - name: "Backup and Restore of Encrypted Files"
+          href: backup-and-restore-of-encrypted-files.md
+      - name: "File Security and Access Rights"
+        href: file-security-and-access-rights.md
+      - name: "Input and Output (I/O)"
+        href: input-and-output--i-o-.md
+        items: 
+        - name: "I/O Concepts"
+          href: i-o-concepts.md
+          items: 
+          - name: "File Buffering"
+            href: file-buffering.md
+          - name: "File Caching"
+            href: file-caching.md
+          - name: "Synchronous and Asynchronous I/O"
+            href: synchronous-and-asynchronous-i-o.md
+          - name: "Canceling Pending I/O Operations"
+            href: canceling-pending-i-o-operations.md
+          - name: "Alertable I/O"
+            href: alertable-i-o.md
+          - name: "I/O Completion Ports"
+            href: i-o-completion-ports.md
+        - name: "Network I/O Concepts"
+          href: network-i-o-concepts.md
+          items: 
+          - name: "Description of a Network I/O Operation"
+            href: description-of-a-network-i-o-operation.md
+            items: 
+            - name: "Differences in Local and Network I/O"
+              href: differences-in-local-and-network-i-o.md
+            - name: "Network Redirectors"
+              href: network-redirectors.md
+          - name: "Microsoft SMB Protocol and CIFS Protocol Overview"
+            href: microsoft-smb-protocol-and-cifs-protocol-overview.md
+            items: 
+            - name: "Microsoft SMB Protocol Dialects"
+              href: microsoft-smb-protocol-dialects.md
+            - name: "Microsoft SMB Protocol Authentication"
+              href: microsoft-smb-protocol-authentication.md
+            - name: "Microsoft SMB Protocol Packet Exchange Scenario"
+              href: microsoft-smb-protocol-packet-exchange-scenario.md
+          - name: "Opportunistic Locks"
+            href: opportunistic-locks.md
+            items: 
+            - name: "Local Caching"
+              href: local-caching.md
+            - name: "Data Coherency"
+              href: data-coherency.md
+            - name: "How to Request an Opportunistic Lock"
+              href: how-to-request-an-opportunistic-lock.md
+            - name: "Server Response to Open Requests on Locked Files"
+              href: server-response-to-open-requests-on-locked-files.md
+            - name: "Types of Opportunistic Locks"
+              href: types-of-opportunistic-locks.md
+            - name: "Breaking Opportunistic Locks"
+              href: breaking-opportunistic-locks.md
+            - name: "Opportunistic Lock Examples"
+              href: opportunistic-lock-examples.md
+            - name: "Opportunistic Lock Operations"
+              href: opportunistic-lock-operations.md
+      - name: "Sparse Files"
+        href: sparse-files.md
+        items: 
+        - name: "Sparse File Operations"
+          href: sparse-file-operations.md
+        - name: "Obtaining the Size of a Sparse File"
+          href: obtaining-the-size-of-a-sparse-file.md
+        - name: "Sparse Files and Disk Quotas"
+          href: sparse-files-and-disk-quota.md
+      - name: "Symbolic Links"
+        href: symbolic-links.md
+        items: 
+        - name: "Symbolic Link Effects on File Systems Functions"
+          href: symbolic-link-effects-on-file-systems-functions.md
+        - name: "Programming Considerations"
+          href: symbolic-link-programming-considerations.md
+        - name: "Creating Symbolic Links"
+          href: creating-symbolic-links.md
+    - name: "Using File Management"
+      href: using-file-management.md
+      items: 
+      - name: "Adding Users to an Encrypted File"
+        href: adding-users-to-an-encrypted-file.md
+      - name: "Appending One File to Another File"
+        href: appending-one-file-to-another-file.md
+      - name: "Creating and Using a Temporary File"
+        href: creating-and-using-a-temporary-file.md
+      - name: "Locking and Unlocking Byte Ranges in Files"
+        href: locking-and-unlocking-byte-ranges-in-files.md
+      - name: "Opening a File for Reading or Writing"
+        href: opening-a-file-for-reading-or-writing.md
+      - name: "Retrieving and Changing File Attributes"
+        href: retrieving-and-changing-file-attributes.md
+      - name: "Testing for the End of a File"
+        href: testing-for-the-end-of-a-file.md
+      - name: "Using Streams"
+        href: using-streams.md
+    - name: "File Management Reference"
+      href: file-management-reference.md
+      items: 
+      - name: "File Management Constants"
+        href: file-management-constants.md
+        items: 
+        - name: "File Access Rights Constants"
+          href: file-access-rights-constants.md
+        - name: "File Attribute Constants"
+          href: file-attribute-constants.md
+      - name: "File Management Control Codes"
+        href: file-management-control-codes.md
+        items: 
+        - name: "FSCTL_ALLOW_EXTENDED_DASD_IO"
+          href: /windows/desktop/api/winioctl/ni-winioctl-fsctl_allow_extended_dasd_io
+        - name: "FSCTL_CREATE_OR_GET_OBJECT_ID"
+          href: /windows/desktop/api/winioctl/ni-winioctl-fsctl_create_or_get_object_id
+        - name: "FSCTL_CSV_CONTROL"
+          href: /windows/desktop/api/winioctl/ni-winioctl-fsctl_csv_control
+        - name: "FSCTL_DELETE_OBJECT_ID"
+          href: /windows/desktop/api/winioctl/ni-winioctl-fsctl_delete_object_id
+        - name: "FSCTL_DUPLICATE_EXTENTS_TO_FILE"
+          href: /windows/desktop/api/winioctl/ni-winioctl-fsctl_duplicate_extents_to_file
+        - name: "FSCTL_FILE_LEVEL_TRIM"
+          href: /windows/desktop/api/winioctl/ni-winioctl-fsctl_file_level_trim
+        - name: "FSCTL_FILESYSTEM_GET_STATISTICS"
+          href: /windows/desktop/api/winioctl/ni-winioctl-fsctl_filesystem_get_statistics
+        - name: "FSCTL_FILESYSTEM_GET_STATISTICS_EX"
+          href: /windows/desktop/api/winioctl/ni-winioctl-fsctl_filesystem_get_statistics_ex
+        - name: "FSCTL_FIND_FILES_BY_SID"
+          href: /windows/desktop/api/winioctl/ni-winioctl-fsctl_find_files_by_sid
+        - name: "FSCTL_GET_COMPRESSION"
+          href: /windows/desktop/api/winioctl/ni-winioctl-fsctl_get_compression
+        - name: "FSCTL_GET_NTFS_FILE_RECORD"
+          href: /windows/desktop/api/winioctl/ni-winioctl-fsctl_get_ntfs_file_record
+        - name: "FSCTL_GET_OBJECT_ID"
+          href: /windows/desktop/api/winioctl/ni-winioctl-fsctl_get_object_id
+        - name: "FSCTL_GET_REPAIR"
+          href: /windows/desktop/api/winioctl/ni-winioctl-fsctl_get_repair
+        - name: "FSCTL_INITIATE_REPAIR"
+          href: /windows/desktop/api/winioctl/ni-winioctl-fsctl_initiate_repair
+        - name: "FSCTL_MAKE_MEDIA_COMPATIBLE"
+          href: /windows/desktop/api/winioctl/ni-winioctl-fsctl_make_media_compatible
+        - name: "FSCTL_OPBATCH_ACK_CLOSE_PENDING"
+          href: /windows/desktop/api/winioctl/ni-winioctl-fsctl_opbatch_ack_close_pending
+        - name: "FSCTL_OPLOCK_BREAK_ACK_NO_2"
+          href: /windows/desktop/api/winioctl/ni-winioctl-fsctl_oplock_break_ack_no_2
+        - name: "FSCTL_OPLOCK_BREAK_ACKNOWLEDGE"
+          href: /windows/desktop/api/winioctl/ni-winioctl-fsctl_oplock_break_acknowledge
+        - name: "FSCTL_OPLOCK_BREAK_NOTIFY"
+          href: /windows/desktop/api/winioctl/ni-winioctl-fsctl_oplock_break_notify
+        - name: "FSCTL_QUERY_ALLOCATED_RANGES"
+          href: /windows/desktop/api/winioctl/ni-winioctl-fsctl_query_allocated_ranges
+        - name: "FSCTL_QUERY_ON_DISK_VOLUME_INFO"
+          href: /windows/desktop/api/winioctl/ni-winioctl-fsctl_query_on_disk_volume_info
+        - name: "FSCTL_QUERY_SPARING_INFO"
+          href: /windows/desktop/api/winioctl/ni-winioctl-fsctl_query_sparing_info
+        - name: "FSCTL_RECALL_FILE"
+          href: /windows/desktop/api/winioctl/ni-winioctl-fsctl_recall_file
+        - name: "FSCTL_REQUEST_BATCH_OPLOCK"
+          href: /windows/desktop/api/winioctl/ni-winioctl-fsctl_request_batch_oplock
+        - name: "FSCTL_REQUEST_FILTER_OPLOCK"
+          href: /windows/desktop/api/winioctl/ni-winioctl-fsctl_request_filter_oplock
+        - name: "FSCTL_REQUEST_OPLOCK"
+          href: /windows/desktop/api/winioctl/ni-winioctl-fsctl_request_oplock
+        - name: "FSCTL_REQUEST_OPLOCK_LEVEL_1"
+          href: /windows/desktop/api/winioctl/ni-winioctl-fsctl_request_oplock_level_1
+        - name: "FSCTL_REQUEST_OPLOCK_LEVEL_2"
+          href: /windows/desktop/api/winioctl/ni-winioctl-fsctl_request_oplock_level_2
+        - name: "FSCTL_SET_COMPRESSION"
+          href: /windows/desktop/api/winioctl/ni-winioctl-fsctl_set_compression
+        - name: "FSCTL_SET_DEFECT_MANAGEMENT"
+          href: /windows/desktop/api/winioctl/ni-winioctl-fsctl_set_defect_management
+        - name: "FSCTL_SET_OBJECT_ID"
+          href: /windows/desktop/api/winioctl/ni-winioctl-fsctl_set_object_id
+        - name: "FSCTL_SET_OBJECT_ID_EXTENDED"
+          href: /windows/desktop/api/winioctl/ni-winioctl-fsctl_set_object_id_extended
+        - name: "FSCTL_SET_REPAIR"
+          href: /windows/desktop/api/winioctl/ni-winioctl-fsctl_set_repair
+        - name: "FSCTL_SET_SPARSE"
+          href: /windows/desktop/api/winioctl/ni-winioctl-fsctl_set_sparse
+        - name: "FSCTL_SET_ZERO_DATA"
+          href: /windows/desktop/api/winioctl/ni-winioctl-fsctl_set_zero_data
+        - name: "FSCTL_SET_ZERO_ON_DEALLOCATION"
+          href: /windows/desktop/api/winioctl/ni-winioctl-fsctl_set_zero_on_deallocation
+        - name: "FSCTL_WAIT_FOR_REPAIR"
+          href: /windows/desktop/api/winioctl/ni-winioctl-fsctl_wait_for_repair
+      - name: "File Management Enumerations"
+        href: file-management-enumerations.md
+        items: 
+        - name: "COPYFILE2_COPY_PHASE"
+          href: /windows/win32/api/WinBase/ne-winbase-copyfile2_copy_phase
+        - name: "COPYFILE2_MESSAGE_ACTION"
+          href: /windows/win32/api/WinBase/ne-winbase-copyfile2_message_action
+        - name: "COPYFILE2_MESSAGE_TYPE"
+          href: /windows/win32/api/WinBase/ne-winbase-copyfile2_message_type
+        - name: "CSV_CONTROL_OP"
+          href: /windows/win32/api/WinIoCtl/ne-winioctl-csv_control_op
+        - name: "FILE_ID_TYPE"
+          href: /windows/win32/api/WinBase/ne-winbase-file_id_type
+        - name: "FILE_INFO_BY_HANDLE_CLASS"
+          href: /windows/desktop/api/minwinbase/ne-minwinbase-file_info_by_handle_class
+        - name: "FINDEX_INFO_LEVELS"
+          href: /windows/desktop/api/minwinbase/ne-minwinbase-findex_info_levels
+        - name: "FINDEX_SEARCH_OPS"
+          href: /windows/desktop/api/minwinbase/ne-minwinbase-findex_search_ops
+        - name: "GET_FILEEX_INFO_LEVELS"
+          href: /windows/desktop/api/minwinbase/ne-minwinbase-get_fileex_info_levels
+        - name: "PRIORITY_HINT"
+          href: /windows/win32/api/WinBase/ne-winbase-priority_hint
+        - name: "STREAM_INFO_LEVELS"
+          href: /windows/win32/api/fileapi/ne-fileapi-stream_info_levels
+      - name: "File Management Functions"
+        href: file-management-functions.md
+        items: 
+        - name: "AddUsersToEncryptedFile"
+          href: /windows/desktop/api/Winefs/nf-winefs-adduserstoencryptedfile
+        - name: "AreFileApisANSI"
+          href: /windows/desktop/api/fileapi/nf-fileapi-arefileapisansi
+        - name: "CancelIo"
+          href: cancelio.md
+        - name: "CancelIoEx"
+          href: cancelioex-func.md
+        - name: "CancelSynchronousIo"
+          href: cancelsynchronousio-func.md
+        - name: "CheckNameLegalDOS8Dot3"
+          href: /windows/desktop/api/WinBase/nf-winbase-checknamelegaldos8dot3a
+        - name: "CloseEncryptedFileRaw"
+          href: /windows/desktop/api/WinBase/nf-winbase-closeencryptedfileraw
+        - name: "CopyFile"
+          href: /windows/desktop/api/WinBase/nf-winbase-copyfile
+        - name: "CopyFile2"
+          href: /windows/desktop/api/WinBase/nf-winbase-copyfile2
+        - name: "PCOPYFILE2_PROGRESS_ROUTINE"
+          href: /windows/desktop/api/WinBase/nc-winbase-pcopyfile2_progress_routine
+        - name: "CopyFileEx"
+          href: /windows/desktop/api/WinBase/nf-winbase-copyfileexa
+        - name: "CopyFileTransacted"
+          href: /windows/desktop/api/WinBase/nf-winbase-copyfiletransacteda
+        - name: "CopyProgressRoutine"
+          href: /windows/desktop/api/WinBase/nc-winbase-lpprogress_routine
+        - name: "CreateFile"
+          href: /windows/desktop/api/FileAPI/nf-fileapi-createfilea
+        - name: "CreateFile2"
+          href: /windows/desktop/api/FileAPI/nf-fileapi-createfile2
+        - name: "CreateFileTransacted"
+          href: /windows/desktop/api/WinBase/nf-winbase-createfiletransacteda
+        - name: "CreateHardLink"
+          href: /windows/desktop/api/WinBase/nf-winbase-createhardlinka
+        - name: "CreateHardLinkTransacted"
+          href: /windows/desktop/api/WinBase/nf-winbase-createhardlinktransacteda
+        - name: "CreateIoCompletionPort"
+          href: createiocompletionport.md
+        - name: "CreateSymbolicLink"
+          href: /windows/desktop/api/WinBase/nf-winbase-createsymboliclinka
+        - name: "CreateSymbolicLinkTransacted"
+          href: /windows/desktop/api/WinBase/nf-winbase-createsymboliclinktransacteda
+        - name: "DecryptFile"
+          href: /windows/desktop/api/WinBase/nf-winbase-decryptfilea
+        - name: "DeleteFile"
+          href: /windows/desktop/api/FileAPI/nf-fileapi-deletefilea
+        - name: "DeleteFileTransacted"
+          href: /windows/desktop/api/WinBase/nf-winbase-deletefiletransacteda
+        - name: "DuplicateEncryptionInfoFile"
+          href: /windows/desktop/api/Winefs/nf-winefs-duplicateencryptioninfofile
+        - name: "EncryptFile"
+          href: /windows/desktop/api/WinBase/nf-winbase-encryptfilea
+        - name: "EncryptionDisable"
+          href: /windows/desktop/api/WinEfs/nf-winefs-encryptiondisable
+        - name: "ExportCallback"
+          href: /windows/desktop/api/WinBase/nc-winbase-pfe_export_func
+        - name: "FileEncryptionStatus"
+          href: /windows/desktop/api/WinBase/nf-winbase-fileencryptionstatusa
+        - name: "FileIOCompletionRoutine"
+          href: /windows/desktop/api/minwinbase/nc-minwinbase-lpoverlapped_completion_routine
+        - name: "FindClose"
+          href: /windows/desktop/api/FileAPI/nf-fileapi-findclose
+        - name: "FindFirstFile"
+          href: /windows/desktop/api/FileAPI/nf-fileapi-findfirstfilea
+        - name: "FindFirstFileEx"
+          href: /windows/desktop/api/FileAPI/nf-fileapi-findfirstfileexa
+        - name: "FindFirstFileNameTransactedW"
+          href: /windows/desktop/api/WinBase/nf-winbase-findfirstfilenametransactedw
+        - name: "FindFirstFileNameW"
+          href: /windows/desktop/api/fileapi/nf-fileapi-findfirstfilenamew
+        - name: "FindFirstFileTransacted"
+          href: /windows/desktop/api/WinBase/nf-winbase-findfirstfiletransacteda
+        - name: "FindFirstStreamTransactedW"
+          href: /windows/desktop/api/WinBase/nf-winbase-findfirststreamtransactedw
+        - name: "FindFirstStreamW"
+          href: /windows/desktop/api/fileapi/nf-fileapi-findfirststreamw
+        - name: "FindNextFile"
+          href: /windows/desktop/api/FileAPI/nf-fileapi-findnextfilea
+        - name: "FindNextFileNameW"
+          href: /windows/desktop/api/fileapi/nf-fileapi-findnextfilenamew
+        - name: "FindNextStreamW"
+          href: /windows/desktop/api/fileapi/nf-fileapi-findnextstreamw
+        - name: "FlushFileBuffers"
+          href: /windows/desktop/api/FileAPI/nf-fileapi-flushfilebuffers
+        - name: "FreeEncryptionCertificateHashList"
+          href: /windows/desktop/api/Winefs/nf-winefs-freeencryptioncertificatehashlist
+        - name: "GetBinaryType"
+          href: /windows/desktop/api/WinBase/nf-winbase-getbinarytypea
+        - name: "GetCompressedFileSize"
+          href: /windows/desktop/api/fileapi/nf-fileapi-getcompressedfilesizea
+        - name: "GetCompressedFileSizeTransacted"
+          href: /windows/desktop/api/WinBase/nf-winbase-getcompressedfilesizetransacteda
+        - name: "GetExpandedName"
+          href: /windows/desktop/api/LzExpand/nf-lzexpand-getexpandednamea
+        - name: "GetFileAttributes"
+          href: /windows/desktop/api/FileAPI/nf-fileapi-getfileattributesa
+        - name: "GetFileAttributesEx"
+          href: /windows/desktop/api/FileAPI/nf-fileapi-getfileattributesexa
+        - name: "GetFileAttributesTransacted"
+          href: /windows/desktop/api/WinBase/nf-winbase-getfileattributestransacteda
+        - name: "GetFileBandwidthReservation"
+          href: /windows/desktop/api/WinBase/nf-winbase-getfilebandwidthreservation
+        - name: "GetFileInformationByHandle"
+          href: /windows/desktop/api/FileAPI/nf-fileapi-getfileinformationbyhandle
+        - name: "GetFileInformationByHandleEx"
+          href: /windows/desktop/api/WinBase/nf-winbase-getfileinformationbyhandleex
+        - name: "GetFileSize"
+          href: /windows/desktop/api/FileAPI/nf-fileapi-getfilesize
+        - name: "GetFileSizeEx"
+          href: /windows/desktop/api/FileAPI/nf-fileapi-getfilesizeex
+        - name: "GetFileType"
+          href: /windows/desktop/api/FileAPI/nf-fileapi-getfiletype
+        - name: "GetFinalPathNameByHandle"
+          href: /windows/desktop/api/FileAPI/nf-fileapi-getfinalpathnamebyhandlea
+        - name: "GetFullPathName"
+          href: /windows/desktop/api/FileAPI/nf-fileapi-getfullpathnamea
+        - name: "GetFullPathNameTransacted"
+          href: /windows/desktop/api/WinBase/nf-winbase-getfullpathnametransacteda
+        - name: "GetLongPathName"
+          href: /windows/desktop/api/FileAPI/nf-fileapi-getlongpathnamea
+        - name: "GetLongPathNameTransacted"
+          href: /windows/desktop/api/WinBase/nf-winbase-getlongpathnametransacteda
+        - name: "GetQueuedCompletionStatus"
+          href: /windows/desktop/api/ioapiset/nf-ioapiset-getqueuedcompletionstatus
+        - name: "GetQueuedCompletionStatusEx"
+          href: getqueuedcompletionstatusex-func.md
+        - name: "GetShortPathName"
+          href: /windows/desktop/api/FileAPI/nf-fileapi-getshortpathnamew
+        - name: "GetTempFileName"
+          href: /windows/desktop/api/FileAPI/nf-fileapi-gettempfilenamea
+        - name: "GetTempPath"
+          href: /windows/desktop/api/FileAPI/nf-fileapi-gettemppatha
+        - name: "ImportCallback"
+          href: /windows/desktop/api/WinBase/nc-winbase-pfe_import_func
+        - name: "LockFile"
+          href: /windows/desktop/api/FileAPI/nf-fileapi-lockfile
+        - name: "LockFileEx"
+          href: /windows/desktop/api/FileAPI/nf-fileapi-lockfileex
+        - name: "LZClose"
+          href: /windows/desktop/api/LzExpand/nf-lzexpand-lzclose
+        - name: "LZCopy"
+          href: /windows/desktop/api/LzExpand/nf-lzexpand-lzcopy
+        - name: "LZInit"
+          href: /windows/desktop/api/LzExpand/nf-lzexpand-lzinit
+        - name: "LZOpenFile"
+          href: /windows/desktop/api/LzExpand/nf-lzexpand-lzopenfilea
+        - name: "LZRead"
+          href: /windows/desktop/api/LzExpand/nf-lzexpand-lzread
+        - name: "LZSeek"
+          href: /windows/desktop/api/LzExpand/nf-lzexpand-lzseek
+        - name: "MoveFile"
+          href: /windows/desktop/api/WinBase/nf-winbase-movefile
+        - name: "MoveFileEx"
+          href: /windows/desktop/api/WinBase/nf-winbase-movefileexa
+        - name: "MoveFileTransacted"
+          href: /windows/desktop/api/WinBase/nf-winbase-movefiletransacteda
+        - name: "MoveFileWithProgress"
+          href: /windows/desktop/api/WinBase/nf-winbase-movefilewithprogressa
+        - name: "OpenEncryptedFileRaw"
+          href: /windows/desktop/api/WinBase/nf-winbase-openencryptedfilerawa
+        - name: "OpenFile"
+          href: /windows/desktop/api/WinBase/nf-winbase-openfile
+        - name: "OpenFileById"
+          href: /windows/desktop/api/WinBase/nf-winbase-openfilebyid
+        - name: "PostQueuedCompletionStatus"
+          href: postqueuedcompletionstatus.md
+        - name: "QueryRecoveryAgentsOnEncryptedFile"
+          href: /windows/desktop/api/Winefs/nf-winefs-queryrecoveryagentsonencryptedfile
+        - name: "QueryUsersOnEncryptedFile"
+          href: /windows/desktop/api/Winefs/nf-winefs-queryusersonencryptedfile
+        - name: "ReadEncryptedFileRaw"
+          href: /windows/desktop/api/WinBase/nf-winbase-readencryptedfileraw
+        - name: "ReadFile"
+          href: /windows/desktop/api/FileAPI/nf-fileapi-readfile
+        - name: "ReadFileEx"
+          href: /windows/desktop/api/FileAPI/nf-fileapi-readfileex
+        - name: "ReadFileScatter"
+          href: /windows/desktop/api/FileAPI/nf-fileapi-readfilescatter
+        - name: "RemoveUsersFromEncryptedFile"
+          href: /windows/desktop/api/Winefs/nf-winefs-removeusersfromencryptedfile
+        - name: "ReOpenFile"
+          href: /windows/desktop/api/WinBase/nf-winbase-reopenfile
+        - name: "ReplaceFile"
+          href: /windows/desktop/api/WinBase/nf-winbase-replacefilea
+        - name: "SearchPath"
+          href: /windows/desktop/api/processenv/nf-processenv-searchpathw
+        - name: "SetEndOfFile"
+          href: /windows/desktop/api/FileAPI/nf-fileapi-setendoffile
+        - name: "SetFileApisToANSI"
+          href: /windows/desktop/api/fileapi/nf-fileapi-setfileapistoansi
+        - name: "SetFileApisToOEM"
+          href: /windows/desktop/api/fileapi/nf-fileapi-setfileapistooem
+        - name: "SetFileAttributes"
+          href: /windows/desktop/api/FileAPI/nf-fileapi-setfileattributesa
+        - name: "SetFileAttributesTransacted"
+          href: /windows/desktop/api/WinBase/nf-winbase-setfileattributestransacteda
+        - name: "SetFileBandwidthReservation"
+          href: /windows/desktop/api/WinBase/nf-winbase-setfilebandwidthreservation
+        - name: "SetFileCompletionNotificationModes"
+          href: /windows/desktop/api/WinBase/nf-winbase-setfilecompletionnotificationmodes
+        - name: "SetFileInformationByHandle"
+          href: /windows/desktop/api/FileAPI/nf-fileapi-setfileinformationbyhandle
+        - name: "SetFileIoOverlappedRange"
+          href: /windows/desktop/api/fileapi/nf-fileapi-setfileiooverlappedrange
+        - name: "SetFilePointer"
+          href: /windows/desktop/api/FileAPI/nf-fileapi-setfilepointer
+        - name: "SetFilePointerEx"
+          href: /windows/desktop/api/FileAPI/nf-fileapi-setfilepointerex
+        - name: "SetFileShortName"
+          href: /windows/desktop/api/WinBase/nf-winbase-setfileshortnamea
+        - name: "SetFileValidData"
+          href: /windows/desktop/api/FileAPI/nf-fileapi-setfilevaliddata
+        - name: "SetSearchPathMode"
+          href: /windows/desktop/api/WinBase/nf-winbase-setsearchpathmode
+        - name: "SetUserFileEncryptionKey"
+          href: /windows/desktop/api/Winefs/nf-winefs-setuserfileencryptionkey
+        - name: "UnlockFile"
+          href: /windows/desktop/api/FileAPI/nf-fileapi-unlockfile
+        - name: "UnlockFileEx"
+          href: /windows/desktop/api/FileAPI/nf-fileapi-unlockfileex
+        - name: "WofEnumEntries"
+          href: /windows/desktop/api/wofapi/nf-wofapi-wofenumentries
+        - name: "WofEnumEntryProc"
+          href: /windows/desktop/api/wofapi/nc-wofapi-wofenumentryproc
+        - name: "WofEnumFilesProc"
+          href: /windows/desktop/api/wofapi/nc-wofapi-wofenumfilesproc
+        - name: "WofFileEnumFiles"
+          href: /windows/desktop/api/wofapi/nf-wofapi-woffileenumfiles
+        - name: "WofGetDriverVersion"
+          href: /windows/desktop/api/wofapi/nf-wofapi-wofgetdriverversion
+        - name: "WofIsExternalFile"
+          href: /windows/desktop/api/wofapi/nf-wofapi-wofisexternalfile
+        - name: "WofSetFileDataLocation"
+          href: /windows/desktop/api/wofapi/nf-wofapi-wofsetfiledatalocation
+        - name: "WofShouldCompressBinaries"
+          href: /windows/desktop/api/wofapi/nf-wofapi-wofshouldcompressbinaries
+        - name: "WofWimAddEntry"
+          href: /windows/desktop/api/wofapi/nf-wofapi-wofwimaddentry
+        - name: "WofWimEnumFiles"
+          href: /windows/desktop/api/wofapi/nf-wofapi-wofwimenumfiles
+        - name: "WofWimRemoveEntry"
+          href: /windows/desktop/api/wofapi/nf-wofapi-wofwimremoveentry
+        - name: "WofWimSuspendEntry"
+          href: /windows/desktop/api/wofapi/nf-wofapi-wofwimsuspendentry
+        - name: "WofWimUpdateEntry"
+          href: /windows/desktop/api/wofapi/nf-wofapi-wofwimupdateentry
+        - name: "Wow64DisableWow64FsRedirection"
+          href: /windows/desktop/api/wow64apiset/nf-wow64apiset-wow64disablewow64fsredirection
+        - name: "Wow64EnableWow64FsRedirection"
+          href: /windows/win32/api/wow64apiset/nf-wow64apiset-wow64enablewow64fsredirection
+        - name: "Wow64RevertWow64FsRedirection"
+          href: /windows/desktop/api/wow64apiset/nf-wow64apiset-wow64revertwow64fsredirection
+        - name: "WriteEncryptedFileRaw"
+          href: /windows/desktop/api/WinBase/nf-winbase-writeencryptedfileraw
+        - name: "WriteFile"
+          href: /windows/desktop/api/FileAPI/nf-fileapi-writefile
+        - name: "WriteFileEx"
+          href: /windows/desktop/api/FileAPI/nf-fileapi-writefileex
+        - name: "WriteFileGather"
+          href: /windows/desktop/api/FileAPI/nf-fileapi-writefilegather
+      - name: "File Management Structures"
+        href: file-management-structures.md
+        items: 
+        - name: "BY_HANDLE_FILE_INFORMATION"
+          href: /windows/win32/api/FileAPI/ns-fileapi-by_handle_file_information
+        - name: "COPYFILE2_EXTENDED_PARAMETERS"
+          href: /windows/desktop/api/WinBase/ns-winbase-copyfile2_extended_parameters
+        - name: "COPYFILE2_MESSAGE"
+          href: /windows/desktop/api/WinBase/ns-winbase-copyfile2_message
+        - name: "CREATEFILE2_EXTENDED_PARAMETERS"
+          href: /windows/win32/api/FileAPI/ns-fileapi-createfile2_extended_parameters
+        - name: "CSV_CONTROL_PARAM"
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-csv_control_param
+        - name: "CSV_QUERY_FILE_REVISION"
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-csv_query_file_revision
+        - name: "CSV_QUERY_MDS_PATH"
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-csv_query_mds_path
+        - name: "CSV_QUERY_REDIRECT_STATE"
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-csv_query_redirect_state
+        - name: "DUPLICATE_EXTENTS_DATA"
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-duplicate_extents_data
+        - name: "EFS_CERTIFICATE_BLOB"
+          href: /windows/desktop/api/Winefs/ns-winefs-efs_certificate_blob
+        - name: "EFS_HASH_BLOB"
+          href: /windows/win32/api/Winefs/ns-winefs-efs_hash_blob
+        - name: "ENCRYPTION_CERTIFICATE"
+          href: /windows/win32/api/Winefs/ns-winefs-encryption_certificate
+        - name: "ENCRYPTION_CERTIFICATE_HASH"
+          href: /windows/win32/api/WinEfs/ns-winefs-encryption_certificate_hash
+        - name: "ENCRYPTION_CERTIFICATE_HASH_LIST"
+          href: /windows/win32/api/WinEfs/ns-winefs-encryption_certificate_hash_list
+        - name: "ENCRYPTION_CERTIFICATE_LIST"
+          href: /windows/win32/api/WinEfs/ns-winefs-encryption_certificate_list
+        - name: "EXFAT_STATISTICS"
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-exfat_statistics
+        - name: "FAT_STATISTICS"
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-fat_statistics
+        - name: "FILE_ALIGNMENT_INFO"
+          href: /windows/win32/api/WinBase/ns-winbase-file_alignment_info
+        - name: "FILE_ALLOCATED_RANGE_BUFFER"
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-file_allocated_range_buffer
+        - name: "FILE_ALLOCATION_INFO"
+          href: /windows/win32/api/WinBase/ns-winbase-file_allocation_info
+        - name: "FILE_ATTRIBUTE_TAG_INFO"
+          href: /windows/win32/api/WinBase/ns-winbase-file_attribute_tag_info
+        - name: "FILE_BASIC_INFO"
+          href: /windows/win32/api/WinBase/ns-winbase-file_basic_info
+        - name: "FILE_COMPRESSION_INFO"
+          href: /windows/win32/api/WinBase/ns-winbase-file_compression_info
+        - name: "FILE_DISPOSITION_INFO"
+          href: /windows/win32/api/WinBase/ns-winbase-file_disposition_info
+        - name: "FILE_END_OF_FILE_INFO"
+          href: /windows/win32/api/WinBase/ns-winbase-file_end_of_file_info
+        - name: "FILE_STORAGE_INFO"
+          href: /windows/win32/api/WinBase/ns-winbase-file_storage_info
+        - name: "FILE_FULL_DIR_INFO"
+          href: /windows/win32/api/WinBase/ns-winbase-file_full_dir_info
+        - name: "FILE_ID_128"
+          href: /windows/win32/api/winnt/ns-winnt-file_id_128
+        - name: "FILE_ID_BOTH_DIR_INFO"
+          href: /windows/win32/api/WinBase/ns-winbase-file_id_both_dir_info
+        - name: "FILE_ID_DESCRIPTOR"
+          href: /windows/desktop/api/WinBase/ns-winbase-file_id_descriptor
+        - name: "FILE_ID_EXTD_DIR_INFO"
+          href: /windows/win32/api/WinBase/ns-winbase-file_id_extd_dir_info
+        - name: "FILE_ID_INFO"
+          href: /windows/win32/api/WinBase/ns-winbase-file_id_info
+        - name: "FILE_IO_PRIORITY_HINT_INFO"
+          href: /windows/win32/api/WinBase/ns-winbase-file_io_priority_hint_info
+        - name: "FILE_LEVEL_TRIM"
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-file_level_trim
+        - name: "FILE_LEVEL_TRIM_OUTPUT"
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-file_level_trim_output
+        - name: "FILE_LEVEL_TRIM_RANGE"
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-file_level_trim_range
+        - name: "FILE_MAKE_COMPATIBLE_BUFFER"
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-file_make_compatible_buffer
+        - name: "FILE_NAME_INFO"
+          href: /windows/win32/api/WinBase/ns-winbase-file_name_info
+        - name: "FILE_OBJECTID_BUFFER"
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-file_objectid_buffer
+        - name: "FILE_QUERY_ON_DISK_VOL_INFO_BUFFER"
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-file_query_on_disk_vol_info_buffer
+        - name: "FILE_QUERY_SPARING_BUFFER"
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-file_query_sparing_buffer
+        - name: "FILE_REMOTE_PROTOCOL_INFO"
+          href: /windows/win32/api/WinBase/ns-winbase-file_remote_protocol_info
+        - name: "FILE_RENAME_INFO"
+          href: /windows/win32/api/WinBase/ns-winbase-file_rename_info
+        - name: "FILE_SEGMENT_ELEMENT"
+          href: /windows/win32/api/fileapi/nf-fileapi-writefilegather#remarks
+        - name: "FILE_SET_DEFECT_MGMT_BUFFER"
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-file_set_defect_mgmt_buffer
+        - name: "FILE_SET_SPARSE_BUFFER"
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-file_set_sparse_buffer
+        - name: "FILE_STANDARD_INFO"
+          href: /windows/win32/api/WinBase/ns-winbase-file_standard_info
+        - name: "FILE_STREAM_INFO"
+          href: /windows/win32/api/WinBase/ns-winbase-file_stream_info
+        - name: "FILE_ZERO_DATA_INFORMATION"
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-file_zero_data_information
+        - name: "FILESYSTEM_STATISTICS"
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-filesystem_statistics
+        - name: "FILESYSTEM_STATISTICS_EX"
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-filesystem_statistics_ex
+        - name: "FIND_BY_SID_DATA"
+          href: /windows/desktop/api/WinIoCtl/ns-winioctl-find_by_sid_data
+        - name: "FIND_BY_SID_OUTPUT"
+          href: /windows/desktop/api/WinIoCtl/ns-winioctl-find_by_sid_output
+        - name: "NTFS_FILE_RECORD_INPUT_BUFFER"
+          href: /windows/desktop/api/WinIoCtl/ns-winioctl-ntfs_file_record_input_buffer
+        - name: "NTFS_FILE_RECORD_OUTPUT_BUFFER"
+          href: /windows/desktop/api/WinIoCtl/ns-winioctl-ntfs_file_record_output_buffer
+        - name: "NTFS_STATISTICS"
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-ntfs_statistics
+        - name: "NTFS_STATISTICS_EX"
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-ntfs_statistics_ex
+        - name: "OFSTRUCT"
+          href: /windows/win32/api/WinBase/ns-winbase-ofstruct
+        - name: "OVERLAPPED_ENTRY"
+          href: /windows/win32/api/MinWinBase/ns-minwinbase-overlapped_entry
+        - name: "REQUEST_OPLOCK_INPUT_BUFFER"
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-request_oplock_input_buffer
+        - name: "REQUEST_OPLOCK_OUTPUT_BUFFER"
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-request_oplock_output_buffer
+        - name: "WIM_ENTRY_INFO"
+          href: /windows/win32/api/wofapi/ns-wofapi-wim_entry_info
+        - name: "WIM_EXTERNAL_FILE_INFO"
+          href: /windows/win32/api/wofapi/ns-wofapi-wim_external_file_info
+        - name: "WIN32_FILE_ATTRIBUTE_DATA"
+          href: /windows/win32/api/fileapi/ns-fileapi-win32_file_attribute_data
+        - name: "WIN32_FIND_DATA"
+          href: /windows/win32/api/MinWinBase/ns-minwinbase-win32_find_dataa
+        - name: "WIN32_FIND_STREAM_DATA"
+          href: /windows/win32/api/fileapi/ns-fileapi-win32_find_stream_data
+        - name: "WOF_FILE_COMPRESSION_INFO_V1"
+          href: /windows/win32/api/wofapi/ns-wofapi-wof_file_compression_info_v1
+  - name: "Transactional NTFS (TxF)"
+    href: transactional-ntfs-portal.md
+    items: 
+    - name: "Alternatives to using Transactional NTFS"
+      href: deprecation-of-txf.md
+    - name: "About Transactional NTFS"
+      href: about-transactional-ntfs.md
+      items: 
+      - name: "When to Use Transactional NTFS"
+        href: when-to-use-transactional-ntfs.md
+      - name: "Deploying Transactional NTFS"
+        href: deploying-transactional-ntfs.md
+      - name: "How to Use Transactional NTFS"
+        href: how-to-use-transactional-ntfs.md
+      - name: "Basic TxF Concepts"
+        href: txf-basic-concepts.md
+      - name: "Programming Considerations for Transactional NTFS"
+        href: programming-considerations-for-transacted-fileio-.md
+      - name: "Performance Considerations for Transactional NTFS"
+        href: performance-considerations-for-transactional-ntfs.md
+    - name: "Transactional NTFS Reference"
+      href: transactional-ntfs-reference.md
+      items: 
+      - name: "TxF Control Codes"
+        href: transactional-ntfs-control-codes.md
+        items: 
+        - name: "FSCTL_TXFS_CREATE_MINIVERSION"
+          href: /windows/desktop/api/winioctl/ni-winioctl-fsctl_txfs_create_miniversion
+        - name: "FSCTL_TXFS_GET_METADATA_INFO"
+          href: /windows/desktop/api/winioctl/ni-winioctl-fsctl_txfs_get_metadata_info
+        - name: "FSCTL_TXFS_GET_TRANSACTED_VERSION"
+          href: /windows/desktop/api/winioctl/ni-winioctl-fsctl_txfs_get_transacted_version
+        - name: "FSCTL_TXFS_LIST_TRANSACTION_LOCKED_FILES"
+          href: /windows/desktop/api/winioctl/ni-winioctl-fsctl_txfs_list_transaction_locked_files
+        - name: "FSCTL_TXFS_LIST_TRANSACTIONS"
+          href: /windows/desktop/api/winioctl/ni-winioctl-fsctl_txfs_list_transactions
+        - name: "FSCTL_TXFS_MODIFY_RM"
+          href: /windows/desktop/api/winioctl/ni-winioctl-fsctl_txfs_modify_rm
+        - name: "FSCTL_TXFS_QUERY_RM_INFORMATION"
+          href: /windows/desktop/api/winioctl/ni-winioctl-fsctl_txfs_query_rm_information
+        - name: "FSCTL_TXFS_READ_BACKUP_INFORMATION"
+          href: /windows/desktop/api/winioctl/ni-winioctl-fsctl_txfs_read_backup_information
+        - name: "FSCTL_TXFS_SAVEPOINT_INFORMATION"
+          href: /windows/desktop/api/winioctl/ni-winioctl-fsctl_txfs_savepoint_information
+        - name: "FSCTL_TXFS_TRANSACTION_ACTIVE"
+          href: /windows/desktop/api/winioctl/ni-winioctl-fsctl_txfs_transaction_active
+        - name: "FSCTL_TXFS_WRITE_BACKUP_INFORMATION"
+          href: /windows/desktop/api/winioctl/ni-winioctl-fsctl_txfs_write_backup_information
+      - name: "TxF Functions"
+        href: txf-functions.md
+        items: 
+        - name: "TxfLogCreateFileReadContext"
+          href: /windows/desktop/api/TxfW32/nf-txfw32-txflogcreatefilereadcontext
+        - name: "TxfLogDestroyReadContext"
+          href: /windows/desktop/api/TxfW32/nf-txfw32-txflogdestroyreadcontext
+        - name: "TxfLogReadRecords"
+          href: /windows/desktop/api/TxfW32/nf-txfw32-txflogreadrecords
+      - name: "TxF Structures"
+        href: transactional-ntfs-structures.md
+        items: 
+        - name: "TXFS_CREATE_MINIVERSION_INFO"
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-txfs_create_miniversion_info
+        - name: "TXFS_GET_METADATA_INFO_OUT"
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-txfs_get_metadata_info_out
+        - name: "TXF_ID"
+          href: /windows/win32/api/TxfW32/ns-txfw32-txf_id
+        - name: "TXFS_GET_TRANSACTED_VERSION"
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-txfs_get_transacted_version
+        - name: "TXFS_LIST_TRANSACTION_LOCKED_FILES"
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-txfs_list_transaction_locked_files
+        - name: "TXFS_LIST_TRANSACTION_LOCKED_FILES_ENTRY"
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-txfs_list_transaction_locked_files_entry
+        - name: "TXFS_LIST_TRANSACTIONS"
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-txfs_list_transactions
+        - name: "TXFS_LIST_TRANSACTIONS_ENTRY"
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-txfs_list_transactions_entry
+        - name: "TXF_LOG_RECORD_AFFECTED_FILE"
+          href: /windows/win32/api/TxfW32/ns-txfw32-txf_log_record_affected_file
+        - name: "TXF_LOG_RECORD_BASE"
+          href: /windows/win32/api/TxfW32/ns-txfw32-txf_log_record_base
+        - name: "TXF_LOG_RECORD_TRUNCATE"
+          href: /windows/win32/api/TxfW32/ns-txfw32-txf_log_record_truncate
+        - name: "TXF_LOG_RECORD_WRITE"
+          href: /windows/win32/api/TxfW32/ns-txfw32-txf_log_record_write
+        - name: "TXFS_MODIFY_RM"
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-txfs_modify_rm
+        - name: "TXFS_QUERY_RM_INFORMATION"
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-txfs_query_rm_information
+        - name: "TXFS_READ_BACKUP_INFORMATION_OUT"
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-txfs_read_backup_information_out
+        - name: "TXFS_SAVEPOINT_INFORMATION"
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-txfs_savepoint_information
+        - name: "TXFS_TRANSACTION_ACTIVE_INFO"
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-txfs_transaction_active_info
+        - name: "TXFS_WRITE_BACKUP_INFORMATION"
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-txfs_write_backup_information
+      - name: "TxF Glossary"
+        href: glossary.md
+  - name: "Volume Management"
+    href: volume-management.md
+    items: 
+    - name: "About Volume Management"
+      href: about-volume-management.md
+      items: 
+      - name: "File System Recognition"
+        href: file-system-recognition.md
+      - name: "Naming a Volume"
+        href: naming-a-volume.md
+      - name: "Enumerating Volumes"
+        href: enumerating-volumes.md
+      - name: "Obtaining Volume Information"
+        href: obtaining-volume-information.md
+      - name: "Change Journals"
+        href: change-journals.md
+        items: 
+        - name: "Change Journal Records"
+          href: change-journal-records.md
+        - name: "Using the Change Journal Identifier"
+          href: using-the-change-journal-identifier.md
+        - name: "Creating, Modifying, and Deleting a Change Journal"
+          href: creating-modifying-and-deleting-a-change-journal.md
+        - name: "Obtaining a Volume Handle for Change Journal Operations"
+          href: obtaining-a-volume-handle-for-change-journal-operations.md
+        - name: "Change Journal Operations"
+          href: change-journal-operations.md
+      - name: "Mounted Folders"
+        href: volume-mount-points.md
+        items: 
+        - name: "Creating Mounted Folders"
+          href: mounting-and-dismounting-a-volume.md
+        - name: "Enumerating Mounted Folders"
+          href: enumerating-volume-mount-points.md
+        - name: "Determining Whether a Directory Is a Mounted Folder"
+          href: determining-whether-a-directory-is-a-volume-mount-point.md
+        - name: "Assigning a Drive Letter to a Volume"
+          href: assigning-a-drive-letter-to-a-volume.md
+        - name: "Mounted Folder Functions"
+          href: volume-mount-point-functions.md
+      - name: "Master File Table"
+        href: master-file-table.md
+    - name: "Using Volume Management"
+      href: using-volume-management.md
+      items: 
+      - name: "Computing a File System Recognition Checksum"
+        href: computing-a-file-system-recognition-checksum.md
+      - name: "Mounted Folder Examples"
+        href: volume-mount-point-examples.md
+        items: 
+        - name: "Displaying Volume Paths"
+          href: displaying-volume-paths.md
+        - name: "Editing Drive Letter Assignments"
+          href: editing-drive-letter-assignments.md
+        - name: "Creating a Mounted Folder"
+          href: mounting-a-volume-at-a-mount-point.md
+        - name: "Enumerating Volume GUID Paths"
+          href: enumerating-unique-volume-names.md
+        - name: "Deleting a Mounted Folder"
+          href: unmounting-a-volume-at-a-mount-point.md
+      - name: "Obtaining File System Recognition Information"
+        href: obtaining-file-system-recognition-information.md
+      - name: "Walking a Buffer of Change Journal Records"
+        href: walking-a-buffer-of-change-journal-records.md
+    - name: "Volume Management Reference"
+      href: volume-management-reference.md
+      items: 
+      - name: "Volume Management Control Codes"
+        href: volume-management-control-codes.md
+        items: 
+        - name: "FSCTL_CREATE_USN_JOURNAL"
+          href: /windows/desktop/api/winioctl/ni-winioctl-fsctl_create_usn_journal
+        - name: "FSCTL_CSV_QUERY_DOWN_LEVEL_FILE_SYSTEM_CHARACTERISTICS"
+          href: /windows/desktop/api/winioctl/ni-winioctl-fsctl_csv_query_down_level_file_system_characteristics
+        - name: "FSCTL_DELETE_USN_JOURNAL"
+          href: /windows/desktop/api/winioctl/ni-winioctl-fsctl_delete_usn_journal
+        - name: "FSCTL_DISMOUNT_VOLUME"
+          href: /windows/desktop/api/winioctl/ni-winioctl-fsctl_dismount_volume
+        - name: "FSCTL_ENUM_USN_DATA"
+          href: /windows/desktop/api/winioctl/ni-winioctl-fsctl_enum_usn_data
+        - name: "FSCTL_EXTEND_VOLUME"
+          href: /windows/desktop/api/winioctl/ni-winioctl-fsctl_extend_volume
+        - name: "FSCTL_GET_BOOT_AREA_INFO"
+          href: /windows/desktop/api/winioctl/ni-winioctl-fsctl_get_boot_area_info
+        - name: "FSCTL_GET_INTEGRITY_INFORMATION"
+          href: /windows/desktop/api/winioctl/ni-winioctl-fsctl_get_integrity_information
+        - name: "FSCTL_GET_NTFS_VOLUME_DATA"
+          href: /windows/desktop/api/winioctl/ni-winioctl-fsctl_get_ntfs_volume_data
+        - name: "FSCTL_GET_RETRIEVAL_POINTER_BASE"
+          href: /windows/desktop/api/winioctl/ni-winioctl-fsctl_get_retrieval_pointer_base
+        - name: "FSCTL_GET_RETRIEVAL_POINTERS"
+          href: /windows/desktop/api/winioctl/ni-winioctl-fsctl_get_retrieval_pointers
+        - name: "FSCTL_GET_VOLUME_BITMAP"
+          href: /windows/desktop/api/winioctl/ni-winioctl-fsctl_get_volume_bitmap
+        - name: "FSCTL_IS_CSV_FILE"
+          href: /windows/desktop/api/winioctl/ni-winioctl-fsctl_is_csv_file
+        - name: "FSCTL_IS_FILE_ON_CSV_VOLUME"
+          href: /windows/desktop/api/winioctl/ni-winioctl-fsctl_is_file_on_csv_volume
+        - name: "FSCTL_IS_VOLUME_MOUNTED"
+          href: /windows/desktop/api/winioctl/ni-winioctl-fsctl_is_volume_mounted
+        - name: "FSCTL_IS_VOLUME_OWNED_BYCSVFS"
+          href: /windows/desktop/api/winioctl/ni-winioctl-fsctl_is_volume_owned_bycsvfs
+        - name: "FSCTL_LOCK_VOLUME"
+          href: /windows/desktop/api/winioctl/ni-winioctl-fsctl_lock_volume
+        - name: "FSCTL_LOOKUP_STREAM_FROM_CLUSTER"
+          href: /windows/desktop/api/winioctl/ni-winioctl-fsctl_lookup_stream_from_cluster
+        - name: "FSCTL_MARK_HANDLE"
+          href: /windows/desktop/api/winioctl/ni-winioctl-fsctl_mark_handle
+        - name: "FSCTL_MOVE_FILE"
+          href: /windows/desktop/api/winioctl/ni-winioctl-fsctl_move_file
+        - name: "FSCTL_QUERY_FILE_SYSTEM_RECOGNITION"
+          href: /windows/desktop/api/winioctl/ni-winioctl-fsctl_query_file_system_recognition
+        - name: "FSCTL_QUERY_REGION_INFO"
+          href: /windows/desktop/api/winioctl/ni-winioctl-fsctl_query_region_info
+        - name: "FSCTL_QUERY_STORAGE_CLASSES"
+          href: /windows/desktop/api/winioctl/ni-winioctl-fsctl_query_storage_classes
+        - name: "FSCTL_QUERY_USN_JOURNAL"
+          href: /windows/desktop/api/winioctl/ni-winioctl-fsctl_query_usn_journal
+        - name: "FSCTL_READ_FILE_USN_DATA"
+          href: /windows/desktop/api/winioctl/ni-winioctl-fsctl_read_file_usn_data
+        - name: "FSCTL_READ_FROM_PLEX"
+          href: /windows/desktop/api/winioctl/ni-winioctl-fsctl_read_from_plex
+        - name: "FSCTL_READ_USN_JOURNAL"
+          href: /windows/desktop/api/winioctl/ni-winioctl-fsctl_read_usn_journal
+        - name: "FSCTL_REPAIR_COPIES"
+          href: /windows/desktop/api/winioctl/ni-winioctl-fsctl_repair_copies
+        - name: "FSCTL_SET_INTEGRITY_INFORMATION"
+          href: /windows/desktop/api/winioctl/ni-winioctl-fsctl_set_integrity_information
+        - name: "FSCTL_SHRINK_VOLUME"
+          href: /windows/desktop/api/winioctl/ni-winioctl-fsctl_shrink_volume
+        - name: "FSCTL_UNLOCK_VOLUME"
+          href: /windows/desktop/api/winioctl/ni-winioctl-fsctl_unlock_volume
+        - name: "FSCTL_USN_TRACK_MODIFIED_RANGES"
+          href: /windows/desktop/api/winioctl/ni-winioctl-fsctl_usn_track_modified_ranges
+        - name: "FSCTL_WRITE_USN_CLOSE_RECORD"
+          href: /windows/desktop/api/winioctl/ni-winioctl-fsctl_write_usn_close_record
+        - name: "IOCTL_VOLUME_GET_GPT_ATTRIBUTES"
+          href: /windows/desktop/api/WinIoCtl/ni-winioctl-ioctl_volume_get_gpt_attributes
+        - name: "IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS"
+          href: /windows/desktop/api/WinIoCtl/ni-winioctl-ioctl_volume_get_volume_disk_extents
+        - name: "IOCTL_VOLUME_IS_CLUSTERED"
+          href: /windows/desktop/api/WinIoCtl/ni-winioctl-ioctl_volume_is_clustered
+        - name: "IOCTL_VOLUME_IS_CSV"
+          href: ioctl-volume-is-csv.md
+        - name: "IOCTL_VOLUME_OFFLINE"
+          href: /windows/desktop/api/WinIoCtl/ni-winioctl-ioctl_volume_offline
+        - name: "IOCTL_VOLUME_ONLINE"
+          href: /windows/desktop/api/WinIoCtl/ni-winioctl-ioctl_volume_online
+      - name: "Volume Management Enumerations"
+        href: volume-management-enumerations.md
+        items: 
+        - name: "FILE_STORAGE_TIER_MEDIA_TYPE"
+          href: /windows/win32/api/WinIoctl/ne-winioctl-file_storage_tier_media_type
+      - name: "Volume Management Functions"
+        href: volume-management-functions.md
+        items: 
+        - name: "DefineDosDevice"
+          href: /windows/desktop/api/FileAPI/nf-fileapi-definedosdevicew
+        - name: "DeleteVolumeMountPoint"
+          href: /windows/desktop/api/FileAPI/nf-fileapi-deletevolumemountpointw
+        - name: "FindFirstVolume"
+          href: /windows/desktop/api/FileAPI/nf-fileapi-findfirstvolumew
+        - name: "FindFirstVolumeMountPoint"
+          href: /windows/desktop/api/WinBase/nf-winbase-findfirstvolumemountpointa
+        - name: "FindNextVolume"
+          href: /windows/desktop/api/FileAPI/nf-fileapi-findnextvolumew
+        - name: "FindNextVolumeMountPoint"
+          href: /windows/desktop/api/WinBase/nf-winbase-findnextvolumemountpointa
+        - name: "FindVolumeClose"
+          href: /windows/desktop/api/FileAPI/nf-fileapi-findvolumeclose
+        - name: "FindVolumeMountPointClose"
+          href: /windows/desktop/api/WinBase/nf-winbase-findvolumemountpointclose
+        - name: "GetDriveType"
+          href: /windows/desktop/api/FileAPI/nf-fileapi-getdrivetypea
+        - name: "GetLogicalDrives"
+          href: /windows/desktop/api/FileAPI/nf-fileapi-getlogicaldrives
+        - name: "GetLogicalDriveStrings"
+          href: /windows/desktop/api/FileAPI/nf-fileapi-getlogicaldrivestringsw
+        - name: "GetVolumeInformation"
+          href: /windows/desktop/api/FileAPI/nf-fileapi-getvolumeinformationa
+        - name: "GetVolumeInformationByHandleW"
+          href: /windows/desktop/api/FileAPI/nf-fileapi-getvolumeinformationbyhandlew
+        - name: "GetVolumeNameForVolumeMountPoint"
+          href: /windows/desktop/api/FileAPI/nf-fileapi-getvolumenameforvolumemountpointw
+        - name: "GetVolumePathName"
+          href: /windows/desktop/api/FileAPI/nf-fileapi-getvolumepathnamew
+        - name: "GetVolumePathNamesForVolumeName"
+          href: /windows/desktop/api/FileAPI/nf-fileapi-getvolumepathnamesforvolumenamew
+        - name: "QueryDosDevice"
+          href: /windows/desktop/api/FileAPI/nf-fileapi-querydosdevicew
+        - name: "SetVolumeLabel"
+          href: /windows/desktop/api/WinBase/nf-winbase-setvolumelabela
+        - name: "SetVolumeMountPoint"
+          href: /windows/desktop/api/WinBase/nf-winbase-setvolumemountpointa
+      - name: "Volume Management Structures"
+        href: volume-management-structures.md
+        items: 
+        - name: "BOOT_AREA_INFO"
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-boot_area_info
+        - name: "CREATE_USN_JOURNAL_DATA"
+          href: /windows/desktop/api/WinIoCtl/ns-winioctl-create_usn_journal_data
+        - name: "CSV_IS_OWNED_BY_CSVFS"
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-csv_is_owned_by_csvfs
+        - name: "CSV_NAMESPACE_INFO"
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-csv_namespace_info
+        - name: "CSV_QUERY_VETO_FILE_DIRECT_IO_OUTPUT"
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-csv_query_veto_file_direct_io_output
+        - name: "DELETE_USN_JOURNAL_DATA"
+          href: /windows/desktop/api/WinIoCtl/ns-winioctl-delete_usn_journal_data
+        - name: "FILE_STORAGE_TIER"
+          href: /windows/win32/api/WinIoctl/ns-winioctl-file_storage_tier
+        - name: "FILE_STORAGE_TIER_REGION"
+          href: /windows/win32/api/WinIoctl/ns-winioctl-file_storage_tier_region
+        - name: "FILE_SYSTEM_RECOGNITION_INFORMATION"
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-file_system_recognition_information
+        - name: "FILE_SYSTEM_RECOGNITION_STRUCTURE"
+          href: file-system-recognition-structure.md
+        - name: "FSCTL_GET_INTEGRITY_INFORMATION_BUFFER"
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-fsctl_get_integrity_information_buffer
+        - name: "FSCTL_QUERY_REGION_INFO_INPUT"
+          href: /windows/win32/api/WinIoctl/ns-winioctl-fsctl_query_region_info_input
+        - name: "FSCTL_QUERY_REGION_INFO_OUTPUT"
+          href: /windows/win32/api/WinIoctl/ns-winioctl-fsctl_query_region_info_output
+        - name: "FSCTL_QUERY_STORAGE_CLASSES_OUTPUT"
+          href: /windows/win32/api/WinIoctl/ns-winioctl-fsctl_query_storage_classes_output
+        - name: "FSCTL_SET_INTEGRITY_INFORMATION_BUFFER"
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-fsctl_set_integrity_information_buffer
+        - name: "LOOKUP_STREAM_FROM_CLUSTER_ENTRY"
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-lookup_stream_from_cluster_entry
+        - name: "LOOKUP_STREAM_FROM_CLUSTER_INPUT"
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-lookup_stream_from_cluster_input
+        - name: "LOOKUP_STREAM_FROM_CLUSTER_OUTPUT"
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-lookup_stream_from_cluster_output
+        - name: "MARK_HANDLE_INFO"
+          href: /windows/desktop/api/WinIoCtl/ns-winioctl-mark_handle_info
+        - name: "MARK_HANDLE_INFO32"
+          href: /windows/desktop/api/WinIoCtl/ns-winioctl-mark_handle_info32
+        - name: "MFT_ENUM_DATA"
+          href: /windows/desktop/api/WinIoCtl/ns-winioctl-mft_enum_data_v0
+        - name: "MFT_ENUM_DATA_V1"
+          href: /windows/desktop/api/WinIoCtl/ns-winioctl-mft_enum_data_v1
+        - name: "MOVE_FILE_DATA"
+          href: /windows/desktop/api/WinIoCtl/ns-winioctl-move_file_data
+        - name: "NTFS_VOLUME_DATA_BUFFER"
+          href: /windows/desktop/api/WinIoCtl/ns-winioctl-ntfs_extended_volume_data
+        - name: "PLEX_READ_DATA_REQUEST"
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-plex_read_data_request
+        - name: "READ_FILE_USN_DATA"
+          href: /windows/desktop/api/WinIoCtl/ns-winioctl-read_file_usn_data
+        - name: "READ_USN_JOURNAL_DATA_V0"
+          href: /windows/desktop/api/WinIoCtl/ns-winioctl-read_usn_journal_data_v0
+        - name: "READ_USN_JOURNAL_DATA_V1"
+          href: /previous-versions/windows/desktop/legacy/hh802706(v=vs.85)
+        - name: "REPAIR_COPIES_INPUT"
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-repair_copies_input
+        - name: "REPAIR_COPIES_OUTPUT"
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-repair_copies_output
+        - name: "RETRIEVAL_POINTER_BASE"
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-retrieval_pointer_base
+        - name: "RETRIEVAL_POINTERS_BUFFER"
+          href: /windows/desktop/api/WinIoCtl/ns-winioctl-retrieval_pointers_buffer
+        - name: "SHRINK_VOLUME_INFORMATION"
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-shrink_volume_information
+        - name: "STARTING_LCN_INPUT_BUFFER"
+          href: /windows/desktop/api/WinIoCtl/ns-winioctl-starting_lcn_input_buffer
+        - name: "STARTING_VCN_INPUT_BUFFER"
+          href: /windows/desktop/api/WinIoCtl/ns-winioctl-starting_vcn_input_buffer
+        - name: "USN_JOURNAL_DATA_V0"
+          href: /windows/desktop/api/WinIoCtl/ns-winioctl-usn_journal_data_v0
+        - name: "USN_JOURNAL_DATA_V1"
+          href: /previous-versions/windows/desktop/legacy/hh802707(v=vs.85)
+        - name: "USN_JOURNAL_DATA_V2"
+          href: /windows/desktop/api/WinIoCtl/ns-winioctl-usn_journal_data_v2
+        - name: "USN_RANGE_TRACK_OUTPUT"
+          href: /windows/desktop/api/WinIoCtl/ns-winioctl-usn_range_track_output
+        - name: "USN_RECORD_COMMON_HEADER"
+          href: /windows/desktop/api/WinIoCtl/ns-winioctl-usn_record_common_header
+        - name: "USN_RECORD_EXTENT"
+          href: /windows/desktop/api/WinIoCtl/ns-winioctl-usn_record_extent
+        - name: "USN_RECORD_V2"
+          href: /windows/desktop/api/WinIoCtl/ns-winioctl-usn_record_v2
+        - name: "USN_RECORD_V3"
+          href: /windows/desktop/api/WinIoCtl/ns-winioctl-usn_record_v3
+        - name: "USN_RECORD_V4"
+          href: /windows/desktop/api/WinIoCtl/ns-winioctl-usn_record_v4
+        - name: "USN_TRACK_MODIFIED_RANGES"
+          href: /windows/desktop/api/WinIoCtl/ns-winioctl-usn_track_modified_ranges
+        - name: "VOLUME_BITMAP_BUFFER"
+          href: /windows/desktop/api/WinIoCtl/ns-winioctl-volume_bitmap_buffer
+        - name: "VOLUME_DISK_EXTENTS"
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-volume_disk_extents
+        - name: "VOLUME_GET_GPT_ATTRIBUTES_INFORMATION"
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-volume_get_gpt_attributes_information

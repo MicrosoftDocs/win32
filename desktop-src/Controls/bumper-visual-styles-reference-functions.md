@@ -1,0 +1,97 @@
+---
+title: Functions (Visual Styles Reference)
+description: Functions (Visual Styles Reference)
+ms.assetid: deaeb9a2-0bee-400d-9090-9529a1f3bdc2
+ms.topic: article
+ms.date: 05/31/2018
+---
+
+# Functions (Visual Styles Reference)
+
+-   [**BeginBufferedAnimation**](/windows/desktop/api/Uxtheme/nf-uxtheme-beginbufferedanimation)
+-   [**BeginBufferedPaint**](/windows/desktop/api/Uxtheme/nf-uxtheme-beginbufferedpaint)
+-   [**BufferedPaintClear**](/windows/desktop/api/Uxtheme/nf-uxtheme-bufferedpaintclear)
+-   [**BufferedPaintInit**](/windows/desktop/api/Uxtheme/nf-uxtheme-bufferedpaintinit)
+-   [**BufferedPaintRenderAnimation**](/windows/desktop/api/Uxtheme/nf-uxtheme-bufferedpaintrenderanimation)
+-   [**BufferedPaintSetAlpha**](/windows/desktop/api/Uxtheme/nf-uxtheme-bufferedpaintsetalpha)
+-   [**BufferedPaintStopAllAnimations**](/windows/desktop/api/Uxtheme/nf-uxtheme-bufferedpaintstopallanimations)
+-   [**BufferedPaintUnInit**](/windows/desktop/api/Uxtheme/nf-uxtheme-bufferedpaintuninit)
+-   [**CloseThemeData**](/windows/desktop/api/Uxtheme/nf-uxtheme-closethemedata)
+-   [**DrawThemeBackground**](/windows/desktop/api/Uxtheme/nf-uxtheme-drawthemebackground)
+-   [**DrawThemeBackgroundEx**](/windows/desktop/api/Uxtheme/nf-uxtheme-drawthemebackgroundex)
+-   [**DrawThemeEdge**](/windows/desktop/api/Uxtheme/nf-uxtheme-drawthemeedge)
+-   [**DrawThemeIcon**](/windows/desktop/api/Uxtheme/nf-uxtheme-drawthemeicon)
+-   [**DrawThemeParentBackground**](/windows/desktop/api/Uxtheme/nf-uxtheme-drawthemeparentbackground)
+-   [**DrawThemeParentBackgroundEx**](/windows/desktop/api/Uxtheme/nf-uxtheme-drawthemeparentbackgroundex)
+-   [**DrawThemeText**](/windows/desktop/api/Uxtheme/nf-uxtheme-drawthemetext)
+-   [**DrawThemeTextEx**](/windows/desktop/api/Uxtheme/nf-uxtheme-drawthemetextex)
+-   [**EnableThemeDialogTexture**](/windows/desktop/api/Uxtheme/nf-uxtheme-enablethemedialogtexture)
+-   [**EnableTheming**](/windows/desktop/api/Uxtheme/nf-uxtheme-enabletheming)
+-   [**EndBufferedAnimation**](/windows/desktop/api/Uxtheme/nf-uxtheme-endbufferedanimation)
+-   [**EndBufferedPaint**](/windows/desktop/api/Uxtheme/nf-uxtheme-endbufferedpaint)
+-   [**GetBufferedPaintBits**](/windows/desktop/api/Uxtheme/nf-uxtheme-getbufferedpaintbits)
+-   [**GetBufferedPaintDC**](/windows/desktop/api/Uxtheme/nf-uxtheme-getbufferedpaintdc)
+-   [**GetBufferedPaintTargetDC**](/windows/desktop/api/Uxtheme/nf-uxtheme-getbufferedpainttargetdc)
+-   [**GetBufferedPaintTargetRect**](/windows/desktop/api/Uxtheme/nf-uxtheme-getbufferedpainttargetrect)
+-   [**GetCurrentThemeName**](/windows/desktop/api/Uxtheme/nf-uxtheme-getcurrentthemename)
+-   [**GetThemeAnimationTransform**](/windows/desktop/api/Uxtheme/nf-uxtheme-getthemeanimationtransform)
+-   [**GetThemeAppProperties**](/windows/desktop/api/Uxtheme/nf-uxtheme-getthemeappproperties)
+-   [**GetThemeBackgroundContentRect**](/windows/desktop/api/Uxtheme/nf-uxtheme-getthemebackgroundcontentrect)
+-   [**GetThemeBackgroundExtent**](/windows/desktop/api/Uxtheme/nf-uxtheme-getthemebackgroundextent)
+-   [**GetThemeBackgroundRegion**](/windows/desktop/api/Uxtheme/nf-uxtheme-getthemebackgroundregion)
+-   [**GetThemeBitmap**](/windows/desktop/api/Uxtheme/nf-uxtheme-getthemebitmap)
+-   [**GetThemeBool**](/windows/desktop/api/Uxtheme/nf-uxtheme-getthemebool)
+-   [**GetThemeColor**](/windows/desktop/api/Uxtheme/nf-uxtheme-getthemecolor)
+-   [**GetThemeDocumentationProperty**](/windows/desktop/api/Uxtheme/nf-uxtheme-getthemedocumentationproperty)
+-   [**GetThemeEnumValue**](/windows/desktop/api/Uxtheme/nf-uxtheme-getthemeenumvalue)
+-   [**GetThemeFilename**](/windows/desktop/api/Uxtheme/nf-uxtheme-getthemefilename)
+-   [**GetThemeFont**](/windows/desktop/api/Uxtheme/nf-uxtheme-getthemefont)
+-   [**GetThemeInt**](/windows/desktop/api/Uxtheme/nf-uxtheme-getthemeint)
+-   [**GetThemeIntList**](/windows/desktop/api/UxTheme/nf-uxtheme-getthemeintlist)
+-   [**GetThemeMargins**](/windows/desktop/api/Uxtheme/nf-uxtheme-getthememargins)
+-   [**GetThemeMetric**](/windows/desktop/api/Uxtheme/nf-uxtheme-getthememetric)
+-   [**GetThemePartSize**](/windows/desktop/api/Uxtheme/nf-uxtheme-getthemepartsize)
+-   [**GetThemePosition**](/windows/desktop/api/Uxtheme/nf-uxtheme-getthemeposition)
+-   [**GetThemePropertyOrigin**](/windows/desktop/api/Uxtheme/nf-uxtheme-getthemepropertyorigin)
+-   [**GetThemeRect**](/windows/desktop/api/Uxtheme/nf-uxtheme-getthemerect)
+-   [**GetThemeStream**](/windows/desktop/api/Uxtheme/nf-uxtheme-getthemestream)
+-   [**GetThemeString**](/windows/desktop/api/Uxtheme/nf-uxtheme-getthemestring)
+-   [**GetThemeSysBool**](/windows/desktop/api/Uxtheme/nf-uxtheme-getthemesysbool)
+-   [**GetThemeSysColor**](/windows/desktop/api/Uxtheme/nf-uxtheme-getthemesyscolor)
+-   [**GetThemeSysColorBrush**](/windows/desktop/api/Uxtheme/nf-uxtheme-getthemesyscolorbrush)
+-   [**GetThemeSysFont**](/windows/desktop/api/Uxtheme/nf-uxtheme-getthemesysfont)
+-   [**GetThemeSysInt**](/windows/desktop/api/Uxtheme/nf-uxtheme-getthemesysint)
+-   [**GetThemeSysSize**](/windows/desktop/api/Uxtheme/nf-uxtheme-getthemesyssize)
+-   [**GetThemeSysString**](/windows/desktop/api/Uxtheme/nf-uxtheme-getthemesysstring)
+-   [**GetThemeTextExtent**](/windows/desktop/api/Uxtheme/nf-uxtheme-getthemetextextent)
+-   [**GetThemeTextMetrics**](/windows/desktop/api/Uxtheme/nf-uxtheme-getthemetextmetrics)
+-   [**GetThemeTimingFunction**](/windows/desktop/api/Uxtheme/nf-uxtheme-getthemetimingfunction)
+-   [**GetThemeTransitionDuration**](/windows/desktop/api/Uxtheme/nf-uxtheme-getthemetransitionduration)
+-   [**GetWindowTheme**](/windows/desktop/api/Uxtheme/nf-uxtheme-getwindowtheme)
+-   [**HitTestThemeBackground**](/windows/desktop/api/Uxtheme/nf-uxtheme-hittestthemebackground)
+-   [**IsAppThemed**](/windows/desktop/api/Uxtheme/nf-uxtheme-isappthemed)
+-   [**IsCompositionActive**](/windows/desktop/api/Uxtheme/nf-uxtheme-iscompositionactive)
+-   [**IsThemeActive**](/windows/desktop/api/Uxtheme/nf-uxtheme-isthemeactive)
+-   [**IsThemeBackgroundPartiallyTransparent**](/windows/desktop/api/Uxtheme/nf-uxtheme-isthemebackgroundpartiallytransparent)
+-   [**IsThemeDialogTextureEnabled**](/windows/desktop/api/Uxtheme/nf-uxtheme-isthemedialogtextureenabled)
+-   [**IsThemePartDefined**](/windows/desktop/api/Uxtheme/nf-uxtheme-isthemepartdefined)
+-   [**OpenThemeData**](/windows/desktop/api/Uxtheme/nf-uxtheme-openthemedata)
+-   [**OpenThemeDataEx**](/windows/desktop/api/Uxtheme/nf-uxtheme-openthemedataex)
+-   [**SetThemeAppProperties**](/windows/desktop/api/Uxtheme/nf-uxtheme-setthemeappproperties)
+-   [**SetWindowTheme**](/windows/desktop/api/Uxtheme/nf-uxtheme-setwindowtheme)
+-   [**SetWindowThemeAttribute**](/windows/desktop/api/Uxtheme/nf-uxtheme-setwindowthemeattribute)
+-   [**SetWindowThemeNonClientAttributes**](/windows/desktop/api/Uxtheme/nf-uxtheme-setwindowthemenonclientattributes)
+
+### Panning Functions
+
+-   [**BeginPanningFeedback**](/windows/desktop/api/Uxtheme/nf-uxtheme-beginpanningfeedback)
+-   [**EndPanningFeedback**](/windows/desktop/api/Uxtheme/nf-uxtheme-endpanningfeedback)
+-   [**UpdatePanningFeedback**](/windows/desktop/api/Uxtheme/nf-uxtheme-updatepanningfeedback)
+
+ 
+
+ 
+
+
+
+

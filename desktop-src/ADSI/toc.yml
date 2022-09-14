@@ -1,0 +1,1332 @@
+- name: "Active Directory Service Interfaces"
+  href: active-directory-service-interfaces-adsi.md
+  items: 
+  - name: "Active Directory Service Interfaces Quick-start Tutorials"
+    href: adsi-quick-start-tutorials.md
+    items: 
+    - name: "Setting Up Your Development Environment"
+      href: setting-up-your-development-environment.md
+      items: 
+      - name: "Getting Started with Scripting for ADSI"
+        href: getting-started-with-scripting-for-adsi.md
+      - name: "Getting Started with ASP for ADSI"
+        href: getting-started-with-asp-for-adsi.md
+      - name: "Setting Up Visual Basic 6.0 for ADSI Development"
+        href: setting-up-visual-basic-for-adsi-development.md
+      - name: "Setting Up Visual C++ 6.0 for ADSI Development"
+        href: setting-up-c---for-adsi-development.md
+    - name: "Accessing Active Directory Using Visual Basic"
+      href: accessing-active-directory-using-visual-basic.md
+      items: 
+      - name: "Tutorial Overview: ADSI with Visual Basic"
+        href: so-what-is-active-directory.md
+      - name: "Scenario: The Fabrikam Corporation"
+        href: scenario--the-fabrikam-corporation.md
+        items: 
+        - name: "Connecting to Active Directory"
+          href: connecting-to-active-directory.md
+        - name: "Binding to Active Directory Objects"
+          href: binding-to-active-directory-objects.md
+        - name: "Creating an Organizational Unit"
+          href: creating-an-organizational-unit.md
+        - name: "Moving Existing Users to the Organizational Unit"
+          href: moving-existing-users-to-the-organizational-unit.md
+        - name: "Creating New Users in the Organizational Unit"
+          href: creating-new-users-in-the-organizational-unit.md
+        - name: "Adding Users to a Group"
+          href: adding-users-to-a-group.md
+        - name: "Creating a New Group"
+          href: creating-a-new-group.md
+        - name: "Enumerating Objects"
+          href: enumerating-objects.md
+        - name: "Searching for Objects"
+          href: searching-for-objects.md
+        - name: "Reorganization"
+          href: reorganization.md
+        - name: "Joining Heterogeneous Data"
+          href: joining-heterogeneous-data.md
+        - name: "Creating and Executing a View"
+          href: creating-and-executing-a-view.md
+        - name: "Creating a Heterogeneous Join between SQL Server and Active Directory"
+          href: creating-a-heterogeneous-join-between-sql-server-and-active-directory.md
+      - name: "Advanced Topics"
+        href: advanced-topics.md
+        items: 
+        - name: "RootDSE"
+          href: rootdse.md
+        - name: "Delegating Organizational Units"
+          href: delegating-organizational-units.md
+        - name: "Extending ADSI"
+          href: extending-adsi.md
+        - name: "Mapping ADSI Visual Basic Code to C++ Code"
+          href: mapping-adsi-visual-basic-code-to-c-code.md
+    - name: "Active Directory Service Interfaces Scripting"
+      href: adsi-scripting-tutorial.md
+      items: 
+      - name: "Errors and Error Trapping"
+        href: errors-and-error-trapping.md
+        items: 
+        - name: "How to Trap ADSI Errors"
+          href: how-to-trap-adsi-errors.md
+        - name: "Common Errors"
+          href: common-errors.md
+  - name: "About Active Directory Service Interfaces"
+    href: about-adsi.md
+    items: 
+    - name: "Multiple Directory Services"
+      href: multiple-directory-services.md
+    - name: "Who Will Use Active Directory Service Interfaces?"
+      href: who-will-use-active-directory-service-interfaces.md
+    - name: "Directory Services Today"
+      href: directory-services-today.md
+    - name: "Benefits of Using Active Directory Service Interfaces"
+      href: benefits-of-using-active-directory-service-interfaces.md
+    - name: "ADSI and User Account Control"
+      href: adsi-and-uac.md
+    - name: "Event Tracing in ADSI"
+      href: adsi-and-etw.md
+    - name: "Active Directory Service Interfaces Architecture"
+      href: active-directory-service-interfaces-architecture.md
+      items: 
+      - name: "Active Directory Service Interfaces Objects"
+        href: active-directory-service-interfaces-objects.md
+      - name: "Namespaces"
+        href: namespaces.md
+      - name: "Active Directory Service Interfaces Provider"
+        href: active-directory-service-interfaces-provider.md
+      - name: "ADSI Schema Model"
+        href: adsi-schema-model.md
+    - name: "Programming Language Support"
+      href: programming-language-support.md
+    - name: "ADSI Properties and Attributes"
+      href: adsi-properties-and-attributes.md
+      items: 
+      - name: "The ADSI Attribute Cache"
+        href: the-adsi-attribute-cache.md
+      - name: "Single vs. Multiple Value Attributes"
+        href: single-vs--multiple-value-attributes.md
+      - name: "Active Directory Operational Attributes"
+        href: active-directory-operational-attributes.md
+  - name: "Using Active Directory Service Interfaces"
+    href: using-adsi.md
+    items: 
+    - name: "Binding to an ADSI Object"
+      href: binding-to-an-adsi-object.md
+      items: 
+      - name: "Binding String"
+        href: binding-string.md
+      - name: "Binding Types Specific to Active Directory"
+        href: binding-types-specific-to-active-directory.md
+      - name: "Binding Issues for Mixed Environments"
+        href: binding-issues-for-mixed-environments.md
+      - name: "Binding Programmatically Using an ADSI Interface"
+        href: binding-programmatically-using-an-adsi-interface.md
+        items: 
+        - name: "Using ADSI Functions to Bind Directly to an Object"
+          href: using-adsi-functions-to-bind-directly-to-an-object.md
+          items: 
+          - name: "Binding With GetObject and ADsGetObject"
+            href: binding-with-getobject-and-adsgetobject.md
+          - name: "Binding With ADsOpenObject and IADsOpenDSObject::OpenDSObject"
+            href: binding-with-adsopenobject-and-iadsopendsobject-opendsobject.md
+          - name: "Binding With Encryption"
+            href: binding-with-encryption.md
+        - name: "Using an ActiveX Data Object to Bind to ADSI Providers"
+          href: using-an-activex-data-object-to-bind-to-adsi-providers.md
+      - name: "Connection Caching"
+        href: connection-caching.md
+      - name: "Binding to Child Objects"
+        href: binding-to-child-objects.md
+      - name: "Binding to an Object's Parent"
+        href: binding-to-an-objectampaposs-parent.md
+      - name: "Fast Binding Option for Batch Write/Modify Operations"
+        href: fast-binding-option-for-batch-writemodify-operations.md
+      - name: "Choosing an Interface for Binding"
+        href: choosing-an-interface.md
+    - name: "Creating and Deleting Objects"
+      href: creating-and-deleting-objects.md
+    - name: "Accessing and Manipulating Data with ADSI"
+      href: accessing-and-manipulating-data-with-adsi.md
+      items: 
+      - name: "The IADs and IDirectoryObject Interfaces"
+        href: the-iads-and-idirectoryobject-interfaces.md
+        items: 
+        - name: "Using the IADs Interfaces"
+          href: using-the-iads-interfaces.md
+        - name: "Using the IDirectoryObject Interface"
+          href: using-the-idirectoryobject-interface.md
+      - name: "Accessing Attributes with ADSI"
+        href: accessing-attributes-with-adsi.md
+        items: 
+        - name: "The Get Method"
+          href: the-get-method.md
+        - name: "The GetEx Method"
+          href: the-getex-method.md
+        - name: "The GetInfo Method"
+          href: the-getinfo-method.md
+        - name: "Optimization Using GetInfoEx"
+          href: optimization-using-getinfoex.md
+          items: 
+          - name: "Example Code for Reading a Constructed Attribute"
+            href: example-code-for-reading-a-constructed-attribute.md
+        - name: "Accessing Attributes With the IDirectoryObject Interface"
+          href: accessing-attributes-with-the-idirectoryobject-interface.md
+        - name: "Example Code for Reading Attributes"
+          href: example-code-for-reading-attributes.md
+      - name: "Modifying Attributes with ADSI"
+        href: modifying-attributes-with-adsi.md
+        items: 
+        - name: "The Put Method"
+          href: the-put-method.md
+        - name: "The PutEx Method"
+          href: the-putex-method.md
+        - name: "The SetInfo Method"
+          href: the-setinfo-method.md
+        - name: "Modifying Attributes with the IDirectoryObject Interface"
+          href: modifying-attributes-with-the-idirectoryobject-interface.md
+      - name: "Accessing the Property Cache Directly with the IADsProperty Interfaces"
+        href: accessing-the-property-cache-directly-with-the-iadsproperty-interfaces.md
+        items: 
+        - name: "Example Code for Using IADsProperty Interfaces to Access the Property Cache"
+          href: example-code-for-using-iadsproperty-interfaces-to-access-the-property-cache.md
+      - name: "ADSI Attribute Syntax"
+        href: adsi-attribute-syntax.md
+        items: 
+        - name: "Mapping Active Directory Syntax to ADSI Syntax"
+          href: mapping-active-directory-syntax-to-adsi-syntax.md
+    - name: "Using the ADSI Schema"
+      href: using-the-adsi-schema.md
+      items: 
+      - name: "Reading the Schema"
+        href: reading-the-schema.md
+    - name: "Collections and Groups"
+      href: collections-and-groups.md
+    - name: "Enumerating ADSI Objects"
+      href: enumerating-adsi-objects.md
+      items: 
+      - name: "Enumeration"
+        href: enumeration.md
+      - name: "Enumeration Helper Functions"
+        href: enumeration-helper-functions.md
+    - name: "Searching Active Directory"
+      href: searching-active-directory.md
+      items: 
+      - name: "Scope of Query"
+        href: scope-of-query.md
+      - name: "Performance and Handling Large Result Sets"
+        href: performance-and-handling-large-result-sets.md
+        items: 
+        - name: "What Makes a Fast Query?"
+          href: what-makes-a-fast-query.md
+          items: 
+          - name: "Indexing"
+            href: indexing.md
+          - name: "objectCategory vs. objectClass"
+            href: objectcategory-vs--objectclass.md
+          - name: "Referrals"
+            href: referrals.md
+          - name: "Assembling Query Strings"
+            href: assembling-query-strings.md
+          - name: "Retrieving Large Results Sets"
+            href: retrieving-large-results-sets.md
+          - name: "Search Attributes Only"
+            href: search-attributes-only.md
+          - name: "Search Size Limit"
+            href: search-size-limit.md
+          - name: "Search Time Limit"
+            href: search-time-limit.md
+          - name: "Search Time Out"
+            href: search-time-out.md
+          - name: "Asynchronous Searches"
+            href: asynchronous-searches.md
+          - name: "Attribute Range Retrieval"
+            href: attribute-range-retrieval.md
+            items: 
+            - name: "Using IADs::GetInfoEx for Range Retrieval"
+              href: using-iads--getinfoex-for-range-retrieval.md
+            - name: "Using ADO for Range Retrieval"
+              href: using-ado-for-range-retrieval.md
+              items: 
+              - name: "ADO LDAP Ranging Dialect"
+                href: ado-ldap-ranging-dialect.md
+              - name: "ADO SQL Ranging Dialect"
+                href: ado-sql-ranging-dialect.md
+              - name: "Example Code for Using Ranging to Retrieve Members of a Group"
+                href: example-code-for-using-ranging-to-retrieve-members-of-a-group.md
+            - name: "Using IDirectorySearch and IDirectoryObject for Range Retrieval"
+              href: using-idirectorysearch-and-idirectoryobject-for-range-retrieval.md
+              items: 
+              - name: "Example Code for Ranging with IDirectoryObject"
+                href: example-code-for-ranging-with-idirectoryobject.md
+              - name: "Example Code for Ranging with IDirectorySearch"
+                href: example-code-for-ranging-with-idirectorysearch.md
+        - name: "Processing a Result Set"
+          href: processing-a-result-set.md
+          items: 
+          - name: "Caching the Result (Client Side)"
+            href: caching-the-result-client-side.md
+          - name: "Sorting"
+            href: sorting.md
+      - name: "Search Filter Syntax"
+        href: search-filter-syntax.md
+        items: 
+        - name: "Dialect"
+          href: dialect.md
+          items: 
+          - name: "SQL Dialect"
+            href: sql-dialect.md
+          - name: "LDAP Dialect"
+            href: ldap-dialect.md
+      - name: "Query Interfaces"
+        href: query-interfaces.md
+        items: 
+        - name: "Searching with the IDirectorySearch Interface"
+          href: searching-with-idirectorysearch.md
+          items: 
+          - name: "Specifying Other Search Options with IDirectorySearch"
+            href: specifying-other-search-options-with-idirectorysearch.md
+            items: 
+            - name: "Using the SetSearchPreference Method"
+              href: using-the-setsearchpreference-method.md
+            - name: "Synchronous and Asynchronous Searches with IDirectorySearch"
+              href: synchronous-and-asynchronous-searches-with-idirectorysearch.md
+            - name: "Paging with IDirectorySearch"
+              href: paging-with-idirectorysearch.md
+            - name: "Result Caching with IDirectorySearch"
+              href: result-caching-with-idirectorysearch.md
+            - name: "Performing an Attribute Scope Query"
+              href: performing-an-attribute-scoped-query.md
+            - name: "Sorting the Search Results with IDirectorySearch"
+              href: sorting-the-search-results-with-idirectorysearch.md
+            - name: "Referral Chasing with IDirectorySearch"
+              href: referral-chasing-with-idirectorysearch.md
+            - name: "Size Limit with IDirectorySearch"
+              href: size-limit-with-idirectorysearch.md
+            - name: "Server Time Limit with IDirectorySearch"
+              href: server-time-limit-with-idirectorysearch.md
+            - name: "Client Time Limit with IDirectorySearch"
+              href: client-time-limit-with-idirectorysearch.md
+            - name: "Returning Only Attribute Names with IDirectorySearch"
+              href: returning-only-attribute-names-with-idirectorysearch.md
+              items: 
+              - name: "Example Code for Searching for Attributes"
+                href: example-code-for-searching-for-attributes.md
+          - name: "How to Search Using VLV"
+            href: how-to-search-using-vlv.md
+            items: 
+            - name: "Example Code for Using a VLV Search"
+              href: example-code-for-using-a-vlv-search.md
+          - name: "Example Code for Using IDirectorySearch"
+            href: example-code-for-using-idirectorysearch.md
+        - name: "Searching with ActiveX Data Objects (ADO)"
+          href: searching-with-activex-data-objects-ado.md
+          items: 
+          - name: "Modifying an ADSI Object from ADO"
+            href: modifying-an-adsi-object-from-ado.md
+        - name: "Searching with OLE DB"
+          href: searching-with-ole-db.md
+          items: 
+          - name: "Example Code for Using OLE DB to Search Active Directory"
+            href: example-code-for-using-ole-db-to-search-active-directory.md
+      - name: "Searching Binary Data"
+        href: searching-binary-data.md
+      - name: "Distributed Query"
+        href: distributed-query.md
+    - name: "ADSI Security Model"
+      href: adsi-security-model.md
+      items: 
+      - name: "Authentication"
+        href: authentication.md
+        items: 
+        - name: "Authentication Issues for ADSI with ASP"
+          href: authentication-issues-for-adsi-with-asp.md
+      - name: "Security Descriptors on Files and Registry Keys"
+        href: security-descriptors-on-files-and-registry-keys.md
+        items: 
+        - name: "Example Code for Adding an ACE to a File"
+          href: example-code-for-adding-an-ace-to-a-file.md
+    - name: "ADSI Extensions"
+      href: adsi-extensions.md
+      items: 
+      - name: "Benefits of Using ADSI Extensions"
+        href: benefits-of-using-adsi-extensions.md
+      - name: "ADSI Extension Architecture"
+        href: adsi-extension-architecture.md
+      - name: "How ADSI Integrates Extensions"
+        href: adsi-and-extensions.md
+      - name: "What Does a Client See?"
+        href: what-does-a-client-see.md
+      - name: "Getting ADSI Interfaces From Your Extension"
+        href: getting-adsi-interfaces-from-your-extension.md
+      - name: "ADSI Extension Type Libraries"
+        href: adsi-extension-type-libraries.md
+      - name: "Early Binding Support"
+        href: early-binding-support.md
+      - name: "Late Binding Support"
+        href: late-binding-support.md
+        items: 
+        - name: "Late Binding: What's Happening Under the Hood?"
+          href: late-binding--whatampaposs-happening-under-the-hood.md
+        - name: "Late Binding vs. Vtable Access in the ADSI Extension Model"
+          href: late-binding-vs--vtable-access-in-the-adsi-extension-model.md
+      - name: "IADsExtension Interface"
+        href: iadsextension-interface.md
+        items: 
+        - name: "IADsExtension Usage"
+          href: iadsextension-usage.md
+      - name: "Supporting Dual or Dispatch Interfaces"
+        href: supporting-dual-or-dispatch-interfaces.md
+      - name: "Revisiting COM Aggregation Rules with ADSI Extensions"
+        href: revisiting-com-aggregation-rules-with-adsi-extensions.md
+      - name: "Resolution of Multiple Aggregation Components Supporting the Same Interface"
+        href: resolution-of-multiple-aggregation-components-supporting-the-same-interface.md
+      - name: "Resolution of Function/Property Name Conflicts in Automation in Extensions"
+        href: resolution-of-functionproperty-name-conflicts-in-automation-in-extensions.md
+        items: 
+        - name: "Example for Resolving Function Name Conflicts"
+          href: example-for-resolving-function-name-conflicts.md
+    - name: "Using ADSI with Exchange"
+      href: using-adsi-with-exchange.md
+    - name: "ADSI Utility Interfaces"
+      href: adsi-utility-interfaces.md
+      items: 
+      - name: "IADsDeleteOps Interface"
+        href: iadsdeleteops-interface.md
+      - name: "IADsObjectOptions Interface"
+        href: iadsobjectoptions-interface.md
+      - name: "IADsPathname Interface"
+        href: iadspathname-interface.md
+      - name: "IADsNameTranslate Interface"
+        href: iadsnametranslate-interface.md
+    - name: "Programming ADSI with Java/COM"
+      href: programming-adsi-with-javacom.md
+  - name: "Implementing Active Directory Service Interfaces Providers"
+    href: implementing-adsi-providers.md
+    items: 
+    - name: "Provider Minimum Requirements"
+      href: provider-minimum-requirements.md
+      items: 
+      - name: "Core Implementation"
+        href: core-implementation.md
+      - name: "Optional Implementation"
+        href: optional-implementation.md
+      - name: "Custom Properties"
+        href: custom-properties.md
+      - name: "Dual Interfaces"
+        href: dual-interfaces.md
+    - name: "Provider Overview"
+      href: provider-overview.md
+      items: 
+      - name: "ADSI Component Interaction"
+        href: adsi-component-interaction.md
+      - name: "Schema Interfaces"
+        href: schema-interfaces.md
+        items: 
+        - name: "Schema Extensions"
+          href: schema-extensions.md
+      - name: "Enumerating Container Objects"
+        href: enumerating-container-objects.md
+      - name: "Provider Registry Information"
+        href: provider-registry-information.md
+      - name: "Support for Queries"
+        href: support-for-queries.md
+      - name: "Implementation Issues for ADSI Providers"
+        href: implementation-issues-for-adsi-providers.md
+    - name: "ADSI Example Provider Component"
+      href: adsi-example-provider-component.md
+      items: 
+      - name: "Installing the Example Provider Component"
+        href: installing-the-example-provider-component.md
+      - name: "Directory Definition"
+        href: directory-definition.md
+      - name: "Schema Management"
+        href: schema-management.md
+      - name: "Binding to an Active Directory Object"
+        href: binding-to-an-active-directory-object.md
+      - name: "Enumerator Objects"
+        href: enumerator-objects.md
+      - name: "Code Overview"
+        href: code-overview.md
+      - name: "Code Details"
+        href: code-details.md
+        items: 
+        - name: "CCLSOBJ.CPP"
+          href: cclsobj-cpp.md
+        - name: "CDISPMGR.CPP"
+          href: cdispmgr-cpp.md
+        - name: "CENUMNS.CPP"
+          href: cenumns-cpp.md
+        - name: "CENUMSCH.CPP"
+          href: cenumsch-cpp.md
+        - name: "CENUMOBJ.CPP"
+          href: cenumobj-cpp.md
+        - name: "CENUMVAR.CPP"
+          href: cenumvar-cpp.md
+        - name: "CGENOBJ.CPP"
+          href: cgenobj-cpp.md
+        - name: "CORE.CPP"
+          href: core-cpp.md
+        - name: "CNAMCF.CPP"
+          href: cnamcf-cpp.md
+        - name: "CNAMESP.CPP"
+          href: cnamesp-cpp.md
+        - name: "COMMON.CPP"
+          href: common-cpp.md
+        - name: "CPRPOBJ.CPP"
+          href: cprpobj-cpp.md
+        - name: "CPROPS.CPP"
+          href: cprops-cpp.md
+        - name: "CPROV.CPP"
+          href: cprov-cpp.md
+        - name: "CPROVCF.CPP"
+          href: cprovcf-cpp.md
+        - name: "CSCHOBJ.CPP"
+          href: cschobj-cpp.md
+        - name: "GETOBJ.CPP"
+          href: getobj-cpp.md
+        - name: "GLOBALS.CPP"
+          href: globals-cpp.md
+        - name: "GUID.CPP"
+          href: guid-cpp.md
+        - name: "LIBMAIN.CPP"
+          href: libmain-cpp.md
+        - name: "MEMORY.CPP"
+          href: memory-cpp.md
+        - name: "OBJECT.CPP"
+          href: object-cpp.md
+        - name: "PROPERTY.CPP"
+          href: property-cpp.md
+        - name: "PARSE.CPP"
+          href: parse-cpp.md
+        - name: "PACK.CPP"
+          href: pack-cpp.md
+        - name: "REGDSAPI.CPP"
+          href: regdsapi-cpp.md
+        - name: "STDFACT.CPP"
+          href: stdfact-cpp.md
+  - name: "Active Directory Service Interfaces Reference"
+    href: adsi-reference.md
+    items: 
+    - name: "ADSI Data Types and Constants"
+      href: adsi-data-types-and-constants.md
+      items: 
+      - name: "ADSI Attribute Modification Types"
+        href: adsi-attribute-modification-types.md
+      - name: "ADSI Constants"
+        href: adsi-constants.md
+      - name: "ADSI Print Job Status Constants"
+        href: adsi-print-job-status-constants.md
+      - name: "ADSI Simple Data Types"
+        href: adsi-simple-data-types.md
+    - name: "ADSI Structures"
+      href: adsi-structures.md
+      items: 
+      - name: "ADS_ATTR_DEF"
+        href: /windows/win32/api/Iads/ns-iads-ads_attr_def
+      - name: "ADS_ATTR_INFO"
+        href: /windows/win32/api/Iads/ns-iads-ads_attr_info
+      - name: "ADS_BACKLINK"
+        href: /windows/win32/api/Iads/ns-iads-ads_backlink
+      - name: "ADS_CASEIGNORE_LIST"
+        href: /windows/win32/api/Iads/ns-iads-ads_caseignore_list
+      - name: "ADS_CLASS_DEF"
+        href: /windows/win32/api/Iads/ns-iads-ads_class_def
+      - name: "ADS_DN_WITH_BINARY"
+        href: /windows/win32/api/Iads/ns-iads-ads_dn_with_binary
+      - name: "ADS_DN_WITH_STRING"
+        href: /windows/win32/api/Iads/ns-iads-ads_dn_with_string
+      - name: "ADS_EMAIL"
+        href: /windows/win32/api/Iads/ns-iads-ads_email
+      - name: "ADS_FAXNUMBER"
+        href: /windows/win32/api/Iads/ns-iads-ads_faxnumber
+      - name: "ADS_HOLD"
+        href: /windows/win32/api/Iads/ns-iads-ads_hold
+      - name: "ADS_NETADDRESS"
+        href: /windows/win32/api/Iads/ns-iads-ads_netaddress
+      - name: "ADS_NT_SECURITY_DESCRIPTOR"
+        href: /windows/win32/api/Iads/ns-iads-ads_nt_security_descriptor
+      - name: "ADS_OBJECT_INFO"
+        href: /windows/win32/api/Iads/ns-iads-ads_object_info
+      - name: "ADS_OCTET_LIST"
+        href: /windows/win32/api/Iads/ns-iads-ads_octet_list
+      - name: "ADS_OCTET_STRING"
+        href: /windows/win32/api/Iads/ns-iads-ads_octet_string
+      - name: "ADS_PATH"
+        href: /windows/win32/api/Iads/ns-iads-ads_path
+      - name: "ADS_POSTALADDRESS"
+        href: /windows/win32/api/Iads/ns-iads-ads_postaladdress
+      - name: "ADS_PROV_SPECIFIC"
+        href: /windows/win32/api/Iads/ns-iads-ads_prov_specific
+      - name: "ADS_REPLICAPOINTER"
+        href: /windows/win32/api/Iads/ns-iads-ads_replicapointer
+      - name: "ADS_SEARCH_COLUMN"
+        href: /windows/desktop/api/Iads/ns-iads-ads_search_column
+      - name: "ADS_SEARCHPREF_INFO"
+        href: /windows/desktop/api/Iads/ns-iads-ads_searchpref_info
+      - name: "ADS_SORTKEY"
+        href: /windows/win32/api/Iads/ns-iads-ads_sortkey
+      - name: "ADS_TIMESTAMP"
+        href: /windows/win32/api/Iads/ns-iads-ads_timestamp
+      - name: "ADS_TYPEDNAME"
+        href: /windows/win32/api/Iads/ns-iads-ads_typedname
+      - name: "ADSVALUE"
+        href: /windows/win32/api/Iads/ns-iads-adsvalue
+      - name: "ADS_VLV"
+        href: /windows/win32/api/Iads/ns-iads-ads_vlv
+    - name: "ADSI Enumerations"
+      href: adsi-enumerations.md
+      items: 
+      - name: "ADS_ACEFLAG_ENUM"
+        href: /windows/win32/api/Iads/ne-iads-ads_aceflag_enum
+      - name: "ADS_ACETYPE_ENUM"
+        href: /windows/win32/api/Iads/ne-iads-ads_acetype_enum
+      - name: "ADS_AUTHENTICATION_ENUM"
+        href: /windows/win32/api/Iads/ne-iads-ads_authentication_enum
+      - name: "ADS_CHASE_REFERRALS_ENUM"
+        href: /windows/win32/api/Iads/ne-iads-ads_chase_referrals_enum
+      - name: "ADS_DEREFENUM"
+        href: /windows/win32/api/Iads/ne-iads-ads_derefenum
+      - name: "ADS_DISPLAY_ENUM"
+        href: /windows/win32/api/Iads/ne-iads-ads_display_enum
+      - name: "ADS_ESCAPE_MODE_ENUM"
+        href: /windows/win32/api/Iads/ne-iads-ads_escape_mode_enum
+      - name: "ADS_FLAGTYPE_ENUM"
+        href: /windows/win32/api/Iads/ne-iads-ads_flagtype_enum
+      - name: "ADS_FORMAT_ENUM"
+        href: /windows/win32/api/Iads/ne-iads-ads_format_enum
+      - name: "ADS_GROUP_TYPE_ENUM"
+        href: /windows/win32/api/Iads/ne-iads-ads_group_type_enum
+      - name: "ADS_NAME_INITTYPE_ENUM"
+        href: /windows/win32/api/Iads/ne-iads-ads_name_inittype_enum
+      - name: "ADS_NAME_TYPE_ENUM"
+        href: /windows/win32/api/Iads/ne-iads-ads_name_type_enum
+      - name: "ADS_OPTION_ENUM"
+        href: /windows/win32/api/Iads/ne-iads-ads_option_enum
+      - name: "ADS_PASSWORD_ENCODING_ENUM"
+        href: /windows/win32/api/Iads/ne-iads-ads_password_encoding_enum
+      - name: "ADS_PATHTYPE_ENUM"
+        href: /windows/win32/api/Iads/ne-iads-ads_pathtype_enum
+      - name: "ADS_PREFERENCES_ENUM"
+        href: /windows/win32/api/Iads/ne-iads-ads_preferences_enum
+      - name: "ADS_PROPERTY_OPERATION_ENUM"
+        href: /windows/win32/api/Iads/ne-iads-ads_property_operation_enum
+      - name: "ADS_RIGHTS_ENUM"
+        href: /windows/win32/api/Iads/ne-iads-ads_rights_enum
+      - name: "ADS_SCOPEENUM"
+        href: /windows/win32/api/Iads/ne-iads-ads_scopeenum
+      - name: "ADS_SD_CONTROL_ENUM"
+        href: /windows/win32/api/Iads/ne-iads-ads_sd_control_enum
+      - name: "ADS_SD_FORMAT_ENUM"
+        href: /windows/win32/api/Iads/ne-iads-ads_sd_format_enum
+      - name: "ADS_SD_REVISION_ENUM"
+        href: /windows/win32/api/Iads/ne-iads-ads_sd_revision_enum
+      - name: "ADS_SEARCHPREF_ENUM"
+        href: /windows/win32/api/Iads/ne-iads-ads_searchpref_enum
+      - name: "ADS_SECURITY_INFO_ENUM"
+        href: /windows/win32/api/Iads/ne-iads-ads_security_info_enum
+      - name: "ADS_SETTYPE_ENUM"
+        href: /windows/win32/api/Iads/ne-iads-ads_settype_enum
+      - name: "ADS_STATUSENUM"
+        href: /windows/win32/api/Iads/ne-iads-ads_statusenum
+      - name: "ADS_SYSTEMFLAG_ENUM"
+        href: /windows/win32/api/Iads/ne-iads-ads_systemflag_enum
+      - name: "ADS_USER_FLAG_ENUM"
+        href: /windows/desktop/api/iads/ne-iads-ads_user_flag_enum
+      - name: "ADSI_DIALECT_ENUM"
+        href: /windows/win32/api/Iads/ne-iads-adsi_dialect_enum
+      - name: "ADSTYPEENUM"
+        href: /windows/win32/api/Iads/ne-iads-adstypeenum
+    - name: "ADSI Functions"
+      href: adsi-functions.md
+      items: 
+      - name: "ADsBuildEnumerator"
+        href: /windows/desktop/api/Adshlp/nf-adshlp-adsbuildenumerator
+      - name: "ADsBuildVarArrayInt"
+        href: /windows/desktop/api/Adshlp/nf-adshlp-adsbuildvararrayint
+      - name: "ADsBuildVarArrayStr"
+        href: /windows/desktop/api/Adshlp/nf-adshlp-adsbuildvararraystr
+      - name: "ADsEncodeBinaryData"
+        href: /windows/desktop/api/Adshlp/nf-adshlp-adsencodebinarydata
+      - name: "ADsEnumerateNext"
+        href: /windows/desktop/api/Adshlp/nf-adshlp-adsenumeratenext
+      - name: "ADsFreeEnumerator"
+        href: /windows/desktop/api/Adshlp/nf-adshlp-adsfreeenumerator
+      - name: "ADsGetLastError"
+        href: /windows/desktop/api/Adshlp/nf-adshlp-adsgetlasterror
+      - name: "ADsGetObject"
+        href: /windows/desktop/api/Adshlp/nf-adshlp-adsgetobject
+      - name: "ADsOpenObject"
+        href: /windows/desktop/api/Adshlp/nf-adshlp-adsopenobject
+      - name: "ADsSetLastError"
+        href: /windows/desktop/api/Adshlp/nf-adshlp-adssetlasterror
+      - name: "AllocADsMem"
+        href: /windows/desktop/api/Adshlp/nf-adshlp-allocadsmem
+      - name: "AllocADsStr"
+        href: /windows/desktop/api/Adshlp/nf-adshlp-allocadsstr
+      - name: "BinarySDToSecurityDescriptor"
+        href: /windows/desktop/api/Adshlp/nf-adshlp-binarysdtosecuritydescriptor
+      - name: "FreeADsMem"
+        href: /windows/desktop/api/Adshlp/nf-adshlp-freeadsmem
+      - name: "FreeADsStr"
+        href: /windows/desktop/api/Adshlp/nf-adshlp-freeadsstr
+      - name: "ReallocADsMem"
+        href: /windows/desktop/api/Adshlp/nf-adshlp-reallocadsmem
+      - name: "ReallocADsStr"
+        href: /windows/desktop/api/Adshlp/nf-adshlp-reallocadsstr
+      - name: "SecurityDescriptorToBinarySD"
+        href: /windows/desktop/api/Adshlp/nf-adshlp-securitydescriptortobinarysd
+      - name: "Obsolete ADSI Functions"
+        href: obsolete-adsi-functions.md
+    - name: "ADSI Interfaces"
+      href: adsi-interfaces.md
+      items: 
+      - name: "Alphabetical Listing of ADSI Interfaces"
+        href: alphabetical-listing-of-adsi-interfaces.md
+      - name: "Interface Property Methods"
+        href: interface-property-methods.md
+      - name: "Interface Implementation of System Providers"
+        href: interface-implementation-of-system-providers.md
+      - name: "ADSI Objects and Interfaces"
+        href: adsi-objects-and-interfaces.md
+        items: 
+        - name: "ADSI Object Model for LDAP Providers"
+          href: adsi-object-model-for-ldap-providers.md
+        - name: "ADSI Object Model for WinNT Providers"
+          href: adsi-object-model-for-winnt-providers.md
+      - name: "Core Interfaces"
+        href: core-interfaces.md
+        items: 
+        - name: "IADs"
+          href: /windows/desktop/api/Iads/nn-iads-iads
+          items: 
+          - name: "IADs Property Methods"
+            href: iads-property-methods.md
+          - name: "IADs::Get"
+            href: /windows/desktop/api/Iads/nf-iads-iads-get
+          - name: "IADs::GetEx"
+            href: /windows/desktop/api/Iads/nf-iads-iads-getex
+          - name: "IADs::GetInfo"
+            href: /windows/desktop/api/Iads/nf-iads-iads-getinfo
+          - name: "IADs::GetInfoEx"
+            href: /windows/desktop/api/Iads/nf-iads-iads-getinfoex
+          - name: "IADs::Put"
+            href: /windows/desktop/api/Iads/nf-iads-iads-put
+          - name: "IADs::PutEx"
+            href: /windows/desktop/api/Iads/nf-iads-iads-putex
+          - name: "IADs::SetInfo"
+            href: /windows/desktop/api/Iads/nf-iads-iads-setinfo
+        - name: "IADsContainer"
+          href: /windows/desktop/api/Iads/nn-iads-iadscontainer
+          items: 
+          - name: "IADsContainer Property Methods"
+            href: iadscontainer-property-methods.md
+          - name: "IADsContainer::CopyHere"
+            href: /windows/desktop/api/Iads/nf-iads-iadscontainer-copyhere
+          - name: "IADsContainer::Create"
+            href: /windows/desktop/api/Iads/nf-iads-iadscontainer-create
+          - name: "IADsContainer::Delete"
+            href: /windows/desktop/api/Iads/nf-iads-iadscontainer-delete
+          - name: "IADsContainer::get__NewEnum"
+            href: /windows/desktop/api/Iads/nf-iads-iadscontainer-get__newenum
+          - name: "IADsContainer::GetObject"
+            href: /windows/desktop/api/Iads/nf-iads-iadscontainer-getobject
+          - name: "IADsContainer::MoveHere"
+            href: /windows/desktop/api/Iads/nf-iads-iadscontainer-movehere
+        - name: "IADsNamespaces"
+          href: /windows/desktop/api/Iads/nn-iads-iadsnamespaces
+          items: 
+          - name: "IADsNamespaces Property Methods"
+            href: iadsnamespaces-property-methods.md
+        - name: "IADsOpenDSObject"
+          href: /windows/desktop/api/Iads/nn-iads-iadsopendsobject
+          items: 
+          - name: "IADsOpenDSObject::OpenDSObject"
+            href: /windows/desktop/api/Iads/nf-iads-iadsopendsobject-opendsobject
+      - name: "Schema Interfaces"
+        href: schema-interfaces.md
+        items: 
+        - name: "IADsClass"
+          href: /windows/desktop/api/Iads/nn-iads-iadsclass
+          items: 
+          - name: "IADsClass Property Methods"
+            href: iadsclass-property-methods.md
+          - name: "IADsClass::Qualifiers"
+            href: /windows/desktop/api/Iads/nf-iads-iadsclass-qualifiers
+        - name: "IADsProperty"
+          href: /windows/desktop/api/Iads/nn-iads-iadsproperty
+          items: 
+          - name: "IADsProperty Property Methods"
+            href: iadsproperty-property-methods.md
+          - name: "IADsProperty::Qualifiers"
+            href: /windows/desktop/api/Iads/nf-iads-iadsproperty-qualifiers
+        - name: "IADsSyntax"
+          href: /windows/desktop/api/Iads/nn-iads-iadssyntax
+          items: 
+          - name: "IADsSyntax Property Methods"
+            href: iadssyntax-property-methods.md
+      - name: "Property Cache Interfaces"
+        href: property-cache-interfaces.md
+        items: 
+        - name: "IADsPropertyEntry"
+          href: /windows/desktop/api/Iads/nn-iads-iadspropertyentry
+          items: 
+          - name: "IADsPropertyEntry Property Methods"
+            href: iadspropertyentry-property-methods.md
+        - name: "IADsPropertyList"
+          href: /windows/desktop/api/Iads/nn-iads-iadspropertylist
+          items: 
+          - name: "IADsPropertyList Property Methods"
+            href: iadspropertylist-property-methods.md
+          - name: "IADsPropertyList::GetPropertyItem"
+            href: /windows/desktop/api/Iads/nf-iads-iadspropertylist-getpropertyitem
+          - name: "IADsPropertyList::Item"
+            href: /windows/desktop/api/Iads/nf-iads-iadspropertylist-item
+          - name: "IADsPropertyList::Next"
+            href: /windows/desktop/api/Iads/nf-iads-iadspropertylist-next
+          - name: "IADsPropertyList::PurgePropertyList"
+            href: /windows/desktop/api/Iads/nf-iads-iadspropertylist-purgepropertylist
+          - name: "IADsPropertyList::PutPropertyItem"
+            href: /windows/desktop/api/Iads/nf-iads-iadspropertylist-putpropertyitem
+          - name: "IADsPropertyList::Reset"
+            href: /windows/desktop/api/Iads/nf-iads-iadspropertylist-reset
+          - name: "IADsPropertyList::ResetPropertyItem"
+            href: /windows/desktop/api/Iads/nf-iads-iadspropertylist-resetpropertyitem
+          - name: "IADsPropertyList::Skip"
+            href: /windows/desktop/api/Iads/nf-iads-iadspropertylist-skip
+        - name: "IADsPropertyValue"
+          href: /windows/desktop/api/Iads/nn-iads-iadspropertyvalue
+          items: 
+          - name: "IADsPropertyValue Property Methods"
+            href: iadspropertyvalue-property-methods.md
+          - name: "IADsPropertyValue::Clear"
+            href: /windows/desktop/api/Iads/nf-iads-iadspropertyvalue-clear
+        - name: "IADsPropertyValue2"
+          href: /windows/desktop/api/Iads/nn-iads-iadspropertyvalue2
+          items: 
+          - name: "IADsPropertyValue2::GetObjectProperty"
+            href: /windows/desktop/api/Iads/nf-iads-iadspropertyvalue2-getobjectproperty
+          - name: "IADsPropertyValue2::PutObjectProperty"
+            href: /windows/desktop/api/Iads/nf-iads-iadspropertyvalue2-putobjectproperty
+      - name: "Persistent Object Interfaces"
+        href: persistent-object-interfaces.md
+        items: 
+        - name: "IADsCollection"
+          href: /windows/desktop/api/Iads/nn-iads-iadscollection
+          items: 
+          - name: "IADsCollection::Add"
+            href: /windows/desktop/api/Iads/nf-iads-iadscollection-add
+          - name: "IADsCollection::get__NewEnum"
+            href: /windows/desktop/api/Iads/nf-iads-iadscollection-get__newenum
+          - name: "IADsCollection::GetObject"
+            href: /windows/desktop/api/Iads/nf-iads-iadscollection-getobject
+          - name: "IADsCollection::Remove"
+            href: /windows/desktop/api/Iads/nf-iads-iadscollection-remove
+        - name: "IADsComputer"
+          href: /windows/desktop/api/Iads/nn-iads-iadscomputer
+          items: 
+          - name: "IADsComputer Property Methods"
+            href: iadscomputer-property-methods.md
+        - name: "IADsDomain"
+          href: /windows/desktop/api/Iads/nn-iads-iadsdomain
+          items: 
+          - name: "IADsDomain Property Methods"
+            href: iadsdomain-property-methods.md
+        - name: "IADsFileService"
+          href: /windows/desktop/api/Iads/nn-iads-iadsfileservice
+          items: 
+          - name: "IADsFileService Property Methods"
+            href: iadsfileservice-property-methods.md
+        - name: "IADsFileShare"
+          href: /windows/desktop/api/Iads/nn-iads-iadsfileshare
+          items: 
+          - name: "IADsFileShare Property Methods"
+            href: iadsfileshare-property-methods.md
+        - name: "IADsGroup"
+          href: /windows/desktop/api/Iads/nn-iads-iadsgroup
+          items: 
+          - name: "IADsGroup Property Methods"
+            href: iadsgroup-property-methods.md
+          - name: "IADsGroup::Add"
+            href: /windows/desktop/api/Iads/nf-iads-iadsgroup-add
+          - name: "IADsGroup::IsMember"
+            href: /windows/desktop/api/Iads/nf-iads-iadsgroup-ismember
+          - name: "IADsGroup::Members"
+            href: /windows/desktop/api/Iads/nf-iads-iadsgroup-members
+          - name: "IADsGroup::Remove"
+            href: /windows/desktop/api/Iads/nf-iads-iadsgroup-remove
+        - name: "IADsLocality"
+          href: /windows/desktop/api/Iads/nn-iads-iadslocality
+          items: 
+          - name: "IADsLocality Property Methods"
+            href: iadslocality-property-methods.md
+        - name: "IADsMembers"
+          href: /windows/desktop/api/Iads/nn-iads-iadsmembers
+          items: 
+          - name: "IADsMembers Property Methods"
+            href: iadsmembers-property-methods.md
+          - name: "IADsMembers::get__NewEnum"
+            href: /windows/desktop/api/Iads/nf-iads-iadsmembers-get__newenum
+        - name: "IADsO"
+          href: /windows/desktop/api/Iads/nn-iads-iadso
+          items: 
+          - name: "IADsO Property Methods"
+            href: iadso-property-methods.md
+        - name: "IADsOU"
+          href: /windows/desktop/api/Iads/nn-iads-iadsou
+          items: 
+          - name: "IADsOU Property Methods"
+            href: iadsou-property-methods.md
+        - name: "IADsPrintJob"
+          href: /windows/desktop/api/Iads/nn-iads-iadsprintjob
+          items: 
+          - name: "IADsPrintJob Property Methods"
+            href: iadsprintjob-property-methods.md
+        - name: "IADsPrintQueue"
+          href: /windows/desktop/api/Iads/nn-iads-iadsprintqueue
+          items: 
+          - name: "IADsPrintQueue Property Methods"
+            href: iadsprintqueue-property-methods.md
+        - name: "IADsService"
+          href: /windows/desktop/api/Iads/nn-iads-iadsservice
+          items: 
+          - name: "IADsService Property Methods"
+            href: iadsservice-property-methods.md
+        - name: "IADsUser"
+          href: /windows/desktop/api/Iads/nn-iads-iadsuser
+          items: 
+          - name: "IADsUser Property Methods"
+            href: iadsuser-property-methods.md
+          - name: "IADsUser::ChangePassword"
+            href: /windows/desktop/api/Iads/nf-iads-iadsuser-changepassword
+          - name: "IADsUser::Groups"
+            href: /windows/desktop/api/Iads/nf-iads-iadsuser-groups
+          - name: "IADsUser::SetPassword"
+            href: /windows/desktop/api/Iads/nf-iads-iadsuser-setpassword
+      - name: "Dynamic Object Interfaces"
+        href: dynamic-object-interfaces.md
+        items: 
+        - name: "IADsComputerOperations"
+          href: /windows/desktop/api/Iads/nn-iads-iadscomputeroperations
+          items: 
+          - name: "IADsComputerOperations::Shutdown"
+            href: /windows/desktop/api/Iads/nf-iads-iadscomputeroperations-shutdown
+          - name: "IADsComputerOperations::Status"
+            href: /windows/desktop/api/Iads/nf-iads-iadscomputeroperations-status
+        - name: "IADsFileServiceOperations"
+          href: /windows/desktop/api/Iads/nn-iads-iadsfileserviceoperations
+          items: 
+          - name: "IADsFileServiceOperations::Resources"
+            href: /windows/desktop/api/Iads/nf-iads-iadsfileserviceoperations-resources
+          - name: "IADsFileServiceOperations::Sessions"
+            href: /windows/desktop/api/Iads/nf-iads-iadsfileserviceoperations-sessions
+        - name: "IADsPrintJobOperations"
+          href: /windows/desktop/api/Iads/nn-iads-iadsprintjoboperations
+          items: 
+          - name: "IADsPrintJobOperations Property Methods"
+            href: iadsprintjoboperations-property-methods.md
+          - name: "IADsPrintJobOperations::Pause"
+            href: /windows/desktop/api/Iads/nf-iads-iadsprintjoboperations-pause
+          - name: "IADsPrintJobOperations::Resume"
+            href: /windows/desktop/api/Iads/nf-iads-iadsprintjoboperations-resume
+        - name: "IADsPrintQueueOperations"
+          href: /windows/desktop/api/Iads/nn-iads-iadsprintqueueoperations
+          items: 
+          - name: "IADsPrintQueueOperations Property Methods"
+            href: iadsprintqueueoperations-property-methods.md
+          - name: "IADsPrintQueueOperations::Pause"
+            href: /windows/desktop/api/Iads/nf-iads-iadsprintqueueoperations-pause
+          - name: "IADsPrintQueueOperations::PrintJobs"
+            href: /windows/desktop/api/Iads/nf-iads-iadsprintqueueoperations-printjobs
+          - name: "IADsPrintQueueOperations::Purge"
+            href: /windows/desktop/api/Iads/nf-iads-iadsprintqueueoperations-purge
+          - name: "IADsPrintQueueOperations::Resume"
+            href: /windows/desktop/api/Iads/nf-iads-iadsprintqueueoperations-resume
+        - name: "IADsResource"
+          href: /windows/desktop/api/Iads/nn-iads-iadsresource
+          items: 
+          - name: "IADsResource Property Methods"
+            href: iadsresource-property-methods.md
+        - name: "IADsServiceOperations"
+          href: /windows/desktop/api/Iads/nn-iads-iadsserviceoperations
+          items: 
+          - name: "IADsServiceOperations Property Methods"
+            href: iadsserviceoperations-property-methods.md
+          - name: "IADsServiceOperations::Continue"
+            href: /windows/desktop/api/Iads/nf-iads-iadsserviceoperations-continue
+          - name: "IADsServiceOperations::Pause"
+            href: /windows/desktop/api/Iads/nf-iads-iadsserviceoperations-pause
+          - name: "IADsServiceOperations::SetPassword"
+            href: /windows/desktop/api/Iads/nf-iads-iadsserviceoperations-setpassword
+          - name: "IADsServiceOperations::Start"
+            href: /windows/desktop/api/Iads/nf-iads-iadsserviceoperations-start
+          - name: "IADsServiceOperations::Stop"
+            href: /windows/desktop/api/Iads/nf-iads-iadsserviceoperations-stop
+        - name: "IADsSession"
+          href: /windows/desktop/api/Iads/nn-iads-iadssession
+          items: 
+          - name: "IADsSession Property Methods"
+            href: iadssession-property-methods.md
+      - name: "Security Interfaces"
+        href: security-interfaces.md
+        items: 
+        - name: "IADsAccessControlEntry"
+          href: /windows/desktop/api/Iads/nn-iads-iadsaccesscontrolentry
+          items: 
+          - name: "IADsAccessControlEntry Property Methods"
+            href: iadsaccesscontrolentry-property-methods.md
+        - name: "IADsAccessControlList"
+          href: /windows/desktop/api/Iads/nn-iads-iadsaccesscontrollist
+          items: 
+          - name: "IADsAccessControlList Property Methods"
+            href: iadsaccesscontrollist-property-methods.md
+          - name: "IADsAccessControlList::AddAce"
+            href: /windows/desktop/api/Iads/nf-iads-iadsaccesscontrollist-addace
+          - name: "IADsAccessControlList::CopyAccessList"
+            href: /windows/desktop/api/Iads/nf-iads-iadsaccesscontrollist-copyaccesslist
+          - name: "IADsAccessControlList::RemoveAce"
+            href: /windows/desktop/api/Iads/nf-iads-iadsaccesscontrollist-removeace
+          - name: "IADsAccessControlList::get__NewEnum"
+            href: /windows/desktop/api/Iads/nf-iads-iadsaccesscontrollist-get__newenum
+        - name: "IADsSecurityDescriptor"
+          href: /windows/desktop/api/Iads/nn-iads-iadssecuritydescriptor
+          items: 
+          - name: "IADsSecurityDescriptor Property Methods"
+            href: iadssecuritydescriptor-property-methods.md
+          - name: "IADsSecurityDescriptor::CopySecurityDescriptor"
+            href: /windows/desktop/api/Iads/nf-iads-iadssecuritydescriptor-copysecuritydescriptor
+        - name: "IADsSecurityUtility"
+          href: /windows/desktop/api/Iads/nn-iads-iadssecurityutility
+          items: 
+          - name: "IADsSecurityUtility.SecurityMask"
+            href: /windows/desktop/api/Iads/nf-iads-iadssecurityutility-get_securitymask
+          - name: "IADsSecurityUtility::ConvertSecurityDescriptor"
+            href: /windows/desktop/api/Iads/nf-iads-iadssecurityutility-convertsecuritydescriptor
+          - name: "IADsSecurityUtility::GetSecurityDescriptor"
+            href: /windows/desktop/api/Iads/nf-iads-iadssecurityutility-getsecuritydescriptor
+          - name: "IADsSecurityUtility::SetSecurityDescriptor"
+            href: /windows/desktop/api/Iads/nf-iads-iadssecurityutility-setsecuritydescriptor
+      - name: "Non-Automation Interfaces"
+        href: non-automation-interfaces.md
+        items: 
+        - name: "IDirectoryObject"
+          href: /windows/desktop/api/Iads/nn-iads-idirectoryobject
+          items: 
+          - name: "IDirectoryObject::CreateDSObject"
+            href: /windows/desktop/api/Iads/nf-iads-idirectoryobject-createdsobject
+          - name: "IDirectoryObject::DeleteDSObject"
+            href: /windows/desktop/api/Iads/nf-iads-idirectoryobject-deletedsobject
+          - name: "IDirectoryObject::GetObjectAttributes"
+            href: /windows/desktop/api/Iads/nf-iads-idirectoryobject-getobjectattributes
+          - name: "IDirectoryObject::GetObjectInformation"
+            href: /windows/desktop/api/Iads/nf-iads-idirectoryobject-getobjectinformation
+          - name: "IDirectoryObject::SetObjectAttributes"
+            href: /windows/desktop/api/Iads/nf-iads-idirectoryobject-setobjectattributes
+        - name: "IDirectorySchemaMgmt"
+          href: /windows/desktop/api/Iads/nn-iads-idirectoryschemamgmt
+        - name: "IDirectorySearch"
+          href: /windows/desktop/api/Iads/nn-iads-idirectorysearch
+          items: 
+          - name: "IDirectorySearch::AbandonSearch"
+            href: /windows/desktop/api/Iads/nf-iads-idirectorysearch-abandonsearch
+          - name: "IDirectorySearch::CloseSearchHandle"
+            href: /windows/desktop/api/Iads/nf-iads-idirectorysearch-closesearchhandle
+          - name: "IDirectorySearch::ExecuteSearch"
+            href: /windows/desktop/api/Iads/nf-iads-idirectorysearch-executesearch
+          - name: "IDirectorySearch::FreeColumn"
+            href: /windows/desktop/api/Iads/nf-iads-idirectorysearch-freecolumn
+          - name: "IDirectorySearch::GetColumn"
+            href: /windows/desktop/api/Iads/nf-iads-idirectorysearch-getcolumn
+          - name: "IDirectorySearch::GetFirstRow"
+            href: /windows/desktop/api/Iads/nf-iads-idirectorysearch-getfirstrow
+          - name: "IDirectorySearch::GetNextColumnName"
+            href: /windows/desktop/api/Iads/nf-iads-idirectorysearch-getnextcolumnname
+          - name: "IDirectorySearch::GetNextRow"
+            href: /windows/desktop/api/Iads/nf-iads-idirectorysearch-getnextrow
+          - name: "IDirectorySearch::GetPreviousRow"
+            href: /windows/desktop/api/Iads/nf-iads-idirectorysearch-getpreviousrow
+          - name: "IDirectorySearch::SetSearchPreference"
+            href: /windows/desktop/api/Iads/nf-iads-idirectorysearch-setsearchpreference
+      - name: "Extension Interfaces"
+        href: extension-interfaces.md
+        items: 
+        - name: "IADsExtension"
+          href: /windows/desktop/api/Iads/nn-iads-iadsextension
+          items: 
+          - name: "IADsExtension::Operate"
+            href: /windows/desktop/api/Iads/nf-iads-iadsextension-operate
+          - name: "IADsExtension::PrivateGetIDsOfNames"
+            href: /windows/desktop/api/Iads/nf-iads-iadsextension-privategetidsofnames
+          - name: "IADsExtension::PrivateInvoke"
+            href: /windows/desktop/api/Iads/nf-iads-iadsextension-privateinvoke
+      - name: "Utility Interfaces"
+        href: utility-interfaces.md
+        items: 
+        - name: "IADsADSystemInfo"
+          href: /windows/desktop/api/Iads/nn-iads-iadsadsysteminfo
+          items: 
+          - name: "IADsADSystemInfo Property Methods"
+            href: iadsadsysteminfo-property-methods.md
+          - name: "IADsADSystemInfo::GetAnyDCName"
+            href: /windows/desktop/api/Iads/nf-iads-iadsadsysteminfo-getanydcname
+          - name: "IADsADSystemInfo::GetDCSiteName"
+            href: /windows/desktop/api/Iads/nf-iads-iadsadsysteminfo-getdcsitename
+          - name: "IADsADSystemInfo::GetTrees"
+            href: /windows/desktop/api/Iads/nf-iads-iadsadsysteminfo-gettrees
+          - name: "IADsADSystemInfo::RefreshSchemaCache"
+            href: /windows/desktop/api/Iads/nf-iads-iadsadsysteminfo-refreshschemacache
+        - name: "IADsDeleteOps"
+          href: /windows/desktop/api/Iads/nn-iads-iadsdeleteops
+          items: 
+          - name: "IADsDeleteOps::DeleteObject"
+            href: /windows/desktop/api/Iads/nf-iads-iadsdeleteops-deleteobject
+        - name: "IADsNameTranslate"
+          href: /windows/desktop/api/Iads/nn-iads-iadsnametranslate
+          items: 
+          - name: "IADsNameTranslate Property Methods"
+            href: iadsnametranslate-property-methods.md
+          - name: "IADsNameTranslate::Get"
+            href: /windows/desktop/api/Iads/nf-iads-iadsnametranslate-get
+          - name: "IADsNameTranslate::GetEx"
+            href: /windows/desktop/api/Iads/nf-iads-iadsnametranslate-getex
+          - name: "IADsNameTranslate::Init"
+            href: /windows/desktop/api/Iads/nf-iads-iadsnametranslate-init
+          - name: "IADsNameTranslate::InitEx"
+            href: /windows/desktop/api/Iads/nf-iads-iadsnametranslate-initex
+          - name: "IADsNameTranslate::Set"
+            href: /windows/desktop/api/Iads/nf-iads-iadsnametranslate-set
+          - name: "IADsNameTranslate::SetEx"
+            href: /windows/desktop/api/Iads/nf-iads-iadsnametranslate-setex
+        - name: "IADsObjectOptions"
+          href: /windows/desktop/api/Iads/nn-iads-iadsobjectoptions
+          items: 
+          - name: "IADsObjectOptions::GetOption"
+            href: /windows/desktop/api/Iads/nf-iads-iadsobjectoptions-getoption
+          - name: "IADsObjectOptions::SetOption"
+            href: /windows/desktop/api/Iads/nf-iads-iadsobjectoptions-setoption
+        - name: "IADsPathname"
+          href: /windows/desktop/api/Iads/nn-iads-iadspathname
+          items: 
+          - name: "IADsPathname Property Methods"
+            href: iadspathname-property-methods.md
+          - name: "IADsPathname::AddLeafElement"
+            href: /windows/desktop/api/Iads/nf-iads-iadspathname-addleafelement
+          - name: "IADsPathname::CopyPath"
+            href: /windows/desktop/api/Iads/nf-iads-iadspathname-copypath
+          - name: "IADsPathname::GetElement"
+            href: /windows/desktop/api/Iads/nf-iads-iadspathname-getelement
+          - name: "IADsPathname::GetEscapedElement"
+            href: /windows/desktop/api/Iads/nf-iads-iadspathname-getescapedelement
+          - name: "IADsPathname::GetNumElements"
+            href: /windows/desktop/api/Iads/nf-iads-iadspathname-getnumelements
+          - name: "IADsPathname::RemoveLeafElement"
+            href: /windows/desktop/api/Iads/nf-iads-iadspathname-removeleafelement
+          - name: "IADsPathname::Retrieve"
+            href: /windows/desktop/api/Iads/nf-iads-iadspathname-retrieve
+          - name: "IADsPathname::Set"
+            href: /windows/desktop/api/Iads/nf-iads-iadspathname-set
+          - name: "IADsPathname::SetDisplayType"
+            href: /windows/desktop/api/Iads/nf-iads-iadspathname-setdisplaytype
+        - name: "IADsWinNTSystemInfo"
+          href: /windows/desktop/api/Iads/nn-iads-iadswinntsysteminfo
+          items: 
+          - name: "IADsWinNTSystemInfo Property Methods"
+            href: iadswinntsysteminfo-property-methods.md
+      - name: "Data Type Interfaces"
+        href: data-type-interfaces.md
+        items: 
+        - name: "IADsAcl"
+          href: /windows/desktop/api/Iads/nn-iads-iadsacl
+          items: 
+          - name: "IADsAcl Property Methods"
+            href: iadsacl-property-methods.md
+          - name: "IADsAcl::CopyAcl"
+            href: /windows/desktop/api/Iads/nf-iads-iadsacl-copyacl
+        - name: "IADsBackLink"
+          href: /windows/desktop/api/Iads/nn-iads-iadsbacklink
+          items: 
+          - name: "IADsBackLink Property Methods"
+            href: iadsbacklink-property-methods.md
+        - name: "IADsCaseIgnoreList"
+          href: /windows/desktop/api/Iads/nn-iads-iadscaseignorelist
+          items: 
+          - name: "IADsCaseIgnoreList Property Methods"
+            href: iadscaseignorelist-property-methods.md
+        - name: "IADsDNWithBinary"
+          href: /windows/desktop/api/Iads/nn-iads-iadsdnwithbinary
+          items: 
+          - name: "IADsDNWithBinary Property Methods"
+            href: iadsdnwithbinary-property-methods.md
+        - name: "IADsDNWithString"
+          href: /windows/desktop/api/Iads/nn-iads-iadsdnwithstring
+          items: 
+          - name: "IADsDNWithString Property Methods"
+            href: iadsdnwithstring-property-methods.md
+        - name: "IADsEmail"
+          href: /windows/desktop/api/Iads/nn-iads-iadsemail
+          items: 
+          - name: "IADsEmail Property Methods"
+            href: iadsemail-property-methods.md
+        - name: "IADsFaxNumber"
+          href: /windows/desktop/api/Iads/nn-iads-iadsfaxnumber
+          items: 
+          - name: "IADsFaxNumber Property Methods"
+            href: iadsfaxnumber-property-methods.md
+        - name: "IADsHold"
+          href: /windows/desktop/api/Iads/nn-iads-iadshold
+          items: 
+          - name: "IADsHold Property Methods"
+            href: iadshold-property-methods.md
+        - name: "IADsLargeInteger"
+          href: /windows/desktop/api/Iads/nn-iads-iadslargeinteger
+          items: 
+          - name: "IADsLargeInteger Property Methods"
+            href: iadslargeinteger-property-methods.md
+        - name: "IADsNetAddress"
+          href: /windows/desktop/api/Iads/nn-iads-iadsnetaddress
+          items: 
+          - name: "IADsNetAddress Property Methods"
+            href: iadsnetaddress-property-methods.md
+        - name: "IADsOctetList"
+          href: /windows/desktop/api/Iads/nn-iads-iadsoctetlist
+          items: 
+          - name: "IADsOctetList Property Methods"
+            href: iadsoctetlist-property-methods.md
+        - name: "IADsPath"
+          href: /windows/desktop/api/Iads/nn-iads-iadspath
+          items: 
+          - name: "IADsPath Property Methods"
+            href: iadspath-property-methods.md
+        - name: "IADsPostalAddress"
+          href: /windows/desktop/api/Iads/nn-iads-iadspostaladdress
+          items: 
+          - name: "IADsPostalAddress Property Methods"
+            href: iadspostaladdress-property-methods.md
+        - name: "IADsReplicaPointer"
+          href: /windows/desktop/api/Iads/nn-iads-iadsreplicapointer
+          items: 
+          - name: "IADsReplicaPointer Property Methods"
+            href: iadsreplicapointer-property-methods.md
+        - name: "IADsTimestamp"
+          href: /windows/desktop/api/Iads/nn-iads-iadstimestamp
+          items: 
+          - name: "IADsTimestamp Property Methods"
+            href: iadstimestamp-property-methods.md
+        - name: "IADsTypedName"
+          href: /windows/desktop/api/Iads/nn-iads-iadstypedname
+          items: 
+          - name: "IADsTypedName Property Methods"
+            href: iadstypedname-property-methods.md
+    - name: "ADSI Service Providers"
+      href: adsi-system-providers.md
+      items: 
+      - name: "ADSI LDAP Provider"
+        href: adsi-ldap-provider.md
+        items: 
+        - name: "LDAP ADsPath"
+          href: ldap-adspath.md
+        - name: "Data Type Mapping between Active Directory and LDAP"
+          href: data-type-mapping-between-active-directory-and-ldap.md
+        - name: "ADSI Objects of LDAP"
+          href: adsi-objects-of-ldap.md
+        - name: "LDAP Syntax Object"
+          href: ldap-syntax-object.md
+        - name: "LDAP User Object"
+          href: ldap-user-object.md
+          items: 
+          - name: "Mapping Between IADsUser Properties and Active Directory Attributes"
+            href: mapping-between-iadsuser-properties-and-active-directory-attributes.md
+          - name: "User Creation with the ADSI LDAP Provider"
+            href: user-creation-with-the-adsi-ldap-provider.md
+          - name: "Setting and Changing User Passwords with the LDAP Provider"
+            href: setting-user-passwords-for-ldap-providers.md
+          - name: "Examples of User Management in Active Directory"
+            href: examples-of-user-management-in-active-directory.md
+            items: 
+            - name: "Account Disabled (LDAP Provider)"
+              href: account-disabled.md
+            - name: "Account Expiration (LDAP Provider)"
+              href: account-expiration.md
+            - name: "Account Lockout (LDAP Provider)"
+              href: ldap-account-lockout.md
+            - name: "Password Never Expires (LDAP Provider)"
+              href: password-never-expires.md
+            - name: "User Cannot Change Password (LDAP Provider)"
+              href: user-cannot-change-password.md
+              items: 
+              - name: "Reading User Cannot Change Password (LDAP Provider)"
+                href: reading-user-cannot-change-password-ldap-provider.md
+              - name: "Modifying User Cannot Change Password (LDAP Provider)"
+                href: modifying-user-cannot-change-password-ldap-provider.md
+            - name: "User Must Change Password at Next Logon (LDAP Provider)"
+              href: user-must-change-password-at-next-logon.md
+      - name: "ADSI WinNT Provider"
+        href: adsi-winnt-provider.md
+        items: 
+        - name: "WinNT ADsPath"
+          href: winnt-adspath.md
+        - name: "ADSI Objects of WinNT"
+          href: adsi-objects-of-winnt.md
+        - name: "WinNT Schema"
+          href: winnt-schema.md
+          items: 
+          - name: "WinNT Object Class Hierarchy"
+            href: winnt-object-class-hierarchy.md
+          - name: "WinNT Schema's Mandatory and Optional Properties"
+            href: winnt-schemaampaposs-mandatory-and-optional-properties.md
+        - name: "WinNT User Object"
+          href: winnt-user-object.md
+          items: 
+          - name: "Unsupported IADsUser Properties"
+            href: unsupported-iadsuser-properties.md
+          - name: "WinNT Custom User Properties"
+            href: winnt-custom-user-properties.md
+          - name: "WinNT User Account Management Examples"
+            href: winnt-user-account-management-examples.md
+            items: 
+            - name: "Account Disabled (WinNT Provider)"
+              href: winnt-account-disabled.md
+            - name: "Account Expiration (WinNT Provider)"
+              href: winnt-account-expiration.md
+            - name: "Account Lockout (WinNT Provider)"
+              href: winnt-account-lockout.md
+            - name: "Object SID (WinNT Provider)"
+              href: object-sid.md
+            - name: "Password Never Expires (WinNT Provider)"
+              href: winnt-password-never-expires.md
+            - name: "User Cannot Change Password (WinNT Provider)"
+              href: winnt-user-cannot-change-password.md
+              items: 
+              - name: "Reading User Cannot Change Password (WinNT Provider)"
+                href: reading-user-cannot-change-password-winnt-provider.md
+              - name: "Modifying User Cannot Change Password (WinNT Provider)"
+                href: modifying-user-cannot-change-password-winnt-provider.md
+            - name: "User Must Change Password at Next Logon (WinNT Provider)"
+              href: winnt-user-must-change-password-at-next-logon.md
+      - name: "ADSI Router"
+        href: adsi-router.md
+        items: 
+        - name: "ADSI Objects Implemented in the Router Layer"
+          href: adsi-objects-implemented-in-the-router-layer.md
+      - name: "Provider Support of ADSI Interfaces"
+        href: provider-support-of-adsi-interfaces.md
+    - name: "ADSI Error Codes"
+      href: adsi-error-codes.md
+      items: 
+      - name: "Generic COM Error Codes"
+        href: generic-com-error-codes.md
+      - name: "Generic ADSI Error Codes"
+        href: generic-adsi-error-codes.md
+      - name: "Win32 Error Codes for ADSI"
+        href: win32-error-codes-for-adsi.md
+        items: 
+        - name: "Win32 Error Codes"
+          href: win32-error-codes.md
+        - name: "Win32 Error Codes for ADSI 2.0"
+          href: win32-error-codes-for-adsi-2-0.md
+      - name: "LDAP Error Codes for ADSI"
+        href: ldap-error-codes-for-adsi.md
+      - name: "ADSI Extended Error Messages"
+        href: adsi-extended-error-messages.md
+        items: 
+        - name: "Code Example for Working with ADSI Error Messages"
+          href: code-example-for-working-with-adsi-error-messages.md

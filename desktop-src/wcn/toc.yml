@@ -1,0 +1,79 @@
+- name: "Windows Connect Now"
+  href: portal.md
+  items: 
+  - name: "About Windows Connect Now"
+    href: about-windows-connect-now.md
+  - name: "Windows Connect Now Reference"
+    href: windows-connect-now-reference.md
+    items: 
+    - name: "Windows Connect Now Enumerations"
+      href: windows-connect-now-enumerations.md
+      items: 
+      - name: "WCN_ATTRIBUTE_TYPE"
+        href: /windows/win32/api/wcntypes/ne-wcntypes-wcn_attribute_type
+      - name: "WCN_PASSWORD_TYPE"
+        href: /windows/win32/api/wcndevice/ne-wcndevice-wcn_password_type
+      - name: "WCN_SESSION_STATUS"
+        href: /windows/win32/api/wcndevice/ne-wcndevice-wcn_session_status
+      - name: "WCN_VALUE_TYPE_ASSOCIATION_STATE"
+        href: /windows/win32/api/wcntypes/ne-wcntypes-wcn_value_type_association_state
+      - name: "WCN_VALUE_TYPE_BOOLEAN"
+        href: /windows/win32/api/wcntypes/ne-wcntypes-wcn_value_type_boolean
+      - name: "WCN_VALUE_TYPE_AUTHENTICATION_TYPE"
+        href: /windows/win32/api/wcntypes/ne-wcntypes-wcn_value_type_authentication_type
+      - name: "WCN_VALUE_TYPE_CONFIG_METHODS"
+        href: /windows/win32/api/wcntypes/ne-wcntypes-wcn_value_type_config_methods
+      - name: "WCN_VALUE_TYPE_CONFIGURATION_ERROR"
+        href: /windows/win32/api/wcntypes/ne-wcntypes-wcn_value_type_configuration_error
+      - name: "WCN_VALUE_TYPE_CONNECTION_TYPE"
+        href: /windows/win32/api/wcntypes/ne-wcntypes-wcn_value_type_connection_type
+      - name: "WCN_VALUE_TYPE_DEVICE_PASSWORD_ID"
+        href: /windows/win32/api/wcntypes/ne-wcntypes-wcn_value_type_device_password_id
+      - name: "WCN_VALUE_TYPE_ENCRYPTION_TYPE"
+        href: /windows/win32/api/wcntypes/ne-wcntypes-wcn_value_type_encryption_type
+      - name: "WCN_VALUE_TYPE_RF_BANDS"
+        href: /windows/win32/api/wcntypes/ne-wcntypes-wcn_value_type_rf_bands
+      - name: "WCN_VALUE_TYPE_VERSION"
+        href: /windows/win32/api/wcntypes/ne-wcntypes-wcn_value_type_version
+      - name: "WCN_VALUE_TYPE_WI_FI_PROTECTED_SETUP_STATE"
+        href: /windows/win32/api/wcntypes/ne-wcntypes-wcn_value_type_wi_fi_protected_setup_state
+    - name: "Windows Connect Now Structures"
+      href: windows-connect-now-structures.md
+      items: 
+      - name: "WCN_VALUE_TYPE_PRIMARY_DEVICE_TYPE"
+        href: /windows/win32/api/wcntypes/ns-wcntypes-wcn_value_type_primary_device_type
+      - name: "WCN_VENDOR_EXTENSION_SPEC"
+        href: /windows/win32/api/Wcndevice/ns-wcndevice-wcn_vendor_extension_spec
+    - name: "Windows Connect Now Interfaces"
+      href: windows-connect-now-interfaces.md
+      items: 
+      - name: "IWCNConnectNotify"
+        href: /windows/desktop/api/WcnDevice/nn-wcndevice-iwcnconnectnotify
+        items: 
+        - name: "ConnectFailed Method"
+          href: /windows/desktop/api/WcnDevice/nf-wcndevice-iwcnconnectnotify-connectfailed
+        - name: "ConnectSucceeded Method"
+          href: /windows/desktop/api/WcnDevice/nf-wcndevice-iwcnconnectnotify-connectsucceeded
+      - name: "IWCNDevice"
+        href: /windows/desktop/api/WcnDevice/nn-wcndevice-iwcndevice
+        items: 
+        - name: "Connect Method"
+          href: /windows/desktop/api/WcnDevice/nf-wcndevice-iwcndevice-connect
+        - name: "GetAttribute Method"
+          href: /windows/desktop/api/WcnDevice/nf-wcndevice-iwcndevice-getattribute
+        - name: "GetIntegerAttribute Method"
+          href: /windows/desktop/api/WcnDevice/nf-wcndevice-iwcndevice-getintegerattribute
+        - name: "GetNetworkProfile Method"
+          href: /windows/desktop/api/WcnDevice/nf-wcndevice-iwcndevice-getnetworkprofile
+        - name: "GetStringAttribute Method"
+          href: /windows/desktop/api/WcnDevice/nf-wcndevice-iwcndevice-getstringattribute
+        - name: "GetVendorExtension Method"
+          href: /windows/desktop/api/WcnDevice/nf-wcndevice-iwcndevice-getvendorextension
+        - name: "SetNetworkProfile Method"
+          href: /windows/desktop/api/WcnDevice/nf-wcndevice-iwcndevice-setnetworkprofile
+        - name: "SetPassword Method"
+          href: /windows/desktop/api/WcnDevice/nf-wcndevice-iwcndevice-setpassword
+        - name: "SetVendorExtension Method"
+          href: /windows/desktop/api/WcnDevice/nf-wcndevice-iwcndevice-setvendorextension
+        - name: "Unadvise Method"
+          href: /windows/desktop/api/WcnDevice/nf-wcndevice-iwcndevice-unadvise

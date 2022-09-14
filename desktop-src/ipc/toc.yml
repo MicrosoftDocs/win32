@@ -1,0 +1,170 @@
+- name: "Interprocess Communications"
+  href: interprocess-communications.md
+  items: 
+  - name: "Mailslots"
+    href: mailslots.md
+    items: 
+    - name: "About Mailslots"
+      href: about-mailslots.md
+      items: 
+      - name: "Mailslot Names"
+        href: mailslot-names.md
+      - name: "Mailslot Operations"
+        href: mailslot-operations.md
+    - name: "Using Mailslots"
+      href: using-mailslots.md
+      items: 
+      - name: "Creating a Mailslot"
+        href: creating-a-mailslot.md
+      - name: "Writing to a Mailslot"
+        href: writing-to-a-mailslot.md
+      - name: "Reading from a Mailslot"
+        href: reading-from-a-mailslot.md
+    - name: "Mailslot Reference"
+      href: mailslot-reference.md
+      items: 
+      - name: "Mailslot Functions"
+        href: mailslot-functions.md
+        items: 
+        - name: "CreateMailslot"
+          href: /windows/desktop/api/Winbase/nf-winbase-createmailslota
+        - name: "GetMailslotInfo"
+          href: /windows/desktop/api/Winbase/nf-winbase-getmailslotinfo
+        - name: "SetMailslotInfo"
+          href: /windows/desktop/api/Winbase/nf-winbase-setmailslotinfo
+  - name: "Network Dynamic Data Exchange"
+    href: network-dynamic-data-exchange.md
+    items: 
+    - name: "About Network DDE"
+      href: about-network-dde.md
+      items: 
+      - name: "Network DDE Agent"
+        href: network-dde-agent.md
+      - name: "DDE Shares"
+        href: dde-shares.md
+      - name: "Trusted Shares and Security"
+        href: trusted-shares-and-security.md
+      - name: "Managing DDE Shares"
+        href: managing-dde-shares.md
+    - name: "Network DDE Reference"
+      href: network-dde-reference.md
+      items: 
+      - name: "Network DDE Functions"
+        href: network-dde-functions.md
+        items: 
+        - name: "NDdeGetErrorString"
+          href: nddegeterrorstring.md
+        - name: "NDdeGetShareSecurity"
+          href: nddegetsharesecurity.md
+        - name: "NDdeGetTrustedShare"
+          href: nddegettrustedshare.md
+        - name: "NDdeIsValidAppTopicList"
+          href: nddeisvalidapptopiclist.md
+        - name: "NDdeIsValidShareName"
+          href: nddeisvalidsharename.md
+        - name: "NDdeSetShareSecurity"
+          href: nddesetsharesecurity.md
+        - name: "NDdeSetTrustedShare"
+          href: nddesettrustedshare.md
+        - name: "NDdeShareAdd"
+          href: nddeshareadd.md
+        - name: "NDdeShareDel"
+          href: nddesharedel.md
+        - name: "NDdeShareEnum"
+          href: nddeshareenum.md
+        - name: "NDdeShareGetInfo"
+          href: nddesharegetinfo.md
+        - name: "NDdeShareSetInfo"
+          href: nddesharesetinfo.md
+        - name: "NDdeTrustedShareEnum"
+          href: nddetrustedshareenum.md
+      - name: "Network DDE Structures"
+        href: network-dde-structures.md
+        items: 
+        - name: "NDDESHAREINFO"
+          href: nddeshareinfo-str.md
+  - name: "Pipes"
+    href: pipes.md
+    items: 
+    - name: "About Pipes"
+      href: about-pipes.md
+      items: 
+      - name: "Anonymous Pipes"
+        href: anonymous-pipes.md
+        items: 
+        - name: "Anonymous Pipe Operations"
+          href: anonymous-pipe-operations.md
+        - name: "Pipe Handle Inheritance"
+          href: pipe-handle-inheritance.md
+        - name: "Anonymous Pipe Security and Access Rights"
+          href: anonymous-pipe-security-and-access-rights.md
+      - name: "Named Pipes"
+        href: named-pipes.md
+        items: 
+        - name: "Pipe Names"
+          href: pipe-names.md
+        - name: "Named Pipe Open Modes"
+          href: named-pipe-open-modes.md
+        - name: "Named Pipe Type, Read, and Wait Modes"
+          href: named-pipe-type-read-and-wait-modes.md
+        - name: "Named Pipe Instances"
+          href: named-pipe-instances.md
+        - name: "Named Pipe Operations"
+          href: named-pipe-operations.md
+        - name: "Synchronous and Overlapped Pipe I/O"
+          href: synchronous-and-overlapped-input-and-output.md
+        - name: "Named Pipe Security and Access Rights"
+          href: named-pipe-security-and-access-rights.md
+        - name: "Impersonating a Named Pipe Client"
+          href: impersonating-a-named-pipe-client.md
+    - name: "Using Pipes"
+      href: using-pipes.md
+      items: 
+      - name: "Multithreaded Pipe Server"
+        href: multithreaded-pipe-server.md
+      - name: "Named Pipe Server Using Overlapped I/O"
+        href: named-pipe-server-using-overlapped-i-o.md
+      - name: "Named Pipe Server Using Completion Routines"
+        href: named-pipe-server-using-completion-routines.md
+      - name: "Named Pipe Client"
+        href: named-pipe-client.md
+      - name: "Transactions on Named Pipes"
+        href: transactions-on-named-pipes.md
+    - name: "Pipe Reference"
+      href: pipe-reference.md
+      items: 
+      - name: "Pipe Functions"
+        href: pipe-functions.md
+        items: 
+        - name: "CallNamedPipe"
+          href: /windows/desktop/api/Winbase/nf-winbase-callnamedpipea
+        - name: "ConnectNamedPipe"
+          href: /windows/desktop/api/namedpipeapi/nf-namedpipeapi-connectnamedpipe
+        - name: "CreateNamedPipe"
+          href: /windows/desktop/api/Winbase/nf-winbase-createnamedpipea
+        - name: "CreatePipe"
+          href: /windows/desktop/api/namedpipeapi/nf-namedpipeapi-createpipe
+        - name: "DisconnectNamedPipe"
+          href: /windows/desktop/api/namedpipeapi/nf-namedpipeapi-disconnectnamedpipe
+        - name: "GetNamedPipeClientComputerName"
+          href: /windows/desktop/api/Winbase/nf-winbase-getnamedpipeclientcomputernamea
+        - name: "GetNamedPipeClientProcessId"
+          href: /windows/desktop/api/Winbase/nf-winbase-getnamedpipeclientprocessid
+        - name: "GetNamedPipeClientSessionId"
+          href: /windows/desktop/api/Winbase/nf-winbase-getnamedpipeclientsessionid
+        - name: "GetNamedPipeHandleState"
+          href: /windows/desktop/api/Winbase/nf-winbase-getnamedpipehandlestatea
+        - name: "GetNamedPipeInfo"
+          href: /windows/desktop/api/namedpipeapi/nf-namedpipeapi-getnamedpipeinfo
+        - name: "GetNamedPipeServerProcessId"
+          href: /windows/desktop/api/Winbase/nf-winbase-getnamedpipeserverprocessid
+        - name: "GetNamedPipeServerSessionId"
+          href: /windows/desktop/api/Winbase/nf-winbase-getnamedpipeserversessionid
+        - name: "PeekNamedPipe"
+          href: /windows/desktop/api/namedpipeapi/nf-namedpipeapi-peeknamedpipe
+        - name: "SetNamedPipeHandleState"
+          href: /windows/desktop/api/namedpipeapi/nf-namedpipeapi-setnamedpipehandlestate
+        - name: "TransactNamedPipe"
+          href: /windows/desktop/api/namedpipeapi/nf-namedpipeapi-transactnamedpipe
+        - name: "WaitNamedPipe"
+          href: /windows/desktop/api/Winbase/nf-winbase-waitnamedpipea

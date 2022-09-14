@@ -1,0 +1,1142 @@
+- name: "Virtual Disk Service"
+  href: virtual-disk-service-portal.md
+  items: 
+  - name: "About VDS"
+    href: about-vds.md
+    items: 
+    - name: "What's New in VDS in Windows Server 2008 R2 and Windows 7"
+      href: what-s-new-in-vds-in-windows-server-2008-r2-and-windows-7.md
+    - name: "VDS Object Model"
+      href: vds-object-model.md
+      items: 
+      - name: "Startup and Service Objects"
+        href: startup-and-service-objects.md
+      - name: "Helper Objects"
+        href: helper-objects.md
+      - name: "Provider Object"
+        href: provider-object.md
+      - name: "Software Provider Objects"
+        href: software-provider-objects.md
+        items: 
+        - name: "Pack Object"
+          href: pack-object.md
+        - name: "Disk Object"
+          href: disk-object.md
+        - name: "Volume Object"
+          href: volume-object.md
+        - name: "Volume Plex Object"
+          href: volume-plex-object.md
+      - name: "Hardware Provider Objects"
+        href: hardware-provider-objects.md
+        items: 
+        - name: "Subsystem Object"
+          href: subsystem-object.md
+        - name: "Controller Object"
+          href: controller-object.md
+        - name: "Controller Port Object"
+          href: controller-port-object.md
+        - name: "Drive Object"
+          href: drive-object.md
+        - name: "LUN Object"
+          href: lun-object.md
+        - name: "LUN Plex Object"
+          href: lun-plex-object.md
+        - name: "Target Object"
+          href: target-object.md
+        - name: "Portal Object"
+          href: portal-object.md
+        - name: "Portal Group Object"
+          href: portal-group-object.md
+        - name: "Storage Pool Object"
+          href: storage-pool-object.md
+    - name: "Configuration Overview"
+      href: configuration.md
+      items: 
+      - name: "Volume and LUN Binding"
+        href: volume-and-lun-binding.md
+      - name: "Configuration Stacking"
+        href: configuration-stacking.md
+      - name: "Hot Sparing"
+        href: hot-sparing.md
+    - name: "VDS Notifications"
+      href: vds-notification-model.md
+  - name: "Using VDS"
+    href: using-vds.md
+    items: 
+    - name: "Loading VDS"
+      href: loading-vds.md
+    - name: "Working with Enumeration Objects"
+      href: working-with-enumeration-objects.md
+    - name: "Managing Asynchronous Operations"
+      href: managing-asynchronous-operations.md
+    - name: "Reenumerating and Refreshing"
+      href: reenumerating-and-refreshing.md
+    - name: "Adding Foreign Disks to a Pack"
+      href: adding-foreign-disks-to-a-pack.md
+    - name: "Adding a Drive Letter to a LUN"
+      href: adding-a-drive-letter-to-a-lun.md
+  - name: "VDS Reference"
+    href: vds-reference.md
+    items: 
+    - name: "VDS Constants"
+      href: vds-constants.md
+    - name: "VDS Data Types"
+      href: vds-data-types.md
+    - name: "VDS Enumerations"
+      href: vds-enumerations.md
+      items: 
+      - name: "tag_VDS_PARTITION_STYLE"
+        href: /windows/win32/api/Vds/ne-vds-vds_partition_style
+      - name: "VDS_ASYNC_OUTPUT_TYPE"
+        href: /windows/win32/api/Vds/ne-vds-vds_async_output_type
+      - name: "VDS_CONTROLLER_STATUS"
+        href: /windows/win32/api/Vds/ne-vds-vds_controller_status
+      - name: "VDS_DISK_EXTENT_TYPE"
+        href: /windows/win32/api/Vds/ne-vds-vds_disk_extent_type
+      - name: "VDS_DISK_FLAG"
+        href: /windows/win32/api/Vds/ne-vds-vds_disk_flag
+      - name: "VDS_DISK_OFFLINE_REASON"
+        href: /windows/win32/api/Vds/ne-vds-vds_disk_offline_reason
+      - name: "VDS_DISK_STATUS"
+        href: /windows/win32/api/Vds/ne-vds-vds_disk_status
+      - name: "VDS_DRIVE_FLAG"
+        href: /windows/win32/api/Vds/ne-vds-vds_drive_flag
+      - name: "VDS_DRIVE_LETTER_FLAG"
+        href: /windows/win32/api/Vds/ne-vds-vds_drive_letter_flag
+      - name: "VDS_DRIVE_STATUS"
+        href: /windows/win32/api/Vds/ne-vds-vds_drive_status
+      - name: "VDS_FILE_SYSTEM_FLAG"
+        href: /windows/win32/api/Vds/ne-vds-vds_file_system_flag
+      - name: "VDS_FILE_SYSTEM_FORMAT_SUPPORT_FLAG"
+        href: /windows/win32/api/Vds/ne-vds-vds_file_system_format_support_flag
+      - name: "VDS_FILE_SYSTEM_PROP_FLAG"
+        href: /windows/win32/api/Vds/ne-vds-vds_file_system_prop_flag
+      - name: "VDS_FILE_SYSTEM_TYPE"
+        href: /windows/win32/api/Vds/ne-vds-vds_file_system_type
+      - name: "VDS_FORMAT_OPTION_FLAGS"
+        href: /windows/win32/api/Vds/ne-vds-vds_format_option_flags
+      - name: "VDS_HBAPORT_SPEED_FLAG"
+        href: /windows/win32/api/Vds/ne-vds-vds_hbaport_speed_flag
+      - name: "VDS_HBAPORT_STATUS"
+        href: /windows/win32/api/Vds/ne-vds-vds_hbaport_status
+      - name: "VDS_HBAPORT_TYPE"
+        href: /windows/win32/api/Vds/ne-vds-vds_hbaport_type
+      - name: "VDS_HEALTH"
+        href: /windows/win32/api/Vds/ne-vds-vds_health
+      - name: "VDS_HWPROVIDER_TYPE"
+        href: /windows/win32/api/Vds/ne-vds-vds_hwprovider_type
+      - name: "VDS_INTERCONNECT_ADDRESS_TYPE"
+        href: /windows/win32/api/VdsLun/ne-vdslun-vds_interconnect_address_type
+      - name: "VDS_INTERCONNECT_FLAG"
+        href: /windows/win32/api/Vds/ne-vds-vds_interconnect_flag
+      - name: "VDS_IPADDRESS_TYPE"
+        href: /windows/desktop/api/Vds/ne-vds-vds_ipaddress_type
+      - name: "VDS_ISCSI_AUTH_TYPE"
+        href: /windows/win32/api/Vds/ne-vds-vds_iscsi_auth_type
+      - name: "VDS_ISCSI_IPSEC_FLAG"
+        href: /windows/win32/api/Vds/ne-vds-vds_iscsi_ipsec_flag
+      - name: "VDS_ISCSI_LOGIN_FLAG"
+        href: /windows/win32/api/Vds/ne-vds-vds_iscsi_login_flag
+      - name: "VDS_ISCSI_LOGIN_TYPE"
+        href: /windows/win32/api/Vds/ne-vds-vds_iscsi_login_type
+      - name: "VDS_ISCSI_PORTAL_STATUS"
+        href: /windows/win32/api/Vds/ne-vds-vds_iscsi_portal_status
+      - name: "VDS_LOADBALANCE_POLICY_ENUM"
+        href: /windows/win32/api/Vds/ne-vds-vds_loadbalance_policy_enum
+      - name: "VDS_LUN_FLAG"
+        href: /windows/win32/api/Vds/ne-vds-vds_lun_flag
+      - name: "VDS_LUN_PLEX_FLAG"
+        href: /windows/win32/api/Vds/ne-vds-vds_lun_plex_flag
+      - name: "VDS_LUN_PLEX_STATUS"
+        href: /windows/win32/api/Vds/ne-vds-vds_lun_plex_status
+      - name: "VDS_LUN_PLEX_TYPE"
+        href: /windows/win32/api/Vds/ne-vds-vds_lun_plex_type
+      - name: "VDS_LUN_RESERVE_MODE"
+        href: /windows/win32/api/Vds/ne-vds-vds_lun_reserve_mode
+      - name: "VDS_LUN_STATUS"
+        href: /windows/win32/api/Vds/ne-vds-vds_lun_status
+      - name: "VDS_LUN_TYPE"
+        href: /windows/win32/api/Vds/ne-vds-vds_lun_type
+      - name: "VDS_MAINTENANCE_OPERATION"
+        href: /windows/win32/api/Vds/ne-vds-vds_maintenance_operation
+      - name: "VDS_NOTIFICATION_TARGET_TYPE"
+        href: /windows/win32/api/Vds/ne-vds-vds_notification_target_type
+      - name: "VDS_OBJECT_TYPE"
+        href: /windows/win32/api/Vds/ne-vds-vds_object_type
+      - name: "VDS_PACK_FLAG"
+        href: /windows/win32/api/Vds/ne-vds-vds_pack_flag
+      - name: "VDS_PACK_STATUS"
+        href: /windows/win32/api/Vds/ne-vds-vds_pack_status
+      - name: "VDS_PARTITION_FLAG"
+        href: /windows/win32/api/Vds/ne-vds-vds_partition_flag
+      - name: "VDS_PARTITION_STYLE"
+        href: /windows/win32/api/Vds/ne-vds-vds_partition_style
+      - name: "VDS_PATH_STATUS"
+        href: /windows/win32/api/Vds/ne-vds-vds_path_status
+      - name: "VDS_PORT_STATUS"
+        href: /windows/win32/api/Vds/ne-vds-vds_port_status
+      - name: "VDS_PROVIDER_FLAG"
+        href: /windows/win32/api/Vds/ne-vds-vds_provider_flag
+      - name: "VDS_PROVIDER_LBSUPPORT_FLAG"
+        href: /windows/win32/api/Vds/ne-vds-vds_provider_lbsupport_flag
+      - name: "VDS_PROVIDER_TYPE"
+        href: /windows/win32/api/Vds/ne-vds-vds_provider_type
+      - name: "VDS_QUERY_PROVIDER_FLAG"
+        href: /windows/win32/api/Vds/ne-vds-vds_query_provider_flag
+      - name: "VDS_RAID_TYPE"
+        href: /windows/win32/api/Vds/ne-vds-vds_raid_type
+      - name: "VDS_RECOVER_ACTION"
+        href: /windows/win32/api/Vds/ne-vds-vds_recover_action
+      - name: "VDS_SAN_POLICY"
+        href: /windows/win32/api/Vds/ne-vds-vds_san_policy
+      - name: "VDS_SERVICE_FLAG"
+        href: /windows/win32/api/Vds/ne-vds-vds_service_flag
+      - name: "VDS_STORAGE_BUS_TYPE"
+        href: /windows/win32/api/VdsLun/ne-vdslun-vds_storage_bus_type
+      - name: "VDS_STORAGE_IDENTIFIER_CODE_SET"
+        href: /windows/win32/api/VdsLun/ne-vdslun-vds_storage_identifier_code_set
+      - name: "VDS_STORAGE_IDENTIFIER_TYPE"
+        href: /windows/win32/api/VdsLun/ne-vdslun-vds_storage_identifier_type
+      - name: "VDS_STORAGE_POOL_STATUS"
+        href: /windows/win32/api/Vds/ne-vds-vds_storage_pool_status
+      - name: "VDS_STORAGE_POOL_TYPE"
+        href: /windows/win32/api/Vds/ne-vds-vds_storage_pool_type
+      - name: "VDS_SUB_SYSTEM_FLAG"
+        href: /windows/win32/api/Vds/ne-vds-vds_sub_system_flag
+      - name: "VDS_SUB_SYSTEM_STATUS"
+        href: /windows/win32/api/Vds/ne-vds-vds_sub_system_status
+      - name: "VDS_SUB_SYSTEM_SUPPORTED_RAID_TYPE_FLAG"
+        href: /windows/win32/api/Vds/ne-vds-vds_sub_system_supported_raid_type_flag
+      - name: "VDS_TRANSITION_STATE"
+        href: /windows/win32/api/Vds/ne-vds-vds_transition_state
+      - name: "VDS_VDISK_STATE"
+        href: /windows/win32/api/Vds/ne-vds-vds_vdisk_state
+      - name: "VDS_VERSION_SUPPORT_FLAG"
+        href: /windows/win32/api/Vds/ne-vds-vds_version_support_flag
+      - name: "VDS_VOLUME_FLAG"
+        href: /windows/win32/api/Vds/ne-vds-vds_volume_flag
+      - name: "VDS_VOLUME_PLEX_STATUS"
+        href: /windows/win32/api/Vds/ne-vds-vds_volume_plex_status
+      - name: "VDS_VOLUME_PLEX_TYPE"
+        href: /windows/win32/api/Vds/ne-vds-vds_volume_plex_type
+      - name: "VDS_VOLUME_STATUS"
+        href: /windows/win32/api/Vds/ne-vds-vds_volume_status
+      - name: "VDS_VOLUME_TYPE"
+        href: /windows/win32/api/Vds/ne-vds-vds_volume_type
+    - name: "VDS Interfaces"
+      href: vds-interfaces.md
+      items: 
+      - name: "IEnumVdsObject"
+        href: /windows/desktop/api/Vds/nn-vds-ienumvdsobject
+        items: 
+        - name: "Clone Method"
+          href: /windows/desktop/api/Vds/nf-vds-ienumvdsobject-clone
+        - name: "Next Method"
+          href: /windows/desktop/api/Vds/nf-vds-ienumvdsobject-next
+        - name: "Reset Method"
+          href: /windows/desktop/api/Vds/nf-vds-ienumvdsobject-reset
+        - name: "Skip Method"
+          href: /windows/desktop/api/Vds/nf-vds-ienumvdsobject-skip
+      - name: "IVdsAdmin"
+        href: /windows/desktop/api/VdsHwPrv/nn-vdshwprv-ivdsadmin
+        items: 
+        - name: "RegisterProvider Method"
+          href: /windows/desktop/api/VdsHwPrv/nf-vdshwprv-ivdsadmin-registerprovider
+        - name: "UnregisterProvider Method"
+          href: /windows/desktop/api/VdsHwPrv/nf-vdshwprv-ivdsadmin-unregisterprovider
+      - name: "IVdsAdvancedDisk"
+        href: /windows/desktop/api/Vds/nn-vds-ivdsadvanceddisk
+        items: 
+        - name: "AssignDriveLetter Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsadvanceddisk-assigndriveletter
+        - name: "ChangeAttributes Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsadvanceddisk-changeattributes
+        - name: "Clean Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsadvanceddisk-clean
+        - name: "CreatePartition Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsadvanceddisk-createpartition
+        - name: "DeleteDriveLetter Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsadvanceddisk-deletedriveletter
+        - name: "DeletePartition Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsadvanceddisk-deletepartition
+        - name: "FormatPartition Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsadvanceddisk-formatpartition
+        - name: "GetDriveLetter Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsadvanceddisk-getdriveletter
+        - name: "GetPartitionProperties Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsadvanceddisk-getpartitionproperties
+        - name: "QueryPartitions Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsadvanceddisk-querypartitions
+      - name: "IVdsAdvancedDisk2"
+        href: /windows/desktop/api/Vds/nn-vds-ivdsadvanceddisk2
+        items: 
+        - name: "ChangePartitionType Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsadvanceddisk2-changepartitiontype
+      - name: "IVdsAdviseSink"
+        href: /windows/desktop/api/Vds/nn-vds-ivdsadvisesink
+        items: 
+        - name: "OnNotify Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsadvisesink-onnotify
+      - name: "IVdsAsync"
+        href: /windows/desktop/api/Vds/nn-vds-ivdsasync
+        items: 
+        - name: "Cancel Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsasync-cancel
+        - name: "QueryStatus Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsasync-querystatus
+        - name: "Wait Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsasync-wait
+      - name: "IVdsController"
+        href: /windows/desktop/api/Vds/nn-vds-ivdscontroller
+        items: 
+        - name: "FlushCache Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdscontroller-flushcache
+        - name: "GetPortProperties Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdscontroller-getportproperties
+        - name: "GetProperties Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdscontroller-getproperties
+        - name: "GetSubSystem Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdscontroller-getsubsystem
+        - name: "InvalidateCache Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdscontroller-invalidatecache
+        - name: "QueryAssociatedLuns Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdscontroller-queryassociatedluns
+        - name: "Reset Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdscontroller-reset
+        - name: "SetStatus Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdscontroller-setstatus
+      - name: "IVdsControllerControllerPort"
+        href: /windows/desktop/api/Vds/nn-vds-ivdscontrollercontrollerport
+        items: 
+        - name: "QueryControllerPorts Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdscontrollercontrollerport-querycontrollerports
+      - name: "IVdsControllerPort"
+        href: /windows/desktop/api/Vds/nn-vds-ivdscontrollerport
+        items: 
+        - name: "GetController Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdscontrollerport-getcontroller
+        - name: "GetProperties Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdscontrollerport-getproperties
+        - name: "QueryAssociatedLuns Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdscontrollerport-queryassociatedluns
+        - name: "Reset Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdscontrollerport-reset
+        - name: "SetStatus Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdscontrollerport-setstatus
+      - name: "IVdsCreatePartitionEx"
+        href: /windows/desktop/api/Vds/nn-vds-ivdscreatepartitionex
+        items: 
+        - name: "CreatePartitionEx Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdscreatepartitionex-createpartitionex
+      - name: "IVdsDisk"
+        href: /windows/desktop/api/Vds/nn-vds-ivdsdisk
+        items: 
+        - name: "ClearFlags Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsdisk-clearflags
+        - name: "ConvertStyle Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsdisk-convertstyle
+        - name: "GetIdentificationData Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsdisk-getidentificationdata
+        - name: "GetPack Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsdisk-getpack
+        - name: "GetProperties Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsdisk-getproperties
+        - name: "QueryExtents Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsdisk-queryextents
+        - name: "SetFlags Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsdisk-setflags
+      - name: "IVdsDisk2"
+        href: /windows/desktop/api/Vds/nn-vds-ivdsdisk2
+        items: 
+        - name: "SetSANMode Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsdisk2-setsanmode
+      - name: "IVdsDisk3"
+        href: /windows/desktop/api/Vds/nn-vds-ivdsdisk3
+        items: 
+        - name: "GetProperties2 Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsdisk3-getproperties2
+        - name: "QueryFreeExtents Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsdisk3-queryfreeextents
+      - name: "IVdsDiskOnline"
+        href: /windows/desktop/api/Vds/nn-vds-ivdsdiskonline
+        items: 
+        - name: "Offline Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsdiskonline-offline
+        - name: "Online Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsdiskonline-online
+      - name: "IVdsDiskPartitionMF"
+        href: /windows/desktop/api/Vds/nn-vds-ivdsdiskpartitionmf
+        items: 
+        - name: "FormatPartitionEx Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsdiskpartitionmf-formatpartitionex
+        - name: "GetPartitionFileSystemProperties Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsdiskpartitionmf-getpartitionfilesystemproperties
+        - name: "GetPartitionFileSystemTypeName Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsdiskpartitionmf-getpartitionfilesystemtypename
+        - name: "QueryPartitionFileSystemFormatSupport Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsdiskpartitionmf-querypartitionfilesystemformatsupport
+      - name: "IVdsDiskPartitionMF2"
+        href: /windows/desktop/api/Vds/nn-vds-ivdsdiskpartitionmf2
+        items: 
+        - name: "FormatPartitionEx2 Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsdiskpartitionmf2-formatpartitionex2
+      - name: "IVdsDrive"
+        href: /windows/desktop/api/Vds/nn-vds-ivdsdrive
+        items: 
+        - name: "ClearFlags Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsdrive-clearflags
+        - name: "GetProperties Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsdrive-getproperties
+        - name: "GetSubSystem Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsdrive-getsubsystem
+        - name: "QueryExtents Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsdrive-queryextents
+        - name: "SetFlags Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsdrive-setflags
+        - name: "SetStatus Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsdrive-setstatus
+      - name: "IVdsDrive2"
+        href: /windows/desktop/api/Vds/nn-vds-ivdsdrive2
+        items: 
+        - name: "GetProperties2 Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsdrive2-getproperties2
+      - name: "IVdsHbaPort"
+        href: /windows/desktop/api/Vds/nn-vds-ivdshbaport
+        items: 
+        - name: "GetProperties Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdshbaport-getproperties
+        - name: "SetAllPathStatuses Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdshbaport-setallpathstatuses
+      - name: "IVdsHwProvider"
+        href: /windows/desktop/api/Vds/nn-vds-ivdshwprovider
+        items: 
+        - name: "QuerySubSystems Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdshwprovider-querysubsystems
+        - name: "Reenumerate Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdshwprovider-reenumerate
+        - name: "Refresh Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdshwprovider-refresh
+      - name: "IVdsHwProviderPrivate"
+        href: /windows/desktop/api/VdsHwPrv/nn-vdshwprv-ivdshwproviderprivate
+        items: 
+        - name: "QueryIfCreatedLun Method"
+          href: /windows/desktop/api/VdsHwPrv/nf-vdshwprv-ivdshwproviderprivate-queryifcreatedlun
+      - name: "IVdsHwProviderPrivateMpio"
+        href: /windows/desktop/api/VdsHwPrv/nn-vdshwprv-ivdshwproviderprivatempio
+        items: 
+        - name: "SetAllPathStatusesFromHbaPort Method"
+          href: /windows/desktop/api/VdsHwPrv/nf-vdshwprv-ivdshwproviderprivatempio-setallpathstatusesfromhbaport
+      - name: "IVdsHwProviderStoragePools"
+        href: /windows/desktop/api/Vds/nn-vds-ivdshwproviderstoragepools
+        items: 
+        - name: "CreateLunInStoragePool Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdshwproviderstoragepools-createluninstoragepool
+        - name: "QueryMaxLunCreateSizeInStoragePool Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdshwproviderstoragepools-querymaxluncreatesizeinstoragepool
+        - name: "QueryStoragePools Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdshwproviderstoragepools-querystoragepools
+      - name: "IVdsHwProviderType"
+        href: /windows/desktop/api/Vds/nn-vds-ivdshwprovidertype
+        items: 
+        - name: "GetProviderType Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdshwprovidertype-getprovidertype
+      - name: "IVdsHwProviderType2"
+        href: /windows/desktop/api/Vds/nn-vds-ivdshwprovidertype2
+        items: 
+        - name: "GetProviderType2 Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdshwprovidertype2-getprovidertype2
+      - name: "IVdsIscsiInitiatorAdapter"
+        href: /windows/desktop/api/Vds/nn-vds-ivdsiscsiinitiatoradapter
+        items: 
+        - name: "GetProperties Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsiscsiinitiatoradapter-getproperties
+        - name: "LoginToTarget Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsiscsiinitiatoradapter-logintotarget
+        - name: "LogoutFromTarget Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsiscsiinitiatoradapter-logoutfromtarget
+        - name: "QueryInitiatorPortals Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsiscsiinitiatoradapter-queryinitiatorportals
+      - name: "IVdsIscsiInitiatorPortal"
+        href: /windows/desktop/api/Vds/nn-vds-ivdsiscsiinitiatorportal
+        items: 
+        - name: "GetInitiatorAdapter Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsiscsiinitiatorportal-getinitiatoradapter
+        - name: "GetIpsecSecurity Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsiscsiinitiatorportal-getipsecsecurity
+        - name: "GetProperties Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsiscsiinitiatorportal-getproperties
+        - name: "SetIpsecSecurity Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsiscsiinitiatorportal-setipsecsecurity
+        - name: "SetIpsecTunnelAddress Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsiscsiinitiatorportal-setipsectunneladdress
+      - name: "IVdsIscsiPortal"
+        href: /windows/desktop/api/Vds/nn-vds-ivdsiscsiportal
+        items: 
+        - name: "GetIpsecSecurity Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsiscsiportal-getipsecsecurity
+        - name: "GetProperties Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsiscsiportal-getproperties
+        - name: "GetSubSystem Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsiscsiportal-getsubsystem
+        - name: "QueryAssociatedPortalGroups Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsiscsiportal-queryassociatedportalgroups
+        - name: "SetIpsecSecurity Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsiscsiportal-setipsecsecurity
+        - name: "SetIpsecTunnelAddress Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsiscsiportal-setipsectunneladdress
+        - name: "SetStatus Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsiscsiportal-setstatus
+      - name: "IVdsIscsiPortalGroup"
+        href: /windows/desktop/api/Vds/nn-vds-ivdsiscsiportalgroup
+        items: 
+        - name: "AddPortal Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsiscsiportalgroup-addportal
+        - name: "Delete Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsiscsiportalgroup-delete
+        - name: "GetProperties Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsiscsiportalgroup-getproperties
+        - name: "GetTarget Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsiscsiportalgroup-gettarget
+        - name: "QueryAssociatedPortals Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsiscsiportalgroup-queryassociatedportals
+        - name: "RemovePortal Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsiscsiportalgroup-removeportal
+      - name: "IVdsIscsiPortalLocal"
+        href: /windows/desktop/api/Vds/nn-vds-ivdsiscsiportallocal
+        items: 
+        - name: "SetIpsecSecurityLocal Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsiscsiportallocal-setipsecsecuritylocal
+      - name: "IVdsIscsiTarget"
+        href: /windows/desktop/api/Vds/nn-vds-ivdsiscsitarget
+        items: 
+        - name: "CreatePortalGroup Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsiscsitarget-createportalgroup
+        - name: "Delete Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsiscsitarget-delete
+        - name: "GetConnectedInitiators Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsiscsitarget-getconnectedinitiators
+        - name: "GetProperties Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsiscsitarget-getproperties
+        - name: "GetSubSystem Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsiscsitarget-getsubsystem
+        - name: "QueryAssociatedLuns Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsiscsitarget-queryassociatedluns
+        - name: "QueryPortalGroups Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsiscsitarget-queryportalgroups
+        - name: "RememberInitiatorSharedSecret Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsiscsitarget-rememberinitiatorsharedsecret
+        - name: "SetFriendlyName Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsiscsitarget-setfriendlyname
+        - name: "SetSharedSecret Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsiscsitarget-setsharedsecret
+      - name: "IVdsLun"
+        href: /windows/desktop/api/Vds/nn-vds-ivdslun
+        items: 
+        - name: "AddPlex Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdslun-addplex
+        - name: "ApplyHints Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdslun-applyhints
+        - name: "AssociateControllers Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdslun-associatecontrollers
+        - name: "Delete Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdslun-delete
+        - name: "Extend Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdslun-extend
+        - name: "GetIdentificationData Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdslun-getidentificationdata
+        - name: "GetProperties Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdslun-getproperties
+        - name: "GetSubSystem Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdslun-getsubsystem
+        - name: "QueryActiveControllers Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdslun-queryactivecontrollers
+        - name: "QueryHints Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdslun-queryhints
+        - name: "QueryPlexes Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdslun-queryplexes
+        - name: "Recover Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdslun-recover
+        - name: "RemovePlex Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdslun-removeplex
+        - name: "SetMask Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdslun-setmask
+        - name: "SetStatus Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdslun-setstatus
+        - name: "Shrink Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdslun-shrink
+        - name: "QueryMaxLunExtendSize Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdslun-querymaxlunextendsize
+      - name: "IVdsLun2"
+        href: /windows/desktop/api/Vds/nn-vds-ivdslun2
+        items: 
+        - name: "ApplyHints2 Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdslun2-applyhints2
+        - name: "QueryHints2 Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdslun2-queryhints2
+      - name: "IVdsLunControllerPorts"
+        href: /windows/desktop/api/Vds/nn-vds-ivdsluncontrollerports
+        items: 
+        - name: "AssociateControllerPorts Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsluncontrollerports-associatecontrollerports
+        - name: "QueryActiveControllerPorts Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsluncontrollerports-queryactivecontrollerports
+      - name: "IVdsLunIscsi"
+        href: /windows/desktop/api/Vds/nn-vds-ivdsluniscsi
+        items: 
+        - name: "AssociateTargets Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsluniscsi-associatetargets
+        - name: "QueryAssociatedTargets Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsluniscsi-queryassociatedtargets
+      - name: "IVdsLunMpio"
+        href: /windows/desktop/api/Vds/nn-vds-ivdslunmpio
+        items: 
+        - name: "GetLoadBalancePolicy Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdslunmpio-getloadbalancepolicy
+        - name: "GetPathInfo Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdslunmpio-getpathinfo
+        - name: "GetSupportedLbPolicies Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdslunmpio-getsupportedlbpolicies
+        - name: "SetLoadBalancePolicy Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdslunmpio-setloadbalancepolicy
+      - name: "IVdsLunNaming"
+        href: /windows/desktop/api/Vds/nn-vds-ivdslunnaming
+        items: 
+        - name: "SetFriendlyName Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdslunnaming-setfriendlyname
+      - name: "IVdsLunNumber"
+        href: /windows/desktop/api/Vds/nn-vds-ivdslunnumber
+        items: 
+        - name: "GetLunNumber Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdslunnumber-getlunnumber
+      - name: "IVdsLunPlex"
+        href: /windows/desktop/api/Vds/nn-vds-ivdslunplex
+        items: 
+        - name: "ApplyHints Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdslunplex-applyhints
+        - name: "GetLun Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdslunplex-getlun
+        - name: "GetProperties Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdslunplex-getproperties
+        - name: "QueryExtents Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdslunplex-queryextents
+        - name: "QueryHints Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdslunplex-queryhints
+      - name: "IVdsMaintenance"
+        href: /windows/desktop/api/Vds/nn-vds-ivdsmaintenance
+        items: 
+        - name: "PulseMaintenance Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsmaintenance-pulsemaintenance
+        - name: "StartMaintenance Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsmaintenance-startmaintenance
+        - name: "StopMaintenance Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsmaintenance-stopmaintenance
+      - name: "IVdsOpenVDisk"
+        href: /windows/desktop/api/Vds/nn-vds-ivdsopenvdisk
+        items: 
+        - name: "Attach Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsopenvdisk-attach
+        - name: "Compact Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsopenvdisk-compact
+        - name: "Detach Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsopenvdisk-detach
+        - name: "DetachAndDelete Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsopenvdisk-detachanddelete
+        - name: "Expand Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsopenvdisk-expand
+        - name: "Merge Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsopenvdisk-merge
+      - name: "IVdsPack"
+        href: /windows/desktop/api/Vds/nn-vds-ivdspack
+        items: 
+        - name: "AddDisk Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdspack-adddisk
+        - name: "CreateVolume Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdspack-createvolume
+        - name: "GetProperties Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdspack-getproperties
+        - name: "GetProvider Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdspack-getprovider
+        - name: "MigrateDisks Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdspack-migratedisks
+        - name: "QueryDisks Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdspack-querydisks
+        - name: "QueryVolumes Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdspack-queryvolumes
+        - name: "Recover Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdspack-recover
+        - name: "RemoveMissingDisk Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdspack-removemissingdisk
+        - name: "ReplaceDisk Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdspack-replacedisk
+      - name: "IVdsPack2"
+        href: /windows/desktop/api/Vds/nn-vds-ivdspack2
+        items: 
+        - name: "CreateVolume2 Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdspack2-createvolume2
+      - name: "IVdsProvider"
+        href: /windows/desktop/api/Vds/nn-vds-ivdsprovider
+        items: 
+        - name: "GetProperties Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsprovider-getproperties
+      - name: "IVdsProviderPrivate"
+        href: /windows/desktop/api/VdsHwPrv/nn-vdshwprv-ivdsproviderprivate
+        items: 
+        - name: "GetObject Method"
+          href: /windows/desktop/api/VdsHwPrv/nf-vdshwprv-ivdsproviderprivate-getobject
+        - name: "OnLoad Method"
+          href: /windows/desktop/api/VdsHwPrv/nf-vdshwprv-ivdsproviderprivate-onload
+        - name: "OnUnload Method"
+          href: /windows/desktop/api/VdsHwPrv/nf-vdshwprv-ivdsproviderprivate-onunload
+      - name: "IVdsProviderSupport"
+        href: /windows/desktop/api/Vds/nn-vds-ivdsprovidersupport
+        items: 
+        - name: "GetVersionSupport Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsprovidersupport-getversionsupport
+      - name: "IVdsRemovable"
+        href: /windows/desktop/api/Vds/nn-vds-ivdsremovable
+        items: 
+        - name: "Eject Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsremovable-eject
+        - name: "QueryMedia Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsremovable-querymedia
+      - name: "IVdsService"
+        href: /windows/desktop/api/Vds/nn-vds-ivdsservice
+        items: 
+        - name: "Advise Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsservice-advise
+        - name: "CleanupObsoleteMountPoints Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsservice-cleanupobsoletemountpoints
+        - name: "ClearFlags Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsservice-clearflags
+        - name: "GetObject Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsservice-getobject
+        - name: "GetProperties Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsservice-getproperties
+        - name: "IsServiceReady Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsservice-isserviceready
+        - name: "QueryDriveLetters Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsservice-querydriveletters
+        - name: "QueryFileSystemTypes Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsservice-queryfilesystemtypes
+        - name: "QueryMaskedDisks Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsservice-querymaskeddisks
+        - name: "QueryProviders Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsservice-queryproviders
+        - name: "QueryUnallocatedDisks Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsservice-queryunallocateddisks
+        - name: "Reboot Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsservice-reboot
+        - name: "Reenumerate Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsservice-reenumerate
+        - name: "Refresh Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsservice-refresh
+        - name: "SetFlags Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsservice-setflags
+        - name: "Unadvise Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsservice-unadvise
+        - name: "WaitForServiceReady Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsservice-waitforserviceready
+      - name: "IVdsServiceHba"
+        href: /windows/desktop/api/Vds/nn-vds-ivdsservicehba
+        items: 
+        - name: "QueryHbaPorts Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsservicehba-queryhbaports
+      - name: "IVdsServiceInitialization"
+        href: /windows/desktop/api/vds/nn-vds-ivdsserviceinitialization
+      - name: "IVdsServiceIscsi"
+        href: /windows/desktop/api/Vds/nn-vds-ivdsserviceiscsi
+        items: 
+        - name: "GetInitiatorName Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsserviceiscsi-getinitiatorname
+        - name: "QueryInitiatorAdapters Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsserviceiscsi-queryinitiatoradapters
+        - name: "RememberTargetSharedSecret Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsserviceiscsi-remembertargetsharedsecret
+        - name: "SetAllIpsecSecurity Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsserviceiscsi-setallipsecsecurity
+        - name: "SetAllIpsecTunnelAddresses Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsserviceiscsi-setallipsectunneladdresses
+        - name: "SetInitiatorSharedSecret Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsserviceiscsi-setinitiatorsharedsecret
+        - name: "SetIpsecGroupPresharedKey Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsserviceiscsi-setipsecgrouppresharedkey
+      - name: "IVdsServiceLoader"
+        href: /windows/desktop/api/Vds/nn-vds-ivdsserviceloader
+        items: 
+        - name: "LoadService Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsserviceloader-loadservice
+      - name: "IVdsServiceSAN"
+        href: /windows/desktop/api/Vds/nn-vds-ivdsservicesan
+        items: 
+        - name: "GetSANPolicy Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsservicesan-getsanpolicy
+        - name: "SetSANPolicy Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsservicesan-setsanpolicy
+      - name: "IVdsServiceUninstallDisk"
+        href: /windows/desktop/api/Vds/nn-vds-ivdsserviceuninstalldisk
+        items: 
+        - name: "GetDiskIdFromLunInfo Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsserviceuninstalldisk-getdiskidfromluninfo
+        - name: "UninstallDisks Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsserviceuninstalldisk-uninstalldisks
+      - name: "IVdsStoragePool"
+        href: /windows/desktop/api/Vds/nn-vds-ivdsstoragepool
+        items: 
+        - name: "GetAttributes Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsstoragepool-getattributes
+        - name: "GetProperties Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsstoragepool-getproperties
+        - name: "GetProvider Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsstoragepool-getprovider
+        - name: "QueryAllocatedLuns Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsstoragepool-queryallocatedluns
+        - name: "QueryAllocatedStoragePools Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsstoragepool-queryallocatedstoragepools
+        - name: "QueryDriveExtents Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsstoragepool-querydriveextents
+      - name: "IVdsSubSystem"
+        href: /windows/desktop/api/Vds/nn-vds-ivdssubsystem
+        items: 
+        - name: "CreateLun Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdssubsystem-createlun
+        - name: "GetDrive Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdssubsystem-getdrive
+        - name: "GetProperties Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdssubsystem-getproperties
+        - name: "GetProvider Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdssubsystem-getprovider
+        - name: "QueryControllers Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdssubsystem-querycontrollers
+        - name: "QueryDrives Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdssubsystem-querydrives
+        - name: "QueryLuns Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdssubsystem-queryluns
+        - name: "Reenumerate Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdssubsystem-reenumerate
+        - name: "ReplaceDrive Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdssubsystem-replacedrive
+        - name: "SetControllerStatus Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdssubsystem-setcontrollerstatus
+        - name: "SetStatus Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdssubsystem-setstatus
+        - name: "QueryMaxLunCreateSize Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdssubsystem-querymaxluncreatesize
+      - name: "IVdsSubSystem2"
+        href: /windows/desktop/api/Vds/nn-vds-ivdssubsystem2
+        items: 
+        - name: "CreateLun2 Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdssubsystem2-createlun2
+        - name: "GetDrive2 Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdssubsystem2-getdrive2
+        - name: "GetProperties2 Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdssubsystem2-getproperties2
+        - name: "QueryMaxLunCreateSize2 Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdssubsystem2-querymaxluncreatesize2
+      - name: "IVdsSubSystemImportTarget"
+        href: /windows/desktop/api/Vds/nn-vds-ivdssubsystemimporttarget
+        items: 
+        - name: "GetImportTarget Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdssubsystemimporttarget-getimporttarget
+        - name: "SetImportTarget Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdssubsystemimporttarget-setimporttarget
+      - name: "IVdsSubSystemInterconnect"
+        href: /windows/desktop/api/Vds/nn-vds-ivdssubsysteminterconnect
+        items: 
+        - name: "GetSupportedInterconnects Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdssubsysteminterconnect-getsupportedinterconnects
+      - name: "IVdsSubSystemIscsi"
+        href: /windows/desktop/api/Vds/nn-vds-ivdssubsystemiscsi
+        items: 
+        - name: "CreateTarget Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdssubsystemiscsi-createtarget
+        - name: "QueryPortals Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdssubsystemiscsi-queryportals
+        - name: "QueryTargets Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdssubsystemiscsi-querytargets
+        - name: "SetIpsecGroupPresharedKey Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdssubsystemiscsi-setipsecgrouppresharedkey
+      - name: "IVdsSubSystemNaming"
+        href: /windows/desktop/api/Vds/nn-vds-ivdssubsystemnaming
+        items: 
+        - name: "SetFriendlyName Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdssubsystemnaming-setfriendlyname
+      - name: "IVdsSwProvider"
+        href: /windows/desktop/api/Vds/nn-vds-ivdsswprovider
+        items: 
+        - name: "CreatePack Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsswprovider-createpack
+        - name: "QueryPacks Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsswprovider-querypacks
+      - name: "IVdsVDisk"
+        href: /windows/desktop/api/Vds/nn-vds-ivdsvdisk
+        items: 
+        - name: "GetDeviceName Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsvdisk-getdevicename
+        - name: "GetHostVolume Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsvdisk-gethostvolume
+        - name: "GetProperties Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsvdisk-getproperties
+        - name: "Open Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsvdisk-open
+      - name: "IVdsVdProvider"
+        href: /windows/desktop/api/Vds/nn-vds-ivdsvdprovider
+        items: 
+        - name: "AddVDisk Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsvdprovider-addvdisk
+        - name: "CreateVDisk Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsvdprovider-createvdisk
+        - name: "GetDiskFromVDisk Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsvdprovider-getdiskfromvdisk
+        - name: "GetVDiskFromDisk Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsvdprovider-getvdiskfromdisk
+        - name: "QueryVDisks Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsvdprovider-queryvdisks
+      - name: "IVdsVolume"
+        href: /windows/desktop/api/Vds/nn-vds-ivdsvolume
+        items: 
+        - name: "AddPlex Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsvolume-addplex
+        - name: "BreakPlex Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsvolume-breakplex
+        - name: "ClearFlags Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsvolume-clearflags
+        - name: "Delete Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsvolume-delete
+        - name: "Extend Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsvolume-extend
+        - name: "GetPack Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsvolume-getpack
+        - name: "GetProperties Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsvolume-getproperties
+        - name: "QueryPlexes Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsvolume-queryplexes
+        - name: "RemovePlex Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsvolume-removeplex
+        - name: "SetFlags Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsvolume-setflags
+        - name: "Shrink Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsvolume-shrink
+      - name: "IVdsVolume2"
+        href: /windows/desktop/api/Vds/nn-vds-ivdsvolume2
+        items: 
+        - name: "GetProperties2 Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsvolume2-getproperties2
+      - name: "IVdsVolumeMF"
+        href: /windows/desktop/api/Vds/nn-vds-ivdsvolumemf
+        items: 
+        - name: "AddAccessPath Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsvolumemf-addaccesspath
+        - name: "ClearFileSystemFlags Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsvolumemf-clearfilesystemflags
+        - name: "DeleteAccessPath Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsvolumemf-deleteaccesspath
+        - name: "Dismount Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsvolumemf-dismount
+        - name: "Format Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsvolumemf-format
+        - name: "GetFileSystemProperties Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsvolumemf-getfilesystemproperties
+        - name: "Mount Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsvolumemf-mount
+        - name: "QueryAccessPaths Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsvolumemf-queryaccesspaths
+        - name: "QueryReparsePoints Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsvolumemf-queryreparsepoints
+        - name: "SetFileSystemFlags Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsvolumemf-setfilesystemflags
+      - name: "IVdsVolumeMF2"
+        href: /windows/desktop/api/Vds/nn-vds-ivdsvolumemf2
+        items: 
+        - name: "FormatEx Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsvolumemf2-formatex
+        - name: "GetFileSystemTypeName Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsvolumemf2-getfilesystemtypename
+        - name: "QueryFileSystemFormatSupport Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsvolumemf2-queryfilesystemformatsupport
+      - name: "IVdsVolumeMF3"
+        href: /windows/desktop/api/Vds/nn-vds-ivdsvolumemf3
+        items: 
+        - name: "FormatEx2 Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsvolumemf3-formatex2
+        - name: "OfflineVolume Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsvolumemf3-offlinevolume
+        - name: "QueryVolumeGuidPathnames Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsvolumemf3-queryvolumeguidpathnames
+      - name: "IVdsVolumeOnline"
+        href: /windows/desktop/api/Vds/nn-vds-ivdsvolumeonline
+        items: 
+        - name: "Online Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsvolumeonline-online
+      - name: "IVdsVolumePlex"
+        href: /windows/desktop/api/Vds/nn-vds-ivdsvolumeplex
+        items: 
+        - name: "GetProperties Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsvolumeplex-getproperties
+        - name: "GetVolume Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsvolumeplex-getvolume
+        - name: "QueryExtents Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsvolumeplex-queryextents
+        - name: "Repair Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsvolumeplex-repair
+      - name: "IVdsVolumeShrink"
+        href: /windows/desktop/api/Vds/nn-vds-ivdsvolumeshrink
+        items: 
+        - name: "QueryMaxReclaimableBytes Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsvolumeshrink-querymaxreclaimablebytes
+        - name: "Shrink Method"
+          href: /windows/desktop/api/Vds/nf-vds-ivdsvolumeshrink-shrink
+    - name: "VDS Structures"
+      href: vds-structures.md
+      items: 
+      - name: "CHANGE_ATTRIBUTES_PARAMETERS"
+        href: /windows/win32/api/Vds/ns-vds-change_attributes_parameters
+      - name: "CHANGE_PARTITION_TYPE_PARAMETERS"
+        href: /windows/win32/api/Vds/ns-vds-change_partition_type_parameters
+      - name: "CREATE_PARTITION_PARAMETERS"
+        href: /windows/win32/api/Vds/ns-vds-create_partition_parameters
+      - name: "VDS_ASYNC_OUTPUT"
+        href: /windows/win32/api/Vds/ns-vds-vds_async_output
+      - name: "VDS_CONTROLLER_NOTIFICATION"
+        href: /windows/win32/api/Vds/ns-vds-vds_controller_notification
+      - name: "VDS_CONTROLLER_PROP"
+        href: /windows/win32/api/Vds/ns-vds-vds_controller_prop
+      - name: "VDS_CREATE_VDISK_PARAMETERS"
+        href: /windows/win32/api/Vds/ns-vds-vds_create_vdisk_parameters
+      - name: "VDS_DISK_EXTENT"
+        href: /windows/win32/api/Vds/ns-vds-vds_disk_extent
+      - name: "VDS_DISK_FREE_EXTENT"
+        href: /windows/win32/api/Vds/ns-vds-vds_disk_free_extent
+      - name: "VDS_DISK_NOTIFICATION"
+        href: /windows/win32/api/Vds/ns-vds-vds_disk_notification
+      - name: "VDS_DISK_PROP"
+        href: /windows/win32/api/Vds/ns-vds-vds_disk_prop
+      - name: "VDS_DISK_PROP2"
+        href: /windows/win32/api/Vds/ns-vds-vds_disk_prop2
+      - name: "VDS_DRIVE_EXTENT"
+        href: /windows/win32/api/Vds/ns-vds-vds_drive_extent
+      - name: "VDS_DRIVE_LETTER_NOTIFICATION"
+        href: /windows/win32/api/Vds/ns-vds-vds_drive_letter_notification
+      - name: "VDS_DRIVE_LETTER_PROP"
+        href: /windows/win32/api/Vds/ns-vds-vds_drive_letter_prop
+      - name: "VDS_DRIVE_NOTIFICATION"
+        href: /windows/win32/api/Vds/ns-vds-vds_drive_notification
+      - name: "VDS_DRIVE_PROP"
+        href: /windows/win32/api/Vds/ns-vds-vds_drive_prop
+      - name: "VDS_DRIVE_PROP2"
+        href: /windows/win32/api/Vds/ns-vds-vds_drive_prop2
+      - name: "VDS_FILE_SYSTEM_FORMAT_SUPPORT_PROP"
+        href: /windows/win32/api/Vds/ns-vds-vds_file_system_format_support_prop
+      - name: "VDS_FILE_SYSTEM_NOTIFICATION"
+        href: /windows/win32/api/Vds/ns-vds-vds_file_system_notification
+      - name: "VDS_FILE_SYSTEM_PROP"
+        href: /windows/win32/api/Vds/ns-vds-vds_file_system_prop
+      - name: "VDS_FILE_SYSTEM_TYPE_PROP"
+        href: /windows/win32/api/Vds/ns-vds-vds_file_system_type_prop
+      - name: "VDS_HBAPORT_PROP"
+        href: /windows/win32/api/Vds/ns-vds-vds_hbaport_prop
+      - name: "VDS_HINTS"
+        href: /windows/win32/api/Vds/ns-vds-vds_hints
+      - name: "VDS_HINTS2"
+        href: /windows/win32/api/Vds/ns-vds-vds_hints2
+      - name: "VDS_INPUT_DISK"
+        href: /windows/win32/api/Vds/ns-vds-vds_input_disk
+      - name: "VDS_INTERCONNECT"
+        href: /windows/win32/api/VdsLun/ns-vdslun-vds_interconnect
+      - name: "VDS_IPADDRESS"
+        href: /windows/win32/api/Vds/ns-vds-vds_ipaddress
+      - name: "VDS_ISCSI_INITIATOR_ADAPTER_PROP"
+        href: /windows/win32/api/Vds/ns-vds-vds_iscsi_initiator_adapter_prop
+      - name: "VDS_ISCSI_INITIATOR_PORTAL_PROP"
+        href: /windows/win32/api/Vds/ns-vds-vds_iscsi_initiator_portal_prop
+      - name: "VDS_ISCSI_IPSEC_KEY"
+        href: /windows/win32/api/Vds/ns-vds-vds_iscsi_ipsec_key
+      - name: "VDS_ISCSI_PORTAL_PROP"
+        href: /windows/win32/api/Vds/ns-vds-vds_iscsi_portal_prop
+      - name: "VDS_ISCSI_PORTALGROUP_PROP"
+        href: /windows/win32/api/Vds/ns-vds-vds_iscsi_portalgroup_prop
+      - name: "VDS_ISCSI_SHARED_SECRET"
+        href: /windows/win32/api/Vds/ns-vds-vds_iscsi_shared_secret
+      - name: "VDS_ISCSI_TARGET_PROP"
+        href: /windows/win32/api/Vds/ns-vds-vds_iscsi_target_prop
+      - name: "VDS_LUN_INFORMATION"
+        href: /windows/win32/api/VdsLun/ns-vdslun-vds_lun_information
+      - name: "VDS_LUN_NOTIFICATION"
+        href: /windows/win32/api/Vds/ns-vds-vds_lun_notification
+      - name: "VDS_LUN_PLEX_PROP"
+        href: /windows/win32/api/Vds/ns-vds-vds_lun_plex_prop
+      - name: "VDS_LUN_PROP"
+        href: /windows/win32/api/Vds/ns-vds-vds_lun_prop
+      - name: "VDS_MOUNT_POINT_NOTIFICATION"
+        href: /windows/win32/api/Vds/ns-vds-vds_mount_point_notification
+      - name: "VDS_NOTIFICATION"
+        href: /windows/win32/api/Vds/ns-vds-vds_notification
+      - name: "VDS_PACK_NOTIFICATION"
+        href: /windows/win32/api/Vds/ns-vds-vds_pack_notification
+      - name: "VDS_PACK_PROP"
+        href: /windows/win32/api/Vds/ns-vds-vds_pack_prop
+      - name: "VDS_PARTITION_INFO_GPT"
+        href: /windows/win32/api/Vds/ns-vds-vds_partition_info_gpt
+      - name: "VDS_PARTITION_INFO_MBR"
+        href: /windows/win32/api/Vds/ns-vds-vds_partition_info_mbr
+      - name: "VDS_PARTITION_INFORMATION_EX"
+        href: /windows/win32/api/vds/ns-vds-vds_partition_information_ex
+      - name: "VDS_PARTITION_NOTIFICATION"
+        href: /windows/win32/api/Vds/ns-vds-vds_partition_notification
+      - name: "VDS_PARTITION_PROP"
+        href: /windows/win32/api/Vds/ns-vds-vds_partition_prop
+      - name: "VDS_PATH_ID"
+        href: /windows/win32/api/Vds/ns-vds-vds_path_id
+      - name: "VDS_PATH_INFO"
+        href: /windows/win32/api/Vds/ns-vds-vds_path_info
+      - name: "VDS_PATH_POLICY"
+        href: /windows/win32/api/Vds/ns-vds-vds_path_policy
+      - name: "VDS_POOL_ATTRIBUTES"
+        href: /windows/win32/api/Vds/ns-vds-vds_pool_attributes
+      - name: "VDS_POOL_CUSTOM_ATTRIBUTES"
+        href: /windows/win32/api/Vds/ns-vds-vds_pool_custom_attributes
+      - name: "VDS_PORT_NOTIFICATION"
+        href: /windows/win32/api/Vds/ns-vds-vds_port_notification
+      - name: "VDS_PORT_PROP"
+        href: /windows/win32/api/Vds/ns-vds-vds_port_prop
+      - name: "VDS_PORTAL_GROUP_NOTIFICATION"
+        href: /windows/win32/api/Vds/ns-vds-vds_portal_group_notification
+      - name: "VDS_PORTAL_NOTIFICATION"
+        href: /windows/win32/api/Vds/ns-vds-vds_portal_notification
+      - name: "VDS_PROVIDER_PROP"
+        href: /windows/win32/api/Vds/ns-vds-vds_provider_prop
+      - name: "VDS_REPARSE_POINT_PROP"
+        href: /windows/desktop/api/Vds/ns-vds-vds_reparse_point_prop
+      - name: "VDS_SERVICE_PROP"
+        href: /windows/win32/api/Vds/ns-vds-vds_service_prop
+      - name: "VDS_STORAGE_DEVICE_ID_DESCRIPTOR"
+        href: /windows/win32/api/VdsLun/ns-vdslun-vds_storage_device_id_descriptor
+      - name: "VDS_STORAGE_IDENTIFIER"
+        href: /windows/win32/api/VdsLun/ns-vdslun-vds_storage_identifier
+      - name: "VDS_STORAGE_POOL_DRIVE_EXTENT"
+        href: /windows/win32/api/Vds/ns-vds-vds_storage_pool_drive_extent
+      - name: "VDS_STORAGE_POOL_PROP"
+        href: /windows/win32/api/Vds/ns-vds-vds_storage_pool_prop
+      - name: "VDS_SUB_SYSTEM_NOTIFICATION"
+        href: /windows/win32/api/Vds/ns-vds-vds_sub_system_notification
+      - name: "VDS_SUB_SYSTEM_PROP"
+        href: /windows/win32/api/Vds/ns-vds-vds_sub_system_prop
+      - name: "VDS_SUB_SYSTEM_PROP2"
+        href: /windows/win32/api/Vds/ns-vds-vds_sub_system_prop2
+      - name: "VDS_TARGET_NOTIFICATION"
+        href: /windows/win32/api/Vds/ns-vds-vds_target_notification
+      - name: "VDS_VDISK_PROPERTIES"
+        href: /windows/win32/api/Vds/ns-vds-vds_vdisk_properties
+      - name: "VDS_VOLUME_NOTIFICATION"
+        href: /windows/win32/api/Vds/ns-vds-vds_volume_notification
+      - name: "VDS_VOLUME_PLEX_PROP"
+        href: /windows/win32/api/Vds/ns-vds-vds_volume_plex_prop
+      - name: "VDS_VOLUME_PROP"
+        href: /windows/win32/api/Vds/ns-vds-vds_volume_prop
+      - name: "VDS_VOLUME_PROP2"
+        href: /windows/win32/api/Vds/ns-vds-vds_volume_prop2
+      - name: "VDS_WWN"
+        href: /windows/win32/api/Vds/ns-vds-vds_wwn
+    - name: "Virtual Disk Service Common Return Codes"
+      href: virtual-disk-service-common-return-codes.md
+    - name: "Virtual Disk Service Glossary"
+      href: virtual-disk-service-glossary-all.md

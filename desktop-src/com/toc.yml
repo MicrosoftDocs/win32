@@ -1,0 +1,3356 @@
+- name: "Component Object Model (COM)"
+  href: component-object-model--com--portal.md
+  items: 
+  - name: "COM Fundamentals"
+    href: com-fundamentals.md
+    items: 
+    - name: "Guide"
+      href: guide.md
+      items: 
+      - name: "What's New in COM"
+        href: what-s-new-in-com.md
+        items: 
+        - name: "Changes to COM in Windows 7"
+          href: changes-to-com-in-windows-7.md
+        - name: "Changes to COM in Windows Vista"
+          href: changes-to-com-in-windows-vista.md
+      - name: "The Component Object Model"
+        href: the-component-object-model.md
+        items: 
+        - name: "COM Technical Overview"
+          href: com-technical-overview.md
+        - name: "COM Objects and Interfaces"
+          href: com-objects-and-interfaces.md
+          items: 
+          - name: "Interfaces and Interface Implementations"
+            href: interfaces-and-interface-implementations.md
+          - name: "Interface Pointers and Interfaces"
+            href: interface-pointers-and-interfaces.md
+          - name: "IUnknown and Interface Inheritance"
+            href: iunknown-and-interface-inheritance.md
+        - name: "Using and Implementing IUnknown"
+          href: using-and-implementing-iunknown.md
+          items: 
+          - name: "QueryInterface: Navigating in an Object"
+            href: queryinterface--navigating-in-an-object.md
+          - name: "Rules for Implementing QueryInterface"
+            href: rules-for-implementing-queryinterface.md
+          - name: "Managing Object Lifetimes Through Reference Counting"
+            href: managing-object-lifetimes-through-reference-counting.md
+            items: 
+            - name: "Implementing Reference Counting"
+              href: implementing-reference-counting.md
+            - name: "Rules for Managing Reference Counts"
+              href: rules-for-managing-reference-counts.md
+        - name: "Reusing Objects"
+          href: reusing-objects.md
+          items: 
+          - name: "Containment/Delegation"
+            href: containment-delegation.md
+          - name: "Aggregation"
+            href: aggregation.md
+        - name: "The COM Library"
+          href: the-com-library.md
+        - name: "Managing Memory Allocation"
+          href: managing-memory-allocation.md
+          items: 
+          - name: "The OLE Memory Allocator"
+            href: the-ole-memory-allocator.md
+          - name: "Memory Management Rules"
+            href: memory-management-rules.md
+          - name: "Debugging Memory Allocations"
+            href: debugging-memory-allocations.md
+      - name: "Processes, Threads, and Apartments"
+        href: processes--threads--and-apartments.md
+        items: 
+        - name: "Choosing the Threading Model"
+          href: choosing-the-threading-model.md
+        - name: "Single-Threaded Apartments"
+          href: single-threaded-apartments.md
+        - name: "Multithreaded Apartments"
+          href: multithreaded-apartments.md
+        - name: "Single-Threaded and Multithreaded Communication"
+          href: single-threaded-and-multithreaded-communication.md
+        - name: "In-Process Server Threading Issues"
+          href: in-process-server-threading-issues.md
+        - name: "Accessing Interfaces Across Apartments"
+          href: accessing-interfaces-across-apartments.md
+          items: 
+          - name: "Creating the Global Interface Table"
+            href: creating-the-global-interface-table.md
+          - name: "When to Use the Global Interface Table"
+            href: when-to-use-the-global-interface-table.md
+      - name: "COM Clients and Servers"
+        href: com-clients-and-servers.md
+        items: 
+        - name: "Getting a Pointer to an Object"
+          href: getting-a-pointer-to-an-object.md
+        - name: "Creating an Object Through a Class Object"
+          href: creating-an-object-through-a-class-object.md
+          items: 
+          - name: "COM Class Objects and CLSIDs"
+            href: com-class-objects-and-clsids.md
+          - name: "Locating a Remote Object"
+            href: locating-a-remote-object.md
+          - name: "Instance Creation Helper Functions"
+            href: instance-creation-helper-functions.md
+        - name: "COM Server Responsibilities"
+          href: com-server-responsibilities.md
+          items: 
+          - name: "Implementing IClassFactory"
+            href: implementing-iclassfactory.md
+          - name: "Licensing and IClassFactory2"
+            href: licensing-and-iclassfactory2.md
+          - name: "Registering COM Servers"
+            href: registering-com-servers.md
+            items: 
+            - name: "Registering a Class at Installation"
+              href: registering-a-class-at-installation.md
+            - name: "Registering a Running EXE Server"
+              href: registering-a-running-exe-server.md
+            - name: "Registering Objects in the ROT"
+              href: registering-objects-in-the-rot.md
+            - name: "Self-Registration"
+              href: self-registration.md
+            - name: "Installing as a Service Application"
+              href: installing-as-a-service-application.md
+          - name: "Out-of-Process Server Implementation Helpers"
+            href: out-of-process-server-implementation-helpers.md
+          - name: "GUID Creation and Optimizations"
+            href: guid-creation-and-optimizations.md
+        - name: "Persistent Object State"
+          href: persistent-object-state.md
+          items: 
+          - name: "Persistent Object Interfaces"
+            href: persistent-object-interfaces.md
+          - name: "Initializing Persistent Objects"
+            href: initializing-persistent-objects.md
+        - name: "Providing Class Information"
+          href: providing-class-information.md
+        - name: "Inter-Object Communication"
+          href: inter-object-communication.md
+          items: 
+          - name: "Marshaling Details"
+            href: marshaling-details.md
+          - name: "Proxy"
+            href: proxy.md
+          - name: "Stub"
+            href: stub.md
+          - name: "Channel"
+            href: channel.md
+          - name: "Microsoft RPC"
+            href: microsoft-rpc.md
+      - name: "Making and Processing Asynchronous Calls"
+        href: making-and-processing-asynchronous-calls.md
+        items: 
+        - name: "Making an Asynchronous Call"
+          href: making-an-asynchronous-call.md
+          items: 
+          - name: "Client Security During an Asynchronous Call"
+            href: client-security-during-an-asynchronous-call.md
+          - name: "Impersonation and Asynchronous Calls"
+            href: impersonation-and-asynchronous-calls.md
+        - name: "Canceling an Asynchronous Call"
+          href: canceling-an-asynchronous-call.md
+        - name: "Canceling Method Calls"
+          href: canceling-method-calls.md
+        - name: "Call Synchronization"
+          href: call-synchronization.md
+      - name: "Defining COM Interfaces"
+        href: defining-com-interfaces.md
+        items: 
+        - name: "Interface Marshaling"
+          href: interface-marshaling.md
+        - name: "Anatomy of an IDL File"
+          href: anatomy-of-an-idl-file.md
+        - name: "MIDL Compilation"
+          href: midl-compilation.md
+        - name: "MIDL Compiler Options"
+          href: midl-compiler-options.md
+        - name: "Loading and Registering a Type Library"
+          href: loading-and-registering-a-type-library.md
+        - name: "Building and Registering a Proxy DLL"
+          href: building-and-registering-a-proxy-dll.md
+        - name: "Interface Design Rules"
+          href: interface-design-rules.md
+          items: 
+          - name: "Designing Remotable Interfaces"
+            href: designing-remotable-interfaces.md
+          - name: "Using a COM Interface"
+            href: using-a-com-interface.md
+      - name: "Registering COM Applications"
+        href: registering-com-applications.md
+        items: 
+        - name: "Registry Hierarchy"
+          href: registry-hierarchy.md
+        - name: "Classes and Servers"
+          href: classes-and-servers.md
+        - name: "Classifying Components"
+          href: classifying-components.md
+        - name: "Using OleView"
+          href: using-oleview.md
+        - name: "Registering Components"
+          href: registering-components.md
+        - name: "Checking Registration"
+          href: checking-registration.md
+        - name: "Unknown User Types"
+          href: unknown-user-types.md
+        - name: "COM Registry Keys"
+          href: com-registry-keys.md
+      - name: "Security in COM"
+        href: security-in-com.md
+        items: 
+        - name: "Determining Your Security Needs"
+          href: determining-your-security-needs.md
+        - name: "COM Security Defaults"
+          href: com-security-defaults.md
+        - name: "Activation Security"
+          href: activation-security.md
+        - name: "Security Values"
+          href: security-values.md
+          items: 
+          - name: "Authentication Level"
+            href: authentication-level.md
+          - name: "Delegation and Impersonation"
+            href: delegation-and-impersonation.md
+            items: 
+            - name: "Impersonation"
+              href: impersonation.md
+            - name: "Impersonation Levels"
+              href: impersonation-levels.md
+            - name: "Cloaking"
+              href: cloaking.md
+          - name: "Application Identity"
+            href: application-identity.md
+            items: 
+            - name: "Interactive User"
+              href: interactive-user.md
+            - name: "Launching User"
+              href: launching-user.md
+            - name: "Specified User"
+              href: specified-user.md
+            - name: "Service Identity"
+              href: service-identity.md
+          - name: "Software Restriction Policy"
+            href: software-restriction-policy.md
+          - name: "Reference Tracking"
+            href: reference-tracking.md
+        - name: "Setting Security for COM Applications"
+          href: setting-security-for-com-applications.md
+          items: 
+          - name: "Modifying the Security Defaults for a Computer"
+            href: modifying-the-security-defaults-for-a-computer.md
+            items: 
+            - name: "Registry Values for System-Wide Security"
+              href: registry-values-for-machine-wide-security.md
+            - name: "Setting System-Wide Security Using DCOMCNFG"
+              href: setting-machine-wide-security-using-dcomcnfg.md
+          - name: "Setting Process-Wide Security"
+            href: setting-processwide-security.md
+            items: 
+            - name: "Setting Process-Wide Security Using DCOMCNFG"
+              href: setting-processwide-security-using-dcomcnfg.md
+            - name: "Setting Process-Wide Security with CoInitializeSecurity"
+              href: setting-processwide-security-with-coinitializesecurity.md
+            - name: "Setting Process-Wide Security Through the Registry"
+              href: setting-processwide-security-through-the-registry.md
+          - name: "Setting Security at the Interface Proxy Level"
+            href: setting-security-at-the-interface-proxy-level.md
+        - name: "Enabling COM Security Using DCOMCNFG"
+          href: enabling-com-security-using-dcomcnfg.md
+        - name: "Turning Off Security"
+          href: turning-off-security.md
+          items: 
+          - name: "Turning Off Activation Security"
+            href: turning-off-activation-security.md
+          - name: "Turning Off Call Security"
+            href: turning-off-call-security.md
+        - name: "Server-Side Security"
+          href: server-side-security.md
+        - name: "Security Blanket Negotiation"
+          href: security-blanket-negotiation.md
+        - name: "COM and Security Packages"
+          href: com-and-security-packages.md
+          items: 
+          - name: "NTLMSSP"
+            href: ntlmssp.md
+          - name: "Kerberos v5 Protocol"
+            href: kerberos-v5-protocol.md
+          - name: "Schannel"
+            href: schannel.md
+          - name: "Snego"
+            href: snego.md
+        - name: "DCOM Security Enhancements in Windows XP Service Pack 2 and Windows Server 2003 Service Pack 1"
+          href: dcom-security-enhancements-in-windows-xp-service-pack-2-and-windows-server-2003-service-pack-1.md
+        - name: "Access Control Lists for COM"
+          href: access-control-lists-for-com.md
+        - name: "The COM Elevation Moniker"
+          href: the-com-elevation-moniker.md
+      - name: "Error Handling in COM"
+        href: error-handling-in-com.md
+        items: 
+        - name: "Structure of COM Error Codes"
+          href: structure-of-com-error-codes.md
+        - name: "Codes in FACILITY_ITF"
+          href: codes-in-facility-itf.md
+        - name: "Using Macros for Error Handling"
+          href: using-macros-for-error-handling.md
+        - name: "COM Error Handling in Java and Visual Basic"
+          href: com-error-handling-in-java-and-visual-basic.md
+          items: 
+          - name: "Returning Error Information"
+            href: returning-error-information.md
+          - name: "Retrieving Error Information"
+            href: retrieving-error-information.md
+        - name: "Error Handling Strategies"
+          href: error-handling-strategies.md
+        - name: "Handling Unknown Errors"
+          href: handling-unknown-errors.md
+      - name: "COM Handlers"
+        href: com-handlers.md
+        items: 
+        - name: "The OLE Handler"
+          href: the-ole-handler.md
+        - name: "The Lightweight Client-Side Handler"
+          href: the-lightweight-client-side-handler.md
+          items: 
+          - name: "Implementing and Activating a Handler with No Extra Server Data"
+            href: implementing-and-activating-a-handler-with-no-extra-server-data.md
+          - name: "Implementing and Activating a Handler with Extra Data Supplied by Server"
+            href: implementing-and-activating-a-handler-with-extra-data-supplied-by-server.md
+          - name: "Delegation of QueryInterface"
+            href: delegation-of-queryinterface.md
+      - name: "DLL Surrogates"
+        href: dll-surrogates.md
+        items: 
+        - name: "DLL Server Requirements"
+          href: dll-server-requirements.md
+          items: 
+          - name: "Surrogate Sharing"
+            href: surrogate-sharing.md
+          - name: "Registering the DLL Server for Surrogate Activation"
+            href: registering-the-dll-server-for-surrogate-activation.md
+        - name: "Using the System-Supplied Surrogate"
+          href: using-the-system-supplied-surrogate.md
+        - name: "Writing a Custom Surrogate"
+          href: writing-a-custom-surrogate.md
+      - name: "Monikers"
+        href: monikers.md
+        items: 
+        - name: "Moniker Clients"
+          href: moniker-clients.md
+        - name: "Moniker Providers"
+          href: moniker-providers.md
+        - name: "OLE Moniker Implementations"
+          href: ole-moniker-implementations.md
+          items: 
+          - name: "File Monikers"
+            href: file-monikers.md
+          - name: "Composite Monikers"
+            href: composite-monikers.md
+          - name: "Item Monikers"
+            href: item-monikers.md
+          - name: "Anti-Monikers"
+            href: anti-monikers.md
+          - name: "Pointer Monikers"
+            href: pointer-monikers.md
+          - name: "Class Monikers"
+            href: class-monikers.md
+          - name: "Asynchronous Monikers"
+            href: asynchronous-monikers.md
+            items: 
+            - name: "Asynchronous and Synchronous Monikers"
+              href: asynchronous-vs.-synchronous-monikers.md
+            - name: "Asynchronous and Synchronous Binding"
+              href: asynchronous-vs.-synchronous-binding.md
+            - name: "Asynchronous and Synchronous Storage"
+              href: asynchronous-vs.-synchronous-storage.md
+            - name: "Data-Pull Model and Data-Push Model"
+              href: data-pull-model-vs.-data-push-model.md
+          - name: "URL Monikers"
+            href: url-monikers.md
+            items: 
+            - name: "Callback Synchronization"
+              href: callback-synchronization.md
+            - name: "Media-Type Negotiation"
+              href: media-type-negotiation.md
+            - name: "URL Moniker Functions"
+              href: url-moniker-api-functions.md
+      - name: "Events in COM and Connectable Objects"
+        href: events-in-com-and-connectable-objects.md
+        items: 
+        - name: "Architecture of Connectable Objects"
+          href: architecture-of-connectable-objects.md
+        - name: "Connectable Object Interfaces"
+          href: connectable-object-interfaces.md
+          items: 
+          - name: "Using IConnectionPointContainer"
+            href: using-iconnectionpointcontainer.md
+          - name: "Using IConnectionPoint"
+            href: using-iconnectionpoint.md
+          - name: "Using IProvideClassInfo"
+            href: using-iprovideclassinfo.md
+      - name: "Component Categories Manager Implementation"
+        href: component-categories-manager-implementation.md
+        items: 
+        - name: "Categorizing by Component Capabilities"
+          href: categorizing-by-component-capabilities.md
+        - name: "Categorizing by Container Capabilities"
+          href: categorizing-by-container-capabilities.md
+        - name: "The Component Categories Manager"
+          href: the-component-categories-manager.md
+        - name: "Default Classes and Associations"
+          href: default-classes-and-associations.md
+        - name: "Defining Component Categories"
+          href: defining-component-categories.md
+        - name: "Associating Icons with a Category"
+          href: associating-icons-with-a-category.md
+    - name: "Reference"
+      href: reference.md
+      items: 
+      - name: "Constants"
+        href: constants.md
+        items: 
+        - name: "Access Flags"
+          href: com-access-flags.md
+        - name: "Authentication Level Constants"
+          href: com-authentication-level-constants.md
+        - name: "Authentication Service Constants"
+          href: com-authentication-service-constants.md
+        - name: "Authorization Constants"
+          href: com-authorization-constants.md
+        - name: "COM Error Codes"
+          href: com-error-codes.md
+          items: 
+          - name: "COM Error Codes (Generic)"
+            href: com-error-codes-1.md
+          - name: "COM Error Codes (XACT, SCHED, OLE)"
+            href: com-error-codes-2.md
+          - name: "COM Error Codes (STG, RPC)"
+            href: com-error-codes-3.md
+          - name: "COM Error Codes (Security and Setup)"
+            href: com-error-codes-4.md
+          - name: "COM Error Codes (COMADMIN, FILTER, GRAPHICS)"
+            href: com-error-codes-5.md
+          - name: "COM Error Codes (TPM, PLA, FVE)"
+            href: com-error-codes-6.md
+          - name: "COM Error Codes (FWP, WS, NDIS, HyperV)"
+            href: com-error-codes-7.md
+          - name: "COM Error Codes (VOLMGR, BCD, VHD, SDIAG)"
+            href: com-error-codes-8.md
+          - name: "COM Error Codes (WPN, MBN, P2P, Bluetooth)"
+            href: com-error-codes-9.md
+          - name: "COM Error Codes (UI, Audio, DirectX, Codec)"
+            href: com-error-codes-10.md
+        - name: "Impersonation Level Constants"
+          href: com-impersonation-level-constants.md
+      - name: "Enumerations"
+        href: enumerations.md
+        items: 
+        - name: "CWMO_FLAGS"
+          href: /windows/win32/api/combaseapi/ne-combaseapi-cwmo_flags
+        - name: "APTTYPE"
+          href: /windows/win32/api/objidl/ne-objidl-apttype
+        - name: "APTTYPEQUALIFIER"
+          href: /windows/win32/api/objidl/ne-objidl-apttypequalifier
+        - name: "BIND_FLAGS"
+          href: /windows/win32/api/Objidl/ne-objidl-bind_flags
+        - name: "BINDSPEED"
+          href: /windows/win32/api/Oleidl/ne-oleidl-bindspeed
+        - name: "CALLFRAME_COPY"
+          href: /windows/win32/api/CallObj/ne-callobj-callframe_copy
+        - name: "CALLFRAME_FREE"
+          href: /windows/win32/api/CallObj/ne-callobj-callframe_free
+        - name: "CALLFRAME_NULL"
+          href: /windows/win32/api/CallObj/ne-callobj-callframe_null
+        - name: "CALLFRAME_WALK"
+          href: /windows/win32/api/CallObj/ne-callobj-callframe_walk
+        - name: "CALLTYPE"
+          href: /windows/win32/api/Objidl/ne-objidl-calltype
+        - name: "CLSCTX"
+          href: /windows/win32/api/wtypesbase/ne-wtypesbase-clsctx
+        - name: "CO_MARSHALING_CONTEXT_ATTRIBUTES"
+          href: /windows/win32/api/objidl/ne-objidl-co_marshaling_context_attributes
+        - name: "COINIT"
+          href: /windows/win32/api/Objbase/ne-objbase-coinit
+        - name: "COMSD"
+          href: /windows/win32/api/Objbase/ne-objbase-comsd
+        - name: "COWAIT_FLAGS"
+          href: /windows/win32/api/combaseapi/ne-combaseapi-cowait_flags
+        - name: "EOC_ChangeType"
+          href: /windows/win32/api/EventSys/ne-eventsys-eoc_changetype
+        - name: "EOLE_AUTHENTICATION_CAPABILITIES"
+          href: /windows/win32/api/objidl/ne-objidl-eole_authentication_capabilities
+        - name: "EXTCONN"
+          href: /windows/win32/api/objidl/ne-objidl-extconn
+        - name: "GLOBALOPT_PROPERTIES"
+          href: /windows/win32/api/objidl/ne-objidl-globalopt_properties
+        - name: "GLOBALOPT_UNMARSHALING_POLICY_VALUES"
+          href: /windows/win32/api/objidl/ne-objidl-globalopt_unmarshaling_policy_values
+        - name: "MKRREDUCE"
+          href: /windows/win32/api/Objidl/ne-objidl-mkrreduce
+        - name: "MKSYS"
+          href: /windows/win32/api/Objidl/ne-objidl-mksys
+        - name: "MSHCTX"
+          href: /windows/win32/api/wtypesbase/ne-wtypesbase-mshctx
+        - name: "MSHLFLAGS"
+          href: /windows/win32/api/wtypesbase/ne-wtypesbase-mshlflags
+        - name: "PENDINGMSG"
+          href: /windows/win32/api/Objidl/ne-objidl-pendingmsg
+        - name: "PENDINGTYPE"
+          href: /windows/win32/api/Objidl/ne-objidl-pendingtype
+        - name: "RECORD_READING_POLICY"
+          href: /windows/win32/api/TxLogpub/ne-txlogpub-record_reading_policy
+        - name: "REGCLS"
+          href: /windows/win32/api/combaseapi/ne-combaseapi-regcls
+        - name: "SERVERCALL"
+          href: /windows/win32/api/Objidl/ne-objidl-servercall
+        - name: "THDTYPE"
+          href: /windows/win32/api/objidl/ne-objidl-thdtype
+        - name: "TYSPEC"
+          href: /windows/win32/api/WTypes/ne-wtypes-tyspec
+      - name: "Interfaces"
+        href: interfaces.md
+        items: 
+        - name: "IAccessibilityDockingService"
+          href: /windows/win32/api/shobjidl/nn-shobjidl-iaccessibilitydockingservice
+          items: 
+          - name: "GetAvailableSize method"
+            href: iaccessibilitydockingservice-getavailablesize.md
+          - name: "DockWindow method"
+            href: /windows/win32/api/shobjidl/nf-shobjidl-iaccessibilitydockingservice-dockwindow
+          - name: "UndockWindow method"
+            href: /windows/win32/api/shobjidl/nf-shobjidl-iaccessibilitydockingservice-undockwindow
+        - name: "IAccessibilityDockingServiceCallback"
+          href: /windows/win32/api/shobjidl/nn-shobjidl-iaccessibilitydockingservicecallback
+          items: 
+          - name: "Undocked method"
+            href: /windows/win32/api/shobjidl/nf-shobjidl-iaccessibilitydockingservicecallback-undocked
+        - name: "IAccessControl"
+          href: /windows/win32/api/IAccess/nn-iaccess-iaccesscontrol
+          items: 
+          - name: "GetAllAccessRights Method"
+            href: /windows/win32/api/IAccess/nf-iaccess-iaccesscontrol-getallaccessrights
+          - name: "GrantAccessRights Method"
+            href: /windows/win32/api/IAccess/nf-iaccess-iaccesscontrol-grantaccessrights
+          - name: "IsAccessAllowed Method"
+            href: /windows/win32/api/IAccess/nf-iaccess-iaccesscontrol-isaccessallowed
+          - name: "RevokeAccessRights Method"
+            href: /windows/win32/api/IAccess/nf-iaccess-iaccesscontrol-revokeaccessrights
+          - name: "SetAccessRights Method"
+            href: /windows/win32/api/IAccess/nf-iaccess-iaccesscontrol-setaccessrights
+          - name: "SetOwner Method"
+            href: /windows/win32/api/IAccess/nf-iaccess-iaccesscontrol-setowner
+        - name: "IAgileObject"
+          href: /windows/win32/api/objidl/nn-objidl-iagileobject
+        - name: "IBindCtx"
+          href: /windows/win32/api/ObjIdl/nn-objidl-ibindctx
+          items: 
+          - name: "EnumObjectParam Method"
+            href: /windows/win32/api/ObjIdl/nf-objidl-ibindctx-enumobjectparam
+          - name: "GetBindOptions Method"
+            href: /windows/win32/api/ObjIdl/nf-objidl-ibindctx-getbindoptions
+          - name: "GetObjectParam Method"
+            href: /windows/win32/api/ObjIdl/nf-objidl-ibindctx-getobjectparam
+          - name: "GetRunningObjectTable Method"
+            href: /windows/win32/api/ObjIdl/nf-objidl-ibindctx-getrunningobjecttable
+          - name: "RegisterObjectBound Method"
+            href: /windows/win32/api/ObjIdl/nf-objidl-ibindctx-registerobjectbound
+          - name: "RegisterObjectParam Method"
+            href: /windows/win32/api/ObjIdl/nf-objidl-ibindctx-registerobjectparam
+          - name: "ReleaseBoundObjects Method"
+            href: /windows/win32/api/ObjIdl/nf-objidl-ibindctx-releaseboundobjects
+          - name: "RevokeObjectBound Method"
+            href: /windows/win32/api/ObjIdl/nf-objidl-ibindctx-revokeobjectbound
+          - name: "RevokeObjectParam Method"
+            href: /windows/win32/api/ObjIdl/nf-objidl-ibindctx-revokeobjectparam
+          - name: "SetBindOptions Method"
+            href: /windows/win32/api/ObjIdl/nf-objidl-ibindctx-setbindoptions
+        - name: "IBlockingLock"
+          href: /windows/win32/api/ObjIdl/nn-objidl-iblockinglock
+          items: 
+          - name: "Lock Method"
+            href: /windows/win32/api/ObjIdl/nf-objidl-iblockinglock-lock
+          - name: "Unlock Method"
+            href: /windows/win32/api/ObjIdl/nf-objidl-iblockinglock-unlock
+        - name: "ICallFactory"
+          href: /windows/win32/api/objidl/nn-objidl-icallfactory
+          items: 
+          - name: "CreateCall Method"
+            href: /windows/win32/api/objidl/nf-objidl-icallfactory-createcall
+        - name: "ICallFrame"
+          href: /windows/win32/api/Callobj/nn-callobj-icallframe
+          items: 
+          - name: "Copy Method"
+            href: /windows/win32/api/Callobj/nf-callobj-icallframe-copy
+          - name: "Free Method"
+            href: /windows/win32/api/Callobj/nf-callobj-icallframe-free
+          - name: "FreeParam Method"
+            href: /windows/win32/api/Callobj/nf-callobj-icallframe-freeparam
+          - name: "GetIIDAndMethod Method"
+            href: /windows/win32/api/Callobj/nf-callobj-icallframe-getiidandmethod
+          - name: "GetInfo Method"
+            href: /windows/win32/api/Callobj/nf-callobj-icallframe-getinfo
+          - name: "GetMarshalSizeMax Method"
+            href: /windows/win32/api/Callobj/nf-callobj-icallframe-getmarshalsizemax
+          - name: "GetNames Method"
+            href: /windows/win32/api/Callobj/nf-callobj-icallframe-getnames
+          - name: "GetParam Method"
+            href: /windows/win32/api/Callobj/nf-callobj-icallframe-getparam
+          - name: "GetParamInfo Method"
+            href: /windows/win32/api/Callobj/nf-callobj-icallframe-getparaminfo
+          - name: "GetReturnValue Method"
+            href: /windows/win32/api/Callobj/nf-callobj-icallframe-getreturnvalue
+          - name: "GetStackLocation Method"
+            href: /windows/win32/api/Callobj/nf-callobj-icallframe-getstacklocation
+          - name: "Invoke Method"
+            href: /windows/win32/api/Callobj/nf-callobj-icallframe-invoke
+          - name: "Marshal Method"
+            href: /windows/win32/api/Callobj/nf-callobj-icallframe-marshal
+          - name: "ReleaseMarshalData Method"
+            href: /windows/win32/api/Callobj/nf-callobj-icallframe-releasemarshaldata
+          - name: "SetParam Method"
+            href: /windows/win32/api/Callobj/nf-callobj-icallframe-setparam
+          - name: "SetReturnValue Method"
+            href: /windows/win32/api/Callobj/nf-callobj-icallframe-setreturnvalue
+          - name: "SetStackLocation Method"
+            href: /windows/win32/api/Callobj/nf-callobj-icallframe-setstacklocation
+          - name: "Unmarshal Method"
+            href: /windows/win32/api/Callobj/nf-callobj-icallframe-unmarshal
+          - name: "WalkFrame Method"
+            href: /windows/win32/api/Callobj/nf-callobj-icallframe-walkframe
+        - name: "ICallFrameEvents"
+          href: /windows/win32/api/Callobj/nn-callobj-icallframeevents
+          items: 
+          - name: "OnCall Method"
+            href: /windows/win32/api/Callobj/nf-callobj-icallframeevents-oncall
+        - name: "ICallFrameWalker"
+          href: /windows/win32/api/Callobj/nn-callobj-icallframewalker
+          items: 
+          - name: "OnWalkInterface Method"
+            href: /windows/win32/api/Callobj/nf-callobj-icallframewalker-onwalkinterface
+        - name: "ICallIndirect"
+          href: /windows/win32/api/Callobj/nn-callobj-icallindirect
+          items: 
+          - name: "CallIndirect Method"
+            href: /windows/win32/api/Callobj/nf-callobj-icallindirect-callindirect
+          - name: "GetIID Method"
+            href: /windows/win32/api/Callobj/nf-callobj-icallindirect-getiid
+          - name: "GetMethodInfo Method"
+            href: /windows/win32/api/Callobj/nf-callobj-icallindirect-getmethodinfo
+          - name: "GetStackSize Method"
+            href: /windows/win32/api/Callobj/nf-callobj-icallindirect-getstacksize
+        - name: "ICallInterceptor"
+          href: /windows/win32/api/Callobj/nn-callobj-icallinterceptor
+          items: 
+          - name: "GetRegisteredSink Method"
+            href: /windows/win32/api/Callobj/nf-callobj-icallinterceptor-getregisteredsink
+          - name: "RegisterSink Method"
+            href: /windows/win32/api/Callobj/nf-callobj-icallinterceptor-registersink
+        - name: "ICallUnmarshal"
+          href: /windows/win32/api/Callobj/nn-callobj-icallunmarshal
+          items: 
+          - name: "ReleaseMarshalData Method"
+            href: /windows/win32/api/Callobj/nf-callobj-icallunmarshal-releasemarshaldata
+          - name: "Unmarshal Method"
+            href: /windows/win32/api/Callobj/nf-callobj-icallunmarshal-unmarshal
+        - name: "ICancelMethodCalls"
+          href: /windows/win32/api/objidl/nn-objidl-icancelmethodcalls
+          items: 
+          - name: "Cancel Method"
+            href: /windows/win32/api/objidl/nf-objidl-icancelmethodcalls-cancel
+          - name: "TestCancel Method"
+            href: /windows/win32/api/objidl/nf-objidl-icancelmethodcalls-testcancel
+        - name: "ICatInformation"
+          href: /windows/win32/api/ComCat/nn-comcat-icatinformation
+          items: 
+          - name: "EnumCategories Method"
+            href: /windows/win32/api/ComCat/nf-comcat-icatinformation-enumcategories
+          - name: "EnumClassesOfCategories Method"
+            href: /windows/win32/api/ComCat/nf-comcat-icatinformation-enumclassesofcategories
+          - name: "EnumImplCategoriesOfClass Method"
+            href: /windows/win32/api/ComCat/nf-comcat-icatinformation-enumimplcategoriesofclass
+          - name: "EnumReqCategoriesOfClass Method"
+            href: /windows/win32/api/ComCat/nf-comcat-icatinformation-enumreqcategoriesofclass
+          - name: "GetCategoryDesc Method"
+            href: /windows/win32/api/ComCat/nf-comcat-icatinformation-getcategorydesc
+          - name: "IsClassOfCategories Method"
+            href: /windows/win32/api/ComCat/nf-comcat-icatinformation-isclassofcategories
+        - name: "ICatRegister"
+          href: /windows/win32/api/ComCat/nn-comcat-icatregister
+          items: 
+          - name: "RegisterCategories Method"
+            href: /windows/win32/api/ComCat/nf-comcat-icatregister-registercategories
+          - name: "RegisterClassImplCategories Method"
+            href: /windows/win32/api/ComCat/nf-comcat-icatregister-registerclassimplcategories
+          - name: "RegisterClassReqCategories Method"
+            href: /windows/win32/api/ComCat/nf-comcat-icatregister-registerclassreqcategories
+          - name: "UnRegisterCategories Method"
+            href: /windows/win32/api/ComCat/nf-comcat-icatregister-unregistercategories
+          - name: "UnRegisterClassImplCategories Method"
+            href: /windows/win32/api/ComCat/nf-comcat-icatregister-unregisterclassimplcategories
+          - name: "UnRegisterClassReqCategories Method"
+            href: /windows/win32/api/ComCat/nf-comcat-icatregister-unregisterclassreqcategories
+        - name: "IClassActivator"
+          href: /windows/win32/api/ObjIdl/nn-objidl-iclassactivator
+          items: 
+          - name: "GetClassObject Method"
+            href: /windows/win32/api/ObjIdl/nf-objidl-iclassactivator-getclassobject
+        - name: "IClassFactory"
+          href: /windows/win32/api/unknwnbase/nn-unknwnbase-iclassfactory
+          items: 
+          - name: "CreateInstance Method"
+            href: /windows/win32/api/Unknwn/nf-unknwn-iclassfactory-createinstance
+          - name: "LockServer Method"
+            href: /windows/win32/api/unknwnbase/nf-unknwnbase-iclassfactory-lockserver
+        - name: "IClassFactory2"
+          href: /windows/win32/api/OCIdl/nn-ocidl-iclassfactory2
+          items: 
+          - name: "CreateInstanceLic Method"
+            href: /windows/win32/api/OCIdl/nf-ocidl-iclassfactory2-createinstancelic
+          - name: "GetLicInfo Method"
+            href: /windows/win32/api/OCIdl/nf-ocidl-iclassfactory2-getlicinfo
+          - name: "RequestLicKey Method"
+            href: /windows/win32/api/OCIdl/nf-ocidl-iclassfactory2-requestlickey
+        - name: "IClientSecurity"
+          href: /windows/win32/api/ObjIdl/nn-objidl-iclientsecurity
+          items: 
+          - name: "CopyProxy Method"
+            href: /windows/win32/api/objidl/nf-objidl-iclientsecurity-copyproxy
+          - name: "QueryBlanket Method"
+            href: /windows/win32/api/objidl/nf-objidl-iclientsecurity-queryblanket
+          - name: "SetBlanket Method"
+            href: /windows/win32/api/objidl/nf-objidl-iclientsecurity-setblanket
+        - name: "IComThreadingInfo"
+          href: /windows/win32/api/objidl/nn-objidl-icomthreadinginfo
+          items: 
+          - name: "GetCurrentApartmentType Method"
+            href: /windows/win32/api/objidl/nf-objidl-icomthreadinginfo-getcurrentapartmenttype
+          - name: "GetCurrentLogicalThreadId Method"
+            href: /windows/win32/api/objidl/nf-objidl-icomthreadinginfo-getcurrentlogicalthreadid
+          - name: "GetCurrentThreadType Method"
+            href: /windows/win32/api/objidl/nf-objidl-icomthreadinginfo-getcurrentthreadtype
+          - name: "SetCurrentLogicalThreadId Method"
+            href: /windows/win32/api/objidl/nf-objidl-icomthreadinginfo-setcurrentlogicalthreadid
+        - name: "IConnectionPoint"
+          href: /windows/win32/api/OCIdl/nn-ocidl-iconnectionpoint
+          items: 
+          - name: "Advise Method"
+            href: /windows/win32/api/OCIdl/nf-ocidl-iconnectionpoint-advise
+          - name: "EnumConnections Method"
+            href: /windows/win32/api/OCIdl/nf-ocidl-iconnectionpoint-enumconnections
+          - name: "GetConnectionInterface Method"
+            href: /windows/win32/api/OCIdl/nf-ocidl-iconnectionpoint-getconnectioninterface
+          - name: "GetConnectionPointContainer Method"
+            href: /windows/win32/api/OCIdl/nf-ocidl-iconnectionpoint-getconnectionpointcontainer
+          - name: "Unadvise Method"
+            href: /windows/win32/api/OCIdl/nf-ocidl-iconnectionpoint-unadvise
+        - name: "IConnectionPointContainer"
+          href: /windows/win32/api/OCIdl/nn-ocidl-iconnectionpointcontainer
+          items: 
+          - name: "EnumConnectionPoints Method"
+            href: /windows/win32/api/OCIdl/nf-ocidl-iconnectionpointcontainer-enumconnectionpoints
+          - name: "FindConnectionPoint Method"
+            href: /windows/win32/api/OCIdl/nf-ocidl-iconnectionpointcontainer-findconnectionpoint
+        - name: "IContext"
+          href: /windows/win32/api/objidl/nn-objidl-icontext
+          items: 
+          - name: "EnumContextProps Method"
+            href: /windows/win32/api/objidl/nf-objidl-icontext-enumcontextprops
+          - name: "GetProperty Method"
+            href: /windows/win32/api/objidl/nf-objidl-icontext-getproperty
+          - name: "RemoveProperty Method"
+            href: /windows/win32/api/objidl/nf-objidl-icontext-removeproperty
+          - name: "SetProperty Method"
+            href: /windows/win32/api/objidl/nf-objidl-icontext-setproperty
+        - name: "IContextCallback"
+          href: /windows/win32/api/Ctxtcall/nn-ctxtcall-icontextcallback
+          items: 
+          - name: "ContextCallback Method"
+            href: /windows/win32/api/Ctxtcall/nf-ctxtcall-icontextcallback-contextcallback
+        - name: "IContinueCallback"
+          href: /windows/win32/api/DocObj/nn-docobj-icontinuecallback
+          items: 
+          - name: "FContinue Method"
+            href: /windows/win32/api/DocObj/nf-docobj-icontinuecallback-fcontinue
+          - name: "FContinuePrinting Method"
+            href: /windows/win32/api/DocObj/nf-docobj-icontinuecallback-fcontinueprinting
+        - name: "IEnumCATEGORYINFO"
+          href: /windows/win32/api/ComCat/nn-comcat-ienumcategoryinfo
+          items: 
+          - name: "Clone Method"
+            href: /windows/win32/api/ComCat/nf-comcat-ienumcategoryinfo-clone
+          - name: "Next Method"
+            href: /windows/win32/api/ComCat/nf-comcat-ienumcategoryinfo-next
+          - name: "Reset Method"
+            href: /windows/win32/api/ComCat/nf-comcat-ienumcategoryinfo-reset
+          - name: "Skip Method"
+            href: /windows/win32/api/ComCat/nf-comcat-ienumcategoryinfo-skip
+        - name: "IEnumConnectionPoints"
+          href: /windows/win32/api/ocidl/nn-ocidl-ienumconnectionpoints
+          items: 
+          - name: "Clone Method"
+            href: /windows/win32/api/ocidl/nf-ocidl-ienumconnectionpoints-clone
+          - name: "Next Method"
+            href: /windows/win32/api/ocidl/nf-ocidl-ienumconnectionpoints-next
+          - name: "Reset Method"
+            href: /windows/win32/api/ocidl/nf-ocidl-ienumconnectionpoints-reset
+          - name: "Skip Method"
+            href: /windows/win32/api/ocidl/nf-ocidl-ienumconnectionpoints-skip
+        - name: "IEnumConnections"
+          href: /windows/win32/api/ocidl/nn-ocidl-ienumconnections
+          items: 
+          - name: "Clone Method"
+            href: /windows/win32/api/ocidl/nf-ocidl-ienumconnections-clone
+          - name: "Next Method"
+            href: /windows/win32/api/ocidl/nf-ocidl-ienumconnections-next
+          - name: "Reset Method"
+            href: /windows/win32/api/ocidl/nf-ocidl-ienumconnections-reset
+          - name: "Skip Method"
+            href: /windows/win32/api/ocidl/nf-ocidl-ienumconnections-skip
+        - name: "IEnumContextProps"
+          href: /windows/win32/api/objidl/nn-objidl-ienumcontextprops
+          items: 
+          - name: "Clone Method"
+            href: /windows/win32/api/objidl/nf-objidl-ienumcontextprops-clone
+          - name: "Count Method"
+            href: /windows/win32/api/objidl/nf-objidl-ienumcontextprops-count
+          - name: "Next Method"
+            href: /windows/win32/api/objidl/nf-objidl-ienumcontextprops-next
+          - name: "Reset Method"
+            href: /windows/win32/api/objidl/nf-objidl-ienumcontextprops-reset
+          - name: "Skip Method"
+            href: /windows/win32/api/objidl/nf-objidl-ienumcontextprops-skip
+        - name: "IEnumGUID"
+          href: /windows/win32/api/ComCat/nn-comcat-ienumguid
+          items: 
+          - name: "Clone Method"
+            href: /windows/win32/api/ComCat/nf-comcat-ienumguid-clone
+          - name: "Next Method"
+            href: /windows/win32/api/ComCat/nf-comcat-ienumguid-next
+          - name: "Reset Method"
+            href: /windows/win32/api/ComCat/nf-comcat-ienumguid-reset
+          - name: "Skip Method"
+            href: /windows/win32/api/ComCat/nf-comcat-ienumguid-skip
+        - name: "IEnumString"
+          href: /windows/win32/api/objidl/nn-objidl-ienumstring
+          items: 
+          - name: "Clone Method"
+            href: /windows/win32/api/objidl/nf-objidl-ienumstring-clone
+          - name: "Next Method"
+            href: /windows/win32/api/objidl/nf-objidl-ienumstring-next
+          - name: "Reset Method"
+            href: /windows/win32/api/objidl/nf-objidl-ienumstring-reset
+          - name: "Skip Method"
+            href: /windows/win32/api/objidl/nf-objidl-ienumstring-skip
+        - name: "IEnumUnknown"
+          href: /windows/win32/api/objidl/nn-objidl-ienumunknown
+          items: 
+          - name: "Clone Method"
+            href: /windows/win32/api/objidl/nf-objidl-ienumunknown-clone
+          - name: "Next Method"
+            href: /windows/win32/api/objidl/nf-objidl-ienumunknown-next
+          - name: "Reset Method"
+            href: /windows/win32/api/objidl/nf-objidl-ienumunknown-reset
+          - name: "Skip Method"
+            href: /windows/win32/api/objidl/nf-objidl-ienumunknown-skip
+        - name: "IEventProperty"
+          href: /windows/win32/api/EventSys/nn-eventsys-ieventproperty
+          items: 
+          - name: "Name Property"
+            href: /windows/win32/api/EventSys/nf-eventsys-ieventproperty-get_name
+          - name: "Value Property"
+            href: /windows/win32/api/EventSys/nf-eventsys-ieventproperty-get_value
+        - name: "IEventPublisher"
+          href: /windows/win32/api/EventSys/nn-eventsys-ieventpublisher
+          items: 
+          - name: "Description Property"
+            href: /windows/win32/api/EventSys/nf-eventsys-ieventpublisher-get_description
+          - name: "GetDefaultProperty Method"
+            href: /windows/win32/api/EventSys/nf-eventsys-ieventpublisher-getdefaultproperty
+          - name: "GetDefaultPropertyCollection Method"
+            href: /windows/win32/api/EventSys/nf-eventsys-ieventpublisher-getdefaultpropertycollection
+          - name: "OwnerSID Property"
+            href: /windows/win32/api/EventSys/nf-eventsys-ieventpublisher-get_ownersid
+          - name: "PublisherID Property"
+            href: /windows/win32/api/EventSys/nf-eventsys-ieventpublisher-put_publisherid
+          - name: "PublisherName Property"
+            href: /windows/win32/api/EventSys/nf-eventsys-ieventpublisher-get_publishername
+          - name: "PublisherType Property"
+            href: /windows/win32/api/EventSys/nf-eventsys-ieventpublisher-get_publishertype
+          - name: "PutDefaultProperty Method"
+            href: /windows/win32/api/EventSys/nf-eventsys-ieventpublisher-putdefaultproperty
+          - name: "RemoveDefaultProperty Method"
+            href: /windows/win32/api/EventSys/nf-eventsys-ieventpublisher-removedefaultproperty
+        - name: "IExternalConnection"
+          href: /windows/win32/api/objidl/nn-objidl-iexternalconnection
+          items: 
+          - name: "AddConnection Method"
+            href: /windows/win32/api/objidl/nf-objidl-iexternalconnection-addconnection
+          - name: "ReleaseConnection Method"
+            href: /windows/win32/api/objidl/nf-objidl-iexternalconnection-releaseconnection
+        - name: "IFastRundown"
+          href: /windows/win32/api/objidl/nn-objidl-ifastrundown
+        - name: "IFileBasedLogInit"
+          href: /windows/win32/api/Txlogpub/nn-txlogpub-ifilebasedloginit
+          items: 
+          - name: "InitNew Method"
+            href: /windows/win32/api/Txlogpub/nf-txlogpub-ifilebasedloginit-initnew
+        - name: "IForegroundTransfer"
+          href: /windows/win32/api/ObjIdl/nn-objidl-iforegroundtransfer
+          items: 
+          - name: "AllowForegroundTransfer Method"
+            href: /windows/win32/api/ObjIdl/nf-objidl-iforegroundtransfer-allowforegroundtransfer
+        - name: "IGlobalInterfaceTable"
+          href: /windows/win32/api/ObjIdl/nn-objidl-iglobalinterfacetable
+          items: 
+          - name: "GetInterfaceFromGlobal Method"
+            href: /windows/win32/api/objidl/nf-objidl-iglobalinterfacetable-getinterfacefromglobal
+          - name: "RegisterInterfaceInGlobal Method"
+            href: /windows/win32/api/objidl/nf-objidl-iglobalinterfacetable-registerinterfaceinglobal
+          - name: "RevokeInterfaceFromGlobal Method"
+            href: /windows/win32/api/objidl/nf-objidl-iglobalinterfacetable-revokeinterfacefromglobal
+        - name: "IGlobalOptions"
+          href: /windows/win32/api/objidl/nn-objidl-iglobaloptions
+          items: 
+          - name: "Query Method"
+            href: /windows/win32/api/objidl/nf-objidl-iglobaloptions-query
+          - name: "Set Method"
+            href: /windows/win32/api/objidl/nf-objidl-iglobaloptions-set
+        - name: "IInitializeSpy"
+          href: /windows/win32/api/ObjIdl/nn-objidl-iinitializespy
+          items: 
+          - name: "PostInitialize Method"
+            href: /windows/win32/api/ObjIdl/nf-objidl-iinitializespy-postinitialize
+          - name: "PostUninitialize Method"
+            href: /windows/win32/api/ObjIdl/nf-objidl-iinitializespy-postuninitialize
+          - name: "PreInitialize Method"
+            href: /windows/win32/api/ObjIdl/nf-objidl-iinitializespy-preinitialize
+          - name: "PreUninitialize Method"
+            href: /windows/win32/api/ObjIdl/nf-objidl-iinitializespy-preuninitialize
+        - name: "IInternalUnknown"
+          href: /windows/win32/api/objidl/nn-objidl-iinternalunknown
+          items: 
+          - name: "QueryInternalInterface Method"
+            href: /windows/win32/api/objidl/nf-objidl-iinternalunknown-queryinternalinterface
+        - name: "ILog"
+          href: /windows/win32/api/Txlogpub/nn-txlogpub-ilog
+          items: 
+          - name: "AppendRecord Method"
+            href: /windows/win32/api/Txlogpub/nf-txlogpub-ilog-appendrecord
+          - name: "Force Method"
+            href: /windows/win32/api/Txlogpub/nf-txlogpub-ilog-force
+          - name: "GetLogLimits Method"
+            href: /windows/win32/api/Txlogpub/nf-txlogpub-ilog-getloglimits
+          - name: "ReadRecord Method"
+            href: /windows/win32/api/Txlogpub/nf-txlogpub-ilog-readrecord
+          - name: "ReadRecordPrefix Method"
+            href: /windows/win32/api/Txlogpub/nf-txlogpub-ilog-readrecordprefix
+          - name: "SetAccessPolicyHint Method"
+            href: /windows/win32/api/Txlogpub/nf-txlogpub-ilog-setaccesspolicyhint
+          - name: "TruncatePrefix Method"
+            href: /windows/win32/api/Txlogpub/nf-txlogpub-ilog-truncateprefix
+        - name: "IMalloc"
+          href: /windows/win32/api/objidl/nn-objidl-imalloc
+          items: 
+          - name: "Alloc Method"
+            href: /windows/win32/api/ObjIdl/nf-objidl-imalloc-alloc
+          - name: "DidAlloc Method"
+            href: /windows/win32/api/objidl/nf-objidl-imalloc-didalloc
+          - name: "Free Method"
+            href: /windows/win32/api/objidl/nf-objidl-imalloc-free
+          - name: "GetSize Method"
+            href: /windows/win32/api/objidl/nf-objidl-imalloc-getsize
+          - name: "HeapMinimize Method"
+            href: /windows/win32/api/objidl/nf-objidl-imalloc-heapminimize
+          - name: "Realloc Method"
+            href: /windows/win32/api/objidl/nf-objidl-imalloc-realloc
+        - name: "IMallocSpy"
+          href: /windows/win32/api/ObjIdl/nn-objidl-imallocspy
+          items: 
+          - name: "PostAlloc Method"
+            href: /windows/win32/api/ObjIdl/nf-objidl-imallocspy-postalloc
+          - name: "PostDidAlloc Method"
+            href: /windows/win32/api/ObjIdl/nf-objidl-imallocspy-postdidalloc
+          - name: "PostFree Method"
+            href: /windows/win32/api/ObjIdl/nf-objidl-imallocspy-postfree
+          - name: "PostGetSize Method"
+            href: /windows/win32/api/ObjIdl/nf-objidl-imallocspy-postgetsize
+          - name: "PostHeapMinimize Method"
+            href: /windows/win32/api/ObjIdl/nf-objidl-imallocspy-postheapminimize
+          - name: "PostRealloc Method"
+            href: /windows/win32/api/ObjIdl/nf-objidl-imallocspy-postrealloc
+          - name: "PreAlloc Method"
+            href: /windows/win32/api/ObjIdl/nf-objidl-imallocspy-prealloc
+          - name: "PreDidAlloc Method"
+            href: /windows/win32/api/ObjIdl/nf-objidl-imallocspy-predidalloc
+          - name: "PreFree Method"
+            href: /windows/win32/api/ObjIdl/nf-objidl-imallocspy-prefree
+          - name: "PreGetSize Method"
+            href: /windows/win32/api/ObjIdl/nf-objidl-imallocspy-pregetsize
+          - name: "PreHeapMinimize Method"
+            href: /windows/win32/api/ObjIdl/nf-objidl-imallocspy-preheapminimize
+          - name: "PreRealloc Method"
+            href: /windows/win32/api/ObjIdl/nf-objidl-imallocspy-prerealloc
+        - name: "IMarshal"
+          href: /windows/win32/api/objidl/nn-objidl-imarshal
+          items: 
+          - name: "DisconnectObject Method"
+            href: /windows/win32/api/objidl/nf-objidl-imarshal-disconnectobject
+          - name: "GetMarshalSizeMax Method"
+            href: /windows/win32/api/ObjIdl/nf-objidl-imarshal-getmarshalsizemax
+          - name: "GetUnmarshalClass Method"
+            href: /windows/win32/api/ObjIdl/nf-objidl-imarshal-getunmarshalclass
+          - name: "MarshalInterface Method"
+            href: /windows/win32/api/objidl/nf-objidl-imarshal-marshalinterface
+          - name: "ReleaseMarshalData Method"
+            href: /windows/win32/api/objidl/nf-objidl-imarshal-releasemarshaldata
+          - name: "UnmarshalInterface Method"
+            href: /windows/win32/api/objidl/nf-objidl-imarshal-unmarshalinterface
+        - name: "IMarshalingStream"
+          href: /windows/win32/api/objidl/nn-objidl-imarshalingstream
+          items: 
+          - name: "GetMarshalingContextAttribute method"
+            href: /windows/win32/api/objidl/nf-objidl-imarshalingstream-getmarshalingcontextattribute
+        - name: "IMessageDispatcher"
+          href: /windows/win32/api/imessagedispatcher/nn-imessagedispatcher-imessagedispatcher
+          items: 
+          - name: "PumpMessages method"
+            href: /windows/win32/api/imessagedispatcher/nf-imessagedispatcher-imessagedispatcher-pumpmessages
+        - name: "IMessageFilter"
+          href: /windows/win32/api/ObjIdl/nn-objidl-imessagefilter
+          items: 
+          - name: "HandleInComingCall Method"
+            href: /windows/win32/api/ObjIdl/nf-objidl-imessagefilter-handleincomingcall
+          - name: "MessagePending Method"
+            href: /windows/win32/api/ObjIdl/nf-objidl-imessagefilter-messagepending
+          - name: "RetryRejectedCall Method"
+            href: /windows/win32/api/ObjIdl/nf-objidl-imessagefilter-retryrejectedcall
+        - name: "IMoniker"
+          href: /windows/win32/api/ObjIdl/nn-objidl-imoniker
+          items: 
+          - name: "BindToObject Method"
+            href: /windows/win32/api/ObjIdl/nf-objidl-imoniker-bindtoobject
+          - name: "BindToStorage Method"
+            href: /windows/win32/api/ObjIdl/nf-objidl-imoniker-bindtostorage
+          - name: "CommonPrefixWith Method"
+            href: /windows/win32/api/ObjIdl/nf-objidl-imoniker-commonprefixwith
+          - name: "ComposeWith Method"
+            href: /windows/win32/api/ObjIdl/nf-objidl-imoniker-composewith
+          - name: "Enum Method"
+            href: /windows/win32/api/ObjIdl/nf-objidl-imoniker-enum
+          - name: "GetDisplayName Method"
+            href: /windows/win32/api/ObjIdl/nf-objidl-imoniker-getdisplayname
+          - name: "GetTimeOfLastChange Method"
+            href: /windows/win32/api/ObjIdl/nf-objidl-imoniker-gettimeoflastchange
+          - name: "Hash Method"
+            href: /windows/win32/api/ObjIdl/nf-objidl-imoniker-hash
+          - name: "Inverse Method"
+            href: /windows/win32/api/ObjIdl/nf-objidl-imoniker-inverse
+          - name: "IsEqual Method"
+            href: /windows/win32/api/ObjIdl/nf-objidl-imoniker-isequal
+          - name: "IsRunning Method"
+            href: /windows/win32/api/ObjIdl/nf-objidl-imoniker-isrunning
+          - name: "IsSystemMoniker Method"
+            href: /windows/win32/api/ObjIdl/nf-objidl-imoniker-issystemmoniker
+          - name: "ParseDisplayName Method"
+            href: /windows/win32/api/ObjIdl/nf-objidl-imoniker-parsedisplayname
+          - name: "Reduce Method"
+            href: /windows/win32/api/ObjIdl/nf-objidl-imoniker-reduce
+          - name: "RelativePathTo Method"
+            href: /windows/win32/api/ObjIdl/nf-objidl-imoniker-relativepathto
+        - name: "IMultiQI"
+          href: /windows/win32/api/objidl/nn-objidl-imultiqi
+          items: 
+          - name: "QueryMultipleInterfaces Method"
+            href: /windows/win32/api/objidl/nf-objidl-imultiqi-querymultipleinterfaces
+        - name: "INoMarshal"
+          href: /windows/win32/api/objidl/nn-objidl-inomarshal
+        - name: "IObjContext"
+          href: /windows/win32/api/objidl/nn-objidl-iobjcontext
+        - name: "IOleItemContainer"
+          href: /windows/win32/api/OleIdl/nn-oleidl-ioleitemcontainer
+          items: 
+          - name: "GetObject Method"
+            href: /windows/win32/api/OleIdl/nf-oleidl-ioleitemcontainer-getobject
+          - name: "GetObjectStorage Method"
+            href: /windows/win32/api/OleIdl/nf-oleidl-ioleitemcontainer-getobjectstorage
+          - name: "IsRunning Method"
+            href: /windows/win32/api/OleIdl/nf-oleidl-ioleitemcontainer-isrunning
+        - name: "IOrpcDebugNotify"
+          href: iorpcdebugnotify.md
+          items: 
+          - name: "ClientGetBufferSize Method"
+            href: iorpcdebugnotify-clientgetbuffersize.md
+          - name: "ClientFillBuffer Method"
+            href: iorpcdebugnotify-clientfillbuffer.md
+          - name: "ClientNotify Method"
+            href: iorpcdebugnotify-clientnotify.md
+          - name: "ServerNotify Method"
+            href: iorpcdebugnotify-servernotify.md
+          - name: "ServerGetBufferSize Method"
+            href: iorpcdebugnotify-servergetbuffersize.md
+          - name: "ServerFillBuffer Method"
+            href: iorpcdebugnotify-serverfillbuffer.md
+        - name: "IParseDisplayName"
+          href: /windows/win32/api/OleIdl/nn-oleidl-iparsedisplayname
+          items: 
+          - name: "ParseDisplayName Method"
+            href: /windows/win32/api/OleIdl/nf-oleidl-iparsedisplayname-parsedisplayname
+        - name: "IPersist"
+          href: /windows/win32/api/ObjIdl/nn-objidl-ipersist
+          items: 
+          - name: "GetClassID Method"
+            href: /windows/win32/api/ObjIdl/nf-objidl-ipersist-getclassid
+        - name: "IPersistFile"
+          href: /windows/win32/api/ObjIdl/nn-objidl-ipersistfile
+          items: 
+          - name: "GetCurFile Method"
+            href: /windows/win32/api/ObjIdl/nf-objidl-ipersistfile-getcurfile
+          - name: "IsDirty Method"
+            href: /windows/win32/api/ObjIdl/nf-objidl-ipersistfile-isdirty
+          - name: "Load Method"
+            href: /windows/win32/api/ObjIdl/nf-objidl-ipersistfile-load
+          - name: "Save Method"
+            href: /windows/win32/api/ObjIdl/nf-objidl-ipersistfile-save
+          - name: "SaveCompleted Method"
+            href: /windows/win32/api/ObjIdl/nf-objidl-ipersistfile-savecompleted
+        - name: "IPersistStorage"
+          href: /windows/win32/api/ObjIdl/nn-objidl-ipersiststorage
+          items: 
+          - name: "HandsOffStorage Method"
+            href: /windows/win32/api/ObjIdl/nf-objidl-ipersiststorage-handsoffstorage
+          - name: "InitNew Method"
+            href: /windows/win32/api/ObjIdl/nf-objidl-ipersiststorage-initnew
+          - name: "IsDirty Method"
+            href: /windows/win32/api/ObjIdl/nf-objidl-ipersiststorage-isdirty
+          - name: "Load Method"
+            href: /windows/win32/api/ObjIdl/nf-objidl-ipersiststorage-load
+          - name: "Save Method"
+            href: /windows/win32/api/ObjIdl/nf-objidl-ipersiststorage-save
+          - name: "SaveCompleted Method"
+            href: /windows/win32/api/ObjIdl/nf-objidl-ipersiststorage-savecompleted
+        - name: "IPersistStream"
+          href: /windows/win32/api/ObjIdl/nn-objidl-ipersiststream
+          items: 
+          - name: "GetSizeMax Method"
+            href: /windows/win32/api/ObjIdl/nf-objidl-ipersiststream-getsizemax
+          - name: "IsDirty Method"
+            href: /windows/win32/api/ObjIdl/nf-objidl-ipersiststream-isdirty
+          - name: "Load Method"
+            href: /windows/win32/api/ObjIdl/nf-objidl-ipersiststream-load
+          - name: "Save Method"
+            href: /windows/win32/api/ObjIdl/nf-objidl-ipersiststream-save
+        - name: "IPersistStreamInit"
+          href: /windows/win32/api/OCIdl/nn-ocidl-ipersiststreaminit
+          items: 
+          - name: "GetSizeMax Method"
+            href: /windows/win32/api/OCIdl/nf-ocidl-ipersiststreaminit-getsizemax
+          - name: "InitNew Method"
+            href: /windows/win32/api/OCIdl/nf-ocidl-ipersiststreaminit-initnew
+          - name: "IsDirty Method"
+            href: /windows/win32/api/OCIdl/nf-ocidl-ipersiststreaminit-isdirty
+          - name: "Load Method"
+            href: /windows/win32/api/OCIdl/nf-ocidl-ipersiststreaminit-load
+          - name: "Save Method"
+            href: /windows/win32/api/OCIdl/nf-ocidl-ipersiststreaminit-save
+        - name: "IPipeByte"
+          href: /windows/win32/api/objidl/nn-objidl-ipipebyte
+          items: 
+          - name: "Pull Method"
+            href: /windows/win32/api/objidl/nf-objidl-ipipebyte-pull
+          - name: "Push Method"
+            href: /windows/win32/api/objidl/nf-objidl-ipipebyte-push
+        - name: "IPipeDouble"
+          href: /windows/win32/api/objidl/nn-objidl-ipipedouble
+          items: 
+          - name: "Pull Method"
+            href: /windows/win32/api/objidl/nf-objidl-ipipedouble-pull
+          - name: "Push Method"
+            href: /windows/win32/api/objidl/nf-objidl-ipipedouble-push
+        - name: "IPipeLong"
+          href: /windows/win32/api/objidl/nn-objidl-ipipelong
+          items: 
+          - name: "Pull Method"
+            href: /windows/win32/api/objidl/nf-objidl-ipipelong-pull
+          - name: "Push Method"
+            href: /windows/win32/api/objidl/nf-objidl-ipipelong-push
+        - name: "IProcessInitControl"
+          href: /windows/win32/api/objidl/nn-objidl-iprocessinitcontrol
+          items: 
+          - name: "ResetInitializerTimeout Method"
+            href: /windows/win32/api/objidl/nf-objidl-iprocessinitcontrol-resetinitializertimeout
+        - name: "IProcessLock"
+          href: /windows/win32/api/ObjIdl/nn-objidl-iprocesslock
+          items: 
+          - name: "AddRefOnProcess Method"
+            href: /windows/win32/api/ObjIdl/nf-objidl-iprocesslock-addrefonprocess
+          - name: "ReleaseRefOnProcess Method"
+            href: /windows/win32/api/ObjIdl/nf-objidl-iprocesslock-releaserefonprocess
+        - name: "IProgressNotify"
+          href: /windows/win32/api/ObjIdl/nn-objidl-iprogressnotify
+          items: 
+          - name: "OnProgress Method"
+            href: /windows/win32/api/ObjIdl/nf-objidl-iprogressnotify-onprogress
+        - name: "IProvideClassInfo"
+          href: /windows/win32/api/OCIdl/nn-ocidl-iprovideclassinfo
+          items: 
+          - name: "GetClassInfo Method"
+            href: /windows/win32/api/OCIdl/nf-ocidl-iprovideclassinfo-getclassinfo
+        - name: "IProvideClassInfo2"
+          href: /windows/win32/api/OCIdl/nn-ocidl-iprovideclassinfo2
+          items: 
+          - name: "GetGUID Method"
+            href: /windows/win32/api/OCIdl/nf-ocidl-iprovideclassinfo2-getguid
+        - name: "IProvideMultipleClassInfo"
+          href: /windows/win32/api/OCIdl/nn-ocidl-iprovidemultipleclassinfo
+          items: 
+          - name: "GetInfoOfIndex Method"
+            href: /windows/win32/api/OCIdl/nf-ocidl-iprovidemultipleclassinfo-getinfoofindex
+          - name: "GetMultiTypeInfoCount Method"
+            href: /windows/win32/api/OCIdl/nf-ocidl-iprovidemultipleclassinfo-getmultitypeinfocount
+        - name: "IPSFactoryBuffer"
+          href: /windows/win32/api/objidl/nn-objidl-ipsfactorybuffer
+          items: 
+          - name: "CreateProxy Method"
+            href: /windows/win32/api/objidl/nf-objidl-ipsfactorybuffer-createproxy
+          - name: "CreateStub Method"
+            href: /windows/win32/api/objidl/nf-objidl-ipsfactorybuffer-createstub
+        - name: "IROTData"
+          href: /windows/win32/api/ObjIdl/nn-objidl-irotdata
+          items: 
+          - name: "GetComparisonData Method"
+            href: /windows/win32/api/ObjIdl/nf-objidl-irotdata-getcomparisondata
+        - name: "IRpcChannelBuffer"
+          href: /windows/win32/api/objidl/nn-objidl-irpcchannelbuffer
+          items: 
+          - name: "FreeBuffer Method"
+            href: /windows/win32/api/objidl/nf-objidl-irpcchannelbuffer-freebuffer
+          - name: "GetBuffer Method"
+            href: /windows/win32/api/objidl/nf-objidl-irpcchannelbuffer-getbuffer
+          - name: "GetDestCtx Method"
+            href: /windows/win32/api/objidl/nf-objidl-irpcchannelbuffer-getdestctx
+          - name: "IsConnected Method"
+            href: /windows/win32/api/objidl/nf-objidl-irpcchannelbuffer-isconnected
+          - name: "SendReceive Method"
+            href: /windows/win32/api/objidl/nf-objidl-irpcchannelbuffer-sendreceive
+        - name: "IRpcOptions"
+          href: /windows/win32/api/objidl/nn-objidl-irpcoptions
+          items: 
+          - name: "Query Method"
+            href: /windows/win32/api/objidl/nf-objidl-irpcoptions-query
+          - name: "Set Method"
+            href: /windows/win32/api/objidl/nf-objidl-irpcoptions-set
+        - name: "IRpcProxyBuffer"
+          href: /windows/win32/api/objidl/nn-objidl-irpcproxybuffer
+          items: 
+          - name: "Connect Method"
+            href: /windows/win32/api/objidl/nf-objidl-irpcproxybuffer-connect
+          - name: "Disconnect Method"
+            href: /windows/win32/api/objidl/nf-objidl-irpcproxybuffer-disconnect
+        - name: "IRpcStubBuffer"
+          href: /windows/win32/api/objidl/nn-objidl-irpcstubbuffer
+          items: 
+          - name: "Connect Method"
+            href: /windows/win32/api/objidl/nf-objidl-irpcstubbuffer-connect
+          - name: "CountRefs Method"
+            href: /windows/win32/api/objidl/nf-objidl-irpcstubbuffer-countrefs
+          - name: "DebugServerQueryInterface Method"
+            href: /windows/win32/api/objidl/nf-objidl-irpcstubbuffer-debugserverqueryinterface
+          - name: "DebugServerRelease Method"
+            href: /windows/win32/api/objidl/nf-objidl-irpcstubbuffer-debugserverrelease
+          - name: "Disconnect Method"
+            href: /windows/win32/api/objidl/nf-objidl-irpcstubbuffer-disconnect
+          - name: "Invoke Method"
+            href: /windows/win32/api/objidl/nf-objidl-irpcstubbuffer-invoke
+          - name: "IsIIDSupported Method"
+            href: /windows/win32/api/objidl/nf-objidl-irpcstubbuffer-isiidsupported
+        - name: "IRunnableObject"
+          href: /windows/win32/api/ObjIdl/nn-objidl-irunnableobject
+          items: 
+          - name: "GetRunningClass Method"
+            href: /windows/win32/api/ObjIdl/nf-objidl-irunnableobject-getrunningclass
+          - name: "IsRunning Method"
+            href: /windows/win32/api/ObjIdl/nf-objidl-irunnableobject-isrunning
+          - name: "LockRunning Method"
+            href: /windows/win32/api/ObjIdl/nf-objidl-irunnableobject-lockrunning
+          - name: "Run Method"
+            href: /windows/win32/api/ObjIdl/nf-objidl-irunnableobject-run
+          - name: "SetContainedObject Method"
+            href: /windows/win32/api/ObjIdl/nf-objidl-irunnableobject-setcontainedobject
+        - name: "IRunningObjectTable"
+          href: /windows/win32/api/ObjIdl/nn-objidl-irunningobjecttable
+          items: 
+          - name: "EnumRunning Method"
+            href: /windows/win32/api/ObjIdl/nf-objidl-irunningobjecttable-enumrunning
+          - name: "GetObject Method"
+            href: /windows/win32/api/ObjIdl/nf-objidl-irunningobjecttable-getobject
+          - name: "GetTimeOfLastChange Method"
+            href: /windows/win32/api/ObjIdl/nf-objidl-irunningobjecttable-gettimeoflastchange
+          - name: "IsRunning Method"
+            href: /windows/win32/api/ObjIdl/nf-objidl-irunningobjecttable-isrunning
+          - name: "NoteChangeTime Method"
+            href: /windows/win32/api/ObjIdl/nf-objidl-irunningobjecttable-notechangetime
+          - name: "Register Method"
+            href: /windows/win32/api/ObjIdl/nf-objidl-irunningobjecttable-register
+          - name: "Revoke Method"
+            href: /windows/win32/api/ObjIdl/nf-objidl-irunningobjecttable-revoke
+        - name: "IServerSecurity"
+          href: /windows/win32/api/objidl/nn-objidl-iserversecurity
+          items: 
+          - name: "ImpersonateClient Method"
+            href: /windows/win32/api/objidl/nf-objidl-iserversecurity-impersonateclient
+          - name: "IsImpersonating Method"
+            href: /windows/win32/api/objidl/nf-objidl-iserversecurity-isimpersonating
+          - name: "QueryBlanket Method"
+            href: /windows/win32/api/objidl/nf-objidl-iserversecurity-queryblanket
+          - name: "RevertToSelf Method"
+            href: /windows/win32/api/objidl/nf-objidl-iserversecurity-reverttoself
+        - name: "IStdMarshalInfo"
+          href: /windows/win32/api/objidl/nn-objidl-istdmarshalinfo
+          items: 
+          - name: "GetClassForHandler Method"
+            href: /windows/win32/api/objidl/nf-objidl-istdmarshalinfo-getclassforhandler
+        - name: "ISurrogate"
+          href: /windows/win32/api/objidl/nn-objidl-isurrogate
+          items: 
+          - name: "FreeSurrogate Method"
+            href: /windows/win32/api/objidl/nf-objidl-isurrogate-freesurrogate
+          - name: "LoadDllServer Method"
+            href: /windows/win32/api/objidl/nf-objidl-isurrogate-loaddllserver
+        - name: "ISurrogateService"
+          href: /windows/win32/api/ObjIdl/nn-objidl-isurrogateservice
+          items: 
+          - name: "ApplicationFree Method"
+            href: /windows/win32/api/ObjIdl/nf-objidl-isurrogateservice-applicationfree
+          - name: "ApplicationLaunch Method"
+            href: /windows/win32/api/ObjIdl/nf-objidl-isurrogateservice-applicationlaunch
+          - name: "CatalogRefresh Method"
+            href: /windows/win32/api/ObjIdl/nf-objidl-isurrogateservice-catalogrefresh
+          - name: "Init Method"
+            href: /windows/win32/api/ObjIdl/nf-objidl-isurrogateservice-init
+          - name: "ProcessShutdown Method"
+            href: /windows/win32/api/ObjIdl/nf-objidl-isurrogateservice-processshutdown
+        - name: "ISynchronize"
+          href: /windows/win32/api/objidl/nn-objidl-isynchronize
+          items: 
+          - name: "Reset Method"
+            href: /windows/win32/api/objidl/nf-objidl-isynchronize-reset
+          - name: "Signal Method"
+            href: /windows/win32/api/objidl/nf-objidl-isynchronize-signal
+          - name: "Wait Method"
+            href: /windows/win32/api/objidl/nf-objidl-isynchronize-wait
+        - name: "ISynchronizeContainer"
+          href: /windows/win32/api/objidl/nn-objidl-isynchronizecontainer
+          items: 
+          - name: "AddSynchronize Method"
+            href: /windows/win32/api/objidl/nf-objidl-isynchronizecontainer-addsynchronize
+          - name: "WaitMultiple Method"
+            href: /windows/win32/api/objidl/nf-objidl-isynchronizecontainer-waitmultiple
+        - name: "ISynchronizeEvent"
+          href: /windows/win32/api/objidl/nn-objidl-isynchronizeevent
+          items: 
+          - name: "SetEventHandle Method"
+            href: /windows/win32/api/objidl/nf-objidl-isynchronizeevent-seteventhandle
+        - name: "ISynchronizeHandle"
+          href: /windows/win32/api/objidl/nn-objidl-isynchronizehandle
+          items: 
+          - name: "GetHandle Method"
+            href: /windows/win32/api/objidl/nf-objidl-isynchronizehandle-gethandle
+        - name: "IUnknown"
+          href: /windows/win32/api/Unknwn/nn-unknwn-iunknown
+          items: 
+          - name: "AddRef Method"
+            href: /windows/win32/api/unknwn/nf-unknwn-iunknown-addref
+          - name: "QueryInterface Method"
+            href: /windows/win32/api/unknwn/nf-unknwn-iunknown-queryinterface(q)
+          - name: "Release Method"
+            href: /windows/win32/api/unknwn/nf-unknwn-iunknown-release
+      - name: "Macros"
+        href: macros.md
+        items: 
+        - name: "FAILED"
+          href: /windows/win32/api/Winerror/nf-winerror-failed
+        - name: "HRESULT_CODE"
+          href: /windows/win32/api/Winerror/nf-winerror-hresult_code
+        - name: "HRESULT_FACILITY"
+          href: /windows/win32/api/Winerror/nf-winerror-hresult_facility
+        - name: "HRESULT_FROM_NT"
+          href: /windows/win32/api/Winerror/nf-winerror-hresult_from_nt
+        - name: "HRESULT_FROM_WIN32"
+          href: /windows/win32/api/Winerror/nf-winerror-hresult_from_win32
+        - name: "HRESULT_SEVERITY"
+          href: /windows/win32/api/Winerror/nf-winerror-hresult_severity
+        - name: "IS_ERROR"
+          href: /windows/win32/api/Winerror/nf-winerror-is_error
+        - name: "MAKE_HRESULT"
+          href: /windows/win32/api/dmerror/nf-dmerror-make_hresult
+        - name: "MAKE_SCODE"
+          href: /windows/win32/api/Winerror/nf-winerror-make_scode
+        - name: "OLESTR"
+          href: /windows/win32/api/wtypesbase/nf-wtypesbase-olestr
+        - name: "SCODE_CODE"
+          href: /windows/win32/api/Winerror/nf-winerror-scode_code
+        - name: "SCODE_FACILITY"
+          href: /windows/win32/api/Winerror/nf-winerror-scode_facility
+        - name: "SCODE_SEVERITY"
+          href: /windows/win32/api/Winerror/nf-winerror-scode_severity
+        - name: "SUCCEEDED"
+          href: /windows/win32/api/Winerror/nf-winerror-succeeded
+      - name: "Registry Entries"
+        href: registry-entries.md
+        items: 
+        - name: "HKEY_LOCAL_MACHINE_SOFTWARE\\Classes"
+          href: hkey-local-machine-software-classes.md
+          items: 
+          - name: "AppID Key"
+            href: appid-key.md
+            items: 
+            - name: "AccessPermission"
+              href: accesspermission.md
+            - name: "ActivateAtStorage"
+              href: activateatstorage.md
+            - name: "AppID"
+              href: appid.md
+            - name: "AppIDFlags"
+              href: appidflags.md
+            - name: "AuthenticationLevel"
+              href: authenticationlevel.md
+            - name: "DllSurrogate"
+              href: dllsurrogate.md
+            - name: "DllSurrogateExecutable"
+              href: dllsurrogateexecutable.md
+            - name: "Endpoints"
+              href: endpoints.md
+            - name: "LaunchPermission"
+              href: launchpermission.md
+            - name: "LoadUserSettings"
+              href: loadusersettings.md
+            - name: "LocalService"
+              href: localservice.md
+            - name: "PreferredServerBitness"
+              href: preferredserverbitness.md
+            - name: "RemoteServerName"
+              href: remoteservername.md
+            - name: "ROTFlags"
+              href: rotflags.md
+            - name: "RunAs"
+              href: runas.md
+            - name: "ServiceParameters"
+              href: serviceparameters.md
+            - name: "SRPTrustLevel"
+              href: srptrustlevel.md
+          - name: "CLSID Key"
+            href: clsid-key-hklm.md
+            items: 
+            - name: "AppID"
+              href: appid-clsid.md
+            - name: "AutoConvertTo"
+              href: autoconvertto.md
+            - name: "AutoTreatAs"
+              href: autotreatas.md
+            - name: "AuxUserType"
+              href: auxusertype.md
+            - name: "Control"
+              href: control.md
+            - name: "Conversion"
+              href: conversion.md
+            - name: "DataFormats"
+              href: dataformats.md
+            - name: "DefaultIcon"
+              href: defaulticon.md
+            - name: "InprocHandler"
+              href: inprochandler.md
+            - name: "InprocHandler32"
+              href: inprochandler32.md
+            - name: "InprocServer"
+              href: inprocserver.md
+            - name: "InprocServer32"
+              href: inprocserver32.md
+            - name: "Insertable"
+              href: insertable.md
+            - name: "Interface"
+              href: interface.md
+            - name: "LocalServer"
+              href: localserver.md
+            - name: "LocalServer32"
+              href: localserver32.md
+            - name: "MiscStatus"
+              href: miscstatus.md
+            - name: "ProgID"
+              href: progid.md
+            - name: "ToolBoxBitmap32"
+              href: toolboxbitmap32.md
+            - name: "TreatAs"
+              href: treatas.md
+            - name: "Verb"
+              href: verb.md
+            - name: "Version"
+              href: version.md
+            - name: "VersionIndependentProgID"
+              href: versionindependentprogid.md
+          - name: "<file_extension> Key"
+            href: -file-extension--key.md
+          - name: "FileType Key"
+            href: filetype-key.md
+          - name: "Interface Key"
+            href: interface-key.md
+            items: 
+            - name: "BaseInterface"
+              href: baseinterface.md
+            - name: "NumMethods"
+              href: nummethods.md
+            - name: "ProxyStubClsid"
+              href: proxystubclsid.md
+            - name: "ProxyStubClsid32"
+              href: proxystubclsid32.md
+          - name: "<ProgID> Key"
+            href: -progid--key.md
+            items: 
+            - name: "CLSID"
+              href: clsid.md
+            - name: "Insertable"
+              href: insertable-progid.md
+            - name: "Protocol"
+              href: protocol.md
+            - name: "Shell"
+              href: shell.md
+          - name: "<version-independent ProgID> Key"
+            href: -version-independent-progid--key.md
+        - name: "HKEY_LOCAL_MACHINE_SOFTWARE\\Microsoft\\Ole"
+          href: hkey-local-machine-software-microsoft-ole.md
+          items: 
+          - name: "ActivationFailureLoggingLevel"
+            href: activationfailurelogginglevel.md
+          - name: "CallFailureLoggingLevel"
+            href: callfailurelogginglevel.md
+          - name: "DCOMSCMRemoteCallFlags"
+            href: dcomscmremotecallflags.md
+          - name: "DefaultAccessPermission"
+            href: defaultaccesspermission.md
+          - name: "DefaultLaunchPermission"
+            href: defaultlaunchpermission.md
+          - name: "DoNotAddAllApplicationPackagesToRestrictions"
+            href: donotaddallapplicationpackagestorestrictions.md
+          - name: "EnableDCOM"
+            href: enabledcom.md
+          - name: "InvalidSecurityDescriptorLoggingLevel"
+            href: invalidsecuritydescriptorlogginglevel.md
+          - name: "LegacyAuthenticationLevel"
+            href: legacyauthenticationlevel.md
+          - name: "LegacyImpersonationLevel"
+            href: legacyimpersonationlevel.md
+          - name: "LegacySecureReferences"
+            href: legacysecurereferences.md
+          - name: "MachineAccessRestriction"
+            href: machineaccessrestriction.md
+          - name: "MachineLaunchRestriction"
+            href: machinelaunchrestriction.md
+          - name: "NONREDIST"
+            href: nonredist.md
+          - name: "SRPActivateAsActivatorChecks"
+            href: srpactivateasactivatorchecks.md
+          - name: "SRPRunningObjectChecks"
+            href: srprunningobjectchecks.md
+        - name: "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion"
+          href: hkey-local-machine-software-microsoft-windows-nt-currentversion.md
+          items: 
+          - name: "DebugObjectRPCEnabled"
+            href: debugobjectrpcenabled.md
+            items: 
+            - name: "AeDebug"
+              href: aedebug.md
+              items: 
+              - name: "Auto"
+                href: auto.md
+              - name: "Debugger"
+                href: debugger.md
+      - name: "Structures"
+        href: structures.md
+        items: 
+        - name: "ACTRL_ACCESS"
+          href: /windows/win32/api/AccCtrl/ns-accctrl-actrl_accessa
+        - name: "ACTRL_ACCESS_ENTRY"
+          href: /windows/win32/api/AccCtrl/ns-accctrl-actrl_access_entrya
+        - name: "ACTRL_ACCESS_ENTRY_LIST"
+          href: /windows/win32/api/AccCtrl/ns-accctrl-actrl_access_entry_lista
+        - name: "ACTRL_PROPERTY_ENTRY"
+          href: /windows/win32/api/AccCtrl/ns-accctrl-actrl_property_entrya
+        - name: "BIND_OPTS"
+          href: /windows/win32/api/Objidl/ns-objidl-bind_opts
+        - name: "BIND_OPTS2"
+          href: /windows/win32/api/Objidl/ns-objidl-bind_opts2~r1
+        - name: "BIND_OPTS3"
+          href: /windows/win32/api/Objidl/ns-objidl-bind_opts3~r1
+        - name: "CALLFRAME_MARSHALCONTEXT"
+          href: /windows/win32/api/callobj/ns-callobj-callframe_marshalcontext
+        - name: "CALLFRAMEINFO"
+          href: /windows/win32/api/callobj/ns-callobj-callframeinfo
+        - name: "CALLFRAMEPARAMINFO"
+          href: /windows/win32/api/callobj/ns-callobj-callframeparaminfo
+        - name: "CATEGORYINFO"
+          href: /windows/win32/api/Comcat/ns-comcat-categoryinfo
+        - name: "COAUTHIDENTITY"
+          href: /windows/win32/api/wtypesbase/ns-wtypesbase-coauthidentity
+        - name: "COAUTHINFO"
+          href: /windows/win32/api/wtypesbase/ns-wtypesbase-coauthinfo
+        - name: "CONNECTDATA"
+          href: /windows/win32/api/Ocidl/ns-ocidl-connectdata
+        - name: "COSERVERINFO"
+          href: /windows/win32/api/objidl/ns-objidl-coserverinfo
+        - name: "CSPLATFORM"
+          href: /windows/win32/api/WTypes/ns-wtypes-csplatform
+        - name: "INTERFACEINFO"
+          href: /windows/win32/api/Objidl/ns-objidl-interfaceinfo
+        - name: "MULTI_QI"
+          href: /windows/win32/api/objidl/ns-objidl-multi_qi
+        - name: "ORPC_DBG_ALL"
+          href: orpc-dbg-all.md
+        - name: "ORPC_DBG_BUFFER"
+          href: orpc-dbg-buffer.md
+        - name: "ORPC_INIT_ARGS"
+          href: orpc-init-args.md
+        - name: "QUERYCONTEXT"
+          href: /windows/win32/api/WTypes/ns-wtypes-querycontext
+        - name: "RPCOLEMESSAGE"
+          href: /windows/win32/api/objidl/ns-objidl-rpcolemessage
+        - name: "SOLE_AUTHENTICATION_INFO"
+          href: /windows/win32/api/objidl/ns-objidl-sole_authentication_info
+        - name: "SOLE_AUTHENTICATION_LIST"
+          href: /windows/win32/api/objidl/ns-objidl-sole_authentication_list
+        - name: "SOLE_AUTHENTICATION_SERVICE"
+          href: /windows/win32/api/objidl/ns-objidl-sole_authentication_service
+        - name: "SOleTlsData"
+          href: /previous-versions/windows/desktop/legacy/ms690269(v=vs.85)
+      - name: "Functions"
+        href: functions.md
+        items: 
+        - name: "BindMoniker"
+          href: /windows/win32/api/Objbase/nf-objbase-bindmoniker
+        - name: "CLSIDFromProgID"
+          href: /windows/win32/api/combaseapi/nf-combaseapi-clsidfromprogid
+        - name: "CLSIDFromProgIDEx"
+          href: /windows/win32/api/combaseapi/nf-combaseapi-clsidfromprogidex
+        - name: "CLSIDFromString"
+          href: /windows/win32/api/combaseapi/nf-combaseapi-clsidfromstring
+        - name: "CoAddRefServerProcess"
+          href: /windows/win32/api/combaseapi/nf-combaseapi-coaddrefserverprocess
+        - name: "CoAllowSetForegroundWindow"
+          href: /windows/win32/api/Objbase/nf-objbase-coallowsetforegroundwindow
+        - name: "CoAllowUnmarshalerCLSID"
+          href: /windows/win32/api/combaseapi/nf-combaseapi-coallowunmarshalerclsid
+        - name: "CoCancelCall"
+          href: /windows/win32/api/combaseapi/nf-combaseapi-cocancelcall
+        - name: "CoCopyProxy"
+          href: /windows/win32/api/combaseapi/nf-combaseapi-cocopyproxy
+        - name: "CoCreateFreeThreadedMarshaler"
+          href: /windows/win32/api/combaseapi/nf-combaseapi-cocreatefreethreadedmarshaler
+        - name: "CoCreateGuid"
+          href: /windows/win32/api/combaseapi/nf-combaseapi-cocreateguid
+        - name: "CoCreateInstance"
+          href: /windows/win32/api/combaseapi/nf-combaseapi-cocreateinstance
+        - name: "CoCreateInstanceEx"
+          href: /windows/win32/api/combaseapi/nf-combaseapi-cocreateinstanceex
+        - name: "CoCreateInstanceFromApp"
+          href: /windows/win32/api/combaseapi/nf-combaseapi-cocreateinstancefromapp
+        - name: "CoDecrementMTAUsage"
+          href: /windows/win32/api/combaseapi/nf-combaseapi-codecrementmtausage
+        - name: "CoDisableCallCancellation"
+          href: /windows/win32/api/combaseapi/nf-combaseapi-codisablecallcancellation
+        - name: "CoDisconnectContext"
+          href: /windows/win32/api/combaseapi/nf-combaseapi-codisconnectcontext
+        - name: "CoDisconnectObject"
+          href: /windows/win32/api/combaseapi/nf-combaseapi-codisconnectobject
+        - name: "CoDosDateTimeToFileTime"
+          href: /windows/win32/api/Objbase/nf-objbase-codosdatetimetofiletime
+        - name: "CoEnableCallCancellation"
+          href: /windows/win32/api/combaseapi/nf-combaseapi-coenablecallcancellation
+        - name: "CoFileTimeNow"
+          href: /windows/win32/api/combaseapi/nf-combaseapi-cofiletimenow
+        - name: "CoFileTimeToDosDateTime"
+          href: /windows/win32/api/Objbase/nf-objbase-cofiletimetodosdatetime
+        - name: "CoFreeAllLibraries"
+          href: /windows/win32/api/Objbase/nf-objbase-cofreealllibraries
+        - name: "CoFreeLibrary"
+          href: /windows/win32/api/Objbase/nf-objbase-cofreelibrary
+        - name: "CoFreeUnusedLibraries"
+          href: /windows/win32/api/combaseapi/nf-combaseapi-cofreeunusedlibraries
+        - name: "CoFreeUnusedLibrariesEx"
+          href: /windows/win32/api/combaseapi/nf-combaseapi-cofreeunusedlibrariesex
+        - name: "CoGetApartmentType"
+          href: /windows/win32/api/combaseapi/nf-combaseapi-cogetapartmenttype
+        - name: "CoGetCallContext"
+          href: /windows/win32/api/combaseapi/nf-combaseapi-cogetcallcontext
+        - name: "CoGetCallerTID"
+          href: /windows/win32/api/combaseapi/nf-combaseapi-cogetcallertid
+        - name: "CoGetCancelObject"
+          href: /windows/win32/api/combaseapi/nf-combaseapi-cogetcancelobject
+        - name: "CoGetClassObject"
+          href: /windows/win32/api/combaseapi/nf-combaseapi-cogetclassobject
+        - name: "CoGetContextToken"
+          href: /windows/win32/api/combaseapi/nf-combaseapi-cogetcontexttoken
+        - name: "CoGetCurrentLogicalThreadId"
+          href: /windows/win32/api/combaseapi/nf-combaseapi-cogetcurrentlogicalthreadid
+        - name: "CoGetCurrentProcess"
+          href: /windows/win32/api/combaseapi/nf-combaseapi-cogetcurrentprocess
+        - name: "CoGetInstanceFromFile"
+          href: /windows/win32/api/Objbase/nf-objbase-cogetinstancefromfile
+        - name: "CoGetInstanceFromIStorage"
+          href: /windows/win32/api/Objbase/nf-objbase-cogetinstancefromistorage
+        - name: "CoGetInterceptor"
+          href: /windows/win32/api/Callobj/nf-callobj-cogetinterceptor
+        - name: "CoGetInterfaceAndReleaseStream"
+          href: /windows/win32/api/combaseapi/nf-combaseapi-cogetinterfaceandreleasestream
+        - name: "CoGetMalloc"
+          href: /windows/win32/api/combaseapi/nf-combaseapi-cogetmalloc
+        - name: "CoGetMarshalSizeMax"
+          href: /windows/win32/api/combaseapi/nf-combaseapi-cogetmarshalsizemax
+        - name: "CoGetObject"
+          href: /windows/win32/api/Objbase/nf-objbase-cogetobject
+        - name: "CoGetObjectContext"
+          href: /windows/win32/api/combaseapi/nf-combaseapi-cogetobjectcontext
+        - name: "CoGetPSClsid"
+          href: /windows/win32/api/combaseapi/nf-combaseapi-cogetpsclsid
+        - name: "CoGetStandardMarshal"
+          href: /windows/win32/api/combaseapi/nf-combaseapi-cogetstandardmarshal
+        - name: "CoGetStdMarshalEx"
+          href: /windows/win32/api/combaseapi/nf-combaseapi-cogetstdmarshalex
+        - name: "CoGetSystemSecurityPermissions"
+          href: /windows/win32/api/Objbase/nf-objbase-cogetsystemsecuritypermissions
+        - name: "CoGetTreatAsClass"
+          href: /windows/win32/api/combaseapi/nf-combaseapi-cogettreatasclass
+        - name: "CoHandlePriorityEventsFromMessagePump"
+          href: /windows/win32/api/messagedispatcherapi/nf-messagedispatcherapi-cohandlepriorityeventsfrommessagepump
+        - name: "CoImpersonateClient"
+          href: /windows/win32/api/combaseapi/nf-combaseapi-coimpersonateclient
+        - name: "CoIncrementMTAUsage"
+          href: /windows/win32/api/combaseapi/nf-combaseapi-coincrementmtausage
+        - name: "CoInitialize"
+          href: /windows/win32/api/Objbase/nf-objbase-coinitialize
+        - name: "CoInitializeEx"
+          href: /windows/win32/api/combaseapi/nf-combaseapi-coinitializeex
+        - name: "CoInitializeSecurity"
+          href: /windows/win32/api/combaseapi/nf-combaseapi-coinitializesecurity
+        - name: "CoInstall"
+          href: /windows/win32/api/Objbase/nf-objbase-coinstall
+        - name: "CoInvalidateRemoteMachineBindings"
+          href: /windows/win32/api/combaseapi/nf-combaseapi-coinvalidateremotemachinebindings
+        - name: "CoIsHandlerConnected"
+          href: /windows/win32/api/combaseapi/nf-combaseapi-coishandlerconnected
+        - name: "CoIsOle1Class"
+          href: /windows/win32/api/Objbase/nf-objbase-coisole1class
+        - name: "CoLoadLibrary"
+          href: /windows/win32/api/Objbase/nf-objbase-coloadlibrary
+        - name: "CoLockObjectExternal"
+          href: /windows/win32/api/combaseapi/nf-combaseapi-colockobjectexternal
+        - name: "CoMarshalHresult"
+          href: /windows/win32/api/combaseapi/nf-combaseapi-comarshalhresult
+        - name: "CoMarshalInterface"
+          href: /windows/win32/api/combaseapi/nf-combaseapi-comarshalinterface
+        - name: "CoMarshalInterThreadInterfaceInStream"
+          href: /windows/win32/api/combaseapi/nf-combaseapi-comarshalinterthreadinterfaceinstream
+        - name: "CoQueryAuthenticationServices"
+          href: /windows/win32/api/combaseapi/nf-combaseapi-coqueryauthenticationservices
+        - name: "CoQueryClientBlanket"
+          href: /windows/win32/api/combaseapi/nf-combaseapi-coqueryclientblanket
+        - name: "CoQueryProxyBlanket"
+          href: /windows/win32/api/combaseapi/nf-combaseapi-coqueryproxyblanket
+        - name: "CoRegisterActivationFilter"
+          href: /windows/win32/api/combaseapi/nf-combaseapi-coregisteractivationfilter
+        - name: "CoRegisterChannelHook"
+          href: /windows/win32/api/objbase/nf-objbase-coregisterchannelhook
+        - name: "CoRegisterClassObject"
+          href: /windows/win32/api/combaseapi/nf-combaseapi-coregisterclassobject
+        - name: "CoRegisterInitializeSpy"
+          href: /windows/win32/api/Objbase/nf-objbase-coregisterinitializespy
+        - name: "CoRegisterMallocSpy"
+          href: /windows/win32/api/Objbase/nf-objbase-coregistermallocspy
+        - name: "CoRegisterMessageFilter"
+          href: /windows/win32/api/Objbase/nf-objbase-coregistermessagefilter
+        - name: "CoRegisterPSClsid"
+          href: /windows/win32/api/combaseapi/nf-combaseapi-coregisterpsclsid
+        - name: "CoRegisterSurrogate"
+          href: /windows/win32/api/combaseapi/nf-combaseapi-coregistersurrogate
+        - name: "CoReleaseMarshalData"
+          href: /windows/win32/api/combaseapi/nf-combaseapi-coreleasemarshaldata
+        - name: "CoReleaseServerProcess"
+          href: /windows/win32/api/combaseapi/nf-combaseapi-coreleaseserverprocess
+        - name: "CoResumeClassObjects"
+          href: /windows/win32/api/combaseapi/nf-combaseapi-coresumeclassobjects
+        - name: "CoRevertToSelf"
+          href: /windows/win32/api/combaseapi/nf-combaseapi-coreverttoself
+        - name: "CoRevokeClassObject"
+          href: /windows/win32/api/combaseapi/nf-combaseapi-corevokeclassobject
+        - name: "CoRevokeInitializeSpy"
+          href: /windows/win32/api/Objbase/nf-objbase-corevokeinitializespy
+        - name: "CoRevokeMallocSpy"
+          href: /windows/win32/api/Objbase/nf-objbase-corevokemallocspy
+        - name: "CoSetCancelObject"
+          href: /windows/win32/api/combaseapi/nf-combaseapi-cosetcancelobject
+        - name: "CoSetMessageDispatcher"
+          href: /windows/win32/api/messagedispatcherapi/nf-messagedispatcherapi-cosetmessagedispatcher
+        - name: "CoSetProxyBlanket"
+          href: /windows/win32/api/combaseapi/nf-combaseapi-cosetproxyblanket
+        - name: "CoSuspendClassObjects"
+          href: /windows/win32/api/combaseapi/nf-combaseapi-cosuspendclassobjects
+        - name: "CoSwitchCallContext"
+          href: /windows/win32/api/combaseapi/nf-combaseapi-coswitchcallcontext
+        - name: "CoTaskMemAlloc"
+          href: /windows/win32/api/combaseapi/nf-combaseapi-cotaskmemalloc
+        - name: "CoTaskMemFree"
+          href: /windows/win32/api/combaseapi/nf-combaseapi-cotaskmemfree
+        - name: "CoTaskMemRealloc"
+          href: /windows/win32/api/combaseapi/nf-combaseapi-cotaskmemrealloc
+        - name: "CoTestCancel"
+          href: /windows/win32/api/combaseapi/nf-combaseapi-cotestcancel
+        - name: "CoTreatAsClass"
+          href: /windows/win32/api/Objbase/nf-objbase-cotreatasclass
+        - name: "CoUninitialize"
+          href: /windows/win32/api/combaseapi/nf-combaseapi-couninitialize
+        - name: "CoUnmarshalHresult"
+          href: /windows/win32/api/combaseapi/nf-combaseapi-counmarshalhresult
+        - name: "CoUnmarshalInterface"
+          href: /windows/win32/api/combaseapi/nf-combaseapi-counmarshalinterface
+        - name: "CoWaitForMultipleHandles"
+          href: /windows/win32/api/combaseapi/nf-combaseapi-cowaitformultiplehandles
+        - name: "CoWaitForMultipleObjects"
+          href: /windows/win32/api/combaseapi/nf-combaseapi-cowaitformultipleobjects
+        - name: "CreateAntiMoniker"
+          href: /windows/win32/api/Objbase/nf-objbase-createantimoniker
+        - name: "CreateAsyncBindCtx"
+          href: /windows/win32/api/Urlmon/nf-urlmon-createasyncbindctx
+        - name: "CreateBindCtx"
+          href: /windows/win32/api/Objbase/nf-objbase-createbindctx
+        - name: "CreateClassMoniker"
+          href: /windows/win32/api/Objbase/nf-objbase-createclassmoniker
+        - name: "CreateFileMoniker"
+          href: /windows/win32/api/Objbase/nf-objbase-createfilemoniker
+        - name: "CreateGenericComposite"
+          href: /windows/win32/api/Objbase/nf-objbase-creategenericcomposite
+        - name: "CreateItemMoniker"
+          href: /windows/win32/api/Objbase/nf-objbase-createitemmoniker
+        - name: "CreateObjrefMoniker"
+          href: /windows/win32/api/Objbase/nf-objbase-createobjrefmoniker
+        - name: "CreatePointerMoniker"
+          href: /windows/win32/api/Objbase/nf-objbase-createpointermoniker
+        - name: "LPFNCANUNLOADNOW"
+          href: /windows/win32/api/combaseapi/nf-combaseapi-dllcanunloadnow
+        - name: "DllDebugObjectRPCHook"
+          href: dlldebugobjectrpchook.md
+        - name: "DllGetClassObject"
+          href: /windows/win32/api/combaseapi/nf-combaseapi-dllgetclassobject
+        - name: "DllRegisterServer"
+          href: /windows/win32/api/olectl/nf-olectl-dllregisterserver
+        - name: "DllUnregisterServer"
+          href: /windows/win32/api/olectl/nf-olectl-dllunregisterserver
+        - name: "GetClassFile"
+          href: /windows/win32/api/Objbase/nf-objbase-getclassfile
+        - name: "GetRunningObjectTable"
+          href: /windows/win32/api/Objbase/nf-objbase-getrunningobjecttable
+        - name: "IIDFromString"
+          href: /windows/win32/api/combaseapi/nf-combaseapi-iidfromstring
+        - name: "Initialize"
+          href: /windows/win32/api/roapi/nf-roapi-initialize
+        - name: "IsAccelerator"
+          href: /windows/win32/api/Ole2/nf-ole2-isaccelerator
+        - name: "IsEqualCLSID"
+          href: /windows/win32/api/guiddef/nf-guiddef-isequalclsid
+        - name: "IsEqualGUID"
+          href: /windows/win32/api/guiddef/nf-guiddef-isequalguid
+        - name: "IsEqualIID"
+          href: /windows/win32/api/guiddef/nf-guiddef-isequaliid
+        - name: "MkParseDisplayName"
+          href: /windows/win32/api/Objbase/nf-objbase-mkparsedisplayname
+        - name: "MonikerCommonPrefixWith"
+          href: /windows/win32/api/Objbase/nf-objbase-monikercommonprefixwith
+        - name: "MonikerRelativePathTo"
+          href: /windows/win32/api/Objbase/nf-objbase-monikerrelativepathto
+        - name: "OleBuildVersion"
+          href: /windows/win32/api/Ole2/nf-ole2-olebuildversion
+        - name: "OleDoAutoConvert"
+          href: /windows/win32/api/Ole2/nf-ole2-oledoautoconvert
+        - name: "OleGetAutoConvert"
+          href: /windows/win32/api/Ole2/nf-ole2-olegetautoconvert
+        - name: "OleGetIconOfClass"
+          href: /windows/win32/api/Ole2/nf-ole2-olegeticonofclass
+        - name: "OleGetIconOfFile"
+          href: /windows/win32/api/Ole2/nf-ole2-olegeticonoffile
+        - name: "OleIconToCursor"
+          href: /windows/win32/api/Olectl/nf-olectl-oleicontocursor
+        - name: "OleRegGetMiscStatus"
+          href: /windows/win32/api/Ole2/nf-ole2-olereggetmiscstatus
+        - name: "OleRegGetUserType"
+          href: /windows/win32/api/Ole2/nf-ole2-olereggetusertype
+        - name: "OleSetAutoConvert"
+          href: /windows/win32/api/Ole2/nf-ole2-olesetautoconvert
+        - name: "ProgIDFromCLSID"
+          href: /windows/win32/api/combaseapi/nf-combaseapi-progidfromclsid
+        - name: "StringFromCLSID"
+          href: /windows/win32/api/combaseapi/nf-combaseapi-stringfromclsid
+        - name: "StringFromGUID2"
+          href: /windows/win32/api/combaseapi/nf-combaseapi-stringfromguid2
+        - name: "StringFromIID"
+          href: /windows/win32/api/combaseapi/nf-combaseapi-stringfromiid
+  - name: "OLE and Data Transfer"
+    href: ole-and-data-transfer.md
+    items: 
+    - name: "Guide"
+      href: guide-odt.md
+      items: 
+      - name: "Compound Documents"
+        href: compound-documents.md
+        items: 
+        - name: "Containers and Servers"
+          href: containers-and-servers.md
+        - name: "Linking and Embedding"
+          href: linking-and-embedding.md
+          items: 
+          - name: "Linked Objects"
+            href: linked-objects.md
+          - name: "Embedded Objects"
+            href: embedded-objects.md
+        - name: "Object Handlers"
+          href: object-handlers.md
+          items: 
+          - name: "The Default Handler and Custom Handlers"
+            href: the-default-handler-and-custom-handlers.md
+        - name: "In-Process Servers"
+          href: in-process-servers.md
+          items: 
+          - name: "Advantages"
+            href: advantages.md
+          - name: "Disadvantages"
+            href: disadvantages.md
+        - name: "Linked Objects and Monikers"
+          href: linked-objects-and-monikers.md
+        - name: "Notifications"
+          href: notifications.md
+          items: 
+          - name: "Types of Notifications"
+            href: types-of-notifications.md
+          - name: "How Notifications Work"
+            href: how-notifications-work.md
+        - name: "Compound Document Interfaces"
+          href: compound-document-interfaces.md
+        - name: "Object States"
+          href: object-states.md
+          items: 
+          - name: "Entering the Loaded State"
+            href: entering-the-loaded-state.md
+          - name: "Entering the Running State"
+            href: entering-the-running-state.md
+          - name: "Entering the Passive State"
+            href: entering-the-passive-state.md
+        - name: "Implementing In-Place Activation"
+          href: implementing-in-place-activation.md
+        - name: "Creating Linked and Embedded Objects from Existing Data"
+          href: creating-linked-and-embedded-objects-from-existing-data.md
+        - name: "View Caching"
+          href: view-caching.md
+      - name: "Data Transfer"
+        href: data-transfer.md
+        items: 
+        - name: "Data Transfer Interfaces"
+          href: data-transfer-interfaces.md
+        - name: "Data Formats and Transfer Media"
+          href: data-formats-and-transfer-media.md
+          items: 
+          - name: "The FORMATETC Structure"
+            href: the-formatetc-structure.md
+          - name: "The STGMEDIUM Structure"
+            href: the-stgmedium-structure.md
+        - name: "Drag and Drop"
+          href: drag-and-drop.md
+          items: 
+          - name: "Drag Source Responsibilities"
+            href: drag-source-responsibilities.md
+        - name: "Data Notification"
+          href: data-notification.md
+    - name: "Reference"
+      href: reference-odt.md
+      items: 
+      - name: "Constants"
+        href: constants-odt.md
+        items: 
+        - name: "DROPEFFECT Constants"
+          href: dropeffect-constants.md
+      - name: "Enumerations"
+        href: enumerations-odt.md
+        items: 
+        - name: "ACTIVATEFLAGS"
+          href: /windows/win32/api/OCIdl/ne-ocidl-activateflags
+        - name: "ADVF"
+          href: /windows/win32/api/ObjIdl/ne-objidl-advf
+        - name: "DATADIR"
+          href: /windows/win32/api/ObjIdl/ne-objidl-datadir
+        - name: "DISCARDCACHE"
+          href: /windows/win32/api/OleIdl/ne-oleidl-discardcache
+        - name: "DOCMISC"
+          href: /windows/win32/api/DocObj/ne-docobj-docmisc
+        - name: "DVASPECT"
+          href: /windows/win32/api/WTypes/ne-wtypes-dvaspect
+        - name: "DVASPECT2"
+          href: /windows/win32/api/OCIdl/ne-ocidl-dvaspect2
+        - name: "DVASPECTINFOFLAG"
+          href: /windows/win32/api/OCIdl/ne-ocidl-dvaspectinfoflag
+        - name: "DVEXTENTMODE"
+          href: /windows/win32/api/OCIdl/ne-ocidl-dvextentmode
+        - name: "HITRESULT"
+          href: /windows/win32/api/OCIdl/ne-ocidl-hitresult
+        - name: "OLECLOSE"
+          href: /windows/win32/api/oleidl/ne-oleidl-oleclose
+        - name: "OLECMDEXECOPT"
+          href: /windows/win32/api/DocObj/ne-docobj-olecmdexecopt
+        - name: "OLECMDF"
+          href: /windows/win32/api/DocObj/ne-docobj-olecmdf
+        - name: "OLECMDID"
+          href: /windows/win32/api/DocObj/ne-docobj-olecmdid
+        - name: "OLECMDID_WINDOWSTATE_FLAG"
+          href: /windows/win32/api/DocObj/ne-docobj-olecmdid_windowstate_flag
+        - name: "OLECMDTEXTF"
+          href: /windows/win32/api/DocObj/ne-docobj-olecmdtextf
+        - name: "OLECONTF"
+          href: /windows/win32/api/OleIdl/ne-oleidl-olecontf
+        - name: "OLEDCFLAGS"
+          href: /windows/win32/api/OCIdl/ne-ocidl-oledcflags
+        - name: "OLEGETMONIKER"
+          href: /windows/win32/api/OleIdl/ne-oleidl-olegetmoniker
+        - name: "OLELINKBIND"
+          href: /windows/win32/api/OleIdl/ne-oleidl-olelinkbind
+        - name: "OLEMISC"
+          href: /windows/win32/api/OleIdl/ne-oleidl-olemisc
+        - name: "OLERENDER"
+          href: /windows/win32/api/OleIdl/ne-oleidl-olerender
+        - name: "OLEUIPASTEFLAG"
+          href: /windows/win32/api/OleDlg/ne-oledlg-oleuipasteflag
+        - name: "OLEUPDATE"
+          href: /windows/win32/api/oleidl/ne-oleidl-oleupdate
+        - name: "OLEVERBATTRIB"
+          href: /windows/win32/api/OleIdl/ne-oleidl-oleverbattrib
+        - name: "OLEWHICHMK"
+          href: /windows/win32/api/OleIdl/ne-oleidl-olewhichmk
+        - name: "TYMED"
+          href: /windows/win32/api/ObjIdl/ne-objidl-tymed
+        - name: "UASFLAGS"
+          href: /windows/win32/api/OCIdl/ne-ocidl-uasflags
+        - name: "USERCLASSTYPE"
+          href: /windows/win32/api/OleIdl/ne-oleidl-userclasstype
+        - name: "VIEWSTATUS"
+          href: /windows/win32/api/OCIdl/ne-ocidl-viewstatus
+      - name: "Functions"
+        href: functions-odt.md
+        items: 
+        - name: "CreateDataAdviseHolder"
+          href: /windows/win32/api/ole2/nf-ole2-createdataadviseholder
+        - name: "CreateDataCache"
+          href: /windows/win32/api/ObjBase/nf-objbase-createdatacache
+        - name: "CreateFormatEnumerator"
+          href: /windows/win32/api/Urlmon/nf-urlmon-createformatenumerator
+        - name: "CreateOleAdviseHolder"
+          href: /windows/win32/api/Ole2/nf-ole2-createoleadviseholder
+        - name: "DoDragDrop"
+          href: /windows/win32/api/Ole2/nf-ole2-dodragdrop
+        - name: "OleCreate"
+          href: /windows/win32/api/ole/nf-ole-olecreate
+        - name: "OleCreateDefaultHandler"
+          href: /windows/win32/api/Ole2/nf-ole2-olecreatedefaulthandler
+        - name: "OleCreateEmbeddingHelper"
+          href: /windows/win32/api/Ole2/nf-ole2-olecreateembeddinghelper
+        - name: "OleCreateEx"
+          href: /windows/win32/api/Ole2/nf-ole2-olecreateex
+        - name: "OleCreateFontIndirect"
+          href: /windows/win32/api/OleCtl/nf-olectl-olecreatefontindirect
+        - name: "OleCreateFromData"
+          href: /windows/win32/api/Ole2/nf-ole2-olecreatefromdata
+        - name: "OleCreateFromDataEx"
+          href: /windows/win32/api/Ole2/nf-ole2-olecreatefromdataex
+        - name: "OleCreateFromFile"
+          href: /windows/win32/api/ole/nf-ole-olecreatefromfile
+        - name: "OleCreateFromFileEx"
+          href: /windows/win32/api/Ole2/nf-ole2-olecreatefromfileex
+        - name: "OleCreateLink"
+          href: /windows/win32/api/Ole2/nf-ole2-olecreatelink
+        - name: "OleCreateLinkEx"
+          href: /windows/win32/api/Ole2/nf-ole2-olecreatelinkex
+        - name: "OleCreateLinkFromData"
+          href: /windows/win32/api/Ole2/nf-ole2-olecreatelinkfromdata
+        - name: "OleCreateLinkFromDataEx"
+          href: /windows/win32/api/Ole2/nf-ole2-olecreatelinkfromdataex
+        - name: "OleCreateLinkToFile"
+          href: /windows/win32/api/Ole2/nf-ole2-olecreatelinktofile
+        - name: "OleCreateLinkToFileEx"
+          href: /windows/win32/api/Ole2/nf-ole2-olecreatelinktofileex
+        - name: "OleCreateMenuDescriptor"
+          href: /windows/win32/api/Ole2/nf-ole2-olecreatemenudescriptor
+        - name: "OleCreatePictureIndirect"
+          href: /windows/win32/api/OleCtl/nf-olectl-olecreatepictureindirect
+        - name: "OleCreateStaticFromData"
+          href: /windows/win32/api/Ole2/nf-ole2-olecreatestaticfromdata
+        - name: "OleDestroyMenuDescriptor"
+          href: /windows/win32/api/Ole2/nf-ole2-oledestroymenudescriptor
+        - name: "OleDraw"
+          href: /windows/win32/api/ole/nf-ole-oledraw
+        - name: "OleDuplicateData"
+          href: /windows/win32/api/Ole2/nf-ole2-oleduplicatedata
+        - name: "OleFlushClipboard"
+          href: /windows/win32/api/Ole2/nf-ole2-oleflushclipboard
+        - name: "OleGetClipboard"
+          href: /windows/win32/api/Ole2/nf-ole2-olegetclipboard
+        - name: "OleGetClipboardWithEnterpriseInfo"
+          href: /windows/win32/api/Ole2/nf-ole2-olegetclipboardwithenterpriseinfo
+        - name: "OleInitialize"
+          href: /windows/win32/api/Ole2/nf-ole2-oleinitialize
+        - name: "OleIsCurrentClipboard"
+          href: /windows/win32/api/Ole2/nf-ole2-oleiscurrentclipboard
+        - name: "OleIsRunning"
+          href: /windows/win32/api/Ole2/nf-ole2-oleisrunning
+        - name: "OleLoad"
+          href: /windows/win32/api/Ole2/nf-ole2-oleload
+        - name: "OleLoadFromStream"
+          href: /windows/win32/api/ole/nf-ole-oleloadfromstream
+        - name: "OleLoadPicture"
+          href: /windows/win32/api/OleCtl/nf-olectl-oleloadpicture
+        - name: "OleLoadPictureEx"
+          href: /windows/win32/api/OleCtl/nf-olectl-oleloadpictureex
+        - name: "OleLockRunning"
+          href: /windows/win32/api/Ole2/nf-ole2-olelockrunning
+        - name: "OleMetafilePictFromIconAndLabel"
+          href: /windows/win32/api/Ole2/nf-ole2-olemetafilepictfromiconandlabel
+        - name: "OleNoteObjectVisible"
+          href: /windows/win32/api/Ole2/nf-ole2-olenoteobjectvisible
+        - name: "OleQueryCreateFromData"
+          href: /windows/win32/api/Ole2/nf-ole2-olequerycreatefromdata
+        - name: "OleQueryLinkFromData"
+          href: /windows/win32/api/Ole2/nf-ole2-olequerylinkfromdata
+        - name: "OleRegEnumFormatEtc"
+          href: /windows/win32/api/Ole2/nf-ole2-oleregenumformatetc
+        - name: "OleRegEnumVerbs"
+          href: /windows/win32/api/Ole2/nf-ole2-oleregenumverbs
+        - name: "OleRun"
+          href: /windows/win32/api/Ole2/nf-ole2-olerun
+        - name: "OleSave"
+          href: /windows/win32/api/Ole2/nf-ole2-olesave
+        - name: "OleSaveToStream"
+          href: /windows/win32/api/ole/nf-ole-olesavetostream
+        - name: "OleSetClipboard"
+          href: /windows/win32/api/Ole2/nf-ole2-olesetclipboard
+        - name: "OleSetContainedObject"
+          href: /windows/win32/api/Ole2/nf-ole2-olesetcontainedobject
+        - name: "OleSetMenuDescriptor"
+          href: /windows/win32/api/Ole2/nf-ole2-olesetmenudescriptor
+        - name: "OleTranslateAccelerator"
+          href: /windows/win32/api/Ole2/nf-ole2-oletranslateaccelerator
+        - name: "OleUIAddVerbMenu"
+          href: /windows/win32/api/OleDlg/nf-oledlg-oleuiaddverbmenua
+        - name: "OleUIBusy"
+          href: /windows/win32/api/OleDlg/nf-oledlg-oleuibusya
+        - name: "OleUICanConvertOrActivateAs"
+          href: /windows/win32/api/OleDlg/nf-oledlg-oleuicanconvertoractivateas
+        - name: "OleUIChangeIcon"
+          href: /windows/win32/api/OleDlg/nf-oledlg-oleuichangeicona
+        - name: "OleUIChangeSource"
+          href: /windows/win32/api/OleDlg/nf-oledlg-oleuichangesourcea
+        - name: "OleUIConvert"
+          href: /windows/win32/api/OleDlg/nf-oledlg-oleuiconverta
+        - name: "OleUIEditLinks"
+          href: /windows/win32/api/OleDlg/nf-oledlg-oleuieditlinksa
+        - name: "OleUIInsertObject"
+          href: /windows/win32/api/OleDlg/nf-oledlg-oleuiinsertobjecta
+        - name: "OleUIObjectProperties"
+          href: /windows/win32/api/OleDlg/nf-oledlg-oleuiobjectpropertiesa
+        - name: "OleUIPasteSpecial"
+          href: /windows/win32/api/OleDlg/nf-oledlg-oleuipastespeciala
+        - name: "OleUIPromptUser"
+          href: /windows/win32/api/OleDlg/nf-oledlg-oleuipromptusera
+        - name: "OleUIUpdateLinks"
+          href: /windows/win32/api/OleDlg/nf-oledlg-oleuiupdatelinksa
+        - name: "OleUninitialize"
+          href: /windows/win32/api/Ole2/nf-ole2-oleuninitialize
+        - name: "RegisterDragDrop"
+          href: /windows/win32/api/Ole2/nf-ole2-registerdragdrop
+        - name: "ReleaseStgMedium"
+          href: /windows/win32/api/Ole2/nf-ole2-releasestgmedium
+        - name: "RevokeDragDrop"
+          href: /windows/win32/api/Ole2/nf-ole2-revokedragdrop
+      - name: "Interfaces"
+        href: interfaces-odt.md
+        items: 
+        - name: "IAdviseSink"
+          href: /windows/win32/api/ObjIdl/nn-objidl-iadvisesink
+          items: 
+          - name: "OnClose Method"
+            href: /windows/win32/api/ObjIdl/nf-objidl-iadvisesink-onclose
+          - name: "OnDataChange Method"
+            href: /windows/win32/api/ObjIdl/nf-objidl-iadvisesink-ondatachange
+          - name: "OnRename Method"
+            href: /windows/win32/api/ObjIdl/nf-objidl-iadvisesink-onrename
+          - name: "OnSave Method"
+            href: /windows/win32/api/ObjIdl/nf-objidl-iadvisesink-onsave
+          - name: "OnViewChange Method"
+            href: /windows/win32/api/ObjIdl/nf-objidl-iadvisesink-onviewchange
+        - name: "IAdviseSink2"
+          href: /windows/win32/api/ObjIdl/nn-objidl-iadvisesink2
+          items: 
+          - name: "OnLinkSrcChange Method"
+            href: /windows/win32/api/ObjIdl/nf-objidl-iadvisesink2-onlinksrcchange
+        - name: "IAdviseSinkEx"
+          href: /windows/win32/api/OCIdl/nn-ocidl-iadvisesinkex
+          items: 
+          - name: "OnViewStatusChange Method"
+            href: /windows/win32/api/OCIdl/nf-ocidl-iadvisesinkex-onviewstatuschange
+        - name: "IDataAdviseHolder"
+          href: /windows/win32/api/ObjIdl/nn-objidl-idataadviseholder
+          items: 
+          - name: "Advise Method"
+            href: /windows/win32/api/ObjIdl/nf-objidl-idataadviseholder-advise
+          - name: "EnumAdvise Method"
+            href: /windows/win32/api/ObjIdl/nf-objidl-idataadviseholder-enumadvise
+          - name: "SendOnDataChange Method"
+            href: /windows/win32/api/ObjIdl/nf-objidl-idataadviseholder-sendondatachange
+          - name: "Unadvise Method"
+            href: /windows/win32/api/ObjIdl/nf-objidl-idataadviseholder-unadvise
+        - name: "IDataObject"
+          href: /windows/win32/api/ObjIdl/nn-objidl-idataobject
+          items: 
+          - name: "DAdvise Method"
+            href: /windows/win32/api/ObjIdl/nf-objidl-idataobject-dadvise
+          - name: "DUnadvise Method"
+            href: /windows/win32/api/ObjIdl/nf-objidl-idataobject-dunadvise
+          - name: "EnumDAdvise Method"
+            href: /windows/win32/api/ObjIdl/nf-objidl-idataobject-enumdadvise
+          - name: "EnumFormatEtc Method"
+            href: /windows/win32/api/ObjIdl/nf-objidl-idataobject-enumformatetc
+          - name: "GetCanonicalFormatEtc Method"
+            href: /windows/win32/api/ObjIdl/nf-objidl-idataobject-getcanonicalformatetc
+          - name: "GetData Method"
+            href: /windows/win32/api/ObjIdl/nf-objidl-idataobject-getdata
+          - name: "GetDataHere Method"
+            href: /windows/win32/api/ObjIdl/nf-objidl-idataobject-getdatahere
+          - name: "QueryGetData Method"
+            href: /windows/win32/api/ObjIdl/nf-objidl-idataobject-querygetdata
+          - name: "SetData Method"
+            href: /windows/win32/api/ObjIdl/nf-objidl-idataobject-setdata
+        - name: "IDropSource"
+          href: /windows/win32/api/OleIdl/nn-oleidl-idropsource
+          items: 
+          - name: "GiveFeedback Method"
+            href: /windows/win32/api/OleIdl/nf-oleidl-idropsource-givefeedback
+          - name: "QueryContinueDrag Method"
+            href: /windows/win32/api/OleIdl/nf-oleidl-idropsource-querycontinuedrag
+        - name: "IDropSourceNotify"
+          href: /windows/win32/api/OleIdl/nn-oleidl-idropsourcenotify
+          items: 
+          - name: "DragEnterTarget Method"
+            href: /windows/win32/api/OleIdl/nf-oleidl-idropsourcenotify-dragentertarget
+          - name: "DragLeaveTarget Method"
+            href: /windows/win32/api/OleIdl/nf-oleidl-idropsourcenotify-dragleavetarget
+        - name: "IDropTarget"
+          href: /windows/win32/api/OleIdl/nn-oleidl-idroptarget
+          items: 
+          - name: "DragEnter Method"
+            href: /windows/win32/api/OleIdl/nf-oleidl-idroptarget-dragenter
+          - name: "DragLeave Method"
+            href: /windows/win32/api/OleIdl/nf-oleidl-idroptarget-dragleave
+          - name: "DragOver Method"
+            href: /windows/win32/api/OleIdl/nf-oleidl-idroptarget-dragover
+          - name: "Drop Method"
+            href: /windows/win32/api/OleIdl/nf-oleidl-idroptarget-drop
+        - name: "IEnterpriseDropTarget"
+          href: /windows/win32/api/OleIdl/nn-oleidl-ienterprisedroptarget
+          items: 
+          - name: "SetDropSourceEnterpriseId method"
+            href: /windows/win32/api/OleIdl/nf-oleidl-ienterprisedroptarget-setdropsourceenterpriseid
+          - name: "IsEvaluatingEdpPolicy method"
+            href: /windows/win32/api/OleIdl/nf-oleidl-ienterprisedroptarget-isevaluatingedppolicy
+        - name: "IEnumFORMATETC"
+          href: /windows/win32/api/ObjIdl/nn-objidl-ienumformatetc
+          items: 
+          - name: "Clone Method"
+            href: /windows/win32/api/ObjIdl/nf-objidl-ienumformatetc-clone
+          - name: "Next Method"
+            href: /windows/win32/api/ObjIdl/nf-objidl-ienumformatetc-next
+          - name: "Reset Method"
+            href: /windows/win32/api/ObjIdl/nf-objidl-ienumformatetc-reset
+          - name: "Skip Method"
+            href: /windows/win32/api/ObjIdl/nf-objidl-ienumformatetc-skip
+        - name: "IEnumMoniker"
+          href: /windows/win32/api/ObjIdl/nn-objidl-ienummoniker
+          items: 
+          - name: "Clone Method"
+            href: /windows/win32/api/ObjIdl/nf-objidl-ienummoniker-clone
+          - name: "Next Method"
+            href: /windows/win32/api/ObjIdl/nf-objidl-ienummoniker-next
+          - name: "Reset Method"
+            href: /windows/win32/api/ObjIdl/nf-objidl-ienummoniker-reset
+          - name: "Skip Method"
+            href: /windows/win32/api/ObjIdl/nf-objidl-ienummoniker-skip
+        - name: "IEnumOleDocumentViews"
+          href: /windows/win32/api/DocObj/nn-docobj-ienumoledocumentviews
+          items: 
+          - name: "Clone Method"
+            href: /windows/win32/api/DocObj/nf-docobj-ienumoledocumentviews-clone
+          - name: "Next Method"
+            href: /windows/win32/api/DocObj/nf-docobj-ienumoledocumentviews-next
+          - name: "Reset Method"
+            href: /windows/win32/api/DocObj/nf-docobj-ienumoledocumentviews-reset
+          - name: "Skip Method"
+            href: /windows/win32/api/DocObj/nf-docobj-ienumoledocumentviews-skip
+        - name: "IEnumOleUndoUnits"
+          href: /windows/win32/api/OCIdl/nn-ocidl-ienumoleundounits
+          items: 
+          - name: "Clone Method"
+            href: /windows/win32/api/OCIdl/nf-ocidl-ienumoleundounits-clone
+          - name: "Next Method"
+            href: /windows/win32/api/OCIdl/nf-ocidl-ienumoleundounits-next
+          - name: "Reset Method"
+            href: /windows/win32/api/OCIdl/nf-ocidl-ienumoleundounits-reset
+          - name: "Skip Method"
+            href: /windows/win32/api/OCIdl/nf-ocidl-ienumoleundounits-skip
+        - name: "IEnumOLEVERB"
+          href: /windows/win32/api/OleIdl/nn-oleidl-ienumoleverb
+          items: 
+          - name: "Clone Method"
+            href: /windows/win32/api/OleIdl/nf-oleidl-ienumoleverb-clone
+          - name: "Next Method"
+            href: /windows/win32/api/OleIdl/nf-oleidl-ienumoleverb-next
+          - name: "Reset Method"
+            href: /windows/win32/api/OleIdl/nf-oleidl-ienumoleverb-reset
+          - name: "Skip Method"
+            href: /windows/win32/api/OleIdl/nf-oleidl-ienumoleverb-skip
+        - name: "IEnumSTATDATA"
+          href: /windows/win32/api/ObjIdl/nn-objidl-ienumstatdata
+          items: 
+          - name: "Clone Method"
+            href: /windows/win32/api/ObjIdl/nf-objidl-ienumstatdata-clone
+          - name: "Next Method"
+            href: /windows/win32/api/ObjIdl/nf-objidl-ienumstatdata-next
+          - name: "Reset Method"
+            href: /windows/win32/api/ObjIdl/nf-objidl-ienumstatdata-reset
+          - name: "Skip Method"
+            href: /windows/win32/api/ObjIdl/nf-objidl-ienumstatdata-skip
+        - name: "IObjectWithSite"
+          href: /windows/win32/api/OCIdl/nn-ocidl-iobjectwithsite
+          items: 
+          - name: "GetSite Method"
+            href: /windows/win32/api/OCIdl/nf-ocidl-iobjectwithsite-getsite
+          - name: "SetSite Method"
+            href: /windows/win32/api/OCIdl/nf-ocidl-iobjectwithsite-setsite
+        - name: "IOleAdviseHolder"
+          href: /windows/win32/api/OleIdl/nn-oleidl-ioleadviseholder
+          items: 
+          - name: "Advise Method"
+            href: /windows/win32/api/OleIdl/nf-oleidl-ioleadviseholder-advise
+          - name: "EnumAdvise Method"
+            href: /windows/win32/api/OleIdl/nf-oleidl-ioleadviseholder-enumadvise
+          - name: "SendOnClose Method"
+            href: /windows/win32/api/OleIdl/nf-oleidl-ioleadviseholder-sendonclose
+          - name: "SendOnRename Method"
+            href: /windows/win32/api/OleIdl/nf-oleidl-ioleadviseholder-sendonrename
+          - name: "SendOnSave Method"
+            href: /windows/win32/api/OleIdl/nf-oleidl-ioleadviseholder-sendonsave
+          - name: "Unadvise Method"
+            href: /windows/win32/api/OleIdl/nf-oleidl-ioleadviseholder-unadvise
+        - name: "IOleCache"
+          href: /windows/win32/api/OleIdl/nn-oleidl-iolecache
+          items: 
+          - name: "Cache Method"
+            href: /windows/win32/api/OleIdl/nf-oleidl-iolecache-cache
+          - name: "EnumCache Method"
+            href: /windows/win32/api/OleIdl/nf-oleidl-iolecache-enumcache
+          - name: "InitCache Method"
+            href: /windows/win32/api/OleIdl/nf-oleidl-iolecache-initcache
+          - name: "SetData Method"
+            href: /windows/win32/api/OleIdl/nf-oleidl-iolecache-setdata
+          - name: "Uncache Method"
+            href: /windows/win32/api/OleIdl/nf-oleidl-iolecache-uncache
+        - name: "IOleCache2"
+          href: /windows/win32/api/OleIdl/nn-oleidl-iolecache2
+          items: 
+          - name: "DiscardCache Method"
+            href: /windows/win32/api/OleIdl/nf-oleidl-iolecache2-discardcache
+          - name: "UpdateCache Method"
+            href: /windows/win32/api/OleIdl/nf-oleidl-iolecache2-updatecache
+        - name: "IOleCacheControl"
+          href: /windows/win32/api/OleIdl/nn-oleidl-iolecachecontrol
+          items: 
+          - name: "OnRun Method"
+            href: /windows/win32/api/OleIdl/nf-oleidl-iolecachecontrol-onrun
+          - name: "OnStop Method"
+            href: /windows/win32/api/OleIdl/nf-oleidl-iolecachecontrol-onstop
+        - name: "IOleClientSite"
+          href: /windows/win32/api/OleIdl/nn-oleidl-ioleclientsite
+          items: 
+          - name: "GetContainer Method"
+            href: /windows/win32/api/OleIdl/nf-oleidl-ioleclientsite-getcontainer
+          - name: "GetMoniker Method"
+            href: /windows/win32/api/OleIdl/nf-oleidl-ioleclientsite-getmoniker
+          - name: "OnShowWindow Method"
+            href: /windows/win32/api/OleIdl/nf-oleidl-ioleclientsite-onshowwindow
+          - name: "RequestNewObjectLayout Method"
+            href: /windows/win32/api/OleIdl/nf-oleidl-ioleclientsite-requestnewobjectlayout
+          - name: "SaveObject Method"
+            href: /windows/win32/api/OleIdl/nf-oleidl-ioleclientsite-saveobject
+          - name: "ShowObject Method"
+            href: /windows/win32/api/OleIdl/nf-oleidl-ioleclientsite-showobject
+        - name: "IOleCommandTarget"
+          href: /windows/win32/api/DocObj/nn-docobj-iolecommandtarget
+          items: 
+          - name: "Exec Method"
+            href: /windows/win32/api/DocObj/nf-docobj-iolecommandtarget-exec
+          - name: "QueryStatus Method"
+            href: /windows/win32/api/DocObj/nf-docobj-iolecommandtarget-querystatus
+        - name: "IOleContainer"
+          href: /windows/win32/api/OleIdl/nn-oleidl-iolecontainer
+          items: 
+          - name: "EnumObjects Method"
+            href: /windows/win32/api/OleIdl/nf-oleidl-iolecontainer-enumobjects
+          - name: "LockContainer Method"
+            href: /windows/win32/api/OleIdl/nf-oleidl-iolecontainer-lockcontainer
+        - name: "IOleDocument"
+          href: /windows/win32/api/DocObj/nn-docobj-ioledocument
+          items: 
+          - name: "CreateView Method"
+            href: /windows/win32/api/DocObj/nf-docobj-ioledocument-createview
+          - name: "EnumViews Method"
+            href: /windows/win32/api/DocObj/nf-docobj-ioledocument-enumviews
+          - name: "GetDocMiscStatus Method"
+            href: /windows/win32/api/DocObj/nf-docobj-ioledocument-getdocmiscstatus
+        - name: "IOleDocumentSite"
+          href: /windows/win32/api/DocObj/nn-docobj-ioledocumentsite
+          items: 
+          - name: "ActivateMe Method"
+            href: /windows/win32/api/DocObj/nf-docobj-ioledocumentsite-activateme
+        - name: "IOleDocumentView"
+          href: /windows/win32/api/DocObj/nn-docobj-ioledocumentview
+          items: 
+          - name: "ApplyViewState Method"
+            href: /windows/win32/api/DocObj/nf-docobj-ioledocumentview-applyviewstate
+          - name: "Clone Method"
+            href: /windows/win32/api/DocObj/nf-docobj-ioledocumentview-clone
+          - name: "CloseView Method"
+            href: /windows/win32/api/DocObj/nf-docobj-ioledocumentview-closeview
+          - name: "GetDocument Method"
+            href: /windows/win32/api/DocObj/nf-docobj-ioledocumentview-getdocument
+          - name: "GetInPlaceSite Method"
+            href: /windows/win32/api/DocObj/nf-docobj-ioledocumentview-getinplacesite
+          - name: "GetRect Method"
+            href: /windows/win32/api/DocObj/nf-docobj-ioledocumentview-getrect
+          - name: "Open Method"
+            href: /windows/win32/api/DocObj/nf-docobj-ioledocumentview-open
+          - name: "SaveViewState Method"
+            href: /windows/win32/api/DocObj/nf-docobj-ioledocumentview-saveviewstate
+          - name: "SetInPlaceSite Method"
+            href: /windows/win32/api/DocObj/nf-docobj-ioledocumentview-setinplacesite
+          - name: "SetRect Method"
+            href: /windows/win32/api/DocObj/nf-docobj-ioledocumentview-setrect
+          - name: "SetRectComplex Method"
+            href: /windows/win32/api/DocObj/nf-docobj-ioledocumentview-setrectcomplex
+          - name: "Show Method"
+            href: /windows/win32/api/DocObj/nf-docobj-ioledocumentview-show
+          - name: "UIActivate Method"
+            href: /windows/win32/api/DocObj/nf-docobj-ioledocumentview-uiactivate
+        - name: "IOleInPlaceActiveObject"
+          href: /windows/win32/api/OleIdl/nn-oleidl-ioleinplaceactiveobject
+          items: 
+          - name: "EnableModeless Method"
+            href: /windows/win32/api/OleIdl/nf-oleidl-ioleinplaceactiveobject-enablemodeless
+          - name: "OnDocWindowActivate Method"
+            href: /windows/win32/api/OleIdl/nf-oleidl-ioleinplaceactiveobject-ondocwindowactivate
+          - name: "OnFrameWindowActivate Method"
+            href: /windows/win32/api/OleIdl/nf-oleidl-ioleinplaceactiveobject-onframewindowactivate
+          - name: "ResizeBorder Method"
+            href: /windows/win32/api/OleIdl/nf-oleidl-ioleinplaceactiveobject-resizeborder
+          - name: "TranslateAccelerator Method"
+            href: /windows/win32/api/OleIdl/nf-oleidl-ioleinplaceactiveobject-translateaccelerator
+        - name: "IOleInPlaceFrame"
+          href: /windows/win32/api/OleIdl/nn-oleidl-ioleinplaceframe
+          items: 
+          - name: "EnableModeless Method"
+            href: /windows/win32/api/OleIdl/nf-oleidl-ioleinplaceframe-enablemodeless
+          - name: "InsertMenus Method"
+            href: /windows/win32/api/OleIdl/nf-oleidl-ioleinplaceframe-insertmenus
+          - name: "RemoveMenus Method"
+            href: /windows/win32/api/OleIdl/nf-oleidl-ioleinplaceframe-removemenus
+          - name: "SetMenu Method"
+            href: /windows/win32/api/OleIdl/nf-oleidl-ioleinplaceframe-setmenu
+          - name: "SetStatusText Method"
+            href: /windows/win32/api/OleIdl/nf-oleidl-ioleinplaceframe-setstatustext
+          - name: "TranslateAccelerator Method"
+            href: /windows/win32/api/OleIdl/nf-oleidl-ioleinplaceframe-translateaccelerator
+        - name: "IOleInPlaceObject"
+          href: /windows/win32/api/OleIdl/nn-oleidl-ioleinplaceobject
+          items: 
+          - name: "InPlaceDeactivate Method"
+            href: /windows/win32/api/OleIdl/nf-oleidl-ioleinplaceobject-inplacedeactivate
+          - name: "ReactivateAndUndo Method"
+            href: /windows/win32/api/OleIdl/nf-oleidl-ioleinplaceobject-reactivateandundo
+          - name: "SetObjectRects Method"
+            href: /windows/win32/api/OleIdl/nf-oleidl-ioleinplaceobject-setobjectrects
+          - name: "UIDeactivate Method"
+            href: /windows/win32/api/OleIdl/nf-oleidl-ioleinplaceobject-uideactivate
+        - name: "IOleInPlaceObjectWindowless"
+          href: /windows/win32/api/OCIdl/nn-ocidl-ioleinplaceobjectwindowless
+          items: 
+          - name: "GetDropTarget Method"
+            href: /windows/win32/api/OCIdl/nf-ocidl-ioleinplaceobjectwindowless-getdroptarget
+          - name: "OnWindowMessage Method"
+            href: /windows/win32/api/OCIdl/nf-ocidl-ioleinplaceobjectwindowless-onwindowmessage
+        - name: "IOleInPlaceSite"
+          href: /windows/win32/api/OleIdl/nn-oleidl-ioleinplacesite
+          items: 
+          - name: "CanInPlaceActivate Method"
+            href: /windows/win32/api/OleIdl/nf-oleidl-ioleinplacesite-caninplaceactivate
+          - name: "DeactivateAndUndo Method"
+            href: /windows/win32/api/OleIdl/nf-oleidl-ioleinplacesite-deactivateandundo
+          - name: "DiscardUndoState Method"
+            href: /windows/win32/api/OleIdl/nf-oleidl-ioleinplacesite-discardundostate
+          - name: "GetWindowContext Method"
+            href: /windows/win32/api/OleIdl/nf-oleidl-ioleinplacesite-getwindowcontext
+          - name: "OnInPlaceActivate Method"
+            href: /windows/win32/api/OleIdl/nf-oleidl-ioleinplacesite-oninplaceactivate
+          - name: "OnInPlaceDeactivate Method"
+            href: /windows/win32/api/OleIdl/nf-oleidl-ioleinplacesite-oninplacedeactivate
+          - name: "OnPosRectChange Method"
+            href: /windows/win32/api/OleIdl/nf-oleidl-ioleinplacesite-onposrectchange
+          - name: "OnUIActivate Method"
+            href: /windows/win32/api/OleIdl/nf-oleidl-ioleinplacesite-onuiactivate
+          - name: "OnUIDeactivate Method"
+            href: /windows/win32/api/OleIdl/nf-oleidl-ioleinplacesite-onuideactivate
+          - name: "Scroll Method"
+            href: /windows/win32/api/OleIdl/nf-oleidl-ioleinplacesite-scroll
+        - name: "IOleInPlaceSiteEx"
+          href: /windows/win32/api/OCIdl/nn-ocidl-ioleinplacesiteex
+          items: 
+          - name: "OnInPlaceActivateEx Method"
+            href: /windows/win32/api/OCIdl/nf-ocidl-ioleinplacesiteex-oninplaceactivateex
+          - name: "OnInPlaceDeactivateEx Method"
+            href: /windows/win32/api/OCIdl/nf-ocidl-ioleinplacesiteex-oninplacedeactivateex
+          - name: "RequestUIActivate Method"
+            href: /windows/win32/api/OCIdl/nf-ocidl-ioleinplacesiteex-requestuiactivate
+        - name: "IOleInPlaceSiteWindowless"
+          href: /windows/win32/api/OCIdl/nn-ocidl-ioleinplacesitewindowless
+          items: 
+          - name: "AdjustRect Method"
+            href: /windows/win32/api/OCIdl/nf-ocidl-ioleinplacesitewindowless-adjustrect
+          - name: "CanWindowlessActivate Method"
+            href: /windows/win32/api/OCIdl/nf-ocidl-ioleinplacesitewindowless-canwindowlessactivate
+          - name: "GetCapture Method"
+            href: /windows/win32/api/OCIdl/nf-ocidl-ioleinplacesitewindowless-getcapture
+          - name: "GetDC Method"
+            href: /windows/win32/api/OCIdl/nf-ocidl-ioleinplacesitewindowless-getdc
+          - name: "GetFocus Method"
+            href: /windows/win32/api/OCIdl/nf-ocidl-ioleinplacesitewindowless-getfocus
+          - name: "InvalidateRect Method"
+            href: /windows/win32/api/OCIdl/nf-ocidl-ioleinplacesitewindowless-invalidaterect
+          - name: "InvalidateRgn Method"
+            href: /windows/win32/api/OCIdl/nf-ocidl-ioleinplacesitewindowless-invalidatergn
+          - name: "OnDefWindowMessage Method"
+            href: /windows/win32/api/OCIdl/nf-ocidl-ioleinplacesitewindowless-ondefwindowmessage
+          - name: "ReleaseDC Method"
+            href: /windows/win32/api/OCIdl/nf-ocidl-ioleinplacesitewindowless-releasedc
+          - name: "ScrollRect Method"
+            href: /windows/win32/api/OCIdl/nf-ocidl-ioleinplacesitewindowless-scrollrect
+          - name: "SetCapture Method"
+            href: /windows/win32/api/OCIdl/nf-ocidl-ioleinplacesitewindowless-setcapture
+          - name: "SetFocus Method"
+            href: /windows/win32/api/OCIdl/nf-ocidl-ioleinplacesitewindowless-setfocus
+        - name: "IOleInPlaceUIWindow"
+          href: /windows/win32/api/OleIdl/nn-oleidl-ioleinplaceuiwindow
+          items: 
+          - name: "GetBorder Method"
+            href: /windows/win32/api/OleIdl/nf-oleidl-ioleinplaceuiwindow-getborder
+          - name: "RequestBorderSpace Method"
+            href: /windows/win32/api/OleIdl/nf-oleidl-ioleinplaceuiwindow-requestborderspace
+          - name: "SetActiveObject Method"
+            href: /windows/win32/api/OleIdl/nf-oleidl-ioleinplaceuiwindow-setactiveobject
+          - name: "SetBorderSpace Method"
+            href: /windows/win32/api/OleIdl/nf-oleidl-ioleinplaceuiwindow-setborderspace
+        - name: "IOleLink"
+          href: /windows/win32/api/OleIdl/nn-oleidl-iolelink
+          items: 
+          - name: "BindIfRunning Method"
+            href: /windows/win32/api/OleIdl/nf-oleidl-iolelink-bindifrunning
+          - name: "BindToSource Method"
+            href: /windows/win32/api/OleIdl/nf-oleidl-iolelink-bindtosource
+          - name: "GetBoundSource Method"
+            href: /windows/win32/api/OleIdl/nf-oleidl-iolelink-getboundsource
+          - name: "GetSourceDisplayName Method"
+            href: /windows/win32/api/OleIdl/nf-oleidl-iolelink-getsourcedisplayname
+          - name: "GetSourceMoniker Method"
+            href: /windows/win32/api/OleIdl/nf-oleidl-iolelink-getsourcemoniker
+          - name: "GetUpdateOptions Method"
+            href: /windows/win32/api/OleIdl/nf-oleidl-iolelink-getupdateoptions
+          - name: "SetSourceDisplayName Method"
+            href: /windows/win32/api/OleIdl/nf-oleidl-iolelink-setsourcedisplayname
+          - name: "SetSourceMoniker Method"
+            href: /windows/win32/api/OleIdl/nf-oleidl-iolelink-setsourcemoniker
+          - name: "SetUpdateOptions Method"
+            href: /windows/win32/api/OleIdl/nf-oleidl-iolelink-setupdateoptions
+          - name: "UnbindSource Method"
+            href: /windows/win32/api/OleIdl/nf-oleidl-iolelink-unbindsource
+          - name: "Update Method"
+            href: /windows/win32/api/OleIdl/nf-oleidl-iolelink-update
+        - name: "IOleObject"
+          href: /windows/win32/api/OleIdl/nn-oleidl-ioleobject
+          items: 
+          - name: "Advise Method"
+            href: /windows/win32/api/OleIdl/nf-oleidl-ioleobject-advise
+          - name: "Close Method"
+            href: /windows/win32/api/OleIdl/nf-oleidl-ioleobject-close
+          - name: "DoVerb Method"
+            href: /windows/win32/api/OleIdl/nf-oleidl-ioleobject-doverb
+          - name: "EnumAdvise Method"
+            href: /windows/win32/api/OleIdl/nf-oleidl-ioleobject-enumadvise
+          - name: "EnumVerbs Method"
+            href: /windows/win32/api/OleIdl/nf-oleidl-ioleobject-enumverbs
+          - name: "GetClientSite Method"
+            href: /windows/win32/api/OleIdl/nf-oleidl-ioleobject-getclientsite
+          - name: "GetClipboardData Method"
+            href: /windows/win32/api/OleIdl/nf-oleidl-ioleobject-getclipboarddata
+          - name: "GetExtent Method"
+            href: /windows/win32/api/OleIdl/nf-oleidl-ioleobject-getextent
+          - name: "GetMiscStatus Method"
+            href: /windows/win32/api/OleIdl/nf-oleidl-ioleobject-getmiscstatus
+          - name: "GetMoniker Method"
+            href: /windows/win32/api/OleIdl/nf-oleidl-ioleobject-getmoniker
+          - name: "GetUserClassID Method"
+            href: /windows/win32/api/OleIdl/nf-oleidl-ioleobject-getuserclassid
+          - name: "GetUserType Method"
+            href: /windows/win32/api/OleIdl/nf-oleidl-ioleobject-getusertype
+          - name: "InitFromData Method"
+            href: /windows/win32/api/OleIdl/nf-oleidl-ioleobject-initfromdata
+          - name: "IsUpToDate Method"
+            href: /windows/win32/api/OleIdl/nf-oleidl-ioleobject-isuptodate
+          - name: "SetClientSite Method"
+            href: /windows/win32/api/OleIdl/nf-oleidl-ioleobject-setclientsite
+          - name: "SetColorScheme Method"
+            href: /windows/win32/api/OleIdl/nf-oleidl-ioleobject-setcolorscheme
+          - name: "SetExtent Method"
+            href: /windows/win32/api/OleIdl/nf-oleidl-ioleobject-setextent
+          - name: "SetHostNames Method"
+            href: /windows/win32/api/OleIdl/nf-oleidl-ioleobject-sethostnames
+          - name: "SetMoniker Method"
+            href: /windows/win32/api/OleIdl/nf-oleidl-ioleobject-setmoniker
+          - name: "Unadvise Method"
+            href: /windows/win32/api/OleIdl/nf-oleidl-ioleobject-unadvise
+          - name: "Update Method"
+            href: /windows/win32/api/OleIdl/nf-oleidl-ioleobject-update
+        - name: "IOleParentUndoUnit"
+          href: /windows/win32/api/OCIdl/nn-ocidl-ioleparentundounit
+          items: 
+          - name: "Add Method"
+            href: /windows/win32/api/OCIdl/nf-ocidl-ioleparentundounit-add
+          - name: "Close Method"
+            href: /windows/win32/api/OCIdl/nf-ocidl-ioleparentundounit-close
+          - name: "FindUnit Method"
+            href: /windows/win32/api/OCIdl/nf-ocidl-ioleparentundounit-findunit
+          - name: "GetParentState Method"
+            href: /windows/win32/api/OCIdl/nf-ocidl-ioleparentundounit-getparentstate
+          - name: "Open Method"
+            href: /windows/win32/api/OCIdl/nf-ocidl-ioleparentundounit-open
+        - name: "IOleUILinkContainer"
+          href: /windows/win32/api/OleDlg/nn-oledlg-ioleuilinkcontainera
+          items: 
+          - name: "CancelLink Method"
+            href: /windows/win32/api/OleDlg/nf-oledlg-ioleuilinkcontainera-cancellink
+          - name: "GetLinkSource Method"
+            href: /windows/win32/api/OleDlg/nf-oledlg-ioleuilinkcontainera-getlinksource
+          - name: "GetLinkUpdateOptions Method"
+            href: /windows/win32/api/OleDlg/nf-oledlg-ioleuilinkcontainera-getlinkupdateoptions
+          - name: "GetNextLink Method"
+            href: /windows/win32/api/OleDlg/nf-oledlg-ioleuilinkcontainera-getnextlink
+          - name: "OpenLinkSource Method"
+            href: /windows/win32/api/OleDlg/nf-oledlg-ioleuilinkcontainera-openlinksource
+          - name: "SetLinkSource Method"
+            href: /windows/win32/api/OleDlg/nf-oledlg-ioleuilinkcontainera-setlinksource
+          - name: "SetLinkUpdateOptions Method"
+            href: /windows/win32/api/OleDlg/nf-oledlg-ioleuilinkcontainera-setlinkupdateoptions
+          - name: "UpdateLink Method"
+            href: /windows/win32/api/OleDlg/nf-oledlg-ioleuilinkcontainera-updatelink
+        - name: "IOleUILinkInfo"
+          href: /windows/win32/api/OleDlg/nn-oledlg-ioleuilinkinfoa
+          items: 
+          - name: "GetLastUpdate Method"
+            href: /windows/win32/api/OleDlg/nf-oledlg-ioleuilinkinfoa-getlastupdate
+        - name: "IOleUIObjInfo"
+          href: /windows/win32/api/OleDlg/nn-oledlg-ioleuiobjinfoa
+          items: 
+          - name: "ConvertObject Method"
+            href: /windows/win32/api/OleDlg/nf-oledlg-ioleuiobjinfoa-convertobject
+          - name: "GetConvertInfo Method"
+            href: /windows/win32/api/OleDlg/nf-oledlg-ioleuiobjinfoa-getconvertinfo
+          - name: "GetObjectInfo Method"
+            href: /windows/win32/api/OleDlg/nf-oledlg-ioleuiobjinfoa-getobjectinfo
+          - name: "GetViewInfo Method"
+            href: /windows/win32/api/OleDlg/nf-oledlg-ioleuiobjinfoa-getviewinfo
+          - name: "SetViewInfo Method"
+            href: /windows/win32/api/OleDlg/nf-oledlg-ioleuiobjinfoa-setviewinfo
+        - name: "IOleUndoManager"
+          href: /windows/win32/api/OCIdl/nn-ocidl-ioleundomanager
+          items: 
+          - name: "Add Method"
+            href: /windows/win32/api/OCIdl/nf-ocidl-ioleundomanager-add
+          - name: "Close Method"
+            href: /windows/win32/api/OCIdl/nf-ocidl-ioleundomanager-close
+          - name: "DiscardFrom Method"
+            href: /windows/win32/api/OCIdl/nf-ocidl-ioleundomanager-discardfrom
+          - name: "Enable Method"
+            href: /windows/win32/api/OCIdl/nf-ocidl-ioleundomanager-enable
+          - name: "EnumRedoable Method"
+            href: /windows/win32/api/OCIdl/nf-ocidl-ioleundomanager-enumredoable
+          - name: "EnumUndoable Method"
+            href: /windows/win32/api/OCIdl/nf-ocidl-ioleundomanager-enumundoable
+          - name: "GetLastRedoDescription Method"
+            href: /windows/win32/api/OCIdl/nf-ocidl-ioleundomanager-getlastredodescription
+          - name: "GetLastUndoDescription Method"
+            href: /windows/win32/api/OCIdl/nf-ocidl-ioleundomanager-getlastundodescription
+          - name: "GetOpenParentState Method"
+            href: /windows/win32/api/OCIdl/nf-ocidl-ioleundomanager-getopenparentstate
+          - name: "Open Method"
+            href: /windows/win32/api/OCIdl/nf-ocidl-ioleundomanager-open
+          - name: "RedoTo Method"
+            href: /windows/win32/api/OCIdl/nf-ocidl-ioleundomanager-redoto
+          - name: "UndoTo Method"
+            href: /windows/win32/api/OCIdl/nf-ocidl-ioleundomanager-undoto
+        - name: "IOleUndoUnit"
+          href: /windows/win32/api/OCIdl/nn-ocidl-ioleundounit
+          items: 
+          - name: "Do Method"
+            href: /windows/win32/api/OCIdl/nf-ocidl-ioleundounit-do
+          - name: "GetDescription Method"
+            href: /windows/win32/api/OCIdl/nf-ocidl-ioleundounit-getdescription
+          - name: "GetUnitType Method"
+            href: /windows/win32/api/OCIdl/nf-ocidl-ioleundounit-getunittype
+          - name: "OnNextAdd Method"
+            href: /windows/win32/api/OCIdl/nf-ocidl-ioleundounit-onnextadd
+        - name: "IOleWindow"
+          href: /windows/win32/api/OleIdl/nn-oleidl-iolewindow
+          items: 
+          - name: "ContextSensitiveHelp Method"
+            href: /windows/win32/api/OleIdl/nf-oleidl-iolewindow-contextsensitivehelp
+          - name: "GetWindow Method"
+            href: /windows/win32/api/OleIdl/nf-oleidl-iolewindow-getwindow
+        - name: "IViewObject"
+          href: /windows/win32/api/OleIdl/nn-oleidl-iviewobject
+          items: 
+          - name: "Draw Method"
+            href: /windows/win32/api/OleIdl/nf-oleidl-iviewobject-draw
+          - name: "Freeze Method"
+            href: /windows/win32/api/OleIdl/nf-oleidl-iviewobject-freeze
+          - name: "GetAdvise Method"
+            href: /windows/win32/api/OleIdl/nf-oleidl-iviewobject-getadvise
+          - name: "GetColorSet Method"
+            href: /windows/win32/api/OleIdl/nf-oleidl-iviewobject-getcolorset
+          - name: "SetAdvise Method"
+            href: /windows/win32/api/OleIdl/nf-oleidl-iviewobject-setadvise
+          - name: "Unfreeze Method"
+            href: /windows/win32/api/OleIdl/nf-oleidl-iviewobject-unfreeze
+        - name: "IViewObject2"
+          href: /windows/win32/api/OleIdl/nn-oleidl-iviewobject2
+          items: 
+          - name: "GetExtent Method"
+            href: /windows/win32/api/OleIdl/nf-oleidl-iviewobject2-getextent
+        - name: "IViewObjectEx"
+          href: /windows/win32/api/OCIdl/nn-ocidl-iviewobjectex
+          items: 
+          - name: "GetNaturalExtent Method"
+            href: /windows/win32/api/OCIdl/nf-ocidl-iviewobjectex-getnaturalextent
+          - name: "GetRect Method"
+            href: /windows/win32/api/OCIdl/nf-ocidl-iviewobjectex-getrect
+          - name: "GetViewStatus Method"
+            href: /windows/win32/api/OCIdl/nf-ocidl-iviewobjectex-getviewstatus
+          - name: "QueryHitPoint Method"
+            href: /windows/win32/api/OCIdl/nf-ocidl-iviewobjectex-queryhitpoint
+          - name: "QueryHitRect Method"
+            href: /windows/win32/api/OCIdl/nf-ocidl-iviewobjectex-queryhitrect
+      - name: "Structures"
+        href: structures-odt.md
+        items: 
+        - name: "DVASPECTINFO"
+          href: /windows/win32/api/OCIdl/ns-ocidl-dvaspectinfo
+        - name: "DVEXTENTINFO"
+          href: /windows/win32/api/OCIdl/ns-ocidl-dvextentinfo
+        - name: "DVTARGETDEVICE"
+          href: /windows/win32/api/ObjIdl/ns-objidl-dvtargetdevice
+        - name: "FORMATETC"
+          href: /windows/win32/api/ObjIdl/ns-objidl-formatetc
+        - name: "OBJECTDESCRIPTOR"
+          href: /windows/win32/api/OleIdl/ns-oleidl-objectdescriptor
+        - name: "OLECMD"
+          href: /windows/win32/api/DocObj/ns-docobj-olecmd
+        - name: "OLECMDTEXT"
+          href: /windows/win32/api/DocObj/ns-docobj-olecmdtext
+        - name: "OLEINPLACEFRAMEINFO"
+          href: /windows/win32/api/OleIdl/ns-oleidl-oleinplaceframeinfo
+        - name: "OLEMENUGROUPWIDTHS"
+          href: /windows/win32/api/OleIdl/ns-oleidl-olemenugroupwidths
+        - name: "OLEUIBUSY"
+          href: /windows/win32/api/OleDlg/ns-oledlg-oleuibusya
+        - name: "OLEUICHANGEICON"
+          href: /windows/win32/api/OleDlg/ns-oledlg-oleuichangeicona
+        - name: "OLEUICHANGESOURCE"
+          href: /windows/win32/api/OleDlg/ns-oledlg-oleuichangesourcea
+        - name: "OLEUICONVERT"
+          href: /windows/win32/api/OleDlg/ns-oledlg-oleuiconverta
+        - name: "OLEUIEDITLINKS"
+          href: /windows/win32/api/OleDlg/ns-oledlg-oleuieditlinksa
+        - name: "OLEUIGNRLPROPS"
+          href: /windows/win32/api/OleDlg/ns-oledlg-oleuignrlpropsa
+        - name: "OLEUIINSERTOBJECT"
+          href: /windows/win32/api/OleDlg/ns-oledlg-oleuiinsertobjecta
+        - name: "OLEUILINKPROPS"
+          href: /windows/win32/api/OleDlg/ns-oledlg-oleuilinkpropsa
+        - name: "OLEUIOBJECTPROPS"
+          href: /windows/win32/api/OleDlg/ns-oledlg-oleuiobjectpropsa
+        - name: "OLEUIPASTEENTRY"
+          href: /windows/win32/api/OleDlg/ns-oledlg-oleuipasteentrya
+        - name: "OLEUIPASTESPECIAL"
+          href: /windows/win32/api/OleDlg/ns-oledlg-oleuipastespeciala
+        - name: "OLEUIVIEWPROPS"
+          href: /windows/win32/api/OleDlg/ns-oledlg-oleuiviewpropsa
+        - name: "OLEVERB"
+          href: /windows/win32/api/OleIdl/ns-oleidl-oleverb
+        - name: "POINTF"
+          href: /windows/win32/api/OCIdl/ns-ocidl-pointf
+        - name: "STATDATA"
+          href: /windows/win32/api/ObjIdl/ns-objidl-statdata
+        - name: "STGMEDIUM"
+          href: /windows/win32/api/objidl/ns-objidl-ustgmedium-r1
+  - name: "Controls and Property Pages"
+    href: controls-and-property-pages.md
+    items: 
+    - name: "Guide"
+      href: guide-ctrls.md
+      items: 
+      - name: "ActiveX Controls"
+        href: activex-controls.md
+        items: 
+        - name: "ActiveX Controls Architecture"
+          href: activex-controls-architecture.md
+        - name: "ActiveX Controls Interfaces"
+          href: activex-controls-interfaces.md
+        - name: "Properties and Methods"
+          href: properties-and-methods.md
+          items: 
+          - name: "Control Properties"
+            href: control-properties.md
+            items: 
+            - name: "Standard Properties"
+              href: standard-properties.md
+            - name: "Standard Font Object"
+              href: standard-font-object.md
+            - name: "Standard Picture Object"
+              href: standard-picture-object.md
+          - name: "Control Methods"
+            href: control-methods.md
+        - name: "Control Events"
+          href: control-events.md
+        - name: "Visual Representation"
+          href: visual-representation.md
+        - name: "Keyboard Handling for Controls"
+          href: keyboard-handling-for-controls.md
+        - name: "Persistence"
+          href: persistence.md
+        - name: "Registration and Licensing"
+          href: registration-and-licensing.md
+          items: 
+          - name: "ActiveX Controls Registry Information"
+            href: activex-controls-registry-information.md
+      - name: "Property Pages and Property Sheets"
+        href: property-pages-and-property-sheets.md
+        items: 
+        - name: "Property Sheets and Property Pages"
+          href: property-sheets-and-property-pages.md
+        - name: "Data Binding through IPropertyNotifySink"
+          href: data-binding-through-ipropertynotifysink.md
+      - name: "ActiveX Control and Control Container Guidelines"
+        href: activex-control-and-control-container-guidelines.md
+        items: 
+        - name: "Overview of Control and Control Container Guidelines"
+          href: overview-of-control-and-control-container-guidelines.md
+        - name: "Controls"
+          href: controls.md
+          items: 
+          - name: "Self Registration for Controls"
+            href: self-registration-for-controls.md
+          - name: "What Support for an Interface Means"
+            href: what-support-for-an-interface-means.md
+          - name: "Persistence Interfaces"
+            href: persistence-interfaces.md
+          - name: "Optional Methods in Control Interfaces"
+            href: optional-methods-in-control-interfaces.md
+          - name: "Class Factory Options"
+            href: class-factory-options.md
+          - name: "Exposing Properties through IDispatch"
+            href: properties.md
+          - name: "Exposing Methods through IDispatch"
+            href: exposing-methods-through-idispatch.md
+          - name: "Events in Controls"
+            href: events-in-controls.md
+          - name: "Property Pages"
+            href: property-pages.md
+          - name: "Ambient Properties for Controls"
+            href: ambient-properties-for-controls.md
+          - name: "Using the Container's Functionality"
+            href: using-the-container-s-functionality.md
+        - name: "Containers"
+          href: containers.md
+          items: 
+          - name: "Required Interfaces"
+            href: required-interfaces.md
+          - name: "Optional Methods"
+            href: optional-methods.md
+          - name: "Miscellaneous Status Bits Support"
+            href: miscellaneous-status-bits-support.md
+          - name: "Keyboard Handling in Controls"
+            href: keyboard-handling-in-controls.md
+          - name: "Storage Interfaces"
+            href: storage-interfaces.md
+          - name: "Ambient Properties"
+            href: ambient-properties.md
+          - name: "Extended Properties, Events and Methods"
+            href: extended-properties--events-and-methods.md
+          - name: "Message Reflection"
+            href: message-reflection.md
+          - name: "Automatic Clipping"
+            href: automatic-clipping.md
+          - name: "Degrading Gracefully in the Absence of an Interface"
+            href: degrading-gracefully-in-the-absence-of-an-interface.md
+        - name: "Component Categories"
+          href: component-categories.md
+          items: 
+          - name: "Component Categories and How they Work"
+            href: component-categories-and-how-they-work.md
+          - name: "Simple Frame Site Containment"
+            href: simple-frame-site-containment.md
+          - name: "Simple Data Binding"
+            href: simple-data-binding.md
+          - name: "Advanced Data Binding"
+            href: advanced-data-binding.md
+          - name: "Visual Basic Private Interfaces"
+            href: visual-basic-private-interfaces.md
+            items: 
+            - name: "IGetOleObject"
+              href: /windows/win32/api/VbInterf/nn-vbinterf-igetoleobject
+              items: 
+              - name: "GetOleObject Method"
+                href: /windows/win32/api/VbInterf/nf-vbinterf-igetoleobject-getoleobject
+            - name: "IGetVBAObject"
+              href: /windows/win32/api/VbInterf/nn-vbinterf-igetvbaobject
+              items: 
+              - name: "GetObject Method"
+                href: /windows/win32/api/VbInterf/nf-vbinterf-igetvbaobject-getobject
+            - name: "IVBFormat"
+              href: /windows/win32/api/VbInterf/nn-vbinterf-ivbformat
+              items: 
+              - name: "Format Method"
+                href: /windows/win32/api/VbInterf/nf-vbinterf-ivbformat-format
+            - name: "IVBGetControl"
+              href: /windows/win32/api/VbInterf/nn-vbinterf-ivbgetcontrol
+              items: 
+              - name: "EnumControls Method"
+                href: /windows/win32/api/VbInterf/nf-vbinterf-ivbgetcontrol-enumcontrols
+          - name: "Internet-Aware Objects"
+            href: internet-aware-objects.md
+          - name: "Windowless Controls"
+            href: windowless-controls.md
+          - name: "Categorizing DCOM Proxies and Stubs"
+            href: categorizing-dcom-proxies-and-stubs.md
+        - name: "General Guidelines"
+          href: general-guidelines.md
+          items: 
+          - name: "Overloading IPropertyNotifySink"
+            href: overloading-ipropertynotifysink.md
+          - name: "Container-Specific Private Interfaces"
+            href: container-specific-private-interfaces.md
+          - name: "Multi-Threaded Issues"
+            href: multithreaded-issues.md
+          - name: "Event Freezing"
+            href: event-freezing.md
+          - name: "Container Controls"
+            href: container-controls.md
+          - name: "WS_GROUP and WS_TABSTOP Flags in Controls"
+            href: ws-group-and-ws-tabstop-flags-in-controls.md
+          - name: "Multiple Controls in One DLL"
+            href: multiple-controls-in-one-dll.md
+          - name: "The IOleContainer::EnumObjects Method"
+            href: the-iolecontainer--enumobjects-method.md
+          - name: "Enhanced Metafiles"
+            href: enhanced-metafiles.md
+          - name: "Licensing"
+            href: licensing.md
+          - name: "Dual Interfaces"
+            href: dual-interfaces.md
+          - name: "IPropertyBag and IPersistPropertyBag"
+            href: ipropertybag-and-ipersistpropertybag.md
+        - name: "Event Coordinate Translation"
+          href: event-coordinate-translation.md
+        - name: "Standard DISPIDS"
+          href: standard-dispids.md
+        - name: "Databinding"
+          href: databinding.md
+    - name: "Reference"
+      href: reference-ctrls.md
+      items: 
+      - name: "Constants"
+        href: constants-ctrls.md
+        items: 
+        - name: "PICTYPE Constants"
+          href: pictype-constants.md
+      - name: "Enumerations"
+        href: enumerations-ctrls.md
+        items: 
+        - name: "GUIDKIND"
+          href: /windows/win32/api/OCIdl/ne-ocidl-guidkind
+        - name: "PICTUREATTRIBUTES"
+          href: /windows/win32/api/OCIdl/ne-ocidl-pictureattributes
+        - name: "POINTERINACTIVE"
+          href: /windows/win32/api/OCIdl/ne-ocidl-pointerinactive
+        - name: "QACONTAINERFLAGS"
+          href: /windows/win32/api/OCIdl/ne-ocidl-qacontainerflags
+      - name: "Functions"
+        href: functions-ctrls.md
+        items: 
+        - name: "OleCreatePropertyFrame"
+          href: /windows/win32/api/OleCtl/nf-olectl-olecreatepropertyframe
+        - name: "OleCreatePropertyFrameIndirect"
+          href: /windows/win32/api/OleCtl/nf-olectl-olecreatepropertyframeindirect
+        - name: "OleLoadPicturePath"
+          href: /windows/win32/api/OleCtl/nf-olectl-oleloadpicturepath
+        - name: "OleTranslateColor"
+          href: /windows/win32/api/OleCtl/nf-olectl-oletranslatecolor
+      - name: "Interfaces"
+        href: interfaces-ctrls.md
+        items: 
+        - name: "IFont"
+          href: /windows/win32/api/OCIdl/nn-ocidl-ifont
+          items: 
+          - name: "AddRefHfont Method"
+            href: /windows/win32/api/OCIdl/nf-ocidl-ifont-addrefhfont
+          - name: "Clone Method"
+            href: /windows/win32/api/OCIdl/nf-ocidl-ifont-clone
+          - name: "get_Bold Method"
+            href: /windows/win32/api/OCIdl/nf-ocidl-ifont-get_bold
+          - name: "get_Charset Method"
+            href: /windows/win32/api/OCIdl/nf-ocidl-ifont-get_charset
+          - name: "get_hFont Method"
+            href: /windows/win32/api/OCIdl/nf-ocidl-ifont-get_hfont
+          - name: "get_Italic Method"
+            href: /windows/win32/api/OCIdl/nf-ocidl-ifont-get_italic
+          - name: "get_Name Method"
+            href: /windows/win32/api/OCIdl/nf-ocidl-ifont-get_name
+          - name: "get_Size Method"
+            href: /windows/win32/api/OCIdl/nf-ocidl-ifont-get_size
+          - name: "get_Strikethrough Method"
+            href: /windows/win32/api/OCIdl/nf-ocidl-ifont-get_strikethrough
+          - name: "get_Underline Method"
+            href: /windows/win32/api/OCIdl/nf-ocidl-ifont-get_underline
+          - name: "get_Weight Method"
+            href: /windows/win32/api/OCIdl/nf-ocidl-ifont-get_weight
+          - name: "IsEqual Method"
+            href: /windows/win32/api/OCIdl/nf-ocidl-ifont-isequal
+          - name: "put_Bold Method"
+            href: /windows/win32/api/OCIdl/nf-ocidl-ifont-put_bold
+          - name: "put_Charset Method"
+            href: /windows/win32/api/OCIdl/nf-ocidl-ifont-put_charset
+          - name: "put_Italic Method"
+            href: /windows/win32/api/OCIdl/nf-ocidl-ifont-put_italic
+          - name: "put_Name Method"
+            href: /windows/win32/api/OCIdl/nf-ocidl-ifont-put_name
+          - name: "put_Size Method"
+            href: /windows/win32/api/OCIdl/nf-ocidl-ifont-put_size
+          - name: "put_Strikethrough Method"
+            href: /windows/win32/api/OCIdl/nf-ocidl-ifont-put_strikethrough
+          - name: "put_Underline Method"
+            href: /windows/win32/api/OCIdl/nf-ocidl-ifont-put_underline
+          - name: "put_Weight Method"
+            href: /windows/win32/api/OCIdl/nf-ocidl-ifont-put_weight
+          - name: "QueryTextMetrics Method"
+            href: /windows/win32/api/OCIdl/nf-ocidl-ifont-querytextmetrics
+          - name: "ReleaseHfont Method"
+            href: /windows/win32/api/OCIdl/nf-ocidl-ifont-releasehfont
+          - name: "SetHdc Method"
+            href: /windows/win32/api/OCIdl/nf-ocidl-ifont-sethdc
+          - name: "SetRatio Method"
+            href: /windows/win32/api/OCIdl/nf-ocidl-ifont-setratio
+        - name: "IFontDisp"
+          href: /windows/win32/api/ocidl/nn-ocidl-ifontdisp
+        - name: "IOleControl"
+          href: /windows/win32/api/OCIdl/nn-ocidl-iolecontrol
+          items: 
+          - name: "FreezeEvents Method"
+            href: /windows/win32/api/OCIdl/nf-ocidl-iolecontrol-freezeevents
+          - name: "GetControlInfo Method"
+            href: /windows/win32/api/OCIdl/nf-ocidl-iolecontrol-getcontrolinfo
+          - name: "OnAmbientPropertyChange Method"
+            href: /windows/win32/api/OCIdl/nf-ocidl-iolecontrol-onambientpropertychange
+          - name: "OnMnemonic Method"
+            href: /windows/win32/api/OCIdl/nf-ocidl-iolecontrol-onmnemonic
+        - name: "IOleControlSite"
+          href: /windows/win32/api/OCIdl/nn-ocidl-iolecontrolsite
+          items: 
+          - name: "GetExtendedControl Method"
+            href: /windows/win32/api/OCIdl/nf-ocidl-iolecontrolsite-getextendedcontrol
+          - name: "LockInPlaceActive Method"
+            href: /windows/win32/api/OCIdl/nf-ocidl-iolecontrolsite-lockinplaceactive
+          - name: "OnControlInfoChanged Method"
+            href: /windows/win32/api/OCIdl/nf-ocidl-iolecontrolsite-oncontrolinfochanged
+          - name: "OnFocus Method"
+            href: /windows/win32/api/OCIdl/nf-ocidl-iolecontrolsite-onfocus
+          - name: "ShowPropertyFrame Method"
+            href: /windows/win32/api/OCIdl/nf-ocidl-iolecontrolsite-showpropertyframe
+          - name: "TransformCoords Method"
+            href: /windows/win32/api/OCIdl/nf-ocidl-iolecontrolsite-transformcoords
+          - name: "TranslateAccelerator Method"
+            href: /windows/win32/api/OCIdl/nf-ocidl-iolecontrolsite-translateaccelerator
+        - name: "IPerPropertyBrowsing"
+          href: /windows/win32/api/OCIdl/nn-ocidl-iperpropertybrowsing
+          items: 
+          - name: "GetDisplayString Method"
+            href: /windows/win32/api/OCIdl/nf-ocidl-iperpropertybrowsing-getdisplaystring
+          - name: "GetPredefinedStrings Method"
+            href: /windows/win32/api/OCIdl/nf-ocidl-iperpropertybrowsing-getpredefinedstrings
+          - name: "GetPredefinedValue Method"
+            href: /windows/win32/api/OCIdl/nf-ocidl-iperpropertybrowsing-getpredefinedvalue
+          - name: "MapPropertyToPage Method"
+            href: /windows/win32/api/OCIdl/nf-ocidl-iperpropertybrowsing-mappropertytopage
+        - name: "IPicture"
+          href: /windows/win32/api/OCIdl/nn-ocidl-ipicture
+          items: 
+          - name: "get_Attributes Method"
+            href: /windows/win32/api/OCIdl/nf-ocidl-ipicture-get_attributes
+          - name: "get_CurDC Method"
+            href: /windows/win32/api/OCIdl/nf-ocidl-ipicture-get_curdc
+          - name: "get_Handle Method"
+            href: /windows/win32/api/OCIdl/nf-ocidl-ipicture-get_handle
+          - name: "get_Height Method"
+            href: /windows/win32/api/OCIdl/nf-ocidl-ipicture-get_height
+          - name: "get_hPal Method"
+            href: /windows/win32/api/OCIdl/nf-ocidl-ipicture-get_hpal
+          - name: "get_KeepOriginalFormat Method"
+            href: /windows/win32/api/OCIdl/nf-ocidl-ipicture-get_keeporiginalformat
+          - name: "get_Type Method"
+            href: /windows/win32/api/OCIdl/nf-ocidl-ipicture-get_type
+          - name: "get_Width Method"
+            href: /windows/win32/api/OCIdl/nf-ocidl-ipicture-get_width
+          - name: "PictureChanged Method"
+            href: /windows/win32/api/OCIdl/nf-ocidl-ipicture-picturechanged
+          - name: "put_KeepOriginalFormat Method"
+            href: /windows/win32/api/OCIdl/nf-ocidl-ipicture-put_keeporiginalformat
+          - name: "Render Method"
+            href: /windows/win32/api/OCIdl/nf-ocidl-ipicture-render
+          - name: "SaveAsFile Method"
+            href: /windows/win32/api/OCIdl/nf-ocidl-ipicture-saveasfile
+          - name: "SelectPicture Method"
+            href: /windows/win32/api/OCIdl/nf-ocidl-ipicture-selectpicture
+          - name: "set_hPal Method"
+            href: /windows/win32/api/OCIdl/nf-ocidl-ipicture-set_hpal
+        - name: "IPictureDisp"
+          href: /windows/win32/api/ocidl/nn-ocidl-ipicturedisp
+        - name: "IPointerInactive"
+          href: /windows/win32/api/OCIdl/nn-ocidl-ipointerinactive
+          items: 
+          - name: "GetActivationPolicy Method"
+            href: /windows/win32/api/OCIdl/nf-ocidl-ipointerinactive-getactivationpolicy
+          - name: "OnInactiveMouseMove Method"
+            href: /windows/win32/api/OCIdl/nf-ocidl-ipointerinactive-oninactivemousemove
+          - name: "OnInactiveSetCursor Method"
+            href: /windows/win32/api/OCIdl/nf-ocidl-ipointerinactive-oninactivesetcursor
+        - name: "IPrint"
+          href: /windows/win32/api/DocObj/nn-docobj-iprint
+          items: 
+          - name: "GetPageInfo Method"
+            href: /windows/win32/api/DocObj/nf-docobj-iprint-getpageinfo
+          - name: "Print Method"
+            href: /windows/win32/api/DocObj/nf-docobj-iprint-print
+          - name: "SetInitialPageNum Method"
+            href: /windows/win32/api/DocObj/nf-docobj-iprint-setinitialpagenum
+        - name: "IPropertyNotifySink"
+          href: /windows/win32/api/OCIdl/nn-ocidl-ipropertynotifysink
+          items: 
+          - name: "OnChanged Method"
+            href: /windows/win32/api/OCIdl/nf-ocidl-ipropertynotifysink-onchanged
+          - name: "OnRequestEdit Method"
+            href: /windows/win32/api/OCIdl/nf-ocidl-ipropertynotifysink-onrequestedit
+        - name: "IPropertyPage"
+          href: /windows/win32/api/OCIdl/nn-ocidl-ipropertypage
+          items: 
+          - name: "Activate Method"
+            href: /windows/win32/api/OCIdl/nf-ocidl-ipropertypage-activate
+          - name: "Apply Method"
+            href: /windows/win32/api/OCIdl/nf-ocidl-ipropertypage-apply
+          - name: "Deactivate Method"
+            href: /windows/win32/api/OCIdl/nf-ocidl-ipropertypage-deactivate
+          - name: "GetPageInfo Method"
+            href: /windows/win32/api/OCIdl/nf-ocidl-ipropertypage-getpageinfo
+          - name: "Help Method"
+            href: /windows/win32/api/OCIdl/nf-ocidl-ipropertypage-help
+          - name: "IsPageDirty Method"
+            href: /windows/win32/api/OCIdl/nf-ocidl-ipropertypage-ispagedirty
+          - name: "Move Method"
+            href: /windows/win32/api/OCIdl/nf-ocidl-ipropertypage-move
+          - name: "SetObjects Method"
+            href: /windows/win32/api/OCIdl/nf-ocidl-ipropertypage-setobjects
+          - name: "SetPageSite Method"
+            href: /windows/win32/api/OCIdl/nf-ocidl-ipropertypage-setpagesite
+          - name: "Show Method"
+            href: /windows/win32/api/OCIdl/nf-ocidl-ipropertypage-show
+          - name: "TranslateAccelerator Method"
+            href: /windows/win32/api/OCIdl/nf-ocidl-ipropertypage-translateaccelerator
+        - name: "IPropertyPage2"
+          href: /windows/win32/api/OCIdl/nn-ocidl-ipropertypage2
+          items: 
+          - name: "EditProperty Method"
+            href: /windows/win32/api/OCIdl/nf-ocidl-ipropertypage2-editproperty
+        - name: "IPropertyPageSite"
+          href: /windows/win32/api/OCIdl/nn-ocidl-ipropertypagesite
+          items: 
+          - name: "GetLocaleID Method"
+            href: /windows/win32/api/OCIdl/nf-ocidl-ipropertypagesite-getlocaleid
+          - name: "GetPageContainer Method"
+            href: /windows/win32/api/OCIdl/nf-ocidl-ipropertypagesite-getpagecontainer
+          - name: "OnStatusChange Method"
+            href: /windows/win32/api/OCIdl/nf-ocidl-ipropertypagesite-onstatuschange
+          - name: "TranslateAccelerator Method"
+            href: /windows/win32/api/OCIdl/nf-ocidl-ipropertypagesite-translateaccelerator
+        - name: "IQuickActivate"
+          href: /windows/win32/api/OCIdl/nn-ocidl-iquickactivate
+          items: 
+          - name: "GetContentExtent Method"
+            href: /windows/win32/api/OCIdl/nf-ocidl-iquickactivate-getcontentextent
+          - name: "QuickActivate Method"
+            href: /windows/win32/api/OCIdl/nf-ocidl-iquickactivate-quickactivate
+          - name: "SetContentExtent Method"
+            href: /windows/win32/api/OCIdl/nf-ocidl-iquickactivate-setcontentextent
+        - name: "ISimpleFrameSite"
+          href: /windows/win32/api/OCIdl/nn-ocidl-isimpleframesite
+          items: 
+          - name: "PostMessageFilter Method"
+            href: /windows/win32/api/OCIdl/nf-ocidl-isimpleframesite-postmessagefilter
+          - name: "PreMessageFilter Method"
+            href: /windows/win32/api/OCIdl/nf-ocidl-isimpleframesite-premessagefilter
+        - name: "ISpecifyPropertyPages"
+          href: /windows/win32/api/OCIdl/nn-ocidl-ispecifypropertypages
+          items: 
+          - name: "GetPages Method"
+            href: /windows/win32/api/OCIdl/nf-ocidl-ispecifypropertypages-getpages
+      - name: "Structures"
+        href: structures-ctrls.md
+        items: 
+        - name: "CADWORD"
+          href: /windows/win32/api/OCIdl/ns-ocidl-cadword
+        - name: "CALPOLESTR"
+          href: /windows/win32/api/OCIdl/ns-ocidl-calpolestr
+        - name: "CAUUID"
+          href: /windows/win32/api/OCIdl/ns-ocidl-cauuid
+        - name: "CONTROLINFO"
+          href: /windows/win32/api/OCIdl/ns-ocidl-controlinfo
+        - name: "FONTDESC"
+          href: /windows/win32/api/Olectl/ns-olectl-fontdesc
+        - name: "LICINFO"
+          href: /windows/win32/api/OCIdl/ns-ocidl-licinfo
+        - name: "OCPFIPARAMS"
+          href: /windows/win32/api/Olectl/ns-olectl-ocpfiparams
+        - name: "PAGERANGE"
+          href: /windows/win32/api/Docobj/ns-docobj-pagerange
+        - name: "PAGESET"
+          href: /windows/win32/api/Docobj/ns-docobj-pageset
+        - name: "PICTDESC"
+          href: /windows/win32/api/Olectl/ns-olectl-pictdesc
+        - name: "PROPPAGEINFO"
+          href: /windows/win32/api/OCIdl/ns-ocidl-proppageinfo
+        - name: "QACONTAINER"
+          href: /windows/win32/api/OCIdl/ns-ocidl-qacontainer
+        - name: "QACONTROL"
+          href: /windows/win32/api/OCIdl/ns-ocidl-qacontrol
+  - name: "COM Language Translations"
+    href: com-language-translations.md
+    items: 
+    - name: "Syntax Differences"
+      href: syntax-differences.md
+    - name: "Data Type Conversions"
+      href: data-type-conversions.md
+    - name: "IDL Files"
+      href: idl-files.md
+    - name: "Translating COM Object Syntax for Programming Languages"
+      href: translating-com-object-syntax-for-programming-languages.md
+      items: 
+      - name: "Type Library Viewers and Conversion Tools"
+        href: type-library-viewers-and-conversion-tools.md
+      - name: "How Developer Tools Use Type Libraries"
+        href: how-developer-tools-use-type-libraries.md
+      - name: "Translating to C++"
+        href: translating-to-c--.md
+        items: 
+        - name: "Translating to C++ from Visual Basic"
+          href: translating-to-c---from-visual-basic.md
+        - name: "Translating to C++ from Java"
+          href: translating-to-c---from-java.md
+        - name: "Adding an ActiveX Control to a Visual C++ Project"
+          href: adding-an-activex-control-to-a-visual-c---project.md
+        - name: "MIDL Compiler"
+          href: midl-compiler.md
+        - name: "MkTypLib Command-Line Tool"
+          href: mktyplib-command-line-tool.md
+        - name: "OLE-COM Object Viewer"
+          href: ole-com-object-viewer.md
+      - name: "Translating to Visual Basic"
+        href: translating-to-visual-basic.md
+        items: 
+        - name: "Translating to Visual Basic from C++"
+          href: translating-to-visual-basic-from-c--.md
+        - name: "Translating to Visual Basic from Java"
+          href: translating-to-visual-basic-from-java.md
+        - name: "Adding a Component to a Visual Basic Project"
+          href: adding-a-component-to-a-visual-basic-project.md
+        - name: "Adding a Reference to a Visual Basic Project"
+          href: adding-a-reference-to-a-visual-basic-project.md
+        - name: "Visual Basic Object Browser"
+          href: visual-basic-object-browser.md
+      - name: "Translating to Java"
+        href: translating-to-java.md
+        items: 
+        - name: "Translating to Java from C++"
+          href: translating-to-java-from-c--.md
+        - name: "Translating to Java from Visual Basic"
+          href: translating-to-java-from-visual-basic.md
+        - name: "JActiveX Command-Line Tool"
+          href: jactivex-command-line-tool.md
+        - name: "Java Type Library Wizard"
+          href: java-type-library-wizard.md
+        - name: "JavaTLB Command-Line Tool"
+          href: javatlb-command-line-tool.md
+    - name: "Scripting with COM Objects"
+      href: scripting-with-com-objects.md
+      items: 
+      - name: "Embedding COM Objects in Web Pages"
+        href: embedding-com-objects-in-web-pages.md
+      - name: "Using COM Objects in Active Server Pages"
+        href: using-com-objects-in-active-server-pages.md
+      - name: "Using COM Objects in Windows Script Host"
+        href: using-com-objects-in-windows-script-host.md
+      - name: "Scripting COM Objects in Custom Applications"
+        href: scripting-com-objects-in-custom-applications.md
+      - name: "Translating to VBScript"
+        href: translating-to-vbscript.md
+        items: 
+        - name: "Translating to VBScript from JScript"
+          href: translating-to-vbscript-from-jscript.md
+        - name: "Translating to VBScript from JavaScript"
+          href: translating-to-vbscript-from-javascript.md
+      - name: "Translating to JScript"
+        href: translating-to-jscript.md
+        items: 
+        - name: "Translating to JScript from VBScript"
+          href: translating-to-jscript-from-vbscript.md
+        - name: "Translating to JScript from JavaScript"
+          href: translating-to-jscript-from-javascript.md
+      - name: "Translating to JavaScript"
+        href: translating-to-javascript.md
+        items: 
+        - name: "Translating to JavaScript from VBScript"
+          href: translating-to-javascript-from-vbscript.md
+        - name: "Translating to JavaScript from JScript"
+          href: translating-to-javascript-from-jscript.md
+  - name: "COM Glossary"
+    href: com-glossary.md

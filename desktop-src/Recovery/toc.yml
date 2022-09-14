@@ -1,0 +1,34 @@
+- name: "Application Recovery and Restart"
+  href: application-recovery-and-restart-portal.md
+  items: 
+  - name: "Using Application Recovery and Restart"
+    href: using-application-recovery-and-restart.md
+    items: 
+    - name: "Registering for Application Recovery"
+      href: registering-for-application-recovery.md
+    - name: "Registering for Application Restart"
+      href: registering-for-application-restart.md
+  - name: "Application Recovery and Restart Reference"
+    href: application-recovery-and-restart-reference.md
+    items: 
+    - name: "Application Recovery and Restart Functions"
+      href: application-recovery-and-restart-functions.md
+      items: 
+      - name: "ApplicationRecoveryCallback"
+        href: /previous-versions/windows/desktop/legacy/aa373202(v=vs.85)
+      - name: "ApplicationRecoveryFinished"
+        href: /windows/desktop/api/winbase/nf-winbase-applicationrecoveryfinished
+      - name: "ApplicationRecoveryInProgress"
+        href: /windows/desktop/api/winbase/nf-winbase-applicationrecoveryinprogress
+      - name: "GetApplicationRecoveryCallback"
+        href: /windows/desktop/api/winbase/nf-winbase-getapplicationrecoverycallback
+      - name: "GetApplicationRestartSettings"
+        href: /windows/desktop/api/winbase/nf-winbase-getapplicationrestartsettings
+      - name: "RegisterApplicationRecoveryCallback"
+        href: /windows/desktop/api/winbase/nf-winbase-registerapplicationrecoverycallback
+      - name: "RegisterApplicationRestart"
+        href: /windows/desktop/api/winbase/nf-winbase-registerapplicationrestart
+      - name: "UnregisterApplicationRecoveryCallback"
+        href: /windows/desktop/api/winbase/nf-winbase-unregisterapplicationrecoverycallback
+      - name: "UnregisterApplicationRestart"
+        href: /windows/desktop/api/winbase/nf-winbase-unregisterapplicationrestart

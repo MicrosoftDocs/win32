@@ -1,0 +1,2008 @@
+- name: "Direct3D 10 Graphics"
+  href: d3d10-graphics.md
+  items: 
+  - name: "Programming Guide for Direct3D 10"
+    href: d3d10-graphics-programming-guide.md
+    items: 
+    - name: "API Features"
+      href: d3d10-graphics-programming-guide-api-features.md
+      items: 
+      - name: "State Objects"
+        href: d3d10-graphics-programming-guide-api-features-state-objects.md
+      - name: "API Layers"
+        href: d3d10-graphics-programming-guide-api-features-layers.md
+        items: 
+        - name: "Customize Debug Output with ID3D10InfoQueue"
+          href: d3d10-graphics-programming-guide-api-features-layers-info-queue.md
+      - name: "Reference Counting"
+        href: d3d10-graphics-programming-guide-api-features-reference-counting.md
+      - name: "Deprecated Features"
+        href: d3d10-graphics-programming-guide-api-features-deprecated.md
+    - name: "Pipeline Stages"
+      href: d3d10-graphics-programming-guide-pipeline-stages.md
+    - name: "Resources"
+      href: d3d10-graphics-programming-guide-resources.md
+      items: 
+      - name: "Resource Types"
+        href: d3d10-graphics-programming-guide-resources-types.md
+      - name: "Choosing a Resource"
+        href: d3d10-graphics-programming-guide-resources-choosing-basic.md
+      - name: "Creating Buffer Resources"
+        href: d3d10-graphics-programming-guide-resources-creating.md
+      - name: "Creating Texture Resources"
+        href: d3d10-graphics-programming-guide-resources-creating-textures.md
+      - name: "Copying and Accessing Resource Data"
+        href: d3d10-graphics-programming-guide-resources-mapping.md
+      - name: "Texture Views"
+        href: d3d10-graphics-programming-guide-resources-access-views.md
+      - name: "Block Compression"
+        href: d3d10-graphics-programming-guide-resources-block-compression.md
+      - name: "Resource Limits"
+        href: d3d10-graphics-programming-guide-resources-limits.md
+      - name: "Coordinate Systems"
+        href: d3d10-graphics-programming-guide-resources-coordinates.md
+      - name: "Floating-Point Rules"
+        href: d3d10-graphics-programming-guide-resources-float-rules.md
+      - name: "Data Conversion Rules"
+        href: d3d10-graphics-programming-guide-resources-data-conversion.md
+      - name: "Legacy Formats: Map Direct3D 9 Formats to Direct3D 10"
+        href: d3d10-graphics-programming-guide-resources-legacy-formats.md
+    - name: "Effects"
+      href: d3d10-graphics-programming-guide-effects.md
+      items: 
+      - name: "Organizing State in an Effect"
+        href: d3d10-graphics-programming-guide-effects-organize.md
+      - name: "Effect System Interfaces"
+        href: d3d10-graphics-programming-guide-effects-interfaces.md
+      - name: "Specializing Interfaces"
+        href: d3d10-graphics-reference-effect-specializing.md
+      - name: "Rendering an Effect"
+        href: d3d10-graphics-programming-guide-effects-render.md
+        items: 
+        - name: "Compile an Effect"
+          href: d3d10-graphics-programming-guide-effects-compile.md
+        - name: "Create an Effect"
+          href: d3d10-graphics-programming-guide-effects-create.md
+        - name: "Set Effect State"
+          href: d3d10-graphics-programming-guide-effects-set-state.md
+        - name: "Apply a Technique"
+          href: d3d10-graphics-programming-guide-effects-apply-technique.md
+        - name: "Performance Considerations"
+          href: d3d10-graphics-programming-guide-effects-performance.md
+    - name: "Direct3D 9 to Direct3D 10 Considerations"
+      href: d3d10-graphics-programming-guide-d3d9-to-d3d10-considerations.md
+    - name: "Linking Static and Dynamic Libraries"
+      href: d3d10-graphics-programming-guide-libs-and-dlls.md
+    - name: "Direct3D 10.1 Features"
+      href: d3d10-graphics-programming-guide-10-1.md
+  - name: "Reference for Direct3D 10"
+    href: d3d10-graphics-reference.md
+    items: 
+    - name: "Direct3D Reference"
+      href: d3d10-graphics-reference-d3d10.md
+      items: 
+      - name: "Core Reference"
+        href: d3d10-graphics-reference-d3d10-core.md
+        items: 
+        - name: "Core Interfaces"
+          href: d3d10-graphics-reference-d3d10-core-interfaces.md
+          items: 
+          - name: "ID3D10Asynchronous"
+            href: /windows/desktop/api/D3D10/nn-d3d10-id3d10asynchronous
+            items: 
+            - name: "Begin"
+              href: /windows/desktop/api/D3D10/nf-d3d10-id3d10asynchronous-begin
+            - name: "End"
+              href: /windows/desktop/api/D3D10/nf-d3d10-id3d10asynchronous-end
+            - name: "GetData"
+              href: /windows/desktop/api/D3D10/nf-d3d10-id3d10asynchronous-getdata
+            - name: "GetDataSize"
+              href: /windows/desktop/api/D3D10/nf-d3d10-id3d10asynchronous-getdatasize
+          - name: "ID3D10BlendState"
+            href: /windows/desktop/api/D3D10/nn-d3d10-id3d10blendstate
+            items: 
+            - name: "GetDesc"
+              href: /windows/desktop/api/D3D10/nf-d3d10-id3d10blendstate-getdesc
+          - name: "ID3D10BlendState1"
+            href: /windows/desktop/api/D3D10_1/nn-d3d10_1-id3d10blendstate1
+            items: 
+            - name: "GetDesc"
+              href: /previous-versions/windows/desktop/legacy/bb694545(v=vs.85)
+          - name: "ID3D10Blob"
+            href: /windows/desktop/api/D3DCommon/nn-d3dcommon-id3d10blob
+            items: 
+            - name: "GetBufferPointer"
+              href: /windows/desktop/api/D3DCommon/nf-d3dcommon-id3d10blob-getbufferpointer
+            - name: "GetBufferSize"
+              href: /windows/desktop/api/D3DCommon/nf-d3dcommon-id3d10blob-getbuffersize
+          - name: "ID3D10Counter"
+            href: /windows/desktop/api/D3D10/nn-d3d10-id3d10counter
+            items: 
+            - name: "GetDesc"
+              href: /windows/desktop/api/D3D10/nf-d3d10-id3d10counter-getdesc
+          - name: "ID3D10Debug"
+            href: /windows/desktop/api/D3D10SDKLayers/nn-d3d10sdklayers-id3d10debug
+            items: 
+            - name: "GetFeatureMask"
+              href: /windows/desktop/api/D3D10SDKLayers/nf-d3d10sdklayers-id3d10debug-getfeaturemask
+            - name: "GetPresentPerRenderOpDelay"
+              href: /windows/desktop/api/D3D10SDKLayers/nf-d3d10sdklayers-id3d10debug-getpresentperrenderopdelay
+            - name: "GetSwapChain"
+              href: /windows/desktop/api/D3D10SDKLayers/nf-d3d10sdklayers-id3d10debug-getswapchain
+            - name: "SetFeatureMask"
+              href: /windows/desktop/api/D3D10SDKLayers/nf-d3d10sdklayers-id3d10debug-setfeaturemask
+            - name: "SetPresentPerRenderOpDelay"
+              href: /windows/desktop/api/D3D10SDKLayers/nf-d3d10sdklayers-id3d10debug-setpresentperrenderopdelay
+            - name: "SetSwapChain"
+              href: /windows/desktop/api/D3D10SDKLayers/nf-d3d10sdklayers-id3d10debug-setswapchain
+            - name: "Validate"
+              href: /windows/desktop/api/D3D10SDKLayers/nf-d3d10sdklayers-id3d10debug-validate
+          - name: "ID3D10DepthStencilState"
+            href: /windows/desktop/api/D3D10/nn-d3d10-id3d10depthstencilstate
+            items: 
+            - name: "GetDesc"
+              href: /windows/desktop/api/D3D10/nf-d3d10-id3d10depthstencilstate-getdesc
+          - name: "ID3D10Device"
+            href: /windows/desktop/api/D3D10/nn-d3d10-id3d10device
+            items: 
+            - name: "CheckCounter"
+              href: /windows/desktop/api/D3D10/nf-d3d10-id3d10device-checkcounter
+            - name: "CheckCounterInfo"
+              href: /windows/desktop/api/D3D10/nf-d3d10-id3d10device-checkcounterinfo
+            - name: "CheckFormatSupport"
+              href: /windows/desktop/api/D3D10/nf-d3d10-id3d10device-checkformatsupport
+            - name: "CheckMultisampleQualityLevels"
+              href: /windows/desktop/api/D3D10/nf-d3d10-id3d10device-checkmultisamplequalitylevels
+            - name: "ClearDepthStencilView"
+              href: /windows/desktop/api/D3D10/nf-d3d10-id3d10device-cleardepthstencilview
+            - name: "ClearRenderTargetView"
+              href: /windows/desktop/api/D3D10/nf-d3d10-id3d10device-clearrendertargetview
+            - name: "ClearState"
+              href: /windows/desktop/api/d3d10/nf-d3d10-id3d10device-clearstate
+            - name: "CopyResource"
+              href: /windows/desktop/api/D3D10/nf-d3d10-id3d10device-copyresource
+            - name: "CopySubresourceRegion"
+              href: /windows/desktop/api/D3D10/nf-d3d10-id3d10device-copysubresourceregion
+            - name: "CreateBlendState"
+              href: /windows/desktop/api/D3D10/nf-d3d10-id3d10device-createblendstate
+            - name: "CreateBuffer"
+              href: /windows/desktop/api/D3D10/nf-d3d10-id3d10device-createbuffer
+            - name: "CreateCounter"
+              href: /windows/desktop/api/D3D10/nf-d3d10-id3d10device-createcounter
+            - name: "CreateDepthStencilState"
+              href: /windows/desktop/api/D3D10/nf-d3d10-id3d10device-createdepthstencilstate
+            - name: "CreateDepthStencilView"
+              href: /windows/desktop/api/D3D10/nf-d3d10-id3d10device-createdepthstencilview
+            - name: "CreateGeometryShader"
+              href: /windows/desktop/api/D3D10/nf-d3d10-id3d10device-creategeometryshader
+            - name: "CreateGeometryShaderWithStreamOutput"
+              href: /windows/desktop/api/D3D10/nf-d3d10-id3d10device-creategeometryshaderwithstreamoutput
+            - name: "CreateInputLayout"
+              href: /windows/desktop/api/D3D10/nf-d3d10-id3d10device-createinputlayout
+            - name: "CreatePixelShader"
+              href: /windows/desktop/api/D3D10/nf-d3d10-id3d10device-createpixelshader
+            - name: "CreatePredicate"
+              href: /windows/desktop/api/D3D10/nf-d3d10-id3d10device-createpredicate
+            - name: "CreateQuery"
+              href: /windows/desktop/api/D3D10/nf-d3d10-id3d10device-createquery
+            - name: "CreateRasterizerState"
+              href: /windows/desktop/api/D3D10/nf-d3d10-id3d10device-createrasterizerstate
+            - name: "CreateRenderTargetView"
+              href: /windows/desktop/api/D3D10/nf-d3d10-id3d10device-createrendertargetview
+            - name: "CreateSamplerState"
+              href: /windows/desktop/api/D3D10/nf-d3d10-id3d10device-createsamplerstate
+            - name: "CreateShaderResourceView"
+              href: /windows/desktop/api/D3D10/nf-d3d10-id3d10device-createshaderresourceview
+            - name: "CreateTexture1D"
+              href: /windows/desktop/api/D3D10/nf-d3d10-id3d10device-createtexture1d
+            - name: "CreateTexture2D"
+              href: /windows/desktop/api/D3D10/nf-d3d10-id3d10device-createtexture2d
+            - name: "CreateTexture3D"
+              href: /windows/desktop/api/D3D10/nf-d3d10-id3d10device-createtexture3d
+            - name: "CreateVertexShader"
+              href: /windows/desktop/api/D3D10/nf-d3d10-id3d10device-createvertexshader
+            - name: "Draw"
+              href: /windows/desktop/api/D3D10/nf-d3d10-id3d10device-draw
+            - name: "DrawAuto"
+              href: /windows/desktop/api/D3D10/nf-d3d10-id3d10device-drawauto
+            - name: "DrawIndexed"
+              href: /windows/desktop/api/D3D10/nf-d3d10-id3d10device-drawindexed
+            - name: "DrawIndexedInstanced"
+              href: /windows/desktop/api/D3D10/nf-d3d10-id3d10device-drawindexedinstanced
+            - name: "DrawInstanced"
+              href: /windows/desktop/api/D3D10/nf-d3d10-id3d10device-drawinstanced
+            - name: "Flush"
+              href: /windows/desktop/api/D3D10/nf-d3d10-id3d10device-flush
+            - name: "GSGetConstantBuffers"
+              href: /windows/desktop/api/D3D10/nf-d3d10-id3d10device-gsgetconstantbuffers
+            - name: "GSGetSamplers"
+              href: /windows/desktop/api/D3D10/nf-d3d10-id3d10device-gsgetsamplers
+            - name: "GSGetShader"
+              href: /windows/desktop/api/D3D10/nf-d3d10-id3d10device-gsgetshader
+            - name: "GSGetShaderResources"
+              href: /windows/desktop/api/D3D10/nf-d3d10-id3d10device-gsgetshaderresources
+            - name: "GSSetConstantBuffers"
+              href: /windows/desktop/api/D3D10/nf-d3d10-id3d10device-gssetconstantbuffers
+            - name: "GSSetSamplers"
+              href: /windows/desktop/api/D3D10/nf-d3d10-id3d10device-gssetsamplers
+            - name: "GSSetShader"
+              href: /windows/desktop/api/D3D10/nf-d3d10-id3d10device-gssetshader
+            - name: "GSSetShaderResources"
+              href: /windows/desktop/api/D3D10/nf-d3d10-id3d10device-gssetshaderresources
+            - name: "GenerateMips"
+              href: /windows/desktop/api/D3D10/nf-d3d10-id3d10device-generatemips
+            - name: "GetCreationFlags"
+              href: /windows/desktop/api/D3D10/nf-d3d10-id3d10device-getcreationflags
+            - name: "GetDeviceRemovedReason"
+              href: /windows/desktop/api/D3D10/nf-d3d10-id3d10device-getdeviceremovedreason
+            - name: "GetExceptionMode"
+              href: /windows/desktop/api/D3D10/nf-d3d10-id3d10device-getexceptionmode
+            - name: "GetPredication"
+              href: /windows/desktop/api/D3D10/nf-d3d10-id3d10device-getpredication
+            - name: "GetPrivateData"
+              href: /windows/desktop/api/D3D10/nf-d3d10-id3d10device-getprivatedata
+            - name: "GetTextFilterSize"
+              href: /windows/desktop/api/D3D10/nf-d3d10-id3d10device-gettextfiltersize
+            - name: "IAGetIndexBuffer"
+              href: /windows/desktop/api/D3D10/nf-d3d10-id3d10device-iagetindexbuffer
+            - name: "IAGetInputLayout"
+              href: /windows/desktop/api/D3D10/nf-d3d10-id3d10device-iagetinputlayout
+            - name: "IAGetPrimitiveTopology"
+              href: /windows/desktop/api/D3D10/nf-d3d10-id3d10device-iagetprimitivetopology
+            - name: "IAGetVertexBuffers"
+              href: /windows/desktop/api/D3D10/nf-d3d10-id3d10device-iagetvertexbuffers
+            - name: "IASetIndexBuffer"
+              href: /windows/desktop/api/D3D10/nf-d3d10-id3d10device-iasetindexbuffer
+            - name: "IASetInputLayout"
+              href: /windows/desktop/api/D3D10/nf-d3d10-id3d10device-iasetinputlayout
+            - name: "IASetPrimitiveTopology"
+              href: /windows/desktop/api/D3D10/nf-d3d10-id3d10device-iasetprimitivetopology
+            - name: "IASetVertexBuffers"
+              href: /windows/desktop/api/D3D10/nf-d3d10-id3d10device-iasetvertexbuffers
+            - name: "OMGetBlendState"
+              href: /windows/desktop/api/D3D10/nf-d3d10-id3d10device-omgetblendstate
+            - name: "OMGetDepthStencilState"
+              href: /windows/desktop/api/D3D10/nf-d3d10-id3d10device-omgetdepthstencilstate
+            - name: "OMGetRenderTargets"
+              href: /windows/desktop/api/D3D10/nf-d3d10-id3d10device-omgetrendertargets
+            - name: "OMSetBlendState"
+              href: /windows/desktop/api/D3D10/nf-d3d10-id3d10device-omsetblendstate
+            - name: "OMSetDepthStencilState"
+              href: /windows/desktop/api/D3D10/nf-d3d10-id3d10device-omsetdepthstencilstate
+            - name: "OMSetRenderTargets"
+              href: /windows/desktop/api/D3D10/nf-d3d10-id3d10device-omsetrendertargets
+            - name: "OpenSharedResource"
+              href: /windows/desktop/api/D3d10/nf-d3d10-id3d10device-opensharedresource
+            - name: "PSGetConstantBuffers"
+              href: /windows/desktop/api/D3D10/nf-d3d10-id3d10device-psgetconstantbuffers
+            - name: "PSGetSamplers"
+              href: /windows/desktop/api/D3D10/nf-d3d10-id3d10device-psgetsamplers
+            - name: "PSGetShader"
+              href: /windows/desktop/api/D3D10/nf-d3d10-id3d10device-psgetshader
+            - name: "PSGetShaderResources"
+              href: /windows/desktop/api/D3D10/nf-d3d10-id3d10device-psgetshaderresources
+            - name: "PSSetConstantBuffers"
+              href: /windows/desktop/api/D3D10/nf-d3d10-id3d10device-pssetconstantbuffers
+            - name: "PSSetSamplers"
+              href: /windows/desktop/api/D3D10/nf-d3d10-id3d10device-pssetsamplers
+            - name: "PSSetShader"
+              href: /windows/desktop/api/D3D10/nf-d3d10-id3d10device-pssetshader
+            - name: "PSSetShaderResources"
+              href: /windows/desktop/api/D3D10/nf-d3d10-id3d10device-pssetshaderresources
+            - name: "ResolveSubresource"
+              href: /windows/desktop/api/d3d10/nf-d3d10-id3d10device-resolvesubresource
+            - name: "RSGetScissorRects"
+              href: /windows/desktop/api/D3D10/nf-d3d10-id3d10device-rsgetscissorrects
+            - name: "RSGetState"
+              href: /windows/desktop/api/D3D10/nf-d3d10-id3d10device-rsgetstate
+            - name: "RSGetViewports"
+              href: /windows/desktop/api/D3D10/nf-d3d10-id3d10device-rsgetviewports
+            - name: "RSSetScissorRects"
+              href: /windows/desktop/api/D3D10/nf-d3d10-id3d10device-rssetscissorrects
+            - name: "RSSetState"
+              href: /windows/desktop/api/D3D10/nf-d3d10-id3d10device-rssetstate
+            - name: "RSSetViewports"
+              href: /windows/desktop/api/D3D10/nf-d3d10-id3d10device-rssetviewports
+            - name: "SetTextFilterSize"
+              href: /windows/desktop/api/D3D10/nf-d3d10-id3d10device-settextfiltersize
+            - name: "SOGetTargets"
+              href: /windows/desktop/api/D3D10/nf-d3d10-id3d10device-sogettargets
+            - name: "SOSetTargets"
+              href: /windows/desktop/api/D3D10/nf-d3d10-id3d10device-sosettargets
+            - name: "SetExceptionMode"
+              href: /windows/desktop/api/D3D10/nf-d3d10-id3d10device-setexceptionmode
+            - name: "SetPredication"
+              href: /windows/desktop/api/D3D10/nf-d3d10-id3d10device-setpredication
+            - name: "SetPrivateData"
+              href: /windows/desktop/api/D3D10/nf-d3d10-id3d10device-setprivatedata
+            - name: "SetPrivateDataInterface"
+              href: /windows/desktop/api/D3D10/nf-d3d10-id3d10device-setprivatedatainterface
+            - name: "UpdateSubresource"
+              href: /windows/desktop/api/D3D10/nf-d3d10-id3d10device-updatesubresource
+            - name: "VSGetConstantBuffers"
+              href: /windows/desktop/api/D3D10/nf-d3d10-id3d10device-vsgetconstantbuffers
+            - name: "VSGetSamplers"
+              href: /windows/desktop/api/D3D10/nf-d3d10-id3d10device-vsgetsamplers
+            - name: "VSGetShader"
+              href: /windows/desktop/api/D3D10/nf-d3d10-id3d10device-vsgetshader
+            - name: "VSGetShaderResources"
+              href: /windows/desktop/api/D3D10/nf-d3d10-id3d10device-vsgetshaderresources
+            - name: "VSSetConstantBuffers"
+              href: /windows/desktop/api/D3D10/nf-d3d10-id3d10device-vssetconstantbuffers
+            - name: "VSSetSamplers"
+              href: /windows/desktop/api/D3D10/nf-d3d10-id3d10device-vssetsamplers
+            - name: "VSSetShader"
+              href: /windows/desktop/api/D3D10/nf-d3d10-id3d10device-vssetshader
+            - name: "VSSetShaderResources"
+              href: /windows/desktop/api/D3D10/nf-d3d10-id3d10device-vssetshaderresources
+          - name: "ID3D10Device1"
+            href: /windows/desktop/api/D3D10_1/nn-d3d10_1-id3d10device1
+            items: 
+            - name: "CreateBlendState1"
+              href: /windows/desktop/api/D3D10_1/nf-d3d10_1-id3d10device1-createblendstate1
+            - name: "CreateShaderResourceView1"
+              href: /windows/desktop/api/D3D10_1/nf-d3d10_1-id3d10device1-createshaderresourceview1
+            - name: "GetFeatureLevel"
+              href: /windows/desktop/api/D3D10_1/nf-d3d10_1-id3d10device1-getfeaturelevel
+          - name: "ID3D10DeviceChild"
+            href: /windows/desktop/api/D3D10/nn-d3d10-id3d10devicechild
+            items: 
+            - name: "GetDevice"
+              href: /windows/desktop/api/D3D10/nf-d3d10-id3d10devicechild-getdevice
+            - name: "GetPrivateData"
+              href: /windows/desktop/api/D3D10/nf-d3d10-id3d10devicechild-getprivatedata
+            - name: "SetPrivateData"
+              href: /windows/desktop/api/D3D10/nf-d3d10-id3d10devicechild-setprivatedata
+            - name: "SetPrivateDataInterface"
+              href: /windows/desktop/api/D3D10/nf-d3d10-id3d10devicechild-setprivatedatainterface
+          - name: "ID3D10Include"
+            href: /previous-versions/windows/desktop/legacy/bb173775(v=vs.85)
+            items: 
+            - name: "Close"
+              href: /previous-versions/windows/desktop/legacy/bb173776(v=vs.85)
+            - name: "Open"
+              href: /previous-versions/windows/desktop/legacy/bb173778(v=vs.85)
+          - name: "ID3D10InfoQueue"
+            href: /windows/desktop/api/D3D10SDKLayers/nn-d3d10sdklayers-id3d10infoqueue
+            items: 
+            - name: "AddApplicationMessage"
+              href: /windows/desktop/api/D3D10SDKLayers/nf-d3d10sdklayers-id3d10infoqueue-addapplicationmessage
+            - name: "AddMessage"
+              href: /windows/desktop/api/D3D10SDKLayers/nf-d3d10sdklayers-id3d10infoqueue-addmessage
+            - name: "AddRetrievalFilterEntries"
+              href: /windows/desktop/api/D3D10SDKLayers/nf-d3d10sdklayers-id3d10infoqueue-addretrievalfilterentries
+            - name: "AddStorageFilterEntries"
+              href: /windows/desktop/api/D3D10SDKLayers/nf-d3d10sdklayers-id3d10infoqueue-addstoragefilterentries
+            - name: "ClearRetrievalFilter"
+              href: /windows/desktop/api/D3D10SDKLayers/nf-d3d10sdklayers-id3d10infoqueue-clearretrievalfilter
+            - name: "ClearStorageFilter"
+              href: /windows/desktop/api/D3D10SDKLayers/nf-d3d10sdklayers-id3d10infoqueue-clearstoragefilter
+            - name: "ClearStoredMessages"
+              href: /windows/desktop/api/D3D10SDKLayers/nf-d3d10sdklayers-id3d10infoqueue-clearstoredmessages
+            - name: "GetBreakOnCategory"
+              href: /windows/desktop/api/D3D10SDKLayers/nf-d3d10sdklayers-id3d10infoqueue-getbreakoncategory
+            - name: "GetBreakOnID"
+              href: /windows/desktop/api/D3D10SDKLayers/nf-d3d10sdklayers-id3d10infoqueue-getbreakonid
+            - name: "GetBreakOnSeverity"
+              href: /windows/desktop/api/D3D10SDKLayers/nf-d3d10sdklayers-id3d10infoqueue-getbreakonseverity
+            - name: "GetMessage"
+              href: /windows/desktop/api/D3D10SDKLayers/nf-d3d10sdklayers-id3d10infoqueue-getmessage
+            - name: "GetMessageCountLimit"
+              href: /windows/desktop/api/D3D10SDKLayers/nf-d3d10sdklayers-id3d10infoqueue-getmessagecountlimit
+            - name: "GetMuteDebugOutput"
+              href: /windows/desktop/api/D3D10SDKLayers/nf-d3d10sdklayers-id3d10infoqueue-getmutedebugoutput
+            - name: "GetNumMessagesAllowedByStorageFilter"
+              href: /windows/desktop/api/D3D10SDKLayers/nf-d3d10sdklayers-id3d10infoqueue-getnummessagesallowedbystoragefilter
+            - name: "GetNumMessagesDeniedByStorageFilter"
+              href: /windows/desktop/api/D3D10SDKLayers/nf-d3d10sdklayers-id3d10infoqueue-getnummessagesdeniedbystoragefilter
+            - name: "GetNumMessagesDiscardedByMessageCountLimit"
+              href: /windows/desktop/api/D3D10SDKLayers/nf-d3d10sdklayers-id3d10infoqueue-getnummessagesdiscardedbymessagecountlimit
+            - name: "GetNumStoredMessages"
+              href: /windows/desktop/api/D3D10SDKLayers/nf-d3d10sdklayers-id3d10infoqueue-getnumstoredmessages
+            - name: "GetNumStoredMessagesAllowedByRetrievalFilter"
+              href: /windows/desktop/api/D3D10SDKLayers/nf-d3d10sdklayers-id3d10infoqueue-getnumstoredmessagesallowedbyretrievalfilter
+            - name: "GetRetrievalFilter"
+              href: /windows/desktop/api/D3D10SDKLayers/nf-d3d10sdklayers-id3d10infoqueue-getretrievalfilter
+            - name: "GetRetrievalFilterStackSize"
+              href: /windows/desktop/api/D3D10SDKLayers/nf-d3d10sdklayers-id3d10infoqueue-getretrievalfilterstacksize
+            - name: "GetStorageFilter"
+              href: /windows/desktop/api/D3D10SDKLayers/nf-d3d10sdklayers-id3d10infoqueue-getstoragefilter
+            - name: "GetStorageFilterStackSize"
+              href: /windows/desktop/api/D3D10SDKLayers/nf-d3d10sdklayers-id3d10infoqueue-getstoragefilterstacksize
+            - name: "PopRetrievalFilter"
+              href: /windows/desktop/api/D3D10SDKLayers/nf-d3d10sdklayers-id3d10infoqueue-popretrievalfilter
+            - name: "PopStorageFilter"
+              href: /windows/desktop/api/D3D10SDKLayers/nf-d3d10sdklayers-id3d10infoqueue-popstoragefilter
+            - name: "PushCopyOfRetrievalFilter"
+              href: /windows/desktop/api/D3D10SDKLayers/nf-d3d10sdklayers-id3d10infoqueue-pushcopyofretrievalfilter
+            - name: "PushCopyOfStorageFilter"
+              href: /windows/desktop/api/D3D10SDKLayers/nf-d3d10sdklayers-id3d10infoqueue-pushcopyofstoragefilter
+            - name: "PushEmptyRetrievalFilter"
+              href: /windows/desktop/api/D3D10SDKLayers/nf-d3d10sdklayers-id3d10infoqueue-pushemptyretrievalfilter
+            - name: "PushEmptyStorageFilter"
+              href: /windows/desktop/api/D3D10SDKLayers/nf-d3d10sdklayers-id3d10infoqueue-pushemptystoragefilter
+            - name: "PushRetrievalFilter"
+              href: /windows/desktop/api/D3D10SDKLayers/nf-d3d10sdklayers-id3d10infoqueue-pushretrievalfilter
+            - name: "PushStorageFilter"
+              href: /windows/desktop/api/D3D10SDKLayers/nf-d3d10sdklayers-id3d10infoqueue-pushstoragefilter
+            - name: "SetBreakOnCategory"
+              href: /windows/desktop/api/D3D10SDKLayers/nf-d3d10sdklayers-id3d10infoqueue-setbreakoncategory
+            - name: "SetBreakOnID"
+              href: /windows/desktop/api/D3D10SDKLayers/nf-d3d10sdklayers-id3d10infoqueue-setbreakonid
+            - name: "SetBreakOnSeverity"
+              href: /windows/desktop/api/D3D10SDKLayers/nf-d3d10sdklayers-id3d10infoqueue-setbreakonseverity
+            - name: "SetMessageCountLimit"
+              href: /windows/desktop/api/D3D10SDKLayers/nf-d3d10sdklayers-id3d10infoqueue-setmessagecountlimit
+            - name: "SetMuteDebugOutput"
+              href: /windows/desktop/api/D3D10SDKLayers/nf-d3d10sdklayers-id3d10infoqueue-setmutedebugoutput
+          - name: "ID3D10InputLayout"
+            href: /windows/desktop/api/d3d10/nn-d3d10-id3d10inputlayout
+          - name: "ID3D10Multithread"
+            href: /windows/desktop/api/D3D10/nn-d3d10-id3d10multithread
+            items: 
+            - name: "Enter"
+              href: /windows/desktop/api/D3D10/nf-d3d10-id3d10multithread-enter
+            - name: "GetMultithreadProtected"
+              href: /windows/desktop/api/D3D10/nf-d3d10-id3d10multithread-getmultithreadprotected
+            - name: "Leave"
+              href: /windows/desktop/api/D3D10/nf-d3d10-id3d10multithread-leave
+            - name: "SetMultithreadProtected"
+              href: /windows/desktop/api/D3D10/nf-d3d10-id3d10multithread-setmultithreadprotected
+          - name: "ID3D10Predicate"
+            href: /windows/desktop/api/d3d10/nn-d3d10-id3d10predicate
+          - name: "ID3D10Query"
+            href: /windows/desktop/api/D3D10/nn-d3d10-id3d10query
+            items: 
+            - name: "GetDesc"
+              href: /windows/desktop/api/d3d10/nf-d3d10-id3d10query-getdesc
+          - name: "ID3D10RasterizerState"
+            href: /windows/desktop/api/D3D10/nn-d3d10-id3d10rasterizerstate
+            items: 
+            - name: "GetDesc"
+              href: /windows/desktop/api/D3D10/nf-d3d10-id3d10rasterizerstate-getdesc
+          - name: "ID3D10SamplerState"
+            href: /windows/desktop/api/D3D10/nn-d3d10-id3d10samplerstate
+            items: 
+            - name: "GetDesc"
+              href: /windows/desktop/api/D3D10/nf-d3d10-id3d10samplerstate-getdesc
+          - name: "ID3D10StateBlock"
+            href: /windows/desktop/api/d3d10effect/nn-d3d10effect-id3d10stateblock
+            items: 
+            - name: "Apply"
+              href: /windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10stateblock-apply
+            - name: "Capture"
+              href: /windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10stateblock-capture
+            - name: "GetDevice"
+              href: /windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10stateblock-getdevice
+            - name: "ReleaseAllDeviceObjects"
+              href: /windows/desktop/api/D3D10Effect/nf-d3d10effect-id3d10stateblock-releasealldeviceobjects
+          - name: "ID3D10SwitchToRef"
+            href: /windows/desktop/api/D3D10SDKLayers/nn-d3d10sdklayers-id3d10switchtoref
+            items: 
+            - name: "GetUseRef"
+              href: /windows/desktop/api/D3D10SDKLayers/nf-d3d10sdklayers-id3d10switchtoref-getuseref
+            - name: "SetUseRef"
+              href: /windows/desktop/api/D3D10SDKLayers/nf-d3d10sdklayers-id3d10switchtoref-setuseref
+        - name: "Core Functions"
+          href: d3d10-graphics-reference-d3d10-core-functions.md
+          items: 
+          - name: "D3D10CreateBlob"
+            href: /windows/desktop/api/D3D10Misc/nf-d3d10misc-d3d10createblob
+          - name: "D3D10CreateDevice"
+            href: /windows/desktop/api/D3D10Misc/nf-d3d10misc-d3d10createdevice
+          - name: "D3D10CreateDevice1"
+            href: /windows/desktop/api/D3D10_1/nf-d3d10_1-d3d10createdevice1
+          - name: "D3D10CreateDeviceAndSwapChain"
+            href: /windows/desktop/api/D3D10Misc/nf-d3d10misc-d3d10createdeviceandswapchain
+          - name: "D3D10CreateDeviceAndSwapChain1"
+            href: /windows/desktop/api/D3D10_1/nf-d3d10_1-d3d10createdeviceandswapchain1
+        - name: "Core Structures"
+          href: d3d10-graphics-reference-d3d10-core-structures.md
+          items: 
+          - name: "D3D10_BLEND_DESC"
+            href: /windows/desktop/api/D3D10/ns-d3d10-d3d10_blend_desc
+          - name: "D3D10_BLEND_DESC1"
+            href: /windows/desktop/api/D3D10_1/ns-d3d10_1-d3d10_blend_desc1
+          - name: "D3D10_BOX"
+            href: /windows/desktop/api/D3D10/ns-d3d10-d3d10_box
+          - name: "D3D10_COUNTER_DESC"
+            href: /windows/desktop/api/D3D10/ns-d3d10-d3d10_counter_desc
+          - name: "D3D10_COUNTER_INFO"
+            href: /windows/desktop/api/D3D10/ns-d3d10-d3d10_counter_info
+          - name: "D3D10_DEPTH_STENCILOP_DESC"
+            href: /windows/desktop/api/D3D10/ns-d3d10-d3d10_depth_stencilop_desc
+          - name: "D3D10_DEPTH_STENCIL_DESC"
+            href: /windows/desktop/api/D3D10/ns-d3d10-d3d10_depth_stencil_desc
+          - name: "D3D10_INFO_QUEUE_FILTER"
+            href: /windows/desktop/api/d3d10sdklayers/ns-d3d10sdklayers-d3d10_info_queue_filter
+          - name: "D3D10_INFO_QUEUE_FILTER_DESC"
+            href: /windows/desktop/api/d3d10sdklayers/ns-d3d10sdklayers-d3d10_info_queue_filter_desc
+          - name: "D3D10_INPUT_ELEMENT_DESC"
+            href: /windows/desktop/api/D3D10/ns-d3d10-d3d10_input_element_desc
+          - name: "D3D10_MESSAGE"
+            href: /windows/desktop/api/d3d10sdklayers/ns-d3d10sdklayers-d3d10_message
+          - name: "D3D10_QUERY_DATA_PIPELINE_STATISTICS"
+            href: /windows/desktop/api/D3D10/ns-d3d10-d3d10_query_data_pipeline_statistics
+          - name: "D3D10_QUERY_DATA_SO_STATISTICS"
+            href: /windows/desktop/api/D3D10/ns-d3d10-d3d10_query_data_so_statistics
+          - name: "D3D10_QUERY_DATA_TIMESTAMP_DISJOINT"
+            href: /windows/desktop/api/D3D10/ns-d3d10-d3d10_query_data_timestamp_disjoint
+          - name: "D3D10_QUERY_DESC"
+            href: /windows/desktop/api/D3D10/ns-d3d10-d3d10_query_desc
+          - name: "D3D10_RASTERIZER_DESC"
+            href: /windows/desktop/api/D3D10/ns-d3d10-d3d10_rasterizer_desc
+          - name: "D3D10_RECT"
+            href: d3d10-rect.md
+          - name: "D3D10_RENDER_TARGET_BLEND_DESC1"
+            href: /windows/desktop/api/d3d10_1/ns-d3d10_1-d3d10_render_target_blend_desc1
+          - name: "D3D10_SAMPLER_DESC"
+            href: /windows/desktop/api/D3D10/ns-d3d10-d3d10_sampler_desc
+          - name: "D3D10_SHADER_RESOURCE_VIEW_DESC"
+            href: /windows/desktop/api/d3d10/ns-d3d10-d3d10_shader_resource_view_desc
+          - name: "D3D10_SHADER_RESOURCE_VIEW_DESC1"
+            href: /windows/desktop/api/d3d10_1/ns-d3d10_1-d3d10_shader_resource_view_desc1
+          - name: "D3D10_STATE_BLOCK_MASK"
+            href: /windows/win32/api/d3d10effect/ns-d3d10effect-d3d10_state_block_mask
+          - name: "D3D10_SO_DECLARATION_ENTRY"
+            href: /windows/desktop/api/D3D10/ns-d3d10-d3d10_so_declaration_entry
+          - name: "D3D10_VIEWPORT"
+            href: /windows/desktop/api/D3D10/ns-d3d10-d3d10_viewport
+        - name: "Core Enumerations"
+          href: d3d10-graphics-reference-d3d10-core-enums.md
+          items: 
+          - name: "D3D10_ASYNC_GETDATA_FLAG"
+            href: /windows/desktop/api/D3D10/ne-d3d10-d3d10_async_getdata_flag
+          - name: "D3D10_BLEND"
+            href: /windows/desktop/api/D3D10/ne-d3d10-d3d10_blend
+          - name: "D3D10_BLEND_OP"
+            href: /windows/desktop/api/D3D10/ne-d3d10-d3d10_blend_op
+          - name: "D3D10_CLEAR_FLAG"
+            href: /windows/desktop/api/D3D10/ne-d3d10-d3d10_clear_flag
+          - name: "D3D10_COLOR_WRITE_ENABLE"
+            href: /windows/desktop/api/D3D10/ne-d3d10-d3d10_color_write_enable
+          - name: "D3D10_COMPARISON_FUNC"
+            href: /windows/desktop/api/D3D10/ne-d3d10-d3d10_comparison_func
+          - name: "D3D10_COUNTER"
+            href: /windows/desktop/api/D3D10/ne-d3d10-d3d10_counter
+          - name: "D3D10_COUNTER_TYPE"
+            href: /windows/desktop/api/D3D10/ne-d3d10-d3d10_counter_type
+          - name: "D3D10_CREATE_DEVICE_FLAG"
+            href: /windows/desktop/api/D3D10/ne-d3d10-d3d10_create_device_flag
+          - name: "D3D10_CULL_MODE"
+            href: /windows/desktop/api/D3D10/ne-d3d10-d3d10_cull_mode
+          - name: "D3D10_DEPTH_WRITE_MASK"
+            href: /windows/desktop/api/D3D10/ne-d3d10-d3d10_depth_write_mask
+          - name: "D3D10_FEATURE_LEVEL1"
+            href: /windows/desktop/api/D3D10_1/ne-d3d10_1-d3d10_feature_level1
+          - name: "D3D10_DEVICE_STATE_TYPES"
+            href: /windows/win32/api/D3D10Effect/ne-d3d10effect-d3d10_device_state_types
+          - name: "D3D10_DRIVER_TYPE"
+            href: /windows/desktop/api/D3D10misc/ne-d3d10misc-d3d10_driver_type
+          - name: "D3D10_FILL_MODE"
+            href: /windows/desktop/api/D3D10/ne-d3d10-d3d10_fill_mode
+          - name: "D3D10_FILTER"
+            href: /windows/desktop/api/D3D10/ne-d3d10-d3d10_filter
+          - name: "D3D10_FILTER_TYPE"
+            href: /windows/desktop/api/D3D10/ne-d3d10-d3d10_filter_type
+          - name: "D3D10_FORMAT_SUPPORT"
+            href: /windows/desktop/api/D3D10/ne-d3d10-d3d10_format_support
+          - name: "D3D10_INPUT_CLASSIFICATION"
+            href: /windows/desktop/api/D3D10/ne-d3d10-d3d10_input_classification
+          - name: "D3D10_MESSAGE_CATEGORY"
+            href: /windows/desktop/api/d3d10sdklayers/ne-d3d10sdklayers-d3d10_message_category
+          - name: "D3D10_MESSAGE_ID"
+            href: /windows/desktop/api/d3d10sdklayers/ne-d3d10sdklayers-d3d10_message_id
+          - name: "D3D10_MESSAGE_SEVERITY"
+            href: /windows/desktop/api/d3d10sdklayers/ne-d3d10sdklayers-d3d10_message_severity
+          - name: "D3D10_PRIMITIVE_TOPOLOGY"
+            href: /previous-versions/windows/desktop/legacy/bb205334(v=vs.85)
+          - name: "D3D10_QUERY"
+            href: /windows/desktop/api/D3D10/ne-d3d10-d3d10_query
+          - name: "D3D10_QUERY_MISC_FLAG"
+            href: /windows/desktop/api/D3D10/ne-d3d10-d3d10_query_misc_flag
+          - name: "D3D10_RAISE_FLAG"
+            href: /windows/desktop/api/D3D10/ne-d3d10-d3d10_raise_flag
+          - name: "D3D10_REGISTER_COMPONENT_TYPE"
+            href: /windows/desktop/api/d3dcommon/ne-d3dcommon-d3d_register_component_type
+          - name: "D3D10_RESOURCE_RETURN_TYPE"
+            href: /windows/desktop/api/d3dcommon/ne-d3dcommon-d3d_resource_return_type
+          - name: "D3D10_STENCIL_OP"
+            href: /windows/desktop/api/D3D10/ne-d3d10-d3d10_stencil_op
+          - name: "D3D10_TEXTURECUBE_FACE"
+            href: /windows/desktop/api/D3D10/ne-d3d10-d3d10_texturecube_face
+          - name: "D3D10_TEXTURE_ADDRESS_MODE"
+            href: /windows/desktop/api/D3D10/ne-d3d10-d3d10_texture_address_mode
+      - name: "Resource Reference"
+        href: d3d10-graphics-reference-resource.md
+        items: 
+        - name: "Resource Interfaces"
+          href: d3d10-graphics-reference-resource-interfaces.md
+          items: 
+          - name: "ID3D10Buffer"
+            href: /windows/desktop/api/D3D10/nn-d3d10-id3d10buffer
+            items: 
+            - name: "GetDesc"
+              href: /windows/desktop/api/D3D10/nf-d3d10-id3d10buffer-getdesc
+            - name: "Map"
+              href: /windows/desktop/api/D3D10/nf-d3d10-id3d10buffer-map
+            - name: "Unmap"
+              href: /windows/desktop/api/D3D10/nf-d3d10-id3d10buffer-unmap
+          - name: "ID3D10DepthStencilView"
+            href: /windows/desktop/api/D3D10/nn-d3d10-id3d10depthstencilview
+            items: 
+            - name: "GetDesc"
+              href: /windows/desktop/api/D3D10/nf-d3d10-id3d10depthstencilview-getdesc
+          - name: "ID3D10RenderTargetView"
+            href: /windows/desktop/api/D3D10/nn-d3d10-id3d10rendertargetview
+            items: 
+            - name: "GetDesc"
+              href: /windows/desktop/api/D3D10/nf-d3d10-id3d10rendertargetview-getdesc
+          - name: "ID3D10Resource"
+            href: /windows/desktop/api/D3D10/nn-d3d10-id3d10resource
+            items: 
+            - name: "GetEvictionPriority"
+              href: /windows/desktop/api/D3D10/nf-d3d10-id3d10resource-getevictionpriority
+            - name: "GetType"
+              href: /windows/desktop/api/D3D10/nf-d3d10-id3d10resource-gettype
+            - name: "SetEvictionPriority"
+              href: /windows/desktop/api/D3D10/nf-d3d10-id3d10resource-setevictionpriority
+          - name: "ID3D10ShaderResourceView"
+            href: /windows/desktop/api/d3d10/nn-d3d10-id3d10shaderresourceview
+            items: 
+            - name: "GetDesc"
+              href: /windows/desktop/api/d3d10/nf-d3d10-id3d10shaderresourceview-getdesc
+          - name: "ID3D10ShaderResourceView1"
+            href: /windows/desktop/api/d3d10_1/nn-d3d10_1-id3d10shaderresourceview1
+            items: 
+            - name: "GetDesc1"
+              href: /windows/desktop/api/d3d10_1/nf-d3d10_1-id3d10shaderresourceview1-getdesc1
+          - name: "ID3D10Texture1D"
+            href: /windows/desktop/api/D3D10/nn-d3d10-id3d10texture1d
+            items: 
+            - name: "GetDesc"
+              href: /windows/desktop/api/D3D10/nf-d3d10-id3d10texture1d-getdesc
+            - name: "Map"
+              href: /windows/desktop/api/D3D10/nf-d3d10-id3d10texture1d-map
+            - name: "Unmap"
+              href: /windows/desktop/api/D3D10/nf-d3d10-id3d10texture1d-unmap
+          - name: "ID3D10Texture2D"
+            href: /windows/desktop/api/D3D10/nn-d3d10-id3d10texture2d
+            items: 
+            - name: "GetDesc"
+              href: /windows/desktop/api/D3D10/nf-d3d10-id3d10texture2d-getdesc
+            - name: "Map"
+              href: /windows/desktop/api/D3D10/nf-d3d10-id3d10texture2d-map
+            - name: "Unmap"
+              href: /windows/desktop/api/D3D10/nf-d3d10-id3d10texture2d-unmap
+          - name: "ID3D10Texture3D"
+            href: /windows/desktop/api/D3D10/nn-d3d10-id3d10texture3d
+            items: 
+            - name: "GetDesc"
+              href: /windows/desktop/api/D3D10/nf-d3d10-id3d10texture3d-getdesc
+            - name: "Map"
+              href: /windows/desktop/api/D3D10/nf-d3d10-id3d10texture3d-map
+            - name: "Unmap"
+              href: /windows/desktop/api/D3D10/nf-d3d10-id3d10texture3d-unmap
+          - name: "ID3D10View"
+            href: /windows/desktop/api/D3D10/nn-d3d10-id3d10view
+            items: 
+            - name: "GetResource"
+              href: /windows/desktop/api/D3D10/nf-d3d10-id3d10view-getresource
+        - name: "Resource Functions"
+          href: d3d10-graphics-reference-resource-functions.md
+          items: 
+          - name: "D3D10CalcSubresource"
+            href: /windows/desktop/api/D3D10/nf-d3d10-d3d10calcsubresource
+        - name: "Resource Structures"
+          href: d3d10-graphics-reference-resource-structures.md
+          items: 
+          - name: "D3D10_BUFFER_DESC"
+            href: /windows/desktop/api/D3D10/ns-d3d10-cd3d10_buffer_desc
+          - name: "D3D10_BUFFER_RTV"
+            href: /windows/desktop/api/D3D10/ns-d3d10-d3d10_buffer_rtv
+          - name: "D3D10_BUFFER_SRV"
+            href: /windows/desktop/api/D3D10/ns-d3d10-d3d10_buffer_srv
+          - name: "D3D10_DEPTH_STENCIL_VIEW_DESC"
+            href: /windows/desktop/api/D3D10/ns-d3d10-d3d10_depth_stencil_view_desc
+          - name: "D3D10_MAPPED_TEXTURE2D"
+            href: /windows/desktop/api/D3D10/ns-d3d10-d3d10_mapped_texture2d
+          - name: "D3D10_MAPPED_TEXTURE3D"
+            href: /windows/desktop/api/D3D10/ns-d3d10-d3d10_mapped_texture3d
+          - name: "D3D10_RENDER_TARGET_VIEW_DESC"
+            href: /windows/desktop/api/D3D10/ns-d3d10-d3d10_render_target_view_desc
+          - name: "D3D10_SUBRESOURCE_DATA"
+            href: /windows/desktop/api/D3D10/ns-d3d10-d3d10_subresource_data
+          - name: "D3D10_TEX1D_ARRAY_DSV"
+            href: /windows/desktop/api/D3D10/ns-d3d10-d3d10_tex1d_array_dsv
+          - name: "D3D10_TEX1D_ARRAY_RTV"
+            href: /windows/desktop/api/D3D10/ns-d3d10-d3d10_tex1d_array_rtv
+          - name: "D3D10_TEX1D_ARRAY_SRV"
+            href: /windows/desktop/api/D3D10/ns-d3d10-d3d10_tex1d_array_srv
+          - name: "D3D10_TEX1D_DSV"
+            href: /windows/desktop/api/D3D10/ns-d3d10-d3d10_tex1d_dsv
+          - name: "D3D10_TEX1D_RTV"
+            href: /windows/desktop/api/D3D10/ns-d3d10-d3d10_tex1d_rtv
+          - name: "D3D10_TEX1D_SRV"
+            href: /windows/desktop/api/D3D10/ns-d3d10-d3d10_tex1d_srv
+          - name: "D3D10_TEX2D_ARRAY_DSV"
+            href: /windows/desktop/api/D3D10/ns-d3d10-d3d10_tex2d_array_dsv
+          - name: "D3D10_TEX2D_ARRAY_RTV"
+            href: /windows/desktop/api/D3D10/ns-d3d10-d3d10_tex2d_array_rtv
+          - name: "D3D10_TEX2D_ARRAY_SRV"
+            href: /windows/desktop/api/D3D10/ns-d3d10-d3d10_tex2d_array_srv
+          - name: "D3D10_TEX2D_DSV"
+            href: /windows/desktop/api/D3D10/ns-d3d10-d3d10_tex2d_dsv
+          - name: "D3D10_TEX2D_RTV"
+            href: /windows/desktop/api/D3D10/ns-d3d10-d3d10_tex2d_rtv
+          - name: "D3D10_TEX2D_SRV"
+            href: /windows/desktop/api/D3D10/ns-d3d10-d3d10_tex2d_srv
+          - name: "D3D10_TEX2DMS_ARRAY_DSV"
+            href: /windows/desktop/api/D3D10/ns-d3d10-d3d10_tex2dms_array_dsv
+          - name: "D3D10_TEX2DMS_ARRAY_RTV"
+            href: /windows/desktop/api/D3D10/ns-d3d10-d3d10_tex2dms_array_rtv
+          - name: "D3D10_TEX2DMS_ARRAY_SRV"
+            href: /windows/desktop/api/D3D10/ns-d3d10-d3d10_tex2dms_array_srv
+          - name: "D3D10_TEX2DMS_DSV"
+            href: /windows/desktop/api/D3D10/ns-d3d10-d3d10_tex2dms_dsv
+          - name: "D3D10_TEX2DMS_RTV"
+            href: /windows/desktop/api/D3D10/ns-d3d10-d3d10_tex2dms_rtv
+          - name: "D3D10_TEX2DMS_SRV"
+            href: /windows/desktop/api/D3D10/ns-d3d10-d3d10_tex2dms_srv
+          - name: "D3D10_TEX3D_RTV"
+            href: /windows/desktop/api/D3D10/ns-d3d10-d3d10_tex3d_rtv
+          - name: "D3D10_TEX3D_SRV"
+            href: /windows/desktop/api/D3D10/ns-d3d10-d3d10_tex3d_srv
+          - name: "D3D10_TEXCUBE_ARRAY_SRV1"
+            href: /windows/desktop/api/d3d10_1/ns-d3d10_1-d3d10_texcube_array_srv1
+          - name: "D3D10_TEXCUBE_SRV"
+            href: /windows/desktop/api/D3D10/ns-d3d10-d3d10_texcube_srv
+          - name: "D3D10_TEXTURE1D_DESC"
+            href: /windows/desktop/api/D3D10/ns-d3d10-cd3d10_texture1d_desc
+          - name: "D3D10_TEXTURE2D_DESC"
+            href: /windows/desktop/api/D3D10/ns-d3d10-cd3d10_texture2d_desc
+          - name: "D3D10_TEXTURE3D_DESC"
+            href: /windows/desktop/api/D3D10/ns-d3d10-cd3d10_texture3d_desc
+        - name: "Resource Enumerations"
+          href: d3d10-graphics-reference-resource-enums.md
+          items: 
+          - name: "D3D10_BIND_FLAG"
+            href: /windows/desktop/api/D3D10/ne-d3d10-d3d10_bind_flag
+          - name: "D3D10_CPU_ACCESS_FLAG"
+            href: /windows/desktop/api/D3D10/ne-d3d10-d3d10_cpu_access_flag
+          - name: "D3D10_DSV_DIMENSION"
+            href: /windows/desktop/api/D3D10/ne-d3d10-d3d10_dsv_dimension
+          - name: "D3D10_MAP"
+            href: /windows/desktop/api/D3D10/ne-d3d10-d3d10_map
+          - name: "D3D10_MAP_FLAG"
+            href: /windows/desktop/api/D3D10/ne-d3d10-d3d10_map_flag
+          - name: "D3D10_RESOURCE_DIMENSION"
+            href: /windows/desktop/api/D3D10/ne-d3d10-d3d10_resource_dimension
+          - name: "D3D10_RESOURCE_MISC_FLAG"
+            href: /windows/desktop/api/D3D10/ne-d3d10-d3d10_resource_misc_flag
+          - name: "D3D10_RTV_DIMENSION"
+            href: /windows/desktop/api/D3D10/ne-d3d10-d3d10_rtv_dimension
+          - name: "D3D10_USAGE"
+            href: /windows/desktop/api/D3D10/ne-d3d10-d3d10_usage
+        - name: "Resource Constants"
+          href: d3d10-graphics-reference-resource-constants.md
+          items: 
+          - name: "D3D10_REQ"
+            href: d3d10-req.md
+      - name: "Shader Reference"
+        href: d3d10-graphics-reference-d3d10-shader.md
+        items: 
+        - name: "Shader Interfaces"
+          href: d3d10-graphics-reference-d3d10-shader-interfaces.md
+          items: 
+          - name: "ID3D10GeometryShader"
+            href: /windows/desktop/api/d3d10/nn-d3d10-id3d10geometryshader
+          - name: "ID3D10PixelShader"
+            href: /windows/desktop/api/d3d10/nn-d3d10-id3d10pixelshader
+          - name: "ID3D10ShaderReflection"
+            href: /windows/desktop/api/D3D10Shader/nn-d3d10shader-id3d10shaderreflection
+            items: 
+            - name: "GetConstantBufferByIndex"
+              href: /windows/desktop/api/D3D10Shader/nf-d3d10shader-id3d10shaderreflection-getconstantbufferbyindex
+            - name: "GetConstantBufferByName"
+              href: /windows/desktop/api/D3D10Shader/nf-d3d10shader-id3d10shaderreflection-getconstantbufferbyname
+            - name: "GetDesc"
+              href: /windows/desktop/api/D3D10Shader/nf-d3d10shader-id3d10shaderreflection-getdesc
+            - name: "GetInputParameterDesc"
+              href: /windows/desktop/api/D3D10Shader/nf-d3d10shader-id3d10shaderreflection-getinputparameterdesc
+            - name: "GetOutputParameterDesc"
+              href: /windows/desktop/api/D3D10Shader/nf-d3d10shader-id3d10shaderreflection-getoutputparameterdesc
+            - name: "GetResourceBindingDesc"
+              href: /windows/desktop/api/D3D10Shader/nf-d3d10shader-id3d10shaderreflection-getresourcebindingdesc
+          - name: "ID3D10ShaderReflection1"
+            href: /windows/desktop/api/D3D10_1Shader/nn-d3d10_1shader-id3d10shaderreflection1
+            items: 
+            - name: "GetBitwiseInstructionCount"
+              href: /windows/desktop/api/D3D10_1Shader/nf-d3d10_1shader-id3d10shaderreflection1-getbitwiseinstructioncount
+            - name: "GetConversionInstructionCount"
+              href: /windows/desktop/api/D3D10_1Shader/nf-d3d10_1shader-id3d10shaderreflection1-getconversioninstructioncount
+            - name: "GetGSInputPrimitive"
+              href: /windows/desktop/api/D3D10_1Shader/nf-d3d10_1shader-id3d10shaderreflection1-getgsinputprimitive
+            - name: "GetMovInstructionCount"
+              href: /windows/desktop/api/D3D10_1Shader/nf-d3d10_1shader-id3d10shaderreflection1-getmovinstructioncount
+            - name: "GetMovcInstructionCount"
+              href: /windows/desktop/api/D3D10_1Shader/nf-d3d10_1shader-id3d10shaderreflection1-getmovcinstructioncount
+            - name: "GetResourceBindingDescByName"
+              href: /windows/desktop/api/D3D10_1Shader/nf-d3d10_1shader-id3d10shaderreflection1-getresourcebindingdescbyname
+            - name: "GetVariableByName"
+              href: /windows/desktop/api/D3D10_1Shader/nf-d3d10_1shader-id3d10shaderreflection1-getvariablebyname
+            - name: "IsLevel9Shader"
+              href: /windows/desktop/api/D3D10_1Shader/nf-d3d10_1shader-id3d10shaderreflection1-islevel9shader
+            - name: "IsSampleFrequencyShader"
+              href: /windows/desktop/api/D3D10_1Shader/nf-d3d10_1shader-id3d10shaderreflection1-issamplefrequencyshader
+          - name: "ID3D10ShaderReflectionConstantBuffer"
+            href: /windows/desktop/api/D3D10Shader/nn-d3d10shader-id3d10shaderreflectionconstantbuffer
+            items: 
+            - name: "GetDesc"
+              href: /windows/desktop/api/D3D10Shader/nf-d3d10shader-id3d10shaderreflectionconstantbuffer-getdesc
+            - name: "GetVariableByIndex"
+              href: /windows/desktop/api/D3D10Shader/nf-d3d10shader-id3d10shaderreflectionconstantbuffer-getvariablebyindex
+            - name: "GetVariableByName"
+              href: /windows/desktop/api/D3D10Shader/nf-d3d10shader-id3d10shaderreflectionconstantbuffer-getvariablebyname
+          - name: "ID3D10ShaderReflectionType"
+            href: /windows/desktop/api/D3D10Shader/nn-d3d10shader-id3d10shaderreflectiontype
+            items: 
+            - name: "GetDesc"
+              href: /windows/desktop/api/D3D10Shader/nf-d3d10shader-id3d10shaderreflectiontype-getdesc
+            - name: "GetMemberTypeName"
+              href: /windows/desktop/api/D3D10Shader/nf-d3d10shader-id3d10shaderreflectiontype-getmembertypename
+            - name: "GetMemberTypeByIndex"
+              href: /windows/desktop/api/D3D10Shader/nf-d3d10shader-id3d10shaderreflectiontype-getmembertypebyindex
+            - name: "GetMemberTypeByName"
+              href: /windows/desktop/api/D3D10Shader/nf-d3d10shader-id3d10shaderreflectiontype-getmembertypebyname
+          - name: "ID3D10ShaderReflectionVariable"
+            href: /windows/desktop/api/D3D10Shader/nn-d3d10shader-id3d10shaderreflectionvariable
+            items: 
+            - name: "GetDesc"
+              href: /windows/desktop/api/D3D10Shader/nf-d3d10shader-id3d10shaderreflectionvariable-getdesc
+            - name: "GetType"
+              href: /windows/desktop/api/D3D10Shader/nf-d3d10shader-id3d10shaderreflectionvariable-gettype
+          - name: "ID3D10VertexShader"
+            href: /windows/desktop/api/d3d10/nn-d3d10-id3d10vertexshader
+        - name: "Shader Functions"
+          href: d3d10-graphics-reference-d3d10-shader-functions.md
+          items: 
+          - name: "D3D10CompileShader"
+            href: /windows/desktop/api/D3D10Shader/nf-d3d10shader-d3d10compileshader
+          - name: "D3D10DisassembleShader"
+            href: /windows/desktop/api/D3D10Shader/nf-d3d10shader-d3d10disassembleshader
+          - name: "D3D10GetGeometryShaderProfile"
+            href: /windows/desktop/api/D3D10Shader/nf-d3d10shader-d3d10getgeometryshaderprofile
+          - name: "D3D10GetInputAndOutputSignatureBlob"
+            href: /windows/desktop/api/D3D10Shader/nf-d3d10shader-d3d10getinputandoutputsignatureblob
+          - name: "D3D10GetInputSignatureBlob"
+            href: /windows/desktop/api/D3D10Shader/nf-d3d10shader-d3d10getinputsignatureblob
+          - name: "D3D10GetOutputSignatureBlob"
+            href: /windows/desktop/api/D3D10Shader/nf-d3d10shader-d3d10getoutputsignatureblob
+          - name: "D3D10GetPixelShaderProfile"
+            href: /windows/desktop/api/D3D10Shader/nf-d3d10shader-d3d10getpixelshaderprofile
+          - name: "D3D10GetShaderDebugInfo"
+            href: /windows/desktop/api/D3D10Shader/nf-d3d10shader-d3d10getshaderdebuginfo
+          - name: "D3D10GetVertexShaderProfile"
+            href: /windows/desktop/api/D3D10Shader/nf-d3d10shader-d3d10getvertexshaderprofile
+          - name: "D3D10PreprocessShader"
+            href: /windows/desktop/api/D3D10Shader/nf-d3d10shader-d3d10preprocessshader
+          - name: "D3D10ReflectShader"
+            href: /windows/desktop/api/D3D10Shader/nf-d3d10shader-d3d10reflectshader
+        - name: "Shader Structures"
+          href: d3d10-graphics-reference-d3d10-shader-structures.md
+          items: 
+          - name: "D3D10_SHADER_BUFFER_DESC"
+            href: /windows/win32/api/D3D10Shader/ns-d3d10shader-d3d10_shader_buffer_desc
+          - name: "D3D10_SHADER_DESC"
+            href: /windows/win32/api/D3D10Shader/ns-d3d10shader-d3d10_shader_desc
+          - name: "D3D10_SHADER_DEBUG_FILE_INFO"
+            href: /windows/win32/api/d3d10_1shader/ns-d3d10_1shader-d3d10_shader_debug_file_info
+          - name: "D3D10_SHADER_DEBUG_INFO"
+            href: /windows/win32/api/d3d10_1shader/ns-d3d10_1shader-d3d10_shader_debug_info
+          - name: "D3D10_SHADER_DEBUG_INPUT_INFO"
+            href: /windows/win32/api/d3d10_1shader/ns-d3d10_1shader-d3d10_shader_debug_input_info
+          - name: "D3D10_SHADER_DEBUG_INST_INFO"
+            href: /windows/win32/api/d3d10_1shader/ns-d3d10_1shader-d3d10_shader_debug_inst_info
+          - name: "D3D10_SHADER_DEBUG_OUTPUTREG_INFO"
+            href: /windows/win32/api/d3d10_1shader/ns-d3d10_1shader-d3d10_shader_debug_outputreg_info
+          - name: "D3D10_SHADER_DEBUG_OUTPUTVAR"
+            href: /windows/win32/api/d3d10_1shader/ns-d3d10_1shader-d3d10_shader_debug_outputvar
+          - name: "D3D10_SHADER_DEBUG_SCOPE_INFO"
+            href: /windows/win32/api/d3d10_1shader/ns-d3d10_1shader-d3d10_shader_debug_scope_info
+          - name: "D3D10_SHADER_DEBUG_SCOPEVAR_INFO"
+            href: /windows/win32/api/d3d10_1shader/ns-d3d10_1shader-d3d10_shader_debug_scopevar_info
+          - name: "D3D10_SHADER_DEBUG_TOKEN_INFO"
+            href: /windows/win32/api/d3d10_1shader/ns-d3d10_1shader-d3d10_shader_debug_token_info
+          - name: "D3D10_SHADER_DEBUG_VARTYPE"
+            href: /windows/win32/api/d3d10_1shader/ne-d3d10_1shader-d3d10_shader_debug_vartype
+          - name: "D3D10_SHADER_DEBUG_VAR_INFO"
+            href: /windows/win32/api/d3d10_1shader/ns-d3d10_1shader-d3d10_shader_debug_var_info
+          - name: "D3D10_SHADER_INPUT_BIND_DESC"
+            href: /windows/win32/api/D3D10Shader/ns-d3d10shader-d3d10_shader_input_bind_desc
+          - name: "D3D10_SHADER_MACRO"
+            href: /windows/win32/api/d3dcommon/ns-d3dcommon-d3d_shader_macro
+          - name: "D3D10_SHADER_TYPE_DESC"
+            href: /windows/win32/api/D3D10Shader/ns-d3d10shader-d3d10_shader_type_desc
+          - name: "D3D10_SHADER_VARIABLE_DESC"
+            href: /windows/win32/api/D3D10Shader/ns-d3d10shader-d3d10_shader_variable_desc
+          - name: "D3D10_SIGNATURE_PARAMETER_DESC"
+            href: /windows/win32/api/D3D10Shader/ns-d3d10shader-d3d10_signature_parameter_desc
+        - name: "Shader Enumerations"
+          href: d3d10-graphics-reference-d3d10-shader-enums.md
+          items: 
+          - name: "D3D10_CBUFFER_TYPE"
+            href: /previous-versions/windows/desktop/legacy/bb204899(v=vs.85)
+          - name: "D3D10_INCLUDE_TYPE"
+            href: /windows/desktop/api/d3dcommon/ne-d3dcommon-d3d_include_type
+          - name: "D3D10_PRIMITIVE"
+            href: /windows/desktop/api/d3dcommon/ne-d3dcommon-d3d_primitive
+          - name: "D3D10_SHADER_DEBUG_REGTYPE"
+            href: /windows/win32/api/D3D10_1Shader/ne-d3d10_1shader-d3d10_shader_debug_regtype
+          - name: "D3D10_SHADER_DEBUG_SCOPETYPE"
+            href: /windows/win32/api/d3d10_1shader/ne-d3d10_1shader-d3d10_shader_debug_scopetype
+          - name: "D3D10_NAME"
+            href: /windows/desktop/api/d3dcommon/ne-d3dcommon-d3d_name
+          - name: "D3D10_SHADER_CBUFFER_FLAGS"
+            href: /windows/desktop/api/d3dcommon/ne-d3dcommon-d3d_shader_cbuffer_flags
+          - name: "D3D10_SHADER_INPUT_FLAGS"
+            href: /windows/desktop/api/d3dcommon/ne-d3dcommon-d3d_shader_input_flags
+          - name: "D3D10_SHADER_INPUT_TYPE"
+            href: /windows/desktop/api/d3dcommon/ne-d3dcommon-d3d_shader_input_type
+          - name: "D3D10_SHADER_VARIABLE_CLASS"
+            href: /windows/desktop/api/d3dcommon/ne-d3dcommon-d3d_shader_variable_class
+          - name: "D3D10_SHADER_VARIABLE_FLAGS"
+            href: /windows/desktop/api/d3dcommon/ne-d3dcommon-d3d_shader_variable_flags
+          - name: "D3D10_SHADER_VARIABLE_TYPE"
+            href: /windows/desktop/api/d3dcommon/ne-d3dcommon-d3d_shader_variable_type
+          - name: "D3D10_SRV_DIMENSION"
+            href: /previous-versions/windows/desktop/legacy/bb172452(v=vs.85)
+          - name: "D3D10_SRV_DIMENSION1"
+            href: /previous-versions/windows/desktop/legacy/bb694535(v=vs.85)
+        - name: "Shader Constants"
+          href: d3d10-graphics-reference-d3d10-shader-constants.md
+          items: 
+          - name: "D3D10_SHADER Constants"
+            href: d3d10-shader.md
+      - name: "Effect Reference"
+        href: d3d10-graphics-reference-effect.md
+        items: 
+        - name: "Effect Interfaces"
+          href: d3d10-graphics-reference-effect-interfaces.md
+          items: 
+          - name: "ID3D10Effect"
+            href: /windows/desktop/api/D3D10Effect/nn-d3d10effect-id3d10effect
+            items: 
+            - name: "GetConstantBufferByIndex"
+              href: /windows/desktop/api/D3D10Effect/nf-d3d10effect-id3d10effect-getconstantbufferbyindex
+            - name: "GetConstantBufferByName"
+              href: /windows/desktop/api/D3D10Effect/nf-d3d10effect-id3d10effect-getconstantbufferbyname
+            - name: "GetDesc"
+              href: /windows/desktop/api/D3D10Effect/nf-d3d10effect-id3d10effect-getdesc
+            - name: "GetDevice"
+              href: /windows/desktop/api/D3D10Effect/nf-d3d10effect-id3d10effect-getdevice
+            - name: "GetTechniqueByIndex"
+              href: /windows/desktop/api/D3D10Effect/nf-d3d10effect-id3d10effect-gettechniquebyindex
+            - name: "GetTechniqueByName"
+              href: /windows/desktop/api/D3D10Effect/nf-d3d10effect-id3d10effect-gettechniquebyname
+            - name: "GetVariableByIndex"
+              href: /windows/desktop/api/D3D10Effect/nf-d3d10effect-id3d10effect-getvariablebyindex
+            - name: "GetVariableByName"
+              href: /windows/desktop/api/D3D10Effect/nf-d3d10effect-id3d10effect-getvariablebyname
+            - name: "GetVariableBySemantic"
+              href: /windows/desktop/api/D3D10Effect/nf-d3d10effect-id3d10effect-getvariablebysemantic
+            - name: "IsOptimized"
+              href: /windows/desktop/api/D3D10Effect/nf-d3d10effect-id3d10effect-isoptimized
+            - name: "IsPool"
+              href: /windows/desktop/api/D3D10Effect/nf-d3d10effect-id3d10effect-ispool
+            - name: "IsValid"
+              href: /windows/desktop/api/D3D10Effect/nf-d3d10effect-id3d10effect-isvalid
+            - name: "Optimize"
+              href: /windows/desktop/api/D3D10Effect/nf-d3d10effect-id3d10effect-optimize
+          - name: "ID3D10EffectBlendVariable"
+            href: /windows/desktop/api/D3D10Effect/nn-d3d10effect-id3d10effectblendvariable
+            items: 
+            - name: "GetBackingStore"
+              href: /windows/desktop/api/D3D10Effect/nf-d3d10effect-id3d10effectblendvariable-getbackingstore
+            - name: "GetBlendState"
+              href: /windows/desktop/api/D3D10Effect/nf-d3d10effect-id3d10effectblendvariable-getblendstate
+          - name: "ID3D10EffectConstantBuffer"
+            href: /windows/desktop/api/D3D10Effect/nn-d3d10effect-id3d10effectconstantbuffer
+            items: 
+            - name: "GetConstantBuffer"
+              href: /windows/desktop/api/D3D10Effect/nf-d3d10effect-id3d10effectconstantbuffer-getconstantbuffer
+            - name: "GetTextureBuffer"
+              href: /windows/desktop/api/D3D10Effect/nf-d3d10effect-id3d10effectconstantbuffer-gettexturebuffer
+            - name: "SetConstantBuffer"
+              href: /windows/desktop/api/D3D10Effect/nf-d3d10effect-id3d10effectconstantbuffer-setconstantbuffer
+            - name: "SetTextureBuffer"
+              href: /windows/desktop/api/D3D10Effect/nf-d3d10effect-id3d10effectconstantbuffer-settexturebuffer
+          - name: "ID3D10EffectDepthStencilVariable"
+            href: /windows/desktop/api/D3D10Effect/nn-d3d10effect-id3d10effectdepthstencilvariable
+            items: 
+            - name: "GetBackingStore"
+              href: /windows/desktop/api/D3D10Effect/nf-d3d10effect-id3d10effectdepthstencilvariable-getbackingstore
+            - name: "GetDepthStencilState"
+              href: /windows/desktop/api/D3D10Effect/nf-d3d10effect-id3d10effectdepthstencilvariable-getdepthstencilstate
+          - name: "ID3D10EffectDepthStencilViewVariable"
+            href: /windows/desktop/api/D3D10Effect/nn-d3d10effect-id3d10effectdepthstencilviewvariable
+            items: 
+            - name: "GetDepthStencil"
+              href: /windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectdepthstencilviewvariable-getdepthstencil
+            - name: "GetDepthStencilArray"
+              href: /windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectdepthstencilviewvariable-getdepthstencilarray
+            - name: "SetDepthStencil"
+              href: /windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectdepthstencilviewvariable-setdepthstencil
+            - name: "SetDepthStencilArray"
+              href: /windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectdepthstencilviewvariable-setdepthstencilarray
+          - name: "ID3D10EffectMatrixVariable"
+            href: /windows/desktop/api/D3D10Effect/nn-d3d10effect-id3d10effectmatrixvariable
+            items: 
+            - name: "GetMatrix"
+              href: /windows/desktop/api/D3D10Effect/nf-d3d10effect-id3d10effectmatrixvariable-getmatrix
+            - name: "GetMatrixArray"
+              href: /windows/desktop/api/D3D10Effect/nf-d3d10effect-id3d10effectmatrixvariable-getmatrixarray
+            - name: "GetMatrixTranspose"
+              href: /windows/desktop/api/D3D10Effect/nf-d3d10effect-id3d10effectmatrixvariable-getmatrixtranspose
+            - name: "GetMatrixTransposeArray"
+              href: /windows/desktop/api/D3D10Effect/nf-d3d10effect-id3d10effectmatrixvariable-getmatrixtransposearray
+            - name: "SetMatrix"
+              href: /windows/desktop/api/D3D10Effect/nf-d3d10effect-id3d10effectmatrixvariable-setmatrix
+            - name: "SetMatrixArray"
+              href: /windows/desktop/api/D3D10Effect/nf-d3d10effect-id3d10effectmatrixvariable-setmatrixarray
+            - name: "SetMatrixTranspose"
+              href: /windows/desktop/api/D3D10Effect/nf-d3d10effect-id3d10effectmatrixvariable-setmatrixtranspose
+            - name: "SetMatrixTransposeArray"
+              href: /windows/desktop/api/D3D10Effect/nf-d3d10effect-id3d10effectmatrixvariable-setmatrixtransposearray
+          - name: "ID3D10EffectPass"
+            href: /windows/desktop/api/D3D10Effect/nn-d3d10effect-id3d10effectpass
+            items: 
+            - name: "Apply"
+              href: /windows/desktop/api/D3D10Effect/nf-d3d10effect-id3d10effectpass-apply
+            - name: "ComputeStateBlockMask"
+              href: /windows/desktop/api/D3D10Effect/nf-d3d10effect-id3d10effectpass-computestateblockmask
+            - name: "GetAnnotationByIndex"
+              href: /windows/desktop/api/D3D10Effect/nf-d3d10effect-id3d10effectpass-getannotationbyindex
+            - name: "GetAnnotationByName"
+              href: /windows/desktop/api/D3D10Effect/nf-d3d10effect-id3d10effectpass-getannotationbyname
+            - name: "GetDesc"
+              href: /windows/desktop/api/D3D10Effect/nf-d3d10effect-id3d10effectpass-getdesc
+            - name: "GetGeometryShaderDesc"
+              href: /windows/desktop/api/D3D10Effect/nf-d3d10effect-id3d10effectpass-getgeometryshaderdesc
+            - name: "GetPixelShaderDesc"
+              href: /windows/desktop/api/D3D10Effect/nf-d3d10effect-id3d10effectpass-getpixelshaderdesc
+            - name: "GetVertexShaderDesc"
+              href: /windows/desktop/api/D3D10Effect/nf-d3d10effect-id3d10effectpass-getvertexshaderdesc
+            - name: "IsValid"
+              href: /windows/desktop/api/D3D10Effect/nf-d3d10effect-id3d10effectpass-isvalid
+          - name: "ID3D10EffectPool"
+            href: /windows/desktop/api/D3D10Effect/nn-d3d10effect-id3d10effectpool
+            items: 
+            - name: "AsEffect"
+              href: /windows/desktop/api/D3D10Effect/nf-d3d10effect-id3d10effectpool-aseffect
+          - name: "ID3D10EffectRasterizerVariable"
+            href: /windows/desktop/api/D3D10Effect/nn-d3d10effect-id3d10effectrasterizervariable
+            items: 
+            - name: "GetBackingStore"
+              href: /windows/desktop/api/D3D10Effect/nf-d3d10effect-id3d10effectrasterizervariable-getbackingstore
+            - name: "GetRasterizerState"
+              href: /windows/desktop/api/D3D10Effect/nf-d3d10effect-id3d10effectrasterizervariable-getrasterizerstate
+          - name: "ID3D10EffectRenderTargetViewVariable"
+            href: /windows/desktop/api/D3D10Effect/nn-d3d10effect-id3d10effectrendertargetviewvariable
+            items: 
+            - name: "GetRenderTarget"
+              href: /windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectrendertargetviewvariable-getrendertarget
+            - name: "GetRenderTargetArray"
+              href: /windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectrendertargetviewvariable-getrendertargetarray
+            - name: "SetRenderTarget"
+              href: /windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectrendertargetviewvariable-setrendertarget
+            - name: "SetRenderTargetArray"
+              href: /windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectrendertargetviewvariable-setrendertargetarray
+          - name: "ID3D10EffectSamplerVariable"
+            href: /windows/desktop/api/D3D10Effect/nn-d3d10effect-id3d10effectsamplervariable
+            items: 
+            - name: "GetBackingStore"
+              href: /windows/desktop/api/D3D10Effect/nf-d3d10effect-id3d10effectsamplervariable-getbackingstore
+            - name: "GetSampler"
+              href: /windows/desktop/api/D3D10Effect/nf-d3d10effect-id3d10effectsamplervariable-getsampler
+          - name: "ID3D10EffectScalarVariable"
+            href: /windows/desktop/api/D3D10Effect/nn-d3d10effect-id3d10effectscalarvariable
+            items: 
+            - name: "GetBool"
+              href: /windows/desktop/api/D3D10Effect/nf-d3d10effect-id3d10effectscalarvariable-getbool
+            - name: "GetBoolArray"
+              href: /windows/desktop/api/D3D10Effect/nf-d3d10effect-id3d10effectscalarvariable-getboolarray
+            - name: "GetFloat"
+              href: /windows/desktop/api/D3D10Effect/nf-d3d10effect-id3d10effectscalarvariable-getfloat
+            - name: "GetFloatArray"
+              href: /windows/desktop/api/D3D10Effect/nf-d3d10effect-id3d10effectscalarvariable-getfloatarray
+            - name: "GetInt"
+              href: /windows/desktop/api/D3D10Effect/nf-d3d10effect-id3d10effectscalarvariable-getint
+            - name: "GetIntArray"
+              href: /windows/desktop/api/D3D10Effect/nf-d3d10effect-id3d10effectscalarvariable-getintarray
+            - name: "SetBool"
+              href: /windows/desktop/api/D3D10Effect/nf-d3d10effect-id3d10effectscalarvariable-setbool
+            - name: "SetBoolArray"
+              href: /windows/desktop/api/D3D10Effect/nf-d3d10effect-id3d10effectscalarvariable-setboolarray
+            - name: "SetFloat"
+              href: /windows/desktop/api/D3D10Effect/nf-d3d10effect-id3d10effectscalarvariable-setfloat
+            - name: "SetFloatArray"
+              href: /windows/desktop/api/D3D10Effect/nf-d3d10effect-id3d10effectscalarvariable-setfloatarray
+            - name: "SetInt"
+              href: /windows/desktop/api/D3D10Effect/nf-d3d10effect-id3d10effectscalarvariable-setint
+            - name: "SetIntArray"
+              href: /windows/desktop/api/D3D10Effect/nf-d3d10effect-id3d10effectscalarvariable-setintarray
+          - name: "ID3D10EffectShaderResourceVariable"
+            href: /windows/desktop/api/D3D10Effect/nn-d3d10effect-id3d10effectshaderresourcevariable
+            items: 
+            - name: "GetResource"
+              href: /windows/desktop/api/D3D10Effect/nf-d3d10effect-id3d10effectshaderresourcevariable-getresource
+            - name: "GetResourceArray"
+              href: /windows/desktop/api/D3D10Effect/nf-d3d10effect-id3d10effectshaderresourcevariable-getresourcearray
+            - name: "SetResource"
+              href: /windows/desktop/api/D3D10Effect/nf-d3d10effect-id3d10effectshaderresourcevariable-setresource
+            - name: "SetResourceArray"
+              href: /windows/desktop/api/D3D10Effect/nf-d3d10effect-id3d10effectshaderresourcevariable-setresourcearray
+          - name: "ID3D10EffectShaderVariable"
+            href: /windows/desktop/api/D3D10Effect/nn-d3d10effect-id3d10effectshadervariable
+            items: 
+            - name: "GetGeometryShader"
+              href: /windows/desktop/api/D3D10Effect/nf-d3d10effect-id3d10effectshadervariable-getgeometryshader
+            - name: "GetInputSignatureElementDesc"
+              href: /windows/desktop/api/D3D10Effect/nf-d3d10effect-id3d10effectshadervariable-getinputsignatureelementdesc
+            - name: "GetOutputSignatureElementDesc"
+              href: /windows/desktop/api/D3D10Effect/nf-d3d10effect-id3d10effectshadervariable-getoutputsignatureelementdesc
+            - name: "GetPixelShader"
+              href: /windows/desktop/api/D3D10Effect/nf-d3d10effect-id3d10effectshadervariable-getpixelshader
+            - name: "GetShaderDesc"
+              href: /windows/desktop/api/D3D10Effect/nf-d3d10effect-id3d10effectshadervariable-getshaderdesc
+            - name: "GetVertexShader"
+              href: /windows/desktop/api/D3D10Effect/nf-d3d10effect-id3d10effectshadervariable-getvertexshader
+          - name: "ID3D10EffectStringVariable"
+            href: /windows/desktop/api/D3D10Effect/nn-d3d10effect-id3d10effectstringvariable
+            items: 
+            - name: "GetString"
+              href: /windows/desktop/api/D3D10Effect/nf-d3d10effect-id3d10effectstringvariable-getstring
+            - name: "GetStringArray"
+              href: /windows/desktop/api/D3D10Effect/nf-d3d10effect-id3d10effectstringvariable-getstringarray
+          - name: "ID3D10EffectTechnique"
+            href: /windows/desktop/api/D3D10Effect/nn-d3d10effect-id3d10effecttechnique
+            items: 
+            - name: "ComputeStateBlockMask"
+              href: /windows/desktop/api/D3D10Effect/nf-d3d10effect-id3d10effecttechnique-computestateblockmask
+            - name: "GetAnnotationByIndex"
+              href: /windows/desktop/api/D3D10Effect/nf-d3d10effect-id3d10effecttechnique-getannotationbyindex
+            - name: "GetAnnotationByName"
+              href: /windows/desktop/api/D3D10Effect/nf-d3d10effect-id3d10effecttechnique-getannotationbyname
+            - name: "GetDesc"
+              href: /windows/desktop/api/D3D10Effect/nf-d3d10effect-id3d10effecttechnique-getdesc
+            - name: "GetPassByIndex"
+              href: /windows/desktop/api/D3D10Effect/nf-d3d10effect-id3d10effecttechnique-getpassbyindex
+            - name: "GetPassByName"
+              href: /windows/desktop/api/D3D10Effect/nf-d3d10effect-id3d10effecttechnique-getpassbyname
+            - name: "IsValid"
+              href: /windows/desktop/api/D3D10Effect/nf-d3d10effect-id3d10effecttechnique-isvalid
+          - name: "ID3D10EffectType"
+            href: /windows/desktop/api/D3D10Effect/nn-d3d10effect-id3d10effecttype
+            items: 
+            - name: "GetDesc"
+              href: /windows/desktop/api/D3D10Effect/nf-d3d10effect-id3d10effecttype-getdesc
+            - name: "GetMemberName"
+              href: /windows/desktop/api/D3D10Effect/nf-d3d10effect-id3d10effecttype-getmembername
+            - name: "GetMemberSemantic"
+              href: /windows/desktop/api/D3D10Effect/nf-d3d10effect-id3d10effecttype-getmembersemantic
+            - name: "GetMemberTypeByIndex"
+              href: /windows/desktop/api/D3D10Effect/nf-d3d10effect-id3d10effecttype-getmembertypebyindex
+            - name: "GetMemberTypeByName"
+              href: /windows/desktop/api/D3D10Effect/nf-d3d10effect-id3d10effecttype-getmembertypebyname
+            - name: "GetMemberTypeBySemantic"
+              href: /windows/desktop/api/D3D10Effect/nf-d3d10effect-id3d10effecttype-getmembertypebysemantic
+            - name: "IsValid"
+              href: /windows/desktop/api/D3D10Effect/nf-d3d10effect-id3d10effecttype-isvalid
+          - name: "ID3D10EffectVariable"
+            href: /windows/desktop/api/D3D10Effect/nn-d3d10effect-id3d10effectvariable
+            items: 
+            - name: "AsBlend"
+              href: /windows/desktop/api/D3D10Effect/nf-d3d10effect-id3d10effectvariable-asblend
+            - name: "AsConstantBuffer"
+              href: /windows/desktop/api/D3D10Effect/nf-d3d10effect-id3d10effectvariable-asconstantbuffer
+            - name: "AsDepthStencil"
+              href: /windows/desktop/api/D3D10Effect/nf-d3d10effect-id3d10effectvariable-asdepthstencil
+            - name: "AsDepthStencilView"
+              href: /windows/desktop/api/D3D10Effect/nf-d3d10effect-id3d10effectvariable-asdepthstencilview
+            - name: "AsMatrix"
+              href: /windows/desktop/api/D3D10Effect/nf-d3d10effect-id3d10effectvariable-asmatrix
+            - name: "AsRasterizer"
+              href: /windows/desktop/api/D3D10Effect/nf-d3d10effect-id3d10effectvariable-asrasterizer
+            - name: "AsRenderTargetView"
+              href: /windows/desktop/api/D3D10Effect/nf-d3d10effect-id3d10effectvariable-asrendertargetview
+            - name: "AsSampler"
+              href: /windows/desktop/api/D3D10Effect/nf-d3d10effect-id3d10effectvariable-assampler
+            - name: "AsScalar"
+              href: /windows/desktop/api/D3D10Effect/nf-d3d10effect-id3d10effectvariable-asscalar
+            - name: "AsShader"
+              href: /windows/desktop/api/D3D10Effect/nf-d3d10effect-id3d10effectvariable-asshader
+            - name: "AsShaderResource"
+              href: /windows/desktop/api/D3D10Effect/nf-d3d10effect-id3d10effectvariable-asshaderresource
+            - name: "AsString"
+              href: /windows/desktop/api/D3D10Effect/nf-d3d10effect-id3d10effectvariable-asstring
+            - name: "AsVector"
+              href: /windows/desktop/api/D3D10Effect/nf-d3d10effect-id3d10effectvariable-asvector
+            - name: "GetAnnotationByIndex"
+              href: /windows/desktop/api/D3D10Effect/nf-d3d10effect-id3d10effectvariable-getannotationbyindex
+            - name: "GetAnnotationByName"
+              href: /windows/desktop/api/D3D10Effect/nf-d3d10effect-id3d10effectvariable-getannotationbyname
+            - name: "GetDesc"
+              href: /windows/desktop/api/D3D10Effect/nf-d3d10effect-id3d10effectvariable-getdesc
+            - name: "GetElement"
+              href: /windows/desktop/api/D3D10Effect/nf-d3d10effect-id3d10effectvariable-getelement
+            - name: "GetMemberByIndex"
+              href: /windows/desktop/api/D3D10Effect/nf-d3d10effect-id3d10effectvariable-getmemberbyindex
+            - name: "GetMemberByName"
+              href: /windows/desktop/api/D3D10Effect/nf-d3d10effect-id3d10effectvariable-getmemberbyname
+            - name: "GetMemberBySemantic"
+              href: /windows/desktop/api/D3D10Effect/nf-d3d10effect-id3d10effectvariable-getmemberbysemantic
+            - name: "GetParentConstantBuffer"
+              href: /windows/desktop/api/D3D10Effect/nf-d3d10effect-id3d10effectvariable-getparentconstantbuffer
+            - name: "GetRawValue"
+              href: /windows/desktop/api/D3D10Effect/nf-d3d10effect-id3d10effectvariable-getrawvalue
+            - name: "GetType"
+              href: /windows/desktop/api/D3D10Effect/nf-d3d10effect-id3d10effectvariable-gettype
+            - name: "IsValid"
+              href: /windows/desktop/api/D3D10Effect/nf-d3d10effect-id3d10effectvariable-isvalid
+            - name: "SetRawValue"
+              href: /windows/desktop/api/D3D10Effect/nf-d3d10effect-id3d10effectvariable-setrawvalue
+          - name: "ID3D10EffectVectorVariable"
+            href: /windows/desktop/api/D3D10Effect/nn-d3d10effect-id3d10effectvectorvariable
+            items: 
+            - name: "GetBoolVector"
+              href: /windows/desktop/api/D3D10Effect/nf-d3d10effect-id3d10effectvectorvariable-getboolvector
+            - name: "GetBoolVectorArray"
+              href: /windows/desktop/api/D3D10Effect/nf-d3d10effect-id3d10effectvectorvariable-getboolvectorarray
+            - name: "GetFloatVector"
+              href: /windows/desktop/api/D3D10Effect/nf-d3d10effect-id3d10effectvectorvariable-getfloatvector
+            - name: "GetFloatVectorArray"
+              href: /windows/desktop/api/D3D10Effect/nf-d3d10effect-id3d10effectvectorvariable-getfloatvectorarray
+            - name: "GetIntVector"
+              href: /windows/desktop/api/D3D10Effect/nf-d3d10effect-id3d10effectvectorvariable-getintvector
+            - name: "GetIntVectorArray"
+              href: /windows/desktop/api/D3D10Effect/nf-d3d10effect-id3d10effectvectorvariable-getintvectorarray
+            - name: "SetBoolVector"
+              href: /windows/desktop/api/D3D10Effect/nf-d3d10effect-id3d10effectvectorvariable-setboolvector
+            - name: "SetBoolVectorArray"
+              href: /windows/desktop/api/D3D10Effect/nf-d3d10effect-id3d10effectvectorvariable-setboolvectorarray
+            - name: "SetFloatVector"
+              href: /windows/desktop/api/D3D10Effect/nf-d3d10effect-id3d10effectvectorvariable-setfloatvector
+            - name: "SetFloatVectorArray"
+              href: /windows/desktop/api/D3D10Effect/nf-d3d10effect-id3d10effectvectorvariable-setfloatvectorarray
+            - name: "SetIntVector"
+              href: /windows/desktop/api/D3D10Effect/nf-d3d10effect-id3d10effectvectorvariable-setintvector
+            - name: "SetIntVectorArray"
+              href: /windows/desktop/api/D3D10Effect/nf-d3d10effect-id3d10effectvectorvariable-setintvectorarray
+        - name: "Effect Functions"
+          href: d3d10-graphics-reference-effect-functions.md
+          items: 
+          - name: "D3D10CompileEffectFromMemory"
+            href: /windows/desktop/api/D3D10Effect/nf-d3d10effect-d3d10compileeffectfrommemory
+          - name: "D3D10CreateEffectFromMemory"
+            href: /windows/desktop/api/D3D10Effect/nf-d3d10effect-d3d10createeffectfrommemory
+          - name: "D3D10CreateEffectPoolFromMemory"
+            href: /windows/desktop/api/D3D10Effect/nf-d3d10effect-d3d10createeffectpoolfrommemory
+          - name: "D3D10CreateStateBlock"
+            href: /windows/desktop/api/D3D10Effect/nf-d3d10effect-d3d10createstateblock
+          - name: "D3D10DisassembleEffect"
+            href: /windows/desktop/api/D3D10Effect/nf-d3d10effect-d3d10disassembleeffect
+          - name: "D3D10StateBlockMaskDifference"
+            href: /windows/desktop/api/D3D10Effect/nf-d3d10effect-d3d10stateblockmaskdifference
+          - name: "D3D10StateBlockMaskDisableAll"
+            href: /windows/desktop/api/D3D10Effect/nf-d3d10effect-d3d10stateblockmaskdisableall
+          - name: "D3D10StateBlockMaskDisableCapture"
+            href: /windows/desktop/api/D3D10Effect/nf-d3d10effect-d3d10stateblockmaskdisablecapture
+          - name: "D3D10StateBlockMaskEnableAll"
+            href: /windows/desktop/api/D3D10Effect/nf-d3d10effect-d3d10stateblockmaskenableall
+          - name: "D3D10StateBlockMaskEnableCapture"
+            href: /windows/desktop/api/D3D10Effect/nf-d3d10effect-d3d10stateblockmaskenablecapture
+          - name: "D3D10StateBlockMaskGetSetting"
+            href: /windows/desktop/api/D3D10Effect/nf-d3d10effect-d3d10stateblockmaskgetsetting
+          - name: "D3D10StateBlockMaskIntersect"
+            href: /windows/desktop/api/D3D10Effect/nf-d3d10effect-d3d10stateblockmaskintersect
+          - name: "D3D10StateBlockMaskUnion"
+            href: /windows/desktop/api/D3D10Effect/nf-d3d10effect-d3d10stateblockmaskunion
+        - name: "Effect Structures"
+          href: d3d10-graphics-reference-effect-structures.md
+          items: 
+          - name: "D3D10_EFFECT_DESC"
+            href: /windows/win32/api/d3d10effect/ns-d3d10effect-d3d10_effect_desc
+          - name: "D3D10_EFFECT_SHADER_DESC"
+            href: /windows/win32/api/d3d10effect/ns-d3d10effect-d3d10_effect_shader_desc
+          - name: "D3D10_EFFECT_TYPE_DESC"
+            href: /windows/win32/api/d3d10effect/ns-d3d10effect-d3d10_effect_type_desc
+          - name: "D3D10_EFFECT_VARIABLE_DESC"
+            href: /windows/win32/api/d3d10effect/ns-d3d10effect-d3d10_effect_variable_desc
+          - name: "D3D10_PASS_DESC"
+            href: /windows/win32/api/d3d10effect/ns-d3d10effect-d3d10_pass_desc
+          - name: "D3D10_PASS_SHADER_DESC"
+            href: /windows/win32/api/d3d10effect/ns-d3d10effect-d3d10_pass_shader_desc
+          - name: "D3D10_TECHNIQUE_DESC"
+            href: /windows/win32/api/d3d10effect/ns-d3d10effect-d3d10_technique_desc
+        - name: "Effect Constants"
+          href: d3d10-graphics-reference-effect-constants.md
+          items: 
+          - name: "D3D10_EFFECT Constants"
+            href: d3d10-effect.md
+          - name: "D3D10_EFFECT_VARIABLE Constants"
+            href: d3d10-effect-variable.md
+        - name: "Effect Format"
+          href: d3d10-effect-format.md
+          items: 
+          - name: "Effect Variable Syntax"
+            href: d3d10-effect-variable-syntax.md
+            items: 
+            - name: "Annotation Syntax"
+              href: d3d10-effect-annotation-syntax.md
+            - name: "Effect Sampler Syntax (Deprecated, Direct3D 10)"
+              href: d3d10-effect-sampler-syntax.md
+          - name: "Effect Function Syntax"
+            href: d3d10-effect-function-syntax.md
+          - name: "Effect Technique Syntax"
+            href: d3d10-effect-technique-syntax.md
+            items: 
+            - name: "Effect State Groups"
+              href: d3d10-effect-states.md
+      - name: "Direct3D 10 Return Codes"
+        href: d3d10-graphics-reference-returnvalues.md
+    - name: "D3DX Reference"
+      href: d3d10-graphics-reference-d3dx10.md
+      items: 
+      - name: "D3DX Interfaces"
+        href: d3d10-graphics-reference-d3dx10-interfaces.md
+        items: 
+        - name: "ID3DX10DataLoader"
+          href: id3dx10dataloader.md
+          items: 
+          - name: "Decompress"
+            href: id3dx10dataloader-decompress.md
+          - name: "Destroy"
+            href: id3dx10dataloader-destroy.md
+          - name: "Load"
+            href: id3dx10dataloader-load.md
+        - name: "ID3DX10DataProcessor"
+          href: id3dx10dataprocessor.md
+          items: 
+          - name: "CreateDeviceObject"
+            href: id3dx10dataprocessor-createdeviceobject.md
+          - name: "Destroy"
+            href: id3dx10dataprocessor-destroy.md
+          - name: "Process"
+            href: id3dx10dataprocessor-process.md
+        - name: "ID3DX10Font"
+          href: id3dx10font.md
+          items: 
+          - name: "DrawText"
+            href: id3dx10font-drawtext.md
+          - name: "GetDC"
+            href: id3dx10font-getdc.md
+          - name: "GetDesc"
+            href: id3dx10font-getdesc.md
+          - name: "GetDevice"
+            href: id3dx10font-getdevice.md
+          - name: "GetGlyphData"
+            href: id3dx10font-getglyphdata.md
+          - name: "GetTextMetrics"
+            href: id3dx10font-gettextmetrics.md
+          - name: "PreloadCharacters"
+            href: id3dx10font-preloadcharacters.md
+          - name: "PreloadGlyphs"
+            href: id3dx10font-preloadglyphs.md
+          - name: "PreloadText"
+            href: id3dx10font-preloadtext.md
+        - name: "ID3DX10Mesh"
+          href: id3dx10mesh.md
+          items: 
+          - name: "CloneMesh"
+            href: id3dx10mesh-clonemesh.md
+          - name: "CommitToDevice"
+            href: id3dx10mesh-committodevice.md
+          - name: "Discard"
+            href: id3dx10mesh-discard.md
+          - name: "DrawSubset"
+            href: id3dx10mesh-drawsubset.md
+          - name: "DrawSubsetInstanced"
+            href: id3dx10mesh-drawsubsetinstanced.md
+          - name: "GenerateAdjacencyAndPointReps"
+            href: id3dx10mesh-generateadjacencyandpointreps.md
+          - name: "GenerateAttributeBufferFromTable"
+            href: id3dx10mesh-generateattributebufferfromtable.md
+          - name: "GenerateGSAdjacency"
+            href: id3dx10mesh-generategsadjacency.md
+          - name: "GetAdjacencyBuffer"
+            href: id3dx10mesh-getadjacencybuffer.md
+          - name: "GetAttributeBuffer"
+            href: id3dx10mesh-getattributebuffer.md
+          - name: "GetAttributeTable"
+            href: id3dx10mesh-getattributetable.md
+          - name: "GetDeviceIndexBuffer"
+            href: id3dx10mesh-getdeviceindexbuffer.md
+          - name: "GetDeviceVertexBuffer"
+            href: id3dx10mesh-getdevicevertexbuffer.md
+          - name: "GetFaceCount"
+            href: id3dx10mesh-getfacecount.md
+          - name: "GetFlags"
+            href: id3dx10mesh-getflags.md
+          - name: "GetIndexBuffer"
+            href: id3dx10mesh-getindexbuffer.md
+          - name: "GetPointRepBuffer"
+            href: id3dx10mesh-getpointrepbuffer.md
+          - name: "GetVertexBuffer"
+            href: id3dx10mesh-getvertexbuffer.md
+          - name: "GetVertexBufferCount"
+            href: id3dx10mesh-getvertexbuffercount.md
+          - name: "GetVertexCount"
+            href: id3dx10mesh-getvertexcount.md
+          - name: "GetVertexDescription"
+            href: id3dx10mesh-getvertexdescription.md
+          - name: "Intersect"
+            href: id3dx10mesh-intersect.md
+          - name: "IntersectSubset"
+            href: id3dx10mesh-intersectsubset.md
+          - name: "Optimize"
+            href: id3dx10mesh-optimize.md
+          - name: "SetAdjacencyData"
+            href: id3dx10mesh-setadjacencydata.md
+          - name: "SetAttributeData"
+            href: id3dx10mesh-setattributedata.md
+          - name: "SetAttributeTable"
+            href: id3dx10mesh-setattributetable.md
+          - name: "SetIndexData"
+            href: id3dx10mesh-setindexdata.md
+          - name: "SetPointRepData"
+            href: id3dx10mesh-setpointrepdata.md
+          - name: "SetVertexData"
+            href: id3dx10mesh-setvertexdata.md
+        - name: "ID3DX10MeshBuffer"
+          href: id3dx10meshbuffer.md
+          items: 
+          - name: "GetSize"
+            href: id3dx10meshbuffer-getsize.md
+          - name: "Map"
+            href: id3dx10meshbuffer-map.md
+          - name: "Unmap"
+            href: id3dx10meshbuffer-unmap.md
+        - name: "ID3DX10SkinInfo"
+          href: id3dx10skininfo.md
+          items: 
+          - name: "AddBoneInfluences"
+            href: id3dx10skininfo-addboneinfluences.md
+          - name: "AddBones"
+            href: id3dx10skininfo-addbones.md
+          - name: "AddVertices"
+            href: id3dx10skininfo-addvertices.md
+          - name: "ClearBoneInfluences"
+            href: id3dx10skininfo-clearboneinfluences.md
+          - name: "Compact"
+            href: id3dx10skininfo-compact.md
+          - name: "DoSoftwareSkinning"
+            href: id3dx10skininfo-dosoftwareskinning.md
+          - name: "FindBoneInfluenceIndex"
+            href: id3dx10skininfo-findboneinfluenceindex.md
+          - name: "GetBoneInfluence"
+            href: id3dx10skininfo-getboneinfluence.md
+          - name: "GetBoneInfluenceCount"
+            href: id3dx10skininfo-getboneinfluencecount.md
+          - name: "GetBoneInfluences"
+            href: id3dx10skininfo-getboneinfluences.md
+          - name: "GetMaxBoneInfluences"
+            href: id3dx10skininfo-getmaxboneinfluences.md
+          - name: "GetNumBones"
+            href: id3dx10skininfo-getnumbones.md
+          - name: "GetNumVertices"
+            href: id3dx10skininfo-getnumvertices.md
+          - name: "RemapBones"
+            href: id3dx10skininfo-remapbones.md
+          - name: "RemapVertices"
+            href: id3dx10skininfo-remapvertices.md
+          - name: "RemoveBone"
+            href: id3dx10skininfo-removebone.md
+          - name: "SetBoneInfluence"
+            href: id3dx10skininfo-setboneinfluence.md
+        - name: "ID3DX10Sprite"
+          href: id3dx10sprite.md
+          items: 
+          - name: "Begin"
+            href: id3dx10sprite-begin.md
+          - name: "DrawSpritesBuffered"
+            href: id3dx10sprite-drawspritesbuffered.md
+          - name: "DrawSpritesImmediate"
+            href: id3dx10sprite-drawspritesimmediate.md
+          - name: "End"
+            href: id3dx10sprite-end.md
+          - name: "Flush"
+            href: id3dx10sprite-flush.md
+          - name: "GetDevice"
+            href: id3dx10sprite-getdevice.md
+          - name: "GetProjectionTransform"
+            href: id3dx10sprite-getprojectiontransform.md
+          - name: "GetViewTransform"
+            href: id3dx10sprite-getviewtransform.md
+          - name: "SetProjectionTransform"
+            href: id3dx10sprite-setprojectiontransform.md
+          - name: "SetViewTransform"
+            href: id3dx10sprite-setviewtransform.md
+        - name: "ID3DX10ThreadPump"
+          href: id3dx10threadpump.md
+          items: 
+          - name: "AddWorkItem"
+            href: id3dx10threadpump-addworkitem.md
+          - name: "GetQueueStatus"
+            href: id3dx10threadpump-getqueuestatus.md
+          - name: "GetWorkItemCount"
+            href: id3dx10threadpump-getworkitemcount.md
+          - name: "ProcessDeviceWorkItems"
+            href: id3dx10threadpump-processdeviceworkitems.md
+          - name: "PurgeAllItems"
+            href: id3dx10threadpump-purgeallitems.md
+          - name: "WaitForAllItems"
+            href: id3dx10threadpump-waitforallitems.md
+        - name: "ID3DXMatrixStack"
+          href: d3d10-id3dxmatrixstack.md
+          items: 
+          - name: "GetTop"
+            href: id3dxmatrixstack-gettop.md
+          - name: "LoadIdentity"
+            href: id3dxmatrixstack-loadidentity.md
+          - name: "LoadMatrix"
+            href: id3dxmatrixstack-loadmatrix.md
+          - name: "MultMatrix"
+            href: id3dxmatrixstack-multmatrix.md
+          - name: "MultMatrixLocal"
+            href: id3dxmatrixstack-multmatrixlocal.md
+          - name: "Pop"
+            href: id3dxmatrixstack-pop.md
+          - name: "Push"
+            href: id3dxmatrixstack-push.md
+          - name: "RotateAxis"
+            href: id3dxmatrixstack-rotateaxis.md
+          - name: "RotateAxisLocal"
+            href: id3dxmatrixstack-rotateaxislocal.md
+          - name: "RotateYawPitchRoll"
+            href: id3dxmatrixstack-rotateyawpitchroll.md
+          - name: "RotateYawPitchRollLocal"
+            href: id3dxmatrixstack-rotateyawpitchrolllocal.md
+          - name: "Scale"
+            href: id3dxmatrixstack-scale.md
+          - name: "ScaleLocal"
+            href: id3dxmatrixstack-scalelocal.md
+          - name: "Translate"
+            href: id3dxmatrixstack-translate.md
+          - name: "TranslateLocal"
+            href: id3dxmatrixstack-translatelocal.md
+      - name: "D3DX Functions"
+        href: d3d10-graphics-reference-d3dx10-functions.md
+        items: 
+        - name: "General Purpose Functions"
+          href: d3d10-graphics-reference-d3dx10-functions-general-purpose.md
+          items: 
+          - name: "D3DX10CheckVersion"
+            href: d3dx10checkversion.md
+          - name: "D3DX10CompileEffectFromFile"
+            href: d3dx10compileeffectfromfile.md
+          - name: "D3DX10CompileEffectFromMemory"
+            href: d3dx10compileeffectfrommemory.md
+          - name: "D3DX10CompileEffectFromResource"
+            href: d3dx10compileeffectfromresource.md
+          - name: "D3DX10CompileShaderFromFile"
+            href: d3dx10compileshaderfromfile.md
+          - name: "D3DX10CompileShaderFromMemory"
+            href: d3dx10compileshaderfrommemory.md
+          - name: "D3DX10CompileShaderFromResource"
+            href: d3dx10compileshaderfromresource.md
+          - name: "D3DX10CompileFromFile"
+            href: d3dx10compilefromfile.md
+          - name: "D3DX10CompileFromMemory"
+            href: d3dx10compilefrommemory.md
+          - name: "D3DX10CompileFromResource"
+            href: d3dx10compilefromresource.md
+          - name: "D3DX10CreateAsyncCompilerProcessor"
+            href: d3dx10createasynccompilerprocessor.md
+          - name: "D3DX10CreateAsyncEffectCompilerProcessor"
+            href: d3dx10createasynceffectcompilerprocessor.md
+          - name: "D3DX10CreateAsyncEffectCreateProcessor"
+            href: d3dx10createasynceffectcreateprocessor.md
+          - name: "D3DX10CreateAsyncEffectPoolCreateProcessor"
+            href: d3dx10createasynceffectpoolcreateprocessor.md
+          - name: "D3DX10CreateAsyncFileLoader"
+            href: d3dx10createasyncfileloader.md
+          - name: "D3DX10CreateAsyncMemoryLoader"
+            href: d3dx10createasyncmemoryloader.md
+          - name: "D3DX10CreateAsyncResourceLoader"
+            href: d3dx10createasyncresourceloader.md
+          - name: "D3DX10CreateAsyncShaderCompilerProcessor"
+            href: d3dx10createasyncshadercompilerprocessor.md
+          - name: "D3DX10CreateAsyncShaderPreprocessProcessor"
+            href: d3dx10createasyncshaderpreprocessprocessor.md
+          - name: "D3DX10CreateAsyncShaderResourceViewProcessor"
+            href: d3dx10createasyncshaderresourceviewprocessor.md
+          - name: "D3DX10CreateDevice"
+            href: d3dx10createdevice.md
+          - name: "D3DX10CreateDeviceAndSwapChain"
+            href: d3dx10createdeviceandswapchain.md
+          - name: "D3DX10CreateEffectFromFile"
+            href: d3dx10createeffectfromfile.md
+          - name: "D3DX10CreateEffectFromMemory"
+            href: d3dx10createeffectfrommemory.md
+          - name: "D3DX10CreateEffectFromResource"
+            href: d3dx10createeffectfromresource.md
+          - name: "D3DX10CreateEffectPoolFromFile"
+            href: d3dx10createeffectpoolfromfile.md
+          - name: "D3DX10CreateEffectPoolFromMemory"
+            href: d3dx10createeffectpoolfrommemory.md
+          - name: "D3DX10CreateEffectPoolFromResource"
+            href: d3dx10createeffectpoolfromresource.md
+          - name: "D3DX10CreateFont"
+            href: d3dx10createfont.md
+          - name: "D3DX10CreateFontIndirect"
+            href: d3dx10createfontindirect.md
+          - name: "D3DX10CreateSprite"
+            href: d3dx10createsprite.md
+          - name: "D3DX10CreateThreadPump"
+            href: d3dx10createthreadpump.md
+          - name: "D3DX10DebugMute"
+            href: d3dx10debugmute.md
+          - name: "D3DX10DisassembleEffect"
+            href: d3dx10disassembleeffect.md
+          - name: "D3DX10DisassembleShader"
+            href: d3dx10disassembleshader.md
+          - name: "D3DX10GetDriverLevel"
+            href: d3dx10getdriverlevel.md
+          - name: "D3DX10GetFeatureLevel1"
+            href: d3dx10getfeaturelevel1.md
+          - name: "D3DX10PreprocessShaderFromFile"
+            href: d3dx10preprocessshaderfromfile.md
+          - name: "D3DX10PreprocessShaderFromMemory"
+            href: d3dx10preprocessshaderfrommemory.md
+          - name: "D3DX10PreprocessShaderFromResource"
+            href: d3dx10preprocessshaderfromresource.md
+          - name: "D3DX10ReflectShader"
+            href: d3dx10reflectshader.md
+          - name: "D3DX10UnsetAllDeviceObjects"
+            href: d3dx10unsetalldeviceobjects.md
+        - name: "Math Functions"
+          href: d3d10-graphics-reference-d3dx10-functions-math.md
+          items: 
+          - name: "D3DXColorAdjustContrast"
+            href: d3d10-d3dxcoloradjustcontrast.md
+          - name: "D3DXColorAdjustSaturation"
+            href: d3d10-d3dxcoloradjustsaturation.md
+          - name: "D3DXCreateMatrixStack"
+            href: d3d10-d3dxcreatematrixstack.md
+          - name: "D3DXCpuOptimizations"
+            href: d3d10-d3dxcpuoptimizations.md
+          - name: "D3DXFloat16To32Array"
+            href: d3d10-d3dxfloat16to32array.md
+          - name: "D3DXFloat32To16Array"
+            href: d3d10-d3dxfloat32to16array.md
+          - name: "D3DXFresnelTerm"
+            href: d3d10-d3dxfresnelterm.md
+          - name: "D3DXMatrixAffineTransformation"
+            href: d3d10-d3dxmatrixaffinetransformation.md
+          - name: "D3DXMatrixAffineTransformation2D"
+            href: d3d10-d3dxmatrixaffinetransformation2d.md
+          - name: "D3DXMatrixDecompose"
+            href: d3d10-d3dxmatrixdecompose.md
+          - name: "D3DXMatrixDeterminant"
+            href: d3d10-d3dxmatrixdeterminant.md
+          - name: "D3DXMatrixInverse"
+            href: d3d10-d3dxmatrixinverse.md
+          - name: "D3DXMatrixLookAtLH"
+            href: d3d10-d3dxmatrixlookatlh.md
+          - name: "D3DXMatrixLookAtRH"
+            href: d3d10-d3dxmatrixlookatrh.md
+          - name: "D3DXMatrixMultiply"
+            href: d3d10-d3dxmatrixmultiply.md
+          - name: "D3DXMatrixMultiplyTranspose"
+            href: d3d10-d3dxmatrixmultiplytranspose.md
+          - name: "D3DXMatrixOrthoLH"
+            href: d3d10-d3dxmatrixortholh.md
+          - name: "D3DXMatrixOrthoOffCenterLH"
+            href: d3d10-d3dxmatrixorthooffcenterlh.md
+          - name: "D3DXMatrixOrthoOffCenterRH"
+            href: d3d10-d3dxmatrixorthooffcenterrh.md
+          - name: "D3DXMatrixOrthoRH"
+            href: d3d10-d3dxmatrixorthorh.md
+          - name: "D3DXMatrixPerspectiveFovLH"
+            href: d3d10-d3dxmatrixperspectivefovlh.md
+          - name: "D3DXMatrixPerspectiveFovRH"
+            href: d3d10-d3dxmatrixperspectivefovrh.md
+          - name: "D3DXMatrixPerspectiveLH"
+            href: d3d10-d3dxmatrixperspectivelh.md
+          - name: "D3DXMatrixPerspectiveOffCenterLH"
+            href: d3d10-d3dxmatrixperspectiveoffcenterlh.md
+          - name: "D3DXMatrixPerspectiveOffCenterRH"
+            href: d3d10-d3dxmatrixperspectiveoffcenterrh.md
+          - name: "D3DXMatrixPerspectiveRH"
+            href: d3d10-d3dxmatrixperspectiverh.md
+          - name: "D3DXMatrixReflect"
+            href: d3d10-d3dxmatrixreflect.md
+          - name: "D3DXMatrixRotationAxis"
+            href: d3d10-d3dxmatrixrotationaxis.md
+          - name: "D3DXMatrixRotationQuaternion"
+            href: d3d10-d3dxmatrixrotationquaternion.md
+          - name: "D3DXMatrixRotationX"
+            href: d3d10-d3dxmatrixrotationx.md
+          - name: "D3DXMatrixRotationY"
+            href: d3d10-d3dxmatrixrotationy.md
+          - name: "D3DXMatrixRotationYawPitchRoll"
+            href: d3d10-d3dxmatrixrotationyawpitchroll.md
+          - name: "D3DXMatrixRotationZ"
+            href: d3d10-d3dxmatrixrotationz.md
+          - name: "D3DXMatrixScaling"
+            href: d3d10-d3dxmatrixscaling.md
+          - name: "D3DXMatrixShadow"
+            href: d3d10-d3dxmatrixshadow.md
+          - name: "D3DXMatrixTransformation"
+            href: d3d10-d3dxmatrixtransformation.md
+          - name: "D3DXMatrixTransformation2D"
+            href: d3d10-d3dxmatrixtransformation2d.md
+          - name: "D3DXMatrixTranslation"
+            href: d3d10-d3dxmatrixtranslation.md
+          - name: "D3DXMatrixTranspose"
+            href: d3d10-d3dxmatrixtranspose.md
+          - name: "D3DXPlaneFromPointNormal"
+            href: d3d10-d3dxplanefrompointnormal.md
+          - name: "D3DXPlaneFromPoints"
+            href: d3d10-d3dxplanefrompoints.md
+          - name: "D3DXPlaneIntersectLine"
+            href: d3d10-d3dxplaneintersectline.md
+          - name: "D3DXPlaneNormalize"
+            href: d3d10-d3dxplanenormalize.md
+          - name: "D3DXPlaneTransform"
+            href: d3d10-d3dxplanetransform.md
+          - name: "D3DXPlaneTransformArray"
+            href: d3d10-d3dxplanetransformarray.md
+          - name: "D3DXQuaternionBaryCentric"
+            href: d3d10-d3dxquaternionbarycentric.md
+          - name: "D3DXQuaternionExp"
+            href: d3d10-d3dxquaternionexp.md
+          - name: "D3DXQuaternionInverse"
+            href: d3d10-d3dxquaternioninverse.md
+          - name: "D3DXQuaternionLn"
+            href: d3d10-d3dxquaternionln.md
+          - name: "D3DXQuaternionMultiply"
+            href: d3d10-d3dxquaternionmultiply.md
+          - name: "D3DXQuaternionNormalize"
+            href: d3d10-d3dxquaternionnormalize.md
+          - name: "D3DXQuaternionRotationAxis"
+            href: d3d10-d3dxquaternionrotationaxis.md
+          - name: "D3DXQuaternionRotationMatrix"
+            href: d3d10-d3dxquaternionrotationmatrix.md
+          - name: "D3DXQuaternionRotationYawPitchRoll"
+            href: d3d10-d3dxquaternionrotationyawpitchroll.md
+          - name: "D3DXQuaternionSlerp"
+            href: d3d10-d3dxquaternionslerp.md
+          - name: "D3DXQuaternionSquad"
+            href: d3d10-d3dxquaternionsquad.md
+          - name: "D3DXQuaternionSquadSetup"
+            href: d3d10-d3dxquaternionsquadsetup.md
+          - name: "D3DXQuaternionToAxisAngle"
+            href: d3d10-d3dxquaterniontoaxisangle.md
+          - name: "D3DXSHAdd"
+            href: d3d10-d3dxshadd.md
+          - name: "D3DXSHDot"
+            href: d3d10-d3dxshdot.md
+          - name: "D3DXSHEvalConeLight"
+            href: d3d10-d3dxshevalconelight.md
+          - name: "D3DXSHEvalDirection"
+            href: d3d10-d3dxshevaldirection.md
+          - name: "D3DXSHEvalDirectionalLight"
+            href: d3d10-d3dxshevaldirectionallight.md
+          - name: "D3DXSHEvalHemisphereLight"
+            href: d3d10-d3dxshevalhemispherelight.md
+          - name: "D3DXSHEvalSphericalLight"
+            href: d3d10-d3dxshevalsphericallight.md
+          - name: "D3DXSHMultiply2"
+            href: d3d10-d3dxshmultiply2.md
+          - name: "D3DXSHMultiply3"
+            href: d3d10-d3dxshmultiply3.md
+          - name: "D3DXSHMultiply4"
+            href: d3d10-d3dxshmultiply4.md
+          - name: "D3DXSHMultiply5"
+            href: d3d10-d3dxshmultiply5.md
+          - name: "D3DXSHMultiply6"
+            href: d3d10-d3dxshmultiply6.md
+          - name: "D3DX10SHProjectCubeMap"
+            href: d3dx10shprojectcubemap.md
+          - name: "D3DXSHRotate"
+            href: d3d10-d3dxshrotate.md
+          - name: "D3DXSHRotateZ"
+            href: d3d10-d3dxshrotatez.md
+          - name: "D3DXSHScale"
+            href: d3d10-d3dxshscale.md
+          - name: "D3DXVec2BaryCentric"
+            href: d3d10-d3dxvec2barycentric.md
+          - name: "D3DXVec2CatmullRom"
+            href: d3d10-d3dxvec2catmullrom.md
+          - name: "D3DXVec2Hermite"
+            href: d3d10-d3dxvec2hermite.md
+          - name: "D3DXVec2Normalize"
+            href: d3d10-d3dxvec2normalize.md
+          - name: "D3DXVec2Transform"
+            href: d3d10-d3dxvec2transform.md
+          - name: "D3DXVec2TransformArray"
+            href: d3d10-d3dxvec2transformarray.md
+          - name: "D3DXVec2TransformCoord"
+            href: d3d10-d3dxvec2transformcoord.md
+          - name: "D3DXVec2TransformCoordArray"
+            href: d3d10-d3dxvec2transformcoordarray.md
+          - name: "D3DXVec2TransformNormal"
+            href: d3d10-d3dxvec2transformnormal.md
+          - name: "D3DXVec2TransformNormalArray"
+            href: d3d10-d3dxvec2transformnormalarray.md
+          - name: "D3DXVec3BaryCentric"
+            href: d3d10-d3dxvec3barycentric.md
+          - name: "D3DXVec3CatmullRom"
+            href: d3d10-d3dxvec3catmullrom.md
+          - name: "D3DXVec3Hermite"
+            href: d3d10-d3dxvec3hermite.md
+          - name: "D3DXVec3Normalize"
+            href: d3d10-d3dxvec3normalize.md
+          - name: "D3DXVec3Project"
+            href: d3d10-d3dxvec3project.md
+          - name: "D3DXVec3ProjectArray"
+            href: d3d10-d3dxvec3projectarray.md
+          - name: "D3DXVec3Transform"
+            href: d3d10-d3dxvec3transform.md
+          - name: "D3DXVec3TransformArray"
+            href: d3d10-d3dxvec3transformarray.md
+          - name: "D3DXVec3TransformCoord"
+            href: d3d10-d3dxvec3transformcoord.md
+          - name: "D3DXVec3TransformCoordArray"
+            href: d3d10-d3dxvec3transformcoordarray.md
+          - name: "D3DXVec3TransformNormal"
+            href: d3d10-d3dxvec3transformnormal.md
+          - name: "D3DXVec3TransformNormalArray"
+            href: d3d10-d3dxvec3transformnormalarray.md
+          - name: "D3DXVec3Unproject"
+            href: d3d10-d3dxvec3unproject.md
+          - name: "D3DXVec3UnprojectArray"
+            href: d3d10-d3dxvec3unprojectarray.md
+          - name: "D3DXVec4BaryCentric"
+            href: d3d10-d3dxvec4barycentric.md
+          - name: "D3DXVec4CatmullRom"
+            href: d3d10-d3dxvec4catmullrom.md
+          - name: "D3DXVec4Cross"
+            href: d3d10-d3dxvec4cross.md
+          - name: "D3DXVec4Hermite"
+            href: d3d10-d3dxvec4hermite.md
+          - name: "D3DXVec4Normalize"
+            href: d3d10-d3dxvec4normalize.md
+          - name: "D3DXVec4Transform"
+            href: d3d10-d3dxvec4transform.md
+          - name: "D3DXVec4TransformArray"
+            href: d3d10-d3dxvec4transformarray.md
+        - name: "Mesh Functions"
+          href: d3d10-graphics-reference-d3dx10-functions-mesh.md
+          items: 
+          - name: "D3DX10CreateMesh"
+            href: d3d10-d3dx10createmesh.md
+          - name: "D3DX10CreateSkinInfo"
+            href: d3d10-d3dx10createskininfo.md
+          - name: "D3DXBoxBoundProbe"
+            href: d3d10-d3dxboxboundprobe.md
+          - name: "D3DXComputeBoundingBox"
+            href: d3d10-d3dxcomputeboundingbox.md
+          - name: "D3DXComputeBoundingSphere"
+            href: d3d10-d3dxcomputeboundingsphere.md
+          - name: "D3DXIntersectTri"
+            href: d3d10-d3dxintersecttri.md
+          - name: "D3DXSphereBoundProbe"
+            href: d3d10-d3dxsphereboundprobe.md
+        - name: "Texture Functions in D3DX 10"
+          href: d3d10-graphics-reference-d3dx10-functions-texturing.md
+          items: 
+          - name: "D3DX10ComputeNormalMap"
+            href: d3dx10computenormalmap.md
+          - name: "D3DX10CreateAsyncTextureInfoProcessor"
+            href: d3dx10createasynctextureinfoprocessor.md
+          - name: "D3DX10CreateAsyncTextureProcessor"
+            href: d3dx10createasynctextureprocessor.md
+          - name: "D3DX10CreateShaderResourceViewFromFile"
+            href: d3dx10createshaderresourceviewfromfile.md
+          - name: "D3DX10CreateShaderResourceViewFromMemory"
+            href: d3dx10createshaderresourceviewfrommemory.md
+          - name: "D3DX10CreateShaderResourceViewFromResource"
+            href: d3dx10createshaderresourceviewfromresource.md
+          - name: "D3DX10CreateTextureFromFile"
+            href: d3dx10createtexturefromfile.md
+          - name: "D3DX10CreateTextureFromMemory"
+            href: d3dx10createtexturefrommemory.md
+          - name: "D3DX10CreateTextureFromResource"
+            href: d3dx10createtexturefromresource.md
+          - name: "D3DX10FilterTexture"
+            href: d3dx10filtertexture.md
+          - name: "D3DX10GetImageInfoFromFile"
+            href: d3dx10getimageinfofromfile.md
+          - name: "D3DX10GetImageInfoFromMemory"
+            href: d3dx10getimageinfofrommemory.md
+          - name: "D3DX10GetImageInfoFromResource"
+            href: d3dx10getimageinfofromresource.md
+          - name: "D3DX10LoadTextureFromTexture"
+            href: d3dx10loadtexturefromtexture.md
+          - name: "D3DX10SaveTextureToFile"
+            href: d3dx10savetexturetofile.md
+          - name: "D3DX10SaveTextureToMemory"
+            href: d3dx10savetexturetomemory.md
+      - name: "D3DX Structures"
+        href: d3d10-graphics-reference-d3dx10-structures.md
+        items: 
+        - name: "D3DMATRIX"
+          href: d3d10-d3dmatrix.md
+        - name: "D3DVECTOR"
+          href: d3d10-d3dvector.md
+        - name: "D3DX10_ATTRIBUTE_RANGE"
+          href: d3dx10-attribute-range.md
+        - name: "D3DX10_ATTRIBUTE_WEIGHTS"
+          href: d3dx10-attribute-weights.md
+        - name: "D3DX10_FONT_DESC"
+          href: d3dx10-font-desc.md
+        - name: "D3DX10_IMAGE_INFO"
+          href: d3dx10-image-info.md
+        - name: "D3DX10_IMAGE_LOAD_INFO"
+          href: d3dx10-image-load-info.md
+        - name: "D3DX10_INTERSECT_INFO"
+          href: d3dx10-intersect-info.md
+        - name: "D3DX10_WELD_EPSILONS"
+          href: d3dx10-weld-epsilons.md
+        - name: "D3DX10_SPRITE"
+          href: d3dx10-sprite.md
+        - name: "D3DX10_SKINNING_CHANNEL"
+          href: d3dx10-skinning-channel.md
+        - name: "D3DX10_TEXTURE_LOAD_INFO"
+          href: d3dx10-texture-load-info.md
+        - name: "D3DXCOLOR"
+          href: d3d10-d3dxcolor.md
+        - name: "D3DXFLOAT16"
+          href: d3d10-d3dxfloat16.md
+        - name: "D3DXMATRIX"
+          href: d3d10-d3dxmatrix.md
+        - name: "D3DXMATRIXA16"
+          href: d3d10-d3dxmatrixa16.md
+        - name: "D3DXPLANE"
+          href: d3d10-d3dxplane.md
+        - name: "D3DXQUATERNION"
+          href: d3d10-d3dxquaternion.md
+        - name: "D3DXVECTOR2"
+          href: d3d10-d3dxvector2.md
+        - name: "D3DXVECTOR2_16F"
+          href: d3d10-d3dxvector2-16f.md
+        - name: "D3DXVECTOR3"
+          href: d3d10-d3dxvector3.md
+        - name: "D3DXVECTOR3_16F"
+          href: d3d10-d3dxvector3-16f.md
+        - name: "D3DXVECTOR4"
+          href: d3d10-d3dxvector4.md
+        - name: "D3DXVECTOR4_16F"
+          href: d3d10-d3dxvector4-16f.md
+      - name: "D3DX Enumerations"
+        href: d3d10-graphics-reference-d3dx10-enums.md
+        items: 
+        - name: "D3DX10_CHANNEL_FLAG"
+          href: d3dx10-channel-flag.md
+        - name: "D3DX_CPU_OPTIMIZATION"
+          href: d3dx-cpu-optimization.md
+        - name: "D3DX10_ERR"
+          href: d3dx10-err.md
+        - name: "D3DX10_FILTER_FLAG"
+          href: d3dx10-filter-flag.md
+        - name: "D3DX10_IMAGE_FILE_FORMAT"
+          href: d3dx10-image-file-format.md
+        - name: "D3DX10_MESH"
+          href: d3dx10-mesh.md
+        - name: "D3DX10_MESH_DISCARD_FLAGS"
+          href: d3dx10-mesh-discard-flags.md
+        - name: "D3DX10_MESHOPT"
+          href: d3dx10-meshopt.md
+        - name: "D3DX10_NORMALMAP_FLAG"
+          href: d3dx10-normalmap-flag.md
+        - name: "D3DX10_SPRITE_FLAG"
+          href: d3dx10-sprite-flag.md
+        - name: "D3DX10_SAVE_TEXTURE_FLAG"
+          href: d3dx10-save-texture-flag.md

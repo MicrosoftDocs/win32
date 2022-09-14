@@ -1,0 +1,11 @@
+log/
+obj/
+_site/
+.optemp/
+_themes*/
+_repo.*/
+*.xlsx
+
+.openpublishing.buildcore.ps1
+# Visual Studio cache/options directory
+.vs/

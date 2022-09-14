@@ -1,0 +1,476 @@
+- name: "Setup API"
+  href: setup-api-portal.md
+  items: 
+  - name: "Overview"
+    href: overview.md
+    items: 
+    - name: "Setup Applications"
+      href: setup-applications.md
+      items: 
+      - name: "About INF Files"
+        href: about-inf-files.md
+      - name: "Using INF Files"
+        href: using-inf-files.md
+        items: 
+        - name: "Authoring an INF file"
+          href: authoring-an-inf-file.md
+        - name: "INF Install Section Example"
+          href: inf-install-section-example.md
+        - name: "INF SourceDisksNames and SourceDisksFiles Sections Example"
+          href: inf-sourcedisksnames-and-sourcedisksfiles-sections-example.md
+        - name: "Opening and Closing an INF file"
+          href: opening-and-closing-an-inf-file.md
+        - name: "Retrieving Information From an INF File"
+          href: retrieving-information-from-an-inf-file.md
+        - name: "Installing From an INF File"
+          href: installing-from-an-inf-file.md
+        - name: "Specifying a Security Descriptor From an INF File"
+          href: specifying-a-security-descriptor-from-an-inf-file.md
+      - name: "INF File Reference"
+        href: inf-file-reference.md
+        items: 
+        - name: "INF File Setup Functions"
+          href: inf-file-setup-functions.md
+        - name: "Handle to an INF File"
+          href: handle-to-an-inf-file.md
+        - name: "INF File Structures"
+          href: inf-file-structures.md
+        - name: "INF File Notifications"
+          href: inf-file-notifications.md
+    - name: "File Version Comparisons"
+      href: file-version-comparisons.md
+    - name: "Disk Prompting and Error Handling"
+      href: disk-prompting-and-error-handling.md
+      items: 
+      - name: "About Disk Prompting and Error Handling"
+        href: about-disk-prompting-and-error-handling.md
+      - name: "Using Disk Prompting and Error Handling"
+        href: using-disk-prompting-and-error-handling.md
+        items: 
+        - name: "Prompting For a Disk"
+          href: prompting-for-a-disk.md
+        - name: "Error Handling"
+          href: error-handling.md
+      - name: "Disk Prompting and Error Handling Reference"
+        href: disk-prompting-and-error-handling-reference.md
+        items: 
+        - name: "Disk Prompting and Error Handling Functions"
+          href: disk-prompting-and-error-handling-functions.md
+    - name: "File Queues"
+      href: file-queues.md
+      items: 
+      - name: "About File Queues"
+        href: about-file-queues.md
+        items: 
+        - name: "Order of Queue Commitment"
+          href: order-of-queue-commitment.md
+        - name: "Queue Notifications"
+          href: queue-notifications.md
+      - name: "Using File Queues"
+        href: using-file-queues.md
+        items: 
+        - name: "Opening and Closing a Queue"
+          href: opening-and-closing-a-queue.md
+        - name: "Queuing Files"
+          href: queuing-files.md
+        - name: "Queuing an INF Section"
+          href: queuing-an-inf-section.md
+        - name: "Committing a Queue"
+          href: committing-a-queue.md
+        - name: "Platform Path Override"
+          href: platform-path-override.md
+      - name: "File Queue Reference"
+        href: file-queue-reference.md
+        items: 
+        - name: "File Queue Data Types"
+          href: file-queue-data-types.md
+        - name: "File Queue Functions"
+          href: file-queue-functions.md
+        - name: "File Queue Notifications"
+          href: file-queue-notifications.md
+    - name: "Default Queue Callback Routine"
+      href: default-queue-callback-routine.md
+      items: 
+      - name: "Default Queue Callback Routine Reference"
+        href: default-queue-callback-routine-reference.md
+        items: 
+        - name: "Default Queue Callback Routine Functions"
+          href: default-queue-callback-routine-functions.md
+      - name: "About the Default Queue Callback Routine"
+        href: about-the-default-queue-callback-routine.md
+        items: 
+        - name: "Creating a Custom Queue Callback Routine"
+          href: creating-a-custom-queue-callback-routine.md
+      - name: "Using the Default Queue Callback Routine"
+        href: using-the-default-queue-callback-routine.md
+        items: 
+        - name: "Initializing and Terminating the Callback Context"
+          href: initializing-and-terminating-the-callback-context.md
+        - name: "Calling the Default Queue Callback Routine"
+          href: calling-the-default-queue-callback-routine.md
+    - name: "Cabinet Files (Setup API)"
+      href: cabinet-files--setup-api-.md
+      items: 
+      - name: "About Cabinet Files"
+        href: about-cabinet-files.md
+      - name: "Using Cabinet Files"
+        href: using-cabinet-files.md
+        items: 
+        - name: "Extracting Files from Cabinets"
+          href: extracting-files-from-cabinets.md
+        - name: "Creating a Cabinet Callback Routine"
+          href: creating-a-cabinet-callback-routine.md
+      - name: "Cabinet File Reference"
+        href: cabinet-file-reference.md
+        items: 
+        - name: "Cabinet File Structures"
+          href: cabinet-file-structures.md
+        - name: "Cabinet File Functions"
+          href: cabinet-file-functions.md
+        - name: "Cabinet File Notifications"
+          href: cabinet-file-notifications.md
+    - name: "MRU Source List"
+      href: mru-source-list.md
+      items: 
+      - name: "About the MRU Source List"
+        href: about-the-mru-source-list.md
+      - name: "Using the MRU Source List"
+        href: using-the-mru-source-list.md
+      - name: "MRU Source List Reference"
+        href: mru-source-list-reference.md
+        items: 
+        - name: "MRU Source Functions"
+          href: mru-source-functions.md
+    - name: "File Log"
+      href: file-log.md
+      items: 
+      - name: "About the File Log"
+        href: about-the-file-log.md
+      - name: "Using the File Log"
+        href: using-the-file-log.md
+      - name: "File Log Reference"
+        href: file-log-reference.md
+        items: 
+        - name: "File Log Functions"
+          href: file-log-functions.md
+    - name: "Disk-Space List"
+      href: disk-space-list.md
+      items: 
+      - name: "About the Disk-Space List"
+        href: about-the-disk-space-list.md
+      - name: "Using the Disk-Space List"
+        href: using-the-disk-space-list.md
+      - name: "Disk-Space List Reference"
+        href: disk-space-list-reference.md
+        items: 
+        - name: "Disk-Space List Data Types"
+          href: disk-space-list-data-types.md
+        - name: "Disk-Space List Functions"
+          href: disk-space-list-functions.md
+  - name: "Creating Setup Applications"
+    href: creating-setup-applications.md
+    items: 
+    - name: "Opening the INF File"
+      href: opening-the-inf-file.md
+    - name: "Extracting File Information from the INF file"
+      href: extracting-file-information-from-the-inf-file.md
+    - name: "Gathering Setup Information from the User"
+      href: gathering-setup-information-from-the-user.md
+    - name: "Creating a Queue and Queuing File Operations"
+      href: creating-a-queue-and-queuing-file-operations.md
+    - name: "Committing the Queue"
+      href: committing-the-queue.md
+    - name: "Updating Registry Information"
+      href: updating-registry-information.md
+    - name: "Closing the File Queue and INF File"
+      href: closing-the-file-queue-and-inf-file.md
+    - name: "Releasing Other System Resources"
+      href: releasing-other-system-resources.md
+  - name: "Reference"
+    href: reference.md
+    items: 
+    - name: "Functions"
+      href: functions.md
+      items: 
+      - name: "FileCallback"
+        href: /windows/desktop/api/setupapi/nc-setupapi-psp_file_callback_a
+      - name: "InstallHinfSection"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-installhinfsectiona
+      - name: "SetupAddInstallSectionToDiskSpaceList"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupaddinstallsectiontodiskspacelista
+      - name: "SetupAddSectionToDiskSpaceList"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupaddsectiontodiskspacelista
+      - name: "SetupAddToDiskSpaceList"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupaddtodiskspacelista
+      - name: "SetupAddToSourceList"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupaddtosourcelista
+      - name: "SetupAdjustDiskSpaceList"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupadjustdiskspacelista
+      - name: "SetupBackupError"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupbackuperrora
+      - name: "SetupCancelTemporarySourceList"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupcanceltemporarysourcelist
+      - name: "SetupCloseFileQueue"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupclosefilequeue
+      - name: "SetupCloseInfFile"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupcloseinffile
+      - name: "SetupCommitFileQueue"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupcommitfilequeuea
+      - name: "SetupCopyError"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupcopyerrora
+      - name: "SetupConfigureWmiFromInfSection"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupconfigurewmifrominfsectiona
+      - name: "SetupCopyOEMInf"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupcopyoeminfa
+      - name: "SetupCreateDiskSpaceList"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupcreatediskspacelista
+      - name: "SetupDecompressOrCopyFile"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupdecompressorcopyfilea
+      - name: "SetupDefaultQueueCallback"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupdefaultqueuecallbacka
+      - name: "SetupDeleteError"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupdeleteerrora
+      - name: "SetupDuplicateDiskSpaceList"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupduplicatediskspacelista
+      - name: "SetupDestroyDiskSpaceList"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupdestroydiskspacelist
+      - name: "SetupEnumInfSections"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupenuminfsectionsa
+      - name: "SetupFindFirstLine"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupfindfirstlinea
+      - name: "SetupFindNextLine"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupfindnextline
+      - name: "SetupFindNextMatchLine"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupfindnextmatchlinea
+      - name: "SetupFreeSourceList"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupfreesourcelista
+      - name: "SetupGetBinaryField"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupgetbinaryfield
+      - name: "SetupGetFieldCount"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupgetfieldcount
+      - name: "SetupGetFileCompressionInfo"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupgetfilecompressioninfoa
+      - name: "SetupGetFileCompressionInfoEx"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupgetfilecompressioninfoexa
+      - name: "SetupGetFileQueueCount"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupgetfilequeuecount
+      - name: "SetupGetFileQueueFlags"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupgetfilequeueflags
+      - name: "SetupGetInfFileList"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupgetinffilelista
+      - name: "SetupGetInfInformation"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupgetinfinformationa
+      - name: "SetupGetIntField"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupgetintfield
+      - name: "SetupGetLineByIndex"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupgetlinebyindexa
+      - name: "SetupGetLineCount"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupgetlinecounta
+      - name: "SetupGetLineText"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupgetlinetexta
+      - name: "SetupGetMultiSzField"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupgetmultiszfielda
+      - name: "SetupGetSourceFileLocation"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupgetsourcefilelocationa
+      - name: "SetupGetSourceFileSize"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupgetsourcefilesizea
+      - name: "SetupGetSourceInfo"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupgetsourceinfoa
+      - name: "SetupGetStringField"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupgetstringfielda
+      - name: "SetupGetTargetPath"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupgettargetpatha
+      - name: "SetupInitDefaultQueueCallback"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupinitdefaultqueuecallback
+      - name: "SetupInitDefaultQueueCallbackEx"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupinitdefaultqueuecallbackex
+      - name: "SetupInitializeFileLog"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupinitializefileloga
+      - name: "SetupInstallFile"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupinstallfilea
+      - name: "SetupInstallFileEx"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupinstallfileexa
+      - name: "SetupInstallFilesFromInfSection"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupinstallfilesfrominfsectiona
+      - name: "SetupInstallFromInfSection"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupinstallfrominfsectiona
+      - name: "SetupInstallServicesFromInfSection"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupinstallservicesfrominfsectiona
+      - name: "SetupInstallServicesFromInfSectionEx"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupinstallservicesfrominfsectionexa
+      - name: "SetupIterateCabinet"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupiteratecabineta
+      - name: "SetupLogError"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setuplogerrora
+      - name: "SetupLogFile"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setuplogfilea
+      - name: "SetupOpenAppendInfFile"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupopenappendinffilea
+      - name: "SetupOpenFileQueue"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupopenfilequeue
+      - name: "SetupOpenInfFile"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupopeninffilea
+      - name: "SetupOpenLog"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupopenlog
+      - name: "SetupCloseLog"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupcloselog
+      - name: "SetupOpenMasterInf"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupopenmasterinf
+      - name: "SetupPromptForDisk"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setuppromptfordiska
+      - name: "SetupPromptReboot"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setuppromptreboot
+      - name: "SetupQueryDrivesInDiskSpaceList"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupquerydrivesindiskspacelista
+      - name: "SetupQueryFileLog"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupqueryfileloga
+      - name: "SetupQueryInfFileInformation"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupqueryinffileinformationa
+      - name: "SetupQueryInfOriginalFileInformation"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupqueryinforiginalfileinformationa
+      - name: "SetupQueryInfVersionInformation"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupqueryinfversioninformationa
+      - name: "SetupQuerySourceList"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupquerysourcelista
+      - name: "SetupQuerySpaceRequiredOnDrive"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupqueryspacerequiredondrivea
+      - name: "SetupQueueCopy"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupqueuecopya
+      - name: "SetupQueueCopyIndirect"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupqueuecopyindirecta
+      - name: "SetupQueueCopySection"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupqueuecopysectiona
+      - name: "SetupQueueDefaultCopy"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupqueuedefaultcopya
+      - name: "SetupQueueDelete"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupqueuedeletea
+      - name: "SetupQueueDeleteSection"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupqueuedeletesectiona
+      - name: "SetupQueueRename"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupqueuerenamea
+      - name: "SetupQueueRenameSection"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupqueuerenamesectiona
+      - name: "SetupRemoveFileLogEntry"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupremovefilelogentrya
+      - name: "SetupRemoveFromDiskSpaceList"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupremovefromdiskspacelista
+      - name: "SetupRemoveFromSourceList"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupremovefromsourcelista
+      - name: "SetupRemoveInstallSectionFromDiskSpaceList"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupremoveinstallsectionfromdiskspacelista
+      - name: "SetupRemoveSectionFromDiskSpaceList"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupremovesectionfromdiskspacelista
+      - name: "SetupRenameError"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setuprenameerrora
+      - name: "SetupScanFileQueue"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupscanfilequeuea
+      - name: "SetupSetDirectoryId"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupsetdirectoryida
+      - name: "SetupSetDirectoryIdEx"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupsetdirectoryidexa
+      - name: "SetupSetFileQueueAlternatePlatform"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupsetfilequeuealternateplatforma
+      - name: "SetupSetFileQueueFlags"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupsetfilequeueflags
+      - name: "SetupSetPlatformPathOverride"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupsetplatformpathoverridea
+      - name: "SetupSetSourceList"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupsetsourcelista
+      - name: "SetupTermDefaultQueueCallback"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setuptermdefaultqueuecallback
+      - name: "SetupTerminateFileLog"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupterminatefilelog
+      - name: "SetupUninstallNewlyCopiedInfs"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupuninstallnewlycopiedinfs
+      - name: "SetupUninstallOEMInf"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupuninstalloeminfa
+      - name: "SetupVerifyInfFile"
+        href: /windows/desktop/api/Setupapi/nf-setupapi-setupverifyinffilea
+    - name: "Structures (Setup API)"
+      href: structures--setup-api-.md
+      items: 
+      - name: "CABINET_INFO"
+        href: /windows/win32/api/Setupapi/ns-setupapi-cabinet_info_a
+      - name: "FILE_IN_CABINET_INFO"
+        href: /windows/win32/api/Setupapi/ns-setupapi-file_in_cabinet_info_a
+      - name: "FILEPATHS"
+        href: /windows/win32/api/Setupapi/ns-setupapi-filepaths_a
+      - name: "FILEPATHS_SIGNERINFO"
+        href: /windows/win32/api/Setupapi/ns-setupapi-filepaths_signerinfo_a
+      - name: "INFCONTEXT"
+        href: /windows/win32/api/Setupapi/ns-setupapi-infcontext
+      - name: "SOURCE_MEDIA"
+        href: /windows/win32/api/Setupapi/ns-setupapi-source_media_a
+      - name: "SP_ALTPLATFORM_INFO_V1"
+        href: /windows/win32/api/Setupapi/ns-setupapi-sp_altplatform_info_v1
+      - name: "SP_ALTPLATFORM_INFO_V2"
+        href: /windows/win32/api/Setupapi/ns-setupapi-sp_altplatform_info_v2
+      - name: "SP_INF_SIGNER_INFO"
+        href: /windows/win32/api/Setupapi/ns-setupapi-sp_inf_signer_info_v1_a
+      - name: "SP_FILE_COPY_PARAMS"
+        href: /windows/win32/api/Setupapi/ns-setupapi-sp_file_copy_params_a
+      - name: "SP_INF_INFORMATION"
+        href: /windows/win32/api/Setupapi/ns-setupapi-sp_inf_information
+      - name: "SP_ORIGINAL_FILE_INFO"
+        href: /windows/win32/api/Setupapi/ns-setupapi-sp_original_file_info_a
+      - name: "SP_REGISTER_CONTROL_STATUS"
+        href: /windows/win32/api/Setupapi/ns-setupapi-sp_register_control_statusa
+    - name: "Notifications"
+      href: notifications.md
+      items: 
+      - name: "SPFILENOTIFY_COPYERROR"
+        href: spfilenotify-copyerror.md
+      - name: "SPFILENOTIFY_DELETEERROR"
+        href: spfilenotify-deleteerror.md
+      - name: "SPFILENOTIFY_ENDCOPY"
+        href: spfilenotify-endcopy.md
+      - name: "SPFILENOTIFY_ENDDELETE"
+        href: spfilenotify-enddelete.md
+      - name: "SPFILENOTIFY_ENDQUEUE"
+        href: spfilenotify-endqueue.md
+      - name: "SPFILENOTIFY_ENDREGISTRATION"
+        href: spfilenotify-endregistration.md
+      - name: "SPFILENOTIFY_ENDRENAME"
+        href: spfilenotify-endrename.md
+      - name: "SPFILENOTIFY_ENDSUBQUEUE"
+        href: spfilenotify-endsubqueue.md
+      - name: "SPFILENOTIFY_FILEEXTRACTED"
+        href: spfilenotify-fileextracted.md
+      - name: "SPFILENOTIFY_FILEINCABINET"
+        href: spfilenotify-fileincabinet.md
+      - name: "SPFILENOTIFY_FILEOPDELAYED"
+        href: spfilenotify-fileopdelayed.md
+      - name: "SPFILENOTIFY_LANGMISMATCH"
+        href: spfilenotify-langmismatch.md
+      - name: "SPFILENOTIFY_NEEDMEDIA"
+        href: spfilenotify-needmedia.md
+      - name: "SPFILENOTIFY_NEEDNEWCABINET"
+        href: spfilenotify-neednewcabinet.md
+      - name: "SPFILENOTIFY_QUEUESCAN"
+        href: spfilenotify-queuescan.md
+      - name: "SPFILENOTIFY_QUEUESCAN_EX"
+        href: spfilenotify-queuescan-ex.md
+      - name: "SPFILENOTIFY_QUEUESCAN_SIGNERINFO"
+        href: spfilenotify-queuescan-signerinfo.md
+      - name: "SPFILENOTIFY_RENAMEERROR"
+        href: spfilenotify-renameerror.md
+      - name: "SPFILENOTIFY_STARTCOPY"
+        href: spfilenotify-startcopy.md
+      - name: "SPFILENOTIFY_STARTDELETE"
+        href: spfilenotify-startdelete.md
+      - name: "SPFILENOTIFY_STARTQUEUE"
+        href: spfilenotify-startqueue.md
+      - name: "SPFILENOTIFY_STARTREGISTRATION"
+        href: spfilenotify-startregistration.md
+      - name: "SPFILENOTIFY_STARTRENAME"
+        href: spfilenotify-startrename.md
+      - name: "SPFILENOTIFY_STARTSUBQUEUE"
+        href: spfilenotify-startsubqueue.md
+      - name: "SPFILENOTIFY_TARGETEXISTS"
+        href: spfilenotify-targetexists.md
+      - name: "SPFILENOTIFY_TARGETNEWER"
+        href: spfilenotify-targetnewer.md
+    - name: "Error Codes (Setup API)"
+      href: error-codes--setup-api-.md
+    - name: "Run and RunOnce Registry Keys"
+      href: run-and-runonce-registry-keys.md

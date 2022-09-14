@@ -1,0 +1,471 @@
+- name: "Event Tracing"
+  href: event-tracing-portal.md
+  items: 
+  - name: "What's New in Event Tracing"
+    href: what-s-new-in-event-tracing.md
+  - name: "About Event Tracing"
+    href: about-event-tracing.md
+    items: 
+    - name: "Event Tracing Sessions"
+      href: event-tracing-sessions.md
+    - name: "Device Drivers"
+      href: device-drivers.md
+  - name: "Using Event Tracing"
+    href: using-event-tracing.md
+    items: 
+    - name: "Controlling Event Tracing Sessions"
+      href: controlling-event-tracing-sessions.md
+      items: 
+      - name: "Configuring and Starting an Event Tracing Session"
+        href: configuring-and-starting-an-event-tracing-session.md
+        items: 
+        - name: "Example that Creates a Session and Enables a Manifest-based or Classic Provider"
+          href: example-that-creates-a-session-and-enables-a-manifest-based-provider.md
+      - name: "Configuring and Starting a SystemTraceProvider Session"
+        href: configuring-and-starting-a-systemtraceprovider-session.md
+        items: 
+        - name: "Configuring and Starting the NT Kernel Logger Session"
+          href: configuring-and-starting-the-nt-kernel-logger-session.md
+        - name: "System Providers"
+          href: system-providers.md
+      - name: "Configuring and Starting an AutoLogger Session"
+        href: configuring-and-starting-an-autologger-session.md
+        items: 
+        - name: "Configuring and Starting the Global Logger Session"
+          href: configuring-and-starting-the-global-logger-session.md
+      - name: "Configuring and Starting a Private Logger Session"
+        href: configuring-and-starting-a-private-logger-session.md
+      - name: "Updating an Event Tracing Session"
+        href: updating-an-event-tracing-session.md
+      - name: "Retrieving Additional Event Tracing Data"
+        href: retrieving-additional-event-tracing-data.md
+    - name: "Providing Events"
+      href: providing-events.md
+      items: 
+      - name: "Writing Events"
+        href: writing-events.md
+        items: 
+        - name: "Writing Manifest-based Events"
+          href: writing-manifest-based-events.md
+        - name: "Writing MOF (Classic) Events"
+          href: tracing-events.md
+        - name: "Writing WPP Events"
+          href: windows-software-trace-preprocessor.md
+        - name: "Obtaining a Provider and Class GUID"
+          href: obtaining-a-provider-and-class-guid.md
+        - name: "Provider Traits"
+          href: provider-traits.md
+      - name: "Writing Related Events in an End-to-End Scenario"
+        href: writing-related-events-in-an-end-to-end-scenario.md
+        items: 
+        - name: "Writing Related Events in a Manifest-based Provider"
+          href: writing-related-events-in-a-manifest-base-provider.md
+        - name: "Writing Related Events in a Classic Provider"
+          href: tracing-event-instances.md
+      - name: "Publishing Your Event Schema"
+        href: publishing-your-event-schema.md
+        items: 
+        - name: "Publishing Your Event Schema for a Manifest-based Provider"
+          href: publishing-your-event-schema-for-a-manifest-base-provider.md
+        - name: "Publishing Your Event Schema for a Classic Provider"
+          href: publishing-your-event-schema-for-a-classic-provider.md
+    - name: "Consuming Events"
+      href: consuming-events.md
+      items: 
+      - name: "Retrieving Event Data"
+        href: retrieving-event-data.md
+        items: 
+        - name: "Event Metadata Overview"
+          href: event-metadata-overview.md
+        - name: "Retrieving Event Data Using TDH"
+          href: retrieving-event-data-using-tdh.md
+          items: 
+          - name: "Using TdhFormatProperty to Consume Event Data"
+            href: using-tdhformatproperty-to-consume-event-data.md
+          - name: "Using TdhGetProperty to Consume Event Data"
+            href: using-tdhgetproperty-to-consume-event-data.md
+          - name: "Enumerating Providers"
+            href: enumerating-providers.md
+          - name: "Retrieving Event Metadata"
+            href: retrieving-event-metadata.md
+        - name: "Retrieving Event Data Using MOF"
+          href: retrieving-event-data-using-mof.md
+      - name: "Using Events to Calculate CPU Usage"
+        href: using-events-to-calculate-cpu-usage.md
+  - name: "Event Tracing Reference"
+    href: event-tracing-reference.md
+    items: 
+    - name: "Event Tracing Constants"
+      href: event-tracing-constants.md
+      items: 
+      - name: "NT Kernel Logger Constants"
+        href: nt-kernel-logger-constants.md
+      - name: "Logging Mode Constants"
+        href: logging-mode-constants.md
+    - name: "Event Tracing Macros"
+      href: event-tracing-macros.md
+      items: 
+      - name: "EventDataDescCreate"
+        href: /windows/desktop/api/Evntprov/nf-evntprov-eventdatadesccreate
+      - name: "EventDescCreate"
+        href: /windows/desktop/api/Evntprov/nf-evntprov-eventdesccreate
+      - name: "EventDescGetChannel"
+        href: /windows/desktop/api/Evntprov/nf-evntprov-eventdescgetchannel
+      - name: "EventDescGetId"
+        href: /windows/desktop/api/Evntprov/nf-evntprov-eventdescgetid
+      - name: "EventDescGetKeyword"
+        href: /windows/desktop/api/Evntprov/nf-evntprov-eventdescgetkeyword
+      - name: "EventDescGetLevel"
+        href: /windows/desktop/api/Evntprov/nf-evntprov-eventdescgetlevel
+      - name: "EventDescGetOpcode"
+        href: /windows/desktop/api/Evntprov/nf-evntprov-eventdescgetopcode
+      - name: "EventDescGetTask"
+        href: /windows/desktop/api/Evntprov/nf-evntprov-eventdescgettask
+      - name: "EventDescGetVersion"
+        href: /windows/desktop/api/Evntprov/nf-evntprov-eventdescgetversion
+      - name: "EventDescOrKeyword"
+        href: /windows/desktop/api/Evntprov/nf-evntprov-eventdescorkeyword
+      - name: "EventDescSetChannel"
+        href: /windows/desktop/api/Evntprov/nf-evntprov-eventdescsetchannel
+      - name: "EventDescSetId"
+        href: /windows/desktop/api/Evntprov/nf-evntprov-eventdescsetid
+      - name: "EventDescSetKeyword"
+        href: /windows/desktop/api/Evntprov/nf-evntprov-eventdescsetkeyword
+      - name: "EventDescSetLevel"
+        href: /windows/desktop/api/Evntprov/nf-evntprov-eventdescsetlevel
+      - name: "EventDescSetOpcode"
+        href: /windows/desktop/api/Evntprov/nf-evntprov-eventdescsetopcode
+      - name: "EventDescSetTask"
+        href: /windows/desktop/api/Evntprov/nf-evntprov-eventdescsettask
+      - name: "EventDescSetVersion"
+        href: /windows/desktop/api/Evntprov/nf-evntprov-eventdescsetversion
+      - name: "EventDescZero"
+        href: /windows/desktop/api/Evntprov/nf-evntprov-eventdesczero
+    - name: "Event Tracing Functions"
+      href: /windows/desktop/api/_etw/#functions
+      items:
+      - name: "Event Consumer Functions (evntcons.h)"
+        href: /windows/win32/api/evntcons/#functions
+      - name: "Event Provider Functions (evntprov.h)"
+        href: /windows/win32/api/evntprov/#functions
+      - name: "Event Trace Functions (evntrace.h)"
+        href: /windows/win32/api/evntrace/#functions
+      - name: "Relogger Interfaces (relogger.h)"
+        href: /windows/win32/api/relogger/#interfaces
+      - name: "CveEventWrite (securitybaseapi.h)"
+        href: /windows/win32/api/securitybaseapi/nf-securitybaseapi-cveeventwrite
+      - name: "Trace Decoding Functions (tdh.h)"
+        href: /windows/win32/api/tdh/#functions
+    - name: "Event Tracing MOF Classes"
+      href: event-tracing-mof-classes.md
+      items:
+      - name: "EventTrace"
+        href: eventtrace.md
+        items: 
+        - name: "MSNT_SystemTrace"
+          href: msnt-systemtrace.md
+          items: 
+          - name: "ALPC"
+            href: alpc.md
+            items: 
+            - name: "ALPC_Receive_Message"
+              href: alpc-receive-message.md
+            - name: "ALPC_Send_Message"
+              href: alpc-send-message.md
+            - name: "ALPC_Unwait"
+              href: alpc-unwait.md
+            - name: "ALPC_Wait_For_New_Message"
+              href: alpc-wait-for-new-message.md
+            - name: "ALPC_Wait_For_Reply"
+              href: alpc-wait-for-reply.md
+          - name: "DiskIo"
+            href: diskio.md
+            items: 
+            - name: "DiskIo_TypeGroup1"
+              href: diskio-typegroup1.md
+            - name: "DiskIo_TypeGroup2"
+              href: diskio-typegroup2.md
+            - name: "DiskIo_TypeGroup3"
+              href: diskio-typegroup3.md
+            - name: "DriverCompleteRequest"
+              href: drivercompleterequest.md
+            - name: "DriverCompleteRequestReturn"
+              href: drivercompleterequestreturn.md
+            - name: "DriverCompletionRoutine"
+              href: drivercompletionroutine.md
+            - name: "DriverMajorFunctionCall"
+              href: drivermajorfunctioncall.md
+            - name: "DriverMajorFunctionReturn"
+              href: drivermajorfunctionreturn.md
+          - name: "EventTraceEvent"
+            href: eventtraceevent.md
+            items: 
+            - name: "EventTrace_Header"
+              href: eventtrace-header.md
+          - name: "FileIo"
+            href: fileio.md
+            items: 
+            - name: "FileIo_Create"
+              href: fileio-create.md
+            - name: "FileIo_DirEnum"
+              href: fileio-direnum.md
+            - name: "FileIo_Info"
+              href: fileio-info.md
+            - name: "FileIo_Name"
+              href: fileio-name.md
+            - name: "FileIo_OpEnd"
+              href: fileio-opend.md
+            - name: "FileIo_ReadWrite"
+              href: fileio-readwrite.md
+            - name: "FileIo_SimpleOp"
+              href: fileio-simpleop.md
+          - name: "FileIo_V0"
+            href: fileio-v0.md
+            items: 
+            - name: "FileIo_V0_Name"
+              href: fileio-v0-name.md
+          - name: "FileIo_V1"
+            href: fileio-v1.md
+            items: 
+            - name: "FileIo_V1_Name"
+              href: fileio-v1-name.md
+          - name: "HWConfig"
+            href: hwconfig.md
+            items: 
+            - name: "HWConfig_CPU"
+              href: hwconfig-cpu.md
+            - name: "HWConfig_LogDisk"
+              href: hwconfig-logdisk.md
+            - name: "HWConfig_NIC"
+              href: hwconfig-nic.md
+            - name: "HWConfig_PhyDisk"
+              href: hwconfig-phydisk.md
+          - name: "Image"
+            href: image.md
+            items: 
+            - name: "Image_Load"
+              href: image-load.md
+          - name: "Image_V0"
+            href: image-v0.md
+            items: 
+            - name: "Image_V0_Load"
+              href: image-v0-load.md
+          - name: "Image_V1"
+            href: image-v1.md
+            items: 
+            - name: "Image_V1_Load"
+              href: image-v1-load.md
+          - name: "Lost_Event"
+            href: lost-event.md
+            items: 
+            - name: "RT_LostEvent"
+              href: rt-lostevent.md
+          - name: "ObTrace"
+            href: obtrace.md
+            items: 
+            - name: "ObHandleDuplicateEvent"
+              href: obhandleduplicateevent.md
+            - name: "ObHandleEvent"
+              href: obhandleevent.md
+            - name: "ObHandleRundownEvent"
+              href: obhandlerundownevent.md
+            - name: "ObTypeEvent"
+              href: obtypeevent.md
+          - name: "PageFault_V2"
+            href: pagefault-v2.md
+            items: 
+            - name: "PageFault_HardFault"
+              href: pagefault-hardfault.md
+            - name: "PageFault_ImageLoadBacked"
+              href: pagefault-imageloadbacked.md
+            - name: "PageFault_TransitionFault"
+              href: pagefault-transitionfault.md
+            - name: "PageFault_TypeGroup1"
+              href: pagefault-typegroup1.md
+            - name: "PageFault_VirtualAlloc"
+              href: pagefault-virtualalloc.md
+          - name: "PerfInfo"
+            href: perfinfo.md
+            items: 
+            - name: "DPC"
+              href: dpc.md
+            - name: "ISR"
+              href: isr.md
+            - name: "SampledProfile"
+              href: sampledprofile.md
+            - name: "SysCallEnter"
+              href: syscallenter.md
+            - name: "SysCallExit"
+              href: syscallexit.md
+          - name: "Process"
+            href: process.md
+            items: 
+            - name: "Process_TypeGroup1"
+              href: process-typegroup1.md
+          - name: "Process_V0"
+            href: process-v0.md
+            items: 
+            - name: "Process_V0_TypeGroup1"
+              href: process-v0-typegroup1.md
+          - name: "Process_V1"
+            href: process-v1.md
+            items: 
+            - name: "Process_V1_TypeGroup1"
+              href: process-v1-typegroup1.md
+          - name: "Process_V2"
+            href: process-v2.md
+            items: 
+            - name: "Process_V2_TypeGroup1"
+              href: process-v2-typegroup1.md
+            - name: "Process_V2_TypeGroup2"
+              href: process-v2-typegroup2.md
+          - name: "Registry"
+            href: registry.md
+            items: 
+            - name: "Registry_TypeGroup1"
+              href: registry-typegroup1.md
+          - name: "Registry_V0"
+            href: registry-v0.md
+            items: 
+            - name: "Registry_V0_TypeGroup1"
+              href: registry-v0-typegroup1.md
+          - name: "Registry_V1"
+            href: registry-v1.md
+            items: 
+            - name: "Registry_V1_TypeGroup1"
+              href: registry-v1-typegroup1.md
+          - name: "SplitIo"
+            href: splitio.md
+            items: 
+            - name: "SplitIo_Info"
+              href: splitio-info.md
+          - name: "StackWalk"
+            href: stackwalk.md
+            items: 
+            - name: "StackWalk_Event"
+              href: stackwalk-event.md
+          - name: "SystemConfig"
+            href: systemconfig.md
+            items: 
+            - name: "SystemConfig_CPU"
+              href: systemconfig-cpu.md
+            - name: "SystemConfig_IDEChannel"
+              href: systemconfig-idechannel.md
+            - name: "SystemConfig_IRQ"
+              href: systemconfig-irq.md
+            - name: "SystemConfig_LogDisk"
+              href: systemconfig-logdisk.md
+            - name: "SystemConfig_Network"
+              href: systemconfig-network.md
+            - name: "SystemConfig_NIC"
+              href: systemconfig-nic.md
+            - name: "SystemConfig_PhyDisk"
+              href: systemconfig-phydisk.md
+            - name: "SystemConfig_PnP"
+              href: systemconfig-pnp.md
+            - name: "SystemConfig_Power"
+              href: systemconfig-power.md
+            - name: "SystemConfig_Services"
+              href: systemconfig-services.md
+            - name: "SystemConfig_Video"
+              href: systemconfig-video.md
+          - name: "SystemConfig_V0"
+            href: systemconfig-v0.md
+            items: 
+            - name: "SystemConfig_V0_CPU"
+              href: systemconfig-v0-cpu.md
+            - name: "SystemConfig_V0_LogDisk"
+              href: systemconfig-v0-logdisk.md
+            - name: "SystemConfig_V0_NIC"
+              href: systemconfig-v0-nic.md
+            - name: "SystemConfig_V0_PhyDisk"
+              href: systemconfig-v0-phydisk.md
+            - name: "SystemConfig_V0_Power"
+              href: systemconfig-v0-power.md
+            - name: "SystemConfig_V0_Services"
+              href: systemconfig-v0-services.md
+            - name: "SystemConfig_V0_Video"
+              href: systemconfig-v0-video.md
+          - name: "TcpIp"
+            href: tcpip.md
+            items: 
+            - name: "TcpIp_Fail"
+              href: tcpip-fail.md
+            - name: "TcpIp_SendIPV4"
+              href: tcpip-sendipv4.md
+            - name: "TcpIp_SendIPV6"
+              href: tcpip-sendipv6.md
+            - name: "TcpIp_TypeGroup1"
+              href: tcpip-typegroup1.md
+            - name: "TcpIp_TypeGroup2"
+              href: tcpip-typegroup2.md
+            - name: "TcpIp_TypeGroup3"
+              href: tcpip-typegroup3.md
+            - name: "TcpIp_TypeGroup4"
+              href: tcpip-typegroup4.md
+          - name: "TcpIp_V0"
+            href: tcpip-v0.md
+            items: 
+            - name: "TcpIp_V0_TypeGroup1"
+              href: tcpip-v0-typegroup1.md
+          - name: "TcpIp_V1"
+            href: tcpip-v1.md
+            items: 
+            - name: "TcpIp_V1_TypeGroup1"
+              href: tcpip-v1-typegroup1.md
+          - name: "Thread"
+            href: thread.md
+            items: 
+            - name: "Thread_TypeGroup1"
+              href: thread-typegroup1.md
+          - name: "Thread_V0"
+            href: thread-v0.md
+            items: 
+            - name: "Thread_V0_TypeGroup1"
+              href: thread-v0-typegroup1.md
+          - name: "Thread_V1"
+            href: thread-v1.md
+            items: 
+            - name: "Thread_V1_TypeGroup1"
+              href: thread-v1-typegroup1.md
+            - name: "Thread_V1_TypeGroup2"
+              href: thread-v1-typegroup2.md
+          - name: "Thread_V2"
+            href: thread-v2.md
+            items: 
+            - name: "CSwitch"
+              href: cswitch.md
+            - name: "Thread_V2_TypeGroup1"
+              href: thread-v2-typegroup1.md
+            - name: "ReadyThread"
+              href: readythread.md
+          - name: "UdpIp"
+            href: udpip.md
+            items: 
+            - name: "UdpIp_Fail"
+              href: udpip-fail.md
+            - name: "UdpIp_TypeGroup1"
+              href: udpip-typegroup1.md
+            - name: "UdpIp_TypeGroup2"
+              href: udpip-typegroup2.md
+          - name: "UdpIp_V0"
+            href: udpip-v0.md
+            items: 
+            - name: "UdpIp_V0_TypeGroup1"
+              href: udpip-v0-typegroup1.md
+          - name: "UdpIp_V1"
+            href: udpip-v1.md
+            items: 
+            - name: "UdpIp_V1_TypeGroup1"
+              href: udpip-v1-typegroup1.md
+    - name: "Event Tracing MOF Qualifiers"
+      href: event-tracing-mof-qualifiers.md
+    - name: "Event Tracing Tools"
+      href: event-tracing-tools.md
+    - name: "Event Tracing Samples"
+      href: event-tracing-samples.md
+    - name: "Event Tracing Structures"
+      href: /windows/desktop/api/_etw/#structures
+      items: 
+      - name: "WNODE_HEADER"
+        href: wnode-header.md

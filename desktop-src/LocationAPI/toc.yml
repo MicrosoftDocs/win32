@@ -1,0 +1,177 @@
+- name: "Location API"
+  href: windows-location-api-portal.md
+  items: 
+  - name: "Location API C++ Programming Reference"
+    href: windows-location-programming-reference.md
+    items: 
+    - name: "COM Interfaces"
+      href: com-interfaces.md
+      items: 
+      - name: "ICivicAddressReport"
+        href: /windows/desktop/api/LocationApi/nn-locationapi-icivicaddressreport
+        items: 
+        - name: "GetAddressLine1 Method"
+          href: /windows/win32/api/locationapi/nf-locationapi-icivicaddressreport-getaddressline1
+        - name: "GetAddressLine2 Method"
+          href: /windows/win32/api/locationapi/nf-locationapi-icivicaddressreport-getaddressline2
+        - name: "GetCity Method"
+          href: /windows/win32/api/locationapi/nf-locationapi-icivicaddressreport-getcity
+        - name: "GetCountryRegion Method"
+          href: /windows/win32/api/locationapi/nf-locationapi-icivicaddressreport-getcountryregion
+        - name: "GetDetailLevel Method"
+          href: /windows/win32/api/locationapi/nf-locationapi-icivicaddressreport-getdetaillevel
+        - name: "GetPostalCode Method"
+          href: /windows/win32/api/locationapi/nf-locationapi-icivicaddressreport-getpostalcode
+        - name: "GetStateProvince Method"
+          href: /windows/win32/api/locationapi/nf-locationapi-icivicaddressreport-getstateprovince
+      - name: "IDefaultLocation"
+        href: /windows/desktop/api/LocationApi/nn-locationapi-idefaultlocation
+        items: 
+        - name: "GetReport Method"
+          href: /windows/win32/api/locationapi/nf-locationapi-idefaultlocation-getreport
+        - name: "SetReport Method"
+          href: /windows/win32/api/locationapi/nf-locationapi-idefaultlocation-setreport
+      - name: "ILatLongReport"
+        href: /windows/desktop/api/LocationApi/nn-locationapi-ilatlongreport
+        items: 
+        - name: "GetAltitude Method"
+          href: /windows/win32/api/locationapi/nf-locationapi-ilatlongreport-getaltitude
+        - name: "GetAltitudeError Method"
+          href: /windows/win32/api/locationapi/nf-locationapi-ilatlongreport-getaltitudeerror
+        - name: "GetErrorRadius Method"
+          href: /windows/win32/api/locationapi/nf-locationapi-ilatlongreport-geterrorradius
+        - name: "GetLatitude Method"
+          href: /windows/win32/api/locationapi/nf-locationapi-ilatlongreport-getlatitude
+        - name: "GetLongitude Method"
+          href: /windows/win32/api/locationapi/nf-locationapi-ilatlongreport-getlongitude
+      - name: "ILocation"
+        href: /windows/desktop/api/LocationApi/nn-locationapi-ilocation
+        items: 
+        - name: "GetDesiredAccuracy Method"
+          href: /windows/desktop/api/LocationApi/nf-locationapi-ilocation-getdesiredaccuracy
+        - name: "GetReport Method"
+          href: /windows/win32/api/locationapi/nf-locationapi-ilocation-getreport
+        - name: "GetReportInterval Method"
+          href: /windows/win32/api/locationapi/nf-locationapi-ilocation-getreportinterval
+        - name: "GetReportStatus Method"
+          href: /windows/win32/api/locationapi/nf-locationapi-ilocation-getreportstatus
+        - name: "RegisterForReport Method"
+          href: /windows/win32/api/locationapi/nf-locationapi-ilocation-registerforreport
+        - name: "RequestPermissions Method"
+          href: /windows/win32/api/locationapi/nf-locationapi-ilocation-requestpermissions
+        - name: "SetDesiredAccuracy Method"
+          href: /windows/desktop/api/LocationApi/nf-locationapi-ilocation-setdesiredaccuracy
+        - name: "SetReportInterval Method"
+          href: /windows/win32/api/locationapi/nf-locationapi-ilocation-setreportinterval
+        - name: "UnregisterForReport Method"
+          href: /windows/win32/api/locationapi/nf-locationapi-ilocation-unregisterforreport
+      - name: "ILocationEvents"
+        href: /windows/desktop/api/LocationApi/nn-locationapi-ilocationevents
+        items: 
+        - name: "OnLocationChanged Method"
+          href: /windows/win32/api/locationapi/nf-locationapi-ilocationevents-onlocationchanged
+        - name: "OnStatusChanged Method"
+          href: /windows/win32/api/locationapi/nf-locationapi-ilocationevents-onstatuschanged
+      - name: "ILocationPower"
+        href: /windows/desktop/api/LocationApi/nn-locationapi-ilocationpower
+        items: 
+        - name: "Connect method"
+          href: /windows/win32/api/locationapi/nf-locationapi-ilocationpower-connect
+        - name: "Disconnect method"
+          href: /windows/win32/api/locationapi/nf-locationapi-ilocationpower-disconnect
+      - name: "ILocationReport"
+        href: /windows/desktop/api/LocationApi/nn-locationapi-ilocationreport
+        items: 
+        - name: "GetSensorID Method"
+          href: /windows/win32/api/locationapi/nf-locationapi-ilocationreport-getsensorid
+        - name: "GetTimestamp Method"
+          href: /windows/win32/api/locationapi/nf-locationapi-ilocationreport-gettimestamp
+        - name: "GetValue Method"
+          href: /windows/win32/api/locationapi/nf-locationapi-ilocationreport-getvalue
+    - name: "Structures and Enumeration Types"
+      href: structures-and-enumeration-types.md
+      items: 
+      - name: "LOCATION_DESIRED_ACCURACY"
+        href: /previous-versions/windows/desktop/legacy/dd756639(v=vs.85)
+      - name: "LOCATION_REPORT_STATUS"
+        href: /windows/win32/api/locationapi/ne-locationapi-location_report_status
+  - name: "Location API Object Model Reference"
+    href: windows-location-script-programming-reference.md
+    items: 
+    - name: "LocationDisp.DispCivicAddressReport"
+      href: locationdisp-dispcivicaddressreport.md
+      items: 
+      - name: "AddressLine1 Property"
+        href: locationdisp-dispcivicaddressreport-addressline1.md
+      - name: "AddressLine2 Property"
+        href: locationdisp-dispcivicaddressreport-addressline2.md
+      - name: "City Property"
+        href: locationdisp-dispcivicaddressreport-city.md
+      - name: "CountryRegion Property"
+        href: locationdisp-civicaddressreport-countryregion.md
+      - name: "DetailLevel Property"
+        href: locationdisp-dispcivicaddressreport-detaillevel.md
+      - name: "PostalCode Property"
+        href: locationdisp-dispcivicaddressreport-postalcode.md
+      - name: "StateProvince Property"
+        href: locationdisp-dispcivicaddressreport-stateprovince.md
+      - name: "Timestamp Property"
+        href: locationdisp-dispcivicaddressreport-timestamp.md
+    - name: "LocationDisp.CivicAddressReportFactory"
+      href: locationdisp-civicaddressreportfactory.md
+      items: 
+      - name: "CivicAddressReport Property"
+        href: locationdisp-dispcivicaddressreport-civicaddressreport.md
+      - name: "DesiredAccuracy Property"
+        href: locationdisp-civicaddressreportfactory-desiredaccuracy.md
+      - name: "ListenForReports Method"
+        href: locationdisp-civicaddressreportfactory-listenforreports.md
+      - name: "ReportInterval Property"
+        href: locationdisp-civicaddressreportfactory-reportinterval.md
+      - name: "RequestPermissions Method"
+        href: locationdisp-civicaddressreportfactory-requestpermissions.md
+      - name: "Status Property"
+        href: locationdisp-civicaddressreportfactory-status.md
+      - name: "StopListeningForReports Method"
+        href: locationdisp-civicaddressreportfactory-stoplisteningforreports.md
+    - name: "LocationDisp.DispLatLongReport"
+      href: locationdisp-displatlongreport.md
+      items: 
+      - name: "Altitude Property"
+        href: locationdisp-displatlongreport-altitude.md
+      - name: "AltitudeError Property"
+        href: locationdisp-displatlongreport-altitudeerror.md
+      - name: "ErrorRadius Property"
+        href: locationdisp-displatlongreport-errorradius.md
+      - name: "Latitude Property"
+        href: locationdisp-displatlongreport-latitude.md
+      - name: "Longitude Property"
+        href: locationdisp-displatlongreport-longitude.md
+      - name: "Timestamp Property"
+        href: locationdisp-displatlongreport-timestamp.md
+    - name: "LocationDisp.LatLongReportFactory"
+      href: locationdisp-latlongreportfactory.md
+      items: 
+      - name: "DesiredAccuracy Property"
+        href: locationdisp-latlongreportfactory-desiredaccuracy.md
+      - name: "LatLongReport Property"
+        href: locationdisp-latlongreportfactory-latlongreport.md
+      - name: "ListenForReports Method"
+        href: locationdisp-latlongreportfactory-listenforreports.md
+      - name: "ReportInterval Property"
+        href: locationdisp-latlongreportfactory-reportinterval.md
+      - name: "RequestPermissions Method"
+        href: locationdisp-latlongreportfactory-requestpermissions.md
+      - name: "Status Property"
+        href: locationdisp-latlongreportfactory-status.md
+      - name: "StopListeningForReports Method"
+        href: /previous-versions/windows/desktop/legacy/dd317718(v=vs.85)
+    - name: "LocationDisp Events"
+      href: locationdisp-events.md
+      items: 
+      - name: "NewCivicAddressReport Event"
+        href: newcivicaddressreport.md
+      - name: "NewLatLongReport Event"
+        href: newlatlongreport.md
+      - name: "StatusChanged Event"
+        href: statuschanged.md

@@ -1,0 +1,49 @@
+- name: "Windows Connection Manager"
+  href: windows-connection-manager-portal.md
+  items: 
+  - name: "Windows Connection Manager Reference"
+    href: windows-connection-manager-reference.md
+    items: 
+    - name: "Windows Connection Manager Enumerated Types"
+      href: wcm-enumerated-types.md
+      items: 
+      - name: "WCM_CONNECTION_COST"
+        href: /windows/win32/api/Wcmapi/ne-wcmapi-wcm_connection_cost
+      - name: "WCM_CONNECTION_COST_SOURCE"
+        href: /windows/win32/api/Wcmapi/ne-wcmapi-wcm_connection_cost_source
+      - name: "WCM_MEDIA_TYPE"
+        href: /windows/win32/api/Wcmapi/ne-wcmapi-wcm_media_type
+      - name: "WCM_PROPERTY"
+        href: /windows/win32/api/Wcmapi/ne-wcmapi-wcm_property
+    - name: "Windows Connection Manager Functions"
+      href: wcm-functions.md
+      items: 
+      - name: "WcmFreeMemory"
+        href: /windows/desktop/api/Wcmapi/nf-wcmapi-wcmfreememory
+      - name: "WcmGetProfileList"
+        href: /windows/desktop/api/Wcmapi/nf-wcmapi-wcmgetprofilelist
+      - name: "WcmQueryProperty"
+        href: /windows/desktop/api/Wcmapi/nf-wcmapi-wcmqueryproperty
+      - name: "WcmSetProfileList"
+        href: /windows/desktop/api/Wcmapi/nf-wcmapi-wcmsetprofilelist
+      - name: "WcmSetProperty"
+        href: /windows/desktop/api/Wcmapi/nf-wcmapi-wcmsetproperty
+    - name: "Windows Connection Manager Structures"
+      href: wcm-structures.md
+      items: 
+      - name: "WCM_BILLING_CYCLE_INFO"
+        href: /windows/desktop/api/Wcmapi/ns-wcmapi-wcm_billing_cycle_info
+      - name: "WCM_CONNECTION_COST_DATA"
+        href: /windows/win32/api/Wcmapi/ns-wcmapi-wcm_connection_cost_data
+      - name: "WCM_DATAPLAN_STATUS"
+        href: /windows/win32/api/Wcmapi/ns-wcmapi-wcm_dataplan_status
+      - name: "WCM_POLICY_VALUE"
+        href: /windows/win32/api/Wcmapi/ns-wcmapi-wcm_policy_value
+      - name: "WCM_PROFILE_INFO"
+        href: /windows/win32/api/Wcmapi/ns-wcmapi-wcm_profile_info
+      - name: "WCM_PROFILE_INFO_LIST"
+        href: /windows/win32/api/Wcmapi/ns-wcmapi-wcm_profile_info_list
+      - name: "WCM_TIME_INTERVAL"
+        href: /windows/win32/api/Wcmapi/ns-wcmapi-wcm_time_interval
+      - name: "WCM_USAGE_DATA"
+        href: /windows/win32/api/Wcmapi/ns-wcmapi-wcm_usage_data

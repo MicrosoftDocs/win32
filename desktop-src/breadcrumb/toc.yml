@@ -1,0 +1,756 @@
+- name: Windows
+  tocHref: /windows/
+  topicHref: /windows/
+  items:
+    - name: Apps
+      tocHref: /windows/apps/
+      topicHref: /windows/apps/
+      items:
+        - name: Win32
+          tocHref: /windows/win32/
+          topicHref: /windows/win32/index
+          items:
+            - name: Get Started
+              # Topic in top-level TOC
+              topicHref: /windows/win32/desktop-programming
+              items:
+                - name: Get Started with Win32 and C++
+                  tocHref: /windows/win32/learnwin32/
+                  topicHref: /windows/win32/learnwin32/learn-to-program-for-windows
+                - name: Create your first Windows app using DirectX
+                  tocHref: /windows/win32/direct3dgetstarted/
+                  topicHref: /windows/win32/direct3dgetstarted/building-your-first-directx-app 
+                - name: Using the Windows Headers
+                  tocHref: /windows/win32/winprog/
+                  topicHref: /windows/win32/winprog/using-the-windows-headers
+                - name: Programming Guide for 64-bit Windows
+                  tocHref: /windows/win32/winprog64/
+                  topicHref: /windows/win32/winprog64/programming-guide-for-64-bit-windows
+                - name: Compatibility cookbook for Windows
+                  tocHref: /windows/win32/w8cookbook/
+                  topicHref: /windows/win32/w8cookbook/windows-8-and-windows-server-8-compatibility-cookbook-portal
+                - name: Windows 7 and Windows Server 2008 R2 Application Quality Cookbook  
+                  tocHref: /windows/win32/win7appqual/
+                  topicHref: /windows/win32/win7appqual/windows-7-application-quality-cookbook
+                - name: Windows 7 Developer Guide
+                  tocHref: /windows/win32/win7devguide/
+                  topicHref: /windows/win32/win7devguide/windows-7-developer-guide
+                - name: Platform Update for Windows Vista
+                  tocHref: /windows/win32/win7ip/
+                  topicHref: /windows/win32/win7ip/platform-update-for-windows-vista-portal
+            - name: Design
+              tocHref: /windows/win32/uxguide/
+              topicHref: /windows/win32/uxguide/designprinciples
+            - name: Desktop Technologies
+              # Topic in top-level TOC
+              topicHref: /windows/win32/desktop-app-technologies
+              items:
+                - name: Accessibility
+                  tocHref: /windows/win32/accessibility/
+                  topicHref: /windows/win32/accessibility
+                  items:
+                    - name: Windows Accessibility features
+                      tocHref: /windows/win32/winauto/
+                      topicHref: /windows/win32/winauto/about-windows-accessibility-features
+                - name: Desktop App User Interface
+                  # Topic in top-level TOC
+                  topicHref: /windows/win32/windows-application-ui-development
+                  items:
+                    - name: Getting Started
+                      tocHref: /windows/win32/appuistart/
+                      topicHref: /windows/win32/appuistart/getting-started-developing-user-interfaces-portal
+                    - name: Internationalization
+                      tocHref: /windows/win32/intl/
+                      topicHref: /windows/win32/intl/international-support
+                    - name: User Interaction
+                      # Topic in top-level TOC
+                      topicHref: /windows/win32/user-interaction
+                      items:
+                        - name: Direct Manipulation
+                          tocHref: /windows/win32/directmanipulation/
+                          topicHref: /windows/win32/directmanipulation/direct-manipulation-portal
+                        - name: Ink Input
+                          tocHref: /windows/win32/input_ink/
+                          topicHref: /windows/win32/input_ink/input-ink-portal
+                        - name: Input Feedback Configuration
+                          tocHref: /windows/win32/input_feedback/
+                          topicHref: /windows/win32/input_feedback/input-feedback-configuration-portal
+                        - name: Input Source Identification
+                          tocHref: /windows/win32/input_sourceid/
+                          topicHref: /windows/win32/input_sourceid/input-source-identification-portal
+                        - name: Interaction Context
+                          tocHref: /windows/win32/input_intcontext/
+                          topicHref: /windows/win32/input_intcontext/interaction-context-portal
+                        - name: Pointer Device Input Stack
+                          tocHref: /windows/win32/input_pointerdevice/
+                          topicHref: /windows/win32/input_pointerdevice/pointer-device-stack-portal
+                        - name: Pointer Input Messages and Notifications
+                          tocHref: /windows/win32/inputmsg/
+                          topicHref: /windows/win32/inputmsg/messages-and-notifications-portal
+                        - name: Radial controller input
+                          tocHref: /windows/win32/input_radial/
+                          topicHref: /windows/win32/input_radial/radialcontroller-portal
+                        - name: Text Services Framework
+                          tocHref: /windows/win32/tsf/
+                          topicHref: /windows/win32/tsf/text-services-framework
+                        - name: Touch Hit Testing
+                          tocHref: /windows/win32/input_touchhittest/
+                          topicHref: /windows/win32/input_touchhittest/touch-hit-testing-portal
+                        - name: Touch Injection
+                          tocHref: /windows/win32/input_touchinjection/
+                          topicHref: /windows/win32/input_touchinjection/touch-injection-portal
+                        - name: Legacy Features
+                          # Topic in top-level TOC
+                          topicHref: /windows/win32/legacy-user-interaction-features
+                          items:
+                            - name: Touch Input
+                              tocHref: /windows/win32/wintouch/
+                              topicHref: /windows/win32/wintouch/windows-touch-portal
+                            - name: Keyboard and Mouse Input
+                              tocHref: /windows/win32/inputdev/
+                              topicHref: /windows/win32/inputdev/user-input
+                            - name: Tablet PC
+                              tocHref: /windows/win32/tablet/
+                              topicHref: /windows/win32/tablet/tablet-pc-development-guide
+                    - name: Windows and Messages
+                      tocHref: /windows/win32/winmsg/
+                      topicHref: /windows/win32/winmsg/windowing
+                    - name: Desktop Window Manager
+                      tocHref: /windows/win32/dwm/
+                      topicHref: /windows/win32/dwm/dwm-overview
+                    - name: Dialog Boxes
+                      tocHref: /windows/win32/dlgbox/
+                      topicHref: /windows/win32/dlgbox/dialog-boxes
+                    - name: Menus and Other Resources
+                      tocHref: /windows/win32/menurc/
+                      topicHref: /windows/win32/menurc/resources
+                    - name: Data Exchange
+                      tocHref: /windows/win32/dataxchg/
+                      topicHref: /windows/win32/dataxchg/data-exchange
+                    - name: High DPI
+                      tocHref: /windows/win32/hidpi/
+                      topicHref: /windows/win32/hidpi/high-dpi-desktop-application-development-on-windows
+                    - name: Windows Animation Manager
+                      tocHref: /windows/win32/uianimation/
+                      topicHref: /windows/win32/uianimation/-main-portal
+                    - name: Windows Controls
+                      tocHref: /windows/win32/controls/
+                      topicHref: /windows/win32/controls/window-controls
+                    - name: Windows Ribbon Framework
+                      tocHref: /windows/win32/windowsribbon/
+                      topicHref: /windows/win32/windowsribbon/-uiplat-windowsribbon-entry
+                - name: Desktop Environment
+                  # Topic in top-level TOC
+                  topicHref: /windows/win32/user-interface
+                  items:
+                    - name: Windows Shell
+                      tocHref: /windows/win32/shell/
+                      topicHref: /windows/win32/shell/shell-entry
+                    - name: Windows Property System
+                      tocHref: /windows/win32/properties/
+                      topicHref: /windows/win32/properties/windows-properties-system
+                    - name: Windows Search
+                      tocHref: /windows/win32/search/
+                      topicHref: /windows/win32/search/windows-search
+                    - name: Window Stations and Desktops
+                      tocHref: /windows/win32/winstation/
+                      topicHref: /windows/win32/winstation/window-stations-and-desktops
+                    - name: Legacy Windows Environment Features
+                      tocHref: /windows/win32/lwef/
+                      topicHref: /windows/win32/lwef/legacy-windows-environment
+                - name: Application Installation and Servicing
+                  # Topic in top-level TOC
+                  topicHref: /windows/win32/application-installing-and-servicing
+                  items:
+                    - name: Isolated Applications and Side-by-side Assemblies
+                      tocHref: /windows/win32/sbscs/
+                      topicHref: /windows/win32/sbscs/isolated-applications-and-side-by-side-assemblies-portal
+                    - name: Packaging, deployment, and query of Windows apps
+                      tocHref: /windows/win32/appxpkg/
+                      topicHref: /windows/win32/appxpkg/appx-portal
+                    - name: Developer licensing
+                      tocHref: /windows/win32/devlic/
+                      topicHref: /windows/win32/devlic/developer-licensing-portal
+                    - name: Restart Manager
+                      tocHref: /windows/win32/rstmgr/
+                      topicHref: /windows/win32/rstmgr/restart-manager-portal
+                    - name: Windows Installer
+                      tocHref: /windows/win32/msi/
+                      topicHref: /windows/win32/msi/windows-installer-portal
+                - name: Audio and Video
+                  # Topic in top-level TOC
+                  topicHref: /windows/win32/audio-and-video
+                  items:
+                    - name: Core Audio APIs
+                      tocHref: /windows/win32/coreaudio/
+                      topicHref: /windows/win32/coreaudio/core-audio-apis-in-windows-vista
+                    - name: DirectShow
+                      tocHref: /windows/win32/directshow/
+                      topicHref: /windows/win32/directshow/directshow
+                    - name: Microsoft Media Foundation
+                      tocHref: /windows/win32/medfound/
+                      topicHref: /windows/win32/medfound/microsoft-media-foundation-sdk
+                    - name: Windows Media Format 11 SDK
+                      tocHref: /windows/win32/wmformat/
+                      topicHref: /windows/win32/wmformat/windows-media-format-11-sdk
+                    - name: Windows Media Player SDK
+                      tocHref: /windows/win32/wmp/
+                      topicHref: /windows/win32/wmp/windows-media-player-sdk
+                    - name: Windows Media Streaming API
+                      tocHref: /windows/win32/mediastreaming/
+                      topicHref: /windows/win32/mediastreaming/media-streaming-api-portal
+                    - name: Windows Multimedia
+                      tocHref: /windows/win32/multimedia/
+                      topicHref: /windows/win32/multimedia/windows-multimedia-start-page
+                - name: Data Access and Storage
+                  # Topic in top-level TOC
+                  topicHref: /windows/win32/data-access-and-storage
+                  items:
+                    - name: Background Intelligent Transfer Service
+                      tocHref: /windows/win32/bits/
+                      topicHref: /windows/win32/bits/background-intelligent-transfer-service-portal
+                    - name: Backup
+                      tocHref: /windows/win32/backup/
+                      topicHref: /windows/win32/backup/backup
+                    - name: Cloud Sync Engines
+                      tocHref: /windows/win32/cfapi/
+                      topicHref: /windows/win32/cfapi/cloud-files-api-portal
+                    - name: Distributed File System
+                      tocHref: /windows/win32/dfs/
+                      topicHref: /windows/win32/dfs/distributed-file-system
+                    - name: Extensible Storage Engine
+                      tocHref: /windows/win32/extensible-storage-engine/
+                      topicHref: /windows/win32/extensible-storage-engine/extensible-storage-engine
+                    - name: Image Mastering API
+                      tocHref: /windows/win32/imapi/
+                      topicHref: /windows/win32/imapi/portal
+                    - name: Local File Systems
+                      tocHref: /windows/win32/fileio/
+                      topicHref: /windows/win32/fileio/file-systems
+                    - name: Windows Projected File System
+                      tocHref: /windows/win32/projfs/
+                      topicHref: /windows/win32/projfs/projected-file-system
+                    - name: Virtual Storage
+                      tocHref: /windows/win32vstor/
+                      topicHref: /windows/win32/vstor/virtual-storage
+                    - name: Virtual Disk Service
+                      tocHref: /windows/win32/vds/
+                      topicHref: /windows/win32/vds/virtual-disk-service-portal
+                    - name: Volume Shadow Copy Service
+                      tocHref: /windows/win32/vss/
+                      topicHref: /windows/win32/vss/volume-shadow-copy-service-portal
+                - name: Devices
+                  # Topic in top-level TOC
+                  topicHref: /windows/win32/devices
+                  items:
+                    - name: Communications Resources
+                      tocHref: /windows/win32/devio/
+                      topicHref: /windows/win32/devio/communications-resources
+                    - name: Device Access API
+                      tocHref: /windows/win32/deviceaccess/
+                      topicHref: /windows/win32/deviceaccess/device-access-broker-api-portal
+                    - name: Location API
+                      tocHref: /windows/win32/locationapi/
+                      topicHref: /windows/win32/locationapi/windows-location-api-portal
+                    - name: Sensor API
+                      tocHref: /windows/win32/sensorsapi/
+                      topicHref: /windows/win32/sensorsapi/portal
+                    - name: UPnP APIs
+                      tocHref: /windows/win32/upnp/
+                      topicHref: /windows/win32/upnp/universal-plug-and-play-start-page
+                    - name: Web Services on Devices
+                      tocHref: /windows/win32/wsdapi/
+                      topicHref: /windows/win32/wsdapi/wsd-portal
+                    - name: Windows Image Acquisition (WIA)
+                      tocHref: /windows/win32/wia/
+                      topicHref: /windows/win32/wia/-wia-startpage
+                - name: Windows Media Device Manager 11 SDK
+                  tocHref: /windows/win32/wmdm/
+                  topicHref: /windows/win32/wmdm/windows-media-device-manager-11-sdk
+                - name: Windows Portable Devices
+                  # Topic in top-level TOC
+                  topicHref: /windows/win32/windows-portable-devices
+                  items:
+                    - name: WPD Application Programming Interface
+                      tocHref: /windows/win32/wpd_sdk/
+                      topicHref: /windows/win32/wpd_sdk/wpd-application-programming-interface
+                - name: Diagnostics
+                  # Topic in top-level TOC
+                  topicHref: /windows/win32/diagnostics
+                  items:
+                    - name: Debugging and Error Handling
+                      # Topic in top-level TOC
+                      topicHref: /windows/win32/debugging-and-error-handling
+                      items:
+                        - name: Application Recovery and Restart
+                          tocHref: /windows/win32/recovery/
+                          topicHref: /windows/win32/recovery/application-recovery-and-restart-portal
+                        - name: Error Handling
+                          tocHref: /windows/win32/debug/
+                          topicHref: /windows/win32/debug/error-handling
+                    - name: Network Diagnostics Framework
+                      tocHref: /windows/win32/ndf/
+                      topicHref: /windows/win32/ndf/portal
+                    - name: Network Monitor
+                      tocHref: /windows/win32/netmon2/
+                      topicHref: /windows/win32/netmon2/network-monitor
+                    - name: Performance Counters
+                      tocHref: /windows/win32/perfctrs/
+                      topicHref: /windows/win32/perfctrs/performance-counters-portal
+                    - name: Process Status API
+                      tocHref: /windows/win32/psapi/
+                      topicHref: /windows/win32/psapi/process-status-helper
+                    - name: System Event Notification Service
+                      tocHref: /windows/win32/sens/
+                      topicHref: /windows/win32/sens/system-event-notification-service-portal
+                    - name: System Monitor
+                      tocHref: /windows/win32/sysmon/
+                      topicHref: /windows/win32/sysmon/system-monitor-portal
+                    - name: Tool Help Library
+                      tocHref: /windows/win32/toolhelp/
+                      topicHref: /windows/win32/toolhelp/tool-help-library
+                    - name: Windows Error Reporting
+                      tocHref: /windows/win32/wer/
+                      topicHref: /windows/win32/wer/windows-error-reporting
+                    - name: Windows Events
+                      tocHref: /windows/win32/events/windows-events
+                      topicHref: /windows/win32/events
+                      items:
+                        - name: TraceLogging
+                          tocHref: /windows/win32/tracelogging/
+                          topicHref: /windows/win32/tracelogging/trace-logging-porta
+                        - name: Event Tracing
+                          tocHref: /windows/win32/etw/
+                          topicHref: /windows/win32/etw/event-tracing-portal
+                        - name: Event Logging
+                          tocHref: /windows/win32/eventlog/
+                          topicHref: /windows/win32/eventlog/event-logging
+                        - name: Windows Event Log
+                          tocHref: /windows/win32/wes/
+                          topicHref: /windows/win32/wes/windows-event-log
+                        - name: Windows Event Collector
+                          tocHref: /windows/win32/wec/
+                          topicHref: /windows/win32/wec/windows-event-collector
+                - name: Documents and Printing
+                  tocHref: /windows/win32/printdocs/
+                  topicHref: /windows/win32/printdocs/documents-and-printing
+                - name: Graphics and Gaming
+                  # Topic in top-level TOC
+                  topicHref: /windows/win32/graphics-and-multimedia
+                  items:
+                    - name: DirectX graphics and gaming
+                      # Topic in top-level TOC
+                      topicHref: /windows/win32/directx
+                      items:
+                        - name: Getting started with DirectX Graphics
+                          # Topic in top-level TOC
+                          topicHref: /windows/win32/getting-started-with-directx-graphics
+                        - name: Programming DirectX with COM
+                          # Topic in top-level TOC
+                          topicHref: /windows/win32/prog-dx-with-com
+                        - name: Direct2D
+                          tocHref: /windows/win32/direct2d/
+                          topicHref: /windows/win32/direct2d/direct2d-portal
+                        - name: Direct3D
+                          # Topic in top-level TOC
+                          topicHref: /windows/win32/direct3d
+                          items:
+                            - name: Getting started with Direct3D
+                              # Topic in top-level TOC
+                              topicHref: /windows/win32/getting-started-with-direct3d
+                            - name: Direct3D 12 graphics
+                              tocHref: /windows/win32/direct3d12/
+                              topicHref: /windows/win32/direct3d12/direct3d-12-graphics
+                            - name: Direct3D 11 Graphics
+                              tocHref: /windows/win32/direct3d11/
+                              topicHref: /windows/win32/direct3d11/atoc-dx-graphics-direct3d-11
+                            - name: DXGI
+                              tocHref: /windows/win32/direct3ddxgi/
+                              topicHref: /windows/win32/direct3ddxgi/dx-graphics-dxgi
+                            - name: HLSL
+                              tocHref: /windows/win32/direct3dhlsl/
+                              topicHref: /windows/win32/direct3dhlsl/dx-graphics-hlsl
+                            - name: DDS
+                              tocHref: /windows/win32/direct3ddds/
+                              topicHref: /windows/win32/direct3ddds/dx-graphics-dds
+                        - name: DXCore
+                          tocHref: /windows/win32//dxcore/
+                          topicHref: /windows/win32/dxcore/dxcore
+                        - name: DirectWrite
+                          tocHref: /windows/win32/directwrite/
+                          topicHref: /windows/win32/directwrite/direct-write-portal
+                        - name: DirectXMath
+                          tocHref: /windows/win32/dxmath/
+                          topicHref: /windows/win32/dxmath/directxmath-portal
+                        - name: windowsnumerics.h APIs
+                          tocHref: /windows/win32/numerics_h/
+                          topicHref: /windows/win32/numerics_h/windowsnumerics-h-apis-portal
+                        - name: Classic DirectX Graphics
+                          # Topic in top-level TOC
+                          topicHref: /windows/win32/classic-directx-graphics
+                          items:
+                            - name: Direct3D 10 Graphics
+                              tocHref: /windows/win32/direct3d10/
+                              topicHref: /windows/win32/direct3d10/d3d10-graphics
+                            - name: Direct3D 9 Graphics
+                              tocHref: /windows/win32/direct3d9/
+                              topicHref: /windows/win32/direct3d9/dx9-graphics
+                            - name: DirectDraw
+                              tocHref: /windows/win32/directdraw/
+                              topicHref: /windows/win32/directdraw/directdraw
+                            - name: DirectX Technical Articles
+                              tocHref: /windows/win32/dxtecharts/
+                              topicHref: /windows/win32/dxtecharts/dx9-technical-articles
+                            - name: Where is the DirectX SDK?
+                              # Topic in top-level TOC
+                              topicHref: /windows/win32/directx-sdk--august-2009-
+                        - name: Tools for DirectX Graphics
+                          tocHref: /windows/win32/direct3dtools/
+                          topicHref: /windows/win32/direct3dtools/dx-graphics-tools
+                        - name: DirectX Graphics Articles
+                          tocHref: /windows/win32/direct3darticles/
+                          topicHref: /windows/win32/direct3darticles/directx-graphics-articles-portal
+                        - name: XAudio2 APIs
+                          tocHref: /windows/win32/xaudio2/
+                          topicHref: /windows/win32/xaudio2/xaudio2-apis-portal
+                        - name: XInput Game Controller APIs
+                          tocHref: /windows/win32/xinput/
+                          topicHref: /windows/win32/xinput/xinput-game-controller-apis-portal
+                    - name: DirectComposition
+                      tocHref: /windows/win32/directcomp/
+                      topicHref: /windows/win32/directcomp/directcomposition-portal
+                    - name: GDI+
+                      tocHref: /windows/win32/gdiplus/
+                      topicHref: /windows/win32/gdiplus/-gdiplus-gdi-start
+                    - name: Windows GDI
+                      tocHref: /windows/win32/gdi/
+                      topicHref: /windows/win32/gdi/windows-gdi
+                    - name: Monitor Configuration
+                      tocHref: /windows/win32/monitor/
+                      topicHref: /windows/win32/monitor/monitor-configuration
+                    - name: OpenGL
+                      tocHref: /windows/win32/opengl/
+                      topicHref: /windows/win32/opengl/opengl
+                    - name: Windows Imaging Component
+                      tocHref: /windows/win32/wic/
+                      topicHref: /windows/win32/wic/-wic-lh
+                    - name: Windows Mixed Reality
+                      tocHref: /windows/win32/mixedreality/
+                      topicHref: /windows/win32/mixedreality/mixed-reality-portal
+                - name: Networking and Internet
+                  # Topic in top-level TOC
+                  topicHref: /windows/win32/networking
+                  items:
+                    - name: Delivery Optimization (DO)
+                      tocHref: /windows/win32delivery_optimization/
+                      topicHref: /windows/win32/delivery_optimization/delivery-optimization-portal
+                    - name: Domain Name System
+                      tocHref: /windows/win32/dns/
+                      topicHref: /windows/win32/dns/dns-start-page
+                    - name: HTTP Server API
+                      tocHref: /windows/win32/http/
+                      topicHref: /windows/win32/http/http-api-start-page
+                    - name: IP Helper
+                      tocHref: /windows/win32/iphlp/
+                      topicHref: /windows/win32/iphlp/ip-helper-start-page
+                    - name: Network Interfaces
+                      topicHref: /windows/win32/network-interfaces
+                    - name: Network List Manager
+                      tocHref: /windows/win32/nla/
+                      topicHref: /windows/win32/nla/portal
+                    - name: Network Management
+                      tocHref: /windows/win32/netmgmt/
+                      topicHref: /windows/win32/netmgmt/network-management
+                    - name: Network Share Management
+                      tocHref: /windows/win32/netshare/
+                      topicHref: /windows/win32/netshare/network-share-management
+                    - name: Peer-to-Peer
+                      tocHref: /windows/win32/p2psdk/
+                      topicHref: /windows/win32/p2psdk/portal
+                    - name: Remote Procedure Call
+                      tocHref: /windows/win32/rpc/
+                      topicHref: /windows/win32/rpc/rpc-start-page
+                    - name: Routing and Remote Access Service
+                      tocHref: /windows/win32/rras/
+                      topicHref: /windows/win32/rras/portal
+                    - name: SNMP Service
+                      tocHref: /windows/win32/snmp/
+                      topicHref: /windows/win32/snmp/snmp-start-page
+                    - name: TAPI
+                      tocHref: /windows/win32/tapi/
+                      topicHref: /windows/win32/tapi/telephony-application-programming-interfaces
+                    - name: Teredo
+                      tocHref: /windows/win32/teredo/
+                      topicHref: /windows/win32/teredo/portal
+                    - name: WebSocket Protocol Component API
+                      tocHref: /windows/win32/websock/
+                      topicHref: /windows/win32/websock/web-socket-protocol-component-api-portal
+                    - name: Windows Filtering Platform
+                      tocHref: /windows/win32/fwp/
+                      topicHref: /windows/win32/fwp/windows-filtering-platform-start-page
+                    - name: Windows Networking
+                      tocHref: /windows/win32/wnet/
+                      topicHref: /windows/win32/wnet/windows-networking-wnet-
+                    - name: Windows Sockets 2
+                      tocHref: /windows/win32/winsock/
+                      topicHref: /windows/win32/winsock/windows-sockets-start-page-2
+                    - name: WirelessNetworking
+                      topicHref: /windows/win32/wireless-networking
+                      items:
+                        - name: Bluetooth
+                          tocHref: /windows/win32/bluetooth/
+                          topicHref: /windows/win32/bluetooth/bluetooth-start-page
+                        - name: Mobile Broadband
+                          tocHref: /windows/win32/mbn/
+                          topicHref: /windows/win32/mbn/mobile-broadband-networks-portal
+                        - name: Native Wifi
+                          tocHref: /windows/win32/nativewifi/
+                          topicHref: /windows/win32/nativewifi/portal
+                        - name: Windows Connect Now
+                          tocHref: /windows/win32/wcn/
+                          topicHref: /windows/win32/wcn/portal
+                        - name: Windows Connection Manager
+                          tocHref: /windows/win32/wcm/
+                          topicHref: /windows/win32/wcm/windows-connection-manager-portal
+                    - name: WebDAV
+                      tocHref: /windows/win32/webdav/
+                      topicHref: /windows/win32/webdav/webdav-portal
+                    - name: Windows HTTP Services
+                      tocHref: /windows/win32/winhttp/
+                      topicHref: /windows/win32/winhttp/winhttp-start-page
+                    - name: Windows Internet
+                      tocHref: /windows/win32/wininet/
+                      topicHref: /windows/win32/wininet/portal
+                    - name: Windows Web Services
+                      tocHref: /windows/win32/wsw/
+                      topicHref: /windows/win32/wsw/portal
+                - name: Security and Identity
+                  # Topic in top-level TOC
+                  topicHref: /windows/win32/security
+                  items:
+                    - name: Antimalware Scan Interface (AMSI)
+                      tocHref: /windows/win32/amsi/
+                      topicHref: /windows/win32/amsi/antimalware-scan-interface-portal
+                    - name: Authentication
+                      tocHref: /windows/win32/secauthn/
+                      topicHref: /windows/win32/secauthn/authentication-portal
+                    - name: Authorization
+                      tocHref: /windows/win32/secauthz/
+                      topicHref: /windows/win32/secauthz/authorization-portal
+                    - name: Best Practices for the Security APIs
+                      tocHref: /windows/win32/secbp/
+                      topicHref: /windows/win32/secbp/best-practices-for-the-security-apis
+                    - name: Certificate Enrollment API
+                      tocHref: /windows/win32/seccertenroll/
+                      topicHref: /windows/win32/seccertenroll/certenroll-portal
+                    - name: Cryptography
+                      tocHref: /windows/win32/seccrypto/
+                      topicHref: /windows/win32/seccrypto/cryptography-portal
+                    - name: "Cryptography API: Next Generation"
+                      tocHref: /windows/win32/seccng/
+                      topicHref: /windows/win32/seccng/cng-portal
+                    - name: Active Directory Domain Services
+                      tocHref: /windows/win32/ad/
+                      topicHref: /windows/win32/ad/active-directory-domain-services
+                    - name: Active Directory Schema
+                      tocHref: /windows/win32/adschema/
+                      topicHref: /windows/win32/adschema/active-directory-schema
+                    - name: Active Directory Service Interfaces
+                      tocHref: /windows/win32/adsi/
+                      topicHref: /windows/win32/adsi/active-directory-service-interfaces-adsi
+                    - name: Active Directory Federation Services
+                      # Topic in top-level TOC
+                      topicHref: /windows/win32/srvnodes/active-directory-federation-services
+                    - name: Extensible Authentication Protocol
+                      tocHref: /windows/win32/eap/
+                      topicHref: /windows/win32/eap/eap-start-page
+                    - name: Extensible Authentication Protocol Host
+                      tocHref: /windows/win32/eaphost/
+                      topicHref: /windows/win32/eaphost/portal
+                    - name: Network Access Protection
+                      tocHref: /windows/win32/nap/
+                      topicHref: /windows/win32/nap/network-access-protection-start-page
+                    - name: Network Policy Server
+                      tocHref: /windows/win32/nps/
+                      topicHref: /windows/win32/nps/portal
+                    - name: Rights Management
+                      # Topic in top-level TOC
+                      topicHref: /windows/win32/srvnodes/rights-management
+                    - name: RMS Scenarios, Code and Tools
+                      # Topic in top-level TOC
+                      topicHref: /windows/win32/srvnodes/rms-code-samples-and-tools
+                    - name: Parental Controls
+                      tocHref: /windows/win32/parcon/
+                      topicHref: /windows/win32/parcon/parental-controls-portal
+                    - name: Security Management
+                      tocHref: /windows/win32/secmgmt/
+                      topicHref: /windows/win32/secmgmt/management-portal
+                    - name: Security Glossary
+                      tocHref: /windows/win32/secgloss/
+                      topicHref: /windows/win32/secgloss/security-glossary
+                    - name: TPM Base Services
+                      tocHref: /windows/win32/tbs/
+                      topicHref: /windows/win32/tbs/tpm-base-services-portal
+                    - name: Windows Biometric Framework
+                      tocHref: /windows/win32/secbiomet/b
+                      topicHref: /windows/win32/secbiomet/biometric-service-api-portal
+                - name: System Services
+                  # Topic in top-level TOC
+                  topicHref: /windows/win32/system-services
+                  items:
+                    - name: Component Object Model (COM)
+                      tocHref: /windows/win32/com/
+                      topicHref: /windows/win32/com/component-object-model--com--portal
+                    - name: MIDL
+                      tocHref: /windows/win32/midl/
+                      topicHref: /windows/win32/midl/midl-start-page
+                    - name: Structured Storage
+                      tocHref: /windows/win32/stg/
+                      topicHref: /windows/win32/stg/structured-storage-start-page
+                    - name: COM+
+                      tocHref: /windows/win32/cossdk/
+                      topicHref: /windows/win32/cossdk/component-services-portal
+                    - name: Compression API
+                      tocHref: /windows/win32/cmpapi/
+                      topicHref: /windows/win32/cmpapi/-compression-portal
+                    - name: Dynamic-Link Libraries
+                      tocHref: /windows/win32/dlls/
+                      topicHref: /windows/win32/dlls/dynamic-link-libraries
+                    - name: Interprocess Communications
+                      tocHref: /windows/win32/ipc/
+                      topicHref: /windows/win32/ipc/interprocess-communications
+                    - name: Kernel Transaction Manager
+                      tocHref: /windows/win32/ktm/
+                      topicHref: /windows/win32/ktm/kernel-transaction-manager-portal
+                    - name: Memory Management
+                      tocHref: /windows/win32/memory/
+                      topicHref: /windows/win32/memory/memory-management
+                    - name: Power Management
+                      tocHref: /windows/win32/power/
+                      topicHref: /windows/win32/power/power-management-portal
+                    - name: Processes and Threads
+                      tocHref: /windows/win32/procthread/
+                      topicHref: /windows/win32/procthread/processes-and-threads
+                    - name: Remote Desktop Services
+                      tocHref: /windows/win32/termserv/
+                      topicHref: /windows/win32/termserv/terminal-services-portal
+                    - name: Services
+                      tocHref: /windows/win32/services/
+                      topicHref: /windows/win32/services/services
+                    - name: Setup API
+                      tocHref: /windows/win32/setupapi/
+                      topicHref: /windows/win32/setupapi/setup-api-portal
+                    - name: Synchronization
+                      tocHref: /windows/win32/sync/
+                      topicHref: /windows/win32/sync/synchronization
+                    - name: Windows System Information
+                      tocHref: /windows/win32/sysinfo/
+                      topicHref: /windows/win32/sysinfo/windows-system-information
+                - name: Developer Notes
+                  tocHref: /windows/win32/devnotes/
+                  topicHref: /windows/win32/devnotes/developer-notes
+            - name: Server Technologies
+              topicHref: /windows/win32/server-and-system-technologies
+              items:
+                - name: Directory, Identity, and Access Services
+                  topicHref: /windows/win32/srvnodes/directory--identity--and-access-services
+                  items:
+                    - name: Directory Services
+                      topicHref: /windows/win32/srvnodes/directory-services
+                      items:
+                        - name: Directories
+                          topicHref: /windows/win32/srvnodes/directories
+                        - name: Directory Access Technologies
+                          topicHref: /windows/win32/srvnodes/directory-access-technologies
+                    - name: Identity Services
+                      topicHref: /windows/win32/srvnodes/identity-services
+                      items:
+                        - name: Identity Lifecycle Manager 2007
+                          topicHref: /windows/win32/srvnodes/identity-lifecycle-manager-2007
+                    - name: Access Management Services
+                      topicHref: /windows/win32/srvnodes/access-management-services
+                      items:
+                        - name: Active Directory Federation Services
+                          topicHref: /windows/win32/srvnodes/active-directory-federation-services
+                - name: Rights Management
+                  topicHref: /windows/win32/srvnodes/rights-management
+                  items:
+                    - name: RMS Code Samples and Tools
+                      topicHref: /windows/win32/srvnodes/rms-code-samples-and-tools
+                - name: System Administration
+                  topicHref: /windows/win32/srvnodes/system-administration
+                  items:
+                    - name: Group Policy
+                      topicHref: /windows/win32/srvnodes/group-policy
+                    - name: Microsoft Management Console (MMC)
+                      topicHref: /windows/win32/srvnodes/microsoft-management-console--mmc-
+                      items:
+                        - name: Microsoft Management Console 3.0
+                          topicHref: /windows/win32/srvnodes/microsoft-management-console-3-0
+                    - name: Windows Server Update Services
+                      topicHref: /windows/win32/srvnodes/windows-server-update-services
+                      items:
+                        - name: Windows Server Update Services 2.0 Class Library
+                          topicHref: /windows/win32/srvnodes/windows-server-update-services-2-0-class-library
+                - name: Virtualization
+                  topicHref: /windows/win32/srvnodes/virtualization
+                - name: WMI/MI/OMI Providers
+                  topicHref: /windows/win32/srvnodes/wmi-mi-omi-providers
+                - name: Windows Server
+                  topicHref: /windows/win32/srvnodes/windows-server
+                  items:
+                    - name: Mobile Device Management Registration
+                      tocHref: /windows/win32/mdmreg/
+                      topicHref: /windows/win32/mdmreg/mobile-device-management-registration-portal
+                    - name: System Restore
+                      tocHref: /windows/win32/sr/
+                      topicHref: /windows/win32/sr/system-restore-portal
+                    - name: System Shutdown
+                      tocHref: /windows/win32/shutdown/
+                      topicHref: /windows/win32/shutdown/system-shutdown
+                    - name: Task Scheduler
+                      tocHref: /windows/win32/taskschd/
+                      topicHref: /windows/win32/taskschd/task-scheduler-start-page
+                    - name: Windows Deployment Services
+                      tocHref: /windows/win32/wds/
+                      topicHref: /windows/win32/wds/windows-deployment-services-portal
+                    - name: Windows Management Instrumentation
+                      tocHref: /windows/win32/wmisdk/
+                      topicHref: /windows/win32/wmisdk/wmi-start-page
+                      items:
+                        - name: CIMWin32 WMI Providers
+                          tocHref: /windows/win32/cimwin32prov/
+                          topicHref: /windows/win32/cimwin32prov/cimwin32-wmi-providers
+                    - name: Boot Event Collector WMI Provider
+                      tocHref: /windows/win32/bevtcolprov/
+                      topicHref: /windows/win32/bevtcolprov/boot-event-collector-wmi-provider-portal
+                    - name: Hyper-V management
+                      tocHref: /windows/win32/hyperv_v2/
+                      topicHref: /windows/win32/hyperv_v2/hyper-v-management
+                    - name: MDM Bridge WMI Provider
+                      tocHref: /windows/win32/dmwmibridgeprov/
+                      topicHref: /windows/win32/dmwmibridgeprov/mdm-bridge-wmi-provider-portal
+                    - name: Windows System Assessment Tool
+                      tocHref: /windows/win32/winsat/
+                      topicHref: /windows/win32/winsat/windows-system-assessment-tool-portal
+                    - name: WMI Core Provider
+                      tocHref: /windows/win32/wmicoreprov/
+                      topicHref: /windows/win32/wmicoreprov/wmi-core-provider-
+                    - name: Windows Remote Management
+                      tocHref: /windows/win32/winrm/
+                      topicHref: /windows/win32/winrm/portal
+                    - name: Windows Resource Protection
+                      tocHref: /windows/win32/wfp/
+                      topicHref: /windows/win32/wfp/windows-resource-protection-portal
+                - name: Windows Virtual PC
+                  tocHref: /windows/win32/vpc/
+                  topicHref: /windows/win32/vpc/virtual-pc-portal
+            - name: API Index
+              tocHref: /windows/win32/apiindex/
+              topicHref: /windows/win32/apiindex/api-index-portal
+            - name: Windows Runtime C++ reference
+              tocHref: /windows/win32/winrt/
+              topicHref: /windows/win32/winrt/reference
+            - name: Windows Certification
+              tocHref: /windows/win32/win_cert/
+              topicHref: /windows/win32/win_cert/windows-certification-portal

@@ -1,0 +1,235 @@
+- name: "System Monitor"
+  href: system-monitor-portal.md
+  items: 
+  - name: "What's New in System Monitor"
+    href: what-s-new-in-system-monitor.md
+  - name: "Using System Monitor"
+    href: using-system-monitor.md
+  - name: "System Monitor Reference"
+    href: system-monitor-reference.md
+    items: 
+    - name: "SYSMON Classes"
+      href: sysmon-classes.md
+      items: 
+      - name: "CounterItem"
+        href: counteritem.md
+        items: 
+        - name: "CounterItem Methods"
+          href: counteritem-methods.md
+          items: 
+          - name: "CounterItem.GetDataAt"
+            href: counteritem-getdataat.md
+          - name: "CounterItem.GetStatistics"
+            href: counteritem-getstatistics.md
+          - name: "CounterItem.GetValue"
+            href: counteritem-getvalue.md
+        - name: "CounterItem Properties"
+          href: counteritem-properties.md
+          items: 
+          - name: "CounterItem.Color"
+            href: counteritem-color.md
+          - name: "CounterItem.LineStyle"
+            href: counteritem-linestyle.md
+          - name: "CounterItem.Path"
+            href: counteritem-path.md
+          - name: "CounterItem.ScaleFactor"
+            href: counteritem-scalefactor.md
+          - name: "CounterItem.Selected"
+            href: counteritem-selected.md
+          - name: "CounterItem.Value"
+            href: counteritem-value.md
+          - name: "CounterItem.Visible"
+            href: counteritem-visible.md
+          - name: "CounterItem.Width"
+            href: counteritem-width.md
+      - name: "Counters"
+        href: counters.md
+        items: 
+        - name: "Counters  Methods"
+          href: counters--methods.md
+          items: 
+          - name: "Counters.Add"
+            href: counters-add.md
+          - name: "Counters.Remove"
+            href: counters-remove.md
+        - name: "Counters  Properties"
+          href: counters--properties.md
+          items: 
+          - name: "Counters.Count"
+            href: counters-count.md
+          - name: "Counters.Item"
+            href: counters-item.md
+      - name: "LogFileItem"
+        href: logfileitem.md
+        items: 
+        - name: "LogFileItem  Properties"
+          href: logfileitem--properties.md
+          items: 
+          - name: "LogFileItem.Path"
+            href: logfileitem-path.md
+      - name: "LogFiles"
+        href: logfiles.md
+        items: 
+        - name: "LogFiles  Methods"
+          href: logfiles--methods.md
+          items: 
+          - name: "LogFiles.Add"
+            href: systemmonitor-logfiles-add.md
+          - name: "LogFiles.Remove"
+            href: systemmonitor-logfiles-remove.md
+        - name: "LogFiles  Properties"
+          href: logfiles--properties.md
+          items: 
+          - name: "LogFiles.Count"
+            href: systemmonitor-logfiles-count.md
+          - name: "LogFiles.Item"
+            href: systemmonitor-logfiles-item.md
+      - name: "SystemMonitor"
+        href: systemmonitor.md
+        items: 
+        - name: "SystemMonitor  Events"
+          href: systemmonitor--events.md
+          items: 
+          - name: "SystemMonitor.OnCounterAdded"
+            href: systemmonitor-oncounteradded.md
+          - name: "SystemMonitor.OnCounterDeleted"
+            href: -systemmonitor-oncounterdeleted.md
+          - name: "SystemMonitor.OnCounterSelected"
+            href: -systemmonitor-oncounterselected.md
+          - name: "SystemMonitor.OnDblClick"
+            href: -systemmonitor-ondblclick.md
+          - name: "SystemMonitor.OnSampleCollected"
+            href: -systemmonitor-onsamplecollected.md
+        - name: "SystemMonitor  Methods"
+          href: systemmonitor--methods.md
+          items: 
+          - name: "SystemMonitor.BatchingLock"
+            href: systemmonitor-batchinglock.md
+          - name: "SystemMonitor.BrowseCounters"
+            href: systemmonitor-browsecounters.md
+          - name: "SystemMonitor.ClearData"
+            href: systemmonitor-cleardata.md
+          - name: "SystemMonitor.CollectSample"
+            href: systemmonitor-collectsample.md
+          - name: "SystemMonitor.Copy"
+            href: systemmonitor-copy.md
+          - name: "SystemMonitor.DisplayProperties"
+            href: systemmonitor-displayproperties.md
+          - name: "SystemMonitor.GetLogViewRange"
+            href: systemmonitor-getlogviewrange.md
+          - name: "SystemMonitor.LoadSettings"
+            href: systemmonitor-loadsettings.md
+          - name: "SystemMonitor.Paste"
+            href: systemmonitor-paste.md
+          - name: "SystemMonitor.Relog"
+            href: systemmonitor-relog.md
+          - name: "SystemMonitor.Reset"
+            href: systemmonitor-reset.md
+          - name: "SystemMonitor.SaveAs"
+            href: systemmonitor-saveas.md
+          - name: "SystemMonitor.ScaleToFit"
+            href: systemmonitor-scaletofit.md
+          - name: "SystemMonitor.SetLogViewRange"
+            href: systemmonitor-setlogviewrange.md
+          - name: "SystemMonitor.UpdateGraph"
+            href: systemmonitor-updategraph.md
+        - name: "SystemMonitor  Properties"
+          href: systemmonitor--properties.md
+          items: 
+          - name: "SystemMonitor.Appearance"
+            href: systemmonitor-appearance.md
+          - name: "SystemMonitor.BackColor"
+            href: systemmonitor-backcolor.md
+          - name: "SystemMonitor.BackColorCtl"
+            href: systemmonitor-backcolorctl.md
+          - name: "SystemMonitor.BorderStyle"
+            href: systemmonitor-borderstyle.md
+          - name: "SystemMonitor.ChartScroll"
+            href: systemmonitor-chartscroll.md
+          - name: "SystemMonitor.Counters"
+            href: systemmonitor-counters.md
+          - name: "SystemMonitor.DataPointCount"
+            href: systemmonitor-datapointcount.md
+          - name: "SystemMonitor.DataSourceType"
+            href: systemmonitor-datasourcetype.md
+          - name: "SystemMonitor.DisplayType"
+            href: systemmonitor-displaytype.md
+          - name: "SystemMonitor.EnableDigitGrouping"
+            href: systemmonitor-enabledigitgrouping.md
+          - name: "SystemMonitor.EnableToolTips"
+            href: systemmonitor-enabletooltips.md
+          - name: "SystemMonitor.Font"
+            href: systemmonitor-font.md
+          - name: "SystemMonitor.ForeColor"
+            href: systemmonitor-forecolor.md
+          - name: "SystemMonitor.GraphTitle"
+            href: systemmonitor-graphtitle.md
+          - name: "SystemMonitor.GridColor"
+            href: systemmonitor-gridcolor.md
+          - name: "SystemMonitor.Highlight"
+            href: systemmonitor-highlight.md
+          - name: "SystemMonitor.LogFileName"
+            href: systemmonitor-logfilename.md
+          - name: "SystemMonitor.LogFiles"
+            href: systemmonitor-logfiles.md
+          - name: "SystemMonitor.LogSourceStartTime"
+            href: systemmonitor-logsourcestarttime.md
+          - name: "SystemMonitor.LogSourceStopTime"
+            href: systemmonitor-logsourcestoptime.md
+          - name: "SystemMonitor.LogViewStart"
+            href: systemmonitor-logviewstart.md
+          - name: "SystemMonitor.LogViewStop"
+            href: systemmonitor-logviewstop.md
+          - name: "SystemMonitor.ManualUpdate"
+            href: systemmonitor-manualupdate.md
+          - name: "SystemMonitor.MaximumScale"
+            href: systemmonitor-maximumscale.md
+          - name: "SystemMonitor.MinimumScale"
+            href: systemmonitor-minimumscale.md
+          - name: "SystemMonitor.MonitorDuplicateInstances"
+            href: systemmonitor-monitorduplicateinstances.md
+          - name: "SystemMonitor.ReadOnly"
+            href: systemmonitor-readonly.md
+          - name: "SystemMonitor.ReportValueType"
+            href: systemmonitor-reportvaluetype.md
+          - name: "SystemMonitor.ShowHorizontalGrid"
+            href: systemmonitor-showhorizontalgrid.md
+          - name: "SystemMonitor.ShowLegend"
+            href: systemmonitor-showlegend.md
+          - name: "SystemMonitor.ShowScaleLabels"
+            href: systemmonitor-showscalelabels.md
+          - name: "SystemMonitor.ShowTimeAxisLabels"
+            href: systemmonitor-showtimeaxislabels.md
+          - name: "SystemMonitor.ShowToolbar"
+            href: systemmonitor-showtoolbar.md
+          - name: "SystemMonitor.ShowValueBar"
+            href: systemmonitor-showvaluebar.md
+          - name: "SystemMonitor.ShowVerticalGrid"
+            href: systemmonitor-showverticalgrid.md
+          - name: "SystemMonitor.SqlDsnName"
+            href: systemmonitor-sqldsnname.md
+          - name: "SystemMonitor.SqlLogSetName"
+            href: systemmonitor-sqllogsetname.md
+          - name: "SystemMonitor.TimeBarColor"
+            href: systemmonitor-timebarcolor.md
+          - name: "SystemMonitor.UpdateInterval"
+            href: systemmonitor-updateinterval.md
+          - name: "SystemMonitor.YAxisLabel"
+            href: systemmonitor-yaxislabel.md
+    - name: "SYSMON Enumerations"
+      href: sysmon-enumerations.md
+      items: 
+      - name: "DataSourceTypeConstants"
+        href: /windows/win32/api/isysmon/ne-isysmon-datasourcetypeconstants
+      - name: "DisplayTypeConstants"
+        href: /windows/win32/api/isysmon/ne-isysmon-displaytypeconstants
+      - name: "ReportValueTypeConstants"
+        href: /windows/win32/api/isysmon/ne-isysmon-reportvaluetypeconstants
+      - name: "SysmonBatchReason"
+        href: /windows/win32/api/ISysmon/ne-isysmon-sysmonbatchreason
+      - name: "SysmonDataType"
+        href: /windows/win32/api/ISysmon/ne-isysmon-sysmondatatype
+      - name: "SysmonFileType"
+        href: /windows/win32/api/ISysmon/ne-isysmon-sysmonfiletype
+    - name: "SYSMON Return Values"
+      href: sysmon-return-values.md

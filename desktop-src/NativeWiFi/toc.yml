@@ -1,0 +1,772 @@
+- name: "Native Wifi"
+  href: portal.md
+  items: 
+  - name: "What's New in Native Wifi"
+    href: what-s-new-in-native-wifi.md
+  - name: "About Native Wifi"
+    href: about-native-wifi.md
+    items: 
+    - name: "About the ACM Architecture"
+      href: about-the-acm-architecture.md
+    - name: "About the Native Wifi API"
+      href: about-the-native-wifi-api.md
+    - name: "Native Wifi API Support on Windows XP"
+      href: about-wireless-lan-api-for-windows-xp-service-pack-2.md
+    - name: "Native Wifi API Permissions"
+      href: native-wifi-api-permissions.md
+    - name: "About the Wi-Fi Direct feature"
+      href: about-the-wi-fi-direct-api.md
+    - name: "About the Wireless Ad Hoc API"
+      href: about-the-wireless-ad-hoc-api.md
+    - name: "About the Wireless Hosted Network"
+      href: about-the-wireless-hosted-network.md
+  - name: "Using Native Wifi"
+    href: using-native-wifi.md
+    items: 
+    - name: "Wireless User Interface APIs"
+      href: wireless-user-interface-apis.md
+    - name: "Native Wifi API Sample"
+      href: native-wifi-api-sample.md
+    - name: "Using the Wi-Fi Direct functions"
+      href: using-the-wi-fi-direct-api.md
+    - name: "Use Wireless Hosted Network, Internet Connection Sharing"
+      href: using-hosted-network-and-internet-connection-sharing.md
+    - name: "Provision a Wi-Fi profile via a website"
+      href: prov-wifi-profile-via-website.md
+    - name: "Dual-STA query and configuration"
+      href: dual-sta-query-config.md
+    - name: "Wireless Hosted Network Sample"
+      href: wireless-hosted-network-sample.md
+    - name: "Wired Profile Samples"
+      href: wired-profile-samples.md
+      items: 
+      - name: "Machine Certificate Profile Sample"
+        href: machine-certificate-profile-sample.md
+      - name: "PEAP Profile Sample"
+        href: peap-profile-sample.md
+      - name: "Smart Card Certificate Profile Sample"
+        href: smart-card-certificate-profile-sample.md
+    - name: "Wireless Profile Samples"
+      href: wireless-profile-samples.md
+      items: 
+      - name: "Bootstrap Profile Sample"
+        href: bootstrap-profile-sample.md
+      - name: "FIPS Profile Sample"
+        href: fips-profile-sample.md
+      - name: "Non-Broadcast Profile Sample"
+        href: non-broadcast-profile-sample.md
+      - name: "Single Sign-On Profile Sample"
+        href: single-sign-on-profile-sample.md
+      - name: "WPA-Enterprise with PEAP-MSCHAPv2 Profile Sample"
+        href: wpa-enterprise-with-peap-mschapv2-profile-sample.md
+      - name: "WPA-Enterprise with TLS Profile Sample"
+        href: wpa-enterprise-with-tls-profile-sample.md
+      - name: "WPA-Personal Profile Sample"
+        href: wpa-personal-profile-sample.md
+      - name: "WPA2-Enterprise with PEAP-MSCHAPv2 Profile Sample"
+        href: wpa2-enterprise-with-peap-mschapv2-profile-sample.md
+      - name: "WPA2-Enterprise with TLS Profile Sample"
+        href: wpa2-enterprise-with-tls-profile-sample.md
+      - name: "WPA2-Personal Profile Sample"
+        href: wpa2-personal-profile-sample.md
+  - name: "Native Wifi reference"
+    href: native-wifi-reference.md
+    items: 
+    - name: "Native Wifi enumerations"
+      href: native-wifi-enumerations.md
+      items: 
+      - name: "WFD_DISPLAY_SINK_NOTIFICATION_TYPE"
+        href: wfd-display-sink-notification-type.md
+      - name: "DOT11_AUTH_ALGORITHM"
+        href: dot11-auth-algorithm.md
+      - name: "DOT11_BSS_TYPE"
+        href: dot11-bss-type.md
+      - name: "DOT11_CIPHER_ALGORITHM"
+        href: dot11-cipher-algorithm.md
+      - name: "DOT11_PHY_TYPE"
+        href: dot11-phy-type.md
+      - name: "DOT11_RADIO_STATE"
+        href: /windows/win32/api/wlanapi/ne-wlanapi-dot11_radio_state-r1
+      - name: "ONEX_AUTH_IDENTITY"
+        href: /windows/win32/api/dot1x/ne-dot1x-onex_auth_identity
+      - name: "ONEX_AUTH_RESTART_REASON"
+        href: /windows/win32/api/dot1x/ne-dot1x-onex_auth_restart_reason
+      - name: "ONEX_AUTH_STATUS"
+        href: /windows/win32/api/dot1x/ne-dot1x-onex_auth_status
+      - name: "ONEX_EAP_METHOD_BACKEND_SUPPORT"
+        href: /windows/win32/api/dot1x/ne-dot1x-onex_eap_method_backend_support
+      - name: "ONEX_NOTIFICATION_TYPE"
+        href: /windows/win32/api/dot1x/ne-dot1x-onex_notification_type
+      - name: "ONEX_REASON_CODE"
+        href: /windows/win32/api/dot1x/ne-dot1x-onex_reason_code
+      - name: "WL_DISPLAY_PAGES"
+        href: /windows/win32/api/wlanapi/ne-wlanapi-wl_display_pages
+      - name: "WLAN_ADHOC_NETWORK_STATE"
+        href: /windows/win32/api/wlanapi/ne-wlanapi-_wlan_adhoc_network_state
+      - name: "WLAN_AUTOCONF_OPCODE"
+        href: /windows/win32/api/wlanapi/ne-wlanapi-wlan_autoconf_opcode-r1
+      - name: "WLAN_CONNECTION_MODE"
+        href: /windows/win32/api/wlanapi/ne-wlanapi-wlan_connection_mode
+      - name: "WLAN_FILTER_LIST_TYPE"
+        href: /windows/win32/api/wlanapi/ne-wlanapi-wlan_filter_list_type
+      - name: "WLAN_HOSTED_NETWORK_NOTIFICATION_CODE"
+        href: /windows/win32/api/Wlanapi/ne-wlanapi-wlan_hosted_network_notification_code
+      - name: "WLAN_HOSTED_NETWORK_OPCODE"
+        href: /windows/win32/api/Wlanapi/ne-wlanapi-wlan_hosted_network_opcode
+      - name: "WLAN_HOSTED_NETWORK_PEER_AUTH_STATE"
+        href: /windows/win32/api/Wlanapi/ne-wlanapi-wlan_hosted_network_peer_auth_state
+      - name: "WLAN_HOSTED_NETWORK_REASON"
+        href: /windows/win32/api/Wlanapi/ne-wlanapi-wlan_hosted_network_reason
+      - name: "WLAN_HOSTED_NETWORK_STATE"
+        href: /windows/win32/api/Wlanapi/ne-wlanapi-wlan_hosted_network_state
+      - name: "WLAN_IHV_CONTROL_TYPE"
+        href: /windows/win32/api/wlanapi/ne-wlanapi-wlan_ihv_control_type-r1
+      - name: "WLAN_INTERFACE_STATE"
+        href: /windows/win32/api/wlanapi/ne-wlanapi-wlan_ihv_control_type-r1
+      - name: "WLAN_INTERFACE_TYPE"
+        href: /windows/win32/api/wlanapi/ne-wlanapi-wlan_interface_type
+      - name: "WLAN_INTF_OPCODE"
+        href: /windows/win32/api/wlanapi/ne-wlanapi-wlan_intf_opcode-r1
+      - name: "WLAN_NOTIFICATION_ACM"
+        href: /windows/win32/api/Wlanapi/ne-wlanapi-wlan_notification_acm-r1
+      - name: "WLAN_NOTIFICATION_MSM"
+        href: /windows/win32/api/wlanapi/ne-wlanapi-wlan_notification_msm-r1
+      - name: "WLAN_OPCODE_VALUE_TYPE"
+        href: /windows/win32/api/wlanapi/ne-wlanapi-wlan_opcode_value_type-r1
+      - name: "WLAN_POWER_SETTING"
+        href: /windows/win32/api/wlanapi/ne-wlanapi-wlan_power_setting-r1
+      - name: "WLAN_SECURABLE_OBJECT"
+        href: /windows/win32/api/wlanapi/ne-wlanapi-wlan_securable_object
+    - name: "Native Wifi functions"
+      href: native-wifi-functions.md
+      items: 
+      - name: "WFD_DISPLAY_SINK_NOTIFICATION_CALLBACK"
+        href: wfd-display-sink-notification-callback.md
+      - name: "WFD_OPEN_SESSION_COMPLETE_CALLBACK"
+        href: /windows/win32/api/wlanapi/nc-wlanapi-wfd_open_session_complete_callback
+      - name: "WFDCancelOpenSession"
+        href: /windows/win32/api/wlanapi/nf-wlanapi-wfdcancelopensession
+      - name: "WFDDisplaySinkCloseSession"
+        href: wfdclosedisplaysinksession.md
+      - name: "WFDCloseHandle"
+        href: /windows/win32/api/wlanapi/nf-wlanapi-wfdclosehandle
+      - name: "WFDCloseSession"
+        href: /windows/win32/api/wlanapi/nf-wlanapi-wfdclosesession
+      - name: "WFDOpenHandle"
+        href: /windows/win32/api/wlanapi/nf-wlanapi-wfdopenhandle
+      - name: "WFDOpenLegacySession"
+        href: /windows/win32/api/wlanapi/nf-wlanapi-wfdopenlegacysession
+      - name: "WFDDisplaySinkSetPersistedGroupIDList"
+        href: wfdsetdisplaysinkpersistedgroupidlist.md
+      - name: "WFDDisplaySinkStart"
+        href: wfdstartdisplaysink.md
+      - name: "WFDStartOpenSession"
+        href: /windows/win32/api/wlanapi/nf-wlanapi-wfdstartopensession
+      - name: "WFDDisplaySinkStop"
+        href: wfdstopdisplaysink.md
+      - name: "WFDUpdateDeviceVisibility"
+        href: /windows/win32/api/wlanapi/nf-wlanapi-wfdupdatedevicevisibility
+      - name: "WLAN_NOTIFICATION_CALLBACK"
+        href: /windows/win32/api/wlanapi/nc-wlanapi-wlan_notification_callback
+      - name: "WlanAllocateMemory"
+        href: /windows/win32/api/wlanapi/nf-wlanapi-wlanallocatememory
+      - name: "WlanCloseHandle"
+        href: /windows/win32/api/wlanapi/nf-wlanapi-wlanclosehandle
+      - name: "WlanConnect"
+        href: /windows/win32/api/wlanapi/nf-wlanapi-wlanconnect
+      - name: "WlanDeleteProfile"
+        href: /windows/win32/api/wlanapi/nf-wlanapi-wlandeleteprofile
+      - name: "WlanDeviceServiceCommand"
+        href: /windows/win32/api/wlanapi/nf-wlanapi-wlandeviceservicecommand
+      - name: "WlanDisconnect"
+        href: /windows/win32/api/wlanapi/nf-wlanapi-wlandisconnect
+      - name: "WlanEnumInterfaces"
+        href: /windows/win32/api/wlanapi/nf-wlanapi-wlanenuminterfaces
+      - name: "WlanExtractPsdIEDataList"
+        href: /windows/win32/api/wlanapi/nf-wlanapi-wlanextractpsdiedatalist
+      - name: "WlanFreeMemory"
+        href: /windows/win32/api/wlanapi/nf-wlanapi-wlanfreememory
+      - name: "WlanGetAvailableNetworkList"
+        href: /windows/win32/api/wlanapi/nf-wlanapi-wlangetavailablenetworklist
+      - name: "WlanGetFilterList"
+        href: /windows/win32/api/wlanapi/nf-wlanapi-wlangetfilterlist
+      - name: "WlanGetInterfaceCapability"
+        href: /windows/win32/api/wlanapi/nf-wlanapi-wlangetinterfacecapability
+      - name: "WlanGetNetworkBssList"
+        href: /windows/win32/api/Wlanapi/nf-wlanapi-wlangetnetworkbsslist
+      - name: "WlanGetProfile"
+        href: /windows/win32/api/wlanapi/nf-wlanapi-wlangetprofile
+      - name: "WlanGetProfileCustomUserData"
+        href: /windows/win32/api/wlanapi/nf-wlanapi-wlangetprofilecustomuserdata
+      - name: "WlanGetProfileList"
+        href: /windows/win32/api/wlanapi/nf-wlanapi-wlangetprofilelist
+      - name: "WlanGetSecuritySettings"
+        href: /windows/win32/api/wlanapi/nf-wlanapi-wlangetsecuritysettings
+      - name: "WlanGetSupportedDeviceServices"
+        href: /windows/win32/api/wlanapi/nf-wlanapi-wlangetsupporteddeviceservices
+      - name: "WlanHostedNetworkForceStart"
+        href: /windows/win32/api/Wlanapi/nf-wlanapi-wlanhostednetworkforcestart
+      - name: "WlanHostedNetworkForceStop"
+        href: /windows/win32/api/Wlanapi/nf-wlanapi-wlanhostednetworkforcestop
+      - name: "WlanHostedNetworkInitSettings"
+        href: /windows/win32/api/Wlanapi/nf-wlanapi-wlanhostednetworkinitsettings
+      - name: "WlanHostedNetworkQueryProperty"
+        href: /windows/win32/api/Wlanapi/nf-wlanapi-wlanhostednetworkqueryproperty
+      - name: "WlanHostedNetworkQuerySecondaryKey"
+        href: /windows/win32/api/Wlanapi/nf-wlanapi-wlanhostednetworkquerysecondarykey
+      - name: "WlanHostedNetworkQueryStatus"
+        href: /windows/win32/api/Wlanapi/nf-wlanapi-wlanhostednetworkquerystatus
+      - name: "WlanHostedNetworkRefreshSecuritySettings"
+        href: /windows/win32/api/Wlanapi/nf-wlanapi-wlanhostednetworkrefreshsecuritysettings
+      - name: "WlanHostedNetworkSetProperty"
+        href: /windows/win32/api/Wlanapi/nf-wlanapi-wlanhostednetworksetproperty
+      - name: "WlanHostedNetworkSetSecondaryKey"
+        href: /windows/win32/api/Wlanapi/nf-wlanapi-wlanhostednetworksetsecondarykey
+      - name: "WlanHostedNetworkStartUsing"
+        href: /windows/win32/api/Wlanapi/nf-wlanapi-wlanhostednetworkstartusing
+      - name: "WlanHostedNetworkStopUsing"
+        href: /windows/win32/api/Wlanapi/nf-wlanapi-wlanhostednetworkstopusing
+      - name: "WlanIhvControl"
+        href: /windows/win32/api/wlanapi/nf-wlanapi-wlanihvcontrol
+      - name: "WlanOpenHandle"
+        href: /windows/win32/api/wlanapi/nf-wlanapi-wlanopenhandle
+      - name: "WlanQueryAutoConfigParameter"
+        href: /windows/win32/api/Wlanapi/nf-wlanapi-wlanqueryautoconfigparameter
+      - name: "WlanQueryInterface"
+        href: /windows/win32/api/Wlanapi/nf-wlanapi-wlanqueryinterface
+      - name: "WlanReasonCodeToString"
+        href: /windows/win32/api/wlanapi/nf-wlanapi-wlanreasoncodetostring
+      - name: "WlanRegisterDeviceServiceNotification"
+        href: /windows/win32/api/wlanapi/nf-wlanapi-wlanregisterdeviceservicenotification
+      - name: "WlanRegisterNotification"
+        href: /windows/win32/api/wlanapi/nf-wlanapi-wlanregisternotification
+      - name: "WlanRegisterVirtualStationNotification"
+        href: /windows/win32/api/Wlanapi/nf-wlanapi-wlanregistervirtualstationnotification
+      - name: "WlanRenameProfile"
+        href: /windows/win32/api/wlanapi/nf-wlanapi-wlanrenameprofile
+      - name: "WlanSaveTemporaryProfile"
+        href: /windows/win32/api/wlanapi/nf-wlanapi-wlansavetemporaryprofile
+      - name: "WlanScan"
+        href: /windows/win32/api/wlanapi/nf-wlanapi-wlanscan
+      - name: "WlanSetAutoConfigParameter"
+        href: /windows/win32/api/Wlanapi/nf-wlanapi-wlansetautoconfigparameter
+      - name: "WlanSetFilterList"
+        href: /windows/win32/api/wlanapi/nf-wlanapi-wlansetfilterlist
+      - name: "WlanSetInterface"
+        href: /windows/win32/api/Wlanapi/nf-wlanapi-wlansetinterface
+      - name: "WlanSetProfile"
+        href: /windows/win32/api/wlanapi/nf-wlanapi-wlansetprofile
+      - name: "WlanSetProfileCustomUserData"
+        href: /windows/win32/api/wlanapi/nf-wlanapi-wlansetprofilecustomuserdata
+      - name: "WlanSetProfileEapUserData"
+        href: /windows/win32/api/wlanapi/nf-wlanapi-wlansetprofileeapuserdata
+      - name: "WlanSetProfileEapXmlUserData"
+        href: /windows/win32/api/wlanapi/nf-wlanapi-wlansetprofileeapxmluserdata
+      - name: "WlanSetProfileList"
+        href: /windows/win32/api/wlanapi/nf-wlanapi-wlansetprofilelist
+      - name: "WlanSetProfilePosition"
+        href: /windows/win32/api/wlanapi/nf-wlanapi-wlansetprofileposition
+      - name: "WlanSetPsdIEDataList"
+        href: /windows/win32/api/wlanapi/nf-wlanapi-wlansetpsdiedatalist
+      - name: "WlanSetSecuritySettings"
+        href: /windows/win32/api/wlanapi/nf-wlanapi-wlansetsecuritysettings
+      - name: "WlanUIEditProfile"
+        href: /windows/win32/api/wlanapi/nf-wlanapi-wlanuieditprofile
+    - name: "Native Wifi structures"
+      href: native-wifi-structures.md
+      items: 
+      - name: "WFD_DISPLAY_SINK_NOTIFICATION"
+        href: wfd-display-sink-notification.md
+      - name: "WFD_DISPLAY_SINK_NOTIFICATION_RESULT"
+        href: wfd-display-sink-notification-result.md
+      - name: "WFD_DISPLAY_SINK_OBJECT_HEADER"
+        href: wfd-display-sink-object-header.md
+      - name: "DOT11_AUTH_CIPHER_PAIR"
+        href: dot11-auth-cipher-pair.md
+      - name: "DOT11_BSSID_LIST"
+        href: dot11-bssid-list.md
+      - name: "DOT11_MAC_ADDRESS"
+        href: dot11-mac-address-type.md
+      - name: "DOT11_NETWORK"
+        href: /windows/win32/api/wlanapi/ns-wlanapi-dot11_network
+      - name: "DOT11_NETWORK_LIST"
+        href: /windows/win32/api/wlanapi/ns-wlanapi-dot11_network_list
+      - name: "DOT11_SSID"
+        href: dot11-ssid.md
+      - name: "NDIS_OBJECT_HEADER"
+        href: ndis-object-header.md
+      - name: "ONEX_AUTH_PARAMS"
+        href: /windows/win32/api/dot1x/ns-dot1x-onex_auth_params
+      - name: "ONEX_CONNECTION_PROFILE"
+        href: onex-connection-profile.md
+      - name: "ONEX_EAP_ERROR"
+        href: /windows/win32/api/dot1x/ns-dot1x-onex_eap_error
+      - name: "ONEX_RESULT_UPDATE_DATA"
+        href: /windows/win32/api/dot1x/ns-dot1x-onex_result_update_data
+      - name: "ONEX_STATUS"
+        href: /windows/win32/api/dot1x/ns-dot1x-onex_status
+      - name: "ONEX_VARIABLE_BLOB"
+        href: /windows/win32/api/dot1x/ns-dot1x-onex_variable_blob
+      - name: "WLAN_ASSOCIATION_ATTRIBUTES"
+        href: /windows/win32/api/wlanapi/ns-wlanapi-wlan_association_attributes
+      - name: "WLAN_AUTH_CIPHER_PAIR_LIST"
+        href: /windows/win32/api/wlanapi/ns-wlanapi-wlan_auth_cipher_pair_list
+      - name: "WLAN_AVAILABLE_NETWORK"
+        href: /windows/win32/api/wlanapi/ns-wlanapi-wlan_available_network
+      - name: "WLAN_AVAILABLE_NETWORK_LIST"
+        href: /windows/win32/api/wlanapi/ns-wlanapi-wlan_available_network_list
+      - name: "WLAN_BSS_ENTRY"
+        href: /windows/win32/api/wlanapi/ns-wlanapi-wlan_bss_entry
+      - name: "WLAN_BSS_LIST"
+        href: /windows/win32/api/wlanapi/ns-wlanapi-wlan_bss_list
+      - name: "WLAN_CONNECTION_ATTRIBUTES"
+        href: /windows/win32/api/wlanapi/ns-wlanapi-wlan_connection_attributes
+      - name: "WLAN_CONNECTION_NOTIFICATION_DATA"
+        href: /windows/win32/api/wlanapi/ns-wlanapi-wlan_connection_notification_data
+      - name: "WLAN_CONNECTION_PARAMETERS"
+        href: /windows/win32/api/wlanapi/ns-wlanapi-wlan_connection_parameters
+      - name: "WLAN_COUNTRY_OR_REGION_STRING_LIST"
+        href: /windows/win32/api/wlanapi/ns-wlanapi-wlan_country_or_region_string_list
+      - name: "WLAN_DEVICE_SERVICE_GUID_LIST"
+        href: /windows/win32/api/wlanapi/ns-wlanapi-wlan_device_service_guid_list
+      - name: "WLAN_DEVICE_SERVICE_NOTIFICATION_DATA"
+        href: /windows/win32/api/wlanapi/ns-wlanapi-wlan_device_service_notification_data
+      - name: "WLAN_HOSTED_NETWORK_CONNECTION_SETTINGS"
+        href: /windows/win32/api/Wlanapi/ns-wlanapi-wlan_hosted_network_connection_settings
+      - name: "WLAN_HOSTED_NETWORK_DATA_PEER_STATE_CHANGE"
+        href: /windows/win32/api/Wlanapi/ns-wlanapi-wlan_hosted_network_data_peer_state_change
+      - name: "WLAN_HOSTED_NETWORK_PEER_STATE"
+        href: /windows/win32/api/Wlanapi/ns-wlanapi-wlan_hosted_network_peer_state
+      - name: "WLAN_HOSTED_NETWORK_RADIO_STATE"
+        href: /windows/win32/api/Wlanapi/ns-wlanapi-wlan_hosted_network_radio_state
+      - name: "WLAN_HOSTED_NETWORK_SECURITY_SETTINGS"
+        href: /windows/win32/api/Wlanapi/ns-wlanapi-wlan_hosted_network_security_settings
+      - name: "WLAN_HOSTED_NETWORK_STATE_CHANGE"
+        href: /windows/win32/api/Wlanapi/ns-wlanapi-wlan_hosted_network_state_change
+      - name: "WLAN_HOSTED_NETWORK_STATUS"
+        href: /windows/win32/api/Wlanapi/ns-wlanapi-wlan_hosted_network_status
+      - name: "WLAN_INTERFACE_CAPABILITY"
+        href: /windows/win32/api/wlanapi/ns-wlanapi-wlan_interface_capability
+      - name: "WLAN_INTERFACE_INFO"
+        href: /windows/win32/api/wlanapi/ns-wlanapi-wlan_interface_info
+      - name: "WLAN_INTERFACE_INFO_LIST"
+        href: /windows/win32/api/wlanapi/ns-wlanapi-wlan_interface_info_list
+      - name: "WLAN_MAC_FRAME_STATISTICS"
+        href: /windows/win32/api/wlanapi/ns-wlanapi-wlan_mac_frame_statistics
+      - name: "WLAN_MSM_NOTIFICATION_DATA"
+        href: /windows/win32/api/wlanapi/ns-wlanapi-wlan_msm_notification_data
+      - name: "WLAN_NOTIFICATION_DATA"
+        href: /previous-versions/windows/desktop/legacy/ms706902(v=vs.85)
+      - name: "WLAN_PHY_FRAME_STATISTICS"
+        href: /windows/win32/api/wlanapi/ns-wlanapi-wlan_phy_frame_statistics
+      - name: "WLAN_PHY_RADIO_STATE"
+        href: /windows/win32/api/wlanapi/ns-wlanapi-wlan_phy_radio_state
+      - name: "WLAN_PROFILE_INFO"
+        href: /windows/win32/api/wlanapi/ns-wlanapi-wlan_profile_info
+      - name: "WLAN_PROFILE_INFO_LIST"
+        href: /windows/win32/api/wlanapi/ns-wlanapi-wlan_profile_info_list
+      - name: "WLAN_RADIO_STATE"
+        href: /windows/win32/api/wlanapi/ns-wlanapi-wlan_radio_state
+      - name: "WLAN_RATE_SET"
+        href: /windows/win32/api/wlanapi/ns-wlanapi-wlan_rate_set
+      - name: "WLAN_RAW_DATA"
+        href: /windows/win32/api/wlanapi/ns-wlanapi-wlan_raw_data
+      - name: "WLAN_RAW_DATA_LIST"
+        href: /windows/win32/api/wlanapi/ns-wlanapi-wlan_raw_data_list
+      - name: "WLAN_REASON_CODE"
+        href: wlan-reason-code.md
+      - name: "WLAN_SECURITY_ATTRIBUTES"
+        href: /windows/win32/api/wlanapi/ns-wlanapi-wlan_security_attributes
+      - name: "WLAN_STATISTICS"
+        href: /windows/win32/api/wlanapi/ns-wlanapi-wlan_statistics
+    - name: "Profile XML Schema"
+      href: profile-xml-schema.md
+      items: 
+      - name: "Wireless Profile Compatibility"
+        href: wireless-profile-compatibility.md
+      - name: "LAN_policy Schema"
+        href: lan-policyschema-schema.md
+        items: 
+        - name: "LAN_policy Schema Elements"
+          href: lan-policyschema-elements.md
+          items: 
+          - name: "description (LANPolicy) Element"
+            href: lan-policyschema-description-lanpolicy-element.md
+          - name: "enableAutoConfig (globalFlags) Element"
+            href: lan-policyschema-enableautoconfig-globalflags-element.md
+          - name: "globalFlags (LANPolicy) Element"
+            href: lan-policyschema-globalflags-lanpolicy-element.md
+          - name: "LANPolicy Element"
+            href: lan-policyschema-lanpolicy-element.md
+          - name: "name (LANPolicy) Element"
+            href: lan-policyschema-name-lanpolicy-element.md
+          - name: "profileList (LANPolicy) Element"
+            href: lan-policyschema-profilelist-lanpolicy-element.md
+        - name: "LAN_policy Schema Simple Types"
+          href: lan-policyschema-simple-types.md
+          items: 
+          - name: "nameType Simple Type"
+            href: lan-policyschema-nametype-simpletype.md
+      - name: "LAN_profile Schema"
+        href: lan-profileschema-schema.md
+        items: 
+        - name: "LAN_profile Schema Elements"
+          href: lan-profileschema-elements.md
+          items: 
+          - name: "LANProfile Element"
+            href: lan-profileschema-lanprofile-element.md
+          - name: "MSM (LANProfile) Element"
+            href: lan-profileschema-msm-lanprofile-element.md
+          - name: "OneXEnabled (security) Element"
+            href: lan-profileschema-onexenabled-security-element.md
+          - name: "OneXEnforced (security) Element"
+            href: lan-profileschema-onexenforced-security-element.md
+          - name: "security (MSM) Element"
+            href: lan-profileschema-security-msm-element.md
+      - name: "OneX Schema"
+        href: onexschema-schema.md
+        items: 
+        - name: "OneX Schema Elements"
+          href: onexschema-elements.md
+          items: 
+          - name: "authMode (OneX) Element"
+            href: onexschema-authmode-onex-element.md
+          - name: "authPeriod (OneX) Element"
+            href: onexschema-authperiod-onex-element.md
+          - name: "cacheUserData (OneX) Element"
+            href: onexschema-cacheuserdata-onex-element.md
+          - name: "EAPConfig (OneX) Element"
+            href: onexschema-eapconfig-onex-element.md
+          - name: "heldPeriod (OneX) Element"
+            href: onexschema-heldperiod-onex-element.md
+          - name: "maxAuthFailures (OneX) Element"
+            href: onexschema-maxauthfailures-onex-element.md
+          - name: "maxDelay (singleSignOn) Element"
+            href: onexschema-maxdelay-singlesignon-element.md
+          - name: "maxStart (OneX) Element"
+            href: onexschema-maxstart-onex-element.md
+          - name: "OneX Element"
+            href: onexschema-onex-element.md
+          - name: "singleSignOn (OneX) Element"
+            href: onexschema-singlesignon-onex-element.md
+          - name: "startPeriod (OneX) Element"
+            href: onexschema-startperiod-onex-element.md
+          - name: "supplicantMode (OneX) Element"
+            href: onexschema-supplicantmode-onex-element.md
+          - name: "type (singleSignOn) Element"
+            href: onexschema-type-singlesignon-element.md
+          - name: "userBasedVirtualLan (singleSignOn) Element"
+            href: onexschema-userbasedvirtuallan-singlesignon-element.md
+      - name: "WLAN_policy Schema"
+        href: wlan-policyschema-schema.md
+        items: 
+        - name: "WLAN_policy Schema Elements"
+          href: wlan-policyschema-elements.md
+          items: 
+          - name: "allowEveryoneToCreateAllUserProfiles (globalFlags) Element"
+            href: wlan-policyschema-alloweveryonetocreatealluserprofiles-globalflags-element.md
+          - name: "allowList (networkFilter) Element"
+            href: wlan-policyschema-allowlist-networkfilter-element.md
+          - name: "blockList (networkFilter) Element"
+            href: wlan-policyschema-blocklist-networkfilter-element.md
+          - name: "denyAllESS (networkFilter) Element"
+            href: wlan-policyschema-denyalless-networkfilter-element.md
+          - name: "denyAllIBSS (networkFilter) Element"
+            href: wlan-policyschema-denyallibss-networkfilter-element.md
+          - name: "description (WLANPolicy) Element"
+            href: wlan-policyschema-description-wlanpolicy-element.md
+          - name: "enableAutoConfig (globalFlags) Element"
+            href: wlan-policyschema-enableautoconfig-globalflags-element.md
+          - name: "globalFlags (WLANPolicy) Element"
+            href: wlan-policyschema-globalflags-wlanpolicy-element.md
+          - name: "name (WLANPolicy) Element"
+            href: wlan-policyschema-name-wlanpolicy-element.md
+          - name: "networkFilter (WLANPolicy) Element"
+            href: wlan-policyschema-networkfilter-wlanpolicy-element.md
+          - name: "networkName (networkItemType) Element"
+            href: wlan-policyschema-networkname-networkitemtype-element.md
+          - name: "network (allowList) Element"
+            href: wlan-policyschema-network-allowlist-element.md
+          - name: "network (blockList) Element"
+            href: wlan-policyschema-network-blocklist-element.md
+          - name: "networkType (networkItemType) Element"
+            href: wlan-policyschema-networktype-networkitemtype-element.md
+          - name: "profileList (WLANPolicy) Element"
+            href: wlan-policyschema-profilelist-wlanpolicy-element.md
+          - name: "showDeniedNetwork (globalFlags) Element"
+            href: wlan-policyschema-showdeniednetwork-globalflags-element.md
+          - name: "WLANPolicy Element"
+            href: wlan-policyschema-wlanpolicy-element.md
+        - name: "WLAN_policy Schema Simple Types"
+          href: wlan-policyschema-simple-types.md
+          items: 
+          - name: "nameType Simple Type"
+            href: wlan-policyschema-nametype-simpletype.md
+          - name: "networkNameType Simple Type"
+            href: wlan-policyschema-networknametype-simpletype.md
+          - name: "networkTypeType Simple Type"
+            href: wlan-policyschema-networktypetype-simpletype.md
+        - name: "WLAN_policy Schema Complex Types"
+          href: wlan-policyschema-complex-types.md
+          items: 
+          - name: "networkItemType Complex Type"
+            href: wlan-policyschema-networkitemtype-complextype.md
+      - name: "WLAN_profile Schema"
+        href: wlan-profileschema-schema.md
+        items: 
+        - name: "WLAN_profile Schema Elements"
+          href: wlan-profileschema-elements.md
+          items: 
+          - name: "authEncryption (security) Element"
+            href: wlan-profileschema-authencryption-security-element.md
+          - name: "authentication (authEncryption) Element"
+            href: wlan-profileschema-authentication-authencryption-element.md
+          - name: "autoSwitch (WLANProfile) Element"
+            href: wlan-profileschema-autoswitch-wlanprofile-element.md
+          - name: "connectionMode (WLANProfile) Element"
+            href: wlan-profileschema-connectionmode-wlanprofile-element.md
+          - name: "connectionType (WLANProfile) Element"
+            href: wlan-profileschema-connectiontype-wlanprofile-element.md
+          - name: "connectivity (IHV) Element"
+            href: wlan-profileschema-connectivity-ihv-element.md
+          - name: "connectivity (MSM) Element"
+            href: wlan-profileschema-connectivity-msm-element.md
+          - name: "DomainName (Hotspot2) Element"
+            href: wlan-profileschema-hotspot2-domainname-element.md
+          - name: "encryption (authEncryption) Element"
+            href: wlan-profileschema-encryption-authencryption-element.md
+          - name: "FIPSMode (authEncryption) Element"
+            href: wlan-profileschema-fipsmode-authencryption-element.md
+          - name: "hex (SSID) Element"
+            href: wlan-profileschema-hex-ssid-element.md
+          - name: "IHV (WLANProfile) Element"
+            href: wlan-profileschema-ihv-wlanprofile-element.md
+          - name: "Hotspot2 Element"
+            href: wlan-profileschema-hotspot2-element.md
+          - name: "keyIndex (security) Element"
+            href: wlan-profileschema-keyindex-security-element.md
+          - name: "keyMaterial (sharedKey) Element"
+            href: wlan-profileschema-keymaterial-sharedkey-element.md
+          - name: "keyType (sharedKey) Element"
+            href: wlan-profileschema-keytype-sharedkey-element.md
+          - name: "MSM (WLANProfile) Element"
+            href: wlan-profileschema-msm-wlanprofile-element.md
+          - name: "NAIRealm (Hotspot2) Element"
+            href: wlan-profileschema-hotspot2-nairealm-element.md
+          - name: "name (SSID) Element"
+            href: wlan-profileschema-name-ssid-element.md
+          - name: "name (WLANProfile) Element"
+            href: wlan-profileschema-name-wlanprofile-element.md
+          - name: "Network3GPP (Hotspot2) Element"
+            href: wlan-profileschema-hotspot2-network3gpp-element.md
+          - name: "nonBroadcast (SSIDConfig) Element"
+            href: wlan-profileschema-nonbroadcast-ssidconfig-element.md
+          - name: "OUIHeader (IHV) Element"
+            href: wlan-profileschema-ouiheader-ihv-element.md
+          - name: "OUI (OUIHeader) Element"
+            href: wlan-profileschema-oui-ouiheader-element.md
+          - name: "phyType (connectivity) Element"
+            href: wlan-profileschema-phytype-connectivity-element.md
+          - name: "PMKCacheMode (security) Element"
+            href: wlan-profileschema-pmkcachemode-security-element.md
+          - name: "PMKCacheSize (security) Element"
+            href: wlan-profileschema-pmkcachesize-security-element.md
+          - name: "PMKCacheTTL (security) Element"
+            href: wlan-profileschema-pmkcachettl-security-element.md
+          - name: "preAuthMode (security) Element"
+            href: wlan-profileschema-preauthmode-security-element.md
+          - name: "preAuthThrottle (security) Element"
+            href: wlan-profileschema-preauththrottle-security-element.md
+          - name: "protected (sharedKey) Element"
+            href: wlan-profileschema-protected-sharedkey-element.md
+          - name: "RoamingConsortium (Hotspot2) Element"
+            href: wlan-profileschema-hotspot2-roamingconsortium-element.md
+          - name: "security (IHV) Element"
+            href: wlan-profileschema-security-ihv-element.md
+          - name: "security (MSM) Element"
+            href: wlan-profileschema-security-msm-element.md
+          - name: "sharedKey (security) Element"
+            href: wlan-profileschema-sharedkey-security-element.md
+          - name: "SSIDConfig (WLANProfile) Element"
+            href: wlan-profileschema-ssidconfig-wlanprofile-element.md
+          - name: "SSID (SSIDConfig) Element"
+            href: wlan-profileschema-ssid-ssidconfig-element.md
+          - name: "type (OUIHeader) Element"
+            href: wlan-profileschema-type-ouiheader-element.md
+          - name: "useMSOneX (IHV) Element"
+            href: wlan-profileschema-usemsonex-ihv-element.md
+          - name: "useOneX (authEncryption) Element"
+            href: wlan-profileschema-useonex-authencryption-element.md
+          - name: "WLANProfile Element"
+            href: wlan-profileschema-wlanprofile-element.md
+        - name: "WLAN_profile Schema Simple Types"
+          href: wlan-profileschema-simple-types.md
+          items: 
+          - name: "nameType Simple Type"
+            href: wlan-profileschema-nametype-simpletype.md
+  - name: "Wireless Ad Hoc Reference"
+    href: wireless-ad-hoc-reference.md
+    items: 
+    - name: "Wireless Ad Hoc Enumerations"
+      href: wireless-ad-hoc-enumerations.md
+      items: 
+      - name: "DOT11_ADHOC_AUTH_ALGORITHM"
+        href: /windows/win32/api/adhoc/ne-adhoc-dot11_adhoc_auth_algorithm
+      - name: "DOT11_ADHOC_CIPHER_ALGORITHM"
+        href: /windows/win32/api/adhoc/ne-adhoc-dot11_adhoc_cipher_algorithm
+      - name: "DOT11_ADHOC_CONNECT_FAIL_REASON"
+        href: /windows/win32/api/adhoc/ne-adhoc-dot11_adhoc_connect_fail_reason
+      - name: "DOT11_ADHOC_NETWORK_CONNECTION_STATUS"
+        href: /windows/win32/api/adhoc/ne-adhoc-dot11_adhoc_network_connection_status
+    - name: "Wireless Ad Hoc Interfaces"
+      href: wireless-ad-hoc-interfaces.md
+      items: 
+      - name: "IDot11AdHocInterface"
+        href: /windows/win32/api/adhoc/nn-adhoc-idot11adhocinterface
+        items: 
+        - name: "GetActiveNetwork Method"
+          href: /windows/win32/api/adhoc/nf-adhoc-idot11adhocinterface-getactivenetwork
+        - name: "GetDeviceSignature Method"
+          href: /windows/win32/api/adhoc/nf-adhoc-idot11adhocinterface-getdevicesignature
+        - name: "GetFriendlyName Method"
+          href: /windows/win32/api/adhoc/nf-adhoc-idot11adhocinterface-getfriendlyname
+        - name: "GetIEnumDot11AdHocNetworks Method"
+          href: /windows/win32/api/adhoc/nf-adhoc-idot11adhocinterface-getienumdot11adhocnetworks
+        - name: "GetIEnumSecuritySettings Method"
+          href: /windows/win32/api/adhoc/nf-adhoc-idot11adhocinterface-getienumsecuritysettings
+        - name: "GetStatus Method"
+          href: /windows/win32/api/adhoc/nf-adhoc-idot11adhocinterface-getstatus
+        - name: "IsAdHocCapable Method"
+          href: /windows/win32/api/adhoc/nf-adhoc-idot11adhocinterface-isadhoccapable
+        - name: "IsDot11d Method"
+          href: /windows/win32/api/adhoc/nf-adhoc-idot11adhocinterface-isdot11d
+        - name: "IsRadioOn Method"
+          href: /windows/win32/api/adhoc/nf-adhoc-idot11adhocinterface-isradioon
+      - name: "IDot11AdHocInterfaceNotificationSink"
+        href: /windows/win32/api/adhoc/nn-adhoc-idot11adhocinterfacenotificationsink
+        items: 
+        - name: "OnConnectionStatusChange Method"
+          href: /windows/win32/api/adhoc/nf-adhoc-idot11adhocinterfacenotificationsink-onconnectionstatuschange
+      - name: "IDot11AdHocManager"
+        href: /windows/win32/api/adhoc/nn-adhoc-idot11adhocmanager
+        items: 
+        - name: "CommitCreatedNetwork Method"
+          href: /windows/win32/api/adhoc/nf-adhoc-idot11adhocmanager-commitcreatednetwork
+        - name: "CreateNetwork Method"
+          href: /windows/win32/api/adhoc/nf-adhoc-idot11adhocmanager-createnetwork
+        - name: "GetIEnumDot11AdHocInterfaces Method"
+          href: /windows/win32/api/adhoc/nf-adhoc-idot11adhocmanager-getienumdot11adhocinterfaces
+        - name: "GetIEnumDot11AdHocNetworks Method"
+          href: /windows/win32/api/adhoc/nf-adhoc-idot11adhocmanager-getienumdot11adhocnetworks
+        - name: "GetNetwork Method"
+          href: /windows/win32/api/adhoc/nf-adhoc-idot11adhocmanager-getnetwork
+      - name: "IDot11AdHocManagerNotificationSink"
+        href: /windows/win32/api/adhoc/nn-adhoc-idot11adhocmanagernotificationsink
+        items: 
+        - name: "OnInterfaceAdd Method"
+          href: /windows/win32/api/adhoc/nf-adhoc-idot11adhocmanagernotificationsink-oninterfaceadd
+        - name: "OnInterfaceRemove Method"
+          href: /windows/win32/api/adhoc/nf-adhoc-idot11adhocmanagernotificationsink-oninterfaceremove
+        - name: "OnNetworkAdd Method"
+          href: /windows/win32/api/adhoc/nf-adhoc-idot11adhocmanagernotificationsink-onnetworkadd
+        - name: "OnNetworkRemove Method"
+          href: /windows/win32/api/adhoc/nf-adhoc-idot11adhocmanagernotificationsink-onnetworkremove
+      - name: "IDot11AdHocNetwork"
+        href: /windows/win32/api/adhoc/nn-adhoc-idot11adhocnetwork
+        items: 
+        - name: "Connect Method"
+          href: /windows/win32/api/adhoc/nf-adhoc-idot11adhocnetwork-connect
+        - name: "DeleteProfile Method"
+          href: /windows/win32/api/adhoc/nf-adhoc-idot11adhocnetwork-deleteprofile
+        - name: "Disconnect Method"
+          href: /windows/win32/api/adhoc/nf-adhoc-idot11adhocnetwork-disconnect
+        - name: "GetContextGuid Method"
+          href: /windows/win32/api/adhoc/nf-adhoc-idot11adhocnetwork-getcontextguid
+        - name: "GetInterface Method"
+          href: /windows/win32/api/adhoc/nf-adhoc-idot11adhocnetwork-getinterface
+        - name: "GetProfileName Method"
+          href: /windows/win32/api/adhoc/nf-adhoc-idot11adhocnetwork-getprofilename
+        - name: "GetSecuritySetting Method"
+          href: /windows/win32/api/adhoc/nf-adhoc-idot11adhocnetwork-getsecuritysetting
+        - name: "GetSignalQuality Method"
+          href: /windows/win32/api/adhoc/nf-adhoc-idot11adhocnetwork-getsignalquality
+        - name: "GetSignature Method"
+          href: /windows/win32/api/adhoc/nf-adhoc-idot11adhocnetwork-getsignature
+        - name: "GetSSID Method"
+          href: /windows/win32/api/adhoc/nf-adhoc-idot11adhocnetwork-getssid
+        - name: "GetStatus Method"
+          href: /windows/win32/api/adhoc/nf-adhoc-idot11adhocnetwork-getstatus
+        - name: "HasProfile Method"
+          href: /windows/win32/api/adhoc/nf-adhoc-idot11adhocnetwork-hasprofile
+      - name: "IDot11AdHocNetworkNotificationSink"
+        href: /windows/win32/api/adhoc/nn-adhoc-idot11adhocnetworknotificationsink
+        items: 
+        - name: "OnConnectFail Method"
+          href: /windows/win32/api/adhoc/nf-adhoc-idot11adhocnetworknotificationsink-onconnectfail
+        - name: "OnStatusChange Method"
+          href: /windows/win32/api/adhoc/nf-adhoc-idot11adhocnetworknotificationsink-onstatuschange
+      - name: "IDot11AdHocSecuritySettings"
+        href: /windows/win32/api/adhoc/nn-adhoc-idot11adhocsecuritysettings
+        items: 
+        - name: "GetDot11AuthAlgorithm Method"
+          href: /windows/win32/api/adhoc/nf-adhoc-idot11adhocsecuritysettings-getdot11authalgorithm
+        - name: "GetDot11CipherAlgorithm Method"
+          href: /windows/win32/api/adhoc/nf-adhoc-idot11adhocsecuritysettings-getdot11cipheralgorithm
+      - name: "IEnumDot11AdHocInterfaces"
+        href: /windows/win32/api/adhoc/nn-adhoc-ienumdot11adhocinterfaces
+        items: 
+        - name: "Clone Method"
+          href: /windows/win32/api/adhoc/nf-adhoc-ienumdot11adhocinterfaces-clone
+        - name: "Next Method"
+          href: /windows/win32/api/adhoc/nf-adhoc-ienumdot11adhocinterfaces-next
+        - name: "Reset Method"
+          href: /windows/win32/api/adhoc/nf-adhoc-ienumdot11adhocinterfaces-reset
+        - name: "Skip Method"
+          href: /windows/win32/api/adhoc/nf-adhoc-ienumdot11adhocinterfaces-skip
+      - name: "IEnumDot11AdHocNetworks"
+        href: /windows/win32/api/adhoc/nn-adhoc-ienumdot11adhocnetworks
+        items: 
+        - name: "Clone Method"
+          href: /windows/win32/api/adhoc/nf-adhoc-ienumdot11adhocnetworks-clone
+        - name: "Next Method"
+          href: /windows/win32/api/adhoc/nf-adhoc-ienumdot11adhocnetworks-next
+        - name: "Reset Method"
+          href: /windows/win32/api/adhoc/nf-adhoc-ienumdot11adhocnetworks-reset
+        - name: "Skip Method"
+          href: /windows/win32/api/adhoc/nf-adhoc-ienumdot11adhocnetworks-skip
+      - name: "IEnumDot11AdHocSecuritySettings"
+        href: /windows/win32/api/adhoc/nn-adhoc-ienumdot11adhocsecuritysettings
+        items: 
+        - name: "Clone Method"
+          href: /windows/win32/api/adhoc/nf-adhoc-ienumdot11adhocsecuritysettings-clone
+        - name: "Next Method"
+          href: /windows/win32/api/adhoc/nf-adhoc-ienumdot11adhocsecuritysettings-next
+        - name: "Reset Method"
+          href: /windows/win32/api/adhoc/nf-adhoc-ienumdot11adhocsecuritysettings-reset
+        - name: "Skip Method"
+          href: /windows/win32/api/adhoc/nf-adhoc-ienumdot11adhocsecuritysettings-skip
+  - name: "Wireless Zero Configuration Reference"
+    href: wireless-zero-configuration-reference.md
+    items: 
+    - name: "Wireless Zero Configuration Functions"
+      href: wireless-zero-configuration-functions.md
+      items: 
+      - name: "WZCEapolGetInterfaceParams"
+        href: wzceapolgetinterfaceparams.md
+      - name: "WZCEnumInterfaces"
+        href: wzcenuminterfaces.md
+      - name: "WZCQueryInterface"
+        href: wzcqueryinterface.md
+      - name: "WZCRefreshInterface"
+        href: wzcrefreshinterface.md
+    - name: "Wireless Zero Configuration Structures"
+      href: wireless-zero-configuration-structures.md
+      items: 
+      - name: "EAPOL_INTF_PARAMS"
+        href: eapol-intf-params.md
+      - name: "INTF_ENTRY"
+        href: intf-entry.md
+      - name: "INTF_KEY_ENTRY"
+        href: intf-key-entry.md
+      - name: "INTFS_KEY_TABLE"
+        href: intfs-key-table.md

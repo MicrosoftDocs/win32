@@ -1,0 +1,181 @@
+- name: "Windows 7 and Windows Server 2008 R2 Application Quality Cookbook"
+  href: windows-7-application-quality-cookbook.md
+  items: 
+  - name: "Compatibility"
+    href: compatibility.md
+    items: 
+    - name: "General Compatibility"
+      href: general-compatibility.md
+      items: 
+      - name: "512-byte Emulation (512e) Disk Compatibility Update"
+        href: 512-byte-emulation--512e--disk-compatibility-update.md
+      - name: "Operating System Versioning"
+        href: operating-system-versioning.md
+      - name: "Removal of Windows Mail"
+        href: removal-of-windows-mail.md
+      - name: "Removal of Windows Movie Maker"
+        href: removal-of-windows-movie-maker.md
+      - name: "NLS Sorting Changes"
+        href: nls-sorting-changes.md
+      - name: "Internet Explorer 8 - User Agent String"
+        href: internet-explorer-8---user-agent-string.md
+      - name: "Additional Windows Resource Protection on Registry Keys"
+        href: additional-windows-resource-protection-on-registry-keys.md
+      - name: "Removal of Microsoft Agent"
+        href: removal-of-microsoft-agent.md
+      - name: "Using .NET Framework 4 with Applications Built on Earlier Versions"
+        href: using--net-framework-4-with-applications-built-on-earlier-versions.md
+      - name: "AppInit_DLLs in Windows 7 and Windows Server 2008 R2"
+        href: appinit-dlls-in-windows-7-and-windows-server-2008-r2.md
+      - name: "Removal of Windows Registry Reflection"
+        href: removal-of-windows-registry-reflection.md
+      - name: "Removal of WPDUSB.SYS Driver for Windows Portable Devices"
+        href: removal-of-wpdusb-sys-driver-for-windows-portable-devices.md
+      - name: "Microsoft Message Queuing (MSMQ) - SHA 2 Is the Default Hash Algorithm"
+        href: microsoft-message-queuing--msmq----sha-2-is-the-default-hash-algorithm.md
+    - name: "Addressing Application Compatibility When Migrating to Internet Explorer 8"
+      href: addressing-application-compatibility-when-migrating-to-internet-explorer-8.md
+      items: 
+      - name: "Introduction"
+        href: introduction.md
+      - name: "Understanding the Application Compatibility Challenge"
+        href: understanding-the-application-compatibility-challenge.md
+      - name: "Web Standards and Application Compatibility"
+        href: web-standards-and-application-compatibility.md
+      - name: "Design Updates that Impact Compatibility between Browsers"
+        href: design-updates-that-impact-compatibility-between-browsers.md
+        items: 
+        - name: "Versioning"
+          href: versioning.md
+        - name: "Standards"
+          href: standards.md
+        - name: "Security"
+          href: security.md
+        - name: "Architecture"
+          href: architecture.md
+      - name: "Fixing Compatibility Issues in Web Applications and Add-Ons"
+        href: remediating-web-applications-and-add-ons.md
+        items: 
+        - name: "Fixing Compatibility Issues in Web Applications by Using Compatibility View"
+          href: remediating-web-applications-with-compatibility-view.md
+          items: 
+          - name: "What Is Compatibility View?"
+            href: what-is-compatibility-view-.md
+          - name: "Why Do You Need Compatibility View?"
+            href: why-do-you-need-compatibility-view-.md
+          - name: "Use the Meta Tag to Ensure Future Compatibility"
+            href: use-the-meta-tag-to-ensure-future-compatibility.md
+        - name: "Fixing ActiveX Installation Compatibility Issues for Standard Users"
+          href: remediating-activex-installation-for-standard-users.md
+        - name: "Rendering and Layout Changes"
+          href: rendering-and-layout-changes.md
+        - name: "Version Vectors"
+          href: version-vectors.md
+        - name: "User Agent String"
+          href: user-agent-string.md
+        - name: "DEP/NX Protection"
+          href: dep-nx-protection.md
+        - name: "Compatibility"
+          href: remediating-compatibility.md
+        - name: "AJAX"
+          href: ajax.md
+        - name: "Protected Mode"
+          href: protected-mode.md
+        - name: "JavaScript Object Notation (JSON)"
+          href: javascript-object-notation--json-.md
+      - name: "Tools for Debugging Web Applications and Add-Ons"
+        href: tools-for-debugging-web-applications-and-add-ons.md
+        items: 
+        - name: "Microsoft Expression Web SuperPreview"
+          href: microsoft-expression-web-superpreview.md
+        - name: "Internet Explorer Compatibility Test Tool (IECTT)"
+          href: inernet-explorer-compatibility-test-tool--iectt-.md
+        - name: "Internet Explorer 8 Developer Tools"
+          href: internet-explorer-8-developer-tools.md
+        - name: "Internet Explorer 8 Compatibility Wizard (Aggiorno)"
+          href: inernet-explorer-8-compatibility-wizard--aggiorno-.md
+        - name: "Fiddler Web Debugger Tool"
+          href: fiddler-web-debugger-tool.md
+        - name: "Application Compatibility Testing Using Virtual PC Images"
+          href: application-compatibility-testing-using-virtual-pc-images.md
+      - name: "Appendix 1: Internet Explorer 6 to Internet Explorer 8 browser changes"
+        href: appendix-1--internet-explorer-6-to-internet-explorer-8-browser-changes.md
+      - name: "Appendix 2: Test Script Scenarios"
+        href: appendix-2--test-script-scenarios.md
+    - name: "Windows Server 2008 R2 Compatibility"
+      href: windows-server-2008-r2-compatibility.md
+      items: 
+      - name: "File Replication Service (FRS) Is Deprecated in Windows Server 2008 R2"
+        href: file-replication-service--frs--is-deprecated-in-windows-server-2008-r2.md
+      - name: "Microsoft Message Queuing (MSMQ) - Removal of Windows 2000 Client Support Service"
+        href: microsoft-message-queuing--msmq----removal-of-windows-2000-client-support-ser.md
+      - name: "New Low-Level Binaries"
+        href: new-low-level-binaries.md
+      - name: "Removal of UDDI Services from Server OS"
+        href: removal-of-uddi-services-from-server-os.md
+      - name: "64-Bit Only"
+        href: 64-bit-only.md
+      - name: "WoW64 Is Now an Optional Feature for Server Core"
+        href: wow64-is-now-an-optional-feature-for-server-core.md
+      - name: "Subset of .Net 2.0 Now on Server Core"
+        href: subset-of--net-2-0-now-on-server-core.md
+      - name: ".Net 3.0 and 3.5 Now on Server Core"
+        href: -net-3-0-and-3-5-now-on-server-core.md
+  - name: "New Features and Enhancements"
+    href: new-features-and-enhancements.md
+    items: 
+    - name: "File Library Replaces Document Folder"
+      href: file-library-replaces-document-folder.md
+    - name: "User Interface - High DPI Awareness"
+      href: user-interface---high-dpi-awareness.md
+    - name: "Fault Tolerant Heap"
+      href: fault-tolerant-heap.md
+    - name: "Internet Explorer 8 - Data Execution Protection/NX"
+      href: internet-explorer-8---data-execution-protection-nx.md
+    - name: "Dynamic Memory"
+      href: dynamic-memory.md
+    - name: "User Interface - User Account Control Dialog Updates"
+      href: user-interface---user-account-control-dialog-updates.md
+    - name: "ChooseFont() Win32 Common Dialog"
+      href: choosefont-win32-common-dialog.md
+    - name: "Application Manifest"
+      href: compatibility---application-manifest.md
+    - name: "Server Hyper-V"
+      href: server-hyper-v.md
+    - name: "Enable Windows 7 Support for Intel AVX"
+      href: enable-windows-7-support-for-intel-avx.md
+    - name: "Microsoft Message Queuing (MSMQ) - Improved Queue Handling"
+      href: microsoft-message-queuing--msmq----improved-queue-handling.md
+    - name: "Remote Desktop Services"
+      href: terminal-services.md
+  - name: "Tools, Best Practices, and Guidance"
+    href: tools--resources--and-guidance.md
+    items: 
+    - name: "Application Compatibility Toolkit (ACT)"
+      href: application-compatibility-toolkit--act-.md
+    - name: "Compatibility Administrator"
+      href: compatibility-administrator.md
+    - name: "Standard User Analyzer (SUA) Tool and Standard User Analyzer Wizard (SUA Wizard)"
+      href: standard-user-analyzer--sua--tool-and-standard-user-analyzer-wizard--sua-wizard-.md
+    - name: "Application Verifier"
+      href: application-verifier.md
+    - name: "Best Practices for On/Off Performance"
+      href: best-practices-for-on-off-performance.md
+    - name: "Preventing Memory Leaks in Windows Applications"
+      href: preventing-memory-leaks-in-windows-applications.md
+    - name: "Preventing Hangs in Windows Applications"
+      href: preventing-hangs-in-windows-applications.md
+    - name: "Deployment Image Servicing and Management (DISM)"
+      href: dism-replaces-pkgmgr-peimg-and-intlconfg-tools.md
+    - name: "Windows Troubleshooting"
+      href: compatibility---windows-troubleshooting.md
+    - name: "Windows Error Reporting Problem Steps Recorder"
+      href: windows-error-reporting-problem-steps-recorder.md
+    - name: "Best Practices for Energy Efficiency"
+      href: energy-efficiency-best-practices.md
+    - name: "Best Practices for Minimizing Unresponsive Services"
+      href: performance-improvement---minimizing-unresponsive-services.md
+    - name: "Windows 7 Client Software Logo Program"
+      href: certification-for-windows-7-and-windows-server-2008-r2-applications.md
+    - name: "Windows Server 2008 R2 Logo Program for Software"
+      href: windows-server-2008-r2-logo-program-for-software.md

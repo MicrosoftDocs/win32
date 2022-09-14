@@ -1,0 +1,3024 @@
+- name: "Windows Property System"
+  href: windows-properties-system.md
+  items: 
+  - name: "Property System Overview"
+    href: property-system-overview.md
+  - name: "Property System Developer's Guide"
+    href: property-system-developer-s-guide.md
+    items: 
+    - name: "Creating Custom Properties"
+      href: building-property-handlers-property-schemas.md
+      items: 
+      - name: "Understanding the Property Description Schema"
+        href: propdesc-schema-entry.md
+    - name: "Implementing Property Handlers"
+      href: building-property-handlers.md
+      items: 
+      - name: "Understanding Property Handlers"
+        href: building-property-handlers-properties.md
+      - name: "Using Kind Names"
+        href: building-property-handlers-user-friendly-kind-names.md
+      - name: "Using Property Lists"
+        href: building-property-handlers-property-lists.md
+      - name: "Initializing Property Handlers"
+        href: building-property-handlers-property-handlers.md
+      - name: "Registering and Distributing Property Handlers"
+        href: prophand-reg-dist.md
+      - name: "Property Handler Best Practices and FAQ"
+        href: prophand-bestprac-faq.yml
+  - name: "Property System Reference"
+    href: property-system-reference.md
+    items: 
+    - name: "Windows Properties"
+      href: props.md
+      items: 
+      - name: "Audio"
+        href: audio-bumper.md
+        items: 
+        - name: "System.Audio.ChannelCount"
+          href: props-system-audio-channelcount.md
+        - name: "System.Audio.Compression"
+          href: props-system-audio-compression.md
+        - name: "System.Audio.EncodingBitrate"
+          href: props-system-audio-encodingbitrate.md
+        - name: "System.Audio.Format"
+          href: props-system-audio-format.md
+        - name: "System.Audio.IsVariableBitRate"
+          href: props-system-audio-isvariablebitrate.md
+        - name: "System.Audio.PeakValue"
+          href: props-system-audio-peakvalue.md
+        - name: "System.Audio.SampleRate"
+          href: props-system-audio-samplerate.md
+        - name: "System.Audio.SampleSize"
+          href: props-system-audio-samplesize.md
+        - name: "System.Audio.StreamName"
+          href: props-system-audio-streamname.md
+        - name: "System.Audio.StreamNumber"
+          href: props-system-audio-streamnumber.md
+      - name: "Calendar"
+        href: calendar-bumper.md
+        items: 
+        - name: "System.Calendar.Duration"
+          href: props-system-calendar-duration.md
+        - name: "System.Calendar.IsOnline"
+          href: props-system-calendar-isonline.md
+        - name: "System.Calendar.IsRecurring"
+          href: props-system-calendar-isrecurring.md
+        - name: "System.Calendar.Location"
+          href: props-system-calendar-location.md
+        - name: "System.Calendar.OptionalAttendeeAddresses"
+          href: props-system-calendar-optionalattendeeaddresses.md
+        - name: "System.Calendar.OptionalAttendeeNames"
+          href: props-system-calendar-optionalattendeenames.md
+        - name: "System.Calendar.OrganizerAddress"
+          href: props-system-calendar-organizeraddress.md
+        - name: "System.Calendar.OrganizerName"
+          href: props-system-calendar-organizername.md
+        - name: "System.Calendar.ReminderTime"
+          href: props-system-calendar-remindertime.md
+        - name: "System.Calendar.RequiredAttendeeAddresses"
+          href: props-system-calendar-requiredattendeeaddresses.md
+        - name: "System.Calendar.RequiredAttendeeNames"
+          href: props-system-calendar-requiredattendeenames.md
+        - name: "System.Calendar.Resources"
+          href: props-system-calendar-resources.md
+        - name: "System.Calendar.ResponseStatus"
+          href: props-system-calendar-responsestatus.md
+        - name: "System.Calendar.ShowTimeAs"
+          href: props-system-calendar-showtimeas.md
+        - name: "System.Calendar.ShowTimeAsText"
+          href: props-system-calendar-showtimeastext.md
+      - name: "Communication"
+        href: communication-bumper.md
+        items: 
+        - name: "System.Communication.AccountName"
+          href: props-system-communication-accountname.md
+        - name: "System.Communication.DateItemExpires"
+          href: props-system-communication-dateitemexpires.md
+        - name: "System.Communication.Direction"
+          href: props-system-communication-direction.md
+        - name: "System.Communication.FollowupIconIndex"
+          href: props-system-communication-followupiconindex.md
+        - name: "System.Communication.HeaderItem"
+          href: props-system-communication-headeritem.md
+        - name: "System.Communication.PolicyTag"
+          href: props-system-communication-policytag.md
+        - name: "System.Communication.SecurityFlags"
+          href: props-system-communication-securityflags.md
+        - name: "System.Communication.Suffix"
+          href: props-system-communication-suffix.md
+        - name: "System.Communication.TaskStatus"
+          href: props-system-communication-taskstatus.md
+        - name: "System.Communication.TaskStatusText"
+          href: props-system-communication-taskstatustext.md
+      - name: "Computer"
+        href: computer-bumper.md
+        items: 
+        - name: "System.Computer.DecoratedFreeSpace"
+          href: props-system-computer-decoratedfreespace.md
+      - name: "Contact"
+        href: contact-bumper.md
+        items: 
+        - name: "System.Contact.AccountPictureDynamicVideo"
+          href: props-system-contact-accountpicturedynamicvideo.md
+        - name: "System.Contact.AccountPictureLarge"
+          href: props-system-contact-accountpicturelarge.md
+        - name: "System.Contact.AccountPictureSmall"
+          href: props-system-contact-accountpicturesmall.md
+        - name: "System.Contact.Anniversary"
+          href: props-system-contact-anniversary.md
+        - name: "System.Contact.AssistantName"
+          href: props-system-contact-assistantname.md
+        - name: "System.Contact.AssistantTelephone"
+          href: props-system-contact-assistanttelephone.md
+        - name: "System.Contact.Birthday"
+          href: props-system-contact-birthday.md
+        - name: "System.Contact.BusinessAddress"
+          href: props-system-contact-businessaddress.md
+        - name: "System.Contact.BusinessAddress1Country"
+          href: props-system-contact-businessaddress1country.md
+        - name: "System.Contact.BusinessAddress1Locality"
+          href: props-system-contact-businessaddress1locality.md
+        - name: "System.Contact.BusinessAddress1PostalCode"
+          href: props-system-contact-businessaddress1postalcode.md
+        - name: "System.Contact.BusinessAddress1Region"
+          href: props-system-contact-businessaddress1region.md
+        - name: "System.Contact.BusinessAddress1Street"
+          href: props-system-contact-businessaddress1street.md
+        - name: "System.Contact.BusinessAddress2Country"
+          href: props-system-contact-businessaddress2country.md
+        - name: "System.Contact.BusinessAddress2Locality"
+          href: props-system-contact-businessaddress2locality.md
+        - name: "System.Contact.BusinessAddress2PostalCode"
+          href: props-system-contact-businessaddress2postalcode.md
+        - name: "System.Contact.BusinessAddress2Region"
+          href: props-system-contact-businessaddress2region.md
+        - name: "System.Contact.BusinessAddress2Street"
+          href: props-system-contact-businessaddress2street.md
+        - name: "System.Contact.BusinessAddress3Country"
+          href: props-system-contact-businessaddress3country.md
+        - name: "System.Contact.BusinessAddress3Locality"
+          href: props-system-contact-businessaddress3locality.md
+        - name: "System.Contact.BusinessAddress3PostalCode"
+          href: props-system-contact-businessaddress3postalcode.md
+        - name: "System.Contact.BusinessAddress3Region"
+          href: props-system-contact-businessaddress3region.md
+        - name: "System.Contact.BusinessAddress3Street"
+          href: props-system-contact-businessaddress3street.md
+        - name: "System.Contact.BusinessAddressCity"
+          href: props-system-contact-businessaddresscity.md
+        - name: "System.Contact.BusinessAddressCountry"
+          href: props-system-contact-businessaddresscountry.md
+        - name: "System.Contact.BusinessAddressPostalCode"
+          href: props-system-contact-businessaddresspostalcode.md
+        - name: "System.Contact.BusinessAddressPostOfficeBox"
+          href: props-system-contact-businessaddresspostofficebox.md
+        - name: "System.Contact.BusinessAddressState"
+          href: props-system-contact-businessaddressstate.md
+        - name: "System.Contact.BusinessAddressStreet"
+          href: props-system-contact-businessaddressstreet.md
+        - name: "System.Contact.BusinessEmailAddresses"
+          href: props-system-contact-businessemailaddresses.md
+        - name: "System.Contact.BusinessFaxNumber"
+          href: props-system-contact-businessfaxnumber.md
+        - name: "System.Contact.BusinessHomePage"
+          href: props-system-contact-businesshomepage.md
+        - name: "System.Contact.BusinessTelephone"
+          href: props-system-contact-businesstelephone.md
+        - name: "System.Contact.CallbackTelephone"
+          href: props-system-contact-callbacktelephone.md
+        - name: "System.Contact.CarTelephone"
+          href: props-system-contact-cartelephone.md
+        - name: "System.Contact.Children"
+          href: props-system-contact-children.md
+        - name: "System.Contact.CompanyMainTelephone"
+          href: props-system-contact-companymaintelephone.md
+        - name: "System.Contact.ConnectedServiceDisplayName"
+          href: props-system-contact-connectedservicedisplayname.md
+        - name: "System.Contact.ConnectedServiceIdentities"
+          href: props-system-contact-connectedserviceidentities.md
+        - name: "System.Contact.ConnectedServiceName"
+          href: props-system-contact-connectedservicename.md
+        - name: "System.Contact.ConnectedServiceSupportedActions"
+          href: props-system-contact-connectedservicesupportedactions.md
+        - name: "System.Contact.DataSuppliers"
+          href: props-system-contact-datasuppliers.md
+        - name: "System.Contact.Department"
+          href: props-system-contact-department.md
+        - name: "System.Contact.DisplayBusinessPhoneNumbers"
+          href: props-system-contact-displaybusinessphonenumbers.md
+        - name: "System.Contact.DisplayHomePhoneNumbers"
+          href: props-system-contact-displayhomephonenumbers.md
+        - name: "System.Contact.DisplayMobilePhoneNumbers"
+          href: props-system-contact-displaymobilephonenumbers.md
+        - name: "System.Contact.DisplayOtherPhoneNumbers"
+          href: props-system-contact-displayotherphonenumbers.md
+        - name: "System.Contact.EmailAddress"
+          href: props-system-contact-emailaddress.md
+        - name: "System.Contact.EmailAddress2"
+          href: props-system-contact-emailaddress2.md
+        - name: "System.Contact.EmailAddress3"
+          href: props-system-contact-emailaddress3.md
+        - name: "System.Contact.EmailAddresses"
+          href: props-system-contact-emailaddresses.md
+        - name: "System.Contact.EmailName"
+          href: props-system-contact-emailname.md
+        - name: "System.Contact.FileAsName"
+          href: props-system-contact-fileasname.md
+        - name: "System.Contact.FirstName"
+          href: props-system-contact-firstname.md
+        - name: "System.Contact.FullName"
+          href: props-system-contact-fullname.md
+        - name: "System.Contact.Gender"
+          href: props-system-contact-gender.md
+        - name: "System.Contact.GenderValue"
+          href: props-system-contact-gendervalue.md
+        - name: "System.Contact.Hobbies"
+          href: props-system-contact-hobbies.md
+        - name: "System.Contact.HomeAddress"
+          href: props-system-contact-homeaddress.md
+        - name: "System.Contact.HomeAddress1Country"
+          href: props-system-contact-homeaddress1country.md
+        - name: "System.Contact.HomeAddress1Locality"
+          href: props-system-contact-homeaddress1locality.md
+        - name: "System.Contact.HomeAddress1PostalCode"
+          href: props-system-contact-homeaddress1postalcode.md
+        - name: "System.Contact.HomeAddress1Region"
+          href: props-system-contact-homeaddress1region.md
+        - name: "System.Contact.HomeAddress1Street"
+          href: props-system-contact-homeaddress1street.md
+        - name: "System.Contact.HomeAddress2Country"
+          href: props-system-contact-homeaddress2country.md
+        - name: "System.Contact.HomeAddress2Locality"
+          href: props-system-contact-homeaddress2locality.md
+        - name: "System.Contact.HomeAddress2PostalCode"
+          href: props-system-contact-homeaddress2postalcode.md
+        - name: "System.Contact.HomeAddress2Region"
+          href: props-system-contact-homeaddress2region.md
+        - name: "System.Contact.HomeAddress2Street"
+          href: props-system-contact-homeaddress2street.md
+        - name: "System.Contact.HomeAddress3Country"
+          href: props-system-contact-homeaddress3country.md
+        - name: "System.Contact.HomeAddress3Locality"
+          href: props-system-contact-homeaddress3locality.md
+        - name: "System.Contact.HomeAddress3PostalCode"
+          href: props-system-contact-homeaddress3postalcode.md
+        - name: "System.Contact.HomeAddress3Region"
+          href: props-system-contact-homeaddress3region.md
+        - name: "System.Contact.HomeAddress3Street"
+          href: props-system-contact-homeaddress3street.md
+        - name: "System.Contact.HomeAddressCity"
+          href: props-system-contact-homeaddresscity.md
+        - name: "System.Contact.HomeAddressCountry"
+          href: props-system-contact-homeaddresscountry.md
+        - name: "System.Contact.HomeAddressPostalCode"
+          href: props-system-contact-homeaddresspostalcode.md
+        - name: "System.Contact.HomeAddressPostOfficeBox"
+          href: props-system-contact-homeaddresspostofficebox.md
+        - name: "System.Contact.HomeAddressState"
+          href: props-system-contact-homeaddressstate.md
+        - name: "System.Contact.HomeAddressStreet"
+          href: props-system-contact-homeaddressstreet.md
+        - name: "System.Contact.HomeEmailAddresses"
+          href: props-system-contact-homeemailaddresses.md
+        - name: "System.Contact.HomeFaxNumber"
+          href: props-system-contact-homefaxnumber.md
+        - name: "System.Contact.HomeTelephone"
+          href: props-system-contact-hometelephone.md
+        - name: "System.Contact.IMAddress"
+          href: props-system-contact-imaddress.md
+        - name: "System.Contact.Initials"
+          href: props-system-contact-initials.md
+        - name: "System.Contact.JA.CompanyNamePhonetic"
+          href: props-system-contact-ja-companynamephonetic.md
+        - name: "System.Contact.JA.FirstNamePhonetic"
+          href: props-system-contact-ja-firstnamephonetic.md
+        - name: "System.Contact.JA.LastNamePhonetic"
+          href: props-system-contact-ja-lastnamephonetic.md
+        - name: "System.Contact.JobInfo1CompanyAddress"
+          href: props-system-contact-jobinfo1companyaddress.md
+        - name: "System.Contact.JobInfo1CompanyName"
+          href: props-system-contact-jobinfo1companyname.md
+        - name: "System.Contact.JobInfo1Department"
+          href: props-system-contact-jobinfo1department.md
+        - name: "System.Contact.JobInfo1Manager"
+          href: props-system-contact-jobinfo1manager.md
+        - name: "System.Contact.JobInfo1OfficeLocation"
+          href: props-system-contact-jobinfo1officelocation.md
+        - name: "System.Contact.JobInfo1Title"
+          href: props-system-contact-jobinfo1title.md
+        - name: "System.Contact.JobInfo1YomiCompanyName"
+          href: props-system-contact-jobinfo1yomicompanyname.md
+        - name: "System.Contact.JobInfo2CompanyAddress"
+          href: props-system-contact-jobinfo2companyaddress.md
+        - name: "System.Contact.JobInfo2CompanyName"
+          href: props-system-contact-jobinfo2companyname.md
+        - name: "System.Contact.JobInfo2Department"
+          href: props-system-contact-jobinfo2department.md
+        - name: "System.Contact.JobInfo2Manager"
+          href: props-system-contact-jobinfo2manager.md
+        - name: "System.Contact.JobInfo2OfficeLocation"
+          href: props-system-contact-jobinfo2officelocation.md
+        - name: "System.Contact.JobInfo2Title"
+          href: props-system-contact-jobinfo2title.md
+        - name: "System.Contact.JobInfo2YomiCompanyName"
+          href: props-system-contact-jobinfo2yomicompanyname.md
+        - name: "System.Contact.JobInfo3CompanyAddress"
+          href: props-system-contact-jobinfo3companyaddress.md
+        - name: "System.Contact.JobInfo3CompanyName"
+          href: props-system-contact-jobinfo3companyname.md
+        - name: "System.Contact.JobInfo3Department"
+          href: props-system-contact-jobinfo3department.md
+        - name: "System.Contact.JobInfo3Manager"
+          href: props-system-contact-jobinfo3manager.md
+        - name: "System.Contact.JobInfo3OfficeLocation"
+          href: props-system-contact-jobinfo3officelocation.md
+        - name: "System.Contact.JobInfo3Title"
+          href: props-system-contact-jobinfo3title.md
+        - name: "System.Contact.JobInfo3YomiCompanyName"
+          href: props-system-contact-jobinfo3yomicompanyname.md
+        - name: "System.Contact.JobTitle"
+          href: props-system-contact-jobtitle.md
+        - name: "System.Contact.Label"
+          href: props-system-contact-label.md
+        - name: "System.Contact.LastName"
+          href: props-system-contact-lastname.md
+        - name: "System.Contact.MailingAddress"
+          href: props-system-contact-mailingaddress.md
+        - name: "System.Contact.MiddleName"
+          href: props-system-contact-middlename.md
+        - name: "System.Contact.MobileTelephone"
+          href: props-system-contact-mobiletelephone.md
+        - name: "System.Contact.NickName"
+          href: props-system-contact-nickname.md
+        - name: "System.Contact.OfficeLocation"
+          href: props-system-contact-officelocation.md
+        - name: "System.Contact.OtherAddress"
+          href: props-system-contact-otheraddress.md
+        - name: "System.Contact.OtherAddress1Country"
+          href: props-system-contact-otheraddress1country.md
+        - name: "System.Contact.OtherAddress1Locality"
+          href: props-system-contact-otheraddress1locality.md
+        - name: "System.Contact.OtherAddress1PostalCode"
+          href: props-system-contact-otheraddress1postalcode.md
+        - name: "System.Contact.OtherAddress1Region"
+          href: props-system-contact-otheraddress1region.md
+        - name: "System.Contact.OtherAddress1Street"
+          href: props-system-contact-otheraddress1street.md
+        - name: "System.Contact.OtherAddress2Country"
+          href: props-system-contact-otheraddress2country.md
+        - name: "System.Contact.OtherAddress2Locality"
+          href: props-system-contact-otheraddress2locality.md
+        - name: "System.Contact.OtherAddress2PostalCode"
+          href: props-system-contact-otheraddress2postalcode.md
+        - name: "System.Contact.OtherAddress2Region"
+          href: props-system-contact-otheraddress2region.md
+        - name: "System.Contact.OtherAddress2Street"
+          href: props-system-contact-otheraddress2street.md
+        - name: "System.Contact.OtherAddress3Country"
+          href: props-system-contact-otheraddress3country.md
+        - name: "System.Contact.OtherAddress3Locality"
+          href: props-system-contact-otheraddress3locality.md
+        - name: "System.Contact.OtherAddress3PostalCode"
+          href: props-system-contact-otheraddress3postalcode.md
+        - name: "System.Contact.OtherAddress3Region"
+          href: props-system-contact-otheraddress3region.md
+        - name: "System.Contact.OtherAddress3Street"
+          href: props-system-contact-otheraddress3street.md
+        - name: "System.Contact.OtherAddressCity"
+          href: props-system-contact-otheraddresscity.md
+        - name: "System.Contact.OtherAddressCountry"
+          href: props-system-contact-otheraddresscountry.md
+        - name: "System.Contact.OtherAddressPostalCode"
+          href: props-system-contact-otheraddresspostalcode.md
+        - name: "System.Contact.OtherAddressPostOfficeBox"
+          href: props-system-contact-otheraddresspostofficebox.md
+        - name: "System.Contact.OtherAddressState"
+          href: props-system-contact-otheraddressstate.md
+        - name: "System.Contact.OtherAddressStreet"
+          href: props-system-contact-otheraddressstreet.md
+        - name: "System.Contact.OtherEmailAddresses"
+          href: props-system-contact-otheremailaddresses.md
+        - name: "System.Contact.PagerTelephone"
+          href: props-system-contact-pagertelephone.md
+        - name: "System.Contact.PersonalTitle"
+          href: props-system-contact-personaltitle.md
+        - name: "System.Contact.PhoneNumbersCanonical"
+          href: props-system-contact-phonenumberscanonical.md
+        - name: "System.Contact.Prefix"
+          href: props-system-contact-prefix.md
+        - name: "System.Contact.PrimaryAddressCity"
+          href: props-system-contact-primaryaddresscity.md
+        - name: "System.Contact.PrimaryAddressCountry"
+          href: props-system-contact-primaryaddresscountry.md
+        - name: "System.Contact.PrimaryAddressPostalCode"
+          href: props-system-contact-primaryaddresspostalcode.md
+        - name: "System.Contact.PrimaryAddressPostOfficeBox"
+          href: props-system-contact-primaryaddresspostofficebox.md
+        - name: "System.Contact.PrimaryAddressState"
+          href: props-system-contact-primaryaddressstate.md
+        - name: "System.Contact.PrimaryAddressStreet"
+          href: props-system-contact-primaryaddressstreet.md
+        - name: "System.Contact.PrimaryEmailAddress"
+          href: props-system-contact-primaryemailaddress.md
+        - name: "System.Contact.PrimaryTelephone"
+          href: props-system-contact-primarytelephone.md
+        - name: "System.Contact.Profession"
+          href: props-system-contact-profession.md
+        - name: "System.Contact.SpouseName"
+          href: props-system-contact-spousename.md
+        - name: "System.Contact.Suffix"
+          href: props-system-contact-suffix.md
+        - name: "System.Contact.TelexNumber"
+          href: props-system-contact-telexnumber.md
+        - name: "System.Contact.TTYTDDTelephone"
+          href: props-system-contact-ttytddtelephone.md
+        - name: "System.Contact.WebPage"
+          href: props-system-contact-webpage.md
+        - name: "System.Contact.Webpage2"
+          href: props-system-contact-webpage2.md
+        - name: "System.Contact.Webpage3"
+          href: props-system-contact-webpage3.md
+      - name: "Core"
+        href: core-bumper.md
+        items: 
+        - name: "System.AcquisitionID"
+          href: props-system-acquisitionid.md
+        - name: "System.ApplicationDefinedProperties"
+          href: props-system-applicationdefinedproperties.md
+        - name: "System.ApplicationName"
+          href: props-system-applicationname.md
+        - name: "System.AppZoneIdentifier"
+          href: props-system-appzoneidentifier.md
+        - name: "System.Author"
+          href: props-system-author.md
+        - name: "System.CachedFileUpdaterContentIdForConflictResolution"
+          href: props-system-cachedfileupdatercontentidforconflictresolution.md
+        - name: "System.CachedFileUpdaterContentIdForStream"
+          href: props-system-cachedfileupdatercontentidforstream.md
+        - name: "System.Capacity"
+          href: props-system-capacity.md
+        - name: "System.Category"
+          href: props-system-category.md
+        - name: "System.Comment"
+          href: props-system-comment.md
+        - name: "System.Company"
+          href: props-system-company.md
+        - name: "System.ComputerName"
+          href: props-system-computername.md
+        - name: "System.ContainedItems"
+          href: props-system-containeditems.md
+        - name: "System.ContentStatus"
+          href: props-system-contentstatus.md
+        - name: "System.ContentType"
+          href: props-system-contenttype.md
+        - name: "System.Copyright"
+          href: props-system-copyright.md
+        - name: "System.CreatorAppId"
+          href: props-system-creatorappid.md
+        - name: "System.CreatorOpenWithUIOptions"
+          href: props-system-creatoropenwithuioptions.md
+        - name: "System.DataObjectFormat"
+          href: props-system-dataobjectformat.md
+        - name: "System.DateAccessed"
+          href: props-system-dateaccessed.md
+        - name: "System.DateAcquired"
+          href: props-system-dateacquired.md
+        - name: "System.DateArchived"
+          href: props-system-datearchived.md
+        - name: "System.DateCompleted"
+          href: props-system-datecompleted.md
+        - name: "System.DateCreated"
+          href: props-system-datecreated.md
+        - name: "System.DateImported"
+          href: props-system-dateimported.md
+        - name: "System.DateModified"
+          href: props-system-datemodified.md
+        - name: "System.DefaultSaveLocationDisplay"
+          href: props-system-defaultsavelocationdisplay.md
+        - name: "System.DueDate"
+          href: props-system-duedate.md
+        - name: "System.EndDate"
+          href: props-system-enddate.md
+        - name: "System.ExpandoProperties"
+          href: props-system-expandoproperties.md
+        - name: "System.FileAllocationSize"
+          href: props-system-fileallocationsize.md
+        - name: "System.FileAttributes"
+          href: props-system-fileattributes.md
+        - name: "System.FileCount"
+          href: props-system-filecount.md
+        - name: "System.FileDescription"
+          href: props-system-filedescription.md
+        - name: "System.FileExtension"
+          href: props-system-fileextension.md
+        - name: "System.FileFRN"
+          href: props-system-filefrn.md
+        - name: "System.FileName"
+          href: props-system-filename.md
+        - name: "System.FileOfflineAvailabilityStatus"
+          href: props-system-fileofflineavailabilitystatus.md
+        - name: "System.FileOwner"
+          href: props-system-fileowner.md
+        - name: "System.FilePlaceholderStatus"
+          href: props-system-fileplaceholderstatus.md
+        - name: "System.FileVersion"
+          href: props-system-fileversion.md
+        - name: "System.FindData"
+          href: props-system-finddata.md
+        - name: "System.FlagColor"
+          href: props-system-flagcolor.md
+        - name: "System.FlagColorText"
+          href: props-system-flagcolortext.md
+        - name: "System.FlagStatus"
+          href: props-system-flagstatus.md
+        - name: "System.FlagStatusText"
+          href: props-system-flagstatustext.md
+        - name: "System.FolderKind"
+          href: props-system-folderkind.md
+        - name: "System.FolderNameDisplay"
+          href: props-system-foldernamedisplay.md
+        - name: "System.FreeSpace"
+          href: props-system-freespace.md
+        - name: "System.FullText"
+          href: props-system-fulltext.md
+        - name: "System.HighKeywords"
+          href: props-system-highkeywords.md
+        - name: "System.ImageParsingName"
+          href: props-system-imageparsingname.md
+        - name: "System.Importance"
+          href: props-system-importance.md
+        - name: "System.ImportanceText"
+          href: props-system-importancetext.md
+        - name: "System.IsAttachment"
+          href: props-system-isattachment.md
+        - name: "System.IsDefaultNonOwnerSaveLocation"
+          href: props-system-isdefaultnonownersavelocation.md
+        - name: "System.IsDefaultSaveLocation"
+          href: props-system-isdefaultsavelocation.md
+        - name: "System.IsDeleted"
+          href: props-system-isdeleted.md
+        - name: "System.IsEncrypted"
+          href: props-system-isencrypted.md
+        - name: "System.IsFlagged"
+          href: props-system-isflagged.md
+        - name: "System.IsFlaggedComplete"
+          href: props-system-isflaggedcomplete.md
+        - name: "System.IsIncomplete"
+          href: props-system-isincomplete.md
+        - name: "System.IsLocationSupported"
+          href: props-system-islocationsupported.md
+        - name: "System.IsPinnedToNameSpaceTree"
+          href: props-system-ispinnedtonamespacetree.md
+        - name: "System.IsRead"
+          href: props-system-isread.md
+        - name: "System.IsSearchOnlyItem"
+          href: props-system-issearchonlyitem.md
+        - name: "System.IsSendToTarget"
+          href: props-system-issendtotarget.md
+        - name: "System.IsShared"
+          href: props-system-isshared.md
+        - name: "System.ItemAuthors"
+          href: props-system-itemauthors.md
+        - name: "System.ItemClassType"
+          href: props-system-itemclasstype.md
+        - name: "System.ItemDate"
+          href: props-system-itemdate.md
+        - name: "System.ItemFolderNameDisplay"
+          href: props-system-itemfoldernamedisplay.md
+        - name: "System.ItemFolderPathDisplay"
+          href: props-system-itemfolderpathdisplay.md
+        - name: "System.ItemFolderPathDisplayNarrow"
+          href: props-system-itemfolderpathdisplaynarrow.md
+        - name: "System.ItemName"
+          href: props-system-itemname.md
+        - name: "System.ItemNameDisplay"
+          href: props-system-itemnamedisplay.md
+        - name: "System.ItemNameDisplayWithoutExtension"
+          href: props-system-itemnamedisplaywithoutextension.md
+        - name: "System.ItemNamePrefix"
+          href: props-system-itemnameprefix.md
+        - name: "System.ItemNameSortOverride"
+          href: props-system-itemnamesortoverride.md
+        - name: "System.ItemParticipants"
+          href: props-system-itemparticipants.md
+        - name: "System.ItemPathDisplay"
+          href: props-system-itempathdisplay.md
+        - name: "System.ItemPathDisplayNarrow"
+          href: props-system-itempathdisplaynarrow.md
+        - name: "System.ItemSubType"
+          href: props-system-itemsubtype.md
+        - name: "System.ItemType"
+          href: props-system-itemtype.md
+        - name: "System.ItemTypeText"
+          href: props-system-itemtypetext.md
+        - name: "System.ItemUrl"
+          href: props-system-itemurl.md
+        - name: "System.Keywords"
+          href: props-system-keywords.md
+        - name: "System.Kind"
+          href: props-system-kind.md
+        - name: "System.KindText"
+          href: props-system-kindtext.md
+        - name: "System.Language"
+          href: props-system-language.md
+        - name: "System.LastSyncError"
+          href: props-system-lastsyncerror.md
+        - name: "System.LastWriterPackageFamilyName"
+          href: props-system-lastwriterpackagefamilyname.md
+        - name: "System.LowKeywords"
+          href: props-system-lowkeywords.md
+        - name: "System.MediumKeywords"
+          href: props-system-mediumkeywords.md
+        - name: "System.MileageInformation"
+          href: props-system-mileageinformation.md
+        - name: "System.MIMEType"
+          href: props-system-mimetype.md
+        - name: "System.Null"
+          href: props-system-null.md
+        - name: "System.OfflineAvailability"
+          href: props-system-offlineavailability.md
+        - name: "System.OfflineStatus"
+          href: props-system-offlinestatus.md
+        - name: "System.OriginalFileName"
+          href: props-system-originalfilename.md
+        - name: "System.OwnerSID"
+          href: props-system-ownersid.md
+        - name: "System.ParentalRating"
+          href: props-system-parentalrating.md
+        - name: "System.ParentalRatingReason"
+          href: props-system-parentalratingreason.md
+        - name: "System.ParentalRatingsOrganization"
+          href: props-system-parentalratingsorganization.md
+        - name: "System.ParsingBindContext"
+          href: props-system-parsingbindcontext.md
+        - name: "System.ParsingName"
+          href: props-system-parsingname.md
+        - name: "System.ParsingPath"
+          href: props-system-parsingpath.md
+        - name: "System.PerceivedType"
+          href: props-system-perceivedtype.md
+        - name: "System.PercentFull"
+          href: props-system-percentfull.md
+        - name: "System.Priority"
+          href: props-system-priority.md
+        - name: "System.PriorityText"
+          href: props-system-prioritytext.md
+        - name: "System.Project"
+          href: props-system-project.md
+        - name: "System.ProviderItemID"
+          href: props-system-provideritemid.md
+        - name: "System.Rating"
+          href: props-system-rating.md
+        - name: "System.RatingText"
+          href: props-system-ratingtext.md
+        - name: "System.RemoteConflictingFile"
+          href: props-system-remoteconflictingfile.md
+        - name: "System.Sensitivity"
+          href: props-system-sensitivity.md
+        - name: "System.SensitivityText"
+          href: props-system-sensitivitytext.md
+        - name: "System.SFGAOFlags"
+          href: props-system-sfgaoflags.md
+        - name: "System.SharedWith"
+          href: props-system-sharedwith.md
+        - name: "System.ShareUserRating"
+          href: props-system-shareuserrating.md
+        - name: "System.SharingStatus"
+          href: props-system-sharingstatus.md
+        - name: "System.Shell.OmitFromView"
+          href: props-system-shell-omitfromview.md
+        - name: "System.SimpleRating"
+          href: props-system-simplerating.md
+        - name: "System.Size"
+          href: props-system-size.md
+        - name: "System.SoftwareUsed"
+          href: props-system-softwareused.md
+        - name: "System.SourceItem"
+          href: props-system-sourceitem.md
+        - name: "System.SourcePackageFamilyName"
+          href: props-system-sourcepackagefamilyname.md
+        - name: "System.StartDate"
+          href: props-system-startdate.md
+        - name: "System.Status"
+          href: props-system-status.md
+        - name: "System.StorageProviderCallerVersionInformation"
+          href: props-system-storageprovidercallerversioninformation.md
+        - name: "System.StorageProviderError"
+          href: props-system-storageprovidererror.md
+        - name: "System.StorageProviderFileChecksum"
+          href: props-system-storageproviderfilechecksum.md
+        - name: "System.StorageProviderFileIdentifier"
+          href: props-system-storageproviderfileidentifier.md
+        - name: "System.StorageProviderFileRemoteUri"
+          href: props-system-storageproviderfileremoteuri.md
+        - name: "System.StorageProviderFileVersion"
+          href: props-system-storageproviderfileversion.md
+        - name: "System.StorageProviderFileVersionWaterline"
+          href: props-system-storageproviderfileversionwaterline.md
+        - name: "System.StorageProviderId"
+          href: props-system-storageproviderid.md
+        - name: "System.StorageProviderShareStatuses"
+          href: props-system-storageprovidersharestatuses.md
+        - name: "System.StorageProviderSharingStatus"
+          href: props-system-storageprovidersharingstatus.md
+        - name: "System.StorageProviderStatus"
+          href: props-system-storageproviderstatus.md
+        - name: "System.Subject"
+          href: props-system-subject.md
+        - name: "System.SyncTransferStatus"
+          href: props-system-synctransferstatus.md
+        - name: "System.Thumbnail"
+          href: props-system-thumbnail.md
+        - name: "System.ThumbnailCacheId"
+          href: props-system-thumbnailcacheid.md
+        - name: "System.ThumbnailStream"
+          href: props-system-thumbnailstream.md
+        - name: "System.Title"
+          href: props-system-title.md
+        - name: "System.TitleSortOverride"
+          href: props-system-titlesortoverride.md
+        - name: "System.TotalFileSize"
+          href: props-system-totalfilesize.md
+        - name: "System.Trademarks"
+          href: props-system-trademarks.md
+        - name: "System.TransferOrder"
+          href: props-system-transferorder.md
+        - name: "System.TransferPosition"
+          href: props-system-transferposition.md
+        - name: "System.TransferSize"
+          href: props-system-transfersize.md
+        - name: "System.VolumeId"
+          href: props-system-volumeid.md
+        - name: "System.ZoneIdentifier"
+          href: props-system-zoneidentifier.md
+      - name: "Devices"
+        href: devices-bumper.md
+        items: 
+        - name: "System.Device.PrinterURL"
+          href: props-system-device-printerurl.md
+        - name: "System.DeviceInterface.Bluetooth.DeviceAddress"
+          href: props-system-deviceinterface-bluetooth-deviceaddress.md
+        - name: "System.DeviceInterface.Bluetooth.Flags"
+          href: props-system-deviceinterface-bluetooth-flags.md
+        - name: "System.DeviceInterface.Bluetooth.LastConnectedTime"
+          href: props-system-deviceinterface-bluetooth-lastconnectedtime.md
+        - name: "System.DeviceInterface.Bluetooth.Manufacturer"
+          href: props-system-deviceinterface-bluetooth-manufacturer.md
+        - name: "System.DeviceInterface.Bluetooth.ModelNumber"
+          href: props-system-deviceinterface-bluetooth-modelnumber.md
+        - name: "System.DeviceInterface.Bluetooth.ProductId"
+          href: props-system-deviceinterface-bluetooth-productid.md
+        - name: "System.DeviceInterface.Bluetooth.ProductVersion"
+          href: props-system-deviceinterface-bluetooth-productversion.md
+        - name: "System.DeviceInterface.Bluetooth.ServiceGuid"
+          href: props-system-deviceinterface-bluetooth-serviceguid.md
+        - name: "System.DeviceInterface.Bluetooth.VendorId"
+          href: props-system-deviceinterface-bluetooth-vendorid.md
+        - name: "System.DeviceInterface.Bluetooth.VendorIdSource"
+          href: props-system-deviceinterface-bluetooth-vendoridsource.md
+        - name: "System.DeviceInterface.Hid.IsReadOnly"
+          href: props-system-deviceinterface-hid-isreadonly.md
+        - name: "System.DeviceInterface.Hid.ProductId"
+          href: props-system-deviceinterface-hid-productid.md
+        - name: "System.DeviceInterface.Hid.UsageId"
+          href: props-system-deviceinterface-hid-usageid.md
+        - name: "System.DeviceInterface.Hid.UsagePage"
+          href: props-system-deviceinterface-hid-usagepage.md
+        - name: "System.DeviceInterface.Hid.VendorId"
+          href: props-system-deviceinterface-hid-vendorid.md
+        - name: "System.DeviceInterface.Hid.VersionNumber"
+          href: props-system-deviceinterface-hid-versionnumber.md
+        - name: "System.DeviceInterface.PrinterDriverDirectory"
+          href: props-system-deviceinterface-printerdriverdirectory.md
+        - name: "System.DeviceInterface.PrinterDriverName"
+          href: props-system-deviceinterface-printerdrivername.md
+        - name: "System.DeviceInterface.PrinterEnumerationFlag"
+          href: props-system-deviceinterface-printerenumerationflag.md
+        - name: "System.DeviceInterface.PrinterName"
+          href: props-system-deviceinterface-printername.md
+        - name: "System.DeviceInterface.PrinterPortName"
+          href: props-system-deviceinterface-printerportname.md
+        - name: "System.DeviceInterface.Proximity.SupportsNfc"
+          href: props-system-deviceinterface-proximity-supportsnfc.md
+        - name: "System.DeviceInterface.Serial.PortName"
+          href: props-system-deviceinterface-serial-portname.md
+        - name: "System.DeviceInterface.Serial.UsbProductId"
+          href: props-system-deviceinterface-serial-usbproductid.md
+        - name: "System.DeviceInterface.Serial.UsbVendorId"
+          href: props-system-deviceinterface-serial-usbvendorid.md
+        - name: "System.DeviceInterface.WinUsb.DeviceInterfaceClasses"
+          href: props-system-deviceinterface-winusb-deviceinterfaceclasses.md
+        - name: "System.DeviceInterface.WinUsb.UsbClass"
+          href: props-system-deviceinterface-winusb-usbclass.md
+        - name: "System.DeviceInterface.WinUsb.UsbProductId"
+          href: props-system-deviceinterface-winusb-usbproductid.md
+        - name: "System.DeviceInterface.WinUsb.UsbProtocol"
+          href: props-system-deviceinterface-winusb-usbprotocol.md
+        - name: "System.DeviceInterface.WinUsb.UsbSubClass"
+          href: props-system-deviceinterface-winusb-usbsubclass.md
+        - name: "System.DeviceInterface.WinUsb.UsbVendorId"
+          href: props-system-deviceinterface-winusb-usbvendorid.md
+        - name: "System.Devices.Aep.AepId"
+          href: props-system-devices-aep-aepid.md
+        - name: "System.Devices.Aep.Bluetooth.Cod.Major"
+          href: props-system-devices-aep-bluetooth-cod-major.md
+        - name: "System.Devices.AepService.Bluetooth.CacheMode"
+          href: props-system-devices-aepservice-bluetooth-cachemode.md
+        - name: "System.Devices.AepService.Bluetooth.ServiceGuid"
+          href: props-system-devices-aepservice-bluetooth-serviceguid.md
+        - name: "System.Devices.AepService.Bluetooth.TargetDevice"
+          href: props-system-devices-aepservice-bluetooth-targetdevice.md
+        - name: "System.Devices.Aep.Bluetooth.Cod.Minor"
+          href: props-system-devices-aep-bluetooth-cod-minor.md
+        - name: "System.Devices.Aep.Bluetooth.Cod.Services.Audio"
+          href: props-system-devices-aep-bluetooth-cod-services-audio.md
+        - name: "System.Devices.Aep.Bluetooth.Cod.Services.Capturing"
+          href: props-system-devices-aep-bluetooth-cod-services-capturing.md
+        - name: "System.Devices.Aep.Bluetooth.Cod.Services.Information"
+          href: props-system-devices-aep-bluetooth-cod-services-information.md
+        - name: "System.Devices.Aep.Bluetooth.Cod.Services.LimitedDiscovery"
+          href: props-system-devices-aep-bluetooth-cod-services-limiteddiscovery.md
+        - name: "System.Devices.Aep.Bluetooth.Cod.Services.Networking"
+          href: props-system-devices-aep-bluetooth-cod-services-networking.md
+        - name: "System.Devices.Aep.Bluetooth.Cod.Services.ObjectXfer"
+          href: props-system-devices-aep-bluetooth-cod-services-objectxfer.md
+        - name: "System.Devices.Aep.Bluetooth.Cod.Services.Positioning"
+          href: props-system-devices-aep-bluetooth-cod-services-positioning.md
+        - name: "System.Devices.Aep.Bluetooth.Cod.Services.Rendering"
+          href: props-system-devices-aep-bluetooth-cod-services-rendering.md
+        - name: "System.Devices.Aep.Bluetooth.Cod.Services.Telephony"
+          href: props-system-devices-aep-bluetooth-cod-services-telephony.md
+        - name: "System.Devices.Aep.Bluetooth.Le.AddressType"
+          href: props-system-devices-aep-bluetooth-le-addresstype.md
+        - name: "System.Devices.Aep.Bluetooth.Le.Appearance"
+          href: props-system-devices-aep-bluetooth-le-appearance.md
+        - name: "System.Devices.Aep.Bluetooth.Le.Appearance.Category"
+          href: props-system-devices-aep-bluetooth-le-appearance-category.md
+        - name: "System.Devices.Aep.Bluetooth.Le.Appearance.Subcategory"
+          href: props-system-devices-aep-bluetooth-le-appearance-subcategory.md
+        - name: "System.Devices.Aep.Bluetooth.Le.IsConnectable"
+          href: props-system-devices-aep-bluetooth-le-isconnectable.md
+        - name: "System.Devices.Aep.CanPair"
+          href: props-system-devices-aep-canpair.md
+        - name: "System.Devices.Aep.Category"
+          href: props-system-devices-aep-category.md
+        - name: "System.Devices.Aep.ContainerId"
+          href: props-system-devices-aep-containerid.md
+        - name: "System.Devices.Aep.DeviceAddress"
+          href: props-system-devices-aep-deviceaddress.md
+        - name: "System.Devices.Aep.IsConnected"
+          href: props-system-devices-aep-isconnected.md
+        - name: "System.Devices.Aep.IsPaired"
+          href: props-system-devices-aep-ispaired.md
+        - name: "System.Devices.Aep.IsPresent"
+          href: props-system-devices-aep-ispresent.md
+        - name: "System.Devices.Aep.Manufacturer"
+          href: props-system-devices-aep-manufacturer.md
+        - name: "System.Devices.Aep.ModelId"
+          href: props-system-devices-aep-modelid.md
+        - name: "System.Devices.Aep.ModelName"
+          href: props-system-devices-aep-modelname.md
+        - name: "System.Devices.Aep.PointOfService.ConnectionTypes"
+          href: props-system-devices-aep-pointofservice-connectiontypes.md
+        - name: "System.Devices.Aep.ProtocolId"
+          href: props-system-devices-aep-protocolid.md
+        - name: "System.Devices.Aep.SignalStrength"
+          href: props-system-devices-aep-signalstrength.md
+        - name: "System.Devices.AepContainer.CanPair"
+          href: props-system-devices-aepcontainer-canpair.md
+        - name: "System.Devices.AepContainer.Categories"
+          href: props-system-devices-aepcontainer-categories.md
+        - name: "System.Devices.AepContainer.Children"
+          href: props-system-devices-aepcontainer-children.md
+        - name: "System.Devices.AepContainer.ContainerId"
+          href: props-system-devices-aepcontainer-containerid.md
+        - name: "System.Devices.AepContainer.DialProtocol.InstalledApplications"
+          href: props-system-devices-aepcontainer-dialprotocol-installedapplications.md
+        - name: "System.Devices.AepContainer.IsPaired"
+          href: props-system-devices-aepcontainer-ispaired.md
+        - name: "System.Devices.AepContainer.IsPresent"
+          href: props-system-devices-aepcontainer-ispresent.md
+        - name: "System.Devices.AepContainer.Manufacturer"
+          href: props-system-devices-aepcontainer-manufacturer.md
+        - name: "System.Devices.AepContainer.ModelIds"
+          href: props-system-devices-aepcontainer-modelids.md
+        - name: "System.Devices.AepContainer.ModelName"
+          href: props-system-devices-aepcontainer-modelname.md
+        - name: "System.Devices.AepContainer.ProtocolIds"
+          href: props-system-devices-aepcontainer-protocolids.md
+        - name: "System.Devices.AepContainer.SupportedUriSchemes"
+          href: props-system-devices-aepcontainer-supportedurischemes.md
+        - name: "System.Devices.AepContainer.SupportsAudio"
+          href: props-system-devices-aepcontainer-supportsaudio.md
+        - name: "System.Devices.AepContainer.SupportsCapturing"
+          href: props-system-devices-aepcontainer-supportscapturing.md
+        - name: "System.Devices.AepContainer.SupportsImages"
+          href: props-system-devices-aepcontainer-supportsimages.md
+        - name: "System.Devices.AepContainer.SupportsInformation"
+          href: props-system-devices-aepcontainer-supportsinformation.md
+        - name: "System.Devices.AepContainer.SupportsLimitedDiscovery"
+          href: props-system-devices-aepcontainer-supportslimiteddiscovery.md
+        - name: "System.Devices.AepContainer.SupportsNetworking"
+          href: props-system-devices-aepcontainer-supportsnetworking.md
+        - name: "System.Devices.AepContainer.SupportsObjectTransfer"
+          href: props-system-devices-aepcontainer-supportsobjecttransfer.md
+        - name: "System.Devices.AepContainer.SupportsPositioning"
+          href: props-system-devices-aepcontainer-supportspositioning.md
+        - name: "System.Devices.AepContainer.SupportsRendering"
+          href: props-system-devices-aepcontainer-supportsrendering.md
+        - name: "System.Devices.AepContainer.SupportsTelephony"
+          href: props-system-devices-aepcontainer-supportstelephony.md
+        - name: "System.Devices.AepContainer.SupportsVideo"
+          href: props-system-devices-aepcontainer-supportsvideo.md
+        - name: "System.Devices.AepService.AepId"
+          href: props-system-devices-aepservice-aepid.md
+        - name: "System.Devices.AepService.Bluetooth.GattService.CacheMode"
+          href: props-system-devices-aepservice-bluetooth-gattservice-cachemode.md
+        - name: "System.Devices.AepService.Bluetooth.GattService.Device"
+          href: props-system-devices-aepservice-bluetooth-gattservice-device.md
+        - name: "System.Devices.AepService.Bluetooth.RfcommService.CacheMode"
+          href: props-system-devices-aepservice-bluetooth-rfcommservice-cachemode.md
+        - name: "System.Devices.AepService.Bluetooth.RfcommService.Device"
+          href: props-system-devices-aepservice-bluetooth-rfcommservice-device.md
+        - name: "System.Devices.AepService.ContainerId"
+          href: props-system-devices-aepservice-containerid.md
+        - name: "System.Devices.AepService.FriendlyName"
+          href: props-system-devices-aepservice-friendlyname.md
+        - name: "System.Devices.AepService.IoT.ServiceInterfaces"
+          href: props-system-devices-aepservice-iot-serviceinterfaces.md
+        - name: "System.Devices.AepService.ParentAepIsPaired"
+          href: props-system-devices-aepservice-parentaepispaired.md
+        - name: "System.Devices.AepService.ProtocolId"
+          href: props-system-devices-aepservice-protocolid.md
+        - name: "System.Devices.AepService.ServiceClassId"
+          href: props-system-devices-aepservice-serviceclassid.md
+        - name: "System.Devices.AepService.ServiceId"
+          href: props-system-devices-aepservice-serviceid.md
+        - name: "System.Devices.AppPackageFamilyName"
+          href: props-system-devices-apppackagefamilyname.md
+        - name: "System.Devices.AudioDevice.Microphone.SensitivityInDbfs"
+          href: props-system-devices-audiodevice-microphone-sensitivityindbfs.md
+        - name: "System.Devices.AudioDevice.Microphone.SignalToNoiseRatioInDb"
+          href: props-system-devices-audiodevice-microphone-signaltonoiseratioindb.md
+        - name: "System.Devices.AudioDevice.RawProcessingSupported"
+          href: props-system-devices-audiodevice-rawprocessingsupported.md
+        - name: "System.Devices.AudioDevice.SpeechProcessingSupported"
+          href: props-system-devices-audiodevice-speechprocessingsupported.md
+        - name: "System.Devices.BatteryLife"
+          href: props-system-devices-batterylife.md
+        - name: "System.Devices.BatteryPlusCharging"
+          href: props-system-devices-batterypluscharging.md
+        - name: "System.Devices.BatteryPlusChargingText"
+          href: props-system-devices-batterypluschargingtext.md
+        - name: "System.Devices.Category"
+          href: props-system-devices-category.md
+        - name: "System.Devices.CategoryGroup"
+          href: props-system-devices-categorygroup.md
+        - name: "System.Devices.CategoryIds"
+          href: props-system-devices-categoryids.md
+        - name: "System.Devices.CategoryPlural"
+          href: props-system-devices-categoryplural.md
+        - name: "System.Devices.ChargingState"
+          href: props-system-devices-chargingstate.md
+        - name: "System.Devices.Children"
+          href: props-system-devices-children.md
+        - name: "System.Devices.ClassGuid"
+          href: props-system-devices-classguid.md
+        - name: "System.Devices.CompatibleIds"
+          href: props-system-devices-compatibleids.md
+        - name: "System.Devices.Connected"
+          href: props-system-devices-connected.md
+        - name: "System.Devices.ContainerId"
+          href: props-system-devices-containerid.md
+        - name: "System.Devices.DefaultTooltip"
+          href: props-system-devices-defaulttooltip.md
+        - name: "System.Devices.DeviceCapabilities"
+          href: props-system-devices-devicecapabilities.md
+        - name: "System.Devices.DeviceCharacteristics"
+          href: props-system-devices-devicecharacteristics.md
+        - name: "System.Devices.DeviceDescription1"
+          href: props-system-devices-devicedescription1.md
+        - name: "System.Devices.DeviceDescription2"
+          href: props-system-devices-devicedescription2.md
+        - name: "System.Devices.DeviceHasProblem"
+          href: props-system-devices-devicehasproblem.md
+        - name: "System.Devices.DeviceInstanceId"
+          href: props-system-devices-deviceinstanceid.md
+        - name: "System.Devices.DeviceManufacturer"
+          href: props-system-devices-devicemanufacturer.md
+        - name: "System.Devices.DevObjectType"
+          href: props-system-devices-devobjecttype.md
+        - name: "System.Devices.DialProtocol.InstalledApplications"
+          href: props-system-devices-dialprotocol-installedapplications.md
+        - name: "System.Devices.DiscoveryMethod"
+          href: props-system-devices-discoverymethod.md
+        - name: "System.Devices.Dnssd.Domain"
+          href: props-system-devices-dnssd-domain.md
+        - name: "System.Devices.Dnssd.FullName"
+          href: props-system-devices-dnssd-fullname.md
+        - name: "System.Devices.Dnssd.HostName"
+          href: props-system-devices-dnssd-hostname.md
+        - name: "System.Devices.Dnssd.InstanceName"
+          href: props-system-devices-dnssd-instancename.md
+        - name: "System.Devices.Dnssd.NetworkAdapterId"
+          href: props-system-devices-dnssd-networkadapterid.md
+        - name: "System.Devices.Dnssd.PortNumber"
+          href: props-system-devices-dnssd-portnumber.md
+        - name: "System.Devices.Dnssd.Priority"
+          href: props-system-devices-dnssd-priority.md
+        - name: "System.Devices.Dnssd.ServiceName"
+          href: props-system-devices-dnssd-servicename.md
+        - name: "System.Devices.Dnssd.TextAttributes"
+          href: props-system-devices-dnssd-textattributes.md
+        - name: "System.Devices.Dnssd.Ttl"
+          href: props-system-devices-dnssd-ttl.md
+        - name: "System.Devices.Dnssd.Weight"
+          href: props-system-devices-dnssd-weight.md
+        - name: "System.Devices.FriendlyName"
+          href: props-system-devices-friendlyname.md
+        - name: "System.Devices.FunctionPaths"
+          href: props-system-devices-functionpaths.md
+        - name: "System.Devices.GlyphIcon"
+          href: props-system-devices-glyphicon.md
+        - name: "System.Devices.HardwareIds"
+          href: props-system-devices-hardwareids.md
+        - name: "System.Devices.Icon"
+          href: props-system-devices-icon.md
+        - name: "System.Devices.InLocalMachineContainer"
+          href: props-system-devices-inlocalmachinecontainer.md
+        - name: "System.Devices.InterfaceClassGuid"
+          href: props-system-devices-interfaceclassguid.md
+        - name: "System.Devices.InterfaceEnabled"
+          href: props-system-devices-interfaceenabled.md
+        - name: "System.Devices.InterfacePaths"
+          href: props-system-devices-interfacepaths.md
+        - name: "System.Devices.IpAddress"
+          href: props-system-devices-ipaddress.md
+        - name: "System.Devices.IsDefault"
+          href: props-system-devices-isdefault.md
+        - name: "System.Devices.IsNetworkConnected"
+          href: props-system-devices-isnetworkconnected.md
+        - name: "System.Devices.IsShared"
+          href: props-system-devices-isshared.md
+        - name: "System.Devices.IsSoftwareInstalling"
+          href: props-system-devices-issoftwareinstalling.md
+        - name: "System.Devices.LaunchDeviceStageFromExplorer"
+          href: props-system-devices-launchdevicestagefromexplorer.md
+        - name: "System.Devices.LocalMachine"
+          href: props-system-devices-localmachine.md
+        - name: "System.Devices.LocationPaths"
+          href: props-system-devices-locationpaths.md
+        - name: "System.Devices.Manufacturer"
+          href: props-system-devices-manufacturer.md
+        - name: "System.Devices.MetadataPath"
+          href: props-system-devices-metadatapath.md
+        - name: "System.Devices.MicrophoneArray.Geometry"
+          href: props-system-devices-microphonearray-geometry.md
+        - name: "System.Devices.MissedCalls"
+          href: props-system-devices-missedcalls.md
+        - name: "System.Devices.ModelId"
+          href: props-system-devices-modelid.md
+        - name: "System.Devices.ModelName"
+          href: props-system-devices-modelname.md
+        - name: "System.Devices.ModelNumber"
+          href: props-system-devices-modelnumber.md
+        - name: "System.Devices.NetworkedTooltip"
+          href: props-system-devices-networkedtooltip.md
+        - name: "System.Devices.NetworkName"
+          href: props-system-devices-networkname.md
+        - name: "System.Devices.NetworkType"
+          href: props-system-devices-networktype.md
+        - name: "System.Devices.NewPictures"
+          href: props-system-devices-newpictures.md
+        - name: "System.Devices.Notification"
+          href: props-system-devices-notification.md
+        - name: "System.Devices.Notifications.LowBattery"
+          href: props-system-devices-notifications-lowbattery.md
+        - name: "System.Devices.Notifications.MissedCall"
+          href: props-system-devices-notifications-missedcall.md
+        - name: "System.Devices.Notifications.NewMessage"
+          href: props-system-devices-notifications-newmessage.md
+        - name: "System.Devices.Notifications.NewVoicemail"
+          href: props-system-devices-notifications-newvoicemail.md
+        - name: "System.Devices.Notifications.StorageFull"
+          href: props-system-devices-notifications-storagefull.md
+        - name: "System.Devices.Notifications.StorageFullLinkText"
+          href: props-system-devices-notifications-storagefulllinktext.md
+        - name: "System.Devices.NotificationStore"
+          href: props-system-devices-notificationstore.md
+        - name: "System.Devices.NotWorkingProperly"
+          href: props-system-devices-notworkingproperly.md
+        - name: "System.Devices.Paired"
+          href: props-system-devices-paired.md
+        - name: "System.Devices.Parent"
+          href: props-system-devices-parent.md
+        - name: "System.Devices.PhysicalDeviceLocation"
+          href: props-system-devices-physicaldevicelocation.md
+        - name: "System.Devices.PlaybackPositionPercent"
+          href: props-system-devices-playbackpositionpercent.md
+        - name: "System.Devices.PlaybackState"
+          href: props-system-devices-playbackstate.md
+        - name: "System.Devices.PlaybackTitle"
+          href: props-system-devices-playbacktitle.md
+        - name: "System.Devices.Present"
+          href: props-system-devices-present.md
+        - name: "System.Devices.PresentationUrl"
+          href: props-system-devices-presentationurl.md
+        - name: "System.Devices.PrimaryCategory"
+          href: props-system-devices-primarycategory.md
+        - name: "System.Devices.RemainingDuration"
+          href: props-system-devices-remainingduration.md
+        - name: "System.Devices.RestrictedInterface"
+          href: props-system-devices-restrictedinterface.md
+        - name: "System.Devices.Roaming"
+          href: props-system-devices-roaming.md
+        - name: "System.Devices.SafeRemovalRequired"
+          href: props-system-devices-saferemovalrequired.md
+        - name: "System.Devices.ServiceAddress"
+          href: props-system-devices-serviceaddress.md
+        - name: "System.Devices.ServiceId"
+          href: props-system-devices-serviceid.md
+        - name: "System.Devices.SharedTooltip"
+          href: props-system-devices-sharedtooltip.md
+        - name: "System.Devices.SignalStrength"
+          href: props-system-devices-signalstrength.md
+        - name: "System.Devices.SmartCards.ReaderKind"
+          href: props-system-devices-smartcards-readerkind.md
+        - name: "System.Devices.Status"
+          href: props-system-devices-status.md
+        - name: "System.Devices.Status1"
+          href: props-system-devices-status1.md
+        - name: "System.Devices.Status2"
+          href: props-system-devices-status2.md
+        - name: "System.Devices.StorageCapacity"
+          href: props-system-devices-storagecapacity.md
+        - name: "System.Devices.StorageFreeSpace"
+          href: props-system-devices-storagefreespace.md
+        - name: "System.Devices.StorageFreeSpacePercent"
+          href: props-system-devices-storagefreespacepercent.md
+        - name: "System.Devices.TextMessages"
+          href: props-system-devices-textmessages.md
+        - name: "System.Devices.Voicemail"
+          href: props-system-devices-voicemail.md
+        - name: "System.Devices.WiaDeviceType"
+          href: props-system-devices-wiadevicetype.md
+        - name: "System.Devices.WiFi.InterfaceGuid"
+          href: props-system-devices-wifi-interfaceguid.md
+        - name: "System.Devices.WiFiDirect.DeviceAddress"
+          href: props-system-devices-wifidirect-deviceaddress.md
+        - name: "System.Devices.WiFiDirect.GroupId"
+          href: props-system-devices-wifidirect-groupid.md
+        - name: "System.Devices.WiFiDirect.InformationElements"
+          href: props-system-devices-wifidirect-informationelements.md
+        - name: "System.Devices.WiFiDirect.InterfaceAddress"
+          href: props-system-devices-wifidirect-interfaceaddress.md
+        - name: "System.Devices.WiFiDirect.InterfaceGuid"
+          href: props-system-devices-wifidirect-interfaceguid.md
+        - name: "System.Devices.WiFiDirect.IsConnected"
+          href: props-system-devices-wifidirect-isconnected.md
+        - name: "System.Devices.WiFiDirect.IsLegacyDevice"
+          href: props-system-devices-wifidirect-islegacydevice.md
+        - name: "System.Devices.WiFiDirect.IsMiracastLcpSupported"
+          href: props-system-devices-wifidirect-ismiracastlcpsupported.md
+        - name: "System.Devices.WiFiDirect.IsVisible"
+          href: props-system-devices-wifidirect-isvisible.md
+        - name: "System.Devices.WiFiDirect.MiracastVersion"
+          href: props-system-devices-wifidirect-miracastversion.md
+        - name: "System.Devices.WiFiDirect.Services"
+          href: props-system-devices-wifidirect-services.md
+        - name: "System.Devices.WiFiDirect.SupportedChannelList"
+          href: props-system-devices-wifidirect-supportedchannellist.md
+        - name: "System.Devices.WiFiDirectServices.AdvertisementId"
+          href: props-system-devices-wifidirectservices-advertisementid.md
+        - name: "System.Devices.WiFiDirectServices.RequestServiceInformation"
+          href: props-system-devices-wifidirectservices-requestserviceinformation.md
+        - name: "System.Devices.WiFiDirectServices.ServiceAddress"
+          href: props-system-devices-wifidirectservices-serviceaddress.md
+        - name: "System.Devices.WiFiDirectServices.ServiceConfigMethods"
+          href: props-system-devices-wifidirectservices-serviceconfigmethods.md
+        - name: "System.Devices.WiFiDirectServices.ServiceInformation"
+          href: props-system-devices-wifidirectservices-serviceinformation.md
+        - name: "System.Devices.WiFiDirectServices.ServiceName"
+          href: props-system-devices-wifidirectservices-servicename.md
+        - name: "System.Devices.WinPhone8CameraFlags"
+          href: props-system-devices-winphone8cameraflags.md
+        - name: "System.Devices.Wwan.InterfaceGuid"
+          href: props-system-devices-wwan-interfaceguid.md
+        - name: "System.Storage.Portable"
+          href: props-system-storage-portable.md
+        - name: "System.Storage.RemovableMedia"
+          href: props-system-storage-removablemedia.md
+        - name: "System.Storage.SystemCritical"
+          href: props-system-storage-systemcritical.md
+      - name: "Document"
+        href: document-bumper.md
+        items: 
+        - name: "System.Document.ByteCount"
+          href: props-system-document-bytecount.md
+        - name: "System.Document.CharacterCount"
+          href: props-system-document-charactercount.md
+        - name: "System.Document.ClientID"
+          href: props-system-document-clientid.md
+        - name: "System.Document.Contributor"
+          href: props-system-document-contributor.md
+        - name: "System.Document.DateCreated"
+          href: props-system-document-datecreated.md
+        - name: "System.Document.DatePrinted"
+          href: props-system-document-dateprinted.md
+        - name: "System.Document.DateSaved"
+          href: props-system-document-datesaved.md
+        - name: "System.Document.Division"
+          href: props-system-document-division.md
+        - name: "System.Document.DocumentID"
+          href: props-system-document-documentid.md
+        - name: "System.Document.HiddenSlideCount"
+          href: props-system-document-hiddenslidecount.md
+        - name: "System.Document.LastAuthor"
+          href: props-system-document-lastauthor.md
+        - name: "System.Document.LineCount"
+          href: props-system-document-linecount.md
+        - name: "System.Document.Manager"
+          href: props-system-document-manager.md
+        - name: "System.Document.MultimediaClipCount"
+          href: props-system-document-multimediaclipcount.md
+        - name: "System.Document.NoteCount"
+          href: props-system-document-notecount.md
+        - name: "System.Document.PageCount"
+          href: props-system-document-pagecount.md
+        - name: "System.Document.ParagraphCount"
+          href: props-system-document-paragraphcount.md
+        - name: "System.Document.PresentationFormat"
+          href: props-system-document-presentationformat.md
+        - name: "System.Document.RevisionNumber"
+          href: props-system-document-revisionnumber.md
+        - name: "System.Document.Security"
+          href: props-system-document-security.md
+        - name: "System.Document.SlideCount"
+          href: props-system-document-slidecount.md
+        - name: "System.Document.Template"
+          href: props-system-document-template.md
+        - name: "System.Document.TotalEditingTime"
+          href: props-system-document-totaleditingtime.md
+        - name: "System.Document.Version"
+          href: props-system-document-version.md
+        - name: "System.Document.WordCount"
+          href: props-system-document-wordcount.md
+      - name: "DRM"
+        href: drm-bumper.md
+        items: 
+        - name: "System.DRM.DatePlayExpires"
+          href: props-system-drm-dateplayexpires.md
+        - name: "System.DRM.DatePlayStarts"
+          href: props-system-drm-dateplaystarts.md
+        - name: "System.DRM.Description"
+          href: props-system-drm-description.md
+        - name: "System.DRM.IsDisabled"
+          href: props-system-drm-isdisabled.md
+        - name: "System.DRM.IsProtected"
+          href: props-system-drm-isprotected.md
+        - name: "System.DRM.PlayCount"
+          href: props-system-drm-playcount.md
+      - name: "GPS"
+        href: gps-bumper.md
+        items: 
+        - name: "System.GPS.Altitude"
+          href: props-system-gps-altitude.md
+        - name: "System.GPS.AltitudeDenominator"
+          href: props-system-gps-altitudedenominator.md
+        - name: "System.GPS.AltitudeNumerator"
+          href: props-system-gps-altitudenumerator.md
+        - name: "System.GPS.AltitudeRef"
+          href: props-system-gps-altituderef.md
+        - name: "System.GPS.AreaInformation"
+          href: props-system-gps-areainformation.md
+        - name: "System.GPS.Date"
+          href: props-system-gps-date.md
+        - name: "System.GPS.DestBearing"
+          href: props-system-gps-destbearing.md
+        - name: "System.GPS.DestBearingDenominator"
+          href: props-system-gps-destbearingdenominator.md
+        - name: "System.GPS.DestBearingNumerator"
+          href: props-system-gps-destbearingnumerator.md
+        - name: "System.GPS.DestBearingRef"
+          href: props-system-gps-destbearingref.md
+        - name: "System.GPS.DestDistance"
+          href: props-system-gps-destdistance.md
+        - name: "System.GPS.DestDistanceDenominator"
+          href: props-system-gps-destdistancedenominator.md
+        - name: "System.GPS.DestDistanceNumerator"
+          href: props-system-gps-destdistancenumerator.md
+        - name: "System.GPS.DestDistanceRef"
+          href: props-system-gps-destdistanceref.md
+        - name: "System.GPS.DestLatitude"
+          href: props-system-gps-destlatitude.md
+        - name: "System.GPS.DestLatitudeDenominator"
+          href: props-system-gps-destlatitudedenominator.md
+        - name: "System.GPS.DestLatitudeNumerator"
+          href: props-system-gps-destlatitudenumerator.md
+        - name: "System.GPS.DestLatitudeRef"
+          href: props-system-gps-destlatituderef.md
+        - name: "System.GPS.DestLongitude"
+          href: props-system-gps-destlongitude.md
+        - name: "System.GPS.DestLongitudeDenominator"
+          href: props-system-gps-destlongitudedenominator.md
+        - name: "System.GPS.DestLongitudeNumerator"
+          href: props-system-gps-destlongitudenumerator.md
+        - name: "System.GPS.DestLongitudeRef"
+          href: props-system-gps-destlongituderef.md
+        - name: "System.GPS.Differential"
+          href: props-system-gps-differential.md
+        - name: "System.GPS.DOP"
+          href: props-system-gps-dop.md
+        - name: "System.GPS.DOPDenominator"
+          href: props-system-gps-dopdenominator.md
+        - name: "System.GPS.DOPNumerator"
+          href: props-system-gps-dopnumerator.md
+        - name: "System.GPS.ImgDirection"
+          href: props-system-gps-imgdirection.md
+        - name: "System.GPS.ImgDirectionDenominator"
+          href: props-system-gps-imgdirectiondenominator.md
+        - name: "System.GPS.ImgDirectionNumerator"
+          href: props-system-gps-imgdirectionnumerator.md
+        - name: "System.GPS.ImgDirectionRef"
+          href: props-system-gps-imgdirectionref.md
+        - name: "System.GPS.Latitude"
+          href: props-system-gps-latitude.md
+        - name: "System.GPS.LatitudeDecimal"
+          href: props-system-gps-latitudedecimal.md
+        - name: "System.GPS.LatitudeDenominator"
+          href: props-system-gps-latitudedenominator.md
+        - name: "System.GPS.LatitudeNumerator"
+          href: props-system-gps-latitudenumerator.md
+        - name: "System.GPS.LatitudeRef"
+          href: props-system-gps-latituderef.md
+        - name: "System.GPS.Longitude"
+          href: props-system-gps-longitude.md
+        - name: "System.GPS.LongitudeDecimal"
+          href: props-system-gps-longitudedecimal.md
+        - name: "System.GPS.LongitudeDenominator"
+          href: props-system-gps-longitudedenominator.md
+        - name: "System.GPS.LongitudeNumerator"
+          href: props-system-gps-longitudenumerator.md
+        - name: "System.GPS.LongitudeRef"
+          href: props-system-gps-longituderef.md
+        - name: "System.GPS.MapDatum"
+          href: props-system-gps-mapdatum.md
+        - name: "System.GPS.MeasureMode"
+          href: props-system-gps-measuremode.md
+        - name: "System.GPS.ProcessingMethod"
+          href: props-system-gps-processingmethod.md
+        - name: "System.GPS.Satellites"
+          href: props-system-gps-satellites.md
+        - name: "System.GPS.Speed"
+          href: props-system-gps-speed.md
+        - name: "System.GPS.SpeedDenominator"
+          href: props-system-gps-speeddenominator.md
+        - name: "System.GPS.SpeedNumerator"
+          href: props-system-gps-speednumerator.md
+        - name: "System.GPS.SpeedRef"
+          href: props-system-gps-speedref.md
+        - name: "System.GPS.Status"
+          href: props-system-gps-status.md
+        - name: "System.GPS.Track"
+          href: props-system-gps-track.md
+        - name: "System.GPS.TrackDenominator"
+          href: props-system-gps-trackdenominator.md
+        - name: "System.GPS.TrackNumerator"
+          href: props-system-gps-tracknumerator.md
+        - name: "System.GPS.TrackRef"
+          href: props-system-gps-trackref.md
+        - name: "System.GPS.VersionID"
+          href: props-system-gps-versionid.md
+      - name: "History"
+        href: history-bumper.md
+        items: 
+        - name: "System.History.VisitCount"
+          href: props-system-history-visitcount.md
+      - name: "Identity"
+        href: identity-buffer.md
+        items: 
+        - name: "System.Identity"
+          href: props-system-identity.md
+        - name: "System.Identity.Blob"
+          href: props-system-identity-blob.md
+        - name: "System.Identity.DisplayName"
+          href: props-system-identity-displayname.md
+        - name: "System.Identity.InternetSid"
+          href: props-system-identity-internetsid.md
+        - name: "System.Identity.IsMeIdentity"
+          href: props-system-identity-ismeidentity.md
+        - name: "System.Identity.KeyProviderContext"
+          href: props-system-identity-keyprovidercontext.md
+        - name: "System.Identity.KeyProviderName"
+          href: props-system-identity-keyprovidername.md
+        - name: "System.Identity.LogonStatusString"
+          href: props-system-identity-logonstatusstring.md
+        - name: "System.Identity.PrimaryEmailAddress"
+          href: props-system-identity-primaryemailaddress.md
+        - name: "System.Identity.PrimarySid"
+          href: props-system-identity-primarysid.md
+        - name: "System.Identity.ProviderData"
+          href: props-system-identity-providerdata.md
+        - name: "System.Identity.ProviderID"
+          href: props-system-identity-providerid.md
+        - name: "System.Identity.QualifiedUserName"
+          href: props-system-identity-qualifiedusername.md
+        - name: "System.Identity.UniqueID"
+          href: props-system-identity-uniqueid.md
+        - name: "System.Identity.UserName"
+          href: props-system-identity-username.md
+        - name: "System.IdentityProvider.Name"
+          href: props-system-identityprovider-name.md
+        - name: "System.IdentityProvider.Picture"
+          href: props-system-identityprovider-picture.md
+      - name: "Image"
+        href: image-bumper.md
+        items: 
+        - name: "System.Image.BitDepth"
+          href: props-system-image-bitdepth.md
+        - name: "System.Image.ColorSpace"
+          href: props-system-image-colorspace.md
+        - name: "System.Image.CompressedBitsPerPixel"
+          href: props-system-image-compressedbitsperpixel.md
+        - name: "System.Image.CompressedBitsPerPixelDenominator"
+          href: props-system-image-compressedbitsperpixeldenominator.md
+        - name: "System.Image.CompressedBitsPerPixelNumerator"
+          href: props-system-image-compressedbitsperpixelnumerator.md
+        - name: "System.Image.Compression"
+          href: props-system-image-compression.md
+        - name: "System.Image.CompressionText"
+          href: props-system-image-compressiontext.md
+        - name: "System.Image.Dimensions"
+          href: props-system-image-dimensions.md
+        - name: "System.Image.HorizontalResolution"
+          href: props-system-image-horizontalresolution.md
+        - name: "System.Image.HorizontalSize"
+          href: props-system-image-horizontalsize.md
+        - name: "System.Image.ImageID"
+          href: props-system-image-imageid.md
+        - name: "System.Image.ResolutionUnit"
+          href: props-system-image-resolutionunit.md
+        - name: "System.Image.VerticalResolution"
+          href: props-system-image-verticalresolution.md
+        - name: "System.Image.VerticalSize"
+          href: props-system-image-verticalsize.md
+      - name: "Journal"
+        href: journal-bumper.md
+        items: 
+        - name: "System.Journal.Contacts"
+          href: props-system-journal-contacts.md
+        - name: "System.Journal.EntryType"
+          href: props-system-journal-entrytype.md
+      - name: "LayoutPattern"
+        href: layoutpattern-bumper.md
+        items: 
+        - name: "System.LayoutPattern.ContentViewModeForBrowse"
+          href: props-system-layoutpattern-contentviewmodeforbrowse.md
+        - name: "System.LayoutPattern.ContentViewModeForSearch"
+          href: props-system-layoutpattern-contentviewmodeforsearch.md
+      - name: "Link"
+        href: link-bumper.md
+        items: 
+        - name: "System.History.SelectionCount"
+          href: props-system-history-selectioncount.md
+        - name: "System.History.TargetUrlHostName"
+          href: props-system-history-targeturlhostname.md
+        - name: "System.Link.Arguments"
+          href: props-system-link-arguments.md
+        - name: "System.Link.Comment"
+          href: props-system-link-comment.md
+        - name: "System.Link.DateVisited"
+          href: props-system-link-datevisited.md
+        - name: "System.Link.Description"
+          href: props-system-link-description.md
+        - name: "System.Link.FeedItemLocalId"
+          href: props-system-link-feeditemlocalid.md
+        - name: "System.Link.Status"
+          href: props-system-link-status.md
+        - name: "System.Link.TargetExtension"
+          href: props-system-link-targetextension.md
+        - name: "System.Link.TargetParsingPath"
+          href: props-system-link-targetparsingpath.md
+        - name: "System.Link.TargetSFGAOFlags"
+          href: props-system-link-targetsfgaoflags.md
+        - name: "System.Link.TargetUrlHostName"
+          href: props-system-link-targeturlhostname.md
+        - name: "System.Link.TargetUrlPath"
+          href: props-system-link-targeturlpath.md
+      - name: "Media"
+        href: media-bumper.md
+        items: 
+        - name: "System.Media.AuthorUrl"
+          href: props-system-media-authorurl.md
+        - name: "System.Media.AverageLevel"
+          href: props-system-media-averagelevel.md
+        - name: "System.Media.ClassPrimaryID"
+          href: props-system-media-classprimaryid.md
+        - name: "System.Media.ClassSecondaryID"
+          href: props-system-media-classsecondaryid.md
+        - name: "System.Media.CollectionGroupID"
+          href: props-system-media-collectiongroupid.md
+        - name: "System.Media.CollectionID"
+          href: props-system-media-collectionid.md
+        - name: "System.Media.ContentDistributor"
+          href: props-system-media-contentdistributor.md
+        - name: "System.Media.ContentID"
+          href: props-system-media-contentid.md
+        - name: "System.Media.CreatorApplication"
+          href: props-system-media-creatorapplication.md
+        - name: "System.Media.CreatorApplicationVersion"
+          href: props-system-media-creatorapplicationversion.md
+        - name: "System.Media.DateEncoded"
+          href: props-system-media-dateencoded.md
+        - name: "System.Media.DateReleased"
+          href: props-system-media-datereleased.md
+        - name: "System.Media.DlnaProfileID"
+          href: props-system-media-dlnaprofileid.md
+        - name: "System.Media.Duration"
+          href: props-system-media-duration.md
+        - name: "System.Media.DVDID"
+          href: props-system-media-dvdid.md
+        - name: "System.Media.EncodedBy"
+          href: props-system-media-encodedby.md
+        - name: "System.Media.EncodingSettings"
+          href: props-system-media-encodingsettings.md
+        - name: "System.Media.EpisodeNumber"
+          href: props-system-media-episodenumber.md
+        - name: "System.Media.FrameCount"
+          href: props-system-media-framecount.md
+        - name: "System.Media.MCDI"
+          href: props-system-media-mcdi.md
+        - name: "System.Media.MetadataContentProvider"
+          href: props-system-media-metadatacontentprovider.md
+        - name: "System.Media.Producer"
+          href: props-system-media-producer.md
+        - name: "System.Media.PromotionUrl"
+          href: props-system-media-promotionurl.md
+        - name: "System.Media.ProtectionType"
+          href: props-system-media-protectiontype.md
+        - name: "System.Media.ProviderRating"
+          href: props-system-media-providerrating.md
+        - name: "System.Media.ProviderStyle"
+          href: props-system-media-providerstyle.md
+        - name: "System.Media.Publisher"
+          href: props-system-media-publisher.md
+        - name: "System.Media.SeasonNumber"
+          href: props-system-media-seasonnumber.md
+        - name: "System.Media.SeriesName"
+          href: props-system-media-seriesname.md
+        - name: "System.Media.SubscriptionContentId"
+          href: props-system-media-subscriptioncontentid.md
+        - name: "System.Media.SubTitle"
+          href: props-system-media-subtitle.md
+        - name: "System.Media.ThumbnailLargePath"
+          href: props-system-media-thumbnaillargepath.md
+        - name: "System.Media.ThumbnailLargeUri"
+          href: props-system-media-thumbnaillargeuri.md
+        - name: "System.Media.ThumbnailSmallPath"
+          href: props-system-media-thumbnailsmallpath.md
+        - name: "System.Media.ThumbnailSmallUri"
+          href: props-system-media-thumbnailsmalluri.md
+        - name: "System.Media.UniqueFileIdentifier"
+          href: props-system-media-uniquefileidentifier.md
+        - name: "System.Media.UserNoAutoInfo"
+          href: props-system-media-usernoautoinfo.md
+        - name: "System.Media.UserWebUrl"
+          href: props-system-media-userweburl.md
+        - name: "System.Media.Writer"
+          href: props-system-media-writer.md
+        - name: "System.Media.Year"
+          href: props-system-media-year.md
+      - name: "Message"
+        href: message-bumper.md
+        items: 
+        - name: "System.Message.AttachmentContents"
+          href: props-system-message-attachmentcontents.md
+        - name: "System.Message.AttachmentNames"
+          href: props-system-message-attachmentnames.md
+        - name: "System.Message.BccAddress"
+          href: props-system-message-bccaddress.md
+        - name: "System.Message.BccName"
+          href: props-system-message-bccname.md
+        - name: "System.Message.CcAddress"
+          href: props-system-message-ccaddress.md
+        - name: "System.Message.CcName"
+          href: props-system-message-ccname.md
+        - name: "System.Message.ConversationID"
+          href: props-system-message-conversationid.md
+        - name: "System.Message.ConversationIndex"
+          href: props-system-message-conversationindex.md
+        - name: "System.Message.DateReceived"
+          href: props-system-message-datereceived.md
+        - name: "System.Message.DateSent"
+          href: props-system-message-datesent.md
+        - name: "System.Message.Flags"
+          href: props-system-message-flags.md
+        - name: "System.Message.FromAddress"
+          href: props-system-message-fromaddress.md
+        - name: "System.Message.FromName"
+          href: props-system-message-fromname.md
+        - name: "System.Message.HasAttachments"
+          href: props-system-message-hasattachments.md
+        - name: "System.Message.IsFwdOrReply"
+          href: props-system-message-isfwdorreply.md
+        - name: "System.Message.MessageClass"
+          href: props-system-message-messageclass.md
+        - name: "System.Message.Participants"
+          href: props-system-message-participants.md
+        - name: "System.Message.ProofInProgress"
+          href: props-system-message-proofinprogress.md
+        - name: "System.Message.SenderAddress"
+          href: props-system-message-senderaddress.md
+        - name: "System.Message.SenderName"
+          href: props-system-message-sendername.md
+        - name: "System.Message.Store"
+          href: props-system-message-store.md
+        - name: "System.Message.ToAddress"
+          href: props-system-message-toaddress.md
+        - name: "System.Message.ToDoFlags"
+          href: props-system-message-todoflags.md
+        - name: "System.Message.ToDoTitle"
+          href: props-system-message-todotitle.md
+        - name: "System.Message.ToName"
+          href: props-system-message-toname.md
+      - name: "Music"
+        href: music-bumper.md
+        items: 
+        - name: "System.Music.AlbumArtist"
+          href: props-system-music-albumartist.md
+        - name: "System.Music.AlbumArtistSortOverride"
+          href: props-system-music-albumartistsortoverride.md
+        - name: "System.Music.AlbumID"
+          href: props-system-music-albumid.md
+        - name: "System.Music.AlbumTitle"
+          href: props-system-music-albumtitle.md
+        - name: "System.Music.AlbumTitleSortOverride"
+          href: props-system-music-albumtitlesortoverride.md
+        - name: "System.Music.Artist"
+          href: props-system-music-artist.md
+        - name: "System.Music.ArtistSortOverride"
+          href: props-system-music-artistsortoverride.md
+        - name: "System.Music.BeatsPerMinute"
+          href: props-system-music-beatsperminute.md
+        - name: "System.Music.Composer"
+          href: props-system-music-composer.md
+        - name: "System.Music.ComposerSortOverride"
+          href: props-system-music-composersortoverride.md
+        - name: "System.Music.Conductor"
+          href: props-system-music-conductor.md
+        - name: "System.Music.ContentGroupDescription"
+          href: props-system-music-contentgroupdescription.md
+        - name: "System.Music.DiscNumber"
+          href: props-system-music-discnumber.md
+        - name: "System.Music.DisplayArtist"
+          href: props-system-music-displayartist.md
+        - name: "System.Music.Genre"
+          href: props-system-music-genre.md
+        - name: "System.Music.InitialKey"
+          href: props-system-music-initialkey.md
+        - name: "System.Music.IsCompilation"
+          href: props-system-music-iscompilation.md
+        - name: "System.Music.Lyrics"
+          href: props-system-music-lyrics.md
+        - name: "System.Music.Mood"
+          href: props-system-music-mood.md
+        - name: "System.Music.PartOfSet"
+          href: props-system-music-partofset.md
+        - name: "System.Music.Period"
+          href: props-system-music-period.md
+        - name: "System.Music.SynchronizedLyrics"
+          href: props-system-music-synchronizedlyrics.md
+        - name: "System.Music.TrackNumber"
+          href: props-system-music-tracknumber.md
+      - name: "Note"
+        href: note-bumper.md
+        items: 
+        - name: "System.Note.Color"
+          href: props-system-note-color.md
+        - name: "System.Note.ColorText"
+          href: props-system-note-colortext.md
+      - name: "Photo"
+        href: photo-bumper.md
+        items: 
+        - name: "System.Photo.Aperture"
+          href: props-system-photo-aperture.md
+        - name: "System.Photo.ApertureDenominator"
+          href: props-system-photo-aperturedenominator.md
+        - name: "System.Photo.ApertureNumerator"
+          href: props-system-photo-aperturenumerator.md
+        - name: "System.Photo.Brightness"
+          href: props-system-photo-brightness.md
+        - name: "System.Photo.BrightnessDenominator"
+          href: props-system-photo-brightnessdenominator.md
+        - name: "System.Photo.BrightnessNumerator"
+          href: props-system-photo-brightnessnumerator.md
+        - name: "System.Photo.CameraManufacturer"
+          href: props-system-photo-cameramanufacturer.md
+        - name: "System.Photo.CameraModel"
+          href: props-system-photo-cameramodel.md
+        - name: "System.Photo.CameraSerialNumber"
+          href: props-system-photo-cameraserialnumber.md
+        - name: "System.Photo.Contrast"
+          href: props-system-photo-contrast.md
+        - name: "System.Photo.ContrastText"
+          href: props-system-photo-contrasttext.md
+        - name: "System.Photo.DateTaken"
+          href: props-system-photo-datetaken.md
+        - name: "System.Photo.DigitalZoom"
+          href: props-system-photo-digitalzoom.md
+        - name: "System.Photo.DigitalZoomDenominator"
+          href: props-system-photo-digitalzoomdenominator.md
+        - name: "System.Photo.DigitalZoomNumerator"
+          href: props-system-photo-digitalzoomnumerator.md
+        - name: "System.Photo.Event"
+          href: props-system-photo-event.md
+        - name: "System.Photo.EXIFVersion"
+          href: props-system-photo-exifversion.md
+        - name: "System.Photo.ExposureBias"
+          href: props-system-photo-exposurebias.md
+        - name: "System.Photo.ExposureBiasDenominator"
+          href: props-system-photo-exposurebiasdenominator.md
+        - name: "System.Photo.ExposureBiasNumerator"
+          href: props-system-photo-exposurebiasnumerator.md
+        - name: "System.Photo.ExposureIndex"
+          href: props-system-photo-exposureindex.md
+        - name: "System.Photo.ExposureIndexDenominator"
+          href: props-system-photo-exposureindexdenominator.md
+        - name: "System.Photo.ExposureIndexNumerator"
+          href: props-system-photo-exposureindexnumerator.md
+        - name: "System.Photo.ExposureProgram"
+          href: props-system-photo-exposureprogram.md
+        - name: "System.Photo.ExposureProgramText"
+          href: props-system-photo-exposureprogramtext.md
+        - name: "System.Photo.ExposureTime"
+          href: props-system-photo-exposuretime.md
+        - name: "System.Photo.ExposureTimeDenominator"
+          href: props-system-photo-exposuretimedenominator.md
+        - name: "System.Photo.ExposureTimeNumerator"
+          href: props-system-photo-exposuretimenumerator.md
+        - name: "System.Photo.Flash"
+          href: props-system-photo-flash.md
+        - name: "System.Photo.FlashEnergy"
+          href: props-system-photo-flashenergy.md
+        - name: "System.Photo.FlashEnergyDenominator"
+          href: props-system-photo-flashenergydenominator.md
+        - name: "System.Photo.FlashEnergyNumerator"
+          href: props-system-photo-flashenergynumerator.md
+        - name: "System.Photo.FlashManufacturer"
+          href: props-system-photo-flashmanufacturer.md
+        - name: "System.Photo.FlashModel"
+          href: props-system-photo-flashmodel.md
+        - name: "System.Photo.FlashText"
+          href: props-system-photo-flashtext.md
+        - name: "System.Photo.FNumber"
+          href: props-system-photo-fnumber.md
+        - name: "System.Photo.FNumberDenominator"
+          href: props-system-photo-fnumberdenominator.md
+        - name: "System.Photo.FNumberNumerator"
+          href: props-system-photo-fnumbernumerator.md
+        - name: "System.Photo.FocalLength"
+          href: props-system-photo-focallength.md
+        - name: "System.Photo.FocalLengthDenominator"
+          href: props-system-photo-focallengthdenominator.md
+        - name: "System.Photo.FocalLengthInFilm"
+          href: props-system-photo-focallengthinfilm.md
+        - name: "System.Photo.FocalLengthNumerator"
+          href: props-system-photo-focallengthnumerator.md
+        - name: "System.Photo.FocalPlaneXResolution"
+          href: props-system-photo-focalplanexresolution.md
+        - name: "System.Photo.FocalPlaneXResolutionDenominator"
+          href: props-system-photo-focalplanexresolutiondenominator.md
+        - name: "System.Photo.FocalPlaneXResolutionNumerator"
+          href: props-system-photo-focalplanexresolutionnumerator.md
+        - name: "System.Photo.FocalPlaneYResolution"
+          href: props-system-photo-focalplaneyresolution.md
+        - name: "System.Photo.FocalPlaneYResolutionDenominator"
+          href: props-system-photo-focalplaneyresolutiondenominator.md
+        - name: "System.Photo.FocalPlaneYResolutionNumerator"
+          href: props-system-photo-focalplaneyresolutionnumerator.md
+        - name: "System.Photo.GainControl"
+          href: props-system-photo-gaincontrol.md
+        - name: "System.Photo.GainControlDenominator"
+          href: props-system-photo-gaincontroldenominator.md
+        - name: "System.Photo.GainControlNumerator"
+          href: props-system-photo-gaincontrolnumerator.md
+        - name: "System.Photo.GainControlText"
+          href: props-system-photo-gaincontroltext.md
+        - name: "System.Photo.ISOSpeed"
+          href: props-system-photo-isospeed.md
+        - name: "System.Photo.LensManufacturer"
+          href: props-system-photo-lensmanufacturer.md
+        - name: "System.Photo.LensModel"
+          href: props-system-photo-lensmodel.md
+        - name: "System.Photo.LightSource"
+          href: props-system-photo-lightsource.md
+        - name: "System.Photo.MakerNote"
+          href: props-system-photo-makernote.md
+        - name: "System.Photo.MakerNoteOffset"
+          href: props-system-photo-makernoteoffset.md
+        - name: "System.Photo.MaxAperture"
+          href: props-system-photo-maxaperture.md
+        - name: "System.Photo.MaxApertureDenominator"
+          href: props-system-photo-maxaperturedenominator.md
+        - name: "System.Photo.MaxApertureNumerator"
+          href: props-system-photo-maxaperturenumerator.md
+        - name: "System.Photo.MeteringMode"
+          href: props-system-photo-meteringmode.md
+        - name: "System.Photo.MeteringModeText"
+          href: props-system-photo-meteringmodetext.md
+        - name: "System.Photo.Orientation"
+          href: props-system-photo-orientation.md
+        - name: "System.Photo.OrientationText"
+          href: props-system-photo-orientationtext.md
+        - name: "System.Photo.PeopleNames"
+          href: props-system-photo-peoplenames.md
+        - name: "System.Photo.PhotometricInterpretation"
+          href: props-system-photo-photometricinterpretation.md
+        - name: "System.Photo.PhotometricInterpretationText"
+          href: props-system-photo-photometricinterpretationtext.md
+        - name: "System.Photo.ProgramMode"
+          href: props-system-photo-programmode.md
+        - name: "System.Photo.ProgramModeText"
+          href: props-system-photo-programmodetext.md
+        - name: "System.Photo.RelatedSoundFile"
+          href: props-system-photo-relatedsoundfile.md
+        - name: "System.Photo.Saturation"
+          href: props-system-photo-saturation.md
+        - name: "System.Photo.SaturationText"
+          href: props-system-photo-saturationtext.md
+        - name: "System.Photo.Sharpness"
+          href: props-system-photo-sharpness.md
+        - name: "System.Photo.SharpnessText"
+          href: props-system-photo-sharpnesstext.md
+        - name: "System.Photo.ShutterSpeed"
+          href: props-system-photo-shutterspeed.md
+        - name: "System.Photo.ShutterSpeedDenominator"
+          href: props-system-photo-shutterspeeddenominator.md
+        - name: "System.Photo.ShutterSpeedNumerator"
+          href: props-system-photo-shutterspeednumerator.md
+        - name: "System.Photo.SubjectDistance"
+          href: props-system-photo-subjectdistance.md
+        - name: "System.Photo.SubjectDistanceDenominator"
+          href: props-system-photo-subjectdistancedenominator.md
+        - name: "System.Photo.SubjectDistanceNumerator"
+          href: props-system-photo-subjectdistancenumerator.md
+        - name: "System.Photo.TagViewAggregate"
+          href: props-system-photo-tagviewaggregate.md
+        - name: "System.Photo.TranscodedForSync"
+          href: props-system-photo-transcodedforsync.md
+        - name: "System.Photo.WhiteBalance"
+          href: props-system-photo-whitebalance.md
+        - name: "System.Photo.WhiteBalanceText"
+          href: props-system-photo-whitebalancetext.md
+      - name: "PropGroup"
+        href: propgroup-bumper.md
+        items: 
+        - name: "System.PropGroup.Advanced"
+          href: props-system-propgroup-advanced.md
+        - name: "System.PropGroup.Audio"
+          href: props-system-propgroup-audio.md
+        - name: "System.PropGroup.Calendar"
+          href: props-system-propgroup-calendar.md
+        - name: "System.PropGroup.Camera"
+          href: props-system-propgroup-camera.md
+        - name: "System.PropGroup.Contact"
+          href: props-system-propgroup-contact.md
+        - name: "System.PropGroup.Content"
+          href: props-system-propgroup-content.md
+        - name: "System.PropGroup.Description"
+          href: props-system-propgroup-description.md
+        - name: "System.PropGroup.FileSystem"
+          href: props-system-propgroup-filesystem.md
+        - name: "System.PropGroup.General"
+          href: props-system-propgroup-general.md
+        - name: "System.PropGroup.GPS"
+          href: props-system-propgroup-gps.md
+        - name: "System.PropGroup.Image"
+          href: props-system-propgroup-image.md
+        - name: "System.PropGroup.Media"
+          href: props-system-propgroup-media.md
+        - name: "System.PropGroup.MediaAdvanced"
+          href: props-system-propgroup-mediaadvanced.md
+        - name: "System.PropGroup.Message"
+          href: props-system-propgroup-message.md
+        - name: "System.PropGroup.Music"
+          href: props-system-propgroup-music.md
+        - name: "System.PropGroup.Origin"
+          href: props-system-propgroup-origin.md
+        - name: "System.PropGroup.PhotoAdvanced"
+          href: props-system-propgroup-photoadvanced.md
+        - name: "System.PropGroup.RecordedTV"
+          href: props-system-propgroup-recordedtv.md
+        - name: "System.PropGroup.Video"
+          href: props-system-propgroup-video.md
+      - name: "PropList"
+        href: proplist-bumper.md
+        items: 
+        - name: "System.InfoTipText"
+          href: props-system-infotiptext.md
+        - name: "System.PropList.ConflictPrompt"
+          href: props-system-proplist-conflictprompt.md
+        - name: "System.PropList.ContentViewModeForBrowse"
+          href: props-system-proplist-contentviewmodeforbrowse.md
+        - name: "System.PropList.ContentViewModeForSearch"
+          href: props-system-proplist-contentviewmodeforsearch.md
+        - name: "System.PropList.ExtendedTileInfo"
+          href: props-system-proplist-extendedtileinfo.md
+        - name: "System.PropList.FileOperationPrompt"
+          href: props-system-proplist-fileoperationprompt.md
+        - name: "System.PropList.FullDetails"
+          href: props-system-proplist-fulldetails.md
+        - name: "System.PropList.InfoTip"
+          href: props-system-proplist-infotip.md
+        - name: "System.PropList.NonPersonal"
+          href: props-system-proplist-nonpersonal.md
+        - name: "System.PropList.PreviewDetails"
+          href: props-system-proplist-previewdetails.md
+        - name: "System.PropList.PreviewTitle"
+          href: props-system-proplist-previewtitle.md
+        - name: "System.PropList.QuickTip"
+          href: props-system-proplist-quicktip.md
+        - name: "System.PropList.TileInfo"
+          href: props-system-proplist-tileinfo.md
+        - name: "System.PropList.XPDetailsPanel"
+          href: props-system-proplist-xpdetailspanel.md
+      - name: "RecordedTV"
+        href: recordedtv-bumper.md
+        items: 
+        - name: "System.RecordedTV.ChannelNumber"
+          href: props-system-recordedtv-channelnumber.md
+        - name: "System.RecordedTV.Credits"
+          href: props-system-recordedtv-credits.md
+        - name: "System.RecordedTV.DateContentExpires"
+          href: props-system-recordedtv-datecontentexpires.md
+        - name: "System.RecordedTV.EpisodeName"
+          href: props-system-recordedtv-episodename.md
+        - name: "System.RecordedTV.IsATSCContent"
+          href: props-system-recordedtv-isatsccontent.md
+        - name: "System.RecordedTV.IsClosedCaptioningAvailable"
+          href: props-system-recordedtv-isclosedcaptioningavailable.md
+        - name: "System.RecordedTV.IsDTVContent"
+          href: props-system-recordedtv-isdtvcontent.md
+        - name: "System.RecordedTV.IsHDContent"
+          href: props-system-recordedtv-ishdcontent.md
+        - name: "System.RecordedTV.IsRepeatBroadcast"
+          href: props-system-recordedtv-isrepeatbroadcast.md
+        - name: "System.RecordedTV.IsSAP"
+          href: props-system-recordedtv-issap.md
+        - name: "System.RecordedTV.NetworkAffiliation"
+          href: props-system-recordedtv-networkaffiliation.md
+        - name: "System.RecordedTV.OriginalBroadcastDate"
+          href: props-system-recordedtv-originalbroadcastdate.md
+        - name: "System.RecordedTV.ProgramDescription"
+          href: props-system-recordedtv-programdescription.md
+        - name: "System.RecordedTV.RecordingTime"
+          href: props-system-recordedtv-recordingtime.md
+        - name: "System.RecordedTV.StationCallSign"
+          href: props-system-recordedtv-stationcallsign.md
+        - name: "System.RecordedTV.StationName"
+          href: props-system-recordedtv-stationname.md
+      - name: "Security"
+        href: security-buffer.md
+        items: 
+        - name: "System.Security.AllowedEnterpriseDataProtectionIdentities"
+          href: props-system-security-allowedenterprisedataprotectionidentities.md
+        - name: "System.Security.EncryptionOwners"
+          href: props-system-security-encryptionowners.md
+        - name: "System.Security.EncryptionOwnersDisplay"
+          href: props-system-security-encryptionownersdisplay.md
+      - name: "Search"
+        href: search-bumper.md
+        items: 
+        - name: "System.Search.AutoSummary"
+          href: props-system-search-autosummary.md
+        - name: "System.Search.ContainerHash"
+          href: props-system-search-containerhash.md
+        - name: "System.Search.Contents"
+          href: props-system-search-contents.md
+        - name: "System.Search.EntryID"
+          href: props-system-search-entryid.md
+        - name: "System.Search.ExtendedProperties"
+          href: props-system-search-extendedproperties.md
+        - name: "System.Search.GatherTime"
+          href: props-system-search-gathertime.md
+        - name: "System.Search.HitCount"
+          href: props-system-search-hitcount.md
+        - name: "System.Search.IsClosedDirectory"
+          href: props-system-search-iscloseddirectory.md
+        - name: "System.Search.IsFullyContained"
+          href: props-system-search-isfullycontained.md
+        - name: "System.Search.QueryFocusedSummary"
+          href: props-system-search-queryfocusedsummary.md
+        - name: "System.Search.QueryFocusedSummaryWithFallback"
+          href: props-system-search-queryfocusedsummarywithfallback.md
+        - name: "System.Search.QueryPropertyHits"
+          href: props-system-search-querypropertyhits.md
+        - name: "System.Search.Rank"
+          href: props-system-search-rank.md
+        - name: "System.Search.Store"
+          href: props-system-search-store.md
+        - name: "System.Search.UrlToIndex"
+          href: props-system-search-urltoindex.md
+        - name: "System.Search.UrlToIndexWithModificationTime"
+          href: props-system-search-urltoindexwithmodificationtime.md
+      - name: "Shell"
+        href: shell-bumper.md
+        items: 
+        - name: "System.DescriptionID"
+          href: props-system-descriptionid.md
+        - name: "System.InternalName"
+          href: props-system-internalname.md
+        - name: "System.LibraryLocationsCount"
+          href: props-system-librarylocationscount.md
+        - name: "System.Link.TargetSFGAOFlagsStrings"
+          href: props-system-link-targetsfgaoflagsstrings.md
+        - name: "System.Link.TargetUrl"
+          href: props-system-link-targeturl.md
+        - name: "System.NamespaceCLSID"
+          href: props-system-namespaceclsid.md
+        - name: "System.Shell.SFGAOFlagsStrings"
+          href: props-system-shell-sfgaoflagsstrings.md
+        - name: "System.StatusBarSelectedItemCount"
+          href: props-system-statusbarselecteditemcount.md
+        - name: "System.StatusBarViewItemCount"
+          href: props-system-statusbarviewitemcount.md
+      - name: "Software"
+        href: software-bumper.md
+        items: 
+        - name: "System.AppUserModel.ExcludeFromShowInNewInstall"
+          href: props-system-appusermodel-excludefromshowinnewinstall.md
+        - name: "System.AppUserModel.ID"
+          href: props-system-appusermodel-id.md
+        - name: "System.AppUserModel.IsDestListSeparator"
+          href: props-system-appusermodel-isdestlistseparator.md
+        - name: "System.AppUserModel.IsDualMode"
+          href: props-system-appusermodel-isdualmode.md
+        - name: "System.AppUserModel.PreventPinning"
+          href: props-system-appusermodel-preventpinning.md
+        - name: "System.AppUserModel.RelaunchCommand"
+          href: props-system-appusermodel-relaunchcommand.md
+        - name: "System.AppUserModel.RelaunchDisplayNameResource"
+          href: props-system-appusermodel-relaunchdisplaynameresource.md
+        - name: "System.AppUserModel.RelaunchIconResource"
+          href: props-system-appusermodel-relaunchiconresource.md
+        - name: "System.AppUserModel.StartPinOption"
+          href: props-system-appusermodel-startpinoption.md
+        - name: "System.AppUserModel.ToastActivatorCLSID"
+          href: props-system-appusermodel-toastactivatorclsid.md
+        - name: "System.EdgeGesture.DisableTouchWhenFullscreen"
+          href: props-system-edgegesture-disabletouchwhenfullscreen.md
+        - name: "System.Software.DateLastUsed"
+          href: props-system-software-datelastused.md
+        - name: "System.Software.ProductName"
+          href: props-system-software-productname.md
+      - name: "Supplemental"
+        href: supplemental-bumper.md
+        items: 
+        - name: "System.Supplemental.AlbumID"
+          href: props-system-supplemental-albumid.md
+        - name: "System.Supplemental.ResourceId"
+          href: props-system-supplemental-resourceid.md
+      - name: "Sync"
+        href: sync-bumper.md
+        items: 
+        - name: "System.Sync.Comments"
+          href: props-system-sync-comments.md
+        - name: "System.Sync.ConflictDescription"
+          href: props-system-sync-conflictdescription.md
+        - name: "System.Sync.ConflictFirstLocation"
+          href: props-system-sync-conflictfirstlocation.md
+        - name: "System.Sync.ConflictSecondLocation"
+          href: props-system-sync-conflictsecondlocation.md
+        - name: "System.Sync.HandlerCollectionID"
+          href: props-system-sync-handlercollectionid.md
+        - name: "System.Sync.HandlerID"
+          href: props-system-sync-handlerid.md
+        - name: "System.Sync.HandlerName"
+          href: props-system-sync-handlername.md
+        - name: "System.Sync.HandlerType"
+          href: props-system-sync-handlertype.md
+        - name: "System.Sync.HandlerTypeLabel"
+          href: props-system-sync-handlertypelabel.md
+        - name: "System.Sync.ItemID"
+          href: props-system-sync-itemid.md
+        - name: "System.Sync.ItemName"
+          href: props-system-sync-itemname.md
+        - name: "System.Sync.ProgressPercentage"
+          href: props-system-sync-progresspercentage.md
+        - name: "System.Sync.State"
+          href: props-system-sync-state.md
+        - name: "System.Sync.Status"
+          href: props-system-sync-status.md
+      - name: "Task"
+        href: task-bumper.md
+        items: 
+        - name: "System.Task.BillingInformation"
+          href: props-system-task-billinginformation.md
+        - name: "System.Task.CompletionStatus"
+          href: props-system-task-completionstatus.md
+        - name: "System.Task.Owner"
+          href: props-system-task-owner.md
+      - name: "Video"
+        href: video-bumper.md
+        items: 
+        - name: "System.Video.Compression"
+          href: props-system-video-compression.md
+        - name: "System.Video.Director"
+          href: props-system-video-director.md
+        - name: "System.Video.EncodingBitrate"
+          href: props-system-video-encodingbitrate.md
+        - name: "System.Video.FourCC"
+          href: props-system-video-fourcc.md
+        - name: "System.Video.FrameHeight"
+          href: props-system-video-frameheight.md
+        - name: "System.Video.FrameRate"
+          href: props-system-video-framerate.md
+        - name: "System.Video.FrameWidth"
+          href: props-system-video-framewidth.md
+        - name: "System.Video.HorizontalAspectRatio"
+          href: props-system-video-horizontalaspectratio.md
+        - name: "System.Video.IsSpherical"
+          href: props-system-video-isspherical.md
+        - name: "System.Video.IsStereo"
+          href: props-system-video-isstereo.md
+        - name: "System.Video.Orientation"
+          href: props-system-video-orientation.md
+        - name: "System.Video.SampleSize"
+          href: props-system-video-samplesize.md
+        - name: "System.Video.StreamName"
+          href: props-system-video-streamname.md
+        - name: "System.Video.StreamNumber"
+          href: props-system-video-streamnumber.md
+        - name: "System.Video.TotalBitrate"
+          href: props-system-video-totalbitrate.md
+        - name: "System.Video.TranscodedForSync"
+          href: props-system-video-transcodedforsync.md
+        - name: "System.Video.VerticalAspectRatio"
+          href: props-system-video-verticalaspectratio.md
+      - name: "Volume"
+        href: volume-bumper.md
+        items: 
+        - name: "System.Volume.FileSystem"
+          href: props-system-volume-filesystem.md
+        - name: "System.Volume.IsMappedDrive"
+          href: props-system-volume-ismappeddrive.md
+        - name: "System.Volume.IsRoot"
+          href: props-system-volume-isroot.md
+    - name: "Property Description Schema"
+      href: property-description-schema.md
+      items: 
+      - name: "aliasInfo"
+        href: propdesc-schema-aliasinfo.md
+      - name: "booleanFormat"
+        href: propdesc-schema-booleanformat.md
+      - name: "dateTimeFormat"
+        href: propdesc-schema-datetimeformat.md
+      - name: "displayInfo"
+        href: propdesc-schema-displayinfo.md
+      - name: "drawControl"
+        href: propdesc-schema-drawcontrol.md
+      - name: "editControl"
+        href: propdesc-schema-editcontrol.md
+      - name: "enum"
+        href: propdesc-schema-enum.md
+      - name: "enumeratedList"
+        href: propdesc-schema-enumeratedlist.md
+      - name: "enumRange"
+        href: propdesc-schema-enumrange.md
+      - name: "filterControl"
+        href: propdesc-schema-filtercontrol.md
+      - name: "image"
+        href: propdesc-schema-image.md
+      - name: "labelInfo"
+        href: propdesc-schema-labelinfo.md
+      - name: "numberFormat"
+        href: propdesc-schema-numberformat.md
+      - name: "propertyDescription"
+        href: propdesc-schema-propertydescription.md
+      - name: "propertyDescriptionList"
+        href: propdesc-schema-propertydescriptionlist.md
+      - name: "queryControl"
+        href: propdesc-schema-querycontrol.md
+      - name: "relatedProperty"
+        href: propdesc-schema-relatedproperty.md
+      - name: "relatedPropertyInfo"
+        href: propdesc-schema-relatedpropertyinfo.md
+      - name: "searchInfo"
+        href: propdesc-schema-searchinfo.md
+      - name: "stringFormat"
+        href: propdesc-schema-stringformat.md
+      - name: "typeInfo"
+        href: propdesc-schema-typeinfo.md
+    - name: "Property Sets"
+      href: property-sets.md
+      items: 
+      - name: "DBPROPSET_MSIDXS_ROWSETEXT"
+        href: dbpropset-msidxs-rowsetext.md
+    - name: "Interfaces"
+      href: interfaces.md
+      items: 
+      - name: "IPropertyChange"
+        href: /windows/desktop/api/Propsys/nn-propsys-ipropertychange
+        items: 
+        - name: "ApplyToPropVariant"
+          href: /windows/desktop/api/Propsys/nf-propsys-ipropertychange-applytopropvariant
+      - name: "IPropertyChangeArray"
+        href: /windows/desktop/api/Propsys/nn-propsys-ipropertychangearray
+        items: 
+        - name: "Append"
+          href: /windows/desktop/api/Propsys/nf-propsys-ipropertychangearray-append
+        - name: "AppendOrReplace"
+          href: /windows/desktop/api/Propsys/nf-propsys-ipropertychangearray-appendorreplace
+        - name: "GetAt"
+          href: /windows/desktop/api/Propsys/nf-propsys-ipropertychangearray-getat
+        - name: "GetCount"
+          href: /windows/desktop/api/Propsys/nf-propsys-ipropertychangearray-getcount
+        - name: "InsertAt"
+          href: /windows/desktop/api/Propsys/nf-propsys-ipropertychangearray-insertat
+        - name: "IsKeyInArray"
+          href: /windows/desktop/api/Propsys/nf-propsys-ipropertychangearray-iskeyinarray
+        - name: "RemoveAt"
+          href: /windows/desktop/api/Propsys/nf-propsys-ipropertychangearray-removeat
+      - name: "IPropertyDescription"
+        href: /windows/desktop/api/Propsys/nn-propsys-ipropertydescription
+        items: 
+        - name: "CoerceToCanonicalValue"
+          href: /windows/desktop/api/Propsys/nf-propsys-ipropertydescription-coercetocanonicalvalue
+        - name: "FormatForDisplay"
+          href: /windows/desktop/api/Propsys/nf-propsys-ipropertydescription-formatfordisplay
+        - name: "GetAggregationType"
+          href: /windows/desktop/api/Propsys/nf-propsys-ipropertydescription-getaggregationtype
+        - name: "GetCanonicalName"
+          href: /windows/desktop/api/Propsys/nf-propsys-ipropertydescription-getcanonicalname
+        - name: "GetColumnState"
+          href: /windows/desktop/api/Propsys/nf-propsys-ipropertydescription-getcolumnstate
+        - name: "GetConditionType"
+          href: /windows/desktop/api/Propsys/nf-propsys-ipropertydescription-getconditiontype
+        - name: "GetDefaultColumnWidth"
+          href: /windows/desktop/api/Propsys/nf-propsys-ipropertydescription-getdefaultcolumnwidth
+        - name: "GetDisplayName"
+          href: /windows/desktop/api/Propsys/nf-propsys-ipropertydescription-getdisplayname
+        - name: "GetDisplayType"
+          href: /windows/desktop/api/Propsys/nf-propsys-ipropertydescription-getdisplaytype
+        - name: "GetEditInvitation"
+          href: /windows/desktop/api/propsys/nf-propsys-ipropertydescription-geteditinvitation
+        - name: "GetEnumTypeList"
+          href: /windows/desktop/api/Propsys/nf-propsys-ipropertydescription-getenumtypelist
+        - name: "GetGroupingRange"
+          href: /windows/desktop/api/Propsys/nf-propsys-ipropertydescription-getgroupingrange
+        - name: "GetPropertyKey"
+          href: /windows/desktop/api/Propsys/nf-propsys-ipropertydescription-getpropertykey
+        - name: "GetPropertyType"
+          href: /windows/desktop/api/Propsys/nf-propsys-ipropertydescription-getpropertytype
+        - name: "GetRelativeDescription"
+          href: /windows/desktop/api/Propsys/nf-propsys-ipropertydescription-getrelativedescription
+        - name: "GetRelativeDescriptionType"
+          href: /windows/desktop/api/Propsys/nf-propsys-ipropertydescription-getrelativedescriptiontype
+        - name: "GetSortDescription"
+          href: /windows/desktop/api/Propsys/nf-propsys-ipropertydescription-getsortdescription
+        - name: "GetSortDescriptionLabel"
+          href: /windows/desktop/api/Propsys/nf-propsys-ipropertydescription-getsortdescriptionlabel
+        - name: "GetTypeFlags"
+          href: /windows/desktop/api/Propsys/nf-propsys-ipropertydescription-gettypeflags
+        - name: "GetViewFlags"
+          href: /windows/desktop/api/Propsys/nf-propsys-ipropertydescription-getviewflags
+        - name: "IsValueCanonical"
+          href: /windows/desktop/api/Propsys/nf-propsys-ipropertydescription-isvaluecanonical
+      - name: "IPropertyDescription2"
+        href: /windows/desktop/api/Propsys/nn-propsys-ipropertydescription2
+        items: 
+        - name: "GetImageReferenceForValue"
+          href: /windows/desktop/api/Propsys/nf-propsys-ipropertydescription2-getimagereferenceforvalue
+      - name: "IPropertyDescriptionAliasInfo"
+        href: /windows/desktop/api/Propsys/nn-propsys-ipropertydescriptionaliasinfo
+        items: 
+        - name: "GetAdditionalSortByAliases"
+          href: /windows/desktop/api/Propsys/nf-propsys-ipropertydescriptionaliasinfo-getadditionalsortbyaliases
+        - name: "GetSortByAlias"
+          href: /windows/desktop/api/Propsys/nf-propsys-ipropertydescriptionaliasinfo-getsortbyalias
+      - name: "IPropertyDescriptionList"
+        href: /windows/desktop/api/Propsys/nn-propsys-ipropertydescriptionlist
+        items: 
+        - name: "GetAt"
+          href: /windows/desktop/api/Propsys/nf-propsys-ipropertydescriptionlist-getat
+        - name: "GetCount"
+          href: /windows/desktop/api/propsys/nf-propsys-ipropertydescriptionlist-getcount
+      - name: "IPropertyDescriptionRelatedPropertyInfo"
+        href: /windows/desktop/api/Propsys/nn-propsys-ipropertydescriptionrelatedpropertyinfo
+        items: 
+        - name: "GetRelatedProperty"
+          href: /windows/desktop/api/Propsys/nf-propsys-ipropertydescriptionrelatedpropertyinfo-getrelatedproperty
+      - name: "IPropertyDescriptionSearchInfo"
+        href: /windows/desktop/api/Propsys/nn-propsys-ipropertydescriptionsearchinfo
+        items: 
+        - name: "GetColumnIndexType"
+          href: /windows/desktop/api/Propsys/nf-propsys-ipropertydescriptionsearchinfo-getcolumnindextype
+        - name: "GetMaxSize"
+          href: /windows/desktop/api/Propsys/nf-propsys-ipropertydescriptionsearchinfo-getmaxsize
+        - name: "GetProjectionString"
+          href: /windows/desktop/api/Propsys/nf-propsys-ipropertydescriptionsearchinfo-getprojectionstring
+        - name: "GetSearchInfoFlags"
+          href: /windows/desktop/api/Propsys/nf-propsys-ipropertydescriptionsearchinfo-getsearchinfoflags
+      - name: "IPropertyEnumType"
+        href: /windows/desktop/api/Propsys/nn-propsys-ipropertyenumtype
+        items: 
+        - name: "GetDisplayText"
+          href: /windows/desktop/api/Propsys/nf-propsys-ipropertyenumtype-getdisplaytext
+        - name: "GetEnumType"
+          href: /windows/desktop/api/Propsys/nf-propsys-ipropertyenumtype-getenumtype
+        - name: "GetRangeMinValue"
+          href: /windows/desktop/api/Propsys/nf-propsys-ipropertyenumtype-getrangeminvalue
+        - name: "GetRangeSetValue"
+          href: /windows/desktop/api/Propsys/nf-propsys-ipropertyenumtype-getrangesetvalue
+        - name: "GetValue"
+          href: /windows/desktop/api/Propsys/nf-propsys-ipropertyenumtype-getvalue
+      - name: "IPropertyEnumType2"
+        href: /windows/desktop/api/Propsys/nn-propsys-ipropertyenumtype2
+        items: 
+        - name: "GetImageReference"
+          href: /windows/desktop/api/Propsys/nf-propsys-ipropertyenumtype2-getimagereference
+      - name: "IPropertyEnumTypeList"
+        href: /windows/desktop/api/Propsys/nn-propsys-ipropertyenumtypelist
+        items: 
+        - name: "FindMatchingIndex"
+          href: /windows/desktop/api/Propsys/nf-propsys-ipropertyenumtypelist-findmatchingindex
+        - name: "GetAt"
+          href: /windows/desktop/api/Propsys/nf-propsys-ipropertyenumtypelist-getat
+        - name: "GetConditionAt"
+          href: /windows/desktop/api/propsys/nf-propsys-ipropertyenumtypelist-getconditionat
+        - name: "GetCount"
+          href: /windows/desktop/api/Propsys/nf-propsys-ipropertyenumtypelist-getcount
+      - name: "IPropertyStore"
+        href: /windows/desktop/api/propsys/nn-propsys-ipropertystore
+        items: 
+        - name: "Commit"
+          href: /previous-versions/windows/desktop/legacy/bb761470(v=vs.85)
+        - name: "GetAt"
+          href: /previous-versions/windows/desktop/legacy/bb761471(v=vs.85)
+        - name: "GetCount"
+          href: /previous-versions/windows/desktop/legacy/bb761472(v=vs.85)
+        - name: "GetValue"
+          href: /previous-versions/windows/desktop/legacy/bb761473(v=vs.85)
+        - name: "SetValue"
+          href: /previous-versions/windows/desktop/legacy/bb761475(v=vs.85)
+      - name: "IPropertyStoreCache"
+        href: /windows/desktop/api/Propsys/nn-propsys-ipropertystorecache
+        items: 
+        - name: "GetState"
+          href: /windows/desktop/api/Propsys/nf-propsys-ipropertystorecache-getstate
+        - name: "GetValueAndState"
+          href: /windows/desktop/api/Propsys/nf-propsys-ipropertystorecache-getvalueandstate
+        - name: "SetValueAndState"
+          href: /windows/desktop/api/Propsys/nf-propsys-ipropertystorecache-setvalueandstate
+      - name: "IPropertyStoreCapabilities"
+        href: /windows/desktop/api/Propsys/nn-propsys-ipropertystorecapabilities
+        items: 
+        - name: "IsPropertyWritable"
+          href: /windows/desktop/api/Propsys/nf-propsys-ipropertystorecapabilities-ispropertywritable
+      - name: "IPropertyStoreFactory"
+        href: /windows/desktop/api/Propsys/nn-propsys-ipropertystorefactory
+        items: 
+        - name: "GetPropertyStore"
+          href: /windows/desktop/api/Propsys/nf-propsys-ipropertystorefactory-getpropertystore
+        - name: "GetPropertyStoreForKeys"
+          href: /windows/desktop/api/Propsys/nf-propsys-ipropertystorefactory-getpropertystoreforkeys
+      - name: "IPropertySystem"
+        href: /windows/desktop/api/Propsys/nn-propsys-ipropertysystem
+        items: 
+        - name: "EnumeratePropertyDescriptions"
+          href: /windows/desktop/api/Propsys/nf-propsys-ipropertysystem-enumeratepropertydescriptions
+        - name: "FormatForDisplay"
+          href: /windows/desktop/api/Propsys/nf-propsys-ipropertysystem-formatfordisplay
+        - name: "FormatForDisplayAlloc"
+          href: /windows/desktop/api/Propsys/nf-propsys-ipropertysystem-formatfordisplayalloc
+        - name: "GetPropertyDescription"
+          href: /windows/desktop/api/Propsys/nf-propsys-ipropertysystem-getpropertydescription
+        - name: "GetPropertyDescriptionByName"
+          href: /windows/desktop/api/Propsys/nf-propsys-ipropertysystem-getpropertydescriptionbyname
+        - name: "GetPropertyDescriptionListFromString"
+          href: /windows/desktop/api/Propsys/nf-propsys-ipropertysystem-getpropertydescriptionlistfromstring
+        - name: "RefreshPropertySchema"
+          href: /windows/desktop/api/propsys/nf-propsys-ipropertysystem-refreshpropertyschema
+        - name: "RegisterPropertySchema"
+          href: /windows/desktop/api/Propsys/nf-propsys-ipropertysystem-registerpropertyschema
+        - name: "UnregisterPropertySchema"
+          href: /windows/desktop/api/Propsys/nf-propsys-ipropertysystem-unregisterpropertyschema
+      - name: "IPropertyUI"
+        href: /windows/desktop/api/Shobjidl_core/nn-shobjidl_core-ipropertyui
+        items: 
+        - name: "FormatForDisplay"
+          href: /windows/desktop/api/Shobjidl_core/nf-shobjidl_core-ipropertyui-formatfordisplay
+        - name: "GetCanonicalName"
+          href: /previous-versions/windows/desktop/legacy/dd758076(v=vs.85)
+        - name: "GetDefaultWidth"
+          href: /windows/desktop/api/Shobjidl_core/nf-shobjidl_core-ipropertyui-getdefaultwidth
+        - name: "GetDisplayName"
+          href: /windows/desktop/api/Shobjidl_core/nf-shobjidl_core-ipropertyui-getdisplayname
+        - name: "GetFlags"
+          href: /windows/desktop/api/Shobjidl_core/nf-shobjidl_core-ipropertyui-getflags
+        - name: "GetHelpInfo"
+          href: /windows/desktop/api/Shobjidl_core/nf-shobjidl_core-ipropertyui-gethelpinfo
+        - name: "GetPropertyDescription"
+          href: /windows/desktop/api/Shobjidl_core/nf-shobjidl_core-ipropertyui-getpropertydescription
+        - name: "ParsePropertyName"
+          href: /windows/desktop/api/Shobjidl_core/nf-shobjidl_core-ipropertyui-parsepropertyname
+    - name: "Functions"
+      href: functions.md
+      items: 
+      - name: "Property Bag Functions"
+        href: property-bag-functions.md
+        items: 
+        - name: "PSPropertyBag_Delete"
+          href: /windows/desktop/api/Propsys/nf-propsys-pspropertybag_delete
+        - name: "PSPropertyBag_ReadBOOL"
+          href: /windows/desktop/api/Propsys/nf-propsys-pspropertybag_readbool
+        - name: "PSPropertyBag_ReadBSTR"
+          href: /windows/desktop/api/Propsys/nf-propsys-pspropertybag_readbstr
+        - name: "PSPropertyBag_ReadDWORD"
+          href: /windows/desktop/api/propsys/nf-propsys-pspropertybag_readdword
+        - name: "PSPropertyBag_ReadGUID"
+          href: /windows/desktop/api/propsys/nf-propsys-pspropertybag_readguid
+        - name: "PSPropertyBag_ReadInt"
+          href: /windows/desktop/api/Propsys/nf-propsys-pspropertybag_readint
+        - name: "PSPropertyBag_ReadLONG"
+          href: /windows/desktop/api/propsys/nf-propsys-pspropertybag_readlong
+        - name: "PSPropertyBag_ReadPOINTL"
+          href: /windows/desktop/api/Propsys/nf-propsys-pspropertybag_readpointl
+        - name: "PSPropertyBag_ReadPOINTS"
+          href: /windows/desktop/api/Propsys/nf-propsys-pspropertybag_readpoints
+        - name: "PSPropertyBag_ReadPropertyKey"
+          href: /windows/desktop/api/Propsys/nf-propsys-pspropertybag_readpropertykey
+        - name: "PSPropertyBag_ReadRECTL"
+          href: /windows/desktop/api/Propsys/nf-propsys-pspropertybag_readrectl
+        - name: "PSPropertyBag_ReadSHORT"
+          href: /windows/desktop/api/Propsys/nf-propsys-pspropertybag_readshort
+        - name: "PSPropertyBag_ReadStr"
+          href: /windows/desktop/api/Propsys/nf-propsys-pspropertybag_readstr
+        - name: "PSPropertyBag_ReadStrAlloc"
+          href: /windows/desktop/api/Propsys/nf-propsys-pspropertybag_readstralloc
+        - name: "PSPropertyBag_ReadStream"
+          href: /windows/desktop/api/Propsys/nf-propsys-pspropertybag_readstream
+        - name: "PSPropertyBag_ReadType"
+          href: /windows/desktop/api/Propsys/nf-propsys-pspropertybag_readtype
+        - name: "PSPropertyBag_ReadULONGLONG"
+          href: /windows/desktop/api/Propsys/nf-propsys-pspropertybag_readulonglong
+        - name: "PSPropertyBag_ReadUnknown"
+          href: /windows/desktop/api/Propsys/nf-propsys-pspropertybag_readunknown
+        - name: "PSPropertyBag_WriteBOOL"
+          href: /windows/desktop/api/Propsys/nf-propsys-pspropertybag_writebool
+        - name: "PSPropertyBag_WriteBSTR"
+          href: /windows/desktop/api/Propsys/nf-propsys-pspropertybag_writebstr
+        - name: "PSPropertyBag_WriteDWORD"
+          href: /windows/desktop/api/Propsys/nf-propsys-pspropertybag_writedword
+        - name: "PSPropertyBag_WriteGUID"
+          href: /windows/desktop/api/Propsys/nf-propsys-pspropertybag_writeguid
+        - name: "PSPropertyBag_WriteInt"
+          href: /windows/desktop/api/Propsys/nf-propsys-pspropertybag_writeint
+        - name: "PSPropertyBag_WriteLONG"
+          href: /windows/desktop/api/Propsys/nf-propsys-pspropertybag_writelong
+        - name: "PSPropertyBag_WritePOINTL"
+          href: /windows/desktop/api/Propsys/nf-propsys-pspropertybag_writepointl
+        - name: "PSPropertyBag_WritePOINTS"
+          href: /windows/desktop/api/Propsys/nf-propsys-pspropertybag_writepoints
+        - name: "PSPropertyBag_WritePropertyKey"
+          href: /windows/desktop/api/Propsys/nf-propsys-pspropertybag_writepropertykey
+        - name: "PSPropertyBag_WriteRECTL"
+          href: /windows/desktop/api/Propsys/nf-propsys-pspropertybag_writerectl
+        - name: "PSPropertyBag_WriteSHORT"
+          href: /windows/desktop/api/Propsys/nf-propsys-pspropertybag_writeshort
+        - name: "PSPropertyBag_WriteStr"
+          href: /windows/desktop/api/Propsys/nf-propsys-pspropertybag_writestr
+        - name: "PSPropertyBag_WriteStream"
+          href: /windows/desktop/api/Propsys/nf-propsys-pspropertybag_writestream
+        - name: "PSPropertyBag_WriteULONGLONG"
+          href: /windows/desktop/api/Propsys/nf-propsys-pspropertybag_writeulonglong
+        - name: "PSPropertyBag_WriteUnknown"
+          href: /windows/desktop/api/Propsys/nf-propsys-pspropertybag_writeunknown
+      - name: "PROPVARIANT and VARIANT Functions"
+        href: functions-propvarutil.md
+        items: 
+        - name: "ClearPropVariantArray"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-clearpropvariantarray
+        - name: "ClearVariantArray"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-clearvariantarray
+        - name: "FreePropVariantArray"
+          href: /windows/desktop/api/Propidl/nf-propidl-freepropvariantarray
+        - name: "InitPropVariantFromBoolean"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-initpropvariantfromboolean
+        - name: "InitPropVariantFromBooleanVector"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-initpropvariantfrombooleanvector
+        - name: "InitPropVariantFromBuffer"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-initpropvariantfrombuffer
+        - name: "InitPropVariantFromCLSID"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-initpropvariantfromclsid
+        - name: "InitPropVariantFromDouble"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-initpropvariantfromdouble
+        - name: "InitPropVariantFromDoubleVector"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-initpropvariantfromdoublevector
+        - name: "InitPropVariantFromFileTime"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-initpropvariantfromfiletime
+        - name: "InitPropVariantFromFileTimeVector"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-initpropvariantfromfiletimevector
+        - name: "InitPropVariantFromGUIDAsBuffer"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-initpropvariantfromguidasbuffer
+        - name: "InitPropVariantFromGUIDAsString"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-initpropvariantfromguidasstring
+        - name: "InitPropVariantFromInt16"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-initpropvariantfromint16
+        - name: "InitPropVariantFromInt16Vector"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-initpropvariantfromint16vector
+        - name: "InitPropVariantFromInt32"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-initpropvariantfromint32
+        - name: "InitPropVariantFromInt32Vector"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-initpropvariantfromint32vector
+        - name: "InitPropVariantFromInt64"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-initpropvariantfromint64
+        - name: "InitPropVariantFromInt64Vector"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-initpropvariantfromint64vector
+        - name: "InitPropVariantFromPropVariantVectorElem"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-initpropvariantfrompropvariantvectorelem
+        - name: "InitPropVariantFromResource"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-initpropvariantfromresource
+        - name: "InitPropVariantFromString"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-initpropvariantfromstring
+        - name: "InitPropVariantFromStringAsVector"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-initpropvariantfromstringasvector
+        - name: "InitPropVariantFromStringVector"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-initpropvariantfromstringvector
+        - name: "InitPropVariantFromStrRet"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-initpropvariantfromstrret
+        - name: "InitPropVariantFromUInt16"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-initpropvariantfromuint16
+        - name: "InitPropVariantFromUInt16Vector"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-initpropvariantfromuint16vector
+        - name: "InitPropVariantFromUInt32"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-initpropvariantfromuint32
+        - name: "InitPropVariantFromUInt32Vector"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-initpropvariantfromuint32vector
+        - name: "InitPropVariantFromUInt64"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-initpropvariantfromuint64
+        - name: "InitPropVariantFromUInt64Vector"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-initpropvariantfromuint64vector
+        - name: "InitPropVariantVectorFromPropVariant"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-initpropvariantvectorfrompropvariant
+        - name: "InitVariantFromBoolean"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-initvariantfromboolean
+        - name: "InitVariantFromBooleanArray"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-initvariantfrombooleanarray
+        - name: "InitVariantFromBuffer"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-initvariantfrombuffer
+        - name: "InitVariantFromDispatch"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-initvariantfromdispatch
+        - name: "InitVariantFromDosDateTime"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-initvariantfromdosdatetime
+        - name: "InitVariantFromDouble"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-initvariantfromdouble
+        - name: "InitVariantFromDoubleArray"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-initvariantfromdoublearray
+        - name: "InitVariantFromFileTime"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-initvariantfromfiletime
+        - name: "InitVariantFromFileTimeArray"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-initvariantfromfiletimearray
+        - name: "InitVariantFromGUIDAsBuffer"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-initvariantfromguidasbuffer
+        - name: "InitVariantFromGUIDAsString"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-initvariantfromguidasstring
+        - name: "InitVariantFromInt16"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-initvariantfromint16
+        - name: "InitVariantFromInt16Array"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-initvariantfromint16array
+        - name: "InitVariantFromInt32"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-initvariantfromint32
+        - name: "InitVariantFromInt32Array"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-initvariantfromint32array
+        - name: "InitVariantFromInt64"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-initvariantfromint64
+        - name: "InitVariantFromInt64Array"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-initvariantfromint64array
+        - name: "InitVariantFromResource"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-initvariantfromresource
+        - name: "InitVariantFromString"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-initvariantfromstring
+        - name: "InitVariantFromStringArray"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-initvariantfromstringarray
+        - name: "InitVariantFromStrRet"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-initvariantfromstrret
+        - name: "InitVariantFromUInt16"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-initvariantfromuint16
+        - name: "InitVariantFromUInt16Array"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-initvariantfromuint16array
+        - name: "InitVariantFromUInt32"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-initvariantfromuint32
+        - name: "InitVariantFromUInt32Array"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-initvariantfromuint32array
+        - name: "InitVariantFromUInt64"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-initvariantfromuint64
+        - name: "InitVariantFromUInt64Array"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-initvariantfromuint64array
+        - name: "InitVariantFromVariantArrayElem"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-initvariantfromvariantarrayelem
+        - name: "IsPropVariantString"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-ispropvariantstring
+        - name: "IsPropVariantVector"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-ispropvariantvector
+        - name: "IsVariantArray"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-isvariantarray
+        - name: "IsVariantString"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-isvariantstring
+        - name: "IsVarTypeFloat"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-isvartypefloat
+        - name: "IsVarTypeInteger"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-isvartypeinteger
+        - name: "IsVarTypeNumber"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-isvartypenumber
+        - name: "IsVarTypeSignedInteger"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-isvartypesignedinteger
+        - name: "IsVarTypeUnsignedInteger"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-isvartypeunsignedinteger
+        - name: "PropVariantChangeType"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-propvariantchangetype
+        - name: "PropVariantClear"
+          href: /windows/desktop/api/Propidl/nf-propidl-propvariantclear
+        - name: "PropVariantCompare"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-propvariantcompare
+        - name: "PropVariantCompareEx"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-propvariantcompareex
+        - name: "PropVariantCopy"
+          href: /windows/desktop/api/Propidl/nf-propidl-propvariantcopy
+        - name: "PropVariantGetBooleanElem"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-propvariantgetbooleanelem
+        - name: "PropVariantGetDoubleElem"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-propvariantgetdoubleelem
+        - name: "PropVariantGetElem"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-propvariantgetelem
+        - name: "PropVariantGetElementCount"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-propvariantgetelementcount
+        - name: "PropVariantGetFileTimeElem"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-propvariantgetfiletimeelem
+        - name: "PropVariantGetInt16Elem"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-propvariantgetint16elem
+        - name: "PropVariantGetInt32Elem"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-propvariantgetint32elem
+        - name: "PropVariantGetInt64Elem"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-propvariantgetint64elem
+        - name: "PropVariantGetStringElem"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-propvariantgetstringelem
+        - name: "PropVariantGetUInt16Elem"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-propvariantgetuint16elem
+        - name: "PropVariantGetUInt32Elem"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-propvariantgetuint32elem
+        - name: "PropVariantGetUInt64Elem"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-propvariantgetuint64elem
+        - name: "PropVariantToBoolean"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-propvarianttoboolean
+        - name: "PropVariantToBooleanVector"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-propvarianttobooleanvector
+        - name: "PropVariantToBooleanVectorAlloc"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-propvarianttobooleanvectoralloc
+        - name: "PropVariantToBooleanWithDefault"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-propvarianttobooleanwithdefault
+        - name: "PropVariantToBSTR"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-propvarianttobstr
+        - name: "PropVariantToBuffer"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-propvarianttobuffer
+        - name: "PropVariantToCLSID"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-propvarianttoclsid
+        - name: "PropVariantToDouble"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-propvarianttodouble
+        - name: "PropVariantToDoubleVector"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-propvarianttodoublevector
+        - name: "PropVariantToDoubleVectorAlloc"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-propvarianttodoublevectoralloc
+        - name: "PropVariantToDoubleWithDefault"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-propvarianttodoublewithdefault
+        - name: "PropVariantToFileTime"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-propvarianttofiletime
+        - name: "PropVariantToFileTimeVector"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-propvarianttofiletimevector
+        - name: "PropVariantToFileTimeVectorAlloc"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-propvarianttofiletimevectoralloc
+        - name: "PropVariantToGUID"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-propvarianttoguid
+        - name: "PropVariantToInt16"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-propvarianttoint16
+        - name: "PropVariantToInt16Vector"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-propvarianttoint16vector
+        - name: "PropVariantToInt16VectorAlloc"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-propvarianttoint16vectoralloc
+        - name: "PropVariantToInt16WithDefault"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-propvarianttoint16withdefault
+        - name: "PropVariantToInt32"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-propvarianttoint32
+        - name: "PropVariantToInt32Vector"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-propvarianttoint32vector
+        - name: "PropVariantToInt32VectorAlloc"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-propvarianttoint32vectoralloc
+        - name: "PropVariantToInt32WithDefault"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-propvarianttoint32withdefault
+        - name: "PropVariantToInt64"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-propvarianttoint64
+        - name: "PropVariantToInt64Vector"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-propvarianttoint64vector
+        - name: "PropVariantToInt64VectorAlloc"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-propvarianttoint64vectoralloc
+        - name: "PropVariantToInt64WithDefault"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-propvarianttoint64withdefault
+        - name: "PropVariantToString"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-propvarianttostring
+        - name: "PropVariantToStringAlloc"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-propvarianttostringalloc
+        - name: "PropVariantToStringVector"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-propvarianttostringvector
+        - name: "PropVariantToStringVectorAlloc"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-propvarianttostringvectoralloc
+        - name: "PropVariantToStringWithDefault"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-propvarianttostringwithdefault
+        - name: "PropVariantToStrRet"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-propvarianttostrret
+        - name: "PropVariantToUInt16"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-propvarianttouint16
+        - name: "PropVariantToUInt16Vector"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-propvarianttouint16vector
+        - name: "PropVariantToUInt16VectorAlloc"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-propvarianttouint16vectoralloc
+        - name: "PropVariantToUInt16WithDefault"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-propvarianttouint16withdefault
+        - name: "PropVariantToUInt32"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-propvarianttouint32
+        - name: "PropVariantToUInt32Vector"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-propvarianttouint32vector
+        - name: "PropVariantToUInt32VectorAlloc"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-propvarianttouint32vectoralloc
+        - name: "PropVariantToUInt32WithDefault"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-propvarianttouint32withdefault
+        - name: "PropVariantToUInt64"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-propvarianttouint64
+        - name: "PropVariantToUInt64Vector"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-propvarianttouint64vector
+        - name: "PropVariantToUInt64VectorAlloc"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-propvarianttouint64vectoralloc
+        - name: "PropVariantToUInt64WithDefault"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-propvarianttouint64withdefault
+        - name: "PropVariantToVariant"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-propvarianttovariant
+        - name: "PropVariantToWinRTPropertyValue"
+          href: /windows/desktop/api/propsys/nf-propsys-propvarianttowinrtpropertyvalue
+        - name: "SHPropStgCreate"
+          href: /windows/desktop/api/Shlobj_core/nf-shlobj_core-shpropstgcreate
+        - name: "SHPropStgReadMultiple"
+          href: /windows/desktop/api/Shlobj_core/nf-shlobj_core-shpropstgreadmultiple
+        - name: "SHPropStgWriteMultiple"
+          href: /windows/desktop/api/Shlobj_core/nf-shlobj_core-shpropstgwritemultiple
+        - name: "StgDeserializePropVariant"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-stgdeserializepropvariant
+        - name: "StgSerializePropVariant"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-stgserializepropvariant
+        - name: "VariantCompare"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-variantcompare
+        - name: "VariantGetBooleanElem"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-variantgetbooleanelem
+        - name: "VariantGetDoubleElem"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-variantgetdoubleelem
+        - name: "VariantGetElem"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-variantgetelem
+        - name: "VariantGetElementCount"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-variantgetelementcount
+        - name: "VariantGetInt16Elem"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-variantgetint16elem
+        - name: "VariantGetInt32Elem"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-variantgetint32elem
+        - name: "VariantGetInt64Elem"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-variantgetint64elem
+        - name: "VariantGetStringElem"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-variantgetstringelem
+        - name: "VariantGetUInt16Elem"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-variantgetuint16elem
+        - name: "VariantGetUInt32Elem"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-variantgetuint32elem
+        - name: "VariantGetUInt64Elem"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-variantgetuint64elem
+        - name: "VariantToBoolean"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-varianttoboolean
+        - name: "VariantToBooleanArray"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-varianttobooleanarray
+        - name: "VariantToBooleanArrayAlloc"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-varianttobooleanarrayalloc
+        - name: "VariantToBooleanWithDefault"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-varianttobooleanwithdefault
+        - name: "VariantToBuffer"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-varianttobuffer
+        - name: "VariantToDosDateTime"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-varianttodosdatetime
+        - name: "VariantToDouble"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-varianttodouble
+        - name: "VariantToDoubleArray"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-varianttodoublearray
+        - name: "VariantToDoubleArrayAlloc"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-varianttodoublearrayalloc
+        - name: "VariantToDoubleWithDefault"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-varianttodoublewithdefault
+        - name: "VariantToFileTime"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-varianttofiletime
+        - name: "VariantToGUID"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-varianttoguid
+        - name: "VariantToInt16"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-varianttoint16
+        - name: "VariantToInt16Array"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-varianttoint16array
+        - name: "VariantToInt16ArrayAlloc"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-varianttoint16arrayalloc
+        - name: "VariantToInt16WithDefault"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-varianttoint16withdefault
+        - name: "VariantToInt32"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-varianttoint32
+        - name: "VariantToInt32Array"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-varianttoint32array
+        - name: "VariantToInt32ArrayAlloc"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-varianttoint32arrayalloc
+        - name: "VariantToInt32WithDefault"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-varianttoint32withdefault
+        - name: "VariantToInt64"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-varianttoint64
+        - name: "VariantToInt64Array"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-varianttoint64array
+        - name: "VariantToInt64ArrayAlloc"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-varianttoint64arrayalloc
+        - name: "VariantToInt64WithDefault"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-varianttoint64withdefault
+        - name: "VariantToPropVariant"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-varianttopropvariant
+        - name: "VariantToString"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-varianttostring
+        - name: "VariantToStringAlloc"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-varianttostringalloc
+        - name: "VariantToStringArray"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-varianttostringarray
+        - name: "VariantToStringArrayAlloc"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-varianttostringarrayalloc
+        - name: "VariantToStringWithDefault"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-varianttostringwithdefault
+        - name: "VariantToStrRet"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-varianttostrret
+        - name: "VariantToUInt16"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-varianttouint16
+        - name: "VariantToUInt16Array"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-varianttouint16array
+        - name: "VariantToUInt16ArrayAlloc"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-varianttouint16arrayalloc
+        - name: "VariantToUInt16WithDefault"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-varianttouint16withdefault
+        - name: "VariantToUInt32"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-varianttouint32
+        - name: "VariantToUInt32Array"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-varianttouint32array
+        - name: "VariantToUInt32ArrayAlloc"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-varianttouint32arrayalloc
+        - name: "VariantToUInt32WithDefault"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-varianttouint32withdefault
+        - name: "VariantToUInt64"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-varianttouint64
+        - name: "VariantToUInt64Array"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-varianttouint64array
+        - name: "VariantToUInt64ArrayAlloc"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-varianttouint64arrayalloc
+        - name: "VariantToUInt64WithDefault"
+          href: /windows/desktop/api/Propvarutil/nf-propvarutil-varianttouint64withdefault
+        - name: "WinRTPropertyValueToPropVariant"
+          href: /windows/desktop/api/Propsys/nf-propsys-winrtpropertyvaluetopropvariant
+      - name: "PifMgr_CloseProperties"
+        href: /windows/desktop/api/Shlobj_core/nf-shlobj_core-pifmgr_closeproperties
+      - name: "PifMgr_GetProperties"
+        href: /windows/desktop/api/Shlobj_core/nf-shlobj_core-pifmgr_getproperties
+      - name: "PifMgr_OpenProperties"
+        href: /windows/desktop/api/Shlobj_core/nf-shlobj_core-pifmgr_openproperties
+      - name: "PifMgr_SetProperties"
+        href: /windows/desktop/api/Shlobj_core/nf-shlobj_core-pifmgr_setproperties
+      - name: "PSCoerceToCanonicalValue"
+        href: /windows/desktop/api/Propsys/nf-propsys-pscoercetocanonicalvalue
+      - name: "PSCreateAdapterFromPropertyStore"
+        href: /windows/desktop/api/Propsys/nf-propsys-pscreateadapterfrompropertystore
+      - name: "PSCreateDelayedMultiplexPropertyStore"
+        href: /windows/desktop/api/Propsys/nf-propsys-pscreatedelayedmultiplexpropertystore
+      - name: "PSCreateMemoryPropertyStore"
+        href: /windows/desktop/api/Propsys/nf-propsys-pscreatememorypropertystore
+      - name: "PSCreateMemoryPropertyStoreMarshalByValue"
+        href: /previous-versions/windows/desktop/legacy/mt712605(v=vs.85)
+      - name: "PSCreateMultiplexPropertyStore"
+        href: /windows/desktop/api/Propsys/nf-propsys-pscreatemultiplexpropertystore
+      - name: "PSCreatePropertyChangeArray"
+        href: /windows/desktop/api/Propsys/nf-propsys-pscreatepropertychangearray
+      - name: "PSCreatePropertyStoreFromObject"
+        href: /windows/desktop/api/Propsys/nf-propsys-pscreatepropertystorefromobject
+      - name: "PSCreatePropertyStoreFromPropertySetStorage"
+        href: /windows/desktop/api/Propsys/nf-propsys-pscreatepropertystorefrompropertysetstorage
+      - name: "PSCreateSimplePropertyChange"
+        href: /windows/desktop/api/Propsys/nf-propsys-pscreatesimplepropertychange
+      - name: "PSEnumeratePropertyDescriptions"
+        href: /windows/desktop/api/Propsys/nf-propsys-psenumeratepropertydescriptions
+      - name: "PSFormatForDisplay"
+        href: /windows/desktop/api/Propsys/nf-propsys-psformatfordisplay
+      - name: "PSFormatForDisplayAlloc"
+        href: /windows/desktop/api/Propsys/nf-propsys-psformatfordisplayalloc
+      - name: "PSFormatPropertyValue"
+        href: /windows/desktop/api/Propsys/nf-propsys-psformatpropertyvalue
+      - name: "PSGetImageReferenceForValue"
+        href: /windows/desktop/api/propsys/nf-propsys-psgetimagereferenceforvalue
+      - name: "PSGetItemPropertyHandler"
+        href: /windows/desktop/api/Propsys/nf-propsys-psgetitempropertyhandler
+      - name: "PSGetItemPropertyHandlerWithCreateObject"
+        href: /windows/desktop/api/Propsys/nf-propsys-psgetitempropertyhandlerwithcreateobject
+      - name: "PSGetNamedPropertyFromPropertyStorage"
+        href: /windows/desktop/api/Propsys/nf-propsys-psgetnamedpropertyfrompropertystorage
+      - name: "PSGetNameFromPropertyKey"
+        href: /windows/desktop/api/Propsys/nf-propsys-psgetnamefrompropertykey
+      - name: "PSGetPropertyDescription"
+        href: /windows/desktop/api/Propsys/nf-propsys-psgetpropertydescription
+      - name: "PSGetPropertyDescriptionByName"
+        href: /windows/desktop/api/Propsys/nf-propsys-psgetpropertydescriptionbyname
+      - name: "PSGetPropertyDescriptionListFromString"
+        href: /windows/desktop/api/Propsys/nf-propsys-psgetpropertydescriptionlistfromstring
+      - name: "PSGetPropertyFromPropertyStorage"
+        href: /windows/desktop/api/Propsys/nf-propsys-psgetpropertyfrompropertystorage
+      - name: "PSGetPropertyKeyFromName"
+        href: /windows/desktop/api/Propsys/nf-propsys-psgetpropertykeyfromname
+      - name: "PSGetPropertySystem"
+        href: /windows/desktop/api/Propsys/nf-propsys-psgetpropertysystem
+      - name: "PSGetPropertyValue"
+        href: /windows/desktop/api/Propsys/nf-propsys-psgetpropertyvalue
+      - name: "PSLookupPropertyHandlerCLSID"
+        href: /windows/desktop/api/Propsys/nf-propsys-pslookuppropertyhandlerclsid
+      - name: "PSPropertyKeyFromString"
+        href: /windows/desktop/api/Propsys/nf-propsys-pspropertykeyfromstring
+      - name: "PSRefreshPropertySchema"
+        href: /windows/desktop/api/propsys/nf-propsys-psrefreshpropertyschema
+      - name: "PSRegisterPropertySchema"
+        href: /windows/desktop/api/Propsys/nf-propsys-psregisterpropertyschema
+      - name: "PSSetPropertyValue"
+        href: /windows/desktop/api/Propsys/nf-propsys-pssetpropertyvalue
+      - name: "PSStringFromPropertyKey"
+        href: /windows/desktop/api/Propsys/nf-propsys-psstringfrompropertykey
+      - name: "PSUnregisterPropertySchema"
+        href: /windows/desktop/api/Propsys/nf-propsys-psunregisterpropertyschema
+      - name: "SHAddDefaultPropertiesByExt"
+        href: /windows/desktop/api/Shobjidl/nf-shobjidl-shadddefaultpropertiesbyext
+      - name: "SHGetPropertyStoreForWindow"
+        href: /windows/desktop/api/Shellapi/nf-shellapi-shgetpropertystoreforwindow
+      - name: "SHGetPropertyStoreFromIDList"
+        href: /windows/desktop/api/Shobjidl_core/nf-shobjidl_core-shgetpropertystorefromidlist
+      - name: "SHGetPropertyStoreFromParsingName"
+        href: /windows/desktop/api/Shobjidl_core/nf-shobjidl_core-shgetpropertystorefromparsingname
+      - name: "SHPropStgCreate"
+        href: /windows/desktop/api/Shlobj_core/nf-shlobj_core-shpropstgcreate
+      - name: "SHPropStgReadMultiple"
+        href: /windows/desktop/api/Shlobj_core/nf-shlobj_core-shpropstgreadmultiple
+      - name: "SHPropStgWriteMultiple"
+        href: /windows/desktop/api/Shlobj_core/nf-shlobj_core-shpropstgwritemultiple
+    - name: "Structures"
+      href: structures.md
+      items: 
+      - name: "PROPERTYKEY"
+        href: /windows/win32/api/wtypes/ns-wtypes-propertykey
+      - name: "PROPPRG"
+        href: /windows/desktop/api/Shlobj_core/ns-shlobj_core-propprg
+    - name: "Constants, Enumerations, and Flags"
+      href: constants--enumerations--and-flags.md
+      items: 
+      - name: "GETPROPERTYSTOREFLAGS"
+        href: /windows/desktop/api/Propsys/ne-propsys-getpropertystoreflags
+      - name: "PDOPSTATUS"
+        href: /windows/desktop/api/Shobjidl_core/ne-shobjidl_core-pdopstatus
+      - name: "PKA_FLAGS"
+        href: /windows/desktop/api/Propsys/ne-propsys-pka_flags
+      - name: "PLACEHOLDER_STATES"
+        href: /windows/desktop/api/Shobjidl_core/ne-shobjidl_core-placeholder_states
+      - name: "PROPDESC_AGGREGATION_TYPE"
+        href: /windows/desktop/api/Propsys/ne-propsys-propdesc_aggregation_type
+      - name: "PROPDESC_COLUMNINDEX_TYPE"
+        href: /windows/desktop/api/Propsys/ne-propsys-propdesc_columnindex_type
+      - name: "PROPDESC_CONDITION_TYPE"
+        href: /windows/desktop/api/Propsys/ne-propsys-propdesc_condition_type
+      - name: "PROPDESC_ENUMFILTER"
+        href: /windows/desktop/api/Propsys/ne-propsys-propdesc_enumfilter
+      - name: "PROPDESC_FORMAT_FLAGS"
+        href: /windows/desktop/api/Propsys/ne-propsys-propdesc_format_flags
+      - name: "PROPDESC_RELATIVEDESCRIPTION_TYPE"
+        href: /windows/desktop/api/Propsys/ne-propsys-propdesc_relativedescription_type
+      - name: "PROPDESC_SEARCHINFO_FLAGS"
+        href: /windows/desktop/api/Propsys/ne-propsys-propdesc_searchinfo_flags
+      - name: "PROPDESC_TYPE_FLAGS"
+        href: /windows/desktop/api/Propsys/ne-propsys-propdesc_type_flags
+      - name: "PROPDESC_VIEW_FLAGS"
+        href: /windows/desktop/api/Propsys/ne-propsys-propdesc_view_flags
+      - name: "PROPERTYUI_FLAGS"
+        href: /windows/desktop/api/shobjidl_core/ne-shobjidl_core-_propertyui_flags
+      - name: "PROPVAR_COMPARE_UNIT"
+        href: /windows/desktop/api/PropVarUtil/ne-propvarutil-propvar_compare_unit
+      - name: "PSC_STATE"
+        href: /windows/desktop/api/Propsys/ne-propsys-psc_state
+      - name: "SYNC_ENGINE_STATE_FLAGS"
+        href: /windows/desktop/api/Shobjidl/ne-shobjidl-sync_engine_state_flags
+      - name: "SYNC_TRANSFER_STATUS"
+        href: /windows/desktop/api/Shobjidl_core/ne-shobjidl_core-sync_transfer_status
+  - name: "Property System Code Samples"
+    href: property-system-code-samples.md

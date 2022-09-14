@@ -1,0 +1,19 @@
+- name: "windowsnumerics.h APIs"
+  href: windowsnumerics-h-apis-portal.md
+  items: 
+  - name: "float2 structure"
+    href: float2-structure.md
+  - name: "float3 structure"
+    href: float3-structure.md
+  - name: "float3x2 structure"
+    href: float3x2-structure.md
+  - name: "float4 structure"
+    href: float4-structure.md
+  - name: "float4x4 structure"
+    href: float4x4-structure.md
+  - name: "plane structure"
+    href: plane-structure.md
+  - name: "quaternion structure"
+    href: quaternion-structure.md
+  - name: "Windows numerics and DirectXMath interop APIs"
+    href: windows-numerics-and-directxmath-interop-apis.md

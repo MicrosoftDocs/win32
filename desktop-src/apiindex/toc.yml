@@ -1,0 +1,17 @@
+- name: "API index"
+  href: api-index-portal.md
+  items: 
+  - name: "Windows API list"
+    href: windows-api-list.md
+  - name: "Windows API sets"
+    items: 
+    - name: "Overview"
+      href: windows-apisets.md
+    - name: "API set loader operation"
+      href: api-set-loader-operation.md
+    - name: "Detect API set availability"
+      href: detect-api-set-availability.md
+    - name: "Windows umbrella libraries"
+      href: windows-umbrella-libraries.md
+  - name: "WinRT APIs callable from a desktop app"
+    href: uwp-apis-callable-from-a-classic-desktop-app.md

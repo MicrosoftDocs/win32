@@ -1,0 +1,60 @@
+- name: "System Shutdown"
+  href: system-shutdown.md
+  items: 
+  - name: "Shutdown Changes for Windows Vista"
+    href: shutdown-changes-for-windows-vista.md
+  - name: "About System Shutdown"
+    href: about-system-shutdown.md
+    items: 
+    - name: "Logging Off"
+      href: logging-off.md
+    - name: "Shutting Down"
+      href: shutting-down.md
+    - name: "Shutdown Event Tracker"
+      href: shutdown-event-tracker.md
+  - name: "Using System Shutdown"
+    href: using-system-shutdown.md
+    items: 
+    - name: "How to Shut Down the System"
+      href: how-to-shut-down-the-system.md
+    - name: "How to Log Off the Current User"
+      href: how-to-log-off-the-current-user.md
+    - name: "How to Lock the Workstation"
+      href: how-to-lock-the-workstation.md
+    - name: "Displaying the Shutdown Dialog Box"
+      href: displaying-the-shutdown-dialog-box.md
+  - name: "System Shutdown Reference"
+    href: system-shutdown-reference.md
+    items: 
+    - name: "System Shutdown Functions"
+      href: system-shutdown-functions.md
+      items: 
+      - name: "AbortSystemShutdown"
+        href: /windows/desktop/api/Winreg/nf-winreg-abortsystemshutdowna
+      - name: "ExitWindows"
+        href: /windows/desktop/api/Winuser/nf-winuser-exitwindows
+      - name: "ExitWindowsEx"
+        href: /windows/desktop/api/Winuser/nf-winuser-exitwindowsex
+      - name: "InitiateShutdown"
+        href: /windows/desktop/api/Winreg/nf-winreg-initiateshutdowna
+      - name: "InitiateSystemShutdown"
+        href: /windows/desktop/api/Winreg/nf-winreg-initiatesystemshutdowna
+      - name: "InitiateSystemShutdownEx"
+        href: /windows/desktop/api/Winreg/nf-winreg-initiatesystemshutdownexa
+      - name: "LockWorkStation"
+        href: /windows/desktop/api/Winuser/nf-winuser-lockworkstation
+      - name: "ShutdownBlockReasonCreate"
+        href: /windows/desktop/api/Winuser/nf-winuser-shutdownblockreasoncreate
+      - name: "ShutdownBlockReasonDestroy"
+        href: /windows/desktop/api/Winuser/nf-winuser-shutdownblockreasondestroy
+      - name: "ShutdownBlockReasonQuery"
+        href: /windows/desktop/api/Winuser/nf-winuser-shutdownblockreasonquery
+    - name: "System Shutdown Messages"
+      href: system-shutdown-messages.md
+      items: 
+      - name: "WM_ENDSESSION"
+        href: wm-endsession.md
+      - name: "WM_QUERYENDSESSION"
+        href: wm-queryendsession.md
+    - name: "System Shutdown Reason Codes"
+      href: system-shutdown-reason-codes.md

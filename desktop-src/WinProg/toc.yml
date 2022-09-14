@@ -1,0 +1,60 @@
+- name: "Using the Windows Headers"
+  href: using-the-windows-headers.md
+  items: 
+  - name: "Header Annotations"
+    href: header-annotations.md
+  - name: "STRICT Type Checking"
+    href: strict-type-checking.md
+    items: 
+    - name: "Enabling STRICT"
+      href: enabling-strict.md
+    - name: "Disabling STRICT"
+      href: disabling-strict.md
+    - name: "STRICT Compliance"
+      href: strict-compliance.md
+  - name: "Windows Data Types"
+    href: windows-data-types.md
+    items: 
+    - name: "Large Integers"
+      href: large-integers.md
+      items: 
+      - name: "Large Integer Functions"
+        href: large-integer-functions.md
+        items: 
+        - name: "Int32x32To64"
+          href: /windows/desktop/api/Winnt/nf-winnt-int32x32to64
+        - name: "Int64ShllMod32"
+          href: /windows/desktop/api/Winnt/nf-winnt-int64shllmod32
+        - name: "Int64ShraMod32"
+          href: /windows/desktop/api/Winnt/nf-winnt-int64shramod32
+        - name: "Int64ShrlMod32"
+          href: /windows/desktop/api/Winnt/nf-winnt-int64shrlmod32
+        - name: "MulDiv"
+          href: /windows/desktop/api/Winbase/nf-winbase-muldiv
+        - name: "Multiply128"
+          href: /windows/desktop/api/Winnt/nf-winnt-multiply128
+        - name: "MultiplyExtract128"
+          href: /windows/desktop/api/Winnt/nf-winnt-multiplyextract128
+        - name: "MultiplyHigh"
+          href: /windows/desktop/api/Winnt/nf-winnt-multiplyhigh
+        - name: "PopulationCount64"
+          href: /windows/desktop/api/Winnt/nf-winnt-populationcount64
+        - name: "ShiftLeft128"
+          href: /windows/desktop/api/winnt/nf-winnt-shiftleft128
+        - name: "ShiftRight128"
+          href: /windows/desktop/api/winnt/nf-winnt-shiftright128
+        - name: "UInt32x32To64"
+          href: /windows/desktop/api/Winnt/nf-winnt-uint32x32to64
+        - name: "UnsignedMultiply128"
+          href: /windows/desktop/api/Winnt/nf-winnt-unsignedmultiply128
+        - name: "UnsignedMultiplyExtract128"
+          href: /windows/desktop/api/Winnt/nf-winnt-unsignedmultiplyextract128
+        - name: "UnsignedMulitplyHigh"
+          href: /windows/desktop/api/Winnt/nf-winnt-unsignedmultiplyhigh
+      - name: "Large Integer Structures"
+        href: large-integer-structures.md
+        items: 
+        - name: "LARGE_INTEGER"
+          href: /windows/win32/api/winnt/ns-winnt-large_integer-r1
+        - name: "ULARGE_INTEGER"
+          href: /windows/win32/api/winnt/ns-winnt-ularge_integer~r1

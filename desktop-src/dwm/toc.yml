@@ -1,0 +1,150 @@
+- name: "Desktop Window Manager (DWM)"
+  href: dwm-overview.md
+  items: 
+  - name: "DWM Overviews"
+    href: desktop-window-manager-overviews.md
+    items: 
+    - name: "Enable and control DWM composition"
+      href: composition-ovw.md
+    - name: "DWM Blur Behind Overview"
+      href: blur-ovw.md
+    - name: "DWM Thumbnail Overview"
+      href: thumbnail-ovw.md
+    - name: "Accessing and Controlling DWM Frame Data"
+      href: frametiming-ovw.md
+    - name: "Performance Considerations and Best Practices"
+      href: bestpractices-ovw.md
+    - name: "Custom Window Frame Using DWM"
+      href: customframe.md
+  - name: "DWM Samples"
+    href: dwm-samples.md
+    items: 
+    - name: "Customize an Iconic Thumbnail and a Live Preview Bitmap"
+      href: dwm-sample-customizethumbnail.md
+  - name: "DWM Reference"
+    href: reference.md
+    items: 
+    - name: "DWM Constants and Enumerations"
+      href: enums.md
+      items: 
+      - name: "DWM Blur Behind Constants"
+        href: dwm-bb-constants.md
+      - name: "DWM Enable Composition Constants"
+        href: dwm-ec-constants.md
+      - name: "DWM_SOURCE_FRAME_SAMPLING"
+        href: /windows/desktop/api/Dwmapi/ne-dwmapi-dwm_source_frame_sampling
+      - name: "DWM_TAB_WINDOW_REQUIREMENTS"
+        href: /windows/desktop/api/dwmapi/ne-dwmapi-dwm_tab_window_requirements
+      - name: "DWM_TNP Constants"
+        href: dwm-tnp-constants.md
+      - name: "DWMFLIP3DWINDOWPOLICY"
+        href: /windows/desktop/api/Dwmapi/ne-dwmapi-dwmflip3dwindowpolicy
+      - name: "DWMNCRENDERINGPOLICY"
+        href: /windows/desktop/api/Dwmapi/ne-dwmapi-dwmncrenderingpolicy
+      - name: "DWM_SYSTEMBACKDROP_TYPE"
+        href: /windows/win32/api/dwmapi/ne-dwmapi-dwm_systembackdrop_type
+      - name: "DWMTRANSITION_OWNEDWINDOW_TARGET"
+        href: /windows/desktop/api/Dwmapi/ne-dwmapi-dwmtransition_ownedwindow_target
+      - name: "DWMWINDOWATTRIBUTE"
+        href: /windows/desktop/api/Dwmapi/ne-dwmapi-dwmwindowattribute
+      - name: "GESTURE_TYPE"
+        href: /windows/desktop/api/Dwmapi/ne-dwmapi-gesture_type
+    - name: "DWM Functions"
+      href: functions.md
+      items: 
+      - name: "DwmAttachMilContent"
+        href: /windows/desktop/api/Dwmapi/nf-dwmapi-dwmattachmilcontent
+      - name: "DwmDefWindowProc"
+        href: /windows/desktop/api/Dwmapi/nf-dwmapi-dwmdefwindowproc
+      - name: "DwmDetachMilContent"
+        href: /windows/desktop/api/Dwmapi/nf-dwmapi-dwmdetachmilcontent
+      - name: "DwmDxGetWindowSharedSurface"
+        href: dwmdxgetwindowsharedsurface.md
+      - name: "DwmDxUpdateWindowSharedSurface"
+        href: dwmdxupdatewindowsharedsurface.md
+      - name: "DwmEnableBlurBehindWindow"
+        href: /windows/desktop/api/Dwmapi/nf-dwmapi-dwmenableblurbehindwindow
+      - name: "DwmEnableComposition"
+        href: /windows/desktop/api/Dwmapi/nf-dwmapi-dwmenablecomposition
+      - name: "DwmEnableMMCSS"
+        href: /windows/desktop/api/Dwmapi/nf-dwmapi-dwmenablemmcss
+      - name: "DwmExtendFrameIntoClientArea"
+        href: /windows/desktop/api/Dwmapi/nf-dwmapi-dwmextendframeintoclientarea
+      - name: "DwmFlush"
+        href: /windows/desktop/api/Dwmapi/nf-dwmapi-dwmflush
+      - name: "DwmGetColorizationColor"
+        href: /windows/desktop/api/Dwmapi/nf-dwmapi-dwmgetcolorizationcolor
+      - name: "DwmGetCompositionTimingInfo"
+        href: /windows/desktop/api/Dwmapi/nf-dwmapi-dwmgetcompositiontiminginfo
+      - name: "DwmGetGraphicsStreamClient"
+        href: /windows/desktop/api/Dwmapi/nf-dwmapi-dwmgetgraphicsstreamclient
+      - name: "DwmGetGraphicsStreamTransformHint"
+        href: /windows/desktop/api/Dwmapi/nf-dwmapi-dwmgetgraphicsstreamtransformhint
+      - name: "DwmGetTransportAttributes"
+        href: /windows/desktop/api/Dwmapi/nf-dwmapi-dwmgettransportattributes
+      - name: "DwmGetUnmetTabRequirements"
+        href: /windows/desktop/api/dwmapi/nf-dwmapi-dwmgetunmettabrequirements
+      - name: "DwmGetWindowAttribute"
+        href: /windows/desktop/api/Dwmapi/nf-dwmapi-dwmgetwindowattribute
+      - name: "DwmInvalidateIconicBitmaps"
+        href: /windows/desktop/api/Dwmapi/nf-dwmapi-dwminvalidateiconicbitmaps
+      - name: "DwmIsCompositionEnabled"
+        href: /windows/desktop/api/Dwmapi/nf-dwmapi-dwmiscompositionenabled
+      - name: "DwmModifyPreviousDxFrameDuration"
+        href: /windows/desktop/api/Dwmapi/nf-dwmapi-dwmmodifypreviousdxframeduration
+      - name: "DwmQueryThumbnailSourceSize"
+        href: /windows/desktop/api/Dwmapi/nf-dwmapi-dwmquerythumbnailsourcesize
+      - name: "DwmRegisterThumbnail"
+        href: /windows/desktop/api/Dwmapi/nf-dwmapi-dwmregisterthumbnail
+      - name: "DwmRenderGesture"
+        href: /windows/desktop/api/Dwmapi/nf-dwmapi-dwmrendergesture
+      - name: "DwmSetDxFrameDuration"
+        href: /windows/desktop/api/Dwmapi/nf-dwmapi-dwmsetdxframeduration
+      - name: "DwmSetIconicLivePreviewBitmap"
+        href: /windows/desktop/api/Dwmapi/nf-dwmapi-dwmseticoniclivepreviewbitmap
+      - name: "DwmSetIconicThumbnail"
+        href: /windows/desktop/api/Dwmapi/nf-dwmapi-dwmseticonicthumbnail
+      - name: "DwmSetPresentParameters"
+        href: /windows/desktop/api/Dwmapi/nf-dwmapi-dwmsetpresentparameters
+      - name: "DwmSetWindowAttribute"
+        href: /windows/desktop/api/Dwmapi/nf-dwmapi-dwmsetwindowattribute
+      - name: "DwmShowContact"
+        href: /windows/desktop/api/Dwmapi/nf-dwmapi-dwmshowcontact
+      - name: "DwmTetherContact"
+        href: /windows/desktop/api/Dwmapi/nf-dwmapi-dwmtethercontact
+      - name: "DwmTransitionOwnedWindow"
+        href: /windows/desktop/api/Dwmapi/nf-dwmapi-dwmtransitionownedwindow
+      - name: "DwmUnregisterThumbnail"
+        href: /windows/desktop/api/Dwmapi/nf-dwmapi-dwmunregisterthumbnail
+      - name: "DwmUpdateThumbnailProperties"
+        href: /windows/desktop/api/Dwmapi/nf-dwmapi-dwmupdatethumbnailproperties
+    - name: "DWM Messages"
+      href: dwm-messages.md
+      items: 
+      - name: "WM_DWMCOLORIZATIONCOLORCHANGED"
+        href: wm-dwmcolorizationcolorchanged.md
+      - name: "WM_DWMCOMPOSITIONCHANGED"
+        href: wm-dwmcompositionchanged.md
+      - name: "WM_DWMNCRENDERINGCHANGED"
+        href: wm-dwmncrenderingchanged.md
+      - name: "WM_DWMSENDICONICLIVEPREVIEWBITMAP"
+        href: wm-dwmsendiconiclivepreviewbitmap.md
+      - name: "WM_DWMSENDICONICTHUMBNAIL"
+        href: wm-dwmsendiconicthumbnail.md
+      - name: "WM_DWMWINDOWMAXIMIZEDCHANGE"
+        href: wm-dwmwindowmaximizedchange.md
+    - name: "DWM Structures"
+      href: structs.md
+      items: 
+      - name: "DWM_BLURBEHIND"
+        href: /windows/win32/api/Dwmapi/ns-dwmapi-dwm_blurbehind
+      - name: "DWM_PRESENT_PARAMETERS"
+        href: /windows/win32/api/Dwmapi/ns-dwmapi-dwm_present_parameters
+      - name: "DWM_THUMBNAIL_PROPERTIES"
+        href: /windows/win32/api/Dwmapi/ns-dwmapi-dwm_thumbnail_properties
+      - name: "DWM_TIMING_INFO"
+        href: /windows/win32/api/Dwmapi/ns-dwmapi-dwm_timing_info
+      - name: "MilMatrix3x2D"
+        href: /windows/win32/api/Dwmapi/ns-dwmapi-milmatrix3x2d
+      - name: "UNSIGNED_RATIO"
+        href: /windows/win32/api/Dwmapi/ns-dwmapi-unsigned_ratio

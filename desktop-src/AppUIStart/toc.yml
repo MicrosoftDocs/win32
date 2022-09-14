@@ -1,0 +1,29 @@
+- name: "Getting Started Developing User Interfaces for Windows Applications"
+  href: getting-started-developing-user-interfaces-portal.md
+  items: 
+  - name: "Overview of the User Interface Development Process"
+    href: the-process.md
+  - name: "Designing a User Interface"
+    href: designing-a-user-interface.md
+    items: 
+    - name: "Usability in Software Design"
+      href: usability-in-software-design.md
+    - name: "User Interface Principles"
+      href: -user-interface-principles.md
+    - name: "Following User Interface Guidelines"
+      href: following-guidelines.md
+    - name: "Inductive User Interface"
+      href: inductive-user-interface.md
+  - name: "Implementing a User Interface"
+    href: implementing-a-user-interface.md
+    items: 
+    - name: "Prototyping a User Interface"
+      href: prototyping-a-user-interface.md
+    - name: "User Interface Technologies"
+      href: user-interface-technologies-for-windows-applications.md
+  - name: "Testing a User Interface"
+    href: testing-a-user-interface.md
+  - name: "Security Considerations: Windows User Interface"
+    href: sec-ui.md
+  - name: "Other Resources"
+    href: other-resources.md

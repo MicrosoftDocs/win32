@@ -1,0 +1,94 @@
+- name: "Update Orchestrator"
+  href: index.md
+- name: "Update Orchestrator Reference"
+  items:
+  - name: "Interfaces"
+    items: 
+    - name: "IUpdateOrchestrator"
+      href: iupdateorchestrator.md
+      items: 
+      - name: "::RegisterProvider"
+        href: iupdateorchestrator-registerprovider.md
+      - name: "::UnregisterProvider"
+        href: iupdateorchestrator-unregisterprovider.md
+    - name: "IUpdateOrchestratorAction"
+      href: iupdateorchestratoraction.md
+      items: 
+      - name: "::get_ActionKind"
+        href: iupdateorchestratoraction-get-actionkind.md
+      - name: "::get_IsExclusive"
+        href: iupdateorchestratoraction-get-isexclusive.md
+      - name: "::get_IsPausable"
+        href: iupdateorchestratoraction-get-ispausable.md
+      - name: "::get_Name"
+        href: iupdateorchestratoraction-get-name.md
+      - name: "::get_RequiresNetwork"
+        href: iupdateorchestratoraction-get-requiresnetwork.md
+    - name: "IUpdateOrchestratorActionCallback"
+      href: iupdateorchestratoractioncallback.md
+      items:
+      - name: "::ReportCompleted"
+        href: iupdateorchestratoractioncallback-reportcompleted.md
+      - name: "::ReportFailed"
+        href: iupdateorchestratoractioncallback-reportfailed.md
+      - name: "::ReportProgress"
+        href: iupdateorchestratoractioncallback-reportprogress.md
+    - name: "IUpdateOrchestratorUnlock"
+      href: iupdateorchestratorunlock.md
+      items: 
+      - name: "::Unlock"
+        href: iupdateorchestratorunlock-unlock.md
+    - name: "IUpdateOrchestratorUpdate"
+      href: iupdateorchestratorupdate.md
+      items: 
+      - name: "::get_Action"
+        href: iupdateorchestratorupdate-get-action.md
+      - name: "::get_Deadline"
+        href: iupdateorchestratorupdate-get-deadline.md
+      - name: "::get_Description"
+        href: iupdateorchestratorupdate-get-description.md
+      - name: "::get_IsSecurity"
+        href: iupdateorchestratorupdate-get-issecurity.md
+      - name: "::get_Title"
+        href: iupdateorchestratorupdate-get-title.md
+      - name: "::get_UniqueId"
+        href: iupdateorchestratorupdate-get-uniqueid.md
+      - name: "::Pause"
+        href: iupdateorchestratorupdate-pause.md
+      - name: "::PerformAction"
+        href: iupdateorchestratorupdate-performaction.md
+      - name: "::Serialize"
+        href: iupdateorchestratorupdate-serialize.md
+    - name: "IUpdateOrchestratorUpdateCollection"
+      href: iupdateorchestratorupdatecollection.md
+      items:  
+      - name: "::get_Count"
+        href: iupdateorchestratorupdatecollection-get-count.md
+      - name: "::get_Item"
+        href: iupdateorchestratorupdatecollection-get-item.md
+    - name: "IUpdateOrchestratorUpdateProvider"
+      href: iupdateorchestratorupdateprovider.md
+      items: 
+      - name: "::CancelScan"
+        href: iupdateorchestratorupdateprovider-cancelscan.md
+      - name: "::Deserialize"
+        href: iupdateorchestratorupdateprovider-deserialize.md
+      - name: "::get_ScanAttemptFrequencyInMinutes"
+        href: iupdateorchestratorupdateprovider-scanattemptfrequencyinminutes.md
+      - name: "::ScanForPendingUpdates"
+        href: iupdateorchestratorupdateprovider-scanforpendingupdates.md
+      - name: "::get_ScanSlaInMinutes"
+        href: iupdateorchestratorupdateprovider-scanslainminutes.md
+    - name: "IUniversalOrchestrator"
+      href: universalorchestrator-iuniversalorchestrator.md
+      items: 
+      - name: "::ScheduleWork"
+        href: universalorchestrator-schedulework.md
+      - name: "::WorkCompleted"
+        href: universalorchestrator-workcompleted.md
+      - name: "::HasMoratoriumPassed"
+        href: universalorchestrator-hasmoratoriumpassed.md
+  - name: "Enumerations"
+    items: 
+    - name: "Update_Orchestrator_Action_Kind"
+      href: updateorchestratoractionkind.md

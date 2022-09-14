@@ -1,0 +1,340 @@
+- name: "Keyboard and Mouse Input"
+  href: user-input.md
+  items: 
+  - name: "Keyboard Input"
+    href: keyboard-input.md
+    items: 
+    - name: "Keyboard Input Overview"
+      href: about-keyboard-input.md
+    - name: "Using Keyboard Input"
+      href: using-keyboard-input.md
+    - name: "Keyboard Input Reference"
+      href: keyboard-input-reference.md
+      items: 
+      - name: "Keyboard Input Functions"
+        href: keyboard-input-functions.md
+        items: 
+        - name: "ActivateKeyboardLayout"
+          href: /windows/win32/api/winuser/nf-winuser-activatekeyboardlayout
+        - name: "BlockInput"
+          href: /windows/win32/api/winuser/nf-winuser-blockinput
+        - name: "EnableWindow"
+          href: /windows/win32/api/winuser/nf-winuser-enablewindow
+        - name: "GetActiveWindow"
+          href: /windows/win32/api/winuser/nf-winuser-getactivewindow
+        - name: "GetAsyncKeyState"
+          href: /windows/win32/api/winuser/nf-winuser-getasynckeystate
+        - name: "GetFocus"
+          href: /windows/win32/api/winuser/nf-winuser-getfocus
+        - name: "GetKBCodePage"
+          href: /windows/win32/api/winuser/nf-winuser-getkbcodepage
+        - name: "GetKeyboardLayout"
+          href: /windows/win32/api/winuser/nf-winuser-getkeyboardlayout
+        - name: "GetKeyboardLayoutList"
+          href: /windows/win32/api/winuser/nf-winuser-getkeyboardlayoutlist
+        - name: "GetKeyboardLayoutName"
+          href: /windows/win32/api/winuser/nf-winuser-getkeyboardlayoutnamea
+        - name: "GetKeyboardState"
+          href: /windows/win32/api/winuser/nf-winuser-getkeyboardstate
+        - name: "GetKeyboardType"
+          href: /windows/win32/api/winuser/nf-winuser-getkeyboardtype
+        - name: "GetKeyNameText"
+          href: /windows/win32/api/winuser/nf-winuser-getkeynametexta
+        - name: "GetKeyState"
+          href: /windows/win32/api/winuser/nf-winuser-getkeystate
+        - name: "GetLastInputInfo"
+          href: /windows/win32/api/winuser/nf-winuser-getlastinputinfo
+        - name: "IsWindowEnabled"
+          href: /windows/win32/api/winuser/nf-winuser-iswindowenabled
+        - name: "keybd_event"
+          href: /windows/win32/api/winuser/nf-winuser-keybd_event
+        - name: "LoadKeyboardLayout"
+          href: /windows/win32/api/winuser/nf-winuser-loadkeyboardlayouta
+        - name: "MapVirtualKey"
+          href: /windows/win32/api/winuser/nf-winuser-mapvirtualkeya
+        - name: "MapVirtualKeyEx"
+          href: /windows/win32/api/winuser/nf-winuser-mapvirtualkeyexa
+        - name: "OemKeyScan"
+          href: /windows/win32/api/winuser/nf-winuser-oemkeyscan
+        - name: "RegisterHotKey"
+          href: /windows/win32/api/winuser/nf-winuser-registerhotkey
+        - name: "SendInput"
+          href: /windows/win32/api/winuser/nf-winuser-sendinput
+        - name: "SetActiveWindow"
+          href: /windows/win32/api/winuser/nf-winuser-setactivewindow
+        - name: "SetFocus"
+          href: /windows/win32/api/winuser/nf-winuser-setfocus
+        - name: "SetKeyboardState"
+          href: /windows/win32/api/winuser/nf-winuser-setkeyboardstate
+        - name: "ToAscii"
+          href: /windows/win32/api/winuser/nf-winuser-toascii
+        - name: "ToAsciiEx"
+          href: /windows/win32/api/winuser/nf-winuser-toasciiex
+        - name: "ToUnicode"
+          href: /windows/win32/api/winuser/nf-winuser-tounicode
+        - name: "ToUnicodeEx"
+          href: /windows/win32/api/winuser/nf-winuser-tounicodeex
+        - name: "UnloadKeyboardLayout"
+          href: /windows/win32/api/winuser/nf-winuser-unloadkeyboardlayout
+        - name: "UnregisterHotKey"
+          href: /windows/win32/api/winuser/nf-winuser-unregisterhotkey
+        - name: "VkKeyScan"
+          href: /windows/win32/api/winuser/nf-winuser-vkkeyscana
+        - name: "VkKeyScanEx"
+          href: /windows/win32/api/winuser/nf-winuser-vkkeyscanexa
+      - name: "Keyboard Input Messages"
+        href: keyboard-input-messages.md
+        items: 
+        - name: "WM_GETHOTKEY"
+          href: wm-gethotkey.md
+        - name: "WM_SETHOTKEY"
+          href: wm-sethotkey.md
+      - name: "Keyboard Input Notifications"
+        href: keyboard-input-notifications.md
+        items: 
+        - name: "WM_ACTIVATE"
+          href: wm-activate.md
+        - name: "WM_APPCOMMAND"
+          href: wm-appcommand.md
+        - name: "WM_CHAR"
+          href: wm-char.md
+        - name: "WM_DEADCHAR"
+          href: wm-deadchar.md
+        - name: "WM_HOTKEY"
+          href: wm-hotkey.md
+        - name: "WM_KEYDOWN"
+          href: wm-keydown.md
+        - name: "WM_KEYUP"
+          href: wm-keyup.md
+        - name: "WM_KILLFOCUS"
+          href: wm-killfocus.md
+        - name: "WM_SETFOCUS"
+          href: wm-setfocus.md
+        - name: "WM_SYSDEADCHAR"
+          href: wm-sysdeadchar.md
+        - name: "WM_SYSKEYDOWN"
+          href: wm-syskeydown.md
+        - name: "WM_SYSKEYUP"
+          href: wm-syskeyup.md
+        - name: "WM_UNICHAR"
+          href: wm-unichar.md
+      - name: "Keyboard Input Structures"
+        href: keyboard-input-structures.md
+        items: 
+        - name: "HARDWAREINPUT"
+          href: /windows/win32/api/winuser/ns-winuser-hardwareinput
+        - name: "INPUT"
+          href: /windows/win32/api/winuser/ns-winuser-input
+        - name: "KEYBDINPUT"
+          href: /windows/win32/api/winuser/ns-winuser-keybdinput
+        - name: "LASTINPUTINFO"
+          href: /windows/win32/api/winuser/ns-winuser-lastinputinfo
+        - name: "MOUSEINPUT"
+          href: /windows/win32/api/winuser/ns-winuser-mouseinput
+      - name: "Keyboard Input Constants"
+        href: keyboard-input-constants.md
+        items: 
+        - name: "Virtual-Key Codes"
+          href: virtual-key-codes.md
+  - name: "Mouse Input"
+    href: mouse-input.md
+    items: 
+    - name: "Mouse Input Overview"
+      href: about-mouse-input.md
+    - name: "Using Mouse Input"
+      href: using-mouse-input.md
+    - name: "Mouse Input Reference"
+      href: mouse-input-reference.md
+      items: 
+      - name: "Mouse Input Functions"
+        href: mouse-input-functions.md
+        items: 
+        - name: "_TrackMouseEvent"
+          href: /windows/win32/api/commctrl/nf-commctrl-_trackmouseevent
+        - name: "DragDetect"
+          href: /windows/win32/api/winuser/nf-winuser-dragdetect
+        - name: "GetCapture"
+          href: /windows/win32/api/winuser/nf-winuser-getcapture
+        - name: "GetDoubleClickTime"
+          href: /windows/win32/api/winuser/nf-winuser-getdoubleclicktime
+        - name: "GetMouseMovePointsEx"
+          href: /windows/win32/api/winuser/nf-winuser-getmousemovepointsex
+        - name: "mouse_event"
+          href: /windows/win32/api/winuser/nf-winuser-mouse_event
+        - name: "ReleaseCapture"
+          href: /windows/win32/api/winuser/nf-winuser-releasecapture
+        - name: "SetCapture"
+          href: /windows/win32/api/winuser/nf-winuser-setcapture
+        - name: "SetDoubleClickTime"
+          href: /windows/win32/api/winuser/nf-winuser-setdoubleclicktime
+        - name: "SwapMouseButton"
+          href: /windows/win32/api/winuser/nf-winuser-swapmousebutton
+        - name: "TrackMouseEvent"
+          href: /windows/win32/api/winuser/nf-winuser-trackmouseevent
+      - name: "Mouse Input Macros"
+        href: mouse-input-macros.md
+        items: 
+        - name: "GET_APPCOMMAND_LPARAM"
+          href: /windows/win32/api/winuser/nf-winuser-get_appcommand_lparam
+        - name: "GET_DEVICE_LPARAM"
+          href: /windows/win32/api/winuser/nf-winuser-get_device_lparam
+        - name: "GET_FLAGS_LPARAM"
+          href: /windows/win32/api/winuser/nf-winuser-get_flags_lparam
+        - name: "GET_KEYSTATE_LPARAM"
+          href: /windows/win32/api/winuser/nf-winuser-get_keystate_lparam
+        - name: "GET_KEYSTATE_WPARAM"
+          href: /windows/win32/api/winuser/nf-winuser-get_keystate_wparam
+        - name: "GET_MOUSEORKEY_LPARAM"
+          href: /previous-versions/windows/desktop/legacy/ms646252(v=vs.85)
+        - name: "GET_NCHITTEST_WPARAM"
+          href: /windows/win32/api/winuser/nf-winuser-get_nchittest_wparam
+        - name: "GET_WHEEL_DELTA_WPARAM"
+          href: /windows/win32/api/winuser/nf-winuser-get_wheel_delta_wparam
+        - name: "GET_XBUTTON_WPARAM"
+          href: /windows/win32/api/winuser/nf-winuser-get_xbutton_wparam
+      - name: "Mouse Input Notifications"
+        href: mouse-input-notifications.md
+        items: 
+        - name: "WM_CAPTURECHANGED"
+          href: wm-capturechanged.md
+        - name: "WM_LBUTTONDBLCLK"
+          href: wm-lbuttondblclk.md
+        - name: "WM_LBUTTONDOWN"
+          href: wm-lbuttondown.md
+        - name: "WM_LBUTTONUP"
+          href: wm-lbuttonup.md
+        - name: "WM_MBUTTONDBLCLK"
+          href: wm-mbuttondblclk.md
+        - name: "WM_MBUTTONDOWN"
+          href: wm-mbuttondown.md
+        - name: "WM_MBUTTONUP"
+          href: wm-mbuttonup.md
+        - name: "WM_MOUSEACTIVATE"
+          href: wm-mouseactivate.md
+        - name: "WM_MOUSEHOVER"
+          href: wm-mousehover.md
+        - name: "WM_MOUSEHWHEEL"
+          href: wm-mousehwheel.md
+        - name: "WM_MOUSELEAVE"
+          href: wm-mouseleave.md
+        - name: "WM_MOUSEMOVE"
+          href: wm-mousemove.md
+        - name: "WM_MOUSEWHEEL"
+          href: wm-mousewheel.md
+        - name: "WM_NCHITTEST"
+          href: wm-nchittest.md
+        - name: "WM_NCLBUTTONDBLCLK"
+          href: wm-nclbuttondblclk.md
+        - name: "WM_NCLBUTTONDOWN"
+          href: wm-nclbuttondown.md
+        - name: "WM_NCLBUTTONUP"
+          href: wm-nclbuttonup.md
+        - name: "WM_NCMBUTTONDBLCLK"
+          href: wm-ncmbuttondblclk.md
+        - name: "WM_NCMBUTTONDOWN"
+          href: wm-ncmbuttondown.md
+        - name: "WM_NCMBUTTONUP"
+          href: wm-ncmbuttonup.md
+        - name: "WM_NCMOUSEHOVER"
+          href: wm-ncmousehover.md
+        - name: "WM_NCMOUSELEAVE"
+          href: wm-ncmouseleave.md
+        - name: "WM_NCMOUSEMOVE"
+          href: wm-ncmousemove.md
+        - name: "WM_NCRBUTTONDBLCLK"
+          href: wm-ncrbuttondblclk.md
+        - name: "WM_NCRBUTTONDOWN"
+          href: wm-ncrbuttondown.md
+        - name: "WM_NCRBUTTONUP"
+          href: wm-ncrbuttonup.md
+        - name: "WM_NCXBUTTONDBLCLK"
+          href: wm-ncxbuttondblclk.md
+        - name: "WM_NCXBUTTONDOWN"
+          href: wm-ncxbuttondown.md
+        - name: "WM_NCXBUTTONUP"
+          href: wm-ncxbuttonup.md
+        - name: "WM_RBUTTONDBLCLK"
+          href: wm-rbuttondblclk.md
+        - name: "WM_RBUTTONDOWN"
+          href: wm-rbuttondown.md
+        - name: "WM_RBUTTONUP"
+          href: wm-rbuttonup.md
+        - name: "WM_XBUTTONDBLCLK"
+          href: wm-xbuttondblclk.md
+        - name: "WM_XBUTTONDOWN"
+          href: wm-xbuttondown.md
+        - name: "WM_XBUTTONUP"
+          href: wm-xbuttonup.md
+      - name: "Mouse Input Structures"
+        href: mouse-input-structures.md
+        items: 
+        - name: "MOUSEMOVEPOINT"
+          href: /windows/win32/api/winuser/ns-winuser-mousemovepoint
+        - name: "TRACKMOUSEEVENT"
+          href: /windows/win32/api/winuser/ns-winuser-trackmouseevent
+  - name: "Raw Input"
+    href: raw-input.md
+    items: 
+    - name: "Raw Input Overview"
+      href: about-raw-input.md
+    - name: "Using Raw Input"
+      href: using-raw-input.md
+    - name: "Raw Input Reference"
+      href: raw-input-reference.md
+      items: 
+      - name: "Raw Input Functions"
+        href: raw-input-functions.md
+        items: 
+        - name: "DefRawInputProc"
+          href: /windows/win32/api/winuser/nf-winuser-defrawinputproc
+        - name: "GetRawInputBuffer"
+          href: /windows/win32/api/winuser/nf-winuser-getrawinputbuffer
+        - name: "GetRawInputData"
+          href: /windows/win32/api/winuser/nf-winuser-getrawinputdata
+        - name: "GetRawInputDeviceInfo"
+          href: /windows/win32/api/winuser/nf-winuser-getrawinputdeviceinfoa
+        - name: "GetRawInputDeviceList"
+          href: /windows/win32/api/winuser/nf-winuser-getrawinputdevicelist
+        - name: "GetRegisteredRawInputDevices"
+          href: /windows/win32/api/winuser/nf-winuser-getregisteredrawinputdevices
+        - name: "RegisterRawInputDevices"
+          href: /windows/win32/api/winuser/nf-winuser-registerrawinputdevices
+      - name: "Raw Input Macros"
+        href: raw-input-macros.md
+        items: 
+        - name: "GET_RAWINPUT_CODE_WPARAM"
+          href: /windows/win32/api/winuser/nf-winuser-get_rawinput_code_wparam
+        - name: "NEXTRAWINPUTBLOCK"
+          href: /windows/win32/api/winuser/nf-winuser-nextrawinputblock
+      - name: "Raw Input Notifications"
+        href: raw-input-notifications.md
+        items: 
+        - name: "WM_INPUT"
+          href: wm-input.md
+        - name: "WM_INPUT_DEVICE_CHANGE"
+          href: wm-input-device-change.md
+      - name: "Raw Input Structures"
+        href: raw-input-structures.md
+        items: 
+        - name: "RAWHID"
+          href: /windows/win32/api/winuser/ns-winuser-rawhid
+        - name: "RAWINPUT"
+          href: /windows/win32/api/winuser/ns-winuser-rawinput
+        - name: "RAWINPUTDEVICE"
+          href: /windows/win32/api/winuser/ns-winuser-rawinputdevice
+        - name: "RAWINPUTDEVICELIST"
+          href: /windows/win32/api/winuser/ns-winuser-rawinputdevicelist
+        - name: "RAWINPUTHEADER"
+          href: /windows/win32/api/winuser/ns-winuser-rawinputheader
+        - name: "RAWKEYBOARD"
+          href: /windows/win32/api/winuser/ns-winuser-rawkeyboard
+        - name: "RAWMOUSE"
+          href: /windows/win32/api/winuser/ns-winuser-rawmouse
+        - name: "RID_DEVICE_INFO"
+          href: /windows/win32/api/winuser/ns-winuser-rid_device_info
+        - name: "RID_DEVICE_INFO_HID"
+          href: /windows/win32/api/winuser/ns-winuser-rid_device_info_hid
+        - name: "RID_DEVICE_INFO_KEYBOARD"
+          href: /windows/win32/api/winuser/ns-winuser-rid_device_info_keyboard
+        - name: "RID_DEVICE_INFO_MOUSE"
+          href: /windows/win32/api/winuser/ns-winuser-rid_device_info_mouse

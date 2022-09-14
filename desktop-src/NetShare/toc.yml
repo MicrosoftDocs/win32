@@ -1,0 +1,97 @@
+- name: "Network Share Management"
+  href: network-share-management.md
+  items: 
+  - name: "About Network Share Management"
+    href: about-network-share-management.md
+    items: 
+    - name: "What's New in Network Share Management in Windows Server 2008 R2 and Windows 7"
+      href: what-s-new-in-network-share-management-in-windows-server-2008-r2-and-windows-7.md
+    - name: "NetFile Functions"
+      href: netfile-functions.md
+    - name: "Network Share Functions"
+      href: network-share-functions.md
+    - name: "Session Functions"
+      href: session-functions.md
+    - name: "Statistics Functions"
+      href: statistics-functions.md
+  - name: "Network Share Management Reference"
+    href: network-share-management-reference.md
+    items: 
+    - name: "Network Share Management Functions"
+      href: network-share-management-functions.md
+      items: 
+      - name: "NetConnectionEnum"
+        href: /windows/desktop/api/Lmshare/nf-lmshare-netconnectionenum
+      - name: "NetFileClose"
+        href: /windows/desktop/api/Lmshare/nf-lmshare-netfileclose
+      - name: "NetFileEnum"
+        href: /windows/desktop/api/Lmshare/nf-lmshare-netfileenum
+      - name: "NetFileGetInfo"
+        href: /windows/desktop/api/Lmshare/nf-lmshare-netfilegetinfo
+      - name: "NetSessionDel"
+        href: /windows/desktop/api/Lmshare/nf-lmshare-netsessiondel
+      - name: "NetSessionEnum"
+        href: /windows/desktop/api/Lmshare/nf-lmshare-netsessionenum
+      - name: "NetSessionGetInfo"
+        href: /windows/desktop/api/Lmshare/nf-lmshare-netsessiongetinfo
+      - name: "NetShareAdd"
+        href: /windows/desktop/api/Lmshare/nf-lmshare-netshareadd
+      - name: "NetShareCheck"
+        href: /windows/desktop/api/Lmshare/nf-lmshare-netsharecheck
+      - name: "NetShareDel"
+        href: /windows/desktop/api/Lmshare/nf-lmshare-netsharedel
+      - name: "NetShareDelEx"
+        href: /windows/desktop/api/Lmshare/nf-lmshare-netsharedelex
+      - name: "NetShareEnum"
+        href: /windows/desktop/api/Lmshare/nf-lmshare-netshareenum
+      - name: "NetShareGetInfo"
+        href: /windows/desktop/api/Lmshare/nf-lmshare-netsharegetinfo
+      - name: "NetShareSetInfo"
+        href: /windows/desktop/api/Lmshare/nf-lmshare-netsharesetinfo
+      - name: "NetStatisticsGet"
+        href: /windows/desktop/api/Lmstats/nf-lmstats-netstatisticsget
+    - name: "Network Share Management Structures"
+      href: network-share-management-structures.md
+      items: 
+      - name: "CONNECTION_INFO_0"
+        href: /windows/win32/api/Lmshare/ns-lmshare-connection_info_0
+      - name: "CONNECTION_INFO_1"
+        href: /windows/win32/api/Lmshare/ns-lmshare-connection_info_1
+      - name: "FILE_INFO_2"
+        href: /windows/win32/api/Lmshare/ns-lmshare-file_info_2
+      - name: "FILE_INFO_3"
+        href: /windows/win32/api/Lmshare/ns-lmshare-file_info_3
+      - name: "SESSION_INFO_0"
+        href: /windows/win32/api/Lmshare/ns-lmshare-session_info_0
+      - name: "SESSION_INFO_1"
+        href: /windows/win32/api/Lmshare/ns-lmshare-session_info_1
+      - name: "SESSION_INFO_2"
+        href: /windows/win32/api/Lmshare/ns-lmshare-session_info_2
+      - name: "SESSION_INFO_10"
+        href: /windows/win32/api/Lmshare/ns-lmshare-session_info_10
+      - name: "SESSION_INFO_502"
+        href: /windows/win32/api/Lmshare/ns-lmshare-session_info_502
+      - name: "SHARE_INFO_0"
+        href: /windows/win32/api/Lmshare/ns-lmshare-share_info_0
+      - name: "SHARE_INFO_1"
+        href: /windows/win32/api/Lmshare/ns-lmshare-share_info_1
+      - name: "SHARE_INFO_2"
+        href: /windows/win32/api/Lmshare/ns-lmshare-share_info_2
+      - name: "SHARE_INFO_501"
+        href: /windows/win32/api/Lmshare/ns-lmshare-share_info_501
+      - name: "SHARE_INFO_502"
+        href: /windows/win32/api/Lmshare/ns-lmshare-share_info_502
+      - name: "SHARE_INFO_503"
+        href: /windows/win32/api/Lmshare/ns-lmshare-share_info_503
+      - name: "SHARE_INFO_1004"
+        href: /windows/win32/api/Lmshare/ns-lmshare-share_info_1004
+      - name: "SHARE_INFO_1005"
+        href: /windows/win32/api/Lmshare/ns-lmshare-share_info_1005
+      - name: "SHARE_INFO_1006"
+        href: /windows/win32/api/Lmshare/ns-lmshare-share_info_1006
+      - name: "SHARE_INFO_1501"
+        href: /windows/win32/api/Lmshare/ns-lmshare-share_info_1501
+      - name: "STAT_SERVER_0"
+        href: /windows/win32/api/Lmstats/ns-lmstats-stat_server_0
+      - name: "STAT_WORKSTATION_0"
+        href: /windows/win32/api/lmstats/ns-lmstats-stat_workstation_0-r1

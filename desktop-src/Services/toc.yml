@@ -1,0 +1,258 @@
+- name: "Services"
+  href: services.md
+  items: 
+  - name: "What's New in Services for Windows 8"
+    href: what-s-new-in-services-for-windows-8.md
+  - name: "What's New in Services for Windows 7"
+    href: what-s-new-in-services.md
+  - name: "Service Changes for Windows Vista"
+    href: service-changes-for-windows-vista.md
+  - name: "About Services"
+    href: about-services.md
+    items: 
+    - name: "Service Control Manager"
+      href: service-control-manager.md
+      items: 
+      - name: "Database of Installed Services"
+        href: database-of-installed-services.md
+      - name: "Automatically Starting Services"
+        href: automatically-starting-services.md
+      - name: "Starting Services on Demand"
+        href: starting-services-on-demand.md
+      - name: "Service Record List"
+        href: service-record-list.md
+      - name: "SCM Handles"
+        href: scm-handles.md
+    - name: "Service Programs"
+      href: service-programs.md
+      items: 
+      - name: "Service Entry Point"
+        href: service-entry-point.md
+      - name: "Service ServiceMain Function"
+        href: service-servicemain-function.md
+      - name: "Service Control Handler Function"
+        href: service-control-handler-function.md
+      - name: "Service State Transitions"
+        href: service-status-transitions.md
+      - name: "Receiving Events in a Service"
+        href: receiving-events-in-a-service.md
+      - name: "Multithreaded Services"
+        href: multithreaded-services.md
+      - name: "Services and the Registry"
+        href: services-and-the-registry.md
+      - name: "Services and Redirected Drives"
+        href: services-and-redirected-drives.md
+      - name: "Services and RPC/TCP"
+        href: services-and-rpc-tcp.md
+    - name: "Service Configuration Programs"
+      href: service-configuration-programs.md
+      items: 
+      - name: "Service Installation, Removal, and Enumeration"
+        href: service-installation-removal-and-enumeration.md
+      - name: "Service Configuration"
+        href: service-configuration.md
+      - name: "Configuring a Service Using SC"
+        href: configuring-a-service-using-sc.md
+    - name: "Service Control Programs"
+      href: service-control-programs.md
+      items: 
+      - name: "Service Startup"
+        href: service-startup.md
+      - name: "Service Control Requests"
+        href: service-control-requests.md
+      - name: "Controlling a Service Using SC"
+        href: controlling-a-service-using-sc.md
+    - name: "Service User Accounts"
+      href: service-user-accounts.md
+      items: 
+      - name: "LocalService Account"
+        href: localservice-account.md
+      - name: "NetworkService Account"
+        href: networkservice-account.md
+      - name: "LocalSystem Account"
+        href: localsystem-account.md
+    - name: "Interactive Services"
+      href: interactive-services.md
+    - name: "Service Security and Access Rights"
+      href: service-security-and-access-rights.md
+    - name: "Debugging a Service"
+      href: debugging-a-service.md
+    - name: "Service Trigger Events"
+      href: service-trigger-events.md
+    - name: "Protecting Anti-Malware Services"
+      href: protecting-anti-malware-services-.md
+  - name: "Using Services"
+    href: using-services.md
+    items: 
+    - name: "Service Program Tasks"
+      href: service-program-tasks.md
+      items: 
+      - name: "Writing a Service Program's main Function"
+        href: writing-a-service-program-s-main-function.md
+      - name: "Writing a ServiceMain Function"
+        href: writing-a-servicemain-function.md
+      - name: "Writing a Control Handler Function"
+        href: writing-a-control-handler-function.md
+    - name: "Service Configuration Program Tasks"
+      href: service-configuration-program-tasks.md
+      items: 
+      - name: "Installing a Service"
+        href: installing-a-service.md
+      - name: "Deleting a Service"
+        href: deleting-a-service.md
+      - name: "Changing a Service's Configuration"
+        href: changing-a-service-configuration.md
+      - name: "Querying a Service's Configuration"
+        href: querying-a-service-s-configuration.md
+    - name: "Service Control Program Tasks"
+      href: service-control-program-tasks.md
+      items: 
+      - name: "Starting a Service"
+        href: starting-a-service.md
+      - name: "Stopping a Service"
+        href: stopping-a-service.md
+      - name: "Modifying the DACL for a Service"
+        href: modifying-the-dacl-for-a-service.md
+    - name: "The Complete Service Sample"
+      href: the-complete-service-sample.md
+      items: 
+      - name: "Sample.mc"
+        href: sample-mc.md
+      - name: "Svc.cpp"
+        href: svc-cpp.md
+      - name: "SvcConfig.cpp"
+        href: svcconfig-cpp.md
+      - name: "SvcControl.cpp"
+        href: svccontrol-cpp.md
+  - name: "Service Reference"
+    href: service-reference.md
+    items: 
+    - name: "Service Enumerations"
+      href: service-enumerations.md
+      items: 
+      - name: "SC_EVENT_TYPE"
+        href: sc-event-type.md
+    - name: "Service Functions"
+      href: service-functions.md
+      items: 
+      - name: "ChangeServiceConfig"
+        href: /windows/desktop/api/Winsvc/nf-winsvc-changeserviceconfiga
+      - name: "ChangeServiceConfig2"
+        href: /windows/desktop/api/Winsvc/nf-winsvc-changeserviceconfig2a
+      - name: "CloseServiceHandle"
+        href: /windows/desktop/api/Winsvc/nf-winsvc-closeservicehandle
+      - name: "ControlService"
+        href: /windows/desktop/api/Winsvc/nf-winsvc-controlservice
+      - name: "ControlServiceEx"
+        href: /windows/desktop/api/Winsvc/nf-winsvc-controlserviceexa
+      - name: "CreateService"
+        href: /windows/desktop/api/Winsvc/nf-winsvc-createservicea
+      - name: "DeleteService"
+        href: /windows/desktop/api/Winsvc/nf-winsvc-deleteservice
+      - name: "EnumDependentServices"
+        href: /windows/desktop/api/Winsvc/nf-winsvc-enumdependentservicesa
+      - name: "EnumServicesStatus"
+        href: /windows/desktop/api/Winsvc/nf-winsvc-enumservicesstatusa
+      - name: "EnumServicesStatusEx"
+        href: /windows/desktop/api/Winsvc/nf-winsvc-enumservicesstatusexa
+      - name: "GetServiceDisplayName"
+        href: /windows/desktop/api/Winsvc/nf-winsvc-getservicedisplaynamea
+      - name: "GetServiceKeyName"
+        href: /windows/desktop/api/Winsvc/nf-winsvc-getservicekeynamea
+      - name: "Handler"
+        href: /windows/desktop/api/Winsvc/nc-winsvc-lphandler_function
+      - name: "HandlerEx"
+        href: /windows/desktop/api/WinSvc/nc-winsvc-lphandler_function_ex
+      - name: "InstallELAMCertificateInfo"
+        href: /windows/desktop/api/sysinfoapi/nf-sysinfoapi-installelamcertificateinfo
+      - name: "LockServiceDatabase"
+        href: /windows/desktop/api/Winsvc/nf-winsvc-lockservicedatabase
+      - name: "NotifyBootConfigStatus"
+        href: /windows/desktop/api/Winsvc/nf-winsvc-notifybootconfigstatus
+      - name: "NotifyServiceStatusChange"
+        href: /windows/desktop/api/Winsvc/nf-winsvc-notifyservicestatuschangea
+      - name: "OpenSCManager"
+        href: /windows/desktop/api/Winsvc/nf-winsvc-openscmanagera
+      - name: "OpenService"
+        href: /windows/desktop/api/Winsvc/nf-winsvc-openservicea
+      - name: "QueryServiceConfig"
+        href: /windows/desktop/api/Winsvc/nf-winsvc-queryserviceconfiga
+      - name: "QueryServiceConfig2"
+        href: /windows/desktop/api/Winsvc/nf-winsvc-queryserviceconfig2a
+      - name: "QueryServiceDynamicInformation"
+        href: /windows/desktop/api/Winsvc/nf-winsvc-queryservicedynamicinformation
+      - name: "QueryServiceLockStatus"
+        href: /windows/desktop/api/Winsvc/nf-winsvc-queryservicelockstatusa
+      - name: "QueryServiceStatus"
+        href: /windows/desktop/api/Winsvc/nf-winsvc-queryservicestatus
+      - name: "QueryServiceStatusEx"
+        href: /windows/desktop/api/Winsvc/nf-winsvc-queryservicestatusex
+      - name: "RegisterServiceCtrlHandler"
+        href: /windows/desktop/api/Winsvc/nf-winsvc-registerservicectrlhandlera
+      - name: "RegisterServiceCtrlHandlerEx"
+        href: /windows/desktop/api/Winsvc/nf-winsvc-registerservicectrlhandlerexa
+      - name: "LPSERVICE_MAIN_FUNCTION"
+        href: /windows/desktop/api/winsvc/nc-winsvc-lpservice_main_functiona
+      - name: "SetServiceBits"
+        href: /windows/desktop/api/Lmserver/nf-lmserver-setservicebits
+      - name: "SetServiceStatus"
+        href: /windows/desktop/api/Winsvc/nf-winsvc-setservicestatus
+      - name: "StartService"
+        href: /windows/desktop/api/Winsvc/nf-winsvc-startservicea
+      - name: "StartServiceCtrlDispatcher"
+        href: /windows/desktop/api/Winsvc/nf-winsvc-startservicectrldispatchera
+      - name: "SubscribeServiceChangeNotifications"
+        href: subscribeservicechangenotifications.md
+      - name: "UnlockServiceDatabase"
+        href: /windows/desktop/api/Winsvc/nf-winsvc-unlockservicedatabase
+      - name: "UnsubscribeServiceChangeNotifications"
+        href: unsubscribeservicechangenotifications.md
+    - name: "Service Structures"
+      href: service-structures.md
+      items: 
+      - name: "ENUM_SERVICE_STATUS"
+        href: /windows/win32/api/Winsvc/ns-winsvc-enum_service_statusa
+      - name: "ENUM_SERVICE_STATUS_PROCESS"
+        href: /windows/win32/api/Winsvc/ns-winsvc-enum_service_status_processa
+      - name: "QUERY_SERVICE_CONFIG"
+        href: /windows/win32/api/Winsvc/ns-winsvc-query_service_configa
+      - name: "QUERY_SERVICE_LOCK_STATUS"
+        href: /windows/win32/api/Winsvc/ns-winsvc-query_service_lock_statusa
+      - name: "SC_ACTION"
+        href: /windows/win32/api/Winsvc/ns-winsvc-sc_action
+      - name: "SERVICE_CONTROL_STATUS_REASON_PARAMS"
+        href: /windows/win32/api/Winsvc/ns-winsvc-service_control_status_reason_paramsa
+      - name: "SERVICE_DELAYED_AUTO_START_INFO"
+        href: /windows/win32/api/Winsvc/ns-winsvc-service_delayed_auto_start_info
+      - name: "SERVICE_DESCRIPTION"
+        href: /windows/win32/api/Winsvc/ns-winsvc-service_descriptiona
+      - name: "SERVICE_FAILURE_ACTIONS"
+        href: /windows/win32/api/Winsvc/ns-winsvc-service_failure_actionsa
+      - name: "SERVICE_FAILURE_ACTIONS_FLAG"
+        href: /windows/win32/api/Winsvc/ns-winsvc-service_failure_actions_flag
+      - name: "SERVICE_LAUNCH_PROTECTED_INFO"
+        href: /windows/win32/api/WinSvc/ns-winsvc-service_launch_protected_info
+      - name: "SERVICE_NOTIFY"
+        href: /windows/win32/api/Winsvc/ns-winsvc-service_notify_2a
+      - name: "SERVICE_PREFERRED_NODE_INFO"
+        href: /windows/win32/api/winsvc/ns-winsvc-service_preferred_node_info
+      - name: "SERVICE_PRESHUTDOWN_INFO"
+        href: /windows/win32/api/Winsvc/ns-winsvc-service_preshutdown_info
+      - name: "SERVICE_REQUIRED_PRIVILEGES_INFO"
+        href: /windows/win32/api/Winsvc/ns-winsvc-service_required_privileges_infoa
+      - name: "SERVICE_SID_INFO"
+        href: /windows/win32/api/Winsvc/ns-winsvc-service_sid_info
+      - name: "SERVICE_STATUS"
+        href: /windows/win32/api/Winsvc/ns-winsvc-service_status
+      - name: "SERVICE_STATUS_PROCESS"
+        href: /windows/win32/api/Winsvc/ns-winsvc-service_status_process
+      - name: "SERVICE_TABLE_ENTRY"
+        href: /windows/win32/api/Winsvc/ns-winsvc-service_table_entrya
+      - name: "SERVICE_TIMECHANGE_INFO"
+        href: /windows/win32/api/winsvc/ns-winsvc-service_timechange_info
+      - name: "SERVICE_TRIGGER"
+        href: /windows/win32/api/winsvc/ns-winsvc-service_trigger
+      - name: "SERVICE_TRIGGER_INFO"
+        href: /windows/win32/api/winsvc/ns-winsvc-service_trigger_info
+      - name: "SERVICE_TRIGGER_SPECIFIC_DATA_ITEM"
+        href: /windows/win32/api/winsvc/ns-winsvc-service_trigger_specific_data_item

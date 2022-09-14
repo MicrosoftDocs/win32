@@ -1,0 +1,342 @@
+- name: "Network Policy Server"
+  href: portal.md
+  items: 
+  - name: "About Network Policy Server"
+    href: about-network-policy-server.md
+    items: 
+    - name: "Internet Authentication Service and Network Policy Server"
+      href: internet-authentication-service-vs-network-policy-server.md
+    - name: "RADIUS Authentication, Authorization, and Accounting"
+      href: ias-radius-authentication-and-accounting.md
+    - name: "Logging With Network Policy Server"
+      href: ias-radius-accounting-packets.md
+    - name: "Working With a State Server"
+      href: ias-working-with-a-state-server.md
+      items: 
+      - name: "State Server Design Considerations"
+        href: ias-state-server-design-considerations.md
+  - name: "Network Policy Server Extensions"
+    href: ias-extensions.md
+    items: 
+    - name: "About NPS Extensions"
+      href: ias-about-internet-authentication-service.md
+      items: 
+      - name: "Setting Up the Extension DLLs"
+        href: ias-setting-up-the-extension-and-authorization-dlls.md
+      - name: "Invoking the Extension DLLs"
+        href: ias-authentication-and-authorization-process.md
+      - name: "User Identification Attributes"
+        href: ias-user-identification-attributes.md
+    - name: "Using NPS Extensions"
+      href: ias-using-internet-authentication-service.md
+    - name: "NPS Extensions Reference"
+      href: ias-internet-authentication-service-reference.md
+      items: 
+      - name: "NPS Extensions Enumerations"
+        href: ias-internet-authentication-service-enumerations.md
+        items: 
+        - name: "RADIUS_ACTION"
+          href: /windows/win32/api/AuthIf/ne-authif-radius_action
+        - name: "RADIUS_ATTRIBUTE_TYPE"
+          href: /windows/win32/api/AuthIf/ne-authif-radius_attribute_type
+        - name: "RADIUS_AUTHENTICATION_PROVIDER"
+          href: /windows/win32/api/AuthIf/ne-authif-radius_authentication_provider
+        - name: "RADIUS_CODE"
+          href: /windows/win32/api/AuthIf/ne-authif-radius_code
+        - name: "RADIUS_DATA_TYPE"
+          href: /windows/win32/api/AuthIf/ne-authif-radius_data_type
+        - name: "RADIUS_EXTENSION_POINT"
+          href: /windows/win32/api/AuthIf/ne-authif-radius_extension_point
+        - name: "RADIUS_REJECT_REASON_CODE"
+          href: /windows/win32/api/AuthIf/ne-authif-radius_reject_reason_code
+      - name: "NPS Extensions Functions"
+        href: ias-internet-authentication-service-functions.md
+        items: 
+        - name: "Application Defined"
+          href: application-defined.md
+          items: 
+          - name: "PRADIUS_EXTENSION_FREE_ATTRIBUTES"
+            href: /windows/desktop/api/AuthIf/nc-authif-pradius_extension_free_attributes
+          - name: "PRADIUS_EXTENSION_INIT"
+            href: /windows/desktop/api/AuthIf/nc-authif-pradius_extension_init
+          - name: "PRADIUS_EXTENSION_PROCESS"
+            href: /windows/desktop/api/AuthIf/nc-authif-pradius_extension_process
+          - name: "PRADIUS_EXTENSION_PROCESS_EX"
+            href: /windows/desktop/api/Authif/nc-authif-pradius_extension_process_ex
+          - name: "PRADIUS_EXTENSION_PROCESS_2"
+            href: /windows/desktop/api/AuthIf/nc-authif-pradius_extension_process_2
+          - name: "PRADIUS_EXTENSION_TERM"
+            href: /windows/desktop/api/AuthIf/nc-authif-pradius_extension_term
+      - name: "NPS Extensions Structures"
+        href: ias-internet-authentication-service-structures.md
+        items: 
+        - name: "RADIUS_ATTRIBUTE"
+          href: /windows/win32/api/AuthIf/ns-authif-radius_attribute
+        - name: "RADIUS_ATTRIBUTE_ARRAY"
+          href: /windows/win32/api/AuthIf/ns-authif-radius_attribute_array
+        - name: "RADIUS_EXTENSION_CONTROL_BLOCK"
+          href: /windows/win32/api/AuthIf/ns-authif-radius_extension_control_block
+        - name: "RADIUS_VSA_FORMAT"
+          href: /windows/win32/api/AuthIf/ns-authif-radius_vsa_format
+  - name: "Server Data Objects"
+    href: server-data-objects.md
+    items: 
+    - name: "About Server Data Objects"
+      href: sdo-about-server-data-objects.md
+      items: 
+      - name: "Elements of the SDO API"
+        href: sdo-elements-of-the-sdo-api.md
+        items: 
+        - name: "Objects and Properties"
+          href: sdo-objects-and-properties.md
+        - name: "Object Model Hierarchy"
+          href: sdo-object-model-hierarchy.md
+        - name: "SDO Supported Attributes"
+          href: sdo-sdo-supported-attributes.md
+          items: 
+          - name: "Acct-Provider-Name"
+            href: sdo-acct-provider-name.md
+          - name: "Acct-Provider-Type"
+            href: sdo-acct-provider-type.md
+          - name: "Auth-Provider-Name"
+            href: sdo-auth-provider-name.md
+          - name: "Auth-Provider-Type"
+            href: sdo-auth-provider-type.md
+          - name: "Ignore-User-Dialin-Properties"
+            href: sdo-ignore-user-dialin-properties.md
+          - name: "Manipulation-Rule"
+            href: sdo-manipulation-rule.md
+          - name: "Manipulation-Target"
+            href: sdo-manipulation-target.md
+          - name: "NP-Allowed-EAP-Type"
+            href: sdo-np-allowed-eap-type.md
+          - name: "NP-Allowed-Port-Types"
+            href: sdo-np-allowed-port-types.md
+          - name: "NP-Authentication-Type"
+            href: sdo-np-authentication-type.md
+          - name: "NP-Called-Station-ID"
+            href: sdo-np-called-station-id.md
+      - name: "Order in Which to Use the SDO API"
+        href: sdo-order-in-which-to-use-the-sdo-api.md
+        items: 
+        - name: "Obtaining a Machine SDO"
+          href: sdo-obtaining-a-machine-sdo.md
+        - name: "Attaching to the SDO Computer"
+          href: sdo-attaching-to-the-sdo-computer.md
+        - name: "Obtaining Service and User SDOs"
+          href: sdo-obtaining-service-and-user-sdos.md
+    - name: "Using Server Data Objects"
+      href: sdo-using-server-data-objects.md
+      items: 
+      - name: "Fundamental SDO Operations"
+        href: sdo-fundamental-sdo-operations.md
+        items: 
+        - name: "Attaching to an SDO-Enabled Computer"
+          href: sdo-attaching-to-an-sdo-enabled-computer.md
+        - name: "Retrieving a Service SDO"
+          href: sdo-retrieving-a-service-sdo.md
+        - name: "Retrieving a User SDO"
+          href: sdo-retrieving-a-user-sdo.md
+        - name: "Retrieving a Collection"
+          href: sdo-retrieving-a-collection.md
+        - name: "Adding an Object to a Collection"
+          href: sdo-adding-an-object-to-a-collection.md
+        - name: "Retrieving an Object from a Collection"
+          href: sdo-retrieving-an-object-from-a-collection.md
+        - name: "Enumerating Objects in a Collection"
+          href: sdo-enumerating-objects-in-a-collection.md
+      - name: "SDO Tasks"
+        href: sdo-sdo-tasks.md
+        items: 
+        - name: "Adding a Client"
+          href: sdo-adding-a-client.md
+        - name: "Changing Dial-In Settings"
+          href: sdo-changing-dial-in-settings.md
+        - name: "Creating a Connection Request Policy"
+          href: sdo-creating-a-connection-request-policy.md
+        - name: "Listing Profiles, Policies, and Clients"
+          href: sdo-listing-profiles-policies-and-clients.md
+        - name: "Obtaining Accounting Properties"
+          href: sdo-obtaining-accounting-properties.md
+        - name: "Realms Processing and Attribute Manipulation"
+          href: sdo-realms-processing-and-attribute-manipulation.md
+    - name: "Server Data Objects Reference"
+      href: sdo-server-data-objects-reference.md
+      items: 
+      - name: "Server Data Objects Enumerations"
+        href: sdo-server-data-objects-enumerations.md
+        items: 
+        - name: "Listing by Category"
+          href: sdo-listing-by-category.md
+          items: 
+          - name: "Accounting"
+            href: sdo-accounting.md
+          - name: "Attributes"
+            href: sdo-attributes.md
+          - name: "Collections"
+            href: sdo-collections.md
+        - name: "Alphabetical Listing"
+          href: sdo-alphabetical-listing.md
+          items: 
+          - name: "ACCOUNTINGPROPERTIES"
+            href: /windows/win32/api/SdoIas/ne-sdoias-accountingproperties
+          - name: "ATTRIBUTEFILTER"
+            href: /windows/win32/api/SdoIas/ne-sdoias-attributefilter
+          - name: "ATTRIBUTEID"
+            href: /windows/win32/api/SdoIas/ne-sdoias-attributeid
+          - name: "ATTRIBUTEINFO"
+            href: /windows/win32/api/SdoIas/ne-sdoias-attributeinfo
+          - name: "ATTRIBUTEPROPERTIES"
+            href: /windows/win32/api/SdoIas/ne-sdoias-attributeproperties
+          - name: "ATTRIBUTERESTRICTIONS"
+            href: /windows/win32/api/SdoIas/ne-sdoias-attributerestrictions
+          - name: "ATTRIBUTESYNTAX"
+            href: /windows/win32/api/SdoIas/ne-sdoias-attributesyntax
+          - name: "AUTHENTICATION_TYPE"
+            href: /windows/win32/api/SdoIas/ne-sdoias-authentication_type
+          - name: "CLIENTPROPERTIES"
+            href: /windows/win32/api/SdoIas/ne-sdoias-clientproperties
+          - name: "CONDITIONPROPERTIES"
+            href: /windows/win32/api/SdoIas/ne-sdoias-conditionproperties
+          - name: "DICTIONARYPROPERTIES"
+            href: /windows/win32/api/SdoIas/ne-sdoias-dictionaryproperties
+          - name: "EAPWRAPPROPERTIES"
+            href: /previous-versions/ms717032(v=vs.85)
+          - name: "IASCOMMONPROPERTIES"
+            href: /windows/win32/api/SdoIas/ne-sdoias-iascommonproperties
+          - name: "IASCOMPONENTPROPERTIES"
+            href: /windows/win32/api/SdoIas/ne-sdoias-iascomponentproperties
+          - name: "IASDATASTORE"
+            href: /windows/win32/api/SdoIas/ne-sdoias-iasdatastore
+          - name: "IASDOMAINTYPE"
+            href: /windows/desktop/api/SdoIas/ne-sdoias-iasdomaintype
+          - name: "IASOSTYPE"
+            href: /windows/win32/api/SdoIas/ne-sdoias-iasostype
+          - name: "IASPROPERTIES"
+            href: /windows/win32/api/SdoIas/ne-sdoias-iasproperties
+          - name: "IDENTITY_TYPE"
+            href: /windows/win32/api/SdoIas/ne-sdoias-identity_type
+          - name: "NAMESPROPERTIES"
+            href: /windows/win32/api/SdoIas/ne-sdoias-namesproperties
+          - name: "NAPPROPERTIES"
+            href: /windows/win32/api/SdoIas/ne-sdoias-napproperties
+          - name: "NEW_LOG_FILE_FREQUENCY"
+            href: /windows/win32/api/SdoIas/ne-sdoias-new_log_file_frequency
+          - name: "NTEVENTLOGPROPERTIES"
+            href: /windows/win32/api/SdoIas/ne-sdoias-nteventlogproperties
+          - name: "NTSAMPROPERTIES"
+            href: /windows/win32/api/SdoIas/ne-sdoias-ntsamproperties
+          - name: "POLICYPROPERTIES"
+            href: /windows/win32/api/SdoIas/ne-sdoias-policyproperties
+          - name: "PROFILEPROPERTIES"
+            href: /windows/win32/api/SdoIas/ne-sdoias-profileproperties
+          - name: "PROTOCOLPROPERTIES"
+            href: /windows/win32/api/SdoIas/ne-sdoias-protocolproperties
+          - name: "RADIUSPROPERTIES"
+            href: /windows/win32/api/SdoIas/ne-sdoias-radiusproperties
+          - name: "RADIUSPROXYPROPERTIES"
+            href: /windows/win32/api/SdoIas/ne-sdoias-radiusproxyproperties
+          - name: "RADIUSSERVERGROUPPROPERTIES"
+            href: /windows/win32/api/SdoIas/ne-sdoias-radiusservergroupproperties
+          - name: "RADIUSSERVERPROPERTIES"
+            href: /windows/win32/api/SdoIas/ne-sdoias-radiusserverproperties
+          - name: "REMEDIATIONSERVERGROUPPROPERTIES"
+            href: /windows/win32/api/SdoIas/ne-sdoias-remediationservergroupproperties
+          - name: "REMEDIATIONSERVERPROPERTIES"
+            href: /windows/win32/api/SdoIas/ne-sdoias-remediationserverproperties
+          - name: "REMEDIATIONSERVERSPROPERTIES"
+            href: /windows/win32/api/SdoIas/ne-sdoias-remediationserversproperties
+          - name: "SERVICE_TYPE"
+            href: /windows/win32/api/SdoIas/ne-sdoias-service_type
+          - name: "SHV_COMBINATION_TYPE"
+            href: /windows/win32/api/SdoIas/ne-sdoias-shv_combination_type
+          - name: "SHVTEMPLATEPROPERTIES"
+            href: /windows/win32/api/SdoIas/ne-sdoias-shvtemplateproperties
+          - name: "USERPROPERTIES"
+            href: /windows/win32/api/SdoIas/ne-sdoias-userproperties
+          - name: "VENDORPROPERTIES"
+            href: /windows/win32/api/SdoIas/ne-sdoias-vendorproperties
+      - name: "Server Data Objects Interfaces"
+        href: sdo-server-data-objects-interfaces.md
+        items: 
+        - name: "ISdo"
+          href: /windows/desktop/api/SdoIas/nn-sdoias-isdo
+          items: 
+          - name: "get__NewEnum Method"
+            href: /windows/desktop/api/SdoIas/nf-sdoias-isdo-get__newenum
+          - name: "Apply Method"
+            href: /windows/desktop/api/SdoIas/nf-sdoias-isdo-apply
+          - name: "GetProperty Method"
+            href: /windows/desktop/api/SdoIas/nf-sdoias-isdo-getproperty
+          - name: "GetPropertyInfo Method"
+            href: /windows/desktop/api/SdoIas/nf-sdoias-isdo-getpropertyinfo
+          - name: "PutProperty Method"
+            href: /windows/desktop/api/SdoIas/nf-sdoias-isdo-putproperty
+          - name: "ResetProperty Method"
+            href: /windows/desktop/api/SdoIas/nf-sdoias-isdo-resetproperty
+          - name: "Restore Method"
+            href: /windows/desktop/api/SdoIas/nf-sdoias-isdo-restore
+        - name: "ISdoCollection"
+          href: /windows/desktop/api/SdoIas/nn-sdoias-isdocollection
+          items: 
+          - name: "get__NewEnum Method"
+            href: /windows/desktop/api/SdoIas/nf-sdoias-isdocollection-get__newenum
+          - name: "Add Method"
+            href: /windows/desktop/api/SdoIas/nf-sdoias-isdocollection-add
+          - name: "get_Count Method"
+            href: /windows/desktop/api/SdoIas/nf-sdoias-isdocollection-get_count
+          - name: "IsNameUnique Method"
+            href: /windows/desktop/api/SdoIas/nf-sdoias-isdocollection-isnameunique
+          - name: "Item Method"
+            href: /windows/desktop/api/SdoIas/nf-sdoias-isdocollection-item
+          - name: "Reload Method"
+            href: /windows/desktop/api/SdoIas/nf-sdoias-isdocollection-reload
+          - name: "Remove Method"
+            href: /windows/desktop/api/SdoIas/nf-sdoias-isdocollection-remove
+          - name: "RemoveAll Method"
+            href: /windows/desktop/api/SdoIas/nf-sdoias-isdocollection-removeall
+        - name: "ISdoDictionaryOld"
+          href: /windows/desktop/api/SdoIas/nn-sdoias-isdodictionaryold
+          items: 
+          - name: "CreateAttribute Method"
+            href: /windows/desktop/api/SdoIas/nf-sdoias-isdodictionaryold-createattribute
+          - name: "EnumAttributes Method"
+            href: /windows/desktop/api/SdoIas/nf-sdoias-isdodictionaryold-enumattributes
+          - name: "EnumAttributeValues Method"
+            href: /windows/desktop/api/SdoIas/nf-sdoias-isdodictionaryold-enumattributevalues
+          - name: "GetAttributeID Method"
+            href: /windows/desktop/api/SdoIas/nf-sdoias-isdodictionaryold-getattributeid
+          - name: "GetAttributeInfo Method"
+            href: /windows/desktop/api/SdoIas/nf-sdoias-isdodictionaryold-getattributeinfo
+        - name: "ISdoMachine"
+          href: /windows/desktop/api/SdoIas/nn-sdoias-isdomachine
+          items: 
+          - name: "Attach Method"
+            href: /windows/desktop/api/SdoIas/nf-sdoias-isdomachine-attach
+          - name: "GetAttachedComputer Method"
+            href: /windows/desktop/api/SdoIas/nf-sdoias-isdomachine-getattachedcomputer
+          - name: "GetDictionarySDO Method"
+            href: /windows/desktop/api/SdoIas/nf-sdoias-isdomachine-getdictionarysdo
+          - name: "GetDomainType Method"
+            href: /windows/desktop/api/SdoIas/nf-sdoias-isdomachine-getdomaintype
+          - name: "GetOSType Method"
+            href: /windows/desktop/api/SdoIas/nf-sdoias-isdomachine-getostype
+          - name: "GetServiceSDO Method"
+            href: /windows/desktop/api/SdoIas/nf-sdoias-isdomachine-getservicesdo
+          - name: "GetUserSDO Method"
+            href: /windows/desktop/api/SdoIas/nf-sdoias-isdomachine-getusersdo
+          - name: "IsDirectoryAvailable Method"
+            href: /windows/desktop/api/SdoIas/nf-sdoias-isdomachine-isdirectoryavailable
+        - name: "ISdoServiceControl"
+          href: /windows/desktop/api/SdoIas/nn-sdoias-isdoservicecontrol
+          items: 
+          - name: "GetServiceStatus Method"
+            href: /windows/desktop/api/SdoIas/nf-sdoias-isdoservicecontrol-getservicestatus
+          - name: "ResetService Method"
+            href: /windows/desktop/api/SdoIas/nf-sdoias-isdoservicecontrol-resetservice
+          - name: "StartService Method"
+            href: /windows/desktop/api/SdoIas/nf-sdoias-isdoservicecontrol-startservice
+          - name: "StopService Method"
+            href: /windows/desktop/api/SdoIas/nf-sdoias-isdoservicecontrol-stopservice
+  - name: "SQL Programmability"
+    href: sql-programmability.md

@@ -1,0 +1,23 @@
+- name: "Windows Certification"
+  href: windows-certification-portal.md
+  items: 
+  - name: "What are the benefits?"
+    href: what-are-the-benefits-.md
+  - name: "Certification requirements for Windows Desktop Apps"
+    href: certification-requirements-for-windows-desktop-apps.md
+    items: 
+    - name: "Archive: Certification requirements for Windows Desktop Apps v3.3"
+      href: certification-requirements-for-windows-desktop-apps-v3-3.md
+    - name: "Archive: Certification requirements for Windows Desktop Apps v3.1"
+      href: archive--certification-requirements-for-windows-desktop-apps-v3-1.md
+    - name: "Archive: Certification requirements for Windows Desktop Apps v3.0"
+      href: archive--certification-requirements-for-windows-desktop-apps-v3-0.md
+    - name: "Archive: Certification requirements for Windows Desktop Apps v1.2"
+      href: archive--certification-requirements-for-windows-desktop-apps-v1-2.md
+    - name: "Archive: Certification requirements for Windows Desktop Apps v1.1"
+      href: archive--certification-requirements-for-windows-desktop-apps-v1-1.md
+  - name: "Using the Windows App Certification Kit"
+    href: using-the-windows-app-certification-kit.md
+    items: 
+    - name: "Windows App Certification Kit tests"
+      href: windows-app-certification-kit-tests.md

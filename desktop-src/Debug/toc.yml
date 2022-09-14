@@ -1,0 +1,948 @@
+- name: "Error Handling"
+  href: error-handling.md
+  items: 
+  - name: "About Error Handling"
+    href: about-error-handling.md
+    items: 
+    - name: "Error Mode"
+      href: error-mode.md
+    - name: "Last-Error Code"
+      href: last-error-code.md
+    - name: "Notifying the User"
+      href: notifying-the-user.md
+    - name: "Message Tables"
+      href: message-tables.md
+    - name: "Fatal Application Exit"
+      href: fatal-application-exit.md
+    - name: "Error Message Guidelines"
+      href: error-message-guidelines.md
+  - name: "Using Error Handling"
+    href: using-error-handling.md
+    items: 
+    - name: "Retrieving the Last-Error Code"
+      href: retrieving-the-last-error-code.md
+  - name: "Error Handling Reference"
+    href: error-handling-reference.md
+    items: 
+    - name: "Error Handling Functions"
+      href: error-handling-functions.md
+      items: 
+      - name: "Beep"
+        href: /windows/desktop/api/utilapiset/nf-utilapiset-beep
+      - name: "CaptureStackBackTrace"
+        href: /previous-versions/windows/desktop/legacy/bb204633(v=vs.85)
+      - name: "FatalAppExit"
+        href: /windows/desktop/api/winbase/nf-winbase-fatalexit
+      - name: "FlashWindow"
+        href: /windows/desktop/api/Winuser/nf-winuser-flashwindow
+      - name: "FlashWindowEx"
+        href: /windows/desktop/api/Winuser/nf-winuser-flashwindowex
+      - name: "FormatMessage"
+        href: /windows/desktop/api/WinBase/nf-winbase-formatmessage
+      - name: "GetErrorMode"
+        href: /windows/desktop/api/errhandlingapi/nf-errhandlingapi-geterrormode
+      - name: "GetLastError"
+        href: /windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror
+      - name: "GetThreadErrorMode"
+        href: /windows/desktop/api/errhandlingapi/nf-errhandlingapi-getthreaderrormode
+      - name: "MessageBeep"
+        href: /windows/desktop/api/WinUser/nf-winuser-messagebeep
+      - name: "RtlLookupFunctionEntry"
+        href: /windows/desktop/api/WinNT/nf-winnt-rtllookupfunctionentry
+      - name: "RtlNtStatusToDosError"
+        href: /windows/desktop/api/Winternl/nf-winternl-rtlntstatustodoserror
+      - name: "RtlNtStatusToDosErrorNoTeb"
+        href: /previous-versions/windows/desktop/legacy/dn934204(v=vs.85)
+      - name: "RtlPcToFileHeader"
+        href: /windows/desktop/api/WinNT/nf-winnt-rtlpctofileheader
+      - name: "RtlUnwind"
+        href: /windows/desktop/api/WinNT/nf-winnt-rtlunwind
+      - name: "RtlUnwind2"
+        href: /windows/desktop/api/WinNT/nf-winnt-rtlunwind2
+      - name: "RtlUnwindEx"
+        href: /windows/desktop/api/WinNT/nf-winnt-rtlunwindex
+      - name: "RtlVirtualUnwind"
+        href: /windows/desktop/api/WinNT/nf-winnt-rtlvirtualunwind
+      - name: "SetErrorMode"
+        href: /windows/desktop/api/errhandlingapi/nf-errhandlingapi-seterrormode
+      - name: "SetLastError"
+        href: /windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror
+      - name: "SetLastErrorEx"
+        href: /windows/desktop/api/Winuser/nf-winuser-setlasterrorex
+      - name: "SetThreadErrorMode"
+        href: /windows/desktop/api/errhandlingapi/nf-errhandlingapi-setthreaderrormode
+    - name: "Error Handling Macros"
+      href: error-handling-macro.md
+      items: 
+      - name: "C_ASSERT"
+        href: /windows/desktop/api/WinNT/nf-winnt-c_assert
+    - name: "Error Handling Structures"
+      href: error-handling-structures.md
+      items: 
+      - name: "FLASHWINFO"
+        href: /windows/desktop/api/Winuser/ns-winuser-flashwinfo
+    - name: "Debug system error codes"
+      href: system-error-codes.md
+      items: 
+      - name: "Download and use the Microsoft Error Lookup Tool"
+        href: system-error-code-lookup-tool.md
+      - name: "System Error Codes (0-499)"
+        href: system-error-codes--0-499-.md
+      - name: "System Error Codes (500-999)"
+        href: system-error-codes--500-999-.md
+      - name: "System Error Codes (1000-1299)"
+        href: system-error-codes--1000-1299-.md
+      - name: "System Error Codes (1300-1699)"
+        href: system-error-codes--1300-1699-.md
+      - name: "System Error Codes (1700-3999)"
+        href: system-error-codes--1700-3999-.md
+      - name: "System Error Codes (4000-5999)"
+        href: system-error-codes--4000-5999-.md
+      - name: "System Error Codes (6000-8199)"
+        href: system-error-codes--6000-8199-.md
+      - name: "System Error Codes (8200-8999)"
+        href: system-error-codes--8200-8999-.md
+      - name: "System Error Codes (9000-11999)"
+        href: system-error-codes--9000-11999-.md
+      - name: "System Error Codes (12000-15999)"
+        href: system-error-codes--12000-15999-.md
+- name: "Basic Debugging"
+  href: basic-debugging.md
+  items: 
+  - name: "About Basic Debugging"
+    href: about-basic-debugging.md
+    items: 
+    - name: "Debugging Terminology"
+      href: debugging-terminology.md
+    - name: "Debug Support from Process, Thread, and Exception Functions"
+      href: debug-support-from-process-thread-and-exception-functions.md
+      items: 
+      - name: "Process Functions for Debugging"
+        href: process-functions-for-debugging.md
+      - name: "Thread Functions for Debugging"
+        href: thread-functions-for-debugging.md
+      - name: "Exception Functions for Debugging"
+        href: exception-handling-functions-for-debugging.md
+  - name: "Using Basic Debugging"
+    href: using-basic-debugging.md
+    items: 
+    - name: "Configuring Automatic Debugging"
+      href: configuring-automatic-debugging.md
+    - name: "Creating a Basic Debugger"
+      href: creating-a-basic-debugger.md
+      items: 
+      - name: "Debugging a Running Process"
+        href: debugging-a-running-process.md
+      - name: "Writing the Debugger's Main Loop"
+        href: writing-the-debugger-s-main-loop.md
+      - name: "Communicating with the Debugger"
+        href: communicating-with-the-debugger.md
+  - name: "Debugging Reference"
+    href: debugging-reference.md
+    items: 
+    - name: "Debugging Events"
+      href: debugging-events.md
+    - name: "Debugging Functions"
+      href: debugging-functions.md
+      items: 
+      - name: "CheckRemoteDebuggerPresent"
+        href: /windows/desktop/api/debugapi/nf-debugapi-checkremotedebuggerpresent
+      - name: "ContinueDebugEvent"
+        href: /windows/desktop/api/debugapi/nf-debugapi-continuedebugevent
+      - name: "DebugActiveProcess"
+        href: /windows/desktop/api/debugapi/nf-debugapi-debugactiveprocess
+      - name: "DebugActiveProcessStop"
+        href: /windows/desktop/api/debugapi/nf-debugapi-debugactiveprocessstop
+      - name: "DebugBreak"
+        href: /windows/desktop/api/debugapi/nf-debugapi-debugbreak
+      - name: "DebugBreakProcess"
+        href: /windows/desktop/api/WinBase/nf-winbase-debugbreakprocess
+      - name: "DebugSetProcessKillOnExit"
+        href: /windows/desktop/api/WinBase/nf-winbase-debugsetprocesskillonexit
+      - name: "FatalExit"
+        href: /windows/desktop/api/WinBase/nf-winbase-fatalexit
+      - name: "FlushInstructionCache"
+        href: /windows/desktop/api/processthreadsapi/nf-processthreadsapi-flushinstructioncache
+      - name: "GetThreadContext"
+        href: /windows/desktop/api/processthreadsapi/nf-processthreadsapi-getthreadcontext
+      - name: "GetThreadSelectorEntry"
+        href: /windows/desktop/api/WinBase/nf-winbase-getthreadselectorentry
+      - name: "IsDebuggerPresent"
+        href: /windows/desktop/api/debugapi/nf-debugapi-isdebuggerpresent
+      - name: "OutputDebugString"
+        href: /windows/desktop/api/debugapi/nf-debugapi-outputdebugstringw
+      - name: "ReadProcessMemory"
+        href: /windows/desktop/api/memoryapi/nf-memoryapi-readprocessmemory
+      - name: "SetThreadContext"
+        href: /windows/desktop/api/processthreadsapi/nf-processthreadsapi-setthreadcontext
+      - name: "WaitForDebugEvent"
+        href: /windows/desktop/api/debugapi/nf-debugapi-waitfordebugevent
+      - name: "WaitForDebugEventEx"
+        href: /windows/desktop/api/debugapi/nf-debugapi-waitfordebugeventex
+      - name: "Wow64GetThreadContext"
+        href: 
+      - name: "Wow64GetThreadSelectorEntry"
+        href: /windows/desktop/api/WinBase/nf-winbase-wow64getthreadselectorentry
+      - name: "Wow64SetThreadContext"
+        href: /windows/desktop/api/WinBase/nf-winbase-wow64setthreadcontext
+      - name: "WriteProcessMemory"
+        href: /windows/desktop/api/memoryapi/nf-memoryapi-writeprocessmemory
+    - name: "Debugging Structures"
+      href: debugging-structures.md
+      items: 
+      - name: "CONTEXT"
+        href: /windows/win32/api/WinNT/ns-winnt-arm64_nt_context
+      - name: "CREATE_PROCESS_DEBUG_INFO"
+        href: /windows/desktop/api/minwinbase/ns-minwinbase-create_process_debug_info
+      - name: "CREATE_THREAD_DEBUG_INFO"
+        href: /windows/desktop/api/minwinbase/ns-minwinbase-create_thread_debug_info
+      - name: "DEBUG_EVENT"
+        href: /windows/desktop/api/minwinbase/ns-minwinbase-debug_event
+      - name: "EXCEPTION_DEBUG_INFO"
+        href: /windows/desktop/api/minwinbase/ns-minwinbase-exception_debug_info
+      - name: "EXIT_PROCESS_DEBUG_INFO"
+        href: /windows/desktop/api/minwinbase/ns-minwinbase-exit_process_debug_info
+      - name: "EXIT_THREAD_DEBUG_INFO"
+        href: /windows/desktop/api/minwinbase/ns-minwinbase-exit_thread_debug_info
+      - name: "LDT_ENTRY"
+        href: /windows/win32/api/WinNT/ns-winnt-ldt_entry
+      - name: "LOAD_DLL_DEBUG_INFO"
+        href: /windows/desktop/api/minwinbase/ns-minwinbase-load_dll_debug_info
+      - name: "OUTPUT_DEBUG_STRING_INFO"
+        href: /windows/desktop/api/minwinbase/ns-minwinbase-output_debug_string_info
+      - name: "RIP_INFO"
+        href: /windows/desktop/api/minwinbase/ns-minwinbase-rip_info
+      - name: "Thread Environment Block (Debugging Notes)"
+        href: thread-environment-block--debugging-notes-.md
+      - name: "UNLOAD_DLL_DEBUG_INFO"
+        href: /windows/desktop/api/minwinbase/ns-minwinbase-unload_dll_debug_info
+      - name: "WOW64_CONTEXT"
+        href: /windows/win32/api/WinNT/ns-winnt-wow64_context
+      - name: "WOW64_FLOATING_SAVE_AREA"
+        href: /windows/win32/api/WinNT/ns-winnt-wow64_floating_save_area
+      - name: "WOW64_LDT_ENTRY"
+        href: /windows/win32/api/WinNT/ns-winnt-wow64_ldt_entry
+- name: "Debug Help Library"
+  href: debug-help-library.md
+  items: 
+  - name: "About DbgHelp"
+    href: about-dbghelp.md
+    items: 
+    - name: "DbgHelp Versions"
+      href: dbghelp-versions.md
+    - name: "Symbol Files"
+      href: symbol-files.md
+    - name: "Symbol Handling"
+      href: symbol-handling.md
+      items: 
+      - name: "Symbol Handler Initialization"
+        href: symbol-handler-initialization.md
+      - name: "Symbol Paths"
+        href: symbol-paths.md
+      - name: "Symbol Loading"
+        href: symbol-loading.md
+      - name: "Deferred Symbol Loading"
+        href: deferred-symbol-loading.md
+      - name: "Decorated Symbol Names"
+        href: decorated-symbol-names.md
+      - name: "Finding Symbols"
+        href: finding-symbols.md
+      - name: "Public, Global, and Local Symbols"
+        href: public--global--and-local-symbols.md
+      - name: "Symbol Handler Cleanup"
+        href: symbol-handler-cleanup.md
+    - name: "Symbol Server and Symbol Stores"
+      href: symbol-servers-and-symbol-stores.md
+      items: 
+      - name: "Using SymSrv"
+        href: using-symsrv.md
+      - name: "Using SymStore"
+        href: using-symstore.md
+      - name: "Using Other Symbol Stores"
+        href: using-other-symbol-stores.md
+      - name: "SymStore Command-Line Options"
+        href: symstore-command-line-options.md
+      - name: "Symbol Server and Internet Firewalls"
+        href: symbol-servers-and-internet-firewalls.md
+    - name: "Minidump Files"
+      href: minidump-files.md
+    - name: "Source Server"
+      href: source-server-and-source-indexing.md
+    - name: "Updated Platform Support"
+      href: updated-platform-support.md
+  - name: "Using DbgHelp"
+    href: using-dbghelp.md
+    items: 
+    - name: "Calling the DbgHelp Library"
+      href: calling-the-dbghelp-library.md
+    - name: "Initializing the Symbol Handler"
+      href: initializing-the-symbol-handler.md
+    - name: "Loading a Symbol Module"
+      href: loading-a-symbol-module.md
+    - name: "Getting Notifications"
+      href: getting-notifications.md
+    - name: "Enumerating Symbol Modules"
+      href: enumerating-symbol-modules.md
+    - name: "Enumerating Symbols"
+      href: enumerating-symbols.md
+    - name: "Retrieving Symbol Information by Name"
+      href: retrieving-symbol-information-by-name.md
+    - name: "Retrieving Symbol Information by Address"
+      href: retrieving-symbol-information-by-address.md
+    - name: "Retrieving Undecorated Symbol Names"
+      href: retrieving-undecorated-symbol-names.md
+    - name: "Unloading a Symbol Module"
+      href: unloading-a-symbol-module.md
+    - name: "Terminating the Symbol Handler"
+      href: terminating-the-symbol-handler.md
+  - name: "DbgHelp Reference"
+    href: dbghelp-reference.md
+    items: 
+    - name: "DbgHelp Enumerations"
+      href: dbghelp-enumerations.md
+      items: 
+      - name: "IMAGEHLP_EXTENDED_OPTIONS"
+        href: /windows/desktop/api/DbgHelp/ne-dbghelp-imagehlp_extended_options
+      - name: "IMAGEHLP_SYMBOL_TYPE_INFO"
+        href: /windows/win32/api/DbgHelp/ne-dbghelp-imagehlp_symbol_type_info
+      - name: "MINIDUMP_CALLBACK_TYPE"
+        href: /windows/win32/api/minidumpapiset/ne-minidumpapiset-minidump_callback_type
+      - name: "MINIDUMP_HANDLE_OBJECT_INFORMATION_TYPE"
+        href: /windows/win32/api/minidumpapiset/ne-minidumpapiset-minidump_handle_object_information_type
+      - name: "MINIDUMP_SECONDARY_FLAGS"
+        href: /windows/win32/api/minidumpapiset/ne-minidumpapiset-minidump_secondary_flags
+      - name: "MINIDUMP_STREAM_TYPE"
+        href: /windows/win32/api/minidumpapiset/ne-minidumpapiset-minidump_stream_type
+      - name: "MINIDUMP_TYPE"
+        href: /windows/win32/api/minidumpapiset/ne-minidumpapiset-minidump_type
+      - name: "MODULE_WRITE_FLAGS"
+        href: /windows/win32/api/minidumpapiset/ne-minidumpapiset-module_write_flags
+      - name: "THREAD_WRITE_FLAGS"
+        href: /windows/win32/api/minidumpapiset/ne-minidumpapiset-thread_write_flags
+    - name: "DbgHelp Functions"
+      href: dbghelp-functions.md
+      items: 
+      - name: "EnumDirTree"
+        href: /windows/desktop/api/Dbghelp/nf-dbghelp-enumdirtree
+      - name: "EnumDirTreeProc"
+        href: /windows/desktop/api/DbgHelp/nc-dbghelp-penumdirtree_callback
+      - name: "EnumerateLoadedModules64"
+        href: /windows/desktop/api/Dbghelp/nf-dbghelp-enumerateloadedmodules
+      - name: "EnumerateLoadedModulesEx"
+        href: /windows/desktop/api/Dbghelp/nf-dbghelp-enumerateloadedmodulesex
+      - name: "EnumerateLoadedModulesProc64"
+        href: /windows/desktop/api/DbgHelp/nc-dbghelp-penumloaded_modules_callback
+      - name: "FindDebugInfoFile"
+        href: /windows/desktop/api/Dbghelp/nf-dbghelp-finddebuginfofile
+      - name: "FindDebugInfoFileEx"
+        href: /windows/desktop/api/Dbghelp/nf-dbghelp-finddebuginfofileex
+      - name: "FindDebugInfoFileProc"
+        href: /windows/desktop/api/DbgHelp/nc-dbghelp-pfind_debug_file_callback
+      - name: "FindExecutableImage"
+        href: /windows/desktop/api/Dbghelp/nf-dbghelp-findexecutableimage
+      - name: "FindExecutableImageEx"
+        href: /windows/desktop/api/Dbghelp/nf-dbghelp-findexecutableimageex
+      - name: "FindExecutableImageProc"
+        href: /windows/desktop/api/DbgHelp/nc-dbghelp-pfind_exe_file_callback
+      - name: "FunctionTableAccessProc64"
+        href: /windows/desktop/api/DbgHelp/nc-dbghelp-pfunction_table_access_routine
+      - name: "GetModuleBaseProc64"
+        href: /windows/desktop/api/DbgHelp/nc-dbghelp-pget_module_base_routine
+      - name: "GetSymLoadError"
+        href: /windows/desktop/api/DbgHelp/nf-dbghelp-getsymloaderror
+      - name: "GetTimestampForLoadedLibrary"
+        href: /windows/desktop/api/Dbghelp/nf-dbghelp-gettimestampforloadedlibrary
+      - name: "ImageDirectoryEntryToData"
+        href: /windows/desktop/api/Dbghelp/nf-dbghelp-imagedirectoryentrytodata
+      - name: "ImageDirectoryEntryToDataEx"
+        href: /windows/desktop/api/Dbghelp/nf-dbghelp-imagedirectoryentrytodataex
+      - name: "ImagehlpApiVersion"
+        href: /windows/desktop/api/Dbghelp/nf-dbghelp-imagehlpapiversion
+      - name: "ImagehlpApiVersionEx"
+        href: /windows/desktop/api/Dbghelp/nf-dbghelp-imagehlpapiversionex
+      - name: "ImageNtHeader"
+        href: /windows/desktop/api/Dbghelp/nf-dbghelp-imagentheader
+      - name: "ImageRvaToSection"
+        href: /windows/desktop/api/Dbghelp/nf-dbghelp-imagervatosection
+      - name: "ImageRvaToVa"
+        href: /windows/desktop/api/Dbghelp/nf-dbghelp-imagervatova
+      - name: "MakeSureDirectoryPathExists"
+        href: /windows/desktop/api/Dbghelp/nf-dbghelp-makesuredirectorypathexists
+      - name: "MapDebugInformation"
+        href: /windows/desktop/api/Dbghelp/nf-dbghelp-mapdebuginformation
+      - name: "MiniDumpCallback"
+        href: /windows/desktop/api/minidumpapiset/nc-minidumpapiset-minidump_callback_routine
+      - name: "MiniDumpReadDumpStream"
+        href: /windows/desktop/api/minidumpapiset/nf-minidumpapiset-minidumpreaddumpstream
+      - name: "MiniDumpWriteDump"
+        href: /windows/desktop/api/minidumpapiset/nf-minidumpapiset-minidumpwritedump
+      - name: "ReadProcessMemoryProc64"
+        href: /windows/desktop/api/DbgHelp/nc-dbghelp-pread_process_memory_routine
+      - name: "SearchTreeForFile"
+        href: /windows/desktop/api/Dbghelp/nf-dbghelp-searchtreeforfile
+      - name: "SetSymLoadError"
+        href: /windows/desktop/api/DbgHelp/nf-dbghelp-setsymloaderror
+      - name: "StackWalk64"
+        href: /windows/desktop/api/DbgHelp/nf-dbghelp-stackwalk
+      - name: "StackWalkEx"
+        href: /windows/desktop/api/DbgHelp/nf-dbghelp-stackwalkex
+      - name: "SymAddrIncludeInlineTrace"
+        href: /windows/desktop/api/DbgHelp/nf-dbghelp-symaddrincludeinlinetrace
+      - name: "SymAddSourceStream"
+        href: /windows/desktop/api/Dbghelp/nf-dbghelp-symaddsourcestream
+      - name: "SymAddSymbol"
+        href: /windows/desktop/api/Dbghelp/nf-dbghelp-symaddsymbol
+      - name: "SymCleanup"
+        href: /windows/desktop/api/Dbghelp/nf-dbghelp-symcleanup
+      - name: "SymCompareInlineTrace"
+        href: /windows/desktop/api/DbgHelp/nf-dbghelp-symcompareinlinetrace
+      - name: "SymDeleteSymbol"
+        href: /windows/desktop/api/Dbghelp/nf-dbghelp-symdeletesymbol
+      - name: "SymEnumerateModules64"
+        href: /windows/desktop/api/Dbghelp/nf-dbghelp-symenumeratemodules
+      - name: "SymEnumerateModulesProc64"
+        href: /windows/desktop/api/DbgHelp/nc-dbghelp-psym_enummodules_callback
+      - name: "SymEnumerateSymbols64"
+        href: /windows/desktop/api/Dbghelp/nf-dbghelp-symenumeratesymbols
+      - name: "SymEnumerateSymbolsProc64"
+        href: /windows/desktop/api/DbgHelp/nc-dbghelp-psym_enumsymbols_callback
+      - name: "SymEnumLines"
+        href: /windows/desktop/api/Dbghelp/nf-dbghelp-symenumlines
+      - name: "SymEnumLinesProc"
+        href: /windows/desktop/api/DbgHelp/nc-dbghelp-psym_enumlines_callback
+      - name: "SymEnumProcesses"
+        href: /windows/desktop/api/DbgHelp/nf-dbghelp-symenumprocesses
+      - name: "SymEnumProcessesProc"
+        href: /windows/desktop/api/DbgHelp/nc-dbghelp-psym_enumprocesses_callback
+      - name: "SymEnumSourceFiles"
+        href: /windows/desktop/api/DbgHelp/nf-dbghelp-symenumsourcefiles
+      - name: "SymEnumSourceFilesProc"
+        href: /windows/desktop/api/DbgHelp/nc-dbghelp-psym_enumsourcefiles_callback
+      - name: "SymEnumSourceFileTokens"
+        href: /windows/desktop/api/Dbghelp/nf-dbghelp-symenumsourcefiletokens
+      - name: "PENUMSOURCEFILETOKENSCALLBACK"
+        href: /windows/desktop/api/Dbghelp/nc-dbghelp-penumsourcefiletokenscallback
+      - name: "SymEnumSourceLines"
+        href: /windows/desktop/api/DbgHelp/nf-dbghelp-symenumsourcelines
+      - name: "SymEnumSymbols"
+        href: /windows/desktop/api/Dbghelp/nf-dbghelp-symenumsymbols
+      - name: "SymEnumSymbolsEx"
+        href: /windows/desktop/api/DbgHelp/nf-dbghelp-symenumsymbolsex
+      - name: "SymEnumSymbolsForAddr"
+        href: /windows/desktop/api/Dbghelp/nf-dbghelp-symenumsymbolsforaddr
+      - name: "SymEnumSymbolsProc"
+        href: /windows/desktop/api/DbgHelp/nc-dbghelp-psym_enumeratesymbols_callback
+      - name: "SymEnumTypes"
+        href: /windows/desktop/api/Dbghelp/nf-dbghelp-symenumtypes
+      - name: "SymEnumTypesByName"
+        href: /windows/desktop/api/Dbghelp/nf-dbghelp-symenumtypesbyname
+      - name: "SymFindDebugInfoFile"
+        href: /windows/desktop/api/Dbghelp/nf-dbghelp-symfinddebuginfofile
+      - name: "SymFindExecutableImage"
+        href: /windows/desktop/api/Dbghelp/nf-dbghelp-symfindexecutableimage
+      - name: "SymFindFileInPath"
+        href: /windows/desktop/api/DbgHelp/nf-dbghelp-symfindfileinpath
+      - name: "SymFindFileInPathProc"
+        href: /windows/desktop/api/DbgHelp/nc-dbghelp-pfindfileinpathcallback
+      - name: "SymFromAddr"
+        href: /windows/desktop/api/Dbghelp/nf-dbghelp-symfromaddr
+      - name: "SymFromIndex"
+        href: /windows/desktop/api/Dbghelp/nf-dbghelp-symfromindex
+      - name: "SymFromInlineContext"
+        href: /windows/desktop/api/DbgHelp/nf-dbghelp-symfrominlinecontext
+      - name: "SymFromName"
+        href: /windows/desktop/api/Dbghelp/nf-dbghelp-symfromname
+      - name: "SymFromToken"
+        href: /windows/desktop/api/Dbghelp/nf-dbghelp-symfromtoken
+      - name: "SymFunctionTableAccess64"
+        href: /windows/desktop/api/Dbghelp/nf-dbghelp-symfunctiontableaccess
+      - name: "SymFunctionTableAccess64AccessRoutines"
+        href: /windows/desktop/api/DbgHelp/nf-dbghelp-symfunctiontableaccess64accessroutines
+      - name: "SymGetExtendedOption"
+        href: /windows/desktop/api/DbgHelp/nf-dbghelp-symgetextendedoption
+      - name: "SymGetFileLineOffsets64"
+        href: /windows/desktop/api/Dbghelp/nf-dbghelp-symgetfilelineoffsets64
+      - name: "SymGetHomeDirectory"
+        href: /windows/desktop/api/Dbghelp/nf-dbghelp-symgethomedirectory
+      - name: "SymGetLineFromAddr64"
+        href: /windows/desktop/api/Dbghelp/nf-dbghelp-symgetlinefromaddr
+      - name: "SymGetLineFromInlineContext"
+        href: /windows/desktop/api/DbgHelp/nf-dbghelp-symgetlinefrominlinecontext
+      - name: "SymGetLineFromName64"
+        href: /windows/desktop/api/Dbghelp/nf-dbghelp-symgetlinefromname
+      - name: "SymGetLineNext64"
+        href: /windows/desktop/api/Dbghelp/nf-dbghelp-symgetlinenext
+      - name: "SymGetLinePrev64"
+        href: /windows/desktop/api/Dbghelp/nf-dbghelp-symgetlineprev
+      - name: "SymGetModuleBase64"
+        href: /windows/desktop/api/Dbghelp/nf-dbghelp-symgetmodulebase
+      - name: "SymGetModuleInfo64"
+        href: /windows/desktop/api/Dbghelp/nf-dbghelp-symgetmoduleinfo
+      - name: "SymGetOmaps"
+        href: /windows/desktop/api/Dbghelp/nf-dbghelp-symgetomaps
+      - name: "SymGetOptions"
+        href: /windows/desktop/api/Dbghelp/nf-dbghelp-symgetoptions
+      - name: "SymGetScope"
+        href: /windows/desktop/api/Dbghelp/nf-dbghelp-symgetscope
+      - name: "SymGetSearchPath"
+        href: /windows/desktop/api/Dbghelp/nf-dbghelp-symgetsearchpath
+      - name: "SymGetSourceFile"
+        href: /windows/desktop/api/Dbghelp/nf-dbghelp-symgetsourcefile
+      - name: "SymGetSourceFileChecksum"
+        href: /windows/desktop/api/Dbghelp/nf-dbghelp-symgetsourcefilechecksum
+      - name: "SymGetSourceFileFromToken"
+        href: /windows/desktop/api/Dbghelp/nf-dbghelp-symgetsourcefilefromtoken
+      - name: "SymGetSourceFileToken"
+        href: /windows/desktop/api/Dbghelp/nf-dbghelp-symgetsourcefiletoken
+      - name: "SymGetSourceVarFromToken"
+        href: /windows/desktop/api/Dbghelp/nf-dbghelp-symgetsourcevarfromtoken
+      - name: "SymGetSymbolFile"
+        href: /windows/desktop/api/Dbghelp/nf-dbghelp-symgetsymbolfile
+      - name: "SymGetSymFromAddr64"
+        href: /windows/desktop/api/Dbghelp/nf-dbghelp-symgetsymfromaddr
+      - name: "SymGetSymFromName64"
+        href: /windows/desktop/api/Dbghelp/nf-dbghelp-symgetsymfromname
+      - name: "SymGetSymNext64"
+        href: /windows/desktop/api/Dbghelp/nf-dbghelp-symgetsymnext
+      - name: "SymGetSymPrev64"
+        href: /windows/desktop/api/Dbghelp/nf-dbghelp-symgetsymprev
+      - name: "SymGetTypeFromName"
+        href: /windows/desktop/api/Dbghelp/nf-dbghelp-symgettypefromname
+      - name: "SymGetTypeInfo"
+        href: /windows/desktop/api/Dbghelp/nf-dbghelp-symgettypeinfo
+      - name: "SymGetTypeInfoEx"
+        href: /windows/desktop/api/Dbghelp/nf-dbghelp-symgettypeinfoex
+      - name: "SymInitialize"
+        href: /windows/desktop/api/Dbghelp/nf-dbghelp-syminitialize
+      - name: "SymLoadModule64"
+        href: /windows/desktop/api/Dbghelp/nf-dbghelp-symloadmodule
+      - name: "SymLoadModuleEx"
+        href: /windows/desktop/api/Dbghelp/nf-dbghelp-symloadmoduleex
+      - name: "SymMatchFileName"
+        href: /windows/desktop/api/Dbghelp/nf-dbghelp-symmatchfilename
+      - name: "SymMatchString"
+        href: /windows/desktop/api/DbgHelp/nf-dbghelp-symmatchstring
+      - name: "SymNext"
+        href: /windows/desktop/api/DbgHelp/nf-dbghelp-symnext
+      - name: "SymPrev"
+        href: /windows/desktop/api/DbgHelp/nf-dbghelp-symprev
+      - name: "SymQueryInlineTrace"
+        href: /windows/desktop/api/DbgHelp/nf-dbghelp-symqueryinlinetrace
+      - name: "SymRefreshModuleList"
+        href: /windows/desktop/api/Dbghelp/nf-dbghelp-symrefreshmodulelist
+      - name: "SymRegisterCallback64"
+        href: /windows/desktop/api/Dbghelp/nf-dbghelp-symregistercallback
+      - name: "SymRegisterCallbackProc64"
+        href: /windows/desktop/api/DbgHelp/nc-dbghelp-psymbol_registered_callback
+      - name: "SymRegisterFunctionEntryCallback64"
+        href: /windows/desktop/api/Dbghelp/nf-dbghelp-symregisterfunctionentrycallback
+      - name: "SymRegisterFunctionEntryCallbackProc64"
+        href: /windows/desktop/api/DbgHelp/nc-dbghelp-psymbol_funcentry_callback
+      - name: "SymSearch"
+        href: /windows/desktop/api/Dbghelp/nf-dbghelp-symsearch
+      - name: "SymSetContext"
+        href: /windows/desktop/api/Dbghelp/nf-dbghelp-symsetcontext
+      - name: "SymSetExtendedOption"
+        href: /windows/desktop/api/DbgHelp/nf-dbghelp-symsetextendedoption
+      - name: "SymSetHomeDirectory"
+        href: /windows/desktop/api/Dbghelp/nf-dbghelp-symsethomedirectory
+      - name: "SymSetOptions"
+        href: /windows/desktop/api/Dbghelp/nf-dbghelp-symsetoptions
+      - name: "SymSetParentWindow"
+        href: /windows/desktop/api/Dbghelp/nf-dbghelp-symsetparentwindow
+      - name: "SymSetScopeFromAddr"
+        href: /windows/desktop/api/Dbghelp/nf-dbghelp-symsetscopefromaddr
+      - name: "SymSetScopeFromIndex"
+        href: /windows/desktop/api/Dbghelp/nf-dbghelp-symsetscopefromindex
+      - name: "SymSetScopeFromInlineContext"
+        href: /windows/desktop/api/DbgHelp/nf-dbghelp-symsetscopefrominlinecontext
+      - name: "SymSetSearchPath"
+        href: /windows/desktop/api/Dbghelp/nf-dbghelp-symsetsearchpath
+      - name: "SymSrvDeltaName"
+        href: /windows/desktop/api/DbgHelp/nf-dbghelp-symsrvdeltaname
+      - name: "SymSrvGetFileIndexes"
+        href: /windows/desktop/api/DbgHelp/nf-dbghelp-symsrvgetfileindexes
+      - name: "SymSrvGetFileIndexInfo"
+        href: /windows/desktop/api/Dbghelp/nf-dbghelp-symsrvgetfileindexinfo
+      - name: "SymSrvGetFileIndexString"
+        href: /windows/desktop/api/DbgHelp/nf-dbghelp-symsrvgetfileindexstring
+      - name: "SymSrvGetSupplement"
+        href: /windows/desktop/api/DbgHelp/nf-dbghelp-symsrvgetsupplement
+      - name: "SymSrvIsStore"
+        href: /windows/desktop/api/DbgHelp/nf-dbghelp-symsrvisstore
+      - name: "SymSrvStoreFile"
+        href: /windows/desktop/api/DbgHelp/nf-dbghelp-symsrvstorefile
+      - name: "SymSrvStoreSupplement"
+        href: /windows/desktop/api/DbgHelp/nf-dbghelp-symsrvstoresupplement
+      - name: "SymUnDName64"
+        href: /windows/desktop/api/Dbghelp/nf-dbghelp-symundname
+      - name: "SymUnloadModule64"
+        href: /windows/desktop/api/Dbghelp/nf-dbghelp-symunloadmodule
+      - name: "TranslateAddressProc64"
+        href: /windows/desktop/api/DbgHelp/nc-dbghelp-ptranslate_address_routine
+      - name: "UnDecorateSymbolName"
+        href: /windows/desktop/api/Dbghelp/nf-dbghelp-undecoratesymbolname
+      - name: "UnmapDebugInformation"
+        href: /windows/desktop/api/Dbghelp/nf-dbghelp-unmapdebuginformation
+    - name: "DbgHelp Structures"
+      href: dbghelp-structures.md
+      items: 
+      - name: "_IMAGE_RUNTIME_FUNCTION_ENTRY"
+        href: /windows/win32/api/winnt/ns-winnt-runtime_function
+      - name: "ADDRESS64"
+        href: /windows/desktop/api/DbgHelp/ns-dbghelp-address
+      - name: "API_VERSION"
+        href: /windows/desktop/api/DbgHelp/ns-dbghelp-api_version
+      - name: "FPO_DATA"
+        href: /windows/win32/api/WinNT/ns-winnt-fpo_data
+      - name: "IMAGE_DEBUG_INFORMATION"
+        href: /windows/win32/api/DbgHelp/ns-dbghelp-image_debug_information
+      - name: "IMAGEHLP_CBA_EVENT"
+        href: /windows/win32/api/DbgHelp/ns-dbghelp-imagehlp_cba_event
+      - name: "IMAGEHLP_CBA_READ_MEMORY"
+        href: /windows/win32/api/DbgHelp/ns-dbghelp-imagehlp_cba_read_memory
+      - name: "IMAGEHLP_DEFERRED_SYMBOL_LOAD64"
+        href: /windows/win32/api/DbgHelp/ns-dbghelp-imagehlp_deferred_symbol_load
+      - name: "IMAGEHLP_DUPLICATE_SYMBOL64"
+        href: /windows/win32/api/DbgHelp/ns-dbghelp-imagehlp_duplicate_symbol
+      - name: "IMAGEHLP_GET_TYPE_INFO_PARAMS"
+        href: /windows/win32/api/DbgHelp/ns-dbghelp-imagehlp_get_type_info_params
+      - name: "IMAGEHLP_LINE64"
+        href: /windows/win32/api/DbgHelp/ns-dbghelp-imagehlp_line
+      - name: "IMAGEHLP_MODULE64"
+        href: /windows/win32/api/DbgHelp/ns-dbghelp-imagehlp_module
+      - name: "IMAGEHLP_STACK_FRAME"
+        href: /windows/win32/api/DbgHelp/ns-dbghelp-imagehlp_stack_frame
+      - name: "IMAGEHLP_SYMBOL64"
+        href: /windows/win32/api/DbgHelp/ns-dbghelp-imagehlp_symbol
+      - name: "KDHELP64"
+        href: /windows/win32/api/DbgHelp/ns-dbghelp-kdhelp
+      - name: "LOADED_IMAGE"
+        href: /windows/win32/api/DbgHelp/ns-dbghelp-loaded_image
+      - name: "MINIDUMP_CALLBACK_INFORMATION"
+        href: /windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_callback_information
+      - name: "MINIDUMP_CALLBACK_INPUT"
+        href: /windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_callback_input
+      - name: "MINIDUMP_CALLBACK_OUTPUT"
+        href: /windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_callback_output
+      - name: "MINIDUMP_DIRECTORY"
+        href: /windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_directory
+      - name: "MINIDUMP_EXCEPTION"
+        href: /windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_exception
+      - name: "MINIDUMP_EXCEPTION_INFORMATION"
+        href: /windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_exception_information
+      - name: "MINIDUMP_EXCEPTION_STREAM"
+        href: /windows/desktop/api/minidumpapiset/ns-minidumpapiset-minidump_exception_stream
+      - name: "MINIDUMP_FUNCTION_TABLE_DESCRIPTOR"
+        href: /windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_function_table_descriptor
+      - name: "MINIDUMP_FUNCTION_TABLE_STREAM"
+        href: /windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_function_table_stream
+      - name: "MINIDUMP_HANDLE_DATA_STREAM"
+        href: /windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_handle_data_stream
+      - name: "MINIDUMP_HANDLE_DESCRIPTOR"
+        href: /windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_handle_descriptor
+      - name: "MINIDUMP_HANDLE_DESCRIPTOR_2"
+        href: /windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_handle_descriptor_2
+      - name: "MINIDUMP_HANDLE_OBJECT_INFORMATION"
+        href: /windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_handle_object_information
+      - name: "MINIDUMP_HANDLE_OPERATION_LIST"
+        href: /windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_handle_operation_list
+      - name: "MINIDUMP_HEADER"
+        href: /windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_header
+      - name: "MINIDUMP_INCLUDE_MODULE_CALLBACK"
+        href: /windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_include_module_callback
+      - name: "MINIDUMP_INCLUDE_THREAD_CALLBACK"
+        href: /windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_include_thread_callback
+      - name: "MINIDUMP_IO_CALLBACK"
+        href: /windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_io_callback
+      - name: "MINIDUMP_LOCATION_DESCRIPTOR"
+        href: /windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_location_descriptor
+      - name: "MINIDUMP_MEMORY_DESCRIPTOR"
+        href: /windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_memory_descriptor
+      - name: "MINIDUMP_MEMORY_INFO"
+        href: /windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_memory_info
+      - name: "MINIDUMP_MEMORY_INFO_LIST"
+        href: /windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_memory_info_list
+      - name: "MINIDUMP_MEMORY_LIST"
+        href: /windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_memory64_list
+      - name: "MINIDUMP_MISC_INFO"
+        href: /windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_misc_info
+      - name: "MINIDUMP_MISC_INFO_2"
+        href: /windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_misc_info_2
+      - name: "MINIDUMP_MODULE"
+        href: /windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_module
+      - name: "MINIDUMP_MODULE_CALLBACK"
+        href: /windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_module_callback
+      - name: "MINIDUMP_MODULE_LIST"
+        href: /windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_module_list
+      - name: "MINIDUMP_READ_MEMORY_FAILURE_CALLBACK"
+        href: /windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_read_memory_failure_callback
+      - name: "MINIDUMP_STRING"
+        href: /windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_string
+      - name: "MINIDUMP_SYSTEM_INFO"
+        href: /windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_system_info
+      - name: "MINIDUMP_THREAD"
+        href: /windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_thread
+      - name: "MINIDUMP_THREAD_CALLBACK"
+        href: /windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_thread_callback
+      - name: "MINIDUMP_THREAD_EX"
+        href: /windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_thread_ex
+      - name: "MINIDUMP_THREAD_EX_CALLBACK"
+        href: /windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_thread_ex_callback
+      - name: "MINIDUMP_THREAD_EX_LIST"
+        href: /windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_thread_ex_list
+      - name: "MINIDUMP_THREAD_INFO"
+        href: /windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_thread_info
+      - name: "MINIDUMP_THREAD_INFO_LIST"
+        href: /windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_thread_info_list
+      - name: "MINIDUMP_THREAD_LIST"
+        href: /windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_thread_list
+      - name: "MINIDUMP_UNLOADED_MODULE"
+        href: /windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_unloaded_module
+      - name: "MINIDUMP_UNLOADED_MODULE_LIST"
+        href: /windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_unloaded_module_list
+      - name: "MINIDUMP_USER_STREAM"
+        href: /windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_user_stream
+      - name: "MINIDUMP_USER_STREAM_INFORMATION"
+        href: /windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_user_stream_information
+      - name: "MODLOAD_CVMISC"
+        href: /windows/win32/api/DbgHelp/ns-dbghelp-modload_cvmisc
+      - name: "MODLOAD_DATA"
+        href: /windows/win32/api/DbgHelp/ns-dbghelp-modload_data
+      - name: "OMAP"
+        href: /windows/win32/api/Dbghelp/ns-dbghelp-omap
+      - name: "SOURCEFILE"
+        href: /windows/win32/api/DbgHelp/ns-dbghelp-sourcefile
+      - name: "SRCCODEINFO"
+        href: /windows/win32/api/DbgHelp/ns-dbghelp-srccodeinfo
+      - name: "STACKFRAME64"
+        href: /windows/desktop/api/DbgHelp/ns-dbghelp-stackframe
+      - name: "STACKFRAME_EX"
+        href: /windows/desktop/api/DbgHelp/ns-dbghelp-stackframe_ex
+      - name: "SYMBOL_INFO"
+        href: /windows/win32/api/DbgHelp/ns-dbghelp-symbol_info
+      - name: "SYMSRV_INDEX_INFO"
+        href: /windows/desktop/api/Dbghelp/ns-dbghelp-symsrv_index_info
+      - name: "TI_FINDCHILDREN_PARAMS"
+        href: /windows/win32/api/DbgHelp/ns-dbghelp-ti_findchildren_params
+    - name: "Image Help Library"
+      href: image-help-library.md
+      items: 
+      - name: "About ImageHlp"
+        href: about-imagehlp.md
+        items: 
+        - name: "PE Format"
+          href: pe-format.md
+        - name: "Image Access Functions"
+          href: image-access-functions.md
+        - name: "ImageHlp Image Integrity Functions"
+          href: image-integrity-functions.md
+        - name: "ImageHlp Image Modification Functions"
+          href: image-modification-functions.md
+      - name: "ImageHlp Reference"
+        href: imagehlp-reference.md
+        items: 
+        - name: "ImageHlp Functions"
+          href: imagehlp-functions.md
+          items: 
+          - name: "BindImage"
+            href: /windows/desktop/api/Imagehlp/nf-imagehlp-bindimage
+          - name: "BindImageEx"
+            href: /windows/desktop/api/Imagehlp/nf-imagehlp-bindimageex
+          - name: "CheckSumMappedFile"
+            href: /windows/desktop/api/Imagehlp/nf-imagehlp-checksummappedfile
+          - name: "DigestFunction"
+            href: /windows/desktop/api/Imagehlp/nc-imagehlp-digest_function
+          - name: "GetImageConfigInformation"
+            href: /windows/desktop/api/Imagehlp/nf-imagehlp-getimageconfiginformation
+          - name: "GetImageUnusedHeaderBytes"
+            href: /windows/desktop/api/Imagehlp/nf-imagehlp-getimageunusedheaderbytes
+          - name: "ImageAddCertificate"
+            href: /windows/desktop/api/Imagehlp/nf-imagehlp-imageaddcertificate
+          - name: "ImageEnumerateCertificates"
+            href: /windows/desktop/api/Imagehlp/nf-imagehlp-imageenumeratecertificates
+          - name: "ImageGetCertificateData"
+            href: /windows/desktop/api/Imagehlp/nf-imagehlp-imagegetcertificatedata
+          - name: "ImageGetCertificateHeader"
+            href: /windows/desktop/api/Imagehlp/nf-imagehlp-imagegetcertificateheader
+          - name: "ImageGetDigestStream"
+            href: /windows/desktop/api/Imagehlp/nf-imagehlp-imagegetdigeststream
+          - name: "ImageLoad"
+            href: /windows/desktop/api/Imagehlp/nf-imagehlp-imageload
+          - name: "ImageRemoveCertificate"
+            href: /windows/desktop/api/Imagehlp/nf-imagehlp-imageremovecertificate
+          - name: "ImageUnload"
+            href: /windows/desktop/api/Imagehlp/nf-imagehlp-imageunload
+          - name: "MapAndLoad"
+            href: /windows/desktop/api/Imagehlp/nf-imagehlp-mapandload
+          - name: "MapFileAndCheckSum"
+            href: /windows/desktop/api/Imagehlp/nf-imagehlp-mapfileandchecksuma
+          - name: "ReBaseImage"
+            href: /windows/desktop/api/Imagehlp/nf-imagehlp-rebaseimage
+          - name: "ReBaseImage64"
+            href: /windows/desktop/api/Imagehlp/nf-imagehlp-rebaseimage64
+          - name: "SetImageConfigInformation"
+            href: /windows/desktop/api/Imagehlp/nf-imagehlp-setimageconfiginformation
+          - name: "SplitSymbols"
+            href: /windows/desktop/api/Imagehlp/nf-imagehlp-splitsymbols
+          - name: "StatusRoutine"
+            href: /windows/desktop/api/Imagehlp/nc-imagehlp-pimagehlp_status_routine
+          - name: "TouchFileTimes"
+            href: /windows/desktop/api/Imagehlp/nf-imagehlp-touchfiletimes
+          - name: "UnMapAndLoad"
+            href: /windows/desktop/api/Imagehlp/nf-imagehlp-unmapandload
+          - name: "UpdateDebugInfoFile"
+            href: /windows/desktop/api/Imagehlp/nf-imagehlp-updatedebuginfofile
+          - name: "UpdateDebugInfoFileEx"
+            href: /windows/desktop/api/Imagehlp/nf-imagehlp-updatedebuginfofileex
+        - name: "ImageHlp Structures"
+          href: imagehlp-structures.md
+          items: 
+          - name: "IMAGE_COFF_SYMBOLS_HEADER"
+            href: /windows/win32/api/WinNT/ns-winnt-image_coff_symbols_header
+          - name: "IMAGE_DATA_DIRECTORY"
+            href: /windows/win32/api/WinNT/ns-winnt-image_data_directory
+          - name: "IMAGE_DEBUG_DIRECTORY"
+            href: /windows/win32/api/WinNT/ns-winnt-image_debug_directory
+          - name: "IMAGE_FILE_HEADER"
+            href: /windows/win32/api/WinNT/ns-winnt-image_file_header
+          - name: "IMAGE_FUNCTION_ENTRY"
+            href: /windows/win32/api/WinNT/ns-winnt-image_function_entry
+          - name: "IMAGE_LOAD_CONFIG_DIRECTORY64"
+            href: /windows/win32/api/WinNT/ns-winnt-image_load_config_directory32
+          - name: "IMAGE_NT_HEADERS"
+            href: /windows/desktop/api/WinNT/ns-winnt-image_nt_headers32
+          - name: "IMAGE_OPTIONAL_HEADER"
+            href: /windows/desktop/api/WinNT/ns-winnt-image_optional_header32
+          - name: "IMAGE_SECTION_HEADER"
+            href: /windows/win32/api/WinNT/ns-winnt-image_section_header
+- name: "Structured Exception Handling"
+  href: structured-exception-handling.md
+  items: 
+  - name: "About Structured Exception Handling"
+    href: about-structured-exception-handling.md
+    items: 
+    - name: "Exception Handling"
+      href: exception-handling.md
+      items: 
+      - name: "Exception Dispatching"
+        href: exception-dispatching.md
+      - name: "Debugger Exception Handling"
+        href: debugger-exception-handling.md
+      - name: "Floating-Point Exceptions"
+        href: floating-point-exceptions.md
+    - name: "Frame-based Exception Handling"
+      href: frame-based-exception-handling.md
+    - name: "Vectored Exception Handling"
+      href: vectored-exception-handling.md
+    - name: "Termination Handling"
+      href: termination-handling.md
+    - name: "Handler Syntax"
+      href: handler-syntax.md
+      items: 
+      - name: "Exception-Handler Syntax"
+        href: exception-handler-syntax.md
+      - name: "Termination-Handler Syntax"
+        href: termination-handler-syntax.md
+  - name: "Using Structured Exception Handling"
+    href: using-structured-exception-handling.md
+    items: 
+    - name: "Using an Exception Handler"
+      href: using-an-exception-handler.md
+    - name: "Using a Termination Handler"
+      href: using-a-termination-handler.md
+    - name: "Using a Vectored Exception Handler"
+      href: using-a-vectored-exception-handler.md
+  - name: "Structured Exception Handling Reference"
+    href: structured-exception-handling-reference.md
+    items: 
+    - name: "Structured Exception Handling Functions"
+      href: structured-exception-handling-functions.md
+      items: 
+      - name: "AbnormalTermination"
+        href: abnormaltermination.md
+      - name: "AddVectoredContinueHandler"
+        href: /windows/desktop/api/errhandlingapi/nf-errhandlingapi-addvectoredcontinuehandler
+      - name: "AddVectoredExceptionHandler"
+        href: /windows/desktop/api/errhandlingapi/nf-errhandlingapi-addvectoredexceptionhandler
+      - name: "GetExceptionCode"
+        href: getexceptioncode.md
+      - name: "GetExceptionInformation"
+        href: getexceptioninformation.md
+      - name: "RaiseException"
+        href: /windows/desktop/api/errhandlingapi/nf-errhandlingapi-raiseexception
+      - name: "RaiseFailFastException"
+        href: /previous-versions/dd408166(v=vs.85)
+      - name: "RemoveVectoredContinueHandler"
+        href: /windows/desktop/api/errhandlingapi/nf-errhandlingapi-removevectoredcontinuehandler
+      - name: "RemoveVectoredExceptionHandler"
+        href: /windows/desktop/api/errhandlingapi/nf-errhandlingapi-removevectoredexceptionhandler
+      - name: "RtlAddFunctionTable"
+        href: /windows/desktop/api/WinNT/nf-winnt-rtladdfunctiontable
+      - name: "RtlAddGrowableFunctionTable"
+        href: /windows/desktop/api/WinNT/nf-winnt-rtladdgrowablefunctiontable
+      - name: "RtlCaptureContext"
+        href: /windows/desktop/api/WinNT/nf-winnt-rtlcapturecontext
+      - name: "RtlDeleteFunctionTable"
+        href: /windows/desktop/api/WinNT/nf-winnt-rtldeletefunctiontable
+      - name: "RtlDeleteGrowableFunctionTable"
+        href: /windows/desktop/api/WinNT/nf-winnt-rtldeletegrowablefunctiontable
+      - name: "RtlGrowFunctionTable"
+        href: /windows/desktop/api/WinNT/nf-winnt-rtlgrowfunctiontable
+      - name: "RtlInstallFunctionTableCallback"
+        href: /windows/desktop/api/WinNT/nf-winnt-rtlinstallfunctiontablecallback
+      - name: "RtlRestoreContext"
+        href: /windows/desktop/api/WinNT/nf-winnt-rtlrestorecontext
+      - name: "SetUnhandledExceptionFilter"
+        href: /windows/desktop/api/errhandlingapi/nf-errhandlingapi-setunhandledexceptionfilter
+      - name: "UnhandledExceptionFilter"
+        href: /windows/desktop/api/errhandlingapi/nf-errhandlingapi-unhandledexceptionfilter
+      - name: "VectoredHandler"
+        href: /windows/desktop/api/WinNT/nc-winnt-pvectored_exception_handler
+    - name: "Structured Exception Handling Structures"
+      href: structured-exception-handling-structures.md
+      items: 
+      - name: "EXCEPTION_POINTERS"
+        href: /windows/desktop/api/WinNT/ns-winnt-exception_pointers
+      - name: "EXCEPTION_RECORD"
+        href: /windows/desktop/api/WinNT/ns-winnt-exception_record
+- name: "Wait Chain Traversal"
+  href: wait-chain-traversal.md
+  items: 
+  - name: "Using WCT"
+    href: using-wct.md
+  - name: "WCT Reference"
+    href: wct-reference.md
+    items: 
+    - name: "CloseThreadWaitChainSession"
+      href: /windows/desktop/api/Wct/nf-wct-closethreadwaitchainsession
+    - name: "GetThreadWaitChain"
+      href: /windows/desktop/api/Wct/nf-wct-getthreadwaitchain
+    - name: "OpenThreadWaitChainSession"
+      href: /windows/desktop/api/Wct/nf-wct-openthreadwaitchainsession
+    - name: "RegisterWaitChainCOMCallback"
+      href: /windows/desktop/api/Wct/nf-wct-registerwaitchaincomcallback
+    - name: "WAITCHAIN_NODE_INFO"
+      href: /windows/win32/api/Wct/ns-wct-waitchain_node_info
+    - name: "PWAITCHAINCALLBACK"
+      href: /windows/desktop/api/wct/nc-wct-pwaitchaincallback
+- name: "Intel AVX"
+  href: avx-support-portal.md
+  items: 
+  - name: "Working with XState Context"
+    href: working-with-xstate-context.md
+  - name: "AVX Functions"
+    href: avx-functions.md
+    items: 
+    - name: "CopyContext"
+      href: /windows/desktop/api/WinBase/nf-winbase-copycontext
+    - name: "GetEnabledXStateFeatures"
+      href: /windows/desktop/api/WinBase/nf-winbase-getenabledxstatefeatures
+    - name: "GetXStateFeaturesMask"
+      href: /windows/desktop/api/WinBase/nf-winbase-getxstatefeaturesmask
+    - name: "InitializeContext"
+      href: /windows/desktop/api/WinBase/nf-winbase-initializecontext
+    - name: "LocateXStateFeature"
+      href: /windows/desktop/api/WinBase/nf-winbase-locatexstatefeature
+    - name: "SetXStateFeaturesMask"
+      href: /windows/desktop/api/WinBase/nf-winbase-setxstatefeaturesmask

@@ -1,0 +1,98 @@
+- name: "Backup"
+  href: backup.md
+  items: 
+  - name: "Registry Keys and Values for Backup and Restore"
+    href: registry-keys-for-backup-and-restore.md
+  - name: "Srdelayed.exe"
+    href: srdelayed-exe.md
+  - name: "Tape Backup"
+    href: tape-backup.md
+    items: 
+    - name: "Tape Initialization"
+      href: tape-initialization.md
+    - name: "Tape Input and Output"
+      href: tape-input-and-output.md
+    - name: "Creating a Backup Application"
+      href: creating-a-backup-application.md
+    - name: "Backing Up and Restoring Hard Links"
+      href: backing-up-and-restoring-hard-links.md
+  - name: "Single-Instance Store and SIS Backup"
+    href: single-instance-store-and-sis-backup.md
+    items: 
+    - name: "SIS Links and Reparse Points"
+      href: sis-links-and-reparse-points.md
+    - name: "The SIS Common Store and Common-Store Files"
+      href: the-sis-common-store-and-common-store-files.md
+    - name: "Advantages of Using SIS"
+      href: advantages-of-using-sis.md
+  - name: "Backup Reference"
+    href: backup-reference.md
+    items: 
+    - name: "Backup Functions"
+      href: backup-functions.md
+      items: 
+      - name: "BackupRead"
+        href: /windows/desktop/api/Winbase/nf-winbase-backupread
+      - name: "BackupSeek"
+        href: /windows/desktop/api/Winbase/nf-winbase-backupseek
+      - name: "BackupWrite"
+        href: /windows/desktop/api/Winbase/nf-winbase-backupwrite
+      - name: "CreateTapePartition"
+        href: /windows/desktop/api/Winbase/nf-winbase-createtapepartition
+      - name: "EraseTape"
+        href: /windows/desktop/api/Winbase/nf-winbase-erasetape
+      - name: "GetTapeParameters"
+        href: /windows/desktop/api/Winbase/nf-winbase-gettapeparameters
+      - name: "GetTapePosition"
+        href: /windows/desktop/api/Winbase/nf-winbase-gettapeposition
+      - name: "GetTapeStatus"
+        href: /windows/desktop/api/Winbase/nf-winbase-gettapestatus
+      - name: "PrepareTape"
+        href: /windows/desktop/api/Winbase/nf-winbase-preparetape
+      - name: "SetTapeParameters"
+        href: /windows/desktop/api/Winbase/nf-winbase-settapeparameters
+      - name: "SetTapePosition"
+        href: /windows/desktop/api/Winbase/nf-winbase-settapeposition
+      - name: "SisCreateBackupStructure"
+        href: siscreatebackupstructure.md
+      - name: "SisCreateRestoreStructure"
+        href: siscreaterestorestructure.md
+      - name: "SisCSFilesToBackupForLink"
+        href: siscsfilestobackupforlink.md
+      - name: "SisFreeAllocatedMemory"
+        href: sisfreeallocatedmemory.md
+      - name: "SisFreeBackupStructure"
+        href: sisfreebackupstructure.md
+      - name: "SisFreeRestoreStructure"
+        href: sisfreerestorestructure.md
+      - name: "SisRestoredCommonStoreFile"
+        href: sisrestoredcommonstorefile.md
+      - name: "SisRestoredLink"
+        href: sisrestoredlink.md
+      - name: "WriteTapemark"
+        href: /windows/desktop/api/Winbase/nf-winbase-writetapemark
+    - name: "Backup Structures"
+      href: backup-structures.md
+      items: 
+      - name: "PROCESS_MITIGATION_USER_SHADOW_STACK_POLICY"
+        href: /windows/win32/api/winnt/ns-winnt-process_mitigation_user_shadow_stack_policy
+      - name: "TAPE_ERASE"
+        href: /windows/win32/api/Winnt/ns-winnt-tape_erase
+      - name: "TAPE_GET_DRIVE_PARAMETERS"
+        href: /windows/win32/api/Winnt/ns-winnt-tape_get_drive_parameters
+      - name: "TAPE_GET_MEDIA_PARAMETERS"
+        href: /windows/win32/api/Winnt/ns-winnt-tape_get_media_parameters
+      - name: "TAPE_GET_POSITION"
+        href: /windows/win32/api/Winnt/ns-winnt-tape_get_position
+      - name: "TAPE_PREPARE"
+        href: /windows/win32/api/Winnt/ns-winnt-tape_prepare
+      - name: "TAPE_SET_DRIVE_PARAMETERS"
+        href: /windows/win32/api/Winnt/ns-winnt-tape_set_drive_parameters
+      - name: "TAPE_SET_MEDIA_PARAMETERS"
+        href: /windows/win32/api/Winnt/ns-winnt-tape_set_media_parameters
+      - name: "TAPE_SET_POSITION"
+        href: /windows/win32/api/Winnt/ns-winnt-tape_set_position
+      - name: "TAPE_WRITE_MARKS"
+        href: /windows/win32/api/Winnt/ns-winnt-tape_write_marks
+      - name: "WIN32_STREAM_ID"
+        href: /windows/win32/api/Winbase/ns-winbase-win32_stream_id

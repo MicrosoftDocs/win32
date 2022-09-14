@@ -1,0 +1,71 @@
+- name: "Window Stations and Desktops"
+  href: window-stations-and-desktops.md
+  items: 
+  - name: "About Window Stations and Desktops"
+    href: about-window-stations-and-desktops.md
+    items: 
+    - name: "Window Stations"
+      href: window-stations.md
+    - name: "Desktops"
+      href: desktops.md
+    - name: "Window Station and Desktop Creation"
+      href: window-station-and-desktop-creation.md
+    - name: "Process Connection to a Window Station"
+      href: process-connection-to-a-window-station.md
+    - name: "Thread Connection to a Desktop"
+      href: thread-connection-to-a-desktop.md
+    - name: "Window Station Security and Access Rights"
+      href: window-station-security-and-access-rights.md
+    - name: "Desktop Security and Access Rights"
+      href: desktop-security-and-access-rights.md
+  - name: "Window Station and Desktop Reference"
+    href: window-station-and-desktop-reference.md
+    items: 
+    - name: "Window Station and Desktop Functions"
+      href: window-station-and-desktop-functions.md
+      items: 
+      - name: "CloseDesktop"
+        href: /windows/desktop/api/winuser/nf-winuser-closedesktop
+      - name: "CloseWindowStation"
+        href: /windows/desktop/api/winuser/nf-winuser-closewindowstation
+      - name: "CreateDesktop"
+        href: /windows/desktop/api/winuser/nf-winuser-createdesktopa
+      - name: "CreateDesktopEx"
+        href: /windows/desktop/api/winuser/nf-winuser-createdesktopexa
+      - name: "CreateWindowStation"
+        href: /windows/desktop/api/winuser/nf-winuser-createwindowstationa
+      - name: "EnumDesktopProc"
+        href: /previous-versions/windows/desktop/legacy/ms682612(v=vs.85)
+      - name: "EnumDesktops"
+        href: /windows/desktop/api/winuser/nf-winuser-enumdesktopsa
+      - name: "EnumDesktopWindows"
+        href: /windows/desktop/api/winuser/nf-winuser-enumdesktopwindows
+      - name: "EnumWindowStations"
+        href: /windows/desktop/api/winuser/nf-winuser-enumwindowstationsa
+      - name: "EnumWindowStationProc"
+        href: /previous-versions/windows/desktop/legacy/ms682643(v=vs.85)
+      - name: "GetProcessWindowStation"
+        href: /windows/desktop/api/winuser/nf-winuser-getprocesswindowstation
+      - name: "GetThreadDesktop"
+        href: /windows/desktop/api/winuser/nf-winuser-getthreaddesktop
+      - name: "GetUserObjectInformation"
+        href: /windows/desktop/api/winuser/nf-winuser-getuserobjectinformationa
+      - name: "OpenDesktop"
+        href: /windows/desktop/api/winuser/nf-winuser-opendesktopa
+      - name: "OpenInputDesktop"
+        href: /windows/desktop/api/winuser/nf-winuser-openinputdesktop
+      - name: "OpenWindowStation"
+        href: /windows/desktop/api/winuser/nf-winuser-openwindowstationa
+      - name: "SetProcessWindowStation"
+        href: /windows/desktop/api/winuser/nf-winuser-setprocesswindowstation
+      - name: "SetThreadDesktop"
+        href: /windows/desktop/api/winuser/nf-winuser-setthreaddesktop
+      - name: "SetUserObjectInformation"
+        href: /windows/desktop/api/winuser/nf-winuser-setuserobjectinformationa
+      - name: "SwitchDesktop"
+        href: /windows/desktop/api/winuser/nf-winuser-switchdesktop
+    - name: "Window Station and Desktop Structures"
+      href: window-station-and-desktop-structures.md
+      items: 
+      - name: "USEROBJECTFLAGS"
+        href: /windows/win32/api/winuser/ns-winuser-userobjectflags

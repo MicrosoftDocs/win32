@@ -1,0 +1,613 @@
+- name: "Windows Remote Management"
+  href: portal.md
+  items: 
+  - name: "About Windows Remote Management"
+    href: about-windows-remote-management.md
+    items: 
+    - name: "What's New in WinRM 2.0"
+      href: whats-new-in-winrm.md
+    - name: "Installation and Configuration for Windows Remote Management"
+      href: installation-and-configuration-for-windows-remote-management.md
+    - name: "Windows Remote Management Architecture"
+      href: windows-remote-management-architecture.md
+    - name: "WS-Management Protocol"
+      href: ws-management-protocol.md
+    - name: "Scripting in Windows Remote Management"
+      href: scripting-in-windows-remote-management.md
+    - name: "Authentication for Remote Connections"
+      href: authentication-for-remote-connections.md
+    - name: "Proxy Servers and WinRM"
+      href: proxy-servers-and-winrm.md
+    - name: "Windows Remote Management and WMI"
+      href: windows-remote-management-and-wmi.md
+    - name: "DMTF Profile Discovery Through Association Traversal"
+      href: dmtf-association-traversal.md
+    - name: "Infrastructure for Managing Hosted Services"
+      href: winrm-application-hosting.md
+    - name: "IIS Host Plug-in Configuration"
+      href: iis-host-plug-in-configuration.md
+    - name: "WinRM Service Plug-in Configuration"
+      href: wsman-service-plug-in-configuration.md
+    - name: "Remote Shell Infrastructure Improvements"
+      href: remote-shell-infrastructure-improvements.md
+      items: 
+      - name: "Multi-Hop Support in WinRM"
+        href: multi-hop-support.md
+      - name: "Quota Management for Remote Shells"
+        href: quotas.md
+    - name: "Resource URIs"
+      href: resource-uris.md
+      items: 
+      - name: "URI Prefixes"
+        href: uri-prefixes.md
+    - name: "Remote Hardware Management"
+      href: remote-hardware-management.md
+    - name: "Events"
+      href: events.md
+  - name: "Using Windows Remote Management"
+    href: using-windows-remote-management.md
+    items: 
+    - name: "WinRM Best Practices"
+      href: winrm-best-practices.md
+    - name: "Detecting Whether a Remote Computer Supports WS-Management Protocol"
+      href: detecting-whether-a-remote-computer-supports-ws-management-protocol.md
+    - name: "Obtaining Data from the Local Computer"
+      href: obtaining-data-from-the-local-computer.md
+    - name: "Obtaining Data from a Remote Computer"
+      href: obtaining-data-from-a-remote-computer.md
+    - name: "Enumerating or Listing All Instances of a Resource"
+      href: enumerating-or-listing-all-instances-of-a-resource.md
+    - name: "Querying for Specific Instances of a Resource"
+      href: querying-for-specific-instances-of-a-resource.md
+    - name: "Displaying XML Output from WinRM Scripts"
+      href: displaying-xml-output-from-winrm-scripts.md
+  - name: "Windows Remote Management Reference"
+    href: windows-remote-management-reference.md
+    items: 
+    - name: "WinRM Client Shell API"
+      href: client-shell-api.md
+      items: 
+      - name: "Client Shell API Additional Functions"
+        href: client-shell-api-additional-functions.md
+        items: 
+        - name: "WSManGetErrorMessage"
+          href: /windows/desktop/api/Wsman/nf-wsman-wsmangeterrormessage
+        - name: "WSManGetSessionOptionAsDword"
+          href: /windows/desktop/api/Wsman/nf-wsman-wsmangetsessionoptionasdword
+        - name: "WSManGetSessionOptionAsString"
+          href: /windows/desktop/api/Wsman/nf-wsman-wsmangetsessionoptionasstring
+        - name: "WSManSetSessionOption"
+          href: /windows/desktop/api/Wsman/nf-wsman-wsmansetsessionoption
+      - name: "Client Shell API Core Functions"
+        href: client-shell-api-core-functions.md
+        items: 
+        - name: "WSManCloseCommand"
+          href: /windows/desktop/api/Wsman/nf-wsman-wsmanclosecommand
+        - name: "WSManCloseOperation"
+          href: /windows/desktop/api/Wsman/nf-wsman-wsmancloseoperation
+        - name: "WSManCloseSession"
+          href: /windows/desktop/api/Wsman/nf-wsman-wsmanclosesession
+        - name: "WSManCloseShell"
+          href: /windows/desktop/api/Wsman/nf-wsman-wsmancloseshell
+        - name: "WSManConnectShell"
+          href: /windows/desktop/api/Wsman/nf-wsman-wsmanconnectshell
+        - name: "WSManConnectShellCommand"
+          href: /windows/desktop/api/Wsman/nf-wsman-wsmanconnectshellcommand
+        - name: "WSManCreateSession"
+          href: /windows/desktop/api/Wsman/nf-wsman-wsmancreatesession
+        - name: "WSManCreateShell"
+          href: /windows/desktop/api/Wsman/nf-wsman-wsmancreateshell
+        - name: "WSManCreateShellEx"
+          href: /windows/desktop/api/Wsman/nf-wsman-wsmancreateshellex
+        - name: "WSManDeinitialize"
+          href: /windows/desktop/api/Wsman/nf-wsman-wsmandeinitialize
+        - name: "WSManDisconnectShell"
+          href: /windows/desktop/api/Wsman/nf-wsman-wsmandisconnectshell
+        - name: "WSManInitialize"
+          href: /windows/desktop/api/Wsman/nf-wsman-wsmaninitialize
+        - name: "WSManReceiveShellOutput"
+          href: /windows/desktop/api/Wsman/nf-wsman-wsmanreceiveshelloutput
+        - name: "WSManReconnectShell"
+          href: /windows/desktop/api/Wsman/nf-wsman-wsmanreconnectshell
+        - name: "WSManReconnectShellCommand"
+          href: /windows/desktop/api/Wsman/nf-wsman-wsmanreconnectshellcommand
+        - name: "WSManRunShellCommand"
+          href: /windows/desktop/api/Wsman/nf-wsman-wsmanrunshellcommand
+        - name: "WSManRunShellCommandEx"
+          href: /windows/desktop/api/Wsman/nf-wsman-wsmanrunshellcommandex
+        - name: "WSManSendShellInput"
+          href: /windows/desktop/api/Wsman/nf-wsman-wsmansendshellinput
+        - name: "WSManSignalShell"
+          href: /windows/desktop/api/Wsman/nf-wsman-wsmansignalshell
+      - name: "Client Shell API Enumerations"
+        href: client-shell-api-enumerations.md
+        items: 
+        - name: "WSManAuthenticationFlags"
+          href: /windows/desktop/api/Wsman/ne-wsman-wsmanauthenticationflags
+        - name: "WSManCallbackFlags"
+          href: /windows/desktop/api/Wsman/ne-wsman-wsmancallbackflags
+        - name: "WSManDataType"
+          href: /windows/desktop/api/Wsman/ne-wsman-wsmandatatype
+        - name: "WSManProxyAccessType"
+          href: /windows/desktop/api/Wsman/ne-wsman-wsmanproxyaccesstype
+        - name: "WSManSessionOption"
+          href: /windows/desktop/api/Wsman/ne-wsman-wsmansessionoption
+      - name: "Client Shell API Structures and Definitions"
+        href: client-shell-api-structures.md
+        items: 
+        - name: "WSMAN_AUTHENTICATION_CREDENTIALS"
+          href: /windows/win32/api/Wsman/ns-wsman-wsman_authentication_credentials
+        - name: "WSMAN_DATA"
+          href: /windows/win32/api/Wsman/ns-wsman-wsman_data
+        - name: "WSMAN_DATA_BINARY"
+          href: /windows/win32/api/Wsman/ns-wsman-wsman_data_binary
+        - name: "WSMAN_DATA_TEXT"
+          href: /windows/win32/api/Wsman/ns-wsman-wsman_data_text
+        - name: "WSMAN_ENVIRONMENT_VARIABLE"
+          href: /windows/win32/api/Wsman/ns-wsman-wsman_environment_variable
+        - name: "WSMAN_ENVIRONMENT_VARIABLE_SET"
+          href: /windows/win32/api/Wsman/ns-wsman-wsman_environment_variable_set
+        - name: "WSMAN_ERROR"
+          href: /windows/win32/api/Wsman/ns-wsman-wsman_error
+        - name: "WSMAN_KEY"
+          href: /windows/win32/api/Wsman/ns-wsman-wsman_key
+        - name: "WSMAN_OPTION"
+          href: /windows/win32/api/Wsman/ns-wsman-wsman_option
+        - name: "WSMAN_OPTION_SET"
+          href: /windows/win32/api/Wsman/ns-wsman-wsman_option_set
+        - name: "WSMAN_PROXY_INFO"
+          href: /windows/win32/api/Wsman/ns-wsman-wsman_proxy_info
+        - name: "WSMAN_RECEIVE_DATA_RESULT"
+          href: /windows/win32/api/Wsman/ns-wsman-wsman_receive_data_result
+        - name: "WSMAN_RESPONSE_DATA"
+          href: /windows/win32/api/Wsman/ns-wsman-wsman_response_data
+        - name: "WSMAN_SELECTOR_SET"
+          href: /windows/win32/api/Wsman/ns-wsman-wsman_selector_set
+        - name: "WSMAN_SHELL_ASYNC"
+          href: /windows/win32/api/Wsman/ns-wsman-wsman_shell_async
+        - name: "WSMAN_SHELL_COMPLETION_FUNCTION"
+          href: /windows/desktop/api/wsman/nc-wsman-wsman_shell_completion_function
+        - name: "WSMAN_SHELL_DISCONNECT_INFO"
+          href: /windows/win32/api/Wsman/ns-wsman-wsman_shell_disconnect_info
+        - name: "WSMAN_SHELL_STARTUP_INFO"
+          href: /windows/win32/api/Wsman/ns-wsman-wsman_shell_startup_info_v10
+        - name: "WSMAN_STREAM_ID_SET"
+          href: /windows/win32/api/Wsman/ns-wsman-wsman_stream_id_set
+        - name: "WSMAN_USERNAME_PASSWORD_CREDS"
+          href: /windows/win32/api/Wsman/ns-wsman-wsman_username_password_creds
+    - name: "WinRM Plug-in API"
+      href: winrm-plugin-api.md
+      items: 
+      - name: "Authorization Plug-in Entry Points"
+        href: authorization-plug-in-entry-points.md
+        items: 
+        - name: "WSMAN_PLUGIN_AUTHORIZE_OPERATION"
+          href: /windows/desktop/api/wsman/nc-wsman-wsman_plugin_authorize_operation
+        - name: "WSMAN_PLUGIN_AUTHORIZE_QUERY_QUOTA"
+          href: /windows/desktop/api/wsman/nc-wsman-wsman_plugin_authorize_query_quota
+        - name: "WSMAN_PLUGIN_AUTHORIZE_RELEASE_CONTEXT"
+          href: /windows/desktop/api/wsman/nc-wsman-wsman_plugin_authorize_release_context
+        - name: "WSMAN_PLUGIN_AUTHORIZE_USER"
+          href: /windows/desktop/api/wsman/nc-wsman-wsman_plugin_authorize_user
+      - name: "Authorization Plug-in Methods"
+        href: authorization-plug-in-methods.md
+        items: 
+        - name: "WSManPluginAuthzOperationComplete"
+          href: /windows/desktop/api/Wsman/nf-wsman-wsmanpluginauthzoperationcomplete
+        - name: "WSManPluginAuthzQueryQuotaComplete"
+          href: /windows/desktop/api/Wsman/nf-wsman-wsmanpluginauthzqueryquotacomplete
+        - name: "WSManPluginAuthzUserComplete"
+          href: /windows/desktop/api/Wsman/nf-wsman-wsmanpluginauthzusercomplete
+      - name: "Operations Plug-in Entry Points"
+        href: operations-plug-in-entry-points.md
+        items: 
+        - name: "WSMAN_PLUGIN_COMMAND"
+          href: /windows/desktop/api/Wsman/nc-wsman-wsman_plugin_command
+        - name: "WSMAN_PLUGIN_CONNECT"
+          href: /windows/desktop/api/WsMan/nc-wsman-wsman_plugin_connect
+        - name: "WSMAN_PLUGIN_RECEIVE"
+          href: /windows/desktop/api/Wsman/nc-wsman-wsman_plugin_receive
+        - name: "WSMAN_PLUGIN_RELEASE_COMMAND_CONTEXT"
+          href: /windows/desktop/api/Wsman/nc-wsman-wsman_plugin_release_command_context
+        - name: "WSMAN_PLUGIN_RELEASE_SHELL_CONTEXT"
+          href: /windows/desktop/api/Wsman/nc-wsman-wsman_plugin_release_shell_context
+        - name: "WSMAN_PLUGIN_SEND"
+          href: /windows/desktop/api/Wsman/nc-wsman-wsman_plugin_send
+        - name: "WSMAN_PLUGIN_SHELL"
+          href: /windows/desktop/api/Wsman/nc-wsman-wsman_plugin_shell
+        - name: "WSMAN_PLUGIN_SHUTDOWN"
+          href: /windows/desktop/api/Wsman/nc-wsman-wsman_plugin_shutdown
+        - name: "WSMAN_PLUGIN_SIGNAL"
+          href: /windows/desktop/api/wsman/nc-wsman-wsman_plugin_signal
+        - name: "WSMAN_PLUGIN_STARTUP"
+          href: /windows/desktop/api/Wsman/nc-wsman-wsman_plugin_startup
+      - name: "Operations Plug-in Methods"
+        href: operations-plug-in-methods.md
+        items: 
+        - name: "WSManPluginFreeRequestDetails"
+          href: /windows/desktop/api/Wsman/nf-wsman-wsmanpluginfreerequestdetails
+        - name: "WSManPluginGetOperationParameters"
+          href: /windows/desktop/api/Wsman/nf-wsman-wsmanplugingetoperationparameters
+        - name: "WSManPluginOperationComplete"
+          href: /windows/desktop/api/Wsman/nf-wsman-wsmanpluginoperationcomplete
+        - name: "WSManPluginReceiveResult"
+          href: /windows/desktop/api/Wsman/nf-wsman-wsmanpluginreceiveresult
+        - name: "WSManPluginReportContext"
+          href: /windows/desktop/api/Wsman/nf-wsman-wsmanpluginreportcontext
+      - name: "WinRM Plug-in API Structures"
+        href: winrm-plug-in-api-structures.md
+        items: 
+        - name: "WSMAN_AUTHZ_QUOTA"
+          href: /windows/win32/api/Wsman/ns-wsman-wsman_authz_quota
+        - name: "WSMAN_CERTIFICATE_DETAILS"
+          href: /windows/win32/api/Wsman/ns-wsman-wsman_certificate_details
+        - name: "WSMAN_COMMAND_ARG_SET"
+          href: /windows/win32/api/Wsman/ns-wsman-wsman_command_arg_set
+        - name: "WSMAN_FILTER"
+          href: /windows/win32/api/Wsman/ns-wsman-wsman_filter
+        - name: "WSMAN_FRAGMENT"
+          href: /windows/win32/api/Wsman/ns-wsman-wsman_fragment
+        - name: "WSMAN_OPERATION_INFO"
+          href: /windows/win32/api/Wsman/ns-wsman-wsman_operation_info
+        - name: "WSMAN_PLUGIN_REQUEST"
+          href: /windows/win32/api/Wsman/ns-wsman-wsman_plugin_request
+        - name: "WSMAN_SENDER_DETAILS"
+          href: /windows/win32/api/Wsman/ns-wsman-wsman_sender_details
+    - name: "WinRM Scripting API"
+      href: winrm-scripting-api.md
+      items: 
+      - name: "ConnectionOptions"
+        href: connectionoptions.md
+        items: 
+        - name: "ConnectionOptions Properties"
+          href: connectionoptions-properties.md
+          items: 
+          - name: "Password Property"
+            href: connectionoptions-password.md
+          - name: "UserName Property"
+            href: connectionoptions-username.md
+      - name: "Enumerator"
+        href: enumerator.md
+        items: 
+        - name: "Enumerator Methods"
+          href: enumerator-methods.md
+          items: 
+          - name: "ReadItem Method"
+            href: enumerator-readitem.md
+        - name: "Enumerator Properties"
+          href: enumerator-properties.md
+          items: 
+          - name: "AtEndOfStream Property"
+            href: enumerator-atendofstream.md
+          - name: "Error Property"
+            href: enumerator-error.md
+      - name: "ResourceLocator"
+        href: resourcelocator.md
+        items: 
+        - name: "ResourceLocator Methods"
+          href: resourcelocator-methods.md
+          items: 
+          - name: "AddOption Method"
+            href: resourcelocator-addoption.md
+          - name: "AddSelector Method"
+            href: resourcelocator-addselector.md
+          - name: "ClearOptions Method"
+            href: resourcelocator-clearoptions.md
+          - name: "ClearSelectors Method"
+            href: resourcelocator-clearselectors.md
+        - name: "ResourceLocator Properties"
+          href: resourcelocator-properties.md
+          items: 
+          - name: "Error Property"
+            href: resourcelocator-error.md
+          - name: "FragmentDialect Property"
+            href: resourcelocator-fragmentdialect.md
+          - name: "FragmentPath Property"
+            href: resourcelocator-fragmentpath.md
+          - name: "MustUnderstandOptions Property"
+            href: resourcelocator-mustunderstandoptions.md
+          - name: "ResourceURI Property"
+            href: resourcelocator-resourceuri.md
+      - name: "Session"
+        href: session.md
+        items: 
+        - name: "Session Methods"
+          href: session-methods.md
+          items: 
+          - name: "Create Method"
+            href: session-create.md
+          - name: "Delete Method"
+            href: session-delete.md
+          - name: "Enumerate Method"
+            href: session-enumerate.md
+          - name: "Get Method"
+            href: session-get.md
+          - name: "Identify Method"
+            href: session-identify.md
+          - name: "Invoke Method"
+            href: session-invoke.md
+          - name: "Put Method"
+            href: session-put.md
+        - name: "Session Properties"
+          href: session-properties.md
+          items: 
+          - name: "BatchItems Property"
+            href: session-batchitems.md
+          - name: "Error Property"
+            href: session-error.md
+          - name: "Timeout Property"
+            href: session-timeout.md
+      - name: "WSMan"
+        href: wsman.md
+        items: 
+        - name: "WSMan Methods"
+          href: wsman-methods.md
+          items: 
+          - name: "CreateConnectionOptions Method"
+            href: wsman-createconnectionoptions.md
+          - name: "CreateResourceLocator Method"
+            href: wsman-createresourcelocator.md
+          - name: "CreateSession Method"
+            href: wsman-createsession.md
+          - name: "EnumerationFlagHierarchyDeep Method"
+            href: wsman-enumerationflaghierarchydeep.md
+          - name: "EnumerationFlagHierarchyDeepBasePropsOnly Method"
+            href: wsman-enumerationflaghierarchydeepbasepropsonly.md
+          - name: "EnumerationFlagHierarchyShallow Method"
+            href: wsman-enumerationflaghierarchyshallow.md
+          - name: "EnumerationFlagNonXmlText Method"
+            href: wsman-enumerationflagnonxmltext.md
+          - name: "EnumerationFlagReturnEPR Method"
+            href: wsman-enumerationflagreturnepr.md
+          - name: "EnumerationFlagReturnObject Method"
+            href: wsman-enumerationflagreturnobject.md
+          - name: "EnumerationFlagReturnObjectAndEPR Method"
+            href: wsman-enumerationflagreturnobjectandepr.md
+          - name: "GetErrorMessage Method"
+            href: wsman-geterrormessage.md
+          - name: "SessionFlagCredUsernamePassword Method"
+            href: wsman-sessionflagcredusernamepassword.md
+          - name: "SessionFlagEnableSPNServerPort Method"
+            href: wsman-sessionflagenablespnserverport.md
+          - name: "SessionFlagNoEncryption Method"
+            href: wsman-sessionflagnoencryption.md
+          - name: "SessionFlagSkipCACheck Method"
+            href: wsman-sessionflagskipcacheck.md
+          - name: "SessionFlagSkipCNCheck Method"
+            href: wsman-sessionflagskipcncheck.md
+          - name: "SessionFlagUseBasic Method"
+            href: wsman-sessionflagusebasic.md
+          - name: "SessionFlagUseClientCertificate Method"
+            href: wsman-sessionflaguseclientcert.md
+          - name: "SessionFlagUseCredSsp Method"
+            href: wsman-sessionflagusecredssp.md
+          - name: "SessionFlagUseDigest Method"
+            href: wsman-sessionflagusedigest.md
+          - name: "SessionFlagUseKerberos Method"
+            href: wsman-sessionflagusekerberos.md
+          - name: "SessionFlagUseNegotiate Method"
+            href: wsman-sessionflagusenegotiate.md
+          - name: "SessionFlagUseNoAuthentication Method"
+            href: wsman-sessionflagusenoauthentication.md
+          - name: "SessionFlagUTF8 Method"
+            href: wsman-sessionflagutf8.md
+        - name: "WSMan Properties"
+          href: wsman-properties.md
+          items: 
+          - name: "CommandLine Property"
+            href: wsman-commandline.md
+          - name: "Error Property"
+            href: wsman-error.md
+    - name: "WinRM C++ API"
+      href: winrm-c---api.md
+      items: 
+      - name: "IWSMan"
+        href: /windows/desktop/api/WSManDisp/nn-wsmandisp-iwsman
+        items: 
+        - name: "IWSMan Methods"
+          href: iwsman-methods.md
+          items: 
+          - name: "CreateConnectionOptions Method"
+            href: /windows/desktop/api/WSManDisp/nf-wsmandisp-iwsman-createconnectionoptions
+          - name: "CreateSession Method"
+            href: /windows/desktop/api/WSManDisp/nf-wsmandisp-iwsman-createsession
+        - name: "IWSMan Properties"
+          href: iwsman-properties.md
+          items: 
+          - name: "CommandLine Property"
+            href: /windows/desktop/api/WSManDisp/nf-wsmandisp-iwsman-get_commandline
+          - name: "Error Property"
+            href: /windows/desktop/api/WSManDisp/nf-wsmandisp-iwsman-get_error
+      - name: "IWSManConnectionOptions"
+        href: /windows/desktop/api/WSManDisp/nn-wsmandisp-iwsmanconnectionoptions
+        items: 
+        - name: "IWSManConnectionOptions Properties"
+          href: iwsmanconnectionoptions-properties.md
+          items: 
+          - name: "Password Property"
+            href: /windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmanconnectionoptions-put_password
+          - name: "UserName Property"
+            href: /windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmanconnectionoptions-get_username
+      - name: "IWSManConnectionOptionsEx"
+        href: /windows/desktop/api/WSManDisp/nn-wsmandisp-iwsmanconnectionoptionsex
+        items: 
+        - name: "IWSManConnectionOptionsEx Properties"
+          href: iwsmanconnectionoptionsex-properties.md
+          items: 
+          - name: "CertificateThumbprint Property"
+            href: /windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmanconnectionoptionsex-get_certificatethumbprint
+      - name: "IWSManConnectionOptionsEx2"
+        href: /windows/desktop/api/WSManDisp/nn-wsmandisp-iwsmanconnectionoptionsex2
+        items: 
+        - name: "IWSManConnectionOptionsEx2 Methods"
+          href: iwsmanconnectionoptionsex2-methods.md
+          items: 
+          - name: "ProxyAuthenticationUseBasic Method"
+            href: /windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmanconnectionoptionsex2-proxyauthenticationusebasic
+          - name: "ProxyAuthenticationUseDigest Method"
+            href: /windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmanconnectionoptionsex2-proxyauthenticationusedigest
+          - name: "ProxyAuthenticationUseNegotiate Method"
+            href: /windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmanconnectionoptionsex2-proxyauthenticationusenegotiate
+          - name: "ProxyAutoDetect Method"
+            href: /windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmanconnectionoptionsex2-proxyautodetect
+          - name: "ProxyIEConfig Method"
+            href: /windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmanconnectionoptionsex2-proxyieconfig
+          - name: "ProxyNoProxyServer Method"
+            href: /windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmanconnectionoptionsex2-proxynoproxyserver
+          - name: "ProxyWinHttpConfig Method"
+            href: /windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmanconnectionoptionsex2-proxywinhttpconfig
+          - name: "SetProxy Method"
+            href: /windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmanconnectionoptionsex2-setproxy
+      - name: "IWSManEnumerator"
+        href: /windows/desktop/api/WSManDisp/nn-wsmandisp-iwsmanenumerator
+        items: 
+        - name: "IWSManEnumerator Methods"
+          href: iwsmanenumerator-methods.md
+          items: 
+          - name: "ReadItem Method"
+            href: /windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmanenumerator-readitem
+        - name: "IWSManEnumerator Properties"
+          href: iwsmanenumerator-properties.md
+          items: 
+          - name: "AtEndOfStream Property"
+            href: /windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmanenumerator-get_atendofstream
+          - name: "Error Property"
+            href: /windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmanenumerator-get_error
+      - name: "IWSManEx"
+        href: /windows/desktop/api/WSManDisp/nn-wsmandisp-iwsmanex
+        items: 
+        - name: "IWSManEx Methods"
+          href: iwsmanex-methods.md
+          items: 
+          - name: "CreateResourceLocator Method"
+            href: /windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmanex-createresourcelocator
+          - name: "EnumerationFlagHierarchyDeep Method"
+            href: /windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmanex-enumerationflaghierarchydeep
+          - name: "EnumerationFlagHierarchyDeepBasePropsOnly Method"
+            href: /windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmanex-enumerationflaghierarchydeepbasepropsonly
+          - name: "EnumerationFlagHierarchyShallow Method"
+            href: /windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmanex-enumerationflaghierarchyshallow
+          - name: "EnumerationFlagNonXmlText Method"
+            href: /windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmanex-enumerationflagnonxmltext
+          - name: "EnumerationFlagReturnEPR Method"
+            href: /windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmanex-enumerationflagreturnepr
+          - name: "EnumerationFlagReturnObject Method"
+            href: /windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmanex-enumerationflagreturnobject
+          - name: "EnumerationFlagReturnObjectAndEPR Method"
+            href: /windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmanex-enumerationflagreturnobjectandepr
+          - name: "GetErrorMessage Method"
+            href: /windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmanex-geterrormessage
+          - name: "SessionFlagCredUsernamePassword Method"
+            href: /windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmanex-sessionflagcredusernamepassword
+          - name: "SessionFlagEnableSPNServerPort Method"
+            href: /windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmanex-sessionflagenablespnserverport
+          - name: "SessionFlagNoEncryption Method"
+            href: /windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmanex-sessionflagnoencryption
+          - name: "SessionFlagSkipCACheck Method"
+            href: /windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmanex-sessionflagskipcacheck
+          - name: "SessionFlagSkipCNCheck Method"
+            href: /windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmanex-sessionflagskipcncheck
+          - name: "SessionFlagUseBasic Method"
+            href: /windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmanex-sessionflagusebasic
+          - name: "SessionFlagUseDigest Method"
+            href: /windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmanex-sessionflagusedigest
+          - name: "SessionFlagUseKerberos Method"
+            href: /windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmanex-sessionflagusekerberos
+          - name: "SessionFlagUseNegotiate Method"
+            href: /windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmanex-sessionflagusenegotiate
+          - name: "SessionFlagUseNoAuthentication Method"
+            href: /windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmanex-sessionflagusenoauthentication
+          - name: "SessionFlagUTF8 Method"
+            href: /windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmanex-sessionflagutf8
+      - name: "IWSManEx2"
+        href: /windows/desktop/api/WSManDisp/nn-wsmandisp-iwsmanex2
+        items: 
+        - name: "IWSManEx2 Methods"
+          href: iwsmanex2-methods.md
+          items: 
+          - name: "SessionFlagUseClientCertificate Method"
+            href: /windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmanex2-sessionflaguseclientcertificate
+      - name: "IWSManEx3"
+        href: /windows/desktop/api/WSManDisp/nn-wsmandisp-iwsmanex3
+        items: 
+        - name: "IWSManEx3 Methods"
+          href: iwsmanex3-methods.md
+          items: 
+          - name: "SessionFlagUseCredSsp Method"
+            href: /windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmanex3-sessionflagusecredssp
+      - name: "IWSManResourceLocator"
+        href: /windows/desktop/api/WSManDisp/nn-wsmandisp-iwsmanresourcelocator
+        items: 
+        - name: "IWSManResourceLocator Methods"
+          href: iwsmanresourcelocator-methods.md
+          items: 
+          - name: "AddOption Method"
+            href: /windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmanresourcelocator-addoption
+          - name: "AddSelector Method"
+            href: /windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmanresourcelocator-addselector
+          - name: "ClearOptions Method"
+            href: /windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmanresourcelocator-clearoptions
+          - name: "ClearSelectors Method"
+            href: /windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmanresourcelocator-clearselectors
+        - name: "IWSManResourceLocator Properties"
+          href: iwsmanresourcelocator-properties.md
+          items: 
+          - name: "Error Property"
+            href: /windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmanresourcelocator-get_error
+          - name: "FragmentDialect Property"
+            href: /windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmanresourcelocator-get_fragmentdialect
+          - name: "FragmentPath Property"
+            href: /windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmanresourcelocator-get_fragmentpath
+          - name: "MustUnderstandOptions Property"
+            href: /windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmanresourcelocator-get_mustunderstandoptions
+          - name: "ResourceURI Property"
+            href: /windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmanresourcelocator-get_resourceuri
+      - name: "IWSManSession"
+        href: /windows/desktop/api/WSManDisp/nn-wsmandisp-iwsmansession
+        items: 
+        - name: "IWSManSession Methods"
+          href: iwsmansession-methods.md
+          items: 
+          - name: "Create Method"
+            href: /windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmansession-create
+          - name: "Delete Method"
+            href: /windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmansession-delete
+          - name: "Enumerate Method"
+            href: /windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmansession-enumerate
+          - name: "Get Method"
+            href: /windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmansession-get
+          - name: "Identify Method"
+            href: /windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmansession-identify
+          - name: "Invoke Method"
+            href: /windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmansession-invoke
+          - name: "Put Method"
+            href: /windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmansession-put
+        - name: "IWSManSession Properties"
+          href: iwsmansession-properties.md
+          items: 
+          - name: "BatchItems Property"
+            href: /windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmansession-get_batchitems
+          - name: "Error Property"
+            href: /windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmansession-get_error
+          - name: "Timeout Property"
+            href: /windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmansession-get_timeout
+      - name: "WinRM Constants and Enumerations"
+        href: winrm-constants-and-enumerations.md
+        items: 
+        - name: "Session Constants"
+          href: session-constants.md
+          items: 
+          - name: "Authentication Constants"
+            href: authentication-constants.md
+          - name: "Other Session Constants"
+            href: other-session-constants.md
+        - name: "Enumeration Constants"
+          href: enumeration-constants.md
+        - name: "WSManProxyAccessTypeFlags"
+          href: /windows/win32/api/WSManDisp/ne-wsmandisp-wsmanproxyaccesstypeflags
+        - name: "WSManProxyAuthenticationFlags"
+          href: /windows/win32/api/WSManDisp/ne-wsmandisp-wsmanproxyauthenticationflags
+    - name: "Managed Reference for WinRM Windows PowerShell Command Classes"
+      href: winrm-powershell-commandlets.md
+  - name: "Windows Remote Management Glossary"
+    href: windows-remote-management-glossary.md

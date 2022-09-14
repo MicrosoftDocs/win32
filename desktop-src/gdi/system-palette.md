@@ -1,0 +1,27 @@
+---
+description: The system maintains a system palette for each device that uses palettes.
+ms.assetid: 4c93ce8c-6b3a-4016-bb47-786c25b93374
+title: System Palette
+ms.topic: article
+ms.date: 05/31/2018
+---
+
+# System Palette
+
+The system maintains a *system palette* for each device that uses palettes. The system palette contains the color values for all colors that can currently be displayed or drawn by the device. Other than viewing the contents of the system palette, applications cannot access the system palette directly. Instead, the system has complete control of the system palette and permits access only through the use of logical palettes.
+
+An application can view the contents of the system palette by using the [**GetSystemPaletteEntries**](/windows/desktop/api/Wingdi/nf-wingdi-getsystempaletteentries) function. This function retrieves the contents of one or more entries, up to the total number of entries in the system palette. The total is always equal to the number returned for the SIZEPALETTE value by the [**GetDeviceCaps**](/windows/desktop/api/Wingdi/nf-wingdi-getdevicecaps) function and is the same as the maximum size for any given logical palette.
+
+Although applications cannot change colors in the system palette directly, they may cause changes when realizing logical palettes. To realize a palette, the system examines each requested color and attempts to find an entry in the system palette that contains an exact match. If the system finds a matching color, it maps the logical palette index to the corresponding system palette index. If the system does not find an exact match, it copies the requested color to an unused system palette entry before mapping the indexes. If all system palette entries are in use, the system maps the logical palette index to the system palette entry whose color most closely matches the requested color. After this mapping is set, applications cannot override it. For example, applications cannot use system palette indexes to specify colors; only logical palette indexes are permitted.
+
+Applications can modify the way indexes are mapped by setting the **peFlags** member of the [**PALETTEENTRY**](/previous-versions//dd162769(v=vs.85)) structure to selected values when creating the logical palette. For example, the PC\_NOCOLLAPSE flag directs the system to immediately copy the requested color to an unused system palette entry regardless of whether a system palette entry already contains that color. Also, the PC\_EXPLICIT flag directs the system to map the logical palette index to an explicitly given system palette index. (The application gives the system palette index in the low-order word of the **PALETTEENTRY** structure.)
+
+Palettes can be realized as either a background palette or a foreground palette by specifying **TRUE** or **FALSE** respectively for the *bForceBackground* parameter in the [**SelectPalette**](/windows/desktop/api/Wingdi/nf-wingdi-selectpalette) function. There can be only one foreground palette in the system at a time. If the window is the currently active window or a descendent of the currently active window, it can realize a foreground palette. Otherwise the palette is realized as a background palette regardless of the value of the *bForceBackground* parameter. The critical property of a foreground palette is that, when realized, it can overwrite all entries (except for the static entries) in the system palette. The system accomplishes this by marking all of the entries that are not static in the system palette as unused before the realization of a foreground palette, thereby eliminating all of the used entries. No preprocessing occurs on the system palette for a background palette realization. The foreground palette sets all of the possible nonstatic colors. Background palettes can set only what remains open and are prioritized in a first-come, first-serve manner. Typically, applications use background palettes for child windows which realize their own individual palettes. This helps minimize the number of changes that occur to the system palette.
+
+An unused system palette entry is any entry that is not reserved and does not contain a static color. Reserved entries are explicitly marked with the PC\_RESERVED value. These entries are created when an application realizes a logical palette for palette animation. Static color entries are created by the system and correspond to the colors in the default palette. The [**GetDeviceCaps**](/windows/desktop/api/Wingdi/nf-wingdi-getdevicecaps) function can be used to retrieve the NUMRESERVED value, which specifies the number of system palette entries reserved for static colors.
+
+Because the system palette has a limited number of entries, selecting and realizing a logical palette for a given device may affect the colors associated with other logical palettes for the same device. These color changes are especially dramatic when they occur on the display. An application can make sure that reasonable colors are used for its currently selected logical palette by resetting the palette before each use. An application resets the palette by calling the [**UnrealizeObject**](/windows/desktop/api/Wingdi/nf-wingdi-unrealizeobject) and [**RealizePalette**](/windows/desktop/api/Wingdi/nf-wingdi-realizepalette) functions. Using these functions causes the system to remap the colors in the logical palette to reasonable colors in the system palette.
+
+ 
+
+ 

@@ -1,0 +1,101 @@
+- name: "WMI Core Provider"
+  href: wmi-core-provider-.md
+  items: 
+  - name: "MSMonitorClass"
+    href: msmonitorclass.md
+  - name: "MSMCA Classes"
+    href: msmca-classes.md
+    items: 
+    - name: "MSMCAEvent_CPUError"
+      href: msmcaevent-cpuerror.md
+    - name: "MSMCAEvent_Header"
+      href: msmcaevent-header.md
+    - name: "MSMCAEvent_InvalidError"
+      href: msmcaevent-invaliderror.md
+    - name: "MSMCAEvent_MemoryError"
+      href: msmcaevent-memoryerror.md
+    - name: "MSMCAEvent_MemoryPageRemoved"
+      href: msmcaevent-memorypageremoved.md
+    - name: "MSMCAEvent_PCIBusError"
+      href: msmcaevent-pcibuserror.md
+    - name: "MSMCAEvent_PCIComponentError"
+      href: msmcaevent-pcicomponenterror.md
+    - name: "MSMCAEvent_PlatformSpecificError"
+      href: msmcaevent-platformspecificerror.md
+    - name: "MSMCAEvent_SMBIOSError"
+      href: msmcaevent-smbioserror.md
+    - name: "MSMCAEvent_SwitchToCMCPolling"
+      href: msmcaevent-switchtocmcpolling.md
+    - name: "MSMCAEvent_SystemEventError"
+      href: msmcaevent-systemeventerror.md
+    - name: "MSMCAInfo"
+      href: msmcainfo.md
+    - name: "MSMCAInfo_Entry"
+      href: msmcainfo-entry.md
+    - name: "MSMCAInfo_RawCMCEvent"
+      href: msmcainfo-rawcmcevent.md
+    - name: "MSMCAInfo_RawCorrectedPlatformEvent"
+      href: msmcainfo-rawcorrectedplatformevent.md
+    - name: "MSMCAInfo_RawMCAData"
+      href: msmcainfo-rawmcadata.md
+    - name: "MSMCAInfo_RawMCAEvent"
+      href: msmcainfo-rawmcaevent.md
+  - name: "FrequencyRangeDescriptor"
+    href: frequencyrangedescriptor.md
+  - name: "SupportedDisplayFeaturesDescriptor"
+    href: supporteddisplayfeaturesdescriptor.md
+  - name: "VideoModeDescriptor"
+    href: videomodedescriptor.md
+  - name: "WMIEvent"
+    href: wmievent.md
+  - name: "WmiMonitorAnalogVideoInputParams"
+    href: wmimonitoranalogvideoinputparams.md
+  - name: "WmiMonitorBasicDisplayParams"
+    href: wmimonitorbasicdisplayparams.md
+  - name: "WmiMonitorBrightness"
+    href: wmimonitorbrightness.md
+  - name: "WmiMonitorBrightnessEvent"
+    href: wmimonitorbrightnessevent.md
+  - name: "WmiMonitorBrightnessMethods"
+    href: wmimonitorbrightnessmethods.md
+    items: 
+    - name: "WmiMonitorBrightnessMethods Methods"
+      href: wmimonitorbrightnessmethods-methods.md
+      items: 
+      - name: "WmiRevertToPolicyBrightness method"
+        href: wmireverttopolicybrightness-method-in-class-wmimonitorbrightnessmethods.md
+      - name: "WmiSetALSBrightnessState method"
+        href: wmisetalsbrightnessstate-method-in-class-wmimonitorbrightnessmethods.md
+      - name: "WmiSetALSBrightness method"
+        href: wmisetalsbrightness-method-in-class-wmimonitorbrightnessmethods.md
+      - name: "WmiSetBrightness method"
+        href: wmisetbrightness-method-in-class-wmimonitorbrightnessmethods.md
+  - name: "WmiMonitorColorCharacteristics"
+    href: wmimonitorcolorcharacteristics.md
+  - name: "WmiMonitorConnectionParams"
+    href: wmimonitorconnectionparams.md
+  - name: "WmiMonitorDescriptorMethods"
+    href: wmimonitordescriptormethods.md
+    items: 
+    - name: "WmiMonitorDescriptorMethods Methods"
+      href: wmimonitordescriptormethods-methods.md
+      items: 
+      - name: "WmiGetMonitorRawEEdidV1Block method"
+        href: wmigetmonitorraweedidv1block-wmimonitordescriptormethods.md
+  - name: "WmiMonitorDigitalVideoInputParams"
+    href: wmimonitordigitalvideoinputparams.md
+  - name: "WmiMonitorID"
+    href: wmimonitorid.md
+  - name: "WmiMonitorListedFrequencyRanges"
+    href: wmimonitorlistedfrequencyranges.md
+  - name: "WmiMonitorListedSupportedSourceModes"
+    href: wmimonitorlistedsupportedsourcemodes.md
+  - name: "WmiMonitorRawEEdidV1Block"
+    href: wmimonitorraweedidv1block.md
+  - name: "XYZinCIE"
+    href: xyzincie.md
+- name: "WDM Provider"
+  href: wdm-provider.md
+  items: 
+  - name: "WMIBinaryMofResource"
+    href: wmibinarymofresource.md

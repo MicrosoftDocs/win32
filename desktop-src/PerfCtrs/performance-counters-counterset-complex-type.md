@@ -1,0 +1,133 @@
+---
+description: Defines a list of counters that are logically related.
+ms.assetid: d094146a-389e-4053-8ee5-acd29254e817
+title: counterSet Complex Type
+ms.topic: reference
+ms.date: 05/31/2018
+topic_type: 
+- kbSyntax
+api_name: 
+api_type: 
+api_location: 
+---
+
+# counterSet Complex Type
+
+Defines a list of counters that are logically related.
+
+``` syntax
+<xs:complexType name="counterSet">
+    <xs:sequence>
+        <xs:element name="structs"
+            type="man:structs"
+            minOccurs="0"
+            maxOccurs="1"
+         />
+        <xs:element name="counter"
+            type="man:counter"
+            minOccurs="1"
+            maxOccurs="unbounded"
+         />
+    </xs:sequence>
+    <xs:attribute name="symbol"
+        type="man:CSymbolType"
+        use="required"
+     />
+    <xs:attribute name="guid"
+        type="man:GUIDType"
+        use="required"
+     />
+    <xs:attribute name="uri"
+        type="xs:anyURI"
+        use="required"
+     />
+    <xs:attribute name="name"
+        use="required"
+    >
+        <xs:simpleType>
+            <xs:restriction
+                base="xs:string"
+            >
+                <xs:maxLength
+                    value="1023"
+                 />
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:attribute>
+    <xs:attribute name="description"
+        type="xs:string"
+        use="required"
+     />
+    <xs:attribute name="instances"
+        use="optional"
+        default="single"
+    >
+        <xs:simpleType>
+            <xs:restriction
+                base="xs:string"
+            >
+                <xs:enumeration
+                    value="single"
+                 />
+                <xs:enumeration
+                    value="multiple"
+                 />
+                <xs:enumeration
+                    value="globalAggregate"
+                 />
+                <xs:enumeration
+                    value="multipleAggregate"
+                 />
+                <xs:enumeration
+                    value="globalAggregateHistory"
+                 />
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:attribute>
+</xs:complexType>
+```
+
+## Child elements
+
+
+
+| Element     | Type                                                             | Description                                                                                            |
+|-------------|------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|
+| **counter** | [**man:counter**](performance-counters-counter-complex-type.md) | Defines a counter that the provider provides.<br/>                                               |
+| **structs** | [**man:structs**](performance-counters-structs-complex-type.md) | A list of struct elements that contain values for the counters defined in this counter set.<br/> |
+
+
+
+## Attributes
+
+
+
+| Name        | Type                                                                    | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+|-------------|-------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| description | **xs:string**                                                           | A short description of the counter set. <br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| guid        | [**man:GUIDType**](performance-counters-guidtype-simple-type.md)       | A GUID that uniquely identifies the counter set. The counter set registration fails if the GUID is already registered. To update a counter set that is registered, you must first uninstall the counter set and then register it again. <br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| instances   |                                                                         | Determines whether the counter set can contain multiple instances. The following lists the possible values:<br/> <dl> <dt><span id="single"></span><span id="SINGLE"></span>single</dt> <dd> Defines a counter set where only one instance of the counters in the counter set can exist. Specify this value if the counters provide system-wide measurements, such as physical memory. This is the default.<br/> </dd> <dt><span id="multiple"></span><span id="MULTIPLE"></span>multiple</dt> <dd> Defines a counter set where multiple instances of the counters in the counter set can exist. Specify this value if the counters provide per-instance measurements, such as processor time per process.<br/> </dd> <dt><span id="globalAggregate"></span><span id="globalaggregate"></span><span id="GLOBALAGGREGATE"></span>globalAggregate</dt> <dd> Defines a single instance counter set where the counters in the counter set must be aggregated from various active sources. For example, you could create a counter set that contains a counter that counts the number of disk reads for a hard disk. If the computer has three hard disks and a consumer queries for the number of disk reads, PERFLIB will obtain the number of reads from each disk and sum their individual values. <br/> </dd> <dt><span id="multipleAggregate"></span><span id="multipleaggregate"></span><span id="MULTIPLEAGGREGATE"></span>multipleAggregate</dt> <dd> Defines a multiple instance counter set where the counters in the counter set must be aggregated across all instances of that counter. For example, you could create a counter set for a multi-threaded application that contains a counter that measures thread performance (each thread would refer to an instance of the counter set). When a consumer queries the total thread execution time counter, PERFLIB will sum the total thread execution time from each instance.<br/> </dd> <dt><span id="globalAggregateHistory"></span><span id="globalaggregatehistory"></span><span id="GLOBALAGGREGATEHISTORY"></span>globalAggregateHistory</dt> <dd> Defines a single instance counter set whose counter values are cached for the lifetime of the consumer. Note that all counters in the counter set are cached. To cache only specific counters, decorate those counters with the history attribute.<br/> Using the disk read example from globalAggregate, all counter values in the counter set would be cached. If one disk became unavailable, the last cached value for total bytes read by that disk would still be available to the consumer application.<br/> </dd> </dl> |
+| name        |                                                                         | The display name of the counter set. Must be less than 1,024 characters. The name is case-sensitive. <br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| symbol      | [**man:CSymbolType**](performance-counters-csymboltype-simple-type.md) | A symbolic name that identifies the counter set. The [CTRPP](ctrpp.md) tool creates a GUID variable that you can use when calling functions that require the counter set GUID (for example, [**PerfCreateInstance**](/windows/desktop/api/Perflib/nf-perflib-perfcreateinstance)). The variable name is of the form, *symbolicname*Guid. <br/> If you include the **-prefix** argument when calling [CTRPP](ctrpp.md), the prefix string is added to the beginning of the symbolic name.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| uri         | **xs:anyURI**                                                           | A unique uniform resource identifier that lets users access the counters in the counter set from any location.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+
+
+
+## Requirements
+
+
+
+| Requirement | Value |
+|-------------------------------------|------------------------------------------------------|
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+
+
+
+ 
+
+ 
+
+
+
+

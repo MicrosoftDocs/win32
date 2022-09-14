@@ -1,0 +1,302 @@
+- name: "Touch Input"
+  href: windows-touch-portal.md
+  items: 
+  - name: "About Windows Touch"
+    href: about-the-multi-touch-sdk.md
+  - name: "Programming Guide"
+    href: programming-guide.md
+    items: 
+    - name: "Architectural Overview"
+      href: architectural-overview.md
+    - name: "Choosing the Right Approach to Windows Touch"
+      href: choosing-the-right-approach-to-windows-touch.md
+    - name: "Troubleshooting Applications"
+      href: troubleshooting-applications.md
+    - name: "Windows Touch Input"
+      href: guide-multi-touch-input.md
+      items: 
+      - name: "Getting Started with Windows Touch Messages"
+        href: getting-started-with-multi-touch-messages.md
+      - name: "Detecting and Tracking Multiple Touch Points"
+        href: detecting-and-tracking-multiple-touch-points.md
+    - name: "Windows Touch Gestures"
+      href: guide-multi-touch-gestures.md
+      items: 
+      - name: "Windows Touch Gestures Overview"
+        href: windows-touch-gestures-overview.md
+      - name: "Getting Started with Windows Touch Gestures"
+        href: getting-started-with-multi-touch-gestures.md
+      - name: "Legacy Support for Panning with Scrollbars"
+        href: legacy-support-for-panning-with-scrollbars.md
+      - name: "Improving the Single Finger Panning Experience"
+        href: improving-the-single-finger-panning-experience.md
+    - name: "Manipulations and Inertia"
+      href: manipulation-and-inertia.md
+      items: 
+      - name: "Manipulations"
+        href: getting-started-with-manipulations.md
+        items: 
+        - name: "Adding Manipulation Support to Unmanaged Code"
+          href: adding-manipulation-support-in-unmanaged-code.md
+        - name: "Advanced Manipulations"
+          href: advanced-manipulations.md
+          items: 
+          - name: "Advanced Manipulations Overview"
+            href: advanced-manipulations-overview.md
+          - name: "Advanced Expansion"
+            href: advanced-expansion.md
+          - name: "Advanced Rotation"
+            href: advanced-rotation.md
+          - name: "Advanced Translation"
+            href: advanced-translation.md
+        - name: "Single Finger Rotation"
+          href: single-finger-rotation.md
+      - name: "Inertia"
+        href: getting-started-with-inertia.md
+        items: 
+        - name: "Inertia Mechanics"
+          href: inertia-mechanics.md
+        - name: "Handling Inertia in Unmanaged Code"
+          href: handling-inertia-in-unmanaged-code.md
+  - name: "Windows Touch Samples"
+    href: windows-touch-samples.md
+    items: 
+    - name: "Manipulation and Inertia Sample"
+      href: manipulation-and-inertia-sample.md
+    - name: "Windows Touch Gesture Sample (MTGestures)"
+      href: windows-touch-gesture-sample--mtgestures-.md
+    - name: "Windows Touch Gestures in C# Sample (MTGesturesCS)"
+      href: windows-touch-gestures-in-c--sample--mtgesturescs-.md
+    - name: "Windows Touch Manipulation Sample (MTManipulation)"
+      href: windows-touch-manipulation-sample--mtmanipulation-.md
+    - name: "Windows Touch Scratchpad Sample (C++)"
+      href: windows-touch-scratchpad-sample--mtscratchpadwmtouch-.md
+    - name: "Windows Touch Scratchpad Sample (C#)"
+      href: windows-touch-scratchpad-sample-in-c---mtscratchpadwmtouchcs-.md
+    - name: "Windows Touch Scratchpad using the Real-time Stylus Sample (C++)"
+      href: windows-touch-scratchpad-using-the-real-time-stylus-sample--mtscratchpadrtstylus-.md
+    - name: "Windows Touch Scratchpad using the Real-Time Stylus Sample (C#)"
+      href: windows-touch-scratchpad-using-the-real-time-stylus-in-c--sample--mtscratchpadrtstyluscs-.md
+  - name: "Windows Touch Programming Reference"
+    href: windows-touch-programming-reference.md
+    items: 
+    - name: "Boundary Feedback"
+      href: boundary-feedback.md
+      items: 
+      - name: "Functions"
+        href: boundary-feedback-functions.md
+        items: 
+        - name: "BeginPanningFeedback"
+          href: /windows/desktop/api/uxtheme/nf-uxtheme-beginpanningfeedback
+        - name: "EndPanningFeedback"
+          href: /windows/desktop/api/uxtheme/nf-uxtheme-endpanningfeedback
+        - name: "UpdatePanningFeedback"
+          href: /windows/desktop/api/uxtheme/nf-uxtheme-updatepanningfeedback
+    - name: "Inertia and Manipulation"
+      href: inertia-and-manipulation-reference.md
+      items: 
+      - name: "Classes and Interfaces"
+        href: intertmanip-classes-and-interfaces.md
+        items: 
+        - name: "_IManipulationEvents"
+          href: /windows/desktop/api/manipulations/nn-manipulations-_imanipulationevents
+          items: 
+          - name: "Methods"
+            href: -imanipulationevents-methods.md
+            items: 
+            - name: "ManipulationStarted Method"
+              href: /windows/desktop/api/manipulations/nf-manipulations-_imanipulationevents-manipulationstarted
+            - name: "ManipulationDelta Method"
+              href: /windows/desktop/api/manipulations/nf-manipulations-_imanipulationevents-manipulationdelta
+            - name: "ManipulationCompleted Method"
+              href: /windows/desktop/api/manipulations/nf-manipulations-_imanipulationevents-manipulationcompleted
+        - name: "IInertiaProcessor"
+          href: /windows/desktop/api/manipulations/nn-manipulations-iinertiaprocessor
+          items: 
+          - name: "Methods"
+            href: imanipulationprocessor-methods.md
+            items: 
+            - name: "Reset Method"
+              href: /windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-reset
+            - name: "Process Method"
+              href: /windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-process
+            - name: "ProcessTime Method"
+              href: /windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-processtime
+            - name: "Complete Method"
+              href: /windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-complete
+            - name: "CompleteTime Method"
+              href: /windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-completetime
+          - name: "Properties"
+            href: iinertiaprocessor-properties.md
+            items: 
+            - name: "InitialOriginX Property"
+              href: /windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-get_initialoriginx
+            - name: "InitialOriginY Property"
+              href: /windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-get_initialoriginy
+            - name: "InitialVelocityX Property"
+              href: /windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-get_initialvelocityx
+            - name: "InitialVelocityY Property"
+              href: /windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-get_initialvelocityy
+            - name: "InitialAngularVelocity Property"
+              href: /windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-get_initialangularvelocity
+            - name: "InitialExpansionVelocity Property"
+              href: /windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-get_initialexpansionvelocity
+            - name: "InitialRadius Property"
+              href: /windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-get_initialradius
+            - name: "BoundaryLeft Property"
+              href: /windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-get_boundaryleft
+            - name: "BoundaryTop Property"
+              href: /windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-get_boundarytop
+            - name: "BoundaryRight Property"
+              href: /windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-get_boundaryright
+            - name: "BoundaryBottom Property"
+              href: /windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-get_boundarybottom
+            - name: "ElasticMarginLeft Property"
+              href: /windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-get_elasticmarginleft
+            - name: "ElasticMarginTop Property"
+              href: /windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-get_elasticmargintop
+            - name: "ElasticMarginRight Property"
+              href: /windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-get_elasticmarginright
+            - name: "ElasticMarginBottom Property"
+              href: /windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-get_elasticmarginbottom
+            - name: "DesiredAngularDeceleration Property"
+              href: /windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-get_desiredangulardeceleration
+            - name: "DesiredRotation Property"
+              href: /windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-get_desiredrotation
+            - name: "DesiredExpansion Property"
+              href: /windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-get_desiredexpansion
+            - name: "DesiredExpansionDeceleration Property"
+              href: /windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-get_desiredexpansiondeceleration
+            - name: "DesiredDeceleration Property"
+              href: /windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-get_desireddeceleration
+            - name: "DesiredDisplacement Property"
+              href: /windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-get_desireddisplacement
+            - name: "InitialTimestamp Property"
+              href: /windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-get_initialtimestamp
+        - name: "IManipulationProcessor"
+          href: /windows/desktop/api/manipulations/nn-manipulations-imanipulationprocessor
+          items: 
+          - name: "Methods"
+            href: mtmethods.md
+            items: 
+            - name: "CompleteManipulation Method"
+              href: /windows/desktop/api/manipulations/nf-manipulations-imanipulationprocessor-completemanipulation
+            - name: "GetAngularVelocity Method"
+              href: /windows/desktop/api/manipulations/nf-manipulations-imanipulationprocessor-getangularvelocity
+            - name: "GetExpansionVelocity Method"
+              href: /windows/desktop/api/manipulations/nf-manipulations-imanipulationprocessor-getexpansionvelocity
+            - name: "GetVelocityX Method"
+              href: /windows/desktop/api/manipulations/nf-manipulations-imanipulationprocessor-getvelocityx
+            - name: "GetVelocityY Method"
+              href: /windows/desktop/api/manipulations/nf-manipulations-imanipulationprocessor-getvelocityy
+            - name: "ProcessDown Method"
+              href: /windows/desktop/api/manipulations/nf-manipulations-imanipulationprocessor-processdown
+            - name: "ProcessMove Method"
+              href: /windows/desktop/api/manipulations/nf-manipulations-imanipulationprocessor-processmove
+            - name: "ProcessUp Method"
+              href: /windows/desktop/api/manipulations/nf-manipulations-imanipulationprocessor-processup
+            - name: "ProcessDownWithTime Method"
+              href: /windows/desktop/api/manipulations/nf-manipulations-imanipulationprocessor-processdownwithtime
+            - name: "ProcessMoveWithTime Method"
+              href: /windows/desktop/api/manipulations/nf-manipulations-imanipulationprocessor-processmovewithtime
+            - name: "ProcessUpWithTime Method"
+              href: /windows/desktop/api/manipulations/nf-manipulations-imanipulationprocessor-processupwithtime
+          - name: "Properties"
+            href: mtproperties.md
+            items: 
+            - name: "MinimumScaleRotateRadius Property"
+              href: imanipulationprocessor-minimumscalerotateradius.md
+            - name: "PivotPointX Property"
+              href: /windows/desktop/api/manipulations/nf-manipulations-imanipulationprocessor-get_pivotpointx
+            - name: "PivotPointY Property"
+              href: /windows/desktop/api/manipulations/nf-manipulations-imanipulationprocessor-get_pivotpointy
+            - name: "PivotRadius Property"
+              href: /windows/desktop/api/manipulations/nf-manipulations-imanipulationprocessor-get_pivotradius
+            - name: "SupportedManipulations Property"
+              href: /windows/desktop/api/manipulations/nf-manipulations-imanipulationprocessor-get_supportedmanipulations
+      - name: "Constants"
+        href: imanipulationprocessor-constants.md
+      - name: "Enumerations"
+        href: rts-functions.md
+        items: 
+        - name: "MANIPULATION_PROCESSOR_MANIPULATIONS"
+          href: /windows/desktop/api/manipulations/ne-manipulations-manipulation_processor_manipulations
+    - name: "Windows Touch Gestures"
+      href: multi-touch-gestures.md
+      items: 
+      - name: "Constants"
+        href: constants.md
+        items: 
+        - name: "Windows Touch Gestures"
+          href: windows-touch-gestures-constants.md
+      - name: "Functions"
+        href: mtgfunctions.md
+        items: 
+        - name: "CloseGestureInfoHandle"
+          href: /windows/desktop/api/winuser/nf-winuser-closegestureinfohandle
+        - name: "GetGestureExtraArgs"
+          href: /windows/desktop/api/winuser/nf-winuser-getgestureextraargs
+        - name: "GetGestureInfo"
+          href: /windows/desktop/api/winuser/nf-winuser-getgestureinfo
+        - name: "GetGestureConfig"
+          href: /windows/desktop/api/winuser/nf-winuser-getgestureconfig
+        - name: "SetGestureConfig"
+          href: /windows/desktop/api/winuser/nf-winuser-setgestureconfig
+      - name: "Macros"
+        href: macros.md
+        items: 
+        - name: "GID_ROTATE_ANGLE_FROM_ARGUMENT"
+          href: /windows/desktop/api/winuser/nf-winuser-gid_rotate_angle_from_argument
+        - name: "GID_ROTATE_ANGLE_TO_ARGUMENT"
+          href: /windows/desktop/api/winuser/nf-winuser-gid_rotate_angle_to_argument
+      - name: "Notifications"
+        href: notifications.md
+        items: 
+        - name: "WM_GESTURE"
+          href: wm-gesture.md
+        - name: "WM_GESTURENOTIFY"
+          href: wm-gesturenotify.md
+      - name: "Structures"
+        href: mtstructures.md
+        items: 
+        - name: "GESTURECONFIG"
+          href: /windows/win32/api/winuser/ns-winuser-gestureconfig
+        - name: "GESTUREINFO"
+          href: /windows/win32/api/winuser/ns-winuser-gestureinfo
+        - name: "GESTURENOTIFYSTRUCT"
+          href: /windows/win32/api/winuser/ns-winuser-gesturenotifystruct
+    - name: "Windows Touch Input"
+      href: multi-touch-input.md
+      items: 
+      - name: "Macros"
+        href: touch-macros.md
+        items: 
+        - name: "TOUCH_COORD_TO_PIXEL"
+          href: /windows/desktop/api/winuser/nf-winuser-touch_coord_to_pixel
+      - name: "Functions"
+        href: mtfunctions.md
+        items: 
+        - name: "CloseTouchInputHandle"
+          href: /windows/desktop/api/winuser/nf-winuser-closetouchinputhandle
+        - name: "GetTouchInputInfo"
+          href: /windows/desktop/api/winuser/nf-winuser-gettouchinputinfo
+        - name: "IsTouchWindow"
+          href: /windows/desktop/api/winuser/nf-winuser-istouchwindow
+        - name: "RegisterTouchWindow"
+          href: /windows/desktop/api/winuser/nf-winuser-registertouchwindow
+        - name: "UnregisterTouchWindow"
+          href: /windows/desktop/api/winuser/nf-winuser-unregistertouchwindow
+        - name: "SendMessage, PostMessage, and Related Functions"
+          href: sendmessage--postmessage--and-related-functions.md
+      - name: "Messages"
+        href: messages.md
+        items: 
+        - name: "WM_TOUCH"
+          href: wm-touchdown.md
+      - name: "Structures"
+        href: structures.md
+        items: 
+        - name: "TOUCHINPUT"
+          href: /windows/win32/api/winuser/ns-winuser-touchinput
+  - name: "Windows Touch Glossary"
+    href: glossary.md

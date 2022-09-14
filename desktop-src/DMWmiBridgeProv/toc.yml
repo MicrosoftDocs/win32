@@ -1,0 +1,539 @@
+- name: "MDM Bridge WMI Provider"
+  href: mdm-bridge-wmi-provider-portal.md
+  items: 
+  - name: "MDM_ActiveSync_User_Accounts01_01"
+    href: mdm-activesync-user-accounts01-01.md
+  - name: "MDM_ActiveSync_User_ContentTypes04_01"
+    href: mdm-activesync-user-contenttypes04-01.md
+  - name: "MDM_ActiveSync_User_Options03"
+    href: mdm-activesync-user-options03.md
+  - name: "MDM_AppLocker_ApplicationLaunchRestrictions01_EXE03"
+    href: mdm-applocker-applicationlaunchrestrictions01-exe03.md
+  - name: "MDM_AppLocker_ApplicationLaunchRestrictions01_StoreApps03"
+    href: mdm-applocker-applicationlaunchrestrictions01-storeapps03.md
+  - name: "MDM_AppLocker_CodeIntegrity03"
+    href: mdm-applocker-codeintegrity03.md
+  - name: "MDM_AppLocker_DLL03"
+    href: mdm-applocker-dll03.md
+  - name: "MDM_AppLocker_EnterpriseDataProtection01_EXE03"
+    href: mdm-applocker-enterprisedataprotection01-exe03.md
+  - name: "MDM_AppLocker_EnterpriseDataProtection01_StoreApps03"
+    href: mdm-applocker-enterprisedataprotection01-storeapps03.md
+  - name: "MDM_AppLocker_MSI03"
+    href: mdm-applocker-msi03.md
+  - name: "MDM_AppLocker_Script03"
+    href: mdm-applocker-script03.md
+  - name: "MDM_AssignedAccess"
+    href: mdm-assignedaccess.md
+  - name: "MDM_ClientCertificateInstall_Install03"
+    href: mdm-clientcertificateinstall-install03.md
+    items: 
+    - name: "EnrollMethod method"
+      href: mdm-clientcertificateinstall-install03-enrollmethod.md
+  - name: "MDM_ClientCertificateInstall_PFXCertInstall01_01"
+    href: mdm-clientcertificateinstall-pfxcertinstall01-01.md
+  - name: "MDM_ClientCertificateInstall_SCEP01_01"
+    href: mdm-clientcertificateinstall-scep01-01.md
+  - name: "MDM_DevDetail"
+    href: mdm-devdetail.md
+  - name: "MDM_DevDetail_Ext01"
+    href: mdm-devdetail-ext01.md
+  - name: "MDM_DevDetail_Microsoft02"
+    href: mdm-devdetail-microsoft02.md
+  - name: "MDM_DeviceStatus"
+    href: mdm-devicestatus.md
+  - name: "MDM_DeviceStatus_Antispyware01"
+    href: mdm-devicestatus-antispyware01.md
+  - name: "MDM_DeviceStatus_Antivirus01"
+    href: mdm-devicestatus-antivirus01.md
+  - name: "MDM_DeviceStatus_Battery01"
+    href: mdm-devicestatus-battery01.md
+  - name: "MDM_DeviceStatus_CellularIdentities01_01"
+    href: mdm-devicestatus-cellularidentities01-01.md
+  - name: "MDM_DeviceStatus_Compliance01"
+    href: mdm-devicestatus-compliance01.md
+  - name: "MDM_DeviceStatus_Firewall01"
+    href: mdm-devicestatus-firewall01.md
+  - name: "MDM_DeviceStatus_NetworkIdentifiers01_01"
+    href: mdm-devicestatus-networkidentifiers01-01.md
+  - name: "MDM_DeviceStatus_OS01"
+    href: mdm-devicestatus-os01.md
+  - name: "MDM_DeviceStatus_TPM01"
+    href: mdm-devicestatus-tpm01.md
+  - name: "MDM_DeviceStatus_UAC01"
+    href: mdm-devicestatus-uac01.md
+  - name: "MDM_EnterpriseAPN_01"
+    href: mdm-enterpriseapn-01.md
+  - name: "MDM_EnterpriseAPN_Settings01"
+    href: mdm-enterpriseapn-settings01.md
+  - name: "MDM_EnterpriseDataProtection"
+    href: mdm-enterprisedataprotection.md
+  - name: "MDM_EnterpriseDataProtection_Settings01"
+    href: mdm-enterprisedataprotection-settings01.md
+  - name: "MDM_EnterpriseModernAppManagement_AppInstallation01_01"
+    href: mdm-enterprisemodernappmanagement-appinstallation01-01.md
+    items: 
+    - name: "HostedInstallMethod method"
+      href: mdm-enterprisemodernappmanagement-appinstallation01-01-hostedinstallmethod.md
+    - name: "StoreInstallMethod method"
+      href: mdm-enterprisemodernappmanagement-appinstallation01-01-storeinstallmethod.md
+  - name: "MDM_EnterpriseModernAppManagement_AppManagement01"
+    href: mdm-enterprisemodernappmanagement-appmanagement01.md
+    items: 
+    - name: "UpdateScanMethod method"
+      href: mdm-enterprisemodernappmanagement-appmanagement01-updatescanmethod.md
+    - name: "RemovePackageMethod method"
+      href: mdm-enterprisemodernappmanagement-appmanagement01-removepackagemethod.md
+  - name: "MDM_EnterpriseModernAppManagement_AppManagement01_02"
+    href: mdm-enterprisemodernappmanagement-appmanagement01-02.md
+  - name: "MDM_EnterpriseModernAppManagement_AppManagement01_03"
+    href: mdm-enterprisemodernappmanagement-appmanagement01-03.md
+  - name: "MDM_EnterpriseModernAppManagement_AppSettingPolicy04"
+    href: mdm-enterprisemodernappmanagement-appsettingpolicy04.md
+  - name: "MDM_EnterpriseModernAppManagement_StoreLicenses02_01"
+    href: mdm-enterprisemodernappmanagement-storelicenses02-01.md
+    items: 
+    - name: "AddLicenseMethod method"
+      href: mdm-enterprisemodernappmanagement-storelicenses02-01-addlicensemethod.md
+    - name: "GetLicenseFromStoreMethod method"
+      href: mdm-enterprisemodernappmanagement-storelicenses02-01-getlicensefromstoremethod.md
+  - name: "MDM_HealthAttestation"
+    href: mdm-healthattestation.md
+    items: 
+    - name: "VerifyHealthMethod method"
+      href: mdm-healthattestation-verifyhealthmethod.md
+  - name: "MDM_PassportForWork"
+    href: mdm-passportforwork.md
+  - name: "MDM_PassportForWork_Biometrics01"
+    href: mdm-passportforwork-biometrics01.md
+  - name: "MDM_PassportForWork_Device_Policies02"
+    href: mdm-passportforwork-device-policies02.md
+  - name: "MDM_PassportForWork_PINComplexity03"
+    href: mdm-passportforwork-pincomplexity03.md
+  - name: "MDM_PassportForWork_Policies02"
+    href: mdm-passportforwork-policies02.md
+  - name: "MDM_PassportForWork_Remote03"
+    href: mdm-passportforwork-remote03.md
+  - name: "MDM_Policy_Config01_AboveLock02"
+    href: mdm-policy-config01-abovelock02.md
+  - name: "MDM_Policy_Config01_Accounts02"
+    href: mdm-policy-config01-accounts02.md
+  - name: "MDM_Policy_Config01_ApplicationManagement02"
+    href: mdm-policy-config01-applicationmanagement02.md
+  - name: "MDM_Policy_Config01_Authentication02"
+    href: mdm-policy-config01-authentication02.md
+  - name: "MDM_Policy_Config01_BitLocker02"
+    href: mdm-policy-config01-bitlocker02.md
+  - name: "MDM_Policy_Config01_Bluetooth02"
+    href: mdm-policy-config01-bluetooth02.md
+  - name: "MDM_Policy_Config01_Browser02"
+    href: mdm-policy-config01-browser02.md
+  - name: "MDM_Policy_Config01_Camera02"
+    href: mdm-policy-config01-camera02.md
+  - name: "MDM_Policy_Config01_Connectivity02"
+    href: mdm-policy-config01-connectivity02.md
+  - name: "MDM_Policy_Config01_Cryptography02"
+    href: mdm-policy-config01-cryptography02.md
+  - name: "MDM_Policy_Config01_DataProtection02"
+    href: mdm-policy-config01-dataprotection02.md
+  - name: "MDM_Policy_Config01_Defender02"
+    href: mdm-policy-config01-defender02.md
+  - name: "MDM_Policy_Config01_DeliveryOptimization02"
+    href: mdm-policy-config01-deliveryoptimization02.md
+  - name: "MDM_Policy_Config01_DeviceLock02"
+    href: mdm-policy-config01-devicelock02.md
+  - name: "MDM_Policy_Config01_Experience02"
+    href: mdm-policy-config01-experience02.md
+  - name: "MDM_Policy_Config01_Licensing02"
+    href: mdm-policy-config01-licensing02.md
+  - name: "MDM_Policy_Config01_LockDown02"
+    href: mdm-policy-config01-lockdown02.md
+  - name: "MDM_Policy_Config01_Maps02"
+    href: mdm-policy-config01-maps02.md
+  - name: "MDM_Policy_Config01_NetworkIsolation02"
+    href: mdm-policy-config01-networkisolation02.md
+  - name: "MDM_Policy_Config01_Privacy02"
+    href: mdm-policy-config01-privacy02.md
+  - name: "MDM_Policy_Config01_Search02"
+    href: mdm-policy-config01-search02.md
+  - name: "MDM_Policy_Config01_Security02"
+    href: mdm-policy-config01-security02.md
+  - name: "MDM_Policy_Config01_Start02"
+    href: mdm-policy-config01-start02.md
+  - name: "MDM_Policy_Config01_System02"
+    href: mdm-policy-config01-system02.md
+  - name: "MDM_Policy_Config01_TextInput02"
+    href: mdm-policy-config01-textinput02.md
+  - name: "MDM_Policy_Config01_Update02"
+    href: mdm-policy-config01-update02.md
+  - name: "MDM_Policy_Config01_WiFi02"
+    href: mdm-policy-config01-wifi02.md
+  - name: "MDM_Policy_Config01_WindowsInkWorkspace02"
+    href: mdm-policy-config01-windowsinkworkspace02.md
+  - name: "MDM_Policy_Config01_WirelessDisplay02"
+    href: mdm-policy-config01-wirelessdisplay02.md
+  - name: "MDM_Policy_Result01_AboveLock02"
+    href: mdm-policy-result01-abovelock02.md
+  - name: "MDM_Policy_Result01_Accounts02"
+    href: mdm-policy-result01-accounts02.md
+  - name: "MDM_Policy_Result01_ApplicationManagement02"
+    href: mdm-policy-result01-applicationmanagement02.md
+  - name: "MDM_Policy_Result01_Authentication02"
+    href: mdm-policy-result01-authentication02.md
+  - name: "MDM_Policy_Result01_BitLocker02"
+    href: mdm-policy-result01-bitlocker02.md
+  - name: "MDM_Policy_Result01_Bluetooth02"
+    href: mdm-policy-result01-bluetooth02.md
+  - name: "MDM_Policy_Result01_Browser02"
+    href: mdm-policy-result01-browser02.md
+  - name: "MDM_Policy_Result01_Camera02"
+    href: mdm-policy-result01-camera02.md
+  - name: "MDM_Policy_Result01_Connectivity02"
+    href: mdm-policy-result01-connectivity02.md
+  - name: "MDM_Policy_Result01_Cryptography02"
+    href: mdm-policy-result01-cryptography02.md
+  - name: "MDM_Policy_Result01_DataProtection02"
+    href: mdm-policy-result01-dataprotection02.md
+  - name: "MDM_Policy_Result01_Defender02"
+    href: mdm-policy-result01-defender02.md
+  - name: "MDM_Policy_Result01_DeliveryOptimization02"
+    href: mdm-policy-result01-deliveryoptimization02.md
+  - name: "MDM_Policy_Result01_DeviceLock02"
+    href: mdm-policy-result01-devicelock02.md
+  - name: "MDM_Policy_Result01_Experience02"
+    href: mdm-policy-result01-experience02.md
+  - name: "MDM_Policy_Result01_Licensing02"
+    href: mdm-policy-result01-licensing02.md
+  - name: "MDM_Policy_Result01_LockDown02"
+    href: mdm-policy-result01-lockdown02.md
+  - name: "MDM_Policy_Result01_Maps02"
+    href: mdm-policy-result01-maps02.md
+  - name: "MDM_Policy_Result01_NetworkIsolation02"
+    href: mdm-policy-result01-networkisolation02.md
+  - name: "MDM_Policy_Result01_Privacy02"
+    href: mdm-policy-result01-privacy02.md
+  - name: "MDM_Policy_Result01_Search02"
+    href: mdm-policy-result01-search02.md
+  - name: "MDM_Policy_Result01_Security02"
+    href: mdm-policy-result01-security02.md
+  - name: "MDM_Policy_Result01_Start02"
+    href: mdm-policy-result01-start02.md
+  - name: "MDM_Policy_Result01_System02"
+    href: mdm-policy-result01-system02.md
+  - name: "MDM_Policy_Result01_TextInput02"
+    href: mdm-policy-result01-textinput02.md
+  - name: "MDM_Policy_Result01_Update02"
+    href: mdm-policy-result01-update02.md
+  - name: "MDM_Policy_Result01_WiFi02"
+    href: mdm-policy-result01-wifi02.md
+  - name: "MDM_Policy_Result01_WindowsInkWorkspace02"
+    href: mdm-policy-result01-windowsinkworkspace02.md
+  - name: "MDM_Policy_Result01_WirelessDisplay02"
+    href: mdm-policy-result01-wirelessdisplay02.md
+  - name: "MDM_Policy_User_Config01_ApplicationManagement02"
+    href: mdm-policy-user-config01-applicationmanagement02.md
+  - name: "MDM_Policy_User_Config01_Authentication02"
+    href: mdm-policy-user-config01-authentication02.md
+  - name: "MDM_Policy_User_Config01_Experience02"
+    href: mdm-policy-user-config01-experience02.md
+  - name: "MDM_Policy_User_Config01_Notifications02"
+    href: mdm-policy-user-config01-notifications02.md
+  - name: "MDM_Policy_User_Config01_Start02"
+    href: mdm-policy-user-config01-start02.md
+  - name: "MDM_Policy_User_Result01_ApplicationManagement02"
+    href: mdm-policy-user-result01-applicationmanagement02.md
+  - name: "MDM_Policy_User_Result01_Authentication02"
+    href: mdm-policy-user-result01-authentication02.md
+  - name: "MDM_Policy_User_Result01_Experience02"
+    href: mdm-policy-user-result01-experience02.md
+  - name: "MDM_Policy_User_Result01_Notifications02"
+    href: mdm-policy-user-result01-notifications02.md
+  - name: "MDM_Policy_User_Result01_Start02"
+    href: mdm-policy-user-result01-start02.md
+  - name: "MDM_Reboot"
+    href: mdm-reboot.md
+    items: 
+    - name: "RebootNowMethod method"
+      href: mdm-reboot-rebootnowmethod.md
+  - name: "MDM_Reboot_Schedule01"
+    href: mdm-reboot-schedule01.md
+  - name: "MDM_RemoteFind"
+    href: mdm-remotefind.md
+  - name: "MDM_RemoteFind_Location01"
+    href: mdm-remotefind-location01.md
+  - name: "MDM_RemoteWipe"
+    href: mdm-remotewipe.md
+    items: 
+    - name: "doWipeMethod method"
+      href: mdm-remotewipe-dowipemethod.md
+    - name: "doWipePersistProvisionedDataMethod method"
+      href: mdm-remotewipe-dowipepersistprovisioneddatamethod.md
+    - name: "doWipePersistUserDataMethod method"
+      href: mdm-remotewipe-dowipepersistuserdatamethod.md
+    - name: "doWipeProtectedMethod method"
+      href: mdm-remotewipe-dowipeprotectedmethod.md
+  - name: "MDM_Reporting_EnterpriseDataProtection01_RetrieveByCount02"
+    href: mdm-reporting-enterprisedataprotection01-retrievebycount02.md
+  - name: "MDM_Reporting_EnterpriseDataProtection01_RetrieveByTimeRange02"
+    href: mdm-reporting-enterprisedataprotection01-retrievebytimerange02.md
+  - name: "MDM_Reporting_SecurityAuditing01_RetrieveByCount02"
+    href: mdm-reporting-securityauditing01-retrievebycount02.md
+  - name: "MDM_Reporting_SecurityAuditing01_RetrieveByTimeRange02"
+    href: mdm-reporting-securityauditing01-retrievebytimerange02.md
+  - name: "MDM_SecureAssessment"
+    href: mdm-secureassessment.md
+  - name: "MDM_Update"
+    href: mdm-update.md
+  - name: "MDM_Update_ApprovedUpdates01_01"
+    href: mdm-update-approvedupdates01-01.md
+  - name: "MDM_Update_FailedUpdates01_01"
+    href: mdm-update-failedupdates01-01.md
+  - name: "MDM_Update_InstallableUpdates01_01"
+    href: mdm-update-installableupdates01-01.md
+  - name: "MDM_Update_PendingRebootUpdates01_01"
+    href: mdm-update-pendingrebootupdates01-01.md
+  - name: "MDM_VPNv2_01"
+    href: mdm-vpnv2-01.md
+  - name: "MDM_VPNv2_APNBinding02"
+    href: mdm-vpnv2-apnbinding02.md
+  - name: "MDM_VPNv2_AppTriggerList02_App04"
+    href: mdm-vpnv2-apptriggerlist02-app04.md
+  - name: "MDM_VPNv2_Authentication03"
+    href: mdm-vpnv2-authentication03.md
+  - name: "MDM_VPNv2_Certificate04"
+    href: mdm-vpnv2-certificate04.md
+  - name: "MDM_VPNv2_CryptographySuite03"
+    href: mdm-vpnv2-cryptographysuite03.md
+  - name: "MDM_VPNv2_DeviceCompliance02"
+    href: mdm-vpnv2-devicecompliance02.md
+  - name: "MDM_VPNv2_DomainNameInformationList02_01"
+    href: mdm-vpnv2-domainnameinformationlist02-01.md
+  - name: "MDM_VPNv2_Eap04"
+    href: mdm-vpnv2-eap04.md
+  - name: "MDM_VPNv2_Manual03"
+    href: mdm-vpnv2-manual03.md
+  - name: "MDM_VPNv2_NativeProfile02"
+    href: mdm-vpnv2-nativeprofile02.md
+  - name: "MDM_VPNv2_PluginProfile02"
+    href: mdm-vpnv2-pluginprofile02.md
+  - name: "MDM_VPNv2_Proxy02"
+    href: mdm-vpnv2-proxy02.md
+  - name: "MDM_VPNv2_RouteList02_01"
+    href: mdm-vpnv2-routelist02-01.md
+  - name: "MDM_VPNv2_Sso03"
+    href: mdm-vpnv2-sso03.md
+  - name: "MDM_VPNv2_TrafficFilterList02_01"
+    href: mdm-vpnv2-trafficfilterlist02-01.md
+  - name: "MDM_VPNv2_TrafficFilterList02_App04"
+    href: mdm-vpnv2-trafficfilterlist02-app04.md
+  - name: "MDM_WindowsAdvancedThreatProtection"
+    href: mdm-windowsadvancedthreatprotection.md
+  - name: "MDM_WindowsAdvancedThreatProtection_Configuration01"
+    href: mdm-windowsadvancedthreatprotection-configuration01.md
+  - name: "MDM_WindowsAdvancedThreatProtection_HealthState01"
+    href: mdm-windowsadvancedthreatprotection-healthstate01.md
+  - name: "MDM_WindowsLicensing"
+    href: mdm-windowslicensing.md
+    items: 
+    - name: "CheckApplicabilityMethod method"
+      href: mdm-windowslicensing-checkapplicabilitymethod.md
+    - name: "UpgradeEditionWithLicenseMethod method"
+      href: mdm-windowslicensing-upgradeeditionwithlicensemethod.md
+    - name: "UpgradeEditionWithProductKeyMethod method"
+      href: mdm-windowslicensing-upgradeeditionwithproductkeymethod.md
+    - name: "ChangeProductKeyMethod method"
+      href: mdm-windowslicensing-changeproductkeymethod.md
+  - name: "MDM_WindowsLicensing_Subscriptions01_01"
+    href: mdm-windowslicensing-subscriptions01-01.md
+  - name: "MDM_PassportForWork_ExcludeSecurityDevices03"
+    href: mdm-passportforwork-excludesecuritydevices03.md
+  - name: "MDM_Policy_Config01_Games02"
+    href: mdm-policy-config01-games02.md
+  - name: "MDM_Policy_Config01_Location02"
+    href: mdm-policy-config01-location02.md
+  - name: "MDM_Policy_Config01_WindowsLogon02"
+    href: mdm-policy-config01-windowslogon02.md
+  - name: "MDM_Policy_Result01_Games02"
+    href: mdm-policy-result01-games02.md
+  - name: "MDM_Policy_Result01_Location02"
+    href: mdm-policy-result01-location02.md
+  - name: "MDM_Policy_Result01_WindowsLogon02"
+    href: mdm-policy-result01-windowslogon02.md
+  - name: "MDM_Policy_User_Config01_Settings02"
+    href: mdm-policy-user-config01-settings02.md
+  - name: "MDM_Policy_User_Result01_Settings02"
+    href: mdm-policy-user-result01-settings02.md
+  - name: "MDM_SharedPC"
+    href: mdm-sharedpc.md
+  - name: "MDM_Policy_Config01_ActiveXControls02"
+    href: mdm-policy-config01-activexcontrols02.md
+  - name: "MDM_Policy_Config01_ApplicationDefaults02"
+    href: mdm-policy-config01-applicationdefaults02.md
+  - name: "MDM_Policy_Config01_AppVirtualization02"
+    href: mdm-policy-config01-appvirtualization02.md
+  - name: "MDM_Policy_Config01_Autoplay02"
+    href: mdm-policy-config01-autoplay02.md
+  - name: "MDM_Policy_Config01_CredentialProviders02"
+    href: mdm-policy-config01-credentialproviders02.md
+  - name: "MDM_Policy_Config01_CredentialsUI02"
+    href: mdm-policy-config01-credentialsui02.md
+  - name: "MDM_Policy_Config01_DataUsage02"
+    href: mdm-policy-config01-datausage02.md
+  - name: "MDM_Policy_Config01_DeviceInstallation02"
+    href: mdm-policy-config01-deviceinstallation02.md
+  - name: "MDM_Policy_Config01_Display02"
+    href: mdm-policy-config01-display02.md
+  - name: "MDM_Policy_Config01_ErrorReporting02"
+    href: mdm-policy-config01-errorreporting02.md
+  - name: "MDM_Policy_Config01_EventLogService02"
+    href: mdm-policy-config01-eventlogservice02.md
+  - name: "MDM_Policy_Config01_InternetExplorer02"
+    href: mdm-policy-config01-internetexplorer02.md
+  - name: "MDM_Policy_Config01_Kerberos02"
+    href: mdm-policy-config01-kerberos02.md
+  - name: "MDM_Policy_Config01_Power02"
+    href: mdm-policy-config01-power02.md
+  - name: "MDM_Policy_Config01_Printers02"
+    href: mdm-policy-config01-printers02.md
+  - name: "MDM_Policy_Config01_RemoteAssistance02"
+    href: mdm-policy-config01-remoteassistance02.md
+  - name: "MDM_Policy_Config01_RemoteDesktopServices02"
+    href: mdm-policy-config01-remotedesktopservices02.md
+  - name: "MDM_Policy_Config01_RemoteProcedureCall02"
+    href: mdm-policy-config01-remoteprocedurecall02.md
+  - name: "MDM_Policy_Config01_SmartScreen02"
+    href: mdm-policy-config01-smartscreen02.md
+  - name: "MDM_Policy_Config01_Storage02"
+    href: mdm-policy-config01-storage02.md
+  - name: "MDM_Policy_Result01_ActiveXControls02"
+    href: mdm-policy-result01-activexcontrols02.md
+  - name: "MDM_Policy_Result01_ApplicationDefaults02"
+    href: mdm-policy-result01-applicationdefaults02.md
+  - name: "MDM_Policy_Result01_AppVirtualization02"
+    href: mdm-policy-result01-appvirtualization02.md
+  - name: "MDM_Policy_Result01_Autoplay02"
+    href: mdm-policy-result01-autoplay02.md
+  - name: "MDM_Policy_Result01_CredentialProviders02"
+    href: mdm-policy-result01-credentialproviders02.md
+  - name: "MDM_Policy_Result01_CredentialsUI02"
+    href: mdm-policy-result01-credentialsui02.md
+  - name: "MDM_Policy_Result01_DataUsage02"
+    href: mdm-policy-result01-datausage02.md
+  - name: "MDM_Policy_Result01_DeviceInstallation02"
+    href: mdm-policy-result01-deviceinstallation02.md
+  - name: "MDM_Policy_Result01_Display02"
+    href: mdm-policy-result01-display02.md
+  - name: "MDM_Policy_Result01_ErrorReporting02"
+    href: mdm-policy-result01-errorreporting02.md
+  - name: "MDM_Policy_Result01_EventLogService02"
+    href: mdm-policy-result01-eventlogservice02.md
+  - name: "MDM_Policy_Result01_InternetExplorer02"
+    href: mdm-policy-result01-internetexplorer02.md
+  - name: "MDM_Policy_Result01_Kerberos02"
+    href: mdm-policy-result01-kerberos02.md
+  - name: "MDM_Policy_Result01_Power02"
+    href: mdm-policy-result01-power02.md
+  - name: "MDM_Policy_Result01_Printers02"
+    href: mdm-policy-result01-printers02.md
+  - name: "MDM_Policy_Result01_RemoteAssistance02"
+    href: mdm-policy-result01-remoteassistance02.md
+  - name: "MDM_Policy_Result01_RemoteDesktopServices02"
+    href: mdm-policy-result01-remotedesktopservices02.md
+  - name: "MDM_Policy_Result01_RemoteProcedureCall02"
+    href: mdm-policy-result01-remoteprocedurecall02.md
+  - name: "MDM_Policy_Result01_SmartScreen02"
+    href: mdm-policy-result01-smartscreen02.md
+  - name: "MDM_Policy_Result01_Storage02"
+    href: mdm-policy-result01-storage02.md
+  - name: "MDM_Policy_User_Config01_AttachmentManager02"
+    href: mdm-policy-user-config01-attachmentmanager02.md
+  - name: "MDM_Policy_User_Config01_CredentialsUI02"
+    href: mdm-policy-user-config01-credentialsui02.md
+  - name: "MDM_Policy_User_Config01_Desktop02"
+    href: mdm-policy-user-config01-desktop02.md
+  - name: "MDM_Policy_User_Config01_EnterpriseCloudPrint02"
+    href: mdm-policy-user-config01-enterprisecloudprint02.md
+  - name: "MDM_Policy_User_Config01_InternetExplorer02"
+    href: mdm-policy-user-config01-internetexplorer02.md
+  - name: "MDM_Policy_User_Config01_Printers02"
+    href: mdm-policy-user-config01-printers02.md
+  - name: "MDM_Policy_User_Config01_System02"
+    href: mdm-policy-user-config01-system02.md
+  - name: "MDM_Policy_User_Result01_AttachmentManager02"
+    href: mdm-policy-user-result01-attachmentmanager02.md
+  - name: "MDM_Policy_User_Result01_CredentialsUI02"
+    href: mdm-policy-user-result01-credentialsui02.md
+  - name: "MDM_Policy_User_Result01_Desktop02"
+    href: mdm-policy-user-result01-desktop02.md
+  - name: "MDM_Policy_User_Result01_EnterpriseCloudPrint02"
+    href: mdm-policy-user-result01-enterprisecloudprint02.md
+  - name: "MDM_Policy_User_Result01_InternetExplorer02"
+    href: mdm-policy-user-result01-internetexplorer02.md
+  - name: "MDM_Policy_User_Result01_Printers02"
+    href: mdm-policy-user-result01-printers02.md
+  - name: "MDM_Policy_User_Result01_System02"
+    href: mdm-policy-user-result01-system02.md
+  - name: "MDM_Policy_Config01_Cellular02"
+    href: mdm-policy-config01-cellular02.md
+  - name: "MDM_Policy_Config01_DeviceGuard02"
+    href: mdm-policy-config01-deviceguard02.md
+  - name: "MDM_Policy_Config01_LocalPoliciesSecurityOptions02"
+    href: mdm-policy-config01-localpoliciessecurityoptions02.md
+  - name: "MDM_Policy_Config01_RemoteManagement02"
+    href: mdm-policy-config01-remotemanagement02.md
+  - name: "MDM_Policy_Config01_RemoteShell02"
+    href: mdm-policy-config01-remoteshell02.md
+  - name: "MDM_Policy_Config01_WindowsDefenderSecurityCenter02"
+    href: mdm-policy-config01-windowsdefendersecuritycenter02.md
+  - name: "MDM_Policy_Result01_Cellular02"
+    href: mdm-policy-result01-cellular02.md
+  - name: "MDM_Policy_Result01_DeviceGuard02"
+    href: mdm-policy-result01-deviceguard02.md
+  - name: "MDM_Policy_Result01_LocalPoliciesSecurityOptions02"
+    href: mdm-policy-result01-localpoliciessecurityoptions02.md
+  - name: "MDM_Policy_Result01_RemoteManagement02"
+    href: mdm-policy-result01-remotemanagement02.md
+  - name: "MDM_Policy_Result01_RemoteShell02"
+    href: mdm-policy-result01-remoteshell02.md
+  - name: "MDM_Policy_Result01_WindowsDefenderSecurityCenter02"
+    href: mdm-policy-result01-windowsdefendersecuritycenter02.md
+  - name: "MDM_Policy_User_Config01_Education02"
+    href: mdm-policy-user-config01-education02.md
+  - name: "MDM_Policy_User_Result01_Education02"
+    href: mdm-policy-user-result01-education02.md
+  - name: "MDM_BitLocker"
+    href: mdm-bitlocker.md
+  - name: "MDM_DeviceManageability_Provider01_01"
+    href: mdm-devicemanageability-provider01-01.md
+  - name: "MDM_Firewall_Action04"
+    href: mdm-firewall-action04.md
+  - name: "MDM_Firewall_App04"
+    href: mdm-firewall-app04.md
+  - name: "MDM_Firewall_DomainProfile02"
+    href: mdm-firewall-domainprofile02.md
+  - name: "MDM_Firewall_FirewallRules02_01"
+    href: mdm-firewall-firewallrules02-01.md
+  - name: "MDM_Firewall_Global02"
+    href: mdm-firewall-global02.md
+  - name: "MDM_Firewall_PrivateProfile02"
+    href: mdm-firewall-privateprofile02.md
+  - name: "MDM_Firewall_PublicProfile02"
+    href: mdm-firewall-publicprofile02.md
+  - name: "MDM_Personalization"
+    href: mdm-personalization.md
+  - name: "MDM_WindowsAdvancedThreatProtection_DeviceTagging01"
+    href: mdm-windowsadvancedthreatprotection-devicetagging01.md
+  - name: "MDM_DeviceStatus_DeviceGuard01"
+    href: mdm-devicestatus-deviceguard01.md
+  - name: "MDM_Policy_Config01_ExploitGuard02"
+    href: mdm-policy-config01-exploitguard02.md
+  - name: "MDM_Policy_Config01_Handwriting02"
+    href: mdm-policy-config01-handwriting02.md
+  - name: "MDM_Policy_Config01_Messaging02"
+    href: mdm-policy-config01-messaging02.md
+  - name: "MDM_Policy_Result01_ExploitGuard02"
+    href: mdm-policy-result01-exploitguard02.md
+  - name: "MDM_Policy_Result01_Handwriting02"
+    href: mdm-policy-result01-handwriting02.md
+  - name: "MDM_Policy_Result01_Messaging02"
+    href: mdm-policy-result01-messaging02.md

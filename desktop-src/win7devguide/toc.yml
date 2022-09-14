@@ -1,0 +1,50 @@
+- name: "Windows 7 Developer Guide"
+  href: windows-7-developer-guide.md
+  items: 
+  - name: "Introduction"
+    href: introduction.md
+  - name: "Solid Foundation"
+    href: solid-foundation.md
+    items: 
+    - name: "Compatibility and Reliability"
+      href: compatibility-and-reliability.md
+    - name: "Management and Deployment"
+      href: management-and-deployment.md
+    - name: "Security"
+      href: security.md
+    - name: "Performance"
+      href: performance.md
+    - name: "Documents and Document Peripherals"
+      href: documents-and-document-peripherals.md
+    - name: "Accessibility and Global Support"
+      href: accessibility-and-global-support.md
+  - name: "Richer Application Experiences"
+    href: richer-application-experiences.md
+    items: 
+    - name: "Intuitive User Experience"
+      href: intuitive-user-experience.md
+    - name: "Handwriting and Ink"
+      href: handwriting-and-ink.md
+    - name: "The Desktop Experience"
+      href: the-desktop-experience.md
+    - name: "Managing Files and Data"
+      href: managing-files-and-data.md
+    - name: "High DPI"
+      href: high-dpi.md
+    - name: "High Fidelity Graphics with DirectX"
+      href: high-fidelity-graphics-with-directx.md
+    - name: "Media Platform"
+      href: media-platform.md
+    - name: "Devices"
+      href: devices.md
+  - name: "The Best of Windows and the Web"
+    href: the-best-of-windows-and-the-web.md
+    items: 
+    - name: "Services"
+      href: services.md
+    - name: "Federated Search"
+      href: federated-search.md
+    - name: "Sensor Platform"
+      href: sensor-platform.md
+    - name: "Internet Explorer 8"
+      href: internet-explorer-8.md

@@ -1,0 +1,131 @@
+- name: "Windows Projected File System"
+  href: projected-file-system.md
+  items:
+  - name: "Projected File System Programming Guide"
+    href: projfs-programming-guide.md
+    items:
+    - name: "Provider Overview"
+      href: provider-overview.md
+    - name: "Cache State in the Virtualization Root"
+      href: cache-state.md
+    - name: "Enabling Windows Projected File System"
+      href: enabling-windows-projected-file-system.md
+    - name: "Virtualization Instance Lifecycle"
+      href: virtualization-instance-lifecycle.md
+    - name: "Enumerating Files and Directories"
+      href: enumerating-files-and-directories.md
+    - name: "Providing File Data"
+      href: providing-file-data.md
+    - name: "File System Operation Notifications"
+      href: file-system-operation-notifications.md
+    - name: "Handling View Changes"
+      href: handling-view-changes.md
+    - name: "Asynchronous Callback Handling"
+      href: asynchronous-callback-handling.md
+  - name: "Projected File System Reference"
+    href: projfs-reference.md
+    items:
+    - name: "Projected File System callback functions"
+      href: projfs-callback-functions.md
+      items:
+      - name: "PRJ_CANCEL_COMMAND_CB"
+        href: /windows/win32/api/projectedfslib/nc-projectedfslib-prj_cancel_command_cb
+      - name: "PRJ_END_DIRECTORY_ENUMERATION_CB"
+        href: /windows/win32/api/projectedfslib/nc-projectedfslib-prj_end_directory_enumeration_cb
+      - name: "PRJ_GET_DIRECTORY_ENUMERATION_CB"
+        href: /windows/win32/api/projectedfslib/nc-projectedfslib-prj_get_directory_enumeration_cb
+      - name: "PRJ_GET_FILE_DATA_CB"
+        href: /windows/win32/api/projectedfslib/nc-projectedfslib-prj_get_file_data_cb
+      - name: "PRJ_GET_PLACEHOLDER_INFO_CB"
+        href: /windows/win32/api/projectedfslib/nc-projectedfslib-prj_get_placeholder_info_cb
+      - name: "PRJ_NOTIFICATION_CB"
+        href: /windows/win32/api/projectedfslib/nc-projectedfslib-prj_notification_cb
+      - name: "PRJ_QUERY_FILE_NAME_CB"
+        href: /windows/win32/api/projectedfslib/nc-projectedfslib-prj_query_file_name_cb
+      - name: "PRJ_START_DIRECTORY_ENUMERATION_CB"
+        href: /windows/win32/api/projectedfslib/nc-projectedfslib-prj_start_directory_enumeration_cb
+    - name: "Projected File System functions"
+      href: projfs-functions.md
+      items:
+      - name: "PrjAllocateAlignedBuffer"
+        href: /windows/win32/api/projectedfslib/nf-projectedfslib-prjallocatealignedbuffer
+      - name: "PrjClearNegativePathCache"
+        href: /windows/win32/api/projectedfslib/nf-projectedfslib-prjclearnegativepathcache
+      - name: "PrjCompleteCommand"
+        href: /windows/win32/api/projectedfslib/nf-projectedfslib-prjcompletecommand
+      - name: "PrjDeleteFile"
+        href: /windows/win32/api/projectedfslib/nf-projectedfslib-prjdeletefile
+      - name: "PrjDoesNameContainWildCards"
+        href: /windows/win32/api/projectedfslib/nf-projectedfslib-prjdoesnamecontainwildcards
+      - name: "PrjFileNameCompare"
+        href: /windows/win32/api/projectedfslib/nf-projectedfslib-prjfilenamecompare
+      - name: "PrjFileNameMatch"
+        href: /windows/win32/api/projectedfslib/nf-projectedfslib-prjfilenamematch
+      - name: "PrjFillDirEntryBuffer"
+        href: /windows/win32/api/projectedfslib/nf-projectedfslib-prjfilldirentrybuffer
+      - name: "PrjFillDirEntryBuffer2"
+        href: /windows/win32/api/projectedfslib/nf-projectedfslib-prjfilldirentrybuffer2
+      - name: "PrjFreeAlignedBuffer"
+        href: /windows/win32/api/projectedfslib/nf-projectedfslib-prjfreealignedbuffer
+      - name: "PrjGetOnDiskFileState"
+        href: /windows/win32/api/projectedfslib/nf-projectedfslib-prjgetondiskfilestate
+      - name: "PrjGetVirtualizationInstanceInfo"
+        href: /windows/win32/api/projectedfslib/nf-projectedfslib-prjgetvirtualizationinstanceinfo
+      - name: "PrjMarkDirectoryAsPlaceholder"
+        href: /windows/win32/api/projectedfslib/nf-projectedfslib-prjmarkdirectoryasplaceholder
+      - name: "PrjStartVirtualizing"
+        href: /windows/win32/api/projectedfslib/nf-projectedfslib-prjstartvirtualizing
+      - name: "PrjStopVirtualizing"
+        href: /windows/win32/api/projectedfslib/nf-projectedfslib-prjstopvirtualizing
+      - name: "PrjUpdateFileIfNeeded"
+        href: /windows/win32/api/projectedfslib/nf-projectedfslib-prjupdatefileifneeded
+      - name: "PrjWriteFileData"
+        href: /windows/win32/api/projectedfslib/nf-projectedfslib-prjwritefiledata
+      - name: "PrjWritePlaceholderInfo"
+        href: /windows/win32/api/projectedfslib/nf-projectedfslib-prjwriteplaceholderinfo
+      - name: "PrjWritePlaceholderInfo2"
+        href: /windows/win32/api/projectedfslib/nf-projectedfslib-prjwriteplaceholderinfo2
+    - name: "Projected File System structures"
+      href: projfs-structures.md
+      items:
+      - name: "PRJ_CALLBACK_DATA"
+        href: /windows/win32/api/projectedfslib/ns-projectedfslib-prj_callback_data
+      - name: "PRJ_CALLBACKS"
+        href: /windows/win32/api/projectedfslib/ns-projectedfslib-prj_callbacks
+      - name: "PRJ_COMPLETE_COMMAND_EXTENDED_PARAMETERS"
+        href: /windows/win32/api/projectedfslib/ns-projectedfslib-prj_complete_command_extended_parameters
+      - name: "PRJ_FILE_BASIC_INFO"
+        href: /windows/win32/api/projectedfslib/ns-projectedfslib-prj_file_basic_info
+      - name: "PRJ_NOTIFICATION_MAPPING"
+        href: /windows/win32/api/projectedfslib/ns-projectedfslib-prj_notification_mapping
+      - name: "PRJ_NOTIFICATION_PARAMETERS"
+        href: /windows/win32/api/projectedfslib/ns-projectedfslib-prj_notification_parameters
+      - name: "PRJ_PLACEHOLDER_INFO"
+        href: /windows/win32/api/projectedfslib/ns-projectedfslib-prj_placeholder_info
+      - name: "PRJ_PLACEHOLDER_VERSION_INFO"
+        href: /windows/win32/api/projectedfslib/ns-projectedfslib-prj_placeholder_version_info
+      - name: "PRJ_STARTVIRTUALIZING_OPTIONS"
+        href: /windows/win32/api/projectedfslib/ns-projectedfslib-prj_startvirtualizing_options
+      - name: "PRJ_VIRTUALIZATION_INSTANCE_INFO"
+        href: /windows/win32/api/projectedfslib/ns-projectedfslib-prj_virtualization_instance_info
+    - name: "Projected File System enumerations"
+      href: projfs-enumerations.md
+      items:
+      - name: "PRJ_CALLBACK_DATA_FLAGS"
+        href: /windows/win32/api/projectedfslib/ne-projectedfslib-prj_callback_data_flags
+      - name: "PRJ_COMPLETE_COMMAND_TYPE"
+        href: /windows/win32/api/projectedfslib/ne-projectedfslib-prj_complete_command_type
+      - name: "PRJ_FILE_STATE"
+        href: /windows/win32/api/projectedfslib/ne-projectedfslib-prj_file_state
+      - name: "PRJ_NOTIFICATION"
+        href: /windows/win32/api/projectedfslib/ne-projectedfslib-prj_notification
+      - name: "PRJ_NOTIFY_TYPES"
+        href: /windows/win32/api/projectedfslib/ne-projectedfslib-prj_notify_types
+      - name: "PRJ_PLACEHOLDER_ID"
+        href: /windows/win32/api/projectedfslib/ne-projectedfslib-prj_placeholder_id
+      - name: "PRJ_STARTVIRTUALIZING_FLAGS"
+        href: /windows/win32/api/projectedfslib/ne-projectedfslib-prj_startvirtualizing_flags
+      - name: "PRJ_UPDATE_FAILURE_CAUSES"
+        href: /windows/win32/api/projectedfslib/ne-projectedfslib-prj_update_failure_causes
+      - name: "PRJ_UPDATE_TYPES"
+        href: /windows/win32/api/projectedfslib/ne-projectedfslib-prj_update_types

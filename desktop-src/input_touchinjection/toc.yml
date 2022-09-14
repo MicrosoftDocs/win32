@@ -1,0 +1,15 @@
+- name: "Touch Injection"
+  href: touch-injection-portal.md
+  items: 
+  - name: "Touch Injection Reference"
+    href: touch-injection-reference.md
+    items: 
+    - name: "Constants"
+      href: constants.md
+    - name: "Functions"
+      href: functions.md
+      items: 
+      - name: "InitializeTouchInjection"
+        href: /windows/win32/api/Winuser/nf-winuser-initializetouchinjection
+      - name: "InjectTouchInput"
+        href: /windows/win32/api/Winuser/nf-winuser-injecttouchinput

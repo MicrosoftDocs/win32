@@ -1,0 +1,706 @@
+- name: "WIA"
+  href: -wia-startpage.md
+  items: 
+  - name: "Legal Information"
+    href: -wia-legal-information.md
+  - name: "Security Considerations: Windows Image Acquisition"
+    href: -wia-security-considerations.md
+  - name: "Reference"
+    href: -wia-reference.md
+    items: 
+    - name: "What's New in Windows Image Acquisition (WIA) 2.0"
+      href: -wia-whatsnew-longhorn.md
+    - name: "WIA Application Programming Interface"
+      href: -wia-wia-application-programming-interface.md
+      items: 
+      - name: "Interfaces"
+        href: -wia-interfaces.md
+        items: 
+        - name: "IEnumWIA_DEV_CAPS"
+          href: /windows/desktop/api/wia_xp/nn-wia_xp-ienumwia_dev_caps
+          items: 
+          - name: "Clone"
+            href: /windows/desktop/api/wia_xp/nf-wia_xp-ienumwia_dev_caps-clone
+          - name: "GetCount"
+            href: /windows/desktop/api/wia_xp/nf-wia_xp-ienumwia_dev_caps-getcount
+          - name: "Next"
+            href: /windows/desktop/api/wia_xp/nf-wia_xp-ienumwia_dev_caps-next
+          - name: "Reset"
+            href: /windows/desktop/api/wia_xp/nf-wia_xp-ienumwia_dev_caps-reset
+          - name: "Skip"
+            href: /windows/desktop/api/wia_xp/nf-wia_xp-ienumwia_dev_caps-skip
+        - name: "IEnumWIA_DEV_INFO"
+          href: /windows/desktop/api/wia_xp/nn-wia_xp-ienumwia_dev_info
+          items: 
+          - name: "Clone"
+            href: /windows/desktop/api/wia_xp/nf-wia_xp-ienumwia_dev_info-clone
+          - name: "GetCount"
+            href: /windows/desktop/api/wia_xp/nf-wia_xp-ienumwia_dev_info-getcount
+          - name: "Next"
+            href: /windows/desktop/api/wia_xp/nf-wia_xp-ienumwia_dev_info-next
+          - name: "Reset"
+            href: /windows/desktop/api/wia_xp/nf-wia_xp-ienumwia_dev_info-reset
+          - name: "Skip"
+            href: /windows/desktop/api/wia_xp/nf-wia_xp-ienumwia_dev_info-skip
+        - name: "IEnumWIA_FORMAT_INFO"
+          href: /windows/desktop/api/wia_xp/nn-wia_xp-ienumwia_format_info
+          items: 
+          - name: "Clone"
+            href: /windows/desktop/api/wia_xp/nf-wia_xp-ienumwia_format_info-clone
+          - name: "GetCount"
+            href: /windows/desktop/api/wia_xp/nf-wia_xp-ienumwia_format_info-getcount
+          - name: "Next"
+            href: /windows/desktop/api/wia_xp/nf-wia_xp-ienumwia_format_info-next
+          - name: "Reset"
+            href: /windows/desktop/api/wia_xp/nf-wia_xp-ienumwia_format_info-reset
+          - name: "Skip"
+            href: /windows/desktop/api/wia_xp/nf-wia_xp-ienumwia_format_info-skip
+        - name: "IEnumWiaItem"
+          href: /windows/desktop/api/wia_xp/nn-wia_xp-ienumwiaitem
+          items: 
+          - name: "Clone"
+            href: /windows/desktop/api/wia_xp/nf-wia_xp-ienumwiaitem-clone
+          - name: "GetCount"
+            href: /windows/desktop/api/wia_xp/nf-wia_xp-ienumwiaitem-getcount
+          - name: "Next"
+            href: /windows/desktop/api/wia_xp/nf-wia_xp-ienumwiaitem-next
+          - name: "Reset"
+            href: /windows/desktop/api/wia_xp/nf-wia_xp-ienumwiaitem-reset
+          - name: "Skip"
+            href: /windows/desktop/api/wia_xp/nf-wia_xp-ienumwiaitem-skip
+        - name: "IEnumWiaItem2"
+          href: -wia-ienumwiaitem2.md
+          items: 
+          - name: "Clone"
+            href: -wia-ienumwiaitem2-clone.md
+          - name: "GetCount"
+            href: -wia-ienumwiaitem2-getcount.md
+          - name: "Next"
+            href: -wia-ienumwiaitem2-next.md
+          - name: "Reset"
+            href: -wia-ienumwiaitem2-reset.md
+          - name: "Skip"
+            href: -wia-ienumwiaitem2-skip.md
+        - name: "IScanProfile"
+          href: -wia-iscanprofile.md
+          items: 
+          - name: "GetAllPropIDs"
+            href: -wia-iscanprofile-getallpropids.md
+          - name: "GetDeviceID"
+            href: -wia-iscanprofile-getdeviceid.md
+          - name: "GetGUID"
+            href: -wia-iscanprofile-getguid.md
+          - name: "GetItem"
+            href: -wia-iscanprofile-getitem.md
+          - name: "GetName"
+            href: -wia-iscanprofile-getname.md
+          - name: "GetNumPropIDS"
+            href: -wia-iscanprofile-getnumpropids.md
+          - name: "GetProperty"
+            href: -wia-iscanprofile-getproperty.md
+          - name: "IsDefault"
+            href: -wia-iscanprofile-isdefault.md
+          - name: "RemoveProperty"
+            href: -wia-iscanprofile-removeproperty.md
+          - name: "Save"
+            href: -wia-iscanprofile-save.md
+          - name: "SetItem"
+            href: -wia-iscanprofile-setitem.md
+          - name: "SetName"
+            href: -wia-iscanprofile-setname.md
+          - name: "SetProperty"
+            href: -wia-iscanprofile-setproperty.md
+        - name: "IScanProfileMgr"
+          href: -wia-iscanprofilemgr.md
+          items: 
+          - name: "CreateProfile"
+            href: -wia-iscanprofilemgr-createprofile.md
+          - name: "DeleteAllProfiles"
+            href: -wia-iscanprofilemgr-deleteallprofiles.md
+          - name: "DeleteAllProfilesForUser"
+            href: -wia-iscanprofilemgr-deleteallprofilesforuser.md
+          - name: "DeleteProfile"
+            href: -wia-iscanprofilemgr-deleteprofile.md
+          - name: "GetDefaultProfile"
+            href: -wia-iscanprofilemgr-getdefaultprofile.md
+          - name: "GetNumProfiles"
+            href: -wia-iscanprofilemgr-getnumprofiles.md
+          - name: "GetNumProfilesforDeviceID"
+            href: -wia-iscanprofilemgr-getnumprofilesfordeviceid.md
+          - name: "GetProfiles"
+            href: -wia-iscanprofilemgr-getprofiles.md
+          - name: "GetProfilesforDeviceID"
+            href: -wia-iscanprofilemgr-getprofilesfordeviceid.md
+          - name: "OpenProfile"
+            href: -wia-iscanprofilemgr-openprofile.md
+          - name: "Refresh"
+            href: -wia-iscanprofilemgr-refresh.md
+          - name: "SetDefault"
+            href: -wia-iscanprofilemgr-setdefault.md
+        - name: "IScanProfileUI"
+          href: -wia-iscanprofileui.md
+          items: 
+          - name: "ScanProfileDialog"
+            href: -wia-iscanprofileui-scanprofiledialog.md
+        - name: "IWiaAppErrorHandler"
+          href: -wia-iwiaapperrorhandler.md
+          items: 
+          - name: "GetWindow"
+            href: -wia-iwiaapperrorhandler-getwindow.md
+          - name: "ReportStatus"
+            href: -wia-iwiaapperrorhandler-reportstatus.md
+        - name: "IWiaDataCallback"
+          href: /windows/desktop/api/wia_xp/nn-wia_xp-iwiadatacallback
+          items: 
+          - name: "BandedDataCallback"
+            href: /windows/desktop/api/wia_xp/nf-wia_xp-iwiadatacallback-bandeddatacallback
+        - name: "IWiaDataTransfer"
+          href: /windows/desktop/api/wia_xp/nn-wia_xp-iwiadatatransfer
+          items: 
+          - name: "idtEnumWIA_FORMAT_INFO"
+            href: /windows/desktop/api/wia_xp/nf-wia_xp-iwiadatatransfer-idtenumwia_format_info
+          - name: "idtGetBandedData"
+            href: /windows/desktop/api/wia_xp/nf-wia_xp-iwiadatatransfer-idtgetbandeddata
+          - name: "idtGetData"
+            href: /windows/desktop/api/wia_xp/nf-wia_xp-iwiadatatransfer-idtgetdata
+          - name: "idtGetExtendedTransferInfo"
+            href: /windows/desktop/api/wia_xp/nf-wia_xp-iwiadatatransfer-idtgetextendedtransferinfo
+          - name: "idtQueryGetData"
+            href: /windows/desktop/api/wia_xp/nf-wia_xp-iwiadatatransfer-idtquerygetdata
+        - name: "IWiaDevMgr"
+          href: /windows/desktop/api/wia_xp/nn-wia_xp-iwiadevmgr
+          items: 
+          - name: "AddDeviceDlg"
+            href: /windows/desktop/api/wia_xp/nf-wia_xp-iwiadevmgr-adddevicedlg
+          - name: "CreateDevice"
+            href: /windows/desktop/api/wia_xp/nf-wia_xp-iwiadevmgr-createdevice
+          - name: "EnumDeviceInfo"
+            href: /windows/desktop/api/wia_xp/nf-wia_xp-iwiadevmgr-enumdeviceinfo
+          - name: "GetImageDlg"
+            href: /windows/desktop/api/wia_xp/nf-wia_xp-iwiadevmgr-getimagedlg
+          - name: "RegisterEventCallbackCLSID"
+            href: /windows/desktop/api/wia_xp/nf-wia_xp-iwiadevmgr-registereventcallbackclsid
+          - name: "RegisterEventCallbackInterface"
+            href: /windows/desktop/api/wia_xp/nf-wia_xp-iwiadevmgr-registereventcallbackinterface
+          - name: "RegisterEventCallbackProgram"
+            href: /windows/desktop/api/wia_xp/nf-wia_xp-iwiadevmgr-registereventcallbackprogram
+          - name: "SelectDeviceDlg"
+            href: /windows/desktop/api/wia_xp/nf-wia_xp-iwiadevmgr-selectdevicedlg
+          - name: "SelectDeviceDlgID"
+            href: /windows/desktop/api/wia_xp/nf-wia_xp-iwiadevmgr-selectdevicedlgid
+        - name: "IWiaDevMgr2"
+          href: -wia-iwiadevmgr2.md
+          items: 
+          - name: "CreateDevice"
+            href: -wia-iwiadevmgr2-createdevice.md
+          - name: "EnumDeviceInfo"
+            href: -wia-iwiadevmgr2-enumdeviceinfo.md
+          - name: "GetImageDlg"
+            href: -wia-iwiadevmgr2-getimagedlg.md
+          - name: "RegisterEventCallbackCLSID"
+            href: -wia-iwiadevmgr2-registereventcallbackclsid.md
+          - name: "RegisterEventCallbackInterface"
+            href: -wia-iwiadevmgr2-registereventcallbackinterface.md
+          - name: "RegisterEventCallbackProgram"
+            href: -wia-iwiadevmgr2-registereventcallbackprogram.md
+          - name: "SelectDeviceDlg"
+            href: -wia-iwiadevmgr2-selectdevicedlg.md
+          - name: "SelectDeviceDlgID"
+            href: -wia-iwiadevmgr2-selectdevicedlgid.md
+        - name: "IWiaErrorHandler"
+          href: -wia-iwiaerrorhandler.md
+          items: 
+          - name: "GetStatusDescription"
+            href: -wia-iwiaerrorhandler-getstatusdescription.md
+          - name: "ReportStatus"
+            href: -wia-iwiaerrorhandler-reportstatus.md
+        - name: "IWiaEventCallback"
+          href: /windows/desktop/api/wia_xp/nn-wia_xp-iwiaeventcallback
+          items: 
+          - name: "ImageEventCallback"
+            href: /windows/desktop/api/wia_xp/nf-wia_xp-iwiaeventcallback-imageeventcallback
+        - name: "IWiaImageFilter"
+          href: -wia-iwiaimagefilter.md
+          items: 
+          - name: "ApplyProperties"
+            href: -wia-iwiaimagefilter-applyproperties.md
+          - name: "FilterPreviewImage"
+            href: -wia-iwiaimagefilter-filterpreviewimage.md
+          - name: "InitializeFilter"
+            href: -wia-iwiaimagefilter-initializefilter.md
+          - name: "SetNewCallback"
+            href: -wia-iwiaimagefilter-setnewcallback.md
+        - name: "IWiaItem"
+          href: /windows/desktop/api/wia_xp/nn-wia_xp-iwiaitem
+          items: 
+          - name: "AnalyzeItem"
+            href: /windows/desktop/api/wia_xp/nf-wia_xp-iwiaitem-analyzeitem
+          - name: "CreateChildItem"
+            href: /windows/desktop/api/wia_xp/nf-wia_xp-iwiaitem-createchilditem
+          - name: "DeleteItem"
+            href: /windows/desktop/api/wia_xp/nf-wia_xp-iwiaitem-deleteitem
+          - name: "DeviceCommand"
+            href: /windows/desktop/api/wia_xp/nf-wia_xp-iwiaitem-devicecommand
+          - name: "DeviceDlg"
+            href: /windows/desktop/api/wia_xp/nf-wia_xp-iwiaitem-devicedlg
+          - name: "Diagnostic"
+            href: /windows/desktop/api/wia_xp/nf-wia_xp-iwiaitem-diagnostic
+          - name: "DumpDrvItemData"
+            href: /windows/desktop/api/wia_xp/nf-wia_xp-iwiaitem-dumpdrvitemdata
+          - name: "DumpItemData"
+            href: /windows/desktop/api/wia_xp/nf-wia_xp-iwiaitem-dumpitemdata
+          - name: "DumpTreeItemData"
+            href: /windows/desktop/api/wia_xp/nf-wia_xp-iwiaitem-dumptreeitemdata
+          - name: "EnumChildItems"
+            href: /windows/desktop/api/wia_xp/nf-wia_xp-iwiaitem-enumchilditems
+          - name: "EnumDeviceCapabilities"
+            href: /windows/desktop/api/wia_xp/nf-wia_xp-iwiaitem-enumdevicecapabilities
+          - name: "EnumRegisterEventInfo"
+            href: /windows/desktop/api/wia_xp/nf-wia_xp-iwiaitem-enumregistereventinfo
+          - name: "FindItemByName"
+            href: /windows/desktop/api/wia_xp/nf-wia_xp-iwiaitem-finditembyname
+          - name: "GetItemType"
+            href: /windows/desktop/api/wia_xp/nf-wia_xp-iwiaitem-getitemtype
+          - name: "GetRootItem"
+            href: /windows/desktop/api/wia_xp/nf-wia_xp-iwiaitem-getrootitem
+        - name: "IWiaItem2"
+          href: -wia-iwiaitem2.md
+          items: 
+          - name: "CheckExtension"
+            href: -wia-iwiaitem2-checkextension.md
+          - name: "CreateChildItem"
+            href: -wia-iwiaitem2-createchilditem.md
+          - name: "DeleteItem"
+            href: -wia-iwiaitem2-deleteitem.md
+          - name: "DeviceCommand"
+            href: -wia-iwiaitem2-devicecommand.md
+          - name: "DeviceDlg"
+            href: -wia-iwiaitem2-devicedlg.md
+          - name: "Diagnostic"
+            href: -wia-iwiaitem2-diagnostic.md
+          - name: "EnumChildItems"
+            href: -wia-iwiaitem2-enumchilditems.md
+          - name: "EnumDeviceCapabilities"
+            href: -wia-iwiaitem2-enumdevicecapabilities.md
+          - name: "EnumRegisterEventInfo"
+            href: -wia-iwiaitem2-enumregistereventinfo.md
+          - name: "FindItemByName"
+            href: -wia-iwiaitem2-finditembyname.md
+          - name: "GetExtension"
+            href: -wia-iwiaitem2-getextension.md
+          - name: "GetItemCategory"
+            href: -wia-iwiaitem2-getitemcategory.md
+          - name: "GetItemType"
+            href: -wia-iwiaitem2-getitemtype.md
+          - name: "GetParentItem"
+            href: -wia-iwiaitem2-getparentitem.md
+          - name: "GetPreviewComponent"
+            href: -wia-iwiaitem2-getpreviewcomponent.md
+          - name: "GetRootItem"
+            href: -wia-iwiaitem2-getrootitem.md
+        - name: "IWiaItemExtras"
+          href: /windows/desktop/api/wia_xp/nn-wia_xp-iwiaitemextras
+          items: 
+          - name: "CancelPendingIO"
+            href: /windows/desktop/api/wia_xp/nf-wia_xp-iwiaitemextras-cancelpendingio
+          - name: "Escape"
+            href: /windows/desktop/api/wia_xp/nf-wia_xp-iwiaitemextras-escape
+          - name: "GetExtendedErrorInfo"
+            href: /windows/desktop/api/wia_xp/nf-wia_xp-iwiaitemextras-getextendederrorinfo
+        - name: "IWiaLog"
+          href: /windows/desktop/api/wia_xp/nn-wia_xp-iwialog
+          items: 
+          - name: "hResult"
+            href: /windows/desktop/api/wia_xp/nf-wia_xp-iwialog-hresult
+          - name: "InitializeLog"
+            href: /windows/desktop/api/wia_xp/nf-wia_xp-iwialog-initializelog
+          - name: "Log"
+            href: /windows/desktop/api/wia_xp/nf-wia_xp-iwialog-log
+        - name: "IWiaLogEx"
+          href: /windows/desktop/api/wia_xp/nn-wia_xp-iwialogex
+          items: 
+          - name: "hResult"
+            href: /windows/desktop/api/wia_xp/nf-wia_xp-iwialogex-hresult
+          - name: "hResultEx"
+            href: /windows/desktop/api/wia_xp/nf-wia_xp-iwialogex-hresultex
+          - name: "InitializeLogEx"
+            href: /windows/desktop/api/wia_xp/nf-wia_xp-iwialogex-initializelogex
+          - name: "Log"
+            href: /windows/desktop/api/wia_xp/nf-wia_xp-iwialogex-log
+          - name: "LogEx"
+            href: /windows/desktop/api/wia_xp/nf-wia_xp-iwialogex-logex
+        - name: "IWiaNotifyDevMgr"
+          href: /windows/desktop/api/wia_xp/nn-wia_xp-iwianotifydevmgr
+          items: 
+          - name: "NewDeviceArrival"
+            href: /windows/desktop/api/wia_xp/nf-wia_xp-iwianotifydevmgr-newdevicearrival
+        - name: "IWiaPreview"
+          href: -wia-iwiapreview.md
+          items: 
+          - name: "Clear"
+            href: -wia-iwiapreview-clear.md
+          - name: "DetectRegions"
+            href: -wia-iwiapreview-detectregions.md
+          - name: "GetNewPreview"
+            href: -wia-iwiapreview-getnewpreview.md
+          - name: "UpdatePreview"
+            href: -wia-iwiapreview-updatepreview.md
+        - name: "IWiaPropertyStorage"
+          href: /windows/desktop/api/wia_xp/nn-wia_xp-iwiapropertystorage
+          items: 
+          - name: "GetCount"
+            href: /windows/desktop/api/wia_xp/nf-wia_xp-iwiapropertystorage-getcount
+          - name: "GetPropertyAttributes"
+            href: /windows/desktop/api/wia_xp/nf-wia_xp-iwiapropertystorage-getpropertyattributes
+          - name: "GetPropertyStream"
+            href: /windows/desktop/api/wia_xp/nf-wia_xp-iwiapropertystorage-getpropertystream
+          - name: "SetPropertyStream"
+            href: /windows/desktop/api/wia_xp/nf-wia_xp-iwiapropertystorage-setpropertystream
+        - name: "IWiaSegmentationFilter"
+          href: -wia-iwiasegmentationfilter.md
+          items: 
+          - name: "DetectRegions"
+            href: -wia-iwiasegmentationfilter-detectregions.md
+        - name: "IWiaTransfer"
+          href: -wia-iwiatransfer.md
+          items: 
+          - name: "Cancel"
+            href: -wia-iwiatransfer-cancel.md
+          - name: "Download"
+            href: -wia-iwiatransfer-download.md
+          - name: "EnumWIA_FORMAT_INFO"
+            href: -wia-iwiatransfer-enumwia-format-info.md
+          - name: "Upload"
+            href: -wia-iwiatransfer-upload.md
+        - name: "IWiaTransferCallback"
+          href: -wia-iwiatransfercallback.md
+          items: 
+          - name: "GetNextStream"
+            href: -wia-iwiatransfercallback-getnextstream.md
+          - name: "TransferCallback"
+            href: -wia-iwiatransfercallback-transfercallback.md
+        - name: "IWiaUIExtension"
+          href: -wia-iwiauiextension.md
+          items: 
+          - name: "DeviceDialog"
+            href: -wia-iwiauiextension-devicedialog.md
+          - name: "GetDeviceBitmapLogo"
+            href: -wia-iwiauiextension-getdevicebitmaplogo.md
+          - name: "GetDeviceIcon"
+            href: -wia-iwiauiextension-getdeviceicon.md
+        - name: "IWiaUIExtension2"
+          href: -wia-iwiauiextension2.md
+          items: 
+          - name: "DeviceDialog"
+            href: -wia-iwiauiextension2-devicedialog.md
+          - name: "GetDeviceIcon"
+            href: -wia-iwiauiextension2-getdeviceicon.md
+        - name: "IWiaVideo"
+          href: /windows/desktop/api/Wiavideo/nn-wiavideo-iwiavideo
+          items: 
+          - name: "CreateVideoByDevNum"
+            href: /windows/desktop/api/Wiavideo/nf-wiavideo-iwiavideo-createvideobydevnum
+          - name: "CreateVideoByName"
+            href: /windows/desktop/api/Wiavideo/nf-wiavideo-iwiavideo-createvideobyname
+          - name: "CreateVideoByWiaDevID"
+            href: /windows/desktop/api/Wiavideo/nf-wiavideo-iwiavideo-createvideobywiadevid
+          - name: "DestroyVideo"
+            href: /windows/desktop/api/Wiavideo/nf-wiavideo-iwiavideo-destroyvideo
+          - name: "GetCurrentState"
+            href: /windows/desktop/api/Wiavideo/nf-wiavideo-iwiavideo-getcurrentstate
+          - name: "ImagesDirectory"
+            href: /windows/desktop/api/Wiavideo/nf-wiavideo-iwiavideo-get_imagesdirectory
+          - name: "Pause"
+            href: /windows/desktop/api/Wiavideo/nf-wiavideo-iwiavideo-pause
+          - name: "Play"
+            href: /windows/desktop/api/Wiavideo/nf-wiavideo-iwiavideo-play
+          - name: "PreviewVisible"
+            href: /windows/desktop/api/Wiavideo/nf-wiavideo-iwiavideo-get_previewvisible
+          - name: "ResizeVideo"
+            href: /windows/desktop/api/Wiavideo/nf-wiavideo-iwiavideo-resizevideo
+          - name: "TakePicture"
+            href: /windows/desktop/api/Wiavideo/nf-wiavideo-iwiavideo-takepicture
+      - name: "Functions"
+        href: -wia-functions.md
+        items: 
+        - name: "DeviceDialog"
+          href: -wia-devicedialog.md
+        - name: "InstallWiaDevice"
+          href: -wia-installwiadevice.md
+        - name: "WiaAddDevice"
+          href: -wia-wiaadddevice.md
+      - name: "Structures"
+        href: -wia-structures.md
+        items: 
+        - name: "DEVICEDIALOGDATA"
+          href: -wia-devicedialogdata.md
+        - name: "DEVICEDIALOGDATA2"
+          href: -wia-devicedialogdata2.md
+        - name: "WIA_DATA_CALLBACK_HEADER"
+          href: /windows/win32/api/wia_xp/ns-wia_xp-wia_data_callback_header
+        - name: "WIA_DATA_TRANSFER_INFO"
+          href: /windows/win32/api/wia_xp/ns-wia_xp-wia_data_transfer_info
+        - name: "WIA_DEV_CAP"
+          href: /windows/win32/api/wia_xp/ns-wia_xp-wia_dev_cap
+        - name: "WIA_DITHER_PATTERN_DATA"
+          href: /windows/win32/api/wia_xp/ns-wia_xp-wia_dither_pattern_data
+        - name: "WIA_EXTENDED_TRANSFER_INFO"
+          href: /windows/win32/api/wia_xp/ns-wia_xp-wia_extended_transfer_info
+        - name: "WIA_FORMAT_INFO"
+          href: /windows/win32/api/wia_xp/ns-wia_xp-wia_format_info
+        - name: "WIA_PROPID_TO_NAME"
+          href: /windows/win32/api/wia_xp/ns-wia_xp-wia_propid_to_name
+        - name: "WIA_RAW_HEADER"
+          href: -wia-wia-raw-header.md
+        - name: "WiaTransferParams"
+          href: -wia-wiatransferparams.md
+      - name: "Enumerations"
+        href: -wia-enumerations.md
+        items: 
+        - name: "WIAVIDEO_STATE"
+          href: /windows/win32/api/Wiavideo/ne-wiavideo-wiavideo_state
+      - name: "Constants"
+        href: -wia-constants.md
+        items: 
+        - name: "Camera Device Property Constants"
+          href: -wia-wiaitempropcameradevice.md
+        - name: "Camera WIA Item Property Constants"
+          href: -wia-wiaitempropcameraitem.md
+        - name: "Common Device Property Constants"
+          href: -wia-wiaitempropcommondevice.md
+        - name: "Common WIA Item Property Constants"
+          href: -wia-wiaitempropcommonitem.md
+        - name: "Device Information Property Constants"
+          href: -wia-wiadeviceinfoprop.md
+        - name: "Error Codes"
+          href: -wia-error-codes.md
+        - name: "Image Intent Constants"
+          href: -wia-imageintentconstants.md
+        - name: "Property Attributes"
+          href: -wia-property-attributes.md
+        - name: "Scanner Device Property Constants"
+          href: -wia-wiaitempropscannerdevice.md
+        - name: "Scanner WIA Item Property Constants"
+          href: -wia-wiaitempropscanneritem.md
+        - name: "Video WIA Device Property Constants"
+          href: -wia-wiaitempropvideodevice.md
+        - name: "WIA 2.0 Item Category GUIDs"
+          href: -wia-wia2-itemcategoryguids.md
+        - name: "WIA 2.0 Page Size Constants"
+          href: -wia-wia2-pagesizeconstants.md
+        - name: "WIA Device Commands"
+          href: -wia-wia-device-commands.md
+        - name: "WIA Device Type Specifiers"
+          href: -wia-wia-device-type-specifiers.md
+        - name: "WIA Event Identifiers"
+          href: -wia-wia-event-identifiers.md
+        - name: "WIA Item Type Flags"
+          href: -wia-wia-item-type-flags.md
+        - name: "WIA Property Constants"
+          href: -wia-wia-property-constants.md
+        - name: "WiaFlag"
+          href: -wia-wiaflag.md
+    - name: "WIA Scripting Model"
+      href: -wia-wia-scripting-model.md
+      items: 
+      - name: "Syntax Conventions"
+        href: -wia-syntax-conventions.md
+      - name: "Using WIA Collection Objects"
+        href: -wia-using-wia-collection-objects.md
+      - name: "WIA Property Constant Definitions"
+        href: -wia-wia-property-constant-definitions.md
+      - name: "WiaItemPropertyId"
+        href: -wia-wiaitempropertyid.md
+      - name: "WiaDeviceInfoPropertyId"
+        href: -wia-wiadeviceinfopropertyid.md
+      - name: "Collection"
+        href: -wia-collection.md
+        items: 
+        - name: "Count"
+          href: -wia-icollection-count.md
+        - name: "Item"
+          href: -wia-icollection-item.md
+      - name: "DeviceInfo"
+        href: -wia-deviceinfo.md
+        items: 
+        - name: "Create"
+          href: -wia-iwiadeviceinfo-create.md
+        - name: "GetPropById"
+          href: -wia-iwiadeviceinfo-getpropbyid.md
+        - name: "Id"
+          href: -wia-iwiadeviceinfo-id.md
+        - name: "Manufacturer"
+          href: -wia-iwiadeviceinfo-manufacturer.md
+        - name: "Name"
+          href: -wia-iwiadeviceinfo-name.md
+        - name: "Port"
+          href: -wia-iwiadeviceinfo-port.md
+        - name: "Type"
+          href: -wia-iwiadeviceinfo-type.md
+        - name: "UIClsid"
+          href: -wia-iwiadeviceinfo-uiclsid.md
+      - name: "Item"
+        href: -wia-item.md
+        items: 
+        - name: "Children"
+          href: -wia-iwiadispatchitem-children.md
+        - name: "ConnectStatus"
+          href: -wia-iwiadispatchitem-connectstatus.md
+        - name: "FirmwareVersion"
+          href: -wia-iwiadispatchitem-firmwareversion.md
+        - name: "FullName"
+          href: -wia-iwiadispatchitem-fullname.md
+        - name: "GetItemsFromUI"
+          href: -wia-iwiadispatchitem-getitemsfromui.md
+        - name: "GetPropById"
+          href: -wia-iwiadispatchitem-getpropbyid.md
+        - name: "Height"
+          href: -wia-iwiadispatchitem-height.md
+        - name: "ItemType"
+          href: -wia-iwiadispatchitem-itemtype.md
+        - name: "Name"
+          href: -wia-iwiadispatchitem-name.md
+        - name: "PictureHeight"
+          href: -wia-iwiadispatchitem-pictureheight.md
+        - name: "PictureWidth"
+          href: -wia-iwiadispatchitem-picturewidth.md
+        - name: "TakePicture"
+          href: -wia-iwiadispatchitem-takepicture.md
+        - name: "ThumbHeight"
+          href: -wia-iwiadispatchitem-thumbheight.md
+        - name: "Thumbnail"
+          href: -wia-iwiadispatchitem-thumbnail.md
+        - name: "ThumbWidth"
+          href: -wia-iwiadispatchitem-thumbwidth.md
+        - name: "Time"
+          href: -wia-iwiadispatchitem-time.md
+        - name: "Transfer"
+          href: -wia-iwiadispatchitem-transfer.md
+        - name: "Width"
+          href: -wia-iwiadispatchitem-width.md
+      - name: "SafeWia"
+        href: -wia-safewia.md
+        items: 
+        - name: "Create"
+          href: -wia-iwia-create.md
+        - name: "Devices"
+          href: -wia-iwia-devices.md
+      - name: "Wia"
+        href: -wia-wia.md
+        items: 
+        - name: "Create"
+          href: -wia-iwia-create.md
+        - name: "Devices"
+          href: -wia-iwia-devices.md
+        - name: "OnDeviceConnected"
+          href: -wia--iwiaevents-ondeviceconnected.md
+        - name: "OnDeviceDisconnected"
+          href: -wia--iwiaevents-ondevicedisconnected.md
+        - name: "OnTransferComplete"
+          href: -wia--iwiaevents-ontransfercomplete.md
+  - name: "Overviews and Tutorials"
+    href: bumper-wia-overviews-and-tutorials.md
+    items: 
+    - name: "About Windows Image Acquisition"
+      href: -wia-about-windows-image-acquisition.md
+      items: 
+      - name: "WIA Architecture"
+        href: -wia-wia-architecture.md
+      - name: "STI Compatibility"
+        href: -wia-sti-compatibility.md
+      - name: "TWAIN Compatibility"
+        href: -wia-twain-compatibility.md
+      - name: "WIA Device Manager"
+        href: -wia-wia-device-manager.md
+      - name: "WIA Minidriver Service Library"
+        href: -wia-wia-minidriver-service-library.md
+      - name: "WIA Minidriver"
+        href: -wia-wia-minidriver.md
+    - name: "Using Windows Image Acquisition"
+      href: -wia-using-windows-image-acquisition.md
+      items: 
+      - name: "Using WIA Device Objects"
+        href: -wia-using-wia-device-objects.md
+        items: 
+        - name: "Selecting a Device"
+          href: -wia-selecting-a-device.md
+        - name: "WIA Camera Devices"
+          href: -wia-wia-camera-devices.md
+        - name: "About the IWiaItem2 Item Tree"
+          href: -wia-about-item-tree.md
+        - name: "WIA Scanner Devices in WIA 1.0"
+          href: -wia-wia-scanner-devices.md
+      - name: "Acquiring Images"
+        href: -wia-acquiring-images.md
+      - name: "Navigating an Item Tree"
+        href: -wia-navigating-an-item-tree.md
+      - name: "Registering WIA Events"
+        href: -wia-registering-wia-events.md
+      - name: "Using WIA Enumerators"
+        href: -wia-using-wia-enumerators.md
+      - name: "Reading and Setting WIA Properties"
+        href: -wia-reading-and-setting-wia-properties.md
+        items: 
+        - name: "WIA Property Validation"
+          href: -wia-wia-property-validation.md
+        - name: "Device Information Properties (WIA_DIP_XXXX)"
+          href: -wia-device-information-properties-wia-dip-xxxx.md
+        - name: "Device Properties"
+          href: -wia-device-properties.md
+        - name: "Item Properties"
+          href: -wia-item-properties.md
+        - name: "Additional WIA Properties"
+          href: -wia-additional-wia-properties.md
+        - name: "Defining Custom Properties"
+          href: -wia-defining-custom-properties.md
+        - name: "Using Custom Properties"
+          href: -wia-using-custom-properties.md
+        - name: "Scan Profile Schema"
+          href: -wia-scan-profile-schema.md
+      - name: "WIA Error Information"
+        href: -wia-wia-error-information.md
+      - name: "Using Multiple Threads in a WIA Application"
+        href: -wia-using-multiple-threads.md
+      - name: "Communicating with a WIA Device in Multiple Threads or Applications"
+        href: -wia-communicating-with-a-wia-device.md
+      - name: "Using WIA Video"
+        href: -wia-using-wia-video.md
+        items: 
+        - name: "Previewing Video"
+          href: -wia-previewing-video.md
+        - name: "Capturing a Still Image from a Video Stream"
+          href: -wia-capturing-a-still-image-from-a-video-stream.md
+      - name: "Using the WIA Scripting Model"
+        href: -wia-using-the-wia-scripting-model.md
+        items: 
+        - name: "Setting up the Scripting Model Development Environment"
+          href: -wia-setting-up-the-scripting-model.md
+        - name: "Connecting to a Device"
+          href: -wia-connecting-to-a-device.md
+        - name: "Navigating a Tree of Item Objects"
+          href: -wia-navigating-a-tree-of-item-objects.md
+        - name: "Transferring Data"
+          href: -wia-transferring-data.md
+        - name: "Limitations of the Scripting Model"
+          href: -wia-limitations-of-the-scripting-model.md
+    - name: "WIA Tutorial"
+      href: -wia-wia-tutorial.md
+      items: 
+      - name: "Creating a WIA Device Manager"
+        href: -wia-creating-a-wia-device-manager.md
+      - name: "Enumerating System Devices"
+        href: -wia-enumerating-system-devices.md
+      - name: "Reading Device Properties"
+        href: -wia-reading-device-properties.md
+      - name: "Creating a Device"
+        href: -wia-creating-a-device.md
+      - name: "Enumerating Items"
+        href: -wia-enumerating-items.md
+      - name: "Transferring Image Data in WIA 1.0"
+        href: -wia-transferring-image-data.md
+      - name: "Transferring Image Data in WIA 2.0"
+        href: -wia-transferring-image-data-in-wia2.md
+      - name: "Registering for Events"
+        href: -wia-registering-for-events.md
+      - name: "Capturing a Still Image from Streaming Video"
+        href: -wia-capturing-a-still-image-from-streaming-video.md

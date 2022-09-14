@@ -1,0 +1,9 @@
+- name: "Composition swapchain"
+  href: comp-swapchain-portal.md
+  items: 
+  - name: "Composition swapchain programming guide"
+    href: comp-swapchain.md
+  - name: "Composition swapchain code examples"
+    href: comp-swapchain-examples.md
+  - name: "Composition swapchain glossary"
+    href: comp-swapchain-glossary.md
