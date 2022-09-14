@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 Index buffers, represented by the [**IDirect3DIndexBuffer9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3dindexbuffer9) interface, are memory buffers that contain index data. Index data, or indices, are integer offsets into vertex buffers and are used to render primitives using the [**IDirect3DDevice9::DrawIndexedPrimitive**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-drawindexedprimitive) method.
 
-A vertex buffer contains vertices; therefore, you can draw a vertex buffer either with or without indexed primitives. However, because an index buffer contains indices, you cannot use an index buffer without a corresponding vertex buffer. (As a side note, [**IDirect3DDevice9::DrawIndexedPrimitiveUP**](/windows/desktop/api) and [**IDirect3DDevice9::DrawPrimitiveUP**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-drawprimitiveup) are the only draw methods that draw without an index or a vertex buffer.)
+A vertex buffer contains vertices; therefore, you can draw a vertex buffer either with or without indexed primitives. However, because an index buffer contains indices, you cannot use an index buffer without a corresponding vertex buffer. (As a side note, [**IDirect3DDevice9::DrawIndexedPrimitiveUP**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-drawindexedprimitiveup) and [**IDirect3DDevice9::DrawPrimitiveUP**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-drawprimitiveup) are the only draw methods that draw without an index or a vertex buffer.)
 
 ## Index Buffer Description
 
@@ -120,7 +120,7 @@ m_pIndexBuffer->Unlock();
 
 In C++, because you directly access the memory allocated for the index buffer, make sure your application properly accesses the allocated memory. Otherwise, you risk rendering that memory invalid. Use the stride of the index format your application uses to move from one index in the allocated buffer to another.
 
-Retrieve information about an index buffer by calling the [**IDirect3DIndexBuffer9::GetDesc**](/windows/desktop/api) method. This method fills the members of the [**D3DINDEXBUFFER\_DESC**](d3dindexbuffer-desc.md) structure with information about the index buffer.
+Retrieve information about an index buffer by calling the [**IDirect3DIndexBuffer9::GetDesc**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3dindexbuffer9-getdesc) method. This method fills the members of the [**D3DINDEXBUFFER\_DESC**](d3dindexbuffer-desc.md) structure with information about the index buffer.
 
 ## Related topics
 
