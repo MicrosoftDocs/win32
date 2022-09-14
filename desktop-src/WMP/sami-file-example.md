@@ -60,7 +60,7 @@ Styles defined within a SAMI file conform to standard CSS selector syntax for el
 
 When used in conjunction with the Windows Media Player object model, the class selectors correspond to the *ClosedCaption*.**SAMILang** property, which can be used to specify the language of the captions. The ID selectors correspond to the *ClosedCaption*.**SAMIStyle** property, which can be used to specify the style the captions will appear in.
 
-For more information about creating SAMI files, see Understanding SAMI 1.0 at the [Microsoft website](/documentation/).
+For more information about creating SAMI files, see Understanding SAMI 1.0 at the [Microsoft website](/docs/).
 
 ## Related topics
 
