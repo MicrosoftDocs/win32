@@ -204,6 +204,7 @@ The following example demonstrates how to use this element to force the current 
 ### autoElevate
 
 Specifies whether auto elevate is enabled. **TRUE** indicates that it is enabled. It has no attributes.
+The executable file must be digitally signed by Windows Publisher. For internal use.
 
 <span id="disableTheming"></span><span id="disabletheming"></span><span id="DISABLETHEMING"></span>
 
