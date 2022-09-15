@@ -3,7 +3,7 @@ description: Files
 ms.assetid: '0d87072a-e6c9-47af-9bcb-17ddca550282'
 title: Files
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 09/09/2022
 ---
 
 # Files
@@ -18,6 +18,9 @@ ms.date: 05/31/2018
 -   [**IOCTL\_LMR\_DISABLE\_LOCAL\_BUFFERING**](ioctl-lmr-disable-local-buffering.md)
 -   [Master File Table](master-file-table.md)
 -   [**NtCreateFile**](/windows/desktop/api/Winternl/nf-winternl-ntcreatefile)
+-   [**NtCancelIOFile**](nt-cancel-io-file.md)
+-   [**NtCancelIOFileEX**](nt-cancel-io-file-ex.md)
+-   [**NtCreateNamedPipeFile**](nt-create-named-pipe-file.md)
 -   [**NtOpenDirectoryObject**](ntopendirectoryobject.md)
 -   [**NtOpenFile**](/windows/desktop/api/Winternl/nf-winternl-ntopenfile)
 -   [**NtOpenSymbolicLinkObject**](ntopensymboliclinkobject.md)

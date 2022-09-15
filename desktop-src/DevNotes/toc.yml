@@ -550,6 +550,12 @@
         href: standard-information.md
     - name: "NtCreateFile"
       href: /windows/win32/api/Winternl/nf-winternl-ntcreatefile
+    - name: "NtCancelIoFile"
+      href: nt-cancel-io-file.md
+    - name: "NtCancelIoFileEx"
+      href: nt-cancel-io-file-ex.md
+    - name: "NtCreateNamedPipeFile"
+      href: nt-create-named-pipe-file.md
     - name: "NtOpenDirectoryObject"
       href: ntopendirectoryobject.md
     - name: "NtOpenFile"
