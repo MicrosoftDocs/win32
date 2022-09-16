@@ -117,7 +117,7 @@ The following constants are provided by the DirectXMath Library.
 <tr class="odd">
 <td>XM_CRMASK_CR6TRUE<br/></td>
 <td>Mask to get a comparison result, and verify if it is a logical true. The value is typically retrieved using a recording version of a DirectXMath function such as <a href="/windows/desktop/api/directxmath/nf-directxmath-xmvector4equalr"><strong>XMVector4EqualR</strong></a>. The example checks if the variableq CR is true:
-<pre class="syntax" data-space="preserve"><code>bool val = (((CR) & XM_CRMASK_CR6FALSE) == XM_CRMASK_CR6FALSE);</code></pre>
+<pre class="syntax" data-space="preserve"><code>bool val = (((CR) & XM_CRMASK_CR6TRUE) == XM_CRMASK_CR6TRUE);</code></pre>
 See also <a href="/windows/desktop/api/DirectXMath/nf-directxmath-xmcomparisonanytrue"><strong>XMComparisonAnyTrue</strong></a>, <a href="/windows/desktop/api/DirectXMath/nf-directxmath-xmcomparisonalltrue"><strong>XMComparisonAllTrue</strong></a>, and <a href="/windows/desktop/api/DirectXMath/nf-directxmath-xmcomparisonmixed"><strong>XMComparisonMixed</strong></a><br/></td>
 </tr>
 <tr class="even">
