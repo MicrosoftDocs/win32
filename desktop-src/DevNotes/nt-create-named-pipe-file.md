@@ -334,5 +334,5 @@ To free resources used by a named pipe, the application should always close hand
 
 | Requirement | Value |
 |-----------------|-------------------------------------------------|
-| Header<br/>                   | <dl> <dt>ntioapi.h/dt> </dl> |
+| Header<br/>                   | <dl> <dt>ntioapi.h</dt> </dl> |
 | Library<br/>                  | <dl> <dt>ntdll.lib</dt> </dl> |

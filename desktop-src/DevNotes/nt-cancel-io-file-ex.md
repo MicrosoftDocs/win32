@@ -79,7 +79,7 @@ In Windows 8 and Windows Server 2012, this function is supported by the followin
 
 | Requirement | Value |
 |-----------------|-------------------------------------------------|
-| Header<br/>                   | <dl> <dt>ntioapi.h/dt> </dl> |
+| Header<br/>                   | <dl> <dt>ntioapi.h</dt> </dl> |
 | Library<br/>                  | <dl> <dt>ntdll.lib</dt> </dl> |
 
 
