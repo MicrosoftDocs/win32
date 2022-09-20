@@ -30,7 +30,7 @@ VOID SvcInstall()
     SC_HANDLE schService;
     TCHAR szPath[MAX_PATH];
 
-    if( !GetModuleFileName( "", szPath, MAX_PATH ) )
+    if( !GetModuleFileName( NULL, szPath, MAX_PATH ) )
     {
         printf("Cannot install service (%d)\n", GetLastError());
         return;
