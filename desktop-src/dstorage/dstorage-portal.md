@@ -14,4 +14,4 @@ DirectStorage is a feature intended to allow games to make full use of high-spee
 | Topic | Description |
 |-|-|
 | [Using DirectStorage](using-dstorage.md) | A quick introduction to using DirectStorage. |
-| [DirectStorage API Reference](dstorage-api-reference.md) | This section is a reference for APIs declared in `dstorage.h` for DirectStorage-based programming. |
+| [DirectStorage API reference](dstorage-api-reference.md) | This section is a reference for APIs declared in `dstorage.h` for DirectStorage-based programming. |
