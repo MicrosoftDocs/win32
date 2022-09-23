@@ -22,3 +22,6 @@ XInput Game Controller API enables applications to receive input from the Xbox C
 ## Developer audience
 
 XInput Game Controller APIs is designed for use by developers who want to use the Xbox Controller for their Windows applications.
+
+> [!NOTE]
+> GameInput is the recommended API for all new code, regardless of the target platform, because it provides support across all Microsoft platforms (including earlier versions of Windows), and provides superior performance versus legacy APIs. To learn more about the GameInput API, see [GameInput introduction](/gaming/gdk/_content/gc/input/overviews/input-overview).
