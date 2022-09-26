@@ -30,7 +30,7 @@ One of the certification requirements for Windows 8 desktop apps is that the ap
 -   The AppInit\_DLLs mechanism is disabled by default when secure boot is enabled.
 -   Using AppInit\_DLLs in a Windows 8 desktop app is a Windows desktop app certification failure.
 
-See the following whitepaper for info about AppInit\_DLLs on Windows 7 and Windows Server 2008 R2: [AppInit DLLs in Windows 7 and Windows Server 2008 R2](/previous-versions/windows/hardware/download/dn550976(v=vs.85)).
+See the following whitepaper for info about AppInit\_DLLs on Windows 7 and Windows Server 2008 R2: [AppInit DLLs in Windows 7 and Windows Server 2008 R2](https://learn.microsoft.com/en-us/windows/win32/win7appqual/appinit-dlls-in-windows-7-and-windows-server-2008-r2).
 
  
 
