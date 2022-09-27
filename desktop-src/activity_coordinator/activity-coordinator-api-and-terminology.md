@@ -1,5 +1,5 @@
 ---
-description: An overview of the Activity Coordinator API and some of its common terms.
+description: To understand the Activity Coordinator API, it is important to become familiar with the terms used in the API.
 ms.assetid: 483d721a-7543-44c7-bdb2-16848c84cf81
 title: Activity Coordinator API and terminology
 ms.topic: article
@@ -8,9 +8,12 @@ ms.date: 05/12/2022
 
 # Activity Coordinator API and terminology
 
+To understand the Activity Coordinator API, it is important to become familiar with the terms used in the API.
+
 The Activity Coordinator API **coordinates execution of deferrable tasks, called activities, on a system**. Developers can use the API to get notifications of when to start or stop an activity based on a desired system state. This state is defined by a policy, which describes the optimal conditions of system resources while running an activity. Developers subscribe to these policies to have notifications sent to a supplied callback, which they use to coordinate the execution of their activity.
 
->**Note** These notifications are to coordinate low priority or resource intensive tasks that can be deferred to a later time. If there is a high priority task that needs to happen irrespective of the system conditions, it should not rely on this API.
+>[!NOTE]
+>These notifications are to coordinate low priority or resource intensive tasks that can be deferred to a later time. If there is a high priority task that needs to happen irrespective of the system conditions, it should not rely on this API.
 
 ## API-specific terminology
 

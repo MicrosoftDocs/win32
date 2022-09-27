@@ -1,5 +1,5 @@
 ---
-description: Recommendations to help choose the best Activity Coordinator policy.
+description: Activity Coordinator provides several template policies, which should be selected based on the resources required by your task.
 ms.assetid: 512db72e-5153-4dad-a65c-831a05ab5b1c
 title: Choose the right Activity Coordinator policy
 ms.topic: article
@@ -7,6 +7,8 @@ ms.date: 04/27/2022
 ---
 
 # Choose the right Activity Coordinator policy
+
+Activity Coordinator provides several template policies, which should be selected based on the resources required by your task.
 
 ## Understand your activity workload
 

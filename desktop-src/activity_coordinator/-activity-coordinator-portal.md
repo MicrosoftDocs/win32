@@ -18,7 +18,7 @@ The Activity Coordinator API is designed for use by professional C/C++ developer
 
 ## Run-time requirements
 
-The Activity Coordinator API is available beginning with Windows 11 Build 22621.
+The Activity Coordinator API is available beginning with Windows 11, version 22H2.
 
 ## In this section
 
