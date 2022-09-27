@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Using SymStore
 
-SymStore (symstore.exe) is a tool for creating symbol stores. It is included in the [Debugging Tools for Windows](https://www.microsoft.com/?ref=go) package.
+SymStore (symstore.exe) is a tool for creating symbol stores. It is included in the [Debugging Tools for Windows](https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/) package.
 
 SymStore stores symbols in a format that enables the debugger to look up the symbols based on the time stamp and size of the image (for a .dbg or executable file), or signature and age (for a .pdb file). The advantage of the symbol store over the traditional symbol storage format is that all symbols can be stored or referenced on the same server and retrieved by the debugger without any prior knowledge of which product contains the corresponding symbol.
 
