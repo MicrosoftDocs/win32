@@ -1,14 +1,16 @@
 ---
-description: Overview of the Activity Coordinator API.
+description: The Activity Coordinator API coordinates execution of deferrable tasks, called activities, on a Windows system.
 ms.assetid: 05aa4f50-4365-4707-bed7-8eba2a723d93
-title: Activity Coordinator API Overview
+title: Overview of the Activity Coordinator API
 ms.topic: article
 ms.date: 04/27/2022
 ---
 
 # Overview of the Activity Coordinator API
 
-The Activity Coordinator API coordinates execution of **deferrable tasks**, called activities, on a system. Activities can defer their execution to a time when the system is in a desired state, where running the task does not interfere with the user's experience or system performance. This allows the total consumption of applications on the system to be more evenly distributed across times when the user is inactive or the system is idle. The API provides centralized coordination of these decisions to help avoid scenarios where applications degrade the user experience by competing for system resources.
+The Activity Coordinator API coordinates execution of **deferrable tasks**, called activities, on a Windows system.
+
+Activities can defer their execution to a time when the system is in a desired state, when running the task does not interfere with the user's experience or system performance. This allows the total consumption of applications on the system to be more evenly distributed across times when the user is inactive or the system is idle. The API provides centralized coordination of these decisions to help avoid scenarios where applications degrade the user experience by competing for system resources.
 
 ## Usage
 
