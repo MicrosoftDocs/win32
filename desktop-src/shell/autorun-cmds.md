@@ -18,7 +18,7 @@ This topic is a reference for the entries that can be used in an Autorun.inf fil
     -   [open](#parameters)
     -   [UseAutoPlay](#parameters)
     -   [shellexecute](#shellexecute)
-    -   [shell](#autoruninf-entries)
+    -   [shell](#shell)
     -   [shell\\verb](#shellverb)
 -   [\[Content\] Keys](#content-keys)
 -   [\[ExclusiveContentPaths\] Keys](#exclusivecontentpaths-keys)
