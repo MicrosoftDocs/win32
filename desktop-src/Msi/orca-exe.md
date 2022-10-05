@@ -10,7 +10,9 @@ ms.date: 09/10/2021
 
 Orca.exe is a database table editor for creating and editing Windows Installer packages and merge modules. The tool provides a graphical interface for validation, highlighting the particular entries where validation errors or warnings occur.
 
-This tool is only available in the [Windows SDK Components for Windows Installer Developers](platform-sdk-components-for-windows-installer-developers.md). It is provided as an Orca.msi file. After installing the Windows SDK Components for Windows Installer Developers, double click Orca.msi to install the Orca.exe file.
+## Installation
+
+This tool is only available in the [Windows SDK Components for Windows Installer Developers](platform-sdk-components-for-windows-installer-developers.md). It is provided as an msi installation file in a sub directory of *bin* under the installed Windows Kits. The installer name may be localized, such as `Orca-x86_en-us.msi`. After installing the Windows SDK Components for Windows Installer Developers, double click the msi file to install Orca.exe.
 
 ## Syntax
 
