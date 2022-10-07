@@ -18,4 +18,4 @@ Learn about the radial controller APIs for Windows Wheel accessories such as the
 
 ## Related topics
 
-[Windows.UI.Input](/uwp/api/Windows.UI.Input), [Surface Dial interactions](/windows/uwp/design/input/windows-wheel-interactions), [Universal Windows Platform samples (C\# and C++)](https://github.com/Microsoft/Windows-universal-samples/tree/b78d95134ce2d57c848e0a8dc339fc362748fb9c/Samples/RadialController), [Windows classic desktop sample](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/RadialController)
+[Windows.UI.Input](/uwp/api/Windows.UI.Input), [Surface Dial interactions](/windows/uwp/design/input/windows-wheel-interactions), [Universal Windows Platform samples (C\# and C++)](https://github.com/Microsoft/Windows-universal-samples/tree/b78d95134ce2d57c848e0a8dc339fc362748fb9c/Samples/RadialController), [Windows desktop sample](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/RadialController)

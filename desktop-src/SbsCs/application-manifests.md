@@ -380,15 +380,15 @@ Specifies whether ultra-high-resolution-scrolling aware is enabled. **TRUE** ind
 
 ### msix
 
-Specifies the identity info of a [sparse MSIX package](/windows/apps/desktop/modernize/grant-identity-to-nonpackaged-apps) for the current application. This element is supported in Windows 10, version 2004, and later versions.
+Specifies the identity info of a package with external location for the current application (see [Grant package identity by packaging with external location](/windows/apps/desktop/modernize/grant-identity-to-nonpackaged-apps)). This element is supported in Windows 10, version 2004, and later versions.
 
 The **msix** element must be in the namespace `urn:schemas-microsoft-com:msix.v1`. It has the attributes shown in the following table.
 
 | Attribute   | Description                                                                                             |
 |-------------|---------------------------------------------------------------------------------------------------------|
-| **publisher**    | Describes the publisher information. This value must match the **Publisher** attribute in the [Identity](/uwp/schemas/appxpackage/uapmanifestschema/element-identity) element in your sparse package manifest. |
-| **packageName** | Describes the contents of the package. This value must match the **Name** attribute in the [Identity](/uwp/schemas/appxpackage/uapmanifestschema/element-identity) element in your sparse package manifest.    |
-| **applicationId**    | The unique identifier of the application. This value must match the **Id** attribute in the [Application](/uwp/schemas/appxpackage/uapmanifestschema/element-application) element in your sparse package manifest.  |
+| **publisher**    | Describes the publisher information. This value must match the **Publisher** attribute in the [Identity](/uwp/schemas/appxpackage/uapmanifestschema/element-identity) element in the package manifest of your packaged app with external location. |
+| **packageName** | Describes the contents of the package. This value must match the **Name** attribute in the [Identity](/uwp/schemas/appxpackage/uapmanifestschema/element-identity) element in the package manifest of your packaged app with external location.    |
+| **applicationId**    | The unique identifier of the application. This value must match the **Id** attribute in the [Application](/uwp/schemas/appxpackage/uapmanifestschema/element-application) element in the package manifest of your packaged app with external location.  |
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>

@@ -25,7 +25,7 @@ None
 Launch the setup file to install a Contoso website in Internet Information Services 8 on the local machine to host the sample HTML and CSS files.
 
 1.  Sample HTML and CSS files will be installed to the program files directory under Microsoft\\Contoso.
-2.  In addition a "Fabrikam Social"Windows Store app will be unpackaged to the desktop.
+2.  In addition a "Fabrikam Social" Microsoft Store app will be unpackaged to the desktop.
 
 ### 2. Getting familiar
 

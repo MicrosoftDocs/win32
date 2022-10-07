@@ -19,4 +19,4 @@ The topics contained in this section provide the reference specifications for [R
 
 ## Related topics
 
-[Radial controller input](radialcontroller-portal.md), [Surface Dial interactions](/windows/uwp/design/input/windows-wheel-interactions), [Universal Windows Platform samples (C\# and C++)](https://github.com/Microsoft/Windows-universal-samples/tree/b78d95134ce2d57c848e0a8dc339fc362748fb9c/Samples/RadialController), [Windows classic desktop sample](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/RadialController)
+[Radial controller input](radialcontroller-portal.md), [Surface Dial interactions](/windows/uwp/design/input/windows-wheel-interactions), [Universal Windows Platform samples (C\# and C++)](https://github.com/Microsoft/Windows-universal-samples/tree/b78d95134ce2d57c848e0a8dc339fc362748fb9c/Samples/RadialController), [Windows desktop sample](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/RadialController)
