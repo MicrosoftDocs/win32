@@ -623,13 +623,9 @@ See [ALE Layers](ale-layers.md) for more information.
 
 
 
-This filtering layer allows for modification of addresses and ports at the bind\_redirect layer.
+This filtering layer allows for the modification of the remote address and/or port of an outgoing TCP connection, as well as for non-TCP traffic based on the first packet sent.
 
-For TCP, the local address and/or local port as well as the remote address and/or remote port can be modified.
-
-For UDP, the local address and/or local port can be modified.
-
-See [ALE Layers](ale-layers.md) for more information.
+For more info, see [ALE Layers](ale-layers.md).
 
 
 </dt> </dl> </dd> <dt>
@@ -639,9 +635,9 @@ See [ALE Layers](ale-layers.md) for more information.
 
 
 
-This filtering layer allows for modification of bind() and connect() calls and selection of host routes.
+This filtering layer allows for the modification of the local address and/or port during the bind operation on a TCP or UDP socket.
 
-See [ALE Layers](ale-layers.md) for more information.
+For more info, see [ALE Layers](ale-layers.md).
 
 
 </dt> </dl> </dd> <dt>
