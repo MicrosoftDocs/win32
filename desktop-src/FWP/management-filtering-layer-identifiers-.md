@@ -623,9 +623,9 @@ See [ALE Layers](ale-layers.md) for more information.
 
 
 
-This filtering layer allows for modification of remote address an/or port of an outgoing TCP connections, as well as for non-TCP traffic based on the first packet sent..
+This filtering layer allows for the modification of the remote address and/or port of an outgoing TCP connection, as well as for non-TCP traffic based on the first packet sent.
 
-See [ALE Layers](ale-layers.md) for more information.
+For more info, see [ALE Layers](ale-layers.md).
 
 
 </dt> </dl> </dd> <dt>
@@ -635,9 +635,9 @@ See [ALE Layers](ale-layers.md) for more information.
 
 
 
-This filtering layer allows for modification of local address and/or port during the bind opreation on a TCP or UDP socket.
+This filtering layer allows for the modification of the local address and/or port during the bind operation on a TCP or UDP socket.
 
-See [ALE Layers](ale-layers.md) for more information.
+For more info, see [ALE Layers](ale-layers.md).
 
 
 </dt> </dl> </dd> <dt>
