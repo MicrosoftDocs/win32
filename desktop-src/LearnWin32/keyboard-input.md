@@ -183,7 +183,7 @@ Most keyboards have two ALT keys, left and right. The previous example tests whe
 
 
 ```C++
-if (GetKeyState(VK_RMENU) & 0x8000))
+if (GetKeyState(VK_RMENU) & 0x8000)
 {
     // Right ALT key is down.
 }
