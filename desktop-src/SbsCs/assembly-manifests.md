@@ -44,7 +44,7 @@ Assembly manifests have the following elements and attributes.
 |                                   | **miscStatusIcon**        | No       |
 |                                   | **miscStatusContent**     | No       |
 |                                   | **miscStatusDocPrint**    | No       |
-|                                   | **miscStatusDocPrint**    | No       |
+|                                   | **miscStatusThumbnail**   | No       |
 | **typelib**                       |                           | No       |
 |                                   | **tlbid**                 | Yes      |
 |                                   | **version**               | Yes      |
