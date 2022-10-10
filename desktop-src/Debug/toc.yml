@@ -180,11 +180,11 @@
       - name: "WaitForDebugEventEx"
         href: /windows/desktop/api/debugapi/nf-debugapi-waitfordebugeventex
       - name: "Wow64GetThreadContext"
-        href: 
+        href: /windows/win32/api/processthreadsapi/nf-processthreadsapi-getthreadcontext
       - name: "Wow64GetThreadSelectorEntry"
         href: /windows/desktop/api/WinBase/nf-winbase-wow64getthreadselectorentry
       - name: "Wow64SetThreadContext"
-        href: /windows/desktop/api/WinBase/nf-winbase-wow64setthreadcontext
+        href: /windows/win32/api/processthreadsapi/nf-processthreadsapi-setthreadcontext
       - name: "WriteProcessMemory"
         href: /windows/desktop/api/memoryapi/nf-memoryapi-writeprocessmemory
     - name: "Debugging Structures"
