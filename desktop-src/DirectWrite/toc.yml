@@ -845,7 +845,7 @@
         - name: "CreateFontResource method"
           href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontset1-createfontresource
         - name: "GetFilteredFontIndices(DWRITE_FONT_PROPERTY const,UINT32,BOOL,UINT32,UINT32,UINT32) method"
-          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontset1-getfilteredfontindices(dwrite_font_propertyconst_uint32_bool_uint32_uint32_uint32)
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontset1-getfilteredfontindices(dwrite_font_axis_rangeconst_uint32_bool_uint32_uint32_uint32)
         - name: "GetFilteredFontIndices(DWRITE_FONT_AXIS_RANGE const,UINT32,BOOL,UINT32,UINT32,UINT32) method"
           href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontset1-getfilteredfontindices(dwrite_font_axis_rangeconst_uint32_bool_uint32_uint32_uint32)
         - name: "GetFilteredFonts(DWRITE_FONT_AXIS_RANGE const,UINT32,BOOL,IDWriteFontSet1) method"
@@ -857,7 +857,7 @@
         - name: "GetFirstFontResources method"
           href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontset1-getfirstfontresources
         - name: "GetFontAxisRanges(DWRITE_FONT_AXIS_RANGE,UINT32,UINT32) method"
-          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontset1-getfontaxisranges
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontresource-getfontaxisranges
         - name: "GetFontAxisRanges(UINT32,DWRITE_FONT_AXIS_RANGE,UINT32,UINT32) method"
           href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontset1-getfontaxisranges(uint32_dwrite_font_axis_range_uint32_uint32)
         - name: "GetFontFaceReference method"

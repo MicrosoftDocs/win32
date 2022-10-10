@@ -1894,7 +1894,7 @@
         href: /windows/win32/api/gdiplustypes/nl-gdiplustypes-pathdata
         items: 
         - name: "PathData::PathData constructor"
-          href: /windows/win32/api/gdiplustypes/nf-gdiplustypes-pathdata-pathdata(constpathdata_)
+          href: /windows/win32/api/gdiplustypes/nf-gdiplustypes-pathdata-pathdata
       - name: "PathGradientBrush"
         href: /windows/win32/api/gdipluspath/nl-gdipluspath-pathgradientbrush
         items: 

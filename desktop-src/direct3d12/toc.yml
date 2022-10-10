@@ -1490,7 +1490,7 @@
           href: /windows/win32/api/d3d12sdklayers/nn-d3d12sdklayers-id3d12debug5
           items: 
           - name: "SetEnableAutoName method"
-            href: /windows/win32/api/d3d12sdklayers/nf-d3d12sdklayers-id3d12debug5-setenableautoname.md
+            href: /windows/win32/api/d3d12sdklayers/nf-d3d12sdklayers-id3d12debug5-setenableautoname
         - name: "ID3D12DebugCommandList"
           href: /windows/win32/api/d3d12sdklayers/nn-d3d12sdklayers-id3d12debugcommandlist
           items: 

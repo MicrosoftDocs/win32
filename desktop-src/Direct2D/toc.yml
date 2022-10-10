@@ -322,7 +322,7 @@
         - name: "LinearGradientBrushProperties"
           href: /windows/desktop/api/d2d1helper/nf-d2d1helper-lineargradientbrushproperties
         - name: "operator* (D2D1_POINT_2F&,D2D1_MATRIX_F&)"
-          href: /windows/desktop/api/d2d1helper/nf-d2d1helper-operator-mult
+          href: /windows/win32/api/d2d1helper/nf-d2d1helper-matrix3x2f-operator-mult
         - name: "PixelFormat"
           href: /windows/desktop/api/d2d1helper/nf-d2d1helper-pixelformat
         - name: "Point2(Type)"
@@ -760,7 +760,7 @@
       - name: "D2D1MakeSkewMatrix"
         href: /windows/desktop/api/d2d1/nf-d2d1-d2d1makeskewmatrix
       - name: "operator* (const D2D1_MATRIX_3X2_F&,const D2D1_MATRIX_3X2_F&)"
-        href: /windows/desktop/api/d2d1helper/nf-d2d1helper-operator
+        href: /windows/win32/api/d2d1helper/nf-d2d1helper-matrix3x2f-setproduct
       - name: "BlobGetter"
         href: blobgetter.md
       - name: "BlobSetter"

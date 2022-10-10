@@ -32,9 +32,9 @@
       href: firewall-dynamic-keywords-structures.md
       items: 
       - name: "FW_DYNAMIC_KEYWORD_ADDRESS_DATA0"
-        href: /windows/win32/api/netfw/ns-netfw-fw_dynamic_keyword_address_data0)
+        href: /windows/win32/api/netfw/ns-netfw-fw_dynamic_keyword_address_data0
       - name: "FW_DYNAMIC_KEYWORD_ADDRESS0"
-        href: /windows/win32/api/netfw/ns-netfw-fw_dynamic_keyword_address0)
+        href: /windows/win32/api/netfw/ns-netfw-fw_dynamic_keyword_address0
     - name: "Firewall dynamic keywords enumerations"
       href: firewall-dynamic-keywords-enumerations.md
       items: 
