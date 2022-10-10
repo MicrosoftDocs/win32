@@ -1560,7 +1560,7 @@
         - name: "InkSystemGesture Enumeration"
           href: /windows/desktop/api/msinkaut/ne-msinkaut-inksystemgesture
         - name: "ItemSelectionConstants Enumeration"
-          href: /windows/desktop/api/msinkaut/ne-msinkaut-itemselectionconstants
+          href: /windows/win32/api/msinkaut/ne-msinkaut-inkselectionconstants
         - name: "PanelType Enumeration"
           href: /windows/desktop/api/peninputpanel/ne-peninputpanel-paneltype
         - name: "SelectionHitResult Enumeration"

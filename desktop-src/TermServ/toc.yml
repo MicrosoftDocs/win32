@@ -1355,12 +1355,12 @@
                     - name: "Stop method"
                       href: /windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwrdsprotocolshadowconnection-stop
                 - name: "IWRdsRemoteFXGraphicsConnection"
-                  href: /windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwrdsremotefxgraphicsconnection
+                  href: 
                   items:
                     - name: "EnableRemoteFXGraphics method"
-                      href: /windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwrdsremotefxgraphicsconnection-enableremotefxgraphics
+                      href: 
                     - name: "GetVirtualChannelTransport method"
-                      href: /windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwrdsremotefxgraphicsconnection-getvirtualchanneltransport
+                      href: /windows/win32/api/wrdsgraphicschannels/nn-wrdsgraphicschannels-iwrdsgraphicschannelmanager
                 - name: "Deprecated Desktop Protocol Provider Interfaces"
                   href: deprecated-desktop-protocol-provider-interfaces.md
                   items:
@@ -2415,7 +2415,7 @@
               href: terminal-services-api-structures.md
               items:
                 - name: "CHANNEL_DEF"
-                  href: /windows/desktop/api/Pchannel/ns-pchannel-tagchannel_def
+                  href: /previous-versions/windows/embedded/aa513856(v=msdn.10)
                 - name: "CHANNEL_ENTRY_POINTS"
                   href: /windows/win32/api/Cchannel/ns-cchannel-channel_entry_points
                 - name: "CHANNEL_PDU_HEADER"
@@ -2457,7 +2457,7 @@
                 - name: "WTS_PROCESS_INFO_EX"
                   href: /windows/win32/api/Wtsapi32/ns-wtsapi32-wts_process_info_exa
                 - name: "WTS_PRODUCT_INFO"
-                  href: /windows/desktop/api/wtsapi32/ns-wtsapi32-_wts_product_infoa
+                  href: 
                 - name: "WTS_SERVER_INFO"
                   href: /windows/win32/api/Wtsapi32/ns-wtsapi32-wts_server_infoa
                 - name: "WTS_SESSION_ADDRESS"

@@ -102,7 +102,7 @@
       - name: "WL_DISPLAY_PAGES"
         href: /windows/win32/api/wlanapi/ne-wlanapi-wl_display_pages
       - name: "WLAN_ADHOC_NETWORK_STATE"
-        href: /windows/win32/api/wlanapi/ne-wlanapi-_wlan_adhoc_network_state
+        href: /windows/win32/api/wlanapi/ne-wlanapi-wlan_adhoc_network_state-r1
       - name: "WLAN_AUTOCONF_OPCODE"
         href: /windows/win32/api/wlanapi/ne-wlanapi-wlan_autoconf_opcode-r1
       - name: "WLAN_CONNECTION_MODE"

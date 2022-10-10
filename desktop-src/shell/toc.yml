@@ -2023,10 +2023,10 @@
         - name: "Initialize"
           href: /windows/desktop/api/shobjidl_core/nf-shobjidl_core-iinitializecommand-initialize
       - name: "IInitializeNetworkFolder"
-        href: /windows/desktop/api/Shobjidl/nn-shobjidl-iinitializenetworkfolder
+        href: 
         items: 
         - name: "Initialize"
-          href: /windows/desktop/api/Shobjidl/nf-shobjidl-iinitializenetworkfolder-initialize
+          href: /windows/win32/api/shobjidl_core/nf-shobjidl_core-ipersistfolder-initialize
       - name: "IInitializeWithBindCtx"
         href: /windows/desktop/api/shobjidl_core/nn-shobjidl_core-iinitializewithbindctx
         items: 
@@ -5108,7 +5108,7 @@
       - name: "ATTACHMENT_PROMPT"
         href: /windows/desktop/api/shobjidl_core/ne-shobjidl_core-attachment_prompt
       - name: "AUTOCOMPLETELISTOPTIONS"
-        href: /windows/desktop/api/shlobj_core/ne-shlobj_core-_tagautocompletelistoptions
+        href: /windows/win32/api/shlobj_core/ne-shlobj_core-autocompletelistoptions
       - name: "AUTOCOMPLETEOPTIONS"
         href: /windows/win32/api/shldisp/ne-shldisp-autocompleteoptions
       - name: "Bind Context String Keys"

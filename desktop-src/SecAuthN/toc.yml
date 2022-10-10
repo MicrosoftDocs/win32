@@ -2020,7 +2020,7 @@
       - name: "SEC_WINNT_AUTH_IDENTITY"
         href: /windows/win32/api/sspi/ns-sspi-sec_winnt_auth_identity_a
       - name: "SEC_WINNT_AUTH_IDENTITY_EX"
-        href: /windows/desktop/api/Sspi/ns-sspi-_sec_winnt_auth_identity_exa
+        href: /windows/win32/api/sspi/ns-sspi-sec_winnt_auth_identity_exa
       - name: "SEC_WINNT_AUTH_IDENTITY_EX2"
         href: /windows/win32/api/Sspi/ns-sspi-sec_winnt_auth_identity_ex2
       - name: "SEC_WINNT_AUTH_PACKED_CREDENTIALS"
@@ -2100,7 +2100,7 @@
       - name: "SecPkgContext_ConnectionInfo"
         href: /windows/win32/api/Schannel/ns-schannel-secpkgcontext_connectioninfo
       - name: "SecPkgContext_CredentialName"
-        href: /windows/desktop/api/Sspi/ns-sspi-_secpkgcontext_credentialnamea
+        href: /windows/win32/api/sspi/ns-sspi-_secpkgcontext_credentialnamea
       - name: "SecPkgContext_CredInfo"
         href: /windows/win32/api/Sspi/ns-sspi-secpkgcontext_credinfo
       - name: "SecPkgContext_DceInfo"
@@ -2128,7 +2128,7 @@
       - name: "SecPkgContext_Names"
         href: /windows/win32/api/Sspi/ns-sspi-secpkgcontext_namesa
       - name: "SecPkgContext_NativeNames"
-        href: /windows/desktop/api/Sspi/ns-sspi-_secpkgcontext_nativenamesa
+        href: /windows/win32/api/sspi/ns-sspi-_secpkgcontext_nativenamesa
       - name: "SecPkgContext_NegoStatus"
         href: /windows/win32/api/Sspi/ns-sspi-secpkgcontext_negostatus
       - name: "SecPkgContext_NegotiationInfo"
