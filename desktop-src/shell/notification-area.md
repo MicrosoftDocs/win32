@@ -188,8 +188,6 @@ The following code shows an example of setting [**NOTIFYICONDATA**](/windows/des
     {0x23977b55, 0x10e0, 0x4041, {0xb8, 0x62, 0xb1, 0x95, 0x41, 0x96, 0x36, 0x69}};
     nid.guidItem = myGUID;
     
-    nid.guidItem = guid;
-    
     // This text will be shown as the icon's tooltip.
     StringCchCopy(nid.szTip, ARRAYSIZE(nid.szTip), L"Test application");
     
