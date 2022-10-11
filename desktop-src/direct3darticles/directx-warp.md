@@ -79,7 +79,7 @@ WARP allows you to access all Direct3D 10 and later graphics features even on co
 WARP fully supports all Direct3D 10 and 10.1 features. For example, WARP supports the following most important features:
 
 -   All the precision requirements of the Direct3D 10 and 10.1 specification
--   Direct3D 11 when used with feature levels 9\_1, 9\_2, 9\_3, 10\_0, and 10\_1 (for more information about feature levels, see [**D3D\_FEATURE\_LEVEL**](/windows/desktop/api/d3dcommon/ne-d3dcommon-d3d_feature_level))
+-   Direct3D 11 when used with feature levels 9\_1, 9\_2, 9\_3, 10\_0, and 10\_1 (for more information about feature levels, see [**D3D\_FEATURE\_LEVEL**](/windows/win32/api/d3dcommon/ne-d3dcommon-d3d_feature_level))
 -   All optional texture formats, such as multisample render targets and sampling from float surfaces
 -   Antialiased, high quality rendering up to 8x multisample antialiasing (MSAA)
 -   Anisotropic filtering
@@ -99,7 +99,9 @@ The minimum computer requirements for WARP are the same as for Windows Vista, sp
 
 ## How to Use WARP
 
-Direct3D 10, 10.1, 11, and 12 components can use an additional driver type that you can specify when you create the device (for example, when you call the [**D3D11CreateDevice**](/windows/desktop/api/d3d11/nf-d3d11-d3d11createdevice) function). This driver type is [**D3D10\_DRIVER\_TYPE\_WARP**](/windows/desktop/api/d3d10misc/ne-d3d10misc-d3d10_driver_type) or [**D3D\_DRIVER\_TYPE\_WARP**](/windows/desktop/api/d3dcommon/ne-d3dcommon-d3d_driver_type). When you specify this driver type, the runtime creates a WARP device and does not initialize a hardware device.
+For Direct3D 12, creating a WARP device requires first identifying the WARP adapter. To facilitate this, DXGI 1.4 provides the [**IDXGIFactory4::EnumWarpAdapter**](/windows/win32/api/dxgi1_4/nf-dxgi1_4-idxgifactory4-enumwarpadapter) method. The WARP adapter can then be provided to [**D3D12CreateDevice**](/windows/win32/api/d3d12/nf-d3d12-d3d12createdevice) to create a WARP device.
+
+Direct3D 10, 10.1, and 11 components can use an additional driver type that you can specify when you create the device (for example, when you call the [**D3D11CreateDevice**](/windows/win32/api/d3d11/nf-d3d11-d3d11createdevice) function). That driver type is [**D3D10\_DRIVER\_TYPE\_WARP**](/windows/win32/api/d3d10misc/ne-d3d10misc-d3d10_driver_type) or [**D3D\_DRIVER\_TYPE\_WARP**](/windows/win32/api/d3dcommon/ne-d3dcommon-d3d_driver_type). When you specify that driver type, the runtime creates a WARP device and does not initialize a hardware device.
 
 Because WARP uses the same software interface to Direct3D as the reference rasterizer does, any Direct3D application that can support running with the reference rasterizer can be tested by using WARP. To use WARP, rename D3d10warp.dll to D3d10ref.dll and place it in the same folder as the sample or application. Next, when you switch to ref, you will see WARP rendering.
 
@@ -149,13 +151,13 @@ WARP does not require graphics hardware to execute. It can execute even in situa
 
 Applications and samples that were designed and built to run on Direct3D 10 and later hardware without any knowledge of WARP will likely run well by using WARP. However, we recommend that you lower the quality settings and resolution as much as possible to achieve usable frame rates. You can use WARP to develop and tune applications that run well on both hardware and software.
 
-Because WARP uses multiple CPU cores, it performs best on modern quad core CPUs. WARP also runs significantly faster on computers with SSE4.1 extensions installed. Microsoft performed significant testing and performance tuning on computers with eight or more cores and SSE4.1 because these high end computers will become more common during the lifetime of Windows 7 and later operating systems.
+Because WARP uses multiple CPU cores for parallel execution, it performs best on modern multi-core CPUs. WARP also runs significantly faster on computers with SSE4.1 extensions installed. Microsoft performed significant testing and performance tuning on computers with eight or more cores and SSE4.1 because these high end computers will become more common during the lifetime of Windows 7 and later operating systems.
 
 When WARP is running on the CPU, it is limited compared to a graphics card in a number of ways. The front-side bus speed of a CPU is typically around or under 10 GB/s. In contrast, a graphics card often has dedicated memory that uses 20 to 100GB/s or more of graphics bandwidth. Graphics hardware also has fixed-function units that can perform complex and expensive tasks, such as texture filtering, format decompression, or conversions, asynchronously with little overhead or power cost. Performing these operations on a typical CPU is expensive in terms of both power consumption and performance cycles.
 
 The typical performance numbers for an Intel Penryn based 3.0GHz Quad Core machine show that WARP can in some cases outperform low-end integrated Direct3D 10 and later graphics GPUs on a number of benchmarks. Low-end discrete graphics hardware is typically 4 to 5 times faster than WARP at running these benchmarks. These low-end integrated or discrete GPUs have minimal use of CPU resources. Mid-range or high-end graphics cards are significantly faster than WARP for many applications, particularly when an application can take advantage of the parallelism and memory bandwidth that these graphics cards provide.
 
-WARP is not a replacement for graphics hardware, particularly as reasonably performing low-end Direct3D 10 and later discrete hardware is now inexpensive. The goal of WARP is to allow applications to target Direct3D 10 level hardware without having significantly different code paths or testing requirements whether they run on hardware or in software.
+WARP is not a replacement for graphics hardware, particularly as reasonably performing low-end Direct3D 10 and later discrete hardware is now inexpensive. The goal of WARP is to allow applications to target Direct3D-compatible level hardware without having significantly different code paths or testing requirements whether they run on hardware or in software.
 
 The following two tables show WARP example data with various CPUs and graphics cards.
 
