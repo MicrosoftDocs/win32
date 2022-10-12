@@ -80,6 +80,10 @@
         href: srgb--a-standard-color-space.md
     - name: "Using GDI Functions With WCS"
       href: using-gdi-functions-with-wcs.md
+    - name: "ICC profile behavior with Advanced Color"
+      href: advanced-color-icc-profiles.md
+    - name: "Windows hardware display color calibration pipeline"
+      href: display-calibration-mhc.md
   - name: "Reference"
     href: reference.md
     items: 
