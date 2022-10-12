@@ -1065,7 +1065,7 @@
         - name: "DS_REPL_VALUE_META_DATA_2"
           href: /windows/desktop/api/Ntdsapi/ns-ntdsapi-ds_repl_value_meta_data_2
         - name: "DS_REPL_VALUE_META_DATA_BLOB"
-          href: /windows/desktop/api/Ntdsapi/ns-ntdsapi-_ds_repl_value_meta_data_blob
+          href: /windows/win32/api/ntdsapi/ns-ntdsapi-ds_repl_value_meta_data_blob
         - name: "DS_REPL_VALUE_META_DATA_BLOB_EXT"
           href: /windows/win32/api/Ntdsapi/ns-ntdsapi-ds_repl_value_meta_data_blob_ext
         - name: "DS_REPL_VALUE_META_DATA_EXT"
