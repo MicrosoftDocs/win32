@@ -22,7 +22,7 @@ A simple error-reporting function, `printError`, displays the reason for any fai
 BOOL GetProcessList( );
 BOOL ListProcessModules( DWORD dwPID );
 BOOL ListProcessThreads( DWORD dwOwnerPID );
-void printError( TCHAR* msg );
+void printError( const TCHAR* msg );
 
 int main( void )
 {
@@ -179,7 +179,7 @@ BOOL ListProcessThreads( DWORD dwOwnerPID )
   return( TRUE );
 }
 
-void printError( TCHAR* msg )
+void printError( const TCHAR* msg )
 {
   DWORD eNum;
   TCHAR sysMsg[256];
