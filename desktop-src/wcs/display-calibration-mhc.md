@@ -107,7 +107,7 @@ This stage can be broken down into two RGB 1DLUTs, which are composed together:
 
 * **3b:** Perform any adjustments in the target gamma space, such as calibration.
 
-1DLUT 3a is determined by the display wire format color space; most commonly it's sRGB for SDR displays, and ST.2084 for HDR displays. 3b is programmable by appsm and occurs after the wire format transfer function is applied. The driver composes the two 1DLUTs to generate the actual 1DLUT to be executed in hardware:
+1DLUT 3a is determined by the display wire format color space; most commonly it's sRGB for SDR displays, and ST.2084 for HDR displays. 3b is programmable by apps and occurs after the wire format transfer function is applied. The driver composes the two 1DLUTs to generate the actual 1DLUT to be executed in hardware:
 
 ```
 Final1DLUT = Adjustment1DLUT(TargetReGamma(input))
