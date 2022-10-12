@@ -245,7 +245,7 @@
       - name: "PROCESSOR_CACHE_TYPE"
         href: /windows/win32/api/WinNT/ne-winnt-processor_cache_type
       - name: "UMS_THREAD_INFO_CLASS"
-        href: /windows/desktop/api/winnt/ne-winnt-_rtl_ums_thread_info_class
+        href: /windows/win32/api/winbase/ns-winbase-ums_system_thread_information
     - name: "Process and Thread Functions"
       href: process-and-thread-functions.md
       items: 
@@ -506,7 +506,7 @@
       - name: "GetThreadPriorityBoost"
         href: /windows/desktop/api/processthreadsapi/nf-processthreadsapi-getthreadpriorityboost
       - name: "GetThreadSelectedCpuSets"
-        href: /windows/desktop/api/processthreadsapi/nf-processthreadsapi-getthreadselectedcpusets.md
+        href: /windows/win32/api/processthreadsapi/nf-processthreadsapi-getthreadselectedcpusets
       - name: "GetThreadTimes"
         href: /windows/desktop/api/processthreadsapi/nf-processthreadsapi-getthreadtimes
       - name: "GetUmsCompletionListEvent"
@@ -746,7 +746,7 @@
       - name: "WorkCallback"
         href: /previous-versions/windows/desktop/legacy/ms687396(v=vs.85)
       - name: "Wow64SuspendThread"
-        href: /windows/desktop/api/WinBase/nf-winbase-wow64suspendthread
+        href: /windows/win32/api/wow64apiset/nf-wow64apiset-wow64suspendthread
       - name: "ZwQueryInformationProcess"
         href: zwqueryinformationprocess.md
     - name: "Process and Thread Macros"

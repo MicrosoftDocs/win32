@@ -174,17 +174,17 @@
         - name: "ColorMatchToTarget"
           href: /windows/win32/api/wingdi/nf-wingdi-colormatchtotarget
         - name: "ColorProfileAddDisplayAssociation"
-          href: /windows/win32/api/wingdi/nf-icm-colorprofileadddisplayassociation
+          href: /windows/win32/api/icm/nf-icm-colorprofileadddisplayassociation
         - name: "ColorProfileGetDisplayDefault"
-          href: /windows/win32/api/wingdi/nf-icm-colorprofilegetdisplaydefault
+          href: /windows/win32/api/icm/nf-icm-colorprofilegetdisplaydefault
         - name: "ColorProfileGetDisplayList"
-          href: /windows/win32/api/wingdi/nf-icm-colorprofilegetdisplaylist
+          href: /windows/win32/api/icm/nf-icm-colorprofilegetdisplaylist
         - name: "ColorProfileGetDisplayUserScope"
-          href: /windows/win32/api/wingdi/nf-icm-colorprofilegetdisplayuserscope
+          href: /windows/win32/api/icm/nf-icm-colorprofilegetdisplayuserscope
         - name: "ColorProfileRemoveDisplayAssociation"
-          href: /windows/win32/api/wingdi/nf-icm-colorprofileremovedisplayassociation
+          href: /windows/win32/api/icm/nf-icm-colorprofileremovedisplayassociation
         - name: "ColorProfileSetDisplayDefaultAssociation"
-          href: /windows/win32/api/wingdi/nf-icm-colorprofilesetdisplaydefaultassociation
+          href: /windows/win32/api/icm/nf-icm-colorprofilesetdisplaydefaultassociation
         - name: "ConvertColorNameToIndex"
           href: /windows/win32/api/icm/nf-icm-convertcolornametoindex
         - name: "ConvertIndexToColorName"
@@ -404,9 +404,9 @@
       - name: "BlackInformation"
         href: /windows/win32/api/wcsplugin/ns-wcsplugin-blackinformation
       - name: "CIEXYZ"
-        href: /windows/win32/api/wingdi/ns-wingdi-tagciexyz
+        href: /windows/win32/api/wingdi/ns-wingdi-ciexyz
       - name: "CIEXYZTRIPLE"
-        href: /windows/win32/api/wingdi/ns-wingdi-tagicexyztriple
+        href: /windows/win32/api/wingdi/ns-wingdi-ciexyztriple
       - name: "CMYKCOLOR"
         href: /windows/win32/api/icm/ns-icm-cmykcolor
       - name: "COLOR"
@@ -438,7 +438,7 @@
       - name: "LabCOLOR"
         href: /windows/win32/api/icm/ns-icm-labcolor
       - name: "LOGCOLORSPACE"
-        href: /windows/win32/api/wingdi/ns-wingdi-taglogcolorspacea
+        href: /windows/win32/api/wingdi/ns-wingdi-logcolorspacea
       - name: "NAMEDCOLOR"
         href: /windows/win32/api/icm/ns-icm-namedcolor
       - name: "NAMED_PROFILE_INFO"

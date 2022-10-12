@@ -1783,7 +1783,7 @@
             href: /windows/desktop/api/d3d12video/nn-d3d12video-id3d12videoprocessor1
             items:
               - name: "ID3D12VideoProcessor1::GetProtectedResourceSession"
-                href: /windows/desktop/api/d3d12video/nf-d3d12video-id3d12videoprocessor-getoutputstreamdes/nf-d3d12video-id3d12videoprocessor1-getprotectedresourcesession
+                href: /windows/win32/api/d3d12video/nf-d3d12video-id3d12videoprocessor1-getprotectedresourcesession
       - name: "Direct3D 12 Video Structures"
         href: direct3d-12-video-structures.md
         items:
@@ -8978,4 +8978,4 @@
       - name: "DXVAHD_COLOR"
         href: /windows/desktop/api/dxvahd/ns-dxvahd-dxvahd_color_rgba
       - name: "MFPaletteEntry Union"
-        href: /windows/desktop/api/mfobjects/mfobjects/ns-mfobjects-mfargb
+        href: /windows/win32/api/mfobjects/ns-mfobjects-mfpaletteentry

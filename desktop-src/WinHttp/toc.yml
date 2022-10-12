@@ -294,7 +294,7 @@
         - name: "WINHTTP_HOST_CONNECTION_GROUP"
           href: /windows/win32/api/Winhttp/ns-winhttp-winhttp_host_connection_group
         - name: "WINHTTP_MATCH_CONNECTION_GUID"
-          href: /windows/win32/api/Winhttp/ns-winhttp-winhttp_match_connection_group
+          href: /windows/win32/api/winhttp/ns-winhttp-winhttp_match_connection_guid
         - name: "WINHTTP_PROXY_INFO"
           href: /windows/win32/api/winhttp/ns-winhttp-winhttp_proxy_info
         - name: "WINHTTP_PROXY_RESULT"

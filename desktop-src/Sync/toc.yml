@@ -124,9 +124,9 @@
       - name: "CreateTimerQueueTimer"
         href: /windows/desktop/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-createtimerqueuetimer
       - name: "CreateWaitableTimer"
-        href: /windows/desktop/api/WinBase/nf-winbase-createwaitabletimera
+        href: /windows/win32/api/synchapi/nf-synchapi-createwaitabletimerw
       - name: "CreateWaitableTimerEx"
-        href: /windows/desktop/api/WinBase/nf-winbase-createwaitabletimerexa
+        href: /windows/win32/api/synchapi/nf-synchapi-createwaitabletimerexw
       - name: "DeleteBoundaryDescriptor"
         href: /windows/desktop/api/namespaceapi/nf-namespaceapi-deleteboundarydescriptor
       - name: "DeleteCriticalSection"
@@ -188,7 +188,7 @@
       - name: "InterlockedAddNoFence64"
         href: /previous-versions/windows/desktop/legacy/hh972630(v=vs.85)
       - name: "InterlockedAnd"
-        href: /windows/desktop/api/WinBase/nf-winbase-interlockedand
+        href: /windows/win32/api/winnt/nf-winnt-interlockedand
       - name: "InterlockedAndAcquire"
         href: /previous-versions/windows/desktop/legacy/ms683539(v=vs.85)
       - name: "InterlockedAndRelease"
@@ -372,7 +372,7 @@
       - name: "InterlockedIncrementNoFence64"
         href: /previous-versions/windows/desktop/legacy/hh972668(v=vs.85)
       - name: "InterlockedOr"
-        href: /windows/desktop/api/WinBase/nf-winbase-interlockedor
+        href: /windows/win32/api/winnt/nf-winnt-interlockedor
       - name: "InterlockedOrAcquire"
         href: /previous-versions/windows/desktop/legacy/ms683643(v=vs.85)
       - name: "InterlockedOrRelease"
@@ -414,7 +414,7 @@
       - name: "InterlockedFlushSList"
         href: /windows/desktop/api/interlockedapi/nf-interlockedapi-interlockedflushslist
       - name: "InterlockedXor"
-        href: /windows/desktop/api/WinBase/nf-winbase-interlockedxor
+        href: /windows/win32/api/winnt/nf-winnt-interlockedxor
       - name: "InterlockedXorAcquire"
         href: /previous-versions/windows/desktop/legacy/ms684117(v=vs.85)
       - name: "InterlockedXorRelease"
@@ -454,7 +454,7 @@
       - name: "OpenEvent"
         href: /windows/desktop/api/synchapi/nf-synchapi-openeventa
       - name: "OpenMutex"
-        href: /windows/desktop/api/WinBase/nf-winbase-openmutexa
+        href: /windows/win32/api/synchapi/nf-synchapi-openmutexw
       - name: "OpenPrivateNamespace"
         href: /windows/desktop/api/WinBase/nf-winbase-openprivatenamespacea
       - name: "OpenSemaphore"

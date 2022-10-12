@@ -2486,7 +2486,7 @@
           - name: "BoundingFrustum (XMFLOAT3,XMFLOAT4,float,float,float,float,float,float)"
             href: /windows/win32/api/directxcollision/nf-directxcollision-boundingfrustum-boundingfrustum(constxmfloat3__constxmfloat4__float_float_float_float_float_float)
           - name: "BoundingFrustum (XMMATRIX)"
-            href: /windows/win32/api/directxcollision/nf-directxcollision-boundingfrustum-boundingfrustum(cxmmatrix)
+            href: /windows/win32/api/directxcollision/nf-directxcollision-boundingfrustum-boundingfrustum(cxmmatrix_bool)
         - name: "Fields"
           href: boundingfrustum-fields.md
           items:

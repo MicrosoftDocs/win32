@@ -55,7 +55,7 @@ sections:
       - question: |
           What are legacy methods?
         answer: |
-          Legacy EAP methods are defined in the [Extensible Authentication Protocol Reference](/previous-versions/windows/desktop/eap/extensible-authentication-protocol-reference). The legacy EAP methods are available for use in Windows Vista and Windows Server 2008. These methods may not be available for use in subsequent versions of the operating system.
+          Legacy EAP methods are defined in the [Extensible Authentication Protocol Reference](/windows/win32/eap/eap-start-page). The legacy EAP methods are available for use in Windows Vista and Windows Server 2008. These methods may not be available for use in subsequent versions of the operating system.
           
       - question: |
           What's the difference between legacy and native methods?
@@ -85,7 +85,7 @@ sections:
       - question: |
           What is Protected Extensible Authentication Protocol (PEAP)?
         answer: |
-          For more information, see [PEAP](/previous-versions/windows/it-pro/windows-server-2003/cc757996(v=ws.10)) and [About Extensible Authentication Protocol](/previous-versions/windows/desktop/eap/about-extensible-authentication-protocol).
+          For more information, see [PEAP](/previous-versions/windows/it-pro/windows-server-2003/cc757996(v=ws.10)) and [About Extensible Authentication Protocol](/windows/win32/eap/eap-start-page).
           
       - question: |
           How does PEAP deal with session resumption and re-authentication?

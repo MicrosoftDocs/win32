@@ -19,7 +19,7 @@ The Active Directory provider, also known as the Directory Services (DS) provide
 
 </dd> <dt>
 
-<span id="Application_Inventory"></span><span id="application_inventory"></span><span id="APPLICATION_INVENTORY"></span>[Application Inventory](/previous-versions/windows/desktop/appdevinvprov/applicationanddeviceinventory-portal)
+<span id="Application_Inventory"></span><span id="application_inventory"></span><span id="APPLICATION_INVENTORY"></span>[Application Inventory](/windows/win32/wmisdk/applicationanddeviceinventory-portal)
 </dt> <dd>
 
 The WMI classes for Application Inventory enable discovery of the installed Win32 applications and Windows store applications on a Windows system.

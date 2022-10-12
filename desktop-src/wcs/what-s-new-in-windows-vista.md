@@ -288,13 +288,13 @@ Header
 
 Library
 
-[**BlackInformation**](/previous-versions/windows/desktop/api/WcsPlugIn/ns-wcsplugin-_blackinformation)
+[**BlackInformation**](/windows/win32/api/wcsplugin/ns-wcsplugin-blackinformation)
 
 WcsPlugIn.h
 
 N/A
 
-[**GamutBoundaryDescription**](/previous-versions/windows/desktop/api/WcsPlugIn/ns-wcsplugin-_gamutboundarydescription)
+[**GamutBoundaryDescription**](/windows/win32/api/wcsplugin/ns-wcsplugin-gamutboundarydescription)
 
 WcsPlugIn.h
 
@@ -318,25 +318,25 @@ WcsPlugIn.h
 
 N/A
 
-[**GamutShell**](/previous-versions/windows/desktop/api/WcsPlugIn/ns-wcsplugin-_gamutshell)
+[**GamutShell**](/windows/win32/api/wcsplugin/ns-wcsplugin-gamutshell)
 
 WcsPlugIn.h
 
 N/A
 
-[**GamutShellTriangle**](/previous-versions/windows/desktop/api/WcsPlugIn/ns-wcsplugin-_gamutshelltriangle)
+[**GamutShellTriangle**](/windows/win32/api/wcsplugin/ns-wcsplugin-gamutshelltriangle)
 
 WcsPlugIn.h
 
 N/A
 
-[**PrimaryJabColors**](/previous-versions/windows/desktop/api/WcsPlugIn/ns-wcsplugin-_primaryjabcolors)
+[**PrimaryJabColors**](/windows/win32/api/wcsplugin/ns-wcsplugin-primaryjabcolors)
 
 WcsPlugIn.h
 
 N/A
 
-[**PrimaryXYZColors**](/previous-versions/windows/desktop/api/WcsPlugIn/ns-wcsplugin-_primaryxyzcolors)
+[**PrimaryXYZColors**](/windows/win32/api/wcsplugin/ns-wcsplugin-primaryxyzcolors)
 
 WcsPlugIn.h
 

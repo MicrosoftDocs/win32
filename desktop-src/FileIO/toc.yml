@@ -1523,7 +1523,7 @@
         - name: "MARK_HANDLE_INFO"
           href: /windows/desktop/api/WinIoCtl/ns-winioctl-mark_handle_info
         - name: "MARK_HANDLE_INFO32"
-          href: /windows/desktop/api/WinIoCtl/ns-winioctl-mark_handle_info32
+          href: /windows-hardware/drivers/ddi/ntifs/ns-ntifs-mark_handle_info32
         - name: "MFT_ENUM_DATA"
           href: /windows/desktop/api/WinIoCtl/ns-winioctl-mft_enum_data_v0
         - name: "MFT_ENUM_DATA_V1"
