@@ -318,7 +318,7 @@
                       items:
                         - name: TraceLogging
                           tocHref: /windows/win32/tracelogging/
-                          topicHref: /windows/win32/tracelogging/trace-logging-porta
+                          topicHref: /windows/win32/tracelogging/trace-logging-portal
                         - name: Event Tracing
                           tocHref: /windows/win32/etw/
                           topicHref: /windows/win32/etw/event-tracing-portal
