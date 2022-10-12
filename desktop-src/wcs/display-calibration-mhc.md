@@ -36,7 +36,7 @@ The new color transform pipeline requires a capable GPU and display driver. Supp
   * AMD RX 500 400 Series, or later
   * AMD Ryzen processors with Radeon Graphics
 * Intel:
-  * Integrated: Intel 11th Gen GPU (Tiger Lake), or later
+  * Integrated: Intel 10th Gen GPU (Ice Lake), or later
   * Discrete: Intel DG1, or later
 * NVIDIA GTX 10xx, or later (Pascal+)
 * Qualcomm 8CX Gen 3, or later; 7C Gen 3, or later
