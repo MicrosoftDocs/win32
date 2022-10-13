@@ -4224,7 +4224,7 @@ Generic Secondary DirectoryEntry template (see [Section 6.4.1](#641-entrytype-fi
 The TypeCode field shall conform to the definition provided in the
 Generic Secondary DirectoryEntry template (see [Section 6.4.1.1](#6411-typecode-field)).
 
-For the Stream Extension directory entry, the valid value for this field
+For the File Name directory entry, the valid value for this field
 is 1.
 
 ##### 7.7.1.2 TypeImportance Field
@@ -4232,7 +4232,7 @@ is 1.
 The TypeImportance field shall conform to the definition provided in the
 Generic Secondary DirectoryEntry template (see [Section 6.4.1.2](#6412-typeimportance-field)).
 
-For the Stream Extension directory entry, the valid value for this field
+For the File Name directory entry, the valid value for this field
 is 0.
 
 ##### 7.7.1.3 TypeCategory Field
