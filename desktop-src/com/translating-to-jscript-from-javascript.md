@@ -10,8 +10,6 @@ ms.date: 05/31/2018
 
 JScript is largely compatible with JavaScript. However, JScript version 5.0 includes some objects not currently supported by JavaScript, such as ActiveXObject, Enumerator, Error, Global, and VBArray.
 
-JScript 5.0 supports exception handling through **try**...**catch** statements. JavaScript does not currently provide an error-handing mechanism.
-
 When working with either JScript or JavaScript, there are some subtle differences between the object model implementations supported by various Web browsers. To write script that runs on both Internet Explorer and Netscape Navigator, limit the features used by your scripts to those specified in the World Wide Web Consortium (W3C) standard for HTML version 3.2. For more information about this standard, see [HTML 3.2 Reference Specification](https://www.w3.org/TR/REC-html32.html).
 
 ## Related topics
