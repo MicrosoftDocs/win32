@@ -21,7 +21,7 @@ api_location:
 api_type:
 - Schema
 ms.technology: system-insights
-ms.prod: windows-server-dev
+ms.prod: windows-server
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
