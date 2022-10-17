@@ -42,7 +42,7 @@ The type of icon to be set. This parameter can be one of the following values.
 *lParam* 
 </dt> <dd>
 
-A handle to the new large or small icon. If this parameter is **NULL**, the icon indicated by *wParam*is removed.
+A handle to the new large or small icon. If this parameter is **NULL**, the icon indicated by *wParam* is removed.
 
 </dd> </dl>
 
