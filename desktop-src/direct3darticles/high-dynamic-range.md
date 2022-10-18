@@ -572,9 +572,9 @@ D2D1_VECTOR_4F simpleReinhardTonemapper(
     output.g /= inputMax;
     output.b /= inputMax;
 
-    output.r = (output.r / 1 + output.r);
-    output.g = (output.g / 1 + output.g);
-    output.b = (output.b / 1 + output.b);
+    output.r = output.r / (1 + output.r);
+    output.g = output.g / (1 + output.g);
+    output.b = output.b / (1 + output.b);
 
     output.r *= outputMax;
     output.g *= outputMax;
