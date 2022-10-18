@@ -65,9 +65,9 @@ By contrast, in this example the Print command prints a single copy of a documen
 
 **Proper use of ellipses is important to indicate that users can make further choices before performing the action, or even cancel the action entirely**. The visual cue offered by an ellipsis allows users to explore your software without fear.
 
-**This doesn't mean you should use an ellipsis whenever an action displays another window** only when additional information is required to perform the action. Consequently, **any command button whose implicit verb is to "show another window" doesn't take an ellipsis**, such as with the commands About, Advanced, Help (or any other command linking to a Help topic), Options, Properties, or Settings.
+**This doesn't mean you should use an ellipsis whenever an action displays another window**. Use an ellipsis only when additional information is required to perform the action. Consequently, **any command button whose implicit verb is to "show another window" doesn't take an ellipsis**, such as with the commands About, Advanced, Help (or any other command linking to a Help topic), Options, Properties, or Settings.
 
-Generally, ellipses are used in user interfaces to indicate incompleteness. Commands that show other windows aren't incomplete they must display another window and additional information isn't needed to perform their action. This approach eliminates screen clutter in situations where ellipses have little value.
+Generally, ellipses are used in user interfaces to indicate incompleteness. Commands that show other windows aren't incomplete; they must display another window and additional information isn't needed to perform their action. This approach eliminates screen clutter in situations where ellipses have little value.
 
 **Note:** When determining if a command button needs an ellipsis, don't use the need to [elevate privileges](winenv-uac.md) as a factor. Elevation isn't information needed to perform a command (rather, it's for permission) and the need to elevate is indicated with the security shield.
 
