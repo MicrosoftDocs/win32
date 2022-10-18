@@ -66,7 +66,7 @@ You should also assume that once users have decided what to do, they will immedi
 
 ### Eliminate redundancy
 
-Redundant text not only takes valuable screen space, but weakens the effectiveness of the important ideas or actions that you are trying to convey. It is also a waste of the reader's time, and all the more so in a context where scanning is the norm. **Windows strive to explain what users need to do once well and concisely.**
+Redundant text not only takes valuable screen space, but weakens the effectiveness of the important ideas or actions that you are trying to convey. It is also a waste of the reader's time, and all the more so in a context where scanning is the norm. **Windows strives to explain what users need to do once well and concisely.**
 
 Review each window and eliminate duplicate words and statements, both within and across controls. Don't avoid important text; be explicit wherever necessary, but don't be redundant and don't explain the obvious.
 
