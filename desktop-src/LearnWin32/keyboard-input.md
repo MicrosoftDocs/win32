@@ -169,7 +169,7 @@ For example, consider how would you detect the combination of left mouse click +
 
 
 ```C++
-if (GetKeyState(VK_MENU) & 0x8000))
+if (GetKeyState(VK_MENU) & 0x8000)
 {
     // ALT key is down.
 }
@@ -183,7 +183,7 @@ Most keyboards have two ALT keys, left and right. The previous example tests whe
 
 
 ```C++
-if (GetKeyState(VK_RMENU) & 0x8000))
+if (GetKeyState(VK_RMENU) & 0x8000)
 {
     // Right ALT key is down.
 }
