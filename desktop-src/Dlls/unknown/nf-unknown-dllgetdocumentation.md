@@ -2,19 +2,30 @@
 title: DLLGetDocumentation function
 description: Retrieves a localized string for a given help context value.
 ms.topic: reference
-ms.date: 07/29/2022
-req.lib: 
+ms.date: 10/19/2022
+req.header: 
 req.dll: 
+req.lib: 
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+dev_langs:
+ - c++
 topic_type:
-- APIRef
-- kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
-- DllExport
+ - DllExport
 api_location:
-- Unknown.dll
+ - Unknown.dll
 api_name:
-- DLLGetDocumentation
+ - DLLGetDocumentation
 targetos: Windows
+product:
+ - Windows
+ms.product: Windows
+req.product: Windows
 ---
 
 # DLLGetDocumentation function
