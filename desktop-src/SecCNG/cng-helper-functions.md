@@ -13,5 +13,5 @@ Cryptography API: Next Generation (CNG) defines the following helper functions t
 - [**BCryptDeriveKeyCapi**](/windows/desktop/api/Bcrypt/nf-bcrypt-bcryptderivekeycapi)
 - [**BCryptDeriveKeyPBKDF2**](/windows/desktop/api/Bcrypt/nf-bcrypt-bcryptderivekeypbkdf2)
 - [**BCRYPT\_INIT\_AUTH\_MODE\_INFO**](/windows/desktop/api/Bcrypt/nf-bcrypt-bcrypt_init_auth_mode_info)
-- [**SystemPrng**](systemprng.md)
 - [**ProcessPrng**](processprng.md)
+- [**SystemPrng**](systemprng.md)
