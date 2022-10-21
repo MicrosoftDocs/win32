@@ -3,7 +3,7 @@ description: Retrieves a specified number of random bytes from the system random
 ms.assetid: 04746229-9dc1-4748-80c1-f1960bd1b768
 title: SystemPrng function
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 10/21/2022
 topic_type: 
 - APIRef
 - kbSyntax
@@ -22,13 +22,10 @@ api_location:
 
 The **SystemPrng** function retrieves a specified number of random bytes from the system random number generator.
 
-> [!Note]  
+> [!NOTE]  
 > This function has no associated header file or import library. To call this function, you must create a user-defined header file.
 
- 
-
 ## Syntax
-
 
 ```C++
 BOOL SystemPrng(
@@ -36,8 +33,6 @@ BOOL SystemPrng(
   _In_  size_t        cbRandomData
 );
 ```
-
-
 
 ## Parameters
 
@@ -63,20 +58,8 @@ Always returns **TRUE**.
 
 ## Requirements
 
-
-
 | Requirement | Value |
-|-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista with SP1 \[desktop apps only\]<br/>                                                                                                                                                                                        |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                                                                                                                                                           |
+|--------|--------|
+| Minimum supported client<br/> | Windows Vista with SP1 \[desktop apps only\]<br/> |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 | DLL<br/>                      | <dl> <dt>Ksecdd.sys on Windows Server 2008 and Windows Vista with SP1; </dt> <dt>Cng.sys on Windows 7 and Windows Server 2008 R2</dt> </dl> |
-
-
-
- 
-
- 
-
-
-
-

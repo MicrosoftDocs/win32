@@ -205,6 +205,8 @@
         href: /windows/desktop/api/Bcrypt/nf-bcrypt-bcryptderivekeypbkdf2
       - name: "BCRYPT_INIT_AUTH_MODE_INFO"
         href: /windows/desktop/api/Bcrypt/nf-bcrypt-bcrypt_init_auth_mode_info
+      - name: "ProcessPrng"
+        href: processprng.md
       - name: "SystemPrng"
         href: systemprng.md
     - name: "CNG Key Storage Functions"
