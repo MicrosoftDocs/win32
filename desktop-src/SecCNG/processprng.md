@@ -1,5 +1,5 @@
 ---
-description: Retrieves a specified number of random bytes from the system random number generator.
+description: Retrieves a specified number of random bytes from the user-mode per-processor random number generator.
 ms.assetid: 5226f843-b919-4a23-86c1-ff85cec7184c
 title: ProcessPrng function
 ms.topic: reference
