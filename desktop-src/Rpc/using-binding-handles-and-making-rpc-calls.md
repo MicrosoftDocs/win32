@@ -54,7 +54,7 @@ The problem with this handler is that it catches all errors, including errors in
 
 This exception handler has the advantage of letting a certain range of errors through. These errors will never be returned by the server, because they indicate a client side problem.
 
-Additionally, the use of the **\[**[strict\_context\_handle](/windows/desktop/Midl/strict-context-handle)**\]** and **\[**[type\_strict\_context\_handle](/windows/desktop/Midl/type-strict-context-handle)**\]**attributes are recommended to ensure the RPC run time creates a context handle on one interface that can be passed as an argument only to methods of that interface. Doing so will prevent server failures that occur when context handles are opened and passed between different interfaces that exist within the same process.
+Additionally, the use of the **\[**[strict\_context\_handle](/windows/desktop/Midl/strict-context-handle)**\]** and **\[**[type\_strict\_context\_handle](/windows/desktop/Midl/type-strict-context-handle)**\]** attributes are recommended to ensure the RPC run time creates a context handle on one interface that can be passed as an argument only to methods of that interface. Doing so will prevent server failures that occur when context handles are opened and passed between different interfaces that exist within the same process.
 
 ## Related topics
 
