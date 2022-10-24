@@ -23,8 +23,8 @@ The **ProcessPrng** function retrieves a specified number of random bytes from t
 
 ```C++
 BOOL ProcessPrng(
-  _Out_ pbyte  pbData,
-  _In_  size_t cbData
+  _Out_ PBYTE  pbData,
+        SIZE_T cbData
 );
 ```
 
@@ -39,7 +39,7 @@ A pointer to a buffer that receives the retrieved bytes.
 
 </dd> <dt>
 
-*cbData* \[in\]
+*cbData*
 </dt> <dd>
 
 The number of bytes to retrieve.
@@ -54,6 +54,4 @@ Always returns **TRUE**.
 
 | Requirement | Value |
 |--------|--------|
-| Minimum supported client | Windows Vista with SP1 \[desktop apps only\] |
-| Minimum supported server | Windows Server 2008 \[desktop apps only\] |
 | DLL                      | BCryptPrimitives.dll |
