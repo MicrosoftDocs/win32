@@ -85,6 +85,8 @@ int _tmain(VOID)
       }
  
       Pipe[i].oOverlap.hEvent = hEvents[i]; 
+      Pipe[i].oOverlap.Offset = 0;
+      Pipe[i].oOverlap.OffsetHigh = 0;
  
       Pipe[i].hPipeInst = CreateNamedPipe( 
          lpszPipename,            // pipe name 
