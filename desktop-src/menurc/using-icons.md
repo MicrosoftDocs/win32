@@ -19,13 +19,13 @@ ms.date: 05/31/2018
 The following topics describe how to perform certain tasks related to icons:
 
 -   [Creating an Icon](#creating-an-icon)
+-   [Geting the Icon size](#getting-the-icon-size)
 -   [Displaying an Icon](#displaying-an-icon)
 -   [Sharing Icon Resources](#sharing-icon-resources)
 
 ## Creating an Icon
 
 To use an icon, your application must get a handle to the icon. The following example shows how to create two different icon handles: one for the standard question icon and one for a custom icon included as a resource in the application's resource-definition file.
-
 
 ```cpp
 HICON hIcon1;   // icon handle 
@@ -43,10 +43,7 @@ hIcon2 = LoadIcon(hinst, MAKEINTRESOURCE(460));
  
 ```
 
-
-
-An application should implement custom icons as resources and should use the [**LoadIcon**](/windows/desktop/api/Winuser/nf-winuser-loadicona) or [**LoadImage**](/windows/desktop/api/Winuser/nf-winuser-loadimagea) function, rather than create the icons at run-time. This approach avoids device dependence, simplifies localization, and enables applications to share icon bitmaps. However, the following example uses [**CreateIcon**](/windows/desktop/api/Winuser/nf-winuser-createicon) to create a custom icon at run-time, based on bitmap bitmasks; it is included to illustrate how the system interprets icon bitmap bitmasks.
-
+An application should implement custom icons as resources and should use the [**LoadIcon**](/windows/desktop/api/Winuser/nf-winuser-loadicona) or [**LoadImage**](/windows/desktop/api/Winuser/nf-winuser-loadimagea) function, rather than create the icons at run-time. This approach avoids device dependence, simplifies localization, and enables applications to share icon bitmaps. However, the following example uses [**CreateIcon**](/windows/desktop/api/Winuser/nf-winuser-createicon) to create a custom monochrome icon at run-time, based on bitmap bitmasks; it is included to illustrate how the system interprets icon bitmap bitmasks.
 
 ```cpp
 HICON hIcon3;      // icon handle 
@@ -145,11 +142,7 @@ hIcon3 = CreateIcon(hinst,    // application instance
               
 ```
 
-
-
 To create the icon, [**CreateIcon**](/windows/desktop/api/Winuser/nf-winuser-createicon) applies the following truth table to the AND and XOR bitmasks.
-
-
 
 | AND bitmask | XOR bitmask | Display        |
 |-------------|-------------|----------------|
@@ -158,16 +151,35 @@ To create the icon, [**CreateIcon**](/windows/desktop/api/Winuser/nf-winuser-cre
 | 1           | 0           | Screen         |
 | 1           | 1           | Reverse screen |
 
-
-
- 
-
 Before closing, your application must use [**DestroyIcon**](/windows/desktop/api/Winuser/nf-winuser-destroyicon) to destroy any icon it created by using [**CreateIconIndirect**](/windows/desktop/api/Winuser/nf-winuser-createiconindirect). It is not necessary to destroy icons created by other functions.
+
+## Geting the Icon size
+
+Here is example code how to get the icon size from the **HICON** handle:
+
+```cpp
+// Also works for cursors
+BOOL GetIconDimensions(__in HICON hico, __out SIZE *psiz)
+{
+  ICONINFO ii;
+  BOOL fResult = GetIconInfo(hico, &ii);
+  if (fResult) {
+    BITMAP bm;
+    fResult = GetObject(ii.hbmMask, sizeof(bm), &bm) == sizeof(bm);
+    if (fResult) {
+      psiz->cx = bm.bmWidth;
+      psiz->cy = ii.hbmColor ? bm.bmHeight : bm.bmHeight / 2;
+    }
+    if (ii.hbmMask)  DeleteObject(ii.hbmMask);
+    if (ii.hbmColor) DeleteObject(ii.hbmColor);
+  }
+  return fResult;
+}
+```
 
 ## Displaying an Icon
 
 Your application can load and create icons to display in the application's client area or child windows. The following example demonstrates how to draw an icon in the client area of the window whose device context (DC) is identified by the *hdc* parameter.
-
 
 ```cpp
 HICON hIcon1;   // icon handle  
@@ -176,10 +188,7 @@ HDC hdc;        // handle to display context
 DrawIcon(hdc, 10, 20, hIcon1); 
 ```
 
-
-
 The system automatically displays the class icon(s) for a window. Your application can assign class icons while registering a window class. Your application can replace a class icon by using the [**SetClassLong**](/windows/desktop/api/winuser/nf-winuser-setclasslonga) function. This function changes the default window settings for all windows of a given class. The following example replaces a class icon with the icon whose resource identifier is 480.
-
 
 ```cpp
 HINSTANCE hinst;            // handle to current instance 
@@ -193,8 +202,6 @@ SetClassLongPtr(hwnd,          // window handle
    ); 
 ```
 
-
-
 For more information about window classes, see [Window Classes](/windows/desktop/winmsg/window-classes).
 
 ## Sharing Icon Resources
@@ -202,7 +209,6 @@ For more information about window classes, see [Window Classes](/windows/desktop
 The following code uses the functions [**CreateIconFromResourceEx**](/windows/desktop/api/Winuser/nf-winuser-createiconfromresourceex), [**DrawIcon**](/windows/desktop/api/Winuser/nf-winuser-drawicon), and [**LookupIconIdFromDirectoryEx**](/windows/desktop/api/Winuser/nf-winuser-lookupiconidfromdirectoryex), and several of the resource functions, to create an icon handle based on icon data from another executable file. Then, it displays the icon in a window.
 
 **Security Warning:** Using [**LoadLibrary**](/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya) incorrectly can compromise the security of your application by loading the wrong DLL. Refer to the **LoadLibrary** documentation for information on how to correctly load DLLs with different versions of Windows.
-
 
 ```cpp
 HICON hIcon1;       // icon handle 
@@ -265,9 +271,3 @@ hIcon1 = CreateIconFromResourceEx((PBYTE) lpResource,
  
 DrawIcon(hdc, 10, 20, hIcon1); 
 ```
-
-
-
- 
-
- 
