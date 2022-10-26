@@ -155,7 +155,7 @@ To create a colored icon at run time you must use the [**CreateIconIndirect**](/
 
 Before closing, your application must use [**DestroyIcon**](/windows/desktop/api/Winuser/nf-winuser-destroyicon) to destroy any icon it created by using [**CreateIcon**](/windows/desktop/api/Winuser/nf-winuser-createicon) or [**CreateIconIndirect**](/windows/desktop/api/Winuser/nf-winuser-createiconindirect). It is not necessary to destroy icons created by other functions.
 
-## Geting the Icon size
+## Getting the Icon size
 
 Here is example code how to get the icon size from the **HICON** handle:
 
