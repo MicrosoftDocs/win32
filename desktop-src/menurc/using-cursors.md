@@ -25,6 +25,7 @@ ms.date: 05/31/2018
 This section discusses the following topics.
 
 -   [Creating a Cursor](#creating-a-cursor)
+-   [Geting a Cursor size](#getting-a-cursor-size)
 -   [Displaying a Cursor](#displaying-a-cursor)
 -   [Confining a Cursor](#confining-a-cursor)
 -   [Using Cursor Functions to Create a Mousetrap](#using-cursor-functions-to-create-a-mousetrap)
@@ -48,11 +49,9 @@ hCurs1 = LoadCursor(NULL, IDC_WAIT);
 hCurs2 = LoadCursor(hinst, MAKEINTRESOURCE(240)); 
 ```
 
-You can also create a custom cursor at run time by using the [**CreateIconIndirect**](/windows/desktop/api/Winuser/nf-winuser-createiconindirect) function, which creates a cursor based on the content of an [**ICONINFO**](/windows/desktop/api/Winuser/ns-winuser-iconinfo) structure. The [**GetIconInfo**](/windows/desktop/api/Winuser/nf-winuser-geticoninfo) function fills this structure with hot spot coordinates and information concerning the associated mask and color.
-
 Applications should implement custom cursors as resources and use [**LoadCursor**](/windows/desktop/api/Winuser/nf-winuser-loadcursora), [**LoadCursorFromFile**](/windows/desktop/api/Winuser/nf-winuser-loadcursorfromfilea), or [**LoadImage**](/windows/desktop/api/Winuser/nf-winuser-loadimagea) rather than create the cursor at run time. Using cursor resources avoids device dependence, simplifies localization, and enables applications to share cursor designs.
 
-The following example uses the [**CreateCursor**](/windows/desktop/api/Winuser/nf-winuser-createcursor) function to create a custom cursor at run time. The example is included here to illustrate how the system interprets cursor masks.
+The following example uses the [**CreateCursor**](/windows/desktop/api/Winuser/nf-winuser-createcursor) function to create a custom monochrome cursor at run time. The example is included here to illustrate how the system interprets cursor masks.
 
 
 ```cpp
@@ -175,13 +174,15 @@ To create the cursor, [**CreateCursor**](/windows/desktop/api/Winuser/nf-winuser
 | 1        | 0        | Screen         |
 | 1        | 1        | Reverse screen |
 
-
-
- 
-
 For more information, see [Bitmaps](/windows/desktop/gdi/bitmaps).
 
-Before closing, you must use the [**DestroyCursor**](/windows/desktop/api/Winuser/nf-winuser-destroycursor) function to destroy any cursors you created with [**CreateCursor**](/windows/desktop/api/Winuser/nf-winuser-createcursor). It is not necessary to destroy cursors created by other functions.
+To create a colored cursor at run time you must use the [**CreateIconIndirect**](/windows/desktop/api/Winuser/nf-winuser-createiconindirect) function, which creates a cursor based on the content of an [**ICONINFO**](/windows/desktop/api/Winuser/ns-winuser-iconinfo) structure.
+
+Before closing, you must use the [**DestroyCursor**](/windows/desktop/api/Winuser/nf-winuser-destroycursor) function to destroy any cursors you created with [**CreateCursor**](/windows/desktop/api/Winuser/nf-winuser-createcursor) or [**CreateIconIndirect**](/windows/desktop/api/Winuser/nf-winuser-createiconindirect). It is not necessary to destroy cursors created by other functions.
+
+## Geting a Cursor size
+
+See [Getting the Icon size](/windows/win32/menurc/using-icons#getting-the-icon-size).
 
 ## Displaying a Cursor
 
