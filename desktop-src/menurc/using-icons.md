@@ -151,7 +151,9 @@ To create the icon, [**CreateIcon**](/windows/desktop/api/Winuser/nf-winuser-cre
 | 1           | 0           | Screen         |
 | 1           | 1           | Reverse screen |
 
-Before closing, your application must use [**DestroyIcon**](/windows/desktop/api/Winuser/nf-winuser-destroyicon) to destroy any icon it created by using [**CreateIconIndirect**](/windows/desktop/api/Winuser/nf-winuser-createiconindirect). It is not necessary to destroy icons created by other functions.
+To create a colored icon at run time you must use the [**CreateIconIndirect**](/windows/desktop/api/Winuser/nf-winuser-createiconindirect) function, which creates a icon based on the content of an [**ICONINFO**](/windows/desktop/api/Winuser/ns-winuser-iconinfo) structure.
+
+Before closing, your application must use [**DestroyIcon**](/windows/desktop/api/Winuser/nf-winuser-destroyicon) to destroy any icon it created by using [**CreateIcon**](/windows/desktop/api/Winuser/nf-winuser-createicon) or [**CreateIconIndirect**](/windows/desktop/api/Winuser/nf-winuser-createiconindirect). It is not necessary to destroy icons created by other functions.
 
 ## Geting the Icon size
 
