@@ -3,10 +3,13 @@ title: XInput Game Controller APIs
 description: XInput Game Controller APIs
 ms.assetid: fbbc651b-9264-9b5d-01c6-efc58f50b19d
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 10/26/2022
 ---
 
 # XInput Game Controller APIs
+
+> [!Important]
+> [GameInput](/gaming/gdk/_content/gc/input/overviews/input-overview) is a functional superset of all legacy input APIs—XInput, DirectInput, Raw Input, Human Interface Device (HID), and WinRT—with new features that expose input devices of all kinds through a single consistent interface. It's available on all Windows platforms (including PC, Xbox, HoloLens, IoT), previous versions of Windows (all the way back to Windows 7), and is callable from GDK, Win32, and Universal Windows Platform (UWP) applications.
 
 ## Purpose
 
@@ -23,5 +26,3 @@ XInput Game Controller API enables applications to receive input from the Xbox C
 
 XInput Game Controller APIs is designed for use by developers who want to use the Xbox Controller for their Windows applications.
 
-> [!NOTE]
-> GameInput is the recommended API for all new code, regardless of the target platform, because it provides support across all Microsoft platforms (including earlier versions of Windows), and provides superior performance versus legacy APIs. To learn more about the GameInput API, see [GameInput introduction](/gaming/gdk/_content/gc/input/overviews/input-overview).
