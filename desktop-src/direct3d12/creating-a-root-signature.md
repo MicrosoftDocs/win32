@@ -211,8 +211,8 @@ pGraphicsCommandList->SetComputeRootConstantBufferView(2,pDynamicCBHeap,&CBVDesc
 
 MY_PER_DRAW_STUFF stuff;
 InitMyPerDrawStuff(&stuff);
-pGraphicsCommandList->SetSetGraphicsRoot32BitConstants(
-                        0,&stuff,0,RTSlot[0].Constants.Num32BitValues);
+pGraphicsCommandList->SetGraphicsRoot32BitConstants(
+                        0,RTSlot[0].Constants.Num32BitValues,&stuff,0);
 
 SetMyRTVAndOtherMiscBindings();
 
@@ -221,7 +221,7 @@ for(UINT i = 0; i < numObjects; i++)
     pGraphicsCommandList->SetPipelineState(PSO[i]);
     pGraphicsCommandList->SetGraphicsRootDescriptorTable(
                     1,heapOffsetForFooAndBar[i],DescRange[1].NumDescriptors);
-    pGraphicsCommandList->SetGraphicsRoot32BitConstant(0,&i,1,drawIDOffset);
+    pGraphicsCommandList->SetGraphicsRoot32BitConstant(0,i,drawIDOffset);
     SetMyIndexBuffers(i);
     pGraphicsCommandList->DrawIndexedInstanced(...);
 }
