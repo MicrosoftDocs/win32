@@ -211,7 +211,7 @@ pGraphicsCommandList->SetComputeRootConstantBufferView(2,pDynamicCBHeap,&CBVDesc
 
 MY_PER_DRAW_STUFF stuff;
 InitMyPerDrawStuff(&stuff);
-pGraphicsCommandList->SetSetGraphicsRoot32BitConstants(
+pGraphicsCommandList->SetGraphicsRoot32BitConstants(
                         0,&stuff,0,RTSlot[0].Constants.Num32BitValues);
 
 SetMyRTVAndOtherMiscBindings();
