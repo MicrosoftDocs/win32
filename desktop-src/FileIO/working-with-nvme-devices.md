@@ -432,7 +432,7 @@ In this example, the **Identify** request is sent to an NVMe drive. The followin
 Note that the caller needs to allocate a single buffer containing STORAGE\_PROPERTY\_QUERY and the size of STORAGE\_PROTOCOL\_SPECIFIC\_DATA. In this example, it’s using the same buffer for input and output from the property query. That’s why the buffer that was allocated has a size of “FIELD\_OFFSET(STORAGE\_PROPERTY\_QUERY, AdditionalParameters) + sizeof(STORAGE\_PROTOCOL\_SPECIFIC\_DATA) + NVME\_MAX\_LOG\_SIZE”. Although separate buffers could be allocated for both input and output, we recommend using a single buffer to query NVMe related-information.
 
 
-identifyControllerData->NN is Number of Namespaces (NN). Windows detects a namespace as a physical drive. This number is up to SCSI_MAXIMUM_LUNS_PER_TARGET. A LUN is assigned as a namespace's Namespace ID - 1.
+identifyControllerData->NN is Number of Namespaces (NN). Windows detects a namespace as a physical drive.
 
 
 ### Example: NVMe Get Log Pages query
