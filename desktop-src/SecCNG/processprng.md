@@ -54,4 +54,5 @@ Always returns **TRUE**.
 
 | Requirement | Value |
 |--------|--------|
-| DLL                      | BCryptPrimitives.dll |
+| DLL | BCryptPrimitives.dll |
+| APISet | CngRngExt |

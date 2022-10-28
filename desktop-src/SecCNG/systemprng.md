@@ -29,8 +29,8 @@ The **SystemPrng** function retrieves a specified number of random bytes from th
 
 ```C++
 BOOL SystemPrng(
-  _Out_ unsigned char pbRandomData,
-        SIZE_T        cbRandomData
+  _Out_ PBYTE  pbRandomData,
+        SIZE_T cbRandomData
 );
 ```
 
