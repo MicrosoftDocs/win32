@@ -849,6 +849,8 @@
       href: /windows/win32/api/Winternl/ns-winternl-string
     - name: "UnregisterServerForPMP"
       href: /windows/win32/api/comppkgsup/nf-comppkgsup-unregisterserverforpmp
+    - name: "VBAGetExprSrv"
+      href: vbagetexprsrv.md
     - name: "WINNLSEnableIME"
       href: /windows/win32/api/Winnls32/nf-winnls32-winnlsenableime
   - name: "MSHTML"
