@@ -21,13 +21,13 @@ api_location:
 
 Loads Visual Basic for Applications and retrieves a pointer to the IExpressionService object.
 
-    void VBAGetExprSrv(HINSTANCE FAR* lphinstVBA,
-                       IExpressionService FAR* FAR* lplpexprsrv,
-                       LPBYTE lpStackMin,
-                       USHORT usMajVersionExprSrv,
-                       USHORT usMinVersionExprSrv,
-                       DWORD dwUnused1,
-                       DWORD dwUnused2);
+void VBAGetExprSrv(HINSTANCE FAR* lphinstVBA,
+                    IExpressionService FAR* FAR* lplpexprsrv,
+                    LPBYTE lpStackMin,
+                    USHORT usMajVersionExprSrv,
+                    USHORT usMinVersionExprSrv,
+                    DWORD dwUnused1,
+                    DWORD dwUnused2);
 
 ## Parameters
 
@@ -68,4 +68,4 @@ The value of lpStackMin does not affect the expression service. lpStackMin is re
 
 #### Other Resources
 
-[VBA Language References](http://go.microsoft.com/fwlink/?linkid=71507)
+[VBA Language References](https://go.microsoft.com/fwlink/?linkid=71507)
