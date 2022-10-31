@@ -33,7 +33,7 @@ For Windows Server 2022, the following cipher suites are enabled and in this pri
 | TLS\_ECDHE\_ECDSA\_WITH\_AES\_128\_GCM\_SHA256<br/>                                           | Yes<br/>                      | TLS 1.2<br/>                            |
 | TLS\_ECDHE\_RSA\_WITH\_AES\_256\_GCM\_SHA384<br/>                                             | Yes<br/>                      | TLS 1.2<br/>                            |
 | TLS\_ECDHE\_RSA\_WITH\_AES\_128\_GCM\_SHA256<br/>                                             | Yes<br/>                      | TLS 1.2<br/>                            |
-| TLS\_DHE\_RSA\_WITH\_AES\_256\_GCM\_SHA384<br/>                                               | No<br/>                       | TLS 1.2<br/>                            |
+| TLS\_DHE\_RSA\_WITH\_AES\_256\_GCM\_SHA384<br/>                                               | Yes<br/>                       | TLS 1.2<br/>                            |
 | TLS\_DHE\_RSA\_WITH\_AES\_128\_GCM\_SHA256<br/>                                               | Yes<br/>                      | TLS 1.2<br/>                            |
 | TLS\_ECDHE\_ECDSA\_WITH\_AES\_256\_CBC\_SHA384<br/>                                           | Yes<br/>                      | TLS 1.2<br/>                            |
 | TLS\_ECDHE\_ECDSA\_WITH\_AES\_128\_CBC\_SHA256<br/>                                           | Yes<br/>                      | TLS 1.2<br/>                            |
