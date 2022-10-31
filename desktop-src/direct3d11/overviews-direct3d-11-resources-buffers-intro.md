@@ -41,7 +41,7 @@ This vertex buffer contains per-vertex data; each vertex stores three elements (
 To access data from a vertex buffer you need to know which vertex to access, plus the following additional buffer parameters:
 
 -   Offset - the number of bytes from the start of the buffer to the data for the first vertex. You can specify the offset using the [**ID3D11DeviceContext::IASetVertexBuffers**](/windows/desktop/api/D3D11/nf-d3d11-id3d11devicecontext-iasetvertexbuffers) method.
--   BaseVertexLocation - the number of bytes from the offset to the first vertex used by the appropriate draw call.
+-   BaseVertexLocation - a value added to each index before reading a vertex from the vertex buffer.
 
 Before you create a vertex buffer, you need to define its layout by creating an [**ID3D11InputLayout**](/windows/win32/api/d3d11/nn-d3d11-id3d11inputlayout) interface; this is done by calling the [**ID3D11Device::CreateInputLayout**](/windows/desktop/api/D3D11/nf-d3d11-id3d11device-createinputlayout) method. After the input-layout object is created, you can bind it to the input-assembler stage by calling the [**ID3D11DeviceContext::IASetInputLayout**](/windows/desktop/api/D3D11/nf-d3d11-id3d11devicecontext-iasetinputlayout).
 
