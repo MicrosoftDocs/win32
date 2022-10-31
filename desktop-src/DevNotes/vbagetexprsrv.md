@@ -9,7 +9,7 @@ topic_type:
 - APIRef
 - kbSyntax
 api_name: 
-- RtlCompareUnicodeString
+- VBAGetExprSrv
 api_type: 
 - DllExport
 api_location: 
@@ -59,6 +59,8 @@ This argument is reserved for future use.
 None. Use lphinstVBA and lplpexprsrv to determine whether VBAGetExprSrv succeeded, as indicated in the Remarks section below.
 
 ## Remarks
+
+This function is exported from vbajet32.dll.
 
 VBAGetExprSrv calls LoadLibrary() to load the Visual Basic for Applications DLL based on the version numbers that are passed in. The handle returned by LoadLibrary() is stored in the location pointed to by lphinstVBA. If the call is successful, the caller must eventually call FreeLibrary() on this hinstance.
 
