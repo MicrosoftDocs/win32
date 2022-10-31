@@ -21,6 +21,7 @@ api_location:
 
 Loads Visual Basic for Applications and retrieves a pointer to the IExpressionService object.
 
+```cpp
 void VBAGetExprSrv(HINSTANCE FAR* lphinstVBA,
                     IExpressionService FAR* FAR* lplpexprsrv,
                     LPBYTE lpStackMin,
@@ -28,6 +29,7 @@ void VBAGetExprSrv(HINSTANCE FAR* lphinstVBA,
                     USHORT usMinVersionExprSrv,
                     DWORD dwUnused1,
                     DWORD dwUnused2);
+ ```
 
 ## Parameters
 
