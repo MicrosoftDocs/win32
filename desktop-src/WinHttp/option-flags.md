@@ -188,7 +188,7 @@ This option can be set on a WinHttp session handle to allow WinHttp to use the c
 
 ## WINHTTP_OPTION_ENABLETRACING
 
-Sets a **BOOL** value that specifies whether tracing is currently enabled. For more information about the trace facility in WinHTTP, see [WinHTTP Trace Facility](winhttptracecfg-exe--a-trace-configuration-tool.md). This option can only be set on a **NULL** **HINTERNET** handle.
+Sets a **BOOL** value that specifies whether tracing is currently enabled. This option can be set only on a **NULL** **HINTERNET** handle. Also see [Collect WinHTTP traces](collect-traces.md).
 
 ## WINHTTP_OPTION_ENCODE_EXTRA
 

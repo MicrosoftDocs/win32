@@ -154,7 +154,7 @@ The default value of this option is 0x0028, which indicates that SSL 2.0 or SSL 
 <span id="WinHttpRequestOption_EnableTracing"></span><span id="winhttprequestoption_enabletracing"></span><span id="WINHTTPREQUESTOPTION_ENABLETRACING"></span>**WinHttpRequestOption\_EnableTracing**
 </dt> <dd>
 
-Sets or retrieves a **VARIANT** that indicates whether tracing is currently enabled. For more information about the trace facility in Microsoft Windows HTTP Services (WinHTTP), see [WinHTTP Trace Facility](winhttptracecfg-exe--a-trace-configuration-tool.md).
+Sets or retrieves a **VARIANT** that indicates whether tracing is currently enabled. Also see [Collect WinHTTP traces](collect-traces.md).
 
 </dd> <dt>
 

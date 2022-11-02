@@ -91,8 +91,8 @@
         href: winhttpcertcfg-exe--a-certificate-configuration-tool.md
       - name: "Netsh.exe and ProxyCfg.exe Proxy Configuration Tools"
         href: proxycfg-exe--a-proxy-configuration-tool.md
-      - name: "WinHttpTraceCfg.exe, a Trace Configuration Tool"
-        href: winhttptracecfg-exe--a-trace-configuration-tool.md
+      - name: "Collect WinHTTP traces"
+        href: collect-traces.md
   - name: "WinHTTP Reference"
     href: winhttp-reference.md
     items: 
