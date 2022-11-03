@@ -433,6 +433,15 @@
             href: /windows/win32/api/d3d12/nf-d3d12-id3d12device9-createshadercachesession
           - name: "ShaderCacheControl"
             href: /windows/win32/api/d3d12/nf-d3d12-id3d12device9-shadercachecontrol
+        - name: "ID3D12Device10"
+          href: /windows/win32/api/d3d12/nn-d3d12-id3d12device10
+          items: 
+          - name: "CreateCommittedResource3"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12device10-createcommittedresource3
+          - name: "CreatePlacedResource2"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12device10-createplacedresource2
+          - name: "CreateReservedResource2"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12device10-createreservedresource2
         - name: "ID3D12DeviceChild"
           href: /windows/win32/api/d3d12/nn-d3d12-id3d12devicechild
           items: 
@@ -626,6 +635,11 @@
             href: /windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist5-rssetshadingrate
           - name: "RSSetShadingRateImage"
             href: /windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist5-rssetshadingrateimage
+        - name: "ID3D12GraphicsCommandList7"
+          href: /windows/win32/api/d3d12/nn-d3d12-id3d12graphicscommandlist7
+          items: 
+          - name: "Barrier"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist7-barrier
         - name: "ID3D12Heap"
           href: /windows/win32/api/d3d12/nn-d3d12-id3d12heap
           items: 
@@ -763,6 +777,13 @@
             href: /windows/win32/api/d3d12/nf-d3d12-id3d12versionedrootsignaturedeserializer-getrootsignaturedescatversion
           - name: "GetUnconvertedRootSignatureDesc method"
             href: /windows/win32/api/d3d12/nf-d3d12-id3d12versionedrootsignaturedeserializer-getunconvertedrootsignaturedesc
+        - name: "ID3D12VirtualizationGuestDevice"
+          href: /windows/win32/api/d3d12/nn-d3d12-id3d12virtualizationguestdevice
+          items: 
+          - name: "CreateFenceFd method"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12virtualizationguestdevice-createfencefd
+          - name: "ShareWithHost method"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12virtualizationguestdevice-sharewithhost
       - name: "Core functions"
         href: direct3d-12-functions.md
         items: 
@@ -787,10 +808,16 @@
         items: 
         - name: "D3D12_AUTO_BREADCRUMB_NODE"
           href: /windows/win32/api/d3d12/ns-d3d12-d3d12_auto_breadcrumb_node
+        - name: "D3D12_BARRIER_GROUP"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_barrier_group
+        - name: "D3D12_BARRIER_SUBRESOURCE_RANGE"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_barrier_subresource_range
         - name: "D3D12_BLEND_DESC"
           href: /windows/win32/api/d3d12/ns-d3d12-d3d12_blend_desc
         - name: "D3D12_BOX"
           href: /windows/win32/api/d3d12/ns-d3d12-d3d12_box
+        - name: "D3D12_BUFFER_BARRIER"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_buffer_barrier
         - name: "D3D12_BUFFER_RTV"
           href: /windows/win32/api/d3d12/ns-d3d12-d3d12_buffer_rtv
         - name: "D3D12_BUFFER_SRV"
@@ -893,6 +920,10 @@
           href: /windows/win32/api/d3d12/ns-d3d12-d3d12_feature_data_d3d12_options10
         - name: "D3D12_FEATURE_DATA_D3D12_OPTIONS11"
           href: /windows/win32/api/d3d12/ns-d3d12-d3d12_feature_data_d3d12_options11
+        - name: "D3D12_FEATURE_DATA_D3D12_OPTIONS12"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_feature_data_d3d12_options12
+        - name: "D3D12_FEATURE_DATA_D3D12_OPTIONS13"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_feature_data_d3d12_options13
         - name: "D3D12_FEATURE_DATA_EXISTING_HEAPS"
           href: /windows/win32/api/d3d12/ns-d3d12-d3d12_feature_data_existing_heaps
         - name: "D3D12_FEATURE_DATA_FEATURE_LEVELS"
@@ -921,6 +952,8 @@
           href: /windows/win32/api/d3d12/ns-d3d12-d3d12_feature_data_shader_cache
         - name: "D3D12_FEATURE_DATA_SHADER_MODEL"
           href: /windows/win32/api/d3d12/ns-d3d12-d3d12_feature_data_shader_model
+        - name: "D3D12_GLOBAL_BARRIER"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_global_barrier
         - name: "D3D12_GLOBAL_ROOT_SIGNATURE"
           href: /windows/win32/api/d3d12/ns-d3d12-d3d12_global_root_signature
         - name: "D3D12_GPU_DESCRIPTOR_HANDLE"
@@ -1155,6 +1188,8 @@
           href: /windows/win32/api/d3d12/ns-d3d12-d3d12_texcube_array_srv
         - name: "D3D12_TEXCUBE_SRV"
           href: /windows/win32/api/d3d12/ns-d3d12-d3d12_texcube_srv
+        - name: "D3D12_TEXTURE_BARRIER"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_texture_barrier
         - name: "D3D12_TEXTURE_COPY_LOCATION"
           href: /windows/win32/api/d3d12/ns-d3d12-d3d12_texture_copy_location
         - name: "D3D12_TILE_REGION_SIZE"
@@ -1428,6 +1463,8 @@
           href: /windows/win32/api/d3d12/ne-d3d12-d3d12_tile_range_flags
         - name: "D3D12_TILED_RESOURCES_TIER"
           href: /windows/win32/api/d3d12/ne-d3d12-d3d12_tiled_resources_tier
+        - name: "D3D12_TRI_STATE"
+          href: /windows/win32/api/d3d12/ne-d3d12-d3d12_tri_state
         - name: "D3D12_UAV_DIMENSION"
           href: /windows/win32/api/d3d12/ne-d3d12-d3d12_uav_dimension
         - name: "D3D12_VARIABLE_SHADING_RATE_TIER"
@@ -1491,6 +1528,11 @@
           items: 
           - name: "SetEnableAutoName method"
             href: /windows/win32/api/d3d12sdklayers/nf-d3d12sdklayers-id3d12debug5-setenableautoname
+        - name: "ID3D12Debug6"
+          href: /windows/win32/api/d3d12sdklayers/nn-d3d12sdklayers-id3d12debug6
+          items: 
+          - name: "SetForceLegacyBarrierValidation method"
+            href: /windows/win32/api/d3d12sdklayers/nf-d3d12sdklayers-id3d12debug6-setforcelegacybarriervalidation
         - name: "ID3D12DebugCommandList"
           href: /windows/win32/api/d3d12sdklayers/nn-d3d12sdklayers-id3d12debugcommandlist
           items: 
