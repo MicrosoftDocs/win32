@@ -18,6 +18,8 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - dataprojects.dll
+ - global_controls_mscomct2ocx_f0.3207d1b6_80e5_11d2_b95d_006097c4de24
  - Unknown.dll
 api_name:
  - DLLGetDocumentation
