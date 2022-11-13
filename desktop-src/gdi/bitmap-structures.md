@@ -15,7 +15,7 @@ The following structures are used with bitmaps:
 -   [**BITMAPCOREINFO**](/windows/win32/api/wingdi/ns-wingdi-bitmapcoreinfo)
 -   [**BITMAPFILEHEADER**](/windows/win32/api/wingdi/ns-wingdi-bitmapfileheader)
 -   [**BITMAPINFO**](/windows/win32/api/wingdi/ns-wingdi-bitmapinfo)
--   [**BITMAPINFOHEADER**](/previous-versions//dd183376(v=vs.85))
+-   [**BITMAPINFOHEADER**](/windows/desktop/api/wingdi/ns-wingdi-bitmapinfoheader)
 -   [**BITMAPV4HEADER**](/windows/desktop/api/Wingdi/ns-wingdi-bitmapv4header)
 -   [**BITMAPV5HEADER**](/windows/desktop/api/Wingdi/ns-wingdi-bitmapv5header)
 -   [**BLENDFUNCTION**](/windows/desktop/api/Wingdi/ns-wingdi-blendfunction)
