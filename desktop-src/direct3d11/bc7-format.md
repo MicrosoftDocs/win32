@@ -86,7 +86,7 @@ decompress_bc7(x, y, block)
     }
     
     //extract raw, compressed endpoint bits
-    UINT8 endpoint_array[num_subsets][4] = extract_endpoints(mode, block);
+    UINT8 endpoint_array[2 * num_subsets][4] = extract_endpoints(mode, block);
     
     //decode endpoint color and alpha for each subset
     fully_decode_endpoints(endpoint_array, mode, block);
