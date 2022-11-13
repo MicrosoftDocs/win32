@@ -147,7 +147,7 @@
         - name: "BITMAPINFO"
           href: /windows/win32/api/Wingdi/ns-wingdi-bitmapinfo
         - name: "BITMAPINFOHEADER"
-          href: /previous-versions//dd183376(v=vs.85)
+          href: /windows/desktop/api/wingdi/ns-wingdi-bitmapinfoheader
         - name: "BITMAPV4HEADER"
           href: /windows/desktop/api/Wingdi/ns-wingdi-bitmapv4header
         - name: "BITMAPV5HEADER"
