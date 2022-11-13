@@ -36,7 +36,7 @@ lParam = 0;
 <span id="lpbiPalette"></span><span id="lpbipalette"></span><span id="LPBIPALETTE"></span>*lpbiPalette*
 </dt> <dd>
 
-Pointer to a [**BITMAPINFOHEADER**](/previous-versions//dd183376(v=vs.85)) structure whose color table contains the colors that should be used if possible. You can specify zero to use the default set of output colors.
+Pointer to a [**BITMAPINFOHEADER**](/windows/desktop/api/wingdi/ns-wingdi-bitmapinfoheader) structure whose color table contains the colors that should be used if possible. You can specify zero to use the default set of output colors.
 
 </dd> </dl>
 
