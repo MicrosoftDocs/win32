@@ -200,7 +200,7 @@ WHITE
 
 For more information on the image formats supported by the Ribbon framework, see the following:
 
--   [BITMAPINFOHEADER structure](/previous-versions//dd183376(v=vs.85)) - describes the 32 BPP ARGB pixel format.
+-   [BITMAPINFOHEADER structure](/windows/desktop/api/wingdi/ns-wingdi-bitmapinfoheader) - describes the 32 BPP ARGB pixel format.
 -   [CreateDIBSection function](/windows/win32/api/wingdi/nf-wingdi-createdibsection) - describes how to create a 32 BPP ARGB pixel format image.
 -   [LoadImage function](/windows/win32/api/winuser/nf-winuser-loadimagea) - describes how to load a 32 BPP ARGB pixel format image.
 
