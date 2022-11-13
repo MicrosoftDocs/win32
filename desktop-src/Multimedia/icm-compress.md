@@ -36,7 +36,7 @@ lParam = sizeof(ICCOMPRESS);
 <span id="icc"></span><span id="ICC"></span>*icc*
 </dt> <dd>
 
-Pointer to an [**ICCOMPRESS**](/windows/desktop/api/Vfw/ns-vfw-iccompress) structure. The following members of this structure specify the compression parameters: **lpbiInput**, **lpInput**, **lpbiOutput**, **lpOutput**, **lpbiPrev**, **lpPrev**, **lpckid**, **lpdwFlags**, **dwFrameSize**, and **dwQuality**. The driver should also use the **biSizeImage** member of the [**BITMAPINFOHEADER**](/previous-versions//dd183376(v=vs.85)) structure associated with **lpbiOutput** of **ICCOMPRESS** to return the size of the compressed frame.
+Pointer to an [**ICCOMPRESS**](/windows/desktop/api/Vfw/ns-vfw-iccompress) structure. The following members of this structure specify the compression parameters: **lpbiInput**, **lpInput**, **lpbiOutput**, **lpOutput**, **lpbiPrev**, **lpPrev**, **lpckid**, **lpdwFlags**, **dwFrameSize**, and **dwQuality**. The driver should also use the **biSizeImage** member of the [**BITMAPINFOHEADER**](/windows/desktop/api/wingdi/ns-wingdi-bitmapinfoheader) structure associated with **lpbiOutput** of **ICCOMPRESS** to return the size of the compressed frame.
 
 </dd> <dt>
 
