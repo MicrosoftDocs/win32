@@ -168,6 +168,13 @@ The address of a pointer to the [**SIGNER\_CONTEXT**](signer-context.md) structu
 If present, a pointer to a [**CERT\_STRONG\_SIGN\_PARA**](/windows/desktop/api/Wincrypt/ns-wincrypt-cert_strong_sign_para) structure that contains the parameters used to check for strong signatures. If either a certificate or its chain does not pass, the file is not altered in any way. If a URL is passed in to specify a Time Stamping Authority (TSA), this policy is also applied to the time stamp.
 
 </dd> <dt>
+ 
+*pDigestSignInfo* \[in, optional\]
+ </dt> <dd>
+ 
+ If present, a pointer to a [**SIGNER\_DIGEST\_SIGN\_INFO**](signer-digest-sign-info.md) structure that contains information regarding digest signing. 
+ 
+ </dd> <dt>
 
 *pReserved* 
 </dt> <dd>
@@ -198,8 +205,8 @@ If the function fails, it returns an **HRESULT** value that indicates the error.
 
 | Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                    |
 | DLL<br/>                      | <dl> <dt>Mssign32.dll</dt> </dl> |
 
 
