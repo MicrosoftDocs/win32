@@ -84,28 +84,28 @@ Specifies which digest sign implementation to use.
 **pfnAuthenticodeDigestSign**
 </dt> <dd>
 
-Pointer to the PFN_AUTHENTICODE_DIGEST_SIGN callback function. Required if dwDigestSignChoice==DIGEST_SIGN.
+Pointer to the [PFN_AUTHENTICODE_DIGEST_SIGN](./pfn-authenticode-digest-sign.md) callback function. Required if dwDigestSignChoice==DIGEST_SIGN.
 
 </dd> <dt>
 
 **pfnAuthenticodeDigestSignWithFileHandle**
 </dt> <dd>
 
-Pointer to the PFN_AUTHENTICODE_DIGEST_SIGN_WITHFILEHANDLE callback function. Required if dwDigestSignChoice==DIGEST_SIGN_WITHFILEHANDLE.
+Pointer to the [PFN_AUTHENTICODE_DIGEST_SIGN_WITHFILEHANDLE](./pfn-authenticode-digest-sign-withfilehandle.md) callback function. Required if dwDigestSignChoice==DIGEST_SIGN_WITHFILEHANDLE.
 
 </dd> <dt>
 
 **pfnAuthenticodeDigestSignEx**
 </dt> <dd>
 
-Pointer to the PFN_AUTHENTICODE_DIGEST_SIGN_EX callback function. Required if dwDigestSignChoice==DIGEST_SIGN_EX.
+Pointer to the [PFN_AUTHENTICODE_DIGEST_SIGN_EX](./pfn-authenticode-digest-sign-ex.md) callback function. Required if dwDigestSignChoice==DIGEST_SIGN_EX.
 
 </dd> <dt>
 
 **pfnAuthenticodeDigestSignExWithFileHandle**
 </dt> <dd>
 
-Pointer to the PFN_AUTHENTICODE_DIGEST_SIGN_EX_WITHFILEHANDLE callback function. Required if dwDigestSignChoice==DIGEST_SIGN_EX_WITHFILEHANDLE.
+Pointer to the [PFN_AUTHENTICODE_DIGEST_SIGN_EX_WITHFILEHANDLE](./pfn-authenticode-digest-sign-ex-withfilehandle.md) callback function. Required if dwDigestSignChoice==DIGEST_SIGN_EX_WITHFILEHANDLE.
 
 </dd> <dt>
 
@@ -144,17 +144,7 @@ Reserved. This value must be zero (0).
 | Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows 11 \[desktop apps only\]<br/>          |
-| DLL                           | Mssign32.dll
+| DLL<br/>                      | Mssign32.dll <br/>                             |
 
-
-<!-- 
-## See also
-
-<dl> <dt>
-
-[**SIGNER\_CERT**](signer-cert.md)
-</dt> </dl>
-
-  -->
 
  
