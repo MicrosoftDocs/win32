@@ -22,18 +22,18 @@ The **PFN\_AUTHENTICODE\_DIGEST\_SIGN\_EX\_WITHFILEHANDLE** user supplied callba
 
 
 ```C++
-PFN_AUTHENTICODE_DIGEST_SIGN_WITHFILEHANDLE pfnAuthenticodeDigestSignWithFileHandle;
+PFN_AUTHENTICODE_DIGEST_SIGN_EX_WITHFILEHANDLE pfnAuthenticodeDigestSignExWithFileHandle;
 
-HRESULT __stdcall pfnAuthenticodeDigestSignWithFileHandle(
-    _In_ PCCERT_CONTEXT pSigningCert,                        
+HRESULT __stdcall pfnAuthenticodeDigestSignExWithFileHandle(
     _In_opt_ PCRYPT_DATA_BLOB pMetadataBlob,                 
     _In_ ALG_ID digestAlgId,                                 
     _In_ PBYTE pbToBeSignedDigest, 
-    _In_ DWORD cbToBeSignedDigest,    
-    _In_ HANDLE hFile,                   
-    _Out_ PCRYPT_DATA_BLOB pSignedDigest                     
+    _In_ DWORD cbToBeSignedDigest,                           
+    _In_ HANDLE hFile,
+    _Out_ PCRYPT_DATA_BLOB pSignedDigest,                  
+    _Out_ PCCERT_CONTEXT* ppSignerCert,                      
+    _Inout_ HCERTSTORE hCertChainStore                       
 );
-
 
 
 ```
@@ -43,13 +43,6 @@ HRESULT __stdcall pfnAuthenticodeDigestSignWithFileHandle(
 ## Parameters
 
 <dl> <dt>
-
-*pSigningCert* \[in\]
-</dt> <dd>
-
-Pointer to a CERT_CONTEXT structure that specifies the certificate used to create the digital signature. 
-
-</dd><dt>
 
 *pMetadataBlob* \[in, optional\]
 </dt> <dd>
@@ -89,7 +82,21 @@ Handle to the file being signed.
 
 Pointer to CRYPT_DATA_BLOB which receives the signed digest.
 
-</dd> </dl>
+</dd> <dt>
+
+*pSignerCert* \[out\]
+</dt> <dd>
+
+Pointer to PCCERT_CONTEXT\* which receives the certificate chain signing certificate.
+
+</dd> <dt>
+
+*hCertChainStore* \[in, out, optional\]
+</dt> <dd>
+
+Optional, receives the cert chain of the signer cert.
+
+</dd></dl>
 
 ## Return value
 
