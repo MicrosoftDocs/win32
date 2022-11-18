@@ -152,7 +152,7 @@ From each of the three query states, here are the [**GetData**](/windows/win32/a
 
  
 
-For example, when a query is in the issued state and the answer to the query is not available, [**GetData**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3dquery9-getdata) returns S\_FALSE. When the resource finishes its work and the application has issued a query end, the resource transitions the query to the signaled state. From the signaled state, **GetData** returns S\_OK which means that the answer to the query is also returned in *pData*. For instance, here is the sequence of events to return the number of pixels drawn in a render sequence:
+For example, when a query is in the issued state and the answer to the query is not available, [**GetData**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3dquery9-getdata) returns S\_FALSE. When the resource finishes its work and the application has issued a query end, the resource transitions the query to the signaled state. From the signaled state, **GetData** returns S\_OK which means that the answer to the query is also returned in *pData*. For instance, here is the sequence of events to return the number of pixels (or samples when multisampling is enabled) drawn in a render sequence:
 
 -   Create the query.
 -   Issue a begin event.
@@ -164,7 +164,7 @@ The following is the corresponding sequence of code:
 
 ```
 IDirect3DQuery9* pOcclusionQuery;
-DWORD numberOfPixelsDrawn;
+DWORD numberOfSamplesDrawn;
 
 m_pD3DDevice->CreateQuery(D3DQUERYTYPE_OCCLUSION, &pOcclusionQuery);
 
@@ -181,16 +181,19 @@ pOcclusionQuery->Issue(D3DISSUE_END);
 
 // Force the driver to execute the commands from the command buffer.
 // Empty the command buffer and wait until the GPU is idle.
-while(S_FALSE == pOcclusionQuery->GetData( &numberOfPixelsDrawn, 
+while(S_FALSE == pOcclusionQuery->GetData( &numberOfSamplesDrawn, 
                                   sizeof(DWORD), D3DGETDATA_FLUSH ))
     ;
+
+// To get the number of pixels drawn when multisampling is enabled,
+// divide numberOfSamplesDrawn by the sample count of the render target.
 ```
 
 
 
 These lines of code do several things:
 
--   Call [**GetData**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3dquery9-getdata) to return the number of pixels drawn.
+-   Call [**GetData**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3dquery9-getdata) to return the number of pixels/samples drawn.
 -   Specify [**D3DGETDATA\_FLUSH**](d3dgetdata-flush.md) to enable the resource to transition the query to the signaled state.
 -   Poll the query resource by calling [**GetData**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3dquery9-getdata) from a loop. As long as **GetData** returns S\_FALSE, this means the resource has not returned the answer yet.
 
@@ -200,7 +203,7 @@ The return value of [**GetData**](/windows/win32/api/d3d9helper/nf-d3d9helper-id
 -   S\_FALSE means the resource (GPU or driver, or runtime) cannot return an answer yet. This could be because the GPU is not finished or has not seen the work yet.
 -   An error means that the query has generated an error from which it cannot recover. This could be the case if the device is lost during a query. Once a query has generated an error (other than S\_FALSE), the query must be recreated which will restart the query sequence from the signaled state.
 
-Instead of specifying [**D3DGETDATA\_FLUSH**](d3dgetdata-flush.md), which provides more up-to-date information, you could supply zero which is a more light-weight check if the query is in the issued state. Supplying zero will cause [**GetData**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3dquery9-getdata) to not flush the command buffer. For this reason, care must be taken to avoid infinate loops (see **GetData** for details). Since the runtime queues up work in the command buffer, **D3DGETDATA\_FLUSH** is a mechanism for flushing the command buffer to the driver (and hence the GPU; see [Accurately Profiling Direct3D API Calls (Direct3D 9)](accurately-profiling-direct3d-api-calls.md)). During the command buffer flush, a query may transition to the signaled state.
+Instead of specifying [**D3DGETDATA\_FLUSH**](d3dgetdata-flush.md), which provides more up-to-date information, you could supply zero which is a more light-weight check if the query is in the issued state. Supplying zero will cause [**GetData**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3dquery9-getdata) to not flush the command buffer. For this reason, care must be taken to avoid infinite loops (see **GetData** for details). Since the runtime queues up work in the command buffer, **D3DGETDATA\_FLUSH** is a mechanism for flushing the command buffer to the driver (and hence the GPU; see [Accurately Profiling Direct3D API Calls (Direct3D 9)](accurately-profiling-direct3d-api-calls.md)). During the command buffer flush, a query may transition to the signaled state.
 
 ## Example: An Event Query
 
