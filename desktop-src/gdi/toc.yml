@@ -147,7 +147,7 @@
         - name: "BITMAPINFO"
           href: /windows/win32/api/Wingdi/ns-wingdi-bitmapinfo
         - name: "BITMAPINFOHEADER"
-          href: /previous-versions//dd183376(v=vs.85)
+          href: /windows/win32/api/wingdi/ns-wingdi-bitmapinfoheader
         - name: "BITMAPV4HEADER"
           href: /windows/desktop/api/Wingdi/ns-wingdi-bitmapv4header
         - name: "BITMAPV5HEADER"
@@ -167,7 +167,7 @@
         - name: "RGBTRIPLE"
           href: /windows/win32/api/Wingdi/ns-wingdi-rgbtriple
         - name: "SIZE"
-          href: /previous-versions//dd145106(v=vs.85)
+          href: /windows/win32/api/windef/ns-windef-size
         - name: "TRIVERTEX"
           href: /windows/win32/api/Wingdi/ns-wingdi-trivertex
       - name: "Bitmap Macros"
@@ -1307,9 +1307,9 @@
         - name: "METARECORD"
           href: /windows/win32/api/Wingdi/ns-wingdi-metarecord
         - name: "POINTL"
-          href: /previous-versions//dd162807(v=vs.85)
+          href: /windows/win32/api/windef/ns-windef-pointl
         - name: "RECTL"
-          href: /previous-versions//dd162907(v=vs.85)
+          href: /windows/win32/api/windef/ns-windef-rectl
   - name: "Multiple Display Monitors"
     href: multiple-display-monitors.md
     items: 
@@ -1704,11 +1704,11 @@
         href: rectangle-structures.md
         items: 
         - name: "POINT"
-          href: /previous-versions//dd162805(v=vs.85)
+          href: /windows/win32/api/windef/ns-windef-point
         - name: "POINTS"
-          href: /previous-versions//dd162808(v=vs.85)
+          href: /windows/win32/api/windef/ns-windef-points
         - name: "RECT"
-          href: /previous-versions//dd162897(v=vs.85)
+          href: /windows/win32/api/windef/ns-windef-rect
       - name: "Rectangle Macros"
         href: rectangle-macros.md
         items: 

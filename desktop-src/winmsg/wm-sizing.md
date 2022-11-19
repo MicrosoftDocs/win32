@@ -50,7 +50,7 @@ The edge of the window that is being sized. This parameter can be one of the fol
 *lParam* 
 </dt> <dd>
 
-A pointer to a [**RECT**](/previous-versions//dd162897(v=vs.85)) structure with the screen coordinates of the drag rectangle. To change the size or position of the drag rectangle, an application must change the members of this structure.
+A pointer to a [**RECT**](/windows/win32/api/windef/ns-windef-rect) structure with the screen coordinates of the drag rectangle. To change the size or position of the drag rectangle, an application must change the members of this structure.
 
 </dd> </dl>
 
@@ -94,7 +94,7 @@ An application should return **TRUE** if it processes this message.
 **Other Resources**
 </dt> <dt>
 
-[**RECT**](/previous-versions//dd162897(v=vs.85))
+[**RECT**](/windows/win32/api/windef/ns-windef-rect)
 </dt> </dl>
 
  

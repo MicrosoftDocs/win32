@@ -34,7 +34,7 @@ Zero-based index of the band for which the borders will be retrieved.
 *lParam* 
 </dt> <dd>
 
-Pointer to a [**RECT**](/previous-versions//dd162897(v=vs.85)) structure that will receive the band borders. If the rebar control has the [**RBS\_BANDBORDERS**](rebar-control-styles.md) style, each member of this structure will receive the number of pixels, on the corresponding side of the band, that constitute the border. If the rebar control does not have the **RBS\_BANDBORDERS** style, only the **left** member of this structure receives valid information.
+Pointer to a [**RECT**](/windows/win32/api/windef/ns-windef-rect) structure that will receive the band borders. If the rebar control has the [**RBS\_BANDBORDERS**](rebar-control-styles.md) style, each member of this structure will receive the number of pixels, on the corresponding side of the band, that constitute the border. If the rebar control does not have the **RBS\_BANDBORDERS** style, only the **left** member of this structure receives valid information.
 
 </dd> </dl>
 

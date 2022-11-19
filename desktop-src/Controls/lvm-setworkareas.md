@@ -34,7 +34,7 @@ The number of structures in the array at *lprc*. The maximum number of working a
 *lParam* 
 </dt> <dd>
 
-Pointer to an array of [**RECT**](/previous-versions//dd162897(v=vs.85)) structures that contain the new working areas of the list-view control. Values in these structures are in client coordinates. If this parameter is **NULL**, the working area will be set to the client area of the control. *wParam* specifies the number of structures in this array.
+Pointer to an array of [**RECT**](/windows/win32/api/windef/ns-windef-rect) structures that contain the new working areas of the list-view control. Values in these structures are in client coordinates. If this parameter is **NULL**, the working area will be set to the client area of the control. *wParam* specifies the number of structures in this array.
 
 </dd> </dl>
 

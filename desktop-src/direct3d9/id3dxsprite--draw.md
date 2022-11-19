@@ -51,9 +51,9 @@ Pointer to an [**IDirect3DTexture9**](/windows/win32/api/d3d9helper/nn-d3d9helpe
 *pSrcRect* \[in\]
 </dt> <dd>
 
-Type: **const [**RECT**](/previous-versions//dd162897(v=vs.85))\***
+Type: **const [**RECT**](/windows/win32/api/windef/ns-windef-rect)\***
 
-Pointer to a [**RECT**](/previous-versions//dd162897(v=vs.85)) structure that indicates the portion of the source texture to use for the sprite. If this parameter is **NULL**, then the entire source image is used for the sprite.
+Pointer to a [**RECT**](/windows/win32/api/windef/ns-windef-rect) structure that indicates the portion of the source texture to use for the sprite. If this parameter is **NULL**, then the entire source image is used for the sprite.
 
 </dd> <dt>
 

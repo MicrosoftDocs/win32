@@ -34,7 +34,7 @@ Index of the subitem's parent item.
 *lParam* 
 </dt> <dd>
 
-Pointer to a [**RECT**](/previous-versions//dd162897(v=vs.85)) structure that will receive the subitem bounding rectangle information. Its members must be initialized according to the following member/value relationships:
+Pointer to a [**RECT**](/windows/win32/api/windef/ns-windef-rect) structure that will receive the subitem bounding rectangle information. Its members must be initialized according to the following member/value relationships:
 
 
 

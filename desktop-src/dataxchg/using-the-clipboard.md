@@ -541,7 +541,7 @@ case WM_DESTROYCLIPBOARD:
 If a window places information on the clipboard by using the `CF_OWNERDISPLAY` clipboard format, it must do the following:
 
 - Process the [`WM_PAINTCLIPBOARD`](wm-paintclipboard.md) message. This message is sent to the clipboard owner when a portion of the clipboard viewer window must be repainted.
-- Process the [`WM_SIZECLIPBOARD`](wm-sizeclipboard.md) message. This message is sent to the clipboard owner when the clipboard viewer window has been resized or its content has changed. Typically, a window responds to this message by setting the scroll positions and ranges for the clipboard viewer window. In response to this message, the Label application also updates a [`SIZE`](/previous-versions//dd145106(v=vs.85)) structure for the clipboard viewer window.
+- Process the [`WM_SIZECLIPBOARD`](wm-sizeclipboard.md) message. This message is sent to the clipboard owner when the clipboard viewer window has been resized or its content has changed. Typically, a window responds to this message by setting the scroll positions and ranges for the clipboard viewer window. In response to this message, the Label application also updates a [`SIZE`](/windows/win32/api/windef/ns-windef-size) structure for the clipboard viewer window.
 - Process the [`WM_HSCROLLCLIPBOARD`](wm-hscrollclipboard.md) and [`WM_VSCROLLCLIPBOARD`](wm-vscrollclipboard.md) messages. These messages are sent to the clipboard owner when a scroll bar event occurs in the clipboard viewer window.
 - Process the [`WM_ASKCBFORMATNAME`](wm-askcbformatname.md) message. The clipboard viewer window sends this message to an application to retrieve the name of the owner-display format.
 

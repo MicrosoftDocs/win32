@@ -41,7 +41,7 @@ A handle to the clipboard viewer window.
 *lParam* 
 </dt> <dd>
 
-A handle to a global memory object that contains a [**RECT**](/previous-versions//dd162897(v=vs.85)) structure. The structure specifies the new dimensions of the clipboard viewer's client area.
+A handle to a global memory object that contains a [**RECT**](/windows/win32/api/windef/ns-windef-rect) structure. The structure specifies the new dimensions of the clipboard viewer's client area.
 
 </dd> </dl>
 
@@ -53,7 +53,7 @@ If an application processes this message, it should return zero.
 
 When the clipboard viewer window is about to be destroyed or resized, a **WM\_SIZECLIPBOARD** message is sent with a null rectangle (0, 0, 0, 0) as the new size. This permits the clipboard owner to free its display resources.
 
-The clipboard owner must use the [**GlobalLock**](/windows/desktop/api/winbase/nf-winbase-globallock) function to lock the memory object that contains [**RECT**](/previous-versions//dd162897(v=vs.85)). Before returning, the clipboard owner must unlock the object by using the [**GlobalUnlock**](/windows/desktop/api/winbase/nf-winbase-globalunlock) function.
+The clipboard owner must use the [**GlobalLock**](/windows/desktop/api/winbase/nf-winbase-globallock) function to lock the memory object that contains [**RECT**](/windows/win32/api/windef/ns-windef-rect). Before returning, the clipboard owner must unlock the object by using the [**GlobalUnlock**](/windows/desktop/api/winbase/nf-winbase-globalunlock) function.
 
 ## Requirements
 

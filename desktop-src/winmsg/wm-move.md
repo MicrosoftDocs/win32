@@ -57,7 +57,7 @@ yPos = (int)(short) HIWORD(lParam);   // vertical position
 
 
 
-You can also use the [**MAKEPOINTS**](/windows/win32/api/wingdi/nf-wingdi-makepoints) macro to convert the *lParam* parameter to a [**POINTS**](/previous-versions//dd162808(v=vs.85)) structure.
+You can also use the [**MAKEPOINTS**](/windows/win32/api/wingdi/nf-wingdi-makepoints) macro to convert the *lParam* parameter to a [**POINTS**](/windows/win32/api/windef/ns-windef-points) structure.
 
 The [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) function
 sends the **WM\_SIZE** and **WM\_MOVE** messages when it processes
@@ -105,7 +105,7 @@ the **WM\_WINDOWPOSCHANGED** message without calling **DefWindowProc**.
 [**MAKEPOINTS**](/windows/win32/api/wingdi/nf-wingdi-makepoints)
 </dt> <dt>
 
-[**POINTS**](/previous-versions//dd162808(v=vs.85))
+[**POINTS**](/windows/win32/api/windef/ns-windef-points)
 </dt> </dl>
 
  

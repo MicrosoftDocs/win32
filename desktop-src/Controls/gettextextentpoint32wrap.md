@@ -72,7 +72,7 @@ The length, in bytes, of the string pointed to by *lpString*.
 
 Type: **LPSIZE**
 
-When this method returns, contains a pointer to a [**SIZE**](/previous-versions//dd145106(v=vs.85)) structure containing the dimensions of the string, in logical units.
+When this method returns, contains a pointer to a [**SIZE**](/windows/win32/api/windef/ns-windef-size) structure containing the dimensions of the string, in logical units.
 
 </dd> </dl>
 

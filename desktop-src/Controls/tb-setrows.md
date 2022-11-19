@@ -36,7 +36,7 @@ The [**HIWORD**](/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)) is
 *lParam* 
 </dt> <dd>
 
-Pointer to a [**RECT**](/previous-versions//dd162897(v=vs.85)) structure that receives the bounding rectangle of the toolbar after the rows are set.
+Pointer to a [**RECT**](/windows/win32/api/windef/ns-windef-rect) structure that receives the bounding rectangle of the toolbar after the rows are set.
 
 </dd> </dl>
 

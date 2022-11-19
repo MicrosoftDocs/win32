@@ -36,7 +36,7 @@ This parameter is not used.
 
 The coordinates of a point in the control's client area. The coordinates are in screen units and are relative to the upper-left corner of the control's client area.
 
-**Rich edit controls:** A pointer to a [**POINTL**](/previous-versions//dd162807(v=vs.85)) structure that contains the horizontal and vertical coordinates.
+**Rich edit controls:** A pointer to a [**POINTL**](/windows/win32/api/windef/ns-windef-pointl) structure that contains the horizontal and vertical coordinates.
 
 **Edit controls:** The [**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) contains the horizontal coordinate. The [**HIWORD**](/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)) contains the vertical coordinate.
 
@@ -82,7 +82,7 @@ If a point is passed to **EM\_CHARFROMPOS** as the *lParam* and the point is out
 [**MAKELPARAM**](/windows/desktop/api/winuser/nf-winuser-makelparam)
 </dt> <dt>
 
-[**POINTL**](/previous-versions//dd162807(v=vs.85))
+[**POINTL**](/windows/win32/api/windef/ns-windef-pointl)
 </dt> </dl>
 
  

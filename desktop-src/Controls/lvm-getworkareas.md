@@ -27,14 +27,14 @@ Retrieves the working areas from a list-view control. You can send this message 
 *wParam* 
 </dt> <dd>
 
-The number of [**RECT**](/previous-versions//dd162897(v=vs.85)) structures in the array at *lParam*.
+The number of [**RECT**](/windows/win32/api/windef/ns-windef-rect) structures in the array at *lParam*.
 
 </dd> <dt>
 
 *lParam* 
 </dt> <dd>
 
-Pointer to an array of [**RECT**](/previous-versions//dd162897(v=vs.85)) structures that receive the current working areas of the list-view control. Values in these structures are in client coordinates. *wParam* specifies the number of structures in this array.
+Pointer to an array of [**RECT**](/windows/win32/api/windef/ns-windef-rect) structures that receive the current working areas of the list-view control. Values in these structures are in client coordinates. *wParam* specifies the number of structures in this array.
 
 </dd> </dl>
 

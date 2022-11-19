@@ -65,9 +65,9 @@ Pointer to a [**PALETTEENTRY**](/windows/win32/api/wingdi/ns-wingdi-paletteentry
 *pDestRect* \[in\]
 </dt> <dd>
 
-Type: **const [**RECT**](/previous-versions//dd162897(v=vs.85))\***
+Type: **const [**RECT**](/windows/win32/api/windef/ns-windef-rect)\***
 
-Pointer to a [**RECT**](/previous-versions//dd162897(v=vs.85)) structure. Specifies the destination rectangle. Set this parameter to **NULL** to specify the entire surface.
+Pointer to a [**RECT**](/windows/win32/api/windef/ns-windef-rect) structure. Specifies the destination rectangle. Set this parameter to **NULL** to specify the entire surface.
 
 </dd> <dt>
 
@@ -110,9 +110,9 @@ Pointer to a [**PALETTEENTRY**](/windows/win32/api/wingdi/ns-wingdi-paletteentry
 *pSrcRect* \[in\]
 </dt> <dd>
 
-Type: **const [**RECT**](/previous-versions//dd162897(v=vs.85))\***
+Type: **const [**RECT**](/windows/win32/api/windef/ns-windef-rect)\***
 
-Pointer to a [**RECT**](/previous-versions//dd162897(v=vs.85)) structure. Specifies the dimensions of the source image in memory. This value cannot be **NULL**.
+Pointer to a [**RECT**](/windows/win32/api/windef/ns-windef-rect) structure. Specifies the dimensions of the source image in memory. This value cannot be **NULL**.
 
 </dd> <dt>
 

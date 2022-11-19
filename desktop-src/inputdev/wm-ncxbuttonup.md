@@ -56,7 +56,7 @@ The high-order word indicates which button was released. It can be one of the fo
 *lParam* 
 </dt> <dd>
 
-A pointer to a [**POINTS**](/previous-versions//dd162808(v=vs.85)) structure that contains the x- and y-coordinates of the cursor. The coordinates are relative to the upper-left corner of the screen.
+A pointer to a [**POINTS**](/windows/win32/api/windef/ns-windef-points) structure that contains the x- and y-coordinates of the cursor. The coordinates are relative to the upper-left corner of the screen.
 
 </dd> </dl>
 
@@ -147,7 +147,7 @@ Unlike the [**WM\_NCLBUTTONUP**](wm-nclbuttonup.md), [**WM\_NCMBUTTONUP**](wm-nc
 [**MAKEPOINTS**](/windows/desktop/api/wingdi/nf-wingdi-makepoints)
 </dt> <dt>
 
-[**POINTS**](/previous-versions//dd162808(v=vs.85))
+[**POINTS**](/windows/win32/api/windef/ns-windef-points)
 </dt> </dl>
 
  

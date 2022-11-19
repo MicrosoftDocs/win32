@@ -83,9 +83,9 @@ Values that specify how to use the application-defined rectangle. See [**ExtText
 *lprc* \[in\]
 </dt> <dd>
 
-Type: **const [**RECT**](/previous-versions//dd162897(v=vs.85))\***
+Type: **const [**RECT**](/windows/win32/api/windef/ns-windef-rect)\***
 
-A pointer to an optional [**RECT**](/previous-versions//dd162897(v=vs.85)) structure that specifies the dimensions, in logical coordinates, of a rectangle that is used for clipping, opacity, or both.
+A pointer to an optional [**RECT**](/windows/win32/api/windef/ns-windef-rect) structure that specifies the dimensions, in logical coordinates, of a rectangle that is used for clipping, opacity, or both.
 
 </dd> <dt>
 

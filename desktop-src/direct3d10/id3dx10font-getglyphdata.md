@@ -59,7 +59,7 @@ Address of a pointer to a ID3D10Texture object that contains the glyph.
 *pBlackBox* \[in\]
 </dt> <dd>
 
-Type: **[**RECT**](/previous-versions//dd162897(v=vs.85))\***
+Type: **[**RECT**](/windows/win32/api/windef/ns-windef-rect)\***
 
 Pointer to the smallest rectangle object that completely encloses the glyph. See [RECT](/previous-versions//ms536136(v=vs.85)).
 

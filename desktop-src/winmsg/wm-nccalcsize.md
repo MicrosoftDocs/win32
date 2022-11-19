@@ -37,7 +37,7 @@ If *wParam* is **FALSE**, the application does not need to indicate the valid pa
 
 If *wParam* is **TRUE**, *lParam* points to an [**NCCALCSIZE\_PARAMS**](/windows/win32/api/winuser/ns-winuser-nccalcsize_params) structure that contains information an application can use to calculate the new size and position of the client rectangle.
 
-If *wParam* is **FALSE**, *lParam* points to a [**RECT**](/previous-versions//dd162897(v=vs.85)) structure. On entry, the structure contains the proposed window rectangle for the window. On exit, the structure should contain the screen coordinates of the corresponding window client area.
+If *wParam* is **FALSE**, *lParam* points to a [**RECT**](/windows/win32/api/windef/ns-windef-rect) structure. On entry, the structure contains the proposed window rectangle for the window. On exit, the structure should contain the screen coordinates of the corresponding window client area.
 
 </dd> </dl>
 
@@ -116,7 +116,7 @@ Starting with Windows Vista, removing the standard frame by simply returning 0 w
 **Other Resources**
 </dt> <dt>
 
-[**RECT**](/previous-versions//dd162897(v=vs.85))
+[**RECT**](/windows/win32/api/windef/ns-windef-rect)
 </dt> </dl>
 
  

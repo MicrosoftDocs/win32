@@ -36,7 +36,7 @@ Must be zero.
 *lParam* 
 </dt> <dd>
 
-Pointer to a [**SIZE**](/previous-versions//dd145106(v=vs.85)) structure whose **cy** member contains the bounding height. The **cx** member (the width) is ignored.
+Pointer to a [**SIZE**](/windows/win32/api/windef/ns-windef-size) structure whose **cy** member contains the bounding height. The **cx** member (the width) is ignored.
 
 </dd> </dl>
 

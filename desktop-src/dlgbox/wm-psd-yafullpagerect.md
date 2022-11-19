@@ -42,7 +42,7 @@ A handle to the device context for the sample page.
 *lParam* 
 </dt> <dd>
 
-A pointer to a [**RECT**](/previous-versions//dd162897(v=vs.85)) structure that contains the coordinates, in pixels, of the sample page.
+A pointer to a [**RECT**](/windows/win32/api/windef/ns-windef-rect) structure that contains the coordinates, in pixels, of the sample page.
 
 </dd> </dl>
 

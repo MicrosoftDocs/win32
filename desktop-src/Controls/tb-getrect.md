@@ -34,7 +34,7 @@ Command identifier of the button.
 *lParam* 
 </dt> <dd>
 
-Pointer to a [**RECT**](/previous-versions//dd162897(v=vs.85)) structure that will receive the bounding rectangle information.
+Pointer to a [**RECT**](/windows/win32/api/windef/ns-windef-rect) structure that will receive the bounding rectangle information.
 
 </dd> </dl>
 

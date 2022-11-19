@@ -34,7 +34,7 @@ Operation to perform. If this parameter is **TRUE**, *lParam* specifies a displa
 *lParam* 
 </dt> <dd>
 
-Pointer to a [**RECT**](/previous-versions//dd162897(v=vs.85)) structure that specifies the given rectangle and receives the calculated rectangle.
+Pointer to a [**RECT**](/windows/win32/api/windef/ns-windef-rect) structure that specifies the given rectangle and receives the calculated rectangle.
 
 </dd> </dl>
 

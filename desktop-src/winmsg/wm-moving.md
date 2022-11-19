@@ -33,7 +33,7 @@ This parameter is not used.
 *lParam* 
 </dt> <dd>
 
-A pointer to a [**RECT**](/previous-versions//dd162897(v=vs.85)) structure with the current position of the window, in screen coordinates. To change the position of the drag rectangle, an application must change the members of this structure.
+A pointer to a [**RECT**](/windows/win32/api/windef/ns-windef-rect) structure with the current position of the window, in screen coordinates. To change the position of the drag rectangle, an application must change the members of this structure.
 
 </dd> </dl>
 
@@ -77,7 +77,7 @@ An application should return **TRUE** if it processes this message.
 **Other Resources**
 </dt> <dt>
 
-[**RECT**](/previous-versions//dd162897(v=vs.85))
+[**RECT**](/windows/win32/api/windef/ns-windef-rect)
 </dt> </dl>
 
  

@@ -61,7 +61,7 @@ The following code confines the cursor to the client area of the window.
 
 
 
-[**ClipCursor**](/windows/desktop/api/winuser/nf-winuser-clipcursor) takes a [**RECT**](/previous-versions//dd162897(v=vs.85)) structure, but [**ClientToScreen**](/windows/desktop/api/winuser/nf-winuser-clienttoscreen) takes a [**POINT**](/previous-versions//dd162805(v=vs.85)) structure. A rectangle is defined by its top-left and bottom-right points. You can confine the cursor to any rectangular area, including areas outside the window, but confining the cursor to the client area is a typical way to use the function. Confining the cursor to a region entirely outside your window would be unusual, and users would probably perceive it as a bug.
+[**ClipCursor**](/windows/desktop/api/winuser/nf-winuser-clipcursor) takes a [**RECT**](/windows/win32/api/windef/ns-windef-rect) structure, but [**ClientToScreen**](/windows/desktop/api/winuser/nf-winuser-clienttoscreen) takes a [**POINT**](/windows/win32/api/windef/ns-windef-point) structure. A rectangle is defined by its top-left and bottom-right points. You can confine the cursor to any rectangular area, including areas outside the window, but confining the cursor to the client area is a typical way to use the function. Confining the cursor to a region entirely outside your window would be unusual, and users would probably perceive it as a bug.
 
 To remove the restriction, call [**ClipCursor**](/windows/desktop/api/winuser/nf-winuser-clipcursor) with the value **NULL**.
 

@@ -69,7 +69,7 @@ In addition, there's a 2D rectangle structure defined in D3D11.h.
 typedef RECT D3D11_RECT;
 ```
 
-For documentation, see [RECT](/previous-versions/dd162897%28v%3dvs.85%29) in [Windows GDI](../gdi/windows-gdi.md).
+For documentation, see [RECT](/windows/win32/api/windef/ns-windef-rect) in [Windows GDI](../gdi/windows-gdi.md).
 
 ## Related topics
 

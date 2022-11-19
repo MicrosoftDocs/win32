@@ -30,7 +30,7 @@ Attempts to find the best layout of the bands for the given rectangle.
 *lParam* 
 </dt> <dd>
 
-Pointer to a [**RECT**](/previous-versions//dd162897(v=vs.85)) structure that specifies the rectangle to which the rebar control should be sized.
+Pointer to a [**RECT**](/windows/win32/api/windef/ns-windef-rect) structure that specifies the rectangle to which the rebar control should be sized.
 
 </dd> </dl>
 

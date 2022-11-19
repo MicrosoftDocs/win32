@@ -53,7 +53,7 @@ Type: **void\***
 
 </dd> <dd>
 
-Pointer to the locked bits. If a [**RECT**](/previous-versions//dd162897(v=vs.85)) was provided to the [**LockRect**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3dsurface9-lockrect) call, pBits will be appropriately offset from the start of the surface.
+Pointer to the locked bits. If a [**RECT**](/windows/win32/api/windef/ns-windef-rect) was provided to the [**LockRect**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3dsurface9-lockrect) call, pBits will be appropriately offset from the start of the surface.
 
 </dd> </dl>
 

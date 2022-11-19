@@ -28,7 +28,7 @@ Retrieves the rectangle that bounds the insertion point.
 </dt> <dd>Not used; must be zero.</dd> <dt>
 
 *lParam* 
-</dt> <dd>Pointer to a <a href="/previous-versions//dd162897(v=vs.85)">**RECT**</a> structure that contains the coordinates of a rectangle that bounds the insertion point.</dd> </dl>
+</dt> <dd>Pointer to a <a href="/windows/win32/api/windef/ns-windef-rect">**RECT**</a> structure that contains the coordinates of a rectangle that bounds the insertion point.</dd> </dl>
 
 ## Return value
 

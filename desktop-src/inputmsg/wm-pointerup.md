@@ -122,7 +122,7 @@ yPos = GET_Y_LPARAM(lParam);
 
 
 
-The [**MAKEPOINTS**](/windows/win32/api/wingdi/nf-wingdi-makepoints) macro can also be used to convert the lParam parameter to a [**POINTS**](/previous-versions//dd162808(v=vs.85)) structure.
+The [**MAKEPOINTS**](/windows/win32/api/wingdi/nf-wingdi-makepoints) macro can also be used to convert the lParam parameter to a [**POINTS**](/windows/win32/api/windef/ns-windef-points) structure.
 
 The [**GetKeyState**](/windows/win32/api/winuser/nf-winuser-getkeystate) function can be used to determine the keyboard modifier key states associated with this message. For example, to detect that the ALT key was pressed, check whether **GetKeyState**(VK_MENU) &lt; 0.
 

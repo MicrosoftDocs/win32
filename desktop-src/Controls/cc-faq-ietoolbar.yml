@@ -72,14 +72,14 @@ sections:
       - question: |
           Handling Chevrons
         answer: |
-          When a user clicks a chevron, the rebar control sends your application an [RBN\_CHEVRONPUSHED](rbn-chevronpushed.md) notification. The [**NMREBARCHEVRON**](/windows/win32/api/commctrl/ns-commctrl-nmrebarchevron) structure that is passed with the notification contains the band's identifier and a [**RECT**](/previous-versions//dd162897(v=vs.85)) structure with the rectangle that is occupied by the chevron. Your handler must determine which buttons are hidden and display the associated commands on a pop-up menu.
+          When a user clicks a chevron, the rebar control sends your application an [RBN\_CHEVRONPUSHED](rbn-chevronpushed.md) notification. The [**NMREBARCHEVRON**](/windows/win32/api/commctrl/ns-commctrl-nmrebarchevron) structure that is passed with the notification contains the band's identifier and a [**RECT**](/windows/win32/api/windef/ns-windef-rect) structure with the rectangle that is occupied by the chevron. Your handler must determine which buttons are hidden and display the associated commands on a pop-up menu.
           
           The following procedure outlines how to handle an [RBN\_CHEVRONPUSHED](rbn-chevronpushed.md) notification:
           
           1.  Retrieve the current bounding rectangle for the selected band by sending the rebar control an [**RB\_GETRECT**](rb-getrect.md) message.
           2.  Retrieve the total number of buttons by sending the band's toolbar control a [**TB\_BUTTONCOUNT**](tb-buttoncount.md) message.
           3.  Starting from the leftmost button, retrieve the button's bounding rectangle by sending the toolbar control a [**TB\_GETITEMRECT**](tb-getitemrect.md) message.
-          4.  Pass the band and button rectangles to the [**IntersectRect**](/windows/desktop/api/winuser/nf-winuser-intersectrect) function. This function will return a [**RECT**](/previous-versions//dd162897(v=vs.85)) structure that corresponds to the visible portion of the button.
+          4.  Pass the band and button rectangles to the [**IntersectRect**](/windows/desktop/api/winuser/nf-winuser-intersectrect) function. This function will return a [**RECT**](/windows/win32/api/windef/ns-windef-rect) structure that corresponds to the visible portion of the button.
           5.  Pass the button rectangle and the rectangle for the visible portion of the button to the [**EqualRect**](/windows/desktop/api/winuser/nf-winuser-equalrect) function.
           6.  If [**EqualRect**](/windows/desktop/api/winuser/nf-winuser-equalrect) returns **TRUE**, the entire button is visible. Repeat steps 3-5 for the next button on the toolbar. If **EqualRect** returns **FALSE**, the button is at least partially hidden and all remaining buttons will be completely hidden. Continue to the next step.
           7.  Create a pop-up menu with items for each of the hidden buttons.

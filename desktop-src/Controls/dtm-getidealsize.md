@@ -34,7 +34,7 @@ Not used. Must be zero.
 *lParam* 
 </dt> <dd>
 
-A pointer to a [**SIZE**](/previous-versions//dd145106(v=vs.85)) structure to receive the ideal size. The calling application is responsible for allocating this structure.
+A pointer to a [**SIZE**](/windows/win32/api/windef/ns-windef-size) structure to receive the ideal size. The calling application is responsible for allocating this structure.
 
 </dd> </dl>
 

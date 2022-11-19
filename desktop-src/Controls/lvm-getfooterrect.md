@@ -34,7 +34,7 @@ Not used. Must be 0.
 *lParam* \[in, out\]
 </dt> <dd>
 
-A pointer to a [**RECT**](/previous-versions//dd162897(v=vs.85)) structure to receive the coordinates. The calling process is responsible for allocating this structure. The coordinates received are expressed as client coordinates.
+A pointer to a [**RECT**](/windows/win32/api/windef/ns-windef-rect) structure to receive the coordinates. The calling process is responsible for allocating this structure. The coordinates received are expressed as client coordinates.
 
 </dd> </dl>
 

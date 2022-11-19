@@ -42,7 +42,7 @@ HRESULT SetSoftKeyboardPosSize(
 *StartPoint* \[in\]
 </dt> <dd>
 
-A [POINT](/previous-versions//dd162805(v=vs.85)) structure indicating the coordinates of the upper left position of the soft keyboard.
+A [POINT](/windows/win32/api/windef/ns-windef-point) structure indicating the coordinates of the upper left position of the soft keyboard.
 
 </dd> <dt>
 

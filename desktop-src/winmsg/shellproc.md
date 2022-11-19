@@ -103,7 +103,7 @@ This parameter depends on the value of the *nCode* parameter, as shown in the fo
 | nCode | lParam |
 |-------|---------|
 | **HSHELL_APPCOMMAND** | `GET_APPCOMMAND_LPARAM(lParam)` is the application command corresponding to the input event. `GET_DEVICE_LPARAM(lParam)` indicates what generated the input event; for example, the mouse or keyboard. For more information, see the *uDevice* parameter description under **WM_APPCOMMAND**. `GET_FLAGS_LPARAM(lParam)` depends on the value of *cmd* in **WM_APPCOMMAND**. For example, it might indicate which virtual keys were held down when the **WM_APPCOMMAND** message was originally sent. For more information, see the *dwCmdFlags* description parameter under **WM_APPCOMMAND**. |
-| **HSHELL_GETMINRECT** | A pointer to a [RECT](/previous-versions/dd162897(v=vs.85)) structure. |
+| **HSHELL_GETMINRECT** | A pointer to a [RECT](/windows/win32/api/windef/ns-windef-rect) structure. |
 | **HSHELL_LANGUAGE** | A handle to a keyboard layout. |
 | **HSHELL_MONITORCHANGED** | A handle to the window that moved to a different monitor. |
 | **HSHELL_REDRAW** | The value is **TRUE** if the window is flashing, or **FALSE** otherwise. |

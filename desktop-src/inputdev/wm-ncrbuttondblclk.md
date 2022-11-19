@@ -43,7 +43,7 @@ The hit-test value returned by the [**DefWindowProc**](/windows/desktop/api/winu
 *lParam* 
 </dt> <dd>
 
-A [**POINTS**](/previous-versions//dd162808(v=vs.85)) structure that contains the x- and y-coordinates of the cursor. The coordinates are relative to the upper-left corner of the screen.
+A [**POINTS**](/windows/win32/api/windef/ns-windef-points) structure that contains the x- and y-coordinates of the cursor. The coordinates are relative to the upper-left corner of the screen.
 
 </dd> </dl>
 
@@ -126,7 +126,7 @@ If it is appropriate to do so, the system sends the [**WM\_SYSCOMMAND**](/window
 [**MAKEPOINTS**](/windows/desktop/api/wingdi/nf-wingdi-makepoints)
 </dt> <dt>
 
-[**POINTS**](/previous-versions//dd162808(v=vs.85))
+[**POINTS**](/windows/win32/api/windef/ns-windef-points)
 </dt> </dl>
 
  
