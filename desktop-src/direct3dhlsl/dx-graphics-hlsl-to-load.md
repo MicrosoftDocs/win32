@@ -61,7 +61,7 @@ A [texture-object](dx-graphics-hlsl-to-type.md) type (except TextureCube or Text
 
  
 
-For example, to access a 2D texture, supply UV coordinates for the first two components and a mipmap level for the third component.
+For example, to access a 2D texture, supply integer texel coordinates for the first two components and a mipmap level for the third component.
 
 > [!Note]  
 > When one or more of the coordinates in *Location* exceed the u, v, or w mipmap level dimensions of the texture, **Load** returns zero in all components. Direct3D guarantees to return zero for any resource that is accessed out of bounds.
