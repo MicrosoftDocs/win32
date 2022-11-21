@@ -1,6 +1,6 @@
 ---
 description: contains information about digest signing.
-ms.assetid: 
+ms.assetid: 69c7e44f-be55-49cf-8e2f-a061a0c5907f
 title: SIGNER_SPC_CHAIN_INFO structure
 ms.topic: reference
 ms.date: 11/15/2022
@@ -53,7 +53,7 @@ The size, in bytes, of the structure.
 **pMetadataBlob**
 </dt> <dd>
 
-Optional pointer to CRYPT_DATA_BLOB specifying metadata.
+Optional pointer to [**CRYPT_DATA_BLOB**](/windows/win32/api/wincrypt/ns-wincrypt-crypt_integer_blob) specifying metadata.
   
 </dd>  </dl>
 
