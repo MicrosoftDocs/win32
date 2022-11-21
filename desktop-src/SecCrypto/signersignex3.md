@@ -1,6 +1,6 @@
 ---
 description: Signs and time stamps the specified file, allowing multiple nested signatures.
-ms.assetid: 
+ms.assetid: b400f937-fbef-4350-b024-43bb3cc063de
 title: SignerSignEx3 function
 ms.topic: reference
 ms.date: 11/15/2022
@@ -28,7 +28,7 @@ The **SignerSignEx3** function signs and time stamps the specified file, allowin
 
 
 ```C++
-HRESULT WINAPI SignerSignEx2(
+HRESULT WINAPI SignerSignEx3(
   _In_       DWORD                  dwFlags,
   _In_       SIGNER_SUBJECT_INFO    *pSubjectInfo,
   _In_       SIGNER_CERT            *pSignerCert,
@@ -222,6 +222,9 @@ If the function fails, it returns an **HRESULT** value that indicates the error.
 </dt> <dt>
 
 [**SignerFreeSignerContext**](signerfreesignercontext.md)
+</dt> <dt>
+
+[**SIGNER\_DIGEST\_SIGN\_INFO**](signer-digest-sign-info.md)
 </dt> </dl>
 
  
