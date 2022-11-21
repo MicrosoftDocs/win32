@@ -1,6 +1,6 @@
 ---
 description: contains information about digest signing.
-ms.assetid: 
+ms.assetid: 78bae57f-6bee-4865-94d5-d007afe532ce
 title: SIGNER_SPC_CHAIN_INFO structure
 ms.topic: reference
 ms.date: 11/15/2022
@@ -54,20 +54,20 @@ The size, in bytes, of the structure.
 **pfnAuthenticodeDigestSign**
 </dt> <dd>
 
-Pointer to the PFN_AUTHENTICODE_DIGEST_SIGN callback function. Required if the caller of SignerSignEx3 specifies SPC_DIGEST_SIGN_FLAG in the dwFlags parameter. 
+Pointer to the [**PFN_AUTHENTICODE_DIGEST_SIGN**](pfn-authenticode-digest-sign.md) callback function. Required if the caller of SignerSignEx3 specifies SPC_DIGEST_SIGN_FLAG in the dwFlags parameter. 
 
 </dd> <dt>
 
 **pfnAuthenticodeDigestSignEx**
 </dt> <dd>
 
-Pointer to the PFN_AUTHENTICODE_DIGEST_SIGN_EX callback function. Required if the caller of SignerSignEx3 specifies SPC_DIGEST_SIGN_EX_FLAG in the dwFlags parameter. 
+Pointer to the [**PFN_AUTHENTICODE_DIGEST_SIGN_EX**](pfn-authenticode-digest-sign-ex.md) callback function. Required if the caller of SignerSignEx3 specifies SPC_DIGEST_SIGN_EX_FLAG in the dwFlags parameter. 
 </dd> <dt>
 
 **pMetadataBlob**
 </dt> <dd>
 
-Optional pointer to CRYPT_DATA_BLOB specifying metadata.
+Optional pointer to [**CRYPT_DATA_BLOB**](/windows/win32/api/wincrypt/ns-wincrypt-crypt_integer_blob) specifying metadata.
   
 </dd> </dl>
 
