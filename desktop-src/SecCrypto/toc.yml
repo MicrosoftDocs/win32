@@ -1708,6 +1708,8 @@
         href: signersignex.md
       - name: "SignerSignEx2"
         href: signersignex2.md
+      - name: "SignerSignEx3"
+        href: signersignex3.md
       - name: "SignerTimeStamp"
         href: signertimestamp.md
       - name: "SignerTimeStampEx"
