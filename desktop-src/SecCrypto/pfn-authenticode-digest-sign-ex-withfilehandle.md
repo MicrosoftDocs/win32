@@ -87,7 +87,7 @@ Pointer to [**CRYPT_DATA_BLOB**](/windows/win32/api/wincrypt/ns-wincrypt-crypt_i
 *pSignerCert* \[out\]
 </dt> <dd>
 
-Pointer to PCCERT_CONTEXT\* which receives the certificate chain signing certificate.
+Pointer to [**PCCERT_CONTEXT\***](/windows/win32/api/wincrypt/ns-wincrypt-cert_context) which receives the certificate chain signing certificate.
 
 </dd> <dt>
 
