@@ -1,6 +1,6 @@
 ---
 description: The PFN_AUTHENTICODE_DIGEST_SIGN_WITHFILEHANDLE user supplied callback function implements digest signing.
-ms.assetid:
+ms.assetid: 8e6fdf34-eb20-410b-844f-3871a4c325ec
 title: PFN_AUTHENTICODE_DIGEST_SIGN_WITHFILEHANDLE callback function
 ms.topic: reference
 ms.date: 11/18/2022
@@ -48,14 +48,14 @@ HRESULT __stdcall pfnAuthenticodeDigestSignWithFileHandle(
 *pSigningCert* \[in\]
 </dt> <dd>
 
-Pointer to a CERT_CONTEXT structure that specifies the certificate used to create the digital signature. 
+Pointer to a [**CERT_CONTEXT**](/windows/win32/api/wincrypt/ns-wincrypt-cert_context) structure that specifies the certificate used to create the digital signature. 
 
 </dd> <dt>
 
 *pMetadataBlob* \[in, optional\]
 </dt> <dd>
 
-Pointer to a CRYPT_DATA_BLOB structure that contains metadata for digest signing. 
+Pointer to a [**CRYPT_DATA_BLOB**](/windows/win32/api/wincrypt/ns-wincrypt-crypt_integer_blob) structure that contains metadata for digest signing. 
 
 </dd> <dt>
 
@@ -89,7 +89,7 @@ Handle to the file being signed.
 *pSignedDigest* \[out\]
 </dt> <dd>
 
-Pointer to CRYPT_DATA_BLOB which receives the signed digest.
+Pointer to [**CRYPT_DATA_BLOB**](/windows/win32/api/wincrypt/ns-wincrypt-crypt_integer_blob) which receives the signed digest.
 
 </dd> </dl>
 
