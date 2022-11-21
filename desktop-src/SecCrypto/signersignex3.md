@@ -17,7 +17,7 @@ api_location:
 
 # SignerSignEx3 function
 
-The **SignerSignEx2** function signs and time stamps the specified file, allowing multiple nested signatures.
+The **SignerSignEx3** function signs and time stamps the specified file, allowing multiple nested signatures.
 
 > [!Note]  
 > This function has no associated header file or import library. To call this function, you must create a user-defined header file and use the [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) and [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) functions to dynamically link to Mssign32.dll.
