@@ -1,6 +1,6 @@
 ---
 description: The PFN_AUTHENTICODE_DIGEST_SIGN_EX_WITHFILEHANDLE user supplied callback function implements digest signing.
-ms.assetid:
+ms.assetid: ce0ab6e5-ddfd-4d33-81ef-a7225689afc3
 title: PFN_AUTHENTICODE_DIGEST_SIGN_EX_WITHFILEHANDLE callback function
 ms.topic: reference
 ms.date: 11/18/2022
@@ -16,7 +16,7 @@ api_location:
 
 # PFN\_AUTHENTICODE\_DIGEST\_SIGN\_EX\_WITHFILEHANDLE callback function
 
-The **PFN\_AUTHENTICODE\_DIGEST\_SIGN\_EX\_WITHFILEHANDLE** user supplied callback function implements digest signing. You must implement this function as part of your provided dll. This function is currently called by SignerSignEx3 for digest signing.
+The **PFN\_AUTHENTICODE\_DIGEST\_SIGN\_EX\_WITHFILEHANDLE** user supplied callback function implements digest signing. You must implement this function as part of your provided dll. This function is currently called by [**SignerSignEx3**](signersignex3.md) for digest signing.
 
 ## Syntax
 
@@ -47,7 +47,7 @@ HRESULT __stdcall pfnAuthenticodeDigestSignExWithFileHandle(
 *pMetadataBlob* \[in, optional\]
 </dt> <dd>
 
-Pointer to a CRYPT_DATA_BLOB structure that contains metadata for digest signing. 
+Pointer to a [**CRYPT_DATA_BLOB**](/windows/win32/api/wincrypt/ns-wincrypt-crypt_integer_blob) structure that contains metadata for digest signing. 
 
 </dd> <dt>
 
@@ -80,7 +80,7 @@ Handle to the file being signed.
 *pSignedDigest* \[out\]
 </dt> <dd>
 
-Pointer to CRYPT_DATA_BLOB which receives the signed digest.
+Pointer to [**CRYPT_DATA_BLOB**](/windows/win32/api/wincrypt/ns-wincrypt-crypt_integer_blob) which receives the signed digest.
 
 </dd> <dt>
 
