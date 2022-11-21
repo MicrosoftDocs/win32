@@ -1,6 +1,6 @@
 ---
 description: contains information about digest signing.
-ms.assetid: 
+ms.assetid: 83e92cca-c06f-4218-8f20-73d69f47bb2a
 title: SIGNER_SPC_CHAIN_INFO structure
 ms.topic: reference
 ms.date: 11/15/2022
@@ -84,35 +84,35 @@ Specifies which digest sign implementation to use.
 **pfnAuthenticodeDigestSign**
 </dt> <dd>
 
-Pointer to the [PFN_AUTHENTICODE_DIGEST_SIGN](./pfn-authenticode-digest-sign.md) callback function. Required if dwDigestSignChoice==DIGEST_SIGN.
+Pointer to the [**PFN_AUTHENTICODE_DIGEST_SIGN**](./pfn-authenticode-digest-sign.md) callback function. Required if dwDigestSignChoice==DIGEST_SIGN.
 
 </dd> <dt>
 
 **pfnAuthenticodeDigestSignWithFileHandle**
 </dt> <dd>
 
-Pointer to the [PFN_AUTHENTICODE_DIGEST_SIGN_WITHFILEHANDLE](./pfn-authenticode-digest-sign-withfilehandle.md) callback function. Required if dwDigestSignChoice==DIGEST_SIGN_WITHFILEHANDLE.
+Pointer to the [**PFN_AUTHENTICODE_DIGEST_SIGN_WITHFILEHANDLE**](pfn-authenticode-digest-sign-withfilehandle.md) callback function. Required if dwDigestSignChoice==DIGEST_SIGN_WITHFILEHANDLE.
 
 </dd> <dt>
 
 **pfnAuthenticodeDigestSignEx**
 </dt> <dd>
 
-Pointer to the [PFN_AUTHENTICODE_DIGEST_SIGN_EX](./pfn-authenticode-digest-sign-ex.md) callback function. Required if dwDigestSignChoice==DIGEST_SIGN_EX.
+Pointer to the [**PFN_AUTHENTICODE_DIGEST_SIGN_EX**](pfn-authenticode-digest-sign-ex.md) callback function. Required if dwDigestSignChoice==DIGEST_SIGN_EX.
 
 </dd> <dt>
 
 **pfnAuthenticodeDigestSignExWithFileHandle**
 </dt> <dd>
 
-Pointer to the [PFN_AUTHENTICODE_DIGEST_SIGN_EX_WITHFILEHANDLE](./pfn-authenticode-digest-sign-ex-withfilehandle.md) callback function. Required if dwDigestSignChoice==DIGEST_SIGN_EX_WITHFILEHANDLE.
+Pointer to the [**PFN_AUTHENTICODE_DIGEST_SIGN_EX_WITHFILEHANDLE**](pfn-authenticode-digest-sign-ex-withfilehandle.md) callback function. Required if dwDigestSignChoice==DIGEST_SIGN_EX_WITHFILEHANDLE.
 
 </dd> <dt>
 
 **pMetadataBlob**
 </dt> <dd>
 
-Optional pointer to CRYPT_DATA_BLOB specifying metadata.
+Optional pointer to [**CRYPT_DATA_BLOB**](/windows/win32/api/wincrypt/ns-wincrypt-crypt_integer_blob) specifying metadata.
   
 </dd> <dt>
 
