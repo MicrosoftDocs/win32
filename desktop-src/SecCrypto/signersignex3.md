@@ -15,7 +15,7 @@ api_location:
 - Mssign32.dll
 ---
 
-# SignerSignEx2 function
+# SignerSignEx3 function
 
 The **SignerSignEx2** function signs and time stamps the specified file, allowing multiple nested signatures.
 
