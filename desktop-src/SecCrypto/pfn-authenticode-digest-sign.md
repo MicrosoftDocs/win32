@@ -1,6 +1,6 @@
 ---
 description: The PFN_AUTHENTICODE_DIGEST_SIGN user supplied callback function implements digest signing.
-ms.assetid:
+ms.assetid: 7ebd19fa-af19-4873-bbed-f4ca2e951468
 title: PFN_AUTHENTICODE_DIGEST_SIGN callback function
 ms.topic: reference
 ms.date: 11/18/2022
@@ -16,7 +16,7 @@ api_location:
 
 # PFN\_AUTHENTICODE\_DIGEST\_SIGN callback function
 
-The **PFN\_AUTHENTICODE\_DIGEST\_SIGN** user supplied callback function implements digest signing. You must implement this function as part of your provided dll. This function is currently called by SignerSignEx3 for digest signing.
+The **PFN\_AUTHENTICODE\_DIGEST\_SIGN** user supplied callback function implements digest signing. You must implement this function as part of your provided dll. This function is currently called by [**SignerSignEx3**](signersignex3.md) for digest signing.
 
 ## Syntax
 
@@ -51,7 +51,7 @@ A pointer to a [**CERT\_CONTEXT**](/windows/desktop/api/Wincrypt/ns-wincrypt-cer
 *pMetadataBlob* \[in, optional\]
 </dt> <dd>
 
-Pointer to a CRYPT_DATA_BLOB structure that contains metadata for digest signing. 
+Pointer to a [**CRYPT_DATA_BLOB**](/windows/win32/api/wincrypt/ns-wincrypt-crypt_integer_blob) structure that contains metadata for digest signing. 
 
 </dd> <dt>
 
@@ -78,7 +78,7 @@ The size, in bytes, of the pbToBeSignedDigest buffer.
 *pSignedDigest* \[out\]
 </dt> <dd>
 
-Pointer to CRYPT_DATA_BLOB which receives the signed digest.
+Pointer to [**CRYPT_DATA_BLOB**](/windows/win32/api/wincrypt/ns-wincrypt-crypt_integer_blob) which receives the signed digest.
 
 </dd> </dl>
 
