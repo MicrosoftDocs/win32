@@ -90,7 +90,7 @@ If the function fails, it returns an HRESULT value that indicates the error. For
 
 ## Remarks  
 
-The parameter pSignedDigest->pbData must be allocated by calling HeapAlloc passing the result of GetProcessHeap() as the first parameter. 
+The parameter `pSignedDigest->pbData` must be allocated by calling `HeapAlloc` passing the result of `GetProcessHeap()` as the first parameter. 
 
 
 ## Requirements
