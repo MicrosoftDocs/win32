@@ -16,7 +16,7 @@ api_location:
 
 # PFN\_AUTHENTICODE\_DIGEST\_SIGN\_EX callback function
 
-The **AuthenticodeDigestSignEx** user supplied callback function implements digest signing. You must implement this function as part of your provided dll. This function is currently called by [**SignerSignEx3**](signersignex3.md) for digest signing.
+The **PFN_AUTHENTICODE_DIGEST_SIGN_EX** user supplied callback function implements digest signing. You must implement this function as part of your provided dll. This function is currently called by [**SignerSignEx3**](signersignex3.md) for digest signing.
 
 ## Syntax
 
