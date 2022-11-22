@@ -101,7 +101,7 @@ Optional, receives the cert chain of the signer cert.
 ## Return value
 
 If the function succeeds, the function returns S_OK.
-If the function fails, it returns an HRESULT value that indicates the error. For a list of common error codes, see [Common HRESULT Values](https://learn.microsoft.com/en-us/windows/win32/seccrypto/common-hresult-values).
+If the function fails, it returns an HRESULT value that indicates the error. For a list of common error codes, see [Common HRESULT Values](/windows/win32/seccrypto/common-hresult-values).
 
 
 ## Remarks  
