@@ -1598,6 +1598,14 @@
         href: /windows/desktop/api/wincrypt/nc-wincrypt-pcrypt_resolve_hcryptprov_func
       - name: "pCryptSIPGetCaps"
         href: /windows/desktop/api/Mssip/nc-mssip-pcryptsipgetcaps
+      - name: "PFN_AUTHENTICODE_DIGEST_SIGN"
+        href: pfn-authenticode-digest-sign.md
+      - name: "PFN_AUTHENTICODE_DIGEST_SIGN_EX"
+        href: pfn-authenticode-digest-sign-ex.md
+      - name: "PFN_AUTHENTICODE_DIGEST_SIGN_EX_WITHFILEHANDLE"
+        href: pfn-authenticode-digest-sign-ex-withfilehandle.md
+      - name: "PFN_AUTHENTICODE_DIGEST_SIGN_WITHFILEHANDLE"
+        href: pfn-authenticode-digest-sign-withfilehandle.md
       - name: "PFN_CDF_PARSE_ERROR_CALLBACK"
         href: /windows/desktop/api/mscat/nc-mscat-pfn_cdf_parse_error_callback
       - name: "PFN_CERT_CREATE_CONTEXT_SORT_FUNC"
@@ -4312,6 +4320,12 @@
         href: signer-cert-store-info.md
       - name: "SIGNER_CONTEXT"
         href: signer-context.md
+      - name: "SIGNER_DIGEST_SIGN_INFO"
+        href: signer-digest-sign-info.md
+      - name: "SIGNER_DIGEST_SIGN_INFO_V1"
+      - href: signer-digest-sign-info-v1.md
+      - name: "SIGNER_DIGEST_SIGN_INFO_V2"
+      - href: signer-digest-sign-info-v2.md
       - name: "SIGNER_FILE_INFO"
         href: signer-file-info.md
       - name: "SIGNER_PROVIDER_INFO"
