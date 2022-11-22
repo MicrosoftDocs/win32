@@ -84,7 +84,7 @@ Specifies which digest sign implementation to use.
 **pfnAuthenticodeDigestSign**
 </dt> <dd>
 
-Pointer to the [**PFN_AUTHENTICODE_DIGEST_SIGN**](./pfn-authenticode-digest-sign.md) callback function. Required if dwDigestSignChoice==DIGEST_SIGN.
+Pointer to the [**PFN_AUTHENTICODE_DIGEST_SIGN**](pfn-authenticode-digest-sign.md) callback function. Required if dwDigestSignChoice==DIGEST_SIGN.
 
 </dd> <dt>
 
