@@ -62,7 +62,7 @@ HRESULT GetRequests1(
 
 `flags`
 
-Type: \_In\_ **[DSTORAGE_GET_REQUEST_FLAGS](ne-dstorage-dstorage_get_request_flags.md)**
+Type: **[DSTORAGE_GET_REQUEST_FLAGS](ne-dstorage-dstorage_get_request_flags.md)**
 
 The type of custom decompression request.
 
@@ -72,7 +72,7 @@ The maximum number of requests to return.
 
 `requests`
 
-Type: \_Out\_writes\_to\_(maxRequests, *numRequests) **[DSTORAGE_CUSTOM_DECOMPRESSION_REQUEST](ns-dstorage-dstorage_custom_decompression_request.md)\***
+Type: **[DSTORAGE_CUSTOM_DECOMPRESSION_REQUEST](ns-dstorage-dstorage_custom_decompression_request.md)\***
 
 An array of requests; its size is specified by *numRequests*.
 

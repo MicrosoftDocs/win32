@@ -3,7 +3,7 @@ UID: NF:dstorage.DStorageSetConfiguration
 ms.topic: reference
 tech.root: dstorage
 title: DStorageSetConfiguration
-ms.date: 08/25/2022
+ms.date: 11/23/2022
 targetos: Windows
 description: Configures DirectStorage.
 prerelease: false
@@ -58,6 +58,8 @@ HRESULT DStorageSetConfiguration(
 ## Parameters
 
 `configuration`
+
+Type: **[DSTORAGE_CONFIGURATION](ns-dstorage-dstorage_configuration.md)**
 
 Specifies the configuration.
 

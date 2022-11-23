@@ -43,10 +43,11 @@ Defines constants that specify the type of command that failed, as reported by [
 
 ```cpp
 enum DSTORAGE_COMMAND_TYPE {
-  DSTORAGE_COMMAND_TYPE_NONE,
-  DSTORAGE_COMMAND_TYPE_REQUEST,
-  DSTORAGE_COMMAND_TYPE_STATUS,
-  DSTORAGE_COMMAND_TYPE_SIGNAL
+  DSTORAGE_COMMAND_TYPE_NONE = -1,
+  DSTORAGE_COMMAND_TYPE_REQUEST = 0,
+  DSTORAGE_COMMAND_TYPE_STATUS = 1,
+  DSTORAGE_COMMAND_TYPE_SIGNAL = 2,
+  DSTORAGE_COMMAND_TYPE_EVENT = 3,
 } ;
 ```
 
@@ -58,6 +59,7 @@ enum DSTORAGE_COMMAND_TYPE {
 | `DSTORAGE_COMMAND_TYPE_REQUEST`<br> Specifies a request command type.|
 | `DSTORAGE_COMMAND_TYPE_STATUS`<br> Specifies a status command type.|
 | `DSTORAGE_COMMAND_TYPE_SIGNAL`<br> Specifies a signal command type.|
+| `DSTORAGE_COMMAND_TYPE_EVENT`<br> Specifies am event command type.|
 
 ## Requirements
 
