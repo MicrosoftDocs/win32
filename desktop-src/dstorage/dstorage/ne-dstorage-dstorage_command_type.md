@@ -59,7 +59,7 @@ enum DSTORAGE_COMMAND_TYPE {
 | `DSTORAGE_COMMAND_TYPE_REQUEST`<br> Specifies a request command type.|
 | `DSTORAGE_COMMAND_TYPE_STATUS`<br> Specifies a status command type.|
 | `DSTORAGE_COMMAND_TYPE_SIGNAL`<br> Specifies a signal command type.|
-| `DSTORAGE_COMMAND_TYPE_EVENT`<br> Specifies am event command type.|
+| `DSTORAGE_COMMAND_TYPE_EVENT`<br> Specifies an event command type.|
 
 ## Requirements
 
