@@ -66,7 +66,6 @@ Specifies the DirectStorage factory interface, such as `__uuidof(IDStorageFactor
 
 Receives the DirectStorage factory object.
 
-
 ## Return value
 
 Standard HRESULT error code.

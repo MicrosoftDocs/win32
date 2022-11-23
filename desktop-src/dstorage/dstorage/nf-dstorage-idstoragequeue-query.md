@@ -54,6 +54,7 @@ void Query(
   DSTORAGE_QUEUE_INFO *info
 );
 ```
+
 ## Parameters
 
 `info`

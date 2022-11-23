@@ -17,6 +17,7 @@ The following enumerations are declared in `dstorage.h` for DirectStorage-based 
 | [DSTORAGE_COMPRESSION_FORMAT](/windows/win32/dstorage/dstorage/ne-dstorage-dstorage_compression_format) |
 | [DSTORAGE_CUSTOM_DECOMPRESSION_FLAGS](/windows/win32/dstorage/dstorage/ne-dstorage-dstorage_custom_decompression_flags) |
 | [DSTORAGE_DEBUG](/windows/win32/dstorage/dstorage/ne-dstorage-dstorage_debug) |
+| [DSTORAGE_GET_REQUEST_FLAGS](/windows/win32/dstorage/dstorage/ne-dstorage-dstorage_get_request_flags) |
 | [DSTORAGE_PRIORITY](/windows/win32/dstorage/dstorage/ne-dstorage-dstorage_priority) |
 | [DSTORAGE_REQUEST_DESTINATION_TYPE](/windows/win32/dstorage/dstorage/ne-dstorage-dstorage_request_destination_type) |
 | [DSTORAGE_REQUEST_SOURCE_TYPE](/windows/win32/dstorage/dstorage/ne-dstorage-dstorage_request_source_type) |

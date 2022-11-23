@@ -57,6 +57,7 @@ void EnqueueSignal(
   UINT64      value
 );
 ```
+
 ## Parameters
 
 `fence`

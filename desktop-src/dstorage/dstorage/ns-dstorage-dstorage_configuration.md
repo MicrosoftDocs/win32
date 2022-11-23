@@ -3,7 +3,7 @@ UID: NS:dstorage.DSTORAGE_CONFIGURATION
 ms.topic: reference
 tech.root: dstorage
 title: DSTORAGE_CONFIGURATION
-ms.date: 08/25/2022
+ms.date: 11/22/2022
 targetos: Windows
 description: DirectStorage configuration.
 prerelease: false
@@ -48,9 +48,12 @@ DirectStorage configuration. Zero-initializing this will result in the default v
 ```cpp
 struct DSTORAGE_CONFIGURATION {
   UINT32 NumSubmitThreads;
+  INT32 NumBuiltInCpuDecompressionThreads;
   BOOL   ForceMappingLayer;
   BOOL   DisableBypassIO;
   BOOL   DisableTelemetry;
+  BOOL   DisableGpuDecompressionMetacommand;
+  BOOL   DisableGpuDecompression;
 };
 ```
 
@@ -59,6 +62,10 @@ struct DSTORAGE_CONFIGURATION {
 `NumSubmitThreads`
 
 Sets the number of threads to use for submitting IO operations. Specifying 0 means use the system's best guess at a good value. Default == 0.
+
+`NumBuiltInCpuDecompressionThreads`
+
+Sets the number of threads to be used by the DirectStorage runtime to decompress data using the CPU for built-in compressed formats that can't be decompressed using the GPU. Specifying 0 means to use the system's best guess at a good value. Specifying **DSTORAGE_DISABLE_BUILTIN_CPU_DECOMPRESSION** means that no decompression threads will be created, and the title is fully responsible for checking the custom decompression queue and pulling off *all* entries to decompress. Default == 0.
 
 `ForceMappingLayer`
 
@@ -71,6 +78,14 @@ Disables the use of the bypass IO optimization, even if it is available. This mi
 `DisableTelemetry`
 
 Disables the reporting of telemetry data when set to `TRUE`. Telemetry data is enabled by default in the DirectStorage runtime. Default == `FALSE`.
+
+`DisableGpuDecompressionMetacommand`
+
+Disables the use of a decompression metacommand, even if one is available. This will force the runtime to use the built-in GPU decompression fallback shader. This may be useful during development, but should be set to `FALSE` for release. Default == FALSE.
+
+`DisableGpuDecompression`
+
+Disables the use of GPU based decompression, even if it is available. This will force the runtime to use the CPU. Default == `FALSE`.
 
 ## Requirements
 

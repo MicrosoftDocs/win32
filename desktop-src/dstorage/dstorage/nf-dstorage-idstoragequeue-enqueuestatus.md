@@ -57,6 +57,7 @@ void EnqueueStatus(
   UINT32               index
 );
 ```
+
 ## Parameters
 
 `statusArray`

@@ -3,7 +3,7 @@ UID: NF:dstorage.IDStorageCustomDecompressionQueue.GetRequests
 ms.topic: reference
 tech.root: dstorage
 title: IDStorageCustomDecompressionQueue::GetRequests
-ms.date: 08/25/2022
+ms.date: 11/22/2022
 targetos: Windows
 description: Populates the given array of request structs with new pending requests.
 prerelease: false
@@ -45,7 +45,7 @@ helpviewer_keywords:
 
 # IDStorageCustomDecompressionQueue::GetRequests method (dstorage.h)
 
-Populates the given array of request structs with new pending requests. Your application must arrange to fulfill all these requests, and then call **SetRequestResults** to indicate completion.
+Populates the given array of request structs with new pending requests. Your application must arrange to fulfill all these requests, and then call [**IDStorageCustomDecompressionQueue::SetRequestResults**](nf-dstorage-idstoragecustomdecompressionqueue-setrequestresults.md) to indicate completion.
 
 ## Syntax
 

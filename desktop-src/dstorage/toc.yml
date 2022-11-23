@@ -21,6 +21,8 @@
           href: /windows/win32/dstorage/dstorage/ne-dstorage-dstorage_custom_decompression_flags
         - name: "DSTORAGE_DEBUG"
           href: /windows/win32/dstorage/dstorage/ne-dstorage-dstorage_debug
+        - name: "DSTORAGE_GET_REQUEST_FLAGS"
+          href: /windows/win32/dstorage/dstorage/ne-dstorage-dstorage_get_request_flags
         - name: "DSTORAGE_PRIORITY"
           href: /windows/win32/dstorage/dstorage/ne-dstorage-dstorage_priority
         - name: "DSTORAGE_REQUEST_DESTINATION_TYPE"
@@ -32,6 +34,8 @@
       - name: "DirectStorage functions"
         href: dstorage-functions.md
         items: 
+        - name: "DStorageCreateCompressionCodec"
+          href: /windows/win32/dstorage/dstorage/nf-dstorage-dstoragecreatecompressioncodec
         - name: "DStorageGetFactory"
           href: /windows/win32/dstorage/dstorage/nf-dstorage-dstoragegetfactory
         - name: "DStorageSetConfiguration"
@@ -39,6 +43,15 @@
       - name: "DirectStorage interfaces"
         href: dstorage-interfaces.md
         items: 
+        - name: "IDStorageCompressionCodec"
+          href: /windows/win32/dstorage/dstorage/nn-dstorage-idstoragecompressioncodec
+          items: 
+          - name: "CompressBuffer"
+            href: /windows/win32/dstorage/dstorage/nf-dstorage-idstoragecompressioncodec-compressbuffer
+          - name: "CompressBufferBound"
+            href: /windows/win32/dstorage/dstorage/nf-dstorage-idstoragecompressioncodec-compressbufferbound
+          - name: "DecompressBuffer"
+            href: /windows/win32/dstorage/dstorage/nf-dstorage-idstoragecompressioncodec-decompressbuffer
         - name: "IDStorageCustomDecompressionQueue"
           href: /windows/win32/dstorage/dstorage/nn-dstorage-idstoragecustomdecompressionqueue
           items: 
@@ -48,6 +61,11 @@
             href: /windows/win32/dstorage/dstorage/nf-dstorage-idstoragecustomdecompressionqueue-getrequests
           - name: "SetRequestResults"
             href: /windows/win32/dstorage/dstorage/nf-dstorage-idstoragecustomdecompressionqueue-setrequestresults
+        - name: "IDStorageCustomDecompressionQueue1"
+          href: /windows/win32/dstorage/dstorage/nn-dstorage-idstoragecustomdecompressionqueue1
+          items: 
+          - name: "GetRequests1"
+            href: /windows/win32/dstorage/dstorage/nf-dstorage-idstoragecustomdecompressionqueue1-getrequests1
         - name: "IDStorageFactory"
           href: /windows/win32/dstorage/dstorage/nn-dstorage-idstoragefactory
           items: 
@@ -89,6 +107,11 @@
             href: /windows/win32/dstorage/dstorage/nf-dstorage-idstoragequeue-retrieveerrorrecord
           - name: "Submit"
             href: /windows/win32/dstorage/dstorage/nf-dstorage-idstoragequeue-submit
+        - name: "IDStorageQueue1"
+          href: /windows/win32/dstorage/dstorage/nn-dstorage-idstoragequeue1
+          items: 
+          - name: "EnqeueSetEvent"
+            href: /windows/win32/dstorage/dstorage/nf-dstorage-idstoragequeue1-enqueuesetevent
         - name: "IDStorageStatusArray"
           href: /windows/win32/dstorage/dstorage/nn-dstorage-idstoragestatusarray
           items: 

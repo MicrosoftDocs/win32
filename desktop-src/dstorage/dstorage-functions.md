@@ -13,6 +13,7 @@ The following free functions are declared in `dstorage.h` for DirectStorage-base
 
 | Topic |
 |-|
+| [DStorageCreateCompressionCodec](/windows/win32/dstorage/dstorage/nf-dstorage-dstoragecreatecompressioncodec) |
 | [DStorageGetFactory](/windows/win32/dstorage/dstorage/nf-dstorage-dstoragegetfactory) |
 | [DStorageSetConfiguration](/windows/win32/dstorage/dstorage/nf-dstorage-dstoragesetconfiguration) |
 
