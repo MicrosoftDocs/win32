@@ -88,7 +88,7 @@ If a TCP connection request takes longer than this time-out value, the request i
 
 Retrieves the source and destination IP address, and port of the request that generated the response when [**WinHttpReceiveResponse**](/windows/win32/api/Winhttp/nf-winhttp-winhttpreceiveresponse) returns. The application calls [**WinHttpQueryOption**](/windows/win32/api/Winhttp/nf-winhttp-winhttpqueryoption) with the **WINHTTP\_OPTION\_CONNECTION\_INFO** option, and provides the [**WINHTTP\_CONNECTION\_INFO**](/windows/win32/api/Winhttp/ns-winhttp-winhttp_connection_info) structure in the *lpBuffer* parameter. For more information, see **WINHTTP\_CONNECTION\_INFO**.
 
-**Windows Server 2003 with SP1 and Windows XP with SP2:** This flag is obsolete.
+**Applies to**: Windows XP with SP2 and later; Windows 2003 with SP1 and later.
 
 ## WINHTTP_OPTION_CONNECTION_GUID
 
@@ -294,7 +294,7 @@ Takes a [**WINHTTP_MATCH_CONNECTION_GUID**](/windows/win32/api/winhttp/ns-winhtt
 
 Sets or retrieves an unsigned long integer value that contains the maximum number of connections allowed per HTTP/1.0 server. The default value is **INFINITE**.
 
-**Windows Vista with SP1 and Windows Server 2008:** This flag is obsolete.
+**Applies to**: Windows Vista with SP1 and later; Windows Server 2008 and later.
 
 ## WINHTTP_OPTION_MAX_CONNS_PER_SERVER
 
@@ -306,25 +306,25 @@ When this option is set to zero, WinHTTP sets the limit on the number of connect
 
 Sets the maximum number of redirects that WinHTTP follows; the default is 10. This limit prevents unauthorized sites from making the WinHTTP client pause following a large number of redirects.
 
-**Windows XP with SP1 and Windows 2000 with SP3:** This flag is obsolete.
+**Applies to**: Windows XP with SP1 and later; Windows 2000 with SP3 and later.
 
 ## WINHTTP_OPTION_MAX_HTTP_STATUS_CONTINUE
 
 The maximum number of Informational 100-199 status code responses ignored before returning the final status code to the WinHTTP client. Informational 100-199 status codes can be sent by the server before the final status code, and are described in the specification for HTTP/1.1 (for more information, see [RFC 2616](https://www.ietf.org/rfc/rfc2616.txt)). The default is 10.
 
-**Windows XP with SP1 and Windows 2000 with SP3:** This flag is obsolete.
+**Applies to**: Windows XP with SP1 and later; Windows 2000 with SP3 and later.
 
 ## WINHTTP_OPTION_MAX_RESPONSE_DRAIN_SIZE
 
 A bound on the amount of data drained from responses in order to reuse a connection, specified in bytes. The default is 1MB.
 
-**Windows XP with SP1 and Windows 2000 with SP3:** This flag is obsolete.
+**Applies to**: Windows XP with SP1 and later; Windows 2000 with SP3 and later.
 
 ## WINHTTP_OPTION_MAX_RESPONSE_HEADER_SIZE
 
 A bound set on the maximum size of the header portion of the server response, specified in bytes. This bound protects the client from an unauthorized server attempting to stall the client by sending a response with an infinite amount of header data. The default value is 64KB.
 
-**Windows XP with SP1 and Windows 2000 with SP3:** This flag is obsolete.
+**Applies to**: Windows XP with SP1 and later; Windows 2000 with SP3 and later.
 
 ## WINHTTP_OPTION_PARENT_HANDLE
 
@@ -621,7 +621,7 @@ Sets or retrieves a DWORD which specifies the send buffer size to be used on Web
 
 Sets an unsigned long integer value that specifies the number of worker threads the thread pool should use for asynchronous completions. The default value of this option is zero, which specifies that the number of worker threads is equal to the number of CPUs on the system. This option can only be set on a **NULL**  [HINTERNET](hinternet-handles-in-winhttp.md) handle before an asynchronous operation has occurred. This option can only be set once.
 
-**Windows Server 2008 R2 and Windows 7:** This flag is obsolete.
+**Applies to**: Windows 7 and later; Windows Server 2008 R2 and later.
 
 ## WINHTTP_OPTION_WRITE_BUFFER_SIZE
 
