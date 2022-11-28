@@ -1,5 +1,5 @@
 ---
-description: Signs and time stamps the specified file, allowing multiple nested signatures.
+description: Signs and time stamps the specified file to allow multiple nested signatures.
 ms.assetid: b400f937-fbef-4350-b024-43bb3cc063de
 title: SignerSignEx3 function
 ms.topic: reference
