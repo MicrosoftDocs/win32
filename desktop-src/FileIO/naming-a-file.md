@@ -70,7 +70,7 @@ The following fundamental rules enable applications to create and process valid 
 -   Use two consecutive periods (..) as a directory *component* in a path to represent the parent of the current directory, for example "..\\temp.txt". For more information, see [Paths](#fully-qualified-vs-relative-paths).
 -   Do not use the following reserved names for the name of a file:
 
-    CON, PRN, AUX, NUL, COM1, COM2, COM3, COM4, COM5, COM6, COM7, COM8, COM9, LPT1, LPT2, LPT3, LPT4, LPT5, LPT6, LPT7, LPT8, and LPT9. Also avoid these names followed immediately by an extension; for example, NUL.txt is not recommended. For more information, see [Namespaces](#win32-file-namespaces).
+    CON, PRN, AUX, NUL, COM0, COM1, COM2, COM3, COM4, COM5, COM6, COM7, COM8, COM9, LPT0, LPT1, LPT2, LPT3, LPT4, LPT5, LPT6, LPT7, LPT8, and LPT9. Also avoid these names followed immediately by an extension; for example, NUL.txt is not recommended. For more information, see [Namespaces](#win32-file-namespaces).
 
 -   Do not end a file or directory name with a space or a period. Although the underlying file system may support such names, the Windows shell and user interface does not. However, it is acceptable to specify a period as the first character of a name. For example, ".temp".
 
