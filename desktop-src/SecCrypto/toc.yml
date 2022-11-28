@@ -4323,9 +4323,9 @@
       - name: "SIGNER_DIGEST_SIGN_INFO"
         href: signer-digest-sign-info.md
       - name: "SIGNER_DIGEST_SIGN_INFO_V1"
-      - href: signer-digest-sign-info-v1.md
+        href: signer-digest-sign-info-v1.md
       - name: "SIGNER_DIGEST_SIGN_INFO_V2"
-      - href: signer-digest-sign-info-v2.md
+        href: signer-digest-sign-info-v2.md
       - name: "SIGNER_FILE_INFO"
         href: signer-file-info.md
       - name: "SIGNER_PROVIDER_INFO"

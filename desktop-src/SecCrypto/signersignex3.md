@@ -19,13 +19,10 @@ api_location:
 
 The **SignerSignEx3** function signs and time stamps the specified file, allowing multiple nested signatures.
 
-> [!Note]  
+> [!NOTE]
 > This function has no associated header file or import library. To call this function, you must create a user-defined header file and use the [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) and [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) functions to dynamically link to Mssign32.dll.
 
- 
-
 ## Syntax
-
 
 ```C++
 HRESULT WINAPI SignerSignEx3(
@@ -46,8 +43,6 @@ HRESULT WINAPI SignerSignEx3(
 );
 ```
 
-
-
 ## Parameters
 
 <dl> <dt>
@@ -59,8 +54,6 @@ Modifies the behavior of this function.
 
 If the file to be signed is a portable executable (PE) file, this can be zero or a combination of one or more of the following values.
 
-
-
 | Value                                                                                                                                                                                                                                                                                    | Meaning                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span id="SPC_EXC_PE_PAGE_HASHES_FLAG"></span><span id="spc_exc_pe_page_hashes_flag"></span><dl> <dt>**SPC\_EXC\_PE\_PAGE\_HASHES\_FLAG**</dt> <dt>0x10</dt> </dl>                    | Exclude page hashes when creating SIP indirect data for the PE file. This flag takes precedence over the **SPC\_INC\_PE\_PAGE\_HASHES\_FLAG** flag.<br/> If neither the **SPC\_EXC\_PE\_PAGE\_HASHES\_FLAG** or the **SPC\_INC\_PE\_PAGE\_HASHES\_FLAG** flag is specified, the value set with the [**WintrustSetDefaultIncludePEPageHashes**](/windows/desktop/api/Wintrust/nf-wintrust-wintrustsetdefaultincludepepagehashes) function is used for this setting. The default for this setting is to exclude page hashes when creating SIP indirect data for PE files.<br/> This value is defined in the Mssip.h header file.<br/> **Windows Server 2003 and Windows XP:** This value is not supported.<br/> |
@@ -71,9 +64,6 @@ If the file to be signed is a portable executable (PE) file, this can be zero or
 | <span id="SPC_DIGEST_SIGN_FLAG"></span><span id="spc_digest_sign_flag"></span><dl> <dt>**SPC\_DIGEST\_SIGN\_FLAG**</dt> <dt>0x800</dt> </dl>                                          | Digest signing will be done.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 | <span id="SIG_APPEND"></span><span id="sig_append"></span><dl> <dt>**SIG\_APPEND**</dt> <dt>0x1000</dt> </dl>                                                                         | The signature will be nested. If you set this flag before any signature has been added, the generated signature will be added as the outer signature. If you do not set this flag, the generated signature replaces the outer signature, deleting all inner signatures.<br/>                                                                                                                                                                                                                                                                                                                                                                                                              |
 | <span id="SPC_DIGEST_SIGN_EX_FLAG"></span><span id="spc_digest_sign_ex_flag"></span><dl> <dt>**SPC\_DIGEST\_SIGN\_EX\_FLAG**</dt> <dt>0x4000</dt> </dl>                                 | Digest signing will be done. The caller’s digest signing function will select and return the code signing certificate which performed the signing operation.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-
-
- 
 
 </dd> <dt>
 
@@ -112,16 +102,10 @@ If the value of this parameter is **NULL**, the *pSignerCert* parameter must spe
 
 Flags that will be passed to [**SignerTimeStampEx3**](signertimestampex3.md) if the *pwszHttpTimeStamp* parameter is not **NULL**. This can be one of the following values.
 
-
-
 | Value                                                                                                                                                                                                          | Meaning                                                        |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------|
 | <span id="SIGNER_TIMESTAMP_AUTHENTICODE"></span><span id="signer_timestamp_authenticode"></span><dl> <dt>**SIGNER\_TIMESTAMP\_AUTHENTICODE**</dt> </dl> | Default value. Specifies an Authenticode timestamp.<br/> |
 | <span id="SIGNER_TIMESTAMP_RFC3161"></span><span id="signer_timestamp_rfc3161"></span><dl> <dt>**SIGNER\_TIMESTAMP\_RFC3161**</dt> </dl>                | Specifies an RFC 3161 timestamp.<br/>                    |
-
-
-
- 
 
 This parameter is ignored if the *pwszHttpTimeStamp* parameter is **NULL**.
 
@@ -165,18 +149,18 @@ The address of a pointer to the [**SIGNER\_CONTEXT**](signer-context.md) structu
 *pCryptoPolicy* \[in, optional\]
 </dt> <dd>
 
-If present, a pointer to a [**CERT\_STRONG\_SIGN\_PARA**](/windows/desktop/api/Wincrypt/ns-wincrypt-cert_strong_sign_para) structure that contains the parameters used to check for strong signatures. If either a certificate or its chain does not pass, the file is not altered in any way. If a URL is passed in to specify a Time Stamping Authority (TSA), this policy is also applied to the time stamp.
+If present, a pointer to a [**CERT\_STRONG\_SIGN\_PARA**](/windows/win32/api/Wincrypt/ns-wincrypt-cert_strong_sign_para) structure that contains the parameters used to check for strong signatures. If either a certificate or its chain does not pass, the file is not altered in any way. If a URL is passed in to specify a Time Stamping Authority (TSA), this policy is also applied to the time stamp.
 
 </dd> <dt>
- 
+
 *pDigestSignInfo* \[in, optional\]
  </dt> <dd>
- 
- If present, a pointer to a [**SIGNER\_DIGEST\_SIGN\_INFO**](signer-digest-sign-info.md) structure that contains information regarding digest signing. 
- 
+
+ If present, a pointer to a [**SIGNER\_DIGEST\_SIGN\_INFO**](signer-digest-sign-info.md) structure that contains information regarding digest signing.
+
  </dd> <dt>
 
-*pReserved* 
+*pReserved*
 </dt> <dd>
 
 Reserved. This value must be **NULL**.
@@ -189,27 +173,17 @@ If the function succeeds, the function returns S\_OK.
 
 If the function fails, it returns an **HRESULT** value that indicates the error. Possible error codes returned by this function include, but are not limited to, the following. For a list of common error codes, see [Common HRESULT Values](common-hresult-values.md).
 
-
-
 | Return code                                                                                  | Description                                                                                                                                               |
 |----------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**E\_INVALIDARG**</dt> </dl> | If you set the *dwTimestampFlags* parameter to **SIGNER\_TIMESTAMP\_AUTHENTICODE**, you cannot set the *dwFlags* parameter to **SIG\_APPEND**.<br/> |
 
-
-
- 
-
 ## Requirements
-
-
 
 | Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                              |
 | Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                    |
 | DLL<br/>                      | <dl> <dt>Mssign32.dll</dt> </dl> |
-
-
 
 ## See also
 
@@ -226,7 +200,3 @@ If the function fails, it returns an **HRESULT** value that indicates the error.
 
 [**SIGNER\_DIGEST\_SIGN\_INFO**](signer-digest-sign-info.md)
 </dt> </dl>
-
- 
-
- 
