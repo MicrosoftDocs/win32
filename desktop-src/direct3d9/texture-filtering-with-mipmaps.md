@@ -63,7 +63,7 @@ The first two parameters that are accepted by [**IDirect3DDevice9::CreateTexture
 
 ## Selecting and Displaying a Mipmap
 
-Call the [**IDirect3DDevice9::SetTexture**](/windows/desktop/api) method to set the mipmap texture set as the first texture in the list of current textures. For more information, see [Texture Blending (Direct3D 9)](texture-blending.md).
+Call the [**IDirect3DDevice9::SetTexture**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-settexture) method to set the mipmap texture set as the first texture in the list of current textures. For more information, see [Texture Blending (Direct3D 9)](texture-blending.md).
 
 After your application selects the mipmap texture set, it must assign values from the [**D3DTEXTUREFILTERTYPE**](./d3dtexturefiltertype.md) enumerated type to the D3DSAMP\_MIPFILTER sampler state. Direct3D then automatically performs mipmap texture filtering. Enabling mipmap texture filtering is demonstrated in the following code example.
 
