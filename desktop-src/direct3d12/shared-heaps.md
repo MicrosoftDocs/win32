@@ -58,6 +58,7 @@ The following limitations also apply:
 -   D3D12\_HEAP\_FLAG\_SHARED must also be set.
 -   Either D3D12\_HEAP\_TYPE\_DEFAULT must be set or D3D12\_HEAP\_TYPE\_CUSTOM with D3D12\_MEMORY\_POOL\_L0 and D3D12\_CPU\_PAGE\_PROPERTY\_NOT\_AVAILABLE must be set.
 -   Only resources with D3D12\_RESOURCE\_FLAG\_ALLOW\_CROSS\_ADAPTER may be placed on cross-adapter heaps.
+-   A protected session cannot be passed into the creation of the heap when D3D12\_HEAP\_FLAG\_SHARED\_CROSS\_ADAPTER is specified
 
 For more information on using multiple adapters, refer to the [Multi-adapter systems](multi-engine.md) section.
 
