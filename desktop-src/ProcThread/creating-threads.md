@@ -24,7 +24,7 @@ The calling thread uses the [**WaitForMultipleObjects**](/windows/desktop/api/sy
 #define BUF_SIZE 255
 
 DWORD WINAPI MyThreadFunction( LPVOID lpParam );
-void ErrorHandler(LPTCSTR lpszFunction);
+void ErrorHandler(LPCTSTR lpszFunction);
 
 // Sample custom data structure for threads to use.
 // This is passed by void pointer so it can be any data type
