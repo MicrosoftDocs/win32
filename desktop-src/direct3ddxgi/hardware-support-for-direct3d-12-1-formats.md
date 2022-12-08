@@ -16,12 +16,13 @@ The table summarizes the feature support, using the following key.
 |-----------------------------------|-------------------------------------------------------------------------------|
 | **-**                             | Disallowed or not available.                                                  |
 | ![required](images/letter-r.jpg)  | Hardware support is required.                                                 |
-| ![optional](images/letter-o.jpg)  | Hardware support optional, the format may or may not be hardware accelerated. |
-| ![dependant](images/letter-d.jpg) | Required if related optional feature is supported.                            |
+| ![optional](images/letter-o.jpg)  | Hardware support optional; the format may or may not be hardware accelerated. |
+| ![optional](images/letter-o12.png)  | Hardware support optional for Direct3D 12; the format may or may not be hardware accelerated. Disallowed or not available for Direct3D 11. |
+| ![dependant](images/letter-d.jpg) | Required if a related optional feature is supported.                            |
 
 This topic contains a section per format. A format *target* (the tables contain one row per target) can be a resource type, an HLSL intrinsic function, or a particular functionality that is dependent on a particular format.
 
-To programmatically verify format support in D3D11 and D3D12, refer to [Checking hardware feature support](checking-hardware-feature-support.md).
+To programmatically verify format support in Direct3D 11 and Direct3D 12, refer to [Checking hardware feature support](checking-hardware-feature-support.md).
 
 > [!NOTE] 
 > The numbers of the formats are mostly, but not all, in ascending numerical order&mdash;some are out of numerical order, and listed alongside other relevant formats. Note also that *typeless* in a format name can mean *partially* typed, and not strictly typeless (refer to the [Format notes](#format-notes) section at the end of the topic).
@@ -4541,9 +4542,9 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Depth/Stencil Target | \- |
 | Raw UAV and SRV | \- |
 | Structured UAV and SRV | \- |
-| Typed UAV | \- |
-| UAV Typed Store | \- |
-| UAV Typed Load | \- |
+| Typed UAV | ![optional for 12](images/letter-o12.png) |
+| UAV Typed Store | ![optional for 12](images/letter-o12.png) |
+| UAV Typed Load | ![optional for 12](images/letter-o12.png) |
 | UAV Atomic Add | \- |
 | UAV Atomic Bitwise Ops | \- |
 | UAV Atomic Cmp&Store/ Cmp&Exch | \- |
@@ -5861,7 +5862,7 @@ The purpose of the format can change from one hardware feature level to the next
 <sup>PCC</sup> : partially typed, castable and complex layout
 </dt> <dt>
 
- <sup>FCC</sup> : fully typed, castable and complex layout
+<sup>FCC</sup> : fully typed, castable and complex layout
 </dt> <dt>
 
 <sup>FNC</sup> : fully typed, non-castable and complex layout
@@ -5872,6 +5873,6 @@ The purpose of the format can change from one hardware feature level to the next
 
 ## DXGI_FORMAT_Related topics
 
-[D3D12 Hardware Feature Levels](../direct3d12/hardware-feature-levels.md)
+[Direct3D 12 hardware feature levels](../direct3d12/hardware-feature-levels.md)
 
-[Programming Guide for DXGI](dx-graphics-dxgi-overviews.md)
+[Programming guide for DXGI](dx-graphics-dxgi-overviews.md)
