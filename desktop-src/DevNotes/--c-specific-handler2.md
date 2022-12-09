@@ -16,6 +16,7 @@ api_location:
 - ntoskrnl.exe
 - NTDll.dll
 - wpdupfltr.sys
+- kernelbase.dll
 ---
 
 # \_\_C\_specific\_handler function
