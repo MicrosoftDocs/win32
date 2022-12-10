@@ -9,7 +9,8 @@ topic_type:
 api_name:
 - ISpecialSystemProperties
 api_location:
-- N/A
+- ole32.dll
+- rpcss.dll
 api_type:
 - COM
 ms.topic: reference
