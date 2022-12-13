@@ -1,5 +1,5 @@
 ---
-title: Understanding Performance Issues
+title: Understanding Performance Issues When Using the Text and TextRange Control Patterns.
 description: This topic describes performance issues associated with using the Text and TextRange control patterns.
 ms.assetid: D78BFFA8-E303-441D-9D32-AD22E1B1A249
 keywords:
@@ -9,13 +9,12 @@ keywords:
 - clients,Text control pattern
 - clients,TextRange control pattern
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 12/09/2022
 ---
 
-# Understanding Performance Issues
+# Understanding Performance Issues When Using the Text and TextRange Control Patterns
 
-This topic describes performance issues associated with using the [Text and TextRange](uiauto-implementingtextandtextrange.md) control patterns.
-
+This topic describes performance issues associated with using the [**Text**](/windows/win32/api/uiautomationclient/nn-uiautomationclient-iuiautomationtextpattern) and [**TextRange**](/windows/win32/api/uiautomationclient/nn-uiautomationclient-iuiautomationtextrange) control patterns.
 
 The [**IUIAutomationTextPattern**](/windows/desktop/api/UIAutomationClient/nn-uiautomationclient-iuiautomationtextpattern) and [**IUIAutomationTextRange**](/windows/desktop/api/UIAutomationClient/nn-uiautomationclient-iuiautomationtextrange) interfaces rely on cross-process calls—they do not provide a caching mechanism to improve performance when retrieving or processing textual content.
 
@@ -23,21 +22,6 @@ A client application can improve performance by using the [**IUIAutomationTextRa
 
 ## Related topics
 
-<dl> <dt>
+[Working with Text-based Controls](uiauto-workingwithtextbasedcontrols.md), [UI Automation Support for Textual Content](/windows/win32/winauto/uiauto-ui-automation-textpattern-overview), [About the Text and TextRange Control Patterns](/windows/win32/winauto/uiauto-about-text-and-textrange-patterns), [UI Automation Client Programmer's Guide](uiauto-clientportal.md)
 
-[Text and TextRange Control Patterns](uiauto-implementingtextandtextrange.md)
-</dt> <dt>
-
-[UI Automation Support for Textual Content](uiauto-ui-automation-textpattern-overview.md)
-</dt> <dt>
-
-[Working with Text-based Controls](uiauto-workingwithtextbasedcontrols.md)
-</dt> </dl>
-
- 
-
- 
-
-
-
-
+For UI Automation Providers, see [Text and TextRange Control Patterns](uiauto-implementingtextandtextrange.md)
