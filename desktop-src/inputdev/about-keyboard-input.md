@@ -283,7 +283,6 @@ The "Scan 1 make" code is delivered in WM_KEYDOWN/WM_KEYUP and WM_SYSKEYDOWN/WM_
 |     | Launch App 1                                                                                   | E0_6B |
 |     | Launch Mail                                                                                    | E0_6C |
 |     | Launch Media Select                                                                            | E0_6D |
-|     | Pause*(Ctrl + NumLock)*                                                                        | E1_1D |
 
 ### Extended-Key Flag
 
