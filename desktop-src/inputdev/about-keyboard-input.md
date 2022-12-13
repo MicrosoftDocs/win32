@@ -138,10 +138,10 @@ You can check the repeat count to determine whether a keystroke message represen
 
 :::image type="content" source="images/keyboard-key-locations.png" alt-text="Diagram of a keyboard with the Scan Code specification for each key.":::
 
-The scan code is the value that the keyboard class driver generates when the user presses a key. It is a value that identifies the key pressed, as opposed to the character represented by the key. An application typically ignores scan codes. Instead, it uses the virtual-key codes to interpret keystroke messages.
+The scan code is the value that the [keyboard driver](/windows-hardware/drivers/hid/keyboard-and-mouse-class-drivers) generates when the user presses a key. It is a value that identifies the key pressed, as opposed to the character represented by the key. An application typically ignores scan codes. Instead, it uses the virtual-key codes to interpret keystroke messages.
 
 > [!NOTE]
-> While virtual key codes are typically more useful, scan codes might be required in specific cases when you need to know which key is pressed regardless of the current keyboard layout. For example, the WASD (W is up, A is left, S is down, and D is right) key bindings for games, which ensure a consistent key formation across keyboard layouts.
+> While virtual key codes are typically more useful, scan codes might be required in specific cases when you need to know which key is pressed regardless of the current keyboard layout. For example, the WASD (W is up, A is left, S is down, and D is right) key bindings for games, which ensure a consistent key formation across US QWERTY or French AZERTY keyboard layouts.
 
 The following table lists the full set of Scan Codes as presently recognized by Windows. The US Key assignments are for reference to a type 101/102 Enhanced keyboard as supported by the Type 4 Keyboard layout. The **Key location** values reference the preceding keyboard image.
 
