@@ -302,7 +302,7 @@ Following these guidelines when developing your package to help maintain a secur
 
 ## Use PMSIHANDLE instead of HANDLE
 
-The **PMSIHANDLE** type variables is defined in msi.h. It is recommended that your application use the **PMSIHANDLE** type because the installer closes **PMSIHANDLE** objects as they go out of scope, whereas your application must close **MSIHANDLE** objects by calling [**MsiCloseHandle**](/windows/desktop/api/Msi/nf-msi-msiclosehandle).
+The **PMSIHANDLE** type variables is defined in msi.h. It is recommended that your application use the **PMSIHANDLE** type because the installer closes **PMSIHANDLE** objects as they go out of scope, whereas your application must close **MSIHANDLE** objects by calling [**MsiCloseHandle**](/windows/desktop/api/Msi/nf-msi-msiclosehandle). **PMSIHandle** provides a casting operator to **MSIHANDLE** for API signature compatibility.
 
 For example, if you use code like this:
 
