@@ -311,7 +311,7 @@
         - name: "Using IUIAutomationTextRange to Access and Manipulate a Text Range"
           href: uiauto-usingtextrangeobjects.md
         - name: "Using Custom Annotations"
-          href: uiauto-custom-annotations.md
+          href: uiauto-using-custom-annotations.md
         - name: "Accessing Spreadsheet Content"
           href: uiauto-accessingspreadsheetcontent.md
         - name: "Handling Text-related Events"
