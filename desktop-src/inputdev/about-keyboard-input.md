@@ -221,7 +221,7 @@ The **Scan 1 Make** code is delivered in [**WM\_KEYDOWN**](wm-keydown.md)/[**WM\
 | 07             | 45           | Keyboard F12                      | 123          | 58          |
 | 07             | 46           | Keyboard PrintScreen              | 124          | E0 37<br>54 *(Alt + PrintScreen)* |
 | 07             | 47           | Keyboard Scroll Lock              | 125          | 46          |
-| 07             | 48           | Keyboard Pause                    | 126          | E1 1D<br>E0 46 *(Control + Pause)* |
+| 07             | 48           | Keyboard Pause                    | 126          | E1 1D 45<br>E0 46 *(Control + Pause)* |
 | 07             | 49           | Keyboard Insert                   | 75           | E0 52       |
 | 07             | 4A           | Keyboard Home                     | 80           | E0 47       |
 | 07             | 4B           | Keyboard PageUp                   | 85           | E0 49       |
