@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 The installer sets this property if the user has administrator privileges.
 
-**Windows Server 2008 and Windows Vista:** The **AdminUser** property is the same as the [**Privileged**](privileged.md) property. Authors should used the **Privileged** property. The installer sets these properties if the user has administrator privileges, if the application has been assigned by a system administrator, or if both the user and machine policies AlwaysInstallElevated are set to true.
+**Windows Server 2008 and Windows Vista:** The **AdminUser** property is the same as the [**Privileged**](privileged.md) property. Authors should use the **Privileged** property. The installer sets these properties if the user has administrator privileges, if the application has been assigned by a system administrator, or if both the user and machine policies AlwaysInstallElevated are set to true.
 
 ## Remarks
 
