@@ -1,21 +1,16 @@
 ---
-description: DirectShow Samples
+title: DirectShow sample apps
+description: DirectShow sample apps
 ms.assetid: 4166d5ca-5e02-49f6-bcb1-d448f8175a0c
-title: DirectShow Samples
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 12/14/2022
 ---
 
-# DirectShow Samples
+# DirectShow sample apps
 
-The DirectShow samples are published in [GitHub](https://github.com/microsoft/Windows-classic-samples). They are located under the path \[SDK Root\] \\Samples\\Multimedia\\DirectShow.
+You can find the DirectShow sample apps in the [Windows-classic-samples](https://github.com/microsoft/Windows-classic-samples/tree/main/Samples/Win7Samples/multimedia/directshow) repository on GitHub.
 
-The following table lists all of the DirectShow samples provided in the Windows SDK. For instructions on how to build the samples, refer to the documentation provided in the Windows SDK.
-
-If there is additional documentation for a sample, the first column of this table links to it.
-
-
-
+The table below lists all of the DirectShow samples provided in that repo. For instructions on how to build the samples, refer to the documentation provided in the Windows SDK. If a topic exists describing a sample, then the first column of this table links to it.
 
 | Sample | Area | Description | Additional Dependencies | 
 |--------|------|-------------|-------------------------|
@@ -53,30 +48,14 @@ If there is additional documentation for a sample, the first column of this tabl
 | Watermark Sample | VMR-9 | Blends a static bitmap onto a video during playback, using the VMR-9. | 
 | <a href="windowless-sample.md">Windowless Sample</a> | VMR-9 | Demonstrates windowless mode in the VMR-9. | 
 
+## Additional dependencies
 
+Some of the samples link to the DirectShow base class library. To build those samples, first build the base class library. For more information, see [DirectShow base classes](directshow-base-classes.md). The base class library is required for all of the sample filters.
 
+A few of the samples also require the DirectX SDK, in addition to the Windows SDK. To build those samples, you must install the DirectX SDK, and set the `%DXSDK\_DIR%` environment variable equal to your DirectX SDK installation path.
 
- 
-
-## Additional Dependencies
-
-Some of the samples link to the DirectShow base class library. To build these samples, you must first build the base class library. For more information, see [DirectShow Base Classes](directshow-base-classes.md). The base class library is required for all of the sample filters.
-
-A few of the samples also require the DirectX SDK, in addition to the Windows SDK. To build these samples, you must install the DirectX SDK and set the %DXSDK\_DIR% environment variable equal to your DirectX SDK installation path.
-
-Many of the DirectShow samples use a set of common headers and source files located in the directrory \[SDK Root\]\\Samples\\Multimedia\\DirectShow\\Common. If you copy a sample folder to another directory, make sure to copy the Common folder as well.
+Many of the DirectShow samples use a set of common headers and source files located in the directrory `\[SDK Root\]Samples\Multimedia\DirectShow\Common`. If you copy a sample folder to another directory, then make sure to copy the `Common` folder as well.
 
 ## Related topics
 
-<dl> <dt>
-
-[Setting Up the Build Environment](setting-up-the-build-environment.md)
-</dt> </dl>
-
- 
-
- 
-
-
-
-
+* [Setting up the build environment](setting-up-the-build-environment.md)
