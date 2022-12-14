@@ -145,11 +145,11 @@ Modern keyboards are using [Human Interface Devices (HID)](https://www.usb.org/h
 > [!NOTE]
 > While virtual key codes are typically more useful to desktop applications, scan codes might be required in specific cases when you need to know which key is pressed regardless of the current keyboard layout. For example, the WASD (W is up, A is left, S is down, and D is right) key bindings for games, which ensure a consistent key formation across US QWERTY or French AZERTY keyboard layouts.
 
-The following table lists the full set of Scan Codes as presently recognized by Windows. *HID Usage Page*/*HID Usage ID*/*HID Usage Name* values reference the [HID Usage Tables](https://www.usb.org/hid) document. The **Key location** values reference the preceding keyboard image.
+The following table lists the full set of Scan Codes as presently recognized by Windows. **HID Usage Page**/**HID Usage ID**/**HID Usage Name** values reference the [HID Usage Tables](https://www.usb.org/hid) document. The **Key Location** values reference the preceding keyboard image.
 
-The *Scan 1 make* code is delivered in [**WM\_KEYDOWN**](wm-keydown.md)/[**WM\_KEYUP**](wm-keyup.md)/[**WM\_SYSKEYDOWN**](wm-syskeydown.md)/[**WM\_SYSKEYUP**](wm-syskeyup.md) and [**WM\_INPUT**](wm-input.md) messages.
+The **Scan 1 Make** code is delivered in [**WM\_KEYDOWN**](wm-keydown.md)/[**WM\_KEYUP**](wm-keyup.md)/[**WM\_SYSKEYDOWN**](wm-syskeydown.md)/[**WM\_SYSKEYUP**](wm-syskeyup.md) and [**WM\_INPUT**](wm-input.md) messages.
 
-| HID Usage Page | HID Usage ID | HID Usage Name                    | Key location | Scan 1 make |
+| HID Usage Page | HID Usage ID | HID Usage Name                    | Key Location | Scan 1 Make |
 |----------------|--------------|-----------------------------------|--------------|-------------|
 | 07             | 01           | ErrorRollOver                     |              | FF          |
 | 07             | 02           | POSTFail                          |              | FC          |
