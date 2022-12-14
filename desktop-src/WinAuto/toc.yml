@@ -303,18 +303,20 @@
         href: uiauto-cachingforclients.md
       - name: "Subscribing to UI Automation Events"
         href: uiauto-eventsforclients.md
-      - name: "Working with Text-based Controls"
+      - name: "Working with UIAutomation and Text-based Controls"
         href: uiauto-workingwithtextbasedcontrols.md
         items: 
         - name: "Understanding the UI Automation Text Object Model"
           href: uiauto-understandingtheuiautomationtextobjectmodel.md
-        - name: "Using Text Ranges"
+        - name: "Using IUIAutomationTextRange to Access and Manipulate a Text Range"
           href: uiauto-usingtextrangeobjects.md
+        - name: "Using Custom Annotations"
+          href: uiauto-custom-annotations.md
         - name: "Accessing Spreadsheet Content"
           href: uiauto-accessingspreadsheetcontent.md
         - name: "Handling Text-related Events"
           href: uiauto-handlingtextrelatedevents.md
-        - name: "Understanding Performance Issues"
+        - name: "Understanding Performance Issues When Using the Text and TextRange Control Patterns"
           href: uiauto-understandingperformanceissues.md
       - name: "Working with Virtualized Items"
         href: uiauto-workingwithvirtualizeditems.md

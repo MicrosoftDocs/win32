@@ -1,5 +1,5 @@
 ---
-title: Working with Text-based Controls
+title: Working with UIAutomation and Text-based Controls.
 ms.assetid: e06e1f6e-8346-4656-b0cb-58e5b9fdaa33
 description: Learn more about Working with UIAutomation and Text-based Controls
 keywords:
