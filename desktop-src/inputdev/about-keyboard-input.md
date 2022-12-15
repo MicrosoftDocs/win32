@@ -221,7 +221,7 @@ The **Scan 1 Make** code is delivered in [**WM\_KEYDOWN**](wm-keydown.md)/[**WM\
 | 07             | 45           | Keyboard F12                      | 123          | 58          |
 | 07             | 46           | Keyboard PrintScreen              | 124          | E0 37<br>54 *(Alt + PrintScreen)* |
 | 07             | 47           | Keyboard Scroll Lock              | 125          | 46          |
-| 07             | 48           | Keyboard Pause                    | 126          | E1 1D 45<br>E0 46 *(Control + Pause)* |
+| 07             | 48           | Keyboard Pause                    | 126          | E1 1D<br>E0 46 *(Control + Pause)*<br>45* |
 | 07             | 49           | Keyboard Insert                   | 75           | E0 52       |
 | 07             | 4A           | Keyboard Home                     | 80           | E0 47       |
 | 07             | 4B           | Keyboard PageUp                   | 85           | E0 49       |
@@ -232,7 +232,7 @@ The **Scan 1 Make** code is delivered in [**WM\_KEYDOWN**](wm-keydown.md)/[**WM\
 | 07             | 50           | Keyboard LeftArrow                | 79           | E0 4B       |
 | 07             | 51           | Keyboard DownArrow                | 84           | E0 50       |
 | 07             | 52           | Keyboard UpArrow                  | 83           | E0 48       |
-| 07             | 53           | Keypad Num Lock and Clear         | 90           | 45          |
+| 07             | 53           | Keypad Num Lock and Clear         | 90           | 45<br>E0 45* |
 | 07             | 54           | Keypad Forward Slash              | 95           | E0 35       |
 | 07             | 55           | Keypad Star                       | 100          | 37          |
 | 07             | 56           | Keypad Dash                       | 105          | 4A          |
@@ -306,6 +306,8 @@ The **Scan 1 Make** code is delivered in [**WM\_KEYDOWN**](wm-keydown.md)/[**WM\
 | 0C             | 0226         | AC Stop                           |              | E0 68       |
 | 0C             | 0227         | AC Refresh                        |              | E0 67       |
 | 0C             | 022A         | AC Previous Link                  |              | E0 66       |
+
+Note: * As seen in [legacy keyboard messages](keyboard-input-notifications.md).
 
 ### Extended-Key Flag
 
