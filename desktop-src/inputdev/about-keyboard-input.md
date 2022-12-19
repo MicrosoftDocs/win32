@@ -136,7 +136,7 @@ You can check the repeat count to determine whether a keystroke message represen
 
 ### Scan Codes
 
-:::image type="content" source="images/keyboard-key-locations.png" alt-text="Diagram of a keyboard with the key locations for each key.":::
+:::image type="content" source="images/keyboard-key-locations.png" alt-text="Diagram of a Type 4 keyboard with the key locations for each key.":::
 
 The scan code is the value that the system generates when the user presses a key. It is a value that identifies the key pressed regardless of the active [keyboard layout](/globalization/windows-keyboard-layouts), as opposed to the character represented by the key. An application typically ignores scan codes. Instead, it uses the virtual-key codes to interpret keystroke messages.
 
@@ -251,26 +251,13 @@ The **Scan 1 Make** code is delivered in [**WM\_KEYDOWN**](wm-keydown.md)/[**WM\
 | 07             | 63           | Keypad Period                     | 104          | 53          |
 | 07             | 64           | Keyboard Non-US Slash Bar         | 45           | 56          |
 | 07             | 65           | Keyboard Application              | 129          | E0 5D       |
-| 07             | 66           | Keyboard Power                    |              | E0 5E       |
 | 07             | 67           | Keypad Equals                     |              | 59          |
-| 07             | 68           | Keyboard F13                      |              | 64          |
-| 07             | 69           | Keyboard F14                      |              | 65          |
-| 07             | 6A           | Keyboard F15                      |              | 66          |
-| 07             | 6B           | Keyboard F16                      |              | 67          |
-| 07             | 6C           | Keyboard F17                      |              | 68          |
-| 07             | 6D           | Keyboard F18                      |              | 69          |
-| 07             | 6E           | Keyboard F19                      |              | 6A          |
-| 07             | 6F           | Keyboard F20                      |              | 6B          |
-| 07             | 70           | Keyboard F21                      |              | 6C          |
-| 07             | 71           | Keyboard F22                      |              | 6D          |
-| 07             | 72           | Keyboard F23                      |              | 6E          |
-| 07             | 73           | Keyboard F24                      |              | 76          |
 | 07             | 85           | Keypad Comma                      | 107          | 7E          |
-| 07             | 87           | Keyboard International1           | 56           | 73          |
-| 07             | 88           | Keyboard International2           |              | 70          |
-| 07             | 89           | Keyboard International3           |              | 7D          |
-| 07             | 8A           | Keyboard International4           |              | 79          |
-| 07             | 8B           | Keyboard International5           |              | 7B          |
+| 07             | 87           | Keyboard International1           | 56\*Note 4   | 73          |
+| 07             | 88           | Keyboard International2           | 133\*Note 4  | 70          |
+| 07             | 89           | Keyboard International3           | 14\*Note 4   | 7D          |
+| 07             | 8A           | Keyboard International4           | 132\*Note 4  | 79          |
+| 07             | 8B           | Keyboard International5           | 131\*Note 4  | 7B          |
 | 07             | 8C           | Keyboard International6           |              | 5C          |
 | 07             | 90           | Keyboard LANG1                    |              | 72          |
 | 07             | 91           | Keyboard LANG2                    |              | 71          |
@@ -309,9 +296,10 @@ The **Scan 1 Make** code is delivered in [**WM\_KEYDOWN**](wm-keydown.md)/[**WM\
 
 Notes:
 
-1. **System Request** key scan code is emmited on **Alt + PrintScreen** press;
-2. **Break** key scan code is emmited on **Control + Pause** press;
-3. As seen in [legacy keyboard messages](keyboard-input-notifications.md);
+1. **System Request** key scan code is emmited on **Alt + PrintScreen** press
+2. **Break** key scan code is emmited on **Control + Pause** press
+3. As seen in [legacy keyboard messages](keyboard-input-notifications.md)
+4. The key is present on Japanese keyboards
 
 ### Extended-Key Flag
 
