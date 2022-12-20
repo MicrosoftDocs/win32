@@ -145,7 +145,7 @@ Modern keyboards are using [Human Interface Devices (HID)](https://www.usb.org/h
 > [!NOTE]
 > While virtual key codes are typically more useful to desktop applications, scan codes might be required in specific cases when you need to know which key is pressed regardless of the current [keyboard layout](/globalization/windows-keyboard-layouts). For example, the WASD (W is up, A is left, S is down, and D is right) key bindings for games, which ensure a consistent key formation across [US QWERTY](/globalization/keyboards/kbdus_7) or [French AZERTY](/globalization/keyboards/kbdfr) keyboard layouts.
 
-The following table lists the full set of Scan Codes as presently recognized by Windows. **HID Usage Page**/**HID Usage ID**/**HID Usage Name** values reference the [HID Usage Tables](https://www.usb.org/hid) document. The **Key Location** values reference the preceding keyboard image.
+The following table lists the set of Scan Codes as presently recognized by Windows. **HID Usage Page**/**HID Usage ID**/**HID Usage Name** values reference the [HID Usage Tables](https://www.usb.org/hid) document. The **Key Location** values reference the preceding keyboard image.
 
 The **Scan 1 Make** code is delivered in [**WM\_KEYDOWN**](wm-keydown.md)/[**WM\_KEYUP**](wm-keyup.md)/[**WM\_SYSKEYDOWN**](wm-syskeydown.md)/[**WM\_SYSKEYUP**](wm-syskeyup.md) and [**WM\_INPUT**](wm-input.md) messages.
 
@@ -252,12 +252,12 @@ The **Scan 1 Make** code is delivered in [**WM\_KEYDOWN**](wm-keydown.md)/[**WM\
 | 07             | 64           | Keyboard Non-US Slash Bar         | 45           | 56          |
 | 07             | 65           | Keyboard Application              | 129          | E0 5D       |
 | 07             | 67           | Keypad Equals                     |              | 59          |
-| 07             | 85           | Keypad Comma                      | 107          | 7E          |
-| 07             | 87           | Keyboard International1           | 56\*Note 4   | 73          |
-| 07             | 88           | Keyboard International2           | 133\*Note 4  | 70          |
-| 07             | 89           | Keyboard International3           | 14\*Note 4   | 7D          |
-| 07             | 8A           | Keyboard International4           | 132\*Note 4  | 79          |
-| 07             | 8B           | Keyboard International5           | 131\*Note 4  | 7B          |
+| 07             | 85           | Keypad Comma                      | 107\*Note 4  | 7E          |
+| 07             | 87           | Keyboard International1           | 56\*Note 4, 5 | 73          |
+| 07             | 88           | Keyboard International2           | 133\*Note 5  | 70          |
+| 07             | 89           | Keyboard International3           | 14\*Note 5   | 7D          |
+| 07             | 8A           | Keyboard International4           | 132\*Note 5  | 79          |
+| 07             | 8B           | Keyboard International5           | 131\*Note 5  | 7B          |
 | 07             | 8C           | Keyboard International6           |              | 5C          |
 | 07             | 90           | Keyboard LANG1                    |              | 72          |
 | 07             | 91           | Keyboard LANG2                    |              | 71          |
@@ -299,7 +299,8 @@ Notes:
 1. **System Request** key scan code is emmited on **Alt + PrintScreen** press
 2. **Break** key scan code is emmited on **Control + Pause** press
 3. As seen in [legacy keyboard messages](keyboard-input-notifications.md)
-4. The key is present on Japanese keyboards
+4. The key is present on Brazilian keyboards
+5. The key is present on Japanese keyboards
 
 ### Extended-Key Flag
 
