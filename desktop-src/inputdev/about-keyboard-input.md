@@ -296,8 +296,8 @@ The **Scan 1 Make** code is delivered in [**WM\_KEYDOWN**](wm-keydown.md)/[**WM\
 
 Notes:
 
-1. **System Request** key scan code is emmited on **Alt + PrintScreen** press
-2. **Break** key scan code is emmited on **Control + Pause** press
+1. *SysRq* key scan code is emmited on *Alt+Print screen* keystroke
+2. *Break* key scan code is emmited on *Control+Pause* keystroke
 3. As seen in [legacy keyboard messages](keyboard-input-notifications.md)
 4. The key is present on Brazilian keyboards
 5. The key is present on Japanese keyboards
