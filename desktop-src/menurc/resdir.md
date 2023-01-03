@@ -26,10 +26,10 @@ Contains information about an individual icon or cursor component in a resource 
 typedef struct {
   ICONRESDIR Icon;
   CURSORDIR  Cursor;
-  CURSORDIR  Planes;
-  CURSORDIR  BitCount;
-  CURSORDIR  BytesInRes;
-  CURSORDIR  IconCursorId;
+  WORD       Planes;
+  WORD       BitCount;
+  DWORD      BytesInRes;
+  WORD       IconCursorId;
 } RESDIR;
 ```
 
@@ -64,7 +64,7 @@ The width and height of the indicated cursor.
 **Planes**
 </dt> <dd>
 
-Type: **[**CURSORDIR**](cursordir.md)**
+Type: **WORD**
 
 </dd> <dd>
 
@@ -75,7 +75,7 @@ The number of color planes in the icon or cursor bitmap.
 **BitCount**
 </dt> <dd>
 
-Type: **[**CURSORDIR**](cursordir.md)**
+Type: **WORD**
 
 </dd> <dd>
 
@@ -86,7 +86,7 @@ The number of bits per pixel in the icon or cursor bitmap.
 **BytesInRes**
 </dt> <dd>
 
-Type: **[**CURSORDIR**](cursordir.md)**
+Type: **DWORD**
 
 </dd> <dd>
 
@@ -97,7 +97,7 @@ The size of the resource, in bytes.
 **IconCursorId**
 </dt> <dd>
 
-Type: **[**CURSORDIR**](cursordir.md)**
+Type: **WORD**
 
 </dd> <dd>
 
