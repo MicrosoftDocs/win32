@@ -121,7 +121,7 @@ HKEY_CLASSES_ROOT
 
 The TypeOverlay entry contains a REG\_SZ value interpreted as follows:
 
--   If the value is a resource reference (a **.ico** file embedded in the DLL) such as `ISVComponent.dll,-155`, that image is used as the overlay for files with that file name extension. Note that in this example, **155** is the resouce ID, and if the DLL is not present in a standard path (such as **C:/Windows/System32**), the full path is required instead of just the DLL name.
+-   If the value is a resource reference (a **.ico** file embedded in the DLL) such as `ISVComponent.dll,-155`, that image is used as the overlay for files with that file name extension. Note that in this example, **155** is the resource ID, and if the DLL is not present in a standard path (such as **C:/Windows/System32**), the full path is required instead of just the DLL name.
 -   If the value is an empty string, no overlay is applied to the image.
 -   If the value is not present, the default icon of the associated application is used.
 
