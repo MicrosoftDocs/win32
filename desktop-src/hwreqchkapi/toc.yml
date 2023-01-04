@@ -1,0 +1,26 @@
+- name: "HWREQCHK API"
+  href: index.md
+  items: 
+  - name: "HWREQCHK API overview"
+    href: hwreqchk-overview.md
+    items: 
+    - name: "HWREQCHK examples"
+      href: hwreqchk-examples.md
+  - name: "HWREQCHK API functions"
+    href: hwreqchk-api-functions.md
+    items: 
+    - name: "EvaluateHardwareRequirement"
+      href: /windows/win32/api/hwreqchkapi/nf-hwreqchkapi-evaluatehardwarerequirement
+    - name: "GetLatestHardwareRequirement"
+      href: /windows/win32/api/hwreqchkapi/nf-hwreqchkapi-getlatesthardwarerequirement
+    - name: "GetHardwareRequirements"
+      href: /windows/win32/api/hwreqchkapi/nf-hwreqchkapi-gethardwarerequirements
+    - name: "GetHardwareRequirementSystemInfo"
+      href: /windows/win32/api/hwreqchkapi/nf-hwreqchkapi-gethardwarerequirementsysteminfo
+  - name: "HWREQCHK API structures"
+    href: hwreqchk-api-structures.md
+    items: 
+    - name: "HWREQCHK_DEVICE_HARDWARE_EVALUATION"
+      href: /windows/win32/api/hwreqchkapi/ns-hwreqchkapi-hwreqchk_device_hardware_evaluation
+    - name: "HWREQCHK_DEVICE_HARDWARE_SYSINFO"
+      href: /windows/win32/api/hwreqchkapi/ns-hwreqchkapi-hwreqchk_device_hardware_sysinfo
