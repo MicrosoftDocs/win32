@@ -105,8 +105,8 @@ EvaluateHardwareRequirementExample(
     static const std::map<const std::wstring, const std::wstring> constraintRuleMapping =
     {
         { L"SSE2ProcessorSupport", L"Processor must support the SSE2 instruction set"} ,
-        { L"NXProcessorSupport", L"Processor must support data execution prevention"},
-        { L"CompareExchange128", L"Processor must support the LAHF and SAHF instructions" },
+        { L"NXProcessorSupport", L"Processor must support data execution prevention" },
+        { L"CompareExchange128", L"Processor must support the CMPXCHG16B instruction also referred to as CompareExchange128" },
         { L"LahfSahfSupport", L"Processor must support the LAHF and SAHF instructions" },
         { L"PrefetchWSupport", L"Processor must support the PrefetchW instructions" },
         { L"CpuCores", L"The minimum number of CPU cores that must exist on the device" },
