@@ -10,7 +10,7 @@ ms.date: 01/04/2023
 
 ## Purpose
 
-The Hardware Requirement Evaluator (HWREQCHK) library is a set of APIs that allows callers to get information about a hardware device and determine if the machine is eligible to run a specific version of Windows 11 (and new versions of the OS as they become available). The API queries various hardware properties and evaluates rules to determine eligibility.
+The **Hardware Requirement Evaluator (HWREQCHK)** library is a set of APIs that allows callers to get information about a hardware device and determine if the machine is eligible to run a specific version of Windows 11 (and new versions of the OS as they become available). The API queries various hardware properties and evaluates rules to determine eligibility.
 
 ## Developer audience
 
