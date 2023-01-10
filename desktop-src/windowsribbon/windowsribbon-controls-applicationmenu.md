@@ -57,7 +57,7 @@ The following is a list of constraints for a [**MenuGroup**](windowsribbon-eleme
 
 -   All [**MenuGroup**](windowsribbon-element-menugroup.md) items must be declared with a *Class* attribute value of `MajorItems`.
 -   An Application Menu [**MenuGroup**](windowsribbon-element-menugroup.md) supports only the [Button](windowsribbon-controls-button.md), [Toggle Button](windowsribbon-controls-togglebutton.md), [Drop-Down Button](windowsribbon-controls-dropdownbutton.md), [Split Button](windowsribbon-controls-splitbutton.md), [Drop-Down Gallery](windowsribbon-controls-dropdowngallery.md), and [Split Button Gallery](windowsribbon-controls-splitbuttongallery.md) controls.
-    > \[!Important\]  
+    > ![Important]  
     > Command galleries are the only type of gallery that are supported in the Application Menu. See [Working with Galleries](./ribbon-controls-galleries.md), for more information on gallery controls.
 
      

@@ -17,7 +17,7 @@ The Video Renderer filter is a robust, all-purpose video renderer.
 
 The Video Renderer uses DirectDraw and overlay surfaces, if the video card supports them. The Filter Graph Manager exposes the [**IVideoWindow**](/windows/desktop/api/Control/nn-control-ivideowindow) interface, which enables applications to set and retrieve properties on the Video Renderer. With newer video cards, the Video Renderer supports full-screen rendering. Otherwise, the Filter Graph Manager automatically switches to the [Full Screen Renderer](full-screen-renderer-filter.md) filter for full-screen mode. See [**IVideoWindow::put\_FullScreenMode**](/windows/desktop/api/Control/nf-control-ivideowindow-put_fullscreenmode) for more information.
 
--   \[!Important\]  
+-   ![Important]  
     > Normally, this filter's video window processes messages on a worker thread created by the Filter Graph Manager. Howerver, if an application directly creates the filter using **CoCreateInstance**, the video window processes messages on the application thread. In that case, the application thread must have a message loop, to dispatch messages to the video window. Also, the thread must not exit until the final **Release** call to the Video Renderer, which occurs when the Filter Graph Manager shuts down. Otherwise, the application might deadlock.
 
      

@@ -149,7 +149,7 @@ The following steps describe in detail how to implement a simple Ribbon applicat
 
     The application calls [**IUIFramework::Initialize**](/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-initialize), passing in two parameters: the handle to the top-level window that will contain the Ribbon and a pointer to the [**IUIApplication**](/windows/desktop/api/uiribbon/nn-uiribbon-iuiapplication) implementation that allows the framework to make callbacks to the application.
 
-    > \[!Important\]  
+    > ![Important]  
     > The Ribbon framework is initialized as a single-threaded apartment (STA).
 
      
