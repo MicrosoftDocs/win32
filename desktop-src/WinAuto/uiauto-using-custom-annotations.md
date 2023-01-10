@@ -359,8 +359,8 @@ void main()
 
 ## See also
 
-[RegisterAnnotationType Method](/uwp/api/windows.ui.uiautomation.core.coreautomationregistrar.registerannotationtype)
-[AutomationAnnotationTypeRegistration Struct](/uwp/api/windows.ui.uiautomation.core.automationannotationtyperegistration)
-[Word Custom Annotations](/office/uia/word/wordcustomannotations)
-[Annotation Control Pattern](uiauto-implementingannotation.md)
-[Annotation Type Identifiers](uiauto-annotation-type-identifiers.md)
+- [RegisterAnnotationType Method](/uwp/api/windows.ui.uiautomation.core.coreautomationregistrar.registerannotationtype)
+- [AutomationAnnotationTypeRegistration Struct](/uwp/api/windows.ui.uiautomation.core.automationannotationtyperegistration)
+- [Word Custom Annotations](/office/uia/word/wordcustomannotations)
+- [Annotation Control Pattern](uiauto-implementingannotation.md)
+- [Annotation Type Identifiers](uiauto-annotation-type-identifiers.md)
