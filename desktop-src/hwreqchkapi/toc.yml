@@ -22,5 +22,7 @@
     items: 
     - name: "HWREQCHK_DEVICE_HARDWARE_EVALUATION"
       href: /windows/win32/api/hwreqchkapi/ns-hwreqchkapi-hwreqchk_device_hardware_evaluation
+    - name: "HWREQCHK_DEVICE_HARDWARE_REQUIREMENT"
+      href: /windows/win32/api/hwreqchkapi/ns-hwreqchkapi-hwreqchk_device_hardware_requirement
     - name: "HWREQCHK_DEVICE_HARDWARE_SYSINFO"
       href: /windows/win32/api/hwreqchkapi/ns-hwreqchkapi-hwreqchk_device_hardware_sysinfo

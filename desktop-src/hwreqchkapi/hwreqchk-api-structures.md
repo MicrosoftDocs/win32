@@ -11,6 +11,7 @@ ms.date: 01/04/2023
 The native HWREQCHK API contains the following structures:
 
 - [**HWREQCHK\_DEVICE\_HARDWARE\_EVALUATION**](/windows/win32/api/hwreqchkapi/ns-hwreqchkapi-hwreqchk_device_hardware_evaluation)
+- [**HWREQCHK\_DEVICE\_HARDWARE\_REQUIREMENT**](/windows/win32/api/hwreqchkapi/ns-hwreqchkapi-hwreqchk_device_hardware_requirement)
 - [**HWREQCHK\_DEVICE\_HARDWARE\_SYSINFO**](/windows/win32/api/hwreqchkapi/ns-hwreqchkapi-hwreqchk_device_hardware_sysinfo)
 
 ## Related topics
