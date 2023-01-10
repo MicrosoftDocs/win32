@@ -81,14 +81,16 @@ public:
             // array copies, which would both make the code more complex
             // and less perfomant, making this short-circuit the best way
             // to allow them through.
-            RETURN_HR_IF(E_INVALIDARG, !(actualType == VT_INT && vtExpected == VT_I4));
+            RETURN_HR_IF(E_INVALIDARG, 
+               !(actualType == VT_INT && vtExpected == VT_I4));
         }
         LONG lb;
         LONG ub;
         RETURN_IF_FAILED(::SafeArrayGetLBound(m_safeArray, 1, &lb));
         RETURN_IF_FAILED(::SafeArrayGetUBound(m_safeArray, 1, &ub));
         m_count = ub - lb + 1;
-        RETURN_IF_FAILED(::SafeArrayAccessData(m_safeArray, reinterpret_cast<void**>(&m_data)));
+        RETURN_IF_FAILED(::SafeArrayAccessData(m_safeArray, 
+           reinterpret_cast<void**>(&m_data)));
         return S_OK;
     }
 
@@ -131,7 +133,11 @@ enum class CustomWordAnnotation
     None,
 };
 
-using unique_safearray = wil::unique_any<SAFEARRAY*, decltype(&::SafeArrayDestroy), ::SafeArrayDestroy>;
+using unique_safearray = 
+   wil::unique_any<SAFEARRAY*, 
+   decltype(&::SafeArrayDestroy), 
+   ::SafeArrayDestroy>;
+
 class CustomAnnotationUtility
 {
 public:
@@ -150,64 +156,81 @@ public:
 
     ~CustomAnnotationUtility()
     {
-        winrt::CoreAutomationRegistrar::UnregisterAnnotationType(m_bookmarkRegId);
-        winrt::CoreAutomationRegistrar::UnregisterAnnotationType(m_draftCommentRegId);
-        winrt::CoreAutomationRegistrar::UnregisterAnnotationType(m_resolvedCommentRegId);
+        winrt::CoreAutomationRegistrar::UnregisterAnnotationType(
+           m_bookmarkRegId);
+        winrt::CoreAutomationRegistrar::UnregisterAnnotationType(
+           m_draftCommentRegId);
+        winrt::CoreAutomationRegistrar::UnregisterAnnotationType(
+           m_resolvedCommentRegId);
     }
 
-    // Get custom annotations from text pattern of the automation element
-    std::vector<CustomWordAnnotation> GetCustomWordAnnotationsFrom(_In_ IUIAutomationTextPattern* textPattern)
+    // Get custom annotations from text pattern of the automation element.
+    std::vector<CustomWordAnnotation> GetCustomWordAnnotationsFrom(
+       _In_ IUIAutomationTextPattern* textPattern)
     {
         wil::com_ptr<IUIAutomationTextRange> textRange;
         VERIFY_SUCCEEDED(textPattern->get_DocumentRange(&textRange));
         wil::unique_variant annotationTypesVariant;
-        VERIFY_SUCCEEDED(textRange->GetAttributeValue(UIA_AnnotationTypesAttributeId, &annotationTypesVariant));
+        VERIFY_SUCCEEDED(textRange->GetAttributeValue(
+           UIA_AnnotationTypesAttributeId, &annotationTypesVariant));
         VERIFY_ARE_EQUAL(VT_I4 | VT_ARRAY, annotationTypesVariant.vt);
-        SafeArrayAccessor<int> annotationTypes(annotationTypesVariant.parray, VT_I4);
+        SafeArrayAccessor<int> annotationTypes(
+           annotationTypesVariant.parray, VT_I4);
         std::vector<CustomWordAnnotation> customAnnotations;
         for (unsigned int i = 0; i < annotationTypes.Count(); i++)
         {
             int annotation = annotationTypes[i];
             if (annotation == m_bookMark)
             {
-                customAnnotations.emplace_back(CustomWordAnnotation::BookMark);
+                customAnnotations.emplace_back(
+                   CustomWordAnnotation::BookMark);
             }
             else if (annotation == m_draftComment)
             {
-                customAnnotations.emplace_back(CustomWordAnnotation::DraftComment);
+                customAnnotations.emplace_back(
+                   CustomWordAnnotation::DraftComment);
             }
             else if (annotation == m_resolvedComment)
             {
-                customAnnotations.emplace_back(CustomWordAnnotation::ResolvedComment);
+                customAnnotations.emplace_back(
+                   CustomWordAnnotation::ResolvedComment);
             }
         }
         return customAnnotations;
     }
 
     // Driver Function
-    std::vector<CustomWordAnnotation> ExtractAllCustomAnnotationFromTextPatternOf(_In_ IUIAutomationElement* wordElement)
+    std::vector<CustomWordAnnotation> 
+       ExtractAllCustomAnnotationFromTextPatternOf(
+          _In_ IUIAutomationElement* wordElement)
     {
         wil::com_ptr<IUIAutomationTextPattern> textPattern;
-        VERIFY_SUCCEEDED(wordElement->GetCurrentPatternAs(UIA_TextPatternId, IID_PPV_ARGS(&textPattern)));
+        VERIFY_SUCCEEDED(wordElement->GetCurrentPatternAs(
+           UIA_TextPatternId, IID_PPV_ARGS(&textPattern)));
         VERIFY_IS_NOT_NULL(textPattern);
         return GetCustomWordAnnotationsFrom (textPattern.get());
     }
 
-    // Get custom annotations from given automation element
-    std::vector<CustomWordAnnotation> GetCustomWordAnnotationsFromElement(_In_ IUIAutomationElement* wordElement)
+    // Get custom annotations from given automation element.
+    std::vector<CustomWordAnnotation> GetCustomWordAnnotationsFromElement(
+       _In_ IUIAutomationElement* wordElement)
     {
-        wil::com_ptr<IUIAutomationElement4> wordElement4 = wil::com_query<IUIAutomationElement4>(wordElement);
+        wil::com_ptr<IUIAutomationElement4> wordElement4 = 
+           wil::com_query<IUIAutomationElement4>(wordElement);
         unique_safearray annotationTypesSafeArray;
-        VERIFY_SUCCEEDED(wordElement4->get_CurrentAnnotationTypes(&annotationTypesSafeArray));
+        VERIFY_SUCCEEDED(wordElement4->get_CurrentAnnotationTypes(
+           &annotationTypesSafeArray));
         VERIFY_ARE_EQUAL(VT_I4 | VT_ARRAY, annotationTypesVariant.vt);
-        SafeArrayAccessor<int> annotationTypes(annotationTypesSafeArray.get(), VT_I4);
+        SafeArrayAccessor<int> annotationTypes(
+           annotationTypesSafeArray.get(), VT_I4);
         std::vector<CustomWordAnnotation> customAnnotations;
         for (unsigned int i = 0; i < annotationTypes.Count(); i++)
         {
             Int annotation = annotationTypes[i];
             if (annotation == m_bookMark)
             {
-                customAnnotations.emplace_back(CustomWordAnnotation::BookMark);
+                customAnnotations.emplace_back(
+                   CustomWordAnnotation::BookMark);
             }
             else if (annotation == m_draftComment)
             {
@@ -221,15 +244,19 @@ public:
         return customAnnotations;
     }
 
-    std::vector<CustomWordAnnotation> GetCustomAnnotationUsingCachedAnnotationTypesProperty(_In_ IUIAutomationElement* wordElement)
+    std::vector<CustomWordAnnotation> 
+       GetCustomAnnotationUsingCachedAnnotationTypesProperty(
+         _In_ IUIAutomationElement* wordElement)
     {
-        wil::com_ptr<IUIAutomation> automation = wil::CoCreateInstance<CUIAutomation8, IUIAutomation>();
+        wil::com_ptr<IUIAutomation> automation = 
+           wil::CoCreateInstance<CUIAutomation8, IUIAutomation>();
         wil::com_ptr<IUIAutomationCacheRequest> cacheRequest;
         VERIFY_SUCCEEDED(automation->CreateCacheRequest(&cacheRequest));
         VERIFY_SUCCEEDED(cacheRequest->AddProperty(UIA_AnnotationTypesPropertyId));
         wil::com_ptr<IUIAutomationElement> cachedWordElement;
         VERIFY_SUCCEEDED(wordElement->BuildUpdatedCache(cacheRequest.get(), &cachedWordElement));
-        wil::com_ptr<IUIAutomationElement4> cachedWordElement4 = wil::com_query<IUIAutomationElement4>(cachedWordElement);
+        wil::com_ptr<IUIAutomationElement4> cachedWordElement4 = 
+           wil::com_query<IUIAutomationElement4>(cachedWordElement);
         unique_safearray annotationTypesSafeArray;
         VERIFY_SUCCEEDED(cachedWordElement4->get_CachedAnnotationTypes(&annotationTypesSafeArray));
         SafeArrayAccessor<int> annotationTypes(annotationTypesSafeArray.get(), VT_I4);
@@ -253,10 +280,12 @@ public:
         return customAnnotations;
     }
 
-    CustomWordAnnotation GetAnnotationFromAnnotationPattern(_In_ IUIAutomationElement* wordElement)
+    CustomWordAnnotation 
+       GetAnnotationFromAnnotationPattern(_In_ IUIAutomationElement* wordElement)
     {
         wil::com_ptr<IUIAutomationAnnotationPattern> annotationPattern;
-        VERIFY_SUCCEEDED(wordElement->GetCurrentPatternAs(UIA_AnnotationPatternId, IID_PPV_ARGS(&annotationPattern)));
+        VERIFY_SUCCEEDED(wordElement->GetCurrentPatternAs(
+           UIA_AnnotationPatternId, IID_PPV_ARGS(&annotationPattern)));
         VERIFY_IS_NOT_NULL(annotationPattern);
         int annotation;
         VERIFY_SUCCEEDED(annotationPattern->get_CurrentAnnotationTypeId(&annotation));
@@ -276,28 +305,35 @@ public:
     }
 
     // Finds an element in tree that has the bookmark custom annotation.
-    wil::com_ptr<IUIAutomationElement> FindElementWithBookmarkCustomAnnotation (_In_ IUIAutomationElement* startElement)
+    wil::com_ptr<IUIAutomationElement> 
+       FindElementWithBookmarkCustomAnnotation(_In_ IUIAutomationElement* startElement)
     {
-        wil::com_ptr<IUIAutomation> automation = wil::CoCreateInstance<CUIAutomation8, IUIAutomation>();
+        wil::com_ptr<IUIAutomation> automation = 
+           wil::CoCreateInstance<CUIAutomation8, IUIAutomation>();
         wil::unique_variant annotationTypeVariant;
         annotationTypeVariant.vt = VT_I4;
         annotationTypeVariant.lVal = m_bookMark;
         wil::com_ptr<IUIAutomationCondition> annotationTypeCondition;
-        VERIFY_SUCCEEDED(automation->CreatePropertyCondition(UIA_AnnotationAnnotationTypeIdPropertyId, annotationTypeVariant, &annotationTypeCondition));
+        VERIFY_SUCCEEDED(automation->CreatePropertyCondition(
+           UIA_AnnotationAnnotationTypeIdPropertyId, annotationTypeVariant, &annotationTypeCondition));
         wil::com_ptr<IUIAutomationCacheRequest> cacheRequest;
         VERIFY_SUCCEEDED(automation->CreateCacheRequest(&cacheRequest));
         VERIFY_SUCCEEDED(cacheRequest->AddPattern(UIA_AnnotationPatternId));
         VERIFY_SUCCEEDED(cacheRequest->AddProperty(UIA_AnnotationAnnotationTypeIdPropertyId));
         wil::com_ptr<IUIAutomationElement> annotationObject;
-        VERIFY_SUCCEEDED(startElement->FindFirstBuildCache(TreeScope_Descendants, annotationTypeCondition.get(), cacheRequest.get(), &annotationObject));
+        VERIFY_SUCCEEDED(startElement->FindFirstBuildCache(
+           TreeScope_Descendants, annotationTypeCondition.get(), cacheRequest.get(), &annotationObject));
         return annotationObject;
     }
 
-    // Finds a custom annotation element using item container property of the element.
-    wil::com_ptr<IUIAutomationElement> FindDraftCommentCustomAnnotationElementUsingItemContainerProperty (_In_ IUIAutomationElement* wordElement)
+    // Finds a custom annotation element using the item container property.
+    wil::com_ptr<IUIAutomationElement> 
+       FindDraftCommentCustomAnnotationElementUsingItemContainerProperty(
+          _In_ IUIAutomationElement* wordElement)
     {
         wil::com_ptr<IUIAutomationItemContainerPattern> itemContainerPattern;
-        VERIFY_SUCCEEDED(wordElement->GetCurrentPatternAs(UIA_ItemContainerPatternId, IID_PPV_ARGS(&itemContainerPattern)));
+        VERIFY_SUCCEEDED(wordElement->GetCurrentPatternAs(
+           UIA_ItemContainerPatternId, IID_PPV_ARGS(&itemContainerPattern)));
         VERIFY_IS_NOT_NULL(itemContainerPattern);
         wil::unique_variant annotationTypeVariant;
         annotationTypeVariant.vt = VT_I4;
@@ -312,13 +348,17 @@ public:
     }
 
     // Extracts a text range that has a given custom annotation.
-    wil::com_ptr<IUIAutomationTextRange> FindTextRangeWithResolvedCommentCustomAnnotation (_In_ IUIAutomationTextRange* wordDocRange)
+    wil::com_ptr<IUIAutomationTextRange> 
+       FindTextRangeWithResolvedCommentCustomAnnotation(
+          _In_ IUIAutomationTextRange* wordDocRange)
     {
         wil::unique_variant targetVariant;
         targetVariant.vt = VT_I4;
         targetVariant.lVal = m_resolvedComment;
         wil::com_ptr<IUIAutomationTextRange> resultRange;
-        VERIFY_SUCCEEDED(wordDocRange ->FindAttribute(UIA_AnnotationTypesAttributeId, targetVariant, FALSE /* backward */, &resultRange));
+        VERIFY_SUCCEEDED(wordDocRange ->FindAttribute(
+           UIA_AnnotationTypesAttributeId, 
+           targetVariant, FALSE /* backward */, &resultRange));
         return resultRange;
     }
 
@@ -333,29 +373,45 @@ private:
 
 void main()
 {
-    // AT(like Narrator, NVDA, JAWS) is focused on Word document of version that supports the custom annotations.
-    // Assumption: All properties and patterns used below are assumed to be supported by the focused element.
-    wil::com_ptr<IUIAutomation> automation = wil::CoCreateInstance<CUIAutomation8, IUIAutomation>();
+    // AT (such as Narrator, NVDA, JAWS) is focused on Word document of 
+    // version that supports the custom annotations.
+    // Assumption: All properties and patterns used below are 
+    // assumed to be supported by the focused element.
+    wil::com_ptr<IUIAutomation> automation = 
+       wil::CoCreateInstance<CUIAutomation8, IUIAutomation>();
     VERIFY_IS_NOT_NULL(automation);
     wil::com_ptr<IUIAutomationElement> focusedElement;
     VERIFY_SUCCEEDED(automation->GetFocusedElement(&focusedElement));
     CustomAnnotationUtility customAnnotationUtility;
-    std::vector<CustomWordAnnotation> textPatternAnnotations = customAnnotationUtility.ExtractAllCustomAnnotationFromTextPatternOf(focusedElement.get());
-    std::vector<CustomWordAnnotation> elementAnnotations = customAnnotationUtility. GetCustomWordAnnotationsFromElement (focusedElement.get());
-    std::vector<CustomWordAnnotation> cachedElementAnnotations = customAnnotationUtility.GetCustomAnnotationUsingCachedAnnotationTypesProperty(focusedElement.get());
-    CustomWordAnnotation annotationPatternAnnotations = customAnnotationUtility.GetAnnotationFromAnnotationPattern(focusedElement.get());
-    wil::com_ptr<IUIAutomationElement> bookMarkElement = customAnnotationUtility. FindElementWithBookmarkCustomAnnotation(focusedElement.get());
-    wil::com_ptr<IUIAutomationElement> draftCommentElement = customAnnotationUtility. FindDraftCommentCustomAnnotationElementUsingItemContainerProperty(focusedElement.get());
+    std::vector<CustomWordAnnotation> textPatternAnnotations = 
+       customAnnotationUtility.ExtractAllCustomAnnotationFromTextPatternOf(
+          focusedElement.get());
+    std::vector<CustomWordAnnotation> elementAnnotations = 
+       customAnnotationUtility. GetCustomWordAnnotationsFromElement (
+          focusedElement.get());
+    std::vector<CustomWordAnnotation> cachedElementAnnotations = 
+       customAnnotationUtility.GetCustomAnnotationUsingCachedAnnotationTypesProperty(
+          focusedElement.get());
+    CustomWordAnnotation annotationPatternAnnotations = 
+       customAnnotationUtility.GetAnnotationFromAnnotationPattern(
+          focusedElement.get());
+    wil::com_ptr<IUIAutomationElement> bookMarkElement = 
+       customAnnotationUtility. FindElementWithBookmarkCustomAnnotation(
+          focusedElement.get());
+    wil::com_ptr<IUIAutomationElement> draftCommentElement = 
+       customAnnotationUtility. FindDraftCommentCustomAnnotationElementUsingItemContainerProperty(
+          focusedElement.get());
     wil::com_ptr<IUIAutomationTextPattern> textPattern;
-    VERIFY_SUCCEEDED(focusedElement->GetCurrentPatternAs(UIA_TextPatternId, IID_PPV_ARGS(&textPattern)));
+    VERIFY_SUCCEEDED(focusedElement->GetCurrentPatternAs(
+       UIA_TextPatternId, IID_PPV_ARGS(&textPattern)));
     VERIFY_IS_NOT_NULL(textPattern);
     wil::com_ptr<IUIAutomationTextRange> documentRange;
     VERIFY_SUCCEEDED(textPattern->get_DocumentRange(&documentRange));
-    wil::com_ptr<IUIAutomationTextRange> resolvedCommentRange = customAnnotationUtility. FindTextRangeWithResolvedCommentCustomAnnotation(documentRange.get());
+    wil::com_ptr<IUIAutomationTextRange> resolvedCommentRange = 
+       customAnnotationUtility.FindTextRangeWithResolvedCommentCustomAnnotation(
+          documentRange.get());
 }
 ```
-
-
 
 ## See also
 
