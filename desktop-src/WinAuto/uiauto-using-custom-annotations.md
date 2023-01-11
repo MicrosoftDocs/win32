@@ -143,14 +143,19 @@ class CustomAnnotationUtility
 public:
     CustomAnnotationUtility()
     {
-       static constexpr winrt::guid c_Bookmark{ GUID{ 0x25330951, 0xA372, 0x4DB9, { 0x48, 0x8A, 0x85, 0x13, 0x7A, 0xD0, 0x08, 0xD2 } } };
+       static constexpr winrt::guid c_Bookmark{ 
+          GUID{ 0x25330951, 0xA372, 0x4DB9, { 0x48, 0x8A, 0x85, 0x13, 0x7A, 0xD0, 0x08, 0xD2 } } };
        m_bookmarkRegId = winrt::CoreAutomationRegistrar::RegisterAnnotationType(c_Bookmark);
        m_bookMark = m_bookmarkRegId.LocalId;
-       static constexpr winrt::guid c_DraftComment{ GUID{ 0x26BAEBC6, 0x591E, 0x4116, { 0xBB, 0xCF, 0xE9, 0xA7, 0x99, 0x6C, 0xD1, 0x69 } } };
-       m_draftCommentRegId = winrt::CoreAutomationRegistrar::RegisterAnnotationType(c_DraftComment);
+       static constexpr winrt::guid c_DraftComment{ 
+          GUID{ 0x26BAEBC6, 0x591E, 0x4116, { 0xBB, 0xCF, 0xE9, 0xA7, 0x99, 0x6C, 0xD1, 0x69 } } };
+       m_draftCommentRegId = 
+          winrt::CoreAutomationRegistrar::RegisterAnnotationType(c_DraftComment);
        m_draftComment = m_draftCommentRegId. LocalId;
-       static constexpr winrt::guid c_ResolvedComment{ GUID{ 0xA015030C, 0x5B44, 0x4EAC, { 0xB0, 0xCC, 0x21, 0xBA, 0x35, 0xDE, 0x6D, 0x07 } } };
-       m_resolvedCommentRegId = winrt::CoreAutomationRegistrar::RegisterAnnotationType(c_ResolvedComment);
+       static constexpr winrt::guid c_ResolvedComment{ 
+          GUID{ 0xA015030C, 0x5B44, 0x4EAC, { 0xB0, 0xCC, 0x21, 0xBA, 0x35, 0xDE, 0x6D, 0x07 } } };
+       m_resolvedCommentRegId = 
+          winrt::CoreAutomationRegistrar::RegisterAnnotationType(c_ResolvedComment);
        m_resolvedComment = m_resolvedCommentRegId.LocalId;
     }
 
