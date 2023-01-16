@@ -12,7 +12,7 @@ Windows Filtering Platform (WFP) is the underlying platform for Windows Firewall
 
 ## What is IPsec
 
-Internet Protocol Security (IPsec) is a set of security protocols used to transfer IP packets confidentially across the Internet. IPsec is mandatory for all IPv6 implementations and optional for IPv4.
+Internet Protocol Security (IPsec) is a set of security protocols used to transfer IP packets confidentially across the Internet. IPsec is ~mandatory~ (optional, see [RFC6434](https://www.rfc-editor.org/rfc/rfc6434.txt)) for all IPv6 implementations and optional for IPv4.
 
 Secured IP traffic has two optional IPsec headers, which identify the types of cryptographic protection applied to the IP packet and include information for decoding the protected packet.
 
