@@ -1351,7 +1351,7 @@ Storage Server Workgroup Edition (Server Core installation)
 
 </dt> <dd>
 
-Storage Server Workgroup Edition (Server Core installation)
+Storage Server Enterprise Edition (Server Core installation)
 
 </dd> <dt>
 
