@@ -122,11 +122,14 @@ The Machine field has one of the following values, which specify the CPU type. A
 | Constant                                    | Value              | Description                                                                             |
 |---------------------------------------------|--------------------|-----------------------------------------------------------------------------------------|
 | IMAGE\_FILE\_MACHINE\_UNKNOWN <br/>   | 0x0 <br/>    | The content of this field is assumed to be applicable to any machine type <br/> |
+| IMAGE\_FILE\_MACHINE\_ALPHA <br/>     | 0x184 <br/>  | Alpha AXP, 32-bit address space <br/>                                             |
+| IMAGE\_FILE\_MACHINE\_ALPHA64 <br/>   | 0x284 <br/>  | Alpha 64, 64-bit address space <br/>                                              |
 | IMAGE\_FILE\_MACHINE\_AM33 <br/>      | 0x1d3 <br/>  | Matsushita AM33 <br/>                                                             |
 | IMAGE\_FILE\_MACHINE\_AMD64 <br/>     | 0x8664 <br/> | x64 <br/>                                                                         |
 | IMAGE\_FILE\_MACHINE\_ARM <br/>       | 0x1c0 <br/>  | ARM little endian <br/>                                                           |
 | IMAGE\_FILE\_MACHINE\_ARM64 <br/>     | 0xaa64 <br/> | ARM64 little endian <br/>                                                         |
 | IMAGE\_FILE\_MACHINE\_ARMNT <br/>     | 0x1c4 <br/>  | ARM Thumb-2 little endian <br/>                                                   |
+| IMAGE\_FILE\_MACHINE\_AXP64 <br/>     | 0x284 <br/>  | AXP 64 (Same as Alpha 64) <br/>                                                   |
 | IMAGE\_FILE\_MACHINE\_EBC <br/>       | 0xebc <br/>  | EFI byte code <br/>                                                               |
 | IMAGE\_FILE\_MACHINE\_I386 <br/>      | 0x14c <br/>  | Intel 386 or later processors and compatible processors <br/>                     |
 | IMAGE\_FILE\_MACHINE\_IA64 <br/>      | 0x200 <br/>  | Intel Itanium processor family <br/>                                              |
