@@ -37,9 +37,17 @@ This topic describes how to implement a server-side Microsoft UI Automation prov
 
 For code examples that show how to implement server-side providers, see [How-To Topics for UI Automation Providers](uiauto-howto-topics-for-uiautomation-providers.md).
 
-## Structure Of Provider Tree
-For all UI Elements that you want to be accessible to clients of UIA, you must implement a provider for each. To properly handle the hirarchy 
-of elements, you must implement [**IRawElementProviderFragment**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-irawelementproviderfragment) for every element and [**IRawElementProviderFragmentRoot**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-irawelementproviderfragmentroot) for the root element of your application. Each provider element should be linked to it's prior provider element, next provider element, first provider child, parent and last provider child.
+## Provider Tree Structure
+
+You must implement a UIA provider for each UI element that needs to be accessible to a UIA client.
+
+For example, each element must implement [**IRawElementProviderFragment**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-irawelementproviderfragment) while the root element of the application must implement [**IRawElementProviderFragmentRoot**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-irawelementproviderfragmentroot). In addition, each provider element should link to a:
+
+- parent
+- prior provider element
+- next provider element
+- first provider child
+- last provider child
 
 ## Provider Interfaces
 
