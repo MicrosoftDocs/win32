@@ -136,271 +136,171 @@ You can check the repeat count to determine whether a keystroke message represen
 
 ### Scan Codes
 
-:::image type="content" source="images/keyboard-key-locations.png" alt-text="Diagram of a keyboard with the Scan Code specification for each key.":::
+:::image type="content" source="images/keyboard-key-locations.png" alt-text="Diagram of a Type 4 keyboard with the key locations for each key.":::
 
-The scan code is the value that the keyboard hardware generates when the user presses a key. It is a device-dependent value that identifies the key pressed, as opposed to the character represented by the key. An application typically ignores scan codes. Instead, it uses the device-independent virtual-key codes to interpret keystroke messages.
+The scan code is the value that the system generates when the user presses a key. It is a value that identifies the key pressed regardless of the active [keyboard layout](/globalization/windows-keyboard-layouts), as opposed to the character represented by the key. An application typically ignores scan codes. Instead, it uses the virtual-key codes to interpret keystroke messages.
+
+Modern keyboards are using [Human Interface Devices (HID)](https://www.usb.org/hid) specification to communicate with a computer. [Keyboard driver](/windows-hardware/drivers/hid/keyboard-and-mouse-class-drivers) converts reported HID Usage values sent from the keyboard to scan сodes and passes them on to applications.
 
 > [!NOTE]
-> While virtual key codes are typically more useful, scan codes might be required in specific cases. For example, the WASD (W is up, A is left, S is down, and D is right) key bindings for games, which ensure a consistent key formation across keyboard layouts.
+> While virtual key codes are typically more useful to desktop applications, scan codes might be required in specific cases when you need to know which key is pressed regardless of the current [keyboard layout](/globalization/windows-keyboard-layouts). For example, the WASD (W is up, A is left, S is down, and D is right) key bindings for games, which ensure a consistent key formation across [US QWERTY](/globalization/keyboards/kbdus_7) or [French AZERTY](/globalization/keyboards/kbdfr) keyboard layouts.
 
-The following table lists the full set of Scan Codes as presently recognized by Windows. The US Key assignments are for reference to a type 101/102 Enhanced keyboard as supported by the Type 4 Keyboard layout. If there is no entry in the 101/102 Enhanced keyboard column, this scan code is currently not recognized by the operating system. The **Key location** values reference the preceding keyboard image.
+The following table lists the set of Scan Codes as presently recognized by Windows. **HID Usage Page**/**HID Usage ID**/**HID Usage Name** values reference the [HID Usage Tables](https://www.usb.org/hid) document. The **Key Location** values reference the preceding keyboard image.
 
-The "Scan 1 make" code is delivered in WM_KEYDOWN/WM_SYSKEYDOWN messages, while the "Scan 1 break" code is delivered in WM_KEYUP/WM_SYSKEYUP messages.
+The **Scan 1 Make** code is delivered in [**WM\_KEYDOWN**](wm-keydown.md)/[**WM\_KEYUP**](wm-keyup.md)/[**WM\_SYSKEYDOWN**](wm-syskeydown.md)/[**WM\_SYSKEYUP**](wm-syskeyup.md) and [**WM\_INPUT**](wm-input.md) messages.
 
-|      Key location     |      101/102 Enhanced keyboard     |      Scan 1 make     |      Scan 1 break     |
-|--------------------------|---------------------------------------|-------------------------|--------------------------|
-|                          |     DO   NOT USE                      |     00                  |     80                   |
-|                          |     DO   NOT USE                      |     E0_00               |     E0_80                |
-|     1                    |     ~   `                             |     29                  |     A9                   |
-|                          |                                       |     E0_29               |     E0_A9                |
-|     2                    |     !  1                              |     02                  |     82                   |
-|                          |                                       |     E0_02               |     E0_82                |
-|     3                    |     @  2                              |     03                  |     83                   |
-|                          |                                       |     E0_03               |     E0_83                |
-|     4                    |     #  3                              |     04                  |     84                   |
-|                          |                                       |     E0_04               |     E0_84                |
-|     5                    |     $  4                              |     05                  |     85                   |
-|                          |                                       |     E0_05               |     E0_85                |
-|     6                    |     %  5                              |     06                  |     86                   |
-|                          |                                       |     E0_06               |     E0_86                |
-|     7                    |     ^  6                              |     07                  |     87                   |
-|                          |                                       |     E0_07               |     E0_87                |
-|     8                    |     &  7                              |     08                  |     88                   |
-|                          |                                       |     E0_08               |     E0_88                |
-|     9                    |     *  8                              |     09                  |     89                   |
-|                          |                                       |     E0_09               |     E0_89                |
-|     10                   |     (  9                              |     0A                  |     8A                   |
-|                          |                                       |     E0_0A               |     E0_8A                |
-|     11                   |     )  0                              |     0B                  |     8B                   |
-|                          |                                       |     E0_0B               |     E0_8B                |
-|     12                   |     _   -                             |     0C                  |     8C                   |
-|                          |                                       |     E0_0C               |     E0_8C                |
-|     13                   |     +   =                             |     0D                  |     8D                   |
-|                          |                                       |     E0_0D               |     E0_8D                |
-|     15                   |     Backspace                         |     0E                  |     8E                   |
-|                          |                                       |     E0_0E               |     E0_8E                |
-|     16                   |     Tab                               |     0F                  |     8F                   |
-|                          |                                       |     E0_0F               |     E0_8F                |
-|     17                   |     Q                                 |     10                  |     90                   |
-|                          |                                       |     E0_10               |     E0_90                |
-|     18                   |     W                                 |     11                  |     91                   |
-|                          |                                       |     E0_11               |     E0_91                |
-|     19                   |     E                                 |     12                  |     92                   |
-|                          |                                       |     E0_12               |     E0_92                |
-|     20                   |     R                                 |     13                  |     93                   |
-|                          |                                       |     E0_13               |     E0_93                |
-|     21                   |     T                                 |     14                  |     94                   |
-|                          |                                       |     E0_14               |     E0_94                |
-|     22                   |     Y                                 |     15                  |     95                   |
-|                          |                                       |     E0_15               |     E0_95                |
-|     23                   |     U                                 |     16                  |     96                   |
-|                          |                                       |     E0_16               |     E0_96                |
-|     24                   |     I                                 |     17                  |     97                   |
-|                          |                                       |     E0_17               |     E0_97                |
-|     25                   |     O                                 |     18                  |     98                   |
-|                          |                                       |     E0_18               |     E0_98                |
-|     26                   |     P                                 |     19                  |     99                   |
-|                          |                                       |     E0_19               |     E0_99                |
-|     27                   |     {  [                              |     1A                  |     9A                   |
-|                          |                                       |     E0_1A               |     E0_9A                |
-|     28                   |     }  ]                              |     1B                  |     9B                   |
-|                          |                                       |     E0_1B               |     E0_9B                |
-|     29<br>*(Available on the US and not on the International Keyboard.)*                  |     \|  \                             |     2B                  |     AB                   |
-|                          |                                       |     E0_2B               |     E0_AB                |
-|     30                   |     Caps   Lock                       |     3A                  |     BA                   |
-|                          |                                       |     E0_3A               |     E0_BA                |
-|     31                   |     A                                 |     1E                  |     9E                   |
-|                          |                                       |     E0_1E               |     E0_9E                |
-|     32                   |     S                                 |     1F                  |     9F                   |
-|                          |                                       |     E0_1F               |     E0_9F                |
-|     33                   |     D                                 |     20                  |     A0                   |
-|                          |                                       |     E0_20               |     E0_A0                |
-|     34                   |     F                                 |     21                  |     A1                   |
-|                          |                                       |     E0_21               |     E0_A1                |
-|     35                   |     G                                 |     22                  |     A2                   |
-|                          |                                       |     E0_22               |     E0_A2                |
-|     36                   |     H                                 |     23                  |     A3                   |
-|                          |                                       |     E0_23               |     E0_A3                |
-|     37                   |     J                                 |     24                  |     A4                   |
-|                          |                                       |     E0_24               |     E0_A4                |
-|     38                   |     K                                 |     25                  |     A5                   |
-|                          |                                       |     E0_25               |     E0_A5                |
-|     39                   |     L                                 |     26                  |     A6                   |
-|                          |                                       |     E0_26               |     E0_A6                |
-|     40                   |     :   ;                             |     27                  |     A7                   |
-|                          |                                       |     E0_27               |     E0_A7                |
-|     41                   |     “  ‘                              |     28                  |     A8                   |
-|                          |                                       |     E0_28               |     E0_A8                |
-|     42<br>*(Available on the International Keyboard and not on the US Keyboard.)*                 |                                       |     2B                  |     AB                   |
-|                          |                                       |     E0_2B               |     E0_AB                |
-|     43                   |     Enter                             |     1C                  |     9C                   |
-|     44                   |     L   SHIFT                         |     2A                  |     AA                   |
-|                          |                                       |     E0_2A               |     E0_AA                |
-|     45<br>*(Available on the International Keyboard and not on the US Keyboard.)*                 |                                       |     56                  |     D6                   |
-|                          |                                       |     E0_56               |     E0_D6                |
-|     46                   |     Z                                 |     2C                  |     AC                   |
-|                          |                                       |     E0_2C               |     E0_AC                |
-|     47                   |     X                                 |     2D                  |     AD                   |
-|                          |                                       |     E0_2D               |     E0_AD                |
-|     48                   |     C                                 |     2E                  |     AE                   |
-|                          |                                       |     E0_2E               |     E0_AE                |
-|     49                   |     V                                 |     2F                  |     AF                   |
-|                          |                                       |     E0_2F               |     E0_AF                |
-|     50                   |     B                                 |     30                  |     B0                   |
-|                          |                                       |     E0_30               |     E0_B0                |
-|     51                   |     N                                 |     31                  |     B1                   |
-|                          |                                       |     E0_31               |     E0_B1                |
-|     52                   |     M                                 |     32                  |     B2                   |
-|                          |                                       |     E0_32               |     E0_B2                |
-|     53                   |     <  ,                              |     33                  |     B3                   |
-|                          |                                       |     E0_33               |     E0_B3                |
-|     54                   |     >  .                              |     34                  |     B4                   |
-|                          |                                       |     E0_34               |     E0_B4                |
-|     55                   |     ?  /                              |     35                  |     B5                   |
-|                          |                                       |     E0_35               |     E0_B5                |
-|     56<br>*(Used on Brazilian and some Far East keyboards. Not available on US Keyboards.)*                |                                       |     73                  |     F3                   |
-|                          |                                       |     E0_73               |     E0_F3                |
-|     57                   |     R   SHIFT                         |     36                  |     B6                   |
-|                          |                                       |     E0_36               |     E0_B6                |
-|     58                   |     L   CTRL                          |     1D                  |     9D                   |
-|     60                   |     L   ALT                           |     38                  |     B8                   |
-|                          |                                       |     E0_38               |     E0_B8                |
-|     61                   |     Space   Bar                       |     39                  |     B9                   |
-|                          |                                       |     E0_39               |     E0_B9                |
-|     62                   |     R   ALT                           |     E0   38             |     E0   B8              |
-|     64                   |     R   CTRL                          |     E0   1D             |     E0   9D              |
-|     75                   |     Insert                            |     Note   1            |     Note   1             |
-|     76                   |     Delete                            |     Note   1            |     Note   1             |
-|     79                   |     L   Arrow                         |     Note   1            |     Note   1             |
-|     80                   |     Home                              |     Note   1            |     Note   1             |
-|     81                   |     End                               |     Note   1            |     Note   1             |
-|     83                   |     Up   Arrow                        |     Note   1            |     Note   1             |
-|     84                   |     Dn   Arrow                        |     Note   1            |     Note   1             |
-|     85                   |     Page   Up                         |     Note   1            |     Note   1             |
-|     86                   |     Page   Down                       |     Note   1            |     Note   1             |
-|     89                   |     R   Arrow                         |     Note   1            |     Note   1             |
-|     90                   |     Num   Lock                        |     45                  |     C5                   |
-|                          |                                       |     E0_45               |     E0_C5                |
-|     91                   |     Numeric   7                       |     47                  |     C7                   |
-|     92                   |     Numeric   4                       |     4B                  |     CB                   |
-|     93                   |     Numeric   1                       |     4F                  |     CF                   |
-|     95                   |     Numeric   /                       |     Note   3            |     Note   3             |
-|     96                   |     Numeric   8                       |     48                  |     C8                   |
-|     97                   |     Numeric   5                       |     4C                  |     CC                   |
-|     98                   |     Numeric   2                       |     50                  |     D0                   |
-|     99                   |     Numeric   0                       |     52                  |     D2                   |
-|     100                  |     Numeric   *                       |     37                  |     B7                   |
-|                          |                                       |     E0_37               |     E0_B7                |
-|     101                  |     Numeric   9                       |     49                  |     C9                   |
-|     102                  |     Numeric   6                       |     4D                  |     CD                   |
-|     103                  |     Numeric   3                       |     51                  |     D1                   |
-|     104                  |     Numeric   .                       |     53                  |     D3                   |
-|     105                  |     Numeric   -                       |     4A                  |     CA                   |
-|     106                  |     Numeric   +                       |     4E                  |     CE                   |
-|     107<br>*(Used on Brazilian and some Far East keyboards. Not available on US Keyboards.)*               |                                       |     7E                  |     FE                   |
-|                          |     DO   NOT USE                      |     E0_7E               |     E0_FE                |
-|     108                  |     Numeric   Enter                   |     E0   1C             |     E0   9C              |
-|     110                  |     Esc                               |     01                  |     81                   |
-|                          |                                       |     E0_01               |     E0_81                |
-|     112                  |     F1                                |     3B                  |     BB                   |
-|                          |                                       |     E0_3B               |     E0_BB                |
-|     113                  |     F2                                |     3C                  |     BC                   |
-|                          |                                       |     E0_3C               |     E0_BC                |
-|     114                  |     F3                                |     3D                  |     BD                   |
-|                          |                                       |     E0_3D               |     E0_BD                |
-|     115                  |     F4                                |     3E                  |     BE                   |
-|                          |                                       |     E0_3E               |     E0_BE                |
-|     116                  |     F5                                |     3F                  |     BF                   |
-|                          |                                       |     E0_3F               |     E0_BF                |
-|     117                  |     F6                                |     40                  |     C0                   |
-|                          |                                       |     E0_40               |     E0_C0                |
-|     118                  |     F7                                |     41                  |     C1                   |
-|                          |                                       |     E0_41               |     E0_C1                |
-|     119                  |     F8                                |     42                  |     C2                   |
-|                          |                                       |     E0_42               |     E0_C2                |
-|     120                  |     F9                                |     43                  |     C3                   |
-|                          |                                       |     E0_43               |     E0_C3                |
-|     121                  |     F10                               |     44                  |     C4                   |
-|                          |                                       |     E0_44               |     E0_C4                |
-|     122                  |     F11                               |     57                  |     D7                   |
-|     123                  |     F12                               |     58                  |     D8                   |
-|     124                  |     Print   Screen                    |     Note   4            |     Note   4             |
-|     125                  |     Scroll   Lock                     |     46                  |     C6                   |
-|                          |                                       |     E0_46               |     E0_C6                |
-|     126                  |     Pause                             |     Note   5            |     Note   5             |
-|                          |                                       |     59                  |     D9                   |
-|                          |                                       |     E0_59               |     E0_D9                |
-|                          |                                       |     5B                  |     DB                   |
-|                          |     Left   Win                        |     E0_5B               |     E0_DB                |
-|                          |                                       |     5C                  |     DC                   |
-|                          |     Right   Win                       |     E0_5C               |     E0_DC                |
-|                          |                                       |     5D                  |     DD                   |
-|                          |     Application                       |     E0_5D               |     E0_DD                |
-|                          |                                       |     5E                  |     DE                   |
-|                          |     ACPI   Power                      |     E0_5E               |     E0_DE                |
-|                          |                                       |     5F                  |     DF                   |
-|                          |     ACPI   Sleep                      |     E0_5F               |     E0_DF                |
-|                          |     DO   NOT USE                      |     60                  |     E0                   |
-|                          |     DO   NOT USE                      |     E0_60               |     E0_E0                |
-|                          |     DO   NOT USE                      |     61                  |     E1                   |
-|                          |     DO   NOT USE                      |     E0_61               |     E0_E1                |
-|                          |                                       |     62                  |     E2                   |
-|                          |                                       |     E0_62               |     E0_E2                |
-|                          |                                       |     63                  |     E3                   |
-|                          |     ACPI   Wake                       |     E0_63               |     E0_E3                |
-|                          |                                       |     64                  |     E4                   |
-|                          |                                       |     E0_64               |     E0_E4                |
-|                          |                                       |     65                  |     E5                   |
-|                          |                                       |     E0_65               |     E0_E5                |
-|                          |                                       |     66                  |     E6                   |
-|                          |                                       |     E0_66               |     E0_E6                |
-|                          |                                       |     67                  |     E7                   |
-|                          |                                       |     E0_67               |     E0_E7                |
-|                          |                                       |     68                  |     E8                   |
-|                          |                                       |     E0_68               |     E0_E8                |
-|                          |                                       |     69                  |     E9                   |
-|                          |                                       |     E0_69               |     E0_E9                |
-|                          |                                       |     6A                  |     EA                   |
-|                          |                                       |     E0_6A               |     E0_EA                |
-|                          |                                       |     6B                  |     EB                   |
-|                          |                                       |     E0_6B               |     E0_EB                |
-|                          |                                       |     6C                  |     EC                   |
-|                          |                                       |     E0_6C               |     E0_EC                |
-|                          |                                       |     6D                  |     ED                   |
-|                          |                                       |     E0_6D               |     E0_ED                |
-|                          |                                       |     6E                  |     EE                   |
-|                          |                                       |     E0_6E               |     E0_EE                |
-|                          |                                       |     6F                  |     EF                   |
-|                          |                                       |     E0_6F               |     E0_EF                |
-|                          |     DBE_KATAKANA<br>*(Used for Far East keyboards.)*                     |     70                  |     F0                   |
-|                          |                                       |     E0_70               |     E0_F0                |
-|                          |                                       |     71                  |     F1                   |
-|                          |                                       |     E0_71               |     E0_F1                |
-|                          |                                       |     72                  |     F2                   |
-|                          |                                       |     E0_72               |     E0_F2                |
-|                          |                                       |     74                  |     F4                   |
-|                          |                                       |     E0_74               |     E0_F4                |
-|                          |                                       |     75                  |     F5                   |
-|                          |                                       |     E0_75               |     E0_F5                |
-|                          |                                       |     76                  |     F6                   |
-|                          |                                       |     E0_76               |     E0_F6                |
-|                          |     DBE_SBCSCHAR<br>*(Used for Far East keyboards.)*                     |     77                  |     F7                   |
-|                          |                                       |     E0_77               |     E0_F7                |
-|                          |                                       |     78                  |     F8                   |
-|                          |                                       |     E0_78               |     E0_F8                |
-|                          |     CONVERT<br>*(Used for Far East keyboards.)*                          |     79                  |     F9                   |
-|                          |                                       |     E0_79               |     E0_F9                |
-|                          |     DO   NOT USE                      |     7A                  |     FA                   |
-|                          |     DO   NOT USE                      |     E0_7A               |     E0_FA                |
-|                          |     NONCONVERT<br>*(Used for Far East keyboards.)*                       |     7B                  |     FB                   |
-|                          |     DO   NOT USE                      |     E0_7B               |     E0_FB                |
-|                          |     DO   NOT USE                      |     7C                  |     FC                   |
-|                          |     DO   NOT USE                      |     E0_7C               |     E0_FC                |
-|                          |     DO   NOT USE                      |     7D                  |     FD                   |
-|                          |     DO   NOT USE                      |     E0_7D               |     E0_FD                |
-|                          |     DO   NOT USE                      |     7F                  |     FF                   |
-|                          |     DO   NOT USE                      |     E0_7F               |     E0_FF                |
+| HID Usage Page | HID Usage ID | HID Usage Name                    | Key Location | Scan 1 Make |
+|----------------|--------------|-----------------------------------|--------------|-------------|
+| 07             | 01           | ErrorRollOver                     |              | FF          |
+| 07             | 02           | POSTFail                          |              | FC          |
+| 07             | 04           | Keyboard A                        | 31           | 1E          |
+| 07             | 05           | Keyboard B                        | 50           | 30          |
+| 07             | 06           | Keyboard C                        | 48           | 2E          |
+| 07             | 07           | Keyboard D                        | 33           | 20          |
+| 07             | 08           | Keyboard E                        | 19           | 12          |
+| 07             | 09           | Keyboard F                        | 34           | 21          |
+| 07             | 0A           | Keyboard G                        | 35           | 22          |
+| 07             | 0B           | Keyboard H                        | 36           | 23          |
+| 07             | 0C           | Keyboard I                        | 24           | 17          |
+| 07             | 0D           | Keyboard J                        | 37           | 24          |
+| 07             | 0E           | Keyboard K                        | 38           | 25          |
+| 07             | 0F           | Keyboard L                        | 39           | 26          |
+| 07             | 10           | Keyboard M                        | 52           | 32          |
+| 07             | 11           | Keyboard N                        | 51           | 31          |
+| 07             | 12           | Keyboard O                        | 25           | 18          |
+| 07             | 13           | Keyboard P                        | 26           | 19          |
+| 07             | 14           | Keyboard Q                        | 17           | 10          |
+| 07             | 15           | Keyboard R                        | 20           | 13          |
+| 07             | 16           | Keyboard S                        | 32           | 1F          |
+| 07             | 17           | Keyboard T                        | 21           | 14          |
+| 07             | 18           | Keyboard U                        | 23           | 16          |
+| 07             | 19           | Keyboard V                        | 49           | 2F          |
+| 07             | 1A           | Keyboard W                        | 18           | 11          |
+| 07             | 1B           | Keyboard X                        | 47           | 2D          |
+| 07             | 1C           | Keyboard Y                        | 22           | 15          |
+| 07             | 1D           | Keyboard Z                        | 46           | 2C          |
+| 07             | 1E           | Keyboard 1 and Bang               | 2            | 02          |
+| 07             | 1F           | Keyboard 2 and At                 | 3            | 03          |
+| 07             | 20           | Keyboard 3 And Hash               | 4            | 04          |
+| 07             | 21           | Keyboard 4 and Dollar             | 5            | 05          |
+| 07             | 22           | Keyboard 5 and Percent            | 6            | 06          |
+| 07             | 23           | Keyboard 6 and Caret              | 7            | 07          |
+| 07             | 24           | Keyboard 7 and Ampersand          | 8            | 08          |
+| 07             | 25           | Keyboard 8 and Star               | 9            | 09          |
+| 07             | 26           | Keyboard 9 and Left Bracket       | 10           | 0A          |
+| 07             | 27           | Keyboard 0 and Right Bracket      | 11           | 0B          |
+| 07             | 28           | Keyboard Return Enter             | 43           | 1C          |
+| 07             | 29           | Keyboard Escape                   | 110          | 01          |
+| 07             | 2A           | Keyboard Delete                   | 15           | 0E          |
+| 07             | 2B           | Keyboard Tab                      | 16           | 0F          |
+| 07             | 2C           | Keyboard Spacebar                 | 61           | 39          |
+| 07             | 2D           | Keyboard Dash and Underscore      | 12           | 0C          |
+| 07             | 2E           | Keyboard Equals and Plus          | 13           | 0D          |
+| 07             | 2F           | Keyboard Left Brace               | 27           | 1A          |
+| 07             | 30           | Keyboard Right Brace              | 28           | 1B          |
+| 07             | 31           | Keyboard Pipe and Slash           | 29           | 2B          |
+| 07             | 32           | Keyboard Non-US                   | 42           | 2B          |
+| 07             | 33           | Keyboard SemiColon and Colon      | 40           | 27          |
+| 07             | 34           | Keyboard Left Apos and Double     | 41           | 28          |
+| 07             | 35           | Keyboard Grave Accent and Tilde   | 1            | 29          |
+| 07             | 36           | Keyboard Comma                    | 53           | 33          |
+| 07             | 37           | Keyboard Period                   | 54           | 34          |
+| 07             | 38           | Keyboard QuestionMark             | 55           | 35          |
+| 07             | 39           | Keyboard Caps Lock                | 30           | 3A          |
+| 07             | 3A           | Keyboard F1                       | 112          | 3B          |
+| 07             | 3B           | Keyboard F2                       | 113          | 3C          |
+| 07             | 3C           | Keyboard F3                       | 114          | 3D          |
+| 07             | 3D           | Keyboard F4                       | 115          | 3E          |
+| 07             | 3E           | Keyboard F5                       | 116          | 3F          |
+| 07             | 3F           | Keyboard F6                       | 117          | 40          |
+| 07             | 40           | Keyboard F7                       | 118          | 41          |
+| 07             | 41           | Keyboard F8                       | 119          | 42          |
+| 07             | 42           | Keyboard F9                       | 120          | 43          |
+| 07             | 43           | Keyboard F10                      | 121          | 44          |
+| 07             | 44           | Keyboard F11                      | 122          | 57          |
+| 07             | 45           | Keyboard F12                      | 123          | 58          |
+| 07             | 46           | Keyboard PrintScreen              | 124          | E0 37<br>54 \*Note 1 |
+| 07             | 47           | Keyboard Scroll Lock              | 125          | 46          |
+| 07             | 48           | Keyboard Pause                    | 126          | E1 1D<br>E0 46 \*Note 2<br>45 \*Note 3 |
+| 07             | 49           | Keyboard Insert                   | 75           | E0 52       |
+| 07             | 4A           | Keyboard Home                     | 80           | E0 47       |
+| 07             | 4B           | Keyboard PageUp                   | 85           | E0 49       |
+| 07             | 4C           | Keyboard Delete Forward           | 76           | E0 53       |
+| 07             | 4D           | Keyboard End                      | 81           | E0 4F       |
+| 07             | 4E           | Keyboard PageDown                 | 86           | E0 51       |
+| 07             | 4F           | Keyboard RightArrow               | 89           | E0 4D       |
+| 07             | 50           | Keyboard LeftArrow                | 79           | E0 4B       |
+| 07             | 51           | Keyboard DownArrow                | 84           | E0 50       |
+| 07             | 52           | Keyboard UpArrow                  | 83           | E0 48       |
+| 07             | 53           | Keypad Num Lock and Clear         | 90           | 45<br>E0 45 \*Note 3 |
+| 07             | 54           | Keypad Forward Slash              | 95           | E0 35       |
+| 07             | 55           | Keypad Star                       | 100          | 37          |
+| 07             | 56           | Keypad Dash                       | 105          | 4A          |
+| 07             | 57           | Keypad Plus                       | 106          | 4E          |
+| 07             | 58           | Keypad ENTER                      | 108          | E0 1C       |
+| 07             | 59           | Keypad 1 and End                  | 93           | 4F          |
+| 07             | 5A           | Keypad 2 and Down Arrow           | 98           | 50          |
+| 07             | 5B           | Keypad 3 and PageDn               | 103          | 51          |
+| 07             | 5C           | Keypad 4 and Left Arrow           | 92           | 4B          |
+| 07             | 5D           | Keypad 5                          | 97           | 4C          |
+| 07             | 5E           | Keypad 6 and Right Arrow          | 102          | 4D          |
+| 07             | 5F           | Keypad 7 and Home                 | 91           | 47          |
+| 07             | 60           | Keypad 8 and Up Arrow             | 96           | 48          |
+| 07             | 61           | Keypad 9 and PageUp               | 101          | 49          |
+| 07             | 62           | Keypad 0 and Insert               | 99           | 52          |
+| 07             | 63           | Keypad Period                     | 104          | 53          |
+| 07             | 64           | Keyboard Non-US Slash Bar         | 45           | 56          |
+| 07             | 65           | Keyboard Application              | 129          | E0 5D       |
+| 07             | 67           | Keypad Equals                     |              | 59          |
+| 07             | 85           | Keypad Comma                      | 107\*Note 4  | 7E          |
+| 07             | 87           | Keyboard International1           | 56\*Note 4, 5 | 73          |
+| 07             | 88           | Keyboard International2           | 133\*Note 5  | 70          |
+| 07             | 89           | Keyboard International3           | 14\*Note 5   | 7D          |
+| 07             | 8A           | Keyboard International4           | 132\*Note 5  | 79          |
+| 07             | 8B           | Keyboard International5           | 131\*Note 5  | 7B          |
+| 07             | 8C           | Keyboard International6           |              | 5C          |
+| 07             | 90           | Keyboard LANG1                    |              | 72          |
+| 07             | 91           | Keyboard LANG2                    |              | 71          |
+| 07             | 92           | Keyboard LANG3                    |              | 78          |
+| 07             | 93           | Keyboard LANG4                    |              | 77          |
+| 07             | 94           | Keyboard LANG5                    |              | 76          |
+| 07             | E0           | Keyboard LeftControl              | 58           | 1D          |
+| 07             | E1           | Keyboard LeftShift                | 44           | 2A          |
+| 07             | E2           | Keyboard LeftAlt                  | 60           | 38          |
+| 07             | E3           | Keyboard Left GUI                 | 127          | E0 5B       |
+| 07             | E4           | Keyboard RightControl             | 64           | E0 1D       |
+| 07             | E5           | Keyboard RightShift               | 57           | 36          |
+| 07             | E6           | Keyboard RightAlt                 | 62           | E0 38       |
+| 07             | E7           | Keyboard Right GUI                | 128          | E0 5C       |
+| 01             | 81           | System Power Down                 |              | E0 5E       |
+| 01             | 82           | System Sleep                      |              | E0 5F       |
+| 01             | 83           | System Wake Up                    |              | E0 63       |
+| 0C             | 00B5         | Scan Next Track                   |              | E0 19       |
+| 0C             | 00B6         | Scan Previous Track               |              | E0 10       |
+| 0C             | 00B7         | Stop                              |              | E0 24       |
+| 0C             | 00CD         | Play/Pause                        |              | E0 22       |
+| 0C             | 00E2         | Mute                              |              | E0 20       |
+| 0C             | 00E9         | Volume Increment                  |              | E0 30       |
+| 0C             | 00EA         | Volume Decrement                  |              | E0 2E       |
+| 0C             | 0183         | AL Consumer Control Configuration |              | E0 6D       |
+| 0C             | 018A         | AL Email Reader                   |              | E0 6C       |
+| 0C             | 0192         | AL Calculator                     |              | E0 21       |
+| 0C             | 0194         | AL Local Machine Browser          |              | E0 6B       |
+| 0C             | 0221         | AC Search                         |              | E0 65       |
+| 0C             | 0223         | AC Home                           |              | E0 32       |
+| 0C             | 0224         | AC Back                           |              | E0 6A       |
+| 0C             | 0225         | AC Forward                        |              | E0 69       |
+| 0C             | 0226         | AC Stop                           |              | E0 68       |
+| 0C             | 0227         | AC Refresh                        |              | E0 67       |
+| 0C             | 022A         | AC Previous Link                  |              | E0 66       |
 
+Notes:
+
+1. *SysRq* key scan code is emmited on *Alt+Print screen* keystroke
+2. *Break* key scan code is emmited on *Control+Pause* keystroke
+3. As seen in [legacy keyboard messages](keyboard-input-notifications.md)
+4. The key is present on Brazilian keyboards
+5. The key is present on Japanese keyboards
 
 ### Extended-Key Flag
 
@@ -464,7 +364,7 @@ The keyboard layout maintains a list of names. The name of a key that produces a
 
 The system includes several special purpose functions that translate scan codes, character codes, and virtual-key codes provided by various keystroke messages. These functions include [**MapVirtualKey**](/windows/win32/api/winuser/nf-winuser-mapvirtualkeya), [**ToAscii**](/windows/win32/api/winuser/nf-winuser-toascii), [**ToUnicode**](/windows/win32/api/winuser/nf-winuser-tounicode), and [**VkKeyScan**](/windows/win32/api/winuser/nf-winuser-vkkeyscana).
 
-In addition, Microsoft Rich Edit 3.0 supports the [HexToUnicode IME](/windows/desktop/Intl/hextounicode-ime), which allows a user to convert between hexadecimal and Unicode characters by using hot keys. This means that when Microsoft Rich Edit 3.0 is incorporated into an application, the application will inherit the features of the HexToUnicode IME.
+In addition, Microsoft Rich Edit 3.0 supports the [HexToUnicode IME](/windows/desktop/Intl/hextounicode-ime), which allows a user to convert between hexadecimal and Unicode characters by using hot keys. This means that when Microsoft Rich Edit 3.0 is incorporated into an application, the application will inherit the features of the HexToUnicode IME.
 
 ## Hot-Key Support
 
