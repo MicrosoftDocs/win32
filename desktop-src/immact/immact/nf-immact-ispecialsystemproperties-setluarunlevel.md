@@ -1,6 +1,6 @@
 ---
 title: ISpecialSystemProperties::SetLUARunLevel
-description: Sets the LUA run level.
+description: Passes the requested Windows User Account Controls (UAC) run level (elevation level), and other parameters, through the COM activation pipeline.
 keywords:
 - SetLUARunLevel method COM
 - SetLUARunLevel method COM , ISpecialSystemProperties interface
@@ -15,12 +15,14 @@ api_location:
 api_type:
 - COM
 ms.topic: reference
-ms.date: 12/08/2022
+ms.date: 01/19/2023
 ---
 
 # ISpecialSystemProperties::SetLUARunLevel method
 
-Sets the LUA run level.
+This method is intended for internal Microsoft use; not recommended for use in applications.
+
+Passes the requested Windows User Account Controls (UAC) run level (elevation level), and other parameters, through the COM activation pipeline. UAC was formerly known as Limited User Account (LUA).
 
 ## Syntax
 
@@ -35,11 +37,29 @@ HRESULT SetLUARunLevel(
 
 `dwLUARunLevel`
 
-The LUA run level to set.
+The UAC run level to set. If you define the enumerations shown below, then *dwLUARunLevel* can be either **RUNLEVEL_ADMIN**, **RUNLEVEL_HIGHEST**, or **INVALID_LUA_RUNLEVEL**.
+
+```cpp
+typedef enum _RUNLEVEL
+{
+    RUNLEVEL_LUA = 0,
+    RUNLEVEL_HIGHEST,
+    RUNLEVEL_ADMIN,
+    RUNLEVEL_MAX_NON_UIA,
+
+    RUNLEVEL_LUA_UIA = 16,
+    RUNLEVEL_HIGHEST_UIA,
+    RUNLEVEL_ADMIN_UIA,
+    RUNLEVEL_MAX
+}
+RUNLEVEL;
+
+typedef enum {  INVALID_LUA_RUNLEVEL = 0xFFFFFFFF } LUARUNLEVEL;
+```
 
 `hwnd`
 
-Identifies the object on which to set the LUA run level.
+Identifies the object on which to set the UAC run level.
 
 ## Return value
 

@@ -1,6 +1,6 @@
 ---
 title: ISpecialSystemProperties interface
-description: An immediate activator interface.
+description: Used to pass the requested UAC run level through the COM activation pipeline.
 keywords:
 - ISpecialSystemProperties interface COM
 - ISpecialSystemProperties interface COM , described
@@ -14,12 +14,14 @@ api_location:
 api_type:
 - COM
 ms.topic: reference
-ms.date: 12/08/2022
+ms.date: 01/19/2023
 ---
 
 # ISpecialSystemProperties interface
 
-An immediate activator interface.
+This interface is intended for internal Microsoft use; not recommended for use in applications.
+
+Used to pass the requested Windows User Account Controls (UAC) run level (elevation level) through the COM activation pipeline.
 
 ## Inheritance
 
@@ -31,7 +33,7 @@ The **ISpecialSystemProperties** interface has these methods.
 
 | Method | Description |
 |:-|:-|
-| [**SetLUARunLevel**](nf-immact-ispecialsystemproperties-setluarunlevel.md) | Sets the LUA run level. |
+| [**SetLUARunLevel**](nf-immact-ispecialsystemproperties-setluarunlevel.md) | Passes the requested Windows User Account Controls (UAC) run level (elevation level), and other parameters, through the COM activation pipeline. |
 
 ## Remarks
 
