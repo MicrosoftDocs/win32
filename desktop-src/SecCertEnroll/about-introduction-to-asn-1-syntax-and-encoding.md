@@ -34,7 +34,7 @@ AttributeTypeValue ::= SEQUENCE
 The Certificate Enrollment API uses [*Distinguished Encoding Rules*](/windows/desktop/SecGloss/d-gly) (DER) to encode the preceding subject name. DER requires that each item in the name be represented by a TLV triplet where T contains the tag number of the ASN.1 type, L contains the length, and V contains the associated value. The following example shows how the subject name TestCN.TestOrg is encoded.
 
 ``` syntax
-1.     30 23            ; SEQUENCE (23 Bytes)
+1.     30 23            ; SEQUENCE (0x23 = 35 Bytes)
 2.     |  |  31 0f            ; SET (f Bytes)
 3.     |  |  |  30 0d            ; SEQUENCE (d Bytes)
 4.     |  |  |     06 03         ; OBJECT_ID (3 Bytes)

@@ -21,7 +21,7 @@ To use DES with Windows Media files, the following DES objects require the softw
 
 -   The render engine, for previewing or file writing.
 -   The MediaDet object, to get video frames or media types from ASF files.
--   \[!Important\]  
+-   ![Important]  
     > Do not use the Smart Render Engine to read or write Windows Media files. Always use the Basic Render Engine (CLSID\_RenderEngine).
 
      

@@ -181,7 +181,7 @@ Find more information in this article: https://technet.microsoft.com/library/dn7
 
 ### Configure certificate mapping on the Event Collector
 
-1. Create new local user and add it to the local Administrators group.
+1. Create new local user.
 2. Create the certificate mapping using a certificate that is present in the machine’s “Trusted Root Certification Authorities” or “Intermediate Certification Authorities”.
 
     This is the certificate of the Root or Intermediate CA that issued the certificates installed on the Event Source computers *(to avoid confusion, this is the CA immediately above the certificate in the certificate chain)*:

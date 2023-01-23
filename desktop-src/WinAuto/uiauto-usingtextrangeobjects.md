@@ -1,5 +1,5 @@
 ---
-title: Using Text Ranges
+title: Using IUIAutomationTextRange to Access and Manipulate a Text Range
 description: This topic describes how to use the properties and methods of the IUIAutomationTextRange interface to access and manipulate the textual content of a text-based control.
 ms.assetid: 66BC7324-5322-4996-AF62-766936559F0E
 keywords:
@@ -8,31 +8,12 @@ keywords:
 - clients,text ranges
 - clients,TextRange control pattern
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 12/13/2022
 ---
 
-# Using Text Ranges
+# Using IUIAutomationTextRange to Access and Manipulate a Text Range
 
-This topic describes how to use the properties and methods of the [**IUIAutomationTextRange**](/windows/desktop/api/UIAutomationClient/nn-uiautomationclient-iuiautomationtextrange) interface to access and manipulate the textual content of a text-based control. It contains the following sections:
-
--   [What is a Text Range?](#using-text-ranges)
--   [Acquiring Text Range Objects](#acquiring-text-range-objects)
--   [Selecting Text in a Text Range](#selecting-text-in-a-text-range)
--   [Retrieving Text from a Text Range](#retrieving-text-from-a-text-range)
--   [Retrieving Text Attributes from a Text Range](#retrieving-text-attributes-from-a-text-range)
--   [Retrieving Embedded Objects from a Text Range](#retrieving-embedded-objects-from-a-text-range)
--   [Manipulating a Text Range](#manipulating-a-text-range)
--   [Scrolling a Text Range into View](#scrolling-a-text-range-into-view)
--   [Retrieving the Enclosing Element of a Text Range](#retrieving-the-enclosing-element-of-a-text-range)
--   [Comparing and Cloning Text Ranges](#comparing-and-cloning-text-ranges)
--   [Retrieving Annotations](#retrieving-annotations)
-    -   [Retrieving Annotations Types from a Text Range](#retrieving-annotations-types-from-a-text-range)
-    -   [Retrieving All Annotations from a Text Range](#retrieving-all-annotations-from-a-text-range)
-    -   [Retrieving Information About a Particular Annotation](#retrieving-information-about-a-particular-annotation)
-    -   [Retrieving the Annotation Target Text](#retrieving-the-annotation-target-text)
--   [Retrieving Visual Styles](#retrieving-visual-styles)
--   [Invoking Context Menus From Text Ranges](#invoking-context-menus-from-text-ranges)
--   [Related topics](#related-topics)
+This topic describes how to use the properties and methods of the [**IUIAutomationTextRange**](/windows/desktop/api/UIAutomationClient/nn-uiautomationclient-iuiautomationtextrange) interface to access and manipulate the textual content of a text-based control.
 
 ## What is a Text Range?
 

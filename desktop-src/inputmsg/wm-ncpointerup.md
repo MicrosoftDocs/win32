@@ -22,7 +22,7 @@ Posted when a pointer that made contact over the non-client area of a window bre
 
 If a window has captured this pointer, this message is not posted. Instead, a [**WM_POINTERUP**](wm-pointerup.md) is posted to the window that has captured this pointer.
 
-> \[!Important\]  
+> ![Important]  
 > Desktop apps should be DPI aware. If your app is not DPI aware, screen coordinates contained in pointer messages and related structures might appear inaccurate due to DPI virtualization. DPI virtualization provides automatic scaling support to applications that are not DPI aware and is active by default (users can turn it off). For more information, see [Writing High-DPI Win32 Applications](/previous-versions//dd464660(v=vs.85)).
 
  

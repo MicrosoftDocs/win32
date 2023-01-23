@@ -16,7 +16,7 @@ Assuming that you decide to write a filter and not a DMO, the first step is choo
 -   [**CTransInPlaceFilter**](ctransinplacefilter.md) is designed for filters that modify data in the original buffer, also called trans-in-place filters. When a trans-in-place filter receives a sample, it changes the data inside that sample and delivers the same sample downstream. The filter's input pin and output pin always connect with matching media types.
 -   [**CVideoTransformFilter**](cvideotransformfilter.md) is designed primarily for video decoders. It derives from **CTransformFilter**, but includes functionality for dropping frames if the downstream renderer falls behind.
 -   [**CBaseFilter**](cbasefilter.md) is a generic filter class. The other classes in this list all derive from **CBaseFilter**. If none of them is suitable, you can fall back on this class. However, this class also requires the most work on your part.
--   \[!Important\]  
+-   ![Important]  
     > In-place video transforms can have a serious impact on rendering performance. In-place transforms require read-modify-write operations on the buffer. If the memory resides on a graphics card, read operations are significantly slower. Moreover, even a copy transform can cause unintended read operations if you do not implement it carefully. Therefore, you should always do performance testing if you write a video transform.
 
      

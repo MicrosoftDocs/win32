@@ -16,7 +16,7 @@ There are certain kinds of video that the [Video Renderer](video-renderer-filter
 
 The Capture Graph Builder's **RenderStream** method inserts the Overlay Mixer whenever needed. If you are building the graph without using the Capture Graph Builder, however, you must check for each of these situations and insert the Overlay Mixer yourself.
 
--   \[!Important\]  
+-   ![Important]  
     > If the device has a VP pin, you must connect the Overlay Mixer even if you do not need preview functionality in your application. With a video port, the capture device always sends the video data to the hardware overlay, so the Overlay Mixer is always needed.
 
      

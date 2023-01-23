@@ -59,7 +59,7 @@ Starting with Windows 10, version 1803, Universal Windows apps can use [**GetFi
 
 <dl> <dt>
 
-[Special and restricted capabilities](/windows/uwp/packaging/app-capability-declarations#special-and-restricted-capabilities)
+[Restricted capabilities](/windows/uwp/packaging/app-capability-declarations#restricted-capabilities)
 </dt> <dt>
 
 [**GetFirmwareEnvironmentVariable**](/windows/desktop/api/Winbase/nf-winbase-getfirmwareenvironmentvariablea)
