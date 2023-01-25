@@ -1,5 +1,5 @@
 ---
-description: Sensitivity information in Dbfs for a microphone device.
+description: Sensitivity information in dBFS for a microphone device, measured after fixed hardware gain (if available).
 title: System.Devices.AudioDevice.Microphone.SensitivityInDbfs2
 ms.topic: article
 ms.date: 05/31/2018
