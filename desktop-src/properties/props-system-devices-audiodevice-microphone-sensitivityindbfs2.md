@@ -7,7 +7,7 @@ ms.date: 05/31/2018
 
 # System.Devices.AudioDevice.Microphone.SensitivityInDbfs2
 
-Sensitivity information in Dbfs for a microphone device.
+Sensitivity information in dBFS for a microphone device, measured after fixed hardware gain (if available). Assumes 0dB software gain.
 
 ## Windows 10, version 1703, Windows 10, version 1607
 
