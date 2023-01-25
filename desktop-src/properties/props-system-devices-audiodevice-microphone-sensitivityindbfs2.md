@@ -16,7 +16,7 @@ propertyDescription
    name = System.Devices.AudioDevice.Microphone.SensitivityInDbfs2
    shellPKey = PKEY_Devices_AudioDevice_Microphone_SensitivityInDbfs2
    formatID = 8943B373-388C-4395-B557-BC6DBAFFAFDB
-   propID = 3
+   propID = 5
    SearchInfo
       InInvertedIndex = false
       IsColumn = false
