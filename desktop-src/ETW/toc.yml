@@ -142,12 +142,12 @@
       - name: "EventDescZero"
         href: /windows/desktop/api/Evntprov/nf-evntprov-eventdesczero
     - name: "Event Tracing Functions"
-      href: /windows/desktop/api/etw/#functions
+      href: /windows/desktop/api/_etw/#functions
       items:
       - name: "ntetw.h"
         items:
           - name: "EtwEventUnregister function"
-            href: /etw/nf-ntetw-etweventunregister.md
+            href: nf-ntetw-etweventunregister.md
       - name: "Event Consumer Functions (evntcons.h)"
         href: /windows/win32/api/evntcons/#functions
       - name: "Event Provider Functions (evntprov.h)"
