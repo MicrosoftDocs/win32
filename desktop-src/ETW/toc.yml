@@ -147,7 +147,7 @@
       - name: "ntetw.h"
         items:
           - name: "EtwEventUnregister function"
-          href: /ETW/nf-ntetw-etweventunregister.md
+            href: /ETW/nf-ntetw-etweventunregister.md
       - name: "Event Consumer Functions (evntcons.h)"
         href: /windows/win32/api/evntcons/#functions
       - name: "Event Provider Functions (evntprov.h)"
