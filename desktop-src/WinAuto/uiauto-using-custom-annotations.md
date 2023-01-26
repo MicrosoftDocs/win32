@@ -1,14 +1,14 @@
 ---
 title: Using Custom Annotations
-description: This topic describes ???
+description: This topic describes how UIAutomation (UIA) custom annotations can be used in scenarios where text range attributes do not provide sufficient information for complex applications that require richer annotations (such as Word and Excel).
 keywords:
 ms.topic: article
-ms.date: 12/13/2022
+ms.date: 01/11/2023
 ---
 
 # Using Custom Annotations
 
-UIAutomation (UIA) Custom Annotations can be used in scenarios where text range attributes do not provide sufficient information for complex applications that require richer annotations (such as Word and Excel).
+UIAutomation (UIA) custom annotations can be used in scenarios where text range attributes do not provide sufficient information for complex applications requiring richer annotations (such as Word and Excel).
 
 ## Overview
 

@@ -312,6 +312,8 @@
           href: uiauto-usingtextrangeobjects.md
         - name: "Using Custom Annotations"
           href: uiauto-using-custom-annotations.md
+        - name: "Using Custom Control Patterns"
+          href: uiauto-using-custom-patterns.md
         - name: "Accessing Spreadsheet Content"
           href: uiauto-accessingspreadsheetcontent.md
         - name: "Handling Text-related Events"
