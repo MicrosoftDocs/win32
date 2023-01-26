@@ -1,6 +1,6 @@
 ---
 title: Using Custom Control Patterns
-description: This topic describes ???
+description: This topic describes how UIAutomation (UIA) custom control patterns can be used in scenarios where the predefined UIAutomation patterns do not support the functionality provided by custom UI elements and application scenarios.
 keywords:
 ms.topic: article
 ms.date: 01/11/2023
@@ -16,7 +16,7 @@ A [UIA control pattern](uiauto-controlpatternsoverview.md) is an interface with 
 
 Control pattern methods allow UI Automation clients to manipulate a particular aspect of the control, while properties and events provide information about some aspect of the control, and provide information about the state of the automation element that implements the control pattern. For example the [Scroll Pattern](/dotnet/api/system.windows.automation.scrollpattern) can be used by a client to perform actions such as [Scroll](/dotnet/api/system.windows.automation.scrollpattern.scroll) and [SetScrollPercent](/dotnet/api/system.windows.automation.scrollpattern.setscrollpercent).
 
-Remote operations form the basis for custom control patterns. Remote operations are UIA client APIs that can be used to batch up a series of calls to an app, reducing a series of cross-process calls to a single transition. For more information on remote operations, see [Windows.UI.UIAutomation.Core Namespace](/uwp/api/windows.ui.uiautomation.core?view=winrt-22000).
+Remote operations form the basis for custom control patterns. Remote operations are UIA client APIs that can be used to batch up a series of calls to an app, reducing a series of cross-process calls to a single transition. For more information on remote operations, see [Windows.UI.UIAutomation.Core Namespace](/uwp/api/windows.ui.uiautomation.core).
 
 > [!NOTE]
 > The legacy APIs provide a more limited implementation of custom patterns. We recommend using the latest APIs described in this topic showing how clients use custom patterns in Office apps ([UI Automation Custom Extensions in Office](/office/uia/)).
@@ -592,7 +592,7 @@ namespace
 ## See also
 
 - [UIA control pattern](uiauto-controlpatternsoverview.md)
-- [Windows.UI.UIAutomation.Core Namespace](/uwp/api/windows.ui.uiautomation.core?view=winrt-22000)
+- [Windows.UI.UIAutomation.Core Namespace](/uwp/api/windows.ui.uiautomation.core)
 - [UI Automation Custom Extensions in Office](/office/uia/)
 - [Windows UIAutomation platform utility libraries](https://github.com/microsoft/Microsoft-UI-UIAutomation)
 - [Word Custom Patterns](/office/uia/word/wordcustompatterns)
