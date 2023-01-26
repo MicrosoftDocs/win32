@@ -9,7 +9,7 @@ ms.date: 05/31/2018
 
 Sensitivity information in dBFS for a microphone device, measured after fixed hardware gain (if available). Assumes 0dB software gain.
 
-## Windows 10, version 1703, Windows 10, version 1607
+## Windows 10, 1803 and later
 
 ```
 propertyDescription
