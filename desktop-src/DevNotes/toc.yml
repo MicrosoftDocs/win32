@@ -1635,57 +1635,57 @@
         href: iprovidepropertybuilder-mappropertytobuilder.md
   - name: "Windows Information Protection (WIP) APIs"
     href: windows-information-protection-api.md
-    - name: EDP_AUDIT_ACTION enumeration
+    - name: "EDP_AUDIT_ACTION enumeration"
       href: edp_audit_action-enum.md
-    - name: EDP_CONTEXT_STATES enumeration
+    - name: "EDP_CONTEXT_STATES enumeration"
       href: edp_context_states-enum.md
-    - name: EDP_CONTEXT structure
+    - name: "EDP_CONTEXT structure"
       href: edp_context_structure.md
-    - name: EDP_POLICY_RESULT enumeration
+    - name: "EDP_POLICY_RESULT enumeration"
       href: edp_policy_result-enum.md
-    - name: EdpAuditAction function
+    - name: "EdpAuditAction function"
       href: edpauditaction-function.md
-    - name: EdpCheckAccess function
+    - name: "EdpCheckAccess function"
       href: edpcheckaccess-function.md
-    - name: EdpClearClipboardMetaData function
+    - name: "EdpClearClipboardMetaData function"
       href: edpclearclipboardmetadata-function.md
-    - name: EdpFreeContext function
+    - name: "EdpFreeContext function"
       href: edpfreecontext-function.md
-    - name: EdpGetClipboardAccessDeniedData function
+    - name: "EdpGetClipboardAccessDeniedData function"
       href: edpgetclipboardaccessdenieddata-function.md
-    - name: EdpGetContextForProcess function
+    - name: "EdpGetContextForProcess function"
       href: edpgetcontextforprocess-function.md
-    - name: EdpGetDataInfoFromWin32Clipboard function
+    - name: "EdpGetDataInfoFromWin32Clipboard function"
       href: edpgetdatainfofromwin32clipboard-function.md
-    - name: EdpGetEnterpriseIdForClipboard function
+    - name: "EdpGetEnterpriseIdForClipboard function"
       href: edpgetenterpriseidforclipboard-function.md
-    - name: EdpGetIsManaged function
+    - name: "EdpGetIsManaged function"
       href: edpgetismanaged-function.md
-    - name: EdpGetPrimaryIdentities function
+    - name: "EdpGetPrimaryIdentities function"
       href: edpgetprimaryidentities-function.md
-    - name: EdpGetPrimaryIdentityIfManaged function
+    - name: "EdpGetPrimaryIdentityIfManaged function"
       href: edpgetprimaryidentityifmanager-function.md
-    - name: EdpGetSourceAppIdForClipboard function
+    - name: "EdpGetSourceAppIdForClipboard function"
       href: edpgetsourceappidforclipboard-function.md
-    - name: EdpGetSourceIsEnlightenedForClipboard function
+    - name: "EdpGetSourceIsEnlightenedForClipboard function"
       href: edpgetsourceisenlightenedforclipboard-function.md
-    - name: EdpSetEnterpriseIdForClipboard function
+    - name: "EdpSetEnterpriseIdForClipboard function"
       href: edpsetenterpriseidforclipboard-function.md
-    - name: EdpSetSourceIsEnlightenedForClipboard function
+    - name: "EdpSetSourceIsEnlightenedForClipboard function"
       href: edpsetsourceisenlightenedforclipboard-function.md
-    - name: ENCRYPTION_PROTECTOR_LIST structure
+    - name: "ENCRYPTION_PROTECTOR_LIST structure"
       href: encryption_protector_list-structure.md
-    - name: ENCRYPTION_PROTECTOR structure
+    - name: "ENCRYPTION_PROTECTOR structure"
       href: encryption_protector-structure.md
-    - name: EnterpriseDataGetStatus function
+    - name: "EnterpriseDataGetStatus function"
       href: enterprisedatagetstatus-function.md
-    - name: FileProtectionStatus enumeration
+    - name: "FileProtectionStatus enumeration"
       href: fileprotectionstatus-enum.md
-    - name: FreeIdentityProtectorList function
+    - name: "FreeIdentityProtectorList function"
       href: freeidentityprotectorlist-function.md
-    - name: GetEnterpriseIdForNetworkPath function
+    - name: "GetEnterpriseIdForNetworkPath function"
       href: getenterpriseidfornetworkpath-function.md
-    - name: QueryIdentityProtectors function
+    - name: "QueryIdentityProtectors function"
       href: queryidentityprotectors-function.md
   - name: "Windows Secure Mode Policy"
     href: windows-lockdown-policy.md
