@@ -48,7 +48,7 @@ For information on which operating systems are required to use a particular func
 
 <dl> <dt>
 
-[DirectX](https://msdn.microsoft.com/library/aa302281.aspx)
+[DirectX](/windows/win32/directx)
 </dt> <dt>
 
 [GDI+](../gdiplus/-gdiplus-gdi-start.md)
