@@ -62,7 +62,7 @@ For example, if exchange.contoso.com is configured as a protected domain in WIP 
 | Minimum supported client | Windows 10                          |
 | Minimum supported server | Windows 10                                |
 | Header                   | None  |
-| DLL                      | edputil.dll ||
+| DLL                      | edputil.dll |
 
 
 

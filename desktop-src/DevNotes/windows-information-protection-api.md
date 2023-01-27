@@ -1,5 +1,5 @@
 ---
-description: Visual Studio
+description: This section contains API reference documentation for Windows Information Protection (WIP). 
 title: Windows Information Protection (WIP) APIs
 ms.topic: article
 ms.date: 01/26/2023
