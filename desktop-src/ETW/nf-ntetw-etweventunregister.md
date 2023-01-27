@@ -28,9 +28,9 @@ topic_type:
 - APIRef
 - kbSyntax
 api_type:
-- HeaderDef
+- DllExport
 api_location:
-- ntetw.h
+- ntdll.dll
 api_name:
 - EtwEventUnregister
 targetos: Windows
@@ -40,40 +40,22 @@ req.redist:
 
 # EtwEventUnregister function
 
-
 ## Description
 
-
-The 
-<b>EtwEventUnregister</b> unregisters an event.
-			
-
-Providers can only call this function from their 
-<a href="/windows/desktop/ETW/controlcallback">ControlCallback</a> function.
-
+Unregisters an event.
 
 ## Parameters
-
-
-
 
 ### RegHandle [in]
 
 Handle to an event.
 
-
 ## Returns
-
-
 
 Returns an HRESULT.
 
-
-
-
-
 ## Remarks
 
-
+Providers can only call this function from their [ControlCallback](/windows/desktop/ETW/controlcallback) function.
 
 ## See also
