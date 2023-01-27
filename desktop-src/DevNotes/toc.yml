@@ -1635,6 +1635,7 @@
         href: iprovidepropertybuilder-mappropertytobuilder.md
   - name: "Windows Information Protection (WIP) APIs"
     href: windows-information-protection-api.md
+    items:
     - name: "EDP_AUDIT_ACTION enumeration"
       href: edp_audit_action-enum.md
     - name: "EDP_CONTEXT_STATES enumeration"
