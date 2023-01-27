@@ -46,7 +46,7 @@ An HRESULT value.
 | Minimum supported client | Windows 10                          |
 | Minimum supported server | Windows 10                                |
 | Header                   | None  |
-| DLL                      | edputil.dll | </dl> |
+| DLL                      | edputil.dll |
 
 
 

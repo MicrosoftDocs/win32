@@ -38,7 +38,7 @@ VOID FreeIdentityProtectorList(
 
 ### ProtectorsList
 
-A [PENCRYPTION_PROTECTOR_LIST](freeidentityprotectorlist-structure.md) structure returned by **QueryIdentityProtectors**.
+A [ENCRYPTION_PROTECTOR_LIST](encryption_protector_list-structure.md) structure returned by **QueryIdentityProtectors**.
 
 ## Return value
 

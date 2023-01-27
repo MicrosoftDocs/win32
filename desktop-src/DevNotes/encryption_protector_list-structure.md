@@ -36,7 +36,7 @@ Number of protectors in the *Protectors* array.
 
 ### Protectors
 
-A pointer to an [ENCRYPTION_PROTECTOR](pencryption_protector-structure.md) structure.
+A pointer to an [ENCRYPTION_PROTECTOR](encryption_protector-structure.md) structure.
 
 
 ## Requirements

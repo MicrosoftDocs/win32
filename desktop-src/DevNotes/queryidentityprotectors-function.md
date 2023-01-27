@@ -42,7 +42,7 @@ Full path to the file or folder.
 
 ### ProtectorList
 
-A pointer to a [ENCRYPTION_PROTECTOR_LIST](encryption_protector_list.md) structure.
+A pointer to a [ENCRYPTION_PROTECTOR_LIST](encryption_protector_list-structure.md) structure.
 
 
 ## Return value
