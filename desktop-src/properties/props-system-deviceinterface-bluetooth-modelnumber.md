@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # System.DeviceInterface.Bluetooth.ModelNumber
 
-Bluetooth device model number string that is assigned by the device vendor. Corresponding Bluetooth 16-bit UUID is 0x2A24.
+Bluetooth device model number string that is assigned by the device vendor.
 
 ## Windows 10, version 1703, Windows 10, version 1607, Windows 10, version 1511, Windows 10, version 1507, Windows 8.1
 
