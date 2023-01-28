@@ -7,7 +7,7 @@ ms.assetid: na
 ms.date: 02/20/2018
 ms.keywords: EtwEventUnregister
 ms.topic: reference
-req.header: ntetw.h
+req.header: none
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1803 [desktop apps \| UWP apps]
