@@ -44,6 +44,14 @@ req.redist:
 
 Unregisters an event.
 
+## Syntax
+
+```
+ULONG EVNTAPI EtwEventUnregister(
+    [in] REGHANDLE RegHandle
+);
+```
+
 ## Parameters
 
 ### RegHandle [in]
