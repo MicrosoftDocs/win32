@@ -1,62 +1,58 @@
 ---
 title: Dynamic-link library search order
-description: You can control the specific location from which any given DLL is loaded by specifying a full path, or by using another mechanism such as a manifest. If you don't use one of those methods, then the system searches for the DLL at load time as described in this topic.
-ms.date: 01/25/2023
+description: You can control the specific location from which any given DLL is loaded by specifying a full path. If you don't use that method, then the system searches for the DLL at load time as described in this topic.
+ms.date: 01/30/2023
 ms.assetid: 44228cf2-6306-466c-8f16-f513cd3ba8b5
 ms.topic: article
 ---
 
 # Dynamic-link library search order
 
-It's common for multiple versions of the same dynamic-link library (DLL) to exist in different file system locations in an operating system (OS). You can control the specific location from which any given DLL is loaded by specifying a full path; or by using another mechanism such as redirection or an application manifest (also known as a side-by-side application manifest, or a fusion manifest).
-
-* [Dynamic-link library redirection](/windows/win32/dlls/dynamic-link-library-redirection).
-* [Manifests](/windows/win32/sbscs/manifests).
-
-If you don't use one of those methods, then the system searches for the DLL at load time as described in this topic.
+It's common for multiple versions of the same dynamic-link library (DLL) to exist in different file system locations within an operating system (OS). You *can* control the specific location from which any given DLL is loaded by specifying a full path. But if you don't use that method, then the system searches for the DLL at load time as described in this topic.
 
 > [!TIP]
 > For definitions of *packaged* and *unpackaged* apps, see [Advantages and disadvantages of packaging your app](/windows/apps/package-and-deploy/#advantages-and-disadvantages-of-packaging-your-app).
 
 ## Factors that affect searching
 
-These factors affect whether or not the system searches for a DLL:
+Here are some special search factors that are discussed in this topic&mdash;you can consider them to be part of the DLL search order. Later sections in this topic list these factors in the appropriate search order for certain app types, together with other search locations. This section is just to introduce the concepts, and to give them names that we'll use to refer to them later in the topic.
 
-* **A DLL with the same module name is already loaded into memory**. In this case the system checks for either redirection or a manifest; in their absense, the system resolves to the already-loaded DLL no matter which directory it's in. Either way, the system doesn't search for the DLL.
-* **The DLL is on the list of known DLLs for the version of Windows on which the application is running**. In this case, instead of searching for the DLL, the system uses its copy of the known DLL (and the known DLL's dependent DLLs, if any). For a list of known DLLs on the current system, see the registry key `HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\KnownDLLs`.
-* **The DLL has dependencies**. In this case, the system searches for the dependent DLLs as if they were loaded via only their module names. That's true even if the first DLL was loaded by specifying a full path.
+* **DLL redirection**. For details, see [Dynamic-link library redirection](/windows/win32/dlls/dynamic-link-library-redirection).
+* **API sets**. For details, see [Windows API sets](/windows/win32/apiindex/windows-apisets).
+* **SxS manifest redirection**&mdash;desktop apps only (not UWP apps). You can redirect by using an application manifest (also known as a side-by-side application manifest, or a fusion manifest). For details, see [Manifests](/windows/win32/sbscs/manifests).
+* **Loaded-module list**. The system can check to see whether a DLL with the same module name is already loaded into memory (no matter which directory it was loaded from).
+* **Known DLLs**. If the DLL is on the list of known DLLs for the version of Windows on which the application is running, then the system uses its copy of the known DLL (and the known DLL's dependent DLLs, if any). For a list of known DLLs on the current system, see the registry key `HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\KnownDLLs`.
+
+If a DLL has dependencies, then the system searches for the dependent DLLs as if they were loaded by using only their module names. That's true even if the first DLL was loaded by specifying a full path.
 
 ## Search order for packaged apps
 
-When a packaged app loads a packaged module (specifically, a library module: a `.dll` file) by calling the [**LoadPackagedLibrary**](/windows/win32/api/Winbase/nf-winbase-loadpackagedlibrary) function, the DLL must be in the package dependency graph of the process. For more information, see **LoadPackagedLibrary**. When a packaged app loads a module by other means, and doesn't specify a full path, the system searches for the DLL and its dependencies at load time as described in this section.
+When a packaged app loads a packaged module (specifically, a library module&mdash;a `.dll` file) by calling the [**LoadPackagedLibrary**](/windows/win32/api/Winbase/nf-winbase-loadpackagedlibrary) function, the DLL must be in the package dependency graph of the process. For more information, see **LoadPackagedLibrary**. When a packaged app loads a module by other means, and doesn't specify a full path, the system searches for the DLL and its dependencies at load time as described in this section.
 
-Before the system searches for a DLL, it checks the [Factors that affect searching](#factors-that-affect-searching).
-
-If the system must search for a module or its dependencies, then it always uses the search order for packaged apps; even if a dependency is not packaged app code.
+When the system searches for a module or its dependencies, it always uses the search order for packaged apps; even if a dependency is not packaged app code.
 
 ### Standard search order for packaged apps
 
-The system searches these locations in this order:
+The system searches in this order:
 
-1. The package dependency graph of the process. This is the application's package plus any dependencies specified as `<PackageDependency>` in the `<Dependencies>` section of the application's package manifest. Dependencies are searched in the order they appear in the manifest.
-1. The directory the calling process was loaded from.
-1. The system directory (`%SystemRoot%\system32`).
+1. DLL Redirection.
+2. API sets.
+3. **Packaged desktop apps only (not UWP apps)**. SxS manifest redirection.
+4. Loaded-module list.
+5. Known DLLs.
+6. The package dependency graph of the process. This is the application's package plus any dependencies specified as `<PackageDependency>` in the `<Dependencies>` section of the application's package manifest. Dependencies are searched in the order they appear in the manifest.
+7. The directory the calling process was loaded from (the executable's directory).
+8. The system directory (`%SystemRoot%\system32`).
 
 If a DLL has dependencies, then the system searches for the dependent DLLs as if they were loaded with just their module names (even if the first DLL was loaded by specifying a full path).
 
 ### Alternate search order for packaged apps
 
-If a module changes the standard search order by calling the [**LoadLibraryEx**](/windows/win32/api/LibLoaderAPI/nf-libloaderapi-loadlibraryexa) function with **LOAD_WITH_ALTERED_SEARCH_PATH**, then the system searches the directory that the specified module was loaded from instead of the directory of the calling process. The system searches these locations in this order:
-
-1. The package dependency graph of the process. This is the application's package plus any dependencies specified as `<PackageDependency>` in the `<Dependencies>` section of the application's package manifest. Dependencies are searched in the order they appear in the manifest.
-1. The directory the specified module was loaded from.
-1. The system directory (`%SystemRoot%\system32`).
+If a module changes the standard search order by calling the [**LoadLibraryEx**](/windows/win32/api/LibLoaderAPI/nf-libloaderapi-loadlibraryexa) function with **LOAD_WITH_ALTERED_SEARCH_PATH**, then the search order is the same as the standard search order except that in step 7 the system searches the directory that the specified module was loaded from (the top-loading module's directory) instead of the executable's directory.
 
 ## Search order for unpackaged apps
 
-An unpackaged app can control the location from which a DLL is loaded by either specifying a full path, using redirection, or by using a manifest. If you don't use one of those methods, then the system searches for the DLL at load time as described in this section.
-
-Before the system searches for a DLL, it checks the [Factors that affect searching](#factors-that-affect-searching).
+When a packaged app loads a module and doesn't specify a full path, the system searches for the DLL at load time as described in this section.
 
 > [!IMPORTANT]
 > If an attacker gains control of one of the directories that's searched, then it can place a malicious copy of the DLL in that directory. For ways to help prevent such attacks, see [Dynamic-link library security](/windows/win32/dlls/dynamic-link-library-security).
@@ -69,14 +65,20 @@ Safe DLL search mode (which is enabled by default) moves the user's current dire
 
 If safe DLL search mode is enabled, then the search order is as follows:
 
-1. The directory from which the application loaded.
-2. The system directory. Use the [**GetSystemDirectory**](/windows/win32/api/sysinfoapi/nf-sysinfoapi-getsystemdirectorya) function to retrieve the path of this directory.
-3. The 16-bit system directory. There's no function that obtains the path of this directory, but it is searched.
-4. The Windows directory. Use the [**GetWindowsDirectory**](/windows/win32/api/sysinfoapi/nf-sysinfoapi-getwindowsdirectorya) function to get the path of this directory.
-5. The current directory.
-6. The directories that are listed in the `PATH` environment variable. This doesn't include the per-application path specified by the **App Paths** registry key. The **App Paths** key isn't used when computing the DLL search path.
+1. DLL Redirection.
+2. API sets.
+3. SxS manifest redirection.
+4. Loaded-module list.
+5. Known DLLs.
+6. **Windows 11, version 21H2 (10.0; Build 22000), and later**. The package dependency graph of the process. This is the application's package plus any dependencies specified as `<PackageDependency>` in the `<Dependencies>` section of the application's package manifest. Dependencies are searched in the order they appear in the manifest.
+7. The directory from which the application loaded.
+8. The system directory. Use the [**GetSystemDirectory**](/windows/win32/api/sysinfoapi/nf-sysinfoapi-getsystemdirectorya) function to retrieve the path of this directory.
+9. The 16-bit system directory. There's no function that obtains the path of this directory, but it is searched.
+10. The Windows directory. Use the [**GetWindowsDirectory**](/windows/win32/api/sysinfoapi/nf-sysinfoapi-getwindowsdirectorya) function to get the path of this directory.
+11. The current directory.
+12. The directories that are listed in the `PATH` environment variable. This doesn't include the per-application path specified by the **App Paths** registry key. The **App Paths** key isn't used when computing the DLL search path.
 
-If safe DLL search mode is *disabled*, then the search order is the same except that *the current directory* moves from position 5 to position 2 in the sequence.
+If safe DLL search mode is *disabled*, then the search order is the same except that *the current directory* moves from position 11 to position 8 (immediately after step *7. The directory from which the application loaded*).
 
 ### Alternate search order for unpackaged apps
 
@@ -89,37 +91,38 @@ If you specify an alternate search strategy, then its behavior continues until a
 
 The [**LoadLibraryEx**](/windows/win32/api/LibLoaderAPI/nf-libloaderapi-loadlibraryexa) function supports an alternate search order if the call specifies **LOAD_WITH_ALTERED_SEARCH_PATH**, and the *lpFileName* parameter specifies an absolute path.
 
-* The standard search strategy begins in the calling application's directory.
-* The alternate search strategy specified by [**LoadLibraryEx**](/windows/win32/api/LibLoaderAPI/nf-libloaderapi-loadlibraryexa) with **LOAD_WITH_ALTERED_SEARCH_PATH** begins in the directory of the executable module that **LoadLibraryEx** is loading.
+* The standard search strategy begins (after the initial steps) in the calling application's directory.
+* The alternate search strategy specified by [**LoadLibraryEx**](/windows/win32/api/LibLoaderAPI/nf-libloaderapi-loadlibraryexa) with **LOAD_WITH_ALTERED_SEARCH_PATH** begins (after the initial steps) in the directory of the executable module that **LoadLibraryEx** is loading.
 
 That's the only way in which they differ.
 
 If safe DLL search mode is enabled, then the alternate search order is as follows:
 
-1. The directory specified by *lpFileName*.
-2. The system directory. Use the [**GetSystemDirectory**](/windows/win32/api/sysinfoapi/nf-sysinfoapi-getsystemdirectorya) function to retrieve the path of this directory.
-3. The 16-bit system directory. There's no function that obtains the path of this directory, but it is searched.
-4. The Windows directory. Use the [**GetWindowsDirectory**](/windows/win32/api/sysinfoapi/nf-sysinfoapi-getwindowsdirectorya) function to get the path of this directory.
-5. The current directory.
-6. The directories that are listed in the `PATH` environment variable. This doesn't include the per-application path specified by the **App Paths** registry key. The **App Paths** key isn't used when computing the DLL search path.
+Steps 1-6 are the same as the standard search order.
+
+7. The directory specified by *lpFileName*.
+8. The system directory. Use the [**GetSystemDirectory**](/windows/win32/api/sysinfoapi/nf-sysinfoapi-getsystemdirectorya) function to retrieve the path of this directory.
+9. The 16-bit system directory. There's no function that obtains the path of this directory, but it is searched.
+10. The Windows directory. Use the [**GetWindowsDirectory**](/windows/win32/api/sysinfoapi/nf-sysinfoapi-getwindowsdirectorya) function to get the path of this directory.
+11. The current directory.
+12. The directories that are listed in the `PATH` environment variable. This doesn't include the per-application path specified by the **App Paths** registry key. The **App Paths** key isn't used when computing the DLL search path.
 
 If safe DLL search mode is *disabled*, then the alternate search order is the same except that *the current directory* moves from position 5 to position 2 in the sequence.
 
 The [**SetDllDirectory**](/windows/win32/api/Winbase/nf-winbase-setdlldirectorya) function supports an alternate search order if the *lpPathName* parameter specifies a path. The alternate search order is as follows:
 
-1. The directory from which the application loaded.
-1. The directory specified by the *lpPathName* parameter of [**SetDllDirectory**](/windows/win32/api/Winbase/nf-winbase-setdlldirectorya).
-1. The system directory.
-1. The 16-bit system directory.
-1. The Windows directory.
-1. The directories that are listed in the `PATH` environment variable.
+Steps 1-6 are the same as the standard search order.
+
+7. The directory from which the application loaded.
+8. The directory specified by the *lpPathName* parameter of [**SetDllDirectory**](/windows/win32/api/Winbase/nf-winbase-setdlldirectorya).
+9. The system directory.
+10. The 16-bit system directory.
+11. The Windows directory.
+12. The directories listed in the `PATH` environment variable.
 
 If the *lpPathName* parameter is an empty string, then the call removes the current directory from the search order.
 
 [**SetDllDirectory**](/windows/win32/api/Winbase/nf-winbase-setdlldirectorya) effectively disables safe DLL search mode while the specified directory is in the search path. To restore safe DLL search mode based on the **SafeDllSearchMode** registry value, and restore the current directory to the search order, call **SetDllDirectory** with *lpPathName* as NULL.
-
-> [!NOTE]
-> As of Windows 11, version 21H2 (10.0; Build 22000), the The package dependency graph can apply to unpackaged apps.
 
 ### Search order using LOAD_LIBRARY_SEARCH flags
 
