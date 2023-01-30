@@ -38,11 +38,11 @@ typedef enum {
 
 ## Constants
 
-### -field Unknown:0
+### Unknown:0
 
 The item is either encrypting or decrypting and the enterprise protection status cannot be determined. Check again later.
 
-### -field Undetermined:0
+### Undetermined:0
 
 > [!NOTE]
 > **Undetermined** may be unavailable for releases after Windows 10. Instead, use **Unknown**.
@@ -91,7 +91,7 @@ The item's RMS license has expired.
 
 The keys to access the protected item have been dropped while the device is locked.
 
-### =FileInUse:10
+### FileInUse:10
 
 The item is being used by another process. You can apply enterprise protection to it only after it becomes exclusively available.
 
