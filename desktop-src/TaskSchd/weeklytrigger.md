@@ -57,6 +57,10 @@ The time of day that the task is started is set by the [**StartBoundary**](trigg
 
 When reading or writing your own XML for a task, a weekly trigger is specified using the [**ScheduleByWeek**](taskschedulerschema-schedulebyweek-calendartriggertype-element.md) element of the Task Scheduler schema.
 
+On the day that daylight savings time (DST) starts in a year, for a Pacific time zone (time shifted from 02:00 AM to 03:00 AM in 2022), any task that's scheduled to run between 02:00 AM and 02:59:59:999 AM will run at the earliest possible time that exists in that given day&mdash;that is, at 03:00 AM. This applies to all DST time zones based on the various times at which they observe DST.
+
+Consider a weekly task that is set to run every Sunday of 2022 at 2:30 AM in the Pacific time zone, such that the next run time is Mar 13, 2022 2:30 AM. As 2:30 AM is a time that doesn't exist on Mar 13, 2022, the task runs at 3:00 AM instead. On other Sundays of the year, the task runs as usual at 2:30 AM.
+
 ## Examples
 
 For more information and a code example for this scripting object, see [Weekly Trigger Example (Scripting)](weekly-trigger-example--scripting-.md).
