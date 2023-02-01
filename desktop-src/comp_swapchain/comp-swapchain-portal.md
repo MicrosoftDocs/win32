@@ -23,4 +23,7 @@ The focus of the initial version of this API is to enable media frameworks, such
 | [Composition swapchain programming guide](comp-swapchain.md) | This API is a spiritual successor to the DXGI swapchain, which allows applications to render and present content to the screen. |
 | [Composition swapchain code examples](comp-swapchain-examples.md) | A collection of code examples showing various composition swapchain scenarios. |
 | [Composition glossary](comp-swapchain-glossary.md) | A glossary of composition swapchain terms. |
-| [API Reference](https://learn.microsoft.com/en-us/windows/win32/api/_comp_swapchain/) | Composition Swapchain API Reference |
+
+## Related topics
+
+- [Composition Swapchain API Reference](/windows/win32/api/_comp_swapchain/)
