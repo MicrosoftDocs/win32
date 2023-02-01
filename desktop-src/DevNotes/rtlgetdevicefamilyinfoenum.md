@@ -20,7 +20,6 @@ Retrieves values representing the device family and form factor of the current d
 
 ## Syntax
 
-
 ```C++
 VOID
 NTAPI
@@ -43,29 +42,24 @@ Receives the UAP version of the current device.
 
 Receives a DWORD specifying the device family of the current device. The returned value is one of the following:
 
-- 
 | Device family | Value |
-| DEVICEFAMILYINFOENUM_DESKTOP          |          0x00000003
-| DEVICEFAMILYINFOENUM_XBOX             |          0x00000005
-| DEVICEFAMILYINFOENUM_TEAM             |          0x00000006
-| DEVICEFAMILYINFOENUM_SERVER           |          0x00000009
-| DEVICEFAMILYINFOENUM_HOLOGRAPHIC      |          0x0000000A
-| DEVICEFAMILYINFOENUM_SERVER_NANO      |          0x0000000D
-| DEVICEFAMILYINFOENUM_WINDOWS_CORE     |          0x00000010
+| DEVICEFAMILYINFOENUM_DESKTOP          |          0x00000003 |
+| DEVICEFAMILYINFOENUM_XBOX             |          0x00000005 |
+| DEVICEFAMILYINFOENUM_TEAM             |          0x00000006 |
+| DEVICEFAMILYINFOENUM_SERVER           |          0x00000009 |
+| DEVICEFAMILYINFOENUM_HOLOGRAPHIC      |          0x0000000A |
+| DEVICEFAMILYINFOENUM_SERVER_NANO      |          0x0000000D |
+| DEVICEFAMILYINFOENUM_WINDOWS_CORE     |          0x00000010 |
 
 
 ### pulDeviceForm \[out\]
 
 Receives a DWORD specifying the form factor of the current device.
 
-- DEVICEFAMILYDEVICEFORM_TABLET
-- DEVICEFAMILYDEVICEFORM_CONVERTIBLE
-- DEVICEFAMILYDEVICEFORM_DETACHABLE
-- 
 | Form factor | Value |
-| DEVICEFAMILYDEVICEFORM_TABLET | 0x00000002
-| DEVICEFAMILYDEVICEFORM_CONVERTIBLE | 0x00000005
-|DEVICEFAMILYDEVICEFORM_DETACHABLE | 0x00000006
+| DEVICEFAMILYDEVICEFORM_TABLET | 0x00000002 |
+| DEVICEFAMILYDEVICEFORM_CONVERTIBLE | 0x00000005 |
+|DEVICEFAMILYDEVICEFORM_DETACHABLE | 0x00000006 |
 
 
 
