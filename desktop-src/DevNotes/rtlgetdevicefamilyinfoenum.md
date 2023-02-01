@@ -43,6 +43,7 @@ Receives the UAP version of the current device.
 Receives a DWORD specifying the device family of the current device. The returned value is one of the following:
 
 | Device family | Value |
+|---------------|-------|
 | DEVICEFAMILYINFOENUM_DESKTOP          |          0x00000003 |
 | DEVICEFAMILYINFOENUM_XBOX             |          0x00000005 |
 | DEVICEFAMILYINFOENUM_TEAM             |          0x00000006 |
@@ -57,6 +58,7 @@ Receives a DWORD specifying the device family of the current device. The returne
 Receives a DWORD specifying the form factor of the current device.
 
 | Form factor | Value |
+|---------------|-------|
 | DEVICEFAMILYDEVICEFORM_TABLET | 0x00000002 |
 | DEVICEFAMILYDEVICEFORM_CONVERTIBLE | 0x00000005 |
 |DEVICEFAMILYDEVICEFORM_DETACHABLE | 0x00000006 |
