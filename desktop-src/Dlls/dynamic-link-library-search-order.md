@@ -1,14 +1,14 @@
 ---
 title: Dynamic-link library search order
 description: You can control the specific location from which any given DLL is loaded by specifying a full path. If you don't use that method, then the system searches for the DLL at load time as described in this topic.
-ms.date: 01/30/2023
+ms.date: 02/01/2023
 ms.assetid: 44228cf2-6306-466c-8f16-f513cd3ba8b5
 ms.topic: article
 ---
 
 # Dynamic-link library search order
 
-It's common for multiple versions of the same dynamic-link library (DLL) to exist in different file system locations within an operating system (OS). You *can* control the specific location from which any given DLL is loaded by specifying a full path. But if you don't use that method, then the system searches for the DLL at load time as described in this topic.
+It's common for multiple versions of the same dynamic-link library (DLL) to exist in different file system locations within an operating system (OS). You *can* control the specific location from which any given DLL is loaded by specifying a full path. But if you don't use that method, then the system searches for the DLL at load time as described in this topic. The *DLL loader* is the part of the operating system (OS) that loads DLLs and/or resolves references to DLLs.
 
 > [!TIP]
 > For definitions of *packaged* and *unpackaged* apps, see [Advantages and disadvantages of packaging your app](/windows/apps/package-and-deploy/#advantages-and-disadvantages-of-packaging-your-app).
