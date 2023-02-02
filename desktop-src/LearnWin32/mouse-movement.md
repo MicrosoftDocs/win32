@@ -106,7 +106,7 @@ case WM_CREATE:
 To get the mouse coordinates in DIPs from the mouse messages, do the following:
 
 1.  Use the [**GET\_X\_LPARAM**](/windows/win32/api/windowsx/nf-windowsx-get_x_lparam) and [**GET\_Y\_LPARAM**](/windows/win32/api/windowsx/nf-windowsx-get_y_lparam) macros to get the pixel coordinates. These macros are defined in WindowsX.h, so remember to include that header in your project.
-2.  Call `DPIScale::PixelsToDipsX` and `DPIScale::PixelsToDipsY` to convert pixels to DIPs.
+2.  Call `DPIScale::PixelsToDips` to convert pixels to DIPs.
 
 Now add the message handlers to your window procedure.
 
