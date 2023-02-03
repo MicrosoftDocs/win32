@@ -8,24 +8,24 @@ ms.date: 02/02/2023
 
 # Microsoft Standard Installer command-line options
 
-This article describes standard command-line options for the Microsoft Standard Installer *Msiexec.exe*, the app you use to interpret packages and install products.
+This article describes standard command-line options for the Microsoft Standard Installer *msiexec.exe*, the app you use to interpret packages and install products.
 
 Command-line options are case insensitive.
 
 Msiexec sets and returns an error level that corresponds to [system error codes](../debug/system-error-codes.md).
 
 > [!NOTE]
-> The Msiexec command-line options are available beginning with Windows Installer 3.0. The [Windows Installer command-line options](command-line-options.md) are available with Windows Installer 3.0 and earlier. This article lists the Windows Installer command-line option that corresponds to each Msiexec option.
+> The `msiexec` command-line options are available beginning with Windows Installer 3.0. The [Windows Installer command-line options](command-line-options.md) are available with Windows Installer 3.0 and earlier. This article lists the Windows Installer command-line option that corresponds to each Standard Installer option.
 
 ## /help
 
-Help and quick reference option. Displays the correct usage of the setup command, including a list of all switches and behavior. You can display the usage description in the user interface. Incorrect use of any other option invokes this help option.
+Help and quick reference option. Displays the correct usage of the `msiexec` command, including a list of all switches and behavior. You can display the usage descriptions in the user interface. Incorrect use of any other option invokes this help option.
 
 The equivalent Windows Installer command-line option is `/?`.
 
 ### Example
 
-`Msiexec /help`.
+`msiexec /help`.
 
 ## /quiet
 
@@ -37,13 +37,13 @@ The equivalent Windows Installer command-line option is `/qn`.
 
 ### Examples
 
-`Msiexec /package Application.msi /quiet`
+`msiexec /package Application.msi /quiet`
 
-`Msiexec /uninstall Application.msi /quiet`
+`msiexec /uninstall Application.msi /quiet`
 
-`Msiexec /update msipatch.msp /quiet`
+`msiexec /update msipatch.msp /quiet`
 
-`Msiexec /uninstall msipatch.msp /package  Application.msi /quiet`
+`msiexec /uninstall msipatch.msp /package  Application.msi /quiet`
 
 ## /passive
 
@@ -87,7 +87,7 @@ The equivalent Windows Installer command line has `REBOOTPROMPT = ""` set on the
 
 Uninstall product option. Uninstalls a product.
 
-The equivalent Windows Installer Command-Line Option is `/x.`
+The equivalent Windows Installer command-line option is `/x.`
 
 ### Parameter
 
@@ -109,7 +109,7 @@ Log option. Writes logging information into a log file at the specified existing
 
 For more information about all the methods that are available for setting the logging mode, see [Normal logging](normal-logging.md) for the Windows Installer.
 
-The equivalent Windows Installer Command-Line Option is: `/L*`.
+The equivalent Windows Installer command-line option is: `/L*`.
 
 The following information is entered into the log:
 
