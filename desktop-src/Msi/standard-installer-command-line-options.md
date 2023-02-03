@@ -15,7 +15,7 @@ Command-line options are case insensitive.
 Msiexec sets and returns an error level that corresponds to [system error codes](../debug/system-error-codes.md).
 
 > [!NOTE]
-> The `msiexec` command-line options are available beginning with Windows Installer 3.0. The [Windows Installer command-line options](command-line-options.md) are available with Windows Installer 3.0 and earlier. This article lists the Windows Installer command-line option that corresponds to each Standard Installer option.
+> The Msiexec command-line options are available beginning with Windows Installer 3.0. The [Windows Installer command-line options](command-line-options.md) are available with Windows Installer 3.0 and earlier. This article lists the Windows Installer command-line option that corresponds to each Standard Installer option.
 
 ## /help
 
