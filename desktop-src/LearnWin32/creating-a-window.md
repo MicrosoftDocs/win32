@@ -3,7 +3,7 @@ title: Create a window
 description: Learn how to create a window as the first step in this sample module for your first Windows program.
 ms.assetid: e036519f-26b5-436c-b909-bb280d758e81
 ms.topic: article
-ms.date: 02/03/2023
+ms.date: 02/06/2023
 ---
 
 # Create a window
@@ -14,7 +14,7 @@ In this article, learn to create and show a window.
 
 A *window class* defines a set of behaviors that several windows might have in common. For example, in a group of buttons, each button has a similar behavior when the user selects the button. Of course, buttons aren't completely identical. Each button displays its own text string and has its own screen coordinates. Data that is unique for each window is called *instance data*.
 
-Every window must be associated with a window class, even if your program only ever creates one instance of that class. A window class isn't a `Class` in the C++ sense. Rather, it's a data structure used internally by the operating system. Window classes are registered with the system at run time. To register a new window class, fill in a [WNDCLASS](/windows/win32/api/winuser/ns-winuser-wndclassa) structure:
+Every window must be associated with a window class, even if your program only ever creates one instance of that class. A window class isn't a class in the C++ sense. Rather, it's a data structure used internally by the operating system. Window classes are registered with the system at run time. To register a new window class, fill in a [WNDCLASS](/windows/win32/api/winuser/ns-winuser-wndclassa) structure:
 
 ```cpp
 // Register the window class.
