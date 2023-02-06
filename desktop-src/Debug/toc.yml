@@ -50,7 +50,7 @@
       - name: "RtlLookupFunctionEntry"
         href: /windows/desktop/api/WinNT/nf-winnt-rtllookupfunctionentry
       - name: "RtlSetImageMitigationPolicy"
-        href: rtlsetimagemitigationpolicy.md
+        href: rtlsetimagemitigationpolicy-function.md
       - name: "RtlNtStatusToDosError"
         href: /windows/desktop/api/Winternl/nf-winternl-rtlntstatustodoserror
       - name: "RtlNtStatusToDosErrorNoTeb"
