@@ -49,6 +49,8 @@
         href: /windows/desktop/api/WinUser/nf-winuser-messagebeep
       - name: "RtlLookupFunctionEntry"
         href: /windows/desktop/api/WinNT/nf-winnt-rtllookupfunctionentry
+      = name: "RtlSetImageMitigationPolicy"
+        href: rtlsetimagemitigationpolicy.md
       - name: "RtlNtStatusToDosError"
         href: /windows/desktop/api/Winternl/nf-winternl-rtlntstatustodoserror
       - name: "RtlNtStatusToDosErrorNoTeb"
