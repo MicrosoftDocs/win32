@@ -10,10 +10,10 @@ ms.date: 02/06/2023
 
 SignTool is a command-line tool that digitally signs files, verifies the signatures in files, and time stamps files. For information about why signing files is important, see [Introduction to code signing](cryptography-tools.md). The tool is installed in the *\Bin* folder of the Microsoft Windows Software Development Kit (SDK) installation path, for example: *C:\Program Files (x86)\Windows Kits\10\bin\10.0.19041.0\x64\signtool.exe*.
 
-SignTool is available as part of the Windows SDK, which you can download from [Windows SDK](https://developer.microsoft.com/windows/downloads/windows-10-sdk/).
+SignTool is available as part of the Windows SDK, which you can download from [Windows SDK](https://developer.microsoft.com/windows/downloads/windows-sdk).
 
 > [!NOTE]
-> The Windows 10 SDK, Windows 10 HLK, Windows 10 WDK, and Windows 10 ADK builds 20236 and later require that you specify the digest algorithm. The SignTool `sign` command requires the file digest algorithm option (`/fd`) and the timestamp digest algorithm option (`/td`) during signing and time stamping, respectively.
+> The Windows 10 SDK, Windows 10 HLK, Windows 10 WDK, and Windows 10 ADK builds 20236 and later require that you specify the digest algorithm. The SignTool `sign` command requires the file digest algorithm option (`/fd`) and the time stamp digest algorithm option (`/td`) during signing and time stamping, respectively.
 >
 > If `/fd` isn't specified during signing and if `/td` isn't specified during time stamping, the command throws a warning, error code 0, initially. In later versions of SignTool, the warning becomes an error. We recommend SHA256. It is considered to be more secure than SHA1 by the industry.
 
@@ -37,7 +37,7 @@ SignTool supports the following commands:
 |----|----|
 |`catdb`|Adds a catalog file to, or removes it from, a catalog database. Catalog databases are used for automatic lookup of catalog files and are identified by GUID. For a list of the options supported by the `catdb` command, see [catdb command options](/dotnet/framework/tools/signtool-exe#catdb-command-options).|
 |`sign`|Digitally signs files. Digital signatures protect files from tampering and enable users to verify the signer based on a signing certificate. For a list of the options supported by the `sign` command, see [sign command options](/dotnet/framework/tools/signtool-exe#sign-command-options).|
-|`timestamp`|Time stamps files. For a list of the options supported by the `Timestamp` command, see [timestamp command options](/dotnet/framework/tools/signtool-exe#timestamp-command-options).|
+|`timestamp`|Time stamps files. For a list of the options supported by the `timestamp` command, see [timestamp command options](/dotnet/framework/tools/signtool-exe#timestamp-command-options).|
 |`verify`|Verifies the digital signature of files. Determines whether the signing certificate was issued by a trusted authority, whether the signing certificate has been revoked, and, optionally, whether the signing certificate is valid for a specific policy. For a list of the options supported by the `verify` command, see [verify command options](/dotnet/framework/tools/signtool-exe#verify-command-options).|
 
 The following options apply to all SignTool commands.
@@ -97,9 +97,9 @@ The following table lists the options that can be used with the `catdb` command.
 |`/s` *StoreName*|Specifies the store to open when searching for the certificate. If this option isn't specified, the `My` store is opened.|
 |`/sha1` *Hash*|Specifies the SHA1 hash of the signing certificate. The SHA1 hash is commonly used when multiple certificates satisfy the criteria specified by the remaining switches.|
 |`/sm`|Specifies that the command uses a machine store, instead of a user store.|
-|`/t` *URL*|Specifies the URL of the timestamp server. If this option or `/tr` isn't specified, the signed file isn't time stamped. A warning is generated if time stamping fails. This option can't be used with the `/tr` option.|
-|`/td` *alg*|Used with the `/tr` option to request a digest algorithm used by the RFC 3161 timestamp server. Note: An error is generated if `/td` isn't provided while time stamping.|
-|`/tr` *URL*|Specifies the URL of the RFC 3161 timestamp server. If this option or `/t` isn't specified, the signed file isn't time stamped. A warning is generated if time stamping fails. This option can't be used with the `/t` option.|
+|`/t` *URL*|Specifies the URL of the time stamp server. If this option or `/tr` isn't specified, the signed file isn't time stamped. A warning is generated if time stamping fails. This option can't be used with the `/tr` option.|
+|`/td` *alg*|Used with the `/tr` option to request a digest algorithm used by the RFC 3161 time stamp server. Note: An error is generated if `/td` isn't provided while time stamping.|
+|`/tr` *URL*|Specifies the URL of the RFC 3161 time stamp server. If this option or `/t` isn't specified, the signed file isn't time stamped. A warning is generated if time stamping fails. This option can't be used with the `/t` option.|
 |`/u` *Usage*|Specifies the enhanced key usage (EKU) that must be present in the signing certificate. The usage value can be specified by OID or string. The default usage is `Code Signing (1.3.6.1.5.5.7.3.3)`.|
 |`/uw`|Specifies usage of `Windows System Component Verification (1.3.6.1.4.1.311.10.3.6)`.|
 
@@ -112,10 +112,10 @@ The following table lists the options that can be used with the `timestamp` comm
 |Timestamp option|Description|
 |----|----|
 |`/p7`|Time stamps PKCS #7 files.|
-|`/t` *URL*|Specifies the URL of the timestamp server. The file being time stamped must have previously been signed. Either the `/t` or the `/tr` option is required.|
-|`/td` *alg*|Used with the `/tr` option to request a digest algorithm used by the RFC 3161 timestamp server. Note: An error is generated if `/td` isn't provided while time stamping.|
+|`/t` *URL*|Specifies the URL of the time stamp server. The file being time stamped must have previously been signed. Either the `/t` or the `/tr` option is required.|
+|`/td` *alg*|Used with the `/tr` option to request a digest algorithm used by the RFC 3161 time stamp server. Note: An error is generated if `/td` isn't provided while time stamping.|
 |`/tp` *index*|Time stamps the signature at *index*.|
-|`/tr` *URL*|Specifies the URL of the RFC 3161 timestamp server. The file being time stamped must have previously been signed. Either the `/tr` or the `/t` option is required.|
+|`/tr` *URL*|Specifies the URL of the RFC 3161 time stamp server. The file being time stamped must have previously been signed. Either the `/tr` or the `/t` option is required.|
 
 ## Verify command options
 
@@ -198,7 +198,7 @@ The following command time stamps a file that has already been digitally signed.
 signtool timestamp /t http://timestamp.digicert.com MyFile.exe
 ```
 
-The following command time stamps a file using an RFC 3161 timestamp server.
+The following command time stamps a file using an RFC 3161 time stamp server.
 
 ```console
 signtool timestamp /tr http://timestamp.digicert.com /td SHA256 MyFile.exe
