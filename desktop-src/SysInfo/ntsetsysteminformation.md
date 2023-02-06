@@ -34,7 +34,7 @@ NTAPI NtSetSystemInformation (
 ### SystemInformationClass
 
 One of the values enumerated in SYSTEM_INFORMATION_CLASS, which indicate the
-kind of system information to be retrieved. For information about this enumeration, see [NtQuerySystemInformation](/windows/win32/api/winternl/nf-winternl-ntquerysysteminformation). **NtSetSystemInformation** only supports a subset of the information classes listed.
+kind of system information to be set. For information about this enumeration, see [NtQuerySystemInformation](/windows/win32/api/winternl/nf-winternl-ntquerysysteminformation). **NtSetSystemInformation** only supports a subset of the information classes listed.
 
 ### SystemInformation
 
