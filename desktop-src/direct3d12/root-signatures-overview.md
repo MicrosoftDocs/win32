@@ -36,7 +36,7 @@ The contents of the root signature (the descriptor tables, root constants and ro
 
 Ideally, there are groups of Pipeline State Objects (PSOs) that share the same root signature. After a root signature is set on the pipeline, all the bindings that it defines (descriptor tables, descriptors, constants) can each be individually set or changed, including inheritance into bundles.
 
-An app can make its own tradeoff between how many descriptor tables it wants verses inline descriptors (which take more space but remove an indirection) verses inline constants (which have no indirection) they want in the root signature. Applications should use the root signature as sparingly as possible, relying on application controlled memory such as heaps and descriptor heaps pointing into them to represent bulk data.
+An app can make its own tradeoff between how many descriptor tables it wants versus inline descriptors (which take more space but remove an indirection) versus inline constants (which have no indirection) they want in the root signature. Applications should use the root signature as sparingly as possible, relying on application controlled memory such as heaps and descriptor heaps pointing into them to represent bulk data.
 
 ## Related topics
 
