@@ -38,7 +38,7 @@ kind of system information to be retrieved. For information about this enumerati
 
 ### SystemInformation
 
-A pointer to a buffer thatspe cifies the new information. The
+A pointer to a buffer that specifies the new information. The
 size and structure of this information varies depending on the value of the
 *SystemInformationClass* parameter. For more information, see the description of the *SystemInformation* parameter for [NtQuerySystemInformation](/windows/win32/api/winternl/nf-winternl-ntquerysysteminformation).
 
