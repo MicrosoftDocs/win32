@@ -13,7 +13,7 @@ Wait chain traversal (WCT) allows debuggers to diagnose application hangs and de
 
 A *wait chain* is an alternating sequence of threads and synchronization objects where each thread waits for the object that follows. Each object that follows is, in turn, owned by the subsequent thread in the chain.
 
-A thread waits for a synchronization object from the time the thread requests the object until it's acquired. This *lock* is owned by a thread from the time the thread acquires it, until the thread releases it. In other words, when thread 1 is waiting for a lock that's owned by thread 2, thread 1 is *waiting* for thread 2.
+A thread waits for a synchronization object from the time the thread requests the object until it's acquired. This *lock* is owned by a thread from the time the thread acquires it, until the thread releases it. In other words, when thread 1 waits for a lock that's owned by thread 2, thread 1 is *waiting* for thread 2.
 
 WCT supports the following synchronization primitives:
 
@@ -32,7 +32,7 @@ You can't cancel synchronous sessions, and block the calling thread, until a wai
 
 Asynchronous sessions don't block the calling thread, and can be canceled by the application using the [CloseThreadWaitChainSession](/windows/desktop/api/Wct/nf-wct-closethreadwaitchainsession) function. Results from asynchronous operations are made available through a [WaitChainCallback](/windows/win32/api/wct/nc-wct-pwaitchaincallback) callback function provided by the application.
 
-For asynchronous sessions, the caller can specify a pointer to a context data structure through [GetThreadWaitChain](/windows/desktop/api/Wct/nf-wct-getthreadwaitchain). This same pointer is passed to the [WaitChainCallback](/windows/win32/api/wct/nc-wct-pwaitchaincallback) callback function).
+For asynchronous sessions, the caller can specify a pointer to a context data structure through [GetThreadWaitChain](/windows/desktop/api/Wct/nf-wct-getthreadwaitchain). This same pointer is passed to the [WaitChainCallback](/windows/win32/api/wct/nc-wct-pwaitchaincallback) callback function.
 
 The context data structure is user defined and opaque to WCT. It can be used by the application to communicate context between a WCT query and a callback function. Typically, you pass an event handle through this structure and, when the callback is executed, this event is signalled and a monitoring thread is informed that the query has been completed.
 
