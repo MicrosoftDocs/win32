@@ -85,7 +85,7 @@ The following table lists the options that can be used with the `catdb` command.
 |`/dxml` |When used with the `/dg` option, produces an XML file. The output file is: *\<Path>\\\<FileName>.dig.xml*.|
 |`/f` *SignCertFile*|Specifies the signing certificate in a file. If the file is in Personal Information Exchange (PFX) format and protected by a password, use the `/p` option to specify the password. If the file doesn't contain private keys, use the `/csp` and `/kc` options to specify the CSP and private key container name.|
 |`/fd` *alg*|Specifies the file digest algorithm to use for creating file signatures. Note: If the `/fd` option isn't specified while signing, the command generates an error.|
-|`/fd` *certHash*|Specifies the string that certHash defaults to for the algorithm used on the signing certificate. Note: If the `/fd` option isn't specified while signing, the command generates an error.|
+|`/fd certHash`| Specifying the string "certHash" causes the command to use the algorithm specified on the signing certificate. Note: If the `/fd` option isn't specified while signing, the command generates an error.|
 |`/i` *IssuerName*|Specifies the name of the issuer of the signing certificate. This value can be a substring of the entire issuer name.|
 |`/kc` *PrivKeyContainerName*|Specifies the private key container name.|
 |`/n` *SubjectName*|Specifies the name of the subject of the signing certificate. This value can be a substring of the entire subject name.|
