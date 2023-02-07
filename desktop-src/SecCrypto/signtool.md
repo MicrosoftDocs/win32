@@ -70,7 +70,7 @@ The following table lists the options that can be used with the `catdb` command.
 
 |Sign command option|Description|
 |----|----|
-|`/a`|Automatically selects the best signing certificate. SignTool finds all valid certificates that satisfy all specified conditions and select the one that is valid for the longest time. If this option isn't present, SignTool expects to find only one valid signing certificate.|
+|`/a`|Automatically selects the best signing certificate. SignTool finds all valid certificates that satisfy all specified conditions and selects the one that is valid for the longest time. If this option isn't present, SignTool expects to find only one valid signing certificate.|
 |`/ac` *file*|Adds another certificate from *file* to the signature block.|
 |`/as`|Appends this signature. If no primary signature exists, this signature is made the primary signature instead.|
 |`/c` *CertTemplateName*|Specifies the Certificate Template Name (a Microsoft extension) for the signing certificate.|
@@ -134,7 +134,7 @@ The following table lists the options that can be used with the `timestamp` comm
 | `/hash`{*SHA1*\|*SHA256*} | Specifies an optional hash algorithm to use when searching for a file in a catalog. |
 | `/kp` | Performs the verification by using the x64 kernel-mode driver signing policy. |
 | `/ms` | Uses multiple verification semantics. This behavior is the default of a [WinVerifyTrust](/windows/desktop/api/Wintrust/nf-wintrust-winverifytrust) call. |
-| `/o` *Version* | Verifies the file by operating system version. The version parameter is of the form: \<PlatformID>:\<VerMajor>.\<VerMinor>.\<BuildNumber>. We recommend the use of the `/o` option. If `/o` isn't specified, SignTool might return unexpected results. For example, if you don't include `/o`, then system catalogs that validate correctly on an older operating system might not validate correctly on a newer operating system. |
+| `/o` *Version* | Verifies the file by operating system version. The version parameter is of the form: *\<PlatformID>:\<VerMajor>.\<VerMinor>.\<BuildNumber>*. We recommend the use of the `/o` option. If `/o` isn't specified, SignTool might return unexpected results. For example, if you don't include `/o`, then system catalogs that validate correctly on an older operating system might not validate correctly on a newer operating system. |
 | `/p7` | Verifies PKCS \#7 files. No existing policies are used for PKCS \#7 validation. SignTool checks the signature and builds a chain for the signing certificate. |
 | `/pa` | Specifies that the Default Authentication Verification Policy is used. If the `/pa` option isn't specified, SignTool uses the Windows Driver Verification Policy. This option can't be used with the `catdb` options. |
 | `/pg` *PolicyGUID* | Specifies a verification policy by GUID. The GUID corresponds to the `ActionID` of the verification policy. This option can't be used with the `catdb` options. |
