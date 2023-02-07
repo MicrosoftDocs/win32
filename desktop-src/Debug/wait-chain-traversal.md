@@ -34,7 +34,7 @@ Asynchronous sessions don't block the calling thread, and can be canceled by the
 
 For asynchronous sessions, the caller can specify a pointer to a context data structure through [GetThreadWaitChain](/windows/desktop/api/Wct/nf-wct-getthreadwaitchain). This same pointer is passed to the [WaitChainCallback](/windows/win32/api/wct/nc-wct-pwaitchaincallback) callback function.
 
-The context data structure is user defined and opaque to WCT. It can be used by the application to communicate context between a WCT query and a callback function. Typically, you pass an event handle through this structure and, when the callback is executed, this event is signalled and a monitoring thread is informed that the query has been completed.
+The context data structure is user defined and opaque to WCT. The context data structure can be used by the application to communicate context between a WCT query and a callback function. Typically, you pass an event handle through this structure and, when the callback is executed, this event is signalled and a monitoring thread is informed that the query has been completed.
 
 For an example of wait chain traversal, see [Using WCT](using-wct.md).
 
