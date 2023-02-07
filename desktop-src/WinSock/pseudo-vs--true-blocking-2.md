@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Pseudo Blocking and True Blocking
 
-In 16 Windows environments, true blocking is not supported by the operating system; therefore, a blocking operation that cannot be completed immediately is handled as follows:
+In 16-bit Windows environments, true blocking is not supported by the operating system; therefore, a blocking operation that cannot be completed immediately is handled as follows:
 
 -   The service provider initiates the operation, and then enters a loop during which it dispatches any Windows messages (yielding the processor to another thread if necessary)
 -   It then checks for the completion of the Windows Sockets function.
