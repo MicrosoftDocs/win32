@@ -8,7 +8,7 @@ ms.date: 11/02/2018
 
 # Windows Desktop Application Program
 
-You can get detailed telemetry data and analytics reports that let you see how your Windows desktop applications are doing through the new Windows Desktop Application Program.
+You can get detailed telemetry data and analytics reports that let you see how your Windows desktop applications are doing through the new Windows Desktop Application Program. To view these reports, navigate to Partner Center > [Insights dashboard](https://partner.microsoft.com/dashboard/insights/analytics/overview) > Windows Desktop Applications and click on Overview.
 
 There's no charge to access this data all you need to do is [sign up](https://login.microsoftonline.com/common/oauth2/authorize?client_id=4990cffe-04e8-4e8b-808a-1175604b879f&response_mode=form_post&response_type=code+id_token&scope=openid+profile&state=OpenIdConnect.AuthenticationProperties%3deJsPaLaK4fU55nKvN21CjU6FsdJ0aPGfhsjGAZ0HR9bE6rgwHHX4izvRt_w-0VUlIF0ClCya4cVY6Uv4qTAqDrH8LTwFpjFGWVW2BAIJmAAuxBLZGTPS_DYy0wwgvTh1orWTCMvBdlOu_kF8vwNe4mjtk9JRMvYaETyspKrJi-s5Z2K7lKIPqnlFkwSU-aoot-3NxTeQ0wu6_RJ1nf_kLFatEkVAqokDSYTKkpv7zF6gA3YYriMFoC9_f2uxuXpI-STckg&nonce=637177463062493881.YjhiOTZjYTMtOTVhZS00OGM1LWI4MDItNWE5MThjMjA1ZjZmMTAyZDRiMGQtMDJhNC00ZDJmLWFkM2QtM2FjZDJkNjcxYWQy&redirect_uri=https%3a%2f%2fpartner.microsoft.com%2faad%2fauthPostGateway&resource=797f4846-ba00-4fd7-ba43-dac1f8f63013&mkt=en-US) and accept the [Windows Desktop Application Program Agreement](https://go.microsoft.com/fwlink/?linkid=853677), then upload a signed file using the same certificate you used to sign your application executable files.
 
