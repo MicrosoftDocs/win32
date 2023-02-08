@@ -95,6 +95,15 @@ For Universal Windows Platform apps running on Xbox One game consoles, realtime 
 | DTS Headphone:X (Headphones) | 17 (8.1.4.4)        | 16                                        | 32                                      | NA |
 | Windows Sonic for Headphones | 17 (8.1.4.4)        | 15                                        | 112                                      | 31 |
 
+Starting with GDK build 2303, the resource limits on Xbox are updated to the following values:
+
+| Format | Max Static Objects (Channel Bed) | Max Dynamic Objects <br> Xbox Series X/S | Max Dynamic Objects <br>Xbox Series X/S ERA | Max Dynamic <br>Xbox One, System OS apps & ERA |
+|---------------|----------------|-----------------|-----------------|------------------|
+| Dolby Atmos home theater (HDMI) | 12 (7.1.4)      | 20    |  20   |   20  |
+| DTS:X for home theater (HDMI)   | 17 (8.1.4.4)    | 20    |  16   | 16    |
+| Dolby Atmos (Headphones)        | 17 (8.1.4.4)    | 128   |  16   | 16    |
+| DTS Headphone:X (Headphones)    | 17 (8.1.4.4)    | 200   |  16   | 16    |
+| Windows Sonic (Headphones)      | 17 (8.1.4.4)    | 220   |  15   | 15    |
 
 Apps should also consider the following resource implications:
 
