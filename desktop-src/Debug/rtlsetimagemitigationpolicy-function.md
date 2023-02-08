@@ -39,18 +39,18 @@ The name of the image whose mitigation policy is set. If *ImagePathName* is NULL
 
 The mitigation policy that is to be set. This parameter supports the following enumeration values:
 
-| Field name | Value |
-|------------|-------|
-| ImageUserShadowStackPolicy | 15 |
+| Field name | Value | Description |
+|------------|-------|-------------|
+| ImageUserShadowStackPolicy | 15 |  |
 
 ### Flags
 
 Flags that control the behavior of the set operation. Supported flags for this parameter include:
 
-| Flag | Value |
-|------|-------|
-| MITIGATION_POLICY_FLAG_RESET_VALUE | 0x0 |
-| MITIGATION_POLICY_FLAG_USE_AUDIT_POLICY | 0x8 |
+| Flag | Value | Description |
+|------|-------|-------------|
+| MITIGATION_POLICY_FLAG_RESET_VALUE | 0x0 |  |
+| MITIGATION_POLICY_FLAG_USE_AUDIT_POLICY | 0x8 |  |
 
 ### Buffer
 
