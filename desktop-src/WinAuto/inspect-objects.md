@@ -27,7 +27,7 @@ Inspect is installed as part of the overall set of tools in the Windows Software
 > [!NOTE]
 > For older versions of the Windows SDK, see the [Windows SDK and emulator archive](https://developer.microsoft.com/en-us/windows/downloads/sdk-archive/).
 
-*Inspect.exe* is located in the *\\bin\\<version>\\<platform>* folder of the SDK installation path. You don't typically need to run it as administrator.
+*Inspect.exe* is located in the *\\bin\\\<version>\\\<platform>* folder of the SDK installation path. You don't typically need to run it as administrator.
 
 ## The Inspect window
 
