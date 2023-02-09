@@ -71,9 +71,7 @@ To configure property settings, follow these steps:
 4. To view properties that the UI element might not support, select **Display unsupported properties**.
 5. Select **OK** to save your changes.
 
-To configure viewing options, follow these steps:
-
-- In the **Options** menu or in the toolbar, you can select the following viewing options.
+To configure viewing options, in the **Options** menu or in the toolbar, you can select the following viewing options.
 
 | When this option is selected | **Inspect** takes this action                                        |
 |------------------------------|----------------------------------------------------------------------|
