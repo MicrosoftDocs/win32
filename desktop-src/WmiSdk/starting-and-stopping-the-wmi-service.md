@@ -12,7 +12,7 @@ api_type:
 api_location: 
 ---
 
-# Starting and stopping the WMI service
+# Starting and stopping WMI service
 
 Windows Management Instrumentation (WMI) runs as a service with the display name **Windows Management Instrumentation** and the service name **winmgmt**. WMI runs automatically at system startup under the *LocalSystem* account. If WMI isn't running, it automatically starts when the first management application or script requests connection to a WMI namespace.
 
