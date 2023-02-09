@@ -1053,7 +1053,7 @@
   - name: "Attributes"
     href: attributes.md
     items: 
-    - name: "All Attributes"
+    - name: "All attributes"
       href: attributes-all.md
       items: 
       - name: "Account-Expires"

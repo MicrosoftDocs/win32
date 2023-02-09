@@ -38,7 +38,7 @@ These switches are identical in their functionality. They specify the codeless p
 
 ## Remarks
 
-Using the **/robust** switch generates additional information that allows the Network Data Representation (NDR) engine to perform run-time error checking on correlated arguments in dynamic arrays, unions, and in [**out**](out-idl.md) interface pointers in DCOM applications. The **/robust** switch is only available under WindowsÂ 2000 and later versions of Windows.
+Using the **/robust** switch generates additional information that allows the Network Data Representation (NDR) engine to perform run-time error checking on correlated arguments in dynamic arrays, unions, and in [**out**](out-idl.md) interface pointers in DCOM applications. The **/robust** switch is only available under Windows 2000 and later versions of Windows.
 
 A correlated argument is an argument that uses any of the attributes that allow the size of a data object to be determined at run time: [**size\_is**](size-is.md), [**length\_is**](length-is.md), [**first\_is**](first-is.md), [**last\_is**](last-is.md), [**max\_is**](max-is.md), [**switch\_is**](switch-is.md), and [**iid\_is**](iid-is.md). In accordance with the OSF-DCE specification for the wire representation, this correlated argument appears in two different places. For example, consider a typical usage of the **size\_is** attribute:
 

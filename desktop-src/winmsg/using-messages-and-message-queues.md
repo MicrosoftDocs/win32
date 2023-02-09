@@ -23,8 +23,7 @@ Because the system directs messages to individual windows in an application, a t
 
 You create a message loop by using the [**GetMessage**](/windows/win32/api/winuser/nf-winuser-getmessage) and [**DispatchMessage**](/windows/win32/api/winuser/nf-winuser-dispatchmessage) functions. If your application must obtain character input from the user, include the [**TranslateMessage**](/windows/win32/api/winuser/nf-winuser-translatemessage) function in the loop. **TranslateMessage** translates virtual-key messages into character messages. The following example shows the message loop in the [**WinMain**](/windows/win32/api/winbase/nf-winbase-winmain) function of a simple Windows-based application.
 
-
-```
+```cpp
 HINSTANCE hinst; 
 HWND hwndMain; 
  
@@ -98,12 +97,9 @@ int PASCAL WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance,
 } 
 ```
 
-
-
 The following example shows a message loop for a thread that uses accelerators and displays a modeless dialog box. When [**TranslateAccelerator**](/windows/win32/api/winuser/nf-winuser-translateacceleratora) or [**IsDialogMessage**](/windows/win32/api/winuser/nf-winuser-isdialogmessagea) returns **TRUE** (indicating that the message has been processed), [**TranslateMessage**](/windows/win32/api/winuser/nf-winuser-translatemessage) and [**DispatchMessage**](/windows/win32/api/winuser/nf-winuser-dispatchmessage) are not called. The reason for this is that **TranslateAccelerator** and **IsDialogMessage** perform all necessary translating and dispatching of messages.
 
-
-```
+```cpp
 HWND hwndMain; 
 HWND hwndDlgModeless = NULL; 
 MSG msg;
@@ -133,8 +129,6 @@ while( (bRet = GetMessage( &msg, NULL, 0, 0 )) != 0)
 } 
 ```
 
-
-
 ## Examining a Message Queue
 
 Occasionally, an application needs to examine the contents of a thread's message queue from outside the thread's message loop. For example, if an application's window procedure performs a lengthy drawing operation, you may want the user to be able to interrupt the operation. Unless your application periodically examines the message queue during the operation for mouse and keyboard messages, it will not respond to user input until after the operation has completed. The reason for this is that the [**DispatchMessage**](/windows/win32/api/winuser/nf-winuser-dispatchmessage) function in the thread's message loop does not return until the window procedure finishes processing a message.
@@ -143,8 +137,7 @@ You can use the [**PeekMessage**](/windows/win32/api/winuser/nf-winuser-peekmess
 
 The following example shows how to use [**PeekMessage**](/windows/win32/api/winuser/nf-winuser-peekmessagea) to examine a message queue for mouse clicks and keyboard input during a lengthy operation.
 
-
-```
+```cpp
 HWND hwnd; 
 BOOL fDone; 
 MSG msg; 
@@ -177,8 +170,6 @@ while (!fDone)
 } 
 ```
 
-
-
 Other functions, including [**GetQueueStatus**](/windows/win32/api/winuser/nf-winuser-getqueuestatus) and [**GetInputState**](/windows/win32/api/winuser/nf-winuser-getinputstate), also allow you to examine the contents of a thread's message queue. **GetQueueStatus** returns an array of flags that indicates the types of messages in the queue; using it is the fastest way to discover whether the queue contains any messages. **GetInputState** returns **TRUE** if the queue contains mouse or keyboard messages. Both of these functions can be used to determine whether the queue contains messages that need to be processed.
 
 ## Posting a Message
@@ -192,7 +183,7 @@ You can use the [**PostThreadMessage**](/windows/win32/api/winuser/nf-winuser-po
 Use the [**PostQuitMessage**](/windows/win32/api/winuser/nf-winuser-postquitmessage) function to exit a message loop. **PostQuitMessage** posts the [**WM\_QUIT**](wm-quit.md) message to the currently executing thread. The thread's message loop terminates and returns control to the system when it encounters the **WM\_QUIT** message. An application usually calls **PostQuitMessage** in response to the [**WM\_DESTROY**](wm-destroy.md) message, as shown in the following example.
 
 
-```
+```cpp
 case WM_DESTROY: 
  
     // Perform cleanup tasks. 
@@ -212,7 +203,7 @@ A message can be sent to any window in the system; all that is required is a win
 Before processing a message that may have been sent from another thread, a window procedure should first call the [**InSendMessage**](/windows/win32/api/winuser/nf-winuser-insendmessage) function. If this function returns **TRUE**, the window procedure should call [**ReplyMessage**](/windows/win32/api/winuser/nf-winuser-replymessage) before any function that causes the thread to yield control, as shown in the following example.
 
 
-```
+```cpp
 case WM_USER + 5: 
     if (InSendMessage()) 
         ReplyMessage(TRUE); 
@@ -228,7 +219,7 @@ A number of messages can be sent to controls in a dialog box. These control mess
 Use the [**SendDlgItemMessage**](/windows/win32/api/winuser/nf-winuser-senddlgitemmessagea) function to send a message to a control, specifying the identifier of the control and the handle of the dialog box window that contains the control. The following example, taken from a dialog box procedure, copies a string from a combo box's edit control into its list box. The example uses **SendDlgItemMessage** to send a [**CB\_ADDSTRING**](../controls/cb-addstring.md) message to the combo box.
 
 
-```
+```cpp
 HWND hwndCombo; 
 int cTxtLen; 
 PSTR pszMem; 
@@ -282,9 +273,3 @@ switch (uMsg)
  
 }
 ```
-
-
-
- 
-
- 

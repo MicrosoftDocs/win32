@@ -144,6 +144,8 @@
     - name: "Event Tracing Functions"
       href: /windows/desktop/api/_etw/#functions
       items:
+      - name: "EtwEventUnregister function (ntetw.h)"
+        href: nf-ntetw-etweventunregister.md
       - name: "Event Consumer Functions (evntcons.h)"
         href: /windows/win32/api/evntcons/#functions
       - name: "Event Provider Functions (evntprov.h)"

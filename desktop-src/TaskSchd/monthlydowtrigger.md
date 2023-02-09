@@ -59,6 +59,10 @@ The time of day that the task is started is set by the [**StartBoundary**](trigg
 
 When reading or writing XML for a task, a monthly day-of-week trigger is specified using the [**ScheduleByMonthDayOfWeek**](taskschedulerschema-schedulebymonthdayofweek-calendartriggertype-element.md) element of the Task Scheduler schema.
 
+On the day that daylight savings time (DST) starts in a year, for a Pacific time zone (time shifted from 02:00 AM to 03:00 AM in 2022), any task that's scheduled to run between 02:00 AM and 02:59:59:999 AM will run at the earliest possible time that exists in that given day&mdash;that is, at 03:00 AM. This applies to all DST time zones based on the various times at which they observe DST.
+
+Consider a weekly task that's set to run every Sunday of 2022 at 02:30 AM in the Pacific time zone such that the next run time is Mar 13, 2022 02:30 AM. As 02:30 AM is a time that doesn't exist on Mar 13, 2022, the task runs at 03:00 AM instead. On other Sundays of the year, the task runs as usual at 02:30 AM.
+
 ## Requirements
 
 
