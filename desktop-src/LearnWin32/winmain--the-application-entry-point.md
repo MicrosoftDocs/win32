@@ -27,7 +27,7 @@ A *calling convention*, such as `WINAPI`, defines how a function receives parame
 
 The **WinMain** function is the same as **wWinMain**, except the command-line arguments are passed as an ANSI string. The Unicode string is preferred.
 
-You can use the ANSI **WinMain** function even if you compile your program as Unicode. To get a copy of the command-line arguments, call the [GetCommandLineA](/windows/desktop/api/processenv/nf-processenv-getcommandlinea) or [GetCommandLineW](/windows/win32/api/processenv/nf-processenv-getcommandlinew) function. This function returns all of the arguments in a single string. You can pass this string to [CommandLineToArgvW](/windows/desktop/api/shellapi/nf-shellapi-commandlinetoargvw) if you want the arguments as an `argv`-style array.
+You can use the ANSI **WinMain** function even if you compile your program as Unicode. To get a copy of the command-line arguments, call the [GetCommandLine](/windows/desktop/api/processenv/nf-processenv-getcommandlinea) function. This function returns all of the arguments in a single string. You can pass this string to [CommandLineToArgvW](/windows/desktop/api/shellapi/nf-shellapi-commandlinetoargvw) if you want the arguments as an `argv`-style array.
 
 The compiler invokes **wWinMain** instead of the standard **main** function because the Microsoft C Runtime Library (CRT) provides an implementation of **main** that calls either **WinMain** or **wWinMain**.
 
