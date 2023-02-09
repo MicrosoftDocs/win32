@@ -65,7 +65,7 @@ The equivalent Windows Installer command line has `REBOOT=ReallySuppress` set on
 
 ### Example
 
-`msiexec /package Application.msi /norestart`.
+`msiexec /package Application.msi /norestart`
 
 ## /forcerestart
 
@@ -91,7 +91,7 @@ The equivalent Windows Installer command-line option is `/x.`
 
 ### Parameter
 
-`<Package.msi|ProductCode>`
+*\<Package.msi> | \<ProductCode>*
 
 ## /uninstall (patch)
 
@@ -99,9 +99,9 @@ Uninstall update option. Uninstalls an update patch.
 
 The equivalent Windows Installer command-line option is `/I` with `MSIPATCHREMOVE=Update1.msp | PatchGUID1[;Update2.msp | PatchGUID2]` set on the command line.
 
-### Parameter
+### Example
 
-`/package <Package.msi | ProductCode> /uninstall [;Update2.msp | PatchGUID2]`
+`msiexec /uninstall Update1.msp;PatchGUID2`
 
 ## /log
 
@@ -132,14 +132,15 @@ The equivalent Windows Installer command-line option is `/I`.
 
 ### Parameter
 
-`<Package.msi|ProductCode>`
+*\<Package.msi> | \<ProductCode>*
 
 ## /update
 
 Install patches option. Installs one or multiple patches.
 
-The equivalent Windows Installer command line has `PATCH = [msipatch.msp]<;PatchGuid2>` set on the command line.
+The equivalent Windows Installer command line has `PATCH = [<msipatch>.msp]<;PatchGuid>` set on the command line.
 
 ### Parameter
 
-`[;Update2.msp]`
+*\<Patch>.msp | \<PatchGUID>*
+
