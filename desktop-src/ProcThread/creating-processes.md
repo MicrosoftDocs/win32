@@ -8,7 +8,7 @@ ms.date: 02/08/2023
 
 # Create processes
 
-The [CreateProcess](/windows/win32/api/processthreadsapi/nf-processthreadsapi-createprocessa) function creates a new process that runs independently of the creating process. However, for simplicity, the relationship is called a parent-child relationship.
+The [CreateProcess](/windows/win32/api/processthreadsapi/nf-processthreadsapi-createprocessa) function creates a new process that runs independently of the creating process. For simplicity, this relationship is called a parent-child relationship.
 
 The following code demonstrates how to create a process.
 
