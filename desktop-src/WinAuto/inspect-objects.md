@@ -1,6 +1,6 @@
 ---
 title: Accessibility tools - Inspect
-description: Learn how to use Inspect, which is a Windows-based tool that enables you select any UI element and view that element's accessibility data.
+description: Learn how to use Inspect, a Windows-based tool that can select any UI element and view it's accessibility data.
 ms.assetid: 38edacbc-cf24-4818-b029-561b21e3704c
 keywords:
 - Inspect Tool
@@ -14,13 +14,13 @@ ms.date: 02/09/2023
 > [!IMPORTANT]
 > Inspect is a legacy tool. We recommend [Accessibility Insights](https://accessibilityinsights.io/) instead.
 
-Inspect (*Inspect.exe*) is a Windows-based tool that enables you select any UI element and view that element's accessibility data. You can view Microsoft UI Automation properties and control patterns. You can view Microsoft Active Accessibility (MSAA) properties. Inspect also enables you to test the navigational structure of the automation elements in the UI Automation tree, and the accessible objects in the Microsoft Active Accessibility hierarchy.
+Inspect (*Inspect.exe*) is a Windows-based tool that can select any UI element and view it's accessibility data. You can view both Microsoft UI Automation properties and control patterns and Microsoft Active Accessibility (MSAA) properties. Inspect can also test the navigational structure of the automation elements in the UI Automation tree and the accessible objects in the Microsoft Active Accessibility hierarchy.
 
 ## Requirements
 
 To examine UI Automation, UI Automation must be present on the system. For more information, see [Run-Time Requirements](entry-uiauto-win32.md#run-time-requirements).
 
-Inspect is installed as part of the overall set of tools in the Windows Software Development Kit (SDK). It's not distributed as a separate download. The Windows SDK includes all of the accessibility-related tools documented in this section.
+Inspect is installed as one of the tools in the Windows Software Development Kit (SDK), which includes all of the accessibility-related tools documented in this section. Inspect is not distributed as a separate download. 
 
 [Download the Windows SDK](https://developer.microsoft.com/en-us/windows/downloads/windows-sdk/).
 
@@ -41,11 +41,11 @@ The **Inspect** window has several main parts:
 
 The commands available in the menu bar are also available in the toolbar. The following image shows Inspect querying the UI Automation properties of the **Edit** menu element in Notepad.
 
-![Screenshot shows the user interface for the Inspect tool.](images/inspect.png)
+![Screenshot that shows the user interface of the Inspect tool.](images/inspect.png)
 
 ## Using Inspect
 
-When you start Inspect, the tree view shows the location of the currently selected UI element in the element hierarchy. The data view shows the property information for the selected UI element. You can navigate the UI to view accessibility information about every element in the UI. By default, Inspect tracks the keyboard or mouse focus. As focus changes, the data view updates with the property information of the element with focus.
+When you start Inspect, the tree view shows the location of the currently selected UI element in the element hierarchy while the data view shows the property information for the selected UI element. You can navigate the UI to view accessibility information about every element in the UI. By default, Inspect tracks the keyboard or mouse focus. As focus changes, the data view updates with the property information of the element with focus.
 
 To navigate among UI elements, you can use any of the following elements:
 
@@ -71,7 +71,7 @@ To configure property settings, follow these steps:
 4. To view properties that the UI element might not support, select **Display unsupported properties**.
 5. Select **OK** to save your changes.
 
-To configure viewing options, in the **Options** menu or in the toolbar, you can select the following viewing options.
+To configure viewing options, you can select the following viewing options in the **Options** menu or in the toolbar.
 
 | When this option is selected | **Inspect** takes this action                                        |
 |------------------------------|----------------------------------------------------------------------|
@@ -110,7 +110,7 @@ To verify accessibility navigation, follow these steps:
 
 ## Interact with UI elements
 
-Windows Automation exposes methods that allow assistive technology products to interact with a UI element as if the mouse or keyboard were being used. For example, the product interacts to select a button. The Inspect **Action** menu lets testers invoke Windows Automation methods on an element. For example, `Invoke.Invoke` calls the [IUIAutomationInvokePattern::Invoke](/windows/desktop/api/UIAutomationClient/nf-uiautomationclient-iuiautomationinvokepattern-invoke) method.
+Windows Automation exposes methods that allow assistive technology products to interact with a UI element as if the mouse or keyboard were being used, such as pressing a button. The Inspect **Action** menu lets testers invoke Windows Automation methods on an element, such as using `Invoke.Invoke` to call the [IUIAutomationInvokePattern::Invoke](/windows/desktop/api/UIAutomationClient/nf-uiautomationclient-iuiautomationinvokepattern-invoke) method.
 
 To interact with UI elements, follow these steps:
 
