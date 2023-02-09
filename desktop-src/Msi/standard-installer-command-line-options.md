@@ -91,7 +91,7 @@ The equivalent Windows Installer command-line option is `/x.`
 
 ### Parameter
 
-*\<Package.msi> | \<ProductCode>*
+*\<Package>.msi | \<ProductCode>*
 
 ## /uninstall (patch)
 
@@ -132,7 +132,7 @@ The equivalent Windows Installer command-line option is `/I`.
 
 ### Parameter
 
-*\<Package.msi> | \<ProductCode>*
+*\<Package>.msi | \<ProductCode>*
 
 ## /update
 
