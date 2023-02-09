@@ -821,6 +821,8 @@
       href: /windows/win32/api/Winternl/nf-winternl-rtlfreeoemstring
     - name: "RtlFreeUnicodeString"
       href: /windows/win32/api/Winternl/nf-winternl-rtlfreeunicodestring
+    - name: "RtlGetDeviceFamilyInfoEnum"
+      href: rtlgetdevicefamilyinfoenum.md
     - name: "RtlGetVersion"
       href: rtlgetversion.md
     - name: "RtlInitString"

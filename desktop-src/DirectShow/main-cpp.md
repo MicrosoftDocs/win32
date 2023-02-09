@@ -231,6 +231,7 @@ void OnFileOpen(HWND hwnd)
 void NotifyError(HWND hwnd, PCWSTR pszMessage)
 {
     MessageBox(hwnd, pszMessage, TEXT("Error"), MB_OK | MB_ICONERROR);
+}
 ```
 
 

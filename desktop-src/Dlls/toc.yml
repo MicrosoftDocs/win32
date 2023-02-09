@@ -1,50 +1,50 @@
-- name: "Dynamic-Link Libraries"
+- name: "Dynamic-link libraries"
   href: dynamic-link-libraries.md
   items: 
-  - name: "About Dynamic-Link Libraries"
+  - name: "About dynamic-link libraries"
     href: about-dynamic-link-libraries.md
     items: 
-    - name: "Advantages of Dynamic Linking"
+    - name: "Advantages of dynamic linking"
       href: advantages-of-dynamic-linking.md
-    - name: "Dynamic-Link Library Creation"
+    - name: "Dynamic-link library creation"
       href: dynamic-link-library-creation.md
-    - name: "Dynamic-Link Library Entry-Point Function"
+    - name: "Dynamic-link library entry-point function"
       href: dynamic-link-library-entry-point-function.md
-    - name: "Load-Time Dynamic Linking"
+    - name: "Load-time dynamic linking"
       href: load-time-dynamic-linking.md
-    - name: "Run-Time Dynamic Linking"
+    - name: "Run-time dynamic linking"
       href: run-time-dynamic-linking.md
-    - name: "Dynamic-Link Library Search Order"
+    - name: "Dynamic-link library search order"
       href: dynamic-link-library-search-order.md
-    - name: "Dynamic-Link Library Data"
+    - name: "Dynamic-link library data"
       href: dynamic-link-library-data.md
-    - name: "Dynamic-Link Library Redirection"
+    - name: "Dynamic-link library redirection"
       href: dynamic-link-library-redirection.md
-    - name: "Dynamic-Link Library Updates"
+    - name: "Dynamic-link library updates"
       href: dynamic-link-library-updates.md
-    - name: "Dynamic-Link Library Security"
+    - name: "Dynamic-link library security"
       href: dynamic-link-library-security.md
-    - name: "Secure Boot and AppInit DLLs"
+    - name: "Secure boot and AppInit DLLs"
       href: secure-boot-and-appinit-dlls.md
-    - name: "Dynamic-Link Library Best Practices"
+    - name: "Dynamic-link library best practices"
       href: dynamic-link-library-best-practices.md
-  - name: "Using Dynamic-Link Libraries"
+  - name: "Using dynamic-link libraries"
     href: using-dynamic-link-libraries.md
     items: 
-    - name: "Creating a Simple Dynamic-Link Library"
+    - name: "Creating a simple dynamic-link library"
       href: creating-a-simple-dynamic-link-library.md
-    - name: "Using Load-Time Dynamic Linking"
+    - name: "Using load-time dynamic linking"
       href: using-load-time-dynamic-linking.md
-    - name: "Using Run-Time Dynamic Linking"
+    - name: "Using run-time dynamic linking"
       href: using-run-time-dynamic-linking.md
-    - name: "Using Shared Memory in a Dynamic-Link Library"
+    - name: "Using shared memory in a dynamic-link library"
       href: using-shared-memory-in-a-dynamic-link-library.md
-    - name: "Using Thread Local Storage in a Dynamic-Link Library"
+    - name: "Using thread local storage in a dynamic-link library"
       href: using-thread-local-storage-in-a-dynamic-link-library.md
-  - name: "Dynamic-Link Library Reference"
+  - name: "Dynamic-link library reference"
     href: dynamic-link-library-reference.md
     items: 
-    - name: "Dynamic-Link Library Functions"
+    - name: "Dynamic-link library functions"
       href: dynamic-link-library-functions.md
       items: 
       - name: "AddDllDirectory"
