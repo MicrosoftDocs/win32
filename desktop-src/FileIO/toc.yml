@@ -552,7 +552,7 @@
       - name: "File and Directory Linking"
         href: file-and-directory-linking.md
         items: 
-        - name: "Hard Links and Junctions"
+        - name: "Hard links and junctions"
           href: hard-links-and-junctions.md
         - name: "Distributed Link Tracking and Object Identifiers"
           href: distributed-link-tracking-and-object-identifiers.md
