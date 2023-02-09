@@ -405,7 +405,7 @@
   - name: "Using Winsock"
     href: using-winsock.md
     items: 
-    - name: "Getting Started With Winsock"
+    - name: "Getting started with Winsock"
       href: getting-started-with-winsock.md
       items: 
       - name: "About Servers and Clients"
