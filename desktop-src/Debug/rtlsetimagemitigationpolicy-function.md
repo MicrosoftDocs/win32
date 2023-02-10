@@ -41,7 +41,7 @@ The mitigation policy that is to be set. This parameter supports the following e
 
 | Field name | Value | Description |
 |------------|-------|-------------|
-| ImageUserShadowStackPolicy | 15 |  |
+| ImageUserShadowStackPolicy | 15 | The policy regarding user-mode Hardware-enforced Stack Protection for the process. The [SetProcessMitigationPolicy](/windows/win32/api/processthreadsapi/nf-processthreadsapi-setprocessmitigationpolicy) function sets the policy flags for user-mode Hardware-enforced Stack Protection when a [PROCESS_MITIGATION_USER_SHADOW_STACK_POLICY](/windows/win32/api/winnt/ns-winnt-process_mitigation_user_shadow_stack_policy) structure is provided. |
 
 ### Flags
 
@@ -49,8 +49,8 @@ Flags that control the behavior of the set operation. Supported flags for this p
 
 | Flag | Value | Description |
 |------|-------|-------------|
-| MITIGATION_POLICY_FLAG_RESET_VALUE | 0x0 |  |
-| MITIGATION_POLICY_FLAG_USE_AUDIT_POLICY | 0x8 |  |
+| MITIGATION_POLICY_FLAG_RESET_VALUE | 0x0 | Resets the policy value to the default for the system |
+| MITIGATION_POLICY_FLAG_USE_AUDIT_POLICY | 0x8 | Used to get/set the audit policy for the given mitigation |
 
 ### Buffer
 
