@@ -29,9 +29,9 @@ wc.lpszClassName = CLASS_NAME;
 
 You must set the following structure members:
 
-- *lpfnWndProc* is a pointer to an application-defined function called the *window procedure* or *window proc*. The window procedure defines most of the behavior of the window. For now, this value is a forward declaration of a function. For more information, see [Writing the Window procedure](writing-the-window-procedure.md).
-- *hInstance* is the handle to the application instance. Get this value from the *hInstance* parameter of `wWinMain`.
-- *lpszClassName* is a string that identifies the window class.
+- **lpfnWndProc** is a pointer to an application-defined function called the *window procedure* or *window proc*. The window procedure defines most of the behavior of the window. For now, this value is a forward declaration of a function. For more information, see [Writing the Window procedure](writing-the-window-procedure.md).
+- **hInstance** is the handle to the application instance. Get this value from the *hInstance* parameter of `wWinMain`.
+- **lpszClassName** is a string that identifies the window class.
 
 Class names are local to the current process, so the name only needs to be unique within the process. However, the standard Windows controls also have classes. If you use any of those controls, you must pick class names that don't conflict with the control class names. For example, the window class for the button control is named *Button*.
 
@@ -72,7 +72,7 @@ if (hwnd == NULL)
 For detailed parameter descriptions, see [**CreateWindowEx**](/windows/desktop/api/winuser/nf-winuser-createwindowexa). Here's a quick summary:
 
 - The first parameter lets you specify some optional behaviors for the window, for example, transparent windows. Set this parameter to zero for the default behaviors.
-- **CLASS_NAME** is the name of the window class. This name defines the type of window to create.
+- `CLASS_NAME` is the name of the window class. This name defines the type of window to create.
 - The window text is used in different ways by different types of windows. If the window has a title bar, the text is displayed in the title bar.
 - The window style is a set of flags that define some of the look and feel of a window. The constant **WS\_OVERLAPPEDWINDOW** is actually several flags combined with a bitwise `OR`. Together these flags give the window a title bar, a border, a system menu, and **Minimize** and **Maximize** buttons. This set of flags is the most common style for a top-level application window.
 - For position and size, the constant **CW_USEDEFAULT** means to use default values.
