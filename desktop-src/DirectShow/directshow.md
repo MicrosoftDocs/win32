@@ -15,8 +15,6 @@ The DirectShow headers, libraries, SDK tools, and samples are available in the [
 > [!Note]  
 > Previous versions of the DirectShow SDK were included in the DirectX SDK. The last version of the DirectX SDK to include DirectShow was DirectX 9.0 SDK Update - (February 2005) Extras. After this version, DirectShow was moved to the Windows SDK. To get the latest version of the DirectShow headers, libraries, and samples, download the Windows SDK.
 
- 
-
 The DirectShow documentation is divided into the following sections:
 
 -   [Introduction to DirectShow](introduction-to-directshow.md)
@@ -31,11 +29,4 @@ The DirectShow documentation is divided into the following sections:
 
 ## Related topics
 
-<dl> <dt>
-
-[Media Technologies for Windows](/previous-versions/bg125389(v=msdn.10))
-</dt> </dl>
-
- 
-
- 
+* [Media Technologies for Windows](/previous-versions/bg125389(v=msdn.10))
