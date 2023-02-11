@@ -12,7 +12,7 @@ Unsigned integer add with carry.
 
 
 
-| uaddc dest0\[.mask\], dest1\[.mask\], src0\[.swizzle\], src1\[.swizzle\] |
+| uaddc dst0\[.mask\], dst1\[.mask\], src0\[.swizzle\], src1\[.swizzle\] |
 |--------------------------------------------------------------------------|
 
 
@@ -23,8 +23,8 @@ Unsigned integer add with carry.
 
 | Item                                                               | Description                                            |
 |--------------------------------------------------------------------|--------------------------------------------------------|
-| <span id="dest0"></span><span id="DEST0"></span>*dest0*<br/> | \[in\] Address of the result.<br/>               |
-| <span id="dest1"></span><span id="DEST1"></span>*dest1*<br/> | \[in\] 1 if carry is produced. Otherwise 0.<br/> |
+| <span id="dst0"></span><span id="dst0"></span>*dst0*<br/> | \[in\] Address of the result.<br/>               |
+| <span id="dst1"></span><span id="dst1"></span>*dst1*<br/> | \[in\] 1 if carry is produced. Otherwise 0.<br/> |
 | <span id="src0"></span><span id="SRC0"></span>*src0*<br/>    | \[in\] 32-bit operand to be added.<br/>          |
 | <span id="src1"></span><span id="SRC1"></span>*src1*<br/>    | \[in\] 32-bit operand to be added.<br/>          |
 
@@ -34,7 +34,7 @@ Unsigned integer add with carry.
 
 ## Remarks
 
-*dest1* can be NULL if the carry is not needed.
+*dst1* can be NULL if the carry is not needed.
 
 Use this instruction for high precision arithmetic.
 

@@ -12,7 +12,7 @@ Same as [**gather4**](gather4--sm5---asm-.md), except this instrution performs c
 
 
 
-| gather4\_c\[\_aoffimmi(u,v)\] dest\[.mask\], srcAddress\[.swizzle\], srcResource\[.swizzle\], srcSampler\[.R\], srcReferenceValue |
+| gather4\_c\[\_aoffimmi(u,v)\] dest\[.mask\], srcAddress\[.swizzle\], srcResource\[.swizzle\], srcSampler\[.r\], srcReferenceValue |
 |-----------------------------------------------------------------------------------------------------------------------------------|
 
 

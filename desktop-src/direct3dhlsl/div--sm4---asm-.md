@@ -12,7 +12,7 @@ Component-wise divide.
 
 
 
-| div\[\_sat\] dest\[.mask\], \[-\]src0\[\_abs\]\[.swizzle\] \[-\]src1\[\_abs\]\[.swizzle\] |
+| div\[\_sat\] dest\[.mask\], \[-\]src0\[\_abs\]\[.swizzle\], \[-\]src1\[\_abs\]\[.swizzle\] |
 |-------------------------------------------------------------------------------------------|
 
 

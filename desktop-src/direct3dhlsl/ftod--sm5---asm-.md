@@ -24,7 +24,7 @@ Component-wise conversion from single-precision floating-point data to double-pr
 | Item                                                            | Description                                          |
 |-----------------------------------------------------------------|------------------------------------------------------|
 | <span id="dest"></span><span id="DEST"></span>*dest*<br/> | \[in\] The address of the converted data.<br/> |
-| <span id="src0"></span><span id="SRC0"></span>*src0*<br/> | \[in\] The data to be converted.<br/>          |
+| <span id="src"></span><span id="SRC"></span>*src*<br/> | \[in\] The data to be converted.<br/>          |
 
 
 

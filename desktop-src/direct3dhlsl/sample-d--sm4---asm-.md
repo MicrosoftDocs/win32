@@ -12,7 +12,7 @@ Samples data from the specified Element/texture using the specified address and 
 
 
 
-| ssample\_d\[\_aoffimmi(u,v,w)\] dest\[.mask\], srcAddress\[.swizzle\], srcResource\[.swizzle\], srcSampler, srcXDerivatives\[.swizzle\], srcYDerivatives\[.swizzle\] |
+| sample\_d\[\_aoffimmi(u,v,w)\] dest\[.mask\], srcAddress\[.swizzle\], srcResource\[.swizzle\], srcSampler, srcXDerivatives\[.swizzle\], srcYDerivatives\[.swizzle\] |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 
 

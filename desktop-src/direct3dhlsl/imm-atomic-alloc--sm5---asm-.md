@@ -12,7 +12,7 @@ Atomically increment the hidden 32-bit counter stored with a Count or Append uno
 
 
 
-| imm\_atomic\_alloc dst0\[.single\_component\_mask\], dstUAV |
+| imm\_atomic\_alloc dest\[.single\_component\_mask\], dstUAV |
 |-------------------------------------------------------------|
 
 
@@ -23,7 +23,7 @@ Atomically increment the hidden 32-bit counter stored with a Count or Append uno
 
 | Item                                                                                           | Description                                                               |
 |------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------|
-| <span id="dst0"></span><span id="DST0"></span>*dst0*<br/>                                | \[in\] Contains the returned counter value.<br/>                    |
+| <span id="dest"></span><span id="DEST"></span>*dest*<br/>                                | \[in\] Contains the returned counter value.<br/>                    |
 | <span id="dstUAV"></span><span id="dstuav"></span><span id="DSTUAV"></span>*dstUAV*<br/> | \[in\] A Structured Buffer UAV with the Count or Append flag. <br/> |
 
 
@@ -34,7 +34,7 @@ Atomically increment the hidden 32-bit counter stored with a Count or Append uno
 
 There is a hidden unsigned 32-bit integer counter value associated with each Count or Append Buffer view which is initialized when the view is bound to the pipeline, including the option to keep the previous value.
 
-This instruction does an atomic increment of the counter value, returning the original to *dst0*.
+This instruction does an atomic increment of the counter value, returning the original to *dest*.
 
 For an Append UAV, the returned value is only valid for the duration of the shader invocation. after that the implementation may rearrange the memory layout. Any memory addressing based on the returned value must be limited to the shader invocation.
 

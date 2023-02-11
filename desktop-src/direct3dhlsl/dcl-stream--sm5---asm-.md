@@ -12,7 +12,7 @@ Declare a geometry shader output stream.
 
 
 
-| dcl\_stream m\# |
+| dcl\_stream mN |
 |-----------------|
 
 
@@ -23,7 +23,7 @@ Declare a geometry shader output stream.
 
 | Item                                                       | Description                             |
 |------------------------------------------------------------|-----------------------------------------|
-| <span id="m_"></span><span id="M_"></span>*m\#*<br/> | \[in\] Stream 0..3 (m0..m3).<br/> |
+| <span id="m_"></span><span id="M_"></span>*mN*<br/> | \[in\] Stream where *N* is 0..3 (m0..m3).<br/> |
 
 
 

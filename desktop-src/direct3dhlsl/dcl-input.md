@@ -17,7 +17,7 @@ Declares a shader-input register.
 
 
 
-| dcl\_input v*N\[.mask\]\[, interpolationMode\]* |
+| dcl\_input vN\[.mask\]\[, interpolationMode\] |
 |-------------------------------------------------|
 
 
@@ -29,7 +29,7 @@ Declares a shader-input register.
 
 | Item | Description | 
 |------|-------------|
-| <span id="vN_.mask_"></span><span id="vn_.mask_"></span><span id="VN_.MASK_"></span>v<em>N[.mask]</em><br /> | [in] A vertex data register. <br /><ul><li><em>N</em> is an integer that identifies the register number.</li><li><em>[.mask]</em> is an optional component mask (.xyzw) that specifies which of the register components to use.</li></ul> | 
+| <span id="vN"></span><span id="vn"></span><span id="VN"></span>v*N*<br /> | [in] A vertex data register. <br /><ul><li><em>N</em> is an integer that identifies the register number.</li><li><em>[.mask]</em> is an optional component mask (.xyzw) that specifies which of the register components to use.</li></ul> | 
 | <span id="interpolationMode"></span><span id="interpolationmode"></span><span id="INTERPOLATIONMODE"></span><em>interpolationMode</em><br /> | [in] Optional. The interpolation mode, which is only honored on pixel shader input registers. It can be one of the following values: <br /><ul><li>constant - do not interpolate between register values.</li><li>linear - interpolate linearly between register values.</li><li>linearCentroid - same as linear but centroid clamped when multisampling.</li><li>linearNoperspective - same as linear but with no perspective correction.</li><li>linearNoperspectiveCentroid - same as linear, centroid clamped when multisampling, no perspective correction.</li></ul> | 
 
 

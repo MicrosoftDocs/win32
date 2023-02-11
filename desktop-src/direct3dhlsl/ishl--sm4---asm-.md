@@ -12,7 +12,7 @@ Shift left.
 
 
 
-| dest\[.mask\], src0\[.swizzle\], src1.select\_component |
+| ishl dest\[.mask\], src0\[.swizzle\], src1.select\_component |
 |---------------------------------------------------------|
 
 
