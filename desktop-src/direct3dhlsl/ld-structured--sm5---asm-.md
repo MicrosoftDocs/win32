@@ -12,7 +12,7 @@ Random-access read of 1-4 32bit components from a structured buffer.
 
 
 
-| ld\_structured dest\[.mask\], srcAddress\[.select\_component\], srcByteOffset\[.select\_component\], src\[.swizzle\] |
+| ld\_structured dest\[.mask\], srcAddress\[.select\_component\], srcByteOffset\[.select\_component\], src0\[.swizzle\] |
 |-------------------------------------------------------------------------------------------------------------------------|
 
 
@@ -26,7 +26,7 @@ Random-access read of 1-4 32bit components from a structured buffer.
 | <span id="dest"></span><span id="DEST"></span>*dest*<br/>                                                            | \[in\] The address of the results of the operation.<br/>                                                                                             |
 | <span id="srcAddress"></span><span id="srcaddress"></span><span id="SRCADDRESS"></span>*srcAddress*<br/>             | \[in\] Specifies the index of the structure to read.<br/>                                                                                            |
 | <span id="srcByteOffset"></span><span id="srcbyteoffset"></span><span id="SRCBYTEOFFSET"></span>*srcByteOffset*<br/> | \[in\] Specifies the byte offset in the structure to start reading from. <br/>                                                                       |
-| <span id="src"></span><span id="SRC"></span>*src*<br/>                                                            | The buffer to read from. This parameter must be a SRV (t\#), UAV (u\#). In the compute shader it can also be thread group shared memory (g\#). <br/> |
+| <span id="src0"></span><span id="SRC0"></span>*src0*<br/>                                                            | The buffer to read from. This parameter must be a SRV (t\#), UAV (u\#). In the compute shader it can also be thread group shared memory (g\#). <br/> |
 
 
 

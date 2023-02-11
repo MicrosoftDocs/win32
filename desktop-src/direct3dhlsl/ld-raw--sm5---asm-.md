@@ -12,7 +12,7 @@ Random-access read of 1-4 32bit components from a raw buffer.
 
 
 
-| ld\_raw dest\[.mask\], srcByteOffset\[.select\_component\], src\[.swizzle\] |
+| ld\_raw dest\[.mask\], srcByteOffset\[.select\_component\], src0\[.swizzle\] |
 |------------------------------------------------------------------------------|
 
 
@@ -25,7 +25,7 @@ Random-access read of 1-4 32bit components from a raw buffer.
 |----------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
 | <span id="dest"></span><span id="DEST"></span>*dest*<br/>                                                            | \[in\] The address of the result of the operation.<br/> |
 | <span id="srcByteOffset"></span><span id="srcbyteoffset"></span><span id="SRCBYTEOFFSET"></span>*srcByteOffset*<br/> | \[in\] Specifies the offset to read from.<br/>          |
-| <span id="src"></span><span id="SRC"></span>*src*<br/>                                                            | \[in\] The component to read. <br/>                     |
+| <span id="src0"></span><span id="SRC0"></span>*src0*<br/>                                                            | \[in\] The component to read. <br/>                     |
 
 
 
@@ -44,7 +44,7 @@ Random-access read of 1-4 32bit components from a raw buffer.
 The data read from the raw buffer is equivalent to the following pseudocode: where we have the offset, address, pointer to the buffer contents, stride of the source, and the data stored linearly.
 
 ``` syntax
-                    BYTE *BufferContents;         // from src
+                    BYTE *BufferContents;         // from src0
                     UINT srcByteOffset;           // from srcByteOffset
                     BYTE *ReadLocation;           // value to calculate
                     ReadLocation = BufferContents 
