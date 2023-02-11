@@ -1,6 +1,6 @@
 ---
 title: Advanced Query Syntax
-description: Advanced Query Syntax (AQS) is used by Microsoft Windows Desktop Search (WDS) to help users and programmers better define and narrow their searches.
+description: Microsoft Windows Desktop Search (WDS) uses Advanced Query Syntax (AQS) to help users and programmers better define and narrow their searches.
 ms.assetid: 8e55bd40-c7cf-44a6-bc18-24bc7a267779
 ms.topic: article
 ms.date: 02/10/2023
@@ -11,7 +11,7 @@ ms.date: 02/10/2023
 > [!NOTE]
 > Windows Desktop Search 2.x is an obsolete technology that was originally available as an add-in for Windows XP and Windows Server 2003. On later releases, use [Windows Search](../search/-search-3x-wds-overview.md) instead.
 
-Advanced Query Syntax (AQS) is used by Microsoft Windows Desktop Search (WDS) to help users and programmers better define and narrow their searches. Using AQS is an easy way to deliver more meaningful result sets. Searches can be narrowed by the following parameters:
+Microsoft Windows Desktop Search (WDS) uses Advanced Query Syntax (AQS) to help users and programmers better define and narrow their searches. Using AQS is an easy way to deliver more meaningful result sets. Searches can be narrowed by the following parameters:
 
 - File kinds: Folders, documents, presentations, pictures, and so on.
 - File stores: Specific databases and locations.
