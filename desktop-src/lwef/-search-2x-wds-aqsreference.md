@@ -24,7 +24,7 @@ Furthermore, you can combine search parameters by using search operators. The re
 
 A search query can include one or more keywords, with Boolean operators and optional criteria. You can use these optional criteria to refine a search with the following syntax:
 
-- `<scope name>:<value>`: Scope or data store in which files reside
+- `<scope name>:<value>`: Location or data store in which files reside
 - `<file kind>:<value>`: Kinds of files
 - `<property name>:<value>`: Managed properties of files
 
@@ -32,11 +32,11 @@ Suppose a user wants to search for a document containing the phrase *last quarte
 
 `"last quarter" author:(john OR joanne) foldername:mydocuments`
 
-### Scope: Locations and data stores
+### Scope by location and data store
 
-Users can limit the scope of their searches to specific folder locations or data stores. For example, if you use several email accounts, and you want to limit a query to either Microsoft Outlook or Microsoft Outlook Express, you can use `store:outlook` or `store:oe` respectively.
+Users can limit the scope of their searches to specific folder locations or data stores. For example, if you use several email accounts, and you want to limit a query to Microsoft Outlook, use `store:outlook`.
 
-| Location or file store        | AQS Keyword      | Example                                  |
+| Location or data store        | AQS Keyword      | Example                                  |
 |-------------------------------|------------------|------------------------------------------|
 | Desktop                       | desktop          | store:desktop                            |
 | Files                         | files            | store:files                              |
@@ -44,15 +44,15 @@ Users can limit the scope of their searches to specific folder locations or data
 | Outlook Express               | oe               | store:oe                                 |
 | Specific folder               | foldername or in | foldername:MyDocuments or in:MyDocuments |
 
-If you have a protocol handler in place to crawl custom stores, like Lotus Notes, you can use the name of the store or protocol handler for the store. For example, if you implemented a protocol handler to include a Lotus Notes data store as "notes," the query syntax would be `store:notes`.
+If you have a protocol handler in place to crawl custom stores, like Lotus Notes, you can use the name of the store or protocol handler for the data store. For example, if you implemented a protocol handler to include a Lotus Notes data store as "notes," the query syntax would be `store:notes`.
 
-### Common file types
+### File kinds
 
-Users can also limit their searches to specific types of files, called file kinds. The following table lists the file kinds and offers examples of the AQS syntax used to search for these kinds of files.
+Users can limit their searches to specific kinds of files, also called file types. The following table lists the file kinds and offers examples of the AQS syntax used to search for these kinds of files.
 
-| File type to search             | AQS Keyword      | Example                        |
+| File kind to search             | AQS Keyword      | Example                        |
 |---------------------------------|------------------|--------------------------------|
-| All file types                  | everything       | kind:everything                |
+| All file kinds                  | everything       | kind:everything                |
 | Communications                  | communications   | kind:communications            |
 | Contacts                        | contacts         | kind:contacts                  |
 | E-mail                          | email            | kind:email                     |
@@ -94,7 +94,7 @@ Users can combine search keywords and file properties with operators to broaden 
 
 Some file types let users search for files by using Boolean properties, as described in the following table.
 
-| Property | Example | Result |
+| Property syntax | Example | Result |
 |---|---|---|
 | is:attachment  | report is:attachment      | Finds items that have attachments that contain *report*. Same as `isattachment:true`.                           |
 | isonline:      | report isonline:true      | Finds items that are online and which contain *report*.                                                         |
@@ -109,8 +109,8 @@ Some file types let users search for files by using Boolean properties, as descr
 
 In addition to being able to search on specific dates and date ranges with the operators described previously, AQS allows relative date values (like `today`, `tomorrow`, or `next week`), day values (such as `Tuesday` or `Monday..Wednesday`), and month values (such as `February`).
 
-| Relative to:    | Example | Result |
-|----|---|---|
+| Date relative to: | Example | Result |
+|---|---|---|
 | Day | date:today<br/> date:tomorrow<br/> date:yesterday<br/> | Finds items with today's date.<br/> Finds items with tomorrow's date.<br/> Finds items with yesterday's date. <br/> |
 | Week/Month/Year | date:this week<br/> date:last week<br/> date:next month<br/> date:past month<br/> date:coming year <br/> | Finds items with a date falling within the current week.<br/> Finds items with a date falling within the previous week.<br/> Finds items with a date falling within the upcoming week.<br/> Finds items with a date falling within the previous month.<br/> Finds items with a date falling within the upcoming year. <br/> |
 
@@ -152,7 +152,7 @@ where `<property>` is an AQS property keyword from the following table and `<val
 
 ### Attachment
 
-These properties are common to all attachment file kinds. To limit the search to attachment files only, use this syntax:
+These properties are common to all attachment file kinds. To limit a search to this type of file only, use this syntax:
 
 `kind:attachment <property>:<value>`
 
@@ -164,7 +164,7 @@ where `<property>` is an AQS property keyword from the following table and `<val
 
 ### Contacts
 
-These properties are common to all contacts file kinds. To limit a search to contact files only, use this syntax:
+These properties are common to all contacts file kinds. To limit a search to this type of file only, use this syntax:
 
 `kind:contacts <property>:<value>`
 
@@ -203,7 +203,7 @@ where `<property>` is an AQS property keyword from the following table and `<val
 
 ### Communications
 
-These properties are common to all communications file kinds. To limit the search to communication files only, use this syntax:
+These properties are common to all communications file kinds. To limit a search to this type of file only, use this syntax:
 
 `kind:communications <property>:<value>`
 
@@ -228,7 +228,7 @@ where `<property>` is an AQS property keyword from the following table and `<val
 
 ### Calendar
 
-These properties are common to all calendar file kinds. To limit the search to calendar files only, use this syntax:
+These properties are common to all calendar file kinds. To limit a search to this type of file only, use this syntax:
 
 `kind:calendar <property>:<value>`
 
@@ -241,7 +241,7 @@ where `<property>` is an AQS property keyword from the following table and `<val
 
 ### Documents
 
-These properties are common to all documents file kinds. To limit the search to document files only, use this syntax:
+These properties are common to all documents file kinds. To limit a search to this type of file only, use this syntax:
 
 `kind:documents <property>:<value>`
 
@@ -258,7 +258,7 @@ where `<property>` is an AQS property keyword from the following table and `<val
 
 ### Presentation
 
-These properties are common to all presentation file kinds. To limit the search to presentation files only, use this syntax:
+These properties are common to all presentation file kinds. To limit a search to this type of file only, use this syntax:
 
 `kind:presentation <property>:<value>`
 
@@ -270,7 +270,7 @@ where `<property>` is an AQS property keyword from the following table and `<val
 
 ### Music
 
-These properties are common to all music file kinds. To limit the search to music files only, use this syntax:
+These properties are common to all music file kinds. To limit a search to this type of file only, use this syntax:
 
 `kind:music <property>:<value>`
 
@@ -288,7 +288,7 @@ where `<property>` is an AQS property keyword from the following table and `<val
 
 ### Picture
 
-These properties are common to all picture file kinds. To limit the search to picture files only, use this syntax:
+These properties are common to all picture file kinds. To limit a search to this type of file only, use this syntax:
 
 `kind:picture <property>:<value>`
 
@@ -306,7 +306,7 @@ where `<property>` is an AQS property keyword from the following table and `<val
 
 ### Video
 
-These properties are common to all video file kinds. To limit the search to video files only, use this syntax:
+These properties are common to all video file kinds. To limit a search to this type of file only, use this syntax:
 
 `kind:video <property>:<value>`
 
