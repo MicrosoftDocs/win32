@@ -13,7 +13,7 @@ ms.date: 02/10/2023
 
 Microsoft Windows Desktop Search (WDS) uses Advanced Query Syntax (AQS) to help users and programmers better define and narrow their searches. Using AQS is an easy way to deliver more meaningful result sets. Searches can be narrowed by the following parameters:
 
-- File kinds: Folders, documents, presentations, pictures, and so on.
+- File kinds: File types, such as folders, documents, presentations, pictures, and so on.
 - File stores: Specific databases and locations.
 - File properties: File metadata, such as size, date, and title.
 - File contents: Keywords like *project deliverables*, *AQS*, *blue suede shoes*, and so on.
