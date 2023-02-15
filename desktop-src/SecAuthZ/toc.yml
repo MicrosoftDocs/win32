@@ -755,6 +755,8 @@
         href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-mapgenericmask
       - name: "NtCompareTokens"
         href: ntcomparetokens.md
+      - name: "NtCreateLowBoxToken"
+        href: ntcreatelowboxtoken.md
       - name: "ObjectCloseAuditAlarm"
         href: /windows/desktop/api/Winbase/nf-winbase-objectcloseauditalarma
       - name: "ObjectDeleteAuditAlarm"
