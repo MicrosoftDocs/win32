@@ -32,21 +32,21 @@ You can also enable Microsoft Spatial Sound by right-clicking the **Volume** ico
 
 ![enable spatial sound from the taskbar](images/spatialsoundsettingswindows2.png)
 
-### Xbox One
-On Xbox One, Microsoft Spatial Sound capabilities are always available for the consumer, and are enabled via the Settings App under **General -> Volume & audio output**.
+### Xbox
 
+On Xbox, Microsoft Spatial Sound capabilities are always available for the consumer, and are enabled via the Settings App under **General -> Volume & audio output**. 
 
-![enable spatial sound on xbox one in the settings app ](images/audiosettingsbitstream.png)
+The HDMI audio button is populated with all the formats supported by the Audio Video Receiver (AVR) or Soundbar or the TV that is directly connected to your Xbox console. The “Optical audio” option is only available on older Xbox consoles and not on Xbox Series S|X and above.
 
-After Dolby Atmos for home theater is selected as a “Bitstream format”, support for this format is checked via HDMI Extended Display Identification Data (EDID). If the HDMI device does not support the format, an error message is displayed to the user. Note that selecting this option the first time requires the user download the Dolby Access app.
+![Screenshot of the General Volume & Output settings page showing the HDMI audio dropdown.](images/general-volume-and-audio-output.png)
 
-If a format other than "Bitstream out" is selected for **HDMI audio** then the **Bitstream format** dropdown is disabled.
+Note that selecting the “Dolby Atmos for home theater (HDMI only)” or “DTS:X for home theater (HDMI only)” options in HDMI audio will prompt the user to download and install Dolby Access or DTS Sound Unbound apps if not already installed
 
-![spatial sound disabled on xbox one in the settings app ](images/audiosettingsplain.png)
+![Screenshot of the General Volume & Output settings page showing the selection of DTS Digital Surround.](images/general-volume-and-audio-output-2.png)
 
 Select Dolby Atmos for Headphones, DTS Headphone:X, or Windows Sonic for Headphones from the **Headset format** dropdown under **Headset audio**
 
-![enable spatial sound for headphones on xbox one in the settings app ](images/audiosettingsheadphone.png)
+![Screenshot of the General Volume & Output settings page showing the enabling spatial sound for headphones.](images/audiosettingsheadphone.png)
 
 When Microsoft Spatial Sound is not available (for instance, when playing to embedded laptop stereo speakers, or if the user has not explicitly enabled Microsoft Spatial Sound per above), the number of available dynamic objects returned by [**ISpatialAudioClient::GetMaxDynamicObjectCount**](/windows/desktop/api/spatialaudioclient/nf-spatialaudioclient-ispatialaudioclient-getmaxdynamicobjectcount) to an application will be 0.
 
