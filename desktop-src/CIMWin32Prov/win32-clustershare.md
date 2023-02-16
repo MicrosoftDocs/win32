@@ -29,7 +29,7 @@ api_location:
 
 # Win32\_ClusterShare class
 
-\[The **Win32\_ClusterShare** class is deprecated. Please use the [**MSFT\_FileShare**](/previous-versions/windows/desktop/stormgmt/msft-fileshare) and [**MSFT\_SMFileShare**](/previous-versions/windows/desktop/msftstrgmanprov/msft-smfileshare) classes instead.\]
+\[The **Win32\_ClusterShare** class is deprecated. Please use the [**MSFT_FileShare**](/windows-hardware/drivers/storage/msft-fileshare) and [**MSFT\_SMFileShare**](/previous-versions/windows/desktop/msftstrgmanprov/msft-smfileshare) classes instead.\]
 
 The Win32\_ClusterShare class represents a shared resource on a cluster.
 
