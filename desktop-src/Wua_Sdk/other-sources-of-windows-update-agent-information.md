@@ -22,15 +22,6 @@ The following resources describe how to deploy and administer Windows Server Upd
 
     You can download updates to the WUA SDK samples, headers, and libraries. Downloads in the MSDN Download and Code Center are organized by topic. You can also find downloads on MSDN, the Microsoft Developer Network, by using the [Microsoft Download Center](https://go.microsoft.com/fwlink/p/?linkid=83468) search tool.
 
-## Windows Update Agent (WUA) Newsgroups
-
-You can read and post information to a newsgroup that discusses WUA or search archived newsgroup posts.
-
-MSDN provides access to the following public newsgroup:
-
--   [MSDN Newsgroups](https://go.microsoft.com/fwlink/p/?linkid=83943)
-
-    This newsgroup is oriented toward developers with questions about application and infrastructure development.
 
 ## Windows Technical Chats
 
