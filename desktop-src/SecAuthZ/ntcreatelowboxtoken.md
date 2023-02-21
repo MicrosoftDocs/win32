@@ -3,7 +3,7 @@ description: Create a LowBox token object based on an existing access token.
 ms.assetid: 37b14919-6bed-41dc-a9e7-bfa1ba44c6ff
 title: NtCreateLowBoxToken function (Ntseapi.h)
 ms.topic: reference
-ms.date: 02/15/2023
+ms.date: 02/21/2023
 topic_type: 
 - APIRef
 - kbSyntax
@@ -17,7 +17,7 @@ api_location:
 
 # NtCreateLowBoxToken function
 
-The **NtCreateLowBoxToken** function creates a LowBox token object based on an existing [access token](/windows/win32/SecGloss/a-gly) and returns the handle opened for access to that token.
+The **NtCreateLowBoxToken** function creates a **LowBox ([AppContainer](/windows/win32/secauthz/appcontainer-isolation))** token object based on an existing [access token](/windows/win32/SecGloss/a-gly) and returns the handle opened for access to that token.
 
 ## Syntax
 
@@ -71,7 +71,7 @@ The number of handles to be included on the token.
 
 `Handles [in, Optional]`
 
-The handles to include on the token.
+Handles to the named object directories for the AppContainer.
 
 ## Return value
 
@@ -89,9 +89,8 @@ This function has no associated import library or header file; you must call it 
 
 | Requirement | Value |
 |--------|--------|
-| Minimum supported client | Windows XP \[desktop apps only\] |
-| Minimum supported server | Windows Server 2003 \[desktop apps only\] |
-| Header | Ntseapi.h |
+| Minimum supported client | Windows 8 \[desktop apps only\] |
+| Minimum supported server | Windows Server 2012 \[desktop apps only\] |
 | DLL | Ntdll.dll |
 
 ## See also
