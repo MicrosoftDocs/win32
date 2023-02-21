@@ -42,7 +42,7 @@ You can search Technet for articles and newsgroups about the Windows Installer:
 
 You can search the Knowledge Base (KB) for articles about the Windows Installer:
 
--   [Search the Knowledge Base](https://support.microsoft.com/search)
+-   [Search the Knowledge Base](https://support.microsoft.com)
 
     Search for both Windows Installer and MSI.
 
