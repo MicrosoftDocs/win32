@@ -41,7 +41,7 @@ You can participate in live MSDN technical chat sessions:
 
 You can search the Microsoft Knowledge Base for articles about WUA:
 
--   [Search the Knowledge Base](https://go.microsoft.com/fwlink/p/?linkid=83983)
+-   [Search the Knowledge Base](https://support.microsoft.com)
 
     Search for Windows Update Agent.
 
