@@ -3,7 +3,7 @@ title: Dynamic-link library redirection
 description: If your application depends on a specific version of a shared DLL, and another application is installed with a newer or older version of that DLL, then that can cause a problem; it can cause your app to start to fail. Another use case for DLL redirection is to load a private build of a DLL.
 ms.assetid: 3b426b6c-1ad5-43b9-81ea-5e6d3c6588c8
 ms.topic: article
-ms.date: 02/21/2023
+ms.date: 02/22/2023
 ---
 
 # Dynamic-link library redirection
@@ -103,7 +103,7 @@ A packaged app requires a special folder structure for DLL redirection. The foll
 If you're able to edit your `.vcxproj` file, then a convenient way to cause that special folder to be created and deployed with your package is to add some extra steps to the build in your `.vcxproj`:
 
 ```xml
-<ItemDefinitionGroup Condition="'$(BuildingWithBuildExe)' != 'true'">
+<ItemDefinitionGroup>
     <PreBuildEvent>
         <Command>
             del $(FinalAppxManifestName) 2&gt;nul
@@ -114,7 +114,7 @@ If you're able to edit your `.vcxproj` file, then a convenient way to cause that
         </Command>
     </PreBuildEvent>
 </ItemDefinitionGroup>
-<ItemGroup Condition="'$(BuildingWithBuildExe)' != 'true'">
+<ItemGroup>
     <!-- Include any locally built system experience -->
     <Media Include="$(IntDir)\microsoft.system.package.metadata\application.local\**">
         <Link>microsoft.system.package.metadata\application.local</Link>
@@ -127,7 +127,7 @@ Let's walk through some of what that configuration does.
 1. Set up a `PreBuildEvent` for your Visual Studio **Start Without Debugging** (or **Start Debugging**) experience.
 
     ```xml
-    <ItemDefinitionGroup Condition="'$(BuildingWithBuildExe)' != 'true'">
+    <ItemDefinitionGroup>
       <PreBuildEvent>
     ```
 
@@ -150,7 +150,7 @@ Let's walk through some of what that configuration does.
 4. Lastly, indicate that you want to include the special directory and its contents in the deployed package.
 
     ```xml
-    <ItemGroup Condition="'$(BuildingWithBuildExe)' != 'true'">
+    <ItemGroup>
       <!-- Include any locally built system experience -->
       <Media Include="$(IntDir)\microsoft.system.package.metadata\application.local\**">
         <Link>microsoft.system.package.metadata\application.local</Link>
@@ -171,7 +171,7 @@ If you're not able to use your `.vcxproj` in the way shown above, then you can a
 2. Use that *InstallLocation* to change the ACLs to allow yourself to create folders/copy files. Edit the `<InstallLocation>` placeholders in this script, and run the script:
 
     ```console
-    cd <InstallLocation>
+    cd <InstallLocation>\Microsoft.system.package.metadata
     takeown /F . /A
     icacls  . /grant Administrators:F
     md <InstallLocation>\Microsoft.system.package.metadata\application.local
