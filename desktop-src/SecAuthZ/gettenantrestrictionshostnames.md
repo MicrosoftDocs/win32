@@ -17,7 +17,7 @@ api_location:
 
 # GetTenantRestrictionsHostnames function
 
-The **GetTenantRestrictionsHostnames** function returns a list of `hostnames` (e.g. `foo.com`) and `subdomainSupportedHostnames` (e.g. `.bar.com`) to the caller. This list is kept in sync by Windows and is used by apps, including Microsoft Edge and Microsoft Teams, to apply **Tenant Restrictions** to those endpoints.
+The **GetTenantRestrictionsHostnames** function returns a list of `hostnames` (e.g. `foo.com`) and `subdomainSupportedHostnames` (e.g. `.bar.com`) to the caller. This list is kept in sync by Windows and is used by apps to apply **Tenant Restrictions** to those endpoints.
 
 ## Syntax
 
