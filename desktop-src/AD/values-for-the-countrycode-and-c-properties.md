@@ -7,17 +7,9 @@ keywords:
 - country/region Code AD
 - country/region Code AD , values for
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 02/23/2023
 ---
 
 # Values for the countryCode and c Properties
 
-The values for the **countryCode** and **c** properties are obtained from ISO standard 3166. This standard is available at the [International Organization for Standardization](https://www.iso.org/) website. The **countryCode** property value is the numeric country code from ISO 3166 and the **c** property value is the two letter country/region designation from ISO 3166.
-
- 
-
- 
-
-
-
-
+The values for the **countryCode** and **c** properties are obtained from ISO standard 3166. This standard is available at the [International Organization for Standardization](https://www.iso.org/home.html) website. The **countryCode** property value is the numeric country code from ISO 3166 and the **c** property value is the two letter country/region designation from ISO 3166.
