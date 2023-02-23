@@ -56,44 +56,6 @@ With that registry value set, DotLocal DLL redirection is respected even if the 
 
 To use DLL redirection, you'll create a *redirection file* or a *redirection folder* (depending on the kind of app you have), as we'll see in later sections in this topic.
 
-## Alternatively, enable DLL redirection at runtime
-
-> [!IMPORTANT]
-> You shouldn't enable DLL redirection at runtime in your production apps&mdash;doing so invites security threats that you generally must avoid. But if you need this ability in order to isolate OS code from the code that you load, then you can enable this in your developer-built private binaries, testing tools, benchmarks, and ad-hoc testing tools.
-
-Instead of creating a redirection file or folder, you can opt your process in to redirection at runtime by setting the *ProcessParameters* flag **RTL_USER_PROC_DLL_REDIRECTION_LOCAL** in the [process environment block (PEB)](/windows/win32/api/winternl/ns-winternl-peb).
-
-You can run the code shown below early in the process lifetime before the target DLLs are loaded. For example, in a WinUI 3 app, a good place to put this is in `App.xaml.cpp`.
-
-> [!NOTE]
-> The initialization of global variables can cause DLLs to be loaded before the entry point of the `.exe` (for example, **main**) runs; so this method won't work in those cases.
-
-```cpp
-// For example, in App.xaml.cpp in a WinUI 3 app.
-...
-#include <winternl.h>
-
-inline void EnableDotLocalDebugging()
-{
-    auto GetFlagsLocation = [](RTL_USER_PROCESS_PARAMETERS* processParameters) -> ULONG&
-    {
-        return *reinterpret_cast<ULONG*>(&(processParameters->Reserved1[sizeof(ULONG) * 2]));
-    };
-    constexpr ULONG RTL_USER_PROC_DLL_REDIRECTION_LOCAL_VALUE = 0x00001000;
-    GetFlagsLocation(NtCurrentTeb()->ProcessEnvironmentBlock->ProcessParameters) |= RTL_USER_PROC_DLL_REDIRECTION_LOCAL_VALUE;
-}
-
-App::App()
-{
-    ...
-    EnableDotLocalDebugging();
-    
-    InitializeComponent();
-    ...
-}
-...
-```
-
 ## How to redirect DLLs for packaged apps
 
 A packaged app requires a special folder structure for DLL redirection. The following path is where the loader will look when redirection is enabled:
