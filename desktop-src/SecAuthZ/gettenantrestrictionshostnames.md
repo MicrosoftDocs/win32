@@ -17,7 +17,7 @@ api_location:
 
 # GetTenantRestrictionsHostnames function
 
-The **GetTenantRestrictionsHostnames** function returns a list of `hostnames` (e.g. `foo.com`) and `subdomainSupportedHostnames` (e.g. `.bar.com`) to the caller. This list is kept in sync by Windows and is used by apps to apply **Tenant Restrictions** to those endpoints.
+The **GetTenantRestrictionsHostnames** function returns a list of `hostnames` (e.g. `foo.ca`) and `subdomainSupportedHostnames` (e.g. `.bar.ca`) to the caller. This list is kept in sync by Windows and is used by apps to apply **Tenant Restrictions** to those endpoints.
 
 ## Syntax
 
@@ -34,7 +34,7 @@ STDAPI GetTenantRestrictionsHostnames(
 
 `hostnames [out]`
 
-**hostnames** contains names that must match exactly. For example, if `foo.com` is in the list, then `foo.com` _should_ be subject to Tenant Restrictions, but `bar.foo.com` _should not_.
+**hostnames** contains names that must match exactly. For example, if `foo.ca` is in the list, then `foo.ca` _should_ be subject to Tenant Restrictions, but `bar.foo.ca` _should not_.
 
 `hostnameCount [out]`
 
@@ -42,7 +42,7 @@ The **hostnameCount** parameter contains the number of hostnames in the `hostnam
 
 `subdomainSupportedHostnames [out]`
 
-**subdomainSupportedHostnames** contains names that allow for subdomains, e.g. if `.bar.com` is in the list, `sub.bar.com` _should_ be subject to Tenant Restrictions but "bar.ca" _should not_. These entries are expected to have a preceding `.` to facilitate matching.
+**subdomainSupportedHostnames** contains names that allow for subdomains, e.g. if `.bar.ca` is in the list, `sub.bar.ca` _should_ be subject to Tenant Restrictions but `bar.ca` _should not_. These entries are expected to have a preceding `.` to facilitate matching.
 
 `subdomainSupportedHostnameCount [out]`
 
