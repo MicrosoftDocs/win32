@@ -2801,7 +2801,7 @@
         - name: "Set"
           href: ikspropertyset-set.md
       - name: "IKsTopologyInfo"
-        href: /previous-versions/windows/desktop/api/vidcap/nn-vidcap-ikstopologyinfo
+        href: /windows/win32/api/vidcap/nn-vidcap-ikstopologyinfo
         items: 
         - name: "CreateNodeInstance"
           href: /previous-versions/windows/desktop/api/vidcap/nf-vidcap-ikstopologyinfo-createnodeinstance
