@@ -63,7 +63,7 @@ Pointer to an array of surface handles. The caller can set these handles to the 
 *puSurfaceDescription* \[in, out\]
 </dt> <dd>
 
-Pointer to a [**DDSURFACEDESC**](/previous-versions/windows/hardware/drivers/ff550339(v=vs.85)) structure describing the surface or buffer that the driver should create.
+Pointer to a [**DDSURFACEDESC**](/windows/win32/api/ddraw/ns-ddraw-ddsurfacedesc) structure describing the surface or buffer that the driver should create.
 
 </dd> <dt>
 

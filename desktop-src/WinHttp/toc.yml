@@ -44,6 +44,8 @@
         href: cookie-handling-in-winhttp.md
       - name: "Error Handling in WinHTTP"
         href: error-handling-in-winhttp.md
+      - name: "Concurrency in WinHTTP"
+        href: concurrency-in-winhttp.md
       - name: "WinHTTP AutoProxy Support"
         href: winhttp-autoproxy-support.md
         items: 

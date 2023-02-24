@@ -1312,13 +1312,6 @@ This process is the same as clicking **Fail**, with the exception of the auto-po
 
 </dd> <dt>
 
-<span id="WinQual_Developer_Portal__"></span><span id="winqual_developer_portal__"></span><span id="WINQUAL_DEVELOPER_PORTAL__"></span>WinQual Developer Portal 
-</dt> <dd>
-
-[Windows Quality Online Services (Winqual)](/windows-hardware/drivers/dashboard/winqual-submission-tool--winqualexe-)
-
-</dd> <dt>
-
 <span id="DirectX_Developer_Portal"></span><span id="directx_developer_portal"></span><span id="DIRECTX_DEVELOPER_PORTAL"></span>DirectX Developer Portal
 </dt> <dd>
 

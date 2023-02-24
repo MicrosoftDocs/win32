@@ -1,6 +1,6 @@
 ---
 title: Task Scheduler for developers
-description: The Task Scheduler enables you to automatically perform routine tasks on a chosen computer. Task Scheduler does this by monitoring whatever criteria you choose (referred to as triggers) and then executing the tasks when those criteria are met.
+description: The Task Scheduler enables you to automatically perform routine tasks on a chosen computer. The Task Scheduler does so by monitoring whatever criteria you choose and then executing the tasks when those criteria are met.
 ms.assetid: 15970a51-c139-48b8-b82b-605728d0f386
 keywords:
 - Task Scheduler for developers
@@ -8,19 +8,17 @@ keywords:
 - Developing with Task Scheduler
 - Task Scheduler, portal page
 ms.topic: article
-ms.date: 09/09/2021
+ms.date: 02/07/2023
 ---
 
 # Task Scheduler for developers
 
 > [!IMPORTANT]
-> This topic and the other topics in this section are for a developer audience. If you're wishing to use the the Task Scheduler component in your capacity as an administrator, or an IT Professional, then see [Task Scheduler](/dynamics365/business-central/dev-itpro/developer/devenv-task-scheduler).
+> This topic and the other topics in this section are for a developer audience. For info about using the Task Scheduler component in your capacity as an administrator, or an IT Professional, see [Task Scheduler](/dynamics365/business-central/dev-itpro/developer/devenv-task-scheduler) in the Microsoft Dynamics 365 documentation.
 
-## About the Task Scheduler
+The Task Scheduler enables you to automatically perform routine tasks on a chosen computer. The Task Scheduler does so by monitoring whatever criteria you choose (referred to as triggers) and then executing the tasks when those criteria are met.
 
-The Task Scheduler enables you to automatically perform routine tasks on a chosen computer. Task Scheduler does this by monitoring whatever criteria you choose (referred to as triggers) and then executing the tasks when those criteria are met.
-
-You can use the Task Scheduler to execute tasks such as starting an application, sending an email message, or showing a message box. Tasks can be scheduled to execute in response to these events, or triggers. 
+Some examples of tasks that you can use the Task Scheduler to execute are: starting an application; sending an email message; or displaying a message box. You can schedule a task to execute in response to these triggers:
 
 - When a specific system event occurs.
 - At a specific time.
@@ -34,19 +32,19 @@ You can use the Task Scheduler to execute tasks such as starting an application,
 - When a user logs on.
 - When a Terminal Server session changes state.
 
-## Developers
+## API information
 
-The Task Scheduler provides APIs in these forms.
+The Task Scheduler provides APIs in these forms:
 
-- Task Scheduler 2.0: interfaces and objects are provided for C++, and for scripting development, respectively.
-- Task Scheduler 1.0: interfaces are provided for C++ development.
+- Task Scheduler 2.0: Interfaces and objects are provided for C++, and for scripting development, respectively.
+- Task Scheduler 1.0: Interfaces are provided for C++ development only.
 
 ## Run-time requirements
 
-The Task Scheduler requires the following operating systems.
+The Task Scheduler requires the following operating systems:
 
-- Task Scheduler 2.0: Client requires Windows Vista, or above. Server requires Windows Server 2008, or above.
-- Task Scheduler 1.0: Client requires Windows Vista, or Windows XP. Server requires Windows Server 2008, or Windows Server 2003.
+- Task Scheduler 2.0: Client requires Windows Vista or later. Server requires Windows Server 2008 or later.
+- Task Scheduler 1.0: Client requires Windows Vista or Windows XP. Server requires Windows Server 2008 or Windows Server 2003.
 
 ## In this section
 

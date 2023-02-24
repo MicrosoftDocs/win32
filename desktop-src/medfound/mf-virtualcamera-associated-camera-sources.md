@@ -7,7 +7,7 @@ ms.date: 05/09/2022
 
 # MF\_VIRTUALCAMERA\_ASSOCIATED\_CAMERA\_SOURCES attribute
 
-Contains an [IMFCollection](/win32/api/mfobjects/nn-mfobjects-imfcollection) object containing the [IMFMediaSourceEx](/windows/win32/api/mfidl/nn-mfidl-imfmediasourceex) representing the physical cameras associated with a virtual camera. 
+Contains an [IMFCollection](/windows/win32/api/mfobjects/nn-mfobjects-imfcollection) object containing the [IMFMediaSourceEx](/windows/win32/api/mfidl/nn-mfidl-imfmediasourceex) representing the physical cameras associated with a virtual camera. 
 
 
 ## Data type

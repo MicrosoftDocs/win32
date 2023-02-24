@@ -793,7 +793,7 @@
           href: integrity-and-privacy.md
         - name: "Limitations of Mutual Authentication with Kerberos"
           href: limitations-of-mutual-authentication-with-kerberos.md
-      - name: "Service Principal Names"
+      - name: "Service principal names"
         href: service-principal-names.md
         items: 
         - name: "Name Formats for Unique SPNs"

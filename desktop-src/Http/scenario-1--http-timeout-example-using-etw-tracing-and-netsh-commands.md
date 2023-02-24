@@ -30,7 +30,7 @@ The steps below generate a trace called httptrace.etl and then convert the trace
 
 ## Viewing the Trace and Diagnosing
 
-The resulting CSV file for traces can be viewed in Excel or any tool that supports the CSV format. Table 1 below shows excerpts from a sample trace file (httptrace.csv). In the trace report, the "Level" column shows an entry with a value of "3", which corresponds to a warning in ETW. The HTTP Server API component follows the ETW Levels defined in the following article: (https://msdn2.microsoft.com/library/aa382793.aspx). The ETW levels include:
+The resulting CSV file for traces can be viewed in Excel or any tool that supports the CSV format. Table 1 below shows excerpts from a sample trace file (httptrace.csv). In the trace report, the "Level" column shows an entry with a value of "3", which corresponds to a warning in ETW. The HTTP Server API component follows the ETW Levels defined in [System ETW provider event keyword-level settings](/message-analyzer/system-etw-provider-event-keyword-level-settings). The ETW levels include:
 
 
 

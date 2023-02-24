@@ -20,7 +20,7 @@ This section is divided into the following topics:
 -   [Controlling Client Authentication](controlling-client-authentication.md)
 -   [Choosing an Authentication Level](choosing-an-authentication-level.md)
 -   [Choosing Security QOS Options](choosing-security-qos-options.md)
--   [Common Mistake: Assuming RpcServerRegisterAuthInfo Prevents Unauthorized Users from Calling your Server](common-mistake-assuming-rpcserverregisterauthinfo-prevents-unauthorized-users-from-calling-your-server.md)
+-   [RpcServerRegisterAuthInfo doesn't deny unauthorized users](common-mistake-assuming-rpcserverregisterauthinfo-prevents-unauthorized-users-from-calling-your-server.md)
 -   [Callbacks](callbacks.md)
 -   [Null Sessions](null-sessions.md)
 -   [Use the /robust Flag](use-the-robust-flag.md)
