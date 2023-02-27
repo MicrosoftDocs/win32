@@ -697,6 +697,8 @@
         href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-getsidsubauthority
       - name: "GetSidSubAuthorityCount"
         href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-getsidsubauthoritycount
+      - name: "GetTenantRestrictionsHostnames"
+        href: gettenantrestrictionshostnames.md
       - name: "GetTokenInformation"
         href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-gettokeninformation
       - name: "GetTrusteeForm"
