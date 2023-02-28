@@ -18,7 +18,7 @@ ms.date: 05/31/2018
 
 # Account-Expires attribute
 
-The date when the account expires. This value represents the number of 100-nanosecond intervals since January 1, 1601 (UTC). A value of 0 or 0x7FFFFFFFFFFFFFFF (9223372036854775807) indicates that the account never expires. Accounts configured to never expire may have either value, depending on if they were originally configured with an expiration value.
+The date when the account expires. This value represents the number of 100-nanosecond intervals since January 1, 1601 (UTC). A value of `0` or `0x7FFFFFFFFFFFFFFF` (`9223372036854775807`) indicates that the account never expires. Accounts configured to never expire may have either value, depending on whether they were originally configured with an expiration value.
 
 
 
