@@ -86,7 +86,7 @@ Renderers can also mix and match between these approaches.
 
 On Windows and Xbox, the number of available voices varies based on the format in use. Dolby Atmos formats support 32 total active objects (so if a 7.1.4 channel bed is in use, 20 additional dynamic sound objects can be active). Windows Sonic for Headphones supports 128 total active objects, with the Low Frequency Effects (LFE) channel not actually being counted as an object -- so when an 8.1.4.4 channel bed is in use, 112 dynamic sound objects can be active.
 
-For Universal Windows Platform apps running on Xbox One game consoles, realtime encode (for Dolby Atmos for home theater, Dolby Atmos for Headphones, DTS Headphone:X, and Windows Sonic for Headphones) is performed in hardware at no CPU cost.
+For Universal Windows Platform apps running on Xbox One game consoles, realtime encode (for Dolby Atmos for Home Theater, Dolby Atmos for Headphones, DTS:X for Home Theater, DTS Headphone:X, and Windows Sonic for Headphones) is performed in hardware at no CPU cost.
 
 | Format | Max Static Objects (Channel Bed) | Max Dynamic Objects <br> Xbox One | Max Dynamic Objects <br> Windows | Max Dynamic Objects <br> HoloLens 2 |
 |----------------------------------------------|--------------|----|-----|----|
