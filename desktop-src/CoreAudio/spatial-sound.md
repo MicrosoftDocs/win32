@@ -88,19 +88,20 @@ On Windows and Xbox, the number of available voices varies based on the format i
 
 For Universal Windows Platform apps running on Xbox One game consoles, realtime encode (for Dolby Atmos for home theater, Dolby Atmos for Headphones, DTS Headphone:X, and Windows Sonic for Headphones) is performed in hardware at no CPU cost.
 
-| Format                       | Max Static Objects (Channel Bed) | Max Dynamic Objects <br> Xbox One | Max Dynamic Objects <br> Windows | Max Dynamic Objects <br> HoloLens 2
-|------------------------------|----------------------------------|-------------------------------------------|------------------------------------------|------------------------------------------|
-| Dolby Atmos (HDMI)           | 12 (7.1.4)                       | 20                                        | 20                                       | NA |
-| Dolby Atmos (Headphones & Built-in Speakers)     | 17 (8.1.4.4)                     | 16                                        | 16                                       | NA |
-| DTS Headphone:X (Headphones) | 17 (8.1.4.4)        | 16                                        | 32                                      | NA |
-| Windows Sonic for Headphones | 17 (8.1.4.4)        | 15                                        | 112                                      | 31 |
+| Format | Max Static Objects (Channel Bed) | Max Dynamic Objects <br> Xbox One | Max Dynamic Objects <br> Windows | Max Dynamic Objects <br> HoloLens 2 |
+|----------------------------------------------|--------------|----|-----|----|
+| Dolby Atmos for Home Theater (HDMI)          | 12 (7.1.4)   | 20 | 20  | NA |
+| DTS:X for Home Theater (HDMI)                | 17 (8.1.4.4) | 16 | 32  | NA |
+| Dolby Atmos (Headphones & Built-in Speakers) | 17 (8.1.4.4) | 16 | 16  | NA |
+| DTS Headphone:X (Headphones)                 | 17 (8.1.4.4) | 16 | 32  | NA |
+| Windows Sonic (Headphones)                   | 17 (8.1.4.4) | 15 | 112 | 31 |
 
 Starting with GDK build 2303, the resource limits on Xbox are updated to the following values:
 
 | Format | Max Static Objects (Channel Bed) | Max Dynamic Objects <br> Xbox Series X\|S, System OS apps & >=2303 GDK | Max Dynamic Objects <br>Xbox Series X\|S, ERA & <2303 GDK | Max Dynamic Objects <br>Xbox One |
-|---------------|----------------|-----------------|-----------------|------------------|
-| Dolby Atmos for home theater (HDMI) | 12 (7.1.4)   | 20  | 20 | 20 |
-| DTS:X for home theater (HDMI)       | 17 (8.1.4.4) | 20  | 20 | 16 |
+|-------------------------------------|--------------|-----|----|----|
+| Dolby Atmos for Home Theater (HDMI) | 12 (7.1.4)   | 20  | 20 | 20 |
+| DTS:X for Home Theater (HDMI)       | 17 (8.1.4.4) | 20  | 20 | 16 |
 | Dolby Atmos (Headphones)            | 17 (8.1.4.4) | 128 | 20 | 16 |
 | DTS Headphone:X (Headphones)        | 17 (8.1.4.4) | 200 | 20 | 16 |
 | Windows Sonic (Headphones)          | 17 (8.1.4.4) | 220 | 20 | 15 |
