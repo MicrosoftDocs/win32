@@ -26,7 +26,9 @@ A window receives this message through its [**WindowProc**](/windows/win32/api/w
   
 Type: **WPARAM**
 
-The [code page](../Intl/code-pages.md) of the new locale.
+The **SHORT** character set value used in the font for the input language.
+  
+See **lfCharSet** member of the [LOGFONT structure](/windows/win32/api/wingdi/ns-wingdi-logfontw) for more info.
 
 </dd> <dt>
 
@@ -64,10 +66,14 @@ case WM_INPUTLANGCHANGE:
     // Get the ISO abbreviated language name (for example, "eng").
     WCHAR lang[9];
     GetLocaleInfoEx(localeName, LOCALE_SISO639LANGNAME2, lang, 9);
+    
+    // Get the keyboard layout identifier (for example, "00020409" for United States-International keyboard layout)
+    WCHAR keyboardLayoutId[KL_NAMELENGTH];
+    GetKeyboardLayoutNameW(keyboardLayoutId);
 }
 ```
 
-To get the the name of the currently active input locale identifier, call the [GetKeyboardLayoutName](/windows/win32/api/winuser/nf-winuser-getkeyboardlayoutnamew). For more information, see [Languages, Locales, and Keyboard Layouts](/windows/win32/inputdev/about-keyboard-input#languages-locales-and-keyboard-layouts).
+To get the the name of the currently active keyboard layout, call the [GetKeyboardLayoutName](/windows/win32/api/winuser/nf-winuser-getkeyboardlayoutnamew). For more information, see [Languages, Locales, and Keyboard Layouts](/windows/win32/inputdev/about-keyboard-input#languages-locales-and-keyboard-layouts).
 
 For a list of the input layouts that are supplied with Windows, see [Keyboard Identifiers and Input Method Editors for Windows](/windows-hardware/manufacture/desktop/windows-language-pack-default-values).
 
