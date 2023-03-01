@@ -360,6 +360,8 @@
       href: etweventwrite.md
     - name: "EtwEventWriteFull"
       href: etweventwritefull.md
+    - name: "EtwLogTraceEvent"
+      href: etwlogtraceevent.md
   - name: "Drivers"
     href: drivers.md
     items: 
