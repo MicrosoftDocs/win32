@@ -26,9 +26,9 @@ A window receives this message through its [**WindowProc**](/windows/win32/api/w
   
 Type: **WPARAM**
 
-The **SHORT** character set value used in the font for the input language.
+The **SHORT** GDI font character set for the input language.
   
-See **lfCharSet** member of the [LOGFONT structure](/windows/win32/api/wingdi/ns-wingdi-logfontw) for more info.
+See **lfCharSet** member of the [LOGFONT structure](/windows/win32/api/wingdi/ns-wingdi-logfontw) for a list of possible values.
 
 </dd> <dt>
 
