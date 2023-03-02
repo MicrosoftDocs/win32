@@ -1717,6 +1717,8 @@
       href: /windows/win32/api/wldp/nf-wldp-wldpgetlockdownpolicy
     - name: "WlpdIsClassInApprovedList"
       href: /windows/win32/api/wldp/nf-wldp-wldpisclassinapprovedlist
+    - name: "WlpdIsDebuggingAllowed"
+      href: wldpisdebugallowed.md
     - name: "WldpIsDynamicCodePolicyEnabled"
       href: /windows/win32/api/wldp/nf-wldp-wldpisdynamiccodepolicyenabled
     - name: "WldpQueryDynamicCodeTrust"

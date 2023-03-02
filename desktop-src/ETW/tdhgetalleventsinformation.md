@@ -7,7 +7,7 @@ topic_type:
 - APIRef
 - kbSyntax
 api_name: 
-- RtlGetVersion
+- TdhGetAllEventsInformation
 api_type: 
 - DllExport
 api_location: 
@@ -63,7 +63,7 @@ Size, in bytes, of the *pBuffer* buffer. If the function succeeds, this paramete
 
 ## Return value
 
-TRUE if a shutdown of the current dll process is in progress; otherwise, FALSE.
+S_OK on success.
 
 ## Remarks
 
