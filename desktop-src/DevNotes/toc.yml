@@ -777,6 +777,8 @@
       href: -win32-alldiv.md
     - name: "_chkstk Routine"
       href: -win32-chkstk.md
+    - name: "__chkstk Routine"
+      href: -win32-__chkstk.md
     - name: "_lclose"
       href: /windows/win32/api/winbase/nf-winbase-_lclose
     - name: "_lread"
