@@ -1472,6 +1472,7 @@ The following values are defined for the extended DLL characteristics bits.
 | Constant | Value | Description |
 |-|-|-|
 | IMAGE\_DLLCHARACTERISTICS\_EX\_CET\_COMPAT | 0x0001 | Image is Control-flow Enforcement Technology (CET) Shadow Stack compatible.  |
+| IMAGE\_DLLCHARACTERISTICS\_EX\_FORWARD\_CFI\_COMPAT | 0x0040 | All branch targets in all image code sections are annotated with forward-edge control flow integrity guard instructions such as x86 CET-Indirect Branch Tracking (IBT) or ARM Branch Target Identification (BTI) instructions. This bit is not used by Windows. |
 
 #### .debug$F (Object Only)
 
