@@ -16,7 +16,7 @@ MUI allows your applications to manage user interface languages in two ways. An 
 
 The system default UI language is the language of the localized version used to set up Windows. All menus, dialog boxes, error messages, and help files are represented in this language, except when the user selects a different language.
 
-On Windows Vista and later, the system default UI language is known as the "install language" and plays a more limited role. For most purposes, it is superseded by the system preferred UI languages. However, in certain contexts it is useful to have a single install language that is always known to be fully supported.
+On Windows Vista and later, the system default UI language is known as the "install language" and plays a more limited role. For most purposes, it is superseded by the system preferred UI languages. Windows applications such as Paint, Notepad, Wordpad and menu options will still be displayed in the system default UI language after a MUI deployment. However, in certain contexts it is useful to have a single install language that is always known to be fully supported.
 
 No MUI function is available to set the system default UI language. To retrieve this language, the application can call [**GetSystemDefaultUILanguage**](/windows/desktop/api/Winnls/nf-winnls-getsystemdefaultuilanguage).
 
