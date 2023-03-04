@@ -1471,7 +1471,7 @@ The following values are defined for the extended DLL characteristics bits.
 
 | Constant | Value | Description |
 |-|-|-|
-| IMAGE\_DLLCHARACTERISTICS\_EX\_CET\_COMPAT | 0x0001 | Image is CET compatible. |
+| IMAGE\_DLLCHARACTERISTICS\_EX\_CET\_COMPAT | 0x0001 | Image is Control-flow Enforcement Technology (CET) Shadow Stack compatible.  |
 
 #### .debug$F (Object Only)
 
