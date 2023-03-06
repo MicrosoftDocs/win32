@@ -11,7 +11,7 @@ ms.custom: contperf-fy21q1
 
 This specification describes the structure of executable (image) files and object files under the Windows family of operating systems. These files are referred to as Portable Executable (PE) and Common Object File Format (COFF) files, respectively.
 
-> [!Note]  
+> [!Note]
 > This document is provided to aid in the development of tools and applications for Windows but is not guaranteed to be a complete specification in all respects. Microsoft reserves the right to alter this document without notice.
 
 This revision of the Microsoft Portable Executable and Common Object File Format Specification replaces all previous revisions of this specification.
@@ -1441,10 +1441,10 @@ If the Type field is set to IMAGE\_DEBUG\_TYPE\_FPO, the debug raw data is an ar
 
 
 ```C++
-#define FRAME_FPO   0               
+#define FRAME_FPO   0
 #define FRAME_TRAP  1
 #define FRAME_TSS   2
-               
+
 typedef struct _FPO_DATA {
     DWORD       ulOffStart;            // offset 1st byte of function code
     DWORD       cbProcSize;            // # bytes in function
@@ -1471,7 +1471,7 @@ The following values are defined for the extended DLL characteristics bits.
 
 | Constant | Value | Description |
 |-|-|-|
-| IMAGE\_DLLCHARACTERISTICS\_EX\_CET\_COMPAT | 0x0001 | Image is CET compatible. |
+| IMAGE\_DLLCHARACTERISTICS\_EX\_CET\_COMPAT | 0x0001 | Image is Control-flow Enforcement Technology (CET) Shadow Stack compatible.  |
 
 #### .debug$F (Object Only)
 
@@ -2000,9 +2000,9 @@ Additionally, the Windows SDK winnt.h header defines this macro for the amount o
 
 Resources are indexed by a multiple-level binary-sorted tree structure. The general design can incorporate 2\*\*31 levels. By convention, however, Windows uses three levels:
 
-<dl> Type  
-Name  
-Language  
+<dl> Type
+Name
+Language
 </dl>
 
 A series of resource directory tables relates all of the levels in the following way: Each directory table is followed by a series of directory entries that give the name or identifier (ID) for that level (Type, Name, or Language level) and an address of either a data description or another directory table. If the address points to a data description, then the data is a leaf in the tree. If the address points to another directory table, then that table lists directory entries at the next level down.
@@ -2121,7 +2121,7 @@ The first 8 bytes of an archive consist of the file signature. The rest of the 
 -   The rest of the archive consists of standard (object-file) members. Each of these members contains the contents of one object file in its entirety.
 
 An archive member header precedes each member. The following list shows the general structure of an archive:
-    
+
 |Signature :"!&lt;arch&gt;\\n"|
 |-------|
 
