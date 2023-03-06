@@ -6,7 +6,7 @@ ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# dcl\_resource raw (sm5 - asm)
+# dcl\_resource\_raw (sm5 - asm)
 
 Declare a shader resource input and assign it to a t\# - a placeholder register for the resource.
 
