@@ -24,12 +24,12 @@ Returns the red components of the four texel values that would be used in a bi-l
 
 ``` syntax
 TemplateType GatherRed(
-  in SamplerState S,
-  in float        Location,
-  in int2         Offset1,
-  in int2         Offset2,
-  in int2         Offset3,
-  in int2         Offset4
+  in SamplerState S,
+  in float3       Location,
+  in int2         Offset1,
+  in int2         Offset2,
+  in int2         Offset3,
+  in int2         Offset4
 );
 ```
 
@@ -113,7 +113,7 @@ This function is supported for the following types of shaders:
 
 
 
- 
+
 
 ## See also
 
@@ -122,9 +122,9 @@ This function is supported for the following types of shaders:
 [GatherRed methods](texture2darray-gatherred.md)
 </dt> </dl>
 
- 
 
- 
+
+
 
 
 
