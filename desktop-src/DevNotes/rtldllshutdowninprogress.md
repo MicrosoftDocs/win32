@@ -7,7 +7,7 @@ topic_type:
 - APIRef
 - kbSyntax
 api_name: 
-- RtlGetVersion
+- RtlDllShutdownInProgress
 api_type: 
 - DllExport
 api_location: 
@@ -48,8 +48,8 @@ This function is not defined in an SDK header and must be declared by the caller
 
 | Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client | Windows 11 |
-| Minimum supported server | Windows 11 |
+| Minimum supported client | Windows 10 |
+| Minimum supported server | Windows 10 |
 | DLL | Ntdll.dll |
 
 
