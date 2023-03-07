@@ -26,9 +26,9 @@ A window receives this message through its [**WindowProc**](/windows/win32/api/w
   
 Type: **WPARAM**
 
-The **BYTE** GDI font character set for the input language.
+The **BYTE** font character set for the input language.
   
-See **lfCharSet** member of the [LOGFONT structure](/windows/win32/api/wingdi/ns-wingdi-logfontw) for a list of possible values.
+See **iCharSet** parameter of the [CreateFont function](/windows/win32/api/wingdi/nf-wingdi-createfontw) for a list of possible values.
 
 </dd> <dt>
 
@@ -58,7 +58,8 @@ You can retrieve the [BCP 47](https://www.rfc-editor.org/info/bcp47) [locale nam
 case WM_INPUTLANGCHANGE:
 {
     HKL hkl = (HKL)lParam;
-    LANGID langId = LOWORD(hkl);
+    // LANGIDs are deprecated. Use BCP 47 locale names where possible.
+    LANGID langId = LOWORD(HandleToUlong(hkl));
 
     WCHAR localeName[LOCALE_NAME_MAX_LENGTH];
     LCIDToLocaleName(MAKELCID(langId, SORT_DEFAULT), localeName, LOCALE_NAME_MAX_LENGTH, 0);
