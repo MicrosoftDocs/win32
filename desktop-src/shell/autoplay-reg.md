@@ -3,7 +3,7 @@ description: There are many situations where AutoRun may need to be temporarily 
 ms.assetid: 5e65a3d8-04b9-46ba-b4e5-a976e1923bfd
 title: Enabling and Disabling AutoRun
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 03/03/2023
 ---
 
 # Enabling and Disabling AutoRun
@@ -90,7 +90,7 @@ BOOL DialogProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam)
 
 ## Using the Registry to Disable AutoRun
 
-There are two registry values that can be used to persistently disable AutoRun: NoDriveAutoRun and NoDriveTypeAutoRun. The first value disables AutoRun for specified drive letters and the second disables AutoRun for a class of drives. If either of these values is set to disable AutoRun for a particular device, it will be disabled. See the Knowledge Base article [How to disable the Autorun functionality in Windows](https://support.microsoft.com/kb/967715) for more information on disabling AutoRun functionality. This article lists the different updates that you must have installed to correctly disable the Autorun functionality.
+There are two registry values that can be used to persistently disable AutoRun: NoDriveAutoRun and NoDriveTypeAutoRun. The first value disables AutoRun for specified drive letters and the second disables AutoRun for a class of drives. If either of these values is set to disable AutoRun for a particular device, it will be disabled.
 
 > [!Note]  
 > The NoDriveAutoRun and NoDriveTypeAutoRun values should only be modified by system administrators to change the value for the entire system for testing or administrative purposes. Applications should not modify these values, as there is no way to reliably restore them to their original values.

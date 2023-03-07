@@ -214,7 +214,7 @@
         - name: "Web Services on Devices"
           href: wsdapi/wsd-portal.md
         - name: "WIA"
-          href: ./wsdapi/wsd-portal.md
+          href: ./wia/-wia-startpage.md
       - name: "Windows Media Device Manager 11 SDK"
         href: ./wmdm/windows-media-device-manager-11-sdk.md
       - name: "Windows Portable Devices"

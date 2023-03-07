@@ -18,7 +18,7 @@ ms.date: 05/31/2018
 
 # Account-Expires attribute
 
-The date when the account expires. This value represents the number of 100-nanosecond intervals since January 1, 1601 (UTC). A value of 0 or 0x7FFFFFFFFFFFFFFF (9223372036854775807) indicates that the account never expires.
+The date when the account expires. This value represents the number of 100-nanosecond intervals since January 1, 1601 (UTC). A value of `0` or `0x7FFFFFFFFFFFFFFF` (`9223372036854775807`) indicates that the account never expires. Accounts configured to never expire may have either value, depending on whether they were originally configured with an expiration value.
 
 
 
@@ -195,6 +195,8 @@ The date when the account expires. This value represents the number of 100-nanos
 ## Remarks
 
 The high part of this large integer corresponds to the **dwHighDateTime** member of the [**FILETIME**](/windows/desktop/api/minwinbase/ns-minwinbase-filetime) structure and the low part corresponds to the **dwLowDateTime** member of the **FILETIME** structure.
+
+When an account is created, the account is initially set to Never Expire.  The **accountExpires** attribute is set to the default of `9223372036854775807`, a value which corresponds the maximum value of a 64-bit signed integer. If an account is configured with an expiration date, the **accountExpires** value is configured to the **FILETIME** value for the expiration date. If at any point in time an account which was configured with an expiration time is set back to Never Expires, the **accountExpires** attribute is then set to `0`.
 
  
 

@@ -3,12 +3,16 @@ description: The configuration of restore operations actually begins during data
 ms.assetid: b1f948cd-d3b0-4637-b76d-b54a74bb5948
 title: Setting VSS Restore Methods
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 03/03/2023
 ---
 
 # Setting VSS Restore Methods
 
 The configuration of restore operations actually begins during data backup, when writers specify, in their Writer Metadata Documents, how their data should be restored.
+
+> [!Note]  
+> The API [MoveFileEx](/windows/desktop/api/WinBase/nf-winbase-movefileexa) cannot be used to restore registry files.
+
 
 These specifications, referred to either as [*restore methods*](vssgloss-r.md) or original [*restore targets*](vssgloss-r.md), can be modified during restore by writers setting new restore targets or by requesters restoring to new locations (see [Non-Default Backup and Restore Locations](non-default-backup-and-restore-locations.md)).
 

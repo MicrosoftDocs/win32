@@ -22,7 +22,7 @@ Many WinHTTP functions, such as [**WinHttpSendRequest**](/windows/win32/api/Winh
 
 [**WinHttpOpen**](/windows/win32/api/Winhttp/nf-winhttp-winhttpopen) creates a session handle. Multiple sessions can exist in a process. This function may be called by multiple threads at the same time to create separate sessions.
 
-[**WinHttpConnect**](/windows/win32/api/Winhttp/nf-winhttp-winhttpconnect) creates a connection handle. Multiple connection handles can exist per session. This function may be called by multiple threads at the same time to create separate connection handle, including connection handles tied to the same session.
+[**WinHttpConnect**](/windows/win32/api/Winhttp/nf-winhttp-winhttpconnect) creates a connection handle. Multiple connection handles can exist per session. This function may be called by multiple threads at the same time to create separate connection handles, including connection handles tied to the same session.
 
 [**WinHttpOpenRequest**](/windows/win32/api/Winhttp/nf-winhttp-winhttpopenrequest) creates a request handle. Multiple requests can exist per connection handle. This function may be called by multiple threads at the same time to create separate requests, including requests tied to the same connection handle.
 

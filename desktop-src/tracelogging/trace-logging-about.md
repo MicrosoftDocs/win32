@@ -37,9 +37,7 @@ TraceLogging offers several benefits:
   [C/C++](/windows/win32/api/traceloggingprovider/),
   [.NET](/dotnet/api/system.diagnostics.tracing.eventsource), and
   [Windows Runtime (WinRT)](/uwp/api/Windows.Foundation.Diagnostics.LoggingChannel).
-  External support available for
-  [Python](https://github.com/microsoft/tracelogging/blob/main/etw/TraceLoggingDynamic_Python),
-  Rust, etc.
+  External support available for [Python](https://github.com/microsoft/tracelogging/tree/main/etw/python/traceloggingdynamic), Rust, etc.
 
 While TraceLogging provides several benefits and should be considered for new
 tracing, manifest-based ETW is still appropriate for many scenarios.

@@ -32,21 +32,21 @@ You can also enable Microsoft Spatial Sound by right-clicking the **Volume** ico
 
 ![enable spatial sound from the taskbar](images/spatialsoundsettingswindows2.png)
 
-### Xbox One
-On Xbox One, Microsoft Spatial Sound capabilities are always available for the consumer, and are enabled via the Settings App under **General -> Volume & audio output**.
+### Xbox
 
+On Xbox, Microsoft Spatial Sound capabilities are always available for the consumer, and are enabled via the Settings App under **General -> Volume & audio output**. 
 
-![enable spatial sound on xbox one in the settings app ](images/audiosettingsbitstream.png)
+The HDMI audio button is populated with all the formats supported by the Audio Video Receiver (AVR) or Soundbar or the TV that is directly connected to your Xbox console. The “Optical audio” option is only available on older Xbox consoles and not on Xbox Series X|S and above.
 
-After Dolby Atmos for home theater is selected as a “Bitstream format”, support for this format is checked via HDMI Extended Display Identification Data (EDID). If the HDMI device does not support the format, an error message is displayed to the user. Note that selecting this option the first time requires the user download the Dolby Access app.
+![Screenshot of the General Volume & Output settings page showing the HDMI audio dropdown.](images/general-volume-and-audio-output.png)
 
-If a format other than "Bitstream out" is selected for **HDMI audio** then the **Bitstream format** dropdown is disabled.
+Note that selecting the “Dolby Atmos for home theater (HDMI only)” or “DTS:X for home theater (HDMI only)” options in HDMI audio will prompt the user to download and install Dolby Access or DTS Sound Unbound apps if not already installed
 
-![spatial sound disabled on xbox one in the settings app ](images/audiosettingsplain.png)
+![Screenshot of the General Volume & Output settings page showing the selection of DTS Digital Surround.](images/general-volume-and-audio-output-2.png)
 
 Select Dolby Atmos for Headphones, DTS Headphone:X, or Windows Sonic for Headphones from the **Headset format** dropdown under **Headset audio**
 
-![enable spatial sound for headphones on xbox one in the settings app ](images/audiosettingsheadphone.png)
+![Screenshot of the General Volume & Output settings page showing the enabling spatial sound for headphones.](images/audiosettingsheadphone.png)
 
 When Microsoft Spatial Sound is not available (for instance, when playing to embedded laptop stereo speakers, or if the user has not explicitly enabled Microsoft Spatial Sound per above), the number of available dynamic objects returned by [**ISpatialAudioClient::GetMaxDynamicObjectCount**](/windows/desktop/api/spatialaudioclient/nf-spatialaudioclient-ispatialaudioclient-getmaxdynamicobjectcount) to an application will be 0.
 
@@ -86,15 +86,25 @@ Renderers can also mix and match between these approaches.
 
 On Windows and Xbox, the number of available voices varies based on the format in use. Dolby Atmos formats support 32 total active objects (so if a 7.1.4 channel bed is in use, 20 additional dynamic sound objects can be active). Windows Sonic for Headphones supports 128 total active objects, with the Low Frequency Effects (LFE) channel not actually being counted as an object -- so when an 8.1.4.4 channel bed is in use, 112 dynamic sound objects can be active.
 
-For Universal Windows Platform apps running on Xbox One game consoles, realtime encode (for Dolby Atmos for home theater, Dolby Atmos for Headphones, DTS Headphone:X, and Windows Sonic for Headphones) is performed in hardware at no CPU cost.
+For Universal Windows Platform apps running on Xbox One game consoles, realtime encode (for Dolby Atmos for Home Theater, Dolby Atmos for Headphones, DTS:X for Home Theater, DTS Headphone:X, and Windows Sonic for Headphones) is performed in hardware at no CPU cost.
 
-| Format                       | Max Static Objects (Channel Bed) | Max Dynamic Objects <br> Xbox One | Max Dynamic Objects <br> Windows | Max Dynamic Objects <br> HoloLens 2
-|------------------------------|----------------------------------|-------------------------------------------|------------------------------------------|------------------------------------------|
-| Dolby Atmos (HDMI)           | 12 (7.1.4)                       | 20                                        | 20                                       | NA |
-| Dolby Atmos (Headphones & Built-in Speakers)     | 17 (8.1.4.4)                     | 16                                        | 16                                       | NA |
-| DTS Headphone:X (Headphones) | 17 (8.1.4.4)        | 16                                        | 32                                      | NA |
-| Windows Sonic for Headphones | 17 (8.1.4.4)        | 15                                        | 112                                      | 31 |
+| Format | Max Static Objects (Channel Bed) | Max Dynamic Objects <br> Xbox One | Max Dynamic Objects <br> Windows | Max Dynamic Objects <br> HoloLens 2 |
+|----------------------------------------------|--------------|----|-----|----|
+| Dolby Atmos for Home Theater (HDMI)          | 12 (7.1.4)   | 20 | 20  | NA |
+| DTS:X for Home Theater (HDMI)                | 17 (8.1.4.4) | 16 | 32  | NA |
+| Dolby Atmos (Headphones & Built-in Speakers) | 17 (8.1.4.4) | 16 | 16  | NA |
+| DTS Headphone:X (Headphones)                 | 17 (8.1.4.4) | 16 | 32  | NA |
+| Windows Sonic (Headphones)                   | 17 (8.1.4.4) | 15 | 112 | 31 |
 
+Starting with the 2303 Xbox OS update and Game Development Kit (GDK), the resource limits on Xbox are updated to the following values:
+
+| Format | Max Static Objects (Channel Bed) | Max Dynamic Objects <br> Xbox Series X\|S, UWP apps & >=2303 GDK | Max Dynamic Objects <br>Xbox Series X\|S, XDK & <2303 GDK | Max Dynamic Objects <br>Xbox One |
+|-------------------------------------|--------------|-----|----|----|
+| Dolby Atmos for Home Theater (HDMI) | 12 (7.1.4)   | 20  | 20 | 20 |
+| DTS:X for Home Theater (HDMI)       | 17 (8.1.4.4) | 20  | 20 | 16 |
+| Dolby Atmos (Headphones)            | 17 (8.1.4.4) | 128 | 20 | 16 |
+| DTS Headphone:X (Headphones)        | 17 (8.1.4.4) | 200 | 20 | 16 |
+| Windows Sonic (Headphones)          | 17 (8.1.4.4) | 220 | 20 | 15 |
 
 Apps should also consider the following resource implications:
 
