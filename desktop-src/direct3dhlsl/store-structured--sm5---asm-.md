@@ -12,7 +12,7 @@ Random-access write of 1-4 32-bit components into a structured buffer unordered 
 
 
 
-| store\_structured dst0\[.write\_mask\], dstAddress\[.select\_component\], dstByteOffset\[.select\_component\], src0\[.swizzle\] |
+| store\_structured dest\[.write\_mask\], dstAddress\[.select\_component\], dstByteOffset\[.select\_component\], src0\[.swizzle\] |
 |---------------------------------------------------------------------------------------------------------------------------------|
 
 
@@ -23,7 +23,7 @@ Random-access write of 1-4 32-bit components into a structured buffer unordered 
 
 | Item                                                                                                                       | Description                                                    |
 |----------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------|
-| <span id="dst0"></span><span id="DST0"></span>*dst0*<br/>                                                            | \[in\] The address of the results of the operation.<br/> |
+| <span id="dest"></span><span id="DEST"></span>*dest*<br/>                                                            | \[in\] The address of the results of the operation.<br/> |
 | <span id="dstAddress"></span><span id="dstaddress"></span><span id="DSTADDRESS"></span>*dstAddress*<br/>             | \[in\] The address at which to write.<br/>               |
 | <span id="dstByteOffset"></span><span id="dstbyteoffset"></span><span id="DSTBYTEOFFSET"></span>*dstByteOffset*<br/> | \[in\] The index of the structure to write.<br/>         |
 | <span id="src0"></span><span id="SRC0"></span>*src0*<br/>                                                            | \[in\] The components to write.<br/>                     |
@@ -34,17 +34,17 @@ Random-access write of 1-4 32-bit components into a structured buffer unordered 
 
 ## Remarks
 
-This instruction performs 1-4 component \*32bit components written from *src0* to *dst0* at the address in *dstAddress* and *dstByteOffset*. No format conversion.
+This instruction performs 1-4 component \*32bit components written from *src0* to *dest* at the address in *dstAddress* and *dstByteOffset*. No format conversion.
 
-*dst0* must be a UAV (u\#). In the compute shader it can also be thread group shared memory (g\#).
+*dest* must be a UAV (u\#). In the compute shader it can also be thread group shared memory (g\#).
 
 *dstAddress* specifies the index of the structure to write.
 
 The location of the data written is equivalent to the following pseudocode which shows the offset, address, pointer to the buffer contents, stride of the source, and the data stored linearly.
 
 ``` syntax
-                    BYTE *BufferContents;             // from dst0
-                    UINT BufferStride;                // from dst0
+                    BYTE *BufferContents;             // from dest
+                    UINT BufferStride;                // from dest
                     UINT dstAddress, dstByteOffset;   // source registers
                     BYTE *WriteLocation;              // value to calculate
 
@@ -71,7 +71,7 @@ The location of the data written is equivalent to the following pseudocode which
 
 This pseudocode shows how the operation functions, but the actual data does not have to be stored linearly. If the data is not stored linearly, the actual operation of the instruction needs to match the behavior of the above operation.
 
-*dst0* can only have a write mask that is one of the following: .x, .xy, .xyz, .xyzw. The write mask determines the number of 32-bit components to write without gaps.
+*dest* can only have a write mask that is one of the following: .x, .xy, .xyz, .xyzw. The write mask determines the number of 32-bit components to write without gaps.
 
 Out of bounds addressing on u\# casued by *dstAddress* means nothing is written to the out of bounds memory.
 

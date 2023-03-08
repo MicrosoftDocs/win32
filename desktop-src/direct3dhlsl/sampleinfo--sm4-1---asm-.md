@@ -12,7 +12,7 @@ Queries the number of samples in a given shader resource view or in the rasteriz
 
 
 
-| \[\_uint\] dest\[.mask\], srcResource\[.swizzle\] |
+| sampleinfo\[\_uint\] dest\[.mask\], srcResource\[.swizzle\] |
 |---------------------------------------------------|
 
 

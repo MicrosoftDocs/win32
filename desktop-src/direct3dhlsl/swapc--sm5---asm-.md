@@ -12,7 +12,7 @@ Performs a component-wise conditional swap of the values between two input regis
 
 
 
-| swapc dest0\[.mask\], dest1\[.mask\], src0\[.swizzle\], src1\[.swizzle\], src2\[.swizzle\] |
+| swapc dst0\[.mask\], dst1\[.mask\], src0\[.swizzle\], src1\[.swizzle\], src2\[.swizzle\] |
 |--------------------------------------------------------------------------------------------|
 
 
@@ -23,8 +23,8 @@ Performs a component-wise conditional swap of the values between two input regis
 
 | Item                                                               | Description                                                                                     |
 |--------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|
-| <span id="dest0"></span><span id="DEST0"></span>*dest0*<br/> | \[in\] Register with arbitrary nonempty write masks. Must be different than *dest1*.<br/> |
-| <span id="dest1"></span><span id="DEST1"></span>*dest1*<br/> | \[in\] Register with arbitrary nonempty write masks. Must be different than *dest0*.<br/> |
+| <span id="dst0"></span><span id="dst0"></span>*dst0*<br/> | \[in\] Register with arbitrary nonempty write masks. Must be different than *dst1*.<br/> |
+| <span id="dst1"></span><span id="dst1"></span>*dst1*<br/> | \[in\] Register with arbitrary nonempty write masks. Must be different than *dst0*.<br/> |
 | <span id="src0"></span><span id="SRC0"></span>*src0*<br/>    | \[in\] Provides 4 conditions. A nonzero integer value means **true**. <br/>               |
 | <span id="src1"></span><span id="SRC1"></span>*src1*<br/>    | \[in\] One of the values to be swapped.<br/>                                              |
 | <span id="src2"></span><span id="SRC2"></span>*src2*<br/>    | \[in\] One of the values to be swapped.<br/>                                              |
@@ -42,23 +42,23 @@ The choice of register and value for *src0*, *src1*, and *src2* are unconstraine
 The semantics of this instruction can be described by the equivalent operations with the **movc** instruction. The worst case is shown in the following example, making sure destination registers are not updated until the end.
 
 ``` syntax
-                swapc dest0[.mask], 
-                      dest1[.mask],
+                swapc dst0[.mask], 
+                      dst1[.mask],
                       src0[.swizzle],
                       src1[.swizzle],
                       src2[.swizzle]
 
                 expands to:
 
-                movc temp[dest0 s mask], 
+                movc temp[dst0 s mask], 
                      src0[.swizzle], 
                      src2[.swizzle], src1[.swizzle]
 
-                movc dest1[.mask], 
+                movc dst1[.mask], 
                      src0[.swizzle], 
                      src1[.swizzle], src2[.swizzle]
 
-                mov  dest0.mask, temp
+                mov  dst0.mask, temp
 ```
 
 You can choose how to tackle the task, if not directly. For example, the same effect can be achieved by a sequence of up to 4 simple scalar conditional swaps, or as above, two vector **movc** instructions, plus any overhead to make sure the source values are not clobbered by earlier operations in the midst of the expansion.

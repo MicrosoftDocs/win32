@@ -12,7 +12,7 @@ Component-wise vector integer equality comparison.
 
 
 
-| dest\[.mask\], src0\[.swizzle\], src1\[.swizzle\] |
+| ieq dest\[.mask\], src0\[.swizzle\], src1\[.swizzle\] |
 |---------------------------------------------------|
 
 

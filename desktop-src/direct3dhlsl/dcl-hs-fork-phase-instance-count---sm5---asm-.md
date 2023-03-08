@@ -12,7 +12,7 @@ Declare the fork phase instance count in a hull shader fork phase.
 
 
 
-| dcl\_hs\_fork\_phase\_instance\_count {1...max 32-bit UINT} |
+| dcl\_hs\_fork\_phase\_instance\_count N |
 |-------------------------------------------------------------|
 
 
@@ -23,7 +23,7 @@ Declare the fork phase instance count in a hull shader fork phase.
 
 | Item                                                   | Description                           |
 |--------------------------------------------------------|---------------------------------------|
-| <span id="N"></span><span id="n"></span>*N*<br/> | \[in\] The instance count.<br/> |
+| <span id="N"></span><span id="n"></span>*N*<br/> | \[in\] The instance count (UINT greater than 0).<br/> |
 
 
 

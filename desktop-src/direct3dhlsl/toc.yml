@@ -2293,9 +2293,9 @@
           href: dcl-output-omask--sm5---asm-.md
         - name: "dcl_output_control_point_count (sm5 - asm)"
           href: dcl-output-control-point-count--sm5---asm-.md
-        - name: "dcl_resource raw (sm5 - asm)"
+        - name: "dcl_resource_raw (sm5 - asm)"
           href: dcl-resource-raw--sm5---asm-.md
-        - name: "dcl_resource structured (sm5 - asm)"
+        - name: "dcl_resource_structured (sm5 - asm)"
           href: dcl-resource-structured--sm5---asm-.md
         - name: "dcl_stream (sm5 - asm)"
           href: dcl-stream--sm5---asm-.md

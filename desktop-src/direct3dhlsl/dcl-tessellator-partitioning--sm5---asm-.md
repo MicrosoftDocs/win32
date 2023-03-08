@@ -12,7 +12,7 @@ Declare the tessellator partitioning in a hull shader declaration section.
 
 
 
-| dcl\_tessellator\_partitioning {partitioning\_integer\| partitioning\_pow2\|partitioning\_fractional\_odd\| partitioning\_fractional\_even} |
+| dcl\_tessellator\_partitioning mode |
 |---------------------------------------------------------------------------------------------------------------------------------------------|
 
 
@@ -21,9 +21,9 @@ Declare the tessellator partitioning in a hull shader declaration section.
 
 
 
-| Item                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            | Description                                     |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------|
-| <span id="partitioning_integer__________________________________partitioning_pow2_partitioning_fractional_odd__________________________________partitioning_fractional_even"></span><span id="PARTITIONING_INTEGER__________________________________PARTITIONING_POW2_PARTITIONING_FRACTIONAL_ODD__________________________________PARTITIONING_FRACTIONAL_EVEN"></span>*partitioning\_integer\| partitioning\_pow2\|partitioning\_fractional\_odd\| partitioning\_fractional\_even*<br/> | \[in\] The tessellator partitioning.<br/> |
+| Item | Description                                     |
+|------|-------------------------------------------------|
+| <span id="partitioning_integer__________________________________partitioning_pow2_partitioning_fractional_odd__________________________________partitioning_fractional_even"></span><span id="PARTITIONING_INTEGER__________________________________PARTITIONING_POW2_PARTITIONING_FRACTIONAL_ODD__________________________________PARTITIONING_FRACTIONAL_EVEN"></span>*mode*<br/> | \[in\] The tessellator partitioning mode. One of:<br/><ul><li>partitioning\_integer</li><li>partitioning\_pow2</li><li>partitioning\_fractional\_odd</li><li>partitioning\_fractional\_even</li></ul> |
 
 
 
