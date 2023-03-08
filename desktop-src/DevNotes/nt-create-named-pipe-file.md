@@ -1,323 +1,197 @@
 ---
 title: NtCreateNamedPipeFile function
-description: Creates an instance of a named pipe and returns a handle for subsequent pipe operations.
-ms.date: 09/09/2022
+description: Creates and opens the server-end handle of the first instance of a specific named pipe or another instance of an existing named pipe.
+ms.date: 02/27/2023
 ms.topic: reference
 ---
 
 # NtCreateNamedPipeFile function
 
-Creates an instance of a named pipe and returns a handle for subsequent pipe operations. A named pipe server process uses this function either to create the first instance of a specific named pipe and establish its basic attributes or to create a new instance of an existing named pipe.
-
-> [!NOTE]
-> This function is the user-mode equivalent to the [**CreateNamedPipeA**](/windows/win32/api/winbase/nf-winbase-createnamedpipea) Win32 function.
+Creates and opens the server-end handle of the first instance of a specific named pipe or another instance of an existing named pipe. The function returns a handle that can be used to access the pipe.
 
 ## Syntax
 
 ```C++
-HANDLE NtCreateNamedPipeFile(
-  [in]           LPCSTR                lpName,
-  [in]           DWORD                 dwOpenMode,
-  [in]           DWORD                 dwPipeMode,
-  [in]           DWORD                 nMaxInstances,
-  [in]           DWORD                 nOutBufferSize,
-  [in]           DWORD                 nInBufferSize,
-  [in]           DWORD                 nDefaultTimeOut,
-  [in, optional] LPSECURITY_ATTRIBUTES lpSecurityAttributes
+NTSTATUS NtCreateNamedPipeFile(
+  [out]          PHANDLE            FileHandle,
+  [in]           ULONG              DesiredAccess,
+  [in]           POBJECT_ATTRIBUTES ObjectAttributes,
+  [out]          PIO_STATUS_BLOCK   IoStatusBlock,
+  [in]           ULONG              ShareAccess,
+  [in]           ULONG              CreateDisposition,
+  [in]           ULONG              CreateOptions,
+  [in]           ULONG              NamedPipeType,
+  [in]           ULONG              ReadMode,
+  [in]           ULONG              CompletionMode,
+  [in]           ULONG              MaximumInstances,
+  [in]           ULONG              InboundQuota,
+  [in]           ULONG              OutboundQuota,
+  [in, optional] PLARGE_INTEGER     DefaultTimeout
 );
 ```
 
 ## Parameters
 
-#### *lpName* \[in\]
+### *FileHandle* \[out\]
 
-The unique pipe name. This string must have the following form:
+Pointer to a variable that receives the file handle if the call is successful.
 
-\\\\.\\pipe&#92;<i>pipename</i>
+### *DesiredAccess* \[in\]
 
-The pipename part of the name can include any character other than a backslash, including numbers and special characters. The entire pipe name string can be up to 256 characters long. Pipe names are not case sensitive.
+A bitmask of flags specifying the type of access to the file or directory that the caller requires. This set of system-defined DesiredAccess flags determines the following specific access rights for file objects.
 
-#### *dwOpenMode* \[in\]
+| Flag | Description |
+|--------|--------|
+| DELETE | The file can be deleted. |
+| FILE_READ_DATA | Data can be read from the file. |
+| FILE_READ_ATTRIBUTES | FileAttributes flags, described below, can be read. |
+| FILE_READ_EA | Extended attributes (EAs) associated with the file can be read. |
+| READ_CONTROL | The access control list (ACL) and ownership information associated with the file can be read. |
+| FILE_WRITE_DATA | Data can be written to the file. |
+| FILE_WRITE_ATTRIBUTES | FileAttributes flags can be written. |
+| FILE_WRITE_EA | EAs associated with the file can be written. |
+| FILE_APPEND_DATA | Data can be appended to the file. |
+| WRITE_DAC | The discretionary access control list (DACL) associated with the file can be written. |
+| WRITE_OWNER | Ownership information associated with the file can be written. |
+| SYNCHRONIZE | The caller can synchronize the completion of an I/O operation by waiting for the returned FileHandle to be set to the Signaled state. This flag must be set if the **CreateOptions** `FILE_SYNCHRONOUS_IO_ALERT` or `FILE_SYNCHRONOUS_IO_NONALERT` flag is set. |
+| FILE_EXECUTE | Data can be read into memory from the file using system paging I/O. |
 
-The open mode. The open mode consists of access flags (one of three values) logically ORed with a writethrough flag (one of two values) and an overlapped flag (one of two values).
+Alternatively, for any file object that does not represent a directory, you can specify one or more of the following generic **ACCESS_MASK** flags. The **STANDARD_RIGHTS_XXX** flags are predefined system values that are used to enforce security on system objects. You can also combine these generic flags with additional flags from the preceding table.
 
-The function fails if <i>dwOpenMode</i> specifies anything other than 0 or the flags listed in the following tables.
+| Desired access to file values | Maps to DesiredAccess flags |
+|--------|--------|
+| GENERIC_READ | STANDARD_RIGHTS_READ, FILE_READ_DATA, FILE_READ_ATTRIBUTES, FILE_READ_EA, SYNCHRONIZE. |
+| GENERIC_WRITE | STANDARD_RIGHTS_WRITE, FILE_WRITE_DATA, FILE_WRITE_ATTRIBUTES, FILE_WRITE_EA, FILE_APPEND_DATA, SYNCHRONIZE. |
+| GENERIC_EXECUTE | STANDARD_RIGHTS_EXECUTE, SYNCHRONIZE, FILE_READ_ATTRIBUTES, FILE_EXECUTE. |
 
-This parameter must specify one of the following pipe access modes. The same mode must be specified for each instance of the pipe.
+For directories (the `FILE_DIRECTORY_FILE` **CreateOptions** flag is set), you can specify one or more of the following **ACCESS_MASK** flags, which you can also combine with any compatible flags that were described earlier.
 
-<table>
-<tr>
-<th>Mode</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="PIPE_ACCESS_DUPLEX"></a><a id="pipe_access_duplex"></a><dl>
-<dt><b>PIPE_ACCESS_DUPLEX</b></dt>
-<dt>0x00000003</dt>
-</dl>
-</td>
-<td width="60%">
-The pipe is bi-directional; both server and client processes can read from and write to the pipe. This mode gives the server the equivalent of <b>GENERIC_READ</b> and <b>GENERIC_WRITE</b> access to the pipe. The client can specify <b>GENERIC_READ</b> or <b>GENERIC_WRITE</b>, or both, when it connects to the pipe using the 
-<a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> function.
+| Desired access to directory values | Description |
+|--------|--------|
+| FILE_LIST_DIRECTORY | Files in the directory can be listed. |
+| FILE_TRAVERSE | The directory can be traversed; that is, it can be part of the pathname of a file. |
 
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="PIPE_ACCESS_INBOUND"></a><a id="pipe_access_inbound"></a><dl>
-<dt><b>PIPE_ACCESS_INBOUND</b></dt>
-<dt>0x00000001</dt>
-</dl>
-</td>
-<td width="60%">
-The flow of data in the pipe goes from client to server only. This mode gives the server the equivalent of <b>GENERIC_READ</b> access to the pipe. The client must specify <b>GENERIC_WRITE</b> access when connecting to the pipe. If the client must read pipe settings by calling the <a href="/windows/desktop/api/namedpipeapi/nf-namedpipeapi-getnamedpipeinfo">GetNamedPipeInfo</a> or <a href="/windows/desktop/api/winbase/nf-winbase-getnamedpipehandlestatea">GetNamedPipeHandleState</a> functions, the client must specify <b>GENERIC_WRITE</b> and <b>FILE_READ_ATTRIBUTES</b> access when connecting to the pipe.
+The `FILE_READ_DATA`, `FILE_WRITE_DATA`, `FILE_EXECUTE`, and `FILE_APPEND_DATA` **DesiredAccess** flags are incompatible with creating or opening a directory file.
 
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="PIPE_ACCESS_OUTBOUND"></a><a id="pipe_access_outbound"></a><dl>
-<dt><b>PIPE_ACCESS_OUTBOUND</b></dt>
-<dt>0x00000002</dt>
-</dl>
-</td>
-<td width="60%">
-The flow of data in the pipe goes from server to client only. This mode gives the server the equivalent of <b>GENERIC_WRITE</b> access to the pipe. The client must specify <b>GENERIC_READ</b> access when connecting to the pipe. If the client must change pipe settings by calling the <a href="/windows/desktop/api/namedpipeapi/nf-namedpipeapi-setnamedpipehandlestate">SetNamedPipeHandleState</a> function, the client must specify <b>GENERIC_READ</b> and <b>FILE_WRITE_ATTRIBUTES</b> access when connecting to the pipe.
+### *ObjectAttributes* \[in\]
 
-</td>
-</tr>
-</table>
- 
+Pointer to an `OBJECT_ATTRIBUTES` structure already initialized by the **InitializeObjectAttributes** routine. If the caller is running in the system process context, this parameter can be `NULL`. Otherwise, the caller must set the `OBJ_KERNEL_HANDLE` attribute in the call to **InitializeObjectAttributes**.
 
-This parameter can also include one or more of the following flags, which enable the write-through and overlapped modes. These modes can be different for different instances of the same pipe.
+Members of this structure for a file object include the following:
 
-<table>
-<tr>
-<th>Mode</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="PIPE_WRITETHROUGH"></a><a id="pipe_writethrough"></a><dl>
-<dt><b>PIPE_WRITETHROUGH</b></dt>
-<dt>0x80000000</dt>
-</dl>
-</td>
-<td width="60%">
-Write-through mode is enabled. This mode affects only write operations on byte-type pipes and, then, only when the client and server processes are on different computers. If this mode is enabled, the redirector is not permitted to delay the transmission of data to the named pipe buffer on the remote server. This disables a performance enhancement for applications that need synchronization with every write operation.
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="FILE_FLAG_OVERLAPPED"></a><a id="file_flag_overlapped"></a><dl>
-<dt><b>FILE_FLAG_OVERLAPPED</b></dt>
-<dt>0x40000000</dt>
-</dl>
-</td>
-<td width="60%">
-Overlapped mode is enabled. If this mode is enabled, functions performing read, write, and connect operations that may take a significant time to be completed can return immediately. This mode enables the thread that started the operation to perform other operations while the time-consuming operation executes in the background. For example, in overlapped mode, a thread can handle simultaneous input and output (I/O) operations on multiple instances of a pipe or perform simultaneous read and write operations on the same pipe handle.
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="FILE_FLAG_WRITETHROUGH"></a><a id="file_flag_writethrough"></a><dl>
-<dt><b>FILE_FLAG_WRITE_THROUGH</b></dt>
-<dt>0x80000000</dt>
-</dl>
-</td>
-<td width="60%">
-The intermediate buffering behavior described by FILE_FLAG_OVERLAPPED will not be permitted in this pipe.
-</td>
-</tr>
-</table>
+| Member | Value |
+|--------|--------|
+| ULONG Length | The number of bytes of the supplied **ObjectAttributes** data. This value must be at least `sizeof(OBJECT_ATTRIBUTES)`. |
+| PUNICODE_STRING ObjectName | Pointer to a buffered Unicode string that contains the name of the file to be created or opened. This value must be a fully qualified file specification, unless it is the name of a file relative to the directory specified by RootDirectory. For example, "\Device\Floppy1\myfile.dat" or "??\B:\myfile.dat" could be the fully qualified file specification, as long as the floppy disk drive driver and overlying file system are already loaded. (Note: "??" replaces "\DosDevices" as the name of the Win32 object namespace. "\DosDevices" still works, but "??" is translated faster by the object manager.) |
+| HANDLE RootDirectory | Optional handle to a directory that was obtained by a previous call to **NtCreateNamedPipeFile**. If this value is NULL, the **ObjectName** member must be a fully qualified file specification that includes the full path to the target file. If this value is non-NULL, the **ObjectName** member specifies a file name relative to this directory. |
+| PSECURITY_DESCRIPTOR SecurityDescriptor | Optional security descriptor to be applied to a file. ACLs specified by such a security descriptor are only applied to the file when it is created. If the value is NULL when a file is created, the ACL placed on the file is file-system-dependent; most file systems propagate some part of such an ACL from the parent directory file combined with the caller's default ACL. |
+| ULONG Attributes | A set of flags that controls the file object attributes. If the caller is running in the system process context, this parameter can be zero. Otherwise, the caller must set the `OBJ_KERNEL_HANDLE` flag. The caller can also optionally set the `OBJ_CASE_INSENSITIVE` flag, which indicates that name-lookup code should ignore the case of **ObjectName** instead of performing an exact-match search. |
 
-This parameter can include any combination of the following security access modes. These modes can be different for different instances of the same pipe.
+### *IoStatusBlock* \[out\]
 
-<table>
-<tr>
-<th>Mode</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="WRITE_DAC"></a><a id="write_dac"></a><dl>
-<dt><b>WRITE_DAC</b></dt>
-<dt>0x00040000L</dt>
-</dl>
-</td>
-<td width="60%">
-The caller will have write access to the named pipe's discretionary access control list (ACL).
+Pointer to a variable of type `IO_STATUS_BLOCK` that receives the final completion status and information about the requested operation. On return from **NtCreateNamedPipeFile**, the **Information** member of the variable contains one of the following values:
 
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="WRITE_OWNER"></a><a id="write_owner"></a><dl>
-<dt><b>WRITE_OWNER</b></dt>
-<dt>0x00080000L</dt>
-</dl>
-</td>
-<td width="60%">
-The caller will have write access to the named pipe's owner.
+- FILE_CREATED
+- FILE_OPENED
+- FILE_OVERWRITTEN
+- FILE_SUPERSEDED
+- FILE_EXISTS
+- FILE_DOES_NOT_EXIST
 
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="ACCESS_SYSTEM_SECURITY"></a><a id="access_system_security"></a><dl>
-<dt><b>ACCESS_SYSTEM_SECURITY</b></dt>
-<dt>0x01000000L</dt>
-</dl>
-</td>
-<td width="60%">
-The caller will have write access to the named pipe's SACL. For more information, see 
-<a href="/windows/desktop/SecAuthZ/access-control-lists">Access-Control Lists (ACLs)</a> and 
-<a href="/windows/desktop/SecAuthZ/sacl-access-right">SACL Access Right</a>.
+### *ShareAccess* \[in\]
 
-</td>
-</tr>
-</table>
+Specifies the type of share access to the file that the caller would like, as zero, or one, or a combination of the following flags. To request exclusive access, set this parameter to zero. To help you avoid sharing violation errors, specify all the following share access flags.
 
-#### *dwPipeMode* \[in\]
+| ShareAccess flags | Description |
+|--------|--------|
+| FILE_SHARE_READ | The file can be opened for read access by other threads' file create calls. |
+| FILE_SHARE_WRITE | The file can be opened for write access by other threads' file create calls. |
+| FILE_SHARE_DELETE | The file can be opened for delete access by other threads' file create calls. |
 
-The pipe mode. This parameter contains a combination of one type mode flag, one read mode flag, and one wait mode flag.
+Device drivers and intermediate drivers usually set ShareAccess to zero, which gives the caller exclusive access to the open file.
 
+### *CreateDisposition* \[in\]
 
-The function fails if <i>dwPipeMode</i> specifies anything other than 0 or the flags listed in the following tables.
+Value that determines how the file should be handled when the file already exists. **CreateDisposition** can be one of the following:
 
-One of the following type modes can be specified. The same type mode must be specified for each instance of the pipe.
+| Value | Description |
+|--------|--------|
+| FILE_SUPERSEDE | If the file already exists, replace it with the given file. If it does not exist, create the given file. |
+| FILE_CREATE | If the file already exists, fail the request and do not create or open the given file. If it does not exist, create the given file. |
+| FILE_OPEN | If the file already exists, open it instead of creating a new file. If it does not exist, fail the request and do not create a new file. |
+| FILE_OPEN_IF | If the file already exists, open it. If it does not exist, create the given file. |
+| FILE_OVERWRITE | If the file already exists, open it and overwrite it. If it does not exist, fail the request. |
+| FILE_OVERWRITE_IF | If the file already exists, open it and overwrite it. If it does not exist, create the given file. |
 
-<table>
-<tr>
-<th>Mode</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="PIPE_TYPE_BYTE"></a><a id="pipe_type_byte"></a><dl>
-<dt><b>PIPE_TYPE_BYTE</b></dt>
-<dt>0x00000000</dt>
-</dl>
-</td>
-<td width="60%">
-Data is written to the pipe as a stream of bytes. This mode cannot be used with PIPE_READMODE_MESSAGE. The pipe does not distinguish bytes written during different write operations.
+### *CreateOptions* \[in\]
 
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="PIPE_TYPE_MESSAGE"></a><a id="pipe_type_message"></a><dl>
-<dt><b>PIPE_TYPE_MESSAGE</b></dt>
-<dt>0x00000004</dt>
-</dl>
-</td>
-<td width="60%">
-Data is written to the pipe as a stream of messages. The pipe treats the bytes written during each write operation as a message unit. The <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function returns <b>ERROR_MORE_DATA</b> when a message is not read completely. This mode can be used with either <b>PIPE_READMODE_MESSAGE</b> or <b>PIPE_READMODE_BYTE</b>.
+Specifies the options to be applied when creating or opening the file, as a compatible combination of the following flags.
 
-</td>
-</tr>
-</table>
- 
+| CreateOptions flag | Description |
+|--------|--------|
+| FILE_DIRECTORY_FILE (0x00000001) | The file being created or opened is a directory file. With this flag, the Disposition parameter must be set to one of `FILE_CREATE`, `FILE_OPEN`, or `FILE_OPEN_IF`. **CreateOptions** flags that are compatible with this flag are as follows: `FILE_SYNCHRONOUS_IO_ALERT`, `FILE_SYNCHRONOUS_IO_NONALERT`, `FILE_WRITE_THROUGH`, `FILE_OPEN_FOR_BACKUP_INTENT`, and `FILE_OPEN_BY_FILE_ID`. |
+| FILE_WRITE_THROUGH (0x00000002) | System services, file systems, and drivers that write data to the file must actually transfer the data into the file before any requested write operation is considered complete. |
+| FILE_SEQUENTIAL_ONLY (0x00000004) | All accesses to the file will be sequential. |
+| FILE_NO_INTERMEDIATE_BUFFERING (0x00000008) | The file cannot be cached or buffered in a driver's internal buffers. This flag is incompatible with the **DesiredAccess** `FILE_APPEND_DATA` flag. |
+| FILE_SYNCHRONOUS_IO_ALERT (0x00000010) | All operations on the file are performed synchronously. Any wait on behalf of the caller is subject to premature termination from alerts. This flag also causes the I/O system to maintain the file position context. If this flag is set, the **DesiredAccess** `SYNCHRONIZE` flag also must be set so that the I/O Manager uses the file object as a synchronization object. |
+| FILE_SYNCHRONOUS_IO_NONALERT (0x00000020) | All operations on the file are performed synchronously. Waits in the system to synchronize I/O queuing and completion are not subject to alerts. This flag also causes the I/O system to maintain the file position context. If this flag is set, the **DesiredAccess** `SYNCHRONIZE` flag also must be set so that the I/O Manager uses the file object as a synchronization object. |
+| FILE_NON_DIRECTORY_FILE (0x00000040) | The file being opened must not be a directory file or this call fails. The file object being opened can represent a data file; a logical, virtual, or physical device; or a volume. |
+| FILE_CREATE_TREE_CONNECTION (0x00000080) | Create a tree connection for this file in order to open it over the network. |
+| FILE_COMPLETE_IF_OPLOCKED (0x00000100) | Complete this operation immediately with an alternate success code if the target file is oplocked, rather than blocking the caller's thread. If the file is oplocked, another caller already has access to the file over the network. |
+| FILE_NO_EA_KNOWLEDGE (0x00000200) | If the extended attributes on an existing file being opened indicate that the caller must understand extended attributes to properly interpret the file, fail this request because the caller does not understand how to deal with extended attributes. |
+| FILE_OPEN_REMOTE_INSTANCE (0x00000400) | Reserved for system use; do not use. |
+| FILE_RANDOM_ACCESS (0x00000800) | Accesses to the file can be random, so no sequential read-ahead operations should be performed on the file by file systems or the operating system. |
+| FILE_DELETE_ON_CLOSE (0x00001000) | Delete the file when the last handle to it is passed to **FltClose**. |
+| FILE_OPEN_BY_FILE_ID (0x00002000) | The file is being opened by ID. The file name contains the name of a device and a 64-bit ID to be used to open the file. |
+| FILE_OPEN_FOR_BACKUP_INTENT (0x000004000) | The file is being opened for backup intent; therefore, the system should check for certain access rights and grant the caller the appropriate accesses to the file before checking the input DesiredAccess against the file's security descriptor. |
+| FILE_NO_COMPRESSION (0x00008000) | Suppress inheritance of `FILE_ATTRIBUTE_COMPRESSED` from the parent directory. This allows creation of a non-compressed file in a directory that is marked compressed. |
+| FILE_OPEN_REQUIRING_OPLOCK (0x00010000) | The file is being opened and an opportunistic lock (oplock) on the file is being requested as a single atomic operation. The file system checks for oplocks before it performs the create operation, and the create operation will fail with a return code of `STATUS_CANNOT_BREAK_OPLOCK` if the create operation would break an existing oplock. This flag is available in Windows 7, Windows Server 2008 R2 and later Windows operating systems. |
+| FILE_DISALLOW_EXCLUSIVE (0x00020000) | When opening an existing file, if `FILE_SHARE_READ` is not specified and file system access checks would not grant the caller write access to the file, fail this open with `STATUS_ACCESS_DENIED`. This was default behavior prior to Windows 7. |
+| FILE_SESSION_AWARE (0x00040000) | The file or device is being opened with session awareness. If this flag is not specified, then per-session devices (such as a device using RemoteFX USB Redirection) cannot be opened by processes running in session 0. This flag has no effect for callers not in session 0. This flag is supported only on server editions of Windows. This flag is not supported before Windows Server 2012. |
+| FILE_RESERVE_OPFILTER (0x00100000) | This flag allows an application to request a filter opportunistic lock (oplock) to prevent other applications from getting share violations. If there are already open handles, the create request will fail with `STATUS_OPLOCK_NOT_GRANTED`. |
+| FILE_OPEN_REPARSE_POINT (0x00200000) | Open a file with a reparse point and bypass normal reparse point processing for the file. For more information, see the following Remarks section. |
+| FILE_OPEN_NO_RECALL (0x00400000) | Instructs any filters that perform offline storage or virtualization to not recall the contents of the file as a result of this open. |
+| FILE_OPEN_FOR_FREE_SPACE_QUERY (0x00800000) | This flag instructs the file system to capture the user associated with the calling thread. Any subsequent calls to **FltQueryVolumeInformation** or **ZwQueryVolumeInformationFile** using the returned handle will assume the captured user, rather than the calling user at the time, for purposes of computing the free space available to the caller. This applies to the following **FsInformationClass** values: `FileFsSizeInformation`, `FileFsFullSizeInformation`, and `FileFsFullSizeInformationEx`. |
 
-One of the following read modes can be specified. Different instances of the same pipe can specify different read modes.
+### *NamedPipeType* \[in\]
 
-<table>
-<tr>
-<th>Mode</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="PIPE_READMODE_BYTE"></a><a id="pipe_readmode_byte"></a><dl>
-<dt><b>PIPE_READMODE_BYTE</b></dt>
-<dt>0x00000000</dt>
-</dl>
-</td>
-<td width="60%">
-Data is read from the pipe as a stream of bytes. This mode can be used with either <b>PIPE_TYPE_MESSAGE</b> or <b>PIPE_TYPE_BYTE</b>.
+Type of named pipe to create (byte-type or message-type).
 
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="PIPE_READMODE_MESSAGE"></a><a id="pipe_readmode_message"></a><dl>
-<dt><b>PIPE_READMODE_MESSAGE</b></dt>
-<dt>0x00000002</dt>
-</dl>
-</td>
-<td width="60%">
-Data is read from the pipe as a stream of messages. This mode can be only used if <b>PIPE_TYPE_MESSAGE</b> is also specified.
+### *ReadMode* \[in\]
 
-</td>
-</tr>
-</table>
- 
+Mode in which to read the pipe (byte-type or message-type).
 
-One of the following wait modes can be specified. Different instances of the same pipe can specify different wait modes.
+### *CompletionMode* \[in\]
 
-<table>
-<tr>
-<th>Mode</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="PIPE_WAIT"></a><a id="pipe_wait"></a><dl>
-<dt><b>PIPE_WAIT</b></dt>
-<dt>0x00000000</dt>
-</dl>
-</td>
-<td width="60%">
-Blocking mode is enabled. When the pipe handle is specified in the 
-<a href="/windows/desktop/api/fileapi/nf-fileapi-readfile">ReadFile</a>, 
-<a href="/windows/desktop/api/fileapi/nf-fileapi-writefile">WriteFile</a>, or 
-<a href="/windows/desktop/api/namedpipeapi/nf-namedpipeapi-connectnamedpipe">ConnectNamedPipe</a> function, the operations are not completed until there is data to read, all data is written, or a client is connected. Use of this mode can mean waiting indefinitely in some situations for a client process to perform an action.
+Specifies how the operation is to be completed.
 
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="PIPE_NOWAIT"></a><a id="pipe_nowait"></a><dl>
-<dt><b>PIPE_NOWAIT</b></dt>
-<dt>0x00000001</dt>
-</dl>
-</td>
-<td width="60%">
-Nonblocking mode is enabled. In this mode, <a href="/windows/desktop/api/fileapi/nf-fileapi-readfile">ReadFile</a>, <a href="/windows/desktop/api/fileapi/nf-fileapi-writefile">WriteFile</a>, and 
-<a href="/windows/desktop/api/namedpipeapi/nf-namedpipeapi-connectnamedpipe">ConnectNamedPipe</a> always return immediately.
+### *MaximumInstances* \[in\]
 
-Note that nonblocking mode is supported for compatibility with Microsoft LAN Manager version 2.0 and should not be used to achieve asynchronous I/O with named pipes. For more information on asynchronous pipe I/O, see 
-<a href="/windows/desktop/ipc/synchronous-and-overlapped-input-and-output">Synchronous and Overlapped Input and Output</a>.
+Maximum number of simultaneous instances of the named pipe.
 
-</td>
-</tr>
-</table>
+### *InboundQuota* \[in\]
 
+Specifies the pool quota that is reserved for writes to the inbound side of the named pipe.
 
-#### *nMaxInstances* \[in\]
+### *OutboundQuota* \[in\]
 
-The maximum number of instances that can be created for this pipe. The first instance of the pipe can specify this value; the same number must be specified for other instances of the pipe. Acceptable values are in the range 1 through **PIPE_UNLIMITED_INSTANCES-1** and <b>PIPE_UNLIMITED_INSTANCES</b>.
-If this parameter is <b>PIPE_UNLIMITED_INSTANCES</b>, the number of pipe instances that can be created is limited only by the availability of system resources. If <i>nMaxInstances</i> is greater than <b>PIPE_UNLIMITED_INSTANCES</b>, the return value is <b>INVALID_HANDLE_VALUE</b> and <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns <b>ERROR_INVALID_PARAMETER</b>.
+Specifies the pool quota that is reserved for writes to the inbound side of the named pipe.
 
-#### *nOutBufferSize* \[in\]
+### *DefaultTimeout* \[in, optional\]
 
-The number of bytes to reserve for the output buffer. For a discussion on sizing named pipe buffers, see the following Remarks section.
-
-#### *nInBufferSize* \[in\]
-
-The number of bytes to reserve for the input buffer. For a discussion on sizing named pipe buffers, see the following Remarks section.
-
-#### *nDefaultTimeOut* \[in\]
-
-The default time-out value, in milliseconds, used when a timeout value is not specified when waiting for an instance of a named pipe. This parameter is only meaningful when the first instance of a named pipe is created. Each instance of a named pipe must specify the same value.
-
-A value of zero will result in a default time-out of 50 milliseconds.
-
-#### *lpSecurityAttributes* \[in, optional\]
-
-A pointer to a 
-<a href="/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a> structure that specifies a security descriptor for the new named pipe and determines whether child processes can inherit the returned handle. If <i>lpSecurityAttributes</i> is <b>NULL</b>, the named pipe gets a default security descriptor and the handle cannot be inherited. The ACLs in the default security descriptor for a named pipe grant full control to the LocalSystem account, administrators, and the creator owner. They also grant read access to members of the Everyone group and the anonymous account.
+An optional pointer to a timeout value that is used if a timeout value is not specified when waiting for an instance of a named pipe.
 
 ## Returns
 
-If the function succeeds, the return value is a handle to the server end of a named pipe instance.
-
-If the function fails, the return value is <b>INVALID_HANDLE_VALUE</b>. To get extended error information, call 
-<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+The function value is the final status of the create/open operation.
 
 ## Remarks
 
-To create an instance of a named pipe, the user must have <b>FILE_CREATE_PIPE_INSTANCE</b> access to the named pipe object. If a new named pipe is being created, the access control list (ACL) from the security attributes parameter defines the discretionary access control for the named pipe.
+To create an instance of a named pipe, the user must have **FILE_CREATE_PIPE_INSTANCE** access to the named pipe object. If a new named pipe is being created, the access control list (ACL) from the security attributes parameter defines the discretionary access control for the named pipe.
 
-All instances of a named pipe must specify the same pipe type (byte-type or message-type), pipe access (duplex, inbound, or outbound), instance count, and time-out value. If different values are used, this function fails and <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns <b>ERROR_ACCESS_DENIED</b>.
+All instances of a named pipe must specify the same pipe type (byte-type or message-type), pipe access (duplex, inbound, or outbound), instance count, and time-out value. If different values are used, this function fails and [GetLastError](/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror) returns **ERROR_ACCESS_DENIED**.
 
- A client process connects to a named pipe by using the <a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> or <a href="/windows/desktop/api/winbase/nf-winbase-callnamedpipea">CallNamedPipe</a> function. The client side of a named pipe starts out in byte mode, even if the server side is in message mode. To avoid problems receiving data, set the client side to message mode as well. To change the mode of the pipe, the pipe client must open a read-only pipe with <b>GENERIC_READ</b> and  <b>FILE_WRITE_ATTRIBUTES</b> access.
+ A client process connects to a named pipe by using the [CreateFile](/windows/win32/api/fileapi/nf-fileapi-createfilea) or [CallNamedPipe](/windows/win32/api/winbase/nf-winbase-callnamedpipea) function. The client side of a named pipe starts out in byte mode, even if the server side is in message mode. To avoid problems receiving data, set the client side to message mode as well. To change the mode of the pipe, the pipe client must open a read-only pipe with **GENERIC_READ** and **FILE_WRITE_ATTRIBUTES** access.
 
 The pipe server should not perform a blocking read operation until the pipe client has started. Otherwise, a race condition can occur. This typically occurs when initialization code, such as the C run-time, needs to lock and examine inherited handles.
 
@@ -327,12 +201,11 @@ The input and output buffer sizes are advisory. The actual buffer size reserved 
 
 Whenever a pipe write operation occurs, the system first tries to charge the memory against the pipe write quota. If the remaining pipe write quota is enough to fulfill the request, the write operation completes immediately. If the remaining pipe write quota is too small to fulfill the request, the system will try to expand the buffers to accommodate the data using nonpaged pool reserved for the process. The write operation will block until the data is read from the pipe so that the additional buffer quota can be released. Therefore, if your specified buffer size is too small, the system will grow the buffer as needed, but the downside is that the operation will block. If the operation is overlapped, a system thread is blocked; otherwise, the application thread is blocked.
 
-To free resources used by a named pipe, the application should always close handles when they are no longer needed, which is accomplished either by calling the <a href="/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a> function or when the process associated with the instance handles ends. Note that an instance of a named pipe may have more than one handle associated with it. An instance of a named pipe is always deleted when the last handle to the instance of the named pipe is closed.
+To free resources used by a named pipe, the application should always close handles when they are no longer needed, which is accomplished either by calling the [CloseHandle](/windows/win32/api/handleapi/nf-handleapi-closehandle) function or when the process associated with the instance handles ends. Note that an instance of a named pipe may have more than one handle associated with it. An instance of a named pipe is always deleted when the last handle to the instance of the named pipe is closed.
 
 ## Requirements
 
-
 | Requirement | Value |
-|-----------------|-------------------------------------------------|
-| Header<br/>                   | <dl> <dt>ntioapi.h</dt> </dl> |
-| Library<br/>                  | <dl> <dt>ntdll.lib</dt> </dl> |
+|--------|--------|
+| Header | ntioapi.h |
+| Library | ntdll.lib |
