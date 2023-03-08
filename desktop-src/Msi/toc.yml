@@ -3733,9 +3733,9 @@
     - name: "Errors Reference"
       href: errors-reference.md
       items: 
-      - name: "Windows Installer Error Messages"
+      - name: "Windows Installer error essages"
         href: windows-installer-error-messages.md
-      - name: "MsiExec.exe and InstMsi.exe Error Messages"
+      - name: "MsiExec.exe and InstMsi.exe error messages"
         href: error-codes.md
     - name: "Glossary"
       href: glossary.md
