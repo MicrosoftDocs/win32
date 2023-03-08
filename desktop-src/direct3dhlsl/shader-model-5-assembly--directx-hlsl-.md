@@ -80,7 +80,7 @@ This section describes the instructions supported by Shader Model 5.
 [dcl\_stream](dcl-stream--sm5---asm-.md)  
 [dcl\_temps](dcl-temps.md)  
 [dcl\_tessellator\_domain](dcl-tessellator-domain--sm5---asm-.md)  
-[dcl\_tessellator\_output\_primitve](dcl-tessellator-output-primitive--sm5---asm-.md)  
+[dcl\_tessellator\_output\_primitive](dcl-tessellator-output-primitive--sm5---asm-.md)  
 [dcl\_tessellator\_partitioning](dcl-tessellator-partitioning--sm5---asm-.md)  
 [dcl\_tgsm\_raw](dcl-tgsm-raw--sm5---asm-.md)  
 [dcl\_tgsm\_structured](dcl-tgsm-structured--sm5---asm-.md)  

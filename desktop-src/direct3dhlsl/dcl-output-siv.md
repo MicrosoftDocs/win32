@@ -17,7 +17,7 @@ Declares an output register that contains a [system-value](dx-graphics-hlsl-sema
 
 
 
-| dcl\_output\_siv oN\[*.masks*\], *systemValue* |
+| dcl\_output\_siv oN\[.mask\], systemValueName |
 |------------------------------------------------|
 
 
@@ -28,8 +28,7 @@ Declares an output register that contains a [system-value](dx-graphics-hlsl-sema
 
 | Item                                                                                                                               | Description                                                                                                                                         |
 |------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
-| <span id="oN"></span><span id="on"></span><span id="ON"></span>o*N*<br/>                                                     | \[in\] An output data register; *N* is an integer that denotes the register number.<br/>                                                      |
-| <span id="_.mask_"></span><span id="_.MASK_"></span>*\[.mask\]*<br/>                                                         | \[in\] Optional. A component mask (.xyzw) that specifies which of the register components to use.<br/>                                        |
+| <span id="oN"></span><span id="on"></span><span id="ON"></span>o*N*<br/>                                                     | \[in\] An output data register;<br/><ul><li><em>N</em> is an integer that identifies the register number.</li><li><em>[.mask]</em> is an optional component mask (.xyzw) that specifies which of the register components to use.</li></ul> |
 | <span id="systemValueName"></span><span id="systemvaluename"></span><span id="SYSTEMVALUENAME"></span>*systemValueName*<br/> | \[in\] The system-value name which is a string (see [system-value semantics](dx-graphics-hlsl-semantics.md)) without the "SV\_" prefix.<br/> |
 
 

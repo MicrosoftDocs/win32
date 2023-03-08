@@ -12,7 +12,7 @@ Computes a component-wise double-precision division.
 
 
 
-| ddiv\[\_sat\] dest\[.mask\], \[-\]src0\[\_abs\]\[.swizzle\] \[-\]src1\[\_abs\]\[.swizzle\] |
+| ddiv\[\_sat\] dest\[.mask\], \[-\]src0\[\_abs\]\[.swizzle\], \[-\]src1\[\_abs\]\[.swizzle\] |
 |--------------------------------------------------------------------------------------------|
 
 

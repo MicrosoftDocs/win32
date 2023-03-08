@@ -12,7 +12,7 @@ Declare the hull shader input control point count in the hull shader declaration
 
 
 
-| dcl\_input\_control\_point\_count {1..32} |
+| dcl\_input\_control\_point\_count N |
 |-------------------------------------------|
 
 
@@ -23,7 +23,7 @@ Declare the hull shader input control point count in the hull shader declaration
 
 | Item                                                   | Description                                      |
 |--------------------------------------------------------|--------------------------------------------------|
-| <span id="N"></span><span id="n"></span>*N*<br/> | \[in\] The input control point count.<br/> |
+| <span id="N"></span><span id="n"></span>*N*<br/> | \[in\] The input control point count {1..32}.<br/> |
 
 
 

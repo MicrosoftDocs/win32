@@ -12,7 +12,7 @@ Performs a comparison filter.
 
 
 
-| sample\_c\[\_aoffimmi(u,v,w)\] dest\[.mask\], srcAddress\[.swizzle\], srcResource.r, // must be .r swizzle srcSampler, srcReferenceValue // single component selected |
+| sample\_c\[\_aoffimmi(u,v,w)\] dest\[.mask\], srcAddress\[.swizzle\], srcResource.r, srcSampler, srcReferenceValue |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 
 
@@ -25,7 +25,7 @@ Performs a comparison filter.
 |--------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------|
 | <span id="dest"></span><span id="DEST"></span>*dest*<br/>                                                                            | \[in\] The address of the results of the operation.<br/>                                                             |
 | <span id="srcAddress"></span><span id="srcaddress"></span><span id="SRCADDRESS"></span>*srcAddress*<br/>                             | \[in\] A set of texture coordinates. For more information see the [sample](sample--sm4---asm-.md) instruction.<br/> |
-| <span id="srcResource"></span><span id="srcresource"></span><span id="SRCRESOURCE"></span>*srcResource*<br/>                         | \[in\] A texture register. For more information see the **sample** instruction.<br/>                                 |
+| <span id="srcResource"></span><span id="srcresource"></span><span id="SRCRESOURCE"></span>*srcResource*<br/>                         | \[in\] A texture register. For more information see the **sample** instruction. Must be .r swizzle.<br/>                                 |
 | <span id="srcSampler"></span><span id="srcsampler"></span><span id="SRCSAMPLER"></span>*srcSampler*<br/>                             | \[in\] A sampler register. For more information see the **sample** instruction.<br/>                                 |
 | <span id="srcReferenceValue"></span><span id="srcreferencevalue"></span><span id="SRCREFERENCEVALUE"></span>*srcReferenceValue*<br/> | \[in\] A register with a single component selected, which is used in the comparison.<br/>                            |
 

@@ -12,7 +12,7 @@ Component-wise conversion from double-precision floating-point data to single-pr
 
 
 
-| dtof dest\[.mask\], \[-\]src\[.swizzle\], |
+| dtof dest\[.mask\], \[-\]src0\[.swizzle\], |
 |-------------------------------------------|
 
 
@@ -40,7 +40,7 @@ The valid *dest* masks are any one or two components. That is: .x, .y, .z, .w, .
 
 *dest* components are float32.
 
-*src* is a double vec2 across (x 32LSB, y 32MSB) and (z 32LSB, w 32MSB) post swizzle.
+*src0* is a double vec2 across (x 32LSB, y 32MSB) and (z 32LSB, w 32MSB) post swizzle.
 
 For float32<->double conversions, implementations may either honor float32 denorms or may flush them.
 

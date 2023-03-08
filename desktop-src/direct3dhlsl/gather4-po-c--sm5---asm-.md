@@ -12,7 +12,7 @@ Behaves the same as [**gather4\_po**](gather4-po--sm5---asm-.md), except perform
 
 
 
-| gather4\_po\_c dest\[.mask\], srcAddress\[.swizzle\], srcOffset\[.swizzle\], srcResource\[.swizzle\], srcSampler\[.R\], srcReferenceValue |
+| gather4\_po\_c dest\[.mask\], srcAddress\[.swizzle\], srcOffset\[.swizzle\], srcResource\[.swizzle\], srcSampler\[.r\], srcReferenceValue |
 |-------------------------------------------------------------------------------------------------------------------------------------------|
 
 

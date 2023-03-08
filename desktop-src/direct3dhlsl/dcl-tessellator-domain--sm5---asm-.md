@@ -12,7 +12,7 @@ Declare the tessellator domain in a hull shader declaration section, and the dom
 
 
 
-| dcl\_tessellator\_domain {domain\_isoline \| domain\_tri \| domain\_quad} |
+| dcl\_tessellator\_domain domain |
 |---------------------------------------------------------------------------|
 
 
@@ -23,7 +23,7 @@ Declare the tessellator domain in a hull shader declaration section, and the dom
 
 | Item                                                                                                                                                                                | Description                   |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------|
-| <span id="domain_isoline___domain_tri___domain_quad"></span><span id="DOMAIN_ISOLINE___DOMAIN_TRI___DOMAIN_QUAD"></span>*domain\_isoline \| domain\_tri \| domain\_quad*<br/> | \[in\] The domain.<br/> |
+| <span id="domain_isoline___domain_tri___domain_quad"></span><span id="DOMAIN_ISOLINE___DOMAIN_TRI___DOMAIN_QUAD"></span>*domain*<br/> | \[in\] The domain. One of:<br/><ul><li>domain\_isoline</li><li>domain\_tri</li><li>domain\_quad</li></ul> |
 
 
 

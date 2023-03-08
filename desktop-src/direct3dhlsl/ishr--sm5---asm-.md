@@ -12,7 +12,7 @@ Arithmetic shift right (sign extending).
 
 
 
-| ishl dest\[.mask\], src0\[.swizzle\], src1\[.swizzle\] |
+| ishr dest\[.mask\], src0\[.swizzle\], src1\[.swizzle\] |
 |--------------------------------------------------------|
 
 

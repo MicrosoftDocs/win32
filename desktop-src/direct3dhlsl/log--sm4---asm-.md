@@ -12,7 +12,7 @@ Component-wise log base 2.
 
 
 
-| log\[\_sat\] dest\[.mask\], \[-\]src0\[\_abs\]\[.swizzle |
+| log\[\_sat\] dest\[.mask\], \[-\]src0\[\_abs\]\[.swizzle\] |
 |----------------------------------------------------------|
 
 

@@ -12,8 +12,8 @@ Declare the tessellator output primitive type in a hull shader declaration secti
 
 
 
-| dcl\_tessellator\_output\_primitive {output\_point \| output\_line \| triangloutput\_e\_cw \| output\_triangle\_ccw} |
-|----------------------------------------------------------------------------------------------------------------------|
+| dcl\_tessellator\_output\_primitive type |
+|------------------------------------------|
 
 
 
@@ -21,9 +21,9 @@ Declare the tessellator output primitive type in a hull shader declaration secti
 
 
 
-| Item                                                                                                                                                                                                                                                                                                                                            | Description                                  |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------|
-| <span id="output_point___output_line_____________________________________triangloutput_e_cw___output_triangle_ccw"></span><span id="OUTPUT_POINT___OUTPUT_LINE_____________________________________TRIANGLOUTPUT_E_CW___OUTPUT_TRIANGLE_CCW"></span>*output\_point \| output\_line \| triangloutput\_e\_cw \| output\_triangle\_ccw*<br/> | \[in\] The output primitive type.<br/> |
+| Item | Description                                  |
+|------|----------------------------------------------|
+| <span id="output_point___output_line_____________________________________triangloutput_e_cw___output_triangle_ccw"></span><span id="OUTPUT_POINT___OUTPUT_LINE_____________________________________TRIANGLOUTPUT_E_CW___OUTPUT_TRIANGLE_CCW"></span>*type*<br/> | \[in\] The output primitive type. One of:<br/><ul><li>output\_point</li><li>output\_line</li><li>output\_triangle\_cw</li><li>output\_triangle\_ccw</ul><br/> |
 
 
 

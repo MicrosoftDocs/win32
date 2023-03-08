@@ -12,7 +12,7 @@ Atomically decrement the hidden 32-bit counter stored with a Count or Append uno
 
 
 
-| imm\_atomic\_consume dst0\[.single\_component\_mask\], dstUAV |
+| imm\_atomic\_consume dest\[.single\_component\_mask\], dstUAV |
 |---------------------------------------------------------------|
 
 
@@ -23,7 +23,7 @@ Atomically decrement the hidden 32-bit counter stored with a Count or Append uno
 
 | Item                                                                                           | Description                                                               |
 |------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------|
-| <span id="dst0"></span><span id="DST0"></span>*dst0*<br/>                                | \[in\] Contains the returned original counter value.<br/>           |
+| <span id="dest"></span><span id="DEST"></span>*dest*<br/>                                | \[in\] Contains the returned original counter value.<br/>           |
 | <span id="dstUAV"></span><span id="dstuav"></span><span id="DSTUAV"></span>*dstUAV*<br/> | \[in\] A structured buffer UAV with the Count or Append flag. <br/> |
 
 
@@ -34,7 +34,7 @@ Atomically decrement the hidden 32-bit counter stored with a Count or Append uno
 
 See [imm\_atomic\_alloc](imm-atomic-alloc--sm5---asm-.md) for a discussion about the validity of the returned count value depending on whether the UAV is Count or Append. The same applies for **imm\_atomic\_consume**.
 
-**imm\_atomic\_consume** does an atomic decrement of the counter value, returning the new value to *dst0*.
+**imm\_atomic\_consume** does an atomic decrement of the counter value, returning the new value to *dest*.
 
 There is no clamping of the count, so it wraps on underflow.
 
