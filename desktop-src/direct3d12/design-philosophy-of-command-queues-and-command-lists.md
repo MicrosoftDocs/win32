@@ -13,10 +13,9 @@ ms.date: 05/31/2018
 
 The goals of enabling reuse of rendering work and of multi-threaded scaling, required fundamental changes to how Direct3D apps submit rendering work to the GPU. In Direct3D 12, the process of submitting rendering work differs from earlier versions in three important ways:
 
-<dl> 1. Elimination of the immediate context. This enables multi-threading.  
-2. Apps now own how rendering calls are grouped into graphics processing unit (GPU) work items. This enables re-use.  
-3. Apps now explicitly control when work is submitted to the GPU . This enables items 1 and 2.  
-</dl>
+1. Elimination of the immediate context. This enables multi-threading.
+2. Apps now own how rendering calls are grouped into graphics processing unit (GPU) work items. This enables re-use.
+3. Apps now explicitly control when work is submitted to the GPU. This enables items 1 and 2.
 
 -   [Removal of the immediate context](#removal-of-the-immediate-context)
 -   [Grouping of GPU work items](#grouping-of-gpu-work-items)
@@ -43,15 +42,4 @@ Any thread may submit a command list to any command queue at any time, and the r
 
 ## Related topics
 
-<dl> <dt>
-
-[Work Submission in Direct3D 12](command-queues-and-command-lists.md)
-</dt> </dl>
-
- 
-
- 
-
-
-
-
+* [Work submission in Direct3D 12](command-queues-and-command-lists.md)
