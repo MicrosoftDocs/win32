@@ -30,7 +30,7 @@ This type is available only in C++. Its .NET equivalent is [System.Numerics.Plan
 | `plane(float x, float y, float z, float d)` | Creates a plane with the specified values. |
 | `plane(float3 normal, float d)` | Creates a plane from a float3 and a distance. |
 | `explicit plane(float4 value)` | Creates a plane from a float4. |
-| `plane(Microsoft::?Graphics::?Canvas::?Numerics::?Plane const& value)` | Converts a **Microsoft.Graphics.Canvas.Numerics.Plane** to a plane. |
+| `plane(Microsoft::Graphics::Canvas::Numerics::Plane const& value)` | Converts a **Microsoft.Graphics.Canvas.Numerics.Plane** to a plane. |
 
 ## Functions
 
@@ -50,7 +50,7 @@ This type is available only in C++. Its .NET equivalent is [System.Numerics.Plan
 |-|-|
 | `bool operator== (plane const& value1, plane const& value2)` | Determines whether two instances of plane are equal. |
 | `bool operator!= (plane const& value1, plane const& value2)` | Determines whether two instances of plane are not equal. |
-| `operator Microsoft::?Graphics::?Canvas::?Numerics::?Plane() const` | Converts a plane to a **Microsoft.Graphics.Canvas.Numerics.Plane**. |
+| `operator Microsoft::Graphics::Canvas::Numerics::Plane() const` | Converts a plane to a **Microsoft.Graphics.Canvas.Numerics.Plane**. |
 
 ## Fields
 
