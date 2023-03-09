@@ -25,11 +25,9 @@ The function returns an `int` value. The operating system doesn't use the return
 
 A *calling convention*, such as `WINAPI`, defines how a function receives parameters from the caller. For example, the calling convention defines the order that parameters appear on the stack. Make sure to declare your **wWinMain** function as shown in the preceding example.
 
-The **WinMain** function is the same as **wWinMain**, except the command-line arguments are passed as an ANSI string. The Unicode string is preferred.
+The **WinMain** function is the same as **wWinMain**, except the command-line arguments are passed as an ANSI string. The Unicode string is preferred. You can use the ANSI **WinMain** function even if you compile your program as Unicode. To get a Unicode copy of the command-line arguments, call the [GetCommandLine](/windows/desktop/api/processenv/nf-processenv-getcommandlinea) function. This function returns all of the arguments in a single string. If you want the arguments as an *argv*-style array, pass this string to [CommandLineToArgvW](/windows/desktop/api/shellapi/nf-shellapi-commandlinetoargvw).
 
-You can use the ANSI **WinMain** function even if you compile your program as Unicode. To get a Unicode copy of the command-line arguments, call the [GetCommandLineW](/windows/desktop/api/processenv/nf-processenv-getcommandlinew) function. This function returns all of the arguments in a single string. You can pass this string to [CommandLineToArgvW](/windows/desktop/api/shellapi/nf-shellapi-commandlinetoargvw) if you want the arguments as an `argv`-style array.
-
-The compiler invokes **wWinMain** or **WinMain** instead of the standard **main** function because the Microsoft C Runtime Library (CRT) provides an implementation of **main** that calls either **WinMain** or **wWinMain**.
+How does the compiler know to invoke **wWinMain** instead of the standard **main** function? What actually happens is that the Microsoft C runtime library (CRT) provides an implementation of **main** that calls either **WinMain** or **wWinMain**.
 
 The CRT does some more work inside **main**. For example, it calls any static initializers before **wWinMain**. Although you can tell the linker to use a different entry-point function, you should use the default if you link to the CRT. Otherwise, the CRT initialization code is skipped, with unpredictable results such as global objects not being initialized correctly.
 
