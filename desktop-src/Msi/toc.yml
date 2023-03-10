@@ -3654,7 +3654,7 @@
     - name: "Released Versions, Tools, and Redistributables"
       href: released-versions-tools-and-redistributables.md
       items: 
-      - name: "Windows SDK Components for Windows Installer Developers"
+      - name: "Windows SDK components for Windows Installer developers"
         href: platform-sdk-components-for-windows-installer-developers.md
       - name: "Windows Installer Redistributables"
         href: windows-installer-redistributables.md
