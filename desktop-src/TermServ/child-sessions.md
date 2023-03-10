@@ -13,10 +13,9 @@ Beginning with Windows Server 2012 and Windows 8, Remote Desktop supports the 
 
 Child sessions are not supported on the following operating systems:
 
-<dl> Windows RT  
-Windows Server 2012 Server Core installation option  
-Microsoft Hyper-V Server 2012  
-</dl>
+-   Windows RT  
+-   Windows Server 2012 Server Core installation option  
+-   Microsoft Hyper-V Server 2012  
 
 A system can only have one active and connected child session at any given time.
 
