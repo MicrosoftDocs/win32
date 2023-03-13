@@ -26,7 +26,9 @@ A window receives this message through its [**WindowProc**](/windows/win32/api/w
   
 Type: **WPARAM**
 
-The [code page](../Intl/code-pages.md) of the new locale.
+The **BYTE** font character set for the input language.
+  
+See **iCharSet** parameter of the [CreateFont function](/windows/win32/api/wingdi/nf-wingdi-createfontw) for a list of possible values.
 
 </dd> <dt>
 
@@ -56,7 +58,8 @@ You can retrieve the [BCP 47](https://www.rfc-editor.org/info/bcp47) [locale nam
 case WM_INPUTLANGCHANGE:
 {
     HKL hkl = (HKL)lParam;
-    LANGID langId = LOWORD(hkl);
+    // LANGIDs are deprecated. Use BCP 47 locale names where possible.
+    LANGID langId = LOWORD(HandleToUlong(hkl));
 
     WCHAR localeName[LOCALE_NAME_MAX_LENGTH];
     LCIDToLocaleName(MAKELCID(langId, SORT_DEFAULT), localeName, LOCALE_NAME_MAX_LENGTH, 0);
@@ -64,10 +67,14 @@ case WM_INPUTLANGCHANGE:
     // Get the ISO abbreviated language name (for example, "eng").
     WCHAR lang[9];
     GetLocaleInfoEx(localeName, LOCALE_SISO639LANGNAME2, lang, 9);
+    
+    // Get the keyboard layout identifier (for example, "00020409" for United States-International keyboard layout)
+    WCHAR keyboardLayoutId[KL_NAMELENGTH];
+    GetKeyboardLayoutNameW(keyboardLayoutId);
 }
 ```
 
-To get the the name of the currently active input locale identifier, call the [GetKeyboardLayoutName](/windows/win32/api/winuser/nf-winuser-getkeyboardlayoutnamew). For more information, see [Languages, Locales, and Keyboard Layouts](/windows/win32/inputdev/about-keyboard-input#languages-locales-and-keyboard-layouts).
+To get the the name of the currently active keyboard layout, call the [GetKeyboardLayoutName](/windows/win32/api/winuser/nf-winuser-getkeyboardlayoutnamew). For more information, see [Languages, Locales, and Keyboard Layouts](/windows/win32/inputdev/about-keyboard-input#languages-locales-and-keyboard-layouts).
 
 For a list of the input layouts that are supplied with Windows, see [Keyboard Identifiers and Input Method Editors for Windows](/windows-hardware/manufacture/desktop/windows-language-pack-default-values).
 
