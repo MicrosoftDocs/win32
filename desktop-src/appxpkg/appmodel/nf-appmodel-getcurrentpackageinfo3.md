@@ -103,10 +103,10 @@ This function does not have an associated header file or library file. Your appl
 
 ## See also
 
-* [GetCurrentPackageInfo](/windows/win32/api/appmodel/nf-appmodel-getcurrentpackageinfo.md)
+* [GetCurrentPackageInfo](/windows/win32/api/appmodel/nf-appmodel-getcurrentpackageinfo)
 * [GetCurrentPackageFamilyName](/windows/win32/api/appmodel/nf-appmodel-getcurrentpackagefamilyname)
 * [GetCurrentPackageFullName](/windows/win32/api/appmodel/nf-appmodel-getcurrentpackagefullname)
 * [GetCurrentPackageId](/windows/win32/api/appmodel/nf-appmodel-getcurrentpackageid)
 * [GetCurrentPackagePath](/windows/win32/api/appmodel/nf-appmodel-getcurrentpackagepath)
 * [GetPackageInfo](/windows/win32/api/appmodel/nf-appmodel-getpackageinfo)
-* [GetPackageInfo2](/windows/win32/api/appmodel/nf-appmodel-getpackageinfo2.md)
+* [GetPackageInfo2](/windows/win32/api/appmodel/nf-appmodel-getpackageinfo2)
