@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Volume and LUN Binding
 
-\[Beginning with Windows 8 and Windows Server 2012, the [Virtual Disk Service](virtual-disk-service-portal.md) COM interface is superseded by the [Windows Storage Management API](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal).\]
+\[Beginning with Windows 8 and Windows Server 2012, the [Virtual Disk Service](virtual-disk-service-portal.md) COM interface is superseded by the [Windows Storage Management API](/windows-hardware/drivers/storage/windows-storage-management-api-portal).\]
 
 Binding is the creation of volumes or LUNs. Volumes consist of disk extents and LUNs consist of drive extents. Binding selects for a set of mappings to physical resources and occurs within a subsystem, within a pack, or both. All provider programs support partially directed binding a model in which the caller specifies only those binding attributes of particular interest, and allows the provider to choose the rest. The operations in VDS for binding volumes and LUNs are similar but not identical. For example, hardware providers can offer additional binding options.
 

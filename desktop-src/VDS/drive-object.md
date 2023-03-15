@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Drive Object
 
-\[Beginning with Windows 8 and Windows Server 2012, the [Virtual Disk Service](virtual-disk-service-portal.md) COM interface is superseded by the [Windows Storage Management API](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal).\]
+\[Beginning with Windows 8 and Windows Server 2012, the [Virtual Disk Service](virtual-disk-service-portal.md) COM interface is superseded by the [Windows Storage Management API](/windows-hardware/drivers/storage/windows-storage-management-api-portal).\]
 
 A drive object models a physical disk drive that is contained within a subsystem. Each drive connects to a bus, occupies a slot, and contains a set of drive extents. Each drive can contribute extents to any number of LUNs. A drive can also be designated as a hot spare.
 

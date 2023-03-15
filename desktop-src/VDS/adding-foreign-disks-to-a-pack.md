@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Adding Foreign Disks to a Pack
 
-\[Beginning with Windows 8 and Windows Server 2012, the [Virtual Disk Service](virtual-disk-service-portal.md) COM interface is superseded by the [Windows Storage Management API](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal).\]
+\[Beginning with Windows 8 and Windows Server 2012, the [Virtual Disk Service](virtual-disk-service-portal.md) COM interface is superseded by the [Windows Storage Management API](/windows-hardware/drivers/storage/windows-storage-management-api-portal).\]
 
 Most commonly, a foreign disk is a dynamic disk that is allocated on one computer and physically moved to another computer. However, any disk that belongs to a pack other than the online pack is considered to be a foreign disk that belongs to a foreign disk pack.
 
