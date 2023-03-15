@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # What's New in VDS in Windows Server 2008 R2 and Windows 7
 
-\[Beginning with Windows 8 and Windows Server 2012, the [Virtual Disk Service](virtual-disk-service-portal.md) COM interface is superseded by the [Windows Storage Management API](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal).\]
+\[Beginning with Windows 8 and Windows Server 2012, the [Virtual Disk Service](virtual-disk-service-portal.md) COM interface is superseded by the [Windows Storage Management API](/windows-hardware/drivers/storage/windows-storage-management-api-portal).\]
 
 Windows Server 2008 R2 and Windows 7 introduce the following changes to the Virtual Disk Service (VDS):
 
