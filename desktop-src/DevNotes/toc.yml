@@ -807,6 +807,8 @@
       href: /windows/win32/api/Winternl/nf-winternl-ntdeviceiocontrolfile
     - name: "NtWaitForSingleObject"
       href: /windows/win32/api/Winternl/nf-winternl-ntwaitforsingleobject
+    - name: "ObOpenObjectByName Function"
+      href: obopenobjectbyname-function.md
     - name: "RegisterServerForPMP"
       href: /windows/win32/api/comppkgsup/nf-comppkgsup-registerserverforpmp
     - name: "RequireNetworkDuringMediaTaskCompletion"
