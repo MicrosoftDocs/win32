@@ -65,7 +65,7 @@ Bit flags that indicate requests for the context. Not all packages can support a
 | **ISC_REQ_EXTENDED_ERROR** | When errors occur, the remote party will be notified. |
 | **ISC_REQ_INTEGRITY** | Sign messages and verify signatures by using the [EncryptMessage](encryptmessage--general.md) and [MakeSignature](/windows/win32/api/sspi/nf-sspi-makesignature) functions. |
 | **ISC_REQ_MANUAL_CRED_VALIDATION** | Schannel must not authenticate the server automatically. |
-| **ISC_REQ_MUTUAL_AUTH** | The mutual authentication policy of the service will be satisfied.<br /><blockquote>[!CAUTION]<br />This does not necessarily mean that mutual authentication is performed, only that the authentication policy of the service is satisfied. To ensure that mutual authentication is performed, call the [QueryContextAttributes (Schannel)](querycontextattributes--schannel.md) function.</blockquote> |
+| **ISC_REQ_MUTUAL_AUTH** | The mutual authentication policy of the service will be satisfied.<br/> > [!CAUTION]<br/> > This does not necessarily mean that mutual authentication is performed, only that the authentication policy of the service is satisfied. To ensure that mutual authentication is performed, call the [QueryContextAttributes (Schannel)](querycontextattributes--schannel.md) function.<br/> |
 | **ISC_REQ_REPLAY_DETECT** | Detect replayed messages that have been encoded by using the [EncryptMessage](encryptmessage--general.md) or [MakeSignature](/windows/win32/api/sspi/nf-sspi-makesignature) functions. |
 | **ISC_REQ_SEQUENCE_DETECT** | Detect messages received out of sequence. |
 | **ISC_REQ_STREAM** | Support a stream-oriented connection. |
