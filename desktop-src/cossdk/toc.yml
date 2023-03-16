@@ -1041,7 +1041,7 @@
         - name: "CoLeaveServiceDomain"
           href: /windows/desktop/api/ComSvcs/nf-comsvcs-coleaveservicedomain
         - name: "GetComPlusPackageInstallStatus"
-          href: /getcompluspackageinstallstatus.md
+          href: getcompluspackageinstallstatus.md
         - name: "GetDispenserManager"
           href: /windows/desktop/api/MtxDM/nf-mtxdm-getdispensermanager
         - name: "GetManagedExtensions"
@@ -1051,7 +1051,7 @@
         - name: "MTSCreateActivity"
           href: /windows/desktop/api/ComSvcs/nf-comsvcs-mtscreateactivity
         - name: "SetComPlusPackageInstallStatus"
-          href: /setcompluspackageinstallstatus.md
+          href: setcompluspackageinstallstatus.md
         - name: "RecycleSurrogate"
           href: /windows/desktop/api/ComSvcs/nf-comsvcs-recyclesurrogate
         - name: "SafeRef"
