@@ -819,6 +819,8 @@
       href: /windows/win32/api/Winternl/nf-winternl-rtlchartointeger
     - name: "RtlCompareUnicodeString"
       href: rtlcompareunicodestring.md
+    - name: "RtlDllShutdownInProgress"
+      href: rtldllshutdowninprogress.md
     - name: "RtlFreeAnsiString"
       href: /windows/win32/api/Winternl/nf-winternl-rtlfreeansistring
     - name: "RtlFreeHeap"
@@ -839,8 +841,6 @@
       href: rtlmovememory.md
     - name: "RtlPrefixUnicodeString"
       href: rtlprefixunicodestring.md
-    - name: "RtlDllShutdownInProgress"
-      href: rtldllshutdowninprogress.md
     - name: "RtlUnicodeStringToAnsiString"
       href: /windows/win32/api/Winternl/nf-winternl-rtlunicodestringtoansistring
     - name: "RtlUnicodeStringToOemString"
