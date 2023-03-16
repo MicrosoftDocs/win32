@@ -35,13 +35,11 @@ SECURITY_STATUS SEC_Entry InitializeSecurityContext(
 
 _phCredential_ `[in, optional]`
 
-A handle to the credentials returned by [AcquireCredentialsHandle (Schannel)](acquirecredentialshandle--schannel.md). This handle is used to build the [security context](../secgloss/s-gly.md). The **InitializeSecurityContext (Schannel)** function requires at least OUTBOUND credentials.
+A handle to the credentials returned by [AcquireCredentialsHandle (Schannel)](acquirecredentialshandle--schannel.md). This handle is used to build the [security context](../secgloss/s-gly.md). The **InitializeSecurityContext (Schannel)** function requires at least OUTBOUND credentials on the first call. On subsequent calls, this can be `NULL` as the credentials are captured in the context during the first call. So, the security packages will ignore _phCredential_ on later calls.
 
 _phContext_ `[in, optional]`
 
-A pointer to a [CtxtHandle](sspi-handles.md) structure. On the first call to **InitializeSecurityContext (Schannel)**, this pointer is `NULL`. On the second call, this parameter is a pointer to the handle to the partially formed context returned in the _phNewContext_ parameter by the first call.
-
-On the first call to **InitializeSecurityContext (Schannel)**, specify `NULL`. On future calls, specify the token received in the _phNewContext_ parameter after the first call to this function.
+A pointer to a [CtxtHandle](sspi-handles.md) structure. On the first call to **InitializeSecurityContext (Schannel)**, this pointer is `NULL`. On future calls, this parameter is a pointer to the handle to the partially formed context returned in the _phNewContext_ parameter by the first call to this function.
 
 _pszTargetName_ `[in, optional]`
 
@@ -97,7 +95,7 @@ _phNewContext_ `[in, out, optional]`
 
 A pointer to a [CtxtHandle](sspi-handles.md) structure. On the first call to **InitializeSecurityContext (Schannel)**, this pointer receives the new context handle. On the second call, _phNewContext_ can be the same as the handle specified in the _phContext_ parameter.
 
-On calls after the first call, pass the handle returned here as the _phContext_ parameter and specify **NULL** for _phNewContext_.
+_phNewContext_ should always be non-NULL in order to receive the handle that the caller is now responsible for freeing. Because the caller is only responsible for the most recent handle, it’s standard for callers to pass this handle to both _phContext_ and _phNewContext_.
 
 _pOutput_ `[in, out, optional]`
 
