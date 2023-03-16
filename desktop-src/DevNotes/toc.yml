@@ -839,6 +839,8 @@
       href: rtlmovememory.md
     - name: "RtlPrefixUnicodeString"
       href: rtlprefixunicodestring.md
+    - name: "RtlShutdownInProgress"
+      href: rtlshutdowninprogress.md
     - name: "RtlUnicodeStringToAnsiString"
       href: /windows/win32/api/Winternl/nf-winternl-rtlunicodestringtoansistring
     - name: "RtlUnicodeStringToOemString"
