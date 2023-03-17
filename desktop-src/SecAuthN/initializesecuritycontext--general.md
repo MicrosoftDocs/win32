@@ -1,5 +1,5 @@
 ---
-description: Initiates the client side, outbound security context from a credential handle.
+description: Initiates the client side, outbound security context from a credential handle (General).
 ms.assetid: 21d965d4-3c03-4e29-a70d-4538c5c366b0
 title: InitializeSecurityContext (General) function (Sspi.h)
 ms.topic: reference
@@ -79,11 +79,11 @@ Bit flags that indicate requests for the context. Not all packages can support a
 | **ISC_REQ_DELEGATE** | The server can use the context to authenticate to other servers as the client. The **ISC_REQ_MUTUAL_AUTH** flag must be set for this flag to work. Valid for Kerberos. Ignore this flag for [constrained delegation](../secgloss/c-gly.md). |
 | **ISC_REQ_EXTENDED_ERROR** | When errors occur, the remote party will be notified. |
 | **ISC_REQ_HTTP** | Use Digest for HTTP. Omit this flag to use Digest as a SASL mechanism. |
-| **ISC_REQ_INTEGRITY** | Sign messages and verify signatures by using the [EncryptMessage](encryptmessage--general.md) and [MakeSignature](makesignature.md) functions. |
+| **ISC_REQ_INTEGRITY** | Sign messages and verify signatures by using the [EncryptMessage](encryptmessage--general.md) and [MakeSignature](/windows/win32/api/sspi/nf-sspi-makesignature) functions. |
 | **ISC_REQ_MANUAL_CRED_VALIDATION** | Schannel must not authenticate the server automatically. |
 | **ISC_REQ_MUTUAL_AUTH** | The mutual authentication policy of the service will be satisfied.<br/> **CAUTION:** This does not necessarily mean that mutual authentication is performed, only that the authentication policy of the service is satisfied. To ensure that mutual authentication is performed, call the [QueryContextAttributes (General)](querycontextattributes--general.md) function. |
 | **ISC_REQ_NO_INTEGRITY** | If this flag is set, the **ISC_REQ_INTEGRITY** flag is ignored.<br/> This value is supported only by the Negotiate and Kerberos [constrained delegation](../secgloss/s-gly.md)s. |
-| **ISC_REQ_REPLAY_DETECT** | Detect replayed messages that have been encoded by using the [EncryptMessage](encryptmessage--general.md) or [MakeSignature](makesignature.md) functions. |
+| **ISC_REQ_REPLAY_DETECT** | Detect replayed messages that have been encoded by using the [EncryptMessage](encryptmessage--general.md) or [MakeSignature](/windows/win32/api/sspi/nf-sspi-makesignature) functions. |
 | **ISC_REQ_SEQUENCE_DETECT** | Detect messages received out of sequence. |
 | **ISC_REQ_STREAM** | Support a stream-oriented connection. |
 | **ISC_REQ_USE_SESSION_KEY** | A new [session key](../secgloss/s-gly.md) must be negotiated.<br/> This value is supported only by the Kerberos [constrained delegation](../secgloss/s-gly.md). |
