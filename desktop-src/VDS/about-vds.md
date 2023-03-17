@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # About VDS
 
-\[Beginning with Windows 8 and Windows Server 2012, the [Virtual Disk Service](virtual-disk-service-portal.md) COM interface is superseded by the [Windows Storage Management API](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal).\]
+\[Beginning with Windows 8 and Windows Server 2012, the [Virtual Disk Service](virtual-disk-service-portal.md) COM interface is superseded by the [Windows Storage Management API](/windows-hardware/drivers/storage/windows-storage-management-api-portal).\]
 
 Virtual Disk Service is a Microsoft Windows service that performs query and configuration operations at the request of end users, scripts, and applications. The service extends the existing storage capabilities of Windows Server operating systems in the following ways:
 

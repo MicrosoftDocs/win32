@@ -802,7 +802,7 @@ Returns the header value as a [**SYSTEMTIME**](/windows/win32/api/minwinbase/ns-
 </dt> <dd> <dl> <dt>
 
 
-Queries response trailers. Prior to querying response trailers, you must call [**WinHttpReadData**](/windows/win32/api/Winhttp/nf-winhttp-winhttpreaddata) until it returns 0 bytes read.
+**Introduced in Windows 11, version 21H2 (10.0; Build 22000)**. Queries response trailers. Prior to querying response trailers, you must call [**WinHttpReadData**](/windows/win32/api/Winhttp/nf-winhttp-winhttpreaddata) until it returns 0 bytes read.
 
 
 </dt> </dl> </dd> </dl>
@@ -811,7 +811,7 @@ Queries response trailers. Prior to querying response trailers, you must call [*
 </dt> <dd> <dl> <dt>
 
 
-By default, [**WinHttpQueryHeaders**](/windows/win32/api/Winhttp/nf-winhttp-winhttpqueryheaders) performs a Unicode conversion before returning the header that was queried. If this flag is set, WinHttp returns the header to the caller without performing this conversion.
+**Introduced in Windows 11, version 21H2 (10.0; Build 22000)**. By default, [**WinHttpQueryHeaders**](/windows/win32/api/Winhttp/nf-winhttp-winhttpqueryheaders) performs a Unicode conversion before returning the header that was queried. If this flag is set, WinHttp returns the header to the caller without performing this conversion.
 
 
 </dt> </dl> </dd> </dl>

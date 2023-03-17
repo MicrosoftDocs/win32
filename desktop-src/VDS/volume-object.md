@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Volume Object
 
-\[Beginning with Windows 8 and Windows Server 2012, the [Virtual Disk Service](virtual-disk-service-portal.md) COM interface is superseded by the [Windows Storage Management API](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal).\]
+\[Beginning with Windows 8 and Windows Server 2012, the [Virtual Disk Service](virtual-disk-service-portal.md) COM interface is superseded by the [Windows Storage Management API](/windows-hardware/drivers/storage/windows-storage-management-api-portal).\]
 
 A volume object models a logical storage unit that is created by a software provider and presented to the file system as a disk. Each volume comprises at least one volume plex, which is in turn composed of extents from one or more disks.
 

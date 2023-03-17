@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Using VDS
 
-\[Beginning with Windows 8 and Windows Server 2012, the [Virtual Disk Service](virtual-disk-service-portal.md) COM interface is superseded by the [Windows Storage Management API](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal).\]
+\[Beginning with Windows 8 and Windows Server 2012, the [Virtual Disk Service](virtual-disk-service-portal.md) COM interface is superseded by the [Windows Storage Management API](/windows-hardware/drivers/storage/windows-storage-management-api-portal).\]
 
 VDS supplies an interface for scripting and GUI development that can simplify the activities that are performed by a Windows server administrator who manages a heterogeneous set of storage systems, migrating data across different hardware configurations over time. If you are unfamiliar with the objects that are used in VDS development, see the [VDS Object Model](vds-object-model.md).
 
