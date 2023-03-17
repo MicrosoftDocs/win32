@@ -35,7 +35,7 @@ SECURITY_STATUS SEC_Entry InitializeSecurityContext(
 
 _phCredential_ `[in, optional]`
 
-A handle to the credentials returned by [AcquireCredentialsHandle (Schannel)](acquirecredentialshandle--schannel.md). This handle is used to build the [security context](../secgloss/s-gly.md). The **InitializeSecurityContext (Schannel)** function requires at least OUTBOUND credentials on the first call. On subsequent calls, this can be `NULL` as the credentials are captured in the context during the first call. So, the security packages will ignore _phCredential_ on later calls.
+A handle to the credentials returned by [AcquireCredentialsHandle (Schannel)](acquirecredentialshandle--schannel.md). This handle is used to build the [security context](../secgloss/s-gly.md). The **InitializeSecurityContext (Schannel)** function requires at least OUTBOUND credentials on the first call. On subsequent calls, this can be `NULL`.
 
 _phContext_ `[in, optional]`
 
@@ -93,9 +93,7 @@ This parameter is reserved and must be set to zero.
 
 _phNewContext_ `[in, out, optional]`
 
-A pointer to a [CtxtHandle](sspi-handles.md) structure. On the first call to **InitializeSecurityContext (Schannel)**, this pointer receives the new context handle. On the second call, _phNewContext_ can be the same as the handle specified in the _phContext_ parameter.
-
-_phNewContext_ should always be non-NULL in order to receive the handle that the caller is now responsible for freeing. Because the caller is only responsible for the most recent handle, it’s standard for callers to pass this handle to both _phContext_ and _phNewContext_.
+A pointer to a [CtxtHandle](sspi-handles.md) structure. On the first call to **InitializeSecurityContext (Schannel)**, this pointer receives the new context handle. On the second call, _phNewContext_ can be the same as the handle specified in the _phContext_ parameter. _phNewContext_ should never be `NULL`.
 
 _pOutput_ `[in, out, optional]`
 
