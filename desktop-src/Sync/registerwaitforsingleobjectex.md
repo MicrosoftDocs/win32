@@ -1,5 +1,5 @@
 ---
-description: Gets a value indicating if debugging a specific process is allowed.
+description: Directs a wait thread in the thread pool to wait on the object. (RegisterWaitForSingleObjectEx)
 title: RegisterWaitForSingleObjectEx function
 ms.topic: reference
 ms.date: 03/02/2023
