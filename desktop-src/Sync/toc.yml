@@ -469,6 +469,8 @@
         href: /windows/desktop/api/processthreadsapi/nf-processthreadsapi-queueuserapc
       - name: "RegisterWaitForSingleObject"
         href: /windows/desktop/api/WinBase/nf-winbase-registerwaitforsingleobject
+      - name: "RegisterWaitForSingleObjectEx"
+        href: registerwaitforsingleobjectex.md
       - name: "ReleaseMutex"
         href: /windows/desktop/api/synchapi/nf-synchapi-releasemutex
       - name: "ReleaseSemaphore"

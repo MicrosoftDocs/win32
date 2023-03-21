@@ -24,6 +24,7 @@ api_type:
 api_location: 
 - Microsoft.Isam.Esent.Interop.dll
 - esent.interop.dll
+- esent.dll
 ROBOTS: INDEX,FOLLOW
 
 ---
