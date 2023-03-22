@@ -39,6 +39,17 @@ The **Add** button in the dialog in the **Settings** app is enabled only if theÂ
 
 There is no way inÂ JavaScript to determine the exact build version of Windows. But if your user is using the Microsoft Edge web browser, then you can determine the version of Edge by inspecting the value of the `User-agent` HTTP header. If the version is greater than or equal to `18.nnnnn`, then the workflow is supported.
 
+## Examples of provisioning XML profiles
+These exemplify two common [Passpoint](/windows-hardware/drivers/mobilebroadband/hotspot-20) provisioning use cases, using PEAP or TTLS with username and password credentials. These XML files have been signed with a valid test certificate and can be installed to see the provisioning flow end-to-end.
+
+### Passpoint profile using PEAP/EAP-MSCHAPv2
+* [Download sample XML](https://winpptest.com/samples/PasspointWebProvisioningSamplePEAP.xml)
+* [Install sample profile](ms-settings:wifi-provisioning?uri=https://winpptest.com/samples/PasspointWebProvisioningSamplePEAP.xml)
+
+### Passpoint profile using TTLS/EAP-MSCHAPv2
+* [Download sample XML](https://winpptest.com/samples/PasspointWebProvisioningSampleTTLS.xml)
+* [Install sample profile](ms-settings:wifi-provisioning?uri=https://winpptest.com/samples/PasspointWebProvisioningSampleTTLS.xml)
+
 ## Related topics
 
 * [Account provisioning](/windows-hardware/drivers/mobilebroadband/account-provisioning)
