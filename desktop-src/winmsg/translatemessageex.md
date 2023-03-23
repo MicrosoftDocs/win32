@@ -14,7 +14,7 @@ api_location:
 - user32.dll
 ---
 
-# EtwLogTraceEvent function
+# TranslateMessageEx function
 
 Translates virtual-key messages into character messages. The character messages are posted to the calling thread's message queue, to be read the next time the thread calls the <a href="/windows/desktop/api/winuser/nf-winuser-getmessage">GetMessage</a> or <a href="/windows/desktop/api/winuser/nf-winuser-peekmessagea">PeekMessage</a> function.
 
