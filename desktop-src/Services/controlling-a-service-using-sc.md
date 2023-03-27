@@ -12,7 +12,17 @@ The Windows SDK contains a command-line utility, Sc.exe, that can be used to con
 
 ## Syntax
 
-**sc** \[*ServerName*\] *Command* \[*ServiceName*\]\[*option1*\]\[*option2*\]...
+```
+sc.exe [<servername>] [<command>] [<servicename>] [<option1>] [<option2>] ...
+```
+
+To see complete syntax for a command, type:
+
+```
+sc Command
+```
+
+## Parameter
 
 <dl> <dt>
 
@@ -50,12 +60,6 @@ An optional parameter.
 An optional parameter.
 
 </dd> </dl>
-
-## Remarks
-
-To see complete syntax for a command, use the following command:
-
-**sc** *Command*
 
 ## Related topics
 
