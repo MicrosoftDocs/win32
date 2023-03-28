@@ -36,7 +36,7 @@ void GetDimensions(
 
 Type: **uint**
 
-The length, in bytes, of the buffer.
+The length, in elements, of the Buffer as set in the Unordered Resource View.
 
 </dd> </dl>
 
