@@ -20,7 +20,7 @@ req.lib: User32.lib
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: 
+req.target-min-winverclnt: Windows 10, version 1903
 req.target-min-winversvr: 
 req.target-type: 
 req.type-library: 
@@ -96,8 +96,8 @@ BOOL IsRestored(HWND hwnd)
 
 | &nbsp; | &nbsp; |
 | ---- |:---- |
-| **Minimum supported client** | Not yet released. |
-| **Minimum supported server** | Not yet released. |
+| **Minimum supported client** | Windows 10, version 1903 |
+| **Minimum supported server** | |
 | **Target platform** | Windows |
 | **Header** | None |
 | **Library** | None |
