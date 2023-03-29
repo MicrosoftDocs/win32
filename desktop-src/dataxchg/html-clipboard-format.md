@@ -90,7 +90,7 @@ End of lines in the clipboard format header (`<br>` above) may be represented by
 
 #### Context
 
-The _context_ is a valid, complete HTML document - though this does not mean the entire original source HTML document containing the user's selection will be carried-over verbatim; on the contrary, it can be a minimal, but well-formed, HTML document).
+The _context_ is a valid, complete HTML document - though this does not mean the entire original source HTML document containing the user's selection will be carried-over verbatim; on the contrary, it can be a minimal, but well-formed, HTML document.
 
 This _context_ contains the _fragment_ and all preceding surrounding tags (start and end tags; these preceding surrounding tags represent all the parent nodes of the fragment, until the HTML node). Observe that the above example article has a complete HTML `<head>` element which permits the use of `<base href="">` and `<title>` elements, for example, to be included so this additional information can be obtained. An application copying a fragment of HTML to the clipboard can choose to create a `<base href="">` element to include in the context if such an element is not already present so that non-absolute URIs in the HTML fragment can be resolved.
 
