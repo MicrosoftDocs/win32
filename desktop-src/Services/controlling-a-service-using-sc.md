@@ -22,7 +22,7 @@ To see the available commands, type:
 sc
 ```
 
-To see the syntax for a specific command, include a command, e.g. 
+To see the syntax for a specific command, include a command. Here's an example:
 
 ```
 sc start
@@ -40,10 +40,5 @@ sc start
 
 ## Related topics
 
-<dl> <dt>
-
-[Service Control Requests](service-control-requests.md)
-</dt> <dt>
-
-[Service Startup](service-startup.md)
-</dt> </dl>
+* [Service control requests](service-control-requests.md)
+* [Service startup](service-startup.md)
