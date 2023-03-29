@@ -16,50 +16,27 @@ The Windows SDK contains a command-line utility, Sc.exe, that can be used to con
 sc.exe [<servername>] [<command>] [<servicename>] [<option1>] [<option2>] ...
 ```
 
-To see complete syntax for a command, type:
+To see the available commands, type:
 
 ```
-sc Command
+sc
 ```
 
-## Parameter
+To see the syntax for a specific command, include a command, e.g. 
 
-<dl> <dt>
+```
+sc start
+```
 
-<span id="ServerName"></span><span id="servername"></span><span id="SERVERNAME"></span>*ServerName*
-</dt> <dd>
+## Parameters
 
-Optional server name. Use the form \\\\*ServerName*.
-
-</dd> <dt>
-
-<span id="Command"></span><span id="command"></span><span id="COMMAND"></span>*Command*
-</dt> <dd>
-
-One of the following commands:
-
-<dl> <dd>continue</dd> <dd>control</dd> <dd>interrogate</dd> <dd>pause</dd> <dd>start</dd> <dd>stop</dd> </dl> </dd> <dt>
-
-<span id="ServiceName"></span><span id="servicename"></span><span id="SERVICENAME"></span>*ServiceName*
-</dt> <dd>
-
-The name of the service, as specified when it was installed.
-
-</dd> <dt>
-
-<span id="option1"></span><span id="OPTION1"></span>*option1*
-</dt> <dd>
-
-An optional parameter.
-
-</dd> <dt>
-
-<span id="option2"></span><span id="OPTION2"></span>*option2*
-</dt> <dd>
-
-An optional parameter.
-
-</dd> </dl>
+|Parameter|Description|
+|---------|-----------|
+| `<servername>` | Specifies the name of the remote server on which the service is located. The name must use the Universal Naming Convention (UNC) format (for example, \\myserver). To run SC.exe locally, don't use this parameter. |
+| `<command>` | One of the following commands: <dl> <dd>continue</dd> <dd>control</dd> <dd>interrogate</dd> <dd>pause</dd> <dd>start</dd> <dd>stop</dd> </dl> |
+| `<servicename>` | The name of the service, as specified when it was installed. |
+| `<option1>` | An optional parameter. |
+| `<option2>` | An optional parameter. |
 
 ## Related topics
 
@@ -70,10 +47,3 @@ An optional parameter.
 
 [Service Startup](service-startup.md)
 </dt> </dl>
-
- 
-
- 
-
-
-
