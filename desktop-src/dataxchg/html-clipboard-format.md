@@ -74,7 +74,7 @@ Future revisions of the `CF_HTML` clipboard format may extend the header, for ex
 
 ### Offset syntax
 
-For the convenience of the programs generating the byte offsets the offset values may be optionally left-padded with an arbitrary amount of zero digits `'0'`, the reason for this is that programs sniffing the HTML for the offsets could write ten (10) zeros to its output buffer for each keyword (e.g. `StartHTML: 0000000000`) and later then when the exact `StartHTML` offset is known (say, 71), then program can overwrite the rightmost zeroes with "71" in the buffer (e.g. resulting in `StartHTML: 0000000071`).
+For the convenience of the programs generating the byte offsets, the offset values may be optionally left-padded with an arbitrary amount of zero digits `'0'`. The reason for this is that programs sniffing the HTML for the offsets could write ten (10) zeros to its output buffer for each keyword (e.g. `StartHTML: 0000000000`). Later, when the exact `StartHTML` offset is known (say, 71), the program can overwrite the rightmost zeroes with "71" in the buffer (e.g. resulting in `StartHTML: 0000000071`).
 
 The only character set supported by the clipboard is Unicode in its UTF-8 encoding. Because the first characters of UTF-8 and ASCII match, the description is always ASCII, but the bytes of the context (starting at `StartHTML`) could be using any other characters coded in UTF-8.
 
