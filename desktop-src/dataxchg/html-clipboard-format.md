@@ -99,8 +99,9 @@ The _context_ is optional, as sufficient information is included in the fragment
 
 #### Fragment
 
-* The _fragment_ (`<fragment-text>` above) contains a valid HTML fragment.
-   * A _valid_ HTML fragment consists of a single outer HTML element which may contain descendant HTML elements provided they are correctly nested. For example, a fragment could be a single `<div>` element which contains 3 `<p>` elements, but a fragment consisting of a `<span>` element that contains three `<p>` elements would be invalid as a `<span>` element (an inline element) cannot contain block-level children (`<p>` is a block-level element).
+The _fragment_ (`<fragment-text>` above) contains a valid HTML fragment.
+
+A _valid_ HTML fragment consists of a single outer HTML element. This element may contain descendant HTML elements provided they are correctly nested. For example, a fragment could be a single `<div>` element that contains 3 `<p>` elements. A fragment consisting of a `<span>` element that contains three `<p>` elements would be invalid because a `<span>` element (an element) cannot contain block-level elements as children.
 
 Thus, the fragment effectively represents the _greater area_ on-screen within, which the user made their text selection (to copy, for example). The selection contains the selected text plus the opening tags and attributes of any element that has an end tag within the selected text, and end tags at the end of the fragment for any start tag included. This is all information required for basic pasting of an HTML fragment.
 
