@@ -141,7 +141,7 @@ When your user has loaded the above HTML text into an MSHTML-based application (
 2. The user then makes a text selection from the start of the word "bold" (in "This is bold.") through to the end of the word "This" (in "This is italic.") without any leading nor trailing whitespace in the selection.
    * i.e. The selection is represented by the square-brackets in `"This is normal **This is \[bold**  **_This is bold italic_**  _This\] is italic_"`.
 3. The user clicks the Copy command button to copy the selection to the clipboard.
-4. MSHTML will consequently place this HTML text (below) into the Windows Clipboard:
+3. MSHTML will consequently place this HTML text into the Windows Clipboard:
 
       ```
       Version:1.0
@@ -155,17 +155,17 @@ When your user has loaded the above HTML text into an MSHTML-based application (
       ```
 
 
-### Scenario 2. Fragment of a table in HTML.
+### Scenario 2 - Fragment of a table in HTML
 
-(Please do not use these uppercase mid-1990s HTML tables, aiieee)
+<!-- (Please do not use these uppercase mid-1990s HTML tables, aiieee) -->
 
-#### HTML Text
+Assume the following HTML text:
 
 > ```
 > <BODY><TABLE BORDER><TR><TH ROWSPAN=2>Head1</TH><TD>Item 1</TD><TD>Item 2</TD><TD>Item 3</TD><TD>Item 4</TD></TR><TR><TD>Item 5</TD><TD>Item 6</TD><TD>Item 7</TD><TD>Item 8</TD></TR><TR><TH>Head2</TH><TD>Item 9</TD><TD>Item 10</TD><TD>Item 11</TD><TD>Item 12</TD></TR></TABLE></BODY>
 > ```
 
-#### Appears as
+This will appear as follows:
 
 > <TABLE BORDER>
 > 	<TR>
@@ -191,7 +191,7 @@ When your user has loaded the above HTML text into an MSHTML-based application (
 > </TABLE>
 
 
-#### How MSHTML handles copying a substring of HTML:
+#### How MSHTML handles copying a substring of HTML
 
 When the user uses their mouse to make a text selection covering the table cells <b>Item 6</b>, <b>Item 7</b>, <b>Item 10</b>, and <b>Item 11</b>. This selection is then copied into the clipboard.
 
@@ -219,17 +219,17 @@ What follows is what will be on the clipboard (note this is IE4/MSHTML's interpr
 
 The selection, as delimited by `StartSelection` and `EndSelection`, is shown in bold.
 
-### Scenario 3. Pasting a fragment of an ordered list `<ol>` into plain text.
+### Scenario 3 - Pasting a fragment of an ordered list `<ol>` into plain text
 
 <!-- TODO: If a user copies a middle subsection of an ordered list, and then pastes it elsewhere, should the values of those bullet-points be preserved? If so, then how should the DOM represent it? -->
 
-#### HTML Text
+Assume the following HTML text:
 
 > ```
 > <BODY><OL TYPE="a"><LI>Item 1<LI>Item 2<LI>Item 3<LI>Item 4<LI>Item 5<LI>Item 6</OL></BODY>
 > ```
 
-#### Appears as
+This will appear as follows:
 
 <!-- or just let Markdown do its own thang?
 > <ol>
@@ -250,13 +250,13 @@ The selection, as delimited by `StartSelection` and `EndSelection`, is shown in 
 6.  Item 6
 
 
-(TODO: screenshot? but is that really necessary for markup this simple?)
+<!-- (TODO: screenshot? but is that really necessary for markup this simple?) -->
 
 
-#### How MSHTML handles copying a substring of HTML:
+#### How MSHTML handles copying a substring of HTML
 
 1. The user makes a text selection from the start of **item 3**, through **item 4**, and to the end of **item 5**. The user invokes the Copy command.
-2. The following HTML is in the clipboard (line-breaks added for clarity - the precise location of the `<!--Star/EndFragment -->` comments depends on how careless or careful the user was in fighting their browser's horrible broken text selection logic):
+2. The following HTML is in the clipboard (line breaks added for clarity) - the precise location of the `<!--Star/EndFragment -->` comments depends on how the user handled their browser's text selection logic:
 
 
 ```
@@ -285,7 +285,7 @@ If this fragment were to now be pasted into an empty document, the following HTM
 </body>
 ```
 
-Appearing as:
+This will appear as follows:
 
 > 1.  Item 3
 > 2.  Item 4
@@ -293,7 +293,7 @@ Appearing as:
 
 ### Scenario 5. Pasting a partially selected region.
 
-#### HTML Text
+Assume the following HTML text:
 
 > ```
 > <p>IE4/MSHTML is a WYSIWYG Editor that supports:</p>
@@ -301,7 +301,7 @@ Appearing as:
 > <p>This is a Great Tool!</p>
 > ```
 
-#### Appears as
+This will appear as follows:
 
 
 > IE4/MSHTML is a WYSIWYG Editor that supports:
@@ -317,9 +317,9 @@ Appearing as:
 
 The user uses their mouse to drag a text selection starting from (and including) "WYSIWYG" throgh to "Cop" (in "Copy").
 
-(TODO: Screenshot of selection attempt)
+<!-- (TODO: Screenshot of selection attempt) -->
 
-As though it were plain-text, that selection would look like this broken HTML fragment:)
+As if it were plain text, that selection would look like this broken HTML fragment:
 
 ```
 WYSIWYG Editor, which supports:</p>
