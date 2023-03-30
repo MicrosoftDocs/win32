@@ -137,10 +137,9 @@ This will appear as follows:
 
 When your user has loaded the above HTML text into an MSHTML-based application (MSHTML, _aka_ Trident, was Internet Explorer's engine), MSHTML handles copying a substring of HTML as follows:
 
-1. Supposing your user has the above HTML text loaded into a MSHTML-based application (MSHTML, _aka_ Trident, was Internet Explorer's engine).
-2. The user then makes a text selection from the start of the word "bold" (in "This is bold.") through to the end of the word "This" (in "This is italic.") without any leading nor trailing whitespace in the selection.
-   * i.e. The selection is represented by the square-brackets in `"This is normal **This is \[bold**  **_This is bold italic_**  _This\] is italic_"`.
-3. The user clicks the Copy command button to copy the selection to the clipboard.
+1. The user selects a text from the start of the word "bold" (in "This is bold.") through to the end of the word "This" (in "This is italic.") without any leading nor trailing whitespace in the selection,  
+   i.e. The selection is represented by the square-brackets in `"This is normal **This is \[bold**  **_This is bold italic_**  _This\] is italic_"`.
+2. The user clicks the Copy command button to copy the selection to the clipboard.
 3. MSHTML will consequently place this HTML text into the Windows Clipboard:
 
       ```
