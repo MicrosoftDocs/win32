@@ -132,8 +132,8 @@ The following scenarios describe how the IE4/MSHTML HTML editor handles HTML cut
 
 > This is normal. **This is bold.**  **_This is bold italic._**  _This is italic._
 
-(TODO: Screenshot of Word showing the selected text *before* copying? omg)
-(TODO: Screenshot of Word after pasting it)
+<!-- (TODO: Screenshot of Word showing the selected text *before* copying? omg)
+(TODO: Screenshot of Word after pasting it) --> 
 
 #### How MSHTML handles copying a substring of HTML:
 
