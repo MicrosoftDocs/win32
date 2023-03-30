@@ -109,7 +109,7 @@ The _fragment_ should be preceded and followed by the HTML comments `<!--StartFr
 
 #### Selection
 
-* The _selection_ is optional, as sufficient information is included in the fragment for basic pasting. If the selection is not stored, both `StartSelection` and `EndSelection` are not stored in the header.
+The _selection_ is optional because sufficient information is included in the fragment for basic pasting. If the selection is not stored, both `StartSelection` and `EndSelection` are not stored in the header.
 
 If present, the _selection_ is the **exact** text range that the user has selected (within the _fragment_); this adds more information to the fragment by indicating the exact selected text, **without** the well-formed and balanced start and end tags and end tags.
 
