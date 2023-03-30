@@ -1431,6 +1431,8 @@ The following values are defined for the Type field of the debug directory entry
 | IMAGE\_DEBUG\_TYPE\_RESERVED10 <br/>      | 10 <br/> | Reserved. <br/>                                                                                                                                                                                            |
 | IMAGE\_DEBUG\_TYPE\_CLSID <br/>           | 11 <br/> | Reserved. <br/>                                                                                                                                                                                            |
 | IMAGE\_DEBUG\_TYPE\_REPRO <br/>           | 16 <br/> | PE determinism or reproducibility. <br/>                                                                                                                                                                   |
+| Undefined<br/>           | 17 <br/> | Debugging information is embedded in the PE file at location specified by PointerToRawData. <br/>                                                                                                                                                                   |
+| Undefined<br/>           | 19 <br/> | Stores crypto hash for the content of the symbol file used to build the PE/COFF file. <br/>                                                                                                                                                                   |
 | IMAGE\_DEBUG\_TYPE\_EX\_DLLCHARACTERISTICS | 20 | Extended DLL characteristics bits. |
 
 
