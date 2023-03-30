@@ -120,7 +120,7 @@ Remember, the _selection_ can represent a run of text which can start in any giv
 
 The following scenarios describe how the IE4/MSHTML HTML editor handles HTML cut and paste; other applications may or may not follow these scenarios. The clipboard format described here is intended to allow flexibility for how an application chooses to function. (These scenarios show only good HTML, that is, no overlapping tags.)
 
-### Scenario 1. Simple Fragment of HTML.
+### Scenario 1 - Simple Fragment of HTML
 
 #### HTML Text
 
@@ -128,19 +128,19 @@ The following scenarios describe how the IE4/MSHTML HTML editor handles HTML cut
 > <body>This is normal. <b>This is bold.</b> <i><b>This is bold italic.</b> This is italic.</i></body>
 > ```
 
-#### Appears as
+This will appear as follows:
 
 > This is normal. **This is bold.**  **_This is bold italic._**  _This is italic._
 
 <!-- (TODO: Screenshot of Word showing the selected text *before* copying? omg)
 (TODO: Screenshot of Word after pasting it) --> 
 
-#### How MSHTML handles copying a substring of HTML:
+When your user has loaded the above HTML text into an MSHTML-based application (MSHTML, _aka_ Trident, was Internet Explorer's engine), MSHTML handles copying a substring of HTML as follows:
 
 1. Supposing your user has the above HTML text loaded into a MSHTML-based application (MSHTML, _aka_ Trident, was Internet Explorer's engine).
 2. The user then makes a text selection from the start of the word "bold" (in "This is bold.") through to the end of the word "This" (in "This is italic.") without any leading nor trailing whitespace in the selection.
    * i.e. The selection is represented by the square-brackets in `"This is normal **This is \[bold**  **_This is bold italic_**  _This\] is italic_"`.
-3. The user then clicks the Copy command button to copy the selection to the clipboard.
+3. The user clicks the Copy command button to copy the selection to the clipboard.
 4. MSHTML will consequently place this HTML text (below) into the Windows Clipboard:
 
       ```
