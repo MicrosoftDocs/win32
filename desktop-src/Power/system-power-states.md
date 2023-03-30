@@ -40,6 +40,9 @@ In the *S0* low-power idle mode of the working state, also referred to as [Moder
 > [!Note]  
 > Modern Standby is only available on some SoC systems. When it's supported, the system doesn't support S1-S3.
 
+> [!Caution]  
+> Do not enable S3 wake-on-LAN (WoL) on Modern Standaby capable systems. Waking a computer with a magic packet is natively supported by Modern Standby. Enabling legacy S3 WoL is not necessary and may cause DHCP and/or DNS packet storms on your network.
+
 ## Sleep state: S1-S3
 
 The system enters sleep based on a number of criteria, including user or application activity and preferences that the user sets on the **Power & sleep** page of the **Settings** app. By default, the system uses the lowest-powered sleep state supported by all enabled wake-up devices. For more information about how the system determines when to enter sleep, see [System sleep criteria](system-sleep-criteria.md).
