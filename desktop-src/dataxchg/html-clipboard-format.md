@@ -113,7 +113,7 @@ The _selection_ is optional because sufficient information is included in the fr
 
 If present, the _selection_ is the **exact** text range that the user has selected (within the _fragment_); this adds more information to the fragment by indicating the exact selected text, **without** the well-formed and balanced start and end tags and end tags.
 
-* Remember the _selection_ can represents a run of text which can start in any given element and end in **any** subsequent - or ancestor - element. Consequently it is impossible to represent a text selection using HTML.
+Remember, the _selection_ can represent a run of text which can start in any given element and end in **any** subsequent - or ancestor - element. Consequently, it is impossible to represent a text selection using HTML.
 
 
 ## Scenarios
