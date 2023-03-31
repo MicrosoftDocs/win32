@@ -39,8 +39,6 @@ Windows provides a set of standard cursors that are available for any applicatio
 | **IDC\_CROSS**<br/>MAKEINTRESOURCE(32515) | Precision select |
 | **IDC\_UPARROW**<br/>MAKEINTRESOURCE(32516) | Alternate select |
 | MAKEINTRESOURCE(32631) | Handwriting |
-| **IDC\_SIZE**<br/>MAKEINTRESOURCE(32640) | Obsolete. Use **IDC\_SIZEALL**. |
-| **IDC\_ICON**<br/>MAKEINTRESOURCE(32641) | Obsolete. Use **IDC\_ARROW**. |
 | **IDC\_SIZENWSE**<br/>MAKEINTRESOURCE(32642) | Diagonal resize 1 |
 | **IDC\_SIZENESW**<br/>MAKEINTRESOURCE(32643) | Diagonal resize 2 |
 | **IDC\_SIZEWE**<br/>MAKEINTRESOURCE(32644) | Horizontal resize |
