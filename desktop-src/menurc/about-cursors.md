@@ -33,25 +33,25 @@ Windows provides a set of standard cursors that are available for any applicatio
 
 | Value | Meaning |
 |---|---|
-| **IDC_ARROW**<br/>MAKEINTRESOURCE(32512) | Normal select |
-| **IDC_IBEAM**<br/>MAKEINTRESOURCE(32513) | Text select |
-| **IDC_WAIT**<br/>MAKEINTRESOURCE(32514) | Busy |
-| **IDC_CROSS**<br/>MAKEINTRESOURCE(32515) | Precision select |
-| **IDC_UPARROW**<br/>MAKEINTRESOURCE(32516) | Alternate select |
+| **IDC\_ARROW**<br/>MAKEINTRESOURCE(32512) | Normal select |
+| **IDC\_IBEAM**<br/>MAKEINTRESOURCE(32513) | Text select |
+| **IDC\_WAIT**<br/>MAKEINTRESOURCE(32514) | Busy |
+| **IDC\_CROSS**<br/>MAKEINTRESOURCE(32515) | Precision select |
+| **IDC\_UPARROW**<br/>MAKEINTRESOURCE(32516) | Alternate select |
 | MAKEINTRESOURCE(32631) | Handwriting |
-| **IDC_SIZE**<br/>MAKEINTRESOURCE(32640) | Obsolete. Use **IDC_SIZEALL**. |
-| **IDC_ICON**<br/>MAKEINTRESOURCE(32641) | Obsolete. Use **IDC_ARROW**. |
-| **IDC_SIZENWSE**<br/>MAKEINTRESOURCE(32642) | Diagonal resize 1 |
-| **IDC_SIZENESW**<br/>MAKEINTRESOURCE(32643) | Diagonal resize 2 |
-| **IDC_SIZEWE**<br/>MAKEINTRESOURCE(32644) | Horizontal resize |
-| **IDC_SIZENS**<br/>MAKEINTRESOURCE(32645) | Vertical resize |
-| **IDC_SIZEALL**<br/>MAKEINTRESOURCE(32646) | Move |
-| **IDC_NO**<br/>MAKEINTRESOURCE(32648) | Unavailable |
-| **IDC_HAND**<br/>MAKEINTRESOURCE(32649) | Link select |
-| **IDC_APPSTARTING**<br/>MAKEINTRESOURCE(32650) | Working in background |
-| **IDC_HELP**<br/>MAKEINTRESOURCE(32651) | Help select |
-| **IDC_PIN**<br/>MAKEINTRESOURCE(32671) | Location select |
-| **IDC_PERSON**<br/>MAKEINTRESOURCE(32672) | Person select |
+| **IDC\_SIZE**<br/>MAKEINTRESOURCE(32640) | Obsolete. Use **IDC\_SIZEALL**. |
+| **IDC\_ICON**<br/>MAKEINTRESOURCE(32641) | Obsolete. Use **IDC\_ARROW**. |
+| **IDC\_SIZENWSE**<br/>MAKEINTRESOURCE(32642) | Diagonal resize 1 |
+| **IDC\_SIZENESW**<br/>MAKEINTRESOURCE(32643) | Diagonal resize 2 |
+| **IDC\_SIZEWE**<br/>MAKEINTRESOURCE(32644) | Horizontal resize |
+| **IDC\_SIZENS**<br/>MAKEINTRESOURCE(32645) | Vertical resize |
+| **IDC\_SIZEALL**<br/>MAKEINTRESOURCE(32646) | Move |
+| **IDC\_NO**<br/>MAKEINTRESOURCE(32648) | Unavailable |
+| **IDC\_HAND**<br/>MAKEINTRESOURCE(32649) | Link select |
+| **IDC\_APPSTARTING**<br/>MAKEINTRESOURCE(32650) | Working in background |
+| **IDC\_HELP**<br/>MAKEINTRESOURCE(32651) | Help select |
+| **IDC\_PIN**<br/>MAKEINTRESOURCE(32671) | Location select |
+| **IDC\_PERSON**<br/>MAKEINTRESOURCE(32672) | Person select |
 
 Each standard cursor has a corresponding default image associated with it. The user or an application can replace the default image associated with any standard cursor at any time. An application replaces a default image by using the [**SetSystemCursor**](/windows/desktop/api/Winuser/nf-winuser-setsystemcursor) function. The following image shows several standard cursors from Windows Vista:
 
