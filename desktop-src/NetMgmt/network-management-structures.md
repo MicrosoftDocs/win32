@@ -1,16 +1,16 @@
 ---
-title: Network Management Structures
+title: Network management structures
 description: The network management structures can be grouped as follows.
 ms.assetid: a4b05054-bef2-4cab-89f6-725d92ee75b8
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Network Management Structures
+# Network management structures
 
 The network management structures can be grouped as follows.
 
-## Alert Structures
+## Alert structures
 
 <dl>
 
@@ -21,7 +21,7 @@ The network management structures can be grouped as follows.
 [**USER\_OTHER\_INFO**](/windows/desktop/api/Lmalert/ns-lmalert-user_other_info)  
 </dl>
 
-## Azure Active Directory Join Information Structures
+## Azure Active Directory join information structures
 
 <dl>
 
@@ -29,7 +29,7 @@ The network management structures can be grouped as follows.
 [**DSREG\_USER\_INFO**](/windows/desktop/api/lmjoin/ns-lmjoin-dsreg_user_info)  
 </dl>
 
-## Get Structures
+## Get structures
 
 <dl>
 
@@ -38,7 +38,7 @@ The network management structures can be grouped as follows.
 [**NET\_DISPLAY\_USER**](/windows/desktop/api/Lmaccess/ns-lmaccess-net_display_user)  
 </dl>
 
-## Group Structures
+## Group structures
 
 -   [**GROUP\_INFO\_0**](/windows/desktop/api/Lmaccess/ns-lmaccess-group_info_0)
 -   [**GROUP\_INFO\_1**](/windows/desktop/api/Lmaccess/ns-lmaccess-group_info_1)
@@ -48,7 +48,7 @@ The network management structures can be grouped as follows.
 -   [**GROUP\_INFO\_1005**](/windows/desktop/api/Lmaccess/ns-lmaccess-group_info_1005)
 -   [**GROUP\_USERS\_INFO\_0**](/windows/desktop/api/Lmaccess/ns-lmaccess-group_users_info_0)
 
-## Local Group Structures
+## Local group structures
 
 -   [**LOCALGROUP\_INFO\_0**](/windows/desktop/api/Lmaccess/ns-lmaccess-localgroup_info_0)
 -   [**LOCALGROUP\_INFO\_1**](/windows/desktop/api/Lmaccess/ns-lmaccess-localgroup_info_1)
@@ -59,7 +59,7 @@ The network management structures can be grouped as follows.
 -   [**LOCALGROUP\_MEMBERS\_INFO\_3**](/windows/desktop/api/Lmaccess/ns-lmaccess-localgroup_members_info_3)
 -   [**LOCALGROUP\_USERS\_INFO\_0**](/windows/desktop/api/Lmaccess/ns-lmaccess-localgroup_users_info_0)
 
-## Offline Domain Join Structures
+## Offline domain join structures
 
 -   [**Offline Domain Join IDL Definitions**](odj-idl.md)
 -   [**ODJ\_PROVISION\_DATA**](odj-odj_provision_data.md)
@@ -75,6 +75,7 @@ The network management structures can be grouped as follows.
 -   [**ODJ\_WIN7BLOB**](odj-odj_win7blob.md)
 -   [**OP\_JOIN\_PROV2\_PART**](odj-op_join_prov2_part.md)
 -   [**OP\_JOIN\_PROV3\_PART**](odj-op_join_prov3_part.md)
+-   [**OP\_JOIN\_PROV4\_PART**](odj-op_join_prov4_part.md)
 -   [**OP\_CERT\_PFX\_STORE**](odj-op_cert_pfx_store.md)
 -   [**OP\_CERT\_SST\_STORE**](odj-op_cert_sst_store.md)
 -   [**OP\_CERT\_PART**](odj-op_cert_part.md)
@@ -82,24 +83,24 @@ The network management structures can be grouped as follows.
 -   [**OP\_POLICY\_ELEMENT\_LIST**](odj-op_policy_element_list.md)
 -   [**OP\_POLICY\_PART**](odj-op_policy_part.md)
 
-## Message Structures
+## Message structures
 
 -   [**MSG\_INFO\_0**](/windows/desktop/api/Lmmsg/ns-lmmsg-msg_info_0)
 -   [**MSG\_INFO\_1**](/windows/desktop/api/Lmmsg/ns-lmmsg-msg_info_1)
 
-## Remote Utility Structure
+## Remote utility structures
 
 <dl>
 
 [**TIME\_OF\_DAY\_INFO**](/windows/desktop/api/Lmremutl/ns-lmremutl-time_of_day_info)  
 </dl>
 
-## Schedule Structures
+## Schedule structures
 
 -   [**AT\_ENUM**](/windows/desktop/api/Lmat/ns-lmat-at_enum)
 -   [**AT\_INFO**](/windows/desktop/api/Lmat/ns-lmat-at_info)
 
-## Server Structures
+## Server structures
 
 <dl>
 
@@ -142,7 +143,7 @@ The network management structures can be grouped as follows.
 [**SERVER\_INFO\_1552**](/windows/desktop/api/Lmserver/ns-lmserver-server_info_1552)  
 </dl>
 
-## Server and Workstation Transport Structures
+## Server and workstation transport structures
 
 <dl>
 
@@ -153,7 +154,7 @@ The network management structures can be grouped as follows.
 [**WKSTA\_TRANSPORT\_INFO\_0**](/windows/desktop/api/Lmwksta/ns-lmwksta-wksta_transport_info_0)  
 </dl>
 
-## Share Structures
+## Share structures
 
 <dl>
 
@@ -168,7 +169,7 @@ The network management structures can be grouped as follows.
 [**SHARE\_INFO\_1501**](/windows/desktop/api/lmshare/ns-lmshare-share_info_1501)  
 </dl>
 
-## Use Structures
+## Use structures
 
 <dl>
 
@@ -178,7 +179,7 @@ The network management structures can be grouped as follows.
 [**USE\_INFO\_3**](/windows/desktop/api/Lmuse/ns-lmuse-use_info_3)  
 </dl>
 
-## User Structures
+## User structures
 
 <dl>
 
@@ -216,7 +217,7 @@ The network management structures can be grouped as follows.
 [**USER\_INFO\_1053**](/windows/desktop/api/Lmaccess/ns-lmaccess-user_info_1053)  
 </dl>
 
-## User Modal Structures
+## User modal structures
 
 <dl>
 
@@ -233,7 +234,7 @@ The network management structures can be grouped as follows.
 [**USER\_MODALS\_INFO\_1007**](/windows/desktop/api/Lmaccess/ns-lmaccess-user_modals_info_1007)  
 </dl>
 
-## Validation Structures
+## Validation structures
 
 -   [**NET\_VALIDATE\_AUTHENTICATION\_INPUT\_ARG**](/windows/desktop/api/Lmaccess/ns-lmaccess-net_validate_authentication_input_arg)
 -   [**NET\_VALIDATE\_OUTPUT\_ARG**](/windows/desktop/api/Lmaccess/ns-lmaccess-net_validate_output_arg)
@@ -242,7 +243,7 @@ The network management structures can be grouped as follows.
 -   [**NET\_VALIDATE\_PASSWORD\_RESET\_INPUT\_ARG**](/windows/desktop/api/Lmaccess/ns-lmaccess-net_validate_password_reset_input_arg)
 -   [**NET\_VALIDATE\_PERSISTED\_FIELDS**](/windows/desktop/api/Lmaccess/ns-lmaccess-net_validate_persisted_fields)
 
-## Workstation and Workstation User Structures
+## Workstation and workstation user structures
 
 <dl>
 
@@ -253,7 +254,3 @@ The network management structures can be grouped as follows.
 [**WKSTA\_USER\_INFO\_1**](/windows/desktop/api/Lmwksta/ns-lmwksta-wksta_user_info_1)  
 [**WKSTA\_USER\_INFO\_1101**](/windows/desktop/api/Lmwksta/ns-lmwksta-wksta_user_info_1101)  
 </dl>
-
- 
-
- 

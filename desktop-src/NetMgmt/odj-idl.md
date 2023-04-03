@@ -1,5 +1,5 @@
 ---
-title: Offline Domain Join IDL Definitions
+title: Offline domain join IDL definitions
 description: Offline Domain Join IDL Definitions
 ms.assetid: d495e2f0-5174-4d05-9297-4b4b0f200f08
 ms.topic: article
@@ -7,7 +7,7 @@ ms.date: 10/12/2020
 ms.reviewer: jsimmons
 ---
 
-# Offline Domain Join IDL Definitions
+# Offline domain join IDL definitions
 
 ## Description
 
@@ -21,7 +21,7 @@ Offline Domain Join (ODJ) data structures are not defined in a C\C++ header file
 
 <a href="/windows/win32/api/lmjoin/nf-lmjoin-netrequestprovisioningpackageinstall">NetRequestProvisioningPackageInstall</a>
 
-In some situations, for example interop with non-Windows platforms, it may be necessary to do manual serialization and deserialization. This topic contains definitions for all of the ODJ data structures in a single IDL compilation unit and is included for convienence. A matching Application Configuration File (ACF) definition is also defined. This content is not provided as part of any SDK. Therefore the content below should be copied into your code and compiled with an IDL compiler. The IDL compiler will produce the necessary serialization\deserialization stub functions, which are then linked into your application. See <a href="/windows/win32/rpc/type-serialization">Type Serialization</a> for more details on how type serialization and deserialization.
+In some situations, for example interop with non-Windows platforms, it may be necessary to do manual serialization and deserialization. This topic contains definitions for all of the ODJ data structures in a single IDL compilation unit and is included for convienence. A matching Application Configuration File (ACF) definition is also defined. This content is not provided as part of any SDK. Therefore the content below should be copied into your code and compiled with an IDL compiler. The IDL compiler will produce the necessary serialization\deserialization stub functions, which are then linked into your application. For more details on how type serialization and deserialization works, see [Type serialization](/windows/win32/rpc/type-serialization).
 
 Refer to the individual structure sections for detailed member documentation.
 
@@ -33,7 +33,7 @@ If you are using the Microsoft MIDL compiler, you should specify the following f
 
 /c_ext
 
-## ODJ IDL File
+## ODJ IDL file
 
 ```C++
 include "dsgetdc.h";
@@ -60,7 +60,6 @@ interface ODJ
     {
         ULONG                       cbBlob;
         [size_is(cbBlob)]   PBYTE   pBlob;
-
     } OP_BLOB, *POP_BLOB;
 
     typedef struct _OP_PACKAGE_PART
@@ -136,7 +135,6 @@ interface ODJ
         [string] wchar_t *lpNetbiosName;
         [string] wchar_t *lpSiteName;
         [string] wchar_t *lpPrimaryDNSDomain;
-
         DWORD             dwReserved;
         [string] wchar_t *lpReserved;
     } OP_JOINPROV2_PART, *POP_JOINPROV2_PART;
@@ -146,6 +144,13 @@ interface ODJ
         DWORD Rid;
         [string] wchar_t *lpSid;
     } OP_JOINPROV3_PART, *POP_JOINPROV3_PART;
+
+    typedef struct _OP_JOINPROV4_PART
+    {
+        DWORD Rid;
+        [string] wchar_t *lpSid;
+        GUID ObjectGuid;
+    } OP_JOINPROV4_PART, *POP_JOINPROV4_PART;
 
     typedef struct _OP_POLICY_ELEMENT
     {
@@ -167,8 +172,7 @@ interface ODJ
     typedef struct _OP_POLICY_PART
     {
         ULONG                                       cElementLists;
-        [size_is(cElementLists)]
-                            POP_POLICY_ELEMENT_LIST pElementLists;
+        [size_is(cElementLists)] POP_POLICY_ELEMENT_LIST pElementLists;
         OP_BLOB                                     Extension;
     } OP_POLICY_PART, *POP_POLICY_PART;
 
@@ -202,7 +206,7 @@ interface ODJ
 }
 ```
 
-## ODJ ACF File
+## ODJ ACF file
 
 ```C++
 [
@@ -214,6 +218,7 @@ interface ODJ
     typedef [encode, decode] PODJ_WIN7BLOB;
     typedef [encode, decode] POP_JOINPROV2_PART;
     typedef [encode, decode] POP_JOINPROV3_PART;
+    typedef [encode, decode] POP_JOINPROV4_PART;
     typedef [encode, decode] PODJ_PROVISION_DATA;
     typedef [encode, decode] POP_PACKAGE_PART;
     typedef [encode, decode] POP_PACKAGE_PART_COLLECTION;
