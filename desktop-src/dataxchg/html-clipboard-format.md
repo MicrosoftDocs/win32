@@ -122,7 +122,7 @@ The following scenarios describe how the IE4/MSHTML HTML editor handles HTML cut
 
 ### Scenario 1 - Simple Fragment of HTML
 
-#### HTML Text
+Assume the following HTML text:
 
 > ```
 > <body>This is normal. <b>This is bold.</b> <i><b>This is bold italic.</b> This is italic.</i></body>
@@ -137,10 +137,10 @@ This will appear as follows:
 
 When your user has loaded the above HTML text into an MSHTML-based application (MSHTML, _aka_ Trident, was Internet Explorer's engine), MSHTML handles copying a substring of HTML as follows:
 
-1. The user selects a text from the start of the word "bold" (in "This is bold.") through to the end of the word "This" (in "This is italic.") without any leading nor trailing whitespace in the selection,  
-   i.e. The selection is represented by the square-brackets in `"This is normal **This is \[bold**  **_This is bold italic_**  _This\] is italic_"`.
-2. The user clicks the Copy command button to copy the selection to the clipboard.
-3. MSHTML will consequently place this HTML text into the Windows Clipboard:
+1. The user selects a text without any leading or trailing whitespace, e.g. "bold This is bold italic This" from the example above.
+2. To copy the text to the clipboard, the user clicks the Copy command button.
+
+MSHTML will place this HTML text into the Windows Clipboard as follows:
 
       ```
       Version:1.0
@@ -156,7 +156,6 @@ When your user has loaded the above HTML text into an MSHTML-based application (
 
 ### Scenario 2 - Fragment of a table in HTML
 
-<!-- (Please do not use these uppercase mid-1990s HTML tables, aiieee) -->
 
 Assume the following HTML text:
 
@@ -230,26 +229,15 @@ Assume the following HTML text:
 
 This will appear as follows:
 
-<!-- or just let Markdown do its own thang?
-> <ol>
-> 	<li>Item 1</li>
-> 	<li>Item 2</li>
-> 	<li>Item 3</li>
-> 	<li>Item 4</li>
-> 	<li>Item 5</li>
-> 	<li>Item 6</li>
-> </ol>
- -->
 
-1.  Item 1
-2.  Item 2
-3.  Item 3
-4.  Item 4
-5.  Item 5
-6.  Item 6
+> 1.  Item 1
+> 2.  Item 2
+> 3.  Item 3
+> 4.  Item 4
+> 5.  Item 5
+> 6.  Item 6
 
 
-<!-- (TODO: screenshot? but is that really necessary for markup this simple?) -->
 
 
 #### How MSHTML handles copying a substring of HTML
@@ -312,11 +300,10 @@ This will appear as follows:
 (TODO: screenshot? but is that really necessary for markup this simple?)
 
 
-#### How MSHTML handles copying a substring of HTML:
+#### How MSHTML handles copying a substring of HTML
 
-The user uses their mouse to drag a text selection starting from (and including) "WYSIWYG" throgh to "Cop" (in "Copy").
+The user uses their mouse to drag a text selection, e.g. "WYSIWYG Editor that supports: Cut Cop".
 
-<!-- (TODO: Screenshot of selection attempt) -->
 
 As if it were plain text, that selection would look like this broken HTML fragment:
 
@@ -327,23 +314,8 @@ WYSIWYG Editor, which supports:</p>
 	<li>Cop
 ```
 
-When the user presses the Copy comamd button, their clipboard will look like this (line-breaks have been added for clarity; the bold text denotes what the user actually selected);
+When the user presses the Copy command button, their clipboard will look like this (line-breaks have been added for clarity; the bold text denotes what the user actually selected);
 
-<!-- Hiding this because we can't make parts of it bold (or can we?) to highlight the subset that was actually selected by the user.
-```
-<html>
-<body>
-<!-- StartFragment-->
-<p>WYSIWYG Editor, which supports</p>
-<ul>
-	<li>Cut</li>
-	<li>Cop</li>
-</ul>
-<!-- EndFragment-->
-</body>
-</html>
-```
--->
 
 <pre>
 &lt;html&gt;
