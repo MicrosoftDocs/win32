@@ -290,7 +290,7 @@ This will appear as follows:
 > 2.  Item 4
 > 3.  Item 5
 
-### Scenario 5. Pasting a partially selected region.
+### Scenario 5 - Pasting a partially selected region
 
 Assume the following HTML text:
 
