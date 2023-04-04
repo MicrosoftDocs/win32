@@ -271,8 +271,8 @@ The **Scan 1 Make** code is delivered in [**WM\_KEYDOWN**](wm-keydown.md)/[**WM\
 | 07             | 8A           | Keyboard International4           | 132\*Note 5  | 79          |
 | 07             | 8B           | Keyboard International5           | 131\*Note 5  | 7B          |
 | 07             | 8C           | Keyboard International6           |              | 5C          |
-| 07             | 90           | Keyboard LANG1                    |              | 0xfffffff2          |
-| 07             | 91           | Keyboard LANG2                    |              | 0xfffffff1          |
+| 07             | 90           | Keyboard LANG1                    |              | F2          |
+| 07             | 91           | Keyboard LANG2                    |              | F1          |
 | 07             | 92           | Keyboard LANG3                    |              | 78          |
 | 07             | 93           | Keyboard LANG4                    |              | 77          |
 | 07             | 94           | Keyboard LANG5                    |              | 76          |
