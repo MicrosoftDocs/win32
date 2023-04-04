@@ -152,7 +152,6 @@ The **Scan 1 Make** code is delivered in [**WM\_KEYDOWN**](wm-keydown.md)/[**WM\
 | HID Usage Page | HID Usage ID | HID Usage Name                    | Key Location | Scan 1 Make |
 |----------------|--------------|-----------------------------------|--------------|-------------|
 | 07             | 01           | ErrorRollOver                     |              | FF          |
-| 07             | 02           | POSTFail                          |              | FC          |
 | 07             | 04           | Keyboard A                        | 31           | 1E          |
 | 07             | 05           | Keyboard B                        | 50           | 30          |
 | 07             | 06           | Keyboard C                        | 48           | 2E          |
@@ -221,7 +220,7 @@ The **Scan 1 Make** code is delivered in [**WM\_KEYDOWN**](wm-keydown.md)/[**WM\
 | 07             | 45           | Keyboard F12                      | 123          | 58          |
 | 07             | 46           | Keyboard PrintScreen              | 124          | E0 37<br>54 \*Note 1 |
 | 07             | 47           | Keyboard Scroll Lock              | 125          | 46          |
-| 07             | 48           | Keyboard Pause                    | 126          | E1 1D<br>E0 46 \*Note 2<br>45 \*Note 3 |
+| 07             | 48           | Keyboard Pause                    | 126          | E1 1D 45<br>E0 46 \*Note 2<br>45 \*Note 3 |
 | 07             | 49           | Keyboard Insert                   | 75           | E0 52       |
 | 07             | 4A           | Keyboard Home                     | 80           | E0 47       |
 | 07             | 4B           | Keyboard PageUp                   | 85           | E0 49       |
@@ -251,7 +250,20 @@ The **Scan 1 Make** code is delivered in [**WM\_KEYDOWN**](wm-keydown.md)/[**WM\
 | 07             | 63           | Keypad Period                     | 104          | 53          |
 | 07             | 64           | Keyboard Non-US Slash Bar         | 45           | 56          |
 | 07             | 65           | Keyboard Application              | 129          | E0 5D       |
+| 07             | 66           | Keyboard Power                    |              | E0 5E       |
 | 07             | 67           | Keypad Equals                     |              | 59          |
+| 07             | 68           | Keyboard F13                      |              | 64          |
+| 07             | 69           | Keyboard F14                      |              | 65          |
+| 07             | 6A           | Keyboard F15                      |              | 66          |
+| 07             | 6B           | Keyboard F16                      |              | 67          |
+| 07             | 6C           | Keyboard F17                      |              | 68          |
+| 07             | 6D           | Keyboard F18                      |              | 69          |
+| 07             | 6E           | Keyboard F19                      |              | 6A          |
+| 07             | 6F           | Keyboard F20                      |              | 6B          |
+| 07             | 70           | Keyboard F21                      |              | 6C          |
+| 07             | 71           | Keyboard F22                      |              | 6D          |
+| 07             | 72           | Keyboard F23                      |              | 6E          |
+| 07             | 73           | Keyboard F24                      |              | 76          |
 | 07             | 85           | Keypad Comma                      | 107\*Note 4  | 7E          |
 | 07             | 87           | Keyboard International1           | 56\*Note 4, 5 | 73          |
 | 07             | 88           | Keyboard International2           | 133\*Note 5  | 70          |
@@ -259,8 +271,8 @@ The **Scan 1 Make** code is delivered in [**WM\_KEYDOWN**](wm-keydown.md)/[**WM\
 | 07             | 8A           | Keyboard International4           | 132\*Note 5  | 79          |
 | 07             | 8B           | Keyboard International5           | 131\*Note 5  | 7B          |
 | 07             | 8C           | Keyboard International6           |              | 5C          |
-| 07             | 90           | Keyboard LANG1                    |              | 72          |
-| 07             | 91           | Keyboard LANG2                    |              | 71          |
+| 07             | 90           | Keyboard LANG1                    |              | 0xfffffff2          |
+| 07             | 91           | Keyboard LANG2                    |              | 0xfffffff1          |
 | 07             | 92           | Keyboard LANG3                    |              | 78          |
 | 07             | 93           | Keyboard LANG4                    |              | 77          |
 | 07             | 94           | Keyboard LANG5                    |              | 76          |
