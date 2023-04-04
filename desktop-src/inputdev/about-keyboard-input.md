@@ -271,8 +271,8 @@ The **Scan 1 Make** code is delivered in [**WM\_KEYDOWN**](wm-keydown.md)/[**WM\
 | 07             | 8A           | Keyboard International4           | 132\*Note 5  | 79          |
 | 07             | 8B           | Keyboard International5           | 131\*Note 5  | 7B          |
 | 07             | 8C           | Keyboard International6           |              | 5C          |
-| 07             | 90           | Keyboard LANG1                    |              | F2          |
-| 07             | 91           | Keyboard LANG2                    |              | F1          |
+| 07             | 90           | Keyboard LANG1                    |              | 72 \*Note 6 |
+| 07             | 91           | Keyboard LANG2                    |              | 71 \*Note 6 |
 | 07             | 92           | Keyboard LANG3                    |              | 78          |
 | 07             | 93           | Keyboard LANG4                    |              | 77          |
 | 07             | 94           | Keyboard LANG5                    |              | 76          |
@@ -313,6 +313,7 @@ Notes:
 3. As seen in [legacy keyboard messages](keyboard-input-notifications.md)
 4. The key is present on Brazilian keyboards
 5. The key is present on Japanese keyboards
+5. The scan code is emmited in key release event only
 
 ### Extended-Key Flag
 
