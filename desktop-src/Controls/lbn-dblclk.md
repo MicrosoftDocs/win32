@@ -50,7 +50,7 @@ Handle to the list box.
 
 ## Remarks
 
-This notification code is sent only by a list box that has the L[**BS\_NOTIFY**](button-styles.md) style.
+This notification code is sent only by a list box that has the [**LBS\_NOTIFY**](list-box-styles.md) style.
 
 ## Requirements
 
