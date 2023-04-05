@@ -31,7 +31,7 @@ The WDS client includes a graphical user interface that runs within the Windows 
 
 ## Windows Deployment Services Samples
 
-A sample custom PXE provider, filter provider, and WDS client application is available in the Microsoft Windows Software Development Kit (SDK), see [Microsoft Windows Software Development Kit (SDK)](https://developer.microsoft.com/windows/downloads/windows-10-sdk/).
+A sample custom PXE provider, filter provider, and WDS client application is available in the Microsoft Windows Software Development Kit (SDK), see [Microsoft Windows Software Development Kit (SDK)](https://developer.microsoft.com/windows/downloads/windows-sdk/).
 
 You can download the following WDS samples online in the [desktop code gallery](https://github.com/microsoft/Windows-classic-samples).
 
