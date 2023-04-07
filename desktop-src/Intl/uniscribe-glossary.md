@@ -8,6 +8,8 @@ ms.date: 05/31/2018
 
 # Uniscribe Glossary
 
+This glossary contains definitions for terms used in the Uniscribe documentation.
+
 ## ABC width
 
 An ABC width is a composite value defined by a GDI [**ABC**](/windows/win32/api/wingdi/ns-wingdi-abc) structure. The structure contains members **abcA**, **abcB**, and **abcC**, corresponding to the "A", "B", and "C" widths of a [glyph](#glyph) or [run](#run).
