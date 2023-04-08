@@ -367,3 +367,5 @@
           href: /windows/win32/wininet/proofofpossessioncookieinfo/nf-proofofpossessioncookieinfo-getcookieinfoforuriwithuseragentid
         - name: "GetCookieInfoWithUriAndUserAgentIdForAccount method"
           href: /windows/win32/wininet/proofofpossessioncookieinfo/nf-proofofpossessioncookieinfo-getcookieinfowithurianduseragentidforaccount
+      - name: "ProofOfPossessionCookieInfo structure"
+        href: /windows/win32/api/proofofpossessioncookieinfo/ns-proofofpossessioncookieinfo-proofofpossessioncookieinfo
