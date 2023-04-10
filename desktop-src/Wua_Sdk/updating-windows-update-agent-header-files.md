@@ -8,7 +8,7 @@ ms.date: 06/20/2019
 
 # Updating Windows Update Agent Header Files
 
-The Windows Update Agent APIs were previously a separate download. They are now included as part of the Windows SDK. To download the Windows SDK go to [this page](https://developer.microsoft.com/windows/downloads/windows-10-sdk).
+The Windows Update Agent APIs were previously a separate download. They are now included as part of the Windows SDK. To download the Windows SDK go to [this page](https://developer.microsoft.com/windows/downloads/windows-sdk/).
 
 For more information about how to update WUA, see [Updating Windows Update Agent](updating-the-windows-update-agent.md).
 
