@@ -297,7 +297,7 @@ This will appear as follows:
 >  -   Paste
 > This is a Great Tool!
 
-(TODO: screenshot? but is that really necessary for markup this simple?)
+<!-- (TODO: screenshot? but is that really necessary for markup this simple?) -->
 
 
 #### How MSHTML handles copying a substring of HTML
