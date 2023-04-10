@@ -65,7 +65,7 @@ You can read about Windows Installer online:
 
 -   [Windows Installer SDK](./windows-installer-portal.md)
     > [!Note]  
-    > You need to download and install the [Microsoft Windows Software Development Kit (SDK)](https://developer.microsoft.com/windows/downloads/windows-10-sdk/) to obtain the development tools described in the [Windows Installer Development Tools](windows-installer-development-tools.md) section of the documentation.
+    > You need to download and install the [Microsoft Windows Software Development Kit (SDK)](https://developer.microsoft.com/windows/downloads/windows-sdk/) to obtain the development tools described in the [Windows Installer Development Tools](windows-installer-development-tools.md) section of the documentation.
 
      
 
@@ -73,7 +73,7 @@ You can read about Windows Installer online:
 
 [Orca](orca-exe.md) is a GUI .msi file editor that is provided with the Windows Installer SDK. It provides full access to the Windows Installer database tables.
 
-A set of Help files are provided with Orca. To obtain the orca.exe and Orca documentation you must download and install the Windows Installer SDK, which is provided as an Orca.msi file. After you install the [Microsoft Windows Software Development Kit (SDK)](https://developer.microsoft.com/windows/downloads/windows-10-sdk/), double click the Orca.msi file to install Orca.
+A set of Help files are provided with Orca. To obtain the orca.exe and Orca documentation you must download and install the Windows Installer SDK, which is provided as an Orca.msi file. After you install the [Microsoft Windows Software Development Kit (SDK)](https://developer.microsoft.com/windows/downloads/windows-sdk/), double click the Orca.msi file to install Orca.
 
 > [!Note]  
 > It is not possible to download Orca separately.
@@ -94,7 +94,7 @@ You can visit non-Microsoft Web sites that provide useful information about the 
 
     Windows Installer information for developers.
 
--   [Desktop Engineer's Junk Drawer](https://cloudywindows.io) and [AppDeploy.com](https://www.itninja.com)
+-   [AppDeploy.com](https://www.itninja.com)
 
     Windows Installer information for IT professionals.
 
