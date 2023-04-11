@@ -12,7 +12,7 @@ Indicates whether [MFSampleExtension\_ROIRectangle](mfsampleextension-roirectang
 
 ## Data type
 
-**ULONG** (VT\_UI4)
+**BOOL** (VT\_BOOL)
 
 ## Property GUID
 
@@ -20,18 +20,22 @@ Indicates whether [MFSampleExtension\_ROIRectangle](mfsampleextension-roirectang
 
 ## Remarks
 
-Default value is 0.
+The default value is **FALSE**. This indicates that the AAC encoder MFT will use constant bit rate encoding.  The encoded bit stream will have a certain bitrate independent of the input signal. 
 
-If an encoder MFT accepts a non-zero value, it is expected that the encoder will honor the [MFSampleExtension\_ROIRectangle](mfsampleextension-roirectangle.md) attribute set on the input sample.
+If this value is set to **TRUE**, it indicates that the AAC encoder MFT will use variable bit rate encoding. The encoder adapts the bitrate of the encoded stream depending on the psychoacoustic requirements of the input signal.
+
+Apps should set the CODECAPI_AVEncAACEnableVBR property on the encoder MFT before setting the input and output media types on the encoder MFT. This is because the VBR setting may affect which input and output media type combinations are supported by the encoder.
+Setting the CODECAPI_AVEncAACEnableVBR property after setting the input or output media types, may result in an error if the input or output media types are not supported by the requested VBR setting.
+When VBR encoding is enabled, the MF_MT_AVG_BITRATE attribute on the output media type specifies the average bit rate of the encoded output.
+
 
 ## Requirements
 
 
-
 | Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1 \[desktop apps \| UWP apps\]<br/>                                   |
-| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps \| UWP apps\]<br/>                        |
+| Minimum supported client<br/> | Windows 10                                   |
+| Minimum supported server<br/> | Windows Server 2022     |
 | Header<br/>                   | <dl> <dt>Codecapi.h</dt> </dl> |
 
 
