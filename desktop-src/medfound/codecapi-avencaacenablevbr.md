@@ -19,7 +19,7 @@ Specifies whether variable bitrate (VBR) encoding is used for Advanced Audio Cod
 
 ## Property value
 
-The value of this property is a bitwise **OR** of values from the [**eAVEncAdaptiveMode**](/windows/win32/api/codecapi/ne-codecapi-eavencadaptivemode) enumeration.
+A boolean value specifying whether variable bitrate (VBR) encoding is used for Advanced Audio Coding (AAC) encoding.
 
 ## Remarks
 
