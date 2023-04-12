@@ -10,7 +10,7 @@ ms.date: 11/02/2018
 
 You can get detailed telemetry data and analytics reports that let you see how your Windows desktop applications are doing through the new Windows Desktop Application Program. To view these reports, navigate to Partner Center > [Insights dashboard](https://partner.microsoft.com/dashboard/insights/analytics/overview) > Windows Desktop Applications and click on Overview.
 
-There's no charge to access this data all you need to do is [sign up](https://partner.microsoft.com/en-us/dashboard/desktop/overview) and accept the [Windows Desktop Application Program Agreement](https://go.microsoft.com/fwlink/?linkid=853677), then upload a signed file using the same certificate you used to sign your application executable files.
+There's no charge to access this data all you need to do is [sign up](https://partner.microsoft.com/dashboard/desktop/overview) and accept the [Windows Desktop Application Program Agreement](https://go.microsoft.com/fwlink/?linkid=853677), then upload a signed file using the same certificate you used to sign your application executable files.
 
 ## Join the Windows Desktop Application Program
 
@@ -21,7 +21,7 @@ There's no charge to access this data all you need to do is [sign up](https://pa
 
  
 
-**If your company doesn't have a Partner Center account**: You can [sign up for the Windows Desktop Application Program directly](https://partner.microsoft.com/en-us/dashboard/desktop/overview) at no cost. Coming soon, we'll provide the option to [associate an Azure AD tenant with your account](/windows/uwp/publish/add-users-groups-and-azure-ad-applications) so that other people in your company can also sign in.
+**If your company doesn't have a Partner Center account**: You can [sign up for the Windows Desktop Application Program directly](https://partner.microsoft.com/dashboard/desktop/overview) at no cost. Coming soon, we'll provide the option to [associate an Azure AD tenant with your account](/windows/uwp/publish/add-users-groups-and-azure-ad-applications) so that other people in your company can also sign in.
 
 ## Add your desktop applications
 
