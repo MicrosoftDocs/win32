@@ -38,7 +38,15 @@ A pointer to a [MSG](/windows/desktop/api/winuser/ns-winuser-msg) structure that
 
 ### flags [in]
 
-An unsigned integer specifying flags for the function call.
+The behavior of the function.
+
+If bit 0 is set, a menu is active. In this mode Alt+Numeric keypad key combinations are not handled.
+
+If bit 1 is set, **TranslateMessageEx** will return FALSE when it does not post WM_CHAR or WM_SYSCHAR to the message loop.
+
+If bit 2 is set, keyboard state is not changed (Windows 10, version 1607 and newer)
+
+All other bits (through 31) are reserved.
 
 
 ## Return value
