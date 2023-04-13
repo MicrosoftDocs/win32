@@ -531,7 +531,7 @@ The stability of a timer describes whether the tick frequency changes over time,
 
 <dl> <dt>
 
-**TSC Register**
+**TSC Register (x86 and x64)**
 </dt> <dd>
 
 All modern Intel and AMD processors contain a TSC register that is a 64-bit register that increases at a high rate, typically equal to the processor clock. The value of this counter can be read through the **RDTSC** or **RDTSCP** machine instructions, providing very low access time and computational cost in the order of tens or hundreds of machine cycles, depending upon the processor.
@@ -540,6 +540,7 @@ Although the TSC register seems like an ideal time stamp mechanism, here are cir
 
 -   Not all processors have usable TSC registers, so using the TSC register in software directly creates a portability problem. (Windows will select an alternative time source for [**QPC**](/windows/win32/api/profileapi/nf-profileapi-queryperformancecounter) in this case, which avoids the portability problem.)
 -   Some processors can vary the frequency of the TSC clock or stop the advancement of the TSC register, which makes the TSC unsuitable for timing purposes on these processors. These processors are said to have non-invariant TSC registers. (Windows will automatically detect this, and select an alternative time source for [**QPC**](/windows/win32/api/profileapi/nf-profileapi-queryperformancecounter)).
+-   Even if a virtualization host has a usable TSC, live migration of running virtual machines when the target virtualization host does not have or utilize hardware assisted TSC scaling can result in a change in TSC frequency that is visible to guests. (It is expected that if this type of live migration is possible for a guest, that the hypervisor clears the invariant TSC feature bit in CPUID.)
 -   On multi-processor or multi-core systems, some processors and systems are unable to synchronize the clocks on each core to the same value. (Windows will automatically detect this, and select an alternative time source for [**QPC**](/windows/win32/api/profileapi/nf-profileapi-queryperformancecounter)).
 -   On some large multi-processor systems, you might not be able to synchronize the processor clocks to the same value even if the processor has an invariant TSC. (Windows will automatically detect this, and select an alternative time source for [**QPC**](/windows/win32/api/profileapi/nf-profileapi-queryperformancecounter)).
 -   Some processors will execute instructions out of order. This can result in incorrect cycle counts when **RDTSC** is used to time instruction sequences because the **RDTSC** instruction might be executed at a different time than specified in your program. The **RDTSCP** instruction has been introduced on some processors in response to this problem.
@@ -550,23 +551,30 @@ During system initialization, Windows checks if the TSC is suitable for timing p
 
 </dd> <dt>
 
-**PM Clock**
+**PM Clock (x86 and x64)**
 </dt> <dd>
 
 The ACPI timer, also known as the PM clock, was added to the system architecture to provide reliable time stamps independently of the processors speed. Because this was the single goal of this timer, it provides a time stamp in a single clock cycle, but it doesn't provide any other functionality.
 
 </dd> <dt>
 
-**HPET Timer**
+**HPET Timer (x86 and x64)**
 </dt> <dd>
 
 The High Precision Event Timer (HPET) was developed jointly by Intel and Microsoft to meet the timing requirements of multimedia and other time-sensitive applications. Unlike the TSC, which is a per-processor resource, the HPET is a shared, platform-wide resource, though a system may have multiple HPETs. HPET support has been in Windows since Windows Vista, and Windows 7 and Windows 8 Hardware Logo certification requires HPET support in the hardware platform.
 
 </dd> <dt>
 
-**GIT Timer**
+**GIT Timer (Arm)**
 </dt> <dd>
 
-Arm-based platforms do not have a TSC, HPET, or PM timer as there is on Intel- or AMD-based platforms. Instead, Arm processors provide the Generic Timer (sometimes called the Generic Interval Timer, or GIT) which contains a System Counter register. The Generic Timer System Counter is a fixed-frequency platform-wide time source. It begins at zero at start-up and increases at a high rate. In Armv8.6 or higher, this is defined as exactly 1 GHz, but should be determined by reading the clock frequency register which is set by early boot firmware. For more details, see the chapter "The Generic Timer in AArch64 state" in "Arm Architecture Reference Manual for A-profile architecture" (DDI 0487).
+Arm-based platforms do not have a TSC, HPET, or PM clock as there is on Intel- or AMD-based platforms. Instead, Arm processors provide the Generic Timer (sometimes called the Generic Interval Timer, or GIT) which contains a System Counter register (e.g. CNTVCT_EL0). The Generic Timer System Counter is a fixed-frequency platform-wide time source. It begins at zero at start-up and increases at a high rate. In Armv8.6 or higher, this is defined as exactly 1 GHz, but should be determined by reading the clock frequency register which is set by early boot firmware. For more details, see the chapter "The Generic Timer in AArch64 state" in "Arm Architecture Reference Manual for A-profile architecture" (DDI 0487).
+
+</dd> <dt>
+
+**Cycle Counter (Arm)**
+</dt> <dd>
+
+Arm-based platforms provide a Performance Monitors Cycle Counter register (e.g. PMCCNTR_EL0). This counter counts processor clock cycles. It is non-invariant and its units may not be correlated to real time. It is not advised to use this register to obtain timestamps.
 
 </dd> </dl>
