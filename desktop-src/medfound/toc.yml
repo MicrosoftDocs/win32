@@ -8221,6 +8221,8 @@
         href: codecapi-avdecvideomaxcodedheight.md
       - name: "CODECAPI_AVDecVideoMaxCodedWidth"
         href: codecapi-avdecvideomaxcodedwidth.md
+      - name: "CODECAPI_AVEncAACEnableVBR"
+        href: codecapi-avencaacenablevbr.md 
       - name: "CODECAPI_AVEncAdaptiveMode"
         href: codecapi-avencadaptivemode.md
       - name: "CODECAPI_AVEncCommonTranscodeEncodingProfile"
