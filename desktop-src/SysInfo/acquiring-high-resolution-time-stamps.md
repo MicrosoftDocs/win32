@@ -565,7 +565,7 @@ The High Precision Event Timer (HPET) was developed jointly by Intel and Microso
 
 </dd> <dt>
 
-**GIT Timer (Arm)**
+**Generic Timer System Counter (Arm)**
 </dt> <dd>
 
 Arm-based platforms do not have a TSC, HPET, or PM clock as there is on Intel- or AMD-based platforms. Instead, Arm processors provide the Generic Timer (sometimes called the Generic Interval Timer, or GIT) which contains a System Counter register (e.g. CNTVCT_EL0). The Generic Timer System Counter is a fixed-frequency platform-wide time source. It begins at zero at start-up and increases at a high rate. In Armv8.6 or higher, this is defined as exactly 1 GHz, but should be determined by reading the clock frequency register which is set by early boot firmware. For more details, see the chapter "The Generic Timer in AArch64 state" in "Arm Architecture Reference Manual for A-profile architecture" (DDI 0487).
