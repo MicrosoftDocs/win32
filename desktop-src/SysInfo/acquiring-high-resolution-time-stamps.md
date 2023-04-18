@@ -46,7 +46,7 @@ The majority of Windows 7 and Windows Server 2008 R2 computers have processor
 
 ### Windows 8, Windows 8.1, Windows Server 2012, and Windows Server 2012 R2
 
-Windows 8, Windows 8.1, Windows Server 2012, and Windows Server 2012 R2 use TSCs as the basis for the performance counter. The TSC synchronization algorithm was significantly improved to better accommodate large systems with many processors. In addition, support for the new precise time-of-day API was added, which enables acquiring precise wall clock time stamps from the operating system. For more info, see [**GetSystemTimePreciseAsFileTime**](/windows/win32/api/sysinfoapi/nf-sysinfoapi-getsystemtimepreciseasfiletime). On Windows RT and Windows 10 devices using Arm processors, the performance counter is based on either a proprietary platform counter or the system counter provided by the Arm Generic Timer if the platform is so equipped.
+Windows 8, Windows 8.1, Windows Server 2012, and Windows Server 2012 R2 use TSCs as the basis for the performance counter. The TSC synchronization algorithm was significantly improved to better accommodate large systems with many processors. In addition, support for the new precise time-of-day API was added, which enables acquiring precise wall clock time stamps from the operating system. For more info, see [**GetSystemTimePreciseAsFileTime**](/windows/win32/api/sysinfoapi/nf-sysinfoapi-getsystemtimepreciseasfiletime). On Windows RT and Windows 11 and Windows 10 devices using Arm processors, the performance counter is based on either a proprietary platform counter or the system counter provided by the Arm Generic Timer if the platform is so equipped.
 
 ## Guidance for acquiring time stamps
 
@@ -568,13 +568,13 @@ The High Precision Event Timer (HPET) was developed jointly by Intel and Microso
 **Generic Timer System Counter (Arm)**
 </dt> <dd>
 
-Arm-based platforms do not have a TSC, HPET, or PM clock as there is on Intel- or AMD-based platforms. Instead, Arm processors provide the Generic Timer (sometimes called the Generic Interval Timer, or GIT) which contains a System Counter register (e.g. CNTVCT_EL0). The Generic Timer System Counter is a fixed-frequency platform-wide time source. It begins at zero at start-up and increases at a high rate. In Armv8.6 or higher, this is defined as exactly 1 GHz, but should be determined by reading the clock frequency register which is set by early boot firmware. For more details, see the chapter "The Generic Timer in AArch64 state" in "Arm Architecture Reference Manual for A-profile architecture" (DDI 0487).
+Arm-based platforms do not have a TSC, HPET, or PM clock as there is on Intel- or AMD-based platforms. Instead, Arm processors provide the Generic Timer (sometimes called the Generic Interval Timer, or GIT) which contains a System Counter register (for example, CNTVCT_EL0). The Generic Timer System Counter is a fixed-frequency platform-wide time source. It begins at zero at start-up and increases at a high rate. In Armv8.6 or higher, this is defined as exactly 1 GHz, but should be determined by reading the clock frequency register which is set by early boot firmware. For more details, see the chapter "The Generic Timer in AArch64 state" in "Arm Architecture Reference Manual for A-profile architecture" (DDI 0487).
 
 </dd> <dt>
 
 **Cycle Counter (Arm)**
 </dt> <dd>
 
-Arm-based platforms provide a Performance Monitors Cycle Counter register (e.g. PMCCNTR_EL0). This counter counts processor clock cycles. It is non-invariant and its units may not be correlated to real time. It is not advised to use this register to obtain timestamps.
+Arm-based platforms provide a Performance Monitors Cycle Counter register (for example, PMCCNTR_EL0). This counter counts processor clock cycles. It is non-invariant and its units may not be correlated to real time. It is not advised to use this register to obtain timestamps.
 
 </dd> </dl>
