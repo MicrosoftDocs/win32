@@ -46,7 +46,7 @@ The majority of Windows 7 and Windows Server 2008 R2 computers have processor
 
 ### Windows 8, Windows 8.1, Windows Server 2012, and Windows Server 2012 R2
 
-Windows 8, Windows 8.1, Windows Server 2012, and Windows Server 2012 R2 use TSCs as the basis for the performance counter. The TSC synchronization algorithm was significantly improved to better accommodate large systems with many processors. In addition, support for the new precise time-of-day API was added, which enables acquiring precise wall clock time stamps from the operating system. For more info, see [**GetSystemTimePreciseAsFileTime**](/windows/win32/api/sysinfoapi/nf-sysinfoapi-getsystemtimepreciseasfiletime). On Windows RT PC platforms, the performance counter is based on either a proprietary platform counter or the system counter provided by the Windows RT PC Generic Timer if the platform is so equipped.
+Windows 8, Windows 8.1, Windows Server 2012, and Windows Server 2012 R2 use TSCs as the basis for the performance counter. The TSC synchronization algorithm was significantly improved to better accommodate large systems with many processors. In addition, support for the new precise time-of-day API was added, which enables acquiring precise wall clock time stamps from the operating system. For more info, see [**GetSystemTimePreciseAsFileTime**](/windows/win32/api/sysinfoapi/nf-sysinfoapi-getsystemtimepreciseasfiletime). On Windows RT and Windows 10 devices using Arm processors, the performance counter is based on either a proprietary platform counter or the system counter provided by the Arm Generic Timer if the platform is so equipped.
 
 ## Guidance for acquiring time stamps
 
@@ -169,7 +169,7 @@ No. [**GetTickCount**](/windows/win32/api/sysinfoapi/nf-sysinfoapi-gettickcount)
 
 </dd> <dt>
 
-<span id="Should_I_use_QPC_or_call_the_RDTSC__RDTSCP_instructions_directly_"></span><span id="should_i_use_qpc_or_call_the_rdtsc__rdtscp_instructions_directly_"></span><span id="SHOULD_I_USE_QPC_OR_CALL_THE_RDTSC__RDTSCP_INSTRUCTIONS_DIRECTLY_"></span>**Should I use QPC or call the RDTSC /RDTSCP instructions directly?**
+<span id="Should_I_use_QPC_or_call_the_RDTSC__RDTSCP_instructions_directly_"></span><span id="should_i_use_qpc_or_call_the_rdtsc__rdtscp_instructions_directly_"></span><span id="SHOULD_I_USE_QPC_OR_CALL_THE_RDTSC__RDTSCP_INSTRUCTIONS_DIRECTLY_"></span>**Should I use QPC or call the RDTSC/RDTSCP instructions directly?**
 </dt> <dd>
 
 To avoid incorrectness and portability issues, we strongly encourage you to use [**QPC**](/windows/win32/api/profileapi/nf-profileapi-queryperformancecounter) instead of using the TSC register or the **RDTSC** or **RDTSCP** processor instructions.
@@ -200,7 +200,7 @@ No. If the processor has an invariant TSC, the [**QPC**](/windows/win32/api/prof
 <span id="Does_QPC_reliably_work_on_multi-processor_systems__multi-core_system__and_________systems_with_hyper-threading_"></span><span id="does_qpc_reliably_work_on_multi-processor_systems__multi-core_system__and_________systems_with_hyper-threading_"></span><span id="DOES_QPC_RELIABLY_WORK_ON_MULTI-PROCESSOR_SYSTEMS__MULTI-CORE_SYSTEM__AND_________SYSTEMS_WITH_HYPER-THREADING_"></span>**Does QPC reliably work on multi-processor systems, multi-core system, and systems with hyper-threading?**
 </dt> <dd>
 
-Yes
+Yes.
 
 </dd> <dt>
 
@@ -239,10 +239,10 @@ TSC-INVARIANT   * TSC runs at constant rate
 
 </dd> <dt>
 
-<span id="Does_QPC_work_reliably_on__hardware_platforms_"></span><span id="does_qpc_work_reliably_on__hardware_platforms_"></span><span id="DOES_QPC_WORK_RELIABLY_ON__HARDWARE_PLATFORMS_"></span>**Does QPC work reliably on Windows RT PC hardware platforms?**
+<span id="Does_QPC_work_reliably_on__hardware_platforms_"></span><span id="does_qpc_work_reliably_on__hardware_platforms_"></span><span id="DOES_QPC_WORK_RELIABLY_ON__HARDWARE_PLATFORMS_"></span>**Does QPC work reliably on Windows RT hardware platforms?**
 </dt> <dd>
 
-Yes
+Yes.
 
 </dd> <dt>
 
@@ -270,7 +270,7 @@ A kernel transition is not required if the system can use the TSC register as th
 <span id="Is_the_performance_counter_monotonic__non-decreasing__"></span><span id="is_the_performance_counter_monotonic__non-decreasing__"></span><span id="IS_THE_PERFORMANCE_COUNTER_MONOTONIC__NON-DECREASING__"></span>**Is the performance counter monotonic (non-decreasing)?**
 </dt> <dd>
 
-Yes
+Yes. QPC does not go backward.
 
 </dd> <dt>
 
@@ -373,7 +373,7 @@ The following two diagrams illustrate the impact of the ± 1 tick uncertainty by
 [**QueryPerformanceFrequency**](/windows/win32/api/profileapi/nf-profileapi-queryperformancefrequency) returns the frequency of [**QPC**](/windows/win32/api/profileapi/nf-profileapi-queryperformancecounter), and the period and resolution are equal to the reciprocal of this value. The performance counter frequency that **QueryPerformanceFrequency** returns is determined during system initialization and doesn't change while the system is running.
 
 > [!Note]  
-> Cases might exist where [**QueryPerformanceFrequency**](/windows/win32/api/profileapi/nf-profileapi-queryperformancefrequency) doesn't return the actual frequency of the hardware tick generator. For example, in many cases, **QueryPerformanceFrequency** returns the TSC frequency divided by 1024; and on Hyper-V, the performance counter frequency is always 10 MHz when the guest virtual machine runs under a [hypervisor](https://msdn.microsoft.com/library/Ff542584(v=VS.85).aspx) that implements the [hypervisor version 1.0 interface](https://msdn.microsoft.com/library/Ff541458(v=VS.85).aspx). As a result, don't assume that **QueryPerformanceFrequency** will return the precise TSC frequency.
+> Often [**QueryPerformanceFrequency**](/windows/win32/api/profileapi/nf-profileapi-queryperformancefrequency) doesn't return the actual frequency of the hardware tick generator. For example, in some older versions of Windows, **QueryPerformanceFrequency** returns the TSC frequency divided by 1024; and when running under a [hypervisor](https://msdn.microsoft.com/library/Ff542584(v=VS.85).aspx) that implements the [hypervisor version 1.0 interface](https://msdn.microsoft.com/library/Ff541458(v=VS.85).aspx) (or always in some newer versions of Windows), the performance counter frequency is fixed to 10 MHz. As a result, don't assume that **QueryPerformanceFrequency** will return a value derived from the hardware frequency.
 
  
 
@@ -531,15 +531,16 @@ The stability of a timer describes whether the tick frequency changes over time,
 
 <dl> <dt>
 
-<span id="TSC_Register"></span><span id="tsc_register"></span><span id="TSC_REGISTER"></span>**TSC Register**
+**TSC Register (x86 and x64)**
 </dt> <dd>
 
-Some Intel and AMD processors contain a TSC register that is a 64-bit register that increases at a high rate, typically equal to the processor clock. The value of this counter can be read through the **RDTSC** or **RDTSCP** machine instructions, providing very low access time and computational cost in the order of tens or hundreds of machine cycles, depending upon the processor.
+All modern Intel and AMD processors contain a TSC register that is a 64-bit register that increases at a high rate, typically equal to the processor clock. The value of this counter can be read through the **RDTSC** or **RDTSCP** machine instructions, providing very low access time and computational cost in the order of tens or hundreds of machine cycles, depending upon the processor.
 
 Although the TSC register seems like an ideal time stamp mechanism, here are circumstances in which it can't function reliably for timekeeping purposes:
 
--   Not all processors have TSC registers, so using the TSC register in software directly creates a portability problem. (Windows will select an alternative time source for [**QPC**](/windows/win32/api/profileapi/nf-profileapi-queryperformancecounter) in this case, which avoids the portability problem.)
+-   Not all processors have usable TSC registers, so using the TSC register in software directly creates a portability problem. (Windows will select an alternative time source for [**QPC**](/windows/win32/api/profileapi/nf-profileapi-queryperformancecounter) in this case, which avoids the portability problem.)
 -   Some processors can vary the frequency of the TSC clock or stop the advancement of the TSC register, which makes the TSC unsuitable for timing purposes on these processors. These processors are said to have non-invariant TSC registers. (Windows will automatically detect this, and select an alternative time source for [**QPC**](/windows/win32/api/profileapi/nf-profileapi-queryperformancecounter)).
+-   Even if a virtualization host has a usable TSC, live migration of running virtual machines when the target virtualization host does not have or utilize hardware assisted TSC scaling can result in a change in TSC frequency that is visible to guests. (It is expected that if this type of live migration is possible for a guest, that the hypervisor clears the invariant TSC feature bit in CPUID.)
 -   On multi-processor or multi-core systems, some processors and systems are unable to synchronize the clocks on each core to the same value. (Windows will automatically detect this, and select an alternative time source for [**QPC**](/windows/win32/api/profileapi/nf-profileapi-queryperformancecounter)).
 -   On some large multi-processor systems, you might not be able to synchronize the processor clocks to the same value even if the processor has an invariant TSC. (Windows will automatically detect this, and select an alternative time source for [**QPC**](/windows/win32/api/profileapi/nf-profileapi-queryperformancecounter)).
 -   Some processors will execute instructions out of order. This can result in incorrect cycle counts when **RDTSC** is used to time instruction sequences because the **RDTSC** instruction might be executed at a different time than specified in your program. The **RDTSCP** instruction has been introduced on some processors in response to this problem.
@@ -550,20 +551,30 @@ During system initialization, Windows checks if the TSC is suitable for timing p
 
 </dd> <dt>
 
-<span id="PM_Clock"></span><span id="pm_clock"></span><span id="PM_CLOCK"></span>**PM Clock**
+**PM Clock (x86 and x64)**
 </dt> <dd>
 
 The ACPI timer, also known as the PM clock, was added to the system architecture to provide reliable time stamps independently of the processors speed. Because this was the single goal of this timer, it provides a time stamp in a single clock cycle, but it doesn't provide any other functionality.
 
 </dd> <dt>
 
-<span id="HPET_Timer"></span><span id="hpet_timer"></span><span id="HPET_TIMER"></span>**HPET Timer**
+**HPET Timer (x86 and x64)**
 </dt> <dd>
 
-The High Precision Event Timer (HPET) was developed jointly by Intel and Microsoft to meet the timing requirements of multimedia and other time-sensitive applications. HPET support has been in Windows since Windows Vista, and Windows 7 and Windows 8 Hardware Logo certification requires HPET support in the hardware platform.
+The High Precision Event Timer (HPET) was developed jointly by Intel and Microsoft to meet the timing requirements of multimedia and other time-sensitive applications. Unlike the TSC, which is a per-processor resource, the HPET is a shared, platform-wide resource, though a system may have multiple HPETs. HPET support has been in Windows since Windows Vista, and Windows 7 and Windows 8 Hardware Logo certification requires HPET support in the hardware platform.
+
+</dd> <dt>
+
+**Generic Timer System Counter (Arm)**
+</dt> <dd>
+
+Arm-based platforms do not have a TSC, HPET, or PM clock as there is on Intel- or AMD-based platforms. Instead, Arm processors provide the Generic Timer (sometimes called the Generic Interval Timer, or GIT) which contains a System Counter register (e.g. CNTVCT_EL0). The Generic Timer System Counter is a fixed-frequency platform-wide time source. It begins at zero at start-up and increases at a high rate. In Armv8.6 or higher, this is defined as exactly 1 GHz, but should be determined by reading the clock frequency register which is set by early boot firmware. For more details, see the chapter "The Generic Timer in AArch64 state" in "Arm Architecture Reference Manual for A-profile architecture" (DDI 0487).
+
+</dd> <dt>
+
+**Cycle Counter (Arm)**
+</dt> <dd>
+
+Arm-based platforms provide a Performance Monitors Cycle Counter register (e.g. PMCCNTR_EL0). This counter counts processor clock cycles. It is non-invariant and its units may not be correlated to real time. It is not advised to use this register to obtain timestamps.
 
 </dd> </dl>
-
- 
-
- 
