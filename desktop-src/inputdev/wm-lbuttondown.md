@@ -86,7 +86,6 @@ LRESULT CALLBACK WndProc(_In_ HWND hWnd, _In_ UINT msg, _In_ WPARAM wParam, _In_
                 pt.x = GET_X_LPARAM(lParam);
                 pt.y = GET_Y_LPARAM(lParam);
             }
-        }
         break;
 
     default:
