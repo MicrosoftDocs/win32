@@ -15,6 +15,7 @@ The following structures and unions are declared in `dstorage.h` for DirectStora
 | Topic |
 |-|
 | [DSTORAGE_CONFIGURATION structure](/windows/win32/dstorage/dstorage/ns-dstorage-dstorage_configuration) |
+| [DSTORAGE_CONFIGURATION1 structure](/windows/win32/dstorage/dstorage/ns-dstorage-dstorage_configuration1) |
 | [DSTORAGE_CUSTOM_DECOMPRESSION_REQUEST structure](/windows/win32/dstorage/dstorage/ns-dstorage-dstorage_custom_decompression_request) |
 | [DSTORAGE_CUSTOM_DECOMPRESSION_RESULT structure](/windows/win32/dstorage/dstorage/ns-dstorage-dstorage_custom_decompression_result) |
 | [DSTORAGE_DESTINATION union](/windows/win32/dstorage/dstorage/ns-dstorage-dstorage_destination) |
