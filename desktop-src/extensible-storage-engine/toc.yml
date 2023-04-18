@@ -339,6 +339,8 @@
           href: jetidle-function.md
         - name: JetIndexRecordCount Function
           href: jetindexrecordcount-function.md
+        - name: JetIndexRecordCount2 Function
+          href: jetindexrecordcount2-function.md
         - name: JetInit Function
           href: jetinit-function.md
         - name: JetInit2 Function
@@ -361,6 +363,8 @@
           href: jetopentable-function.md
         - name: JetOpenTemporaryTable Function
           href: jetopentemporarytable-function.md
+        - name: JetOpenTemporaryTable2 Function
+          href: jetopentemporarytable2-function.md
         - name: JetOpenTempTable Function
           href: jetopentemptable-function.md
         - name: JetOpenTempTable2 Function

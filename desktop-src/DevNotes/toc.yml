@@ -966,8 +966,12 @@
     items: 
     - name: "ApplyDeltaB"
       href: msdelta-applydeltab.md
+    - name: "ApplyDeltaW"
+      href: msdelta-applydeltaw.md
     - name: "CreateDeltaB"
       href: msdelta-createdeltab.md
+    - name: "CreateDeltaW"
+      href: msdelta-createdeltaw.md
     - name: "DeltaFree"
       href: msdelta-deltafree.md
   - name: "MSN"
