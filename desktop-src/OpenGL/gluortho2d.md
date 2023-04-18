@@ -27,8 +27,8 @@ The **gluOrtho2D** function defines a 2-D orthographic projection matrix.
 void WINAPI gluOrtho2D(
    GLdouble left,
    GLdouble right,
+   GLdouble bottom,
    GLdouble top,
-   GLdouble bottom
 );
 ```
 
@@ -57,14 +57,14 @@ The coordinate for the right vertical clipping plane.
 
 The coordinate for the top horizontal clipping plane.
 
-</dd> <dt>
-
-*bottom* 
-</dt> <dd>
+</dd> <dd>
 
 The coordinate for the bottom horizontal clipping plane.
 
-</dd> </dl>
+</dd> <dt>
+
+*bottom* 
+</dt> </dl>
 
 ## Return value
 
