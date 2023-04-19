@@ -50,19 +50,19 @@ The coordinate for the left vertical clipping plane.
 
 The coordinate for the right vertical clipping plane.
 
-</dd> <dt>
-
-*top* 
-</dt> <dd>
-
-The coordinate for the top horizontal clipping plane.
-
 </dd>  <dt>
 
 *bottom* 
 </dt> <dd>
 
 The coordinate for the bottom horizontal clipping plane.
+
+</dd> <dt>
+
+*top* 
+</dt> <dd>
+
+The coordinate for the top horizontal clipping plane.
 
 </dd></dl>
 
