@@ -20,25 +20,12 @@ The constant that represents this socket option is 0x0008.
 
 
 ```C++
-int getsockopt(
-  (SOCKET) s,      // descriptor identifying a socket 
-  (int) SOL_SOCKET,   // level
-  (int) SO_KEEPALIVE, // optname
-  (char *) optval, // output buffer,
-  (int) optlen,  // size of output buffer
-);
-```
-
-
-
-
-```C++
 int setsockopt(
   (SOCKET) s,      // descriptor identifying a socket 
   (int) SOL_SOCKET,   // level
   (int) SO_KEEPALIVE, // optname
   (char *) optval, // input buffer,
-  (int) optlen,  // size of input buffer
+  (int) optlen  // size of input buffer
 );
 ```
 
@@ -78,10 +65,10 @@ This value is treated as a boolean value with 0 used to indicate **FALSE** (disa
 
 </dd> <dt>
 
-*optlen* \[in, out\]
+*optlen* \[in\]
 </dt> <dd>
 
-A pointer to the size, in bytes, of the *optval* buffer. This size must be equal to or larger than the size of a **DWORD** value.
+The size, in bytes, of the *optval* buffer. This size must be equal to or larger than the size of a **DWORD** value.
 
 </dd> </dl>
 
