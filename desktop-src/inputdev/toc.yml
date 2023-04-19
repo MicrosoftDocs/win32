@@ -153,6 +153,8 @@
           href: /windows/win32/api/commctrl/nf-commctrl-_trackmouseevent
         - name: "DragDetect"
           href: /windows/win32/api/winuser/nf-winuser-dragdetect
+        - name: "EnterReaderModeHelper"
+          href: enterreadermodehelper.md
         - name: "GetCapture"
           href: /windows/win32/api/winuser/nf-winuser-getcapture
         - name: "GetDoubleClickTime"
