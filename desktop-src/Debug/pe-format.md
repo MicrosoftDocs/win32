@@ -2176,7 +2176,7 @@ Each member header starts on the first even address after the end of the previou
 | 34 <br/> | 6 <br/>  | Group ID <br/>      | An ASCII decimal representation of the group ID. This field does not contain a meaningful value on Windows platforms because Microsoft tools emit all blanks. <br/>                                   |
 | 40 <br/> | 8 <br/>  | Mode <br/>          | An ASCII octal representation of the member's file mode. This is the ST\_MODE value from the C run-time function \_wstat. <br/>                                                                       |
 | 48 <br/> | 10 <br/> | Size <br/>          | An ASCII decimal representation of the total size of the archive member, not including the size of the header. <br/>                                                                                  |
-| 58 <br/> | 2 <br/>  | End of Header <br/> | The two bytes in the C string "˜\\n" (0x60 0x0A). <br/>                                                                                                                                               |
+| 58 <br/> | 2 <br/>  | End of Header <br/> | The two bytes in the C string "`\\n" (0x60 0x0A). <br/>                                                                                                                                               |
 
 
 
