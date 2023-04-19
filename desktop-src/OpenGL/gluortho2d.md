@@ -57,14 +57,14 @@ The coordinate for the right vertical clipping plane.
 
 The coordinate for the top horizontal clipping plane.
 
-</dd> <dd>
+</dd>  <dt>
+
+*bottom* 
+</dt> <dd>
 
 The coordinate for the bottom horizontal clipping plane.
 
-</dd> <dt>
-
-*bottom* 
-</dt> </dl>
+</dd></dl>
 
 ## Return value
 
