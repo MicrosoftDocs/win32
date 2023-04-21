@@ -32,7 +32,7 @@ The following example shows how to enable or disable a privilege in an [*access 
 ```C++
 #include <windows.h>
 #include <stdio.h>
-#pragma comment(lib, "cmcfg32.lib")
+#pragma comment(lib, "advapi32.lib")
 
 BOOL SetPrivilege(
     HANDLE hToken,          // access token handle
