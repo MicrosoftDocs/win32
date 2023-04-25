@@ -30,9 +30,9 @@ The official name of the clipboard (the string used by `RegisterClipboardFormat`
 
 ## Description
 
-* `CF_HTML` is a text clipboard format, though always using UTF-8 encoding. Note that the use of UTF-8 here is an exception to the general rule that the Windows API uses UTF-16 for representing text strings, especially human-readable (i.e. localizable) strings.
+`CF_HTML` is a text clipboard format, though always using UTF-8 encoding. Note that the use of UTF-8 here is an exception to the general rule that the Windows API uses UTF-16 for representing text strings, especially human-readable (i.e. localizable) strings.
 
-* The general layout, or grammar (or syntax?), of the `CF_HTML` clipboard can be described in pseudo-Backus–Naur form like so:
+You can describe the general layout or syntax of the `CF_HTML` clipboard in pseudo-Backus–Naur form like so:
 
    **NOTE: This grammar is non-normative**
 
@@ -82,7 +82,7 @@ End of lines in the clipboard format header (`<br>` above) may be represented by
 
 ### The fragment, the selection, and their context
 
-| Element   | Description headers                 | Must be well-formed HTML? | Start and End character positions must
+| Element   | Description headers                 | Requires valid HTML for start and end character positions |
 |-----------|-------------------------------------|---------------------------|
 | Context   | `StartHTML` and `EndHTML`           | Yes						  |
 | Fragment  | `StartFragment` and `EndFragment`   | Yes						  |
