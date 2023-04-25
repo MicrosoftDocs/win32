@@ -78,7 +78,7 @@ For the convenience of the programs generating the byte offsets, the offset valu
 
 The only character set supported by the clipboard is Unicode (UTF-8). Because the first characters of UTF-8 and ASCII match, the description is always ASCII, but the bytes of the context (starting at `StartHTML`) could be using any other characters encoded in UTF-8.
 
-End of lines in the clipboard format header (`<br>` above) may be represented by CRLF (Windows), LF (Unix), or lone CR (archaic).
+The ends of lines in the clipboard format header (`<br>` above) may be represented by CRLF (Windows), LF (Unix), or lone CR (archaic).
 
 ### The fragment, the selection, and their context
 
