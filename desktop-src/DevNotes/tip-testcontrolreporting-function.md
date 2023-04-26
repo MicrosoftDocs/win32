@@ -23,7 +23,7 @@ Changes the keywords of ETW events.
 
 ```C++
 void TestControlReporting(
-    TestReportingRequest reportingRequest)
+    unsigned int reportingRequest)
 ```
 
 
@@ -36,9 +36,9 @@ The options for changing emitted ETW event. This parameter can have the followin
 
 | Value | Description |
 |-------|-------------|
-| 0 | FlushProcessCache. Save process data into persistent storage. |
-| 1 | Resume. Add keyword bits 45 and 46 back to ETW event. | 
-| 2 | Suspend. Remove keyword bits 45 and 46 from ETW event. |
+| 0 | Save process data into persistent storage. |
+| 1 | Add keyword bits 45 and 46 back to ETW event. | 
+| 2 | Remove keyword bits 45 and 46 from ETW event. |
 
 
 ## Return value

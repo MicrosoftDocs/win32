@@ -24,7 +24,7 @@ Allows modification of the test handle with locking.
 ```C++
 BOOL TestQueryData(
     HTIPTEST test,
-    TestQueryOptions options,
+    unsigned int options,
     unsigned int knownDataSequenceId,
     _Out_ TestInfo* result)
 ```
@@ -44,10 +44,10 @@ The test query options. This parameter can be set to the following values.
 | Value	| Description |
 |-------|---------|
 | 0 | None. Default query options |
-| 1 | AcquireLocked. Acquires lock to protect modifications until unlock. |
-| 2 | CloseHandleAndMarkComplete. Close handle and mark as complete. |
-| 3 | CloseHandleAndMarkCompleteIfFinal. Close handle and mark complete if this is the final handle. |
-| 4 | CallerOwnsLock. Set when the caller already owns the lock. |
+| 1 | Acquires lock to protect modifications until unlock. |
+| 2 | Close handle and mark as complete. |
+| 3 | Close handle and mark complete if this is the final handle. |
+| 4 | Set when the caller already owns the lock. |
 
 
 ### knownDataSequenceId

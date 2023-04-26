@@ -24,8 +24,8 @@ Returns an existing test handle that was created with [TestCreate](tip-testcreat
 ```C++
 HTIPTEST TestOpen(
     unsigned int testCaseId,               
-    TestRetrievalOptions options,   
-    TestStorage storage,
+    unsigned int options,   
+    unsigned int storage,
     GUID* testId,            
     _Out_ TestInfo* result)
 ```
@@ -45,9 +45,9 @@ The test retrieval options. This parameter can be set to the following values.
 | Value	| Description |
 |-------|---------|
 | 0	| None. Default option. |
-| 1	| AquireLocked. Optimize retrieval with locking, like subsequently calling [TestQueryData](tip-testquerydata-function.md). |
-| 2 | AquireRunning. Deprecated, this is the same as default option. |
-| 131072 | TestInfoV2. Indicates that additional “properties” field will be included in the returned  [TestInfo](tip-testinfo-structure.md) structure. |
+| 1	| Optimize retrieval with locking, like subsequently calling [TestQueryData](tip-testquerydata-function.md). |
+| 2 | Deprecated, this is the same as default option. |
+| 131072 | Indicates that additional “properties” field will be included in the returned  [TestInfo](tip-testinfo-structure.md) structure. |
 
 ### storage
 
@@ -55,8 +55,8 @@ The test storage options. This parameter can be set to the following values.
 
 | Value	| Description |
 |-------|---------|
-| 1 | Process. Data will be stored in process. |
-| 2 | Machine. Data will be stored out of process. |
+| 1 | Data will be stored in process. |
+| 2 | Data will be stored out of process. |
 
 ### testId
 

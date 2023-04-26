@@ -24,7 +24,7 @@ Unlocks the test handle that was locked with [TestQueryData](tip-testquerydata-f
 ```C++
 void TestUnlockData(
     HTIPTEST test,
-    TestUnlockOptions options,
+    unsigned int options,
     PCSTR data,      
     _Out_ TestInfo* result)
 ```
@@ -44,7 +44,7 @@ The unlock data options. This parameter can be set to the following values.
 | Value	| Description |
 |-------|---------|
 | 0 | None. |
-| 1 | AmbiguousWrite. This update is coming from a test class that was opened with an ambiguous entity, i.e.multiple tests running may assume contention.|
+| 1 | This update is coming from a test class that was opened with an ambiguous entity, i.e.multiple tests running may assume contention.|
 
 ### data
 
