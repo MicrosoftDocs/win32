@@ -17,7 +17,7 @@ api_location:
 - msdelta.dll
 ---
 
-# CreateDeltaB function
+# CreateDeltaW function
 
 Creates a delta between the source and target (provided as buffers) and returns the output delta as an MSDelta-allocated buffer.
 
