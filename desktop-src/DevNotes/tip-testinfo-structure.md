@@ -14,7 +14,7 @@ api_location:
 - None
 ---
 
-# EDP_CONTEXT structure
+# TestInfo structure
 
 Contains metadata for a test handle.
 

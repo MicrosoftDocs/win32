@@ -1,5 +1,5 @@
 ---
-description: Returns a new test handle.
+description: Changes the keywords of ETW events.
 title: TestControlReporting function
 ms.topic: reference
 ms.date: 05/31/2018
@@ -16,7 +16,7 @@ api_location:
 
 # TestControlReporting function
 
-Returns a new test handle.
+Changes the keywords of ETW events.
 
 ## Syntax
 

@@ -1,5 +1,5 @@
 ---
-description: Returns a new test handle.
+description: Emits event to an ETW provider with the properties in the input struct.
 title: TestReport function
 ms.topic: reference
 ms.date: 05/31/2018
@@ -16,7 +16,7 @@ api_location:
 
 # TestReport function
 
-Returns a new test handle.
+Emits event to an ETW provider with the properties in the input struct.
 
 ## Syntax
 

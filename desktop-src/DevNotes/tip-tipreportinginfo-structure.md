@@ -14,7 +14,7 @@ api_location:
 - None
 ---
 
-# EDP_CONTEXT structure
+# TipReportingInfo structure
 
 Under WIP policy, represents the enterprise context (such as enterprise IDs) of a process.
 
