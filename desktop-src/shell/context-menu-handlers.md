@@ -92,23 +92,23 @@ In the following registry example, note that:
 HKEY_CLASSES_ROOT
    .myp-ms
       (Default) = MyProgram.1
-      MyProgram.1
-         (Default) = My Program Application
-         Shell
-            (Default) = doit
-            doit
-               (Default) = &Do It
-               command
-                  (Default) = c:\MyDir\MyProgram.exe /d "%1"
-            open
-               command
-                  (Default) = c:\MyDir\MyProgram.exe /d "%1"
-            print
-               command
-                  (Default) = c:\MyDir\MyProgram.exe /p "%1"
-            printto
-               command
-                  (Default) = c:\MyDir\MyProgram.exe /p "%1" "%2"
+   MyProgram.1
+      (Default) = My Program Application
+      Shell
+         (Default) = doit
+         doit
+            (Default) = &Do It
+            command
+               (Default) = c:\MyDir\MyProgram.exe /d "%1"
+         open
+            command
+               (Default) = c:\MyDir\MyProgram.exe /d "%1"
+         print
+            command
+               (Default) = c:\MyDir\MyProgram.exe /p "%1"
+         printto
+            command
+               (Default) = c:\MyDir\MyProgram.exe /p "%1" "%2"
 ```
 
 The following diagram illustrates the extension of the shortcut menu in accordance with the registry entries above. This shortcut menu has **Open**, **Do It**, and **Print** verbs on its menu, with **Do It** as the default verb.
