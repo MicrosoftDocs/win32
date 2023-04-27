@@ -1,9 +1,9 @@
 ---
+title: encryption (authEncryption) element
 description: Specifies the type of data encryption to use to connect to a wireless LAN.
 ms.assetid: 0ba24106-bd6f-465a-af80-ce85501756b9
-title: encryption (authEncryption) Element
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 04/26/2023
 topic_type: 
 - APIRef
 - kbSyntax
@@ -14,7 +14,7 @@ api_type:
 api_location: 
 ---
 
-# encryption (authEncryption) Element
+# encryption (authEncryption) element
 
 The encryption (authEncryption) element specifies the type of data encryption to use to connect to a wireless LAN.
 
@@ -36,6 +36,9 @@ The encryption (authEncryption) element specifies the type of data encryption to
             <xs:enumeration
                 value="AES"
              />
+            <xs:enumeration
+                value="GCMP256"
+             />
         </xs:restriction>
     </xs:simpleType>
 </xs:element>
@@ -55,15 +58,11 @@ To view sample profiles that use the **encryption** element, see [Wireless Profi
 
 ## Requirements
 
-
-
 | Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista, Windows XP with SP3 \[desktop apps only\]<br/> |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                |
 | Redistributable<br/>          | Wireless LAN API for Windows XP with SP2<br/>                 |
-
-
 
 ## See also
 
@@ -80,11 +79,3 @@ To view sample profiles that use the **encryption** element, see [Wireless Profi
 
 [**authEncryption (security)**](wlan-profileschema-authencryption-security-element.md)
 </dt> </dl>
-
- 
-
- 
-
-
-
-

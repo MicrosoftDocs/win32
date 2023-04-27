@@ -1,9 +1,9 @@
 ---
+title: hex (SSID) element
 description: Contains the SSID of a wireless LAN in hexadecimal format.
 ms.assetid: 6c49a3e6-f167-408b-a96f-5b6032108f34
-title: hex (SSID) Element
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 04/26/2023
 topic_type: 
 - APIRef
 - kbSyntax
@@ -14,7 +14,7 @@ api_type:
 api_location: 
 ---
 
-# hex (SSID) Element
+# hex (SSID) element
 
 The hex (SSID) element contains the SSID of a wireless LAN in hexadecimal format.
 
@@ -53,15 +53,11 @@ To view a sample profile that uses the **hex** element, see [FIPS Profile Sample
 
 ## Requirements
 
-
-
 | Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista, Windows XP with SP3 \[desktop apps only\]<br/> |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                |
 | Redistributable<br/>          | Wireless LAN API for Windows XP with SP2<br/>                 |
-
-
 
 ## See also
 
@@ -78,11 +74,3 @@ To view a sample profile that uses the **hex** element, see [FIPS Profile Sample
 
 [**SSID (SSIDConfig)**](wlan-profileschema-ssid-ssidconfig-element.md)
 </dt> </dl>
-
- 
-
- 
-
-
-
-

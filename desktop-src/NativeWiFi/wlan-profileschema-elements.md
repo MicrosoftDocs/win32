@@ -1,9 +1,9 @@
 ---
+title: WLAN_profile schema elements
 description: The WLAN\_profile schema defines the following elements.
 ms.assetid: 9eb0f446-1202-4770-b09e-250e83524119
-title: WLAN_profile Schema Elements
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 04/26/2023
 topic_type: 
 - kbArticle
 api_name: 
@@ -11,13 +11,13 @@ api_type:
 api_location: 
 ---
 
-# WLAN\_profile Schema Elements
+# WLAN_profile schema elements
 
-The WLAN\_profile schema defines the following elements. Most elements are in the namespace `https://www.microsoft.com/networking/WLAN/profile/v1`, except for [**FIPSMode (authEncryption)**](wlan-profileschema-fipsmode-authencryption-element.md), which is in the namespace `https://www.microsoft.com/networking/WLAN/profile/v2`.
+The WLAN\_profile schema defines the following elements. Most elements are in the namespace `https://www.microsoft.com/networking/WLAN/profile/v1`, with some exceptions. For example, [**FIPSMode (authEncryption)**](wlan-profileschema-fipsmode-authencryption-element.md) is in the namespace `https://www.microsoft.com/networking/WLAN/profile/v2`.
 
 The following list shows the defined elements in the order in which the elements appear in a profile. The ordering of elements is enforced. Not all elements are in every profile, as some elements are optional.
 
-This list does not show all possible elements that can appear in a wireless profile, as elements can be added in **xs:any** insertion points.
+This list doesn't show all possible elements that can appear in a wireless profile, as elements can be added in **xs:any** insertion points.
 
 -   [**WLANProfile**](wlan-profileschema-wlanprofile-element.md)
     -   [**name (WLANProfile)**](wlan-profileschema-name-wlanprofile-element.md)
@@ -25,6 +25,9 @@ This list does not show all possible elements that can appear in a wireless prof
         -   [**SSID (SSIDConfig)**](wlan-profileschema-ssid-ssidconfig-element.md)
             -   [**hex (SSID)**](wlan-profileschema-hex-ssid-element.md)
             -   [**name (SSID)**](wlan-profileschema-name-ssid-element.md)
+        -   [**SSIDPrefix (SSIDConfig)**](wlan-profileschema-ssidprefix-ssidconfig-element.md)
+            -   [**hex (SSIDPrefix)**](wlan-profileschema-hex-ssidprefix-element.md)
+            -   [**name (SSIDPrefix)**](wlan-profileschema-name-ssidprefix-element.md)
         -   [**nonBroadcast (SSIDConfig)**](wlan-profileschema-nonbroadcast-ssidconfig-element.md)
     -   [**Hotspot2 (WLANProfile)**](wlan-profileschema-hotspot2-element.md)
         -   [**DomainName (Hotspot2)**](wlan-profileschema-hotspot2-domainname-element.md)
@@ -37,12 +40,14 @@ This list does not show all possible elements that can appear in a wireless prof
     -   [**MSM (WLANProfile)**](wlan-profileschema-msm-wlanprofile-element.md)
         -   [**connectivity (MSM)**](wlan-profileschema-connectivity-msm-element.md)
             -   [**phyType (connectivity)**](wlan-profileschema-phytype-connectivity-element.md)
+            -   [**QoSDSCPToUPMappingAllowed (connectivity)**](wlan-profileschema-qosdscptoupmappingallowed-connectivity-element.md)
         -   [**security (MSM)**](wlan-profileschema-security-msm-element.md)
             -   [**authEncryption (security)**](wlan-profileschema-authencryption-security-element.md)
                 -   [**authentication (authEncryption)**](wlan-profileschema-authentication-authencryption-element.md)
                 -   [**encryption (authEncryption)**](wlan-profileschema-encryption-authencryption-element.md)
                 -   [**useOneX (authEncryption)**](wlan-profileschema-useonex-authencryption-element.md)
                 -   [**FIPSMode (authEncryption)**](wlan-profileschema-fipsmode-authencryption-element.md)
+                -   [**transitionMode (authEncryption)**](wlan-profileschema-transitionmode-authencryption-element.md)
             -   [**sharedKey (security)**](wlan-profileschema-sharedkey-security-element.md)
                 -   [**keyType (sharedKey)**](wlan-profileschema-keytype-sharedkey-element.md)
                 -   [**protected (sharedKey)**](wlan-profileschema-protected-sharedkey-element.md)
@@ -60,10 +65,7 @@ This list does not show all possible elements that can appear in a wireless prof
         -   [**connectivity (IHV)**](wlan-profileschema-connectivity-ihv-element.md)
         -   [**security (IHV)**](wlan-profileschema-security-ihv-element.md)
         -   [**useMSOneX (IHV)**](wlan-profileschema-usemsonex-ihv-element.md)
-
- 
-
- 
-
-
-
+    -   [**MacRandomization (WLANProfile)**](wlan-profileschema-macrandomization-wlanprofile-element.md)
+        -   [**enableRandomization (MacRandomization)**](wlan-profileschema-enablerandomization-macrandomization-element.md)
+        -   [**randomizeEveryday (MacRandomization)**](wlan-profileschema-randomizeeveryday-macrandomization-element.md)
+        -   [**randomizationSeed (MacRandomization)**](wlan-profileschema-randomizationseed-macrandomization-element.md)

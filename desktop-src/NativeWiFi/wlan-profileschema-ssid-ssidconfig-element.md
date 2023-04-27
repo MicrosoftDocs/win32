@@ -1,9 +1,9 @@
 ---
+title: SSID (SSIDConfig) element
 description: Contains an SSID for a wireless LAN.
 ms.assetid: fb3466c4-a586-424b-96e2-ba287c99a1d9
-title: SSID (SSIDConfig) Element
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 04/26/2023
 topic_type: 
 - APIRef
 - kbSyntax
@@ -14,7 +14,7 @@ api_type:
 api_location: 
 ---
 
-# SSID (SSIDConfig) Element
+# SSID (SSIDConfig) element
 
 The SSID (SSIDConfig) element contains an SSID for a wireless LAN.
 
@@ -73,14 +73,10 @@ The **SSID** element is defined by the [**SSIDConfig**](wlan-profileschema-ssidc
 
 ## Child elements
 
-
-
-| Element                                              | Type | Description                                                           |
-|------------------------------------------------------|------|-----------------------------------------------------------------------|
-| [**hex**](wlan-profileschema-hex-ssid-element.md)   |      | Contains the SSID of a wireless LAN in hexadecimal format.<br/> |
-| [**name**](wlan-profileschema-name-ssid-element.md) |      | Contains the SSID for a wireless LAN.<br/>                      |
-
-
+| Element | Type | Description |
+|-|-|-|
+| [**hex**](wlan-profileschema-hex-ssid-element.md) | | Contains the SSID of a wireless LAN in hexadecimal format.|
+| [**name**](wlan-profileschema-name-ssid-element.md) | | Contains the SSID for a wireless LAN.|
 
 ## Remarks
 
@@ -96,15 +92,11 @@ To view sample profiles that use the **SSID** element, see [Wireless Profile Sam
 
 ## Requirements
 
-
-
 | Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista, Windows XP with SP3 \[desktop apps only\]<br/> |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                |
 | Redistributable<br/>          | Wireless LAN API for Windows XP with SP2<br/>                 |
-
-
 
 ## See also
 
@@ -121,11 +113,3 @@ To view sample profiles that use the **SSID** element, see [Wireless Profile Sam
 
 [**SSIDConfig (WLANProfile)**](wlan-profileschema-ssidconfig-wlanprofile-element.md)
 </dt> </dl>
-
- 
-
- 
-
-
-
-

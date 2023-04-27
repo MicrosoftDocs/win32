@@ -1,9 +1,9 @@
 ---
+title: name (SSID) element
 description: Contains the SSID of a wireless LAN.
 ms.assetid: ed23ccd0-9b44-4c97-a5ed-93e86632b819
-title: name (SSID) Element
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 04/26/2023
 topic_type: 
 - APIRef
 - kbSyntax
@@ -14,7 +14,7 @@ api_type:
 api_location: 
 ---
 
-# name (SSID) Element
+# name (SSID) element
 
 The name (SSID) element contains the SSID of a wireless LAN.
 
@@ -55,15 +55,11 @@ To view sample profiles that use the **name** element, see [Wireless Profile Sam
 
 ## Requirements
 
-
-
 | Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista, Windows XP with SP3 \[desktop apps only\]<br/> |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                |
 | Redistributable<br/>          | Wireless LAN API for Windows XP with SP2<br/>                 |
-
-
 
 ## See also
 
@@ -80,11 +76,3 @@ To view sample profiles that use the **name** element, see [Wireless Profile Sam
 
 [**SSID (SSIDConfig)**](wlan-profileschema-ssid-ssidconfig-element.md)
 </dt> </dl>
-
- 
-
- 
-
-
-
-
