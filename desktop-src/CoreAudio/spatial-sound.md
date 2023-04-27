@@ -88,13 +88,7 @@ On Windows and Xbox, the number of available voices varies based on the format i
 
 For Universal Windows Platform apps running on Xbox One game consoles, realtime encode (for Dolby Atmos for Home Theater, Dolby Atmos for Headphones, DTS:X for Home Theater, DTS Headphone:X, and Windows Sonic for Headphones) is performed in hardware at no CPU cost.
 
-| Format | Max Static Objects (Channel Bed) | Max Dynamic Objects <br> Xbox One | Max Dynamic Objects <br> Windows | Max Dynamic Objects <br> HoloLens 2 |
-|----------------------------------------------|--------------|----|-----|----|
-| Dolby Atmos for Home Theater (HDMI)          | 12 (7.1.4)   | 20 | 20  | NA |
-| DTS:X for Home Theater (HDMI)                | 17 (8.1.4.4) | 16 | 32  | NA |
-| Dolby Atmos (Headphones & Built-in Speakers) | 17 (8.1.4.4) | 16 | 16  | NA |
-| DTS Headphone:X (Headphones)                 | 17 (8.1.4.4) | 16 | 32  | NA |
-| Windows Sonic (Headphones)                   | 17 (8.1.4.4) | 15 | 112 | 31 |
+
 
 Starting with the 2303 Xbox OS update and Game Development Kit (GDK), the resource limits on Xbox are updated to the following values:
 
@@ -105,6 +99,30 @@ Starting with the 2303 Xbox OS update and Game Development Kit (GDK), the resour
 | Dolby Atmos (Headphones)            | 17 (8.1.4.4) | 128 | 20 | 16 |
 | DTS Headphone:X (Headphones)        | 17 (8.1.4.4) | 200 | 20 | 16 |
 | Windows Sonic (Headphones)          | 17 (8.1.4.4) | 220 | 20 | 15 |
+
+Starting with the May servicing release to Windows build 22621, the resource limits on Windows are updated to the following values:
+
+| Format | Max Static Objects (Channel Bed)	| Max Dynamic Objects<br>Windows | Max Dynamic Objects<br>HoloLens 2 |
+|--------|----------------------------------|--------------------------------|-----------------------------------|
+| Dolby Atmos home theater (HDMI) | 12 (7.1.4) | 20 | N/A |
+| DTS:X for home theater (HDMI) | 17 (8.1.4.4) | 32 | N/A |
+| Dolby Atmos (Headphones) | 17 (8.1.4.4) |128 | N/A |
+| Dolby Atmos (Built-in Speakers ) | 17 (8.1.4.4) | 128 | N/A |
+| DTS Headphone:X (Headphones) | 17 (8.1.4.4) | 128 | N/A |
+| DTS:X Ultra (Built-in Speakers) | 17 (8.1.4.4) | 128 | N/A |
+| Windows Sonic (Headphones) | 17 (8.1.4.4) | 128 | 31 |
+
+For previous Windows, Xbox, and HoloLens releases, the following resource limits apply.
+
+| Format | Max Static Objects (Channel Bed) | Max Dynamic Objects <br> Xbox One | Max Dynamic Objects <br> Windows | Max Dynamic Objects <br> HoloLens 2 |
+|----------------------------------------------|--------------|----|-----|----|
+| Dolby Atmos for home theater (HDMI)          | 12 (7.1.4)   | 20 | 20  | N/A |
+| DTS:X for home theater (HDMI)                | 17 (8.1.4.4) | 16 | 32  | N/A |
+| Dolby Atmos (Headphones)                     | 17 (8.1.4.4) | 16 | 16  | N/A |
+| Dolby Atmos (Built-in Speakers)              | 17 (8.1.4.4) | N/A | 16  | N/A |
+| DTS Headphone:X (Headphones)                 | 17 (8.1.4.4) | 16 | 32  | N/A |
+| DTS Ultra (Built-in Speakers)                | 17 (8.1.4.4) | N/A | 32  | N/A |
+| Windows Sonic for Headphones                   | 17 (8.1.4.4) | 15 | 112 | 31 |
 
 Apps should also consider the following resource implications:
 
