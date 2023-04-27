@@ -22,7 +22,7 @@ Returns a new test handle.
 
 
 ```C++
-HTIPTEST TestCreate(
+HANDLE TestCreate(
     unsigned int testCaseId,
     unsigned int options,
     unsigned char storage,          

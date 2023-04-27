@@ -23,14 +23,14 @@ Closes a test handle.
 
 ```C++
 void TestClose(
-    HTIPTEST test)
+    HANDLE test)
 ```
 
 ## Parameters
 
 ### test
 
-The test handle to operate on.
+The test handle returned from [TestCreate](tip-testcreate-function.md) or [TestOpen](tip-testopen-function.md).
 
 ## Return value
 

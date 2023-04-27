@@ -22,7 +22,7 @@ Returns an existing test handle that was created with [TestCreate](tip-testcreat
 
 
 ```C++
-HTIPTEST TestOpen(
+HANDLE TestOpen(
     unsigned int testCaseId,               
     unsigned int options,   
     unsigned char storage,

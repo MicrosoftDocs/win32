@@ -23,7 +23,7 @@ Allows modification of the test handle with locking.
 
 ```C++
 BOOL TestQueryData(
-    HTIPTEST test,
+    HANDLE test,
     unsigned int options,
     unsigned int knownDataSequenceId,
     _Out_ TestInfo* result)
@@ -35,7 +35,7 @@ BOOL TestQueryData(
 
 ### test
 
-The test handle to operate on.
+The test handle returned from [TestCreate](tip-testcreate-function.md) or [TestOpen](tip-testopen-function.md).
 
 ### options
 
@@ -43,7 +43,7 @@ The test query options. This parameter can be set to the following values.
 
 | Value	| Description |
 |-------|---------|
-| 0 | None. Default query options |
+| 0 | Default option. |
 | 1 | Acquires lock to protect modifications until unlock. |
 | 2 | Close handle and mark as complete. |
 | 3 | Close handle and mark complete if this is the final handle. |

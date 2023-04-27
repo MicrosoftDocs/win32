@@ -23,7 +23,7 @@ Unlocks the test handle that was locked with [TestQueryData](tip-testquerydata-f
 
 ```C++
 void TestUnlockData(
-    HTIPTEST test,
+    HANDLE test,
     unsigned int options,
     PCSTR data,      
     _Out_ TestInfo* result)
@@ -35,7 +35,7 @@ void TestUnlockData(
 
 ### test
 
-The test handle to operate on. 
+The test handle returned from [TestCreate](tip-testcreate-function.md) or [TestOpen](tip-testopen-function.md).
 
 ### options
 

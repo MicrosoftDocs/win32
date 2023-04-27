@@ -1,5 +1,5 @@
 ---
-description: Contains the properties that will be included in the ETW event as fields.
+description: Contains metadata to be sent in ETW event.
 title: TipReportingInfo structure
 ms.topic: reference
 ms.date: 01/22/2023
@@ -16,7 +16,7 @@ api_location:
 
 # TipReportingInfo structure
 
-Under WIP policy, represents the enterprise context (such as enterprise IDs) of a process.
+Contains metadata to be sent in ETW event.
 
 ## Syntax
 
