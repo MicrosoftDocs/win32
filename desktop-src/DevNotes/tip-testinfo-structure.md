@@ -59,7 +59,7 @@ The flags of the test data. This can be set to a combination of the following va
 | 262144 | Failed to read or write to persistent storage. |
 | 524288 | Failed to parse persisted data. |
 | 1048576 | Failed allocate memory. |
-| 2097152 | Signals that *metricsBucket* and *testCaseIdStart* will be included in [TipReportingInfo](tipreportinginfo-structure.md). |
+| 2097152 | Signals that *metricsBucket* and *testCaseIdStart* will be included in [TipReportingInfo](tip-tipreportinginfo-structure.md). |
 | 4194304 | Signals that [TestControlReporting](tip-testcontrolreporting-function.md) a has been called with value 2. |
 
 ### data
