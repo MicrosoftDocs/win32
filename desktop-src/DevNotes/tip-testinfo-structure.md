@@ -64,7 +64,7 @@ The flags of the test data. This can be set to a combination of the following va
 
 ### data
 
-An arbitrary json string.
+An arbitrary JSON string.
 
 ### startPerformanceCounter
 
@@ -76,7 +76,7 @@ The amount of time spent in sleep or suspended state.
 
 ### properties
 
-The test properties. This field can be set to a combination of the following values.
+The test properties. This value is only present if this is only present when the *option* value of 131072 is specified in the call to [TestCreate](tip-testcreate-function.md). This field can be set to a combination of the following values.
 
 | Value	| Description |
 |-------|---------|

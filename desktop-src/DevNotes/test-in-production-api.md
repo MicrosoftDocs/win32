@@ -7,11 +7,11 @@ ms.date: 04/27/2023
 
 # Test In Production (TIP) APIs
 
-These APIs provide infrastructure for component health.
+Test in Production APIs provide infrastructure to monitor component health.
 
 These APIs emit [Event Tracing for Windows (ETW)](/windows-hardware/drivers/devtest/event-tracing-for-windows--etw-) events to the provider `50109fbd-6d85-5815-731e-c907eca1607b`. It is strongly recommended that you instead use the ETW APIs directly with a different provider.
 
-These functions have no associated import library or header file; you must call it using the [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) and [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) functions.
+These functions have no associated import library or header file; these functions must be invoked using the [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) and [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) functions.
 
 ## In this section
 
