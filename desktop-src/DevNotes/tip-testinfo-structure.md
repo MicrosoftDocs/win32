@@ -2,7 +2,7 @@
 description: Contains metadata for a test handle.
 title: TestInfo structure
 ms.topic: reference
-ms.date: 01/22/2023
+ms.date: 04/27/2023
 topic_type: 
 - APIRef
 - kbSyntax

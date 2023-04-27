@@ -2,7 +2,7 @@
 description: Emits event to an ETW provider with the properties in the input struct.
 title: TestReport function
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 04/27/2023
 topic_type: 
 - APIRef
 - kbSyntax

@@ -2,7 +2,7 @@
 description: Returns a new test handle.
 title: TestCreate function
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 04/27/2023
 topic_type: 
 - APIRef
 - kbSyntax

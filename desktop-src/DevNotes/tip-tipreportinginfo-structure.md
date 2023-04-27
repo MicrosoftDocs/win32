@@ -2,7 +2,7 @@
 description: Contains metadata to be sent in ETW event.
 title: TipReportingInfo structure
 ms.topic: reference
-ms.date: 01/22/2023
+ms.date: 04/27/2023
 topic_type: 
 - APIRef
 - kbSyntax

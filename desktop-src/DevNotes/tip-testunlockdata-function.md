@@ -2,7 +2,7 @@
 description: Unlocks the test handle that was locked with TestQueryData.
 title: TestUnlockData function
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 04/27/2023
 topic_type: 
 - APIRef
 - kbSyntax
