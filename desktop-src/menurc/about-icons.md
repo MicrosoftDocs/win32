@@ -48,7 +48,19 @@ One of the pixels in an icon is designated as the [hot spot](#icon-hot-spot), wh
 
 ## Icon Types
 
-The operating system provides a set of *standard icons* that are available for any application to use at any time. The software development kit (SDK) header files contain identifiers for the standard icons—the identifiers begin with the **IDI\_** prefix.
+The operating system provides a set of standard icons that are available for any application to use at any time. The software development kit (SDK) header files contain identifiers for the **system icons** — the identifiers begin with the **IDI\_** prefix.
+
+| Value | Meaning |
+|---|---|
+| **IDI\_APPLICATION**<br/>MAKEINTRESOURCE(32512) | Default application icon |
+| **IDI\_ERROR**<br/>**IDI\_HAND**<br/>MAKEINTRESOURCE(32513) | Error icon |
+| **IDI\_QUESTION**<br/>MAKEINTRESOURCE(32514) | Question mark icon |
+| **IDI\_WARNING**<br/>**IDI\_EXCLAMATION**<br/>MAKEINTRESOURCE(32515) | Warning icon |
+| **IDI\_INFORMATION**<br/>**IDI\_ASTERISK**<br/>MAKEINTRESOURCE(32516) | Information icon |
+| **IDI\_WINLOGO**<br/>MAKEINTRESOURCE(32517) | Windows logo icon |
+| **IDI\_SHIELD**<br/>MAKEINTRESOURCE(32518) | Security shield icon |
+
+Also, starting with Windows Vista, an additional set of **standard system shell icons** is available through the [SHGetStockIconInfo](/windows/win32/api/shellapi/nf-shellapi-shgetstockiconinfo) method.
 
 Each standard icon has a corresponding default image associated with it. The user can replace the default image associated with any standard cursor at any time.
 
