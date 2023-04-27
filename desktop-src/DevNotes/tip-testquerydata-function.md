@@ -52,9 +52,9 @@ The test query options. This parameter can be set to the following values.
 
 ### knownDataSequenceId
 
-The last known version of the returned **TestInfo**. Allows optimization from caller by doing less work when this is the same on subsequent calls.
+The last known *dataSequenceId* of the result. Allows optimization from caller by doing less work when this is the same on subsequent calls.
 
-### TestInfo [out]
+### result [out]
 
 A [TestInfo](tip-testinfo-structure.md) structure containing information about the test. 
 

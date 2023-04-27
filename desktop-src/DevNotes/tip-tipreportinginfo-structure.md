@@ -26,10 +26,10 @@ struct TipReportingInfo
 {
     unsigned int testCaseId;           
     PCSTR testCaseName;                
-    TestProperties properties;         
+    unsigned int properties;         
     GUID testId;                       
-    TestFlags flags;                   
-    TestCompletionKind completionKind; 
+    unsigned int flags;                   
+    unsigned char completionKind; 
     unsigned short reason;             
     PCSTR reasonName;                  
     LONGLONG startPerformanceCounter;  
@@ -62,7 +62,7 @@ The *properties* field of emitted ETW event. This field can be set to a combinat
 
 | Value	| Description |
 |-------|---------|
-| 0 | None. Default properties. |
+| 0 | Default properties. |
 | 1 | The test data will not be removed from storage when no test handles exist. |
 | 2 | Adds keyword bit 45 to failure ETW event once per process. |
 | 4 | Adds keyword bit 46 to each failure ETW event. |
@@ -90,13 +90,13 @@ The *flags* field of emitted ETW event. This can be set to a combination of the 
 | 0 | Default flags. |
 | 256 | Test has been marked complete. |
 | 512 | Test has been explicitly completed. |
-| 1024 | Test has contention with multiple callers are calling TestUnlockData with options value of 1. |
+| 1024 | Test has contention with multiple callers are calling [TestUnlockData](tip-testunlockdata-function.md) with options value of 1. |
 | 65536 | Failed to acquire the cross-process lock. |
 | 131072 | Failed to wait on the cross-process lock. |
 | 262144 | Failed to read or write to persistent storage. |
 | 524288 | Failed to parse persisted data. |
 | 1048576 | Failed allocate memory. |
-| 2097152 | Signals that *metricsBucket* and *testCaseIdStart* will be included in **TipReportingInfo**. |
+| 2097152 | Signals that *metricsBucket* and *testCaseIdStart* will be included in [TipReportingInfo](tip-tipreportinginfo-structure.md). |
 | 4194304 | Signals that [TestControlReporting](tip-testcontrolreporting-function.md) a has been called with value 2. |
 
 ### completionKind

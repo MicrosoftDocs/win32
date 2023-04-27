@@ -53,13 +53,13 @@ The flags of the test data. This can be set to a combination of the following va
 | 0 | Default flags. |
 | 256 | Test has been marked complete. |
 | 512 | Test has been explicitly completed. |
-| 1024 | Test has contention with multiple callers are calling TestUnlockData with options value of 1. |
+| 1024 | Test has contention with multiple callers are calling [TestUnlockData](tip-testunlockdata-function.md) with options value of 1. |
 | 65536 | Failed to acquire the cross-process lock. |
 | 131072 | Failed to wait on the cross-process lock. |
 | 262144 | Failed to read or write to persistent storage. |
 | 524288 | Failed to parse persisted data. |
 | 1048576 | Failed allocate memory. |
-| 2097152 | Signals that *metricsBucket* and *testCaseIdStart* will be included in **TipReportingInfo**. |
+| 2097152 | Signals that *metricsBucket* and *testCaseIdStart* will be included in [TipReportingInfo](tipreportinginfo-structure.md). |
 | 4194304 | Signals that [TestControlReporting](tip-testcontrolreporting-function.md) a has been called with value 2. |
 
 ### data
@@ -80,7 +80,7 @@ The test properties. This field can be set to a combination of the following val
 
 | Value	| Description |
 |-------|---------|
-| 0 | None. Default properties. |
+| 0 | Default properties. |
 | 1 | The test data will not be removed from storage when no test handles exist. |
 | 2 | Adds keyword bit 45 to failure ETW event once per process. |
 | 4 | Adds keyword bit 46 to each failure ETW event. |

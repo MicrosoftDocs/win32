@@ -45,7 +45,7 @@ The test retrieval options. This parameter can be set to the following values.
 
 | Value	| Description |
 |-------|---------|
-| 0	| None. Default option. |
+| 0	| Default option. |
 | 1	| Optimize retrieval with locking, like subsequently calling [TestQueryData](tip-testquerydata-function.md). |
 | 2 | Deprecated, this is the same as default option. |
 | 131072 | Indicates that additional “properties” field will be included in the [TestInfo](tip-testinfo-structure.md) structure returned from [TestOpen](tip-testopen-function.md). |
@@ -67,7 +67,7 @@ The test properties. This parameter can be set to a combination of the following
 
 | Value	| Description |
 |-------|---------|
-| 0 | None. Default properties. |
+| 0 | Default properties. |
 | 1 | The test data will not be removed from storage when no test handles exist. |
 | 2 | Adds keyword bit 45 to failure ETW event once per process. |
 | 4 | Adds keyword bit 46 to each failure ETW event. |

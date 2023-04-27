@@ -25,7 +25,7 @@ Returns an existing test handle that was created with [TestCreate](tip-testcreat
 HTIPTEST TestOpen(
     unsigned int testCaseId,               
     unsigned int options,   
-    unsigned int storage,
+    unsigned char storage,
     GUID* testId,            
     _Out_ TestInfo* result)
 ```
@@ -44,7 +44,7 @@ The test retrieval options. This parameter can be set to the following values.
 
 | Value	| Description |
 |-------|---------|
-| 0	| None. Default option. |
+| 0	| Default option. |
 | 1	| Optimize retrieval with locking, like subsequently calling [TestQueryData](tip-testquerydata-function.md). |
 | 2 | Deprecated, this is the same as default option. |
 | 131072 | Indicates that additional “properties” field will be included in the returned  [TestInfo](tip-testinfo-structure.md) structure. |
