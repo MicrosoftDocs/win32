@@ -76,7 +76,7 @@ The amount of time spent in sleep or suspended state.
 
 ### properties
 
-The test properties. This value is only present if this is only present when the *option* value of 131072 is specified in the call to [TestCreate](tip-testcreate-function.md). This field can be set to a combination of the following values.
+The test properties. This value is only present when the *option* value of 131072 is specified in the call to [TestCreate](tip-testcreate-function.md) or [TestOpen](tip-testopen-function.md). This field can be set to a combination of the following values.
 
 | Value	| Description |
 |-------|---------|
@@ -99,8 +99,8 @@ The test properties. This value is only present if this is only present when the
 
 | Requirement | Value |
 |-------------------------------------|-----------------------------------------|
-| Minimum supported client | Windows 10                          |
-| Minimum supported server | Windows 10                                |
+| Minimum supported client | Windows Build 22000                         |
+| Minimum supported server | Windows Server 2022                         |
 | Header                   | None  |
 
 

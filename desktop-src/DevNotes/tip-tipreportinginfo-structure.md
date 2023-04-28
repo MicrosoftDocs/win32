@@ -163,8 +163,8 @@ The *testCaseIdStart* field of emitted ETW event.
 
 | Requirement | Value |
 |-------------------------------------|-----------------------------------------|
-| Minimum supported client | Windows 10                          |
-| Minimum supported server | Windows 10                                |
+| Minimum supported client | Windows Build 22000                         |
+| Minimum supported server | Windows Server 2022                         |
 | Header                   | None  |
 
 

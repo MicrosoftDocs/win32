@@ -103,8 +103,8 @@ This function has no associated import library or header file; it must be invoke
 
 | Requirement | Value |
 |-------------------------------------|-----------------------------------------|
-| Minimum supported client | Windows 10                          |
-| Minimum supported server | Windows 10                                |
+| Minimum supported client | Windows Build 22000                         |
+| Minimum supported server | Windows Server 2022                         |
 | Header                   | None  |
 | DLL                      | kernelbase.dll |
 
