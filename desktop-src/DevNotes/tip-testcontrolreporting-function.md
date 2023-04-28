@@ -23,7 +23,7 @@ Changes the keywords of ETW events.
 
 ```C++
 void TestControlReporting(
-    unsigned int reportingRequest)
+    unsigned int reportingRequest);
 ```
 
 

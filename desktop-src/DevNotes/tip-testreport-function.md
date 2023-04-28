@@ -23,7 +23,7 @@ Emits event to an ETW provider with the properties in the input struct.
 
 ```C++
 void TestReport(
-    TipReportingInfo* reportingInfo)
+    TipReportingInfo* reportingInfo);
 ```
 
 ## Parameters

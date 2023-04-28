@@ -42,7 +42,7 @@ struct TipReportingInfo
     unsigned int hash;                 
     unsigned int metricsBucket;        
     unsigned int testCaseIdStart;      
-}
+};
 
 ```
 

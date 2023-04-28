@@ -28,7 +28,7 @@ HANDLE TestCreate(
     unsigned char storage,          
     unsigned int  properties,  
     PCSTR data,                      
-    _Out_ GUID* testId)
+    _Out_ GUID* testId);
 ```
 
 
