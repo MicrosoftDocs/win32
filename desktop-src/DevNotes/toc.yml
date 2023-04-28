@@ -1595,6 +1595,27 @@
       href: ctxgetinimapping.md
     - name: "TermsrvAppInstallMode"
       href: termsrvappinstallmode.md
+  - name: "Test In Production (TIP) APIs"
+    href: test-in-production-api.md
+    items:
+      - name: "TestClose Function"
+        href: tip-testclose-function.md
+      - name: "TestControlReporting function"
+        href: tip-testcontrolreporting-function.md
+      - name: "TestCreate Function"
+        href: tip-testcreate-function.md
+      - name: "TestInfo Structure"
+        href: tip-testinfo-structure.md
+      - name: "TestOpen Function"
+        href: tip-testopen-function.md
+      - name: "TestQueryData function"
+        href: tip-testquerydata-function.md
+      - name: "TestReport Function"
+        href: tip-testreport-function.md
+      - name: "TestUnlockData Function"
+        href: tip-testunlockdata-function.md
+      - name: "TipReportingInfo Structure"
+        href: tip-tipreportinginfo-structure.md
   - name: "User Interface"
     href: user-interface.md
     items: 
