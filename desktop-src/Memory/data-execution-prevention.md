@@ -17,21 +17,21 @@ DEP is not intended to be a comprehensive defense against all exploits; it is in
 
 ## How Data Execution Prevention Works
 
-If an application attempts to run code from a protected page, the application receives an exception with the status code **STATUS\_ACCESS\_VIOLATION**. If your application must run code from a memory page, it must allocate and set the proper virtual [memory protection](memory-protection.md) attributes. The allocated memory must be marked **PAGE\_EXECUTE**, **PAGE\_EXECUTE\_READ**, **PAGE\_EXECUTE\_READWRITE**, or **PAGE\_EXECUTE\_WRITECOPY** when allocating memory. Heap allocations made by calling the **malloc** and [**HeapAlloc**](/windows/desktop/api/HeapApi/nf-heapapi-heapalloc) functions are non-executable.
+If an application attempts to run code from a protected page, the application receives an exception with the status code **STATUS\_ACCESS\_VIOLATION**. If your application must run code from a memory page, it must allocate and set the proper virtual [memory protection](memory-protection.md) attributes. The allocated memory must be marked **PAGE\_EXECUTE**, **PAGE\_EXECUTE\_READ**, **PAGE\_EXECUTE\_READWRITE**, or **PAGE\_EXECUTE\_WRITECOPY** when allocating memory. Heap allocations made by calling the **malloc** and [**HeapAlloc**](/windows/win32/api/HeapApi/nf-heapapi-heapalloc) functions are non-executable.
 
 Applications cannot run code from the default process heap or the stack.
 
-DEP is configured at system boot according to the no-execute page protection policy setting in the boot configuration data. An application can get the current policy setting by calling the [**GetSystemDEPPolicy**](/windows/desktop/api/WinBase/nf-winbase-getsystemdeppolicy) function. Depending on the policy setting, an application can change the DEP setting for the current process by calling the [**SetProcessDEPPolicy**](/windows/desktop/api/WinBase/nf-winbase-setprocessdeppolicy) function.
+DEP is configured at system boot according to the no-execute page protection policy setting in the boot configuration data. An application can get the current policy setting by calling the [GetSystemDEPPolicy](/windows/win32/api/WinBase/nf-winbase-getsystemdeppolicy) function. Depending on the policy setting, an application can change the DEP setting for the current process by calling the [SetProcessDEPPolicy](/windows/win32/api/WinBase/nf-winbase-setprocessdeppolicy) function.
 
 ## Programming Considerations
 
-An application can use the [**VirtualAlloc**](/windows/win32/api/memoryapi/nf-memoryapi-virtualalloc) function to allocate executable memory with the appropriate memory protection options. It is suggested that an application set, at a minimum, the **PAGE\_EXECUTE** memory protection option. After the executable code is generated, it is recommended that the application set memory protections to disallow write access to the allocated memory. Applications can disallow write access to allocated memory by using the [**VirtualProtect**](/windows/win32/api/memoryapi/nf-memoryapi-virtualprotect) function. Disallowing write access ensures maximum protection for executable regions of process address space. You should attempt to create applications that use the smallest executable address space possible, which minimizes the amount of memory that is exposed to memory exploitation.
+An application can use the [VirtualAlloc](/windows/win32/api/memoryapi/nf-memoryapi-virtualalloc) function to allocate executable memory with the appropriate memory protection options. It is suggested that an application set, at a minimum, the **PAGE\_EXECUTE** memory protection option. After the executable code is generated, it is recommended that the application set memory protections to disallow write access to the allocated memory. Applications can disallow write access to allocated memory by using the [VirtualProtect](/windows/win32/api/memoryapi/nf-memoryapi-virtualprotect) function. Disallowing write access ensures maximum protection for executable regions of process address space. You should attempt to create applications that use the smallest executable address space possible, which minimizes the amount of memory that is exposed to memory exploitation.
 
 You should also attempt to control the layout of your application's virtual memory and create executable regions. These executable regions should be located in a lower memory space than non-executable regions. By locating executable regions below non-executable regions, you can help prevent a buffer overflow from overflowing into the executable area of memory.
 
 ## Application Compatibility
 
-Some application functionality is incompatible with DEP. Applications that perform dynamic code generation (such as Just-In-Time code generation) and do not explicitly mark generated code with execute permission may have compatibility issues on computers that are using DEP. Applications written to the Active Template Library (ATL) version 7.1 and earlier can attempt to execute code on pages marked as non-executable, which triggers an NX fault and terminates the application; for more information, see [**SetProcessDEPPolicy**](/windows/desktop/api/WinBase/nf-winbase-setprocessdeppolicy). Most applications that perform actions incompatible with DEP must be updated to function properly.
+Some application functionality is incompatible with DEP. Applications that perform dynamic code generation (such as Just-In-Time code generation) and do not explicitly mark generated code with execute permission may have compatibility issues on computers that are using DEP. Applications written to the Active Template Library (ATL) version 7.1 and earlier can attempt to execute code on pages marked as non-executable, which triggers an NX fault and terminates the application; for more information, see [SetProcessDEPPolicy](/windows/win32/api/WinBase/nf-winbase-setprocessdeppolicy). Most applications that perform actions incompatible with DEP must be updated to function properly.
 
 A small number of executable files and libraries may contain executable code in the data section of an image file. In some cases, applications may place small segments of code (commonly referred to as thunks) in the data sections. However, DEP marks sections of the image file that is loaded in memory as non-executable unless the section has the executable attribute applied.
 
@@ -39,14 +39,4 @@ Therefore, executable code in data sections should be migrated to a code section
 
 ## Related topics
 
-<dl> <dt>
-
-[Data Execution Prevention (TechNet)](/previous-versions/windows/it-pro/windows-xp/bb457155(v=technet.10))
-</dt> <dt>
-
-[How to Configure Memory Protection](https://www.microsoft.com/technet/security/prodtech/windowsxp/depcnfxp.mspx)
-</dt> <dt>
-
- 
-
- 
+[Data Execution Prevention](/previous-versions/windows/it-pro/windows-xp/bb457155(v=technet.10)#data-execution-prevention)
