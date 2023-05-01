@@ -40,3 +40,5 @@ Therefore, executable code in data sections should be migrated to a code section
 ## Related topics
 
 [Data Execution Prevention](/previous-versions/windows/it-pro/windows-xp/bb457155(v=technet.10)#data-execution-prevention)
+
+[How to Configure Memory Protection in Windows XP SP2](/previous-versions/tn-archive/cc700810(v=technet.10))

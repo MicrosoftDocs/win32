@@ -43,6 +43,7 @@ For EAPHost API related NAP information refer to the following topics.
 
 ## Additional Resources
 
+- For a list of NAP resources, see [Network Access Protection](/previous-versions/bb880905(v=technet.10)).
 - For Statement of Health information, see [Network Access Protection (NAP) Statement of Health (SoH) Messages](https://go.microsoft.com/fwlink/p/?linkid=83918).
 - For NAP API information, see [Network Access Protection](/windows/desktop/NAP/network-access-protection-start-page).
 

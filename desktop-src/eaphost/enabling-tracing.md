@@ -17,7 +17,7 @@ Tracing can be enabled on both the client side and the authenticator side. Traci
 
 When EAPHost tracing is enabled, logging information is stored in an .etl file in a user-specified location. If errors occur during EAP authentication, tracing generates an .etl file that can be sent to Microsoft Developer Support for root cause analysis. Partners that have access to Microsoft windows build shares, symbols, and traceformat files can convert the .etl files into a plain text file using the **tracerpt** tool.
 
-Network policy server (NPS) failures are not captured in the EAPHost logs. If you are trying to troubleshoot a NPS failure, view the IASSAM.LOG and IASNAP.LOG files.
+Network policy server (NPS) failures are not captured in the EAPHost logs. If you are trying to troubleshoot a NPS failure, view the IASSAM.LOG and IASNAP.LOG files (see [Tools for Troubleshooting NAP - Log files](/previous-versions/windows/it-pro/windows-server-2008-r2-and-2008/dd348461(v=ws.10)#log-files)).
 
 ## Tracing on the Client
 
