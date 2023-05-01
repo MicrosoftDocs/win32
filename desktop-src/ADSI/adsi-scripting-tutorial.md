@@ -17,8 +17,8 @@ The Microsoft Active Directory Service Interfaces (ADSI), when combined with a s
 For more information about scripting with ADSI, with scripting tutorials, examples and tools, see:
 
 - [Active Director Domain Services](/previous-versions/windows/it-pro/windows-server-2008-r2-and-2008/cc753910(v=ws.11))
-- [ADSI Scripting Primer](https://www.microsoft.com/resources/documentation/windows/2000/server/scriptguide/sas_ads_overview.mspx) on the Microsoft TechNet website
-- [Script Center](https://www.microsoft.com/technet/community/scriptcenter/default.mspx) on the Microsoft TechNet website
+- [ADSI Scripting Primer](/previous-versions/tn-archive/ee156524(v=technet.10))
+- [Scripting Concepts and Technologies for System Administration](/previous-versions/tn-archive/ee176762(v=technet.10))
 - [Errors and Error Trapping](errors-and-error-trapping.md)
 - [ADSI Edit](/previous-versions/windows/it-pro/windows-server-2008-r2-and-2008/cc731547(v=ws.11))
 - [ADSI Edit (adsiedit.msc)](/previous-versions/windows/it-pro/windows-server-2003/cc773354(v=ws.10))
