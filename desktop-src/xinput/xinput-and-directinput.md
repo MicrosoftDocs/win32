@@ -12,7 +12,7 @@ ms.custom: seo-windows-dev
 XInput is an API that allows applications to receive input from the Xbox Controller for Windows. This document describes the differences between XInput and [DirectInput](/previous-versions/windows/desktop/ee416842(v=vs.85)) implementations of the Xbox Controller and how you can support XInput devices and legacy DirectInput devices at the same time.
 
 > [!Note]  
-> Use of legacy [DirectInput](/previous-versions/windows/desktop/ee416842(v=vs.85)) is not recommended, and DirectInput is not available for Windows Store apps. There is a new [GameInput API](/gaming/gdk/_content/gc/reference/input/gameinput/gameinput_members) that is included [Microsoft Game Development Kit (GDK)](/gaming/gdk/) that can be used across current and future Microsoft Gaming platforms and initiatives.
+> Use of legacy [DirectInput](/previous-versions/windows/desktop/ee416842(v=vs.85)) is not recommended, and DirectInput is not available for Windows Store apps. There is a new [GameInput API](/gaming/gdk/_content/gc/input/overviews/input-overview) that is included [Microsoft Game Development Kit (GDK)](/gaming/gdk/) that can be used across current and future Microsoft Gaming platforms and initiatives.
 
 ## The New Standard: XInput
 
