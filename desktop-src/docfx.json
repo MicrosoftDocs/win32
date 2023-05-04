@@ -37,6 +37,7 @@
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
+      "feedback_system": "Standard",
       "breadcrumb_path": "/windows/desktop/breadcrumb/toc.json",
       "uhfHeaderId": "MSDocsHeader-WinDevCenter",
       "extendBreadcrumb": false,
