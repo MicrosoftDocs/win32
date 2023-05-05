@@ -62,9 +62,7 @@ The operating system provides a set of standard icons that are available for any
 
 Also, starting with Windows Vista, an additional set of **standard system shell icons** is available through the [SHGetStockIconInfo](/windows/win32/api/shellapi/nf-shellapi-shgetstockiconinfo) method.
 
-Each standard icon has a corresponding default image associated with it. The user can replace the default image associated with any standard cursor at any time.
-
-*Custom icons* are designed for use in a particular application and can be any design. Following are several custom icons.
+*Custom icons* are designed for use in a particular application and can be any design. User can load custom icons from files or create them at run-time. Following are several custom icons.
 
 ![several custom icons](images/csicn-02.png)
 
