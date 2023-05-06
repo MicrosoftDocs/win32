@@ -74,7 +74,7 @@ Here is a real-world example: NTSC-M analog video contains 480 scan lines in the
 -   Height in pixels: 480
 -   PAR: 10/11
 
-4/3 = (704/420) x (10/11)
+4/3 = (704/480) x (10/11)
 
 To display this image correctly on a display device with square pixels, you must scale either the width by 10/11 or the height by 11/10.
 
