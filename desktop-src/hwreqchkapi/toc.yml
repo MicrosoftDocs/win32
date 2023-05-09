@@ -26,3 +26,12 @@
       href: /windows/win32/api/hwreqchkapi/ns-hwreqchkapi-hwreqchk_device_hardware_requirement
     - name: "HWREQCHK_DEVICE_HARDWARE_SYSINFO"
       href: /windows/win32/api/hwreqchkapi/ns-hwreqchkapi-hwreqchk_device_hardware_sysinfo
+  - name: "HWREQCHK API enums"
+    href: hwreqchk-api-enums.md
+    items:
+    - name: "HWREQCHK_CPU_VENDOR"
+      href: /windows/win32/api/hwreqchkapi/ne-hwreqchkapi-hwreqchk_cpu_vendor
+    - name: "HWREQCHK_PRODUCT_TYPE"
+      href: /windows/win32/api/hwreqchkapi/ne-hwreqchkapi-hwreqchk_product_type
+    - name: "HWREQCHK_TARGET_RELEASE"
+      href: /windows/win32/api/hwreqchkapi/ne-hwreqchkapi-hwreqchk_target_release
