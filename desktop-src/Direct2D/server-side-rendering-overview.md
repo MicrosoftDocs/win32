@@ -48,7 +48,7 @@ Similar to GDI, GDI+ is limited by its locking mechanism. The locking mechanisms
 
 ### Direct2D
 
-Direct2D is a hardware-accelerated, immediate-mode, 2-D graphics API that provides high performance and high-quality rendering. It offers a single-threaded and a multithreaded factory and the linear scaling of course-grained software rendering.
+Direct2D is a hardware-accelerated, immediate-mode, 2-D graphics API that provides high performance and high-quality rendering. It offers a single-threaded and a multithreaded factory and the linear scaling of coarse-grained software rendering.
 
 To do this, Direct2D defines a root factory interface. As a rule, an object created on a factory can only be used with other objects created from the same factory. The caller can request either a single-threaded or a multithreaded factory when it is created. If a single-threaded factory is requested, then no locking of threads is performed. If the caller requests a multithreaded factory, then, a factory-wide thread lock is acquired whenever a call is made into Direct2D.
 
