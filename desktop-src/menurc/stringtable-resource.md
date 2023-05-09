@@ -112,7 +112,8 @@ The following example shows how to encode Unicode characters:
 
 ``` syntax
 STRINGTABLE
-BEGINIDS_CHINESESTRING L"\x5e2e\x52a9"
+BEGIN
+IDS_CHINESESTRING L"\x5e2e\x52a9"
 IDS_RUSSIANSTRING L"\x0421\x043f\x0440\x0430\x0432\x043a\x0430"
 IDS_ARABICSTRING L"\x062a\x0639\x0644\x064a\x0645\x0627\x062a"
 END
