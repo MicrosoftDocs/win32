@@ -88,9 +88,9 @@ case WM_INPUT:
 
 The advantage to using WM\_INPUT is that your game receives raw data from the mouse at the lowest level possible.
 
-The disadvantage is that WM\_INPUT has no ballistics applied to its data, so if you want to drive a cursor with this data, extra effort will be required to make the cursor behave like it does in Windows. For more information about applying pointer ballistics, see [Pointer Ballistics for Windows XP](https://www.microsoft.com/whdc/archive/pointer-bal.mspx).
+The disadvantage is that WM\_INPUT has no ballistics applied to its data, so if you want to drive a cursor with this data, extra effort will be required to make the cursor behave like it does in Windows. For more information about applying pointer ballistics, see [Pointer ballistics for Windows XP](https://web.archive.org/web/20110623221617/http://msdn.microsoft.com/en-us/windows/hardware/gg463319.aspx).
 
-For more info about WM\_INPUT, see [About Raw Input](/windows/desktop/inputdev/about-raw-input).
+For more info about WM\_INPUT, see [About raw input](/windows/desktop/inputdev/about-raw-input).
 
 ### DirectInput
 
