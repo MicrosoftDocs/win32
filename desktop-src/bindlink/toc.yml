@@ -5,7 +5,7 @@
     href: bindlink-overview.md
     items:
     - name: "Bindlink examples"
-      href: bindlink-examples.md
+      href: bindlink-example.md
   - name: "Bindlink functions"
     href: bindlink-api-functions.md
     items:
