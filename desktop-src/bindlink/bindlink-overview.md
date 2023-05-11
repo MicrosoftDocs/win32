@@ -23,7 +23,7 @@ The set of APIs is comprised of 2 related functions:
 - **CreateBindLink** – This API allows admins to create a bind link between a virtual path and a backing path.
 - **RemoveBindLink** – This API allows a user to remove a link that was previously created by calling **CreateBindLink**.
 
-For sample usage of these functions, see [Bindlink examples](bindlink-examples.md).
+For sample usage of these functions, see [Bindlink examples](bindlink-example.md).
 
 ## Creating bind links
 
@@ -107,15 +107,15 @@ Note that there is no restriction on ensuing circular links.
 
 Consider the links and the order of the links in the "Nested Bind Links" diagram above.
 
-    If a link is created with virtual path: C:\\Foo\\Bar, another link can be created with C:\\Foo as its virtual path, and yet another link can be created with C:\\Foo\\Bar\\Baz as its virtual path.
+If a link is created with virtual path: C:\\Foo\\Bar, another link can be created with C:\\Foo as its virtual path, and yet another link can be created with C:\\Foo\\Bar\\Baz as its virtual path.
 
-    For example:
+For example:
 
-    - C:\\Target exists on disk with a file Cat.txt
-    - C:\\Target2 exists on disk with a file Dog.txt
-    - C:\\Foo exists on disk with a directory Bar
+- C:\\Target exists on disk with a file Cat.txt
+- C:\\Target2 exists on disk with a file Dog.txt
+- C:\\Foo exists on disk with a directory Bar
 
-    If C:\\Foo\\Bar is linked to C:\\Target (Link1) and then C:\\Foo is linked to C:\\Target2 (Link2), a user enumerating C:\\Foo will see Dog.txt and the directory Bar, since Bar is a virtual path for its own link. Subsequently if C:\\Foo\\Bar\\Baz is linked to C:\\Target2 (Link3), A user enumerating c:\\Foo\\Bar will see Cat.txt and the directory Baz, since Baz is a virtual path for its own link.
+If C:\\Foo\\Bar is linked to C:\\Target (Link1) and then C:\\Foo is linked to C:\\Target2 (Link2), a user enumerating C:\\Foo will see Dog.txt and the directory Bar, since Bar is a virtual path for its own link. Subsequently if C:\\Foo\\Bar\\Baz is linked to C:\\Target2 (Link3), A user enumerating c:\\Foo\\Bar will see Cat.txt and the directory Baz, since Baz is a virtual path for its own link.
 
 ### Additional bind link scenarios
 
@@ -191,4 +191,4 @@ Finally, bind link exceptions do not apply to anchorless links since anchorless 
 
 [Bindlink enums](bindlink-api-enums.md)
 
-[Bindlink examples](bindlink-examples.md)
+[Bindlink examples](bindlink-example.md)

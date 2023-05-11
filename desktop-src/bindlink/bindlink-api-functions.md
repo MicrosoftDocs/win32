@@ -21,4 +21,4 @@ The native bind link API includes the following functions:
 
 ## See also
 
-[HWREQCHK API enums](hwreqchk-api-enums.md)
+[Bindlink API enums](bindlink-api-enums.md)

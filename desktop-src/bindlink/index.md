@@ -31,4 +31,4 @@ The Bindlink API is available beginning with Windows 11, version 10.0.25314.0.
 - [Bindlink overview](bindlink-overview.md)
 - [Bindlink functions](bindlink-api-functions.md)
 - [Bindlink enums](bindlink-api-enums.md)
-- [Bindlink examples](bindlink-examples.md)
+- [Bindlink examples](bindlink-example.md)
