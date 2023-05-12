@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # The midl\_user\_free Function
 
-The **midl\_user\_free** function must be supplied by RPC developers. It allocates memory for the RPC stubs and library routines. Your **midl\_user\_free** function must match the following prototype:
+The **midl\_user\_free** function must be supplied by RPC developers. It frees memory allocated by **midl_user_allocate** for the RPC stubs and library routines. Your **midl\_user\_free** function must match the following prototype:
 
 ``` syntax
 void __RPC_USER midl_user_free(void * pBuffer);
