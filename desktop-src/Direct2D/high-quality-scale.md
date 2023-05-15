@@ -119,7 +119,7 @@ m_d2dContext->EndDraw();
 
 The location and size of the output bitmap depends on the specified scale factor and the center point.
 
-You can calculate the size of the output bitmap using this equation:<dl> BitmapSize?(Pixels)=Scale?\*Original Bitmap Size? (DIPs)\*(UserDPI/96)  
+You can calculate the size of the output bitmap using this equation:<dl> BitmapSize<sub>x</sub>(Pixels)=Scale<sub>x</sub>\*Original Bitmap Size<sub>x</sub> (DIPs)\*(UserDPI/96)  
 BitmapSize<sub>y</sub>(Pixels)=Scale<sub>y</sub>\*Original Bitmap Size<sub>y</sub> (DIPs)\*(UserDPI/96)  
 </dl>
 
