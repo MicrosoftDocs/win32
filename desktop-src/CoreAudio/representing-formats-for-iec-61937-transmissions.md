@@ -52,9 +52,6 @@ The GUIDs for the compressed audio formats that are available as standard IEC 61
 | 0x07         | 00000008-0000-0010-8000-00aa00389b71<br/> KSDATAFORMAT\_SUBTYPE\_IEC61937\_DTS<br/>                         | DTS                                          |
 | 0x0a         | 0000000a-0cea-0010-8000-00aa00389b71<br/> KSDATAFORMAT\_SUBTYPE\_IEC61937\_DOLBY\_DIGITAL\_PLUS<br/>        | Dolby Digital Plus                           |
 | 0x0a         | 0000010a-0cea-0010-8000-00aa00389b71<br/> KSDATAFORMAT\_SUBTYPE\_IEC61937\_DOLBY\_DIGITAL\_PLUS\_ATMOS<br/> | Dolby Atmos encoded with Dolby Digital Plus  |
-| 0x0b         | 0000000b-0cea-0010-8000-00aa00389b71<br/> KSDATAFORMAT\_SUBTYPE\_IEC61937\_DTS\_HD<br/> | DTS HD  |
-| 0x0b         | 0000010b-0cea-0010-8000-00aa00389b71<br/> KSDATAFORMAT\_SUBTYPE\_IEC61937\_DTSX\_E1<br/> | DTS:X E1  |
-| 0x0b         | 0000030b-0cea-0010-8000-00aa00389b71<br/> KSDATAFORMAT\_SUBTYPE\_IEC61937\_DTSX\_E2<br/> | DTS:X E2  |
 | 0x0f         |                                                                                                                         | Unused Reserved                              |
 
 
@@ -72,6 +69,9 @@ The GUIDs for the compressed audio formats that are transmitted in high bit-rate
 | 0x0c         | 0000010c-0cea-0010-8000-00aa00389b71<br/> KSDATAFORMAT\_SUBTYPE\_IEC61937\_DOLBY\_MAT20<br/> | Dolby MAT 2.0: <br/> Dolby TrueHD – 24-bit 192KHz/up to 18 Mbps, 8 channels, or LPCM up to 24 Mbps. <br/>           |
 | 0x0c         | 0000030c-0cea-0010-8000-00aa00389b71<br/> KSDATAFORMAT\_SUBTYPE\_IEC61937\_DOLBY\_MAT21<br/> | Dolby MAT 2.1: <br/> Dolby TrueHD – 24-bit 192KHz/up to 18 Mbps, 8 channels, or LPCM up to 24 Mbps. <br/>           |
 | 0x0e         | 00000164-0000-0010-8000-00aa00389b71<br/> KSDATAFORMAT\_SUBTYPE\_IEC61937\_WMA\_PRO<br/>     | Windows Media Audio (WMA) Pro                                                                                                   |
+| 0x0b         | 0000000b-0cea-0010-8000-00aa00389b71<br/> KSDATAFORMAT\_SUBTYPE\_IEC61937\_DTS\_HD<br/> | DTS HD  |
+| 0x0b         | 0000010b-0cea-0010-8000-00aa00389b71<br/> KSDATAFORMAT\_SUBTYPE\_IEC61937\_DTSX\_E1<br/> | DTS:X E1  |
+| 0x0b         | 0000030b-0cea-0010-8000-00aa00389b71<br/> KSDATAFORMAT\_SUBTYPE\_IEC61937\_DTSX\_E2<br/> | DTS:X E2  |
 
 
 
