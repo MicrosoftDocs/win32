@@ -68,7 +68,7 @@ Unsigned 16-bit integer that identifies the resource.
 <span id="string"></span><span id="STRING"></span>*string*
 </dt> <dd>
 
-One or more strings, enclosed in quotation marks. The string must be no longer than 4097 characters and must occupy a single line in the source file (unless a '\' is used as a line continuation). To add a carriage return to the string, use this character sequence: \\012. For example, "Line one\\012Line two" defines a string that is displayed as follows:
+One or more strings, enclosed in quotation marks. The string must be no longer than 4097 characters and must occupy a single line in the source file (unless a '\\' is used as a line continuation). To add a carriage return to the string, use this character sequence: \\012. For example, "Line one\\012Line two" defines a string that is displayed as follows:
 
 ``` syntax
 Line one
