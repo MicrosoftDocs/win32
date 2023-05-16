@@ -10,8 +10,18 @@ ms.date: 05/31/2018
 
 After the system successfully calls your your [**OpenPerformanceData**](/previous-versions/windows/desktop/legacy/aa372200(v=vs.85)) function, it calls your [**CollectPerformanceData**](/windows/win32/api/winperf/nc-winperf-pm_collect_proc) function to collect the counter data. If the provider supports the queried objects, it contacts the service, driver, or application with which it is associated and asks it for the counter data.
 
-The following example shows an implementation of the [*CollectPerformanceData*](/windows/win32/api/winperf/nc-winperf-pm_collect_proc) function. The header file that contains the definition of the counters used in this function is shown in [Implementing OpenPerformanceData](implementing-openperformancedata.md). If you use C++ to implement this function, be sure to use extern "C" when you declare your function.
+The `pQuery` parameter will be one of the following:
 
+- A space-delimited list of one or more decimal integers: Collect performance data for any supported object types in the list.
+- `Global`: Collect performance data for all supported local object types except for those included in the `Costly` category.
+- `Costly`: Collect performance data for all supported local object types whose data is expensive to collect in terms of processor time or memory usage. (Obsolete: there should normally be no object types in this category.)
+- `Foreigh`: Collect performance data for all supported remote object types. (Obsolete: there should normally be no object types in this category.)
+- `MetadataGlobal` (**new**): Collect metadata for all supported local object types except for those included in the `Costly` category. This is the same as `Global` except that `NumInstances` should be set to either `PERF_METADATA_MULTIPLE_INSTANCES` or `PERF_METADATA_NO_INSTANCES`, and the result should not include any `PERF_INSTANCE_DEFINITION` blocks.
+- `MetadataCostly` (**new**): Collect metadata for all supported local object types included in the `Costly` category. This is the same as `Costly` except that `NumInstances` should be set to either `PERF_METADATA_MULTIPLE_INSTANCES` or `PERF_METADATA_NO_INSTANCES`, and the result should not include any `PERF_INSTANCE_DEFINITION` blocks.
+
+The `MetadataGlobal` and `MetadataCostly` query types are new for Windows 10 20H1 and later. Windows will make metadata queries only if your provider has added a `HKLM\CurrentControlSet\Services\<provider-name>\Performance\Collect Supports Metadata` registry value. Set the value to 1 to indicate that your provider supports them. Metadata queries allow Windows to collect information about your supported performance objects without performing data collection. Consider adding support for metadata queries to your provider, especially if data collection is expensive.
+
+The following example shows an implementation of the [*CollectPerformanceData*](/windows/win32/api/winperf/nc-winperf-pm_collect_proc) function. The header file that contains the definition of the counters used in this function is shown in [Implementing OpenPerformanceData](implementing-openperformancedata.md). If you use C++ to implement this function, be sure to use extern "C" when you declare your function.
 
 ```C++
 // Callback that the performance service calls when the consumer wants to sample
