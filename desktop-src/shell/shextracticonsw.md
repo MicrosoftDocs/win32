@@ -19,9 +19,10 @@ ms.assetid: 9f138b4e-6a84-4c7e-9521-5f8ffe0eaebf
 
 # SHExtractIconsW function
 
-\[**SHExtractIconsW** is available through Windows XP Service Pack 2 (SP2). It might be altered or unavailable in subsequent versions.\]
-
 Creates an array of handles to icons extracted from a specified file.
+
+> [!NOTE]
+> This function is available through Windows XP Service Pack 2 (SP2). It might be altered or unavailable in subsequent versions. Use <a href="/windows/win32/api/shlobj_core/nf-shlobj_core-shdefextracticonw">SHDefExtractIcon</a> function instead.
 
 ## Syntax
 
