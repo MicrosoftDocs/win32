@@ -99,7 +99,7 @@ A word of caution: Mouse and window coordinates are still given in physical pixe
 
 ## Converting physical pixels to DIPs
 
-The base value of DPI is defined as `USER_DEFAULT_SCREEN_DPI` which is set to 96.  To determine the scaling factor for a monitor, take the DPI value and divide by `USER_DEFAULT_SCREEN_DPI`.
+The base value of DPI is defined as `USER_DEFAULT_SCREEN_DPI` which is set to 96.  To determine the scaling factor, take the DPI value and divide by `USER_DEFAULT_SCREEN_DPI`.
 
 The conversion from physical pixels to DIPs uses the following formula.
 
