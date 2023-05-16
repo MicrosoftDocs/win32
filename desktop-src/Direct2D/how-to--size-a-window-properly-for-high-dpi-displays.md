@@ -16,7 +16,7 @@ The [**GetDpiForWindow**](/windows/win32/api/winuser/nf-winuser-getdpiforwindow)
 
 <*DPI*> \* <*width*, in pixels> / <*default DPI*>
 
-...where *DPI* is the value retrived by **GetDpiForWindow**, and *default DPI* is 96. The formula is similar for the vertical axis:
+...where *DPI* is the value retrived by **GetDpiForWindow**, and *default DPI* is 96 (defined as `USER_DEFAULT_SCREEN_DPI` in `winuser.h` header). The formula is similar for the vertical axis:
 
 <*DPI*> \* <*height*, in pixels> / <*default vertical DPI*>
 
