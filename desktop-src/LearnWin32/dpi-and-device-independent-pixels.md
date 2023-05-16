@@ -99,9 +99,11 @@ A word of caution: Mouse and window coordinates are still given in physical pixe
 
 ## Converting physical pixels to DIPs
 
+The base value of DPI is defined as `USER_DEFAULT_SCREEN_DPI` which is set to 96.  To determine the scaling factor for a monitor, take the DPI value and divide by `USER_DEFAULT_SCREEN_DPI`.
+
 The conversion from physical pixels to DIPs uses the following formula.
 
-`DIPs = pixels / (DPI/96.0)`
+`DIPs = pixels / (DPI / USER_DEFAULT_SCREEN_DPI)`
 
 To get the DPI setting, call the [**GetDpiForWindow**](/windows/win32/api/winuser/nf-winuser-getdpiforwindow) function. The DPI is returned as a floating-point value. Calculate the scaling factor for both axes.
 
@@ -111,7 +113,7 @@ float g_DPIScale = 1.0f;
 void InitializeDPIScale(HWND hwnd)
 {
     float dpi = GetDpiForWindow(hwnd);
-    g_DPIScale = dpi/96.0f;
+    g_DPIScale = dpi / USER_DEFAULT_SCREEN_DPI;
 }
 
 template <typename T>
@@ -133,8 +135,8 @@ Here is an alternate way to get the DPI setting if you are not using Direct2D:
 void InitializeDPIScale(HWND hwnd)
 {
     HDC hdc = GetDC(hwnd);
-    g_DPIScaleX = GetDeviceCaps(hdc, LOGPIXELSX) / 96.0f;
-    g_DPIScaleY = GetDeviceCaps(hdc, LOGPIXELSY) / 96.0f;
+    g_DPIScaleX = GetDeviceCaps(hdc, LOGPIXELSX) / USER_DEFAULT_SCREEN_DPI;
+    g_DPIScaleY = GetDeviceCaps(hdc, LOGPIXELSY) / USER_DEFAULT_SCREEN_DPI;
     ReleaseDC(hwnd, hdc);
 }
 ```
