@@ -24,8 +24,11 @@ Contains information about an individual icon or cursor component in a resource 
 
 ```C++
 typedef struct {
-  ICONRESDIR Icon;
-  CURSORDIR  Cursor;
+  union
+  {
+      ICONRESDIR   Icon;
+      CURSORDIR    Cursor;
+  };
   WORD       Planes;
   WORD       BitCount;
   DWORD      BytesInRes;
