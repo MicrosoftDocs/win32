@@ -38,11 +38,11 @@
         - name: "EnumResLangProc"
           href: /previous-versions/windows/desktop/legacy/ms648033(v=vs.85)
         - name: "EnumResNameProc"
-          href: /previous-versions/windows/desktop/legacy/ms648034(v=vs.85)
+          href: /windows/desktop/api/libloaderapi/nc-libloaderapi-enumresnameprocw
         - name: "EnumResourceLanguages"
           href: /windows/desktop/api/Winbase/nf-winbase-enumresourcelanguagesa
         - name: "EnumResourceLanguagesEx"
-          href: /windows/desktop/api//rrascfg/nf-rrascfg-ieapproviderconfig-initialize
+          href: /windows/desktop/api/libloaderapi/nf-libloaderapi-enumresourcelanguagesexw
         - name: "EnumResourceNames"
           href: /windows/desktop/api/libloaderapi/nf-libloaderapi-enumresourcenamesa
         - name: "EnumResourceNamesEx"
@@ -52,7 +52,7 @@
         - name: "EnumResourceTypesEx"
           href: /windows/desktop/api/libloaderapi/nf-libloaderapi-enumresourcetypesexw
         - name: "EnumResTypeProc"
-          href: /previous-versions/windows/desktop/legacy/ms648041(v=vs.85)
+          href: /windows/desktop/api/libloaderapi/nc-libloaderapi-enumrestypeprocw
         - name: "FindResource"
           href: /windows/desktop/api/Winbase/nf-winbase-findresourcea
         - name: "FindResourceEx"
