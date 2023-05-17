@@ -36,6 +36,7 @@ WIC includes several built-in codecs. The following standard codecs are provided
 | GIF (Graphics Interchange Format 89a), GIF Specification 89a/89m                                  | image/gif                        | Yes      | Yes      |
 | ICO (Icon Format)                                                                                 | image/ico                        | Yes      | No       |
 | JPEG (Joint Photographic Experts Group), JFIF Specification 1.02                                  | image/jpeg, image/jpe, image/jpg | Yes      | Yes      |
+| JPEG XR (JPEG Extended Range)                                                                     | image/jxr                        | Yes      | Yes      |
 | PNG (Portable Network Graphics), PNG Specification 1.2                                            | image/png                        | Yes      | Yes      |
 | TIFF (Tagged Image File Format), TIFF Specification 6.0                                           | image/tiff, image/tif            | Yes      | Yes      |
 | Windows Media Photo, [HD Photo Specification 1.0](https://www.microsoft.com/whdc/xps/wmphoto.mspx) | image/vnd.ms-photo               | Yes      | Yes      |
