@@ -197,6 +197,8 @@
           href: jetcompact-function.md
         - name: JetComputeStats Function
           href: jetcomputestats-function.md
+        - name: JetConfigureProcessForCrashDump Function
+          href: jetconfigureprocessforcrashdump-function.md
         - name: JetCreateDatabase Function
           href: jetcreatedatabase-function.md
         - name: JetCreateDatabase2 Function
