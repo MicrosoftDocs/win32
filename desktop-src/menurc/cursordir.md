@@ -21,15 +21,12 @@ Contains the dimensions of an individual cursor image in a resource group. The s
 
 ## Syntax
 
-
 ```C++
 typedef struct {
   WORD Width;
   WORD Height;
 } CURSORDIR;
 ```
-
-
 
 ## Members
 
@@ -42,7 +39,9 @@ Type: **WORD**
 
 </dd> <dd>
 
-The width of the cursor, in pixels. Acceptable values are 16, 32, and 64.
+The width of the cursor, in pixels.
+
+The value 0 is accepted as representing a width of 256.
 
 </dd> <dt>
 
@@ -53,7 +52,9 @@ Type: **WORD**
 
 </dd> <dd>
 
-The height of the cursor, in pixels. Acceptable values are 16, 32, and 64.
+The height of the cursor, in pixels.
+
+The value 0 is accepted as representing a height of 256.
 
 </dd> </dl>
 
