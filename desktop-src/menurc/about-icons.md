@@ -74,8 +74,11 @@ The system uses four icon sizes:
 -   System large
 -   Shell small
 -   Shell large
+-   Jumbo (starting Windows Vista)
 
 The *system small icon* is displayed in the window caption.
+
+See [Icon scaling](/windows/apps/design/style/iconography/app-icon-construction#icon-scaling) for recommendations on preffered icon sizes for your application.
 
 ### To change the size of the system small icon
 
@@ -114,15 +117,7 @@ The shell large icon is used on the desktop.
 1.  Use the [**SHGetFileInfo**](/windows/win32/api/shellapi/nf-shellapi-shgetfileinfoa) function with **SHGFI\_SHELLICONSIZE** to retrieve a handle to the system image list.
 2.  Then call the [**ImageList\_GetIconSize**](/windows/win32/api/commctrl/nf-commctrl-imagelist_geticonsize) function to get the icon size.
 
-The Start menu uses either shell small icons or shell large icons, depending on whether the **Use Large Icons** check box is selected.
-
-Your application should supply groups of icon images in the following sizes:
-
--   48x48, 256 color
--   32x32, 16 color
--   16x16 pixels, 16 color
-
-When filling in the [**WNDCLASSEX**](/windows/win32/api/winuser/ns-winuser-wndclassexa) structure to be used in registering your window class, set the **hIcon** member to the 32x32 icon and the **hIconSm** member to the 16x16 icon. For more information about class icons, see [Class Icons](/windows/desktop/winmsg/about-window-classes).
+When filling in the [**WNDCLASSEX**](/windows/win32/api/winuser/ns-winuser-wndclassexa) structure to be used in registering your window class, set the **hIcon** member to the system large icon (usually 32x32) and the **hIconSm** member to the system small icon (usually 16x16). For more information about class icons, see [Class Icons](/windows/desktop/winmsg/about-window-classes).
 
 ## Icon Creation
 
@@ -144,9 +139,9 @@ When the system displays an icon, it must extract the appropriate icon image fro
 
 1.  Select the **RT\_GROUP\_ICON** resource. If more than one such resource exists, the system uses the first resource listed in the resource scrip.
 2.  Select the appropriate **RT\_ICON** image from the **RT\_GROUP\_ICON** resource. If more than one image exists, the system uses the following criteria to choose an image:
-    -   -   The image closest in size to the requested size is chosen.
-        -   If two or more images of that size are present, the one that matches the color depth of the display is chosen.
-        -   If no images exactly match the color depth of the display, the image with the greatest color depth that does not exceed the color depth of the display is chosen. If all exceed the color depth, the one with the lowest color depth is chosen.
+    -   The image closest in size to the requested size is chosen.
+    -   If two or more images of that size are present, the one that matches the color depth of the display is chosen.
+    -   If no images exactly match the color depth of the display, the image with the greatest color depth that does not exceed the color depth of the display is chosen. If all exceed the color depth, the one with the lowest color depth is chosen.
 
 > [!Note]  
 > The system treats all color depths of 8 or more bpp as equal. Therefore, there is no advantage of including a 16x16 256-color image and a 16x16 16-color image in the same resource—the system will simply choose the first one it encounters. When the display is in 8-bpp mode, the system will choose a 16-color icon over a 256-color icon, and will display all icons using the system default palette.
