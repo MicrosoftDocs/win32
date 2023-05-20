@@ -17,7 +17,9 @@ api_location:
 
 # CURSORDIR structure
 
-Contains the dimensions of an individual cursor image in a resource group. The structure definition provided here is for explanation only; it is not present in any standard header file.
+Contains the dimensions of an individual cursor image in a resource group.
+
+The structure definition provided here is for explanation only; it is not present in any standard header file.
 
 ## Syntax
 
