@@ -56,6 +56,9 @@ This parameter is optional with the Microsoft Digest SSP and can be set to `NULL
 
 When using the Schannel SSP, on the first call to **InitializeSecurityContext (General)**, specify `NULL`. On future calls, specify the token received in the *phNewContext* parameter after the first call to this function.
 
+>[!WARNING]
+>Do not use the same context handle in concurrent calls to **InitializeSecurityContext (General)**. The API implementation in the security service providers is not thread-safe.
+
 *pTargetName* `[in, optional]`
 
 A pointer to a null-terminated string that indicates the target of the context. The string contents are [security package](../secgloss/s-gly.md) specific, as described in the following table. This list is not exhaustive. Additional system SSPs and third party SSPs can be added to a system.
@@ -188,6 +191,7 @@ For multiple-leg [security context](../secgloss/s-gly.md)s, such as mutual authe
 1. The client calls the function as described earlier, but the package returns the SEC\_I\_CONTINUE\_NEEDED success code.
 2. The client sends the output token to the server and waits for the server's reply.
 3. Upon receipt of the server's response, the client calls **InitializeSecurityContext (General)** again, with *phContext* set to the handle that was returned from the last call. The token received from the server is supplied in the *pInput* parameter.
+4. Do not use the *phContext* value in concurrent calls to **InitializeSecurityContext (General)**. The implementation in the security providers is not thread-safe.
 
 If the server has successfully responded, the [security package](../secgloss/s-gly.md) returns SEC\_E\_OK and a secure session is established.
 
