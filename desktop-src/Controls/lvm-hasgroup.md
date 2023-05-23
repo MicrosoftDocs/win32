@@ -28,6 +28,7 @@ Determines whether the list-view control has a specified group.
 </dt> <dd>ID of the group.</dd> <dt>
 
 *lParam* 
+
 </dt> <dd>Must be <b>NULL</b>.</dd> </dl>
 
 ## Return value
