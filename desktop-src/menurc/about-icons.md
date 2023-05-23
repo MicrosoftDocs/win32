@@ -78,7 +78,7 @@ The system uses four icon sizes:
 
 The *system small icon* is displayed in the window caption.
 
-See [Icon scaling](/windows/apps/design/style/iconography/app-icon-construction#icon-scaling) for recommendations on preffered icon sizes for your application.
+See [Icon scaling](/windows/apps/design/style/iconography/app-icon-construction#icon-scaling) for recommendations on preferred icon sizes for your application.
 
 ### To change the size of the system small icon
 
