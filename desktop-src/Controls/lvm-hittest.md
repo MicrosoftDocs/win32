@@ -25,7 +25,7 @@ Determines which list-view item, if any, is at a specified position. You can sen
 <dl> <dt>
 
 *wParam* 
-</dt> <dd>Must be 0. **Windows Vista.** Should be -1 if the **iGroup** and **iSubItem** members of the *lParam* structure are to be retrieved.</dd> <dt>
+</dt> <dd>Must be 0. <b>Windows Vista.</b> Should be -1 if the <b>iGroup</b> and <b>iSubItem</b> members of the <i>lParam</i> structure are to be retrieved.</dd> <dt>
 
 *lParam* 
 </dt> <dd>

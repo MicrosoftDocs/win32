@@ -25,10 +25,10 @@ Removes all groups from a list-view control.
 <dl> <dt>
 
 *wParam* 
-</dt> <dd>Must be **NULL**.</dd> <dt>
+</dt> <dd>Must be <b>NULL</b>.</dd> <dt>
 
 *lParam* 
-</dt> <dd>Must be **NULL**.</dd> </dl>
+ </dt> <dd>Must be <b>NULL</b>.</dd> </dl>
 
 ## Return value
 

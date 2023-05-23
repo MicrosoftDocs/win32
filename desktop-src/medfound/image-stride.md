@@ -39,8 +39,8 @@ void ProcessVideoImage(
 {
     for (DWORD y = 0; y < dwHeightInPixels; y++)
     {
-        SOURCE_PIXEL_TYPE *pSrcPixel = (SOURCE_PIXEL_TYPE*)pDestScanLine0;
-        DEST_PIXEL_TYPE *pDestPixel = (DEST_PIXEL_TYPE*)pSrcScanLine0;
+        SOURCE_PIXEL_TYPE *pSrcPixel = (SOURCE_PIXEL_TYPE*)pSrcScanLine0;
+        DEST_PIXEL_TYPE *pDestPixel = (DEST_PIXEL_TYPE*)pDestScanLine0;
 
         for (DWORD x = 0; x < dwWidthInPixels; x +=2)
         {
