@@ -17,7 +17,7 @@ api_location:
 
 # RESDIR structure
 
-Contains information about an individual icon or cursor component in a resource group.
+Contains information about an individual icon or cursor component in a [RT\_GROUP\_ICON](/windows/desktop/menurc/resource-types) or [RT\_GROUP\_CURSOR](/windows/desktop/menurc/resource-types) resource group.
 
 There is one **RESDIR** structure for each group component.
 
