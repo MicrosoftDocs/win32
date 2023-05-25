@@ -6,10 +6,13 @@ keywords:
 - Video for Windows (VFW),VCM messages
 - VFW (Video for Windows),VCM messages
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Video Compression Messages
+
+\[The feature associated with this page, [Video Compression Manager](/windows/win32/multimedia/video-compression-manager), is a legacy feature. Microsoft strongly recommends that new code does not use this feature.\]
 
 The following messages are used with video compression.
 

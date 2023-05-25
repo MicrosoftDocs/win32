@@ -8,10 +8,13 @@ keywords:
 - ASF (Advanced Systems Format),bit rates
 - bit rates,about
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Bit Rate
+
+\[The feature associated with this page, [Windows Media Format 11 SDK](/windows/win32/wmformat/windows-media-format-11-sdk), is a legacy feature. It has been superseded by [Source Reader](/windows/win32/medfound/source-reader) and [Sink Writer](/windows/win32/medfound/sink-writer). **Source Reader** and **Sink Writer** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **Source Reader** and **Sink Writer** instead of **Windows Media Format 11 SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 Bit rate refers to the amount of data per second that is delivered from an ASF file. Bit rate measurements are in bits per second (bps) or kilobits per second (Kbps). Bit rate is often confused with bandwidth, which is a measurement of the data transfer capacity of a network. Bandwidth is also measured in bps and Kbps.
 

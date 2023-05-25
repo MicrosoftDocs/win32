@@ -6,10 +6,13 @@ keywords:
 - Video for Windows (VFW),compressor system entries
 - VFW (Video for Windows),compressor system entries
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # System Entries for Compressors, Decompressors, and Renderers
+
+\[The feature associated with this page, [Video Compression Manager](/windows/win32/multimedia/video-compression-manager), is a legacy feature. Microsoft strongly recommends that new code does not use this feature.\]
 
 The system uses entries in the registry to find VCM drivers. These entries are in the form of two four-character codes separated by a period. The first four-character code is defined by the system and can be one of the following:
 

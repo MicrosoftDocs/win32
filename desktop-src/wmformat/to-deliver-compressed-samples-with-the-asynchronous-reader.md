@@ -13,10 +13,13 @@ keywords:
 - asynchronous readers,compressed samples
 - compressed samples,delivering
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # To Deliver Compressed Samples with the Asynchronous Reader
+
+\[The feature associated with this page, [Windows Media Format 11 SDK](/windows/win32/wmformat/windows-media-format-11-sdk), is a legacy feature. It has been superseded by [Source Reader](/windows/win32/medfound/source-reader) and [Sink Writer](/windows/win32/medfound/sink-writer). **Source Reader** and **Sink Writer** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **Source Reader** and **Sink Writer** instead of **Windows Media Format 11 SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The asynchronous reader can deliver compressed samples from streams in ASF files. Applications usually deliver compressed samples when copying a stream from one file to another. It is not advisable to recompress data that has been reconstructed from a compressed stream, because data is lost in the encoding process. Digital media that has been compressed more than once will have a noticeable decrease in quality.
 

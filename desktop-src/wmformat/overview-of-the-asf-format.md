@@ -7,10 +7,13 @@ keywords:
 - Advanced Systems Format (ASF),format overview
 - ASF (Advanced Systems Format),format overview
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Overview of the ASF Format
+
+\[The feature associated with this page, [Windows Media Format 11 SDK](/windows/win32/wmformat/windows-media-format-11-sdk), is a legacy feature. It has been superseded by [Source Reader](/windows/win32/medfound/source-reader) and [Sink Writer](/windows/win32/medfound/sink-writer). **Source Reader** and **Sink Writer** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **Source Reader** and **Sink Writer** instead of **Windows Media Format 11 SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The Advanced Systems Format (ASF) is an extensible file format designed primarily for storing and playing synchronized digital media streams and transmitting them over networks. ASF is the container format for Windows Media Audio and Windows Media Video-based content. The extension wma or wmv is used to specify an ASF file that contains content encoded with the Windows Media Audio and/or Windows Media Video codecs. The Windows Media Format SDK can be used to create and read Windows Media files, as well as ASF files that contain other types of compressed or uncompressed data.
 
