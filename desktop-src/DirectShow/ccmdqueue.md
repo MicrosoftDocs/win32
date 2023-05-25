@@ -3,7 +3,7 @@ description: The CCmdQueue class is a base class that provides a queue of CDefer
 ms.assetid: 6bd0f0f3-3c56-47d2-9fd8-e2863a2afa33
 title: CCmdQueue class
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 4/26/2023
 topic_type: 
 - APIRef
 - kbSyntax
@@ -12,9 +12,12 @@ api_name:
 api_type: 
 - COM
 api_location: 
+ms.custom: UpdateFrequency5
 ---
 
 # CCmdQueue class
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer) and [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine). **MediaPlayer** and **IMFMediaEngine** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** and **IMFMediaEngine** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The `CCmdQueue` class is a base class that provides a queue of [**CDeferredCommand**](cdeferredcommand.md) objects and member functions to add, remove, check status, and invoke the queued commands. A `CCmdQueue` object is a part of an object that implements [**IQueueCommand**](/windows/desktop/api/Control/nn-control-iqueuecommand) methods. The filter graph manager implements **IQueueCommand** methods so that applications can queue commands to the filter graph. Filters that implement the **IQueueCommand** interface directly use this class. If you want to use **CDeferredCommand** objects, your queue must be derived from this class.
 
