@@ -3,10 +3,13 @@ description: Filter States
 ms.assetid: 97418307-eb50-4c8e-b03b-a2cd08139bdc
 title: Filter States
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Filter States
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer) and [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine). **MediaPlayer** and **IMFMediaEngine** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** and **IMFMediaEngine** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 Filters have three possible states: stopped, paused, and running. The purpose of the paused state is to cue data in the graph, so that a run command responds immediately. The Filter Graph Manager controls all state transitions. When an application calls [**IMediaControl::Run**](/windows/desktop/api/Control/nf-control-imediacontrol-run), [**IMediaControl::Pause**](/windows/desktop/api/Control/nf-control-imediacontrol-pause), or [**IMediaControl::Stop**](/windows/desktop/api/Control/nf-control-imediacontrol-stop), the Filter Graph Manager calls the corresponding [**IMediaFilter**](/windows/desktop/api/Strmif/nn-strmif-imediafilter) method on all of the filters. Transitions between stopped and running always go through the paused state, so if the application calls **Run** on a stopped graph, the Filter Graph Manager pauses the graph before running it.
 

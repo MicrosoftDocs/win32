@@ -3,10 +3,13 @@ description: Configuring the Demux Output Pins
 ms.assetid: c53f3fe6-5588-4faf-ba5c-6a6cf7e16f3a
 title: Configuring the Demux Output Pins
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Configuring the Demux Output Pins
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer) and [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine). **MediaPlayer** and **IMFMediaEngine** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** and **IMFMediaEngine** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 When the MPEG-2 demux receives a packet of data, it must determine which output pin should parse and deliver the data. In program stream mode, the demux maps stream IDs to output pins. In transport stream mode, it maps PIDs to output pins. For example, in transport stream mode, if PID 0x31 is mapped to pin 0, then every TS packet with that PID number is routed to output pin 0. If the demux receives a packet whose stream ID or PID is not mapped to any output pin, it simply discards the packet.
 

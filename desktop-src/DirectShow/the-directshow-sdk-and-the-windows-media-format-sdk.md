@@ -3,10 +3,13 @@ description: The DirectShow SDK and the Windows Media Format SDK
 ms.assetid: d9ac89cc-0d55-4c51-ae0a-592422d97383
 title: The DirectShow SDK and the Windows Media Format SDK
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # The DirectShow SDK and the Windows Media Format SDK
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer) and [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine). **MediaPlayer** and **IMFMediaEngine** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** and **IMFMediaEngine** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 DirectShow and the Windows Media Format SDK offer complementary solutions for writing applications that create and play back Windows Media Format streams. For more information, see the "[Audio and Video](../audio-and-video.md)" section of the MSDN Library.
 

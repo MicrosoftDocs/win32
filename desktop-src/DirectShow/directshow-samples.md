@@ -3,10 +3,13 @@ title: DirectShow sample apps
 description: DirectShow sample apps
 ms.assetid: 4166d5ca-5e02-49f6-bcb1-d448f8175a0c
 ms.topic: article
-ms.date: 12/14/2022
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # DirectShow sample apps
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer) and [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine). **MediaPlayer** and **IMFMediaEngine** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** and **IMFMediaEngine** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 You can find the DirectShow sample apps in the [Windows-classic-samples](https://github.com/microsoft/Windows-classic-samples/tree/main/Samples/Win7Samples/multimedia/directshow) repository on GitHub.
 

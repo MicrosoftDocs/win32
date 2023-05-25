@@ -3,10 +3,13 @@ description: Operational Correspondence with Motion Compensation Device Driver
 ms.assetid: bd92a0f4-98d9-497a-99b9-0cf432347daf
 title: Operational Correspondence with Motion Compensation Device Driver
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Operational Correspondence with Motion Compensation Device Driver
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer) and [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine). **MediaPlayer** and **IMFMediaEngine** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** and **IMFMediaEngine** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 This section contains a description of the Motion Compensation device driver side of the DirectX VA interface. (Reference:Windows 2000 DDK - Graphics Drivers - Design Guide - 3.0 DirectDraw DDI - 3.12 Motion Compensation. See the Windows DDK for documentation on the structures in boldface.)
 

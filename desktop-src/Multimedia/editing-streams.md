@@ -10,10 +10,13 @@ keywords:
 - EditStreamClone function
 - EditStreamSetInfo function
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Editing Streams
+
+\[The feature associated with this page, [AVIFile Functions and Macros](/windows/win32/multimedia/avifile-functions-and-macros), is a legacy feature. It has been superseded by [Source Reader](/windows/win32/medfound/source-reader). **Source Reader** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **Source Reader** instead of **AVIFile Functions and Macros**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 You can create a stream that you can edit by using the [**CreateEditableStream**](/windows/desktop/api/Vfw/nf-vfw-createeditablestream) function. This function initializes the environment for editing a stream. This includes creating an interface to the new stream, and internal edit tables that track changes made to the stream. **CreateEditableStream** returns a stream pointer to an editable stream that is required by other stream-editing functions. The editable stream pointer can also be used by other AVIFile functions that accept stream pointers.
 

@@ -3,10 +3,13 @@ description: Working with DVD Text Strings
 ms.assetid: 6d415ebb-5cd0-4631-9404-f2ebabef2476
 title: Working with DVD Text Strings
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Working with DVD Text Strings
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer) and [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine). **MediaPlayer** and **IMFMediaEngine** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** and **IMFMediaEngine** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 Some DVD discs, especially karaoke discs, might contain a list of text strings to supplement the video or audio content. These text strings contain metadata about the content, such as song titles, artist names, genre information, and so on. Text strings can be present in more than one language. These strings are optional, and many discs do not have them.
 

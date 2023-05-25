@@ -3,10 +3,13 @@ description: Stream Format
 ms.assetid: 7ed095f2-b541-4b99-8afc-9acba58081cd
 title: Stream Format
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Stream Format
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer) and [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine). **MediaPlayer** and **IMFMediaEngine** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** and **IMFMediaEngine** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 Both the MSDV and the UVC driver can output two DV formats: interleaved audio-video, or video only. Interleaved audio-video is the original format from the device. The video-only format contains the same data, but the samples are marked as having no audio data. The video-only format exists mainly for compatibility with applications that use Video for Windows. For more information, see [Type-1 vs. Type-2 DV AVI Files](type-1-vs--type-2-dv-avi-files.md).
 

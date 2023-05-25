@@ -3,10 +3,13 @@ description: Guidelines for Registering Filters
 ms.assetid: 05945937-9e01-4930-ae95-1931a711b55e
 title: Guidelines for Registering Filters
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Guidelines for Registering Filters
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer) and [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine). **MediaPlayer** and **IMFMediaEngine** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** and **IMFMediaEngine** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The filter registry information determines how the Filter Graph Manager functions during [Intelligent Connect](intelligent-connect.md). Thus, it affects every application written for DirectShow, not just the ones that will use your filter. You should make sure that your filter behaves correctly, by following these guidelines.
 

@@ -3,10 +3,13 @@ description: GraphEdit File Format
 ms.assetid: 84c2de05-6c8f-45f1-b789-04a24cfa3ea1
 title: GraphEdit File Format
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # GraphEdit File Format
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer) and [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine). **MediaPlayer** and **IMFMediaEngine** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** and **IMFMediaEngine** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 When the GraphEdit utility saves a DirectShow filter graph, it creates a storage files with a .grf extension. The storage file contains a single stream called ActiveMovieGraph. This stream contains information about all of the filters, filter names, file names, connections, and so forth.
 

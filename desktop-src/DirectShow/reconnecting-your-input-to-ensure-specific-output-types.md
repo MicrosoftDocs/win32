@@ -3,10 +3,13 @@ description: Reconnecting Your Input to Ensure Specific Output Types
 ms.assetid: c83d002e-59bf-4d03-9917-e39ceab9a4ce
 title: Reconnecting Your Input to Ensure Specific Output Types
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Reconnecting Your Input to Ensure Specific Output Types
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer) and [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine). **MediaPlayer** and **IMFMediaEngine** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** and **IMFMediaEngine** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 Filters implement the [**IAMStreamConfig::SetFormat**](/windows/desktop/api/Strmif/nf-strmif-iamstreamconfig-setformat) method to set the audio or video format before the filter's pins are connected. If your output pin is already connected and you can provide a new type, then reconnect your pin, but only if the other filter can accept the new type. If the other filter cannot accept the media type, fail the call to **SetFormat** and leave your connection alone.
 
