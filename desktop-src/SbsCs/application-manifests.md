@@ -83,7 +83,7 @@ The **assembly** element has the following attributes.
 
 | Attribute           | Description                                           |
 |---------------------|-------------------------------------------------------|
-| **manifestVersion** | The **manifestVersion** attribute must be set to 1.0. |
+| **manifestVersion** | The **manifestVersion** attribute must be set to `1.0`. |
 
 <span id="noInherit"></span><span id="noinherit"></span><span id="NOINHERIT"></span>
 
