@@ -8,10 +8,7 @@ ms.date: 05/31/2018
 
 # SFGAO
 
-Attributes that can be retrieved on an item (file or folder) or set of items.
-
-
-
+`SFGAO` bitfield values represent attributes that can be retrieved on an item (file or folder) or set of items. They are used with the IShellFolder and IShellItem APIs, most notably <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-getattributesof"><strong>IShellFolder::GetAttributesOf</strong></a> and <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellitem-getattributes"><strong>IShellItem::GetAttributes</strong></a>.
 
 | Constant/value | Description | 
 |----------------|-------------|
@@ -75,6 +72,9 @@ Attributes that can be retrieved on an item (file or folder) or set of items.
 </dt> <dt>
 
 [**IShellFolder::ParseDisplayName**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-parsedisplayname)
+</dt> <dt>
+
+[**IShellItem::GetAttributes**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellitem-getattributes)
 </dt> <dt>
 
 [**IShellItemArray::GetAttributes**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellitemarray-getattributes)
