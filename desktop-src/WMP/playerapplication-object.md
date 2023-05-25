@@ -11,11 +11,14 @@ api_name:
 api_type:
 - NA
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 4/26/2023
 api_location: 
+ms.custom: UpdateFrequency5
 ---
 
 # PlayerApplication Object
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The **PlayerApplication** object provides a way to coordinate switching between a remoted Windows Media Player control and the full mode of Windows Media Player. This object is used only with C++ programs that implement the **IWMPRemoteMediaServices** interface and embed the Player control in remote mode. Skin files used as custom interfaces for the remoted Windows Media Player control access this object in script code through the **playerApplication** global attribute.
 

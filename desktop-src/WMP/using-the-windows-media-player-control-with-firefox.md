@@ -24,10 +24,13 @@ keywords:
 - embedding,Web pages
 - Web page embedding,Firefox
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Using the Windows Media Player Control with Firefox
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 Microsoft provides a plug-in that enables you to embed the Windows Media Player ActiveX control in a webpage so that it will be displayed correctly by a Firefox browser. The plug-in, which must be installed on the client computer, can be downloaded from the [Microsoft Port25 website](https://www.mozilla.org/).
 

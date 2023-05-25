@@ -21,10 +21,13 @@ keywords:
 - embedding,FrontPage pages
 - FrontPage page embedding
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Embedding the Windows Media Player Control in an Office Document
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 Embedding the Windows Media Player control in an Office document is an easy way to add dynamic, interactive digital media content to an otherwise static document. For example, you can create a spreadsheet in Microsoft Excel and insert a "talking head" video summarizing a report, or you can create a Microsoft Word document and insert a short animation illustrating a point made in the text. If you don't like the user interface provided by the control, you can use Microsoft Visual Basic for Applications (VBA) to provide a custom user interface.
 
