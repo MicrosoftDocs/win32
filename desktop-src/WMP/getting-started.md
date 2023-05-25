@@ -11,10 +11,13 @@ keywords:
 - user interface plug-ins,Windows Media Player Mobile
 - UI plug-ins,Windows Media Player Mobile
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Getting Started with the Windows Media Player SDK
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 To create your plug-in, you first need to install Microsoft eMbedded Visual C++ 4.0 and Visual Studio 2003. You must also install the Pocket PC 2003 SDK or the Smartphone 2003 SDK, which are separate downloads. To compile and run the project, a Pocket PC or Smartphone device running the Windows Mobile 2003 Second Edition operating system must be synchronized with the development computer by using Microsoft ActiveSync® 3.7.1 or later.
 

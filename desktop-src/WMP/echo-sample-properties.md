@@ -9,10 +9,13 @@ keywords:
 - DSP plug-ins,Echo sample properties
 - Echo DSP plug-in sample,properties
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Echo Sample Properties
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The Echo sample exposes two properties: the delay time and the effect level (wet mix). The value for the dry signal level (dry mix) is always derived from the wet mix value. You need to modify existing code and add some new code to make these properties accessible.
 

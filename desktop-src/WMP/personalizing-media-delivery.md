@@ -12,15 +12,18 @@ keywords:
 - media delivery personalization
 - personalizing media delivery
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
 topic_type: 
 - kbArticle
 api_name: 
 api_type: 
 api_location: 
+ms.custom: UpdateFrequency5
 ---
 
 # Personalizing Media Delivery
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 Unlike one-way communication that broadcasts identical content to a mass audience, Windows Media Technologies provides you with the tools to use demographics to individualize broadcasts. With the Internet, two-way communication on a large scale is readily available. This dynamic interchange of information enables content providers to know their audience and respond with customized presentations.
 

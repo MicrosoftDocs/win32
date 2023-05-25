@@ -10,15 +10,18 @@ keywords:
 - Windows Media metafiles,relative links
 - relative links
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
 topic_type: 
 - kbArticle
 api_name: 
 api_type: 
 api_location: 
+ms.custom: UpdateFrequency5
 ---
 
 # Using Relative Links in Metafiles
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 Relative links are a fully supported feature of Windows Media metafiles. You can use relative links in metafiles much like you use them in HTML documents. The use of relative links enables you to create metafiles that are portable, meaning you can copy or move an entire directory structure to another server without updating the paths to graphic files used as banners or the **HREF** attributes of **MOREINFO** elements (if they reference files on the same web server as the stored metafile). Relative links work, in any application that supports them, because the parts of the URL not included in the **HREF** attribute of an element are included in the URL sent by the application to the server when that URL is requested. This means that the protocol (such as https://), the server name, and the virtual directory in which the file containing the relative link is located are all included in the URL that is sent to the server. If the media file, or URL you link to using a relative link does not reside on the same server as the metafile, the relative link is not valid.
 

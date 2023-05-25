@@ -14,10 +14,13 @@ keywords:
 - versions of Windows Media Player,new features in skins
 - compatibility,skins
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # New for Windows Media Player Skins
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 Windows Media Player 7.0 introduced skin technology. The available elements and attributes remained unchanged for Windows Media Player 7.1 and Windows Media Player for Windows XP. Windows Media Player 9 Series introduced new elements and attributes you can use. Windows Media Player 10 introduces one new attribute.
 
