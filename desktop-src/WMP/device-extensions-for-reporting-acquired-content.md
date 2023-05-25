@@ -10,10 +10,13 @@ keywords:
 - extensions,reporting acquired content
 - reporting acquired content
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Device Extensions for Reporting Acquired Content
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 Windows Media Player 11 introduces new functionality that enables portable devices to notify the Player about content added to the device since the last synchronization. Windows Media Player 11 can use this information to copy newly acquired content from the device to the user's computer. Device manufacturers should note the following requirements for supporting this functionality:
 
