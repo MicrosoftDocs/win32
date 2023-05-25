@@ -3,7 +3,7 @@ description: The ConnectedIMemInputPin method retrieves a pointer to the downstr
 ms.assetid: 39a12603-7768-43c3-9558-7caaa8f55108
 title: CTransInPlaceOutputPin.ConnectedIMemInputPin method (Transip.h)
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 4/26/2023
 topic_type: 
 - APIRef
 - kbSyntax
@@ -16,9 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
+ms.custom: UpdateFrequency5
 ---
 
 # CTransInPlaceOutputPin.ConnectedIMemInputPin method
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer) and [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine). **MediaPlayer** and **IMFMediaEngine** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** and **IMFMediaEngine** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The `ConnectedIMemInputPin` method retrieves a pointer to the downstream input pin. This method returns the [**CBaseOutputPin::m\_pInputPin**](cbaseoutputpin-m-pinputpin.md) member variable.
 

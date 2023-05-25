@@ -3,7 +3,7 @@ description: The GetCountOfType method retrieves the number of objects of the sp
 ms.assetid: f3571fa5-8020-4079-ab7e-ba9ff280c0c5
 title: IAMTimeline::GetCountOfType method (Qedit.h)
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 4/26/2023
 topic_type: 
 - APIRef
 - kbSyntax
@@ -14,9 +14,12 @@ api_type:
 api_location: 
 - strmiids.lib
 - strmiids.dll
+ms.custom: UpdateFrequency5
 ---
 
 # IAMTimeline::GetCountOfType method
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer) and [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine). **MediaPlayer** and **IMFMediaEngine** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** and **IMFMediaEngine** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 > [!Note]  
 > \[Deprecated. This API may be removed from future releases of Windows.\]
