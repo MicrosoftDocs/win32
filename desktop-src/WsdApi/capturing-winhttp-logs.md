@@ -8,6 +8,9 @@ ms.date: 05/31/2018
 
 # Capturing WinHTTP Logs
 
+> [!IMPORTANT]
+> This procedure is available only for OS versions prior to Windows 7 or Windows Server 2008 R2.
+
 [WinHTTP](/windows/desktop/WinHttp/winhttp-start-page) logs can be used to help troubleshoot WSDAPI applications. This is helpful when metadata exchange fails or when SSL/TLS negotiation fails.
 
 This procedure shows how to capture WinHTTP logs on the client PC. The WSDAPI-based client application must not be running when logging is enabled. If the client application is running when logging is enabled, the client and/or the PC must be restarted before WS-Discovery and metadata exchange traffic will appear in the WinHTTP logs.
@@ -35,11 +38,5 @@ Once WinHTTP logs have been captured, the logs can be examined to look for the c
 
 ## Related topics
 
-<dl> <dt>
-
-[WinHTTP](/windows/desktop/WinHttp/winhttp-start-page)
-</dt> <dt>
-
-[Using WinHTTP Logging to Verify Get Traffic](using-winhttp-logging-to-verify-get-traffic.md)
-</dt>
-</dl>
+* [WinHTTP](/windows/desktop/WinHttp/winhttp-start-page)
+* [Using WinHTTP Logging to Verify Get Traffic](using-winhttp-logging-to-verify-get-traffic.md)
