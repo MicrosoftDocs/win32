@@ -6,6 +6,9 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
+> [!IMPORTANT]
+> This step is only available for OS versions prior to Windows 7 or Windows Server 2008 R2.
+
 # Capturing WinHTTP Logs
 
 [WinHTTP](/windows/desktop/WinHttp/winhttp-start-page) logs can be used to help troubleshoot WSDAPI applications. This is helpful when metadata exchange fails or when SSL/TLS negotiation fails.
