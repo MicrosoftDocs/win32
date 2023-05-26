@@ -1,9 +1,9 @@
 ---
+title: Network3GPP (Hotspot2) element
 description: A list of Public Land Mobile Network (PLMN) IDs.
-ms.assetid: 2e5e23c0-e98f-48f8-97b8-c5f88c80c51e
-title: Network3GPP (Hotspot2) Element
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 05/25/2023
+ms.assetid: 2e5e23c0-e98f-48f8-97b8-c5f88c80c51e
 topic_type: 
 - APIRef
 - kbSyntax
@@ -14,7 +14,7 @@ api_type:
 api_location: 
 ---
 
-# Network3GPP (Hotspot2) Element
+# Network3GPP (Hotspot2) element
 
 A list of Public Land Mobile Network (PLMN) IDs.
 
@@ -46,22 +46,16 @@ A list of Public Land Mobile Network (PLMN) IDs.
 </xs:element>
 ```
 
-The element is defined by the [**Hotspot2**](wlan-profileschema-hotspot2-element.md) element.
+## Parent elements
+
+* [**Hotspot2 (WLANProfile)**](wlan-profileschema-hotspot2-element.md)
 
 ## Child elements
 
+| Element | Type | Description |
+|-|-|-|
+| [**PLMNID**](#plmnid) | | An individual PLMN ID. This is a 5 or 6 digit decimal number corresponding to the MCC/MNC of a 3GPP network. |
 
+### PLMNID
 
-| Element | Type | Description                                                                                                             |
-|---------|------|-------------------------------------------------------------------------------------------------------------------------|
-| PLMNID  |      | An individual PLMN ID. This is a 5 or 6 digit decimal number corresponding to the MCC/MNC of a 3GPP network.<br/> |
-
-
-
- 
-
- 
-
-
-
-
+An individual PLMN ID. This is a 5 or 6 digit decimal number corresponding to the MCC/MNC of a 3GPP network.

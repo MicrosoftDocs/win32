@@ -53,7 +53,7 @@
         href: bootstrap-profile-sample.md
       - name: "FIPS Profile Sample"
         href: fips-profile-sample.md
-      - name: "Non-Broadcast Profile Sample"
+      - name: "Non-Broadcast profile sample"
         href: non-broadcast-profile-sample.md
       - name: "Single Sign-On Profile Sample"
         href: single-sign-on-profile-sample.md
@@ -61,13 +61,13 @@
         href: wpa-enterprise-with-peap-mschapv2-profile-sample.md
       - name: "WPA-Enterprise with TLS Profile Sample"
         href: wpa-enterprise-with-tls-profile-sample.md
-      - name: "WPA-Personal Profile Sample"
+      - name: "WPA-Personal profile sample"
         href: wpa-personal-profile-sample.md
       - name: "WPA2-Enterprise with PEAP-MSCHAPv2 Profile Sample"
         href: wpa2-enterprise-with-peap-mschapv2-profile-sample.md
       - name: "WPA2-Enterprise with TLS Profile Sample"
         href: wpa2-enterprise-with-tls-profile-sample.md
-      - name: "WPA2-Personal Profile Sample"
+      - name: "WPA2-Personal profile sample"
         href: wpa2-personal-profile-sample.md
   - name: "Native Wifi reference"
     href: native-wifi-reference.md
@@ -520,69 +520,69 @@
           - name: "authEncryption (security) Element"
             href: wlan-profileschema-authencryption-security-element.md
           - name: "authentication (authEncryption) Element"
-            href: wlan-profileschema-authentication-authencryption-element.md
+            href: wlan-profileschema-authencryption-security-element.md#authentication
           - name: "autoSwitch (WLANProfile) Element"
-            href: wlan-profileschema-autoswitch-wlanprofile-element.md
+            href: wlan-profileschema-wlanprofile-element.md#autoswitch
           - name: "connectionMode (WLANProfile) Element"
-            href: wlan-profileschema-connectionmode-wlanprofile-element.md
+            href: wlan-profileschema-wlanprofile-element.md#connectionmode
           - name: "connectionType (WLANProfile) Element"
-            href: wlan-profileschema-connectiontype-wlanprofile-element.md
+            href: wlan-profileschema-wlanprofile-element.md#connectiontype
           - name: "connectivity (IHV) Element"
-            href: wlan-profileschema-connectivity-ihv-element.md
+            href: wlan-profileschema-ihv-wlanprofile-element.md#connectivity
           - name: "connectivity (MSM) Element"
             href: wlan-profileschema-connectivity-msm-element.md
           - name: "DomainName (Hotspot2) Element"
-            href: wlan-profileschema-hotspot2-domainname-element.md
+            href: wlan-profileschema-hotspot2-element.md#domainname
           - name: "encryption (authEncryption) Element"
-            href: wlan-profileschema-encryption-authencryption-element.md
+            href: wlan-profileschema-authencryption-security-element.md#encryption
           - name: "FIPSMode (authEncryption) Element"
-            href: wlan-profileschema-fipsmode-authencryption-element.md
+            href: wlan-profileschema-authencryption-security-element.md#fipsmode
           - name: "hex (SSID) Element"
-            href: wlan-profileschema-hex-ssid-element.md
+            href: wlan-profileschema-ssid-ssidconfig-element.md#hex
           - name: "IHV (WLANProfile) Element"
             href: wlan-profileschema-ihv-wlanprofile-element.md
           - name: "Hotspot2 Element"
             href: wlan-profileschema-hotspot2-element.md
           - name: "keyIndex (security) Element"
-            href: wlan-profileschema-keyindex-security-element.md
+            href: wlan-profileschema-security-msm-element.md#keyindex
           - name: "keyMaterial (sharedKey) Element"
-            href: wlan-profileschema-keymaterial-sharedkey-element.md
+            href: wlan-profileschema-sharedkey-security-element.md#keymaterial
           - name: "keyType (sharedKey) Element"
-            href: wlan-profileschema-keytype-sharedkey-element.md
+            href: wlan-profileschema-sharedkey-security-element.md#keytype
           - name: "MSM (WLANProfile) Element"
             href: wlan-profileschema-msm-wlanprofile-element.md
           - name: "NAIRealm (Hotspot2) Element"
             href: wlan-profileschema-hotspot2-nairealm-element.md
           - name: "name (SSID) Element"
-            href: wlan-profileschema-name-ssid-element.md
+            href: wlan-profileschema-ssid-ssidconfig-element.md#name
           - name: "name (WLANProfile) Element"
-            href: wlan-profileschema-name-wlanprofile-element.md
+            href: wlan-profileschema-wlanprofile-element.md#name
           - name: "Network3GPP (Hotspot2) Element"
             href: wlan-profileschema-hotspot2-network3gpp-element.md
           - name: "nonBroadcast (SSIDConfig) Element"
-            href: wlan-profileschema-nonbroadcast-ssidconfig-element.md
+            href: wlan-profileschema-ssidconfig-wlanprofile-element.md#nonbroadcast
           - name: "OUIHeader (IHV) Element"
             href: wlan-profileschema-ouiheader-ihv-element.md
           - name: "OUI (OUIHeader) Element"
-            href: wlan-profileschema-oui-ouiheader-element.md
+            href: wlan-profileschema-ouiheader-ihv-element.md#oui
           - name: "phyType (connectivity) Element"
-            href: wlan-profileschema-phytype-connectivity-element.md
+            href: wlan-profileschema-connectivity-msm-element.md#phytype
           - name: "PMKCacheMode (security) Element"
-            href: wlan-profileschema-pmkcachemode-security-element.md
+            href: wlan-profileschema-security-msm-element.md#pmkcachemode
           - name: "PMKCacheSize (security) Element"
-            href: wlan-profileschema-pmkcachesize-security-element.md
+            href: wlan-profileschema-security-msm-element.md#pmkcachesize
           - name: "PMKCacheTTL (security) Element"
-            href: wlan-profileschema-pmkcachettl-security-element.md
+            href: wlan-profileschema-security-msm-element.md#pmkcachettl
           - name: "preAuthMode (security) Element"
-            href: wlan-profileschema-preauthmode-security-element.md
+            href: wlan-profileschema-security-msm-element.md#preauthmode
           - name: "preAuthThrottle (security) Element"
-            href: wlan-profileschema-preauththrottle-security-element.md
+            href: wlan-profileschema-security-msm-element.md#preauththrottle
           - name: "protected (sharedKey) Element"
-            href: wlan-profileschema-protected-sharedkey-element.md
+            href: wlan-profileschema-sharedkey-security-element.md#protected
           - name: "RoamingConsortium (Hotspot2) Element"
             href: wlan-profileschema-hotspot2-roamingconsortium-element.md
           - name: "security (IHV) Element"
-            href: wlan-profileschema-security-ihv-element.md
+            href: wlan-profileschema-ihv-wlanprofile-element.md#security
           - name: "security (MSM) Element"
             href: wlan-profileschema-security-msm-element.md
           - name: "sharedKey (security) Element"
@@ -592,18 +592,18 @@
           - name: "SSID (SSIDConfig) Element"
             href: wlan-profileschema-ssid-ssidconfig-element.md
           - name: "type (OUIHeader) Element"
-            href: wlan-profileschema-type-ouiheader-element.md
+            href: wlan-profileschema-ouiheader-ihv-element.md#type
           - name: "useMSOneX (IHV) Element"
-            href: wlan-profileschema-usemsonex-ihv-element.md
+            href: wlan-profileschema-ihv-wlanprofile-element.md#usemsonex
           - name: "useOneX (authEncryption) Element"
-            href: wlan-profileschema-useonex-authencryption-element.md
+            href: wlan-profileschema-authencryption-security-element.md#useonex
           - name: "WLANProfile Element"
             href: wlan-profileschema-wlanprofile-element.md
         - name: "WLAN_profile Schema Simple Types"
           href: wlan-profileschema-simple-types.md
           items: 
           - name: "nameType Simple Type"
-            href: wlan-profileschema-nametype-simpletype.md
+            href: wlan-profileschema-simple-types.md#nametype
   - name: "Wireless Ad Hoc Reference"
     href: wireless-ad-hoc-reference.md
     items: 

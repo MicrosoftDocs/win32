@@ -1,8 +1,8 @@
 ---
 title: MacRandomization (WLANProfile) element
-description: The MacRandomization (WLANProfile) element configures the randomization of MAC addresses.
+description: Configures the randomization of MAC addresses.
 ms.topic: reference
-ms.date: 04/26/2023
+ms.date: 05/25/2023
 topic_type: 
 - APIRef
 - kbSyntax
@@ -15,7 +15,7 @@ api_location:
 
 # MacRandomization (WLANProfile) element
 
-The MacRandomization (WLANProfile) element configures the randomization of MAC addresses.
+Configures the randomization of MAC addresses.
 
 ``` syntax
 <xs:element name="MacRandomization"
@@ -42,15 +42,29 @@ The MacRandomization (WLANProfile) element configures the randomization of MAC a
 </xs:element>
 ```
 
-The **MacRandomization** element is defined by the [**WLANProfile**](wlan-profileschema-wlanprofile-element.md) element.
+## Parent elements
+
+* [**WLANProfile**](wlan-profileschema-wlanprofile-element.md)
 
 ## Child elements
 
 | Element | Type | Description |
 |-|-|-|
-| [**enableRandomization**](wlan-profileschema-enablerandomization-macrandomization-element.md) | | Flag for specifying Mac Address Randomization on this profile, default set by policy.|
-| [**randomizeEveryday**](wlan-profileschema-randomizeeveryday-macrandomization-element.md) | | Flag for specifying whether a new MAC shall be picked every day.|
-| [**randomizationSeed**](wlan-profileschema-randomizationseed-macrandomization-element.md) | | Randomization seed is a DWORD value that differentiates various versions of the same profile.|
+| [**enableRandomization**](#enablerandomization) | | Flag for specifying Mac Address Randomization on this profile; default set by policy. |
+| [**randomizeEveryday**](#randomizeeveryday) | | Flag for specifying whether a new MAC shall be picked every day. |
+| [**randomizationSeed**](#randomizationseed) | | Randomization seed is a DWORD value that differentiates various versions of the same profile. |
+
+### enableRandomization
+
+Flag for specifying Mac Address Randomization on this profile; default set by policy.
+
+### randomizeEveryday
+
+Flag for specifying whether a new MAC shall be picked every day.
+
+### randomizationSeed
+
+Randomization seed is a DWORD value that differentiates various versions of the same profile.
 
 ## Requirements
 
@@ -59,13 +73,3 @@ The **MacRandomization** element is defined by the [**WLANProfile**](wlan-profil
 | Minimum supported client | Windows Vista, Windows XP with SP3 \[desktop apps only\] |
 | Minimum supported server | Windows Server 2008 \[desktop apps only\] |
 | Redistributable | Wireless LAN API for Windows XP with SP2 |
-
-## See also
-
-**Definition context of element in schema**
-
-* [**WLANProfile**](wlan-profileschema-wlanprofile-element.md)
-
-**Possible immediate parent element in schema instance**
-
-* [**WLANProfile**](wlan-profileschema-wlanprofile-element.md)
