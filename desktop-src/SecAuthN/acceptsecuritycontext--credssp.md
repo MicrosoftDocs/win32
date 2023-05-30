@@ -30,11 +30,14 @@ SECURITY_STATUS SEC_ENTRY AcceptSecurityContext(
 
 *phCredential* `[in, optional]`
 
-A handle to the server credentials. To retrieve this handle, the server calls the [**AcquireCredentialsHandle (CredSSP)**](acquirecredentialshandle--credssp.md) function with either the SECPKG\_CRED\_INBOUND or SECPKG\_CRED\_BOTH flag set.
+A handle to the server credentials. To retrieve this handle, the server calls the [AcquireCredentialsHandle (CredSSP)](acquirecredentialshandle--credssp.md) function with either the SECPKG\_CRED\_INBOUND or SECPKG\_CRED\_BOTH flag set.
 
 *phContext* `[in, optional]`
 
 A pointer to a [CtxtHandle](sspi-handles.md) structure. On the first call to **AcceptSecurityContext (CredSSP)**, this pointer is `NULL`. On subsequent calls, *phContext* specifies the partially formed context returned in the *phNewContext* parameter by the first call.
+
+>[!WARNING]
+>Do not use the same context handle in concurrent calls to **AcceptSecurityContext (CredSSP)**. The API implementation in the security service providers is not thread-safe.
 
 *pInput* `[in, optional]`
 

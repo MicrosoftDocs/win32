@@ -41,6 +41,9 @@ A handle to the credentials returned by [AcquireCredentialsHandle (Kerberos)](ac
 
 A pointer to a [CtxtHandle](sspi-handles.md) structure. On the first call to **InitializeSecurityContext (Kerberos)**, this pointer is `NULL`. On the second call, this parameter is a pointer to the handle to the partially formed context returned in the *phNewContext* parameter by the first call.
 
+>[!WARNING]
+>Do not use the same context handle in concurrent calls to **InitializeSecurityContext (Kerberos)**. The API implementation in the security service providers is not thread-safe.
+
 *pszTargetName* `[in]`
 
 A pointer to a null-terminated string that indicates the service principal name (SPN) or the [security context](../secgloss/s-gly.md) of the destination server.
@@ -156,6 +159,7 @@ For multiple-leg [*security context*](../secgloss/s-gly.md)s, such as mutual aut
 1. The client calls the function as described earlier, but the package returns the SEC\_I\_CONTINUE\_NEEDED success code.
 2. The client sends the output token to the server and waits for the server's reply.
 3. Upon receipt of the server's response, the client calls **InitializeSecurityContext (Kerberos)** again, with *phContext* set to the handle that was returned from the last call. The token received from the server is supplied in the *pInput* parameter.
+4. Do not use the *phContext* value in concurrent calls to **InitializeSecurityContext (Kerberos)**. The implementation in the security providers is not thread-safe.
 
 If the server has successfully responded, the [*security package*](../secgloss/s-gly.md) returns SEC\_E\_OK and a secure session is established.
 

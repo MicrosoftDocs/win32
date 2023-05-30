@@ -12,10 +12,10 @@ Use the [registry functions](/windows/desktop/SysInfo/registry-functions) to col
 
 Performance data is not actually stored in the registry. Calling the registry functions causes the system to collect the data from the appropriate performance data provider.
 
-> [!Note]
+> [!NOTE]
 > You should not normally use the registry functions to consume counter data. Instead, you should [use the Performance Data Helper (PDH) functions](using-the-pdh-functions-to-consume-counter-data.md). The PDH functions are easier to use and avoid many performance and reliability problems that can occur through incorrect use of the registry functions.
 
-> [!Note]
+> [!NOTE]
 > You cannot use the registry functions if you are writing Windows OneCore apps. Instead, use [PerfLib V2 Consumer functions](using-the-perflib-functions-to-consume-counter-data.md).
 
 The registry functions are the low-level API for collecting data from **V1 providers**. The registry functions also support collecting data from **V2 providers** via a translation layer that calls into the [V2 Consumer functions](using-the-perflib-functions-to-consume-counter-data.md).
@@ -42,6 +42,10 @@ You use the `lpValueName` parameter of the [**RegQueryValueEx**](/windows/deskto
 |`Counter n`| Retrieves name strings for the specified language identifier, e.g. English for `Counter 9`. Use the returned name strings to find the index corresponding to a given name or to find the name corresponding to a given index. See [Retrieving Counter Names and Help Text](retrieving-counter-names-and-help-text.md) for details. Note that the returned list includes both object (counterset) names and counter names -- there is no simple way to determine whether a name is an object name or a counter name.
 |`Help n`| Retrieves help strings for the specified language identifier, e.g. English for `Help 9`. Use the returned help strings to find descriptions corresponding to object (counterset) or counter help indexes. See [Retrieving Counter Names and Help Text](retrieving-counter-names-and-help-text.md) for details.
 |`Costly`| **Deprecated:** Retrieves performance data for object types whose data is expensive to collect in terms of processor time or memory usage. This collection may take several minutes on a heavily-loaded machine. You should perform the collection on a worker thread if your application needs to respond to the user during this data collection.
+|`MetadataGlobal`| **Windows 10 20H1 and later:** Retrieves *metadata* for all performance objects registered on the computer except for those included in the `Costly` category.
+|`OLD_MetadataGlobal`| **Windows 10 20H1 and later:** Retrieves *metadata* for all **V1** performance objects registered on the computer except for those included in the `Costly` category.
+|`MetadataCostly`| **Windows 10 20H1 and later:** Retrieves *metadata* for costly performance objects.
+|`OLD_MetadataCostly`| **Windows 10 20H1 and later:** Retrieves *metadata* for costly **V1** performance objects.
 
 For details on the format of the performance data that the registry returns, see [Performance Data Format](performance-data-format.md).
 
@@ -50,3 +54,25 @@ For an example that gets the names and descriptions of the registered counters o
 For an example that accesses the components of the performance data, see [Displaying Object, Instance, and Counter Names](displaying-object-instance-and-counter-names.md).
 
 For an example that retrieves, computes, and prints counter values, see [Retrieving Counter Data](retrieving-counter-data.md) and [Calculating Counter Values](calculating-counter-values.md).
+
+## Metadata Collection
+
+Windows 10 20H1 adds support for metadata-only collection operations. These operations are intended for use when making a list of the performance objects and counters that are available on a machine.
+
+- Metadata-only collection can be faster than the corresponding full-data collection because it can skip collecting instance data from objects that support metadata-only collection.
+- Metadata-only collection uses less memory than the corresponding full-data collection because it does not need space to return instance data from objects that support metadata-only collection.
+- Metadata-only collection is more complete than the corresponding full-data collection because it returns the list of available counters even if there are no instances of objects that support metadata-only collection.
+
+> [!TIP]
+> Appropriate use of metadata-only collection is especially important when collecting data from servers with many processes or threads. A normal `Global` collection must collect and return information on each process and thread on the system, while `MetadataGlobal` collection does not need to collect process or thread information.
+
+The [Performance Data Helper (PDH) functions](using-the-pdh-functions-to-consume-counter-data.md) automatically use metadata-only collection when determining the set of performance objects available on a machine.
+
+Operating system support for metadata-only operations is indicated by a nonzero value in the `HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Perflib\Supports Metadata` registry value. If this value is not present or is set to `0`, use a full-data collection (e.g. `Global`) instead of a metadata-only collection (e.g. `MetadataGlobal`).
+
+Not all performance objects support metadata-only collection. When you request a `MetadataGlobal` collection, Windows will check each performance object for metadata-only support (indicated by a nonzero value in the `HKLM\SYSTEM\CurrentControlSet\Services\<ServiceName>\Performance\Collect Supports Metadata` registry value). If the performance object does not support metadata-only collection, Windows will perform a normal data collection from the object. If the performance object does support metadata-only collection, Windows will perform a metadata-only collection from the object. The data returned to you for a metadata-only query will then contain `PERF_OBJECT_TYPE` blocks from both full-data and metadata-only collection. The `PERF_OBJECT_TYPE` blocks may contain or omit instance information, depending on whether the block was collected from a provider that does or does not support metadata-only queries.
+
+The data returned from a metadata-only collection is the same as the data from a normal collection except:
+
+- The `NumInstances` field of the `PERF_OBJECT_TYPE` struct will be either `PERF_METADATA_MULTIPLE_INSTANCES` (indicating that the object supports 0 or more named instances) or `PERF_METADATA_NO_INSTANCES` (indicating that the object always has 1 unnamed instance).
+- There will be no `PERF_INSTANCE_DEFINITION` blocks after the `PERF_OBJECT_TYPE` struct.

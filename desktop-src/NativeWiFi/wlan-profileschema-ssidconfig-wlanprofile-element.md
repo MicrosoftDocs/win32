@@ -1,9 +1,9 @@
 ---
 title: SSIDConfig (WLANProfile) element
 description: Contains one or more SSIDs for wireless LANs.
-ms.assetid: f9c46db8-2933-48e1-8cb3-effeb13c43ed
 ms.topic: reference
-ms.date: 04/26/2023
+ms.date: 05/25/2023
+ms.assetid: f9c46db8-2933-48e1-8cb3-effeb13c43ed
 topic_type: 
 - APIRef
 - kbSyntax
@@ -26,91 +26,11 @@ The SSIDConfig (WLANProfile) element contains one or more SSIDs for wireless LAN
         <xs:sequence>
             <xs:element name="SSID"
                 maxOccurs="256"
-            >
-                <xs:complexType>
-                    <xs:sequence>
-                        <xs:element name="hex"
-                            minOccurs="0"
-                        >
-                            <xs:simpleType>
-                                <xs:restriction
-                                    base="hexBinary"
-                                >
-                                    <xs:minLength
-                                        value="1"
-                                     />
-                                    <xs:maxLength
-                                        value="32"
-                                     />
-                                </xs:restriction>
-                            </xs:simpleType>
-                        </xs:element>
-                        <xs:element name="name"
-                            minOccurs="0"
-                        >
-                            <xs:simpleType>
-                                <xs:restriction
-                                    base="string"
-                                >
-                                    <xs:minLength
-                                        value="1"
-                                     />
-                                    <xs:maxLength
-                                        value="32"
-                                     />
-                                </xs:restriction>
-                            </xs:simpleType>
-                        </xs:element>
-                        <xs:any
-                            processContents="lax"
-                            minOccurs="0"
-                            maxOccurs="unbounded"
-                            namespace="##other"
-                         />
-                    </xs:sequence>
-                </xs:complexType>
-            </xs:element>
+                ...
+            />
             <xs:element name="SSIDPrefix"
-            >
-                <xs:complexType>
-                    <xs:sequence>
-                        <!-- Either Hex or named SSID must be present. -->
-                        <!-- Hex SSID takes precedence over named SSID. -->
-                        <xs:element name="hex"
-                            minOccurs="0"
-                        >
-                            <xs:simpleType>
-                                <xs:restriction
-                                    base="hexBinary"
-                                >
-                                    <xs:minLength
-                                        value="4"
-                                     />
-                                    <xs:maxLength
-                                        value="32"
-                                     />
-                                </xs:restriction>
-                            </xs:simpleType>
-                        </xs:element>
-                        <xs:element name="name"
-                            minOccurs="0"
-                        >
-                            <xs:simpleType>
-                                <xs:restriction
-                                    base="string"
-                                >
-                                    <xs:minLength
-                                        value="4"
-                                     />
-                                    <xs:maxLength
-                                        value="32"
-                                     />
-                                </xs:restriction>
-                            </xs:simpleType>
-                        </xs:element>
-                    </xs:sequence>
-                </xs:complexType>
-            </xs:element>
+                ...
+            />
             <xs:element name="nonBroadcast"
                 type="boolean"
                 minOccurs="0"
@@ -126,7 +46,9 @@ The SSIDConfig (WLANProfile) element contains one or more SSIDs for wireless LAN
 </xs:element>
 ```
 
-The **SSIDConfig** element is defined by the [**WLANProfile**](wlan-profileschema-wlanprofile-element.md) element.
+## Parent elements
+
+* [**WLANProfile**](wlan-profileschema-wlanprofile-element.md)
 
 ## Child elements
 
@@ -134,32 +56,26 @@ The **SSIDConfig** element is defined by the [**WLANProfile**](wlan-profileschem
 |-|-|-|
 | [**SSID**](wlan-profileschema-ssid-ssidconfig-element.md) | | Contains an SSID for a wireless LAN.<br/> **Windows XP with SP3 and Wireless LAN API for Windows XP with SP2:** At most one [**SSID**](wlan-profileschema-ssid-ssidconfig-element.md) element can appear in a profile.|
 | [**SSIDPrefix**](wlan-profileschema-ssidprefix-ssidconfig-element.md) | | Contains an SSID prefix for a wireless LAN.|
-| [**nonBroadcast**](wlan-profileschema-nonbroadcast-ssidconfig-element.md) | [boolean](/dotnet/api/system.boolean) | Indicates whether the network broadcasts its SSID.<br/> If [**connectionType**](wlan-profileschema-connectiontype-wlanprofile-element.md) is set to ESS, this value can be either **TRUE** or **FALSE**. The default value is **TRUE** if this element is absent.<br/> If [**connectionType**](wlan-profileschema-connectiontype-wlanprofile-element.md) is set to IBSS, this value must be **FALSE**.<br/> **Windows XP with SP3 and Wireless LAN API for Windows XP with SP2:** This element is not supported.|
+| [**nonBroadcast**](#nonbroadcast) | [boolean](/dotnet/api/system.boolean) | Indicates whether the network broadcasts its SSID.<br/> If [**connectionType**](wlan-profileschema-wlanprofile-element.md#connectiontype) is set to ESS, this value can be either **TRUE** or **FALSE**. The default value is **TRUE** if this element is absent.<br/> If [**connectionType**](wlan-profileschema-wlanprofile-element.md#connectiontype) is set to IBSS, this value must be **FALSE**.<br/> **Windows XP with SP3 and Wireless LAN API for Windows XP with SP2:** This element isn't supported.|
+
+### nonBroadcast
+
+Specifies whether to connect to a hidden network. If a network doesn't broadcast its SSID, then it's known as a hidden network. If multiple SSIDs are set within the profile, then they must all have the same **nonBroadcast** value.
+
+If [**connectionType**](wlan-profileschema-wlanprofile-element.md#connectiontype) is set to **ESS**, then **nonBroadcast** can be either "true" or "false". If this element is not present, the default value is "false".
+
+If [**connectionType**](wlan-profileschema-wlanprofile-element.md#connectiontype) is set to **IBSS**, then **nonBroadcast** must be "false". If **nonBroadcast** isn't present, then the default value is "false".
+
+**Windows XP with SP3 and Wireless LAN API for Windows XP with SP2:** This element isn't supported.
 
 ## Examples
 
-To view sample profiles that use the **SSIDConfig** element, see [Wireless Profile Samples](wireless-profile-samples.md).
+To view sample profiles that use the **SSIDConfig** element, see [Wireless profile samples](wireless-profile-samples.md). To view a sample profile that uses the **nonBroadcast** element, see [Non-Broadcast profile sample](non-broadcast-profile-sample.md).
 
 ## Requirements
 
 | Requirement | Value |
-|-------------------------------------|---------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista, Windows XP with SP3 \[desktop apps only\]<br/> |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                |
-| Redistributable<br/>          | Wireless LAN API for Windows XP with SP2<br/>                 |
-
-## See also
-
-<dl> <dt>
-
-**Definition context of element in schema**
-</dt> <dt>
-
-[**WLANProfile**](wlan-profileschema-wlanprofile-element.md)
-</dt> <dt>
-
-**Possible immediate parent element in schema instance**
-</dt> <dt>
-
-[**WLANProfile**](wlan-profileschema-wlanprofile-element.md)
-</dt> </dl>
+|-|-|
+| Minimum supported client | Windows Vista, Windows XP with SP3 \[desktop apps only\] |
+| Minimum supported server | Windows Server 2008 \[desktop apps only\] |
+| Redistributable | Wireless LAN API for Windows XP with SP2 |

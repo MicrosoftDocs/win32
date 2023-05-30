@@ -2,7 +2,7 @@
 title: SSIDPrefix (SSIDConfig) element
 description: Contains an SSID prefix for a wireless LAN.
 ms.topic: reference
-ms.date: 04/26/2023
+ms.date: 05/25/2023
 topic_type: 
 - APIRef
 - kbSyntax
@@ -61,18 +61,30 @@ The SSIDPrefix (SSIDConfig) element contains an SSID prefix for a wireless LAN.
 </xs:element>
 ```
 
-The **SSIDPrefix** element is defined by the [**SSIDConfig**](wlan-profileschema-ssidconfig-wlanprofile-element.md) element.
+## Parent elements
+
+* [**SSIDConfig (WLANProfile)**](wlan-profileschema-ssidconfig-wlanprofile-element.md)
 
 ## Child elements
 
 | Element | Type | Description |
 |-|-|-|
-| [**hex**](wlan-profileschema-hex-ssidprefix-element.md) | | Contains the SSID prefix of a wireless LAN in hexadecimal format.|
-| [**name**](wlan-profileschema-name-ssidprefix-element.md) | | Contains the SSID prefix for a wireless LAN.|
+| [**hex**](#hex) | | Contains the SSID prefix of a wireless LAN in hexadecimal format.|
+| [**name**](#name) | | Contains the SSID prefix for a wireless LAN.|
+
+### hex
+
+Contains the SSID prefix of a wireless LAN in hexadecimal format.
+
+### name
+
+Contains the SSID prefix of a wireless LAN.
+
+A **name** is case-sensitive.
 
 ## Remarks
 
-Although the [**hex**](wlan-profileschema-hex-ssidprefix-element.md) and [**name**](wlan-profileschema-name-ssidprefix-element.md) elements are optional, at least one **hex** or **name** element must appear as a child of the **SSID** element. If both are present, then **hex** takes precedence over **name**.
+Although the [**hex**](#hex) and [**name**](#name) elements are optional, at least one **hex** or **name** element must appear as a child of the **SSID** element. If both are present, then **hex** takes precedence over **name**.
 
 ## Requirements
 
@@ -81,13 +93,3 @@ Although the [**hex**](wlan-profileschema-hex-ssidprefix-element.md) and [**name
 | Minimum supported client | Windows Vista, Windows XP with SP3 \[desktop apps only\] |
 | Minimum supported server | Windows Server 2008 \[desktop apps only\] |
 | Redistributable | Wireless LAN API for Windows XP with SP2 |
-
-## See also
-
-**Definition context of element in schema**
-
-* [**SSIDConfig**](wlan-profileschema-ssidconfig-wlanprofile-element.md)
-
-**Possible immediate parent element in schema instance**
-
-* [**SSIDConfig (WLANProfile)**](wlan-profileschema-ssidconfig-wlanprofile-element.md)

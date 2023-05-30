@@ -41,6 +41,9 @@ _phContext_ `[in, optional]`
 
 A pointer to a [CtxtHandle](sspi-handles.md) structure. On the first call to **InitializeSecurityContext (Schannel)**, this pointer is `NULL`. On future calls, this parameter is a pointer to the handle to the partially formed context returned in the _phNewContext_ parameter by the first call to this function.
 
+>[!WARNING]
+>Do not use the same context handle in concurrent calls to **InitializeSecurityContext (Schannel)**. The API implementation in the security service providers is not thread-safe.
+
 _pszTargetName_ `[in, optional]`
 
 A pointer to a null-terminated string that uniquely identifies the target server. Schannel uses this value to verify the server certificate. Schannel also uses this value to locate the session in the session cache when reestablishing a connection. The cached session is used only if all of the following conditions are met:
@@ -165,6 +168,7 @@ For multiple-leg [security context](../secgloss/s-gly.md)s, such as mutual authe
 1. The client calls the function as described earlier, but the package returns the SEC\_I\_CONTINUE\_NEEDED success code.
 2. The client sends the output token to the server and waits for the server's reply.
 3. Upon receipt of the server's response, the client calls **InitializeSecurityContext (Schannel)** again, with _phContext_ set to the handle that was returned from the last call. The token received from the server is supplied in the _pInput_ parameter.
+4. Do not use the _phContext_ value in concurrent calls to **InitializeSecurityContext (Schannel)**. The implementation in the security providers is not thread-safe.
 
 If the server has successfully responded, the [security package](../secgloss/s-gly.md) returns SEC\_E\_OK and a secure session is established.
 
