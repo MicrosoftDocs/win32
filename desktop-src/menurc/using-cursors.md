@@ -25,6 +25,7 @@ ms.date: 05/31/2018
 This section discusses the following topics.
 
 -   [Creating a Cursor](#creating-a-cursor)
+-   [Geting a Cursor size](#getting-a-cursor-size)
 -   [Displaying a Cursor](#displaying-a-cursor)
 -   [Confining a Cursor](#confining-a-cursor)
 -   [Using Cursor Functions to Create a Mousetrap](#using-cursor-functions-to-create-a-mousetrap)
@@ -48,12 +49,9 @@ hCurs1 = LoadCursor(NULL, IDC_WAIT);
 hCurs2 = LoadCursor(hinst, MAKEINTRESOURCE(240)); 
 ```
 
-You can also create a custom cursor at run time by using the [**CreateIconIndirect**](/windows/desktop/api/Winuser/nf-winuser-createiconindirect) function, which creates a cursor based on the content of an [**ICONINFO**](/windows/desktop/api/Winuser/ns-winuser-iconinfo) structure. The [**GetIconInfo**](/windows/desktop/api/Winuser/nf-winuser-geticoninfo) function fills this structure with hot spot coordinates and information concerning the associated mask and color.
-
 Applications should implement custom cursors as resources and use [**LoadCursor**](/windows/desktop/api/Winuser/nf-winuser-loadcursora), [**LoadCursorFromFile**](/windows/desktop/api/Winuser/nf-winuser-loadcursorfromfilea), or [**LoadImage**](/windows/desktop/api/Winuser/nf-winuser-loadimagea) rather than create the cursor at run time. Using cursor resources avoids device dependence, simplifies localization, and enables applications to share cursor designs.
 
-The following example uses the [**CreateCursor**](/windows/desktop/api/Winuser/nf-winuser-createcursor) function to create a custom cursor at run time. The example is included here to illustrate how the system interprets cursor masks.
-
+The following example uses the [**CreateCursor**](/windows/desktop/api/Winuser/nf-winuser-createcursor) function to create a custom monochrome cursor at run time. The example is included here to illustrate how the system interprets cursor masks.
 
 ```cpp
 HINSTANCE hinst;            // handle to current instance  
@@ -162,11 +160,7 @@ hCurs3 = CreateCursor( hinst,   // app. instance
              XORmaskCursor );   // XOR mask 
 ```
 
-
-
 To create the cursor, [**CreateCursor**](/windows/desktop/api/Winuser/nf-winuser-createcursor) applies the following truth table to the **AND** and **XOR** masks.
-
-
 
 | AND mask | XOR mask | Display        |
 |----------|----------|----------------|
@@ -175,13 +169,104 @@ To create the cursor, [**CreateCursor**](/windows/desktop/api/Winuser/nf-winuser
 | 1        | 0        | Screen         |
 | 1        | 1        | Reverse screen |
 
-
-
- 
-
 For more information, see [Bitmaps](/windows/desktop/gdi/bitmaps).
 
-Before closing, you must use the [**DestroyCursor**](/windows/desktop/api/Winuser/nf-winuser-destroycursor) function to destroy any cursors you created with [**CreateCursor**](/windows/desktop/api/Winuser/nf-winuser-createcursor). It is not necessary to destroy cursors created by other functions.
+Follow these steps to create an alpha blended cursor or icon at run time:
+- Complete a [**BITMAPV5HEADER**](/windows/win32/api/wingdi/ns-wingdi-bitmapv5header) structure, as in the code example following these steps, to define a 32 bits per pixel (BPP) alpha blended DIB.
+- Call the [**CreateDIBSection**](/windows/win32/api/wingdi/nf-wingdi-createdibsection) function to create a DIB section based on the [**BITMAPV5HEADER**](/windows/win32/api/wingdi/ns-wingdi-bitmapv5header) structure that you completed.
+- Use the bitmap and alpha information that you want for your alpha blended cursor or icon to complete the DIB section.
+- Complete an [**ICONINFO**](/windows/desktop/api/Winuser/ns-winuser-iconinfo) structure.
+- Place an empty monochrome bitmap in the **hbmMask** field, and then place the alpha blended DIB section in the **hbmColor** field.
+- Call the [**CreateIconIndirect**](/windows/desktop/api/Winuser/nf-winuser-createiconindirect) function to create the alpha blended cursor or icon.
+
+The following code demonstrates how to create an alpha blended cursor. You can use the same code to create an alpha blended icon by changing the **fIcon** member of the [**ICONINFO**](/windows/desktop/api/Winuser/ns-winuser-iconinfo) structure to **TRUE**:
+
+```cpp
+HCURSOR CreateAlphaCursor(void)
+{
+    HDC hMemDC;
+    DWORD dwWidth, dwHeight;
+    BITMAPV5HEADER bi;
+    HBITMAP hBitmap, hOldBitmap;
+    void *lpBits;
+    DWORD x,y;
+    HCURSOR hAlphaCursor = NULL;
+
+    dwWidth  = 32;  // width of cursor
+    dwHeight = 32;  // height of cursor
+
+    ZeroMemory(&bi,sizeof(BITMAPV5HEADER));
+    bi.bV5Size           = sizeof(BITMAPV5HEADER);
+    bi.bV5Width           = dwWidth;
+    bi.bV5Height          = dwHeight;
+    bi.bV5Planes = 1;
+    bi.bV5BitCount = 32;
+    bi.bV5Compression = BI_BITFIELDS;
+    // The following mask specification specifies a supported 32 BPP
+    // alpha format for Windows XP.
+    bi.bV5RedMask   =  0x00FF0000;
+    bi.bV5GreenMask =  0x0000FF00;
+    bi.bV5BlueMask  =  0x000000FF;
+    bi.bV5AlphaMask =  0xFF000000; 
+
+    HDC hdc;
+    hdc = GetDC(NULL);
+
+    // Create the DIB section with an alpha channel.
+    hBitmap = CreateDIBSection(hdc, (BITMAPINFO *)&bi, DIB_RGB_COLORS, 
+        (void **)&lpBits, NULL, (DWORD)0);
+
+    hMemDC = CreateCompatibleDC(hdc);
+    ReleaseDC(NULL,hdc);
+
+    // Draw something on the DIB section.
+    hOldBitmap = (HBITMAP)SelectObject(hMemDC, hBitmap);
+    PatBlt(hMemDC,0,0,dwWidth,dwHeight,WHITENESS);
+    SetTextColor(hMemDC,RGB(0,0,0));
+    SetBkMode(hMemDC,TRANSPARENT);
+    TextOut(hMemDC,0,9,"rgba",4);
+    SelectObject(hMemDC, hOldBitmap);
+    DeleteDC(hMemDC);
+
+    // Create an empty mask bitmap.
+    HBITMAP hMonoBitmap = CreateBitmap(dwWidth,dwHeight,1,1,NULL);
+
+    // Set the alpha values for each pixel in the cursor so that
+    // the complete cursor is semi-transparent.
+    DWORD *lpdwPixel;
+    lpdwPixel = (DWORD *)lpBits;
+    for (x=0;x<dwWidth;x++)
+       for (y=0;y<dwHeight;y++)
+       {
+           // Clear the alpha bits
+           *lpdwPixel &= 0x00FFFFFF;
+           // Set the alpha bits to 0x9F (semi-transparent)
+           *lpdwPixel |= 0x9F000000;
+           lpdwPixel++;
+       }
+
+    ICONINFO ii;
+    ii.fIcon = FALSE;  // Change fIcon to TRUE to create an alpha icon
+    ii.xHotspot = 0;
+    ii.yHotspot = 0;
+    ii.hbmMask = hMonoBitmap;
+    ii.hbmColor = hBitmap;
+
+    // Create the alpha cursor with the alpha DIB section.
+    hAlphaCursor = CreateIconIndirect(&ii);
+
+    DeleteObject(hBitmap);          
+    DeleteObject(hMonoBitmap); 
+
+    return hAlphaCursor;
+}
+```
+
+Before closing, you must use the [**DestroyCursor**](/windows/desktop/api/Winuser/nf-winuser-destroycursor) function to destroy any cursors you created with [**CreateCursor**](/windows/desktop/api/Winuser/nf-winuser-createcursor) or [**CreateIconIndirect**](/windows/desktop/api/Winuser/nf-winuser-createiconindirect). It is not necessary to destroy cursors created by other functions.
+
+## Geting a Cursor size
+
+See [Getting the Icon size](/windows/win32/menurc/using-icons#getting-the-icon-size).
 
 ## Displaying a Cursor
 

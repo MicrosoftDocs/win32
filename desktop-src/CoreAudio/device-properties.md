@@ -98,9 +98,14 @@ void PrintEndpointNames()
                        PKEY_Device_FriendlyName, &varName);
         EXIT_ON_ERROR(hr)
 
-        // Print endpoint friendly name and endpoint ID.
-        printf("Endpoint %d: \"%S\" (%S)\n",
-               i, varName.pwszVal, pwszID);
+        // GetValue succeeds and returns S_OK if PKEY_Device_FriendlyName is not found.
+        // In this case vartName.vt is set to VT_EMPTY.      
+        if (varName.vt != VT_EMPTY)
+        {
+            // Print endpoint friendly name and endpoint ID.
+            printf("Endpoint %d: \"%S\" (%S)\n", 
+                    i, varName.pwszVal, pwszID);
+        }
 
         CoTaskMemFree(pwszID);
         pwszID = NULL;

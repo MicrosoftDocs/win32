@@ -33,7 +33,7 @@ This class implements the following interfaces.
 -   [**IMsRdpClient4**](imsrdpclient4.md)
 -   [**IMsRdpClient3**](imsrdpclient3.md)
 -   [**IMsRdpClient2**](imsrdpclient2.md)
--   [**IMsRdpClient**](imsrdpclientshell2.md)
+-   [**IMsRdpClient**](imsrdpclient-interface.md)
 -   [**IMsTscAx**](imstscax-interface.md)
 -   [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch)
 -   [**IMsTscAxEvents**](imstscaxevents-interface.md)

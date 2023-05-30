@@ -60,6 +60,12 @@ struct DSTORAGE_REQUEST_OPTIONS {
 
 A [DSTORAGE_COMPRESSION_FORMAT](ne-dstorage-dstorage_compression_format.md) enum value indicating how the data is compressed.
 
+`Reserved1`
+
+Type: **UINT8[7]**
+
+Reserved fields. Must be 0.
+
 `SourceType`
 
 A [DSTORAGE_REQUEST_SOURCE_TYPE](ne-dstorage-dstorage_request_source_type.md) enum value indicating whether the source of the request is a file or a block of memory.

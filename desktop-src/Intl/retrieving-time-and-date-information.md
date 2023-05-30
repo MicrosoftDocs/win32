@@ -29,7 +29,7 @@ Examples of time markers are "AM" and "PM" for English (United States) and "de."
 
 **Remove Separators Preceding Minutes and Seconds**
 
-Your application can call [**GetTimeFormat**](/windows/desktop/api/datetimeapi/nf-datetimeapi-gettimeformata) or [**GetTimeFormatEx**](/windows/desktop/api/datetimeapi/nf-datetimeapi-gettimeformatex) with TIME\_NOMINUTESORSECONDS or TIME\_NOSECONDS specified to remove the separators preceding the minutes and/or seconds elements.
+Your application can call [**GetTimeFormat**](/windows/desktop/api/datetimeapi/nf-datetimeapi-gettimeformata) or [**GetTimeFormatEx**](/windows/desktop/api/datetimeapi/nf-datetimeapi-gettimeformatex) with TIME\_NOMINUTESORSECONDS or TIME\_NOSECONDS specified to remove the separators following the minutes and/or seconds elements.
 
 **Use 24-Hour Time Format**
 

@@ -12,64 +12,33 @@ The Windows SDK contains a command-line utility, Sc.exe, that can be used to con
 
 ## Syntax
 
-**sc** \[*ServerName*\] *Command* \[*ServiceName*\]\[*option1*\]\[*option2*\]...
+```
+sc.exe [<servername>] [<command>] [<servicename>] [<option1>] [<option2>] ...
+```
 
-<dl> <dt>
+To see the available commands, type:
 
-<span id="ServerName"></span><span id="servername"></span><span id="SERVERNAME"></span>*ServerName*
-</dt> <dd>
+```
+sc
+```
 
-Optional server name. Use the form \\\\*ServerName*.
+To see the syntax for a specific command, include a command. Here's an example:
 
-</dd> <dt>
+```
+sc start
+```
 
-<span id="Command"></span><span id="command"></span><span id="COMMAND"></span>*Command*
-</dt> <dd>
+## Parameters
 
-One of the following commands:
-
-<dl> <dd>continue</dd> <dd>control</dd> <dd>interrogate</dd> <dd>pause</dd> <dd>start</dd> <dd>stop</dd> </dl> </dd> <dt>
-
-<span id="ServiceName"></span><span id="servicename"></span><span id="SERVICENAME"></span>*ServiceName*
-</dt> <dd>
-
-The name of the service, as specified when it was installed.
-
-</dd> <dt>
-
-<span id="option1"></span><span id="OPTION1"></span>*option1*
-</dt> <dd>
-
-An optional parameter.
-
-</dd> <dt>
-
-<span id="option2"></span><span id="OPTION2"></span>*option2*
-</dt> <dd>
-
-An optional parameter.
-
-</dd> </dl>
-
-## Remarks
-
-To see complete syntax for a command, use the following command:
-
-**sc** *Command*
+|Parameter|Description|
+|---------|-----------|
+| `<servername>` | Specifies the name of the remote server on which the service is located. The name must use the Universal Naming Convention (UNC) format (for example, \\myserver). To run SC.exe locally, don't use this parameter. |
+| `<command>` | One of the following commands: <dl> <dd>continue</dd> <dd>control</dd> <dd>interrogate</dd> <dd>pause</dd> <dd>start</dd> <dd>stop</dd> </dl> |
+| `<servicename>` | The name of the service, as specified when it was installed. |
+| `<option1>` | An optional parameter. |
+| `<option2>` | An optional parameter. |
 
 ## Related topics
 
-<dl> <dt>
-
-[Service Control Requests](service-control-requests.md)
-</dt> <dt>
-
-[Service Startup](service-startup.md)
-</dt> </dl>
-
- 
-
- 
-
-
-
+* [Service control requests](service-control-requests.md)
+* [Service startup](service-startup.md)

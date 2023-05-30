@@ -62,7 +62,7 @@ Beginning with ICM version 2.0, applications that utilize WCS can embed profiles
 
 Images that use the sRGB color space do not need an embedded color profile. Because they have no embedded profile, sRGB-based images are smaller and more readily transferable across data channels with limited bandwidth.
 
-Applications should set the **LCS\_sRGB** flag in the image's bitmap header to indicate that the image uses the sRGB color space. For details, see [Windows Bitmap Header Structures](using-structures-in-wcs-1-0.md) and [**LOGCOLORSPACE**](/windows/desktop/api/Wingdi/ns-wingdi-taglogcolorspacea).
+Applications should set the **LCS\_sRGB** flag in the image's bitmap header to indicate that the image uses the sRGB color space. For details, see [Windows Bitmap Header Structures](using-structures-in-wcs-1-0.md) and [LOGCOLORSPACE](/windows/win32/api/wingdi/ns-wingdi-logcolorspacea).
 
  
 

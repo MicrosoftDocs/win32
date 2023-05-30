@@ -83,12 +83,10 @@ Assembly manifests can be installed in three locations:
 
 ## File Name Syntax
 
-The name of an assembly manifest is any valid file name followed by .manifest.
+The name of an assembly manifest is any valid file name followed by `.manifest`.
 
-For example, an assembly manifest that refers to myassembly would use the following file name syntax. You can omit the <*resource ID*> field if the assembly manifest is being installed as a separate file or if the resource ID is 1.
-
-<dl> myassembly.\<resource ID\>.manifest  
-</dl>
+For example, an assembly manifest that refers to myassembly would use the following file name syntax: `myassembly.<resource ID>.manifest`.
+You can omit the `<resource ID>` field if the assembly manifest is being installed as a separate file or if the resource ID is 1.
 
 > [!Note]  
 > Because of the way side-by-side searches for private assemblies, the following naming restrictions apply when packaging a DLL as a private assembly. A recommended way of doing this is to put the assembly manifest in the DLL as a resource. In this case, the resource ID must equal 1 and the name of the private assembly may be the same as the name of the DLL. For example, if the name of the DLL is Microsoft.Windows.mysample.dll, the value of the name attribute used in the **assemblyIdentity** element of the manifest may also be Microsoft.Windows.mysample. An alternate way is to put the assembly manifest in a separate file. In this case, the name of the assembly and its manifest must be different than the name of the DLL. For example, Microsoft.Windows.mysampleAsm, Microsoft.Windows.mysampleAsm.manifest, and Microsoft.Windows.Mysample.dll. For more information about how side-by-side searches for private assemblies, see [Assembly Searching Sequence](assembly-searching-sequence.md).

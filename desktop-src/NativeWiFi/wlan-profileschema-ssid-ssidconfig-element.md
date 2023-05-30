@@ -1,9 +1,9 @@
 ---
+title: SSID (SSIDConfig) element
 description: Contains an SSID for a wireless LAN.
-ms.assetid: fb3466c4-a586-424b-96e2-ba287c99a1d9
-title: SSID (SSIDConfig) Element
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 05/25/2023
+ms.assetid: fb3466c4-a586-424b-96e2-ba287c99a1d9
 topic_type: 
 - APIRef
 - kbSyntax
@@ -14,7 +14,7 @@ api_type:
 api_location: 
 ---
 
-# SSID (SSIDConfig) Element
+# SSID (SSIDConfig) element
 
 The SSID (SSIDConfig) element contains an SSID for a wireless LAN.
 
@@ -69,63 +69,45 @@ The SSID (SSIDConfig) element contains an SSID for a wireless LAN.
 </xs:element>
 ```
 
-The **SSID** element is defined by the [**SSIDConfig**](wlan-profileschema-ssidconfig-wlanprofile-element.md) element.
+## Parent elements
+
+* [**SSIDConfig (WLANProfile)**](wlan-profileschema-ssidconfig-wlanprofile-element.md)
 
 ## Child elements
 
+| Element | Type | Description |
+|-|-|-|
+| [**hex**](#hex) | | Contains the SSID of a wireless LAN in hexadecimal format.|
+| [**name**](#name) | | Contains the SSID for a wireless LAN.|
 
+### hex
 
-| Element                                              | Type | Description                                                           |
-|------------------------------------------------------|------|-----------------------------------------------------------------------|
-| [**hex**](wlan-profileschema-hex-ssid-element.md)   |      | Contains the SSID of a wireless LAN in hexadecimal format.<br/> |
-| [**name**](wlan-profileschema-name-ssid-element.md) |      | Contains the SSID for a wireless LAN.<br/>                      |
+Contains the SSID of a wireless LAN in hexadecimal format.
 
+### name
 
+Contains the SSID of a wireless LAN.
+
+A **name** is case-sensitive.
+
+**Windows XP with SP3 and Wireless LAN API for Windows XP with SP2:** XML escape characters, such as &, are not displayed. Avoid using XML escape characters in SSID names for profiles deployed on Windows XP with SP3 and Wireless LAN API for Windows XP with SP2.
 
 ## Remarks
 
-Although the [**hex**](wlan-profileschema-hex-ssid-element.md) and [**name**](wlan-profileschema-name-ssid-element.md) elements are optional, at least one **hex** or [**name**](wlan-profileschema-name-ssid-element.md) element must appear as a child of the **SSID** element.
+Although the [**hex**](#hex) and [**name**](#name) elements are optional, at least one **hex** or **name** element must appear as a child of the **SSID** element.
 
-When profile information is converted to an SSID, the [**hex**](wlan-profileschema-hex-ssid-element.md) element is converted to the SSID (if present) and the [**name**](wlan-profileschema-name-ssid-element.md) element is ignored. If the **hex** element is not present, the [**name**](wlan-profileschema-name-ssid-element.md) element is converted to an SSID using Unicode to ASCII conversion.
+When profile information is converted to an SSID, the **hex** element is converted to the SSID (if present), and the **name** element is ignored. If the **hex** element isn't present, then the **name** element is converted to an SSID using Unicode-to-ASCII conversion.
 
-When an SSID is stored in a profile, the [**hex**](wlan-profileschema-hex-ssid-element.md) element is always generated. The [**name**](wlan-profileschema-name-ssid-element.md) element is only generated if the both the ASCII to Unicode conversion of the SSID and the XML profile generation are successful. Some information from the original SSID may be lost when it is converted to a [**name**](wlan-profileschema-name-ssid-element.md).
+When an SSID is stored in a profile, the **hex** element is always generated. The **name** element is generated only if the both the ASCII-to-Unicode conversion of the SSID and the XML profile generation are successful. Some information from the original SSID might be lost when it's converted to a **name**.
 
 ## Examples
 
-To view sample profiles that use the **SSID** element, see [Wireless Profile Samples](wireless-profile-samples.md).
+To view sample profiles that use the **SSID** element and its child elements, see [Wireless profile samples](wireless-profile-samples.md). To view a sample profile that uses the **hex** element, see [FIPS profile sample](fips-profile-sample.md).
 
 ## Requirements
 
-
-
 | Requirement | Value |
-|-------------------------------------|---------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista, Windows XP with SP3 \[desktop apps only\]<br/> |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                |
-| Redistributable<br/>          | Wireless LAN API for Windows XP with SP2<br/>                 |
-
-
-
-## See also
-
-<dl> <dt>
-
-**Definition context of element in schema**
-</dt> <dt>
-
-[**SSIDConfig**](wlan-profileschema-ssidconfig-wlanprofile-element.md)
-</dt> <dt>
-
-**Possible immediate parent element in schema instance**
-</dt> <dt>
-
-[**SSIDConfig (WLANProfile)**](wlan-profileschema-ssidconfig-wlanprofile-element.md)
-</dt> </dl>
-
- 
-
- 
-
-
-
-
+|-|-|
+| Minimum supported client | Windows Vista, Windows XP with SP3 \[desktop apps only\] |
+| Minimum supported server | Windows Server 2008 \[desktop apps only\] |
+| Redistributable | Wireless LAN API for Windows XP with SP2 |

@@ -1,9 +1,9 @@
 ---
+title: OUIHeader (IHV) element
 description: Identifies the IHV.
-ms.assetid: a99c231c-afd7-44e6-81af-3d49ffef8714
-title: OUIHeader (IHV) Element
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 05/25/2023
+ms.assetid: a99c231c-afd7-44e6-81af-3d49ffef8714
 topic_type: 
 - APIRef
 - kbSyntax
@@ -14,11 +14,11 @@ api_type:
 api_location: 
 ---
 
-# OUIHeader (IHV) Element
+# OUIHeader (IHV) element
 
 The OUIHeader (IHV) element identifies the IHV.
 
-**Windows XP with SP3 and Wireless LAN API for Windows XP with SP2:** This element is not supported.
+**Windows XP with SP3 and Wireless LAN API for Windows XP with SP2:** This element isn't supported.
 
 ``` syntax
 <xs:element name="OUIHeader">
@@ -57,50 +57,32 @@ The OUIHeader (IHV) element identifies the IHV.
 </xs:element>
 ```
 
-The element is defined by the [**IHV**](wlan-profileschema-ihv-wlanprofile-element.md) element.
+## Parent elements
+
+* [**IHV (WLANProfile)**](wlan-profileschema-ihv-wlanprofile-element.md)
 
 ## Child elements
 
+| Element | Type | Description |
+|-|-|-|
+| [**OUI**](#oui) | | Contains a 3 byte hexBinary that identifies the IHV. |
+| [**type**](#type) | | Contains a 1 byte hexBinary that is used to differentiate NICs by the same IHV. |
 
+### OUI
 
-| Element                                                   | Type | Description                                                                                |
-|-----------------------------------------------------------|------|--------------------------------------------------------------------------------------------|
-| [**OUI**](wlan-profileschema-oui-ouiheader-element.md)   |      | Contains a 3 byte hexBinary that identifies the IHV.<br/>                            |
-| [**type**](wlan-profileschema-type-ouiheader-element.md) |      | Contains a 1 byte hexBinary that is used to differentiate NICs by the same IHV.<br/> |
+Contains a 3-byte hexBinary that identifies the IHV.
 
+**Windows XP with SP3 and Wireless LAN API for Windows XP with SP2:** This element isn't supported.
 
+### type
+
+Contains a 1-byte hexBinary that's used to differentiate between NICs made by the same IHV.
+
+**Windows XP with SP3 and Wireless LAN API for Windows XP with SP2:** This element isn't supported.
 
 ## Requirements
 
-
-
 | Requirement | Value |
-|-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
-
-
-
-## See also
-
-<dl> <dt>
-
-**Definition context of element in schema**
-</dt> <dt>
-
-[**IHV**](wlan-profileschema-ihv-wlanprofile-element.md)
-</dt> <dt>
-
-**Possible immediate parent element in schema instance**
-</dt> <dt>
-
-[**IHV (WLANProfile)**](wlan-profileschema-ihv-wlanprofile-element.md)
-</dt> </dl>
-
- 
-
- 
-
-
-
-
+|-|-|
+| Minimum supported client | Windows Vista \[desktop apps only\] |
+| Minimum supported server | Windows Server 2008 \[desktop apps only\] |

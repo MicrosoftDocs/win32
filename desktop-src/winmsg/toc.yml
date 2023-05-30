@@ -503,6 +503,8 @@
           href: /windows/desktop/api/winuser/nf-winuser-setmessageextrainfo
         - name: "TranslateMessage"
           href: /windows/desktop/api/winuser/nf-winuser-translatemessage
+        - name: "TranslateMessageEx"
+          href: translatemessageex.md
         - name: "WaitMessage"
           href: /windows/desktop/api/winuser/nf-winuser-waitmessage
       - name: "Message Structures"

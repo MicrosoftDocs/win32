@@ -35,10 +35,7 @@ The current version of the Windows Media Video 9 Advanced Profile codec is based
 
 [Working with Video](workingwithvideo.md)
 </dt> 
-<dt>
-
-[Using the Advanced Settings of the Windows Media Video 9 Advanced Profile Codec](https://www.microsoft.com/windows/windowsmedia/howto/articles/codecadvancedsettings.aspx)
-</dt> </dl>
+ </dl>
 
  
 

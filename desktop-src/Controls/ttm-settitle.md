@@ -29,7 +29,7 @@ Adds a standard icon and title string to a tooltip.
 *wParam* 
 </dt> <dd>
 
-Set *wParam* to one of the following values to specify the icon to be displayed. As of Windows XP SP2 and later, this parameter can also contain an **HICON** value. Any value greater than TTI\_ERROR is assumed to be an **HICON**.
+Set *wParam* to one of the following values to specify the icon to be displayed. As of Windows Vista and later, this parameter can also contain an **HICON** value. Any value greater than TTI\_ERROR\_LARGE is assumed to be an **HICON**.
 
 
 

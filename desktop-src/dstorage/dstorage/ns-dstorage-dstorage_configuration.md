@@ -73,7 +73,7 @@ Forces the use of the IO mapping layer, even when running on an operating system
 
 `DisableBypassIO`
 
-Disables the use of the bypass IO optimization, even if it is available. This might be useful during development, but should be set to `FALSE` for release. Default == `FALSE`.
+Disables the use of the bypass IO optimization, even if it is available. This might be useful during development, but should be set to `FALSE` for release (but see [DSTORAGE_CONFIGURATION1::DisableBypassIO](/windows/win32/dstorage/dstorage/ns-dstorage-dstorage_configuration1)). Default == `FALSE`.
 
 `DisableTelemetry`
 

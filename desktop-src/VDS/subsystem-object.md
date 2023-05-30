@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Subsystem Object
 
-\[Beginning with Windows 8 and Windows Server 2012, the [Virtual Disk Service](virtual-disk-service-portal.md) COM interface is superseded by the [Windows Storage Management API](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal).\]
+\[Beginning with Windows 8 and Windows Server 2012, the [Virtual Disk Service](virtual-disk-service-portal.md) COM interface is superseded by the [Windows Storage Management API](/windows-hardware/drivers/storage/windows-storage-management-api-portal).\]
 
 A subsystem object models a storage subsystem. A subsystem is either a RAID enclosure or a PCI RAID card. A single host computer can be connected to any number of subsystems. Each subsystem is managed by exactly one hardware provider. In a SAN configuration, the subsystem class represents a SAN storage enclosure.
 

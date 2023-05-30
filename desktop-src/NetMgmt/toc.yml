@@ -430,6 +430,8 @@
         href: ./odj-op_join_prov2_part.md
       - name: "OP_JOIN_PROV3_PART"
         href: ./odj-op_join_prov3_part.md
+      - name: "OP_JOIN_PROV4_PART"
+        href: ./odj-op_join_prov4_part.md
       - name: "OP_PACKAGE"
         href: ./odj-op_package.md
       - name: "OP_PACKAGE_COLLECTION"

@@ -348,8 +348,24 @@
     - name: "Proof of possession cookie API"
       href: proof-of-possession-cookie-api.md
       items: 
+      - name: "FreeProofOfPossessionCookieInfoArray function"
+        href: /windows/win32/api/proofofpossessioncookieinfo/nf-proofofpossessioncookieinfo-freeproofofpossessioncookieinfoarray
       - name: "IProofOfPossessionCookieInfoManager"
-        href: /windows/win32/api/ProofOfPossessionCookieInfo/nn-proofofpossessioncookieinfo-iproofofpossessioncookieinfomanager
+        href: /windows/win32/api/proofofpossessioncookieinfo/nn-proofofpossessioncookieinfo-iproofofpossessioncookieinfomanager
         items: 
-        - name: "GetCookieInfoForUri method"
-          href: /windows/win32/api/ProofOfPossessionCookieInfo/nf-proofofpossessioncookieinfo-iproofofpossessioncookieinfomanager-getcookieinfoforuri
+          - name: "GetCookieInfoForUri method"
+            href: /windows/win32/api/proofofpossessioncookieinfo/nf-proofofpossessioncookieinfo-iproofofpossessioncookieinfomanager-getcookieinfoforuri
+      - name: "IProofOfPossessionCookieInfoManager2"
+        href: /windows/win32/api/proofofpossessioncookieinfo/nn-proofofpossessioncookieinfo-iproofofpossessioncookieinfomanager2
+        items: 
+        - name: "GetCookieInfoWithUriForAccount method"
+          href: /windows/win32/api/proofofpossessioncookieinfo/nf-proofofpossessioncookieinfo-iproofofpossessioncookieinfomanager2-getcookieinfowithuriforaccount
+      - name: "IProofOfPossessionCookieInfoManager4"
+        href: /windows/win32/wininet/proofofpossessioncookieinfo/nn-proofofpossessioncookieinfo-iproofofpossessioncookieinfomanager4
+        items: 
+        - name: "GetCookieInfoForUriWithUserAgentId method"
+          href: /windows/win32/wininet/proofofpossessioncookieinfo/nf-proofofpossessioncookieinfo-getcookieinfoforuriwithuseragentid
+        - name: "GetCookieInfoWithUriAndUserAgentIdForAccount method"
+          href: /windows/win32/wininet/proofofpossessioncookieinfo/nf-proofofpossessioncookieinfo-getcookieinfowithurianduseragentidforaccount
+      - name: "ProofOfPossessionCookieInfo structure"
+        href: /windows/win32/api/proofofpossessioncookieinfo/ns-proofofpossessioncookieinfo-proofofpossessioncookieinfo

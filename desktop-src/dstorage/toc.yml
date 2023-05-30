@@ -19,6 +19,8 @@
           href: /windows/win32/dstorage/dstorage/ne-dstorage-dstorage_compression
         - name: "DSTORAGE_COMPRESSION_FORMAT"
           href: /windows/win32/dstorage/dstorage/ne-dstorage-dstorage_compression_format
+        - name: "DSTORAGE_COMPRESSION_SUPPORT"
+          href: /windows/win32/dstorage/dstorage/ne-dstorage-dstorage_compression_support
         - name: "DSTORAGE_CUSTOM_DECOMPRESSION_FLAGS"
           href: /windows/win32/dstorage/dstorage/ne-dstorage-dstorage_custom_decompression_flags
         - name: "DSTORAGE_DEBUG"
@@ -42,6 +44,8 @@
           href: /windows/win32/dstorage/dstorage/nf-dstorage-dstoragegetfactory
         - name: "DStorageSetConfiguration"
           href: /windows/win32/dstorage/dstorage/nf-dstorage-dstoragesetconfiguration
+        - name: "DStorageSetConfiguration1"
+          href: /windows/win32/dstorage/dstorage/nf-dstorage-dstoragesetconfiguration1
       - name: "DirectStorage interfaces"
         href: dstorage-interfaces.md
         items: 
@@ -114,6 +118,11 @@
           items: 
           - name: "EnqeueSetEvent"
             href: /windows/win32/dstorage/dstorage/nf-dstorage-idstoragequeue1-enqueuesetevent
+        - name: "IDStorageQueue2"
+          href: /windows/win32/dstorage/dstorage/nn-dstorage-idstoragequeue2
+          items: 
+          - name: "GetCompressionSupport"
+            href: /windows/win32/dstorage/dstorage/nn-dstorage-idstoragequeue2-getcompressionsupport
         - name: "IDStorageStatusArray"
           href: /windows/win32/dstorage/dstorage/nn-dstorage-idstoragestatusarray
           items: 
@@ -126,6 +135,8 @@
         items: 
         - name: "DSTORAGE_CONFIGURATION structure"
           href: /windows/win32/dstorage/dstorage/ns-dstorage-dstorage_configuration
+        - name: "DSTORAGE_CONFIGURATION1 structure"
+          href: /windows/win32/dstorage/dstorage/ns-dstorage-dstorage_configuration1
         - name: "DSTORAGE_CUSTOM_DECOMPRESSION_REQUEST structure"
           href: /windows/win32/dstorage/dstorage/ns-dstorage-dstorage_custom_decompression_request
         - name: "DSTORAGE_CUSTOM_DECOMPRESSION_RESULT structure"

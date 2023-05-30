@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Controller Port Object
 
-\[Beginning with Windows 8 and Windows Server 2012, the [Virtual Disk Service](virtual-disk-service-portal.md) COM interface is superseded by the [Windows Storage Management API](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal).\]
+\[Beginning with Windows 8 and Windows Server 2012, the [Virtual Disk Service](virtual-disk-service-portal.md) COM interface is superseded by the [Windows Storage Management API](/windows-hardware/drivers/storage/windows-storage-management-api-portal).\]
 
 A controller port object models a controller port in a subsystem. Host computers can write to and read from LUNs through controller ports. Controller ports are contained by controllers in a subsystem. In VDS 1.1 and VDS2.0, each of a subsystem's controller ports is set to either active or inactive in relation to each of the LUNs the subsystem surfaces. A single controller port, then, can be simultaneously set to active for one LUN and inactive for others. A controller port that is active for a given LUN carries responsibility for handling input to and output from the LUN.
 

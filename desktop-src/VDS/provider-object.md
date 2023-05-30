@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Provider Object
 
-\[Beginning with Windows 8 and Windows Server 2012, the [Virtual Disk Service](virtual-disk-service-portal.md) COM interface is superseded by the [Windows Storage Management API](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal).\]
+\[Beginning with Windows 8 and Windows Server 2012, the [Virtual Disk Service](virtual-disk-service-portal.md) COM interface is superseded by the [Windows Storage Management API](/windows-hardware/drivers/storage/windows-storage-management-api-portal).\]
 
 The provider object models the program that is responsible for storage management. This object provides access to both software provider and hardware provider functionality. Provider programs execute operations on software devices (volumes and disks) and hardware devices (storage subsystems and arrays of drives behind RAID controllers).
 

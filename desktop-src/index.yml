@@ -29,8 +29,8 @@ landingContent:
         links:
           - text: Development tools
             url: https://developer.microsoft.com/windows/downloads
-          - text: Windows code samples
-            url: https://developer.microsoft.com/windows/samples
+          - text: Windows sample apps
+            url: /windows/apps/get-started/samples
 
   # Card
   - title: Develop
@@ -59,8 +59,8 @@ landingContent:
         links:
           - text: Windows Desktop Application Program
             url: /windows/desktop/appxpkg/windows-desktop-application-program
-          - text: Stay compatible with Windows 10
-            url: https://developer.microsoft.com/windows/desktop/app-compatibility
+          - text: Stay compatible with Windows
+            url: /windows/apps/get-started/windows-developer-faq#compatibility
           - text: Windows developer support
             url: https://developer.microsoft.com/windows/support
           - text: "@WindowsDocs on Twitter"

@@ -20,6 +20,7 @@ The following interfaces are declared in `dstorage.h` for DirectStorage-based pr
 | [IDStorageFile](/windows/win32/dstorage/dstorage/nn-dstorage-idstoragefile) |
 | [IDStorageQueue](/windows/win32/dstorage/dstorage/nn-dstorage-idstoragequeue) |
 | [IDStorageQueue1](/windows/win32/dstorage/dstorage/nn-dstorage-idstoragequeue1) |
+| [IDStorageQueue2](/windows/win32/dstorage/dstorage/nn-dstorage-idstoragequeue2) |
 | [IDStorageStatusArray](/windows/win32/dstorage/dstorage/nn-dstorage-idstoragestatusarray) |
 
 ## Related topics

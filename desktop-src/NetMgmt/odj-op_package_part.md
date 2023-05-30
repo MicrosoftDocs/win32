@@ -34,6 +34,7 @@ Identifies the serialized structure contained in Part per the following table:
 |GUID_JOIN_PROVIDER {631c7621-5289-4321-bc9e-80f843f868c3}|Contains a serialized ODJ_WIN7_BLOB structure.|
 |GUID_JOIN_PROVIDER2 {57BFC56B-52F9-480C-ADCB-91B3F8A82317}|Contains a serialized OP_JOIN_PROV2_PART structure.|
 |GUID_JOIN_PROVIDER3 {FC0CCF25-7FFA-474A-8611-69FFE269645F}|Contains a serialized OP_JOIN_PROV3_PART structure.|
+|GUID_JOIN_PROVIDER4 {4A08716A-6710-4647-8211-FDBB0B03F60B}|Contains a serialized OP_JOIN_PROV4_PART structure.|
 |GUID_CERT_PROVIDER	{9c0971e9-832f-4873-8e87-ef1419d4781e}|Contains a serialized OP_CERT_PART structure.|
 |GUID_POLICY_PROVIDER {68fb602a-0c09-48ce-b75f-07b7bd58f7ec}|Contains a serialized OP_POLICY_PART structure.|
 

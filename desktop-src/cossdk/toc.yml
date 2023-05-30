@@ -1040,6 +1040,8 @@
           href: /windows/desktop/api/combaseapi/nf-combaseapi-cogetdefaultcontext
         - name: "CoLeaveServiceDomain"
           href: /windows/desktop/api/ComSvcs/nf-comsvcs-coleaveservicedomain
+        - name: "GetComPlusPackageInstallStatus"
+          href: getcompluspackageinstallstatus.md
         - name: "GetDispenserManager"
           href: /windows/desktop/api/MtxDM/nf-mtxdm-getdispensermanager
         - name: "GetManagedExtensions"
@@ -1048,6 +1050,8 @@
           href: /windows/desktop/api/ComSvcs/nf-comsvcs-getobjectcontext
         - name: "MTSCreateActivity"
           href: /windows/desktop/api/ComSvcs/nf-comsvcs-mtscreateactivity
+        - name: "SetComPlusPackageInstallStatus"
+          href: setcompluspackageinstallstatus.md
         - name: "RecycleSurrogate"
           href: /windows/desktop/api/ComSvcs/nf-comsvcs-recyclesurrogate
         - name: "SafeRef"

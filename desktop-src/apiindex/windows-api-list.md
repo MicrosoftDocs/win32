@@ -114,7 +114,7 @@ The Windows UI API creates and uses windows to display output, prompt for user i
 -   [Transactional NTFS](../fileio/transactional-ntfs-reference.md)
 -   [Volume Management](../fileio/volume-management-reference.md)
 -   [Virtual Hard Disk (VHD)](/previous-versions/windows/desktop/legacy/dd323700(v=vs.85))
--   [Windows Storage Management](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal)
+-   [Windows Storage Management](/windows-hardware/drivers/storage/windows-storage-management-api-portal)
 -   [Windows Data Access Components](/previous-versions/windows/desktop/legacy/aa968814(v=vs.85))
     -   [Microsoft Open Database Connectivity (ODBC)](/sql/odbc/reference/syntax/odbc-reference)
     -   [Microsoft OLE DB](/previous-versions/windows/desktop/ms718050(v=vs.85))
@@ -349,7 +349,7 @@ The following are technologies and APIs that are outdated or have been replaced 
 -   [Microsoft UDDI SDK](/previous-versions/windows/desktop/aa966237(v=bts.10)) is now included with [Microsoft BizTalk Server](/previous-versions/bb905520(v=msdn.10)).
 -   [Network Dynamic Data Exchange (DDE)](../ipc/network-dde-reference.md)
 -   [Remote Installation Service](/previous-versions/windows/it-pro/windows-server-2003/cc786442(v=ws.10)): Use [Windows Deployment Services](../wds/windows-deployment-services-portal.md) instead.
--   [Virtual Disk Service (VDS)](../vds/vds-reference.md): Use [Windows Storage Management](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal) instead.
+-   [Virtual Disk Service (VDS)](../vds/vds-reference.md): Use [Windows Storage Management](/windows-hardware/drivers/storage/windows-storage-management-api-portal) instead.
 -   Terminal Services: Use [Remote Desktop Services](../termserv/terminal-services-reference.md).
 -   [Windows Media Rights Manager](/previous-versions//bb614742(v=vs.85))
 -   [Windows Messaging (MAPI)](/previous-versions/windows/desktop/windowsmapi/mapi-stub-library-and-simple-mapi): Use [Office MAPI](/previous-versions/office/developer/office-2007/cc765775(v=office.12)) instead.

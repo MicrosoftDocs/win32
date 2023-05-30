@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Controller Object
 
-\[Beginning with Windows 8 and Windows Server 2012, the [Virtual Disk Service](virtual-disk-service-portal.md) COM interface is superseded by the [Windows Storage Management API](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal).\]
+\[Beginning with Windows 8 and Windows Server 2012, the [Virtual Disk Service](virtual-disk-service-portal.md) COM interface is superseded by the [Windows Storage Management API](/windows-hardware/drivers/storage/windows-storage-management-api-portal).\]
 
 A controller object models a controller in a subsystem. Controllers are contained by subsystems, and each controller has one or more controller ports through which the host computer can write to and read from LUNs. A single controller can be simultaneously set to active for one LUN and inactive for others. A controller that is active for a specified LUN carries the responsibility for handling input to and output from the LUN. The following figure illustrates this idea.
 
