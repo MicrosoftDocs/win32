@@ -59,7 +59,7 @@ The following identifiers are used to identify standard encryption algorithms in
 
 To use **BCRYPT\_ECDSA\_ALGORITM** or **BCRYPT\_ECDH\_ALGORITHM**, call [**BCryptOpenAlgorithmProvider**](/windows/desktop/api/Bcrypt/nf-bcrypt-bcryptopenalgorithmprovider) with either **BCRYPT\_ECDSA\_ALGORITHM** or **BCRYPT\_ECDH\_ALGORITHM** as the *pszAlgId*. Then use [**BCryptSetProperty**](/windows/desktop/api/Bcrypt/nf-bcrypt-bcryptsetproperty) to set the **BCRYPT\_ECC\_CURVE\_NAME** property to a named algorithm listed in CNG Named Curves.
 
-To provider user-defined elliptic curve parameters directly, use [**BCryptSetProperty**](/windows/desktop/api/Bcrypt/nf-bcrypt-bcryptsetproperty) to set the **BCRYPT\_ECC\_PARAMETERS** property. Download the [Windows 10 Cryptographic Provider Developer Kit (CPDK)](https://www.microsoft.com/download/details.aspx?id=30688) for more information.
+To provide user-defined elliptic curve parameters directly, use [**BCryptSetProperty**](/windows/desktop/api/Bcrypt/nf-bcrypt-bcryptsetproperty) to set the **BCRYPT\_ECC\_PARAMETERS** property. Download the [Windows 10 Cryptographic Provider Developer Kit (CPDK)](https://www.microsoft.com/download/details.aspx?id=30688) for more information.
 
 ## Requirements
 
