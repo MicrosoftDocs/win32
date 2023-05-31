@@ -28,6 +28,8 @@ In earlier versions of Windows, TLS cipher suites and elliptical curves were con
 
 Different Windows versions support different TLS cipher suites and priority order. See the corresponding Windows version for the default order in which they are chosen by the Microsoft Schannel Provider.
 
+**Windows 11:** For information about supported cipher suites, see [TLS Cipher Suites in Windows 11](tls-cipher-suites-in-windows-11.md)
+
 **Windows Server 2022:** For information about supported cipher suites, see [TLS Cipher Suites in Windows Server 2022](tls-cipher-suites-in-windows-server-2022.md)
 
 **Windows 10, version 1903:** For information about supported cipher suites, see [TLS Cipher Suites in Windows 10 v1903](tls-cipher-suites-in-windows-10-v1903.md)

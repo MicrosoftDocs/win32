@@ -28,7 +28,7 @@ Inserts a group into a list-view control.
 </dt> <dd>Index where the group is to be added. If this is -1, the group is added at the end of the list.</dd> <dt>
 
 *lParam* 
-</dt> <dd>Pointer to a <a href="/windows/win32/api/commctrl/ns-commctrl-lvgroup">**LVGROUP**</a> structure that contains the group to add.</dd> </dl>
+</dt> <dd>Pointer to a <a href="/windows/win32/api/commctrl/ns-commctrl-lvgroup"><b>LVGROUP</b></a> structure that contains the group to add.</dd> </dl>
 
 ## Return value
 
