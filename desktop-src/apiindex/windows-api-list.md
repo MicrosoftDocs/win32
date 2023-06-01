@@ -90,6 +90,7 @@ The Windows UI API creates and uses windows to display output, prompt for user i
 ## Data access and storage
 
 -   [Background Intelligent Transfer Service (BITS)](../bits/bits-reference.md)
+-   [Bind Link](../bindlink/index.md)
 -   [Data Backup](../backup/backup.md)
     -   [Backup](../backup/backup-reference.md)
     -   [Data Deduplication](/previous-versions/windows/desktop/dedup/data-deduplication-api-reference)
