@@ -1,32 +1,40 @@
 ---
-description: API sets are functional groups of Win32 APIs in the core OS. They provide an architectural separation from the host DLL in which a given Win32 API is defined and the functional group to which the API belongs.
 title: Windows API sets
+description: API sets are functional groups of Win32 APIs in the core OS. They provide an architectural separation from the host DLL in which a given Win32 API is defined and the functional group to which the API belongs.
 ms.topic: article
-ms.date: 10/14/2020
+ms.date: 05/31/2023
 ---
 
 # Windows API sets
 
 > [!IMPORTANT]
-> The info in this topic applies to all versions of Windows 10 and Windows 11. We'll refer to those versions here as "Windows", calling out any exceptions where necessary.
+> The info in this topic applies to all versions of Windows 10, and later. We'll refer to those versions here as "Windows", calling out any exceptions where necessary.
 
-All versions of Windows share a common base of OS components that is called the *core OS* (in some contexts this common base is also called *OneCore*). In core OS components, Win32 APIs are organized into functional groups called *API sets*.
+All versions of Windows share a common base of operating system (OS) components that's called the *core OS* (in some contexts this common base is also called *OneCore*). In core OS components, Win32 APIs are organized into functional groups called *API sets*.
 
-The purpose of an API set is to provide an architectural separation from the host DLL in which a given Win32 API is implemented and the functional contract to which the API belongs. The decoupling that API sets provide between implementation and contracts offers many engineering advantages for developers. In particular, using API sets in your code can improve compatibility with Windows devices.
+The purpose of an API set is to provide an architectural separation from the host DLL in which a given Win32 API is implemented, and the functional contract to which the API belongs. The decoupling that API sets provide between implementation and contracts offers many engineering advantages for developers. In particular, using API sets in your code can improve compatibility with Windows devices.
 
 API sets specifically address the following scenarios:
 
-- Although the full breadth of the Win32 API is supported on PCs, only a subset of the Win32 API is available on other Windows 10 and/or Windows 11 devices such as HoloLens, Xbox, and other devices. The API set name provides a query mechanism to cleanly detect whether an API is available on any given device.
+- Although the full breadth of the Win32 API is supported on PCs, only a subset of the Win32 API is available on other Windows devices such as HoloLens, Xbox, and other devices. The API set name provides a query mechanism to cleanly detect whether an API is available on any given device.
 
 - Some Win32 API implementations exist in DLLs with different names across different Windows devices. Using API set names instead of DLL names when detecting API availability and delay loading APIs provide a correct route to the implementation no matter where the API is actually implemented.
 
 For more details, see [API set loader operation](api-set-loader-operation.md) and [Detect API set availability](detect-api-set-availability.md).
 
-## Linking to umbrella libraries
+## Are API sets and dlls the same thing?
+
+No&mdash;an API set name is a *virtual alias* for a physical `.dll` file. It's an implementation-hiding technique, where you as the caller don't have to know exactly which module is hosting the information.
+
+The technique allows modules to be refactored (split apart, consolidated, renamed, and so on) on different Windows versions and editions. And your apps still link, and still get routed to the correct code at runtime.
+
+So why do API sets have `.dll` in their names? The reason is the way the *DLL loader* is implemented. The loader is the part of the OS that loads DLLs and/or resolves references to DLLs. And at the front end, the loader requires any string passed to [LoadLibrary](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) to be terminated with ".dll". But after that front end, the loader can strip away that suffix, and query the API set database with the resulting string.
+
+**LoadLibrary** (and delay load) succeeds with an API set name (with the ".dll" in it); but there isn't necessarily an actual file with that name anywhere on the PC.
+
+## Linking umbrella libraries
 
 To make it easier to restrict your code to Win32 APIs that are supported in the core OS, we provide a series of *umbrella libraries*. For example, an umbrella library named `OneCore.lib` provides the exports for the subset of Win32 APIs that are common to all Windows devices.
-
-The APIs in an umbrella library may be implemented across a range of modules. The umbrella library abstracts those details away from you, making your code more portable across Windows versions and devices. Instead of linking to libraries such as kernel32.lib and advapi32.lib, simply link your desktop app or driver with the umbrella library that contains the set of core OS APIs that you're interested in.
 
 For more details, see [Windows umbrella libraries](windows-umbrella-libraries.md).
 

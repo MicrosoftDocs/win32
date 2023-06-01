@@ -43,6 +43,9 @@ A pointer to a [CtxtHandle](sspi-handles.md) structure. On the first call to **I
 
 On the first call to **InitializeSecurityContext (CredSSP)**, specify `NULL`. On future calls, specify the token received in the *phNewContext* parameter after the first call to this function.
 
+>[!WARNING]
+>Do not use the same context handle in concurrent calls to **InitializeSecurityContext (CredSSP)**. The API implementation in the security service providers is not thread-safe.
+
 *pTargetName* `[in, optional]`
 
 A pointer to a null-terminated string that uniquely identifies the target server. Schannel uses this value to verify the server certificate. Schannel also uses this value to locate the session in the session cache when reestablishing a connection. The cached session is used only if all of the following conditions are met:

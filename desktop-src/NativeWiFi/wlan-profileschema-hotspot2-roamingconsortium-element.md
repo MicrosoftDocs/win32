@@ -1,9 +1,9 @@
 ---
+title: RoamingConsortium (Hotspot2) element
 description: A list of Organizationally Unique Identifiers (OUI) assigned by IEEE.
-ms.assetid: 4a9885b6-2e57-4a16-8e1d-b5b0797e09db
-title: RoamingConsortium (Hotspot2) Element
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 05/25/2023
+ms.assetid: 4a9885b6-2e57-4a16-8e1d-b5b0797e09db
 topic_type: 
 - APIRef
 - kbSyntax
@@ -14,7 +14,7 @@ api_type:
 api_location: 
 ---
 
-# RoamingConsortium (Hotspot2) Element
+# RoamingConsortium (Hotspot2) element
 
 A list of Organizationally Unique Identifiers (OUI) assigned by IEEE.
 
@@ -46,22 +46,16 @@ A list of Organizationally Unique Identifiers (OUI) assigned by IEEE.
 </xs:element>
 ```
 
-The element is defined by the [**Hotspot2**](wlan-profileschema-hotspot2-element.md) element.
+## Parent elements
+
+* [**Hotspot2 (WLANProfile)**](wlan-profileschema-hotspot2-element.md)
 
 ## Child elements
 
+| Element | Type | Description |
+|-|-|-|
+| [**OUI**](#oui) | | A single OUI, formatted as a variable size hexadecimal number. |
 
+### OUI
 
-| Element | Type | Description                                                               |
-|---------|------|---------------------------------------------------------------------------|
-| OUI     |      | A single OUI, formatted as a variable size hexadecimal number.<br/> |
-
-
-
- 
-
- 
-
-
-
-
+A single OUI, formatted as a variable size hexadecimal number.

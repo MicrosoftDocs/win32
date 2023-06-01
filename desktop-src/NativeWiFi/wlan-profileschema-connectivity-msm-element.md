@@ -1,9 +1,9 @@
 ---
+title: connectivity (MSM) element
 description: Contains various connectivity settings.
-ms.assetid: 2938f607-47a1-49eb-bf3f-247cab8637ec
-title: connectivity (MSM) Element
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 05/25/2023
+ms.assetid: 2938f607-47a1-49eb-bf3f-247cab8637ec
 topic_type: 
 - APIRef
 - kbSyntax
@@ -14,7 +14,7 @@ api_type:
 api_location: 
 ---
 
-# connectivity (MSM) Element
+# connectivity (MSM) element
 
 The connectivity (MSM) element contains various connectivity settings.
 
@@ -44,9 +44,24 @@ The connectivity (MSM) element contains various connectivity settings.
                         <xs:enumeration
                             value="n"
                          />
+                        <xs:enumeration
+                            value="ac"
+                         />
+                        <xs:enumeration
+                            value="ad"
+                         />
+                        <xs:enumeration
+                            value="ax"
+                         />
+                        <xs:enumeration
+                            value="be"
+                         />
                     </xs:restriction>
                 </xs:simpleType>
             </xs:element>
+            <xs:element name="QoSDSCPToUPMappingAllowed"
+                type="boolean"
+            />
             <xs:any
                 processContents="lax"
                 minOccurs="0"
@@ -58,54 +73,37 @@ The connectivity (MSM) element contains various connectivity settings.
 </xs:element>
 ```
 
-The element is defined by the [**MSM**](wlan-profileschema-msm-wlanprofile-element.md) element.
+## Parent elements
+
+* [**MSM (WLANProfile)**](wlan-profileschema-msm-wlanprofile-element.md)
 
 ## Child elements
 
+| Element | Type | Description |
+|-|-|-|
+| [**phyType**](#phytype) | | Specifies the 802.11 wireless LAN standard used on a wireless LAN. |
+| [**QoSDSCPToUPMappingAllowed**](#qosdscptoupmappingallowed) | boolean | Configures whether mapping Quality of Service (QoS) DSCP to UP is allowed. |
 
+### phyType
 
-| Element                                                            | Type |
-|--------------------------------------------------------------------|------|
-| [**phyType**](wlan-profileschema-phytype-connectivity-element.md) |      |
+Specifies the 802.11 wireless LAN standard used on a wireless LAN.
 
+You can specify multiple **phyType** elements. If no **phyType** is specified, then the profile can be used to connect to any **phyType**. The value "n" is supported only on Windows Vista with Service Pack 1 (SP1) and later versions of the operating system.
 
+**Windows XP with SP3 and Wireless LAN API for Windows XP with SP2:** This element isn't supported.
+
+### QoSDSCPToUPMappingAllowed
+
+Configures whether mapping Quality of Service (QoS) DSCP to UP is allowed.
 
 ## Examples
 
-To view sample profiles that use the **connectivity** element, see [Wireless Profile Samples](wireless-profile-samples.md).
+To view sample profiles that use the **connectivity** element, see [Wireless profile samples](wireless-profile-samples.md).
 
 ## Requirements
 
-
-
 | Requirement | Value |
-|-------------------------------------|---------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista, Windows XP with SP3 \[desktop apps only\]<br/> |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                |
-| Redistributable<br/>          | Wireless LAN API for Windows XP with SP2<br/>                 |
-
-
-
-## See also
-
-<dl> <dt>
-
-**Definition context of element in schema**
-</dt> <dt>
-
-[**MSM**](wlan-profileschema-msm-wlanprofile-element.md)
-</dt> <dt>
-
-**Possible immediate parent element in schema instance**
-</dt> <dt>
-
-[**MSM (WLANProfile)**](wlan-profileschema-msm-wlanprofile-element.md)
-</dt> </dl>
-
- 
-
- 
-
-
-
-
+|-|-|
+| Minimum supported client | Windows Vista, Windows XP with SP3 \[desktop apps only\] |
+| Minimum supported server | Windows Server 2008 \[desktop apps only\] |
+| Redistributable | Wireless LAN API for Windows XP with SP2 |
