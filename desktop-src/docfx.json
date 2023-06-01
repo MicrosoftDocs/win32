@@ -59,7 +59,7 @@
     },
     "fileMetadata": {
       "feedback_system": {
-        "docs-ref-autogen/**/*": "None",
+        "docs-ref-autogen/**/*": "Standard",
         "contributors_to_exclude": [
           "msatranjr",
           "GrantMeStrength"
