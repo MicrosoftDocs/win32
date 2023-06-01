@@ -14,7 +14,7 @@ ms.date: 01/04/2023
 > [!IMPORTANT]
 > The feature described in this topic is available in pre-release versions of the [Windows Insider Preview](https://www.microsoft.com/software-download/windowsinsiderpreviewSDK). The earliest version in which these features appear is Windows Insider Preview, version 10.0.25289.
 
-These examples for the HWREQCHK API demonstrates how it can be leveraged to get information about a hardware device and its determine Windows upgrade eligibility for specific versions of Windows 11 or later.
+These examples for the HWREQCHK API demonstrates how it can be leveraged to get information about a hardware device and its determined Windows upgrade eligibility for specific versions of Windows 11 or later.
 
 ## GetHardwareRequirementSystemInfo API example
 
