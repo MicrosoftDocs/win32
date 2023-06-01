@@ -16,9 +16,9 @@ ms.date: 05/09/2023
 
 The native HWREQCHK API contains the following enums:
 
-- [**HWREQCHK\_CPU\_VENDOR**](/windows/win32/api/hwreqchkapi/ns-hwreqchkapi-hwreqchk_cpu_vendor)
-- [**HWREQCHK\_PRODUCT\_TYPE**](/windows/win32/api/hwreqchkapi/ns-hwreqchkapi-hwreqchk_product_type)
-- [**HWREQCHK\_TARGET\_RELEASE**](/windows/win32/api/hwreqchkapi/ns-hwreqchkapi-hwreqchk_target_release)
+- [**HWREQCHK\_CPU\_VENDOR**](/windows/win32/api/hwreqchkapi/ne-hwreqchkapi-hwreqchk_cpu_vendor)
+- [**HWREQCHK\_PRODUCT\_TYPE**](/windows/win32/api/hwreqchkapi/ne-hwreqchkapi-hwreqchk_product_type)
+- [**HWREQCHK\_TARGET\_RELEASE**](/windows/win32/api/hwreqchkapi/ne-hwreqchkapi-hwreqchk_target_release)
 
 ## Related topics
 
