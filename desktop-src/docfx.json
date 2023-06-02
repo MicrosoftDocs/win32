@@ -50,6 +50,7 @@
       "ms.technology": "desktop-environment",
       "ms.author": "jken",
       "author": "GrantMeStrength",
+      "feedback_system": "Standard",
       "_op_documentIdPathDepotMapping": {
         "./": {
           "depot_name": "MSDN.desktop",
@@ -58,7 +59,13 @@
       }
     },
     "fileMetadata": {
-      "feedback_system": "Standard",
+      "feedback_system": {
+        "docs-ref-autogen/**/*": "Standard",
+        "contributors_to_exclude": [
+          "msatranjr",
+          "GrantMeStrength"
+      ]
+      },
       "ms.author":
         {
           "audio-and-video.md": "drewbat",
