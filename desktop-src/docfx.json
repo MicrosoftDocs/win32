@@ -58,13 +58,7 @@
       }
     },
     "fileMetadata": {
-      "feedback_system": {
-        "docs-ref-autogen/**/*": "Standard",
-        "contributors_to_exclude": [
-          "msatranjr",
-          "GrantMeStrength"
-      ]
-      },
+      "feedback_system": "Standard",
       "ms.author":
         {
           "audio-and-video.md": "drewbat",
