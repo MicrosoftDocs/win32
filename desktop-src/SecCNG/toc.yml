@@ -21,6 +21,8 @@
         href: protection-descriptors.md
       - name: "Protected Data Format"
         href: protected-data-format.md
+      - name: "DPAPI Backup Keys on AD Domain Controllers"
+        href: cng-dpapi-backup-keys-on-ad-domain-controllers.md
   - name: "Using CNG"
     href: using-cng.md
     items: 
