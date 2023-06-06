@@ -504,6 +504,8 @@
           href: ./cmpapi/-compression-portal.md
         - name: "Dynamic-Link Libraries"
           href: ./dlls/dynamic-link-libraries.md
+        - name: "Hardware Requirement Evaluator"
+          href: ./hwreqchkapi/index.md
         - name: "Interprocess Communications"
           href: ./ipc/interprocess-communications.md
         - name: "Kernel Transaction Manager"

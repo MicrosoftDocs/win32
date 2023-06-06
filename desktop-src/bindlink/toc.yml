@@ -1,0 +1,20 @@
+- name: "Bindlink API"
+  href: index.md
+  items:
+  - name: "Bindlink overview"
+    href: bindlink-overview.md
+    items:
+    - name: "Bindlink examples"
+      href: bindlink-example.md
+  - name: "Bindlink functions"
+    href: bindlink-api-functions.md
+    items:
+    - name: "CreateBindLink"
+      href: /windows/win32/api/bindlink/nf-bindlink-createbindlink
+    - name: "RemoveBindLink"
+      href: /windows/win32/api/bindlink/nf-bindlink-removebindlink
+  - name: "Bindlink enums"
+    href: bindlink-api-enums.md
+    items:
+    - name: "CREATE_BIND_LINK_FLAGS"
+      href: /windows/win32/api/bindlink/ne-bindlink-create_bind_link_flags

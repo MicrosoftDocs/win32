@@ -50,6 +50,7 @@ Application manifests have the following elements and attributes.
 | [**ultraHighResolutionScrollingAware**](#ultraHighResolutionScrollingAware) |                           | No       |
 | [**msix**](#msix)                                                           |                           | No       |
 | [**heapType**](#heaptype)                                                   |                           | No       |
+| [**trustInfo**](#trustinfo)                                                   |                           | No       |
 
 ## File location
 
@@ -421,6 +422,36 @@ This element has no attributes.
   </asmv3:application>
  ...
 </assembly>
+```
+
+### trustInfo
+
+All UAC-compliant apps should have a requested execution level added to the application manifest. Requested execution levels specify the privileges required for an app. For more information, see [How User Account Control (UAC) Affects Your Application](/cpp/security/how-user-account-control-uac-affects-your-application). 
+
+The requested execution level is specified with the **level** attribute of the **requestedExecutionLevel** descendent of the **trustInfo** element. Allowed values for **level** are:
+
+| Value | Description |
+|-------|-------------|
+| asInvoker | The application runs at the same permission level as the process that started it. You can elevate the application to a higher permission level by selecting **Run as Administrator**. |
+| requireAdministrator | The application runs using administrator permissions. The user who starts the application must be a member of the Administrators group. If the opening process isn't running with administrative permissions, the system prompts for credentials. |
+| highestAvailable  |  The application runs at the highest permission level that it can. If the user who starts the application is a member of the Administrators group, this option is the same as `level='requireAdministrator'`. If the highest available permission level is higher than the level of the opening process, the system prompts for credentials. |
+
+Setting the level to 'highestAvailable' ensures that the application will run successfully with both users who are members of the Administrators group and those who are not. If the application can only function with administrative access to the system, then marking the app with a requested execution level of 'requireAdministrator' ensures that the system identifies this program as an administrative app and performs the necessary elevation steps.
+
+By default, the Visual C++ linker embeds a UAC fragment into the manifest of an application with an execution level of 'asInvoker'.
+
+The **requestedExecutionLevel** element also has an attribute **uiAccess**. Set this value to true if you want the application to bypass user interface protection levels and drive input to higher-permission windows on the desktop; otherwise, `uiAccess='false'`. Defaults to uiAccess='false'. Set this argument to `uiAccess='true'` only for user interface accessibility applications. For more informatiom, see [Security Considerations for Assistive Technologies](/windows/win32/winauto/uiauto-securityoverview).
+
+Specifying **requestedExecutionLevel** node will disable file and registry virtualization. If you want to utilize File and Registry Virtualization for backward compatibility then omit the **requestedExecutionLevel** node.
+
+```xml
+<trustInfo xmlns="urn:schemas-microsoft-com:asm.v2">
+  <security>
+    <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+      <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+    </requestedPrivileges>
+  </security>
+</trustInfo>
 ```
 
 ## Example

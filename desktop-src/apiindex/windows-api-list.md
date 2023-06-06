@@ -3,7 +3,7 @@ description: A list of the reference content for the Windows API.
 ms.assetid: 9CA123F9-92F1-4761-9468-266DA422F70E
 title: Windows API index
 ms.topic: article
-ms.date: 09/10/2021
+ms.date: 01/04/2023
 ---
 
 # Windows API index
@@ -90,6 +90,7 @@ The Windows UI API creates and uses windows to display output, prompt for user i
 ## Data access and storage
 
 -   [Background Intelligent Transfer Service (BITS)](../bits/bits-reference.md)
+-   [Bind Link](../bindlink/index.md)
 -   [Data Backup](../backup/backup.md)
     -   [Backup](../backup/backup-reference.md)
     -   [Data Deduplication](/previous-versions/windows/desktop/dedup/data-deduplication-api-reference)
@@ -203,11 +204,13 @@ The [Graphics, multimedia,](/previous-versions//aa969176(v=vs.85)) [audio, and 
 
 The [System Services](../system-services.md) APIs give applications access to the resources of the computer and the features of the underlying operating system, such as memory, file systems, devices, processes, and threads.
 
+-   [Activity Coordinator](../activity_coordinator/-activity-coordinator-portal.md)
 -   [COM](../com/reference.md)
 -   [COM+](../cossdk/com--reference.md)
 -   [Compression API](../cmpapi/-compression-portal.md)
 -   [Distributed Transaction Coordinator (DTC)](/previous-versions/windows/desktop/ms686108(v=vs.85))
 -   [Dynamic-Link Libraries (DLLs)](../dlls/dynamic-link-library-functions.md)
+-   [Hardware Requirement Evaluator (HWREQCHK)](../hwreqchkapi/index.md)
 -   [Help API](/previous-versions/windows/desktop/helpapi/help-api-reference)
 -   [Interprocess Communications](../ipc/interprocess-communications.md):
     -   [Mailslots](../ipc/mailslot-functions.md)
