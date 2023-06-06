@@ -84,7 +84,7 @@ The **assembly** element has the following attributes.
 
 | Attribute           | Description                                           |
 |---------------------|-------------------------------------------------------|
-| **manifestVersion** | The **manifestVersion** attribute must be set to 1.0. |
+| **manifestVersion** | The **manifestVersion** attribute must be set to `1.0`. |
 
 <span id="noInherit"></span><span id="noinherit"></span><span id="NOINHERIT"></span>
 
@@ -106,11 +106,11 @@ The **assemblyIdentity** element has the following attributes. It has no subelem
 
 | Attribute                 | Description                                                                                                                                                                                                                                                                                                                                                                                                                       |
 |---------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **type**                  | Specifies the application or assembly type. The value must be Win32 and all in lower case. Required.                                                                                                                                                                                                                                                                                                                              |
-| **name**                  | Uniquely names the application or assembly. Use the following format for the name: Organization.Division.Name. For example Microsoft.Windows.mysampleApp. Required.                                                                                                                                                                                                                                                               |
-| **language**              | Identifies the language of the application or assembly. Optional. If the application or assembly is language-specific, specify the DHTML language code. In the **assemblyIdentity** of an application intended for worldwide use (language neutral) omit the language attribute.<br/> In an **assemblyIdentity** of an assembly intended for worldwide use (language neutral) set the value of language to "\*".<br/> |
-| **processorArchitecture** | Specifies the processor. Valid values include `x86`, `amd64`, `arm` and `arm64`. Optional.                                                                                                                                                                                                                                                                                                                       |
-| **version**               | Specifies the application or assembly version. Use the four-part version format: mmmmm.nnnnn.ooooo.ppppp. Each of the parts separated by periods can be 0-65535 inclusive. For more information, see [Assembly Versions](assembly-versions.md). Required.                                                                                                                                                                        |
+| **type**                  | Specifies the application or assembly type. The value must be `win32` and all in lower case. Required.                                                                                                                                                                                                                                                                                                                              |
+| **name**                  | Uniquely names the application or assembly. Use the following format for the name: `Organization.Division.Name`. For example `Microsoft.Windows.mysampleApp`. Required.                                                                                                                                                                                                                                                               |
+| **language**              | Identifies the language of the application or assembly. If the application or assembly is language-specific, specify the DHTML language code. In the **assemblyIdentity** of an application intended for worldwide use (language neutral) omit the language attribute.<br/>In an **assemblyIdentity** of an assembly intended for worldwide use (language neutral) set the value of language to `\*`. Optional.                    |
+| **processorArchitecture** | Specifies the processor. Valid values include `x86`, `amd64`, `arm` and `arm64`. You can also specify `\*`, which ensures that all platforms are targeted. Optional.                                                                                                                                                                                                                                                            |
+| **version**               | Specifies the application or assembly version. Use the four-part version format: `mmmmm.nnnnn.ooooo.ppppp`. Each of the parts separated by periods can be 0-65535 inclusive. For more information, see [Assembly Versions](assembly-versions.md). Required.                                                                                                                                                                        |
 | **publicKeyToken**        | A 16-character hexadecimal string representing the last 8 bytes of the SHA-1 hash of the public key under which the application or assembly is signed. The public key used to sign the catalog must be 2048 bits or greater. Required for all shared side-by-side assemblies.                                                                                                                                                     |
 
 <span id="compatibility"></span><span id="COMPATIBILITY"></span>
@@ -250,7 +250,7 @@ The following table describes the behavior that results based upon the presence 
 | Contains "per monitor"            | **Windows Vista, Windows 7 and Windows 8:** The behavior is the same as when the **dpiAware** is absent.<br/> **Windows 8.1 and Windows 10:** The current process is per-monitor dpi aware.<br/>                                                                                                                                                                                      |
 | Contains any other string         | **Windows Vista, Windows 7 and Windows 8:** The behavior is the same as when the **dpiAware** is absent.<br/> **Windows 8.1 and Windows 10:** The current process is dpi unaware, and you cannot programmatically change this setting by calling the [**SetProcessDpiAwareness**](/windows/desktop/api/shellscalingapi/nf-shellscalingapi-setprocessdpiawareness) or [**SetProcessDPIAware**](/windows/desktop/api/winuser/nf-winuser-setprocessdpiaware) function.<br/> |
 
-For more information about dpi awareness settings, see [Comparison of DPI Awareness Levels](https://msdn.microsoft.com/library/windows/desktop/mt843498(v=vs.85).aspx(d=robot)).
+For more information about dpi awareness settings, see [High DPI Desktop Application Development on Windows](/windows/win32/hidpi/high-dpi-desktop-application-development-on-windows).
 
 **dpiAware** has no attributes.
 
@@ -285,7 +285,7 @@ The following table describes the behavior that results based upon the presence 
 | First recognized item is "system"       | The current process is system dpi aware.                                                                                                                                                                                               |
 | First recognized item is "permonitor"   | The current process is per-monitor dpi aware.                                                                                                                                                                                          |
 | First recognized item is "permonitorv2" | The current process uses the per-monitor-v2 dpi awareness context. This item will only be recognized on Windows 10 version 1703 or later.                                                                                              |
-| First recognized item is "unaware"      | The current process is dpi unaware. You**cannot** programmatically change this setting by calling the [**SetProcessDpiAwareness**](/windows/desktop/api/shellscalingapi/nf-shellscalingapi-setprocessdpiawareness) or [**SetProcessDPIAware**](/windows/desktop/api/winuser/nf-winuser-setprocessdpiaware) function.      |
+| First recognized item is "unaware"      | The current process is dpi unaware. You cannot programmatically change this setting by calling the [**SetProcessDpiAwareness**](/windows/desktop/api/shellscalingapi/nf-shellscalingapi-setprocessdpiawareness) or [**SetProcessDPIAware**](/windows/desktop/api/winuser/nf-winuser-setprocessdpiaware) function.      |
 
 For more information about dpi awareness settings supported by this element, see [DPI\_AWARENESS](/windows/desktop/api/windef/ne-windef-dpi_awareness) and [DPI\_AWARENESS\_CONTEXT](/windows/desktop/hidpi/dpi-awareness-context).
 
@@ -464,14 +464,16 @@ The following is an example of an application manifest for an application named 
 
   <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1"> 
       <application> 
-        <!--This Id value indicates the application supports Windows Vista functionality -->
-          <supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}"/> 
-        <!--This Id value indicates the application supports Windows 7 functionality-->
-          <supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}"/>
-        <!--This Id value indicates the application supports Windows 8 functionality-->
-          <supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}"/>
-        <!--This Id value indicates the application supports Windows 8.1 functionality-->
-          <supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}"/>
+            <!-- Windows 10 and Windows 11 -->
+            <supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}"/>
+            <!-- Windows 8.1 -->
+            <supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}"/>
+            <!-- Windows 8 -->
+            <supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}"/>
+            <!-- Windows 7 -->
+            <supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}"/>
+            <!-- Windows Vista -->
+            <supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}"/> 
       </application> 
   </compatibility>
 
@@ -486,7 +488,7 @@ The following is an example of an application manifest for an application named 
       <assemblyIdentity type="win32" 
                         name="Proseware.Research.SampleAssembly" 
                         version="6.0.0.0" 
-                        processorArchitecture="X86" 
+                        processorArchitecture="x86" 
                         publicKeyToken="0000000000000000" 
                         language="*"
       />
