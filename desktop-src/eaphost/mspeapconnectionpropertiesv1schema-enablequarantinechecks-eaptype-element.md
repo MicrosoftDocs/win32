@@ -18,8 +18,8 @@ ROBOTS: INDEX,FOLLOW
 
 # EnableQuarantineChecks (EapType) Element
 
-> [!Note]  
-> Starting with Windows 10/Windows Server 2016, the **EnableQuarantineChecks** element can be included in the profile but will do nothing, as the **Network Access Protection (NAP)** platform is not available.
+> [!NOTE]  
+> Starting with Windows 10 and Windows Server 2016, the **EnableQuarantineChecks** element can be included in the profile but will do nothing as the **Network Access Protection (NAP)** platform is not available.
 
 The **EnableQuarantineChecks (EapType)** element indicates whether to perform Network Access Protection (NAP) checks.
 
