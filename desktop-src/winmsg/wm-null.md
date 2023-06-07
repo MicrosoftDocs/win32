@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 Performs no operation. An application sends the **WM\_NULL** message if it wants to post a message that the recipient window will ignore.
 
-A window receives this message through its [**WindowProc**](/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)) function.
+A window receives this message through its [**WindowProc**](/windows/win32/api/winuser/nc-winuser-wndproc) function.
 
 
 ```C++

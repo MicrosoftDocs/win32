@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 Sent to a child window when the user clicks the window's title bar or when the window is activated, moved, or sized.
 
-A window receives this message through its [**WindowProc**](/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)) function.
+A window receives this message through its [**WindowProc**](/windows/win32/api/winuser/nc-winuser-wndproc) function.
 
 
 ```C++

@@ -18,7 +18,7 @@ ms.date: 05/31/2018
 
 # WM\_GETTITLEBARINFOEX message
 
-Sent to request extended title bar information. A window receives this message through its [**WindowProc**](/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)) function.
+Sent to request extended title bar information. A window receives this message through its [**WindowProc**](/windows/win32/api/winuser/nc-winuser-wndproc) function.
 
 
 ```C++
