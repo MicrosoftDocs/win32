@@ -32,7 +32,7 @@ DWORD playMIDIFile(HWND hWndNotify, LPSTR lpszMIDIFileName)
     mciOpenParms.lpstrElementName = lpszMIDIFileName;
     if (dwReturn = mciSendCommand(NULL, MCI_OPEN,
         MCI_OPEN_TYPE | MCI_OPEN_ELEMENT,
-        (DWORD)(LPVOID) &mciOpenParms))
+        (DWORD_PTR)(LPVOID) &mciOpenParms))
     {
         // Failed to open device. Don't close it; just return error.
         return (dwReturn);
@@ -44,7 +44,7 @@ DWORD playMIDIFile(HWND hWndNotify, LPSTR lpszMIDIFileName)
     // Check if the output port is the MIDI mapper.
     mciStatusParms.dwItem = MCI_SEQ_STATUS_PORT;
     if (dwReturn = mciSendCommand(wDeviceID, MCI_STATUS, 
-        MCI_STATUS_ITEM, (DWORD)(LPVOID) &mciStatusParms))
+        MCI_STATUS_ITEM, (DWORD_PTR)(LPVOID) &mciStatusParms))
     {
         mciSendCommand(wDeviceID, MCI_CLOSE, 0, NULL);
         return (dwReturn);
@@ -69,9 +69,9 @@ DWORD playMIDIFile(HWND hWndNotify, LPSTR lpszMIDIFileName)
     // window will be notified with an MM_MCINOTIFY message when 
     // playback is complete. At this time, the window procedure closes 
     // the device.
-    mciPlayParms.dwCallback = (DWORD) hWndNotify;
+    mciPlayParms.dwCallback = (DWORD_PTR) hWndNotify;
     if (dwReturn = mciSendCommand(wDeviceID, MCI_PLAY, MCI_NOTIFY, 
-        (DWORD)(LPVOID) &mciPlayParms))
+        (DWORD_PTR)(LPVOID) &mciPlayParms))
     {
         mciSendCommand(wDeviceID, MCI_CLOSE, 0, NULL);
         return (dwReturn);
