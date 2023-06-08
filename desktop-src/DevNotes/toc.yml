@@ -858,7 +858,7 @@
     - name: "STRING"
       href: /windows/win32/api/Winternl/ns-winternl-string
     - name: "TellsOsIsInProcessorMode"
-      href: tellsosisinprocessormode.md
+      href: tellsIsosinprocessormode.md
     - name: "UnregisterServerForPMP"
       href: /windows/win32/api/comppkgsup/nf-comppkgsup-unregisterserverforpmp
     - name: "VBAGetExprSrv"
