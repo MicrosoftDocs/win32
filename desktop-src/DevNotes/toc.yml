@@ -857,6 +857,8 @@
       href: /windows/win32/api/Ime/nf-ime-sendimemessageexa
     - name: "STRING"
       href: /windows/win32/api/Winternl/ns-winternl-string
+    - name: "TellsOsIsInProcessorMode"
+      href: tellsosisinprocessormode.md
     - name: "UnregisterServerForPMP"
       href: /windows/win32/api/comppkgsup/nf-comppkgsup-unregisterserverforpmp
     - name: "VBAGetExprSrv"
