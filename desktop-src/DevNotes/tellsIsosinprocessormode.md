@@ -45,7 +45,6 @@ This function has no associated import library or header file; you must call it 
 | Requirement | Value |
 |-----------------------------------|-------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10                                             |
-| Minimum supported server<br/> | Windows Server 2019<br/>                                    |
 | DLL                   | DiagnosticDatasettings.dll              |
 
 
