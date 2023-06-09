@@ -90,6 +90,9 @@ The time the process was created.
 
 Current interrupt-time count.
 
+Interrupt-time count is not subject to adjustments by users or the Windows time service (see [Interrupt Time](../SysInfo/interrupt-time.md)).
+
+
 </dd> 
 
 <dt>
@@ -100,7 +103,9 @@ Current interrupt-time count.
 
 <dd>
 
-current unbiased interrupt-time count.
+Current unbiased interrupt-time count.
+
+Unbiased interrupt-time means that only time that the system is in the working state is counted—therefore, the interrupt-time count is not "biased" by time the system spends in sleep or hibernation (see [Interrupt Time](../SysInfo/interrupt-time.md)).
 
 </dd> 
 
@@ -136,7 +141,7 @@ Date and time the session was created.
 
 <dd>
 
-The session associated with client connection.
+The unique session associated with client connection.
 
 </dd> 
 
@@ -240,11 +245,11 @@ The process command line offset.
 
 ## Remarks
 
-This struct has no associated import library or header file; you must call it using the [**LoadLibrary**](/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya) and [**GetProcAddress**](/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress) functions. The API is exported from the DiagnosticDatasettings.dll.
+This struct has no associated import library or header file.
 
 ## Requirements
 
 | Requirement | Value |
 |-----------------------------------|---------------------------------|
 | Minimum supported client          | Windows 10                      |
-| DLL                               | DiagnosticDatasettings.dll      |
+| DLL                               | N/A      |
