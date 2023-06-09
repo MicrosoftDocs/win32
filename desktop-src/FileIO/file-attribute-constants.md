@@ -4,12 +4,12 @@ ms.assetid: ed9a73d2-7fb6-4fb7-97f6-4dbf89e2f156
 title: File Attribute Constants (WinNT.h)
 ms.topic: reference
 ms.custom: snippet-project
-ms.date: 02/27/2023
+ms.date: 06/09/2023
 ---
 
 # File Attribute Constants
 
-File attributes are metadata values stored by the file system on disk and are used by the system and are available to developers via various file I/O APIs. For a list of related APIs and topics, see the See Also section.
+File attributes are metadata values stored by the file system on disk and are used by the system and are available to developers via various file I/O APIs. For a list of related APIs and topics, see the [See also](#see-also) section.
 
 ## Example
 
@@ -67,7 +67,7 @@ Example taken from a [Windows Classic Sample](https://github.com/microsoft/Windo
 | <span id="FILE_ATTRIBUTE_INTEGRITY_STREAM"></span><span id="file_attribute_integrity_stream"></span><dl> <dt>**FILE\_ATTRIBUTE\_INTEGRITY\_STREAM**</dt> <dt>32768 (0x00008000)</dt> </dl> | The directory or user data stream is configured with integrity (only supported on ReFS volumes). It is not included in an ordinary directory listing. The integrity setting persists with the file if it's renamed. If a file is copied the destination file will have integrity set if either the source file or destination directory have integrity set.<br/> **Windows Server 2008 R2, Windows 7, Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:** This flag is not supported until Windows Server 2012. |
 | <span id="FILE_ATTRIBUTE_VIRTUAL"></span><span id="file_attribute_virtual"></span><dl> <dt>**FILE\_ATTRIBUTE\_VIRTUAL**</dt> <dt>65536 (0x00010000)</dt> </dl> | This value is reserved for system use. |
 | <span id="FILE_ATTRIBUTE_NO_SCRUB_DATA"></span><span id="file_attribute_no_scrub_data"></span><dl> <dt>**FILE\_ATTRIBUTE\_NO\_SCRUB\_DATA**</dt> <dt>131072 (0x00020000)</dt> </dl> | The user data stream not to be read by the background data integrity scanner (AKA scrubber). When set on a directory it only provides inheritance. This flag is only supported on Storage Spaces and ReFS volumes. It is not included in an ordinary directory listing.<br/> **Windows Server 2008 R2, Windows 7, Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:** This flag is not supported until Windows 8 and Windows Server 2012. |
-| <span id="FILE_ATTRIBUTE_EA"></span><span id="file_attribute_ea"></span><dl> <dt>**FILE\_ATTRIBUTE\_EA**</dt> <dt>262144 (0x00040000)</dt> </dl> | A file or directory with extended attributes. |
+| <span id="FILE_ATTRIBUTE_EA"></span><span id="file_attribute_ea"></span><dl> <dt>**FILE\_ATTRIBUTE\_EA**</dt> <dt>262144 (0x00040000)</dt> </dl> | A file or directory with extended attributes.<br/><br/>**IMPORTANT:** This constant is for internal use only. |
 | <span id="FILE_ATTRIBUTE_PINNED"></span><span id="file_attribute_pinned"></span><dl> <dt>**FILE\_ATTRIBUTE\_PINNED**</dt> <dt>524288 (0x00080000)</dt> </dl> | This attribute indicates user intent that the file or directory should be kept fully present locally even when not being actively accessed. This attribute is for use with hierarchical storage management software. |
 | <span id="FILE_ATTRIBUTE_UNPINNED"></span><span id="file_attribute_unpinned"></span><dl> <dt>**FILE\_ATTRIBUTE\_UNPINNED**</dt> <dt>1048576 (0x00100000)</dt> </dl> | This attribute indicates that the file or directory should not be kept fully present locally except when being actively accessed. This attribute is for use with hierarchical storage management software. |
 | <span id="FILE_ATTRIBUTE_RECALL_ON_OPEN"></span><span id="file_attribute_recall_on_open"></span><dl> <dt>**FILE\_ATTRIBUTE\_RECALL\_ON\_OPEN**</dt> <dt>262144 (0x00040000)</dt> </dl> | This attribute only appears in directory enumeration classes (FILE\_DIRECTORY\_INFORMATION, FILE\_BOTH\_DIR\_INFORMATION, etc.). When this attribute is set, it means that the file or directory has no physical representation on the local system; the item is virtual. Opening the item will be more expensive than normal, e.g. it will cause at least some of it to be fetched from a remote store. |
