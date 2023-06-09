@@ -42694,7 +42694,11 @@
       "source_path": "desktop-src/devnotes/wldpsetdynamiccodetrust.md",
       "redirect_url": "/windows/win32/api/wldp/nf-wldp-wldpsetdynamiccodetrust",
       "redirect_document_id": false
+},
+{
+      "source_path": "desktop-src/winmsg/winuser/nf-winuser-iswindowarranged.md",
+      "redirect_url": "/windows/win32/api/winuser/nf-winuser-iswindowarranged",
+      "redirect_document_id": false
 }
-
   ]
 }
