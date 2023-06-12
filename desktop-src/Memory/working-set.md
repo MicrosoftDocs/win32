@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 The working set of a process is the set of pages in the virtual address space of the process that are currently resident in physical memory. The working set contains only pageable memory allocations; nonpageable memory allocations such as [Address Windowing Extensions](address-windowing-extensions.md) (AWE) or [large page allocations](large-page-support.md) are not included in the working set.
 
-When a process references pageable memory that is not currently in its working set, a *page fault* occurs. The system page fault handler attempts to resolve the page fault and, if it succeeds, the page is added to the working set. (Accessing AWE or large page allocations never causes a page fault, because these allocations are not pageable .)
+When a process references pageable memory that is not currently in its working set, a *page fault* occurs. The system page fault handler attempts to resolve the page fault and, if it succeeds, the page is added to the working set. (Accessing AWE or large page allocations never causes a page fault, because these allocations are not pageable.)
 
 A *hard page fault* must be resolved by reading page contents from the page's *backing store*, which is either the system paging file or a memory-mapped file created by the process. A *soft page fault* can be resolved without accessing the backing store. A soft page fault occurs when:
 
