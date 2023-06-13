@@ -126,6 +126,8 @@ The security (MSM) element contains various security settings.
                     </xs:restriction>
                 </xs:simpleType>
             </xs:element>
+            <!-- extension point for other namespaces -->
+            <!-- this is also the insertion point for OneX namespace -->
             <xs:any
                 processContents="lax"
                 minOccurs="0"
@@ -153,6 +155,7 @@ The security (MSM) element contains various security settings.
 | [**preAuthMode**](#preauthmode) | | Determines if pre-authentication will be used by the client. Pre-authentication enables WPA2 secure fast roaming. This element is valid only for WPA2-defined networks with PMKCache mode set to enabled. If PMKCache mode is enabled, and this element is absent, the default value is disabled.<br/> **Windows XP with SP3 and Wireless LAN API for Windows XP with SP2:** This element isn't supported. |
 | [**preAuthThrottle**](#preauththrottle) | | Indicates the number of tries when preauthenticating to neighboring APs. This element is valid only for WPA2-defined networks with PMKCache mode set to enabled. If PMKCache mode is enabled, and this element is absent, the number of tries defaults to 3.<br/> **Windows XP with SP3 and Wireless LAN API for Windows XP with SP2:** This element isn't supported. |
 | [**sharedKey**](wlan-profileschema-sharedkey-security-element.md) | | Contains the shared key information. This element is only required if WEP or PSK keys are required for the authentication and encryption pair. |
+| [**OneX**](/windows/win32/nativewifi/onexschema-onex-element) | | Optional IEEE802.1X configuration. |
 
 ### keyIndex
 

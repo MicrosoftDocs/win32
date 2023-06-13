@@ -1,9 +1,9 @@
 ---
+title: Security (MSM) element (LAN_policy)
 description: Contains security settings for wired networks.
 ms.assetid: 08470cf4-3722-4cb9-9877-13eca2f7d04e
-title: Security (MSM) Element (LAN_policy)
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 06/13/2023
 topic_type: 
 - APIRef
 - kbSyntax
@@ -14,7 +14,7 @@ api_type:
 api_location: 
 ---
 
-# Security (MSM) Element (LAN_policy)
+# Security (MSM) element (LAN_policy)
 
 The security (MSM) element contains security settings for wired networks. This element is optional.
 
@@ -28,6 +28,13 @@ The security (MSM) element contains security settings for wired networks. This e
             <xs:element name="OneXEnabled"
                 type="boolean"
              />
+            <!-
+                Extension point for other namespaces, including the OneX
+                namespace currently used for optional IEEE802.1X configuration.
+                The OneX configuration parameters must be present if the 
+                <OneXEnforced> flag is set to "true" or the <OneXEnabled> flag
+                is set to "true". See the Child elements section below.
+             ->
             <xs:any
                 processContents="lax"
                 minOccurs="0"
@@ -43,46 +50,25 @@ The **security** element is defined by the [**MSM**](lan-profileschema-msm-lanpr
 
 ## Child elements
 
-
-
-| Element                                                                 | Type    | Description                                                                                                                              |
-|-------------------------------------------------------------------------|---------|------------------------------------------------------------------------------------------------------------------------------------------|
-| [**OneXEnabled**](lan-profileschema-onexenabled-security-element.md)   | boolean | Specifies whether the automatic configuration service for wired networks will attempt port authentication using 802.1X. <br/>      |
-| [**OneXEnforced**](lan-profileschema-onexenforced-security-element.md) | boolean | Specifies whether the automatic configuration service for wired networks requires the use of 802.1X for port authentication. <br/> |
-
-
+| Element | Type | Description |
+|-|-|-|
+| [**OneXEnabled**](lan-profileschema-onexenabled-security-element.md) | boolean | Specifies whether the automatic configuration service for wired networks will attempt port authentication using 802.1X. |
+| [**OneXEnforced**](lan-profileschema-onexenforced-security-element.md) | boolean | Specifies whether the automatic configuration service for wired networks requires the use of 802.1X for port authentication. |
+| [**OneX**](/windows/win32/nativewifi/onexschema-onex-element) | | Optional IEEE802.1X configuration. |
 
 ## Requirements
 
-
-
 | Requirement | Value |
-|-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
-
-
+|-|-|
+| Minimum supported client | Windows Vista \[desktop apps only\] |
+| Minimum supported server | Windows Server 2008 \[desktop apps only\] |
 
 ## See also
 
-<dl> <dt>
-
 **Definition context of element in schema**
-</dt> <dt>
 
-[**MSM**](lan-profileschema-msm-lanprofile-element.md)
-</dt> <dt>
+* [**MSM (LANProfile)**](lan-profileschema-msm-lanprofile-element.md)
 
 **Possible immediate parent element in schema instance**
-</dt> <dt>
 
-[**MSM (LANProfile)**](lan-profileschema-msm-lanprofile-element.md)
-</dt> </dl>
-
- 
-
- 
-
-
-
-
+* [**MSM (LANProfile)**](lan-profileschema-msm-lanprofile-element.md)

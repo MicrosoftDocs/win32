@@ -17,7 +17,17 @@ The WLAN\_profile schema defines the following elements. Most elements are in th
 
 The following list shows the defined elements in the order in which the elements appear in a profile. The ordering of elements is enforced. Not all elements are in every profile, as some elements are optional.
 
-This list doesn't show all possible elements that can appear in a wireless profile, as elements can be added in **xs:any** insertion points.
+This list doesn't show all possible elements that can appear in a wireless profile, since elements can be added in **xs:any** insertion points.
+
+> [!NOTE]
+> The **OneX** configuration parameters must be present if the `useOneX` (authEncryption) flag is set to "true".
+
+-   [**LANProfile**](lan-profileschema-lanprofile-element.md)
+    -   [**MSM (LANProfile)**](lan-profileschema-msm-lanprofile-element.md)
+        -   [**security (MSM)**](lan-profileschema-security-msm-element.md)
+            -   [**OneXEnforced (security)**](lan-profileschema-onexenforced-security-element.md)
+            -   [**OneXEnabled (security)**](lan-profileschema-onexenabled-security-element.md)
+            -   [**OneX**](/windows/win32/nativewifi/onexschema-onex-element)
 
 -   [**WLANProfile**](wlan-profileschema-wlanprofile-element.md)
     -   [**name (WLANProfile)**](wlan-profileschema-wlanprofile-element.md#name)
@@ -58,6 +68,7 @@ This list doesn't show all possible elements that can appear in a wireless profi
             -   [**PMKCacheSize (security)**](wlan-profileschema-security-msm-element.md#pmkcachesize)
             -   [**preAuthMode (security)**](wlan-profileschema-security-msm-element.md#preauthmode)
             -   [**preAuthThrottle (security)**](wlan-profileschema-security-msm-element.md#preauththrottle)
+            -   [**OneX**](/windows/win32/nativewifi/onexschema-onex-element)
     -   [**IHV (WLANProfile)**](wlan-profileschema-ihv-wlanprofile-element.md)
         -   [**OUIHeader (IHV)**](wlan-profileschema-ouiheader-ihv-element.md)
             -   [**OUI (OUIHeader)**](wlan-profileschema-ouiheader-ihv-element.md#oui)
