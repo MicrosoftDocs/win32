@@ -20,14 +20,7 @@ The following list shows the defined elements in the order in which the elements
 This list doesn't show all possible elements that can appear in a wireless profile, since elements can be added in **xs:any** insertion points.
 
 > [!NOTE]
-> The **OneX** configuration parameters must be present if the `useOneX` (authEncryption) flag is set to "true".
-
--   [**LANProfile**](lan-profileschema-lanprofile-element.md)
-    -   [**MSM (LANProfile)**](lan-profileschema-msm-lanprofile-element.md)
-        -   [**security (MSM)**](lan-profileschema-security-msm-element.md)
-            -   [**OneXEnforced (security)**](lan-profileschema-onexenforced-security-element.md)
-            -   [**OneXEnabled (security)**](lan-profileschema-onexenabled-security-element.md)
-            -   [**OneX**](/windows/win32/nativewifi/onexschema-onex-element)
+> The **OneX** configuration parameters must be present immediately under `security` (MSM) if the `useOneX` (authEncryption) flag is set to "true".
 
 -   [**WLANProfile**](wlan-profileschema-wlanprofile-element.md)
     -   [**name (WLANProfile)**](wlan-profileschema-wlanprofile-element.md#name)
