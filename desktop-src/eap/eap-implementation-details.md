@@ -3,7 +3,8 @@ title: EAP Implementation Details
 description: Access Points (APs), such as Remote Access Service (RAS), interact with EAP implementations through the use of function calls that must be exported by the third-party EAP DLL.
 ms.assetid: 85775c03-7538-41a1-9f83-42e71025a79c
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 06/14/2023
+ms.contributor: samyun
 ---
 
 # EAP Implementation Details
@@ -12,11 +13,7 @@ Access Points (APs), such as Remote Access Service (RAS), interact with EAP impl
 
 The following topics detail this interaction:
 
--   [Access Point Initialization of EAP](ras-initialization-of-eap.md)
--   [Authentication Protocol Initialization](authentication-protocol-initialization.md)
--   [Access Point and Authentication Protocol Interaction](ras-and-authentication-protocol-interaction-during-authentication.md)
--   [Completion of the Authentication Session](completion-of-the-authentication-session.md)
-
- 
-
- 
+- [Access Point Initialization of EAP](ras-initialization-of-eap.md)
+- [Authentication Protocol Initialization](authentication-protocol-initialization.md)
+- [Access Point and Authentication Protocol Interaction](ras-and-authentication-protocol-interaction-during-authentication.md)
+- [Completion of the Authentication Session](completion-of-the-authentication-session.md)

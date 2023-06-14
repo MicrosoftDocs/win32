@@ -3,7 +3,8 @@ title: EAP Installation
 description: Vendors implement EAPs, also known as authentication protocols, in dynamic-link libraries (DLLs).
 ms.assetid: af10b1e9-45c9-4640-ba79-fc9c23cc3c47
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 06/14/2023
+ms.contributor: samyun
 ---
 
 # EAP Installation
@@ -14,16 +15,8 @@ The vendor should provide setup software to install and remove the DLL. The setu
 
 The installation of each EAP DLL should create the following registry key.
 
-**HKEY\_LOCAL\_MACHINE**\\**System**\\**CurrentControlSet**\\**Services**\\**Rasman**\\**PPP**\\**EAP**\\**&lt;eaptypeid&gt;**
+**HKEY\_LOCAL\_MACHINE**\\**System**\\**CurrentControlSet**\\**Services**\\**Rasman**\\**PPP**\\**EAP**\\**\<eaptypeid\>**
 
-In the preceding path, **&lt;eaptypeid&gt;** is the ID of the authentication protocol. The vendor must obtain this ID from the Internet Assigned Numbers Authority (IANA).
+In the preceding path, **\<eaptypeid\>** is the ID of the authentication protocol. The vendor must obtain this ID from the Internet Assigned Numbers Authority (IANA).
 
 For more information and a description of the supported values for this key, see [Authentication Protocol Registry Values](authentication-protocol-registry-values.md).
-
- 
-
- 
-
-
-
-

@@ -4,7 +4,8 @@ description: Network Policy Server (NPS) is the Microsoft implementation of a Re
 ms.assetid: d0eb41cb-e9c0-4a60-aeac-77d1dd90a75b
 ms.tgt_platform: multiple
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 06/14/2023
+ms.contributor: samyun
 ---
 
 # Network Policy Server
@@ -26,8 +27,6 @@ Server Data Objects API can be used to manipulate the network policy configurati
 > [!Note]  
 > Network policies in NPS are equivalent to remote access policies in IAS.
 
- 
-
 ## Developer audience
 
 The NPS Extensions API is designed for use by programmers using C/C++ development software. Programmers should be familiar with networking concepts and the RADIUS protocol. RADIUS is documented in [RFC 2865](https://www.ietf.org/rfc/rfc2865.txt) and [RFC 2866](https://www.ietf.org/rfc/rfc2866.txt).
@@ -44,49 +43,13 @@ NPS is available on Windows Server 2008 with the installation of the Microsoft 
 
 ## In this section
 
-<dl> <dt>
-
-[Overview](about-network-policy-server.md)
-</dt> <dd>
-
-General information regarding RADIUS, IAS, and NPS.
-
-</dd> <dt>
-
-[Network Policy Server Extensions API](ias-extensions.md)
-</dt> <dd>
-
-API for implementing extension DLLs used for authentication, authorization, and accounting.
-
-</dd> <dt>
-
-[Server Data Objects API](server-data-objects.md)
-</dt> <dd>
-
-API for managing the network policy configuration.
-
-</dd> <dt>
-
-[SQL Programmability](sql-programmability.md)
-</dt> <dd>
-
-Samples of stored procedures used for managing NPS (IAS) logging.
-
-</dd> </dl>
+- General information regarding RADIUS, IAS, and NPS: [Overview](about-network-policy-server.md)
+- API for implementing extension DLLs used for authentication, authorization, and accounting: [Network Policy Server Extensions API](ias-extensions.md)
+- API for managing the network policy configuration: [Server Data Objects API](server-data-objects.md)
+- Samples of stored procedures used for managing NPS (IAS) logging: [SQL Programmability](sql-programmability.md)
 
 ## Related topics
 
-<dl> <dt>
-
-[TechNet: Network Policy Server](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh831683(v=ws.11))
-</dt> <dt>
-
-[TechNet: Internet Authentication Service](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh831683(v=ws.11))
-</dt> <dt>
-
-[Network Access Protection](/windows/desktop/NAP/network-access-protection-start-page)
-</dt> </dl>
-
- 
-
- 
+- [TechNet: Network Policy Server](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh831683(v=ws.11))
+- [Network Policy Server (NPS)](/windows-server/networking/technologies/nps/nps-top)
+- [Extensible Authentication Protocol (EAP) for network access](/windows-server/networking/technologies/extensible-authentication-protocol/network-access)

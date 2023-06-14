@@ -20,12 +20,13 @@ keywords:
 - RAS_EAP_VALUENAME_ISTUNNEL_METHOD
 - RAS_EAP_VALUENAME_FILTER_INNERMETHODS
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 06/14/2023
+ms.contributor: samyun
 ---
 
 # Authentication Protocol Registry Values
 
-The setup software for the EAP DLL may create the following registry values below **&lt;eaptypeid&gt;**. These registry values are defined in the Raseapif.h header file. The **RAS_EAP_VALUENAME_PATH** and **RAS_EAP_VALUENAME_FRIENDLY_NAME** values are required. The setup software may create other keys and values as well. These could be used by the authentication protocol itself. For more information and an example of registry configuration, see [Registry Values Example](registry-values-example.md).
+The setup software for the EAP DLL may create the following registry values below **\<eaptypeid\>**. These registry values are defined in the Raseapif.h header file. The **RAS_EAP_VALUENAME_PATH** and **RAS_EAP_VALUENAME_FRIENDLY_NAME** values are required. The setup software may create other keys and values as well. These could be used by the authentication protocol itself. For more information and an example of registry configuration, see [Registry Values Example](registry-values-example.md).
 
 [RAS_EAP_VALUENAME_PATH](#ras_eap_valuename_path)
 
@@ -120,7 +121,7 @@ The setup software for the EAP DLL may create the following registry values belo
 | Constant value | InvokeUsernameDialog                                                                                                                                                                                   |
 |----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Type           | REG_DWORD                                                                                                                                                                                             |
-| Description    | Specifies whether RAS should display the standard Windows NT/Windows 2000 user name dialog (value of 1) or invoke [**RasEapGetIdentity**](/previous-versions/windows/desktop/api/Raseapif/nf-raseapif-raseapgetidentity) (value of 0). The default value is 1. |
+| Description    | Specifies whether RAS should display the standard Windows NT/Windows 2000 user name dialog (value of 1) or invoke [**RasEapGetIdentity**](/windows/desktop/api/Raseapif/nf-raseapif-raseapgetidentity) (value of 0). The default value is 1. |
 
 ## RAS_EAP_VALUENAME_INVOKE_PWDDLG
 
@@ -128,7 +129,6 @@ The setup software for the EAP DLL may create the following registry values belo
 |----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Type           | REG_DWORD                                                                                                                                                                                  |
 | Description    | Specifies whether RAS should display the standard Windows NT/Windows 2000 password dialog. If this value exists and is 0, RAS will not display the password dialog. The default value is 1. |
-
 
 ## RAS_EAP_VALUENAME_ENCRYPTION
 
@@ -165,4 +165,3 @@ This registry value is not in use.
 ## RAS_EAP_VALUENAME_FILTER_INNERMETHODS
 
 This registry value is not in use.
-
