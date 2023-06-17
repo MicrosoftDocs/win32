@@ -17,7 +17,9 @@ api_location:
 
 # ICONRESDIR structure
 
-Contains the dimensions and color format of an individual icon image in a resource group. The structure definition provided here is for explanation only; it is not present in any standard header file.
+Contains the dimensions and color format of an individual icon image in a resource group.
+
+The structure definition provided here is for explanation only; it is not present in any standard header file.
 
 ## Syntax
 
@@ -31,8 +33,6 @@ typedef struct {
 } ICONRESDIR;
 ```
 
-
-
 ## Members
 
 <dl> <dt>
@@ -44,7 +44,9 @@ Type: **BYTE**
 
 </dd> <dd>
 
-The width of the icon, in pixels. Acceptable values are 16, 32, and 64.
+The width of the icon, in pixels.
+  
+The value 0 is accepted as representing a width of 256.
 
 </dd> <dt>
 
@@ -55,7 +57,9 @@ Type: **BYTE**
 
 </dd> <dd>
 
-The height of the icon, in pixels. Acceptable values are 16, 32, and 64.
+The height of the icon, in pixels.
+  
+The value 0 is accepted as representing a height of 256.
 
 </dd> <dt>
 
@@ -66,7 +70,9 @@ Type: **BYTE**
 
 </dd> <dd>
 
-The number of colors in the icon. Acceptable values are 2, 8, and 16.
+The number of colors in the icon.
+  
+Acceptable values are 2, 8, and 16. The value 0 means that the number of colors deduced from **BitCount** and **Planes** in the [**RESDIR**](resdir.md) structure.
 
 </dd> <dt>
 

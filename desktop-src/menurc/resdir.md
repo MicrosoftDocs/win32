@@ -17,23 +17,27 @@ api_location:
 
 # RESDIR structure
 
-Contains information about an individual icon or cursor component in a resource group. There is one **RESDIR** structure for each group component. The structure definition provided here is for explanation only; it is not present in any standard header file.
+Contains information about an individual icon or cursor component in a [RT\_GROUP\_ICON](/windows/desktop/menurc/resource-types) or [RT\_GROUP\_CURSOR](/windows/desktop/menurc/resource-types) resource group.
+
+There is one **RESDIR** structure for each group component.
+
+The structure definition provided here is for explanation only; it is not present in any standard header file.
 
 ## Syntax
 
-
 ```C++
 typedef struct {
-  ICONRESDIR Icon;
-  CURSORDIR  Cursor;
+  union
+  {
+      ICONRESDIR   Icon;
+      CURSORDIR    Cursor;
+  };
   WORD       Planes;
   WORD       BitCount;
   DWORD      BytesInRes;
   WORD       IconCursorId;
 } RESDIR;
 ```
-
-
 
 ## Members
 
@@ -101,13 +105,15 @@ Type: **WORD**
 
 </dd> <dd>
 
-The icon or cursor with a unique ordinal identifier.
+Unique ordinal identifier of the [RT\_ICON](/windows/desktop/menurc/resource-types) icon or [RT\_CURSOR](/windows/desktop/menurc/resource-types) cursor resource.
 
 </dd> </dl>
 
 ## Remarks
 
-One or more **RESDIR** structures immediately follow the [**NEWHEADER**](newheader.md) structure in the .res file. The **ResCount** member of the **NEWHEADER** structure specifies the number of **RESDIR** structures. Note that the **RESDIR** structure consists of either an [**ICONRESDIR**](iconresdir.md) structure or a [**CURSORDIR**](cursordir.md) structure followed by the **Planes**, **BitCount**, **BytesInRes**, and **IconCursorId** members. If the **RESDIR** structure contains information about a cursor, the first two **WORD**s the resource compiler writes to the [RT\_CURSOR](/windows/desktop/menurc/resource-types) resource are the **xHotSpot** and **yHotSpot** members of the [**LOCALHEADER**](localheader.md) structure.
+One or more **RESDIR** structures immediately follow the [**NEWHEADER**](newheader.md) structure in the .res file. The **ResCount** member of the **NEWHEADER** structure specifies the number of **RESDIR** structures. Note that the **RESDIR** structure consists of either an [**ICONRESDIR**](iconresdir.md) structure or a [**CURSORDIR**](cursordir.md) structure followed by the **Planes**, **BitCount**, **BytesInRes**, and **IconCursorId** members. 
+
+If the **RESDIR** structure contains information about a cursor, the first two **WORD**s the resource compiler writes to the [RT\_CURSOR](/windows/desktop/menurc/resource-types) resource are the **xHotSpot** and **yHotSpot** members of the [**LOCALHEADER**](localheader.md) structure.
 
 ## Requirements
 
