@@ -25,7 +25,7 @@ ms.date: 05/31/2018
 This section discusses the following topics.
 
 -   [Creating a Cursor](#creating-a-cursor)
--   [Geting a Cursor size](#getting-a-cursor-size)
+-   [Getting a Cursor size](#getting-a-cursor-size)
 -   [Displaying a Cursor](#displaying-a-cursor)
 -   [Confining a Cursor](#confining-a-cursor)
 -   [Using Cursor Functions to Create a Mousetrap](#using-cursor-functions-to-create-a-mousetrap)
@@ -264,7 +264,7 @@ HCURSOR CreateAlphaCursor(void)
 
 Before closing, you must use the [**DestroyCursor**](/windows/desktop/api/Winuser/nf-winuser-destroycursor) function to destroy any cursors you created with [**CreateCursor**](/windows/desktop/api/Winuser/nf-winuser-createcursor) or [**CreateIconIndirect**](/windows/desktop/api/Winuser/nf-winuser-createiconindirect). It is not necessary to destroy cursors created by other functions.
 
-## Geting a Cursor size
+## Getting a Cursor size
 
 See [Getting the Icon size](/windows/win32/menurc/using-icons#getting-the-icon-size).
 

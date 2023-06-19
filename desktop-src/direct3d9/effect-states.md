@@ -125,7 +125,7 @@ There are two types of render states:
 Effect file render states have names similar to the fixed function pipeline states, often with the prefix removed.
 
 | Render State | Type | Values |
-|-|-|-|
+|---|---|---|
 | AlphaBlendEnable | bool | True or False. Same values as D3DRS_ALPHABLENDENABLE in <a href="/windows/desktop/direct3d9/d3drenderstatetype"><strong>D3DRENDERSTATETYPE</strong></a>. | 
 | AlphaFunc | dword | Same values as <a href="/windows/desktop/direct3d9/d3dcmpfunc"><strong>D3DCMPFUNC</strong></a> without the D3DCMP_ prefix. See D3DRS_ALPHAFUNC. | 
 | AlphaRef | dword | Same values as D3DRS_ALPHAREF. | 

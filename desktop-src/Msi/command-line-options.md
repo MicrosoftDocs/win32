@@ -76,7 +76,7 @@ The length of <em>filename</em> must be no more than eight characters.
 <tr class="even">
 <td><strong>/p</strong></td>
 <td><em>PatchPackage[;patchPackage2</em> ]</td>
-<td>Applies a patch. To apply a patch to an installed administrative image you must combine the following options:<br/> /p <em>&lt;PatchPackage&gt;[;patchPackage2 ]</em> /a <em>\<Package\></em><br/></td>
+<td>Applies a patch. To apply a patch to an installed administrative image you must combine the following options:<br/> /p <em>&lt;PatchPackage&gt;[;patchPackage2 ]</em> /a <em>&lt;Package&gt;</em><br/></td>
 </tr>
 <tr class="odd">
 <td><strong>/q</strong></td>
