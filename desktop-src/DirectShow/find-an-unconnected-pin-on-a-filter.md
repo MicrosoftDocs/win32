@@ -3,10 +3,13 @@ description: This topic describes how to find an unconnected pin on a filter. Fi
 ms.assetid: d0a906a8-bae4-43b3-8b02-ee5b97c9323d
 title: Find an Unconnected Pin on a Filter
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Find an Unconnected Pin on a Filter
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer) and [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine). **MediaPlayer** and **IMFMediaEngine** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** and **IMFMediaEngine** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 This topic describes how to find an unconnected pin on a filter. Finding an unconnected pin is useful when you are connecting filters.
 

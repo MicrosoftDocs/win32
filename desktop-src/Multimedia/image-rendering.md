@@ -9,10 +9,13 @@ keywords:
 - DrawDibGetBuffer function
 - DrawDibUpdate function
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Image Rendering
+
+\[The feature associated with this page, [DrawDib](/windows/win32/multimedia/drawdib), is a legacy feature. It has been superseded by [MediaComposition class](/uwp/api/Windows.Media.Editing.MediaComposition). **MediaComposition class** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaComposition class** instead of **DrawDib**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 After you call [**DrawDibOpen**](/windows/desktop/api/Vfw/nf-vfw-drawdibopen) to create a DrawDib DC (see [DrawDib Operations](drawdib-operations.md)), you can draw a DIB to the screen by using the [**DrawDibDraw**](/windows/desktop/api/Vfw/nf-vfw-drawdibdraw) function. **DrawDibDraw** dithers true-color bitmaps when displaying them with 8-bit display adapters.
 

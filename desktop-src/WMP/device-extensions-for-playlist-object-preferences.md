@@ -10,10 +10,13 @@ keywords:
 - extensions,Playlist object preferences
 - Playlist object
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Device Extensions for Playlist Object Preferences
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 As part of the synchronization process, Windows Media Player 10 or later copies playlist objects to MTP-enabled portable devices. Windows Media Player 11 introduces new functionality that enables portable devices to limit the types of playlist objects copied. (Windows Media Player always synchronizes playlist content as specified by the synchronization rules. This feature affects only the synchronization of playlist objects.) Windows Media Player copies three types of playlist objects from the computer to the device:
 

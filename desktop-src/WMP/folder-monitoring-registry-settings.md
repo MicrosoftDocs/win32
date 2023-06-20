@@ -12,10 +12,13 @@ keywords:
 - folder monitoring registry settings
 - file folder monitoring registry settings
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Folder Monitoring Registry Settings
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 Windows Media Player 9 Series or later can monitor file folders for new digital media files. When the Player detects a new file in a monitored folder, it automatically adds the file to the library. For Windows Media Player 9 through Windows Media Player 11, users can change the list of monitored folders by clicking **Monitor Folders** on the library tab of the **Options** dialog box. For Windows Media Player 12, a user can change the list of monitored folders by following the instructions in the topic [Add items to the Windows Media Player Library](https://windows.microsoft.com/windows7/Add-items-to-the-Windows-Media-Player-Library). For Windows Media Player 9 through Windows Media Player 11, you can programmatically add a folder to be monitored by adding a value to the registry. For Windows Media Player 12, you cannot use the registry to programmatically add or remove folders to be monitored.
 

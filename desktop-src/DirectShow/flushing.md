@@ -3,10 +3,13 @@ description: Flushing
 ms.assetid: '868218c4-3e1a-4da0-89fa-30a9848da0e8'
 title: Flushing
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Flushing
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer) and [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine). **MediaPlayer** and **IMFMediaEngine** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** and **IMFMediaEngine** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 While the filter graph is running, arbitrary amounts of data can be moving through the graph. Some of it might be in queues, waiting to be delivered. There are times when the filter graph needs to remove this pending data as quickly as possible and replace it with new data. After a seek command, for example, the source filter generates samples from a new position in the source. To minimize latency, downstream filters should discard any samples that were created before the seek command. The process of discarding samples is called *flushing*. It enables the graph to be more responsive when events alter the normal data flow.
 

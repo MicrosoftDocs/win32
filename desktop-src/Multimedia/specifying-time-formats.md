@@ -8,10 +8,13 @@ keywords:
 - MCIWndUseTime macro
 - MCIWndUseFrames macro
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Specifying Time Formats
+
+\[The feature associated with this page, [MCIWnd Window Class](/windows/win32/multimedia/mciwnd-window-class), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **MCIWnd Window Class**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 Multimedia data types typically can use time to identify significant positions within their content. Common time formats are milliseconds, tracks, and frames; other less common time formats, such as SMPTE (Society of Motion Picture and Television Engineers) 24, also exist. Time is the format and reference system for waveform-audio, MIDI, and CD audio data. Video supports time even though it is recorded as a sequence of frames (stream) that is typically played at a specific speed. Several macros are available for designating time format.
 

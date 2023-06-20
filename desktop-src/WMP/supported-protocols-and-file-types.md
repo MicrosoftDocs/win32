@@ -20,10 +20,13 @@ keywords:
 - protocols,Windows Media Player object model
 - file types for Windows Media Player object model
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Supported Protocols and File Types
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 Windows Media Player supports several protocols and many file types, all of which can be used when specifying URL values in the Player object model for properties such as *Player*.**URL** or in Windows Media metafile playlists. Additionally, the supported protocols can be used when specifying protocol values with the proxy-related methods of the **Network** object.
 

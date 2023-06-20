@@ -9,10 +9,13 @@ keywords:
 - DSP plug-ins,Echo sample testing
 - Echo DSP plug-in sample,testing
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Using the Echo Sample DSP Plug-in
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 When you create an error-free build of your Windows Media Player echo DSP plug-in, you can use it in Windows Media Player to hear the effect. When you start Windows Media Player, the plug-in should be enabled by default. If you play audio or video with audio, you should hear a one-second echo in the sound that plays at the same volume as the original sound.
 

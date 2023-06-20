@@ -13,10 +13,13 @@ keywords:
 - Synchronized Accessible Media Interchange (SAMI),files
 - SAMI (Synchronized Accessible Media Interchange),files
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # About SAMI Files
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 SAMI files are text files that have an .smi or .sami file name extension. They contain the text strings used for synchronized closed captions, subtitles, and audio descriptions. They also specify the timing parameters used by the Windows Media Player control to synchronize closed caption text with audio or video content. When a digital media file reaches a time designated in the SAMI file, the text changes accordingly in the closed caption display area of the webpage.
 

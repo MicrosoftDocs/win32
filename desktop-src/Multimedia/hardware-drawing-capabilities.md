@@ -7,10 +7,13 @@ keywords:
 - VCM (video compression manager),drawing
 - ICGetInfo function
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Hardware Drawing Capabilities
+
+\[The feature associated with this page, [Video Compression Manager](/windows/win32/multimedia/video-compression-manager), is a legacy feature. Microsoft strongly recommends that new code does not use this feature.\]
 
 Some renderers can draw directly to video hardware as they decompress video frames. These renderers return the VIDCF\_DRAW flag in response to the [**ICGetInfo**](/windows/desktop/api/Vfw/nf-vfw-icgetinfo) function. When using this type of renderer, your application does not have to handle the decompressed data. It lets the renderer retain the decompressed data for drawing.
 

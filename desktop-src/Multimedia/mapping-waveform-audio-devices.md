@@ -15,10 +15,13 @@ keywords:
 - mapper
 - waveform audio,mapping devices
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Mapping Waveform-Audio Devices
+
+\[The feature associated with this page, [﻿Audio Compression Manager](/windows/win32/multimedia/audio-compression-manager), is a legacy feature. Microsoft strongly recommends that new code does not use this feature.\]
 
 Windows provides a set of standard functions for audio devices. These functions issue calls to device drivers that manage hardware devices. The system uses a module called a "mapper" to manage installed devices. The mapper uses special hooks in the driver interface to intercept calls and to act as an intermediary between the system and the drivers installed in the system. The mapper is responsible for matching an application's requests for access to a device with the available devices and for finding a device that meets the current application's audio requirements. The system provides mappers for standard driver types: waveform-audio, MIDI (Musical Instrument Digital Interface), and auxiliary devices.
 

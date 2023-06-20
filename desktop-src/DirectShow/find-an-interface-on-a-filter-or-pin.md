@@ -3,10 +3,13 @@ description: Find an Interface on a Filter or Pin
 ms.assetid: 546f5b7d-3bcd-4e97-a012-daca6ae7bca1
 title: Find an Interface on a Filter or Pin
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Find an Interface on a Filter or Pin
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer) and [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine). **MediaPlayer** and **IMFMediaEngine** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** and **IMFMediaEngine** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 For many operations in DirectShow, the application calls methods on the Filter Graph Manager. In some situations, however, the application must call a method directly on a filter or pin. For example, many filters expose specialized interfaces that are used to configure the filter.
 

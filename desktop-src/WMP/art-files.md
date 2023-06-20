@@ -8,10 +8,13 @@ keywords:
 - files for skins,art
 - art files for skins,about
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Art Files
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 You must create one or more art files for your skin. Without art, the user will have nothing to look at. You could create an invisible skin, but no one would see it! And even then, you would still have to create art files to hold your invisible images, because the skin definition file requires art files for specific elements.
 

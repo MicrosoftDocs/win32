@@ -12,10 +12,13 @@ keywords:
 - schemes
 - custom scheme registry settings
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Custom Scheme Registry Settings
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 Schemes are custom protocols. Windows Media Player maintains a list of schemes in the registry on the user's computer. When the user attempts to play a digital media file, the Player first checks whether the Windows Media Format SDK supports the scheme. If it doesn't, the Player checks the scheme against the list in the registry. If a match is found, the Player then checks a value that indicates which underlying technology, or *runtime* (such as Microsoft DirectShow or the Windows Media Format SDK), can be used to play the file. If no match is found, the Player presents the user with a warning dialog box that prompts the user for permission to attempt to play the file. If you stream digital media files using a custom protocol scheme, you can prevent this warning from appearing on the user's computer by registering the scheme and providing a value for the runtime.
 

@@ -6,10 +6,13 @@ keywords:
 - Video for Windows (VFW),VCM architecture
 - VFW (Video for Windows),VCM architecture
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # VCM Architecture
+
+\[The feature associated with this page, [Video Compression Manager](/windows/win32/multimedia/video-compression-manager), is a legacy feature. Microsoft strongly recommends that new code does not use this feature.\]
 
 VCM is an intermediary between an application and compression and decompression drivers. The compression and decompression drivers compress and decompress individual frames of data.
 

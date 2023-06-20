@@ -3,7 +3,7 @@ description: The CheckVideoInfo2Type function checks a media type that contains 
 ms.assetid: 6a71ce7e-c6fc-4811-9182-67949644a0a5
 title: CheckVideoInfo2Type function (Checkbmi.h)
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 4/26/2023
 topic_type: 
 - APIRef
 - kbSyntax
@@ -13,9 +13,12 @@ api_type:
 - HeaderDef
 api_location: 
 - checkbmi.h
+ms.custom: UpdateFrequency5
 ---
 
 # CheckVideoInfo2Type function
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer) and [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine). **MediaPlayer** and **IMFMediaEngine** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** and **IMFMediaEngine** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The `CheckVideoInfo2Type` function checks a media type that contains a [**VIDEOINFOHEADER2**](/previous-versions/windows/desktop/api/dvdmedia/ns-dvdmedia-videoinfoheader2) format structure for certain common errors that can cause buffer overruns or integer overflows.
 

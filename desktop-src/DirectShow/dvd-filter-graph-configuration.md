@@ -3,10 +3,13 @@ description: DVD Filter Graph Configuration
 ms.assetid: 0c68c456-2240-4090-b45c-bd098cfea645
 title: DVD Filter Graph Configuration
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # DVD Filter Graph Configuration
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer) and [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine). **MediaPlayer** and **IMFMediaEngine** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** and **IMFMediaEngine** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 This section describes the various filter graph configurations for DVD playback in DirectShow. These diagrams are provided mainly for reference. The DVD Navigator builds the graph, so in general it is not necessary to understand the details of how the graph is configured. For more information, see [Building the DVD Filter Graph](building-the-dvd-filter-graph.md).
 

@@ -3,7 +3,7 @@ description: Verifies that the calling process has read access to a memory block
 ms.assetid: 1a70e4e5-e144-4cfe-b6be-c0a70aac9ada
 title: ValidateReadPtr macro (Wxdebug.h)
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 4/26/2023
 topic_type: 
 - APIRef
 - kbSyntax
@@ -13,9 +13,12 @@ api_type:
 - HeaderDef
 api_location: 
 - Wxdebug.h
+ms.custom: UpdateFrequency5
 ---
 
 # ValidateReadPtr macro
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer) and [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine). **MediaPlayer** and **IMFMediaEngine** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** and **IMFMediaEngine** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 Verifies that the calling process has read access to a memory block. If not, the macro calls the [**DbgBreak**](dbgbreak.md) macro.
 

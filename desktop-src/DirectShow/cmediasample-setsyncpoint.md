@@ -3,7 +3,7 @@ description: The SetSyncPoint method specifies whether the beginning of this sam
 ms.assetid: 48fc5145-7cce-4e76-860d-45a0d5b43b67
 title: CMediaSample.SetSyncPoint method (Amfilter.h)
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 4/26/2023
 topic_type: 
 - APIRef
 - kbSyntax
@@ -16,9 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
+ms.custom: UpdateFrequency5
 ---
 
 # CMediaSample.SetSyncPoint method
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer) and [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine). **MediaPlayer** and **IMFMediaEngine** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** and **IMFMediaEngine** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The `SetSyncPoint` method specifies whether the beginning of this sample is a synchronization point. This method implements the [**IMediaSample::SetSyncPoint**](/windows/desktop/api/Strmif/nf-strmif-imediasample-setsyncpoint) method.
 

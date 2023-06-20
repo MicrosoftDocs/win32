@@ -3,7 +3,7 @@ description: The GetDestinationPosition method retrieves the destination rectang
 ms.assetid: 780cbcb5-1db5-4087-8c51-350183cfca31
 title: CBaseControlVideo.GetDestinationPosition method (Ctlutil.h)
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 4/26/2023
 topic_type: 
 - APIRef
 - kbSyntax
@@ -16,9 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
+ms.custom: UpdateFrequency5
 ---
 
 # CBaseControlVideo.GetDestinationPosition method
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer) and [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine). **MediaPlayer** and **IMFMediaEngine** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** and **IMFMediaEngine** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The `GetDestinationPosition` method retrieves the destination rectangle in one atomic operation.
 

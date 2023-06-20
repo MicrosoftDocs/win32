@@ -3,10 +3,13 @@ title: Creating a Virtual Function Table for a Stream Handler
 description: Creating a Virtual Function Table for a Stream Handler
 ms.assetid: 8f43b0d4-6710-4175-8da0-aafd6b6d753a
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Creating a Virtual Function Table for a Stream Handler
+
+\[The feature associated with this page, [Custom File and Stream Handlers](/windows/win32/multimedia/custom-file-and-stream-handlers), is a legacy feature. It has been superseded by [MediaStreamSource class](/uwp/api/Windows.Media.Core.MediaStreamSource). **MediaStreamSource class** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaStreamSource class** instead of **Custom File and Stream Handlers**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The following example (written in C) shows how an application (AVIBall) creates the virtual function table used to reference its services.
 

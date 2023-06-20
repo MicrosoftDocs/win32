@@ -7,10 +7,13 @@ keywords:
 - VFW (Video for Windows),video capture
 - AVICap,about
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Video Capture (Windows Multimedia)
+
+\[The feature associated with this page, [Video Compression Manager](/windows/win32/multimedia/video-compression-manager), is a legacy feature. Microsoft strongly recommends that new code does not use this feature.\]
 
 You can easily incorporate video capture capabilities into your application by using the AVICap window class. AVICap provides applications with a simple, message-based interface to access video and waveform-audio acquisition hardware and to control the process of streaming video capture to disk.
 

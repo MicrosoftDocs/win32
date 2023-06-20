@@ -13,10 +13,13 @@ keywords:
 - Advanced Systems Format (ASF),outputs
 - ASF (Advanced Systems Format),outputs
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Inputs, Streams, and Outputs
+
+\[The feature associated with this page, [Windows Media Format 11 SDK](/windows/win32/wmformat/windows-media-format-11-sdk), is a legacy feature. It has been superseded by [Source Reader](/windows/win32/medfound/source-reader) and [Sink Writer](/windows/win32/medfound/sink-writer). **Source Reader** and **Sink Writer** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **Source Reader** and **Sink Writer** instead of **Windows Media Format 11 SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 An "input" in this documentation is any digital media data stream (such as audio or video) that your application delivers to the writer object from a source by using appropriate APIs. Inputs must be delivered in a supported format. Several standard RGB and YUV formats are supported as input, and the audio codecs support PCM. If a specified input format is not supported natively by the codec, the writer object will instantiate either an audio or video helper object that is capable of converting a wide variety of formats into formats the codec can accept. For audio inputs, the helper object will adjust the bit depth, sample rate, and number of channels as necessary. For video inputs, the video helper object will perform color-space conversions and rectangle-size adjustments. In some cases, compressed audio and video data can be passed in an input stream. An input may be of some other media type besides audio and video, such as text, script commands, still images, or arbitrary file data.
 

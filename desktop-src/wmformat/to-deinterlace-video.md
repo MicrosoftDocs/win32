@@ -16,10 +16,13 @@ keywords:
 - inverse telecine,about
 - telecine,about
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # To Deinterlace Video
+
+\[The feature associated with this page, [Windows Media Format 11 SDK](/windows/win32/wmformat/windows-media-format-11-sdk), is a legacy feature. It has been superseded by [Source Reader](/windows/win32/medfound/source-reader) and [Sink Writer](/windows/win32/medfound/sink-writer). **Source Reader** and **Sink Writer** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **Source Reader** and **Sink Writer** instead of **Windows Media Format 11 SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 Some sources of video, such as video capture cards, deliver video data for interlaced display. Each frame of interlaced video is made up of two fields. The top field contains the first line of video and every other line thereafter. The bottom field contains the second line of video and every other line thereafter. So one field contains all of the even numbered lines and the other contains all of the odd numbered lines. The fields that make up a frame represent slightly different presentation times so that, when interleaved, they do not form a static image.
 

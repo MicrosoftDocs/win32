@@ -5,10 +5,13 @@ ms.assetid: 6ee30446-7505-40ae-b664-3727a5be9976
 keywords:
 - Windows Media Player Online Stores
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Startup Information Form for an Online Music Store
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 Please fill out and send one form for each store and each locale to the Windows Media Player Services Virtual Team at mpsvctm@microsoft.com.
 

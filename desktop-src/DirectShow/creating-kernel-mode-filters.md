@@ -3,10 +3,13 @@ description: Creating Kernel-Mode Filters
 ms.assetid: cbc86a5d-c53a-44a0-aa81-5c41527a8f67
 title: Creating Kernel-Mode Filters
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Creating Kernel-Mode Filters
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer) and [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine). **MediaPlayer** and **IMFMediaEngine** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** and **IMFMediaEngine** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 Certain kernel-mode filters cannot be created through **CoCreateInstance**, and thus do not have CLSIDs. These filters include the [Tee/Sink-to-Sink Converter](tee-sink-to-sink-converter.md), the [CC Decoder](cc-decoder-filter.md) filter, and the [WST Codec](wst-codec-filter.md) filter. To create one of these filters, use the [System Device Enumerator](system-device-enumerator.md) object and search by the filter's name.
 

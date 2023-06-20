@@ -8,10 +8,13 @@ keywords:
 - ASF (Advanced Systems Format),script commands
 - scripts,commands
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Using Script Commands
+
+\[The feature associated with this page, [Windows Media Format 11 SDK](/windows/win32/wmformat/windows-media-format-11-sdk), is a legacy feature. It has been superseded by [Source Reader](/windows/win32/medfound/source-reader) and [Sink Writer](/windows/win32/medfound/sink-writer). **Source Reader** and **Sink Writer** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **Source Reader** and **Sink Writer** instead of **Windows Media Format 11 SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The Windows Media Format SDK supports the use of script commands to communicate application actions in ASF files. Each script command is made up of two strings, the first string is the type of command, the second is the command data. For example, you can use the script type "URL" and pass a valid Internet URL as the command data. When a reading application that supports script commands of type "URL" receives this command, it will open the specified address in a browser window.
 

@@ -3,10 +3,13 @@ description: Many of the debugging facilities described in this topic are implem
 ms.assetid: 40b4f2ab-e629-41a0-b979-d74ac5fe83a2
 title: Debugging DirectShow Filters
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Debugging DirectShow Filters
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer) and [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine). **MediaPlayer** and **IMFMediaEngine** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** and **IMFMediaEngine** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 Many of the debugging facilities described in this topic are implemented in the DirectShow base class library. For more information, see [DirectShow Base Classes](directshow-base-classes.md).
 

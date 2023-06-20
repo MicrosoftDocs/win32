@@ -3,10 +3,13 @@ description: Previewing TV Audio
 ms.assetid: 25da8bcc-51c1-49f0-b4b5-885ff4f254d8
 title: Previewing TV Audio
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Previewing TV Audio
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer) and [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine). **MediaPlayer** and **IMFMediaEngine** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** and **IMFMediaEngine** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 To preview TV audio, route the Audio Decoder pin on the crossbar filter to the Audio Tuner pin. To mute the audio, route the Audio Decoder pin to -1, as shown in the following diagram. (Crossbar filters are described in [Working with Crossbars](working-with-crossbars.md).)
 

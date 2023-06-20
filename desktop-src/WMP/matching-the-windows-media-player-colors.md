@@ -20,10 +20,13 @@ keywords:
 - Windows Media Player,matching colors
 - Windows Media Player,color matching
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Matching the Windows Media Player Colors
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 Making your online store webpage match the Windows Media Player color scheme is easy. Simply handle the **External.OnColorChange** event. To specify a function to handle the event, use code like the following when your webpage loads:
 

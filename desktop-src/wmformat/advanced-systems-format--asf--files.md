@@ -7,10 +7,13 @@ keywords:
 - Advanced Systems Format (ASF),files overview
 - ASF (Advanced Systems Format),files overview
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Advanced Systems Format (ASF) Files
+
+\[The feature associated with this page, [Windows Media Format 11 SDK](/windows/win32/wmformat/windows-media-format-11-sdk), is a legacy feature. It has been superseded by [Source Reader](/windows/win32/medfound/source-reader) and [Sink Writer](/windows/win32/medfound/sink-writer). **Source Reader** and **Sink Writer** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **Source Reader** and **Sink Writer** instead of **Windows Media Format 11 SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 All of the objects of the Windows Media Format SDK work with files that conform to the Advanced Systems Format (ASF) file structure. These files are referred to as ASF files in this documentation. For more information about the structure of ASF files, see [Overview of the ASF Format](overview-of-the-asf-format.md).
 

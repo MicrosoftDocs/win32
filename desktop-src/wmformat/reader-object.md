@@ -9,10 +9,13 @@ keywords:
 - objects,reader objects
 - reader objects,about
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Reader Object
+
+\[The feature associated with this page, [Windows Media Format 11 SDK](/windows/win32/wmformat/windows-media-format-11-sdk), is a legacy feature. It has been superseded by [Source Reader](/windows/win32/medfound/source-reader) and [Sink Writer](/windows/win32/medfound/sink-writer). **Source Reader** and **Sink Writer** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **Source Reader** and **Sink Writer** instead of **Windows Media Format 11 SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The reader object reads data samples from media files. The reader object currently supports files using the advanced systems format (ASF) file structure as well as MP3 files. Data delivered by the reader object is uncompressed and ready for rendering by default, though samples can be delivered without being decompressed if desired. Samples are delivered asynchronously from the reader object; you must set up a callback function to receive them. For synchronous playback of ASF files, use the synchronous reader object. Neither the reader nor synchronous reader renders any data. You must provide your own rendering routines to display the media retrieved from a file.
 

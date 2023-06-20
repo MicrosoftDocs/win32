@@ -9,10 +9,13 @@ keywords:
 - finding drivers
 - acmDriverEnum function
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Finding a Specific Driver
+
+\[The feature associated with this page, [﻿Audio Compression Manager](/windows/win32/multimedia/audio-compression-manager), is a legacy feature. Microsoft strongly recommends that new code does not use this feature.\]
 
 You might want your application to send a message directly to a specific driver or to identify certain drivers from the list. For example, you might want your application to identify those drivers that support filters and then query each driver to determine which filter tags it supports. You can use the [**acmDriverEnum**](/windows/desktop/api/Msacm/nf-msacm-acmdriverenum) function to obtain a handle to the desired driver or drivers; this handle can then be used to communicate with that driver.
 

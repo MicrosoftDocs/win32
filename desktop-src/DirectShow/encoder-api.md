@@ -3,10 +3,13 @@ description: Encoder API
 ms.assetid: 3d19152f-17a3-4576-a2a2-5b827d9ca8d1
 title: Encoder API
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Encoder API
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer) and [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine). **MediaPlayer** and **IMFMediaEngine** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** and **IMFMediaEngine** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The Encoder API provides a uniform interface for configuring software and hardware encoders. Applications can use the Encoder API to configure an encoder and to store the configuration settings. Encoder vendors can use the Encoder API to expose the capabilities of an encoder. Although the Encoder API is designed primarily for encoders, it is general enough that decoders can support it as well.
 

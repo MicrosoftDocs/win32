@@ -5,10 +5,13 @@ ms.assetid: b29a07d1-1b92-4d66-9f2d-ccfbf4074876
 keywords:
 - mciSendCommand function
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Recording with a Waveform-Audio Device
+
+\[The feature associated with this page, [MCI](/windows/win32/multimedia/mci), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **MCI**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The following example opens a waveform-audio device with a new file, records for the specified time, plays the recording, and prompts the user to save the recording if desired. It uses the [**mciSendCommand**](/previous-versions//dd757160(v=vs.85)) function.
 

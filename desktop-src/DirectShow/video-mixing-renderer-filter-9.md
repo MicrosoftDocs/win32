@@ -3,10 +3,13 @@ description: Video Mixing Renderer Filter 9
 ms.assetid: 3885cca2-74b1-4066-8ecb-84c9841f9e66
 title: Video Mixing Renderer Filter 9
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Video Mixing Renderer Filter 9
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer) and [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine). **MediaPlayer** and **IMFMediaEngine** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** and **IMFMediaEngine** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 In DirectX 9, the Video Mixing Renderer 9 (VMR-9) filter offers advanced video rendering capabilities on all platforms supported by DirectX. It is fully integrated with DirectX 9 3D capabilities. For example, that you can easily add video to games and other 3D environments or transform video images using the Direct3D pixel shaders and other effects.
 

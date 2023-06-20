@@ -3,10 +3,13 @@ description: Introduction to DirectShow Filter Development
 ms.assetid: d5162ea4-ef37-4993-a82c-782f03b08c64
 title: Introduction to DirectShow Filter Development
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Introduction to DirectShow Filter Development
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer) and [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine). **MediaPlayer** and **IMFMediaEngine** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** and **IMFMediaEngine** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 This section gives a brief outline of the tasks involved in developing a custom DirectShow filter. It also provides links to topics that discuss these tasks in greater detail. Before reading this section, read the topics in [About DirectShow](about-directshow.md), which describe the overall DirectShow architecture.
 

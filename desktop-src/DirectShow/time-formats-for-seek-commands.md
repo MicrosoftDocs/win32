@@ -3,10 +3,13 @@ description: Time Formats For Seek Commands
 ms.assetid: d9c1b860-f75f-4886-95d6-c62e9e5b69eb
 title: Time Formats For Seek Commands
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Time Formats For Seek Commands
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer) and [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine). **MediaPlayer** and **IMFMediaEngine** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** and **IMFMediaEngine** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 Many of the methods in the **IMediaSeeking** interface have parameters that express position values, such as current position or stop position. By default, these parameters are expressed in units of 100 nanoseconds, also called reference time. Any filter that can seek must support seeking by reference time. Some filters can seek using other units of time as well, such as seeking to a particular frame number, or seeking to a given byte offset within a stream. Each of these time units is called a time format, and is defined by a globally unique identifier (GUID). For a list of the time formats that are defined by DirectShow, see [**Time Format GUIDs**](time-format-guids.md). Third parties can also define GUIDs for custom time formats.
 

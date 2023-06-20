@@ -3,10 +3,13 @@ description: How Decoders Use IAMVideoAccelerator
 ms.assetid: 0bc6b65b-4502-4c6f-a0f2-82a2bd444d1d
 title: How Decoders Use IAMVideoAccelerator
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # How Decoders Use IAMVideoAccelerator
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer) and [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine). **MediaPlayer** and **IMFMediaEngine** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** and **IMFMediaEngine** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The [**IAMVideoAccelerator**](/previous-versions/windows/desktop/api/videoacc/nn-videoacc-iamvideoaccelerator) interface enables generic video acceleration operations, including DirectX Video Acceleration (VA). For non-DirectX VA acceleration, the decoder and video driver must both adhere to a common protocol.
 

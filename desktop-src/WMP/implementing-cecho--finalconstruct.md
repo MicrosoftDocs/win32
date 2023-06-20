@@ -10,10 +10,13 @@ keywords:
 - Echo DSP plug-in sample,property pages
 - Echo DSP plug-in sample,CEcho FinalConstruct method
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Implementing CEcho::FinalConstruct
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The CEcho::FinalConstruct method is implemented in Echo.cpp. It contains code to read the property values from the registry when Windows Media Player instantiates the DSP plug-in object. This is important because it allows the user settings to persist between instances of the object, as well as between sessions. The plug-in wizard sample code provides implementation to read a single property from the registry. You can modify this code to handle the delay time property, and then add code to read the wet mix property value.
 

@@ -18,10 +18,13 @@ keywords:
 - audio compression manager (ACM),driver procedures
 - ACM (audio compression manager),driver procedures
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Functions Called by the System
+
+\[The feature associated with this page, [﻿Audio Compression Manager](/windows/win32/multimedia/audio-compression-manager), is a legacy feature. Microsoft strongly recommends that new code does not use this feature.\]
 
 The system calls three different kinds of application-defined functions. Callback functions are functions in your application that the system calls in response to a request made by an application. Hook procedures help an application handle the customization of dialog boxes. A driver procedure is an application's implementation of its own codec, converter, or filter.
 

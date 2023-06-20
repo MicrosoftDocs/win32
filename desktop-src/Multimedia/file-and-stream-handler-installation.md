@@ -3,10 +3,13 @@ title: File and Stream Handler Installation
 description: File and Stream Handler Installation
 ms.assetid: 8d007ea4-b75a-4b3f-965f-8091fcd4cb2f
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # File and Stream Handler Installation
+
+\[The feature associated with this page, [Custom File and Stream Handlers](/windows/win32/multimedia/custom-file-and-stream-handlers), is a legacy feature. It has been superseded by [MediaStreamSource class](/uwp/api/Windows.Media.Core.MediaStreamSource). **MediaStreamSource class** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaStreamSource class** instead of **Custom File and Stream Handlers**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The AVIFile library uses installed stream and file handlers for reading and writing AVI files and streams. A handler is installed when it resides in the Windows SYSTEM directory and the registry contains the following information needed to describe and identify a handler:
 
