@@ -142,7 +142,7 @@ When constructing your [**SWbemNamedValueSet**](swbemnamedvalueset.md), only the
 </tr>
 <tr class="odd">
 <td>IncludeClassOrigin</td>
-<td><strong>VT_BOOL</strong><br/> If <strong>TRUE</strong>, the class origin attribute is set on the <PROPERTY> and <METHOD> elements. The default is <strong>FALSE</strong>.<br/></td>
+<td><strong>VT_BOOL</strong><br/> If <strong>TRUE</strong>, the class origin attribute is set on the &gt;PROPERTY&gt; and <METHOD> elements. The default is <strong>FALSE</strong>.<br/></td>
 </tr>
 </tbody>
 </table>
