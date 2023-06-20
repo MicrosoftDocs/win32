@@ -349,7 +349,7 @@ Set of values that indicate correspondence between an object's property and othe
 
 Object properties are identified using the following syntax.
 
-<schema name> "\_" <class or association name> "." <property name>
+&lt;schema name&gt; "\_" &lt;class or association name&gt; "." &lt;property name&gt;
 
 </dd> <dt>
 

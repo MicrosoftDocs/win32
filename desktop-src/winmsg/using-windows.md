@@ -232,7 +232,7 @@ For windows 10/11, one can include this compatibility snippet in its `app.manife
 </compatibility>
 ...
 ```
-More about modifying app manifest can be read here :  [Application manifests](https://learn.microsoft.com/en-us/windows/win32/sbscs/application-manifests)
+More about modifying app manifest can be read here :  [Application manifests](/windows/win32/sbscs/application-manifests)
  
 
  

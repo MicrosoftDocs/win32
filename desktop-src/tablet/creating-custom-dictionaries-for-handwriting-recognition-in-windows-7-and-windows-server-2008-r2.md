@@ -90,7 +90,7 @@ Replacing a system dictionary does nothing to the original system dictionary con
 <br/> If a type value starts with the prefix SECONDARY, the compiled dictionary will supplement the system dictionary without replacing it.</td>
 </tr>
 <tr class="odd">
-<td>-comment \<comment>\</td>
+<td>-comment &lt;comment&gt;</td>
 <td>The specified comment is compiled into the dictionary file. The comment must be a single string and no longer than 64 characters.</td>
 </tr>
 <tr class="even">
