@@ -131,7 +131,7 @@ Effect file render states have names similar to the fixed function pipeline stat
 | AlphaRef | dword | Same values as D3DRS_ALPHAREF. | 
 | AlphaTestEnable | dword | True or False. See D3DRS_ALPHATESTENABLE. | 
 | BlendOp | dword | Same values as <a href="/windows/desktop/direct3d9/d3dblendop"><strong>D3DBLENDOP</strong></a> without the D3DBLENDOP_ prefix. | 
-| ColorWriteEnable | dword | Bitwise combination of RED|GREEN|BLUE|ALPHA. See D3DRS_COLORWRITEENABLE. | 
+| ColorWriteEnable | dword | Bitwise combination of RED, GREEN, BLUE, and ALPHA. See D3DRS_COLORWRITEENABLE. | 
 | DepthBias | float | Same values as D3DRS_DEPTHBIAS. | 
 | DestBlend | dword | Same values as <a href="/windows/desktop/direct3d9/d3dblend"><strong>D3DBLEND</strong></a> without the D3DBLEND_ prefix. | 
 | DitherEnable | bool | True or False. Same values as D3DRS_DITHERENABLE. | 
