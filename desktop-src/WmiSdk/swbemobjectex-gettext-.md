@@ -131,9 +131,9 @@ When constructing your [**SWbemNamedValueSet**](swbemnamedvalueset.md), only the
 <td><strong>VT-I4</strong><br/> Default is 0 (zero). Possible values are:<br/>
 <ul>
 <li>0: A &lt;CLASS&gt; or &lt;INSTANCE&gt; element is created depending on whether the object is a class or instance.</li>
-<li>1: A <VALUE.NAMEDOBJECT> element is generated.</li>
-<li>2: A <VALUE.OBJECTWITHLOCALPATH> element is generated.</li>
-<li>3: A <VALUE.OBJECTWITHPATH> element is generated.</li>
+<li>1: A &lt;VALUE.NAMEDOBJECT&gt; element is generated.</li>
+<li>2: A &gt;VALUE.OBJECTWITHLOCALPATH&gt; element is generated.</li>
+<li>3: A &gt;VALUE.OBJECTWITHPATH&gt; element is generated.</li>
 </ul></td>
 </tr>
 <tr class="even">

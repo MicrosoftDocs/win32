@@ -72,7 +72,7 @@ The arguments and options for this tool are described in the following table.
 </tr>
 <tr class="even">
 <td>/res:&lt;resourceFile&gt;</td>
-<td>Generate a resource file called \<resourceFile> that links all image and string resources, the binary markup file, and the header file to the host application at build time. If omitted, a resource file is not generated.</td>
+<td>Generate a resource file called &lt;resourceFile&gt; that links all image and string resources, the binary markup file, and the header file to the host application at build time. If omitted, a resource file is not generated.</td>
 </tr>
 <tr class="odd">
 <td>/name:<ribbonName></td>

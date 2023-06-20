@@ -64,9 +64,9 @@ The following procedure describes how to encode an object in XML using C or C++.
     <tr class="even">
     <td>&quot;PathLevel&quot; <strong>VT_I4</strong></td>
     <td><dl> 0 = A &lt;CLASS&gt; or &lt;INSTANCE&gt; element is generated.<br />
-    1 = A <VALUE.NAMEDOBJECT> element is generated.<br />
-    2 = A <VALUE.OBJECTWITHLOCALPATH> element is generated.<br />
-    3 = A <VALUE.OBJECTWITHPATH> is generated.<br />
+    1 = A &lt;VALUE.NAMEDOBJECT> element is generated.<br />
+    2 = A &lt;VALUE.OBJECTWITHLOCALPATH> element is generated.<br />
+    3 = A &lt;VALUE.OBJECTWITHPATH> is generated.<br />
     </dl> The default is 0 (zero).<br/></td>
     </tr>
     </tbody>

@@ -94,8 +94,8 @@ Replacing a system dictionary does nothing to the original system dictionary con
 <td>The specified comment is compiled into the dictionary file. The comment must be a single string and no longer than 64 characters.</td>
 </tr>
 <tr class="even">
-<td>-o <dictfile.hwrdict></td>
-<td>Output is written to the file name specified by <dictfile.hwrdict>.<br/> If this option is missing, the output file name is derived from the original input file name, with the input file extension replaced by .hwrdict.<br/></td>
+<td>-o &lt;dictfile.hwrdict&gt;</td>
+<td>Output is written to the file name specified by &lt;dictfile.hwrdict&gt;.<br/> If this option is missing, the output file name is derived from the original input file name, with the input file extension replaced by .hwrdict.<br/></td>
 </tr>
 </tbody>
 </table>

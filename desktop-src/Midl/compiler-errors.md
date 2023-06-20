@@ -663,7 +663,7 @@ The following error messages are generated during MIDL compilation:
 </tr>
 <tr class="even">
 <td><span id="MIDL2155"></span><span id="midl2155"></span><dl> <dt><strong>MIDL2155</strong></dt> </dl></td>
-<td><dl> <dt><span id="declaration_must_be_of_the_form__const__type__declarator_____initializing_expression_"></span><span id="DECLARATION_MUST_BE_OF_THE_FORM__CONST__TYPE__DECLARATOR_____INITIALIZING_EXPRESSION_"></span>declaration must be of the form: const &lt;type&gt; &lt;declarator&gt; = <initializing expression></dt> <dd> The declaration is not compatible with DCE RPC syntax. Use the <a href="-ms-ext.md"><strong>/ms_ext</strong></a> or <a href="-c-ext.md"><strong>/c_ext</strong></a> MIDL compiler mode switch.<br/> </dd> </dl></td>
+<td><dl> <dt><span id="declaration_must_be_of_the_form__const__type__declarator_____initializing_expression_"></span><span id="DECLARATION_MUST_BE_OF_THE_FORM__CONST__TYPE__DECLARATOR_____INITIALIZING_EXPRESSION_"></span>declaration must be of the form: const &lt;type&gt; &lt;declarator&gt; = &lt;initializing expression&gt;</dt> <dd> The declaration is not compatible with DCE RPC syntax. Use the <a href="-ms-ext.md"><strong>/ms_ext</strong></a> or <a href="-c-ext.md"><strong>/c_ext</strong></a> MIDL compiler mode switch.<br/> </dd> </dl></td>
 </tr>
 <tr class="odd">
 <td><span id="MIDL2156"></span><span id="midl2156"></span><dl> <dt><strong>MIDL2156</strong></dt> </dl></td>
