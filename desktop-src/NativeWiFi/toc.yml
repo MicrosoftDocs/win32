@@ -418,9 +418,9 @@
           - name: "MSM (LANProfile) Element"
             href: lan-profileschema-msm-lanprofile-element.md
           - name: "OneXEnabled (security) Element"
-            href: lan-profileschema-onexenabled-security-element.md
+            href: lan-profileschema-security-msm-element.md#onexenabled
           - name: "OneXEnforced (security) Element"
-            href: lan-profileschema-onexenforced-security-element.md
+            href: lan-profileschema-security-msm-element.md#onexenforced
           - name: "security (MSM) Element"
             href: lan-profileschema-security-msm-element.md
       - name: "OneX Schema"

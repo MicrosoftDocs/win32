@@ -1,9 +1,8 @@
 ---
 title: MSM (LANProfile) element
 description: Contains media-specific module (MSM) settings.
-ms.assetid: fe858701-e0eb-4817-b3c2-ae61e96a4cbe
 ms.topic: reference
-ms.date: 06/13/2023
+ms.date: 06/20/2023
 topic_type: 
 - APIRef
 - kbSyntax
@@ -12,13 +11,14 @@ api_name:
 api_type: 
 - Schema
 api_location: 
+ms.assetid: fe858701-e0eb-4817-b3c2-ae61e96a4cbe
 ---
 
 # MSM (LANProfile) element
 
 The MSM (LANProfile) element contains media-specific module (MSM) settings.
 
-``` syntax
+```syntax
 <xs:element name="MSM">
     <xs:complexType>
         <xs:sequence>
@@ -36,27 +36,19 @@ The MSM (LANProfile) element contains media-specific module (MSM) settings.
 </xs:element>
 ```
 
-The **MSM** element is defined by the [**LANProfile**](lan-profileschema-lanprofile-element.md) element.
+## Parent elements
+
+* [LANProfile](./lan-profileschema-lanprofile-element.md)
 
 ## Child elements
 
 | Element | Type | Description |
-|-|-|-|
-| [**security**](lan-profileschema-security-msm-element.md) | | Contains security settings.  |
+| - | - | - |
+| [**security**](./lan-profileschema-security-msm-element.md) |  | Contains security settings. |
 
 ## Requirements
 
 | Requirement | Value |
-|-|-|
+| - | - |
 | Minimum supported client | Windows Vista \[desktop apps only\] |
 | Minimum supported server | Windows Server 2008 \[desktop apps only\] |
-
-## See also
-
-**Definition context of element in schema**
-
-* [**LANProfile**](lan-profileschema-lanprofile-element.md)
-
-**Possible immediate parent element in schema instance**
-
-* [**LANProfile**](lan-profileschema-lanprofile-element.md)

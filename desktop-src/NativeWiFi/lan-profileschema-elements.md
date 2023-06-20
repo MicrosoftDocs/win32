@@ -3,7 +3,7 @@ title: LAN_profile schema elements
 description: A wired network profile contains the following schema elements.
 ms.assetid: 3f316725-0cb9-414c-a267-875b3ad67765
 ms.topic: article
-ms.date: 06/13/2023
+ms.date: 06/20/2023
 topic_type: 
 - kbArticle
 api_name: 
@@ -20,9 +20,9 @@ The following list shows the defined elements in the order in which the elements
 > [!NOTE]
 > The **OneX** configuration parameters must be present if either the `OneXEnforced` or `OneXEnabled` flag is set to "true".
 
--   [**LANProfile**](lan-profileschema-lanprofile-element.md)
-    -   [**MSM (LANProfile)**](lan-profileschema-msm-lanprofile-element.md)
-        -   [**security (MSM)**](lan-profileschema-security-msm-element.md)
-            -   [**OneXEnforced (security)**](lan-profileschema-onexenforced-security-element.md)
-            -   [**OneXEnabled (security)**](lan-profileschema-onexenabled-security-element.md)
+-   [**LANProfile**](./lan-profileschema-lanprofile-element.md)
+    -   [**MSM (LANProfile)**](./lan-profileschema-msm-lanprofile-element.md)
+        -   [**security (MSM)**](./lan-profileschema-security-msm-element.md)
+            -   [**OneXEnforced (security)**](./lan-profileschema-security-msm-element.md#onexenforced)
+            -   [**OneXEnabled (security)**](./lan-profileschema-security-msm-element.md#onexenabled)
             -   [**OneX**](/windows/win32/nativewifi/onexschema-onex-element)
