@@ -54,8 +54,8 @@ The security (MSM) element contains security settings for wired networks. This e
 
 | Element | Type | Description |
 | - | - | - |
-| [**OneXEnforced**](#onexenforced) | boolean | Specifies whether the automatic configuration service for wired networks will attempt port authentication using 802.1X. |
-| [**OneXEnabled**](#onexenabled) | boolean | Specifies whether the automatic configuration service for wired networks requires the use of 802.1X for port authentication. |
+| [**OneXEnforced**](#onexenforced) | boolean | Specifies whether the automatic configuration service for wired networks requires the use of 802.1X for port authentication. |
+| [**OneXEnabled**](#onexenabled) | boolean | Specifies whether the automatic configuration service for wired networks will attempt port authentication using 802.1X. |
 | [**OneX**](/windows/win32/nativewifi/onexschema-onex-element) | | Optional IEEE802.1X configuration. |
 
 ### OneXEnforced
