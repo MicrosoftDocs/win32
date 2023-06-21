@@ -20,7 +20,7 @@ ms.date: 05/31/2018
 
 Sent to the owner window of a combo box, list box, list-view control, or menu item when the control or menu is created.
 
-A window receives this message through its [*WindowProc*](/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)) function.
+A window receives this message through its [*WindowProc*](/windows/win32/api/winuser/nc-winuser-wndproc) function.
 
 
 ```C++

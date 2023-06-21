@@ -20,7 +20,7 @@ ms.date: 05/31/2018
 
 The **SBM\_GETRANGE** message is sent to retrieve the minimum and maximum position values for the scroll bar control.
 
-Applications should not send this message directly. Instead, they should use the [**GetScrollRange**](/windows/desktop/api/Winuser/nf-winuser-getscrollrange) function. A window receives this message through its [*WindowProc*](/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)) function. Applications which implement a custom scroll bar control must respond to these messages for the **GetScrollRange** function to work properly.
+Applications should not send this message directly. Instead, they should use the [**GetScrollRange**](/windows/desktop/api/Winuser/nf-winuser-getscrollrange) function. A window receives this message through its [*WindowProc*](/windows/win32/api/winuser/nc-winuser-wndproc) function. Applications which implement a custom scroll bar control must respond to these messages for the **GetScrollRange** function to work properly.
 
 ## Parameters
 

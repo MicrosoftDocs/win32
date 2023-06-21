@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 
 -   [**CallWindowProc**](/windows/win32/api/winuser/nf-winuser-callwindowproca)
 -   [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca)
--   [*WindowProc*](/previous-versions/windows/desktop/legacy/ms633573(v=vs.85))
+-   [*WindowProc*](/windows/win32/api/winuser/nc-winuser-wndproc)
 
  
 
