@@ -51,7 +51,7 @@ The following example shows how to identify an Option instance using a 'name' at
       &lt;psf:Value xsi:type=&quot;xs:integer&quot;>_Undefined_&lt;psf:Value&gt;
     &lt;/psf:ScoredProperty&gt;
     &lt;psf:ScoredProperty name=&quot;psk:SheetCapacity&quot; &gt;
-      &lt;psf:Value xsi:type=&quot;xs:integer&quot;&gt;_Undefined_&lt;psf:Value>
+      &lt;psf:Value xsi:type=&quot;xs:integer&quot;&gt;_Undefined_&lt;psf:Value&gt;
     &lt;psf:ScoredProperty&gt;
   &lt;/psf:Option&gt;</code></pre></td>
 </tr>

@@ -332,7 +332,7 @@ Deprecated in Windows Vista and later versions of Windows.
 </tr>
 <tr class="odd">
 <td><span id="ERROR_DEFAULTOFF_MACRO_NOT_FOUND"></span><span id="error_defaultoff_macro_not_found"></span><dl> <dt><strong>ERROR_DEFAULTOFF_MACRO_NOT_FOUND</strong></dt> <dt>656</dt> </dl></td>
-<td>The &lt;defaultoff&gt; macro in the device .INF file section contains an undefined macro.<br/></td>
+<td>The \&lt;defaultoff&gt; macro in the device .INF file section contains an undefined macro.<br/></td>
 </tr>
 <tr class="even">
 <td><span id="ERROR_FILE_COULD_NOT_BE_OPENED"></span><span id="error_file_could_not_be_opened"></span><dl> <dt><strong>ERROR_FILE_COULD_NOT_BE_OPENED</strong></dt> <dt>657</dt> </dl></td>
