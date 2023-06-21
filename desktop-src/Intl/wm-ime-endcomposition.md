@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # WM\_IME\_ENDCOMPOSITION message
 
-Sent to an application when the IME ends composition. A window receives this message through its [**WindowProc**](/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)) function.
+Sent to an application when the IME ends composition. A window receives this message through its [**WindowProc**](/windows/win32/api/winuser/nc-winuser-wndproc) function.
 
 
 ```C++

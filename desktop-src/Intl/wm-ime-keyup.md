@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # WM\_IME\_KEYUP message
 
-Sent to an application by the IME to notify the application of a key release and to keep message order. A window receives this message through its [**WindowProc**](/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)) function.
+Sent to an application by the IME to notify the application of a key release and to keep message order. A window receives this message through its [**WindowProc**](/windows/win32/api/winuser/nc-winuser-wndproc) function.
 
 
 ```C++

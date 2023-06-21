@@ -82,7 +82,7 @@ COLORREF colors[] = { RGB(153,255,51),
 
 ## Add Handler for WM\_TOUCH and Track Points
 
-First, declare some variables that are used by the [**WM\_TOUCH**](wm-touchdown.md) handler in [**WndProc**](/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)).
+First, declare some variables that are used by the [**WM\_TOUCH**](wm-touchdown.md) handler in [**WndProc**](/windows/win32/api/winuser/nc-winuser-wndproc).
 
 ```C++
 int wmId, wmEvent, i, x, y;
@@ -125,7 +125,7 @@ BOOL InitInstance(HINSTANCE hInstance, int nCmdShow)
 }
 ```
 
-Next, handle the [**WM\_TOUCH**](wm-touchdown.md) message from the [**WndProc**](/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)) method. The following code shows an implementation of the handler for **WM\_TOUCH**.
+Next, handle the [**WM\_TOUCH**](wm-touchdown.md) message from the [**WndProc**](/windows/win32/api/winuser/nc-winuser-wndproc) method. The following code shows an implementation of the handler for **WM\_TOUCH**.
 
 ```C++
 case WM_TOUCH:        

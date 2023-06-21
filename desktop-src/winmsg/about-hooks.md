@@ -131,7 +131,7 @@ For more information, see the [*ForegroundIdleProc*](/previous-versions/windows/
 
 The **WH\_GETMESSAGE** hook enables an application to monitor messages about to be returned by the [**GetMessage**](/windows/win32/api/winuser/nf-winuser-getmessage) or [**PeekMessage**](/windows/win32/api/winuser/nf-winuser-peekmessagea) function. You can use the **WH\_GETMESSAGE** hook to monitor mouse and keyboard input and other messages posted to the message queue.
 
-For more information, see the [*GetMsgProc*](/previous-versions/windows/desktop/legacy/ms644981(v=vs.85)) callback function.
+For more information, see the [*GetMsgProc*](/windows/win32/winmsg/getmsgproc) callback function.
 
 ### WH\_JOURNALPLAYBACK
 
@@ -142,7 +142,7 @@ The **WH\_JOURNALPLAYBACK** hook enables an application to insert messages into 
 
 The **WH\_JOURNALPLAYBACK** hook returns a time-out value. This value tells the system how many milliseconds to wait before processing the current message from the playback hook. This enables the hook to control the timing of the events it plays back.
 
-For more information, see the [*JournalPlaybackProc*](/previous-versions/windows/desktop/legacy/ms644982(v=vs.85)) callback function.
+For more information, see the [*JournalPlaybackProc*](/windows/win32/winmsg/journalplaybackproc) callback function.
 
 ### WH\_JOURNALRECORD
 
@@ -151,31 +151,31 @@ For more information, see the [*JournalPlaybackProc*](/previous-versions/windows
 
 The **WH\_JOURNALRECORD** hook enables you to monitor and record input events. Typically, you use this hook to record a sequence of mouse and keyboard events to play back later by using [WH\_JOURNALPLAYBACK](#wh_journalplayback). The **WH\_JOURNALRECORD** hook is a global hook—it cannot be used as a thread-specific hook.
 
-For more information, see the [*JournalRecordProc*](/previous-versions/windows/desktop/legacy/ms644983(v=vs.85)) callback function.
+For more information, see the [*JournalRecordProc*](/windows/win32/winmsg/journalrecordproc) callback function.
 
 ### WH\_KEYBOARD\_LL
 
 The **WH\_KEYBOARD\_LL** hook enables you to monitor keyboard input events about to be posted in a thread input queue.
 
-For more information, see the [*LowLevelKeyboardProc*](/previous-versions/windows/desktop/legacy/ms644985(v=vs.85)) callback function.
+For more information, see the [*LowLevelKeyboardProc*](/windows/win32/winmsg/lowlevelkeyboardproc) callback function.
 
 ### WH\_KEYBOARD
 
 The **WH\_KEYBOARD** hook enables an application to monitor message traffic for [**WM\_KEYDOWN**](/windows/desktop/inputdev/wm-keydown) and [**WM\_KEYUP**](/windows/desktop/inputdev/wm-keyup) messages about to be returned by the [**GetMessage**](/windows/win32/api/winuser/nf-winuser-getmessage) or [**PeekMessage**](/windows/win32/api/winuser/nf-winuser-peekmessagea) function. You can use the **WH\_KEYBOARD** hook to monitor keyboard input posted to a message queue.
 
-For more information, see the [*KeyboardProc*](/previous-versions/windows/desktop/legacy/ms644984(v=vs.85)) callback function.
+For more information, see the [*KeyboardProc*](/windows/win32/winmsg/keyboardproc) callback function.
 
 ### WH\_MOUSE\_LL
 
 The **WH\_MOUSE\_LL** hook enables you to monitor mouse input events about to be posted in a thread input queue.
 
-For more information, see the [*LowLevelMouseProc*](/previous-versions/windows/desktop/legacy/ms644986(v=vs.85)) callback function.
+For more information, see the [*LowLevelMouseProc*](/windows/win32/winmsg/lowlevelmouseproc) callback function.
 
 ### WH\_MOUSE
 
 The **WH\_MOUSE** hook enables you to monitor mouse messages about to be returned by the [**GetMessage**](/windows/win32/api/winuser/nf-winuser-getmessage) or [**PeekMessage**](/windows/win32/api/winuser/nf-winuser-peekmessagea) function. You can use the **WH\_MOUSE** hook to monitor mouse input posted to a message queue.
 
-For more information, see the [*MouseProc*](/previous-versions/windows/desktop/legacy/ms644988(v=vs.85)) callback function.
+For more information, see the [*MouseProc*](/windows/win32/winmsg/mouseproc) callback function.
 
 ### WH\_MSGFILTER and WH\_SYSMSGFILTER
 
@@ -195,7 +195,7 @@ while (GetMessage(&msg, (HWND) NULL, 0, 0))
 
 The last argument of [**CallMsgFilter**](/windows/win32/api/winuser/nf-winuser-callmsgfiltera) is simply passed to the hook procedure; you can enter any value. The hook procedure, by defining a constant such as **MSGF\_MAINLOOP**, can use this value to determine where the procedure was called from.
 
-For more information, see the [*MessageProc*](/previous-versions/windows/desktop/legacy/ms644987(v=vs.85)) and [*SysMsgProc*](/previous-versions/windows/desktop/legacy/ms644992(v=vs.85)) callback functions.
+For more information, see the [*MessageProc*](/windows/win32/winmsg/messageproc) and [*SysMsgProc*](/windows/win32/winmsg/sysmsgproc) callback functions.
 
 ### WH\_SHELL
 
@@ -203,4 +203,4 @@ A shell application can use the **WH\_SHELL** hook to receive important notifica
 
 Note that custom shell applications do not receive **WH\_SHELL** messages. Therefore, any application that registers itself as the default shell must call the [**SystemParametersInfo**](/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa) function before it (or any other application) can receive **WH\_SHELL** messages. This function must be called with **SPI\_SETMINIMIZEDMETRICS** and a [**MINIMIZEDMETRICS**](/windows/win32/api/winuser/ns-winuser-minimizedmetrics) structure. Set the **iArrange** member of this structure to **ARW\_HIDE**.
 
-For more information, see the [*ShellProc*](/previous-versions/windows/desktop/legacy/ms644991(v=vs.85)) callback function.
+For more information, see the [*ShellProc*](/windows/win32/winmsg/shellproc) callback function.
