@@ -16,8 +16,8 @@ The table summarizes the feature support, using the following key.
 |-----------------------------------|-------------------------------------------------------------------------------|
 | **-**                             | Disallowed or not available.                                                  |
 | ![required](images/letter-r.jpg)  | Hardware support is required.                                                 |
-| ![optional](images/letter-o.jpg)  | Hardware support optional; the format may or may not be hardware accelerated. |
-| ![optional](images/letter-o12.png)  | Hardware support optional for Direct3D 12; the format may or may not be hardware accelerated. Disallowed or not available for Direct3D 11. |
+| :::image type="icon" source="images/letter-o.jpg":::  | Hardware support optional; the format may or may not be hardware accelerated. |
+| :::image type="icon" source="images/letter-o12.png":::  | Hardware support optional for Direct3D 12; the format may or may not be hardware accelerated. Disallowed or not available for Direct3D 11. |
 | ![dependant](images/letter-d.jpg) | Required if a related optional feature is supported.                            |
 
 This topic contains a section per format. A format *target* (the tables contain one row per target) can be a resource type, an HLSL intrinsic function, or a particular functionality that is dependent on a particular format.
@@ -76,7 +76,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Video Processor Output | \- |
 | Shared Resource | \- |
 | BackBuffer Castable Even Fully Typed | \- |
-| Tiled Resource | ![optional](images/letter-o.jpg) |
+| Tiled Resource | :::image type="icon" source="images/letter-o.jpg"::: |
 
 ## DXGI_FORMAT_R32G32B32A32\_TYPELESS<sup>PCS</sup> (1)
 | Target | Support |
@@ -127,7 +127,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Video Processor Output | \- |
 | Shared Resource | ![required](images/letter-r.jpg) |
 | BackBuffer Castable Even Fully Typed | \- |
-| Tiled Resource | ![optional](images/letter-o.jpg) |
+| Tiled Resource | :::image type="icon" source="images/letter-o.jpg"::: |
 
 ## DXGI_FORMAT_R32G32B32A32\_FLOAT<sup>FCS</sup> (2)
 | Target | Support |
@@ -158,7 +158,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Structured UAV and SRV | \- |
 | Typed UAV | ![required](images/letter-r.jpg) |
 | UAV Typed Store | ![required](images/letter-r.jpg) |
-| UAV Typed Load | ![optional](images/letter-o.jpg) |
+| UAV Typed Load | :::image type="icon" source="images/letter-o.jpg"::: |
 | UAV Atomic Add | \- |
 | UAV Atomic Bitwise Ops | \- |
 | UAV Atomic Cmp&Store/ Cmp&Exch | \- |
@@ -167,8 +167,8 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | UAV Atomic Unsigned Min/Max | \- |
 | CPU Lockable | ![required](images/letter-r.jpg) |
 | 4x Multisample RenderTarget | ![required](images/letter-r.jpg) |
-| 8x Multisample RenderTarget | ![optional](images/letter-o.jpg) |
-| Other Multisample Count RT | ![optional](images/letter-o.jpg) |
+| 8x Multisample RenderTarget | :::image type="icon" source="images/letter-o.jpg"::: |
+| Other Multisample Count RT | :::image type="icon" source="images/letter-o.jpg"::: |
 | Multisample Resolve | ![required](images/letter-r.jpg) |
 | Multisample Load | ![required](images/letter-r.jpg) |
 | Display Scan-Out | \- |
@@ -178,7 +178,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Video Processor Output | \- |
 | Shared Resource | ![required](images/letter-r.jpg) |
 | BackBuffer Castable Even Fully Typed | \- |
-| Tiled Resource | ![optional](images/letter-o.jpg) |
+| Tiled Resource | :::image type="icon" source="images/letter-o.jpg"::: |
 
 ## DXGI_FORMAT_R32G32B32A32\_UINT<sup>FCS</sup> (3)
 | Target | Support |
@@ -203,13 +203,13 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Mipmap Auto-Generation | \- |
 | RenderTarget | ![required](images/letter-r.jpg) |
 | Blendable RenderTarget | \- |
-| Output Merger Logic Op | ![optional](images/letter-o.jpg) |
+| Output Merger Logic Op | :::image type="icon" source="images/letter-o.jpg"::: |
 | Depth/Stencil Target | \- |
 | Raw UAV and SRV | \- |
 | Structured UAV and SRV | \- |
 | Typed UAV | ![required](images/letter-r.jpg) |
 | UAV Typed Store | ![required](images/letter-r.jpg) |
-| UAV Typed Load | ![optional](images/letter-o.jpg) |
+| UAV Typed Load | :::image type="icon" source="images/letter-o.jpg"::: |
 | UAV Atomic Add | \- |
 | UAV Atomic Bitwise Ops | \- |
 | UAV Atomic Cmp&Store/ Cmp&Exch | \- |
@@ -218,8 +218,8 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | UAV Atomic Unsigned Min/Max | \- |
 | CPU Lockable | ![required](images/letter-r.jpg) |
 | 4x Multisample RenderTarget | ![required](images/letter-r.jpg) |
-| 8x Multisample RenderTarget | ![optional](images/letter-o.jpg) |
-| Other Multisample Count RT | ![optional](images/letter-o.jpg) |
+| 8x Multisample RenderTarget | :::image type="icon" source="images/letter-o.jpg"::: |
+| Other Multisample Count RT | :::image type="icon" source="images/letter-o.jpg"::: |
 | Multisample Resolve | \- |
 | Multisample Load | ![required](images/letter-r.jpg) |
 | Display Scan-Out | \- |
@@ -229,7 +229,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Video Processor Output | \- |
 | Shared Resource | ![required](images/letter-r.jpg) |
 | BackBuffer Castable Even Fully Typed | \- |
-| Tiled Resource | ![optional](images/letter-o.jpg) |
+| Tiled Resource | :::image type="icon" source="images/letter-o.jpg"::: |
 
 ## DXGI_FORMAT_R32G32B32A32\_SINT<sup>FCS</sup> (4)
 | Target | Support |
@@ -260,7 +260,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Structured UAV and SRV | \- |
 | Typed UAV | ![required](images/letter-r.jpg) |
 | UAV Typed Store | ![required](images/letter-r.jpg) |
-| UAV Typed Load | ![optional](images/letter-o.jpg) |
+| UAV Typed Load | :::image type="icon" source="images/letter-o.jpg"::: |
 | UAV Atomic Add | \- |
 | UAV Atomic Bitwise Ops | \- |
 | UAV Atomic Cmp&Store/ Cmp&Exch | \- |
@@ -269,8 +269,8 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | UAV Atomic Unsigned Min/Max | \- |
 | CPU Lockable | ![required](images/letter-r.jpg) |
 | 4x Multisample RenderTarget | ![required](images/letter-r.jpg) |
-| 8x Multisample RenderTarget | ![optional](images/letter-o.jpg) |
-| Other Multisample Count RT | ![optional](images/letter-o.jpg) |
+| 8x Multisample RenderTarget | :::image type="icon" source="images/letter-o.jpg"::: |
+| Other Multisample Count RT | :::image type="icon" source="images/letter-o.jpg"::: |
 | Multisample Resolve | \- |
 | Multisample Load | ![required](images/letter-r.jpg) |
 | Display Scan-Out | \- |
@@ -280,7 +280,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Video Processor Output | \- |
 | Shared Resource | ![required](images/letter-r.jpg) |
 | BackBuffer Castable Even Fully Typed | \- |
-| Tiled Resource | ![optional](images/letter-o.jpg) |
+| Tiled Resource | :::image type="icon" source="images/letter-o.jpg"::: |
 
 ## DXGI_FORMAT_R32G32B32\_TYPELESS<sup>PCS</sup> (5)
 | Target | Support |
@@ -347,14 +347,14 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Texture3D | ![required](images/letter-r.jpg) |
 | TextureCube | ![required](images/letter-r.jpg) |
 | Shader ld | ![required](images/letter-r.jpg) |
-| Shader sample (any filter) | ![optional](images/letter-o.jpg) |
+| Shader sample (any filter) | :::image type="icon" source="images/letter-o.jpg"::: |
 | Shader sample\_c (comparison filter) | \- |
 | Shader sample (mono 1\_bit\_filter) | \- |
-| Shader gather4 | ![optional](images/letter-o.jpg) |
+| Shader gather4 | :::image type="icon" source="images/letter-o.jpg"::: |
 | Shader gather4\_c | \- |
 | Mipmap | ![required](images/letter-r.jpg) |
-| Mipmap Auto-Generation | ![optional](images/letter-o.jpg) |
-| RenderTarget | ![optional](images/letter-o.jpg) |
+| Mipmap Auto-Generation | :::image type="icon" source="images/letter-o.jpg"::: |
+| RenderTarget | :::image type="icon" source="images/letter-o.jpg"::: |
 | Blendable RenderTarget | ![dependant](images/letter-d.jpg) |
 | Output Merger Logic Op | \- |
 | Depth/Stencil Target | \- |
@@ -372,7 +372,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | CPU Lockable | ![required](images/letter-r.jpg) |
 | 4x Multisample RenderTarget | ![dependant](images/letter-d.jpg) |
 | 8x Multisample RenderTarget | ![dependant](images/letter-d.jpg) |
-| Other Multisample Count RT | ![optional](images/letter-o.jpg) |
+| Other Multisample Count RT | :::image type="icon" source="images/letter-o.jpg"::: |
 | Multisample Resolve | ![required](images/letter-r.jpg) |
 | Multisample Load | ![required](images/letter-r.jpg) |
 | Display Scan-Out | \- |
@@ -405,9 +405,9 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Shader gather4\_c | \- |
 | Mipmap | ![required](images/letter-r.jpg) |
 | Mipmap Auto-Generation | \- |
-| RenderTarget | ![optional](images/letter-o.jpg) |
+| RenderTarget | :::image type="icon" source="images/letter-o.jpg"::: |
 | Blendable RenderTarget | \- |
-| Output Merger Logic Op | ![optional](images/letter-o.jpg) |
+| Output Merger Logic Op | :::image type="icon" source="images/letter-o.jpg"::: |
 | Depth/Stencil Target | \- |
 | Raw UAV and SRV | \- |
 | Structured UAV and SRV | \- |
@@ -423,7 +423,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | CPU Lockable | ![required](images/letter-r.jpg) |
 | 4x Multisample RenderTarget | ![dependant](images/letter-d.jpg) |
 | 8x Multisample RenderTarget | ![dependant](images/letter-d.jpg) |
-| Other Multisample Count RT | ![optional](images/letter-o.jpg) |
+| Other Multisample Count RT | :::image type="icon" source="images/letter-o.jpg"::: |
 | Multisample Resolve | \- |
 | Multisample Load | ![required](images/letter-r.jpg) |
 | Display Scan-Out | \- |
@@ -456,7 +456,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Shader gather4\_c | \- |
 | Mipmap | ![required](images/letter-r.jpg) |
 | Mipmap Auto-Generation | \- |
-| RenderTarget | ![optional](images/letter-o.jpg) |
+| RenderTarget | :::image type="icon" source="images/letter-o.jpg"::: |
 | Blendable RenderTarget | \- |
 | Output Merger Logic Op | \- |
 | Depth/Stencil Target | \- |
@@ -474,7 +474,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | CPU Lockable | ![required](images/letter-r.jpg) |
 | 4x Multisample RenderTarget | ![dependant](images/letter-d.jpg) |
 | 8x Multisample RenderTarget | ![dependant](images/letter-d.jpg) |
-| Other Multisample Count RT | ![optional](images/letter-o.jpg) |
+| Other Multisample Count RT | :::image type="icon" source="images/letter-o.jpg"::: |
 | Multisample Resolve | \- |
 | Multisample Load | ![required](images/letter-r.jpg) |
 | Display Scan-Out | \- |
@@ -535,7 +535,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Video Processor Output | \- |
 | Shared Resource | ![required](images/letter-r.jpg) |
 | BackBuffer Castable Even Fully Typed | \- |
-| Tiled Resource | ![optional](images/letter-o.jpg) |
+| Tiled Resource | :::image type="icon" source="images/letter-o.jpg"::: |
 
 ## DXGI_FORMAT_R16G16B16A16\_FLOAT<sup>FCS</sup> (10)
 | Target | Support |
@@ -566,7 +566,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Structured UAV and SRV | \- |
 | Typed UAV | ![required](images/letter-r.jpg) |
 | UAV Typed Store | ![required](images/letter-r.jpg) |
-| UAV Typed Load | ![optional](images/letter-o.jpg) |
+| UAV Typed Load | :::image type="icon" source="images/letter-o.jpg"::: |
 | UAV Atomic Add | \- |
 | UAV Atomic Bitwise Ops | \- |
 | UAV Atomic Cmp&Store/ Cmp&Exch | \- |
@@ -576,17 +576,17 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | CPU Lockable | ![required](images/letter-r.jpg) |
 | 4x Multisample RenderTarget | ![required](images/letter-r.jpg) |
 | 8x Multisample RenderTarget | ![required](images/letter-r.jpg) |
-| Other Multisample Count RT | ![optional](images/letter-o.jpg) |
+| Other Multisample Count RT | :::image type="icon" source="images/letter-o.jpg"::: |
 | Multisample Resolve | ![required](images/letter-r.jpg) |
 | Multisample Load | ![required](images/letter-r.jpg) |
 | Display Scan-Out | ![required](images/letter-r.jpg) |
 | Cast Within Bit Layout | ![required](images/letter-r.jpg) |
 | Video Decoder Support | \- |
-| Video Processor Input | ![optional](images/letter-o.jpg) |
+| Video Processor Input | :::image type="icon" source="images/letter-o.jpg"::: |
 | Video Processor Output | ![required](images/letter-r.jpg) |
 | Shared Resource | ![required](images/letter-r.jpg) |
 | BackBuffer Castable Even Fully Typed | \- |
-| Tiled Resource | ![optional](images/letter-o.jpg) |
+| Tiled Resource | :::image type="icon" source="images/letter-o.jpg"::: |
 
 ## DXGI_FORMAT_R16G16B16A16\_UNORM<sup>FCS</sup> (11)
 | Target | Support |
@@ -617,7 +617,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Structured UAV and SRV | \- |
 | Typed UAV | ![required](images/letter-r.jpg) |
 | UAV Typed Store | ![required](images/letter-r.jpg) |
-| UAV Typed Load | ![optional](images/letter-o.jpg) |
+| UAV Typed Load | :::image type="icon" source="images/letter-o.jpg"::: |
 | UAV Atomic Add | \- |
 | UAV Atomic Bitwise Ops | \- |
 | UAV Atomic Cmp&Store/ Cmp&Exch | \- |
@@ -627,7 +627,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | CPU Lockable | ![required](images/letter-r.jpg) |
 | 4x Multisample RenderTarget | ![required](images/letter-r.jpg) |
 | 8x Multisample RenderTarget | ![required](images/letter-r.jpg) |
-| Other Multisample Count RT | ![optional](images/letter-o.jpg) |
+| Other Multisample Count RT | :::image type="icon" source="images/letter-o.jpg"::: |
 | Multisample Resolve | ![required](images/letter-r.jpg) |
 | Multisample Load | ![required](images/letter-r.jpg) |
 | Display Scan-Out | \- |
@@ -637,7 +637,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Video Processor Output | \- |
 | Shared Resource | ![required](images/letter-r.jpg) |
 | BackBuffer Castable Even Fully Typed | \- |
-| Tiled Resource | ![optional](images/letter-o.jpg) |
+| Tiled Resource | :::image type="icon" source="images/letter-o.jpg"::: |
 
 ## DXGI_FORMAT_R16G16B16A16\_UINT<sup>FCS</sup> (12)
 | Target | Support |
@@ -662,13 +662,13 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Mipmap Auto-Generation | \- |
 | RenderTarget | ![required](images/letter-r.jpg) |
 | Blendable RenderTarget | \- |
-| Output Merger Logic Op | ![optional](images/letter-o.jpg) |
+| Output Merger Logic Op | :::image type="icon" source="images/letter-o.jpg"::: |
 | Depth/Stencil Target | \- |
 | Raw UAV and SRV | \- |
 | Structured UAV and SRV | \- |
 | Typed UAV | ![required](images/letter-r.jpg) |
 | UAV Typed Store | ![required](images/letter-r.jpg) |
-| UAV Typed Load | ![optional](images/letter-o.jpg) |
+| UAV Typed Load | :::image type="icon" source="images/letter-o.jpg"::: |
 | UAV Atomic Add | \- |
 | UAV Atomic Bitwise Ops | \- |
 | UAV Atomic Cmp&Store/ Cmp&Exch | \- |
@@ -678,7 +678,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | CPU Lockable | ![required](images/letter-r.jpg) |
 | 4x Multisample RenderTarget | ![required](images/letter-r.jpg) |
 | 8x Multisample RenderTarget | ![required](images/letter-r.jpg) |
-| Other Multisample Count RT | ![optional](images/letter-o.jpg) |
+| Other Multisample Count RT | :::image type="icon" source="images/letter-o.jpg"::: |
 | Multisample Resolve | \- |
 | Multisample Load | ![required](images/letter-r.jpg) |
 | Display Scan-Out | \- |
@@ -688,7 +688,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Video Processor Output | \- |
 | Shared Resource | ![required](images/letter-r.jpg) |
 | BackBuffer Castable Even Fully Typed | \- |
-| Tiled Resource | ![optional](images/letter-o.jpg) |
+| Tiled Resource | :::image type="icon" source="images/letter-o.jpg"::: |
 
 ## DXGI_FORMAT_R16G16B16A16\_SNORM<sup>FCS</sup> (13)
 | Target | Support |
@@ -719,7 +719,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Structured UAV and SRV | \- |
 | Typed UAV | ![required](images/letter-r.jpg) |
 | UAV Typed Store | ![required](images/letter-r.jpg) |
-| UAV Typed Load | ![optional](images/letter-o.jpg) |
+| UAV Typed Load | :::image type="icon" source="images/letter-o.jpg"::: |
 | UAV Atomic Add | \- |
 | UAV Atomic Bitwise Ops | \- |
 | UAV Atomic Cmp&Store/ Cmp&Exch | \- |
@@ -729,7 +729,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | CPU Lockable | ![required](images/letter-r.jpg) |
 | 4x Multisample RenderTarget | ![required](images/letter-r.jpg) |
 | 8x Multisample RenderTarget | ![required](images/letter-r.jpg) |
-| Other Multisample Count RT | ![optional](images/letter-o.jpg) |
+| Other Multisample Count RT | :::image type="icon" source="images/letter-o.jpg"::: |
 | Multisample Resolve | ![required](images/letter-r.jpg) |
 | Multisample Load | ![required](images/letter-r.jpg) |
 | Display Scan-Out | \- |
@@ -739,7 +739,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Video Processor Output | \- |
 | Shared Resource | ![required](images/letter-r.jpg) |
 | BackBuffer Castable Even Fully Typed | \- |
-| Tiled Resource | ![optional](images/letter-o.jpg) |
+| Tiled Resource | :::image type="icon" source="images/letter-o.jpg"::: |
 
 ## DXGI_FORMAT_R16G16B16A16\_SINT<sup>FCS</sup> (14)
 | Target | Support |
@@ -770,7 +770,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Structured UAV and SRV | \- |
 | Typed UAV | ![required](images/letter-r.jpg) |
 | UAV Typed Store | ![required](images/letter-r.jpg) |
-| UAV Typed Load | ![optional](images/letter-o.jpg) |
+| UAV Typed Load | :::image type="icon" source="images/letter-o.jpg"::: |
 | UAV Atomic Add | \- |
 | UAV Atomic Bitwise Ops | \- |
 | UAV Atomic Cmp&Store/ Cmp&Exch | \- |
@@ -780,7 +780,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | CPU Lockable | ![required](images/letter-r.jpg) |
 | 4x Multisample RenderTarget | ![required](images/letter-r.jpg) |
 | 8x Multisample RenderTarget | ![required](images/letter-r.jpg) |
-| Other Multisample Count RT | ![optional](images/letter-o.jpg) |
+| Other Multisample Count RT | :::image type="icon" source="images/letter-o.jpg"::: |
 | Multisample Resolve | \- |
 | Multisample Load | ![required](images/letter-r.jpg) |
 | Display Scan-Out | \- |
@@ -790,7 +790,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Video Processor Output | \- |
 | Shared Resource | ![required](images/letter-r.jpg) |
 | BackBuffer Castable Even Fully Typed | \- |
-| Tiled Resource | ![optional](images/letter-o.jpg) |
+| Tiled Resource | :::image type="icon" source="images/letter-o.jpg"::: |
 
 ## DXGI_FORMAT_R32G32\_TYPELESS<sup>PCS</sup> (15)
 | Target | Support |
@@ -841,7 +841,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Video Processor Output | \- |
 | Shared Resource | \- |
 | BackBuffer Castable Even Fully Typed | \- |
-| Tiled Resource | ![optional](images/letter-o.jpg) |
+| Tiled Resource | :::image type="icon" source="images/letter-o.jpg"::: |
 
 ## DXGI_FORMAT_R32G32\_FLOAT<sup>FCS</sup> (16)
 | Target | Support |
@@ -872,7 +872,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Structured UAV and SRV | \- |
 | Typed UAV | ![required](images/letter-r.jpg) |
 | UAV Typed Store | ![required](images/letter-r.jpg) |
-| UAV Typed Load | ![optional](images/letter-o.jpg) |
+| UAV Typed Load | :::image type="icon" source="images/letter-o.jpg"::: |
 | UAV Atomic Add | \- |
 | UAV Atomic Bitwise Ops | \- |
 | UAV Atomic Cmp&Store/ Cmp&Exch | \- |
@@ -882,7 +882,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | CPU Lockable | ![required](images/letter-r.jpg) |
 | 4x Multisample RenderTarget | ![required](images/letter-r.jpg) |
 | 8x Multisample RenderTarget | ![required](images/letter-r.jpg) |
-| Other Multisample Count RT | ![optional](images/letter-o.jpg) |
+| Other Multisample Count RT | :::image type="icon" source="images/letter-o.jpg"::: |
 | Multisample Resolve | ![required](images/letter-r.jpg) |
 | Multisample Load | ![required](images/letter-r.jpg) |
 | Display Scan-Out | \- |
@@ -892,7 +892,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Video Processor Output | \- |
 | Shared Resource | \- |
 | BackBuffer Castable Even Fully Typed | \- |
-| Tiled Resource | ![optional](images/letter-o.jpg) |
+| Tiled Resource | :::image type="icon" source="images/letter-o.jpg"::: |
 
 ## DXGI_FORMAT_R32G32\_UINT<sup>FCS</sup> (17)
 | Target | Support |
@@ -917,13 +917,13 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Mipmap Auto-Generation | \- |
 | RenderTarget | ![required](images/letter-r.jpg) |
 | Blendable RenderTarget | \- |
-| Output Merger Logic Op | ![optional](images/letter-o.jpg) |
+| Output Merger Logic Op | :::image type="icon" source="images/letter-o.jpg"::: |
 | Depth/Stencil Target | \- |
 | Raw UAV and SRV | \- |
 | Structured UAV and SRV | \- |
 | Typed UAV | ![required](images/letter-r.jpg) |
 | UAV Typed Store | ![required](images/letter-r.jpg) |
-| UAV Typed Load | ![optional](images/letter-o.jpg) |
+| UAV Typed Load | :::image type="icon" source="images/letter-o.jpg"::: |
 | UAV Atomic Add | \- |
 | UAV Atomic Bitwise Ops | \- |
 | UAV Atomic Cmp&Store/ Cmp&Exch | \- |
@@ -933,7 +933,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | CPU Lockable | ![required](images/letter-r.jpg) |
 | 4x Multisample RenderTarget | ![required](images/letter-r.jpg) |
 | 8x Multisample RenderTarget | ![required](images/letter-r.jpg) |
-| Other Multisample Count RT | ![optional](images/letter-o.jpg) |
+| Other Multisample Count RT | :::image type="icon" source="images/letter-o.jpg"::: |
 | Multisample Resolve | \- |
 | Multisample Load | ![required](images/letter-r.jpg) |
 | Display Scan-Out | \- |
@@ -943,7 +943,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Video Processor Output | \- |
 | Shared Resource | \- |
 | BackBuffer Castable Even Fully Typed | \- |
-| Tiled Resource | ![optional](images/letter-o.jpg) |
+| Tiled Resource | :::image type="icon" source="images/letter-o.jpg"::: |
 
 ## DXGI_FORMAT_R32G32\_SINT<sup>FCS</sup> (18)
 | Target | Support |
@@ -974,7 +974,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Structured UAV and SRV | \- |
 | Typed UAV | ![required](images/letter-r.jpg) |
 | UAV Typed Store | ![required](images/letter-r.jpg) |
-| UAV Typed Load | ![optional](images/letter-o.jpg) |
+| UAV Typed Load | :::image type="icon" source="images/letter-o.jpg"::: |
 | UAV Atomic Add | \- |
 | UAV Atomic Bitwise Ops | \- |
 | UAV Atomic Cmp&Store/ Cmp&Exch | \- |
@@ -984,7 +984,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | CPU Lockable | ![required](images/letter-r.jpg) |
 | 4x Multisample RenderTarget | ![required](images/letter-r.jpg) |
 | 8x Multisample RenderTarget | ![required](images/letter-r.jpg) |
-| Other Multisample Count RT | ![optional](images/letter-o.jpg) |
+| Other Multisample Count RT | :::image type="icon" source="images/letter-o.jpg"::: |
 | Multisample Resolve | \- |
 | Multisample Load | ![required](images/letter-r.jpg) |
 | Display Scan-Out | \- |
@@ -994,7 +994,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Video Processor Output | \- |
 | Shared Resource | \- |
 | BackBuffer Castable Even Fully Typed | \- |
-| Tiled Resource | ![optional](images/letter-o.jpg) |
+| Tiled Resource | :::image type="icon" source="images/letter-o.jpg"::: |
 
 ## DXGI_FORMAT_R32G8X24\_TYPELESS<sup>PCS</sup> (19)
 | Target | Support |
@@ -1086,7 +1086,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | CPU Lockable | ![required](images/letter-r.jpg) |
 | 4x Multisample RenderTarget | ![required](images/letter-r.jpg) |
 | 8x Multisample RenderTarget | ![required](images/letter-r.jpg) |
-| Other Multisample Count RT | ![optional](images/letter-o.jpg) |
+| Other Multisample Count RT | :::image type="icon" source="images/letter-o.jpg"::: |
 | Multisample Resolve | \- |
 | Multisample Load | \- |
 | Display Scan-Out | \- |
@@ -1249,7 +1249,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Video Processor Output | \- |
 | Shared Resource | ![required](images/letter-r.jpg) |
 | BackBuffer Castable Even Fully Typed | \- |
-| Tiled Resource | ![optional](images/letter-o.jpg) |
+| Tiled Resource | :::image type="icon" source="images/letter-o.jpg"::: |
 
 ## DXGI_FORMAT_R10G10B10A2\_UNORM<sup>FCS</sup> (24)
 | Target | Support |
@@ -1280,7 +1280,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Structured UAV and SRV | \- |
 | Typed UAV | ![required](images/letter-r.jpg) |
 | UAV Typed Store | ![required](images/letter-r.jpg) |
-| UAV Typed Load | ![optional](images/letter-o.jpg) |
+| UAV Typed Load | :::image type="icon" source="images/letter-o.jpg"::: |
 | UAV Atomic Add | \- |
 | UAV Atomic Bitwise Ops | \- |
 | UAV Atomic Cmp&Store/ Cmp&Exch | \- |
@@ -1290,17 +1290,17 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | CPU Lockable | ![required](images/letter-r.jpg) |
 | 4x Multisample RenderTarget | ![required](images/letter-r.jpg) |
 | 8x Multisample RenderTarget | ![required](images/letter-r.jpg) |
-| Other Multisample Count RT | ![optional](images/letter-o.jpg) |
+| Other Multisample Count RT | :::image type="icon" source="images/letter-o.jpg"::: |
 | Multisample Resolve | ![required](images/letter-r.jpg) |
 | Multisample Load | ![required](images/letter-r.jpg) |
 | Display Scan-Out | ![required](images/letter-r.jpg) |
 | Cast Within Bit Layout | ![required](images/letter-r.jpg) |
 | Video Decoder Support | \- |
-| Video Processor Input | ![optional](images/letter-o.jpg) |
+| Video Processor Input | :::image type="icon" source="images/letter-o.jpg"::: |
 | Video Processor Output | ![required](images/letter-r.jpg) |
 | Shared Resource | ![required](images/letter-r.jpg) |
 | BackBuffer Castable Even Fully Typed | ![required](images/letter-r.jpg) |
-| Tiled Resource | ![optional](images/letter-o.jpg) |
+| Tiled Resource | :::image type="icon" source="images/letter-o.jpg"::: |
 
 ## DXGI_FORMAT_R10G10B10A2\_UINT<sup>FCS</sup> (25)
 | Target | Support |
@@ -1325,13 +1325,13 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Mipmap Auto-Generation | \- |
 | RenderTarget | ![required](images/letter-r.jpg) |
 | Blendable RenderTarget | \- |
-| Output Merger Logic Op | ![optional](images/letter-o.jpg) |
+| Output Merger Logic Op | :::image type="icon" source="images/letter-o.jpg"::: |
 | Depth/Stencil Target | \- |
 | Raw UAV and SRV | \- |
 | Structured UAV and SRV | \- |
 | Typed UAV | ![required](images/letter-r.jpg) |
 | UAV Typed Store | ![required](images/letter-r.jpg) |
-| UAV Typed Load | ![optional](images/letter-o.jpg) |
+| UAV Typed Load | :::image type="icon" source="images/letter-o.jpg"::: |
 | UAV Atomic Add | \- |
 | UAV Atomic Bitwise Ops | \- |
 | UAV Atomic Cmp&Store/ Cmp&Exch | \- |
@@ -1341,7 +1341,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | CPU Lockable | ![required](images/letter-r.jpg) |
 | 4x Multisample RenderTarget | ![required](images/letter-r.jpg) |
 | 8x Multisample RenderTarget | ![required](images/letter-r.jpg) |
-| Other Multisample Count RT | ![optional](images/letter-o.jpg) |
+| Other Multisample Count RT | :::image type="icon" source="images/letter-o.jpg"::: |
 | Multisample Resolve | \- |
 | Multisample Load | ![required](images/letter-r.jpg) |
 | Display Scan-Out | \- |
@@ -1351,7 +1351,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Video Processor Output | \- |
 | Shared Resource | ![required](images/letter-r.jpg) |
 | BackBuffer Castable Even Fully Typed | \- |
-| Tiled Resource | ![optional](images/letter-o.jpg) |
+| Tiled Resource | :::image type="icon" source="images/letter-o.jpg"::: |
 
 ## DXGI_FORMAT_R10G10B10\_XR\_BIAS\_A2\_UNORM<sup>FCS</sup> (89)
 | Target | Support |
@@ -1398,11 +1398,11 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Display Scan-Out | ![required](images/letter-r.jpg) |
 | Cast Within Bit Layout | ![required](images/letter-r.jpg) |
 | Video Decoder Support | \- |
-| Video Processor Input | ![optional](images/letter-o.jpg) |
+| Video Processor Input | :::image type="icon" source="images/letter-o.jpg"::: |
 | Video Processor Output | ![required](images/letter-r.jpg) |
 | Shared Resource | ![required](images/letter-r.jpg) |
 | BackBuffer Castable Even Fully Typed | ![required](images/letter-r.jpg) |
-| Tiled Resource | ![optional](images/letter-o.jpg) |
+| Tiled Resource | :::image type="icon" source="images/letter-o.jpg"::: |
 
 ## DXGI_FORMAT_R11G11B10\_FLOAT<sup>FNS</sup> (26)
 | Target | Support |
@@ -1433,7 +1433,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Structured UAV and SRV | \- |
 | Typed UAV | ![required](images/letter-r.jpg) |
 | UAV Typed Store | ![required](images/letter-r.jpg) |
-| UAV Typed Load | ![optional](images/letter-o.jpg) |
+| UAV Typed Load | :::image type="icon" source="images/letter-o.jpg"::: |
 | UAV Atomic Add | \- |
 | UAV Atomic Bitwise Ops | \- |
 | UAV Atomic Cmp&Store/ Cmp&Exch | \- |
@@ -1443,7 +1443,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | CPU Lockable | ![required](images/letter-r.jpg) |
 | 4x Multisample RenderTarget | ![required](images/letter-r.jpg) |
 | 8x Multisample RenderTarget | ![required](images/letter-r.jpg) |
-| Other Multisample Count RT | ![optional](images/letter-o.jpg) |
+| Other Multisample Count RT | :::image type="icon" source="images/letter-o.jpg"::: |
 | Multisample Resolve | ![required](images/letter-r.jpg) |
 | Multisample Load | ![required](images/letter-r.jpg) |
 | Display Scan-Out | \- |
@@ -1453,7 +1453,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Video Processor Output | \- |
 | Shared Resource | \- |
 | BackBuffer Castable Even Fully Typed | \- |
-| Tiled Resource | ![optional](images/letter-o.jpg) |
+| Tiled Resource | :::image type="icon" source="images/letter-o.jpg"::: |
 
 ## DXGI_FORMAT_R8G8B8A8\_TYPELESS<sup>PCS</sup> (27)
 | Target | Support |
@@ -1504,7 +1504,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Video Processor Output | \- |
 | Shared Resource | ![required](images/letter-r.jpg) |
 | BackBuffer Castable Even Fully Typed | \- |
-| Tiled Resource | ![optional](images/letter-o.jpg) |
+| Tiled Resource | :::image type="icon" source="images/letter-o.jpg"::: |
 
 ## DXGI_FORMAT_R8G8B8A8\_UNORM<sup>FCS</sup> (28)
 | Target | Support |
@@ -1535,7 +1535,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Structured UAV and SRV | \- |
 | Typed UAV | ![required](images/letter-r.jpg) |
 | UAV Typed Store | ![required](images/letter-r.jpg) |
-| UAV Typed Load | ![optional](images/letter-o.jpg) |
+| UAV Typed Load | :::image type="icon" source="images/letter-o.jpg"::: |
 | UAV Atomic Add | \- |
 | UAV Atomic Bitwise Ops | \- |
 | UAV Atomic Cmp&Store/ Cmp&Exch | \- |
@@ -1545,17 +1545,17 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | CPU Lockable | ![required](images/letter-r.jpg) |
 | 4x Multisample RenderTarget | ![required](images/letter-r.jpg) |
 | 8x Multisample RenderTarget | ![required](images/letter-r.jpg) |
-| Other Multisample Count RT | ![optional](images/letter-o.jpg) |
+| Other Multisample Count RT | :::image type="icon" source="images/letter-o.jpg"::: |
 | Multisample Resolve | ![required](images/letter-r.jpg) |
 | Multisample Load | ![required](images/letter-r.jpg) |
 | Display Scan-Out | ![required](images/letter-r.jpg) |
 | Cast Within Bit Layout | ![required](images/letter-r.jpg) |
 | Video Decoder Support | \- |
-| Video Processor Input | ![optional](images/letter-o.jpg) |
+| Video Processor Input | :::image type="icon" source="images/letter-o.jpg"::: |
 | Video Processor Output | ![required](images/letter-r.jpg) |
 | Shared Resource | ![required](images/letter-r.jpg) |
 | BackBuffer Castable Even Fully Typed | ![required](images/letter-r.jpg) |
-| Tiled Resource | ![optional](images/letter-o.jpg) |
+| Tiled Resource | :::image type="icon" source="images/letter-o.jpg"::: |
 
 ## DXGI_FORMAT_R8G8B8A8\_UNORM\_SRGB<sup>FCS</sup> (29)
 | Target | Support |
@@ -1596,17 +1596,17 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | CPU Lockable | ![required](images/letter-r.jpg) |
 | 4x Multisample RenderTarget | ![required](images/letter-r.jpg) |
 | 8x Multisample RenderTarget | ![required](images/letter-r.jpg) |
-| Other Multisample Count RT | ![optional](images/letter-o.jpg) |
+| Other Multisample Count RT | :::image type="icon" source="images/letter-o.jpg"::: |
 | Multisample Resolve | ![required](images/letter-r.jpg) |
 | Multisample Load | ![required](images/letter-r.jpg) |
 | Display Scan-Out | ![required](images/letter-r.jpg) |
 | Cast Within Bit Layout | ![required](images/letter-r.jpg) |
 | Video Decoder Support | \- |
-| Video Processor Input | ![optional](images/letter-o.jpg) |
+| Video Processor Input | :::image type="icon" source="images/letter-o.jpg"::: |
 | Video Processor Output | ![required](images/letter-r.jpg) |
 | Shared Resource | ![required](images/letter-r.jpg) |
 | BackBuffer Castable Even Fully Typed | ![required](images/letter-r.jpg) |
-| Tiled Resource | ![optional](images/letter-o.jpg) |
+| Tiled Resource | :::image type="icon" source="images/letter-o.jpg"::: |
 
 ## DXGI_FORMAT_R8G8B8A8\_UINT<sup>FCS</sup> (30)
 | Target | Support |
@@ -1631,13 +1631,13 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Mipmap Auto-Generation | \- |
 | RenderTarget | ![required](images/letter-r.jpg) |
 | Blendable RenderTarget | \- |
-| Output Merger Logic Op | ![optional](images/letter-o.jpg) |
+| Output Merger Logic Op | :::image type="icon" source="images/letter-o.jpg"::: |
 | Depth/Stencil Target | \- |
 | Raw UAV and SRV | \- |
 | Structured UAV and SRV | \- |
 | Typed UAV | ![required](images/letter-r.jpg) |
 | UAV Typed Store | ![required](images/letter-r.jpg) |
-| UAV Typed Load | ![optional](images/letter-o.jpg) |
+| UAV Typed Load | :::image type="icon" source="images/letter-o.jpg"::: |
 | UAV Atomic Add | \- |
 | UAV Atomic Bitwise Ops | \- |
 | UAV Atomic Cmp&Store/ Cmp&Exch | \- |
@@ -1647,7 +1647,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | CPU Lockable | ![required](images/letter-r.jpg) |
 | 4x Multisample RenderTarget | ![required](images/letter-r.jpg) |
 | 8x Multisample RenderTarget | ![required](images/letter-r.jpg) |
-| Other Multisample Count RT | ![optional](images/letter-o.jpg) |
+| Other Multisample Count RT | :::image type="icon" source="images/letter-o.jpg"::: |
 | Multisample Resolve | \- |
 | Multisample Load | ![required](images/letter-r.jpg) |
 | Display Scan-Out | \- |
@@ -1657,7 +1657,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Video Processor Output | \- |
 | Shared Resource | ![required](images/letter-r.jpg) |
 | BackBuffer Castable Even Fully Typed | \- |
-| Tiled Resource | ![optional](images/letter-o.jpg) |
+| Tiled Resource | :::image type="icon" source="images/letter-o.jpg"::: |
 
 ## DXGI_FORMAT_R8G8B8A8\_SNORM<sup>FCS</sup> (31)
 | Target | Support |
@@ -1688,7 +1688,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Structured UAV and SRV | \- |
 | Typed UAV | ![required](images/letter-r.jpg) |
 | UAV Typed Store | ![required](images/letter-r.jpg) |
-| UAV Typed Load | ![optional](images/letter-o.jpg) |
+| UAV Typed Load | :::image type="icon" source="images/letter-o.jpg"::: |
 | UAV Atomic Add | \- |
 | UAV Atomic Bitwise Ops | \- |
 | UAV Atomic Cmp&Store/ Cmp&Exch | \- |
@@ -1698,7 +1698,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | CPU Lockable | ![required](images/letter-r.jpg) |
 | 4x Multisample RenderTarget | ![required](images/letter-r.jpg) |
 | 8x Multisample RenderTarget | ![required](images/letter-r.jpg) |
-| Other Multisample Count RT | ![optional](images/letter-o.jpg) |
+| Other Multisample Count RT | :::image type="icon" source="images/letter-o.jpg"::: |
 | Multisample Resolve | ![required](images/letter-r.jpg) |
 | Multisample Load | ![required](images/letter-r.jpg) |
 | Display Scan-Out | \- |
@@ -1708,7 +1708,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Video Processor Output | \- |
 | Shared Resource | ![required](images/letter-r.jpg) |
 | BackBuffer Castable Even Fully Typed | \- |
-| Tiled Resource | ![optional](images/letter-o.jpg) |
+| Tiled Resource | :::image type="icon" source="images/letter-o.jpg"::: |
 
 ## DXGI_FORMAT_R8G8B8A8\_SINT<sup>FCS</sup> (32)
 | Target | Support |
@@ -1739,7 +1739,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Structured UAV and SRV | \- |
 | Typed UAV | ![required](images/letter-r.jpg) |
 | UAV Typed Store | ![required](images/letter-r.jpg) |
-| UAV Typed Load | ![optional](images/letter-o.jpg) |
+| UAV Typed Load | :::image type="icon" source="images/letter-o.jpg"::: |
 | UAV Atomic Add | \- |
 | UAV Atomic Bitwise Ops | \- |
 | UAV Atomic Cmp&Store/ Cmp&Exch | \- |
@@ -1749,7 +1749,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | CPU Lockable | ![required](images/letter-r.jpg) |
 | 4x Multisample RenderTarget | ![required](images/letter-r.jpg) |
 | 8x Multisample RenderTarget | ![required](images/letter-r.jpg) |
-| Other Multisample Count RT | ![optional](images/letter-o.jpg) |
+| Other Multisample Count RT | :::image type="icon" source="images/letter-o.jpg"::: |
 | Multisample Resolve | \- |
 | Multisample Load | ![required](images/letter-r.jpg) |
 | Display Scan-Out | \- |
@@ -1759,7 +1759,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Video Processor Output | \- |
 | Shared Resource | ![required](images/letter-r.jpg) |
 | BackBuffer Castable Even Fully Typed | \- |
-| Tiled Resource | ![optional](images/letter-o.jpg) |
+| Tiled Resource | :::image type="icon" source="images/letter-o.jpg"::: |
 
 ## DXGI_FORMAT_R16G16\_TYPELESS<sup>PCS</sup> (33)
 | Target | Support |
@@ -1810,7 +1810,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Video Processor Output | \- |
 | Shared Resource | \- |
 | BackBuffer Castable Even Fully Typed | \- |
-| Tiled Resource | ![optional](images/letter-o.jpg) |
+| Tiled Resource | :::image type="icon" source="images/letter-o.jpg"::: |
 
 ## DXGI_FORMAT_R16G16\_FLOAT<sup>FCS</sup> (34)
 | Target | Support |
@@ -1841,7 +1841,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Structured UAV and SRV | \- |
 | Typed UAV | ![required](images/letter-r.jpg) |
 | UAV Typed Store | ![required](images/letter-r.jpg) |
-| UAV Typed Load | ![optional](images/letter-o.jpg) |
+| UAV Typed Load | :::image type="icon" source="images/letter-o.jpg"::: |
 | UAV Atomic Add | \- |
 | UAV Atomic Bitwise Ops | \- |
 | UAV Atomic Cmp&Store/ Cmp&Exch | \- |
@@ -1851,7 +1851,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | CPU Lockable | ![required](images/letter-r.jpg) |
 | 4x Multisample RenderTarget | ![required](images/letter-r.jpg) |
 | 8x Multisample RenderTarget | ![required](images/letter-r.jpg) |
-| Other Multisample Count RT | ![optional](images/letter-o.jpg) |
+| Other Multisample Count RT | :::image type="icon" source="images/letter-o.jpg"::: |
 | Multisample Resolve | ![required](images/letter-r.jpg) |
 | Multisample Load | ![required](images/letter-r.jpg) |
 | Display Scan-Out | \- |
@@ -1861,7 +1861,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Video Processor Output | \- |
 | Shared Resource | \- |
 | BackBuffer Castable Even Fully Typed | \- |
-| Tiled Resource | ![optional](images/letter-o.jpg) |
+| Tiled Resource | :::image type="icon" source="images/letter-o.jpg"::: |
 
 ## DXGI_FORMAT_R16G16\_UNORM<sup>FCS</sup> (35)
 | Target | Support |
@@ -1892,7 +1892,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Structured UAV and SRV | \- |
 | Typed UAV | ![required](images/letter-r.jpg) |
 | UAV Typed Store | ![required](images/letter-r.jpg) |
-| UAV Typed Load | ![optional](images/letter-o.jpg) |
+| UAV Typed Load | :::image type="icon" source="images/letter-o.jpg"::: |
 | UAV Atomic Add | \- |
 | UAV Atomic Bitwise Ops | \- |
 | UAV Atomic Cmp&Store/ Cmp&Exch | \- |
@@ -1902,7 +1902,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | CPU Lockable | ![required](images/letter-r.jpg) |
 | 4x Multisample RenderTarget | ![required](images/letter-r.jpg) |
 | 8x Multisample RenderTarget | ![required](images/letter-r.jpg) |
-| Other Multisample Count RT | ![optional](images/letter-o.jpg) |
+| Other Multisample Count RT | :::image type="icon" source="images/letter-o.jpg"::: |
 | Multisample Resolve | ![required](images/letter-r.jpg) |
 | Multisample Load | ![required](images/letter-r.jpg) |
 | Display Scan-Out | \- |
@@ -1912,7 +1912,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Video Processor Output | \- |
 | Shared Resource | \- |
 | BackBuffer Castable Even Fully Typed | \- |
-| Tiled Resource | ![optional](images/letter-o.jpg) |
+| Tiled Resource | :::image type="icon" source="images/letter-o.jpg"::: |
 
 ## DXGI_FORMAT_R16G16\_UINT<sup>FCS</sup> (36)
 | Target | Support |
@@ -1937,13 +1937,13 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Mipmap Auto-Generation | \- |
 | RenderTarget | ![required](images/letter-r.jpg) |
 | Blendable RenderTarget | \- |
-| Output Merger Logic Op | ![optional](images/letter-o.jpg) |
+| Output Merger Logic Op | :::image type="icon" source="images/letter-o.jpg"::: |
 | Depth/Stencil Target | \- |
 | Raw UAV and SRV | \- |
 | Structured UAV and SRV | \- |
 | Typed UAV | ![required](images/letter-r.jpg) |
 | UAV Typed Store | ![required](images/letter-r.jpg) |
-| UAV Typed Load | ![optional](images/letter-o.jpg) |
+| UAV Typed Load | :::image type="icon" source="images/letter-o.jpg"::: |
 | UAV Atomic Add | \- |
 | UAV Atomic Bitwise Ops | \- |
 | UAV Atomic Cmp&Store/ Cmp&Exch | \- |
@@ -1953,7 +1953,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | CPU Lockable | ![required](images/letter-r.jpg) |
 | 4x Multisample RenderTarget | ![required](images/letter-r.jpg) |
 | 8x Multisample RenderTarget | ![required](images/letter-r.jpg) |
-| Other Multisample Count RT | ![optional](images/letter-o.jpg) |
+| Other Multisample Count RT | :::image type="icon" source="images/letter-o.jpg"::: |
 | Multisample Resolve | \- |
 | Multisample Load | ![required](images/letter-r.jpg) |
 | Display Scan-Out | \- |
@@ -1963,7 +1963,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Video Processor Output | \- |
 | Shared Resource | \- |
 | BackBuffer Castable Even Fully Typed | \- |
-| Tiled Resource | ![optional](images/letter-o.jpg) |
+| Tiled Resource | :::image type="icon" source="images/letter-o.jpg"::: |
 
 ## DXGI_FORMAT_R16G16\_SNORM<sup>FCS</sup> (37)
 | Target | Support |
@@ -1994,7 +1994,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Structured UAV and SRV | \- |
 | Typed UAV | ![required](images/letter-r.jpg) |
 | UAV Typed Store | ![required](images/letter-r.jpg) |
-| UAV Typed Load | ![optional](images/letter-o.jpg) |
+| UAV Typed Load | :::image type="icon" source="images/letter-o.jpg"::: |
 | UAV Atomic Add | \- |
 | UAV Atomic Bitwise Ops | \- |
 | UAV Atomic Cmp&Store/ Cmp&Exch | \- |
@@ -2004,7 +2004,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | CPU Lockable | ![required](images/letter-r.jpg) |
 | 4x Multisample RenderTarget | ![required](images/letter-r.jpg) |
 | 8x Multisample RenderTarget | ![required](images/letter-r.jpg) |
-| Other Multisample Count RT | ![optional](images/letter-o.jpg) |
+| Other Multisample Count RT | :::image type="icon" source="images/letter-o.jpg"::: |
 | Multisample Resolve | ![required](images/letter-r.jpg) |
 | Multisample Load | ![required](images/letter-r.jpg) |
 | Display Scan-Out | \- |
@@ -2014,7 +2014,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Video Processor Output | \- |
 | Shared Resource | \- |
 | BackBuffer Castable Even Fully Typed | \- |
-| Tiled Resource | ![optional](images/letter-o.jpg) |
+| Tiled Resource | :::image type="icon" source="images/letter-o.jpg"::: |
 
 ## DXGI_FORMAT_R16G16\_SINT<sup>FCS</sup> (38)
 | Target | Support |
@@ -2045,7 +2045,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Structured UAV and SRV | \- |
 | Typed UAV | ![required](images/letter-r.jpg) |
 | UAV Typed Store | ![required](images/letter-r.jpg) |
-| UAV Typed Load | ![optional](images/letter-o.jpg) |
+| UAV Typed Load | :::image type="icon" source="images/letter-o.jpg"::: |
 | UAV Atomic Add | \- |
 | UAV Atomic Bitwise Ops | \- |
 | UAV Atomic Cmp&Store/ Cmp&Exch | \- |
@@ -2055,7 +2055,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | CPU Lockable | ![required](images/letter-r.jpg) |
 | 4x Multisample RenderTarget | ![required](images/letter-r.jpg) |
 | 8x Multisample RenderTarget | ![required](images/letter-r.jpg) |
-| Other Multisample Count RT | ![optional](images/letter-o.jpg) |
+| Other Multisample Count RT | :::image type="icon" source="images/letter-o.jpg"::: |
 | Multisample Resolve | \- |
 | Multisample Load | ![required](images/letter-r.jpg) |
 | Display Scan-Out | \- |
@@ -2065,7 +2065,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Video Processor Output | \- |
 | Shared Resource | \- |
 | BackBuffer Castable Even Fully Typed | \- |
-| Tiled Resource | ![optional](images/letter-o.jpg) |
+| Tiled Resource | :::image type="icon" source="images/letter-o.jpg"::: |
 
 ## DXGI_FORMAT_R32\_TYPELESS<sup>PCS</sup> (39)
 | Target | Support |
@@ -2116,7 +2116,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Video Processor Output | \- |
 | Shared Resource | ![required](images/letter-r.jpg) |
 | BackBuffer Castable Even Fully Typed | \- |
-| Tiled Resource | ![optional](images/letter-o.jpg) |
+| Tiled Resource | :::image type="icon" source="images/letter-o.jpg"::: |
 
 ## DXGI_FORMAT_D32\_FLOAT<sup>FCS</sup> (40)
 | Target | Support |
@@ -2157,7 +2157,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | CPU Lockable | ![required](images/letter-r.jpg) |
 | 4x Multisample RenderTarget | ![required](images/letter-r.jpg) |
 | 8x Multisample RenderTarget | ![required](images/letter-r.jpg) |
-| Other Multisample Count RT | ![optional](images/letter-o.jpg) |
+| Other Multisample Count RT | :::image type="icon" source="images/letter-o.jpg"::: |
 | Multisample Resolve | \- |
 | Multisample Load | \- |
 | Display Scan-Out | \- |
@@ -2167,7 +2167,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Video Processor Output | \- |
 | Shared Resource | ![required](images/letter-r.jpg) |
 | BackBuffer Castable Even Fully Typed | \- |
-| Tiled Resource | ![optional](images/letter-o.jpg) |
+| Tiled Resource | :::image type="icon" source="images/letter-o.jpg"::: |
 
 ## DXGI_FORMAT_R32\_FLOAT<sup>FCS</sup> (41)
 | Target | Support |
@@ -2208,7 +2208,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | CPU Lockable | ![required](images/letter-r.jpg) |
 | 4x Multisample RenderTarget | ![required](images/letter-r.jpg) |
 | 8x Multisample RenderTarget | ![required](images/letter-r.jpg) |
-| Other Multisample Count RT | ![optional](images/letter-o.jpg) |
+| Other Multisample Count RT | :::image type="icon" source="images/letter-o.jpg"::: |
 | Multisample Resolve | ![required](images/letter-r.jpg) |
 | Multisample Load | ![required](images/letter-r.jpg) |
 | Display Scan-Out | \- |
@@ -2218,7 +2218,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Video Processor Output | \- |
 | Shared Resource | ![required](images/letter-r.jpg) |
 | BackBuffer Castable Even Fully Typed | \- |
-| Tiled Resource | ![optional](images/letter-o.jpg) |
+| Tiled Resource | :::image type="icon" source="images/letter-o.jpg"::: |
 
 ## DXGI_FORMAT_R32\_UINT<sup>FCS</sup> (42)
 | Target | Support |
@@ -2243,7 +2243,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Mipmap Auto-Generation | \- |
 | RenderTarget | ![required](images/letter-r.jpg) |
 | Blendable RenderTarget | \- |
-| Output Merger Logic Op | ![optional](images/letter-o.jpg) |
+| Output Merger Logic Op | :::image type="icon" source="images/letter-o.jpg"::: |
 | Depth/Stencil Target | \- |
 | Raw UAV and SRV | \- |
 | Structured UAV and SRV | \- |
@@ -2259,7 +2259,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | CPU Lockable | ![required](images/letter-r.jpg) |
 | 4x Multisample RenderTarget | ![required](images/letter-r.jpg) |
 | 8x Multisample RenderTarget | ![required](images/letter-r.jpg) |
-| Other Multisample Count RT | ![optional](images/letter-o.jpg) |
+| Other Multisample Count RT | :::image type="icon" source="images/letter-o.jpg"::: |
 | Multisample Resolve | \- |
 | Multisample Load | ![required](images/letter-r.jpg) |
 | Display Scan-Out | \- |
@@ -2269,7 +2269,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Video Processor Output | \- |
 | Shared Resource | ![required](images/letter-r.jpg) |
 | BackBuffer Castable Even Fully Typed | \- |
-| Tiled Resource | ![optional](images/letter-o.jpg) |
+| Tiled Resource | :::image type="icon" source="images/letter-o.jpg"::: |
 
 ## DXGI_FORMAT_R32\_SINT<sup>FCS</sup> (43)
 | Target | Support |
@@ -2310,7 +2310,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | CPU Lockable | ![required](images/letter-r.jpg) |
 | 4x Multisample RenderTarget | ![required](images/letter-r.jpg) |
 | 8x Multisample RenderTarget | ![required](images/letter-r.jpg) |
-| Other Multisample Count RT | ![optional](images/letter-o.jpg) |
+| Other Multisample Count RT | :::image type="icon" source="images/letter-o.jpg"::: |
 | Multisample Resolve | \- |
 | Multisample Load | ![required](images/letter-r.jpg) |
 | Display Scan-Out | \- |
@@ -2320,7 +2320,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Video Processor Output | \- |
 | Shared Resource | ![required](images/letter-r.jpg) |
 | BackBuffer Castable Even Fully Typed | \- |
-| Tiled Resource | ![optional](images/letter-o.jpg) |
+| Tiled Resource | :::image type="icon" source="images/letter-o.jpg"::: |
 
 ## DXGI_FORMAT_R24G8\_TYPELESS<sup>PCS</sup> (44)
 | Target | Support |
@@ -2412,7 +2412,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | CPU Lockable | ![required](images/letter-r.jpg) |
 | 4x Multisample RenderTarget | ![required](images/letter-r.jpg) |
 | 8x Multisample RenderTarget | ![required](images/letter-r.jpg) |
-| Other Multisample Count RT | ![optional](images/letter-o.jpg) |
+| Other Multisample Count RT | :::image type="icon" source="images/letter-o.jpg"::: |
 | Multisample Resolve | \- |
 | Multisample Load | \- |
 | Display Scan-Out | \- |
@@ -2575,7 +2575,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Video Processor Output | \- |
 | Shared Resource | \- |
 | BackBuffer Castable Even Fully Typed | \- |
-| Tiled Resource | ![optional](images/letter-o.jpg) |
+| Tiled Resource | :::image type="icon" source="images/letter-o.jpg"::: |
 
 ## DXGI_FORMAT_R8G8\_UNORM<sup>FCS</sup> (49)
 | Target | Support |
@@ -2606,7 +2606,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Structured UAV and SRV | \- |
 | Typed UAV | ![required](images/letter-r.jpg) |
 | UAV Typed Store | ![required](images/letter-r.jpg) |
-| UAV Typed Load | ![optional](images/letter-o.jpg) |
+| UAV Typed Load | :::image type="icon" source="images/letter-o.jpg"::: |
 | UAV Atomic Add | \- |
 | UAV Atomic Bitwise Ops | \- |
 | UAV Atomic Cmp&Store/ Cmp&Exch | \- |
@@ -2616,7 +2616,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | CPU Lockable | ![required](images/letter-r.jpg) |
 | 4x Multisample RenderTarget | ![required](images/letter-r.jpg) |
 | 8x Multisample RenderTarget | ![required](images/letter-r.jpg) |
-| Other Multisample Count RT | ![optional](images/letter-o.jpg) |
+| Other Multisample Count RT | :::image type="icon" source="images/letter-o.jpg"::: |
 | Multisample Resolve | ![required](images/letter-r.jpg) |
 | Multisample Load | ![required](images/letter-r.jpg) |
 | Display Scan-Out | \- |
@@ -2626,7 +2626,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Video Processor Output | \- |
 | Shared Resource | ![required](images/letter-r.jpg) |
 | BackBuffer Castable Even Fully Typed | \- |
-| Tiled Resource | ![optional](images/letter-o.jpg) |
+| Tiled Resource | :::image type="icon" source="images/letter-o.jpg"::: |
 
 ## DXGI_FORMAT_R8G8\_UINT<sup>FCS</sup> (50)
 | Target | Support |
@@ -2651,13 +2651,13 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Mipmap Auto-Generation | \- |
 | RenderTarget | ![required](images/letter-r.jpg) |
 | Blendable RenderTarget | \- |
-| Output Merger Logic Op | ![optional](images/letter-o.jpg) |
+| Output Merger Logic Op | :::image type="icon" source="images/letter-o.jpg"::: |
 | Depth/Stencil Target | \- |
 | Raw UAV and SRV | \- |
 | Structured UAV and SRV | \- |
 | Typed UAV | ![required](images/letter-r.jpg) |
 | UAV Typed Store | ![required](images/letter-r.jpg) |
-| UAV Typed Load | ![optional](images/letter-o.jpg) |
+| UAV Typed Load | :::image type="icon" source="images/letter-o.jpg"::: |
 | UAV Atomic Add | \- |
 | UAV Atomic Bitwise Ops | \- |
 | UAV Atomic Cmp&Store/ Cmp&Exch | \- |
@@ -2667,7 +2667,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | CPU Lockable | ![required](images/letter-r.jpg) |
 | 4x Multisample RenderTarget | ![required](images/letter-r.jpg) |
 | 8x Multisample RenderTarget | ![required](images/letter-r.jpg) |
-| Other Multisample Count RT | ![optional](images/letter-o.jpg) |
+| Other Multisample Count RT | :::image type="icon" source="images/letter-o.jpg"::: |
 | Multisample Resolve | \- |
 | Multisample Load | ![required](images/letter-r.jpg) |
 | Display Scan-Out | \- |
@@ -2677,7 +2677,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Video Processor Output | \- |
 | Shared Resource | \- |
 | BackBuffer Castable Even Fully Typed | \- |
-| Tiled Resource | ![optional](images/letter-o.jpg) |
+| Tiled Resource | :::image type="icon" source="images/letter-o.jpg"::: |
 
 ## DXGI_FORMAT_R8G8\_SNORM<sup>FCS</sup> (51)
 | Target | Support |
@@ -2708,7 +2708,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Structured UAV and SRV | \- |
 | Typed UAV | ![required](images/letter-r.jpg) |
 | UAV Typed Store | ![required](images/letter-r.jpg) |
-| UAV Typed Load | ![optional](images/letter-o.jpg) |
+| UAV Typed Load | :::image type="icon" source="images/letter-o.jpg"::: |
 | UAV Atomic Add | \- |
 | UAV Atomic Bitwise Ops | \- |
 | UAV Atomic Cmp&Store/ Cmp&Exch | \- |
@@ -2718,7 +2718,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | CPU Lockable | ![required](images/letter-r.jpg) |
 | 4x Multisample RenderTarget | ![required](images/letter-r.jpg) |
 | 8x Multisample RenderTarget | ![required](images/letter-r.jpg) |
-| Other Multisample Count RT | ![optional](images/letter-o.jpg) |
+| Other Multisample Count RT | :::image type="icon" source="images/letter-o.jpg"::: |
 | Multisample Resolve | ![required](images/letter-r.jpg) |
 | Multisample Load | ![required](images/letter-r.jpg) |
 | Display Scan-Out | \- |
@@ -2728,7 +2728,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Video Processor Output | \- |
 | Shared Resource | \- |
 | BackBuffer Castable Even Fully Typed | \- |
-| Tiled Resource | ![optional](images/letter-o.jpg) |
+| Tiled Resource | :::image type="icon" source="images/letter-o.jpg"::: |
 
 ## DXGI_FORMAT_R8G8\_SINT<sup>FCS</sup> (52)
 | Target | Support |
@@ -2759,7 +2759,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Structured UAV and SRV | \- |
 | Typed UAV | ![required](images/letter-r.jpg) |
 | UAV Typed Store | ![required](images/letter-r.jpg) |
-| UAV Typed Load | ![optional](images/letter-o.jpg) |
+| UAV Typed Load | :::image type="icon" source="images/letter-o.jpg"::: |
 | UAV Atomic Add | \- |
 | UAV Atomic Bitwise Ops | \- |
 | UAV Atomic Cmp&Store/ Cmp&Exch | \- |
@@ -2769,7 +2769,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | CPU Lockable | ![required](images/letter-r.jpg) |
 | 4x Multisample RenderTarget | ![required](images/letter-r.jpg) |
 | 8x Multisample RenderTarget | ![required](images/letter-r.jpg) |
-| Other Multisample Count RT | ![optional](images/letter-o.jpg) |
+| Other Multisample Count RT | :::image type="icon" source="images/letter-o.jpg"::: |
 | Multisample Resolve | \- |
 | Multisample Load | ![required](images/letter-r.jpg) |
 | Display Scan-Out | \- |
@@ -2779,7 +2779,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Video Processor Output | \- |
 | Shared Resource | \- |
 | BackBuffer Castable Even Fully Typed | \- |
-| Tiled Resource | ![optional](images/letter-o.jpg) |
+| Tiled Resource | :::image type="icon" source="images/letter-o.jpg"::: |
 
 ## DXGI_FORMAT_R16\_TYPELESS<sup>PCS</sup> (53)
 | Target | Support |
@@ -2830,7 +2830,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Video Processor Output | \- |
 | Shared Resource | ![required](images/letter-r.jpg) |
 | BackBuffer Castable Even Fully Typed | \- |
-| Tiled Resource | ![optional](images/letter-o.jpg) |
+| Tiled Resource | :::image type="icon" source="images/letter-o.jpg"::: |
 
 ## DXGI_FORMAT_R16\_FLOAT<sup>FCS</sup> (54)
 | Target | Support |
@@ -2861,7 +2861,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Structured UAV and SRV | \- |
 | Typed UAV | ![required](images/letter-r.jpg) |
 | UAV Typed Store | ![required](images/letter-r.jpg) |
-| UAV Typed Load | ![optional](images/letter-o.jpg) |
+| UAV Typed Load | :::image type="icon" source="images/letter-o.jpg"::: |
 | UAV Atomic Add | \- |
 | UAV Atomic Bitwise Ops | \- |
 | UAV Atomic Cmp&Store/ Cmp&Exch | \- |
@@ -2871,7 +2871,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | CPU Lockable | ![required](images/letter-r.jpg) |
 | 4x Multisample RenderTarget | ![required](images/letter-r.jpg) |
 | 8x Multisample RenderTarget | ![required](images/letter-r.jpg) |
-| Other Multisample Count RT | ![optional](images/letter-o.jpg) |
+| Other Multisample Count RT | :::image type="icon" source="images/letter-o.jpg"::: |
 | Multisample Resolve | ![required](images/letter-r.jpg) |
 | Multisample Load | ![required](images/letter-r.jpg) |
 | Display Scan-Out | \- |
@@ -2881,7 +2881,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Video Processor Output | \- |
 | Shared Resource | ![required](images/letter-r.jpg) |
 | BackBuffer Castable Even Fully Typed | \- |
-| Tiled Resource | ![optional](images/letter-o.jpg) |
+| Tiled Resource | :::image type="icon" source="images/letter-o.jpg"::: |
 
 ## DXGI_FORMAT_D16\_UNORM<sup>FCS</sup> (55)
 | Target | Support |
@@ -2922,7 +2922,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | CPU Lockable | ![required](images/letter-r.jpg) |
 | 4x Multisample RenderTarget | ![required](images/letter-r.jpg) |
 | 8x Multisample RenderTarget | ![required](images/letter-r.jpg) |
-| Other Multisample Count RT | ![optional](images/letter-o.jpg) |
+| Other Multisample Count RT | :::image type="icon" source="images/letter-o.jpg"::: |
 | Multisample Resolve | \- |
 | Multisample Load | \- |
 | Display Scan-Out | \- |
@@ -2932,7 +2932,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Video Processor Output | \- |
 | Shared Resource | ![required](images/letter-r.jpg) |
 | BackBuffer Castable Even Fully Typed | \- |
-| Tiled Resource | ![optional](images/letter-o.jpg) |
+| Tiled Resource | :::image type="icon" source="images/letter-o.jpg"::: |
 
 ## DXGI_FORMAT_R16\_UNORM<sup>FCS</sup> (56)
 | Target | Support |
@@ -2963,7 +2963,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Structured UAV and SRV | \- |
 | Typed UAV | ![required](images/letter-r.jpg) |
 | UAV Typed Store | ![required](images/letter-r.jpg) |
-| UAV Typed Load | ![optional](images/letter-o.jpg) |
+| UAV Typed Load | :::image type="icon" source="images/letter-o.jpg"::: |
 | UAV Atomic Add | \- |
 | UAV Atomic Bitwise Ops | \- |
 | UAV Atomic Cmp&Store/ Cmp&Exch | \- |
@@ -2973,7 +2973,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | CPU Lockable | ![required](images/letter-r.jpg) |
 | 4x Multisample RenderTarget | ![required](images/letter-r.jpg) |
 | 8x Multisample RenderTarget | ![required](images/letter-r.jpg) |
-| Other Multisample Count RT | ![optional](images/letter-o.jpg) |
+| Other Multisample Count RT | :::image type="icon" source="images/letter-o.jpg"::: |
 | Multisample Resolve | ![required](images/letter-r.jpg) |
 | Multisample Load | ![required](images/letter-r.jpg) |
 | Display Scan-Out | \- |
@@ -2983,7 +2983,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Video Processor Output | \- |
 | Shared Resource | ![required](images/letter-r.jpg) |
 | BackBuffer Castable Even Fully Typed | \- |
-| Tiled Resource | ![optional](images/letter-o.jpg) |
+| Tiled Resource | :::image type="icon" source="images/letter-o.jpg"::: |
 
 ## DXGI_FORMAT_R16\_UINT<sup>FCS</sup> (57)
 | Target | Support |
@@ -3008,13 +3008,13 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Mipmap Auto-Generation | \- |
 | RenderTarget | ![required](images/letter-r.jpg) |
 | Blendable RenderTarget | \- |
-| Output Merger Logic Op | ![optional](images/letter-o.jpg) |
+| Output Merger Logic Op | :::image type="icon" source="images/letter-o.jpg"::: |
 | Depth/Stencil Target | \- |
 | Raw UAV and SRV | \- |
 | Structured UAV and SRV | \- |
 | Typed UAV | ![required](images/letter-r.jpg) |
 | UAV Typed Store | ![required](images/letter-r.jpg) |
-| UAV Typed Load | ![optional](images/letter-o.jpg) |
+| UAV Typed Load | :::image type="icon" source="images/letter-o.jpg"::: |
 | UAV Atomic Add | \- |
 | UAV Atomic Bitwise Ops | \- |
 | UAV Atomic Cmp&Store/ Cmp&Exch | \- |
@@ -3024,7 +3024,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | CPU Lockable | ![required](images/letter-r.jpg) |
 | 4x Multisample RenderTarget | ![required](images/letter-r.jpg) |
 | 8x Multisample RenderTarget | ![required](images/letter-r.jpg) |
-| Other Multisample Count RT | ![optional](images/letter-o.jpg) |
+| Other Multisample Count RT | :::image type="icon" source="images/letter-o.jpg"::: |
 | Multisample Resolve | \- |
 | Multisample Load | ![required](images/letter-r.jpg) |
 | Display Scan-Out | \- |
@@ -3034,7 +3034,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Video Processor Output | \- |
 | Shared Resource | ![required](images/letter-r.jpg) |
 | BackBuffer Castable Even Fully Typed | \- |
-| Tiled Resource | ![optional](images/letter-o.jpg) |
+| Tiled Resource | :::image type="icon" source="images/letter-o.jpg"::: |
 
 ## DXGI_FORMAT_R16\_SNORM<sup>FCS</sup> (58)
 | Target | Support |
@@ -3065,7 +3065,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Structured UAV and SRV | \- |
 | Typed UAV | ![required](images/letter-r.jpg) |
 | UAV Typed Store | ![required](images/letter-r.jpg) |
-| UAV Typed Load | ![optional](images/letter-o.jpg) |
+| UAV Typed Load | :::image type="icon" source="images/letter-o.jpg"::: |
 | UAV Atomic Add | \- |
 | UAV Atomic Bitwise Ops | \- |
 | UAV Atomic Cmp&Store/ Cmp&Exch | \- |
@@ -3075,7 +3075,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | CPU Lockable | ![required](images/letter-r.jpg) |
 | 4x Multisample RenderTarget | ![required](images/letter-r.jpg) |
 | 8x Multisample RenderTarget | ![required](images/letter-r.jpg) |
-| Other Multisample Count RT | ![optional](images/letter-o.jpg) |
+| Other Multisample Count RT | :::image type="icon" source="images/letter-o.jpg"::: |
 | Multisample Resolve | ![required](images/letter-r.jpg) |
 | Multisample Load | ![required](images/letter-r.jpg) |
 | Display Scan-Out | \- |
@@ -3085,7 +3085,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Video Processor Output | \- |
 | Shared Resource | ![required](images/letter-r.jpg) |
 | BackBuffer Castable Even Fully Typed | \- |
-| Tiled Resource | ![optional](images/letter-o.jpg) |
+| Tiled Resource | :::image type="icon" source="images/letter-o.jpg"::: |
 
 ## DXGI_FORMAT_R16\_SINT<sup>FCS</sup> (59)
 | Target | Support |
@@ -3116,7 +3116,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Structured UAV and SRV | \- |
 | Typed UAV | ![required](images/letter-r.jpg) |
 | UAV Typed Store | ![required](images/letter-r.jpg) |
-| UAV Typed Load | ![optional](images/letter-o.jpg) |
+| UAV Typed Load | :::image type="icon" source="images/letter-o.jpg"::: |
 | UAV Atomic Add | \- |
 | UAV Atomic Bitwise Ops | \- |
 | UAV Atomic Cmp&Store/ Cmp&Exch | \- |
@@ -3126,7 +3126,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | CPU Lockable | ![required](images/letter-r.jpg) |
 | 4x Multisample RenderTarget | ![required](images/letter-r.jpg) |
 | 8x Multisample RenderTarget | ![required](images/letter-r.jpg) |
-| Other Multisample Count RT | ![optional](images/letter-o.jpg) |
+| Other Multisample Count RT | :::image type="icon" source="images/letter-o.jpg"::: |
 | Multisample Resolve | \- |
 | Multisample Load | ![required](images/letter-r.jpg) |
 | Display Scan-Out | \- |
@@ -3136,7 +3136,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Video Processor Output | \- |
 | Shared Resource | ![required](images/letter-r.jpg) |
 | BackBuffer Castable Even Fully Typed | \- |
-| Tiled Resource | ![optional](images/letter-o.jpg) |
+| Tiled Resource | :::image type="icon" source="images/letter-o.jpg"::: |
 
 ## DXGI_FORMAT_R8\_TYPELESS<sup>PCS</sup> (60)
 | Target | Support |
@@ -3187,7 +3187,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Video Processor Output | \- |
 | Shared Resource | ![required](images/letter-r.jpg) |
 | BackBuffer Castable Even Fully Typed | \- |
-| Tiled Resource | ![optional](images/letter-o.jpg) |
+| Tiled Resource | :::image type="icon" source="images/letter-o.jpg"::: |
 
 ## DXGI_FORMAT_R8\_UNORM<sup>FCS</sup> (61)
 | Target | Support |
@@ -3218,7 +3218,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Structured UAV and SRV | \- |
 | Typed UAV | ![required](images/letter-r.jpg) |
 | UAV Typed Store | ![required](images/letter-r.jpg) |
-| UAV Typed Load | ![optional](images/letter-o.jpg) |
+| UAV Typed Load | :::image type="icon" source="images/letter-o.jpg"::: |
 | UAV Atomic Add | \- |
 | UAV Atomic Bitwise Ops | \- |
 | UAV Atomic Cmp&Store/ Cmp&Exch | \- |
@@ -3228,7 +3228,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | CPU Lockable | ![required](images/letter-r.jpg) |
 | 4x Multisample RenderTarget | ![required](images/letter-r.jpg) |
 | 8x Multisample RenderTarget | ![required](images/letter-r.jpg) |
-| Other Multisample Count RT | ![optional](images/letter-o.jpg) |
+| Other Multisample Count RT | :::image type="icon" source="images/letter-o.jpg"::: |
 | Multisample Resolve | ![required](images/letter-r.jpg) |
 | Multisample Load | ![required](images/letter-r.jpg) |
 | Display Scan-Out | \- |
@@ -3238,7 +3238,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Video Processor Output | \- |
 | Shared Resource | ![required](images/letter-r.jpg) |
 | BackBuffer Castable Even Fully Typed | \- |
-| Tiled Resource | ![optional](images/letter-o.jpg) |
+| Tiled Resource | :::image type="icon" source="images/letter-o.jpg"::: |
 
 ## DXGI_FORMAT_R8\_UINT<sup>FCS</sup> (62)
 | Target | Support |
@@ -3263,13 +3263,13 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Mipmap Auto-Generation | \- |
 | RenderTarget | ![required](images/letter-r.jpg) |
 | Blendable RenderTarget | \- |
-| Output Merger Logic Op | ![optional](images/letter-o.jpg) |
+| Output Merger Logic Op | :::image type="icon" source="images/letter-o.jpg"::: |
 | Depth/Stencil Target | \- |
 | Raw UAV and SRV | \- |
 | Structured UAV and SRV | \- |
 | Typed UAV | ![required](images/letter-r.jpg) |
 | UAV Typed Store | ![required](images/letter-r.jpg) |
-| UAV Typed Load | ![optional](images/letter-o.jpg) |
+| UAV Typed Load | :::image type="icon" source="images/letter-o.jpg"::: |
 | UAV Atomic Add | \- |
 | UAV Atomic Bitwise Ops | \- |
 | UAV Atomic Cmp&Store/ Cmp&Exch | \- |
@@ -3279,7 +3279,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | CPU Lockable | ![required](images/letter-r.jpg) |
 | 4x Multisample RenderTarget | ![required](images/letter-r.jpg) |
 | 8x Multisample RenderTarget | ![required](images/letter-r.jpg) |
-| Other Multisample Count RT | ![optional](images/letter-o.jpg) |
+| Other Multisample Count RT | :::image type="icon" source="images/letter-o.jpg"::: |
 | Multisample Resolve | \- |
 | Multisample Load | ![required](images/letter-r.jpg) |
 | Display Scan-Out | \- |
@@ -3289,7 +3289,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Video Processor Output | \- |
 | Shared Resource | ![required](images/letter-r.jpg) |
 | BackBuffer Castable Even Fully Typed | \- |
-| Tiled Resource | ![optional](images/letter-o.jpg) |
+| Tiled Resource | :::image type="icon" source="images/letter-o.jpg"::: |
 
 ## DXGI_FORMAT_R8\_SNORM<sup>FCS</sup> (63)
 | Target | Support |
@@ -3320,7 +3320,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Structured UAV and SRV | \- |
 | Typed UAV | ![required](images/letter-r.jpg) |
 | UAV Typed Store | ![required](images/letter-r.jpg) |
-| UAV Typed Load | ![optional](images/letter-o.jpg) |
+| UAV Typed Load | :::image type="icon" source="images/letter-o.jpg"::: |
 | UAV Atomic Add | \- |
 | UAV Atomic Bitwise Ops | \- |
 | UAV Atomic Cmp&Store/ Cmp&Exch | \- |
@@ -3330,7 +3330,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | CPU Lockable | ![required](images/letter-r.jpg) |
 | 4x Multisample RenderTarget | ![required](images/letter-r.jpg) |
 | 8x Multisample RenderTarget | ![required](images/letter-r.jpg) |
-| Other Multisample Count RT | ![optional](images/letter-o.jpg) |
+| Other Multisample Count RT | :::image type="icon" source="images/letter-o.jpg"::: |
 | Multisample Resolve | ![required](images/letter-r.jpg) |
 | Multisample Load | ![required](images/letter-r.jpg) |
 | Display Scan-Out | \- |
@@ -3340,7 +3340,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Video Processor Output | \- |
 | Shared Resource | ![required](images/letter-r.jpg) |
 | BackBuffer Castable Even Fully Typed | \- |
-| Tiled Resource | ![optional](images/letter-o.jpg) |
+| Tiled Resource | :::image type="icon" source="images/letter-o.jpg"::: |
 
 ## DXGI_FORMAT_R8\_SINT<sup>FCS</sup> (64)
 | Target | Support |
@@ -3371,7 +3371,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Structured UAV and SRV | \- |
 | Typed UAV | ![required](images/letter-r.jpg) |
 | UAV Typed Store | ![required](images/letter-r.jpg) |
-| UAV Typed Load | ![optional](images/letter-o.jpg) |
+| UAV Typed Load | :::image type="icon" source="images/letter-o.jpg"::: |
 | UAV Atomic Add | \- |
 | UAV Atomic Bitwise Ops | \- |
 | UAV Atomic Cmp&Store/ Cmp&Exch | \- |
@@ -3381,7 +3381,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | CPU Lockable | ![required](images/letter-r.jpg) |
 | 4x Multisample RenderTarget | ![required](images/letter-r.jpg) |
 | 8x Multisample RenderTarget | ![required](images/letter-r.jpg) |
-| Other Multisample Count RT | ![optional](images/letter-o.jpg) |
+| Other Multisample Count RT | :::image type="icon" source="images/letter-o.jpg"::: |
 | Multisample Resolve | \- |
 | Multisample Load | ![required](images/letter-r.jpg) |
 | Display Scan-Out | \- |
@@ -3391,7 +3391,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Video Processor Output | \- |
 | Shared Resource | ![required](images/letter-r.jpg) |
 | BackBuffer Castable Even Fully Typed | \- |
-| Tiled Resource | ![optional](images/letter-o.jpg) |
+| Tiled Resource | :::image type="icon" source="images/letter-o.jpg"::: |
 
 ## DXGI_FORMAT_A8\_UNORM<sup>FNS</sup> (65)
 | Target | Support |
@@ -3422,7 +3422,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Structured UAV and SRV | \- |
 | Typed UAV | ![required](images/letter-r.jpg) |
 | UAV Typed Store | ![required](images/letter-r.jpg) |
-| UAV Typed Load | ![optional](images/letter-o.jpg) |
+| UAV Typed Load | :::image type="icon" source="images/letter-o.jpg"::: |
 | UAV Atomic Add | \- |
 | UAV Atomic Bitwise Ops | \- |
 | UAV Atomic Cmp&Store/ Cmp&Exch | \- |
@@ -3432,7 +3432,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | CPU Lockable | ![required](images/letter-r.jpg) |
 | 4x Multisample RenderTarget | ![required](images/letter-r.jpg) |
 | 8x Multisample RenderTarget | ![required](images/letter-r.jpg) |
-| Other Multisample Count RT | ![optional](images/letter-o.jpg) |
+| Other Multisample Count RT | :::image type="icon" source="images/letter-o.jpg"::: |
 | Multisample Resolve | ![required](images/letter-r.jpg) |
 | Multisample Load | ![required](images/letter-r.jpg) |
 | Display Scan-Out | \- |
@@ -3442,7 +3442,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Video Processor Output | \- |
 | Shared Resource | ![required](images/letter-r.jpg) |
 | BackBuffer Castable Even Fully Typed | \- |
-| Tiled Resource | ![optional](images/letter-o.jpg) |
+| Tiled Resource | :::image type="icon" source="images/letter-o.jpg"::: |
 
 ## DXGI_FORMAT_R9G9B9E5\_SHAREDEXP<sup>FNC</sup> (67)
 | Target | Support |
@@ -3493,7 +3493,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Video Processor Output | \- |
 | Shared Resource | \- |
 | BackBuffer Castable Even Fully Typed | \- |
-| Tiled Resource | ![optional](images/letter-o.jpg) |
+| Tiled Resource | :::image type="icon" source="images/letter-o.jpg"::: |
 
 ## DXGI_FORMAT_R8G8\_B8G8\_UNORM<sup>FNC</sup> (68)
 | Target | Support |
@@ -3646,7 +3646,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Video Processor Output | \- |
 | Shared Resource | ![required](images/letter-r.jpg) |
 | BackBuffer Castable Even Fully Typed | \- |
-| Tiled Resource | ![optional](images/letter-o.jpg) |
+| Tiled Resource | :::image type="icon" source="images/letter-o.jpg"::: |
 
 ## DXGI_FORMAT_BC1\_UNORM <sup>FCC</sup> (71)
 | Target | Support |
@@ -3697,7 +3697,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Video Processor Output | \- |
 | Shared Resource | ![required](images/letter-r.jpg) |
 | BackBuffer Castable Even Fully Typed | \- |
-| Tiled Resource | ![optional](images/letter-o.jpg) |
+| Tiled Resource | :::image type="icon" source="images/letter-o.jpg"::: |
 
 ## DXGI_FORMAT_BC1\_UNORM\_SRGB <sup>FCC</sup> (72)
 | Target | Support |
@@ -3748,7 +3748,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Video Processor Output | \- |
 | Shared Resource | ![required](images/letter-r.jpg) |
 | BackBuffer Castable Even Fully Typed | \- |
-| Tiled Resource | ![optional](images/letter-o.jpg) |
+| Tiled Resource | :::image type="icon" source="images/letter-o.jpg"::: |
 
 ## DXGI_FORMAT_BC2\_TYPELESS<sup>PCC</sup> (73)
 | Target | Support |
@@ -3799,7 +3799,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Video Processor Output | \- |
 | Shared Resource | ![required](images/letter-r.jpg) |
 | BackBuffer Castable Even Fully Typed | \- |
-| Tiled Resource | ![optional](images/letter-o.jpg) |
+| Tiled Resource | :::image type="icon" source="images/letter-o.jpg"::: |
 
 ## DXGI_FORMAT_BC2\_UNORM <sup>FCC</sup> (74)
 | Target | Support |
@@ -3850,7 +3850,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Video Processor Output | \- |
 | Shared Resource | ![required](images/letter-r.jpg) |
 | BackBuffer Castable Even Fully Typed | \- |
-| Tiled Resource | ![optional](images/letter-o.jpg) |
+| Tiled Resource | :::image type="icon" source="images/letter-o.jpg"::: |
 
 ## DXGI_FORMAT_BC2\_UNORM\_SRGB <sup>FCC</sup> (75)
 | Target | Support |
@@ -3901,7 +3901,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Video Processor Output | \- |
 | Shared Resource | ![required](images/letter-r.jpg) |
 | BackBuffer Castable Even Fully Typed | \- |
-| Tiled Resource | ![optional](images/letter-o.jpg) |
+| Tiled Resource | :::image type="icon" source="images/letter-o.jpg"::: |
 
 ## DXGI_FORMAT_BC3\_TYPELESS<sup>PCC</sup> (76)
 | Target | Support |
@@ -3952,7 +3952,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Video Processor Output | \- |
 | Shared Resource | ![required](images/letter-r.jpg) |
 | BackBuffer Castable Even Fully Typed | \- |
-| Tiled Resource | ![optional](images/letter-o.jpg) |
+| Tiled Resource | :::image type="icon" source="images/letter-o.jpg"::: |
 
 ## DXGI_FORMAT_BC3\_UNORM <sup>FCC</sup> (77)
 | Target | Support |
@@ -4003,7 +4003,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Video Processor Output | \- |
 | Shared Resource | ![required](images/letter-r.jpg) |
 | BackBuffer Castable Even Fully Typed | \- |
-| Tiled Resource | ![optional](images/letter-o.jpg) |
+| Tiled Resource | :::image type="icon" source="images/letter-o.jpg"::: |
 
 ## DXGI_FORMAT_BC3\_UNORM\_SRGB <sup>FCC</sup> (78)
 | Target | Support |
@@ -4054,7 +4054,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Video Processor Output | \- |
 | Shared Resource | ![required](images/letter-r.jpg) |
 | BackBuffer Castable Even Fully Typed | \- |
-| Tiled Resource | ![optional](images/letter-o.jpg) |
+| Tiled Resource | :::image type="icon" source="images/letter-o.jpg"::: |
 
 ## DXGI_FORMAT_BC4\_TYPELESS<sup>PCC</sup> (79)
 | Target | Support |
@@ -4105,7 +4105,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Video Processor Output | \- |
 | Shared Resource | \- |
 | BackBuffer Castable Even Fully Typed | \- |
-| Tiled Resource | ![optional](images/letter-o.jpg) |
+| Tiled Resource | :::image type="icon" source="images/letter-o.jpg"::: |
 
 ## DXGI_FORMAT_BC4\_UNORM <sup>FCC</sup> (80)
 | Target | Support |
@@ -4156,7 +4156,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Video Processor Output | \- |
 | Shared Resource | \- |
 | BackBuffer Castable Even Fully Typed | \- |
-| Tiled Resource | ![optional](images/letter-o.jpg) |
+| Tiled Resource | :::image type="icon" source="images/letter-o.jpg"::: |
 
 ## DXGI_FORMAT_BC4\_SNORM <sup>FCC</sup> (81)
 | Target | Support |
@@ -4207,7 +4207,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Video Processor Output | \- |
 | Shared Resource | \- |
 | BackBuffer Castable Even Fully Typed | \- |
-| Tiled Resource | ![optional](images/letter-o.jpg) |
+| Tiled Resource | :::image type="icon" source="images/letter-o.jpg"::: |
 
 ## DXGI_FORMAT_BC5\_TYPELESS<sup>PCC</sup> (82)
 | Target | Support |
@@ -4258,7 +4258,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Video Processor Output | \- |
 | Shared Resource | \- |
 | BackBuffer Castable Even Fully Typed | \- |
-| Tiled Resource | ![optional](images/letter-o.jpg) |
+| Tiled Resource | :::image type="icon" source="images/letter-o.jpg"::: |
 
 ## DXGI_FORMAT_BC5\_UNORM <sup>FCC</sup> (83)
 | Target | Support |
@@ -4309,7 +4309,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Video Processor Output | \- |
 | Shared Resource | \- |
 | BackBuffer Castable Even Fully Typed | \- |
-| Tiled Resource | ![optional](images/letter-o.jpg) |
+| Tiled Resource | :::image type="icon" source="images/letter-o.jpg"::: |
 
 ## DXGI_FORMAT_BC5\_SNORM <sup>FCC</sup> (84)
 | Target | Support |
@@ -4360,15 +4360,15 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Video Processor Output | \- |
 | Shared Resource | \- |
 | BackBuffer Castable Even Fully Typed | \- |
-| Tiled Resource | ![optional](images/letter-o.jpg) |
+| Tiled Resource | :::image type="icon" source="images/letter-o.jpg"::: |
 
 ## DXGI_FORMAT_B5G6R5\_UNORM<sup>FNS</sup> (85)
 | Target | Support |
 | - | - |
 | Bits Per Element (BPE) | 16 |
 | Format Support | ![required](images/letter-r.jpg) |
-| Buffer | ![optional](images/letter-o.jpg) |
-| Input Assembler Vertex Buffer | ![optional](images/letter-o.jpg) |
+| Buffer | :::image type="icon" source="images/letter-o.jpg"::: |
+| Input Assembler Vertex Buffer | :::image type="icon" source="images/letter-o.jpg"::: |
 | Input Assembler Index Buffer | \- |
 | Stream Output Buffer | \- |
 | Texture1D | ![required](images/letter-r.jpg) |
@@ -4389,9 +4389,9 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Depth/Stencil Target | \- |
 | Raw UAV and SRV | \- |
 | Structured UAV and SRV | \- |
-| Typed UAV | ![optional](images/letter-o.jpg) |
-| UAV Typed Store | ![optional](images/letter-o.jpg) |
-| UAV Typed Load | ![optional](images/letter-o.jpg) |
+| Typed UAV | :::image type="icon" source="images/letter-o.jpg"::: |
+| UAV Typed Store | :::image type="icon" source="images/letter-o.jpg"::: |
+| UAV Typed Load | :::image type="icon" source="images/letter-o.jpg"::: |
 | UAV Atomic Add | \- |
 | UAV Atomic Bitwise Ops | \- |
 | UAV Atomic Cmp&Store/ Cmp&Exch | \- |
@@ -4411,15 +4411,15 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Video Processor Output | \- |
 | Shared Resource | \- |
 | BackBuffer Castable Even Fully Typed | \- |
-| Tiled Resource | ![optional](images/letter-o.jpg) |
+| Tiled Resource | :::image type="icon" source="images/letter-o.jpg"::: |
 
 ## DXGI_FORMAT_B5G5R5A1\_UNORM<sup>FNS</sup> (86)
 | Target | Support |
 | - | - |
 | Bits Per Element (BPE) | 16 |
 | Format Support | ![required](images/letter-r.jpg) |
-| Buffer | ![optional](images/letter-o.jpg) |
-| Input Assembler Vertex Buffer | ![optional](images/letter-o.jpg) |
+| Buffer | :::image type="icon" source="images/letter-o.jpg"::: |
+| Input Assembler Vertex Buffer | :::image type="icon" source="images/letter-o.jpg"::: |
 | Input Assembler Index Buffer | \- |
 | Stream Output Buffer | \- |
 | Texture1D | ![required](images/letter-r.jpg) |
@@ -4433,16 +4433,16 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Shader gather4 | ![required](images/letter-r.jpg) |
 | Shader gather4\_c | \- |
 | Mipmap | ![required](images/letter-r.jpg) |
-| Mipmap Auto-Generation | ![optional](images/letter-o.jpg) |
-| RenderTarget | ![optional](images/letter-o.jpg) |
-| Blendable RenderTarget | ![optional](images/letter-o.jpg) |
+| Mipmap Auto-Generation | :::image type="icon" source="images/letter-o.jpg"::: |
+| RenderTarget | :::image type="icon" source="images/letter-o.jpg"::: |
+| Blendable RenderTarget | :::image type="icon" source="images/letter-o.jpg"::: |
 | Output Merger Logic Op | \- |
 | Depth/Stencil Target | \- |
 | Raw UAV and SRV | \- |
 | Structured UAV and SRV | \- |
-| Typed UAV | ![optional](images/letter-o.jpg) |
-| UAV Typed Store | ![optional](images/letter-o.jpg) |
-| UAV Typed Load | ![optional](images/letter-o.jpg) |
+| Typed UAV | :::image type="icon" source="images/letter-o.jpg"::: |
+| UAV Typed Store | :::image type="icon" source="images/letter-o.jpg"::: |
+| UAV Typed Load | :::image type="icon" source="images/letter-o.jpg"::: |
 | UAV Atomic Add | \- |
 | UAV Atomic Bitwise Ops | \- |
 | UAV Atomic Cmp&Store/ Cmp&Exch | \- |
@@ -4450,11 +4450,11 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | UAV Atomic Signed Min/Max | \- |
 | UAV Atomic Unsigned Min/Max | \- |
 | CPU Lockable | ![required](images/letter-r.jpg) |
-| 4x Multisample RenderTarget | ![optional](images/letter-o.jpg) |
-| 8x Multisample RenderTarget | ![optional](images/letter-o.jpg) |
-| Other Multisample Count RT | ![optional](images/letter-o.jpg) |
+| 4x Multisample RenderTarget | :::image type="icon" source="images/letter-o.jpg"::: |
+| 8x Multisample RenderTarget | :::image type="icon" source="images/letter-o.jpg"::: |
+| Other Multisample Count RT | :::image type="icon" source="images/letter-o.jpg"::: |
 | Multisample Resolve | ![required](images/letter-r.jpg) |
-| Multisample Load | ![optional](images/letter-o.jpg) |
+| Multisample Load | :::image type="icon" source="images/letter-o.jpg"::: |
 | Display Scan-Out | \- |
 | Cast Within Bit Layout | \- |
 | Video Decoder Support | \- |
@@ -4462,7 +4462,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Video Processor Output | \- |
 | Shared Resource | \- |
 | BackBuffer Castable Even Fully Typed | \- |
-| Tiled Resource | ![optional](images/letter-o.jpg) |
+| Tiled Resource | :::image type="icon" source="images/letter-o.jpg"::: |
 
 ## DXGI_FORMAT_B8G8R8A8\_TYPELESS<sup>PCS</sup> (90)
 | Target | Support |
@@ -4513,7 +4513,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Video Processor Output | \- |
 | Shared Resource | ![required](images/letter-r.jpg) |
 | BackBuffer Castable Even Fully Typed | \- |
-| Tiled Resource | ![optional](images/letter-o.jpg) |
+| Tiled Resource | :::image type="icon" source="images/letter-o.jpg"::: |
 
 ## DXGI_FORMAT_B8G8R8A8_UNORM<sup>FCS</sup> (87)
 | Target | Support |
@@ -4554,17 +4554,17 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | CPU Lockable | ![required](images/letter-r.jpg) |
 | 4x Multisample RenderTarget | ![required](images/letter-r.jpg) |
 | 8x Multisample RenderTarget | ![required](images/letter-r.jpg) |
-| Other Multisample Count RT | ![optional](images/letter-o.jpg) |
+| Other Multisample Count RT | :::image type="icon" source="images/letter-o.jpg"::: |
 | Multisample Resolve | ![required](images/letter-r.jpg) |
 | Multisample Load | ![required](images/letter-r.jpg) |
 | Display Scan-Out | ![required](images/letter-r.jpg) |
 | Cast Within Bit Layout | ![required](images/letter-r.jpg) |
 | Video Decoder Support | \- |
-| Video Processor Input | ![optional](images/letter-o.jpg) |
+| Video Processor Input | :::image type="icon" source="images/letter-o.jpg"::: |
 | Video Processor Output | ![required](images/letter-r.jpg) |
 | Shared Resource | ![required](images/letter-r.jpg) |
 | BackBuffer Castable Even Fully Typed | ![required](images/letter-r.jpg) |
-| Tiled Resource | ![optional](images/letter-o.jpg) |
+| Tiled Resource | :::image type="icon" source="images/letter-o.jpg"::: |
 
 ## DXGI_FORMAT_B8G8R8A8\_UNORM\_SRGB<sup>FCS</sup> (91)
 | Target | Support |
@@ -4605,17 +4605,17 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | CPU Lockable | ![required](images/letter-r.jpg) |
 | 4x Multisample RenderTarget | ![required](images/letter-r.jpg) |
 | 8x Multisample RenderTarget | ![required](images/letter-r.jpg) |
-| Other Multisample Count RT | ![optional](images/letter-o.jpg) |
+| Other Multisample Count RT | :::image type="icon" source="images/letter-o.jpg"::: |
 | Multisample Resolve | ![required](images/letter-r.jpg) |
 | Multisample Load | ![required](images/letter-r.jpg) |
 | Display Scan-Out | ![required](images/letter-r.jpg) |
 | Cast Within Bit Layout | ![required](images/letter-r.jpg) |
 | Video Decoder Support | \- |
-| Video Processor Input | ![optional](images/letter-o.jpg) |
+| Video Processor Input | :::image type="icon" source="images/letter-o.jpg"::: |
 | Video Processor Output | ![required](images/letter-r.jpg) |
 | Shared Resource | ![required](images/letter-r.jpg) |
 | BackBuffer Castable Even Fully Typed | ![required](images/letter-r.jpg) |
-| Tiled Resource | ![optional](images/letter-o.jpg) |
+| Tiled Resource | :::image type="icon" source="images/letter-o.jpg"::: |
 
 ## DXGI_FORMAT_B8G8R8X8\_TYPELESS<sup>PCS</sup> (92)
 | Target | Support |
@@ -4666,7 +4666,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Video Processor Output | \- |
 | Shared Resource | ![required](images/letter-r.jpg) |
 | BackBuffer Castable Even Fully Typed | \- |
-| Tiled Resource | ![optional](images/letter-o.jpg) |
+| Tiled Resource | :::image type="icon" source="images/letter-o.jpg"::: |
 
 ## DXGI_FORMAT_B8G8R8X8\_UNORM<sup>FCS</sup> (88)
 | Target | Support |
@@ -4707,17 +4707,17 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | CPU Lockable | ![required](images/letter-r.jpg) |
 | 4x Multisample RenderTarget | ![required](images/letter-r.jpg) |
 | 8x Multisample RenderTarget | ![required](images/letter-r.jpg) |
-| Other Multisample Count RT | ![optional](images/letter-o.jpg) |
+| Other Multisample Count RT | :::image type="icon" source="images/letter-o.jpg"::: |
 | Multisample Resolve | ![required](images/letter-r.jpg) |
 | Multisample Load | ![required](images/letter-r.jpg) |
 | Display Scan-Out | \- |
 | Cast Within Bit Layout | ![required](images/letter-r.jpg) |
 | Video Decoder Support | \- |
-| Video Processor Input | ![optional](images/letter-o.jpg) |
-| Video Processor Output | ![optional](images/letter-o.jpg) |
+| Video Processor Input | :::image type="icon" source="images/letter-o.jpg"::: |
+| Video Processor Output | :::image type="icon" source="images/letter-o.jpg"::: |
 | Shared Resource | ![required](images/letter-r.jpg) |
 | BackBuffer Castable Even Fully Typed | \- |
-| Tiled Resource | ![optional](images/letter-o.jpg) |
+| Tiled Resource | :::image type="icon" source="images/letter-o.jpg"::: |
 
 ## DXGI_FORMAT_B8G8R8X8\_UNORM\_SRGB<sup>FCS</sup> (93)
 | Target | Support |
@@ -4758,7 +4758,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | CPU Lockable | ![required](images/letter-r.jpg) |
 | 4x Multisample RenderTarget | ![required](images/letter-r.jpg) |
 | 8x Multisample RenderTarget | ![required](images/letter-r.jpg) |
-| Other Multisample Count RT | ![optional](images/letter-o.jpg) |
+| Other Multisample Count RT | :::image type="icon" source="images/letter-o.jpg"::: |
 | Multisample Resolve | ![required](images/letter-r.jpg) |
 | Multisample Load | ![required](images/letter-r.jpg) |
 | Display Scan-Out | \- |
@@ -4768,7 +4768,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Video Processor Output | \- |
 | Shared Resource | ![required](images/letter-r.jpg) |
 | BackBuffer Castable Even Fully Typed | \- |
-| Tiled Resource | ![optional](images/letter-o.jpg) |
+| Tiled Resource | :::image type="icon" source="images/letter-o.jpg"::: |
 
 ## DXGI_FORMAT_BC6H\_TYPELESS<sup>PCC</sup> (94)
 | Target | Support |
@@ -4819,7 +4819,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Video Processor Output | \- |
 | Shared Resource | \- |
 | BackBuffer Castable Even Fully Typed | \- |
-| Tiled Resource | ![optional](images/letter-o.jpg) |
+| Tiled Resource | :::image type="icon" source="images/letter-o.jpg"::: |
 
 ## DXGI_FORMAT_BC6H\_UF16 <sup>FCC</sup> (95)
 | Target | Support |
@@ -4870,7 +4870,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Video Processor Output | \- |
 | Shared Resource | \- |
 | BackBuffer Castable Even Fully Typed | \- |
-| Tiled Resource | ![optional](images/letter-o.jpg) |
+| Tiled Resource | :::image type="icon" source="images/letter-o.jpg"::: |
 
 ## DXGI_FORMAT_BC6H\_SF16 <sup>FCC</sup> (96)
 | Target | Support |
@@ -4921,7 +4921,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Video Processor Output | \- |
 | Shared Resource | \- |
 | BackBuffer Castable Even Fully Typed | \- |
-| Tiled Resource | ![optional](images/letter-o.jpg) |
+| Tiled Resource | :::image type="icon" source="images/letter-o.jpg"::: |
 
 ## DXGI_FORMAT_BC7\_TYPELESS<sup>PCC</sup> (97)
 | Target | Support |
@@ -4972,7 +4972,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Video Processor Output | \- |
 | Shared Resource | \- |
 | BackBuffer Castable Even Fully Typed | \- |
-| Tiled Resource | ![optional](images/letter-o.jpg) |
+| Tiled Resource | :::image type="icon" source="images/letter-o.jpg"::: |
 
 ## DXGI_FORMAT_BC7\_UNORM <sup>FCC</sup> (98)
 | Target | Support |
@@ -5023,7 +5023,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Video Processor Output | \- |
 | Shared Resource | \- |
 | BackBuffer Castable Even Fully Typed | \- |
-| Tiled Resource | ![optional](images/letter-o.jpg) |
+| Tiled Resource | :::image type="icon" source="images/letter-o.jpg"::: |
 
 ## DXGI_FORMAT_BC7\_UNORM\_SRGB <sup>FCC</sup> (99)
 | Target | Support |
@@ -5074,13 +5074,13 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Video Processor Output | \- |
 | Shared Resource | \- |
 | BackBuffer Castable Even Fully Typed | \- |
-| Tiled Resource | ![optional](images/letter-o.jpg) |
+| Tiled Resource | :::image type="icon" source="images/letter-o.jpg"::: |
 
 ## DXGI_FORMAT_AYUV<sup>V</sup> (100)
 | Target | Support |
 | - | - |
 | Bits Per Element (BPE) | 32 |
-| Format Support | ![optional](images/letter-o.jpg) |
+| Format Support | :::image type="icon" source="images/letter-o.jpg"::: |
 | Buffer | \- |
 | Input Assembler Vertex Buffer | \- |
 | Input Assembler Index Buffer | \- |
@@ -5120,9 +5120,9 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Multisample Load | \- |
 | Display Scan-Out | \- |
 | Cast Within Bit Layout | \- |
-| Video Decoder Support | ![optional](images/letter-o.jpg) |
+| Video Decoder Support | :::image type="icon" source="images/letter-o.jpg"::: |
 | Video Processor Input | ![required](images/letter-r.jpg) |
-| Video Processor Output | ![optional](images/letter-o.jpg) |
+| Video Processor Output | :::image type="icon" source="images/letter-o.jpg"::: |
 | Shared Resource | ![required](images/letter-r.jpg) |
 | BackBuffer Castable Even Fully Typed | \- |
 | Tiled Resource | \- |
@@ -5131,7 +5131,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Target | Support |
 | - | - |
 | Bits Per Element (BPE) | 32 |
-| Format Support | ![optional](images/letter-o.jpg) |
+| Format Support | :::image type="icon" source="images/letter-o.jpg"::: |
 | Buffer | \- |
 | Input Assembler Vertex Buffer | \- |
 | Input Assembler Index Buffer | \- |
@@ -5171,9 +5171,9 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Multisample Load | \- |
 | Display Scan-Out | \- |
 | Cast Within Bit Layout | \- |
-| Video Decoder Support | ![optional](images/letter-o.jpg) |
-| Video Processor Input | ![optional](images/letter-o.jpg) |
-| Video Processor Output | ![optional](images/letter-o.jpg) |
+| Video Decoder Support | :::image type="icon" source="images/letter-o.jpg"::: |
+| Video Processor Input | :::image type="icon" source="images/letter-o.jpg"::: |
+| Video Processor Output | :::image type="icon" source="images/letter-o.jpg"::: |
 | Shared Resource | ![required](images/letter-r.jpg) |
 | BackBuffer Castable Even Fully Typed | \- |
 | Tiled Resource | \- |
@@ -5182,7 +5182,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Target | Support |
 | - | - |
 | Bits Per Element (BPE) | 64 |
-| Format Support | ![optional](images/letter-o.jpg) |
+| Format Support | :::image type="icon" source="images/letter-o.jpg"::: |
 | Buffer | \- |
 | Input Assembler Vertex Buffer | \- |
 | Input Assembler Index Buffer | \- |
@@ -5222,9 +5222,9 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Multisample Load | \- |
 | Display Scan-Out | \- |
 | Cast Within Bit Layout | \- |
-| Video Decoder Support | ![optional](images/letter-o.jpg) |
-| Video Processor Input | ![optional](images/letter-o.jpg) |
-| Video Processor Output | ![optional](images/letter-o.jpg) |
+| Video Decoder Support | :::image type="icon" source="images/letter-o.jpg"::: |
+| Video Processor Input | :::image type="icon" source="images/letter-o.jpg"::: |
+| Video Processor Output | :::image type="icon" source="images/letter-o.jpg"::: |
 | Shared Resource | ![required](images/letter-r.jpg) |
 | BackBuffer Castable Even Fully Typed | \- |
 | Tiled Resource | \- |
@@ -5284,7 +5284,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Target | Support |
 | - | - |
 | Bits Per Element (BPE) | 16 |
-| Format Support | ![optional](images/letter-o.jpg) |
+| Format Support | :::image type="icon" source="images/letter-o.jpg"::: |
 | Buffer | \- |
 | Input Assembler Vertex Buffer | \- |
 | Input Assembler Index Buffer | \- |
@@ -5324,9 +5324,9 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Multisample Load | \- |
 | Display Scan-Out | \- |
 | Cast Within Bit Layout | \- |
-| Video Decoder Support | ![optional](images/letter-o.jpg) |
-| Video Processor Input | ![optional](images/letter-o.jpg) |
-| Video Processor Output | ![optional](images/letter-o.jpg) |
+| Video Decoder Support | :::image type="icon" source="images/letter-o.jpg"::: |
+| Video Processor Input | :::image type="icon" source="images/letter-o.jpg"::: |
+| Video Processor Output | :::image type="icon" source="images/letter-o.jpg"::: |
 | Shared Resource | ![required](images/letter-r.jpg) |
 | BackBuffer Castable Even Fully Typed | \- |
 | Tiled Resource | \- |
@@ -5335,7 +5335,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Target | Support |
 | - | - |
 | Bits Per Element (BPE) | 16 |
-| Format Support | ![optional](images/letter-o.jpg) |
+| Format Support | :::image type="icon" source="images/letter-o.jpg"::: |
 | Buffer | \- |
 | Input Assembler Vertex Buffer | \- |
 | Input Assembler Index Buffer | \- |
@@ -5375,9 +5375,9 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Multisample Load | \- |
 | Display Scan-Out | \- |
 | Cast Within Bit Layout | \- |
-| Video Decoder Support | ![optional](images/letter-o.jpg) |
-| Video Processor Input | ![optional](images/letter-o.jpg) |
-| Video Processor Output | ![optional](images/letter-o.jpg) |
+| Video Decoder Support | :::image type="icon" source="images/letter-o.jpg"::: |
+| Video Processor Input | :::image type="icon" source="images/letter-o.jpg"::: |
+| Video Processor Output | :::image type="icon" source="images/letter-o.jpg"::: |
 | Shared Resource | ![required](images/letter-r.jpg) |
 | BackBuffer Castable Even Fully Typed | \- |
 | Tiled Resource | \- |
@@ -5477,9 +5477,9 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Multisample Load | \- |
 | Display Scan-Out | \- |
 | Cast Within Bit Layout | \- |
-| Video Decoder Support | ![optional](images/letter-o.jpg) |
+| Video Decoder Support | :::image type="icon" source="images/letter-o.jpg"::: |
 | Video Processor Input | ![required](images/letter-r.jpg) |
-| Video Processor Output | ![optional](images/letter-o.jpg) |
+| Video Processor Output | :::image type="icon" source="images/letter-o.jpg"::: |
 | Shared Resource | ![required](images/letter-r.jpg) |
 | BackBuffer Castable Even Fully Typed | \- |
 | Tiled Resource | \- |
@@ -5488,7 +5488,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Target | Support |
 | - | - |
 | Bits Per Element (BPE) | 32 |
-| Format Support | ![optional](images/letter-o.jpg) |
+| Format Support | :::image type="icon" source="images/letter-o.jpg"::: |
 | Buffer | \- |
 | Input Assembler Vertex Buffer | \- |
 | Input Assembler Index Buffer | \- |
@@ -5528,9 +5528,9 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Multisample Load | \- |
 | Display Scan-Out | \- |
 | Cast Within Bit Layout | \- |
-| Video Decoder Support | ![optional](images/letter-o.jpg) |
-| Video Processor Input | ![optional](images/letter-o.jpg) |
-| Video Processor Output | ![optional](images/letter-o.jpg) |
+| Video Decoder Support | :::image type="icon" source="images/letter-o.jpg"::: |
+| Video Processor Input | :::image type="icon" source="images/letter-o.jpg"::: |
+| Video Processor Output | :::image type="icon" source="images/letter-o.jpg"::: |
 | Shared Resource | ![required](images/letter-r.jpg) |
 | BackBuffer Castable Even Fully Typed | \- |
 | Tiled Resource | \- |
@@ -5539,7 +5539,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Target | Support |
 | - | - |
 | Bits Per Element (BPE) | 32 |
-| Format Support | ![optional](images/letter-o.jpg) |
+| Format Support | :::image type="icon" source="images/letter-o.jpg"::: |
 | Buffer | \- |
 | Input Assembler Vertex Buffer | \- |
 | Input Assembler Index Buffer | \- |
@@ -5579,9 +5579,9 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Multisample Load | \- |
 | Display Scan-Out | \- |
 | Cast Within Bit Layout | \- |
-| Video Decoder Support | ![optional](images/letter-o.jpg) |
-| Video Processor Input | ![optional](images/letter-o.jpg) |
-| Video Processor Output | ![optional](images/letter-o.jpg) |
+| Video Decoder Support | :::image type="icon" source="images/letter-o.jpg"::: |
+| Video Processor Input | :::image type="icon" source="images/letter-o.jpg"::: |
+| Video Processor Output | :::image type="icon" source="images/letter-o.jpg"::: |
 | Shared Resource | ![required](images/letter-r.jpg) |
 | BackBuffer Castable Even Fully Typed | \- |
 | Tiled Resource | \- |
@@ -5590,7 +5590,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Target | Support |
 | - | - |
 | Bits Per Element (BPE) | 8 |
-| Format Support | ![optional](images/letter-o.jpg) |
+| Format Support | :::image type="icon" source="images/letter-o.jpg"::: |
 | Buffer | \- |
 | Input Assembler Vertex Buffer | \- |
 | Input Assembler Index Buffer | \- |
@@ -5630,9 +5630,9 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Multisample Load | \- |
 | Display Scan-Out | \- |
 | Cast Within Bit Layout | \- |
-| Video Decoder Support | ![optional](images/letter-o.jpg) |
-| Video Processor Input | ![optional](images/letter-o.jpg) |
-| Video Processor Output | ![optional](images/letter-o.jpg) |
+| Video Decoder Support | :::image type="icon" source="images/letter-o.jpg"::: |
+| Video Processor Input | :::image type="icon" source="images/letter-o.jpg"::: |
+| Video Processor Output | :::image type="icon" source="images/letter-o.jpg"::: |
 | Shared Resource | ![required](images/letter-r.jpg) |
 | BackBuffer Castable Even Fully Typed | \- |
 | Tiled Resource | \- |
@@ -5641,7 +5641,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Target | Support |
 | - | - |
 | Bits Per Element (BPE) | 8 |
-| Format Support | ![optional](images/letter-o.jpg) |
+| Format Support | :::image type="icon" source="images/letter-o.jpg"::: |
 | Buffer | \- |
 | Input Assembler Vertex Buffer | \- |
 | Input Assembler Index Buffer | \- |
@@ -5692,7 +5692,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Target | Support |
 | - | - |
 | Bits Per Element (BPE) | 8 |
-| Format Support | ![optional](images/letter-o.jpg) |
+| Format Support | :::image type="icon" source="images/letter-o.jpg"::: |
 | Buffer | \- |
 | Input Assembler Vertex Buffer | \- |
 | Input Assembler Index Buffer | \- |
@@ -5743,7 +5743,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Target | Support |
 | - | - |
 | Bits Per Element (BPE) | 8 |
-| Format Support | ![optional](images/letter-o.jpg) |
+| Format Support | :::image type="icon" source="images/letter-o.jpg"::: |
 | Buffer | \- |
 | Input Assembler Vertex Buffer | \- |
 | Input Assembler Index Buffer | \- |
@@ -5794,7 +5794,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Target | Support |
 | - | - |
 | Bits Per Element (BPE) | 16 |
-| Format Support | ![optional](images/letter-o.jpg) |
+| Format Support | :::image type="icon" source="images/letter-o.jpg"::: |
 | Buffer | \- |
 | Input Assembler Vertex Buffer | \- |
 | Input Assembler Index Buffer | \- |
@@ -5846,8 +5846,8 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | - | - |
 | Bits Per Element (BPE) | 16 |
 | Format Support | ![required](images/letter-r.jpg) |
-| Buffer | ![optional](images/letter-o.jpg) |
-| Input Assembler Vertex Buffer | ![optional](images/letter-o.jpg) |
+| Buffer | :::image type="icon" source="images/letter-o.jpg"::: |
+| Input Assembler Vertex Buffer | :::image type="icon" source="images/letter-o.jpg"::: |
 | Input Assembler Index Buffer | \- |
 | Stream Output Buffer | \- |
 | Texture1D | ![required](images/letter-r.jpg) |
@@ -5861,16 +5861,16 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Shader gather4 | ![required](images/letter-r.jpg) |
 | Shader gather4\_c | \- |
 | Mipmap | ![required](images/letter-r.jpg) |
-| Mipmap Auto-Generation | ![optional](images/letter-o.jpg) |
-| RenderTarget | ![optional](images/letter-o.jpg) |
-| Blendable RenderTarget | ![optional](images/letter-o.jpg) |
+| Mipmap Auto-Generation | :::image type="icon" source="images/letter-o.jpg"::: |
+| RenderTarget | :::image type="icon" source="images/letter-o.jpg"::: |
+| Blendable RenderTarget | :::image type="icon" source="images/letter-o.jpg"::: |
 | Output Merger Logic Op | \- |
 | Depth/Stencil Target | \- |
 | Raw UAV and SRV | \- |
 | Structured UAV and SRV | \- |
-| Typed UAV | ![optional](images/letter-o.jpg) |
-| UAV Typed Store | ![optional](images/letter-o.jpg) |
-| UAV Typed Load | ![optional](images/letter-o.jpg) |
+| Typed UAV | :::image type="icon" source="images/letter-o.jpg"::: |
+| UAV Typed Store | :::image type="icon" source="images/letter-o.jpg"::: |
+| UAV Typed Load | :::image type="icon" source="images/letter-o.jpg"::: |
 | UAV Atomic Add | \- |
 | UAV Atomic Bitwise Ops | \- |
 | UAV Atomic Cmp&Store/ Cmp&Exch | \- |
@@ -5878,11 +5878,11 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | UAV Atomic Signed Min/Max | \- |
 | UAV Atomic Unsigned Min/Max | \- |
 | CPU Lockable | ![required](images/letter-r.jpg) |
-| 4x Multisample RenderTarget | ![optional](images/letter-o.jpg) |
-| 8x Multisample RenderTarget | ![optional](images/letter-o.jpg) |
-| Other Multisample Count RT | ![optional](images/letter-o.jpg) |
+| 4x Multisample RenderTarget | :::image type="icon" source="images/letter-o.jpg"::: |
+| 8x Multisample RenderTarget | :::image type="icon" source="images/letter-o.jpg"::: |
+| Other Multisample Count RT | :::image type="icon" source="images/letter-o.jpg"::: |
 | Multisample Resolve | ![required](images/letter-r.jpg) |
-| Multisample Load | ![optional](images/letter-o.jpg) |
+| Multisample Load | :::image type="icon" source="images/letter-o.jpg"::: |
 | Display Scan-Out | \- |
 | Cast Within Bit Layout | \- |
 | Video Decoder Support | \- |
@@ -5890,7 +5890,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Video Processor Output | \- |
 | Shared Resource | \- |
 | BackBuffer Castable Even Fully Typed | \- |
-| Tiled Resource | ![optional](images/letter-o.jpg) |
+| Tiled Resource | :::image type="icon" source="images/letter-o.jpg"::: |
 
 ## Format notes
 
