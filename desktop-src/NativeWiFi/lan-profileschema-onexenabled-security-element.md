@@ -1,9 +1,8 @@
 ---
+title: OneXEnabled (security) element
 description: Specifies whether the automatic configuration service for wired networks will attempt port authentication using 802.1X.
-ms.assetid: ab6cfc59-9cfd-45d3-ad27-306ad4f6d4e1
-title: OneXEnabled (security) Element
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 06/20/2023
 topic_type: 
 - APIRef
 - kbSyntax
@@ -12,13 +11,14 @@ api_name:
 api_type: 
 - Schema
 api_location: 
+ms.assetid: ab6cfc59-9cfd-45d3-ad27-306ad4f6d4e1
 ---
 
 # OneXEnabled (security) Element
 
-The **OneXEnabled** (security) element specifies whether the automatic configuration service for wired networks will attempt port authentication using 802.1X. When **OneXEnabled** is FALSE, the automatic configuration service never uses 802.1X for port authentication. When **OneXEnabled** is TRUE, then the automatic configuration service attempts port authentication using 802.1X.
+Specifies whether the automatic configuration service for wired networks will attempt port authentication using 802.1X. When **OneXEnabled** is `FALSE`, the automatic configuration service never uses 802.1X for port authentication. When **OneXEnabled** is `TRUE`, the automatic configuration service attempts port authentication using 802.1X.
 
-This element is optional. The default value is TRUE. When **OneXEnabled** is not specified in a profile, then 802.1X may be used for port authentication.
+This element is optional. The default value is `TRUE`. When **OneXEnabled** is not specified in a profile, 802.1X may be used for port authentication.
 
 ``` syntax
 <xs:element name="OneXEnabled"
@@ -30,14 +30,10 @@ The **OneXEnabled** element is defined by the [**security**](lan-profileschema-s
 
 ## Requirements
 
-
-
 | Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
-
-
 
 ## See also
 
