@@ -2,7 +2,7 @@
 description: Learn about TLS cipher suites in Windows 10 v20H2 and v21H1. Cipher suites can only be negotiated for TLS versions which support them.
 title: TLS Cipher Suites in Windows 10 v20H2 and v21H1
 ms.topic: article
-ms.date: 09/01/2021
+ms.date: 06/21/2023
 ---
 
 # TLS Cipher Suites in Windows 10 v20H2 and v21H1
@@ -107,7 +107,7 @@ The following PSK cipher suites are enabled and in this priority order by defaul
 To add cipher suites, either deploy a group policy or use the TLS cmdlets:
 
 -   To use group policy, configure SSL Cipher Suite Order under Computer Configuration > Administrative Templates > Network > SSL Configuration Settings with the priority list for all cipher suites you want enabled.
--   To use PowerShell, see [TLS cmdlets](/powershell/module/tls/?view=win10-ps).
+-   To use PowerShell, see [TLS cmdlets](/powershell/module/tls/?view=win10-ps&preserve-view=true).
 
 > [!Note]  
 > Prior to Windows 10, cipher suite strings were appended with the elliptic curve to determine the curve priority. Windows 10 supports an elliptic curve priority order setting so the elliptic curve suffix is not required and is overridden by the new elliptic curve priority order, when provided, to allow organizations to use group policy to configure different versions of Windows with the same cipher suites.

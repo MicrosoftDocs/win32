@@ -3,7 +3,7 @@ description: Learn about TLS cipher suites in Windows 10 v1507. Cipher suites ca
 ms.assetid: 58A47273-D2D3-449D-891C-C9502012C557
 title: TLS Cipher Suites in Windows 10 v1507
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 06/21/2023
 ---
 
 # TLS Cipher Suites in Windows 10 v1507
@@ -90,7 +90,7 @@ The following cipher suites are supported by the Microsoft Schannel Provider, bu
 To add cipher suites, either deploy a group policy or use the TLS cmdlets:
 
 -   To use group policy, configure SSL Cipher Suite Order under Computer Configuration > Administrative Templates > Network > SSL Configuration Settings with the priority list for all cipher suites you want enabled.
--   To use PowerShell, see [TLS cmdlets](/powershell/module/tls/?view=win10-ps).
+-   To use PowerShell, see [TLS cmdlets](/powershell/module/tls/?view=win10-ps&preserve-view=true).
 
 > [!Note]  
 > Prior to Windows 10, cipher suite strings were appended with the elliptic curve to determine the curve priority. Windows 10 supports an elliptic curve priority order setting so the elliptic curve suffix is not required and is overridden by the new elliptic curve priority order, when provided, to allow organizations to use group policy to configure different versions of Windows with the same cipher suites.

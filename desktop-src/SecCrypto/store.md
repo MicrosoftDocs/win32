@@ -3,7 +3,7 @@ description: Provides properties and methods that you can use to choose, manage,
 ms.assetid: 'de4eecf7-c03b-4733-ac29-d5b26b873dba'
 title: Store object
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 06/21/2023
 topic_type:
 - APIRef
 - kbSyntax
@@ -17,7 +17,7 @@ api_location:
 
 # Store object
 
-\[The **Store** object is available for use in the operating systems specified in the Requirements section. Instead, use the [**X509Store Class**](/dotnet/api/system.security.cryptography.x509certificates.x509store?view=netcore-3.1) in the [**System.Security.Cryptography.X509Certificates**](/dotnet/api/system.security.cryptography.x509certificates.publickey.-ctor?view=netcore-3.1) namespace.\]
+\[The **Store** object is available for use in the operating systems specified in the Requirements section. Instead, use the [**X509Store Class**](/dotnet/api/system.security.cryptography.x509certificates.x509store?view=netcore-3.1&preserve-view=true) in the [**System.Security.Cryptography.X509Certificates**](/dotnet/api/system.security.cryptography.x509certificates.publickey.-ctor?view=netcore-3.1&preserve-view=true) namespace.\]
 
 The **Store** object provides properties and methods that you can use to choose, manage, and use [*certificate stores*](../secgloss/c-gly.md) and the certificates in those stores. CAPICOM can use Current-User, Local-Machine, memory, and Active Directory stores. Also, stores support smart card–based certificate stores. Developers should be aware that some methods may fail with some stores if operations are attempted for which the user does not have rights.
 
