@@ -2,7 +2,7 @@
 title: MSM (LANProfile) element
 description: Contains media-specific module (MSM) settings.
 ms.topic: reference
-ms.date: 06/20/2023
+ms.date: 06/22/2023
 topic_type: 
 - APIRef
 - kbSyntax
@@ -44,7 +44,7 @@ The MSM (LANProfile) element contains media-specific module (MSM) settings.
 
 | Element | Type | Description |
 | - | - | - |
-| [**security**](./lan-profileschema-security-msm-element.md) |  | Contains security settings. |
+| [**security**](./lan-profileschema-security-msm-element.md) | | Contains security settings for wired networks. |
 
 ## Requirements
 

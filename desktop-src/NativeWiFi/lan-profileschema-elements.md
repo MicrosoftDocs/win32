@@ -1,12 +1,14 @@
 ---
 title: LAN_profile schema elements
 description: A wired network profile contains the following schema elements.
-ms.topic: article
-ms.date: 06/21/2023
+ms.topic: reference
+ms.date: 06/22/2023
 topic_type: 
-- kbArticle
+- APIRef
+- kbSyntax
 api_name: 
 api_type: 
+- Schema
 api_location: 
 ms.assetid: 3f316725-0cb9-414c-a267-875b3ad67765
 ---
@@ -20,7 +22,7 @@ The following list shows the defined elements in the order in which the elements
 > [!NOTE]
 > The **OneX** configuration parameters must be present if either the `OneXEnforced` or `OneXEnabled` flag is set to "true".
 
-## Elements
+## All elements
 
 * [**LANProfile**](./lan-profileschema-lanprofile-element.md)
   * [**MSM (LANProfile)**](./lan-profileschema-msm-lanprofile-element.md)

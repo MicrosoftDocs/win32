@@ -1,8 +1,8 @@
 ---
-title: security (MSM) element (LAN_policy)
+title: security (MSM) element (for LAN_profile)
 description: Contains security settings for wired networks.
 ms.topic: reference
-ms.date: 06/20/2023
+ms.date: 06/22/2023
 topic_type: 
 - APIRef
 - kbSyntax
@@ -14,7 +14,7 @@ api_location:
 ms.assetid: 08470cf4-3722-4cb9-9877-13eca2f7d04e
 ---
 
-# security (MSM) element (LAN_policy)
+# security (MSM) element (for LAN_profile)
 
 The security (MSM) element contains security settings for wired networks. This element is optional.
 
@@ -31,7 +31,7 @@ The security (MSM) element contains security settings for wired networks. This e
             <!-
                 Extension point for other namespaces, including the OneX
                 namespace currently used for optional IEEE802.1X configuration.
-                The OneX configuration parameters must be present if the 
+                The OneX configuration parameters must be present if the
                 <OneXEnforced> flag is set to "true" or the <OneXEnabled> flag
                 is set to "true". See the Child elements section below.
              ->
@@ -68,7 +68,7 @@ This element has a meaningful value only if [**OneXEnabled**](#onexenabled) is `
 
 ### OneXEnabled
 
-The **OneXEnabled** (security) element specifies whether the automatic configuration service for wired networks will attempt port authentication using 802.1X. When **OneXEnabled** is `FALSE`, the automatic configuration service never uses 802.1X for port authentication. When **OneXEnabled** is `TRUE`, the automatic configuration service attempts port authentication using 802.1X.
+Specifies whether the automatic configuration service for wired networks will attempt port authentication using 802.1X. When **OneXEnabled** is `FALSE`, the automatic configuration service never uses 802.1X for port authentication. When **OneXEnabled** is `TRUE`, the automatic configuration service attempts port authentication using 802.1X.
 
 This element is optional. The default value is `TRUE`. When **OneXEnabled** is not specified in a profile, 802.1X may be used for port authentication.
 

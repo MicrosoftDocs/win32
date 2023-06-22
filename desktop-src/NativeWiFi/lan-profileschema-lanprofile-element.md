@@ -2,7 +2,7 @@
 title: LANProfile element
 description: Contains a wired network profile.
 ms.topic: reference
-ms.date: 06/20/2023
+ms.date: 06/22/2023
 topic_type: 
 - APIRef
 - kbSyntax
@@ -46,7 +46,7 @@ None.
 
 | Element | Type | Description |
 | - | - | - |
-| [**MSM**](./lan-profileschema-msm-lanprofile-element.md) |  | Contains media-specific module (MSM) settings. |
+| [**MSM**](./lan-profileschema-msm-lanprofile-element.md) | | Contains media-specific module (MSM) settings. |
 
 ## Remarks
 
