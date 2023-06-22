@@ -61,6 +61,8 @@ The operating system provides a set of standard icons that are available for any
 | **IDI\_WINLOGO**<br/>MAKEINTRESOURCE(32517) | :::image type="icon" source="./images/IDI_WINLOGO.png"::: Windows logo icon |
 | **IDI\_SHIELD**<br/>MAKEINTRESOURCE(32518) | :::image type="icon" source="./images/IDI_SHIELD.png"::: Security shield icon |
 
+See [Guidelines](/windows/win32/uxguide/vis-std-icons) for information on recommended usage of standard icons.
+
 Also, starting with Windows Vista, an additional set of **standard system shell icons** is available through the [SHGetStockIconInfo](/windows/win32/api/shellapi/nf-shellapi-shgetstockiconinfo) method.
 
 *Custom icons* are designed for use in a particular application and can be any design. User can load custom icons from files or create them at run-time. Following are several custom icons.
