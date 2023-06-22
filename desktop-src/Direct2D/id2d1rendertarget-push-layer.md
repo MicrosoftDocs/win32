@@ -107,7 +107,3 @@ HRESULT DemoApp::RenderWithLayer(ID2D1RenderTarget *pRT)
 
 [Layers Overview](direct2d-layers-overview.md)
 </dt> </dl>
-
-�
-
-�
