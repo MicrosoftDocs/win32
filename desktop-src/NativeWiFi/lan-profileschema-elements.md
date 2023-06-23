@@ -2,7 +2,7 @@
 title: LAN_profile schema elements
 description: A wired network profile contains the following schema elements.
 ms.topic: reference
-ms.date: 06/22/2023
+ms.date: 06/23/2023
 topic_type: 
 - APIRef
 - kbSyntax

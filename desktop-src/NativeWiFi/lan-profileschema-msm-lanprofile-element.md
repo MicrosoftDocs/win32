@@ -2,7 +2,7 @@
 title: MSM (LANProfile) element
 description: Contains media-specific module (MSM) settings.
 ms.topic: reference
-ms.date: 06/22/2023
+ms.date: 06/23/2023
 topic_type: 
 - APIRef
 - kbSyntax
@@ -18,7 +18,7 @@ ms.assetid: fe858701-e0eb-4817-b3c2-ae61e96a4cbe
 
 The MSM (LANProfile) element contains media-specific module (MSM) settings.
 
-```syntax
+```XSD
 <xs:element name="MSM">
     <xs:complexType>
         <xs:sequence>

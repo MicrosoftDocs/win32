@@ -2,7 +2,7 @@
 title: LANProfile element
 description: Contains a wired network profile.
 ms.topic: reference
-ms.date: 06/22/2023
+ms.date: 06/23/2023
 topic_type: 
 - APIRef
 - kbSyntax
@@ -20,7 +20,7 @@ The LANProfile element contains a wired network profile. This element is the uni
 
 The target namespace for the LANProfile element is `https://www.microsoft.com/networking/LAN/profile/v1`.
 
-```syntax
+```XSD
 <xs:element name="LANProfile">
     <xs:complexType>
         <xs:sequence>

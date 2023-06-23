@@ -18,7 +18,7 @@ ms.assetid: 172cf15c-cd51-43d4-ae5d-f9460c2a40e2
 
 The globalFlags (LANPolicy) element contains the global settings for the automatic configuration of wired networks.
 
-```syntax
+```XSD
 <xs:element name="globalFlags">
     <xs:complexType>
         <xs:sequence>

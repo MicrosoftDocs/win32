@@ -20,7 +20,7 @@ The LANPolicy element contains a wired LAN policy. This element is the unique ro
 
 The target namespace for the **LANPolicy** element is `https://www.microsoft.com/networking/LAN/policy/v1`.
 
-```syntax
+```XSD
 <xs:element name="LANPolicy">
     <xs:complexType>
         <xs:sequence>
@@ -89,4 +89,3 @@ To view the list of child elements in a tree-like structure, see [LAN\_policy Sc
 | - | - |
 | Minimum supported client | Windows Vista \[desktop apps only\] |
 | Minimum supported server | Windows Server 2008 \[desktop apps only\] |
-

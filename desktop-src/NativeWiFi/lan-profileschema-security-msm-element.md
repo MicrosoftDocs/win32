@@ -2,7 +2,7 @@
 title: security (MSM) element (for LAN_profile)
 description: Contains security settings for wired networks.
 ms.topic: reference
-ms.date: 06/22/2023
+ms.date: 06/23/2023
 topic_type: 
 - APIRef
 - kbSyntax
@@ -18,7 +18,7 @@ ms.assetid: 08470cf4-3722-4cb9-9877-13eca2f7d04e
 
 The security (MSM) element contains security settings for wired networks. This element is optional.
 
-```syntax
+```XSD
 <xs:element name="security">
     <xs:complexType>
         <xs:sequence>
