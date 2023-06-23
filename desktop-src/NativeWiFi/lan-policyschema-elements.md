@@ -1,12 +1,14 @@
 ---
 title: LAN_policy schema elements
 description: A wired (LAN) policy profile contains the following schema elements.
-ms.topic: article
-ms.date: 06/21/2023
+ms.topic: reference
+ms.date: 06/23/2023
 topic_type: 
-- kbArticle
+- APIRef
+- kbSyntax
 api_name: 
 api_type: 
+- Schema
 api_location: 
 ms.assetid: 361f76f1-a26f-46b3-a9ab-e56627c9b19f
 ---
@@ -19,11 +21,13 @@ The following list shows the defined elements in the order in which the elements
 
 This list does not show all possible elements that can appear in a profile, as elements can be added in **xs:any** insertion points.
 
-## Elements
+## All elements
 
-* [**LANPolicy**](lan-policyschema-lanpolicy-element.md)
-  * [**name (LANPolicy)**](lan-policyschema-name-lanpolicy-element.md)
-  * [**description (LANPolicy)**](lan-policyschema-description-lanpolicy-element.md)
-  * [**globalFlags (LANPolicy)**](lan-policyschema-globalflags-lanpolicy-element.md)
-    * [**enableAutoConfig (globalFlags)**](lan-policyschema-enableautoconfig-globalflags-element.md)
-  * [**profileList (LANPolicy)**](lan-policyschema-profilelist-lanpolicy-element.md)
+* [**LANPolicy**](./lan-policyschema-lanpolicy-element.md)
+  * [**name (LANPolicy)**](./lan-policyschema-lanpolicy-element.md#name)
+  * [**description (LANPolicy)**](./lan-policyschema-lanpolicy-element.md#description)
+  * [**globalFlags (LANPolicy)**](./lan-policyschema-globalflags-lanpolicy-element.md)
+    * [**enableAutoConfig (globalFlags)**](./lan-policyschema-globalflags-lanpolicy-element.md#enableautoconfig)
+    * [**enableExplicitCreds (globalFlags)**](./lan-policyschema-globalflags-lanpolicy-element.md#enableexplicitcreds)
+    * [**blockPeriod (globalFlags)**](./lan-policyschema-globalflags-lanpolicy-element.md#blockperiod)
+  * [**profileList (LANPolicy)**](./lan-policyschema-lanpolicy-element.md#profilelist)

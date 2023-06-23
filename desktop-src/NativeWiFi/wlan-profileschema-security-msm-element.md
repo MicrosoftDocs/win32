@@ -1,5 +1,5 @@
 ---
-title: security (MSM) Element (LAN_policy) (WLAN)
+title: security (MSM) element (for WLAN_profile)
 description: Contains various security settings.
 ms.topic: reference
 ms.date: 05/25/2023
@@ -14,7 +14,7 @@ api_type:
 api_location: 
 ---
 
-# security (MSM) element (LAN_policy) for WLAN
+# security (MSM) element (for WLAN_profile)
 
 The security (MSM) element contains various security settings.
 
