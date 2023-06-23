@@ -1,9 +1,8 @@
 ---
+title: WLANPolicy element
 description: Contains a wireless LAN policy.
-ms.assetid: 16ffb682-f88b-4ca1-a902-d2db5e347975
-title: WLANPolicy Element
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 06/23/2023
 topic_type: 
 - APIRef
 - kbSyntax
@@ -12,15 +11,16 @@ api_name:
 api_type: 
 - Schema
 api_location: 
+ms.assetid: 16ffb682-f88b-4ca1-a902-d2db5e347975
 ---
 
-# WLANPolicy Element
+# WLANPolicy element
 
 The **WLANPolicy** element contains a wireless LAN policy. This element is the unique root element for a wireless policy profile.
 
 The target namespace for the **WLANPolicy** element is `https://www.microsoft.com/networking/WLAN/policy/v1`.
 
-``` syntax
+```XSD
 <xs:element name="WLANPolicy">
     <xs:complexType>
         <xs:sequence>
@@ -28,101 +28,19 @@ The target namespace for the **WLANPolicy** element is `https://www.microsoft.co
                 type="nameType"
              />
             <xs:element name="description"
-                type="nameType"
                 minOccurs="0"
+                type="nameType"
              />
-            <xs:element name="globalFlags">
-                <xs:complexType>
-                    <xs:sequence>
-                        <xs:element name="enableAutoConfig"
-                            type="boolean"
-                         />
-                        <xs:element name="showDeniedNetwork"
-                            type="boolean"
-                         />
-                        <xs:element name="allowEveryoneToCreateAllUserProfiles"
-                            type="boolean"
-                         />
-                        <xs:any
-                            processContents="lax"
-                            minOccurs="0"
-                            maxOccurs="unbounded"
-                            namespace="##other"
-                         />
-                    </xs:sequence>
-                </xs:complexType>
-            </xs:element>
+            <xs:element name="globalFlags"
+                ...
+             />
             <xs:element name="networkFilter"
                 minOccurs="0"
-            >
-                <xs:complexType>
-                    <xs:sequence>
-                        <xs:element name="allowList"
-                            minOccurs="0"
-                        >
-                            <xs:complexType>
-                                <xs:sequence>
-                                    <xs:element name="network"
-                                        type="networkItemType"
-                                        maxOccurs="unbounded"
-                                     />
-                                    <xs:any
-                                        processContents="lax"
-                                        minOccurs="0"
-                                        maxOccurs="unbounded"
-                                        namespace="##other"
-                                     />
-                                </xs:sequence>
-                            </xs:complexType>
-                        </xs:element>
-                        <xs:element name="blockList"
-                            minOccurs="0"
-                        >
-                            <xs:complexType>
-                                <xs:sequence>
-                                    <xs:element name="network"
-                                        type="networkItemType"
-                                        maxOccurs="unbounded"
-                                     />
-                                    <xs:any
-                                        processContents="lax"
-                                        minOccurs="0"
-                                        maxOccurs="unbounded"
-                                        namespace="##other"
-                                     />
-                                </xs:sequence>
-                            </xs:complexType>
-                        </xs:element>
-                        <xs:element name="denyAllIBSS"
-                            type="boolean"
-                            minOccurs="0"
-                         />
-                        <xs:element name="denyAllESS"
-                            type="boolean"
-                            minOccurs="0"
-                         />
-                        <xs:any
-                            processContents="lax"
-                            minOccurs="0"
-                            maxOccurs="unbounded"
-                            namespace="##other"
-                         />
-                    </xs:sequence>
-                </xs:complexType>
-            </xs:element>
+                ...
+             />
             <xs:element name="profileList"
                 minOccurs="0"
-            >
-                <xs:complexType>
-                    <xs:sequence>
-                        <xs:any
-                            processContents="lax"
-                            maxOccurs="unbounded"
-                            namespace="##other"
-                         />
-                    </xs:sequence>
-                </xs:complexType>
-            </xs:element>
+             />
             <xs:any
                 processContents="lax"
                 minOccurs="0"
@@ -134,28 +52,35 @@ The target namespace for the **WLANPolicy** element is `https://www.microsoft.co
 </xs:element>
 ```
 
+## Parent elements
+
+None.
+
 ## Child elements
 
+| Element | Type | Description |
+| - | - | - |
+| [**name**](#name) | nameType | Contains the name of a wireless LAN policy. |
+| [**description**](#description) | nameType | Contains the description of a wireless LAN policy. |
+| [**globalFlags**](./wlan-policyschema-globalflags-wlanpolicy-element.md) | | Contains the global settings for the Auto Configuration Module (ACM). |
+| [**networkFilter**](./wlan-policyschema-networkfilter-wlanpolicy-element.md) | | Defines the list of allowed and denied networks for machines. |
+| [**profileList**](#profilelist) | | profileList (WLANPolicy) Element - Contains a list of profiles to be applied at the domain or machine level. |
 
+### name
 
-| Element                                                                                                                    | Type                                                                     | Description                                                                                                                          |
-|----------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------|
-| [**allowEveryoneToCreateAllUserProfiles**](wlan-policyschema-alloweveryonetocreatealluserprofiles-globalflags-element.md) | boolean                                                                  | Specifies whether any user can create an all-user profile. <br/>                                                               |
-| [**allowList**](wlan-policyschema-allowlist-networkfilter-element.md)                                                     |                                                                          | The list of wireless LAN networks to which any machine must be allowed to connect. <br/>                                       |
-| [**blockList**](wlan-policyschema-blocklist-networkfilter-element.md)                                                     |                                                                          | The list of wireless LAN networks to which a machine must not connect.<br/>                                                    |
-| [**denyAllESS**](wlan-policyschema-denyalless-networkfilter-element.md)                                                   | boolean                                                                  | Specifies if access to all infrastructure networks is blocked. <br/>                                                           |
-| [**denyAllIBSS**](wlan-policyschema-denyallibss-networkfilter-element.md)                                                 | boolean                                                                  | Specifies if access to all ad-hoc networks is blocked. <br/>                                                                   |
-| [**description**](wlan-policyschema-description-wlanpolicy-element.md)                                                    | [**nameType**](wlan-policyschema-nametype-simpletype.md)                | The description of a wireless LAN policy. <br/>                                                                                |
-| [**enableAutoConfig**](wlan-policyschema-enableautoconfig-globalflags-element.md)                                         | boolean                                                                  | Specifies whether machines use the built-in automatic configuration (AutoConfig) service to manage wireless connections. <br/> |
-| [**globalFlags**](wlan-policyschema-globalflags-wlanpolicy-element.md)                                                    |                                                                          | Contains the global settings for the Auto Configuration Module (ACM). <br/>                                                    |
-| [**name**](wlan-policyschema-name-wlanpolicy-element.md)                                                                  | [**nameType**](wlan-policyschema-nametype-simpletype.md)                | The name of a wireless LAN policy. <br/>                                                                                       |
-| [**network**](wlan-policyschema-network-allowlist-element.md)                                                             | [**networkItemType**](wlan-policyschema-networkitemtype-complextype.md) | An allowed network. <br/>                                                                                                      |
-| [**network**](wlan-policyschema-network-blocklist-element.md)                                                             | [**networkItemType**](wlan-policyschema-networkitemtype-complextype.md) | A blocked network. <br/>                                                                                                       |
-| [**networkFilter**](wlan-policyschema-networkfilter-wlanpolicy-element.md)                                                |                                                                          | The list of allowed and denied networks.<br/>                                                                                  |
-| [**profileList**](wlan-policyschema-profilelist-wlanpolicy-element.md)                                                    |                                                                          | Contains a list of profiles to be applied at the domain or machine level. <br/>                                                |
-| [**showDeniedNetwork**](wlan-policyschema-showdeniednetwork-globalflags-element.md)                                       | boolean                                                                  | Specifies whether denied networks appear in the **Connect to a Network** wizard. <br/>                                         |
+The name (WLANPolicy) element contains the name of a wireless LAN policy.
 
+Names are not case-sensitive.
 
+### description
+
+The description (WLANPolicy) element contains the description of a wireless LAN policy.
+
+### profileList
+
+The profileList (WLANPolicy) element contains a list of profiles to be applied at the domain or machine level. This element is optional. If this element is present, it must contain at least one profile.
+
+Profiles should be based on the [WLAN\_profile schema](wlan-profileschema-schema.md), with a root element of [**WLANProfile**](wlan-profileschema-wlanprofile-element.md).
 
 ## Remarks
 
@@ -163,19 +88,7 @@ To view the list of child elements in a tree-like structure, see [WLAN\_policy S
 
 ## Requirements
 
-
-
 | Requirement | Value |
-|-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
-
-
-
- 
-
- 
-
-
-
-
+| - | - |
+| Minimum supported client | Windows Vista \[desktop apps only\] |
+| Minimum supported server | Windows Server 2008 \[desktop apps only\] |

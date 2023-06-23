@@ -1,9 +1,8 @@
 ---
+title: allowList (networkFilter) element
 description: Specifies the list of wireless LAN networks to which any machine must be allowed to connect.
-ms.assetid: e24557d8-dedf-4381-bba0-cdb7ea26083b
-title: allowList (networkFilter) Element
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 06/23/2023
 topic_type: 
 - APIRef
 - kbSyntax
@@ -12,19 +11,23 @@ api_name:
 api_type: 
 - Schema
 api_location: 
+ms.assetid: e24557d8-dedf-4381-bba0-cdb7ea26083b
 ---
 
-# allowList (networkFilter) Element
+# allowList (networkFilter) element
 
 The allowList (networkFilter) element specifies the list of wireless LAN networks to which any machine must be allowed to connect.
 
-``` syntax
-<xs:element name="allowList">
+```XSD
+<xs:element name="allowList"
+    minOccurs="0"
+ >
     <xs:complexType>
         <xs:sequence>
             <xs:element name="network"
-                type="networkItemType"
                 maxOccurs="unbounded"
+                type="networkItemType"
+                ...
              />
             <xs:any
                 processContents="lax"
@@ -37,49 +40,19 @@ The allowList (networkFilter) element specifies the list of wireless LAN network
 </xs:element>
 ```
 
-The **allowList** element is defined by the [**networkFilter**](wlan-policyschema-networkfilter-wlanpolicy-element.md) element.
+## Parent elements
+
+* [networkFilter (WLANPolicy)](./wlan-policyschema-networkfilter-wlanpolicy-element.md)
 
 ## Child elements
 
-
-
-| Element                                                        | Type                                                                     | Description                                              |
-|----------------------------------------------------------------|--------------------------------------------------------------------------|----------------------------------------------------------|
-| [**network**](wlan-policyschema-network-allowlist-element.md) | [**networkItemType**](wlan-policyschema-networkitemtype-complextype.md) | The network to which the machine can connect.<br/> |
-
-
+| Element | Type | Description |
+| - | - | - |
+| [**network**](./wlan-policyschema-network-allowlist-element.md) | | Defines an allowed network. |
 
 ## Requirements
 
-
-
 | Requirement | Value |
-|-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
-
-
-
-## See also
-
-<dl> <dt>
-
-**Definition context of element in schema**
-</dt> <dt>
-
-[**networkFilter**](wlan-policyschema-networkfilter-wlanpolicy-element.md)
-</dt> <dt>
-
-**Possible immediate parent element in schema instance**
-</dt> <dt>
-
-[**networkFilter (WLANPolicy)**](wlan-policyschema-networkfilter-wlanpolicy-element.md)
-</dt> </dl>
-
- 
-
- 
-
-
-
-
+| - | - |
+| Minimum supported client | Windows Vista \[desktop apps only\] |
+| Minimum supported server | Windows Server 2008 \[desktop apps only\] |

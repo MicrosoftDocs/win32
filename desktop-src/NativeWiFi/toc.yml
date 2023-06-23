@@ -468,23 +468,23 @@
           href: wlan-policyschema-elements.md
           items: 
           - name: "allowEveryoneToCreateAllUserProfiles (globalFlags) element"
-            href: wlan-policyschema-alloweveryonetocreatealluserprofiles-globalflags-element.md
+            href: wlan-policyschema-globalflags-wlanpolicy-element.md#alloweveryonetocreatealluserprofiles
           - name: "allowList (networkFilter) element"
             href: wlan-policyschema-allowlist-networkfilter-element.md
           - name: "blockList (networkFilter) element"
             href: wlan-policyschema-blocklist-networkfilter-element.md
           - name: "denyAllESS (networkFilter) element"
-            href: wlan-policyschema-denyalless-networkfilter-element.md
+            href: wlan-policyschema-networkfilter-wlanpolicy-element.md#denyalless
           - name: "denyAllIBSS (networkFilter) element"
-            href: wlan-policyschema-denyallibss-networkfilter-element.md
+            href: wlan-policyschema-networkfilter-wlanpolicy-element.md#denyallibss
           - name: "description (WLANPolicy) element"
-            href: wlan-policyschema-description-wlanpolicy-element.md
+            href: wlan-policyschema-wlanpolicy-element.md#description
           - name: "enableAutoConfig (globalFlags) element"
-            href: wlan-policyschema-enableautoconfig-globalflags-element.md
+            href: wlan-policyschema-globalflags-wlanpolicy-element.md#enableautoconfig
           - name: "globalFlags (WLANPolicy) element"
             href: wlan-policyschema-globalflags-wlanpolicy-element.md
           - name: "name (WLANPolicy) element"
-            href: wlan-policyschema-name-wlanpolicy-element.md
+            href: wlan-policyschema-wlanpolicy-element.md#name
           - name: "networkFilter (WLANPolicy) element"
             href: wlan-policyschema-networkfilter-wlanpolicy-element.md
           - name: "networkName (networkItemType) element"
@@ -496,9 +496,9 @@
           - name: "networkType (networkItemType) element"
             href: wlan-policyschema-networktype-networkitemtype-element.md
           - name: "profileList (WLANPolicy) element"
-            href: wlan-policyschema-profilelist-wlanpolicy-element.md
+            href: wlan-policyschema-wlanpolicy-element.md#profilelist
           - name: "showDeniedNetwork (globalFlags) element"
-            href: wlan-policyschema-showdeniednetwork-globalflags-element.md
+            href: wlan-policyschema-globalflags-wlanpolicy-element.md#showdeniednetwork
           - name: "WLANPolicy element"
             href: wlan-policyschema-wlanpolicy-element.md
         - name: "WLAN_policy Schema Simple Types"
