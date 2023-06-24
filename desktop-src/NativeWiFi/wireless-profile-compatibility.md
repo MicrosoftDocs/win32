@@ -45,7 +45,7 @@ The following table shows WLAN\_profile elements with constrained values for Win
 
 ## OneX Support
 
-Only the [**EAPConfig**](onexschema-eapconfig-onex-element.md) element is supported on Windows XP with SP3 and Wireless LAN API for Windows XP with SP2. Other OneX elements, if present in a profile, will be ignored.
+Only the [**EAPConfig**](onexschema-onex-element.md#eapconfig) element is supported on Windows XP with SP3 and Wireless LAN API for Windows XP with SP2. Other OneX elements, if present in a profile, will be ignored.
 
 ## Related topics
 

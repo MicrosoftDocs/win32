@@ -166,7 +166,7 @@ A set of 802.1X flags that can be present in the profile. These flags are reserv
 **supplicantMode**
 </dt> <dd>
 
-The supplicantMode element in the 802.1X schema that specifies the method of transmission used for EAPOL-Start messages. For more information, see the [**supplicantMode (OneX) Element**](onexschema-supplicantmode-onex-element.md) in the 802.1X scheme.
+The supplicantMode element in the 802.1X schema that specifies the method of transmission used for EAPOL-Start messages. For more information, see the [**supplicantMode (OneX) Element**](onexschema-onex-element.md#supplicantmode) in the 802.1X scheme.
 
 
 
@@ -185,7 +185,7 @@ The supplicantMode element in the 802.1X schema that specifies the method of tra
 **authMode**
 </dt> <dd>
 
-The authMode element in the 802.1X schema that specifies the type of credentials used for 802.1X authentication. For more information, see the [**authMode (OneX) Element**](onexschema-authmode-onex-element.md) in the 802.1X scheme.
+The authMode element in the 802.1X schema that specifies the type of credentials used for 802.1X authentication. For more information, see the [**authMode (OneX) Element**](onexschema-onex-element.md#authmode) in the 802.1X scheme.
 
 
 
@@ -206,42 +206,42 @@ The authMode element in the 802.1X schema that specifies the type of credentials
 **dwHeldPeriod**
 </dt> <dd>
 
-The heldPeriod element in the 802.1X schema that specifies the length of time, in seconds, in which a client will not re-attempt authentication after a failed authentication attempt. For more information, see the [**heldPeriod (OneX) Element**](onexschema-heldperiod-onex-element.md) in the 802.1X scheme.
+The heldPeriod element in the 802.1X schema that specifies the length of time, in seconds, in which a client will not re-attempt authentication after a failed authentication attempt. For more information, see the [**heldPeriod (OneX) Element**](onexschema-onex-element.md#heldperiod) in the 802.1X scheme.
 
 </dd> <dt>
 
 **dwAuthPeriod**
 </dt> <dd>
 
-The authPeriod element in the 802.1X schema that specifies the maximum length of time, in seconds, in which a client waits for a response from the authenticator. If a response is not received within the specified period, the client assumes that there is no authenticator present on the network. For more information, see the [**authPeriod (OneX) Element**](onexschema-authperiod-onex-element.md) in the 802.1X scheme.
+The authPeriod element in the 802.1X schema that specifies the maximum length of time, in seconds, in which a client waits for a response from the authenticator. If a response is not received within the specified period, the client assumes that there is no authenticator present on the network. For more information, see the [**authPeriod (OneX) Element**](onexschema-onex-element.md#authperiod) in the 802.1X scheme.
 
 </dd> <dt>
 
 **dwStartPeriod**
 </dt> <dd>
 
-The startPeriod element in the 802.1X schema that specifies the length of time, in seconds, to wait before an EAPOL-Start is sent. An EAPOL-Start message is sent to start the 802.1X authentication process. For more information, see the [**startPeriod (OneX) Element**](onexschema-startperiod-onex-element.md) in the 802.1X scheme.
+The startPeriod element in the 802.1X schema that specifies the length of time, in seconds, to wait before an EAPOL-Start is sent. An EAPOL-Start message is sent to start the 802.1X authentication process. For more information, see the [**startPeriod (OneX) Element**](onexschema-onex-element.md#startperiod) in the 802.1X scheme.
 
 </dd> <dt>
 
 **dwMaxStart**
 </dt> <dd>
 
-The maxStart element in the 802.1X schema that specifies the maximum number of EAPOL-Start messages sent. After the maximum number of EAPOL-Start messages has been sent, the client assumes that there is no authenticator present on the network. For more information, see the [**maxStart (OneX) Element**](onexschema-maxstart-onex-element.md) in the 802.1X scheme.
+The maxStart element in the 802.1X schema that specifies the maximum number of EAPOL-Start messages sent. After the maximum number of EAPOL-Start messages has been sent, the client assumes that there is no authenticator present on the network. For more information, see the [**maxStart (OneX) Element**](onexschema-onex-element.md#maxstart) in the 802.1X scheme.
 
 </dd> <dt>
 
 **dwMaxAuthFailures**
 </dt> <dd>
 
-The maxAuthFailures element in the 802.1X schema that specifies the maximum number of authentication failures allowed for a set of credentials. For more information, see the [**maxAuthFailures (OneX)**](onexschema-maxauthfailures-onex-element.md) element in the 802.1X schema.
+The maxAuthFailures element in the 802.1X schema that specifies the maximum number of authentication failures allowed for a set of credentials. For more information, see the [**maxAuthFailures (OneX)**](onexschema-onex-element.md#maxauthfailures) element in the 802.1X schema.
 
 </dd> <dt>
 
 **dwNetworkAuthTimeout**
 </dt> <dd>
 
-The time, in seconds, to wait for 802.1X authentication completion before normal logon proceeds. This value is used in single signon (SSO) scenarios. This value defaults to 10 seconds in an 802.1X profile. For more information, see the [**maxDelay (singleSignOn) Element**](onexschema-maxdelay-singlesignon-element.md) in the 802.1X schema.
+The time, in seconds, to wait for 802.1X authentication completion before normal logon proceeds. This value is used in single signon (SSO) scenarios. This value defaults to 10 seconds in an 802.1X profile. For more information, see the [**maxDelay (singleSignOn) Element**](onexschema-singlesignon-onex-element.md#maxdelay) in the 802.1X schema.
 
 </dd> <dt>
 
@@ -266,7 +266,7 @@ A value that specifies whether to allow EAP dialogs to be displayed when using p
 **bUserBasedVLan**
 </dt> <dd>
 
-The userBasedVirtualLan element in the 802.1X schema that specifies if the virtual LAN (VLAN) used by the device changes based on the user's credentials. Some network access server (NAS) devices change the VLAN after a user authenticates. When userBasedVirtualLan is TRUE, the NAS may change a device's VLAN after a user authenticates. For more information, see the [**userBasedVirtualLan (singleSignOn) Element**](onexschema-userbasedvirtuallan-singlesignon-element.md) in the 802.1X scheme.
+The userBasedVirtualLan element in the 802.1X schema that specifies if the virtual LAN (VLAN) used by the device changes based on the user's credentials. Some network access server (NAS) devices change the VLAN after a user authenticates. When userBasedVirtualLan is TRUE, the NAS may change a device's VLAN after a user authenticates. For more information, see the [**userBasedVirtualLan (singleSignOn) Element**](onexschema-singlesignon-onex-element.md#userbasedvirtuallan) in the 802.1X scheme.
 
 </dd> </dl>
 
@@ -301,28 +301,28 @@ The **ONEX\_CONNECTION\_PROFILE** structure is not defined in a public header fi
 [OneX Schema](onexschema-schema.md)
 </dt> <dt>
 
-[**authMode (OneX) Element**](onexschema-authmode-onex-element.md)
+[**authMode (OneX) Element**](onexschema-onex-element.md#authmode)
 </dt> <dt>
 
-[**authPeriod (OneX) Element**](onexschema-authperiod-onex-element.md)
+[**authPeriod (OneX) Element**](onexschema-onex-element.md#authperiod)
 </dt> <dt>
 
-[**heldPeriod (OneX) Element**](onexschema-heldperiod-onex-element.md)
+[**heldPeriod (OneX) Element**](onexschema-onex-element.md#heldperiod)
 </dt> <dt>
 
-[**maxAuthFailures (OneX)**](onexschema-maxauthfailures-onex-element.md)
+[**maxAuthFailures (OneX)**](onexschema-onex-element.md#maxauthfailures)
 </dt> <dt>
 
-[**maxStart (OneX) Element**](onexschema-maxstart-onex-element.md)
+[**maxStart (OneX) Element**](onexschema-onex-element.md#maxstart)
 </dt> <dt>
 
-[**startPeriod (OneX) Element**](onexschema-startperiod-onex-element.md)
+[**startPeriod (OneX) Element**](onexschema-onex-element.md#startperiod)
 </dt> <dt>
 
-[**supplicantMode (OneX) Element**](onexschema-supplicantmode-onex-element.md)
+[**supplicantMode (OneX) Element**](onexschema-onex-element.md#supplicantmode)
 </dt> <dt>
 
-[**userBasedVirtualLan (singleSignOn) Element**](onexschema-userbasedvirtuallan-singlesignon-element.md)
+[**userBasedVirtualLan (singleSignOn) Element**](onexschema-singlesignon-onex-element.md#userbasedvirtuallan)
 </dt> <dt>
 
 [**ONEX\_AUTH\_PARAMS**](/windows/desktop/api/dot1x/ns-dot1x-onex_auth_params)
