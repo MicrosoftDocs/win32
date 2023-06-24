@@ -28,17 +28,38 @@ This element is optional. Do not use the singleSignOn element in a profile if th
  >
     <xs:complexType>
         <xs:sequence>
-            <xs:element name="type"/>
+            <xs:element name="type">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="preLogon">
+                        <xs:enumeration value="postLogon">
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
             <xs:element name="maxDelay"
                 minOccurs="0"
-             />
+             >
+                <xs:simpleType>
+                    <xs:restriction base="xs:integer">
+                        <xs:minInclusive value="0">
+                        <xs:maxInclusive value="120">
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
             <xs:element name="allowAdditionalDialogs"
                 minOccurs="0"
                 type="boolean"
              />
             <xs:element name="maxDelayWithAdditionalDialogs"
                 minOccurs="0"
-             />
+             >
+                <xs:simpleType>
+                    <xs:restriction base="xs:integer">
+                        <xs:minInclusive value="0">
+                        <xs:maxInclusive value="120">
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
             <xs:element name="userBasedVirtualLan"
                 minOccurs="0"
                 type="boolean"

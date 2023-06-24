@@ -32,25 +32,77 @@ The target namespace for the OneX element is `https://www.microsoft.com/networki
              />
             <xs:element name="heldPeriod"
                 minOccurs="0"
-             />
+             >
+                <xs:simpleType>
+                    <xs:restriction base="xs:integer">
+                        <xs:minInclusive value="1">
+                        <xs:maxInclusive value="3600">
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
             <xs:element name="authPeriod"
                 minOccurs="0"
-             />
+             >
+                <xs:simpleType>
+                    <xs:restriction base="xs:integer">
+                        <xs:minInclusive value="1">
+                        <xs:maxInclusive value="3600">
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
             <xs:element name="startPeriod"
                 minOccurs="0"
-             />
+             >
+                <xs:simpleType>
+                    <xs:restriction base="xs:integer">
+                        <xs:minInclusive value="1">
+                        <xs:maxInclusive value="3600">
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
             <xs:element name="maxStart"
                 minOccurs="0"
-             />
+             >
+                <xs:simpleType>
+                    <xs:restriction base="xs:integer">
+                        <xs:minInclusive value="1">
+                        <xs:maxInclusive value="100">
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
             <xs:element name="maxAuthFailures"
                 minOccurs="0"
-             />
+             >
+                <xs:simpleType>
+                    <xs:restriction base="xs:integer">
+                        <xs:minInclusive value="1">
+                        <xs:maxInclusive value="100">
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
             <xs:element name="supplicantMode"
                 minOccurs="0"
-             />
+             >
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="inhibitTransmission">
+                        <xs:enumeration value="includeLearning">
+                        <xs:enumeration value="compliant">
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
             <xs:element name="authMode"
                 minOccurs="0"
-             />
+             >
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="machineOrUser">
+                        <xs:enumeration value="machine">
+                        <xs:enumeration value="user">
+                        <xs:enumeration value="guest">
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
             <xs:element name="singleSignOn"
                 minOccurs="0"
                 ...

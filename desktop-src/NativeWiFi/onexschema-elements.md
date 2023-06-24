@@ -28,7 +28,7 @@ This list does not show all possible elements that can appear in a profile, as e
   * [**heldPeriod (OneX)**](./onexschema-onex-element.md#heldperiod)
   * [**authPeriod (OneX)**](./onexschema-onex-element.md#authperiod)
   * [**startPeriod (OneX)**](./onexschema-onex-element.md#startperiod)
-  * [**maxStart (OneX)**](./onexschema-onex-element.md#startperiod)
+  * [**maxStart (OneX)**](./onexschema-onex-element.md#maxstart)
   * [**maxAuthFailures (OneX)**](./onexschema-onex-element.md#maxauthfailures)
   * [**supplicantMode (OneX)**](./onexschema-onex-element.md#supplicantmode)
   * [**authMode (OneX)**](./onexschema-onex-element.md#authmode)

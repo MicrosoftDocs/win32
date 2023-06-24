@@ -48,7 +48,7 @@ The blockList (networkFilter) element specifies the list of wireless LAN network
 
 | Element | Type | Description |
 | - | - | - |
-| [**network**](./wlan-policyschema-network-blocklist-element.md) | | Defines a blocked network. |
+| [**network**](./wlan-policyschema-network-blocklist-element.md) | [**networkItemType**](wlan-policyschema-networkitemtype-complextype.md) | Defines a blocked network. |
 
 ## Requirements
 

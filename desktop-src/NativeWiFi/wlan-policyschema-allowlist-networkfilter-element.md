@@ -48,7 +48,7 @@ The allowList (networkFilter) element specifies the list of wireless LAN network
 
 | Element | Type | Description |
 | - | - | - |
-| [**network**](./wlan-policyschema-network-allowlist-element.md) | | Defines an allowed network. |
+| [**network**](./wlan-policyschema-network-allowlist-element.md) | [**networkItemType**](wlan-policyschema-networkitemtype-complextype.md) | Defines an allowed network. |
 
 ## Requirements
 

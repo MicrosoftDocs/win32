@@ -60,8 +60,8 @@ None.
 
 | Element | Type | Description |
 | - | - | - |
-| [**name**](#name) | nameType | Contains the name of a wireless LAN policy. |
-| [**description**](#description) | nameType | Contains the description of a wireless LAN policy. |
+| [**name**](#name) | [**nameType**](./wlan-policyschema-nametype-simpletype.md) | Contains the name of a wireless LAN policy. |
+| [**description**](#description) | [**nameType**](./wlan-policyschema-nametype-simpletype.md) | Contains the description of a wireless LAN policy. |
 | [**globalFlags**](./wlan-policyschema-globalflags-wlanpolicy-element.md) | | Contains the global settings for the Auto Configuration Module (ACM). |
 | [**networkFilter**](./wlan-policyschema-networkfilter-wlanpolicy-element.md) | | Defines the list of allowed and denied networks for machines. |
 | [**profileList**](#profilelist) | | profileList (WLANPolicy) Element - Contains a list of profiles to be applied at the domain or machine level. |
