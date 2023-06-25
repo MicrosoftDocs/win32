@@ -2,7 +2,7 @@
 title: globalFlags (WLANPolicy) element
 description: Contains the global settings for the Auto Configuration Module (ACM).
 ms.topic: reference
-ms.date: 06/23/2023
+ms.date: 06/24/2023
 topic_type: 
 - APIRef
 - kbSyntax
@@ -45,7 +45,14 @@ The globalFlags (WLANPolicy) element contains the global settings for the Auto C
              />
             <xs:element name="blockPeriod"
                 minOccurs="0"
-             />
+             >
+                <xs:simpleType>
+                    <xs:restriction base="xs:integer">
+                        <xs:minInclusive value="0">
+                        <xs:maxInclusive value="60">
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
             <xs:element name="enableWFD"
                 minOccurs="0"
                 type="boolean"

@@ -2,7 +2,7 @@
 title: networkFilter (WLANPolicy) element
 description: Defines the list of allowed and denied networks for machines.
 ms.topic: reference
-ms.date: 06/23/2023
+ms.date: 06/24/2023
 topic_type: 
 - APIRef
 - kbSyntax

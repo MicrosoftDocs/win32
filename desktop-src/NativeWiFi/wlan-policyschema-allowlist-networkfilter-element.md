@@ -2,7 +2,7 @@
 title: allowList (networkFilter) element
 description: Specifies the list of wireless LAN networks to which any machine must be allowed to connect.
 ms.topic: reference
-ms.date: 06/23/2023
+ms.date: 06/24/2023
 topic_type: 
 - APIRef
 - kbSyntax

@@ -2,7 +2,7 @@
 title: WLAN_policy schema elements
 description: A Native Wifi wireless LAN (WLAN) policy profile is composed of the following schema elements.
 ms.topic: reference
-ms.date: 06/23/2023
+ms.date: 06/24/2023
 topic_type: 
 - APIRef
 - kbSyntax
