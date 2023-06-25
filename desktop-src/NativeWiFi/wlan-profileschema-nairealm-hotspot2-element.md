@@ -48,7 +48,7 @@ A list of Network Access Identifier (NAI) Realm identifiers. Entries in this lis
 
 ## Parent elements
 
-* [**Hotspot2 (WLANProfile)**](wlan-profileschema-hotspot2-element.md)
+* [**Hotspot2 (WLANProfile)**](wlan-profileschema-hotspot2-wlanprofile-element.md)
 
 ## Child elements
 

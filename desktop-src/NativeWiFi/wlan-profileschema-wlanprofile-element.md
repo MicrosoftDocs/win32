@@ -107,7 +107,7 @@ None.
 | [**autoSwitch**](#autoswitch) | [boolean](/dotnet/api/system.boolean) | Determines the roaming behavior of an auto-connected network when a more preferred network is in range. This element is optional, and has no effect on a manually connected network.|
 | [**connectionMode**](#connectionmode) | | Indicates whether connection to the wireless LAN should be automatic ("auto") or initiated ("manual") by user. This element is optional. |
 | [**connectionType**](#connectiontype) | | Indicates whether the network is infrastructure ("ESS") or ad-hoc ("IBSS"). |
-| [**Hotspot2**](wlan-profileschema-hotspot2-element.md) | | Extends the WLAN Profile Schema v1 to support Hotspot 2.0 networks. |
+| [**Hotspot2**](wlan-profileschema-hotspot2-wlanprofile-element.md) | | Extends the WLAN Profile Schema v1 to support Hotspot 2.0 networks. |
 | [**IHV**](wlan-profileschema-ihv-wlanprofile-element.md) | | Contains optional independent hardware vendor (IHV) settings.<br/> **Windows XP with SP3 and Wireless LAN API for Windows XP with SP2:** This element isn't supported. |
 | [**MSM**](wlan-profileschema-msm-wlanprofile-element.md) | | Contains various MSM settings. This element is optional. |
 | [**MacRandomization**](wlan-profileschema-macrandomization-wlanprofile-element.md) | | Configures the randomization of MAC addresses. |

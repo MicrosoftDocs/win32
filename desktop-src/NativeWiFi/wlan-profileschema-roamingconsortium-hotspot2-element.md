@@ -48,7 +48,7 @@ A list of Organizationally Unique Identifiers (OUI) assigned by IEEE.
 
 ## Parent elements
 
-* [**Hotspot2 (WLANProfile)**](wlan-profileschema-hotspot2-element.md)
+* [**Hotspot2 (WLANProfile)**](wlan-profileschema-hotspot2-wlanprofile-element.md)
 
 ## Child elements
 

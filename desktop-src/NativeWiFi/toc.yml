@@ -472,17 +472,17 @@
           - name: "IHV (WLANProfile) element"
             href: wlan-profileschema-ihv-wlanprofile-element.md
           - name: "Hotspot2 element"
-            href: wlan-profileschema-hotspot2-element.md
+            href: wlan-profileschema-hotspot2-wlanprofile-element.md
           - name: "MSM (WLANProfile) element"
             href: wlan-profileschema-msm-wlanprofile-element.md
           - name: "NAIRealm (Hotspot2) element"
-            href: wlan-profileschema-hotspot2-nairealm-element.md
+            href: wlan-profileschema-nairealm-hotspot2-element.md
           - name: "Network3GPP (Hotspot2) element"
-            href: wlan-profileschema-hotspot2-network3gpp-element.md
+            href: wlan-profileschema-network3gpp-hotspot2-element.md
           - name: "OUIHeader (IHV) element"
             href: wlan-profileschema-ouiheader-ihv-element.md
           - name: "RoamingConsortium (Hotspot2) element"
-            href: wlan-profileschema-hotspot2-roamingconsortium-element.md
+            href: wlan-profileschema-roamingconsortium-hotspot2-element.md
           - name: "security (MSM) element (for WLAN_profile)"
             href: wlan-profileschema-security-msm-element.md
           - name: "sharedKey (security) element"

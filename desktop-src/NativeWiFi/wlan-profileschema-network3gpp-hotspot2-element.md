@@ -48,7 +48,7 @@ A list of Public Land Mobile Network (PLMN) IDs.
 
 ## Parent elements
 
-* [**Hotspot2 (WLANProfile)**](wlan-profileschema-hotspot2-element.md)
+* [**Hotspot2 (WLANProfile)**](wlan-profileschema-hotspot2-wlanprofile-element.md)
 
 ## Child elements
 
