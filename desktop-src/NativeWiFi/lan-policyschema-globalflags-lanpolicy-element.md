@@ -2,7 +2,7 @@
 title: globalFlags (LANPolicy) element
 description: Contains the global settings for the automatic configuration of wired networks.
 ms.topic: reference
-ms.date: 06/23/2023
+ms.date: 06/24/2023
 topic_type: 
 - APIRef
 - kbSyntax
@@ -31,7 +31,14 @@ The globalFlags (LANPolicy) element contains the global settings for the automat
              />
             <xs:element name="blockPeriod"
                 minOccurs="0"
-             />
+             >
+                <xs:simpleType>
+                    <xs:restriction base="xs:integer">
+                        <xs:minInclusive value="0">
+                        <xs:maxInclusive value="60">
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
             <xs:any
                 processContents="lax"
                 minOccurs="0"
