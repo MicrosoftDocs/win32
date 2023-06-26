@@ -3,7 +3,7 @@ description: The following list describes new and updated feature areas for Wind
 ms.assetid: bd8b4dd8-e0b7-4340-a6bd-1baa42d9a1dd
 title: "What's New: Windows Server 2012 R2 & Windows Server 2012"
 ms.topic: article
-ms.date: 06/21/2023
+ms.date: 05/31/2018
 ---
 
 # What's New: Windows Server 2012 R2 & Windows Server 2012

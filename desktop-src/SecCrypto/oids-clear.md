@@ -3,7 +3,7 @@ description: Clears all OID objects from the collection.
 ms.assetid: 13c9ecf4-c3fc-4dae-a395-04e5247b3b1f
 title: OIDs.Clear method
 ms.topic: reference
-ms.date: 06/21/2023
+ms.date: 05/31/2018
 topic_type:
 - APIRef
 - kbSyntax
@@ -17,7 +17,7 @@ api_location:
 
 # OIDs.Clear method
 
-\[The **Clear** method is available for use in the operating systems specified in the Requirements section. Instead, use the [**OidCollection Class**](/dotnet/api/system.security.cryptography.oidcollection) in the [**System.Security.Cryptography**](/dotnet/api/system.security.cryptography?view=dotnet-plat-ext-3.1&preserve-view=true) namespace.\]
+\[The **Clear** method is available for use in the operating systems specified in the Requirements section. Instead, use the [**OidCollection Class**](/dotnet/api/system.security.cryptography.oidcollection) in the [**System.Security.Cryptography**](/dotnet/api/system.security.cryptography) namespace.\]
 
 The **Clear** method clears all [**OID**](oid.md) objects from the collection.
 

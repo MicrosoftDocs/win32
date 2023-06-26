@@ -2,7 +2,7 @@
 description: Learn about TLS cipher suites in Windows 10 v20H2 and v21H1. Cipher suites can only be negotiated for TLS versions which support them.
 title: TLS Cipher Suites in Windows 10 v20H2 and v21H1
 ms.topic: article
-ms.date: 06/21/2023
+ms.date: 09/01/2021
 ---
 
 # TLS Cipher Suites in Windows 10 v20H2 and v21H1

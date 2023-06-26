@@ -3,7 +3,7 @@ description: Learn about TLS cipher suites in Windows 10 v1507. Cipher suites ca
 ms.assetid: 58A47273-D2D3-449D-891C-C9502012C557
 title: TLS Cipher Suites in Windows 10 v1507
 ms.topic: article
-ms.date: 06/21/2023
+ms.date: 05/31/2018
 ---
 
 # TLS Cipher Suites in Windows 10 v1507
