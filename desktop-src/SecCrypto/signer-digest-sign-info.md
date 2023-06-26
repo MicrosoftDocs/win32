@@ -1,7 +1,7 @@
 ---
-description: contains information about digest signing.
+description: Specifies the SIGNER_DIGEST_SIGN_INFO structure that contains information about digest signing.
 ms.assetid: 83e92cca-c06f-4218-8f20-73d69f47bb2a
-title: SIGNER_SPC_CHAIN_INFO structure
+title: SIGNER_DIGEST_SIGN_INFO structure
 ms.topic: reference
 ms.date: 11/15/2022
 topic_type: 
