@@ -884,9 +884,9 @@
         href: /windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontset4
         items: 
         - name: "ConvertWeightStretchStyleToFontAxisValues method"
-          href: /windows/win32/api/dwrite_4/nf-dwrite_3-idwritefontset4-convertweightstretchstyletofontaxisvalues
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontset4-convertweightstretchstyletofontaxisvalues
         - name: "GetMatchingFonts method"
-          href: /windows/win32/api/dwrite_4/nf-dwrite_3-idwritefontset4-getmatchingfonts
+          href: /windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontset4-getmatchingfonts
       - name: "IDWriteFontSetBuilder"
         href: /windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontsetbuilder
         items: 

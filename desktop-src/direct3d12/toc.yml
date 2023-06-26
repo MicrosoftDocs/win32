@@ -323,7 +323,7 @@
           - name: "GetCopyableFootprints"
             href: /windows/win32/api/d3d12/nf-d3d12-id3d12device-getcopyablefootprints
           - name: "GetCustomHeapProperties"
-            href: /windows/win32/api/d3d12/nf-d3d12-id3d12device-getcustomheapproperties
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12device-getcustomheapproperties(uint_d3d12_heap_type)
           - name: "GetDescriptorHandleIncrementSize"
             href: /windows/win32/api/d3d12/nf-d3d12-id3d12device-getdescriptorhandleincrementsize
           - name: "GetDeviceRemovedReason"
@@ -331,7 +331,7 @@
           - name: "GetNodeCount"
             href: /windows/win32/api/d3d12/nf-d3d12-id3d12device-getnodecount
           - name: "GetResourceAllocationInfo"
-            href: /windows/win32/api/d3d12/nf-d3d12-id3d12device-getresourceallocationinfo
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12device-getresourceallocationinfo(uint_uint_constd3d12_resource_desc)
           - name: "GetResourceTiling"
             href: /windows/win32/api/d3d12/nf-d3d12-id3d12device-getresourcetiling
           - name: "MakeResident"
@@ -379,7 +379,7 @@
           - name: "CreateReservedResource1"
             href: /windows/win32/api/d3d12/nf-d3d12-id3d12device4-createreservedresource1
           - name: "GetResourceAllocationInfo1"
-            href: /windows/win32/api/d3d12/nf-d3d12-id3d12device4-getresourceallocationinfo1
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12device4-getresourceallocationinfo1(uint_uint_constd3d12_resource_desc_d3d12_resource_allocation_info1)
         - name: "ID3D12Device5"
           href: /windows/win32/api/d3d12/nn-d3d12-id3d12device5
           items: 
@@ -423,7 +423,7 @@
           - name: "GetCopyableFootprints1"
             href: /windows/win32/api/d3d12/nf-d3d12-id3d12device8-getcopyablefootprints1
           - name: "GetResourceAllocationInfo2"
-            href: /windows/win32/api/d3d12/nf-d3d12-id3d12device8-getresourceallocationinfo2
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12device8-getresourceallocationinfo2(uint_uint_constd3d12_resource_desc1_d3d12_resource_allocation_info1)
         - name: "ID3D12Device9"
           href: /windows/win32/api/d3d12/nn-d3d12-id3d12device9
           items: 

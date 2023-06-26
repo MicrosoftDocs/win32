@@ -126,7 +126,7 @@ One further note: Application Verifier is only as good as the code paths you run
 
 **WinQual:**
 
--   [Windows Quality Online Services (Winqual)](/windows-hardware/drivers/dashboard/winqual-submission-tool--winqualexe-)
+-   [Create a WLK hardware submission package - Winqual tool](/windows-hardware/drivers/dashboard/hardware-submission-wlk)
 -   [Windows Error Reporting: Getting Started](../wer/using-wer.md)
 
  
