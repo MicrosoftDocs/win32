@@ -2,8 +2,7 @@
 title: SSIDConfig (WLANProfile) element
 description: Contains one or more SSIDs for wireless LANs.
 ms.topic: reference
-ms.date: 05/25/2023
-ms.assetid: f9c46db8-2933-48e1-8cb3-effeb13c43ed
+ms.date: 06/25/2023
 topic_type: 
 - APIRef
 - kbSyntax
@@ -12,28 +11,29 @@ api_name:
 api_type: 
 - Schema
 api_location: 
+ms.assetid: f9c46db8-2933-48e1-8cb3-effeb13c43ed
 ---
 
 # SSIDConfig (WLANProfile) element
 
-The SSIDConfig (WLANProfile) element contains one or more SSIDs for wireless LANs.
+The SSIDConfig (WLANProfile) element contains one or more SSIDs for wireless LANs. **SSID** *maxOccurs* is 1000 in v2; in v1, it's 256.
 
-``` syntax
+```XSD
 <xs:element name="SSIDConfig"
     maxOccurs="256"
->
+ >
     <xs:complexType>
         <xs:sequence>
             <xs:element name="SSID"
-                maxOccurs="256"
+                maxOccurs="1000"
                 ...
-            />
+             />
             <xs:element name="SSIDPrefix"
                 ...
-            />
+             />
             <xs:element name="nonBroadcast"
-                type="boolean"
                 minOccurs="0"
+                type="boolean"
              />
             <xs:any
                 processContents="lax"
@@ -48,15 +48,15 @@ The SSIDConfig (WLANProfile) element contains one or more SSIDs for wireless LAN
 
 ## Parent elements
 
-* [**WLANProfile**](wlan-profileschema-wlanprofile-element.md)
+* [**WLANProfile**](./wlan-profileschema-wlanprofile-element.md)
 
 ## Child elements
 
 | Element | Type | Description |
-|-|-|-|
-| [**SSID**](wlan-profileschema-ssid-ssidconfig-element.md) | | Contains an SSID for a wireless LAN.<br/> **Windows XP with SP3 and Wireless LAN API for Windows XP with SP2:** At most one [**SSID**](wlan-profileschema-ssid-ssidconfig-element.md) element can appear in a profile.|
-| [**SSIDPrefix**](wlan-profileschema-ssidprefix-ssidconfig-element.md) | | Contains an SSID prefix for a wireless LAN.|
-| [**nonBroadcast**](#nonbroadcast) | [boolean](/dotnet/api/system.boolean) | Indicates whether the network broadcasts its SSID.<br/> If [**connectionType**](wlan-profileschema-wlanprofile-element.md#connectiontype) is set to ESS, this value can be either **TRUE** or **FALSE**. The default value is **TRUE** if this element is absent.<br/> If [**connectionType**](wlan-profileschema-wlanprofile-element.md#connectiontype) is set to IBSS, this value must be **FALSE**.<br/> **Windows XP with SP3 and Wireless LAN API for Windows XP with SP2:** This element isn't supported.|
+| - | - | - |
+| [**SSID**](./wlan-profileschema-ssid-ssidconfig-element.md) | | Contains an SSID for a wireless LAN. |
+| [**SSIDPrefix**](./wlan-profileschema-ssidprefix-ssidconfig-element.md) | | Contains an SSID prefix for a wireless LAN. |
+| [**nonBroadcast**](#nonbroadcast) | [boolean](/dotnet/api/system.boolean) | Indicates whether the network broadcasts its SSID.<br/> If [**connectionType**](wlan-profileschema-wlanprofile-element.md#connectiontype) is set to ESS, this value can be either **TRUE** or **FALSE**. The default value is **TRUE** if this element is absent.<br/> If [**connectionType**](wlan-profileschema-wlanprofile-element.md#connectiontype) is set to IBSS, this value must be **FALSE**.<br/> **Windows XP with SP3 and Wireless LAN API for Windows XP with SP2:** This element isn't supported. |
 
 ### nonBroadcast
 
@@ -75,7 +75,7 @@ To view sample profiles that use the **SSIDConfig** element, see [Wireless profi
 ## Requirements
 
 | Requirement | Value |
-|-|-|
+| - | - |
 | Minimum supported client | Windows Vista, Windows XP with SP3 \[desktop apps only\] |
 | Minimum supported server | Windows Server 2008 \[desktop apps only\] |
 | Redistributable | Wireless LAN API for Windows XP with SP2 |

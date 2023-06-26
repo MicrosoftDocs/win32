@@ -2,8 +2,7 @@
 title: sharedKey (security) element
 description: Contains shared key information.
 ms.topic: reference
-ms.date: 05/25/2023
-ms.assetid: 9f401441-256c-4702-9503-f87b2b9cf0ee
+ms.date: 06/25/2023
 topic_type: 
 - APIRef
 - kbSyntax
@@ -12,29 +11,24 @@ api_name:
 api_type: 
 - Schema
 api_location: 
+ms.assetid: 9f401441-256c-4702-9503-f87b2b9cf0ee
 ---
 
 # sharedKey (security) element
 
 The sharedKey (security) element contains shared key information. This element is only required if WEP or PSK keys are required for the authentication and encryption pair.
 
-``` syntax
+```XSD
 <xs:element name="sharedKey"
     minOccurs="0"
->
+ >
     <xs:complexType>
         <xs:sequence>
             <xs:element name="keyType">
                 <xs:simpleType>
-                    <xs:restriction
-                        base="string"
-                    >
-                        <xs:enumeration
-                            value="networkKey"
-                         />
-                        <xs:enumeration
-                            value="passPhrase"
-                         />
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="networkKey">
+                        <xs:enumeration value="passPhrase">
                     </xs:restriction>
                 </xs:simpleType>
             </xs:element>
@@ -57,15 +51,29 @@ The sharedKey (security) element contains shared key information. This element i
 
 ## Parent elements
 
-* [**security (MSM)**](wlan-profileschema-security-msm-element.md)
+* [**security (MSM)**](./wlan-profileschema-security-msm-element.md)
 
 ## Child elements
 
 | Element | Type | Description |
-|-|-|-|
-| [**keyMaterial**](#keymaterial) | [string](/dotnet/api/system.string) | Contains the network key or passphrase. |
+| - | - | - |
 | [**keyType**](#keytype) | | Type of key. |
 | [**protected**](#protected) | [boolean](/dotnet/api/system.boolean) | Specifies whether a shared key is encrypted. |
+| [**keyMaterial**](#keymaterial) | [string](/dotnet/api/system.string) | Contains the network key or passphrase. |
+
+### keyType
+
+Indicates whether the shared key will be a network key or a pass phrase.
+
+When the [**encryption**](wlan-profileschema-authencryption-security-element.md#encryption) element has a value of WEP, **keyType** must be set to **networkKey**.
+
+### protected
+
+Specifies whether a shared key is encrypted.
+
+**Windows Vista and Windows Server 2008:** **protected** always has a value of "TRUE" if the profile was retrieved from the profile store (for example, by calling [**WlanGetProfile**](/windows/desktop/api/wlanapi/nf-wlanapi-wlangetprofile)).
+
+**Windows XP with Service Pack 3 (SP3) or Wireless LAN API for Windows XP with Service Pack 2 (SP2):** This element must have a value of "FALSE".
 
 ### keyMaterial
 
@@ -89,20 +97,6 @@ Key material returned by [**WlanGetProfile**](/windows/desktop/api/wlanapi/nf-wl
 
 If your process runs in the context of the LocalSystem account, then you can unencrypt key material by calling [**CryptUnprotectData**](/windows/win32/api/dpapi/nf-dpapi-cryptunprotectdata).
 
-### keyType
-
-Indicates whether the shared key will be a network key or a pass phrase.
-
-When the [**encryption**](wlan-profileschema-authencryption-security-element.md#encryption) element has a value of WEP, **keyType** must be set to **networkKey**.
-
-### protected
-
-Specifies whether a shared key is encrypted.
-
-**Windows Vista and Windows Server 2008:** **protected** always has a value of "TRUE" if the profile was retrieved from the profile store (for example, by calling [**WlanGetProfile**](/windows/desktop/api/wlanapi/nf-wlanapi-wlangetprofile)).
-
-**Windows XP with Service Pack 3 (SP3) or Wireless LAN API for Windows XP with Service Pack 2 (SP2):** This element must have a value of "FALSE".
-
 ## Remarks
 
 For Windows Vista and Windows Server 2008, the data associated with the **sharedKey** element is encrypted before it is saved in the profile store.
@@ -116,7 +110,7 @@ To view sample profiles that use the **sharedKey** element and its child element
 ## Requirements
 
 | Requirement | Value |
-|-|-|
+| - | - |
 | Minimum supported client | Windows Vista, Windows XP with SP3 \[desktop apps only\] |
 | Minimum supported server | Windows Server 2008 \[desktop apps only\] |
 | Redistributable | Wireless LAN API for Windows XP with SP2 |
