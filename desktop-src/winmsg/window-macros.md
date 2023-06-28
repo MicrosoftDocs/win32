@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 - [**GET\_X\_LPARAM**](/windows/win32/api/windowsx/nf-windowsx-get_x_lparam)
 - [**GET\_Y\_LPARAM**](/windows/win32/api/windowsx/nf-windowsx-get_y_lparam)
-- [GET_MOUSEORKEY_LPARAM macro](nf-winuser-get_mouseorkey_lparam.md)
+- [**GET_MOUSEORKEY_LPARAM**](nf-winuser-get_mouseorkey_lparam.md)
 - [**HIBYTE**](/previous-versions/windows/desktop/legacy/ms632656(v=vs.85))
 - [**HIWORD**](/previous-versions/windows/desktop/legacy/ms632657(v=vs.85))
 - [**LOBYTE**](/previous-versions/windows/desktop/legacy/ms632658(v=vs.85))
