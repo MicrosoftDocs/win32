@@ -125,7 +125,7 @@ For more information, see the [*DebugProc*](/previous-versions/windows/desktop/l
 
 The **WH\_FOREGROUNDIDLE** hook enables you to perform low priority tasks during times when its foreground thread is idle. The system calls a **WH\_FOREGROUNDIDLE** hook procedure when the application's foreground thread is about to become idle.
 
-For more information, see the [*ForegroundIdleProc*](/previous-versions/windows/desktop/legacy/ms644980(v=vs.85)) callback function.
+For more information, see the [*ForegroundIdleProc*](foregroundidleproc.md) callback function.
 
 ### WH\_GETMESSAGE
 

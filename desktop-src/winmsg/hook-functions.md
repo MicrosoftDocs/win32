@@ -14,7 +14,7 @@ ms.date: 05/31/2018
 -   [*CallWndRetProc*](/windows/win32/api/winuser/nc-winuser-hookproc)
 -   [*CBTProc*](cbtproc.md)
 -   [*DebugProc*](/previous-versions/windows/desktop/legacy/ms644978(v=vs.85))
--   [*ForegroundIdleProc*](/previous-versions/windows/desktop/legacy/ms644980(v=vs.85))
+-   [*ForegroundIdleProc*](foregroundidleproc.md)
 -   [*GetMsgProc*](getmsgproc.md)
 -   [*JournalPlaybackProc*](journalplaybackproc.md)
 -   [*JournalRecordProc*](journalrecordproc.md)

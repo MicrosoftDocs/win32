@@ -1,11 +1,7 @@
 ﻿---
 title: ForegroundIdleProc callback function (Windows)
-TOCTitle: ForegroundIdleProc callback function
-ms:assetid: VS|winui|~\winui\windowsuserinterface\windowing\hooks\hookreference\hookfunctions\foregroundidleproc.htm
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/ms644980(v=VS.85)
-ms:contentKeyID: 5641708
-ms.date: 03/30/2018
-mtps_version: v=VS.85
+description: The system calls this function whenever the foreground thread is about to become idle.
+ms.date: 06/28/2023
 f1_keywords:
 - ForegroundIdleProc
 - winuser/ForegroundIdleProc
@@ -30,8 +26,6 @@ ROBOTS: INDEX,FOLLOW
 # ForegroundIdleProc callback function
 
 An application-defined or library-defined callback function used with the [**SetWindowsHookEx**](https://msdn.microsoft.com/en-us/library/ms644990\(v=vs.85\)) function. The system calls this function whenever the foreground thread is about to become idle.
-
-The **HOOKPROC** type defines a pointer to this callback function. *ForegroundIdleProc* is a placeholder for the application-defined or library-defined function name.
 
 ## Syntax
 
@@ -71,6 +65,8 @@ If *code* is less than zero, the hook procedure must return the value returned b
 If *code* is greater than or equal to zero, it is highly recommended that you call [**CallNextHookEx**](https://msdn.microsoft.com/en-us/library/ms644974\(v=vs.85\)) and return the value it returns; otherwise, other applications that have installed [**WH\_FOREGROUNDIDLE**](https://msdn.microsoft.com/en-us/library/ms644959\(v=vs.85\)) hooks will not receive hook notifications and may behave incorrectly as a result. If the hook procedure does not call **CallNextHookEx**, the return value should be zero.
 
 ## Remarks
+
+The **HOOKPROC** type defines a pointer to this callback function. *ForegroundIdleProc* is a placeholder for the application-defined or library-defined function name.
 
 An application installs this hook procedure by specifying the [**WH\_FOREGROUNDIDLE**](https://msdn.microsoft.com/en-us/library/ms644959\(v=vs.85\)) hook type and the pointer to the hook procedure in a call to the [**SetWindowsHookEx**](https://msdn.microsoft.com/en-us/library/ms644990\(v=vs.85\)) function.
 

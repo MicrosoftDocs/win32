@@ -38,8 +38,6 @@ ROBOTS: INDEX,FOLLOW
 
 An application-defined or library-defined callback function used with the [**SetWindowsHookEx**](https://msdn.microsoft.com/en-us/library/ms644990\(v=vs.85\)) function. The system calls this function before activating, creating, destroying, minimizing, maximizing, moving, or sizing a window; before completing a system command; before removing a mouse or keyboard event from the system message queue; before setting the keyboard focus; or before synchronizing with the system message queue. A computer-based training (CBT) application uses this hook procedure to receive useful notifications from the system.
 
-The **HOOKPROC** type defines a pointer to this callback function. *CBTProc* is a placeholder for the application-defined or library-defined function name.
-
 ## Syntax
 
 ``` c++
@@ -168,6 +166,8 @@ For operations corresponding to the following CBT hook codes, the return value i
   - **HCBT\_QS**
 
 ## Remarks
+
+The **HOOKPROC** type defines a pointer to this callback function. *CBTProc* is a placeholder for the application-defined or library-defined function name.
 
 The hook procedure should not install a [**WH\_JOURNALPLAYBACK**](https://msdn.microsoft.com/en-us/library/ms644959\(v=vs.85\)) hook procedure except in the situations described in the preceding list of hook codes.
 
