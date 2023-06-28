@@ -642,7 +642,7 @@
         - name: "DebugProc"
           href: /previous-versions/windows/desktop/legacy/ms644978(v=vs.85)
         - name: "ForegroundIdleProc"
-          href: /previous-versions/windows/desktop/legacy/ms644980(v=vs.85)
+          href: foregroundidleproc.md
         - name: "GetMsgProc"
           href: /windows/win32/winmsg/getmsgproc
         - name: "JournalPlaybackProc"

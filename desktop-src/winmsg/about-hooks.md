@@ -111,7 +111,7 @@ For more information, see the [*CallWndProc*](/previous-versions/windows/desktop
 
 The system calls a **WH\_CBT** hook procedure before activating, creating, destroying, minimizing, maximizing, moving, or sizing a window; before completing a system command; before removing a mouse or keyboard event from the system message queue; before setting the input focus; or before synchronizing with the system message queue. The value the hook procedure returns determines whether the system allows or prevents one of these operations. The **WH\_CBT** hook is intended primarily for computer-based training (CBT) applications.
 
-For more information, see the [*CBTProc*](/previous-versions/windows/desktop/legacy/ms644977(v=vs.85)) callback function.
+For more information, see the [**CBTProc**](cbtproc.md) callback function.
 
 For information, see [WinEvents](/windows/desktop/WinAuto/winevents-infrastructure).
 

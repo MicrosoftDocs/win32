@@ -36,7 +36,7 @@ ROBOTS: INDEX,FOLLOW
 
 # CBTProc callback function
 
-An application-defined or library-defined callback function used with the [**SetWindowsHookEx**](https://msdn.microsoft.com/en-us/library/ms644990\(v=vs.85\)) function. The system calls this function before activating, creating, destroying, minimizing, maximizing, moving, or sizing a window; before completing a system command; before removing a mouse or keyboard event from the system message queue; before setting the keyboard focus; or before synchronizing with the system message queue. A computer-based training (CBT) application uses this hook procedure to receive useful notifications from the system.
+An application-defined or library-defined callback function used with the [**SetWindowsHookExA**](/windows/win32/api/winuser/nf-winuser-setwindowshookexa)/[**SetWindowsHookExW**](/windows/win32/api/winuser/nf-winuser-setwindowshookexw) function. The system calls this function before activating, creating, destroying, minimizing, maximizing, moving, or sizing a window; before completing a system command; before removing a mouse or keyboard event from the system message queue; before setting the keyboard focus; or before synchronizing with the system message queue. A computer-based training (CBT) application uses this hook procedure to receive useful notifications from the system.
 
 ## Syntax
 
@@ -53,7 +53,7 @@ LRESULT CALLBACK CBTProc(
   - *nCode* \[in\]  
     Type: **int**
     
-    The code that the hook procedure uses to determine how to process the message. If *nCode* is less than zero, the hook procedure must pass the message to the [**CallNextHookEx**](https://msdn.microsoft.com/en-us/library/ms644974\(v=vs.85\)) function without further processing and should return the value returned by **CallNextHookEx**. This parameter can be one of the following values.
+    The code that the hook procedure uses to determine how to process the message. If *nCode* is less than zero, the hook procedure must pass the message to the [**CallNextHookEx**](/windows/win32/api/winuser/nf-winuser-callnexthookex) function without further processing and should return the value returned by **CallNextHookEx**. This parameter can be one of the following values.
     
     <table>
     <colgroup>
@@ -171,7 +171,7 @@ The **HOOKPROC** type defines a pointer to this callback function. *CBTProc* is 
 
 The hook procedure should not install a [**WH\_JOURNALPLAYBACK**](https://msdn.microsoft.com/en-us/library/ms644959\(v=vs.85\)) hook procedure except in the situations described in the preceding list of hook codes.
 
-An application installs the hook procedure by specifying the [**WH\_CBT**](https://msdn.microsoft.com/en-us/library/ms644959\(v=vs.85\)) hook type and a pointer to the hook procedure in a call to the [**SetWindowsHookEx**](https://msdn.microsoft.com/en-us/library/ms644990\(v=vs.85\)) function.
+An application installs the hook procedure by specifying the [**WH\_CBT**](https://msdn.microsoft.com/en-us/library/ms644959\(v=vs.85\)) hook type and a pointer to the hook procedure in a call to the [**SetWindowsHookExA**](/windows/win32/api/winuser/nf-winuser-setwindowshookexa)/[**SetWindowsHookExW**](/windows/win32/api/winuser/nf-winuser-setwindowshookexw) function.
 
 The following table describes the *wParam* and *lParam* parameters for each **HCBT\_** hook code.
 
@@ -275,11 +275,11 @@ For information, see [WinEvents](https://msdn.microsoft.com/en-us/library/dd3738
 
 **Reference**
 
-[**CallNextHookEx**](https://msdn.microsoft.com/en-us/library/ms644974\(v=vs.85\))
+[**CallNextHookEx**](/windows/win32/api/winuser/nf-winuser-callnexthookex)
 
 [**CreateWindow**](https://msdn.microsoft.com/en-us/library/ms632679\(v=vs.85\))
 
-[**SetWindowsHookEx**](https://msdn.microsoft.com/en-us/library/ms644990\(v=vs.85\))
+[**SetWindowsHookExA**](/windows/win32/api/winuser/nf-winuser-setwindowshookexa)/[**SetWindowsHookExW**](/windows/win32/api/winuser/nf-winuser-setwindowshookexw)
 
 [**WM\_SYSCOMMAND**](https://msdn.microsoft.com/en-us/library/ms646360\(v=vs.85\))
 
