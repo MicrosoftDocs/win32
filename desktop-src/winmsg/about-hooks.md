@@ -119,7 +119,7 @@ For information, see [WinEvents](/windows/desktop/WinAuto/winevents-infrastructu
 
 The system calls a **WH\_DEBUG** hook procedure before calling hook procedures associated with any other hook in the system. You can use this hook to determine whether to allow the system to call hook procedures associated with other types of hooks.
 
-For more information, see the [*DebugProc*](/previous-versions/windows/desktop/legacy/ms644978(v=vs.85)) callback function.
+For more information, see the [DebugProc](debugproc.md) callback function.
 
 ### WH\_FOREGROUNDIDLE
 

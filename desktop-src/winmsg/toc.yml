@@ -640,7 +640,7 @@
         - name: "CBTProc"
           href: cbtproc.md
         - name: "DebugProc"
-          href: /previous-versions/windows/desktop/legacy/ms644978(v=vs.85)
+          href: debugproc.md
         - name: "ForegroundIdleProc"
           href: foregroundidleproc.md
         - name: "GetMsgProc"

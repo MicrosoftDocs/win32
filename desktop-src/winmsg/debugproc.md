@@ -1,10 +1,7 @@
 ﻿---
 title: DebugProc function (Windows)
-TOCTitle: DebugProc function
-ms:assetid: VS|winui|~\winui\windowsuserinterface\windowing\hooks\hookreference\hookfunctions\debugproc.htm
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/ms644978(v=VS.85)
-ms:contentKeyID: 5641704
-ms.date: 03/30/2018
+description: The system passes information about the hook to be called to the DebugProc hook procedure, which examines the information and determines whether to allow the hook to be called.
+ms.date: 06/28/2023
 mtps_version: v=VS.85
 f1_keywords:
 - DebugProc
