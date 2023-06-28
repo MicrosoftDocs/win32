@@ -3,7 +3,7 @@ description: EC_DVD_VOBU_Timestamp - Sent when the DVD Navigator parses a PCI pa
 ms.assetid: 25548c23-22f0-47cb-9062-273ad39d3007
 title: EC_DVD_VOBU_Timestamp (Dvdevcode.h)
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 4/26/2023
 topic_type: 
 - APIRef
 - kbSyntax
@@ -13,9 +13,12 @@ api_type:
 - HeaderDef
 api_location: 
 - dvdevcode.h
+ms.custom: UpdateFrequency5
 ---
 
 # EC\_DVD\_VOBU\_Timestamp
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer) and [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine). **MediaPlayer** and **IMFMediaEngine** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** and **IMFMediaEngine** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 Sent when the [DVD Navigator](dvd-navigator-filter.md) parses a PCI packet.
 

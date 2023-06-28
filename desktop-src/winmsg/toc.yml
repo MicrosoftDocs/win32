@@ -440,7 +440,7 @@
         - name: "DefWindowProc"
           href: /windows/desktop/api/winuser/nf-winuser-defwindowproca
         - name: "WindowProc"
-          href: /previous-versions/windows/desktop/legacy/ms633573(v=vs.85)
+          href: /windows/win32/api/winuser/nc-winuser-wndproc
   - name: "Messages and Message Queues"
     href: messages-and-message-queues.md
     items: 
@@ -644,27 +644,27 @@
         - name: "ForegroundIdleProc"
           href: /previous-versions/windows/desktop/legacy/ms644980(v=vs.85)
         - name: "GetMsgProc"
-          href: /previous-versions/windows/desktop/legacy/ms644981(v=vs.85)
+          href: /windows/win32/winmsg/getmsgproc
         - name: "JournalPlaybackProc"
-          href: /previous-versions/windows/desktop/legacy/ms644982(v=vs.85)
+          href: /windows/win32/winmsg/journalplaybackproc
         - name: "JournalRecordProc"
-          href: /previous-versions/windows/desktop/legacy/ms644983(v=vs.85)
+          href: /windows/win32/winmsg/journalrecordproc
         - name: "KeyboardProc"
-          href: /previous-versions/windows/desktop/legacy/ms644984(v=vs.85)
+          href: /windows/win32/winmsg/keyboardproc
         - name: "LowLevelKeyboardProc"
-          href: /previous-versions/windows/desktop/legacy/ms644985(v=vs.85)
+          href: /windows/win32/winmsg/lowlevelkeyboardproc
         - name: "LowLevelMouseProc"
-          href: /previous-versions/windows/desktop/legacy/ms644986(v=vs.85)
+          href: /windows/win32/winmsg/lowlevelmouseproc
         - name: "MessageProc"
-          href: /previous-versions/windows/desktop/legacy/ms644987(v=vs.85)
+          href: /windows/win32/winmsg/messageproc
         - name: "MouseProc"
-          href: /previous-versions/windows/desktop/legacy/ms644988(v=vs.85)
+          href: /windows/win32/winmsg/mouseproc
         - name: "SetWindowsHookEx"
           href: /windows/desktop/api/winuser/nf-winuser-setwindowshookexa
         - name: "ShellProc"
-          href: /previous-versions/windows/desktop/legacy/ms644991(v=vs.85)
+          href: /windows/win32/winmsg/shellproc
         - name: "SysMsgProc"
-          href: /previous-versions/windows/desktop/legacy/ms644992(v=vs.85)
+          href: /windows/win32/winmsg/sysmsgproc
         - name: "UnhookWindowsHookEx"
           href: /windows/desktop/api/winuser/nf-winuser-unhookwindowshookex
       - name: "Hook Notifications"

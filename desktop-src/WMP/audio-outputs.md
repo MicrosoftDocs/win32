@@ -19,10 +19,13 @@ keywords:
 - Windows Media Player ActiveX control,eMultimedia
 - Windows Media Player ActiveX control,eCommunications
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Audio Outputs
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The Control Panel in Windows XP enables the user to assign the name Default DirectSound Device to a particular audio output device. In Windows Vista, the Control Panel lets the user assign each of three names (eConsole, eMultimedia, and eCommunications) to an audio output device. These names can all be assigned to different devices, or multiple names can be assigned to the same device. The following table shows how Windows Media Player and the Windows Media Player ActiveX control choose default audio output devices.
 

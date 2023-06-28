@@ -10,10 +10,13 @@ keywords:
 - audio compression manager (ACM),about
 - ACM (audio compression manager),about
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Audio Compression Manager
+
+\[The feature associated with this page, [﻿Audio Compression Manager](/windows/win32/multimedia/audio-compression-manager), is a legacy feature. Microsoft strongly recommends that new code does not use this feature.\]
 
 This overview describes the services available in the audio compression manager (ACM) and explains the programming techniques used to access these services.
 

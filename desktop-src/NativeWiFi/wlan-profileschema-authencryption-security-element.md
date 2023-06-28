@@ -2,8 +2,7 @@
 title: authEncryption (security) element
 description: Specifies the authentication and encryption pair to be used for this profile.
 ms.topic: reference
-ms.date: 05/25/2023
-ms.assetid: d7a69b82-3f04-49eb-80cc-675d5a0a559a
+ms.date: 06/25/2023
 topic_type: 
 - APIRef
 - kbSyntax
@@ -12,90 +11,58 @@ api_name:
 api_type: 
 - Schema
 api_location: 
+ms.assetid: d7a69b82-3f04-49eb-80cc-675d5a0a559a
 ---
 
 # authEncryption (security) element
 
 The authEncryption (security) element specifies the authentication and encryption pair to be used for this profile.
 
-``` syntax
-<xs:element name="authEncryption">
+```XSD
+<xs:element name="authEncryption"
+    minOccurs="0"
+ >
     <xs:complexType>
         <xs:sequence>
             <xs:element name="authentication">
                 <xs:simpleType>
-                    <xs:restriction
-                        base="string"
-                    >
-                        <xs:enumeration
-                            value="open"
-                         />
-                        <xs:enumeration
-                            value="shared"
-                         />
-                        <xs:enumeration
-                            value="WPA"
-                         />
-                        <xs:enumeration
-                            value="WPAPSK"
-                         />
-                        <xs:enumeration
-                            value="WPA2"
-                         />
-                        <xs:enumeration
-                            value="WPA2PSK"
-                         />
-                        <xs:enumeration
-                            value="WPA3"
-                         />
-                        <xs:enumeration
-                            value="WPA3ENT192"
-                         />
-                        <xs:enumeration
-                            value="WPA3ENT"
-                         />
-                        <xs:enumeration
-                            value="WPA3SAE"
-                         />
-                        <xs:enumeration
-                            value="OWE"
-                         />
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="open">
+                        <xs:enumeration value="shared">
+                        <xs:enumeration value="WPA">
+                        <xs:enumeration value="WPAPSK">
+                        <xs:enumeration value="WPA2">
+                        <xs:enumeration value="WPA2PSK">
+                        <xs:enumeration value="WPA3">
+                        <xs:enumeration value="WPA3ENT192">
+                        <xs:enumeration value="WPA3ENT">
+                        <xs:enumeration value="WPA3SAE">
+                        <xs:enumeration value="OWE">
                     </xs:restriction>
                 </xs:simpleType>
             </xs:element>
             <xs:element name="encryption">
                 <xs:simpleType>
-                    <xs:restriction
-                        base="string"
-                    >
-                        <xs:enumeration
-                            value="none"
-                         />
-                        <xs:enumeration
-                            value="WEP"
-                         />
-                        <xs:enumeration
-                            value="TKIP"
-                         />
-                        <xs:enumeration
-                            value="AES"
-                         />
-                        <xs:enumeration
-                            value="GCMP256"
-                         />
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="none">
+                        <xs:enumeration value="WEP">
+                        <xs:enumeration value="TKIP">
+                        <xs:enumeration value="AES">
+                        <xs:enumeration value="GCMP256">
                     </xs:restriction>
                 </xs:simpleType>
             </xs:element>
             <xs:element name="useOneX"
-                type="boolean"
                 minOccurs="0"
+                type="boolean"
              />
             <xs:element name="FIPSMode"
+                minOccurs="0"
                 type="boolean"
              />
             <xs:element name="transitionMode"
                 type="boolean"
-            />
+             />
             <xs:any
                 processContents="lax"
                 minOccurs="0"
@@ -109,12 +76,12 @@ The authEncryption (security) element specifies the authentication and encryptio
 
 ## Parent elements
 
-* [**Security (MSM)**](wlan-profileschema-security-msm-element.md)
+* [**security (MSM)**](./wlan-profileschema-security-msm-element.md)
 
 ## Child elements
 
 | Element | Type | Description |
-|-|-|-|
+| - | - | - |
 | [**authentication**](#authentication) | | Specifies the authentication method to be used to connect to the wireless LAN. |
 | [**encryption**](#encryption) | | Specifies the type of data encryption to use to connect to a wireless LAN. |
 | [**useOneX**](#useonex) | boolean | Indicates whether 802.1X authentication is used. |
@@ -184,7 +151,7 @@ To view sample profiles that use the **authEncryption** element and its child el
 ## Requirements
 
 | Requirement | Value |
-|-|-|
+| - | - |
 | Minimum supported client | Windows Vista, Windows XP with SP3 \[desktop apps only\] |
 | Minimum supported server | Windows Server 2008 \[desktop apps only\] |
 | Redistributable | Wireless LAN API for Windows XP with SP2 |

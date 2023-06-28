@@ -3,10 +3,13 @@ description: Obtaining the DVD Interface Pointers
 ms.assetid: 3d9315fc-dcfb-483a-9437-55c440813dc2
 title: Obtaining the DVD Interface Pointers
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Obtaining the DVD Interface Pointers
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer) and [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine). **MediaPlayer** and **IMFMediaEngine** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** and **IMFMediaEngine** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 After the filter graph is built, your application can obtain the pointers it needs to control the DVD Navigator, the Filter Graph Manager, and the video window. The basic steps, with error-checking and other code left out for simplicity, are illustrated in the following code example. The complete code is found in the DVD Sample application in the CDvdCore::BuildGraph method. (For more information, see [DirectShow Samples](directshow-samples.md).)
 

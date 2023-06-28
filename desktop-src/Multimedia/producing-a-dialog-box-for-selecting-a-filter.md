@@ -13,10 +13,13 @@ keywords:
 - ACM examples,selecting filters
 - selecting filters
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Producing a Dialog Box for Selecting a Filter
+
+\[The feature associated with this page, [﻿Audio Compression Manager](/windows/win32/multimedia/audio-compression-manager), is a legacy feature. Microsoft strongly recommends that new code does not use this feature.\]
 
 An application can allow users to select an arbitrary filter operation and apply it to waveform-audio data. In the following example, the application allocates a buffer to hold the filter and then uses the [**acmFilterChoose**](/windows/desktop/api/Msacm/nf-msacm-acmfilterchoose) function to select the filter. The functions in this example must be called with the appropriate filter or filter tag.
 

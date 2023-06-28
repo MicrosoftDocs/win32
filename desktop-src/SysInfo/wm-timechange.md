@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 A message that is sent whenever there is a change in the system time.
 
-A window receives this message through its [**WindowProc**](/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)) function.
+A window receives this message through its [**WindowProc**](/windows/win32/api/winuser/nc-winuser-wndproc) function.
 
 
 ```C++

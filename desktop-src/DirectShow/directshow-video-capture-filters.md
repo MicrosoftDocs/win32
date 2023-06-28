@@ -3,10 +3,13 @@ description: DirectShow Video Capture Filters
 ms.assetid: e4d1452d-ceac-4b5c-b9ba-ad4722ecff76
 title: DirectShow Video Capture Filters
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # DirectShow Video Capture Filters
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer) and [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine). **MediaPlayer** and **IMFMediaEngine** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** and **IMFMediaEngine** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 Capture filters in DirectShow have some features that distinguish them from other kinds of filters. Although the [Capture Graph Builder](capture-graph-builder.md) hides many of the details, it is a good idea to read this section, in order to have a general understanding of DirectShow capture graphs.
 

@@ -12,10 +12,13 @@ keywords:
 - 2-pass encoding,IWMWriterPreprocess interface
 - IWMWriterPreprocess
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Using Two-Pass Encoding (Windows Media Format 11 SDK)
+
+\[The feature associated with this page, [Windows Media Format 11 SDK](/windows/win32/wmformat/windows-media-format-11-sdk), is a legacy feature. It has been superseded by [Source Reader](/windows/win32/medfound/source-reader) and [Sink Writer](/windows/win32/medfound/sink-writer). **Source Reader** and **Sink Writer** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **Source Reader** and **Sink Writer** instead of **Windows Media Format 11 SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 Some codecs support two-pass encoding for certain formats. In some cases, a codec requires that a specified format be encoded using two passes. When two-pass encoding is used, you send the samples for the stream to the codec before the encoding pass. The codec analyzes the samples and configures the encoding pass based on the analysis. This results in a more efficiently encoded file.
 

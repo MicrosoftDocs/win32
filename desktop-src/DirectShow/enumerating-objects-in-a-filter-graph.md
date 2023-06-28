@@ -3,10 +3,13 @@ description: Enumerating Objects in a Filter Graph
 ms.assetid: 04a3dbc8-33c4-4b70-930e-686be2f8301f
 title: Enumerating Objects in a Filter Graph
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Enumerating Objects in a Filter Graph
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer) and [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine). **MediaPlayer** and **IMFMediaEngine** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** and **IMFMediaEngine** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 An application might need to locate a particular filter in the filter graph, or even a particular pin on a filter. For example, it might use an interface that a particular filter exposes. Or, it might construct a specialized filter graph and need to call methods on individual pins to connect the filters. For this purpose, DirectShow provides several methods for enumerating objects in a filter graph.
 

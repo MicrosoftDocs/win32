@@ -3,10 +3,13 @@ description: VMR Windowed (Compatibility) Mode
 ms.assetid: e9fb1c83-860a-44c1-9633-c86f5d0fdadd
 title: VMR Windowed (Compatibility) Mode
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # VMR Windowed (Compatibility) Mode
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer) and [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine). **MediaPlayer** and **IMFMediaEngine** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** and **IMFMediaEngine** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The VMR is designed to be compatible with all existing DirectShow applications. When it is used with an existing application, the VMR operates in windowed mode with a single video stream, also called compatibility mode. This mode is provided because the VMR-7 is the default renderer on Windows XP, and is therefore automatically used in calls to [Intelligent Connect](intelligent-connect.md) methods such as [**IGraphBuilder::RenderFile**](/windows/desktop/api/Strmif/nf-strmif-igraphbuilder-renderfile). If your application uses Intelligent Connect and requires only basic rendering capabilities, you do not need any special code to render correctly with the VMR-7 on Windows XP.
 

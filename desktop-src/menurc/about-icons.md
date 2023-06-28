@@ -18,6 +18,7 @@ keywords:
 - displaying icons
 - destroying icons
 - duplicating icons
+- IDI_APPLICATION, IDI_ASTERISK, IDI_ERROR, IDI_EXCLAMATION, IDI_HAND, IDI_INFORMATION, IDI_QUESTION, IDI_SHIELD, IDI_WARNING, IDI_WINLOGO
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -52,13 +53,15 @@ The operating system provides a set of standard icons that are available for any
 
 | Value | Meaning |
 |---|---|
-| **IDI\_APPLICATION**<br/>MAKEINTRESOURCE(32512) | Default application icon |
-| **IDI\_ERROR**<br/>**IDI\_HAND**<br/>MAKEINTRESOURCE(32513) | Error icon |
-| **IDI\_QUESTION**<br/>MAKEINTRESOURCE(32514) | Question mark icon |
-| **IDI\_WARNING**<br/>**IDI\_EXCLAMATION**<br/>MAKEINTRESOURCE(32515) | Warning icon |
-| **IDI\_INFORMATION**<br/>**IDI\_ASTERISK**<br/>MAKEINTRESOURCE(32516) | Information icon |
-| **IDI\_WINLOGO**<br/>MAKEINTRESOURCE(32517) | Windows logo icon |
-| **IDI\_SHIELD**<br/>MAKEINTRESOURCE(32518) | Security shield icon |
+| **IDI\_APPLICATION**<br/>MAKEINTRESOURCE(32512) | :::image type="icon" source="./images/IDI_APPLICATION.png"::: Default application icon |
+| **IDI\_ERROR**<br/>MAKEINTRESOURCE(32513) | :::image type="icon" source="./images/IDI_ERROR.png"::: Error icon |
+| **IDI\_QUESTION**<br/>MAKEINTRESOURCE(32514) | :::image type="icon" source="./images/IDI_QUESTION.png"::: Question mark icon |
+| **IDI\_WARNING**<br/>MAKEINTRESOURCE(32515) | :::image type="icon" source="./images/IDI_WARNING.png"::: Warning icon |
+| **IDI\_INFORMATION**<br/>MAKEINTRESOURCE(32516) | :::image type="icon" source="./images/IDI_INFORMATION.png"::: Information icon |
+| **IDI\_WINLOGO**<br/>MAKEINTRESOURCE(32517) | :::image type="icon" source="./images/IDI_WINLOGO.png"::: Windows logo icon |
+| **IDI\_SHIELD**<br/>MAKEINTRESOURCE(32518) | :::image type="icon" source="./images/IDI_SHIELD.png"::: Security shield icon |
+
+See [Guidelines](/windows/win32/uxguide/vis-std-icons) for information on recommended usage of standard icons.
 
 Also, starting with Windows Vista, an additional set of **standard system shell icons** is available through the [SHGetStockIconInfo](/windows/win32/api/shellapi/nf-shellapi-shgetstockiconinfo) method.
 

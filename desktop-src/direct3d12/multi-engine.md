@@ -62,8 +62,8 @@ When calling the following (multiple node) APIs, your application specifies a se
 The following APIs reference node masks.
 
 -   [**D3D12\_HEAP\_PROPERTIES**](/windows/win32/api/d3d12/ns-d3d12-d3d12_heap_properties) : has both *CreationNodeMask* and *VisibleNodeMask* members.
--   [**GetResourceAllocationInfo**](/windows/win32/api/d3d12/nf-d3d12-id3d12device-getresourceallocationinfo) : has a *visibleMask* parameter.
--   [**GetCustomHeapProperties**](/windows/win32/api/d3d12/nf-d3d12-id3d12device-getcustomheapproperties) : has a *nodeMask* parameter.
+-   [**GetResourceAllocationInfo**](/windows/win32/api/d3d12/nf-d3d12-id3d12device-getresourceallocationinfo(uint_uint_constd3d12_resource_desc)) : has a *visibleMask* parameter.
+-   [**GetCustomHeapProperties**](/windows/win32/api/d3d12/nf-d3d12-id3d12device-getcustomheapproperties(uint_d3d12_heap_type)) : has a *nodeMask* parameter.
 
 When creating a reserved resource, no node index or mask is specified. The reserved resource can be mapped onto a heap on any node (following the cross-node sharing rules).
 

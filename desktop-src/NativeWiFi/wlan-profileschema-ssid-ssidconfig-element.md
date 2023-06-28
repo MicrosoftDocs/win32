@@ -2,8 +2,7 @@
 title: SSID (SSIDConfig) element
 description: Contains an SSID for a wireless LAN.
 ms.topic: reference
-ms.date: 05/25/2023
-ms.assetid: fb3466c4-a586-424b-96e2-ba287c99a1d9
+ms.date: 06/25/2023
 topic_type: 
 - APIRef
 - kbSyntax
@@ -12,49 +11,38 @@ api_name:
 api_type: 
 - Schema
 api_location: 
+ms.assetid: fb3466c4-a586-424b-96e2-ba287c99a1d9
 ---
 
 # SSID (SSIDConfig) element
 
-The SSID (SSIDConfig) element contains an SSID for a wireless LAN.
+The SSID (SSIDConfig) element contains an SSID for a wireless LAN. **SSID** *maxOccurs* is 1000 in v2; in v1, it's 256.
 
 **Windows XP with SP3 and Wireless LAN API for Windows XP with SP2:** At most one **SSID** element can appear in a profile.
 
-``` syntax
+```XSD
 <xs:element name="SSID"
-    maxOccurs="256"
->
+    maxOccurs="1000"
+ >
     <xs:complexType>
         <xs:sequence>
             <xs:element name="hex"
                 minOccurs="0"
-            >
+             >
                 <xs:simpleType>
-                    <xs:restriction
-                        base="hexBinary"
-                    >
-                        <xs:minLength
-                            value="1"
-                         />
-                        <xs:maxLength
-                            value="32"
-                         />
+                    <xs:restriction base="xs:hexBinary">
+                        <xs:minLength value="1">
+                        <xs:maxLength value="32">
                     </xs:restriction>
                 </xs:simpleType>
             </xs:element>
             <xs:element name="name"
                 minOccurs="0"
-            >
+             >
                 <xs:simpleType>
-                    <xs:restriction
-                        base="string"
-                    >
-                        <xs:minLength
-                            value="1"
-                         />
-                        <xs:maxLength
-                            value="32"
-                         />
+                    <xs:restriction base="xs:string">
+                        <xs:minLength value="1">
+                        <xs:maxLength value="32">
                     </xs:restriction>
                 </xs:simpleType>
             </xs:element>
@@ -71,14 +59,14 @@ The SSID (SSIDConfig) element contains an SSID for a wireless LAN.
 
 ## Parent elements
 
-* [**SSIDConfig (WLANProfile)**](wlan-profileschema-ssidconfig-wlanprofile-element.md)
+* [**SSIDConfig (WLANProfile)**](./wlan-profileschema-ssidconfig-wlanprofile-element.md)
 
 ## Child elements
 
 | Element | Type | Description |
-|-|-|-|
-| [**hex**](#hex) | | Contains the SSID of a wireless LAN in hexadecimal format.|
-| [**name**](#name) | | Contains the SSID for a wireless LAN.|
+| - | - | - |
+| [**hex**](#hex) | | Contains the SSID of a wireless LAN in hexadecimal format. |
+| [**name**](#name) | | Contains the SSID for a wireless LAN. |
 
 ### hex
 
@@ -107,7 +95,7 @@ To view sample profiles that use the **SSID** element and its child elements, se
 ## Requirements
 
 | Requirement | Value |
-|-|-|
+| - | - |
 | Minimum supported client | Windows Vista, Windows XP with SP3 \[desktop apps only\] |
 | Minimum supported server | Windows Server 2008 \[desktop apps only\] |
 | Redistributable | Wireless LAN API for Windows XP with SP2 |

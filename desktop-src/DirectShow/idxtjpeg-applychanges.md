@@ -3,7 +3,7 @@ description: The ApplyChanges method applies any properties that have changed.
 ms.assetid: dece1e61-7fe1-40f1-8d1d-89b5a334d04e
 title: IDxtJpeg::ApplyChanges method (Qedit.h)
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 4/26/2023
 topic_type: 
 - APIRef
 - kbSyntax
@@ -14,9 +14,12 @@ api_type:
 api_location: 
 - strmiids.lib
 - strmiids.dll
+ms.custom: UpdateFrequency5
 ---
 
 # IDxtJpeg::ApplyChanges method
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer) and [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine). **MediaPlayer** and **IMFMediaEngine** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** and **IMFMediaEngine** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 > [!Note]  
 > \[Deprecated. This API may be removed from future releases of Windows.\]

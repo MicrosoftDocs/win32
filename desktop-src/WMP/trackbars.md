@@ -8,10 +8,13 @@ keywords:
 - reference for skins,trackbars
 - trackbars in skins,about
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Trackbars
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 A trackbar displays an image that changes in small increments. Trackbars are used for volume controls and playback position controls. You can use trackbars to display information about the current media item or to allow the user to change settings or playback position. For example, you can use a trackbar to enable the user to adjust the volume, and another trackbar that can show the user the current playback position. Trackbars have a thumb image that defines the current setting of the trackbar value.
 

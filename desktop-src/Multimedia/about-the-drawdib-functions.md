@@ -12,10 +12,13 @@ keywords:
 - DrawDib,image stretching
 - DrawDib,compressed images
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # About the DrawDib Functions
+
+\[The feature associated with this page, [DrawDib](/windows/win32/multimedia/drawdib), is a legacy feature. It has been superseded by [MediaComposition class](/uwp/api/Windows.Media.Editing.MediaComposition). **MediaComposition class** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaComposition class** instead of **DrawDib**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 Collectively, the DrawDib functions are similar to the [**StretchDIBits**](/windows/desktop/api/wingdi/nf-wingdi-stretchdibits) function in that they provide image-stretching and dithering capabilities. However, the DrawDib functions support image decompression, data-streaming, and a greater number of display adapters.
 

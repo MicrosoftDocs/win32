@@ -5,10 +5,13 @@ ms.assetid: 05f68361-7fec-4c45-b434-a8b654f2d0c3
 keywords:
 - mciSendCommand function
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Playing a Compact Disc Track
+
+\[The feature associated with this page, [MCI](/windows/win32/multimedia/mci), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **MCI**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The following example opens a CD audio device, plays the track specified by the *bTrack* parameter, and closes the device after playback is complete. It uses the [**mciSendCommand**](/previous-versions//dd757160(v=vs.85)) function.
 

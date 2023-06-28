@@ -3,10 +3,13 @@ description: In-Place Processing
 ms.assetid: 61e5c12c-e42a-42d8-ac5b-e60afaceda82
 title: In-Place Processing
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # In-Place Processing
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer) and [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine). **MediaPlayer** and **IMFMediaEngine** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** and **IMFMediaEngine** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 Certain data transformations can be accomplished by directly modifying the data. This is called *in-place* processing. Many audio and video effects can be done in this manner. If a DMO supports in-place processing, it exposes the [**IMediaObjectInPlace**](/previous-versions/windows/desktop/api/Mediaobj/nn-mediaobj-imediaobjectinplace) interface. In-place processing is generally more efficient than using separate buffers for the output. (One major exception is when the buffer resides in video memory. In that situation, read operations are much slower than write operations, so in-place processing is not recommended.)
 

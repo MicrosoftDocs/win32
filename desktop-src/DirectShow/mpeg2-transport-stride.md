@@ -3,7 +3,7 @@ description: The MPEG2\_TRANSPORT\_STRIDE structure describes the format of MPEG
 ms.assetid: 269d5fba-2dea-4786-93d6-e52b56c8bb53
 title: MPEG2_TRANSPORT_STRIDE structure (Bdatypes.h)
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 4/26/2023
 topic_type:
 - APIRef
 - kbSyntax
@@ -13,9 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - bdatypes.h
+ms.custom: UpdateFrequency5
 ---
 
 # MPEG2\_TRANSPORT\_STRIDE structure
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer) and [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine). **MediaPlayer** and **IMFMediaEngine** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** and **IMFMediaEngine** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The `MPEG2_TRANSPORT_STRIDE` structure describes the format of MPEG-2 transport stream (TS) packets. This structure allows for transports streams in which the 188-byte transport packets are not contiguous. For the purpose of this documentation, such packets are referred to as *stride packets*.
 

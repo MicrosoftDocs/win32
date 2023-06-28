@@ -3,10 +3,13 @@ description: AAUX Source (AS) Pack
 ms.assetid: 0e173fe5-0b9d-48e8-bcbd-403614d51558
 title: AAUX Source (AS) Pack
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # AAUX Source (AS) Pack
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer) and [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine). **MediaPlayer** and **IMFMediaEngine** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** and **IMFMediaEngine** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The following tables list the values used by the MSDV driver to fill in the **dwDVAAuxSrc** and **dwDVAAuxSrc1** members of the [**DVINFO**](/windows/desktop/api/strmif/ns-strmif-dvinfo) structure. For more information, see [DVINFO Field Settings in the MSDV Driver](dvinfo-field-settings-in-the-msdv-driver.md).
 

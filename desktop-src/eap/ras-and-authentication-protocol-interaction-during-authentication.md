@@ -3,7 +3,8 @@ title: Access Point and Authentication Protocol Interaction During Authenticatio
 description: The RasEapMakeMessage function controls the majority of the interaction between the authentication protocol and the Access Point (AP).
 ms.assetid: edc128e0-3104-4df9-80f4-b2aebcfe1087
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 06/14/2023
+ms.contributor: samyun
 ---
 
 # Access Point and Authentication Protocol Interaction During Authentication
@@ -26,11 +27,11 @@ If **Action** is **EAPACTION\_SendWithTimeout** or **EAPACTION\_SendWithTimeoutI
 
 If the **Action** member is **EAPACTION\_Done** or **EAPACTION\_SendAndDone**, the authentication service examines the **dwAuthResultCode** member of [**PPP\_EAP\_OUTPUT**](/windows/desktop/api/Raseapif/ns-raseapif-ppp_eap_output). If **dwAuthResultCode** is NO\_ERROR, the authentication succeeded. If **dwAuthResultCode** is a value other than NO\_ERROR, the authentication failed. The error code returned for the failure case should come from Raserror.h, Mprerror.h, or Winerror.h. Possible return codes include, but are not limited to, the following:
 
--   ERROR\_NO\_DIALIN\_PERMISSION
--   ERROR\_PASSWD\_EXPIRED
--   ERROR\_ACCT\_DISABLED
--   ERROR\_RESTRICTED\_LOGON\_HOURS
--   ERROR\_AUTH\_INTERNAL
+- ERROR\_NO\_DIALIN\_PERMISSION
+- ERROR\_PASSWD\_EXPIRED
+- ERROR\_ACCT\_DISABLED
+- ERROR\_RESTRICTED\_LOGON\_HOURS
+- ERROR\_AUTH\_INTERNAL
 
 In the case where **Action** is **EAPACTION\_Done** or **EAPACTION\_SendAndDone**, the **pUserAttributes** member should point to attributes that override attributes of the same type that were passed to the server in the call to [**RasEapBegin**](/previous-versions/windows/desktop/legacy/aa363520(v=vs.85)).
 
@@ -47,7 +48,3 @@ During the course of the authentication session, the authentication protocol may
 The authentication protocol should display a user interface only through the mechanism described under [Interactive User Interface](interactive-user-interface.md). If the authentication protocol itself displays the user interface, the PPP thread blocks until the user interface is dismissed.
 
 If during the authentication process, [**RasEapMakeMessage**](/previous-versions/windows/desktop/legacy/aa363532(v=vs.85)) returns any value other than **NO\_ERROR** or **ERROR\_PPP\_INVALID\_PACKET**, the session is disconnected and the error is logged (on the server) or displayed to the user (on the client).
-
- 
-
- 

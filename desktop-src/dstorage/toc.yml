@@ -122,7 +122,7 @@
           href: /windows/win32/dstorage/dstorage/nn-dstorage-idstoragequeue2
           items: 
           - name: "GetCompressionSupport"
-            href: /windows/win32/dstorage/dstorage/nn-dstorage-idstoragequeue2-getcompressionsupport
+            href: /windows/win32/dstorage/dstorage/nf-dstorage-idstoragequeue2-getcompressionsupport
         - name: "IDStorageStatusArray"
           href: /windows/win32/dstorage/dstorage/nn-dstorage-idstoragestatusarray
           items: 

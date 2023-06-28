@@ -10,10 +10,13 @@ keywords:
 - acmFilterTagDetails function
 - acmFilterDetails function
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Retrieving a String That Describes a Filter
+
+\[The feature associated with this page, [﻿Audio Compression Manager](/windows/win32/multimedia/audio-compression-manager), is a legacy feature. Microsoft strongly recommends that new code does not use this feature.\]
 
 An application often needs to display a string that describes the current format. This task can be accomplished easily with the [**acmFilterTagDetails**](/windows/desktop/api/Msacm/nf-msacm-acmfiltertagdetails) and [**acmFilterDetails**](/windows/desktop/api/Msacm/nf-msacm-acmfilterdetails) functions. These functions must be called with the appropriate filter or filter tag. The following example shows how to use these functions.
 

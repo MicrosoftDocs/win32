@@ -7,10 +7,13 @@ keywords:
 - VCM (video compression manager),user-selected compressors
 - ICCompressorChoose function
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # User-Selected Compressors
+
+\[The feature associated with this page, [Video Compression Manager](/windows/win32/multimedia/video-compression-manager), is a legacy feature. Microsoft strongly recommends that new code does not use this feature.\]
 
 When compressing data, your application can use the [**ICCompressorChoose**](/windows/desktop/api/Vfw/nf-vfw-iccompressorchoose) function to create a dialog box in which the user can select the compressor. You can specify flags for this function to allow the user to specify the key-frame frequency and the movie-data rate, or to display a preview window.
 

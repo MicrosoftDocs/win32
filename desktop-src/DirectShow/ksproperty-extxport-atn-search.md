@@ -3,10 +3,13 @@ description: This property sends a command to the device to search for an absolu
 ms.assetid: 209e0aa3-d7a3-4b5c-ae5a-5063a3804a9d
 title: KSPROPERTY_EXTXPORT_ATN_SEARCH
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # KSPROPERTY\_EXTXPORT\_ATN\_SEARCH
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer) and [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine). **MediaPlayer** and **IMFMediaEngine** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** and **IMFMediaEngine** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 This property sends a command to the device to search for an absolute track number (ATN). The UVC device driver supports this property.
 

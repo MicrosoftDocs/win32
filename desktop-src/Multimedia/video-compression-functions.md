@@ -6,10 +6,13 @@ keywords:
 - Video for Windows (VFW),VCM functions
 - VFW (Video for Windows),VCM functions
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Video Compression Functions
+
+\[The feature associated with this page, [Video Compression Manager](/windows/win32/multimedia/video-compression-manager), is a legacy feature. Microsoft strongly recommends that new code does not use this feature.\]
 
 The following functions are used with video compression.
 

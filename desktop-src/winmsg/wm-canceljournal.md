@@ -75,13 +75,13 @@ Note that the key combinations mentioned above (CTRL+ESC or CTRL+ALT+DEL) cause 
 **Reference**
 </dt> <dt>
 
-[*JournalPlaybackProc*](/previous-versions/windows/desktop/legacy/ms644982(v=vs.85))
+[*JournalPlaybackProc*](/windows/win32/winmsg/journalplaybackproc)
 </dt> <dt>
 
-[*JournalRecordProc*](/previous-versions/windows/desktop/legacy/ms644983(v=vs.85))
+[*JournalRecordProc*](/windows/win32/winmsg/journalrecordproc)
 </dt> <dt>
 
-[*GetMsgProc*](/previous-versions/windows/desktop/legacy/ms644981(v=vs.85))
+[*GetMsgProc*](/windows/win32/winmsg/getmsgproc)
 </dt> <dt>
 
 [**SetWindowsHookEx**](/windows/win32/api/winuser/nf-winuser-setwindowshookexa)

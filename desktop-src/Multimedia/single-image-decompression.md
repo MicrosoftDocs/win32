@@ -7,10 +7,13 @@ keywords:
 - VCM (video compression manager),single-image decompression
 - ICImageDecompress function
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Single-Image Decompression
+
+\[The feature associated with this page, [Video Compression Manager](/windows/win32/multimedia/video-compression-manager), is a legacy feature. Microsoft strongly recommends that new code does not use this feature.\]
 
 You can use the [**ICImageDecompress**](/windows/desktop/api/Vfw/nf-vfw-icimagedecompress) function to decompress a single image. This function returns a handle of the decompressed DIB. The decompressed DIB is stored in the CF\_DIB format.
 

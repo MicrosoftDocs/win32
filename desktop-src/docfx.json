@@ -41,6 +41,7 @@
       "uhfHeaderId": "MSDocsHeader-WinDevCenter",
       "extendBreadcrumb": false,
       "recommendations": true,
+      "adobe-target": true,
       "searchScope": [
         "Windows", 
         "Desktop"

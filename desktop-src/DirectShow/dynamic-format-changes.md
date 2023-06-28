@@ -3,10 +3,13 @@ description: Dynamic Format Changes
 ms.assetid: ff60de5a-3edc-405d-aa02-8704b96d5e87
 title: Dynamic Format Changes
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Dynamic Format Changes
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer) and [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine). **MediaPlayer** and **IMFMediaEngine** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** and **IMFMediaEngine** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 When two filters connect, they agree on a media type, which describes the format of the data that the upstream filter will deliver. In most cases, the media type is fixed for the duration of the connection. However, DirectShow does offer limited support for filters to change the media type. When a filter switches media types, it is called a *dynamic format change*. If you are writing a DirectShow filter, you should be aware of the mechanisms for dynamic format changes. Even if your filter does not support such changes, it should respond correctly if another filter requests a new format.
 

@@ -19,10 +19,13 @@ keywords:
 - organizing library content
 - auto playlists
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Using Auto Playlists to Organize Content in the Library
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 You can use auto playlists to organize premium content you provide. For example, you could use Windows Media Player to create an auto playlist that contains only content you provided having a user rating of at least four stars. You can then add the auto playlist to the library in Windows Media Player so that it displays in the Purchased Music node under your content distributor node.
 

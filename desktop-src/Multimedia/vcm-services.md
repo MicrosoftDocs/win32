@@ -6,10 +6,13 @@ keywords:
 - Video for Windows (VFW),VCM services
 - VFW (Video for Windows),VCM services
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # VCM Services
+
+\[The feature associated with this page, [Video Compression Manager](/windows/win32/multimedia/video-compression-manager), is a legacy feature. Microsoft strongly recommends that new code does not use this feature.\]
 
 In general, an application uses VCM to perform the following tasks:
 

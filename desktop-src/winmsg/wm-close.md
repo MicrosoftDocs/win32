@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 Sent as a signal that a window or an application should terminate.
 
-A window receives this message through its [**WindowProc**](/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)) function.
+A window receives this message through its [**WindowProc**](/windows/win32/api/winuser/nc-winuser-wndproc) function.
 
 
 ```C++

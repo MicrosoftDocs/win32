@@ -23,7 +23,7 @@ For more information, see the following topics:
 -   [Adding an ActiveX Control to a Visual C++ Project](adding-an-activex-control-to-a-visual-c---project.md)
 -   [MIDL Compiler](midl-compiler.md)
 -   [MkTypLib Command-Line Tool](mktyplib-command-line-tool.md)
--   [OLE-COM Object Viewer](ole-com-object-viewer.md)
+-   [OLE/COM Object Viewer](ole-com-object-viewer.md)
 
 ## Related topics
 

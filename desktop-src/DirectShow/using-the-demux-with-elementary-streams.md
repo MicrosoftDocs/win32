@@ -3,10 +3,13 @@ description: Using the Demux with Elementary Streams
 ms.assetid: dd98aada-8309-428e-9609-2542195bc6ec
 title: Using the Demux with Elementary Streams
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Using the Demux with Elementary Streams
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer) and [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine). **MediaPlayer** and **IMFMediaEngine** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** and **IMFMediaEngine** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 When the MPEG-2 demux delivers PES payloads, it sends the ES byte stream in batches of media samples. The default sample size is 8K. The demux starts a new media sample on each PES boundary, but may break a single PES payload into several samples. For example, if a PES payload is 20K, it will be delivered in two 8K samples followed by one 4K sample. The demux does not examine the contents of the byte stream. It is up to the decoder to parse the sequence headers and look for format changes.
 

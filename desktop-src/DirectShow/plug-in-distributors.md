@@ -3,10 +3,13 @@ description: Plug-in Distributors
 ms.assetid: 80ff713d-f704-40d3-9317-cbf33d932207
 title: Plug-in Distributors
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Plug-in Distributors
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer) and [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine). **MediaPlayer** and **IMFMediaEngine** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** and **IMFMediaEngine** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 Plug-in distributors (PIDs) are a way to extend the functionality of the filter graph manager. A plug-in distributor is a COM object that the filter graph manager aggregates at run time. Applications obtain access to the PID through the filter graph manager.
 

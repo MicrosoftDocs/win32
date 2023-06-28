@@ -8,7 +8,8 @@ keywords:
 - EAP
 - EAP, See Extensible Authentication Protocol
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 06/14/2023
+ms.contributor: samyun
 ---
 
 # Extensible Authentication Protocol
@@ -27,38 +28,17 @@ For new EAP method development, see [Extensible Authentication Protocol Host](..
 
 The EAP API is designed for use by C/C++ programmers. Programmers should be familiar with networking concepts.
 
+> [!NOTE]
+> This API is intended for developers implementing EAP methods. It's not intended for users consuming the EAP methods - see [Extensible Authentication Protocol (EAP) for network access](/windows-server/networking/technologies/extensible-authentication-protocol/network-access).
+
 ## Run-time requirements
 
-EAP is supported on client and server computers running on  Windows 2000 and later. EAP is also supported on computers running on Windows 2000 Server and later if they are running Internet Authentication Service (IAS). For more information about supported operating systems, see the Requirements section in the documentation.
+EAP is supported on client and server computers running on Windows 2000 and later. EAP is also supported on computers running on Windows 2000 Server and later if they are running Network Policy Server (NPS), formerly Internet Authentication Service (IAS). For more information about supported operating systems, see the Requirements section in the documentation.
 
 ## Related topics
 
-<dl> <dt>
-
-
-</dt> <dt>
-
-[Remote Access Service](/windows/desktop/RRAS/remote-access-start-page)
-</dt> <dt>
-
-
-</dt> <dt>
-
-[Internet Authentication Service](/windows/desktop/Nps/ias-extensions)
-</dt> <dt>
-
-
-</dt> <dt>
-
-[Using Extensible Authentication Protocol](about-extenstible-authentication-protocol-and-eaphhost.md)
-</dt> <dt>
-
-
-</dt> <dt>
-
-[Extensible Authentication Protocol Reference](extensible-authentication-protocol-reference.md)
-</dt> </dl>
-
- 
-
- 
+- [Remote Access Service](/windows/desktop/RRAS/remote-access-start-page)
+- [Network Policy Server Extensions](/windows/desktop/nps/ias-extensions)
+- [Using Extensible Authentication Protocol](using-extenstible-authentication-protocol.md)
+- [Extensible Authentication Protocol Reference](extensible-authentication-protocol-reference.md)
+- [Extensible Authentication Protocol (EAP) for network access](/windows-server/networking/technologies/extensible-authentication-protocol/network-access)

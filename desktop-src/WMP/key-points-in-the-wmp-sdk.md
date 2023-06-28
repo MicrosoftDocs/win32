@@ -3,10 +3,13 @@ title: Key Points in the Windows Media Player SDK
 description: The page you requested belongs to an old version of the Windows Media Player SDK. To see the current version, go to Windows Media Player SDK. The following list provides links to key locations within the current Windows Media Player SDK.
 ms.assetid: e001bec6-4579-412b-be1d-4afd22dca835
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Key Points in the Windows Media Player SDK
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The page you requested belongs to an old version of the Windows Media Player SDK. To see the current version, go to [Windows Media Player SDK](windows-media-player-sdk.md). The following list provides links to key locations within the current Windows Media Player SDK.
 

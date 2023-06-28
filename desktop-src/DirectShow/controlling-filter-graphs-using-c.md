@@ -3,10 +3,13 @@ description: Controlling Filter Graphs Using C
 ms.assetid: 56e41f0a-2ea6-422c-8d3f-7849e91e3731
 title: Controlling Filter Graphs Using C
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Controlling Filter Graphs Using C
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer) and [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine). **MediaPlayer** and **IMFMediaEngine** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** and **IMFMediaEngine** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 If you are writing a DirectShow application in C (rather than C++), you must use a vtable pointer to call methods. The following example illustrates how to call the **IUnknown::QueryInterface** method from an application written in C:
 

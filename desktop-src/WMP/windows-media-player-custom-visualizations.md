@@ -9,10 +9,13 @@ keywords:
 - visualizations,about
 - custom visualizations,about
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Windows Media Player Custom Visualizations
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 Microsoft Windows Media Player provides visualizations that enable the user to see visual imagery that is synchronized to the sound of the media content as it plays. Several standard visualizations are included with Windows Media Player, including Spikes, Bars, and DotPlane. This section of the SDK provides programming information that will enable you to create your own visualizations.
 

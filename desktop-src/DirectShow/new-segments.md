@@ -3,10 +3,13 @@ description: New Segments
 ms.assetid: 6c470b38-481f-4e52-93b8-eb6b343dcefc
 title: New Segments
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # New Segments
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer) and [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine). **MediaPlayer** and **IMFMediaEngine** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** and **IMFMediaEngine** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 A *segment* is a group of media samples that share a common start time, stop time, and playback rate. The [**IPin::NewSegment**](/windows/desktop/api/Strmif/nf-strmif-ipin-newsegment) method signals the start of a new segment. It provides a way for a source filter to inform downstream filters that the time and rate information has changed. For example, if the source filter seeks to a new point in the stream, it calls **NewSegment** with the new start time.
 

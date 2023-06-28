@@ -3,7 +3,7 @@ description: This topic applies to Windows XP Service Pack 2 or later. The KSTOP
 ms.assetid: 8fca47b7-4c52-46db-809c-77a0e3414276
 title: KSTOPOLOGY_CONNECTION structure (Ks.h)
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 4/26/2023
 topic_type: 
 - APIRef
 - kbSyntax
@@ -13,9 +13,12 @@ api_type:
 - HeaderDef
 api_location: 
 - Ks.h
+ms.custom: UpdateFrequency5
 ---
 
 # KSTOPOLOGY\_CONNECTION structure
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer) and [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine). **MediaPlayer** and **IMFMediaEngine** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** and **IMFMediaEngine** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 This topic applies to Windows XP Service Pack 2 or later.
 

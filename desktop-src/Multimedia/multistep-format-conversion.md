@@ -9,10 +9,13 @@ keywords:
 - converting data
 - acmFormatSuggest function
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Multistep Format Conversion
+
+\[The feature associated with this page, [﻿Audio Compression Manager](/windows/win32/multimedia/audio-compression-manager), is a legacy feature. Microsoft strongly recommends that new code does not use this feature.\]
 
 Sometimes the ACM cannot convert data from one format to another in a single step. For example, an application might need to convert 16-bit, 44-kHz stereo data to 11-kHz mono ADPCM. If the compressor or decompressor cannot do this conversion directly, the application might attempt it in two steps. This usually means making one conversion between two PCM formats, then another conversion to the final format type.
 

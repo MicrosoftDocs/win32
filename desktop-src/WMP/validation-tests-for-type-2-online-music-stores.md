@@ -5,10 +5,13 @@ ms.assetid: 1da51772-9711-4913-b05d-830fabe49da2
 keywords:
 - Windows Media Player Online Stores
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Validation Tests for On-boarding Type 2 Online Stores
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 This topic describes tests that Microsoft will perform to validate your Type 2 online store. Microsoft requires that you run these tests before you submit a release candidate. Your online store must successfully pass these tests to be published.
 

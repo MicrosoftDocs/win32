@@ -8,10 +8,13 @@ keywords:
 - ASF (Advanced Systems Format),user allocated sample support
 - user allocated sample support
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # User Allocated Sample Support
+
+\[The feature associated with this page, [Windows Media Format 11 SDK](/windows/win32/wmformat/windows-media-format-11-sdk), is a legacy feature. It has been superseded by [Source Reader](/windows/win32/medfound/source-reader) and [Sink Writer](/windows/win32/medfound/sink-writer). **Source Reader** and **Sink Writer** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **Source Reader** and **Sink Writer** instead of **Windows Media Format 11 SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 Under normal circumstances, both the reader object and the synchronous reader object create a new buffer object for each sample delivered to your application. This is because the reading object has no way of knowing what your application does with the samples after it gets them. Even though many applications read samples only to render them immediately, some applications may need to maintain samples for a long time. The reading object cannot, therefore, reuse any of the buffers it allocates; it delivers them to your application, which then has control over them.
 

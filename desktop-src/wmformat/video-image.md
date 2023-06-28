@@ -7,10 +7,13 @@ keywords:
 - codecs,video images
 - video images,about
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Video Image
+
+\[The feature associated with this page, [Windows Media Format 11 SDK](/windows/win32/wmformat/windows-media-format-11-sdk), is a legacy feature. It has been superseded by [Source Reader](/windows/win32/medfound/source-reader) and [Sink Writer](/windows/win32/medfound/sink-writer). **Source Reader** and **Sink Writer** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **Source Reader** and **Sink Writer** instead of **Windows Media Format 11 SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The Windows Media Video 9 Image v2 codec enables you to create Windows Media Video files whose content consists of a series of still images such as digital photographs. The images in the Video Image stream can be manipulated to produce pans and zooms as well as a number of transitions. End users can use this capability to create and share simple slide shows which can also contain a music soundtrack or voice-over narration. Because of the superior compression of the Windows Media Video Image codec, a file containing several photographs is still small enough to conveniently e-mail over the Internet.
 

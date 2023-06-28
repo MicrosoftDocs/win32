@@ -3,10 +3,13 @@ description: Using the System Device Enumerator
 ms.assetid: 70db139c-2c5b-4574-bec3-dfe758b16715
 title: Using the System Device Enumerator
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Using the System Device Enumerator
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer) and [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine). **MediaPlayer** and **IMFMediaEngine** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** and **IMFMediaEngine** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The System Device Enumerator provides a uniform way to enumerate, by category, the filters registered on a user's system. Moreover, it differentiates between individual hardware devices, even if the same filter supports them. This is particularly useful for devices that use the Windows Driver Model (WDM) and the KSProxy filter. For example, the user might have several WDM video capture devices, all supported by the same filter. The System Device Enumerator treats them as separate device instances.
 

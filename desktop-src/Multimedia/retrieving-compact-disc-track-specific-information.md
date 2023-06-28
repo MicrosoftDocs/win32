@@ -5,10 +5,13 @@ ms.assetid: 7a26fac2-7cc5-4a65-b045-35baf979c134
 keywords:
 - MCI_TRACK flag
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Retrieving Compact Disc Track-Specific Information
+
+\[The feature associated with this page, [MCI](/windows/win32/multimedia/mci), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **MCI**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 For CD audio devices, you can get the starting location and length of a track by specifying the MCI\_TRACK flag and setting the **dwTrack** member of [**MCI\_STATUS\_PARMS**](mci-status-parms.md) to the desired track number. To get the starting location of a track, set the **dwItem** member to MCI\_STATUS\_POSITION. To get the length of a track, set **dwItem** to MCI\_STATUS\_LENGTH. For example, the following example retrieves the total number of tracks on the compact disc and the starting location of each track. Then, it uses the [MessageBox](/windows/win32/api/winuser/nf-winuser-messagebox) function to report the starting locations of the tracks.
 
