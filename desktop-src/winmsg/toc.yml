@@ -223,6 +223,8 @@
           href: /windows/desktop/api/windowsx/nf-windowsx-get_x_lparam
         - name: "GET_Y_LPARAM"
           href: /windows/desktop/api/windowsx/nf-windowsx-get_y_lparam
+        - name: "GET_MOUSEORKEY_LPARAM"
+          href: nf-winuser-get_mouseorkey_lparam.md
         - name: "HIBYTE"
           href: /previous-versions/windows/desktop/legacy/ms632656(v=vs.85)
         - name: "HIWORD"
