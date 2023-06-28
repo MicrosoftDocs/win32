@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 -   [**CallNextHookEx**](/windows/win32/api/winuser/nf-winuser-callnexthookex)
 -   [*CallWndProc*](/previous-versions/windows/desktop/legacy/ms644975(v=vs.85))
 -   [*CallWndRetProc*](/windows/win32/api/winuser/nc-winuser-hookproc)
--   [*CBTProc*](/previous-versions/windows/desktop/legacy/ms644977(v=vs.85))
+-   [*CBTProc*](cbtproc.md)
 -   [*DebugProc*](/previous-versions/windows/desktop/legacy/ms644978(v=vs.85))
 -   [*ForegroundIdleProc*](/previous-versions/windows/desktop/legacy/ms644980(v=vs.85))
 -   [*GetMsgProc*](getmsgproc.md)

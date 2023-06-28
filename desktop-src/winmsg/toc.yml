@@ -638,7 +638,7 @@
         - name: "CallWndRetProc"
           href: /windows/desktop/api/winuser/nc-winuser-hookproc
         - name: "CBTProc"
-          href: /previous-versions/windows/desktop/legacy/ms644977(v=vs.85)
+          href: cbtproc.md
         - name: "DebugProc"
           href: /previous-versions/windows/desktop/legacy/ms644978(v=vs.85)
         - name: "ForegroundIdleProc"
