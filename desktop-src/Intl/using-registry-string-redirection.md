@@ -240,9 +240,9 @@ If the shell cannot find or retrieve the value of DispFileName, it uses the defa
 
 ## Create Resources for Keyboard Layout Strings
 
-If your application implements a keyboard layout, it requires a localizable string resource for the name of the layout for screen display, for example, in lists of keyboard layouts. Each keyboard layout has a registry key under HKEY\_LOCAL\_MACHINE\\System\\CurrentControlSet\\Control\\Keyboard Layouts.
+If your application implements a keyboard layout, it requires a localizable string resource for the name of the layout for screen display, for example, in lists of keyboard layouts. Each keyboard layout has a registry key under `HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Keyboard Layouts`.
 
-Among the values for that key are Layout Text, a human-readable name for backward compatibility, and Layout Display Name. The data supplied for Layout Display Name should be a string reference of the form "`@<path>,-resID`", referring to a localizable string resource associated with the keyboard layout.
+Among the values for that key are `Layout Text`, a human-readable name for backward compatibility, and `Layout Display Name`. The data supplied for `Layout Display Name` should be a string reference of the form `@<path>,-resID`, referring to a localizable string resource associated with the keyboard layout.
 
 Here is an example of a registry setting for the Spanish (Spain) keyboard layout:
 
