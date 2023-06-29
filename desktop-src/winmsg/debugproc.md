@@ -168,7 +168,7 @@ To prevent the system from calling the hook, the hook procedure must return a no
 
 ## Remarks
 
-An application installs this hook procedure by specifying the [**WH\_DEBUG**](https://msdn.microsoft.com/en-us/library/ms644959\(v=vs.85\)) hook type and the pointer to the hook procedure in a call to the [**SetWindowsHookExA**](/windows/win32/api/winuser/nf-winuser-setwindowshookexa)/[**SetWindowsHookExW**](/windows/win32/api/winuser/nf-winuser-setwindowshookexw) function.
+An application installs this hook procedure by specifying the [**WH\_DEBUG**](/windows/win32/winmsg/about-hooks) hook type and the pointer to the hook procedure in a call to the [**SetWindowsHookExA**](/windows/win32/api/winuser/nf-winuser-setwindowshookexa)/[**SetWindowsHookExW**](/windows/win32/api/winuser/nf-winuser-setwindowshookexw) function.
 
 ## Requirements
 
@@ -196,23 +196,21 @@ An application installs this hook procedure by specifying the [**WH\_DEBUG**](ht
 
 ## See also
 
-**Reference**
-
 [**CallNextHookEx**](/windows/win32/api/winuser/nf-winuser-callnexthookex)
 
 [*CallWndProc*](ms644975\(v=vs.85\).md)
 
 [*CallWndRetProc*](https://msdn.microsoft.com/en-us/library/ms644976\(v=vs.85\))
 
-[**CBTProc**](cbtproc.md)
+[*CBTProc*](cbtproc.md)
 
 [**DEBUGHOOKINFO**](https://msdn.microsoft.com/en-us/library/ms644965\(v=vs.85\))
 
 [*GetMsgProc*](ms644981\(v=vs.85\).md)
 
-[*JournalPlaybackProc*](ms644982\(v=vs.85\).md)
+[*JournalPlaybackProc*](journalplaybackproc.md)
 
-[*JournalRecordProc*](ms644983\(v=vs.85\).md)
+[JournalRecordProc function](journalrecordproc.md)
 
 [*KeyboardProc*](ms644984\(v=vs.85\).md)
 
@@ -226,6 +224,4 @@ An application installs this hook procedure by specifying the [**WH\_DEBUG**](ht
 
 [*SysMsgProc*](ms644992\(v=vs.85\).md)
 
-**Conceptual**
-
-[Hooks](https://msdn.microsoft.com/en-us/library/ms632589\(v=vs.85\))
+[Hooks](hooks.md)

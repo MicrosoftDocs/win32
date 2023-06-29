@@ -62,15 +62,15 @@ Type: DWORD
 
 If *code* is less than zero, the hook procedure must return the value returned by [**CallNextHookEx**](/windows/win32/api/winuser/nf-winuser-callnexthookex).
 
-If *code* is greater than or equal to zero, it is highly recommended that you call [**CallNextHookEx**](/windows/win32/api/winuser/nf-winuser-callnexthookex) and return the value it returns; otherwise, other applications that have installed [**WH\_FOREGROUNDIDLE**](https://msdn.microsoft.com/en-us/library/ms644959\(v=vs.85\)) hooks will not receive hook notifications and may behave incorrectly as a result. If the hook procedure does not call **CallNextHookEx**, the return value should be zero.
+If *code* is greater than or equal to zero, it is highly recommended that you call [**CallNextHookEx**](/windows/win32/api/winuser/nf-winuser-callnexthookex) and return the value it returns; otherwise, other applications that have installed [**WH\_FOREGROUNDIDLE**](/windows/win32/winmsg/about-hooks) hooks will not receive hook notifications and may behave incorrectly as a result. If the hook procedure does not call **CallNextHookEx**, the return value should be zero.
 
 ## Remarks
 
 The **HOOKPROC** type defines a pointer to this callback function. *ForegroundIdleProc* is a placeholder for the application-defined or library-defined function name.
 
-An application installs this hook procedure by specifying the [**WH\_FOREGROUNDIDLE**](https://msdn.microsoft.com/en-us/library/ms644959\(v=vs.85\)) hook type and the pointer to the hook procedure in a call to the [**SetWindowsHookExA**](/windows/win32/api/winuser/nf-winuser-setwindowshookexa)/[**SetWindowsHookExW**](/windows/win32/api/winuser/nf-winuser-setwindowshookexw) function.
+An application installs this hook procedure by specifying the [**WH\_FOREGROUNDIDLE**](/windows/win32/winmsg/about-hooks) hook type and the pointer to the hook procedure in a call to the [**SetWindowsHookExA**](/windows/win32/api/winuser/nf-winuser-setwindowshookexa)/[**SetWindowsHookExW**](/windows/win32/api/winuser/nf-winuser-setwindowshookexw) function.
 
-While processing this callback function, avoid calling any functions that retrieve window messages from the calling thread's message queue. This includes [**GetMessage**](https://msdn.microsoft.com/en-us/library/ms644936\(v=vs.85\)), [**PeekMessageA**](/windows/win32/api/winuser/nf-winuser-peekmessagea)/[**PeekMessageW**](/windows/win32/api/winuser/nf-winuser-peekmessagew), modal dialog box, and COM functions. Calling such functions may result in the thread not returning from **GetMessage** or [**WaitMessage**](https://msdn.microsoft.com/en-us/library/ms644956\(v=vs.85\)) when there are messages in the calling thread's message queue.
+While processing this callback function, avoid calling any functions that retrieve window messages from the calling thread's message queue. This includes [**GetMessage**](/windows/win32/api/winuser/nf-winuser-getmessage), [**PeekMessageA**](/windows/win32/api/winuser/nf-winuser-peekmessagea)/[**PeekMessageW**](/windows/win32/api/winuser/nf-winuser-peekmessagew), modal dialog box, and COM functions. Calling such functions may result in the thread not returning from **GetMessage** or [**WaitMessage**](https://msdn.microsoft.com/en-us/library/ms644956\(v=vs.85\)) when there are messages in the calling thread's message queue.
 
 ## Requirements
 
@@ -106,5 +106,5 @@ While processing this callback function, avoid calling any functions that retrie
 
 **Conceptual**
 
-[Hooks](https://msdn.microsoft.com/en-us/library/ms632589\(v=vs.85\))
+[Hooks](hooks.md)
 

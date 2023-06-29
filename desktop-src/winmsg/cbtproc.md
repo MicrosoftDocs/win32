@@ -169,9 +169,9 @@ For operations corresponding to the following CBT hook codes, the return value i
 
 The **HOOKPROC** type defines a pointer to this callback function. *CBTProc* is a placeholder for the application-defined or library-defined function name.
 
-The hook procedure should not install a [**WH\_JOURNALPLAYBACK**](https://msdn.microsoft.com/en-us/library/ms644959\(v=vs.85\)) hook procedure except in the situations described in the preceding list of hook codes.
+The hook procedure should not install a [**WH\_JOURNALPLAYBACK**](/windows/win32/winmsg/about-hooks) hook procedure except in the situations described in the preceding list of hook codes.
 
-An application installs the hook procedure by specifying the [**WH\_CBT**](https://msdn.microsoft.com/en-us/library/ms644959\(v=vs.85\)) hook type and a pointer to the hook procedure in a call to the [**SetWindowsHookExA**](/windows/win32/api/winuser/nf-winuser-setwindowshookexa)/[**SetWindowsHookExW**](/windows/win32/api/winuser/nf-winuser-setwindowshookexw) function.
+An application installs the hook procedure by specifying the [**WH\_CBT**](/windows/win32/winmsg/about-hooks) hook type and a pointer to the hook procedure in a call to the [**SetWindowsHookExA**](/windows/win32/api/winuser/nf-winuser-setwindowshookexa)/[**SetWindowsHookExW**](/windows/win32/api/winuser/nf-winuser-setwindowshookexw) function.
 
 The following table describes the *wParam* and *lParam* parameters for each **HCBT\_** hook code.
 
@@ -285,4 +285,4 @@ For information, see [WinEvents](https://msdn.microsoft.com/en-us/library/dd3738
 
 **Conceptual**
 
-[Hooks](https://msdn.microsoft.com/en-us/library/ms632589\(v=vs.85\))
+[Hooks](hooks.md)

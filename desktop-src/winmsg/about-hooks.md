@@ -142,7 +142,7 @@ The **WH\_JOURNALPLAYBACK** hook enables an application to insert messages into 
 
 The **WH\_JOURNALPLAYBACK** hook returns a time-out value. This value tells the system how many milliseconds to wait before processing the current message from the playback hook. This enables the hook to control the timing of the events it plays back.
 
-For more information, see the [*JournalPlaybackProc*](/windows/win32/winmsg/journalplaybackproc) callback function.
+For more information, see the [*JournalPlaybackProc*](journalplaybackproc.md) callback function.
 
 ### WH\_JOURNALRECORD
 
