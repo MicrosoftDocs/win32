@@ -26,7 +26,7 @@ ms.date: 05/31/2018
 -   [**GetKeyState**](/windows/win32/api/winuser/nf-winuser-getkeystate)
 -   [**GetLastInputInfo**](/windows/win32/api/winuser/nf-winuser-getlastinputinfo)
 -   [**IsWindowEnabled**](/windows/win32/api/winuser/nf-winuser-iswindowenabled)
--   [**keybd\_event**](/windows/win32/api/winuser/nf-winuser-keybd_event)
+-   [**keybd_event**](/windows/win32/api/winuser/nf-winuser-keybd_event)
 -   [**LoadKeyboardLayout**](/windows/win32/api/winuser/nf-winuser-loadkeyboardlayouta)
 -   [**MapVirtualKey**](/windows/win32/api/winuser/nf-winuser-mapvirtualkeya)
 -   [**MapVirtualKeyEx**](/windows/win32/api/winuser/nf-winuser-mapvirtualkeyexa)

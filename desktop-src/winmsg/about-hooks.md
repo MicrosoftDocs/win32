@@ -35,7 +35,7 @@ This section discusses the following:
     -   [WH\_GETMESSAGE](#wh_getmessage)
     -   [WH\_JOURNALPLAYBACK](#wh_journalplayback)
     -   [WH\_JOURNALRECORD](#wh_journalrecord)
-    -   [WH\_KEYBOARD\_LL](#wh_keyboard_ll)
+    -   [WH_KEYBOARD_LL](#wh_keyboard_ll)
     -   [WH\_KEYBOARD](#wh_keyboard)
     -   [WH\_MOUSE\_LL](#wh_mouse_ll)
     -   [WH\_MOUSE](#wh_mouse)
@@ -92,7 +92,7 @@ Each type of hook enables an application to monitor a different aspect of the sy
 -   [WH\_GETMESSAGE](#wh_getmessage)
 -   [WH\_JOURNALPLAYBACK](#wh_journalplayback)
 -   [WH\_JOURNALRECORD](#wh_journalrecord)
--   [WH\_KEYBOARD\_LL](#wh_keyboard_ll)
+-   [WH_KEYBOARD_LL](#wh_keyboard_ll)
 -   [WH\_KEYBOARD](#wh_keyboard)
 -   [WH\_MOUSE\_LL](#wh_mouse_ll)
 -   [WH\_MOUSE](#wh_mouse)
@@ -153,9 +153,9 @@ The **WH\_JOURNALRECORD** hook enables you to monitor and record input events. T
 
 For more information, see the [*JournalRecordProc*](/windows/win32/winmsg/journalrecordproc) callback function.
 
-### WH\_KEYBOARD\_LL
+### WH_KEYBOARD_LL
 
-The **WH\_KEYBOARD\_LL** hook enables you to monitor keyboard input events about to be posted in a thread input queue.
+The **WH_KEYBOARD_LL** hook enables you to monitor keyboard input events about to be posted in a thread input queue.
 
 For more information, see the [*LowLevelKeyboardProc*](/windows/win32/winmsg/lowlevelkeyboardproc) callback function.
 
