@@ -39,7 +39,7 @@ req.redist:
 ## Description
 
 > [!WARNING]  
-> Journaling Hooks APIs are unsupported starting in Windows 11 and will be removed in a future release. Because of this, we highly recommend calling the [**SendInput**](https://docs.microsoft.com/windows/win32/api/winuser/nf-winuser-sendinput) TextInput API instead.
+> Journaling Hooks APIs are unsupported starting in Windows 11 and will be removed in a future release. Because of this, we highly recommend calling the [**SendInput**](/windows/win32/api/winuser/nf-winuser-sendinput) TextInput API instead.
 
 An application-defined or library-defined callback function used with the [**SetWindowsHookExA**](/windows/win32/api/winuser/nf-winuser-setwindowshookexa)/[**SetWindowsHookExW**](/windows/win32/api/winuser/nf-winuser-setwindowshookexw) function. The function records messages the system removes from the system message queue. Later, an application can use a [*JournalPlaybackProc*](journalplaybackproc.md) hook procedure to play back the messages.
 

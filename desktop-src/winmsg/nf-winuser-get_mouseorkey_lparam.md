@@ -5,6 +5,7 @@ description: Retrieves the input device type from the specified LPARAM value.
 helpviewer_keywords: ["GET_MOUSEORKEY_LPARAM","GET_MOUSEORKEY_LPARAM macro [Keyboard and Mouse Input]","_win32_GET_MOUSEORKEY_LPARAM","_win32_get_mouseorkey_lparam_cpp","inputdev.get_mouseorkey_lparam","winui._win32_get_mouseorkey_lparam","winuser/GET_MOUSEORKEY_LPARAM"]
 tech.root: inputdev
 ms.date: 06/23/2023
+ms.topic: reference
 ms.keywords: GET_MOUSEORKEY_LPARAM, GET_MOUSEORKEY_LPARAM macro [Keyboard and Mouse Input], _win32_GET_MOUSEORKEY_LPARAM, _win32_get_mouseorkey_lparam_cpp, inputdev.get_mouseorkey_lparam, winui._win32_get_mouseorkey_lparam, winuser/GET_MOUSEORKEY_LPARAM
 req.header: winuser.h
 req.include-header: Windows.h
@@ -95,8 +96,8 @@ The return value is the bit of the high-order word representing the input device
 
 ## Remarks
 
-This macro is identical to the [GET_DEVICE_LPARAM macro](nf-winuser-get_device_lparam.md) macro.
+This macro is identical to the [GET_DEVICE_LPARAM macro](/windows/win32/api/winuser/nf-winuser-get_device_lparam) macro.
 
 ## See also
 
-[GET_DEVICE_LPARAM macro](nf-winuser-get_device_lparam.md), [Mouse Input](/windows/win32/inputdev/mouse-input)
+[GET_DEVICE_LPARAM macro](/windows/win32/api/winuser/nf-winuser-get_device_lparam), [Mouse Input](/windows/win32/inputdev/mouse-input)

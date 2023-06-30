@@ -104,25 +104,41 @@ LRESULT CALLBACK DebugProc(
     <td><span id="WH_GETMESSAGE"></span><span id="wh_getmessage"></span>
     <strong>WH_GETMESSAGE</strong>
     3</td>
-    <td><p>Installs a hook procedure that monitors messages posted to a message queue. For more information, see the description of the <a href="ms644981(v=vs.85).md"><em>GetMsgProc</em></a> hook procedure.</p></td>
+    <td><p>
+
+Installs a hook procedure that monitors messages posted to a message queue. For more information, see the description of the[*GetMsgProc*](getmsgproc.md) hook procedure.
+
+</p></td>
     </tr>
     <tr class="even">
     <td><span id="WH_JOURNALPLAYBACK"></span><span id="wh_journalplayback"></span>
     <strong>WH_JOURNALPLAYBACK</strong>
     1</td>
-    <td><p>Installs a hook procedure that posts messages previously recorded by a <strong>WH_JOURNALRECORD</strong> hook procedure. For more information, see the description of the <a href="ms644982(v=vs.85).md"><em>JournalPlaybackProc</em></a> hook procedure.</p></td>
+    <td><p>
+
+Installs a hook procedure that posts messages previously recorded by a <strong>WH_JOURNALRECORD</strong> hook procedure. For more information, see the description of the [*JournalPlaybackProc*](journalplaybackproc.md) hook procedure.
+
+</p></td>
     </tr>
     <tr class="odd">
     <td><span id="WH_JOURNALRECORD"></span><span id="wh_journalrecord"></span>
     <strong>WH_JOURNALRECORD</strong>
     0</td>
-    <td><p>Installs a hook procedure that records input messages posted to the system message queue. This hook is useful for recording macros. For more information, see the description of the <a href="ms644983(v=vs.85).md"><em>JournalRecordProc</em></a> hook procedure.</p></td>
+    <td><p>
+
+Installs a hook procedure that records input messages posted to the system message queue. This hook is useful for recording macros. For more information, see the description of the [*JournalRecordProc*](journalrecordproc.md) hook procedure.
+
+</p></td>
     </tr>
     <tr class="even">
     <td><span id="WH_KEYBOARD"></span><span id="wh_keyboard"></span>
     <strong>WH_KEYBOARD</strong>
     2</td>
-    <td><p>Installs a hook procedure that monitors keystroke messages. For more information, see the description of the <a href="ms644984(v=vs.85).md"><em>KeyboardProc</em></a> hook procedure.</p></td>
+    <td><p>
+
+Installs a hook procedure that monitors keystroke messages. For more information, see the description of the [*KeyboardProc*](keyboardproc.md) hook procedure.
+
+</p></td>
     </tr>
     <tr class="odd">
     <td><span id="WH_MOUSE"></span><span id="wh_mouse"></span>
@@ -206,13 +222,13 @@ An application installs this hook procedure by specifying the [**WH_DEBUG**](/wi
 
 [**DEBUGHOOKINFO**](/windows/win32/api/winuser/ns-winuser-debughookinfo)
 
-[*GetMsgProc*](ms644981\(v=vs.85\).md)
+[*GetMsgProc*](getmsgproc.md)
 
 [*JournalPlaybackProc*](journalplaybackproc.md)
 
-[JournalRecordProc function](journalrecordproc.md)
+[*JournalRecordProc*](journalrecordproc.md)
 
-[*KeyboardProc*](ms644984\(v=vs.85\).md)
+[*KeyboardProc*](keyboardproc.md)
 
 [*MessageProc*](messageproc.md)
 

@@ -2,6 +2,7 @@
 title: ForegroundIdleProc callback function (Windows)
 description: The system calls this function whenever the foreground thread is about to become idle.
 ms.date: 06/28/2023
+ms.topic: reference
 f1_keywords:
 - ForegroundIdleProc
 - winuser/ForegroundIdleProc
@@ -70,7 +71,7 @@ The **HOOKPROC** type defines a pointer to this callback function. *ForegroundId
 
 An application installs this hook procedure by specifying the [**WH_FOREGROUNDIDLE**](/windows/win32/winmsg/about-hooks) hook type and the pointer to the hook procedure in a call to the [**SetWindowsHookExA**](/windows/win32/api/winuser/nf-winuser-setwindowshookexa)/[**SetWindowsHookExW**](/windows/win32/api/winuser/nf-winuser-setwindowshookexw) function.
 
-While processing this callback function, avoid calling any functions that retrieve window messages from the calling thread's message queue. This includes [**GetMessage**](/windows/win32/api/winuser/nf-winuser-getmessage), [**PeekMessageA**](/windows/win32/api/winuser/nf-winuser-peekmessagea)/[**PeekMessageW**](/windows/win32/api/winuser/nf-winuser-peekmessagew), modal dialog box, and COM functions. Calling such functions may result in the thread not returning from **GetMessage** or [**WaitMessage**](https://msdn.microsoft.com/en-us/library/ms644956\(v=vs.85\)) when there are messages in the calling thread's message queue.
+While processing this callback function, avoid calling any functions that retrieve window messages from the calling thread's message queue. This includes [**GetMessage**](/windows/win32/api/winuser/nf-winuser-getmessage), [**PeekMessageA**](/windows/win32/api/winuser/nf-winuser-peekmessagea)/[**PeekMessageW**](/windows/win32/api/winuser/nf-winuser-peekmessagew), modal dialog box, and COM functions. Calling such functions may result in the thread not returning from **GetMessage** or [**WaitMessage**](/windows/win32/api/winuser/nf-winuser-waitmessage) when there are messages in the calling thread's message queue.
 
 ## Requirements
 

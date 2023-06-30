@@ -2,6 +2,7 @@
 title: CallWndProc callback function (Windows)
 description: The system calls this function before calling the window procedure to process a message sent to the thread.
 ms.date: 06/30/2023
+ms.topic: reference
 f1_keywords:
 - CallWndProc
 - winuser/CallWndProc
@@ -76,8 +77,8 @@ An application installs the hook procedure by specifying the [**WH_CALLWNDPROC**
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <tbody>
 <tr class="odd">

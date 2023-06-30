@@ -40,7 +40,7 @@ req.redist:
 
 An application-defined or library-defined callback function used with the [**SetWindowsHookExA**](/windows/win32/api/winuser/nf-winuser-setwindowshookexa)/[**SetWindowsHookExW**](/windows/win32/api/winuser/nf-winuser-setwindowshookexw) function.
 
-The system calls this function whenever an application calls the [**GetMessage**](/windows/win32/api/winuser/nf-winuser-getmessage) or [**PeekMessageA**](/windows/win32/api/winuser/nf-winuser-peekmessagea)/[**PeekMessageW**](/windows/win32/api/winuser/nf-winuser-peekmessagew) function and there is a keyboard message ([**WM\_KEYUP**](https://msdn.microsoft.com/en-us/library/ms646281\(v=vs.85\)) or [**WM\_KEYDOWN**](https://msdn.microsoft.com/en-us/library/ms646280\(v=vs.85\))) to be processed.
+The system calls this function whenever an application calls the [**GetMessage**](/windows/win32/api/winuser/nf-winuser-getmessage) or [**PeekMessageA**](/windows/win32/api/winuser/nf-winuser-peekmessagea)/[**PeekMessageW**](/windows/win32/api/winuser/nf-winuser-peekmessagew) function and there is a keyboard message ([**WM_KEYUP**](/windows/win32/inputdev/wm-keyup) or [**WM_KEYDOWN**](/windows/win32/inputdev/wm-keydown) to be processed.
 
 The **HOOKPROC** type defines a pointer to this callback function. *KeyboardProc* is a placeholder for the application-defined or library-defined function name.
 
