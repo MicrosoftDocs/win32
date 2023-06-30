@@ -103,7 +103,7 @@ The following support XBUTTON1 and XBUTTON2:
 The following APIs were modified to support these buttons:
 
 -   [**mouse\_event**](/windows/win32/api/winuser/nf-winuser-mouse_event)
--   [**ShellProc**](/previous-versions/windows/desktop/legacy/ms644991(v=vs.85))
+-   [**ShellProc**](../winmsg/shellproc.md)
 -   [**MSLLHOOKSTRUCT**](/windows/win32/api/winuser/ns-winuser-msllhookstruct)
 -   [**MOUSEINPUT**](/windows/win32/api/winuser/ns-winuser-mouseinput)
 -   [**WM\_PARENTNOTIFY**](/previous-versions/windows/desktop/inputmsg/wm-parentnotify)

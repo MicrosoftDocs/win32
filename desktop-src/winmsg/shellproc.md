@@ -38,11 +38,9 @@ req.redist:
 
 ## Description
 
-An application-defined or library-defined callback function used with the [SetWindowsHookEx](/windows/desktop/api/winuser/nf-winuser-setwindowshookexw) function.
-The function receives notifications of Shell events from the system.
+An application-defined or library-defined callback function used with the [**SetWindowsHookExA**](/windows/win32/api/winuser/nf-winuser-setwindowshookexa)/[**SetWindowsHookExW**](/windows/win32/api/winuser/nf-winuser-setwindowshookexw) function. The function receives notifications of Shell events from the system.
 
-The **HOOKPROC** type defines a pointer to this callback function.
-**ShellProc** is a placeholder for the application-defined or library-defined function name.
+The **HOOKPROC** type defines a pointer to this callback function. *ShellProc* is a placeholder for the application-defined or library-defined function name.
 
 ```cpp
 LRESULT CALLBACK ShellProc(
@@ -59,7 +57,9 @@ LRESULT CALLBACK ShellProc(
 Type: **int**
 
 The hook code.
-If *nCode* is less than zero, the hook procedure must pass the message to the [CallNextHookEx](/windows/desktop/api/winuser/nf-winuser-callnexthookex) function without further processing and should return the value returned by **CallNextHookEx**.
+
+If *nCode* is less than zero, the hook procedure must pass the message to the [**CallNextHookEx**](/windows/desktop/api/winuser/nf-winuser-callnexthookex) function without further processing and should return the value returned by **CallNextHookEx**.
+
 This parameter can be one of the following values.
 
 | Value | Meaning |
@@ -114,8 +114,7 @@ This parameter depends on the value of the *nCode* parameter, as shown in the fo
 
 Type: **LRESULT**
 
-The return value should be zero unless the value of nCode is **HSHELL_APPCOMMAND** and the shell procedure handles the **WM_COMMAND** message.
-In this case, the return should be nonzero.
+The return value should be zero unless the value of *nCode* is **HSHELL_APPCOMMAND** and the shell procedure handles the [**WM_COMMAND**](/windows/win32/menurc/wm-command) message. In this case, the return should be nonzero.
 
 ## Remarks
 

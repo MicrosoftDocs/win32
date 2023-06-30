@@ -196,7 +196,7 @@ Unlike other windows messages, an application should return **TRUE** from this m
 [**GET\_KEYSTATE\_LPARAM**](/windows/win32/api/winuser/nf-winuser-get_keystate_lparam)
 </dt> <dt>
 
-[**ShellProc**](/previous-versions/windows/desktop/legacy/ms644991(v=vs.85))
+[**ShellProc**](../winmsg/shellproc.md)
 </dt> <dt>
 
 [**WM\_XBUTTONUP**](wm-xbuttonup.md)

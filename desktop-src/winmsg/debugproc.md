@@ -128,25 +128,25 @@ LRESULT CALLBACK DebugProc(
     <td><span id="WH_MOUSE"></span><span id="wh_mouse"></span>
     <strong>WH_MOUSE</strong>
     7</td>
-    <td><p>Installs a hook procedure that monitors mouse messages. For more information, see the description of the <a href="ms644988(v=vs.85).md"><em>MouseProc</em></a> hook procedure.</p></td>
+    <td><p>Installs a hook procedure that monitors mouse messages. For more information, see the description of the [*MouseProc*](mouseproc.md) hook procedure.</p></td>
     </tr>
     <tr class="even">
     <td><span id="WH_MSGFILTER"></span><span id="wh_msgfilter"></span>
     <strong>WH_MSGFILTER</strong>
     -1</td>
-    <td><p>Installs a hook procedure that monitors messages generated as a result of an input event in a dialog box, message box, menu, or scroll bar. The hook procedure monitors these messages only for the application that installed the hook procedure. For more information, see the description of the <a href="ms644987(v=vs.85).md"><em>MessageProc</em></a> hook procedure.</p></td>
+    <td><p>Installs a hook procedure that monitors messages generated as a result of an input event in a dialog box, message box, menu, or scroll bar. The hook procedure monitors these messages only for the application that installed the hook procedure. For more information, see the [*MessageProc*](messageproc.md) hook procedure.</p></td>
     </tr>
     <tr class="odd">
     <td><span id="WH_SHELL"></span><span id="wh_shell"></span>
     <strong>WH_SHELL</strong>
     10</td>
-    <td><p>Installs a hook procedure that receives notifications useful to a Shell application. For more information, see the description of the <a href="ms644991(v=vs.85).md"><em>ShellProc</em></a> hook procedure and the <a href="/windows/win32/winmsg/about-hooks"><strong>WH_SHELL</strong></a> hook section.</p></td>
+    <td><p>Installs a hook procedure that receives notifications useful to a Shell application. For more information, see the description of the [*ShellProc*](shellproc.md) hook procedure and the <a href="/windows/win32/winmsg/about-hooks"><strong>WH_SHELL</strong></a> hook section.</p></td>
     </tr>
     <tr class="even">
     <td><span id="WH_SYSMSGFILTER"></span><span id="wh_sysmsgfilter"></span>
     <strong>WH_SYSMSGFILTER</strong>
     6</td>
-    <td><p>Installs a hook procedure that monitors messages generated as a result of an input event in a dialog box, message box, menu, or scroll bar. The hook procedure monitors these messages for all applications in the system. For more information, see the description of the <a href="ms644992(v=vs.85).md"><em>SysMsgProc</em></a> hook procedure.</p></td>
+    <td><p>Installs a hook procedure that monitors messages generated as a result of an input event in a dialog box, message box, menu, or scroll bar. The hook procedure monitors these messages for all applications in the system. For more information, see the description of the [*SysMsgProc*](sysmsgproc.md) hook procedure.</p></td>
     </tr>
     </tbody>
     </table>
@@ -168,7 +168,7 @@ To prevent the system from calling the hook, the hook procedure must return a no
 
 ## Remarks
 
-An application installs this hook procedure by specifying the [**WH\_DEBUG**](/windows/win32/winmsg/about-hooks) hook type and the pointer to the hook procedure in a call to the [**SetWindowsHookExA**](/windows/win32/api/winuser/nf-winuser-setwindowshookexa)/[**SetWindowsHookExW**](/windows/win32/api/winuser/nf-winuser-setwindowshookexw) function.
+An application installs this hook procedure by specifying the [**WH_DEBUG**](/windows/win32/winmsg/about-hooks) hook type and the pointer to the hook procedure in a call to the [**SetWindowsHookExA**](/windows/win32/api/winuser/nf-winuser-setwindowshookexa)/[**SetWindowsHookExW**](/windows/win32/api/winuser/nf-winuser-setwindowshookexw) function.
 
 ## Requirements
 
@@ -214,14 +214,14 @@ An application installs this hook procedure by specifying the [**WH\_DEBUG**](/w
 
 [*KeyboardProc*](ms644984\(v=vs.85\).md)
 
-[*MessageProc*](ms644987\(v=vs.85\).md)
+[*MessageProc*](messageproc.md)
 
-[*MouseProc*](ms644988\(v=vs.85\).md)
+[*MouseProc*](mouseproc.md)
 
 [**SetWindowsHookExA**](/windows/win32/api/winuser/nf-winuser-setwindowshookexa)/[**SetWindowsHookExW**](/windows/win32/api/winuser/nf-winuser-setwindowshookexw)
 
-[*ShellProc*](ms644991\(v=vs.85\).md)
+[*ShellProc*](shellproc.md)
 
-[*SysMsgProc*](ms644992\(v=vs.85\).md)
+[*SysMsgProc*](sysmsgproc.md)
 
 [Hooks](hooks.md)
