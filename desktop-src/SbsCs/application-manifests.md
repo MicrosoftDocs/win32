@@ -208,7 +208,7 @@ The **activatableClass** element has the following attributes.
 | Attribute           | Description                                           |
 |---------------------|-------------------------------------------------------|
 | **name** | Specifies the class identifier for the activatable class. Required. |
-| **threadingModel** | Represents the apartment threading model to use for activating an in-process server. Valid values include `sta`, `mta` or `both`. See [ThreadingType enumeration](/windows/win32/api/activationregistration/ne-activationregistration-threadingtype) for more info. Required. |
+| **threadingModel** | Represents the apartment threading model to use for activating an in-process server. Valid values include `sta`, `mta` or `both`. See [this article](/windows/win32/com/in-process-server-threading-issues) for more info. Required. |
 
 ```xml
 <assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
