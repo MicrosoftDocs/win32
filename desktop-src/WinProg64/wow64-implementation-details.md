@@ -52,7 +52,7 @@ The [**SetWindowsHookEx**](/windows/win32/api/winuser/nf-winuser-setwindowshooke
 
 For more information, see [**SetWindowsHookEx**](/windows/win32/api/winuser/nf-winuser-setwindowshookexa).
 
-Be aware that the **WH\_MOUSE**, **WH\_KEYBOARD**, **WH\_JOURNAL\***, **WH\_SHELL**, and low-level hooks can be called on the thread that installed the hook rather than the thread processing the hook. For these hooks, it is possible that both the 32-bit and 64-bit hooks will be called if a 32-bit hook is ahead of a 64-bit hook in the hook chain. For more information, see [Using Hooks](../winmsg/using-hooks.md).
+Be aware that the **WH_MOUSE**, **WH\_KEYBOARD**, **WH\_JOURNAL\***, **WH\_SHELL**, and low-level hooks can be called on the thread that installed the hook rather than the thread processing the hook. For these hooks, it is possible that both the 32-bit and 64-bit hooks will be called if a 32-bit hook is ahead of a 64-bit hook in the hook chain. For more information, see [Using Hooks](../winmsg/using-hooks.md).
 
  
 

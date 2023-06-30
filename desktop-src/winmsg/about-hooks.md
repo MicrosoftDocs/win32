@@ -30,21 +30,21 @@ This section discusses the following:
 -   [Hook Types](#hook-types)
     -   [WH\_CALLWNDPROC and WH\_CALLWNDPROCRET](#wh_callwndproc-and-wh_callwndprocret)
     -   [WH\_CBT](#wh_cbt)
-    -   [WH\_DEBUG](#wh_debug)
+    -   [WH_DEBUG](#wh_debug)
     -   [WH\_FOREGROUNDIDLE](#wh_foregroundidle)
     -   [WH\_GETMESSAGE](#wh_getmessage)
-    -   [WH\_JOURNALPLAYBACK](#wh_journalplayback)
+    -   [WH_JOURNALPLAYBACK](#wh_journalplayback)
     -   [WH\_JOURNALRECORD](#wh_journalrecord)
-    -   [WH\_KEYBOARD\_LL](#wh_keyboard_ll)
+    -   [WH_KEYBOARD_LL](#wh_keyboard_ll)
     -   [WH\_KEYBOARD](#wh_keyboard)
-    -   [WH\_MOUSE\_LL](#wh_mouse_ll)
-    -   [WH\_MOUSE](#wh_mouse)
-    -   [WH\_MSGFILTER and WH\_SYSMSGFILTER](#wh_msgfilter-and-wh_sysmsgfilter)
+    -   [WH_MOUSE_LL](#wh_mouse_ll)
+    -   [WH_MOUSE](#wh_mouse)
+    -   [WH_MSGFILTER and WH\_SYSMSGFILTER](#wh_msgfilter-and-wh_sysmsgfilter)
     -   [WH\_SHELL](#wh_shell)
 
 ## Hook Chains
 
-The system supports many different types of hooks; each type provides access to a different aspect of its message-handling mechanism. For example, an application can use the [WH\_MOUSE](#wh_mouse) hook to monitor the message traffic for mouse messages.
+The system supports many different types of hooks; each type provides access to a different aspect of its message-handling mechanism. For example, an application can use the [WH_MOUSE](#wh_mouse) hook to monitor the message traffic for mouse messages.
 
 The system maintains a separate hook chain for each type of hook. A *hook chain* is a list of pointers to special, application-defined callback functions called *hook procedures*. When a message occurs that is associated with a particular type of hook, the system passes the message to each hook procedure referenced in the hook chain, one after the other. The action a hook procedure can take depends on the type of hook involved. The hook procedures for some types of hooks can only monitor messages; others can modify messages or stop their progress through the chain, preventing them from reaching the next hook procedure or the destination window.
 
@@ -87,16 +87,16 @@ Each type of hook enables an application to monitor a different aspect of the sy
 
 -   [WH\_CALLWNDPROC and WH\_CALLWNDPROCRET](#wh_callwndproc-and-wh_callwndprocret)
 -   [WH\_CBT](#wh_cbt)
--   [WH\_DEBUG](#wh_debug)
+-   [WH_DEBUG](#wh_debug)
 -   [WH\_FOREGROUNDIDLE](#wh_foregroundidle)
 -   [WH\_GETMESSAGE](#wh_getmessage)
--   [WH\_JOURNALPLAYBACK](#wh_journalplayback)
+-   [WH_JOURNALPLAYBACK](#wh_journalplayback)
 -   [WH\_JOURNALRECORD](#wh_journalrecord)
--   [WH\_KEYBOARD\_LL](#wh_keyboard_ll)
+-   [WH_KEYBOARD_LL](#wh_keyboard_ll)
 -   [WH\_KEYBOARD](#wh_keyboard)
--   [WH\_MOUSE\_LL](#wh_mouse_ll)
--   [WH\_MOUSE](#wh_mouse)
--   [WH\_MSGFILTER and WH\_SYSMSGFILTER](#wh_msgfilter-and-wh_sysmsgfilter)
+-   [WH_MOUSE_LL](#wh_mouse_ll)
+-   [WH_MOUSE](#wh_mouse)
+-   [WH_MSGFILTER and WH\_SYSMSGFILTER](#wh_msgfilter-and-wh_sysmsgfilter)
 -   [WH\_SHELL](#wh_shell)
 
 ### WH\_CALLWNDPROC and WH\_CALLWNDPROCRET
@@ -105,27 +105,27 @@ The **WH\_CALLWNDPROC** and **WH\_CALLWNDPROCRET** hooks enable you to monitor m
 
 The **WH\_CALLWNDPROCRET** hook passes a pointer to a [**CWPRETSTRUCT**](/windows/win32/api/winuser/ns-winuser-cwpretstruct) structure to the hook procedure. The structure contains the return value from the window procedure that processed the message, as well as the message parameters associated with the message. Subclassing the window does not work for messages set between processes.
 
-For more information, see the [*CallWndProc*](/previous-versions/windows/desktop/legacy/ms644975(v=vs.85)) and [*CallWndRetProc*](/windows/win32/api/winuser/nc-winuser-hookproc) callback functions.
+For more information, see the [*CallWndProc*](callwndproc.md) and [*CallWndRetProc*](/windows/win32/api/winuser/nc-winuser-hookproc) callback functions.
 
 ### WH\_CBT
 
 The system calls a **WH\_CBT** hook procedure before activating, creating, destroying, minimizing, maximizing, moving, or sizing a window; before completing a system command; before removing a mouse or keyboard event from the system message queue; before setting the input focus; or before synchronizing with the system message queue. The value the hook procedure returns determines whether the system allows or prevents one of these operations. The **WH\_CBT** hook is intended primarily for computer-based training (CBT) applications.
 
-For more information, see the [*CBTProc*](/previous-versions/windows/desktop/legacy/ms644977(v=vs.85)) callback function.
+For more information, see the [**CBTProc**](cbtproc.md) callback function.
 
 For information, see [WinEvents](/windows/desktop/WinAuto/winevents-infrastructure).
 
-### WH\_DEBUG
+### WH_DEBUG
 
-The system calls a **WH\_DEBUG** hook procedure before calling hook procedures associated with any other hook in the system. You can use this hook to determine whether to allow the system to call hook procedures associated with other types of hooks.
+The system calls a **WH_DEBUG** hook procedure before calling hook procedures associated with any other hook in the system. You can use this hook to determine whether to allow the system to call hook procedures associated with other types of hooks.
 
-For more information, see the [*DebugProc*](/previous-versions/windows/desktop/legacy/ms644978(v=vs.85)) callback function.
+For more information, see the [DebugProc](debugproc.md) callback function.
 
 ### WH\_FOREGROUNDIDLE
 
 The **WH\_FOREGROUNDIDLE** hook enables you to perform low priority tasks during times when its foreground thread is idle. The system calls a **WH\_FOREGROUNDIDLE** hook procedure when the application's foreground thread is about to become idle.
 
-For more information, see the [*ForegroundIdleProc*](/previous-versions/windows/desktop/legacy/ms644980(v=vs.85)) callback function.
+For more information, see the [*ForegroundIdleProc*](foregroundidleproc.md) callback function.
 
 ### WH\_GETMESSAGE
 
@@ -133,16 +133,16 @@ The **WH\_GETMESSAGE** hook enables an application to monitor messages about to 
 
 For more information, see the [*GetMsgProc*](/windows/win32/winmsg/getmsgproc) callback function.
 
-### WH\_JOURNALPLAYBACK
+### WH_JOURNALPLAYBACK
 
 > [!WARNING]
 > Journaling Hooks APIs are unsupported starting in Windows 11 and will be removed in a future release. Because of this, we highly recommend calling the [**SendInput**](/windows/win32/api/winuser/nf-winuser-sendinput) TextInput API instead.
 
-The **WH\_JOURNALPLAYBACK** hook enables an application to insert messages into the system message queue. You can use this hook to play back a series of mouse and keyboard events recorded earlier by using [WH\_JOURNALRECORD](#wh_journalrecord). Regular mouse and keyboard input is disabled as long as a **WH\_JOURNALPLAYBACK** hook is installed. A **WH\_JOURNALPLAYBACK** hook is a global hook—it cannot be used as a thread-specific hook.
+The **WH_JOURNALPLAYBACK** hook enables an application to insert messages into the system message queue. You can use this hook to play back a series of mouse and keyboard events recorded earlier by using [WH\_JOURNALRECORD](#wh_journalrecord). Regular mouse and keyboard input is disabled as long as a **WH_JOURNALPLAYBACK** hook is installed. A **WH_JOURNALPLAYBACK** hook is a global hook—it cannot be used as a thread-specific hook.
 
-The **WH\_JOURNALPLAYBACK** hook returns a time-out value. This value tells the system how many milliseconds to wait before processing the current message from the playback hook. This enables the hook to control the timing of the events it plays back.
+The **WH_JOURNALPLAYBACK** hook returns a time-out value. This value tells the system how many milliseconds to wait before processing the current message from the playback hook. This enables the hook to control the timing of the events it plays back.
 
-For more information, see the [*JournalPlaybackProc*](/windows/win32/winmsg/journalplaybackproc) callback function.
+For more information, see the [*JournalPlaybackProc*](journalplaybackproc.md) callback function.
 
 ### WH\_JOURNALRECORD
 
@@ -153,9 +153,9 @@ The **WH\_JOURNALRECORD** hook enables you to monitor and record input events. T
 
 For more information, see the [*JournalRecordProc*](/windows/win32/winmsg/journalrecordproc) callback function.
 
-### WH\_KEYBOARD\_LL
+### WH_KEYBOARD_LL
 
-The **WH\_KEYBOARD\_LL** hook enables you to monitor keyboard input events about to be posted in a thread input queue.
+The **WH_KEYBOARD_LL** hook enables you to monitor keyboard input events about to be posted in a thread input queue.
 
 For more information, see the [*LowLevelKeyboardProc*](/windows/win32/winmsg/lowlevelkeyboardproc) callback function.
 
@@ -165,25 +165,25 @@ The **WH\_KEYBOARD** hook enables an application to monitor message traffic for 
 
 For more information, see the [*KeyboardProc*](/windows/win32/winmsg/keyboardproc) callback function.
 
-### WH\_MOUSE\_LL
+### WH_MOUSE_LL
 
-The **WH\_MOUSE\_LL** hook enables you to monitor mouse input events about to be posted in a thread input queue.
+The **WH_MOUSE_LL** hook enables you to monitor mouse input events about to be posted in a thread input queue.
 
 For more information, see the [*LowLevelMouseProc*](/windows/win32/winmsg/lowlevelmouseproc) callback function.
 
-### WH\_MOUSE
+### WH_MOUSE
 
 The **WH\_MOUSE** hook enables you to monitor mouse messages about to be returned by the [**GetMessage**](/windows/win32/api/winuser/nf-winuser-getmessage) or [**PeekMessage**](/windows/win32/api/winuser/nf-winuser-peekmessagea) function. You can use the **WH\_MOUSE** hook to monitor mouse input posted to a message queue.
 
 For more information, see the [*MouseProc*](/windows/win32/winmsg/mouseproc) callback function.
 
-### WH\_MSGFILTER and WH\_SYSMSGFILTER
+### WH_MSGFILTER and WH\_SYSMSGFILTER
 
-The **WH\_MSGFILTER** and **WH\_SYSMSGFILTER** hooks enable you to monitor messages about to be processed by a menu, scroll bar, message box, or dialog box, and to detect when a different window is about to be activated as a result of the user's pressing the ALT+TAB or ALT+ESC key combination. The **WH\_MSGFILTER** hook can only monitor messages passed to a menu, scroll bar, message box, or dialog box created by the application that installed the hook procedure. The **WH\_SYSMSGFILTER** hook monitors such messages for all applications.
+The **WH_MSGFILTER** and **WH\_SYSMSGFILTER** hooks enable you to monitor messages about to be processed by a menu, scroll bar, message box, or dialog box, and to detect when a different window is about to be activated as a result of the user's pressing the ALT+TAB or ALT+ESC key combination. The **WH_MSGFILTER** hook can only monitor messages passed to a menu, scroll bar, message box, or dialog box created by the application that installed the hook procedure. The **WH\_SYSMSGFILTER** hook monitors such messages for all applications.
 
-The **WH\_MSGFILTER** and **WH\_SYSMSGFILTER** hooks enable you to perform message filtering during modal loops that is equivalent to the filtering done in the main message loop. For example, an application often examines a new message in the main loop between the time it retrieves the message from the queue and the time it dispatches the message, performing special processing as appropriate. However, during a modal loop, the system retrieves and dispatches messages without allowing an application the chance to filter the messages in its main message loop. If an application installs a **WH\_MSGFILTER** or **WH\_SYSMSGFILTER** hook procedure, the system calls the procedure during the modal loop.
+The **WH_MSGFILTER** and **WH\_SYSMSGFILTER** hooks enable you to perform message filtering during modal loops that is equivalent to the filtering done in the main message loop. For example, an application often examines a new message in the main loop between the time it retrieves the message from the queue and the time it dispatches the message, performing special processing as appropriate. However, during a modal loop, the system retrieves and dispatches messages without allowing an application the chance to filter the messages in its main message loop. If an application installs a **WH_MSGFILTER** or **WH\_SYSMSGFILTER** hook procedure, the system calls the procedure during the modal loop.
 
-An application can call the **WH\_MSGFILTER** hook directly by calling the [**CallMsgFilter**](/windows/win32/api/winuser/nf-winuser-callmsgfiltera) function. By using this function, the application can use the same code to filter messages during modal loops as it uses in the main message loop. To do so, encapsulate the filtering operations in a **WH\_MSGFILTER** hook procedure and call **CallMsgFilter** between the calls to the [**GetMessage**](/windows/win32/api/winuser/nf-winuser-getmessage) and [**DispatchMessage**](/windows/win32/api/winuser/nf-winuser-dispatchmessage) functions.
+An application can call the **WH_MSGFILTER** hook directly by calling the [**CallMsgFilter**](/windows/win32/api/winuser/nf-winuser-callmsgfiltera) function. By using this function, the application can use the same code to filter messages during modal loops as it uses in the main message loop. To do so, encapsulate the filtering operations in a **WH_MSGFILTER** hook procedure and call **CallMsgFilter** between the calls to the [**GetMessage**](/windows/win32/api/winuser/nf-winuser-getmessage) and [**DispatchMessage**](/windows/win32/api/winuser/nf-winuser-dispatchmessage) functions.
 
 ``` syntax
 while (GetMessage(&msg, (HWND) NULL, 0, 0)) 

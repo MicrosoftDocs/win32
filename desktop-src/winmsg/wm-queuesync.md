@@ -1,5 +1,5 @@
 ---
-description: Sent by a computer-based training (CBT) application to separate user-input messages from other messages sent through the WH\_JOURNALPLAYBACK procedure.
+description: Sent by a computer-based training (CBT) application to separate user-input messages from other messages sent through the WH_JOURNALPLAYBACK procedure.
 ms.assetid: 9ac265be-1fcc-476f-9dee-3e961340b5a1
 title: WM_QUEUESYNC message (Winuser.h)
 ms.topic: reference
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # WM\_QUEUESYNC message
 
-Sent by a computer-based training (CBT) application to separate user-input messages from other messages sent through the [**WH\_JOURNALPLAYBACK**](about-hooks.md) procedure.
+Sent by a computer-based training (CBT) application to separate user-input messages from other messages sent through the [**WH_JOURNALPLAYBACK**](about-hooks.md) procedure.
 
 
 ```C++
@@ -43,7 +43,7 @@ A CBT application should return zero if it processes this message.
 
 ## Remarks
 
-Whenever a CBT application uses the [**WH\_JOURNALPLAYBACK**](about-hooks.md) procedure, the first and last messages are **WM\_QUEUESYNC**. This allows the CBT application to intercept and examine user-initiated messages without doing so for events that it sends.
+Whenever a CBT application uses the [**WH_JOURNALPLAYBACK**](about-hooks.md) procedure, the first and last messages are **WM\_QUEUESYNC**. This allows the CBT application to intercept and examine user-initiated messages without doing so for events that it sends.
 
 If an application specifies a **NULL** window handle, the message is posted to the message queue of the active window.
 
@@ -66,7 +66,7 @@ If an application specifies a **NULL** window handle, the message is posted to t
 **Reference**
 </dt> <dt>
 
-[*JournalPlaybackProc*](/windows/win32/winmsg/journalplaybackproc)
+[*JournalPlaybackProc*](journalplaybackproc.md)
 </dt> <dt>
 
 [**SetWindowsHookEx**](/windows/win32/api/winuser/nf-winuser-setwindowshookexa)

@@ -223,6 +223,8 @@
           href: /windows/desktop/api/windowsx/nf-windowsx-get_x_lparam
         - name: "GET_Y_LPARAM"
           href: /windows/desktop/api/windowsx/nf-windowsx-get_y_lparam
+        - name: "GET_MOUSEORKEY_LPARAM"
+          href: nf-winuser-get_mouseorkey_lparam.md
         - name: "HIBYTE"
           href: /previous-versions/windows/desktop/legacy/ms632656(v=vs.85)
         - name: "HIWORD"
@@ -632,15 +634,15 @@
         - name: "CallNextHookEx"
           href: /windows/desktop/api/winuser/nf-winuser-callnexthookex
         - name: "CallWndProc"
-          href: /previous-versions/windows/desktop/legacy/ms644975(v=vs.85)
+          href: callwndproc.md
         - name: "CallWndRetProc"
           href: /windows/desktop/api/winuser/nc-winuser-hookproc
         - name: "CBTProc"
-          href: /previous-versions/windows/desktop/legacy/ms644977(v=vs.85)
+          href: cbtproc.md
         - name: "DebugProc"
-          href: /previous-versions/windows/desktop/legacy/ms644978(v=vs.85)
+          href: debugproc.md
         - name: "ForegroundIdleProc"
-          href: /previous-versions/windows/desktop/legacy/ms644980(v=vs.85)
+          href: foregroundidleproc.md
         - name: "GetMsgProc"
           href: /windows/win32/winmsg/getmsgproc
         - name: "JournalPlaybackProc"
