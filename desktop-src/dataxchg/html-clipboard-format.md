@@ -293,21 +293,21 @@ WYSIWYG Editor, which supports:</p>
   <li>Cop
 ```
 
-When the user presses the Copy command button, their clipboard will look like this (line-breaks have been added for clarity; the bold text denotes what the user actually selected);
+When the user presses the Copy command button, their clipboard will look like this (line-breaks have been added for clarity; the bold text denotes what the user actually selected):
 
-```html
-<html>
-<body>
-<!-- StartFragment-->
-<p><b>WYSIWYG Editor, which supports</p>
-<ul>
-  <li>Cut</li>
-  <li>Cop</b></li>
-</ul>
-<!-- EndFragment-->
-</body>
-</html>
-```
+<pre>
+&lt;html&gt;
+&lt;body&gt;
+&lt;!-- StartFragment--&gt;
+&lt;p&gt;<b>WYSIWYG Editor, which supports&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Cut&lt;/li&gt;
+	&lt;li&gt;Cop</b>&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- EndFragment--&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</pre>
 
 Observe that:
 
