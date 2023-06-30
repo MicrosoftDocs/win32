@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 -   [**CallMsgFilter**](/windows/win32/api/winuser/nf-winuser-callmsgfiltera)
 -   [**CallNextHookEx**](/windows/win32/api/winuser/nf-winuser-callnexthookex)
--   [*CallWndProc*](/previous-versions/windows/desktop/legacy/ms644975(v=vs.85))
+-   [*CallWndProc*](callwndproc.md)
 -   [*CallWndRetProc*](/windows/win32/api/winuser/nc-winuser-hookproc)
 -   [*CBTProc*](cbtproc.md)
 -   [DebugProc](debugproc.md)

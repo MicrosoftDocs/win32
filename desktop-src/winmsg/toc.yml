@@ -634,7 +634,7 @@
         - name: "CallNextHookEx"
           href: /windows/desktop/api/winuser/nf-winuser-callnexthookex
         - name: "CallWndProc"
-          href: /previous-versions/windows/desktop/legacy/ms644975(v=vs.85)
+          href: callwndproc.md
         - name: "CallWndRetProc"
           href: /windows/desktop/api/winuser/nc-winuser-hookproc
         - name: "CBTProc"

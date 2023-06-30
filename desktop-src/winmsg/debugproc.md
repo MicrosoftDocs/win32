@@ -2,7 +2,7 @@
 title: DebugProc function (Windows)
 description: The system passes information about the hook to be called to the DebugProc hook procedure, which examines the information and determines whether to allow the hook to be called.
 ms.date: 06/28/2023
-mtps_version: v=VS.85
+ms.topic: reference
 f1_keywords:
 - DebugProc
 - WH_MOUSE
@@ -66,8 +66,8 @@ LRESULT CALLBACK DebugProc(
     
     <table>
     <colgroup>
-    <col style="width: 50%" />
-    <col style="width: 50%" />
+    <col />
+    <col />
     </colgroup>
     <thead>
     <tr class="header">
@@ -80,7 +80,7 @@ LRESULT CALLBACK DebugProc(
     <td><span id="WH_CALLWNDPROC"></span><span id="wh_callwndproc"></span>
     <strong>WH_CALLWNDPROC</strong>
     4</td>
-    <td><p>Installs a hook procedure that monitors messages sent to a window procedure. For more information, see the description of the <a href="ms644975(v=vs.85).md"><em>CallWndProc</em></a> hook procedure.</p></td>
+    <td><p>Installs a hook procedure that monitors messages sent to a window procedure. For more information, see the description of the [*CallWndProc*](callwndproc.md) hook procedure.</p></td>
     </tr>
     <tr class="even">
     <td><span id="WH_CALLWNDPROCRET"></span><span id="wh_callwndprocret"></span>
@@ -156,7 +156,7 @@ LRESULT CALLBACK DebugProc(
   - *lParam* \[in\]  
     Type: **LPARAM**
     
-    A pointer to a [**DEBUGHOOKINFO**](https://msdn.microsoft.com/en-us/library/ms644965\(v=vs.85\)) structure that contains the parameters to be passed to the destination hook procedure.
+    A pointer to a [**DEBUGHOOKINFO**](/windows/win32/api/winuser/ns-winuser-debughookinfo) structure that contains the parameters to be passed to the destination hook procedure.
 
 ## Return value
 
@@ -174,8 +174,8 @@ An application installs this hook procedure by specifying the [**WH_DEBUG**](/wi
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -198,13 +198,13 @@ An application installs this hook procedure by specifying the [**WH_DEBUG**](/wi
 
 [**CallNextHookEx**](/windows/win32/api/winuser/nf-winuser-callnexthookex)
 
-[*CallWndProc*](ms644975\(v=vs.85\).md)
+[*CallWndProc*](callwndproc.md)
 
-[*CallWndRetProc*](https://msdn.microsoft.com/en-us/library/ms644976\(v=vs.85\))
+[*CallWndRetProc*](/windows/win32/api/winuser/nc-winuser-hookproc)
 
 [*CBTProc*](cbtproc.md)
 
-[**DEBUGHOOKINFO**](https://msdn.microsoft.com/en-us/library/ms644965\(v=vs.85\))
+[**DEBUGHOOKINFO**](/windows/win32/api/winuser/ns-winuser-debughookinfo)
 
 [*GetMsgProc*](ms644981\(v=vs.85\).md)
 

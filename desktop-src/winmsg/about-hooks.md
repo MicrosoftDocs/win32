@@ -105,7 +105,7 @@ The **WH\_CALLWNDPROC** and **WH\_CALLWNDPROCRET** hooks enable you to monitor m
 
 The **WH\_CALLWNDPROCRET** hook passes a pointer to a [**CWPRETSTRUCT**](/windows/win32/api/winuser/ns-winuser-cwpretstruct) structure to the hook procedure. The structure contains the return value from the window procedure that processed the message, as well as the message parameters associated with the message. Subclassing the window does not work for messages set between processes.
 
-For more information, see the [*CallWndProc*](/previous-versions/windows/desktop/legacy/ms644975(v=vs.85)) and [*CallWndRetProc*](/windows/win32/api/winuser/nc-winuser-hookproc) callback functions.
+For more information, see the [*CallWndProc*](callwndproc.md) and [*CallWndRetProc*](/windows/win32/api/winuser/nc-winuser-hookproc) callback functions.
 
 ### WH\_CBT
 

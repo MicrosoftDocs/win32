@@ -57,8 +57,8 @@ LRESULT CALLBACK CBTProc(
     
     <table>
     <colgroup>
-    <col style="width: 50%" />
-    <col style="width: 50%" />
+    <col />
+    <col />
     </colgroup>
     <thead>
     <tr class="header">
@@ -114,7 +114,11 @@ LRESULT CALLBACK CBTProc(
     <td><span id="HCBT_QS"></span><span id="hcbt_qs"></span>
     <strong>HCBT_QS</strong>
     2</td>
-    <td><p>The system has retrieved a <a href="https://msdn.microsoft.com/en-us/library/ms644972(v=vs.85)"><strong>WM_QUEUESYNC</strong></a> message from the system message queue.</p></td>
+    <td><p>
+
+The system has retrieved a [**WM_QUEUESYNC**](wm-queuesync.md) message from the system message queue.
+
+</p></td>
     </tr>
     <tr class="odd">
     <td><span id="HCBT_SETFOCUS"></span><span id="hcbt_setfocus"></span>
@@ -177,9 +181,9 @@ The following table describes the *wParam* and *lParam* parameters for each **HC
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -245,14 +249,14 @@ The following table describes the *wParam* and *lParam* parameters for each **HC
 
  
 
-For information, see [WinEvents](https://msdn.microsoft.com/en-us/library/dd373889\(v=vs.85\)).
+For more details, see [Windows Events](../Events/windows-events.md).
 
 ## Requirements
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -273,16 +277,12 @@ For information, see [WinEvents](https://msdn.microsoft.com/en-us/library/dd3738
 
 ## See also
 
-**Reference**
-
 [**CallNextHookEx**](/windows/win32/api/winuser/nf-winuser-callnexthookex)
 
-[**CreateWindow**](https://msdn.microsoft.com/en-us/library/ms632679\(v=vs.85\))
+[CreateWindowA](/windows/win32/api/winuser/nf-winuser-createwindowa)/[CreateWindowW](/windows/win32/api/winuser/nf-winuser-createwindoww)
 
 [**SetWindowsHookExA**](/windows/win32/api/winuser/nf-winuser-setwindowshookexa)/[**SetWindowsHookExW**](/windows/win32/api/winuser/nf-winuser-setwindowshookexw)
 
-[**WM\_SYSCOMMAND**](https://msdn.microsoft.com/en-us/library/ms646360\(v=vs.85\))
-
-**Conceptual**
+[WM_SYSCOMMAND message](../menurc/wm-syscommand.md)
 
 [Hooks](hooks.md)
