@@ -29,8 +29,10 @@ Application manifests have the following elements and attributes.
 |                                                                             | **publicKeyToken**        | No       |
 | [**compatibility**](#compatibility)                                         |                           | No       |
 | [**application**](#application)                                             |                           | No       |
-| [**supportedOS**](#supportedOS)                                             | **Id**                    | No       |
-| [**maxversiontested**](#maxversiontested)                                   | **Id**                    | No       |
+| [**supportedOS**](#supportedOS)                                             |                           | No       |
+|                                                                             | **Id**                    | Yes      |
+| [**maxversiontested**](#maxversiontested)                                   |                           | No       |
+|                                                                             | **Id**                    | Yes      |
 | [**dependency**](#dependency)                                               |                           | No       |
 | [**dependentAssembly**](#dependentAssembly)                                 |                           | No       |
 | [**file**](#file)                                                           |                           | No       |
@@ -166,14 +168,14 @@ The **maxversiontested** element has the following attribute. It has no subeleme
 
 | Attribute | Description    |
 |-----------|----------------|
-| **Id**    | Set the Id attribute to a 4-part version string that specifies the maximum version of Windows that the application was tested against. For example, "10.0.18362.1" for Windows 10, version 1903. |
+| **Id**    | Set the Id attribute to a 4-part version string that specifies the maximum version of Windows that the application was tested against. For example, "10.0.18362.1" for Windows 10, version 1903. Required. |
 
 ```xml
 <assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
 ...
     <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
         <application>
-            <!-- Windows 10 -->
+            <!-- Windows 10, version 1903 -->
             <maxversiontested Id="10.0.18362.1"/>
             <supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}" />
         </application>
