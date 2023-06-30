@@ -138,6 +138,8 @@ The **assemblyIdentity** element has the following attributes. It has no subelem
 
 Contains at least one **application**. It has no attributes. Optional. Application manifests without a compatibility element default to Windows Vista compatibility on Windows 7.
 
+The **compatibility** element must be in the namespace `urn:schemas-microsoft-com:compatibility.v1`. Child elements of the **compatibility** must also be in this namespace, by inheritance or by tagging.
+
 <span id="application"></span><span id="APPLICATION"></span>
 
 ### application
@@ -164,7 +166,21 @@ The **maxversiontested** element has the following attribute. It has no subeleme
 
 | Attribute | Description    |
 |-----------|----------------|
-| **Id**    | Set the Id attribute to a 4-part version string that specifies the maximum version of Windows that the application was tested against. For example, "10.0.18226.0". |
+| **Id**    | Set the Id attribute to a 4-part version string that specifies the maximum version of Windows that the application was tested against. For example, "10.0.18362.1" for Windows 10, version 1903. |
+
+```xml
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
+...
+    <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+        <application>
+            <!-- Windows 10 -->
+            <maxversiontested Id="10.0.18362.1"/>
+            <supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}" />
+        </application>
+    </compatibility>
+...
+</assembly>
+```
 
 <span id="dependency"></span><span id="DEPENDENCY"></span>
 
