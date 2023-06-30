@@ -25,9 +25,6 @@ The `CF_HTML` clipboard format allows a fragment of raw HTML text and its contex
 
 The official name of the clipboard (the string used by `RegisterClipboardFormat`) is "`HTML Format`".
 
-- [Description](#description)
-- [Scenarios](#scenarios)
-
 ## Description
 
 `CF_HTML` is a text clipboard format, though always using UTF-8 encoding. Note that the use of UTF-8 here is an exception to the general rule that the Windows API uses UTF-16 for representing text strings, especially human-readable (i.e. localizable) strings.
@@ -314,3 +311,7 @@ Observe that:
 - The text prior to "WYSIWYG" was removed.
 - The list item (`<li>Paste</li>`) was removed as none of it was in the user's selection.
 - The "y" from "Copy" was removed.
+
+## See also
+
+[Clipboard](clipboard.md)
