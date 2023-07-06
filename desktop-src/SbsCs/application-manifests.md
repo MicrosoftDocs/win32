@@ -34,9 +34,12 @@ Application manifests have the following elements and attributes.
 | [**dependency**](#dependency)                                               |                           | No       |
 | [**dependentAssembly**](#dependentAssembly)                                 |                           | No       |
 | [**file**](#file)                                                           |                           | No       |
-|                                                                             | **name**                  | No       |
+|                                                                             | **name**                  | Yes      |
 |                                                                             | **hashalg**               | No       |
 |                                                                             | **hash**                  | No       |
+| [**activatableClass**](#activatableClass)                                   |                           | No       |
+|                                                                             | **name**                  | Yes      |
+|                                                                             | **threadingModel**        | Yes      |
 | [**activeCodePage**](#activeCodePage)                                       |                           | No       |
 | [**autoElevate**](#autoElevate)                                             |                           | No       |
 | [**disableTheming**](#disableTheming)                                       |                           | No       |
@@ -50,7 +53,7 @@ Application manifests have the following elements and attributes.
 | [**ultraHighResolutionScrollingAware**](#ultraHighResolutionScrollingAware) |                           | No       |
 | [**msix**](#msix)                                                           |                           | No       |
 | [**heapType**](#heaptype)                                                   |                           | No       |
-| [**trustInfo**](#trustinfo)                                                   |                           | No       |
+| [**trustInfo**](#trustinfo)                                                 |                           | No       |
 
 ## File location
 
@@ -188,9 +191,38 @@ The **file** element has the attributes shown in the following table.
 
 | Attribute   | Description                                                                                             |
 |-------------|---------------------------------------------------------------------------------------------------------|
-| **name**    | Name of the file. For example, Comctl32.dll.                                                            |
-| **hashalg** | Algorithm used to create a hash of the file. This value should be SHA1.                                 |
-| **hash**    | A hash of the file referred to by name. A hexadecimal string of length depending on the hash algorithm. |
+| **name**    | Name of the file. For example, Comctl32.dll. Required. |
+| **hashalg** | Algorithm used to create a hash of the file. This value should be SHA1. Optional. |
+| **hash**    | A hash of the file referred to by name. A hexadecimal string of length depending on the hash algorithm. Optional. |
+
+<span id="activatableClass"></span><span id="activatableclass"></span><span id="ACTIVABLECLASS"></span>
+
+### activatableClass
+
+Allows non-packaged desktop apps to make use of user-defined Windows Runtime (WinRT) Components. This element is supported in Windows 10, version 1903, and later versions. For more information, see [this article](/windows/apps/develop/platform/csharp-winrt/create-windows-runtime-component-cswinrt#consume-the-component-from-a-cwinrt-app).
+
+The **activatableClass** element must be in the namespace `urn:schemas-microsoft-com:winrt.v1`.
+
+The **activatableClass** element has the following attributes.
+
+| Attribute           | Description                                           |
+|---------------------|-------------------------------------------------------|
+| **name** | Specifies the class identifier for the activatable class. Required. |
+| **threadingModel** | Represents the apartment threading model to use for activating an in-process server. Valid values include `both`, `STA`, or `MTA`. See [this article](/windows/win32/com/in-process-server-threading-issues) for more info. Required. |
+
+```xml
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
+...
+<file name="WinRTComponent.dll">
+    <activatableClass
+        name="WinRTComponent.MessageHolder"
+        threadingModel="both"
+        xmlns="urn:schemas-microsoft-com:winrt.v1"
+     />
+</file>
+...
+</assembly>
+```
 
 <span id="activeCodePage"></span><span id="activecodepage"></span><span id="ACTIVECODEPAGE"></span>
 
