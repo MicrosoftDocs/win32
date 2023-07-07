@@ -15,26 +15,11 @@ api_location:
 
 The eaptlsconnectionpropertiesv2 schema defines authentication configuration data using EAP-Transport Layer Security (EAP-TLS) in Windows 7 and later versions of Windows.
 
--   [eaptlsconnectionpropertiesv2 Schema Elements](eaptlsconnectionpropertiesv2schema-elements.md)
--   [eaptlsconnectionpropertiesv2 Schema Complex Types](eaptlsconnectionpropertiesv2schema-complex-types.md)
+- [eaptlsconnectionpropertiesv2 Schema Elements](eaptlsconnectionpropertiesv2schema-elements.md)
+- [eaptlsconnectionpropertiesv2 Schema Complex Types](eaptlsconnectionpropertiesv2schema-complex-types.md)
 
-## Related topics
+## See also
 
-<dl> <dt>
-
-[EAPHost and Legacy Schema](eaphost-schemas.md)
-</dt> <dt>
-
-[eaptlsconnectionpropertiesv1 Schema](eaptlsconnectionpropertiesv1schema-schema.md)
-</dt> <dt>
-
-[PPP EAP TLS Authentication Protocol](https://go.microsoft.com/fwlink/p/?linkid=84050)
-</dt> </dl>
-
- 
-
- 
-
-
-
-
+- [EAPHost and Legacy Schema](eaphost-schemas.md)
+- [eaptlsconnectionpropertiesv1 Schema](eaptlsconnectionpropertiesv1schema-schema.md)
+- [PPP EAP TLS Authentication Protocol](https://go.microsoft.com/fwlink/p/?linkid=84050)

@@ -10,7 +10,6 @@ ms.date: 05/31/2018
 
 The **TLSExtensionsType** complex type enables future enhancements to the schema.
 
-
 ```XML
 <xs:complexType name="TLSExtensionsType">
     <xs:sequence>
@@ -24,35 +23,13 @@ The **TLSExtensionsType** complex type enables future enhancements to the schema
 
 ```
 
-
-
 ## Remarks
 
 The **TLSExtensionsType** element is optional.
 
-## Related topics
+## See also
 
-<dl> <dt>
-
-
-</dt> <dt>
-
-[EAPHost and Legacy Schema](eaphost-schemas.md)
-</dt> <dt>
-
-[eaptlsconnectionpropertiesv2](eaptlsconnectionpropertiesv2schema-schema.md)
-</dt> <dt>
-
-[eaptlsconnectionpropertiesv2 Complex Types](eaptlsconnectionpropertiesv2schema-complex-types.md)
-</dt> <dt>
-
-[**TLSExtensions (TLSExtensionsType)**](eaptlsconnectionpropertiesv2schema-performservervalidation-eaptype-element.md)
-</dt> </dl>
-
- 
-
- 
-
-
-
-
+- [EAPHost and Legacy Schema](eaphost-schemas.md)
+- [eaptlsconnectionpropertiesv2](eaptlsconnectionpropertiesv2schema-schema.md)
+- [eaptlsconnectionpropertiesv2 Complex Types](eaptlsconnectionpropertiesv2schema-complex-types.md)
+- [**TLSExtensions (TLSExtensionsType)**](eaptlsconnectionpropertiesv2schema-performservervalidation-eaptype-element.md)
