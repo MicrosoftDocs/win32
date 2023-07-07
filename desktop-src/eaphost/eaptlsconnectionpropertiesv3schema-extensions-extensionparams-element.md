@@ -16,7 +16,7 @@ api_location:
 ROBOTS: INDEX,FOLLOW
 ---
 
-# PerformServerValidation element
+# Extensions (ExtensionParams) element
 
 The **Extensions (ExtensionParams)** element provides extension parameters for the current type.
 
