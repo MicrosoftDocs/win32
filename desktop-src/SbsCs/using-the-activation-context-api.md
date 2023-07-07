@@ -25,7 +25,7 @@ GetCurrentActCtx(&ActCtx);
 ReleaseActCtx(&ActCtx);  
 ```
 
-    In the following code fragment, the API function activates the appropriate activation contexts before calling [**CallWindowProc**](/windows/win32/api/winuser/nf-winuser-callwindowproca). When **CallWindowProc** is called, it uses this context to pass a message to Windows. When all resource operations have completed, the function will deactivate the context.
+In the following code fragment, the API function activates the appropriate activation contexts before calling [**CallWindowProc**](/windows/win32/api/winuser/nf-winuser-callwindowproca). When **CallWindowProc** is called, it uses this context to pass a message to Windows. When all resource operations have completed, the function will deactivate the context.
 
 ```
 ULONG\_PTR ulpCookie;  
