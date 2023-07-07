@@ -310,7 +310,7 @@
           - name: "Extensions (ExtensionParams) Element"
             href: eaptlsconnectionpropertiesv3schema-extensions-extensionparams-element.md
           - name: "FilteringInfo (FilterInfoParams) Element"
-            href: eaptlsconnectionpropertiesv3shema-filteringinfo-filterinfoparams-element.md
+            href: eaptlsconnectionpropertiesv3schema-filteringinfo-filterinfoparams-element.md
         - name: "eaptlsconnectionpropertiesv3 Schema Complex Types"
           href: eaptlsconnectionpropertiesv3schema-complex-types.md
           items: 
