@@ -18,15 +18,15 @@ ROBOTS: INDEX,FOLLOW
 
 # PerformServerValidation element
 
-The **Extensions (ExtensionsParams)** element provides extension parameters for the current type.
+The **Extensions (ExtensionParams)** element provides extension parameters for the current type.
 
 ``` xml
 <xs:element name="Extensions"
-    type="ExtensionsParams"
+    type="ExtensionParams"
  />
 ```
 
-The **Extensions** element is defined by the [ExtensionsParams](eaptlsconnectionpropertiesv3schema-extensionparams-complextype.md) complex type.
+The **Extensions** element is defined by the [ExtensionParams](eaptlsconnectionpropertiesv3schema-extensionparams-complextype.md) complex type.
 
 ## Remarks
 
@@ -43,7 +43,7 @@ The **Extensions** element is optional.
 
 ### Definition context of element in schema
 
-- [ExtensionsParams](eaptlsconnectionpropertiesv3schema-extensionparams-complextype.md)
+- [ExtensionParams](eaptlsconnectionpropertiesv3schema-extensionparams-complextype.md)
 
 ### Possible immediate parent element in schema instance
 

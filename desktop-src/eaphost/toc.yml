@@ -301,6 +301,23 @@
           items: 
           - name: "TLSExtensionsType Complex Type"
             href: eaptlsconnectionpropertiesv2schema-tlsextensionstype-complextype.md
+      - name: "eaptlsconnectionpropertiesv3 Schema"
+        href: eaptlsconnectionpropertiesv3schema-schema.md
+        items: 
+        - name: "eaptlsconnectionpropertiesv3 Schema Elements"
+          href: eaptlsconnectionpropertiesv3schema-elements.md
+          items: 
+          - name: "Extensions (ExtensionParams) Element"
+            href: eaptlsconnectionpropertiesv3schema-extensions-extensionparams-element.md
+          - name: "FilteringInfo (FilterInfoParams) Element"
+            href: eaptlsconnectionpropertiesv3shema-filteringinfo-filterinfoparams-element.md
+        - name: "eaptlsconnectionpropertiesv3 Schema Complex Types"
+          href: eaptlsconnectionpropertiesv3schema-complex-types.md
+          items: 
+          - name: "ExtensionParams Complex Type"
+            href: eaptlsconnectionpropertiesv3schema-extensionparams-complextype.md
+          - name: "FilterInfoParams Complex Type"
+            href: eaptlsconnectionpropertiesv3schema-filterinfoparams-complextype.md
       - name: "eaptlsuserpropertiesv1 Schema"
         href: eaptlsuserpropertiesv1schema-schema.md
         items: 

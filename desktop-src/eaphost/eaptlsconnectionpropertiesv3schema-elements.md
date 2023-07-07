@@ -16,7 +16,7 @@ api_location:
 The eaptlsconnectionpropertiesv3 schema is made up of the following schema elements.
 
 - [FilteringInfo (FilterInfoParams)](eaptlsconnectionpropertiesv3schema-filteringinfo-filterinfoparams-element.md)
-- [Extensions (ExtensionParams)](eaptlsconnectionpropertiesv3schema-extensions-extensionsparams-element.md)
+- [Extensions (ExtensionParams)](eaptlsconnectionpropertiesv3schema-extensions-extensionparams-element.md)
 
 ## See also
 
