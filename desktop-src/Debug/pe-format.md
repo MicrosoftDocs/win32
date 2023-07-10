@@ -420,13 +420,13 @@ IMAGE\_SCN\_LNK\_NRELOC\_OVFL indicates that the count of relocations for the se
 
 ### Grouped Sections (Object Only)
 
-The "$"? character (dollar sign) has a special interpretation in section names in object files.
+The "$" character (dollar sign) has a special interpretation in section names in object files.
 
-When determining the image section that will contain the contents of an object section, the linker discards the "$"? and all characters that follow it. Thus, an object section named .**text$X** actually contributes to the **.text** section in the image.
+When determining the image section that will contain the contents of an object section, the linker discards the "$" and all characters that follow it. Thus, an object section named .**text$X** actually contributes to the **.text** section in the image.
 
-However, the characters following the "$"? determine the ordering of the contributions to the image section. All contributions with the same object-section name are allocated contiguously in the image, and the blocks of contributions are sorted in lexical order by object-section name. Therefore, everything in object files with section name **.text$X** ends up together, after the **.text$W** contributions and before the **.text$Y** contributions.
+However, the characters following the "$" determine the ordering of the contributions to the image section. All contributions with the same object-section name are allocated contiguously in the image, and the blocks of contributions are sorted in lexical order by object-section name. Therefore, everything in object files with section name **.text$X** ends up together, after the **.text$W** contributions and before the **.text$Y** contributions.
 
-The section name in an image file never contains a "$"? character.
+The section name in an image file never contains a "$" character.
 
 ## Other Contents of the File
 
