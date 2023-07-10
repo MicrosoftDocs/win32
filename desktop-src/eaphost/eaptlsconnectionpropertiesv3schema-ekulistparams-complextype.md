@@ -8,7 +8,7 @@ ms.date: 07/07/2023
 
 # EKUListParams Complex Type
 
-The **EKUListParams** complex type holds a list of EKUListPair elements.
+The **EKUListParams** complex type holds a list of [EKUListPair](eaptlsconnectionpropertiesv3schema-ekulistpair-complextype.md) elements.
 
 ```XML
 <xs:complexType name="EKUListParams">
