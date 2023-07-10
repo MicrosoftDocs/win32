@@ -1,6 +1,6 @@
 ---
 title: eapttlsconnectionpropertiesv1 Schema
-description: Defines specifying configuration settings for the Microsoft EAP implementation of the TTLS method.
+description: Defines the specified configuration settings for the Microsoft EAP implementation of the TTLS method.
 ms.assetid: 69bf92ae-5963-4213-a344-157f8f65a126
 ms.topic: article
 ms.date: 07/10/2023
@@ -13,7 +13,7 @@ api_location:
 
 # eapttlsconnectionpropertiesv1 Schema
 
-The eapttlsconnectionpropertiesv1 schema defines specifying configuration settings for the Microsoft EAP implementation of the TTLS method.
+The eapttlsconnectionpropertiesv1 schema defines the specified configuration settings for the Microsoft EAP implementation of the TTLS method.
 
 - [eapttlsconnectionpropertiesv1 Schema Elements](eapttlsconnectionpropertiesv1schema-elements.md)
 - [eapttlsconnectionpropertiesv1 Complex Types](eapttlsconnectionpropertiesv1schema-complex-types.md)
