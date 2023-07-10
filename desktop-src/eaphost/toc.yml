@@ -438,6 +438,21 @@
             href: mspeapconnectionpropertiesv2-identityprivacyparameters-complextype.md
           - name: "PeapExtensionsTypeV2 Complex Type"
             href: mspeapconnectionpropertiesv2-peapextensionstypev2-complextype.md
+      - name: "mspeapconnectionpropertiesv3 Schema"
+        href: mspeapconnectionpropertiesv3schema-schema.md
+        items: 
+        - name: "mspeapconnectionpropertiesv3 Schema Elements"
+          href: mspeapconnectionpropertiesv3schema-elements.md
+          items: 
+          - name: "AllowPromptingWhenServerCANotFound Element"
+            href: mspeapconnectionpropertiesv3schema-allowpromptingwhenservercanotfound-element.md
+          - name: "PeapExtensionsV3 (PeapExtensionsTypeV3)"
+            href: mspeapconnectionpropertiesv3-peapextensionsv3-peapextensionstypev3-element.md
+        - name: "mspeapconnectionpropertiesv3 Schema Complex Types"
+          href: mspeapconnectionpropertiesv3schema-complex-types.md
+          items: 
+          - name: "PeapExtensionsTypeV3 Complex Type"
+            href: mspeapconnectionpropertiesv3schema-peapextensionstypev3-complextype.md
       - name: "mspeapuserpropertiesv1 Schema"
         href: mspeapuserpropertiesv1schema-schema.md
         items: 

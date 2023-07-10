@@ -44,6 +44,7 @@ The terms "method configuration" and "connection properties" are used interchang
 | [mschapv2userpropertiesv1](mschapv2userpropertiesv1schema-schema.md)             | Is used with MS-CHAPv2 to describe authentication credentials and credential options.        |
 | [mspeapconnectionpropertiesv1](mspeapconnectionpropertiesv1schema-schema.md)     | Is used with PEAPv0 to describe authentication configuration data.                           |
 | [mspeapconnectionpropertiesv2](mspeapconnectionpropertiesv2schema-schema.md)     | Is used with PEAPv0 to describe authentication configuration data beginning with Windows 7.  |
+| [mspeapconnectionpropertiesv3](mspeapconnectionpropertiesv3schema-schema.md)     | Is used with PEAPv0 to describe authentication configuration data beginning with Windows 8.  |
 | [mspeapuserpropertiesv1](mspeapuserpropertiesv1schema-schema.md)                 | Is used with PEAPv0 to describe authentication credentials and credential options.           |
 
 ## See also
