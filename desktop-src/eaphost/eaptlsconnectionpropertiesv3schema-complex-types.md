@@ -16,6 +16,11 @@ api_location:
 The eaptlsconnectionpropertiesv3 schema defines the following complex types.
 
 - [FilterInfoParams](eaptlsconnectionpropertiesv3schema-filterinfoparams-complextype.md)
+- [CAHashListParams](eaptlsconnectionpropertiesv3schema-cahashlistparams-complextype.md)
+- [EKUMapParams](eaptlsconnectionpropertiesv3schema-ekumapparams-complextype.md)
+- [EKUMapPair](eaptlsconnectionpropertiesv3schema-ekumappair-complextype.md)
+- [EKUListParams](eaptlsconnectionpropertiesv3schema-ekulistparams-complextype.md)
+- [EKUListPair](eaptlsconnectionpropertiesv3schema-ekulistpair-complextype.md)
 - [ExtensionParams](eaptlsconnectionpropertiesv3schema-extensionparams-complextype.md)
 
 ## Related topics

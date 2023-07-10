@@ -314,10 +314,20 @@
         - name: "eaptlsconnectionpropertiesv3 Schema Complex Types"
           href: eaptlsconnectionpropertiesv3schema-complex-types.md
           items: 
-          - name: "ExtensionParams Complex Type"
-            href: eaptlsconnectionpropertiesv3schema-extensionparams-complextype.md
           - name: "FilterInfoParams Complex Type"
             href: eaptlsconnectionpropertiesv3schema-filterinfoparams-complextype.md
+          - name: "CAHashListParams Complex Type"
+            href: eaptlsconnectionpropertiesv3schema-cahashlistparams-complextype.md
+          - name: "EKUMapParams Complex Type"
+            href: eaptlsconnectionpropertiesv3schema-ekumapparams-complextype.md
+          - name: "EKUMapPair Complex Type"
+            href: eaptlsconnectionpropertiesv3schema-ekumappair-complextype.md
+          - name: "EKUListParams Complex Type"
+            href: eaptlsconnectionpropertiesv3schema-ekulistparams-complextype.md
+          - name: "EKUListPair Complex Type"
+            href: eaptlsconnectionpropertiesv3schema-ekulistpair-complextype.md
+          - name: "ExtensionParams Complex Type"
+            href: eaptlsconnectionpropertiesv3schema-extensionparams-complextype.md
       - name: "eaptlsuserpropertiesv1 Schema"
         href: eaptlsuserpropertiesv1schema-schema.md
         items: 
