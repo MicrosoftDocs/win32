@@ -246,7 +246,7 @@ else
     goto Cleanup;
 }
 
-// Call CoinitilizeSecurity.
+// Call CoInitializeSecurity .
 ```
 
 
