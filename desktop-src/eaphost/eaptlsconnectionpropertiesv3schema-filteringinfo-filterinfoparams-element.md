@@ -16,7 +16,7 @@ api_location:
 ROBOTS: INDEX,FOLLOW
 ---
 
-# PerformServerValidation element
+# FilteringInfo (FilterInfoParams) element
 
 The **FilteringInfo (FilterInfoParams)** element provides filtering information for the current type.
 
