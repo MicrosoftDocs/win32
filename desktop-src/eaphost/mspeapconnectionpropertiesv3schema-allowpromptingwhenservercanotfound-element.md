@@ -16,7 +16,7 @@ ms.date: 07/10/2023
 
 # AllowPromptingWhenServerCANotFound Element
 
-The **AllowPromptingWhenServerCANotFound** element indicates whether prompting is allowed when the server's CA is not found.
+The **AllowPromptingWhenServerCANotFound** element is an optional Boolean which specifies method behavior in case the server's certificate does not chain to a trusted root. If `TRUE`, the user is prompted to manually accept or reject the certificate. If `FALSE`, certificate errors will cause the connection to be refused.
 
 ``` xml
 <xs:element name="AllowPromptingWhenServerCANotFound"/>

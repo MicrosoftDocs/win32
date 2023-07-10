@@ -340,6 +340,29 @@
             href: eaptlsuserpropertiesv1schema-usercert-eaptype-element.md
           - name: "Username Element"
             href: eaptlsuserpropertiesv1schema-username-element.md
+      - name: "eapttlsconnectionpropertiesv1 Schema"
+        href: eapttlsconnectionpropertiesv1schema-schema.md
+        items: 
+        - name: "eapttlsconnectionpropertiesv1 Schema Elements"
+          href: eapttlsconnectionpropertiesv1schema-elements.md
+          items: 
+          - name: "eapTtls (EapTtls) Element"
+            href: eapttlsconnectionpropertiesv1schema-eapttls-eapttls-element.md
+        - name: "eapttlsconnectionpropertiesv1 Schema Complex Types"
+          href: eapttlsconnectionpropertiesv1schema-complex-types.md
+          items: 
+          - name: "EapTtls Complex Type"
+            href: eapttlsconnectionpropertiesv1schema-eapttls-complextype.md
+          - name: "TtlsConfig Complex Type"
+            href: eapttlsconnectionpropertiesv1schema-ttlsconfig-complextype.md
+          - name: "ServerValidationParameters Complex Type"
+            href: eapttlsconnectionpropertiesv1schema-servervalidationparameters-complextype.md
+          - name: "Phase2AuthenticationParameters Complex Type"
+            href: eapttlsconnectionpropertiesv1schema-phase2authenticationparameters-complextype.md
+          - name: "Phase1IdentityParameters Complex Type"
+            href: eapttlsconnectionpropertiesv1schema-phase1identityparameters-complextype.md
+          - name: "MSCHAPv2AuthenticationParameters Complex Type"
+            href: eapttlsconnectionpropertiesv1schema-mschapv2authenticationparameters-complextype.md
       - name: "eapuserpropertiesv1 Schema"
         href: eapuserpropertiesv1schema-schema.md
         items: 

@@ -8,7 +8,7 @@ ms.date: 07/10/2023
 
 # PeapExtensionsTypeV3 Complex Type
 
-The **PeapExtensionsTypeV3** complex type enables future enhancements to the schema.
+**PeapExtensionsTypeV3** is an extensible field reserved for future extensions to the Microsoft PEAP implementation.
 
 ```XML
 <xs:complexType name="PeapExtensionsTypeV3">
