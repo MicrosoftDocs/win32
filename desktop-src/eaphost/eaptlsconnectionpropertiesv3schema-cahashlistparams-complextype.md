@@ -23,6 +23,10 @@ The **CAHashListParams** complex type holds a list of certificate authority issu
 
 The **CAHashListParams** element is optional.
 
+*IssuerHash* is the thumbprint of a root certification authority that issues certificates that can be allowed on a client for authentication. It is represented as the hexadecimal encoding of the SHA-1 hash of the certificate. It is optional, but multiple such elements can be present.
+
+*Enabled* indicates whether the certificates on the client are to be filtered based on the CA hash as specified by one or more *IssuerHash* elements. If set to `TRUE`, certificates are filtered based on specified CAs. If set to `FALSE` (default), certificate filtering is not done based on CAs.
+
 ## See also
 
 - [EAPHost and Legacy Schema](eaphost-schemas.md)

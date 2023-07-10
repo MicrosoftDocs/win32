@@ -26,6 +26,16 @@ The **FilterInfoParams** complex type enables future enhancements to the schema.
 
 The **FilterInfoParams** element is optional.
 
+*AllPurposeEnabled* is an optional Boolean that indicates whether all-purpose certificates are allowed for authentication on the client. If set to `TRUE`, all-purpose certificates are allowed. If set to `FALSE` or not set, all-purpose certificates are not allowed.
+
+*CAHashList* is an element of type [CAHashListParams](eaptlsconnectionpropertiesv3schema-cahashlistparams-complextype.md) containing one or more issuer hashes (thumbprints of a root certification authority that issues certificates that can be allowed on a client for authentication).
+
+*EKUMapping* is an optional element of type [EKUMapParams](eaptlsconnectionpropertiesv3schema-ekumapparams-complextype.md) that contains EKU Name and OID mapping(s).
+
+*ClientAuthEKUList* is an optional element of type [EKUListParams](eaptlsconnectionpropertiesv3schema-ekulistparams-complextype.md) for specifying the EKUs to be used for filtering certificates on the client.
+
+*AnyPurposeEKUList* is an optional element of type **EKUListParams** for specifying EKUs.
+
 ## See also
 
 - [EAPHost and Legacy Schema](eaphost-schemas.md)

@@ -8,7 +8,7 @@ ms.date: 07/07/2023
 
 # EKUListPair Complex Type
 
-The **EKUListPair** complex type holds a list of Name / ID pairs.
+The **EKUListPair** complex type holds a list of EKU Name / OID pairs.
 
 ```XML
 <xs:complexType name="EKUListPair">

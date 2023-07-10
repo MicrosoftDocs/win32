@@ -8,7 +8,7 @@ ms.date: 07/07/2023
 
 # EKUMapPair Complex Type
 
-The **EKUMapPair** complex type holds a Name / ID pair.
+The **EKUMapPair** complex type holds a EKU Name / OID pair.
 
 ```XML
 <xs:complexType name="EKUMapPair">

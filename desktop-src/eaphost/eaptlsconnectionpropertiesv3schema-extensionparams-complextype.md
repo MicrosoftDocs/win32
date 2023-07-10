@@ -8,7 +8,7 @@ ms.date: 07/07/2023
 
 # ExtensionParams Complex Type
 
-The **ExtensionParams** complex type enables future enhancements to the schema.
+The **ExtensionParams** complex type contains elements of other namespaces that enables future enhancements to the schema.
 
 ```XML
 <xs:complexType name="ExtensionParams">

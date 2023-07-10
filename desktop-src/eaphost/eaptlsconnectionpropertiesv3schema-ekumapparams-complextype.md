@@ -20,7 +20,7 @@ The **EKUMapParams** complex type contains a list of [EKUMapPair](eaptlsconnecti
 
 ## Remarks
 
-The **EKUMapParams** element is optional.
+The **EKUMapParams** element is optional. However, it can be present multiple times, indicating multiple EKU Name and OID mappings. It is an element of type **EKUMapPair**.
 
 ## See also
 

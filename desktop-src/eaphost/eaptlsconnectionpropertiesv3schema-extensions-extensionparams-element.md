@@ -1,6 +1,6 @@
 ---
 title: Extensions element
-description: Learn about the Extensions element. This element provides extension parameters for the current type. | Extensions element
+description: Learn about the Extensions element. This element is an optional container for elements of other namespaces that enables future enhancements to the schema. | Extensions element
 ms.assetid: 867ec85f-014d-4820-a17a-f864fe28c24e
 keywords:
 - FilteringInfo element EAPHost
@@ -18,7 +18,7 @@ ROBOTS: INDEX,FOLLOW
 
 # Extensions (ExtensionParams) element
 
-The **Extensions (ExtensionParams)** element provides extension parameters for the current type.
+**Extensions (ExtensionParams)** is a container for elements of other namespaces that enables future enhancements to the schema.
 
 ``` xml
 <xs:element name="Extensions"
