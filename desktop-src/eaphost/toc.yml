@@ -447,7 +447,7 @@
           - name: "AllowPromptingWhenServerCANotFound Element"
             href: mspeapconnectionpropertiesv3schema-allowpromptingwhenservercanotfound-element.md
           - name: "PeapExtensionsV3 (PeapExtensionsTypeV3)"
-            href: mspeapconnectionpropertiesv3-peapextensionsv3-peapextensionstypev3-element.md
+            href: mspeapconnectionpropertiesv3schema-peapextensionsv3-peapextensionstypev3-element.md
         - name: "mspeapconnectionpropertiesv3 Schema Complex Types"
           href: mspeapconnectionpropertiesv3schema-complex-types.md
           items: 
