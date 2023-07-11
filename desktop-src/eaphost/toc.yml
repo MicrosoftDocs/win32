@@ -238,6 +238,31 @@
             href: eaphostusercredentialsschema-eaphostusercredentials-element.md
           - name: "EapMethod (EapHostUserCredentials) Element"
             href: eaphostusercredentialsschema-eapmethod-eaphostusercredentials-element.md
+      - name: "eapteapconnectionpropertiesv1 Schema"
+        href: eapteapconnectionpropertiesv1schema-schema.md
+        items: 
+        - name: "eapteapconnectionpropertiesv1 Schema Elements"
+          href: eapteapconnectionpropertiesv1schema-elements.md
+          items: 
+          - name: "eapTeap (EapTeap) Element"
+            href: eapteapconnectionpropertiesv1schema-eapteap-eapteap-element.md
+        - name: "eapteapconnectionpropertiesv1 Schema Complex Types"
+          href: eapteapconnectionpropertiesv1schema-complex-types.md
+          items: 
+          - name: "EapTeap Complex Type"
+            href: eapteapconnectionpropertiesv1schema-eapteap-complextype.md
+          - name: "TeapConfig Complex Type"
+            href: eapteapconnectionpropertiesv1schema-teapconfig-complextype.md
+          - name: "ServerValidationParameters Complex Type"
+            href: eapteapconnectionpropertiesv1schema-servervalidationparameters-complextype.md
+          - name: "Phase2AuthenticationParameters Complex Type"
+            href: eapteapconnectionpropertiesv1schema-phase2authenticationparameters-complextype.md
+          - name: "InnerMethodConfigParameters Complex Type"
+            href: eapteapconnectionpropertiesv1schema-innermethodconfigparameters-complextype.md
+          - name: "InnerMethodParametersType Complex Type"
+            href: eapteapconnectionpropertiesv1schema-innermethodparameterstype-complextype.md
+          - name: "Phase1IdentityParameters Complex Type"
+            href: eapteapconnectionpropertiesv1schema-phase1identityparameters-complextype.md
       - name: "eaptlsconnectionpropertiesv1 Schema"
         href: eaptlsconnectionpropertiesv1schema-schema.md
         items: 
