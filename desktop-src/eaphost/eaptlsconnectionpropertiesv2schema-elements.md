@@ -15,27 +15,12 @@ api_location:
 
 The eaptlsconnectionpropertiesv2 schema is made up of the following schema elements.
 
--   [**AcceptServerName (EapType)**](eaptlsconnectionpropertiesv2schema-acceptservername-eaptype-element.md)
--   [**PerformServerValidation (EapType)**](eaptlsconnectionpropertiesv2shema-tlsextensions-tlsextensionstype-element.md)
--   [**TLSExtensions (TLSExtensionsType)**](eaptlsconnectionpropertiesv2schema-performservervalidation-eaptype-element.md)
+- [**AcceptServerName (EapType)**](eaptlsconnectionpropertiesv2schema-acceptservername-eaptype-element.md)
+- [**PerformServerValidation (EapType)**](eaptlsconnectionpropertiesv2shema-tlsextensions-tlsextensionstype-element.md)
+- [**TLSExtensions (TLSExtensionsType)**](eaptlsconnectionpropertiesv2schema-performservervalidation-eaptype-element.md)
 
-## Related topics
+## See also
 
-<dl> <dt>
-
-[EAPHost and Legacy Schema](eaphost-schemas.md)
-</dt> <dt>
-
-[eaptlsconnectionpropertiesv1 Schema](eaptlsconnectionpropertiesv1schema-schema.md)
-</dt> <dt>
-
-[eaptlsconnectionpropertiesv2 Schema](eaptlsconnectionpropertiesv2schema-schema.md)
-</dt> </dl>
-
- 
-
- 
-
-
-
-
+- [EAPHost and Legacy Schema](eaphost-schemas.md)
+- [eaptlsconnectionpropertiesv1 Schema](eaptlsconnectionpropertiesv1schema-schema.md)
+- [eaptlsconnectionpropertiesv2 Schema](eaptlsconnectionpropertiesv2schema-schema.md)

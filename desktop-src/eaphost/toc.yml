@@ -301,6 +301,33 @@
           items: 
           - name: "TLSExtensionsType Complex Type"
             href: eaptlsconnectionpropertiesv2schema-tlsextensionstype-complextype.md
+      - name: "eaptlsconnectionpropertiesv3 Schema"
+        href: eaptlsconnectionpropertiesv3schema-schema.md
+        items: 
+        - name: "eaptlsconnectionpropertiesv3 Schema Elements"
+          href: eaptlsconnectionpropertiesv3schema-elements.md
+          items: 
+          - name: "Extensions (ExtensionParams) Element"
+            href: eaptlsconnectionpropertiesv3schema-extensions-extensionparams-element.md
+          - name: "FilteringInfo (FilterInfoParams) Element"
+            href: eaptlsconnectionpropertiesv3schema-filteringinfo-filterinfoparams-element.md
+        - name: "eaptlsconnectionpropertiesv3 Schema Complex Types"
+          href: eaptlsconnectionpropertiesv3schema-complex-types.md
+          items: 
+          - name: "FilterInfoParams Complex Type"
+            href: eaptlsconnectionpropertiesv3schema-filterinfoparams-complextype.md
+          - name: "CAHashListParams Complex Type"
+            href: eaptlsconnectionpropertiesv3schema-cahashlistparams-complextype.md
+          - name: "EKUMapParams Complex Type"
+            href: eaptlsconnectionpropertiesv3schema-ekumapparams-complextype.md
+          - name: "EKUMapPair Complex Type"
+            href: eaptlsconnectionpropertiesv3schema-ekumappair-complextype.md
+          - name: "EKUListParams Complex Type"
+            href: eaptlsconnectionpropertiesv3schema-ekulistparams-complextype.md
+          - name: "EKUListPair Complex Type"
+            href: eaptlsconnectionpropertiesv3schema-ekulistpair-complextype.md
+          - name: "ExtensionParams Complex Type"
+            href: eaptlsconnectionpropertiesv3schema-extensionparams-complextype.md
       - name: "eaptlsuserpropertiesv1 Schema"
         href: eaptlsuserpropertiesv1schema-schema.md
         items: 
@@ -313,6 +340,29 @@
             href: eaptlsuserpropertiesv1schema-usercert-eaptype-element.md
           - name: "Username Element"
             href: eaptlsuserpropertiesv1schema-username-element.md
+      - name: "eapttlsconnectionpropertiesv1 Schema"
+        href: eapttlsconnectionpropertiesv1schema-schema.md
+        items: 
+        - name: "eapttlsconnectionpropertiesv1 Schema Elements"
+          href: eapttlsconnectionpropertiesv1schema-elements.md
+          items: 
+          - name: "eapTtls (EapTtls) Element"
+            href: eapttlsconnectionpropertiesv1schema-eapttls-eapttls-element.md
+        - name: "eapttlsconnectionpropertiesv1 Schema Complex Types"
+          href: eapttlsconnectionpropertiesv1schema-complex-types.md
+          items: 
+          - name: "EapTtls Complex Type"
+            href: eapttlsconnectionpropertiesv1schema-eapttls-complextype.md
+          - name: "TtlsConfig Complex Type"
+            href: eapttlsconnectionpropertiesv1schema-ttlsconfig-complextype.md
+          - name: "ServerValidationParameters Complex Type"
+            href: eapttlsconnectionpropertiesv1schema-servervalidationparameters-complextype.md
+          - name: "Phase2AuthenticationParameters Complex Type"
+            href: eapttlsconnectionpropertiesv1schema-phase2authenticationparameters-complextype.md
+          - name: "Phase1IdentityParameters Complex Type"
+            href: eapttlsconnectionpropertiesv1schema-phase1identityparameters-complextype.md
+          - name: "MSCHAPv2AuthenticationParameters Complex Type"
+            href: eapttlsconnectionpropertiesv1schema-mschapv2authenticationparameters-complextype.md
       - name: "eapuserpropertiesv1 Schema"
         href: eapuserpropertiesv1schema-schema.md
         items: 
@@ -411,6 +461,21 @@
             href: mspeapconnectionpropertiesv2-identityprivacyparameters-complextype.md
           - name: "PeapExtensionsTypeV2 Complex Type"
             href: mspeapconnectionpropertiesv2-peapextensionstypev2-complextype.md
+      - name: "mspeapconnectionpropertiesv3 Schema"
+        href: mspeapconnectionpropertiesv3schema-schema.md
+        items: 
+        - name: "mspeapconnectionpropertiesv3 Schema Elements"
+          href: mspeapconnectionpropertiesv3schema-elements.md
+          items: 
+          - name: "AllowPromptingWhenServerCANotFound Element"
+            href: mspeapconnectionpropertiesv3schema-allowpromptingwhenservercanotfound-element.md
+          - name: "PeapExtensionsV3 (PeapExtensionsTypeV3)"
+            href: mspeapconnectionpropertiesv3schema-peapextensionsv3-peapextensionstypev3-element.md
+        - name: "mspeapconnectionpropertiesv3 Schema Complex Types"
+          href: mspeapconnectionpropertiesv3schema-complex-types.md
+          items: 
+          - name: "PeapExtensionsTypeV3 Complex Type"
+            href: mspeapconnectionpropertiesv3schema-peapextensionstypev3-complextype.md
       - name: "mspeapuserpropertiesv1 Schema"
         href: mspeapuserpropertiesv1schema-schema.md
         items: 
