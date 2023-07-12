@@ -20,4 +20,4 @@ The eapteapconnectionpropertiesv1 schema is made up of the following schema elem
 ## See also
 
 - [EAPHost and Legacy Schema](eaphost-schemas.md)
-- [eapteapconnectionpropertiesv1 Schema](eaptlsconnectionpropertiesv1schema-schema.md)
+- [eapteapconnectionpropertiesv1 Schema](eapteapconnectionpropertiesv1schema-schema.md)

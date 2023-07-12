@@ -238,6 +238,22 @@
             href: eaphostusercredentialsschema-eaphostusercredentials-element.md
           - name: "EapMethod (EapHostUserCredentials) Element"
             href: eaphostusercredentialsschema-eapmethod-eaphostusercredentials-element.md
+      - name: "eapsimconnectionpropertiesv1 Schema"
+        href: eapsimconnectionpropertiesv1schema-schema.md
+        items: 
+        - name: "eapsimconnectionpropertiesv1 Schema Elements"
+          href: eapsimconnectionpropertiesv1schema-elements.md
+          items: 
+          - name: "EapSim Element"
+            href: eapsimconnectionpropertiesv1schema-eapsim-element.md
+          - name: "UseStrongCipherKeys (EapSim) Element"
+            href: eapsimconnectionpropertiesv1schema-usestrongcipherkeys-eapsim-element.md
+          - name: "DontRevealPermanentID (EapSim) Element"
+            href: eapsimconnectionpropertiesv1schema-dontrevealpermanentid-eapsim-element.md
+          - name: "ProviderName (EapSim) Element"
+            href: eapsimconnectionpropertiesv1schema-providername-eapsim-element.md
+          - name: "Realm (EapSim) Element"
+            href: eapsimconnectionpropertiesv1schema-realm-eapsim-element.md
       - name: "eapteapconnectionpropertiesv1 Schema"
         href: eapteapconnectionpropertiesv1schema-schema.md
         items: 
