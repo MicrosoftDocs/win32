@@ -532,6 +532,38 @@
           items: 
           - name: "PeapExtensionsType Complex Type"
             href: mspeapuserpropertiesv1schema-peapextensionstype-complextype.md
+      - name: "eapakaconnectionpropertiesv1 Schema"
+        href: eapakaconnectionpropertiesv1schema-schema.md
+        items: 
+        - name: "eapakaconnectionpropertiesv1 Schema Elements"
+          href: eapakaconnectionpropertiesv1schema-elements.md
+          items: 
+          - name: "EapAka Element"
+            href: eapakaconnectionpropertiesv1schema-eapaka-element.md
+          - name: "DontRevealPermanentID (EapAka) Element"
+            href: eapakaconnectionpropertiesv1schema-dontrevealpermanentid-eapaka-element.md
+          - name: "ProviderName (EapAka) Element"
+            href: eapakaconnectionpropertiesv1schema-providername-eapaka-element.md
+          - name: "Realm (EapAka) Element"
+            href: eapakaconnectionpropertiesv1schema-realm-eapaka-element.md
+      - name: "eapakaprimeconnectionpropertiesv1 Schema"
+        href: eapakaprimeconnectionpropertiesv1schema-schema.md
+        items: 
+        - name: "eapakaprimeconnectionpropertiesv1 Schema Elements"
+          href: eapakaprimeconnectionpropertiesv1schema-elements.md
+          items: 
+          - name: "EapAkaPrime Element"
+            href: eapakaprimeconnectionpropertiesv1schema-eapakaprime-element.md
+          - name: "IgnoreNetworkNameMismatch (EapAkaPrime) Element"
+            href: eapakaprimeconnectionpropertiesv1schema-ignorenetworknamemismatch-eapakaprime-element.md
+          - name: "EnableFastReauth (EapAkaPrime) Element"
+            href: eapakaprimeconnectionpropertiesv1schema-enablefastreauth-eapakaprime-element.md
+          - name: "DontRevealPermanentID (EapAkaPrime) Element"
+            href: eapakaprimeconnectionpropertiesv1schema-dontrevealpermanentid-eapakaprime-element.md
+          - name: "ProviderName (EapAkaPrime) Element"
+            href: eapakaprimeconnectionpropertiesv1schema-providername-eapakaprime-element.md
+          - name: "Realm (EapAkaPrime) Element"
+            href: eapakaprimeconnectionpropertiesv1schema-realm-eapakaprime-element.md
     - name: "Common EAPHost API Enumerations"
       href: common-eap-host-api-enumerations.md
       items: 

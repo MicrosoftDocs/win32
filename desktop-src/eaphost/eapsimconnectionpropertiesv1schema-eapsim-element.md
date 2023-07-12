@@ -60,5 +60,5 @@ This derived **EapSim** element contains the following elements:
 ## See also
 
 - [EAPHost and Legacy Schema](eaphost-schemas.md)
-- [eaptlsconnectionpropertiesv1 Schema](eaptlsconnectionpropertiesv1schema-schema.md)
-- [eaptlsconnectionpropertiesv1 Schema Elements](eaptlsconnectionpropertiesv1schema-elements.md)
+- [eapsimconnectionpropertiesv1 Schema](eapsimconnectionpropertiesv1schema-schema.md)
+- [eapsimconnectionpropertiesv1 Schema Elements](eapsimconnectionpropertiesv1schema-elements.md)
