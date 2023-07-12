@@ -13,9 +13,13 @@ api_location:
 
 # eapsimconnectionpropertiesv1 Schema
 
-The eapsimconnectionpropertiesv1 schema defines authentication configuration data using Extensible Authentication Protocol (EAP) method for Global System for Mobile Communications (GSM) Subscriber Identity Modules (EAP-SIM). The EAP-SIM mechanism describes the enhancements to GSM auth and key agreement where multiple authentication triplets can be combined to create responses and session keys of greater strength than individual GSM triplets. This mechanism includes network authentication, user anonymity support, result indications, and a fast re-auth procedure.
+The eapsimconnectionpropertiesv1 schema defines authentication configuration data using Extensible Authentication Protocol (EAP) method for Global System for Mobile Communications (GSM) Subscriber Identity Modules (EAP-SIM).
 
 - [eapsimconnectionpropertiesv1 Schema Elements](eapsimconnectionpropertiesv1schema-elements.md)
+
+## Remarks
+
+The EAP-SIM mechanism describes the enhancements to GSM auth and key agreement where multiple authentication triplets can be combined to create responses and session keys of greater strength than individual GSM triplets. This mechanism includes network authentication, user anonymity support, result indications, and a fast re-auth procedure.
 
 ## See also
 
