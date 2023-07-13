@@ -46,13 +46,13 @@ Although private parties are not permitted to introduce new definitions into ano
 <li>name attributes are required to appear in each of the element types that contain them, except in the case of some previously defined public Print Schema Option elements, such as DocumentNUp.<br/></li>
 </ul>
 The following example shows how to identify an Option instance using a 'name' attribute. This is the correct way to define Option elements. A provider should not have unnamed Options, unless they are publicly defined in the Print Schema, such as DocumentNUp.<br/>
-<pre class="syntax" data-space="preserve"><code>  <psf:Option name=&quot;psk:StapleBottomRight&quot;>
-    \<psf:ScoredProperty name=&quot;psk:Angle&quot;\>
-      <psf:Value xsi:type=&quot;xs:integer&quot;>_Undefined_</psf:Value>
-    </psf:ScoredProperty>
-    <psf:ScoredProperty name=&quot;psk:SheetCapacity&quot; >
-      <psf:Value xsi:type=&quot;xs:integer&quot;>_Undefined_</psf:Value>
-    </psf:ScoredProperty>
+<pre class="syntax" data-space="preserve"><code>  &lt;psf:Option name=&quot;psk:StapleBottomRight&quot;&gt;
+    \&lt;psf:ScoredProperty name=&quot;psk:Angle&quot;&gt;
+      &lt;psf:Value xsi:type=&quot;xs:integer&quot;>_Undefined_&lt;psf:Value&gt;
+    &lt;/psf:ScoredProperty&gt;
+    &lt;psf:ScoredProperty name=&quot;psk:SheetCapacity&quot; &gt;
+      &lt;psf:Value xsi:type=&quot;xs:integer&quot;&gt;_Undefined_&lt;psf:Value&gt;
+    &lt;psf:ScoredProperty&gt;
   &lt;/psf:Option&gt;</code></pre></td>
 </tr>
 <tr class="even">

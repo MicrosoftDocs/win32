@@ -71,12 +71,12 @@ The arguments and options for this tool are described in the following table.
 <td>Generate a header file called &lt;headerFile&gt; that contains the markup Command ID resource symbols. If omitted, a header file is not generated.</td>
 </tr>
 <tr class="even">
-<td>/res:<resourceFile></td>
-<td>Generate a resource file called \<resourceFile> that links all image and string resources, the binary markup file, and the header file to the host application at build time. If omitted, a resource file is not generated.</td>
+<td>/res:&lt;resourceFile&gt;</td>
+<td>Generate a resource file called &lt;resourceFile&gt; that links all image and string resources, the binary markup file, and the header file to the host application at build time. If omitted, a resource file is not generated.</td>
 </tr>
 <tr class="odd">
-<td>/name:<ribbonName></td>
-<td>The resource name for the binary markup file that is logged in the \<resourceFile>. The default is APPLICATION_RIBBON.</td>
+<td>/name:&lt;ribbonName&gt;</td>
+<td>The resource name for the binary markup file that is logged in the &lt;resourceFile&gt;. The default is APPLICATION_RIBBON.</td>
 </tr>
 <tr class="even">
 <td>/W{0\1\2}</td>

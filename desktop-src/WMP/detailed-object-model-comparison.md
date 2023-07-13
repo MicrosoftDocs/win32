@@ -231,8 +231,8 @@ The following table compares the Windows Media Player 6.4 object model propertie
 </tr>
 <tr class="odd">
 <td><em>Player6</em>.<strong>DefaultFrame</strong></td>
-<td>Use <em>Settings</em>.<strong>defaultFrame</strong>, or use a <PARAM> attribute in the &lt;OBJECT&gt; element:
-<pre data-space="preserve"><code>\<PARAM NAME=&quot;defaultFrame&quot; VALUE=&quot;right&quot;></code></pre></td>
+<td>Use <em>Settings</em>.<strong>defaultFrame</strong>, or use a &lt;PARAM&gt; attribute in the &lt;OBJECT&gt; element:
+<pre data-space="preserve"><code>&lt;PARAM NAME=&quot;defaultFrame&quot; VALUE=&quot;right&quot;&gt;</code></pre></td>
 </tr>
 <tr class="even">
 <td><em>Player6</em>.<strong>DisplayBackColor</strong></td>

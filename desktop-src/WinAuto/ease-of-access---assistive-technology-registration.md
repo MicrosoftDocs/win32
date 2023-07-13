@@ -280,9 +280,9 @@ The values in the table are under the following key:
 <tbody>
 <tr class="odd">
 <td><pre><code>&lt;HCIModel&gt;
-   \<Accommodation type=&quot;low vision&quot; />
-   \<Accommodation type=&quot;severe vision&quot; />
-   \<Accommodation type=&quot;mild cognitive&quot; />
+   &lt;Accommodation type=&quot;low vision&quot;&gt;
+   &lt;Accommodation type=&quot;severe vision&quot;&gt;
+   &lt;Accommodation type=&quot;mild cognitive&quot;&gt;
 &lt;/HCIModel&gt;</code></pre></td>
 </tr>
 </tbody>
@@ -360,9 +360,9 @@ If the application provides both a screen reader and a screen magnifier in a sin
 <tbody>
 <tr class="odd">
 <td><pre><code>&lt;HCIModel&gt;
-   \<Accommodation type=&quot;low vision&quot; />
-   \<Accommodation type=&quot;severe vision&quot; />
-   \<Accommodation type=&quot;mild cognitive&quot; />
+   &lt;Accommodation type=&quot;low vision&quot;&gt;
+   &lt;Accommodation type=&quot;severe vision&quot;&gt;
+   &lt;Accommodation type=&quot;mild cognitive&quot;&gt;
 &lt;/HCIModel&gt;</code></pre></td>
 </tr>
 </tbody>
@@ -437,7 +437,7 @@ The values for the magnifier component would be in the following key:
 <tbody>
 <tr class="odd">
 <td><pre><code>&lt;HCIModel&gt;
-   \<Accommodation type=&quot;mild vision&quot; />
+   &lt;Accommodation type=&quot;mild vision&quot;&gt;
 &lt;/HCIModel&gt;</code></pre></td>
 </tr>
 </tbody>

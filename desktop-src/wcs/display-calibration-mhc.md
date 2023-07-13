@@ -231,8 +231,8 @@ An MHC ICC profile must contain one MHC2 tag structure. The matrix and 1DLUT col
 
 produces the following matrix:
 
-|   |   |   |
-| - | - | - |
+| First column | Second Column  | Third Column  |
+| --- | --- | --- |
 | a | b | c |
 | d | e | f |
 | g | h | i |

@@ -127,7 +127,7 @@ The **/g** or **/gc** switch did not work successfully due to no SMIR connection
 
 </dd> <dt>
 
-<span id="smi2smir__Name_of_the_module___module_name_"></span><span id="smi2smir__name_of_the_module___module_name_"></span><span id="SMI2SMIR__NAME_OF_THE_MODULE___MODULE_NAME_"></span>**smi2smir: Name of the module: <module name>**
+<span id="smi2smir__Name_of_the_module___module_name_"></span><span id="smi2smir__name_of_the_module___module_name_"></span><span id="SMI2SMIR__NAME_OF_THE_MODULE___MODULE_NAME_"></span>**smi2smir: Name of the module: &lt;module name&gt;**
 </dt> <dd>
 
 This is the successful output of the **/n** switch.
