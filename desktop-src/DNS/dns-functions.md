@@ -1,19 +1,20 @@
 ﻿---
-title: DNS Functions
-description: Domain Name System (DNS) functions navigation page.
+title: DNS functions
+description: The following functions are defined for DNS.
 ms.assetid: 9b3c1c20-5516-41de-b00f-b95736ff53f1
 keywords:
 - Domain Name System, reference, functions
 ms.topic: article
-ms.date: 04/19/2019
+ms.date: 07/13/2023
 ---
 
-# DNS Functions
+# DNS functions
 
 The following functions are defined for DNS.
 
 - [**DnsAcquireContextHandle**](/windows/win32/api/windns/nf-windns-dnsacquirecontexthandle_a)
 - [**DnsCancelQuery**](/windows/win32/api/windns/nf-windns-dnscancelquery)
+- [**DnsCancelQueryRaw**](/windows/win32/api/windns/nf-windns-dnscancelqueryraw)
 - [**DnsExtractRecordsFromMessage**](/windows/win32/api/windns/nf-windns-dnsextractrecordsfrommessage_utf8)
 - [**DnsFree**](/windows/win32/api/windns/nf-windns-dnsfree)
 - [**DnsFreeCustomServers**](/windows/win32/api/windns/nf-windns-dnsfreecustomservers)
@@ -25,6 +26,8 @@ The following functions are defined for DNS.
 - [**DnsQuery**](/windows/win32/api/windns/nf-windns-dnsquery_a)
 - [**DnsQueryConfig**](/windows/win32/api/windns/nf-windns-dnsqueryconfig)
 - [**DnsQueryEx**](/windows/win32/api/windns/nf-windns-dnsqueryex)
+- [**DnsQueryRaw**](/windows/win32/api/windns/nf-windns-dnsqueryraw)
+- [**DnsQueryRawResultFree**](/windows/win32/api/windns/nf-windns-dnsqueryrawresultfree)
 - [**DnsRecordCompare**](/windows/win32/api/windns/nf-windns-dnsrecordcompare)
 - [**DnsRecordCopyEx**](/windows/win32/api/windns/nf-windns-dnsrecordcopyex)
 - [**DnsRecordListFree**](/windows/win32/api/windns/nf-windns-dnsrecordlistfree)
