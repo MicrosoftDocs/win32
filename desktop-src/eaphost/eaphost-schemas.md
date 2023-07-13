@@ -32,23 +32,25 @@ The terms "method configuration" and "connection properties" are used interchang
 
 | Schema | Description |
 |--------|--------|
-| [baseeapconnectionpropertiesv1](baseeapconnectionpropertiesv1schema-schema.md)   | Contains common configuration schema elements.                                               |
-| [baseeapuserpropertiesv1](baseeapuserpropertiesv1schema-schema.md)               | Contains common credential schema elements.                                                  |
-| [eapconnectionpropertiesv1](eapconnectionpropertiesv1schema-schema.md)           | Contains common configuration schema elements.                                               |
-| [eapuserpropertiesv1](eapuserpropertiesv1schema-schema.md)                       | Contains common credential schema elements.                                                  |
-| [eapsimconnectionpropertiesv1](eapsimconnectionpropertiesv1schema-schema.md)     | Is used with EAP-SIM to describe authentication configuration data.                         |
-| [eapteapconnectionpropertiesv1](eapteapconnectionpropertiesv1schema-schema.md)   | Is used with EAP-TEAP to describe authentication configuration data.                         |
-| [eaptlsconnectionpropertiesv1](eaptlsconnectionpropertiesv1schema-schema.md)     | Is used with EAP-TLS to describe authentication configuration data.                          |
-| [eaptlsconnectionpropertiesv2](eaptlsconnectionpropertiesv2schema-schema.md)     | Is used with EAP-TLS to describe authentication configuration data beginning with Windows 7. |
-| [eaptlsconnectionpropertiesv3](eaptlsconnectionpropertiesv3schema-schema.md)     | Is used with EAP-TLS to describe authentication configuration data beginning with Windows 8. |
-| [eaptlsuserpropertiesv1](eaptlsuserpropertiesv1schema-schema.md)                 | Is used with EAP-TLS to describe authentication credentials and credential options.          |
-| [eapttlsconnectionpropertiesv1](eapttlsconnectionpropertiesv1schema-schema.md)   | Is used to specify configuration settings for the Microsoft EAP implementation of the TTLS method beginning with Windows 8. |
-| [mschapv2connectionpropertiesv1](mschapv2connectionpropertiesv1schema-schema.md) | Is used with MS-CHAPv2 to describe authentication configuration data.                        |
-| [mschapv2userpropertiesv1](mschapv2userpropertiesv1schema-schema.md)             | Is used with MS-CHAPv2 to describe authentication credentials and credential options.        |
-| [mspeapconnectionpropertiesv1](mspeapconnectionpropertiesv1schema-schema.md)     | Is used with PEAPv0 to describe authentication configuration data.                           |
-| [mspeapconnectionpropertiesv2](mspeapconnectionpropertiesv2schema-schema.md)     | Is used with PEAPv0 to describe authentication configuration data beginning with Windows 7.  |
-| [mspeapconnectionpropertiesv3](mspeapconnectionpropertiesv3schema-schema.md)     | Is used with PEAPv0 to describe authentication configuration data beginning with Windows 8.  |
-| [mspeapuserpropertiesv1](mspeapuserpropertiesv1schema-schema.md)                 | Is used with PEAPv0 to describe authentication credentials and credential options.           |
+| [baseeapconnectionpropertiesv1](baseeapconnectionpropertiesv1schema-schema.md)         | Contains common configuration schema elements.                                               |
+| [baseeapuserpropertiesv1](baseeapuserpropertiesv1schema-schema.md)                     | Contains common credential schema elements.                                                  |
+| [eapconnectionpropertiesv1](eapconnectionpropertiesv1schema-schema.md)                 | Contains common configuration schema elements.                                               |
+| [eapuserpropertiesv1](eapuserpropertiesv1schema-schema.md)                             | Contains common credential schema elements.                                                  |
+| [eapsimconnectionpropertiesv1](eapsimconnectionpropertiesv1schema-schema.md)           | Is used with EAP-SIM to describe authentication configuration data.                         |
+| [eapteapconnectionpropertiesv1](eapteapconnectionpropertiesv1schema-schema.md)         | Is used with EAP-TEAP to describe authentication configuration data.                         |
+| [eaptlsconnectionpropertiesv1](eaptlsconnectionpropertiesv1schema-schema.md)           | Is used with EAP-TLS to describe authentication configuration data.                          |
+| [eaptlsconnectionpropertiesv2](eaptlsconnectionpropertiesv2schema-schema.md)           | Is used with EAP-TLS to describe authentication configuration data beginning with Windows 7. |
+| [eaptlsconnectionpropertiesv3](eaptlsconnectionpropertiesv3schema-schema.md)           | Is used with EAP-TLS to describe authentication configuration data beginning with Windows 8. |
+| [eaptlsuserpropertiesv1](eaptlsuserpropertiesv1schema-schema.md)                       | Is used with EAP-TLS to describe authentication credentials and credential options.          |
+| [eapttlsconnectionpropertiesv1](eapttlsconnectionpropertiesv1schema-schema.md)         | Is used to specify configuration settings for the Microsoft EAP implementation of the TTLS method beginning with Windows 8. |
+| [mschapv2connectionpropertiesv1](mschapv2connectionpropertiesv1schema-schema.md)       | Is used with MS-CHAPv2 to describe authentication configuration data.                        |
+| [mschapv2userpropertiesv1](mschapv2userpropertiesv1schema-schema.md)                   | Is used with MS-CHAPv2 to describe authentication credentials and credential options.        |
+| [mspeapconnectionpropertiesv1](mspeapconnectionpropertiesv1schema-schema.md)           | Is used with PEAPv0 to describe authentication configuration data.                           |
+| [mspeapconnectionpropertiesv2](mspeapconnectionpropertiesv2schema-schema.md)           | Is used with PEAPv0 to describe authentication configuration data beginning with Windows 7.  |
+| [mspeapconnectionpropertiesv3](mspeapconnectionpropertiesv3schema-schema.md)           | Is used with PEAPv0 to describe authentication configuration data beginning with Windows 8.  |
+| [mspeapuserpropertiesv1](mspeapuserpropertiesv1schema-schema.md)                       | Is used with PEAPv0 to describe authentication credentials and credential options.           |
+| [eapakaconnectionpropertiesv1](eapakaconnectionpropertiesv1schema-schema.md)           | Is used with EAP-AKA to describe authentication configuration data.                         |
+| [eapakaprimeconnectionpropertiesv1](eapakaprimeconnectionpropertiesv1schema-schema.md) | Is used with EAP-AKA to describe authentication configuration data.                         |
 
 ## See also
 

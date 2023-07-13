@@ -47,5 +47,5 @@ The **UseStrongCipherKeys (EapSim)** element is optional.
 ### Related links
 
 - [EAPHost and Legacy Schema](eaphost-schemas.md)
-- [eapteapconnectionpropertiesv1](eapteapconnectionpropertiesv1schema-schema.md)
-- [eapteapconnectionpropertiesv1 Schema Elements](eapteapconnectionpropertiesv1schema-elements.md)
+- [eapsimconnectionpropertiesv1](eapsimconnectionpropertiesv1schema-schema.md)
+- [eapsimconnectionpropertiesv1 Schema Elements](eapsimconnectionpropertiesv1schema-elements.md)
