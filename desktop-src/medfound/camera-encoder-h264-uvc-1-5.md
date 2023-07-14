@@ -24,7 +24,6 @@ The following API are used with H.264 UVC 1.5 camera encoders.
 -   [**eAVEncH264VProfile**](/windows/desktop/api/codecapi/ne-codecapi-eavench264vprofile)
 -   [**eAVEncCommonRateControlMode**](/windows/desktop/api/codecapi/ne-codecapi-eavenccommonratecontrolmode)
 -   [MF\_MT\_H264\_CAPABILITIES](mf-mt-h264-capabilities.md)
--   [MF\_MT\_H264\_DYNAMIC\_RESOLUTION\_SCALING](https://www.bing.com/search?q=MF\_MT\_H264\_DYNAMIC\_RESOLUTION\_SCALING)
 -   [MF\_MT\_H264\_MAX\_CODEC\_CONFIG\_DELAY](mf-mt-h264-max-codec-config-delay.md)
 -   [MF\_MT\_H264\_MAX\_MB\_PER\_SEC](mf-mt-h264-max-mb-per-sec.md)
 -   [MF\_MT\_H264\_SIMULCAST\_SUPPORT](mf-mt-h264-simulcast-support.md)

@@ -41,7 +41,7 @@ The DXVA 1 documentation describes the decoding structures used for the followin
 
 The following specifications define DXVA extensions for other video standards:
 
--   [DXVA Specification for H.264/AVC Decoding](https://www.microsoft.com/downloads/details.aspx?FamilyID=3d1c290b-310b-4ea2-bf76-714063a6d7a6&displaylang=en)
+-   [DXVA Specification for H.264/AVC Decoding](https://www.microsoft.com/download/details.aspx?id=11323)
 -   [DXVA Specification for H.264/MPEG-4 AVC Multiview Video Coding (MVC), Including the Stereo High Profile](https://www.microsoft.com/download/details.aspx?id=25200)
 -   [DXVA Specification for MPEG-1 VLD and Combined MPEG-1/MPEG-2 VLD Video Decoding](https://www.microsoft.com/download/details.aspx?id=9374).
 -   [DXVA Specification for Off-Host VLD Mode for MPEG-4 Part 2 Video Decoding](https://www.microsoft.com/download/details.aspx?id=21100)

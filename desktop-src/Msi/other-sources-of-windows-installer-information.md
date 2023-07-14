@@ -50,12 +50,9 @@ You can search the Knowledge Base (KB) for articles about the Windows Installer:
 
 You can read white papers that describe the Windows Installer:
 
--   [Windows Installer: Benefits and Implementation for System Administrators](https://www.microsoft.com/technet/prodtechnol/windows2000serv/maintain/featusability/winmsi.mspx)
 -   [New Features and Design Changes in Windows Installer 2.0](/previous-versions/windows/it-pro/windows-xp/bb457094(v=technet.10))
 -   [Using Software Restriction Policies to Protect Against Unauthorized Software](/previous-versions/windows/it-pro/windows-xp/bb457006(v=technet.10))
 -   [Patch Sequencing in Windows Installer version 3.0](https://www.microsoft.com/downloads/details.aspx?FamilyID=ad7ac91e-2493-4549-ae6f-bf5e007c12a3)
--   [Software Installation and Maintenance](https://www.microsoft.com/technet/prodtechnol/windows2000serv/maintain/featusability/inmnwp.mspx)
--   [Step-by-Step Guide to Creating Windows Installer Packages and Repackaging Software for the Windows Installer](https://www.microsoft.com/technet/prodtechnol/windows2000serv/howto/winstall.mspx)
 -   [Standardizing the Patch Experience](https://www.microsoft.com/technet/security/topics/patchmanagement/stdpatex.mspx)
 -   [Delta Compression Application Programming Interface](https://msdn.microsoft.com/library/ms811406.aspx)
 
