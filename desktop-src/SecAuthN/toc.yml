@@ -244,11 +244,15 @@
             items: 
             - name: "Prioritizing Schannel Cipher Suites"
               href: prioritizing-schannel-cipher-suites.md
+            - name: "TLS Cipher Suites in Windows 11 v22H2"
+              href: tls-cipher-suites-in-windows-11-v22H2.md
             - name: "TLS Cipher Suites in Windows 11"
               href: tls-cipher-suites-in-windows-11.md
             - name: "TLS Cipher Suites in Windows Server 2022"
               href: tls-cipher-suites-in-windows-server-2022.md
-            - name: "TLS Cipher Suites in Windows 10 v20H2 and v21H1"
+            - name: "TLS Cipher Suites in Windows 10 v22H2"
+              href: tls-cipher-suites-in-windows-10-v22H2.md
+            - name: "TLS Cipher Suites in Windows 10 v20H2, v21H1, and v21H2"
               href: tls-cipher-suites-in-windows-10-v20H2.md
             - name: "TLS Cipher Suites in Windows 10 v1903"
               href: tls-cipher-suites-in-windows-10-v1903.md
