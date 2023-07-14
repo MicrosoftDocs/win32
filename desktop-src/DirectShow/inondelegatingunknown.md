@@ -31,9 +31,9 @@ The `INonDelegatingUnknown` interface is a version of **IUnknown** that is renam
 ```C++
 interface INonDelegatingUnknown
 {
-    virtual HRESULT NonDelegatingQueryInterface) (REFIID riid, LPVOID *ppv) PURE;
-    virtual ULONG NonDelegatingAddRef)(void) PURE;
-    virtual ULONG NonDelegatingRelease)(void) PURE;
+    virtual HRESULT NonDelegatingQueryInterface(REFIID riid, LPVOID *ppv) PURE;
+    virtual ULONG NonDelegatingAddRef(void) PURE;
+    virtual ULONG NonDelegatingRelease(void) PURE;
 };
 ```
 
