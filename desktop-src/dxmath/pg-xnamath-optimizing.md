@@ -97,7 +97,7 @@ DirectXMath supports vectors of 4 single-precision floating-point or four 32-bit
 
 Because the instruction sets used to implement the DirectXMath Library have the ability to treat the same data as multiple different types-for example, treat the same vector as floating-point and integer data-certain optimizations can be achieved. You can get these optimizations by using the integer vector initialization routines and bit-wise operators to manipulate floating-point values.
 
-The binary format of single-precision floating-point numbers used by the DirectXMath Library completely conforms to the IEEE 764 standard:
+The binary format of single-precision floating-point numbers used by the DirectXMath Library completely conforms to the IEEE 754 standard:
 
 ``` syntax
      SIGN    EXPONENT   MANTISSA
@@ -105,7 +105,7 @@ The binary format of single-precision floating-point numbers used by the DirectX
      1 bit   8 bits     23 bits
 ```
 
-When working with the IEEE 764 single precision floating-point number, it is important to keep in mind, that some representations have special meaning (that is, they do not conform to the preceding description). Examples include:
+When working with the IEEE 754 single precision floating-point number, it is important to keep in mind, that some representations have special meaning (that is, they do not conform to the preceding description). Examples include:
 
 -   Positive zero is 0
 -   Negative zero is 0x80000000
