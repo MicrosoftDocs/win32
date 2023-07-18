@@ -17,7 +17,7 @@ api_location:
 
 # WaveActiveBitOr function
 
-Returns the bitwise OR of all the values of <expr> across all active non-helper lanes in the current wave and replicates it back to all active non-helper lanes.
+Returns the bitwise OR of all the values of `<expr>` across all active non-helper lanes in the current wave, and replicates it back to all active non-helper lanes.
 
 ## Syntax
 
