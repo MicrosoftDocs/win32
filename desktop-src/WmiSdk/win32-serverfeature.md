@@ -2293,6 +2293,67 @@ For Each objFeature In colFeatureList
 Next
 ```
 
+The following PowerShell script parses the `Win32_ServerFeature` data and prints out in a simple tree view based on the ID-Parent ID relationship.
+
+
+```powershell
+# Get all the Server Features
+$features = Get-CimInstance -Query 'SELECT * FROM Win32_ServerFeature'
+
+# Use hash table as a simple tree resource since hierachy has only 2 levels
+$featureDictionary = @{}
+
+# Add or update keys: Key is the first level whole value is the second layer.
+# There may be 0 or more children, therefore an ArrayList structure is used. 
+foreach ($feature in $features)
+{
+    if($featureDictionary.ContainsKey($feature.ParentID))
+    {
+$child_lvl1alue = $featureDictionary.Item($feature.ParentID)
+[void]$child_lvl1alue.Add($feature)
+    }
+    else
+    {
+[void]$featureDictionary.Add($feature.ParentID,[System.Collections.ArrayList]::new(@($feature)))
+    }
+}
+
+# Print out like a tree
+# Root
+$root =  ($featureDictionary.GetEnumerator() | Sort-Object -Property Key)[0]
+Write-Output '.'
+
+
+# Enumerate Level 1 in alphabetical order
+foreach ($child_lvl1 in $root.Value | Sort-Object -Property Name)
+{
+    Write-Output "└── $($child_lvl1.Name) [ID: $($child_lvl1.ID)]"
+
+    # Enumerate Level 2 in alphabetical order, if possible
+    if($featureDictionary.ContainsKey($child_lvl1.ID))
+    {
+        foreach ($child_lvl2 in $featureDictionary.Item($child_lvl1.ID) | Sort-Object -Property Name)
+        {
+            Write-Output "`t└── $($child_lvl2.Name) [ID:$($child_lvl2.ID)]"
+        }
+    }
+}
+```
+
+It gives an output like below in a fresh install of Windows Server 2022:
+```
+.
+└── .NET Framework 4.8 Features [ID: 466]
+	└── .NET Framework 4.8 [ID:418]
+	└── WCF Services [ID:420]
+└── File and Storage Services [ID: 481]
+	└── Storage Services [ID:482]
+└── Microsoft Defender Antivirus [ID: 1003]
+└── System Data Archiver [ID: 1043]
+└── Windows PowerShell [ID: 417]
+└── WoW64 Support [ID: 340]
+└── XPS Viewer [ID: 338]
+```
 
 
 ## Requirements
