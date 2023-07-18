@@ -14,7 +14,7 @@ Patches or transforms must also be allowed to run at the unrestricted level. If 
 
 If a package, patch, or transform is restricted, the Windows Installer displays an error message and writes an [Event Logging](event-logging.md) entry in the application event log. Software restriction policy is evaluated the first time an application is installed, when a new patch is applied, and when the installation package is re-cached.
 
-For more information on software restriction policy, consult the product documentation and [search the TechNet Site](https://www.microsoft.com/technet/sitemap.mspx).
+For more information on software restriction policy, consult the product documentation and [Microsoft Q&A](/answers/).
 
  
 
