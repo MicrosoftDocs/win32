@@ -63,1463 +63,532 @@ Access type: Read/write
 Qualifiers: [**Key**](key-qualifier.md), [**Not\_Null**](optional-qualifiers.md)
 </dt> </dl>
 
-Server feature ID. The following list shows the possible values of the ID property:
+### Server feature ID
+
+The following list shows the possible values of the ID property:
+
+| Value | Name |
+|---|---|
+| 1 | [Application Server](/windows) |
+| 2 | Web Server (IIS) |
+| 3 | [Streaming Media Services](/windows) |
+| 5 | Fax Server |
+| 6 | File and iSCSI Services<br/> [name change](/windows)<br/> |
+| 7 | Print and Document Services<br/> [name change](/windows)<br/> |
+| 8 | [Active Directory Federation Services](/windows) |
+| 9 | Active Directory Lightweight Directory Services |
+| 10 | Active Directory Domain Services |
+| 11 | [UDDI Services](/windows)<br/> |
+| 12 | [DHCP Server](/windows) |
+| 13 | [DNS Server](/windows) |
+| 14 | Network Policy and Access Services |
+| 16 | Active Directory Certificate Services |
+| 17 | Active Directory Rights Management Services |
+| 18 | [Remote Desktop Services](/windows)<br/> [name change](/windows)<br/> |
+| 19 | Windows Deployment Services |
+| 20 | Hyper-V |
+| 21 | [Windows Server Update Services](/windows) |
+| 33 | [Failover Clustering](/windows) |
+| 34 | [Network Load Balancing](/windows) |
+| 36 | [.NET Framework 3.5.1 Features](/windows)<br/> [name change](/windows)<br/> |
+| 37 | [Windows System Resource Manager](/windows) |
+| 38 | Wireless LAN Service |
+| 39 | [Windows Server Backup Features](/windows) |
+| 40 | WINS Server |
+| 41 | Windows Process Activation Service |
+| 42 | [Remote Assistance](/windows) |
+| 43 | Simple TCP/IP Services |
+| 44 | [Telnet Client](/windows) |
+| 45 | [Telnet Server](/windows) |
+| 46 | [Subsystem For Unix-based Applications](/windows) |
+| 47 | RPC Over HTTP Proxy |
+| 48 | SMTP Server |
+| 49 | Message Queuing |
+| 51 | [Windows Internal Database](/windows) |
+| 52 | [Storage Manager For SANs](/windows) |
+| 53 | LPR Port Monitor |
+| 55 | [Internet Storage Name Server](/windows) |
+| 57 | [Multipath I/O](/windows) |
+| 58 | TFTP Client |
+| 59 | [SNMP Services](/windows) |
+| 60 | [Removable Storage Manager](/windows) |
+| 61 | BitLocker Drive Encryption |
+| 62 | [Services For Network File System](/windows) |
+| 63 | Internet Printing Client |
+| 64 | [Peer Name Resolution Protocol](/windows) |
+| 65 | Connection Manager Administration Kit |
+| 66 | [Windows PowerShell](/windows)<br/> |
+| 67 | [Remote Server Administration Tools](/windows) |
+| 68 | [Quality Windows Audio Video Experience](/windows) |
+| 69 | [Group Policy Management](/windows) |
+| 71 | [Indexing Service](/windows) |
+| 72 | [File Server Resource Manager (FSRM)](/windows) |
+| 73 | Remote Differential Compression |
+| 310 | Ink and Handwriting Services<br/> |
+| 320 | [Windows Server Migration Tools](/windows)<br/> |
+| 321 | [WinRM IIS Extension](/windows)<br/> |
+| 324 | [BranchCache](#branchcache)<br/> |
+| 334 | [DirectAccess Management Console](/windows)<br/> |
+| 335 | [Background Intelligent Transfer Service (BITS)](/windows)<br/> |
+| 338 | [XPS Viewer](/windows)<br/> |
+| 339 | [Windows Biometric Framework](/windows)<br/> |
+| 340 | WoW64 Support<br/> |
+| 351 | [Windows PowerShell Integrated Scripting Environment (ISE)](/windows)<br/> |
+| 352 | Windows TIFF IFilter<br/> |
+| 404 | [Window Server Update Services](/windows) |
+| 409 | [IP Address Management (IPAM) Server](/windows) |
+| 417 | [Windows PowerShell](/windows) |
+| 418 | [.NET Framework 4.5](/windows) |
+| 432 | [Windows Search Service](/windows) |
+| 438 | [Client for NFS](/windows) |
+| 441 | [BitLocker Network Unlock](/windows) |
+| 442 | [Management OData IIS Extension](/windows) |
+| 450 | [.NET Framework 4.5 Advanced Services](/windows) |
+| 466 | [.NET Framework 4.5 Features](/windows) |
+| 468 | [Remote Access](/windows)<br/> |
+| 477 | [User Interfaces and Infrastructure](/windows) |
+| 478 | [Graphical Management Tools and Infrastructure](/windows) |
+| 481 | [File and Storage Services](/windows) |
+| 485 | [Windows Server Essentials Experience](/windows) |
+| 488 | [Direct Play](/windows) |
+
+### File Services - Role Services
+
+Parent ID: 6
+
+| Value | Name |
+|---|---|
+| 100 | [Distributed File System](/windows) |
+| 101 | DFS Namespace |
+| 102 | DFS Replication |
+| 103 | [File Replication Service](/windows) |
+| 104 | [File Server Resource Manager (FSRM)](/windows) |
+| 105 | [Services For Network File System](/windows) |
+| 106 | [Single Instance Storage](/windows) |
+| 107 | [Windows Search Service](/windows) |
+| 108 | [Indexing Service](/windows) |
+| 255 | File Server |
+| 350 | BranchCache for Network Files |
+| 431 | [Server for NFS](/windows)<br/> |
+| 434 | [File Server VSS Agent Service](/windows)<br/> |
+| 435 | [iSCSI Target Server](/windows)<br/> |
+| 436 | [Data Deduplication](/windows)<br/> |
+| 437 | [iSCSI Target Storage Provider (VDS and VSS hardware providers)](/windows) |
+| 486 | [Work Folders](/windows) |
+
+### AD DS - Role Services
+
+Parent ID: 10
+
+| Value | Name |
+|---|---|
+| 110 | [Active Directory Domain Controller](/windows) |
+| 111 | [Identity Management For Unix](/windows) |
+| 112 | [Server For Network Information Services](/windows) |
+| 113 | [Password Synchronization](/windows) |
+| 294 | [Remote Server Administration Tools](/windows) |
+
+### Streaming Media - Role Services
+
+Parent ID: 3
+
+| Value | Name |
+|---|---|
+| 120 | [Windows Media Server](/windows) |
+| 121 | [Web-based Administration](/windows) |
+| 122 | [Logging Agent](/windows) |
+
+### ADFS - Role Services
+
+Parent ID: 8
+
+| Value | Name |
+|---|---|
+| 125 | [Active Directory Federation Services](/windows) |
+| 126 | [Federation Service Policy](/windows) |
+| 127 | [AD FS Web Agents](/windows) |
+| 128 | [Claims-aware Agent](/windows) |
+| 129 | [Windows Token-based Agent](/windows) |
+
+### Remote Desktop Services - Role Services
+
+Parent ID: 18
+
+| Value | Name |
+|---|---|
+| 130 | Remote Desktop Session Host<br/> [name change](/windows)<br/> |
+| 131 | [Remote Desktop Licensing](/windows)<br/> [name change](/windows)<br/> |
+| 132 | Remote Desktop Gateway<br/> [name change](/windows)<br/> |
+| 133 | Remote Desktop Connection Broker<br/> [name change](/windows)<br/> |
+| 134 | Remote Desktop Web Access<br/> [name change](/windows)<br/> |
+| 322 | Remote Desktop Virtualization Host<br/> |
+
+### Remote Desktop Virtualization Host - Role Services
+
+Parent ID: 322
+
+| Value | Name |
+|---|---|
+| 325 | [Core Services](/windows)<br/> |
+| 327 | [Remote Desktop Virtual Graphics](/windows)<br/> |
+
+### Print and Document Services - Role Services
+
+Parent ID: 7
+
+| Value | Name |
+|---|---|
+| 135 | Print Server |
+| 136 | Internet Printing |
+| 137 | LPD Print Service |
+| 328 | [Distributed Scan Server](/windows)<br/> |
+
+### Web Server (IIS) - Role Services
+
+Parent ID: 2
+
+| Value | Name |
+|---|---|
+| 140 | Web Server |
+| 141 | Common HTTP Features |
+| 142 | Static Content |
+| 143 | Default Document |
+| 144 | Directory Browse |
+| 145 | HTTP Errors |
+| 146 | HTTP Redirection |
+| 147 | Application Development |
+| 148 | ASP.NET |
+| 149 | .NET Extensibility |
+| 150 | ASP |
+| 151 | CGI |
+| 152 | ISAPI Extensions |
+| 153 | ISAPI Filters |
+| 154 | Server Side Includes |
+| 155 | Health And Diagnostics |
+| 156 | HTTP Logging |
+| 157 | Logging Tools |
+| 158 | Request Monitor |
+| 159 | Tracing |
+| 160 | Custom Logging |
+| 161 | ODBC Logging |
+| 162 | Security |
+| 163 | Basic Authentication |
+| 164 | Windows Authentication |
+| 165 | Digest Authentication |
+| 166 | Client Certificate Mapping Authentication |
+| 167 | IIS Client Certificate Mapping Authentication |
+| 168 | URL Authorization |
+| 169 | Request Filtering |
+| 170 | IP And Domain Restrictions |
+| 171 | Performance |
+| 172 | Static Content Compression |
+| 173 | Dynamic Content Compression |
+| 174 | Management Tools |
+| 175 | IIS Management Console |
+| 176 | IIS Management Scripts And Tools |
+| 177 | Management Service |
+| 178 | IIS 6 Management Compatibility |
+| 179 | IIS 6 Metabase Compatibility |
+| 180 | IIS 6 WMI Compatibility |
+| 181 | IIS 6 Scripting Tools |
+| 182 | IIS 6 Management Console |
+| 183 | FTP Publishing Service<br/> |
+| 184 | FTP Server |
+| 185 | FTP Management Console<br/> |
+| 314 | WebDAV Publishing |
+| 316 | FTP Service<br/> |
+| 317 | FTP Extensibility<br/> |
+| 336 | IIS Hostable Web Core<br/> |
+| 413 | [ASP.NET 4.5](/windows) |
+| 414 | [.NET Extensibility 4.5](/windows) |
+| 445 | [appialization](/windows) |
+| 446 | [Centralized SSL Certificate Support](/windows) |
+| 447 | [WebSocket Protocol](/windows) |
+
+### Message Queuing - Features
+
+Parent ID: 49
+
+| Value | Name |
+|---|---|
+| 190 | Message Queuing Services |
+| 191 | Message Queuing Server |
+| 192 | Directory Service Integration |
+| 193 | Message Queuing Triggers |
+| 194 | HTTP Support |
+| 195 | Routing Service |
+| 196 | [Windows 2000 Client Support](/windows)<br/> |
+| 197 | Message Queuing DCOM Proxy |
+| 228 | Multicasting Support |
+
+### Active Directory Certificate Services - Role Services
+
+Parent ID: 16
+
+| Value | Name |
+|---|---|
+| 200 | Certification Authority |
+| 201 | Certification Authority Web Enrollment |
+| 202 | Online Responder |
+| 204 | Network Device Enrollment Service |
+| 318 | [Certificate Enrollment Web Service](/windows)<br/> |
+| 319 | [Certificate Enrollment Policy Web Service](/windows)<br/> |
+
+### Network Policy and Access Services - Role Services
+
+Parent ID: 14
+
+| Value | Name |
+|---|---|
+| 205 | [Network Policy Server](/windows) |
+| 206 | [VPN](#vpn) |
+| 207 | [Remote Access Services](/windows) |
+| 208 | [Routing](#routing) |
+| 210 | [Health Registration Authority](/windows) |
+| 250 | [Host Credential Authorization Protocol](/windows) |
+
+### UDDI Services - Role Services
+
+Parent ID: 11
+
+| Value | Name |
+|---|---|
+| 215 | [UDDI Services Web Application](/windows)<br/> |
+| 216 | [UDDI Services Database](/windows)<br/> |
+
+### Windows Process Activation Service - Role Services
+
+Parent ID: 41
+
+| Value | Name |
+|---|---|
+| 217 | Configuration API |
+| 218 | .NET Environment |
+| 219 | Process Model |
+
+### .NET Framework 3.5.1 - Features
+
+Parent ID: 36
+
+| Value | Name |
+|---|---|
+| 220 | .NET Framework 3.5.1<br/> [name change](/windows)<br/> |
+| 221 | WCF Activation |
+| 222 | HTTP Activation |
+| 223 | Non-HTTP Activation |
+| 227 | XPS Viewer<br/> |
+
+### SNMP Services - Features
+
+Parent ID: 59
+
+| Value | Name |
+|---|---|
+| 224 | [SNMP Service](/windows) |
+| 225 | [SNMP WMI Provider](/windows) |
+
+### Application Services - Role Services
+| Value | Name |
+|---|---|
+| 230 | [.NET Framework 3.5.1](/windows)<br/> [name change](/windows)<br/> |
+| 231 | [Web Server (IIS) Support](/windows) |
+| 232 | [COM+ Network Access](/windows) |
+| 233 | [TCP Port Sharing](/windows) |
+| 234 | [Windows Process Activation Service Support](/windows) |
+| 235 | [HTTP Activation](/windows) |
+| 236 | [Message Queuing Activation](/windows) |
+| 237 | [TCP Activation](/windows) |
+| 238 | [Named Pipes Activation](/windows) |
+| 239 | [Distributed Transactions](/windows) |
+| 240 | [Incoming Remote Transactions](/windows) |
+| 241 | [Outgoing Remote Transactions](/windows) |
+| 242 | [WS-Automatic Transactions](/windows) |
+| 353 | [Application Server Extensions for .NET 4.0](/windows)<br/> |
+
+### Windows Deployment Services - Role
+
+Parent ID: 19
+
+| Value | Name |
+|---|---|
+| 251 | Deployment Server |
+| 252 | Transport Server |
+
+### Active Directory Rights Management Services - Role Services
+
+Parent ID: 17
+
+| Value | Name |
+|---|---|
+| 253 | Active Directory Rights Management Server |
+| 254 | Identity Federation Support |
+
+### Remote Server Administration Tools
+
+Parent ID: 67
+
+| Value | Name |
+|---|---|
+| 256 | [Role Administration Tools](/windows) |
+| 257 | [AD DS Tools](/windows)<br/> [name change](/windows)<br/> |
+| 258 | [AD LDS Snap-Ins and Command-Line Tools](/windows)<br/> [name change](/windows)<br/> |
+| 259 | Active Directory Certificate Services Tools |
+| 260 | [Network Policy and Access Services](/windows) |
+| 261 | Print and Document Services Tools<br/> [name change](/windows)<br/> |
+| 262 | [Active Directory Rights Management Services](/windows) |
+| 263 | [Remote Desktop Services Tools](/windows)<br/> [name change](/windows)<br/> |
+| 264 | Windows Deployment Services Tools |
+| 265 | [Feature Administration Tools](/windows) |
+| 266 | BitLocker Drive Encryption Tools |
+| 267 | BITS Server Extensions Tools |
+| 268 | [Failover Clustering Tools](/windows) |
+| 269 | Network Load Balancing Tools |
+| 270 | SMTP Server Tools |
+| 273 | [DNS Server Tools](/windows) |
+| 277 | File Services Tools |
+| 278 | Distributed File System Tools |
+| 279 | File Server Resource Manager Tools |
+| 280 | [Services For Network File System Tools](/windows) |
+| 281 | Web Server (IIS) Tools |
+| 284 | [Remote Desktop Session Host Tools](/windows)<br/> [name change](/windows)<br/> |
+| 285 | Remote Desktop Gateway Tools<br/> [name change](/windows)<br/> |
+| 286 | Remote Desktop Licensing Tools<br/> [name change](/windows)<br/> |
+| 288 | Fax Server Tools |
+| 290 | WINS Server Tools |
+| 291 | [UDDI Services Tools](/windows)<br/> |
+| 292 | Certification Authority Tools |
+| 293 | Online Responder Tools |
+| 297 | [Server for NIS Tools](/windows) |
+| 299 | [AD DS Snap-Ins and Command-Line Tools](/windows)<br/> [name change](/windows)<br/> |
+| 300 | [Active Directory Administrative Center](/windows) |
+| 301 | Hyper-V Tools |
+| 323 | [BitLocker Recovery Password Viewer](/windows)<br/> |
+| 326 | [BitLocker Drive Encryption Administration Utilities](/windows)<br/> |
+| 329 | [AD DS and AD LDS Tools](/windows)<br/> |
+| 330 | Active Directory Administrative Center<br/> |
+| 331 | [Active Directory module for Windows PowerShell](/windows)<br/> |
+| 337 | [Remote Desktop Connection Broker Tools](/windows)<br/> |
+| 410 | [IP Address Management (IPAM) Client](/windows) |
+| 450 | [Hyper-V Module for Windows PowerShell](/windows) |
+| 462 | [Active Directory Rights Management Services Tools](/windows) |
+| 465 | [Share and Storage Management Tool](/windows) |
+| 471 | [Remote Access Management Tools](/windows) |
+| 472 | [Remote Access module for Windows PowerShell](/windows) |
+| 473 | [Remote Access GUI and Command-Line Tools](/windows) |
+| 474 | [Windows Server Update Services Tools](/windows) |
+| 476 | [Remote Desktop Licensing Diagnoser Tools](/windows) |
+| 479 | [SNMP Tools](/windows) |
+| 480 | [Volume Activation Tools](/windows) |
+
+### Windows Server Backup - Features
+
+Parent ID: 39
+
+| Value | Name |
+|---|---|
+| 296 | [Windows Server Backup](/windows) |
+| 297 | [Command Line Tools](/windows) |
+
+### Ink and Handwriting Services - Features
+
+Parent ID: 310
+
+| Value | Name |
+|---|---|
+| 311 | [Ink Support](/windows)<br/> |
+| 312 | [Handwriting Recognition](/windows)<br/> |
+
+### Background Intelligent Transfer Service (BITS) - Features
+
+Parent ID: 335
+
+| Value | Name |
+|---|---|
+| 54 | IIS Server Extension |
+| 332 | [Compact Server](/windows)<br/> |
+
+### Wow64 Support - Features
+
+Parent ID: 340
+
+| Value | Name |
+|---|---|
+| 341 | [WoW64](#wow64)<br/> |
+| 342 | [WoW64 for .NET Framework 2.0 and Windows PowerShell](/windows)<br/> |
+| 343 | [WoW64 for .NET Framework 2.0](/windows)<br/> |
+| 344 | [WoW64 for PowerShell](/windows)<br/> |
+| 345 | [WoW64 for .NET Framework 3.0 and 3.5](/windows)<br/> |
+| 346 | [WoW64 for Print Services](/windows)<br/> |
+| 347 | [WoW64 for Failover Clustering](/windows)<br/> |
+| 348 | [WoW64 for Input Method Editor](/windows)<br/> |
+| 349 | [WoW64 for Subsystem for UNIX-based Applications](/windows)<br/> |
+
+### User Interfaces and Infrastructure - Role Services
+
+Parent ID: 447
+
+| Value | Name |
+|---|---|
+| 35 | [Desktop Experience](/windows) |
+| 99 | [Server Graphical Shell](/windows) |
+
+### Window Server Update Services - Features
+
+Parent ID: 404
+
+| Value | Name |
+|---|---|
+| 405 | [API and PowerShell cmdlets](/windows) |
+| 406 | [SQL Server Connectivity](/windows) |
+| 407 | [WSUS Services](/windows) |
+| 408 | [User Interface Management Console](/windows) |
+| 449 | [WID Connectivity](/windows) |
+
+### Windows PowerShell - Features
+
+Parent ID: 417
+
+| Value | Name |
+|---|---|
+| 411 | [Windows PowerShell 2.0 Engine](/windows) |
+| 412 | [Windows PowerShell 3.0](/windows) |
+| 448 | [Windows PowerShell Web Access](/windows) |
+| 1000 | [Windows PowerShell Desired State Configuration Service](/windows) |
+
+### .NET Framework 4.5 - Features
+
+Parent ID: 418
+
+| Value | Name |
+|---|---|
+| 419 | [.NET Framework 4.5 Extended](/windows) |
+| 420 | [WCF Services](/windows) |
+| 421 | [HTTP Activation](/windows) |
+| 422 | [Message Queuing (MSMQ) Activation](/windows) |
+| 423 | [Named Pipe Activation](/windows) |
+| 424 | [TCP Activation](/windows) |
+| 425 | [TCP Port Sharing](/windows) |
+| 429 | [ASP.NET 4.5](/windows) |
+
+### Remote Access - Role
+
+Parent ID: 468
+
+| Value | Name |
+|---|---|
+| 469 | [DirectAccess and VPN (RAS)](/windows) |
+| 470 | [Routing](#routing) |
+
+### File and Storage Services - Role
+
+Parent ID: 481
+
+| Value | Name |
+|---|---|
+| 482 | [Storage Services](/windows) |
+| 484 | [Failover Cluster Management Tools](/windows) |
 
 
-
-Value
-
-Name
-
-1
-
-[Application Server](/windows)
-
-2
-
-Web Server (IIS)
-
-3
-
-[Streaming Media Services](/windows)
-
-5
-
-Fax Server
-
-6
-
-File and iSCSI Services<br/> [name change](/windows)<br/>
-
-7
-
-Print and Document Services<br/> [name change](/windows)<br/>
-
-8
-
-[Active Directory Federation Services](/windows)
-
-9
-
-Active Directory Lightweight Directory Services
-
-10
-
-Active Directory Domain Services
-
-11
-
-[UDDI Services](/windows)<br/>
-
-12
-
-[DHCP Server](/windows)
-
-13
-
-[DNS Server](/windows)
-
-14
-
-Network Policy and Access Services
-
-16
-
-Active Directory Certificate Services
-
-17
-
-Active Directory Rights Management Services
-
-18
-
-[Remote Desktop Services](/windows)<br/> [name change](/windows)<br/>
-
-19
-
-Windows Deployment Services
-
-20
-
-Hyper-V
-
-21
-
-[Windows Server Update Services](/windows)
-
-33
-
-[Failover Clustering](/windows)
-
-34
-
-[Network Load Balancing](/windows)
-
-36
-
-[.NET Framework 3.5.1 Features](/windows)<br/> [name change](/windows)<br/>
-
-37
-
-[Windows System Resource Manager](/windows)
-
-38
-
-Wireless LAN Service
-
-39
-
-[Windows Server Backup Features](/windows)
-
-40
-
-WINS Server
-
-41
-
-Windows Process Activation Service
-
-42
-
-[Remote Assistance](/windows)
-
-43
-
-Simple TCP/IP Services
-
-44
-
-[Telnet Client](/windows)
-
-45
-
-[Telnet Server](/windows)
-
-46
-
-[Subsystem For Unix-based Applications](/windows)
-
-47
-
-RPC Over HTTP Proxy
-
-48
-
-SMTP Server
-
-49
-
-Message Queuing
-
-51
-
-[Windows Internal Database](/windows)
-
-52
-
-[Storage Manager For SANs](/windows)
-
-53
-
-LPR Port Monitor
-
-55
-
-[Internet Storage Name Server](/windows)
-
-57
-
-[Multipath I/O](/windows)
-
-58
-
-TFTP Client
-
-59
-
-[SNMP Services](/windows)
-
-60
-
-[Removable Storage Manager](/windows)
-
-61
-
-BitLocker Drive Encryption
-
-62
-
-[Services For Network File System](/windows)
-
-63
-
-Internet Printing Client
-
-64
-
-[Peer Name Resolution Protocol](/windows)
-
-65
-
-Connection Manager Administration Kit
-
-66
-
-[Windows PowerShell](/windows)<br/>
-
-67
-
-[Remote Server Administration Tools](/windows)
-
-68
-
-[Quality Windows Audio Video Experience](/windows)
-
-69
-
-[Group Policy Management](/windows)
-
-71
-
-[Indexing Service](/windows)
-
-72
-
-[File Server Resource Manager (FSRM)](/windows)
-
-73
-
-Remote Differential Compression
-
-310
-
-Ink and Handwriting Services<br/>
-
-320
-
-[Windows Server Migration Tools](/windows)<br/>
-
-321
-
-[WinRM IIS Extension](/windows)<br/>
-
-324
-
-[BranchCache](#branchcache)<br/>
-
-334
-
-[DirectAccess Management Console](/windows)<br/>
-
-335
-
-[Background Intelligent Transfer Service (BITS)](/windows)<br/>
-
-338
-
-[XPS Viewer](/windows)<br/>
-
-339
-
-[Windows Biometric Framework](/windows)<br/>
-
-340
-
-WoW64 Support<br/>
-
-351
-
-[Windows PowerShell Integrated Scripting Environment (ISE)](/windows)<br/>
-
-352
-
-Windows TIFF IFilter<br/>
-
-404
-
-[Window Server Update Services](/windows)
-
-409
-
-[IP Address Management (IPAM) Server](/windows)
-
-417
-
-[Windows PowerShell](/windows)
-
-418
-
-[.NET Framework 4.5](/windows)
-
-432
-
-[Windows Search Service](/windows)
-
-438
-
-[Client for NFS](/windows)
-
-441
-
-[BitLocker Network Unlock](/windows)
-
-442
-
-[Management OData IIS Extension](/windows)
-
-450
-
-[.NET Framework 4.5 Advanced Services](/windows)
-
-466
-
-[.NET Framework 4.5 Features](/windows)
-
-468
-
-[Remote Access](/windows)<br/>
-
-477
-
-[User Interfaces and Infrastructure](/windows)
-
-478
-
-[Graphical Management Tools and Infrastructure](/windows)
-
-481
-
-[File and Storage Services](/windows)
-
-485
-
-[Windows Server Essentials Experience](/windows)
-
-488
-
-[Direct Play](/windows)
-
-File Services - Role Services (6)
-
-Value
-
-Name
-
-100
-
-[Distributed File System](/windows)
-
-101
-
-DFS Namespace
-
-102
-
-DFS Replication
-
-103
-
-[File Replication Service](/windows)
-
-104
-
-[File Server Resource Manager (FSRM)](/windows)
-
-105
-
-[Services For Network File System](/windows)
-
-106
-
-[Single Instance Storage](/windows)
-
-107
-
-[Windows Search Service](/windows)
-
-108
-
-[Indexing Service](/windows)
-
-255
-
-File Server
-
-350
-
-BranchCache for Network Files
-
-431
-
-[Server for NFS](/windows)<br/>
-
-434
-
-[File Server VSS Agent Service](/windows)<br/>
-
-435
-
-[iSCSI Target Server](/windows)<br/>
-
-436
-
-[Data Deduplication](/windows)<br/>
-
-437
-
-[iSCSI Target Storage Provider (VDS and VSS hardware providers)](/windows)
-
-486
-
-[Work Folders](/windows)
-
-AD DS - Role Services (10)
-
-Value
-
-Name
-
-110
-
-[Active Directory Domain Controller](/windows)
-
-111
-
-[Identity Management For Unix](/windows)
-
-112
-
-[Server For Network Information Services](/windows)
-
-113
-
-[Password Synchronization](/windows)
-
-294
-
-[Remote Server Administration Tools](/windows)
-
-Streaming Media - Role Services (3)
-
-Value
-
-Name
-
-120
-
-[Windows Media Server](/windows)
-
-121
-
-[Web-based Administration](/windows)
-
-122
-
-[Logging Agent](/windows)
-
-ADFS - Role Services (8)
-
-Value
-
-Name
-
-125
-
-[Active Directory Federation Services](/windows)
-
-126
-
-[Federation Service Policy](/windows)
-
-127
-
-[AD FS Web Agents](/windows)
-
-128
-
-[Claims-aware Agent](/windows)
-
-129
-
-[Windows Token-based Agent](/windows)
-
-Remote Desktop Services - Role Services (18)
-
-Value
-
-Name
-
-130
-
-Remote Desktop Session Host<br/> [name change](/windows)<br/>
-
-131
-
-[Remote Desktop Licensing](/windows)<br/> [name change](/windows)<br/>
-
-132
-
-Remote Desktop Gateway<br/> [name change](/windows)<br/>
-
-133
-
-Remote Desktop Connection Broker<br/> [name change](/windows)<br/>
-
-134
-
-Remote Desktop Web Access<br/> [name change](/windows)<br/>
-
-322
-
-Remote Desktop Virtualization Host<br/>
-
-Remote Desktop Virtualization Host - Role Services (322)
-
-Value
-
-Name
-
-325
-
-[Core Services](/windows)<br/>
-
-327
-
-[Remote Desktop Virtual Graphics](/windows)<br/>
-
-Print and Document Services - Role Services (7)
-
-Value
-
-Name
-
-135
-
-Print Server
-
-136
-
-Internet Printing
-
-137
-
-LPD Print Service
-
-328
-
-[Distributed Scan Server](/windows)<br/>
-
-Web Server (IIS) - Role Services (2)
-
-Value
-
-Name
-
-140
-
-Web Server
-
-141
-
-Common HTTP Features
-
-142
-
-Static Content
-
-143
-
-Default Document
-
-144
-
-Directory Browse
-
-145
-
-HTTP Errors
-
-146
-
-HTTP Redirection
-
-147
-
-Application Development
-
-148
-
-ASP.NET
-
-149
-
-.NET Extensibility
-
-150
-
-ASP
-
-151
-
-CGI
-
-152
-
-ISAPI Extensions
-
-153
-
-ISAPI Filters
-
-154
-
-Server Side Includes
-
-155
-
-Health And Diagnostics
-
-156
-
-HTTP Logging
-
-157
-
-Logging Tools
-
-158
-
-Request Monitor
-
-159
-
-Tracing
-
-160
-
-Custom Logging
-
-161
-
-ODBC Logging
-
-162
-
-Security
-
-163
-
-Basic Authentication
-
-164
-
-Windows Authentication
-
-165
-
-Digest Authentication
-
-166
-
-Client Certificate Mapping Authentication
-
-167
-
-IIS Client Certificate Mapping Authentication
-
-168
-
-URL Authorization
-
-169
-
-Request Filtering
-
-170
-
-IP And Domain Restrictions
-
-171
-
-Performance
-
-172
-
-Static Content Compression
-
-173
-
-Dynamic Content Compression
-
-174
-
-Management Tools
-
-175
-
-IIS Management Console
-
-176
-
-IIS Management Scripts And Tools
-
-177
-
-Management Service
-
-178
-
-IIS 6 Management Compatibility
-
-179
-
-IIS 6 Metabase Compatibility
-
-180
-
-IIS 6 WMI Compatibility
-
-181
-
-IIS 6 Scripting Tools
-
-182
-
-IIS 6 Management Console
-
-183
-
-FTP Publishing Service<br/>
-
-184
-
-FTP Server
-
-185
-
-FTP Management Console<br/>
-
-314
-
-WebDAV Publishing
-
-316
-
-FTP Service<br/>
-
-317
-
-FTP Extensibility<br/>
-
-336
-
-IIS Hostable Web Core<br/>
-
-413
-
-[ASP.NET 4.5](/windows)
-
-414
-
-[.NET Extensibility 4.5](/windows)
-
-445
-
-[appialization](/windows)
-
-446
-
-[Centralized SSL Certificate Support](/windows)
-
-447
-
-[WebSocket Protocol](/windows)
-
-Message Queuing - Features (49)
-
-Value
-
-Name
-
-190
-
-Message Queuing Services
-
-191
-
-Message Queuing Server
-
-192
-
-Directory Service Integration
-
-193
-
-Message Queuing Triggers
-
-194
-
-HTTP Support
-
-195
-
-Routing Service
-
-196
-
-[Windows 2000 Client Support](/windows)<br/>
-
-197
-
-Message Queuing DCOM Proxy
-
-228
-
-Multicasting Support
-
-Active Directory Certificate Services - Role Services (16)
-
-Value
-
-Name
-
-200
-
-Certification Authority
-
-201
-
-Certification Authority Web Enrollment
-
-202
-
-Online Responder
-
-204
-
-Network Device Enrollment Service
-
-318
-
-[Certificate Enrollment Web Service](/windows)<br/>
-
-319
-
-[Certificate Enrollment Policy Web Service](/windows)<br/>
-
-Network Policy and Access Services - Role Services (14)
-
-Value
-
-Name
-
-205
-
-[Network Policy Server](/windows)
-
-206
-
-[VPN](#vpn)
-
-207
-
-[Remote Access Services](/windows)
-
-208
-
-[Routing](#routing)
-
-210
-
-[Health Registration Authority](/windows)
-
-250
-
-[Host Credential Authorization Protocol](/windows)
-
-UDDI Services - Role Services (11)
-
-Value
-
-Name
-
-215
-
-[UDDI Services Web Application](/windows)<br/>
-
-216
-
-[UDDI Services Database](/windows)<br/>
-
-Windows Process Activation Service - Role Services (41)
-
-Value
-
-Name
-
-217
-
-Configuration API
-
-218
-
-.NET Environment
-
-219
-
-Process Model
-
-.NET Framework 3.5.1 - Features (36)
-
-Value
-
-Name
-
-220
-
-.NET Framework 3.5.1<br/> [name change](/windows)<br/>
-
-221
-
-WCF Activation
-
-222
-
-HTTP Activation
-
-223
-
-Non-HTTP Activation
-
-227
-
-XPS Viewer<br/>
-
-SNMP Services - Features (59)
-
-Value
-
-Name
-
-224
-
-[SNMP Service](/windows)
-
-225
-
-[SNMP WMI Provider](/windows)
-
-Application Services - Role Services
-
-Value
-
-Name
-
-230
-
-[.NET Framework 3.5.1](/windows)<br/> [name change](/windows)<br/>
-
-231
-
-[Web Server (IIS) Support](/windows)
-
-232
-
-[COM+ Network Access](/windows)
-
-233
-
-[TCP Port Sharing](/windows)
-
-234
-
-[Windows Process Activation Service Support](/windows)
-
-235
-
-[HTTP Activation](/windows)
-
-236
-
-[Message Queuing Activation](/windows)
-
-237
-
-[TCP Activation](/windows)
-
-238
-
-[Named Pipes Activation](/windows)
-
-239
-
-[Distributed Transactions](/windows)
-
-240
-
-[Incoming Remote Transactions](/windows)
-
-241
-
-[Outgoing Remote Transactions](/windows)
-
-242
-
-[WS-Automatic Transactions](/windows)
-
-353
-
-[Application Server Extensions for .NET 4.0](/windows)<br/>
-
-Windows Deployment Services - Role (19)
-
-Value
-
-Name
-
-251
-
-Deployment Server
-
-252
-
-Transport Server
-
-Active Directory Rights Management Services - Role Services (17)
-
-Value
-
-Name
-
-253
-
-Active Directory Rights Management Server
-
-254
-
-Identity Federation Support
-
-Remote Server Administration Tools (67)
-
-Value
-
-Name
-
-256
-
-[Role Administration Tools](/windows)
-
-257
-
-[AD DS Tools](/windows)<br/> [name change](/windows)<br/>
-
-258
-
-[AD LDS Snap-Ins and Command-Line Tools](/windows)<br/> [name change](/windows)<br/>
-
-259
-
-Active Directory Certificate Services Tools
-
-260
-
-[Network Policy and Access Services](/windows)
-
-261
-
-Print and Document Services Tools<br/> [name change](/windows)<br/>
-
-262
-
-[Active Directory Rights Management Services](/windows)
-
-263
-
-[Remote Desktop Services Tools](/windows)<br/> [name change](/windows)<br/>
-
-264
-
-Windows Deployment Services Tools
-
-265
-
-[Feature Administration Tools](/windows)
-
-266
-
-BitLocker Drive Encryption Tools
-
-267
-
-BITS Server Extensions Tools
-
-268
-
-[Failover Clustering Tools](/windows)
-
-269
-
-Network Load Balancing Tools
-
-270
-
-SMTP Server Tools
-
-273
-
-[DNS Server Tools](/windows)
-
-277
-
-File Services Tools
-
-278
-
-Distributed File System Tools
-
-279
-
-File Server Resource Manager Tools
-
-280
-
-[Services For Network File System Tools](/windows)
-
-281
-
-Web Server (IIS) Tools
-
-284
-
-[Remote Desktop Session Host Tools](/windows)<br/> [name change](/windows)<br/>
-
-285
-
-Remote Desktop Gateway Tools<br/> [name change](/windows)<br/>
-
-286
-
-Remote Desktop Licensing Tools<br/> [name change](/windows)<br/>
-
-288
-
-Fax Server Tools
-
-290
-
-WINS Server Tools
-
-291
-
-[UDDI Services Tools](/windows)<br/>
-
-292
-
-Certification Authority Tools
-
-293
-
-Online Responder Tools
-
-297
-
-[Server for NIS Tools](/windows)
-
-299
-
-[AD DS Snap-Ins and Command-Line Tools](/windows)<br/> [name change](/windows)<br/>
-
-300
-
-[Active Directory Administrative Center](/windows)
-
-301
-
-Hyper-V Tools
-
-323
-
-[BitLocker Recovery Password Viewer](/windows)<br/>
-
-326
-
-[BitLocker Drive Encryption Administration Utilities](/windows)<br/>
-
-329
-
-[AD DS and AD LDS Tools](/windows)<br/>
-
-330
-
-Active Directory Administrative Center<br/>
-
-331
-
-[Active Directory module for Windows PowerShell](/windows)<br/>
-
-337
-
-[Remote Desktop Connection Broker Tools](/windows)<br/>
-
-410
-
-[IP Address Management (IPAM) Client](/windows)
-
-450
-
-[Hyper-V Module for Windows PowerShell](/windows)
-
-462
-
-[Active Directory Rights Management Services Tools](/windows)
-
-465
-
-[Share and Storage Management Tool](/windows)
-
-471
-
-[Remote Access Management Tools](/windows)
-
-472
-
-[Remote Access module for Windows PowerShell](/windows)
-
-473
-
-[Remote Access GUI and Command-Line Tools](/windows)
-
-474
-
-[Windows Server Update Services Tools](/windows)
-
-476
-
-[Remote Desktop Licensing Diagnoser Tools](/windows)
-
-479
-
-[SNMP Tools](/windows)
-
-480
-
-[Volume Activation Tools](/windows)
-
-Windows Server Backup - Features (39)
-
-Value
-
-Name
-
-296
-
-[Windows Server Backup](/windows)
-
-297
-
-[Command Line Tools](/windows)
-
-Ink and Handwriting Services - Features (310)
-
-Value
-
-Name
-
-311
-
-[Ink Support](/windows)<br/>
-
-312
-
-[Handwriting Recognition](/windows)<br/>
-
-Background Intelligent Transfer Service (BITS) - Features (335)
-
-Value
-
-Name
-
-54
-
-IIS Server Extension
-
-332
-
-[Compact Server](/windows)<br/>
-
-Wow64 Support - Features (340)
-
-Value
-
-Name
-
-341
-
-[WoW64](#wow64)<br/>
-
-342
-
-[WoW64 for .NET Framework 2.0 and Windows PowerShell](/windows)<br/>
-
-343
-
-[WoW64 for .NET Framework 2.0](/windows)<br/>
-
-344
-
-[WoW64 for PowerShell](/windows)<br/>
-
-345
-
-[WoW64 for .NET Framework 3.0 and 3.5](/windows)<br/>
-
-346
-
-[WoW64 for Print Services](/windows)<br/>
-
-347
-
-[WoW64 for Failover Clustering](/windows)<br/>
-
-348
-
-[WoW64 for Input Method Editor](/windows)<br/>
-
-349
-
-[WoW64 for Subsystem for UNIX-based Applications](/windows)<br/>
-
-User Interfaces and Infrastructure - Role Services (447)
-
-Value
-
-Name
-
-35
-
-[Desktop Experience](/windows)
-
-99
-
-[Server Graphical Shell](/windows)
-
-Window Server Update Services - Features (404)
-
-Value
-
-Name
-
-405
-
-[API and PowerShell cmdlets](/windows)
-
-406
-
-[SQL Server Connectivity](/windows)
-
-407
-
-[WSUS Services](/windows)
-
-408
-
-[User Interface Management Console](/windows)
-
-449
-
-[WID Connectivity](/windows)
-
-Windows PowerShell - Features (417)
-
-Value
-
-Name
-
-411
-
-[Windows PowerShell 2.0 Engine](/windows)
-
-412
-
-[Windows PowerShell 3.0](/windows)
-
-448
-
-[Windows PowerShell Web Access](/windows)
-
-1000
-
-[Windows PowerShell Desired State Configuration Service](/windows)
-
-.NET Framework 4.5 - Features (418)
-
-Value
-
-Name
-
-419
-
-[.NET Framework 4.5 Extended](/windows)
-
-420
-
-[WCF Services](/windows)
-
-421
-
-[HTTP Activation](/windows)
-
-422
-
-[Message Queuing (MSMQ) Activation](/windows)
-
-423
-
-[Named Pipe Activation](/windows)
-
-424
-
-[TCP Activation](/windows)
-
-425
-
-[TCP Port Sharing](/windows)
-
-429
-
-[ASP.NET 4.5](/windows)
-
-Remote Access - Role (468)
-
-Value
-
-Name
-
-469
-
-[DirectAccess and VPN (RAS)](/windows)
-
-470
-
-[Routing](#routing)
-
-File and Storage Services - Role (481)
-
-Value
-
-Name
-
-482
-
-[Storage Services](/windows)
-
-484
-
-[Failover Cluster Management Tools](/windows)
-
-
-
- 
 
 </dd> <dt>
 
