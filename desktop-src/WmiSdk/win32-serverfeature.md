@@ -2309,12 +2309,11 @@ foreach ($feature in $features)
 {
     if($featureDictionary.ContainsKey($feature.ParentID))
     {
-$child_lvl1alue = $featureDictionary.Item($feature.ParentID)
-[void]$child_lvl1alue.Add($feature)
+        [void]$featureDictionary.Item($feature.ParentID).Add($feature)
     }
     else
     {
-[void]$featureDictionary.Add($feature.ParentID,[System.Collections.ArrayList]::new(@($feature)))
+        [void]$featureDictionary.Add($feature.ParentID, [System.Collections.ArrayList]::new(@($feature)))
     }
 }
 
