@@ -196,12 +196,12 @@
             href: business-rules.md
           - name: "Collections"
             href: collections.md
-    - name: "AppContainer for Legacy Applications"
+    - name: "AppContainer for legacy apps"
       href: appcontainer-for-legacy-applications-.md
       items: 
-      - name: "AppContainer Isolation"
+      - name: "AppContainer isolation"
         href: appcontainer-isolation.md
-      - name: "Implementing an AppContainer"
+      - name: "Implement an AppContainer"
         href: implementing-an-appcontainer.md
     - name: "Mandatory Integrity Control"
       href: mandatory-integrity-control.md
@@ -330,7 +330,7 @@
       items: 
       - name: "Account Rights Constants"
         href: account-rights-constants.md
-      - name: "App Container SID Constants"
+      - name: "AppContainer SID constants"
         href: app-container-sid-constants.md
       - name: "Auditing Constants"
         href: auditing-constants.md
