@@ -13,6 +13,8 @@ An opportunistic lock (also called an oplock) is a lock placed by a client on a 
 > [!NOTE]
 > The articles about opportunistic locks found in this section pertain primarily to client applications, although some information is provided for network redirectors. You can find more oplock information for network redirectors in the Windows WDK's [Oplocks](/windows-hardware/drivers/ifs/oplock-overview) articles.
 
+## Overview
+
 Opportunistic locks coordinate data caching and coherency between clients and servers and among multiple clients. Data that is coherent is data that is the same across the network. In other words, if data is coherent, data on the server and all the clients is synchronized.
 
 Opportunistic locks are not commands by the client to the server. They are requests from the client to the server. From the point of view of the client, they are opportunistic. In other words, the server grants such locks whenever other factors make the locks possible.
