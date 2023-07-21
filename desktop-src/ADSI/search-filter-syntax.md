@@ -32,7 +32,7 @@ ADSI supports the LDAP search filters as defined in RFC2254. These search filter
 These search filters use one of the following formats.
 
 
-```C++
+```
 <filter>=(<attribute><operator><value>)
 ```
 
@@ -41,8 +41,8 @@ These search filters use one of the following formats.
 or
 
 
-```C++
-(<operator><filter1><filter2>)
+```
+<filter>=(<operator><filter1><filter2>)
 ```
 
 
@@ -72,7 +72,7 @@ The following table lists frequently used search filter operators.
 In addition to the operators above, LDAP defines two matching rule object identifiers (OIDs) that can be used to perform bitwise comparisons of numeric values. Matching rules have the following syntax.
 
 
-```C++
+```
 <attribute name>:<matching rule OID>:=<value>
 ```
 
@@ -97,7 +97,7 @@ The following table lists the matching rule OIDs implemented by LDAP.
 The following example query string searches for group objects that have the **ADS\_GROUP\_TYPE\_SECURITY\_ENABLED** flag set. Be aware that the decimal value of **ADS\_GROUP\_TYPE\_SECURITY\_ENABLED** (0x80000000 = 2147483648) is used for the comparison value.
 
 
-```C++
+```
 (&(objectCategory=group)(groupType:1.2.840.113556.1.4.803:=2147483648))
 ```
 
@@ -108,7 +108,7 @@ The **LDAP\_MATCHING\_RULE\_IN\_CHAIN** is a matching rule OID that is designed 
 An example of such a query is one designed to check if a user "user1" is a member of group "group1". You would set the base to the user DN `(cn=user1, cn=users, dc=x)` and the scope to `base`, and use the following query.
 
 
-```C++
+```
 (memberof:1.2.840.113556.1.4.1941:=cn=Group1,OU=groupsOU,DC=x)
 ```
 
@@ -117,7 +117,7 @@ An example of such a query is one designed to check if a user "user1" is a membe
 Similarly, to find all the groups that "user1" is a member of, set the base to the groups container DN; for example `(OU=groupsOU, dc=x)` and the scope to `subtree`, and use the following filter.
 
 
-```C++
+```
 (member:1.2.840.113556.1.4.1941:=cn=user1,cn=users,DC=x)
 ```
 
@@ -132,7 +132,7 @@ You can also add wildcards and conditions to an LDAP search filter. The followin
 Get all entries:
 
 
-```C++
+```
 (objectClass=*)
 ```
 
@@ -141,7 +141,7 @@ Get all entries:
 Get entries containing "bob" somewhere in the common name:
 
 
-```C++
+```
 (cn=*bob*)
 ```
 
@@ -150,7 +150,7 @@ Get entries containing "bob" somewhere in the common name:
 Get entries with a common name greater than or equal to "bob":
 
 
-```C++
+```
 (cn>='bob')
 ```
 
@@ -159,7 +159,7 @@ Get entries with a common name greater than or equal to "bob":
 Get all users with an email attribute:
 
 
-```C++
+```
 (&(objectClass=user)(email=*))
 ```
 
@@ -168,7 +168,7 @@ Get all users with an email attribute:
 Get all user entries with an email attribute and a surname equal to "smith":
 
 
-```C++
+```
 (&(sn=smith)(objectClass=user)(email=*))
 ```
 
@@ -177,7 +177,7 @@ Get all user entries with an email attribute and a surname equal to "smith":
 Get all user entries with a common name that starts with "andy", "steve", or "margaret":
 
 
-```C++
+```
 (&(objectClass=user)(| (cn=andy*)(cn=steve*)(cn=margaret*)))
 ```
 
@@ -186,7 +186,7 @@ Get all user entries with a common name that starts with "andy", "steve", or "ma
 Get all entries without an email attribute:
 
 
-```C++
+```
 (!(email=*))
 ```
 
@@ -195,7 +195,7 @@ Get all entries without an email attribute:
 The formal definition of the search filter is as follows (from [RFC 2254](https://tools.ietf.org/html/rfc2254)):
 
 
-```C++
+```
 <filter> ::= '(' <filtercomp> ')'
 <filtercomp> ::= <and> | <or> | <not> | <item>
 <and> ::= '&' <filterlist>
@@ -203,7 +203,8 @@ The formal definition of the search filter is as follows (from [RFC 2254](https:
 <not> ::= '!' <filter>
 <filterlist> ::= <filter> | <filter> <filterlist>
 <item>::= <simple> | <present> | <substring>
-<simple> ::= <attr> <filtertype> <value><filtertype> ::= <equal> | <approx> | <ge> | <le>
+<simple> ::= <attr> <filtertype> <value>
+<filtertype> ::= <equal> | <approx> | <ge> | <le>
 <equal> ::= '='
 <approx> ::= '~='
 <ge> ::= '>='
