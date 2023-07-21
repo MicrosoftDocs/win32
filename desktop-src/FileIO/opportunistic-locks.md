@@ -3,12 +3,15 @@ description: An opportunistic lock (also called an oplock) is a lock placed by a
 ms.assetid: 'b4c2f5f0-a29b-4598-a49b-da99e93d2991'
 title: Opportunistic Locks
 ms.topic: article
-ms.date: 05/01/2023
+ms.date: 07/21/2023
 ---
 
 # Opportunistic Locks
 
 An opportunistic lock (also called an oplock) is a lock placed by a client on a file residing on a server. In most cases, a client requests an opportunistic lock so it can cache data locally, thus reducing network traffic and improving apparent response time. Opportunistic locks are used by network redirectors on clients with remote servers, as well as by client applications on local servers.
+
+> [!NOTE]
+> The articles about opportunistic locks found in this section pertain primarily to client applications, although some information is provided for network redirectors. You can find more oplock information for network redirectors in the Windows WDK's [Oplocks](/windows-hardware/drivers/ifs/oplock-overview) articles.
 
 Opportunistic locks coordinate data caching and coherency between clients and servers and among multiple clients. Data that is coherent is data that is the same across the network. In other words, if data is coherent, data on the server and all the clients is synchronized.
 
@@ -42,3 +45,9 @@ The following topics identify opportunistic locks.
 | [Opportunistic Lock Operations](opportunistic-lock-operations.md) | If an application requests opportunistic locks, all files for which it requests locks must be opened for overlapped (asynchronous) input and output by using the [**CreateFile**](/windows/desktop/api/FileAPI/nf-fileapi-createfilea) function with the **FILE\_FLAG\_OVERLAPPED** flag. |
 
 For additional information about opportunistic locks, see the CIFS Internet Draft document. Any discrepancies between this topic and the current CIFS Internet Draft should be resolved in favor of the CIFS Internet Draft.
+
+## See also
+
+[NetApp File Access and Protocols Management Guide](https://library.netapp.com/ecmdocs/ECMP1401220/html/frameset.html)
+
+[Oplocks (WDK)](/windows-hardware/drivers/ifs/oplock-overview)
