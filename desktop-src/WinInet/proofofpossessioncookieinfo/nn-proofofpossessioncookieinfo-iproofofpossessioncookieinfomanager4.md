@@ -46,7 +46,7 @@ Supports the creation of proof-of-possession cookies, for a [WebAccount](/uwp/ap
 
 ## Inheritance
 
-The **IProofOfPossessionCookieInfoManager4** interface derives from the **IUknown** interface.
+The **IProofOfPossessionCookieInfoManager4** interface derives from the **IUnknown** interface.
 
 ## Methods
 

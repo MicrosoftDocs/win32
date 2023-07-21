@@ -73,7 +73,7 @@ Returns one of the **HRESULT** values shown in the following table.
 
 ## Remarks
 
-The **CUnknown** class exposes only the **IUknown** interface. Override this method to expose additional interfaces. For information on how to override this method, see [How to Implement IUnknown](how-to-implement-iunknown.md).
+The **CUnknown** class exposes only the **IUnknown** interface. Override this method to expose additional interfaces. For information on how to override this method, see [How to Implement IUnknown](how-to-implement-iunknown.md).
 
 ## Requirements
 

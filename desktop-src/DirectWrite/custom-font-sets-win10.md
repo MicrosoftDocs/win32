@@ -497,7 +497,7 @@ hr = pInMemoryFontFileLoader->CreateInMemoryFontFileReference( 
     pDWriteFactory, 
     pFontDataOwner->fontData /* returns void* */, 
     pFontDataOwner->fontDataSize /* returns UINT32 */, 
-    pFontDataOwner /* ownerObject, owns the memory with font data and implements IUknown */, 
+    pFontDataOwner /* ownerObject, owns the memory with font data and implements IUnknown */, 
     &pFontFile 
 ); 
 ```
