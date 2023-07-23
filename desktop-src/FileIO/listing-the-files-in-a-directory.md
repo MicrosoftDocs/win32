@@ -40,7 +40,7 @@ int _tmain(int argc, TCHAR *argv[])
 
    // Check that the input path plus 3 is not longer than MAX_PATH.
    // Three characters are for the "\*" plus NULL appended below.
-
+   StringCchCopy(szDir, MAX_PATH, argv[1]);
    StringCchLength(argv[1], MAX_PATH, &length_of_arg);
 
    if (length_of_arg > (MAX_PATH - 3))
