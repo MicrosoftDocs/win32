@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 Microsoft provides word breakers and stemmers for a number of languages. This topic describes how to implement, and use custom word breakers and stemmers for languages, and locales beyond those provided by Microsoft.
 
 > [!Note]
-> As of July 2018 a security change was made to Windows Server 2019 that prevents DLLs without a Microsoft signature from being loaded by SearchIndexer.exe. As a result Windows Server 2019 no longer supports non-Microsoft signed custom word breakers. 
+> Custom word breakers were temporarily unsupported. In July 2018, a change was made to Windows Server 2019 that prevented DLLs without a Microsoft signature from being loaded by SearchIndexer.exe. This limitation was lifted in January 2021.
 
 This topic is organized as follows:
 
