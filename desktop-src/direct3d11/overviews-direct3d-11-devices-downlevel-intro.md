@@ -121,56 +121,56 @@ Additionally, the following flags are set:
 
 The following features are available for the feature levels listed. The headings across the top row are Direct3D 11 feature levels. The headings in the left-hand column are features. Also see [Footnotes for the tables](#footnotes-for-the-tables).
 
-| Feature \\ Feature Level | <b>11\_1<sup>1</sup></b> | <b>11\_0</b> | <b>10\_1</b> | <b>10\_0</b> | <b>9\_3<sup>7</sup></b> | <b>9\_2</b> | <b>9\_1</b> |
-|-|-|-|-|-|-|-|-|
-| Shader model | 5.0<sup>2</sup> | 5.0<sup>2</sup> | 4.x | 4.0 | 2.0 (4\_0\_level\_9\_3) \[vs\_2\_a/ps\_2\_x\]<sup>5</sup> | 2.0 (4\_0\_level\_9\_1) | 2.0 (4\_0\_level\_9\_1) |
-| WDDM driver model | 1.x | 1.x | 1.x | 1.x | 1.x | 1.x | 1.x |
-| [Tiled resources](tiled-resources.md) | Optional | Optional | No | No | No | No | No |
-| [Conservative Rasterization](conservative-rasterization.md) | Optional | No | No | No | No | No | No |
-| [Rasterizer Order Views](rasterizer-order-views.md) | Optional | No | No | No | No | No | No |
-| [Min/Max Filters](/windows/win32/api/D3D11/ne-d3d11-d3d11_filter) | Optional | No | No | No | No | No | No |
-| Map Default Buffer | Optional | Optional | No | No | No | No | No |
-| [Shader Specified Stencil Reference Value](shader-specified-stencil-reference-value.md) | Optional | No | No | No | No | No | No |
-| Typed Unordered Access View Loads | 3 formats, more optional | 3 formats, more optional | No | No | No | No | No |
-| [Geometry Shader](/previous-versions/bb205146(v=vs.85)) | Yes | Yes | Yes | Yes | No | No | No |
-| [Stream Out](./d3d10-graphics-programming-guide-output-stream-stage.md) | Yes | Yes | Yes | Yes | No | No | No |
-| [DirectCompute / Compute Shader](direct3d-11-advanced-stages-compute-shader.md) | Yes | Yes | Optional | Optional | N/A | N/A | N/A |
-| [Hull and Domain Shaders](direct3d-11-advanced-stages-tessellation.md) | Yes | Yes | No | No | No | No | No |
-| Feature \\ Feature Level | <b>11\_1<sup>1</sup></b> | <b>11\_0</b> | <b>10\_1</b> | <b>10\_0</b> | <b>9\_3<sup>7</sup></b> | <b>9\_2</b> | <b>9\_1</b> |
-| [Texture Resource Arrays](overviews-direct3d-11-resources-textures-intro.md) | Yes | Yes | Yes | Yes | No | No | No |
-| [Cubemap Resource Arrays](overviews-direct3d-11-resources-textures-intro.md) | Yes | Yes | Yes | No | No | No | No |
-| [BC4/BC5 Compression](../direct3d10/d3d10-graphics-programming-guide-resources-block-compression.md) | Yes | Yes | Yes | Yes | No | No | No |
-| [BC6H/BC7 Compression](texture-block-compression-in-direct3d-11.md) | Yes | Yes | No | No | No | No | No |
-| [Alpha-to-coverage](./d3d10-graphics-programming-guide-blend-state.md) | Yes | Yes | Yes | Yes | No | No | No |
-| [Extended Formats (BGRA, and so on)](overviews-direct3d-11-devices-downlevel-exceptions.md) | Yes | Yes | Optional | Optional | Yes | Yes | Yes |
-| [10-bit XR High Color Format](overviews-direct3d-11-devices-downlevel-exceptions.md) | Yes | Yes | Optional | Optional | N/A | N/A | N/A |
-| [Logic Operations (Output Merger)](/windows/win32/api/D3D11/ns-d3d11-d3d11_feature_data_d3d11_options) | Yes | Optional<sup>1</sup> | Optional<sup>1</sup> | Optional<sup>1</sup> | No | No | No |
-| Target-independent rasterization | Yes | No | No | No | No | No | No |
+| Feature \\ Feature Level | <b>12\_1<sup>0</sup></b> | <b>12\_0<sup>0</sup></b> | <b>11\_1<sup>1</sup></b> | <b>11\_0</b> | <b>10\_1</b> | <b>10\_0</b> | <b>9\_3<sup>7</sup></b> | <b>9\_2</b> | <b>9\_1</b> |
+|-|-|-|-|-|-|-|-|-|-|
+| Shader model |  5.1<sup>2</sup> | 5.1<sup>2</sup> | 5.0<sup>2</sup> | 5.0<sup>2</sup> | 4.x | 4.0 | 2.0 (4\_0\_level\_9\_3) \[vs\_2\_a/ps\_2\_x\]<sup>5</sup> | 2.0 (4\_0\_level\_9\_1) | 2.0 (4\_0\_level\_9\_1) |
+| WDDM driver model | 1.x |1.x | 1.x | 1.x | 1.x | 1.x | 1.x | 1.x | 1.x |
+| [Tiled resources](tiled-resources.md) | Tier2<sup>6</sup> | Tier2<sup>6</sup> | Optional | Optional | No | No | No | No | No |
+| [Conservative Rasterization](conservative-rasterization.md) | Tier1<sup>6</sup> | Optional | Optional | No | No | No | No | No | No |
+| [Rasterizer Order Views](rasterizer-order-views.md) | Yes | Optional | Optional | No | No | No | No | No | No |
+| [Min/Max Filters](/windows/win32/api/D3D11/ne-d3d11-d3d11_filter) | Yes | Yes | Optional | No | No | No | No | No | No |
+| Map Default Buffer | Optional | Optional | Optional | Optional | No | No | No | No | No |
+| [Shader Specified Stencil Reference Value](shader-specified-stencil-reference-value.md) | Optional | Optional | Optional | No | No | No | No | No | No |
+| Typed Unordered Access View Loads | 18 formats, more optional | 18 formats, more optional | 3 formats, more optional | 3 formats, more optional | No | No | No | No | No |
+| [Geometry Shader](/previous-versions/bb205146(v=vs.85)) | Yes | Yes | Yes| Yes | Yes | Yes | No | No | No |
+| [Stream Out](./d3d10-graphics-programming-guide-output-stream-stage.md) | Yes | Yes | Yes | Yes | Yes | Yes | No | No | No |
+| [DirectCompute / Compute Shader](direct3d-11-advanced-stages-compute-shader.md) | Yes | Yes | Yes | Yes | Optional | Optional | N/A | N/A | N/A |
+| [Hull and Domain Shaders](direct3d-11-advanced-stages-tessellation.md) | Yes | Yes | Yes | Yes | No | No | No | No | No |
+| Feature \\ Feature Level | <b>12\_1<sup>0</sup></b> | <b>12\_0<sup>0</sup></b> | <b>11\_1<sup>1</sup></b> | <b>11\_0</b> | <b>10\_1</b> | <b>10\_0</b> | <b>9\_3<sup>7</sup></b> | <b>9\_2</b> | <b>9\_1</b> |
+| [Texture Resource Arrays](overviews-direct3d-11-resources-textures-intro.md) | Yes | Yes | Yes | Yes | Yes | Yes | No | No | No |
+| [Cubemap Resource Arrays](overviews-direct3d-11-resources-textures-intro.md) | Yes | Yes | Yes | Yes | Yes | No | No | No | No |
+| [BC4/BC5 Compression](../direct3d10/d3d10-graphics-programming-guide-resources-block-compression.md) | Yes | Yes | Yes | Yes | Yes | Yes | No | No | No |
+| [BC6H/BC7 Compression](texture-block-compression-in-direct3d-11.md)  | Yes | Yes | Yes | Yes | No | No | No | No | No |
+| [Alpha-to-coverage](./d3d10-graphics-programming-guide-blend-state.md) | Yes | Yes | Yes | Yes | Yes | Yes | No | No | No |
+| [Extended Formats (BGRA, and so on)](overviews-direct3d-11-devices-downlevel-exceptions.md) | Yes | Yes | Yes | Yes | Optional | Optional | Yes | Yes | Yes |
+| [10-bit XR High Color Format](overviews-direct3d-11-devices-downlevel-exceptions.md) | Yes | Yes | Yes | Yes | Optional | Optional | N/A | N/A | N/A |
+| [Logic Operations (Output Merger)](/windows/win32/api/D3D11/ns-d3d11-d3d11_feature_data_d3d11_options) | Yes | Yes | Yes | Optional<sup>1</sup> | Optional<sup>1</sup> | Optional<sup>1</sup> | No | No | No |
+| Target-independent rasterization | Yes | Yes | Yes | Yes | Yes | No | No | No | No | No | No |
 | [Multiple render target(MRT) with ForcedSampleCount 1](/windows/win32/api/D3D11/ns-d3d11-d3d11_feature_data_d3d11_options) | Yes | Optional<sup>1</sup> | Optional<sup>1</sup> | Optional<sup>1</sup> | No | No | No |
-| UAV slots | 64 | 8 | 1 | 1 | N/A | N/A | N/A |
-| UAVs at every stage | Yes | No | No | No | N/A | N/A | N/A |
-| Feature \\ Feature Level | <b>11\_1<sup>1</sup></b> | <b>11\_0</b> | <b>10\_1</b> | <b>10\_0</b> | <b>9\_3<sup>7</sup></b> | <b>9\_2</b> | <b>9\_1</b> |
-| [Max forced sample count for UAV-only rendering](/windows/win32/api/D3D11/ns-d3d11-d3d11_feature_data_d3d11_options) | 16 | 8 | N/A | N/A | N/A | N/A | N/A |
-| Constant buffer offsetting and partial updates | Yes | Optional<sup>1</sup> | Optional<sup>1</sup> | Optional<sup>1</sup> | Yes<sup>1</sup> | Yes<sup>1</sup> | Yes<sup>1</sup> |
-| 16 bits per pixel (bpp) formats | Yes | Optional<sup>1</sup> | Optional<sup>1</sup> | Optional<sup>1</sup> | Optional<sup>1</sup> | Optional<sup>1</sup> | Optional<sup>1</sup> |
-| Max Texture Dimension | 16384 | 16384 | 8192 | 8192 | 4096 | 2048 | 2048 |
-| Max Cubemap Dimension | 16384 | 16384 | 8192 | 8192 | 4096 | 512 | 512 |
-| Max Volume Extent | 2048 | 2048 | 2048 | 2048 | 256 | 256 | 256 |
-| Max Texture Repeat | 16384 | 16384 | 8192 | 8192 | 8192 | 2048 | 128 |
-| Max Anisotropy | 16 | 16 | 16 | 16 | 16 | 16 | 2 |
-| Max Primitive Count | 2^32 – 1 | 2^32 – 1 | 2^32 – 1 | 2^32 – 1 | 1048575 | 1048575 | 65535 |
-| Max Vertex Index | 2^32 – 1 | 2^32 – 1 | 2^32 – 1 | 2^32 – 1 | 1048575 | 1048575 | 65534 |
-| Max Input Slots | 32 | 32 | 32 | 16 | 16 | 16 | 16 |
-| Simultaneous Render Targets | 8 | 8 | 8 | 8 | 4 | 1 | 1 |
-| Feature \\ Feature Level | <b>11\_1<sup>1</sup></b> | <b>11\_0</b> | <b>10\_1</b> | <b>10\_0</b> | <b>9\_3<sup>7</sup></b> | <b>9\_2</b> | <b>9\_1</b> |
-| Occlusion Queries | Yes | Yes | Yes | Yes | Yes | Yes | No |
-| Separate Alpha Blend | Yes | Yes | Yes | Yes | Yes | Yes | No |
-| Mirror Once | Yes | Yes | Yes | Yes | Yes | Yes | No |
-| Overlapping Vertex Elements | Yes | Yes | Yes | Yes | Yes | Yes | No |
-| Independent Write Masks | Yes | Yes | Yes | Yes | Yes | No | No |
-| Instancing | Yes | Yes | Yes | Yes | Yes<sup>7</sup> | No | No |
-| Nonpowers-of-2 conditionally<sup>3</sup> | No | No | No | No | Yes | Yes | Yes |
-| Nonpowers-of-2 unconditionally<sup>4</sup> | Yes | Yes | Yes | Yes | No | No | No |
+| UAV slots | 64 | 64 | 64 | 8 | 1 | 1 | N/A | N/A | N/A |
+| UAVs at every stage | Yes | Yes | Yes | No | No | No | N/A | N/A | N/A |
+| Feature \\ Feature Level | <b>12\_1<sup>0</sup></b> | <b>12\_0<sup>0</sup></b> | <b>11\_1<sup>1</sup></b> | <b>11\_0</b> | <b>10\_1</b> | <b>10\_0</b> | <b>9\_3<sup>7</sup></b> | <b>9\_2</b> | <b>9\_1</b> |
+| [Max forced sample count for UAV-only rendering](/windows/win32/api/D3D11/ns-d3d11-d3d11_feature_data_d3d11_options) | 16 | 16 | 16 | 8 | N/A | N/A | N/A | N/A | N/A |
+| Constant buffer offsetting and partial updates | Yes | Yes | Yes | Optional<sup>1</sup> | Optional<sup>1</sup> | Optional<sup>1</sup> | Yes<sup>1</sup> | Yes<sup>1</sup> | Yes<sup>1</sup> |
+| 16 bits per pixel (bpp) formats | Yes | Yes| Yes | Optional<sup>1</sup> | Optional<sup>1</sup> | Optional<sup>1</sup> | Optional<sup>1</sup> | Optional<sup>1</sup> | Optional<sup>1</sup> |
+| Max Texture Dimension | 16384 | 16384 | 16384 | 16384 | 8192 | 8192 | 4096 | 2048 | 2048 |
+| Max Cubemap Dimension | 16384 | 16384 | 16384 | 16384 | 8192 | 8192 | 4096 | 512 | 512 |
+| Max Volume Extent | 2048 | 2048 | 2048 | 2048 | 2048 | 2048 | 256 | 256 | 256 |
+| Max Texture Repeat | 16384 | 16384 | 16384 | 16384 | 8192 | 8192 | 8192 | 2048 | 128 |
+| Max Anisotropy | 16 | 16 | 16 | 16 | 16 | 16 | 16 | 16 | 2 |
+| Max Primitive Count | 2^32 – 1 | 2^32 – 1 | 2^32 – 1 | 2^32 – 1 | 2^32 – 1 | 2^32 – 1 | 1048575 | 1048575 | 65535 |
+| Max Vertex Index | 2^32 – 1 | 2^32 – 1 | 2^32 – 1 | 2^32 – 1 | 2^32 – 1 | 2^32 – 1 | 1048575 | 1048575 | 65534 |
+| Max Input Slots | 32 | 32 | 32 | 32 | 32 | 16 | 16 | 16 | 16 |
+| Simultaneous Render Targets | 8 | 8 | 8 | 8 | 8 | 8 | 4 | 1 | 1 |
+| Feature \\ Feature Level | <b>12\_2<sup>8</sup></b> | <b>12\_1<sup>0</sup></b> | <b>11\_1<sup>1</sup></b> | <b>11\_0</b> | <b>10\_1</b> | <b>10\_0</b> | <b>9\_3<sup>7</sup></b> | <b>9\_2</b> | <b>9\_1</b> |
+| Occlusion Queries | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No |
+| Separate Alpha Blend | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No |
+| Mirror Once | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No |
+| Overlapping Vertex Elements | Yes | Yes | Yes | Yes| Yes | Yes | Yes | Yes | No |
+| Independent Write Masks | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No | No |
+| Instancing | Yes | Yes | Yes | Yes | Yes | Yes | Yes<sup>7</sup> | No | No |
+| Nonpowers-of-2 conditionally<sup>3</sup> | No | No | No | No | No | No | Yes | Yes | Yes |
+| Nonpowers-of-2 unconditionally<sup>4</sup> | Yes | Yes | Yes | Yes | Yes | Yes | No | No | No |
 
 ## Footnotes for the tables
 
