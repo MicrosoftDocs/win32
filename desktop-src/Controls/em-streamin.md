@@ -49,6 +49,7 @@ In addition, you can specify the following flags.
 | <span id="SFF_PLAINRTF"></span><span id="sff_plainrtf"></span><dl> <dt>**SFF\_PLAINRTF**</dt> </dl>    | If specified, only keywords common to all languages are streamed in. Language-specific RTF keywords in the stream are ignored. If not specified, all keywords are streamed in. You can combine this flag with the **SF\_RTF** flag.<br/> |
 | <span id="SFF_SELECTION"></span><span id="sff_selection"></span><dl> <dt>**SFF\_SELECTION**</dt> </dl> | If specified, the data stream replaces the contents of the current selection. If not specified, the data stream replaces the entire contents of the control. You can combine this flag with the **SF\_TEXT** or **SF\_RTF** flags.<br/>  |
 | <span id="SF_UNICODE"></span><span id="sf_unicode"></span><dl> <dt>**SF\_UNICODE**</dt> </dl>          | **Microsoft Rich Edit 2.0 and later:** Indicates Unicode text. You can combine this flag with the **SF\_TEXT** flag. <br/>                                                                                                               |
+| <span id="SF_USECODEPAGE"></span><span id="sf_usecodepage"></span><dl> <dt>**SF\_USECODEPAGE**</dt> </dl> | **Rich Edit 3.0 and later:** Reads UTF-8 RTF and text using other code pages. The code page is set in the high word of *wParam*. For example, for UTF-8 RTF, set *wParam* to (CP\_UTF8 << 16) \| SF\_USECODEPAGE \| SF\_RTF.<br/>                               |
 
 
 
