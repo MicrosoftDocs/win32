@@ -12,22 +12,13 @@ ms.date: 05/31/2018
 
 The following elements are used with Windows Error Reporting (WER):
 
--   [WER Error Codes](wer-error-codes.md)
--   [WER Functions](wer-functions.md)
--   [WER Settings](wer-settings.md)
--   [WER Structures](wer-structures.md)
+- [WER Error Codes](wer-error-codes.md)
+- [WER Functions](wer-functions.md)
+- [WER Settings](wer-settings.md)
+- [WER Structures](wer-structures.md)
+- [WER Enumerations](wer-enumerations.md)
 
 ## Related topics
 
-<dl> <dt>
-
 [Windows Error Reporting](windows-error-reporting.md)
-</dt> </dl>
-
- 
-
- 
-
-
-
 
