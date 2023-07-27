@@ -68,6 +68,9 @@ The following image demonstrates how the placeholder, full, and pinned full file
 * Hooking copy engine operations (supported in Windows 10 Insider Preview Build 19624 and later versions):
   * Cloud storage providers can register a shell copy hook for monitoring file operations within their sync root.
   * The provider registers their copy hook by setting the **CopyHook** registry value under their sync root registry key to a the CLSID of their COM local server object. This local server object implements the [IStorageProviderCopyHook](../shell/nn-shobjidl-istorageprovidercopyhook.md) interface.
+* File sharing (supported in Windows 11 version 21H2 and later versions):
+  * Cloud storage providers can register a share handler that will be invoked when the user selects the "Share" command on a cloud file under their sync root.
+  * The provider registers their share handler by setting the **ShareHandler** registry value under their sync root registry key to the CLSID of their COM local server object. This local server object implements the [IExplorerCommand](/windows/win32/api/shobjidl_core/nn-shobjidl_core-iexplorercommand) interface.
 
 ### Desktop Bridge
 
