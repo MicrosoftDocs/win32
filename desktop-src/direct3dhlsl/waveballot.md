@@ -22,7 +22,7 @@ Returns a uint4 containing a bitmask of the evaluation of the Boolean expression
 ## Syntax
 
 ``` syntax
-uint4 WaveBallot(
+uint4 WaveActiveBallot(
    bool expr
 );
 ```
