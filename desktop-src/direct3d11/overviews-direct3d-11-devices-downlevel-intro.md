@@ -117,7 +117,7 @@ Additionally, the following flags are set:
 |CastingFullyTypedFormatSupported|TRUE|
 |Int64ShaderOps|TRUE|
 
-## Direct3D 11 feature support (feature levels 11_1 through 9_1)
+## Direct3D 11 feature support (feature levels 12_1 through 9_1)
 
 The following features are available for the feature levels listed. The headings across the top row are Direct3D 11 feature levels. The headings in the left-hand column are features. Also see [Footnotes for the tables](#footnotes-for-the-tables).
 
