@@ -45,7 +45,7 @@ If set to `TRUE`, the caller is responsible for calling [SeciFreeCallContext](Se
 
 If the function succeeds, it returns **SEC_E_OK**.
 
-If the function fails, it returns a nonzero error code.
+If the function fails, it returns a non-zero error code.
 
 ## Remarks
 
