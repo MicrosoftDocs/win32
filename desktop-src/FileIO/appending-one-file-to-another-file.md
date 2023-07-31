@@ -45,7 +45,7 @@ void main()
 
   if (hFile == INVALID_HANDLE_VALUE)
   {
-     printf("Could not open One.txt."); 
+     printf("Could not open one.txt."); 
      return;
   }
 
@@ -53,16 +53,16 @@ void main()
   // create a new file.
 
   hAppend = CreateFile(TEXT("two.txt"), // open Two.txt
-              FILE_APPEND_DATA,         // open for writing
-              FILE_SHARE_READ,          // allow multiple readers
-              NULL,                     // no security
-              OPEN_ALWAYS,              // open or create
-              FILE_ATTRIBUTE_NORMAL,    // normal file
-              NULL);                    // no attr. template
+              FILE_APPEND_DATA | FILE_GENERIC_READ,    // open for appending and locking
+              FILE_SHARE_READ,                         // allow multiple readers
+              NULL,                                    // no security
+              OPEN_ALWAYS,                             // open or create
+              FILE_ATTRIBUTE_NORMAL,                   // normal file
+              NULL);                                   // no attr. template
 
   if (hAppend == INVALID_HANDLE_VALUE)
   {
-     printf("Could not open Two.txt."); 
+     printf("Could not open two.txt."); 
      return;
   }
 
@@ -75,7 +75,10 @@ void main()
       && dwBytesRead > 0)
     {
     dwPos = SetFilePointer(hAppend, 0, NULL, FILE_END);
-    LockFile(hAppend, dwPos, 0, dwBytesRead, 0);
+    if (!LockFile(hAppend, dwPos, 0, dwBytesRead, 0))
+    {
+       printf("Could not lock two.txt");
+    }
     WriteFile(hAppend, buff, dwBytesRead, &dwBytesWritten, NULL);
     UnlockFile(hAppend, dwPos, 0, dwBytesRead, 0);
     }
