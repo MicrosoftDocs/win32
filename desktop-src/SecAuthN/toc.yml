@@ -1159,6 +1159,10 @@
         href: /windows/desktop/api/Winscard/nf-winscard-scarduidlgselectcarda
       - name: "SCardWriteCache"
         href: /windows/desktop/api/Winscard/nf-winscard-scardwritecachea
+      - name: "SeciAllocateAndSetIPAddress"
+        href: SeciAllocateAndSetIPAddress.md
+      - name: "SeciFreeCallContext"
+        href: SeciFreeCallContext.md
       - name: "SendSAS"
         href: /windows/desktop/api/Sas/nf-sas-sendsas
       - name: "SetContextAttributes"
