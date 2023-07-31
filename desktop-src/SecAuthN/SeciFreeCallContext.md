@@ -25,6 +25,8 @@ VOID SEC_ENTRY SeciFreeCallContext();
 
 ## Remarks
 
+This function is not present in the SDK headers. To use it, call the [LoadLibrary](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) function to obtain a handle to SSPICLI.DLL and then use [GetProcAddress](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) to obtain the function address.
+
 Call this function if [SeciAllocateAndSetIPAddress](SeciAllocateAndSetIPAddress.md) sets *FreeCallContext* to `TRUE`.
 
 ## Requirements
