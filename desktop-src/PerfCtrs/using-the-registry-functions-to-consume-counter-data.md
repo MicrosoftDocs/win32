@@ -76,3 +76,17 @@ The data returned from a metadata-only collection is the same as the data from a
 
 - The `NumInstances` field of the `PERF_OBJECT_TYPE` struct will be either `PERF_METADATA_MULTIPLE_INSTANCES` (indicating that the object supports 0 or more named instances) or `PERF_METADATA_NO_INSTANCES` (indicating that the object always has 1 unnamed instance).
 - There will be no `PERF_INSTANCE_DEFINITION` blocks after the `PERF_OBJECT_TYPE` struct.
+
+## Perflib
+
+The `HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Perflib` registry key supports several `DWORD` values related to performance counter collection.
+These should usually be unset for default behavior, but may be configured by an administrator as needed for specific scenarios.
+
+* `Configuration Flags`: Default is 0. May be set to a combination of the following flags to enable special behavior:
+  - `0x01`: Do not test plugins for data buffer alignment errors. By default, the system validates the buffer alignment of plugins.
+  - `0x02`: Do not automatically disable plugins.  By default, the system disables plugins that crash or exhibit incorrect behavior.
+  - `0x04`: Do not validate plugin buffer integrity. By default, the system checks for plugin buffer overruns.
+  - `0x08`: Do not check for plugin timeouts. By default, the system checks for plugin hangs.
+* `Disable Performance Counters`:  Default is 0. If set to 1, collection of V1 performance counters will be disabled for the system.
+* `ExtCounterTestLevel`: Default is 4. Controls how much validation the system performs to guard against incorrect plugin behavior. See
+  [`PM_COLLECT_PROC`](https://learn.microsoft.com/windows/win32/api/winperf/nc-winperf-pm_collect_proc) for details.
