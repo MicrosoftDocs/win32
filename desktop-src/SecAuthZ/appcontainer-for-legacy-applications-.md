@@ -114,7 +114,7 @@ if (!::OpenProcessToken(
     // Handle the error.
 }
 
-if (::GetTokenInformation(
+if (!::GetTokenInformation(
     tokenHandle,
     TOKEN_INFORMATION_CLASS::TokenIsAppContainer,
     &isAppContainer,
