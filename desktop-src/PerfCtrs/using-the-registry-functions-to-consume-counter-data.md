@@ -89,4 +89,4 @@ These should usually be unset for default behavior, but may be configured by an 
   - `0x08`: Do not check for plugin timeouts. By default, the system checks for plugin hangs.
 * `Disable Performance Counters`:  Default is 0. If set to 1, collection of V1 performance counters will be disabled for the system.
 * `ExtCounterTestLevel`: Default is 4. Controls how much validation the system performs to guard against incorrect plugin behavior. See
-  [`PM_COLLECT_PROC`](https://learn.microsoft.com/windows/win32/api/winperf/nc-winperf-pm_collect_proc) for details.
+  [`PM_COLLECT_PROC`](/windows/win32/api/winperf/nc-winperf-pm_collect_proc) for details.
