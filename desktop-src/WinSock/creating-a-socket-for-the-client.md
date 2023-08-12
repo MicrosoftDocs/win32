@@ -19,7 +19,7 @@ After initialization, a **SOCKET** object must be instantiated for use by the cl
                     hints;
 
     ZeroMemory( &hints, sizeof(hints) );
-    hints.ai_family = AF_UNSPEC;
+    hints.ai_family   = AF_INET;
     hints.ai_socktype = SOCK_STREAM;
     hints.ai_protocol = IPPROTO_TCP;
     ```
