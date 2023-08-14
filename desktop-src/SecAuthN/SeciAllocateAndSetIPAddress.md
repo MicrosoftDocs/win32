@@ -15,7 +15,7 @@ api_location:
 
 # SeciAllocateAndSetIPAddress function
 
-Sets the caller IP address to appear in security audit events.
+Sets the caller's IP address to appear in security audit events.
 
 ## Syntax
 
@@ -35,7 +35,7 @@ A pointer to the IP address to be set. The IP address is represented as a [SOCKA
 
 *IPAddressLength* `[in]`
 
-The length of the *IPAddress* structure.
+The length of the `IPAddress` structure.
 
 *FreeCallContext* `[out]`
 
@@ -49,11 +49,11 @@ If the function fails, it returns a non-zero error code.
 
 ## Remarks
 
-This function is not present in the SDK headers. To use it, call the [LoadLibrary](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) function to obtain a handle to SSPICLI.DLL and then use [GetProcAddress](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) to obtain the function address.
+This function is not present in the SDK headers. To use it, call the [LoadLibrary](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) function to obtain a handle to `SSPICLI.DLL` and then use [GetProcAddress](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) to obtain the function address.
 
-The *IPAddress* parameter should be a valid pointer to an IP address structure obtained from the network layer. This corresponds to the *addr* output parameter to the [Accept](/windows/win32/api/winsock2/nf-winsock2-accept) function.
+The `IPAddress` parameter should be a valid pointer to an IP address structure obtained from the network layer. This corresponds to the `addr` output parameter to the [Accept](/windows/win32/api/winsock2/nf-winsock2-accept) function.
 
-If *FreeCallContext* is set to `TRUE` on output, the caller must call [SeciFreeCallContext](SeciFreeCallContext.md) function before relinquishing the thread.
+If `FreeCallContext` is set to `TRUE` on output, the caller must call [SeciFreeCallContext](SeciFreeCallContext.md) function before relinquishing the thread.
 
 ## Requirements
 
