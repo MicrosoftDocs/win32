@@ -22,7 +22,7 @@ The Windows registry includes the following four `Run` and `RunOnce` keys:
 
 > [!IMPORTANT]
 > **HKEY\_LOCAL\_MACHINE\\Software\\Microsoft\\Windows\\CurrentVersion\\RunOnce** only executes when members of the Administrators group log on after the reboot.
-> Additional details can be found in the articles [RunOnce Registry Key](https://learn.microsoft.com/en-us/windows-hardware/drivers/install/runonce-registry-key) and [Developing Applications that Run at Logon](https://learn.microsoft.com/en-us/previous-versions/bb325654(v=msdn.10)#developing-a-multi-part-setup-application)
+> Additional details can be found in the articles [RunOnce Registry Key](/windows-hardware/drivers/install/runonce-registry-key), [Developing Applications that Run at Logon](/previous-versions/bb325654(v=msdn.10)#developing-a-multi-part-setup-application), and [Troubleshooting Windows client](/troubleshoot/windows-client/shell-experience/standard-user-cannot-run-commnad-via-runonce).
 
 By default, the value of a `RunOnce` key is deleted before the command line is run. You can prefix a `RunOnce` value name with an exclamation point (!) to defer deletion of the value until after the command runs. Without the exclamation point prefix, if the `RunOnce` operation fails, the associated program will not be asked to run the next time you start the computer.
 
