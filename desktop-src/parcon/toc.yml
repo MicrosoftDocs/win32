@@ -47,6 +47,8 @@
         href: using-parental-controls-settings-apis.md
       - name: "Using Logging APIs for Parental Controls"
         href: using-logging-apis-for-parental-controls.md
+  - name: "Using the Parental Controls Registry Key"
+    href: using-parental-controls-registry-key.md
   - name: "Parental Controls Reference"
     href: parental-controls-reference.md
     items: 
