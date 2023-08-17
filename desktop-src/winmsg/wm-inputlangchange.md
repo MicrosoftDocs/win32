@@ -28,7 +28,7 @@ Type: **WPARAM**
 
 The **BYTE** font character set for the input language.
   
-In [Unicode windows](/windows/win32/winmsg/about-window-classes#registering-a-window-class), you typically do not need to use this value. In [ANSI windows](/windows/win32/winmsg/about-window-classes#registering-a-window-class), this value can be used to create fonts that can correctly display the character set. See **iCharSet** parameter of the [CreateFont function](/windows/win32/api/wingdi/nf-wingdi-createfontw) for a list of possible values.
+If you register the window class using the [Unicode version of RegisterClassEx](/windows/win32/winmsg/about-window-classes#registering-a-window-class) ([RegisterClassExW](/windows/win32/api/winuser/nf-winuser-registerclassexw)), you typically do not need to use this value. If you register the window class using the [ANSI version of RegisterClassEx](/windows/win32/winmsg/about-window-classes#registering-a-window-class) ([RegisterClassExA](/windows/win32/api/winuser/nf-winuser-registerclassexa)), this value can be used to create fonts that can correctly display the character set. See **iCharSet** parameter of the [CreateFont function](/windows/win32/api/wingdi/nf-wingdi-createfontw) for a list of possible values.
 
 </dd> <dt>
 
