@@ -33,7 +33,7 @@ Set the following attributes on the input media type.
 | <a href="mf-mt-subtype-attribute.md"><strong>MF_MT_SUBTYPE</strong></a> | Subtype. | Must be <strong>MFAudioFormat_PCM</strong>. | 
 | <a href="mf-mt-audio-bits-per-sample-attribute.md"><strong>MF_MT_AUDIO_BITS_PER_SAMPLE</strong></a> | Bits per sample. | Must be 16. | 
 | <a href="mf-mt-audio-samples-per-second-attribute.md"><strong>MF_MT_AUDIO_SAMPLES_PER_SECOND</strong></a> | Samples per second. | The following values are supported:<ul><li>44100 (44.1 KHz)</li><li>48000 (48 KHz)</li></ul> | 
-| <a href="mf-mt-audio-num-channels-attribute.md"><strong>MF_MT_AUDIO_NUM_CHANNELS</strong></a> | Number of channels. | Must be 1 (mono) or 2 (stereo), or 6 (5.1).<blockquote>[!Note]<br />Support for 6 audio channels was introduced with Windows 10 and is not available for earlier versions of Windows.</blockquote><br /> | 
+| [**MF_MT_AUDIO_NUM_CHANNELS**](mf-mt-audio-num-channels-attribute.md) | Number of channels. | Must be 1 (mono) or 2 (stereo), or 6 (5.1). **Note:** Support for 6 audio channels was introduced with Windows 10 and is not available for earlier versions of Windows.<br> | 
 
 
 
