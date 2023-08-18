@@ -42,7 +42,7 @@ The table below lists all of the DirectShow samples provided in that repo. For i
 | <a href="cutscene-sample.md">CutScene Sample</a> | Playback | Plays a video file in full-screen mode. | 
 | DDrawXCL Sample | Playback | Plays video in DirectDraw exclusive full-screen mode, using the <a href="/windows/desktop/api/Strmif/nn-strmif-iddrawexclmodevideo"><strong>IDDrawExclModeVideo</strong></a> interface on the <a href="overlay-mixer-filter.md">Overlay Mixer</a> filter. | 
 | DShowPlayer Sample | Playback | Video playback application. | 
-| EVRPlayer Sample | Playback | Demonstrates how to use the DirectShow EVR filter.<blockquote>[!Note]<br />Requires Windows Vista or later.</blockquote><br /><br /> This sample is available in the Windows SDK for Windows Server 2008 or later.<br /> | strmbase.lib | 
+| EVRPlayer Sample | Playback | Demonstrates how to use the DirectShow EVR filter. **Note:** Requires Windows Vista or later.<br> This sample is available in the Windows SDK for Windows Server 2008 or later.<br> | strmbase.lib | 
 | Texture3D9 Sample | Playback | Draws video on a Microsoft DirectX 9.0 texture surface. | strmbase.lib, DirectX SDK | 
 | <a href="ticker-sample.md">Ticker Sample</a> | VMR-9 | Uses the VMR-9 to blend video and text. | 
 | VMR9Allocator Sample | VMR-9 | Implements a custom allocator-presenter for the VMR-9. | strmbase.lib | 

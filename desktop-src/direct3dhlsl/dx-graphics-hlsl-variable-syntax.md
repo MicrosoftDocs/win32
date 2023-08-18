@@ -51,7 +51,7 @@ Optional storage-class modifiers that give the compiler hints about variable sco
 | <strong>groupshared</strong> | Mark a variable for thread-group-shared memory for compute shaders. In D3D10 the maximum total size of all variables with the groupshared storage class is 16kb, in D3D11 the maximum size is 32kb. See examples. | 
 | <strong>static</strong> | Mark a local variable so that it is initialized one time and persists between function calls. If the declaration does not include an initializer, the value is set to zero. A global variable marked <strong>static</strong> is not visible to an application. | 
 | <strong>uniform</strong> | Mark a variable whose data is constant throughout the execution of a shader (such as a material color in a vertex shader); global variables are considered <strong>uniform</strong> by default. | 
-| <strong>volatile</strong> | Mark a variable that changes frequently; this is a hint to the compiler. This storage class modifier only applies to a local variable.<br /><blockquote>[!Note]<br />The HLSL compiler currently ignores this storage class modifier.</blockquote><br /> | 
+| **volatile** | Mark a variable that changes frequently; this is a hint to the compiler. This storage class modifier only applies to a local variable.<br> **Note:** The HLSL compiler currently ignores this storage class modifier.<br> | 
 
 
 

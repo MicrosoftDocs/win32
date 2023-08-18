@@ -39,7 +39,7 @@ The following categories are declared in Uuids.h. Include the header file Dshow.
 | Midi Renderers | <strong>CLSID_MidiRendererCategory</strong> | <strong>MERIT_NORMAL</strong> | 
 | Video Capture Sources | <strong>CLSID_VideoInputDeviceCategory</strong> | <strong>MERIT_DO_NOT_USE</strong> | 
 | Video Compressors | <strong>CLSID_VideoCompressorCategory</strong> | <strong>MERIT_DO_NOT_USE</strong> | 
-| WDM Stream Decompression Devices | <strong>CLSID_DVDHWDecodersCategory</strong><blockquote>[!Note]<br />This category contains hardware DVD decoders.</blockquote><br /> | <strong>MERIT_DO_NOT_USE</strong> | 
+| WDM Stream Decompression Devices | **CLSID_DVDHWDecodersCategory** **Note:** This category contains hardware DVD decoders.<br> | **MERIT_DO_NOT_USE** | 
 | WDM Streaming Capture Devices | <strong>AM_KSCATEGORY_CAPTURE</strong> | <strong>MERIT_DO_NOT_USE</strong> | 
 | WDM Streaming Crossbar Devices | <strong>AM_KSCATEGORY_CROSSBAR</strong> | <strong>MERIT_DO_NOT_USE</strong> | 
 | WDM Streaming Rendering Devices | <strong>AM_KSCATEGORY_RENDER</strong> | <strong>MERIT_DO_NOT_USE</strong> | 
