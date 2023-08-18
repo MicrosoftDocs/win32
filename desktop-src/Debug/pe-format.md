@@ -2160,11 +2160,16 @@ The archive file signature identifies the file type. Any utility (for example, a
 
 `!<arch>\n`
 
-The Windows SDK winnt.h header defines following macros:
+The Windows SDK winnt.h header defines the following macros:
 
 ```
 #define IMAGE_ARCHIVE_START_SIZE             8
 #define IMAGE_ARCHIVE_START                  "!<arch>\n"
+#define IMAGE_ARCHIVE_END                    "`\n"
+#define IMAGE_ARCHIVE_PAD                    "\n"
+#define IMAGE_ARCHIVE_LINKER_MEMBER          "/               "
+#define IMAGE_ARCHIVE_LONGNAMES_MEMBER       "//              "
+#define IMAGE_ARCHIVE_HYBRIDMAP_MEMBER       "/<HYBRIDMAP>/   "
 ```
 
 ### Archive Member Headers
@@ -2184,18 +2189,6 @@ Each member header starts on the first even address after the end of the previou
 | 40 <br/> | 8 <br/>  | Mode <br/>          | An ASCII octal representation of the member's file mode. This is the ST\_MODE value from the C run-time function \_wstat. <br/>                                                                       |
 | 48 <br/> | 10 <br/> | Size <br/>          | An ASCII decimal representation of the total size of the archive member, not including the size of the header. <br/>                                                                                  |
 | 58 <br/> | 2 <br/>  | End of Header <br/> | The two bytes (0x60 0x0A) in the C string "`\\n" (IMAGE_ARCHIVE_END). <br/>                                                             
-
-The Windows SDK winnt.h header defines following macros:
-
-```
-#define IMAGE_ARCHIVE_END                    "`\n"
-#define IMAGE_ARCHIVE_PAD                    "\n"
-#define IMAGE_ARCHIVE_LINKER_MEMBER          "/               "
-#define IMAGE_ARCHIVE_LONGNAMES_MEMBER       "//              "
-#define IMAGE_ARCHIVE_HYBRIDMAP_MEMBER       "/<HYBRIDMAP>/   "
-```
-
- 
 
 The Name field has one of the formats shown in the following table. As mentioned earlier, each of these strings is left justified and padded with trailing spaces within a field of 16 bytes:
 
