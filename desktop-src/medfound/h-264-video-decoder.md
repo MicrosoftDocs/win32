@@ -52,7 +52,7 @@ To avoid an initial format change, provide as much information in the input type
 |-----------|-------------|
 | <a href="mf-mt-frame-rate-attribute.md"><strong>MF_MT_FRAME_RATE</strong></a> | Frame rate. | 
 | <a href="mf-mt-frame-size-attribute.md"><strong>MF_MT_FRAME_SIZE</strong></a> | Frame dimensions. | 
-| <a href="mf-mt-interlace-mode-attribute.md"><strong>MF_MT_INTERLACE_MODE</strong></a> | Interlace mode.<blockquote>[!Note]<br />In H.264 video, the interlace structure can change dynamically, so the recommended value of this attribute is <strong>MFVideoInterlace_MixedInterlaceOrProgressive</strong>. Interlace information in the video elementary stream takes precedence over the media type. For more information, see <a href="video-interlacing.md">Video Interlacing</a>.</blockquote><br /><br /> | 
+| [**MF_MT_INTERLACE_MODE**](mf-mt-interlace-mode-attribute.md) | Interlace mode. **Note:** In H.264 video, the interlace structure can change dynamically, so the recommended value of this attribute is **MFVideoInterlace_MixedInterlaceOrProgressive**. Interlace information in the video elementary stream takes precedence over the media type. For more information, see [Video Interlacing](video-interlacing.md).<br> | 
 | <a href="mf-mt-pixel-aspect-ratio-attribute.md"><strong>MF_MT_PIXEL_ASPECT_RATIO</strong></a> | Pixel aspect ratio. | 
 
 
@@ -127,7 +127,7 @@ The decoder supports the following formats:
 |Profiles/Levels| Baseline, Main, and High profiles, up to level 5.1. (See ITU-T H.264 specification for details.) | 
 | Chroma Formats | 4:2:0 chroma or monochrome | 
 | Minimum Resolution | 48 × 48 pixels | 
-| Maximum Resolution | 4096 × 2304 pixels<br /> The maximum guaranteed resolution for DXVA acceleration is 1920 × 1088 pixels; at higher resolutions, decoding is done with DXVA, if it is supported by the underlying hardware, otherwise, decoding is done with software.<br /><blockquote>[!Note]<br />In Windows 7, the maximum supported resolution is 1920 × 1088 pixels for both software and DXVA decoding.</blockquote><br /><br /> | 
+| Maximum Resolution | 4096 × 2304 pixels<br> The maximum guaranteed resolution for DXVA acceleration is 1920 × 1088 pixels; at higher resolutions, decoding is done with DXVA, if it is supported by the underlying hardware, otherwise, decoding is done with software.<br> **Note:** In Windows 7, the maximum supported resolution is 1920 × 1088 pixels for both software and DXVA decoding.<br> | 
 | DXVA | The decoder supports DXVA version 2, but not DXVA version 1. DXVA decoding is supported only for Main-compatible Baseline, Main, and High profile bitstreams. (Main-compatible Baseline bitstreams are defined as <strong>profile_idc</strong>=66 and <strong>constrained_set1_flag</strong>=1.)| 
 
 

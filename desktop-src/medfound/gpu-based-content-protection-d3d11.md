@@ -187,7 +187,7 @@ To send a command to the authenticated channel, perform the following steps.
 | <strong>omac</strong> | Skip this field for now. | 
 | <strong>ConfigureType</strong> | GUID that identifies the command. For a list of commands, see <a href="content-protection-commands.md">Content Protection Commands</a>. | 
 | <strong>hChannel</strong> | The handle to the authenticated channel. | 
-| <strong>SequenceNumber</strong> | The sequence number. The first sequence number is specified by sending a <a href="/windows/desktop/api/d3d11/ns-d3d11-d3d11_authenticated_configure_initialize_input"><strong>D3D11_AUTHENTICATED_CONFIGURE_INITIALIZE</strong></a> command. Each time you send another command, increment this number by 1. The sequence number guards against replay attacks.    <blockquote>    [!Note]<br />    Two separate sequence numbers are used, one for commands and one for queries.    </blockquote><br /><br /> | 
+| **SequenceNumber** | The sequence number. The first sequence number is specified by sending a [**D3D11_AUTHENTICATED_CONFIGURE_INITIALIZE**](/windows/desktop/api/d3d11/ns-d3d11-d3d11_authenticated_configure_initialize_input) command. Each time you send another command, increment this number by 1. The sequence number guards against replay attacks.         **Note:**     Two separate sequence numbers are used, one for commands and one for queries.    <br> | 
 
 
 
@@ -214,7 +214,7 @@ To send a command to the authenticated channel, perform the following steps.
 |--------|-------------|
 | <strong>QueryType</strong> | GUID that identifies the query. For a list of queries, see <a href="content-protection-queries.md">Content Protection Queries</a>. | 
 | <strong>hChannel</strong> | The handle to the authenticated channel. | 
-| <strong>SequenceNumber</strong> | The sequence number. The first sequence number is specified by sending a <a href="/windows/desktop/api/d3d11/ns-d3d11-d3d11_authenticated_configure_initialize_input"><strong>D3D11_AUTHENTICATED_CONFIGURE_INITIALIZE</strong></a> command. Each time you send another query, increment this number by 1. The sequence number guards against replay attacks.    <blockquote>    [!Note]<br />    Two separate sequence numbers are used, one for commands and one for queries.    </blockquote><br /><br /> | 
+| **SequenceNumber** | The sequence number. The first sequence number is specified by sending a [**D3D11_AUTHENTICATED_CONFIGURE_INITIALIZE**](/windows/desktop/api/d3d11/ns-d3d11-d3d11_authenticated_configure_initialize_input) command. Each time you send another query, increment this number by 1. The sequence number guards against replay attacks.         **Note:**     Two separate sequence numbers are used, one for commands and one for queries.    <br> | 
 
 
 
