@@ -42,8 +42,8 @@ This topic contains information about low-level APIs that are used by the Window
 | <a href="/windows/desktop/api/Winternl/nf-winternl-rtlunicodetomultibytesize"><strong>RtlUnicodeToMultiByteSize</strong></a> | Determines how many bytes are needed to represent a Unicode string as an ANSI string.<br /> | 
 | <a href="/windows/desktop/devnotes/rtlunicodetoutf8n"><strong>RtlUnicodeToUTF8N</strong></a> | The <a href="/windows/desktop/devnotes/rtlunicodetoutf8n"><strong>RtlUnicodeToUTF8N</strong></a> function translates the specified Unicode string into a new character string, using the 8-bit Unicode Transformation Format (UTF-8) code page.<br /> | 
 | <a href="/windows/desktop/devnotes/rtlutf8tounicoden"><strong>RtlUTF8ToUnicodeN</strong></a> | The <a href="/windows/desktop/devnotes/rtlutf8tounicoden"><strong>RtlUTF8ToUnicodeN</strong></a> function translates the specified source string into a Unicode string, using the UTF-8 code page.<br /> | 
-| <a href="/windows/desktop/api/Ime/nf-ime-sendimemessageexa"><strong>SendIMEMessageEx</strong></a> | Specifies an action or processing for the Input Method Editor (IME) through a specified subfunction.<blockquote>[!Note]<br />This function is obsolete and should not be used.</blockquote><br /><br /> | 
-| <a href="/windows/desktop/api/Winnls32/nf-winnls32-winnlsenableime"><strong>WINNLSEnableIME</strong></a> | Temporarily enables or disables an IME and, at the same time, turns on or off the display of all windows owned by the IME.<blockquote>[!Note]<br />This function is obsolete and should not be used.</blockquote><br /><br /> | 
+| [**SendIMEMessageEx**](/windows/desktop/api/Ime/nf-ime-sendimemessageexa) | Specifies an action or processing for the Input Method Editor (IME) through a specified subfunction. **Note:** This function is obsolete and should not be used.<br> | 
+| [**WINNLSEnableIME**](/windows/desktop/api/Winnls32/nf-winnls32-winnlsenableime) | Temporarily enables or disables an IME and, at the same time, turns on or off the display of all windows owned by the IME. **Note:** This function is obsolete and should not be used.<br> | 
 
 
 
