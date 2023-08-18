@@ -57,7 +57,7 @@ m_d2dContext->EndDraw();
 | Display name and index enumeration | Type and default value | Description | 
 |------------------------------------|------------------------|-------------|
 | Rect<br /> | D2D1_VECTOR_4F<br /> | The region to be cropped specified as a vector in the form (left, top, width, height).<br /> | 
-| D2D1_CROP_PROP_RECT<br /> | {-FLT_MAX, -FLT_MAX, FLT_MAX, FLT_MAX}<br /> | The units are in DIPs. <br /><blockquote><p>[!Note]</p><p>The Rect will be truncated if it overlaps the edge boundaries of the input image.<br /></p></blockquote><br /> | 
+| D2D1_CROP_PROP_RECT<br> | {-FLT_MAX, -FLT_MAX, FLT_MAX, FLT_MAX}<br> | The units are in DIPs. <br> **Note:** <br>The Rect will be truncated if it overlaps the edge boundaries of the input image.<br> | 
 | D2D1_CROP_PROP_BORDER_MODE<br /> | D2D1_BORDER_MODE <br /> D2D1_BORDER_MODE_SOFT <br /> | <ul><li>D2D1_BORDER_MODE_SOFT : If the crop rectangle falls on fractional pixel coordinates, the effect applies antialiasing which results in a soft edge.</li><li>D2D1_BORDER_MODE_HARD : If the crop rectangle falls on fractional pixel coordinates, the effect clamps which results in a hard edge.</li></ul> | 
 
 
