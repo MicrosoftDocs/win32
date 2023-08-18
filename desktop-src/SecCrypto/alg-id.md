@@ -37,9 +37,9 @@ The following table lists the algorithm identifiers that are currently defined. 
 | CALG_DH_EPHEM | 0x0000aa02 | Diffie-Hellman ephemeral key exchange algorithm. | 
 | CALG_DH_SF | 0x0000aa01 | Diffie-Hellman store and forward key exchange algorithm. | 
 | CALG_DSS_SIGN | 0x00002200 | DSA <a href="/windows/desktop/SecGloss/p-gly"><em>public key</em></a> signature algorithm. | 
-| CALG_ECDH | 0x0000aa05 | Elliptic curve Diffie-Hellman key exchange algorithm.<blockquote>[!Note]<br />This algorithm is supported only through <a href="/windows/desktop/SecCNG/cng-portal">Cryptography API: Next Generation</a>.</blockquote><br /><strong>Windows Server 2003 and Windows XP:</strong> This algorithm is not supported.<br /> | 
-| CALG_ECDH_EPHEM | 0x0000ae06 | Ephemeral elliptic curve Diffie-Hellman key exchange algorithm.<blockquote>[!Note]<br />This algorithm is supported only through <a href="/windows/desktop/SecCNG/cng-portal">Cryptography API: Next Generation</a>.</blockquote><br /><strong>Windows Server 2003 and Windows XP:</strong> This algorithm is not supported.<br /> | 
-| CALG_ECDSA | 0x00002203 | Elliptic curve digital signature algorithm.<blockquote>[!Note]<br />This algorithm is supported only through <a href="/windows/desktop/SecCNG/cng-portal">Cryptography API: Next Generation</a>.</blockquote><br /><strong>Windows Server 2003 and Windows XP:</strong> This algorithm is not supported.<br /> | 
+| CALG_ECDH | 0x0000aa05 | Elliptic curve Diffie-Hellman key exchange algorithm. **Note:** This algorithm is supported only through [Cryptography API: Next Generation](/windows/desktop/SecCNG/cng-portal).<br>**Windows Server 2003 and Windows XP:** This algorithm is not supported.<br> | 
+| CALG_ECDH_EPHEM | 0x0000ae06 | Ephemeral elliptic curve Diffie-Hellman key exchange algorithm. **Note:** This algorithm is supported only through [Cryptography API: Next Generation](/windows/desktop/SecCNG/cng-portal).<br>**Windows Server 2003 and Windows XP:** This algorithm is not supported.<br> | 
+| CALG_ECDSA | 0x00002203 | Elliptic curve digital signature algorithm. **Note:** This algorithm is supported only through [Cryptography API: Next Generation](/windows/desktop/SecCNG/cng-portal).<br>**Windows Server 2003 and Windows XP:** This algorithm is not supported.<br> | 
 | CALG_ECMQV | 0x0000a001 | Elliptic curve Menezes, Qu, and Vanstone (MQV) key exchange algorithm. This algorithm is not supported. | 
 | CALG_HASH_REPLACE_OWF | 0x0000800b | One way function hashing algorithm. | 
 | CALG_HUGHES_MD5 | 0x0000a003 | Hughes MD5 hashing algorithm. | 
