@@ -41,10 +41,10 @@ After you define a property list, you can store that string in the registry thro
 | FullDetails | Properties are displayed on the <strong>Details</strong> tab of the <strong>Properties</strong> dialog box. This is the complete list of properties that the file type supports. | 
 | PreviewDetails | Properties are displayed in the <strong>Preview Pane</strong>. | 
 | PreviewTitle | Properties are displayed in the title area of the <strong>Preview Pane</strong> next to the thumbnail for the item. The maximum number of entries is 3. If the property list contains more than the maximum allowable number, the rest of the entries are ignored. | 
-| TileInfo | Properties are displayed when the list view is in <strong>Tiles</strong> view mode. The maximum number of entries is 3. If the property list contains more than the maximum allowable number, the rest of the entries are ignored.<blockquote>[!Note]<br />This value was present in Windows XP.</blockquote><br /> | 
+| TileInfo | Properties are displayed when the list view is in **Tiles** view mode. The maximum number of entries is 3. If the property list contains more than the maximum allowable number, the rest of the entries are ignored. **Note:** This value was present in Windows XP.<br> | 
 | ExtendedTileInfo | Properties are displayed for an item when the list view is in <strong>Extended Tile</strong> view mode. | 
-| InfoTip | Properties are displayed in an infotip when a user hovers over an item.<blockquote>[!Note]<br />This value was present in Windows XP.</blockquote><br /> | 
-| QuickTip | Properties are displayed when it is difficult to retrieve properties directly from an item, such as when the item must be accessed over a slow network connection. It is recommended that the properties named here, such as Type or Size, do not require opening the file stream to determine their value.<blockquote>[!Note]<br />This value was present in Windows XP.</blockquote><br /> | 
+| InfoTip | Properties are displayed in an infotip when a user hovers over an item. **Note:** This value was present in Windows XP.<br> | 
+| QuickTip | Properties are displayed when it is difficult to retrieve properties directly from an item, such as when the item must be accessed over a slow network connection. It is recommended that the properties named here, such as Type or Size, do not require opening the file stream to determine their value. **Note:** This value was present in Windows XP.<br> | 
 
 
 
