@@ -488,7 +488,7 @@ Sets the chroma subsampling. This property applies only to RGB images.
 | 3 | 4:4:4 encoding. Preserves full chroma resolution. | 
 | 2 | 4:2:2 encoding. Chroma resolution is ½ of luminance resolution. | 
 | 1 | 4:2:0 encoding. Chroma resolution is ¼ of luminance resolution. | 
-| 0 | 4:0:0 encoding. Discards all chroma values and preserves luminance only.<blockquote>[!Note]<br />This mode is not recommended, because the codec uses a slightly modified definition of luminance to improve performance. Instead, it is better to convert the image to monochrome before encoding.</blockquote><br /> | 
+| 0 | 4:0:0 encoding. Discards all chroma values and preserves luminance only. **Note:** This mode is not recommended, because the codec uses a slightly modified definition of luminance to improve performance. Instead, it is better to convert the image to monochrome before encoding.<br> | 
 
 
 
