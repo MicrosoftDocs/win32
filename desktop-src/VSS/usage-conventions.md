@@ -55,7 +55,7 @@ The following list describes supported configurations and restrictions:
 | Windows Server 2008 R2 (64-bit), Windows 7 (64-bit), Windows Server 2008 (64-bit) and Windows Vista (64-bit) | Windows Server 2008 R2 (64-bit), Windows 7 (64-bit), Windows Server 2008 (64-bit) and Windows Vista (64-bit) |
 | Windows Server 2008 R2 (32-bit), Windows 7 (32-bit), Windows Server 2008 (32-bit) and Windows Vista (32-bit) | Windows Server 2008 R2 (32-bit), Windows 7 (32-bit), Windows Server 2008 (32-bit) and Windows Vista (32-bit) |
 | Windows Server 2003 (64-bit) | Windows Server 2008 R2 (64-bit), Windows 7 (64-bit), Windows Server 2008 (64-bit), Windows Vista (64-bit), and Windows Server 2003 (64-bit) |
-| Windows Server 2003 (32-bit) | Windows Server 2008 R2 (32-bit), Windows 7 (32-bit), Windows Server 2008 (32-bit), Windows Vista (32-bit), and Windows Server 2003 (32-bit)    <blockquote>    [!Note]<br />    Requesters will also run on Windows Server 2003 (64-bit).    </blockquote><br /> |
+| Windows Server 2003 (32-bit) | Windows Server 2008 R2 (32-bit), Windows 7 (32-bit), Windows Server 2008 (32-bit), Windows Vista (32-bit), and Windows Server 2003 (32-bit)         **Note:**     Requesters will also run on Windows Server 2003 (64-bit).    <br> |
 | Windows XP 64-Bit Edition | Windows Server 2003 (64-bit) and Windows XP 64-Bit Edition |
 | Windows XP (32-bit) | Windows XP (32-bit) |
 
