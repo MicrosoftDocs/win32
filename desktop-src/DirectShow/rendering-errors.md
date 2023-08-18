@@ -43,7 +43,7 @@ Microsoft® DirectShow® Editing Services (DES) defines various error codes used
 | DEX_IDS_STREAM_NUMBER | Invalid stream number for this source. | Stream number | <strong>int</strong> | 
 | DEX_IDS_OUTOFMEMORY | Out of memory. | None | Not applicable | 
 | DEX_IDS_DIBSEQ_NOTALLSAME | One bitmap in the sequence was not the same type as the others. | Bitmap name | <strong>BSTR</strong> | 
-| DEX_IDS_CLIPTOOSHORT | Clip's media times are invalid, or the device-independent bitmap (DIB) sequence is too short.<blockquote>[!Note]<br />If other rendering errors occur, this error might occur even though the media times are valid.</blockquote><br /> | None | Not applicable | 
+| DEX_IDS_CLIPTOOSHORT | Clip's media times are invalid, or the device-independent bitmap (DIB) sequence is too short. **Note:** If other rendering errors occur, this error might occur even though the media times are valid.<br> | None | Not applicable | 
 | DEX_IDS_INVALID_DXT | Class identifier (CLSID) of the effect or transition is not valid. | CLSID | <strong>BSTR</strong> | 
 | DEX_IDS_INVALID_DEFAULT_DXT | The CLSID of the default effect or transition is not valid. | CLSID | <strong>BSTR</strong> | 
 | DEX_IDS_NO_3D | Your version of DirectX does not support three-dimensional transitions. | CLSID | <strong>BSTR</strong> | 
