@@ -1,43 +1,43 @@
 - name: "DXCore"
-  href: dxcore.md
+  href: ./dxcore.md
   items: 
   - name: "DXCore programming guide"
-    href: dxcore-programming-guide.md
+    href: ./dxcore-programming-guide.md
     items: 
     - name: "Using DXCore to enumerate adapters"
-      href: dxcore-enum-adapters.md
+      href: ./dxcore-enum-adapters.md
     - name: "Minimal DXCore application"
-      href: dxcore-source-code.md
+      href: ./dxcore-source-code.md
   - name: "DXCore Reference"
-    href: dxcore-reference.md
+    href: ./dxcore-reference.md
     items: 
     - name: "DXCore adapter attribute GUIDs"
-      href: dxcore-adapter-attribute-guids.md
+      href: ./dxcore-adapter-attribute-guids.md
     - name: "DXCore callbacks"
-      href: dxcore-callbacks.md
+      href: ./dxcore-callbacks.md
       items: 
       - name: "PFN_DXCORE_NOTIFICATION_CALLBACK"
-        href: ./dxcore_interface/nc-dxcore_interface-pfn_dxcore_notification_callback.md
+        href: /windows/win32/api/dxcore_interface/nc-dxcore_interface-pfn_dxcore_notification_callback
     - name: "DXCore enumerations"
-      href: dxcore-enumerations.md
+      href: ./dxcore-enumerations.md
       items: 
       - name: "DXCoreAdapterPreference"
-        href: ./dxcore_interface/ne-dxcore_interface-dxcoreadapterpreference.md
+        href: /windows/win32/api/dxcore_interface/ne-dxcore_interface-dxcoreadapterpreference
       - name: "DXCoreAdapterProperty"
-        href: ./dxcore_interface/ne-dxcore_interface-dxcoreadapterproperty.md
+        href: /windows/win32/api/dxcore_interface/ne-dxcore_interface-dxcoreadapterproperty
       - name: "DXCoreAdapterState"
-        href: ./dxcore_interface/ne-dxcore_interface-dxcoreadapterstate.md
+        href: /windows/win32/api/dxcore_interface/ne-dxcore_interface-dxcoreadapterstate
       - name: "DXCoreNotificationType"
-        href: ./dxcore_interface/ne-dxcore_interface-dxcorenotificationtype.md
+        href: /windows/win32/api/dxcore_interface/ne-dxcore_interface-dxcorenotificationtype
       - name: "DXCoreSegmentGroup"
-        href: ./dxcore_interface/ne-dxcore_interface-dxcoresegmentgroup.md
+        href: /windows/win32/api/dxcore_interface/ne-dxcore_interface-dxcoresegmentgroup
     - name: "DXCore functions"
       href: dxcore-functions.md
       items: 
       - name: "DXCoreCreateAdapterFactory"
-        href: ./dxcore/nf-dxcore-dxcorecreateadapterfactory.md
+        href: /windows/win32/api/dxcore/nf-dxcore-dxcorecreateadapterfactory
     - name: "DXCore interfaces"
-      href: dxcore-interfaces.md
+      href: ./dxcore-interfaces.md
       items: 
       - name: "IDXCoreAdapter"
         href: ./dxcore_interface/nn-dxcore_interface-idxcoreadapter.md
@@ -91,11 +91,11 @@
         - name: "Sort"
           href: ./dxcore_interface/nf-dxcore_interface-idxcoreadapterlist-sort.md
     - name: "DXCore structures"
-      href: dxcore-structures.md
+      href: ./dxcore-structures.md
       items: 
       - name: "DXCoreAdapterMemoryBudget"
-        href: ./dxcore_interface/ns-dxcore_interface-dxcoreadaptermemorybudget.md
+        href: /windows/win32/api/dxcore_interface/ns-dxcore_interface-dxcoreadaptermemorybudget
       - name: "DXCoreAdapterMemoryBudgetNodeSegmentGroup"
-        href: ./dxcore_interface/ns-dxcore_interface-dxcoreadaptermemorybudgetnodesegmentgroup.md
+        href: /windows/win32/api/dxcore_interface/ns-dxcore_interface-dxcoreadaptermemorybudgetnodesegmentgroup
       - name: "DXCoreHardwareID"
-        href: ./dxcore_interface/ns-dxcore_interface-dxcorehardwareid.md
+        href: /windows/win32/api/dxcore_interface/ns-dxcore_interface-dxcorehardwareid

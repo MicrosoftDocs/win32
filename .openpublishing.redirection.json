@@ -42694,7 +42694,51 @@
       "source_path": "desktop-src/devnotes/wldpsetdynamiccodetrust.md",
       "redirect_url": "/windows/win32/api/wldp/nf-wldp-wldpsetdynamiccodetrust",
       "redirect_document_id": false
+},
+{
+      "source_path": "desktop-src/dxcore/dxcore_interface/nc-dxcore_interface-pfn_dxcore_notification_callback.md",
+      "redirect_url": "/windows/win32/api/dxcore_interface/nc-dxcore_interface-pfn_dxcore_notification_callback",
+      "redirect_document_id": false
+},
+{
+      "source_path": "desktop-src/dxcore/dxcore_interface/ne-dxcore_interface-dxcoreadapterpreference.md",
+      "redirect_url": "/windows/win32/api/dxcore_interface/ne-dxcore_interface-dxcoreadapterpreference",
+      "redirect_document_id": false
+},
+{
+      "source_path": "desktop-src/dxcore/dxcore_interface/ne-dxcore_interface-dxcoreadapterproperty.md",
+      "redirect_url": "/windows/win32/api/dxcore_interface/ne-dxcore_interface-dxcoreadapterproperty",
+      "redirect_document_id": false
+},
+{
+      "source_path": "desktop-src/dxcore/dxcore_interface/ne-dxcore_interface-dxcoreadapterstate.md",
+      "redirect_url": "/windows/win32/api/dxcore_interface/ne-dxcore_interface-dxcoreadapterstate",
+      "redirect_document_id": false
+},
+{
+      "source_path": "desktop-src/dxcore/dxcore_interface/ne-dxcore_interface-dxcorenotificationtype.md",
+      "redirect_url": "/windows/win32/api/dxcore_interface/ne-dxcore_interface-dxcorenotificationtype",
+      "redirect_document_id": false
+},
+{
+      "source_path": "desktop-src/dxcore/dxcore_interface/ne-dxcore_interface-dxcoresegmentgroup.md",
+      "redirect_url": "/windows/win32/api/dxcore_interface/ne-dxcore_interface-dxcoresegmentgroup",
+      "redirect_document_id": false
+},
+{
+      "source_path": "desktop-src/dxcore/dxcore_interface/ns-dxcore_interface-dxcoreadaptermemorybudget.md",
+      "redirect_url": "/windows/win32/api/dxcore_interface/ns-dxcore_interface-dxcoreadaptermemorybudget",
+      "redirect_document_id": false
+},
+{
+      "source_path": "desktop-src/dxcore/dxcore_interface/ns-dxcore_interface-dxcoreadaptermemorybudgetnodesegmentgroup.md",
+      "redirect_url": "/windows/win32/api/dxcore_interface/ns-dxcore_interface-dxcoreadaptermemorybudgetnodesegmentgroup",
+      "redirect_document_id": false
+},
+{
+      "source_path": "desktop-src/dxcore/dxcore_interface/ns-dxcore_interface-dxcorehardwareid.md",
+      "redirect_url": "/windows/win32/api/dxcore_interface/ns-dxcore_interface-dxcorehardwareid",
+      "redirect_document_id": false
 }
-
   ]
 }
