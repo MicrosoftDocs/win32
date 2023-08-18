@@ -91,7 +91,7 @@ The following table lists the UI Automation properties whose value or definition
 | <a href="uiauto-automation-element-propids.md"><strong>UIA_IsControlElementPropertyId</strong></a> | TRUE | 
 | <a href="uiauto-automation-element-propids.md"><strong>UIA_IsKeyboardFocusablePropertyId</strong></a> | FALSE | 
 | <a href="uiauto-automation-element-propids.md"><strong>UIA_LabeledByPropertyId</strong></a> | See notes. | If there is a static text label, this property must expose a reference to that control. | 
-| <a href="uiauto-automation-element-propids.md"><strong>UIA_LocalizedControlTypePropertyId</strong></a> | See notes. | A localized string corresponding to the <strong>SemanticZoom</strong> control type. The default value is "semantic zoom" for en-US or English (United States).<blockquote>[!Note]<br />Some frameworks concatenated this as "semanticzoom".</blockquote><br /> | 
+| [**UIA_LocalizedControlTypePropertyId**](uiauto-automation-element-propids.md) | See notes. | A localized string corresponding to the **SemanticZoom** control type. The default value is "semantic zoom" for en-US or English (United States). **Note:** Some frameworks concatenated this as "semanticzoom".<br> | 
 | <a href="uiauto-automation-element-propids.md"><strong>UIA_NamePropertyId</strong></a> | See notes. | An empty string is acceptable, or a more useful name could be provided, as long as it does not contain the term  semantic zoom , which would make the combination of control type and name confusing. | 
 
 
