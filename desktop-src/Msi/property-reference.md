@@ -162,7 +162,7 @@ The following list identifies the hardware properties that the Windows Installer
 
 | Property | Description | 
 |----------|-------------|
-| <a href="alpha.md"><strong>Alpha</strong></a><br /> | The numeric processor level when running on an Alpha processor.<br /><blockquote>[!Note]<br />This property is obsolete, the Alpha platform is not supported by Windows Installer.</blockquote><br /> | 
+| [**Alpha**](alpha.md)<br> | The numeric processor level when running on an Alpha processor.<br> **Note:** This property is obsolete, the Alpha platform is not supported by Windows Installer.<br> | 
 | <a href="borderside.md"><strong>BorderSide</strong></a><br /> | The width of the window borders, in pixels.<br /> | 
 | <a href="bordertop.md"><strong>BorderTop</strong></a><br /> | The height of the window borders, in pixels.<br /> | 
 | <a href="captionheight.md"><strong>CaptionHeight</strong></a><br /> | The height of normal caption area, in pixels.<br /> | 
