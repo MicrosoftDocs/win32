@@ -2176,7 +2176,7 @@ The Windows SDK winnt.h header defines the following macros:
 
 Each member (linker, longnames, or object-file member) is preceded by a header. An archive member header has the following format, in which each field is an ASCII text string that is left justified and padded with spaces to the end of the field. There is no terminating null character in any of these fields.
 
-Each member header starts on the first even address after the end of the previous archive member, one byte '\n' (IMAGE_ARCHIVE_PAD) may inserted after an archive member to make the following member starts on even address.
+Each member header starts on the first even address after the end of the previous archive member, one byte '\n' (IMAGE_ARCHIVE_PAD) may be inserted after an archive member to make the following member start on an even address.
 
 
 
