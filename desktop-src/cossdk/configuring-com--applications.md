@@ -63,7 +63,7 @@ How you install components into an application can affect how you can configure 
 | <a href="setting-the-synchronization-attribute.md">Synchronization</a><br /> | Sets synchronization requirements Disabled, Not Supported, Supported, Required, or Requires New.<br /> | 
 | <a href="enabling-jit-activation-for-a-component.md">JIT Activation</a><br /> | Enables just-in-time activation.<br /> | 
 | <a href="configuring-a-component-to-be-pooled.md">Object pooling</a><br /> | Enables object pooling. Minimum and maximum pool size and object time-out values are configurable.<br /> | 
-| <a href="specifying-an-object-constructor-string-for-a-component.md">Object construction</a><br /> | Enables parameterized object construction with an administratively specified constructor string. <br /><blockquote>[!Note]<br />The constructor string should not be used to store security-sensitive information.</blockquote><br /> | 
+| [Object construction](specifying-an-object-constructor-string-for-a-component.md)<br> | Enables parameterized object construction with an administratively specified constructor string. <br> **Note:** The constructor string should not be used to store security-sensitive information.<br> | 
 | <a href="enabling-access-checks-at-the-component-level.md">Component-level access checks</a><br /> | Turns on or off component-level role-based security checking.<br /> | 
 | <a href="assigning-roles-to-components--interfaces--or-methods.md">Declarative role assignment</a><br /> | Enables explicit assignment of roles to the component.<br /> | 
 | <a href="persistent-client-side-failures.md">Queuing exception class</a><br /> | Indicates an exception class for handling client-side failures.<br /> | 
