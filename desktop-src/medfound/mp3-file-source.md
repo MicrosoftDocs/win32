@@ -60,7 +60,7 @@ In addition, it exposes the following interfaces through [**IMFGetService**](/wi
 | Service GUID | Interface | 
 |--------------|-----------|
 | <strong>MF_METADATA_PROVIDER_SERVICE</strong> | <a href="/windows/desktop/api/mfidl/nn-mfidl-imfmetadataprovider"><strong>IMFMetadataProvider</strong></a> | 
-| <strong>MF_PROPERTY_HANDLER_SERVICE</strong> | <a href="/windows/desktop/api/propsys/nn-propsys-ipropertystore"><strong>IPropertyStore</strong></a><blockquote>[!Note]<br />See <a href="shell-metadata-providers.md">Shell Metadata Providers</a>.</blockquote><br /><br /> | 
+| **MF_PROPERTY_HANDLER_SERVICE** | [**IPropertyStore**](/windows/desktop/api/propsys/nn-propsys-ipropertystore) **Note:** See [Shell Metadata Providers](shell-metadata-providers.md).<br> | 
 | <strong>MF_RATE_CONTROL_SERVICE</strong> | <a href="/windows/desktop/api/mfidl/nn-mfidl-imfratecontrol"><strong>IMFRateControl</strong></a> | 
 | <strong>MF_RATE_CONTROL_SERVICE</strong> | <a href="/windows/desktop/api/mfidl/nn-mfidl-imfratesupport"><strong>IMFRateSupport</strong></a> | 
 

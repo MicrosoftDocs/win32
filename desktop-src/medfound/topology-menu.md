@@ -22,8 +22,8 @@ The **Topology** menu provides the following commands:
 | <strong>Add Tee</strong> | Adds a tee node for sending the output to multiple output nodes. | 
 | <strong>Add Custom MFT...</strong> | Adds a custom Media Foundation Transform (MFT). See <a href="adding-transform-nodes-with-topoedit.md">Adding Transform Nodes with TopoEdit</a>. | 
 | <strong>Add Custom Sink...</strong> | Adds an output node for a custom stream sink. See <a href="adding-output-nodes-with-topoedit.md">Adding Output Nodes with TopoEdit</a>. | 
-| <strong>Add Video Capture Source...</strong> | Adds a source node for a video capture device.<br /><blockquote>[!Note]<br />This feature requires Windows 7.</blockquote><br /> | 
-| <strong>Add Audio Capture Source...</strong> | Adds a source node for an audio capture device.<br /><blockquote>[!Note]<br />This feature requires Windows 7.</blockquote><br /> | 
+| **Add Video Capture Source...** | Adds a source node for a video capture device.<br> **Note:** This feature requires Windows 7.<br> | 
+| **Add Audio Capture Source...** | Adds a source node for an audio capture device.<br> **Note:** This feature requires Windows 7.<br> | 
 | <strong>Resolve Topology</strong> | Creates a full topology for playback. See <a href="resolving-a-topology-with-topoedit.md">Resolving a Topology with TopoEdit</a>. | 
 | <strong>Delete</strong> | Removes an item, topology nodes or node connections from the <strong>Topology Pane</strong>. | 
 
