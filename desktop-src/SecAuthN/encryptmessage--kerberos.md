@@ -45,7 +45,7 @@ This parameter can be the following flag.
 
 | Value | Meaning | 
 |-------|---------|
-| <span id="SECQOP_WRAP_NO_ENCRYPT"></span><span id="secqop_wrap_no_encrypt"></span><dl><dt><strong>SECQOP_WRAP_NO_ENCRYPT</strong></dt></dl> | Produce a header or trailer but do not encrypt the message.<br /><blockquote>[!Note]<br />KERB_WRAP_NO_ENCRYPT has the same value and the same meaning.</blockquote><br /> | 
+| **SECQOP_WRAP_NO_ENCRYPT**<br> | Produce a header or trailer but do not encrypt the message.<br> **Note:** KERB_WRAP_NO_ENCRYPT has the same value and the same meaning.<br> | 
 
 
 </dd> <dt>
