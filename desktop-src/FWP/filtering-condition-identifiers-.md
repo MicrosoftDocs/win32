@@ -297,7 +297,7 @@ The following constants are available for user mode only.
 | <span id="FWPM_CONDITION_KM_TYPE"></span><span id="fwpm_condition_km_type"></span><dl><dt><strong>FWPM_CONDITION_KM_TYPE</strong></dt></dl> | The type of keying module.<br /><strong>Data type:</strong> IKEEXT_KEY_MODULE_TYPE<br /> | 
 | <span id="FWPM_CONDITION_KM_MODE"></span><span id="fwpm_condition_km_mode"></span><dl><dt><strong>FWPM_CONDITION_KM_MODE</strong></dt></dl> | The IPsec mode in which a token can be obtained.<br /><strong>Data type:</strong> IPSEC_TOKEN_MODE<br /> | 
 | <span id="FWPM_CONDITION_IPSEC_POLICY_KEY"></span><span id="fwpm_condition_ipsec_policy_key"></span><dl><dt><strong>FWPM_CONDITION_IPSEC_POLICY_KEY</strong></dt></dl> | The main mode (MM) or quick mode (QM) policy provider context key of the SA being authorized. Useful for restricting the scope of the authorization rule to SAs formed using a specified IPsec MM or QM policy key.<br /><strong>Data type:</strong> FWP_BYTE_ARRAY16_TYPE<br /> | 
-| <span id="FWPM_CONDITION_AUTHENTICATION_TYPE"></span><span id="fwpm_condition_authentication_type"></span><dl><dt><strong>FWPM_CONDITION_AUTHENTICATION_TYPE</strong></dt></dl> | The method used to authenticate the security association.<br /><blockquote>[!Note]<br />Available only on Windows Server 2008 R2, Windows 7, and later.</blockquote><br /><strong>Data type:</strong> FWP_UINT32 <br /> | 
+| **FWPM_CONDITION_AUTHENTICATION_TYPE**<br> | The method used to authenticate the security association.<br> **Note:** Available only on Windows Server 2008 R2, Windows 7, and later.<br>**Data type:** FWP_UINT32 <br> | 
 
 
 
