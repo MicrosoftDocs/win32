@@ -276,7 +276,7 @@ ms.date: 05/31/2018
 | <a href="/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-iwmresizerprops"><strong>IWMResizerProps</strong></a><br /> | Sets properties on the video resizer DSP.<br /> | 
 | <a href="/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-iwmsampleextensionsupport"><strong>IWMSampleExtensionSupport</strong></a><br /> | Configures codec support for sample extensions. <br /> | 
 | <a href="/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-iwmvideodecoderhurryup"><strong>IWMVideoDecoderHurryup</strong></a><br /> | Controls the speed of the video decoder.<br /> | 
-| <a href="/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-iwmvideodecoderreconbuffer"><strong>IWMVideoDecoderReconBuffer</strong></a><br /> | <blockquote>[!Note]<br />This interface is obsolete and should not be used.</blockquote><br /> Manages reconstructed video frames.<br /> | 
+| [**IWMVideoDecoderReconBuffer**](/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-iwmvideodecoderreconbuffer)<br> |  **Note:** This interface is obsolete and should not be used.<br> Manages reconstructed video frames.<br> | 
 | <a href="/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-iwmvideoforcekeyframe"><strong>IWMVideoForceKeyFrame</strong></a><br /> | Forces the encoder to encode the current frame as a key frame. <br /> | 
 
 
