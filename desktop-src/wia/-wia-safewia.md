@@ -49,7 +49,7 @@ The **SafeWia** object has these properties.
 
 | Property | Access type | Description | 
 |----------|-------------|-------------|
-| <a href="-wia-iwia-devices.md"><strong>Devices</strong></a><br /> | Read-only<br /> | Collection of <a href="-wia-deviceinfo.md"><strong>DeviceInfo</strong></a> objects that represents all of the devices installed on the computer. Read-only. <br /><blockquote>[!Note]<br />This collection is 0-based.</blockquote><br /> | 
+| [**Devices**](-wia-iwia-devices.md)<br> | Read-only<br> | Collection of [**DeviceInfo**](-wia-deviceinfo.md) objects that represents all of the devices installed on the computer. Read-only. <br> **Note:** This collection is 0-based.<br> | 
 
 
 
