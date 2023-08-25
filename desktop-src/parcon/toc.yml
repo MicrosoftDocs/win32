@@ -40,6 +40,8 @@
       href: association-of-account-identities-for-parental-controls.md
     - name: "Parental Controls and User Account Control"
       href: parental-controls-and-user-account-control.md
+    - name: "Using the Parental Controls Registry Key"
+      href: using-parental-controls-reg-key.md
     - name: "Using Parental Controls APIs"
       href: using-parental-controls-apis.md
       items: 
@@ -47,8 +49,6 @@
         href: using-parental-controls-settings-apis.md
       - name: "Using Logging APIs for Parental Controls"
         href: using-logging-apis-for-parental-controls.md
-  - name: "Using the Parental Controls Registry Key"
-    href: using-parental-controls-registry-key.md
   - name: "Parental Controls Reference"
     href: parental-controls-reference.md
     items: 
