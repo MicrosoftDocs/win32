@@ -42,7 +42,7 @@ The high-order word of *wParam* is ignored.
 |-------|---------|
 | <span id="0"></span><dl><dt><strong>0</strong></dt></dl> | The text is drawn with a border to appear lower than the plane of the window.<br /> | 
 | <span id="SBT_NOBORDERS"></span><span id="sbt_noborders"></span><dl><dt><strong>SBT_NOBORDERS</strong></dt></dl> | The text is drawn without borders.<br /> | 
-| <span id="SBT_OWNERDRAW"></span><span id="sbt_ownerdraw"></span><dl><dt><strong>SBT_OWNERDRAW</strong></dt></dl> | The text is drawn by the parent window. <br /><blockquote>[!Note]<br />A simple mode status bar does not support owner drawing.</blockquote><br /> | 
+| **SBT_OWNERDRAW**<br> | The text is drawn by the parent window. <br> **Note:** A simple mode status bar does not support owner drawing.<br> | 
 | <span id="SBT_POPOUT"></span><span id="sbt_popout"></span><dl><dt><strong>SBT_POPOUT</strong></dt></dl> | The text is drawn with a border to appear higher than the plane of the window.<br /> | 
 | <span id="SBT_RTLREADING"></span><span id="sbt_rtlreading"></span><dl><dt><strong>SBT_RTLREADING</strong></dt></dl> | The text will be displayed in the opposite direction to the text in the parent window.<br /> | 
 | <span id="SBT_NOTABPARSING"></span><span id="sbt_notabparsing"></span><dl><dt><strong>SBT_NOTABPARSING</strong></dt></dl> | Tab characters are ignored.<br /> | 
