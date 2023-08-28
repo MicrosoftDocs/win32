@@ -42739,6 +42739,11 @@
       "source_path": "desktop-src/dxcore/dxcore_interface/ns-dxcore_interface-dxcorehardwareid.md",
       "redirect_url": "/windows/win32/api/dxcore_interface/ns-dxcore_interface-dxcorehardwareid",
       "redirect_document_id": false
+},
+{
+      "source_path": "desktop-src/msi/msizap-exe.md",
+      "redirect_url": "/windows/win32/msi/windows-installer-development-tools",
+      "redirect_document_id": false
 }
   ]
 }
