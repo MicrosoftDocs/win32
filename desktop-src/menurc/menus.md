@@ -83,7 +83,7 @@ The following function is obsolete.
 
 | Name | Description | 
 |------|-------------|
-| <a href="/windows/desktop/api/Winuser/nf-winuser-insertmenua"><strong>InsertMenu</strong></a> | Inserts a new menu item into a menu, moving other items down the menu.<blockquote>[!Note]<br />The <a href="/windows/desktop/api/Winuser/nf-winuser-insertmenua"><strong>InsertMenu</strong></a> function has been superseded by the <a href="/windows/desktop/api/Winuser/nf-winuser-insertmenuitema"><strong>InsertMenuItem</strong></a> function. You can still use <strong>InsertMenu</strong>, however, if you do not need any of the extended features of <strong>InsertMenuItem</strong>.</blockquote><br /><br /> | 
+| [**InsertMenu**](/windows/desktop/api/Winuser/nf-winuser-insertmenua) | Inserts a new menu item into a menu, moving other items down the menu. **Note:** The [**InsertMenu**](/windows/desktop/api/Winuser/nf-winuser-insertmenua) function has been superseded by the [**InsertMenuItem**](/windows/desktop/api/Winuser/nf-winuser-insertmenuitema) function. You can still use **InsertMenu**, however, if you do not need any of the extended features of **InsertMenuItem**.<br> | 
 
 
 
