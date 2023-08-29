@@ -19,13 +19,24 @@ HKLM\Software\Microsoft\Windows\CurrentVersion\Parental Controls\Users\{user-sid
 ## Example code
 
 ```C++
-  base::win::RegKey reg_key;
-  bool policy_enabled = false;
+// Creating registry key path
+constexpr const wchar_t kBaseRegKeyPath[] =
+    L"Software\\Microsoft\\Windows\\CurrentVersion\\Parental Controls\\Users\\";
+constexpr const wchar_t kBaseRegKayPathSuffix[] = L\\Web;
  
-  FamilySafetyStatus result = OpenRegKey(&reg_key);
+static const std::wstring* reg_key_path = []() {
+    std::wstring user_sid;
+    bool got_user_sid_string = base::win::GetUserSidString(&user_sid);
+    DCHECK(got_user_sid_string);
+    return new std::wstring{kBaseRegKeyPath + user_sid + kBaseRegKayPathSuffix};
+  }();
  
-  if (result.IsOk()) {
-    std::wstring name = GetPolicyString(policy);
-    result = ReadRegKey(reg_key, name, &policy_enabled);
-  }
+// opening registry path
+HRESULT hresult =
+      reg_key->Open(HKEY_LOCAL_MACHINE, reg_key_path->c_str(),
+                    KEY_READ | KEY_WOW64_64KEY);
+ 
+if (hresult == ERROR_SUCCESS) {
+    // Registry key exists for user
+}
 ```
