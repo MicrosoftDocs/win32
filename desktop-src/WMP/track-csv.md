@@ -35,7 +35,7 @@ The Format column in the table below describes the way each Unicode text field i
 | HasPreviewClip | Yes | Boolean. Can be 0 or 1.Example: 0<br /> | Indicates whether the track has a preview clip. | 
 | HasVideoClip | Yes | Boolean. Can be 0 or 1.Example: 0<br /> | Indicates whether the track has a video clip. | 
 | ParentalRating | Yes | Enumeration. Can be N, E, or C.Example: N<br /> | Indicates the Parental Advisory Rating. The values N, E, and C stand for Normal, Explicit, and Clean. | 
-| LinkedAlbumID | Yes | Non-negative integer. Must be the ID of an Album. Example: 32423 | The ID of the album that contains this track.<blockquote>[!Note]<br />Every track must belong to an album. That is, for each track, the LinkedAlbumID field must be equal to one of the album IDs in the album.csv file.</blockquote><br /> | 
+| LinkedAlbumID | Yes | Non-negative integer. Must be the ID of an Album. Example: 32423 | The ID of the album that contains this track. **Note:** Every track must belong to an album. That is, for each track, the LinkedAlbumID field must be equal to one of the album IDs in the album.csv file.<br> | 
 | LinkedTrackArtist_ArtistIDs | Yes | List of integers. The list contains artist IDs, separated by semicolons. Example: 41322;12321; 82123; | A list of IDs corresponding to the contributing artists. | 
 | Composer | No | Unicode string. Example: Beethoven | The composer of the track. If the track's genre does not have the HasComposer field set, the value of the Composer field will be ignored. Typically used only for jazz or classical tracks. | 
 | Popularity | Yes | Non-negative integer or Float.Example: 1252.6<br /> | Determines the position of the track in the list when sorted by popularity. A lower number indicates higher popularity. | 

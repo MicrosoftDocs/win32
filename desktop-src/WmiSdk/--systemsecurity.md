@@ -50,11 +50,11 @@ The **\_\_SystemSecurity** class has these methods.
 
 | Method | Description | 
 |--------|-------------|
-| <a href="--systemsecurity-get9xuserlist.md"><strong>Get9XUserList</strong></a> | Gets a list of users who are allowed remote access.<br /><blockquote>[!Note]<br />This method does not work on supported versions of Windows. Use <a href="--systemsecurity-getsd.md"><strong>GetSD</strong></a> instead.</blockquote><br /> | 
+| [**Get9XUserList**](--systemsecurity-get9xuserlist.md) | Gets a list of users who are allowed remote access.<br> **Note:** This method does not work on supported versions of Windows. Use [**GetSD**](--systemsecurity-getsd.md) instead.<br> | 
 | <a href="--systemsecurity-getcalleraccessrights.md"><strong>GetCallerAccessRights</strong></a> | Returns a mask with each bit that corresponds to an access right.<br /> | 
 | <a href="--systemsecurity-getsd.md"><strong>GetSD</strong></a> | Gets the <a href="/windows/desktop/api/winnt/ns-winnt-security_descriptor"><strong>SECURITY_DESCRIPTOR</strong></a> for the namespace to which the user is connected.<br /> | 
 | <a href="getsecuritydescriptor-method-in-class---systemsecurity-.md"><strong>GetSecurityDescriptor</strong></a> | Gets the security descriptor that controls access to the WMI namespace associated with the instance of <strong>__SystemSecurity</strong>. The security descriptor is returned as an instance of<a href="--securitydescriptor.md"><strong>__SecurityDescriptor</strong></a>.<br /> | 
-| <a href="--systemsecurity-set9xuserlist.md"><strong>Set9XUserList</strong></a> | Sets a list of users who are allowed remote access.<br /><blockquote>[!Note]<br />This method does not work on supported versions of Windows. Use <a href="--systemsecurity-setsd.md"><strong>SetSD</strong></a> instead.</blockquote><br /> | 
+| [**Set9XUserList**](--systemsecurity-set9xuserlist.md) | Sets a list of users who are allowed remote access.<br> **Note:** This method does not work on supported versions of Windows. Use [**SetSD**](--systemsecurity-setsd.md) instead.<br> | 
 | <a href="--systemsecurity-setsd.md"><strong>SetSD</strong></a> | Sets the security descriptor for the namespace to which the user is connected.<br /> | 
 | <a href="setsecuritydescriptor-method-in-class---systemsecurity.md"><strong>SetSecurityDescriptor</strong></a> | Writes an updated version of the security descriptor that controls access to the printer. The security descriptor is represented by an instance of <a href="--securitydescriptor.md"><strong>__SecurityDescriptor</strong></a>.<br /> | 
 

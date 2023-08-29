@@ -30,7 +30,7 @@ The following sections provide overview information about type 2 online stores.
 
 | Section | Description | 
 |---------|-------------|
-| <a href="service-task-panes.md">Service Task Panes</a> | Provides general information about the three service task panes that an online store can display in Windows Media Player 10.<blockquote>[!Note]<br />In Windows Media Player 11 there is only one task pane, which is displayed when the user clicks the <strong>Online Stores</strong> tab.</blockquote><br /> | 
+| [Service Task Panes](service-task-panes.md) | Provides general information about the three service task panes that an online store can display in Windows Media Player 10. **Note:** In Windows Media Player 11 there is only one task pane, which is displayed when the user clicks the **Online Stores** tab.<br> | 
 | <a href="purchase-integration-for-type-2-online-stores.md">Purchase Integration for Type 2 Online Stores</a> | Describes how online stores handle requests to purchase media content. | 
 | <a href="download-manager.md">Download Manager</a> | Describes the Windows Media Player Download Manager. | 
 | <a href="album-info-integration.md">Album Info Integration</a> | Describes how an online store handles requests to display album details. | 
