@@ -322,7 +322,7 @@ This section lists the differences between each 10Level9 feature level and the D
 |---------------|----------------------|
 | D3D_FEATURE_LEVEL_9_1 | Not supported${REMOVE}$<br /> | 
 | D3D_FEATURE_LEVEL_9_2 | 
-| D3D_FEATURE_LEVEL_9_3 | Number of primitives may not exceed 1048575.<br /> Textures cannot repeat over one primitive more than 8192 times.<br /> Index values cannot exceed 1048575.<br /><blockquote>[!Note]<br />When you call the <a href="/windows/desktop/api/D3D11/nf-d3d11-id3d11devicecontext-drawindexedinstanced"><strong>DrawIndexedInstanced</strong></a> method with a vertex shader that is bound to the pipeline and that doesn't import any per-instance data, some Direct3D 9 graphics hardware might not draw anything. In particular, if the vertex shader does not use any per-instance data, calling <strong>DrawIndexedInstanced</strong> with 1 instance is not equivalent to calling <a href="/windows/desktop/api/D3D11/nf-d3d11-id3d11devicecontext-draw"><strong>Draw</strong></a>.</blockquote><br /> | 
+| D3D_FEATURE_LEVEL_9_3 | Number of primitives may not exceed 1048575.<br> Textures cannot repeat over one primitive more than 8192 times.<br> Index values cannot exceed 1048575.<br> **Note:** When you call the [**DrawIndexedInstanced**](/windows/desktop/api/D3D11/nf-d3d11-id3d11devicecontext-drawindexedinstanced) method with a vertex shader that is bound to the pipeline and that doesn't import any per-instance data, some Direct3D 9 graphics hardware might not draw anything. In particular, if the vertex shader does not use any per-instance data, calling **DrawIndexedInstanced** with 1 instance is not equivalent to calling [**Draw**](/windows/desktop/api/D3D11/nf-d3d11-id3d11devicecontext-draw).<br> | 
 
 
 
