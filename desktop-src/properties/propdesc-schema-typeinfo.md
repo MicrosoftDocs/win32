@@ -303,10 +303,10 @@ If there are multiple elements, the last one is used. If no [typeInfo]() element
 
 <p> </p>
 <div class="alert">
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 A property whose <em>isInnate</em> value is &quot;false&quot; (meaning that the property is read/write) cannot also set the <em>canBePurged</em> value to &quot;false&quot;. This restriction is enforced by the operating system.
-</blockquote>
+
 </div>
 <div>
  

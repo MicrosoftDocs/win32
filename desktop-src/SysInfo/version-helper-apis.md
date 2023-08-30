@@ -76,7 +76,7 @@ The following functions can be used to determine the current operating system ve
 <tr class="even">
 <td><a href="/windows/desktop/api/VersionHelpers/nf-versionhelpers-iswindowsversionorgreater"><strong>IsWindowsVersionOrGreater</strong></a></td>
 <td>
-<blockquote>You should only use this function if the other provided version helper functions do not fit your scenario.</blockquote>
+You should only use this function if the other provided version helper functions do not fit your scenario.
 <br/>Indicates if the current OS version matches, or is greater than, the provided version information. This function is useful in confirming a version of Windows Server that doesn't share a version number with a client release.
 </td>
 </tr>

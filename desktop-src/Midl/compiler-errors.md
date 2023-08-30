@@ -1292,28 +1292,28 @@ The following error messages are generated during MIDL compilation:
 <tr class="even">
 <td><span id="MIDL2311"></span><span id="midl2311"></span><dl> <dt><strong>MIDL2311</strong></dt> </dl></td>
 <td><dl> <dt><span id="statements_outside_library_block_are_illegal_in_mktyplib_compatibility_mode"></span><span id="STATEMENTS_OUTSIDE_LIBRARY_BLOCK_ARE_ILLEGAL_IN_MKTYPLIB_COMPATIBILITY_MODE"></span>statements outside library block are illegal in mktyplib compatibility mode</dt> <dd> You may need to specify the <a href="-mktyplib203.md"><strong>/mktyplib203</strong></a> command-line switch when you compile your IDL file.<br/>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 The Mktyplib.exe tool is obsolete. Use the MIDL compiler instead.
-</blockquote>
+
 <br/> </dd> </dl></td>
 </tr>
 <tr class="odd">
 <td><span id="MIDL2312"></span><span id="midl2312"></span><dl> <dt><strong>MIDL2312</strong></dt> </dl></td>
 <td><dl> <dt><span id="illegal_syntax_unless_using_mktyplib_compatibility_mode"></span><span id="ILLEGAL_SYNTAX_UNLESS_USING_MKTYPLIB_COMPATIBILITY_MODE"></span>illegal syntax unless using mktyplib compatibility mode</dt> <dd> You may need to specify the <a href="-mktyplib203.md"><strong>/mktyplib203</strong></a> command-line switch when you compile your IDL file.<br/>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 The Mktyplib.exe tool is obsolete. Use the MIDL compiler instead.
-</blockquote>
+
 <br/> </dd> </dl></td>
 </tr>
 <tr class="even">
 <td><span id="MIDL2313"></span><span id="midl2313"></span><dl> <dt><strong>MIDL2313</strong></dt> </dl></td>
 <td><dl> <dt><span id="illegal_definition__must_use_typedef_in_mktyplib_compatibility_mode"></span><span id="ILLEGAL_DEFINITION__MUST_USE_TYPEDEF_IN_MKTYPLIB_COMPATIBILITY_MODE"></span>illegal definition, must use typedef in mktyplib compatibility mode</dt> <dd> You may need to specify the <a href="-mktyplib203.md"><strong>/mktyplib203</strong></a> command-line switch when you compile your IDL file.<br/>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 The Mktyplib.exe tool is obsolete. Use the MIDL compiler instead.
-</blockquote>
+
 <br/> </dd> </dl></td>
 </tr>
 <tr class="odd">
@@ -1644,10 +1644,10 @@ void bar(long s1, long s2, [size_is(s1,s2) long **a);//MIDL2393</code></pre>
 <tr class="odd">
 <td><span id="MIDL2395"></span><span id="midl2395"></span><dl> <dt><strong>MIDL2395</strong></dt> </dl></td>
 <td><dl> <dt><span id="type_or_construct_not_supported_in_a_library_block_because_Oleaut32.dll_support_for_64-KB_polymorphic_types_is_missing"></span><span id="type_or_construct_not_supported_in_a_library_block_because_oleaut32.dll_support_for_64-kb_polymorphic_types_is_missing"></span><span id="TYPE_OR_CONSTRUCT_NOT_SUPPORTED_IN_A_LIBRARY_BLOCK_BECAUSE_OLEAUT32.DLL_SUPPORT_FOR_64-KB_POLYMORPHIC_TYPES_IS_MISSING"></span>type or construct not supported in a library block because Oleaut32.dll support for 64-KB polymorphic types is missing</dt> <dd> OLE automation does not support polymorphic types (such as _int3264, INT_PTR, etc). These types have incompatible data representations between 32-bit and 64-bit platforms. The remote call will fail at run time on 64-bit platforms.<br/>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 Note that as of Windows 2000 release, 64-bit TLB files are supported by OLE Automation by converting 32-bit TLB information at run time. Therefore, only 32-bit TLB generation is supported by MIDL.
-</blockquote>
+
 <br/> If MIDL is being used just to generate a header file, the <a href="-notlb.md"><strong>/notlb</strong></a> switch will suppress generation of the TLB file.<br/> </dd> </dl></td>
 </tr>
 <tr class="even">

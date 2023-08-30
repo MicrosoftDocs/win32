@@ -373,20 +373,20 @@ Useful examples of how query values can be restricted are listed in the followin
 <td>Absolute dates</td>
 <td>System.ItemDate:1/26/2010<br/> SystemDateModified 10/15/2002 19:00<br/></td>
 <td>Finds items with a date of 26 January 2010.<br/> Finds items that were modified on 15 October 2002 between the hours 19:00:00 and 19:00:59. <br/>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 Because date formats (like floating point formats) vary among locales, the use of canonical syntax with absolute dates is not supported and is not localization safe.
-</blockquote>
+
 <br/></td>
 </tr>
 <tr class="even">
 <td>Relative dates</td>
 <td>System.ItemDate:System.StructuredQueryType.DateTime#Today<br/> System.DateAcquired:System.StructuredQueryType.DateTime#NextMonth<br/> System.Message.DateReceived:System.StructuredQueryType.DateTime#LastYear<br/></td>
 <td>Finds items with today's date.<br/> Finds items with a date in the next month.<br/> Finds items with a date in the last year.<br/>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 In addition to searching on specific dates and date ranges, AQS recognizes relative date values (like <em>today</em>, <em>tomorrow</em>, <em>nextweek</em>, <em>nextmonth</em>), and day (like <em>Tuesday</em> or <em>Monday..Wednesday</em>), and month (<em>February</em>).
-</blockquote>
+
 <br/></td>
 </tr>
 <tr class="odd">

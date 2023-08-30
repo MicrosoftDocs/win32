@@ -132,10 +132,10 @@ Some features of the HTML [**IFilter**](/windows/win32/api/filter/nn-filter-ifil
 <tr class="odd">
 <td>Creating special abstracts from files</td>
 <td>Use the <code>META NAME=&quot;DESCRIPTION&quot;...</code> tag to instruct the <a href="https://www.bing.com/search?q=<strong>IFilter</strong>"><strong>IFilter</strong></a> to use the string following the <code>CONTENT</code> keyword as the document abstract.
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 The filtering process can generate abstracts for each filtered file, which default to being a set of characters at the beginning of the file.
-</blockquote>
+
 <br/></td>
 <td><span data-codelanguage=""></span>
 <table>
