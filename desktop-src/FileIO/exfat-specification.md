@@ -4870,7 +4870,7 @@ to, removals from, and clarifications of this document.
 <tr class="odd">
 <td>08-Jan-2008</td>
 <td><p>First release of the Basic Specification, which includes:</p>
-<blockquote>
+
 <p>Section 1, Introduction</p>
 <p>Section 2,<br />
 Volume Structure</p>
@@ -4882,12 +4882,12 @@ Volume Structure</p>
 <p>Section 8, Implementation Notes</p>
 <p>Section 9, File System Limits</p>
 <p>Section 10, Appendix</p>
-</blockquote></td>
+</td>
 </tr>
 <tr class="even">
 <td>08-Jun-2008</td>
 <td><p>Second release of the Basic Specification, which includes the following changes:</p>
-<blockquote>
+
 <p>Addition of Section 11,<br />
 Documentation Change History</p>
 <p>Addition of the Vendor Extension and Vendor Allocation directory entries in Sections 7.8 and 7.9</p>
@@ -4901,12 +4901,12 @@ Documentation Change History</p>
 <p>Clarification of the meaning of the values of the DataLength field in Section 6.2.3</p>
 <p>Clarification of the VolumeDirty field in Section 3.1.13.2 and recommended write ordering in Section 8.1</p>
 <p>Clarification of the MediaFailure field in Section 3.1.13.3</p>
-</blockquote></td>
+</td>
 </tr>
 <tr class="odd">
 <td>01-Oct-2008</td>
 <td><p>Third release of the Basic Specification, which includes the following changes:</p>
-<blockquote>
+
 <p>Addition of SHALL, SHOULD and MAY to field explanations</p>
 <p>Addition of UTC definition in Table 2 Section 1.3</p>
 <p>Modified sections 1.5, to ensure alignment with the TexFAT specification document.</p>
@@ -4915,41 +4915,41 @@ Documentation Change History</p>
 <p>Clarified requirements for valid file directory entries in Section 7.4</p>
 <p>Added requirement for unique file and directory names to Section 7.7</p>
 <p>Added implementation note for ASCII to the end of Section 7.7.3</p>
-</blockquote></td>
+</td>
 </tr>
 <tr class="even">
 <td>01-Jan-2009</td>
 <td><p>Fourth release of the Basic Specification, which includes the following changes:</p>
-<blockquote>
+
 <p>Removed references to Windows CE Access Control entries</p>
 <p>Added clarification to Section 7.2.5.1 to explicitly require a full up-case table</p>
-</blockquote></td>
+</td>
 </tr>
 <tr class="odd">
 <td>02-Sep-2009</td>
 <td><p>Fifth release of the Basic Specification, which includes the following changes:</p>
-<blockquote>
+
 <p>Document formatting changes to allow better PDF conversion</p>
-</blockquote></td>
+</td>
 </tr>
 <tr class="even">
 <td>24-Feb-2010</td>
 <td><p>Sixth release of the Basic Specification, which includes the following changes:</p>
-<blockquote>
+
 <p>Amended incorrect statement: “FirstCluster Field shall be zero if the DataLength is zero and NoFatChain is set” in Section 6.3.5 and Section 6.4.3 to “If the NoFatChain bit is 1 then FirstCluster must point to a valid cluster in the cluster heap“ to clarify that there must be valid allocation if the NoFatChain bit is set.</p>
 <p>Added “If the NoFatChain bit is 1 then DataLength must not be zero. If the FirstCluster field is zero, then DataLength must also be zero” to Section 6.3.6 and Section 6.4.4 to clarify that there must be valid allocation if the NoFatChain bit is set.</p>
 <p>Updated copyright notice to 2010</p>
-</blockquote></td>
+</td>
 </tr>
 <tr class="odd">
 <td>26-Aug-2019</td>
 <td><p>Seventh release of the Basic Specification, which includes the following changes:</p>
-<blockquote>
+
 <p>Updated legal terms pertaining to the specification, including:</p>
 <p>Removal of Microsoft Confidential notice</p>
 <p>Removal of Microsoft Corporation Technical Documentation License Agreement section</p>
 <p>Updated copyright notice to 2019</p>
-</blockquote></td>
+</td>
 </tr>
 </tbody>
 </table>

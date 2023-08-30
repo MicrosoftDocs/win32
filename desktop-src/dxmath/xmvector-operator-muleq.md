@@ -36,19 +36,19 @@ Multiplication assignment operators
 <tr class="odd">
 <td ><a href="/previous-versions/windows/desktop/legacy/ff729806(v=vs.85)"><strong>XMVECTOR::operator *= (XMVECTOR&,float)</strong></a></td>
 <td >Multiplies an <code>XMVECTOR</code> instance by a floating point value and returns a reference to the updated instance. <br/> The <code>operator *=</code> multiplies each component of the current instance of <a href="xmvector-data-type.md"><strong>XMVECTOR Data Type</strong></a> by a specified floating point value, returning a reference to the updated current instance. <br/>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 This operator is only available under C++.
-</blockquote>
+
 <br/></td>
 </tr>
 <tr class="even">
 <td ><a href="/previous-versions/windows/desktop/legacy/ee421388(v=vs.85)"><strong>XMVECTOR::operator *= (XMVECTOR&,XMVECTOR)</strong></a></td>
 <td >Multiplies one <code>XMVECTOR</code> instance by a second instance, returning a reference to the updated initial instance. <br/> The <code>operator *=</code> multiplies each component of the current instance of <a href="xmvector-data-type.md"><strong>XMVECTOR Data Type</strong></a> by the corresponding component in a second specified instance of <code>XMVECTOR</code>, returning a reference to the updated initial instance. <br/>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 This operator is only available under C++.
-</blockquote>
+
 <br/></td>
 </tr>
 </tbody>
