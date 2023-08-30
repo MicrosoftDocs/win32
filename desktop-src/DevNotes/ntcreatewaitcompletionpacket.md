@@ -1,5 +1,5 @@
 ---
-description: Verifies whether the operating system is in processor mode or controller mode.
+description: Creates a wait completion packet object with the specified access rights and attributes.
 title: NtCreateWaitCompletionPacket function
 ms.topic: reference
 ms.date: 08/30/2023
