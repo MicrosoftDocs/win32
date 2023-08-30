@@ -109,10 +109,10 @@ This topic describes the named constants that identify the properties of Microso
 <tr class="even">
 <td ><span id="UIA_AriaRolePropertyId"></span><span id="uia_ariarolepropertyid"></span><span id="UIA_ARIAROLEPROPERTYID"></span><dl> <dt><strong>UIA_AriaRolePropertyId</strong></dt> <dt>30101</dt> </dl></td>
 <td >Identifies the <strong>AriaRole</strong> property, which is a string containing the Accessible Rich Internet Application (ARIA) role information for the automation element. For more information about mapping ARIA roles to UI Automation control types, see <a href="uiauto-ariaspecification.md">UI Automation for W3C Accessible Rich Internet Applications Specification</a>.<br/>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 As an option, the user agent can also offer a localized description of the W3C ARIA role in the <strong>LocalizedControlType</strong> property. When the localized string is not specified, the system will provide the default <strong>LocalizedControlType</strong> string for the element.
-</blockquote>
+
 <br/> <br/> Variant type: <strong>VT_BSTR</strong><br/> Default value: empty string<br/></td>
 </tr>
 <tr class="odd">
@@ -122,10 +122,10 @@ As an option, the user agent can also offer a localized description of the W3C A
 <tr class="even">
 <td ><span id="UIA_BoundingRectanglePropertyId"></span><span id="uia_boundingrectanglepropertyid"></span><span id="UIA_BOUNDINGRECTANGLEPROPERTYID"></span><dl> <dt><strong>UIA_BoundingRectanglePropertyId</strong></dt> <dt>30001</dt> </dl></td>
 <td >Identifies the <strong>BoundingRectangle</strong> property, which specifies the coordinates of the rectangle that completely encloses the automation element. The rectangle is expressed in physical screen coordinates. It can contain points that are not clickable if the shape or clickable region of the UI item is irregular, or if the item is obscured by other UI elements.<br/> Variant type: <strong>VT_R8</strong> | <strong>VT_ARRAY</strong><br/> Default value: [0,0,0,0]<br/>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 This property is <strong>NULL</strong> if the item is not currently displaying a UI.
-</blockquote>
+
 <br/> <br/></td>
 </tr>
 <tr class="odd">
@@ -147,10 +147,10 @@ This property is <strong>NULL</strong> if the item is not currently displaying a
 <tr class="odd">
 <td ><span id="UIA_ControlTypePropertyId"></span><span id="uia_controltypepropertyid"></span><span id="UIA_CONTROLTYPEPROPERTYID"></span><dl> <dt><strong>UIA_ControlTypePropertyId</strong></dt> <dt>30003</dt> </dl></td>
 <td >Identifies the <strong>ControlType</strong> property, which is a class that identifies the type of the automation element. <strong>ControlType</strong> defines characteristics of the UI elements by well known UI control primitives such as button or check box. <br/> Variant type: <strong>VT_I4</strong><br/> Default value: <a href="uiauto-controltype-ids.md"><strong>UIA_CustomControlTypeId</strong></a><br/>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 Use the default value only if the automation element represents a completely new type of control.
-</blockquote>
+
 <br/> <br/></td>
 </tr>
 <tr class="even">
@@ -200,10 +200,10 @@ Use the default value only if the automation element represents a completely new
 <tr class="odd">
 <td ><span id="UIA_IsContentElementPropertyId"></span><span id="uia_iscontentelementpropertyid"></span><span id="UIA_ISCONTENTELEMENTPROPERTYID"></span><dl> <dt><strong>UIA_IsContentElementPropertyId</strong></dt> <dt>30017</dt> </dl></td>
 <td >Identifies the <strong>IsContentElement</strong> property, which is a Boolean value that specifies whether the element appears in the content view of the automation element tree. For more information, see <a href="uiauto-treeoverview.md">UI Automation Tree Overview</a>.<br/>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 For an element to appear in the content view, both the <strong>IsContentElement</strong> property and the <strong>IsControlElement</strong> property must be <strong>TRUE</strong>.
-</blockquote>
+
 <br/> <br/> Variant type: <strong>VT_BOOL</strong><br/> Default value: <strong>TRUE</strong><br/></td>
 </tr>
 <tr class="even">

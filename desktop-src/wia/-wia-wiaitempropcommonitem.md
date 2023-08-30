@@ -120,10 +120,10 @@ The prefix "WIA\_IPA\_" indicates an item property for all devices and is the na
 <p>Optional for all transfer-enabled WIA 2.0 items.</p>
 <p>Type: <strong>VT_I4</strong>, Access: Read Only, Valid Values: <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p>
 <div class="alert">
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 The <strong>WIA_IPA_BUFFER_SIZE</strong> property contains is the minimum amount of data an application can request at any given time. The larger the buffer size, the larger the requests to the device will be. This can make the device seem slow and unresponsive, can slow the overall system performance, and can consume excessive resources. Buffer sizes that are too small can slow performance of the data transfer by requiring many smaller requests. Choose a reasonable buffer size by considering the typical size of a data request to your device and balancing the number of requests against the size of those requests.
-</blockquote>
+
 </div>
 <div>
  
@@ -206,13 +206,13 @@ The <strong>WIA_IPA_BUFFER_SIZE</strong> property contains is the minimum amount
 
 <p> </p>
 <div class="alert">
-<blockquote>
+
 <p>[!Note]</p>
 <p>When this property is WIA_COMPRESSION_NONE, and WIA_IPA_FORMAT is either WiaImgFmt_PDFA or WiaImgFmt_XPS; then WIA_COMPRESSION_NONE means that the compression mode is undefined and the scanner must decide on a mode.</p>
 <p>WIA_COMPRESSION_AUTO is a new property value defined for the WIA_IPA_COMPRESSION property. This value is valid for all programmable image data source items, including the Flatbed and Feeder. When this value is supported by the WIA mini-driver, the WIA application client can set WIA_IPA_COMPRESSION in order to enable automatic compression mode detection at the device. WIA_COMPRESSION_AUTO can work with and without full auto-color being supported or enabled (WIA_DATA_AUTO and WIA_DEPTH_AUTO).</p>
 <p>WIA_COMPRESSION_AUTO is most useful with transfer file formats that support multiple data types and bit depths, such as WiaImgFmt_RAW. For more information about transfer file formats, see WIA_IPA_FORMAT in this table.</p>
 <p>It is opitonal for the WIA mini-driver to suport WIA_COMPRESSION_AUTO. When it is supported, the WIA mini-driver must never set it as the default value for WIA_IPA_COMPRESSION; only the WIA application can set this value.</p>
-</blockquote>
+
 </div>
 <div>
  
@@ -329,10 +329,10 @@ The <strong>WIA_IPA_BUFFER_SIZE</strong> property contains is the minimum amount
 <p>The driver updates this property to reflect the current value of the <a href="https://msdn.microsoft.com/library/ms796440.aspx">WIA_IPA_FORMAT</a> property.</p>
 <p>For example, if <strong>WIA_IPA_FORMAT</strong> is WiaImgFmt_JPEG, then <a href="-wia-property-attributes.md">WIA_IPA_FILENAME_EXTENSION</a> should be <strong>jpg</strong>. If <strong>WIA_IPA_FORMAT</strong> is WiaImgFmt_BMP, then WIA_IPA_FILENAME_EXTENSION should be BMP.</p>
 <div class="alert">
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 The file name extension does not include the dot.
-</blockquote>
+
 </div>
 <div>
  
@@ -504,10 +504,10 @@ The file name extension does not include the dot.
 
 <p> </p>
 <div class="alert">
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 When this property is either WiaImgFmt_PDFA or WiaImgFmt_XPS, and WIA_IPA_COMPRESSION is WIA_COMPRESSION_NONE; then the latter value means that the compression mode is undefined and the scanner must decide on a mode.
-</blockquote>
+
 </div>
 <div>
  

@@ -83,10 +83,10 @@ Usage: hwrcomp       [-lang <localename>] [-type <type>]
 <li>SECONDARY-URL-LIST</li>
 </ul>
 If a type value starts with the prefix PRIMARY, the compiled dictionary, after it is installed, will replace the system dictionary for that language. The value PRIMARY-DICTIONARY represents the main system dictionary for a language.
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 Replacing a system dictionary does nothing to the original system dictionary content, as the replacement is in effect only until the custom dictionary has been removed.
-</blockquote>
+
 <br/> If a type value starts with the prefix SECONDARY, the compiled dictionary will supplement the system dictionary without replacing it.</td>
 </tr>
 <tr class="odd">
