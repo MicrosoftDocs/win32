@@ -55,10 +55,10 @@ Represents a container of controls to display in a gallery, menu, or toolbar.
 <td>No<br/></td>
 <td>Specifies the size and layout style for elements in the menu UI.<br/> An image resource can be supplied in two sizes (large and small) and associated with the element in markup using the <a href="windowsribbon-element-command-largeimages.md"><strong>Command.LargeImages</strong></a> and <a href="windowsribbon-element-command-smallimages.md"><strong>Command.SmallImages</strong></a> property elements. If only one image is supplied, the framework resizes it as necessary.<br/> Restricted to one of the following values:<br/> <br/>
 <dt><span></span><span></span><strong></strong> (StandardItems)<br/> </dt> <dd> Default. <br/> Style: small image and de-emphasized text.<br/><img src="images/markup/menugroup-standarditems.png" alt="Screen shot of a StandardItems button." /></dd> <dt><span></span><span></span><strong></strong> (MajorItems)<br/> </dt> <dd> Style: large image and bold text.<br/>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 If <strong>MenuGroup</strong> is a child of <a href="windowsribbon-element-applicationmenu.md"><strong>ApplicationMenu</strong></a>, the <em>Class</em> attribute is ignored and a style of <code>MajorItems</code> is enforced by the framework.
-</blockquote>
+
 <br/> <img src="images/markup/menugroup-majoritems.png" alt="Screen shot of a MajorItems button." /></dd> </dl></td>
 </tr>
 <tr class="even">
