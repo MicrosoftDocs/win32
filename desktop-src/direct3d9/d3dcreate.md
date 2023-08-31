@@ -93,10 +93,10 @@ A combination of one or more flags that control the device create behavior.
 <td>D3DCREATE_SOFTWARE_VERTEXPROCESSING</td>
 <td>Specifies software vertex processing. For Windows 10, version 1607 and later, use of this setting is not recommended. Use D3DCREATE_HARDWARE_VERTEXPROCESSING.
 <div class="alert">
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 Unless hardware vertex processing is not available, the usage of software vertex processing is not recommended in Windows 10, version 1607 (and later versions) because the efficiency of software vertex processing was significantly reduced while improving the security of the implementation.
-</blockquote>
+
 </div>
 <div>
  
@@ -110,10 +110,10 @@ Unless hardware vertex processing is not available, the usage of software vertex
 <td>D3DCREATE_NOWINDOWCHANGES</td>
 <td>Indicates that Direct3D must not alter the focus window in any way.
 <div class="alert">
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 If this flag is set, the application must fully support all focus management events, such as ALT+TAB and mouse click events.
-</blockquote>
+
 </div>
 <div>
  
