@@ -90,7 +90,7 @@ Here is a high-level overview of the encryption and decoding process:
 1.  The software decoder receives a stream of encrypted data from the video source. The decoder decrypts this stream.
 2.  The software decoder negotiates a session key with the cryptographic session.
 3.  The software decoder uses the authenticated channel to associate the cryptographic session with the decoder device.
-4.  The software decoder puts compressed data in buffers that it gets from the decoder device (accelerator). For protected content, the software encoder encrypts the data that is puts into the buffers, using the session key for the encryption.
+4.  The software decoder puts compressed data in buffers that it gets from the decoder device (accelerator). For protected content, the software encoder encrypts the data that is put into the buffers, using the session key for the encryption.
     > [!Note]  
     > Some drivers use a content key, instead of the session key, for encryption. The content key could change from one frame to the next.
 
