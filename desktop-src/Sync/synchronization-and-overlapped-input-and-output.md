@@ -33,7 +33,7 @@ A thread should not reuse an event with the assumption that the event will be si
 
 For examples that illustrate the use of overlapped operations, completion routines, and the [**GetOverlappedResult**](/windows/win32/api/ioapiset/nf-ioapiset-getoverlappedresult) function, see [Using Pipes](../ipc/using-pipes.md).
 
-**Windows Vista, Windows Server 2003 and Windows XP:  **
+**Windows Vista, Windows Server 2003, and Windows XP:**
 
 Be careful when reusing [**OVERLAPPED**](/windows/win32/api/minwinbase/ns-minwinbase-overlapped) structures. If **OVERLAPPED** structures are reused on multiple threads and [**GetOverlappedResult**](/windows/win32/api/ioapiset/nf-ioapiset-getoverlappedresult) is called with the *bWait* parameter set to **TRUE**, the calling thread must ensure that the associated event is signaled before reusing the structure. This can be accomplished by using the [**WaitForSingleObject**](/windows/win32/api/winbase/nf-winbase-registerwaitforsingleobject) function after calling **GetOverlappedResult** to force the thread to wait until the operation completes. Note that the event object must be a manual-reset event object. If an autoreset event object is used, calling **GetOverlappedResult** with the *bWait* parameter set to **TRUE** causes the function to be blocked indefinitely. This behavior changed starting with Windows 7 and Windows Server 2008 R2 for applications that specify Windows 7 as the supported operating system in the application manifest. For more information see [Application Manifests](/previous-versions/windows/desktop/adrms_sdk/application-manifests).
 
