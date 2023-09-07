@@ -207,7 +207,7 @@ You do not use a factory or a render target to instantiate Direct2D primitives. 
 [Direct2D Reference](reference.md)
 </dt> <dt>
 
-[DirectWrite Hello World Sample](/samples/browse/?redirectedfrom=MSDN-samples)
+[DirectWrite HelloWorld](https://github.com/microsoft/Windows-classic-samples/tree/main/Samples/Win7Samples/multimedia/DirectWrite/HelloWorld)
 </dt> <dt>
 
 [Introducing DirectWrite](../directwrite/introducing-directwrite.md)
