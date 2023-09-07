@@ -56,7 +56,7 @@ The source code shown in this overview is taken from the [DirectWrite Hello Worl
 
  
 
-You can use the sample provided, or use the instructions that follow to add [DirectWrite](direct-write-portal.md) and [Direct2D](rendering-by-using-direct2d.md) to your own Win32 application. For more information about the sample and the associated project files, see the [DirectWriteHelloWorld sample](/samples/microsoft/windows-classic-samples/direct2dhelloworld).
+You can use the sample provided, or use the instructions that follow to add [DirectWrite](direct-write-portal.md) and [Direct2D](rendering-by-using-direct2d.md) to your own Win32 application. For more information about the sample and the associated project files, see the [DirectWrite HelloWorld](https://github.com/microsoft/Windows-classic-samples/tree/main/Samples/Win7Samples/multimedia/DirectWrite/HelloWorld).
 
 ## Drawing Simple Text
 
@@ -340,7 +340,7 @@ This section shows how to use [DirectWrite](direct-write-portal.md) and [Direct2
 
 ![screen shot of "hello world using directwrite!", with some parts in different styles, sizes, and formats](images/multiformattedcropped.png)
 
-The code for this section is implemented as the MultiformattedText class in the [DWriteHelloWorld Sample](/samples/microsoft/windows-classic-samples/direct2dhelloworld). It is based on the steps from the previous section.
+The code for this section is implemented as the **MultiformattedText** class in the [DirectWrite HelloWorld](https://github.com/microsoft/Windows-classic-samples/tree/main/Samples/Win7Samples/multimedia/DirectWrite/HelloWorld). It's based on the steps from the previous section.
 
 To create multi-formatted text, you use the [**IDWriteTextLayout**](/windows/win32/api/dwrite/nn-dwrite-idwritetextlayout) interface in addition to the [**IDWriteTextFormat**](/windows/win32/api/dwrite/nn-dwrite-idwritetextformat) interface introduced in the previous section. The **IDWriteTextLayout** interface describes the formatting and layout of a block of text. In addition to default formatting specified by an **IDWriteTextFormat** object, the formatting for specific ranges of text can be changed by using **IDWriteTextLayout**. This includes font family name, size, weight, style, stretch, strikethrough, and underlining.
 
