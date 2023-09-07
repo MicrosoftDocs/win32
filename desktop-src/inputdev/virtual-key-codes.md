@@ -159,7 +159,7 @@ The following table shows the symbolic constant names, hexadecimal values, and m
 | <span id="VK_LBUTTON"></span><span id="vk_lbutton"></span>`VK_LBUTTON` | 0x01 | Left mouse button |
 | <span id="VK_RBUTTON"></span><span id="vk_rbutton"></span>`VK_RBUTTON` | 0x02 | Right mouse button |
 | <span id="VK_CANCEL"></span><span id="vk_cancel"></span>`VK_CANCEL` | 0x03 | Control-break processing |
-| <span id="VK_MBUTTON"></span><span id="vk_mbutton"></span>`VK_MBUTTON` | 0x04 | Middle mouse button (three-button mouse) |
+| <span id="VK_MBUTTON"></span><span id="vk_mbutton"></span>`VK_MBUTTON` | 0x04 | Middle mouse button |
 | <span id="VK_XBUTTON1"></span><span id="vk_xbutton1"></span>`VK_XBUTTON1` | 0x05 | X1 mouse button |
 | <span id="VK_XBUTTON2"></span><span id="vk_xbutton2"></span>`VK_XBUTTON2` | 0x06 | X2 mouse button |
 | `-` | 0x07 | Undefined |
@@ -175,7 +175,6 @@ The following table shows the symbolic constant names, hexadecimal values, and m
 | <span id="VK_PAUSE"></span><span id="vk_pause"></span>`VK_PAUSE` | 0x13 | PAUSE key |
 | <span id="VK_CAPITAL"></span><span id="vk_capital"></span>`VK_CAPITAL` | 0x14 | CAPS LOCK key |
 | <span id="VK_KANA"></span><span id="vk_kana"></span>`VK_KANA` | 0x15 | IME Kana mode |
-| <span id="VK_HANGUEL"></span><span id="vk_hanguel"></span>`VK_HANGUEL` | 0x15 | IME Hanguel mode (maintained for compatibility; use `VK_HANGUL`) |
 | <span id="VK_HANGUL"></span><span id="vk_hangul"></span>`VK_HANGUL` | 0x15 | IME Hangul mode |
 | <span id="VK_IME_ON"></span>`VK_IME_ON` | 0x16 | IME On |
 | <span id="VK_JUNJA"></span><span id="vk_junja"></span>`VK_JUNJA` | 0x17 | IME Junja mode |
@@ -241,9 +240,9 @@ The following table shows the symbolic constant names, hexadecimal values, and m
 |  | 0x58 | X key |
 |  | 0x59 | Y key |
 |  | 0x5A | Z key |
-| <span id="VK_LWIN"></span><span id="vk_lwin"></span>`VK_LWIN` | 0x5B | Left Windows key (Natural keyboard) |
-| <span id="VK_RWIN"></span><span id="vk_rwin"></span>`VK_RWIN` | 0x5C | Right Windows key (Natural keyboard) |
-| <span id="VK_APPS"></span><span id="vk_apps"></span>`VK_APPS` | 0x5D | Applications key (Natural keyboard) |
+| <span id="VK_LWIN"></span><span id="vk_lwin"></span>`VK_LWIN` | 0x5B | Left Windows key |
+| <span id="VK_RWIN"></span><span id="vk_rwin"></span>`VK_RWIN` | 0x5C | Right Windows key |
+| <span id="VK_APPS"></span><span id="vk_apps"></span>`VK_APPS` | 0x5D | Applications key |
 | `-` | 0x5E | Reserved |
 | <span id="VK_SLEEP"></span><span id="vk_sleep"></span>`VK_SLEEP` | 0x5F | Computer Sleep key |
 | <span id="VK_NUMPAD0"></span><span id="vk_numpad0"></span>`VK_NUMPAD0` | 0x60 | Numeric keypad 0 key |
@@ -316,19 +315,19 @@ The following table shows the symbolic constant names, hexadecimal values, and m
 | <span id="VK_LAUNCH_APP1"></span><span id="vk_launch_app1"></span>`VK_LAUNCH_APP1` | 0xB6 | Start Application 1 key |
 | <span id="VK_LAUNCH_APP2"></span><span id="vk_launch_app2"></span>`VK_LAUNCH_APP2` | 0xB7 | Start Application 2 key |
 | `-` | 0xB8-B9 | Reserved |
-| <span id="VK_OEM_1"></span><span id="vk_oem_1"></span>`VK_OEM_1` | 0xBA | Used for miscellaneous characters; it can vary by keyboard. For the US standard keyboard, the ';:' key |
-| <span id="VK_OEM_PLUS"></span><span id="vk_oem_plus"></span>`VK_OEM_PLUS` | 0xBB | For any country/region, the '+' key |
-| <span id="VK_OEM_COMMA"></span><span id="vk_oem_comma"></span>`VK_OEM_COMMA` | 0xBC | For any country/region, the ',' key |
-| <span id="VK_OEM_MINUS"></span><span id="vk_oem_minus"></span>`VK_OEM_MINUS` | 0xBD | For any country/region, the '-' key |
-| <span id="VK_OEM_PERIOD"></span><span id="vk_oem_period"></span>`VK_OEM_PERIOD` | 0xBE | For any country/region, the '.' key |
-| <span id="VK_OEM_2"></span><span id="vk_oem_2"></span>`VK_OEM_2` | 0xBF | Used for miscellaneous characters; it can vary by keyboard. For the US standard keyboard, the '/?' key |
-| <span id="VK_OEM_3"></span><span id="vk_oem_3"></span>`VK_OEM_3` | 0xC0 | Used for miscellaneous characters; it can vary by keyboard. For the US standard keyboard, the '\`~' key |
+| <span id="VK_OEM_1"></span><span id="vk_oem_1"></span>`VK_OEM_1` | 0xBA | Used for miscellaneous characters; it can vary by keyboard. For the US standard keyboard, the `;:` key |
+| <span id="VK_OEM_PLUS"></span><span id="vk_oem_plus"></span>`VK_OEM_PLUS` | 0xBB | For any country/region, the `+` key |
+| <span id="VK_OEM_COMMA"></span><span id="vk_oem_comma"></span>`VK_OEM_COMMA` | 0xBC | For any country/region, the `,` key |
+| <span id="VK_OEM_MINUS"></span><span id="vk_oem_minus"></span>`VK_OEM_MINUS` | 0xBD | For any country/region, the `-` key |
+| <span id="VK_OEM_PERIOD"></span><span id="vk_oem_period"></span>`VK_OEM_PERIOD` | 0xBE | For any country/region, the `.` key |
+| <span id="VK_OEM_2"></span><span id="vk_oem_2"></span>`VK_OEM_2` | 0xBF | Used for miscellaneous characters; it can vary by keyboard. For the US standard keyboard, the `/?` key |
+| <span id="VK_OEM_3"></span><span id="vk_oem_3"></span>`VK_OEM_3` | 0xC0 | Used for miscellaneous characters; it can vary by keyboard. For the US standard keyboard, the `\`~` key |
 | `-` | 0xC1-D7 | Reserved |
 | `-` | 0xD8-DA | Unassigned |
-| <span id="VK_OEM_4"></span><span id="vk_oem_4"></span>`VK_OEM_4` | 0xDB | Used for miscellaneous characters; it can vary by keyboard. For the US standard keyboard, the '\[{' key |
-| <span id="VK_OEM_5"></span><span id="vk_oem_5"></span>`VK_OEM_5` | 0xDC | Used for miscellaneous characters; it can vary by keyboard. For the US standard keyboard, the '\\\|' key |
-| <span id="VK_OEM_6"></span><span id="vk_oem_6"></span>`VK_OEM_6` | 0xDD | Used for miscellaneous characters; it can vary by keyboard. For the US standard keyboard, the '\]}' key |
-| <span id="VK_OEM_7"></span><span id="vk_oem_7"></span>`VK_OEM_7` | 0xDE | Used for miscellaneous characters; it can vary by keyboard. For the US standard keyboard, the 'single-quote/double-quote' key |
+| <span id="VK_OEM_4"></span><span id="vk_oem_4"></span>`VK_OEM_4` | 0xDB | Used for miscellaneous characters; it can vary by keyboard. For the US standard keyboard, the `[{` key |
+| <span id="VK_OEM_5"></span><span id="vk_oem_5"></span>`VK_OEM_5` | 0xDC | Used for miscellaneous characters; it can vary by keyboard. For the US standard keyboard, the `\\|` key |
+| <span id="VK_OEM_6"></span><span id="vk_oem_6"></span>`VK_OEM_6` | 0xDD | Used for miscellaneous characters; it can vary by keyboard. For the US standard keyboard, the `]}` key |
+| <span id="VK_OEM_7"></span><span id="vk_oem_7"></span>`VK_OEM_7` | 0xDE | Used for miscellaneous characters; it can vary by keyboard. For the US standard keyboard, the `'"` key |
 | <span id="VK_OEM_8"></span><span id="vk_oem_8"></span>`VK_OEM_8` | 0xDF | Used for miscellaneous characters; it can vary by keyboard. |
 | `-` | 0xE0 | Reserved |
 |  | 0xE1 | OEM specific |
