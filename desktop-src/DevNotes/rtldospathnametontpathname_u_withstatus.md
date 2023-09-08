@@ -34,7 +34,7 @@ NTSTATUS RtlDosPathNameToNtPathName_U_WithStatus(
 
 ### DosFileName [in]
 
-AA pointer to a DOS file name path.
+A pointer to a DOS file name path.
 
 ### PUNICODE_STRING [out]
 
