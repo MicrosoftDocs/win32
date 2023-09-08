@@ -1019,7 +1019,7 @@ There are two different types of compute shaders that a transform can use: Shade
 
 ### Implement ID2D1ComputeTransform
 
-This interface contains two new methods to implement in addition to the ones in [**ID2D1Transform**](/previous-versions/windows/desktop/legacy/dd371304(v=vs.85)):
+This interface contains two new methods to implement in addition to the ones in [**ID2D1Transform**](/windows/win32/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1transform):
 
 ### SetComputeInfo(ID2D1ComputeInfo \*pComputeInfo)
 
