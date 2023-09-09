@@ -38,7 +38,20 @@ Starting with Windows 8 HLSL also supports minimum precision scalar data types. 
 
 For more information about scalar literals, see [Grammar](dx-graphics-hlsl-appendix-grammar.md).
 
+Starting with shader model 6.0 the following scalars were added (Windows 10 1607):
 
+- **uint64_t** - A 64-bit unsigned integer.
+- **int64_t** - A 64-bit signed integer.
+
+For more information about shader model 6.0: [SM6.0 documentation](https://learn.microsoft.com/en-us/windows/win32/direct3dhlsl/hlsl-shader-model-6-0-features-for-direct3d-12).
+
+Since shader model 6.2 the following data types can be used if -enable-16bit-types is used using DXC (Windows 10 1803):
+
+- **float16_t** - Always a 16-bit floating point value (as opposed to other 16-bit floats which may or may not be 16-bit).
+- **uint16_t** - A 16-bit unsigned integer.
+- **int16_t** - A 16-bit signed integer.
+
+For more information about 16-bit types, see [DXC: 16 Bit Scalar Types](https://github.com/microsoft/DirectXShaderCompiler/wiki/16-Bit-Scalar-Types). Do note that these require 16-bit support in hardware. This is supported starting at Turing or higher.
 
 <table>
 <colgroup>
