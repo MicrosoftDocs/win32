@@ -54,7 +54,7 @@ Supplies the key context that is returned during a call to [NtRemoveIoCompletion
 
 ### ApcContext [in]
 
-SThe apc context that is returned during a call to **NtRemoveIoCompletion**.
+The apc context that is returned during a call to **NtRemoveIoCompletion**.
 
 ### IoStatus [in]
 
