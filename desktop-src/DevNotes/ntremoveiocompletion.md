@@ -55,7 +55,7 @@ A pointer to an optional time out value.
 
 ## Return value
 
-An HRESULT.
+An NTSTATUS code. For more information, see [Using NTSTATUS values](/windows-hardware/drivers/kernel/using-ntstatus-values).
 
 ## Remarks
 

@@ -54,7 +54,7 @@ An optional pointer which, if specified, receives the number of bytes placed in 
 
 ## Return value
 
-An HRESULT.
+An NTSTATUS code. For more information, see [Using NTSTATUS values](/windows-hardware/drivers/kernel/using-ntstatus-values).
 
 ## Remarks
 

@@ -71,7 +71,7 @@ An optional pointer to a boolean variable that receives an indication of whether
 
 ## Return value
 
-An HRESULT.
+An NTSTATUS code. For more information, see [Using NTSTATUS values](/windows-hardware/drivers/kernel/using-ntstatus-values).
 
 ## Remarks
 

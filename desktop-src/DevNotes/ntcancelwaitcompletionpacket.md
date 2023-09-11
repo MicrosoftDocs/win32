@@ -40,7 +40,7 @@ a boolean which determines whether this function will attempt to cancel a packet
 
 ## Return value
 
-An HRESULT.
+An NTSTATUS code. For more information, see [Using NTSTATUS values](/windows-hardware/drivers/kernel/using-ntstatus-values).
 
 | Value | Description |
 |-------|-------------|
