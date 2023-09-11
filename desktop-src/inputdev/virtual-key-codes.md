@@ -155,7 +155,7 @@ ms.date: 11/06/2021
 The following table shows the symbolic constant names, hexadecimal values, and mouse or keyboard equivalents for the virtual-key codes used by the system. The codes are listed in numeric order.
 
 | Constant | Value | Description |
-|:-|:-|:-|
+|---|---|---|
 | <span id="VK_LBUTTON"></span><span id="vk_lbutton"></span>`VK_LBUTTON` | 0x01 | Left mouse button |
 | <span id="VK_RBUTTON"></span><span id="vk_rbutton"></span>`VK_RBUTTON` | 0x02 | Right mouse button |
 | <span id="VK_CANCEL"></span><span id="vk_cancel"></span>`VK_CANCEL` | 0x03 | Control-break processing |
