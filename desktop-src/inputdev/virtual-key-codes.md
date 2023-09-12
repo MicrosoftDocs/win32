@@ -328,6 +328,8 @@ The following table shows the symbolic constant names, hexadecimal values, and m
 | <span id="VK_OEM_MINUS"></span><span id="vk_oem_minus"></span>`VK_OEM_MINUS` | 0xBD | For any country/region, the `-` key |
 | <span id="VK_OEM_PERIOD"></span><span id="vk_oem_period"></span>`VK_OEM_PERIOD` | 0xBE | For any country/region, the `.` key |
 | <span id="VK_OEM_2"></span><span id="vk_oem_2"></span>`VK_OEM_2` | 0xBF | Used for miscellaneous characters; it can vary by keyboard. For the US standard keyboard, the `/?` key |
+
+
 | <span id="VK_OEM_3"></span><span id="vk_oem_3"></span>`VK_OEM_3` | 0xC0 | Used for miscellaneous characters; it can vary by keyboard. For the US standard keyboard, the `\`~` key |
 | `-` | 0xC1-D7 | Reserved |
 | `-` | 0xD8-DA | Unassigned |
