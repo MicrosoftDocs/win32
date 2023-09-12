@@ -247,8 +247,6 @@ The following table shows the symbolic constant names, hexadecimal values, and m
 |  | 0x58 | X key |
 |  | 0x59 | Y key |
 |  | 0x5A | Z key |
-
-
 | <span id="VK_LWIN"></span><span id="vk_lwin"></span>`VK_LWIN` | 0x5B | Left Windows key |
 | <span id="VK_RWIN"></span><span id="vk_rwin"></span>`VK_RWIN` | 0x5C | Right Windows key |
 | <span id="VK_APPS"></span><span id="vk_apps"></span>`VK_APPS` | 0x5D | Applications key |
@@ -270,6 +268,8 @@ The following table shows the symbolic constant names, hexadecimal values, and m
 | <span id="VK_SUBTRACT"></span><span id="vk_subtract"></span>`VK_SUBTRACT` | 0x6D | Subtract key |
 | <span id="VK_DECIMAL"></span><span id="vk_decimal"></span>`VK_DECIMAL` | 0x6E | Decimal key |
 | <span id="VK_DIVIDE"></span><span id="vk_divide"></span>`VK_DIVIDE` | 0x6F | Divide key |
+
+
 | <span id="VK_F1"></span><span id="vk_f1"></span>`VK_F1` | 0x70 | F1 key |
 | <span id="VK_F2"></span><span id="vk_f2"></span>`VK_F2` | 0x71 | F2 key |
 | <span id="VK_F3"></span><span id="vk_f3"></span>`VK_F3` | 0x72 | F3 key |
