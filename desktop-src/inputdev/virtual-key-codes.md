@@ -189,10 +189,6 @@ The following table shows the symbolic constant names, hexadecimal values, and m
 | <span id="VK_HANJA"></span><span id="vk_hanja"></span>`VK_HANJA` | 0x19 | IME Hanja mode |
 | <span id="VK_KANJI"></span><span id="vk_kanji"></span>`VK_KANJI` | 0x19 | IME Kanji mode |
 | <span id="VK_IME_OFF"></span>`VK_IME_OFF` | 0x1A | IME Off |
-
-
-
-
 | <span id="VK_ESCAPE"></span><span id="vk_escape"></span>`VK_ESCAPE` | 0x1B | ESC key |
 | <span id="VK_CONVERT"></span><span id="vk_convert"></span>`VK_CONVERT` | 0x1C | IME convert |
 | <span id="VK_NONCONVERT"></span><span id="vk_nonconvert"></span>`VK_NONCONVERT` | 0x1D | IME nonconvert |
@@ -214,6 +210,8 @@ The following table shows the symbolic constant names, hexadecimal values, and m
 | <span id="VK_INSERT"></span><span id="vk_insert"></span>`VK_INSERT` | 0x2D | INS key |
 | <span id="VK_DELETE"></span><span id="vk_delete"></span>`VK_DELETE` | 0x2E | DEL key |
 | <span id="VK_HELP"></span><span id="vk_help"></span>`VK_HELP` | 0x2F | HELP key |
+
+
 |  | 0x30 | 0 key |
 |  | 0x31 | 1 key |
 |  | 0x32 | 2 key |
