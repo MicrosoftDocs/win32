@@ -210,8 +210,6 @@ The following table shows the symbolic constant names, hexadecimal values, and m
 | <span id="VK_INSERT"></span><span id="vk_insert"></span>`VK_INSERT` | 0x2D | INS key |
 | <span id="VK_DELETE"></span><span id="vk_delete"></span>`VK_DELETE` | 0x2E | DEL key |
 | <span id="VK_HELP"></span><span id="vk_help"></span>`VK_HELP` | 0x2F | HELP key |
-
-
 |  | 0x30 | 0 key |
 |  | 0x31 | 1 key |
 |  | 0x32 | 2 key |
@@ -249,6 +247,8 @@ The following table shows the symbolic constant names, hexadecimal values, and m
 |  | 0x58 | X key |
 |  | 0x59 | Y key |
 |  | 0x5A | Z key |
+
+
 | <span id="VK_LWIN"></span><span id="vk_lwin"></span>`VK_LWIN` | 0x5B | Left Windows key |
 | <span id="VK_RWIN"></span><span id="vk_rwin"></span>`VK_RWIN` | 0x5C | Right Windows key |
 | <span id="VK_APPS"></span><span id="vk_apps"></span>`VK_APPS` | 0x5D | Applications key |
