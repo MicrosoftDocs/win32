@@ -322,8 +322,6 @@ The following table shows the symbolic constant names, hexadecimal values, and m
 | <span id="VK_LAUNCH_APP1"></span><span id="vk_launch_app1"></span>`VK_LAUNCH_APP1` | 0xB6 | Start Application 1 key |
 | <span id="VK_LAUNCH_APP2"></span><span id="vk_launch_app2"></span>`VK_LAUNCH_APP2` | 0xB7 | Start Application 2 key |
 | `-` | 0xB8-B9 | Reserved |
-
-
 | <span id="VK_OEM_1"></span><span id="vk_oem_1"></span>`VK_OEM_1` | 0xBA | Used for miscellaneous characters; it can vary by keyboard. For the US standard keyboard, the `;:` key |
 | <span id="VK_OEM_PLUS"></span><span id="vk_oem_plus"></span>`VK_OEM_PLUS` | 0xBB | For any country/region, the `+` key |
 | <span id="VK_OEM_COMMA"></span><span id="vk_oem_comma"></span>`VK_OEM_COMMA` | 0xBC | For any country/region, the `,` key |
@@ -339,6 +337,8 @@ The following table shows the symbolic constant names, hexadecimal values, and m
 | <span id="VK_OEM_7"></span><span id="vk_oem_7"></span>`VK_OEM_7` | 0xDE | Used for miscellaneous characters; it can vary by keyboard. For the US standard keyboard, the `'"` key |
 | <span id="VK_OEM_8"></span><span id="vk_oem_8"></span>`VK_OEM_8` | 0xDF | Used for miscellaneous characters; it can vary by keyboard. |
 | `-` | 0xE0 | Reserved |
+
+
 |  | 0xE1 | OEM specific |
 | <span id="VK_OEM_102"></span><span id="vk_oem_102"></span>`VK_OEM_102` | 0xE2 | The `<>` keys on the US standard keyboard, or the `\\|` key on the non-US 102-key keyboard |
 |  | 0xE3-E4 | OEM specific |
