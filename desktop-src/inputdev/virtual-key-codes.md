@@ -328,7 +328,7 @@ The following table shows the symbolic constant names, hexadecimal values, and m
 | `VK_OEM_MINUS` | 0xBD | For any country/region, the `-` key |
 | `VK_OEM_PERIOD` | 0xBE | For any country/region, the `.` key |
 | `VK_OEM_2` | 0xBF | Used for miscellaneous characters; it can vary by keyboard. For the US standard keyboard, the `/?` key |
-| `VK_OEM_3` | 0xC0 | Used for miscellaneous characters; it can vary by keyboard. For the US standard keyboard, the ```~`` key |
+| `VK_OEM_3` | 0xC0 | Used for miscellaneous characters; it can vary by keyboard. For the US standard keyboard, the `` `~ `` key |
 | `-` | 0xC1-D7 | Reserved |
 | `-` | 0xD8-DA | Unassigned |
 | `VK_OEM_4` | 0xDB | Used for miscellaneous characters; it can vary by keyboard. For the US standard keyboard, the `[{` key |
@@ -337,8 +337,6 @@ The following table shows the symbolic constant names, hexadecimal values, and m
 | `VK_OEM_7` | 0xDE | Used for miscellaneous characters; it can vary by keyboard. For the US standard keyboard, the `'"` key |
 | `VK_OEM_8` | 0xDF | Used for miscellaneous characters; it can vary by keyboard. |
 | `-` | 0xE0 | Reserved |
-
-
 |  | 0xE1 | OEM specific |
 | `VK_OEM_102` | 0xE2 | The `<>` keys on the US standard keyboard, or the `\\|` key on the non-US 102-key keyboard |
 |  | 0xE3-E4 | OEM specific |
