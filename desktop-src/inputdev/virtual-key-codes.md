@@ -170,10 +170,6 @@ The following table shows the symbolic constant names, hexadecimal values, and m
 | <span id="VK_XBUTTON1"></span><span id="vk_xbutton1"></span>`VK_XBUTTON1` | 0x05 | X1 mouse button |
 | <span id="VK_XBUTTON2"></span><span id="vk_xbutton2"></span>`VK_XBUTTON2` | 0x06 | X2 mouse button |
 | `-` | 0x07 | Undefined |
-
-
-
-
 | <span id="VK_BACK"></span><span id="vk_back"></span>`VK_BACK` | 0x08 | BACKSPACE key |
 | <span id="VK_TAB"></span><span id="vk_tab"></span>`VK_TAB` | 0x09 | TAB key |
 | `-` | 0x0A-0B | Reserved |
@@ -193,6 +189,10 @@ The following table shows the symbolic constant names, hexadecimal values, and m
 | <span id="VK_HANJA"></span><span id="vk_hanja"></span>`VK_HANJA` | 0x19 | IME Hanja mode |
 | <span id="VK_KANJI"></span><span id="vk_kanji"></span>`VK_KANJI` | 0x19 | IME Kanji mode |
 | <span id="VK_IME_OFF"></span>`VK_IME_OFF` | 0x1A | IME Off |
+
+
+
+
 | <span id="VK_ESCAPE"></span><span id="vk_escape"></span>`VK_ESCAPE` | 0x1B | ESC key |
 | <span id="VK_CONVERT"></span><span id="vk_convert"></span>`VK_CONVERT` | 0x1C | IME convert |
 | <span id="VK_NONCONVERT"></span><span id="vk_nonconvert"></span>`VK_NONCONVERT` | 0x1D | IME nonconvert |
