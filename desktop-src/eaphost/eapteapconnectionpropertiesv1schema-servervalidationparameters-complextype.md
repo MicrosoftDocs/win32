@@ -28,7 +28,7 @@ The **ServerValidationParameters** element is optional.
 
 *ServerNames* is an optional string that specifies the list of servers to which the client can authenticate.
 
-*TrustedRootCAHash* is the thumbprint of a root certification authority that is trusted to issue server certificates, represented as a hexadecimal string of the certificate's [SHA256](https://go.microsoft.com/fwlink/?LinkId=90514) hash. Zero or more elements can be present.
+*TrustedRootCAHash* is the thumbprint of a root certification authority that is trusted to issue server certificates, represented as a hexadecimal string of the certificate's [SHA256](https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.180-4.pdf) hash. Zero or more elements can be present.
 
 *DownloadTrustedServerRoot* is an optional Boolean that specifies method behavior in case the server's certificate is not trusted and the user manually accepts the certificate. If `TRUE`, additional server certificates pushed by the server will be added to the **TrustedRootCAHash** element after a successful connection. If `FALSE`, no additional certificates pushed by the server will be added to the **TrustedRootCAHash** element.
 
