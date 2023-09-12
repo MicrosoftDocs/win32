@@ -297,8 +297,6 @@ The following table shows the symbolic constant names, hexadecimal values, and m
 | <span id="VK_SCROLL"></span><span id="vk_scroll"></span>`VK_SCROLL` | 0x91 | SCROLL LOCK key |
 |  | 0x92-96 | OEM specific |
 | `-` | 0x97-9F | Unassigned |
-
-
 | <span id="VK_LSHIFT"></span><span id="vk_lshift"></span>`VK_LSHIFT` | 0xA0 | Left SHIFT key |
 | <span id="VK_RSHIFT"></span><span id="vk_rshift"></span>`VK_RSHIFT` | 0xA1 | Right SHIFT key |
 | <span id="VK_LCONTROL"></span><span id="vk_lcontrol"></span>`VK_LCONTROL` | 0xA2 | Left CONTROL key |
@@ -324,6 +322,8 @@ The following table shows the symbolic constant names, hexadecimal values, and m
 | <span id="VK_LAUNCH_APP1"></span><span id="vk_launch_app1"></span>`VK_LAUNCH_APP1` | 0xB6 | Start Application 1 key |
 | <span id="VK_LAUNCH_APP2"></span><span id="vk_launch_app2"></span>`VK_LAUNCH_APP2` | 0xB7 | Start Application 2 key |
 | `-` | 0xB8-B9 | Reserved |
+
+
 | <span id="VK_OEM_1"></span><span id="vk_oem_1"></span>`VK_OEM_1` | 0xBA | Used for miscellaneous characters; it can vary by keyboard. For the US standard keyboard, the `;:` key |
 | <span id="VK_OEM_PLUS"></span><span id="vk_oem_plus"></span>`VK_OEM_PLUS` | 0xBB | For any country/region, the `+` key |
 | <span id="VK_OEM_COMMA"></span><span id="vk_oem_comma"></span>`VK_OEM_COMMA` | 0xBC | For any country/region, the `,` key |
