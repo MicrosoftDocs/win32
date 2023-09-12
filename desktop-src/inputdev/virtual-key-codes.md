@@ -268,8 +268,6 @@ The following table shows the symbolic constant names, hexadecimal values, and m
 | <span id="VK_SUBTRACT"></span><span id="vk_subtract"></span>`VK_SUBTRACT` | 0x6D | Subtract key |
 | <span id="VK_DECIMAL"></span><span id="vk_decimal"></span>`VK_DECIMAL` | 0x6E | Decimal key |
 | <span id="VK_DIVIDE"></span><span id="vk_divide"></span>`VK_DIVIDE` | 0x6F | Divide key |
-
-
 | <span id="VK_F1"></span><span id="vk_f1"></span>`VK_F1` | 0x70 | F1 key |
 | <span id="VK_F2"></span><span id="vk_f2"></span>`VK_F2` | 0x71 | F2 key |
 | <span id="VK_F3"></span><span id="vk_f3"></span>`VK_F3` | 0x72 | F3 key |
@@ -299,6 +297,8 @@ The following table shows the symbolic constant names, hexadecimal values, and m
 | <span id="VK_SCROLL"></span><span id="vk_scroll"></span>`VK_SCROLL` | 0x91 | SCROLL LOCK key |
 |  | 0x92-96 | OEM specific |
 | `-` | 0x97-9F | Unassigned |
+
+
 | <span id="VK_LSHIFT"></span><span id="vk_lshift"></span>`VK_LSHIFT` | 0xA0 | Left SHIFT key |
 | <span id="VK_RSHIFT"></span><span id="vk_rshift"></span>`VK_RSHIFT` | 0xA1 | Right SHIFT key |
 | <span id="VK_LCONTROL"></span><span id="vk_lcontrol"></span>`VK_LCONTROL` | 0xA2 | Left CONTROL key |
