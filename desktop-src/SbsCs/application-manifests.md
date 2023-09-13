@@ -530,7 +530,7 @@ The following is an example of an application manifest for an application named 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
-   <assemblyIdentity type="win32" name="MyOrganization.MyDivision.MySampleApp" version="6.0.0.0" processorArchitecture="*" publicKeyToken="0000000000000000" />
+   <assemblyIdentity type="win32" name="MyOrganization.MyDivision.MySampleApp" version="6.0.0.0" processorArchitecture="*" />
    <dependency>
       <dependentAssembly>
          <assemblyIdentity type="win32" name="Proseware.Research.SampleAssembly" version="6.0.0.0" processorArchitecture="*" publicKeyToken="0000000000000000" />
