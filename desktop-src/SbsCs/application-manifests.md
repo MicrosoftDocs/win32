@@ -528,40 +528,27 @@ Specifying **requestedExecutionLevel** node will disable file and registry virtu
 The following is an example of an application manifest for an application named MySampleApp.exe. The application consumes the SampleAssembly side-by-side assembly.
 
 ```xml
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
-
-  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1"> 
-      <application> 
-            <!-- Windows 10 and Windows 11 -->
-            <supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}"/>
-            <!-- Windows 8.1 -->
-            <supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}"/>
-            <!-- Windows 8 -->
-            <supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}"/>
-            <!-- Windows 7 -->
-            <supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}"/>
-            <!-- Windows Vista -->
-            <supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}"/> 
-      </application> 
-  </compatibility>
-
-  <assemblyIdentity type="win32" 
-                    name="myOrganization.myDivision.mySampleApp" 
-                    version="6.0.0.0" 
-                    processorArchitecture="x86" 
-                    publicKeyToken="0000000000000000"
-  />
-  <dependency>
-    <dependentAssembly>
-      <assemblyIdentity type="win32" 
-                        name="Proseware.Research.SampleAssembly" 
-                        version="6.0.0.0" 
-                        processorArchitecture="x86" 
-                        publicKeyToken="0000000000000000" 
-                        language="*"
-      />
-    </dependentAssembly>
-  </dependency>
+   <assemblyIdentity type="win32" name="MyOrganization.MyDivision.MySampleApp" version="6.0.0.0" processorArchitecture="*" publicKeyToken="0000000000000000" />
+   <dependency>
+      <dependentAssembly>
+         <assemblyIdentity type="win32" name="Proseware.Research.SampleAssembly" version="6.0.0.0" processorArchitecture="*" publicKeyToken="0000000000000000" />
+      </dependentAssembly>
+   </dependency>
+   <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+      <application>
+         <!-- Windows 10 and Windows 11 -->
+         <supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}" />
+         <!-- Windows 8.1 -->
+         <supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}" />
+         <!-- Windows 8 -->
+         <supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}" />
+         <!-- Windows 7 -->
+         <supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}" />
+         <!-- Windows Vista -->
+         <supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}" />
+      </application>
+   </compatibility>
 </assembly>
 ```
