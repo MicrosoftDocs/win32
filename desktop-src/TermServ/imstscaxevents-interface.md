@@ -103,7 +103,7 @@ Application can use the following DISPIDs when implementing **IDispatch::Invoke*
 | DISPID_REQUESTCONTAINERMINIMIZE = 14 | [OnRequestContainerMinimize](imstscaxevents-onrequestcontainerminimize.md) |
 | DISPID_CONFIRMCLOSE = 15 | [OnConfirmClose](imstscaxevents-onconfirmclose.md) |
 | DISPID_RECEIVEDTSPUBLICKEY = 16 | [OnReceivedTSPublicKey](imstscaxevents-onreceivedtspublickey.md) |
-| DISPID_AUTORECONNECTING = 17 | [OnAutoReconnecting](-imstscaxevents--onautoreconnecting) |
+| DISPID_AUTORECONNECTING = 17 | [OnAutoReconnecting](-imstscaxevents--onautoreconnecting.md) |
 | DISPID_INTERNALDIALOGDISPLAYED = 18 | [OnAuthenticationWarningDisplayed](imstscaxevents-onauthenticationwarningdisplayed.md) |
 | DISPID_INTERNALDIALOGDISMISSED = 19 | [OnAuthenticationWarningDismissed](imstscaxevents-onauthenticationwarningdismissed.md) |
 | DISPID_ONREMOTEPROGRAMRESULT = 20 | [OnRemoteProgramResult](imstscaxevents-onremoteprogramresult.md) |

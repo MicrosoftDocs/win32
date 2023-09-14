@@ -1,15 +1,15 @@
 ---
-title: MsRdpClient11NotSafeForScripting class
+title: MsRdpClient12NotSafeForScripting class
 description: Microsoft RDP Client Control - version 13.
 ms.assetid: AAC3DA65-222D-498F-B9C3-A8CBCB722D9D
 ms.tgt_platform: multiple
 keywords:
-- MsRdpClient11NotSafeForScripting class Remote Desktop Services
-- MsRdpClient11NotSafeForScripting class Remote Desktop Services , described
+- MsRdpClient12NotSafeForScripting class Remote Desktop Services
+- MsRdpClient12NotSafeForScripting class Remote Desktop Services , described
 topic_type:
 - apiref
 api_name:
-- MsRdpClient11NotSafeForScripting
+- MsRdpClient12NotSafeForScripting
 api_location:
 - MsTscAx.dll
 api_type:
@@ -18,7 +18,7 @@ ms.topic: reference
 ms.date: 09/12/2023
 ---
 
-# MsRdpClient11NotSafeForScripting class
+# MsRdpClient12NotSafeForScripting class
 
 Microsoft RDP Client Control - version 13
 
@@ -49,14 +49,14 @@ This class implements the following interfaces.
 -   [**IMsRdpPreferredRedirectionInfo**](imsrdppreferredredirectioninfo.md)
 -   [**IMsRdpExtendedSettings**](imsrdpextendedsettings.md)
 
-**MsRdpClient11NotSafeForScripting** has these types of members:
+**MsRdpClient12NotSafeForScripting** has these types of members:
 
 -   [Methods](#methods)
 -   [Properties](#properties)
 
 ### Methods
 
-The **MsRdpClient11NotSafeForScripting** class has these methods.
+The **MsRdpClient12NotSafeForScripting** class has these methods.
 
 
 
@@ -123,7 +123,7 @@ The **MsRdpClient11NotSafeForScripting** class has these methods.
 
 ### Properties
 
-The **MsRdpClient11NotSafeForScripting** class has these properties.
+The **MsRdpClient12NotSafeForScripting** class has these properties.
 
 
 
@@ -223,7 +223,7 @@ The **MsRdpClient11NotSafeForScripting** class has these properties.
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                                        |
 | Type library<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl>                |
 | DLL<br/>                      | <dl> <dt>MsTscAx.dll</dt> </dl>                |
-| CLSID<br/>                    | CLSID\_MsRdpClient11NotSafeForScripting is defined as 3F859AA3-C2D4-4FAA-B0E4-FD0C9C4E5E3A<br/> |
+| CLSID<br/>                    | CLSID\_MsRdpClient12NotSafeForScripting is defined as 3F859AA3-C2D4-4FAA-B0E4-FD0C9C4E5E3A<br/> |
 
 
 
