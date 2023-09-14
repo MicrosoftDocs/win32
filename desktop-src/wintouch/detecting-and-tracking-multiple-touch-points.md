@@ -151,6 +151,8 @@ case WM_TOUCH:
           }
         }
       }
+
+      InvalidateRect(hWnd, NULL, FALSE);
     }
     // If you handled the message and don't want anything else done with it, you can close it
     CloseTouchInputHandle((HTOUCHINPUT)lParam);
