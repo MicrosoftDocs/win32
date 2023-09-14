@@ -46,7 +46,7 @@ The **IMsRdpClientNonScriptable8** interface has these properties.
 | Property         | Access type           | Description            |
 |:-----------------|:----------------------|:-----------------------|
 | [**CorrelationId**](imsrdpclientnonscriptable8-correlationid.md)      | Read-only |  Gets a GUID uniquely identifying the client’s remote session.   |
-| [**SupportsWorkspaceReconnect**](imsrdpclientnonscriptable8-supportworkspacereconnect.md)                       | Write-only |    Informs the Remote Desktop ActiveX control that the client’s remote session is part of a connection in the RemoteApp and Desktop Connections control panel that supports reconnect.     |
+| [**SupportsWorkspaceReconnect**](imsrdpclientnonscriptable8-supportsworkspacereconnect.md)                       | Write-only |    Informs the Remote Desktop ActiveX control that the client’s remote session is part of a connection in the RemoteApp and Desktop Connections control panel that supports reconnect.     |
 
 ## Requirements
 

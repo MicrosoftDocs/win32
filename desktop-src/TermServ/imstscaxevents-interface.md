@@ -79,7 +79,7 @@ For more information about Remote Desktop Web Connection, see [Requirements for 
 
 The RDP client control objects ([MsRdpClient](msrdpclient.md), [MsRdpClientNonScriptable](imsrdpclientnonscriptable-interface.md) and their derivatives) are a connectable objects. To receive events from the Remote Desktop ActiveX control about the remote session, an application can implement **IMstscAxEvents** and perform the following steps.
 
-1. Call [IUnknown::QueryInterface](/windows/win32/api/unknwn/nf-unknwn-iunknown-queryinterface(refiid_void)) on the RDP client control object to obtain a pointer to the [IConnectionPointContainer](/windows/win32/api/ocidl/nn-ocidl-iconnectionpointcontainer) interface;
+1. Call [IUnknown::QueryInterface](/windows/win32/api/unknwn/nf-unknwn-iunknown-queryinterface(refiid_void)) on the RDP client control object to obtain a pointer to the [IConnectionPointContainer](/windows/win32/api/ocidl/nn-ocidl-iconnectionpointcontainer) interface.
 1. Call [IConnectionPointContainer::FindConnectionPoint](/windows/win32/api/ocidl/nf-ocidl-iconnectionpointcontainer-findconnectionpoint), specifying `__uuidof(IMsTscAxEvents)` as the *riid* parameter, to obtain a pointer to the [IConnectionPoint](/windows/win32/api/ocidl/nn-ocidl-iconnectionpoint) interface of the client control events.
 1. Call [IConnectionPoint::Advise](/windows/win32/api/ocidl/nf-ocidl-iconnectionpoint-advise) to specify the calling application's own implementation of **IMsTscAxEvents** where the events are to be dispatched.
 
@@ -103,7 +103,7 @@ Application can use the following DISPIDs when implementing **IDispatch::Invoke*
 | DISPID_REQUESTCONTAINERMINIMIZE = 14 | [OnRequestContainerMinimize](imstscaxevents-onrequestcontainerminimize.md) |
 | DISPID_CONFIRMCLOSE = 15 | [OnConfirmClose](imstscaxevents-onconfirmclose.md) |
 | DISPID_RECEIVEDTSPUBLICKEY = 16 | [OnReceivedTSPublicKey](imstscaxevents-onreceivedtspublickey.md) |
-| DISPID_AUTORECONNECTING = 17 | [OnAutoReconnecting](imstscaxevents-onautoreconnecting.md) |
+| DISPID_AUTORECONNECTING = 17 | [OnAutoReconnecting](-imstscaxevents--onautoreconnecting) |
 | DISPID_INTERNALDIALOGDISPLAYED = 18 | [OnAuthenticationWarningDisplayed](imstscaxevents-onauthenticationwarningdisplayed.md) |
 | DISPID_INTERNALDIALOGDISMISSED = 19 | [OnAuthenticationWarningDismissed](imstscaxevents-onauthenticationwarningdismissed.md) |
 | DISPID_ONREMOTEPROGRAMRESULT = 20 | [OnRemoteProgramResult](imstscaxevents-onremoteprogramresult.md) |
@@ -111,7 +111,7 @@ Application can use the following DISPIDs when implementing **IDispatch::Invoke*
 | DISPID_LOGONERROR = 22 | [OnLogonError](imstscaxevents-onlogonerror.md) |
 | DISPID_FOCUSRELEASED = 23 | [OnFocusReleased](imstscaxevents-onfocusreleased.md) |
 | DISPID_USERNAMEACQUIRED = 24 | [OnUserNameAcquired](imstscaxevents-onusernameacquired.md) |
-| DISPID_MOUSEINPUTMODECHANGED = 26 | [OnMouseInputModeChanged](onmouseinputmodechanged.md) |
+| DISPID_MOUSEINPUTMODECHANGED = 26 | [OnMouseInputModeChanged](imstscaxevents-onmouseinputmodechanged.md) |
 | DISPID_ONSTATUSINFO = 27 | None. Provides a VT_UI4 status code to the application. The application can pass the status code contained in `pDispParams->rgvarg[0].ulVal`` to [IMsRdpClient7::GetStatusText](imsrdpclient7-getstatustext.md) to get the associated status text. |
 | DISPID_SERVICEMESSAGERECEIVED = 28 | [OnServiceMessageReceived](imstscaxevents-onservicemessagereceived.md) |
 | DISPID_ONREMOTEWINDOWDISPLAYED = 29 | [OnRemoteWindowDisplayed](imstscaxevents-onremotewindowdisplayed.md) |
@@ -119,7 +119,7 @@ Application can use the following DISPIDs when implementing **IDispatch::Invoke*
 | DISPID_ONNETWORKSTATUSCHANGED = 32 | [OnNetworkStatusChanged](imstscaxevents-onnetworkstatuschanged.md) |
 | DISPID_AUTORECONNECTED = 33 | [OnAutoReconnected](imstscaxevents-onautoreconnected.md) |
 | DISPID_AUTORECONNECTING2 = 34 | [OnAutoReconnecting2](imstscaxevents-onautoreconnecting2.md) |
-| DISPID_CONNECTIONBARDEVICES = 35 | [OnDevicesButtonPressed](imstscaxevents-ondevicebuttonpressed.md) |
+| DISPID_CONNECTIONBARDEVICES = 35 | [OnDevicesButtonPressed](imstscaxevents-ondevicesbuttonpressed.md) |
 | DISPID_HVSINOTIFICATION = 36 | None. Provides a VT_UI4 event code. This event is emitted in Microsoft Defender Application Guard scenarios. It should not be emitted during normal operations. |
 | DISPID_ONWOKEUPANDRECONNECTING = 37 | None. This event is no longer emitted by the Remote Desktop ActiveX control. |
 | DISPID_ONLOCATIONREDIRECTIONENABLEDRECEIVED = 39 | None. This event notifies the application that it can start using IMsRdpClientNonScriptable6::SendLocation2D or IMsRdpClientNonScriptable6::SendLocation3D its location to the server so the client’s geographic location can be reflected in the remote session. |

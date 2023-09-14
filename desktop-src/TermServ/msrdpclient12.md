@@ -1,15 +1,15 @@
 ---
-title: MsRdpClient11 class
-description: Microsoft RDP Client Control (redistributable) - version 11.
+title: MsRdpClient12 class
+description: Microsoft RDP Client Control (redistributable) - version 13.
 ms.assetid: 9D0F2312-0D85-402D-874D-9FA477435210
 ms.tgt_platform: multiple
 keywords:
-- MsRdpClient11 class Remote Desktop Services
-- MsRdpClient11 class Remote Desktop Services , described
+- MsRdpClient12 class Remote Desktop Services
+- MsRdpClient12 class Remote Desktop Services , described
 topic_type:
 - apiref
 api_name:
-- MsRdpClient11
+- MsRdpClient12
 api_location:
 - MsTscAx.dll
 api_type:
@@ -18,9 +18,9 @@ ms.topic: reference
 ms.date: 09/12/2023
 ---
 
-# MsRdpClient11 class
+# MsRdpClient12 class
 
-Microsoft RDP Client Control (redistributable) - version 11
+Microsoft RDP Client Control (redistributable) - version 13
 
 This class implements the following interfaces.
 
@@ -48,14 +48,14 @@ This class implements the following interfaces.
 -   [**IMsRdpClientNonScriptable8**](imsrdpclientnonscriptable8.md)
 -   [**IMsRdpPreferredRedirectionInfo**](imsrdppreferredredirectioninfo.md)
 
-**MsRdpClient11** has these types of members:
+**MsRdpClient12** has these types of members:
 
 -   [Methods](#methods)
 -   [Properties](#properties)
 
 ### Methods
 
-The **MsRdpClient11** class has these methods.
+The **MsRdpClient12** class has these methods.
 
 
 
@@ -122,7 +122,7 @@ The **MsRdpClient11** class has these methods.
 
 ### Properties
 
-The **MsRdpClient11** class has these properties.
+The **MsRdpClient12** class has these properties.
 
 
 
@@ -179,7 +179,7 @@ The **MsRdpClient11** class has these properties.
 | <a href="imsrdpclientnonscriptable5-remotemonitorlayoutmatcheslocal.md"><strong>RemoteMonitorLayoutMatchesLocal</strong></a><br /> | Read-only<br /> | Specifies if the remote monitor layout is identical to the local monitor layout.<br /> | 
 | <a href="imsrdpclient5-remoteprogram.md"><strong>RemoteProgram</strong></a><br /> | Read-only<br /> | The client RemoteApp setting.<br /> | 
 | <a href="imsrdpclient7-remoteprogram2.md"><strong>RemoteProgram2</strong></a><br /> | Read-only<br /> | An object that supports the <a href="itsremoteprogram2.md"><strong>ITSRemoteProgram2</strong></a> interface.<br /> | 
-| <a href="iMsRdpClient11-remoteprogram3.md"><strong>RemoteProgram3</strong></a><br /> | Read-only<br /> | An object that supports the <a href="itsremoteprogram3.md"><strong>ITSRemoteProgram3</strong></a> interface.<br /> | 
+| <a href="iMsRdpClient10-remoteprogram3.md"><strong>RemoteProgram3</strong></a><br /> | Read-only<br /> | An object that supports the <a href="itsremoteprogram3.md"><strong>ITSRemoteProgram3</strong></a> interface.<br /> | 
 | <a href="imstscax-securedsettings.md"><strong>SecuredSettings</strong></a><br /> | Read-only<br /> | A <a href="imstscsecuredsettings-interface.md"><strong>IMsTscSecuredSettings</strong></a> interface pointer.<br /> | 
 | <a href="imsrdpclient-securedsettings2.md"><strong>SecuredSettings2</strong></a><br /> | Read-only<br /> | Pointer to the <a href="imsrdpclientsecuredsettings-interface.md"><strong>IMsRdpClientSecuredSettings</strong></a> interface, used to set secured settings for the client control.<br /> | 
 | <a href="imsrdpclient7-securedsettings3.md"><strong>SecuredSettings3</strong></a><br /> | Read-only<br /> | An object that supports the <a href="imsrdpclientsecuredsettings2.md"><strong>IMsRdpClientSecuredSettings2</strong></a> interface.<br /> | 
@@ -205,7 +205,7 @@ The **MsRdpClient11** class has these properties.
 | [**CameraRedirConfigCollection**](imsrdpclientnonscriptable7-cameraredirconfigcollection.md)      | Read-only |  Gets the collection of cameras (and the associated configurations) that are available for redirection.   |
 | [**Clipboard**](imsrdpclientnonscriptable7-clipboard.md)                       | Read-only |    Gets the Clipboard controller used to synchronize the local and remote clipboards if manual clipboard sync is enabled.    |
 | [**CorrelationId**](imsrdpclientnonscriptable8-correlationid.md)      | Read-only |  Gets a GUID uniquely identifying the client’s remote session.   |
-| [**SupportsWorkspaceReconnect**](imsrdpclientnonscriptable8-supportworkspacereconnect.md)                       | Write-only |    Informs the Remote Desktop ActiveX control that the client’s remote session is part of a connection in the RemoteApp and Desktop Connections control panel that supports reconnect.     |
+| [**SupportsWorkspaceReconnect**](imsrdpclientnonscriptable8-supportsworkspacereconnect.md)                       | Write-only |    Informs the Remote Desktop ActiveX control that the client’s remote session is part of a connection in the RemoteApp and Desktop Connections control panel that supports reconnect.     |
 
 
 
@@ -221,7 +221,7 @@ The **MsRdpClient11** class has these properties.
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                         |
 | Type library<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>MsTscAx.dll</dt> </dl> |
-| CLSID<br/>                    | CLSID\_MsRdpClient11 is defined as C0EFA91A-EEB7-41C7-97FA-F0ED645EFB24<br/>     |
+| CLSID<br/>                    | CLSID\_MsRdpClient12 is defined as 3F859AA3-C2D4-4FAA-B0E4-FD0C9C4E5E3A<br/>     |
 
 
 

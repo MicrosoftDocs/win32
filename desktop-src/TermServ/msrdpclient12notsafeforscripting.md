@@ -1,6 +1,6 @@
 ---
 title: MsRdpClient11NotSafeForScripting class
-description: Microsoft RDP Client Control - version 11.
+description: Microsoft RDP Client Control - version 13.
 ms.assetid: AAC3DA65-222D-498F-B9C3-A8CBCB722D9D
 ms.tgt_platform: multiple
 keywords:
@@ -20,7 +20,7 @@ ms.date: 09/12/2023
 
 # MsRdpClient11NotSafeForScripting class
 
-Microsoft RDP Client Control - version 11
+Microsoft RDP Client Control - version 13
 
 This class implements the following interfaces.
 
@@ -207,7 +207,7 @@ The **MsRdpClient11NotSafeForScripting** class has these properties.
 | [**CameraRedirConfigCollection**](imsrdpclientnonscriptable7-cameraredirconfigcollection.md)      | Read-only |  Gets the collection of cameras (and the associated configurations) that are available for redirection.   |
 | [**Clipboard**](imsrdpclientnonscriptable7-clipboard.md)                       | Read-only |    Gets the Clipboard controller used to synchronize the local and remote clipboards if manual clipboard sync is enabled.    |
 | [**CorrelationId**](imsrdpclientnonscriptable8-correlationid.md)      | Read-only |  Gets a GUID uniquely identifying the client’s remote session.   |
-| [**SupportsWorkspaceReconnect**](imsrdpclientnonscriptable8-supportworkspacereconnect.md)                       | Write-only |    Informs the Remote Desktop ActiveX control that the client’s remote session is part of a connection in the RemoteApp and Desktop Connections control panel that supports reconnect.     |
+| [**SupportsWorkspaceReconnect**](imsrdpclientnonscriptable8-supportsworkspacereconnect.md)                       | Write-only |    Informs the Remote Desktop ActiveX control that the client’s remote session is part of a connection in the RemoteApp and Desktop Connections control panel that supports reconnect.     |
 
 
 
@@ -223,7 +223,7 @@ The **MsRdpClient11NotSafeForScripting** class has these properties.
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                                        |
 | Type library<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl>                |
 | DLL<br/>                      | <dl> <dt>MsTscAx.dll</dt> </dl>                |
-| CLSID<br/>                    | CLSID\_MsRdpClient11NotSafeForScripting is defined as 1DF7C823-B2D4-4B54-975A-F2AC5D7CF8B8<br/> |
+| CLSID<br/>                    | CLSID\_MsRdpClient11NotSafeForScripting is defined as 3F859AA3-C2D4-4FAA-B0E4-FD0C9C4E5E3A<br/> |
 
 
 

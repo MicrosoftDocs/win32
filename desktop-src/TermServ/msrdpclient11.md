@@ -1,6 +1,6 @@
 ---
 title: MsRdpClient11 class
-description: Microsoft RDP Client Control (redistributable) - version 11.
+description: Microsoft RDP Client Control (redistributable) - version 12.
 ms.assetid: 9D0F2312-0D85-402D-874D-9FA477435210
 ms.tgt_platform: multiple
 keywords:
@@ -20,7 +20,7 @@ ms.date: 09/12/2023
 
 # MsRdpClient11 class
 
-Microsoft RDP Client Control (redistributable) - version 11
+Microsoft RDP Client Control (redistributable) - version 12
 
 This class implements the following interfaces.
 
@@ -177,7 +177,7 @@ The **MsRdpClient11** class has these properties.
 | <a href="imsrdpclientnonscriptable5-remotemonitorlayoutmatcheslocal.md"><strong>RemoteMonitorLayoutMatchesLocal</strong></a><br /> | Read-only<br /> | Specifies if the remote monitor layout is identical to the local monitor layout.<br /> | 
 | <a href="imsrdpclient5-remoteprogram.md"><strong>RemoteProgram</strong></a><br /> | Read-only<br /> | The client RemoteApp setting.<br /> | 
 | <a href="imsrdpclient7-remoteprogram2.md"><strong>RemoteProgram2</strong></a><br /> | Read-only<br /> | An object that supports the <a href="itsremoteprogram2.md"><strong>ITSRemoteProgram2</strong></a> interface.<br /> | 
-| <a href="iMsRdpClient11-remoteprogram3.md"><strong>RemoteProgram3</strong></a><br /> | Read-only<br /> | An object that supports the <a href="itsremoteprogram3.md"><strong>ITSRemoteProgram3</strong></a> interface.<br /> | 
+| <a href="iMsRdpClient10-remoteprogram3.md"><strong>RemoteProgram3</strong></a><br /> | Read-only<br /> | An object that supports the <a href="itsremoteprogram3.md"><strong>ITSRemoteProgram3</strong></a> interface.<br /> | 
 | <a href="imstscax-securedsettings.md"><strong>SecuredSettings</strong></a><br /> | Read-only<br /> | A <a href="imstscsecuredsettings-interface.md"><strong>IMsTscSecuredSettings</strong></a> interface pointer.<br /> | 
 | <a href="imsrdpclient-securedsettings2.md"><strong>SecuredSettings2</strong></a><br /> | Read-only<br /> | Pointer to the <a href="imsrdpclientsecuredsettings-interface.md"><strong>IMsRdpClientSecuredSettings</strong></a> interface, used to set secured settings for the client control.<br /> | 
 | <a href="imsrdpclient7-securedsettings3.md"><strong>SecuredSettings3</strong></a><br /> | Read-only<br /> | An object that supports the <a href="imsrdpclientsecuredsettings2.md"><strong>IMsRdpClientSecuredSettings2</strong></a> interface.<br /> | 
@@ -218,7 +218,7 @@ The **MsRdpClient11** class has these properties.
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                         |
 | Type library<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>MsTscAx.dll</dt> </dl> |
-| CLSID<br/>                    | CLSID\_MsRdpClient11 is defined as C0EFA91A-EEB7-41C7-97FA-F0ED645EFB24<br/>     |
+| CLSID<br/>                    | CLSID\_MsRdpClient11 is defined as 22A7E88C-5BF5-4DE6-B687-60F7331DF190<br/>     |
 
 
 

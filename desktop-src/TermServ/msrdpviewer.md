@@ -1,6 +1,6 @@
 ---
 title: MsRdpViewer class
-description: Microsoft RDP Client Control (redistributable) - version 11.
+description: Interacts with the remote desktop viewer control to enable Windows Desktop Sharing scenarios.
 ms.assetid: 9D0F2312-0D85-402D-874D-9FA477435210
 ms.tgt_platform: multiple
 keywords:
@@ -20,7 +20,7 @@ ms.date: 09/12/2023
 
 # MsRdpViewer class
 
-Interacts with the remote desktop viewer control to enable Windows Desktop Sharing scenarios
+Interacts with the remote desktop viewer control to enable Windows Desktop Sharing scenarios.
 
 This class implements the following interfaces.
 
@@ -42,7 +42,7 @@ The following list describes example uses of the **RDPViewer** class for Windows
 
 - Configure the viewer control’s display location by calling [IOleObject::SetClientSite](/windows/win32/api/oleidl/nf-oleidl-ioleobject-setclientsite).
 - Display the viewer control by calling [IOleObject::DoVerb](/windows/win32/api/oleidl/nf-oleidl-ioleobject-doverb) and specifying **OLEIVERB_PRIMARY** for the *iVerb* parameter.
-- Connect the viewer control by calling [IRDPSRAPIViewer::Connect](/windows/win32/api/rdpencomapi/nf-rdpencomapi-irdpsrapiviewer-connect.)
+- Connect the viewer control by calling [IRDPSRAPIViewer::Connect](/windows/win32/api/rdpencomapi/nf-rdpencomapi-irdpsrapiviewer-connect).
 - Get the **HWND** of the viewer control by calling [GetWindow](/windows/win32/api/oleidl/nf-oleidl-iolewindow-getwindow) on a pointer to its [IOleInPlaceActiveObject](/windows/win32/api/oleidl/nn-oleidl-ioleinplaceactiveobject) interface.
 - Notify the viewer control of the activation of the application window by calling [IOleInPlaceActiveObject::OnFrameWindowActivate](/windows/win32/api/oleidl/nf-oleidl-ioleinplaceactiveobject-onframewindowactivate)
 - Receive the notifications for [_IRDPSessionEvents](/windows/win32/api/rdpencomapi/nn-rdpencomapi-_irdpsessionevents) events from the viewer control by calling [IConnectionPointContainer::FindConnectionPoint](/windows/win32/api/ocidl/nf-ocidl-iconnectionpointcontainer-findconnectionpoint), specifying `__uuidof(_IRDPSessionEvents)` for the *riid* parameter, and then calling [IConnectionPoint::Advise](/windows/win32/api/ocidl/nf-ocidl-iconnectionpoint-advise) with an application-defined implementation of **_IRDPSessionEvents**. The application is responsible for implementing the dispatching of those events to its **_IRDPSessionEvents** interface from its implementation of [IDispatch::Invoke](/windows/win32/api/oaidl/nf-oaidl-idispatch-invoke).

@@ -1,6 +1,6 @@
 ---
 title: MsRdpClient11NotSafeForScripting class
-description: Microsoft RDP Client Control - version 11.
+description: Microsoft RDP Client Control - version 12.
 ms.assetid: AAC3DA65-222D-498F-B9C3-A8CBCB722D9D
 ms.tgt_platform: multiple
 keywords:
@@ -20,7 +20,7 @@ ms.date: 09/12/2023
 
 # MsRdpClient11NotSafeForScripting class
 
-Microsoft RDP Client Control - version 11
+Microsoft RDP Client Control - version 12
 
 This class implements the following interfaces.
 
