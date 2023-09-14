@@ -37,6 +37,8 @@ This function does not return a value.
 
 A memory barrier guarantees that outstanding memory operations have completed. Threads are synchronized at GroupSync barriers. This may stall a thread or threads if memory operations are in progress.
 
+The behavior of calls to this function that are within diverging branches of a thread group are undefined.
+
 ### Minimum Shader Model
 
 This function is supported in the following shader models.
