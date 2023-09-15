@@ -5,14 +5,23 @@ keywords:
 - DirectWrite Core
 - DWriteCore
 ms.topic: article
-ms.date: 04/22/2021
+ms.date: 09/14/2023
 ---
 
 # DWriteCore overview
 
-DWriteCore is the [Windows App SDK](/windows/apps/windows-app-sdk/) implementation of [DirectWrite](./direct-write-portal.md) (DirectWrite is the DirectX API for high-quality text rendering, resolution-independent outline fonts, and full Unicode text and layout support). DWriteCore is a form of DirectWrite that runs on versions of Windows down to Windows 10, version 1809 (10.0; Build 17763), and opens the door for you to use it cross-platform.
+DWriteCore is the [Windows App SDK](/windows/apps/windows-app-sdk/) implementation of [DirectWrite](./direct-write-portal.md) (DirectWrite is the DirectX API for high-quality text rendering, resolution-independent outline fonts, and full Unicode text and layout support). DWriteCore is a form of DirectWrite that runs on versions of Windows down to Windows 10, version 1809 (10.0; Build 17763). DWriteCore implements the same API as DirectWrite, with a few additions as described in this topic.
 
 This introductory topic describes what DWriteCore is, and shows how to install it into your dev environment and program with it.
+
+For an app that already uses DirectWrite, switching to DWriteCore requires minimal changes:
+
+* Add a reference to the Windows App SDK package.
+* Include `dwrite_core.h` instead of `dwrite_3.h`.
+* Link `DWriteCore.lib` instead of `DWrite.lib`.
+* Call [**DWriteCoreCreateFactory**](/windows/windows-app-sdk/api/win32/dwrite_core/nf-dwrite_core-dwritecorecreatefactory) instead of [DWriteCreateFactory](/windows/win32/api/dwrite/nf-dwrite-dwritecreatefactory).
+
+In return, the app gets the benefits of Windows App SDK&mdash;namely, access to the newest APIs and functionality regardless of what version of Windows your customer is running.
 
 > [!TIP]
 > For descriptions of and links to DirectX components in active development, see the blog post [DirectX Landing Page](https://devblogs.microsoft.com/directx/landing-page/).
@@ -204,4 +213,3 @@ int __stdcall wWinMain(HINSTANCE, HINSTANCE, LPWSTR, int)
 There are a few APIs that are either stubs only, or they behave somewhat differently on non-Windows platforms. For example, [IDWriteGdiInterop::CreateFontFaceFromHdc](/windows/win32/api/dwrite/nf-dwrite-idwritegdiinterop-createfontfacefromhdc) returns **E_NOTIMPL** on non-Windows platforms, since there's no such thing as an **HDC** without [GDI](../gdi/windows-gdi.md).
 
 And, finally, there are certain other Windows APIs that are typically used together with DirectWrite (Direct2D being a notable example). However, currently, Direct2D and DWriteCore don't interoperate. For example, if you create an [**IDWriteTextLayout**](/windows/win32/api/dwrite/nn-dwrite-idwritetextlayout) using DWriteCore, and pass it to [**D2D1RenderTarget::DrawTextLayout**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-drawtextlayout), then that call will fail.
-
