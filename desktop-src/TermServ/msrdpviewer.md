@@ -40,7 +40,7 @@ To initialize an instance of **RDPViewer**, call [CoCreateInstance](/windows/win
 
 The following list describes example uses of the **RDPViewer** class for Windows Desktop Sharing scenarios.
 
-- Configure the viewer control’s display location by calling [IOleObject::SetClientSite](/windows/win32/api/oleidl/nf-oleidl-ioleobject-setclientsite).
+- Configure the viewer control's display location by calling [IOleObject::SetClientSite](/windows/win32/api/oleidl/nf-oleidl-ioleobject-setclientsite).
 - Display the viewer control by calling [IOleObject::DoVerb](/windows/win32/api/oleidl/nf-oleidl-ioleobject-doverb) and specifying **OLEIVERB_PRIMARY** for the *iVerb* parameter.
 - Connect the viewer control by calling [IRDPSRAPIViewer::Connect](/windows/win32/api/rdpencomapi/nf-rdpencomapi-irdpsrapiviewer-connect).
 - Get the **HWND** of the viewer control by calling [GetWindow](/windows/win32/api/oleidl/nf-oleidl-iolewindow-getwindow) on a pointer to its [IOleInPlaceActiveObject](/windows/win32/api/oleidl/nn-oleidl-ioleinplaceactiveobject) interface.

@@ -1,6 +1,6 @@
 ---
 title: IMsRdpClientNonScriptable8 CorrelationId property
-description: Gets a GUID uniquely identifying the client’s remote session.
+description: Gets a GUID uniquely identifying the client's remote session.
 ms.tgt_platform: multiple
 keywords:
 - CorrelationId property Remote Desktop Services
@@ -21,7 +21,7 @@ ms.date: 09/12/2023
 
 # IMsRdpClientNonScriptable8::CorrelationId property
 
-Gets a GUID uniquely identifying the client’s remote session.
+Gets a GUID uniquely identifying the client's remote session.
 
 This property is read-only.
 
@@ -35,7 +35,7 @@ HRESULT get_CorrelationId(
 
 ## Property value
 
-A GUID uniquely identifying the client’s remote session.
+A GUID uniquely identifying the client's remote session.
 
 ## Requirements
 

@@ -1,6 +1,6 @@
 ---
 title: IMsRdpClientNonScriptable6 SendLocation2D method
-description: Sends a latitude and longitude value to the server so the client’s geographic location can be reflected in the remote session.
+description: Sends a latitude and longitude value to the server so the client's geographic location can be reflected in the remote session.
 ms.tgt_platform: multiple
 keywords:
 - SendLocation2D method Remote Desktop Services
@@ -20,7 +20,7 @@ ms.date: 12/16/2020
 
 # IMsRdpClientNonScriptable6::SendLocation2D method
 
-Sends a latitude and longitude value to the server so the client’s geographic location can be reflected in the remote session.
+Sends a latitude and longitude value to the server so the client's geographic location can be reflected in the remote session.
 
 ## Syntax
 

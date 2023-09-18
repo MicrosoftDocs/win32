@@ -111,10 +111,10 @@ The **MsRdpClient12** class has these methods.
 | [**SetVirtualChannelOptions**](imsrdpclient-setvirtualchanneloptions.md)                   | Sets the virtual channel options for the client control.<br/>                                                                                                                                                                                                                           |
 | [**SyncSessionDisplaySettings**](imsrdpclient9-syncsessiondisplaysettings.md)              | Synchronizes session display settings. <br/>                                                                                                                                                                                                                                            |
 | [**UpdateSessionDisplaySettings**](/previous-versions/windows/desktop/legacy/mt703457(v=vs.85))          | Updates session display settings. <br/>                                                                                                                                                                                                                                                 |
-| [**SendLocation2D**](imsrdpclientnonscriptable6-sendlocation2d.md)     |  Sends a latitude and longitude value to the server so the client’s geographic location can be reflected in the remote session.                   |
-| [**SendLocation3D**](imsrdpclientnonscriptable6-sendlocation3d.md)     | Sends a latitude, longitude and altitude value to the server so the client’s geographic location can be reflected in the remote session.                 |
+| [**SendLocation2D**](imsrdpclientnonscriptable6-sendlocation2d.md)     |  Sends a latitude and longitude value to the server so the client's geographic location can be reflected in the remote session.                   |
+| [**SendLocation3D**](imsrdpclientnonscriptable6-sendlocation3d.md)     | Sends a latitude, longitude and altitude value to the server so the client's geographic location can be reflected in the remote session.                 |
 | [**DisableDpiCursorScalingForProcess**](imsrdpclientnonscriptable7-disabledpicursorscalingforprocess.md)       |  Disables local scaling of the mouse cursor received from the server, ensuring that the cursor shape is rendered correctly without modification.                   |
-| [**StartWorkspaceExtension**](imsrdpclientnonscriptable8-startworkspaceextension.md)       |  Coordinates the client’s remote session with the RemoteApp and Desktop Connections control panel. |
+| [**StartWorkspaceExtension**](imsrdpclientnonscriptable8-startworkspaceextension.md)       |  Coordinates the client's remote session with the RemoteApp and Desktop Connections control panel. |
 
 
 
@@ -204,8 +204,8 @@ The **MsRdpClient12** class has these properties.
 | <a href="imsrdpclientnonscriptable3-warnaboutsendingcredentials.md"><strong>WarnAboutSendingCredentials</strong></a><br /> | Read/write<br /> | Specifies whether the security warning should include a warning about sending credentials to the remote server before starting a session.<br /> | 
 | [**CameraRedirConfigCollection**](imsrdpclientnonscriptable7-cameraredirconfigcollection.md)      | Read-only |  Gets the collection of cameras (and the associated configurations) that are available for redirection.   |
 | [**Clipboard**](imsrdpclientnonscriptable7-clipboard.md)                       | Read-only |    Gets the Clipboard controller used to synchronize the local and remote clipboards if manual clipboard sync is enabled.    |
-| [**CorrelationId**](imsrdpclientnonscriptable8-correlationid.md)      | Read-only |  Gets a GUID uniquely identifying the client’s remote session.   |
-| [**SupportsWorkspaceReconnect**](imsrdpclientnonscriptable8-supportsworkspacereconnect.md)                       | Write-only |    Informs the Remote Desktop ActiveX control that the client’s remote session is part of a connection in the RemoteApp and Desktop Connections control panel that supports reconnect.     |
+| [**CorrelationId**](imsrdpclientnonscriptable8-correlationid.md)      | Read-only |  Gets a GUID uniquely identifying the client's remote session.   |
+| [**SupportsWorkspaceReconnect**](imsrdpclientnonscriptable8-supportsworkspacereconnect.md)                       | Write-only |    Informs the Remote Desktop ActiveX control that the client's remote session is part of a connection in the RemoteApp and Desktop Connections control panel that supports reconnect.     |
 
 
 

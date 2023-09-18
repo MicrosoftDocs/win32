@@ -1,6 +1,6 @@
 ---
 title: IMsRdpClientNonScriptable8 StartWorkspaceExtension method
-description: Coordinates the client’s remote session with the RemoteApp and Desktop Connections control panel.
+description: Coordinates the client's remote session with the RemoteApp and Desktop Connections control panel.
 ms.tgt_platform: multiple
 keywords:
 - StartWorkspaceExtension method Remote Desktop Services
@@ -20,7 +20,7 @@ ms.date: 09/12/2023
 
 # IMsRdpClientNonScriptable8::StartWorkspaceExtension method
 
-Coordinates the client’s remote session with the RemoteApp and Desktop Connections control panel.
+Coordinates the client's remote session with the RemoteApp and Desktop Connections control panel.
 
 > [!NOTE]
 > The RemoteApp and Desktop Connection control panel is no longer in active development. It may be altered or unavailable in future versions of Windows. The use of this API is discouraged. 

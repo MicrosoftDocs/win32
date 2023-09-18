@@ -122,7 +122,7 @@ Application can use the following DISPIDs when implementing **IDispatch::Invoke*
 | DISPID_CONNECTIONBARDEVICES = 35 | [OnDevicesButtonPressed](imstscaxevents-ondevicesbuttonpressed.md) |
 | DISPID_HVSINOTIFICATION = 36 | None. Provides a VT_UI4 event code. This event is emitted in Microsoft Defender Application Guard scenarios. It should not be emitted during normal operations. |
 | DISPID_ONWOKEUPANDRECONNECTING = 37 | None. This event is no longer emitted by the Remote Desktop ActiveX control. |
-| DISPID_ONLOCATIONREDIRECTIONENABLEDRECEIVED = 39 | None. This event notifies the application that it can start using IMsRdpClientNonScriptable6::SendLocation2D or IMsRdpClientNonScriptable6::SendLocation3D its location to the server so the client’s geographic location can be reflected in the remote session. |
+| DISPID_ONLOCATIONREDIRECTIONENABLEDRECEIVED = 39 | None. This event notifies the application that it can start using IMsRdpClientNonScriptable6::SendLocation2D or IMsRdpClientNonScriptable6::SendLocation3D its location to the server so the client's geographic location can be reflected in the remote session. |
 
 
 

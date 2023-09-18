@@ -36,8 +36,8 @@ The **IMsRdpClientNonScriptable6** interface has these methods.
 
 | Method            | Description                   |
 |:-----------------------------|:-----------------|
-| [**SendLocation2D**](imsrdpclientnonscriptable6-sendlocation2d.md)     |  Sends a latitude and longitude value to the server so the client’s geographic location can be reflected in the remote session.                   |
-| [**SendLocation3D**](imsrdpclientnonscriptable6-sendlocation3d.md)     | Sends a latitude, longitude and altitude value to the server so the client’s geographic location can be reflected in the remote session.                 |
+| [**SendLocation2D**](imsrdpclientnonscriptable6-sendlocation2d.md)     |  Sends a latitude and longitude value to the server so the client's geographic location can be reflected in the remote session.                   |
+| [**SendLocation3D**](imsrdpclientnonscriptable6-sendlocation3d.md)     | Sends a latitude, longitude and altitude value to the server so the client's geographic location can be reflected in the remote session.                 |
 
 ## Requirements
 
