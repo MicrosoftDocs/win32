@@ -23,6 +23,7 @@ The following example shows enumerating CSPs and provider types.
 ```C++
 //-------------------------------------------------------------------
 // Copyright (C) Microsoft.  All rights reserved.
+#pragma comment(lib, "advapi32.lib")
 #pragma comment(lib, "crypt32.lib")
 
 #include <stdio.h>
@@ -245,7 +246,7 @@ int _tmain(int argc, _TCHAR* argv[])
            ptr += dwIncrement;
            dwNameLen = *(DWORD *)ptr;
            ptr += dwIncrement;
-           strncpy_s(szName,(char *) ptr, sizeof(szName), dwNameLen);
+           strncpy_s(szName, sizeof(szName), (char *) ptr, dwNameLen);
            
             //-------------------------------------------------------
             // Determine the algorithm type.
