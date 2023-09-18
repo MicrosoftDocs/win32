@@ -22,8 +22,10 @@
       href: performance.md
     - name: "Text Metrics"
       href: text-metrics.md
-    - name: "Color Fonts"
+    - name: "Color fonts"
       href: color-fonts.md
+    - name: "Color fonts (preview)"
+      href: color-fonts-preview.md
     - name: "Rendering DirectWrite"
       href: rendering-directwrite.md
       items: 
