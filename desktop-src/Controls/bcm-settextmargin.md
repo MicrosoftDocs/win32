@@ -18,7 +18,7 @@ ms.date: 05/31/2018
 
 # BCM\_SETTEXTMARGIN message
 
-The **BCM\_SETTEXTMARGIN** message sets the margins for drawing text in a button control.
+Sets the margins used to draw text in a button control. You can send this message explicitly or use the [**Button\_SetTextMargin**](/windows/desktop/api/Commctrl/nf-commctrl-button_settextmargin) macro.
 
 ## Parameters
 
