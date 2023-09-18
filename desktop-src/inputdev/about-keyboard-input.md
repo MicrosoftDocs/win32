@@ -149,162 +149,163 @@ The following table lists the set of Scan Codes as presently recognized by Windo
 
 The **Scan 1 Make** code is delivered in [**WM\_KEYDOWN**](wm-keydown.md)/[**WM\_KEYUP**](wm-keyup.md)/[**WM\_SYSKEYDOWN**](wm-syskeydown.md)/[**WM\_SYSKEYUP**](wm-syskeyup.md) and [**WM\_INPUT**](wm-input.md) messages.
 
-| HID Usage Page | HID Usage ID | HID Usage Name                    | Key Location | Scan 1 Make |
-|----------------|--------------|-----------------------------------|--------------|-------------|
-| 07             | 01           | ErrorRollOver                     |              | FF          |
-| 07             | 04           | Keyboard A                        | 31           | 1E          |
-| 07             | 05           | Keyboard B                        | 50           | 30          |
-| 07             | 06           | Keyboard C                        | 48           | 2E          |
-| 07             | 07           | Keyboard D                        | 33           | 20          |
-| 07             | 08           | Keyboard E                        | 19           | 12          |
-| 07             | 09           | Keyboard F                        | 34           | 21          |
-| 07             | 0A           | Keyboard G                        | 35           | 22          |
-| 07             | 0B           | Keyboard H                        | 36           | 23          |
-| 07             | 0C           | Keyboard I                        | 24           | 17          |
-| 07             | 0D           | Keyboard J                        | 37           | 24          |
-| 07             | 0E           | Keyboard K                        | 38           | 25          |
-| 07             | 0F           | Keyboard L                        | 39           | 26          |
-| 07             | 10           | Keyboard M                        | 52           | 32          |
-| 07             | 11           | Keyboard N                        | 51           | 31          |
-| 07             | 12           | Keyboard O                        | 25           | 18          |
-| 07             | 13           | Keyboard P                        | 26           | 19          |
-| 07             | 14           | Keyboard Q                        | 17           | 10          |
-| 07             | 15           | Keyboard R                        | 20           | 13          |
-| 07             | 16           | Keyboard S                        | 32           | 1F          |
-| 07             | 17           | Keyboard T                        | 21           | 14          |
-| 07             | 18           | Keyboard U                        | 23           | 16          |
-| 07             | 19           | Keyboard V                        | 49           | 2F          |
-| 07             | 1A           | Keyboard W                        | 18           | 11          |
-| 07             | 1B           | Keyboard X                        | 47           | 2D          |
-| 07             | 1C           | Keyboard Y                        | 22           | 15          |
-| 07             | 1D           | Keyboard Z                        | 46           | 2C          |
-| 07             | 1E           | Keyboard 1 and Bang               | 2            | 02          |
-| 07             | 1F           | Keyboard 2 and At                 | 3            | 03          |
-| 07             | 20           | Keyboard 3 And Hash               | 4            | 04          |
-| 07             | 21           | Keyboard 4 and Dollar             | 5            | 05          |
-| 07             | 22           | Keyboard 5 and Percent            | 6            | 06          |
-| 07             | 23           | Keyboard 6 and Caret              | 7            | 07          |
-| 07             | 24           | Keyboard 7 and Ampersand          | 8            | 08          |
-| 07             | 25           | Keyboard 8 and Star               | 9            | 09          |
-| 07             | 26           | Keyboard 9 and Left Bracket       | 10           | 0A          |
-| 07             | 27           | Keyboard 0 and Right Bracket      | 11           | 0B          |
-| 07             | 28           | Keyboard Return Enter             | 43           | 1C          |
-| 07             | 29           | Keyboard Escape                   | 110          | 01          |
-| 07             | 2A           | Keyboard Delete                   | 15           | 0E          |
-| 07             | 2B           | Keyboard Tab                      | 16           | 0F          |
-| 07             | 2C           | Keyboard Spacebar                 | 61           | 39          |
-| 07             | 2D           | Keyboard Dash and Underscore      | 12           | 0C          |
-| 07             | 2E           | Keyboard Equals and Plus          | 13           | 0D          |
-| 07             | 2F           | Keyboard Left Brace               | 27           | 1A          |
-| 07             | 30           | Keyboard Right Brace              | 28           | 1B          |
-| 07             | 31           | Keyboard Pipe and Slash           | 29           | 2B          |
-| 07             | 32           | Keyboard Non-US                   | 42           | 2B          |
-| 07             | 33           | Keyboard SemiColon and Colon      | 40           | 27          |
-| 07             | 34           | Keyboard Left Apos and Double     | 41           | 28          |
-| 07             | 35           | Keyboard Grave Accent and Tilde   | 1            | 29          |
-| 07             | 36           | Keyboard Comma                    | 53           | 33          |
-| 07             | 37           | Keyboard Period                   | 54           | 34          |
-| 07             | 38           | Keyboard QuestionMark             | 55           | 35          |
-| 07             | 39           | Keyboard Caps Lock                | 30           | 3A          |
-| 07             | 3A           | Keyboard F1                       | 112          | 3B          |
-| 07             | 3B           | Keyboard F2                       | 113          | 3C          |
-| 07             | 3C           | Keyboard F3                       | 114          | 3D          |
-| 07             | 3D           | Keyboard F4                       | 115          | 3E          |
-| 07             | 3E           | Keyboard F5                       | 116          | 3F          |
-| 07             | 3F           | Keyboard F6                       | 117          | 40          |
-| 07             | 40           | Keyboard F7                       | 118          | 41          |
-| 07             | 41           | Keyboard F8                       | 119          | 42          |
-| 07             | 42           | Keyboard F9                       | 120          | 43          |
-| 07             | 43           | Keyboard F10                      | 121          | 44          |
-| 07             | 44           | Keyboard F11                      | 122          | 57          |
-| 07             | 45           | Keyboard F12                      | 123          | 58          |
-| 07             | 46           | Keyboard PrintScreen              | 124          | E0 37<br>54 \*Note 1 |
-| 07             | 47           | Keyboard Scroll Lock              | 125          | 46          |
-| 07             | 48           | Keyboard Pause                    | 126          | E1 1D 45<br>E0 46 \*Note 2<br>45 \*Note 3 |
-| 07             | 49           | Keyboard Insert                   | 75           | E0 52       |
-| 07             | 4A           | Keyboard Home                     | 80           | E0 47       |
-| 07             | 4B           | Keyboard PageUp                   | 85           | E0 49       |
-| 07             | 4C           | Keyboard Delete Forward           | 76           | E0 53       |
-| 07             | 4D           | Keyboard End                      | 81           | E0 4F       |
-| 07             | 4E           | Keyboard PageDown                 | 86           | E0 51       |
-| 07             | 4F           | Keyboard RightArrow               | 89           | E0 4D       |
-| 07             | 50           | Keyboard LeftArrow                | 79           | E0 4B       |
-| 07             | 51           | Keyboard DownArrow                | 84           | E0 50       |
-| 07             | 52           | Keyboard UpArrow                  | 83           | E0 48       |
-| 07             | 53           | Keypad Num Lock and Clear         | 90           | 45<br>E0 45 \*Note 3 |
-| 07             | 54           | Keypad Forward Slash              | 95           | E0 35       |
-| 07             | 55           | Keypad Star                       | 100          | 37          |
-| 07             | 56           | Keypad Dash                       | 105          | 4A          |
-| 07             | 57           | Keypad Plus                       | 106          | 4E          |
-| 07             | 58           | Keypad ENTER                      | 108          | E0 1C       |
-| 07             | 59           | Keypad 1 and End                  | 93           | 4F          |
-| 07             | 5A           | Keypad 2 and Down Arrow           | 98           | 50          |
-| 07             | 5B           | Keypad 3 and PageDn               | 103          | 51          |
-| 07             | 5C           | Keypad 4 and Left Arrow           | 92           | 4B          |
-| 07             | 5D           | Keypad 5                          | 97           | 4C          |
-| 07             | 5E           | Keypad 6 and Right Arrow          | 102          | 4D          |
-| 07             | 5F           | Keypad 7 and Home                 | 91           | 47          |
-| 07             | 60           | Keypad 8 and Up Arrow             | 96           | 48          |
-| 07             | 61           | Keypad 9 and PageUp               | 101          | 49          |
-| 07             | 62           | Keypad 0 and Insert               | 99           | 52          |
-| 07             | 63           | Keypad Period                     | 104          | 53          |
-| 07             | 64           | Keyboard Non-US Slash Bar         | 45           | 56          |
-| 07             | 65           | Keyboard Application              | 129          | E0 5D       |
-| 07             | 66           | Keyboard Power                    |              | E0 5E       |
-| 07             | 67           | Keypad Equals                     |              | 59          |
-| 07             | 68           | Keyboard F13                      |              | 64          |
-| 07             | 69           | Keyboard F14                      |              | 65          |
-| 07             | 6A           | Keyboard F15                      |              | 66          |
-| 07             | 6B           | Keyboard F16                      |              | 67          |
-| 07             | 6C           | Keyboard F17                      |              | 68          |
-| 07             | 6D           | Keyboard F18                      |              | 69          |
-| 07             | 6E           | Keyboard F19                      |              | 6A          |
-| 07             | 6F           | Keyboard F20                      |              | 6B          |
-| 07             | 70           | Keyboard F21                      |              | 6C          |
-| 07             | 71           | Keyboard F22                      |              | 6D          |
-| 07             | 72           | Keyboard F23                      |              | 6E          |
-| 07             | 73           | Keyboard F24                      |              | 76          |
-| 07             | 85           | Keypad Comma                      | 107\*Note 4  | 7E          |
-| 07             | 87           | Keyboard International1           | 56\*Note 4, 5 | 73          |
-| 07             | 88           | Keyboard International2           | 133\*Note 5  | 70          |
-| 07             | 89           | Keyboard International3           | 14\*Note 5   | 7D          |
-| 07             | 8A           | Keyboard International4           | 132\*Note 5  | 79          |
-| 07             | 8B           | Keyboard International5           | 131\*Note 5  | 7B          |
-| 07             | 8C           | Keyboard International6           |              | 5C          |
-| 07             | 90           | Keyboard LANG1                    |              | 72 \*Note 6 |
-| 07             | 91           | Keyboard LANG2                    |              | 71 \*Note 6 |
-| 07             | 92           | Keyboard LANG3                    |              | 78          |
-| 07             | 93           | Keyboard LANG4                    |              | 77          |
-| 07             | 94           | Keyboard LANG5                    |              | 76          |
-| 07             | E0           | Keyboard LeftControl              | 58           | 1D          |
-| 07             | E1           | Keyboard LeftShift                | 44           | 2A          |
-| 07             | E2           | Keyboard LeftAlt                  | 60           | 38          |
-| 07             | E3           | Keyboard Left GUI                 | 127          | E0 5B       |
-| 07             | E4           | Keyboard RightControl             | 64           | E0 1D       |
-| 07             | E5           | Keyboard RightShift               | 57           | 36          |
-| 07             | E6           | Keyboard RightAlt                 | 62           | E0 38       |
-| 07             | E7           | Keyboard Right GUI                | 128          | E0 5C       |
-| 01             | 81           | System Power Down                 |              | E0 5E       |
-| 01             | 82           | System Sleep                      |              | E0 5F       |
-| 01             | 83           | System Wake Up                    |              | E0 63       |
-| 0C             | 00B5         | Scan Next Track                   |              | E0 19       |
-| 0C             | 00B6         | Scan Previous Track               |              | E0 10       |
-| 0C             | 00B7         | Stop                              |              | E0 24       |
-| 0C             | 00CD         | Play/Pause                        |              | E0 22       |
-| 0C             | 00E2         | Mute                              |              | E0 20       |
-| 0C             | 00E9         | Volume Increment                  |              | E0 30       |
-| 0C             | 00EA         | Volume Decrement                  |              | E0 2E       |
-| 0C             | 0183         | AL Consumer Control Configuration |              | E0 6D       |
-| 0C             | 018A         | AL Email Reader                   |              | E0 6C       |
-| 0C             | 0192         | AL Calculator                     |              | E0 21       |
-| 0C             | 0194         | AL Local Machine Browser          |              | E0 6B       |
-| 0C             | 0221         | AC Search                         |              | E0 65       |
-| 0C             | 0223         | AC Home                           |              | E0 32       |
-| 0C             | 0224         | AC Back                           |              | E0 6A       |
-| 0C             | 0225         | AC Forward                        |              | E0 69       |
-| 0C             | 0226         | AC Stop                           |              | E0 68       |
-| 0C             | 0227         | AC Refresh                        |              | E0 67       |
-| 0C             | 022A         | AC Previous Link                  |              | E0 66       |
+| HID Usage Page Name | HID Usage Name                    | HID Usage Page | HID Usage ID | Scan 1 Make | Key Location |
+|---------------------|-----------------------------------|:--------------:|:------------:|:-----------:|:------------:|
+| Generic Desktop     | System Power Down                 | 0x0001         | 0x0081       | 0xE05E      |              |
+| Generic Desktop     | System Sleep                      | 0x0001         | 0x0082       | 0xE05F      |              |
+| Generic Desktop     | System Wake Up                    | 0x0001         | 0x0083       | 0xE063      |              |
+| Keyboard/Keypad     | ErrorRollOver                     | 0x0007         | 0x0001       | 0x00FF      |              |
+| Keyboard/Keypad     | POSTFail                          | 0x0007         | 0x0002       | 0x00FC      |              |
+| Keyboard/Keypad     | Keyboard A                        | 0x0007         | 0x0004       | 0x001E      | 31           |
+| Keyboard/Keypad     | Keyboard B                        | 0x0007         | 0x0005       | 0x0030      | 50           |
+| Keyboard/Keypad     | Keyboard C                        | 0x0007         | 0x0006       | 0x002E      | 48           |
+| Keyboard/Keypad     | Keyboard D                        | 0x0007         | 0x0007       | 0x0020      | 33           |
+| Keyboard/Keypad     | Keyboard E                        | 0x0007         | 0x0008       | 0x0012      | 19           |
+| Keyboard/Keypad     | Keyboard F                        | 0x0007         | 0x0009       | 0x0021      | 34           |
+| Keyboard/Keypad     | Keyboard G                        | 0x0007         | 0x000A       | 0x0022      | 35           |
+| Keyboard/Keypad     | Keyboard H                        | 0x0007         | 0x000B       | 0x0023      | 36           |
+| Keyboard/Keypad     | Keyboard I                        | 0x0007         | 0x000C       | 0x0017      | 24           |
+| Keyboard/Keypad     | Keyboard J                        | 0x0007         | 0x000D       | 0x0024      | 37           |
+| Keyboard/Keypad     | Keyboard K                        | 0x0007         | 0x000E       | 0x0025      | 38           |
+| Keyboard/Keypad     | Keyboard L                        | 0x0007         | 0x000F       | 0x0026      | 39           |
+| Keyboard/Keypad     | Keyboard M                        | 0x0007         | 0x0010       | 0x0032      | 52           |
+| Keyboard/Keypad     | Keyboard N                        | 0x0007         | 0x0011       | 0x0031      | 51           |
+| Keyboard/Keypad     | Keyboard O                        | 0x0007         | 0x0012       | 0x0018      | 25           |
+| Keyboard/Keypad     | Keyboard P                        | 0x0007         | 0x0013       | 0x0019      | 26           |
+| Keyboard/Keypad     | Keyboard Q                        | 0x0007         | 0x0014       | 0x0010      | 17           |
+| Keyboard/Keypad     | Keyboard R                        | 0x0007         | 0x0015       | 0x0013      | 20           |
+| Keyboard/Keypad     | Keyboard S                        | 0x0007         | 0x0016       | 0x001F      | 32           |
+| Keyboard/Keypad     | Keyboard T                        | 0x0007         | 0x0017       | 0x0014      | 21           |
+| Keyboard/Keypad     | Keyboard U                        | 0x0007         | 0x0018       | 0x0016      | 23           |
+| Keyboard/Keypad     | Keyboard V                        | 0x0007         | 0x0019       | 0x002F      | 49           |
+| Keyboard/Keypad     | Keyboard W                        | 0x0007         | 0x001A       | 0x0011      | 18           |
+| Keyboard/Keypad     | Keyboard X                        | 0x0007         | 0x001B       | 0x002D      | 47           |
+| Keyboard/Keypad     | Keyboard Y                        | 0x0007         | 0x001C       | 0x0015      | 22           |
+| Keyboard/Keypad     | Keyboard Z                        | 0x0007         | 0x001D       | 0x002C      | 46           |
+| Keyboard/Keypad     | Keyboard 1 and Bang               | 0x0007         | 0x001E       | 0x0002      | 2            |
+| Keyboard/Keypad     | Keyboard 2 and At                 | 0x0007         | 0x001F       | 0x0003      | 3            |
+| Keyboard/Keypad     | Keyboard 3 And Hash               | 0x0007         | 0x0020       | 0x0004      | 4            |
+| Keyboard/Keypad     | Keyboard 4 and Dollar             | 0x0007         | 0x0021       | 0x0005      | 5            |
+| Keyboard/Keypad     | Keyboard 5 and Percent            | 0x0007         | 0x0022       | 0x0006      | 6            |
+| Keyboard/Keypad     | Keyboard 6 and Caret              | 0x0007         | 0x0023       | 0x0007      | 7            |
+| Keyboard/Keypad     | Keyboard 7 and Ampersand          | 0x0007         | 0x0024       | 0x0008      | 8            |
+| Keyboard/Keypad     | Keyboard 8 and Star               | 0x0007         | 0x0025       | 0x0009      | 9            |
+| Keyboard/Keypad     | Keyboard 9 and Left Bracket       | 0x0007         | 0x0026       | 0x000A      | 10           |
+| Keyboard/Keypad     | Keyboard 0 and Right Bracket      | 0x0007         | 0x0027       | 0x000B      | 11           |
+| Keyboard/Keypad     | Keyboard Return Enter             | 0x0007         | 0x0028       | 0x001C      | 43           |
+| Keyboard/Keypad     | Keyboard Escape                   | 0x0007         | 0x0029       | 0x0001      | 110          |
+| Keyboard/Keypad     | Keyboard Delete                   | 0x0007         | 0x002A       | 0x000E      | 15           |
+| Keyboard/Keypad     | Keyboard Tab                      | 0x0007         | 0x002B       | 0x000F      | 16           |
+| Keyboard/Keypad     | Keyboard Spacebar                 | 0x0007         | 0x002C       | 0x0039      | 61           |
+| Keyboard/Keypad     | Keyboard Dash and Underscore      | 0x0007         | 0x002D       | 0x000C      | 12           |
+| Keyboard/Keypad     | Keyboard Equals and Plus          | 0x0007         | 0x002E       | 0x000D      | 13           |
+| Keyboard/Keypad     | Keyboard Left Brace               | 0x0007         | 0x002F       | 0x001A      | 27           |
+| Keyboard/Keypad     | Keyboard Right Brace              | 0x0007         | 0x0030       | 0x001B      | 28           |
+| Keyboard/Keypad     | Keyboard Pipe and Slash           | 0x0007         | 0x0031       | 0x002B      | 29           |
+| Keyboard/Keypad     | Keyboard Non-US                   | 0x0007         | 0x0032       | 0x002B      | 42           |
+| Keyboard/Keypad     | Keyboard SemiColon and Colon      | 0x0007         | 0x0033       | 0x0027      | 40           |
+| Keyboard/Keypad     | Keyboard Left Apos and Double     | 0x0007         | 0x0034       | 0x0028      | 41           |
+| Keyboard/Keypad     | Keyboard Grave Accent and Tilde   | 0x0007         | 0x0035       | 0x0029      | 1            |
+| Keyboard/Keypad     | Keyboard Comma                    | 0x0007         | 0x0036       | 0x0033      | 53           |
+| Keyboard/Keypad     | Keyboard Period                   | 0x0007         | 0x0037       | 0x0034      | 54           |
+| Keyboard/Keypad     | Keyboard QuestionMark             | 0x0007         | 0x0038       | 0x0035      | 55           |
+| Keyboard/Keypad     | Keyboard Caps Lock                | 0x0007         | 0x0039       | 0x003A      | 30           |
+| Keyboard/Keypad     | Keyboard F1                       | 0x0007         | 0x003A       | 0x003B      | 112          |
+| Keyboard/Keypad     | Keyboard F2                       | 0x0007         | 0x003B       | 0x003C      | 113          |
+| Keyboard/Keypad     | Keyboard F3                       | 0x0007         | 0x003C       | 0x003D      | 114          |
+| Keyboard/Keypad     | Keyboard F4                       | 0x0007         | 0x003D       | 0x003E      | 115          |
+| Keyboard/Keypad     | Keyboard F5                       | 0x0007         | 0x003E       | 0x003F      | 116          |
+| Keyboard/Keypad     | Keyboard F6                       | 0x0007         | 0x003F       | 0x0040      | 117          |
+| Keyboard/Keypad     | Keyboard F7                       | 0x0007         | 0x0040       | 0x0041      | 118          |
+| Keyboard/Keypad     | Keyboard F8                       | 0x0007         | 0x0041       | 0x0042      | 119          |
+| Keyboard/Keypad     | Keyboard F9                       | 0x0007         | 0x0042       | 0x0043      | 120          |
+| Keyboard/Keypad     | Keyboard F10                      | 0x0007         | 0x0043       | 0x0044      | 121          |
+| Keyboard/Keypad     | Keyboard F11                      | 0x0007         | 0x0044       | 0x0057      | 122          |
+| Keyboard/Keypad     | Keyboard F12                      | 0x0007         | 0x0045       | 0x0058      | 123          |
+| Keyboard/Keypad     | Keyboard PrintScreen              | 0x0007         | 0x0046       | 0xE037<br>0x0054 \*Note 1 | 124          |
+| Keyboard/Keypad     | Keyboard Scroll Lock              | 0x0007         | 0x0047       | 0x0046      | 125          |
+| Keyboard/Keypad     | Keyboard Pause                    | 0x0007         | 0x0048       | 0xE11D45<br>0xE046 \*Note 2<br>0x0045 \*Note 3 | 126          |
+| Keyboard/Keypad     | Keyboard Insert                   | 0x0007         | 0x0049       | 0xE052      | 75           |
+| Keyboard/Keypad     | Keyboard Home                     | 0x0007         | 0x004A       | 0xE047      | 80           |
+| Keyboard/Keypad     | Keyboard PageUp                   | 0x0007         | 0x004B       | 0xE049      | 85           |
+| Keyboard/Keypad     | Keyboard Delete Forward           | 0x0007         | 0x004C       | 0xE053      | 76           |
+| Keyboard/Keypad     | Keyboard End                      | 0x0007         | 0x004D       | 0xE04F      | 81           |
+| Keyboard/Keypad     | Keyboard PageDown                 | 0x0007         | 0x004E       | 0xE051      | 86           |
+| Keyboard/Keypad     | Keyboard RightArrow               | 0x0007         | 0x004F       | 0xE04D      | 89           |
+| Keyboard/Keypad     | Keyboard LeftArrow                | 0x0007         | 0x0050       | 0xE04B      | 79           |
+| Keyboard/Keypad     | Keyboard DownArrow                | 0x0007         | 0x0051       | 0xE050      | 84           |
+| Keyboard/Keypad     | Keyboard UpArrow                  | 0x0007         | 0x0052       | 0xE048      | 83           |
+| Keyboard/Keypad     | Keypad Num Lock and Clear         | 0x0007         | 0x0053       | 0x0045<br>0xE045 \*Note 3 | 90           |
+| Keyboard/Keypad     | Keypad Forward Slash              | 0x0007         | 0x0054       | 0xE035      | 95           |
+| Keyboard/Keypad     | Keypad Star                       | 0x0007         | 0x0055       | 0x0037      | 100          |
+| Keyboard/Keypad     | Keypad Dash                       | 0x0007         | 0x0056       | 0x004A      | 105          |
+| Keyboard/Keypad     | Keypad Plus                       | 0x0007         | 0x0057       | 0x004E      | 106          |
+| Keyboard/Keypad     | Keypad ENTER                      | 0x0007         | 0x0058       | 0xE01C      | 108          |
+| Keyboard/Keypad     | Keypad 1 and End                  | 0x0007         | 0x0059       | 0x004F      | 93           |
+| Keyboard/Keypad     | Keypad 2 and Down Arrow           | 0x0007         | 0x005A       | 0x0050      | 98           |
+| Keyboard/Keypad     | Keypad 3 and PageDn               | 0x0007         | 0x005B       | 0x0051      | 103          |
+| Keyboard/Keypad     | Keypad 4 and Left Arrow           | 0x0007         | 0x005C       | 0x004B      | 92           |
+| Keyboard/Keypad     | Keypad 5                          | 0x0007         | 0x005D       | 0x004C      | 97           |
+| Keyboard/Keypad     | Keypad 6 and Right Arrow          | 0x0007         | 0x005E       | 0x004D      | 102          |
+| Keyboard/Keypad     | Keypad 7 and Home                 | 0x0007         | 0x005F       | 0x0047      | 91           |
+| Keyboard/Keypad     | Keypad 8 and Up Arrow             | 0x0007         | 0x0060       | 0x0048      | 96           |
+| Keyboard/Keypad     | Keypad 9 and PageUp               | 0x0007         | 0x0061       | 0x0049      | 101          |
+| Keyboard/Keypad     | Keypad 0 and Insert               | 0x0007         | 0x0062       | 0x0052      | 99           |
+| Keyboard/Keypad     | Keypad Period                     | 0x0007         | 0x0063       | 0x0053      | 104          |
+| Keyboard/Keypad     | Keyboard Non-US Slash Bar         | 0x0007         | 0x0064       | 0x0056      | 45           |
+| Keyboard/Keypad     | Keyboard Application              | 0x0007         | 0x0065       | 0xE05D      | 129          |
+| Keyboard/Keypad     | Keyboard Power                    | 0x0007         | 0x0066       | 0xE05E      |              |
+| Keyboard/Keypad     | Keypad Equals                     | 0x0007         | 0x0067       | 0x0059      |              |
+| Keyboard/Keypad     | Keyboard F13                      | 0x0007         | 0x0068       | 0x0064      |              |
+| Keyboard/Keypad     | Keyboard F14                      | 0x0007         | 0x0069       | 0x0065      |              |
+| Keyboard/Keypad     | Keyboard F15                      | 0x0007         | 0x006A       | 0x0066      |              |
+| Keyboard/Keypad     | Keyboard F16                      | 0x0007         | 0x006B       | 0x0067      |              |
+| Keyboard/Keypad     | Keyboard F17                      | 0x0007         | 0x006C       | 0x0068      |              |
+| Keyboard/Keypad     | Keyboard F18                      | 0x0007         | 0x006D       | 0x0069      |              |
+| Keyboard/Keypad     | Keyboard F19                      | 0x0007         | 0x006E       | 0x006A      |              |
+| Keyboard/Keypad     | Keyboard F20                      | 0x0007         | 0x006F       | 0x006B      |              |
+| Keyboard/Keypad     | Keyboard F21                      | 0x0007         | 0x0070       | 0x006C      |              |
+| Keyboard/Keypad     | Keyboard F22                      | 0x0007         | 0x0071       | 0x006D      |              |
+| Keyboard/Keypad     | Keyboard F23                      | 0x0007         | 0x0072       | 0x006E      |              |
+| Keyboard/Keypad     | Keyboard F24                      | 0x0007         | 0x0073       | 0x0076      |              |
+| Keyboard/Keypad     | Keypad Comma                      | 0x0007         | 0x0085       | 0x007E      | 107 \*Note 4  |
+| Keyboard/Keypad     | Keyboard International1           | 0x0007         | 0x0087       | 0x0073      | 56 \*Note 4, 5 |
+| Keyboard/Keypad     | Keyboard International2           | 0x0007         | 0x0088       | 0x0070      | 133 \*Note 5  |
+| Keyboard/Keypad     | Keyboard International3           | 0x0007         | 0x0089       | 0x007D      | 14 \*Note 5   |
+| Keyboard/Keypad     | Keyboard International4           | 0x0007         | 0x008A       | 0x0079      | 132 \*Note 5  |
+| Keyboard/Keypad     | Keyboard International5           | 0x0007         | 0x008B       | 0x007B      | 131 \*Note 5  |
+| Keyboard/Keypad     | Keyboard International6           | 0x0007         | 0x008C       | 0x005C      |              |
+| Keyboard/Keypad     | Keyboard LANG1                    | 0x0007         | 0x0090       | 0x0072 \*Note 6 |              |
+| Keyboard/Keypad     | Keyboard LANG2                    | 0x0007         | 0x0091       | 0x0071 \*Note 6 |              |
+| Keyboard/Keypad     | Keyboard LANG3                    | 0x0007         | 0x0092       | 0x0078      |              |
+| Keyboard/Keypad     | Keyboard LANG4                    | 0x0007         | 0x0093       | 0x0077      |              |
+| Keyboard/Keypad     | Keyboard LANG5                    | 0x0007         | 0x0094       | 0x0076      |              |
+| Keyboard/Keypad     | Keyboard LeftControl              | 0x0007         | 0x00E0       | 0x001D      | 58           |
+| Keyboard/Keypad     | Keyboard LeftShift                | 0x0007         | 0x00E1       | 0x002A      | 44           |
+| Keyboard/Keypad     | Keyboard LeftAlt                  | 0x0007         | 0x00E2       | 0x0038      | 60           |
+| Keyboard/Keypad     | Keyboard Left GUI                 | 0x0007         | 0x00E3       | 0xE05B      | 127          |
+| Keyboard/Keypad     | Keyboard RightControl             | 0x0007         | 0x00E4       | 0xE01D      | 64           |
+| Keyboard/Keypad     | Keyboard RightShift               | 0x0007         | 0x00E5       | 0x0036      | 57           |
+| Keyboard/Keypad     | Keyboard RightAlt                 | 0x0007         | 0x00E6       | 0xE038      | 62           |
+| Keyboard/Keypad     | Keyboard Right GUI                | 0x0007         | 0x00E7       | 0xE05C      | 128          |
+| Consumer            | Scan Next Track                   | 0x000C         | 0x00B5       | 0xE019      |              |
+| Consumer            | Scan Previous Track               | 0x000C         | 0x00B6       | 0xE010      |              |
+| Consumer            | Stop                              | 0x000C         | 0x00B7       | 0xE024      |              |
+| Consumer            | Play/Pause                        | 0x000C         | 0x00CD       | 0xE022      |              |
+| Consumer            | Mute                              | 0x000C         | 0x00E2       | 0xE020      |              |
+| Consumer            | Volume Increment                  | 0x000C         | 0x00E9       | 0xE030      |              |
+| Consumer            | Volume Decrement                  | 0x000C         | 0x00EA       | 0xE02E      |              |
+| Consumer            | AL Consumer Control Configuration | 0x000C         | 0x0183       | 0xE06D      |              |
+| Consumer            | AL Email Reader                   | 0x000C         | 0x018A       | 0xE06C      |              |
+| Consumer            | AL Calculator                     | 0x000C         | 0x0192       | 0xE021      |              |
+| Consumer            | AL Local Machine Browser          | 0x000C         | 0x0194       | 0xE06B      |              |
+| Consumer            | AC Search                         | 0x000C         | 0x0221       | 0xE065      |              |
+| Consumer            | AC Home                           | 0x000C         | 0x0223       | 0xE032      |              |
+| Consumer            | AC Back                           | 0x000C         | 0x0224       | 0xE06A      |              |
+| Consumer            | AC Forward                        | 0x000C         | 0x0225       | 0xE069      |              |
+| Consumer            | AC Stop                           | 0x000C         | 0x0226       | 0xE068      |              |
+| Consumer            | AC Refresh                        | 0x000C         | 0x0227       | 0xE067      |              |
+| Consumer            | AC Previous Link                  | 0x000C         | 0x022A       | 0xE066      |              |
 
 Notes:
 
