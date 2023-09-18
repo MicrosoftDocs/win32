@@ -70,7 +70,7 @@ Following is an example of a manifest file.
  
 
 
-```C++
+```xml
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
 <assemblyIdentity
@@ -124,7 +124,7 @@ The following are examples of applications that do not use third-party extension
 
 1.  Link to ComCtl32.lib and call [**InitCommonControls**](/windows/desktop/api/Commctrl/nf-commctrl-initcommoncontrols).
 2.  Add a file called YourApp.exe.manifest to your source tree that has the XML manifest format.
-    ```C++
+    ```xml
     <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
     <assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
     <assemblyIdentity
@@ -171,7 +171,7 @@ When you build your application, the manifest will be added as a binary resource
 
 1.  Link to ComCtl32.lib and call [**InitCommonControls**](/windows/desktop/api/Commctrl/nf-commctrl-initcommoncontrols).
 2.  Add a file called YourApp.cpl.manifest to your source tree that has the XML manifest format.
-    ```C++
+    ```xml
     <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
     <assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
     <assemblyIdentity
@@ -227,7 +227,7 @@ Support for visual styles can be added to an extension, plug-in, MMC snap-in, or
     
 
 3.  Add a file called YourApp.manifest to your source tree that uses the XML manifest format.
-    ```C++
+    ```xml
     <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
     <assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
     <assemblyIdentity
