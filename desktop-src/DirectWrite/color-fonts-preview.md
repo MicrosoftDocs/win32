@@ -2,7 +2,7 @@
 title: Color font support (preview)
 description: This topic describes color fonts, their support in DirectWrite and Direct2D, and how to use them in your app (preview).
 ms.topic: article
-ms.date: 09/18/2023
+ms.date: 09/20/2023
 ---
 
 # Color font support (preview)
@@ -211,81 +211,6 @@ encoded in variable versus non-variable fonts.
 Some of the code examples below use types (such as **ComPtr**) from the [Windows Runtime C++ Template Library (WRL)](/cpp/windows/windows-runtime-cpp-template-library-wrl). [C++/WinRT](/windows/uwp/cpp-and-winrt-apis/) is Microsoft's recommended replacement for WRL.
 
 Other code examples use the [Windows Implementation Libraries (WIL)](https://github.com/Microsoft/wil). A convenient way to install WIL is to go to Visual Studio, click **Project** \> **Manage NuGet Packages...** \> **Browse**, type or paste **Microsoft.Windows.ImplementationLibrary** in the search box, select the item in search results, and then click **Install** to install the package for that project.
-
-### Creating an isolated factory
-
-A factory object is the entry-point to all other DirectWrite APIs. An app calls the **DWriteCoreCreateFactory**
-function to create a factory object. An app can specify the
-**DWRITE_FACTORY_TYPE_ISOLATED2** enum value if it wants to minimize interaction between
-DirectWriteCore and the host system. Specifically, the resulting factory caches data only
-in-process. It neither reads from nor writes to a cross-process cache (for example, a font cache process)
-or persistent cache (that is, a file). In addition, the resulting factory's system font collection
-includes only well-known system fonts.
-
-This example creates an isolated factory.
-
-```cpp
-ComPtr<IDWriteFactory7> spFactory;
-HRESULT hr = DWriteCoreCreateFactory(
-    DWRITE_FACTORY_TYPE_ISOLATED2,
-    __uuidof(IDWriteFactory7),
-    (IUnknown**)&spFactory
-    );
-```
-
-### Drawing glyphs to a system memory bitmap
-
-An app creates a bitmap render target by calling
-[IDWriteGdiInterop::CreateBitmapRenderTarget](/windows/win32/api/dwrite/nf-dwrite-idwritegdiinterop-createbitmaprendertarget).
-A bitmap render target encapsulates a bitmap in system memory, and enables rendering glyphs to the
-bitmap. On Windows, the bitmap is actually a GDI DIB selected into a memory HDC; and it is possible
-to retrieve the bitmap pixels using GDI functions. However, DWriteCore introduces a simpler method
-through the **IDWriteBitmapRenderTarget2** interface. This example shows both the older way
-and the newer way.
-
-```cpp
-DWRITE_BITMAP_DATA_BGRA32 TextRenderer::GetBitmapData(_In_ IDWriteBitmapRenderTarget* renderTarget)
-{
-    DWRITE_BITMAP_DATA_BGRA32 result = {};
-
-    // Query the bitmap render target for the new interface.
-    ComPtr<IDWriteBitmapRenderTarget2> renderTarget2;
-    HRESULT hr = renderTarget->QueryInterface(&renderTarget2);
-    if (SUCCEEDED(hr))
-    {
-        // IDWriteBitmapRenderTarget2 exists, so we can get the bitmap the easy way.
-        hr = renderTarget2->GetBitmapData(&result);
-        if (FAILED(hr))
-        {
-            throw Exception{ hr };
-        }
-    }
-    else
-    {
-        // We're using an older version that doesn't implement IDWriteBitmapRenderTarget2,
-        // so we have to get the bitmap by going through GDI. First get the bitmap handle.
-        HDC hdc = renderTarget->GetMemoryDC();
-        HGDIOBJ dibHandle = GetCurrentObject(hdc, OBJ_BITMAP);
-        if (dibHandle == nullptr)
-        {
-            throw Exception{ HRESULT_FROM_WIN32(GetLastError()) };
-        }
-
-        // Call a GDI function to fill in the DIBSECTION structure for the bitmap.
-        DIBSECTION dib;
-        if (GetObjectW(dibHandle, sizeof(dib), &dib) != sizeof(dib))
-        {
-            throw Exception{ HRESULT_FROM_WIN32(GetLastError()) };
-        }
-
-        result.width = dib.dsBm.bmWidth;
-        result.height = 0u - dib.dsBm.bmHeight; // bmHeight is negative for top-down DIB.
-        result.pixels = static_cast<uint32_t*>(dib.dsBm.bmBits);
-    }
-
-    return result;
-}
-```
 
 ### Rendering color glyph runs using Direct2D
 
