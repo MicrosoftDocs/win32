@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 Active Directory Domain Services provide functions for backing up and restoring data in the directory database. This section describes how to [back up](backing-up-an-active-directory-server.md) and [restore](restoring-an-active-directory-server.md) an Active Directory server. For more information about backing up an Active Directory server using the utilities provided in Windows 2000 and Windows Server 2003 operating systems, see the applicable Resource Kit, available on the Microsoft TechNet website.
 
-Backup of an Active Directory server must be performed online and must be performed when the Active Directory Domain Services are installed. Active Directory Domain Services are built on a special database and export a set of backup functions that provide the programmatic backup interface. The backup does not support incremental backups When used with the built in Windows Backup Utility. A backup application binds to a local client-side DLL with entry points defined in Ntdsbcli.h.
+Backup of an Active Directory server must be performed online and must be performed when the Active Directory Domain Services are installed. Active Directory Domain Services are built on a special database and export a set of backup functions that provide the programmatic backup interface. The backup does not support incremental backups when using the built-in Windows Backup Utility. A backup application binds to a local client-side DLL with entry points defined in Ntdsbcli.h.
 
 Restoration of an Active Directory server is always performed offline.
 
