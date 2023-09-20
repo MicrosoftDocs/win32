@@ -20,7 +20,7 @@ All changes occurring during backup are stored in a temporary log and added to t
 
 Any recovery plan should ensure that the age of the backup should not exceed the Active Directory Tombstone Lifetime. For more information on Tombstone Lifetime, see the TechNet topic - [Introduction to Administering Active Directory Backup and Recovery](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc816677(v=ws.10)). Restoration of a backup older than the tombstone lifetime may cause the restored domain controller to have objects that will not be replicated on other DCs. This occurs if an object is deleted after the backup is made and the restore occurs after the tombstone for the deleted object has been permanently removed. The restored DC would have the object as it existed before the deletion, and the other DCs would have no record that the object ever existed. In this case, an administrator will have to manually delete each non-replicated object on the restored domain controller.
 
-Incremental backups of Active Directory Domain Services are not supported; full backups are required.
+Incremental backups of Active Directory Domain Services are not supported when using the built-in Windows Backup Utility; full backups are required.
 
  
 
