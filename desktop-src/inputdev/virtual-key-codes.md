@@ -133,15 +133,6 @@ api_name:
 - VK_OEM_102
 - VK_PROCESSKEY
 - VK_PACKET
-- VK_ATTN
-- VK_CRSEL
-- VK_EXSEL
-- VK_EREOF
-- VK_PLAY
-- VK_ZOOM
-- VK_NONAME
-- VK_PA1
-- VK_OEM_CLEAR
 api_location:
 - Winuser.h
 api_type:
@@ -162,13 +153,13 @@ The following table shows the symbolic constant names, hexadecimal values, and m
 | `VK_MBUTTON` | 0x04 | Middle mouse button |
 | `VK_XBUTTON1` | 0x05 | X1 mouse button |
 | `VK_XBUTTON2` | 0x06 | X2 mouse button |
-| `-` | 0x07 | Undefined |
+| `-` | 0x07 | Reserved |
 | `VK_BACK` | 0x08 | BACKSPACE key |
 | `VK_TAB` | 0x09 | TAB key |
 | `-` | 0x0A-0B | Reserved |
 | `VK_CLEAR` | 0x0C | CLEAR key |
 | `VK_RETURN` | 0x0D | ENTER key |
-| `-` | 0x0E-0F | Undefined |
+| `-` | 0x0E-0F | Unassigned |
 | `VK_SHIFT` | 0x10 | SHIFT key |
 | `VK_CONTROL` | 0x11 | CTRL key |
 | `VK_MENU` | 0x12 | ALT key |
@@ -285,10 +276,10 @@ The following table shows the symbolic constant names, hexadecimal values, and m
 | `VK_F22` | 0x85 | F22 key |
 | `VK_F23` | 0x86 | F23 key |
 | `VK_F24` | 0x87 | F24 key |
-| `-` | 0x88-8F | Unassigned |
+| `-` | 0x88-8F | Reserved |
 | `VK_NUMLOCK` | 0x90 | NUM LOCK key |
 | `VK_SCROLL` | 0x91 | SCROLL LOCK key |
-|  | 0x92-96 | OEM specific |
+| `-` | 0x92-96 | OEM specific |
 | `-` | 0x97-9F | Unassigned |
 | `VK_LSHIFT` | 0xA0 | Left SHIFT key |
 | `VK_RSHIFT` | 0xA1 | Right SHIFT key |
@@ -322,31 +313,21 @@ The following table shows the symbolic constant names, hexadecimal values, and m
 | `VK_OEM_PERIOD` | 0xBE | For any country/region, the `.` key |
 | `VK_OEM_2` | 0xBF | Used for miscellaneous characters; it can vary by keyboard. For the US standard keyboard, the `/?` key |
 | `VK_OEM_3` | 0xC0 | Used for miscellaneous characters; it can vary by keyboard. For the US standard keyboard, the `` `~ `` key |
-| `-` | 0xC1-D7 | Reserved |
-| `-` | 0xD8-DA | Unassigned |
+| `-` | 0xC1-DA | Reserved |
 | `VK_OEM_4` | 0xDB | Used for miscellaneous characters; it can vary by keyboard. For the US standard keyboard, the `[{` key |
 | `VK_OEM_5` | 0xDC | Used for miscellaneous characters; it can vary by keyboard. For the US standard keyboard, the `\\|` key |
 | `VK_OEM_6` | 0xDD | Used for miscellaneous characters; it can vary by keyboard. For the US standard keyboard, the `]}` key |
 | `VK_OEM_7` | 0xDE | Used for miscellaneous characters; it can vary by keyboard. For the US standard keyboard, the `'"` key |
 | `VK_OEM_8` | 0xDF | Used for miscellaneous characters; it can vary by keyboard. |
 | `-` | 0xE0 | Reserved |
-|  | 0xE1 | OEM specific |
+| `-` | 0xE1 | OEM specific |
 | `VK_OEM_102` | 0xE2 | The `<>` keys on the US standard keyboard, or the `\\|` key on the non-US 102-key keyboard |
-|  | 0xE3-E4 | OEM specific |
+| `-` | 0xE3-E4 | OEM specific |
 | `VK_PROCESSKEY` | 0xE5 | IME PROCESS key |
-|  | 0xE6 | OEM specific |
+| `-` | 0xE6 | OEM specific |
 | `VK_PACKET` | 0xE7 | Used to pass Unicode characters as if they were keystrokes. The `VK_PACKET` key is the low word of a 32-bit Virtual Key value used for non-keyboard input methods. For more information, see Remark in [`KEYBDINPUT`](/windows/win32/api/winuser/ns-winuser-keybdinput), [`SendInput`](/windows/win32/api/winuser/nf-winuser-sendinput), [`WM_KEYDOWN`](wm-keydown.md), and [`WM_KEYUP`](wm-keyup.md) |
 | `-` | 0xE8 | Unassigned |
-|  | 0xE9-F5 | OEM specific |
-| `VK_ATTN` | 0xF6 | Attn key |
-| `VK_CRSEL` | 0xF7 | CrSel key |
-| `VK_EXSEL` | 0xF8 | ExSel key |
-| `VK_EREOF` | 0xF9 | Erase EOF key |
-| `VK_PLAY` | 0xFA | Play key |
-| `VK_ZOOM` | 0xFB | Zoom key |
-| `VK_NONAME` | 0xFC | Reserved |
-| `VK_PA1` | 0xFD | PA1 key |
-| `VK_OEM_CLEAR` | 0xFE | Clear key |
+| `-` | 0xE9-FE | OEM specific |
 
 ## Requirements
 
