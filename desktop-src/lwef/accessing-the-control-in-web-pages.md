@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 \[Microsoft Agent is deprecated as of Windows 7, and may be unavailable in subsequent versions of Windows.\]
 
-To access the Microsoft Agent services from a webpage, use the HTML &lt;OBJECT&gt; tag within the <HEAD> or &lt;BODY&gt; element of the page, specifying the Microsoft CLSID (class identifier) for the control. In addition, use a CODEBASE parameter to specify the location of the Microsoft Agent installation file and its version number.
+To access the Microsoft Agent services from a webpage, use the HTML `<OBJECT>` tag within the `<HEAD>` or `<BODY>` element of the page, specifying the Microsoft CLSID (class identifier) for the control. In addition, use a CODEBASE parameter to specify the location of the Microsoft Agent installation file and its version number.
 
 If Microsoft Internet Explorer (version 3.02 or later) is installed on the system, but Microsoft Agent is not yet installed and the user accesses a webpage that has the &lt;OBJECT&gt; tag with the Agent CLSID, the browser will automatically attempt to download Agent from the Microsoft website. Then, the user will be asked whether to proceed with installation. For other browsers, contact the supplier for information regarding their support or third-party support for ActiveX controls.
 
@@ -47,7 +47,7 @@ CODEBASE = "#VERSION=2,0,0,0">
 
 where XXXX is replaced with a Language ID. For the languages currently supported, check the Microsoft Agent website.
 
--   The &lt;OBJECT&gt; tag for a language component must precede the &lt;OBJECT&gt; tag for the Microsoft Agent core component.
+-   The `<OBJECT>` tag for a language component must precede the &lt;OBJECT&gt; tag for the Microsoft Agent core component.
 -   Multiple languages can be installed on the same client.
 -   Before setting the [**LanguageID**](https://www.bing.com/search?q=**LanguageID**) of a character, we recommend that your script verify that the locale of the browser, available in the [**userLanguage**](https://www.bing.com/search?q=**userLanguage**) property, matches the language being set.
 
