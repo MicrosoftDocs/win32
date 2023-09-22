@@ -211,7 +211,7 @@ For two-region tiles, the transform applies the inverse of the difference encodi
 
 For one-region tiles there is only one delta offset, and therefore only 3 add operations.
 
-The decompressor must ensure that that the results of the inverse transform will not overflow the precision of endpt\[0\].a. In the case of an overflow, the values resulting from the inverse transform must wrap within the same number of bits. If the precision of A0 is "p" bits, then the transform algorithm is:
+The decompressor must ensure that the results of the inverse transform will not overflow the precision of endpt\[0\].a. In the case of an overflow, the values resulting from the inverse transform must wrap within the same number of bits. If the precision of A0 is "p" bits, then the transform algorithm is:
 
 `B0 = (B0 + A0) & ((1 << p) - 1)`
 

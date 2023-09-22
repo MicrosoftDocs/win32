@@ -96,7 +96,7 @@ HKEY_LOCAL_MACHINE
 
 ### DHTML-based search handlers
 
-With Windows 2000, you can also implement a search handler as a DHTML document. Its name is listed in the **Search** submenu of the **Start** menu. When the user selects it, it launches Windows Explorer with the Explorer bar opened to the search document. You can also specify a DHTML document to be displayed to the right of the Explorer bar. There is no way to launch a different handler from the default Search pane. Search engines can be launched directly from Windows Explorer, but only if they are implemented as as [band objects](/previous-versions/windows/desktop/legacy/cc144099(v=vs.85)).
+With Windows 2000, you can also implement a search handler as a DHTML document. Its name is listed in the **Search** submenu of the **Start** menu. When the user selects it, it launches Windows Explorer with the Explorer bar opened to the search document. You can also specify a DHTML document to be displayed to the right of the Explorer bar. There is no way to launch a different handler from the default Search pane. Search engines can be launched directly from Windows Explorer, but only if they are implemented as [band objects](/previous-versions/windows/desktop/legacy/cc144099(v=vs.85)).
 
 To register a DHTML-based search handler, set the handler's name subkey to the string form of CLSID\_ShellSearchExt (currently {169A0691-8DF9-11d1-A1C4-00C04FD75D13}) and create the following subkeys.
 

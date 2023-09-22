@@ -22,7 +22,7 @@ ID3DXInclude is a user-implemented interface to provide callbacks for \#include 
 
 -   An HLSL shader that contains a \#include is compiled by calling one of the D3DXCompileShader\*\*\* functions.
 -   An assembly shader \#include is assembled by calling any of the D3DXAssembleShader\*\*\* functions.
--   An effect that contains a \#include is compiled by by calling any of the D3DXCreateEffect\*\*\* or D3DXCreateEffectCompiler\*\*\* functions.
+-   An effect that contains a \#include is compiled by calling any of the D3DXCreateEffect\*\*\* or D3DXCreateEffectCompiler\*\*\* functions.
 
 ## Members
 

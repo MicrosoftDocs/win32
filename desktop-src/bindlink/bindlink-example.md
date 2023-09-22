@@ -14,7 +14,7 @@ ms.date: 05/11/2023
 > [!IMPORTANT]
 > The feature described in this topic is available in pre-release versions of the [Windows Insider Preview](https://www.microsoft.com/software-download/windowsinsiderpreviewSDK). The earliest version in which these features appear is Windows Insider Preview, version 10.0.25314.0.
 
-These examples for the bind link API demonstrates how it can be leveraged to to create and remove bind links.
+These examples for the bind link API demonstrates how it can be leveraged to create and remove bind links.
 
 ## CreateBindLink and RemoveBindLink example
 

@@ -329,7 +329,7 @@ First perform the following steps to set up credential caching, and then perform
 
 ## Content Acquisition
 
-This section describes the various ways to acquire content and how to verify that that content was acquired.
+This section describes the various ways to acquire content and how to verify that content was acquired.
 
 ### Streaming Content
 

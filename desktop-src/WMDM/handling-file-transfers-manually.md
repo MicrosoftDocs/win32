@@ -46,7 +46,7 @@ When writing a file to the device, Windows Media Device Manager calls the follow
 
 -   [**GetObjectName**](/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmoperation-getobjectname) Called to allow the application to specify a name for the new storage. This method is only called if the application did not specify a name in the **Insert** method.
 -   [**GetObjectAttributes**](/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmoperation-getobjectattributes) Called to allow the application to specify attributes for the new storage on the device.
--   [**BeginWrite**](/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmoperation-beginwrite) Called to notify that that a write to device is beginning.
+-   [**BeginWrite**](/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmoperation-beginwrite) Called to notify that a write to device is beginning.
 -   [**GetObjectTotalSize**](/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmoperation-getobjecttotalsize) Called to retrieve the total size of the object being written to the device, to enable optimization of the transfer, and also to give Windows Media Device Manager an opportunity to cancel the transfer if the file is too large for the device.
 -   [**TransferObjectData**](/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmoperation-transferobjectdata) Called one or more times. The processing of data is described in the following steps:
     1.  **TransferObjectData** receives a pointer to a buffer of size *pdwSize* bytes.

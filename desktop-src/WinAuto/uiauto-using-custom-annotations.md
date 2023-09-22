@@ -35,7 +35,7 @@ As with the provider side, when the client registers a custom annotation type, U
 
 ## Example
 
-The following UIA client example shows how to register a [Word Custom Annotation](/office/uia/word/wordcustomannotations) to use with with other UIA APIs. Registration typically occurs when the AT app starts, while the registered GUIDs are unregistered when the AT app shuts down. The [RegisterAnnotationType](/uwp/api/windows.ui.uiautomation.core.coreautomationregistrar.registerannotationtype) method returns a WinRT [AutomationAnnotationTypeRegistration Struct](/uwp/api/windows.ui.uiautomation.core.automationannotationtyperegistration).
+The following UIA client example shows how to register a [Word Custom Annotation](/office/uia/word/wordcustomannotations) to use with other UIA APIs. Registration typically occurs when the AT app starts, while the registered GUIDs are unregistered when the AT app shuts down. The [RegisterAnnotationType](/uwp/api/windows.ui.uiautomation.core.coreautomationregistrar.registerannotationtype) method returns a WinRT [AutomationAnnotationTypeRegistration Struct](/uwp/api/windows.ui.uiautomation.core.automationannotationtyperegistration).
 
 ```cpp
 template <class TElement>
