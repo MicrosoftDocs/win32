@@ -1,5 +1,5 @@
 ---
-title: MsRdpViewer class
+title: RDPViewer class
 description: Interacts with the remote desktop viewer control to enable Windows Desktop Sharing scenarios.
 ms.assetid: 9D0F2312-0D85-402D-874D-9FA477435210
 ms.tgt_platform: multiple
