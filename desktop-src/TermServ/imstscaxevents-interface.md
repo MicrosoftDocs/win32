@@ -88,7 +88,7 @@ Application can use the following DISPIDs when implementing **IDispatch::Invoke*
 | dispIdMember | Dispatch to method |
 |--------------|--------------------|
 | DISPID_CONNECTING = 1 | [OnConnecting](imstscaxevents-onconnecting.md) |
-| DISPID_CONNECTED = 2  [OnConnected](imstscaxevents-onconnecting.md) |
+| DISPID_CONNECTED = 2 | [OnConnected](imstscaxevents-onconnecting.md) |
 | DISPID_LOGINCOMPLETE = 3 | [OnLoginComplete](imstscaxevents-onlogincomplete.md) |
 | DISPID_DISCONNECTED = 4 | [OnDisconnected](imstscaxevents-ondisconnected.md) |
 | DISPID_ENTERFULLSCREENMODE = 5 | [OnEnterFullScreenMode](imstscaxevents-onenterfullscreenmode.md) |

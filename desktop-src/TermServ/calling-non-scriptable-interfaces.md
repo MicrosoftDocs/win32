@@ -22,7 +22,7 @@ The `#import`` directive will generate a header file named "mstscax.tlh" for the
 
 ## Call scriptable interfaces from managed code
 
-To call the interfaces of the Remote Desktop ActiveX control from managed code, use the ActiveX Control Importer tool to generate a .NET assembly.
+To call the interfaces of the Remote Desktop ActiveX control from managed code, use [the ActiveX Control Importer tool](/dotnet/framework/tools/aximp-exe-windows-forms-activex-control-importer) to generate a .NET assembly.
 
 ```powershell
 aximp.exe c:\windows\system32\mstscax.dll

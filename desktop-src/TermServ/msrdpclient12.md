@@ -221,7 +221,7 @@ The **MsRdpClient12** class has these properties.
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                         |
 | Type library<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>MsTscAx.dll</dt> </dl> |
-| CLSID<br/>                    | CLSID\_MsRdpClient12 is defined as 3F859AA3-C2D4-4FAA-B0E4-FD0C9C4E5E3A<br/>     |
+| CLSID<br/>                    | CLSID\_MsRdpClient12 is defined as 945EE98E-B376-4EC2-B2E5-64C9410F93B7<br/>     |
 
 
 

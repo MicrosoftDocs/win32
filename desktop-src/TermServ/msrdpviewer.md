@@ -4,12 +4,12 @@ description: Interacts with the remote desktop viewer control to enable Windows 
 ms.assetid: 9D0F2312-0D85-402D-874D-9FA477435210
 ms.tgt_platform: multiple
 keywords:
-- MsRdpViewer class Remote Desktop Services
-- MsRdpViewer class Remote Desktop Services , described
+- RDPViewer class Remote Desktop Services
+- RDPViewer class Remote Desktop Services , described
 topic_type:
 - apiref
 api_name:
-- MsRdpViewer
+- RDPViewer
 api_location:
 - MsTscAx.dll
 api_type:
@@ -18,7 +18,7 @@ ms.topic: reference
 ms.date: 09/12/2023
 ---
 
-# MsRdpViewer class
+# RDPViewer class
 
 Interacts with the remote desktop viewer control to enable Windows Desktop Sharing scenarios.
 
@@ -57,7 +57,7 @@ The following list describes example uses of the **RDPViewer** class for Windows
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                         |
 | Type library<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>MsTscAx.dll</dt> </dl> |
-| CLSID<br/>                    | CLSID\_MsRdpViewer is defined as C0EFA91A-EEB7-41C7-97FA-F0ED645EFB24<br/>     |
+| CLSID<br/>                    | CLSID\_RdpViewer is defined as C0EFA91A-EEB7-41C7-97FA-F0ED645EFB24<br/>     |
 
 
 

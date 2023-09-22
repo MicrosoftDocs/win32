@@ -23,7 +23,7 @@ ms.date: 09/12/2023
 
 Informs the Remote Desktop ActiveX control that the client's remote session is part of a connection in the RemoteApp and Desktop Connections control panel that supports reconnect. This avoids showing redundant dialogs when a reconnection is triggered from the RemoteApp and Desktop Connection control panel as they can contain remote sessions in multiple computers.
 
-The RemoteApp and Desktop Connection control panel is no longer actively developed. It may be altered or unavailable in future versions of Windows. The use of this API is discouraged.
+The RemoteApp and Desktop Connections control panel is no longer in active development. It may be altered or unavailable in future versions of Windows. The use of this API is discouraged.
 
 The property is write-only. By default, this is disabled.
 
@@ -38,13 +38,13 @@ HRESULT put_SupportsWorkspaceReconnect(
 
 ## Property value
 
-True if the remote session supports reconnect; otherwise, false.
+`VARIANT_TRUE` if the remote session supports reconnect; otherwise, false.
 
 ## Requirements
 
 | Requirement | Value |
 |-------------------------------------|---------------------------------------|
-| Minimum supported client| Windows 10, version 1803 (build 17134)      |
+| Minimum supported client| Windows 11 Version 23H2      |
 | Type library            | MsTscAx.dll                        |
 | DLL                  | MsTscAx.dll     |
 | IID                      | IID\_IMsRdpClientNonScriptable8 is defined as B2B3FA47-3F11-4148-AD24-DFF8684A16D0           |

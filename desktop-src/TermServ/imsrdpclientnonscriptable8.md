@@ -52,7 +52,7 @@ The **IMsRdpClientNonScriptable8** interface has these properties.
 
 | Requirement | Value |
 |-------------------------------------|---------------------------------------|
-| Minimum supported client| Windows 10, version 1803 (build 17134)      |
+| Minimum supported client| Windows 11 Version 23H2      |
 | Type library            | MsTscAx.dll                        |
 | DLL                  | MsTscAx.dll     |
 | IID                      | IID\_IMsRdpClientNonScriptable8 is defined as B2B3FA47-3F11-4148-AD24-DFF8684A16D0            |
