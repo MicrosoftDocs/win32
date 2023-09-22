@@ -840,6 +840,8 @@
                           href: imstscax-connected.md
                         - name: "ConnectingText property"
                           href: imstscax-connectingtext.md
+                        - name: "Debugger property"
+                          href: imstscax-debugger.md
                         - name: "DesktopHeight property"
                           href: imstscax-desktopheight.md
                         - name: "DesktopWidth property"
