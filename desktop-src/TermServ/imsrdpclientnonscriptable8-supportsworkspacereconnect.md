@@ -38,7 +38,7 @@ HRESULT put_SupportsWorkspaceReconnect(
 
 ## Property value
 
-`VARIANT_TRUE` if the remote session supports reconnect; otherwise, false.
+`VARIANT_TRUE` if the remote session supports reconnect; otherwise, `VARIANT_FALSE`.
 
 ## Requirements
 
