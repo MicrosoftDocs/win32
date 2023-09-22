@@ -79,7 +79,7 @@ This topic lists the available geographical locations with identifiers (data typ
 | 0x49                                   | 73                                         | Ethiopia                                     | Federal Democratic Republic of Ethiopia               |
 | 0x4b                                   | 75                                         | Czech Republic                               | Czech Republic                                        |
 | 0x4d                                   | 77                                         | Finland                                      | Republic of Finland                                   |
-| 0x4e                                   | 78                                         | Fiji                                         | Republic of the Fiji Islands                          |
+| 0x4e                                   | 78                                         | Fiji                                         | The Republic of Fiji                          |
 | 0x50                                   | 80                                         | Micronesia                                   | Federated States of Micronesia                        |
 | 0x51                                   | 81                                         | Faroe Islands                                | Faroe Islands                                         |
 | 0x54                                   | 84                                         | France                                       | French Republic                                       |
@@ -201,7 +201,7 @@ This topic lists the available geographical locations with identifiers (data typ
 | 0xe8                                   | 232                                        | Togo                                         | Togolese Republic                                     |
 | 0xe9                                   | 233                                        | São Tomé and Príncipe                        | Democratic Republic of São Tomé and Príncipe          |
 | 0xea                                   | 234                                        | Tunisia                                      | Tunisian Republic                                     |
-| 0xeb                                   | 235                                        | Turkey                                       | Republic of Turkey                                    |
+| 0xeb                                   | 235                                        | Türkiye                                       | Republic of Türkiye                                    |
 | 0xec                                   | 236                                        | Tuvalu                                       | Tuvalu                                                |
 | 0xed                                   | 237                                        | Taiwan                                       | Taiwan                                                |
 | 0xee                                   | 238                                        | Turkmenistan                                 | Republic of Turkmenistan                              |
@@ -225,7 +225,7 @@ This topic lists the available geographical locations with identifiers (data typ
 | 0x105                                  | 261                                        | Yemen                                        | Republic of Yemen                                     |
 | 0x107                                  | 263                                        | Zambia                                       | Republic of Zambia                                    |
 | 0x108                                  | 264                                        | Zimbabwe                                     | Republic of Zimbabwe                                  |
-| 0x10d                                  | 269                                        | Serbia and Montenegro (Former)               | Serbia and Montenegro (Former)                        |
+| 0x10d                                  | 269                                        | Serbia              | Serbia                        |
 | 0x10e                                  | 270                                        | Montenegro                                   | Montenegro                                            |
 | 0x10f                                  | 271                                        | Serbia                                       | Serbia                                                |
 | 0x111                                  | 273                                        | Curaçao                                      |                                                       |
@@ -245,7 +245,7 @@ This topic lists the available geographical locations with identifiers (data typ
 | 0x138                                  | 312                                        | Cook Islands                                 |                                                       |
 | 0x139                                  | 313                                        | Coral Sea Islands                            | Coral Sea Islands Territory                           |
 | 0x13a                                  | 314                                        | Diego Garcia                                 |                                                       |
-| 0x13b                                  | 315                                        | Falkland Islands                             | Falkland Islands (Islas Malvinas)                     |
+| 0x13b                                  | 315                                        | Falkland Islands                             | Falkland Islands                    |
 | 0x13d                                  | 317                                        | French Guiana                                | Department of Guiana                                  |
 | 0x13e                                  | 318                                        | French Polynesia                             | Territory of French Polynesia                         |
 | 0x13f                                  | 319                                        | French Southern Territories                  | Territory of the French Southern and Antarctic Lands  |
@@ -282,7 +282,7 @@ This topic lists the available geographical locations with identifiers (data typ
 | 0x851                                  | 2129                                       | Asia                                         |                                                       |
 | 0x292d                                 | 10541                                      | Europe                                       |                                                       |
 | 0x3b16                                 | 15126                                      | Isle of Man                                  | Isle of Man                                           |
-| 0x4ca2                                 | 19618                                      | North Macedonia                              | The Former Yugoslav Republic of Macedonia             |
+| 0x4ca2                                 | 19618                                      | North Macedonia                              | The Former Yugoslav Republic of North Macedonia             |
 | 0x51a4                                 | 20900                                      | Melanesia                                    |                                                       |
 | 0x52d6                                 | 21206                                      | Micronesia                                   | Federated States of Micronesia                        |
 | 0x52fa                                 | 21242                                      | Midway Islands                               |                                                       |

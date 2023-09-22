@@ -37,7 +37,7 @@ This section contains the following frequency tables for international analog TV
 -   [Singapore](singapore-channel-assignments.md)
 -   [Slovakia](slovakia-channel-assignments.md)
 -   [Switzerland](switzerland-channel-assignments.md)
--   [Turkey](turkey-channel-assignments.md)
+-   [Türkiye](turkey-channel-assignments.md)
 -   [United Kingdom](united-kingdom.md)
 -   [Western Europe](western-europe.md)
 -   [Unicable Frequency Table](unicable-frequency-table.md)
