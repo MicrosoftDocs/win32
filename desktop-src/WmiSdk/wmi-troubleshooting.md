@@ -4,52 +4,49 @@ ms.assetid: b0aecdf6-ec30-49be-af4e-7eac5d124057
 ms.tgt_platform: multiple
 title: WMI Troubleshooting
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 09/25/2023
 ---
 
 # WMI Troubleshooting
 
-When accessing WMI local or remote data in an application or script, you may encounter errors ranging from missing classes to access denied. Providers also have debugging options and troubleshooting classes available.
+When accessing WMI local or remote data in an application or script, you might encounter errors ranging from missing classes to access denied. Providers also have debugging options and troubleshooting classes available.
 
-> [!Note]  
-> The following documentation is targeted for developers and IT administrators. If you are an end-user that has experienced an error message concerning WMI, you should go to [Microsoft Support](https://support.microsoft.com/) and search for the error code you see on the error message. For more information about troubleshooting problems with WMI scripts and the WMI service, see [WMI Isn't Working!](/previous-versions/tn-archive/ff406382(v=msdn.10))
-
- 
+> [!NOTE]  
+> The info in this topic is intended for developers and IT administrators. If you're an end-user who has experienced an error message concerning WMI, then visit [Microsoft Support](https://support.microsoft.com/), and search for the error code that you see in the error message. For more info about troubleshooting problems with WMI scripts and the WMI service, see [WMI isn't working!](/previous-versions/tn-archive/ff406382(v=msdn.10))
 
 ## WMI Diagnosis Utility
 
-The WMI diagnosis Utility (WMIDiag.exe) is no longer supported starting with Windows 8 and Windows Server 2012.
+> [!IMPORTANT]
+> The WMI Diagnosis Utility (`WMIDiag.exe`) is no longer supported, starting with Windows 8 and Windows Server 2012.
 
-**Windows 7, Windows Server 2008 R2, Windows Vista and Windows Server 2008:  **
+**Windows 7, Windows Server 2008 R2, Windows Vista and Windows Server 2008:**  
 
-If WMI returns error messages, be aware that they may not indicate problems in the WMI service or in WMI providers. Failures can originate in other parts of the operating system and emerge as errors through WMI. Under any circumstances, do not delete the WMI repository as a first action because deleting the repository can cause damage to the system or to installed applications.
+If WMI returns error messages, be aware that they might not indicate problems in the WMI service or in WMI providers. Failures can originate in other parts of the operating system, and emerge as errors through WMI. Under no circumstances should you delete the WMI repository as a first step; because deleting the repository can cause damage to the system or to installed applications.
 
-To obtain more information about the source of the problem, you can download and run the [WMI Diagnosis Utility](https://www.microsoft.com/downloads/en/details.aspx?familyid=d7ba3cd6-18d1-4d05-b11e-4c64192ae97d&displaylang=en) diagnostic command line tool. This tool produces a report that can usually isolate the source of the problem and provide instructions on how to fix it. The report also aids Microsoft support services in assisting you. You can download the WMI Diagnosis Utility at the [Download Center](https://www.microsoft.com/downloads/details.aspx?FamilyID=d7ba3cd6-18d1-4d05-b11e-4c64192ae97d).
+Previously, to obtain more info about the source of the problem, you could download and run the WMI Diagnosis Utility diagnostic command line tool. This tool produced a report that could usually isolate the source of the problem, and provide instructions on how to fix it. The report also aided Microsoft support services in assisting you. The WMI Diagnosis Utility was previously available at the Download Center.
 
-Provider writers may also encounter debugging issues unless you are writing a [*decoupled provider*](gloss-d.md). For more information, see [Debugging Providers](debugging-providers.md).
+As a provider writer, you might also encounter debugging issues unless you're writing a [*decoupled provider*](gloss-d.md). For more info, see [Debugging providers](debugging-providers.md).
 
-## Logging and Tracing
+## Logging and tracing
 
-The WMI log files no longer exist; they were replaced by [Event Tracing for Windows (ETW)](/windows/desktop/ETW/event-tracing-portal). For more information, see [Tracing WMI Activity](tracing-wmi-activity.md), [Logging WMI Activity](logging-wmi-activity.md), and [WMI Log Files](wmi-log-files.md).
+The WMI log files no longer exist; they were replaced by [Event Tracing for Windows (ETW)](/windows/desktop/ETW/event-tracing-portal). For more info, see [Tracing WMI activity](tracing-wmi-activity.md), [Logging WMI activity](logging-wmi-activity.md), and [WMI log files](wmi-log-files.md).
 
-## Troubleshooting in Scripts and Applications
+## Troubleshooting in scripts and applications
 
-WMI contains a set of classes for [troubleshooting](wmi-troubleshooting-classes.md) client applications that use WMI providers. For more information, see [Troubleshooting WMI Client Applications](troubleshooting-wmi-client-applications.md).
+WMI contains a set of classes for [troubleshooting](wmi-troubleshooting-classes.md) client applications that use WMI providers. For more info, see [Troubleshooting WMI client applications](troubleshooting-wmi-client-applications.md).
 
-## How Provider Writers Can Prevent WMI Problems
+## How provider-writers can prevent WMI problems
 
-Provider writers can prevent many problems, which appear in error messages through WMI, by performing the following actions:
+Provider-writers can prevent many problems (that appear in error messages through WMI) by performing the following actions:
 
--   Registering your provider correctly. For more information, see [Registering a Provider](registering-a-provider.md).
--   Adding the [**\#pragma autorecover**](pragma-autorecover.md) statement to the Managed Object Format (MOF) file that defines your provider classes.
+* Registering your provider correctly. For more information, see [Registering a provider](registering-a-provider.md).
+* Adding the [**\#pragma autorecover**](pragma-autorecover.md) statement to the Managed Object Format (MOF) file that defines your provider classes.
 
-For more information, see [Debugging Providers](debugging-providers.md), [Providing Data to WMI](providing-data-to-wmi.md), and [Provider Configuration and Troubleshooting Classes](provider-configuration-and-troubleshooting-classes.md).
+For more info, see [Debugging providers](debugging-providers.md), [Providing data to WMI](providing-data-to-wmi.md), and [Provider configuration and troubleshooting classes](provider-configuration-and-troubleshooting-classes.md).
 
-## Access Denied
+## Access denied
 
-Access Denied errors that are reported by scripts and applications that access WMI namespaces and data generally fall into three categories. The following table lists the three categories of errors along with issues that might cause the errors and possible solutions.
-
-
+*Access denied* errors that are reported by scripts and applications that access WMI namespaces and data generally fall into three categories. The following table lists the three categories of errors along with issues that might cause the errors and possible solutions.
 
 | Error                                                                                                                        | Possible Issues                                                                                                                                                                                                                                                                                                                                                                     | Solution                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 |------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
