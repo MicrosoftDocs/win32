@@ -34,7 +34,7 @@ The **IMsRdpCameraRedirConfig** interface has these properties.
 | Property         | Access type           | Description            |
 |:-----------------|:----------------------|:-----------------------|
 | [**DeviceExists**](imsrdpcameraredirconfig-deviceexists.md)      | Read-only | Specifies whether or not the camera device currently exists (that is, the camera is connected).   |
-| [**FriendlyName**](imsrdpcameraredirconfig-friendlyname.md)                       | Read-only |    Gets the camera’s friendly name.    |
+| [**FriendlyName**](imsrdpcameraredirconfig-friendlyname.md)                       | Read-only |    Gets the camera's friendly name.    |
 | [**InstanceId**](imsrdpcameraredirconfig-instanceid.md)      | Read-only |  Gets the instance ID of the camera.  |
 | [**ParentInstanceId**](imsrdpcameraredirconfig-parentinstanceid.md)                       | Read-only |    Gets the parent device instance ID of the camera.   |
 | [**Redirected**](imsrdpcameraredirconfig-redirected.md)      | Read/Write |  Specifies whether or not the camera is redirected.  |
