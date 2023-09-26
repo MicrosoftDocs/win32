@@ -118,7 +118,7 @@ While the prevalence of HDR displays is growing rapidly, SDR displays will remai
 
 #### SDR display signaling support with high bit-depth
 
-The underlying signaling for SDR displays is unchanged, although the Windows 11m version 22H2 release supports 10 bits per channel and greater, depending on the display's capabilities.
+The underlying signaling for SDR displays is unchanged, although the Windows 11, version 22H2 release supports 10 bits per channel and greater, depending on the display's capabilities.
 
 #### System composition using a high bit-depth, canonical color space
 
