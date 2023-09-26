@@ -38,7 +38,7 @@ HRESULT put_SupportsWorkspaceReconnect(
 
 ## Property value
 
-`VARIANT_TRUE` if the remote session supports reconnect; otherwise, `VARIANT_FALSE`.
+`VARIANT_TRUE` if the connection in the RemoteApp and Desktop Connections control panel supports reconnect; otherwise, `VARIANT_FALSE`.
 
 ## Requirements
 
