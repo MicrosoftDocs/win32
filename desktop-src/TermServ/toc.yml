@@ -19,6 +19,8 @@
               href: providing-for-rdp-client-security.md
             - name: "Disabling Remote Desktop Services features"
               href: disabling-terminal-services-features.md
+            - name: "Calling Remote Desktop ActiveX control non-scriptable interfaces"
+              href: calling-non-scriptable-interfaces.md
         - name: "Remote Desktop ActiveX control reference"
           href: remote-desktop-activex-control-reference.md
           items:
@@ -530,6 +532,19 @@
                           href: imsrdpclientnonscriptable7-cameraredirconfigcollection.md
                         - name: "Clipboard property"
                           href: imsrdpclientnonscriptable7-clipboard.md
+                - name: "IMsRdpClientNonScriptable8"
+                  href: imsrdpclientnonscriptable8.md
+                  items:
+                    - name: "IMsRdpClientNonScriptable8 Methods"
+                      items:
+                        - name: "StartWorkspaceExtension method"
+                          href: imsrdpclientnonscriptable8-startworkspaceextension.md
+                    - name: "IMsRdpClientNonScriptable8 Properties"
+                      items:
+                        - name: "CorrelationId property"
+                          href: imsrdpclientnonscriptable8-correlationid.md
+                        - name: "SupportsWorkspaceReconnect property"
+                          href: imsrdpclientnonscriptable8-supportsworkspacereconnect.md
                 - name: "IMsRdpClientSecuredSettings"
                   href: imsrdpclientsecuredsettings-interface.md
                   items:
@@ -825,6 +840,8 @@
                           href: imstscax-connected.md
                         - name: "ConnectingText property"
                           href: imstscax-connectingtext.md
+                        - name: "Debugger property"
+                          href: imstscax-debugger.md
                         - name: "DesktopHeight property"
                           href: imstscax-desktopheight.md
                         - name: "DesktopWidth property"
@@ -1162,6 +1179,14 @@
                   href: msrdpclient10.md
                 - name: "MsRdpClient10NotSafeForScripting"
                   href: msrdpclient10notsafeforscripting.md
+                - name: "MsRdpClient11"
+                  href: msrdpclient11.md
+                - name: "MsRdpClient11NotSafeForScripting"
+                  href: msrdpclient11notsafeforscripting.md
+                - name: "MsRdpClient12"
+                  href: msrdpclient12.md
+                - name: "MsRdpClient12NotSafeForScripting"
+                  href: msrdpclient12notsafeforscripting.md
                 - name: "MsTscAx"
                   href: mstscax.md
                 - name: "MsTscAxNotSafeForScripting"

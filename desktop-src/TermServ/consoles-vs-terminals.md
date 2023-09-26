@@ -12,9 +12,9 @@ ms.date: 05/10/2022
 
 A `terminal` is a concept that describes a group of input/output devices (keyboard, mouse, monitor, etc.) and configurations (settings on the devices). Consider the device you are using to read this document; are you on a desktop computer with a mouse, keyboard, and monitor? Or a mobile device with an LCD screen with touch capability and a Bluetooth keyboard? All these could be considered a terminal; they are group devices that communicate with each other.
 
-A terminal’s purpose in life is to be attached to a session.
+A terminal's purpose in life is to be attached to a session.
 
-A `session` is an active communication between the terminal and other devices. It is the element that holds the user’s processes, data identity and runs its own win32k instance under csrss.exe (Client-server run-time subsystem).  If a terminal is not attached to a session, it will be attached shortly, or it is in the process of being destroyed.
+A `session` is an active communication between the terminal and other devices. It is the element that holds the user's processes, data identity and runs its own win32k instance under csrss.exe (Client-server run-time subsystem).  If a terminal is not attached to a session, it will be attached shortly, or it is in the process of being destroyed.
 
 There are different types of terminals, but the two most common ones are console and remote.
 
@@ -69,4 +69,4 @@ To get graphics out of a remote terminal, you need a remote [Windows Display Dri
 
 The display capacities of a WDDM GPU are always associated with the console terminal. This means a local monitor exposed through full WDDM driver, console WDDM Indirect Display Driver, or WDDM Display Only driver will only display the console terminal, hence the current console session. For example, a full WDDM GPU with two local monitors attached will be exposed in the console session. Still, that adapter is enumerated in a remote session without any monitors attached.
 
-In WDDM remote sessions, the SKU’s default policy (with Group policy override) decides if either WARP (CPU rasterizer) or a render GPU paired with the remote WDDM Indirect Display adapter will render the desktop and application for that remote session.
+In WDDM remote sessions, the SKU's default policy (with Group policy override) decides if either WARP (CPU rasterizer) or a render GPU paired with the remote WDDM Indirect Display adapter will render the desktop and application for that remote session.
