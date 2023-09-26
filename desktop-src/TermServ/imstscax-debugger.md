@@ -65,7 +65,7 @@ HRESULT get_Debugger(
 
 ## Property value
 
-A pointer to an instance of [IMsTscDebug].
+A pointer to an instance of **IMsTscDebug**.
 
 ## Error codes
 
