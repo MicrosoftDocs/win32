@@ -23,7 +23,7 @@ ms.date: 09/12/2023
 Coordinates the client's remote session with the RemoteApp and Desktop Connections control panel.
 
 > [!NOTE]
-> The RemoteApp and Desktop Connection control panel is no longer in active development. It may be altered or unavailable in future versions of Windows. The use of this API is discouraged. 
+> The RemoteApp and Desktop Connections control panel is no longer in active development. It may be altered or unavailable in future versions of Windows. The use of this API is discouraged. 
 
 
 ## Syntax
