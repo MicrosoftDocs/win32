@@ -48,7 +48,7 @@ ms.date: 09/13/2023
 
 # IMsTscAx::Debugger property
 
-Gets a pointer to an instance of [IMsTscDebug](/windows/win32/api/rdpencomapi/nn-rdpencomapi-irdpsrapidebug). This interface is used by Microsoft to test the Remote Desktop ActiveX control. It is subject to change and removal in future versions of Windows. Do not use this interface.
+Gets a pointer to an instance of **IMsTscDebug**. This interface is used by Microsoft to test the Remote Desktop ActiveX control. It is subject to change and removal in future versions of Windows. Do not use this interface.
 
 This property is read-only.
 
