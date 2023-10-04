@@ -94,7 +94,7 @@ Read/write.<br />
 </tr>
 <tr class="odd">
 <td><a href="mfpkey-checkdataconsistency2pproperty.md"><strong>MFPKEY_CHECKDATACONSISTENCY2P</strong></a></td>
-<td>Specifies whether whether the encoder should check for data consistency across passes when performing two-pass VBR encoding. <br/> <dl> Windows Vista and later.<br />
+<td>Specifies whether the encoder should check for data consistency across passes when performing two-pass VBR encoding. <br/> <dl> Windows Vista and later.<br />
 Standard, Professional, Lossless.<br />
 Read-only.<br />
 </dl></td>

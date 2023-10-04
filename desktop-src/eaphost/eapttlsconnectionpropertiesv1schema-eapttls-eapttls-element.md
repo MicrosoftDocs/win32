@@ -1,6 +1,6 @@
 ---
 title: eapTtls (EapTtls) element
-description: Learn about the eapTtls (EapTtls) element. This element contains all of the the EAP TTLS information. | eapTtls (EapTtls) element
+description: Learn about the eapTtls (EapTtls) element. This element contains all of the EAP TTLS information. | eapTtls (EapTtls) element
 ms.assetid: c33a1bd7-8678-461d-832f-644173a1169f
 keywords:
 - eapTtls (EapTtls) element EAPHost
@@ -18,7 +18,7 @@ ROBOTS: INDEX,FOLLOW
 
 # eapTtls (EapTtls) element
 
-The **eapTtls (EapTtls)** element contains all of the the EAP TTLS information.
+The **eapTtls (EapTtls)** element contains all of the EAP TTLS information.
 
 ``` xml
 <xs:element name="eapTtls"

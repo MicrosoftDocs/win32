@@ -143,7 +143,7 @@ The following combinations of values in the array of **WINBIO\_PRESENCE** struct
 
      
 
-    In this case, the biometric service extends the expiry time for for the individual and generates a [**WINBIO\_ASYNC\_RESULT**](/windows/desktop/api/Winbio/ns-winbio-winbio_async_result) structure for the tracking identifier where the **WINBIO\_ASYNC\_RESULT.Parameters.MonitorPresence.ChangeType** member is **WINBIO\_CHANGE\_TYPE\_TRACK**.
+    In this case, the biometric service extends the expiry time for the individual and generates a [**WINBIO\_ASYNC\_RESULT**](/windows/desktop/api/Winbio/ns-winbio-winbio_async_result) structure for the tracking identifier where the **WINBIO\_ASYNC\_RESULT.Parameters.MonitorPresence.ChangeType** member is **WINBIO\_CHANGE\_TYPE\_TRACK**.
 
 -   When an individual is visible in the camera frame, and the engine adapter determines the identity of the individual, the members of the **WINBIO\_PRESENCE** structure have the values in the following table.
 

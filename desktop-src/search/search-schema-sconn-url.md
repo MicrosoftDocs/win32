@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # simpleLocation url Element (Search Connector Schema)
 
-The &lt;url&gt; element specifies a URL for the location for this search connector. This value can be a regular file:// URL as defined in the RFC 1738 (https://www.ietf.org/rfc/rfc1738.txt) document or or a URL that uses the knownfolders: protocol. This element has no child elements and no attributes.
+The &lt;url&gt; element specifies a URL for the location for this search connector. This value can be a regular file:// URL as defined in the RFC 1738 (https://www.ietf.org/rfc/rfc1738.txt) document or a URL that uses the knownfolders: protocol. This element has no child elements and no attributes.
 
 ## Syntax
 

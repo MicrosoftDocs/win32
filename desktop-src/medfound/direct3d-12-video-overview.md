@@ -61,7 +61,7 @@ The [D3D12_QUERY_DATA_VIDEO_DECODE_STATISTICS](/windows/win32/api/d3d12video/ns-
 
 ## Video processing
 
-Direct3D 12 video APIs take a streamlined approach to video processing, eliminating features of Direct3D 11 that weren't widely used and removing capability checks for features that are mandatory across devices. The enumeration process for video processing is eliminated. Instead, call [ID3D12VideoDevice::CheckFeatureSupport](/windows/desktop/api/d3d12video/nf-d3d12video-id3d12videodevice-checkfeaturesupport) which allows an app to identify the capabilities of the video processor. The desired video, interlace, stereo formats and rates are provided as as input to **CheckFeatureSupport**.
+Direct3D 12 video APIs take a streamlined approach to video processing, eliminating features of Direct3D 11 that weren't widely used and removing capability checks for features that are mandatory across devices. The enumeration process for video processing is eliminated. Instead, call [ID3D12VideoDevice::CheckFeatureSupport](/windows/desktop/api/d3d12video/nf-d3d12video-id3d12videodevice-checkfeaturesupport) which allows an app to identify the capabilities of the video processor. The desired video, interlace, stereo formats and rates are provided as input to **CheckFeatureSupport**.
 
 ### Removed capabilities
 

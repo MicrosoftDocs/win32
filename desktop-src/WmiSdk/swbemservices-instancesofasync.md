@@ -124,7 +124,7 @@ Causes WMI to return class amendment data with the base class definition. For mo
 *objWbemNamedValueSet* \[optional\]
 </dt> <dd>
 
-Typically, this is undefined. Otherwise, this is an [**SWbemNamedValueSet**](swbemnamedvalueset.md) object whose elements represent the context information that can be used by the provider that is servicing the request. A provider that supports or requires context information information must document the recognized value names, data type of the value, allowed values, and semantics.
+Typically, this is undefined. Otherwise, this is an [**SWbemNamedValueSet**](swbemnamedvalueset.md) object whose elements represent the context information that can be used by the provider that is servicing the request. A provider that supports or requires context information must document the recognized value names, data type of the value, allowed values, and semantics.
 
 </dd> <dt>
 

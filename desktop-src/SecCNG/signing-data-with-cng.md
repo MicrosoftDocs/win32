@@ -19,7 +19,7 @@ To verify the signature, the recipient extracts the data and the signature from 
 1.  Create a hash value for the data by using the CNG hashing functions. For more information about creating a hash, see [Creating a Hash With CNG](creating-a-hash-with-cng.md).
 2.  Create an asymmetric key to sign the hash. You can either create a persistent key with the [CNG Key Storage Functions](cng-key-storage-functions.md) or an ephemeral key with the [CNG Cryptographic Primitive Functions](cng-cryptographic-primitive-functions.md).
 3.  Use either the [**NCryptSignHash**](/windows/desktop/api/Ncrypt/nf-ncrypt-ncryptsignhash) or the [**BCryptSignHash**](/windows/desktop/api/Bcrypt/nf-bcrypt-bcryptsignhash) function to sign (encrypt) the hash value. This function signs the hash value by using the asymmetric key.
-4.  Combine the data and signature into a message which can be sent sent to the intended recipient.
+4.  Combine the data and signature into a message which can be sent to the intended recipient.
 
 **To verify a signature by using CNG**
 

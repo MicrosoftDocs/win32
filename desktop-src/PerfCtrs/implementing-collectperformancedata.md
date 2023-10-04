@@ -1,5 +1,5 @@
 ---
-description: After the system successfully calls your your OpenPerformanceData function, it calls your CollectPerformanceData function to collect the counter data.
+description: After the system successfully calls your OpenPerformanceData function, it calls your CollectPerformanceData function to collect the counter data.
 ms.assetid: 73b022df-0148-4afc-8536-8b1c766b1ee6
 title: Implementing CollectPerformanceData
 ms.topic: article
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Implementing CollectPerformanceData
 
-After the system successfully calls your your [**OpenPerformanceData**](/previous-versions/windows/desktop/legacy/aa372200(v=vs.85)) function, it calls your [**CollectPerformanceData**](/windows/win32/api/winperf/nc-winperf-pm_collect_proc) function to collect the counter data. If the provider supports the queried objects, it contacts the service, driver, or application with which it is associated and asks it for the counter data.
+After the system successfully calls your [**OpenPerformanceData**](/previous-versions/windows/desktop/legacy/aa372200(v=vs.85)) function, it calls your [**CollectPerformanceData**](/windows/win32/api/winperf/nc-winperf-pm_collect_proc) function to collect the counter data. If the provider supports the queried objects, it contacts the service, driver, or application with which it is associated and asks it for the counter data.
 
 The `pQuery` parameter will be one of the following:
 

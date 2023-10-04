@@ -274,7 +274,7 @@ The goal isn't to have giant controls, just ones that are easily used with touch
 
 In this example, Microsoft Word uses buttons larger than 10x10 mm for the most important commands.
 
-![Screenshot that shows the the Windows calculator.](images/inter-touch-image16.png)
+![Screenshot that shows the Windows calculator.](images/inter-touch-image16.png)
 
 This version of Calculator uses buttons larger than 10x10 mm for its most frequently used commands.
 

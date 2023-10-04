@@ -89,7 +89,7 @@ Top
 <tr class="odd">
 <td><img src="../images/dn350944.puboperator(exchg.10).gif" title="Public operator" alt="Public operator" /><img src="../images/dn292146.static(exchg.10).gif" title="Static member" alt="Static member" /></td>
 <td><a href="dn335331(v=exchg.10).md">Equality</a></td>
-<td>Determine whether one commitid is is equal to another commitid.</td>
+<td>Determine whether one commitid is equal to another commitid.</td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn350944.puboperator(exchg.10).gif" title="Public operator" alt="Public operator" /><img src="../images/dn292146.static(exchg.10).gif" title="Static member" alt="Static member" /></td>

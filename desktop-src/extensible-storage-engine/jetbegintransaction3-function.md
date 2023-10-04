@@ -51,7 +51,7 @@ An optional identifier supplied by the user to identify the transaction.
 
 *grbit*
 
-A group of bits that that specifies zero or more of the call option values listed in the following table.
+A group of bits that specifies zero or more of the call option values listed in the following table.
 
 
 | <p>Value</p> | <p>Meaning</p> | 

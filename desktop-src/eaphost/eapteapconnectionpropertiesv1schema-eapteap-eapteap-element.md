@@ -18,7 +18,7 @@ ROBOTS: INDEX,FOLLOW
 
 # eapTeap (EapTeap) element
 
-The **eapTeap (EapTeap)** element contains all of the the EAP TTLS information.
+The **eapTeap (EapTeap)** element contains all of the EAP TTLS information.
 
 ``` xml
 <xs:element name="eapTeap"

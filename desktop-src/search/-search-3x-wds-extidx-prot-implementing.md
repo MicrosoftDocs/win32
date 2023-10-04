@@ -58,7 +58,7 @@ For overviews of the Catalog Manager and Crawl Scope Manager (CSM), see [Using t
 
 ## Indexing a Compound File Format
 
-A compound file format can be indexed so that individual items in the file can can be returned as individual results. A compound file format such as a compressed file with a .zip file name extension is essentially a data store and can be treated as such for indexing purposes. The following example displays a .zip file in the file system namespace (FILE://c:/test/test.zip) in which there are both subfolders and individual items.
+A compound file format can be indexed so that individual items in the file can be returned as individual results. A compound file format such as a compressed file with a .zip file name extension is essentially a data store and can be treated as such for indexing purposes. The following example displays a .zip file in the file system namespace (FILE://c:/test/test.zip) in which there are both subfolders and individual items.
 
 ``` syntax
 Test.zip 

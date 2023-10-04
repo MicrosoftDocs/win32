@@ -324,7 +324,7 @@ struct { // fileNameLocal
 }; // fileNameLocal;
 ```
 
-The array of [**WS\_XML\_STRING**](/windows/desktop/api/WebServices/ns-webservices-ws_xml_string)s are generated as a series of fields of type **WS\_XML\_STRING**, named with with user-friendly names. The generated stub uses the user-friendly names in various descriptions for better readability.
+The array of [**WS\_XML\_STRING**](/windows/desktop/api/WebServices/ns-webservices-ws_xml_string)s are generated as a series of fields of type **WS\_XML\_STRING**, named with user-friendly names. The generated stub uses the user-friendly names in various descriptions for better readability.
 
 Client proxy for WSDL operations
 

@@ -20,7 +20,7 @@ If the value on wire is outside of the allowed range, RPC will throw an RPC\_X\_
 
 ## RPC Server Stub Memory Management Rules
 
-It is important to understand RPC server stub memory management rules when creating the IDL files for an RPC-enabled application. Applications can improve server resource utilization by using \[**range**\] in conjunction with conformant data as indicated above, as well as deliberately avoiding the application of variable-length data IDL attributes like like \[**length\_is**\] to conformant data.
+It is important to understand RPC server stub memory management rules when creating the IDL files for an RPC-enabled application. Applications can improve server resource utilization by using \[**range**\] in conjunction with conformant data as indicated above, as well as deliberately avoiding the application of variable-length data IDL attributes like \[**length\_is**\] to conformant data.
 
 The application of \[**length\_is**\] to data structure fields defined in an IDL file is not recommended.
 

@@ -385,7 +385,7 @@ Data type: **uint64**
 Access type: Read-only
 </dt> </dl>
 
-This property specifies the amount of resource guaranteed to be available for this allocation. On system which support over-commitment of resources, this value is typically used for admission control to prevent an an allocation from being accepted thus preventing resource depletion.
+This property specifies the amount of resource guaranteed to be available for this allocation. On system which support over-commitment of resources, this value is typically used for admission control to prevent an allocation from being accepted thus preventing resource depletion.
 
 </dd> <dt>
 
