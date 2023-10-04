@@ -82,8 +82,8 @@ This function has no associated import library or header file; you must call it 
 
 | Requirement | Value |
 |-----------------------------------|-------------------------------------------------------------------------------------------------------|
-| Minimum supported client| TBD |
-| Minimum supported server| desktop apps only |
+| Minimum supported client| Windows Vista |
+| Minimum supported server| Windows Server 2008 |
 | Library | Ole32.lib | 
 | DLL | Ole32.dll |
 

@@ -77,8 +77,8 @@ The context of the user passed to this callback function. May be NULL.
 
 | Requirement | Value |
 |-----------------------------------|-------------------------------------------------------------------------------------------------------|
-| Minimum supported client| TBD |
-| Minimum supported server| TBD |
+| Minimum supported client| Windows Vista |
+| Minimum supported server| Windows Server 2008 |
 
 
 

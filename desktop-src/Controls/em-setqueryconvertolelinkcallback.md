@@ -51,8 +51,8 @@ This message does not return a value.
 
 | Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | TBD                                            |
-| Minimum supported server<br/> | TBD |
+| Minimum supported client| Windows Vista |
+| Minimum supported server| Windows Server 2008 |
 | Header<br/>                   | <dl> <dt>Richedit.h</dt> </dl> |
 
 
