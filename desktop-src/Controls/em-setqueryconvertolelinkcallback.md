@@ -45,6 +45,10 @@ A value of 1 indicates that the linked object in the OLESTREAM contained in the 
 
 This message does not return a value.
 
+## Remarks
+
+This message is not defined in a SDK header, so you must specify the value representing the message, `(WM_USER + 403)`, instead.
+
 ## Requirements
 
 

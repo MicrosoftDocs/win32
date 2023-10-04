@@ -46,6 +46,10 @@ Pointer to a OLESTREAMQUERYCONVERTOLELINKCALLBACK callback function that queries
 If the operation succeeds, the return value is a nonzero value.
 If the operation fails, the return value is zero.
 
+## Remarks
+
+This message is not defined in a SDK header, so you must specify the value representing the message, `(WM_USER + 404)`, instead.
+
 
 ## Requirements
 

@@ -8,10 +8,6 @@ topic_type:
 - kbSyntax
 api_name: 
 - OLESTREAMQUERYCONVERTOLELINKCALLBACK
-api_type: 
-- DllExport
-api_location: 
-- Ole32.dll
 ---
 
 # OLESTREAMQUERYCONVERTOLELINKCALLBACK callback function
