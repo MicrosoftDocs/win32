@@ -3269,6 +3269,11 @@
       - name: "Rich Edit Control Reference"
         href: bumper-rich-edit-rich-edit-control-reference.md
         items: 
+        - name: "Rich Edit Callbacks"
+          href: bumper-rich-edit-control-reference-callbacks.md
+          items: 
+          - name: "OLESTREAMQUERYCONVERTOLELINKCALLBACK"
+            href: olestreamqueryconvertolelinkcallback.md
         - name: "Rich Edit Functions"
           href: bumper-rich-edit-control-reference-functions.md
           items: 
@@ -3496,6 +3501,8 @@
             href: em-setctfmodebias.md
           - name: "EM_SETCTFOPENSTATUS"
             href: em-setctfopenstatus.md
+          - name: "EM_SETDISABLEOLELINKCONVERSION"
+            href: em-setdisableolelinkconversion.md
           - name: "EM_SETEDITSTYLE"
             href: em-seteditstyle.md
           - name: "EM_SETEDITSTYLEEX"
@@ -3528,6 +3535,8 @@
             href: em-setpalette.md
           - name: "EM_SETPUNCTUATION"
             href: em-setpunctuation.md
+          - name: "EM_SETQUERYCONVERTOLELINKCALLBACK"
+            href: em-setqueryconvertolelinkcallback.md
           - name: "EM_SETSCROLLPOS"
             href: em-setscrollpos.md
           - name: "EM_SETSTORYTYPE"

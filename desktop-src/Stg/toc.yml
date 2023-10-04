@@ -502,8 +502,12 @@
         href: /windows/desktop/api/Ole2/nf-ole2-oleconvertistoragetoolestreamex
       - name: "OleConvertOLESTREAMToIStorage"
         href: /windows/desktop/api/Ole2/nf-ole2-oleconvertolestreamtoistorage
+      - name: "OleConvertOLESTREAMToIStorage2"
+        href: oleconvertolestreamtoistorage2.md
       - name: "OleConvertOLESTREAMToIStorageEx"
         href: /windows/desktop/api/Ole2/nf-ole2-oleconvertolestreamtoistorageex
+      - name: "OleConvertOLESTREAMToIStorageEx2"
+        href: oleconvertolestreamtoistorageex2.md
       - name: "PropStgNameToFmtId"
         href: /windows/desktop/api/coml2api/nf-coml2api-propstgnametofmtid
       - name: "PropVariantClear"
