@@ -20,7 +20,7 @@ Each of these three security features is described in more detail in following s
 
 RPC over HTTP can leverage the normal authentication mechanism of IIS. The virtual directory for RPC Proxy can be configured using the Rpc node under the Default Web Site in the IIS MMC snap-in:
 
-![Screenshot showing the the Rpc node under the Default Web Site in the IIS MMC snap-in.](images/rpc-http-1.png)
+![Screenshot showing the Rpc node under the Default Web Site in the IIS MMC snap-in.](images/rpc-http-1.png)
 
 IIS can be configured to disable anonymous access and require authentication to the virtual directory for the RPC Proxy. To do this, right click the Rpc node and select **Properties**. Select the **Directory Security** tab and click the **Edit** button in the **Authentication and Access Control** group, as illustrated here:
 

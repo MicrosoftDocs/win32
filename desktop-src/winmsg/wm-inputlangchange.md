@@ -74,7 +74,7 @@ case WM_INPUTLANGCHANGE:
 }
 ```
 
-To get the the name of the currently active keyboard layout, call the [GetKeyboardLayoutName](/windows/win32/api/winuser/nf-winuser-getkeyboardlayoutnamew). For more information, see [Languages, Locales, and Keyboard Layouts](/windows/win32/inputdev/about-keyboard-input#languages-locales-and-keyboard-layouts).
+To get the name of the currently active keyboard layout, call the [GetKeyboardLayoutName](/windows/win32/api/winuser/nf-winuser-getkeyboardlayoutnamew). For more information, see [Languages, Locales, and Keyboard Layouts](/windows/win32/inputdev/about-keyboard-input#languages-locales-and-keyboard-layouts).
 
 For a list of the input layouts that are supplied with Windows, see [Keyboard Identifiers and Input Method Editors for Windows](/windows-hardware/manufacture/desktop/windows-language-pack-default-values).
 

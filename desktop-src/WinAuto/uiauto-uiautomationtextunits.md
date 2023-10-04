@@ -64,7 +64,7 @@ Here's another example where a text stream contains two word units, one of which
 
 - The link belongs to the text range containing "Foo".
 - The link is a child of the text range "Foo", and is enclosed by the [ITextProvider](/windows/desktop/api/uiautomationcore/nn-uiautomationcore-itextprovider).
-- The text range "Bar" has no children and and is enclosed by the [ITextProvider](/windows/desktop/api/uiautomationcore/nn-uiautomationcore-itextprovider).
+- The text range "Bar" has no children and is enclosed by the [ITextProvider](/windows/desktop/api/uiautomationcore/nn-uiautomationcore-itextprovider).
 
 **Additional notes:**
 

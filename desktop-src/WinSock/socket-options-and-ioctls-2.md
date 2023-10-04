@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 Some of the socket options for Windows Sockets 2 are summarized in the following table. More detailed information is provided in section 4 under [**WSPGetSockOpt**](/previous-versions/windows/hardware/network/ff566292(v=vs.85)) and/or [**WSPSetSockOpt**](/previous-versions/windows/hardware/network/ff566318(v=vs.85)). There are other new protocol-specific socket options which can be found in the Protocol-Specific Annex. A complete list of [**Socket Options**](socket-options.md) for Windows Sockets are available in the Winsock reference.
 
-For a a summary of some of the Winsock Ioctls, see [Summary of Socket Ioctl Opcodes](summary-of-socket-ioctl-opcodes-2.md). A complete list of [**Winsock IOCTLs**](winsock-ioctls.md) are available in the Winsock reference.
+For a summary of some of the Winsock Ioctls, see [Summary of Socket Ioctl Opcodes](summary-of-socket-ioctl-opcodes-2.md). A complete list of [**Winsock IOCTLs**](winsock-ioctls.md) are available in the Winsock reference.
 
 ## Summary of Common Socket Options
 

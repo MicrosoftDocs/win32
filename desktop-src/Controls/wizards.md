@@ -155,7 +155,7 @@ ahpsp[1] = CreatePropertySheetPage(&psp);
 
 When you create a page, you can assign custom data to it by using the **lParam** member of the [**PROPSHEETPAGE**](pss-propsheetpage.md) structure, typically by assigning it a pointer to a user-defined structure.
 
-When the page is first selected, its dialog box procedure receives a [**WM\_INITDIALOG**](/windows/desktop/dlgbox/wm-initdialog) message. The message's *lParam* value points to a copy of of the page's [**PROPSHEETPAGE**](pss-propsheetpage.md) structure, from which you can retrieve the custom data. You can then store this data for use in subsequent messages by using [**SetWindowLongPtr**](/windows/desktop/api/winuser/nf-winuser-setwindowlongptra) with GWL\_USERDATA as the index parameter. Multiple pages can have a pointer to the same data, and any change to the data made by one page is available to the other pages in their dialog procedures.
+When the page is first selected, its dialog box procedure receives a [**WM\_INITDIALOG**](/windows/desktop/dlgbox/wm-initdialog) message. The message's *lParam* value points to a copy of the page's [**PROPSHEETPAGE**](pss-propsheetpage.md) structure, from which you can retrieve the custom data. You can then store this data for use in subsequent messages by using [**SetWindowLongPtr**](/windows/desktop/api/winuser/nf-winuser-setwindowlongptra) with GWL\_USERDATA as the index parameter. Multiple pages can have a pointer to the same data, and any change to the data made by one page is available to the other pages in their dialog procedures.
 
 ### Define the Wizard Property Sheet
 

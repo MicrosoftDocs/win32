@@ -80,7 +80,7 @@ HKEY_LOCAL_MACHINE
 
 If DoNotCreateSearchConnectors is set to 1, then we recommend that you expose the [System.Shell.OmitFromView](/windows/desktop/properties/props-system-shell-omitfromview) property on each item exposed by the protocol handler, and set the value of this property to **TRUE**. Doing so will prevent the protocol handler items from appearing under the **Start** menu **Files** group.
 
-If DoNotCreateSearchConnectors is present and set to zero, then Windows Explorer will create a search connector for the protocol handler, and the protocol handler items will be returned in in **Start** menu and Windows Explorer searches.
+If DoNotCreateSearchConnectors is present and set to zero, then Windows Explorer will create a search connector for the protocol handler, and the protocol handler items will be returned in **Start** menu and Windows Explorer searches.
 
 ### Customizing the Name, Description or FolderType for a Protocol Handler Search Connector
 

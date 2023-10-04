@@ -50,7 +50,7 @@ As shown in the following table, Uniscribe version 1.6 or greater supports sever
 
 ## Lay Out Text Using Uniscribe
 
-Your application can use the following steps to lay out out a text paragraph with Uniscribe. This procedure assumes that the application has already divided the paragraph into runs.
+Your application can use the following steps to lay out a text paragraph with Uniscribe. This procedure assumes that the application has already divided the paragraph into runs.
 
 1.  Call [**ScriptRecordDigitSubstitution**](/windows/desktop/api/Usp10/nf-usp10-scriptrecorddigitsubstitution) only when starting or when receiving a [**WM\_SETTINGCHANGE**](../winmsg/wm-settingchange.md) message.
 2.  (Optional) Call [**ScriptIsComplex**](/windows/desktop/api/Usp10/nf-usp10-scriptiscomplex) to determine if the paragraph requires complex processing.

@@ -52,7 +52,7 @@ If the method succeeds, the return value is D3D\_OK. If the method fails, the re
 
 ## Remarks
 
-[**ID3DXBaseMesh::CloneMesh**](id3dxbasemesh--clonemesh.md) is used to reformat and change the vertex data layout. For example, use it to to add space for normals, texture coordinates, colors, weights, etc. that were not present before.
+[**ID3DXBaseMesh::CloneMesh**](id3dxbasemesh--clonemesh.md) is used to reformat and change the vertex data layout. For example, use it to add space for normals, texture coordinates, colors, weights, etc. that were not present before.
 
 **ID3DXBaseMesh::UpdateSemantics** is a method for updating the vertex declaration with different semantic information, without changing the layout of the vertex buffer. For example, use it to relabel a 3D texture coordinate as a binormal or tangent, or vice versa.
 

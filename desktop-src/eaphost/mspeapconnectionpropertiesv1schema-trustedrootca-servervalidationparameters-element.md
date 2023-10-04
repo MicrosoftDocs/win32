@@ -18,7 +18,7 @@ ROBOTS: INDEX,FOLLOW
 
 # TrustedRootCA (ServerValidationParameters) Element
 
-The **TrustedRootCA (ServerValidationParameters)** element element captures the thumb print of root certificate authorities (CAs) that are trusted by the client.
+The **TrustedRootCA (ServerValidationParameters)** element captures the thumb print of root certificate authorities (CAs) that are trusted by the client.
 
 ``` syntax
 <xs:element name="TrustedRootCA"

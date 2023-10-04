@@ -505,7 +505,7 @@ int __cdecl wmain(int argc, char* argv[])
     hr = ClearOTAPolicy(pMFTrustedOutput,pMFOutputTrustAuthority,pMFOutputPolicy);
     IF_FAILED_JUMP(hr, Exit);
 
-    // After above release operations, the following Play() will succeed without without device-in-use error message 0x8889000A
+    // After above release operations, the following Play() will succeed without device-in-use error message 0x8889000A
     DSBuffer->SetCurrentPosition(0);
     hr = DSBuffer->Play(0, 0, DSBPLAY_LOOPING);
     IF_FAILED_JUMP(hr, Exit);

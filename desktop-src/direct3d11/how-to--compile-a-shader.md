@@ -94,7 +94,7 @@ HRESULT CompileShader( _In_ LPCWSTR srcFile, _In_ LPCSTR entryPoint, _In_ LPCSTR
 
 int main()
 {
-    // Compile vertex shader shader
+    // Compile vertex shader
     ID3DBlob *vsBlob = nullptr;
     HRESULT hr = CompileShader( L"BasicHLSL11_VS.hlsl", "VSMain", "vs_4_0_level_9_1", &vsBlob );
     if ( FAILED(hr) )
@@ -103,7 +103,7 @@ int main()
         return -1;
     }
 
-    // Compile pixel shader shader
+    // Compile pixel shader
     ID3DBlob *psBlob = nullptr;
     hr = CompileShader( L"BasicHLSL11_PS.hlsl", "PSMain", "ps_4_0_level_9_1", &psBlob );
     if ( FAILED(hr) )

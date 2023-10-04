@@ -23,7 +23,7 @@ You can take an app that's packaged using MSIX, and easily configure it to run i
 
 An unpackaged app can run in an app container, too. To create a process in an app container, you need an AppContainer definition (or profile). And this is why using AppContainer with a packaged app is easier. When you register a package for a user, the Deployment stack calls certain Win32 APIs for you in order to create the necessary AppContainer profile (for example, [**CreateAppContainerProfile**](/windows/win32/api/userenv/nf-userenv-createappcontainerprofile)). And when you unregister a package for a user, the Deployment stack does the work to remove the AppContainer profile ([**DeleteAppContainerProfile**](/windows/win32/api/userenv/nf-userenv-deleteappcontainerprofile)). If you're not packaging your app, then you have to do the same things by calling those Win32 APIs yourself; but it can be complicated.
 
-Most unpackaged apps that used the low integrily level now use use AppContainer as a better way to provide a constrained execution environment.
+Most unpackaged apps that used the low integrily level now use AppContainer as a better way to provide a constrained execution environment.
 
 When an unpackaged process running in an app container calls **CreateProcess**, the child process typically inherits the parent's token. That token includes the integrity level (IL) and app container info. It's best not to think of a single axis with the values elevated/medium/low/appContainer on it. Instead, being or not being in an app container is a second and orthogonal property. That said, if you *are* in an app container, then the integrity level (IL) is always *low*.
 

@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 
 # Service Host User State
 
-The [service host](service-host.md) enables an application to associate state data that is scoped at the service-host level. This state is is specified by a [**WS\_SERVICE\_PROPERTY**](/windows/desktop/api/WebServices/ns-webservices-ws_service_property) structure that is passed to the [**WsCreateServiceHost**](/windows/desktop/api/WebServices/nf-webservices-wscreateservicehost) function when the application creates a [service host](service-host.md), as illustrated in the following example.
+The [service host](service-host.md) enables an application to associate state data that is scoped at the service-host level. This state is specified by a [**WS\_SERVICE\_PROPERTY**](/windows/desktop/api/WebServices/ns-webservices-ws_service_property) structure that is passed to the [**WsCreateServiceHost**](/windows/desktop/api/WebServices/nf-webservices-wscreateservicehost) function when the application creates a [service host](service-host.md), as illustrated in the following example.
 
 ``` syntax
 void* quotePtr = (void*) quotes;
