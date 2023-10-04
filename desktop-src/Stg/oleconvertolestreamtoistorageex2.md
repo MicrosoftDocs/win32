@@ -1,5 +1,5 @@
 ---
-description: Examines the Dos format file name and determines if it is a Dos device name.
+description: Converts the specified object from the OLE 1 storage model to an OLE 2 structured storage object without specifying presentation data.
 title: OleConvertOLESTREAMToIStorageEx2 function
 ms.topic: reference
 ms.date: 08/30/2023

@@ -1,11 +1,11 @@
 ---
-title: Rich Edit Interfaces
-description: Rich Edit Interfaces
+title: Rich Edit Callbacks
+description: Rich Edit Callbacks
 ms.topic: article
 ms.date: 10/03/2023
 ---
 
-# Rich Edit Interfaces
+# Rich Edit Callbacks
 
 ## In this section
 
