@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Defining Name/Value Mappings
 
-A provider can define a list of name/value pairs that consumers use to map integer values to strings. The name/value pairs can map integer values to strings or bit values bit values to strings; each value corresponds to a string value. Use mappings on integer data items that contain enumeration values.
+A provider can define a list of name/value pairs that consumers use to map integer values to strings. The name/value pairs can map integer values to strings or bit values to strings; each value corresponds to a string value. Use mappings on integer data items that contain enumeration values.
 
 Consumers can use the value map to retrieve the string associated with a value and display it instead of displaying the integer or bit value. To define an integer value map, use the **valueMap** and **map** elements. To define a bit value map, use the **bitmap** and **map** elements.
 
