@@ -50,4 +50,4 @@ The following table shows how this can occur if a process is terminated while da
 | Sample 5 | 80                   | 2,000                          | Not applicable. Now collected in slot 1. |
 
 > [!TIP]
-> Starting in Windows 10 20H2, you can avoid this issue by using the new `Process V2` counterset. The `Process V2` counterset includes the process ID in the instance name. This avoids the inconsistent results that appear with the original `Process` counterset.
+> Starting in Windows 11, you can avoid this issue by using the new `Process V2` counterset. The `Process V2` counterset includes the process ID in the instance name. This avoids the inconsistent results that appear with the original `Process` counterset.
