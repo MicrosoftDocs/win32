@@ -302,7 +302,7 @@ PERF_COUNTER_BLOCK* GetCounterBlock(PERF_OBJECT_TYPE* pObject, LPWSTR pInstanceN
 // example, a process object could have four instances with each having svchost as its name.
 // Since service hosts come and go, there is no way to determine if you are dealing with 
 // the same instance.
-// Starting in Windows 20 20H2, use the "Process V2" counterset to avoid this issue.
+// Starting in Windows 11, use the "Process V2" counterset to avoid this issue.
 //
 // The convention for specifying an instance is parentinstancename/instancename#nnn.
 // If only instancename is specified, the first instance found that matches the name is used.
