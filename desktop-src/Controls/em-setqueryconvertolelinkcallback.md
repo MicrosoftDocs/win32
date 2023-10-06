@@ -1,6 +1,6 @@
 ---
 title: EM_SETQUERYCONVERTOLELINKCALLBACK message (Richedit.h)
-description: Gives a rich edit control a OLESTREAMQUERYCONVERTOLELINKCALLBACK callback function that queries the application if linked object in OLESTREAM contained in the RTF should be disabled or not while converting OLESTREAM to IStorage.
+description: Gives a rich edit control a OLESTREAMQUERYCONVERTOLELINKCALLBACK callback function that queries the application if the linked object in OLESTREAM contained in the RTF should be disabled or not while converting OLESTREAM to IStorage.
 keywords:
 - EM_SETQUERYCONVERTOLELINKCALLBACK message Windows Controls
 topic_type:
@@ -17,7 +17,7 @@ ms.date: 10/03/2023
 
 # EM\_SETQUERYCONVERTOLELINKCALLBACK message
 
-Gives a rich edit control a OLESTREAMQUERYCONVERTOLELINKCALLBACK callback function that queries the application if linked object in OLESTREAM contained in the RTF should be disabled or not while converting OLESTREAM to [IStorage](/windows/win32/api/objidl/nn-objidl-istorage).
+Gives a rich edit control a OLESTREAMQUERYCONVERTOLELINKCALLBACK callback function that queries the application if the linked object in OLESTREAM contained in the RTF should be disabled or not while converting OLESTREAM to [IStorage](/windows/win32/api/objidl/nn-objidl-istorage).
 
 ```C++
 #define EM_SETQUERYCONVERTOLELINKCALLBACK	(WM_USER + 403)
