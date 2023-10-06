@@ -1,5 +1,5 @@
 ---
-description: Points to a function that queries the application if linked object in OLESTREAM should be disabled or not while converting OLESTREAM to IStorage.
+description: Points to a function that queries the application if the linked object in OLESTREAM should be disabled or not while converting OLESTREAM to IStorage.
 title: OLESTREAMQUERYCONVERTOLELINKCALLBACK callback function
 ms.topic: reference
 ms.date: 08/30/2023
@@ -12,7 +12,7 @@ api_name:
 
 # OLESTREAMQUERYCONVERTOLELINKCALLBACK callback function
 
-Points to a function that queries the application if linked object in OLESTREAM should be disabled or not while converting OLESTREAM to IStorage.
+Points to a function that queries the application if the linked object in OLESTREAM should be disabled or not while converting OLESTREAM to IStorage.
 
 ## Syntax
 
@@ -61,9 +61,7 @@ The context of the user passed to this callback function. May be NULL.
 
 ## Return value
 
-| Value | Description |
-|-------|-------------|
-| S_OK | Success. |
+If the return value is S_OK, the linked object will be converted. If the return value is other than S_OK, the linked object will be disabled.
 
 
 ## Remarks

@@ -43,7 +43,7 @@ A value of 1 indicates that the linked object in the OLESTREAM contained in the 
 
 ## Return value
 
-This message does not return a value.
+If the return value is S_OK, the linked object will be converted. If the return value is other than S_OK, the linked object will be disabled.
 
 ## Remarks
 
