@@ -71,8 +71,8 @@ If the return value is S_OK, the linked object will be converted. If the return 
 
 | Requirement | Value |
 |-----------------------------------|-------------------------------------------------------------------------------------------------------|
-| Minimum supported client| Minimum Supported Client| Windows 10 RTM (with Oct 2023 security update or later) |
-| Minimum supported server| Minimum Supported server| Windows Server 2008 (with Oct 2023 security update or later) |
+| Minimum supported client|  Windows 10 RTM (with Oct 2023 security update or later) |
+| Minimum supported server| Windows Server 2008 (with Oct 2023 security update or later) |
 
 
 

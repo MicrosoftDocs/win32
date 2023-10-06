@@ -82,8 +82,8 @@ This function has no associated import library or header file; you must call it 
 
 | Requirement | Value |
 |-----------------------------------|-------------------------------------------------------------------------------------------------------|
-| Minimum supported client| Minimum Supported Client| Windows 10 RTM (with Oct 2023 security update or later) |
-| Minimum supported server| Minimum Supported server| Windows Server 2008 (with Oct 2023 security update or later) |
+| Minimum supported client|  Windows 10 RTM (with Oct 2023 security update or later) |
+| Minimum supported server|  Windows Server 2008 (with Oct 2023 security update or later) |
 | Library | Ole32.lib | 
 | DLL | Ole32.dll |
 
