@@ -73,8 +73,8 @@ The context of the user passed to this callback function. May be NULL.
 
 | Requirement | Value |
 |-----------------------------------|-------------------------------------------------------------------------------------------------------|
-| Minimum supported client| Windows Vista |
-| Minimum supported server| Windows Server 2008 |
+| Minimum supported client| Minimum Supported Client| Windows 10 RTM (with Oct 2023 security update or later) |
+| Minimum supported server| Minimum Supported server| Windows Server 2008 (with Oct 2023 security update or later) |
 
 
 

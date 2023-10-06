@@ -55,8 +55,8 @@ This message is not defined in a SDK header, so you must specify the value repre
 
 | Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client| Windows Vista |
-| Minimum supported server| Windows Server 2008 |
+| Minimum supported client| Minimum Supported Client| Windows 10 RTM (with Oct 2023 security update or later) |
+| Minimum supported server| Minimum Supported server| Windows Server 2008 (with Oct 2023 security update or later) |
 | Header<br/>                   | <dl> <dt>Richedit.h</dt> </dl> |
 
 

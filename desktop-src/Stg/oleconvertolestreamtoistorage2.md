@@ -1,5 +1,5 @@
 ---
-description: Converts the specified object from the OLE 1 storage model to an OLE 2 structured storage object including presentation data.
+description: Converts the specified object from the OLE 1 storage model to an OLE 2 structured storage object without specifying presentation data.
 title: OleConvertOLESTREAMToIStorage2 function
 ms.topic: reference
 ms.date: 08/30/2023
@@ -16,7 +16,7 @@ api_location:
 
 # OleConvertOLESTREAMToIStorage2 function
 
-Converts the specified object from the OLE 1 storage model to an OLE 2 structured storage object including presentation data.
+Converts the specified object from the OLE 1 storage model to an OLE 2 structured storage object without specifying presentation data.
 
 > [!NOTE]  
 > This is one of several compatibility functions.
@@ -82,8 +82,8 @@ This function has no associated import library or header file; you must call it 
 
 | Requirement | Value |
 |-----------------------------------|-------------------------------------------------------------------------------------------------------|
-| Minimum supported client| Windows Vista |
-| Minimum supported server| Windows Server 2008 |
+| Minimum supported client| Minimum Supported Client| Windows 10 RTM (with Oct 2023 security update or later) |
+| Minimum supported server| Minimum Supported server| Windows Server 2008 (with Oct 2023 security update or later) |
 | Library | Ole32.lib | 
 | DLL | Ole32.dll |
 

@@ -1,6 +1,6 @@
 ---
 title: EM_SETDISABLEOLELINKCONVERSION message (Richedit.h)
-description: Tells a rich edit control if the linked object in the OLESTREAM contained in the RTF should be disabled or not while converting OLESTREAM to IStorage.
+description: Tells a rich edit control if the linked objects in the OLESTREAM contained in the RTF should be disabled or not while converting OLESTREAM to IStorage.
 keywords:
 - EM_SETDISABLEOLELINKCONVERSION message Windows Controls
 topic_type:
@@ -17,7 +17,7 @@ ms.date: 10/03/2023
 
 # EM\_SETDISABLEOLELINKCONVERSION message
 
-Tells a rich edit control if the linked object in the OLESTREAM contained in the RTF should be disabled or not while converting OLESTREAM to [IStorage](/windows/win32/api/objidl/nn-objidl-istorage).
+Tells a rich edit control if the linked objects in the OLESTREAM contained in the RTF should be disabled or not while converting OLESTREAM to [IStorage](/windows/win32/api/objidl/nn-objidl-istorage).
 
 ```C++
 #define EM_SETDISABLEOLELINKCONVERSION		(WM_USER + 404)
@@ -30,7 +30,7 @@ Tells a rich edit control if the linked object in the OLESTREAM contained in the
 *wParam* 
 </dt> <dd>
 
-The context the passed to the callback function. May be NULL.
+The context passed to the callback function. May be NULL.
 
 </dd> <dt>
 
@@ -43,8 +43,7 @@ Pointer to a OLESTREAMQUERYCONVERTOLELINKCALLBACK callback function that queries
 
 ## Return value
 
-If the operation succeeds, the return value is a nonzero value.
-If the operation fails, the return value is zero.
+If the return value is S_OK, the linked object will be converted. If the return value is other than S_OK, the linked object will be disabled.
 
 ## Remarks
 
@@ -57,8 +56,8 @@ This message is not defined in a SDK header, so you must specify the value repre
 
 | Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client| Windows Vista |
-| Minimum supported server| Windows Server 2008 |
+| Minimum supported client| Minimum Supported Client| Windows 10 RTM (with Oct 2023 security update or later) |
+| Minimum supported server| Minimum Supported server| Windows Server 2008 (with Oct 2023 security update or later) |
 | Header<br/>                   | <dl> <dt>Richedit.h</dt> </dl> |
 
 
