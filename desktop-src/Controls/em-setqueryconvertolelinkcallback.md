@@ -43,7 +43,9 @@ A value of 1 indicates that the linked object in the OLESTREAM contained in the 
 
 ## Return value
 
-If the return value is S_OK, the linked object will be converted. If the return value is other than S_OK, the linked object will be disabled.
+If the operation succeeds, the return value is a nonzero value.
+
+If the operation fails, the return value is zero.
 
 ## Remarks
 
