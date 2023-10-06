@@ -96,7 +96,7 @@ The named property value.
 | DisableTouchRemoting  |VT_BOOL  |R/W  |No  |If **True**, gestures on multi-touch screens will not be sent to the remote server. By default, this is set to **False**.  |
 | HvSocketEnabled  |VT_BOOL  |W  |No  |If **True**, the remote server’s name, if it is a GUID, is interpreted as the VmId field of the Hyper-V socket's address where the RDP traffic is to be sent. By default, this is set to **False**.<br>For more information about Hyper-V socket's addresses, refer to [Bind to a Hyper-V socket](/virtualization/hyper-v-on-windows/user-guide/make-integration-service#bind-to-a-hyper-v-socket).  |
 | MultipenRemotingSupported  |VT_BOOL  |W  |No  |If **True**, the simultaneous injection of input from up to four pen devices is supported in the remote session. By default, this is set to **False**.  |
-| ShowGatewayInformation  |VT_BOOL  |W  |Yes  |Writing **True** to this property shows a dialog showing information about the Remote Desktop gateway.<br>Windows 11 22H2 and above: this property is no longer supported and was replaced by the ShowConnectionInformation property. |
+| ShowGatewayInformation  |VT_BOOL  |W  |Yes  |Writing **True** to this property shows a dialog showing information about the Remote Desktop gateway.<br>Windows 11 22H2 and above: this property is no longer supported and was replaced by the **ShowConnectionInformation** property. |
 
 
 ## Requirements
