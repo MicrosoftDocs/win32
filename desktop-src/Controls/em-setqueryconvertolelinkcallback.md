@@ -30,22 +30,20 @@ Gives a rich edit control a OLESTREAMQUERYCONVERTOLELINKCALLBACK callback functi
 *wParam* 
 </dt> <dd>
 
-This parameter is not used; it must be zero.
+The context passed to the callback function. May be NULL.
 
 </dd> <dt>
 
 *lParam* 
 </dt> <dd>
 
-A value of 1 indicates that the linked object in the OLESTREAM contained in the RTF should be disabled while converting OLESTREAM to IStorage. A value of 0 resets to the default behavior.
+Pointer to a OLESTREAMQUERYCONVERTOLELINKCALLBACK callback function that queries the application if the linked object in OLESTREAM contained in the RTF should be disabled or not while converting OLESTREAM to **IStorage**.
 
 </dd> </dl>
 
 ## Return value
 
-If the operation succeeds, the return value is a nonzero value.
-
-If the operation fails, the return value is zero.
+If the return value is S_OK, the linked object will be converted. If the return value is other than S_OK, the linked object will be disabled.
 
 ## Remarks
 
