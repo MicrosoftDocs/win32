@@ -155,7 +155,6 @@ The **Scan 1 Make** code is delivered in [**WM\_KEYDOWN**](wm-keydown.md)/[**WM\
 | Generic Desktop     | System Sleep                      | 0x0001         | 0x0082       | 0xE05F      |              |
 | Generic Desktop     | System Wake Up                    | 0x0001         | 0x0083       | 0xE063      |              |
 | Keyboard/Keypad     | ErrorRollOver                     | 0x0007         | 0x0001       | 0x00FF      |              |
-| Keyboard/Keypad     | POSTFail                          | 0x0007         | 0x0002       | 0x00FC      |              |
 | Keyboard/Keypad     | Keyboard A                        | 0x0007         | 0x0004       | 0x001E      | 31           |
 | Keyboard/Keypad     | Keyboard B                        | 0x0007         | 0x0005       | 0x0030      | 50           |
 | Keyboard/Keypad     | Keyboard C                        | 0x0007         | 0x0006       | 0x002E      | 48           |
@@ -204,7 +203,7 @@ The **Scan 1 Make** code is delivered in [**WM\_KEYDOWN**](wm-keydown.md)/[**WM\
 | Keyboard/Keypad     | Keyboard Pipe and Slash           | 0x0007         | 0x0031       | 0x002B      | 29           |
 | Keyboard/Keypad     | Keyboard Non-US                   | 0x0007         | 0x0032       | 0x002B      | 42           |
 | Keyboard/Keypad     | Keyboard SemiColon and Colon      | 0x0007         | 0x0033       | 0x0027      | 40           |
-| Keyboard/Keypad     | Keyboard Left Apos and Double     | 0x0007         | 0x0034       | 0x0028      | 41           |
+| Keyboard/Keypad     | Keyboard Apostrophe and Double Quotation Mark | 0x0007         | 0x0034       | 0x0028      | 41           |
 | Keyboard/Keypad     | Keyboard Grave Accent and Tilde   | 0x0007         | 0x0035       | 0x0029      | 1            |
 | Keyboard/Keypad     | Keyboard Comma                    | 0x0007         | 0x0036       | 0x0033      | 53           |
 | Keyboard/Keypad     | Keyboard Period                   | 0x0007         | 0x0037       | 0x0034      | 54           |
@@ -275,8 +274,8 @@ The **Scan 1 Make** code is delivered in [**WM\_KEYDOWN**](wm-keydown.md)/[**WM\
 | Keyboard/Keypad     | Keyboard International4           | 0x0007         | 0x008A       | 0x0079      | 132 \*Note 5  |
 | Keyboard/Keypad     | Keyboard International5           | 0x0007         | 0x008B       | 0x007B      | 131 \*Note 5  |
 | Keyboard/Keypad     | Keyboard International6           | 0x0007         | 0x008C       | 0x005C      |              |
-| Keyboard/Keypad     | Keyboard LANG1                    | 0x0007         | 0x0090       | 0x0072 \*Note 6<br>0xF2 \*Note 3, 6 |              |
-| Keyboard/Keypad     | Keyboard LANG2                    | 0x0007         | 0x0091       | 0x0071 \*Note 6<br>0xF1 \*Note 3, 6 |              |
+| Keyboard/Keypad     | Keyboard LANG1                    | 0x0007         | 0x0090       | 0x0072 \*Note 6<br>0x00F2 \*Note 3, 6 |              |
+| Keyboard/Keypad     | Keyboard LANG2                    | 0x0007         | 0x0091       | 0x0071 \*Note 6<br>0x00F1 \*Note 3, 6 |              |
 | Keyboard/Keypad     | Keyboard LANG3                    | 0x0007         | 0x0092       | 0x0078      |              |
 | Keyboard/Keypad     | Keyboard LANG4                    | 0x0007         | 0x0093       | 0x0077      |              |
 | Keyboard/Keypad     | Keyboard LANG5                    | 0x0007         | 0x0094       | 0x0076      |              |
