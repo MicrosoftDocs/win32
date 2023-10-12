@@ -59,7 +59,7 @@ The context of the user to be passed to the callback function *pQueryConvertOLEL
 
 ### pQueryConvertOLELinkCallback [in]
 
-A pointer to a A pointer to a [OLESTREAMQUERYCONVERTOLELINKCALLBACK](/windows/win32/controls/olestreamqueryconvertolelinkcallback) callback function that queries the application if linked object should be converted or not. May be NULL.
+A pointer to a [OLESTREAMQUERYCONVERTOLELINKCALLBACK](/windows/win32/controls/olestreamqueryconvertolelinkcallback) callback function that queries the application if linked object should be converted or not. May be NULL.
 
 
 ## Return value
