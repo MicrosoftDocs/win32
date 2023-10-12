@@ -17,7 +17,7 @@ ms.date: 10/03/2023
 
 # EM\_SETQUERYCONVERTOLELINKCALLBACK message
 
-Gives a rich edit control a OLESTREAMQUERYCONVERTOLELINKCALLBACK callback function that queries the application if the linked object in OLESTREAM contained in the RTF should be disabled or not while converting OLESTREAM to [IStorage](/windows/win32/api/objidl/nn-objidl-istorage).
+Gives a rich edit control a [OLESTREAMQUERYCONVERTOLELINKCALLBACK](/windows/win32/controls/olestreamqueryconvertolelinkcallback) callback function that queries the application if the linked object in OLESTREAM contained in the RTF should be disabled or not while converting OLESTREAM to [IStorage](/windows/win32/api/objidl/nn-objidl-istorage).
 
 ```C++
 #define EM_SETQUERYCONVERTOLELINKCALLBACK	(WM_USER + 403)
@@ -37,7 +37,7 @@ The context passed to the callback function. May be NULL.
 *lParam* 
 </dt> <dd>
 
-Pointer to a OLESTREAMQUERYCONVERTOLELINKCALLBACK callback function that queries the application if the linked object in OLESTREAM contained in the RTF should be disabled or not while converting OLESTREAM to **IStorage**.
+Pointer to a **OLESTREAMQUERYCONVERTOLELINKCALLBACK** callback function that queries the application if the linked object in OLESTREAM contained in the RTF should be disabled or not while converting OLESTREAM to **IStorage**.
 
 </dd> </dl>
 
