@@ -40,11 +40,9 @@ In fact, there are two ways to ensure that your app uses the version of the DLL 
 > [!TIP]
 > If you're a developer or an administrator, then you should use DLL redirection for existing applications. That's because it doesn't require any changes to the app itself. But if you're creating a new app, or updating an existing app, and you want to isolate your app from potential problems, then create a side-by-side component.
 
-## Optional: configure the registry (if you have an app manifest)
+## Optional: configure the registry
 
-A different kind of redirection is for an app to have an application manifest (also known as a side-by-side application manifest, or a fusion manifest)&mdash;or for the app to have a Win32 resource of ID *RT_MANIFEST*, Type 1. For details, see [Manifests](/windows/win32/sbscs/manifests).
-
-If an app uses that kind of redirection, then any DotLocal DLL redirection is ignored *unless DLL redirection is enabled machine-wide*. To enable DLL redirection machine-wide, you must create a new registry value. Under the key `HKLM\Software\Microsoft\Windows NT\CurrentVersion\Image File Execution Options`, create a new **DWORD** value with the name *DevOverrideEnable*. Set the value to 1, and restart your computer. Or use the command below (and restart your computer).
+To enable DLL redirection machine-wide, you must create a new registry value. Under the key `HKLM\Software\Microsoft\Windows NT\CurrentVersion\Image File Execution Options`, create a new **DWORD** value with the name *DevOverrideEnable*. Set the value to 1, and restart your computer. Or use the command below (and restart your computer).
 
 ```console
 reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options" /v DevOverrideEnable /t REG_DWORD /d 1
