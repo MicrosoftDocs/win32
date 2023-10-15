@@ -75,7 +75,7 @@ void main( )
 void printError( TCHAR* msg )
 {
   DWORD eNum;
-  TCHAR sysMsg[256];
+  TCHAR sysMsg[MAX_PATH] = {'\0'};      //  it can remain as it is: TCHAR sysMsg[256];
   TCHAR* p;
 
   eNum = GetLastError( );
@@ -87,10 +87,14 @@ void printError( TCHAR* msg )
 
   // Trim the end of the line and terminate it with a null
   p = sysMsg;
-  while( ( *p > 31 ) || ( *p == 9 ) )
-    ++p;
-  do { *p-- = 0; } while( ( p >= sysMsg ) &&
-                          ( ( *p == '.' ) || ( *p < 33 ) ) );
+  while (*p++)
+  {
+      if ((*p != 9 && *p < 32) || *p == 46)
+      {
+          *p = 0;
+          break;
+      }
+  }	
 
   // Display the message
   _tprintf( TEXT("\n\t%s failed with error %d (%s)"), msg, eNum, sysMsg );
