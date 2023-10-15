@@ -25,12 +25,12 @@ TCHAR* envVarStrings[] =
 };
 #define  ENV_VAR_STRING_COUNT  (sizeof(envVarStrings)/sizeof(TCHAR*))
 #define INFO_BUFFER_SIZE 32767
+TCHAR  infoBuf[INFO_BUFFER_SIZE] = {'\0'};
 void printError( TCHAR* msg );
 
 void main( )
 {
   DWORD i;
-  TCHAR  infoBuf[INFO_BUFFER_SIZE];
   DWORD  bufCharCount = INFO_BUFFER_SIZE;
  
   // Get and display the name of the computer. 
