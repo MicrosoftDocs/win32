@@ -18,7 +18,7 @@ The following example function lists running threads for a specified process. Fi
 
 //  Forward declarations:
 BOOL ListProcessThreads( DWORD dwOwnerPID );
-void printError( TCHAR* msg );
+void printError(const TCHAR* msg );
 
 int main( void )
 {
@@ -68,27 +68,36 @@ BOOL ListProcessThreads( DWORD dwOwnerPID )
   return( TRUE );
 }
 
-void printError( TCHAR* msg )
+void printError(const TCHAR* msg )
 {
-  DWORD eNum;
-  TCHAR sysMsg[256];
-  TCHAR* p;
+    TCHAR sysMsg[MAX_PATH] = {'\0'};
+    TCHAR* p = sysMsg;   // &sysMsg[0];
+    DWORD eNum = GetLastError();
 
-  eNum = GetLastError( );
-  FormatMessage( FORMAT_MESSAGE_FROM_SYSTEM | FORMAT_MESSAGE_IGNORE_INSERTS,
-         NULL, eNum,
-         MAKELANGID(LANG_NEUTRAL, SUBLANG_DEFAULT), // Default language
-         sysMsg, 256, NULL );
+    FormatMessage(FORMAT_MESSAGE_FROM_SYSTEM |
+        FORMAT_MESSAGE_IGNORE_INSERTS,
+        NULL, eNum,
+        MAKELANGID(LANG_NEUTRAL, SUBLANG_DEFAULT),
+        sysMsg, MAX_PATH, NULL);
 
-  // Trim the end of the line and terminate it with a null
-  p = sysMsg;
-  while( ( *p > 31 ) || ( *p == 9 ) )
-    ++p;
-  do { *p-- = 0; } while( ( p >= sysMsg ) &&
-                          ( ( *p == '.' ) || ( *p < 33 ) ) );
-
-  // Display the message
-  _tprintf( TEXT("\n  WARNING: %s failed with error %d (%s)"), msg, eNum, sysMsg );
+    // Trim the end of the line and terminate it with a null
+    // 9 - \t (horizontal tab)
+    // [0 - 32) - All characters in this area excepting 9
+    // 46 - . (dot)
+    while (*p++)   //  != &sysMsg[MAX_PATH]
+    {
+        if ((*p != 9 && *p < 32) || *p == 46)
+        {
+            *p = 0;
+            break;
+        }
+    }	
+	
+    // Display the message
+    setlocale(LC_ALL, "Russian");
+    _tprintf(TEXT("\n\t%s failed with error %d (%s)"), msg, eNum, sysMsg);
+	
+    p = nullptr;
 }
 ```
 
