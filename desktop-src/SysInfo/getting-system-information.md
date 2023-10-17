@@ -74,11 +74,10 @@ void main( )
 
 void printError(const TCHAR* msg )
 {
-  DWORD eNum;
-  TCHAR sysMsg[256];
-  TCHAR* p;
+  TCHAR sysMsg[MAX_PATH] = {'\0'};
+  TCHAR* p = sysMsg;  // or nullptr: in the case of below assignment of p = SysMsg
+  DWORD eNum = GetLastError();
 
-  eNum = GetLastError( );
   FormatMessage( FORMAT_MESSAGE_FROM_SYSTEM | 
          FORMAT_MESSAGE_IGNORE_INSERTS,
          NULL, eNum,
@@ -86,7 +85,6 @@ void printError(const TCHAR* msg )
          sysMsg, 256, NULL );
 
   // Trim the end of the line and terminate it with a null
-  p = sysMsg;
   while( ( *p > 31 ) || ( *p == 9 ) )
     ++p;
   do { *p-- = 0; } while( ( p >= sysMsg ) &&
