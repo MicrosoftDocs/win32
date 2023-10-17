@@ -217,6 +217,7 @@ Declare the following variables for the drawing routine.
     // For drawing / fills
     PAINTSTRUCT ps;
     HDC hdc;
+    HBRUSH hBrush;
     
     // For tracking dwId to points
     int index;
@@ -236,22 +237,31 @@ The memory display context *memDC* is used for storing a temporary graphics cont
     }
     hMemBmp = CreateCompatibleBitmap(hdc, client.right, client.bottom);
     hOldBmp = (HBITMAP)SelectObject(memDC, hMemBmp);          
-  
-    FillRect(memDC, &client, CreateSolidBrush(RGB(255,255,255)));
-     
+
+    hBrush = CreateSolidBrush(RGB(255, 255, 255));
+    FillRect(memDC, &client, hBrush);
+    DeleteObject(hBrush);
+
     //Draw Touched Points                
-    for (i=0; i < MAXPOINTS; i++){        
-      SelectObject( memDC, CreateSolidBrush(colors[i]));           
+    for (i=0; i < MAXPOINTS; i++){
+      hBrush = CreateSolidBrush(colors[i]);        
+      SelectObject( memDC, hBrush);           
+
       x = points[i][0];
       y = points[i][1];
       if  (x >0 && y>0){              
         Ellipse(memDC, x - radius, y - radius, x+ radius, y + radius);
       }
+
+      DeleteObject(hBrush);
     }
   
     BitBlt(hdc, 0,0, client.right, client.bottom, memDC, 0,0, SRCCOPY);      
-
     EndPaint(hWnd, &ps);
+
+    SelectObject(memDC, hOldBmp);
+    DeleteObject(hMemBmp);
+
     break;
 ```
 
