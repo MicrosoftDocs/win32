@@ -30,11 +30,11 @@ void printError(const TCHAR* msg );
 
 void main( )
 {
-  DWORD i;
+  DWORD i = 0;
+  TCHAR  infoBuf[INFO_BUFFER_SIZE];
   DWORD  bufCharCount = INFO_BUFFER_SIZE;
  
-  // Get and display the name of the computer. 
-  bufCharCount = INFO_BUFFER_SIZE;
+  // Get and display the name of the computer.
   if( !GetComputerName( infoBuf, &bufCharCount ) )
     printError( TEXT("GetComputerName") ); 
   _tprintf( TEXT("\nComputer name:      %s"), infoBuf ); 
