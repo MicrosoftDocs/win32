@@ -75,7 +75,7 @@ void main( )
 void printError(const TCHAR* msg )
 {
   TCHAR sysMsg[MAX_PATH] = {'\0'};
-  TCHAR* p = sysMsg;  // or nullptr: in the case of below assignment of p = SysMsg
+  TCHAR sysMsg[MAX_PATH] = {'\0'};      //  it can remain as it is: TCHAR sysMsg[256];
   DWORD eNum = GetLastError();
 
   FormatMessage( FORMAT_MESSAGE_FROM_SYSTEM | 
@@ -85,10 +85,15 @@ void printError(const TCHAR* msg )
          sysMsg, 256, NULL );
 
   // Trim the end of the line and terminate it with a null
-  while( ( *p > 31 ) || ( *p == 9 ) )
-    ++p;
-  do { *p-- = 0; } while( ( p >= sysMsg ) &&
-                          ( ( *p == '.' ) || ( *p < 33 ) ) );
+  p = sysMsg;
+  while (*p++)
+  {
+      if ((*p != 9 && *p < 32) || *p == 46)
+      {
+          *p = 0;
+          break;
+      }
+  }	
 
   // Display the message
   _tprintf( TEXT("\n\t%s failed with error %d (%s)"), msg, eNum, sysMsg );
