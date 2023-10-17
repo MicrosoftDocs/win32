@@ -16,7 +16,7 @@ The following example uses the [**GetComputerName**](/windows/desktop/api/Winbas
 #include <tchar.h>
 #include <stdio.h>
 
-TCHAR* envVarStrings[] =
+const TCHAR* envVarStrings[] =
 {
   TEXT("OS         = %OS%"),
   TEXT("PATH       = %PATH%"),
@@ -25,16 +25,16 @@ TCHAR* envVarStrings[] =
 };
 #define  ENV_VAR_STRING_COUNT  (sizeof(envVarStrings)/sizeof(TCHAR*))
 #define INFO_BUFFER_SIZE 32767
-void printError( TCHAR* msg );
+TCHAR  infoBuf[INFO_BUFFER_SIZE] = {'\0'};
+void printError(const TCHAR* msg );
 
 void main( )
 {
-  DWORD i;
+  DWORD i = 0;
   TCHAR  infoBuf[INFO_BUFFER_SIZE];
   DWORD  bufCharCount = INFO_BUFFER_SIZE;
  
-  // Get and display the name of the computer. 
-  bufCharCount = INFO_BUFFER_SIZE;
+  // Get and display the name of the computer.
   if( !GetComputerName( infoBuf, &bufCharCount ) )
     printError( TEXT("GetComputerName") ); 
   _tprintf( TEXT("\nComputer name:      %s"), infoBuf ); 
@@ -72,13 +72,12 @@ void main( )
   _tprintf( TEXT("\n\n"));
 }
 
-void printError( TCHAR* msg )
+void printError(const TCHAR* msg )
 {
-  DWORD eNum;
-  TCHAR sysMsg[256];
-  TCHAR* p;
+  TCHAR sysMsg[MAX_PATH] = {'\0'};
+  TCHAR sysMsg[MAX_PATH] = {'\0'};      //  it can remain as it is: TCHAR sysMsg[256];
+  DWORD eNum = GetLastError();
 
-  eNum = GetLastError( );
   FormatMessage( FORMAT_MESSAGE_FROM_SYSTEM | 
          FORMAT_MESSAGE_IGNORE_INSERTS,
          NULL, eNum,
@@ -87,10 +86,14 @@ void printError( TCHAR* msg )
 
   // Trim the end of the line and terminate it with a null
   p = sysMsg;
-  while( ( *p > 31 ) || ( *p == 9 ) )
-    ++p;
-  do { *p-- = 0; } while( ( p >= sysMsg ) &&
-                          ( ( *p == '.' ) || ( *p < 33 ) ) );
+  while (*p++)
+  {
+      if ((*p != 9 && *p < 32) || *p == 46)
+      {
+          *p = 0;
+          break;
+      }
+  }	
 
   // Display the message
   _tprintf( TEXT("\n\t%s failed with error %d (%s)"), msg, eNum, sysMsg );
