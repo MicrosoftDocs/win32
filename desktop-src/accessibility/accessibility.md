@@ -1,16 +1,15 @@
 ---
-description: The Accessibility documentation provides information for developers seeking to create Windows-based applications that can be used by as many people as possible, including those with impairments or disabilities.
-ms.assetid: 08403228-6c73-4bbe-bac2-e6910ddc5f0c
-title: Accessibility ()
+description: The Windows accessibility documentation provides information for developers seeking to create accessible Windows apps that can be used by as many people as possible, including those with impairments or disabilities.
+title: Accessible Windows apps
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 10/17/2023
 ---
 
-# Windows accessibility
+# Accessible Windows apps
 
-This section includes documentation for Windows developers designing accessible applications, assistive technology developers building tools such as screen readers and magnifiers, and software test engineers creating automated scripts for testing Windows applications.
+This section contains documentation for Windows developers designing accessible applications, assistive technology developers building tools such as screen readers and magnifiers, and software test engineers creating automated scripts for testing Windows applications.
 
-Use the resources provided here to build accessible Windows applications that can be used by as many people as possible, including those with disabilities, personal preferences, and specific work styles.
+The resources provided here can help you build Windows applications that can be used by as many people as possible, including those with disabilities, personal preferences, environmental considerations, and specific work styles.
 
 ## In this section
 

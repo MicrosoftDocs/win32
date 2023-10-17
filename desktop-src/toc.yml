@@ -41,8 +41,6 @@
         items: 
         - name: "Overview"
           href: ./accessibility/accessibility.md
-        - name: "What's new in Windows accessibility and automation"
-          href: ./accessibility/accessibility-whatsnew.md
         - name: "Developing accessible Windows applications"
           href: ./accessibility/accessibility-appdev.md
         - name: "Developing accessible UI frameworks"
@@ -54,7 +52,7 @@
         - name: "Legacy accessibility and automation technology"
           href: ./accessibility/accessibility-legacy.md
         - name: "Accessibility and automation feature reference"
-          href: ./accessibility/accessibility-reference-old.md
+          href: ./winauto/about-windows-accessibility-features.md
       - name: "Desktop App User Interface"
         items: 
         - name: "Overview"
