@@ -16,7 +16,7 @@ The following example uses the [**GetComputerName**](/windows/desktop/api/Winbas
 #include <tchar.h>
 #include <stdio.h>
 
-TCHAR* envVarStrings[] =
+const TCHAR* envVarStrings[] =
 {
   TEXT("OS         = %OS%"),
   TEXT("PATH       = %PATH%"),
@@ -25,7 +25,8 @@ TCHAR* envVarStrings[] =
 };
 #define  ENV_VAR_STRING_COUNT  (sizeof(envVarStrings)/sizeof(TCHAR*))
 #define INFO_BUFFER_SIZE 32767
-void printError( TCHAR* msg );
+TCHAR  infoBuf[INFO_BUFFER_SIZE] = {'\0'};
+void printError(const TCHAR* msg );
 
 void main( )
 {
@@ -71,7 +72,7 @@ void main( )
   _tprintf( TEXT("\n\n"));
 }
 
-void printError( TCHAR* msg )
+void printError(const TCHAR* msg )
 {
   DWORD eNum;
   TCHAR sysMsg[256];
