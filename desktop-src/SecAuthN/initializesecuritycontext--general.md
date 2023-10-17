@@ -236,6 +236,8 @@ When using the Schannel SSP, after a client application receives an authenticati
 
 [SSPI Functions](authentication-functions.md#sspi-functions)
 
+[Supporting Extended Protection for Authentication (EPA) in a service](epa-support-in-service.md)
+
 [AcceptSecurityContext (General)](acceptsecuritycontext--general.md)
 
 [AcquireCredentialsHandle (General)](acquirecredentialshandle--general.md)
