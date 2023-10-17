@@ -16,7 +16,6 @@ Use the resources provided here to build accessible Windows applications that ca
 
 | Topic | Description |
 |-|-|
-| [New Windows accessibility features, tools, documentation, and samples for developers](accessibility-whatsnew.md) | The Windows platform is constantly being updated with new accessibility and automation features for developers. |
 | [Developing accessible applications for Windows](accessibility-appdev.md) | Each Windows application framework supports numerous accessibility features that make it easier for users with disabilities, personal preferences, or specific work styles to successfully use any Windows device they choose. |
 | [Developing accessible UI frameworks for Windows](accessibility-uiframeworkdev.md) | To be usable by as many people as possible, UI frameworks built for the Windows platform should support accessibility features that make it easier for those with disabilities, personal preferences, or specific work styles to use their Windows devices successfully. |
 | [Developing assistive technology for Windows](accessibility-atdev.md) | Third-party assistive technology products—such as screen readers, magnifiers and speciality hardware—are essential tools for many users of Windows (and other Microsoft products). |
