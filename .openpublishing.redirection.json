@@ -436,8 +436,8 @@
       "redirect_document_id": false
     },
     {
-      "source_path": "desktop-src/accessibility/accessibility-whatsnew",
-      "redirect_url": "/windows/win32/accessibility/accessibility.md",
+      "source_path": "desktop-src/accessibility/accessibility-whatsnew.md",
+      "redirect_url": "/windows/win32/accessibility/accessibility",
       "redirect_document_id": false
     },
     {
