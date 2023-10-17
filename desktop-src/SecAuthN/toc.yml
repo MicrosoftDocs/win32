@@ -543,6 +543,8 @@
           href: extra-buffers-returned-by-schannel.md
         - name: "PSDK Samples Using Schannel"
           href: psdk-samples-using-schannel.md
+      - name: "Supporting Extended Protection for Authentication (EPA) in a service"
+        href: epa-support-in-service.md
     - name: "Protecting the Automatic Logon Password"
       href: protecting-the-automatic-logon-password.md
   - name: "Authentication Reference"
@@ -1291,6 +1293,8 @@
         href: /windows/desktop/api/Sspi/nf-sspi-sspiprepareforcredwrite
       - name: "SspiPromptForCredentials"
         href: /windows/desktop/api/Sspi/nf-sspi-sspipromptforcredentialsa
+      - name: "SspiSetChannelBindingFlags"
+        href: sspi-sspisetchannelbindingflags.md
       - name: "SspiUnmarshalAuthIdentity"
         href: /windows/desktop/api/Sspi/nf-sspi-sspiunmarshalauthidentity
       - name: "SspiUnmarshalCredUIContext"
