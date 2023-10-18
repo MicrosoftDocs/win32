@@ -51,7 +51,7 @@
           href: ./accessibility/accessibility-testwithuia.md
         - name: "Legacy accessibility and automation technology"
           href: ./accessibility/accessibility-legacy.md
-        - name: "Accessibility and automation feature reference"
+        - name: "Accessibility and automation for Windows developers"
           href: ./winauto/accessibility.md
       - name: "Desktop App User Interface"
         items: 

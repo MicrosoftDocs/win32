@@ -11,5 +11,5 @@
     href: accessibility-testwithuia.md
   - name: "Legacy accessibility and automation technology - MSAA to UI Automation"
     href: accessibility-legacy.md
-  - name: "Windows accessibility and automation reference"
+  - name: "Accessibility and automation for Windows developers"
     href: ../winauto/accessibility.md

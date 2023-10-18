@@ -49,7 +49,7 @@
                   tocHref: /windows/win32/accessibility/
                   topicHref: /windows/win32/accessibility
                   items:
-                    - name: Windows Accessibility features
+                    - name: Accessibility and automation for Windows developers
                       tocHref: /windows/win32/winauto/
                       topicHref: /windows/win32/winauto/accessibility
                 - name: Desktop App User Interface
