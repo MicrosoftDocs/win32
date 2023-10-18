@@ -1,5 +1,5 @@
 - name: "Windows Accessibility features"
-  href: about-windows-accessibility-features.md
+  href: accessibility.md
 - name: "Windows Accessibility features reference"
   items: 
   - name: "Accessibility parameters"

@@ -51,7 +51,7 @@
                   items:
                     - name: Windows Accessibility features
                       tocHref: /windows/win32/winauto/
-                      topicHref: /windows/win32/winauto/about-windows-accessibility-features
+                      topicHref: /windows/win32/winauto/accessibility
                 - name: Desktop App User Interface
                   # Topic in top-level TOC
                   topicHref: /windows/win32/windows-application-ui-development

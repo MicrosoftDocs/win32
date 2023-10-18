@@ -52,7 +52,7 @@
         - name: "Legacy accessibility and automation technology"
           href: ./accessibility/accessibility-legacy.md
         - name: "Accessibility and automation feature reference"
-          href: ./winauto/about-windows-accessibility-features.md
+          href: ./winauto/accessibility.md
       - name: "Desktop App User Interface"
         items: 
         - name: "Overview"

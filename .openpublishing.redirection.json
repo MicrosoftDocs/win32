@@ -412,12 +412,12 @@
     },
     {
       "source_path": "desktop-src/accessibility/accessibility-reference.md",
-      "redirect_url": "/windows/win32/winauto/about-windows-accessibility-features",
+      "redirect_url": "/windows/win32/winauto/accessibility",
       "redirect_document_id": false
     },
     {
       "source_path": "desktop-src/accessibility/accessibility-reference-old.md",
-      "redirect_url": "/windows/win32/winauto/about-windows-accessibility-features",
+      "redirect_url": "/windows/win32/winauto/accessibility",
       "redirect_document_id": false
     },
     {
