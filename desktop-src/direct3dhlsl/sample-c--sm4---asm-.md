@@ -41,7 +41,7 @@ The operands to **sample\_c** are identical to the [sample](sample--sm4---asm-.m
 
 The *srcResource* parameter must have a .r (red) swizzle. **sample\_c** operates exclusively on the red component, and returns a single value. The .r swizzle on *srcResource* indicates that the scalar result is replicated to all components.
 
-The order of operations is srcReferenceValue {ComparisonFunction} texel.R.
+The order of operations is `srcReferenceValue {ComparisonFunction} texel.R`.
 
 When a Depth Buffer is set as an input texture, the depth value shows up in the red component.
 
