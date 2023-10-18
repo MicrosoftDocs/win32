@@ -24,8 +24,7 @@ Differences between Direct3D9 and Direct3D10:
 - In Direct3D 10, textures and samplers are independent objects. Each templated-texture object implements texture sampling methods that take both the texture and the sampler as input parameters.
 
 
-
- 
+Not all formats are supported for all functions and CheckFeatureSupport should be used to see if a format is supported for a particular usage.
 
 Here is the syntax for creating all texture objects (except multisampled objects).
 
