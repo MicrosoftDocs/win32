@@ -37,7 +37,7 @@ The resources provided here can help you build Windows applications for as many 
         <td>Assistive technology applications typically need access to the protected system UI elements, or to other processes that might be running at a higher privilege level. Therefore, assistive technology applications must be trusted by the system, and must run with special privileges.</td>
     </tr>
     <tr>
-        <td valign="top">Accessibility settings<p>Each accessibility parameter and each built-in accessibility feature corresponds to a system parameter that can be set or queried with the <a href="/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a> function.
+        <td valign="top"><p>Accessibility settings</p><p>Each accessibility parameter and each built-in accessibility feature corresponds to a system parameter that can be set or queried with the <a href="/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a> function.</p>
 </td>
         <td>There are two types of settings available to users (through the Ease of Access Center in Control Panel) that are also exposed to developers.
         <ul><li><a href="accessibility-parameters.md">Accessibility parameters</a>. When set, these parameters indicate that applications should change their default behavior. Applications can check the state of an accessibility parameter to determine whether the user wants special behavior that can be provided in an application-specific manner. For example, the ShowSounds parameter indicates that an application that typically uses sound to convey important information should also provide the information visually.</li>

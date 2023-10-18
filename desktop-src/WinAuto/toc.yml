@@ -1,3 +1,11 @@
+  items:
+  - name: toc.yml
+    href: index.yml
+  - content-type:
+        pattern: mvc
+        variant: general
+        version: 0.0.0
+items:
 - name: "Windows Accessibility features"
   href: accessibility.md
 - name: "Windows Accessibility features reference"

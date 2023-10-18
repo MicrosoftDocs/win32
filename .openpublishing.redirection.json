@@ -391,6 +391,11 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "desktop-src/winauto/about-windows-accessibility-features.md",
+      "redirect_url": "/windows/win32/winauto/accessibility",
+      "redirect_document_id": false
+    },    
+    {
       "source_path": "desktop-src/accessibility-appdev.md",
       "redirect_url": "/windows/win32/accessibility/accessibility-appdev",
       "redirect_document_id": false
