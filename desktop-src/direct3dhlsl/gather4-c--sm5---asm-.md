@@ -35,7 +35,7 @@ Same as [**gather4**](gather4--sm5---asm-.md), except this instrution performs c
 
 ## Remarks
 
-See [**sample\_c**](sample-c--sm4---asm-.md) for a description of how *srcReferenceValue* gets compared against each fetched texel. Unlike **sample\_c**, **gather4\_c** returns each comparison result, rather than filtering them.  The order of operations is srcReferenceValue {ComparisonFunction} texel.R.
+For a description of how *srcReferenceValue* gets compared against each fetched texel, see [**sample\_c**](sample-c--sm4---asm-.md). Unlike **sample\_c**, **gather4\_c** returns each comparison result, rather than filtering them. The order of operations is `srcReferenceValue {ComparisonFunction} texel.R`.
 
 For TextureCube corners, where there are three real texels and a fourth must be synthesized, the synthesis must occur after the comparison step. This means the returned comparison result for the syntesized texel can be 0, 0.33 , 0.66 , or 1. Some implementations may only return either 0 or 1 for the synthesized texel. Aside from this listing of possible results, the method for synthesizing the texel is unspecified.
 
