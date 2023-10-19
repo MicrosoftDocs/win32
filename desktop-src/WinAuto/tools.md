@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Tools
 
-You can use the following tools for testing Microsoft Active Accessibility implementations. For more information about the testing tools, see [Testing Tools](testing-tools.md).
+You can use the following tools for testing Microsoft Active Accessibility implementations. For more information about the testing tools, see [Testing for accessibility](accessibility-testingtools.md).
 
 
 

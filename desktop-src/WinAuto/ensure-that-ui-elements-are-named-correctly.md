@@ -249,24 +249,8 @@ HRESULT RemoveAnnotatedNameFromControl(HWND hDlg, HWND hwndCtl)
 }
 ```
 
-
-
 ## Related topics
 
-<dl> <dt>
-
-**Conceptual**
-</dt> <dt>
-
-[Dynamic Annotation API](dynamic-annotation-api.md)
-</dt> <dt>
-
-[Providing the Name Property](providing-the-name-property.md)
-</dt> <dt>
-
-[Testing Tools](testing-tools.md)
-</dt> </dl>
-
- 
-
- 
+- [Dynamic Annotation API](dynamic-annotation-api.md)
+- [Providing the Name Property](providing-the-name-property.md)
+- [Testing for accessibility](accessibility-testingtools.md)

@@ -3187,8 +3187,8 @@
         href: host-an-msaa-windowless-activex-control.md
 - name: "Accessibility best practices"
   href: accessibility-best-practices.md
-- name: "Accessibility testing tools"
-  href: testing-tools.md
+- name: "Testing for accessibility"
+  href: accessibility-testingtools.md
   items: 
   - name: "AccEvent (Accessible Event Watcher)"
     href: accessible-event-watcher.md

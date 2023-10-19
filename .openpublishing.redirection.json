@@ -431,6 +431,11 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "desktop-src/winauto/testing-tools.md",
+      "redirect_url": "/windows/win32/winauto/accessibility-testingtools",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "desktop-src/accessibility-uiframeworkdev.md",
       "redirect_url": "/windows/win32/accessibility/accessibility-uiframeworkdev",
       "redirect_document_id": false

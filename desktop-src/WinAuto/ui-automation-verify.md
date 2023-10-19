@@ -34,24 +34,7 @@ To run **UIA Verify** as a visual tool, find VisualUIAVerifyNative.exe in the \\
 
 ## Related topics
 
-<dl> <dt>
-
 [Accessible Event Watcher](accessible-event-watcher.md)
-</dt> <dt>
-
 [Inspect](inspect-objects.md)
-</dt> <dt>
-
-[Testing Tools](testing-tools.md)
-</dt> <dt>
-
+[Testing for accessibility](accessibility-testingtools.md)
 [UI Accessibility Checker](ui-accessibility-checker.md)
-</dt> </dl>
-
- 
-
- 
-
-
-
-
