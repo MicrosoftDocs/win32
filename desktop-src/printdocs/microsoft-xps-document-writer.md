@@ -22,7 +22,7 @@ For more information about V4 print driver, see [Exploring the Driver Options in
 
 As a **user**, you would select the MXDW when you want to create an XPS document from a Windows application that does not have the option to save its content as an XPS document.
 
-As an **application developer**, you would recommend the MXDW to users who want to create XPS documents when your application does not offer the option to save as an XPS document. For more information on the XML Paper Specification and XPS documents, see [XML Paper Specification](https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf) and [XPS Specification and License Downloads](https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf).
+As an **application developer**, you would recommend the MXDW to users who want to create XPS documents when your application does not offer the option to save as an XPS document. For more information on the XML Paper Specification and XPS documents, see [XML Paper Specification](https://en.wikipedia.org/wiki/Open_XML_Paper_Specification) and [XPS Specification and License Downloads](https://en.wikipedia.org/wiki/Open_XML_Paper_Specification).
 
 The MXDW is installed automatically on Windows Vista and later versions of Windows and can be downloaded and installed on Windows XP with SP2 and Windows Server 2003.
 
@@ -40,7 +40,7 @@ The MXDW printer saves files in the Documents folder: ` C:\Users\user-name\Docum
 
 ## Related topics
 
-- [XML Paper Specification](https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf)
-- [XPS Specification and License Downloads](https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf)
+- [XML Paper Specification](https://en.wikipedia.org/wiki/Open_XML_Paper_Specification)
+- [XPS Specification and License Downloads](https://en.wikipedia.org/wiki/Open_XML_Paper_Specification)
 - [isXPS Conformance Tool](/previous-versions/dotnet/netframework-3.0/aa348104(v=vs.85))
 - [MXDW configuration settings](mxdw-configuration-settings.md)
