@@ -427,7 +427,7 @@
     },
     {
       "source_path": "desktop-src/accessibility-testwithuia.md",
-      "redirect_url": "/windows/win32/accessibility/accessibility-testwithuia",
+      "redirect_url": "/windows/win32/winauto/accessibility-testingtools",
       "redirect_document_id": false
     },
     {

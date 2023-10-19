@@ -29,8 +29,8 @@ The resources provided here can help you build Windows applications for as many 
         <td>Third-party assistive technology products—such as screen readers, magnifiers and specialty hardware—are essential tools for many users of Windows (and other Microsoft products).</td>
     </tr>
     <tr>
-        <td><a href="accessibility-testwithuia.md">Testing with UI Automation and other tools</a></td>
-        <td>Testing the accessibility of your Windows applications, assistive technology tools, and UI frameworks is a critical step in ensuring successful user experiences for people with disabilities and other limitations, as well as users who prefer keyboard interactions.</td>
+        <td><a href="accessibility-testingtools.md">Testing for accessibility</a></td>
+        <td>Testing the accessibility of your Windows applications, assistive technology (AT) tools, and UI frameworks is crucial to ensuring a successful user experience for people with various disabilities (including vision, learning, dexterity/mobility, and language/communication), situational constraints, or those who simply prefer using a keyboard.</td>
     </tr>
     <tr>
         <td><a href="uiauto-securityoverview.md">Security considerations for assistive technologies</a></td>
