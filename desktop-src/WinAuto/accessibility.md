@@ -11,24 +11,16 @@ This section contains documentation for Windows developers designing accessible 
 
 The resources provided here can help you build Windows applications for as many people as possible, including those with disabilities, personal preferences, environmental considerations, and specific work styles.
 
-
-
 :::row:::
     :::column:::
-        :::row:::
-            test
-        :::row-end:::
-        :::row:::
-            test
-        :::row-end:::
+        <a href="accessibility-appdev.md">Developing accessible applications for Windows</a>
+
+        Each Windows application framework supports numerous accessibility features that make it easier for users with disabilities, personal preferences, or specific work styles to successfully use any Windows device they choose
     :::column-end:::
     :::column:::
-        :::row:::
-            test
-        :::row-end:::
-        :::row:::
-            test
-        :::row-end:::
+        <a href="accessibility-uiframeworkdev.md">Developing accessible UI frameworks for Windows</a>
+
+        To be usable by as many people as possible, UI frameworks built for the Windows platform should support accessibility features that make it easier for those with disabilities, personal preferences, or specific work styles to use their Windows devices successfully.
     :::column-end:::
 :::row-end:::
 
