@@ -11,6 +11,28 @@ This section contains documentation for Windows developers designing accessible 
 
 The resources provided here can help you build Windows applications for as many people as possible, including those with disabilities, personal preferences, environmental considerations, and specific work styles.
 
+
+
+:::row:::
+    :::column:::
+        :::row:::
+            test
+        :::row-end:::
+        :::row:::
+            test
+        :::row-end:::
+    :::column-end:::
+    :::column:::
+        :::row:::
+            test
+        :::row-end:::
+        :::row:::
+            test
+        :::row-end:::
+    :::column-end:::
+:::row-end:::
+
+
 ## In this section
 
 <table>
