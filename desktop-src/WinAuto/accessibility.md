@@ -64,6 +64,15 @@ The resources provided here can help you build Windows applications for as many 
         - [Security Considerations for Assistive Technologies](uiauto-securityoverview.md)
     :::column-end:::
     :::column:::
+        **Legacy accessibility and automation technology - MSAA to UI Automation**
+
+        Windows accessibility and automation consist of two technologies—Microsoft Active Accessibility (MSAA) and Microsoft UI Automation. MSAA is a legacy technology introduced with Windows 95, while UI Automation is a newer, more capable technology that addresses the limitations of MSAA.
+
+        - [Legacy accessibility and automation technology - MSAA to UI Automation](accessibility-legacy.md)
+    :::column-end:::
+:::row-end:::
+:::row:::
+    :::column span="2":::
         **Accessibility settings**
 
         Each accessibility parameter and each built-in accessibility feature corresponds to a system parameter that can be set or queried with the <a href="/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a> function.
@@ -71,15 +80,6 @@ The resources provided here can help you build Windows applications for as many 
         There are two types of settings available to users (through the Ease of Access Center in Control Panel) that are also exposed to developers.
         - [Accessibility parameters](accessibility-parameters.md). When set, these parameters indicate that applications should change their default behavior. Applications can check the state of an accessibility parameter to determine whether the user wants special behavior that can be provided in an application-specific manner. For example, the ShowSounds parameter indicates that an application that typically uses sound to convey important information should also provide the information visually.
         - [Built-in Accessibility Features](built-in-accessibility-features.md). These features are built into the system or are provided as an extension to the system. They affect how the user provides keyboard and mouse input to the computer. When enabled, their functionality is available regardless of which applications are running. An example is a keyboard filter that makes it easier for users with movement impairments to type key combinations such as CTRL+ALT+DEL.
-    :::column-end:::
-:::row-end:::
-:::row:::
-    :::column span="2":::
-        **Legacy accessibility and automation technology - MSAA to UI Automation**
-
-        Windows accessibility and automation consist of two technologies—Microsoft Active Accessibility (MSAA) and Microsoft UI Automation. MSAA is a legacy technology introduced with Windows 95, while UI Automation is a newer, more capable technology that addresses the limitations of MSAA.
-
-        - [Legacy accessibility and automation technology - MSAA to UI Automation](accessibility-legacy.md)
     :::column-end:::
 :::row-end:::
 
