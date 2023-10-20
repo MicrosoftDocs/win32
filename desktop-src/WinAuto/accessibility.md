@@ -7,13 +7,15 @@ ms.date: 10/17/2023
 
 # Accessibility and automation for Windows developers
 
-This section contains documentation for Windows developers designing accessible applications, assistive technology developers building tools such as screen readers and magnifiers, and software test engineers creating automated scripts for testing Windows applications.
+This topic provides links to documentation for Windows developers designing accessible applications, assistive technology developers building tools such as screen readers and magnifiers, and software test engineers creating automated scripts for testing Windows applications.
+
+## Resources
 
 The resources provided here can help you build Windows applications for as many people as possible, including those with disabilities, personal preferences, environmental considerations, and specific work styles.
 
 :::row:::
     :::column:::
-        **Develop accessible applications for Windows**
+        ### Develop accessible applications for Windows
 
         Windows application frameworks support numerous accessibility features that you can incorporate into your application.
 
@@ -24,7 +26,7 @@ The resources provided here can help you build Windows applications for as many 
         - [Web applications](/microsoft-edge/accessibility)
     :::column-end:::
     :::column:::
-        **Develop accessible UI frameworks for Windows**
+        ### Develop accessible UI frameworks for Windows
 
         UI frameworks built for the Windows platform should always programmatic access and automation, keyboard navigation and commanding, color and theme options, and personalization through user settings.
 
