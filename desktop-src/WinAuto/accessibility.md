@@ -24,9 +24,9 @@ The resources provided here can help you build Windows applications for as many 
         - [Web applications](/microsoft-edge/accessibility)
     :::column-end:::
     :::column:::
-        [Develop accessible UI frameworks for Windows**
+        **Develop accessible UI frameworks for Windows**
 
-        UI frameworks built for the Windows platform should always support accessibility features such as programmatic access and automation, keyboard navigation and commanding, color and theme options, and personalization through user settings.
+        UI frameworks built for the Windows platform should always programmatic access and automation, keyboard navigation and commanding, color and theme options, and personalization through user settings.
 
         - [UI Automation for Win32](/windows/desktop/winauto/entry-uiauto-win32)
         - [Keyboard accessibility](/previous-versions/windows/desktop/dnacc/guidelines-for-keyboard-user-interface-design)
@@ -39,13 +39,13 @@ The resources provided here can help you build Windows applications for as many 
     :::column:::
         **Develop assistive technology for Windows**
 
-        Build screen readers, magnifiers, speech recognizers, eye trackers, and other specialty hardware that are compatible with Microsoft products for people with vision, dexterity/mobility, learning, and language/communication disabilities or limitations.
+        Build screen readers, magnifiers, speech recognizers, eye trackers, and other specialty hardware compatible with Microsoft products for people with vision, dexterity/mobility, learning, and language/communication disabilities.
 
-        - [Win32 apps](/windows/win32/winauto/windows-automation-api-portal)
-        - [UWP apps](/windows/uwp/design/accessibility/accessibility)
-        - [WinForms apps](/dotnet/framework/winforms/advanced/windows-forms-accessibility)
-        - [WPF apps](/dotnet/framework/ui-automation/)        
-        - [Web applications](/microsoft-edge/accessibility)
+        - [UI Automation for Win32](/windows/desktop/winauto/entry-uiauto-win32)
+        - [UI Automation for .NET Framework](/dotnet/framework/ui-automation/ui-automation-overview)
+        - [Security Considerations for Assistive Technologies](../winauto/uiauto-securityoverview.md)
+        - [Ease of Access Assistive Technology Registration](/windows/desktop/winauto/ease-of-access---assistive-technology-registration)
+        - [Magnification API](/previous-versions/windows/desktop/magapi/entry-magapi-sdk)
     :::column-end:::
     :::column:::
         **Test for accessibility**
