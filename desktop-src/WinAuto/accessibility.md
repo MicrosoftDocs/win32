@@ -28,7 +28,7 @@ The resources provided here can help you build Windows applications for as many 
     :::column:::
         ### Develop accessible UI frameworks for Windows
 
-        UI frameworks built for the Windows platform should always programmatic access and automation, keyboard navigation and commanding, color and theme options, and personalization through user settings.
+        UI frameworks built for the Windows platform should always support programmatic access and automation, keyboard navigation and commanding, color and theme options, and personalization through user settings.
 
         - [UI Automation for Win32](/windows/desktop/winauto/entry-uiauto-win32)
         - [Keyboard accessibility](/previous-versions/windows/desktop/dnacc/guidelines-for-keyboard-user-interface-design)
@@ -39,7 +39,7 @@ The resources provided here can help you build Windows applications for as many 
 :::row-end:::
 :::row:::
     :::column:::
-        **Develop assistive technology for Windows**
+        ### Develop assistive technology for Windows
 
         Build screen readers, magnifiers, speech recognizers, eye trackers, and other specialty hardware compatible with Microsoft products for people with vision, dexterity/mobility, learning, and language/communication disabilities.
 
@@ -50,23 +50,23 @@ The resources provided here can help you build Windows applications for as many 
         - [Magnification API](/previous-versions/windows/desktop/magapi/entry-magapi-sdk)
     :::column-end:::
     :::column:::
-        **Test for accessibility**
+        ### Test for accessibility
 
         Testing the accessibility of your Windows applications, assistive technology (AT) tools, and UI frameworks ensures that your application provides adequate programmatic access to and information about all UI elements, and that all of your application scenarios can be accomplished using only keyboard focus and navigation.
 
-        - [Testing for accessibility](accessibility-testingtools.md)
+        - [Test for accessibility](accessibility-testingtools.md)
     :::column-end:::
 :::row-end:::
 :::row:::
     :::column:::
-        **Security considerations for assistive technologies**
+        ### Security considerations for assistive technologies
 
         Assistive technology applications typically need access to protected system UI elements, or other processes that might be running at a higher privilege level, and must run with special privileges to be trusted by the system.
 
         - [Security Considerations for Assistive Technologies](uiauto-securityoverview.md)
     :::column-end:::
     :::column:::
-        **Legacy accessibility and automation technology - MSAA to UI Automation**
+        ### Accessibility and automation frameworks overview
 
         Windows accessibility and automation consist of two technologies—Microsoft Active Accessibility (MSAA) and Microsoft UI Automation. MSAA is a legacy technology introduced with Windows 95, while UI Automation is a newer, more capable technology that addresses the limitations of MSAA.
 
@@ -75,7 +75,7 @@ The resources provided here can help you build Windows applications for as many 
 :::row-end:::
 :::row:::
     :::column span="2":::
-        **Accessibility settings**
+        ### Accessibility settings
 
         Each accessibility parameter and each built-in accessibility feature corresponds to a system parameter that can be set or queried with the <a href="/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a> function.
 
