@@ -27,14 +27,14 @@ Sent by a common control to its parent window when an event has occurred or the 
 *wParam* 
 </dt> <dd>
 
-The identifier of the common control sending the message. This identifier is not guaranteed to be unique. An application should use the **hwndFrom** or **idFrom** member of the [**NMHDR**](/windows/desktop/api/richedit/ns-richedit-nmhdr) structure (passed as the *lParam* parameter) to identify the control.
+The identifier of the common control sending the message. This identifier is not guaranteed to be unique. An application should use the **hwndFrom** or **idFrom** member of the [**NMHDR**](/windows/desktop/api/winuser/ns-winuser-nmhdr) structure (passed as the *lParam* parameter) to identify the control.
 
 </dd> <dt>
 
 *lParam* 
 </dt> <dd>
 
-A pointer to an [**NMHDR**](/windows/desktop/api/richedit/ns-richedit-nmhdr) structure that contains the notification code and additional information. For some notification messages, this parameter points to a larger structure that has the **NMHDR** structure as its first member.
+A pointer to an [**NMHDR**](/windows/desktop/api/winuser/ns-winuser-nmhdr) structure that contains the notification code and additional information. For some notification messages, this parameter points to a larger structure that has the **NMHDR** structure as its first member.
 
 </dd> </dl>
 
