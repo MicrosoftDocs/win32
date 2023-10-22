@@ -22,7 +22,7 @@ void printError(const TCHAR* msg );
 
 int main( void )
 {
-  ListProcessThreads(GetCurrentProcessId() );
+  ListProcessThreads(::GetCurrentProcessId() );
   return 0;
 }
 
@@ -32,7 +32,7 @@ BOOL ListProcessThreads( DWORD dwOwnerPID )
   THREADENTRY32 te32; 
  
   // Take a snapshot of all running threads  
-  hThreadSnap = CreateToolhelp32Snapshot( TH32CS_SNAPTHREAD, 0 ); 
+  hThreadSnap = ::CreateToolhelp32Snapshot( TH32CS_SNAPTHREAD, 0 ); 
   if( hThreadSnap == INVALID_HANDLE_VALUE ) 
     return( FALSE ); 
  
@@ -41,10 +41,10 @@ BOOL ListProcessThreads( DWORD dwOwnerPID )
  
   // Retrieve information about the first thread,
   // and exit if unsuccessful
-  if( !Thread32First( hThreadSnap, &te32 ) ) 
+  if( !::Thread32First( hThreadSnap, &te32 ) ) 
   {
     printError( TEXT("Thread32First") );  // Show cause of failure
-    CloseHandle( hThreadSnap );     // Must clean up the snapshot object!
+    ::CloseHandle( hThreadSnap );     // Must clean up the snapshot object!
     return( FALSE );
   }
 
@@ -59,12 +59,12 @@ BOOL ListProcessThreads( DWORD dwOwnerPID )
       _tprintf( TEXT("\n     base priority  = %d"), te32.tpBasePri ); 
       _tprintf( TEXT("\n     delta priority = %d"), te32.tpDeltaPri ); 
     }
-  } while( Thread32Next(hThreadSnap, &te32 ) );
+  } while( ::Thread32Next(hThreadSnap, &te32 ) );
 
   _tprintf( TEXT("\n"));
 
 //  Don't forget to clean up the snapshot object.
-  CloseHandle( hThreadSnap );
+  ::CloseHandle( hThreadSnap );
   return( TRUE );
 }
 
@@ -76,9 +76,9 @@ void printError(const TCHAR* msg )
 
     FormatMessage(FORMAT_MESSAGE_FROM_SYSTEM |
         FORMAT_MESSAGE_IGNORE_INSERTS,
-        NULL, eNum,
+        nullptr, eNum,
         MAKELANGID(LANG_NEUTRAL, SUBLANG_DEFAULT),
-        sysMsg, MAX_PATH, NULL);
+        sysMsg, MAX_PATH, nullptr);
 
     // Trim the end of the line and terminate it with a null
     // 9 - \t (horizontal tab)
@@ -94,7 +94,6 @@ void printError(const TCHAR* msg )
     }	
 	
     // Display the message
-    setlocale(LC_ALL, "Russian");
     _tprintf(TEXT("\n\t%s failed with error %d (%s)"), msg, eNum, sysMsg);
 	
     p = nullptr;
