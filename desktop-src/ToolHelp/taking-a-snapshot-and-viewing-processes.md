@@ -38,7 +38,7 @@ BOOL GetProcessList( )
   DWORD dwPriorityClass;
 
   // Take a snapshot of all processes in the system.
-  hProcessSnap = CreateToolhelp32Snapshot( TH32CS_SNAPPROCESS, 0 );
+  hProcessSnap = ::CreateToolhelp32Snapshot( TH32CS_SNAPPROCESS, 0 );
   if( hProcessSnap == INVALID_HANDLE_VALUE )
   {
     printError( TEXT("CreateToolhelp32Snapshot (of processes)") );
@@ -50,10 +50,10 @@ BOOL GetProcessList( )
 
   // Retrieve information about the first process,
   // and exit if unsuccessful
-  if( !Process32First( hProcessSnap, &pe32 ) )
+  if( !::Process32First( hProcessSnap, &pe32 ) )
   {
     printError( TEXT("Process32First") ); // show cause of failure
-    CloseHandle( hProcessSnap );          // clean the snapshot object
+    ::CloseHandle( hProcessSnap );          // clean the snapshot object
     return( FALSE );
   }
 
@@ -67,15 +67,15 @@ BOOL GetProcessList( )
 
     // Retrieve the priority class.
     dwPriorityClass = 0;
-    hProcess = OpenProcess( PROCESS_ALL_ACCESS, FALSE, pe32.th32ProcessID );
+    hProcess = ::OpenProcess( PROCESS_ALL_ACCESS, FALSE, pe32.th32ProcessID );
     if( hProcess == NULL )
       printError( TEXT("OpenProcess") );
     else
     {
-      dwPriorityClass = GetPriorityClass( hProcess );
+      dwPriorityClass = ::GetPriorityClass( hProcess );
       if( !dwPriorityClass )
         printError( TEXT("GetPriorityClass") );
-      CloseHandle( hProcess );
+      ::CloseHandle( hProcess );
     }
 
     _tprintf( TEXT("\n  Process ID        = 0x%08X"), pe32.th32ProcessID );
@@ -89,9 +89,9 @@ BOOL GetProcessList( )
     ListProcessModules( pe32.th32ProcessID );
     ListProcessThreads( pe32.th32ProcessID );
 
-  } while( Process32Next( hProcessSnap, &pe32 ) );
+  } while( ::Process32Next( hProcessSnap, &pe32 ) );
 
-  CloseHandle( hProcessSnap );
+  ::CloseHandle( hProcessSnap );
   return( TRUE );
 }
 
@@ -102,7 +102,7 @@ BOOL ListProcessModules( DWORD dwPID )
   MODULEENTRY32 me32;
 
   // Take a snapshot of all modules in the specified process.
-  hModuleSnap = CreateToolhelp32Snapshot( TH32CS_SNAPMODULE, dwPID );
+  hModuleSnap = ::CreateToolhelp32Snapshot( TH32CS_SNAPMODULE, dwPID );
   if( hModuleSnap == INVALID_HANDLE_VALUE )
   {
     printError( TEXT("CreateToolhelp32Snapshot (of modules)") );
@@ -114,10 +114,10 @@ BOOL ListProcessModules( DWORD dwPID )
 
   // Retrieve information about the first module,
   // and exit if unsuccessful
-  if( !Module32First( hModuleSnap, &me32 ) )
+  if( !::Module32First( hModuleSnap, &me32 ) )
   {
     printError( TEXT("Module32First") );  // show cause of failure
-    CloseHandle( hModuleSnap );           // clean the snapshot object
+    ::CloseHandle( hModuleSnap );           // clean the snapshot object
     return( FALSE );
   }
 
@@ -133,9 +133,9 @@ BOOL ListProcessModules( DWORD dwPID )
     _tprintf( TEXT("\n     Base address   = 0x%08X"), (DWORD) me32.modBaseAddr );
     _tprintf( TEXT("\n     Base size      = %d"),             me32.modBaseSize );
 
-  } while( Module32Next( hModuleSnap, &me32 ) );
+  } while( ::Module32Next( hModuleSnap, &me32 ) );
 
-  CloseHandle( hModuleSnap );
+  ::CloseHandle( hModuleSnap );
   return( TRUE );
 }
 
@@ -145,7 +145,7 @@ BOOL ListProcessThreads( DWORD dwOwnerPID )
   THREADENTRY32 te32; 
  
   // Take a snapshot of all running threads  
-  hThreadSnap = CreateToolhelp32Snapshot( TH32CS_SNAPTHREAD, 0 ); 
+  hThreadSnap = ::CreateToolhelp32Snapshot( TH32CS_SNAPTHREAD, 0 ); 
   if( hThreadSnap == INVALID_HANDLE_VALUE ) 
     return( FALSE ); 
  
@@ -154,10 +154,10 @@ BOOL ListProcessThreads( DWORD dwOwnerPID )
  
   // Retrieve information about the first thread,
   // and exit if unsuccessful
-  if( !Thread32First( hThreadSnap, &te32 ) ) 
+  if( !::Thread32First( hThreadSnap, &te32 ) ) 
   {
     printError( TEXT("Thread32First") ); // show cause of failure
-    CloseHandle( hThreadSnap );          // clean the snapshot object
+    ::CloseHandle( hThreadSnap );          // clean the snapshot object
     return( FALSE );
   }
 
@@ -173,33 +173,40 @@ BOOL ListProcessThreads( DWORD dwOwnerPID )
       _tprintf( TEXT("\n     Delta priority = %d"), te32.tpDeltaPri ); 
       _tprintf( TEXT("\n"));
     }
-  } while( Thread32Next(hThreadSnap, &te32 ) ); 
+  } while( ::Thread32Next(hThreadSnap, &te32 ) ); 
 
-  CloseHandle( hThreadSnap );
+  ::CloseHandle( hThreadSnap );
   return( TRUE );
 }
 
 void printError( const TCHAR* msg )
 {
-  DWORD eNum;
-  TCHAR sysMsg[256];
-  TCHAR* p;
+  TCHAR sysMsg[MAX_PATH] = {'\0'};
+  TCHAR* p = sysMsg;   // &sysMsg[0];
+  DWORD eNum = ::GetLastError();
 
-  eNum = GetLastError( );
-  FormatMessage( FORMAT_MESSAGE_FROM_SYSTEM | FORMAT_MESSAGE_IGNORE_INSERTS,
-         NULL, eNum,
+  ::FormatMessage( FORMAT_MESSAGE_FROM_SYSTEM | FORMAT_MESSAGE_IGNORE_INSERTS,
+         nullptr, eNum,
          MAKELANGID(LANG_NEUTRAL, SUBLANG_DEFAULT), // Default language
-         sysMsg, 256, NULL );
+         sysMsg, MAX_PATH, nullptr );
 
   // Trim the end of the line and terminate it with a null
-  p = sysMsg;
-  while( ( *p > 31 ) || ( *p == 9 ) )
-    ++p;
-  do { *p-- = 0; } while( ( p >= sysMsg ) &&
-                          ( ( *p == '.' ) || ( *p < 33 ) ) );
+  // 9 - \t (horizontal tab)
+  // [0 - 32) - All characters in this area excepting 9
+  // 46 - . (dot)
+  while (*p++)   //  != &sysMsg[MAX_PATH]
+  {
+      if ((*p != 9 && *p < 32) || *p == 46)
+      {
+          *p = 0;
+          break;
+      }
+  }
 
   // Display the message
   _tprintf( TEXT("\n  WARNING: %s failed with error %d (%s)"), msg, eNum, sysMsg );
+
+  p = nullptr;
 }
 ```
 
