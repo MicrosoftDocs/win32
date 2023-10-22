@@ -34,7 +34,7 @@ BOOL ListProcessModules( DWORD dwPID )
   MODULEENTRY32 me32; 
  
 //  Take a snapshot of all modules in the specified process. 
-  hModuleSnap = CreateToolhelp32Snapshot( TH32CS_SNAPMODULE, dwPID ); 
+  hModuleSnap = ::CreateToolhelp32Snapshot( TH32CS_SNAPMODULE, dwPID ); 
   if( hModuleSnap == INVALID_HANDLE_VALUE ) 
   { 
     printError( TEXT("CreateToolhelp32Snapshot (of modules)") ); 
@@ -46,10 +46,10 @@ BOOL ListProcessModules( DWORD dwPID )
  
 //  Retrieve information about the first module, 
 //  and exit if unsuccessful 
-  if( !Module32First( hModuleSnap, &me32 ) ) 
+  if( !::Module32First( hModuleSnap, &me32 ) ) 
   { 
     printError( TEXT("Module32First") );  // Show cause of failure 
-    CloseHandle( hModuleSnap );     // Must clean up the snapshot object! 
+    ::CloseHandle( hModuleSnap );     // Must clean up the snapshot object! 
     return( FALSE ); 
   } 
  
@@ -65,12 +65,12 @@ BOOL ListProcessModules( DWORD dwPID )
     _tprintf( TEXT("\n     base address   = 0x%08X"), (DWORD) me32.modBaseAddr ); 
     _tprintf( TEXT("\n     base size      = %d"),             me32.modBaseSize ); 
  
-  } while( Module32Next( hModuleSnap, &me32 ) ); 
+  } while( ::Module32Next( hModuleSnap, &me32 ) ); 
 
     _tprintf( TEXT("\n"));
  
 //  Do not forget to clean up the snapshot object. 
-  CloseHandle( hModuleSnap ); 
+  ::CloseHandle( hModuleSnap ); 
   return( TRUE ); 
 } 
  
@@ -83,9 +83,9 @@ void printError(const TCHAR* msg)
 
     FormatMessage(FORMAT_MESSAGE_FROM_SYSTEM |
         FORMAT_MESSAGE_IGNORE_INSERTS,
-        NULL, eNum,
+        nullptr, eNum,
         MAKELANGID(LANG_NEUTRAL, SUBLANG_DEFAULT),
-        sysMsg, MAX_PATH, NULL);
+        sysMsg, MAX_PATH, nullptr);
 
     // Trim the end of the line and terminate it with a null
     // 9 - \t (horizontal tab)
