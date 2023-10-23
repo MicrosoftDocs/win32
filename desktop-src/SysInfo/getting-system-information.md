@@ -31,27 +31,26 @@ void printError(const TCHAR* msg );
 void main( )
 {
   DWORD i = 0;
-  TCHAR  infoBuf[INFO_BUFFER_SIZE];
   DWORD  bufCharCount = INFO_BUFFER_SIZE;
  
   // Get and display the name of the computer.
-  if( !GetComputerName( infoBuf, &bufCharCount ) )
+  if( !::GetComputerName( infoBuf, &bufCharCount ) )
     printError( TEXT("GetComputerName") ); 
   _tprintf( TEXT("\nComputer name:      %s"), infoBuf ); 
  
   // Get and display the user name. 
   bufCharCount = INFO_BUFFER_SIZE;
-  if( !GetUserName( infoBuf, &bufCharCount ) )
+  if( !::GetUserName( infoBuf, &bufCharCount ) )
     printError( TEXT("GetUserName") ); 
   _tprintf( TEXT("\nUser name:          %s"), infoBuf ); 
  
   // Get and display the system directory. 
-  if( !GetSystemDirectory( infoBuf, INFO_BUFFER_SIZE ) )
+  if( !::GetSystemDirectory( infoBuf, INFO_BUFFER_SIZE ) )
     printError( TEXT("GetSystemDirectory") ); 
   _tprintf( TEXT("\nSystem Directory:   %s"), infoBuf ); 
  
   // Get and display the Windows directory. 
-  if( !GetWindowsDirectory( infoBuf, INFO_BUFFER_SIZE ) )
+  if( !::GetWindowsDirectory( infoBuf, INFO_BUFFER_SIZE ) )
     printError( TEXT("GetWindowsDirectory") ); 
   _tprintf( TEXT("\nWindows Directory:  %s"), infoBuf ); 
  
@@ -59,7 +58,7 @@ void main( )
   _tprintf( TEXT("\n\nSmall selection of Environment Variables:") ); 
   for( i = 0; i < ENV_VAR_STRING_COUNT; ++i )
   {
-    bufCharCount = ExpandEnvironmentStrings(envVarStrings[i], infoBuf,
+    bufCharCount = ::ExpandEnvironmentStrings(envVarStrings[i], infoBuf,
         INFO_BUFFER_SIZE ); 
     if( bufCharCount > INFO_BUFFER_SIZE )
       _tprintf( TEXT("\n\t(Buffer too small to expand: \"%s\")"), 
@@ -75,17 +74,19 @@ void main( )
 void printError(const TCHAR* msg )
 {
   TCHAR sysMsg[MAX_PATH] = {'\0'};
-  TCHAR sysMsg[MAX_PATH] = {'\0'};      //  it can remain as it is: TCHAR sysMsg[256];
-  DWORD eNum = GetLastError();
+  TCHAR* p = sysMsg;
+  DWORD eNum = ::GetLastError();
 
-  FormatMessage( FORMAT_MESSAGE_FROM_SYSTEM | 
+  ::FormatMessage( FORMAT_MESSAGE_FROM_SYSTEM | 
          FORMAT_MESSAGE_IGNORE_INSERTS,
-         NULL, eNum,
+         nullptr, eNum,
          MAKELANGID(LANG_NEUTRAL, SUBLANG_DEFAULT),
-         sysMsg, 256, NULL );
+         sysMsg, MAX_PATH, nullptr );
 
   // Trim the end of the line and terminate it with a null
-  p = sysMsg;
+  // 9 - \t (horizontal tab)
+  // [0 - 32) - All characters in this area excepting 9
+  // 46 - . (dot)
   while (*p++)
   {
       if ((*p != 9 && *p < 32) || *p == 46)
@@ -97,6 +98,8 @@ void printError(const TCHAR* msg )
 
   // Display the message
   _tprintf( TEXT("\n\t%s failed with error %d (%s)"), msg, eNum, sysMsg );
+
+  p = nullptr;
 }
 ```
 
