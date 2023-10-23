@@ -105,7 +105,7 @@ Here are some specific areas of your app to test for the Narrator scenario:
 ## Related topics
 
 - [Accessible Event Watcher](accessible-event-watcher.md)
-- [Testing Tools](testing-tools.md)
+- [Testing for accessibility](accessibility-testingtools.md)
 - [UI Accessibility Checker](ui-accessibility-checker.md)
 - [UI Automation Verify](ui-automation-verify.md)
 - [Microsoft Accessibility](https://www.microsoft.com/accessibility/)

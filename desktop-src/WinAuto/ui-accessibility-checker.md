@@ -50,5 +50,5 @@ Requires .NET Framework 2.0 or later.
 
 - [Accessible Event Watcher](accessible-event-watcher.md)
 - [Inspect](inspect-objects.md)
-- [Testing Tools](testing-tools.md)
+- [Testing for accessibility](accessibility-testingtools.md)
 - [UI Automation Verify](ui-automation-verify.md)

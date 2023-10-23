@@ -1,26 +1,19 @@
 ---
-title: Testing Tools
-description: Describes tools for testing the accessibility implementation of your application to ensure that the UI is fully accessible to client applications, and to users who access your application though the keyboard.
-ms.assetid: abacbec4-6ccd-4853-afcd-a92a6656f393
-keywords:
-- accessibility testing tools
-- testing tools,accessibility
-- accessibility testing
-- UIA
-- MSAA
+description: Overview of how to use UI Automation and other tools to test your apps.
+title: Testing for accessibility
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 10/18/2023
 ---
 
-# Testing Tools
+# Testing for accessibility
 
-Programmatic access and keyboard access are critical requirements for supporting accessibility in your application. Without adequate access, many users of assistive technology (AT), such as screen reader and on-screen keyboard users, would be unable to use your application. Ensure that you thoroughly test the accessibility implementation of your application to confirm that it provides adequate information about its UI elements, and that all of your application scenarios can be accomplished with only the keyboard.
+Testing the accessibility of your Windows applications, assistive technology (AT) tools, and UI frameworks is crucial to ensuring a successful user experience for people with various disabilities (including vision, learning, dexterity/mobility, and language/communication), situational constraints, or those who simply prefer using a keyboard.
 
-In addition to verifying the programmatic access, some of the tools can help you assess the implementation of your application's keyboard access. However, tools alone are not enough. It is important to manually verify that all scenarios can be accomplished with only the keyboard.
+Both programmatic access and keyboard access are crucial for supporting accessibility. You should ensure that your application provides adequate programmatic access to and information about all UI elements, and that all of your application scenarios can be accomplished using only keyboard focus and navigation.
 
-For programmatic and keyboard requirements, there is no one tool that can verify your full implementation. Try to use a variety of tools to verify your implementation and, when possible, find users of assistive technologies, such as screen readers, to use your UI.
+In addition to verifying the programmatic access, some of the tools listed here can also help assess your application's support for keyboard access and navigation. However, it is also important to, when possible, verify your implementation with users of assistive technologies, such as screen readers.
 
-This section describes the available tools for testing Microsoft UI Automation (UIA) and Microsoft Active Accessibility (MSAA) implementations.
+The following describes the various tools that can be used to test the accessibility implementation of both Windows and web applications.
 
 ## Tools
 
@@ -52,8 +45,3 @@ The following tools are still available in the Windows SDK and are documented he
 ### Obsolete tools
 
 The **Accessible Explorer** and **UI Spy** tools are obsolete and no longer available. Use [**Inspect**](inspect-objects.md) or [**AccScope**](accscope.md) instead.
-
-## Related topics
-
-- [Accessibility Developer Hub](https://developer.microsoft.com/windows/accessible-apps)
-- [Microsoft accessibility](https://www.microsoft.com/accessibility/)
