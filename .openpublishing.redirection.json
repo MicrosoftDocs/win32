@@ -406,7 +406,17 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "desktop-src/accessibility/accessibility-appdev.md",
+      "redirect_url": "/windows/win32/winauto/accessibility",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "desktop-src/accessibility-atdev.md",
+      "redirect_url": "/windows/win32/winauto/accessibility",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "desktop-src/accessibility/accessibility-atdev.md",
       "redirect_url": "/windows/win32/winauto/accessibility",
       "redirect_document_id": false
     },
@@ -416,8 +426,13 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "desktop-src/accessibility/accessibility-legacy.md",
+      "redirect_url": "/windows/win32/winauto/accessibility",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "desktop-src/accessibility-reference.md",
-      "redirect_url": "/windows/win32/accessibility/accessibility-reference",
+      "redirect_url": "/windows/win32/winauto/accessibility",
       "redirect_document_id": false
     },
     {
@@ -447,6 +462,11 @@
     },
     {
       "source_path": "desktop-src/accessibility-uiframeworkdev.md",
+      "redirect_url": "/windows/win32/winauto/accessibility",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "desktop-src/accessibility/accessibility-uiframeworkdev.md",
       "redirect_url": "/windows/win32/winauto/accessibility",
       "redirect_document_id": false
     },
