@@ -38,21 +38,7 @@
       - name: "Overview"
         href: ./desktop-app-technologies.md
       - name: "Accessibility"
-        items: 
-        - name: "Overview"
-          href: ./accessibility/accessibility.md
-        - name: "Developing accessible Windows applications"
-          href: ./accessibility/accessibility-appdev.md
-        - name: "Developing accessible UI frameworks"
-          href: accessibility/accessibility-uiframeworkdev.md
-        - name: "Developing assistive technology for Windows"
-          href: ./accessibility/accessibility-atdev.md
-        - name: "Testing for accessibility"
-          href: ./accessibility/accessibility-testwithuia.md
-        - name: "Legacy accessibility and automation technology"
-          href: ./accessibility/accessibility-legacy.md
-        - name: "Accessibility and automation for Windows developers"
-          href: ./winauto/accessibility.md
+        href: ./winauto/accessibility.md
       - name: "Desktop App User Interface"
         items: 
         - name: "Overview"

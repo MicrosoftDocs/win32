@@ -367,7 +367,7 @@
       },
     {
       "source_path": "desktop-src/winauto/windows-accessibility-features.md",
-      "redirect_url": "/windows/win32/accessibility",
+      "redirect_url": "/windows/win32/winauto/accessibility",
       "redirect_document_id": false
     },
     {
@@ -387,7 +387,12 @@
     },
     {
       "source_path": "desktop-src/accessibility/index.md",
-      "redirect_url": "/windows/win32/accessibility/accessibility",
+      "redirect_url": "/windows/win32/winauto/accessibility",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "desktop-src/accessibility/accessibility.md",
+      "redirect_url": "/windows/win32/winauto/accessibility",
       "redirect_document_id": false
     },
     {
@@ -426,13 +431,18 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "desktop-src/accessibility/accessibility-testwithuia.md",
+      "redirect_url": "/windows/win32/winauto/accessibility-testingtools",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "desktop-src/accessibility-testwithuia.md",
-      "redirect_url": "/windows/win32/winauto/accessibility",
+      "redirect_url": "/windows/win32/winauto/accessibility-testingtools",
       "redirect_document_id": false
     },
     {
       "source_path": "desktop-src/winauto/testing-tools.md",
-      "redirect_url": "/windows/win32/winauto/accessibility",
+      "redirect_url": "/windows/win32/winauto/accessibility-testingtools",
       "redirect_document_id": false
     },
     {
