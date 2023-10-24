@@ -13,7 +13,7 @@ XInput enables Windows applications to process controller interactions (includin
 This topic provides a brief overview of the capabilities of XInput and how to set it up in an application. It includes the following:
 
 -   [Introduction to XInput](#introduction-to-xinput)
-    -   [The Xbox Controller](#the-xbox-controller)
+    -   [Controller Layout](#controller-layout)
 -   [Using XInput](#using-xinput)
     -   [Multiple Controllers](#multiple-controllers)
     -   [Getting Controller State](#getting-controller-state)
