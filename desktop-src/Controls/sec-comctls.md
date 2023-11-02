@@ -84,7 +84,7 @@ The following table lists features that, if used incorrectly, can compromise the
 [Security](/windows/desktop/security)
 </dt> <dt>
 
-[TechNet Security Resources](https://www.microsoft.com/technet/security/Bulletin/MS10-059.mspx)
+[Microsoft Security Response Center](https://www.microsoft.com/msrc)
 </dt> <dt>
 
 [Best Practices for the Security APIs](/windows/desktop/SecBP/best-practices-for-the-security-apis)
