@@ -25,7 +25,7 @@ A new troubleshooting tool is available for download.
 <span id="WMI_Diagnosis_Utility"></span><span id="wmi_diagnosis_utility"></span><span id="WMI_DIAGNOSIS_UTILITY"></span>WMI Diagnosis Utility
 </dt> <dd>
 
-This utility examines the current state of the WMI service and related components, DCOM settings, and registry settings on the local computer. The utility reports problems and offers suggestions for repair. For more information and to download the utility, see [WMI Diagnosis Utility](https://www.microsoft.com/downloads/en/details.aspx?familyid=d7ba3cd6-18d1-4d05-b11e-4c64192ae97d&displaylang=en).
+This utility examines the current state of the WMI service and related components, DCOM settings, and registry settings on the local computer. The utility reports problems and offers suggestions for repair. For more information and to download the utility, see [WMI Troubleshooting](/windows/win32/wmisdk/wmi-troubleshooting).
 
 </dd> </dl>
 

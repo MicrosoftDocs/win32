@@ -119,7 +119,7 @@ One further note: Application Verifier is only as good as the code paths you run
 **Application Verifier:**
 
 -   [Overview](/previous-versions/ms220948(v=vs.80))
--   [Download](https://www.microsoft.com/downloads/details.aspx?FamilyID=c4a25ab9-649d-4a1b-b4a7-c9d8b095df18&amp;DisplayLang=en)
+-   [Application Verifier](/windows-hardware/drivers/devtest/application-verifier)
 -   [Application Verifier for Microsoft Visual Studio 2008/.NET Framework 3.5](/previous-versions/ms220948(v=vs.80))
 
     **Note:** the Application Verifier version that ships in Visual Studio is quite dated. If possible, use the standalone package instead. For this reason, future versions of Visual Studio will no longer have embedded Application Verifier.

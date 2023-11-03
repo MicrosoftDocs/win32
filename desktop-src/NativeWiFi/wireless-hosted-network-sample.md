@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Wireless Hosted Network Sample
 
-A wireless Hosted Network sample that demonstrates the use of wireless Hosted Network functions is included with the Microsoft Windows Software Development Kit (SDK). The latest version of the Windows SDK is available from the [Download Center](https://www.microsoft.com/downloads/details.aspx?FamilyID=f26b1aa4-741a-433a-9be5-fa919850bdbf).
+A wireless Hosted Network sample that demonstrates the use of wireless Hosted Network functions is included with the Microsoft Windows Software Development Kit (SDK). The latest version of the Windows SDK is available from the [Download Center](https://www.microsoft.com/download/details.aspx?id=14477).
 
 By default, the wireless Hosted Network sample source code is installed in the following directory:
 
