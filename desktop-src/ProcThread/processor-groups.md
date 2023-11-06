@@ -36,7 +36,7 @@ To specify affinity for all processes associated with a job object, use the [**S
 
 A logical processor is identified by its group number and its group-relative processor number. This is represented by a [**PROCESSOR\_NUMBER**](/windows/desktop/api/WinNT/ns-winnt-processor_number) structure. Numeric processor numbers used by legacy functions are group-relative.
 
-For a discussion of operating system architecture changes to support more than 64 processors, see the white paper [Supporting Systems That Have More Than 64 Processors](https://www.microsoft.com/whdc/system/Sysinternals/MoreThan64proc.mspx).
+For a discussion of operating system architecture changes to support more than 64 processors, see the white paper [Supporting Systems That Have More Than 64 Processors](https://plexuk.co.uk/?p=400).
 
 For a list of new functions and structures that support processor groups, see [What's New in Processes and Threads](what-s-new-in-processes-and-threads.md).
 
