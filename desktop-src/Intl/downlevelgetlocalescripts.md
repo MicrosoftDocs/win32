@@ -96,7 +96,7 @@ Here are some examples of inputs and outputs for this function, assuming a suffi
 
 The list does not contain the Latin script unless it is an essential part of the writing system used for a locale. However, Latin characters are often used in the context of locales for which they are not native, as for a foreign business name. In the example above for Hindi in India, the only script retrieved is "Deva" (for Devanagari), although Latin characters can also appear in Hindi text. The [**DownlevelVerifyScripts**](downlevelverifyscripts.md) function has a special flag to address that case.
 
-The required header file and DLL are part of the ["Microsoft Internationalized Domain Name (IDN) Mitigation APIs"](https://www.microsoft.com/downloads/details.aspx?FamilyID=AD6158D7-DDBA-416A-9109-07607425A815&displaylang=en) download, available at the [MSDN Download Center](https://www.microsoft.com/?ref=go).
+The required header file and DLL are part of the ["Microsoft Internationalized Domain Name (IDN) Mitigation APIs"](https://archive.org/details/idndl.x86) download available from [archive.org](https://archive.org/).
 
 ## Requirements
 
