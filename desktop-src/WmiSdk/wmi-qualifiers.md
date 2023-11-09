@@ -31,7 +31,7 @@ For more information on applying qualifiers to your WMI classes, see [Adding a Q
 
 ## Example
 
-The following PowerShell code, taken from the [TechNet gallery](https://Gallery.TechNet.Microsoft.Com/Get-WMI-Class-qualifiers-239970e7), describes how to retrieve qualifiers from a WMI class.
+The following PowerShell code describes how to retrieve qualifiers from a WMI class.
 
 
 ```PowerShell

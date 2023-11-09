@@ -1156,10 +1156,6 @@ You can monitor process performance with the [**Win32\_PerfFormattedData\_PerfPr
 
 ## Examples
 
-The [List the Properties of WMI Classes](https://Gallery.TechNet.Microsoft.Com/a7918bf3-bc03-4553-990f-aba13cf196b7) PowerShell code sample on TechNet Gallery describes the **Win32\_Process** class, and outputs the results in Excel format.
-
-The [Terminate running process on multiple servers](https://Gallery.TechNet.Microsoft.Com/698c2512-2bbd-40ee-b3bf-a9cebdad2faf) terminates a process running on a single or multiple computers.
-
 In the [Example: Calling a Provider Method](../wmisdk/example--calling-a-provider-method.md) topic, the code uses C++ to call **Win32\_Process** to create a process.
 
 Availability is the simplest form of process monitoring: with this approach, you simply ensure that the process is running. When you monitor for process availability, you typically retrieve a list of processes running on a computer and then verify that a particular process is still active. If the process is active, it is considered available. If the process is not active, it is not available. The following VBScript sample monitors process availability by checking the list of processes running on a computer and issuing a notification if the Database.exe process is not found.

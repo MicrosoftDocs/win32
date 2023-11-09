@@ -33,7 +33,7 @@ The basic options for writing a minidump are as follows:
 
     If you implement a custom routine for unhandled exceptions, you are strongly urged to use the [**ReportFault**](/windows/desktop/api/errorrep/nf-errorrep-reportfault) function in the exception handler to also send an automated minidump to WER. The **ReportFault** function handles all of the issues of connecting to and sending the minidump to WER. Not sending minidumps to WER violates the requirements of Games for Windows.
 
-    For more information on how WER works, see [How Windows Error Reporting Works](https://www.microsoft.com/whdc/maintain/WER/WERWorks.mspx). For an explanation of registration details, see [Introducing Windows Error Reporting](https://msdn.microsoft.com/) on MSDN's [ISV Zone](https://msdn.microsoft.com/).
+    For more info about WER, see [Windows Error Reporting](/windows/win32/wer/windows-error-reporting).
 
 -   Use a product from the Microsoft Visual Studio Team System. On the **Debug** menu, click **Save Dump As** to save a copy of a dump. Use of a locally saved dump is only an option for in-house testing and debugging.
 -   Add code to your project. Add the [**MiniDumpWriteDump**](/windows/desktop/api/minidumpapiset/nf-minidumpapiset-minidumpwritedump) function and the appropriate exception handling code to save and send a minidump directly to the developer. This article demonstrates how to implement this option. However, note that **MiniDumpWriteDump** does not currently work with managed code and is only available on Windows XP, Windows Vista, Windows 7.

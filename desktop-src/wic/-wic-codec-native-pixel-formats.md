@@ -614,9 +614,5 @@ Custom image formats can use pixel formats that are not natively provided by WIC
 [How to Write a WIC-Enabled CODEC](-wic-howtowriteacodec.md)
 </dt> <dt>
 
-[HD Photo Specification 1.0](https://www.microsoft.com/whdc/xps/wmphoto.mspx)
+[HD Photo format overview](https://www.microsoft.com/whdc/xps/wmphoto.mspx)
 </dt> </dl>
-
- 
-
- 

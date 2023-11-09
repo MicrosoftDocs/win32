@@ -204,10 +204,6 @@ This property is inherited from [**CIM\_Product**](cim-product.md).
 
 The **Win32\_ComputerSystemProduct** class is derived from [**CIM\_Product**](cim-product.md).
 
-## Examples
-
-The [Get-BrokenHardware.ps1](https://Gallery.TechNet.Microsoft.Com/dbb678f4-b95b-45c3-bc8b-2ae2d052448e) PowerShell sample on TechNet Gallery uses to **Win32\_ComputerSystemProduct** to retrieve a list of non-working hardware using WMI.
-
 ## Requirements
 
 

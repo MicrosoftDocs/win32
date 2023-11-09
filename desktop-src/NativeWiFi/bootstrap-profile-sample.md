@@ -92,17 +92,5 @@ This sample is configured to use Wi-Fi Protected Access 2 security running in En
 
 ## Related topics
 
-<dl> <dt>
-
-[Wireless profile samples](wireless-profile-samples.md)
-</dt> <dt>
-
-[Joining a Windows Vista Wireless Client to a Domain](https://www.microsoft.com/technet/network/wifi/vista_bootstrap_wireless.mspx)
-</dt> </dl>
-
- 
-
- 
-
-
-
+* [Wireless profile samples](wireless-profile-samples.md)
+* [Wireless Access Deployment](/windows-server/networking/core-network-guide/cncg/wireless/e-wireless-access-deployment)

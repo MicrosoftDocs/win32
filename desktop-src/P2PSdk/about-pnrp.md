@@ -15,9 +15,7 @@ IPv6 support is required by PNRP and is the only Internet Protocol native to the
 > [!Note]  
 > Applications using PNRP in an environment with a firewall require exception groups that cover the port specific to the application, as well as port '3540-UDP' for PNRP. These exception groups should be enabled whenever the application is running.
 
- 
-
-While PNRP 2.0 is native to the Windows Vista and Windows Server 2008 platforms, Windows XP users must download Windows Update [KB920342](https://www.microsoft.com/downloads/details.aspx?familyid=55219164-EC71-4A32-A648-4ED2582EBC7C) to upgrade to PNRP 2.0.
+PNRP 2.0 is native to the Windows Vista and Windows Server 2008 platforms.
 
  
 

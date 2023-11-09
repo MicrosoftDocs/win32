@@ -87,8 +87,6 @@ The printer driver is unknown.
 
 ## Examples
 
-The[Install a Printer Driver not Found in Drivers Cab](https://Gallery.TechNet.Microsoft.Com/1aac6333-a794-48d3-b7da-46d87df56ee1) VBScript code example installs a hypothetical printer using a print driver not found in Drivers.cab.
-
 The following VBScript sample installs the printer driver for an Apple LaserWriter 8500 printer.
 
 

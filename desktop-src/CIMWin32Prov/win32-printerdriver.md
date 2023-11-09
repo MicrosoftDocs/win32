@@ -590,12 +590,9 @@ Users can uninstall a printer driver by deleting a corresponding instance of thi
 
 ## Examples
 
-The [Manage Printer and Printer Drivers](https://Gallery.TechNet.Microsoft.Com/710bb2ad-9a8d-42cb-b142-cda2c1452548) VBScript sample manages printer drivers and printer ports.
-
-The following [discussion on the TechNet forums](https://social.technet.microsoft.com/Forums/scriptcenter/6210fa0b-0c32-4bce-a79c-dfe835922613/create-printers-in-powershell-with-wmi-win32printer-createinstance?forum=ITCG) describes how to create a printer and upload drivers from a server.
+See [Print driver installation from print server](/answers/questions/866106/print-driver-installation-from-print-server).
 
 The following VBScript sample lists all the printer drivers that have been installed on a computer.
-
 
 ```VB
 strComputer = "." 

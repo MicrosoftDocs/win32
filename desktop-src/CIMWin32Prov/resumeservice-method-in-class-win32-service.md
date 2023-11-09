@@ -227,8 +227,6 @@ You must use the proper method to start a service that has been stopped or to re
 
 ## Examples
 
-The [Resume AutoStart Services that are Paused](https://Gallery.TechNet.Microsoft.Com/413f2896-e7f3-4b3e-96cb-5abdc9bb6c36) VBScript sample restarts any auto-start services that have been paused.
-
 The following VBScript code sample describes how to resume a paused service from instances of [**Win32\_Service**](win32-service.md).
 
 > [!Note]  

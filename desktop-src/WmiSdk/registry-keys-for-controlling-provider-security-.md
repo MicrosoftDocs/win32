@@ -37,7 +37,7 @@ The WMI shared provider host process is not secured with a [*service SID*](gloss
 
 </dd> </dl>
 
-**Windows Vista and Windows Server 2008:** To access the registry keys and values for controlling secure and compatible modes for the provider host process, you must install the security update in [KB 959454](https://support.microsoft.com/kb/959454). For more information, see the [Microsoft Security Bulletin MS09-012](https://www.microsoft.com/technet/security/bulletin/ms09-012.mspx).
+**Windows Vista and Windows Server 2008:** To access the registry keys and values for controlling secure and compatible modes for the provider host process, you must install the security update in [KB 959454](https://support.microsoft.com/kb/959454). For more information, see the [Microsoft Security Bulletin MS09-012](/security-updates/securitybulletins/2009/ms09-012).
 
 ## Registry Keys and Values
 

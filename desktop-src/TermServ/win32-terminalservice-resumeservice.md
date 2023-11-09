@@ -228,10 +228,6 @@ You must use the proper method to start a service that has been stopped or to re
 -   If a service is currently stopped, you must use the [**StartService**](win32-terminalservice-startservice.md) method to restart it; **ResumeService** cannot start a service that is currently stopped.
 -   If a service is paused, you must use **ResumeService**. If you use the [**StartService**](win32-terminalservice-startservice.md) method on a paused service, you receive the message, "The service is already running." However, the service remains paused until the resume service control code is sent to it.
 
-## Examples
-
-The [Resume AutoStart Services that are Paused](https://Gallery.TechNet.Microsoft.Com/413f2896-e7f3-4b3e-96cb-5abdc9bb6c36) VBScript sample restarts any auto-start services that have been paused.
-
 ## Requirements
 
 

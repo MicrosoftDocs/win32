@@ -9,9 +9,9 @@ ms.date: 05/31/2018
 
 # Scripting Access to WMI
 
-Scripts can access all WMI classes for hardware and software objects. Windows Script Host (WSH) scripts can perform operations on file system objects, manipulate network printers, or change environment variables. You can find a variety of administrator tasks and brief guidance on how to accomplish them in WMI at [WMI Tasks for Scripts and Applications](wmi-tasks-for-scripts-and-applications.md). For more information and examples, see the TechNet ScriptCenter [Script Repository](https://www.microsoft.com/technet/scriptcenter/scripts/default.mspx).
+Scripts can access all WMI classes for hardware and software objects. Windows Script Host (WSH) scripts can perform operations on file system objects, manipulate network printers, or change environment variables. You can find a variety of administrator tasks and brief guidance on how to accomplish them in WMI at [WMI Tasks for Scripts and Applications](wmi-tasks-for-scripts-and-applications.md). For more information and examples, see the TechNet ScriptCenter Script Repository.
 
-If you are new to scripting or to WMI-specific scripting, see the TechNet ScriptCenter section [Getting Started](https://www.microsoft.com/technet/scriptcenter/hubs/start.mspx).
+If you are new to scripting or to WMI-specific scripting, see the TechNet ScriptCenter section Getting Started.
 
 With the [Scripting API for WMI](scripting-api-for-wmi.md), you can develop quick, simple scripts or complex applications. Scripting gives you the same capability of getting information or of configuring most objects in an enterprise as you would have through a C++ or C# application. For more information, see [Scripting in WMI](/windows/desktop/WmiSdk/creating-a-wmi-script).
 

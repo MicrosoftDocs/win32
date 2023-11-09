@@ -604,7 +604,7 @@ Poorly written or malware drivers can severely affect the stability and security
 
 Both 32-bit and 64-bit native versions of all kernel-mode drivers are needed per requirement 2.2.
 
-More information about Microsoft driver signing programs can be found at the [Windows Hardware Developer portal](https://www.microsoft.com/whdc/winlogo/hwrequirements.mspx).
+More information about Microsoft driver signing programs can be found at the [Windows Hardware Dev Center](https://developer.microsoft.com/windows/hardware/).
 
 </dd> </dl>
 

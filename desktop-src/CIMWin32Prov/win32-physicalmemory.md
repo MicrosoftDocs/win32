@@ -1451,10 +1451,6 @@ The **Win32\_PhysicalMemory** class is derived from [**CIM\_PhysicalMemory**](ci
 
 ## Examples
 
-The [Get-ComputerInfo - Query Computer Info From Local/Remote Computers - (WMI)](https://Gallery.TechNet.Microsoft.Com/Get-ComputerInfo-Query-23dd6042) PowerShell sample on TechNet Gallery uses a number of calls to hardware and software, including **Win32\_PhysicalMemory**, to display information about a local or remote system.
-
-The [Server Report](https://Gallery.TechNet.Microsoft.Com/Server-Report-7b4ac2fb) PowerShell sample on TechNet gallery uses a number of calls to hardware and software, including **Win32\_PhysicalMemory**, to gather server information and publish in Word document.
-
 The following PowerShell code sample retrieves information regarding the physical memory of the local computer.
 
 

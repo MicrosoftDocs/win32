@@ -231,8 +231,6 @@ The scripting code required to stop a service is almost identical to the code re
 
 ## Examples
 
-The [Pause Services Running Under a Specific Account](https://Gallery.TechNet.Microsoft.Com/12a256dd-39da-4690-b3f0-f0adccaf25f1) VBScript sample Pauses all services running under the hypothetical service account Netsvc.
-
 ## Requirements
 
 

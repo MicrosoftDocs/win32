@@ -107,7 +107,7 @@ WMI [IP Route Provider](/previous-versions/windows/desktop/wmiiprouteprov/ip-rou
 <span id="Changes_to_remote_connections"></span><span id="changes_to_remote_connections"></span><span id="CHANGES_TO_REMOTE_CONNECTIONS"></span>Changes to remote connections
 </dt> <dd>
 
-Connecting to a WMI namespace on a remote computer running Windows Vista may require changes to settings for [Windows Firewall](https://www.microsoft.com/technet/itsolutions/network/wf/default.mspx), [User Account Control](/previous-versions/aa905108(v=msdn.10)), or DCOM. For more information, see [Connecting to WMI Remotely Starting with Vista](connecting-to-wmi-remotely-starting-with-vista.md).
+Connecting to a WMI namespace on a remote computer running Windows Vista may require changes to settings for [Windows Firewall](/windows/security/operating-system-security/network-security/windows-firewall/windows-firewall-with-advanced-security), [User Account Control](/previous-versions/aa905108(v=msdn.10)), or DCOM. For more information, see [Connecting to WMI Remotely Starting with Vista](connecting-to-wmi-remotely-starting-with-vista.md).
 
 </dd> <dt>
 

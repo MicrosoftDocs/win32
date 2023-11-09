@@ -153,7 +153,7 @@ WMI will not overwrite an existing folder when executing the Copy method. This m
 
 ## Examples
 
-The followng code sample, taken from the [Copy a Folder Using WMI](https://Gallery.TechNet.Microsoft.Com/71b8f517-0240-42a2-be5c-e5a3921604d2), uses the Copy method to copy the folder C:\\Scripts to D:\\Archive.
+The followng code sample uses the Copy method to copy the folder C:\\Scripts to D:\\Archive.
 
 
 ```VB
