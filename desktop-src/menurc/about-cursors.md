@@ -39,7 +39,6 @@ Windows provides a set of standard cursors that are available for any applicatio
 | **IDC\_WAIT**<br/>MAKEINTRESOURCE(32514) | :::image type="icon" source="./images/IDC_WAIT.png"::: Busy |
 | **IDC\_CROSS**<br/>MAKEINTRESOURCE(32515) | :::image type="icon" source="./images/IDC_CROSS.png"::: Precision select |
 | **IDC\_UPARROW**<br/>MAKEINTRESOURCE(32516) | :::image type="icon" source="./images/IDC_UPARROW.png"::: Alternate select |
-| MAKEINTRESOURCE(32631) | :::image type="icon" source="./images/IDC_PEN.png"::: Handwriting |
 | **IDC\_SIZENWSE**<br/>MAKEINTRESOURCE(32642) | :::image type="icon" source="./images/IDC_SIZENWSE.png"::: Diagonal resize 1 |
 | **IDC\_SIZENESW**<br/>MAKEINTRESOURCE(32643) | :::image type="icon" source="./images/IDC_SIZENESW.png"::: Diagonal resize 2 |
 | **IDC\_SIZEWE**<br/>MAKEINTRESOURCE(32644) | :::image type="icon" source="./images/IDC_SIZEWE.png"::: Horizontal resize |
@@ -51,6 +50,24 @@ Windows provides a set of standard cursors that are available for any applicatio
 | **IDC\_HELP**<br/>MAKEINTRESOURCE(32651) | :::image type="icon" source="./images/IDC_HELP.png"::: Help select |
 | **IDC\_PIN**<br/>MAKEINTRESOURCE(32671) | :::image type="icon" source="./images/IDC_PIN.png"::: Location select |
 | **IDC\_PERSON**<br/>MAKEINTRESOURCE(32672) | :::image type="icon" source="./images/IDC_PERSON.png"::: Person select |
+
+Additional cursors:
+
+| Value | Meaning |
+|---|---|
+| MAKEINTRESOURCE(32631) | :::image type="icon" source="./images/OCR_NWPEN.png"::: A pen cursor. |
+| MAKEINTRESOURCE(32652) | :::image type="icon" source="./images/OCR_RDRVERT.png"::: A scrolling cursor with arrows pointing north and south. |
+| MAKEINTRESOURCE(32653) | :::image type="icon" source="./images/OCR_RDRHORZ.png"::: A scrolling cursor with arrows pointing west and east. |
+| MAKEINTRESOURCE(32654) | :::image type="icon" source="./images/OCR_RDR2DIM.png"::: A scrolling cursor with arrows pointing north, south, east, and west. |
+| MAKEINTRESOURCE(32655) | :::image type="icon" source="./images/OCR_RDRNORTH.png"::: A scrolling cursor with an arrow pointing north. |
+| MAKEINTRESOURCE(32656) | :::image type="icon" source="./images/OCR_RDRSOUTH.png"::: A scrolling cursor with an arrow pointing south. |
+| MAKEINTRESOURCE(32657) | :::image type="icon" source="./images/OCR_RDRWEST.png"::: A scrolling cursor with an arrow pointing west. |
+| MAKEINTRESOURCE(32658) | :::image type="icon" source="./images/OCR_RDREAST.png"::: A scrolling cursor with an arrow pointing east. |
+| MAKEINTRESOURCE(32659) | :::image type="icon" source="./images/OCR_RDRNORTHWEST.png"::: A scrolling cursor with arrows pointing north and west. |
+| MAKEINTRESOURCE(32660) | :::image type="icon" source="./images/OCR_RDRNORTHEAST.png"::: A scrolling cursor with arrows pointing north and east. |
+| MAKEINTRESOURCE(32661) | :::image type="icon" source="./images/OCR_RDRSOUTHWEST.png"::: A scrolling cursor with arrows pointing south and west. |
+| MAKEINTRESOURCE(32662) | :::image type="icon" source="./images/OCR_RDRSOUTHEAST.png"::: A scrolling cursor with arrows pointing south and east. |
+| MAKEINTRESOURCE(32663) | :::image type="icon" source="./images/OCR_AUTORUN.png"::: An arrow cd cursor. |
 
 See [Guidelines](/windows/win32/uxguide/inter-mouse) for information on recommended usage of standard cursors.
 
