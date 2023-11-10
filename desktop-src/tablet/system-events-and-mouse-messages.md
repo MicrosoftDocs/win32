@@ -20,7 +20,7 @@ When your application receives a mouse message (such as WM\_LBUTTONDOWN), it may
 The value returned from [**GetMessageExtraInfo**](/windows/win32/api/winuser/nf-winuser-getmessageextrainfo) needs to be mask-checked against 0xFFFFFF00, and then compared with 0xFF515700. The following definitions may make this clearer:
 
 ```C++
-#define MI_WP_SIGNATUR 0xFF515700
+#define MI_WP_SIGNATURE 0xFF515700
 #define SIGNATURE_MASK 0xFFFFFF00
 #define IsPenEvent(dw) (((dw) & SIGNATURE_MASK) == MI_WP_SIGNATURE
 ```
