@@ -51,7 +51,7 @@ Windows provides a set of standard cursors that are available for any applicatio
 | **IDC\_PIN**<br/>MAKEINTRESOURCE(32671) | :::image type="icon" source="./images/IDC_PIN.png"::: Location select |
 | **IDC\_PERSON**<br/>MAKEINTRESOURCE(32672) | :::image type="icon" source="./images/IDC_PERSON.png"::: Person select |
 
-Additional cursors:
+Additional cursors that are available for any application:
 
 | Value | Meaning |
 |---|---|
