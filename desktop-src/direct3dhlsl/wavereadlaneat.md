@@ -52,7 +52,9 @@ The resulting value is the result of *expr*. It will be uniform if *laneIndex* i
 
 ## Remarks
 
-This function is effectively a broadcast of the value in the *laneIndex*'th lane.
+If laneIndex is uniform, this is effectively a broadcast operation, otherwise it is a shuffle operation.
+
+The result is undefined on a helper lane, or if the lane referred to by laneIndex is inactive or a helper lane.
 
 This function is supported from shader model 6.0 in all shader stages.
 
