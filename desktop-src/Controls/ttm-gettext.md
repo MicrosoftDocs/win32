@@ -27,7 +27,9 @@ Retrieves the information a tooltip control maintains about a tool.
 <dl> <dt>
 
 *wParam* 
-</dt> <dd>The number of **TCHARs**, including the terminating **NULL**, to copy to the buffer pointed to by **lpszText**. </dd> <dt>
+</dt> <dd>
+The number of **TCHARs**, including the terminating **NULL**, to copy to the buffer pointed to by **lpszText**.
+</dd> <dt>
 
 *lParam* 
 </dt> <dd>
