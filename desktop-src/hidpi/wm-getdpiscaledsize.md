@@ -20,7 +20,7 @@ ms.date: 05/31/2018
 
 This message tells the operating system that the window will be sized to dimensions other than the default.
 
-This message is sent to top-level windows with a [DPI\_AWARENESS\_CONTEXT](dpi-awareness-context.md) of Per Monitor v2 before a [**WM\_DPICHANGED**](wm-dpichanged.md) message is sent, and allows the window to compute its desired size for the pending DPI change. As linear DPI scaling is the default behavior, this is only useful in scenarios where the window wants to scale non-linearly. If the application responds to this message, the resulting size will be the candidate rectangle send to **WM\_DPICHANGED**.
+This message is sent to top-level windows with a [DPI\_AWARENESS\_CONTEXT](dpi-awareness-context.md) of Per Monitor v2 before a [**WM\_DPICHANGED**](wm-dpichanged.md) message is sent, and allows the window to compute its desired size for the pending DPI change. As linear DPI scaling is the default behavior, this is only useful in scenarios where the window wants to scale non-linearly. If the application responds to this message, the resulting size will be the candidate rectangle sent to **WM\_DPICHANGED**.
 
 Use this message to alter the size of the rect that is provided with [**WM\_DPICHANGED**](wm-dpichanged.md).
 
