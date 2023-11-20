@@ -17,6 +17,7 @@ A simple error-reporting function, `printError`, displays the reason for any fai
 #include <windows.h>
 #include <tlhelp32.h>
 #include <tchar.h>
+#include <stdio.h>
 
 //  Forward declarations:
 BOOL GetProcessList( );
