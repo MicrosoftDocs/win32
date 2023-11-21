@@ -38,6 +38,8 @@ The following table displays the Microsoft Schannel Provider support of TLS prot
 | Windows 10, version 20H2                              | Enabled        | Enabled        | Enabled        | Enabled        | Enabled        | Enabled        | Not Supported  | Not Supported  |
 | Windows 10, version 21H1                              | Enabled        | Enabled        | Enabled        | Enabled        | Enabled        | Enabled        | Not Supported  | Not Supported  |
 | Windows 10, version 21H2                              | Enabled        | Enabled        | Enabled        | Enabled        | Enabled        | Enabled        | Not Supported  | Not Supported  |
+| Windows 10, version 22H1                              | Enabled        | Enabled        | Enabled        | Enabled        | Enabled        | Enabled        | Not Supported  | Not Supported  |
+| Windows 10, version 22H2                              | Enabled        | Enabled        | Enabled        | Enabled        | Enabled        | Enabled        | Not Supported  | Not Supported  |
 | Windows Server 2022                                   | Enabled        | Enabled        | Enabled        | Enabled        | Enabled        | Enabled        | Enabled        | Enabled        |
 | Windows 11                                            | Enabled        | Enabled        | Enabled        | Enabled        | Enabled        | Enabled        | Enabled        | Enabled        |
 
