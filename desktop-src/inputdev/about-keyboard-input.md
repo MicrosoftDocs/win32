@@ -304,7 +304,7 @@ The **Scan 1 Make** code is delivered in [**WM\_KEYDOWN**](wm-keydown.md)/[**WM\
 | Consumer            | AC Forward                        | 0x000C         | 0x0225       | 0xE069      |              |
 | Consumer            | AC Stop                           | 0x000C         | 0x0226       | 0xE068      |              |
 | Consumer            | AC Refresh                        | 0x000C         | 0x0227       | 0xE067      |              |
-| Consumer            | AC Previous Link                  | 0x000C         | 0x022A       | 0xE066      |              |
+| Consumer            | AC Bookmarks                      | 0x000C         | 0x022A       | 0xE066      |              |
 
 Notes:
 
