@@ -458,7 +458,7 @@ For more information, see the "Main instruction" section in the specific UI comp
     -   **If an option is optional, consider adding "(optional)" to the label.**
     -   **If an option is strongly recommended, add "(recommended)" to the label.** Doing so means the setting is optional, but should be set anyway.
     -   **If an option is intended only for advanced users, consider adding "(advanced)" to the label.**
--   You may specify units (seconds, connections, and so on) in parenthesis after the label.
+-   You may specify units (seconds, connections, and so on) in parentheses after the label.
 
     ![screen shot of label: initial size (mb) ](images/text-ui-image44.png)
 

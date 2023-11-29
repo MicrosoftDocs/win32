@@ -200,7 +200,7 @@ private:
         // Put the property name onto the stack.
         PushPdd(szPropertyName);
 
-        // Call TdhGetProperty using a the current PROPERTY_DATA_DESCRIPTOR
+        // Call TdhGetProperty using the current PROPERTY_DATA_DESCRIPTOR
         // stack (should have just one item on the stack right now). If
         // successful, put the property data into m_propertyBuffer.
         ULONG status = GetProperty();

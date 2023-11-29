@@ -252,7 +252,7 @@ void CDrawingObject::ApplyManipulationDelta(
 
     _dScalingFactor *= scaleDelta;
 
-    _dRotationAngle -= rotationDelta; // we are substracting because Y-axis is down
+    _dRotationAngle -= rotationDelta; // we are subtracting because Y-axis is down
 }
 ```
 

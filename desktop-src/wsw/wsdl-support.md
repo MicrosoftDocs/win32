@@ -639,7 +639,7 @@ To Create [**WS\_ENDPOINT\_ADDRESS**](/windows/desktop/api/WebServices/ns-webser
 ``` syntax
 WsCreateReader      // Create a WS_XML_READER
 Initialize a WS_XML_READER_BUFFER_INPUT
-WsSetInput          // Set the encoding and input of the reader to generated endpointReferenceString
+WsSetInput          // Set the encoding and input of the reader to generate endpointReferenceString
 WsReadType        // Read WS_ENDPOINT_ADDRESS from the reader
     // Using WS_ELEMENT_TYPE_MAPPING, WS_ENDPOINT_ADDRESS_TYPE and generated endpointAddressDescription, 
 ```

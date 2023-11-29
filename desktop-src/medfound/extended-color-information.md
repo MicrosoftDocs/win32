@@ -30,7 +30,7 @@ To reproduce colors accurately, the following information is needed:
 DirectShow, Media Foundation, and DirectX Video Acceleration (DXVA) all have different ways to represent video formats. Fortunately, it is easy to translate the color-space information from one to another, because the relevant enumerations are the same.
 
 -   DXVA 1.0: Color-space information is given in the [**DXVA\_ExtendedFormat**](/windows-hardware/drivers/ddi/dxva/ns-dxva-_dxva_extendedformat) structure.
--   DXVA 2.0: Color-space information is given in the [**DXVA2\_ExtendedFormat**](/windows/desktop/api/dxva2api/ns-dxva2api-dxva2_extendedformat) structure structure. This structure is identical to the DXVA 1.0 structure, and the meaning of the fields is the same.
+-   DXVA 2.0: Color-space information is given in the [**DXVA2\_ExtendedFormat**](/windows/desktop/api/dxva2api/ns-dxva2api-dxva2_extendedformat) structure. This structure is identical to the DXVA 1.0 structure, and the meaning of the fields is the same.
 -   DirectShow: Color-space information is given in the [**VIDEOINFOHEADER2**](/previous-versions/windows/desktop/api/dvdmedia/ns-dvdmedia-videoinfoheader2) structure. The information is stored in the upper 24 bits of the **dwControlFlags** field. If color-space information is present, set the **AMCONTROL\_COLORINFO\_PRESENT** flag in **dwControlFlags**. When this flag is set, the **dwControlFlags** field should be interpreted as a [**DXVA\_ExtendedFormat**](/windows-hardware/drivers/ddi/dxva/ns-dxva-_dxva_extendedformat) structure, except that the lower 8 bits of the structure are reserved for **AMCONTROL\_xxx** flags.
 -   Video capture drivers: Color-space information is given in the [**KS\_VIDEOINFOHEADER2**](/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-tagks_videoinfoheader2) structure. This structure is identical to the [**VIDEOINFOHEADER2**](/previous-versions/windows/desktop/api/dvdmedia/ns-dvdmedia-videoinfoheader2) structure, and the meaning of the fields is the same.
 -   Media Foundation: Color-space information is stored as attributes in the media type:
@@ -98,7 +98,7 @@ Other components might need to use the color-space information in a media type:
 
 -   Software color-space converters should use color-space information when selecting a conversion algorithm.
 -   Video mixers, such as the enhanced video renderer (EVR) mixer, should use the color information when mixing video streams from different types of content.
--   The DXVA video processing APIs and DDIs enable the caller to specify color-space information information. The GPU should use this information when it performs hardward video mixing.
+-   The DXVA video processing APIs and DDIs enable the caller to specify color-space information. The GPU should use this information when it performs hardward video mixing.
 
 ## Related topics
 

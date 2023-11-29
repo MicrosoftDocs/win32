@@ -25,7 +25,7 @@ ms.date: 05/31/2018
 
 The **MDM\_ClientCertificateInstall\_PFXCertInstall01\_01** class enables the enterprise to use unique IDs to differentiate different certificate install requests.
 
-Required for PFX certificate installation. Calling Delete on the this node, should delete the certificates and the keys that were installed by the corresponding PFX blob.
+Required for PFX certificate installation. Calling Delete on this node should delete the certificates and the keys that were installed by the corresponding PFX blob.
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties.
 

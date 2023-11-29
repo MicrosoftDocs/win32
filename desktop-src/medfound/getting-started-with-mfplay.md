@@ -65,7 +65,7 @@ HRESULT PlayVideo(HWND hwnd, const WCHAR* sURL)
 The [**MFPCreateMediaPlayer**](/windows/desktop/api/mfplay/nf-mfplay-mfpcreatemediaplayer) function creates a new instance of the MFPlay player object. The function takes the following parameters:
 
 -   The first parameter is the URL of the file to open. This can be a local file or a file on a media server.
--   The second parameter specifies whether playback starts automatically. By setting this paremeter to **TRUE**, the file will play as soon as MFPlay loads it.
+-   The second parameter specifies whether playback starts automatically. By setting this parameter to **TRUE**, the file will play as soon as MFPlay loads it.
 -   The third parameter sets various options. For the default options, pass zero (0).
 -   The fourth parameter is a pointer to an optional callback interface. This parameter can be **NULL**, as shown. The callback is described in the section [Receiving Events From the Player](#receiving-events-from-the-player).
 -   The fifth parameter is a handle to the application window. If the media file contains a video stream, the video will appear inside the client area of this window. For audio-only playback, this parameter can be **NULL**.

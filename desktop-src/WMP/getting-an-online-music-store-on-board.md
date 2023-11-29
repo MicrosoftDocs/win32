@@ -148,7 +148,7 @@ Here are some common problems that can cause your store to fail validation testi
 
 -   Failure to transition from test servers to production servers. This leads to many problems such as missing pages, invalid IIS and security settings, and test accounts that no longer work.
 -   The Buy link (or Shop link) in the Now Playing area is invalid. This can cause your store to fail validation even when everything else is working.
--   Microsoft's validation team will test several purchasing scenarios ranging from small purchases to very large purchases. You must provide a rechargeable way for them to act as a consumer within your store. Your store can not be validated if the validation team does not have enough purchase credits to validate all of these scenarios.
+-   Microsoft's validation team will test several purchasing scenarios ranging from small purchases to very large purchases. You must provide a rechargeable way for them to act as a consumer within your store. Your store cannot be validated if the validation team does not have enough purchase credits to validate all of these scenarios.
 
 For a more complete list of common on-boarding problems and frequently asked questions compiled by the Windows Media Player Services Virtual Team, see [Common On-Boarding Problems for Online Music Stores](common-on-boarding-problems-for-online-music-stores.md).
 

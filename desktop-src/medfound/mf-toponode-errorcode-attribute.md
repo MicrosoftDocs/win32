@@ -1,5 +1,5 @@
 ---
-description: Contains the error code from the most recent connection failure for this toplogy node.
+description: Contains the error code from the most recent connection failure for this topology node.
 ms.assetid: fae90e06-0ae0-43a1-aaf2-7a2d1dabc79b
 title: MF_TOPONODE_ERRORCODE attribute (Mfidl.h)
 ms.topic: reference

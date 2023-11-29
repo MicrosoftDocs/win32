@@ -30,7 +30,7 @@ If the [MF\_MT\_VIDEO\_LEVEL](mf-mt-video-level.md) attribute is present, the en
 
 If the [CODECAPI\_AVEncCommonQualityVsSpeed](../directshow/avenccommonqualityvsspeed-property.md) ICodecAPI property has been set, the encoder should return the processing rate corresponding to the value set for this property. If the CODECAPI\_AVEncCommonQualityVsSpeed attribute is not present, then it should use a default value of 0 which should be the fastest processing mode.
 
-If the [CODECAPI\_AVEncMPVDefaultBPictureCount](../directshow/avencmpvdefaultbpicturecount-property.md) ICodecAPI property has been set to a valid and supported value, the encoder should return the processing rate corresponding the value set for this property. If the CODECAPI\_AVEncMPVDefaultBPictureCount attribute is not presen,t then it should use a default value of 0 B frames.
+If the [CODECAPI\_AVEncMPVDefaultBPictureCount](../directshow/avencmpvdefaultbpicturecount-property.md) ICodecAPI property has been set to a valid and supported value, the encoder should return the processing rate corresponding the value set for this property. If the CODECAPI\_AVEncMPVDefaultBPictureCount attribute is not present, then it should use a default value of 0 B frames.
 
 Only the lower 28 bits should be used by an application. The upper 4bits are reserved for future use. Applications should ignore the upper 4 bits and MFTs should set the upper 4 bits to 0.
 

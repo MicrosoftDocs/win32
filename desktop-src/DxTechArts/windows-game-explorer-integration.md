@@ -205,7 +205,7 @@ The following is a high-level description of the steps required to call the Game
 2.  After the CostFinalize action, call the GameUXInstallHelper DLL function **SetMSIGameExplorerProperties** in an immediate custom action to set the appropriate MSI properties for the other custom actions.
 3.  Upon installation, trigger a deferred custom action after the InstallFiles action that calls the GameUXInstallHelper DLL function **AddToGameExplorerUsingMSI**. If the installation is for all users, then the custom action must set the flag msidbCustomActionTypeNoImpersonate; otherwise, it must not set this flag. Therefore, two nearly identical custom actions are defined: GameUXAddAsAdmin and GameUXAddAsCurUser.
 4.  Upon removal of the installation, trigger a deferred custom action before the RemoveFiles action that calls the GameUXInstallHelper DLL function **RemoveFromGameExplorerUsingMSI**. If the installation was for all users, then the custom action must set the flag msidbCustomActionTypeNoImpersonate; otherwise, it must not set this flag. Therefore, two nearly identical custom actions are defined: GameUXRemoveAsAdmin and GameUXRemoveAsCurUser.
-5.  Define rollback custom actions to handle the case where the user cancels installing or removing after one of the these custom actions has already happened. This results in an additional 4 custom actions: GameUXRollBackAddAsAdmin, GameUXRollBackAddAsCurUser, GameUXRollBackRemoveAsAdmin, and GameUXRollBackRemoveAsCurUser.
+5.  Define rollback custom actions to handle the case where the user cancels installing or removing after one of these custom actions has already happened. This results in an additional 4 custom actions: GameUXRollBackAddAsAdmin, GameUXRollBackAddAsCurUser, GameUXRollBackRemoveAsAdmin, and GameUXRollBackRemoveAsCurUser.
 
 This procedure is described in detail in the following instructions, which describe a process that can be done using an MSI editor, such as the Orca editor found in the Platform SDK. Some MSI editors have wizards which simplify some of these configuration steps.
 
@@ -290,7 +290,7 @@ The following are some tips to help debug issues when calling Games Explorer API
 
 Building the GameUXInstallHelper sample solution will create a GameUXInstallHelper.dll and a GDFInstall.exe. The GDFInstall.exe is a sample application that uses GameUXInstallHelper.dll. Running GDFInstall.exe will prompt if you want install or remove a GDF binary from game explorer. You can test your GDF binary file by passing it in as the first command line arg to GDFInstall.exe.
 
-If you don't have a GDF binary or yours fails to install, try using the sample GDF in the DirectX SDK. The GDFExampleBinary sample is found in the DirectX SDK and is just a DLL that only contains a GDF file. Also included in the source is its GDFMaker project. You can build it and test it using GDFInstall.exe. You can also compare the its XML to yours to pinpoint exactly where the issue is.
+If you don't have a GDF binary or yours fails to install, try using the sample GDF in the DirectX SDK. The GDFExampleBinary sample is found in the DirectX SDK and is just a DLL that only contains a GDF file. Also included in the source is its GDFMaker project. You can build it and test it using GDFInstall.exe. You can also compare its XML to yours to pinpoint exactly where the issue is.
 
 ### Make sure that your game was removed properly
 

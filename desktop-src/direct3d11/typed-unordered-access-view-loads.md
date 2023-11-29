@@ -87,7 +87,7 @@ if (SUCCEEDED(hr))
     if (FeatureData.TypedUAVLoadAdditionalFormats)
     {
         // Can assume “all-or-nothing” subset is supported (e.g. R32G32B32A32_FLOAT)
-        // Can not assume other formats are supported, so we check:
+        // Cannot assume other formats are supported, so we check:
         D3D11_FEATURE_DATA_FORMAT_SUPPORT2 FormatSupport;
         ZeroMemory(&FormatSupport, sizeof(FormatSupport));
         FormatSupport.InFormat = DXGI_FORMAT_R32G32_FLOAT;

@@ -103,7 +103,7 @@ In the [**IMFTransform::GetOutputStreamInfo**](/windows/desktop/api/mftransform/
     2.  Create an empty media sample by calling the [**MFCreateVideoSampleFromSurface**](/windows/desktop/api/evr/nc-evr-mfcreatevideosamplefromsurface) function. Set the *pUnkSurface* parameter equal to **NULL**. The function returns an [**IMFSample**](/windows/desktop/api/mfobjects/nn-mfobjects-imfsample) pointer.
     3.  Call [**IMFSample::AddBuffer**](/windows/desktop/api/mfobjects/nf-mfobjects-imfsample-addbuffer) to add the media buffer to the sample.
 
-You should destroy all the textures you create at the same time, rather then destroying only some and continuing to use the reminder.
+You should destroy all the textures you create at the same time, rather than destroying only some and continuing to use the reminder.
 
 ## Decoding
 

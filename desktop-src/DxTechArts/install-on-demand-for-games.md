@@ -104,7 +104,7 @@ The [Windows Installer](/windows/desktop/Msi/windows-installer-portal) provides 
 
 In the sample, there are three states of installation that happen during the sample execution: active installation, passive installation, and no installation.
 
--   Active installation is a request initiated by the sample when it needs to access or load resources provided by one or more features. The sample does this when it can not continue until the resource is installed.
+-   Active installation is a request initiated by the sample when it needs to access or load resources provided by one or more features. The sample does this when it cannot continue until the resource is installed.
 -   Passive installation is initiated when the sample is not performing a critical task such as when the player is at a menu or watching a cut scene. When this is the case, the worker thread checks if any feature of the sample is still advertised. If it can find one, it calls the installer to install that feature. This process repeats until every feature of the sample is installed. Essentially, passive installation utilizes extra processor cycles to perform installation in the background when it is least intrusive to the main sample.
 -   No installation happens when the player is actively engaged in the game; this prevents a framerate drop which would disrupt the user experience.
 

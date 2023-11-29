@@ -231,7 +231,7 @@ An element already exists and was not replaced.
 
 
 
-Can not cancel the requested operation as it has already been completed.
+Cannot cancel the requested operation as it has already been completed.
 
 
 </dt> </dl> </dd> <dt>

@@ -1,5 +1,5 @@
 ---
-description: Occurs when the ink collecto rreceives a packet.
+description: Occurs when the ink collecto receives a packet.
 ms.assetid: 26d5a3eb-430a-4e21-8a3f-fdec5005cd6e
 title: InkOverlay.NewPackets event (Msinkaut.h)
 ms.topic: reference
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # InkOverlay.NewPackets event
 
-Occurs when the ink collecto rreceives a packet
+Occurs when the ink collector receives a packet
 
 ## Syntax
 

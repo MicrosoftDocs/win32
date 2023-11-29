@@ -48,7 +48,7 @@ Media Foundation now supports the following types of hardware devices in the aud
 -   Hardware encoders and decoders
 -   Hardware video processors, such as color-space converters
 
-Hardware codecs can perform very fast video transcoding. For example, an application might transfer Windows Media Video (WMV) files to a cell phone that supports only 3GP files. Using a hardware encoder, the application can transcode the file in the backgound, just before transferring it to the device.
+Hardware codecs can perform very fast video transcoding. For example, an application might transfer Windows Media Video (WMV) files to a cell phone that supports only 3GP files. Using a hardware encoder, the application can transcode the file in the background, just before transferring it to the device.
 
 Hardware devices are represented in Media Foundation by a proxy object, and are used in the pipeline just like software-based components.
 
