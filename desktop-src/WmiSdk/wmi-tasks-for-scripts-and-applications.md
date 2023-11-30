@@ -2,7 +2,7 @@
 description: Describes how to find the correct WMI class and procedures to use in scripts and applications that perform common computer and network administration tasks.
 ms.assetid: fe15b67c-8ae6-4360-a2ee-1eda292dd05a
 ms.tgt_platform: multiple
-title: WMI Tasks for Scripts and Applications
+title: WMI tasks for scripts and applications
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -12,9 +12,11 @@ api_type:
 api_location: 
 ---
 
-# WMI Tasks for Scripts and Applications
+# WMI tasks for scripts and applications
 
-The following sections describe various computer and network administration tasks and provide links to the WMI class or classes used to perform those tasks. For more information, see [Creating a WMI Application or Script](creating-a-wmi-application-or-script.md). For more information about using WMI, see [Further Information](further-information.md). For more information about using WMI, see [TechNet ScriptCenter](https://www.microsoft.com/technet/scriptcenter/default.mspx). (These resources may not be available in every language or country/region.)
+The following sections describe various computer and network administration tasks and provide links to the WMI class or classes used to perform those tasks. For more information, see [Creating a WMI Application or Script](creating-a-wmi-application-or-script.md). For more info about using WMI, see [Further information](further-information.md).
+
+(These resources might not be available in every language or country/region.)
 
 For more information about how to provide data to WMI, see [Using WMI](using-wmi.md), which will reference topics about writing a WMI [*provider*](gloss-p.md).
 
