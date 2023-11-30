@@ -1409,7 +1409,7 @@ public enum JET_err
 <tr class="odd">
 <td></td>
 <td>UnicodeLanguageValidationFailure</td>
-<td>Can not validate the language</td>
+<td>Cannot validate the language</td>
 </tr>
 <tr class="even">
 <td></td>
@@ -2839,7 +2839,7 @@ public enum JET_err
 <tr class="odd">
 <td></td>
 <td>InvalidLogDataSequence</td>
-<td>Some how the log data provided got out of sequence with the current state of the instance</td>
+<td>Somehow the log data provided got out of sequence with the current state of the instance</td>
 </tr>
 <tr class="even">
 <td></td>

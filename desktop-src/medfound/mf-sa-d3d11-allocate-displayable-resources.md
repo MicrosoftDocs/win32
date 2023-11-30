@@ -30,7 +30,7 @@ The following code example demonstrates the usage of the **MF_SA_D3D11_ALLOCATE_
 class DecoderMFT : public IMFAttributes, public IMFTransform 
 { 
     //  
-    ... Other implementation details ommitted 
+    ... Other implementation details omitted 
     // 
 
 public: 

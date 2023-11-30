@@ -60,7 +60,7 @@ The Y-coordinate, in pixels, of a mouse click.
 *Cancel* \[in, out\]
 </dt> <dd>
 
-**VARIANT\_TRUE** to cancelt he event forthe parent control; otherwise, **VARIANT\_FALSE**. The default value is **VARIANT\_FALSE**
+**VARIANT\_TRUE** to cancel he event for the parent control; otherwise, **VARIANT\_FALSE**. The default value is **VARIANT\_FALSE**
 
 </dd> </dl>
 

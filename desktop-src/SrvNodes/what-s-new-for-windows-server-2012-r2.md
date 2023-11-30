@@ -92,7 +92,7 @@ The following list describes new and updated feature areas for Windows Server 2
 
 -   [Management OData](/powershell/scripting/windows-powershell/wmf/overview)
 
-    **New!** Also known as Windows PowerShell Web Services, Management OData, new in Windows PowerShell v3, allows the creation of an ASP.NET web service end point that exposes management data, acessed through Windows PowerShell commands, as OData web service entities.
+    **New!** Also known as Windows PowerShell Web Services, Management OData, new in Windows PowerShell v3, allows the creation of an ASP.NET web service end point that exposes management data, accessed through Windows PowerShell commands, as OData web service entities.
 
 ## Related topics
 

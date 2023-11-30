@@ -128,7 +128,7 @@ Type: **[**MPCOMPONENT\_VERSION**](mpcomponent-version.md)**
 
 </dd> <dd>
 
-NIS Signature signature component version.
+NIS Signature component version.
 
 </dd> <dt>
 

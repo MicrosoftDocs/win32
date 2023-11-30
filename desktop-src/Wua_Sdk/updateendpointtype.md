@@ -56,7 +56,7 @@ A reporting endpoint that is used when the client reports the results of scans, 
 
 In the case of public services (Windows Update and Microsoft Update), this is done for quality monitoring purposes.
 
-In the case of private services, such as a corporate WSUS server, thhis type of endpoint also allows the server to collect inventory and other information about the client computers under management.
+In the case of private services, such as a corporate WSUS server, this type of endpoint also allows the server to collect inventory and other information about the client computers under management.
 
 </dd> <dt>
 

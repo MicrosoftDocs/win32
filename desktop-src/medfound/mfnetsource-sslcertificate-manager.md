@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # MFNETSOURCE\_SSLCERTIFICATE\_MANAGER property
 
-Stores the **IUnknown** pointer of the class that implements the [**IMFSSLCertificateManager**](/windows/desktop/api/mfidl/nn-mfidl-imfsslcertificatemanager) interface. The client implemention provides methods to get the client SSL certificate when it is requested by the server.
+Stores the **IUnknown** pointer of the class that implements the [**IMFSSLCertificateManager**](/windows/desktop/api/mfidl/nn-mfidl-imfsslcertificatemanager) interface. The client implementation provides methods to get the client SSL certificate when it is requested by the server.
 
 
 

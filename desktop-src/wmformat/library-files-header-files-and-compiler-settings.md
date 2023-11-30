@@ -36,7 +36,7 @@ The stub library contains an embedded certificate which can be revoked by Micros
 
 Specific methods that require the stub library are labeled in the documentation. If you try to use such a method without linking to the stub library, it will return an NS\_E\_DRM\_STUBLIB\_REQUIRED error.
 
-The DRM subsystem can not be used in a debug build. If this is attempted, methods of the API will return the NS\_E\_DRM\_DEBUGGING\_NOT\_ALLOWED error.
+The DRM subsystem cannot be used in a debug build. If this is attempted, methods of the API will return the NS\_E\_DRM\_DEBUGGING\_NOT\_ALLOWED error.
 
 ## Related topics
 

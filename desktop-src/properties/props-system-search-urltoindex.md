@@ -27,7 +27,7 @@ propertyDescription
 
 ## Remarks
 
-This property contains a URL and is emitted by a protocol handler for each child URL or directoy under the current URL. The indexer calls back into the protocol handler, and asks for that document to be indexed. [System.Search.UrlToIndex](/previous-versions/windows/desktop/legacy/bb760177(v=vs.85)) was called PID\_GTHR\_DIRLINK in earlier versions of the Windows operating system.
+This property contains a URL and is emitted by a protocol handler for each child URL or directory under the current URL. The indexer calls back into the protocol handler, and asks for that document to be indexed. [System.Search.UrlToIndex](/previous-versions/windows/desktop/legacy/bb760177(v=vs.85)) was called PID\_GTHR\_DIRLINK in earlier versions of the Windows operating system.
 
 PKEY values are defined in Propkey.h.
 

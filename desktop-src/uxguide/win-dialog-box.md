@@ -611,7 +611,7 @@ For more information and examples, see [Icons](vis-icons.md).
 -   **Clicking Close means close the dialog box window, leaving any existing side effects.** Don't use Done, because it isn't an imperative construction. For nested choice dialog boxes, clicking Close in the owner choice dialog means any changes made by owned choice dialogs are preserved.
 -   **Put an explicit Close button in the dialog box body.** Dialog boxes need a clear exit point. Don't depend on users finding the Close button on the title bar.
 -   **Make sure the Close button on the title bar has the same effect as Cancel or Close.**
--   **Don't assign access keys to Close, because Esc is its the access key.** Doing so makes the other access keys easier to assign.
+-   **Don't assign access keys to Close, because Esc is the access key.** Doing so makes the other access keys easier to assign.
 
 **Apply buttons**
 

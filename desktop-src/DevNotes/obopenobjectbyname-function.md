@@ -76,7 +76,7 @@ typedef enum _KPROCESSOR_MODE {
 
 ### AccessState [in, out, optional]
 
-An optional pointer to the an [ACCESS_STATE](/windows-hardware/drivers/ddi/wdm/ns-wdm-_access_state) representing the current access status describing already granted access types, the privileges used to get them, and any access types yet to be granted.
+An optional pointer to an [ACCESS_STATE](/windows-hardware/drivers/ddi/wdm/ns-wdm-_access_state) representing the current access status describing already granted access types, the privileges used to get them, and any access types yet to be granted.
 
 ### DesiredAccess [in, optional]
 

@@ -23,14 +23,14 @@ The following are a few commonly used commands for IPv6, although many other com
 <span id="netsh_interface_ipv6_add_address"></span><span id="NETSH_INTERFACE_IPV6_ADD_ADDRESS"></span>**netsh interface ipv6 add address**
 </dt> <dd>
 
-Adds an IPv6 address to a specific interface on the local computer. This command has suboption parameters that must to be specified.
+Adds an IPv6 address to a specific interface on the local computer. This command has suboption parameters that must be specified.
 
 </dd> <dt>
 
 <span id="netsh_interface_ipv6_add_dns"></span><span id="NETSH_INTERFACE_IPV6_ADD_DNS"></span>**netsh interface ipv6 add dns**
 </dt> <dd>
 
-Adds a DNS server IPv6 address to the statically-configured list of DNS servers for the specified interface on the local computer. This command has suboption parameters that must to be specified.
+Adds a DNS server IPv6 address to the statically-configured list of DNS servers for the specified interface on the local computer. This command has suboption parameters that must be specified.
 
 </dd> <dt>
 

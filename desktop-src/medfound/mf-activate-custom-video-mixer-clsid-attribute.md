@@ -20,7 +20,7 @@ If you are creating the EVR through an activation object, you can use this attri
 
 1.  Call the [**MFCreateVideoRendererActivate**](/windows/desktop/api/mfidl/nf-mfidl-mfcreatevideorendereractivate) function to create an activation object for the EVR. The function returns a pointer to the [**IMFActivate**](/windows/desktop/api/mfobjects/nn-mfobjects-imfactivate) interface.
 
-2.  Set this attribue on the [**IMFActivate**](/windows/desktop/api/mfobjects/nn-mfobjects-imfactivate) pointer by calling [**IMFAttributes::SetGUID**](/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-setguid). The value of the attribute is the CLSID of the application's custom video mixer.
+2.  Set this attribute on the [**IMFActivate**](/windows/desktop/api/mfobjects/nn-mfobjects-imfactivate) pointer by calling [**IMFAttributes::SetGUID**](/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-setguid). The value of the attribute is the CLSID of the application's custom video mixer.
 
 If this attribute is set, the EVR calls **CoCreateInstance** with the specified CLSID to create the custom video mixer. The video mixer must expose the [**IMFTransform**](/windows/desktop/api/mftransform/nn-mftransform-imftransform) interface. The mixer is created as an in-process COM server.
 
