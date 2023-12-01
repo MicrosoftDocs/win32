@@ -34,7 +34,7 @@ There are two types of input buffers: [vertex buffers](/windows/desktop/direct3d
 
 After you create the buffer resources, you need to create an input-layout object to describe the data layout to the IA stage, and then you need to bind the buffer resources to the IA stage. Creating and binding buffers is not necessary if your shaders don't use buffers. For an example of a simple vertex and pixel shader that draws a single triangle, see [Using the Input-Assembler Stage without Buffers](d3d10-graphics-programming-guide-input-assembler-stage-no-buffers.md).
 
-For help with creating a vertex buffer, see [Create a Vertex Buffer](/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-creating). For help with creating an index buffer, see Create an Index Buffer.
+For help with creating a vertex buffer, see [Create a Vertex Buffer](/windows/win32/direct3d11/overviews-direct3d-11-resources-buffers-vertex-how-to). For help with creating an index buffer, see [Create an Index Buffer](/windows/win32/direct3d11/overviews-direct3d-11-resources-buffers-index-how-to).
 
 ## Create the Input-Layout Object
 
