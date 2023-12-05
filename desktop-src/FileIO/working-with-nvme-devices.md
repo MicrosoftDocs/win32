@@ -509,7 +509,7 @@ In this example, based off of the previous one, the **Get Log Pages** request is
 
 ```
 
-
+Callers could use a **STORAGE_PROPERTY_ID** of [**StorageAdapterProtocolSpecificProperty**](/windows/win32/api/winioctl/ne-winioctl-storage_property_id), and whose [**STORAGE_PROTOCOL_SPECIFIC_DATA**](/windows/win32/api/winioctl/ns-winioctl-storage_protocol_specific_data) or [**STORAGE_PROTOCOL_SPECIFIC_DATA_EXT**](/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-storage_protocol_specific_data_ext) structure is set to  `ProtocolDataRequestValue=VENDOR_SPECIFIC_LOG_PAGE_IDENTIFIER` to request 512 byte chunks of vendor specific data.
 
 ### Example: NVMe Get Features query
 
