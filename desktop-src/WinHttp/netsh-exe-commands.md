@@ -69,7 +69,7 @@ Here are the default WinHTTP trace parameters:
 
 ### set advproxy
 
-Configures the WinHTTP proxy setting.
+Configures the WinHTTP advanced proxy setting. Note that SOCKS5 isn't supported. Also see [show advproxy](#show-advproxy).
 
 #### Syntax
 
@@ -80,7 +80,7 @@ Configures the WinHTTP proxy setting.
 
 **setting-scope**. User or machine.
 
-**settings**. Proxy settings in JSON format. The JSON object must contain the properties "Proxy" (string value), "ProxyBypass" (string value), "AutoconfigUrl" (string value), and "AutoDetect" (Boolean value).
+**settings**. Proxy settings in JSON format. The JSON object must contain the properties "Proxy" (string value), "ProxyBypass" (string value), "AutoconfigUrl" (string value), and "AutoDetect" (Boolean value). The format of the strings structure is `([<scheme>=][<scheme>"://"]<server>[":"<port>])`. For more info, see **Remarks** in [WINHTTP_PROXY_INFO structure](/windows/win32/api/winhttp/ns-winhttp-winhttp_proxy_info).
 
 **setting-file**. A file, in JSON format, that contains the settings.
 
@@ -90,6 +90,19 @@ Configures the WinHTTP proxy setting.
 set advproxy setting-scope=machine settings={<settings>}
 
 set advproxy setting-scope=user settings-file=settings.json
+```
+
+Here are example WinHTTP advanced proxy settings:
+
+```console
+{
+        "ProxyIsEnabled":       true,
+        "Proxy":        "http=http-proxy.com:8080;https=https-proxy.com:8081;ftp=ftp-proxy.com:8082;socks=socks-proxy.com:5678",
+        "ProxyBypass":  "*.contoso.com;10.21.32.1",
+        "AutoConfigIsEnabled":  false,
+        "AutoDetect":   false,
+        "PerUserProxySettings": true
+}
 ```
 
 ### set proxy
@@ -153,7 +166,18 @@ set tracing trace-file-prefix="C:\Temp\Test3" level=verbose format=hex
 set tracing output=debugger max-trace-file-size=512000 state=enabled
 ```
 
+### show advproxy
+
+Displays the current WinHTTP advanced proxy setting. Note that SOCKS5 isn't supported. Also see [set advproxy](#set-advproxy).
+
+#### Syntax
+
+**show advproxy**
+
 ### show proxy
+
+> [!IMPORTANT]
+> `show proxy` is deprecated. Use [show advproxy](#show-advproxy) instead.
 
 Displays the current WinHTTP proxy setting.
 
