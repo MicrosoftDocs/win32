@@ -90,18 +90,20 @@ Configures the WinHTTP advanced proxy setting. Note that SOCKS5 isn't supported.
 set advproxy setting-scope=machine settings={<settings>}
 
 set advproxy setting-scope=user settings-file=settings.json
+
+set advproxy setting-scope=machine settings={\"Proxy\":\"contoso-proxy.com:3128\",\"ProxyBypass\":\"\",\"AutoconfigUrl\":\"\",\"AutoDetect\":true}
 ```
 
 Here are example WinHTTP advanced proxy settings:
 
 ```console
 {
-        "ProxyIsEnabled":       true,
-        "Proxy":        "http=http-proxy.com:8080;https=https-proxy.com:8081;ftp=ftp-proxy.com:8082;socks=socks-proxy.com:5678",
-        "ProxyBypass":  "*.contoso.com;10.21.32.1",
-        "AutoConfigIsEnabled":  false,
-        "AutoDetect":   false,
-        "PerUserProxySettings": true
+  "ProxyIsEnabled": true,
+  "Proxy": "http=http-proxy.com:8080;https=https-proxy.com:8081;ftp=ftp-proxy.com:8082;socks=socks-proxy.com:5678",
+  "ProxyBypass": "*.contoso.com;10.21.32.1",
+  "AutoConfigIsEnabled": false,
+  "AutoDetect": false,
+  "PerUserProxySettings": true
 }
 ```
 
