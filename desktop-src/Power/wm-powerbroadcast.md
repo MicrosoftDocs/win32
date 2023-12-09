@@ -82,3 +82,4 @@ The following messages are not supported on any of the operating systems specifi
 
 * [WM\_POWERBROADCAST Messages](wm-powerbroadcast-messages.md)
 * [Power Management Messages](power-management-messages.md)
+* [RegisterSuspendResumeNotification](/windows/win32/api/winuser/nf-winuser-registersuspendresumenotification)
