@@ -2,7 +2,7 @@
 title: Netsh.exe commands
 description: You can use commands in the netsh winhttp context to configure proxy and tracing settings for Windows HTTP.
 ms.topic: article
-ms.date: 12/07/2023
+ms.date: 12/11/2023
 ---
 
 # Netsh.exe commands
@@ -94,9 +94,11 @@ set advproxy setting-scope=user settings-file=settings.json
 set advproxy setting-scope=machine settings={\"Proxy\":\"contoso-proxy.com:3128\",\"ProxyBypass\":\"\",\"AutoconfigUrl\":\"\",\"AutoDetect\":true}
 ```
 
-Here are example WinHTTP advanced proxy settings:
+Here is an example of WinHTTP advanced proxy setting that sets different proxies for HTTP, HTTPS, FTP, and SOCKS protocols:
 
 ```console
+netsh winhttp set advproxy setting-scope=user settings={\"Proxy\":\"http=http-proxy.com:8080;https=https-proxy.com:8081;ftp=ftp-proxy.com:8082;socks=socks-proxy.com: 8083\",\"ProxyBypass\":\"\",\"AutoconfigUrl\":\"\",\"AutoDetect\":true}"
+
 {
   "ProxyIsEnabled": true,
   "Proxy": "http=http-proxy.com:8080;https=https-proxy.com:8081;ftp=ftp-proxy.com:8082;socks=socks-proxy.com:5678",
