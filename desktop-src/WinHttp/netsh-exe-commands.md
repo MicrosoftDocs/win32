@@ -101,10 +101,9 @@ netsh winhttp set advproxy setting-scope=user settings={\"Proxy\":\"http=http-pr
 
 {
   "ProxyIsEnabled": true,
-  "Proxy": "http=http-proxy.com:8080;https=https-proxy.com:8081;ftp=ftp-proxy.com:8082;socks=socks-proxy.com:5678",
-  "ProxyBypass": "*.contoso.com;10.21.32.1",
+  "Proxy": "http=http-proxy.com:8080;https=https-proxy.com:8081;ftp=ftp-proxy.com:8082;socks=socks-proxy.com:8083",
   "AutoConfigIsEnabled": false,
-  "AutoDetect": false,
+  "AutoDetect": true,
   "PerUserProxySettings": true
 }
 ```
