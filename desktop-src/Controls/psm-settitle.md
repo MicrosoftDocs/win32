@@ -36,7 +36,7 @@ Flag that indicates whether to include the prefix "Properties for" or the suffix
 *lParam* 
 </dt> <dd>
 
-Pointer to a buffer that contains the title string. If the [**HIWORD**](/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)) of this parameter is **NULL**, the property sheet loads the string resource specified in the [**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)).
+Pointer to a buffer that contains the title string. If the [**HIWORD**]([HIWORD macro](../winmsg/hiword.md)(v=vs.85)) of this parameter is **NULL**, the property sheet loads the string resource specified in the [**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)).
 
 </dd> </dl>
 

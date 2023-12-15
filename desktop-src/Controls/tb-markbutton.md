@@ -36,7 +36,7 @@ Command identifier for a toolbar button.
 
 The [**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) is a **BOOL** that indicates the new highlight state. If **TRUE**, the button is highlighted. If **FALSE**, the button is set to its default state.
 
-The [**HIWORD**](/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)) must be zero.
+The [**HIWORD**]([HIWORD macro](../winmsg/hiword.md)(v=vs.85)) must be zero.
 
 </dd> </dl>
 

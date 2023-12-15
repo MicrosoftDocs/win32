@@ -37,7 +37,7 @@ CBN_SELENDCANCEL
 *wParam* 
 </dt> <dd>
 
-The [**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) contains the control identifier of the combo box. The [**HIWORD**](/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)) specifies the notification code.
+The [**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) contains the control identifier of the combo box. The [**HIWORD**]([HIWORD macro](../winmsg/hiword.md)(v=vs.85)) specifies the notification code.
 
 </dd> <dt>
 
@@ -80,7 +80,7 @@ In a combo box with the [**CBS\_SIMPLE**](combo-box-styles.md) style, the CBN\_S
 **Other Resources**
 </dt> <dt>
 
-[**HIWORD**](/previous-versions/windows/desktop/legacy/ms632657(v=vs.85))
+[**HIWORD**]([HIWORD macro](../winmsg/hiword.md)(v=vs.85))
 </dt> <dt>
 
 [**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85))

@@ -34,7 +34,7 @@ Not used.
 *lParam* 
 </dt> <dd>
 
-The [**HIWORD**](/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)) of this value is the maximum x-coordinate of the thumbnail. The [**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) is the maximum y-coordinate. If a thumbnail has a dimension that exceeds one or both of these values, the DWM does not accept the thumbnail.
+The [**HIWORD**]([HIWORD macro](../winmsg/hiword.md)(v=vs.85)) of this value is the maximum x-coordinate of the thumbnail. The [**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) is the maximum y-coordinate. If a thumbnail has a dimension that exceeds one or both of these values, the DWM does not accept the thumbnail.
 
 </dd> </dl>
 

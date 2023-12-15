@@ -36,7 +36,7 @@ View for which to retrieve the item spacing. This parameter is **TRUE** for smal
 
 ## Return value
 
-Returns the amount of spacing between items. The horizontal spacing is contained in the [**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) and the vertical spacing is contained in the [**HIWORD**](/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)).
+Returns the amount of spacing between items. The horizontal spacing is contained in the [**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) and the vertical spacing is contained in the [**HIWORD**]([HIWORD macro](../winmsg/hiword.md)(v=vs.85)).
 
 ## Requirements
 

@@ -29,7 +29,7 @@ Sets the number of rows of buttons in a toolbar.
 
 The [**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) specifies the number of rows requested. The minimum number of rows is one, and the maximum number of rows is equal to the number of buttons in the toolbar.
 
-The [**HIWORD**](/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)) is a **BOOL** that indicates whether to create more rows than requested when the system cannot create the number of rows specified by *wParam*. If **TRUE**, the system creates more rows. If **FALSE**, the system creates fewer rows.
+The [**HIWORD**]([HIWORD macro](../winmsg/hiword.md)(v=vs.85)) is a **BOOL** that indicates whether to create more rows than requested when the system cannot create the number of rows specified by *wParam*. If **TRUE**, the system creates more rows. If **FALSE**, the system creates fewer rows.
 
 </dd> <dt>
 

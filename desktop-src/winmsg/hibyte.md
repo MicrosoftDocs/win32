@@ -50,4 +50,4 @@ The return value is the high-order byte of the specified value.
 
 ## See also
 
-[HIWORD](ms632657\(v=vs.85\).md), [LOBYTE](ms632658\(v=vs.85\).md), [Windows Data Types](/windows/win32/winprog/windows-data-types)
+[HIWORD](hiword.md), [LOBYTE](lobyte.md), [Windows Data Types](/windows/win32/winprog/windows-data-types)

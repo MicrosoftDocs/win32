@@ -37,7 +37,7 @@ CBN_EDITUPDATE
 *wParam* 
 </dt> <dd>
 
-The [**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) contains the control identifier of the combo box. The [**HIWORD**](/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)) specifies the notification code.
+The [**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) contains the control identifier of the combo box. The [**HIWORD**]([HIWORD macro](../winmsg/hiword.md)(v=vs.85)) specifies the notification code.
 
 </dd> <dt>
 
@@ -77,7 +77,7 @@ If the combo box has the [**CBS\_DROPDOWNLIST**](combo-box-styles.md) style, thi
 **Other Resources**
 </dt> <dt>
 
-[**HIWORD**](/previous-versions/windows/desktop/legacy/ms632657(v=vs.85))
+[**HIWORD**]([HIWORD macro](../winmsg/hiword.md)(v=vs.85))
 </dt> <dt>
 
 [**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85))

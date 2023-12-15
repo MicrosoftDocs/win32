@@ -37,7 +37,7 @@ STN_DBLCLK
 *wParam* 
 </dt> <dd>
 
-The [**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) contains the identifier of the static control. The [**HIWORD**](/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)) specifies the notification code.
+The [**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) contains the identifier of the static control. The [**HIWORD**]([HIWORD macro](../winmsg/hiword.md)(v=vs.85)) specifies the notification code.
 
 </dd> <dt>
 
@@ -79,7 +79,7 @@ Handle to the static control.
 **Other Resources**
 </dt> <dt>
 
-[**HIWORD**](/previous-versions/windows/desktop/legacy/ms632657(v=vs.85))
+[**HIWORD**]([HIWORD macro](../winmsg/hiword.md)(v=vs.85))
 </dt> <dt>
 
 [**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85))

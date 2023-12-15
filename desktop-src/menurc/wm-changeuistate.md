@@ -96,7 +96,7 @@ If the low-order word of *wParam* is UIS\_INITIALIZE, the system will send the [
 **Reference**
 </dt> <dt>
 
-[**HIWORD**](/previous-versions/windows/desktop/legacy/ms632657(v=vs.85))
+[**HIWORD**]([HIWORD macro](../winmsg/hiword.md)(v=vs.85))
 </dt> <dt>
 
 [**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85))

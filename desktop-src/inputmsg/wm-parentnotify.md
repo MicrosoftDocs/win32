@@ -117,7 +117,7 @@ This notification provides the child window's ancestor windows an opportunity to
 [**CreateWindowEx**](/windows/win32/api/winuser/nf-winuser-createwindowexa)
 </dt> <dt>
 
-[**HIWORD**](/previous-versions/windows/desktop/legacy/ms632657(v=vs.85))
+[**HIWORD**]([HIWORD macro](../winmsg/hiword.md)(v=vs.85))
 </dt> <dt>
 
 [**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85))

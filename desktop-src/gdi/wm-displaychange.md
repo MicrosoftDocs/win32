@@ -70,7 +70,7 @@ This message is only sent to top-level windows. For all other windows it is post
 [Painting and Drawing Messages](painting-and-drawing-messages.md)
 </dt> <dt>
 
-[**HIWORD**](/previous-versions/windows/desktop/legacy/ms632657(v=vs.85))
+[**HIWORD**]([HIWORD macro](../winmsg/hiword.md)(v=vs.85))
 </dt> <dt>
 
 [**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85))

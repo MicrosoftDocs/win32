@@ -39,7 +39,7 @@ WM_HSCROLL
 *wParam* 
 </dt> <dd>
 
-The [**HIWORD**](/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)) specifies the current position of the scroll box if the [**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) is SB\_THUMBPOSITION or SB\_THUMBTRACK; otherwise, this word is not used.
+The [**HIWORD**]([HIWORD macro](../winmsg/hiword.md)(v=vs.85)) specifies the current position of the scroll box if the [**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) is SB\_THUMBPOSITION or SB\_THUMBTRACK; otherwise, this word is not used.
 
 The [**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) specifies a scroll bar value that indicates the user's scrolling request. This word can be one of the following values.
 
@@ -54,8 +54,8 @@ The [**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) sp
 | <span id="SB_LINERIGHT"></span><span id="sb_lineright"></span><dl> <dt>**SB\_LINERIGHT**</dt> </dl>             | Scrolls right by one unit.<br/>                                                                                                                                                                                     |
 | <span id="SB_PAGELEFT"></span><span id="sb_pageleft"></span><dl> <dt>**SB\_PAGELEFT**</dt> </dl>                | Scrolls left by the width of the window.<br/>                                                                                                                                                                       |
 | <span id="SB_PAGERIGHT"></span><span id="sb_pageright"></span><dl> <dt>**SB\_PAGERIGHT**</dt> </dl>             | Scrolls right by the width of the window.<br/>                                                                                                                                                                      |
-| <span id="SB_THUMBPOSITION"></span><span id="sb_thumbposition"></span><dl> <dt>**SB\_THUMBPOSITION**</dt> </dl> | The user has dragged the scroll box (thumb) and released the mouse button. The [**HIWORD**](/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)) indicates the position of the scroll box at the end of the drag operation.<br/>                          |
-| <span id="SB_THUMBTRACK"></span><span id="sb_thumbtrack"></span><dl> <dt>**SB\_THUMBTRACK**</dt> </dl>          | The user is dragging the scroll box. This message is sent repeatedly until the user releases the mouse button. The [**HIWORD**](/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)) indicates the position that the scroll box has been dragged to.<br/> |
+| <span id="SB_THUMBPOSITION"></span><span id="sb_thumbposition"></span><dl> <dt>**SB\_THUMBPOSITION**</dt> </dl> | The user has dragged the scroll box (thumb) and released the mouse button. The [**HIWORD**]([HIWORD macro](../winmsg/hiword.md)(v=vs.85)) indicates the position of the scroll box at the end of the drag operation.<br/>                          |
+| <span id="SB_THUMBTRACK"></span><span id="sb_thumbtrack"></span><dl> <dt>**SB\_THUMBTRACK**</dt> </dl>          | The user is dragging the scroll box. This message is sent repeatedly until the user releases the mouse button. The [**HIWORD**]([HIWORD macro](../winmsg/hiword.md)(v=vs.85)) indicates the position that the scroll box has been dragged to.<br/> |
 
 
 
