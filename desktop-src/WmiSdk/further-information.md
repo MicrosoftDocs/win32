@@ -2,14 +2,12 @@
 description: Lists sources of WMI examples, code samples, books, TechNet ScriptCenter, and other websites. Download sources for CIM Studio, WMI Tools, WMI Event Viewer, WMI Event Registration, Object Browser, WMI SDK.
 ms.assetid: 40216c7d-e359-4102-b990-334ba355ca77
 ms.tgt_platform: multiple
-
 title: Further Information (WMI)
-
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Further Information for WMI
+# Further information for WMI
 
 You can find resources and examples for using WMI in the following print and online sources:
 
@@ -67,7 +65,7 @@ The following printed material is available to help you learn more about WMI:
 
     Tutorial format for beginning scripters that includes WMI scripts for more than 100 WMI classes.
 
-## Online Documentation and Examples
+## Online documentation and examples
 
 The following online documentation and examples are available to help you learn to use WMI:
 
@@ -76,7 +74,7 @@ The following online documentation and examples are available to help you learn 
 
     Search by category and task to find short administrative scripts. For example, in the Monitoring category, you can find a script titled "Monitor Available Disk Space".
 
--   [TechNet scripting articles: Tales from the Script](https://www.microsoft.com/technet/community/columns/scripts/default.mspx)
+-   TechNet scripting articles: Tales from the Script.
 
     Articles about topics such as how to run WMI scripts on remote computers or use WMI events. Each article provides examples.
 
@@ -94,7 +92,7 @@ The following online documentation and examples are available to help you learn 
 
     A comprehensive overview of the scripting technologies available in the Windows operating systems, including WMI. This Microsoft TechNet website offers hundreds of administrator scripting examples and information about how to modify them for the needs of your system.
 
-## MSDN Scripting
+## MSDN scripting
 
 The Scripting Clinic under [Columns](https://msdn.microsoft.com/library/aa902519.aspx) includes advanced scripting topics besides the WMI Scripting Primers, such as [Creating user accounts](/previous-versions/windows/internet-explorer/ie-developer/scripting-articles/ms974568(v=msdn.10)) from Excel data.
 
@@ -111,9 +109,7 @@ The Scripting Clinic under [Columns](https://msdn.microsoft.com/library/aa902519
 
  
 
-CIM\_Studio and other WMI Administrative Tools can be downloaded from [WMI Administrative Tools](https://www.microsoft.com/downloads/details.aspx?FamilyId=6430F853-1120-48DB-8CC5-F2ABDC3ED314).
-
-The WMI tools include:
+CIM\_Studio and other WMI Administrative Tools&mdash;the WMI tools include:
 
 -   WMI CIM Studio
 
@@ -141,20 +137,11 @@ The WMI tools include:
 
     You can use the Event Viewer to display the occurrence of WMI events you have configured in the WMI Event Registration.
 
-You can download PowerShell RC1 and documentation at [https://www.microsoft.com/technet/scriptcenter/topics/msh/download.mspx](https://www.microsoft.com/technet/scriptcenter/topics/msh/download.mspx).
+You can download PowerShell RC2 and documentation at [Windows PowerShell 1.0 RC2 Installation Package for Windows Vista RC1 and Windows Server 2008](https://support.microsoft.com/topic/windows-powershell-1-0-rc2-installation-package-for-windows-vista-rc1-and-windows-server-2008-5c562324-acaf-eb63-a783-d980f006f9e1).
 
-> [!Note]  
+> [!NOTE]  
 > These books and resources may not be available in some languages and countries or regions.
-
- 
 
 ## Related topics
 
-<dl> <dt>
-
-[About WMI](about-wmi.md)
-</dt> </dl>
-
- 
-
- 
+* [About WMI](about-wmi.md)

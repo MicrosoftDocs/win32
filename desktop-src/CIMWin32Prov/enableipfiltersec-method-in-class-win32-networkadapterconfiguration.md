@@ -405,8 +405,7 @@ With security enabled, the operational security characteristics for any one netw
 
 ## Examples
 
-The following code, taken from the [Enable IPFilter Security on All Network Adapters](https://Gallery.TechNet.Microsoft.Com/f8e56021-5a54-4554-b7b6-d76cc40d8d1d) sample on TechNet Gallery, enables IP filter security for all the network adapters installed in a computer.
-
+The following code enables IP filter security for all the network adapters installed in a computer.
 
 ```VB
 On Error Resume Next 

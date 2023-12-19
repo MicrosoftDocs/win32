@@ -1912,10 +1912,6 @@ A logical drive is a subdivision of a partition that has been assigned its own d
 
 You can find other examples using **Win32\_LogicalDisk** to obtain disk or volume data in the [WMI Tasks: Disks and File Systems](/windows/desktop/WmiSdk/wmi-tasks--disks-and-file-systems) topic.
 
-The [WMI Information Retriever](https://Gallery.TechNet.Microsoft.Com/e493376c-1286-456b-bd4b-4ac3b0e9bb45) VBScript code example on the TechNet Gallery uses the **Win32\_LogicalDisk** class to retrieve hardware information from a number of remote computers.
-
-The [Get Disk info using wmi/cim...](https://Gallery.TechNet.Microsoft.Com/Get-Disk-info-using-wmicim-ff0bd352) PowerShell code example on the TechNet Gallery uses **Win32\_LogicalDisk** to retrieve **DeviceID**, **VolumeName**, and **Size** from a target device. In particular, this sample includes rigorous exception handling, and returns a single object per computer, rather than per disk.
-
 Enterprise scripting often involves configuring hardware and software on remote computers; in turn, this requires you to know, in advance, the type of disk drives installed on a computer. For example, a script that installs an application on drive E works only if drive E is a hard disk. If drive E happens to represent a floppy disk or a CD-ROM drive, the script fails. The following code identifies the drives and drive types installed on a computer
 
 

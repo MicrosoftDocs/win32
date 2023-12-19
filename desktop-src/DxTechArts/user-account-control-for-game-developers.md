@@ -265,7 +265,7 @@ For assistance with designing applications for Windows Vista that are compliant 
 
 This white paper provides detailed steps about the design process, along with code samples, requirements, and best practices. This paper also details the technical updates and changes to the user experience in Windows Vista.
 
-For more information about User Account Control, visit [Windows Vista: User Account Control](https://www.microsoft.com/technet/windowsvista/security/uac.mspx) on [Microsoft TechNet](https://www.microsoft.com/technet/).
+For more information about User Account Control, visit [Windows Vista: User Account Control](https://support.microsoft.com/topic/how-to-use-user-account-control-uac-in-windows-vista-33b5a65e-4238-397e-d1b4-c502ee0f473e) on [Microsoft TechNet](https://www.microsoft.com/technet/).
 
 Another useful resource is the article [Teach Your Apps To Play Nicely with Windows Vista User Account Control](/archive/msdn-magazine/2007/january/teach-your-apps-to-work-with-windows-vista-user-account-control), from [MSDN Magazine](/archive/msdn-magazine/msdn-magazine-issues), January 2007. This article discusses general issues of application compatibility, as well as the advantages and issues of using Windows Installer packages on Windows Vista.
 

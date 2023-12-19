@@ -501,15 +501,15 @@ The requested execution level is specified with the **level** attribute of the *
 
 | Value | Description |
 |-------|-------------|
-| asInvoker | The application runs at the same permission level as the process that started it. You can elevate the application to a higher permission level by selecting **Run as Administrator**. |
-| requireAdministrator | The application runs using administrator permissions. The user who starts the application must be a member of the Administrators group. If the opening process isn't running with administrative permissions, the system prompts for credentials. |
-| highestAvailable  |  The application runs at the highest permission level that it can. If the user who starts the application is a member of the Administrators group, this option is the same as `level='requireAdministrator'`. If the highest available permission level is higher than the level of the opening process, the system prompts for credentials. |
+| **asInvoker** | The application runs at the same permission level as the process that started it. You can elevate the application to a higher permission level by selecting **Run as Administrator**. |
+| **requireAdministrator** | The application runs using administrator permissions. The user who starts the application must be a member of the Administrators group. If the opening process isn't running with administrative permissions, the system prompts for credentials. |
+| **highestAvailable**  |  The application runs at the highest permission level that it can. If the user who starts the application is a member of the Administrators group, this option is the same as `level="requireAdministrator"`. If the highest available permission level is higher than the level of the opening process, the system prompts for credentials. |
 
-Setting the level to 'highestAvailable' ensures that the application will run successfully with both users who are members of the Administrators group and those who are not. If the application can only function with administrative access to the system, then marking the app with a requested execution level of 'requireAdministrator' ensures that the system identifies this program as an administrative app and performs the necessary elevation steps.
+Setting the level to `highestAvailable` ensures that the application will run successfully with both users who are members of the Administrators group and those who are not. If the application can only function with administrative access to the system, then marking the app with a requested execution level of `requireAdministrator` ensures that the system identifies this program as an administrative app and performs the necessary elevation steps.
 
-By default, the Visual C++ linker embeds a UAC fragment into the manifest of an application with an execution level of 'asInvoker'.
+By default, the Visual C++ linker embeds a UAC fragment into the manifest of an application with an execution level of `asInvoker`.
 
-The **requestedExecutionLevel** element also has an attribute **uiAccess**. Set this value to true if you want the application to bypass user interface protection levels and drive input to higher-permission windows on the desktop; otherwise, `uiAccess='false'`. Defaults to uiAccess='false'. Set this argument to `uiAccess='true'` only for user interface accessibility applications. For more informatiom, see [Security Considerations for Assistive Technologies](/windows/win32/winauto/uiauto-securityoverview).
+The **requestedExecutionLevel** element also has an optional attribute **uiAccess**. Set this value to `true` if you want the application to bypass user interface protection levels and drive input to higher-permission windows on the desktop. Set this attribute to `true` only for user interface accessibility applications. Defaults to `false`. Additional restrictions from security policy settings may be applied, see [User Account Control: Only elevate UIAccess applications that are installed in secure locations](/windows/security/threat-protection/security-policy-settings/user-account-control-only-elevate-uiaccess-applications-that-are-installed-in-secure-locations). For more information, see [Security Considerations for Assistive Technologies](/windows/win32/winauto/uiauto-securityoverview).
 
 Specifying **requestedExecutionLevel** node will disable file and registry virtualization. If you want to utilize File and Registry Virtualization for backward compatibility then omit the **requestedExecutionLevel** node.
 
@@ -528,40 +528,27 @@ Specifying **requestedExecutionLevel** node will disable file and registry virtu
 The following is an example of an application manifest for an application named MySampleApp.exe. The application consumes the SampleAssembly side-by-side assembly.
 
 ```xml
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
-
-  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1"> 
-      <application> 
-            <!-- Windows 10 and Windows 11 -->
-            <supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}"/>
-            <!-- Windows 8.1 -->
-            <supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}"/>
-            <!-- Windows 8 -->
-            <supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}"/>
-            <!-- Windows 7 -->
-            <supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}"/>
-            <!-- Windows Vista -->
-            <supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}"/> 
-      </application> 
-  </compatibility>
-
-  <assemblyIdentity type="win32" 
-                    name="myOrganization.myDivision.mySampleApp" 
-                    version="6.0.0.0" 
-                    processorArchitecture="x86" 
-                    publicKeyToken="0000000000000000"
-  />
-  <dependency>
-    <dependentAssembly>
-      <assemblyIdentity type="win32" 
-                        name="Proseware.Research.SampleAssembly" 
-                        version="6.0.0.0" 
-                        processorArchitecture="x86" 
-                        publicKeyToken="0000000000000000" 
-                        language="*"
-      />
-    </dependentAssembly>
-  </dependency>
+   <assemblyIdentity type="win32" name="MyOrganization.MyDivision.MySampleApp" version="6.0.0.0" processorArchitecture="*" />
+   <dependency>
+      <dependentAssembly>
+         <assemblyIdentity type="win32" name="Proseware.Research.SampleAssembly" version="6.0.0.0" processorArchitecture="*" publicKeyToken="0000000000000000" />
+      </dependentAssembly>
+   </dependency>
+   <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+      <application>
+         <!-- Windows 10 and Windows 11 -->
+         <supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}" />
+         <!-- Windows 8.1 -->
+         <supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}" />
+         <!-- Windows 8 -->
+         <supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}" />
+         <!-- Windows 7 -->
+         <supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}" />
+         <!-- Windows Vista -->
+         <supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}" />
+      </application>
+   </compatibility>
 </assembly>
 ```

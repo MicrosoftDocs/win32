@@ -17,7 +17,7 @@ The Microsoft Management Console (MMC) enables administrators to import client c
 
 ## Using the Certificate Configuration Tool
 
-The WinHTTP certificate configuration tool, WinHttpCertCfg.exe, is available as a download on the [Windows Server 2003 Resource Kit Tools](https://www.microsoft.com/downloads/details.aspx?familyid=9d467a69-57ff-4ae7-96ee-b18c4790cffd) website. The following example code shows the valid command line parameters to use with this tool.
+The WinHTTP certificate configuration tool, WinHttpCertCfg.exe, was previously available as part of the Windows Server 2003 Resource Kit Tools. The following example code shows the valid command line parameters to use with this tool.
 
 ``` syntax
 winhttpcertcfg [-?]

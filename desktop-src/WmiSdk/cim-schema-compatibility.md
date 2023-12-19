@@ -9,7 +9,7 @@ ms.date: 05/31/2018
 
 # CIM Schema Compatibility
 
-A key component of the Windows Management Instrumentation (WMI) infrastructure is an object-oriented model of the manageable entities in a system. The model conforms to a standard maintained by the Desktop Management Task Force ([DMTF](https://www.dmtf.org/standards/wsman)) and is known as the Common Information Model (CIM). The CIM schema provides a single data description mechanism for any data that they provide.
+A key component of the Windows Management Instrumentation (WMI) infrastructure is an object-oriented model of the manageable entities in a system. The model conforms to a standard maintained by the Desktop Management Task Force ([DMTF](https://www.dmtf.org/standards/ws-man)) and is known as the Common Information Model (CIM). The CIM schema provides a single data description mechanism for any data that they provide.
 
 Starting in Windows 7, WMI is compatible with the CIM Schema version 2.17.1 ([https://www.dmtf.org/standards/cim/cim\_schema\_v2171/](https://www.dmtf.org/standards/cim/cim_schema_v2171)). Users can now compile a DMTF defined schema on a Windows computer.
 

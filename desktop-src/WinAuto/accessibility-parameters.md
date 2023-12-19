@@ -3,7 +3,7 @@ title: Accessibility parameters
 description: The system maintains a set of accessibility parameters that indicate whether the user has special needs or preferences that require applications to change their default behavior.
 ms.assetid: efa289bb-5965-4002-93df-116ab2621efc
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 10/18/2023
 ---
 
 # Accessibility parameters
@@ -40,17 +40,6 @@ The following system parameters are useful for accessibility applications. For m
 | UI effect parameters | SPI\_GETMENUUNDERLINES, SPI\_SETMENUUNDERLINES                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 | Window parameters    | SPI\_GETCARETWIDTH, SPI\_GETFOREGROUNDFLASHCOUNT, SPI\_GETFOREGROUNDLOCKTIMEOUT, SPI\_SETCARETWIDTH, SPI\_SETDRAGHEIGHT, SPI\_SETDRAGWIDTH, SPI\_SETFOREGROUNDFLASHCOUNT, SPI\_SETFOREGROUNDLOCKTIMEOUT                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 
-
-
- 
-
 ## Related topics
 
-<dl> <dt>
-
-[About Windows accessibility features](about-windows-accessibility-features.md)
-</dt> </dl>
-
- 
-
- 
+[About Windows accessibility features](accessibility.md)

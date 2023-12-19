@@ -37,7 +37,7 @@ This instruction is a simplified alternative to the [sample](sample--sm4---asm-.
 
 *srcAddress* provides the set of texture coordinates needed to perform the sample in the form of unsigned integers. If *srcAddress* is out of the range\[0...(\#texels in dimension -1)\], then out-of-bounds behavior is invoked, where **ld** returns 0 in all non-missing components of the format of the *srcResource*, and the default for missing components. An application wishing any more flexible control over out-of-range address behavior should use the **sample** instruction instead, as it honors address wrap/mirror/clamp/border behavior defined as sampler state.
 
-*srcAddress.a* (POS-swizzle) always provides an unsigned integer mipmap level. If the value is out of the range \[0...(num miplevels in resource-1)\]), then out-of-bounds behavior is invoked. If the resource is a buffer, which can not have any mipmaps, then *srcAddress.a* is ignored
+*srcAddress.a* (POS-swizzle) always provides an unsigned integer mipmap level. If the value is out of the range \[0...(num miplevels in resource-1)\]), then out-of-bounds behavior is invoked. If the resource is a buffer, which cannot have any mipmaps, then *srcAddress.a* is ignored
 
 *srcAddress.gb* (POS-swizzle) is ignored for buffers and texture1D (non-Array). *srcAddress.b* (POS-swizzle) is ignored for texture1D arrays and texture2Ds.
 

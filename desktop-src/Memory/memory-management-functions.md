@@ -60,7 +60,7 @@ These functions are used in [file mapping](file-mapping.md).
 |-|-|
 | [**CreateFileMappingA**](/windows/win32/api/winbase/nf-winbase-createfilemappinga) | Creates or opens a named or unnamed file-mapping object for a specified file. |
 | [**CreateFileMappingW**](/windows/win32/api/memoryapi/nf-memoryapi-createfilemappingw) | Creates or opens a named or unnamed file-mapping object for a specified file. |
-| [**CreateFileMapping2**](/windows/win32/api/memoryapi/nf-memoryapi-createfilemapping2) | Creates or opens a named or unnamed file mapping object for a specified file. You can specify specify a preferred NUMA node for the physical memory as an extended parameter; see the *ExtendedParameters* parameter. |
+| [**CreateFileMapping2**](/windows/win32/api/memoryapi/nf-memoryapi-createfilemapping2) | Creates or opens a named or unnamed file mapping object for a specified file. You can specify a preferred NUMA node for the physical memory as an extended parameter; see the *ExtendedParameters* parameter. |
 | [**CreateFileMappingFromApp**](/windows/desktop/api/MemoryApi/nf-memoryapi-createfilemappingfromapp) | Creates or opens a named or unnamed file-mapping object for a specified file from a Windows Store app. |
 | [**CreateFileMappingNuma**](/windows/desktop/api/WinBase/nf-winbase-createfilemappingnumaa) | Creates or opens a named or unnamed file-mapping object for a specified file, and specifies the NUMA node for the physical memory. |
 | [**FlushViewOfFile**](/windows/win32/api/memoryapi/nf-memoryapi-flushviewoffile) | Writes to the disk a byte range within a mapped view of a file. |

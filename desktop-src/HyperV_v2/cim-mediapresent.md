@@ -87,7 +87,7 @@ Data type: **boolean**
 Access type: Read-only
 </dt> </dl>
 
-**true** if the storage extent is fixed in the media access device and can not be ejected; otherwise, **false**.
+**true** if the storage extent is fixed in the media access device and cannot be ejected; otherwise, **false**.
 
 </dd> </dl>
 

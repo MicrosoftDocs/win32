@@ -394,10 +394,6 @@ DHCP not enabled on adapter.
 
 The lease for the IP address assigned by a DHCP server has an expiration date that the client must renew if it intends to continue use of the assigned IP address.
 
-## Examples
-
-The [Renew All DHCP Leases](https://Gallery.TechNet.Microsoft.Com/b29171b8-21b0-492a-b0fe-67e650adca99) VBScript example on TechNet Gallery renews all the DHCP leases currently in use on a computer.
-
 ## Requirements
 
 

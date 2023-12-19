@@ -1332,8 +1332,6 @@ The **Win32\_PnPEntity** class is derived from [**CIM\_LogicalDevice**](cim-logi
 
 ## Examples
 
-The [Get-BrokenHardware.ps1](https://Gallery.TechNet.Microsoft.Com/dbb678f4-b95b-45c3-bc8b-2ae2d052448e) PowerShell sample on TechNet Gallery uses to **Win32\_PnPEntity** to retrieve a list of non-working hardware using WMI.
-
 The following VBScript code example connects to a group of remote computers in the same domain by creating an array of remote computer names and then displaying names of the Plug and Play devices—instances of Win32\_PnPEntity—on each computer.
 
 

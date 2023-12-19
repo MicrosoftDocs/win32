@@ -41,9 +41,6 @@ To go straight to the sample application, see [Appendix A: IPv4-only Source Code
 [IPv6 Support](ipv6-support-2.md)
 </dt> <dt>
 
-[IPv6 Technology Preview for Windows 2000](https://www.microsoft.com/downloads/details.aspx?FamilyID=27b1e6a6-bbdd-43c9-af57-dae19795a088)
-</dt> <dt>
-
 [Using the Checkv4.exe Utility](using-the-checkv4-exe-utility-2.md)
 </dt> <dt>
 
@@ -52,10 +49,3 @@ To go straight to the sample application, see [Appendix A: IPv4-only Source Code
 
 [Appendix B: IP-version Agnostic Source Code](appendix-b-ip-version-agnostic-source-code-2.md)
 </dt> </dl>
-
- 
-
- 
-
-
-

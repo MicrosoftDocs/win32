@@ -31,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 # InstanceParameters.WaypointLatency property
 
-Gets or sets a the number of logs that esent will defer database flushes for. This can be used to increase database recoverability if failures cause logfiles to be lost. Supported on Windows 7 and up. Ignored on Windows XP, Windows Server 2003, Windows Vista and Windows Server 2008.
+Gets or sets the number of logs that esent will defer database flushes for. This can be used to increase database recoverability if failures cause logfiles to be lost. Supported on Windows 7 and up. Ignored on Windows XP, Windows Server 2003, Windows Vista and Windows Server 2008.
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)

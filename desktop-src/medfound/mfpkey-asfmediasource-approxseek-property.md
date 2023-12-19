@@ -34,7 +34,7 @@ The ASF media source handles seeking as follows:
 
 -   If the value of this property is **VARIANT\_TRUE**, the media source uses approximate seeking, which is less accurate but faster than exact seeking.
 -   If the value is **VARIANT\_FALSE** and the ASF file has an index, the media source uses exact seeking.
--   If the ASF file does not contain an index, the media source uses approxmate seeking unless the [MFPKEY\_ASFMediaSource\_IterativeSeekIfNoIndex](mfpkey-asfmediasource-iterativeseekifnoindex.md) property is set to **VARIANT\_TRUE**.
+-   If the ASF file does not contain an index, the media source uses approximate seeking unless the [MFPKEY\_ASFMediaSource\_IterativeSeekIfNoIndex](mfpkey-asfmediasource-iterativeseekifnoindex.md) property is set to **VARIANT\_TRUE**.
 -   If the ASF file does not contain an index and the [MFPKEY\_ASFMediaSource\_IterativeSeekIfNoIndex](mfpkey-asfmediasource-iterativeseekifnoindex.md) property is **VARIANT\_TRUE**, the media source uses iterative seeking. Iterative seeking is more accurate but slower than approximate seeking (but generally less accurate than exact seeking).
     > [!Note]  
     > Requires Windows 7.

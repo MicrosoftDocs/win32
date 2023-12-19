@@ -28,17 +28,10 @@ This section provides WMI class and reference page information. For more informa
 
 The following Scripting Center code samples affect multiple WMI classes across multiple namespaces.
 
-
-
 | Link                                                                                                                                      | Description                                                                                                                                                                                                                          |
 |-------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [GUI WMI Explorer and WMI Method Help Generator](https://Gallery.TechNet.Microsoft.Com/scriptcenter/89c759b7-20b4-49e8-98a8-3c8fbdb2dd69) | Sample script that provides a GUI WMI Explorer and WMI Method Help Generator.                                                                                                                                                        |
-| [WMI Explorer Search WMI NameSpaces](https://Gallery.TechNet.Microsoft.Com/scriptcenter/WMI-Explorer-Search-WMI-cd87e309)                 | Allows users to search for classes in all of the available namespaces on the specified computers. This sample is the command-line verison of the GUI WMI Explorer sample, and may be considered an extension of Get-WmiObject -List. |
-| [Arposh Windows System Administration tool](https://Gallery.TechNet.Microsoft.Com/scriptcenter/Arposh-Windows-System-a1beb102)            | AWSA was built with the System Administrator in mind. Troubleshooting Windows issues requires a vast array of tools and knowledge. AWSA brings those tools together in one central location and adds additional functionality.       |
-
-
-
- 
+| GUI WMI Explorer and WMI Method Help Generator | Sample script that provides a GUI WMI Explorer and WMI Method Help Generator.                                                                                                                                                        |
+| [Arposh Windows System Administration tool](https://devblogs.microsoft.com/scripting/powershell-community-and-the-windows-system-administration-tool/)            | AWSA was built with the System Administrator in mind. Troubleshooting Windows issues requires a vast array of tools and knowledge. AWSA brings those tools together in one central location and adds additional functionality.       |
 
 ## Naming Conventions for WMI Classes and Properties
 

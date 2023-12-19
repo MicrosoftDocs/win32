@@ -19,7 +19,7 @@ Returns **S_OK** if the action could be paused and a failure if not.
 
 ## Remarks
 
-This method should make a best effort to pause the update. It is ok to block until the update is paused if it can not be completed immediately.
+This method should make a best effort to pause the update. It is ok to block until the update is paused if it cannot be completed immediately.
 
 ## See Also
 

@@ -3,7 +3,7 @@ title: Network List Manager
 description: Network List Manager
 ms.assetid: a30741ff-5d9a-4ebb-8373-97e9116fc64b
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 10/16/2023
 ---
 
 # Network List Manager
@@ -20,24 +20,13 @@ Network List Manager is designed for use by COM programmers.
 
 The Network List Manager API is supported starting with Windows Vista.
 
+## Sample app (C++)
+
+For a sample app in C++, see [Network List Manager sample app](https://github.com/microsoft/Windows-classic-samples/tree/main/Samples/NetworkListManager).
+
 ## In this section
-
-
 
 | Topic                                                                                   | Description                                                        |
 |-----------------------------------------------------------------------------------------|--------------------------------------------------------------------|
 | [About the Network List Manager API](about-the-network-list-manager-api.md)<br/> | General information about the Network List Manager API.<br/> |
 | [Network List Manager API Reference](network-list-manager-api-reference.md)<br/> | Reference information for the Network List Manager API.<br/> |
-
-
-
- 
-
- 
-
- 
-
-
-
-
-

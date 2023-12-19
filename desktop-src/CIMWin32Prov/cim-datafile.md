@@ -951,10 +951,6 @@ Due to security purposes, WMI does not directly support calling a remote compute
 
 ## Examples
 
-The following Scripting Center [code example](https://Gallery.TechNet.Microsoft.Com/scriptcenter/Generate-Exchange-2388e7c9) uses a **CIM\_DataFile** class as part of a larger application to Generate exchange environment reports using Powershell.
-
-The [Find files with WMI PowerShell](https://Gallery.TechNet.Microsoft.Com/Find-files-with-WMI-8851e1ea) code sample in TechNet Gallery uses a **CIM\_DataFile** to search for one or more files across multiple computers.
-
 The following VBS code sample describes how to perform a standard wildcard search on a datafile. Note that the backslash delimiters must be escaped with another backslash (\\\\). Also, when using "**CIM\_DataFile**.**FileName**" in the WHERE clause, the WMIPRVSE process will scan all directories on any available storage device. This may take some time, especially if you have mapped remote shares, and can trigger antivirus warnings.
 
 

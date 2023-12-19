@@ -444,7 +444,7 @@ HRESULT MakePagePartUri (
 
 
 
-For more information on the structure of an XPS document, see the [XML Paper Specification](https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf).
+For more information on the structure of an XPS document, see the [XML Paper Specification](https://en.wikipedia.org/wiki/Open_XML_Paper_Specification).
 
 ## Related topics
 
@@ -495,7 +495,7 @@ For more information on the structure of an XPS document, see the [XML Paper Spe
 [XPS Document API Reference](xps-programming-reference.md)
 </dt> <dt>
 
-[XML Paper Specification](https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf)
+[XML Paper Specification](https://en.wikipedia.org/wiki/Open_XML_Paper_Specification)
 </dt> </dl>
 
  

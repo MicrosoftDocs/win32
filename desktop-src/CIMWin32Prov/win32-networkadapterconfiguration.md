@@ -1331,10 +1331,6 @@ The **Win32\_NetworkAdapterConfiguration** class is derived from [**CIM\_Setting
 
 ## Examples
 
-The [WMI Information Retriever](https://Gallery.TechNet.Microsoft.Com/e493376c-1286-456b-bd4b-4ac3b0e9bb45) VBScript code example on the TechNet Gallery uses the **Win32\_NetworkAdapterConfiguration** class to retrieve network configuration information from a number of remote computers.
-
-The [Get-ComputerInfo - Query Computer Info From Local/Remote Computers - (WMI)](https://Gallery.TechNet.Microsoft.Com/Get-ComputerInfo-Query-23dd6042) PowerShell sample on TechNet Gallery uses a number of calls to hardware and software, including **Win32\_NetworkAdapterConfiguration**, to display information about a local or remote system.
-
 The following PowerShell code retrieves the configuration settings for the Microsoft ISTAP Adapter.
 
 

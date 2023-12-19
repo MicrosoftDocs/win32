@@ -905,7 +905,7 @@ HRESULT PlayerSeeking::CommitRateChange(float fRate, BOOL bThin)
         {
            // Transition to paused.
 
-            // This transisition requires the paused state.
+            // This transition requires the paused state.
 
             // Pause and set the rate.
             hr = Pause();

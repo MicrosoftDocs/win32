@@ -406,12 +406,6 @@ The receive window specifies the number of bytes a sender can transmit without r
 > [!Note]  
 > Windows Vista: This method accesses the `"CurrentControlSet\\Services\\Tcpip\\Parameters|TcpWindowSize"` registry entry, which is not used in the current implementation of the operating system.
 
- 
-
-## Examples
-
-The [Modify the TCP Window Size for All Network Adapters](https://Gallery.TechNet.Microsoft.Com/74cf7be0-0044-4a88-85a3-9bc98490897b) VBScript sample sets the TCP window size for all network adapters on a computer.
-
 ## Requirements
 
 

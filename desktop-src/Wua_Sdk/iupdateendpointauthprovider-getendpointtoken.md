@@ -81,7 +81,7 @@ Indicates weather WUA requests a new token. True indicates that a new token is r
 *ppEndpointToken* \[out\]
 </dt> <dd>
 
-Specifiy the endpoint token to be used.
+Specify the endpoint token to be used.
 
 </dd> </dl>
 
@@ -91,7 +91,7 @@ Returns S\_OK if successful. Otherwise, returns a COM or Windows error code.
 
 ## Remarks
 
-WUA typically sets the fRefreshOnline parameter to false when this method is first called, then if a connection error occures WUA sets that parameter to true when the method is called again. However, the implementation of this method can request a new token from a Security Token Service (STS) or provide a cached token at any time.
+WUA typically sets the fRefreshOnline parameter to false when this method is first called, then if a connection error occurs WUA sets that parameter to true when the method is called again. However, the implementation of this method can request a new token from a Security Token Service (STS) or provide a cached token at any time.
 
 ## Requirements
 

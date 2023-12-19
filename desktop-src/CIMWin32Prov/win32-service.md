@@ -930,10 +930,6 @@ A user connecting from a remote computer must have the **SC\_MANAGER\_CONNECT** 
 
 ## Examples
 
-The [PS- WMI Query that returns Service 'State' on a group of devices](https://Gallery.TechNet.Microsoft.Com/0f1ab629-d463-4406-be54-ec2c4c23bc1f) PowerShell sample on TechNet Gallery uses **Win32\_Service** to create a list of devices from Active Directory, and then query each device that responds with pingfor a specific service running.
-
-The [Server Report](https://Gallery.TechNet.Microsoft.Com/Server-Report-7b4ac2fb) PowerShell sample on TechNet Gallery uses **Win32\_Service** to gather server information and publish in Word document.
-
 The following VBScript code sample displays all currently installed services.
 
 

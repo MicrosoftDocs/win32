@@ -28,7 +28,7 @@ This procedure will initialize ESE and create a database.
     
     **Windows XP and later:** This function is available in Windows XP and later. On Windows 2000, only one instance is supported and that instance is created implicitly
 
-2.  [JetSetSystemParameter](./jetsetsystemparameter-function.md): System parameters that the affect the physical layout such as the JET_paramLogFilePath and JET_paramSystemPath must be set before initializing the instance with [JetInit](./jetinit-function.md). The parameters set at this stage are set for all databases created in the instance. [JetSetSystemParameter](./jetsetsystemparameter-function.md) is the only function that can use the instance before it is initialized with [JetInit](./jetinit-function.md).
+2.  [JetSetSystemParameter](./jetsetsystemparameter-function.md): System parameters that affect the physical layout such as the JET_paramLogFilePath and JET_paramSystemPath must be set before initializing the instance with [JetInit](./jetinit-function.md). The parameters set at this stage are set for all databases created in the instance. [JetSetSystemParameter](./jetsetsystemparameter-function.md) is the only function that can use the instance before it is initialized with [JetInit](./jetinit-function.md).
 
 3.  [JetInit](./jetinit-function.md): Initializes the instance. Instance must be initialized with [JetInit](./jetinit-function.md) before it can be used with any other functions.
 

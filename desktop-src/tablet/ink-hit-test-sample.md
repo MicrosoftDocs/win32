@@ -129,7 +129,7 @@ The application's handleNearestPoint method creates two points both equal to the
 using (Graphics g = CreateGraphics())
 {
 
-   // Remeber pen location
+   // Remember pen location
     Point inkPenPt = new Point(e.X, e.Y);
 
     // Convert the pen location into a location in ink space

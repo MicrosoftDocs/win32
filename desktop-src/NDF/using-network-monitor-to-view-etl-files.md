@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Using Network Monitor to View ETL Files
 
-[Network Monitor 3.4](https://www.microsoft.com/en-us/download/4865) enables users to parse, filter, and view an ETL file (using Windows Vista or later).
+[Microsoft Network Monitor 3.4 (archive)](https://www.microsoft.com/download/details.aspx?id=4865) enables users to parse, filter, and view an ETL file (using Windows Vista or later).
 
 Correlated ETL files group the relevant events together. The illlustration below shows a correlated file opened in Network Monitor, with conversation enabled.
 
@@ -46,15 +46,3 @@ The following table shows some examples of useful filters.
 | WLAN\_MicrosoftWindowsWLANAutoConfig                                          | Filters only events from WLAN service.                            |
 | N802\_MicrosoftWindowsNWiFi                                                   | Filters only events from the Native Wifi driver.                  |
 | WLAN\_MicrosoftWindowsWLANAutoConfig AND UTEvent.Header.Descriptor.Id == 2001 | Filters only events with event ID 2001 emitted from WLAN service. |
-
-
-
- 
-
- 
-
- 
-
-
-
-

@@ -122,10 +122,6 @@ The **SWbemObject** object has these properties.
 
  
 
-## Examples
-
-The [List All the Properties and Methods for a WMI Class](https://Gallery.TechNet.Microsoft.Com/f0666124-3b67-4254-8ff1-3b75ae15776d) VBScript code sample on TechNet Gallery uses the SWbemObject to list all of the methods and properties for a specified WMI class.
-
 ## Requirements
 
 

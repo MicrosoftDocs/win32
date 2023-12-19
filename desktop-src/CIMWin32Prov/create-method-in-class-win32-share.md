@@ -201,8 +201,6 @@ Only members of the Administrators or Account Operators local group or those wit
 
 ## Examples
 
-The [Export and Import Fileshares](https://Gallery.TechNet.Microsoft.Com/Export-and-Import-84d4fce1) PowerShell sample exports and imports file shares and sets share permissions. Similarly, the [Create a Share and Set Permissions](https://gallery.technet.microsoft.com/scriptcenter/Create-a-Share-and-Set-eb177a79) sample also creates a new share and sets the share permissions.
-
 The following PowerShell code creates a share.
 
 

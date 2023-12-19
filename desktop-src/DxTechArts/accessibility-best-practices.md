@@ -200,7 +200,7 @@ There are a number of web resources available that discuss video game accessibil
 
 General Disability sites:
 
--   [Game Accessibility](https://www.game-accessibility.com/)
+-   [Game accessibility guidelines](https://gameaccessibilityguidelines.com/full-list/)
 -   [Microsoft's Accessibility Site](https://www.microsoft.com/enable/)
 -   [Accessibility](/previous-versions/windows/internet-explorer/ie-developer/accessibility/gg701968(v=vs.85))
 

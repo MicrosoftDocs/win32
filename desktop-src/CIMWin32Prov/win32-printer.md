@@ -5505,10 +5505,6 @@ You cannot use the **Win32\_Printer** class for printers on an MSCS print cluste
 
 ## Examples
 
-The [PS Create a Computer Configuration Drawing using Visio](https://Gallery.TechNet.Microsoft.Com/84e2c31a-e644-4f79-83cd-e2b1a0ef8557) PowerShell sample on TechNet Gallery uses **Win32\_Printer** to interact with Visio automation model to create a Visio drawing.
-
-The [Powershell Remote PC Info Script](https://Gallery.TechNet.Microsoft.Com/2a8a008c-ee30-4b50-a81a-1b7545ef3436) uses a number of classes, including **Win32\_Printer**, to retrieve information about a remote computer.
-
 The following PowerShell code sample shows how to determine the default printer of the local computer.
 
 

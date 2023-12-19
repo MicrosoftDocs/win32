@@ -26,7 +26,7 @@ The Windows Media Player SDK implements the following enumeration type for creat
 | Enumeration Type                                        | Description                                                                                    |
 |---------------------------------------------------------|------------------------------------------------------------------------------------------------|
 | [WMPPlugin\_Caps](/previous-versions/windows/desktop/api/wmpservices/ne-wmpservices-wmpplugin_caps)                   | Used with **IWMPPlugin::GetCaps** to indicate whether the plug-in can convert between formats. |
-| [WMPServices\_StreamState](/previous-versions/windows/desktop/api/wmpservices/ne-wmpservices-wmpservices_streamstate) | Indicates the whether the stream is currently stopped, paused, or playing.                     |
+| [WMPServices\_StreamState](/previous-versions/windows/desktop/api/wmpservices/ne-wmpservices-wmpservices_streamstate) | Indicates whether the stream is currently stopped, paused, or playing.                     |
 
 
 
