@@ -1,6 +1,6 @@
 ---
 title: Traversing the module list
-description: The following example obtains a list of modules for a specified process.
+description: This code example obtains a list of modules for a specified process.
 ms.assetid: 8efe1e13-6222-496a-bff3-90f53b03c750
 ms.topic: article
 ms.date: 12/19/2023
