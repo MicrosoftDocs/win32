@@ -90,10 +90,10 @@ if ((atomApplication = GlobalAddAtom("Server")) != 0)
             WM_DDE_ACK, 
             (WPARAM) hwndServerDDE, 
             MAKELONG(atomApplication, atomTopic)); 
-        GlobalDeleteAtom(atomApplication); 
+        GlobalDeleteAtom(atomTopic); 
     } 
  
-    GlobalDeleteAtom(atomTopic); 
+    GlobalDeleteAtom(atomApplication); 
 } 
  
 if ((atomApplication == 0) || (atomTopic == 0)) 
