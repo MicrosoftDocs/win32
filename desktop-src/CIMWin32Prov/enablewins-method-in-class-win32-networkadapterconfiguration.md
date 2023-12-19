@@ -191,10 +191,6 @@ Returns a value of 0 (zero) for a successful completion when no reboot is requir
 **Other** (101 4294967295)
 </dt> </dl>
 
-## Examples
-
-The [Enable WINS for All Network Adapters](https://Gallery.TechNet.Microsoft.Com/64cae6dd-4155-4825-ab25-5727503edf5a) VBScript code sample, on TechNet Gallery, uses **EnableWINS** to Enables WINS on all the network adapters installed in a computer.
-
 ## Requirements
 
 

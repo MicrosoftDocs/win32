@@ -14,7 +14,7 @@ JScript is supported by a wide range of Web browsers, including both Internet Ex
 
 In addition to the language features provided by JScript, the scripting host may also expose an object model that your script can access. For example, Internet Explorer exposes an object model that enables scripts to interact with and programmatically control the browser. For more information about working with such object models, see the documentation for your scripting host.
 
-For more information about JScript, see the JScript Language Reference. For more information see the [ECMA 262 language specification](https://www.ecma-international.org/publications/standards/Ecma-262.htm).
+For more information about JScript, see the JScript Language Reference. For more information see the [ECMA 262 language specification](https://ecma-international.org/publications-and-standards/standards/ecma-262/).
 
 The following topics describe issues you should consider when translating a script to JScript from JavaScript or VBScript:
 

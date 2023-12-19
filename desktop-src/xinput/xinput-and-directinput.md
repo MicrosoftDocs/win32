@@ -12,31 +12,30 @@ ms.custom: seo-windows-dev
 > [!IMPORTANT]  
 > See [GameInput API](/gaming/gdk/_content/gc/input/overviews/input-overview) for details on the next-generation input API supported on PC and Xbox through the [Microsoft Game Development Kit (GDK)](/gaming/gdk/).
 
-This document compares XInput and [DirectInput](/previous-versions/windows/desktop/ee416842(v=vs.85)) implementations of the Xbox Controller and how to support both XInput devices and legacy DirectInput devices.
+This document compares XInput and [DirectInput](/previous-versions/windows/desktop/ee416842(v=vs.85)) implementations of controller input and how to support both XInput devices and legacy DirectInput devices.
 
 **Windows Store apps do not support [DirectInput](/previous-versions/windows/desktop/ee416842(v=vs.85)).**
 
 ## Overview
 
-XInput enables applications to receive input from the Xbox Controller for Windows. The APIs are available through the DirectX SDK, and the driver is available through Windows Update.
+XInput enables applications to receive input from the XUSB controllers. The APIs are available through the DirectX SDK, and the driver is available through Windows Update.
 
 There are several advantages to using XInput over [DirectInput](/previous-versions/windows/desktop/ee416842(v=vs.85)):
 
 -   XInput is easier to use and requires less setup than [DirectInput](/previous-versions/windows/desktop/ee416842(v=vs.85))
 -   Both Xbox and Windows programming will use the same sets of core APIs, allowing programming to translate cross-platform much easier
--   There will be a large installed base of Xbox controllers
--   XInput devices (that is, the Xbox controllers) will have vibration functionality only when using XInput APIs
--   Future controllers released for the Xbox console (that is, steering wheels) will also work on Windows
+-   There will be a large installed base of controllers
+-   XInput device will have vibration functionality only when using XInput APIs
 
-### Using the Xbox Controller with DirectInput
+### Using XUSB controllers with DirectInput
 
-The Xbox Controller is properly enumerated on [DirectInput](/previous-versions/windows/desktop/ee416842(v=vs.85)), and can be used with the DirectInputAPIs. However, some functionality provided by XInput will be missing from the DirectInput implementation:
+The XUSB controllers are properly enumerated on [DirectInput](/previous-versions/windows/desktop/ee416842(v=vs.85)), and can be used with the DirectInputAPIs. However, some functionality provided by XInput will be missing from the DirectInput implementation:
 
 -   The left and right trigger buttons will act as a single button, not independently
 -   The vibration effects will not be available
 -   Querying for headset devices will not be available
 
-The combination of the left and right triggers in [DirectInput](/previous-versions/windows/desktop/ee416842(v=vs.85)) is by design. Games have always assumed that DirectInput device axes are centered when there is no user interaction with the device. However, the Xbox controller was designed to register minimum value, not center, when the triggers are not being held. Older games would therefore assume user interaction.
+The combination of the left and right triggers in [DirectInput](/previous-versions/windows/desktop/ee416842(v=vs.85)) is by design. Games have always assumed that DirectInput device axes are centered when there is no user interaction with the device. However, the newer controllers were designed to register minimum value, not center, when the triggers are not being held. Older games would therefore assume user interaction.
 
 The solution was to combine the triggers, setting one trigger to a positive direction and the other to a negative direction, so no user interaction is indicative to [DirectInput](/previous-versions/windows/desktop/ee416842(v=vs.85)) of the "control" being at center.
 
@@ -60,8 +59,8 @@ To do this, insert this code into your DirectInput enumeration callback:
 
 //-----------------------------------------------------------------------------
 // Enum each PNP device using WMI and check each device ID to see if it contains 
-// "IG_" (ex. "VID_045E&PID_028E&IG_00").  If it does, then it's an XInput device
-// Unfortunately this information can not be found by just using DirectInput 
+// "IG_" (ex. "VID_0000&PID_0000&IG_00"). If it does, then it's an XInput device
+// Unfortunately this information cannot be found by just using DirectInput 
 //-----------------------------------------------------------------------------
 BOOL IsXInputDevice( const GUID* pGuidProductFromDirectInput )
 {
@@ -130,7 +129,7 @@ BOOL IsXInputDevice( const GUID* pGuidProductFromDirectInput )
             if (SUCCEEDED(hr) && var.vt == VT_BSTR && var.bstrVal != nullptr)
             {
                 // Check if the device ID contains "IG_".  If it does, then it's an XInput device
-                // This information can not be found from DirectInput 
+                // This information cannot be found from DirectInput 
                 if (wcsstr(var.bstrVal, L"IG_"))
                 {
                     // If it does, then get the VID/PID from var.bstrVal

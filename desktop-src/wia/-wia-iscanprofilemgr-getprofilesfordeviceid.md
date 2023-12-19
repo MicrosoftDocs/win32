@@ -50,7 +50,7 @@ The ID of the device.
 
 Type: **ULONG\***
 
-When passed, a pointer to the maximum number of profiles to be returned. When returned, the a pointer to the number of profiles returned.
+When passed, a pointer to the maximum number of profiles to be returned. When returned, a pointer to the number of profiles is returned.
 
 </dd> <dt>
 

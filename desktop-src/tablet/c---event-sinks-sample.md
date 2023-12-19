@@ -22,7 +22,7 @@ The `InkCollectorEvents` Class handles passing ink collector events from the ink
 
 ```C++
 // Invoke translates from IDispatch to an event callout
-//  that can be overriden by a subclass of this class.
+//  that can be overridden by a subclass of this class.
 STDMETHOD(Invoke)(
    DISPID dispidMember, 
     REFIID riid,
@@ -167,7 +167,7 @@ The CMyInkCollector Class's Init method declares and initializes a CMyInkEvents 
 
 
 ```C++
-// Handle all initializaton
+// Handle all initialization
 HRESULT Init(
 HWND hWnd)
 {

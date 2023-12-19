@@ -20,7 +20,7 @@ A matrix for transforming from world-space to object-space. Object-space refers 
 ## Syntax
 
 ```
-void WorldToObject3x4();
+float3x4 WorldToObject3x4();
 
 ```
 

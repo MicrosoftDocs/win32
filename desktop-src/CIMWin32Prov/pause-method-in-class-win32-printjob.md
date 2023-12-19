@@ -57,8 +57,6 @@ Access Denied
 
 ## Examples
 
-The [Pause All Printers with Empty Print Queues](https://Gallery.TechNet.Microsoft.Com/cf2b6b61-8ffe-444b-857b-e3a205bc693c) VBScript code sample pauses any printers that have no pending print jobs.
-
 The following VBScript code sample pauses all the print jobs on a print server.
 
 

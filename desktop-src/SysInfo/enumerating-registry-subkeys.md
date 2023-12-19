@@ -21,29 +21,29 @@ The following example uses the [**RegQueryInfoKey**](/windows/desktop/api/Winreg
 
 #define MAX_KEY_LENGTH 255
 #define MAX_VALUE_NAME 16383
- 
-void QueryKey(HKEY hKey) 
-{ 
+
+void QueryKey(HKEY hKey)
+{
     TCHAR    achKey[MAX_KEY_LENGTH];   // buffer for subkey name
-    DWORD    cbName;                   // size of name string 
+    DWORD    cbName = 0;                   // size of name string 
     TCHAR    achClass[MAX_PATH] = TEXT("");  // buffer for class name 
     DWORD    cchClassName = MAX_PATH;  // size of class string 
-    DWORD    cSubKeys=0;               // number of subkeys 
-    DWORD    cbMaxSubKey;              // longest subkey size 
-    DWORD    cchMaxClass;              // longest class string 
-    DWORD    cValues;              // number of values for key 
-    DWORD    cchMaxValue;          // longest value name 
-    DWORD    cbMaxValueData;       // longest value data 
-    DWORD    cbSecurityDescriptor; // size of security descriptor 
+    DWORD    cSubKeys = 0;               // number of subkeys 
+    DWORD    cbMaxSubKey = 0;              // longest subkey size 
+    DWORD    cchMaxClass = 0;              // longest class string 
+    DWORD    cValues = 0;              // number of values for key 
+    DWORD    cchMaxValue = 0;          // longest value name 
+    DWORD    cbMaxValueData = 0;       // longest value data 
+    DWORD    cbSecurityDescriptor = 0; // size of security descriptor 
     FILETIME ftLastWriteTime;      // last write time 
- 
-    DWORD i, retCode; 
- 
-    TCHAR  achValue[MAX_VALUE_NAME]; 
-    DWORD cchValue = MAX_VALUE_NAME; 
- 
+
+    DWORD i = 0, j = 0, retCode = 0;
+
+    TCHAR  achValue[MAX_VALUE_NAME] = {'\0'};
+    DWORD cchValue = MAX_VALUE_NAME;
+
     // Get the class name and the value count. 
-    retCode = RegQueryInfoKey(
+    retCode = ::RegQueryInfoKey(
         hKey,                    // key handle 
         achClass,                // buffer for class name 
         &cchClassName,           // size of class string 
@@ -56,71 +56,76 @@ void QueryKey(HKEY hKey)
         &cbMaxValueData,         // longest value data 
         &cbSecurityDescriptor,   // security descriptor 
         &ftLastWriteTime);       // last write time 
- 
+
+
+
     // Enumerate the subkeys, until RegEnumKeyEx fails.
-    
+
     if (cSubKeys)
     {
-        printf( "\nNumber of subkeys: %d\n", cSubKeys);
+        printf("\nNumber of subkeys: %d\n", cSubKeys);
 
-        for (i=0; i<cSubKeys; i++) 
-        { 
+        for (i = 0; i < cSubKeys; i++)
+        {
             cbName = MAX_KEY_LENGTH;
-            retCode = RegEnumKeyEx(hKey, i,
-                     achKey, 
-                     &cbName, 
-                     NULL, 
-                     NULL, 
-                     NULL, 
-                     &ftLastWriteTime); 
-            if (retCode == ERROR_SUCCESS) 
+            retCode = ::RegEnumKeyEx(hKey, i,
+                achKey,
+                &cbName,
+                NULL,
+                NULL,
+                NULL,
+                &ftLastWriteTime);
+
+            if (retCode == ERROR_SUCCESS)
             {
-                _tprintf(TEXT("(%d) %s\n"), i+1, achKey);
+                _tprintf(TEXT("(%d) %s\n"), i + 1, achKey);
             }
         }
-    } 
- 
+    }
+
     // Enumerate the key values. 
 
-    if (cValues) 
+    if (cValues)
     {
-        printf( "\nNumber of values: %d\n", cValues);
+        printf("\nNumber of values: %d\n", cValues);
 
-        for (i=0, retCode=ERROR_SUCCESS; i<cValues; i++) 
-        { 
-            cchValue = MAX_VALUE_NAME; 
-            achValue[0] = '\0'; 
-            retCode = RegEnumValue(hKey, i, 
-                achValue, 
-                &cchValue, 
-                NULL, 
+        for (i = 0; i < cValues; i++)
+        {
+            cchValue = MAX_VALUE_NAME;
+            achValue[0] = '\0';
+            retCode = ::RegEnumValue(hKey, i,
+                achValue,
+                &cchValue,
+                NULL,
                 NULL,
                 NULL,
                 NULL);
- 
-            if (retCode == ERROR_SUCCESS ) 
-            { 
-                _tprintf(TEXT("(%d) %s\n"), i+1, achValue); 
-            } 
+
+            if (retCode == ERROR_SUCCESS)
+            {
+                _tprintf(TEXT("(%d) %s\n"), i + 1, achValue);
+            }
         }
     }
 }
 
 int __cdecl _tmain()
 {
-   HKEY hTestKey;
+    HKEY hTestKey = 0;
 
-   if( RegOpenKeyEx( HKEY_CURRENT_USER,
+    if (::RegOpenKeyEx(HKEY_CURRENT_USER,
         TEXT("SOFTWARE\\Microsoft"),
         0,
         KEY_READ,
         &hTestKey) == ERROR_SUCCESS
-      )
-   {
-      QueryKey(hTestKey);
-   }
-   
-   RegCloseKey(hTestKey);
+        )
+    {
+        QueryKey(hTestKey);
+    }
+
+    ::RegCloseKey(hTestKey);
+
+    return 0;
 }
 ```
 

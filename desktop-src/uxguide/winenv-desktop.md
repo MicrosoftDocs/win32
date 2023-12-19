@@ -38,7 +38,7 @@ The Windows desktop access points include the Start button, taskbar, and notific
 
 **The Windows desktop is a limited, shared resource that is the user's entry point to Windows. Leave users in control.** You should use its areas as intended—any other usage should be considered an abuse. Never view them as ways to promote awareness of your program or its [brand](exper-branding.md).
 
-For Windows 7, Original Equipment Manufacturers (OEMs) and Independent Hardware Vendors (IHVs) can use Device Stage to design a customized, branded UI for the computer and devices, without cluttering users' desktops. OEMs in particular can use Device Stage PC to feature custom programs, service offerings, and support. For more information, see the [Microsoft Device Experience Development Kit](https://www.microsoft.com/whdc/device/DeviceExperience/Dev-Kit.mspx).
+For Windows 7, Original Equipment Manufacturers (OEMs) and Independent Hardware Vendors (IHVs) can use Device Stage to design a customized, branded UI for the computer and devices, without cluttering users' desktops. OEMs in particular can use Device Stage PC to feature custom programs, service offerings, and support. For more information, see the [Microsoft Device Experience Development Kit](/previous-versions/windows/hardware/device-stage/dn629504(v=vs.85)).
 
 **If you do only one thing...**
 

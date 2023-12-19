@@ -37,7 +37,7 @@ If this property is used with a media item other than the one specified in *Play
 
 To retrieve the duration for files that are not in the user's library, you must wait for Windows Media Player to open the file; that is, the current OpenState must equal MediaOpen. You can verify this by handling the *Player*.**OpenStateChange** event or by periodically checking the value of *Player*.**openState**.
 
-For playlists, the duration of each media item can be retrieved when the individual media item is opened, rather than the when the playlist is opened.
+For playlists, the duration of each media item can be retrieved when the individual media item is opened, rather than when the playlist is opened.
 
 To retrieve the value of this property, read access to the library is required. For more information, see [Library Access](library-access.md).
 

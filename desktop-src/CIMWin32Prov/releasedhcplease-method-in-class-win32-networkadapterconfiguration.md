@@ -399,8 +399,6 @@ DHCP not enabled on adapter.
 
 ## Examples
 
-The [Release Renew IP Adresses Using PowerShell](https://Gallery.TechNet.Microsoft.Com/Renew-IP-Adresses-Using-365f6bfa) PowerShell example on TechNet Gallery uses **ReleaseDHCPLease** to release and renew an IP address.
-
 The following VBScript code releases the DHCP leases for all TCP/IP-bound network adapters on a computer.
 
 

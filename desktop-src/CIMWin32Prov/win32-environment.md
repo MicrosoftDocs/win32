@@ -311,8 +311,6 @@ The calling process that uses this class must have the **SE\_RESTORE\_NAME** pri
 
 ## Examples
 
-The [List Environment Variables on a Computer](https://Gallery.TechNet.Microsoft.Com/79ae998e-2e29-4a6d-b0a6-34ed5b709d49) Perl sample uses WMI to return information about all the environment variables on a computer.
-
 The following VBScript code example enumerates the environment variables on the local computer.
 
 

@@ -41,7 +41,7 @@ See *Telecommunications Devices for the Deaf (TDD)*.
 
 </dd> <dt>
 
-<span id="tapi2.telecommucations_devices_for_the_deaf_tdd__tapgloss"></span><span id="TAPI2.TELECOMMUCATIONS_DEVICES_FOR_THE_DEAF_TDD__TAPGLOSS"></span>**Telecommucations Devices for the Deaf (TDD)**
+<span id="tapi2.telecommucations_devices_for_the_deaf_tdd__tapgloss"></span><span id="TAPI2.TELECOMMUCATIONS_DEVICES_FOR_THE_DEAF_TDD__TAPGLOSS"></span>**Telecommunications Devices for the Deaf (TDD)**
 </dt> <dd>
 
 A data device for the transmission of coded signals. Typically, the device is a simple computer terminal consisting of a keyboard, acoustic coupler, and display, and runs at 300 baud.

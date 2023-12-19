@@ -19,7 +19,7 @@ Part of the process to modify your code to support IPv6 should include determini
 [IPv6 Guide for Windows Sockets Applications](ipv6-guide-for-windows-sockets-applications-2.md)
 </dt> <dt>
 
-[Changing Data Structures for IPv6 Winsock Appications](changing-data-structures-2.md)
+[Changing Data Structures for IPv6 Winsock Applications](changing-data-structures-2.md)
 </dt> <dt>
 
 [Dual-Stack Sockets for IPv6 Winsock Applications](dual-stack-sockets.md)

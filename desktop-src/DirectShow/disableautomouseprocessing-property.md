@@ -28,7 +28,7 @@ Returns a boolean value indicating whether to disable the default mouse processi
 
 ## Remarks
 
-This property is read/write with a default value of false. The **MSWebDVD** object automatically handles mouse actions for DVD on-screen menus by default; users can highlight and activate menu buttons without special programming by the application. An application can turn off this default mouse-handling functionality by setting this property to **true**. When the automatic mouse processing is turned off, an application must use the various button-related methods and properties to handle mouse moves and mouse clicks on the on-screen menus. Also, an application can use the button-related methods to override the automatic mouse handling even when when `DisableAutoMouseProcessing` is set to **false**.
+This property is read/write with a default value of false. The **MSWebDVD** object automatically handles mouse actions for DVD on-screen menus by default; users can highlight and activate menu buttons without special programming by the application. An application can turn off this default mouse-handling functionality by setting this property to **true**. When the automatic mouse processing is turned off, an application must use the various button-related methods and properties to handle mouse moves and mouse clicks on the on-screen menus. Also, an application can use the button-related methods to override the automatic mouse handling even when `DisableAutoMouseProcessing` is set to **false**.
 
  
 

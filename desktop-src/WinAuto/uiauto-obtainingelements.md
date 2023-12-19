@@ -66,7 +66,7 @@ To find a known element that is identified by name, automation ID, or some other
 
 This way of finding UI Automation elements is most useful in automated testing scenarios.
 
-For a code example that shows how to find a know element, see [Finding an Element by Name](uiauto-howto-find-ui-elements.md).
+For a code example that shows how to find a known element, see [Finding an Element by Name](uiauto-howto-find-ui-elements.md).
 
 ## Finding Elements in a Subtree
 

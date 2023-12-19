@@ -16,7 +16,7 @@ The following table lists several documents that give detailed descriptions of h
 |-----------------------------------------------|-----------------------------------------------------------------------------------------------------------------|
 | Tagged Image File Format (TIFF) Specification | [https://www.loc.gov/preservation/digital/formats/fdd/fdd000022.shtml](https://www.loc.gov/preservation/digital/formats/fdd/fdd000022.shtml) |
 | Exif Specification                            | <https://www.loc.gov/preservation/digital/formats/fdd/fdd000146.shtml>                                                                       |
-| Portable Network Graphics (PNG) Specification | <https://www.w3.org/TR/REC-png.html>                                                                             |
+| Portable Network Graphics (PNG) Specification | <https://www.w3.org/TR/2003/REC-PNG-20031110/>                                                                             |
 | ISO/IEC 10918-1 (JPEG)                        | <https://www.iso.org/iso/iso_catalogue/catalogue_tc/catalogue_detail.htm?csnumber=18902>                         |
 | ICC.1:1998-09                                 | <https://www.color.org>                                                                                          |
 

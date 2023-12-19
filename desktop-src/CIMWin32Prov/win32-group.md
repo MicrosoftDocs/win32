@@ -397,7 +397,7 @@ The **Win32\_Group** class is derived from [**Win32\_Account**](win32-account.md
 
 ## Examples
 
-The following code, taken from the [List Local Groups Using WMI](https://Gallery.TechNet.Microsoft.Com/4474e390-776d-428e-906d-20668ce5933f) VBScript code example on TechNet Gallery, uses **Win32\_Group** to return information about the local groups found on a computer.
+The following code uses **Win32\_Group** to return information about the local groups found on a computer.
 
 
 ```VB

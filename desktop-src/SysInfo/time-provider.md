@@ -18,14 +18,4 @@ Time providers are managed by the *time provider manager*. It is responsible for
 
 ## Related topics
 
-<dl> <dt>
-
-[Windows Time Service](https://www.microsoft.com/technet/prodtechnol/windowsserver2003/technologies/security/ws03mngd/26_s3wts.mspx)
-</dt> </dl>
-
- 
-
- 
-
-
-
+* [Windows Time Service](/windows-server/networking/windows-time-service/windows-time-service-top)

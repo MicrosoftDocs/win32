@@ -41,8 +41,6 @@ Returns 0 (zero) if successful, and some other value if an error occurs. For add
 
 ## Examples
 
-The [Install a TCP/IP Printer Port and Printer](https://Gallery.TechNet.Microsoft.Com/41a4c996-b7f7-4d58-808d-2acac20ddbf7) VBScript sample installs a TCP/IP printer port, installs a printer, and then sets the printer to be default.
-
 The following VBScript code sample sets the default printer on a computer.
 
 

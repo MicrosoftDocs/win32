@@ -55,7 +55,7 @@ If this property is used with a media item other than the one specified in AxWin
 
 To retrieve the duration for files that are not in the user's library, you must wait for Windows Media Player to open the file; that is, the current **OpenState** must equal **MediaOpen**. You can verify this by handling the **AxWindowsMediaPlayer.\_WMPOCXEvents\_OpenStateChange** event or by periodically checking the value of **AxWindowsMediaPlayer.openState**.
 
-For playlists, the duration of each media item can be retrieved when the individual media item is opened, rather than the when the playlist is opened.
+For playlists, the duration of each media item can be retrieved when the individual media item is opened, rather than when the playlist is opened.
 
 Before using this property, you must have read access to the library. For more information, see [Library Access](library-access.md).
 

@@ -31,7 +31,7 @@ The most commonly used scripting languages are:
 
 Microsoft provides scripting engines for JScript and VBScript. Other software companies provide ActiveX scripting engines for languages such as PerlScript, PScript, Python, and others.
 
-For more information see the [ECMA 262 language specification](https://www.ecma-international.org/publications/standards/Ecma-262.htm).
+For more information see the [ECMA 262 language specification](https://ecma-international.org/publications-and-standards/standards/ecma-262/).
 
 Note that most scripting languages, such as VBScript and JScript, cannot access or modify files. This inability prevents the script from altering data on client computers. COM objects, however, have no such limitations. Once they are downloaded and installed on client computers, they can perform any standard application action. Thus, users should only download and run ActiveX controls from trusted sources.
 
@@ -40,11 +40,3 @@ For information on translating between scripting languages, see the following to
 -   [Translating to VBScript](translating-to-vbscript.md)
 -   [Translating to JScript](translating-to-jscript.md)
 -   [Translating to JavaScript](translating-to-javascript.md)
-
- 
-
- 
-
-
-
-

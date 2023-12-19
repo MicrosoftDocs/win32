@@ -3,6 +3,8 @@
   items: 
   - name: "What's New in Native Wifi"
     href: what-s-new-in-native-wifi.md
+  - name: "Changes to Wi-Fi access, location"
+    href: wi-fi-access-location-changes.md
   - name: "About Native Wifi"
     href: about-native-wifi.md
     items: 

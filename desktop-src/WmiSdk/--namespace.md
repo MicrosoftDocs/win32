@@ -72,8 +72,6 @@ For example, within the \\root namespace are two instances of **\_\_Namespace**.
 
 ## Examples
 
-The [List All WMI Namespaces](https://Gallery.TechNet.Microsoft.Com/4a8e84f1-4b52-452c-ae4f-e4e00e266257) VBScript example on the TechNet Gallery uses a recursive call to list all instances of the \_\_Namespace class on a system.
-
 The following code sample retrieves all namespaces in PowerShell.
 
 

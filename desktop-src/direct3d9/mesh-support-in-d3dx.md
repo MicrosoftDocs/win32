@@ -25,7 +25,7 @@ D3DX implements the mesh construct to load, manipulate, and render .x file conte
 
 ## Mesh Architecture
 
-A mesh contains the data for a complex model. It is an abstract data container that contains resources such as textures and materials, and attributes such as position data and adjacency data. There are several mesh operations that improve drawing performance and the appearance of a surface. In addition, there are a number of other mesh concepts that will effect the functionality of mesh operations. Understanding these mesh concepts so you can apply them will improve mesh performance.
+A mesh contains the data for a complex model. It is an abstract data container that contains resources such as textures and materials, and attributes such as position data and adjacency data. There are several mesh operations that improve drawing performance and the appearance of a surface. In addition, there are a number of other mesh concepts that will affect the functionality of mesh operations. Understanding these mesh concepts so you can apply them will improve mesh performance.
 
 ## Mesh Object Data
 

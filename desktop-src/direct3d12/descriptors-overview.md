@@ -83,7 +83,7 @@ On Tier3 hardware, there's no restriction on this, provided that uninitialized d
 
 To create a default descriptor for a particular view, pass in a valid *pResource* parameter to the create view method (such as [**CreateShaderResourceView**](/windows/win32/api/d3d12/nf-d3d12-id3d12device-createshaderresourceview)), but pass in **NULL** for the *pDesc* parameter. For example, if the resource contained 14 mips, then the view would contain 14 mips. The default case covers the most obvious mapping of a resource to a view. This does require that the resource is allocated with a fully qualified format name (such as **DXGI_FORMAT_R8G8B8A8_UNORM_SRGB** rather than **DXGI_FORMAT_R8G8B8A8_TYPELESS**).
 
-Default descriptors can't be used with a raytracing acceleration structure view, because the provided *pResource* parameter must be **NULL**, and the location must be passed via a [**D3D12_RAYTRACING_ACCELERATION_STRUCTURE_SRV**]/windows/win32/api/d3d12/ns-d3d12-d3d12_raytracing_acceleration_structure_srv).
+Default descriptors can't be used with a raytracing acceleration structure view, because the provided *pResource* parameter must be **NULL**, and the location must be passed via a [**D3D12_RAYTRACING_ACCELERATION_STRUCTURE_SRV**](/windows/win32/api/d3d12/ns-d3d12-d3d12_raytracing_acceleration_structure_srv).
 
 ## Related topics
 

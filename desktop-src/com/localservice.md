@@ -34,7 +34,7 @@ Services can be dynamically configured and can be configured to run automaticall
 
 If you are implementing classes as services, you should be aware of the following points:
 
--   This value is used in preference to the [**LocalServer32**](localserver32.md) key for local and remote activation requestsâ€”if **LocalService** exists and refers to a valid service, the **LocalServer32** key is ignored.
+-   This value is used in preference to the [**LocalServer32**](localserver32.md) key for local and remote activation requests, if **LocalService** exists and refers to a valid service, the **LocalServer32** key is ignored.
 -   Currently, only a single instance of a service application may be running at a given time on a computer. COM services must therefore register their class objects on launch using REGCLS\_MULTIPLEUSE to support multiple clients.
 -   To launch and initialize properly, COM services configured to run automatically when a machine boots must include RPCSS in their list of dependent services.
 

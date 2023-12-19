@@ -46,7 +46,7 @@ If you use a Direct3D surface for the bitmap, the surface can contain per-pixel 
 
 To set the bitmap, call [**IMFVideoMixerBitmap::SetAlphaBitmap**](/windows/desktop/api/evr9/nf-evr9-imfvideomixerbitmap-setalphabitmap). This method takes a pointer to an [**MFVideoAlphaBitmap**](/windows/desktop/api/evr9/ns-evr9-mfvideoalphabitmap) structure that specifies the bitmap and the alpha-blending parameters. For example code, see the reference topic for the **SetAlphaBitmap** method.
 
-After you set the bitmap, you can update the blending parameters, including the source and destination recangles, by calling [**IMFVideoMixerBitmap::UpdateAlphaBitmapParameters**](/windows/desktop/api/evr9/nf-evr9-imfvideomixerbitmap-updatealphabitmapparameters). The update takes effect on the next video frame. The video must be playing for the update to occur. You can use this method to perform simple animations on the bitmap. (If you need more sophisticated effects, consider writing a custom EVR mixer.)
+After you set the bitmap, you can update the blending parameters, including the source and destination rectangles, by calling [**IMFVideoMixerBitmap::UpdateAlphaBitmapParameters**](/windows/desktop/api/evr9/nf-evr9-imfvideomixerbitmap-updatealphabitmapparameters). The update takes effect on the next video frame. The video must be playing for the update to occur. You can use this method to perform simple animations on the bitmap. (If you need more sophisticated effects, consider writing a custom EVR mixer.)
 
 To clear the bitmap, call [**IMFVideoMixerBitmap::ClearAlphaBitmap**](/windows/desktop/api/evr9/nf-evr9-imfvideomixerbitmap-clearalphabitmap).
 

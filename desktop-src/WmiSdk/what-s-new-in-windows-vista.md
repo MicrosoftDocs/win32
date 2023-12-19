@@ -25,7 +25,7 @@ A new troubleshooting tool is available for download.
 <span id="WMI_Diagnosis_Utility"></span><span id="wmi_diagnosis_utility"></span><span id="WMI_DIAGNOSIS_UTILITY"></span>WMI Diagnosis Utility
 </dt> <dd>
 
-This utility examines the current state of the WMI service and related components, DCOM settings, and registry settings on the local computer. The utility reports problems and offers suggestions for repair. For more information and to download the utility, see [WMI Diagnosis Utility](https://www.microsoft.com/downloads/en/details.aspx?familyid=d7ba3cd6-18d1-4d05-b11e-4c64192ae97d&displaylang=en).
+This utility examines the current state of the WMI service and related components, DCOM settings, and registry settings on the local computer. The utility reports problems and offers suggestions for repair. For more information and to download the utility, see [WMI Troubleshooting](/windows/win32/wmisdk/wmi-troubleshooting).
 
 </dd> </dl>
 
@@ -107,7 +107,7 @@ WMI [IP Route Provider](/previous-versions/windows/desktop/wmiiprouteprov/ip-rou
 <span id="Changes_to_remote_connections"></span><span id="changes_to_remote_connections"></span><span id="CHANGES_TO_REMOTE_CONNECTIONS"></span>Changes to remote connections
 </dt> <dd>
 
-Connecting to a WMI namespace on a remote computer running Windows Vista may require changes to settings for [Windows Firewall](https://www.microsoft.com/technet/itsolutions/network/wf/default.mspx), [User Account Control](/previous-versions/aa905108(v=msdn.10)), or DCOM. For more information, see [Connecting to WMI Remotely Starting with Vista](connecting-to-wmi-remotely-starting-with-vista.md).
+Connecting to a WMI namespace on a remote computer running Windows Vista may require changes to settings for [Windows Firewall](/windows/security/operating-system-security/network-security/windows-firewall/windows-firewall-with-advanced-security), [User Account Control](/previous-versions/aa905108(v=msdn.10)), or DCOM. For more information, see [Connecting to WMI Remotely Starting with Vista](connecting-to-wmi-remotely-starting-with-vista.md).
 
 </dd> <dt>
 

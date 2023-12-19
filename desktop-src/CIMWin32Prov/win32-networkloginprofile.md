@@ -946,8 +946,6 @@ The calling process that uses this class must have the **SE\_RESTORE\_NAME** pri
 
 ## Examples
 
-The [List Network Login Profiles](https://Gallery.TechNet.Microsoft.Com/4b84fb8a-964e-4811-98d2-de1009685a14) PowerShell sample returns network login information for all the users of a computer.
-
 The following VBScript sample returns network login information.
 
 

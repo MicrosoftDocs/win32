@@ -137,10 +137,6 @@ Next
 
 The registry provider is hosted in LocalService—not the LocalSystem. Therefore, obtaining information remotely from the subtree **HKEY\_CURRENT\_USER** is not possible. However, scripts run on the local computer can still access **HKEY\_CURRENT\_USER**. You can set the hosting model to LocalSystem on a remote machine, but that is a security risk because the registry on the remote machine is vulnerable to hostile access. For more information, see [Provider Hosting and Security](provider-hosting-and-security.md).
 
-## Examples
-
-The [Read a Binary Registry Value](https://Gallery.TechNet.Microsoft.Com/b0724cb2-36ed-4d0d-8b8f-428d0e3d0b82) VBScript code example on TechNet Gallery uses WMI to read a binary registry value.
-
 ## Related topics
 
 <dl> <dt>

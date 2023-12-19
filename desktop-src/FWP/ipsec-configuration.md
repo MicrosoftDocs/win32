@@ -60,13 +60,6 @@ AuthIP can be used with secure sockets to implement application-based IPsec secu
   
 </dl>
 
-For more information on AuthIP, see also:
-
-<dl>
-
-[AuthIP in Windows Vista](https://www.microsoft.com/technet/community/columns/cableguy/cg0806.mspx)  
-</dl>
-
 ## What is an IPsec Policy
 
 An IPsec policy is a set of rules that determine which type of IP traffic needs to be secured using IPsec and how to secure that traffic. Only one IPsec policy is active on a computer at one time.

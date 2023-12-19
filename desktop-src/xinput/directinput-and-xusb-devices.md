@@ -41,7 +41,7 @@ The XUSB driver implements both an XUSB class interface and a HID class interfac
 
 ## Gamepad
 
-This is the default mapping and is designed around the standard Xbox Common Controller gamepad, and is exposed as a *Gamepad* HID usage type.
+This is the default mapping and is designed around a standard gamepad, and is exposed as a *Gamepad* HID usage type.
 
 | Control                      | HID Usage Name | Usage Page | Usage ID   |
 |------------------------------|----------------|------------|------------|
@@ -85,7 +85,7 @@ These devices may or may not support additional controls, but these are not expo
 
 ## Wheel
 
-This mapping is designed around the Xbox Racing Wheel, and is exposed as a *Gamepad* HID usage type.
+This mapping is designed around a racing wheel, and is exposed as a *Gamepad* HID usage type.
 
 | Control                                                        | HID Usage Name | Usage Page | Usage ID |
 |----------------------------------------------------------------|----------------|------------|----------|
@@ -108,7 +108,7 @@ This mapping is designed around the Xbox Racing Wheel, and is exposed as a *Game
 
 ## Flight Stick
 
-This mapping is designed around the Xbox Flight Stick, and is exposed as a *Joystick* HID usage type.
+This mapping is designed around a flight stick, and is exposed as a *Joystick* HID usage type.
 
 | Control                     | Usage Name | Usage Page | Usage ID   |
 |-----------------------------|------------|------------|------------|

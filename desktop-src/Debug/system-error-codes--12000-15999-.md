@@ -3988,7 +3988,7 @@ The subscription fails to activate.
 
 
 
-The log of the subscription is in disabled state, and can not be used to forward events to. The log must first be enabled before the subscription can be activated.
+The log of the subscription is in disabled state, and cannot be used to forward events to. The log must first be enabled before the subscription can be activated.
 
 
 </dt> </dl> </dd> <dt>

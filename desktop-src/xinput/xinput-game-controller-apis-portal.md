@@ -13,16 +13,16 @@ ms.date: 10/26/2022
 
 ## Purpose
 
-XInput Game Controller API enables applications to receive input from the Xbox Controller for Windows.
+XInput Game Controller API enables applications to receive input from a controller.
 
 ## In this section
 
 | Topic                                                         | Description                                                                                                                                             |
 |---------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [Programming Guide](programming-guide.md)<br/>         | This guide contains information on how to use the XInput API to interact with the Xbox Controller when it is connected to a Windows PC. <br/> |
+| [Programming Guide](programming-guide.md)<br/>         | This guide contains information on how to use the XInput API to interact with a controller when it is connected to a Windows PC. <br/> |
 | [Programming Reference](programming-reference.md)<br/> | XInput functions and structures.<br/>                                                                                                             |
 
 ## Developer audience
 
-XInput Game Controller APIs is designed for use by developers who want to use the Xbox Controller for their Windows applications.
+XInput Game Controller APIs is designed for use by developers who want to use a controller for their Windows applications.
 

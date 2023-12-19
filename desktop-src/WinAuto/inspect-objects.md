@@ -165,4 +165,4 @@ The following keyboard shortcut keys activate the various options on the menu:
 - [Accessibility tools - AccChecker (UI Accessibility Checker)](ui-accessibility-checker.md)
 - [Accessibility tools - UI Automation Verify (UIA Verify)](ui-automation-verify.md)
 - [Accessibility tools - AccScope](accscope.md)
-- [Testing Tools](testing-tools.md)
+- [Testing for accessibility](accessibility-testingtools.md)

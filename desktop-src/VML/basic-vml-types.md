@@ -355,7 +355,7 @@ In the XPointer definitions, the location source is the element containing the c
 
  
 
-The this color allows a color value to specify a modification to a color which is derived in some other way; in particular, a single operation may be specified for all the colors in a bitmap. The palette(*index*) color identifies a particular entry in a palette-mapped bitmap. Use of this is only defined for recording a color table entry that should be regarded as transparent in such a bitmap.
+This color allows a color value to specify a modification to a color which is derived in some other way; in particular, a single operation may be specified for all the colors in a bitmap. The palette(*index*) color identifies a particular entry in a palette-mapped bitmap. Use of this is only defined for recording a color table entry that should be regarded as transparent in such a bitmap.
 
 The definition of a color value must not refer to itself, either directly or indirectly. If such a definition is encountered, it is recommended, but not required, that the implementation treat the undefined value as black.
 
