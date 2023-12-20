@@ -14,8 +14,8 @@ Starting with the March 2009 release of the DirectX SDK, a new game definition f
 
 This article outlines the process of registering a game with Games Explorer and parental controls on Windows Vista and Windows 7 by using the new GDF schema.
 
-> [!Note]  
-> Game Explorer is no longer available since Windows 10, version 1803.
+> [!NOTE]  
+> Game Explorer is unavailable in Windows 10, version 1803, and later.
 
 Contents:
 
