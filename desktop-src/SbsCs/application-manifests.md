@@ -382,6 +382,8 @@ The GDI (graphics device interface) framework can apply DPI scaling to primitive
 
 Non-vector graphics (such as bitmaps, icons, or toolbars) cannot be scaled by this element. In addition, graphics and text appearing within bitmaps dynamically constructed by applications also cannot be scaled by this element. For more information, see [Improving the high-DPI experience in GDI based Desktop Apps](https://blogs.windows.com/windowsdeveloper/2017/05/19/improving-high-dpi-experience-gdi-based-desktop-apps).
 
+You can programmatically change this setting by calling the [**SetThreadDpiAwarenessContext**](/windows/win32/api/winuser/nf-winuser-setthreaddpiawarenesscontext) or [**SetProcessDpiAwarenessContext**](/windows/win32/api/winuser/nf-winuser-setprocessdpiawarenesscontext) function with `DPI_AWARENESS_CONTEXT_UNAWARE_GDISCALED` value.
+
 **TRUE** indicates that this element is enabled. It has no attributes.
 
 
