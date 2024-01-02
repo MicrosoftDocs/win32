@@ -167,7 +167,7 @@ For general information about battery saver, see [battery saver (in the hardware
 <span id="GUID_POWERSCHEME_PERSONALITY"></span><span id="guid_powerscheme_personality"></span>**GUID\_POWERSCHEME\_PERSONALITY**
 </dt> <dd> <dl> <dt>
 
-245d8541-3943-4422-b025-13A784F679B7
+245D8541-3943-4422-B025-13A784F679B7
 </dt> <dt>
 
 
@@ -208,7 +208,7 @@ Automatic - The scheme is designed to automatically balance performance and powe
 <span id="GUID_SESSION_DISPLAY_STATUS"></span><span id="guid_session_display_status"></span>**GUID\_SESSION\_DISPLAY\_STATUS**
 </dt> <dd> <dl> <dt>
 
-2B84C20E-AD23-4ddf-93DB-05FFBD7EFCA5
+2B84C20E-AD23-4DDF-93DB-05FFBD7EFCA5
 </dt> <dt>
 
 
@@ -235,7 +235,7 @@ This notification is sent only to user-mode applications. Services and other pro
 <span id="GUID_SESSION_USER_PRESENCE"></span><span id="guid_session_user_presence"></span>**GUID\_SESSION\_USER\_PRESENCE**
 </dt> <dd> <dl> <dt>
 
-3C0F4548-C03F-4c4d-B9F2-237EDE686376
+3C0F4548-C03F-4C4D-B9F2-237EDE686376
 </dt> <dt>
 
 
