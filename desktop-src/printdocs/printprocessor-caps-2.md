@@ -102,7 +102,10 @@ Can be only PPCAPS\_BORDER\_PRINT, indicating that, when multiple document pages
 
 Can only be PPCAPS\_BOOKLET\_EDGE, indicating that the printer can print booklet style.
 
-</dd> <dt>**dwDuplexHandlingCaps**</dt> <dd> 
+</dd> <dt>
+
+**dwDuplexHandlingCaps**
+</dt> <dd> 
 
 | Value                                         | Meaning                                                                                                                                                                                                                                                                                          |
 |-----------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

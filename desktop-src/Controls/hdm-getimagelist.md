@@ -22,7 +22,12 @@ Gets the handle to the image list that has been set for an existing header contr
 
 ## Parameters
 
-<dl> <dt>*wParam* </dt> <dd>One of the following values:
+<dl> <dt>
+
+*wParam*
+</dt> <dd>
+
+One of the following values:
 
 | Value                                                                                                                                                      | Meaning                                                |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------|
@@ -35,7 +40,7 @@ Gets the handle to the image list that has been set for an existing header contr
 
 </dd> <dt>
 
-*lParam* 
+*lParam*
 </dt> <dd>Must be zero.</dd> </dl>
 
 ## Return value

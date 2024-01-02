@@ -22,7 +22,10 @@ Assigns an image list to an existing header control. You can send this message e
 
 ## Parameters
 
-<dl> <dt>*wParam* </dt> <dd>One of the following values:
+<dl> <dt>
+
+*wParam*
+</dt> <dd>One of the following values:
 
 | Value                                                                                                                                                      | Meaning                                                |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------|

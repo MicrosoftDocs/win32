@@ -71,7 +71,31 @@ To distinguish between a SearchProtocolHost process running in the system contex
 
 ## Related topics
 
-<dl> <dt>**Conceptual**</dt> <dt><a href="-search-3x-wds-phaddins.md">Developing Protocol Handlers</a></dt> <dt><a href="-search-3x-wds-extidx-prot-implementing.md">Understanding Protocol Handlers</a></dt> <dt><a href="-search-3x-wds-notifyingofchanges.md">Notifying the Index of Changes</a></dt> <dt><a href="-search-3x-wds-ph-ui-extensions.md">Adding Icons and Context Menus</a></dt> <dt><a href="-search-3x-wds-ph-ui-samplecode.md">Code Sample: Shell Extensions for Protocol Handlers</a></dt> <dt><a href="-search-3x-wds-ph-search-connector.md">Creating a Search Connector for a Protocol Handler</a></dt> <dt><a href="-search-3x-wds-ph-install-registration.md">Installing and Registering Protocol Handlers</a></dt> </dl>
+<dl> <dt>
+
+**Conceptual**
+</dt> <dt>
+
+<a href="-search-3x-wds-phaddins.md">Developing Protocol Handlers</a>
+</dt> <dt>
+
+<a href="-search-3x-wds-extidx-prot-implementing.md">Understanding Protocol Handlers</a>
+</dt> <dt>
+
+<a href="-search-3x-wds-notifyingofchanges.md">Notifying the Index of Changes</a>
+</dt> <dt>
+
+<a href="-search-3x-wds-ph-ui-extensions.md">Adding Icons and Context Menus</a>
+</dt> <dt>
+
+<a href="-search-3x-wds-ph-ui-samplecode.md">Code Sample: Shell Extensions for Protocol Handlers</a>
+</dt> <dt>
+
+<a href="-search-3x-wds-ph-search-connector.md">Creating a Search Connector for a Protocol Handler</a>
+</dt> <dt>
+
+<a href="-search-3x-wds-ph-install-registration.md">Installing and Registering Protocol Handlers</a>
+</dt> </dl>
 
  
 

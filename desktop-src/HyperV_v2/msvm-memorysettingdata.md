@@ -262,7 +262,7 @@ Access type: Read-only
 The first element of this array contains a reference to the underlying host resource to be assigned. This property is inherited from [**CIM\_ResourceAllocationSettingData**](/previous-versions/windows/desktop/clushyperv/cim-resourceallocationsettingdata), but it is not used.
 
 </dd> <dt>
-  
+
 **HugePagesEnabled**
 </dt> <dd> <dl> <dt>
 

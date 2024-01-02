@@ -34,7 +34,7 @@ LRESULT CALLBACK WindowProc(
 A handle to window.
 
 </dd> <dt>
-  
+
 *uMsg*
 </dt> <dd> 
 

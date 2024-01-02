@@ -121,7 +121,10 @@ A pointer to a buffer. What the buffer contains depends on the value of *iEsc*, 
 
  
 
-</dd> <dt>*cbOut* </dt> <dd> 
+</dd> <dt>
+
+*cbOut*
+</dt> <dd> 
 
 | Value                       | Meaning                                                                              |
 |-----------------------------|--------------------------------------------------------------------------------------|

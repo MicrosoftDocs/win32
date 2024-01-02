@@ -141,7 +141,7 @@ The **Win32\_EncryptableVolume** class has these methods.
 The **Win32\_EncryptableVolume** class has these properties.
 
 <dl> <dt>
-  
+
 **ConversionStatus**
 </dt> <dd> <dl> <dt>
 
@@ -194,7 +194,7 @@ The drive letter of the volume. This identifier can be used to associate a volum
 For volumes without drive letters, this value is **NULL**.
 
 </dd> <dt>
-  
+
 **EncryptionMethod**
 </dt> <dd> <dl> <dt>
 
@@ -218,7 +218,7 @@ An integer identifying the algorithm used to encrypt the volume.
 | <dl> <dt>7</dt> </dl> | XTS-AES 256 WITH DIFFUSER<br/><br/> |
 
 </dd> <dt>
-  
+
 **IsVolumeInitializedForProtection**
 </dt> <dd> <dl> <dt>
 
