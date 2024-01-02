@@ -3689,7 +3689,7 @@ Left hand side arguments to binary operators must be either attributes, nodes or
 
 
 
-A step operation must involve either a node test or, in the case of a predicate, an algebraic expression against which to test each node in the node set identified by the preceeding node set can be evaluated.
+A step operation must involve either a node test or, in the case of a predicate, an algebraic expression against which to test each node in the node set identified by the preceding node set can be evaluated.
 
 
 </dt> </dl> </dd> <dt>
