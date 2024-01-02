@@ -14,10 +14,9 @@ Power setting **GUID**s are defined in WinNT.h.
 
 <dl> <dt>
 
-<span id="GUID_ACDC_POWER_SOURCE"></span><span id="guid_acdc_power_source"></span>**GUID\_ACDC\_POWER\_SOURCE**
-</dt> <dd> <dl> <dt>
-
-5D3E9A59-E9D5-4B00-A6BD-FF34FF516548
+<span id="GUID_ACDC_POWER_SOURCE"></span>
+<span id="guid_acdc_power_source"></span>
+**GUID\_ACDC\_POWER\_SOURCE** (5D3E9A59-E9D5-4B00-A6BD-FF34FF516548)
 </dt> <dt>
 
 
@@ -37,10 +36,9 @@ The system power source has changed. The **Data** member is a **DWORD** with val
 
 </dl> </dd> <dt>
 
-<span id="GUID_BATTERY_PERCENTAGE_REMAINING"></span><span id="guid_battery_percentage_remaining"></span>**GUID\_BATTERY\_PERCENTAGE\_REMAINING**
-</dt> <dd> <dl> <dt>
-
-A7AD8041-B45A-4CAE-87A3-EECBB468A9E1
+<span id="GUID_BATTERY_PERCENTAGE_REMAINING"></span>
+<span id="guid_battery_percentage_remaining"></span>
+**GUID\_BATTERY\_PERCENTAGE\_REMAINING** (A7AD8041-B45A-4CAE-87A3-EECBB468A9E1)
 </dt> <dt>
 
 
@@ -50,10 +48,9 @@ The remaining battery capacity has changed. The granularity varies from system t
 
 </dt> </dl> </dd> <dt>
 
-<span id="GUID_CONSOLE_DISPLAY_STATE"></span><span id="guid_console_display_state"></span>**GUID\_CONSOLE\_DISPLAY\_STATE**
-</dt> <dd> <dl> <dt>
-
-6FE69556-704A-47A0-8F24-C28D936FDA47
+<span id="GUID_CONSOLE_DISPLAY_STATE"></span>
+<span id="guid_console_display_state"></span>
+**GUID\_CONSOLE\_DISPLAY\_STATE** (6FE69556-704A-47A0-8F24-C28D936FDA47)
 </dt> <dt>
 
 
@@ -77,10 +74,9 @@ The **Data** member is a **DWORD** with one of the following values.
 
 </dl> </dd> <dt>
 
-<span id="GUID_GLOBAL_USER_PRESENCE"></span><span id="guid_global_user_presence"></span>**GUID\_GLOBAL\_USER\_PRESENCE**
-</dt> <dd> <dl> <dt>
-
-786E8A1D-B427-4344-9207-09E70BDCBEA9
+<span id="GUID_GLOBAL_USER_PRESENCE"></span>
+<span id="guid_global_user_presence"></span>
+**GUID\_GLOBAL\_USER\_PRESENCE** (786E8A1D-B427-4344-9207-09E70BDCBEA9)
 </dt> <dt>
 
 
@@ -103,10 +99,9 @@ The **Data** member is a **DWORD** with one of the following values.
 
 </dl> </dd> <dt>
 
-<span id="GUID_IDLE_BACKGROUND_TASK"></span><span id="guid_idle_background_task"></span>**GUID\_IDLE\_BACKGROUND\_TASK**
-</dt> <dd> <dl> <dt>
-
-515C31D8-F734-163D-A0FD-11A08C91E8F1
+<span id="GUID_IDLE_BACKGROUND_TASK"></span>
+<span id="guid_idle_background_task"></span>
+**GUID\_IDLE\_BACKGROUND\_TASK** (515C31D8-F734-163D-A0FD-11A08C91E8F1)
 </dt> <dt>
 
 
@@ -118,10 +113,9 @@ There is no notification when the system is able to move into an idle state. The
 
 </dt> </dl> </dd> <dt>
 
-<span id="GUID_MONITOR_POWER_ON"></span><span id="guid_monitor_power_on"></span>**GUID\_MONITOR\_POWER\_ON**
-</dt> <dd> <dl> <dt>
-
-02731015-4510-4526-99E6-E5A17EBD1AEA
+<span id="GUID_MONITOR_POWER_ON"></span>
+<span id="guid_monitor_power_on"></span>
+**GUID\_MONITOR\_POWER\_ON** (02731015-4510-4526-99E6-E5A17EBD1AEA)
 </dt> <dt>
 
 
@@ -140,10 +134,9 @@ The primary system monitor has been powered on or off. This notification is usef
 
 </dl> </dd> <dt>
 
-<span id="GUID_POWER_SAVING_STATUS"></span><span id="guid_power_saving_status"></span>**GUID\_POWER\_SAVING\_STATUS**
-</dt> <dd> <dl> <dt>
-
-E00958C0-C213-4ACE-AC77-FECCED2EEEA5
+<span id="GUID_POWER_SAVING_STATUS"></span>
+<span id="guid_power_saving_status"></span>
+**GUID\_POWER\_SAVING\_STATUS** (E00958C0-C213-4ACE-AC77-FECCED2EEEA5)
 </dt> <dt>
 
 
@@ -164,10 +157,9 @@ For general information about battery saver, see [battery saver (in the hardware
 
 </dl> </dd> <dt>
 
-<span id="GUID_POWERSCHEME_PERSONALITY"></span><span id="guid_powerscheme_personality"></span>**GUID\_POWERSCHEME\_PERSONALITY**
-</dt> <dd> <dl> <dt>
-
-245D8541-3943-4422-B025-13A784F679B7
+<span id="GUID_POWERSCHEME_PERSONALITY"></span>
+<span id="guid_powerscheme_personality"></span>
+**GUID\_POWERSCHEME\_PERSONALITY** (245D8541-3943-4422-B025-13A784F679B7)
 </dt> <dt>
 
 
@@ -205,10 +197,9 @@ Automatic - The scheme is designed to automatically balance performance and powe
 
 </dl> </dd> <dt>
 
-<span id="GUID_SESSION_DISPLAY_STATUS"></span><span id="guid_session_display_status"></span>**GUID\_SESSION\_DISPLAY\_STATUS**
-</dt> <dd> <dl> <dt>
-
-2B84C20E-AD23-4DDF-93DB-05FFBD7EFCA5
+<span id="GUID_SESSION_DISPLAY_STATUS"></span>
+<span id="guid_session_display_status"></span>
+**GUID\_SESSION\_DISPLAY\_STATUS** (2B84C20E-AD23-4DDF-93DB-05FFBD7EFCA5)
 </dt> <dt>
 
 
@@ -232,10 +223,9 @@ This notification is sent only to user-mode applications. Services and other pro
 
 </dl> </dd> <dt>
 
-<span id="GUID_SESSION_USER_PRESENCE"></span><span id="guid_session_user_presence"></span>**GUID\_SESSION\_USER\_PRESENCE**
-</dt> <dd> <dl> <dt>
-
-3C0F4548-C03F-4C4D-B9F2-237EDE686376
+<span id="GUID_SESSION_USER_PRESENCE"></span>
+<span id="guid_session_user_presence"></span>
+**GUID\_SESSION\_USER\_PRESENCE** (3C0F4548-C03F-4C4D-B9F2-237EDE686376)
 </dt> <dt>
 
 
@@ -261,10 +251,9 @@ This notification is sent only to user-mode applications running in an interacti
 
 </dl> </dd> <dt>
  
-<span id="GUID_LIDSWITCH_STATE_CHANGE"></span><span id="guid_lidswitch_state_change"></span>**GUID\_LIDSWITCH\_STATE\_CHANGE**
-</dt> <dd> <dl> <dt>
-
-BA3E0F4D-B817-4094-A2D1-D56379E6A0F3
+<span id="GUID_LIDSWITCH_STATE_CHANGE"></span>
+<span id="guid_lidswitch_state_change"></span>
+**GUID\_LIDSWITCH\_STATE\_CHANGE** (BA3E0F4D-B817-4094-A2D1-D56379E6A0F3)
 </dt> <dt>
 
 The state of the lid has changed (open or closed). The callback won't be called until a lid device is found and its current state is known.
@@ -279,10 +268,9 @@ The state of the lid has changed (open or closed). The callback won't be called 
 
 </dl> </dd> <dt>
 
-<span id="GUID_SYSTEM_AWAYMODE"></span><span id="guid_system_awaymode"></span>**GUID\_SYSTEM\_AWAYMODE**
-</dt> <dd> <dl> <dt>
-
-98A7F580-01F7-48AA-9C0F-44352C29E5C0
+<span id="GUID_SYSTEM_AWAYMODE"></span>
+<span id="guid_system_awaymode"></span>
+**GUID\_SYSTEM\_AWAYMODE** (98A7F580-01F7-48AA-9C0F-44352C29E5C0)
 </dt> <dt>
 
 
