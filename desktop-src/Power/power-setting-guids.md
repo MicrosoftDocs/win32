@@ -94,6 +94,8 @@ The **Data** member has no information and can be ignored.
 
 The state of the lid has changed (open vs. closed). The callback won't be called until a lid device is found and its current state is known.
 
+The **Data** member is a **DWORD** that indicates the current lid state:
+
 0x0 - The lid is closed.
 
 0x1 - The lid is opened.
