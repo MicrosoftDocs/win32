@@ -12,6 +12,8 @@ Power setting **GUID**s identify power change events. This topic lists power set
 
 Power setting **GUID**s are defined in WinNT.h.
 
+---
+
 <span id="GUID_ACDC_POWER_SOURCE"></span>
 <span id="guid_acdc_power_source"></span>
 **GUID\_ACDC\_POWER\_SOURCE** (5D3E9A59-E9D5-4B00-A6BD-FF34FF516548)
@@ -24,11 +26,15 @@ The system power source has changed. The **Data** member is a **DWORD** with val
 
 **PoHot** (2) - The computer is powered by a short-term power source such as a UPS device.
 
+---
+
 <span id="GUID_BATTERY_PERCENTAGE_REMAINING"></span>
 <span id="guid_battery_percentage_remaining"></span>
 **GUID\_BATTERY\_PERCENTAGE\_REMAINING** (A7AD8041-B45A-4CAE-87A3-EECBB468A9E1)
 
 The remaining battery capacity has changed. The granularity varies from system to system but the finest granularity is 1 percent. The **Data** member is a **DWORD** that indicates the current battery capacity remaining as a percentage from 0 through 100.
+
+---
 
 <span id="GUID_CONSOLE_DISPLAY_STATE"></span>
 <span id="guid_console_display_state"></span>
@@ -46,6 +52,8 @@ The **Data** member is a **DWORD** with one of the following values.
 
 0x2 - The display is dimmed.
 
+---
+
 <span id="GUID_GLOBAL_USER_PRESENCE"></span>
 <span id="guid_global_user_presence"></span>
 **GUID\_GLOBAL\_USER\_PRESENCE** (786E8A1D-B427-4344-9207-09E70BDCBEA9)
@@ -62,6 +70,8 @@ The **Data** member is a **DWORD** with one of the following values.
 
 **PowerUserInactive** (2) - The user is not present in any local or remote session on the system.
 
+---
+
 <span id="GUID_IDLE_BACKGROUND_TASK"></span>
 <span id="guid_idle_background_task"></span>
 **GUID\_IDLE\_BACKGROUND\_TASK** (515C31D8-F734-163D-A0FD-11A08C91E8F1)
@@ -69,6 +79,8 @@ The **Data** member is a **DWORD** with one of the following values.
 The system is busy. This indicates that the system will not be moving into an idle state in the near future and that the current time is a good time for components to perform background or idle tasks that would otherwise prevent the computer from entering an idle state.
 
 There is no notification when the system is able to move into an idle state. The idle background task notification does not indicate whether a user is present at the computer. The **Data** member has no information and can be ignored.
+
+---
 
 <span id="GUID_MONITOR_POWER_ON"></span>
 <span id="guid_monitor_power_on"></span>
@@ -81,6 +93,8 @@ The primary system monitor has been powered on or off. This notification is usef
 0x1 - The monitor is on.
 
 **Windows 8 and Windows Server 2012:** New applications should use **GUID\_CONSOLE\_DISPLAY\_STATE** instead of this notification.
+
+---
 
 <span id="GUID_POWER_SAVING_STATUS"></span>
 <span id="guid_power_saving_status"></span>
@@ -95,6 +109,8 @@ The **Data** member is a **DWORD** that indicates battery saver state.
 0x1 - Battery saver is on. Save energy where possible.
 
 For general information about battery saver, see [battery saver (in the hardware component guidelines)](/windows-hardware/design/component-guidelines/battery-saver).
+
+---
 
 <span id="GUID_POWERSCHEME_PERSONALITY"></span>
 <span id="guid_powerscheme_personality"></span>
@@ -114,6 +130,8 @@ Power Saver - The scheme is designed to deliver maximum power consumption saving
 
 Automatic - The scheme is designed to automatically balance performance and power consumption savings.
 
+---
+
 <span id="GUID_SESSION_DISPLAY_STATUS"></span>
 <span id="guid_session_display_status"></span>
 **GUID\_SESSION\_DISPLAY\_STATUS** (2B84C20E-AD23-4DDF-93DB-05FFBD7EFCA5)
@@ -130,6 +148,8 @@ This notification is sent only to user-mode applications. Services and other pro
 
 0x2 - The display is dimmed.
 
+---
+
 <span id="GUID_SESSION_USER_PRESENCE"></span>
 <span id="guid_session_user_presence"></span>
 **GUID\_SESSION\_USER\_PRESENCE** (3C0F4548-C03F-4C4D-B9F2-237EDE686376)
@@ -144,9 +164,11 @@ This notification is sent only to user-mode applications running in an interacti
 
 **PowerUserInactive** (2) - The user activity timeout has elapsed with no interaction from the user.
 
-> [!Note]  
+> [!Note]
 > All applications that run in an interactive user-mode session should use this setting. When kernel mode applications register for monitor status they should use **GUID\_CONSOLE\_DISPLAY\_STATUS** instead.
- 
+
+---
+
 <span id="GUID_LIDSWITCH_STATE_CHANGE"></span>
 <span id="guid_lidswitch_state_change"></span>
 **GUID\_LIDSWITCH\_STATE\_CHANGE** (BA3E0F4D-B817-4094-A2D1-D56379E6A0F3)
@@ -156,6 +178,8 @@ The state of the lid has changed (open or closed). The callback won't be called 
 0x0 - The lid is closed.
 
 0x1 - The lid is opened.
+
+---
 
 <span id="GUID_SYSTEM_AWAYMODE"></span>
 <span id="guid_system_awaymode"></span>
