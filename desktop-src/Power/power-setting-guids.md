@@ -72,6 +72,8 @@ The **Data** member is a **DWORD** with one of the following values from the **U
 
 **PowerUserPresent** (0) - The user is present in any local or remote session on the system.
 
+**PowerUserNotPresent** (1)
+
 **PowerUserInactive** (2) - The user is not present in any local or remote session on the system.
 
 ---
@@ -192,6 +194,8 @@ This notification is sent only to user-mode applications running in an interacti
 The **Data** member is a **DWORD** with one of the following values from the **USER_ACTIVITY_PRESENCE** enumeration:
 
 **PowerUserPresent** (0) - The user is providing input to the session.
+
+**PowerUserNotPresent** (1)
 
 **PowerUserInactive** (2) - The user activity timeout has elapsed with no interaction from the user.
 
