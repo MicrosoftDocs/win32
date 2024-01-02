@@ -18,7 +18,9 @@ Power setting **GUID**s are defined in WinNT.h.
 <span id="guid_acdc_power_source"></span>
 **GUID\_ACDC\_POWER\_SOURCE** (5D3E9A59-E9D5-4B00-A6BD-FF34FF516548)
 
-The system power source has changed. The **Data** member is a **DWORD** with values from the [**SYSTEM\_POWER\_CONDITION**](/windows/desktop/api/WinNT/ne-winnt-system_power_condition) enumeration that indicates the current power source.
+The system power source has changed.
+
+The **Data** member is a **DWORD** with values from the [**SYSTEM\_POWER\_CONDITION**](/windows/desktop/api/WinNT/ne-winnt-system_power_condition) enumeration that indicates the current power source:
 
 **PoAc** (0) - The computer is powered by an AC power source (or similar, such as a laptop powered by a 12V automotive adapter).
 
@@ -32,7 +34,9 @@ The system power source has changed. The **Data** member is a **DWORD** with val
 <span id="guid_battery_percentage_remaining"></span>
 **GUID\_BATTERY\_PERCENTAGE\_REMAINING** (A7AD8041-B45A-4CAE-87A3-EECBB468A9E1)
 
-The remaining battery capacity has changed. The granularity varies from system to system but the finest granularity is 1 percent. The **Data** member is a **DWORD** that indicates the current battery capacity remaining as a percentage from 0 through 100.
+The remaining battery capacity has changed. The granularity varies from system to system but the finest granularity is 1 percent.
+
+The **Data** member is a **DWORD** that indicates the current battery capacity remaining as a percentage from 0 through 100.
 
 ---
 
@@ -44,7 +48,7 @@ The current monitor's display state has changed.
 
 **Windows 7, Windows Server 2008 R2, Windows Vista and Windows Server 2008:** This notification is available starting with Windows 8 and Windows Server 2012.
 
-The **Data** member is a **DWORD** with one of the following values.
+The **Data** member is a **DWORD** with one of the following values:
 
 0x0 - The display is off.
 
@@ -64,7 +68,7 @@ This notification is sent only services and other programs running in session 0.
 
 **Windows 7, Windows Server 2008 R2, Windows Vista and Windows Server 2008:** This notification is available starting with Windows 8 and Windows Server 2012.
 
-The **Data** member is a **DWORD** with one of the following values.
+The **Data** member is a **DWORD** with one of the following values:
 
 **PowerUserPresent** (0) - The user is present in any local or remote session on the system.
 
@@ -78,7 +82,9 @@ The **Data** member is a **DWORD** with one of the following values.
 
 The system is busy. This indicates that the system will not be moving into an idle state in the near future and that the current time is a good time for components to perform background or idle tasks that would otherwise prevent the computer from entering an idle state.
 
-There is no notification when the system is able to move into an idle state. The idle background task notification does not indicate whether a user is present at the computer. The **Data** member has no information and can be ignored.
+There is no notification when the system is able to move into an idle state. The idle background task notification does not indicate whether a user is present at the computer.
+
+The **Data** member has no information and can be ignored.
 
 ---
 
@@ -98,7 +104,9 @@ The state of the lid has changed (open or closed). The callback won't be called 
 <span id="guid_monitor_power_on"></span>
 **GUID\_MONITOR\_POWER\_ON** (02731015-4510-4526-99E6-E5A17EBD1AEA)
 
-The primary system monitor has been powered on or off. This notification is useful for components that actively render content to the display device, such as media visualization. These applications should register for this notification and stop rendering graphics content when the monitor is off to reduce system power consumption. The **Data** member is a **DWORD** that indicates the current monitor state.
+The primary system monitor has been powered on or off. This notification is useful for components that actively render content to the display device, such as media visualization. These applications should register for this notification and stop rendering graphics content when the monitor is off to reduce system power consumption.
+
+The **Data** member is a **DWORD** that indicates the current monitor state:
 
 0x0 - The monitor is off.
 
@@ -114,7 +122,7 @@ The primary system monitor has been powered on or off. This notification is usef
 
 Battery saver has been turned off or on in response to changing power conditions. This notification is useful for components that participate in energy conservation. These applications should register for this notification and save power when battery saver is on.
 
-The **Data** member is a **DWORD** that indicates battery saver state.
+The **Data** member is a **DWORD** that indicates battery saver state:
 
 0x0 - Battery saver is off.
 
@@ -128,7 +136,9 @@ For general information about battery saver, see [battery saver (in the hardware
 <span id="guid_powerscheme_personality"></span>
 **GUID\_POWERSCHEME\_PERSONALITY** (245D8541-3943-4422-B025-13A784F679B7)
 
-The active power scheme personality has changed. All power schemes map to one of these personalities. The **Data** member is a **GUID** that indicates the new active power scheme personality.
+The active power scheme personality has changed. All power schemes map to one of these personalities.
+
+The **Data** member is a **GUID** that indicates the new active power scheme personality:
 
 **GUID\_MIN\_POWER\_SAVINGS** (8C5E7FDA-E8BF-4A96-9A85-A6E23A8C635C)
 
@@ -152,7 +162,9 @@ The display associated with the application's session has been powered on or off
 
 **Windows 7, Windows Server 2008 R2, Windows Vista and Windows Server 2008:** This notification is available starting with Windows 8 and Windows Server 2012.
 
-This notification is sent only to user-mode applications. Services and other programs running in session 0 do not receive this notification. The **Data** member is a **DWORD** with one of the following values.
+This notification is sent only to user-mode applications. Services and other programs running in session 0 do not receive this notification.
+
+The **Data** member is a **DWORD** with one of the following values:
 
 0x0 - The display is off.
 
@@ -173,7 +185,9 @@ The user status associated with the application's session has changed.
 
 **Windows 7, Windows Server 2008 R2, Windows Vista and Windows Server 2008:** This notification is available starting with Windows 8 and Windows Server 2012.
 
-This notification is sent only to user-mode applications running in an interactive session. Services and other programs running in session 0 should register for **GUID\_GLOBAL\_USER\_PRESENCE**. The **Data** member is a **DWORD** with one of the following values.
+This notification is sent only to user-mode applications running in an interactive session. Services and other programs running in session 0 should register for **GUID\_GLOBAL\_USER\_PRESENCE**.
+
+The **Data** member is a **DWORD** with one of the following values:
 
 **PowerUserPresent** (0) - The user is providing input to the session.
 
@@ -185,7 +199,9 @@ This notification is sent only to user-mode applications running in an interacti
 <span id="guid_system_awaymode"></span>
 **GUID\_SYSTEM\_AWAYMODE** (98A7F580-01F7-48AA-9C0F-44352C29E5C0)
 
-The system is entering or exiting away mode. The **Data** member is a **DWORD** that indicates the current away mode state.
+The system is entering or exiting away mode.
+
+The **Data** member is a **DWORD** that indicates the current away mode state:
 
 0x0 - The computer is exiting away mode.
 
