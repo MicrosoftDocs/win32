@@ -20,7 +20,7 @@ Power setting **GUID**s are defined in WinNT.h.
 
 The system power source has changed.
 
-The **Data** member is a **DWORD** with values from the [**SYSTEM\_POWER\_CONDITION**](/windows/desktop/api/WinNT/ne-winnt-system_power_condition) enumeration that indicates the current power source:
+The **Data** member is a **DWORD** with a value from the [**SYSTEM\_POWER\_CONDITION**](/windows/desktop/api/WinNT/ne-winnt-system_power_condition) enumeration that indicates the current power source:
 
 **PoAc** (0) - The computer is powered by an AC power source (or similar, such as a laptop powered by a 12V automotive adapter).
 
@@ -48,13 +48,13 @@ The current monitor's display state has changed.
 
 **Windows 7, Windows Server 2008 R2, Windows Vista and Windows Server 2008:** This notification is available starting with Windows 8 and Windows Server 2012.
 
-The **Data** member is a **DWORD** with one of the following values:
+The **Data** member is a **DWORD** with a value from the **MONITOR_DISPLAY_STATE** enumeration:
 
-0x0 - The display is off.
+**PowerMonitorOff** (0) - The display is off.
 
-0x1 - The display is on.
+**PowerMonitorOn** (1) - The display is on.
 
-0x2 - The display is dimmed.
+**PowerMonitorDim** (2) - The display is dimmed.
 
 ---
 
@@ -68,7 +68,7 @@ This notification is sent only services and other programs running in session 0.
 
 **Windows 7, Windows Server 2008 R2, Windows Vista and Windows Server 2008:** This notification is available starting with Windows 8 and Windows Server 2012.
 
-The **Data** member is a **DWORD** with one of the following values:
+The **Data** member is a **DWORD** with one of the following values from the **USER_ACTIVITY_PRESENCE** enumeration:
 
 **PowerUserPresent** (0) - The user is present in any local or remote session on the system.
 
@@ -92,7 +92,7 @@ The **Data** member has no information and can be ignored.
 <span id="guid_lidswitch_state_change"></span>
 **GUID\_LIDSWITCH\_STATE\_CHANGE** (BA3E0F4D-B817-4094-A2D1-D56379E6A0F3)
 
-The state of the lid has changed (open or closed). The callback won't be called until a lid device is found and its current state is known.
+The state of the lid has changed (open vs. closed). The callback won't be called until a lid device is found and its current state is known.
 
 0x0 - The lid is closed.
 
@@ -164,16 +164,16 @@ The display associated with the application's session has been powered on or off
 
 This notification is sent only to user-mode applications. Services and other programs running in session 0 do not receive this notification.
 
-The **Data** member is a **DWORD** with one of the following values:
+The **Data** member is a **DWORD** with a value from the **MONITOR_DISPLAY_STATE** enumeration:
 
-0x0 - The display is off.
+**PowerMonitorOff** (0) - The display is off.
 
-0x1 - The display is on.
+**PowerMonitorOn** (1) - The display is on.
 
-0x2 - The display is dimmed.
+**PowerMonitorDim** (2) - The display is dimmed.
 
 > [!Note]
-> All applications that run in an interactive user-mode session should use this setting. When kernel mode applications register for monitor status they should use **GUID\_CONSOLE\_DISPLAY\_STATUS** instead.
+> All applications that run in an interactive user-mode session should use this setting. When kernel-mode applications register for monitoring the status, they should use **GUID\_CONSOLE\_DISPLAY\_STATUS** instead.
 
 ---
 
@@ -187,7 +187,7 @@ The user status associated with the application's session has changed.
 
 This notification is sent only to user-mode applications running in an interactive session. Services and other programs running in session 0 should register for **GUID\_GLOBAL\_USER\_PRESENCE**.
 
-The **Data** member is a **DWORD** with one of the following values:
+The **Data** member is a **DWORD** with one of the following values from the **USER_ACTIVITY_PRESENCE** enumeration:
 
 **PowerUserPresent** (0) - The user is providing input to the session.
 
@@ -199,13 +199,13 @@ The **Data** member is a **DWORD** with one of the following values:
 <span id="guid_system_awaymode"></span>
 **GUID\_SYSTEM\_AWAYMODE** (98A7F580-01F7-48AA-9C0F-44352C29E5C0)
 
-The system is entering or exiting away mode.
+The system is entering or exiting away-mode.
 
-The **Data** member is a **DWORD** that indicates the current away mode state:
+The **Data** member is a **DWORD** that indicates the current away-mode state:
 
-0x0 - The computer is exiting away mode.
+0x0 - The computer is exiting away-mode.
 
-0x1 - The computer is entering away mode.
+0x1 - The computer is entering away-mode.
 
 ## Requirements
 
