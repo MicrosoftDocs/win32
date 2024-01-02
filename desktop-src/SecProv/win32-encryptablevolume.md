@@ -23,9 +23,9 @@ api_location:
 - Root\CIMV2\Security\MicrosoftVolumeEncryption
 ---
 
-# Win32\_EncryptableVolume class
+# Win32_EncryptableVolume class
 
-The **Win32\_EncryptableVolume** WMI provider class represents an area of storage on a hard disk that can be protected by using BitLocker Drive Encryption. Only NTFS volumes can be encrypted. It can be a volume that contains an operating system, or it can be a data volume on the local disk. It cannot be a network drive.
+The **Win32_EncryptableVolume** WMI provider class represents an area of storage on a hard disk that can be protected by using BitLocker Drive Encryption. Only NTFS volumes can be encrypted. It can be a volume that contains an operating system, or it can be a data volume on the local disk. It cannot be a network drive.
 
 To realize the benefits of BitLocker, you must specify a protection method for the volume's encryption key and then fully encrypt the volume.
 
@@ -69,8 +69,6 @@ The **Win32\_EncryptableVolume** class has these types of members:
 ### Methods
 
 The **Win32\_EncryptableVolume** class has these methods.
-
-
 
 | Method                                                                                                                   | Description                                                                                                                                                                                                                                                                           |
 |:-------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -132,24 +130,15 @@ The **Win32\_EncryptableVolume** class has these methods.
 | [**UnlockWithPassphrase**](unlockwithpassphrase-win32-encryptablevolume.md)                                             | Uses the passphrase to obtain the derived key. After the derived key is calculated, the derived key is used to unlock the encrypted volume's master key.<br/>                                                                                                                   |
 | [**UpgradeVolume**](upgradevolume-win32-encryptablevolume.md)                                                           | Upgrades a volume from the Windows Vista format to the Windows 7 format.<br/>                                                                                                                                                                                                   |
 
-
-
- 
-
 ### Properties
 
-The **Win32\_EncryptableVolume** class has these properties.
-
-<dl> <dt>
+The **Win32_EncryptableVolume** class has these properties.
 
 **ConversionStatus**
-</dt> <dd> <dl> <dt>
 
 Data type: **uint32**
-</dt> <dt>
 
 Access type: Read-only
-</dt> <dt>
 
 An integer corresponding to the encryption state of the volume. This value is stored when class is instantiated. It is possible for the conversion status to change state between instantiation and when you check the value. To check the value of the **ConversionStatus** property in real time, use the [**GetConversionStatus**](getconversionstatus-win32-encryptablevolume.md) method.
 
@@ -162,47 +151,31 @@ An integer corresponding to the encryption state of the volume. This value is st
 | <dl> <dt>4</dt> </dl> | ENCRYPTION PAUSED<br/><br/> |
 | <dl> <dt>5</dt> </dl> | DECRYPTION PAUSED<br/><br/> |
 
-</dd> <dt>
-
 **DeviceID**
-</dt> <dd> <dl> <dt>
 
 Data type: **string**
-</dt> <dt>
 
 Access type: Read-only
-</dt> <dt>
   
 Qualifiers: **Key**
-</dt> </dl>
 
 A unique identifier for the volume on this system. Use this to associate a volume with other WMI provider classes, for example, **Win32\_Volume**.
 
-</dd> <dt>
-
 **DriveLetter**
-</dt> <dd> <dl> <dt>
 
 Data type: **string**
-</dt> <dt>
 
 Access type: Read-only
-</dt> </dl>
 
 The drive letter of the volume. This identifier can be used to associate a volume with other WMI provider classes, for example [**Win32\_Volume**](/previous-versions/windows/desktop/legacy/aa394515(v=vs.85)).
 
 For volumes without drive letters, this value is **NULL**.
 
-</dd> <dt>
-
 **EncryptionMethod**
-</dt> <dd> <dl> <dt>
 
 Data type: **uint32**
-</dt> <dt>
 
 Access type: Read-only
-</dt> </dl>
 
 An integer identifying the algorithm used to encrypt the volume. 
 
@@ -217,48 +190,31 @@ An integer identifying the algorithm used to encrypt the volume.
 | <dl> <dt>6</dt> </dl> | XTS-AES 128<br/> This is the default setting for Windows 10. <br/> |
 | <dl> <dt>7</dt> </dl> | XTS-AES 256 WITH DIFFUSER<br/><br/> |
 
-</dd> <dt>
-
 **IsVolumeInitializedForProtection**
-</dt> <dd> <dl> <dt>
 
 Data type: **bool**
-</dt> <dt>
 
 Access type: Read-only
-</dt> </dl>
 
 States whether the volume is in a state ready for encryption to start. At least one key protector must be added before this will be True and encryption can begin.
 
-</dd> <dt>
-
 **PersistentVolumeID**
-</dt> <dd> <dl> <dt>
 
 Data type: **string**
-</dt> <dt>
 
 Access type: Read-only
-</dt> </dl>
 
 A persistent identifier for the volume on this system. This identifier is exclusive to **Win32\_EncryptableVolume**.
 
 This identifier is an empty string if the volume is a standard fully decrypted NTFS volume; otherwise, it has a unique value.
 
-</dd> <dt>
-
 **ProtectionStatus**
-</dt> <dd> <dl> <dt>
 
 Data type: **uint32**
-</dt> <dt>
 
 Access type: Read-only
-</dt> </dl>
 
 The status of the volume, whether or not BitLocker is protecting the volume. This value is stored when the class is instantiated. It is possible for the protection status to change state between instantiation and when you check the value. To check the value of the **ProtectionStatus** property in real time, use the [**GetProtectionStatus**](getprotectionstatus-win32-encryptablevolume.md) method.
-
-
 
 | Value                                                                        | Meaning                                                                                                                                                                           |
 |------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -266,16 +222,11 @@ The status of the volume, whether or not BitLocker is protecting the volume. Thi
 | <dl> <dt>1</dt> </dl> | PROTECTION ON<br/> The volume is fully encrypted and the encryption key for the volume is not available in the clear on the hard disk. <br/>                          |
 | <dl> <dt>2</dt> </dl> | PROTECTION UNKNOWN<br/> The volume protection status cannot be determined. One potential cause is that the volume is in a locked state.<br/>                          |
 
-</dd> </dl>
-
 **VolumeType**
-</dt> <dd> <dl> <dt>
 
 Data type: **uint32**
-</dt> <dt>
 
 Access type: Read-only
-</dt> </dl>
 
 An integer identifying the type of volume relevant to encryption for use of appropriate key protectors and encryption methods.
 
@@ -285,13 +236,11 @@ An integer identifying the type of volume relevant to encryption for use of appr
 | <dl> <dt>1</dt> </dl> | FIXED DISK<br/> This volume is a non-system storage device for the system. It is often recommended to configure auto-unlock in conjunction with the system volume. <br/> |
 | <dl> <dt>2</dt> </dl> | REMOVABLE<br/> This volume is hot removable from the system. Typically this will indicate an external drive or flash drive. Different encryption methods may be considered due to compatibility concerns with other systems. <br/> |
 
-</dd> <dt>
-
 ## Security Considerations
 
-The **Win32\_EncryptableVolume** WMI provider class relies on the WMI namespace security and on the BitLocker Drive Encryption subsystem for access control.
+The **Win32_EncryptableVolume** WMI provider class relies on the WMI namespace security and on the BitLocker Drive Encryption subsystem for access control.
 
-To use the **Win32\_EncryptableVolume** methods, the following conditions must be met:
+To use the **Win32_EncryptableVolume** methods, the following conditions must be met:
 
 -   You must have administrator privileges.
 -   Connection encryption must be able to connect to the provider.
@@ -308,17 +257,9 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 
 ## Requirements
 
-
-
 | Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista Enterprise, Windows Vista Ultimate \[desktop apps only\]<br/>                       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\CIMV2\\Security\\MicrosoftVolumeEncryption<br/>                                             |
 | MOF<br/>                      | <dl> <dt>Win32\_encryptablevolume.mof</dt> </dl> |
-
-
-
- 
-
- 
