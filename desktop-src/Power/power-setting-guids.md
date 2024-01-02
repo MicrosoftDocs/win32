@@ -82,6 +82,18 @@ There is no notification when the system is able to move into an idle state. The
 
 ---
 
+<span id="GUID_LIDSWITCH_STATE_CHANGE"></span>
+<span id="guid_lidswitch_state_change"></span>
+**GUID\_LIDSWITCH\_STATE\_CHANGE** (BA3E0F4D-B817-4094-A2D1-D56379E6A0F3)
+
+The state of the lid has changed (open or closed). The callback won't be called until a lid device is found and its current state is known.
+
+0x0 - The lid is closed.
+
+0x1 - The lid is opened.
+
+---
+
 <span id="GUID_MONITOR_POWER_ON"></span>
 <span id="guid_monitor_power_on"></span>
 **GUID\_MONITOR\_POWER\_ON** (02731015-4510-4526-99E6-E5A17EBD1AEA)
@@ -166,18 +178,6 @@ This notification is sent only to user-mode applications running in an interacti
 
 > [!Note]
 > All applications that run in an interactive user-mode session should use this setting. When kernel mode applications register for monitor status they should use **GUID\_CONSOLE\_DISPLAY\_STATUS** instead.
-
----
-
-<span id="GUID_LIDSWITCH_STATE_CHANGE"></span>
-<span id="guid_lidswitch_state_change"></span>
-**GUID\_LIDSWITCH\_STATE\_CHANGE** (BA3E0F4D-B817-4094-A2D1-D56379E6A0F3)
-
-The state of the lid has changed (open or closed). The callback won't be called until a lid device is found and its current state is known.
-
-0x0 - The lid is closed.
-
-0x1 - The lid is opened.
 
 ---
 
