@@ -6,14 +6,13 @@ ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# PBT\_APMQUERYSUSPEND event
+# PBT_APMQUERYSUSPEND event
 
-\[PBT\_APMQUERYSUSPEND is available for use in the operating systems specified in the Requirements section. Support for this event was removed in Windows Vista. Use [**SetThreadExecutionState**](/windows/desktop/api/Winbase/nf-winbase-setthreadexecutionstate) instead.\]
+**PBT_APMQUERYSUSPEND** is available for use in the operating systems specified in the Requirements section. Support for this event was removed in Windows Vista. Use [**SetThreadExecutionState**](/windows/desktop/api/Winbase/nf-winbase-setthreadexecutionstate) instead.\]
 
 Requests permission to suspend the computer. An application that grants permission should carry out preparations for the suspension before returning.
 
 A window receives this event through the [**WM\_POWERBROADCAST**](wm-powerbroadcast.md) message. The *wParam* and *lParam* parameters are set as described following.
-
 
 ```C++
 LRESULT 
@@ -24,45 +23,27 @@ WindowProc( HWND   hwnd,    // handle to window
             LPARAM lParam); // action flags
 ```
 
-
-
 ## Parameters
 
-<dl> <dt>
-
 *hwnd* 
-</dt> <dd>
 
 A handle to window.
 
-</dd> <dt>*uMsg* </dt> <dd> 
+*uMsg*
 
 | Value                                                                                                                                                                                                                                                                   | Meaning                        |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------|
 | <span id="WM_POWERBROADCAST"></span><span id="wm_powerbroadcast"></span><dl> <dt>**[**WM\_POWERBROADCAST**](wm-powerbroadcast.md)**</dt> <dt>536 (0x218)</dt> </dl> | Message identifier.<br/> |
 
-
-
- 
-
-</dd> <dt>*wParam* </dt> <dd> 
+*wParam*
 
 | Value                                                                                                                                                                                                                                        | Meaning                      |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------|
 | <span id="PBT_APMQUERYSUSPEND"></span><span id="pbt_apmquerysuspend"></span><dl> <dt>**PBT\_APMQUERYSUSPEND**</dt> <dt>0 (0x0)</dt> </dl> | Event identifier.<br/> |
 
-
-
- 
-
-</dd> <dt>
-
 *lParam* 
-</dt> <dd>
 
 The action flags. If bit 0 is 1, the application can prompt the user for directions on how to prepare for the suspension; otherwise, the application must prepare without user interaction. All other bit values are reserved.
-
-</dd> </dl>
 
 ## Return value
 
@@ -76,8 +57,6 @@ The system allows approximately 20 seconds for an application to remove the [**W
 
 ## Requirements
 
-
-
 | Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                              |
@@ -86,28 +65,9 @@ The system allows approximately 20 seconds for an application to remove the [**W
 | End of server support<br/>    | Windows Server 2003<br/>                                                                           |
 | Header<br/>                   | <dl> <dt>WinUser.h (include Windows.h)</dt> </dl> |
 
-
-
 ## See also
 
-<dl> <dt>
-
-[System Wake-up Events](system-wake-up-events.md)
-</dt> <dt>
-
-[Power Management Events](power-management-events.md)
-</dt> <dt>
-
-[PBT\_APMSUSPEND](pbt-apmsuspend.md)
-</dt> <dt>
-
-[**WM\_POWERBROADCAST**](wm-powerbroadcast.md)
-</dt> </dl>
-
- 
-
- 
-
-
-
-
+* [System Wake-up Events](system-wake-up-events.md)
+* [Power Management Events](power-management-events.md)
+* [PBT\_APMSUSPEND](pbt-apmsuspend.md)
+* [**WM\_POWERBROADCAST**](wm-powerbroadcast.md)

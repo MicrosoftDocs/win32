@@ -46,7 +46,7 @@ api_location:
 - vmms.exe
 ---
 
-# Msvm\_MemorySettingData class
+# Msvm_MemorySettingData class
 
 Represents the configured state of the memory for a virtual machine.
 
@@ -94,440 +94,277 @@ class Msvm_MemorySettingData : CIM_ResourceAllocationSettingData
 
 ## Members
 
-The **Msvm\_MemorySettingData** class has these types of members:
+The **Msvm_MemorySettingData** class has these types of members:
 
--   [Properties](#properties)
+* [Properties](#properties)
 
 ### Properties
 
-The **Msvm\_MemorySettingData** class has these properties.
+The **Msvm_MemorySettingData** class has these properties.
 
-<dl> <dt>
-
-**Address**
-</dt> <dd> <dl> <dt>
+#### Address
 
 Data type: **string**
-</dt> <dt>
 
-Access type: Read-only
-</dt> </dl>
+Access type: read-only
 
 The address of the resource. For example, the MAC address of an Ethernet port. This property is inherited from [**CIM\_ResourceAllocationSettingData**](/previous-versions/windows/desktop/clushyperv/cim-resourceallocationsettingdata).
 
-</dd> <dt>
-
-**AddressOnParent**
-</dt> <dd> <dl> <dt>
+#### AddressOnParent
 
 Data type: **string**
-</dt> <dt>
 
-Access type: Read-only
-</dt> </dl>
+Access type: read-only
 
 Describes the address of this resource in the context of the parent. The **Parent** and **AddressOnParent** properties are used to describe the controller relationship as well as the ordering of devices on a controller. This property is inherited from [**CIM\_ResourceAllocationSettingData**](/previous-versions/windows/desktop/clushyperv/cim-resourceallocationsettingdata).
 
-</dd> <dt>
-
-**AllocationUnits**
-</dt> <dd> <dl> <dt>
+#### AllocationUnits
 
 Data type: **string**
-</dt> <dt>
 
-Access type: Read-only
-</dt> </dl>
+Access type: read-only
 
 The units of allocation used by the **Reservation** and **Limit** properties. This property is inherited from [**CIM\_ResourceAllocationSettingData**](/previous-versions/windows/desktop/clushyperv/cim-resourceallocationsettingdata).
 
-</dd> <dt>
-
-**AutomaticAllocation**
-</dt> <dd> <dl> <dt>
+#### AutomaticAllocation
 
 Data type: **boolean**
-</dt> <dt>
 
-Access type: Read-only
-</dt> </dl>
+Access type: read-only
 
 Indicates whether the resource will be automatically allocated. For example, when this property is set to **True** and the consuming virtual machine is powered on, this resource would be allocated. A value of **False** indicates the resource must be explicitly allocated. For example, the setting may represent removable media (such as a CD-ROM or a floppy disk) where at startup, the media is not present. An explicit operation is required to allocate the resource. This property is inherited from [**CIM\_ResourceAllocationSettingData**](/previous-versions/windows/desktop/clushyperv/cim-resourceallocationsettingdata).
 
-</dd> <dt>
-
-**AutomaticDeallocation**
-</dt> <dd> <dl> <dt>
+#### AutomaticDeallocation
 
 Data type: **boolean**
-</dt> <dt>
 
-Access type: Read-only
-</dt> </dl>
+Access type: read-only
 
 Indicates whether the resource will be automatically allocated. For example when this property is set to **True** and the consuming virtual machine is powered on, this resource would be allocated. When this property is **False**, the resource must be explicitly allocated. For example, the setting may represent removable media (such as a CD-ROM or a floppy disk) where at startup, the media is not present. An explicit operation is required to allocate the resource. This property is inherited from [**CIM\_ResourceAllocationSettingData**](/previous-versions/windows/desktop/clushyperv/cim-resourceallocationsettingdata).
 
-</dd> <dt>
-
-**Caption**
-</dt> <dd> <dl> <dt>
+#### Caption
 
 Data type: **string**
-</dt> <dt>
 
-Access type: Read-only
-</dt> <dt>
+Access type: read-only
 
 Qualifiers: **MaxLen** (64)
-</dt> </dl>
 
 A short description of the object. This property is inherited from [**CIM\_ManagedElement**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement).
 
-</dd> <dt>
-
-**Connection**
-</dt> <dd> <dl> <dt>
+#### Connection
 
 Data type: **string** array
-</dt> <dt>
 
-Access type: Read-only
-</dt> </dl>
+Access type: read-only
 
 The device to which this resource is connected. For example, a named network or switch port. This property is inherited from [**CIM\_ResourceAllocationSettingData**](/previous-versions/windows/desktop/clushyperv/cim-resourceallocationsettingdata).
 
-</dd> <dt>
-
-**ConsumerVisibility**
-</dt> <dd> <dl> <dt>
+#### ConsumerVisibility
 
 Data type: **uint16**
-</dt> <dt>
 
-Access type: Read-only
-</dt> </dl>
+Access type: read-only
 
 Describes the consumers visibility to the allocated resource. This property is inherited from [**CIM\_ResourceAllocationSettingData**](/previous-versions/windows/desktop/clushyperv/cim-resourceallocationsettingdata).
 
-</dd> <dt>
-
-**Description**
-</dt> <dd> <dl> <dt>
+#### Description
 
 Data type: **string**
-</dt> <dt>
 
-Access type: Read-only
-</dt> </dl>
+Access type: read-only
 
 A description of the object. This property is inherited from [**CIM\_ManagedElement**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement).
 
-</dd> <dt>
-
-**DynamicMemoryEnabled**
-</dt> <dd> <dl> <dt>
+#### DynamicMemoryEnabled
 
 Data type: **boolean**
-</dt> <dt>
 
-Access type: Read-only
-</dt> </dl>
+Access type: read-only
 
 Indicates whether dynamic memory is enabled for the virtual machine.
 
-</dd> <dt>
-
-**ElementName**
-</dt> <dd> <dl> <dt>
+#### ElementName
 
 Data type: **string**
-</dt> <dt>
 
-Access type: Read-only
-</dt> </dl>
+Access type: read-only
 
 A display name for the object. This property is inherited from [**CIM\_SettingData**](/previous-versions//cc136911(v=vs.85)).
 
-</dd> <dt>
-
-**HostResource**
-</dt> <dd> <dl> <dt>
+#### HostResource
 
 Data type: **string** array
-</dt> <dt>
 
-Access type: Read-only
-</dt> </dl>
+Access type: read-only
 
 The first element of this array contains a reference to the underlying host resource to be assigned. This property is inherited from [**CIM\_ResourceAllocationSettingData**](/previous-versions/windows/desktop/clushyperv/cim-resourceallocationsettingdata), but it is not used.
 
-</dd> <dt>
-  
-**HugePagesEnabled**
-</dt> <dd> <dl> <dt>
+#### HugePagesEnabled
 
 Data type: **boolean**
-</dt> <dt>
 
-Access type: Read-only
-</dt> </dl>
+Access type: read-only
 
 Whether the memory is backed by 1GB pages or not.
 
-</dd> <dt>
-
-**InstanceID**
-</dt> <dd> <dl> <dt>
+#### InstanceID
 
 Data type: **string**
-</dt> <dt>
 
-Access type: Read-only
-</dt> <dt>
+Access type: read-only
 
 Qualifiers: **Key**
-</dt> </dl>
 
 Uniquely identifies an instance of this class. This property is inherited from [**CIM\_ManagedElement**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement).
 
-</dd> <dt>
-
-**IsVirtualized**
-</dt> <dd> <dl> <dt>
+#### IsVirtualized
 
 Data type: **boolean**
-</dt> <dt>
 
-Access type: Read-only
-</dt> </dl>
+Access type: read-only
 
 Indicates whether this device is virtualized or passed through. When set to **False**, the underlying or host resource is used. At least one item should be present in the **DeviceID** property. When set to **True**, the resource is virtualized and may not map directly to an underlying/host resource. Some implementations may support specific assignment for virtualized resources, in which case the host resources are exposed by using the **DeviceID** property. This property is always set to **True**.
 
-</dd> <dt>
-
-**Limit**
-</dt> <dd> <dl> <dt>
+#### Limit
 
 Data type: **uint64**
-</dt> <dt>
 
-Access type: Read-only
-</dt> </dl>
+Access type: read-only
 
 The maximum amount of memory that may be consumed by the virtual machine. For a virtual machine with dynamic memory enabled, this represents the maximum memory setting. This property is inherited from [**CIM\_ResourceAllocationSettingData**](/previous-versions/windows/desktop/clushyperv/cim-resourceallocationsettingdata).
 
-</dd> <dt>
-
-**MappingBehavior**
-</dt> <dd> <dl> <dt>
+#### MappingBehavior
 
 Data type: **uint16**
-</dt> <dt>
 
-Access type: Read-only
-</dt> </dl>
+Access type: read-only
 
 Specifies how this resource maps to underlying resources. This property is inherited from [**CIM\_ResourceAllocationSettingData**](/previous-versions/windows/desktop/clushyperv/cim-resourceallocationsettingdata).
 
-</dd> <dt>
-
-**MaxMemoryBlocksPerNumaNode**
-</dt> <dd> <dl> <dt>
+#### MaxMemoryBlocksPerNumaNode
 
 Data type: **uint64**
-</dt> <dt>
 
-Access type: Read-only
-</dt> </dl>
+Access type: read-only
 
 The maximum amount of memory that can be observed within the virtual machine as belonging to a single NUMA node.
 
-</dd> <dt>
-
-**OtherResourceType**
-</dt> <dd> <dl> <dt>
+#### OtherResourceType
 
 Data type: **string**
-</dt> <dt>
 
-Access type: Read-only
-</dt> </dl>
+Access type: read-only
 
 A string that describes the resource type when a well-defined value is not available and **ResourceType** has the value "Other". This property is inherited from [**CIM\_ResourceAllocationSettingData**](/previous-versions/windows/desktop/clushyperv/cim-resourceallocationsettingdata).
 
-</dd> <dt>
-
-**Parent**
-</dt> <dd> <dl> <dt>
+#### Parent
 
 Data type: **string**
-</dt> <dt>
 
-Access type: Read-only
-</dt> </dl>
+Access type: read-only
 
 The parent of the resource. For example, a controller for the current allocation. This property is inherited from [**CIM\_ResourceAllocationSettingData**](/previous-versions/windows/desktop/clushyperv/cim-resourceallocationsettingdata).
 
-</dd> <dt>
-
-**PoolID**
-</dt> <dd> <dl> <dt>
+#### PoolID
 
 Data type: **string**
-</dt> <dt>
 
-Access type: Read-only
-</dt> </dl>
+Access type: read-only
 
 The identifier of the resource pool from which this resource was allocated. This property is inherited from [**CIM\_ResourceAllocationSettingData**](/previous-versions/windows/desktop/clushyperv/cim-resourceallocationsettingdata).
 
-</dd> <dt>
-
-**Reservation**
-</dt> <dd> <dl> <dt>
+#### Reservation
 
 Data type: **uint64**
-</dt> <dt>
 
-Access type: Read-only
-</dt> </dl>
+Access type: read-only
 
 Specifies the amount of memory guaranteed to be available for this virtual machine. For a virtual machine with dynamic memory enabled, this represents the minimum memory setting. This property is inherited from [**CIM\_ResourceAllocationSettingData**](/previous-versions/windows/desktop/clushyperv/cim-resourceallocationsettingdata).
 
-</dd> <dt>
-
-**ResourceSubType**
-</dt> <dd> <dl> <dt>
+#### ResourceSubType
 
 Data type: **string**
-</dt> <dt>
 
-Access type: Read-only
-</dt> </dl>
+Access type: read-only
 
 A string that describes an implementation specific subtype for this resource. For example, this may be used to distinguish different models of the same resource type. This property is inherited from [**CIM\_ResourceAllocationSettingData**](/previous-versions/windows/desktop/clushyperv/cim-resourceallocationsettingdata).
 
-</dd> <dt>
-
-**ResourceType**
-</dt> <dd> <dl> <dt>
+#### ResourceType
 
 Data type: **uint16**
-</dt> <dt>
 
-Access type: Read-only
-</dt> </dl>
+Access type: read-only
 
 The type of resource that this allocation setting represents. This property is inherited from [**CIM\_ResourceAllocationSettingData**](/previous-versions/windows/desktop/clushyperv/cim-resourceallocationsettingdata), and it is always set to 4 (Memory).
 
-</dd> <dt>
-
-**SgxEnabled**
-</dt> <dd> <dl> <dt>
+#### SgxEnabled
 
 Data type: **boolean**
-</dt> <dt>
 
-Access type: Read-only
-</dt> </dl>
+Access type: read-only
 
 Indicates if SGX is enabled.
 
-> [!Note]  
+> [!NOTE]
 > This property was added in Windows 10, version 1703.
 
- 
-
-</dd> <dt>
-
-**SgxSize**
-</dt> <dd> <dl> <dt>
+#### SgxSize
 
 Data type: **uint64**
-</dt> <dt>
 
-Access type: Read-only
-</dt> </dl>
+Access type: read-only
 
 The amount of SGX memory to allocate for the VM, in MB.
 
-> [!Note]  
+> [!NOTE]  
 > This property was added in Windows 10, version 1703.
 
- 
-
-</dd> <dt>
-
-**SwapFilesInUse**
-</dt> <dd> <dl> <dt>
+#### SwapFilesInUse
 
 Data type: **boolean**
-</dt> <dt>
 
-Access type: Read-only
-</dt> </dl>
+Access type: read-only
 
-**True** if second level paging is active; otherwise, **False**.
+**true** if second level paging is active; otherwise, **false**.
 
-</dd> <dt>
-
-**TargetMemoryBuffer**
-</dt> <dd> <dl> <dt>
+#### TargetMemoryBuffer
 
 Data type: **uint32**
-</dt> <dt>
 
-Access type: Read-only
-</dt> </dl>
+Access type: read-only
 
 Defines the amount of extra memory that should be reserved for a virtual machine at runtime, as a percentage of the total memory that the virtual machine is thought to need. This only applies to virtual machines with dynamic memory enabled.
 
 This property can be in the range of 5 to 2000.
 
-</dd> <dt>
-
-**VirtualQuantity**
-</dt> <dd> <dl> <dt>
+#### VirtualQuantity
 
 Data type: **uint64**
-</dt> <dt>
 
-Access type: Read-only
-</dt> </dl>
+Access type: read-only
 
 The total amount of RAM in the virtual machine, as seen by the guest operating system. For a virtual machine with dynamic memory enabled, this represents the initial memory available at startup. This property is inherited from [**CIM\_ResourceAllocationSettingData**](/previous-versions/windows/desktop/clushyperv/cim-resourceallocationsettingdata).
 
-</dd> <dt>
-
-**VirtualQuantityUnits**
-</dt> <dd> <dl> <dt>
+#### VirtualQuantityUnits
 
 Data type: **string**
-</dt> <dt>
 
-Access type: Read-only
-</dt> </dl>
+Access type: read-only
 
 Specifies the unit of measurement for this resource allocation. The value of this property must be a legal value of the Programmatic Units qualifier as defined in Annex C.1 of DSP0004 V2.5 or later. This property is inherited from [**CIM\_ResourceAllocationSettingData**](/previous-versions/windows/desktop/clushyperv/cim-resourceallocationsettingdata).
 
-</dd> <dt>
-
-**Weight**
-</dt> <dd> <dl> <dt>
+#### Weight
 
 Data type: **uint32**
-</dt> <dt>
 
-Access type: Read-only
-</dt> </dl>
+Access type: read-only
 
 Defines the memory allocation weighting value for each virtual machine. After all reserves have been met, the remaining memory of the hosting platform will be allocated to virtual machines based on their relative weights (not to exceed the value specified by the **Limit** property). This property is inherited from [**CIM\_ResourceAllocationSettingData**](/previous-versions/windows/desktop/clushyperv/cim-resourceallocationsettingdata).
 
-</dd> </dl>
-
 ## Remarks
 
-Access to the **Msvm\_MemorySettingData** class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](/windows/desktop/WmiSdk/user-account-control-and-wmi).
+Access to the **Msvm_MemorySettingData** class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](/windows/desktop/WmiSdk/user-account-control-and-wmi).
 
 ## Examples
 
@@ -587,30 +424,16 @@ if (WaitForResult($res) -ne 0)
 
 ## Requirements
 
-
-
 | Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
-| MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
-| DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
-
-
+| MOF<br/>                      | WindowsVirtualization.V2.mof |
+| DLL<br/>                      | Vmms.exe                     |
 
 ## See also
 
-<dl> <dt>
-
-[**CIM\_ResourceAllocationSettingData**](cim-resourceallocationsettingdata.md)
-</dt> <dt>
-
-[**CIM\_ResourceAllocationSettingData**](/previous-versions/windows/desktop/clushyperv/cim-resourceallocationsettingdata)
-</dt> <dt>
-
-[Memory Classes](memory-classes.md)
-</dt> </dl>
-
- 
-
+* [**CIM\_ResourceAllocationSettingData**](cim-resourceallocationsettingdata.md)
+* [**CIM\_ResourceAllocationSettingData**](/previous-versions/windows/desktop/clushyperv/cim-resourceallocationsettingdata)
+* [Memory classes](memory-classes.md)
