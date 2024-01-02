@@ -160,6 +160,9 @@ This notification is sent only to user-mode applications. Services and other pro
 
 0x2 - The display is dimmed.
 
+> [!Note]
+> All applications that run in an interactive user-mode session should use this setting. When kernel mode applications register for monitor status they should use **GUID\_CONSOLE\_DISPLAY\_STATUS** instead.
+
 ---
 
 <span id="GUID_SESSION_USER_PRESENCE"></span>
@@ -175,9 +178,6 @@ This notification is sent only to user-mode applications running in an interacti
 **PowerUserPresent** (0) - The user is providing input to the session.
 
 **PowerUserInactive** (2) - The user activity timeout has elapsed with no interaction from the user.
-
-> [!Note]
-> All applications that run in an interactive user-mode session should use this setting. When kernel mode applications register for monitor status they should use **GUID\_CONSOLE\_DISPLAY\_STATUS** instead.
 
 ---
 
