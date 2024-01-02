@@ -6,12 +6,11 @@ ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# PBT\_APMRESUMESUSPEND event
+# PBT_APMRESUMESUSPEND event
 
 Notifies applications that the system has resumed operation after being suspended.
 
 A window receives this event through the [**WM\_POWERBROADCAST**](wm-powerbroadcast.md) message. The *wParam* and *lParam* parameters are set as described following.
-
 
 ```C++
 LRESULT 
@@ -22,51 +21,27 @@ WindowProc( HWND hwnd,      // handle to window
             LPARAM lParam); // zero
 ```
 
-
-
 ## Parameters
 
-<dl> <dt>
-
 *hwnd* 
-</dt> <dd>
 
 A handle to window.
 
-</dd> <dt>
-
 *uMsg*
-</dt> <dd> 
 
 | Value                                                                                                                                                                                                                                                                   | Meaning                        |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------|
 | <span id="WM_POWERBROADCAST"></span><span id="wm_powerbroadcast"></span><dl> <dt>**[**WM\_POWERBROADCAST**](wm-powerbroadcast.md)**</dt> <dt>536 (0x218)</dt> </dl> | Message identifier.<br/> |
 
-
-
- 
-
-</dd> <dt>
-
 *wParam*
-</dt> <dd> 
 
 | Value                                                                                                                                                                                                                                           | Meaning                      |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------|
 | <span id="PBT_APMRESUMESUSPEND"></span><span id="pbt_apmresumesuspend"></span><dl> <dt>**PBT\_APMRESUMESUSPEND**</dt> <dt>7 (0x7)</dt> </dl> | Event identifier.<br/> |
 
-
-
- 
-
-</dd> <dt>
-
 *lParam* 
-</dt> <dd>
 
 Reserved; must be zero.
-
-</dd> </dl>
 
 ## Return value
 
@@ -82,39 +57,16 @@ If the system wakes due to an external wake signal (remote wake), the system bro
 
 ## Requirements
 
-
-
 | Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>WinUser.h (include Windows.h)</dt> </dl> |
 
-
-
 ## See also
 
-<dl> <dt>
-
-[System Wake-up Events](system-wake-up-events.md)
-</dt> <dt>
-
-[Power Management Events](power-management-events.md)
-</dt> <dt>
-
-[PBT\_APMSUSPEND](pbt-apmsuspend.md)
-</dt> <dt>
-
-[PBT\_APMRESUMECRITICAL](pbt-apmresumecritical.md)
-</dt> <dt>
-
-[**WM\_POWERBROADCAST**](wm-powerbroadcast.md)
-</dt> </dl>
-
- 
-
- 
-
-
-
-
+* [System Wake-up Events](system-wake-up-events.md)
+* [Power Management Events](power-management-events.md)
+* [PBT_APMSUSPEND](pbt-apmsuspend.md)
+* [PBT_APMRESUMECRITICAL](pbt-apmresumecritical.md)
+* [WM_POWERBROADCAST](wm-powerbroadcast.md)
