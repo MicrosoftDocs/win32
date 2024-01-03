@@ -24,17 +24,10 @@ Another area that needs special attention is the treatment of out and in-out par
 -   All out pointer parameters must explicitly be set to **NULL**. These are usually passed in a pointer-to-pointer parameter but can also be passed as members of a structure that the caller allocates and the called code fills. The most straightforward way to ensure this is (in part) to set these values to **NULL** on function entry. This rule is important because it promotes more robust application interoperability.
 -   Under error conditions, all in-out parameters must either be left alone by the code called (thus remaining at the value to which they were initialized by the caller) or be explicitly set, as in the out parameter error return case.
 
-Remember that these memory management conventions for COM applications apply only across public interfaces and APIsâ€”there is no requirement at all that memory allocation strictly internal to a COM application need be done using these mechanisms.
+Remember that these memory management conventions for COM applications apply only across public interfaces and APIs; there's no requirement at all that memory allocation strictly internal to a COM application need be done using these mechanisms.
 
 COM internally uses Remote Procedure Calls (RPC) to communicate between clients and servers. For more information about managing memory in RPC server stubs, see the [Server-stub Memory Management](../rpc/server-stub-memory-management.md) topic.
 
 ## Related topics
 
-<dl> <dt>
-
-[Managing Memory Allocation](managing-memory-allocation.md)
-</dt> </dl>
-
- 
-
- 
+* [Managing Memory Allocation](managing-memory-allocation.md)
