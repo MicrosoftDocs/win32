@@ -46,8 +46,7 @@ This function has no associated import library or header file; you must call it 
 
 | Requirement | Value |
 |-------------------------------------|----------------------------------|
-| Minimum supported client | TBD |
-| Minimum supported server | TBD |
+| Minimum supported client | Windows Build 19041 |
 | DLL                   | Ntdll.dll                                          |
 
 
