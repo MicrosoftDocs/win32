@@ -46,7 +46,7 @@ This function has no associated import library or header file; you must call it 
 
 | Requirement | Value |
 |-------------------------------------|----------------------------------|
-| Minimum supported client | Windows Build 19041 |
+| Minimum supported client | Windows 10 Build 19041 |
 | DLL                   | Ntdll.dll                                          |
 
 
