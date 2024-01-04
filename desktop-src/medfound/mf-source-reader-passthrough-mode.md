@@ -22,6 +22,11 @@ To set this attribute, call [**IMFAttributes::SetUINT32**](/windows/desktop/api/
 
 ## Remarks
 
+The constant **MF_SOURCE_READER_PASSTHROUGH_MODE** is not defined in a Windows SDK header file so the caller must specify the GUID value to reference the attribute.
+
+| Attribute | Value |
+|-----------|-------|
+| MF_SOURCE_READER_PASSTHROUGH_MODE | 043FF126-FE2C-4708-A09B-DA2AB435CED9 |
 
 
 ## Requirements
@@ -30,9 +35,8 @@ To set this attribute, call [**IMFAttributes::SetUINT32**](/windows/desktop/api/
 
 | Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps \| UWP apps\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps \| UWP apps\]<br/>                           |
-| Header<br/>                   | <dl> <dt>Mfreadwrite.h</dt> </dl> |
+| Minimum supported client<br/> | Windows 10 build 19041<br/>                                        |
+
 
 
 
