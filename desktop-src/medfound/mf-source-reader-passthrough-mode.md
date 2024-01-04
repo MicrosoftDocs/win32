@@ -1,6 +1,6 @@
 ---
 description: Specifies whether the Source Reader passes through video samples backed by the system memory to internal MFTs without automatically copying them into a DirectX texture.
-title: MF_SOURCE_READER_PASSTHROUGH_MODE attribute (Mfreadwrite.h)
+title: MF_SOURCE_READER_PASSTHROUGH_MODE attribute
 ms.topic: reference
 ms.date: 05/31/2018
 ---
