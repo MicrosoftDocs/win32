@@ -29,9 +29,9 @@ Sets the text in the specified part of a status window.
 *wParam* 
 </dt> <dd>
 
-The [**LOBYTE**](/previous-versions/windows/desktop/legacy/ms632658(v=vs.85)) of the low-order word specifies the zero-based index of the part to set. If the **LOBYTE** is set to SB\_SIMPLEID, the status window is assumed to be a simple mode status bar; that is, a status bar with only one part.
+The [**LOBYTE**](../winmsg/lobyte.md) of the low-order word specifies the zero-based index of the part to set. If the **LOBYTE** is set to SB\_SIMPLEID, the status window is assumed to be a simple mode status bar; that is, a status bar with only one part.
 
-The [**HIBYTE**](/previous-versions/windows/desktop/legacy/ms632656(v=vs.85)) of the low-order word specifies the type of the drawing operation. This parameter can be one of the following values.
+The [**HIBYTE**](../winmsg/hibyte.md) of the low-order word specifies the type of the drawing operation. This parameter can be one of the following values.
 
 The high-order word of *wParam* is ignored.
 

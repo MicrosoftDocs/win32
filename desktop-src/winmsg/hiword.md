@@ -50,7 +50,4 @@ The return value is the high-order word of the specified value.
 
 ## See also
 
-[HIBYTE](ms632656\(v=vs.85\).md), [LOWORD](ms632659\(v=vs.85\).md), [MAKELPARAM](/windows/win32/api/winuser/nf-winuser-makelparam), [MAKEWPARAM](/windows/win32/api/winuser/nf-winuser-makewparam), [Windows Data Types](/windows/win32/winprog/windows-data-types)
-
-
-
+[HIBYTE](./hibyte.md), [LOWORD](./loword.md), [MAKELPARAM](/windows/win32/api/winuser/nf-winuser-makelparam), [MAKEWPARAM](/windows/win32/api/winuser/nf-winuser-makewparam), [Windows Data Types](/windows/win32/winprog/windows-data-types)
