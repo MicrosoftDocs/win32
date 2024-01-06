@@ -34,7 +34,7 @@ Index of the list-view item.
 *lParam* 
 </dt> <dd>
 
-The [**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) specifies the new x-position of the item's upper-left corner, in view coordinates. The [**HIWORD**]([HIWORD macro](../winmsg/hiword.md)(v=vs.85)) specifies the new y-position of the item's upper-left corner, in view coordinates.
+The [**LOWORD**](../winmsg/loword.md) specifies the new x-position of the item's upper-left corner, in view coordinates. The [**HIWORD**](../winmsg/hiword.md) specifies the new y-position of the item's upper-left corner, in view coordinates.
 
 </dd> </dl>
 

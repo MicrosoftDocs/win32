@@ -34,13 +34,13 @@ Must be zero.
 *lParam* 
 </dt> <dd>
 
-The [**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) specifies the horizontal padding, in pixels. The [**HIWORD**]([HIWORD macro](../winmsg/hiword.md)(v=vs.85)) specifies the vertical padding, in pixels.
+The [**LOWORD**](../winmsg/loword.md) specifies the horizontal padding, in pixels. The [**HIWORD**](../winmsg/hiword.md) specifies the vertical padding, in pixels.
 
 </dd> </dl>
 
 ## Return value
 
-Returns a **DWORD** value that contains the previous horizontal padding in the [**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) and the previous vertical padding in the [**HIWORD**]([HIWORD macro](../winmsg/hiword.md)(v=vs.85)), in pixels.
+Returns a **DWORD** value that contains the previous horizontal padding in the [**LOWORD**](../winmsg/loword.md) and the previous vertical padding in the [**HIWORD**](../winmsg/hiword.md), in pixels.
 
 ## Remarks
 

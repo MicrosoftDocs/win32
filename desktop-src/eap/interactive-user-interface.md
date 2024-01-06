@@ -19,7 +19,8 @@ The DLL for the interactive UI should export entry points for the following func
 [**RasEapFreeMemory**](/windows/desktop/api/Raseapif/nf-raseapif-raseapfreememory)  
 </dl>
 
-The interactive user interface must support [**WM\_COMMAND**](../menurc/wm-command.md) messages where [**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85))(*wParam*) equals IDCANCEL.
+The interactive user interface must support [**WM\_COMMAND**](../menurc/wm-command.md) messages where [**LOWORD**](../winmsg/loword.md)
+(*wParam*) equals IDCANCEL.
 
 To display the interactive UI, the authentication protocol should set the **fInvokeInteractiveUI** member of the [**PPP\_EAP\_OUTPUT**](/windows/desktop/api/Raseapif/ns-raseapif-ppp_eap_output) structure to **TRUE**. The authentication protocol may optionally set the **pUIContextData** and **dwSizeOfUIContextData** members to **TRUE** as well. The authentication service uses the values of these members to pass context data to the interactive UI. The authentication protocol returns the **PPP\_EAP\_OUTPUT** structure as a parameter in the [**RasEapMakeMessage**](/previous-versions/windows/desktop/legacy/aa363532(v=vs.85)) function.
 

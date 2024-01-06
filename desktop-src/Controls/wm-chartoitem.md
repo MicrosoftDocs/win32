@@ -37,7 +37,7 @@ WM_CHARTOITEM
 *wParam* 
 </dt> <dd>
 
-The [**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) specifies the character code of the key the user pressed. The [**HIWORD**]([HIWORD macro](../winmsg/hiword.md)(v=vs.85)) specifies the current position of the caret.
+The [**LOWORD**](../winmsg/loword.md) specifies the character code of the key the user pressed. The [**HIWORD**](../winmsg/hiword.md) specifies the current position of the caret.
 
 </dd> <dt>
 
@@ -88,10 +88,10 @@ If a dialog box procedure handles this message, it should cast the desired retur
 [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca)
 </dt> <dt>
 
-[**HIWORD**]([HIWORD macro](../winmsg/hiword.md)(v=vs.85))
+[**HIWORD**](../winmsg/hiword.md)
 </dt> <dt>
 
-[**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85))
+[**LOWORD**](../winmsg/loword.md)
 </dt> <dt>
 
 [**WM\_CHAR**](/windows/desktop/inputdev/wm-char)

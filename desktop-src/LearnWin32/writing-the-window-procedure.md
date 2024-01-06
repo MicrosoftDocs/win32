@@ -65,7 +65,7 @@ void OnSize(HWND hwnd, UINT flag, int width, int height)
 }
 ```
 
-The [**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) and [**HIWORD**]([HIWORD macro](../winmsg/hiword.md)(v=vs.85)) macros get the 16-bit width and height values from *lParam*. (You can look up these kinds of details in the MSDN documentation for each message code.) The window procedure extracts the width and height, and then passes these values to the `OnSize` function.
+The [**LOWORD**](../winmsg/loword.md) and [**HIWORD**](../winmsg/hiword.md) macros get the 16-bit width and height values from *lParam*. (You can look up these kinds of details in the MSDN documentation for each message code.) The window procedure extracts the width and height, and then passes these values to the `OnSize` function.
 
 ## Default Message Handling
 

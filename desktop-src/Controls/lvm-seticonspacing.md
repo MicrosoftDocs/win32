@@ -34,7 +34,7 @@ Must be zero.
 *lParam* 
 </dt> <dd>
 
-The [**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) specifies the distance, in pixels, to set between icons on the x-axis. The [**HIWORD**]([HIWORD macro](../winmsg/hiword.md)(v=vs.85)) specifies the distance, in pixels, to set between icons on the y-axis. See Remarks.
+The [**LOWORD**](../winmsg/loword.md) specifies the distance, in pixels, to set between icons on the x-axis. The [**HIWORD**](../winmsg/hiword.md) specifies the distance, in pixels, to set between icons on the y-axis. See Remarks.
 
 </dd> </dl>
 

@@ -50,4 +50,4 @@ The value to be converted.
 
 ## See also
 
-[HIBYTE](hibyte.md), [LOWORD](ms632659\(v=vs.85\).md), [Windows Data Types](/windows/win32/winprog/windows-data-types)
+[HIBYTE](hibyte.md), [LOWORD](./loword.md), [Windows Data Types](/windows/win32/winprog/windows-data-types)

@@ -47,7 +47,7 @@ Flag that specifies which time value to set. This parameter can be one of the fo
 *lParam* 
 </dt> <dd>
 
-The [**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) specifies the delay time, in milliseconds. The [**HIWORD**]([HIWORD macro](../winmsg/hiword.md)(v=vs.85)) must be zero.
+The [**LOWORD**](../winmsg/loword.md) specifies the delay time, in milliseconds. The [**HIWORD**](../winmsg/hiword.md) must be zero.
 
 </dd> </dl>
 

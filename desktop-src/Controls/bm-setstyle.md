@@ -34,7 +34,7 @@ The button style. This parameter can be a combination of button styles. For a ta
 *lParam* 
 </dt> <dd>
 
-The [**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) of *lParam* is a **BOOL** that specifies whether the button is to be redrawn. A value of **TRUE** redraws the button; a value of **FALSE** does not redraw the button.
+The [**LOWORD**](../winmsg/loword.md) of *lParam* is a **BOOL** that specifies whether the button is to be redrawn. A value of **TRUE** redraws the button; a value of **FALSE** does not redraw the button.
 
 </dd> </dl>
 

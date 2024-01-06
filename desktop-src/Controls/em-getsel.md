@@ -40,7 +40,7 @@ A pointer to a **DWORD** value that receives the position of the first unselecte
 
 ## Return value
 
-The return value is a zero-based value with the starting position of the selection in the [**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) and the position of the first **TCHAR** after the last selected **TCHAR** in the [**HIWORD**]([HIWORD macro](../winmsg/hiword.md)(v=vs.85)). If either of these values exceeds 65,535, the return value is -1.
+The return value is a zero-based value with the starting position of the selection in the [**LOWORD**](../winmsg/loword.md) and the position of the first **TCHAR** after the last selected **TCHAR** in the [**HIWORD**](../winmsg/hiword.md). If either of these values exceeds 65,535, the return value is -1.
 
 It is better to use the values returned in *wParam* and *lParam* because they are full 32-bit values.
 

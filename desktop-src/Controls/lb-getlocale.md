@@ -40,11 +40,11 @@ Not used; must be zero.
 
 ## Return value
 
-The return value specifies the current locale of the list box. The [**HIWORD**]([HIWORD macro](../winmsg/hiword.md)(v=vs.85)) contains the country/region code and the [**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) contains the language identifier.
+The return value specifies the current locale of the list box. The [**HIWORD**](../winmsg/hiword.md) contains the country/region code and the [**LOWORD**](../winmsg/loword.md) contains the language identifier.
 
 ## Remarks
 
-The language identifier consists of a sublanguage identifier and a primary language identifier. Use the [**PRIMARYLANGID**](/windows/desktop/api/winnt/nf-winnt-primarylangid) macro to extract the primary language identifier from the [**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) of the return value, and the [**SUBLANGID**](/windows/desktop/api/winnt/nf-winnt-sublangid) macro to extract the sublanguage identifier.
+The language identifier consists of a sublanguage identifier and a primary language identifier. Use the [**PRIMARYLANGID**](/windows/desktop/api/winnt/nf-winnt-primarylangid) macro to extract the primary language identifier from the [**LOWORD**](../winmsg/loword.md) of the return value, and the [**SUBLANGID**](/windows/desktop/api/winnt/nf-winnt-sublangid) macro to extract the sublanguage identifier.
 
 ## Requirements
 

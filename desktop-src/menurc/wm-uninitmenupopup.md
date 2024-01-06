@@ -68,7 +68,7 @@ If an application receives a [**WM\_INITMENUPOPUP**](wm-initmenupopup.md) messag
 **Reference**
 </dt> <dt>
 
-[**HIWORD**]([HIWORD macro](../winmsg/hiword.md)(v=vs.85))
+[**HIWORD**](../winmsg/hiword.md)
 </dt> <dt>
 
 **Conceptual**

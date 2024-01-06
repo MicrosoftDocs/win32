@@ -32,7 +32,7 @@ Gets the virtual key code and modifier flags of a hot key from a hot key control
 
 ## Return value
 
-Returns the virtual key code and modifier flags. The [**LOBYTE**](/previous-versions/windows/desktop/legacy/ms632658(v=vs.85)) of the [**LOWORD**](../winmsg/loword.md) is the virtual key code of the hot key. The [**HIBYTE**](../winmsg/hibyte.md) of the **LOWORD** is the key modifier that specifies the keys that define a hot key combination. The modifier flags can be a combination of the following values.
+Returns the virtual key code and modifier flags. The [**LOBYTE**](../winmsg/lobyte.md) of the [**LOWORD**](../winmsg/loword.md) is the virtual key code of the hot key. The [**HIBYTE**](../winmsg/hibyte.md) of the **LOWORD** is the key modifier that specifies the keys that define a hot key combination. The modifier flags can be a combination of the following values.
 
 | Value            | Meaning      |
 |------------------|--------------|

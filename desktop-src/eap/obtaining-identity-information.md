@@ -20,7 +20,8 @@ These functions may be implemented in the same DLL as the authentication protoco
 
 The [**RasEapGetIdentity**](/windows/desktop/api/Raseapif/nf-raseapif-raseapgetidentity) function typically displays a user interface (UI) to obtain identity information for the user. However, if the *dwFlags* parameter contains the RAS\_EAP\_FLAG\_NON\_INTERACTIVE flag, **RasEapGetIdentity** should not display a UI.
 
-If [**RasEapGetIdentity**](/windows/desktop/api/Raseapif/nf-raseapif-raseapgetidentity) does display a UI, the UI must support [**WM\_COMMAND**](../menurc/wm-command.md) messages where the value of [**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85))(*wParam*) is equal to IDCANCEL.
+If [**RasEapGetIdentity**](/windows/desktop/api/Raseapif/nf-raseapif-raseapgetidentity) does display a UI, the UI must support [**WM\_COMMAND**](../menurc/wm-command.md) messages where the value of [**LOWORD**](../winmsg/loword.md)
+(*wParam*) is equal to IDCANCEL.
 
 The authentication service calls [**RasEapGetIdentity**](/windows/desktop/api/Raseapif/nf-raseapif-raseapgetidentity) if the [RAS\_EAP\_VALUENAME\_INVOKE\_NAMEDLG](authentication-protocol-registry-values.md) value that is in the registry for this EAP is set to zero. If RAS\_EAP\_VALUENAME\_INVOKE\_NAMEDLG is not present, or is present and is set to one, the authentication service displays the standard system user name dialog box.
 

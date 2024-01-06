@@ -36,7 +36,7 @@ A **UINT** that specifies the timeout value for the scroll, in milliseconds.
 *lParam* 
 </dt> <dd>
 
-The [**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) is a **UINT** that specifies the number of lines to scroll per timeout. The [**HIWORD**]([HIWORD macro](../winmsg/hiword.md)(v=vs.85)) is a **UINT** that specifies the number of pixels per line.
+The [**LOWORD**](../winmsg/loword.md) is a **UINT** that specifies the number of lines to scroll per timeout. The [**HIWORD**](../winmsg/hiword.md) is a **UINT** that specifies the number of pixels per line.
 
 </dd> </dl>
 

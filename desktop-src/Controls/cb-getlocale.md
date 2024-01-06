@@ -40,7 +40,7 @@ Not used; must be zero.
 
 ## Return value
 
-The return value specifies the current locale of the combo box. The [**HIWORD**]([HIWORD macro](../winmsg/hiword.md)(v=vs.85)) contains the country/region code and the [**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) contains the language identifier.
+The return value specifies the current locale of the combo box. The [**HIWORD**](../winmsg/hiword.md) contains the country/region code and the [**LOWORD**](../winmsg/loword.md) contains the language identifier.
 
 ## Remarks
 
@@ -74,10 +74,10 @@ The language identifier is made up of a sublanguage identifier and a primary lan
 **Other Resources**
 </dt> <dt>
 
-[**HIWORD**]([HIWORD macro](../winmsg/hiword.md)(v=vs.85))
+[**HIWORD**](../winmsg/hiword.md)
 </dt> <dt>
 
-[**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85))
+[**LOWORD**](../winmsg/loword.md)
 </dt> <dt>
 
 [**PRIMARYLANGID**](/windows/desktop/api/winnt/nf-winnt-primarylangid)

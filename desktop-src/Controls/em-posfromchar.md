@@ -46,7 +46,7 @@ Retrieves the client area coordinates of a specified character in an edit contro
 
 **Rich Edit 1.0 and 3.0:** The return value is not used.
 
-**Edit controls and Rich Edit 2.0:** The return value contains the client area coordinates of the character. The [**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) contains the horizontal coordinate and the [**HIWORD**]([HIWORD macro](../winmsg/hiword.md)(v=vs.85)) contains the vertical coordinate.
+**Edit controls and Rich Edit 2.0:** The return value contains the client area coordinates of the character. The [**LOWORD**](../winmsg/loword.md) contains the horizontal coordinate and the [**HIWORD**](../winmsg/hiword.md) contains the vertical coordinate.
 
 ## Remarks
 

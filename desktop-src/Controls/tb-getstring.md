@@ -29,7 +29,7 @@ Retrieves a string from a toolbar's string pool.
 *wParam* 
 </dt> <dd>
 
-The [**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) specifies the length of the *lParam* buffer, in bytes. The [**HIWORD**]([HIWORD macro](../winmsg/hiword.md)(v=vs.85)) specifies the index of the string.
+The [**LOWORD**](../winmsg/loword.md) specifies the length of the *lParam* buffer, in bytes. The [**HIWORD**](../winmsg/hiword.md) specifies the index of the string.
 
 </dd> <dt>
 

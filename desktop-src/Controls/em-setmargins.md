@@ -46,13 +46,13 @@ The margins to set. This parameter can be one or more of the following values.
 *lParam* 
 </dt> <dd>
 
-The [**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) specifies the new width of the left margin, in pixels. This value is ignored if *wParam* does not include **EC\_LEFTMARGIN**.
+The [**LOWORD**](../winmsg/loword.md) specifies the new width of the left margin, in pixels. This value is ignored if *wParam* does not include **EC\_LEFTMARGIN**.
 
-**Edit controls and Rich Edit 3.0 and later:** The [**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) can specify the **EC\_USEFONTINFO** value to set the left margin to a narrow width calculated using the text metrics of the control's current font. If no font has been set for the control, the margin is set to zero.
+**Edit controls and Rich Edit 3.0 and later:** The [**LOWORD**](../winmsg/loword.md) can specify the **EC\_USEFONTINFO** value to set the left margin to a narrow width calculated using the text metrics of the control's current font. If no font has been set for the control, the margin is set to zero.
 
-The [**HIWORD**]([HIWORD macro](../winmsg/hiword.md)(v=vs.85)) specifies the new width of the right margin, in pixels. This value is ignored if *wParam* does not include **EC\_RIGHTMARGIN**.
+The [**HIWORD**](../winmsg/hiword.md) specifies the new width of the right margin, in pixels. This value is ignored if *wParam* does not include **EC\_RIGHTMARGIN**.
 
-**Edit controls and Rich Edit 3.0 and later:** The [**HIWORD**]([HIWORD macro](../winmsg/hiword.md)(v=vs.85)) can specify the **EC\_USEFONTINFO** value to set the right margin to a narrow width calculated using the text metrics of the control's current font. If no font has been set for the control, the margin is set to zero.
+**Edit controls and Rich Edit 3.0 and later:** The [**HIWORD**](../winmsg/hiword.md) can specify the **EC\_USEFONTINFO** value to set the right margin to a narrow width calculated using the text metrics of the control's current font. If no font has been set for the control, the margin is set to zero.
 
 </dd> </dl>
 

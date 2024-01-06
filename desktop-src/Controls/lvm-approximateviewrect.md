@@ -34,15 +34,15 @@ The number of items to be displayed in the control. If this parameter is set to 
 *lParam* 
 </dt> <dd>
 
-The [**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) is the proposed x-dimension of the control, in pixels. This parameter can be set to -1 to allow the message to use the current width value.
+The [**LOWORD**](../winmsg/loword.md) is the proposed x-dimension of the control, in pixels. This parameter can be set to -1 to allow the message to use the current width value.
 
-The [**HIWORD**]([HIWORD macro](../winmsg/hiword.md)(v=vs.85)) is the proposed y-dimension of the control, in pixels. This parameter can be set to -1 to allow the message to use the current height value.
+The [**HIWORD**](../winmsg/hiword.md) is the proposed y-dimension of the control, in pixels. This parameter can be set to -1 to allow the message to use the current height value.
 
 </dd> </dl>
 
 ## Return value
 
-Returns a **DWORD** value that holds the approximate width (in the [**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85))) and height (in the [**HIWORD**]([HIWORD macro](../winmsg/hiword.md)(v=vs.85))) needed to display the items, in pixels.
+Returns a **DWORD** value that holds the approximate width (in the [**LOWORD**](../winmsg/loword.md)) and height (in the [**HIWORD**](../winmsg/hiword.md)) needed to display the items, in pixels.
 
 ## Remarks
 

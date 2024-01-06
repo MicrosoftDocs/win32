@@ -40,7 +40,7 @@ A pointer to a **DWORD** value that receives the ending position of the selectio
 
 ## Return value
 
-The return value is a zero-based **DWORD** value with the starting position of the selection in the [**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) and with the ending position of the first character after the last selected character in the [**HIWORD**]([HIWORD macro](../winmsg/hiword.md)(v=vs.85)).
+The return value is a zero-based **DWORD** value with the starting position of the selection in the [**LOWORD**](../winmsg/loword.md) and with the ending position of the first character after the last selected character in the [**HIWORD**](../winmsg/hiword.md).
 
 ## Examples
 
@@ -87,10 +87,10 @@ end = HIWORD(range);
 **Other Resources**
 </dt> <dt>
 
-[**HIWORD**]([HIWORD macro](../winmsg/hiword.md)(v=vs.85))
+[**HIWORD**](../winmsg/hiword.md)
 </dt> <dt>
 
-[**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85))
+[**LOWORD**](../winmsg/loword.md)
 </dt> </dl>
 
  

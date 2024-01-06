@@ -40,7 +40,7 @@ Maximum range value. This value must be greater than *wParam*. By default, the m
 
 ## Return value
 
-Returns a **DWORD** value that holds the previous 16-bit low limit in its [**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) and the previous 16-bit high limit in its [**HIWORD**]([HIWORD macro](../winmsg/hiword.md)(v=vs.85)). If the previous ranges were 32-bit values, the return value consists of the **LOWORD**s of both 32-bit limits.
+Returns a **DWORD** value that holds the previous 16-bit low limit in its [**LOWORD**](../winmsg/loword.md) and the previous 16-bit high limit in its [**HIWORD**](../winmsg/hiword.md). If the previous ranges were 32-bit values, the return value consists of the **LOWORD**s of both 32-bit limits.
 
 ## Remarks
 
