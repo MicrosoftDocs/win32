@@ -1,6 +1,6 @@
 ---
 title: HIWORD macro (minwindef.h)
-description: Retrieves the high-order byte from the given 16-bit value.
+description: Retrieves the high-order word from the specified 32-bit value.
 keywords: 
 - HIWORD, _HIWORD, _HIWORD macro, minwindef/_HIWORD
 topic_type:
