@@ -136,14 +136,14 @@ A window shares the screen with other windows, including those from other applic
 |----------------------------------------|-----------------------------------------------------------------------------------------------------------------------------|
 | [**GET\_X\_LPARAM**](/windows/win32/api/windowsx/nf-windowsx-get_x_lparam) | Retrieves the signed x-coordinate from the given **LPARAM** value.<br/>                                               |
 | [**GET\_Y\_LPARAM**](/windows/win32/api/windowsx/nf-windowsx-get_y_lparam) | Retrieves the signed y-coordinate from the given **LPARAM** value.<br/>                                               |
-| [**HIBYTE**](/previous-versions/windows/desktop/legacy/ms632656(v=vs.85))               | Retrieves the high-order byte from the given 16-bit value. <br/>                                                      |
-| [**HIWORD**](/previous-versions/windows/desktop/legacy/ms632657(v=vs.85))               | Retrieves the high-order word from the given 32-bit value. <br/>                                                      |
-| [**LOBYTE**](/previous-versions/windows/desktop/legacy/ms632658(v=vs.85))               | Retrieves the low-order byte from the specified value. <br/>                                                          |
-| [**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85))               | Retrieves the low-order word from the specified value. <br/>                                                          |
-| [**MAKELONG**](/previous-versions/windows/desktop/legacy/ms632660(v=vs.85))           | Creates a **LONG** value by concatenating the specified values. <br/>                                                 |
+| [**HIBYTE**](hibyte.md)               | Retrieves the high-order byte from the given 16-bit value. <br/>                                                      |
+| [**HIWORD**](hiword.md)               | Retrieves the high-order word from the given 32-bit value. <br/>                                                      |
+| [**LOBYTE**](lobyte.md)               | Retrieves the low-order byte from the specified value. <br/>                                                          |
+| [**LOWORD**](loword.md)               | Retrieves the low-order word from the specified value. <br/>                                                          |
+| [**MAKELONG**](makelong.md)           | Creates a **LONG** value by concatenating the specified values. <br/>                                                 |
 | [**MAKELPARAM**](/windows/win32/api/winuser/nf-winuser-makelparam)       | Creates a value for use as an *lParam* parameter in a message. The macro concatenates the specified values. <br/>     |
 | [**MAKELRESULT**](/windows/win32/api/winuser/nf-winuser-makelresult)     | Creates a value for use as a return value from a window procedure. The macro concatenates the specified values. <br/> |
-| [**MAKEWORD**](/previous-versions/windows/desktop/legacy/ms632663(v=vs.85))           | Creates a **WORD** value by concatenating the specified values. <br/>                                                 |
+| [**MAKEWORD**](makeword.md)           | Creates a **WORD** value by concatenating the specified values. <br/>                                                 |
 | [**MAKEWPARAM**](/windows/win32/api/winuser/nf-winuser-makewparam)       | Creates a value for use as a *wParam* parameter in a message. The macro concatenates the specified values.<br/>       |
 
 

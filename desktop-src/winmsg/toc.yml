@@ -226,21 +226,21 @@
         - name: "GET_MOUSEORKEY_LPARAM"
           href: nf-winuser-get_mouseorkey_lparam.md
         - name: "HIBYTE"
-          href: /previous-versions/windows/desktop/legacy/ms632656(v=vs.85)
+          href: hibyte.md 
         - name: "HIWORD"
-          href: /previous-versions/windows/desktop/legacy/ms632657(v=vs.85)
+          href: hiword.md
         - name: "LOBYTE"
-          href: /previous-versions/windows/desktop/legacy/ms632658(v=vs.85)
+          href: lobyte.md
         - name: "LOWORD"
-          href: /previous-versions/windows/desktop/legacy/ms632659(v=vs.85)
+          href: loword.md
         - name: "MAKELONG"
-          href: /previous-versions/windows/desktop/legacy/ms632660(v=vs.85)
+          href: makelong.md
         - name: "MAKELPARAM"
           href: /windows/desktop/api/winuser/nf-winuser-makelparam
         - name: "MAKELRESULT"
           href: /windows/desktop/api/winuser/nf-winuser-makelresult
         - name: "MAKEWORD"
-          href: /previous-versions/windows/desktop/legacy/ms632663(v=vs.85)
+          href: makeword.md
         - name: "MAKEWPARAM"
           href: /windows/desktop/api/winuser/nf-winuser-makewparam
       - name: "Window Messages"

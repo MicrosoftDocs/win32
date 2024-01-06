@@ -34,15 +34,15 @@ This parameter is not used.
 *lParam* 
 </dt> <dd>
 
-The [**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) specifies the x-coordinate of a point, relative to the upper-left corner of the client area of the list box.
+The [**LOWORD**](../winmsg/loword.md) specifies the x-coordinate of a point, relative to the upper-left corner of the client area of the list box.
 
-The [**HIWORD**](/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)) specifies the y-coordinate of a point, relative to the upper-left corner of the client area of the list box.
+The [**HIWORD**](../winmsg/hiword.md) specifies the y-coordinate of a point, relative to the upper-left corner of the client area of the list box.
 
 </dd> </dl>
 
 ## Return value
 
-The return value contains the index of the nearest item in the [**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)). The [**HIWORD**](/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)) is zero if the specified point is in the client area of the list box, or one if it is outside the client area.
+The return value contains the index of the nearest item in the [**LOWORD**](../winmsg/loword.md). The [**HIWORD**](../winmsg/hiword.md) is zero if the specified point is in the client area of the list box, or one if it is outside the client area.
 
 ## Requirements
 
