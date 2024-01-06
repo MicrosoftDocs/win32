@@ -27,7 +27,7 @@ This section discusses the following topics.
 
 A window procedure is a function that has four parameters and returns a signed value. The parameters consist of a window handle, a **UINT** message identifier, and two message parameters declared with the **WPARAM** and **LPARAM** data types. For more information, see [**WindowProc**](/windows/win32/api/winuser/nc-winuser-wndproc).
 
-Message parameters often contain information in both their low-order and high-order words. There are several macros an application can use to extract information from the message parameters. The [**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) macro, for example, extracts the low-order word (bits 0 through 15) from a message parameter. Other macros include [**HIWORD**](/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)), [**LOBYTE**](/previous-versions/windows/desktop/legacy/ms632658(v=vs.85)), and [**HIBYTE**](/previous-versions/windows/desktop/legacy/ms632656(v=vs.85)).
+Message parameters often contain information in both their low-order and high-order words. There are several macros an application can use to extract information from the message parameters. The [**LOWORD**](loword.md) macro, for example, extracts the low-order word (bits 0 through 15) from a message parameter. Other macros include [**HIWORD**](hiword.md), [**LOBYTE**](lobyte.md), and [HIBYTE macro](hibyte.md).
 
 The interpretation of the return value depends on the particular message. Consult the description of each message to determine the appropriate return value.
 

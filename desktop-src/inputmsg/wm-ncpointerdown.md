@@ -45,7 +45,7 @@ Contains the pointer identifier and additional information. Use the following ma
 
 [**GET_POINTERID_WPARAM**](/windows/win32/api/winuser/nf-winuser-get_pointerid_wparam)(wParam): pointer identifier.
 
-[**HIWORD**](/previous-versions/windows/desktop/legacy/ms632657(v=vs.85))(wParam): hit-test value returned from processing the [**WM_NCHITTEST**](../inputdev/wm-nchittest.md) message.
+[**HIWORD**](../winmsg/hiword.md)(wParam): hit-test value returned from processing the [**WM_NCHITTEST**](../inputdev/wm-nchittest.md) message.
 
 </dd> <dt>
 
