@@ -177,7 +177,7 @@ The **Data** member is a **DWORD** with a value from the **MONITOR_DISPLAY_STATE
 **PowerMonitorDim** (2) - The display is dimmed.
 
 > [!Note]
-> All applications that run in an interactive user-mode session should use this setting. When kernel-mode applications register for monitoring the status, they should use **GUID\_CONSOLE\_DISPLAY\_STATUS** instead.
+> All applications that run in an interactive user-mode session should use this setting. When kernel-mode applications register for monitoring the status, they should use **GUID\_CONSOLE\_DISPLAY\_STATE** instead.
 
 ---
 
