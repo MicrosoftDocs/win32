@@ -56,6 +56,9 @@ The **Data** member is a **DWORD** with a value from the **MONITOR_DISPLAY_STATE
 
 **PowerMonitorDim** (2) - The display is dimmed.
 
+> [!Note]
+> See also **GUID\_SESSION\_DISPLAY\_STATUS**.
+
 ---
 
 <span id="GUID_GLOBAL_USER_PRESENCE"></span>
