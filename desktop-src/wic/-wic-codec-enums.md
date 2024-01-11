@@ -3,7 +3,7 @@ title: WIC constants, enumerations, and flags
 description: This section contains information about the Windows Imaging Component (WIC) constants, enumerations, and flags.
 ms.assetid: a3f44919-bd55-48cf-9dc6-37de0059a639
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 01/11/2024
 ---
 
 # WIC constants, enumerations, and flags
@@ -12,73 +12,65 @@ This section contains information about the Windows Imaging Component (WIC) cons
 
 ## In this section
 
-
-
-| Topic                                                                                                              | Description                                                                                                                                                     |
-|--------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [WIC GUIDs and CLSIDs](-wic-guids-clsids.md)<br/>                                                           |                                                                                                                                                                 |
-| [Codec Error Codes](-wic-codec-error-codes.md)<br/>                                                         |                                                                                                                                                                 |
-| [Native Pixel Formats](-wic-codec-native-pixel-formats.md)<br/>                                             | This topic introduces the pixel formats provided by the WIC<br/>                                                                                          |
-| [**IWICDevelopRawNotificationCallback Constants**](-wic-codec-iwicdeveloprawnotification-constants.md)<br/> | Flags used to by [**IWICDevelopRawNotificationCallback**](/windows/desktop/api/Wincodec/nn-wincodec-iwicdeveloprawnotificationcallback) to indicate which members have changed.<br/> |
-| [**IWICJpegFrameDecode Constants**](iwicjpegframedecode-constants.md)<br/>                                  | Flags used by the [**WICJpegScanHeader**](/windows/desktop/api/wincodec/ns-wincodec-wicjpegscanheader) and [**WICJpegFrameHeader**](/windows/desktop/api/wincodec/ns-wincodec-wicjpegframeheader).<br/>                               |
-| [**WIC8BIMIptcDigestProperties**](/windows/desktop/api/Wincodec/ne-wincodec-wic8bimiptcdigestproperties)<br/>                           | Specifies the identifiers of the metadata items in an 8BIM IPTC digest metadata block.<br/>                                                               |
-| [**WIC8BIMIptcProperties**](/windows/desktop/api/Wincodec/ne-wincodec-wic8bimiptcproperties)<br/>                                       | Specifies the identifiers of the metadata items in an 8BIM IPTC block.<br/>                                                                               |
-| [**WIC8BIMResolutionInfoProperties**](/windows/desktop/api/Wincodec/ne-wincodec-wic8bimresolutioninfoproperties)<br/>                   | Specifies the identifiers of the metadata items in an 8BIMResolutionInfo block.<br/>                                                                      |
-| [**WICBitmapAlphaChannelOption**](/windows/desktop/api/Wincodec/ne-wincodec-wicbitmapalphachanneloption)<br/>                           | Specifies the desired alpha channel usage.<br/>                                                                                                           |
-| [**WICBitmapCreateCacheOption**](/windows/desktop/api/Wincodec/ne-wincodec-wicbitmapcreatecacheoption)<br/>                             | Specifies the desired cache usage.<br/>                                                                                                                   |
-| [**WICBitmapDecoderCapabilities**](/windows/desktop/api/Wincodec/ne-wincodec-wicbitmapdecodercapabilities)<br/>                         | Specifies the capabilities of the decoder.<br/>                                                                                                           |
-| [**WICBitmapDitherType**](/windows/desktop/api/Wincodec/ne-wincodec-wicbitmapdithertype)<br/>                                           | Specifies the type of [dither](/windows) algorithm to apply when converting between image formats.<br/>                                               |
-| [**WICBitmapEncoderCacheOption**](/windows/desktop/api/Wincodec/ne-wincodec-wicbitmapencodercacheoption)<br/>                           | Specifies the cache options available for an encoder.<br/>                                                                                                |
-| [**WICBitmapInterpolationMode**](/windows/desktop/api/Wincodec/ne-wincodec-wicbitmapinterpolationmode)<br/>                             | Specifies the sampling or filtering mode to use when scaling an image.<br/>                                                                               |
-| [**WICBitmapLockFlags**](/windows/desktop/api/Wincodec/ne-wincodec-wicbitmaplockflags)<br/>                                             | Specifies access to an [**IWICBitmap**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmap).<br/>                                                                                  |
-| [**WICBitmapPaletteType**](/windows/desktop/api/Wincodec/ne-wincodec-wicbitmappalettetype)<br/>                                         | Specifies the type of palette used for an indexed image format.<br/>                                                                                      |
-| [**WICBitmapTransformOptions**](/windows/desktop/api/Wincodec/ne-wincodec-wicbitmaptransformoptions)<br/>                               | Specifies the flip and rotation transforms.<br/>                                                                                                          |
-| [**WICColorContextType**](/windows/desktop/api/Wincodec/ne-wincodec-wiccolorcontexttype)<br/>                                           | Specifies the color context types.<br/>                                                                                                                   |
-| [**WICComponentEnumerateOptions**](/windows/desktop/api/Wincodec/ne-wincodec-wiccomponentenumerateoptions)<br/>                         | Specifies component enumeration options.<br/>                                                                                                             |
-| [**WICComponentSigning**](/windows/desktop/api/Wincodec/ne-wincodec-wiccomponentsigning)<br/>                                           | Specifies the component signing status.<br/>                                                                                                              |
-| [**WICComponentType**](/windows/desktop/api/Wincodec/ne-wincodec-wiccomponenttype)<br/>                                                 | Specifies the type of WIC component.<br/>                                                                                                                 |
-| [**WICDecodeOptions**](/windows/desktop/api/Wincodec/ne-wincodec-wicdecodeoptions)<br/>                                                 | Specifies decode options.<br/>                                                                                                                            |
-| [**WICDdsDimension**](/windows/desktop/api/Wincodec/ne-wincodec-wicddsdimension)<br/>                                                              | Specifies the dimension type of the data contained in DDS image.<br/>                                                                                     |
-| [**WICDdsAlphaMode**](/windows/desktop/api/Wincodec/ne-wincodec-wicddsalphamode)<br/>                                                              | Specifies the meaning of pixel color component values contained in the DDS image.<br/>                                                                |
-| [**WICGifApplicationExtensionProperties**](/windows/desktop/api/Wincodec/ne-wincodec-wicgifapplicationextensionproperties)<br/>         | Specifies the application extension metadata properties for a Graphics Interchange Format (GIF) image.<br/>                                               |
-| [**WICGifCommentExtensionProperties**](/windows/desktop/api/Wincodec/ne-wincodec-wicgifcommentextensionproperties)<br/>                 | Specifies the comment extension metadata properties for a GIF image.<br/>                                                                                 |
-| [**WICGifGraphicControlExtensionProperties**](/windows/desktop/api/Wincodec/ne-wincodec-wicgifgraphiccontrolextensionproperties)<br/>   | Specifies the graphic control extension metadata properties that define the transitions between each frame animation for GIF images.<br/>                 |
-| [**WICGifImageDescriptorProperties**](/windows/desktop/api/Wincodec/ne-wincodec-wicgifimagedescriptorproperties)<br/>                   | Specifies the image descriptor metadata properties for GIF frames.<br/>                                                                                   |
-| [**WICGifLogicalScreenDescriptorProperties**](/windows/desktop/api/Wincodec/ne-wincodec-wicgiflogicalscreendescriptorproperties)<br/>   | Specifies the logical screen descriptor properties for GIF metadata.<br/>                                                                                 |
-| [**WICJpegCommentProperties**](/windows/desktop/api/Wincodec/ne-wincodec-wicjpegcommentproperties)<br/>                                 | Specifies the JPEG comment properties.<br/>                                                                                                               |
-| [**WICJpegChrominanceProperties**](/windows/desktop/api/Wincodec/ne-wincodec-wicjpegchrominanceproperties)<br/>                         | Specifies the JPEG chrominance table property.<br/>                                                                                                       |
-| [**WICJpegIndexingOptions**](/windows/desktop/api/wincodec/ne-wincodec-wicjpegindexingoptions)<br/>                                                | Specifies the options for indexing a JPEG image. <br/>                                                                                                    |
-| [**WICJpegLuminanceProperties**](/windows/desktop/api/Wincodec/ne-wincodec-wicjpegluminanceproperties)<br/>                             | Specifies the JPEG luminance table property.<br/>                                                                                                         |
-| [**WICJpegScanType**](/windows/desktop/api/wincodec/ne-wincodec-wicjpegscantype)<br/>                                                              | Specifies the memory layout of pixel data in a JPEG image scan. <br/>                                                                                     |
-| [**WICJpegTransferMatrix**](/windows/desktop/api/wincodec/ne-wincodec-wicjpegtransfermatrix)<br/>                                                  | Specifies conversion matrix from Y'Cb'Cr' to R'G'B'. <br/>                                                                                                |
-| [**WICJpegYCrCbSubsamplingOption**](/windows/desktop/api/Wincodec/ne-wincodec-wicjpegycrcbsubsamplingoption)<br/>                       | Specifies the JPEG YCrCB subsampling options. <br/>                                                                                                       |
-| [**WICMetadataCreationOptions**](/windows/desktop/api/Wincodecsdk/ne-wincodecsdk-wicmetadatacreationoptions)<br/>                             | Specifies metadata creation options.<br/>                                                                                                                 |
-| [**WICNamedWhitePoint**](/windows/desktop/api/Wincodec/ne-wincodec-wicnamedwhitepoint)<br/>                                             | Specifies named white balances for raw images.<br/>                                                                                                       |
-| [**WICPersistOptions**](/windows/desktop/api/Wincodecsdk/ne-wincodecsdk-wicpersistoptions)<br/>                                               | Specifies WIC options that are used when initializing a component with a stream.<br/>                                                                     |
-| [**WICPixelFormatNumericRepresentation**](/windows/desktop/api/Wincodec/ne-wincodec-wicpixelformatnumericrepresentation)<br/>           |                                                                                                                                                                 |
-| [**WICPlanarOptions**](/windows/desktop/api/Wincodec/ne-wincodec-wicplanaroptions)<br/>                                                            | Specifies additional options to an [**IWICPlanarBitmapSourceTransform**](/windows/desktop/api/Wincodec/nn-wincodec-iwicplanarbitmapsourcetransform) implementation. <br/>                       |
-| [**WICProgressOperation**](/windows/desktop/api/Wincodec/ne-wincodec-wicprogressoperation)<br/>                                         | Specifies the progress operations to receive notifications for.<br/>                                                                                      |
-| [**WICPngBkgdProperties**](/windows/desktop/api/Wincodec/ne-wincodec-wicpngbkgdproperties)<br/>                                         | Specifies the Portable Network Graphics (PNG) background (bKGD) chunk metadata properties.<br/>                                                           |
-| [**WICPngChrmProperties**](/windows/desktop/api/Wincodec/ne-wincodec-wicpngchrmproperties)<br/>                                         | Specifies the PNG cHRM chunk metadata properties for CIE XYZ chromaticity.<br/>                                                                           |
-| [**WICPngFilterOption**](/windows/desktop/api/Wincodec/ne-wincodec-wicpngfilteroption)<br/>                                             | Specifies the PNG filters available for compression optimization.<br/>                                                                                    |
-| [**WICPngGamaProperties**](/windows/desktop/api/Wincodec/ne-wincodec-wicpnggamaproperties)<br/>                                         | Specifies the PNG gAMA chunk metadata properties.<br/>                                                                                                    |
-| [**WICPngHistProperties**](/windows/desktop/api/Wincodec/ne-wincodec-wicpnghistproperties)<br/>                                         | Specifies the PNG hIST chunk metadata properties.<br/>                                                                                                    |
-| [**WICPngIccpProperties**](/windows/desktop/api/Wincodec/ne-wincodec-wicpngiccpproperties)<br/>                                         | Specifies the PNG iCCP chunk metadata properties.<br/>                                                                                                    |
-| [**WICPngItxtProperties**](/windows/desktop/api/Wincodec/ne-wincodec-wicpngitxtproperties)<br/>                                         | Specifies the PNG iTXT chunk metadata properties.<br/>                                                                                                    |
-| [**WICPngSrgbProperties**](/windows/desktop/api/Wincodec/ne-wincodec-wicpngsrgbproperties)<br/>                                         | Specifies the PNG sRGB chunk metadata properties.<br/>                                                                                                    |
-| [**WICPngTimeProperties**](/windows/desktop/api/Wincodec/ne-wincodec-wicpngtimeproperties)<br/>                                         | Specifies the PNG tIME chunk metadata properties.<br/>                                                                                                    |
-| [**WICProgressNotification**](/windows/desktop/api/Wincodec/ne-wincodec-wicprogressnotification)<br/>                                   | Specifies when the progress notification callback should be called.<br/>                                                                                  |
-| [Native WIC Codecs](native-wic-codecs.md)<br/>                                                              | This section contains information about the native imaging codecs available in WIC.<br/>                                                                  |
-| [**WICRawCapabilities**](/windows/desktop/api/Wincodec/ne-wincodec-wicrawcapabilities)<br/>                                             | Specifies the capability support of a raw image.<br/>                                                                                                     |
-| [**WICRawParameterSet**](/windows/desktop/api/Wincodec/ne-wincodec-wicrawparameterset)<br/>                                             | Specifies the parameter set used by a raw codec.<br/>                                                                                                     |
-| [**WICRawRenderMode**](/windows/desktop/api/Wincodec/ne-wincodec-wicrawrendermode)<br/>                                                 | Specifies the render intent of the next [**CopyPixels**](/windows/desktop/api/Wincodec/nf-wincodec-iwicbitmapsource-copypixels) call. <br/>                                          |
-| [**WICRawRotationCapabilities**](/windows/desktop/api/Wincodec/ne-wincodec-wicrawrotationcapabilities)<br/>                             | Specifies the rotation capabilities of the codec.<br/>                                                                                                    |
-| [**WICSectionAccessLevel**](/windows/desktop/api/Wincodec/ne-wincodec-wicsectionaccesslevel)<br/>                                       | Specifies the access level of a Windows Graphics Device Interface (GDI) section.<br/>                                                                     |
-| [**WICTiffCompressionOption**](/windows/desktop/api/Wincodec/ne-wincodec-wictiffcompressionoption)<br/>                                 | Specifies the Tagged Image File Format (TIFF) compression options.<br/>                                                                                   |
-
-
-
- 
-
- 
-
+| Topic | Description |
+|-|-|
+| [WIC GUIDs and CLSIDs](-wic-guids-clsids.md) | |
+| [Codec Error Codes](-wic-codec-error-codes.md) | |
+| [Native Pixel Formats](-wic-codec-native-pixel-formats.md) | This topic introduces the pixel formats provided by the WIC |
+| [Native WIC Codecs](native-wic-codecs.md) | This section contains information about the native imaging codecs available in WIC. |
+| [**IWICDevelopRawNotificationCallback Constants**](-wic-codec-iwicdeveloprawnotification-constants.md) | Flags used to by [**IWICDevelopRawNotificationCallback**](/windows/win32/api/wincodec/nn-wincodec-iwicdeveloprawnotificationcallback) to indicate which members have changed. |
+| [**IWICJpegFrameDecode Constants**](iwicjpegframedecode-constants.md) | Flags used by the [**WICJpegScanHeader**](/windows/win32/api/wincodec/ns-wincodec-wicjpegscanheader) and [**WICJpegFrameHeader**](/windows/win32/api/wincodec/ns-wincodec-wicjpegframeheader). |
+| [**WIC8BIMIptcDigestProperties**](/windows/win32/api/wincodec/ne-wincodec-wic8bimiptcdigestproperties) | Specifies the identifiers of the metadata items in an 8BIM IPTC digest metadata block. |
+| [**WIC8BIMIptcProperties**](/windows/win32/api/wincodec/ne-wincodec-wic8bimiptcproperties) | Specifies the identifiers of the metadata items in an 8BIM IPTC block. |
+| [**WIC8BIMResolutionInfoProperties**](/windows/win32/api/wincodec/ne-wincodec-wic8bimresolutioninfoproperties) | Specifies the identifiers of the metadata items in an 8BIMResolutionInfo block. |
+| [**WICBitmapAlphaChannelOption**](/windows/win32/api/wincodec/ne-wincodec-wicbitmapalphachanneloption) | Specifies the desired alpha channel usage. |
+| [**WICBitmapCreateCacheOption**](/windows/win32/api/wincodec/ne-wincodec-wicbitmapcreatecacheoption) | Specifies the desired cache usage. |
+| [**WICBitmapDecoderCapabilities**](/windows/win32/api/wincodec/ne-wincodec-wicbitmapdecodercapabilities) | Specifies the capabilities of the decoder. |
+| [**WICBitmapDitherType**](/windows/win32/api/wincodec/ne-wincodec-wicbitmapdithertype) | Specifies the type of [dither](/windows) algorithm to apply when converting between image formats. |
+| [**WICBitmapEncoderCacheOption**](/windows/win32/api/wincodec/ne-wincodec-wicbitmapencodercacheoption) | Specifies the cache options available for an encoder. |
+| [**WICBitmapInterpolationMode**](/windows/win32/api/wincodec/ne-wincodec-wicbitmapinterpolationmode) | Specifies the sampling or filtering mode to use when scaling an image. |
+| [**WICBitmapLockFlags**](/windows/win32/api/wincodec/ne-wincodec-wicbitmaplockflags) | Specifies access to an [**IWICBitmap**](/windows/win32/api/wincodec/nn-wincodec-iwicbitmap). |
+| [**WICBitmapPaletteType**](/windows/win32/api/wincodec/ne-wincodec-wicbitmappalettetype) | Specifies the type of palette used for an indexed image format. |
+| [**WICBitmapTransformOptions**](/windows/win32/api/wincodec/ne-wincodec-wicbitmaptransformoptions) | Specifies the flip and rotation transforms. |
+| [**WICColorContextType**](/windows/win32/api/wincodec/ne-wincodec-wiccolorcontexttype) | Specifies the color context types. |
+| [**WICComponentEnumerateOptions**](/windows/win32/api/wincodec/ne-wincodec-wiccomponentenumerateoptions) | Specifies component enumeration options. |
+| [**WICComponentSigning**](/windows/win32/api/wincodec/ne-wincodec-wiccomponentsigning) | Specifies the component signing status. |
+| [**WICComponentType**](/windows/win32/api/wincodec/ne-wincodec-wiccomponenttype) | Specifies the type of WIC component. |
+| [**WICDecodeOptions**](/windows/win32/api/wincodec/ne-wincodec-wicdecodeoptions) | Specifies decode options. |
+| [**WICDdsDimension**](/windows/win32/api/wincodec/ne-wincodec-wicddsdimension) | Specifies the dimension type of the data contained in DDS image. |
+| [**WICDdsAlphaMode**](/windows/win32/api/wincodec/ne-wincodec-wicddsalphamode) | Specifies the meaning of pixel color component values contained in the DDS image. |
+| [**WICGifApplicationExtensionProperties**](/windows/win32/api/wincodec/ne-wincodec-wicgifapplicationextensionproperties) | Specifies the application extension metadata properties for a Graphics Interchange Format (GIF) image. |
+| [**WICGifCommentExtensionProperties**](/windows/win32/api/wincodec/ne-wincodec-wicgifcommentextensionproperties) | Specifies the comment extension metadata properties for a GIF image. |
+| [**WICGifGraphicControlExtensionProperties**](/windows/win32/api/wincodec/ne-wincodec-wicgifgraphiccontrolextensionproperties) | Specifies the graphic control extension metadata properties that define the transitions between each frame animation for GIF images. |
+| [**WICGifImageDescriptorProperties**](/windows/win32/api/wincodec/ne-wincodec-wicgifimagedescriptorproperties) | Specifies the image descriptor metadata properties for GIF frames. |
+| [**WICGifLogicalScreenDescriptorProperties**](/windows/win32/api/wincodec/ne-wincodec-wicgiflogicalscreendescriptorproperties) | Specifies the logical screen descriptor properties for GIF metadata. |
+| [**WICHeifCompressionOption**](/windows/win32/api/wincodec/ne-wincodec-wicheifcompressionoption) | Defines constants that specify High Efficiency Image Format (HEIF) compression options. Allows you to choose which compression format to use when creating a HEIF image file. |
+| [**WICJpegCommentProperties**](/windows/win32/api/wincodec/ne-wincodec-wicjpegcommentproperties) | Specifies the JPEG comment properties. |
+| [**WICJpegChrominanceProperties**](/windows/win32/api/wincodec/ne-wincodec-wicjpegchrominanceproperties) | Specifies the JPEG chrominance table property. |
+| [**WICJpegIndexingOptions**](/windows/win32/api/wincodec/ne-wincodec-wicjpegindexingoptions) | Specifies the options for indexing a JPEG image.  |
+| [**WICJpegLuminanceProperties**](/windows/win32/api/wincodec/ne-wincodec-wicjpegluminanceproperties) | Specifies the JPEG luminance table property. |
+| [**WICJpegScanType**](/windows/win32/api/wincodec/ne-wincodec-wicjpegscantype) | Specifies the memory layout of pixel data in a JPEG image scan.  |
+| [**WICJpegTransferMatrix**](/windows/win32/api/wincodec/ne-wincodec-wicjpegtransfermatrix) | Specifies conversion matrix from Y'Cb'Cr' to R'G'B'.  |
+| [**WICJpegYCrCbSubsamplingOption**](/windows/win32/api/wincodec/ne-wincodec-wicjpegycrcbsubsamplingoption) | Specifies the JPEG YCrCB subsampling options.  |
+| [**WICMetadataCreationOptions**](/windows/win32/api/Wincodecsdk/ne-wincodecsdk-wicmetadatacreationoptions) | Specifies metadata creation options. |
+| [**WICNamedWhitePoint**](/windows/win32/api/wincodec/ne-wincodec-wicnamedwhitepoint) | Specifies named white balances for raw images. |
+| [**WICPersistOptions**](/windows/win32/api/Wincodecsdk/ne-wincodecsdk-wicpersistoptions) | Specifies WIC options that are used when initializing a component with a stream. |
+| [**WICPixelFormatNumericRepresentation**](/windows/win32/api/wincodec/ne-wincodec-wicpixelformatnumericrepresentation) | |
+| [**WICPlanarOptions**](/windows/win32/api/wincodec/ne-wincodec-wicplanaroptions) | Specifies additional options to an [**IWICPlanarBitmapSourceTransform**](/windows/win32/api/wincodec/nn-wincodec-iwicplanarbitmapsourcetransform) implementation.  |
+| [**WICProgressOperation**](/windows/win32/api/wincodec/ne-wincodec-wicprogressoperation) | Specifies the progress operations to receive notifications for. |
+| [**WICPngBkgdProperties**](/windows/win32/api/wincodec/ne-wincodec-wicpngbkgdproperties) | Specifies the Portable Network Graphics (PNG) background (bKGD) chunk metadata properties. |
+| [**WICPngChrmProperties**](/windows/win32/api/wincodec/ne-wincodec-wicpngchrmproperties) | Specifies the PNG cHRM chunk metadata properties for CIE XYZ chromaticity. |
+| [**WICPngFilterOption**](/windows/win32/api/wincodec/ne-wincodec-wicpngfilteroption) | Specifies the PNG filters available for compression optimization. |
+| [**WICPngGamaProperties**](/windows/win32/api/wincodec/ne-wincodec-wicpnggamaproperties) | Specifies the PNG gAMA chunk metadata properties. |
+| [**WICPngHistProperties**](/windows/win32/api/wincodec/ne-wincodec-wicpnghistproperties) | Specifies the PNG hIST chunk metadata properties. |
+| [**WICPngIccpProperties**](/windows/win32/api/wincodec/ne-wincodec-wicpngiccpproperties) | Specifies the PNG iCCP chunk metadata properties. |
+| [**WICPngItxtProperties**](/windows/win32/api/wincodec/ne-wincodec-wicpngitxtproperties) | Specifies the PNG iTXT chunk metadata properties. |
+| [**WICPngSrgbProperties**](/windows/win32/api/wincodec/ne-wincodec-wicpngsrgbproperties) | Specifies the PNG sRGB chunk metadata properties. |
+| [**WICPngTimeProperties**](/windows/win32/api/wincodec/ne-wincodec-wicpngtimeproperties) | Specifies the PNG tIME chunk metadata properties. |
+| [**WICProgressNotification**](/windows/win32/api/wincodec/ne-wincodec-wicprogressnotification) | Specifies when the progress notification callback should be called. |
+| [**WICRawCapabilities**](/windows/win32/api/wincodec/ne-wincodec-wicrawcapabilities) | Specifies the capability support of a raw image. |
+| [**WICRawParameterSet**](/windows/win32/api/wincodec/ne-wincodec-wicrawparameterset) | Specifies the parameter set used by a raw codec. |
+| [**WICRawRenderMode**](/windows/win32/api/wincodec/ne-wincodec-wicrawrendermode) | Specifies the render intent of the next [**CopyPixels**](/windows/win32/api/wincodec/nf-wincodec-iwicbitmapsource-copypixels) call.  |
+| [**WICRawRotationCapabilities**](/windows/win32/api/wincodec/ne-wincodec-wicrawrotationcapabilities) | Specifies the rotation capabilities of the codec. |
+| [**WICSectionAccessLevel**](/windows/win32/api/wincodec/ne-wincodec-wicsectionaccesslevel) | Specifies the access level of a Windows Graphics Device Interface (GDI) section. |
+| [**WICTiffCompressionOption**](/windows/win32/api/wincodec/ne-wincodec-wictiffcompressionoption) | Specifies the Tagged Image File Format (TIFF) compression options. |
