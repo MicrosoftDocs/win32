@@ -24,9 +24,9 @@ Declaring a constant buffer or a texture buffer looks very much like a structure
 
 
 
-|                                                                                                                         |
-|-------------------------------------------------------------------------------------------------------------------------|
-| *BufferType* \[*Name*\] \[: **register**(b\#)\] {     *VariableDeclaration* \[: **packoffset**(c\#.xyzw)\];      ... }; |
+|                                                                                                                     |
+|---------------------------------------------------------------------------------------------------------------------|
+| *BufferType* *Name* \[: **register**(b\#)\] {     *VariableDeclaration* \[: **packoffset**(c\#.xyzw)\];      ... }; |
 
 
 
@@ -57,7 +57,7 @@ Declaring a constant buffer or a texture buffer looks very much like a structure
 <span id="Name"></span><span id="name"></span><span id="NAME"></span>*Name*
 </dt> <dd>
 
-\[in\] Optional, ASCII string containing a unique buffer name.
+\[in\] ASCII string containing a unique buffer name.
 
 </dd> <dt>
 
