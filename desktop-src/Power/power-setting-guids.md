@@ -132,6 +132,22 @@ For general information about battery saver, see [battery saver (in the hardware
 
 ---
 
+<span id="GUID_ENERGY_SAVER_STATUS"></span>
+<span id="guid_energy_saver_status"></span>
+**GUID\_ENERGY\_SAVER\_STATUS** (550E8400-E29B-41D4-A716-446655440000)
+
+Energy saver status has changed between off, Standard, or High Savings mode. This notification is useful for components that participate in energy conservation. These applications should register for this notification and save power to different degrees depending on what energy saver mode is in effect.
+
+The **Data** member is a **DWORD** with values from the ENERGY_SAVER_STATUS enumeration that indicates the current energy saver status:
+
+ENERGY_SAVER_OFF - Energy saver is off.
+
+ENERGY_SAVER_STANDARD - Energy saver is in Standard mode. Save energy if the user experience impact is minimal. 
+
+ENERGY_SAVER_HIGH_SAVINGS - Energy saver is in High Savings mode. Save energy where possible. 
+
+---
+
 <span id="GUID_POWERSCHEME_PERSONALITY"></span>
 <span id="guid_powerscheme_personality"></span>
 **GUID\_POWERSCHEME\_PERSONALITY** (245D8541-3943-4422-B025-13A784F679B7)
