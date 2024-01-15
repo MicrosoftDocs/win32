@@ -131,7 +131,7 @@ You could pack an array more aggressively. For instance, given an array of float
 
 
 ```
-float4 array[16];
+float array[64];
 ```
 
 
@@ -140,7 +140,7 @@ You could choose to pack it like this, without any spaces in the array:
 
 
 ```
-static float2 aggressivePackArray[32] = (float2[32])array;  
+float4 aggressivelyPackedArray[16];  
 ```
 
 
