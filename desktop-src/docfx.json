@@ -47,7 +47,7 @@
         "Desktop"
       ],
       "titleSuffix": "Win32 apps",
-      "ms.service": "desktop",
+      "ms.service": "windows-api-desktop-tech",
       "ms.subservice": "desktop-environment",
       "ms.author": "jken",
       "author": "GrantMeStrength",
