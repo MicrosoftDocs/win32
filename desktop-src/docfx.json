@@ -47,8 +47,8 @@
         "Desktop"
       ],
       "titleSuffix": "Win32 apps",
-      "ms.prod": "desktop",
-      "ms.technology": "desktop-environment",
+      "ms.service": "windows-api-desktop-tech",
+      "ms.subservice": "desktop-environment",
       "ms.author": "jken",
       "author": "GrantMeStrength",
       "feedback_system": "Standard",
@@ -503,7 +503,7 @@
           "xaudio2/*.md": "drewbatgit",
           "xinput/*.md": "Karl-Bridge-Microsoft"	    
         },
-        "ms.technology":
+        "ms.subservice":
         {
           "audio-and-video.md": "audio-video",
           "devices.md": "devices",
