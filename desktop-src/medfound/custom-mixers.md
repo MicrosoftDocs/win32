@@ -8,6 +8,9 @@ ms.date: 05/31/2018
 
 # Custom Mixers
 
+[The component described on this page, [Enhanced Video Renderer](/windows/win32/medfound/enhanced-video-renderer), is a legacy feature. It has been superseded by the Simple Video Renderer (SVR) exposed through the [MediaPlayer](/uwp/api/windows.media.playback.mediaplayer) and [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine) components. To play video content you should send data into one of these components and allow them to instantiate the new video renderer.  These components have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** or the lower level **IMFMediaEngine** APIs to play video media in Windows instead of the EVR, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.]
+
+
 This topic describes how to write a custom mixer for the enhanced video renderer (EVR). You can use a custom mixer with either the Media Foundation EVR media sink, or the DirectShow EVR filter. For more information about mixers and presenters, see [Enhanced Video Renderer](enhanced-video-renderer.md).
 
 The mixer is a Media Foundation transform (MFT) with one or more inputs (the reference stream plus the substreams) and one output. The input stream receives samples from upstream. The output stream delivers samples to the presenter. The EVR is responsible for calling [**IMFTransform::ProcessInput**](/windows/desktop/api/mftransform/nf-mftransform-imftransform-processinput) on the mixer, and the presenter is responsible for calling [**IMFTransform::ProcessOutput**](/windows/desktop/api/mftransform/nf-mftransform-imftransform-processoutput).
