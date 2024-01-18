@@ -34,7 +34,7 @@ You can use a ProgID in programming situations where it is not possible to use a
 The format of a ProgID is <*Program*>.<*Component*>.<*Version*>, separated by periods and with no spaces, as in Word.Document.6. The ProgID must comply with the following requirements:
 
 -   Have no more than 39 characters.
--   Contain no punctuation (including underscores) except one or more periods.
+-   Contain no punctuation (including underscores and slashes) except one or more periods.
 -   Not start with a digit.
 -   Be different from the class name of any OLE 1 application, including the OLE 1 version of the same application, if there is one.
 
