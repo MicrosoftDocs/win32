@@ -5,7 +5,7 @@ ms.topic: reference
 ms.date: 01/23/2024
 ---
 
-# MF\_AUDIO\_DECODER\_AUDIO\_ENDPOINT\_DIGITAL\_STEREO\_ONLY attribute
+# MFT\_AUDIO\_DECODER\_AUDIO\_ENDPOINT\_DIGITAL\_STEREO\_ONLY attribute
 
 Specifies whether the audio endpoint device associated with an audio decoder MFT only supports uncompressed stereo signals.
 

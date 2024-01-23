@@ -13,9 +13,9 @@ The following attributes can be used by audio decoder MFTs.
 
 | Attribute                                                                                                     | Description                                                                                                 |
 |---------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|
-| [**MF\_AUDIO\_DECODER\_AUDIO\_ENDPOINT\_FORMFACTOR**](mft-audio-decoder-audio-endpoint-formfactor-attribute.md)     | Specifies the form factor for the audio endpoint device associated with an audio decoder MFT.                                                     |
-| [**MF\_AUDIO\_DECODER\_AUDIO\_ENDPOINT\_ID**](mft-audio-decoder-audio-endpoint-id-attribute.md) | Specifies the identifier for the audio endpoint device associated with an audio decoder MFT.                                                   |
-| [**MF\_AUDIO\_DECODER\_AUDIO\_ENDPOINT\_DIGITAL\_STEREO\_ONLY**](mft-audio-decoder-audio-endpoint-is-digital-stereo-only-attribute.md)                  | Specifies whether the audio endpoint device associated with an audio decoder MFT only supports uncompressed stereo signals.                                                             |
+| [**MFT\_AUDIO\_DECODER\_AUDIO\_ENDPOINT\_FORMFACTOR**](mft-audio-decoder-audio-endpoint-formfactor-attribute.md)     | Specifies the form factor for the audio endpoint device associated with an audio decoder MFT.                                                     |
+| [**MFT\_AUDIO\_DECODER\_AUDIO\_ENDPOINT\_ID**](mft-audio-decoder-audio-endpoint-id-attribute.md) | Specifies the identifier for the audio endpoint device associated with an audio decoder MFT.                                                   |
+| [**MFT\_AUDIO\_DECODER\_AUDIO\_ENDPOINT\_DIGITAL\_STEREO\_ONLY**](mft-audio-decoder-audio-endpoint-is-digital-stereo-only-attribute.md)                  | Specifies whether the audio endpoint device associated with an audio decoder MFT only supports uncompressed stereo signals.                                                             |
 
 
 

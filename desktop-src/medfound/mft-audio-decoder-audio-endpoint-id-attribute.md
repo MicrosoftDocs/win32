@@ -5,7 +5,7 @@ ms.topic: reference
 ms.date: 01/23/2024
 ---
 
-# MF\_AUDIO\_DECODER\_AUDIO\_ENDPOINT\_ID attribute
+# MFT\_AUDIO\_DECODER\_AUDIO\_ENDPOINT\_ID attribute
 
 Specifies the identifier for the audio endpoint device associated with an audio decoder MFT.
 
