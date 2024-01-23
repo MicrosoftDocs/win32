@@ -3629,6 +3629,12 @@
           href: mfstreamextension-cameraextrinsics.md
         - name: "MFStreamExtension_PinholeCameraIntrinsics"
           href: mfstreamextension-pinholecameraintrinsics.md
+        - name: "MFT_AUDIO_DECODER_AUDIO_ENDPOINT_FORMFACTOR"
+          href: mft-audio-decoder-audio-endpoint-formfactor-attribute.md
+        - name: "MFT_AUDIO_DECODER_AUDIO_ENDPOINT_ID"
+          href: mft-audio-decoder-audio-endpoint-id-attribute.md
+        - name: "MFT_AUDIO_DECODER_AUDIO_ENDPOINT_DIGITAL_STEREO_ONLY"
+          href: mft-audio-decoder-audio-endpoint-is-digital-stereo-only-attribute.md
         - name: "MFT_CODEC_MERIT_Attribute"
           href: mft-codec-merit-attribute.md
         - name: "MFT_CONNECTED_STREAM_ATTRIBUTE"
