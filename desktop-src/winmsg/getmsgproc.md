@@ -38,7 +38,7 @@ req.redist:
 
 ## -description
 
-An application-defined or library-defined callback function used with the [**SetWindowsHookExA**](/windows/win32/api/winuser/nf-winuser-setwindowshookexa)/[**SetWindowsHookExW**](/windows/win32/api/winuser/nf-winuser-setwindowshookexw) function. The system calls this function whenever the [**GetMessage**](/windows/win32/api/winuser/nf-winuser-getmessage) or [**PeekMessageA**](/windows/win32/api/winuser/nf-winuser-peekmessagea)/[**PeekMessageW**](/windows/win32/api/winuser/nf-winuser-peekmessagew) function has retrieved a message from an application message queue. Before returning the retrieved message to the caller, the system passes the message to the hook procedure. Before returning the retrieved message to the caller, the system passes the message to the hook procedure.
+An application-defined or library-defined callback function used with the [**SetWindowsHookExA**](/windows/win32/api/winuser/nf-winuser-setwindowshookexa)/[**SetWindowsHookExW**](/windows/win32/api/winuser/nf-winuser-setwindowshookexw) function. The system calls this function whenever the [**GetMessage**](/windows/win32/api/winuser/nf-winuser-getmessage) or [**PeekMessageA**](/windows/win32/api/winuser/nf-winuser-peekmessagea)/[**PeekMessageW**](/windows/win32/api/winuser/nf-winuser-peekmessagew) function has retrieved a message from an application message queue. Before returning the retrieved message to the caller, the system passes the message to the hook procedure. 
 
 The **HOOKPROC** type defines a pointer to this callback function. *GetMsgProc* is a placeholder for the application-defined or library-defined function name.
 
